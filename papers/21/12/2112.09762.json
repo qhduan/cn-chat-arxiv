@@ -1,0 +1,12 @@
+{
+    "title": "Reproducible and Portable Big Data Analytics in the Cloud. (arXiv:2112.09762v5 [cs.DC] UPDATED)",
+    "abstract": "Cloud computing has become a major approach to help reproduce computational experiments. Yet there are still two main difficulties in reproducing batch based big data analytics (including descriptive and predictive analytics) in the cloud. The first is how to automate end-to-end scalable execution of analytics including distributed environment provisioning, analytics pipeline description, parallel execution, and resource termination. The second is that an application developed for one cloud is difficult to be reproduced in another cloud, a.k.a. vendor lock-in problem. To tackle these problems, we leverage serverless computing and containerization techniques for automated scalable execution and reproducibility, and utilize the adapter design pattern to enable application portability and reproducibility across different clouds. We propose and develop an open-source toolkit that supports 1) fully automated end-to-end execution and reproduction via a single command, 2) automated data and c",
+    "link": "http://arxiv.org/abs/2112.09762",
+    "raw_ret": "{\n    \"translated_title\": \"云中可重现、可移植的大数据分析\",\n    \"translated_abstract\": \"云计算已成为帮助复现计算实验的主要途径，然而，在云中复现基于批处理的大数据分析(包括描述性和预测性分析)仍存在两个主要难点。第一个是如何自动化地执行可扩展的分析，包括分布式环境部署、分析管道描述、并行执行和资源终止。第二个是针对一个云平台开发的应用难以在另一个云平台上复现，也称为供应商锁定问题。为了解决这些问题，我们利用无服务器计算和容器化技术来实现自动化的可扩展执行和可重现性，并利用适配器设计模式来实现跨不同云的应用可移植性和可复现性。我们提出并开发了一个开源工具包，支持1)通过单个命令的完全自动化端到端执行和复制，2)自动化数据和c\",\n    \"tldr\": \"本文提出了一种云中可重现、可移植的大数据分析方法，使用无服务器计算和容器化技术实现自动化的可扩展执行和可重现性，并利用适配器设计模式实现跨不同云的应用可移植性和可复现性。\"\n}<|im_sep|>",
+    "total_tokens": 842,
+    "ret": {
+        "translated_title": "云中可重现、可移植的大数据分析",
+        "translated_abstract": "云计算已成为帮助复现计算实验的主要途径，然而，在云中复现基于批处理的大数据分析(包括描述性和预测性分析)仍存在两个主要难点。第一个是如何自动化地执行可扩展的分析，包括分布式环境部署、分析管道描述、并行执行和资源终止。第二个是针对一个云平台开发的应用难以在另一个云平台上复现，也称为供应商锁定问题。为了解决这些问题，我们利用无服务器计算和容器化技术来实现自动化的可扩展执行和可重现性，并利用适配器设计模式来实现跨不同云的应用可移植性和可复现性。我们提出并开发了一个开源工具包，支持1)通过单个命令的完全自动化端到端执行和复制，2)自动化数据和c",
+        "tldr": "本文提出了一种云中可重现、可移植的大数据分析方法，使用无服务器计算和容器化技术实现自动化的可扩展执行和可重现性，并利用适配器设计模式实现跨不同云的应用可移植性和可复现性。"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Exphormer: Sparse Transformers for Graphs. (arXiv:2303.06147v1 [cs.LG])",
+    "abstract": "Graph transformers have emerged as a promising architecture for a variety of graph learning and representation tasks. Despite their successes, though, it remains challenging to scale graph transformers to large graphs while maintaining accuracy competitive with message-passing networks. In this paper, we introduce Exphormer, a framework for building powerful and scalable graph transformers. Exphormer consists of a sparse attention mechanism based on two mechanisms: virtual global nodes and expander graphs, whose mathematical characteristics, such as spectral expansion, pseduorandomness, and sparsity, yield graph transformers with complexity only linear in the size of the graph, while allowing us to prove desirable theoretical properties of the resulting transformer models. We show that incorporating \\textsc{Exphormer} into the recently-proposed GraphGPS framework produces models with competitive empirical results on a wide variety of graph datasets, including state-of-the-art results o",
+    "link": "http://arxiv.org/abs/2303.06147",
+    "raw_ret": "{\n    \"translated_title\": \"Exphormer：用于图形的稀疏Transformer\",\n    \"translated_abstract\": \"图形Transformer已成为各种图形学习和表示任务的一种有前途的体系结构。尽管它们取得了成功，但在保持与消息传递网络竞争力的精度的同时将图形Transformer扩展到大型图形仍然具有挑战性。在本文中，我们介绍了Exphormer，这是一个构建强大而可扩展的图形Transformer的框架。Exphormer由基于两个机制的稀疏注意机制组成：虚拟全局节点和扩展图形，其数学特征（例如，谱展开、伪随机性和稀疏性）产生的图形Transformer的复杂度仅与图形的大小成线性关系，同时允许我们证明所得Transformer模型的理论性质。我们展示了将Exphormer纳入最近提出的GraphGPS框架会产生具有竞争实证结果的模型，包括各种图形数据集上的最新结果。\",\n    \"tldr\": \"Exphormer是一种新的图形Transformer架构，采用虚拟全局节点和扩展图形的稀疏注意机制，具有与消息传递网络相竞争的准确性和线性的复杂度。在广泛的图形数据集上，Exphormer在最近提出的GraphGPS框架中展现出有竞争力的实证结果。\"\n}",
+    "total_tokens": 876,
+    "ret": {
+        "translated_title": "Exphormer：用于图形的稀疏Transformer",
+        "translated_abstract": "图形Transformer已成为各种图形学习和表示任务的一种有前途的体系结构。尽管它们取得了成功，但在保持与消息传递网络竞争力的精度的同时将图形Transformer扩展到大型图形仍然具有挑战性。在本文中，我们介绍了Exphormer，这是一个构建强大而可扩展的图形Transformer的框架。Exphormer由基于两个机制的稀疏注意机制组成：虚拟全局节点和扩展图形，其数学特征（例如，谱展开、伪随机性和稀疏性）产生的图形Transformer的复杂度仅与图形的大小成线性关系，同时允许我们证明所得Transformer模型的理论性质。我们展示了将Exphormer纳入最近提出的GraphGPS框架会产生具有竞争实证结果的模型，包括各种图形数据集上的最新结果。",
+        "tldr": "Exphormer是一种新的图形Transformer架构，采用虚拟全局节点和扩展图形的稀疏注意机制，具有与消息传递网络相竞争的准确性和线性的复杂度。在广泛的图形数据集上，Exphormer在最近提出的GraphGPS框架中展现出有竞争力的实证结果。"
+    }
+}

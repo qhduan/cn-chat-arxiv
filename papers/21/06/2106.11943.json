@@ -1,0 +1,12 @@
+{
+    "title": "Reusing Combinatorial Structure: Faster Iterative Projections over Submodular Base Polytopes. (arXiv:2106.11943v3 [cs.LG] UPDATED)",
+    "abstract": "Optimization algorithms such as projected Newton's method, FISTA, mirror descent, and its variants enjoy near-optimal regret bounds and convergence rates, but suffer from a computational bottleneck of computing ``projections'' in potentially each iteration (e.g., $O(T^{1/2})$ regret of online mirror descent). On the other hand, conditional gradient variants solve a linear optimization in each iteration, but result in suboptimal rates (e.g., $O(T^{3/4})$ regret of online Frank-Wolfe). Motivated by this trade-off in runtime v/s convergence rates, we consider iterative projections of close-by points over widely-prevalent submodular base polytopes $B(f)$. We first give necessary and sufficient conditions for when two close points project to the same face of a polytope, and then show that points far away from the polytope project onto its vertices with high probability. We next use this theory and develop a toolkit to speed up the computation of iterative projections over submodular polytop",
+    "link": "http://arxiv.org/abs/2106.11943",
+    "raw_ret": "{\n    \"translated_title\": \"重用组合结构：在子模基底多面体上进行更快的迭代投影\",\n    \"translated_abstract\": \"优化算法如投影牛顿方法、FISTA、镜像下降及其变体具有近乎最优的遗憾界和收敛速率，但受到在可能的每次迭代中计算“投影”（例如，在线镜像下降的O（T^（1/2））遗憾）的计算瓶颈的影响。另一方面，条件梯度变体在每次迭代中解决线性优化，但结果是次优的速率（例如，在线Frank-Wolfe的O（T^（3/4））遗憾）。出于运行时间与收敛速率之间的这种权衡，我们考虑对紧密相邻的点进行迭代投影，以覆盖广泛存在的子模基底多面体B（f）。我们首先给出了两个相邻点投影到多面体的同一面的必要和充分条件，然后证明了远离多面体的点以高概率投影到其顶点上。接下来，我们利用这个理论并开发了一个工具包，加速了在子模多面体上进行迭代投影的计算\",\n    \"tldr\": \"该论文提出了一种加速迭代投影计算的工具包，该工具包是针对广泛存在的子模基底多面体B（f）的，该工具包能够在运行时间与收敛速率之间进行权衡\"\n}<|im_sep|>",
+    "total_tokens": 936,
+    "ret": {
+        "translated_title": "重用组合结构：在子模基底多面体上进行更快的迭代投影",
+        "translated_abstract": "优化算法如投影牛顿方法、FISTA、镜像下降及其变体具有近乎最优的遗憾界和收敛速率，但受到在可能的每次迭代中计算“投影”（例如，在线镜像下降的O（T^（1/2））遗憾）的计算瓶颈的影响。另一方面，条件梯度变体在每次迭代中解决线性优化，但结果是次优的速率（例如，在线Frank-Wolfe的O（T^（3/4））遗憾）。出于运行时间与收敛速率之间的这种权衡，我们考虑对紧密相邻的点进行迭代投影，以覆盖广泛存在的子模基底多面体B（f）。我们首先给出了两个相邻点投影到多面体的同一面的必要和充分条件，然后证明了远离多面体的点以高概率投影到其顶点上。接下来，我们利用这个理论并开发了一个工具包，加速了在子模多面体上进行迭代投影的计算",
+        "tldr": "该论文提出了一种加速迭代投影计算的工具包，该工具包是针对广泛存在的子模基底多面体B（f）的，该工具包能够在运行时间与收敛速率之间进行权衡"
+    }
+}

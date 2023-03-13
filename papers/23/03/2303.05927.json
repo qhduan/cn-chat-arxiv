@@ -1,0 +1,12 @@
+{
+    "title": "Estimating friction coefficient using generative modelling. (arXiv:2303.05927v1 [cs.CV])",
+    "abstract": "It is common to utilise dynamic models to measure the tyre-road friction in real-time. Alternatively, predictive approaches estimate the tyre-road friction by identifying the environmental factors affecting it. This work aims to formulate the problem of friction estimation as a visual perceptual learning task. The problem is broken down into detecting surface characteristics by applying semantic segmentation and using the extracted features to predict the frictional force. This work for the first time formulates the friction estimation problem as a regression from the latent space of a semantic segmentation model. The preliminary results indicate that this approach can estimate frictional force.",
+    "link": "http://arxiv.org/abs/2303.05927",
+    "raw_ret": "{\n    \"translated_title\": \"使用生成建模估计摩擦系数\",\n    \"translated_abstract\": \"通常使用动态模型实时测量轮胎与路面之间的摩擦系数。相反，预测方法通过识别影响摩擦系数的环境因素来估计轮胎与路面之间的摩擦系数。本文旨在将摩擦估计问题制定为视觉知觉学习任务。该问题通过应用语义分割来检测表面特征，并使用提取的特征来预测摩擦力。本研究首次将摩擦估计问题制定为从语义分割模型的潜在空间的回归问题。初步结果表明，这种方法可以估计摩擦力。\",\n    \"tldr\": \"本文提出了一种将摩擦估计问题制定为视觉感知学习任务的方法，可以通过检测表面特征来预测摩擦力。该方法为从语义分割模型的潜在空间的回归问题。\"\n}",
+    "total_tokens": 695,
+    "ret": {
+        "translated_title": "使用生成建模估计摩擦系数",
+        "translated_abstract": "通常使用动态模型实时测量轮胎与路面之间的摩擦系数。相反，预测方法通过识别影响摩擦系数的环境因素来估计轮胎与路面之间的摩擦系数。本文旨在将摩擦估计问题制定为视觉知觉学习任务。该问题通过应用语义分割来检测表面特征，并使用提取的特征来预测摩擦力。本研究首次将摩擦估计问题制定为从语义分割模型的潜在空间的回归问题。初步结果表明，这种方法可以估计摩擦力。",
+        "tldr": "本文提出了一种将摩擦估计问题制定为视觉感知学习任务的方法，可以通过检测表面特征来预测摩擦力。该方法为从语义分割模型的潜在空间的回归问题。"
+    }
+}

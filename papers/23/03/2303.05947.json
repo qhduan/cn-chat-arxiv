@@ -1,0 +1,12 @@
+{
+    "title": "Automotive Perception Software Development: An Empirical Investigation into Data, Annotation, and Ecosystem Challenges. (arXiv:2303.05947v1 [cs.SE])",
+    "abstract": "Software that contains machine learning algorithms is an integral part of automotive perception, for example, in driving automation systems. The development of such software, specifically the training and validation of the machine learning components, require large annotated datasets. An industry of data and annotation services has emerged to serve the development of such data-intensive automotive software components. Wide-spread difficulties to specify data and annotation needs challenge collaborations between OEMs (Original Equipment Manufacturers) and their suppliers of software components, data, and annotations. This paper investigates the reasons for these difficulties for practitioners in the Swedish automotive industry to arrive at clear specifications for data and annotations. The results from an interview study show that a lack of effective metrics for data quality aspects, ambiguities in the way of working, unclear definitions of annotation quality, and deficits in the busine",
+    "link": "http://arxiv.org/abs/2303.05947",
+    "raw_ret": "{\n    \"translated_title\": \"汽车感知软件开发：数据、注释和生态系统挑战的实证调查\",\n    \"translated_abstract\": \"包含机器学习算法的软件是汽车感知的重要组成部分，例如在驾驶自动化系统中。这种软件的开发，特别是机器学习组件的训练和验证，需要大量的注释数据集。一个数据和注释服务产业已经出现，为这种数据密集型汽车软件组件的开发提供服务。广泛存在的困难在于规定数据和注释需求，挑战OEM（原始设备制造商）与他们的软件组件、数据和注释供应商之间的合作。本文研究了瑞典汽车工业从业者在为数据和注释制定清晰规范方面遇到的困难的原因。一项访谈研究的结果表明，数据质量方面缺乏有效的指标、工作方式的歧义、注释质量的不清晰定义以及商业方面的缺陷都是原因。\",\n    \"tldr\": \"汽车感知软件中的机器学习算法的训练和验证需要大量的注释数据集。面向此类数据密集型汽车软件组件的数据和注释服务产业已经出现。面临挑战的是规定数据和注释需求，挑战OEM（原始设备制造商）与他们的软件组件、数据和注释供应商之间的合作。\"\n}<|im_sep|>",
+    "total_tokens": 868,
+    "ret": {
+        "translated_title": "汽车感知软件开发：数据、注释和生态系统挑战的实证调查",
+        "translated_abstract": "包含机器学习算法的软件是汽车感知的重要组成部分，例如在驾驶自动化系统中。这种软件的开发，特别是机器学习组件的训练和验证，需要大量的注释数据集。一个数据和注释服务产业已经出现，为这种数据密集型汽车软件组件的开发提供服务。广泛存在的困难在于规定数据和注释需求，挑战OEM（原始设备制造商）与他们的软件组件、数据和注释供应商之间的合作。本文研究了瑞典汽车工业从业者在为数据和注释制定清晰规范方面遇到的困难的原因。一项访谈研究的结果表明，数据质量方面缺乏有效的指标、工作方式的歧义、注释质量的不清晰定义以及商业方面的缺陷都是原因。",
+        "tldr": "汽车感知软件中的机器学习算法的训练和验证需要大量的注释数据集。面向此类数据密集型汽车软件组件的数据和注释服务产业已经出现。面临挑战的是规定数据和注释需求，挑战OEM（原始设备制造商）与他们的软件组件、数据和注释供应商之间的合作。"
+    }
+}

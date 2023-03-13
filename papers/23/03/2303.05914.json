@@ -1,0 +1,7 @@
+{
+    "title": "On the Value of Stochastic Side Information in Online Learning. (arXiv:2303.05914v1 [cs.LG])",
+    "abstract": "We study the effectiveness of stochastic side information in deterministic online learning scenarios. We propose a forecaster to predict a deterministic sequence where its performance is evaluated against an expert class. We assume that certain stochastic side information is available to the forecaster but not the experts. We define the minimax expected regret for evaluating the forecasters performance, for which we obtain both upper and lower bounds. Consequently, our results characterize the improvement in the regret due to the stochastic side information. Compared with the classical online learning problem with regret scales with O(\\sqrt(n)), the regret can be negative when the stochastic side information is more powerful than the experts. To illustrate, we apply the proposed bounds to two concrete examples of different types of side information.",
+    "link": "http://arxiv.org/abs/2303.05914",
+    "raw_ret": "{\n    \"translated_title\": \"关于在线学习中随机辅助信息的价值\",\n    \"translated_abstract\": \"我们研究了在确定性在线学习场景中随机辅助信息的有效性。我们提出了一种预测器来预测确定性序列，其中其性能针对专家类进行评估。我们假设某些随机辅助信息对于预测器而非专家可用。我们为评估预测器性能定义了最小化最大期望遗憾，我们获得了上限和下限。因此，我们的结果表征了由于随机辅助信息而导致的遗憾改进。与遗憾尺度为O（\\ sqrt（n））的经典在线学习问题相比，当随机辅助信息比专家更强大时，遗憾可以为负。为了说明，我们将所提出的界限应用于两个不同类型辅助信息的具体示例。\",\n    \"tldr\": \"本研究研究了确定性在线学习场景中随机辅助信息的有效性，定义了最小化最大期望遗憾，并获得了上限和下限。研究表明，当随机辅助信息比专家更强大时，遗憾可以为负。\"\n}<|im_sep|>",
+    "total_tokens": 795
+}

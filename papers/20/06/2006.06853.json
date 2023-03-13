@@ -1,0 +1,12 @@
+{
+    "title": "Maximal Objectives in the Multi-armed Bandit with Applications. (arXiv:2006.06853v6 [cs.LG] UPDATED)",
+    "abstract": "In several applications of the stochastic multi-armed bandit problem, the traditional objective of maximizing the expected total reward can be inappropriate. In this paper, motivated by certain operational concerns in online platforms, we consider a new objective in the classical setup. Given $K$ arms, instead of maximizing the expected total reward from $T$ pulls (the traditional \"sum\" objective), we consider the vector of total rewards earned from each of the $K$ arms at the end of $T$ pulls and aim to maximize the expected highest total reward across arms (the \"max\" objective). For this objective, we show that any policy must incur an instance-dependent asymptotic regret of $\\Omega(\\log T)$ (with a higher instance-dependent constant compared to the traditional objective) and a worst-case regret of $\\Omega(K^{1/3}T^{2/3})$. We then design an adaptive explore-then-commit policy featuring exploration based on appropriately tuned confidence bounds on the mean reward and an adaptive stop",
+    "link": "http://arxiv.org/abs/2006.06853",
+    "raw_ret": "{\n    \"translated_title\": \"在多臂老虎机问题中的最大化目标和应用\",\n    \"translated_abstract\": \"在随机多臂老虎机问题的几个应用中，最大化期望总回报的传统目标可能不适用。本文受在线平台中的某些运营问题的启发，考虑经典设置中的新目标。在给定K臂的情况下，我们不是最大化T次拉动的预期总回报（传统的“求和”目标），而是考虑到在T次拉动结束时从每个K臂获得的总回报向量，并旨在最大化跨臂的预期最高总回报（“最大”目标）。对于这个目标，我们证明任何策略必须承担Ω（log T）的实例相关渐进后悔（与传统目标相比，具有更高的实例相关常数）和Ω（K^1/3T^2/3）的最坏情况后悔。然后，我们设计了一个自适应的探索-执行策略，其中探索基于适当调整的置信界限，并带有自适应停止\",\n    \"tldr\": \"本文提出了在多臂老虎机问题中的新目标，即最大化跨臂的预期最高总回报，并设计了一个自适应的探索-执行策略来实现这一目标。该目标下策略必须承担Ω（log T）的实例相关渐进后悔和Ω（K^1/3T^2/3）的最坏情况后悔。\"\n}",
+    "total_tokens": 934,
+    "ret": {
+        "translated_title": "在多臂老虎机问题中的最大化目标和应用",
+        "translated_abstract": "在随机多臂老虎机问题的几个应用中，最大化期望总回报的传统目标可能不适用。本文受在线平台中的某些运营问题的启发，考虑经典设置中的新目标。在给定K臂的情况下，我们不是最大化T次拉动的预期总回报（传统的“求和”目标），而是考虑到在T次拉动结束时从每个K臂获得的总回报向量，并旨在最大化跨臂的预期最高总回报（“最大”目标）。对于这个目标，我们证明任何策略必须承担Ω（log T）的实例相关渐进后悔（与传统目标相比，具有更高的实例相关常数）和Ω（K^1/3T^2/3）的最坏情况后悔。然后，我们设计了一个自适应的探索-执行策略，其中探索基于适当调整的置信界限，并带有自适应停止",
+        "tldr": "本文提出了在多臂老虎机问题中的新目标，即最大化跨臂的预期最高总回报，并设计了一个自适应的探索-执行策略来实现这一目标。该目标下策略必须承担Ω（log T）的实例相关渐进后悔和Ω（K^1/3T^2/3）的最坏情况后悔。"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Sleep Quality Prediction from Wearables using Convolution Neural Networks and Ensemble Learning. (arXiv:2303.06028v1 [eess.SP])",
+    "abstract": "Sleep is among the most important factors affecting one's daily performance, well-being, and life quality. Nevertheless, it became possible to measure it in daily life in an unobtrusive manner with wearable devices. Rather than camera recordings and extraction of the state from the images, wrist-worn devices can measure directly via accelerometer, heart rate, and heart rate variability sensors. Some measured features can be as follows: time to bed, time out of bed, bedtime duration, minutes to fall asleep, and minutes after wake-up. There are several studies in the literature regarding sleep quality and stage prediction. However, they use only wearable data to predict or focus on the sleep stage. In this study, we use the NetHealth dataset, which is collected from 698 college students' via wearables, as well as surveys. Recently, there has been an advancement in deep learning algorithms, and they generally perform better than conventional machine learning techniques. Among them, Convol",
+    "link": "http://arxiv.org/abs/2303.06028",
+    "raw_ret": "{\n    \"translated_title\": \"使用卷积神经网络和集成学习从可穿戴设备预测睡眠质量\",\n    \"translated_abstract\": \"睡眠是影响人们日常表现，幸福感和生活质量的最重要的因素之一。然而，现在可以通过佩戴设备在日常生活中无伤害地测量它。与通过摄像机记录和从图像中提取状态不同，手腕佩戴的设备可以通过加速度计，心率和心率变异性传感器直接测量。一些测量功能如下：上床时间，起床时间，入睡时间，入睡时间，唤醒后几分钟。文献中有几项关于睡眠质量和阶段预测的研究。然而，他们仅使用可穿戴设备数据来预测或关注睡眠阶段。在本研究中，我们使用NetHealth数据集，该数据集从698名大学生的可穿戴设备和调查中收集而来。近年来，深度学习算法取得了进展，它们通常比传统机器学习技术表现更好。其中，卷积神经网络用于特征提取，然后与XGBoost和随机森林一起使用进行睡眠质量预测。\",\n    \"tldr\": \"本研究使用可穿戴设备和调查数据，结合卷积神经网络、XGBoost和随机森林预测睡眠质量。\"\n}<|im_sep|>",
+    "total_tokens": 917,
+    "ret": {
+        "translated_title": "使用卷积神经网络和集成学习从可穿戴设备预测睡眠质量",
+        "translated_abstract": "睡眠是影响人们日常表现，幸福感和生活质量的最重要的因素之一。然而，现在可以通过佩戴设备在日常生活中无伤害地测量它。与通过摄像机记录和从图像中提取状态不同，手腕佩戴的设备可以通过加速度计，心率和心率变异性传感器直接测量。一些测量功能如下：上床时间，起床时间，入睡时间，入睡时间，唤醒后几分钟。文献中有几项关于睡眠质量和阶段预测的研究。然而，他们仅使用可穿戴设备数据来预测或关注睡眠阶段。在本研究中，我们使用NetHealth数据集，该数据集从698名大学生的可穿戴设备和调查中收集而来。近年来，深度学习算法取得了进展，它们通常比传统机器学习技术表现更好。其中，卷积神经网络用于特征提取，然后与XGBoost和随机森林一起使用进行睡眠质量预测。",
+        "tldr": "本研究使用可穿戴设备和调查数据，结合卷积神经网络、XGBoost和随机森林预测睡眠质量。"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Scatter-based common spatial patterns -- a unified spatial filtering framework. (arXiv:2303.06019v1 [eess.SP])",
+    "abstract": "The common spatial pattern (CSP) approach is known as one of the most popular spatial filtering techniques for EEG classification in motor imagery (MI) based brain-computer interfaces (BCIs). However, it still suffers some drawbacks such as sensitivity to noise, non-stationarity, and limitation to binary classification.Therefore, we propose a novel spatial filtering framework called scaCSP based on the scatter matrices of spatial covariances of EEG signals, which works generally in both binary and multi-class problems whereas CSP can be cast into our framework as a special case when only the range space of the between-class scatter matrix is used in binary cases.We further propose subspace enhanced scaCSP algorithms which easily permit incorporating more discriminative information contained in other range spaces and null spaces of the between-class and within-class scatter matrices in two scenarios: a nullspace components reduction scenario and an additional spatial filter learning sce",
+    "link": "http://arxiv.org/abs/2303.06019",
+    "raw_ret": "{\n    \"translated_title\": \"基于散点的公共空间模式-统一的空间滤波框架\",\n    \"translated_abstract\": \"公共空间模式（CSP）方法是一种最受欢迎的EEG分类空间滤波技术，用于基于运动想象（MI）的脑机接口（BCIs）中。然而，它仍然存在一些缺点，例如对噪声，非稳态和二元分类的限制性敏感。因此，我们提出了一种基于EEG信号的空间协方差散点矩阵的新型空间滤波框架，称为scaCSP，可以在二元和多类问题中普遍使用，而CSP只能在二元情况下将其作为一种特殊情况进行处理，只使用范围空间。我们进一步提出了子空间增强的scaCSP算法，它可以轻松地将包含在其他类间散点矩阵和类内散点矩阵的其他范围空间和零空间中的更具有区分性的信息纳入其中，在两种情况下，即零空间分量减少场景和附加空间滤波器学习场景下。\",\n    \"tldr\": \"提出了一种新的空间滤波框架scaCSP，能够在二元和多类问题中普遍使用，并且可以轻松地将包含在其他散点矩阵中的更具有区分性的信息纳入其中\"\n}<|im_sep|>",
+    "total_tokens": 887,
+    "ret": {
+        "translated_title": "基于散点的公共空间模式-统一的空间滤波框架",
+        "translated_abstract": "公共空间模式（CSP）方法是一种最受欢迎的EEG分类空间滤波技术，用于基于运动想象（MI）的脑机接口（BCIs）中。然而，它仍然存在一些缺点，例如对噪声，非稳态和二元分类的限制性敏感。因此，我们提出了一种基于EEG信号的空间协方差散点矩阵的新型空间滤波框架，称为scaCSP，可以在二元和多类问题中普遍使用，而CSP只能在二元情况下将其作为一种特殊情况进行处理，只使用范围空间。我们进一步提出了子空间增强的scaCSP算法，它可以轻松地将包含在其他类间散点矩阵和类内散点矩阵的其他范围空间和零空间中的更具有区分性的信息纳入其中，在两种情况下，即零空间分量减少场景和附加空间滤波器学习场景下。",
+        "tldr": "提出了一种新的空间滤波框架scaCSP，能够在二元和多类问题中普遍使用，并且可以轻松地将包含在其他散点矩阵中的更具有区分性的信息纳入其中"
+    }
+}

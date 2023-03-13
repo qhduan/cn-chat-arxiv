@@ -1,0 +1,12 @@
+{
+    "title": "Machine learning for sports betting: should forecasting models be optimised for accuracy or calibration?. (arXiv:2303.06021v1 [cs.LG])",
+    "abstract": "Sports betting's recent federal legalisation in the USA coincides with the golden age of machine learning. If bettors can leverage data to accurately predict the probability of an outcome, they can recognise when the bookmaker's odds are in their favour. As sports betting is a multi-billion dollar industry in the USA alone, identifying such opportunities could be extremely lucrative. Many researchers have applied machine learning to the sports outcome prediction problem, generally using accuracy to evaluate the performance of forecasting models. We hypothesise that for the sports betting problem, model calibration is more important than accuracy. To test this hypothesis, we train models on NBA data over several seasons and run betting experiments on a single season, using published odds. Evaluating various betting systems, we show that optimising the forecasting model for calibration leads to greater returns than optimising for accuracy, on average (return on investment of $110.42\\%$ v",
+    "link": "http://arxiv.org/abs/2303.06021",
+    "raw_ret": "{\n    \"translated_title\": \"体育博彩的机器学习：预测模型应该优化精度还是校准？\",\n    \"translated_abstract\": \"美国体育博彩最近获得联邦合法化，这与机器学习的黄金时代相吻合。如果博彩者可以利用数据准确预测结果的概率，他们可以识别出书maker的赔率有利。由于仅在美国就是一个数十亿美元的产业，因此识别这种机会可能非常有利可图。许多研究人员已将机器学习应用于体育结果预测问题，通常使用准确性来评估预测模型的性能。我们假设，在体育博彩问题上，模型校准比准确性更重要。为了测试这个假设，我们在NBA数据上训练模型，并在一个赛季上运行博彩实验，使用已发布的赔率。通过评估各种博彩系统，我们表明，将预测模型优化到校准比将其优化到准确性产生更高的收益，平均回报率为110.42％\",\n    \"tldr\": \"本文研究了机器学习应用于体育博彩问题，提出对于这个问题，模型校准比准确性更重要，并使用NBA数据展示，将预测模型优化到校准比将其优化到准确性产生更高的收益\"\n}<|im_sep|>",
+    "total_tokens": 893,
+    "ret": {
+        "translated_title": "体育博彩的机器学习：预测模型应该优化精度还是校准？",
+        "translated_abstract": "美国体育博彩最近获得联邦合法化，这与机器学习的黄金时代相吻合。如果博彩者可以利用数据准确预测结果的概率，他们可以识别出书maker的赔率有利。由于仅在美国就是一个数十亿美元的产业，因此识别这种机会可能非常有利可图。许多研究人员已将机器学习应用于体育结果预测问题，通常使用准确性来评估预测模型的性能。我们假设，在体育博彩问题上，模型校准比准确性更重要。为了测试这个假设，我们在NBA数据上训练模型，并在一个赛季上运行博彩实验，使用已发布的赔率。通过评估各种博彩系统，我们表明，将预测模型优化到校准比将其优化到准确性产生更高的收益，平均回报率为110.42％",
+        "tldr": "本文研究了机器学习应用于体育博彩问题，提出对于这个问题，模型校准比准确性更重要，并使用NBA数据展示，将预测模型优化到校准比将其优化到准确性产生更高的收益"
+    }
+}

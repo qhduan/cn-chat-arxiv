@@ -1,0 +1,12 @@
+{
+    "title": "Pistol: Pupil Invisible Supportive Tool to extract Pupil, Iris, Eye Opening, Eye Movements, Pupil and Iris Gaze Vector, and 2D as well as 3D Gaze. (arXiv:2201.06799v2 [cs.CV] UPDATED)",
+    "abstract": "This paper describes a feature extraction and gaze estimation software, named \\textit{Pistol} that can be used with Pupil Invisible projects and other eye trackers in the future. In offline mode, our software extracts multiple features from the eye including, the pupil and iris ellipse, eye aperture, pupil vector, iris vector, eye movement types from pupil and iris velocities, marker detection, marker distance, 2D gaze estimation for the pupil center, iris center, pupil vector, and iris vector using Levenberg Marquart fitting and neural networks. The gaze signal is computed in 2D for each eye and each feature separately and for both eyes in 3D also for each feature separately. We hope this software helps other researchers to extract state-of-the-art features for their research out of their recordings.  Link: https://es-cloud.cs.uni-tuebingen.de/d/8e2ab8c3fdd444e1a135/?p=%2FPISTOL&mode=list",
+    "link": "http://arxiv.org/abs/2201.06799",
+    "raw_ret": "{\n    \"translated_title\": \"Pistol: 瞳孔不可见支持工具，提取瞳孔、虹膜、眼睛开口、眼动、瞳孔和虹膜凝视向量以及二维和三维凝视\",\n    \"translated_abstract\": \"本文介绍了一种特征提取和凝视估计软件，名为 Pistol，可以用于 Pupil Invisible 项目以及将来的其他眼动仪。在离线模式下，我们的软件从眼睛中提取多个特征，包括瞳孔和虹膜椭圆形、眼孔、瞳孔向量、虹膜向量、瞳孔和虹膜速度的眼动类型、标记检测、标记距离、使用 Levenberg Marquart 拟合和神经网络的瞳孔中心、虹膜中心、瞳孔向量和虹膜向量的二维凝视估计。凝视信号在每只眼睛和每个特征上分别以2D计算，并在3D中分别计算每个特征下的两只眼睛。我们希望这个软件能够帮助其他研究者从他们的记录中提取最先进的特征来进行研究。\",\n    \"tldr\": \"本文介绍了一种名为Pistol的工具，可以从眼睛中提取多个特征，并使用Levenberg Marquart拟合和神经网络来估计2D和3D凝视。这个工具有望帮助其他研究人员从他们的记录中提取最先进的特征。\"\n}<|im_sep|>",
+    "total_tokens": 987,
+    "ret": {
+        "translated_title": "Pistol: 瞳孔不可见支持工具，提取瞳孔、虹膜、眼睛开口、眼动、瞳孔和虹膜凝视向量以及二维和三维凝视",
+        "translated_abstract": "本文介绍了一种特征提取和凝视估计软件，名为 Pistol，可以用于 Pupil Invisible 项目以及将来的其他眼动仪。在离线模式下，我们的软件从眼睛中提取多个特征，包括瞳孔和虹膜椭圆形、眼孔、瞳孔向量、虹膜向量、瞳孔和虹膜速度的眼动类型、标记检测、标记距离、使用 Levenberg Marquart 拟合和神经网络的瞳孔中心、虹膜中心、瞳孔向量和虹膜向量的二维凝视估计。凝视信号在每只眼睛和每个特征上分别以2D计算，并在3D中分别计算每个特征下的两只眼睛。我们希望这个软件能够帮助其他研究者从他们的记录中提取最先进的特征来进行研究。",
+        "tldr": "本文介绍了一种名为Pistol的工具，可以从眼睛中提取多个特征，并使用Levenberg Marquart拟合和神经网络来估计2D和3D凝视。这个工具有望帮助其他研究人员从他们的记录中提取最先进的特征。"
+    }
+}

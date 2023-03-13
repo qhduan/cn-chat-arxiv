@@ -4,6 +4,10 @@
 
 也可以通过RSS阅读器订阅每个子项目的xml文件（例如人工智能领域是cs.AI.xml）
 
+订阅地址如：
+
+https://github.com/qhduan/cn-chat-arxiv/raw/master/cs.AI.xml
+
 ## 领域列表
 
 来源：

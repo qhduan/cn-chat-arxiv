@@ -1,0 +1,12 @@
+{
+    "title": "Advancing Spiking Neural Networks towards Deep Residual Learning. (arXiv:2112.08954v3 [cs.NE] UPDATED)",
+    "abstract": "Despite the rapid progress of neuromorphic computing, inadequate capacity and insufficient representation power of spiking neural networks (SNNs) severely restrict their application scope in practice. Residual learning and shortcuts have been evidenced as an important approach for training deep neural networks, but rarely did previous work assess their applicability to the characteristics of spike-based communication and spatiotemporal dynamics. In this paper, we first identify that this negligence leads to impeded information flow and the accompanying degradation problem in previous residual SNNs. To address this issue, we propose a novel SNN-oriented residual architecture termed MS-ResNet, which establishes membrane-based shortcut pathways, and further prove that the gradient norm equality can be achieved in MS-ResNet by introducing block dynamical isometry theory, which ensures the network can be well-behaved in a depth-insensitive way. Thus we are able to significantly extend the d",
+    "link": "http://arxiv.org/abs/2112.08954",
+    "raw_ret": "{\n    \"translated_title\": \"将脉冲神经网络推向深度残差学习\",\n    \"translated_abstract\": \"尽管神经形态计算取得了迅猛进展，但脉冲神经网络（SNNs）的容量不足和表征能力不足严重限制了它们在实践中的应用范围。残差学习和快捷方式被证明是训练深度神经网络的重要方法，但之前的工作很少评估它们对基于脉冲通信和时空动态特征的适用性。本文首先确定了这种忽视导致了以前的残差SNN中信息流受阻和相应的退化问题。为了解决这个问题，我们提出了一种新的面向SNN的残差架构MS-ResNet，建立了基于膜的快捷路径，并通过引入块动态等距理论证明了可以在MS-ResNet中实现梯度范数平等，从而确保网络可以以深度无关的方式表现良好。因此，我们能够显著扩展深度残差SNN的规模和性能。\",\n    \"tldr\": \"本文提出了一种新的面向SNN的残差架构MS-ResNet，通过建立基于膜的快捷路径并引入块动态等距理论证明可以在MS-ResNet中实现梯度范数平等，从而显著扩展深度残差SNN的规模和性能。\"\n}<|im_sep|>",
+    "total_tokens": 911,
+    "ret": {
+        "translated_title": "将脉冲神经网络推向深度残差学习",
+        "translated_abstract": "尽管神经形态计算取得了迅猛进展，但脉冲神经网络（SNNs）的容量不足和表征能力不足严重限制了它们在实践中的应用范围。残差学习和快捷方式被证明是训练深度神经网络的重要方法，但之前的工作很少评估它们对基于脉冲通信和时空动态特征的适用性。本文首先确定了这种忽视导致了以前的残差SNN中信息流受阻和相应的退化问题。为了解决这个问题，我们提出了一种新的面向SNN的残差架构MS-ResNet，建立了基于膜的快捷路径，并通过引入块动态等距理论证明了可以在MS-ResNet中实现梯度范数平等，从而确保网络可以以深度无关的方式表现良好。因此，我们能够显著扩展深度残差SNN的规模和性能。",
+        "tldr": "本文提出了一种新的面向SNN的残差架构MS-ResNet，通过建立基于膜的快捷路径并引入块动态等距理论证明可以在MS-ResNet中实现梯度范数平等，从而显著扩展深度残差SNN的规模和性能。"
+    }
+}

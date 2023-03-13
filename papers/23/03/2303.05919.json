@@ -1,0 +1,12 @@
+{
+    "title": "eBPF-based Working Set Size Estimation in Memory Management. (arXiv:2303.05919v1 [cs.PF])",
+    "abstract": "Working set size estimation (WSS) is of great significance to improve the efficiency of program executing and memory arrangement in modern operating systems. Previous work proposed several methods to estimate WSS, including self-balloning, Zballoning and so on. However, these methods which are based on virtual machine usually cause a large overhead. Thus, using those methods to estimate WSS is impractical. In this paper, we propose a novel framework to efficiently estimate WSS with eBPF (extended Berkeley Packet Filter), a cutting-edge technology which monitors and filters data by being attached to the kernel. With an eBPF program pinned into the kernel, we get the times of page fault and other information of memory allocation. Moreover, we collect WSS via vanilla tool to train a predictive model to complete estimation work with LightGBM, a useful tool which performs well on generating decision trees over continuous value. The experimental results illustrate that our framework can esti",
+    "link": "http://arxiv.org/abs/2303.05919",
+    "raw_ret": "{\n    \"translated_title\": \"基于eBPF的内存管理工作集大小估计\",\n    \"translated_abstract\": \"工作集大小估计(WSS)对于提高现代操作系统中程序执行和内存排布的效率具有重要意义。先前的工作提出了几种估算WSS的方法，包括自我充气、Z充气等。然而，这些基于虚拟机的方法通常会导致较大的开销。因此，使用这些方法来估算WSS是不实际的。本文提出了一个新的框架，使用eBPF(扩展伯克利数据包过滤器)，这是一种最先进的技术，通过与内核连接来监控和过滤数据。使用固定到内核的eBPF程序，我们可以得到页面错误等内存分配信息的时间。此外，我们通过使用vanilla工具收集WSS，用LightGBM训练预测模型来完成估算工作，LightGBM是一个在连续值上生成决策树的有用工具。实验结果表明，我们的框架可以有效地估算WSS。\",\n    \"tldr\": \"本文提出了一种基于eBPF的内存管理工作集大小估计框架，可有效估算WSS，避免了基于虚拟机的方法的较大开销。\"\n}<|im_sep|>",
+    "total_tokens": 839,
+    "ret": {
+        "translated_title": "基于eBPF的内存管理工作集大小估计",
+        "translated_abstract": "工作集大小估计(WSS)对于提高现代操作系统中程序执行和内存排布的效率具有重要意义。先前的工作提出了几种估算WSS的方法，包括自我充气、Z充气等。然而，这些基于虚拟机的方法通常会导致较大的开销。因此，使用这些方法来估算WSS是不实际的。本文提出了一个新的框架，使用eBPF(扩展伯克利数据包过滤器)，这是一种最先进的技术，通过与内核连接来监控和过滤数据。使用固定到内核的eBPF程序，我们可以得到页面错误等内存分配信息的时间。此外，我们通过使用vanilla工具收集WSS，用LightGBM训练预测模型来完成估算工作，LightGBM是一个在连续值上生成决策树的有用工具。实验结果表明，我们的框架可以有效地估算WSS。",
+        "tldr": "本文提出了一种基于eBPF的内存管理工作集大小估计框架，可有效估算WSS，避免了基于虚拟机的方法的较大开销。"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "title": "A novel notion of barycenter for probability distributions based on optimal weak mass transport. (arXiv:2102.13380v4 [stat.ML] UPDATED)",
+    "abstract": "We introduce weak barycenters of a family of probability distributions, based on the recently developed notion of optimal weak transport of mass by Gozlanet al. (2017) and Backhoff-Veraguas et al. (2020). We provide a theoretical analysis of this object and discuss its interpretation in the light of convex ordering between probability measures. In particular, we show that, rather than averaging the input distributions in a geometric way (as the Wasserstein barycenter based on classic optimal transport does) weak barycenters extract common geometric information shared by all the input distributions, encoded as a latent random variable that underlies all of them. We also provide an iterative algorithm to compute a weak barycenter for a finite family of input distributions, and a stochastic algorithm that computes them for arbitrary populations of laws. The latter approach is particularly well suited for the streaming setting, i.e., when distributions are observed sequentially. The notion",
+    "link": "http://arxiv.org/abs/2102.13380",
+    "raw_ret": "{\n    \"translated_title\": \"一种基于最优弱传输的概率分布重心新概念。\",\n    \"translated_abstract\": \"我们基于Gozlan等人（2017年）和Backhoff-Veraguas等人（2020年）最近开发的最优弱传输概念，介绍了一类概率分布的弱重心。我们对这个对象进行了理论分析，并在凸有序概率测度之间的背景下讨论了它的解释。特别地，我们展示了，与基于经典最优传输的Wasserstein重心以几何方式平均输入分布不同的是，弱重心提取所有输入分布共享的常见几何信息，作为潜在的随机变量，这些输入分布都有基础的。我们还提供了一种计算有限输入分布的弱重心的迭代算法，以及计算任意法律人口的弱重心的随机算法。后一种方法特别适用于流式设置，即顺序观察分布的情况。\",\n    \"tldr\": \"本文介绍了一种基于最优弱传输的概率分布重心的新概念。与传统的Wasserstein重心不同，它提取了所有输入分布共享的常见几何信息，作为潜在的随机变量，这些输入分布都有基础的。同时提供了适用于不同场景的计算算法。\"\n}<|im_sep|>",
+    "total_tokens": 875,
+    "ret": {
+        "translated_title": "一种基于最优弱传输的概率分布重心新概念。",
+        "translated_abstract": "我们基于Gozlan等人（2017年）和Backhoff-Veraguas等人（2020年）最近开发的最优弱传输概念，介绍了一类概率分布的弱重心。我们对这个对象进行了理论分析，并在凸有序概率测度之间的背景下讨论了它的解释。特别地，我们展示了，与基于经典最优传输的Wasserstein重心以几何方式平均输入分布不同的是，弱重心提取所有输入分布共享的常见几何信息，作为潜在的随机变量，这些输入分布都有基础的。我们还提供了一种计算有限输入分布的弱重心的迭代算法，以及计算任意法律人口的弱重心的随机算法。后一种方法特别适用于流式设置，即顺序观察分布的情况。",
+        "tldr": "本文介绍了一种基于最优弱传输的概率分布重心的新概念。与传统的Wasserstein重心不同，它提取了所有输入分布共享的常见几何信息，作为潜在的随机变量，这些输入分布都有基础的。同时提供了适用于不同场景的计算算法。"
+    }
+}
