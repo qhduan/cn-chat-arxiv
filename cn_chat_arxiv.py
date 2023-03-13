@@ -146,7 +146,7 @@ def make_rss(rets, arxiv_class):
 {x['title']}
 </p>
 <p>
-[{x['link']}]({x['link']})
+{x['link']}
 </p>
 <p>
 {ta}
