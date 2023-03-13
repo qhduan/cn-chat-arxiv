@@ -1,0 +1,12 @@
+{
+    "title": "ABAW: Valence-Arousal Estimation, Expression Recognition, Action Unit Detection & Emotional Reaction Intensity Estimation Challenges. (arXiv:2303.01498v2 [cs.CV] UPDATED)",
+    "abstract": "The fifth Affective Behavior Analysis in-the-wild (ABAW) Competition is part of the respective ABAW Workshop which will be held in conjunction with IEEE Computer Vision and Pattern Recognition Conference (CVPR), 2023. The 5th ABAW Competition is a continuation of the Competitions held at ECCV 2022, IEEE CVPR 2022, ICCV 2021, IEEE FG 2020 and CVPR 2017 Conferences, and is dedicated at automatically analyzing affect. For this year's Competition, we feature two corpora: i) an extended version of the Aff-Wild2 database and ii) the Hume-Reaction dataset. The former database is an audiovisual one of around 600 videos of around 3M frames and is annotated with respect to:a) two continuous affect dimensions -valence (how positive/negative a person is) and arousal (how active/passive a person is)-; b) basic expressions (e.g. happiness, sadness, neutral state); and c) atomic facial muscle actions (i.e., action units). The latter dataset is an audiovisual one in which reactions of individuals to e",
+    "link": "http://arxiv.org/abs/2303.01498",
+    "raw_ret": "{\n    \"translated_title\": \"ABAW: 音高 - 激活度估计、表情识别、动作单元检测和情感反应强度估计挑战\",\n    \"translated_abstract\": \"第五届野外情感行为分析（ABAW）竞赛是相应的ABAW研讨会的一部分，将与2023年IEEE计算机视觉和模式识别会议（CVPR）一起举行。第五届ABAW竞赛是在ECCV 2022、IEEE CVPR 2022、ICCV 2021、IEEE FG 2020和CVPR 2017会议上举办的竞赛的延续，旨在自动分析情感。对于今年的比赛，我们提供了两个语料库：i）Aff-Wild2数据库的扩展版本和ii）Hume-Reaction数据集。前一数据库是一个约600个视频的音频视觉数据库，大约为3M帧，并且针对：a）两个连续的情感维度-音高（一个人的积极/消极程度）和激活度（一个人是多么活跃/被动）-；b）基本表情（例如，快乐，悲伤，中性状态）；以及c）原子面部肌肉动作（即，动作单元）进行注释。后一个数据集是一个音频视觉数据集，其中个体的反应是...\",\n    \"tldr\": \"ABAW竞赛旨在自动分析情感。今年的竞赛提供了两个数据集：Aff-Wild2和Hume-Reaction。前者约包含600个视频和3M帧，标注了两个连续的情感维度和基本表情，以及原子面部肌肉动作。后者记录了个体对某些刺激的反应。\"\n}<|im_sep|>",
+    "total_tokens": 1026,
+    "ret": {
+        "translated_title": "ABAW: 音高 - 激活度估计、表情识别、动作单元检测和情感反应强度估计挑战",
+        "translated_abstract": "第五届野外情感行为分析（ABAW）竞赛是相应的ABAW研讨会的一部分，将与2023年IEEE计算机视觉和模式识别会议（CVPR）一起举行。第五届ABAW竞赛是在ECCV 2022、IEEE CVPR 2022、ICCV 2021、IEEE FG 2020和CVPR 2017会议上举办的竞赛的延续，旨在自动分析情感。对于今年的比赛，我们提供了两个语料库：i）Aff-Wild2数据库的扩展版本和ii）Hume-Reaction数据集。前一数据库是一个约600个视频的音频视觉数据库，大约为3M帧，并且针对：a）两个连续的情感维度-音高（一个人的积极/消极程度）和激活度（一个人是多么活跃/被动）-；b）基本表情（例如，快乐，悲伤，中性状态）；以及c）原子面部肌肉动作（即，动作单元）进行注释。后一个数据集是一个音频视觉数据集，其中个体的反应是...",
+        "tldr": "ABAW竞赛旨在自动分析情感。今年的竞赛提供了两个数据集：Aff-Wild2和Hume-Reaction。前者约包含600个视频和3M帧，标注了两个连续的情感维度和基本表情，以及原子面部肌肉动作。后者记录了个体对某些刺激的反应。"
+    }
+}

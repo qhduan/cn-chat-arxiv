@@ -1,0 +1,12 @@
+{
+    "title": "Model-based Causal Bayesian Optimization. (arXiv:2211.10257v2 [cs.LG] UPDATED)",
+    "abstract": "How should we intervene on an unknown structural equation model to maximize a downstream variable of interest? This setting, also known as causal Bayesian optimization (CBO), has important applications in medicine, ecology, and manufacturing. Standard Bayesian optimization algorithms fail to effectively leverage the underlying causal structure. Existing CBO approaches assume noiseless measurements and do not come with guarantees. We propose the model-based causal Bayesian optimization algorithm (MCBO) that learns a full system model instead of only modeling intervention-reward pairs. MCBO propagates epistemic uncertainty about the causal mechanisms through the graph and trades off exploration and exploitation via the optimism principle. We bound its cumulative regret, and obtain the first non-asymptotic bounds for CBO. Unlike in standard Bayesian optimization, our acquisition function cannot be evaluated in closed form, so we show how the reparameterization trick can be used to apply g",
+    "link": "http://arxiv.org/abs/2211.10257",
+    "raw_ret": "{\n    \"translated_title\": \"基于模型的因果贝叶斯优化\",\n    \"translated_abstract\": \"在一个未知的结构方程模型上如何干预以最大化感兴趣的下游变量？这种情况被称为因果贝叶斯优化（CBO），在医学、生态和制造业中有重要的应用。标准的贝叶斯优化算法未能有效利用潜在的因果结构。现有的CBO方法假定噪声测量是无噪声的，并且没有保证。我们提出了基于模型的因果贝叶斯优化算法（MCBO），它学习一个完整的系统模型，而不仅仅是对干预-奖励对进行建模。MCBO通过图形传播关于因果机制的认知不确定性，并通过乐观原则权衡探索和开发。我们界定了其累积后悔，并获得了CBO的第一个非渐进界限。与标准的贝叶斯优化不同，我们的获取函数无法以闭式形式评估，因此我们展示了如何使用重新参数化技巧来应用g。\",\n    \"tldr\": \"提出了一种基于模型的因果贝叶斯优化算法（MCBO），它学习一个完整的系统模型并通过乐观原则权衡探索和开发，获得了CBO的第一个非渐进界限。\"\n}<|im_sep|>",
+    "total_tokens": 856,
+    "ret": {
+        "translated_title": "基于模型的因果贝叶斯优化",
+        "translated_abstract": "在一个未知的结构方程模型上如何干预以最大化感兴趣的下游变量？这种情况被称为因果贝叶斯优化（CBO），在医学、生态和制造业中有重要的应用。标准的贝叶斯优化算法未能有效利用潜在的因果结构。现有的CBO方法假定噪声测量是无噪声的，并且没有保证。我们提出了基于模型的因果贝叶斯优化算法（MCBO），它学习一个完整的系统模型，而不仅仅是对干预-奖励对进行建模。MCBO通过图形传播关于因果机制的认知不确定性，并通过乐观原则权衡探索和开发。我们界定了其累积后悔，并获得了CBO的第一个非渐进界限。与标准的贝叶斯优化不同，我们的获取函数无法以闭式形式评估，因此我们展示了如何使用重新参数化技巧来应用g。",
+        "tldr": "提出了一种基于模型的因果贝叶斯优化算法（MCBO），它学习一个完整的系统模型并通过乐观原则权衡探索和开发，获得了CBO的第一个非渐进界限。"
+    }
+}

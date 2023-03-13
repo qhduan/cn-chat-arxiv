@@ -1,0 +1,12 @@
+{
+    "title": "Diagnosing Model Performance Under Distribution Shift. (arXiv:2303.02011v2 [stat.ML] UPDATED)",
+    "abstract": "Prediction models can perform poorly when deployed to target distributions different from the training distribution. To understand these operational failure modes, we develop a method, called DIstribution Shift DEcomposition (DISDE), to attribute a drop in performance to different types of distribution shifts. Our approach decomposes the performance drop into terms for 1) an increase in harder but frequently seen examples from training, 2) changes in the relationship between features and outcomes, and 3) poor performance on examples infrequent or unseen during training. These terms are defined by fixing a distribution on $X$ while varying the conditional distribution of $Y \\mid X$ between training and target, or by fixing the conditional distribution of $Y \\mid X$ while varying the distribution on $X$. In order to do this, we define a hypothetical distribution on $X$ consisting of values common in both training and target, over which it is easy to compare $Y \\mid X$ and thus predictive",
+    "link": "http://arxiv.org/abs/2303.02011",
+    "raw_ret": "{\n    \"translated_title\": \"针对分布变化诊断模型性能\",\n    \"translated_abstract\": \"当部署到与训练分布不同的目标分布时，预测模型可能表现不佳。为了理解这些操作失效模式，我们开发了一种称为DIstribution Shift DEcomposition（DISDE）的方法，将性能下降归因于不同类型的分布移位。我们的方法将性能下降分解为以下几个方面：1）训练集中更难但经常见的例子的增加，2）特征和结果之间的关系变化，以及3）在训练期间罕见或未见的例子表现不佳。这些术语是通过在固定$X$上的分布的同时，改变$Y|X$的条件分布在训练和目标之间的方式，或者通过在固定$Y|X$的条件分布的同时，改变$X$上的分布来定义的。为了做到这一点，我们定义了一个假设的分布$X$，其中包含在训练和目标中都常见的值，通过这个分布很容易比较$Y|X$并进行预测。\",\n    \"tldr\": \"当预测模型在目标分布上表现不佳时，我们提出了一种方法DISDE，用于将性能下降归因于不同类型的分布移位。该方法将性能下降分解为难例增多、特征与结果的关系变化以及在训练期间罕见或未见的例子表现不佳。\"\n}<|im_sep|>",
+    "total_tokens": 905,
+    "ret": {
+        "translated_title": "针对分布变化诊断模型性能",
+        "translated_abstract": "当部署到与训练分布不同的目标分布时，预测模型可能表现不佳。为了理解这些操作失效模式，我们开发了一种称为DIstribution Shift DEcomposition（DISDE）的方法，将性能下降归因于不同类型的分布移位。我们的方法将性能下降分解为以下几个方面：1）训练集中更难但经常见的例子的增加，2）特征和结果之间的关系变化，以及3）在训练期间罕见或未见的例子表现不佳。这些术语是通过在固定$X$上的分布的同时，改变$Y|X$的条件分布在训练和目标之间的方式，或者通过在固定$Y|X$的条件分布的同时，改变$X$上的分布来定义的。为了做到这一点，我们定义了一个假设的分布$X$，其中包含在训练和目标中都常见的值，通过这个分布很容易比较$Y|X$并进行预测。",
+        "tldr": "当预测模型在目标分布上表现不佳时，我们提出了一种方法DISDE，用于将性能下降归因于不同类型的分布移位。该方法将性能下降分解为难例增多、特征与结果的关系变化以及在训练期间罕见或未见的例子表现不佳。"
+    }
+}

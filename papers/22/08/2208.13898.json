@@ -1,0 +1,12 @@
+{
+    "title": "Conjugate Natural Selection: Fisher-Rao Natural Gradient Descent Optimally Approximates Evolutionary Dynamics and Continuous Bayesian Inference. (arXiv:2208.13898v3 [cs.LG] UPDATED)",
+    "abstract": "Rather than refining individual candidate solutions for a general non-convex optimization problem, by analogy to evolution, we consider minimizing the average loss for a parametric distribution over hypotheses. In this setting, we prove that Fisher-Rao natural gradient descent (FR-NGD) optimally approximates the continuous-time replicator equation (an essential model of evolutionary dynamics) by minimizing the mean-squared error for the relative fitness of competing hypotheses. We term this finding \"conjugate natural selection\" and demonstrate its utility by numerically solving an example non-convex optimization problem over a continuous strategy space. Next, by developing known connections between discrete-time replicator dynamics and Bayes's rule, we show that when absolute fitness corresponds to the negative KL-divergence of a hypothesis's predictions from actual observations, FR-NGD provides the optimal approximation of continuous Bayesian inference. We use this result to demonstra",
+    "link": "http://arxiv.org/abs/2208.13898",
+    "raw_ret": "{\n    \"translated_title\": \"共轭自然选择：Fisher-Rao自然梯度下降在最优地近似进化动态和连续贝叶斯推断中的应用\",\n    \"translated_abstract\": \"本文不是针对一般的非凸优化问题对单个候选解进行改进，而是通过类比于进化，考虑对假设的参数分布进行平均损失最小化。在这个设置中，我们证明了Fisher-Rao自然梯度下降（FR-NGD）通过最小化竞争假设的相对适应性的均方误差，最优地近似了连续时间复制者方程（一种重要的进化动态模型）。我们将这一发现称为“共轭自然选择”，并通过在连续策略空间上数值求解一个非凸优化问题来证明其实用性。接下来，通过发展已知的离散时间复制者动态与贝叶斯规则之间的联系，我们展示了当绝对适应度对应于假设预测与实际观测的负KL-散度时，FR-NGD提供了连续贝叶斯推断的最优近似。我们利用这个结果来证明\",\n    \"tldr\": \"本文提出“共轭自然选择”的概念，证明了Fisher-Rao自然梯度下降（FR-NGD）在最优地近似进化动态和连续贝叶斯推断中具有实用性。\"\n}<|im_sep|>",
+    "total_tokens": 899,
+    "ret": {
+        "translated_title": "共轭自然选择：Fisher-Rao自然梯度下降在最优地近似进化动态和连续贝叶斯推断中的应用",
+        "translated_abstract": "本文不是针对一般的非凸优化问题对单个候选解进行改进，而是通过类比于进化，考虑对假设的参数分布进行平均损失最小化。在这个设置中，我们证明了Fisher-Rao自然梯度下降（FR-NGD）通过最小化竞争假设的相对适应性的均方误差，最优地近似了连续时间复制者方程（一种重要的进化动态模型）。我们将这一发现称为“共轭自然选择”，并通过在连续策略空间上数值求解一个非凸优化问题来证明其实用性。接下来，通过发展已知的离散时间复制者动态与贝叶斯规则之间的联系，我们展示了当绝对适应度对应于假设预测与实际观测的负KL-散度时，FR-NGD提供了连续贝叶斯推断的最优近似。我们利用这个结果来证明",
+        "tldr": "本文提出“共轭自然选择”的概念，证明了Fisher-Rao自然梯度下降（FR-NGD）在最优地近似进化动态和连续贝叶斯推断中具有实用性。"
+    }
+}

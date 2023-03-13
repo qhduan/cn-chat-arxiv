@@ -1,0 +1,12 @@
+{
+    "title": "Tensor Denoising via Amplification and Stable Rank Methods. (arXiv:2301.03761v2 [cs.LG] UPDATED)",
+    "abstract": "Tensors in the form of multilinear arrays are ubiquitous in data science applications. Captured real-world data, including video, hyperspectral images, and discretized physical systems, naturally occur as tensors and often come with attendant noise. Under the additive noise model and with the assumption that the underlying clean tensor has low rank, many denoising methods have been created that utilize tensor decomposition to effect denoising through low rank tensor approximation. However, all such decomposition methods require estimating the tensor rank, or related measures such as the tensor spectral and nuclear norms, all of which are NP-hard problems.  In this work we leverage our previously developed framework of $\\textit{tensor amplification}$, which provides good approximations of the spectral and nuclear tensor norms, to denoising synthetic tensors of various sizes, ranks, and noise levels, along with real-world tensors derived from physiological signals. We also introduce two ",
+    "link": "http://arxiv.org/abs/2301.03761",
+    "raw_ret": "{\n    \"translated_title\": \"张量通过扩增和稳定秩方法去噪\",\n    \"translated_abstract\": \"在数据科学应用中，多线性数组形式的张量无处不在。捕捉到的现实世界数据，包括视频、高光谱图像和离散的物理系统，自然而然地成为张量，并经常伴随着噪声。在加性噪声模型下，假设潜在的干净张量具有低秩，已经创建了许多去噪方法，这些方法利用张量分解通过低秩张量逼近进行去噪。然而，所有这些分解方法都需要估计张量秩，或类似的度量，如张量谱和核范数，所有这些都是NP-硬问题。在这项工作中，我们利用我们之前开发的$\\textit{张量扩增}$框架，该框架提供了谱张量范数和核张量范数的良好近似值，以去除各种大小、等级和噪声水平的合成张量，以及从生理信号导出的真实世界张量。我们还介绍了两个\",\n    \"tldr\": \"本文提出了一种张量扩增方法以及稳定秩方法进行去噪，无需估计张量秩和张量谱核范数等NP难问题。\"\n}",
+    "total_tokens": 849,
+    "ret": {
+        "translated_title": "张量通过扩增和稳定秩方法去噪",
+        "translated_abstract": "在数据科学应用中，多线性数组形式的张量无处不在。捕捉到的现实世界数据，包括视频、高光谱图像和离散的物理系统，自然而然地成为张量，并经常伴随着噪声。在加性噪声模型下，假设潜在的干净张量具有低秩，已经创建了许多去噪方法，这些方法利用张量分解通过低秩张量逼近进行去噪。然而，所有这些分解方法都需要估计张量秩，或类似的度量，如张量谱和核范数，所有这些都是NP-硬问题。在这项工作中，我们利用我们之前开发的$\textit{张量扩增}$框架，该框架提供了谱张量范数和核张量范数的良好近似值，以去除各种大小、等级和噪声水平的合成张量，以及从生理信号导出的真实世界张量。我们还介绍了两个",
+        "tldr": "本文提出了一种张量扩增方法以及稳定秩方法进行去噪，无需估计张量秩和张量谱核范数等NP难问题。"
+    }
+}

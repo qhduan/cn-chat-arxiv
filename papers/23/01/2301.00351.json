@@ -1,0 +1,12 @@
+{
+    "title": "Skew Class-balanced Re-weighting for Unbiased Scene Graph Generation. (arXiv:2301.00351v2 [cs.LG] UPDATED)",
+    "abstract": "An unbiased scene graph generation (SGG) algorithm referred to as Skew Class-balanced Re-weighting (SCR) is proposed for considering the unbiased predicate prediction caused by the long-tailed distribution. The prior works focus mainly on alleviating the deteriorating performances of the minority predicate predictions, showing drastic dropping recall scores, i.e., losing the majority predicate performances. It has not yet correctly analyzed the trade-off between majority and minority predicate performances in the limited SGG datasets. In this paper, to alleviate the issue, the Skew Class-balanced Re-weighting (SCR) loss function is considered for the unbiased SGG models. Leveraged by the skewness of biased predicate predictions, the SCR estimates the target predicate weight coefficient and then re-weights more to the biased predicates for better trading-off between the majority predicates and the minority ones. Extensive experiments conducted on the standard Visual Genome dataset and O",
+    "link": "http://arxiv.org/abs/2301.00351",
+    "raw_ret": "{\n    \"translated_title\": \"针对不偏场景图生成的偏斜类平衡重新加权算法\",\n    \"translated_abstract\": \"本文提出了一种称为偏斜类平衡重新加权（SCR）的不偏场景图生成（SGG）算法，以考虑长尾分布造成的不偏谓词预测。之前的研究主要集中于减轻少数谓词预测的恶化表现，显示出急剧下降的召回得分，即丢失大多数谓词的表现。它还没有在有限的SGG数据集中正确分析大多数和少数谓词表现之间的权衡。为了缓解这个问题，本文考虑了偏斜类平衡重新加权（SCR）损失函数来进行不偏的SGG模型。借助于偏斜谓词预测的偏斜性，SCR估计目标谓词权重系数，然后重新加权更多偏斜谓词，以更好地权衡大多数谓词和少数谓词。对标准视觉基因组数据集和O进行了大量实验\",\n    \"tldr\": \"本文提出了一种称为偏斜类平衡重新加权（SCR）的不偏场景图生成（SGG）算法，通过重新加权更多偏斜谓词来更好地权衡大多数谓词和少数谓词\"\n}<|im_sep|>",
+    "total_tokens": 871,
+    "ret": {
+        "translated_title": "针对不偏场景图生成的偏斜类平衡重新加权算法",
+        "translated_abstract": "本文提出了一种称为偏斜类平衡重新加权（SCR）的不偏场景图生成（SGG）算法，以考虑长尾分布造成的不偏谓词预测。之前的研究主要集中于减轻少数谓词预测的恶化表现，显示出急剧下降的召回得分，即丢失大多数谓词的表现。它还没有在有限的SGG数据集中正确分析大多数和少数谓词表现之间的权衡。为了缓解这个问题，本文考虑了偏斜类平衡重新加权（SCR）损失函数来进行不偏的SGG模型。借助于偏斜谓词预测的偏斜性，SCR估计目标谓词权重系数，然后重新加权更多偏斜谓词，以更好地权衡大多数谓词和少数谓词。对标准视觉基因组数据集和O进行了大量实验",
+        "tldr": "本文提出了一种称为偏斜类平衡重新加权（SCR）的不偏场景图生成（SGG）算法，通过重新加权更多偏斜谓词来更好地权衡大多数谓词和少数谓词"
+    }
+}

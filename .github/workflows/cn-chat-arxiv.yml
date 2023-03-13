@@ -1,0 +1,35 @@
+name: Fetch arxiv daily
+on:
+  schedule:
+    - cron: '30 8 * * *' # 中国1日的16:30，就是UTC时间1日的08:30
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
+        fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
+    - uses: actions/setup-python@v2
+      with:
+        python-version: '3.8'
+        architecture: 'x64'
+    - name: install requirements
+      run: |
+        pip install -r requirements.txt
+    - name: download
+      run: |
+        python cn_chat_arxiv.py
+    - name: Create local changes
+      run: |
+        git add .
+    - name: Commit files
+      run: |
+        git config --local user.email "mail@qhduan.com"
+        git config --local user.name "qhduan"
+        git commit -m "Add changes" -a
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref }}

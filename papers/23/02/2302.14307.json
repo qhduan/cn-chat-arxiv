@@ -1,0 +1,12 @@
+{
+    "title": "GradMA: A Gradient-Memory-based Accelerated Federated Learning with Alleviated Catastrophic Forgetting. (arXiv:2302.14307v2 [cs.CV] UPDATED)",
+    "abstract": "Federated Learning (FL) has emerged as a de facto machine learning area and received rapid increasing research interests from the community. However, catastrophic forgetting caused by data heterogeneity and partial participation poses distinctive challenges for FL, which are detrimental to the performance. To tackle the problems, we propose a new FL approach (namely GradMA), which takes inspiration from continual learning to simultaneously correct the server-side and worker-side update directions as well as take full advantage of server's rich computing and memory resources. Furthermore, we elaborate a memory reduction strategy to enable GradMA to accommodate FL with a large scale of workers. We then analyze convergence of GradMA theoretically under the smooth non-convex setting and show that its convergence rate achieves a linear speed up w.r.t the increasing number of sampled active workers. At last, our extensive experiments on various image classification tasks show that GradMA ach",
+    "link": "http://arxiv.org/abs/2302.14307",
+    "raw_ret": "{\n    \"translated_title\": \"GradMA: 基于梯度记忆的加速联邦学习以缓解灾难性遗忘\",\n    \"translated_abstract\": \"联邦学习已经成为一种事实上的机器学习领域，并受到社区的快速增长的研究兴趣。然而，数据异构性和部分参与造成的灾难性遗忘给FL带来了独特的挑战，这对性能是有害的。为了解决这些问题，我们提出了一种新的FL方法（即GradMA），它从不断学习中汲取灵感，同时纠正服务器端和工作端的更新方向，并充分利用服务器的丰富计算和内存资源。此外，我们阐述了一种内存减少策略，使GradMA能够容纳大规模的工作者FL。然后，在平滑非凸设置下理论分析GradMA的收敛性，并表明其收敛速度实现了对采样活跃工作者数量的线性加速。最后，我们对各种图像分类任务进行了广泛的实验，结果显示GradMA实现了\",\n    \"tldr\": \"GradMA是一种基于梯度记忆的加速联邦学习方法，通过在服务器端和工作端同时纠正更新方向和充分利用服务器的计算和内存资源，以及使用一种内存减少策略来解决联邦学习中的灾难性遗忘问题，并且在各种图像分类任务上都实现了较好的结果。\"\n}",
+    "total_tokens": 909,
+    "ret": {
+        "translated_title": "GradMA: 基于梯度记忆的加速联邦学习以缓解灾难性遗忘",
+        "translated_abstract": "联邦学习已经成为一种事实上的机器学习领域，并受到社区的快速增长的研究兴趣。然而，数据异构性和部分参与造成的灾难性遗忘给FL带来了独特的挑战，这对性能是有害的。为了解决这些问题，我们提出了一种新的FL方法（即GradMA），它从不断学习中汲取灵感，同时纠正服务器端和工作端的更新方向，并充分利用服务器的丰富计算和内存资源。此外，我们阐述了一种内存减少策略，使GradMA能够容纳大规模的工作者FL。然后，在平滑非凸设置下理论分析GradMA的收敛性，并表明其收敛速度实现了对采样活跃工作者数量的线性加速。最后，我们对各种图像分类任务进行了广泛的实验，结果显示GradMA实现了",
+        "tldr": "GradMA是一种基于梯度记忆的加速联邦学习方法，通过在服务器端和工作端同时纠正更新方向和充分利用服务器的计算和内存资源，以及使用一种内存减少策略来解决联邦学习中的灾难性遗忘问题，并且在各种图像分类任务上都实现了较好的结果。"
+    }
+}

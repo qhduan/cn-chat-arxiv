@@ -1,0 +1,12 @@
+{
+    "title": "Uncertainty Estimates of Predictions via a General Bias-Variance Decomposition. (arXiv:2210.12256v2 [cs.LG] UPDATED)",
+    "abstract": "Reliably estimating the uncertainty of a prediction throughout the model lifecycle is crucial in many safety-critical applications. The most common way to measure this uncertainty is via the predicted confidence. While this tends to work well for in-domain samples, these estimates are unreliable under domain drift and restricted to classification. Alternatively, proper scores can be used for most predictive tasks but a bias-variance decomposition for model uncertainty does not exist in the current literature. In this work we introduce a general bias-variance decomposition for proper scores, giving rise to the Bregman Information as the variance term. We discover how exponential families and the classification log-likelihood are special cases and provide novel formulations. Surprisingly, we can express the classification case purely in the logit space. We showcase the practical relevance of this decomposition on several downstream tasks, including model ensembles and confidence regions.",
+    "link": "http://arxiv.org/abs/2210.12256",
+    "raw_ret": "{\n    \"translated_title\": \"一种通过一般偏差方差分解估计预测的不确定性方法\",\n    \"translated_abstract\": \"在许多安全关键应用程序中，在整个模型生命周期中可靠地估计预测的不确定性至关重要。衡量此不确定性的最常见方法是通过预测置信度。虽然这在域内样本中往往有效，但这些估计在域漂移下不可靠且受限于分类。或者，对于大多数预测任务，可以使用适当的得分，但是当前文献中不存在用于模型不确定性的偏差方差分解。在这项工作中，我们介绍了适用于适当得分的一般偏差方差分解，从而产生Bregman信息作为方差项。我们发现指数族和分类对数似然函数是特殊情况，并提供了新颖的公式。令人惊讶的是，我们可以纯粹地在logit空间中表达分类情况。我们展示了这种分解对几个下游任务的实际相关性，包括模型集合和置信区间。\",\n    \"tldr\": \"该论文提出了一种适用于适当得分的一般偏差方差分解，从而产生Bregman信息作为方差项。该研究发现指数族和分类对数似然函数是特殊情况，并提供了新颖的公式。该研究展示了该分解对几个下游任务的实际相关性，包括模型集合和置信区间。\"\n}<|im_sep|>",
+    "total_tokens": 908,
+    "ret": {
+        "translated_title": "一种通过一般偏差方差分解估计预测的不确定性方法",
+        "translated_abstract": "在许多安全关键应用程序中，在整个模型生命周期中可靠地估计预测的不确定性至关重要。衡量此不确定性的最常见方法是通过预测置信度。虽然这在域内样本中往往有效，但这些估计在域漂移下不可靠且受限于分类。或者，对于大多数预测任务，可以使用适当的得分，但是当前文献中不存在用于模型不确定性的偏差方差分解。在这项工作中，我们介绍了适用于适当得分的一般偏差方差分解，从而产生Bregman信息作为方差项。我们发现指数族和分类对数似然函数是特殊情况，并提供了新颖的公式。令人惊讶的是，我们可以纯粹地在logit空间中表达分类情况。我们展示了这种分解对几个下游任务的实际相关性，包括模型集合和置信区间。",
+        "tldr": "该论文提出了一种适用于适当得分的一般偏差方差分解，从而产生Bregman信息作为方差项。该研究发现指数族和分类对数似然函数是特殊情况，并提供了新颖的公式。该研究展示了该分解对几个下游任务的实际相关性，包括模型集合和置信区间。"
+    }
+}

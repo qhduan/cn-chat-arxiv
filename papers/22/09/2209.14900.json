@@ -1,0 +1,12 @@
+{
+    "title": "Joint Optimization of Energy Consumption and Completion Time in Federated Learning. (arXiv:2209.14900v2 [cs.LG] UPDATED)",
+    "abstract": "Federated Learning (FL) is an intriguing distributed machine learning approach due to its privacy-preserving characteristics. To balance the trade-off between energy and execution latency, and thus accommodate different demands and application scenarios, we formulate an optimization problem to minimize a weighted sum of total energy consumption and completion time through two weight parameters. The optimization variables include bandwidth, transmission power and CPU frequency of each device in the FL system, where all devices are linked to a base station and train a global model collaboratively. Through decomposing the non-convex optimization problem into two subproblems, we devise a resource allocation algorithm to determine the bandwidth allocation, transmission power, and CPU frequency for each participating device. We further present the convergence analysis and computational complexity of the proposed algorithm. Numerical results show that our proposed algorithm not only has bette",
+    "link": "http://arxiv.org/abs/2209.14900",
+    "raw_ret": "{\n    \"translated_title\": \"联邦学习中能耗和完成时间的联合优化\",\n    \"translated_abstract\": \"由于其保护隐私的特性，联邦学习（FL）是一种有趣的分布式机器学习方法。为了平衡能量和执行延迟之间的权衡，从而适应不同的需求和应用场景，我们通过两个权重参数制定了一个优化问题，以最小化总能耗和完成时间的加权和。优化变量包括FL系统中每个设备的带宽、传输功率和CPU频率，其中所有设备都连接到一个基站并协作地训练全局模型。通过将非凸优化问题分解为两个子问题，我们设计了一种资源分配算法，以确定每个参与设备的带宽分配、传输功率和CPU频率。我们进一步介绍了所提出算法的收敛性分析和计算复杂性。数值结果表明，我们提出的算法不仅具有更好的能耗性能，而且在完成时间方面也有更好的性能。\",\n    \"tldr\": \"该论文提出了一种基于权重参数的优化方法，以最小化联邦学习系统中每个设备的带宽、传输功率和CPU频率，以平衡总能耗和完成时间之间的权衡，并通过两个子问题的分解设计了一种资源分配算法。该算法不仅具有更好的能耗性能，而且在完成时间方面也有更好的性能。\"\n}<|im_sep|>",
+    "total_tokens": 871,
+    "ret": {
+        "translated_title": "联邦学习中能耗和完成时间的联合优化",
+        "translated_abstract": "由于其保护隐私的特性，联邦学习（FL）是一种有趣的分布式机器学习方法。为了平衡能量和执行延迟之间的权衡，从而适应不同的需求和应用场景，我们通过两个权重参数制定了一个优化问题，以最小化总能耗和完成时间的加权和。优化变量包括FL系统中每个设备的带宽、传输功率和CPU频率，其中所有设备都连接到一个基站并协作地训练全局模型。通过将非凸优化问题分解为两个子问题，我们设计了一种资源分配算法，以确定每个参与设备的带宽分配、传输功率和CPU频率。我们进一步介绍了所提出算法的收敛性分析和计算复杂性。数值结果表明，我们提出的算法不仅具有更好的能耗性能，而且在完成时间方面也有更好的性能。",
+        "tldr": "该论文提出了一种基于权重参数的优化方法，以最小化联邦学习系统中每个设备的带宽、传输功率和CPU频率，以平衡总能耗和完成时间之间的权衡，并通过两个子问题的分解设计了一种资源分配算法。该算法不仅具有更好的能耗性能，而且在完成时间方面也有更好的性能。"
+    }
+}

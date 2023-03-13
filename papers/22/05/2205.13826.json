@@ -1,0 +1,12 @@
+{
+    "title": "Multivariate Probabilistic Forecasting of Intraday Electricity Prices using Normalizing Flows. (arXiv:2205.13826v4 [cs.LG] UPDATED)",
+    "abstract": "Electricity is traded on various markets with different time horizons and regulations. Short-term intraday trading becomes increasingly important due to the higher penetration of renewables. In Germany, the intraday electricity price typically fluctuates around the day-ahead price of the European Power EXchange (EPEX) spot markets in a distinct hourly pattern. This work proposes a probabilistic modeling approach that models the intraday price difference to the day-ahead contracts. The model captures the emerging hourly pattern by considering the four 15 min intervals in each day-ahead price interval as a four-dimensional joint probability distribution. The resulting nontrivial, multivariate price difference distribution is learned using a normalizing flow, i.e., a deep generative model that combines conditional multivariate density estimation and probabilistic regression. Furthermore, this work discusses the influence of different external impact factors based on literature insights an",
+    "link": "http://arxiv.org/abs/2205.13826",
+    "raw_ret": "{\n    \"translated_title\": \"使用归一化流对日内电力价格进行多元概率预测\",\n    \"translated_abstract\": \"电力在不同的市场上进行交易，有不同的时间跨度和监管方式。由于可再生能源的普及，短期的日内交易变得越来越重要。在德国，日内电力价格通常围绕欧洲电力交易所（EPEX）现货市场的日前价格以明显的小时模式波动。本文提出了一种概率建模方法，将日前合同的日内价格差建模。该模型通过将每个日前价格区间中的四个15分钟间隔视为四维联合概率分布来捕捉出现的小时模式。使用归一化流学习得到了多元价格差分布，它是一个非平凡的、多元的价格差分布，即一个深度生成模型，它结合了条件多元密度估计和概率回归。此外，本文还根据文献洞见讨论了不同外部影响因素的影响。\",\n    \"tldr\": \"本文提出了一种概率建模方法，使用归一化流对日内电力价格进行多元概率预测，并考虑了不同的外部影响因素的影响。\"\n}<|im_sep|>",
+    "total_tokens": 826,
+    "ret": {
+        "translated_title": "使用归一化流对日内电力价格进行多元概率预测",
+        "translated_abstract": "电力在不同的市场上进行交易，有不同的时间跨度和监管方式。由于可再生能源的普及，短期的日内交易变得越来越重要。在德国，日内电力价格通常围绕欧洲电力交易所（EPEX）现货市场的日前价格以明显的小时模式波动。本文提出了一种概率建模方法，将日前合同的日内价格差建模。该模型通过将每个日前价格区间中的四个15分钟间隔视为四维联合概率分布来捕捉出现的小时模式。使用归一化流学习得到了多元价格差分布，它是一个非平凡的、多元的价格差分布，即一个深度生成模型，它结合了条件多元密度估计和概率回归。此外，本文还根据文献洞见讨论了不同外部影响因素的影响。",
+        "tldr": "本文提出了一种概率建模方法，使用归一化流对日内电力价格进行多元概率预测，并考虑了不同的外部影响因素的影响。"
+    }
+}

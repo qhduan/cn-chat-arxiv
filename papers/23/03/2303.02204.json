@@ -1,0 +1,12 @@
+{
+    "title": "Linked Data Science Powered by Knowledge Graphs. (arXiv:2303.02204v2 [cs.LG] UPDATED)",
+    "abstract": "In recent years, we have witnessed a growing interest in data science not only from academia but particularly from companies investing in data science platforms to analyze large amounts of data. In this process, a myriad of data science artifacts, such as datasets and pipeline scripts, are created. Yet, there has so far been no systematic attempt to holistically exploit the collected knowledge and experiences that are implicitly contained in the specification of these pipelines, e.g., compatible datasets, cleansing steps, ML algorithms, parameters, etc. Instead, data scientists still spend a considerable amount of their time trying to recover relevant information and experiences from colleagues, trial and error, lengthy exploration, etc. In this paper, we, therefore, propose a scalable system (KGLiDS) that employs machine learning to extract the semantics of data science pipelines and captures them in a knowledge graph, which can then be exploited to assist data scientists in various w",
+    "link": "http://arxiv.org/abs/2303.02204",
+    "raw_ret": "{\n    \"translated_title\": \"知识图谱驱动的链接数据科学\",\n    \"translated_abstract\": \"近年来，我们目睹了对数据科学的不断关注，不仅来自学术界，而且特别来自投资于数据科学平台以分析大量数据的公司。在这个过程中，创造了许多数据科学工件，例如数据集和管道脚本。然而，迄今为止还没有系统性的尝试来整体利用隐含在这些流程规范中的收集知识和经验，例如兼容数据集，清洁步骤，ML算法，参数等。相反，数据科学家仍然花费相当多的时间来尝试从同事，试错，漫长的探索等中恢复相关信息和经验。因此，在本文中，我们提出了一个可扩展的系统（KGLiDS），它利用机器学习来提取数据科学流水线的语义，并在知识图中捕获它们，然后可以利用它来帮助数据科学家进行各种工作。\",\n    \"tldr\": \"本文提出了一个系统，它使用机器学习来提取数据科学流程的语义，并将它们捕捉到知识图中以帮助数据科学家进行各种工作。\"\n}",
+    "total_tokens": 817,
+    "ret": {
+        "translated_title": "知识图谱驱动的链接数据科学",
+        "translated_abstract": "近年来，我们目睹了对数据科学的不断关注，不仅来自学术界，而且特别来自投资于数据科学平台以分析大量数据的公司。在这个过程中，创造了许多数据科学工件，例如数据集和管道脚本。然而，迄今为止还没有系统性的尝试来整体利用隐含在这些流程规范中的收集知识和经验，例如兼容数据集，清洁步骤，ML算法，参数等。相反，数据科学家仍然花费相当多的时间来尝试从同事，试错，漫长的探索等中恢复相关信息和经验。因此，在本文中，我们提出了一个可扩展的系统（KGLiDS），它利用机器学习来提取数据科学流水线的语义，并在知识图中捕获它们，然后可以利用它来帮助数据科学家进行各种工作。",
+        "tldr": "本文提出了一个系统，它使用机器学习来提取数据科学流程的语义，并将它们捕捉到知识图中以帮助数据科学家进行各种工作。"
+    }
+}

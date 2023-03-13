@@ -1,0 +1,4 @@
+feedparser
+bs4
+tqdm
+openai

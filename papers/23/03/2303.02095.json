@@ -1,0 +1,12 @@
+{
+    "title": "Data-Efficient Training of CNNs and Transformers with Coresets: A Stability Perspective. (arXiv:2303.02095v2 [cs.CV] UPDATED)",
+    "abstract": "Coreset selection is among the most effective ways to reduce the training time of CNNs, however, only limited is known on how the resultant models will behave under variations of the coreset size, and choice of datasets and models. Moreover, given the recent paradigm shift towards transformer-based models, it is still an open question how coreset selection would impact their performance. There are several similar intriguing questions that need to be answered for a wide acceptance of coreset selection methods, and this paper attempts to answer some of these. We present a systematic benchmarking setup and perform a rigorous comparison of different coreset selection methods on CNNs and transformers. Our investigation reveals that under certain circumstances, random selection of subsets is more robust and stable when compared with the SOTA selection methods. We demonstrate that the conventional concept of uniform subset sampling across the various classes of the data is not the appropriate",
+    "link": "http://arxiv.org/abs/2303.02095",
+    "raw_ret": "{\n    \"translated_title\": \"使用Coresets进行CNNs和Transformers的数据有效训练：稳定性视角\",\n    \"translated_abstract\": \"Coreset选择是减少CNNs训练时间最有效的方法之一，但是对于Coreset大小的变化以及数据集和模型的选择，所得到的模型将如何行为仅有有限的了解。此外，考虑到最近从基于Transformer的模型的范式转变，如何选择coreset将影响其性能仍然是一个未解决的问题。还有几个类似的有趣问题需要回答，以便广泛接受coreset选择方法，本文试图回答其中的一些。我们提出了一个系统的基准测试设置，并在CNNs和transformers上进行了不同coreset选择方法的严格比较。我们的研究揭示了在某些情况下，随机选择子集与SOTA选择方法相比更为稳健和稳定。我们证明了跨数据的各个类别进行均匀子集抽样的传统概念不是合适的。\",\n    \"tldr\": \"本文提出了一个系统的基准测试设置，并在CNN和transformer上进行了不同coreset选择方法的严格比较。研究发现，在某些情况下，随机选择子集与SOTA选择方法相比更为稳健和稳定。\"\n}",
+    "total_tokens": 840,
+    "ret": {
+        "translated_title": "使用Coresets进行CNNs和Transformers的数据有效训练：稳定性视角",
+        "translated_abstract": "Coreset选择是减少CNNs训练时间最有效的方法之一，但是对于Coreset大小的变化以及数据集和模型的选择，所得到的模型将如何行为仅有有限的了解。此外，考虑到最近从基于Transformer的模型的范式转变，如何选择coreset将影响其性能仍然是一个未解决的问题。还有几个类似的有趣问题需要回答，以便广泛接受coreset选择方法，本文试图回答其中的一些。我们提出了一个系统的基准测试设置，并在CNNs和transformers上进行了不同coreset选择方法的严格比较。我们的研究揭示了在某些情况下，随机选择子集与SOTA选择方法相比更为稳健和稳定。我们证明了跨数据的各个类别进行均匀子集抽样的传统概念不是合适的。",
+        "tldr": "本文提出了一个系统的基准测试设置，并在CNN和transformer上进行了不同coreset选择方法的严格比较。研究发现，在某些情况下，随机选择子集与SOTA选择方法相比更为稳健和稳定。"
+    }
+}

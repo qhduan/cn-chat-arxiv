@@ -1,0 +1,12 @@
+{
+    "title": "Multi-Task Recommendations with Reinforcement Learning. (arXiv:2302.03328v2 [cs.IR] UPDATED)",
+    "abstract": "In recent years, Multi-task Learning (MTL) has yielded immense success in Recommender System (RS) applications. However, current MTL-based recommendation models tend to disregard the session-wise patterns of user-item interactions because they are predominantly constructed based on item-wise datasets. Moreover, balancing multiple objectives has always been a challenge in this field, which is typically avoided via linear estimations in existing works. To address these issues, in this paper, we propose a Reinforcement Learning (RL) enhanced MTL framework, namely RMTL, to combine the losses of different recommendation tasks using dynamic weights. To be specific, the RMTL structure can address the two aforementioned issues by (i) constructing an MTL environment from session-wise interactions and (ii) training multi-task actor-critic network structure, which is compatible with most existing MTL-based recommendation models, and (iii) optimizing and fine-tuning the MTL loss function using the",
+    "link": "http://arxiv.org/abs/2302.03328",
+    "raw_ret": "{\n    \"translated_title\": \"强化学习的多任务推荐\",\n    \"translated_abstract\": \"近年来，多任务学习（MTL）在推荐系统（RS）应用中取得了巨大成功。然而，目前基于MTL的推荐模型往往忽视用户-项目交互的会话式模式，因为它们主要是基于项目式数据集构建的。此外，平衡多个目标一直是这个领域的一个挑战，这通常是通过现有作品中的线性估计来避免的。为了解决这些问题，在本文中，我们提出了一个增强多任务学习（RL）框架，即RMTL，通过动态权重组合不同推荐任务的损失。具体而言，RMTL结构可以通过以下方式解决前述两个问题：（i）从会话式交互中构建MTL环境；（ii）训练兼容大多数现有MTL-based推荐模型的多任务演员-评论家网络结构；（iii）使用增强学习优化和微调MTL损失函数。\",\n    \"tldr\": \"本文提出了一种强化学习增强的多任务推荐框架，通过动态权重组合不同推荐任务的损失，解决了当前多任务学习忽视会话式交互和平衡多个目标的问题。\"\n}",
+    "total_tokens": 852,
+    "ret": {
+        "translated_title": "强化学习的多任务推荐",
+        "translated_abstract": "近年来，多任务学习（MTL）在推荐系统（RS）应用中取得了巨大成功。然而，目前基于MTL的推荐模型往往忽视用户-项目交互的会话式模式，因为它们主要是基于项目式数据集构建的。此外，平衡多个目标一直是这个领域的一个挑战，这通常是通过现有作品中的线性估计来避免的。为了解决这些问题，在本文中，我们提出了一个增强多任务学习（RL）框架，即RMTL，通过动态权重组合不同推荐任务的损失。具体而言，RMTL结构可以通过以下方式解决前述两个问题：（i）从会话式交互中构建MTL环境；（ii）训练兼容大多数现有MTL-based推荐模型的多任务演员-评论家网络结构；（iii）使用增强学习优化和微调MTL损失函数。",
+        "tldr": "本文提出了一种强化学习增强的多任务推荐框架，通过动态权重组合不同推荐任务的损失，解决了当前多任务学习忽视会话式交互和平衡多个目标的问题。"
+    }
+}

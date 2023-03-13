@@ -1,0 +1,12 @@
+{
+    "title": "Low Dimensional Invariant Embeddings for Universal Geometric Learning. (arXiv:2205.02956v2 [cs.LG] UPDATED)",
+    "abstract": "This paper studies separating invariants: mappings on $D$ dimensional domains which are invariant to an appropriate group action, and which separate orbits. The motivation for this study comes from the usefulness of separating invariants in proving universality of equivariant neural network architectures.  We observe that in several cases the cardinality of separating invariants proposed in the machine learning literature is much larger than the dimension $D$. As a result, the theoretical universal constructions based on these separating invariants is unrealistically large. Our goal in this paper is to resolve this issue.  We show that when a continuous family of semi-algebraic separating invariants is available, separation can be obtained by randomly selecting 2D+1 of these invariants. We apply this methodology to obtain an efficient scheme for computing separating invariants for several classical group actions which have been studied in the invariant learning literature. Examples inc",
+    "link": "http://arxiv.org/abs/2205.02956",
+    "raw_ret": "{\n    \"translated_title\": \"通用几何学习的低维不变嵌入\",\n    \"translated_abstract\": \"本文研究分离不变量：在D维度定义域上不受适当群作用影响的映射，并且将轨道分离。本研究的动机来自于证明等变神经网络架构的普适性时，分离不变量的有用性。我们观察到，在几个情况下，机器学习文献中提出的分离不变量的基数远远大于维数D。因此，基于这些分离不变量的理论普遍构造是不现实的。本文的目标是解决这个问题。我们表明，当连续的半代数分离不变量家族可用时，可以通过随机选择其中的2D+1不变量来实现分离。我们应用这种方法，为不变学习文献中研究的几个经典群作用计算分离不变量的有效方案。其中包括\",\n    \"tldr\": \"本文提出一种方法来解决机器学习文献中提出的分离不变量的基数远远大于维度的问题，实现分离的方法是随机选择2D+1个不变量。\"\n}<|im_sep|>",
+    "total_tokens": 835,
+    "ret": {
+        "translated_title": "通用几何学习的低维不变嵌入",
+        "translated_abstract": "本文研究分离不变量：在D维度定义域上不受适当群作用影响的映射，并且将轨道分离。本研究的动机来自于证明等变神经网络架构的普适性时，分离不变量的有用性。我们观察到，在几个情况下，机器学习文献中提出的分离不变量的基数远远大于维数D。因此，基于这些分离不变量的理论普遍构造是不现实的。本文的目标是解决这个问题。我们表明，当连续的半代数分离不变量家族可用时，可以通过随机选择其中的2D+1不变量来实现分离。我们应用这种方法，为不变学习文献中研究的几个经典群作用计算分离不变量的有效方案。其中包括",
+        "tldr": "本文提出一种方法来解决机器学习文献中提出的分离不变量的基数远远大于维度的问题，实现分离的方法是随机选择2D+1个不变量。"
+    }
+}
