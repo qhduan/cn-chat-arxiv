@@ -1,0 +1,12 @@
+{
+    "title": "Fillers in Spoken Language Understanding: Computational and Psycholinguistic Perspectives. (arXiv:2301.10761v3 [cs.CL] UPDATED)",
+    "abstract": "Disfluencies (i.e. interruptions in the regular flow of speech), are ubiquitous to spoken discourse. Fillers (\"uh\", \"um\") are disfluencies that occur the most frequently compared to other kinds of disfluencies. Yet, to the best of our knowledge, there isn't a resource that brings together the research perspectives influencing Spoken Language Understanding (SLU) on these speech events. This aim of this article is to survey a breadth of perspectives in a holistic way; i.e. from considering underlying (psycho)linguistic theory, to their annotation and consideration in Automatic Speech Recognition (ASR) and SLU systems, to lastly, their study from a generation standpoint. This article aims to present the perspectives in an approachable way to the SLU and Conversational AI community, and discuss moving forward, what we believe are the trends and challenges in each area.",
+    "link": "http://arxiv.org/abs/2301.10761",
+    "raw_ret": "{\n    \"translated_title\": \"口语理解中的占位符：计算和心理语言学角度\",\n    \"translated_abstract\": \"口语中的不流畅（即语言流的打断）是普遍存在的。填充语（“嗯”“啊”）是相对于其他类型的不流畅出现最频繁的。然而据我们所知，没有一个资源将影响口语理解的研究视角汇集起来，用于这些语音事件的处理。本文旨在以全面的方式调查各种角度；从考虑基础（心理）语言学理论，到他们在自动语音识别（ASR）和口语理解系统中的注释和考虑，最后再从生成角度进行研究。本文旨在以易于理解的方式向口语理解和对话AI社区介绍这些视角，并讨论前进的趋势和每个领域的挑战。\",\n    \"tldr\": \"本文旨在调查在口语理解中的占位符（Fillers）的心理语言学和计算角度的研究。本文将这些视角以易于理解的方式呈现给口语理解和对话AI社区，并讨论每个领域的趋势和挑战。\"\n}",
+    "total_tokens": 814,
+    "ret": {
+        "translated_title": "口语理解中的占位符：计算和心理语言学角度",
+        "translated_abstract": "口语中的不流畅（即语言流的打断）是普遍存在的。填充语（“嗯”“啊”）是相对于其他类型的不流畅出现最频繁的。然而据我们所知，没有一个资源将影响口语理解的研究视角汇集起来，用于这些语音事件的处理。本文旨在以全面的方式调查各种角度；从考虑基础（心理）语言学理论，到他们在自动语音识别（ASR）和口语理解系统中的注释和考虑，最后再从生成角度进行研究。本文旨在以易于理解的方式向口语理解和对话AI社区介绍这些视角，并讨论前进的趋势和每个领域的挑战。",
+        "tldr": "本文旨在调查在口语理解中的占位符（Fillers）的心理语言学和计算角度的研究。本文将这些视角以易于理解的方式呈现给口语理解和对话AI社区，并讨论每个领域的趋势和挑战。"
+    }
+}

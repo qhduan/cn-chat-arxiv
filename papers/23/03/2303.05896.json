@@ -1,0 +1,12 @@
+{
+    "title": "Distribution Preserving Source Separation With Time Frequency Predictive Models. (arXiv:2303.05896v1 [eess.AS])",
+    "abstract": "We provide an example of a distribution preserving source separation method, which aims at addressing perceptual shortcomings of state-of-the-art methods. Our approach uses unconditioned generative models of signal sources. Reconstruction is achieved by means of mix-consistent sampling from a distribution conditioned on a realization of a mix. The separated signals follow their respective source distributions, which provides an advantage when separation results are evaluated in a listening test.",
+    "link": "http://arxiv.org/abs/2303.05896",
+    "raw_ret": "{\n    \"translated_title\": \"基于时频预测模型的分布保持源分离方法\",\n    \"translated_abstract\": \"我们提供了一个分布保持的源分离方法的例子，旨在解决最先进方法的感知缺陷。我们的方法使用信号源的无条件生成模型。通过对条件于混合实现的分布进行混合一致性采样，实现重构。分离的信号遵循各自的源分布，在听测试中评估分离结果时具有优势。\",\n    \"tldr\": \"该论文提出了一种基于时频预测模型的分布保持源分离方法，可以有效解决现有方法的感知缺陷，提高分离结果的准确度。\"\n}<|im_sep|>",
+    "total_tokens": 561,
+    "ret": {
+        "translated_title": "基于时频预测模型的分布保持源分离方法",
+        "translated_abstract": "我们提供了一个分布保持的源分离方法的例子，旨在解决最先进方法的感知缺陷。我们的方法使用信号源的无条件生成模型。通过对条件于混合实现的分布进行混合一致性采样，实现重构。分离的信号遵循各自的源分布，在听测试中评估分离结果时具有优势。",
+        "tldr": "该论文提出了一种基于时频预测模型的分布保持源分离方法，可以有效解决现有方法的感知缺陷，提高分离结果的准确度。"
+    }
+}

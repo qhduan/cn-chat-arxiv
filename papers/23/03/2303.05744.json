@@ -1,0 +1,12 @@
+{
+    "title": "QVRF: A Quantization-error-aware Variable Rate Framework for Learned Image Compression. (arXiv:2303.05744v1 [eess.IV])",
+    "abstract": "Learned image compression has exhibited promising compression performance, but variable bitrates over a wide range remain a challenge. State-of-the-art variable rate methods compromise the loss of model performance and require numerous additional parameters. In this paper, we present a Quantization-error-aware Variable Rate Framework (QVRF) that utilizes a univariate quantization regulator a to achieve wide-range variable rates within a single model. Specifically, QVRF defines a quantization regulator vector coupled with predefined Lagrange multipliers to control quantization error of all latent representation for discrete variable rates. Additionally, the reparameterization method makes QVRF compatible with a round quantizer. Exhaustive experiments demonstrate that existing fixed-rate VAE-based methods equipped with QVRF can achieve wide-range continuous variable rates within a single model without significant performance degradation. Furthermore, QVRF outperforms contemporary variabl",
+    "link": "http://arxiv.org/abs/2303.05744",
+    "raw_ret": "{\n    \"translated_title\": \"QVRF：一种量化误差感知的变速率学习图像压缩框架\",\n    \"translated_abstract\": \"学习图像压缩表现出了很好的压缩性能，但在广泛的比特率范围内实现可变比特率仍然是一个挑战。最先进的可变速率方法在模型性能损失方面存在妥协，并需要大量的额外参数。本文提出了一种量化误差感知的变速率框架（QVRF），该框架利用单变量量化调节器实现单模型内广泛的可变比特率。具体来说，QVRF定义了一个量化调节器向量，结合预定义的Lagrange乘数，控制了所有潜在表示的量化误差，从而实现了离散可变比特率。此外，重新参数化方法使得QVRF与圆整量化器兼容。详尽的实验证明，现有的配备QVRF的固定比特率基于VAE的方法可以在单个模型内实现广泛的连续可变比特率而不会出现显著的性能降级。此外，QVRF优于当代可变速率压缩方法。\",\n    \"tldr\": \"该论文提出了一种量化误差感知的变速率框架，利用单变量量化调节器实现单模型内广泛的可变比特率，同时实现了离散可变比特率。在实验证明，该框架可以实现广泛的连续可变比特率而不会出现显著的性能降级。\"\n}",
+    "total_tokens": 919,
+    "ret": {
+        "translated_title": "QVRF：一种量化误差感知的变速率学习图像压缩框架",
+        "translated_abstract": "学习图像压缩表现出了很好的压缩性能，但在广泛的比特率范围内实现可变比特率仍然是一个挑战。最先进的可变速率方法在模型性能损失方面存在妥协，并需要大量的额外参数。本文提出了一种量化误差感知的变速率框架（QVRF），该框架利用单变量量化调节器实现单模型内广泛的可变比特率。具体来说，QVRF定义了一个量化调节器向量，结合预定义的Lagrange乘数，控制了所有潜在表示的量化误差，从而实现了离散可变比特率。此外，重新参数化方法使得QVRF与圆整量化器兼容。详尽的实验证明，现有的配备QVRF的固定比特率基于VAE的方法可以在单个模型内实现广泛的连续可变比特率而不会出现显著的性能降级。此外，QVRF优于当代可变速率压缩方法。",
+        "tldr": "该论文提出了一种量化误差感知的变速率框架，利用单变量量化调节器实现单模型内广泛的可变比特率，同时实现了离散可变比特率。在实验证明，该框架可以实现广泛的连续可变比特率而不会出现显著的性能降级。"
+    }
+}

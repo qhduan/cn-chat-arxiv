@@ -1,0 +1,12 @@
+{
+    "title": "Knowledge Transfer via Multi-Head Feature Adaptation for Whole Slide Image Classification. (arXiv:2303.05780v1 [cs.CV])",
+    "abstract": "Transferring prior knowledge from a source domain to the same or similar target domain can greatly enhance the performance of models on the target domain. However, it is challenging to directly leverage the knowledge from the source domain due to task discrepancy and domain shift. To bridge the gaps between different tasks and domains, we propose a Multi-Head Feature Adaptation module, which projects features in the source feature space to a new space that is more similar to the target space. Knowledge transfer is particularly important in Whole Slide Image (WSI) classification since the number of WSIs in one dataset might be too small to achieve satisfactory performance. Therefore, WSI classification is an ideal testbed for our method, and we adapt multiple knowledge transfer methods for WSI classification. The experimental results show that models with knowledge transfer outperform models that are trained from scratch by a large margin regardless of the number of WSIs in the datasets",
+    "link": "http://arxiv.org/abs/2303.05780",
+    "raw_ret": "{\n    \"translated_title\": \"多头特征自适应学习中的知识迁移在全幻灯片图像分类中的应用\",\n    \"translated_abstract\": \"从源领域传递先前的知识到相同或相似的目标领域可以极大地提高模型在目标领域上的性能。但是，由于任务不一致和领域转移，直接利用源领域中的知识是具有挑战性的。为了弥合不同任务和领域之间的差距，我们提出了一种多头特征自适应模块，它将源特征空间中的特征投影到一个更类似于目标空间的新空间中。在整个幻灯片图像（WSI）分类中，知识转移尤其重要，因为一个数据集中的WSI数量可能太少而无法达到令人满意的性能。因此，WSI分类是我们方法的理想测试平台，并且我们针对WSI分类调整了多种知识迁移方法。实验结果表明，具有知识转移的模型无论数据集中的WSI数量如何，其性能都大大优于从头开始训练的模型。\",\n    \"tldr\": \"提出了一种多头特征自适应模块，用于从源领域到目标领域的知识迁移。WSI分类是该方法的理想测试平台。实验结果表明，具有知识迁移的模型优于从头开始训练的模型，无论数据集中的WSI数量如何。\"\n}",
+    "total_tokens": 906,
+    "ret": {
+        "translated_title": "多头特征自适应学习中的知识迁移在全幻灯片图像分类中的应用",
+        "translated_abstract": "从源领域传递先前的知识到相同或相似的目标领域可以极大地提高模型在目标领域上的性能。但是，由于任务不一致和领域转移，直接利用源领域中的知识是具有挑战性的。为了弥合不同任务和领域之间的差距，我们提出了一种多头特征自适应模块，它将源特征空间中的特征投影到一个更类似于目标空间的新空间中。在整个幻灯片图像（WSI）分类中，知识转移尤其重要，因为一个数据集中的WSI数量可能太少而无法达到令人满意的性能。因此，WSI分类是我们方法的理想测试平台，并且我们针对WSI分类调整了多种知识迁移方法。实验结果表明，具有知识转移的模型无论数据集中的WSI数量如何，其性能都大大优于从头开始训练的模型。",
+        "tldr": "提出了一种多头特征自适应模块，用于从源领域到目标领域的知识迁移。WSI分类是该方法的理想测试平台。实验结果表明，具有知识迁移的模型优于从头开始训练的模型，无论数据集中的WSI数量如何。"
+    }
+}

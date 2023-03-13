@@ -1,0 +1,12 @@
+{
+    "title": "EiX-GNN : Concept-level eigencentrality explainer for graph neural networks. (arXiv:2206.03491v6 [cs.AI] UPDATED)",
+    "abstract": "Nowadays, deep prediction models, especially graph neural networks, have a majorplace in critical applications. In such context, those models need to be highlyinterpretable or being explainable by humans, and at the societal scope, this understandingmay also be feasible for humans that do not have a strong prior knowledgein models and contexts that need to be explained. In the literature, explainingis a human knowledge transfer process regarding a phenomenon between an explainerand an explainee. We propose EiX-GNN (Eigencentrality eXplainer forGraph Neural Networks) a new powerful method for explaining graph neural networksthat encodes computationally this social explainer-to-explainee dependenceunderlying in the explanation process. To handle this dependency, we introducethe notion of explainee concept assimibility which allows explainer to adapt itsexplanation to explainee background or expectation. We lead a qualitative studyto illustrate our explainee concept assimibility notion on",
+    "link": "http://arxiv.org/abs/2206.03491",
+    "raw_ret": "{\n    \"translated_title\": \"EiX-GNN:概念级别的特征中心性解释器为图神经网络\",\n    \"translated_abstract\": \"现在，深度预测模型，特别是图神经网络，在关键应用中占据重要地位。在这种情况下，这些模型需要具有高度的可解释性，或者可以被人类解释，在社会范围内，这种理解对于那些在需要解释的模型和背景方面没有强烈先验知识的人来说也是可行的。在文献中，解释是关于现象的人类知识转移过程，是解释者和解释者之间的。我们提出了EiX-GNN（图神经网络的特征中心性解释器）这个新的强大方法，用于解释图神经网络，它在解释过程中编码了支撑解释者-解释者之间依赖的社会。为了处理这种依赖关系，我们引入了解释概念的可接受性概念，这使得解释者可以使它的解释适应解释者的背景或期望。我们进行了一项定性研究，以说明我们的解释概念可接受性概念。\",\n    \"tldr\": \"EiX-GNN是一种强大的方法，用于解释图神经网络。它引入了解释概念的可接受性概念，使解释者可以使其解释适应解释者的背景或期望。\"\n}",
+    "total_tokens": 908,
+    "ret": {
+        "translated_title": "EiX-GNN:概念级别的特征中心性解释器为图神经网络",
+        "translated_abstract": "现在，深度预测模型，特别是图神经网络，在关键应用中占据重要地位。在这种情况下，这些模型需要具有高度的可解释性，或者可以被人类解释，在社会范围内，这种理解对于那些在需要解释的模型和背景方面没有强烈先验知识的人来说也是可行的。在文献中，解释是关于现象的人类知识转移过程，是解释者和解释者之间的。我们提出了EiX-GNN（图神经网络的特征中心性解释器）这个新的强大方法，用于解释图神经网络，它在解释过程中编码了支撑解释者-解释者之间依赖的社会。为了处理这种依赖关系，我们引入了解释概念的可接受性概念，这使得解释者可以使它的解释适应解释者的背景或期望。我们进行了一项定性研究，以说明我们的解释概念可接受性概念。",
+        "tldr": "EiX-GNN是一种强大的方法，用于解释图神经网络。它引入了解释概念的可接受性概念，使解释者可以使其解释适应解释者的背景或期望。"
+    }
+}

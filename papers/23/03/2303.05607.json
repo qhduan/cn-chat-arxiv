@@ -1,0 +1,12 @@
+{
+    "title": "An Improved Data Augmentation Scheme for Model Predictive Control Policy Approximation. (arXiv:2303.05607v1 [eess.SY])",
+    "abstract": "This paper considers the problem of data generation for MPC policy approximation. Learning an approximate MPC policy from expert demonstrations requires a large data set consisting of optimal state-action pairs, sampled across the feasible state space. Yet, the key challenge of efficiently generating the training samples has not been studied widely. Recently, a sensitivity-based data augmentation framework for MPC policy approximation was proposed, where the parametric sensitivities are exploited to cheaply generate several additional samples from a single offline MPC computation. The error due to augmenting the training data set with inexact samples was shown to increase with the size of the neighborhood around each sample used for data augmentation. Building upon this work, this letter paper presents an improved data augmentation scheme based on predictor-corrector steps that enforces a user-defined level of accuracy, and shows that the error bound of the augmented samples are indepe",
+    "link": "http://arxiv.org/abs/2303.05607",
+    "raw_ret": "{\n    \"translated_title\": \"一种改进的模型预测控制策略逼近的数据增强方案\",\n    \"translated_abstract\": \"本文考虑MPC策略逼近的数据生成问题。从专家演示中学习近似MPC策略需要一个大型数据集，其中包含在可行状态空间中抽样的最优状态-动作对。然而，有效地生成训练样本的关键挑战尚未得到广泛研究。最近提出了一种基于参数灵敏度的MPC策略逼近数据增强框架，利用参数灵敏度从单个离线MPC计算中廉价地生成几个附加样本。增加训练数据集的误差由于使用于数据增强的每个样本周围的邻域大小而增加。在此基础上，本论文提出了一种基于预测校正步骤的改进数据增强方案，它强制执行用户定义的精度水平，并显示增广样本的误差边界是独立的。\",\n    \"tldr\": \"本文提出了一种改进的模型预测控制策略逼近的数据增强方案，利用参数灵敏度从单个离线MPC计算中廉价地生成几个附加样本。\"\n}<|im_sep|>",
+    "total_tokens": 830,
+    "ret": {
+        "translated_title": "一种改进的模型预测控制策略逼近的数据增强方案",
+        "translated_abstract": "本文考虑MPC策略逼近的数据生成问题。从专家演示中学习近似MPC策略需要一个大型数据集，其中包含在可行状态空间中抽样的最优状态-动作对。然而，有效地生成训练样本的关键挑战尚未得到广泛研究。最近提出了一种基于参数灵敏度的MPC策略逼近数据增强框架，利用参数灵敏度从单个离线MPC计算中廉价地生成几个附加样本。增加训练数据集的误差由于使用于数据增强的每个样本周围的邻域大小而增加。在此基础上，本论文提出了一种基于预测校正步骤的改进数据增强方案，它强制执行用户定义的精度水平，并显示增广样本的误差边界是独立的。",
+        "tldr": "本文提出了一种改进的模型预测控制策略逼近的数据增强方案，利用参数灵敏度从单个离线MPC计算中廉价地生成几个附加样本。"
+    }
+}

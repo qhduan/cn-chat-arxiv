@@ -1,0 +1,12 @@
+{
+    "title": "Learning the Wrong Lessons: Inserting Trojans During Knowledge Distillation. (arXiv:2303.05593v1 [cs.LG])",
+    "abstract": "In recent years, knowledge distillation has become a cornerstone of efficiently deployed machine learning, with labs and industries using knowledge distillation to train models that are inexpensive and resource-optimized. Trojan attacks have contemporaneously gained significant prominence, revealing fundamental vulnerabilities in deep learning models. Given the widespread use of knowledge distillation, in this work we seek to exploit the unlabelled data knowledge distillation process to embed Trojans in a student model without introducing conspicuous behavior in the teacher. We ultimately devise a Trojan attack that effectively reduces student accuracy, does not alter teacher performance, and is efficiently constructible in practice.",
+    "link": "http://arxiv.org/abs/2303.05593",
+    "raw_ret": " Code: \n\n{\n    \"translated_title\": \"学习错误的教训：在知识蒸馏过程中插入木马。\",\n    \"translated_abstract\": \"近年来，知识蒸馏已成为有效部署机器学习的基石，许多实验室和产业都使用知识蒸馏来训练经济、资源优化的模型。同时，Trojan攻击也引起了重要的关注，揭示了深度学习模型的基本漏洞。鉴于知识蒸馏的广泛应用，我们在这项工作中试图利用未标记的数据知识蒸馏过程在学生模型中嵌入木马而不引入教师中显眼的行为。我们最终设计了一种Trojan攻击，可以有效地降低学生的准确性，不会改变教师的性能，并且在实践中易于构建。\",\n    \"tldr\": \"本文利用知识蒸馏的未标记数据嵌入木马，最终成功地设计出可以降低学生模型准确度而不影响教师模型的Trojan攻击\"\n}<|im_sep|>",
+    "total_tokens": 731,
+    "ret": {
+        "translated_title": "学习错误的教训：在知识蒸馏过程中插入木马。",
+        "translated_abstract": "近年来，知识蒸馏已成为有效部署机器学习的基石，许多实验室和产业都使用知识蒸馏来训练经济、资源优化的模型。同时，Trojan攻击也引起了重要的关注，揭示了深度学习模型的基本漏洞。鉴于知识蒸馏的广泛应用，我们在这项工作中试图利用未标记的数据知识蒸馏过程在学生模型中嵌入木马而不引入教师中显眼的行为。我们最终设计了一种Trojan攻击，可以有效地降低学生的准确性，不会改变教师的性能，并且在实践中易于构建。",
+        "tldr": "本文利用知识蒸馏的未标记数据嵌入木马，最终成功地设计出可以降低学生模型准确度而不影响教师模型的Trojan攻击"
+    }
+}

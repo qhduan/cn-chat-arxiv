@@ -1,0 +1,12 @@
+{
+    "title": "wav2vec and its current potential to Automatic Speech Recognition in German for the usage in Digital History: A comparative assessment of available ASR-technologies for the use in cultural heritage contexts. (arXiv:2303.06026v1 [eess.AS])",
+    "abstract": "In this case study we trained and published a state-of-the-art open-source model for Automatic Speech Recognition (ASR) for German to evaluate the current potential of this technology for the use in the larger context of Digital Humanities and cultural heritage indexation. Along with this paper we publish our wav2vec2 based speech to text model while we evaluate its performance on a corpus of historical recordings we assembled compared against commercial cloud-based and proprietary services. While our model achieves moderate results, we see that proprietary cloud services fare significantly better. As our results show, recognition rates over 90 percent can currently be achieved, however, these numbers drop quickly once the recordings feature limited audio quality or use of non-every day or outworn language. A big issue is the high variety of different dialects and accents in the German language. Nevertheless, this paper highlights that the currently available quality of recognition is ",
+    "link": "http://arxiv.org/abs/2303.06026",
+    "raw_ret": "{\n    \"translated_title\": \"wav2vec及其在德语自动语音识别中的潜力：文化遗产场景下可用ASR技术的比较评估\",\n    \"translated_abstract\": \"在本案例研究中，我们训练并发布了一个用于德语的最先进的开源自动语音识别（ASR）模型，以评估该技术在数字人文和文化遗产索引化的更大背景下的当前潜力。除了本文，我们还发布了基于wav2vec2的语音转文字模型，同时评估了我们的模型在与商用云和专有服务进行比较的历史录音语料库上的表现。虽然我们的模型取得了中等的结果，但我们发现专有云服务表现更好。正如我们的结果所显示的，目前可以实现90％以上的识别率，但这些数字很快就会降低，一旦录音具有受限的音频质量或使用非日常或过时的语言。德语中不同方言和口音的种类繁多是一个大问题。然而，本文强调了目前可用的识别质量是\",\n    \"tldr\": \"本文研究了使用wav2vec2的ASR模型在德语文化遗产索引中的表现，并与商业云和专有服务进行了比较。目前可以实现90％以上的识别率，但这些数字很快就会降低，一旦录音具有受限的音频质量或使用非日常或过时的语言。\"\n}<|im_sep|>",
+    "total_tokens": 924,
+    "ret": {
+        "translated_title": "wav2vec及其在德语自动语音识别中的潜力：文化遗产场景下可用ASR技术的比较评估",
+        "translated_abstract": "在本案例研究中，我们训练并发布了一个用于德语的最先进的开源自动语音识别（ASR）模型，以评估该技术在数字人文和文化遗产索引化的更大背景下的当前潜力。除了本文，我们还发布了基于wav2vec2的语音转文字模型，同时评估了我们的模型在与商用云和专有服务进行比较的历史录音语料库上的表现。虽然我们的模型取得了中等的结果，但我们发现专有云服务表现更好。正如我们的结果所显示的，目前可以实现90％以上的识别率，但这些数字很快就会降低，一旦录音具有受限的音频质量或使用非日常或过时的语言。德语中不同方言和口音的种类繁多是一个大问题。然而，本文强调了目前可用的识别质量是",
+        "tldr": "本文研究了使用wav2vec2的ASR模型在德语文化遗产索引中的表现，并与商业云和专有服务进行了比较。目前可以实现90％以上的识别率，但这些数字很快就会降低，一旦录音具有受限的音频质量或使用非日常或过时的语言。"
+    }
+}

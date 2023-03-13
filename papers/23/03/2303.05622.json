@@ -1,0 +1,12 @@
+{
+    "title": "Explainable Goal Recognition: A Framework Based on Weight of Evidence. (arXiv:2303.05622v1 [cs.AI])",
+    "abstract": "We introduce and evaluate an eXplainable Goal Recognition (XGR) model that uses the Weight of Evidence (WoE) framework to explain goal recognition problems. Our model provides human-centered explanations that answer why? and why not? questions. We computationally evaluate the performance of our system over eight different domains. Using a human behavioral study to obtain the ground truth from human annotators, we further show that the XGR model can successfully generate human-like explanations. We then report on a study with 60 participants who observe agents playing Sokoban game and then receive explanations of the goal recognition output. We investigate participants' understanding obtained by explanations through task prediction, explanation satisfaction, and trust.",
+    "link": "http://arxiv.org/abs/2303.05622",
+    "raw_ret": "{\n    \"translated_title\": \"可解释的目标识别: 基于证据权重的框架\",\n    \"translated_abstract\": \"我们提出并评估了一种使用证据权重(WoE)框架来解释目标识别问题的可解释的目标识别(XGR)模型。我们的模型提供了人类中心的解释，回答了为什么？和为什么不？的问题。我们在八个不同的领域计算地评估了我们系统的性能。使用人类行为研究来从人类注释中获得基础事实，我们进一步展示了XGR模型可以成功生成类似人类的解释。然后，我们报告了一项研究，其中60名参与者观察代理程序玩Sokoban游戏，然后接收目标识别输出的解释。我们通过任务预测、解释满意度和信任调查参与者对解释的理解。\",\n    \"tldr\": \"该论文介绍和评估了一种使用证据权重框架的可解释目标识别模型，可以提供人类中心的解释并且在八个不同的领域表现良好。经过人类行为研究验证该模型可以成功生成类似人类的解释。\" \n}<|im_sep|>",
+    "total_tokens": 774,
+    "ret": {
+        "translated_title": "可解释的目标识别: 基于证据权重的框架",
+        "translated_abstract": "我们提出并评估了一种使用证据权重(WoE)框架来解释目标识别问题的可解释的目标识别(XGR)模型。我们的模型提供了人类中心的解释，回答了为什么？和为什么不？的问题。我们在八个不同的领域计算地评估了我们系统的性能。使用人类行为研究来从人类注释中获得基础事实，我们进一步展示了XGR模型可以成功生成类似人类的解释。然后，我们报告了一项研究，其中60名参与者观察代理程序玩Sokoban游戏，然后接收目标识别输出的解释。我们通过任务预测、解释满意度和信任调查参与者对解释的理解。",
+        "tldr": "该论文介绍和评估了一种使用证据权重框架的可解释目标识别模型，可以提供人类中心的解释并且在八个不同的领域表现良好。经过人类行为研究验证该模型可以成功生成类似人类的解释。"
+    }
+}

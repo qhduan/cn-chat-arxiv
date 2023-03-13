@@ -1,0 +1,12 @@
+{
+    "title": "Scaling Up 3D Kernels with Bayesian Frequency Re-parameterization for Medical Image Segmentation. (arXiv:2303.05785v1 [eess.IV])",
+    "abstract": "With the inspiration of vision transformers, the concept of depth-wise convolution revisits to provide a large Effective Receptive Field (ERF) using Large Kernel (LK) sizes for medical image segmentation. However, the segmentation performance might be saturated and even degraded as the kernel sizes scaled up (e.g., $21\\times 21\\times 21$) in a Convolutional Neural Network (CNN). We hypothesize that convolution with LK sizes is limited to maintain an optimal convergence for locality learning. While Structural Re-parameterization (SR) enhances the local convergence with small kernels in parallel, optimal small kernel branches may hinder the computational efficiency for training. In this work, we propose RepUX-Net, a pure CNN architecture with a simple large kernel block design, which competes favorably with current network state-of-the-art (SOTA) (e.g., 3D UX-Net, SwinUNETR) using 6 challenging public datasets. We derive an equivalency between kernel re-parameterization and the branch-wi",
+    "link": "http://arxiv.org/abs/2303.05785",
+    "raw_ret": "{\n    \"translated_title\": \"应用贝叶斯频率重新参数化技术对三维卷积核进行扩展以用于医学图像分割\",\n    \"translated_abstract\": \"本文基于Vision transformers的概念，使用深度卷积提供了具有大有效感受野的大卷积核，以用于医学图像分割。然而，当卷积核大小扩展（例如，$21\\times 21\\times 21$）时，卷积神经网络的分割性能可能会饱和甚至降低。我们假设使用大卷积核的卷积仅限于保持最佳局部学习的收敛。同时，尽管结构重新参数化技术可以在局部上提高收敛速度，但最佳的小卷积核分支可能会妨碍训练的计算效率。因此，我们提出了RepUX-Net，这是一个纯CNN架构，使用简单的大卷积核块设计，能够在6个具有挑战性的公共数据集上与当前网络最先进的技术（例如3D UX-Net，SwinUNETR）竞争。本文还得出了卷积核重新参数化技术和分支宽度的等效性\",\n    \"tldr\": \"本文提出了RepUX-Net，这是一个纯CNN架构，使用简单的大卷积核块设计，能够在医学图像分割中与当前网络最先进的技术竞争，同时还得出了卷积核重新参数化技术和分支宽度的等效性。\"\n}<|im_sep|>",
+    "total_tokens": 945,
+    "ret": {
+        "translated_title": "应用贝叶斯频率重新参数化技术对三维卷积核进行扩展以用于医学图像分割",
+        "translated_abstract": "本文基于Vision transformers的概念，使用深度卷积提供了具有大有效感受野的大卷积核，以用于医学图像分割。然而，当卷积核大小扩展（例如，$21\times 21\times 21$）时，卷积神经网络的分割性能可能会饱和甚至降低。我们假设使用大卷积核的卷积仅限于保持最佳局部学习的收敛。同时，尽管结构重新参数化技术可以在局部上提高收敛速度，但最佳的小卷积核分支可能会妨碍训练的计算效率。因此，我们提出了RepUX-Net，这是一个纯CNN架构，使用简单的大卷积核块设计，能够在6个具有挑战性的公共数据集上与当前网络最先进的技术（例如3D UX-Net，SwinUNETR）竞争。本文还得出了卷积核重新参数化技术和分支宽度的等效性",
+        "tldr": "本文提出了RepUX-Net，这是一个纯CNN架构，使用简单的大卷积核块设计，能够在医学图像分割中与当前网络最先进的技术竞争，同时还得出了卷积核重新参数化技术和分支宽度的等效性。"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Self-Adaptive Named Entity Recognition by Retrieving Unstructured Knowledge. (arXiv:2210.07523v2 [cs.CL] UPDATED)",
+    "abstract": "Although named entity recognition (NER) helps us to extract domain-specific entities from text (e.g., artists in the music domain), it is costly to create a large amount of training data or a structured knowledge base to perform accurate NER in the target domain. Here, we propose self-adaptive NER, which retrieves external knowledge from unstructured text to learn the usages of entities that have not been learned well. To retrieve useful knowledge for NER, we design an effective two-stage model that retrieves unstructured knowledge using uncertain entities as queries. Our model predicts the entities in the input and then finds those of which the prediction is not confident. Then, it retrieves knowledge by using these uncertain entities as queries and concatenates the retrieved text to the original input to revise the prediction. Experiments on CrossNER datasets demonstrated that our model outperforms strong baselines by 2.35 points in F1 metric.",
+    "link": "http://arxiv.org/abs/2210.07523",
+    "raw_ret": "{\n    \"translated_title\": \"通过检索非结构化知识进行自适应命名实体识别\",\n    \"translated_abstract\": \"尽管命名实体识别（NER）可以帮助我们从文本中提取领域特定的实体（例如，音乐领域中的艺术家），但是在目标领域中创建大量的训练数据或结构化知识库以执行准确的NER是昂贵的。在这里，我们提出了自适应NER，它从非结构化文本中检索外部知识来学习未被充分学习的实体的用法。为了检索NER的有用知识，我们设计了一个有效的两阶段模型，使用不确定的实体作为查询来检索非结构化知识。我们的模型预测输入中的实体，然后找到预测不确定的实体。然后，它通过使用这些不确定的实体作为查询来检索知识，并将检索到的文本连接到原始输入来修正预测。在CrossNER数据集上的实验表明，我们的模型在F1度量中比强基线表现高2.35个百分点。\",\n    \"tldr\": \"提出了一种通过检索非结构化文本来学习未被充分学习的实体的用法的自适应命名实体识别方法，在CrossNER数据集上的实验表明，比强基线表现高2.35个百分点\"\n}",
+    "total_tokens": 863,
+    "ret": {
+        "translated_title": "通过检索非结构化知识进行自适应命名实体识别",
+        "translated_abstract": "尽管命名实体识别（NER）可以帮助我们从文本中提取领域特定的实体（例如，音乐领域中的艺术家），但是在目标领域中创建大量的训练数据或结构化知识库以执行准确的NER是昂贵的。在这里，我们提出了自适应NER，它从非结构化文本中检索外部知识来学习未被充分学习的实体的用法。为了检索NER的有用知识，我们设计了一个有效的两阶段模型，使用不确定的实体作为查询来检索非结构化知识。我们的模型预测输入中的实体，然后找到预测不确定的实体。然后，它通过使用这些不确定的实体作为查询来检索知识，并将检索到的文本连接到原始输入来修正预测。在CrossNER数据集上的实验表明，我们的模型在F1度量中比强基线表现高2.35个百分点。",
+        "tldr": "提出了一种通过检索非结构化文本来学习未被充分学习的实体的用法的自适应命名实体识别方法，在CrossNER数据集上的实验表明，比强基线表现高2.35个百分点"
+    }
+}

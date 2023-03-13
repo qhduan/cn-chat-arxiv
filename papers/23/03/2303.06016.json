@@ -1,0 +1,12 @@
+{
+    "title": "Modelling Projection Bias in Intertemporal Choices: A Prospect Theory Based Approach. (arXiv:2303.06016v1 [cs.IR])",
+    "abstract": "Users often face bundle promotions when purchasing, where they have to select between two options: buy the single item at full price, or buy the bundle at a discount. In this scenario, users' preferences are usually influenced by the projection bias, that is, users often believe that their future preferences are similar to their current preferences, causing them to make irrational and short-sighted decisions. It is of great significance to analyze the effect of the projection bias on users' preferences, and this study may help understand users' decision-making process and provide bundling and pricing strategies for sellers. Prior works typically use a linear bias model for qualitative analysis, and they cannot quantitatively calculate users' nonlinear and personalized bias. In this work, we propose Pobe, a projection bias-embedded preference model to accurately predict users' choices. The proposed Pobe introduces the prospect theory to analyze users' irrational decisions, and utilizes ",
+    "link": "http://arxiv.org/abs/2303.06016",
+    "raw_ret": "{\n    \"translated_title\": \"建立基于展望理论的投影偏误的时间选择模型\",\n    \"translated_abstract\": \"在购买时，用户经常面临捆绑促销，需要在两个选项之间进行选择：以全价购买单个物品，或以折扣价购买捆绑包。在这种情况下，用户的偏好通常受到投影偏误的影响，即用户经常认为他们未来的偏好与他们当前的偏好相似，导致他们做出非理性和短视的决策。分析投影偏误对用户偏好的影响具有重要意义，本研究可能有助于理解用户的决策过程，并为卖家提供捆绑和定价策略。以往的工作通常使用线性偏误模型进行定性分析，无法定量计算用户的非线性和个性化偏误。在这项工作中，我们提出了Pobe，一种投影偏误嵌入偏好模型，以准确预测用户的选择。所提出的Pobe引入了展望理论来分析用户的非理性决策，并利用\",\n    \"tldr\": \"本研究提出了一种Pobe模型，以展望理论分析用户的非理性决策，并计算用户的投影偏误，从而可以准确预测用户的选择。\"\n}",
+    "total_tokens": 857,
+    "ret": {
+        "translated_title": "建立基于展望理论的投影偏误的时间选择模型",
+        "translated_abstract": "在购买时，用户经常面临捆绑促销，需要在两个选项之间进行选择：以全价购买单个物品，或以折扣价购买捆绑包。在这种情况下，用户的偏好通常受到投影偏误的影响，即用户经常认为他们未来的偏好与他们当前的偏好相似，导致他们做出非理性和短视的决策。分析投影偏误对用户偏好的影响具有重要意义，本研究可能有助于理解用户的决策过程，并为卖家提供捆绑和定价策略。以往的工作通常使用线性偏误模型进行定性分析，无法定量计算用户的非线性和个性化偏误。在这项工作中，我们提出了Pobe，一种投影偏误嵌入偏好模型，以准确预测用户的选择。所提出的Pobe引入了展望理论来分析用户的非理性决策，并利用",
+        "tldr": "本研究提出了一种Pobe模型，以展望理论分析用户的非理性决策，并计算用户的投影偏误，从而可以准确预测用户的选择。"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Non-invasive Waveform Analysis for Emergency Triage via Simulated Hemorrhage: An Experimental Study using Novel Dynamic Lower Body Negative Pressure Model. (arXiv:2303.06064v1 [eess.SP])",
+    "abstract": "The extent to which advanced waveform analysis of non-invasive physiological signals can diagnose levels of hypovolemia remains insufficiently explored. The present study explores the discriminative ability of a deep learning (DL) framework to classify levels of ongoing hypovolemia, simulated via novel dynamic lower body negative pressure (LBNP) model among healthy volunteers. We used a dynamic LBNP protocol as opposed to the traditional model, where LBNP is applied in a predictable step-wise, progressively descending manner. This dynamic LBNP version assists in circumventing the problem posed in terms of time dependency, as in real-life pre-hospital settings, intravascular blood volume may fluctuate due to volume resuscitation. A supervised DL-based framework for ternary classification was realized by segmenting the underlying noninvasive signal and labeling segments with corresponding LBNP target levels. The proposed DL model with two inputs was trained with respective time-frequency",
+    "link": "http://arxiv.org/abs/2303.06064",
+    "raw_ret": "{\n    \"translated_title\": \"非侵入式波形分析用于通过模拟失血进行急诊分级：一项使用新颖的动态下半身负压模型的实验研究。(arXiv:2303.06064v1 [eess.SP])\",\n    \"translated_abstract\": \"探索非侵入性生理信号的先进波形分析能够诊断失血程度的程度仍不足。本研究探讨了深度学习（DL）框架分类进行下半身负压（LBNP）模拟的持续性失血水平的鉴别能力。我们使用动态LBNP协议，而不是传统的模型，在该协议中，LBNP以可预测的逐步下降的方式施加。该动态LBNP版本有助于解决时间依赖性问题，因为在现实生活中的院前设置中，由于体积复苏，血管内的血容量可能会波动。通过分割底层非侵入式信号并使用相应的LBNP目标级别对片段进行标记，实现了用于三元分类的监督式DL框架。具有两个输入的DL模型经过训练\",\n    \"tldr\": \"本研究使用新颖的动态下半身负压模型模拟持续性失血水平，并通过深度学习（DL）框架分类鉴别不同程度的失血水平，为急诊分级提供新思路。\"\n}",
+    "total_tokens": 915,
+    "ret": {
+        "translated_title": "非侵入式波形分析用于通过模拟失血进行急诊分级：一项使用新颖的动态下半身负压模型的实验研究。(arXiv:2303.06064v1 [eess.SP])",
+        "translated_abstract": "探索非侵入性生理信号的先进波形分析能够诊断失血程度的程度仍不足。本研究探讨了深度学习（DL）框架分类进行下半身负压（LBNP）模拟的持续性失血水平的鉴别能力。我们使用动态LBNP协议，而不是传统的模型，在该协议中，LBNP以可预测的逐步下降的方式施加。该动态LBNP版本有助于解决时间依赖性问题，因为在现实生活中的院前设置中，由于体积复苏，血管内的血容量可能会波动。通过分割底层非侵入式信号并使用相应的LBNP目标级别对片段进行标记，实现了用于三元分类的监督式DL框架。具有两个输入的DL模型经过训练",
+        "tldr": "本研究使用新颖的动态下半身负压模型模拟持续性失血水平，并通过深度学习（DL）框架分类鉴别不同程度的失血水平，为急诊分级提供新思路。"
+    }
+}

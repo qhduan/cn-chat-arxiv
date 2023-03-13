@@ -1,0 +1,12 @@
+{
+    "title": "DM-NeRF: 3D Scene Geometry Decomposition and Manipulation from 2D Images. (arXiv:2208.07227v2 [cs.CV] UPDATED)",
+    "abstract": "In this paper, we study the problem of 3D scene geometry decomposition and manipulation from 2D views. By leveraging the recent implicit neural representation techniques, particularly the appealing neural radiance fields, we introduce an object field component to learn unique codes for all individual objects in 3D space only from 2D supervision. The key to this component is a series of carefully designed loss functions to enable every 3D point, especially in non-occupied space, to be effectively optimized even without 3D labels. In addition, we introduce an inverse query algorithm to freely manipulate any specified 3D object shape in the learned scene representation. Notably, our manipulation algorithm can explicitly tackle key issues such as object collisions and visual occlusions. Our method, called DM-NeRF, is among the first to simultaneously reconstruct, decompose, manipulate and render complex 3D scenes in a single pipeline. Extensive experiments on three datasets clearly show th",
+    "link": "http://arxiv.org/abs/2208.07227",
+    "raw_ret": "{\n    \"translated_title\": \"DM-NeRF:从2D图像中分解和操作3D场景几何\",\n    \"translated_abstract\": \"本文研究了从2D视图中分解和操作3D场景几何的问题。通过利用最近的隐式神经表示技术，特别是吸引人的神经辐射场，我们引入了一个对象场组件，仅从2D监督中学习3D空间中所有个体对象的唯一代码。实现该组件的关键是一系列精心设计的损失函数，以使每个3D点，特别是非占用空间中的点，即使没有3D标签，也能得到有效优化。此外，我们引入了一个反向查询算法，以自由操作所学场景表示中的任何指定3D对象形状。值得注意的是，我们的操作算法可以明确解决关键问题，如对象碰撞和视觉遮挡。我们的方法名为DM-NeRF，是首个在单个流水线中同时重建，分解，操作和渲染复杂的3D场景。在三个数据集上的广泛实验清楚地显示了。\",\n    \"tldr\": \"本文提出了一个名为DM-NeRF的方法，使用2D监督和隐式神经表示技术学习3D场景中每个单独对象的唯一代码。同时，该方法还引入了一个反向查询算法，能够自由操作所学场景表示中的任何指定3D对象形状。\" \n}",
+    "total_tokens": 892,
+    "ret": {
+        "translated_title": "DM-NeRF:从2D图像中分解和操作3D场景几何",
+        "translated_abstract": "本文研究了从2D视图中分解和操作3D场景几何的问题。通过利用最近的隐式神经表示技术，特别是吸引人的神经辐射场，我们引入了一个对象场组件，仅从2D监督中学习3D空间中所有个体对象的唯一代码。实现该组件的关键是一系列精心设计的损失函数，以使每个3D点，特别是非占用空间中的点，即使没有3D标签，也能得到有效优化。此外，我们引入了一个反向查询算法，以自由操作所学场景表示中的任何指定3D对象形状。值得注意的是，我们的操作算法可以明确解决关键问题，如对象碰撞和视觉遮挡。我们的方法名为DM-NeRF，是首个在单个流水线中同时重建，分解，操作和渲染复杂的3D场景。在三个数据集上的广泛实验清楚地显示了。",
+        "tldr": "本文提出了一个名为DM-NeRF的方法，使用2D监督和隐式神经表示技术学习3D场景中每个单独对象的唯一代码。同时，该方法还引入了一个反向查询算法，能够自由操作所学场景表示中的任何指定3D对象形状。"
+    }
+}

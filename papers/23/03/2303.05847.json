@@ -1,0 +1,7 @@
+{
+    "title": "Gradient Coordination for Quantifying and Maximizing Knowledge Transference in Multi-Task Learning. (arXiv:2303.05847v1 [cs.IR])",
+    "abstract": "Multi-task learning (MTL) has been widely applied in online advertising and recommender systems. To address the negative transfer issue, recent studies have proposed optimization methods that thoroughly focus on the gradient alignment of directions or magnitudes. However, since prior study has proven that both general and specific knowledge exist in the limited shared capacity, overemphasizing on gradient alignment may crowd out task-specific knowledge, and vice versa. In this paper, we propose a transference-driven approach CoGrad that adaptively maximizes knowledge transference via Coordinated Gradient modification. We explicitly quantify the transference as loss reduction from one task to another, and then derive an auxiliary gradient from optimizing it. We perform the optimization by incorporating this gradient into original task gradients, making the model automatically maximize inter-task transfer and minimize individual losses. Thus, CoGrad can harmonize between general and spec",
+    "link": "http://arxiv.org/abs/2303.05847",
+    "raw_ret": "",
+    "total_tokens": 442
+}

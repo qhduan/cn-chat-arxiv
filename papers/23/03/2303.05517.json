@@ -1,0 +1,12 @@
+{
+    "title": "On the Soundness of XAI in Prognostics and Health Management (PHM). (arXiv:2303.05517v1 [cs.LG])",
+    "abstract": "The aim of Predictive Maintenance, within the field of Prognostics and Health Management (PHM), is to identify and anticipate potential issues in the equipment before these become critical. The main challenge to be addressed is to assess the amount of time a piece of equipment will function effectively before it fails, which is known as Remaining Useful Life (RUL). Deep Learning (DL) models, such as Deep Convolutional Neural Networks (DCNN) and Long Short-Term Memory (LSTM) networks, have been widely adopted to address the task, with great success. However, it is well known that this kind of black box models are opaque decision systems, and it may be hard to explain its outputs to stakeholders (experts in the industrial equipment). Due to the large number of parameters that determine the behavior of these complex models, understanding the reasoning behind the predictions is challenging. This work presents a critical and comparative revision on a number of XAI methods applied on time se",
+    "link": "http://arxiv.org/abs/2303.05517",
+    "raw_ret": "{\n    \"translated_title\": \"关于XAI在预测性维护和健康管理中的合理性。\",\n    \"translated_abstract\": \"在预测性维护和健康管理领域内，预测性维护的目标是在问题变得严重之前识别和预测设备的潜在问题。要解决的主要挑战是评估一件设备在失败之前能够有效运行的时间，这被称为剩余有用寿命（RUL）。使用深度学习（DL）模型，如深度卷积神经网络（DCNN）和长短期记忆（LSTM）网络，已被广泛采用来解决这个任务，并取得了巨大成功。然而，众所周知，这种黑匣子模型是不透明的决策系统，可能很难向利益相关者（工业设备专家）解释其输出。由于决定这些复杂模型行为的参数数量很大，因此理解预测背后的推理是具有挑战性的。本文对应用于时间序列的一些XAI方法进行了批判性和比较性修订。\",\n    \"tldr\": \"本文对应用于时间序列的一些XAI方法进行了批判性和比较性修订，旨在解决预测性维护中深度学习模型的不透明性问题。\"\n}",
+    "total_tokens": 878,
+    "ret": {
+        "translated_title": "关于XAI在预测性维护和健康管理中的合理性。",
+        "translated_abstract": "在预测性维护和健康管理领域内，预测性维护的目标是在问题变得严重之前识别和预测设备的潜在问题。要解决的主要挑战是评估一件设备在失败之前能够有效运行的时间，这被称为剩余有用寿命（RUL）。使用深度学习（DL）模型，如深度卷积神经网络（DCNN）和长短期记忆（LSTM）网络，已被广泛采用来解决这个任务，并取得了巨大成功。然而，众所周知，这种黑匣子模型是不透明的决策系统，可能很难向利益相关者（工业设备专家）解释其输出。由于决定这些复杂模型行为的参数数量很大，因此理解预测背后的推理是具有挑战性的。本文对应用于时间序列的一些XAI方法进行了批判性和比较性修订。",
+        "tldr": "本文对应用于时间序列的一些XAI方法进行了批判性和比较性修订，旨在解决预测性维护中深度学习模型的不透明性问题。"
+    }
+}

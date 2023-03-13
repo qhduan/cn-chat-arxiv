@@ -1,0 +1,12 @@
+{
+    "title": "Efficient recurrent architectures through activity sparsity and sparse back-propagation through time. (arXiv:2206.06178v3 [cs.LG] UPDATED)",
+    "abstract": "Recurrent neural networks (RNNs) are well suited for solving sequence tasks in resource-constrained systems due to their expressivity and low computational requirements. However, there is still a need to bridge the gap between what RNNs are capable of in terms of efficiency and performance and real-world application requirements. The memory and computational requirements arising from propagating the activations of all the neurons at every time step to every connected neuron, together with the sequential dependence of activations, contribute to the inefficiency of training and using RNNs. We propose a solution inspired by biological neuron dynamics that makes the communication between RNN units sparse and discrete. This makes the backward pass with backpropagation through time (BPTT) computationally sparse and efficient as well. We base our model on the gated recurrent unit (GRU), extending it with units that emit discrete events for communication triggered by a threshold so that no inf",
+    "link": "http://arxiv.org/abs/2206.06178",
+    "raw_ret": "{\n    \"translated_title\": \"通过活动稀疏性和稀疏的逐时间反向传播实现高效的循环架构\",\n    \"translated_abstract\": \"由于其表达能力和低计算需求，递归神经网络（RNN）非常适合在资源受限的系统中解决序列任务。然而，仍然需要弥合RNN在效率和性能方面与实际应用要求之间的差距。向所有连接的神经元传播每个时间步长的激活所产生的记忆和计算要求，以及激活的序列依赖性，共同导致了训练和使用RNN的低效率。我们提出了一种受生物神经元动态启发的解决方案，使RNN单元之间的通信变得稀疏和离散。这使得通过时间的反向传播（BPTT）的反向传播计算具有稀疏性和高效性。我们的模型基于门控循环单元（GRU），通过引入发出离散事件以进行通信的单元，扩展了它，这些事件由阈值触发，因此不存在与活动相关的不确定性。 \",\n    \"tldr\": \"本文提出了一种基于生物神经元动态启发的解决方案，使RNN单元之间的通信变得稀疏和离散，从而提高了训练和使用RNN的效率和性能。\"\n}<|im_sep|>",
+    "total_tokens": 877,
+    "ret": {
+        "translated_title": "通过活动稀疏性和稀疏的逐时间反向传播实现高效的循环架构",
+        "translated_abstract": "由于其表达能力和低计算需求，递归神经网络（RNN）非常适合在资源受限的系统中解决序列任务。然而，仍然需要弥合RNN在效率和性能方面与实际应用要求之间的差距。向所有连接的神经元传播每个时间步长的激活所产生的记忆和计算要求，以及激活的序列依赖性，共同导致了训练和使用RNN的低效率。我们提出了一种受生物神经元动态启发的解决方案，使RNN单元之间的通信变得稀疏和离散。这使得通过时间的反向传播（BPTT）的反向传播计算具有稀疏性和高效性。我们的模型基于门控循环单元（GRU），通过引入发出离散事件以进行通信的单元，扩展了它，这些事件由阈值触发，因此不存在与活动相关的不确定性。 ",
+        "tldr": "本文提出了一种基于生物神经元动态启发的解决方案，使RNN单元之间的通信变得稀疏和离散，从而提高了训练和使用RNN的效率和性能。"
+    }
+}

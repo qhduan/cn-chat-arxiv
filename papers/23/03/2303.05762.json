@@ -1,0 +1,12 @@
+{
+    "title": "TrojDiff: Trojan Attacks on Diffusion Models with Diverse Targets. (arXiv:2303.05762v1 [cs.LG])",
+    "abstract": "Diffusion models have achieved great success in a range of tasks, such as image synthesis and molecule design. As such successes hinge on large-scale training data collected from diverse sources, the trustworthiness of these collected data is hard to control or audit. In this work, we aim to explore the vulnerabilities of diffusion models under potential training data manipulations and try to answer: How hard is it to perform Trojan attacks on well-trained diffusion models? What are the adversarial targets that such Trojan attacks can achieve? To answer these questions, we propose an effective Trojan attack against diffusion models, TrojDiff, which optimizes the Trojan diffusion and generative processes during training. In particular, we design novel transitions during the Trojan diffusion process to diffuse adversarial targets into a biased Gaussian distribution and propose a new parameterization of the Trojan generative process that leads to an effective training objective for the at",
+    "link": "http://arxiv.org/abs/2303.05762",
+    "raw_ret": "{\n    \"translated_title\": \"TrojDiff：面向不同目标的扩散模型的木马攻击\",\n    \"translated_abstract\": \"扩散模型已经在许多任务中取得了巨大成功，例如图像合成和分子设计。由于这些成功依赖于从多样化来源收集的大规模训练数据，因此很难控制或审计这些收集到的数据的可靠性。在这项工作中，我们旨在探究潜在的训练数据操纵对扩散模型的漏洞，并尝试回答：对于经过良好训练的扩散模型来说，执行木马攻击有多难？这种木马攻击可以实现哪些对抗性目标？为了回答这些问题，我们提出了一种有效的Trojan攻击扩散模型，TrojDiff，在训练过程中优化了Trojan扩散和生成过程。特别地，我们在Trojan扩散过程中设计了新的转换方式，将对抗性目标扩散到有偏的高斯分布中，并提出了一种新的Trojan生成过程参数化，从而为攻击提供了有效的训练目标。\",\n    \"tldr\": \"该论文提出了一种针对扩散模型的Trojan攻击，称为TrojDiff，可以将对抗性目标扩散到有偏的高斯分布中，为攻击提供有效的训练目标。\"\n}",
+    "total_tokens": 879,
+    "ret": {
+        "translated_title": "TrojDiff：面向不同目标的扩散模型的木马攻击",
+        "translated_abstract": "扩散模型已经在许多任务中取得了巨大成功，例如图像合成和分子设计。由于这些成功依赖于从多样化来源收集的大规模训练数据，因此很难控制或审计这些收集到的数据的可靠性。在这项工作中，我们旨在探究潜在的训练数据操纵对扩散模型的漏洞，并尝试回答：对于经过良好训练的扩散模型来说，执行木马攻击有多难？这种木马攻击可以实现哪些对抗性目标？为了回答这些问题，我们提出了一种有效的Trojan攻击扩散模型，TrojDiff，在训练过程中优化了Trojan扩散和生成过程。特别地，我们在Trojan扩散过程中设计了新的转换方式，将对抗性目标扩散到有偏的高斯分布中，并提出了一种新的Trojan生成过程参数化，从而为攻击提供了有效的训练目标。",
+        "tldr": "该论文提出了一种针对扩散模型的Trojan攻击，称为TrojDiff，可以将对抗性目标扩散到有偏的高斯分布中，为攻击提供有效的训练目标。"
+    }
+}

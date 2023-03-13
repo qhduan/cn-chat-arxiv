@@ -1,0 +1,12 @@
+{
+    "title": "Provably Efficient Model-Free Algorithms for Non-stationary CMDPs. (arXiv:2303.05733v1 [cs.LG])",
+    "abstract": "We study model-free reinforcement learning (RL) algorithms in episodic non-stationary constrained Markov Decision Processes (CMDPs), in which an agent aims to maximize the expected cumulative reward subject to a cumulative constraint on the expected utility (cost). In the non-stationary environment, reward, utility functions, and transition kernels can vary arbitrarily over time as long as the cumulative variations do not exceed certain variation budgets. We propose the first model-free, simulator-free RL algorithms with sublinear regret and zero constraint violation for non-stationary CMDPs in both tabular and linear function approximation settings with provable performance guarantees. Our results on regret bound and constraint violation for the tabular case match the corresponding best results for stationary CMDPs when the total budget is known. Additionally, we present a general framework for addressing the well-known challenges associated with analyzing non-stationary CMDPs, withou",
+    "link": "http://arxiv.org/abs/2303.05733",
+    "raw_ret": "{\n    \"translated_title\": \"非稳态CMDP的可证明高效无模型算法\",\n    \"translated_abstract\": \"我们研究了非稳态约束马尔可夫决策过程（CMDPs）中的无模型强化学习算法，其中代理人旨在最大化期望累积奖励，同时在预期效用（成本）的累积约束下。在非稳态环境中，奖励、效用函数和转移核函数可以随时间任意变化，只要累积变化不超过某些变化预算。我们提出了第一个无模拟器无模型的RL算法，在有证据的性能保证下，对于tabular和线性函数逼近设置，具有亚线性后悔和零约束违反。在总预算已知的情况下，我们在tabular情况下的后悔界和约束违反结果与稳态CMDPs的相应最佳结果相匹配。此外，我们提出了一个通用框架，用于解决与分析非稳态CMDPs相关的众所周知的挑战，without\",\n    \"tldr\": \"本研究提出了一种模型无关的强化学习算法，用于在非稳态约束马尔可夫决策过程中最大化期望累积奖励，并在预期成本上做出累积约束，同时保证亚线性后悔和零约束违反。此外，我们还提出了一个通用框架，用于解决与分析非稳态CMDPs相关的挑战。\"\n}",
+    "total_tokens": 909,
+    "ret": {
+        "translated_title": "非稳态CMDP的可证明高效无模型算法",
+        "translated_abstract": "我们研究了非稳态约束马尔可夫决策过程（CMDPs）中的无模型强化学习算法，其中代理人旨在最大化期望累积奖励，同时在预期效用（成本）的累积约束下。在非稳态环境中，奖励、效用函数和转移核函数可以随时间任意变化，只要累积变化不超过某些变化预算。我们提出了第一个无模拟器无模型的RL算法，在有证据的性能保证下，对于tabular和线性函数逼近设置，具有亚线性后悔和零约束违反。在总预算已知的情况下，我们在tabular情况下的后悔界和约束违反结果与稳态CMDPs的相应最佳结果相匹配。此外，我们提出了一个通用框架，用于解决与分析非稳态CMDPs相关的众所周知的挑战，without",
+        "tldr": "本研究提出了一种模型无关的强化学习算法，用于在非稳态约束马尔可夫决策过程中最大化期望累积奖励，并在预期成本上做出累积约束，同时保证亚线性后悔和零约束违反。此外，我们还提出了一个通用框架，用于解决与分析非稳态CMDPs相关的挑战。"
+    }
+}

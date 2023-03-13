@@ -1,0 +1,12 @@
+{
+    "title": "Semi-supervised Adversarial Learning for Complementary Item Recommendation. (arXiv:2303.05812v1 [cs.IR])",
+    "abstract": "Complementary item recommendations are a ubiquitous feature of modern e-commerce sites. Such recommendations are highly effective when they are based on collaborative signals like co-purchase statistics. In certain online marketplaces, however, e.g., on online auction sites, constantly new items are added to the catalog. In such cases, complementary item recommendations are often based on item side-information due to a lack of interaction data. In this work, we propose a novel approach that can leverage both item side-information and labeled complementary item pairs to generate effective complementary recommendations for cold items, i.e., for items for which no co-purchase statistics yet exist. Given that complementary items typically have to be of a different category than the seed item, we technically maintain a latent space for each item category. Simultaneously, we learn to project distributed item representations into these category spaces to determine suitable recommendations. Th",
+    "link": "http://arxiv.org/abs/2303.05812",
+    "raw_ret": "{\n    \"translated_title\": \"半监督对抗学习用于补充商品推荐\",\n    \"translated_abstract\": \"补充商品推荐是现代电子商务网站的普遍特征。当这些推荐基于协作信号，如共同购买统计数据时，它们非常有效。但是，在某些在线市场上，例如在线拍卖网站，不断有新商品加入目录。在这种情况下，由于缺乏交互数据，补充商品推荐通常基于商品辅助信息。本文提出了一种新方法，可以利用商品辅助信息和标记的补充商品对来生成有效的补充推荐，用于无冷启动商品，即尚不存在共同购买统计数据的商品。考虑到补充商品通常必须与种子商品不同类别，我们为每个商品类别技术维护一个潜在空间。同时，我们学习将分布式商品表示投影到这些类别空间中，以确定合适的推荐。\",\n    \"tldr\": \"文章提出了一种新的方法，结合商品辅助信息和标记的补充商品对来生成有效的补充推荐，用于无共同购买统计数据的商品。该方法维护每个商品类别的潜在空间，学习将分布式商品表示投影到这些类别空间中，以确定合适的推荐。\"\n}<|im_sep|>",
+    "total_tokens": 854,
+    "ret": {
+        "translated_title": "半监督对抗学习用于补充商品推荐",
+        "translated_abstract": "补充商品推荐是现代电子商务网站的普遍特征。当这些推荐基于协作信号，如共同购买统计数据时，它们非常有效。但是，在某些在线市场上，例如在线拍卖网站，不断有新商品加入目录。在这种情况下，由于缺乏交互数据，补充商品推荐通常基于商品辅助信息。本文提出了一种新方法，可以利用商品辅助信息和标记的补充商品对来生成有效的补充推荐，用于无冷启动商品，即尚不存在共同购买统计数据的商品。考虑到补充商品通常必须与种子商品不同类别，我们为每个商品类别技术维护一个潜在空间。同时，我们学习将分布式商品表示投影到这些类别空间中，以确定合适的推荐。",
+        "tldr": "文章提出了一种新的方法，结合商品辅助信息和标记的补充商品对来生成有效的补充推荐，用于无共同购买统计数据的商品。该方法维护每个商品类别的潜在空间，学习将分布式商品表示投影到这些类别空间中，以确定合适的推荐。"
+    }
+}

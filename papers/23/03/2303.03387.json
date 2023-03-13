@@ -1,0 +1,12 @@
+{
+    "title": "CoSyn: Detecting Implicit Hate Speech in Online Conversations Using a Context Synergized Hyperbolic Network. (arXiv:2303.03387v2 [cs.LG] UPDATED)",
+    "abstract": "The tremendous growth of social media users interacting in online conversations has also led to significant growth in hate speech. Most of the prior works focus on detecting explicit hate speech, which is overt and leverages hateful phrases, with very little work focusing on detecting hate speech that is implicit or denotes hatred through indirect or coded language. In this paper, we present CoSyn, a user- and conversational-context synergized network for detecting implicit hate speech in online conversation trees. CoSyn first models the user's personal historical and social context using a novel hyperbolic Fourier attention mechanism and hyperbolic graph convolution network. Next, we jointly model the user's personal context and the conversational context using a novel context interaction mechanism in the hyperbolic space that clearly captures the interplay between the two and makes independent assessments on the amounts of information to be retrieved from both contexts. CoSyn perform",
+    "link": "http://arxiv.org/abs/2303.03387",
+    "raw_ret": "{\n    \"translated_title\": \"CoSyn：使用上下文协同作用的双曲网络检测在线对话中的隐含仇恨言论\",\n    \"translated_abstract\": \"社交媒体用户进行在线对话的巨大增长也导致了仇恨言论的显著增长。大多数先前的工作集中于检测明确的仇恨言论，这是公开且利用令人讨厌的短语，但很少有关注检测通过间接或编码语言表示仇恨的隐含仇恨言论。在本文中，我们提出了CoSyn，这是一个用户和对话上下文协同作用的网络，用于检测在线对话树中的隐含仇恨言论。CoSyn首先使用新颖的双曲傅里叶注意机制和双曲图卷积网络对用户的个人历史和社交上下文进行建模。接下来，我们使用新的上下文交互机制在双曲空间中联合建模用户的个人上下文和对话上下文，该机制清晰地捕捉两者之间的相互作用，并对从两个上下文中检索的信息量进行独立评估。CoSyn表现出令人满意的性能，证明了我们模型的有效性。\",\n    \"tldr\": \"本文提出了一种名为CoSyn的机制，可以检测在线对话中的隐含仇恨言论。该机制首先对用户的上下文进行建模，然后使用新颖的上下文交互机制联合建模用户和对话上下文，证明了其有效性。\"\n}",
+    "total_tokens": 921,
+    "ret": {
+        "translated_title": "CoSyn：使用上下文协同作用的双曲网络检测在线对话中的隐含仇恨言论",
+        "translated_abstract": "社交媒体用户进行在线对话的巨大增长也导致了仇恨言论的显著增长。大多数先前的工作集中于检测明确的仇恨言论，这是公开且利用令人讨厌的短语，但很少有关注检测通过间接或编码语言表示仇恨的隐含仇恨言论。在本文中，我们提出了CoSyn，这是一个用户和对话上下文协同作用的网络，用于检测在线对话树中的隐含仇恨言论。CoSyn首先使用新颖的双曲傅里叶注意机制和双曲图卷积网络对用户的个人历史和社交上下文进行建模。接下来，我们使用新的上下文交互机制在双曲空间中联合建模用户的个人上下文和对话上下文，该机制清晰地捕捉两者之间的相互作用，并对从两个上下文中检索的信息量进行独立评估。CoSyn表现出令人满意的性能，证明了我们模型的有效性。",
+        "tldr": "本文提出了一种名为CoSyn的机制，可以检测在线对话中的隐含仇恨言论。该机制首先对用户的上下文进行建模，然后使用新颖的上下文交互机制联合建模用户和对话上下文，证明了其有效性。"
+    }
+}

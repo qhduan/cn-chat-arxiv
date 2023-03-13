@@ -1,0 +1,12 @@
+{
+    "title": "Affordable Artificial Intelligence -- Augmenting Farmer Knowledge with AI. (arXiv:2303.06049v1 [eess.SP])",
+    "abstract": "Farms produce hundreds of thousands of data points on the ground daily. Farming technique which combines farming practices with the insights uncovered in these data points using AI technology is called precision farming. Precision farming technology augments and extends farmers' deep knowledge about their land, making production more sustainable and profitable. As part of the larger effort at Microsoft for empowering agricultural labor force to be more productive and sustainable, this paper presents the AI technology for predicting micro-climate conditions on the farm.  This article is a chapter in publication by Food and Agriculture Organization of the United Nations and International Telecommunication Union Bangkok, 2021. This publication on artificial intelligence (AI) for agriculture is the fifth in the E-agriculture in Action series, launched in 2016 and jointly produced by FAO and ITU. It aims to raise awareness about existing AI applications in agriculture and to inspire stakeho",
+    "link": "http://arxiv.org/abs/2303.06049",
+    "raw_ret": "{\n    \"translated_title\": \"廉价人工智能——通过AI增强农民的知识\",\n    \"translated_abstract\": \"农场每天会产生数十万个数据点，将种植技术与这些数据点中发现的见解结合起来的农业技术称为精准农业。精准农业技术增强和扩展了农民对土地的深入了解，使生产更加可持续和有利可图。本文作为微软赋能农业劳动力更具生产力和可持续性的更大努力的一部分，介绍了预测农场微气候条件的AI技术。本文是联合国粮食和农业组织以及国际电信联盟2021年曼谷出版的一章。这本关于农业人工智能的出版物是“电子农业行动系列”中的第五本，该系列于2016年推出，由联合国粮食和农业组织和国际电信联盟共同制作。它旨在提高人们对农业中现有人工智能应用的认识，并激励利益相关者\",\n    \"tldr\": \"这篇论文介绍了一种预测农场微气候条件的AI技术，该技术将农业实践与数据分析相结合，有助于增强农民对土地的深入了解，使农业生产更可持续和有利可图\"\n}<|im_sep|>",
+    "total_tokens": 879,
+    "ret": {
+        "translated_title": "廉价人工智能——通过AI增强农民的知识",
+        "translated_abstract": "农场每天会产生数十万个数据点，将种植技术与这些数据点中发现的见解结合起来的农业技术称为精准农业。精准农业技术增强和扩展了农民对土地的深入了解，使生产更加可持续和有利可图。本文作为微软赋能农业劳动力更具生产力和可持续性的更大努力的一部分，介绍了预测农场微气候条件的AI技术。本文是联合国粮食和农业组织以及国际电信联盟2021年曼谷出版的一章。这本关于农业人工智能的出版物是“电子农业行动系列”中的第五本，该系列于2016年推出，由联合国粮食和农业组织和国际电信联盟共同制作。它旨在提高人们对农业中现有人工智能应用的认识，并激励利益相关者",
+        "tldr": "这篇论文介绍了一种预测农场微气候条件的AI技术，该技术将农业实践与数据分析相结合，有助于增强农民对土地的深入了解，使农业生产更可持续和有利可图"
+    }
+}

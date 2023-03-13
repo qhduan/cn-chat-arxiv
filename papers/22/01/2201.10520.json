@@ -1,0 +1,12 @@
+{
+    "title": "Adaptive Activation-based Structured Pruning. (arXiv:2201.10520v3 [cs.CV] UPDATED)",
+    "abstract": "Pruning is a promising approach to compress complex deep learning models in order to deploy them on resource-constrained edge devices. However, many existing pruning solutions are based on unstructured pruning, which yields models that cannot efficiently run on commodity hardware and require users to manually explore and tune the pruning process, which is time-consuming and often leads to sub-optimal results. To address these limitations, this paper presents an adaptive, activation-based, structured pruning approach to automatically and efficiently generate small, accurate, and hardware-efficient models that meet user requirements. First, it proposes iterative structured pruning using activation-based attention feature maps to effectively identify and prune unimportant filters. Then, it proposes adaptive pruning policies for automatically meeting the pruning objectives of accuracy-critical, memory-constrained, and latency-sensitive tasks. A comprehensive evaluation shows that the propo",
+    "link": "http://arxiv.org/abs/2201.10520",
+    "raw_ret": "{\n    \"translated_title\": \"自适应基于激活的结构化剪枝\",\n    \"translated_abstract\": \"剪枝是一种压缩复杂深度学习模型的有希望的方法，以便在资源受限制的边缘设备上部署它们。然而，许多现有的剪枝解决方案都基于非结构化剪枝，产生的模型无法在通用硬件上高效运行，需要用户手动探索和调整剪枝过程，这是耗时的，常常会导致次优结果。为了解决这些限制，本文提出了一种自适应的、基于激活的、结构化剪枝方法，用于自动、高效地生成小型、准确且硬件高效的模型，以满足用户的要求。首先，它提出了使用基于激活的注意力特征映射的迭代结构化剪枝，以有效地识别和剪枝不重要的滤波器。然后，它提出了适应性剪枝策略，用于自动满足准确性关键、内存受限和延迟敏感任务的剪枝目标。全面的评估显示，该方法可显著提高模型的效率和效果。\",\n    \"tldr\": \"本文提出了一种自适应、基于激活的结构化剪枝方法，可自动、高效地生成小型、准确且硬件高效的模型，以满足用户的要求。经过全面评估，该方法可显著提高模型的效率和效果。\"\n}<|im_sep|>",
+    "total_tokens": 911,
+    "ret": {
+        "translated_title": "自适应基于激活的结构化剪枝",
+        "translated_abstract": "剪枝是一种压缩复杂深度学习模型的有希望的方法，以便在资源受限制的边缘设备上部署它们。然而，许多现有的剪枝解决方案都基于非结构化剪枝，产生的模型无法在通用硬件上高效运行，需要用户手动探索和调整剪枝过程，这是耗时的，常常会导致次优结果。为了解决这些限制，本文提出了一种自适应的、基于激活的、结构化剪枝方法，用于自动、高效地生成小型、准确且硬件高效的模型，以满足用户的要求。首先，它提出了使用基于激活的注意力特征映射的迭代结构化剪枝，以有效地识别和剪枝不重要的滤波器。然后，它提出了适应性剪枝策略，用于自动满足准确性关键、内存受限和延迟敏感任务的剪枝目标。全面的评估显示，该方法可显著提高模型的效率和效果。",
+        "tldr": "本文提出了一种自适应、基于激活的结构化剪枝方法，可自动、高效地生成小型、准确且硬件高效的模型，以满足用户的要求。经过全面评估，该方法可显著提高模型的效率和效果。"
+    }
+}

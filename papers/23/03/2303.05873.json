@@ -1,0 +1,12 @@
+{
+    "title": "Simulation-based Bayesian inference for robotic grasping. (arXiv:2303.05873v1 [cs.RO])",
+    "abstract": "General robotic grippers are challenging to control because of their rich nonsmooth contact dynamics and the many sources of uncertainties due to the environment or sensor noise. In this work, we demonstrate how to compute 6-DoF grasp poses using simulation-based Bayesian inference through the full stochastic forward simulation of the robot in its environment while robustly accounting for many of the uncertainties in the system. A Riemannian manifold optimization procedure preserving the nonlinearity of the rotation space is used to compute the maximum a posteriori grasp pose. Simulation and physical benchmarks show the promising high success rate of the approach.",
+    "link": "http://arxiv.org/abs/2303.05873",
+    "raw_ret": "{\n    \"translated_title\": \"机器人抓取的基于仿真的贝叶斯推断\",\n    \"translated_abstract\": \"由于非平滑接触动力学和环境或传感器噪声的许多不确定性，一般的机器人夹爪很难控制。在这项工作中，我们演示了如何通过在机器人在其环境中进行完全随机前向仿真来鲁棒地考虑系统中的许多不确定性，从而计算出6自由度抓取姿态。使用保留旋转空间非线性性的黎曼流形优化程序计算最大后验抓取姿态。仿真和物理基准测试显示了该方法高成功率的前景。\",\n    \"tldr\": \"该论文提出了一种通过基于仿真的贝叶斯推断计算机器人抓取姿态的方法，成功率高。\"\n}",
+    "total_tokens": 644,
+    "ret": {
+        "translated_title": "机器人抓取的基于仿真的贝叶斯推断",
+        "translated_abstract": "由于非平滑接触动力学和环境或传感器噪声的许多不确定性，一般的机器人夹爪很难控制。在这项工作中，我们演示了如何通过在机器人在其环境中进行完全随机前向仿真来鲁棒地考虑系统中的许多不确定性，从而计算出6自由度抓取姿态。使用保留旋转空间非线性性的黎曼流形优化程序计算最大后验抓取姿态。仿真和物理基准测试显示了该方法高成功率的前景。",
+        "tldr": "该论文提出了一种通过基于仿真的贝叶斯推断计算机器人抓取姿态的方法，成功率高。"
+    }
+}

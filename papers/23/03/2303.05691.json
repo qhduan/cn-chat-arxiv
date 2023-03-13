@@ -1,0 +1,12 @@
+{
+    "title": "Human Pose Estimation from Ambiguous Pressure Recordings with Spatio-temporal Masked Transformers. (arXiv:2303.05691v1 [cs.CV])",
+    "abstract": "Despite the impressive performance of vision-based pose estimators, they generally fail to perform well under adverse vision conditions and often don't satisfy the privacy demands of customers. As a result, researchers have begun to study tactile sensing systems as an alternative. However, these systems suffer from noisy and ambiguous recordings. To tackle this problem, we propose a novel solution for pose estimation from ambiguous pressure data. Our method comprises a spatio-temporal vision transformer with an encoder-decoder architecture. Detailed experiments on two popular public datasets reveal that our model outperforms existing solutions in the area. Moreover, we observe that increasing the number of temporal crops in the early stages of the network positively impacts the performance while pre-training the network in a self-supervised setting using a masked auto-encoder approach also further improves the results.",
+    "link": "http://arxiv.org/abs/2303.05691",
+    "raw_ret": "{\n    \"translated_title\": \"从不确定的压力记录中通过时空掩码转换器估算人体姿态\",\n    \"translated_abstract\": \"尽管基于视觉的姿态估计器表现出色，但在不良视觉条件下通常表现不佳，并且经常无法满足客户的隐私需求。因此，研究人员已经开始研究触觉传感系统作为一种替代方案。然而，这些系统受到噪声和模糊记录的影响。为了解决这个问题，我们提出了一种新的解决方案，用于从不确定的压力数据估算姿态。我们的方法包括具有编码器-解码器架构的时空视觉变换器。对两个流行的公共数据集的详细实验表明，我们的模型在该领域优于现有解决方案。此外，我们观察到，在网络的早期阶段增加时间裁剪的数量对性能有积极影响，同时使用遮罩自动编码器方法在自我监督环境中预训练网络也进一步改善了结果。\",\n    \"tldr\": \"本文提出了一种新的解决方案，用于从不确定的压力数据估算姿态。这个方法包括一个具有编码器-解码器架构的时空视觉变换器。在两个公共数据集上的实验表明，这种方法优于现有的解决方案。\"\n}<|im_sep|>",
+    "total_tokens": 868,
+    "ret": {
+        "translated_title": "从不确定的压力记录中通过时空掩码转换器估算人体姿态",
+        "translated_abstract": "尽管基于视觉的姿态估计器表现出色，但在不良视觉条件下通常表现不佳，并且经常无法满足客户的隐私需求。因此，研究人员已经开始研究触觉传感系统作为一种替代方案。然而，这些系统受到噪声和模糊记录的影响。为了解决这个问题，我们提出了一种新的解决方案，用于从不确定的压力数据估算姿态。我们的方法包括具有编码器-解码器架构的时空视觉变换器。对两个流行的公共数据集的详细实验表明，我们的模型在该领域优于现有解决方案。此外，我们观察到，在网络的早期阶段增加时间裁剪的数量对性能有积极影响，同时使用遮罩自动编码器方法在自我监督环境中预训练网络也进一步改善了结果。",
+        "tldr": "本文提出了一种新的解决方案，用于从不确定的压力数据估算姿态。这个方法包括一个具有编码器-解码器架构的时空视觉变换器。在两个公共数据集上的实验表明，这种方法优于现有的解决方案。"
+    }
+}

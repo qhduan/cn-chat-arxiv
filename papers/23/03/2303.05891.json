@@ -1,0 +1,12 @@
+{
+    "title": "Creation and evaluation of timelines for longitudinal user posts. (arXiv:2303.05891v1 [cs.CL])",
+    "abstract": "There is increasing interest to work with user generated content in social media, especially textual posts over time. Currently there is no consistent way of segmenting user posts into timelines in a meaningful way that improves the quality and cost of manual annotation. Here we propose a set of methods for segmenting longitudinal user posts into timelines likely to contain interesting moments of change in a user's behaviour, based on their online posting activity. We also propose a novel framework for evaluating timelines and show its applicability in the context of two different social media datasets. Finally, we present a discussion of the linguistic content of highly ranked timelines.",
+    "link": "http://arxiv.org/abs/2303.05891",
+    "raw_ret": "{\n    \"translated_title\": \"纵向用户帖子时间轴的创建和评估\",\n    \"translated_abstract\": \"越来越多的人对社交媒体中的用户生成内容感兴趣，特别是随时间推移的文本帖子。目前还没有一种一致的方式将用户帖子分段到有意义的时间轴中，以提高手动注释的质量和成本。在这里，我们提出了一组方法，用于将纵向用户帖子分段成可能包含用户行为变化有趣时刻的时间轴，基于他们的在线发布活动。我们还提出了一个新颖的框架来评估时间轴，并展示了其在两个不同社交媒体数据集背景下的适用性。最后，我们对排名靠前的时间轴的语言内容进行了讨论。\",\n    \"tldr\": \"本文提出了一种方法将用户帖子分段到有意义的时间轴中，以提高手动注释的质量和成本，并提出了一个新颖的框架来评估时间轴。\"\n}<|im_sep|>",
+    "total_tokens": 689,
+    "ret": {
+        "translated_title": "纵向用户帖子时间轴的创建和评估",
+        "translated_abstract": "越来越多的人对社交媒体中的用户生成内容感兴趣，特别是随时间推移的文本帖子。目前还没有一种一致的方式将用户帖子分段到有意义的时间轴中，以提高手动注释的质量和成本。在这里，我们提出了一组方法，用于将纵向用户帖子分段成可能包含用户行为变化有趣时刻的时间轴，基于他们的在线发布活动。我们还提出了一个新颖的框架来评估时间轴，并展示了其在两个不同社交媒体数据集背景下的适用性。最后，我们对排名靠前的时间轴的语言内容进行了讨论。",
+        "tldr": "本文提出了一种方法将用户帖子分段到有意义的时间轴中，以提高手动注释的质量和成本，并提出了一个新颖的框架来评估时间轴。"
+    }
+}

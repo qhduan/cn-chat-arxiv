@@ -1,0 +1,12 @@
+{
+    "title": "An analytic theory for the dynamics of wide quantum neural networks. (arXiv:2203.16711v2 [quant-ph] UPDATED)",
+    "abstract": "Parameterized quantum circuits can be used as quantum neural networks and have the potential to outperform their classical counterparts when trained for addressing learning problems. To date, much of the results on their performance on practical problems are heuristic in nature. In particular, the convergence rate for the training of quantum neural networks is not fully understood. Here, we analyze the dynamics of gradient descent for the training error of a class of variational quantum machine learning models. We define wide quantum neural networks as parameterized quantum circuits in the limit of a large number of qubits and variational parameters. We then find a simple analytic formula that captures the average behavior of their loss function and discuss the consequences of our findings. For example, for random quantum circuits, we predict and characterize an exponential decay of the residual training error as a function of the parameters of the system. We finally validate our analy",
+    "link": "http://arxiv.org/abs/2203.16711",
+    "raw_ret": "{\n    \"translated_title\": \"广义量子神经网络动力学的分析理论\",\n    \"translated_abstract\": \"参数化的量子电路可以用作量子神经网络，并具有在解决学习问题时优于其经典对应物的潜力。到目前为止，对它们在实际问题上的表现的许多结果具有启发式的本质。特别地，量子神经网络的训练收敛速率尚未完全理解。在这里，我们分析了一类变分量子机器学习模型的梯度下降训练误差的动力学。我们将广义量子神经网络定义为大量量子比特和变分参数的参数化量子电路极限。然后，我们找到了一个简单的分析公式，捕捉了其损失函数的平均行为，并讨论了我们的发现的后果。例如，对于随机量子电路，我们预测并表征了残差训练误差随系统参数的指数衰减。最后，我们验证了我们的分析结果。\",\n    \"tldr\": \"该论文研究了一类变分量子机器学习模型的梯度下降训练误差的动力学，找到了一个简单的公式捕捉了其损失函数的平均行为，并对于随机量子电路预测和表征了残差训练误差随系统参数的指数衰减。\"\n}<|im_sep|>",
+    "total_tokens": 863,
+    "ret": {
+        "translated_title": "广义量子神经网络动力学的分析理论",
+        "translated_abstract": "参数化的量子电路可以用作量子神经网络，并具有在解决学习问题时优于其经典对应物的潜力。到目前为止，对它们在实际问题上的表现的许多结果具有启发式的本质。特别地，量子神经网络的训练收敛速率尚未完全理解。在这里，我们分析了一类变分量子机器学习模型的梯度下降训练误差的动力学。我们将广义量子神经网络定义为大量量子比特和变分参数的参数化量子电路极限。然后，我们找到了一个简单的分析公式，捕捉了其损失函数的平均行为，并讨论了我们的发现的后果。例如，对于随机量子电路，我们预测并表征了残差训练误差随系统参数的指数衰减。最后，我们验证了我们的分析结果。",
+        "tldr": "该论文研究了一类变分量子机器学习模型的梯度下降训练误差的动力学，找到了一个简单的公式捕捉了其损失函数的平均行为，并对于随机量子电路预测和表征了残差训练误差随系统参数的指数衰减。"
+    }
+}

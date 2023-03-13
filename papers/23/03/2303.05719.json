@@ -1,0 +1,12 @@
+{
+    "title": "Boosting Adversarial Attacks by Leveraging Decision Boundary Information. (arXiv:2303.05719v1 [cs.CV])",
+    "abstract": "Due to the gap between a substitute model and a victim model, the gradient-based noise generated from a substitute model may have low transferability for a victim model since their gradients are different. Inspired by the fact that the decision boundaries of different models do not differ much, we conduct experiments and discover that the gradients of different models are more similar on the decision boundary than in the original position. Moreover, since the decision boundary in the vicinity of an input image is flat along most directions, we conjecture that the boundary gradients can help find an effective direction to cross the decision boundary of the victim models. Based on it, we propose a Boundary Fitting Attack to improve transferability. Specifically, we introduce a method to obtain a set of boundary points and leverage the gradient information of these points to update the adversarial examples. Notably, our method can be combined with existing gradient-based methods. Extensiv",
+    "link": "http://arxiv.org/abs/2303.05719",
+    "raw_ret": "{\n    \"translated_title\": \"利用决策边界信息提升对抗性攻击\",\n    \"translated_abstract\": \"由于替代模型和受害模型之间的差距，从替代模型生成的基于梯度的噪声对于受害模型可能具有低的可传递性，因为它们的梯度不同。我们受到不同模型的决策边界不相差的事实的启发，进行实验并发现不同模型的梯度在决策边界上比在原始位置上更相似。此外，由于输入图像附近的决策边界沿大多数方向是平坦的，我们猜测边界梯度可以帮助找到穿过受害模型的决策边界的有效方向。基于此，我们提出了一种边界拟合攻击来提高可传递性。具体而言，我们引入了一种方法来获取一组边界点，并利用这些点的梯度信息来更新对抗性示例。值得注意的是，我们的方法可以与现有的基于梯度的方法相结合。大量实验表明我们的方法在多个数据集和多个模型上都可以显著提升攻击效果。\",\n    \"tldr\": \"本文提出一种基于决策边界信息的边界拟合攻击方法，利用不同模型决策边界相似这一事实提高可传递性，在多个数据集和模型上均取得显著的攻击效果提升。\"\n}<|im_sep|>",
+    "total_tokens": 911,
+    "ret": {
+        "translated_title": "利用决策边界信息提升对抗性攻击",
+        "translated_abstract": "由于替代模型和受害模型之间的差距，从替代模型生成的基于梯度的噪声对于受害模型可能具有低的可传递性，因为它们的梯度不同。我们受到不同模型的决策边界不相差的事实的启发，进行实验并发现不同模型的梯度在决策边界上比在原始位置上更相似。此外，由于输入图像附近的决策边界沿大多数方向是平坦的，我们猜测边界梯度可以帮助找到穿过受害模型的决策边界的有效方向。基于此，我们提出了一种边界拟合攻击来提高可传递性。具体而言，我们引入了一种方法来获取一组边界点，并利用这些点的梯度信息来更新对抗性示例。值得注意的是，我们的方法可以与现有的基于梯度的方法相结合。大量实验表明我们的方法在多个数据集和多个模型上都可以显著提升攻击效果。",
+        "tldr": "本文提出一种基于决策边界信息的边界拟合攻击方法，利用不同模型决策边界相似这一事实提高可传递性，在多个数据集和模型上均取得显著的攻击效果提升。"
+    }
+}

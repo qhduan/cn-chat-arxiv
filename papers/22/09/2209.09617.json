@@ -1,0 +1,12 @@
+{
+    "title": "Seq2Seq Surrogates of Epidemic Models to Facilitate Bayesian Inference. (arXiv:2209.09617v2 [cs.LG] UPDATED)",
+    "abstract": "Epidemic models are powerful tools in understanding infectious disease. However, as they increase in size and complexity, they can quickly become computationally intractable. Recent progress in modelling methodology has shown that surrogate models can be used to emulate complex epidemic models with a high-dimensional parameter space. We show that deep sequence-to-sequence (seq2seq) models can serve as accurate surrogates for complex epidemic models with sequence based model parameters, effectively replicating seasonal and long-term transmission dynamics. Once trained, our surrogate can predict scenarios a several thousand times faster than the original model, making them ideal for policy exploration. We demonstrate that replacing a traditional epidemic model with a learned simulator facilitates robust Bayesian inference.",
+    "link": "http://arxiv.org/abs/2209.09617",
+    "raw_ret": "{\n    \"translated_title\": \"Seq2Seq模型替代传染病模型以促进贝叶斯推理\",\n    \"translated_abstract\": \"流行病模型是理解传染病的强大工具。然而，随着它们变得越来越复杂，它们很快就会变得难以计算。最近的建模方法的进展表明，可以使用代理模型来模拟具有高维参数空间的复杂流行病模型。我们展示了深度序列到序列（seq2seq）模型可以作为复杂流行病模型的准确代理，具有基于序列的模型参数，有效地复制季节性和长期传输动态。一旦训练完成，我们的代理可以比原始模型快几千倍地预测场景，使其成为探索政策的理想工具。我们证明，用学习到的模拟器替代传统的流行病模型可以促进稳健的贝叶斯推理。\",\n    \"tldr\": \"本文使用深度序列到序列模型作为复杂流行病模型的准确代理，可以复制季节性和长期传输动态，且速度快于原始模型数千倍。通过替代原始模型，可以促进稳健的贝叶斯推理。\"\n}",
+    "total_tokens": 812,
+    "ret": {
+        "translated_title": "Seq2Seq模型替代传染病模型以促进贝叶斯推理",
+        "translated_abstract": "流行病模型是理解传染病的强大工具。然而，随着它们变得越来越复杂，它们很快就会变得难以计算。最近的建模方法的进展表明，可以使用代理模型来模拟具有高维参数空间的复杂流行病模型。我们展示了深度序列到序列（seq2seq）模型可以作为复杂流行病模型的准确代理，具有基于序列的模型参数，有效地复制季节性和长期传输动态。一旦训练完成，我们的代理可以比原始模型快几千倍地预测场景，使其成为探索政策的理想工具。我们证明，用学习到的模拟器替代传统的流行病模型可以促进稳健的贝叶斯推理。",
+        "tldr": "本文使用深度序列到序列模型作为复杂流行病模型的准确代理，可以复制季节性和长期传输动态，且速度快于原始模型数千倍。通过替代原始模型，可以促进稳健的贝叶斯推理。"
+    }
+}

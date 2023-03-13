@@ -1,0 +1,12 @@
+{
+    "title": "RMMDet: Road-Side Multitype and Multigroup Sensor Detection System for Autonomous Driving. (arXiv:2303.05203v2 [cs.RO] UPDATED)",
+    "abstract": "Autonomous driving has now made great strides thanks to artificial intelligence, and numerous advanced methods have been proposed for vehicle end target detection, including single sensor or multi sensor detection methods. However, the complexity and diversity of real traffic situations necessitate an examination of how to use these methods in real road conditions. In this paper, we propose RMMDet, a road-side multitype and multigroup sensor detection system for autonomous driving. We use a ROS-based virtual environment to simulate real-world conditions, in particular the physical and functional construction of the sensors. Then we implement muti-type sensor detection and multi-group sensors fusion in this environment, including camera-radar and camera-lidar detection based on result-level fusion. We produce local datasets and real sand table field, and conduct various experiments. Furthermore, we link a multi-agent collaborative scheduling system to the fusion detection system. Hence,",
+    "link": "http://arxiv.org/abs/2303.05203",
+    "raw_ret": "{\n    \"translated_title\": \"RMMDet: 基于路边多类型多组传感器的自动驾驶检测系统\",\n    \"translated_abstract\": \"自动驾驶由于人工智能的发展取得了巨大进步，包括单一传感器和多传感器检测在内的许多先进方法已被提出。然而，实际交通情况的复杂性和多样性需要对如何在实际道路条件下使用这些方法进行考虑。在本文中，我们提出了RMMDet，一种基于路边多类型多组传感器的自动驾驶检测系统。我们使用基于ROS的虚拟环境模拟现实世界情况，特别是传感器的物理和功能结构。然后在这个环境中实现了多类型传感器检测和多组传感器融合，包括基于结果级融合的相机-雷达和相机-激光雷达检测。我们产生了本地数据集和真实沙盘场地，并进行了各种实验。此外，我们将多代理协同调度系统连接到融合检测系统中。\",\n    \"tldr\": \"RMMDet是一种基于路边多类型多组传感器的自动驾驶检测系统，使用ROS虚拟环境模拟真实世界条件，实现了多类型传感器检测和多组传感器融合，并通过多代理协同调度系统进行优化。\"\n}<|im_sep|>",
+    "total_tokens": 872,
+    "ret": {
+        "translated_title": "RMMDet: 基于路边多类型多组传感器的自动驾驶检测系统",
+        "translated_abstract": "自动驾驶由于人工智能的发展取得了巨大进步，包括单一传感器和多传感器检测在内的许多先进方法已被提出。然而，实际交通情况的复杂性和多样性需要对如何在实际道路条件下使用这些方法进行考虑。在本文中，我们提出了RMMDet，一种基于路边多类型多组传感器的自动驾驶检测系统。我们使用基于ROS的虚拟环境模拟现实世界情况，特别是传感器的物理和功能结构。然后在这个环境中实现了多类型传感器检测和多组传感器融合，包括基于结果级融合的相机-雷达和相机-激光雷达检测。我们产生了本地数据集和真实沙盘场地，并进行了各种实验。此外，我们将多代理协同调度系统连接到融合检测系统中。",
+        "tldr": "RMMDet是一种基于路边多类型多组传感器的自动驾驶检测系统，使用ROS虚拟环境模拟真实世界条件，实现了多类型传感器检测和多组传感器融合，并通过多代理协同调度系统进行优化。"
+    }
+}

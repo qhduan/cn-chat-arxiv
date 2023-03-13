@@ -1,0 +1,12 @@
+{
+    "title": "Gaussian Max-Value Entropy Search for Multi-Agent Bayesian Optimization. (arXiv:2303.05694v1 [cs.LG])",
+    "abstract": "We study the multi-agent Bayesian optimization (BO) problem, where multiple agents maximize a black-box function via iterative queries. We focus on Entropy Search (ES), a sample-efficient BO algorithm that selects queries to maximize the mutual information about the maximum of the black-box function. One of the main challenges of ES is that calculating the mutual information requires computationally-costly approximation techniques. For multi-agent BO problems, the computational cost of ES is exponential in the number of agents. To address this challenge, we propose the Gaussian Max-value Entropy Search, a multi-agent BO algorithm with favorable sample and computational efficiency. The key to our idea is to use a normal distribution to approximate the function maximum and calculate its mutual information accordingly. The resulting approximation allows queries to be cast as the solution of a closed-form optimization problem which, in turn, can be solved via a modified gradient ascent alg",
+    "link": "http://arxiv.org/abs/2303.05694",
+    "raw_ret": "{\n    \"translated_title\": \"高斯最大值熵搜索用于多智能体贝叶斯优化\",\n    \"translated_abstract\": \"我们研究多智能体贝叶斯优化问题，其中多个智能体通过迭代查询来最大化黑盒函数。我们专注于熵搜索（ES），这是一种高效的BO算法，它选择查询来最大化关于黑盒函数的最大值的互信息。ES的主要挑战之一是计算互信息需要计算成本高的逼近技术。对于多智能体BO问题，ES的计算成本随着智能体数量的增加而呈指数级增长。为了解决这个挑战，我们提出了高斯最大值熵搜索，这是一种具有优异样本和计算效率的多智能体BO算法。我们想法的关键是使用正态分布来逼近函数最大值，并相应地计算其互信息。得到的逼近允许将查询作为闭合形式优化问题的解决方案，而该问题可以通过修改的梯度上升算法来解决。\",\n    \"tldr\": \"本文提出了一种针对多智能体贝叶斯优化的高效算法——高斯最大值熵搜索。该算法利用正态分布逼近函数最大值并计算互信息，使查询可以表示为一个闭合形式的优化问题，可以通过修改的梯度上升算法解决。\"\n}",
+    "total_tokens": 866,
+    "ret": {
+        "translated_title": "高斯最大值熵搜索用于多智能体贝叶斯优化",
+        "translated_abstract": "我们研究多智能体贝叶斯优化问题，其中多个智能体通过迭代查询来最大化黑盒函数。我们专注于熵搜索（ES），这是一种高效的BO算法，它选择查询来最大化关于黑盒函数的最大值的互信息。ES的主要挑战之一是计算互信息需要计算成本高的逼近技术。对于多智能体BO问题，ES的计算成本随着智能体数量的增加而呈指数级增长。为了解决这个挑战，我们提出了高斯最大值熵搜索，这是一种具有优异样本和计算效率的多智能体BO算法。我们想法的关键是使用正态分布来逼近函数最大值，并相应地计算其互信息。得到的逼近允许将查询作为闭合形式优化问题的解决方案，而该问题可以通过修改的梯度上升算法来解决。",
+        "tldr": "本文提出了一种针对多智能体贝叶斯优化的高效算法——高斯最大值熵搜索。该算法利用正态分布逼近函数最大值并计算互信息，使查询可以表示为一个闭合形式的优化问题，可以通过修改的梯度上升算法解决。"
+    }
+}

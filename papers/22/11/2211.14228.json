@@ -1,0 +1,12 @@
+{
+    "title": "GPT-3-driven pedagogical agents for training children's curious question-asking skills. (arXiv:2211.14228v4 [cs.CL] UPDATED)",
+    "abstract": "In order to train children's ability to ask curiosity-driven questions, previous research has explored designing specific exercises relying on providing semantic and linguistic cues to help formulate such questions. But despite showing pedagogical efficiency, this method is still limited as it relies on generating the said cues by hand, which can be a very costly process. In this context, we propose to leverage advances in the natural language processing field (NLP) and investigate the efficiency of using a large language model (LLM) for automating the production of the pedagogical content of a curious question-asking (QA) training. We study generating the said content using the \"prompt-based\" method that consists of explaining the task to the LLM in natural text. We evaluate the output using human experts annotations and comparisons with hand-generated content. Results suggested indeed the relevance and usefulness of this content. We also conduct a field study in primary school (75 ch",
+    "link": "http://arxiv.org/abs/2211.14228",
+    "raw_ret": "{\n    \"translated_title\": \"利用GPT-3驱动的教学代理培养儿童的好奇心提问能力\",\n    \"translated_abstract\": \"为了培养儿童提问好奇心，先前的研究探讨了设计特定的练习，依赖于提供语义和语言线索来帮助制定这样的问题。但尽管显示出教学效率，这种方法仍然有限，因为它依赖于手工生成所述提示，这可能是一个非常昂贵的过程。在这种情况下，我们建议利用自然语言处理领域(NLP)的进展，调查使用大型语言模型(LLM)自动生产好奇心提问(QA)培训的教学内容的效率。我们使用“基于提示”的方法来生成所述内容，该方法包括用自然文本向LLM解释任务。我们使用人类专家注释和与手工生成的内容进行比较来评估输出。结果确实表明了这种内容的相关性和有用性。我们还在小学进行了一项现场研究(75 ch\",\n    \"tldr\": \"本研究探索了使用大型语言模型自动化生产教育内容的效率，并使用自然语言来解释任务，以培养儿童的好奇心提问能力，结果表明使用该内容确实有效。\"\n}",
+    "total_tokens": 858,
+    "ret": {
+        "translated_title": "利用GPT-3驱动的教学代理培养儿童的好奇心提问能力",
+        "translated_abstract": "为了培养儿童提问好奇心，先前的研究探讨了设计特定的练习，依赖于提供语义和语言线索来帮助制定这样的问题。但尽管显示出教学效率，这种方法仍然有限，因为它依赖于手工生成所述提示，这可能是一个非常昂贵的过程。在这种情况下，我们建议利用自然语言处理领域(NLP)的进展，调查使用大型语言模型(LLM)自动生产好奇心提问(QA)培训的教学内容的效率。我们使用“基于提示”的方法来生成所述内容，该方法包括用自然文本向LLM解释任务。我们使用人类专家注释和与手工生成的内容进行比较来评估输出。结果确实表明了这种内容的相关性和有用性。我们还在小学进行了一项现场研究(75 ch",
+        "tldr": "本研究探索了使用大型语言模型自动化生产教育内容的效率，并使用自然语言来解释任务，以培养儿童的好奇心提问能力，结果表明使用该内容确实有效。"
+    }
+}

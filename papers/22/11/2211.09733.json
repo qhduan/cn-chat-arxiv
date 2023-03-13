@@ -1,0 +1,12 @@
+{
+    "title": "BERT-Deep CNN: State-of-the-Art for Sentiment Analysis of COVID-19 Tweets. (arXiv:2211.09733v2 [cs.CL] UPDATED)",
+    "abstract": "The free flow of information has been accelerated by the rapid development of social media technology. There has been a significant social and psychological impact on the population due to the outbreak of Coronavirus disease (COVID-19). The COVID-19 pandemic is one of the current events being discussed on social media platforms. In order to safeguard societies from this pandemic, studying people's emotions on social media is crucial. As a result of their particular characteristics, sentiment analysis of texts like tweets remains challenging. Sentiment analysis is a powerful text analysis tool. It automatically detects and analyzes opinions and emotions from unstructured data. Texts from a wide range of sources are examined by a sentiment analysis tool, which extracts meaning from them, including emails, surveys, reviews, social media posts, and web articles. To evaluate sentiments, natural language processing (NLP) and machine learning techniques are used, which assign weights to entit",
+    "link": "http://arxiv.org/abs/2211.09733",
+    "raw_ret": "{\n    \"translated_title\": \"BERT-Deep CNN:新冠肺炎推文情感分析的最新研究\",\n    \"translated_abstract\": \"社交媒体技术的快速发展加速了信息的自由流动。由于新冠病毒疾病(COVID-19)的爆发，对人口的社会和心理影响显著。新冠肺炎大流行是社交媒体平台上正在讨论的当前事件之一。为了保障社会免受这种大流行的影响，研究社交媒体上人们的情感至关重要。由于其特殊的特性，对推文等文本的情感分析仍然具有挑战性。情感分析是一种强大的文本分析工具，它可以自动检测和分析来自非结构化数据的意见和情绪。情感分析工具对来自各种来源的文本进行检查，包括电子邮件、调查、评论、社交媒体帖子和网络文章，从中提取含义。为了评估情感，使用自然语言处理(NLP)和机器学习技术，给实体分配权重。\",\n    \"tldr\": \"本文提出了一种基于BERT-Deep CNN的新冠肺炎推文情感分析的最新研究方法，旨在研究社交媒体上人们对疫情的情感，对于保障社会免受疫情影响具有重要意义。\"\n}<|im_sep|>",
+    "total_tokens": 898,
+    "ret": {
+        "translated_title": "BERT-Deep CNN:新冠肺炎推文情感分析的最新研究",
+        "translated_abstract": "社交媒体技术的快速发展加速了信息的自由流动。由于新冠病毒疾病(COVID-19)的爆发，对人口的社会和心理影响显著。新冠肺炎大流行是社交媒体平台上正在讨论的当前事件之一。为了保障社会免受这种大流行的影响，研究社交媒体上人们的情感至关重要。由于其特殊的特性，对推文等文本的情感分析仍然具有挑战性。情感分析是一种强大的文本分析工具，它可以自动检测和分析来自非结构化数据的意见和情绪。情感分析工具对来自各种来源的文本进行检查，包括电子邮件、调查、评论、社交媒体帖子和网络文章，从中提取含义。为了评估情感，使用自然语言处理(NLP)和机器学习技术，给实体分配权重。",
+        "tldr": "本文提出了一种基于BERT-Deep CNN的新冠肺炎推文情感分析的最新研究方法，旨在研究社交媒体上人们对疫情的情感，对于保障社会免受疫情影响具有重要意义。"
+    }
+}

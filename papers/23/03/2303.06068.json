@@ -1,0 +1,12 @@
+{
+    "title": "EEG Synthetic Data Generation Using Probabilistic Diffusion Models. (arXiv:2303.06068v1 [eess.SP])",
+    "abstract": "Electroencephalography (EEG) plays a significant role in the Brain Computer Interface (BCI) domain, due to its non-invasive nature, low cost, and ease of use, making it a highly desirable option for widespread adoption by the general public. This technology is commonly used in conjunction with deep learning techniques, the success of which is largely dependent on the quality and quantity of data used for training. To address the challenge of obtaining sufficient EEG data from individual participants while minimizing user effort and maintaining accuracy, this study proposes an advanced methodology for data augmentation: generating synthetic EEG data using denoising diffusion probabilistic models. The synthetic data are generated from electrode-frequency distribution maps (EFDMs) of emotionally labeled EEG recordings. To assess the validity of the synthetic data generated, both a qualitative and a quantitative comparison with real EEG data were successfully conducted. This study opens up",
+    "link": "http://arxiv.org/abs/2303.06068",
+    "raw_ret": "{\n    \"translated_title\": \"使用概率扩散模型生成脑电合成数据\",\n    \"translated_abstract\": \"脑电图（EEG）由于其无创、低成本和易于使用的特点在大脑计算机界颇具影响力，这使其成为公众广泛采用的高度理想的选项。本研究提出了一种先进的数据增强方法：使用去噪扩散概率模型生成合成EEG数据。合成数据是从带有情感标签的EEG记录的电极-频率分布图（EFDM）中生成的。为了评估所生成的合成数据的有效性，成功地进行了定性和定量与真实EEG数据的比较。 \",\n    \"tldr\": \"本文提出一种使用概率扩散模型生成脑电合成数据的方法，从带有情感标签的EEG记录的电极-频率分布图中生成合成数据。\"\n}<|im_sep|>",
+    "total_tokens": 714,
+    "ret": {
+        "translated_title": "使用概率扩散模型生成脑电合成数据",
+        "translated_abstract": "脑电图（EEG）由于其无创、低成本和易于使用的特点在大脑计算机界颇具影响力，这使其成为公众广泛采用的高度理想的选项。本研究提出了一种先进的数据增强方法：使用去噪扩散概率模型生成合成EEG数据。合成数据是从带有情感标签的EEG记录的电极-频率分布图（EFDM）中生成的。为了评估所生成的合成数据的有效性，成功地进行了定性和定量与真实EEG数据的比较。 ",
+        "tldr": "本文提出一种使用概率扩散模型生成脑电合成数据的方法，从带有情感标签的EEG记录的电极-频率分布图中生成合成数据。"
+    }
+}

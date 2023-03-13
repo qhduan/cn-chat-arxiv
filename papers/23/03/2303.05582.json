@@ -1,0 +1,12 @@
+{
+    "title": "Generalization analysis of an unfolding network for analysis-based Compressed Sensing. (arXiv:2303.05582v1 [cs.LG])",
+    "abstract": "Unfolding networks have shown promising results in the Compressed Sensing (CS) field. Yet, the investigation of their generalization ability is still in its infancy. In this paper, we perform generalization analysis of a state-of-the-art ADMM-based unfolding network, which jointly learns a decoder for CS and a sparsifying redundant analysis operator. To this end, we first impose a structural constraint on the learnable sparsifier, which parametrizes the network's hypothesis class. For the latter, we estimate its Rademacher complexity. With this estimate in hand, we deliver generalization error bounds for the examined network. Finally, the validity of our theory is assessed and numerical comparisons to a state-of-the-art unfolding network are made, on synthetic and real-world datasets. Our experimental results demonstrate that our proposed framework complies with our theoretical findings and outperforms the baseline, consistently for all datasets.",
+    "link": "http://arxiv.org/abs/2303.05582",
+    "raw_ret": "{\n    \"translated_title\": \"一种展开网络在基于分析的压缩感知中的泛化分析\",\n    \"translated_abstract\": \"展开网络在压缩感知（CS）领域中表现出了良好的结果，但是它们的泛化能力的研究仍处于初级阶段。本文对一种最先进的基于ADMM的展开网络进行了泛化分析，它共同学习了CS的解码器和稀疏冗余分析算子。为此，我们首先对可学习的稀疏化器施加了结构约束，它参数化了网络的假设类。对于后者，我们估计了其Rademacher复杂度。有了这个估计，我们为所检验的网络提供了泛化误差界限。最后，我们评估了我们理论的有效性，并在合成和真实世界数据集上进行了与最先进的展开网络的数值比较。我们的实验结果表明，我们提出的框架符合我们的理论发现，并且对所有数据集始终优于基线。\",\n    \"tldr\": \"本文对基于ADMM的展开网络进行了泛化分析，提出了一种有效的泛化误差界限。实验结果表明该网络符合理论发现并优于基线网络。\"\n}<|im_sep|>",
+    "total_tokens": 828,
+    "ret": {
+        "translated_title": "一种展开网络在基于分析的压缩感知中的泛化分析",
+        "translated_abstract": "展开网络在压缩感知（CS）领域中表现出了良好的结果，但是它们的泛化能力的研究仍处于初级阶段。本文对一种最先进的基于ADMM的展开网络进行了泛化分析，它共同学习了CS的解码器和稀疏冗余分析算子。为此，我们首先对可学习的稀疏化器施加了结构约束，它参数化了网络的假设类。对于后者，我们估计了其Rademacher复杂度。有了这个估计，我们为所检验的网络提供了泛化误差界限。最后，我们评估了我们理论的有效性，并在合成和真实世界数据集上进行了与最先进的展开网络的数值比较。我们的实验结果表明，我们提出的框架符合我们的理论发现，并且对所有数据集始终优于基线。",
+        "tldr": "本文对基于ADMM的展开网络进行了泛化分析，提出了一种有效的泛化误差界限。实验结果表明该网络符合理论发现并优于基线网络。"
+    }
+}

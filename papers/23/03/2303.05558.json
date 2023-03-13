@@ -1,0 +1,12 @@
+{
+    "title": "Optimal active particle navigation meets machine learning. (arXiv:2303.05558v1 [cond-mat.soft])",
+    "abstract": "The question of how \"smart\" active agents, like insects, microorganisms, or future colloidal robots need to steer to optimally reach or discover a target, such as an odor source, food, or a cancer cell in a complex environment has recently attracted great interest. Here, we provide an overview of recent developments, regarding such optimal navigation problems, from the micro- to the macroscale, and give a perspective by discussing some of the challenges which are ahead of us. Besides exemplifying an elementary approach to optimal navigation problems, the article focuses on works utilizing machine learning-based methods. Such learning-based approaches can uncover highly efficient navigation strategies even for problems that involve e.g. chaotic, high-dimensional, or unknown environments and are hardly solvable based on conventional analytical or simulation methods.",
+    "link": "http://arxiv.org/abs/2303.05558",
+    "raw_ret": "{\n    \"translated_title\": \"最优的主动微粒导航 meets 机器学习\",\n    \"translated_abstract\": \"近期，有关“聪明”主动体，如昆虫、微生物或未来的胶体机器人如何驾驶才能最优地到达或发现复杂环境中的目标（如气味来源、食物或癌细胞）的问题引起了极大的关注。在这里，我们概述了最近关于这种最优导航问题的发展，从微观到宏观，通过讨论我们面临的一些挑战来提供一个视角。除了举例说明最优导航问题的基本方法外，本文还着重介绍了利用机器学习方法的作品。这种基于学习的方法可以发现高效的导航策略，即使对于涉及混沌、高维或未知环境的问题，也很难基于传统的分析或模拟方法来解决。\",\n    \"tldr\": \"本文讨论了最优导航问题的发展和一些挑战，重点介绍了利用机器学习方法的作品。这种基于学习的方法可以发现高效的导航策略，即使对于涉及混沌、高维或未知环境的问题，也很难基于传统的分析或模拟方法来解决。\"\n}<|im_sep|>",
+    "total_tokens": 826,
+    "ret": {
+        "translated_title": "最优的主动微粒导航 meets 机器学习",
+        "translated_abstract": "近期，有关“聪明”主动体，如昆虫、微生物或未来的胶体机器人如何驾驶才能最优地到达或发现复杂环境中的目标（如气味来源、食物或癌细胞）的问题引起了极大的关注。在这里，我们概述了最近关于这种最优导航问题的发展，从微观到宏观，通过讨论我们面临的一些挑战来提供一个视角。除了举例说明最优导航问题的基本方法外，本文还着重介绍了利用机器学习方法的作品。这种基于学习的方法可以发现高效的导航策略，即使对于涉及混沌、高维或未知环境的问题，也很难基于传统的分析或模拟方法来解决。",
+        "tldr": "本文讨论了最优导航问题的发展和一些挑战，重点介绍了利用机器学习方法的作品。这种基于学习的方法可以发现高效的导航策略，即使对于涉及混沌、高维或未知环境的问题，也很难基于传统的分析或模拟方法来解决。"
+    }
+}

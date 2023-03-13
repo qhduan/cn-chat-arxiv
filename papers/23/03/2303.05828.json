@@ -1,0 +1,12 @@
+{
+    "title": "Contrastive Language-Image Pretrained (CLIP) Models are Powerful Out-of-Distribution Detectors. (arXiv:2303.05828v1 [cs.CV])",
+    "abstract": "We present a comprehensive experimental study on pretrained feature extractors for visual out-of-distribution (OOD) detection. We examine several setups, based on the availability of labels or image captions and using different combinations of in- and out-distributions. Intriguingly, we find that (i) contrastive language-image pretrained models achieve state-of-the-art unsupervised out-of-distribution performance using nearest neighbors feature similarity as the OOD detection score, (ii) supervised state-of-the-art OOD detection performance can be obtained without in-distribution fine-tuning, (iii) even top-performing billion-scale vision transformers trained with natural language supervision fail at detecting adversarially manipulated OOD images. Finally, we argue whether new benchmarks for visual anomaly detection are needed based on our experiments. Using the largest publicly available vision transformer, we achieve state-of-the-art performance across all $18$ reported OOD benchmark",
+    "link": "http://arxiv.org/abs/2303.05828",
+    "raw_ret": "{\n    \"translated_title\": \"对比语言图像预训练（CLIP）模型是强大的越界检测器。\",\n    \"translated_abstract\": \"我们对用于视觉越界检测的预训练特征提取器进行了全面的实验研究。 我们检查了几个设置，基于标签或图像标题的可用性，使用不同的内部和外部分布的组合。 有趣的是，我们发现（i）对比语言-图像预训练模型使用最近邻特征相似性作为越界检测分数，实现了最先进的无监督越界检测表现，（ii）可以在不需要内部分布微调的情况下获得监督状态下的最先进越界检测性能，（iii）即使是针对自然语言监督进行训练的性能最佳的十亿级视觉变换器也无法检测到经过敌对操纵的越界图像。 最后，我们根据实验结果讨论了是否需要新的基于视觉异常检测的基准。 使用最大的公开可用视觉变换器，在所有18个报告的越界基准测试中都实现了最先进的性能\",\n    \"tldr\": \"研究表明，对比语言-图像预训练模型无需内部分布微调即可实现最先进的无监督越界检测表现，并提出是否需要新的视觉异常检测基准\"\n}",
+    "total_tokens": 888,
+    "ret": {
+        "translated_title": "对比语言图像预训练（CLIP）模型是强大的越界检测器。",
+        "translated_abstract": "我们对用于视觉越界检测的预训练特征提取器进行了全面的实验研究。 我们检查了几个设置，基于标签或图像标题的可用性，使用不同的内部和外部分布的组合。 有趣的是，我们发现（i）对比语言-图像预训练模型使用最近邻特征相似性作为越界检测分数，实现了最先进的无监督越界检测表现，（ii）可以在不需要内部分布微调的情况下获得监督状态下的最先进越界检测性能，（iii）即使是针对自然语言监督进行训练的性能最佳的十亿级视觉变换器也无法检测到经过敌对操纵的越界图像。 最后，我们根据实验结果讨论了是否需要新的基于视觉异常检测的基准。 使用最大的公开可用视觉变换器，在所有18个报告的越界基准测试中都实现了最先进的性能",
+        "tldr": "研究表明，对比语言-图像预训练模型无需内部分布微调即可实现最先进的无监督越界检测表现，并提出是否需要新的视觉异常检测基准"
+    }
+}

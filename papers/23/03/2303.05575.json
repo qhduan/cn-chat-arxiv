@@ -1,0 +1,12 @@
+{
+    "title": "Evaluating the Robustness of Conversational Recommender Systems by Adversarial Examples. (arXiv:2303.05575v1 [cs.IR])",
+    "abstract": "Conversational recommender systems (CRSs) are improving rapidly, according to the standard recommendation accuracy metrics. However, it is essential to make sure that these systems are robust in interacting with users including regular and malicious users who want to attack the system by feeding the system modified input data. In this paper, we propose an adversarial evaluation scheme including four scenarios in two categories and automatically generate adversarial examples to evaluate the robustness of these systems in the face of different input data. By executing these adversarial examples we can compare the ability of different conversational recommender systems to satisfy the user's preferences. We evaluate three CRSs by the proposed adversarial examples on two datasets. Our results show that none of these systems are robust and reliable to the adversarial examples.",
+    "link": "http://arxiv.org/abs/2303.05575",
+    "raw_ret": "{\"translated_title\":\"通过对抗样本评估会话式推荐系统的鲁棒性\",\"translated_abstract\":\"会话式推荐系统（CRS）根据标准的推荐准确性指标迅速发展。然而，确保这些系统与用户交互的鲁棒性是至关重要的，包括正常用户和恶意用户。他们希望通过提供修改过的输入数据来攻击系统。在本文中，我们提出了一个对抗性评估方案，包括两个类别的四个方案，并自动生成对抗性示例来评估系统在面对不同输入数据时的鲁棒性。通过执行这些对抗性示例，我们可以比较不同对话式推荐系统满足用户偏好的能力。我们通过提出的对抗性示例对两个数据集上的三个CRS进行评估。我们的结果表明，这些系统都不够鲁棒和可靠以抵御对抗性示例。\",\"tldr\":\"本文提出了一个对抗性评估方案，包括两个类别的四个方案，并自动生成对抗性示例来评估会话式推荐系统在面对不同输入数据时的鲁棒性。结果表明，现有的系统都不够鲁棒和可靠以抵御对抗性示例。\"}<|im_sep|>",
+    "total_tokens": 808,
+    "ret": {
+        "translated_title": "通过对抗样本评估会话式推荐系统的鲁棒性",
+        "translated_abstract": "会话式推荐系统（CRS）根据标准的推荐准确性指标迅速发展。然而，确保这些系统与用户交互的鲁棒性是至关重要的，包括正常用户和恶意用户。他们希望通过提供修改过的输入数据来攻击系统。在本文中，我们提出了一个对抗性评估方案，包括两个类别的四个方案，并自动生成对抗性示例来评估系统在面对不同输入数据时的鲁棒性。通过执行这些对抗性示例，我们可以比较不同对话式推荐系统满足用户偏好的能力。我们通过提出的对抗性示例对两个数据集上的三个CRS进行评估。我们的结果表明，这些系统都不够鲁棒和可靠以抵御对抗性示例。",
+        "tldr": "本文提出了一个对抗性评估方案，包括两个类别的四个方案，并自动生成对抗性示例来评估会话式推荐系统在面对不同输入数据时的鲁棒性。结果表明，现有的系统都不够鲁棒和可靠以抵御对抗性示例。"
+    }
+}

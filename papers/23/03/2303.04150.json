@@ -1,0 +1,12 @@
+{
+    "title": "Evolutionary Reinforcement Learning: A Survey. (arXiv:2303.04150v2 [cs.NE] UPDATED)",
+    "abstract": "Reinforcement learning (RL) is a machine learning approach that trains agents to maximize cumulative rewards through interactions with environments. The integration of RL with deep learning has recently resulted in impressive achievements in a wide range of challenging tasks, including board games, arcade games, and robot control. Despite these successes, there remain several crucial challenges, including brittle convergence properties caused by sensitive hyperparameters, difficulties in temporal credit assignment with long time horizons and sparse rewards, a lack of diverse exploration, especially in continuous search space scenarios, difficulties in credit assignment in multi-agent reinforcement learning, and conflicting objectives for rewards. Evolutionary computation (EC), which maintains a population of learning agents, has demonstrated promising performance in addressing these limitations. This article presents a comprehensive survey of state-of-the-art methods for integrating EC",
+    "link": "http://arxiv.org/abs/2303.04150",
+    "raw_ret": "{\n    \"translated_title\": \"进化强化学习：一项综述\",\n    \"translated_abstract\": \"强化学习（RL）是一种机器学习方法，通过与环境交互来训练智能体最大化累积奖励。将RL与深度学习相结合，最近在各种具有挑战性的任务中取得了令人瞩目的成果，包括棋盘游戏、街机游戏和机器人控制。尽管取得了这些成功，但仍然存在几个关键挑战，包括由敏感超参数引起的脆弱收敛特性、长时间范围和稀疏奖励下的时间分配困难、特别是在连续搜索空间场景中缺乏多样化探索、在多智能体强化学习中进行信用分配的困难以及奖励冲突目标。进化计算（EC）通过维护一组学习智能体，已经在解决这些限制方面展现出有希望的性能。本文提供了一份关于集成EC的最新方法的全面调查。\",\n    \"tldr\": \"本文对于进化计算在强化学习中的应用进行了综述，进化计算通过维护一组学习智能体，在解决强化学习中存在的挑战，如敏感超参数、长时间范围和稀疏奖励下的时间分配困难等方面展现出有希望的性能。\"\n}",
+    "total_tokens": 879,
+    "ret": {
+        "translated_title": "进化强化学习：一项综述",
+        "translated_abstract": "强化学习（RL）是一种机器学习方法，通过与环境交互来训练智能体最大化累积奖励。将RL与深度学习相结合，最近在各种具有挑战性的任务中取得了令人瞩目的成果，包括棋盘游戏、街机游戏和机器人控制。尽管取得了这些成功，但仍然存在几个关键挑战，包括由敏感超参数引起的脆弱收敛特性、长时间范围和稀疏奖励下的时间分配困难、特别是在连续搜索空间场景中缺乏多样化探索、在多智能体强化学习中进行信用分配的困难以及奖励冲突目标。进化计算（EC）通过维护一组学习智能体，已经在解决这些限制方面展现出有希望的性能。本文提供了一份关于集成EC的最新方法的全面调查。",
+        "tldr": "本文对于进化计算在强化学习中的应用进行了综述，进化计算通过维护一组学习智能体，在解决强化学习中存在的挑战，如敏感超参数、长时间范围和稀疏奖励下的时间分配困难等方面展现出有希望的性能。"
+    }
+}

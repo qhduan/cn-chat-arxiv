@@ -1,0 +1,12 @@
+{
+    "title": "Variational Quantum Neural Networks (VQNNS) in Image Classification. (arXiv:2303.05860v1 [quant-ph])",
+    "abstract": "Quantum machine learning has established as an interdisciplinary field to overcome limitations of classical machine learning and neural networks. This is a field of research which can prove that quantum computers are able to solve problems with complex correlations between inputs that can be hard for classical computers. This suggests that learning models made on quantum computers may be more powerful for applications, potentially faster computation and better generalization on less data. The objective of this paper is to investigate how training of quantum neural network (QNNs) can be done using quantum optimization algorithms for improving the performance and time complexity of QNNs. A classical neural network can be partially quantized to create a hybrid quantum-classical neural network which is used mainly in classification and image recognition. In this paper, a QNN structure is made where a variational parameterized circuit is incorporated as an input layer named as Variational Q",
+    "link": "http://arxiv.org/abs/2303.05860",
+    "raw_ret": "{\n    \"translated_title\": \"基于变分量子神经网络的图像分类\",\n    \"translated_abstract\": \"量子机器学习已成为一个跨学科领域，旨在克服经典机器学习和神经网络的限制。量子计算机能够解决输入之间存在复杂相关性的问题，这表明在量子计算机上建立的学习模型可能更强大，能够在较少的数据上进行更快的计算和更好的泛化。本文的目的是研究如何使用量子优化算法来训练量子神经网络（QNN），以提高QNN的性能和时间复杂度。可以部分量子化经典神经网络以创建混合量子-经典神经网络，主要用于分类和图像识别。本文提出了一种QNN结构，其中一个变分参数化电路被纳入作为称为变分Q的输入层\",\n    \"tldr\": \"本研究探究了如何使用量子优化算法来提高量子神经网络的性能和时间复杂度，并且使用一个变分参数化电路作为输入层，可以用于图像分类。\"\n}<|im_sep|>",
+    "total_tokens": 778,
+    "ret": {
+        "translated_title": "基于变分量子神经网络的图像分类",
+        "translated_abstract": "量子机器学习已成为一个跨学科领域，旨在克服经典机器学习和神经网络的限制。量子计算机能够解决输入之间存在复杂相关性的问题，这表明在量子计算机上建立的学习模型可能更强大，能够在较少的数据上进行更快的计算和更好的泛化。本文的目的是研究如何使用量子优化算法来训练量子神经网络（QNN），以提高QNN的性能和时间复杂度。可以部分量子化经典神经网络以创建混合量子-经典神经网络，主要用于分类和图像识别。本文提出了一种QNN结构，其中一个变分参数化电路被纳入作为称为变分Q的输入层",
+        "tldr": "本研究探究了如何使用量子优化算法来提高量子神经网络的性能和时间复杂度，并且使用一个变分参数化电路作为输入层，可以用于图像分类。"
+    }
+}

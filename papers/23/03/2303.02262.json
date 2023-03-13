@@ -1,0 +1,12 @@
+{
+    "title": "Locally Regularized Neural Differential Equations: Some Black Boxes Were Meant to Remain Closed!. (arXiv:2303.02262v2 [cs.LG] UPDATED)",
+    "abstract": "Implicit layer deep learning techniques, like Neural Differential Equations, have become an important modeling framework due to their ability to adapt to new problems automatically. Training a neural differential equation is effectively a search over a space of plausible dynamical systems. However, controlling the computational cost for these models is difficult since it relies on the number of steps the adaptive solver takes. Most prior works have used higher-order methods to reduce prediction timings while greatly increasing training time or reducing both training and prediction timings by relying on specific training algorithms, which are harder to use as a drop-in replacement due to strict requirements on automatic differentiation. In this manuscript, we use internal cost heuristics of adaptive differential equation solvers at stochastic time points to guide the training toward learning a dynamical system that is easier to integrate. We \"close the black-box\" and allow the use of ou",
+    "link": "http://arxiv.org/abs/2303.02262",
+    "raw_ret": "{\n    \"translated_title\": \"局部正则化神经微分方程: 有些黑盒应该保持关闭！\",\n    \"translated_abstract\": \"隐式层深度学习技术，如神经微分方程，由于其自适应解决新问题的能力，已成为重要的建模框架。训练神经微分方程实际上是在可行动力系统空间中搜索。然而，控制这些模型的计算成本很困难，因为它依赖于自适应求解器的步数。大多数先前的工作都使用高阶方法来减少预测时间，同时极大地增加训练时间或通过依赖于特定的训练算法来减少训练和预测时间，这些算法更难以使用作为一种简单替换，因为对自动微分有严格的要求。在这篇文章中，我们使用自适应微分方程求解器在随机时间点的内部成本启发式来指导训练，使其学习一个更容易集成的动力系统。我们“关闭黑盒”，允许使用 ou\",\n    \"tldr\": \"本文提出了一种局部正则化的神经微分方程训练方法，通过自适应微分方程求解器的启发式指导训练，实现了更容易集成的动力系统。\"\n}",
+    "total_tokens": 843,
+    "ret": {
+        "translated_title": "局部正则化神经微分方程: 有些黑盒应该保持关闭！",
+        "translated_abstract": "隐式层深度学习技术，如神经微分方程，由于其自适应解决新问题的能力，已成为重要的建模框架。训练神经微分方程实际上是在可行动力系统空间中搜索。然而，控制这些模型的计算成本很困难，因为它依赖于自适应求解器的步数。大多数先前的工作都使用高阶方法来减少预测时间，同时极大地增加训练时间或通过依赖于特定的训练算法来减少训练和预测时间，这些算法更难以使用作为一种简单替换，因为对自动微分有严格的要求。在这篇文章中，我们使用自适应微分方程求解器在随机时间点的内部成本启发式来指导训练，使其学习一个更容易集成的动力系统。我们“关闭黑盒”，允许使用 ou",
+        "tldr": "本文提出了一种局部正则化的神经微分方程训练方法，通过自适应微分方程求解器的启发式指导训练，实现了更容易集成的动力系统。"
+    }
+}

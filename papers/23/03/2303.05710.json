@@ -1,0 +1,12 @@
+{
+    "title": "A Unified and Efficient Coordinating Framework for Autonomous DBMS Tuning. (arXiv:2303.05710v1 [cs.DB])",
+    "abstract": "Recently using machine learning (ML) based techniques to optimize modern database management systems has attracted intensive interest from both industry and academia. With an objective to tune a specific component of a DBMS (e.g., index selection, knobs tuning), the ML-based tuning agents have shown to be able to find better configurations than experienced database administrators. However, one critical yet challenging question remains unexplored -- how to make those ML-based tuning agents work collaboratively. Existing methods do not consider the dependencies among the multiple agents, and the model used by each agent only studies the effect of changing the configurations in a single component. To tune different components for DBMS, a coordinating mechanism is needed to make the multiple agents cognizant of each other. Also, we need to decide how to allocate the limited tuning budget among the agents to maximize the performance. Such a decision is difficult to make since the distributi",
+    "link": "http://arxiv.org/abs/2303.05710",
+    "raw_ret": "{\n    \"translated_title\": \"自主数据库管理系统调优的统一高效协调框架\",\n    \"translated_abstract\": \"最近，使用基于机器学习（ML）的技术来优化现代数据库管理系统引起了行业和学术界的广泛关注。针对调整DBMS的特定组件（例如，索引选择，旋钮调整）的目标，ML-based调整代理已经显示出能够找到比经验丰富的数据库管理员更好的配置。然而，还有一个关键而具有挑战性的问题没有得到探索——如何使这些基于ML的调整代理协同工作。现有方法不考虑多个代理之间的依赖关系，每个代理使用的模型仅研究更改单个组件中的配置的影响。为了调整DBMS的不同组件，需要一种协调机制来使多个代理相互认识。此外，我们需要决定如何分配有限的调整预算，以最大化性能。由于分布式，这样的决策很难做出\",\n    \"tldr\": \"目前，使用基于机器学习（ML）的技术来优化现代数据库管理系统是一种引起广泛关注的方法。在这篇文章中，作者提出了一种协调框架，该框架可以协调多个基于ML的调整代理，以优化数据库管理系统的不同组件。\"\n}<|im_sep|>",
+    "total_tokens": 856,
+    "ret": {
+        "translated_title": "自主数据库管理系统调优的统一高效协调框架",
+        "translated_abstract": "最近，使用基于机器学习（ML）的技术来优化现代数据库管理系统引起了行业和学术界的广泛关注。针对调整DBMS的特定组件（例如，索引选择，旋钮调整）的目标，ML-based调整代理已经显示出能够找到比经验丰富的数据库管理员更好的配置。然而，还有一个关键而具有挑战性的问题没有得到探索——如何使这些基于ML的调整代理协同工作。现有方法不考虑多个代理之间的依赖关系，每个代理使用的模型仅研究更改单个组件中的配置的影响。为了调整DBMS的不同组件，需要一种协调机制来使多个代理相互认识。此外，我们需要决定如何分配有限的调整预算，以最大化性能。由于分布式，这样的决策很难做出",
+        "tldr": "目前，使用基于机器学习（ML）的技术来优化现代数据库管理系统是一种引起广泛关注的方法。在这篇文章中，作者提出了一种协调框架，该框架可以协调多个基于ML的调整代理，以优化数据库管理系统的不同组件。"
+    }
+}

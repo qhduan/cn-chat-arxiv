@@ -1,0 +1,12 @@
+{
+    "title": "Hierarchical Clustering with OWA-based Linkages, the Lance-Williams Formula, and Dendrogram Inversions. (arXiv:2303.05683v1 [stat.ML])",
+    "abstract": "Agglomerative hierarchical clustering based on Ordered Weighted Averaging (OWA) operators not only generalises the single, complete, and average linkages, but also includes intercluster distances based on a few nearest or farthest neighbours, trimmed and winsorised means of pairwise point similarities, amongst many others. We explore the relationships between the famous Lance-Williams update formula and the extended OWA-based linkages with weights generated via infinite coefficient sequences. Furthermore, we provide some conditions for the weight generators to guarantee the resulting dendrograms to be free from unaesthetic inversions.",
+    "link": "http://arxiv.org/abs/2303.05683",
+    "raw_ret": "{\n    \"translated_title\": \"基于OWA链接的分层聚类：Lance-Williams公式和树状图翻转\",\n    \"translated_abstract\": \"基于有序加权平均（OWA）算子的聚合分层聚类不仅泛化了单个、完整和平均链接，还包括基于少量最近或最远邻居、修剪和winsoirsed的点相似性的平均值等相似性。我们探索了著名的Lance-Williams更新公式与扩展OWA链接之间的关系，其中权重通过无限系数序列生成。此外，我们提供了一些条件，以保证权重生成器产生的树状图不受美学上的倒置限制。\",\n    \"tldr\": \"本论文探讨了Lance-Williams更新公式与基于OWA链接的分层聚类的关系，并提供了条件以保证树状图不受倒置影响。\"\n}<|im_sep|>",
+    "total_tokens": 666,
+    "ret": {
+        "translated_title": "基于OWA链接的分层聚类：Lance-Williams公式和树状图翻转",
+        "translated_abstract": "基于有序加权平均（OWA）算子的聚合分层聚类不仅泛化了单个、完整和平均链接，还包括基于少量最近或最远邻居、修剪和winsoirsed的点相似性的平均值等相似性。我们探索了著名的Lance-Williams更新公式与扩展OWA链接之间的关系，其中权重通过无限系数序列生成。此外，我们提供了一些条件，以保证权重生成器产生的树状图不受美学上的倒置限制。",
+        "tldr": "本论文探讨了Lance-Williams更新公式与基于OWA链接的分层聚类的关系，并提供了条件以保证树状图不受倒置影响。"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Fast Diffusion Sampler for Inverse Problems by Geometric Decomposition. (arXiv:2303.05754v1 [cs.LG])",
+    "abstract": "Diffusion models have shown exceptional performance in solving inverse problems. However, one major limitation is the slow inference time. While faster diffusion samplers have been developed for unconditional sampling, there has been limited research on conditional sampling in the context of inverse problems. In this study, we propose a novel and efficient diffusion sampling strategy that employs the geometric decomposition of diffusion sampling. Specifically, we discover that the samples generated from diffusion models can be decomposed into two orthogonal components: a ``denoised\" component obtained by projecting the sample onto the clean data manifold, and a ``noise\" component that induces a transition to the next lower-level noisy manifold with the addition of stochastic noise. Furthermore, we prove that, under some conditions on the clean data manifold, the conjugate gradient update for imposing conditioning from the denoised signal belongs to the clean manifold, resulting in a mu",
+    "link": "http://arxiv.org/abs/2303.05754",
+    "raw_ret": "{\n    \"translated_title\": \"通过几何分解实现逆问题的快速扩散采样器\",\n    \"translated_abstract\": \"扩散模型在解决逆问题方面表现出卓越的性能，但其推理时间较慢。本文提出了一种新颖高效的扩散采样策略，采用扩散采样的几何分解。具体来说，我们发现从扩散模型生成的样本可以分解为两个正交分量：通过将样本投影到干净数据流形上获得的“去噪”分量以及通过添加随机噪声将其转换为下一个较低级别的嘈杂流形的“噪声”分量。此外，我们证明，在一些对于干净数据流形的条件下，通过从去噪信号中施加条件的共轭梯度更新属于干净流形，从而导致一个mu\",\n    \"tldr\": \"本文提出了一种快速扩散采样策略，采用几何分解的方法解决逆问题中条件采样的限制问题。研究者们发现扩散模型生成的样本可以分解为去噪和噪声两个部分，这使得施加条件的共轭梯度更新属于干净流形，从而提高了采样速度。\"\n}<|im_sep|>",
+    "total_tokens": 845,
+    "ret": {
+        "translated_title": "通过几何分解实现逆问题的快速扩散采样器",
+        "translated_abstract": "扩散模型在解决逆问题方面表现出卓越的性能，但其推理时间较慢。本文提出了一种新颖高效的扩散采样策略，采用扩散采样的几何分解。具体来说，我们发现从扩散模型生成的样本可以分解为两个正交分量：通过将样本投影到干净数据流形上获得的“去噪”分量以及通过添加随机噪声将其转换为下一个较低级别的嘈杂流形的“噪声”分量。此外，我们证明，在一些对于干净数据流形的条件下，通过从去噪信号中施加条件的共轭梯度更新属于干净流形，从而导致一个mu",
+        "tldr": "本文提出了一种快速扩散采样策略，采用几何分解的方法解决逆问题中条件采样的限制问题。研究者们发现扩散模型生成的样本可以分解为去噪和噪声两个部分，这使得施加条件的共轭梯度更新属于干净流形，从而提高了采样速度。"
+    }
+}

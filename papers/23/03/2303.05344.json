@@ -1,0 +1,12 @@
+{
+    "title": "Recent Advances of Deep Robotic Affordance Learning: A Reinforcement Learning Perspective. (arXiv:2303.05344v2 [cs.RO] UPDATED)",
+    "abstract": "As a popular concept proposed in the field of psychology, affordance has been regarded as one of the important abilities that enable humans to understand and interact with the environment. Briefly, it captures the possibilities and effects of the actions of an agent applied to a specific object or, more generally, a part of the environment. This paper provides a short review of the recent developments of deep robotic affordance learning (DRAL), which aims to develop data-driven methods that use the concept of affordance to aid in robotic tasks. We first classify these papers from a reinforcement learning (RL) perspective, and draw connections between RL and affordances. The technical details of each category are discussed and their limitations identified. We further summarise them and identify future challenges from the aspects of observations, actions, affordance representation, data-collection and real-world deployment. A final remark is given at the end to propose a promising future",
+    "link": "http://arxiv.org/abs/2303.05344",
+    "raw_ret": "{\"translated_title\": \"深度机器人可用性学习的最新进展：强化学习的视角\", \"translated_abstract\": \"作为心理学领域提出的一个流行的概念，可用性被认为是使人类能够理解和与环境交互的重要能力之一。本文简要回顾了深度机器人可用性学习（DRAL）的最近发展，旨在开发使用可用性概念来帮助机器人任务的数据驱动方法。我们从强化学习（RL）的角度分类这些论文，并在RL和可用性之间建立联系。讨论了每个类别的技术细节和其限制。我们进一步总结它们，并从观察、动作、可用性表示、数据收集和现实世界部署的方面确定未来挑战。最后提出了一个有前途的未来。\", \"tldr\": \"本文对深度机器人可用性学习的最新进展进行了回顾，提出了一种使用可用性概念来帮助机器人任务的数据驱动方法，并从强化学习的角度分类论文，并讨论了技术细节和限制。我们进一步总结了它们，并确定了从多个方面的未来挑战。\"}<|im_sep|>",
+    "total_tokens": 830,
+    "ret": {
+        "translated_title": "深度机器人可用性学习的最新进展：强化学习的视角",
+        "translated_abstract": "作为心理学领域提出的一个流行的概念，可用性被认为是使人类能够理解和与环境交互的重要能力之一。本文简要回顾了深度机器人可用性学习（DRAL）的最近发展，旨在开发使用可用性概念来帮助机器人任务的数据驱动方法。我们从强化学习（RL）的角度分类这些论文，并在RL和可用性之间建立联系。讨论了每个类别的技术细节和其限制。我们进一步总结它们，并从观察、动作、可用性表示、数据收集和现实世界部署的方面确定未来挑战。最后提出了一个有前途的未来。",
+        "tldr": "本文对深度机器人可用性学习的最新进展进行了回顾，提出了一种使用可用性概念来帮助机器人任务的数据驱动方法，并从强化学习的角度分类论文，并讨论了技术细节和限制。我们进一步总结了它们，并确定了从多个方面的未来挑战。"
+    }
+}

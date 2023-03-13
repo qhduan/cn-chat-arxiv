@@ -1,0 +1,12 @@
+{
+    "title": "Boosting Semi-Supervised Few-Shot Object Detection with SoftER Teacher. (arXiv:2303.05739v1 [cs.CV])",
+    "abstract": "Few-shot object detection is an emerging problem aimed at detecting novel concepts from few exemplars. Existing approaches to few-shot detection assume abundant base labels to adapt to novel objects. This paper explores the task of semi-supervised few-shot detection by considering a realistic scenario which lacks abundant labels for both base and novel objects. Motivated by this unique problem, we introduce SoftER Teacher, a robust detector combining the advantages of pseudo-labeling with representation learning on region proposals. SoftER Teacher harnesses unlabeled data to jointly optimize for semi-supervised few-shot detection without explicitly relying on abundant base labels. Extensive experiments show that SoftER Teacher matches the novel class performance of a strong supervised detector using only 10% of base labels. Our work also sheds insight into a previously unknown relationship between semi-supervised and few-shot detection to suggest that a stronger semi-supervised detecto",
+    "link": "http://arxiv.org/abs/2303.05739",
+    "raw_ret": "{\n    \"translated_title\": \"用SoftER Teacher增强半监督少样本物体检测\",\n    \"translated_abstract\": \"Few-shot object detection是一个新兴的问题，旨在从少量实例中检测新概念。现有的少样本检测方法假定有丰富的基础标签，以适应新物体。本文探讨半监督少样本检测的任务，考虑缺少基础和新物体的丰富标签的现实场景。受到这个独特问题的启发，我们介绍了SoftER Teacher，一种强大的检测器，结合了伪标签的优点和区域提议的表示学习。SoftER Teacher利用未标记的数据共同优化半监督少样本检测，而不明确依赖于丰富的基础标签。广泛的实验表明，使用只有10%的基础标签，SoftER Teacher能够与强监督检测器的新类别性能相匹配。我们的工作还揭示了半监督和少样本检测之间以前未知的关系，表明一个更强的半监督检测器可以帮助更好地解决这个问题。\",\n    \"tldr\": \"本文提出了SoftER Teacher，一种强大的检测器，结合了伪标签的优点和区域提议的表示学习。SoftER Teacher利用未标记的数据共同优化半监督少样本检测，而不明确依赖于丰富的基础标签。使用只有10%的基础标签，SoftER Teacher能够与强监督检测器的新类别性能相匹配。\"\n}",
+    "total_tokens": 930,
+    "ret": {
+        "translated_title": "用SoftER Teacher增强半监督少样本物体检测",
+        "translated_abstract": "Few-shot object detection是一个新兴的问题，旨在从少量实例中检测新概念。现有的少样本检测方法假定有丰富的基础标签，以适应新物体。本文探讨半监督少样本检测的任务，考虑缺少基础和新物体的丰富标签的现实场景。受到这个独特问题的启发，我们介绍了SoftER Teacher，一种强大的检测器，结合了伪标签的优点和区域提议的表示学习。SoftER Teacher利用未标记的数据共同优化半监督少样本检测，而不明确依赖于丰富的基础标签。广泛的实验表明，使用只有10%的基础标签，SoftER Teacher能够与强监督检测器的新类别性能相匹配。我们的工作还揭示了半监督和少样本检测之间以前未知的关系，表明一个更强的半监督检测器可以帮助更好地解决这个问题。",
+        "tldr": "本文提出了SoftER Teacher，一种强大的检测器，结合了伪标签的优点和区域提议的表示学习。SoftER Teacher利用未标记的数据共同优化半监督少样本检测，而不明确依赖于丰富的基础标签。使用只有10%的基础标签，SoftER Teacher能够与强监督检测器的新类别性能相匹配。"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "title": "New Benchmarks for Accountable Text-based Visual Re-creation. (arXiv:2303.05983v1 [cs.CV])",
+    "abstract": "Given a command, humans can directly execute the action after thinking or choose to reject it, with reasonable feedback at the same time. However, the behavior of existing text-to-image generation methods are uncontrollable and irresponsible. In this paper, we construct extensive experiments to verify whether they can be accountable (say no and explain why) for those prohibited instructions. To this end, we define a novel text-based visual re-creation task and construct new synthetic CLEVR-NOT dataset (620K) and manually pictured Fruit-NOT dataset (50K). In our method, one text-image pair as the query is fed into the machine, and the model gives a yes or no answer after visual and textual reasoning. If the answer is yes, the image auto-encoder and auto-regressive transformer must complete the visual re-creation under the premise of ensuring image quality, otherwise the system needs to explain why the commands cannot be completed or prohibited. We provide a detailed analysis of experime",
+    "link": "http://arxiv.org/abs/2303.05983",
+    "raw_ret": "{\n    \"translated_title\": \"责任化文本视觉重现的新基准。\",\n    \"translated_abstract\": \"给定指令后，人类可以直接执行动作或选择拒绝，同时合理地反馈。然而，现有的文本到图像生成方法的行为不可控且不负责任。在本文中，我们构建了大量实验来验证它们能否对这些被禁止的指令负责并说明理由。为此，我们定义了一种新的基于文本的视觉重现任务，并构建了新的合成CLEVR-NOT数据集（620K）和手动绘制的Fruit-NOT数据集（50K）。在我们的方法中，将一个文本-图像对作为查询馈入机器，模型在视觉和文本推理之后给出一个是或否的答案。如果答案是肯定的，那么图像自动编码器和自回归变换器必须在确保图像质量的前提下完成视觉重现，否则系统需要解释为什么命令无法完成或被禁止。我们对实验进行了详细的分析。\",\n    \"tldr\": \"该论文定义了一种新的基于文本的视觉重现任务，并构建了新的合成CLEVR-NOT数据集和手动绘制的Fruit-NOT数据集。该方法能够对禁止的指令进行负责并说明理由。\"\n}<|im_sep|>",
+    "total_tokens": 853,
+    "ret": {
+        "translated_title": "责任化文本视觉重现的新基准。",
+        "translated_abstract": "给定指令后，人类可以直接执行动作或选择拒绝，同时合理地反馈。然而，现有的文本到图像生成方法的行为不可控且不负责任。在本文中，我们构建了大量实验来验证它们能否对这些被禁止的指令负责并说明理由。为此，我们定义了一种新的基于文本的视觉重现任务，并构建了新的合成CLEVR-NOT数据集（620K）和手动绘制的Fruit-NOT数据集（50K）。在我们的方法中，将一个文本-图像对作为查询馈入机器，模型在视觉和文本推理之后给出一个是或否的答案。如果答案是肯定的，那么图像自动编码器和自回归变换器必须在确保图像质量的前提下完成视觉重现，否则系统需要解释为什么命令无法完成或被禁止。我们对实验进行了详细的分析。",
+        "tldr": "该论文定义了一种新的基于文本的视觉重现任务，并构建了新的合成CLEVR-NOT数据集和手动绘制的Fruit-NOT数据集。该方法能够对禁止的指令进行负责并说明理由。"
+    }
+}

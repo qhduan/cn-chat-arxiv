@@ -1,0 +1,12 @@
+{
+    "title": "Accelerating ODE-Based Neural Networks on Low-Cost FPGAs. (arXiv:2012.15465v5 [cs.LG] UPDATED)",
+    "abstract": "ODENet is a deep neural network architecture in which a stacking structure of ResNet is implemented with an ordinary differential equation (ODE) solver. It can reduce the number of parameters and strike a balance between accuracy and performance by selecting a proper solver. It is also possible to improve the accuracy while keeping the same number of parameters on resource-limited edge devices. In this paper, using Euler method as an ODE solver, a part of ODENet is implemented as a dedicated logic on a low-cost FPGA (Field-Programmable Gate Array) board, such as PYNQ-Z2 board. As ODENet variants, reduced ODENets (rODENets) each of which heavily uses a part of ODENet layers and reduces/eliminates some layers differently are proposed and analyzed for low-cost FPGA implementation. They are evaluated in terms of parameter size, accuracy, execution time, and resource utilization on the FPGA. The results show that an overall execution time of an rODENet variant is improved by up to 2.66 time",
+    "link": "http://arxiv.org/abs/2012.15465",
+    "raw_ret": "{\n    \"translated_title\": \"在低成本FPGA上加速基于ODE的神经网络\",\n    \"translated_abstract\": \"ODENet是一种深度神经网络架构，其中通过普通微分方程（ODE）求解器实现了ResNet的堆叠结构。选择适当的求解器可以减少参数数量并在精度和性能之间取得平衡。还可以在资源有限的边缘设备上保持相同数量的参数的同时提高准确性。在本文中，使用Euler方法作为ODE求解器，将ODENet的一部分实现为低成本FPGA（可编程门阵列）板上的专用逻辑，例如PYNQ-Z2板。作为ODENet变体，提出并分析了减少了一些层并且每个rODENet重度使用ODENet的一部分的rODENet，以不同的方式减少/消除一些层。它们从FPGA上的参数大小、准确性、执行时间和资源利用率进行评估。结果表明，rODENet变体的总体执行时间可以提高2.66倍\",\n    \"tldr\": \"本研究在低成本FPGA上使用Euler方法作为ODE求解器加速ODENet神经网络结构，并提出rODENet变体用于低成本FPGA实现，结果显示rODENet变体的总体执行时间可以提高2.66倍\"\n}",
+    "total_tokens": 875,
+    "ret": {
+        "translated_title": "在低成本FPGA上加速基于ODE的神经网络",
+        "translated_abstract": "ODENet是一种深度神经网络架构，其中通过普通微分方程（ODE）求解器实现了ResNet的堆叠结构。选择适当的求解器可以减少参数数量并在精度和性能之间取得平衡。还可以在资源有限的边缘设备上保持相同数量的参数的同时提高准确性。在本文中，使用Euler方法作为ODE求解器，将ODENet的一部分实现为低成本FPGA（可编程门阵列）板上的专用逻辑，例如PYNQ-Z2板。作为ODENet变体，提出并分析了减少了一些层并且每个rODENet重度使用ODENet的一部分的rODENet，以不同的方式减少/消除一些层。它们从FPGA上的参数大小、准确性、执行时间和资源利用率进行评估。结果表明，rODENet变体的总体执行时间可以提高2.66倍",
+        "tldr": "本研究在低成本FPGA上使用Euler方法作为ODE求解器加速ODENet神经网络结构，并提出rODENet变体用于低成本FPGA实现，结果显示rODENet变体的总体执行时间可以提高2.66倍"
+    }
+}

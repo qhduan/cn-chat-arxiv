@@ -1,0 +1,12 @@
+{
+    "title": "Fusarium head blight detection, spikelet estimation, and severity assessment in wheat using 3D convolutional neural networks. (arXiv:2303.05634v1 [cs.CV])",
+    "abstract": "Fusarium head blight (FHB) is one of the most significant diseases affecting wheat and other small grain cereals worldwide. The development of resistant varieties requires the laborious task of field and greenhouse phenotyping. The applications considered in this work are the automated detection of FHB disease symptoms expressed on a wheat plant, the automated estimation of the total number of spikelets and the total number of infected spikelets on a wheat head, and the automated assessment of the FHB severity in infected wheat. The data used to generate the results are 3-dimensional (3D) multispectral point clouds (PC), which are 3D collections of points - each associated with a red, green, blue (RGB), and near-infrared (NIR) measurement. Over 300 wheat plant images were collected using a multispectral 3D scanner, and the labelled UW-MRDC 3D wheat dataset was created. The data was used to develop novel and efficient 3D convolutional neural network (CNN) models for FHB detection, which",
+    "link": "http://arxiv.org/abs/2303.05634",
+    "raw_ret": "{\n    \"translated_title\": \"使用三维卷积神经网络在小麦中检测赤霉病、小穗估计和严重程度评估\",\n    \"translated_abstract\": \"赤霉病是全球影响小麦和其他小谷物的最重要的疾病之一。开发抗病品种需要在田间和温室表型分型。本研究考虑的应用是自动检测小麦上表现出赤霉病症状的疾病，自动估计小麦头上总小穗数和总受感染小穗数，以及评估感染小麦的赤霉病严重程度。用于生成结果的数据是三维多光谱点云（PC），它们是点的三维集合-每个点都与红色、绿色、蓝色（RGB）和近红外（NIR）测量相关联。使用多光谱三维扫描仪采集了300多个小麦植株图像，并创建了标记的UW-MRDC 3D小麦数据集。该数据被用于开发用于FHB检测的新型高效3D卷积神经网络（CNN）模型\",\n    \"tldr\": \"本研究开发了基于3D卷积神经网络的新型、高效的小麦赤霉病检测模型，并实现了对小麦上FHB症状、小穗数量和病情严重程度的自动化检测和评估。\"\n}",
+    "total_tokens": 960,
+    "ret": {
+        "translated_title": "使用三维卷积神经网络在小麦中检测赤霉病、小穗估计和严重程度评估",
+        "translated_abstract": "赤霉病是全球影响小麦和其他小谷物的最重要的疾病之一。开发抗病品种需要在田间和温室表型分型。本研究考虑的应用是自动检测小麦上表现出赤霉病症状的疾病，自动估计小麦头上总小穗数和总受感染小穗数，以及评估感染小麦的赤霉病严重程度。用于生成结果的数据是三维多光谱点云（PC），它们是点的三维集合-每个点都与红色、绿色、蓝色（RGB）和近红外（NIR）测量相关联。使用多光谱三维扫描仪采集了300多个小麦植株图像，并创建了标记的UW-MRDC 3D小麦数据集。该数据被用于开发用于FHB检测的新型高效3D卷积神经网络（CNN）模型",
+        "tldr": "本研究开发了基于3D卷积神经网络的新型、高效的小麦赤霉病检测模型，并实现了对小麦上FHB症状、小穗数量和病情严重程度的自动化检测和评估。"
+    }
+}

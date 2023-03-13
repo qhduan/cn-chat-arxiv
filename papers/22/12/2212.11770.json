@@ -1,0 +1,12 @@
+{
+    "title": "S-Graphs+: Real-time Localization and Mapping leveraging Hierarchical Representations. (arXiv:2212.11770v2 [cs.RO] UPDATED)",
+    "abstract": "In this paper, we present an evolved version of the Situational Graphs, which jointly models in a single optimizable factor graph, a SLAM graph, as a set of robot keyframes, containing its associated measurements and robot poses, and a 3D scene graph, as a high-level representation of the environment that encodes its different geometric elements with semantic attributes and the relational information between those elements. Our proposed S-Graphs+ is a novel four-layered factor graph that includes: (1) a keyframes layer with robot pose estimates, (2) a walls layer representing wall surfaces, (3) a rooms layer encompassing sets of wall planes, and (4) a floors layer gathering the rooms within a given floor level. The above graph is optimized in real-time to obtain a robust and accurate estimate of the robot's pose and its map, simultaneously constructing and leveraging the high-level information of the environment. To extract such high-level information, we present novel room and floor s",
+    "link": "http://arxiv.org/abs/2212.11770",
+    "raw_ret": "{\n    \"translated_title\": \"S-Graphs+：利用分层表示实现实时定位和地图绘制\",\n    \"translated_abstract\": \"本文提出了一种S-Graphs+算法，它可以将SLAM图和3D场景图联合建模成一个可优化的因子图，其中SLAM图是一个包含机器人关键帧、测量和机器人姿态的集合，3D场景图是环境的高级表示，用语义属性编码其不同的几何元素和元素之间的关系信息。S-Graphs+是一个包括四个层次的因子图，分别为(1)包含机器人姿态估计的关键帧层，(2)表示墙面的墙层，(3)包含一组墙面平面的房间层，以及(4)汇集给定楼层内的房间的楼层层。上述图在实时优化，同时构建和利用环境的高级信息，以获得机器人姿态和地图的鲁棒准确估计。为了提取这种高级信息，我们提出了新的房间和地板算法。\",\n    \"tldr\": \"S-Graphs+算法是一种利用分层表示实现实时定位和地图绘制的算法，它将SLAM图和3D场景图联合建模成一个可优化的因子图，并在实时优化，同时构建和利用环境的高级信息，以获得机器人姿态和地图的鲁棒准确估计。\"\n}",
+    "total_tokens": 909,
+    "ret": {
+        "translated_title": "S-Graphs+：利用分层表示实现实时定位和地图绘制",
+        "translated_abstract": "本文提出了一种S-Graphs+算法，它可以将SLAM图和3D场景图联合建模成一个可优化的因子图，其中SLAM图是一个包含机器人关键帧、测量和机器人姿态的集合，3D场景图是环境的高级表示，用语义属性编码其不同的几何元素和元素之间的关系信息。S-Graphs+是一个包括四个层次的因子图，分别为(1)包含机器人姿态估计的关键帧层，(2)表示墙面的墙层，(3)包含一组墙面平面的房间层，以及(4)汇集给定楼层内的房间的楼层层。上述图在实时优化，同时构建和利用环境的高级信息，以获得机器人姿态和地图的鲁棒准确估计。为了提取这种高级信息，我们提出了新的房间和地板算法。",
+        "tldr": "S-Graphs+算法是一种利用分层表示实现实时定位和地图绘制的算法，它将SLAM图和3D场景图联合建模成一个可优化的因子图，并在实时优化，同时构建和利用环境的高级信息，以获得机器人姿态和地图的鲁棒准确估计。"
+    }
+}

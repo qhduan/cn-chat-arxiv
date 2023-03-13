@@ -1,0 +1,12 @@
+{
+    "title": "Arabic aspect sentiment polarity classification using BERT. (arXiv:2107.13290v4 [cs.CL] UPDATED)",
+    "abstract": "Aspect-based sentiment analysis(ABSA) is a textual analysis methodology that defines the polarity of opinions on certain aspects related to specific targets. The majority of research on ABSA is in English, with a small amount of work available in Arabic. Most previous Arabic research has relied on deep learning models that depend primarily on context-independent word embeddings (e.g.word2vec), where each word has a fixed representation independent of its context. This article explores the modeling capabilities of contextual embeddings from pre-trained language models, such as BERT, and making use of sentence pair input on Arabic aspect sentiment polarity classification task. In particular, we develop a simple but effective BERT-based neural baseline to handle this task. Our BERT architecture with a simple linear classification layer surpassed the state-of-the-art works, according to the experimental results on three different Arabic datasets. Achieving an accuracy of 89.51% on the Arab",
+    "link": "http://arxiv.org/abs/2107.13290",
+    "raw_ret": "{\n    \"translated_title\": \"使用BERT进行阿拉伯语态度情感极性分类\",\n    \"translated_abstract\": \"基于方面的情感分析(ABSA)是一种文本分析方法，它定义了与特定目标相关的某些方面上的意见极性。大多数ABSA研究都是用英语进行的，只有少量的阿拉伯语研究可用。大部分以前的阿拉伯语研究依赖于主要依赖于上下文无关词向量(例如word2vec)的深度学习模型，其中每个词都有一个独立于其上下文的固定表示。本文探讨了预训练语言模型(如BERT)的上下文嵌入的建模能力，并利用句子对输入处理阿拉伯语面向方面的情感极性分类任务。特别地，我们开发了一个简单但有效的基于BERT的神经基线来处理这个任务。根据在三个不同的阿拉伯语数据集上的实验结果，我们的BERT架构与简单的线性分类层超过了现有的最新工作。在阿拉伯国家的三个数据集上达到了89.51%的准确率。\",\n    \"tldr\": \"本文使用BERT进行阿拉伯语态度情感极性分类，在三个不同的阿拉伯语数据集上实验，结果表明该BERT架构与简单的线性分类层超过了现有的最新工作，取得了89.51%的准确率。\"\n}<|im_sep|>",
+    "total_tokens": 885,
+    "ret": {
+        "translated_title": "使用BERT进行阿拉伯语态度情感极性分类",
+        "translated_abstract": "基于方面的情感分析(ABSA)是一种文本分析方法，它定义了与特定目标相关的某些方面上的意见极性。大多数ABSA研究都是用英语进行的，只有少量的阿拉伯语研究可用。大部分以前的阿拉伯语研究依赖于主要依赖于上下文无关词向量(例如word2vec)的深度学习模型，其中每个词都有一个独立于其上下文的固定表示。本文探讨了预训练语言模型(如BERT)的上下文嵌入的建模能力，并利用句子对输入处理阿拉伯语面向方面的情感极性分类任务。特别地，我们开发了一个简单但有效的基于BERT的神经基线来处理这个任务。根据在三个不同的阿拉伯语数据集上的实验结果，我们的BERT架构与简单的线性分类层超过了现有的最新工作。在阿拉伯国家的三个数据集上达到了89.51%的准确率。",
+        "tldr": "本文使用BERT进行阿拉伯语态度情感极性分类，在三个不同的阿拉伯语数据集上实验，结果表明该BERT架构与简单的线性分类层超过了现有的最新工作，取得了89.51%的准确率。"
+    }
+}

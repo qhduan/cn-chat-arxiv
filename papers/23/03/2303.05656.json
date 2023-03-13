@@ -1,0 +1,12 @@
+{
+    "title": "EHRDiff: Exploring Realistic EHR Synthesis with Diffusion Models. (arXiv:2303.05656v1 [cs.LG])",
+    "abstract": "Electronic health records (EHR) contain vast biomedical knowledge and are rich resources for developing precise medicine systems. However, due to privacy concerns, there are limited high-quality EHR data accessible to researchers hence hindering the advancement of methodologies. Recent research has explored using generative modelling methods to synthesize realistic EHR data, and most proposed methods are based on the generative adversarial network (GAN) and its variants for EHR synthesis. Although GAN-style methods achieved state-of-the-art performance in generating high-quality EHR data, such methods are hard to train and prone to mode collapse. Diffusion models are recently proposed generative modelling methods and set cutting-edge performance in image generation. The performance of diffusion models in realistic EHR synthesis is rarely explored. In this work, we explore whether the superior performance of diffusion models can translate to the domain of EHR synthesis and propose a nov",
+    "link": "http://arxiv.org/abs/2303.05656",
+    "raw_ret": "{\n    \"translated_title\": \"EHRDiff: 探索使用扩散模型进行现实EHR综合\",\n    \"translated_abstract\": \"电子病历包含了广泛的生物医学知识，是开发精确医学系统的丰富资源。然而，由于隐私问题，对于研究人员而言，可获得的高质量EHR数据有限，从而阻碍了方法的进步。最近的研究探讨了使用生成建模方法来综合逼真的EHR数据，大多数提出的方法都是基于生成敌对网络（GAN）及其变种进行EHR综合。虽然GAN风格的方法在生成高质量EHR数据方面取得了最先进的性能，但这些方法难以训练且容易产生模式崩溃。扩散模型是最近提出的生成建模方法，在图像生成方面取得了尖端性能。扩散模型在逼真的EHR综合方面的性能很少被探索。在这项工作中，我们探讨了扩散模型卓越的性能能否转化到EHR综合领域，并提出了一种新的方法\",\n    \"tldr\": \"本文探讨了使用扩散模型进行EHR综合，并提出了一种新的方法，以应对高质量EHR数据难以获取的问题\"\n}",
+    "total_tokens": 851,
+    "ret": {
+        "translated_title": "EHRDiff: 探索使用扩散模型进行现实EHR综合",
+        "translated_abstract": "电子病历包含了广泛的生物医学知识，是开发精确医学系统的丰富资源。然而，由于隐私问题，对于研究人员而言，可获得的高质量EHR数据有限，从而阻碍了方法的进步。最近的研究探讨了使用生成建模方法来综合逼真的EHR数据，大多数提出的方法都是基于生成敌对网络（GAN）及其变种进行EHR综合。虽然GAN风格的方法在生成高质量EHR数据方面取得了最先进的性能，但这些方法难以训练且容易产生模式崩溃。扩散模型是最近提出的生成建模方法，在图像生成方面取得了尖端性能。扩散模型在逼真的EHR综合方面的性能很少被探索。在这项工作中，我们探讨了扩散模型卓越的性能能否转化到EHR综合领域，并提出了一种新的方法",
+        "tldr": "本文探讨了使用扩散模型进行EHR综合，并提出了一种新的方法，以应对高质量EHR数据难以获取的问题"
+    }
+}

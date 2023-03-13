@@ -1,0 +1,12 @@
+{
+    "title": "Clustering with minimum spanning trees: How good can it be?. (arXiv:2303.05679v1 [stat.ML])",
+    "abstract": "Minimum spanning trees (MSTs) provide a convenient representation of datasets in numerous pattern recognition activities. Moreover, they are relatively fast to compute. In this paper, we quantify the extent to which they can be meaningful in data clustering tasks. By identifying the upper bounds for the agreement between the best (oracle) algorithm and the expert labels from a large battery of benchmark data, we discover that MST methods can overall be very competitive. Next, instead of proposing yet another algorithm that performs well on a limited set of examples, we review, study, extend, and generalise existing, the state-of-the-art MST-based partitioning schemes, which leads to a few new and interesting approaches. It turns out that the Genie method and the information-theoretic approaches often outperform the non-MST algorithms such as k-means, Gaussian mixtures, spectral clustering, BIRCH, and classical hierarchical agglomerative procedures.",
+    "link": "http://arxiv.org/abs/2303.05679",
+    "raw_ret": "{\n    \"translated_title\": \"最小生成树聚类：它有多好？\",\n    \"translated_abstract\": \"最小生成树(MSTs)在众多模式识别任务中提供了数据集的方便表示，而且它们的计算速度相对较快。本文量化了它们在数据聚类任务中的意义。通过从大量基准数据的最佳(oracle)算法和专家标签之间确定的协议上限，我们发现MST方法总体上非常有竞争力。接下来，我们没有提出另一个只在有限的示例集上表现良好的算法，而是回顾、研究、扩展和概括现有的最先进的基于MST的分区方案，从而得到了一些新的有趣方法。结果表明，Genie方法和信息理论方法通常优于非MST算法，如k-means、高斯混合、谱聚类、BIRCH和经典的分层聚合过程。\",\n    \"tldr\": \"本文研究了最小生成树聚类在数据聚类任务中的表现，并发现MST方法总体上非常有竞争力。通过回顾、研究、扩展和概括现有的最先进的基于MST的分区方案，得到了一些新的有趣方法，其中Genie方法和信息理论方法通常优于非MST算法。\"\n}",
+    "total_tokens": 852,
+    "ret": {
+        "translated_title": "最小生成树聚类：它有多好？",
+        "translated_abstract": "最小生成树(MSTs)在众多模式识别任务中提供了数据集的方便表示，而且它们的计算速度相对较快。本文量化了它们在数据聚类任务中的意义。通过从大量基准数据的最佳(oracle)算法和专家标签之间确定的协议上限，我们发现MST方法总体上非常有竞争力。接下来，我们没有提出另一个只在有限的示例集上表现良好的算法，而是回顾、研究、扩展和概括现有的最先进的基于MST的分区方案，从而得到了一些新的有趣方法。结果表明，Genie方法和信息理论方法通常优于非MST算法，如k-means、高斯混合、谱聚类、BIRCH和经典的分层聚合过程。",
+        "tldr": "本文研究了最小生成树聚类在数据聚类任务中的表现，并发现MST方法总体上非常有竞争力。通过回顾、研究、扩展和概括现有的最先进的基于MST的分区方案，得到了一些新的有趣方法，其中Genie方法和信息理论方法通常优于非MST算法。"
+    }
+}

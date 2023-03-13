@@ -1,0 +1,12 @@
+{
+    "title": "GATOR: Graph-Aware Transformer with Motion-Disentangled Regression for Human Mesh Recovery from a 2D Pose. (arXiv:2303.05652v1 [cs.CV])",
+    "abstract": "3D human mesh recovery from a 2D pose plays an important role in various applications. However, it is hard for existing methods to simultaneously capture the multiple relations during the evolution from skeleton to mesh, including joint-joint, joint-vertex and vertex-vertex relations, which often leads to implausible results. To address this issue, we propose a novel solution, called GATOR, that contains an encoder of Graph-Aware Transformer (GAT) and a decoder with Motion-Disentangled Regression (MDR) to explore these multiple relations. Specifically, GAT combines a GCN and a graph-aware self-attention in parallel to capture physical and hidden joint-joint relations. Furthermore, MDR models joint-vertex and vertex-vertex interactions to explore joint and vertex relations. Based on the clustering characteristics of vertex offset fields, MDR regresses the vertices by composing the predicted base motions. Extensive experiments show that GATOR achieves state-of-the-art performance on two ",
+    "link": "http://arxiv.org/abs/2303.05652",
+    "raw_ret": "{\n    \"translated_title\": \"使用图形感知变压器和运动解耦回归进行人体网格从2D姿势中恢复\",\n    \"translated_abstract\": \"从2D姿势中恢复3D人体网格在各种应用中起着重要作用。 但是，现有方法很难同时捕获从骨架到网格的多个关系，包括关节-关节，关节-顶点和顶点-顶点关系，这经常导致不切实际的结果。 为了解决这个问题，我们提出了一种新的解决方案，称为GATOR，其中包含一个图形感知变压器（GAT）的编码器和具有运动解耦回归（MDR）的解码器，以探索这些多个关系。 具体而言，GAT并行组合了GCN和图形感知的自我注意力，以捕获物理和隐藏的关节-关节关系。 此外，MDR通过模拟关节和顶点关系来探索关节-顶点和顶点-顶点交互作用。 基于顶点偏移场的聚类特征，MDR通过组合预测的基本运动来回归顶点。 大量实验表明，GATOR在两个数据集上实现了最先进的性能。\",\n    \"tldr\": \"GATOR提出了一种新的方法来捕捉从骨架到网格的多个关系，包括关节-关节，关节-顶点和顶点-顶点关系，并利用运动解耦回归来探索关节和顶点关系。GATOR在两个数据集上实现了最先进的性能。\"\n}<|im_sep|>",
+    "total_tokens": 961,
+    "ret": {
+        "translated_title": "使用图形感知变压器和运动解耦回归进行人体网格从2D姿势中恢复",
+        "translated_abstract": "从2D姿势中恢复3D人体网格在各种应用中起着重要作用。 但是，现有方法很难同时捕获从骨架到网格的多个关系，包括关节-关节，关节-顶点和顶点-顶点关系，这经常导致不切实际的结果。 为了解决这个问题，我们提出了一种新的解决方案，称为GATOR，其中包含一个图形感知变压器（GAT）的编码器和具有运动解耦回归（MDR）的解码器，以探索这些多个关系。 具体而言，GAT并行组合了GCN和图形感知的自我注意力，以捕获物理和隐藏的关节-关节关系。 此外，MDR通过模拟关节和顶点关系来探索关节-顶点和顶点-顶点交互作用。 基于顶点偏移场的聚类特征，MDR通过组合预测的基本运动来回归顶点。 大量实验表明，GATOR在两个数据集上实现了最先进的性能。",
+        "tldr": "GATOR提出了一种新的方法来捕捉从骨架到网格的多个关系，包括关节-关节，关节-顶点和顶点-顶点关系，并利用运动解耦回归来探索关节和顶点关系。GATOR在两个数据集上实现了最先进的性能。"
+    }
+}

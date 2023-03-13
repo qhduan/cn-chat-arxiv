@@ -1,0 +1,12 @@
+{
+    "title": "Tactile-Filter: Interactive Tactile Perception for Part Mating. (arXiv:2303.06034v1 [cs.RO])",
+    "abstract": "Humans rely on touch and tactile sensing for a lot of dexterous manipulation tasks. Our tactile sensing provides us with a lot of information regarding contact formations as well as geometric information about objects during any interaction. With this motivation, vision-based tactile sensors are being widely used for various robotic perception and control tasks. In this paper, we present a method for interactive perception using vision-based tactile sensors for multi-object assembly. In particular, we are interested in tactile perception during part mating, where a robot can use tactile sensors and a feedback mechanism using particle filter to incrementally improve its estimate of objects that fit together for assembly. To do this, we first train a deep neural network that makes use of tactile images to predict the probabilistic correspondence between arbitrarily shaped objects that fit together. The trained model is used to design a particle filter which is used twofold. First, given ",
+    "link": "http://arxiv.org/abs/2303.06034",
+    "raw_ret": "{\n    \"translated_title\": \"Tactile-Filter: 用于配件组装的交互式触觉感知\",\n    \"translated_abstract\": \"人们依赖触觉和触觉传感器完成许多熟练的操作任务。 触觉传感器为我们提供了许多关于接触形态以及在任何交互期间关于对象的几何信息。 凭借这种动力，基于视觉的触觉传感器被广泛用于各种机器人感知和控制任务中。在本文中，我们提出了一种使用基于视觉的触觉传感器进行多对象组装的交互式感知方法。特别是，我们对零件组装过程中的触觉感知感兴趣，其中机器人可以使用触觉传感器和使用粒子滤波器的反馈机制逐步改进其对适合组装的对象的估计。为此，我们首先训练了一个深度神经网络，利用触觉图像来预测彼此契合的任意形状对象之间的概率对应关系。训练好的模型用于设计粒子滤波器，其具有两个用途。 首先，给定\",\n    \"tldr\": \"本文提出了一种使用基于视觉的触觉传感器进行多对象组装的交互式感知方法，其中机器人使用触觉传感器和使用粒子滤波器的反馈机制逐步改进其对适合组装的对象的估计。\"\n}",
+    "total_tokens": 891,
+    "ret": {
+        "translated_title": "Tactile-Filter: 用于配件组装的交互式触觉感知",
+        "translated_abstract": "人们依赖触觉和触觉传感器完成许多熟练的操作任务。 触觉传感器为我们提供了许多关于接触形态以及在任何交互期间关于对象的几何信息。 凭借这种动力，基于视觉的触觉传感器被广泛用于各种机器人感知和控制任务中。在本文中，我们提出了一种使用基于视觉的触觉传感器进行多对象组装的交互式感知方法。特别是，我们对零件组装过程中的触觉感知感兴趣，其中机器人可以使用触觉传感器和使用粒子滤波器的反馈机制逐步改进其对适合组装的对象的估计。为此，我们首先训练了一个深度神经网络，利用触觉图像来预测彼此契合的任意形状对象之间的概率对应关系。训练好的模型用于设计粒子滤波器，其具有两个用途。 首先，给定",
+        "tldr": "本文提出了一种使用基于视觉的触觉传感器进行多对象组装的交互式感知方法，其中机器人使用触觉传感器和使用粒子滤波器的反馈机制逐步改进其对适合组装的对象的估计。"
+    }
+}

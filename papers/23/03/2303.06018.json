@@ -1,0 +1,12 @@
+{
+    "title": "Hierarchical Neural Program Synthesis. (arXiv:2303.06018v1 [cs.SE])",
+    "abstract": "Program synthesis aims to automatically construct human-readable programs that satisfy given task specifications, such as input/output pairs or demonstrations. Recent works have demonstrated encouraging results in a variety of domains, such as string transformation, tensor manipulation, and describing behaviors of embodied agents. Most existing program synthesis methods are designed to synthesize programs from scratch, generating a program token by token, line by line. This fundamentally prevents these methods from scaling up to synthesize programs that are longer or more complex. In this work, we present a scalable program synthesis framework that instead synthesizes a program by hierarchically composing programs. Specifically, we first learn a task embedding space and a program decoder that can decode a task embedding into a program. Then, we train a high-level module to comprehend the task specification (e.g., input/output pairs or demonstrations) from long programs and produce a se",
+    "link": "http://arxiv.org/abs/2303.06018",
+    "raw_ret": "{\n    \"translated_title\": \"分层神经程序合成\",\n    \"translated_abstract\": \"程序合成旨在自动构建满足给定任务规范（例如输入/输出对或演示）的人类可读程序。最近的研究在各种领域取得了令人鼓舞的成果，如字符串转换、张量操作和描述具体化身代理的行为。大多数现有的程序合成方法都是从头开始合成程序，逐个令牌、逐行生成程序。这从根本上阻止了这些方法扩展到合成更长或更复杂的程序。在这项工作中，我们提出了一个可扩展的程序合成框架，该框架通过分层组合程序来合成程序。具体而言，我们首先学习任务嵌入空间和程序解码器，该解码器可以将任务嵌入解码为程序。然后，我们训练一个高层模块，以理解来自长程序的任务规范（例如输入/输出对或演示）并生成程序。\",\n    \"tldr\": \"本研究提出了一种分层组合程序来合成程序的可扩展程序合成框架，这能够避免从头合成长或更复杂的程序。\"\n}",
+    "total_tokens": 789,
+    "ret": {
+        "translated_title": "分层神经程序合成",
+        "translated_abstract": "程序合成旨在自动构建满足给定任务规范（例如输入/输出对或演示）的人类可读程序。最近的研究在各种领域取得了令人鼓舞的成果，如字符串转换、张量操作和描述具体化身代理的行为。大多数现有的程序合成方法都是从头开始合成程序，逐个令牌、逐行生成程序。这从根本上阻止了这些方法扩展到合成更长或更复杂的程序。在这项工作中，我们提出了一个可扩展的程序合成框架，该框架通过分层组合程序来合成程序。具体而言，我们首先学习任务嵌入空间和程序解码器，该解码器可以将任务嵌入解码为程序。然后，我们训练一个高层模块，以理解来自长程序的任务规范（例如输入/输出对或演示）并生成程序。",
+        "tldr": "本研究提出了一种分层组合程序来合成程序的可扩展程序合成框架，这能够避免从头合成长或更复杂的程序。"
+    }
+}

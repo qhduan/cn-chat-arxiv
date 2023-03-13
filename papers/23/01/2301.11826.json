@@ -1,0 +1,12 @@
+{
+    "title": "Deep Clustering Survival Machines with Interpretable Expert Distributions. (arXiv:2301.11826v3 [cs.LG] UPDATED)",
+    "abstract": "Conventional survival analysis methods are typically ineffective to characterize heterogeneity in the population while such information can be used to assist predictive modeling. In this study, we propose a hybrid survival analysis method, referred to as deep clustering survival machines, that combines the discriminative and generative mechanisms. Similar to the mixture models, we assume that the timing information of survival data is generatively described by a mixture of certain numbers of parametric distributions, i.e., expert distributions. We learn weights of the expert distributions for individual instances according to their features discriminatively such that each instance's survival information can be characterized by a weighted combination of the learned constant expert distributions. This method also facilitates interpretable subgrouping/clustering of all instances according to their associated expert distributions. Extensive experiments on both real and synthetic datasets h",
+    "link": "http://arxiv.org/abs/2301.11826",
+    "raw_ret": "{\n    \"translated_title\": \"具有可解释专家分布的深度聚类生存机器\",\n    \"translated_abstract\": \"传统的生存分析方法通常无法表征人口中的异质性，而这样的信息可以用于辅助预测建模。在本研究中，我们提出了一种混合生存分析方法，称为深度聚类生存机器，它结合了判别和生成机制。与混合模型类似，我们假设生存数据的时间信息由一些参数分布的混合，即专家分布，进行生成描述。我们通过区分地按其特征学习专家分布的权重，以使每个实例的生存信息可以被学习到的常数专家分布的加权组合表征。该方法还便于根据其相关的专家分布对所有实例进行可解释的子群/聚类。在真实和合成数据集上进行了大量实验。\",\n    \"tldr\": \"本研究提出了一种深度聚类生存机器方法，结合了判别和生成机制，通过区分地按其特征学习专家分布的权重对实例进行加权组合，便于根据其相关的专家分布对所有实例进行可解释的子群/聚类。\"\n}",
+    "total_tokens": 794,
+    "ret": {
+        "translated_title": "具有可解释专家分布的深度聚类生存机器",
+        "translated_abstract": "传统的生存分析方法通常无法表征人口中的异质性，而这样的信息可以用于辅助预测建模。在本研究中，我们提出了一种混合生存分析方法，称为深度聚类生存机器，它结合了判别和生成机制。与混合模型类似，我们假设生存数据的时间信息由一些参数分布的混合，即专家分布，进行生成描述。我们通过区分地按其特征学习专家分布的权重，以使每个实例的生存信息可以被学习到的常数专家分布的加权组合表征。该方法还便于根据其相关的专家分布对所有实例进行可解释的子群/聚类。在真实和合成数据集上进行了大量实验。",
+        "tldr": "本研究提出了一种深度聚类生存机器方法，结合了判别和生成机制，通过区分地按其特征学习专家分布的权重对实例进行加权组合，便于根据其相关的专家分布对所有实例进行可解释的子群/聚类。"
+    }
+}

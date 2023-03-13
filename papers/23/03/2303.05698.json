@@ -1,0 +1,12 @@
+{
+    "title": "Fairness-enhancing deep learning for ride-hailing demand prediction. (arXiv:2303.05698v1 [cs.LG])",
+    "abstract": "Short-term demand forecasting for on-demand ride-hailing services is one of the fundamental issues in intelligent transportation systems. However, previous travel demand forecasting research predominantly focused on improving prediction accuracy, ignoring fairness issues such as systematic underestimations of travel demand in disadvantaged neighborhoods. This study investigates how to measure, evaluate, and enhance prediction fairness between disadvantaged and privileged communities in spatial-temporal demand forecasting of ride-hailing services. A two-pronged approach is taken to reduce the demand prediction bias. First, we develop a novel deep learning model architecture, named socially aware neural network (SA-Net), to integrate the socio-demographics and ridership information for fair demand prediction through an innovative socially-aware convolution operation. Second, we propose a bias-mitigation regularization method to mitigate the mean percentage prediction error gap between di",
+    "link": "http://arxiv.org/abs/2303.05698",
+    "raw_ret": "{\n    \"translated_title\": \"基于公平性的深度学习骑行需求预测\",\n    \"translated_abstract\": \"即时骑行叫车服务短期需求预测是智能交通系统中的基本问题之一。然而，以前的出行需求预测研究主要集中在提高预测准确性上，忽略了公平性问题，例如在劣势社区系统性低估旅行需求。本研究探讨如何测量、评估和增强在空间时间骑行服务需求预测中劣势社区和特权社区之间的预测公平性。我们采用双管齐下的方法来减少预测偏差。首先，我们开发了一种新颖的深度学习模型体系结构，命名为社会意识神经网络（SA-Net），通过一种创新的社会感知卷积操作，将社会人口统计信息和乘车信息整合到公平的需求预测中。其次，我们提出了一种偏差缓解正则化方法，以减少平均百分比预测误差差距。\",\n    \"tldr\": \"该论文提出了一个两方面的方法来缩小 disadvantaged 和 privileged communities 之间的预测偏差。首先，提出了一个新型的深度学习模型来整合社会和乘车信息以提高公平的预测准确性。其次，提出了一种偏差缓解正则化方法来减少预测误差。\"\n}",
+    "total_tokens": 884,
+    "ret": {
+        "translated_title": "基于公平性的深度学习骑行需求预测",
+        "translated_abstract": "即时骑行叫车服务短期需求预测是智能交通系统中的基本问题之一。然而，以前的出行需求预测研究主要集中在提高预测准确性上，忽略了公平性问题，例如在劣势社区系统性低估旅行需求。本研究探讨如何测量、评估和增强在空间时间骑行服务需求预测中劣势社区和特权社区之间的预测公平性。我们采用双管齐下的方法来减少预测偏差。首先，我们开发了一种新颖的深度学习模型体系结构，命名为社会意识神经网络（SA-Net），通过一种创新的社会感知卷积操作，将社会人口统计信息和乘车信息整合到公平的需求预测中。其次，我们提出了一种偏差缓解正则化方法，以减少平均百分比预测误差差距。",
+        "tldr": "该论文提出了一个两方面的方法来缩小 disadvantaged 和 privileged communities 之间的预测偏差。首先，提出了一个新型的深度学习模型来整合社会和乘车信息以提高公平的预测准确性。其次，提出了一种偏差缓解正则化方法来减少预测误差。"
+    }
+}

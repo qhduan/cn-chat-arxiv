@@ -1,0 +1,12 @@
+{
+    "title": "An Overview on Language Models: Recent Developments and Outlook. (arXiv:2303.05759v1 [cs.CL])",
+    "abstract": "Language modeling studies the probability distributions over strings of texts. It is one of the most fundamental tasks in natural language processing (NLP). It has been widely used in text generation, speech recognition, machine translation, etc. Conventional language models (CLMs) aim to predict the probability of linguistic sequences in a causal manner. In contrast, pre-trained language models (PLMs) cover broader concepts and can be used in both causal sequential modeling and fine-tuning for downstream applications. PLMs have their own training paradigms (usually self-supervised) and serve as foundation models in modern NLP systems. This overview paper provides an introduction to both CLMs and PLMs from five aspects, i.e., linguistic units, structures, training methods, evaluation methods, and applications. Furthermore, we discuss the relationship between CLMs and PLMs and shed light on the future directions of language modeling in the pre-trained era.",
+    "link": "http://arxiv.org/abs/2303.05759",
+    "raw_ret": "{\n    \"translated_title\": \"语言模型综述：最新发展和展望\",\n    \"translated_abstract\": \"语言建模研究文本串上的概率分布。这是自然语言处理中最基本的任务之一，已被广泛用于文本生成、语音识别、机器翻译等。传统语言模型（CLM）旨在以因果方式预测语言序列的概率。相比之下，预训练语言模型（PLMs）涵盖更广泛的概念，并可用于因果序列建模和下游应用的微调。PLMs具有自己的训练范式（通常是自我监督）并在现代NLP系统中充当基础模型。本综述论文从语言单元、结构、训练方法、评估方法和应用五个方面介绍了CLMs和PLMs，讨论了CLMs和PLMs之间的关系，并展望了预训练时代语言建模的未来方向。\",\n    \"tldr\": \"本论文从五个方面介绍了传统语言模型和预训练语言模型，讨论了两者之间的关系，并展望了预训练时代语言建模的未来方向。\"\n}",
+    "total_tokens": 806,
+    "ret": {
+        "translated_title": "语言模型综述：最新发展和展望",
+        "translated_abstract": "语言建模研究文本串上的概率分布。这是自然语言处理中最基本的任务之一，已被广泛用于文本生成、语音识别、机器翻译等。传统语言模型（CLM）旨在以因果方式预测语言序列的概率。相比之下，预训练语言模型（PLMs）涵盖更广泛的概念，并可用于因果序列建模和下游应用的微调。PLMs具有自己的训练范式（通常是自我监督）并在现代NLP系统中充当基础模型。本综述论文从语言单元、结构、训练方法、评估方法和应用五个方面介绍了CLMs和PLMs，讨论了CLMs和PLMs之间的关系，并展望了预训练时代语言建模的未来方向。",
+        "tldr": "本论文从五个方面介绍了传统语言模型和预训练语言模型，讨论了两者之间的关系，并展望了预训练时代语言建模的未来方向。"
+    }
+}

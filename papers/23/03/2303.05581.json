@@ -1,0 +1,12 @@
+{
+    "title": "Open World Classification with Adaptive Negative Samples. (arXiv:2303.05581v1 [cs.CL])",
+    "abstract": "Open world classification is a task in natural language processing with key practical relevance and impact. Since the open or {\\em unknown} category data only manifests in the inference phase, finding a model with a suitable decision boundary accommodating for the identification of known classes and discrimination of the open category is challenging. The performance of existing models is limited by the lack of effective open category data during the training stage or the lack of a good mechanism to learn appropriate decision boundaries. We propose an approach based on \\underline{a}daptive \\underline{n}egative \\underline{s}amples (ANS) designed to generate effective synthetic open category samples in the training stage and without requiring any prior knowledge or external datasets. Empirically, we find a significant advantage in using auxiliary one-versus-rest binary classifiers, which effectively utilize the generated negative samples and avoid the complex threshold-seeking stage in pr",
+    "link": "http://arxiv.org/abs/2303.05581",
+    "raw_ret": "{\n    \"translated_title\": \"自适应负样本的开放世界分类\",\n    \"translated_abstract\": \"开放世界分类是自然语言处理中具有关键实际意义和影响的任务。由于开放或未知类别数据仅在推断阶段显示，因此寻找具有适当决策边界以容纳已知类别的识别和开放类别的区分的模型具有挑战性。现有模型的性能受到训练阶段缺乏有效的开放类别数据或缺乏学习适当决策边界的良好机制的限制。我们提出了一种基于自适应负样本（ANS）的方法，旨在在培训阶段生成有效的合成开放类别样本，而不需要任何先前的知识或外部数据集。实证结果表明，使用辅助的一对多二进制分类器具有显着优势，这些分类器有效地利用了生成的负样本，并避免了复杂的阈值搜索阶段。\",\n    \"tldr\": \"本文提出了一种基于自适应负样本的方法，旨在在培训阶段生成有效的合成开放类别样本，用于解决开放世界分类任务中的挑战。实证结果表明，使用辅助的一对多二进制分类器具有显着优势。\"\n}<|im_sep|>",
+    "total_tokens": 838,
+    "ret": {
+        "translated_title": "自适应负样本的开放世界分类",
+        "translated_abstract": "开放世界分类是自然语言处理中具有关键实际意义和影响的任务。由于开放或未知类别数据仅在推断阶段显示，因此寻找具有适当决策边界以容纳已知类别的识别和开放类别的区分的模型具有挑战性。现有模型的性能受到训练阶段缺乏有效的开放类别数据或缺乏学习适当决策边界的良好机制的限制。我们提出了一种基于自适应负样本（ANS）的方法，旨在在培训阶段生成有效的合成开放类别样本，而不需要任何先前的知识或外部数据集。实证结果表明，使用辅助的一对多二进制分类器具有显着优势，这些分类器有效地利用了生成的负样本，并避免了复杂的阈值搜索阶段。",
+        "tldr": "本文提出了一种基于自适应负样本的方法，旨在在培训阶段生成有效的合成开放类别样本，用于解决开放世界分类任务中的挑战。实证结果表明，使用辅助的一对多二进制分类器具有显着优势。"
+    }
+}

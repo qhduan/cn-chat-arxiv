@@ -1,0 +1,12 @@
+{
+    "title": "Guaranteed Conformance of Neurosymbolic Models to Natural Constraints. (arXiv:2212.01346v6 [cs.LG] UPDATED)",
+    "abstract": "Deep neural networks have emerged as the workhorse for a large section of robotics and control applications, especially as models for dynamical systems. Such data-driven models are in turn used for designing and verifying autonomous systems. This is particularly useful in modeling medical systems where data can be leveraged to individualize treatment. In safety-critical applications, it is important that the data-driven model is conformant to established knowledge from the natural sciences. Such knowledge is often available or can often be distilled into a (possibly black-box) model $M$. For instance, the unicycle model (which encodes Newton's laws) for an F1 racing car. In this light, we consider the following problem - given a model $M$ and state transition dataset, we wish to best approximate the system model while being bounded distance away from $M$. We propose a method to guarantee this conformance. Our first step is to distill the dataset into few representative samples called m",
+    "link": "http://arxiv.org/abs/2212.01346",
+    "raw_ret": "{\n    \"translated_title\": \"神经符号模型与自然约束的可保证一致性\",\n    \"translated_abstract\": \"深度神经网络已成为大多数机器人和控制应用的工作马。这样的数据驱动模型又被用于设计和验证自主系统。这在医学系统建模中尤其有用，因为可以利用数据来个性化治疗。在安全关键应用中，数据驱动模型符合自然科学的已知知识至关重要。这种知识通常是可用的，或者可以被提炼成一个（可能是黑匣子）模型M。例如，F1赛车的单轮模型（编码牛顿定律）。在这种情况下，我们考虑以下问题-给定模型M和状态转换数据集，我们希望在与M有界距离的同时最佳地近似系统模型。我们提出了一种方法来保证这种一致性。我们的第一步是将数据集提炼为称为m的少数代表样本\",\n    \"tldr\": \"该论文提出了一种方法来保证神经符号模型符合自然科学的已知知识，该方法可将数据集提炼为称为m的少数代表样本\"\n}",
+    "total_tokens": 818,
+    "ret": {
+        "translated_title": "神经符号模型与自然约束的可保证一致性",
+        "translated_abstract": "深度神经网络已成为大多数机器人和控制应用的工作马。这样的数据驱动模型又被用于设计和验证自主系统。这在医学系统建模中尤其有用，因为可以利用数据来个性化治疗。在安全关键应用中，数据驱动模型符合自然科学的已知知识至关重要。这种知识通常是可用的，或者可以被提炼成一个（可能是黑匣子）模型M。例如，F1赛车的单轮模型（编码牛顿定律）。在这种情况下，我们考虑以下问题-给定模型M和状态转换数据集，我们希望在与M有界距离的同时最佳地近似系统模型。我们提出了一种方法来保证这种一致性。我们的第一步是将数据集提炼为称为m的少数代表样本",
+        "tldr": "该论文提出了一种方法来保证神经符号模型符合自然科学的已知知识，该方法可将数据集提炼为称为m的少数代表样本"
+    }
+}

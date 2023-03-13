@@ -1,0 +1,12 @@
+{
+    "title": "ReAct: Synergizing Reasoning and Acting in Language Models. (arXiv:2210.03629v3 [cs.CL] UPDATED)",
+    "abstract": "While large language models (LLMs) have demonstrated impressive capabilities across tasks in language understanding and interactive decision making, their abilities for reasoning (e.g. chain-of-thought prompting) and acting (e.g. action plan generation) have primarily been studied as separate topics. In this paper, we explore the use of LLMs to generate both reasoning traces and task-specific actions in an interleaved manner, allowing for greater synergy between the two: reasoning traces help the model induce, track, and update action plans as well as handle exceptions, while actions allow it to interface with external sources, such as knowledge bases or environments, to gather additional information. We apply our approach, named ReAct, to a diverse set of language and decision making tasks and demonstrate its effectiveness over state-of-the-art baselines, as well as improved human interpretability and trustworthiness over methods without reasoning or acting components. Concretely, on ",
+    "link": "http://arxiv.org/abs/2210.03629",
+    "raw_ret": "{\n    \"translated_title\": \"ReAct: 在语言模型中协同推理和行动\",\n    \"translated_abstract\": \"虽然大型语言模型在语言理解和交互式决策方面表现出了令人印象深刻的能力，但它们在推理和行动（例如行动计划生成）方面的能力主要作为单独的主题进行研究。在本文中，我们探讨了使用LLMs以交替方式生成推理跟踪和任务特定的行动的方法，允许两者之间的更大协同作用：推理跟踪有助于模型诱导、跟踪和更新行动计划，并处理异常，而行动允许它与外部来源进行交互，例如知识库或环境，以收集额外的信息。我们将我们的方法命名为ReAct，并将其应用于各种语言和决策任务，并展示其优于最先进的基线方法的效果，以及优于没有推理或行动组件的方法的人类可解释性和可信度提高。具体来说，在\",\n    \"tldr\": \"本文探讨了使用LLMs以交替方式生成推理跟踪和任务特定的行动的方法，允许两者之间的更大协同作用。我们将我们的方法命名为ReAct，并将其应用于各种语言和决策任务，并展示其优于最先进的基线方法的效果，以及优于没有推理或行动组件的方法的人类可解释性和可信度提高。\"\n}",
+    "total_tokens": 897,
+    "ret": {
+        "translated_title": "ReAct: 在语言模型中协同推理和行动",
+        "translated_abstract": "虽然大型语言模型在语言理解和交互式决策方面表现出了令人印象深刻的能力，但它们在推理和行动（例如行动计划生成）方面的能力主要作为单独的主题进行研究。在本文中，我们探讨了使用LLMs以交替方式生成推理跟踪和任务特定的行动的方法，允许两者之间的更大协同作用：推理跟踪有助于模型诱导、跟踪和更新行动计划，并处理异常，而行动允许它与外部来源进行交互，例如知识库或环境，以收集额外的信息。我们将我们的方法命名为ReAct，并将其应用于各种语言和决策任务，并展示其优于最先进的基线方法的效果，以及优于没有推理或行动组件的方法的人类可解释性和可信度提高。具体来说，在",
+        "tldr": "本文探讨了使用LLMs以交替方式生成推理跟踪和任务特定的行动的方法，允许两者之间的更大协同作用。我们将我们的方法命名为ReAct，并将其应用于各种语言和决策任务，并展示其优于最先进的基线方法的效果，以及优于没有推理或行动组件的方法的人类可解释性和可信度提高。"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Hardware Acceleration of Neural Graphics. (arXiv:2303.05735v1 [cs.AR])",
+    "abstract": "Rendering and inverse-rendering algorithms that drive conventional computer graphics have recently been superseded by neural representations (NR). NRs have recently been used to learn the geometric and the material properties of the scenes and use the information to synthesize photorealistic imagery, thereby promising a replacement for traditional rendering algorithms with scalable quality and predictable performance. In this work we ask the question: Does neural graphics (NG) need hardware support? We studied representative NG applications showing that, if we want to render 4k res. at 60FPS there is a gap of 1.5X-55X in the desired performance on current GPUs. For AR/VR applications, there is an even larger gap of 2-4 OOM between the desired performance and the required system power. We identify that the input encoding and the MLP kernels are the performance bottlenecks, consuming 72%,60% and 59% of application time for multi res. hashgrid, multi res. densegrid and low res. densegrid ",
+    "link": "http://arxiv.org/abs/2303.05735",
+    "raw_ret": "{\n    \"translated_title\": \"神经图形的硬件加速\",\n    \"translated_abstract\": \"最近，神经表示法(NR)替代了驱动常规计算机图形的渲染和逆渲染算法。NR最近被用于学习场景的几何和材质特性，并使用这些信息合成逼真的图像，因此承诺用可扩展的质量和可预测的性能替换传统的渲染算法。在这项工作中，我们问一个问题：神经图形(NG)需要硬件支持吗？我们研究了代表性的NG应用程序，显示在当前GPU上渲染4k分辨率需要60FPS的性能差距为1.5X-55X。对于AR/VR应用程序，所需性能和所需系统功率之间的差距甚至更大，为2-4 OOM。我们确定输入编码和MLP内核是性能瓶颈，对于多重哈希网格、多重密集网格和低分辨率密集网格，消耗72%、60%和59%的应用时间。\",\n    \"tldr\": \"本研究发现，如果要在当前GPU上以4k分辨率60FPS渲染神经图形，性能差距为1.5X-55X。对于AR/VR应用程序，性能差距更大，为2-4 OOM。输入编码和MLP内核是性能瓶颈。\"\n}<|im_sep|>",
+    "total_tokens": 881,
+    "ret": {
+        "translated_title": "神经图形的硬件加速",
+        "translated_abstract": "最近，神经表示法(NR)替代了驱动常规计算机图形的渲染和逆渲染算法。NR最近被用于学习场景的几何和材质特性，并使用这些信息合成逼真的图像，因此承诺用可扩展的质量和可预测的性能替换传统的渲染算法。在这项工作中，我们问一个问题：神经图形(NG)需要硬件支持吗？我们研究了代表性的NG应用程序，显示在当前GPU上渲染4k分辨率需要60FPS的性能差距为1.5X-55X。对于AR/VR应用程序，所需性能和所需系统功率之间的差距甚至更大，为2-4 OOM。我们确定输入编码和MLP内核是性能瓶颈，对于多重哈希网格、多重密集网格和低分辨率密集网格，消耗72%、60%和59%的应用时间。",
+        "tldr": "本研究发现，如果要在当前GPU上以4k分辨率60FPS渲染神经图形，性能差距为1.5X-55X。对于AR/VR应用程序，性能差距更大，为2-4 OOM。输入编码和MLP内核是性能瓶颈。"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "title": "MuLTI: Efficient Video-and-Language Understanding with MultiWay-Sampler and Multiple Choice Modeling. (arXiv:2303.05707v1 [cs.CV])",
+    "abstract": "Video-and-language understanding has a variety of applications in the industry, such as video question answering, text-video retrieval and multi-label classification. Existing video-and-language understanding methods generally adopt heavy multi-modal encoders and feature fusion modules, which consume large amounts of GPU memory. Especially, they have difficulty dealing with dense video frames or long text that are prevalent in industrial applications. In this paper, we propose MuLTI, a highly accurate and memory-efficient video-and-language understanding model that achieves efficient and effective feature fusion through feature sampling and attention modules. Therefore, MuLTI can handle longer sequences with limited GPU memory. Then, we introduce an attention-based adapter to the encoders, which finetunes the shallow features to improve the model's performance with low GPU memory consumption. Finally, to further improve the model's performance, we introduce a new pretraining task named",
+    "link": "http://arxiv.org/abs/2303.05707",
+    "raw_ret": "{\n    \"translated_title\": \"MuLTI: 使用多路径取样器和多项选择模型实现高效视频和语言理解\",\n    \"translated_abstract\": \"视频与语言的理解在工业中具有各种应用，例如视频问答、文本-视频检索和多标签分类。现有的视频与语言理解方法通常采用重量级的多模态编码器和特征融合模块，它们消耗大量的GPU内存。特别是在工业应用中，处理密集的视频帧或长文本很困难。本文提出了一个高精度且内存高效的视频和语言理解模型MuLTI，通过特征采样和注意力模块实现了高效且有效的特征融合。因此，MuLTI可以处理较长的序列，并且内存占用较少。然后，我们引入了基于注意力的适配器到编码器中，通过微调浅层特征来提高模型的性能，同时消耗较少的GPU内存。最后，为了进一步提高模型的性能，我们引入了一项新的预训练任务\",\n    \"tldr\": \"本文提出了一个高精度且内存高效的视频和语言理解模型MuLTI，它可以处理较长的序列，并且内存占用较少。MuLTI通过特征采样和注意力模块实现高效且有效的特征融合，引入了基于注意力的适配器和新的预训练任务来提高模型的性能。\"\n}",
+    "total_tokens": 885,
+    "ret": {
+        "translated_title": "MuLTI: 使用多路径取样器和多项选择模型实现高效视频和语言理解",
+        "translated_abstract": "视频与语言的理解在工业中具有各种应用，例如视频问答、文本-视频检索和多标签分类。现有的视频与语言理解方法通常采用重量级的多模态编码器和特征融合模块，它们消耗大量的GPU内存。特别是在工业应用中，处理密集的视频帧或长文本很困难。本文提出了一个高精度且内存高效的视频和语言理解模型MuLTI，通过特征采样和注意力模块实现了高效且有效的特征融合。因此，MuLTI可以处理较长的序列，并且内存占用较少。然后，我们引入了基于注意力的适配器到编码器中，通过微调浅层特征来提高模型的性能，同时消耗较少的GPU内存。最后，为了进一步提高模型的性能，我们引入了一项新的预训练任务",
+        "tldr": "本文提出了一个高精度且内存高效的视频和语言理解模型MuLTI，它可以处理较长的序列，并且内存占用较少。MuLTI通过特征采样和注意力模块实现高效且有效的特征融合，引入了基于注意力的适配器和新的预训练任务来提高模型的性能。"
+    }
+}

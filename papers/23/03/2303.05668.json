@@ -1,0 +1,12 @@
+{
+    "title": "UNFUSED: UNsupervised Finetuning Using SElf supervised Distillation. (arXiv:2303.05668v1 [eess.AS])",
+    "abstract": "In this paper, we introduce UnFuSeD, a novel approach to leverage self-supervised learning and reduce the need for large amounts of labeled data for audio classification. Unlike prior works, which directly fine-tune a self-supervised pre-trained encoder on a target dataset, we use the encoder to generate pseudo-labels for unsupervised fine-tuning before the actual fine-tuning step. We first train an encoder using a novel self-supervised learning algorithm (SSL) on an unlabeled audio dataset. Then, we use that encoder to generate pseudo-labels on our target task dataset via clustering the extracted representations. These pseudo-labels are then used to guide self-distillation on a randomly initialized model, which we call unsupervised fine-tuning. Finally, the resultant encoder is then fine-tuned on our target task dataset. Through UnFuSeD, we propose the first system that moves away from generic SSL paradigms in literature, which pre-train and fine-tune the same encoder, and present a n",
+    "link": "http://arxiv.org/abs/2303.05668",
+    "raw_ret": "{\n    \"translated_title\": \"UNFUSED: 使用自监督蒸馏的无监督微调方法\",\n    \"translated_abstract\": \"本文提出了一种新颖的方法UnFuSeD，利用自监督学习并减少音频分类所需的标记数据量。相比之前的工作，直接在目标数据集上微调自监督预训练的编码器，我们使用编码器通过聚类提取的表征生成伪标签进行无监督微调。这些伪标签然后用于指导随机初始化模型上的自蒸馏。最后，对得到的编码器在目标任务数据集上进行微调。通过UnFuSeD，我们提出了第一个脱离文献中通用自监督学习范例的系统，该范例预训练和微调相同的编码器。\",\n    \"tldr\": \"UnFuSeD是一种使用自监督学习和无监督微调的方法，将自监督学习和无监督微调相结合，使用伪标签进行微调，提出了第一个脱离文献中通用自监督学习范例的系统\"\n}",
+    "total_tokens": 806,
+    "ret": {
+        "translated_title": "UNFUSED: 使用自监督蒸馏的无监督微调方法",
+        "translated_abstract": "本文提出了一种新颖的方法UnFuSeD，利用自监督学习并减少音频分类所需的标记数据量。相比之前的工作，直接在目标数据集上微调自监督预训练的编码器，我们使用编码器通过聚类提取的表征生成伪标签进行无监督微调。这些伪标签然后用于指导随机初始化模型上的自蒸馏。最后，对得到的编码器在目标任务数据集上进行微调。通过UnFuSeD，我们提出了第一个脱离文献中通用自监督学习范例的系统，该范例预训练和微调相同的编码器。",
+        "tldr": "UnFuSeD是一种使用自监督学习和无监督微调的方法，将自监督学习和无监督微调相结合，使用伪标签进行微调，提出了第一个脱离文献中通用自监督学习范例的系统"
+    }
+}

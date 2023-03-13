@@ -1,0 +1,12 @@
+{
+    "title": "Logic Against Bias: Textual Entailment Mitigates Stereotypical Sentence Reasoning. (arXiv:2303.05670v1 [cs.CL])",
+    "abstract": "Due to their similarity-based learning objectives, pretrained sentence encoders often internalize stereotypical assumptions that reflect the social biases that exist within their training corpora. In this paper, we describe several kinds of stereotypes concerning different communities that are present in popular sentence representation models, including pretrained next sentence prediction and contrastive sentence representation models. We compare such models to textual entailment models that learn language logic for a variety of downstream language understanding tasks. By comparing strong pretrained models based on text similarity with textual entailment learning, we conclude that the explicit logic learning with textual entailment can significantly reduce bias and improve the recognition of social communities, without an explicit de-biasing process",
+    "link": "http://arxiv.org/abs/2303.05670",
+    "raw_ret": "{\n    \"translated_title\": \"逻辑打破偏见：文本蕴涵缓解了带有陈规陋习的句子推理。\",\n    \"translated_abstract\": \"由于预训练句子编码器的相似度学习目标，它们经常内化反映其训练语料库中存在的社会偏见的陈规陋习。本文描述了存在于流行句子表示模型中的几种关于不同社区的刻板印象。我们将这样的模型与学习各种下游语言理解任务的文本蕴涵模型进行比较。通过比较基于文本相似度的强预训练模型和文本蕴涵学习，我们得出结论：文本蕴涵的明确逻辑学习可以显著减少偏差，并提高社交社区的识别能力，而无需明确去偏见的过程。\",\n    \"tldr\": \"本文研究了预训练的句子编码器中存在的带有陈规陋习的刻板印象，并比较了与之对应的文本蕴涵模型。研究发现，采用文本蕴涵的明确逻辑学习可以显著减少偏差，并提高社交社区的识别能力，而无需明确去偏见的过程。\"\n}",
+    "total_tokens": 812,
+    "ret": {
+        "translated_title": "逻辑打破偏见：文本蕴涵缓解了带有陈规陋习的句子推理。",
+        "translated_abstract": "由于预训练句子编码器的相似度学习目标，它们经常内化反映其训练语料库中存在的社会偏见的陈规陋习。本文描述了存在于流行句子表示模型中的几种关于不同社区的刻板印象。我们将这样的模型与学习各种下游语言理解任务的文本蕴涵模型进行比较。通过比较基于文本相似度的强预训练模型和文本蕴涵学习，我们得出结论：文本蕴涵的明确逻辑学习可以显著减少偏差，并提高社交社区的识别能力，而无需明确去偏见的过程。",
+        "tldr": "本文研究了预训练的句子编码器中存在的带有陈规陋习的刻板印象，并比较了与之对应的文本蕴涵模型。研究发现，采用文本蕴涵的明确逻辑学习可以显著减少偏差，并提高社交社区的识别能力，而无需明确去偏见的过程。"
+    }
+}

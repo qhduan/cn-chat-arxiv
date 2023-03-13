@@ -1,0 +1,12 @@
+{
+    "title": "DORA: Exploring outlier representations in Deep Neural Networks. (arXiv:2206.04530v2 [cs.LG] UPDATED)",
+    "abstract": "Deep Neural Networks (DNNs) draw their power from the representations they learn. However, while being incredibly effective in learning complex abstractions, they are susceptible to learning malicious concepts, due to the spurious correlations inherent in the training data. So far, existing methods for uncovering such artifactual behavior in trained models focus on finding artifacts in the input data, which requires both availability of a data set and human supervision. In this paper, we introduce DORA (Data-agnOstic Representation Analysis): the first data-agnostic framework for the analysis of the representation space of DNNs. We propose a novel distance measure between representations that utilizes self-explaining capabilities within the network itself without access to any data and quantitatively validate its alignment with human-defined semantic distances. We further demonstrate that this metric could be utilized for the detection of anomalous representations, which may bear a ris",
+    "link": "http://arxiv.org/abs/2206.04530",
+    "raw_ret": "{\n    \"translated_title\": \"DORA：探究深度神经网络中的离群值表示\",\n    \"translated_abstract\": \"深度神经网络（DNN）从学习到的表示中获得了力量。然而，虽然在学习复杂抽象时非常有效，但由于训练数据中固有的虚假关联，它们容易学习到恶意概念。到目前为止，现有的发现训练模型中这种人造行为的方法都集中在发现输入数据中的人造物，这需要数据集的可用性和人工监督。在本文中，我们介绍了DORA（Data-agnostic Representation Analysis）：这是第一个用于分析DNN表示空间的数据不可知框架。我们提出了一种新的表示距离度量方式，利用了网络本身的自我解释能力，无需访问任何数据，并量化验证了其与人定义的语义距离的一致性。我们进一步证明，这种度量方式可用于检测异常表示，这些表示可能带有一定的风险。\",\n    \"tldr\": \"本文提出DORA，这是一个用于分析深度神经网络表示空间的数据不可知框架。我们引入了一种新的距离度量方式，可以用于检测异常表示，而无需访问任何数据集或使用人工监督。\"\n}<|im_sep|>",
+    "total_tokens": 846,
+    "ret": {
+        "translated_title": "DORA：探究深度神经网络中的离群值表示",
+        "translated_abstract": "深度神经网络（DNN）从学习到的表示中获得了力量。然而，虽然在学习复杂抽象时非常有效，但由于训练数据中固有的虚假关联，它们容易学习到恶意概念。到目前为止，现有的发现训练模型中这种人造行为的方法都集中在发现输入数据中的人造物，这需要数据集的可用性和人工监督。在本文中，我们介绍了DORA（Data-agnostic Representation Analysis）：这是第一个用于分析DNN表示空间的数据不可知框架。我们提出了一种新的表示距离度量方式，利用了网络本身的自我解释能力，无需访问任何数据，并量化验证了其与人定义的语义距离的一致性。我们进一步证明，这种度量方式可用于检测异常表示，这些表示可能带有一定的风险。",
+        "tldr": "本文提出DORA，这是一个用于分析深度神经网络表示空间的数据不可知框架。我们引入了一种新的距离度量方式，可以用于检测异常表示，而无需访问任何数据集或使用人工监督。"
+    }
+}
