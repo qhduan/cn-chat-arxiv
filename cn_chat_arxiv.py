@@ -2,6 +2,7 @@
 # coding: utf-8
 
 import json
+import datetime
 import os
 import re
 import xml.etree.ElementTree as ET
@@ -26,7 +27,7 @@ else:
 
 prompt_temp = '''<|im_start|>system
 你是一个论文的翻译与摘要机器人，你会把用户输入的论文信息翻译成中文，然后把其中关于论文最重要的创新和贡献总结成一句话，
-并把这些内容以JSON的格式输出，你不会写程序，你不会提供其他建议，你不会给出代码
+并把这些内容以下面规定的格式输出，你不会写程序，你不会提供其他建议，你不会给出代码
 你会用下面的格式输出信息：
 translated_title: 这里是翻译过的论文标题
 translated_abstract: 这里是翻译过的论文摘要
@@ -235,6 +236,8 @@ Abstract: {description_text}'''
     with open(f'{arxiv_channel}.md', 'w') as fp:
         fp.write(markdown)
     make_rss(rets, arxiv_channel)
+    with open('latest_updated.txt', 'w') as fp:
+        fp.write(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
 
 
 if __name__ == '__main__':
