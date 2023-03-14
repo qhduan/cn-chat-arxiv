@@ -21,6 +21,8 @@ jobs:
       run: |
         pip install -r requirements.txt
     - name: download
+      env:
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       run: |
         python cn_chat_arxiv.py
     - name: Create local changes
