@@ -24,7 +24,7 @@ else:
     exit(1)
 
 
-prompt_temp='''<|im_start|>system
+prompt_temp = '''<|im_start|>system
 你是一个论文的翻译与摘要机器人，你会把用户输入的论文信息翻译成中文，然后把其中关于论文最重要的创新和贡献总结成一句话，
 并把这些内容以JSON的格式输出，你不会写程序，你不会提供其他建议，你不会给出代码
 你会用下面的格式输出信息：
@@ -103,14 +103,15 @@ def make_markdown(rets):
     summary = []
     details = []
     for x in rets:
-        if 'tldr' in x:
+        if 'tldr' in x and 'translated_title' in x and 'translated_abstract' in x:
             ind = len(summary) + 1
             tldr = x['tldr'].replace('\n', ' ')
             en_tldr = x.get('en_tldr', '').replace('\n', ' ')
             summary.append(f"| [^{ind}] | [{clean_title(x['title'])}]({x['link']}) | {tldr} |")
+            tt = x.get('translated_title', '').replace('\n', ' ')
             ta = x.get('translated_abstract', '').replace('\n', ' ')
             a = x['abstract'].replace('\n', ' ')
-            details.append(f"""[^{ind}]: {x['translated_title']}
+            details.append(f"""[^{ind}]: {tt}
 
     {x['title']}
 
@@ -159,7 +160,7 @@ def make_rss(rets, arxiv_channel='cs.AI'):
 
     # Add some items to the channel
     for x in rets:
-        if 'tldr' in x:
+        if 'tldr' in x and 'translated_title' in x and 'translated_abstract' in x:
             item = ET.SubElement(channel, "item")
             item_title = ET.SubElement(item, "title")
             item_title.text = x['tldr']
@@ -168,9 +169,10 @@ def make_rss(rets, arxiv_channel='cs.AI'):
             item_desc = ET.SubElement(item, "description")
 
             ta = x.get('translated_abstract', '').replace('\n', ' ')
+            tt = x.get('translated_title', '').replace('\n', ' ')
             a = x['abstract'].replace('\n', ' ')
             item_desc.text = f"""<p>
-{x['translated_title']}
+{tt}
 </p>
 <p>
 {x['title']}
