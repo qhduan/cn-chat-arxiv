@@ -1,0 +1,23 @@
+# 摘要
+
+| Ref | Title | Summary |
+| --- | --- | --- |
+| [^1] | [A Generalization of the Shortest Path Problem to Graphs with Multiple Edge-Cost Estimates.](http://arxiv.org/abs/2208.11489) | 本文提出了一个广义的加权有向图框架，其中可以多次计算（估计）边缘权重，以提高准确性和运行时间成本，解决了最短路径问题的不确定性。 |
+
+# 详细
+
+[^1]: 具有多个边缘成本估计的图的最短路径问题的推广
+
+    A Generalization of the Shortest Path Problem to Graphs with Multiple Edge-Cost Estimates. (arXiv:2208.11489v3 [cs.DS] UPDATED)
+
+    [http://arxiv.org/abs/2208.11489](http://arxiv.org/abs/2208.11489)
+
+    本文提出了一个广义的加权有向图框架，其中可以多次计算（估计）边缘权重，以提高准确性和运行时间成本，解决了最短路径问题的不确定性。
+
+    This paper presents a generalized framework for weighted directed graphs, where edge weight can be computed (estimated) multiple times, at increasing accuracy and run-time expense, solving the uncertainty of the shortest path problem.
+
+    图中的最短路径问题是AI理论和应用的基石。现有算法通常忽略边缘权重计算时间。在本文中，我们提出了一个广义的加权有向图框架，其中可以多次计算（估计）边缘权重，以提高准确性和运行时间成本。这引发了一个广义的最短路径问题，优化路径成本及其不确定性的不同方面。我们提出了一个完整的任何时候解决方案算法，实证证明了其功效。
+
+    The shortest path problem in graphs is a cornerstone of AI theory and applications. Existing algorithms generally ignore edge weight computation time. In this paper we present a generalized framework for weighted directed graphs, where edge weight can be computed (estimated) multiple times, at increasing accuracy and run-time expense. This raises a generalized shortest path problem that optimize different aspects of path cost and its uncertainty. We present a complete anytime solution algorithm for the generalized problem, and empirically demonstrate its efficacy.
+    
+
