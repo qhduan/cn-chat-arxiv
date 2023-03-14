@@ -1,0 +1,10 @@
+{
+    "title": "Discovering Many Diverse Solutions with Bayesian Optimization. (arXiv:2210.10953v3 [cs.LG] UPDATED)",
+    "abstract": "Bayesian optimization (BO) is a popular approach for sample-efficient optimization of black-box objective functions. While BO has been successfully applied to a wide range of scientific applications, traditional approaches to single-objective BO only seek to find a single best solution. This can be a significant limitation in situations where solutions may later turn out to be intractable. For example, a designed molecule may turn out to violate constraints that can only be reasonably evaluated after the optimization process has concluded. To address this issue, we propose Rank-Ordered Bayesian Optimization with Trust-regions (ROBOT) which aims to find a portfolio of high-performing solutions that are diverse according to a user-specified diversity metric. We evaluate ROBOT on several real-world applications and show that it can discover large sets of high-performing diverse solutions while requiring few additional function evaluations compared to finding a single best solution.",
+    "link": "http://arxiv.org/abs/2210.10953",
+    "total_tokens": 796,
+    "translated_title": "用贝叶斯优化发现多样的解决方案",
+    "translated_abstract": "贝叶斯优化是一种用于黑盒目标函数的高效优化的流行方法。传统的单目标贝叶斯优化方法只寻求找到一个最佳解决方案，这在解决方案后期可能变得棘手的情况下会有很大的局限性。为了解决这个问题，我们提出了一种名为ROBOT的排序贝叶斯优化方法，旨在找到一组高性能、多样化的解决方案，这些解决方案根据用户指定的多样性度量进行排序。我们在几个真实世界的应用中评估了ROBOT，并展示了它可以发现大量高性能的多样化解决方案，同时与寻找单个最佳解决方案相比，需要很少的额外函数评估。",
+    "tldr": "ROBOT是一种新的贝叶斯优化方法，可以找到一组高性能、多样化的解决方案，解决了传统单目标贝叶斯优化方法只能找到一个最佳解决方案的局限性。",
+    "en_tldr": "ROBOT is a new Bayesian optimization method that can find a portfolio of high-performing diverse solutions, addressing the limitation of traditional single-objective Bayesian optimization methods that only seek to find a single best solution."
+}

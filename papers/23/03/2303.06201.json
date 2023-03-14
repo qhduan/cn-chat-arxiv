@@ -1,0 +1,10 @@
+{
+    "title": "Interpretable Joint Event-Particle Reconstruction for Neutrino Physics at NOvA with Sparse CNNs and Transformers. (arXiv:2303.06201v1 [cs.LG])",
+    "abstract": "The complex events observed at the NOvA long-baseline neutrino oscillation experiment contain vital information for understanding the most elusive particles in the standard model. The NOvA detectors observe interactions of neutrinos from the NuMI beam at Fermilab. Associating the particles produced in these interaction events to their source particles, a process known as reconstruction, is critical for accurately measuring key parameters of the standard model. Events may contain several particles, each producing sparse high-dimensional spatial observations, and current methods are limited to evaluating individual particles. To accurately label these numerous, high-dimensional observations, we present a novel neural network architecture that combines the spatial learning enabled by convolutions with the contextual learning enabled by attention. This joint approach, TransformerCVN, simultaneously classifies each event and reconstructs every individual particle's identity. TransformerCVN ",
+    "link": "http://arxiv.org/abs/2303.06201",
+    "total_tokens": 901,
+    "translated_title": "NOvA中基于稀疏CNN和Transformer的可解释联合事件-粒子重建的研究",
+    "translated_abstract": "NOvA长基线中微子振荡实验观测到的复杂事件包含了理解标准模型中最难以捉摸的粒子的重要信息。NOvA探测器观测到来自Fermilab NuMI束流的中微子相互作用。将这些相互作用事件中产生的粒子与它们的源粒子关联起来，即重建，对于准确测量标准模型的关键参数至关重要。事件可能包含多个粒子，每个粒子产生稀疏的高维空间观测数据，当前的方法仅限于评估单个粒子。为了准确标记这些众多的高维观测数据，我们提出了一种新颖的神经网络架构，它将卷积所实现的空间学习与注意力所实现的上下文学习相结合。这种联合方法，TransformerCVN，同时对每个事件进行分类和重建每个单独粒子的身份。",
+    "tldr": "本研究提出了一种新颖的神经网络架构TransformerCVN，将卷积和注意力相结合，实现了对NOvA实验中复杂事件中多个粒子的联合分类和重建，为准确测量标准模型的关键参数提供了重要支持。",
+    "en_tldr": "This study proposes a novel neural network architecture, TransformerCVN, which combines convolution and attention to achieve joint classification and reconstruction of multiple particles in complex events in the NOvA experiment, providing important support for accurately measuring key parameters of the standard model."
+}

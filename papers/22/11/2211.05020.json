@@ -1,0 +1,10 @@
+{
+    "title": "Duality for Neural Networks through Reproducing Kernel Banach Spaces. (arXiv:2211.05020v3 [math.FA] UPDATED)",
+    "abstract": "Reproducing Kernel Hilbert spaces (RKHS) have been a very successful tool in various areas of machine learning. Recently, Barron spaces have been used to prove bounds on the generalisation error for neural networks. Unfortunately, Barron spaces cannot be understood in terms of RKHS due to the strong nonlinear coupling of the weights. This can be solved by using the more general Reproducing Kernel Banach spaces (RKBS). We show that these Barron spaces belong to a class of integral RKBS. This class can also be understood as an infinite union of RKHS spaces. Furthermore, we show that the dual space of such RKBSs, is again an RKBS where the roles of the data and parameters are interchanged, forming an adjoint pair of RKBSs including a reproducing kernel. This allows us to construct the saddle point problem for neural networks, which can be used in the whole field of primal-dual optimisation.",
+    "link": "http://arxiv.org/abs/2211.05020",
+    "total_tokens": 847,
+    "translated_title": "通过再生核Banach空间的神经网络对偶性",
+    "translated_abstract": "再生核希尔伯特空间（RKHS）已经成为机器学习各个领域中非常成功的工具。最近，Barron空间已被用于证明神经网络的泛化误差界限。不幸的是，由于权重的强非线性耦合，Barron空间无法用RKHS的术语理解。这可以通过使用更一般的再生核Banach空间（RKBS）来解决。我们展示了这些Barron空间属于一类积分RKBS。这个类也可以理解为RKHS空间的无限并集。此外，我们展示了这种RKBS的对偶空间，再次是一个RKBS，其中数据和参数的角色互换，形成一个包括再生核的伴随RKBS对。这使我们能够构建神经网络的鞍点问题，可用于原始-对偶优化的整个领域。",
+    "tldr": "本文提出了一种新的再生核Banach空间（RKBS）方法，用于解决神经网络中的对偶性问题，构建了神经网络的鞍点问题，可用于原始-对偶优化的整个领域。",
+    "en_tldr": "This paper proposes a new method using Reproducing Kernel Banach spaces (RKBS) to solve the duality problem in neural networks, constructing the saddle point problem for neural networks, which can be used in the whole field of primal-dual optimization."
+}

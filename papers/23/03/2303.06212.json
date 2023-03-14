@@ -1,0 +1,10 @@
+{
+    "title": "Weighted Notions of Fairness with Binary Supermodular Chores. (arXiv:2303.06212v1 [cs.GT])",
+    "abstract": "We study the problem of allocating indivisible chores among agents with binary supermodular cost functions. In other words, each chore has a marginal cost of $0$ or $1$ and chores exhibit increasing marginal costs (or decreasing marginal utilities). In this note, we combine the techniques of Viswanathan and Zick (2022) and Barman et al. (2023) to present a general framework for fair allocation with this class of valuation functions. Our framework allows us to generalize the results of Barman et al. (2023) and efficiently compute allocations which satisfy weighted notions of fairness like weighted leximin or min weighted $p$-mean malfare for any $p \\ge 1$.",
+    "link": "http://arxiv.org/abs/2303.06212",
+    "total_tokens": 788,
+    "translated_title": "带有二元超模矩阵的公平性加权概念",
+    "translated_abstract": "我们研究了在具有二元超模成本函数的代理之间分配不可分割家务的问题。换句话说，每个家务的边际成本为$0$或$1$，并且家务呈现出递增的边际成本（或递减的边际效用）。在本文中，我们结合了Viswanathan和Zick（2022）以及Barman等人（2023）的技术，提出了一个通用的公平分配框架，适用于这类估值函数。我们的框架允许我们推广Barman等人（2023）的结果，并有效地计算满足加权公平性概念（如加权leximin或min加权$p$-mean malfare，其中$p \\ge 1$）的分配。",
+    "tldr": "本文研究了在具有二元超模成本函数的代理之间分配不可分割家务的问题，并提出了一个通用的公平分配框架，适用于这类估值函数。该框架可以有效地计算满足加权公平性概念的分配。",
+    "en_tldr": "This paper studies the problem of allocating indivisible chores among agents with binary supermodular cost functions and presents a general framework for fair allocation with this class of valuation functions. The framework allows for efficient computation of allocations that satisfy weighted notions of fairness."
+}

@@ -1,0 +1,10 @@
+{
+    "title": "A comprehensive review of Binary Neural Network. (arXiv:2110.06804v4 [cs.NE] UPDATED)",
+    "abstract": "Deep learning (DL) has recently changed the development of intelligent systems and is widely adopted in many real-life applications. Despite their various benefits and potentials, there is a high demand for DL processing in different computationally limited and energy-constrained devices. It is natural to study game-changing technologies such as Binary Neural Networks (BNN) to increase deep learning capabilities. Recently remarkable progress has been made in BNN since they can be implemented and embedded on tiny restricted devices and save a significant amount of storage, computation cost, and energy consumption. However, nearly all BNN acts trade with extra memory, computation cost, and higher performance. This article provides a complete overview of recent developments in BNN. This article focuses exclusively on 1-bit activations and weights 1-bit convolution networks, contrary to previous surveys in which low-bit works are mixed in. It conducted a complete investigation of BNN's dev",
+    "link": "http://arxiv.org/abs/2110.06804",
+    "total_tokens": 882,
+    "translated_title": "二进制神经网络的全面综述",
+    "translated_abstract": "深度学习（DL）最近改变了智能系统的发展，并被广泛应用于许多实际应用中。尽管DL具有各种好处和潜力，但在不同的计算受限和能量受限设备中需要进行DL处理。研究二进制神经网络（BNN）等具有改变游戏规则的技术以增加深度学习能力是很自然的。最近在BNN方面取得了显着进展，因为它们可以在微小的受限设备上实现和嵌入，并节省大量存储、计算成本和能量消耗。然而，几乎所有的BNN行为都会带来额外的内存、计算成本和更高的性能。本文提供了BNN最近发展的完整概述。本文专门关注1位激活和1位卷积网络的权重，与以前的调查混合使用低位作品相反。它对BNN的开发进行了全面调查。",
+    "tldr": "本文全面综述了二进制神经网络的最新发展，重点关注1位激活和1位卷积网络的权重，这些网络可以在微小的受限设备上实现和嵌入，并节省大量存储、计算成本和能量消耗。",
+    "en_tldr": "This article provides a comprehensive overview of recent developments in Binary Neural Networks (BNN), with a focus on 1-bit activations and 1-bit convolution networks. These networks can be implemented and embedded on tiny restricted devices, saving significant storage, computation cost, and energy consumption."
+}

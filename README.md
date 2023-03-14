@@ -10,7 +10,38 @@ https://github.com/qhduan/cn-chat-arxiv/raw/master/cs.AI.xml
 
 ## 领域列表
 
-来源：
+来自arxiv的rss导出
+
+http://export.arxiv.org/rss/{channel}
+
+valid archive names are:
+
+- astro-ph, cond-mat, cs, econ, eess, gr-qc, hep-ex, hep-lat, hep-ph, hep-th
+- math, math-ph, nlin, nucl-ex, nucl-th, physics, q-bio, q-fin, quant-ph, stat.
+
+details:
+
+- astro-ph: Astrophysics, including cosmology, astrophysics of galaxies, stars, the interstellar medium, and other related topics.
+- cond-mat: Condensed Matter Physics, including materials science, soft condensed matter, and other related topics.
+- cs: Computer Science, including artificial intelligence, databases, programming languages, and other related topics.
+- econ: Economics, including economic theory, econometrics, finance, and other related topics.
+- eess: Electrical Engineering and Systems Science, including signal processing, control theory, communication systems, and other related topics.
+- gr-qc: General Relativity and Quantum Cosmology, including theoretical and experimental aspects of gravitational physics and cosmology.
+- hep-ex: High Energy Physics - Experiment, including experimental studies of particle physics.
+- hep-lat: High Energy Physics - Lattice, including lattice field theory, lattice gauge theory, and other related topics.
+- hep-ph: High Energy Physics - Phenomenology, including theoretical and computational studies of particle physics.
+- hep-th: High Energy Physics - Theory, including theoretical studies of particle physics, quantum field theory, and other related topics.
+- math: Mathematics, including algebra, geometry, analysis, number theory, and other related topics.
+- math-ph: Mathematical Physics, including mathematical aspects of classical and quantum physics, statistical mechanics, and other related topics.
+- nlin: Nonlinear Sciences, including chaos theory, fluid dynamics, nonlinear optics, and other related topics.
+- nucl-ex: Nuclear Experiment, including experimental studies of nuclear physics.
+- nucl-th: Nuclear Theory, including theoretical studies of nuclear physics.
+- physics: General Physics, including topics that do not fit into any of the other categories.
+- q-bio: Quantitative Biology, including biological physics, computational biology, and other related topics.
+- q-fin: Quantitative Finance, including mathematical models and computational methods for finance and economics.
+- quant-ph: Quantum Physics, including theoretical and experimental studies of quantum mechanics and quantum information.
+
+### CS的分类
 
 http://export.arxiv.org/rss/cs.{classes}
 

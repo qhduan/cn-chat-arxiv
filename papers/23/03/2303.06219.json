@@ -1,0 +1,10 @@
+{
+    "title": "The Carbon Emissions of Writing and Illustrating Are Lower for AI than for Humans. (arXiv:2303.06219v1 [cs.CY])",
+    "abstract": "As AI systems proliferate, their greenhouse gas emissions are an increasingly important concern for human societies. We analyze the emissions of several AI systems (ChatGPT, BLOOM, DALL-E2, Midjourney) relative to those of humans completing the same tasks. We find that an AI writing a page of text emits 130 to 1500 times less CO2e than a human doing so. Similarly, an AI creating an image emits 310 to 2900 times less. Emissions analysis do not account for social impacts such as professional displacement, legality, and rebound effects. In addition, AI is not a substitute for all human tasks. Nevertheless, at present, the use of AI holds the potential to carry out several major activities at much lower emission levels than can humans.",
+    "link": "http://arxiv.org/abs/2303.06219",
+    "total_tokens": 809,
+    "translated_title": "AI写作和插图的碳排放比人类低",
+    "translated_abstract": "随着AI系统的普及，它们的温室气体排放对人类社会越来越重要。我们分析了几个AI系统（ChatGPT、BLOOM、DALL-E2、Midjourney）相对于人类完成相同任务的排放量。我们发现，一个AI写一页文本排放的二氧化碳当量比一个人少130到1500倍。同样，一个AI创造一张图片排放的二氧化碳当量比人类少310到2900倍。排放分析没有考虑到社会影响，如职业替代、合法性和反弹效应。此外，AI并不能替代所有的人类任务。然而，目前使用AI有可能以比人类更低的排放水平完成几项重要活动。",
+    "tldr": "本文研究了几个AI系统相对于人类完成相同任务的排放量，发现AI写作和插图的碳排放比人类低130到1500倍和310到2900倍，目前使用AI有可能以比人类更低的排放水平完成几项重要活动。",
+    "en_tldr": "This paper analyzes the emissions of several AI systems relative to those of humans completing the same tasks, finding that AI writing and illustrating emit 130 to 1500 times less CO2e and 310 to 2900 times less, respectively. The use of AI holds the potential to carry out several major activities at much lower emission levels than can humans."
+}

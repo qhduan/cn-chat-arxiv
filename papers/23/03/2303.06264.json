@@ -1,0 +1,10 @@
+{
+    "title": "An Interactive UI to Support Sensemaking over Collections of Parallel Texts. (arXiv:2303.06264v1 [cs.HC])",
+    "abstract": "Scientists and science journalists, among others, often need to make sense of a large number of papers and how they compare with each other in scope, focus, findings, or any other important factors. However, with a large corpus of papers, it's cognitively demanding to pairwise compare and contrast them all with each other. Fully automating this review process would be infeasible, because it often requires domain-specific knowledge, as well as understanding what the context and motivations for the review are. While there are existing tools to help with the process of organizing and annotating papers for literature reviews, at the core they still rely on people to serially read through papers and manually make sense of relevant information.  We present AVTALER, which combines peoples' unique skills, contextual awareness, and knowledge, together with the strength of automation. Given a set of comparable text excerpts from a paper corpus, it supports users in sensemaking and contrasting pa",
+    "link": "http://arxiv.org/abs/2303.06264",
+    "total_tokens": 812,
+    "translated_title": "一种支持对平行文本集合进行意义建构的交互式UI",
+    "translated_abstract": "科学家和科学记者等人经常需要理解大量论文及其在范围、重点、发现或其他重要因素方面的比较。然而，对于大量的论文，逐一进行比较和对比是认知上具有挑战性的。完全自动化这个审查过程是不可行的，因为它通常需要领域特定的知识，以及理解审查的背景和动机。虽然有现有的工具来帮助组织和注释文献综述的论文，但它们仍然依赖于人们逐个阅读论文并手动理解相关信息。我们提出了AVTALER，它结合了人们独特的技能、上下文意识和知识，以及自动化的优势。给定一组可比较的文本摘录，它支持用户进行意义建构和对比。",
+    "tldr": "AVTALER是一种交互式UI，结合了人类的独特技能和自动化的优势，支持用户对可比较的文本摘录进行意义建构和对比。",
+    "en_tldr": "AVTALER is an interactive UI that combines human skills and the advantages of automation to support users in sensemaking and contrasting comparable text excerpts."
+}

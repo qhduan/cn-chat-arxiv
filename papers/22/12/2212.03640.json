@@ -1,0 +1,10 @@
+{
+    "title": "Fine-tuned CLIP Models are Efficient Video Learners. (arXiv:2212.03640v2 [cs.CV] UPDATED)",
+    "abstract": "Large-scale multi-modal training with image-text pairs imparts strong generalization to CLIP model. Since training on a similar scale for videos is infeasible, recent approaches focus on the effective transfer of image-based CLIP to the video domain. In this pursuit, new parametric modules are added to learn temporal information and inter-frame relationships which require meticulous design efforts. Furthermore, when the resulting models are learned on videos, they tend to overfit on the given task distribution and lack in generalization aspect. This begs the following question: How to effectively transfer image-level CLIP representations to videos? In this work, we show that a simple Video Fine-tuned CLIP (ViFi-CLIP) baseline is generally sufficient to bridge the domain gap from images to videos. Our qualitative analysis illustrates that the frame-level processing from CLIP image-encoder followed by feature pooling and similarity matching with corresponding text embeddings helps in imp",
+    "link": "http://arxiv.org/abs/2212.03640",
+    "total_tokens": 936,
+    "translated_title": "细调CLIP模型是高效的视频学习器",
+    "translated_abstract": "通过图像-文本对的大规模多模态训练，CLIP模型具有强大的泛化能力。由于在类似规模上对视频进行训练是不可行的，因此最近的方法集中于将基于图像的CLIP有效地转移到视频领域。在这个追求中，添加了新的参数模块来学习时间信息和帧间关系，这需要精心设计。此外，当所得到的模型在视频上进行学习时，它们往往会过度拟合给定的任务分布，并且缺乏泛化方面。这引出了以下问题：如何有效地将图像级别的CLIP表示转移到视频中？在这项工作中，我们展示了一个简单的视频细调CLIP（ViFi-CLIP）基线通常足以弥合从图像到视频的领域差距。我们的定性分析表明，从CLIP图像编码器的帧级处理，接着进行特征池化和与相应文本嵌入的相似度匹配，有助于提高模型的性能。",
+    "tldr": "本文提出了一个简单的视频细调CLIP（ViFi-CLIP）基线，通过从CLIP图像编码器的帧级处理，接着进行特征池化和与相应文本嵌入的相似度匹配，有效地将图像级别的CLIP表示转移到视频中，从而弥合了从图像到视频的领域差距。",
+    "en_tldr": "This paper proposes a simple Video Fine-tuned CLIP (ViFi-CLIP) baseline, which effectively transfers image-level CLIP representations to videos by frame-level processing from CLIP image-encoder followed by feature pooling and similarity matching with corresponding text embeddings, thus bridging the domain gap from images to videos."
+}

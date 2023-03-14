@@ -1,0 +1,10 @@
+{
+    "title": "Egeria: Efficient DNN Training with Knowledge-Guided Layer Freezing. (arXiv:2201.06227v2 [cs.LG] UPDATED)",
+    "abstract": "Training deep neural networks (DNNs) is time-consuming. While most existing solutions try to overlap/schedule computation and communication for efficient training, this paper goes one step further by skipping computing and communication through DNN layer freezing. Our key insight is that the training progress of internal DNN layers differs significantly, and front layers often become well-trained much earlier than deep layers. To explore this, we first introduce the notion of training plasticity to quantify the training progress of internal DNN layers. Then we design Egeria, a knowledge-guided DNN training system that employs semantic knowledge from a reference model to accurately evaluate individual layers' training plasticity and safely freeze the converged ones, saving their corresponding backward computation and communication. Our reference model is generated on the fly using quantization techniques and runs forward operations asynchronously on available CPUs to minimize the overhe",
+    "link": "http://arxiv.org/abs/2201.06227",
+    "total_tokens": 890,
+    "translated_title": "Egeria: 基于知识引导的层冻结技术实现高效DNN训练",
+    "translated_abstract": "训练深度神经网络（DNN）是一项耗时的任务。本文提出了一种基于知识引导的DNN训练系统Egeria，通过跳过DNN层的计算和通信来实现高效训练。我们的关键洞察是，内部DNN层的训练进度存在显著差异，前层通常比深层更早地得到很好的训练。为了探索这一点，我们首先引入了训练可塑性的概念，以量化内部DNN层的训练进度。然后，我们设计了Egeria，一种基于知识引导的DNN训练系统，利用参考模型中的语义知识准确评估单个层的训练可塑性，并安全地冻结已收敛的层，从而节省相应的反向计算和通信。",
+    "tldr": "Egeria是一种基于知识引导的DNN训练系统，通过跳过DNN层的计算和通信来实现高效训练，利用参考模型中的语义知识准确评估单个层的训练可塑性，并安全地冻结已收敛的层，从而节省相应的反向计算和通信。",
+    "en_tldr": "Egeria is a knowledge-guided DNN training system that skips computing and communication through DNN layer freezing, accurately evaluates individual layers' training plasticity using semantic knowledge from a reference model, and safely freezes the converged ones, saving their corresponding backward computation and communication."
+}

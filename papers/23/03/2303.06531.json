@@ -1,0 +1,10 @@
+{
+    "title": "Towards Practical Multi-Robot Hybrid Tasks Allocation for Autonomous Cleaning. (arXiv:2303.06531v1 [cs.RO])",
+    "abstract": "Task allocation plays a vital role in multi-robot autonomous cleaning systems, where multiple robots work together to clean a large area. However, there are several problems in relevant research to date. Most current studies mainly focus on deterministic, single-task allocation for cleaning robots, without considering hybrid tasks in uncertain working environments. Moreover, there is a lack of datasets and benchmarks for relevant research. In this paper, we contribute to multi-robot hybrid-task allocation for uncertain autonomous cleaning systems by addressing these problems. First, we model the uncertainties in the cleaning environment via robust optimization and propose a novel robust mixed-integer linear programming model with practical constraints including hybrid cleaning task order and robot's ability. Second, we establish a dataset of 100 instances made from floor plans, each of which has 2D manually-labeled images and a 3D model. Third, we provide comprehensive results on the c",
+    "link": "http://arxiv.org/abs/2303.06531",
+    "total_tokens": 873,
+    "translated_title": "面向自主清洁的多机器人混合任务分配的实践研究",
+    "translated_abstract": "任务分配在多机器人自主清洁系统中起着至关重要的作用，多个机器人一起工作以清洁大面积区域。然而，迄今为止相关研究存在几个问题。大多数当前研究主要关注于确定性的单任务分配，而不考虑不确定工作环境中的混合任务。此外，缺乏相关研究的数据集和基准。在本文中，我们通过解决这些问题，为不确定的自主清洁系统的多机器人混合任务分配做出了贡献。首先，我们通过鲁棒优化模型来建模清洁环境中的不确定性，并提出了一个新的鲁棒混合整数线性规划模型，其中包括混合清洁任务顺序和机器人的能力等实际约束。其次，我们建立了一个数据集，包括100个实例，每个实例都有2D手动标记的图像和3D模型。第三，我们提供了关于所提出模型的全面结果。",
+    "tldr": "本文提出了一个新的鲁棒混合整数线性规划模型，用于解决多机器人自主清洁系统中的混合任务分配问题，并建立了一个包括100个实例的数据集。",
+    "en_tldr": "This paper proposes a novel robust mixed-integer linear programming model for multi-robot hybrid-task allocation in uncertain autonomous cleaning systems, and establishes a dataset of 100 instances."
+}

@@ -1,0 +1,10 @@
+{
+    "title": "A Dataset for Learning Graph Representations to Predict Customer Returns in Fashion Retail. (arXiv:2302.14096v2 [cs.LG] UPDATED)",
+    "abstract": "We present a novel dataset collected by ASOS (a major online fashion retailer) to address the challenge of predicting customer returns in a fashion retail ecosystem. With the release of this substantial dataset we hope to motivate further collaboration between research communities and the fashion industry. We first explore the structure of this dataset with a focus on the application of Graph Representation Learning in order to exploit the natural data structure and provide statistical insights into particular features within the data. In addition to this, we show examples of a return prediction classification task with a selection of baseline models (i.e. with no intermediate representation learning step) and a graph representation based model. We show that in a downstream return prediction classification task, an F1-score of 0.792 can be found using a Graph Neural Network (GNN), improving upon other models discussed in this work. Alongside this increased F1-score, we also present a l",
+    "link": "http://arxiv.org/abs/2302.14096",
+    "total_tokens": 896,
+    "translated_title": "一份用于学习图表示以预测时尚零售客户退货的数据集",
+    "translated_abstract": "我们提出了一个由ASOS（一家主要的在线时尚零售商）收集的新型数据集，以解决在时尚零售生态系统中预测客户退货的挑战。通过发布这个庞大的数据集，我们希望激发研究社区和时尚行业之间的进一步合作。我们首先探讨了这个数据集的结构，重点关注图表示学习的应用，以利用自然数据结构并提供对数据中特定特征的统计洞察。除此之外，我们展示了一个退货预测分类任务的示例，其中包括一些基线模型（即没有中间表示学习步骤）和基于图表示的模型。我们展示了在下游退货预测分类任务中，使用图神经网络（GNN）可以找到F1分数为0.792，这比本文讨论的其他模型有所改进。除了这个增加的F1分数，我们还提出了一个l",
+    "tldr": "该论文介绍了一个由ASOS收集的新型数据集，用于解决时尚零售生态系统中预测客户退货的挑战。研究者使用图表示学习方法，提高了退货预测分类任务的F1分数至0.792，这比其他模型有所改进。",
+    "en_tldr": "This paper introduces a novel dataset collected by ASOS for predicting customer returns in a fashion retail ecosystem. The researchers use Graph Representation Learning to improve the F1-score of the return prediction classification task to 0.792, outperforming other models."
+}

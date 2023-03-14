@@ -1,0 +1,10 @@
+{
+    "title": "On the Stability Analysis of Open Federated Learning Systems. (arXiv:2209.12307v2 [cs.LG] UPDATED)",
+    "abstract": "We consider the open federated learning (FL) systems, where clients may join and/or leave the system during the FL process. Given the variability of the number of present clients, convergence to a fixed model cannot be guaranteed in open systems. Instead, we resort to a new performance metric that we term the stability of open FL systems, which quantifies the magnitude of the learned model in open systems. Under the assumption that local clients' functions are strongly convex and smooth, we theoretically quantify the radius of stability for two FL algorithms, namely local SGD and local Adam. We observe that this radius relies on several key parameters, including the function condition number as well as the variance of the stochastic gradient. Our theoretical results are further verified by numerical simulations on both synthetic and real-world benchmark data-sets.",
+    "link": "http://arxiv.org/abs/2209.12307",
+    "total_tokens": 823,
+    "translated_title": "开放式联邦学习系统的稳定性分析",
+    "translated_abstract": "我们考虑开放式联邦学习系统，其中客户端可能在联邦学习过程中加入和/或离开系统。由于存在客户端数量的变化，无法保证在开放系统中收敛到固定模型。因此，我们采用一种新的性能度量，称为开放式FL系统的稳定性，它量化了在开放系统中学习模型的大小。在假设本地客户端函数是强凸和平滑的情况下，我们理论上量化了两种FL算法（即本地SGD和本地Adam）的稳定半径。我们观察到，这个半径依赖于几个关键参数，包括函数条件数以及随机梯度的方差。我们的理论结果在合成和真实世界基准数据集上通过数值模拟进一步验证。",
+    "tldr": "本文研究了开放式联邦学习系统的稳定性问题，提出了一种新的性能度量，即开放式FL系统的稳定性，并在假设本地客户端函数是强凸和平滑的情况下，理论上量化了两种FL算法的稳定半径。",
+    "en_tldr": "This paper studies the stability issue of open federated learning systems, proposes a new performance metric, namely the stability of open FL systems, and theoretically quantifies the stability radius of two FL algorithms under the assumption that local clients' functions are strongly convex and smooth."
+}

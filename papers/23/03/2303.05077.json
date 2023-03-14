@@ -1,0 +1,10 @@
+{
+    "title": "Learning the Legibility of Visual Text Perturbations. (arXiv:2303.05077v2 [cs.CL] UPDATED)",
+    "abstract": "Many adversarial attacks in NLP perturb inputs to produce visually similar strings ('ergo' $\\rightarrow$ '$\\epsilon$rgo') which are legible to humans but degrade model performance. Although preserving legibility is a necessary condition for text perturbation, little work has been done to systematically characterize it; instead, legibility is typically loosely enforced via intuitions around the nature and extent of perturbations. Particularly, it is unclear to what extent can inputs be perturbed while preserving legibility, or how to quantify the legibility of a perturbed string. In this work, we address this gap by learning models that predict the legibility of a perturbed string, and rank candidate perturbations based on their legibility. To do so, we collect and release LEGIT, a human-annotated dataset comprising the legibility of visually perturbed text. Using this dataset, we build both text- and vision-based models which achieve up to $0.91$ F1 score in predicting whether an input",
+    "link": "http://arxiv.org/abs/2303.05077",
+    "total_tokens": 918,
+    "translated_title": "学习视觉文本扰动的易读性",
+    "translated_abstract": "许多NLP中的对抗性攻击会扰动输入以产生在视觉上相似但对模型性能有负面影响的字符串（例如'ergo' $\\rightarrow$ '$\\epsilon$rgo'），这些字符串对人类来说是易读的。尽管保持易读性是文本扰动的必要条件，但很少有工作对其进行系统性的表征；相反，易读性通常通过对扰动的性质和程度的直觉约束来实现。特别地，尚不清楚在保持易读性的情况下可以扰动多少输入，或如何量化扰动字符串的易读性。在这项工作中，我们通过学习模型来预测扰动字符串的易读性，并根据其易读性对候选扰动进行排名，以填补这一空白。为此，我们收集并发布了LEGIT，一个人类注释的数据集，其中包括视觉上扰动文本的易读性。使用这个数据集，我们构建了基于文本和视觉的模型，可以达到$0.91$的F1分数，以预测输入是否易读。",
+    "tldr": "本文提出了一种学习模型来预测扰动字符串的易读性，并根据其易读性对候选扰动进行排名的方法，填补了保持易读性的文本扰动的系统性表征的空白。",
+    "en_tldr": "This paper proposes a method to learn models that predict the legibility of a perturbed string and rank candidate perturbations based on their legibility, filling the gap in systematically characterizing the legibility of text perturbations while preserving it."
+}

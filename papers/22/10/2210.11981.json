@@ -1,0 +1,10 @@
+{
+    "title": "Named Entity Detection and Injection for Direct Speech Translation. (arXiv:2210.11981v2 [cs.CL] UPDATED)",
+    "abstract": "In a sentence, certain words are critical for its semantic. Among them, named entities (NEs) are notoriously challenging for neural models. Despite their importance, their accurate handling has been neglected in speech-to-text (S2T) translation research, and recent work has shown that S2T models perform poorly for locations and notably person names, whose spelling is challenging unless known in advance. In this work, we explore how to leverage dictionaries of NEs known to likely appear in a given context to improve S2T model outputs. Our experiments show that we can reliably detect NEs likely present in an utterance starting from S2T encoder outputs. Indeed, we demonstrate that the current detection quality is sufficient to improve NE accuracy in the translation with a 31% reduction in person name errors.",
+    "link": "http://arxiv.org/abs/2210.11981",
+    "total_tokens": 814,
+    "translated_title": "直接语音翻译中的命名实体检测和注入",
+    "translated_abstract": "在一句话中，某些词对其语义至关重要。其中，命名实体（NE）对神经模型来说是极具挑战性的。尽管它们很重要，但在语音到文本（S2T）翻译研究中，它们的准确处理一直被忽视，最近的研究表明，S2T模型在位置和特别是人名方面表现不佳，除非事先知道其拼写。在这项工作中，我们探讨了如何利用已知可能出现在给定上下文中的NE字典来改进S2T模型输出。我们的实验表明，我们可以可靠地检测出可能出现在话语中的NE，从S2T编码器输出开始。事实上，我们证明了当前的检测质量足以通过减少31％的人名错误来提高翻译中的NE准确性。",
+    "tldr": "本文研究了如何利用命名实体字典来改进语音到文本翻译模型的输出，实验表明可以通过减少31%的人名错误来提高翻译中的命名实体准确性。",
+    "en_tldr": "This paper explores how to leverage named entity dictionaries to improve speech-to-text translation model outputs, and experiments show that it can improve named entity accuracy in translation with a 31% reduction in person name errors."
+}

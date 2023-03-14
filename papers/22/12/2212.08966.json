@@ -1,0 +1,10 @@
+{
+    "title": "Graph Learning and Its Applications: A Holistic Survey. (arXiv:2212.08966v2 [cs.AI] UPDATED)",
+    "abstract": "Graph learning is a prevalent domain that endeavors to learn the intricate relationships among nodes and the topological structure of graphs. These relationships endow graphs with uniqueness compared to conventional tabular data, as nodes rely on non-Euclidean space and encompass rich information to exploit. Over the years, graph learning has transcended from graph theory to graph data mining. With the advent of representation learning, it has attained remarkable performance in diverse scenarios, including text, image, chemistry, and biology. Owing to its extensive application prospects, graph learning attracts copious attention from the academic community. Despite numerous works proposed to tackle different problems in graph learning, there is a demand to survey previous valuable works. While some researchers have perceived this phenomenon and accomplished impressive surveys on graph learning, they failed to connect related objectives, methods, and applications in a more coherent way.",
+    "link": "http://arxiv.org/abs/2212.08966",
+    "total_tokens": 858,
+    "translated_title": "图学习及其应用：一篇全面的综述",
+    "translated_abstract": "图学习是一种广泛应用的领域，旨在学习节点之间的复杂关系和图的拓扑结构。这些关系使得图与传统的表格数据相比具有独特性，因为节点依赖于非欧几里得空间，并包含丰富的信息可供利用。随着表示学习的出现，图学习在文本、图像、化学和生物等各种场景中取得了显著的性能。由于其广泛的应用前景，图学习吸引了学术界的大量关注。尽管已经有许多工作提出了解决图学习中不同问题的方法，但需要对以前有价值的工作进行调查。虽然一些研究人员已经意识到了这一现象，并在图学习方面完成了令人印象深刻的调查，但他们未能以更连贯的方式连接相关的目标、方法和应用。",
+    "tldr": "本文全面综述了图学习的发展历程和应用场景，重点介绍了表示学习在文本、图像、化学和生物等领域中的显著性能，同时指出了对以前有价值的工作进行调查的需求。",
+    "en_tldr": "This paper provides a comprehensive survey of the development and application scenarios of graph learning, with a focus on the remarkable performance of representation learning in various fields such as text, image, chemistry, and biology. It also points out the need to investigate previous valuable works."
+}

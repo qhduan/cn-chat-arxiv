@@ -1,0 +1,10 @@
+{
+    "title": "EasyNLP: A Comprehensive and Easy-to-use Toolkit for Natural Language Processing. (arXiv:2205.00258v2 [cs.CL] UPDATED)",
+    "abstract": "The success of Pre-Trained Models (PTMs) has reshaped the development of Natural Language Processing (NLP). Yet, it is not easy to obtain high-performing models and deploy them online for industrial practitioners. To bridge this gap, EasyNLP is designed to make it easy to build NLP applications, which supports a comprehensive suite of NLP algorithms. It further features knowledge-enhanced pre-training, knowledge distillation and few-shot learning functionalities for large-scale PTMs, and provides a unified framework of model training, inference and deployment for real-world applications. Currently, EasyNLP has powered over ten business units within Alibaba Group and is seamlessly integrated to the Platform of AI (PAI) products on Alibaba Cloud. The source code of our EasyNLP toolkit is released at GitHub (https://github.com/alibaba/EasyNLP).",
+    "link": "http://arxiv.org/abs/2205.00258",
+    "total_tokens": 887,
+    "translated_title": "EasyNLP：一款全面且易于使用的自然语言处理工具包",
+    "translated_abstract": "预训练模型（PTMs）的成功重塑了自然语言处理（NLP）的发展。然而，对于工业从业者来说，获得高性能模型并将其部署到在线环境中并不容易。为了弥合这一差距，EasyNLP旨在使构建NLP应用程序变得容易，支持全面的NLP算法套件。它还具有知识增强的预训练、知识蒸馏和少样本学习功能，用于大规模PTMs，并为实际应用提供了模型训练、推理和部署的统一框架。目前，EasyNLP已经为阿里巴巴集团的十多个业务部门提供支持，并无缝集成到阿里云的AI平台（PAI）产品中。我们的EasyNLP工具包的源代码已在GitHub（https://github.com/alibaba/EasyNLP）上发布。",
+    "tldr": "EasyNLP是一款全面且易于使用的自然语言处理工具包，支持全面的NLP算法套件，具有知识增强的预训练、知识蒸馏和少样本学习功能，用于大规模PTMs，并为实际应用提供了模型训练、推理和部署的统一框架。",
+    "en_tldr": "EasyNLP is a comprehensive and easy-to-use natural language processing toolkit that supports a comprehensive suite of NLP algorithms. It features knowledge-enhanced pre-training, knowledge distillation and few-shot learning functionalities for large-scale PTMs, and provides a unified framework of model training, inference and deployment for real-world applications."
+}

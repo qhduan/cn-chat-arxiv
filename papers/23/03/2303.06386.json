@@ -1,0 +1,10 @@
+{
+    "title": "Scope and Arbitration in Machine Learning Clinical EEG Classification. (arXiv:2303.06386v1 [cs.LG])",
+    "abstract": "A key task in clinical EEG interpretation is to classify a recording or session as normal or abnormal. In machine learning approaches to this task, recordings are typically divided into shorter windows for practical reasons, and these windows inherit the label of their parent recording. We hypothesised that window labels derived in this manner can be misleading for example, windows without evident abnormalities can be labelled `abnormal' disrupting the learning process and degrading performance. We explored two separable approaches to mitigate this problem: increasing the window length and introducing a second-stage model to arbitrate between the window-specific predictions within a recording. Evaluating these methods on the Temple University Hospital Abnormal EEG Corpus, we significantly improved state-of-the-art average accuracy from 89.8 percent to 93.3 percent. This result defies previous estimates of the upper limit for performance on this dataset and represents a major step towar",
+    "link": "http://arxiv.org/abs/2303.06386",
+    "total_tokens": 956,
+    "translated_title": "机器学习临床脑电图分类中的范围和仲裁",
+    "translated_abstract": "临床脑电图解读的一个关键任务是将记录或会话分类为正常或异常。在机器学习方法中，为了实际操作的原因，通常将记录分成较短的窗口，并且这些窗口继承其父记录的标签。我们假设以这种方式派生的窗口标签可能会误导，例如，没有明显异常的窗口可能会被标记为“异常”，从而破坏学习过程并降低性能。我们探索了两种可分离的方法来缓解这个问题：增加窗口长度和引入第二阶段模型来仲裁记录内的窗口特定预测。在Temple大学医院异常脑电图语料库上评估这些方法，我们将最先进的平均准确度从89.8％显着提高到93.3％。这个结果挑战了先前对该数据集性能上限的估计，代表了迈向更好性能的重要一步。",
+    "tldr": "本文提出了两种方法来解决机器学习临床脑电图分类中窗口标签可能误导的问题：增加窗口长度和引入第二阶段模型来仲裁记录内的窗口特定预测。在Temple大学医院异常脑电图语料库上评估这些方法，最先进的平均准确度从89.8％显着提高到93.3％。",
+    "en_tldr": "This paper proposes two methods to address the problem of potentially misleading window labels in machine learning clinical EEG classification: increasing window length and introducing a second-stage model to arbitrate between window-specific predictions within a recording. Evaluating these methods on the Temple University Hospital Abnormal EEG Corpus, the state-of-the-art average accuracy was significantly improved from 89.8% to 93.3%."
+}

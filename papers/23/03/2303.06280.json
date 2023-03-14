@@ -1,0 +1,10 @@
+{
+    "title": "Investigating Stateful Defenses Against Black-Box Adversarial Examples. (arXiv:2303.06280v1 [cs.CR])",
+    "abstract": "Defending machine-learning (ML) models against white-box adversarial attacks has proven to be extremely difficult. Instead, recent work has proposed stateful defenses in an attempt to defend against a more restricted black-box attacker. These defenses operate by tracking a history of incoming model queries, and rejecting those that are suspiciously similar. The current state-of-the-art stateful defense Blacklight was proposed at USENIX Security '22 and claims to prevent nearly 100% of attacks on both the CIFAR10 and ImageNet datasets. In this paper, we observe that an attacker can significantly reduce the accuracy of a Blacklight-protected classifier (e.g., from 82.2% to 6.4% on CIFAR10) by simply adjusting the parameters of an existing black-box attack. Motivated by this surprising observation, since existing attacks were evaluated by the Blacklight authors, we provide a systematization of stateful defenses to understand why existing stateful defense models fail. Finally, we propose a",
+    "link": "http://arxiv.org/abs/2303.06280",
+    "total_tokens": 971,
+    "translated_title": "探究有状态防御黑盒对抗样本",
+    "translated_abstract": "防御机器学习（ML）模型免受白盒对抗攻击已被证明极为困难。相反，最近的工作提出了有状态防御，试图防御更受限制的黑盒攻击者。这些防御通过跟踪传入模型查询的历史记录，并拒绝那些可疑地相似的查询来操作。目前最先进的有状态防御Blacklight是在USENIX Security '22上提出的，声称可以防止几乎100％的CIFAR10和ImageNet数据集上的攻击。在本文中，我们观察到攻击者可以通过简单调整现有黑盒攻击的参数，显著降低受Blacklight保护的分类器的准确性（例如，在CIFAR10上从82.2％降至6.4％）。受到这一惊人观察的启发，我们提供了有状态防御的系统化，以了解为什么现有的有状态防御模型会失败。最后，我们提出了一种新的有状态防御模型，该模型在CIFAR10数据集上的准确性为82.2％，在ImageNet数据集上的准确性为76.5％。",
+    "tldr": "本文探究了有状态防御黑盒对抗样本的方法，提出了一种新的有状态防御模型，可以在CIFAR10数据集上达到82.2％的准确性，在ImageNet数据集上达到76.5％的准确性。",
+    "en_tldr": "This paper investigates stateful defenses against black-box adversarial examples and proposes a new stateful defense model that achieves 82.2% accuracy on the CIFAR10 dataset and 76.5% accuracy on the ImageNet dataset."
+}

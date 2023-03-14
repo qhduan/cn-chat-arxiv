@@ -1,12 +1,10 @@
 {
-    "title": "WiserVR: Semantic Communication Enabled Wireless Virtual Reality Delivery. (arXiv:2211.01241v3 [eess.IV] UPDATED)",
+    "title": "WiserVR: Semantic Communication Enabled Wireless Virtual Reality Delivery. (arXiv:2211.01241v4 [eess.IV] UPDATED)",
     "abstract": "Virtual reality (VR) over wireless is expected to be one of the killer applications in next-generation communication networks. Nevertheless, the huge data volume along with stringent requirements on latency and reliability under limited bandwidth resources makes untethered wireless VR delivery increasingly challenging. Such bottlenecks, therefore, motivate this work to seek the potential of using semantic communication, a new paradigm that promises to significantly ease the resource pressure, for efficient VR delivery. To this end, we propose a novel framework, namely WIreless SEmantic deliveRy for VR (WiserVR), for delivering consecutive 360{\\deg} video frames to VR users. Specifically, deep learning-based multiple modules are well-devised for the transceiver in WiserVR to realize high-performance feature extraction and semantic recovery. Among them, we dedicatedly develop a concept of semantic location graph and leverage the joint-semantic-channel-coding method with knowledge sharing",
     "link": "http://arxiv.org/abs/2211.01241",
-    "raw_ret": "{\n    \"translated_title\": \"WiserVR：语义通信支持的无线虚拟现实传递\",\n    \"translated_abstract\": \"下一代通信网络中，基于无线技术的虚拟现实(VR)被认为是其中一项杀手级应用。然而，在有限带宽资源下，在低延迟和高可靠性的严格要求下，处理巨大的数据量使得无线VR交付变得越来越具有挑战性。这些瓶颈激发了本文探索使用语义通信的潜力，这是一种可以显著减轻资源压力的新范式，以实现高效的VR交付。为此，我们提出了一种新的框架，名为WiserVR(WIreless SEmantic deliveRy for VR)，用于向VR用户传递连续的360度视频帧。具体而言，我们设计了基于深度学习的多个模块作为WiserVR中收发器的特征提取和语义恢复，以实现高性能。其中，我们专门开发了一个语义位置图的概念，并利用知识共享的联合语义通道编码方法。\",\n    \"tldr\": \"WiserVR提出了一种新的框架，利用语义通信的潜力，实现了高效的VR交付。其中，专门开发了一个语义位置图的概念，并利用知识共享的联合语义通道编码方法。\"\n}",
-    "total_tokens": 869,
-    "ret": {
-        "translated_title": "WiserVR：语义通信支持的无线虚拟现实传递",
-        "translated_abstract": "下一代通信网络中，基于无线技术的虚拟现实(VR)被认为是其中一项杀手级应用。然而，在有限带宽资源下，在低延迟和高可靠性的严格要求下，处理巨大的数据量使得无线VR交付变得越来越具有挑战性。这些瓶颈激发了本文探索使用语义通信的潜力，这是一种可以显著减轻资源压力的新范式，以实现高效的VR交付。为此，我们提出了一种新的框架，名为WiserVR(WIreless SEmantic deliveRy for VR)，用于向VR用户传递连续的360度视频帧。具体而言，我们设计了基于深度学习的多个模块作为WiserVR中收发器的特征提取和语义恢复，以实现高性能。其中，我们专门开发了一个语义位置图的概念，并利用知识共享的联合语义通道编码方法。",
-        "tldr": "WiserVR提出了一种新的框架，利用语义通信的潜力，实现了高效的VR交付。其中，专门开发了一个语义位置图的概念，并利用知识共享的联合语义通道编码方法。"
-    }
+    "total_tokens": 856,
+    "translated_title": "WiserVR：语义通信支持的无线虚拟现实传输",
+    "translated_abstract": "无线虚拟现实被认为是下一代通信网络中的杀手级应用之一。然而，在有限的带宽资源下，巨大的数据量以及对延迟和可靠性的严格要求使得无线VR传输变得越来越具有挑战性。这些瓶颈促使本文探索使用语义通信的潜力，这是一种新的范式，可以显著缓解资源压力，以实现高效的VR传输。为此，我们提出了一种新的框架，即WiserVR（WIreless SEmantic deliveRy for VR），用于向VR用户传递连续的360度视频帧。具体而言，我们设计了基于深度学习的多个模块，用于WiserVR中的收发器，以实现高性能的特征提取和语义恢复。其中，我们专门开发了语义位置图的概念，并利用知识共享的联合语义通道编码方法。",
+    "tldr": "WiserVR提出了一种新的框架，利用语义通信和深度学习技术，实现了高效的无线虚拟现实传输，其中包括语义位置图和联合语义通道编码方法。",
+    "en_tldr": "WiserVR proposes a novel framework that utilizes semantic communication and deep learning techniques to achieve efficient wireless virtual reality delivery, including semantic location graph and joint-semantic-channel-coding method with knowledge sharing."
 }

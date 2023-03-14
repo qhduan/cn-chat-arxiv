@@ -1,0 +1,10 @@
+{
+    "title": "Play It Back: Iterative Attention for Audio Recognition. (arXiv:2210.11328v2 [cs.SD] UPDATED)",
+    "abstract": "A key function of auditory cognition is the association of characteristic sounds with their corresponding semantics over time. Humans attempting to discriminate between fine-grained audio categories, often replay the same discriminative sounds to increase their prediction confidence. We propose an end-to-end attention-based architecture that through selective repetition attends over the most discriminative sounds across the audio sequence. Our model initially uses the full audio sequence and iteratively refines the temporal segments replayed based on slot attention. At each playback, the selected segments are replayed using a smaller hop length which represents higher resolution features within these segments. We show that our method can consistently achieve state-of-the-art performance across three audio-classification benchmarks: AudioSet, VGG-Sound, and EPIC-KITCHENS-100.",
+    "link": "http://arxiv.org/abs/2210.11328",
+    "total_tokens": 783,
+    "translated_title": "回放：迭代注意力用于音频识别",
+    "translated_abstract": "听觉认知的一个关键功能是随着时间的推移将特征声音与其相应的语义关联起来。人类试图区分细粒度音频类别时，通常会重播相同的区分性声音以增加其预测置信度。我们提出了一种端到端的基于注意力的架构，通过选择性重复跨越音频序列的最具区分性的声音来进行关注。我们的模型最初使用完整的音频序列，并通过插槽注意力迭代地细化重播的时间段。在每次播放时，所选段使用较小的跳跃长度重播，这代表了这些段内更高分辨率的特征。我们展示了我们的方法可以在三个音频分类基准测试中始终实现最先进的性能：AudioSet、VGG-Sound和EPIC-KITCHENS-100。",
+    "tldr": "该论文提出了一种基于注意力的架构，通过选择性重复跨越音频序列的最具区分性的声音来进行关注，最终实现了在三个音频分类基准测试中始终实现最先进的性能。",
+    "en_tldr": "The paper proposes an end-to-end attention-based architecture that attends over the most discriminative sounds across the audio sequence through selective repetition, achieving consistently state-of-the-art performance across three audio-classification benchmarks."
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Neural Transducer Training: Reduced Memory Consumption with Sample-wise Computation. (arXiv:2211.16270v2 [cs.CL] UPDATED)",
+    "abstract": "The neural transducer is an end-to-end model for automatic speech recognition (ASR). While the model is well-suited for streaming ASR, the training process remains challenging. During training, the memory requirements may quickly exceed the capacity of state-of-the-art GPUs, limiting batch size and sequence lengths. In this work, we analyze the time and space complexity of a typical transducer training setup. We propose a memory-efficient training method that computes the transducer loss and gradients sample by sample. We present optimizations to increase the efficiency and parallelism of the sample-wise method. In a set of thorough benchmarks, we show that our sample-wise method significantly reduces memory usage, and performs at competitive speed when compared to the default batched computation. As a highlight, we manage to compute the transducer loss and gradients for a batch size of 1024, and audio length of 40 seconds, using only 6 GB of memory.",
+    "link": "http://arxiv.org/abs/2211.16270",
+    "total_tokens": 896,
+    "translated_title": "神经转录器训练：采用逐样本计算减少内存消耗",
+    "translated_abstract": "神经转录器是一种用于自动语音识别（ASR）的端到端模型。虽然该模型非常适合流式ASR，但训练过程仍然具有挑战性。在训练过程中，内存需求可能会迅速超过最先进的GPU的容量，限制批量大小和序列长度。在这项工作中，我们分析了典型转录器训练设置的时间和空间复杂度。我们提出了一种内存高效的训练方法，逐个样本计算转录器损失和梯度。我们提出了优化方法，以增加逐样本方法的效率和并行性。在一组彻底的基准测试中，我们展示了我们的逐样本方法显著减少了内存使用量，并在与默认批量计算相比时表现出竞争速度。作为亮点，我们成功地使用仅6 GB的内存计算了批量大小为1024，音频长度为40秒的转录器损失和梯度。",
+    "tldr": "本文提出了一种内存高效的神经转录器训练方法，采用逐个样本计算转录器损失和梯度，显著减少了内存使用量，并在与默认批量计算相比时表现出竞争速度。",
+    "en_tldr": "This paper proposes a memory-efficient training method for neural transducer, which computes the transducer loss and gradients sample by sample, significantly reducing memory usage and performing at competitive speed compared to the default batched computation."
+}

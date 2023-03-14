@@ -1,0 +1,10 @@
+{
+    "title": "How I Learned to Stop Worrying and Love Retraining. (arXiv:2111.00843v3 [cs.LG] UPDATED)",
+    "abstract": "Many Neural Network Pruning approaches consist of several iterative training and pruning steps, seemingly losing a significant amount of their performance after pruning and then recovering it in the subsequent retraining phase. Recent works of Renda et al. (2020) and Le & Hua (2021) demonstrate the significance of the learning rate schedule during the retraining phase and propose specific heuristics for choosing such a schedule for IMP (Han et al., 2015). We place these findings in the context of the results of Li et al. (2020) regarding the training of models within a fixed training budget and demonstrate that, consequently, the retraining phase can be massively shortened using a simple linear learning rate schedule. Improving on existing retraining approaches, we additionally propose a method to adaptively select the initial value of the linear schedule. Going a step further, we propose similarly imposing a budget on the initial dense training phase and show that the resulting simple",
+    "link": "http://arxiv.org/abs/2111.00843",
+    "total_tokens": 919,
+    "translated_title": "如何学会不再担心并热爱重新训练",
+    "translated_abstract": "许多神经网络剪枝方法包括几个迭代的训练和剪枝步骤，看似在剪枝后失去了大量性能，然后在随后的重新训练阶段恢复了它。最近的Renda等人（2020）和Le＆Hua（2021）的作品展示了重新训练阶段中学习率调度的重要性，并提出了选择IMP（Han等人，2015）的这种调度的特定启发式方法。我们将这些发现置于Li等人（2020）关于在固定训练预算内训练模型的结果的背景下，并证明，因此，可以使用简单的线性学习率时间表大大缩短重新训练阶段。在现有的重新训练方法的基础上，我们还提出了一种方法来自适应地选择线性时间表的初始值。更进一步，我们提出类似地对初始密集训练阶段施加预算，并展示了由此产生的简单方法。",
+    "tldr": "本文提出了一种简单的线性学习率时间表，可以大大缩短重新训练阶段，同时提出了一种方法来自适应地选择线性时间表的初始值，并对初始密集训练阶段施加预算，从而改进了现有的重新训练方法。",
+    "en_tldr": "This paper proposes a simple linear learning rate schedule that can significantly shorten the retraining phase, and a method to adaptively select the initial value of the linear schedule, as well as imposing a budget on the initial dense training phase, improving on existing retraining approaches."
+}

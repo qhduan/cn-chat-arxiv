@@ -1,7 +1,0 @@
-{
-    "title": "RawNet: Fast End-to-End Neural Vocoder. (arXiv:1904.05351v2 [eess.AS] UPDATED)",
-    "abstract": "Neural network-based vocoders have recently demonstrated the powerful ability to synthesize high-quality speech. These models usually generate samples by conditioning on spectral features, such as Mel-spectrogram and fundamental frequency, which is crucial to speech synthesis. However, the feature extraction procession tends to depend heavily on human knowledge resulting in a less expressive description of the origin audio. In this work, we proposed RawNet, a complete end-to-end neural vocoder following the auto-encoder structure for speaker-dependent and -independent speech synthesis. It automatically learns to extract features and recover audio using neural networks, which include a coder network to capture a higher representation of the input audio and an autoregressive voder network to restore the audio in a sample-by-sample manner. The coder and voder are jointly trained directly on the raw waveform without any human-designed features. The experimental results show that RawNet ach",
-    "link": "http://arxiv.org/abs/1904.05351",
-    "raw_ret": "ieve competitive quality and generation speed with the state-of-the-art models while maintaining superior robustness to noise and voice conversion, indicating its potential applications in various speech synthesis scenarios.\n\n请翻译以上论文信息并总结出一句话要点。",
-    "total_tokens": 498
-}

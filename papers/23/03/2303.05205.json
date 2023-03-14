@@ -1,0 +1,10 @@
+{
+    "title": "Real-time scheduling of renewable power systems through planning-based reinforcement learning. (arXiv:2303.05205v2 [cs.AI] UPDATED)",
+    "abstract": "The growing renewable energy sources have posed significant challenges to traditional power scheduling. It is difficult for operators to obtain accurate day-ahead forecasts of renewable generation, thereby requiring the future scheduling system to make real-time scheduling decisions aligning with ultra-short-term forecasts. Restricted by the computation speed, traditional optimization-based methods can not solve this problem. Recent developments in reinforcement learning (RL) have demonstrated the potential to solve this challenge. However, the existing RL methods are inadequate in terms of constraint complexity, algorithm performance, and environment fidelity. We are the first to propose a systematic solution based on the state-of-the-art reinforcement learning algorithm and the real power grid environment. The proposed approach enables planning and finer time resolution adjustments of power generators, including unit commitment and economic dispatch, thus increasing the grid's abilit",
+    "link": "http://arxiv.org/abs/2303.05205",
+    "total_tokens": 826,
+    "translated_title": "基于规划强化学习的可再生能源电力系统实时调度",
+    "translated_abstract": "不断增长的可再生能源来源对传统电力调度提出了重大挑战。运营商难以获得准确的可再生能源发电日前预测，因此需要未来调度系统根据超短期预测进行实时调度决策。受计算速度限制，传统的基于优化的方法无法解决这个问题。最近强化学习（RL）的发展已经展示了解决这个挑战的潜力。然而，现有的RL方法在约束复杂性、算法性能和环境保真度方面不足。我们是第一个提出基于最先进的强化学习算法和真实电力网环境的系统解决方案。所提出的方法使发电机的规划和更细的时间分辨率调整成为可能，包括机组组合和经济调度，从而增加了电网的能力。",
+    "tldr": "本文提出了一种基于规划强化学习算法和真实电力网环境的系统解决方案，可以实现发电机的规划和更细的时间分辨率调整，从而增加了电网的能力。",
+    "en_tldr": "This paper proposes a systematic solution based on the state-of-the-art reinforcement learning algorithm and the real power grid environment, which enables planning and finer time resolution adjustments of power generators, including unit commitment and economic dispatch, thus increasing the grid's ability."
+}

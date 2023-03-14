@@ -1,0 +1,10 @@
+{
+    "title": "Differentiable Uncalibrated Imaging. (arXiv:2211.10525v2 [eess.IV] UPDATED)",
+    "abstract": "We propose a differentiable imaging framework to address uncertainty in measurement coordinates such as sensor locations and projection angles. We formulate the problem as measurement interpolation at unknown nodes supervised through the forward operator. To solve it we apply implicit neural networks, also known as neural fields, which are naturally differentiable with respect to the input coordinates. We also develop differentiable spline interpolators which perform as well as neural networks, require less time to optimize and have well-understood properties. Differentiability is key as it allows us to jointly fit a measurement representation, optimize over the uncertain measurement coordinates, and perform image reconstruction which in turn ensures consistent calibration. We apply our approach to 2D and 3D computed tomography and show that it produces improved reconstructions compared to baselines that do not account for the lack of calibration. The flexibility of the proposed framew",
+    "link": "http://arxiv.org/abs/2211.10525",
+    "total_tokens": 856,
+    "translated_title": "可微非标定成像",
+    "translated_abstract": "我们提出了一种可微成像框架，以解决测量坐标（如传感器位置和投影角度）的不确定性。我们将问题公式化为在未知节点处的测量插值，通过正向算子进行监督。为了解决这个问题，我们应用了隐式神经网络，也称为神经场，它们在输入坐标方面自然可微分。我们还开发了可微分样条插值器，其性能与神经网络一样好，需要更少的优化时间，并且具有良好的性质。可微性是关键，因为它允许我们共同拟合测量表示，优化不确定的测量坐标，并执行图像重建，从而确保一致的标定。我们将我们的方法应用于2D和3D计算机断层扫描，并展示了与不考虑缺乏标定的基线相比，它产生了改进的重建结果。所提出的框架的灵活性",
+    "tldr": "本文提出了一种可微的成像框架，以解决测量坐标的不确定性，通过隐式神经网络和可微分样条插值器实现。该方法应用于2D和3D计算机断层扫描，产生了改进的重建结果。",
+    "en_tldr": "This paper proposes a differentiable imaging framework to address uncertainty in measurement coordinates, using implicit neural networks and differentiable spline interpolators. The method is applied to 2D and 3D computed tomography and produces improved reconstructions."
+}

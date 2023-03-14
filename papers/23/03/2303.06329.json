@@ -1,0 +1,10 @@
+{
+    "title": "MetaViewer: Towards A Unified Multi-View Representation. (arXiv:2303.06329v1 [cs.CV])",
+    "abstract": "Existing multi-view representation learning methods typically follow a specific-to-uniform pipeline, extracting latent features from each view and then fusing or aligning them to obtain the unified object representation. However, the manually pre-specify fusion functions and view-private redundant information mixed in features potentially degrade the quality of the derived representation. To overcome them, we propose a novel bi-level-optimization-based multi-view learning framework, where the representation is learned in a uniform-to-specific manner. Specifically, we train a meta-learner, namely MetaViewer, to learn fusion and model the view-shared meta representation in outer-level optimization. Start with this meta representation, view-specific base-learners are then required to rapidly reconstruct the corresponding view in inner-level. MetaViewer eventually updates by observing reconstruction processes from uniform to specific over all views, and learns an optimal fusion scheme that",
+    "link": "http://arxiv.org/abs/2303.06329",
+    "total_tokens": 888,
+    "translated_title": "MetaViewer: 朝着统一的多视图表示迈进",
+    "translated_abstract": "现有的多视图表示学习方法通常遵循特定到统一的流程，从每个视图中提取潜在特征，然后融合或对齐它们以获得统一的对象表示。然而，手动预先指定的融合函数和混合在特征中的视图专用冗余信息可能会降低所得表示的质量。为了克服这些问题，我们提出了一种新颖的基于双层优化的多视图学习框架，其中表示是以统一到特定的方式学习的。具体而言，我们训练一个元学习器，即MetaViewer，在外层优化中学习融合和建模视图共享的元表示。从这个元表示开始，需要在内层训练视图特定的基学习器，以快速重构相应的视图。MetaViewer最终通过观察所有视图上从统一到特定的重构过程来更新，并学习最佳融合方案。",
+    "tldr": "该论文提出了一种新颖的基于双层优化的多视图学习框架MetaViewer，通过统一到特定的方式学习表示，避免了手动预先指定的融合函数和混合在特征中的视图专用冗余信息可能会降低所得表示的质量的问题。",
+    "en_tldr": "This paper proposes a novel bi-level-optimization-based multi-view learning framework, MetaViewer, which learns the representation in a uniform-to-specific manner, avoiding the problem of manually pre-specify fusion functions and view-private redundant information mixed in features that potentially degrade the quality of the derived representation."
+}

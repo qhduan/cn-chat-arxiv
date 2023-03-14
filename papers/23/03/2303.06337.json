@@ -1,0 +1,10 @@
+{
+    "title": "AutoMLP: Automated MLP for Sequential Recommendations. (arXiv:2303.06337v1 [cs.IR])",
+    "abstract": "Sequential recommender systems aim to predict users' next interested item given their historical interactions. However, a long-standing issue is how to distinguish between users' long/short-term interests, which may be heterogeneous and contribute differently to the next recommendation. Existing approaches usually set pre-defined short-term interest length by exhaustive search or empirical experience, which is either highly inefficient or yields subpar results. The recent advanced transformer-based models can achieve state-of-the-art performances despite the aforementioned issue, but they have a quadratic computational complexity to the length of the input sequence. To this end, this paper proposes a novel sequential recommender system, AutoMLP, aiming for better modeling users' long/short-term interests from their historical interactions. In addition, we design an automated and adaptive search algorithm for preferable short-term interest length via end-to-end optimization. Through ext",
+    "link": "http://arxiv.org/abs/2303.06337",
+    "total_tokens": 822,
+    "translated_title": "AutoMLP: 自动化MLP用于序列推荐",
+    "translated_abstract": "序列推荐系统旨在根据用户的历史交互来预测他们下一个感兴趣的项目。然而，长期存在的问题是如何区分用户的长期/短期兴趣，这可能是异质的并对下一个推荐产生不同的贡献。现有方法通常通过穷举搜索或经验经验设置预定义的短期兴趣长度，这既高度低效又产生次优结果。最近的先进基于变压器的模型可以实现最先进的性能，尽管存在上述问题，但它们对输入序列的长度具有二次计算复杂度。为此，本文提出了一种新颖的序列推荐系统AutoMLP，旨在更好地模拟用户的长期/短期兴趣。此外，我们设计了一种自动化和自适应搜索算法，以通过端到端优化获得更好的短期兴趣长度。通过实验，我们证明了AutoMLP的有效性和效率。",
+    "tldr": "AutoMLP是一种新颖的序列推荐系统，通过自动化和自适应搜索算法，更好地模拟用户的长期/短期兴趣，实现更好的推荐效果。",
+    "en_tldr": "AutoMLP is a novel sequential recommender system that models users' long/short-term interests through an automated and adaptive search algorithm, achieving better recommendation performance."
+}

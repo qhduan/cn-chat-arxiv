@@ -1,0 +1,10 @@
+{
+    "title": "Prismer: A Vision-Language Model with An Ensemble of Experts. (arXiv:2303.02506v2 [cs.LG] UPDATED)",
+    "abstract": "Recent vision-language models have shown impressive multi-modal generation capabilities. However, typically they require training huge models on massive datasets. As a more scalable alternative, we introduce Prismer, a data- and parameter-efficient vision-language model that leverages an ensemble of domain experts. Prismer only requires training of a small number of components, with the majority of network weights inherited from readily-available, pre-trained domain experts, and kept frozen during training. By leveraging experts from a wide range of domains, we show that Prismer can efficiently pool this expert knowledge and adapt it to various vision-language reasoning tasks. In our experiments, we show that Prismer achieves fine-tuned and few-shot learning performance which is competitive with current state-of-the-art models, whilst requiring up to two orders of magnitude less training data. Code is available at https://github.com/NVlabs/prismer.",
+    "link": "http://arxiv.org/abs/2303.02506",
+    "total_tokens": 913,
+    "translated_title": "Prismer: 一种具有专家集合的视觉语言模型",
+    "translated_abstract": "最近的视觉语言模型展示了令人印象深刻的多模态生成能力。然而，通常它们需要在大规模数据集上训练庞大的模型。作为一种更可扩展的替代方案，我们介绍了Prismer，一种数据和参数高效的视觉语言模型，它利用了一组领域专家的集合。Prismer只需要训练少量组件，大部分网络权重从现成的预训练领域专家中继承，并在训练期间保持冻结状态。通过利用来自各种领域的专家，我们展示了Prismer可以有效地汇集这些专家知识并将其适应于各种视觉语言推理任务。在我们的实验中，我们展示了Prismer实现了与当前最先进模型竞争的微调和少样本学习性能，同时需要少至两个数量级的训练数据。代码可在https://github.com/NVlabs/prismer获得。",
+    "tldr": "Prismer是一种数据和参数高效的视觉语言模型，它利用了一组领域专家的集合，通过汇集这些专家知识并将其适应于各种视觉语言推理任务，实现了与当前最先进模型竞争的微调和少样本学习性能，同时需要少至两个数量级的训练数据。",
+    "en_tldr": "Prismer is a data- and parameter-efficient vision-language model that leverages an ensemble of domain experts, achieving fine-tuned and few-shot learning performance competitive with current state-of-the-art models, whilst requiring up to two orders of magnitude less training data."
+}

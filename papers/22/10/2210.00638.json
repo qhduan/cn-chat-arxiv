@@ -1,0 +1,10 @@
+{
+    "title": "What shapes the loss landscape of self-supervised learning?. (arXiv:2210.00638v2 [cs.LG] UPDATED)",
+    "abstract": "Prevention of complete and dimensional collapse of representations has recently become a design principle for self-supervised learning (SSL). However, questions remain in our theoretical understanding: When do those collapses occur? What are the mechanisms and causes? We answer these questions by deriving and thoroughly analyzing an analytically tractable theory of SSL loss landscapes. In this theory, we identify the causes of the dimensional collapse and study the effect of normalization and bias. Finally, we leverage the interpretability afforded by the analytical theory to understand how dimensional collapse can be beneficial and what affects the robustness of SSL against data imbalance.",
+    "link": "http://arxiv.org/abs/2210.00638",
+    "total_tokens": 713,
+    "translated_title": "自监督学习的损失函数空间是如何形成的？",
+    "translated_abstract": "最近，防止表示完全和维度崩溃已成为自监督学习（SSL）的设计原则。然而，我们对理论的理解仍有疑问：这些崩溃何时发生？机制和原因是什么？我们通过推导和彻底分析SSL损失函数空间的可分析理论来回答这些问题。在这个理论中，我们确定了维度崩溃的原因，并研究了归一化和偏差的影响。最后，我们利用分析理论所提供的可解释性来理解维度崩溃如何有益，并影响SSL对数据不平衡的鲁棒性。",
+    "tldr": "本文通过分析自监督学习的损失函数空间，回答了维度崩溃的原因和影响，以及维度崩溃如何有益，并影响SSL对数据不平衡的鲁棒性。",
+    "en_tldr": "This paper answers questions about the causes and effects of dimensional collapse in self-supervised learning (SSL) by analyzing the SSL loss landscape, and explores how dimensional collapse can be beneficial and affect the robustness of SSL against data imbalance."
+}

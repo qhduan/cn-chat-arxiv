@@ -1,0 +1,10 @@
+{
+    "title": "Data Dependent Regret Guarantees Against General Comparators for Full or Bandit Feedback. (arXiv:2303.06526v1 [cs.LG])",
+    "abstract": "We study the adversarial online learning problem and create a completely online algorithmic framework that has data dependent regret guarantees in both full expert feedback and bandit feedback settings. We study the expected performance of our algorithm against general comparators, which makes it applicable for a wide variety of problem scenarios. Our algorithm works from a universal prediction perspective and the performance measure used is the expected regret against arbitrary comparator sequences, which is the difference between our losses and a competing loss sequence. The competition class can be designed to include fixed arm selections, switching bandits, contextual bandits, periodic bandits or any other competition of interest. The sequences in the competition class are generally determined by the specific application at hand and should be designed accordingly. Our algorithm neither uses nor needs any preliminary information about the loss sequences and is completely online. Its",
+    "link": "http://arxiv.org/abs/2303.06526",
+    "total_tokens": 800,
+    "translated_title": "数据相关的在线学习算法框架",
+    "translated_abstract": "我们研究了对抗性在线学习问题，并创建了一个完全在线的算法框架，具有在全专家反馈和Bandit反馈设置中具有数据相关的遗憾保证。我们研究了我们的算法对一般比较器的预期性能，使其适用于各种问题场景。我们的算法从通用预测角度工作，使用的性能度量是对任意比较器序列的预期遗憾，即我们的损失与竞争损失序列之间的差异。竞争类可以设计为包括固定臂选择、切换Bandit、上下文Bandit、周期Bandit或任何其他感兴趣的竞争。竞争类中的序列通常由具体应用程序确定，并应相应地设计。我们的算法既不使用也不需要任何有关损失序列的初步信息，完全在线。其",
+    "tldr": "该论文提出了一个数据相关的在线学习算法框架，可以在全专家反馈和Bandit反馈设置中具有数据相关的遗憾保证，适用于各种问题场景。",
+    "en_tldr": "This paper proposes a data-dependent online learning algorithm framework that has data-dependent regret guarantees in both full expert feedback and bandit feedback settings, applicable for a wide variety of problem scenarios."
+}

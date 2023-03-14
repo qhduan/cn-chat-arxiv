@@ -1,0 +1,10 @@
+{
+    "title": "Practical Network Acceleration with Tiny Sets. (arXiv:2202.07861v2 [cs.CV] UPDATED)",
+    "abstract": "Due to data privacy issues, accelerating networks with tiny training sets has become a critical need in practice. Previous methods mainly adopt filter-level pruning to accelerate networks with scarce training samples. In this paper, we reveal that dropping blocks is a fundamentally superior approach in this scenario. It enjoys a higher acceleration ratio and results in a better latency-accuracy performance under the few-shot setting. To choose which blocks to drop, we propose a new concept namely recoverability to measure the difficulty of recovering the compressed network. Our recoverability is efficient and effective for choosing which blocks to drop. Finally, we propose an algorithm named PRACTISE to accelerate networks using only tiny sets of training images. PRACTISE outperforms previous methods by a significant margin. For 22% latency reduction, PRACTISE surpasses previous methods by on average 7% on ImageNet-1k. It also enjoys high generalization ability, working well under data",
+    "link": "http://arxiv.org/abs/2202.07861",
+    "total_tokens": 946,
+    "translated_title": "用微小数据集实现网络加速的实践",
+    "translated_abstract": "由于数据隐私问题，使用微小的训练集加速网络已成为实践中的一个关键需求。以往的方法主要采用滤波器级别的剪枝来加速稀缺训练样本的网络。在本文中，我们揭示了在这种情况下，删除块是一种基本上更优越的方法。它享有更高的加速比，并在少样本情况下产生更好的延迟-准确性性能。为了选择要删除的块，我们提出了一个新的概念，即可恢复性，用于衡量压缩网络的恢复难度。我们的可恢复性对于选择要删除的块是高效和有效的。最后，我们提出了一种名为PRACTISE的算法，仅使用微小的训练图像集来加速网络。PRACTISE的表现优于以往的方法。对于22％的延迟降低，PRACTISE在ImageNet-1k上平均超过以往方法7％。它还具有高度的泛化能力，在数据隐私场景和各种网络架构下表现良好。",
+    "tldr": "本文提出了一种基于删除块的方法，用于加速稀缺训练样本的网络，通过提出的可恢复性概念选择要删除的块，提出了一种名为PRACTISE的算法，仅使用微小的训练图像集来加速网络，PRACTISE的表现优于以往的方法。",
+    "en_tdlr": "This paper proposes a block-dropping approach to accelerate networks with scarce training samples, and introduces the concept of recoverability to choose which blocks to drop. An algorithm named PRACTISE is proposed to accelerate networks using only tiny sets of training images, which outperforms previous methods."
+}

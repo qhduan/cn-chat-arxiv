@@ -1,0 +1,10 @@
+{
+    "title": "Generalized Invariant Matching Property via LASSO. (arXiv:2301.05975v2 [stat.ME] UPDATED)",
+    "abstract": "Learning under distribution shifts is a challenging task. One principled approach is to exploit the invariance principle via the structural causal models. However, the invariance principle is violated when the response is intervened, making it a difficult setting. In a recent work, the invariant matching property has been developed to shed light on this scenario and shows promising performance. In this work, by formulating a high-dimensional problem with intrinsic sparsity, we generalize the invariant matching property for an important setting when only the target is intervened. We propose a more robust and computation-efficient algorithm by leveraging a variant of Lasso, improving upon the existing algorithms.",
+    "link": "http://arxiv.org/abs/2301.05975",
+    "total_tokens": 782,
+    "translated_title": "基于LASSO的广义不变匹配性质",
+    "translated_abstract": "在分布变化的情况下进行学习是一项具有挑战性的任务。一种基本的方法是通过结构因果模型利用不变性原则。然而，当响应被干预时，不变性原则被违反，使得这种情况变得困难。最近的研究开发了不变匹配性质来研究这种情况，并显示出良好的性能。在本文中，通过制定具有内在稀疏性的高维问题，我们将不变匹配性质推广到仅目标被干预的重要情况。我们提出了一种更加稳健和计算效率高的算法，利用Lasso的变体，改进了现有算法。",
+    "tldr": "本文提出了一种基于LASSO的广义不变匹配性质，通过制定具有内在稀疏性的高维问题，将不变匹配性质推广到仅目标被干预的重要情况，并提出了一种更加稳健和计算效率高的算法，改进了现有算法。",
+    "en_tldr": "This paper proposes a generalized invariant matching property via LASSO, which formulates a high-dimensional problem with intrinsic sparsity and extends the invariant matching property to the important setting when only the target is intervened. The paper also presents a more robust and computation-efficient algorithm by leveraging a variant of Lasso, improving upon the existing algorithms."
+}

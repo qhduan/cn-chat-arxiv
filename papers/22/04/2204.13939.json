@@ -1,0 +1,10 @@
+{
+    "title": "Short-Term Density Forecasting of Low-Voltage Load using Bernstein-Polynomial Normalizing Flows. (arXiv:2204.13939v2 [cs.LG] UPDATED)",
+    "abstract": "The transition to a fully renewable energy grid requires better forecasting of demand at the low-voltage level to increase efficiency and ensure reliable control. However, high fluctuations and increasing electrification cause huge forecast variability, not reflected in traditional point estimates. Probabilistic load forecasts take future uncertainties into account and thus allow more informed decision-making for the planning and operation of low-carbon energy systems. We propose an approach for flexible conditional density forecasting of short-term load based on Bernstein polynomial normalizing flows, where a neural network controls the parameters of the flow. In an empirical study with 363 smart meter customers, our density predictions compare favorably against Gaussian and Gaussian mixture densities. Also, they outperform a non-parametric approach based on the pinball loss for 24h-ahead load forecasting for two different neural network architectures.",
+    "link": "http://arxiv.org/abs/2204.13939",
+    "total_tokens": 884,
+    "translated_title": "低压负荷伯恩斯坦多项式归一化流的短期密度预测",
+    "translated_abstract": "实现全面可再生能源电网的转型需要更好地预测低压水平的需求，以提高效率并确保可靠的控制。然而，高波动性和不断增加的电气化导致巨大的预测变异性，这在传统的点估计中没有反映出来。概率负载预测考虑未来的不确定性，因此允许更明智的决策，用于规划和运营低碳能源系统。我们提出了一种基于伯恩斯坦多项式归一化流的灵活条件密度预测方法，其中神经网络控制流的参数。在一项包括363个智能电表客户的实证研究中，我们的密度预测与高斯和高斯混合密度相比表现出优势。此外，对于两种不同的神经网络架构，它们在24小时前的负载预测中优于基于针球损失的非参数方法。",
+    "tldr": "本文提出了一种基于伯恩斯坦多项式归一化流的灵活条件密度预测方法，用于短期低压负荷预测，相比传统方法表现更好，可用于规划和运营低碳能源系统。",
+    "en_tldr": "This paper proposes a flexible conditional density forecasting method based on Bernstein polynomial normalizing flows for short-term low-voltage load forecasting, which outperforms traditional methods and can be used for planning and operating low-carbon energy systems."
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Vision, Deduction and Alignment: An Empirical Study on Multi-modal Knowledge Graph Alignment. (arXiv:2302.08774v2 [cs.AI] UPDATED)",
+    "abstract": "Entity alignment (EA) for knowledge graphs (KGs) plays a critical role in knowledge engineering. Existing EA methods mostly focus on utilizing the graph structures and entity attributes (including literals), but ignore images that are common in modern multi-modal KGs. In this study we first constructed Multi-OpenEA -- eight large-scale, image-equipped EA benchmarks, and then evaluated some existing embedding-based methods for utilizing images. In view of the complementary nature of visual modal information and logical deduction, we further developed a new multi-modal EA method named LODEME using logical deduction and multi-modal KG embedding, with state-of-the-art performance achieved on Multi-OpenEA and other existing multi-modal EA benchmarks.",
+    "link": "http://arxiv.org/abs/2302.08774",
+    "total_tokens": 814,
+    "translated_title": "视觉、推理和对齐：多模态知识图谱对齐的实证研究",
+    "translated_abstract": "知识图谱中的实体对齐在知识工程中起着至关重要的作用。现有的实体对齐方法主要集中在利用图形结构和实体属性（包括文字），但忽略了现代多模态知识图谱中常见的图像。在本研究中，我们首先构建了Multi-OpenEA——八个大规模的、配备图像的实体对齐基准，并评估了一些现有的基于嵌入的方法来利用图像。鉴于视觉模态信息和逻辑推理的互补性质，我们进一步开发了一种新的多模态EA方法，名为LODEME，使用逻辑推理和多模态KG嵌入，在Multi-OpenEA和其他现有的多模态EA基准上实现了最先进的性能。",
+    "tldr": "本研究构建了八个大规模的、配备图像的实体对齐基准Multi-OpenEA，并开发了一种新的多模态EA方法LODEME，利用逻辑推理和多模态KG嵌入，实现了最先进的性能。",
+    "en_tldr": "This study constructed eight large-scale, image-equipped entity alignment benchmarks named Multi-OpenEA, and developed a new multi-modal EA method named LODEME, which utilizes logical deduction and multi-modal KG embedding, achieving state-of-the-art performance on Multi-OpenEA and other existing multi-modal EA benchmarks."
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Physics-Constrained Deep Learning for Climate Downscaling. (arXiv:2208.05424v6 [physics.ao-ph] UPDATED)",
+    "abstract": "The availability of reliable, high-resolution climate and weather data is important to inform long-term decisions on climate adaptation and mitigation and to guide rapid responses to extreme events. Forecasting models are limited by computational costs and, therefore, often generate coarse-resolution predictions. Statistical downscaling, including super-resolution methods from deep learning, can provide an efficient method of upsampling low-resolution data. However, despite achieving visually compelling results in some cases, such models frequently violate conservation laws when predicting physical variables. In order to conserve physical quantities, we develop methods that guarantee physical constraints are satisfied by a deep learning downscaling model while also improving their performance according to traditional metrics. We compare different constraining approaches and demonstrate their applicability across different neural architectures as well as a variety of climate and weather",
+    "link": "http://arxiv.org/abs/2208.05424",
+    "total_tokens": 830,
+    "translated_title": "物理约束深度学习用于气候降尺度",
+    "translated_abstract": "可靠的高分辨率气候和天气数据的可用性对于指导气候适应和减缓的长期决策以及指导对极端事件的快速响应至关重要。预测模型受计算成本限制，因此通常生成粗分辨率预测。统计降尺度，包括深度学习的超分辨率方法，可以提供一种有效的方法来上采样低分辨率数据。然而，尽管在某些情况下取得了视觉上令人信服的结果，但这些模型在预测物理变量时经常违反守恒定律。为了保持物理量的守恒，我们开发了一种方法，保证深度学习降尺度模型满足物理约束条件，同时根据传统指标提高其性能。我们比较了不同的约束方法，并展示了它们在不同的神经架构以及各种气候和天气数据上的适用性。",
+    "tldr": "本文提出了一种物理约束深度学习降尺度模型的方法，以保证模型在预测物理变量时满足守恒定律，并提高其性能。",
+    "en_tldr": "This paper proposes a method for physics-constrained deep learning downscaling models to ensure that the models satisfy conservation laws when predicting physical variables, while improving their performance according to traditional metrics."
+}

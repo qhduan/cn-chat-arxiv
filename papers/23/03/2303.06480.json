@@ -1,0 +1,10 @@
+{
+    "title": "Knowledge Distillation for Efficient Sequences of Training Runs. (arXiv:2303.06480v1 [cs.LG])",
+    "abstract": "In many practical scenarios -- like hyperparameter search or continual retraining with new data -- related training runs are performed many times in sequence. Current practice is to train each of these models independently from scratch. We study the problem of exploiting the computation invested in previous runs to reduce the cost of future runs using knowledge distillation (KD). We find that augmenting future runs with KD from previous runs dramatically reduces the time necessary to train these models, even taking into account the overhead of KD. We improve on these results with two strategies that reduce the overhead of KD by 80-90% with minimal effect on accuracy and vast pareto-improvements in overall cost. We conclude that KD is a promising avenue for reducing the cost of the expensive preparatory work that precedes training final models in practice.",
+    "link": "http://arxiv.org/abs/2303.06480",
+    "total_tokens": 929,
+    "translated_title": "高效训练序列的知识蒸馏",
+    "translated_abstract": "在许多实际场景中，如超参数搜索或使用新数据进行持续重新训练，相关的训练运行会按顺序执行多次。目前的做法是从头开始独立训练每个模型。我们研究了利用先前运行中的计算来减少未来运行成本的问题，使用知识蒸馏（KD）。我们发现，将未来运行与来自先前运行的KD相结合，可以显著减少训练这些模型所需的时间，即使考虑到KD的开销。我们通过两种策略改进了这些结果，将KD的开销降低了80-90％，对准确性影响很小，并在整体成本方面实现了巨大的帕累托改进。我们得出结论，KD是减少实践中训练最终模型之前昂贵的准备工作成本的有前途的途径。",
+    "tldr": "本文研究了如何利用先前运行中的计算来减少未来运行成本的问题，使用知识蒸馏（KD），通过将未来运行与来自先前运行的KD相结合，可以显著减少训练这些模型所需的时间，KD的开销降低了80-90％，对准确性影响很小，并在整体成本方面实现了巨大的帕累托改进。",
+    "en_tldr": "This paper studies how to reduce the cost of future runs by utilizing the computation invested in previous runs using knowledge distillation (KD). Augmenting future runs with KD from previous runs dramatically reduces the time necessary to train these models, and the overhead of KD can be reduced by 80-90% with minimal effect on accuracy, resulting in vast pareto-improvements in overall cost."
+}

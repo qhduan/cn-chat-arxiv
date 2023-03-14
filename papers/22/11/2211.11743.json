@@ -1,0 +1,9 @@
+{
+    "title": "SinFusion: Training Diffusion Models on a Single Image or Video. (arXiv:2211.11743v2 [cs.CV] UPDATED)",
+    "abstract": "Diffusion models exhibited tremendous progress in image and video generation, exceeding GANs in quality and diversity. However, they are usually trained on very large datasets and are not naturally adapted to manipulate a given input image or video. In this paper we show how this can be resolved by training a diffusion model on a single input image or video. Our image/video-specific diffusion model (SinFusion) learns the appearance and dynamics of the single image or video, while utilizing the conditioning capabilities of diffusion models. It can solve a wide array of image/video-specific manipulation tasks. In particular, our model can learn from few frames the motion and dynamics of a single input video. It can then generate diverse new video samples of the same dynamic scene, extrapolate short videos into long ones (both forward and backward in time) and perform video upsampling. Most of these tasks are not realizable by current video-specific generation methods.",
+    "link": "http://arxiv.org/abs/2211.11743",
+    "total_tokens": 861,
+    "translated_title": "SinFusion：在单张图像或视频上训练扩散模型",
+    "translated_abstract": "扩散模型在图像和视频生成方面取得了巨大的进展，超过了GAN在质量和多样性方面。然而，它们通常是在非常大的数据集上训练的，并且不自然地适应于操作给定的输入图像或视频。在本文中，我们展示了如何通过在单个输入图像或视频上训练扩散模型来解决这个问题。我们的图像/视频特定扩散模型（SinFusion）学习单个图像或视频的外观和动态，同时利用扩散模型的条件能力。它可以解决各种图像/视频特定的操作任务。特别地，我们的模型可以从少量帧中学习单个输入视频的运动和动态。然后，它可以生成相同动态场景的多样化新视频样本，将短视频推广为长视频（向前和向后）并执行视频上采样。这些任务中的大多数都无法通过当前的视频特定生成方法实现。",
+    "tldr": "本文提出了一种在单张图像或视频上训练扩散模型的方法，称为SinFusion。该模型可以解决各种图像/视频特定的操作任务，包括从少量帧中学习单个输入视频的运动和动态，生成相同动态场景的多样化新视频样本，将短视频推广为长视频（向前和向后）并执行视频上采样。"
+}

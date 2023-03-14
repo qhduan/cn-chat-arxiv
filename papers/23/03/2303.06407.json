@@ -1,0 +1,10 @@
+{
+    "title": "Automatic Detection of Signalling Behaviour from Assistance Dogs as they Forecast the Onset of Epileptic Seizures in Humans. (arXiv:2303.06407v1 [cs.LG])",
+    "abstract": "Epilepsy or the occurrence of epileptic seizures, is one of the world's most well-known neurological disorders affecting millions of people. Seizures mostly occur due to non-coordinated electrical discharges in the human brain and may cause damage, including collapse and loss of consciousness. If the onset of a seizure can be forecast then the subject can be placed into a safe environment or position so that self-injury as a result of a collapse can be minimised. However there are no definitive methods to predict seizures in an everyday, uncontrolled environment. Previous studies have shown that pet dogs have the ability to detect the onset of an epileptic seizure by scenting the characteristic volatile organic compounds exuded through the skin by a subject prior a seizure occurring and there are cases where assistance dogs, trained to scent the onset of a seizure, can signal this to their owner/trainer. In this work we identify how we can automatically detect the signalling behaviours",
+    "link": "http://arxiv.org/abs/2303.06407",
+    "total_tokens": 889,
+    "translated_title": "自动检测辅助犬预测人类癫痫发作时的信号行为",
+    "translated_abstract": "癫痫是世界上最常见的神经系统疾病之一，影响着数百万人。癫痫发作通常是由于人脑中的非协调电放电引起的，可能会造成伤害，包括倒地和失去意识。如果能够预测癫痫发作的开始，那么可以将受试者置于安全的环境或位置，以最小化由于倒地而导致的自我伤害。然而，在日常的不受控制的环境中，没有明确的方法来预测癫痫发作。先前的研究表明，宠物狗有能力通过嗅探受试者在癫痫发作前皮肤散发的特征挥发性有机化合物来检测癫痫发作的开始，有些辅助犬经过训练，可以向其主人/训练员发出信号。在这项工作中，我们确定了如何自动检测信号行为。",
+    "tldr": "本研究探讨了如何自动检测辅助犬预测人类癫痫发作时的信号行为，以提高癫痫患者的生活质量。",
+    "en_tldr": "This study explores how to automatically detect signalling behaviour from assistance dogs as they forecast the onset of epileptic seizures in humans, to improve the quality of life for epilepsy patients."
+}

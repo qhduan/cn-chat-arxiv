@@ -1,0 +1,10 @@
+{
+    "title": "A POV-based Highway Vehicle Trajectory Dataset and Prediction Architecture. (arXiv:2303.06202v1 [cs.CV])",
+    "abstract": "Vehicle Trajectory datasets that provide multiple point-of-views (POVs) can be valuable for various traffic safety and management applications. Despite the abundance of trajectory datasets, few offer a comprehensive and diverse range of driving scenes, capturing multiple viewpoints of various highway layouts, merging lanes, and configurations. This limits their ability to capture the nuanced interactions between drivers, vehicles, and the roadway infrastructure. We introduce the \\emph{Carolinas Highway Dataset (CHD\\footnote{\\emph{CHD} available at: \\url{https://github.com/TeCSAR-UNCC/Carolinas\\_Dataset}})}, a vehicle trajectory, detection, and tracking dataset. \\emph{CHD} is a collection of 1.6 million frames captured in highway-based videos from eye-level and high-angle POVs at eight locations across Carolinas with 338,000 vehicle trajectories. The locations, timing of recordings, and camera angles were carefully selected to capture various road geometries, traffic patterns, lighting ",
+    "link": "http://arxiv.org/abs/2303.06202",
+    "total_tokens": 812,
+    "translated_title": "基于POV的高速公路车辆轨迹数据集和预测架构",
+    "translated_abstract": "提供多个视角（POV）的车辆轨迹数据集对于各种交通安全和管理应用非常有价值。尽管轨迹数据集很丰富，但很少提供全面和多样化的驾驶场景，捕捉各种高速公路布局、合并车道和配置的多个视点。这限制了它们捕捉驾驶员、车辆和道路基础设施之间微妙互动的能力。我们介绍了Carolinas Highway Dataset（CHD），这是一个车辆轨迹、检测和跟踪数据集。CHD是在Carolinas的八个位置拍摄的高速公路视频中捕获的160万帧，包括338,000个车辆轨迹。",
+    "tldr": "介绍了一个基于POV的高速公路车辆轨迹数据集和预测架构，其中的Carolinas Highway Dataset（CHD）包括160万帧和338,000个车辆轨迹。",
+    "en_tldr": "Introducing a POV-based highway vehicle trajectory dataset and prediction architecture, including Carolinas Highway Dataset (CHD) with 1.6 million frames and 338,000 vehicle trajectories captured at eight locations in Carolinas."
+}

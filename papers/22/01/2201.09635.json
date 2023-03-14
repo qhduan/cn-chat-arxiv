@@ -1,0 +1,10 @@
+{
+    "title": "State-Conditioned Adversarial Subgoal Generation. (arXiv:2201.09635v4 [cs.LG] UPDATED)",
+    "abstract": "Hierarchical reinforcement learning (HRL) proposes to solve difficult tasks by performing decision-making and control at successively higher levels of temporal abstraction. However, off-policy HRL often suffers from the problem of a non-stationary high-level policy since the low-level policy is constantly changing. In this paper, we propose a novel HRL approach for mitigating the non-stationarity by adversarially enforcing the high-level policy to generate subgoals compatible with the current instantiation of the low-level policy. In practice, the adversarial learning is implemented by training a simple state-conditioned discriminator network concurrently with the high-level policy which determines the compatibility level of subgoals. Comparison to state-of-the-art algorithms shows that our approach improves both learning efficiency and performance in challenging continuous control tasks.",
+    "link": "http://arxiv.org/abs/2201.09635",
+    "total_tokens": 792,
+    "translated_title": "状态条件对抗子目标生成",
+    "translated_abstract": "分层强化学习（HRL）提出通过在时间抽象的逐步更高的层次上执行决策和控制来解决困难任务。然而，离线HRL经常遭受高层策略不稳定的问题，因为低层策略不断变化。在本文中，我们提出了一种新的HRL方法，通过对抗性地强制高层策略生成与当前低层策略实例兼容的子目标来减轻不稳定性问题。在实践中，对抗性学习是通过同时训练一个简单的状态条件鉴别器网络和决定子目标兼容性水平的高层策略来实现的。与最先进的算法相比，我们的方法在具有挑战性的连续控制任务中提高了学习效率和性能。",
+    "tldr": "本文提出了一种新的分层强化学习方法，通过对抗性学习来减轻高层策略不稳定的问题，提高了学习效率和性能。",
+    "en_tldr": "This paper proposes a novel hierarchical reinforcement learning approach that mitigates the problem of non-stationary high-level policy by adversarially enforcing the generation of subgoals compatible with the current instantiation of the low-level policy, resulting in improved learning efficiency and performance in challenging continuous control tasks."
+}

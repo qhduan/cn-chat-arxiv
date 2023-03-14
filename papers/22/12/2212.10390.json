@@ -1,0 +1,10 @@
+{
+    "title": "UniDA3D: Unified Domain Adaptive 3D Semantic Segmentation Pipeline. (arXiv:2212.10390v4 [cs.CV] UPDATED)",
+    "abstract": "State-of-the-art 3D semantic segmentation models are trained on off-the-shelf public benchmarks, but they will inevitably face the challenge of recognition accuracy drop when these well-trained models are deployed to a new domain. In this paper, we introduce a Unified Domain Adaptive 3D semantic segmentation pipeline (UniDA3D) to enhance the weak generalization ability, and bridge the point distribution gap between domains. Different from previous studies that only focus on a single adaptation task, UniDA3D can tackle several adaptation tasks in 3D segmentation field, by designing a unified source-and-target active sampling strategy, which selects a maximally-informative subset from both source and target domains for effective model adaptation. Besides, benefiting from the rise of multi-modal 2D-3D datasets, UniDA3D investigates the possibility of achieving a multi-modal sampling strategy, by developing a cross-modality feature interaction module that can extract a representative pair ",
+    "link": "http://arxiv.org/abs/2212.10390",
+    "total_tokens": 947,
+    "translated_title": "UniDA3D: 统一的域自适应三维语义分割管道",
+    "translated_abstract": "目前的三维语义分割模型是在现成的公共基准上训练的，但当这些训练良好的模型部署到新领域时，它们将不可避免地面临识别精度下降的挑战。本文介绍了一种统一的域自适应三维语义分割管道（UniDA3D），以增强弱泛化能力，并弥合域之间的点分布差距。与之前只关注单一自适应任务的研究不同，UniDA3D可以通过设计统一的源和目标主动采样策略来解决三维分割领域中的多个自适应任务，该策略从源域和目标域中选择最具信息量的子集以实现有效的模型自适应。此外，受到多模态二维-三维数据集的崛起的影响，UniDA3D探索了实现多模态采样策略的可能性，通过开发跨模态特征交互模块，可以提取代表性对。",
+    "tldr": "本文提出了UniDA3D，一种统一的域自适应三维语义分割管道，通过设计统一的源和目标主动采样策略，可以解决三维分割领域中的多个自适应任务，并探索了实现多模态采样策略的可能性。",
+    "en_tldr": "This paper proposes UniDA3D, a unified domain adaptive 3D semantic segmentation pipeline, which can tackle several adaptation tasks in 3D segmentation field by designing a unified source-and-target active sampling strategy, and investigates the possibility of achieving a multi-modal sampling strategy."
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Bootstrapping Semi-supervised Medical Image Segmentation with Anatomical-aware Contrastive Distillation. (arXiv:2206.02307v4 [cs.CV] UPDATED)",
+    "abstract": "Contrastive learning has shown great promise over annotation scarcity problems in the context of medical image segmentation. Existing approaches typically assume a balanced class distribution for both labeled and unlabeled medical images. However, medical image data in reality is commonly imbalanced (i.e., multi-class label imbalance), which naturally yields blurry contours and usually incorrectly labels rare objects. Moreover, it remains unclear whether all negative samples are equally negative. In this work, we present ACTION, an Anatomical-aware ConTrastive dIstillatiON framework, for semi-supervised medical image segmentation. Specifically, we first develop an iterative contrastive distillation algorithm by softly labeling the negatives rather than binary supervision between positive and negative pairs. We also capture more semantically similar features from the randomly chosen negative set compared to the positives to enforce the diversity of the sampled data. Second, we raise a m",
+    "link": "http://arxiv.org/abs/2206.02307",
+    "total_tokens": 928,
+    "translated_title": "基于解剖感知对比蒸馏的半监督医学图像分割引导启动",
+    "translated_abstract": "对比学习已经在医学图像分割的注释稀缺问题上显示出了巨大的潜力。现有的方法通常假设标记和未标记的医学图像具有平衡的类分布。然而，现实中的医学图像数据通常是不平衡的（即多类标签不平衡），这自然地产生模糊的轮廓并通常错误地标记罕见的对象。此外，所有负样本是否同样负面仍不清楚。在这项工作中，我们提出了ACTION，一种解剖感知对比蒸馏框架，用于半监督医学图像分割。具体而言，我们首先通过软标记负样本而不是正负对之间的二元监督来开发迭代对比蒸馏算法。与正样本相比，我们还从随机选择的负样本集中捕获更多语义上相似的特征，以强制执行采样数据的多样性。其次，我们提出了一种基于解剖感知的启动方法，以更好地利用有限的标记数据。",
+    "tldr": "本文提出了一种基于解剖感知对比蒸馏的半监督医学图像分割引导启动方法，通过软标记负样本和捕获更多语义上相似的特征来解决医学图像数据不平衡的问题。",
+    "en_tldr": "This paper proposes a semi-supervised medical image segmentation bootstrapping method based on anatomical-aware contrastive distillation, which solves the problem of imbalanced medical image data by softly labeling negative samples and capturing more semantically similar features."
+}

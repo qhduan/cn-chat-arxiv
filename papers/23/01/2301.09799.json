@@ -1,0 +1,10 @@
+{
+    "title": "LDMIC: Learning-based Distributed Multi-view Image Coding. (arXiv:2301.09799v2 [eess.IV] UPDATED)",
+    "abstract": "Multi-view image compression plays a critical role in 3D-related applications. Existing methods adopt a predictive coding architecture, which requires joint encoding to compress the corresponding disparity as well as residual information. This demands collaboration among cameras and enforces the epipolar geometric constraint between different views, which makes it challenging to deploy these methods in distributed camera systems with randomly overlapping fields of view. Meanwhile, distributed source coding theory indicates that efficient data compression of correlated sources can be achieved by independent encoding and joint decoding, which motivates us to design a learning-based distributed multi-view image coding (LDMIC) framework. With independent encoders, LDMIC introduces a simple yet effective joint context transfer module based on the cross-attention mechanism at the decoder to effectively capture the global inter-view correlations, which is insensitive to the geometric relation",
+    "link": "http://arxiv.org/abs/2301.09799",
+    "total_tokens": 831,
+    "translated_title": "LDMIC：基于学习的分布式多视图图像编码",
+    "translated_abstract": "多视图图像压缩在3D相关应用中起着至关重要的作用。现有方法采用预测编码架构，需要联合编码压缩相应的视差和残差信息。这要求相机之间进行协作，并强制执行不同视图之间的极线几何约束，这使得在具有随机重叠视野的分布式相机系统中部署这些方法具有挑战性。同时，分布式源编码理论表明，可以通过独立编码和联合解码实现相关源的高效数据压缩，这激发了我们设计基于学习的分布式多视图图像编码（LDMIC）框架的动机。通过独立编码器，LDMIC引入了一个简单而有效的基于交叉注意机制的联合上下文传输模块，以有效捕捉全局视图间的相关性，对几何关系不敏感。",
+    "tldr": "LDMIC是一种基于学习的分布式多视图图像编码框架，通过独立编码器和联合上下文传输模块实现了全局视图间的相关性捕捉，对几何关系不敏感。",
+    "en_tldr": "LDMIC is a learning-based distributed multi-view image coding framework that captures global inter-view correlations through independent encoders and a joint context transfer module based on the cross-attention mechanism, which is insensitive to geometric relations."
+}

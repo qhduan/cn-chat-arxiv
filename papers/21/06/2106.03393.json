@@ -1,0 +1,10 @@
+{
+    "title": "Adversarially Regularized Graph Attention Networks for Inductive Learning on Partially Labeled Graphs. (arXiv:2106.03393v2 [cs.LG] UPDATED)",
+    "abstract": "The high cost of data labeling often results in node label shortage in real applications. To improve node classification accuracy, graph-based semi-supervised learning leverages the ample unlabeled nodes to train together with the scarce available labeled nodes. However, most existing methods require the information of all nodes, including those to be predicted, during model training, which is not practical for dynamic graphs with newly added nodes. To address this issue, an adversarially regularized graph attention model is proposed to classify newly added nodes in a partially labeled graph. An attention-based aggregator is designed to generate the representation of a node by aggregating information from its neighboring nodes, thus naturally generalizing to previously unseen nodes. In addition, adversarial training is employed to improve the model's robustness and generalization ability by enforcing node representations to match a prior distribution. Experiments on real-world datasets",
+    "link": "http://arxiv.org/abs/2106.03393",
+    "total_tokens": 874,
+    "translated_title": "对抗正则化图注意力网络用于部分标记图的归纳学习",
+    "translated_abstract": "在实际应用中，数据标记的高成本经常导致节点标记短缺。为了提高节点分类准确性，基于图的半监督学习利用丰富的未标记节点与稀缺的可用标记节点一起训练。然而，大多数现有方法在模型训练期间需要所有节点的信息，包括要预测的节点，这在具有新添加节点的动态图中不实用。为了解决这个问题，提出了一种对抗正则化图注意力模型，用于在部分标记的图中分类新添加的节点。设计了一种基于注意力的聚合器，通过聚合其相邻节点的信息生成节点的表示，从而自然地推广到以前未见过的节点。此外，采用对抗性训练，通过强制节点表示匹配先验分布来提高模型的鲁棒性和泛化能力。在真实世界的数据集上进行了实验。",
+    "tldr": "本文提出了一种对抗正则化图注意力模型，用于在部分标记的图中分类新添加的节点，通过聚合其相邻节点的信息生成节点的表示，从而自然地推广到以前未见过的节点。",
+    "en_tldr": "This paper proposes an adversarially regularized graph attention model for classifying newly added nodes in a partially labeled graph, which generates the representation of a node by aggregating information from its neighboring nodes and naturally generalizes to previously unseen nodes. Adversarial training is employed to improve the model's robustness and generalization ability."
+}

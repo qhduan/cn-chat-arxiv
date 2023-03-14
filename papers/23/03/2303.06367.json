@@ -1,0 +1,10 @@
+{
+    "title": "Probing neural representations of scene perception in a hippocampally dependent task using artificial neural networks. (arXiv:2303.06367v1 [cs.CV])",
+    "abstract": "Deep artificial neural networks (DNNs) trained through backpropagation provide effective models of the mammalian visual system, accurately capturing the hierarchy of neural responses through primary visual cortex to inferior temporal cortex (IT). However, the ability of these networks to explain representations in higher cortical areas is relatively lacking and considerably less well researched. For example, DNNs have been less successful as a model of the egocentric to allocentric transformation embodied by circuits in retrosplenial and posterior parietal cortex. We describe a novel scene perception benchmark inspired by a hippocampal dependent task, designed to probe the ability of DNNs to transform scenes viewed from different egocentric perspectives. Using a network architecture inspired by the connectivity between temporal lobe structures and the hippocampus, we demonstrate that DNNs trained using a triplet loss can learn this task. Moreover, by enforcing a factorized latent space",
+    "link": "http://arxiv.org/abs/2303.06367",
+    "total_tokens": 864,
+    "translated_title": "利用人工神经网络探究场景感知的神经表征在海马依赖任务中的应用",
+    "translated_abstract": "通过反向传播训练的深度人工神经网络(DNNs)提供了哺乳动物视觉系统的有效模型，准确地捕捉了从初级视觉皮层到下颞皮质(IT)的神经响应层次结构。然而，这些网络解释更高皮层区域的表征能力相对较弱，研究也相对较少。我们描述了一个受海马依赖任务启发的新型场景感知基准，旨在探究DNNs转换从不同自我中心视角观察的场景的能力。使用受颞叶结构和海马之间连接启发的网络架构，我们证明了使用三元组损失训练的DNNs可以学习这个任务。此外，通过强制执行分解的潜在空间",
+    "tldr": "本研究利用人工神经网络探究场景感知的神经表征在海马依赖任务中的应用，设计了一个新型场景感知基准，证明了DNNs可以学习从不同自我中心视角观察的场景的能力。",
+    "en_tldr": "This study uses artificial neural networks to explore neural representations of scene perception in a hippocampally dependent task, and demonstrates that DNNs can learn the ability to transform scenes viewed from different egocentric perspectives, using a novel scene perception benchmark."
+}

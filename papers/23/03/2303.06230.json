@@ -1,0 +1,10 @@
+{
+    "title": "Generating Query Focused Summaries without Fine-tuning the Transformer-based Pre-trained Models. (arXiv:2303.06230v1 [cs.CL])",
+    "abstract": "Fine-tuning the Natural Language Processing (NLP) models for each new data set requires higher computational time associated with increased carbon footprint and cost. However, fine-tuning helps the pre-trained models adapt to the latest data sets; what if we avoid the fine-tuning steps and attempt to generate summaries using just the pre-trained models to reduce computational time and cost. In this paper, we tried to omit the fine-tuning steps and investigate whether the Marginal Maximum Relevance (MMR)-based approach can help the pre-trained models to obtain query-focused summaries directly from a new data set that was not used to pre-train the models. First, we used topic modelling on Wikipedia Current Events Portal (WCEP) and Debatepedia datasets to generate queries for summarization tasks. Then, using MMR, we ranked the sentences of the documents according to the queries. Next, we passed the ranked sentences to seven transformer-based pre-trained models to perform the summarization",
+    "link": "http://arxiv.org/abs/2303.06230",
+    "total_tokens": 917,
+    "translated_title": "不使用微调基于Transformer的预训练模型生成查询聚焦摘要",
+    "translated_abstract": "对于每个新数据集，微调自然语言处理（NLP）模型需要更高的计算时间，伴随着增加的碳足迹和成本。然而，微调有助于预训练模型适应最新的数据集；如果我们避免微调步骤，仅使用预训练模型尝试生成摘要以减少计算时间和成本，会怎样呢？在本文中，我们尝试省略微调步骤，并调查边际最大相关性（MMR）方法是否可以帮助预训练模型直接从未用于预训练模型的新数据集中获得查询聚焦摘要。首先，我们使用主题建模在维基百科当前事件门户（WCEP）和Debatepedia数据集上生成摘要任务的查询。然后，使用MMR，我们根据查询对文档的句子进行排名。接下来，我们将排名后的句子传递给七个基于Transformer的预训练模型来执行摘要。",
+    "tldr": "本文研究了不使用微调基于Transformer的预训练模型生成查询聚焦摘要的方法，使用边际最大相关性（MMR）方法直接从新数据集中获得查询聚焦摘要，避免了微调步骤，减少了计算时间和成本。",
+    "en_tldr": "This paper investigates the method of generating query-focused summaries without fine-tuning transformer-based pre-trained models, using the Marginal Maximum Relevance (MMR) approach to obtain query-focused summaries directly from a new dataset without fine-tuning, reducing computational time and cost."
+}

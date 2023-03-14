@@ -1,0 +1,10 @@
+{
+    "title": "Estimation of Correlation Matrices from Limited time series Data using Machine Learning. (arXiv:2209.01198v4 [cs.LG] UPDATED)",
+    "abstract": "Correlation matrices contain a wide variety of spatio-temporal information about a dynamical system. Predicting correlation matrices from partial time series information of a few nodes characterizes the spatio-temporal dynamics of the entire underlying system. This information can help to predict the underlying network structure, e.g., inferring neuronal connections from spiking data, deducing causal dependencies between genes from expression data, and discovering long spatial range influences in climate variations. Traditional methods of predicting correlation matrices utilize time series data of all the nodes of the underlying networks. Here, we use a supervised machine learning technique to predict the correlation matrix of entire systems from finite time series information of a few randomly selected nodes. The accuracy of the prediction validates that only a limited time series of a subset of the entire system is enough to make good correlation matrix predictions. Furthermore, usin",
+    "link": "http://arxiv.org/abs/2209.01198",
+    "total_tokens": 855,
+    "translated_title": "利用机器学习从有限时间序列数据中估计相关矩阵",
+    "translated_abstract": "相关矩阵包含关于动态系统的各种时空信息。从少数节点的部分时间序列信息预测相关矩阵表征了整个基础系统的时空动态。这些信息有助于预测基础网络结构，例如从尖峰数据推断神经元连接，从表达数据推断基因之间的因果依赖关系，以及发现气候变化中的长距离影响。传统的预测相关矩阵的方法利用基础网络的所有节点的时间序列数据。在这里，我们使用监督机器学习技术从少数随机选择的节点的有限时间序列信息预测整个系统的相关矩阵。预测的准确性验证了只有基础系统的子集的有限时间序列足以进行良好的相关矩阵预测。此外，使用我们的方法可以更好地理解基础系统的时空动态。",
+    "tldr": "本文提出了一种利用机器学习从少数节点的有限时间序列信息预测整个系统相关矩阵的方法，验证了只有基础系统的子集的有限时间序列足以进行良好的相关矩阵预测。",
+    "en_tldr": "This paper proposes a method to predict the correlation matrix of entire systems from finite time series information of a few randomly selected nodes using supervised machine learning, and validates that only a limited time series of a subset of the entire system is enough to make good correlation matrix predictions."
+}

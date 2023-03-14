@@ -1,0 +1,10 @@
+{
+    "title": "Intelligent diagnostic scheme for lung cancer screening with Raman spectra data by tensor network machine learning. (arXiv:2303.06340v1 [q-bio.QM])",
+    "abstract": "Artificial intelligence (AI) has brought tremendous impacts on biomedical sciences from academic researches to clinical applications, such as in biomarkers' detection and diagnosis, optimization of treatment, and identification of new therapeutic targets in drug discovery. However, the contemporary AI technologies, particularly deep machine learning (ML), severely suffer from non-interpretability, which might uncontrollably lead to incorrect predictions. Interpretability is particularly crucial to ML for clinical diagnosis as the consumers must gain necessary sense of security and trust from firm grounds or convincing interpretations. In this work, we propose a tensor-network (TN)-ML method to reliably predict lung cancer patients and their stages via screening Raman spectra data of Volatile organic compounds (VOCs) in exhaled breath, which are generally suitable as biomarkers and are considered to be an ideal way for non-invasive lung cancer screening. The prediction of TN-ML is based",
+    "link": "http://arxiv.org/abs/2303.06340",
+    "total_tokens": 918,
+    "translated_title": "基于张量网络机器学习的Raman光谱数据肺癌智能诊断方案",
+    "translated_abstract": "人工智能（AI）已经在生物医学科学中带来了巨大的影响，从学术研究到临床应用，例如生物标志物的检测和诊断、治疗优化以及药物发现中新的治疗靶点的识别。然而，当代AI技术，特别是深度机器学习（ML），严重受到非可解释性的影响，这可能会不可控地导致错误的预测。对于ML的可解释性尤其重要，因为消费者必须从坚实的基础或令人信服的解释中获得必要的安全感和信任感。在这项工作中，我们提出了一种基于张量网络（TN）-ML方法的方案，通过筛查呼出气中挥发性有机化合物（VOC）的Raman光谱数据，可可靠地预测肺癌患者及其阶段，这些数据通常适用于生物标志物，并被认为是非侵入性肺癌筛查的理想方式。TN-ML的预测基于",
+    "tldr": "本文提出了一种基于张量网络机器学习的方案，通过筛查呼出气中挥发性有机化合物（VOC）的Raman光谱数据，可可靠地预测肺癌患者及其阶段。",
+    "en_tldr": "This paper proposes a tensor-network machine learning method to reliably predict lung cancer patients and their stages via screening Raman spectra data of Volatile organic compounds (VOCs) in exhaled breath."
+}

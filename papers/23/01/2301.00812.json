@@ -1,0 +1,10 @@
+{
+    "title": "One-shot domain adaptation in video-based assessment of surgical skills. (arXiv:2301.00812v3 [cs.CV] UPDATED)",
+    "abstract": "Deep Learning (DL) has achieved automatic and objective assessment of surgical skills. However, DL models are data-hungry and restricted to their training domain. This prevents them from transitioning to new tasks where data is limited. Hence, domain adaptation is crucial to implement DL in real life. Here, we propose a meta-learning model, A-VBANet, that can deliver domain-agnostic surgical skill classification via one-shot learning. We develop the A-VBANet on five laparoscopic and robotic surgical simulators. Additionally, we test it on operating room (OR) videos of laparoscopic cholecystectomy. Our model successfully adapts with accuracies up to 99.5% in one-shot and 99.9% in few-shot settings for simulated tasks and 89.7% for laparoscopic cholecystectomy. For the first time, we provide a domain-agnostic procedure for video-based assessment of surgical skills. A significant implication of this approach is that it allows the use of data from surgical simulators to assess performance ",
+    "link": "http://arxiv.org/abs/2301.00812",
+    "total_tokens": 1017,
+    "translated_title": "一次性领域自适应在基于视频的手术技能评估中的应用",
+    "translated_abstract": "深度学习已经实现了手术技能的自动和客观评估。然而，深度学习模型需要大量数据，并且受限于其训练领域。这阻止了它们过渡到数据有限的新任务。因此，领域自适应对于在现实生活中实现深度学习至关重要。在这里，我们提出了一种元学习模型A-VBANet，它可以通过一次性学习提供领域不可知的手术技能分类。我们在五个腹腔镜和机器人手术模拟器上开发了A-VBANet。此外，我们在腹腔镜胆囊切除术的手术室视频上进行了测试。我们的模型成功地适应了模拟任务，准确率高达99.5%（一次性）和99.9%（少量样本），在腹腔镜胆囊切除术中的准确率为89.7%。我们首次提供了基于视频的手术技能评估的领域不可知程序。这种方法的一个重要影响是它允许使用来自手术模拟器的数据来评估手术表现。",
+    "tldr": "本文提出了一种元学习模型A-VBANet，可以通过一次性学习提供领域不可知的手术技能分类，成功地适应了模拟任务和腹腔镜胆囊切除术，为基于视频的手术技能评估提供了领域不可知程序。",
+    "en_tldr": "This paper proposes a meta-learning model, A-VBANet, that can deliver domain-agnostic surgical skill classification via one-shot learning. The model successfully adapts to simulated tasks and laparoscopic cholecystectomy, providing a domain-agnostic procedure for video-based assessment of surgical skills."
+}

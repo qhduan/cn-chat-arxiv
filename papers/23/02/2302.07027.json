@@ -1,0 +1,10 @@
+{
+    "title": "AdapterSoup: Weight Averaging to Improve Generalization of Pretrained Language Models. (arXiv:2302.07027v2 [cs.CL] UPDATED)",
+    "abstract": "Pretrained language models (PLMs) are trained on massive corpora, but often need to specialize to specific domains. A parameter-efficient adaptation method suggests training an adapter for each domain on the task of language modeling. This leads to good in-domain scores but can be impractical for domain- or resource-restricted settings. A solution is to use a related-domain adapter for the novel domain at test time. In this paper, we introduce AdapterSoup, an approach that performs weight-space averaging of adapters trained on different domains. Our approach is embarrassingly parallel: first, we train a set of domain-specific adapters; then, for each novel domain, we determine which adapters should be averaged at test time. We present extensive experiments showing that AdapterSoup consistently improves performance to new domains without extra training. We also explore weight averaging of adapters trained on the same domain with different hyper-parameters, and show that it preserves the",
+    "link": "http://arxiv.org/abs/2302.07027",
+    "total_tokens": 946,
+    "translated_title": "AdapterSoup：使用加权平均改善预训练语言模型的泛化能力",
+    "translated_abstract": "预训练语言模型（PLMs）在大规模语料库上进行训练，但通常需要专门针对特定领域进行特化。一种参数有效的适应方法建议在语言建模任务上为每个领域训练一个适配器。这导致了良好的领域内得分，但在领域或资源受限的情况下可能不切实际。解决方案是在测试时使用相关领域适配器来处理新领域。在本文中，我们介绍了AdapterSoup，一种在不同领域训练的适配器上执行权重空间平均的方法。我们的方法是令人尴尬的并行的：首先，我们训练一组特定领域的适配器；然后，对于每个新领域，我们确定在测试时应平均哪些适配器。我们进行了大量实验，表明AdapterSoup始终提高了对新领域的性能，而无需额外的训练。我们还探讨了在不同超参数下训练的相同领域适配器的权重平均，并表明它可以保留",
+    "tldr": "本文提出了AdapterSoup，一种使用加权平均改善预训练语言模型泛化能力的方法。该方法在不同领域训练的适配器上执行权重空间平均，可以在不需要额外训练的情况下提高对新领域的性能。",
+    "en_tldr": "AdapterSoup is a method that uses weight averaging to improve the generalization ability of pretrained language models. It performs weight-space averaging of adapters trained on different domains, and can improve performance to new domains without extra training."
+}

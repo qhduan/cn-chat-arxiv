@@ -1,0 +1,10 @@
+{
+    "title": "Pre-trained Language Models in Biomedical Domain: A Systematic Survey. (arXiv:2110.05006v3 [cs.CL] UPDATED)",
+    "abstract": "Pre-trained language models (PLMs) have been the de facto paradigm for most natural language processing (NLP) tasks. This also benefits biomedical domain: researchers from informatics, medicine, and computer science (CS) communities propose various PLMs trained on biomedical datasets, e.g., biomedical text, electronic health records, protein, and DNA sequences for various biomedical tasks. However, the cross-discipline characteristics of biomedical PLMs hinder their spreading among communities; some existing works are isolated from each other without comprehensive comparison and discussions. It expects a survey that not only systematically reviews recent advances of biomedical PLMs and their applications but also standardizes terminology and benchmarks. In this paper, we summarize the recent progress of pre-trained language models in the biomedical domain and their applications in biomedical downstream tasks. Particularly, we discuss the motivations and propose a taxonomy of existing b",
+    "link": "http://arxiv.org/abs/2110.05006",
+    "total_tokens": 857,
+    "translated_title": "生物医学领域中的预训练语言模型：系统调查",
+    "translated_abstract": "预训练语言模型（PLMs）已成为大多数自然语言处理（NLP）任务的事实标准。这也有益于生物医学领域：来自信息学、医学和计算机科学（CS）社区的研究人员提出了各种在生物医学数据集上训练的PLMs，例如生物医学文本、电子健康记录、蛋白质和DNA序列，用于各种生物医学任务。然而，生物医学PLMs的跨学科特性阻碍了它们在社区之间的传播；一些现有的工作相互孤立，缺乏全面的比较和讨论。期望一项调查，不仅系统地审查生物医学PLMs及其应用的最新进展，而且标准化术语和基准。在本文中，我们总结了生物医学领域中预训练语言模型的最新进展以及它们在生物医学下游任务中的应用。特别是，我们讨论了动机并提出了现有生物医学PLMs的分类法。",
+    "tldr": "本文系统调查了生物医学领域中的预训练语言模型，总结了它们的最新进展和应用，并提出了分类法。",
+    "en_tldr": "This paper systematically surveys pre-trained language models in the biomedical domain, summarizes their recent progress and applications, and proposes a taxonomy."
+}

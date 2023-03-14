@@ -1,0 +1,10 @@
+{
+    "title": "Stabilizing Transformer Training by Preventing Attention Entropy Collapse. (arXiv:2303.06296v1 [cs.LG])",
+    "abstract": "Training stability is of great importance to Transformers. In this work, we investigate the training dynamics of Transformers by examining the evolution of the attention layers. In particular, we track the attention entropy for each attention head during the course of training, which is a proxy for model sharpness. We identify a common pattern across different architectures and tasks, where low attention entropy is accompanied by high training instability, which can take the form of oscillating loss or divergence. We denote the pathologically low attention entropy, corresponding to highly concentrated attention scores, as $\\textit{entropy collapse}$. As a remedy, we propose $\\sigma$Reparam, a simple and efficient solution where we reparametrize all linear layers with spectral normalization and an additional learned scalar. We demonstrate that the proposed reparameterization successfully prevents entropy collapse in the attention layers, promoting more stable training. Additionally, we ",
+    "link": "http://arxiv.org/abs/2303.06296",
+    "total_tokens": 889,
+    "translated_title": "防止注意力熵崩溃的Transformer训练稳定性研究",
+    "translated_abstract": "训练稳定性对于Transformer至关重要。本文通过研究注意力层的演变来探究Transformer的训练动态。特别地，我们在训练过程中跟踪每个注意力头的注意力熵，这是模型锐度的代理。我们发现，在不同的架构和任务中存在一种常见模式，即低注意力熵伴随着高训练不稳定性，这可能采取振荡损失或发散的形式。我们将病态低注意力熵，对应高度集中的注意力分数，称为$\\textit{熵崩溃}$。作为一种解决方案，我们提出了$\\sigma$Reparam，一种简单而有效的解决方案，其中我们使用谱归一化和额外的学习标量重新参数化所有线性层。我们证明了所提出的重新参数化成功地防止了注意力层中的熵崩溃，促进了更稳定的训练。此外，我们",
+    "tldr": "本文研究了Transformer的训练动态，发现低注意力熵伴随着高训练不稳定性，提出了一种简单而有效的解决方案$\\sigma$Reparam，成功地防止了注意力层中的熵崩溃，促进了更稳定的训练。",
+    "en_tldr": "This paper investigates the training dynamics of Transformers and proposes a simple and efficient solution, $\\sigma$Reparam, to prevent entropy collapse in the attention layers, promoting more stable training."
+}

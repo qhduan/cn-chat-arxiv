@@ -1,0 +1,10 @@
+{
+    "title": "Dunhuang murals contour generation network based on convolution and self-attention fusion. (arXiv:2212.00935v2 [cs.CV] UPDATED)",
+    "abstract": "Dunhuang murals are a collection of Chinese style and national style, forming a self-contained Chinese-style Buddhist art. It has very high historical and cultural value and research significance. Among them, the lines of Dunhuang murals are highly general and expressive. It reflects the character's distinctive character and complex inner emotions. Therefore, the outline drawing of murals is of great significance to the research of Dunhuang Culture. The contour generation of Dunhuang murals belongs to image edge detection, which is an important branch of computer vision, aims to extract salient contour information in images. Although convolution-based deep learning networks have achieved good results in image edge extraction by exploring the contextual and semantic features of images. However, with the enlargement of the receptive field, some local detail information is lost. This makes it impossible for them to generate reasonable outline drawings of murals. In this paper, we propose ",
+    "link": "http://arxiv.org/abs/2212.00935",
+    "total_tokens": 963,
+    "translated_title": "基于卷积和自注意力融合的敦煌壁画轮廓生成网络",
+    "translated_abstract": "敦煌壁画是中国风格和民族风格的集合，形成了一个独立的中国式佛教艺术。它具有非常高的历史和文化价值以及研究意义。其中，敦煌壁画的线条高度概括和表现力强，反映了角色独特的性格和复杂的内心情感。因此，壁画的轮廓图对于敦煌文化的研究具有重要意义。敦煌壁画的轮廓生成属于图像边缘检测，是计算机视觉的重要分支，旨在提取图像中显著的轮廓信息。虽然基于卷积的深度学习网络通过探索图像的上下文和语义特征在图像边缘提取方面取得了良好的结果。但是，随着感受野的扩大，一些局部细节信息会丢失。这使得它们无法生成合理的壁画轮廓图。在本文中，我们提出了一种基于卷积和自注意力融合的敦煌壁画轮廓生成网络。",
+    "tldr": "本文提出了一种基于卷积和自注意力融合的敦煌壁画轮廓生成网络，旨在解决传统卷积神经网络在感受野扩大时丢失局部细节信息的问题，以生成合理的壁画轮廓图。",
+    "en_tldr": "This paper proposes a Dunhuang murals contour generation network based on convolution and self-attention fusion, aiming to solve the problem of losing local detail information when the receptive field is enlarged in traditional convolutional neural networks, in order to generate reasonable mural contour drawings."
+}

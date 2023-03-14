@@ -1,0 +1,10 @@
+{
+    "title": "A Survey on Automated Design of Metaheuristic Algorithms. (arXiv:2303.06532v1 [cs.NE])",
+    "abstract": "Metaheuristic algorithms have attracted wide attention from academia and industry due to their capability of conducting search independent of problem structures and problem domains. Often, human experts are requested to manually tailor algorithms to fit for solving a targeted problem. The manual tailoring process may be laborious, error-prone, and require intensive specialized knowledge. This gives rise to increasing interests and demands for automated design of metaheuristic algorithms with less human intervention. The automated design could make high-performance algorithms accessible to a much broader range of researchers and practitioners; and by leveraging computing power to fully explore the potential design choices, automated design could reach or even surpass human-level design. This paper presents a broad picture of the formalization, methodologies, challenges, and research trends of automated design of metaheuristic algorithms, by conducting a survey on the common grounds and ",
+    "link": "http://arxiv.org/abs/2303.06532",
+    "total_tokens": 855,
+    "translated_title": "自动设计元启发式算法的综述",
+    "translated_abstract": "元启发式算法由于其能够独立于问题结构和问题领域进行搜索的能力，已经引起了学术界和工业界的广泛关注。通常，需要人类专家手动调整算法以适应解决目标问题。手动调整过程可能是费力的、容易出错的，并且需要大量的专业知识。这引起了对自动设计元启发式算法的越来越多的兴趣和需求，以减少人类干预。自动设计可以使高性能算法对更广泛的研究人员和实践者可用；通过利用计算能力来充分探索潜在的设计选择，自动设计可以达到甚至超过人类水平的设计。本文通过对现有工作的共同点和差异进行调查，提出了自动设计元启发式算法的形式化、方法论、挑战和研究趋势的广泛概述。我们还讨论了这一领域的潜在未来方向和开放问题。",
+    "tldr": "本文综述了自动设计元启发式算法的形式化、方法论、挑战和研究趋势，讨论了自动设计的潜在未来方向和开放问题。",
+    "en_tldr": "This paper presents a broad picture of the formalization, methodologies, challenges, and research trends of automated design of metaheuristic algorithms, and discusses the potential future directions and open issues in this field."
+}

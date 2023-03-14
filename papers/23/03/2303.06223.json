@@ -1,0 +1,10 @@
+{
+    "title": "Who's Thinking? A Push for Human-Centered Evaluation of LLMs using the XAI Playbook. (arXiv:2303.06223v1 [cs.HC])",
+    "abstract": "Deployed artificial intelligence (AI) often impacts humans, and there is no one-size-fits-all metric to evaluate these tools. Human-centered evaluation of AI-based systems combines quantitative and qualitative analysis and human input. It has been explored to some depth in the explainable AI (XAI) and human-computer interaction (HCI) communities. Gaps remain, but the basic understanding that humans interact with AI and accompanying explanations, and that humans' needs -- complete with their cognitive biases and quirks -- should be held front and center, is accepted by the community. In this paper, we draw parallels between the relatively mature field of XAI and the rapidly evolving research boom around large language models (LLMs). Accepted evaluative metrics for LLMs are not human-centered. We argue that many of the same paths tread by the XAI community over the past decade will be retread when discussing LLMs. Specifically, we argue that humans' tendencies -- again, complete with the",
+    "link": "http://arxiv.org/abs/2303.06223",
+    "total_tokens": 969,
+    "translated_title": "谁在思考？使用XAI Playbook推动以人为中心的LLMs评估",
+    "translated_abstract": "部署的人工智能（AI）经常影响人类，而评估这些工具没有一种适合所有情况的度量标准。以人为中心的AI系统评估结合了定量和定性分析以及人类输入。它已经在可解释的AI（XAI）和人机交互（HCI）社区中得到了深入探讨。仍然存在差距，但社区已经接受了人类与AI及其附带的解释进行交互，以及应该将人类的需求（包括他们的认知偏见和怪癖）放在首位的基本理解。在本文中，我们将相对成熟的XAI领域与快速发展的大型语言模型（LLMs）研究热潮之间进行了类比。接受的LLMs评估指标不是以人为中心的。我们认为，在讨论LLMs时，XAI社区在过去十年中走过的许多相同路径将被重新踏上。具体而言，我们认为人类的倾向 - 再次完全包括他们的认知偏见和怪癖 - 应该成为LLMs评估的核心。",
+    "tldr": "本文探讨了以人为中心的人工智能系统评估，将相对成熟的可解释AI领域与快速发展的大型语言模型研究进行了类比，认为人类的需求应该成为LLMs评估的核心。",
+    "en_tldr": "This paper explores human-centered evaluation of AI-based systems, drawing parallels between the relatively mature field of explainable AI and the rapidly evolving research boom around large language models. The authors argue that humans' needs should be held front and center in evaluating LLMs."
+}

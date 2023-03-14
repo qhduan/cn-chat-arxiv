@@ -1,0 +1,10 @@
+{
+    "title": "Towards Targeted Change Detection with Heterogeneous Remote Sensing Images for Forest Mortality Mapping. (arXiv:2203.00049v2 [cs.CV] UPDATED)",
+    "abstract": "Several generic methods have recently been developed for change detection in heterogeneous remote sensing data, such as images from synthetic aperture radar (SAR) and multispectral radiometers. However, these are not well suited to detect weak signatures of certain disturbances of ecological systems. To resolve this problem we propose a new approach based on image-to-image translation and one-class classification (OCC). We aim to map forest mortality caused by an outbreak of geometrid moths in a sparsely forested forest-tundra ecotone using multisource satellite images. The images preceding and following the event are collected by Landsat-5 and RADARSAT-2, respectively. Using a recent deep learning method for change-aware image translation, we compute difference images in both satellites' respective domains. These differences are stacked with the original pre- and post-event images and passed to an OCC trained on a small sample from the targeted change class. The classifier produces a ",
+    "link": "http://arxiv.org/abs/2203.00049",
+    "total_tokens": 945,
+    "translated_title": "面向异构遥感图像的目标变化检测，用于森林死亡率映射",
+    "translated_abstract": "最近已经开发了几种用于异构遥感数据（例如合成孔径雷达（SAR）和多光谱辐射计）的变化检测的通用方法。然而，这些方法不适合检测生态系统某些干扰的弱信号。为了解决这个问题，我们提出了一种基于图像到图像转换和单类分类（OCC）的新方法。我们旨在使用多源卫星图像绘制由几何蛾爆发引起的森林死亡率在稀疏森林-苔原生态过渡带中的地图。事件前和事件后的图像分别由Landsat-5和RADARSAT-2收集。使用最近的深度学习方法进行变化感知图像转换，我们在两个卫星各自的域中计算差异图像。这些差异与原始的事件前和事件后的图像堆叠，并传递给在目标变化类的小样本上训练的OCC。分类器产生一个",
+    "tldr": "本文提出了一种基于图像到图像转换和单类分类的新方法，用于检测生态系统某些干扰的弱信号，以绘制由几何蛾爆发引起的森林死亡率在稀疏森林-苔原生态过渡带中的地图。",
+    "en_tdlr": "This paper proposes a new approach based on image-to-image translation and one-class classification (OCC) to detect weak signals of certain disturbances of ecological systems, in order to map forest mortality caused by an outbreak of geometrid moths in a sparsely forested forest-tundra ecotone using multisource satellite images."
+}

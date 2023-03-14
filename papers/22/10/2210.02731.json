@@ -1,0 +1,10 @@
+{
+    "title": "PSVRF: Learning to restore Pitch-Shifted Voice without reference. (arXiv:2210.02731v2 [cs.SD] UPDATED)",
+    "abstract": "Pitch scaling algorithms have a significant impact on the security of Automatic Speaker Verification (ASV) systems. Although numerous anti-spoofing algorithms have been proposed to identify the pitch-shifted voice and even restore it to the original version, they either have poor performance or require the original voice as a reference, limiting the prospects of applications. In this paper, we propose a no-reference approach termed PSVRF$^1$ for high-quality restoration of pitch-shifted voice. Experiments on AISHELL-1 and AISHELL-3 demonstrate that PSVRF can restore the voice disguised by various pitch-scaling techniques, which obviously enhances the robustness of ASV systems to pitch-scaling attacks. Furthermore, the performance of PSVRF even surpasses that of the state-of-the-art reference-based approach.",
+    "link": "http://arxiv.org/abs/2210.02731",
+    "total_tokens": 784,
+    "translated_title": "PSVRF: 无参考学习还原变调语音",
+    "translated_abstract": "音高缩放算法对自动说话人验证（ASV）系统的安全性有重要影响。虽然已经提出了许多反欺骗算法来识别变调语音并将其恢复到原始版本，但它们要么性能较差，要么需要原始语音作为参考，限制了应用前景。本文提出了一种无参考方法PSVRF，用于高质量还原变调语音。在AISHELL-1和AISHELL-3上的实验表明，PSVRF可以恢复被各种音高缩放技术伪装的语音，显然增强了ASV系统对音高缩放攻击的鲁棒性。此外，PSVRF的性能甚至超过了最先进的基于参考的方法。",
+    "tldr": "本文提出了一种无参考方法PSVRF，用于高质量还原变调语音，可以增强ASV系统对音高缩放攻击的鲁棒性，性能甚至超过了最先进的基于参考的方法。",
+    "en_tldr": "This paper proposes a no-reference approach called PSVRF for high-quality restoration of pitch-shifted voice, which enhances the robustness of ASV systems to pitch-scaling attacks and even outperforms the state-of-the-art reference-based approach."
+}

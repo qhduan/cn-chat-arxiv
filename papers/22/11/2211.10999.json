@@ -1,0 +1,10 @@
+{
+    "title": "LA-VocE: Low-SNR Audio-visual Speech Enhancement using Neural Vocoders. (arXiv:2211.10999v2 [cs.SD] UPDATED)",
+    "abstract": "Audio-visual speech enhancement aims to extract clean speech from a noisy environment by leveraging not only the audio itself but also the target speaker's lip movements. This approach has been shown to yield improvements over audio-only speech enhancement, particularly for the removal of interfering speech. Despite recent advances in speech synthesis, most audio-visual approaches continue to use spectral mapping/masking to reproduce the clean audio, often resulting in visual backbones added to existing speech enhancement architectures. In this work, we propose LA-VocE, a new two-stage approach that predicts mel-spectrograms from noisy audio-visual speech via a transformer-based architecture, and then converts them into waveform audio using a neural vocoder (HiFi-GAN). We train and evaluate our framework on thousands of speakers and 11+ different languages, and study our model's ability to adapt to different levels of background noise and speech interference. Our experiments show that ",
+    "link": "http://arxiv.org/abs/2211.10999",
+    "total_tokens": 956,
+    "translated_title": "LA-VocE: 使用神经声码器的低信噪比音频视觉语音增强",
+    "translated_abstract": "音频视觉语音增强旨在通过利用音频本身以及目标说话者的唇部运动从嘈杂的环境中提取干净的语音。这种方法已经被证明比仅使用音频的语音增强方法更有效，特别是对于消除干扰语音。尽管语音合成方面取得了最近的进展，但大多数音频视觉方法仍然使用频谱映射/掩蔽来重现干净的音频，通常会在现有的语音增强架构中添加视觉骨干。在这项工作中，我们提出了LA-VocE，一种新的两阶段方法，通过基于Transformer的架构从嘈杂的音频视觉语音预测mel频谱图，然后使用神经声码器（HiFi-GAN）将它们转换为波形音频。我们在数千个说话者和11种以上不同的语言上训练和评估我们的框架，并研究我们的模型适应不同水平的背景噪声和语音干扰的能力。我们的实验表明",
+    "tldr": "LA-VocE是一种新的音频视觉语音增强方法，使用神经声码器将从嘈杂的音频视觉语音预测的mel频谱图转换为波形音频，适用于多种语言和不同水平的背景噪声和语音干扰。",
+    "en_tldr": "LA-VocE is a new audio-visual speech enhancement method that uses a neural vocoder to convert mel-spectrograms predicted from noisy audio-visual speech via a transformer-based architecture into waveform audio, and is applicable to multiple languages and different levels of background noise and speech interference."
+}

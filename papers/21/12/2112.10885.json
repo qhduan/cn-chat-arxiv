@@ -1,0 +1,9 @@
+{
+    "title": "PRONTO: Preamble Overhead Reduction with Neural Networks for Coarse Synchronization. (arXiv:2112.10885v3 [cs.LG] UPDATED)",
+    "abstract": "In IEEE 802.11 WiFi-based waveforms, the receiver performs coarse time and frequency synchronization using the first field of the preamble known as the legacy short training field (L-STF). The L-STF occupies upto 40% of the preamble length and takes upto 32 us of airtime. With the goal of reducing communication overhead, we propose a modified waveform, where the preamble length is reduced by eliminating the L-STF. To decode this modified waveform, we propose a neural network (NN)-based scheme called PRONTO that performs coarse time and frequency estimations using other preamble fields, specifically the legacy long training field (L-LTF). Our contributions are threefold: (i) We present PRONTO featuring customized convolutional neural networks (CNNs) for packet detection and coarse carrier frequency offset (CFO) estimation, along with data augmentation steps for robust training. (ii) We propose a generalized decision flow that makes PRONTO compatible with legacy waveforms that include th",
+    "link": "http://arxiv.org/abs/2112.10885",
+    "total_tokens": 926,
+    "translated_title": "PRONTO：基于神经网络的粗同步中的前导开销减少",
+    "translated_abstract": "在IEEE 802.11 WiFi基础波形中，接收器使用前导的第一个字段（称为传统短训练场（L-STF））执行粗略的时间和频率同步。 L-STF占据了前导长度的高达40％，需要长达32微秒的空气时间。为了减少通信开销，我们提出了一种修改后的波形，其中通过消除L-STF来缩短前导长度。为了解码这种修改后的波形，我们提出了一种基于神经网络（NN）的方案，称为PRONTO，它使用其他前导字段（特别是传统的长训练场（L-LTF））执行粗略的时间和频率估计。我们的贡献有三个：（i）我们提出了PRONTO，其中包括用于数据检测和粗略载波频率偏移（CFO）估计的定制卷积神经网络（CNN），以及用于强化训练的数据增强步骤。 （ii）我们提出了一种广义决策流程，使PRONTO与包括th在内的传统波形兼容",
+    "tldr": "本文提出了一种名为PRONTO的基于神经网络的方案，用于在WiFi基础波形中执行粗略的时间和频率同步，以减少前导开销。该方案通过消除传统短训练场（L-STF）来缩短前导长度，并使用其他前导字段（特别是传统的长训练场（L-LTF））执行估计。"
+}

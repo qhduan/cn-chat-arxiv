@@ -1,0 +1,10 @@
+{
+    "title": "Learning Similarity Metrics for Volumetric Simulations with Multiscale CNNs. (arXiv:2202.04109v2 [cs.LG] UPDATED)",
+    "abstract": "Simulations that produce three-dimensional data are ubiquitous in science, ranging from fluid flows to plasma physics. We propose a similarity model based on entropy, which allows for the creation of physically meaningful ground truth distances for the similarity assessment of scalar and vectorial data, produced from transport and motion-based simulations. Utilizing two data acquisition methods derived from this model, we create collections of fields from numerical PDE solvers and existing simulation data repositories. Furthermore, a multiscale CNN architecture that computes a volumetric similarity metric (VolSiM) is proposed. To the best of our knowledge this is the first learning method inherently designed to address the challenges arising for the similarity assessment of high-dimensional simulation data. Additionally, the tradeoff between a large batch size and an accurate correlation computation for correlation-based loss functions is investigated, and the metric's invariance with ",
+    "link": "http://arxiv.org/abs/2202.04109",
+    "total_tokens": 863,
+    "translated_title": "基于多尺度CNN的体积模拟相似度度量学习",
+    "translated_abstract": "三维数据模拟在科学中应用广泛，从流体流动到等离子物理。本文提出了一种基于熵的相似度模型，允许创建物理上有意义的基准距离，用于评估基于运输和运动的模拟产生的标量和矢量数据的相似度。利用从该模型导出的两种数据采集方法，我们创建了从数值PDE求解器和现有模拟数据存储库中收集的场集合。此外，我们提出了一种多尺度CNN架构，用于计算体积相似度度量（VolSiM）。据我们所知，这是第一种天然设计用于解决高维模拟数据相似度评估挑战的学习方法。此外，我们还研究了基于相关损失函数的大批量大小和准确相关计算之间的权衡，并研究了该度量的不变性。",
+    "tldr": "本文提出了一种基于熵的相似度模型，用于评估基于运输和运动的模拟产生的标量和矢量数据的相似度，并提出了一种多尺度CNN架构，用于计算体积相似度度量（VolSiM）。",
+    "en_tldr": "This paper proposes a similarity model based on entropy for assessing the similarity of scalar and vectorial data produced from transport and motion-based simulations, and a multiscale CNN architecture for computing a volumetric similarity metric (VolSiM)."
+}

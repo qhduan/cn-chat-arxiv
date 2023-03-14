@@ -1,0 +1,10 @@
+{
+    "title": "Inertial Updating. (arXiv:2303.06336v1 [econ.TH])",
+    "abstract": "We introduce and characterize inertial updating of beliefs. Under inertial updating, a decision maker (DM) chooses a belief that minimizes the subjective distance between their prior belief and the set of beliefs consistent with the observed event. Importantly, by varying the subjective notion of distance, inertial updating provides a unifying framework that nests three different types of belief updating: (i) Bayesian updating, (ii) non-Bayesian updating rules, and (iii) updating rules for events with zero probability, including the conditional probability system (CPS) of Myerson (1986a,b). We demonstrate that our model is behaviorally equivalent to the Hypothesis Testing model (HT) of Ortoleva (2012), clarifying the connection between HT and CPS. We apply our model to a persuasion game.",
+    "link": "http://arxiv.org/abs/2303.06336",
+    "total_tokens": 882,
+    "translated_title": "惯性更新",
+    "translated_abstract": "我们介绍并表征了惯性更新信念。在惯性更新下，决策者（DM）选择一种信念，该信念最小化其先验信念与观察事件一致的信念集之间的主观距离。重要的是，通过改变主观距离的概念，惯性更新提供了一个统一的框架，嵌套了三种不同类型的信念更新：（i）贝叶斯更新，（ii）非贝叶斯更新规则，以及（iii）针对概率为零的事件的更新规则，包括Myerson（1986a，b）的条件概率系统（CPS）。我们证明了我们的模型在行为上等同于Ortoleva（2012）的假设检验模型（HT），澄清了HT和CPS之间的联系。我们将我们的模型应用于一种说服游戏。",
+    "tldr": "本文提出了一种惯性更新信念的方法，通过改变主观距离的概念，提供了一个统一的框架，嵌套了三种不同类型的信念更新，包括贝叶斯更新、非贝叶斯更新规则和针对概率为零的事件的更新规则。作者证明了该模型等同于假设检验模型，将其应用于一种说服游戏。",
+    "en_tldr": "This paper proposes a method of inertial updating of beliefs, which provides a unified framework that nests three different types of belief updating, including Bayesian updating, non-Bayesian updating rules, and updating rules for events with zero probability. The authors demonstrate that the model is behaviorally equivalent to the Hypothesis Testing model and apply it to a persuasion game."
+}

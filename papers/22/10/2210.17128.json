@@ -1,0 +1,10 @@
+{
+    "title": "Diffusion models for missing value imputation in tabular data. (arXiv:2210.17128v2 [cs.LG] UPDATED)",
+    "abstract": "Missing value imputation in machine learning is the task of estimating the missing values in the dataset accurately using available information. In this task, several deep generative modeling methods have been proposed and demonstrated their usefulness, e.g., generative adversarial imputation networks. Recently, diffusion models have gained popularity because of their effectiveness in the generative modeling task in images, texts, audio, etc. To our knowledge, less attention has been paid to the investigation of the effectiveness of diffusion models for missing value imputation in tabular data. Based on recent development of diffusion models for time-series data imputation, we propose a diffusion model approach called \"Conditional Score-based Diffusion Models for Tabular data\" (TabCSDI). To effectively handle categorical variables and numerical variables simultaneously, we investigate three techniques: one-hot encoding, analog bits encoding, and feature tokenization. Experimental resul",
+    "link": "http://arxiv.org/abs/2210.17128",
+    "total_tokens": 891,
+    "translated_title": "表格数据中的缺失值插补扩散模型",
+    "translated_abstract": "机器学习中的缺失值插补是使用可用信息准确估计数据集中缺失值的任务。在这个任务中，已经提出了几种深度生成建模方法，并证明了它们的有用性，例如生成对抗插补网络。最近，扩散模型因其在图像、文本、音频等生成建模任务中的有效性而受到关注。据我们所知，对于表格数据中缺失值插补的扩散模型的有效性研究还不够。基于最近对于时间序列数据插补的扩散模型的发展，我们提出了一种名为“表格数据条件分数扩散模型”（TabCSDI）的扩散模型方法。为了有效地同时处理分类变量和数值变量，我们研究了三种技术：独热编码、模拟位编码和特征标记化。实验结果表明，我们的方法在各种数据集上都取得了优异的性能。",
+    "tldr": "本文提出了一种名为“表格数据条件分数扩散模型”（TabCSDI）的扩散模型方法，用于处理表格数据中的缺失值插补，该方法同时处理分类变量和数值变量，实验结果表明其在各种数据集上都取得了优异的性能。",
+    "en_tldr": "This paper proposes a diffusion model approach called \"Conditional Score-based Diffusion Models for Tabular data\" (TabCSDI) for missing value imputation in tabular data, which effectively handles categorical variables and numerical variables simultaneously, and achieves excellent performance on various datasets."
+}

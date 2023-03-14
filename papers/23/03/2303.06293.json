@@ -1,0 +1,10 @@
+{
+    "title": "Space-Invariant Projection in Streaming Network Embedding. (arXiv:2303.06293v1 [cs.SI])",
+    "abstract": "Newly arriving nodes in dynamics networks would gradually make the node embedding space drifted and the retraining of node embedding and downstream models indispensable. An exact threshold size of these new nodes, below which the node embedding space will be predicatively maintained, however, is rarely considered in either theory or experiment. From the view of matrix perturbation theory, a threshold of the maximum number of new nodes that keep the node embedding space approximately equivalent is analytically provided and empirically validated. It is therefore theoretically guaranteed that as the size of newly arriving nodes is below this threshold, embeddings of these new nodes can be quickly derived from embeddings of original nodes. A generation framework, Space-Invariant Projection (SIP), is accordingly proposed to enables arbitrary static MF-based embedding schemes to embed new nodes in dynamics networks fast. The time complexity of SIP is linear with the network size. By combinin",
+    "link": "http://arxiv.org/abs/2303.06293",
+    "total_tokens": 879,
+    "translated_title": "流式网络嵌入中的空间不变投影",
+    "translated_abstract": "动态网络中新到达的节点会逐渐使节点嵌入空间漂移，因此需要重新训练节点嵌入和下游模型。然而，很少有人在理论或实验中考虑这些新节点的确切阈值大小，即使这些新节点的大小低于某个阈值，节点嵌入空间也很难被维护。本文从矩阵扰动理论的角度提供了一个最大新节点数量的阈值，该阈值使节点嵌入空间保持近似等效，并经过了实证验证。因此，理论上保证了当新到达节点的数量低于此阈值时，这些新节点的嵌入可以快速从原始节点的嵌入中导出。因此，提出了一种生成框架，称为空间不变投影（SIP），使任意静态MF嵌入方案能够快速嵌入动态网络中的新节点。SIP的时间复杂度与网络大小成线性关系。",
+    "tldr": "本文提供了一个最大新节点数量的阈值，该阈值使节点嵌入空间保持近似等效，并提出了一种生成框架，称为空间不变投影（SIP），使任意静态MF嵌入方案能够快速嵌入动态网络中的新节点。",
+    "en_tldr": "This paper provides a threshold for the maximum number of new nodes that keep the node embedding space approximately equivalent, and proposes a generation framework called Space-Invariant Projection (SIP) to enable fast embedding of new nodes in dynamic networks using any static MF-based embedding scheme."
+}

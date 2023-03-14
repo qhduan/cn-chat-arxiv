@@ -1,0 +1,10 @@
+{
+    "title": "Learning to Influence Human Behavior with Offline Reinforcement Learning. (arXiv:2303.02265v2 [cs.AI] UPDATED)",
+    "abstract": "In the real world, some of the most complex settings for learned agents involve interaction with humans, who often exhibit suboptimal, unpredictable behavior due to sophisticated biases. Agents that interact with people in such settings end up influencing the actions that these people take. Our goal in this work is to enable agents to leverage that influence to improve the human's performance in collaborative tasks, as the task unfolds. Unlike prior work, we do not assume online training with people (which tends to be too expensive and unsafe), nor access to a high fidelity simulator of the environment. Our idea is that by taking a variety of previously observed human-human interaction data and labeling it with the task reward, offline reinforcement learning (RL) can learn to combine components of behavior, and uncover actions that lead to more desirable human actions. First, we show that offline RL can learn strategies to influence and improve human behavior, despite those strategies ",
+    "link": "http://arxiv.org/abs/2303.02265",
+    "total_tokens": 862,
+    "translated_title": "通过离线强化学习学习影响人类行为",
+    "translated_abstract": "在现实世界中，学习代理与人类互动是最复杂的设置之一，因为人类往往由于复杂的偏见而表现出次优的、不可预测的行为。在这种情况下与人类互动的代理最终会影响这些人所采取的行动。我们的目标是使代理能够利用这种影响来提高人类在协作任务中的表现，随着任务的展开。与以前的工作不同，我们不假设与人员进行在线培训（这往往太昂贵和不安全），也不假设有高保真度环境模拟器的访问权限。我们的想法是，通过采用各种先前观察到的人类-人类交互数据并将其标记为任务奖励，离线强化学习（RL）可以学习组合行为的组件，并发现导致更理想的人类行为的行动。首先，我们展示了离线RL可以学习策略来影响和改善人类行为，尽管这些策略可能与人类的期望不同。",
+    "tldr": "本文提出了一种通过离线强化学习学习影响人类行为的方法，可以提高人类在协作任务中的表现。",
+    "en_tldr": "This paper proposes a method of learning to influence human behavior through offline reinforcement learning, which can improve human performance in collaborative tasks."
+}

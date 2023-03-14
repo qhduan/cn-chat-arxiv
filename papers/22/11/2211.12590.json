@@ -1,0 +1,10 @@
+{
+    "title": "Deep Neural Mel-Subband Beamformer for In-car Speech Separation. (arXiv:2211.12590v2 [eess.AS] UPDATED)",
+    "abstract": "While current deep learning (DL)-based beamforming techniques have been proved effective in speech separation, they are often designed to process narrow-band (NB) frequencies independently which results in higher computational costs and inference times, making them unsuitable for real-world use. In this paper, we propose DL-based mel-subband spatio-temporal beamformer to perform speech separation in a car environment with reduced computation cost and inference time. As opposed to conventional subband (SB) approaches, our framework uses a mel-scale based subband selection strategy which ensures a fine-grained processing for lower frequencies where most speech formant structure is present, and coarse-grained processing for higher frequencies. In a recursive way, robust frame-level beamforming weights are determined for each speaker location/zone in a car from the estimated subband speech and noise covariance matrices. Furthermore, proposed framework also estimates and suppresses any echo",
+    "link": "http://arxiv.org/abs/2211.12590",
+    "total_tokens": 923,
+    "translated_title": "深度神经Mel-Subband波束成形器用于车载语音分离",
+    "translated_abstract": "当前的深度学习（DL）基于波束成形技术已被证明在语音分离中有效，但它们通常被设计为独立处理窄带（NB）频率，这导致更高的计算成本和推理时间，使它们不适合实际应用。在本文中，我们提出了基于DL的Mel-Subband时空波束成形器，以在车载环境中进行语音分离，从而降低计算成本和推理时间。与传统的子带（SB）方法相反，我们的框架使用基于Mel尺度的子带选择策略，确保对大多数语音共振结构存在的低频进行细粒度处理，对高频进行粗粒度处理。以递归方式，从估计的子带语音和噪声协方差矩阵中确定每个扬声器位置/区域的鲁棒帧级波束成形权重。此外，所提出的框架还估计并抑制任何回声。",
+    "tldr": "本文提出了一种基于DL的Mel-Subband时空波束成形器，用于在车载环境中进行语音分离，通过基于Mel尺度的子带选择策略，实现对低频的细粒度处理和对高频的粗粒度处理，降低了计算成本和推理时间。",
+    "en_tldr": "This paper proposes a DL-based Mel-Subband spatio-temporal beamformer for speech separation in a car environment, which reduces computational costs and inference time by using a Mel-scale based subband selection strategy for fine-grained processing of lower frequencies and coarse-grained processing of higher frequencies."
+}

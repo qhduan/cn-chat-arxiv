@@ -1,0 +1,10 @@
+{
+    "title": "Learning Sparse Graphon Mean Field Games. (arXiv:2209.03880v3 [cs.MA] UPDATED)",
+    "abstract": "Although the field of multi-agent reinforcement learning (MARL) has made considerable progress in the last years, solving systems with a large number of agents remains a hard challenge. Graphon mean field games (GMFGs) enable the scalable analysis of MARL problems that are otherwise intractable. By the mathematical structure of graphons, this approach is limited to dense graphs which are insufficient to describe many real-world networks such as power law graphs. Our paper introduces a novel formulation of GMFGs, called LPGMFGs, which leverages the graph theoretical concept of $L^p$ graphons and provides a machine learning tool to efficiently and accurately approximate solutions for sparse network problems. This especially includes power law networks which are empirically observed in various application areas and cannot be captured by standard graphons. We derive theoretical existence and convergence guarantees and give empirical examples that demonstrate the accuracy of our learning ap",
+    "link": "http://arxiv.org/abs/2209.03880",
+    "total_tokens": 958,
+    "translated_title": "学习稀疏图形均场博弈",
+    "translated_abstract": "尽管多智能体强化学习（MARL）领域在过去几年中取得了相当大的进展，但解决具有大量代理的系统仍然是一个难题。图形均场博弈（GMFG）使得可以对否则难以处理的MARL问题进行可扩展的分析。由于图形的数学结构，这种方法仅限于描述许多现实世界网络（如幂律图）的稠密图形，这是不足的。我们的论文介绍了GMFG的新型公式，称为LPGMFG，它利用$L^p$图形的图形理论概念，并提供了一种机器学习工具，以有效且准确地近似解决稀疏网络问题。这尤其包括在各种应用领域中经验观察到的幂律网络，这些网络无法被标准图形所捕捉。我们推导出理论存在和收敛保证，并给出了实证例子，证明了我们的学习方法的准确性。",
+    "tldr": "本文提出了一种新型的GMFG公式，称为LPGMFG，它利用$L^p$图形的图形理论概念，提供了一种机器学习工具，以有效且准确地近似解决稀疏网络问题，特别是幂律网络。我们推导出理论存在和收敛保证，并给出了实证例子，证明了我们的学习方法的准确性。",
+    "en_tldr": "This paper proposes a novel formulation of GMFGs, called LPGMFG, which leverages the graph theoretical concept of $L^p$ graphons and provides a machine learning tool to efficiently and accurately approximate solutions for sparse network problems, especially power law networks. The paper derives theoretical existence and convergence guarantees and gives empirical examples that demonstrate the accuracy of the learning method."
+}

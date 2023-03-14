@@ -1,7 +1,7 @@
 name: Fetch arxiv daily
 on:
   schedule:
-    - cron: '30 8 * * *' # 中国1日的16:30，就是UTC时间1日的08:30
+    - cron: '0 9,21 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest

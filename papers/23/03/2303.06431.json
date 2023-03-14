@@ -1,0 +1,10 @@
+{
+    "title": "Anomaly Detection with Ensemble of Encoder and Decoder. (arXiv:2303.06431v1 [cs.LG])",
+    "abstract": "Hacking and false data injection from adversaries can threaten power grids' everyday operations and cause significant economic loss. Anomaly detection in power grids aims to detect and discriminate anomalies caused by cyber attacks against the power system, which is essential for keeping power grids working correctly and efficiently. Different methods have been applied for anomaly detection, such as statistical methods and machine learning-based methods. Usually, machine learning-based methods need to model the normal data distribution. In this work, we propose a novel anomaly detection method by modeling the data distribution of normal samples via multiple encoders and decoders. Specifically, the proposed method maps input samples into a latent space and then reconstructs output samples from latent vectors. The extra encoder finally maps reconstructed samples to latent representations. During the training phase, we optimize parameters by minimizing the reconstruction loss and encoding",
+    "link": "http://arxiv.org/abs/2303.06431",
+    "total_tokens": 897,
+    "translated_title": "带有编码器和解码器集成的异常检测",
+    "translated_abstract": "黑客和虚假数据注入可能会威胁电网的日常运营并造成重大经济损失。电网中的异常检测旨在检测和区分由针对电力系统的网络攻击引起的异常，这对于保持电网的正常运行和高效至关重要。已经应用了不同的方法进行异常检测，例如统计方法和基于机器学习的方法。通常，基于机器学习的方法需要对正常数据分布进行建模。在这项工作中，我们提出了一种新颖的异常检测方法，通过多个编码器和解码器对正常样本的数据分布进行建模。具体而言，所提出的方法将输入样本映射到潜在空间，然后从潜在向量中重构输出样本。额外的编码器最终将重构的样本映射到潜在表示。在训练阶段，我们通过最小化重构损失和编码来优化参数。",
+    "tldr": "本文提出了一种新颖的异常检测方法，通过多个编码器和解码器对正常样本的数据分布进行建模，将输入样本映射到潜在空间，然后从潜在向量中重构输出样本，最终将重构的样本映射到潜在表示。在训练阶段，通过最小化重构损失和编码来优化参数。",
+    "en_tldr": "This paper proposes a novel anomaly detection method by modeling the data distribution of normal samples via multiple encoders and decoders, mapping input samples into a latent space, reconstructing output samples from latent vectors, and mapping reconstructed samples to latent representations. Parameters are optimized during the training phase by minimizing the reconstruction loss and encoding."
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Unifying Grokking and Double Descent. (arXiv:2303.06173v1 [cs.LG])",
+    "abstract": "A principled understanding of generalization in deep learning may require unifying disparate observations under a single conceptual framework. Previous work has studied \\emph{grokking}, a training dynamic in which a sustained period of near-perfect training performance and near-chance test performance is eventually followed by generalization, as well as the superficially similar \\emph{double descent}. These topics have so far been studied in isolation. We hypothesize that grokking and double descent can be understood as instances of the same learning dynamics within a framework of pattern learning speeds. We propose that this framework also applies when varying model capacity instead of optimization steps, and provide the first demonstration of model-wise grokking.",
+    "link": "http://arxiv.org/abs/2303.06173",
+    "total_tokens": 737,
+    "translated_title": "统一理解Grokking和双重下降",
+    "translated_abstract": "在深度学习中，对泛化的原则性理解可能需要将不同的观察结果统一到一个概念框架下。以前的工作研究了“Grokking”，这是一种训练动态，其中持续的近乎完美的训练表现和近乎偶然的测试表现最终会导致泛化，以及表面上类似的“双重下降”。到目前为止，这些主题已经被孤立地研究。我们假设Grokking和双重下降可以被理解为模式学习速度框架内相同学习动态的实例。我们提出，当改变模型容量而不是优化步骤时，该框架也适用，并提供了模型智能Grokking的第一个演示。",
+    "tldr": "本文提出了一种模式学习速度框架，用于统一理解Grokking和双重下降，同时提供了模型智能Grokking的第一个演示。",
+    "en_tldr": "This paper proposes a framework of pattern learning speeds to unify the understanding of Grokking and double descent, and provides the first demonstration of model-wise Grokking."
+}

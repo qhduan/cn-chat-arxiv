@@ -1,0 +1,10 @@
+{
+    "title": "Understanding the Synergies between Quality-Diversity and Deep Reinforcement Learning. (arXiv:2303.06164v1 [cs.LG])",
+    "abstract": "The synergies between Quality-Diversity (QD) and Deep Reinforcement Learning (RL) have led to powerful hybrid QD-RL algorithms that have shown tremendous potential, and brings the best of both fields. However, only a single deep RL algorithm (TD3) has been used in prior hybrid methods despite notable progress made by other RL algorithms. Additionally, there are fundamental differences in the optimization procedures between QD and RL which would benefit from a more principled approach. We propose Generalized Actor-Critic QD-RL, a unified modular framework for actor-critic deep RL methods in the QD-RL setting. This framework provides a path to study insights from Deep RL in the QD-RL setting, which is an important and efficient way to make progress in QD-RL. We introduce two new algorithms, PGA-ME (SAC) and PGA-ME (DroQ) which apply recent advancements in Deep RL to the QD-RL setting, and solves the humanoid environment which was not possible using existing QD-RL algorithms. However, we ",
+    "link": "http://arxiv.org/abs/2303.06164",
+    "total_tokens": 1037,
+    "translated_title": "理解质量多样性和深度强化学习之间的协同作用",
+    "translated_abstract": "质量多样性（QD）和深度强化学习（RL）之间的协同作用已经导致了强大的混合QD-RL算法，展示了巨大的潜力，并带来了两个领域的最佳实践。然而，尽管其他RL算法取得了显著进展，但在先前的混合方法中仅使用了单个深度RL算法（TD3）。此外，QD和RL之间的优化过程存在根本差异，需要更加原则性的方法。我们提出了广义演员-评论家QD-RL，这是一个统一的模块化框架，用于QD-RL设置中的演员-评论家深度RL方法。该框架提供了一条研究深度RL在QD-RL设置中的见解的路径，这是在QD-RL中取得进展的重要且有效的方法。我们引入了两种新算法，PGA-ME（SAC）和PGA-ME（DroQ），将深度RL的最新进展应用于QD-RL设置，并解决了现有QD-RL算法无法解决的人形环境问题。",
+    "tldr": "本文提出了广义演员-评论家QD-RL框架，用于QD-RL设置中的演员-评论家深度RL方法。该框架引入了两种新算法，PGA-ME（SAC）和PGA-ME（DroQ），将深度RL的最新进展应用于QD-RL设置，并解决了现有QD-RL算法无法解决的人形环境问题。",
+    "en_tldr": "This paper proposes a Generalized Actor-Critic QD-RL framework for actor-critic deep RL methods in the QD-RL setting. The framework introduces two new algorithms, PGA-ME (SAC) and PGA-ME (DroQ), which apply recent advancements in Deep RL to the QD-RL setting and solve the humanoid environment problem that existing QD-RL algorithms cannot solve."
+}

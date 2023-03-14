@@ -1,0 +1,10 @@
+{
+    "title": "Uconv-Conformer: High Reduction of Input Sequence Length for End-to-End Speech Recognition. (arXiv:2208.07657v3 [eess.AS] UPDATED)",
+    "abstract": "Optimization of modern ASR architectures is among the highest priority tasks since it saves many computational resources for model training and inference. The work proposes a new Uconv-Conformer architecture based on the standard Conformer model. It consistently reduces the input sequence length by 16 times, which results in speeding up the work of the intermediate layers. To solve the convergence issue connected with such a significant reduction of the time dimension, we use upsampling blocks like in the U-Net architecture to ensure the correct CTC loss calculation and stabilize network training. The Uconv-Conformer architecture appears to be not only faster in terms of training and inference speed but also shows better WER compared to the baseline Conformer. Our best Uconv-Conformer model shows 47.8% and 23.5% inference acceleration on the CPU and GPU, respectively. Relative WER reduction is 7.3% and 9.2% on LibriSpeech test_clean and test_other respectively.",
+    "link": "http://arxiv.org/abs/2208.07657",
+    "total_tokens": 901,
+    "translated_title": "Uconv-Conformer: 针对端到端语音识别的输入序列长度大幅缩减的新型架构",
+    "translated_abstract": "优化现代ASR架构是最高优先级的任务之一，因为它可以节省模型训练和推理的许多计算资源。本文提出了一种基于标准Conformer模型的新型Uconv-Conformer架构。它通过16倍的一致性缩短输入序列长度，从而加速了中间层的工作。为了解决与时间维度大幅缩减相关的收敛问题，我们使用了像U-Net架构中的上采样块来确保正确的CTC损失计算和稳定网络训练。Uconv-Conformer架构不仅在训练和推理速度方面更快，而且与基线Conformer相比，表现出更好的WER。我们最好的Uconv-Conformer模型在CPU和GPU上分别显示出47.8％和23.5％的推理加速。相对WER的减少分别为7.3％和9.2％。",
+    "tldr": "本文提出了一种新型Uconv-Conformer架构，可以将输入序列长度缩短16倍，加速中间层的工作，同时通过使用上采样块解决了收敛问题，表现出更好的WER和更快的训练和推理速度。",
+    "en_tldr": "The paper proposes a new Uconv-Conformer architecture that reduces the input sequence length by 16 times, speeds up the work of intermediate layers, and solves the convergence issue by using upsampling blocks. The Uconv-Conformer architecture shows better WER and faster training and inference speed."
+}

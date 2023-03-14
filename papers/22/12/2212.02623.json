@@ -1,0 +1,10 @@
+{
+    "title": "Unifying Vision, Text, and Layout for Universal Document Processing. (arXiv:2212.02623v3 [cs.CV] UPDATED)",
+    "abstract": "We propose Universal Document Processing (UDOP), a foundation Document AI model which unifies text, image, and layout modalities together with varied task formats, including document understanding and generation. UDOP leverages the spatial correlation between textual content and document image to model image, text, and layout modalities with one uniform representation. With a novel Vision-Text-Layout Transformer, UDOP unifies pretraining and multi-domain downstream tasks into a prompt-based sequence generation scheme. UDOP is pretrained on both large-scale unlabeled document corpora using innovative self-supervised objectives and diverse labeled data. UDOP also learns to generate document images from text and layout modalities via masked image reconstruction. To the best of our knowledge, this is the first time in the field of document AI that one model simultaneously achieves high-quality neural document editing and content customization. Our method sets the state-of-the-art on 8 Docu",
+    "link": "http://arxiv.org/abs/2212.02623",
+    "total_tokens": 895,
+    "translated_title": "统一视觉、文本和布局的通用文档处理",
+    "translated_abstract": "我们提出了通用文档处理（UDOP），这是一个基础的文档AI模型，它将文本、图像和布局模态以及各种任务格式（包括文档理解和生成）统一起来。UDOP利用文本内容和文档图像之间的空间相关性，用一个统一的表示来建模图像、文本和布局模态。通过一种新颖的Vision-Text-Layout Transformer，UDOP将预训练和多域下游任务统一到基于提示的序列生成方案中。UDOP在大规模无标签文档语料库和多样化标记数据上使用创新的自监督目标进行预训练。UDOP还通过遮蔽图像重建学习从文本和布局模态生成文档图像。据我们所知，这是文档AI领域中第一次使用一个模型同时实现高质量的神经文档编辑和内容定制。我们的方法在8个文档处理基准数据集上取得了最先进的结果。",
+    "tldr": "本文提出了通用文档处理（UDOP）模型，将文本、图像和布局模态以及各种任务格式统一起来，通过一种新颖的Transformer模型实现预训练和多域下游任务的统一，同时实现了高质量的神经文档编辑和内容定制。",
+    "en_tldr": "This paper proposes the Universal Document Processing (UDOP) model, which unifies text, image, and layout modalities together with varied task formats, and achieves pretraining and multi-domain downstream tasks unification through a novel Transformer model. It also achieves high-quality neural document editing and content customization."
+}

@@ -1,0 +1,10 @@
+{
+    "title": "LOCUS: A Novel Decomposition Method for Brain Network Connectivity Matrices using Low-rank Structure with Uniform Sparsity. (arXiv:2008.08915v2 [stat.ML] UPDATED)",
+    "abstract": "Network-oriented research has been increasingly popular in many scientific areas. In neuroscience research, imaging-based network connectivity measures have become the key for understanding brain organizations, potentially serving as individual neural fingerprints. There are major challenges in analyzing connectivity matrices including the high dimensionality of brain networks, unknown latent sources underlying the observed connectivity, and the large number of brain connections leading to spurious findings. In this paper, we propose a novel blind source separation method with low-rank structure and uniform sparsity (LOCUS) as a fully data-driven decomposition method for network measures. Compared with the existing method that vectorizes connectivity matrices ignoring brain network topology, LOCUS achieves more efficient and accurate source separation for connectivity matrices using low-rank structure. We propose a novel angle-based uniform sparsity regularization that demonstrates bet",
+    "link": "http://arxiv.org/abs/2008.08915",
+    "total_tokens": 906,
+    "translated_title": "LOCUS：一种使用低秩结构和均匀稀疏性的大脑网络连接矩阵分解新方法",
+    "translated_abstract": "网络导向研究在许多科学领域中越来越受欢迎。在神经科学研究中，基于成像的网络连接度量已成为理解大脑组织的关键，可能作为个体神经指纹。分析连接矩阵存在主要挑战，包括大脑网络的高维度，观察到的连接下面的未知潜在源以及导致虚假发现的大量脑连接。在本文中，我们提出了一种新的盲源分离方法，即具有低秩结构和均匀稀疏性（LOCUS）的完全数据驱动分解方法，用于网络度量。与将连接矩阵向量化并忽略大脑网络拓扑的现有方法相比，LOCUS使用低秩结构实现了更有效和准确的连接矩阵源分离。我们提出了一种新的基于角度的均匀稀疏正则化，证明了其在连接矩阵分解中的优越性。",
+    "tldr": "LOCUS是一种新的大脑网络连接矩阵分解方法，使用低秩结构和均匀稀疏性，能够更有效和准确地分离连接矩阵源，有望成为理解大脑组织的关键。",
+    "en_tldr": "LOCUS is a novel method for decomposing brain network connectivity matrices using low-rank structure and uniform sparsity, which achieves more efficient and accurate source separation and has the potential to serve as a key for understanding brain organizations."
+}

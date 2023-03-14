@@ -1,0 +1,10 @@
+{
+    "title": "The Unfairness of Fair Machine Learning: Levelling down and strict egalitarianism by default. (arXiv:2302.02404v3 [cs.AI] UPDATED)",
+    "abstract": "In recent years fairness in machine learning (ML) has emerged as a highly active area of research and development. Most define fairness in simple terms, where fairness means reducing gaps in performance or outcomes between demographic groups while preserving as much of the accuracy of the original system as possible. This oversimplification of equality through fairness measures is troubling. Many current fairness measures suffer from both fairness and performance degradation, or \"levelling down,\" where fairness is achieved by making every group worse off, or by bringing better performing groups down to the level of the worst off. When fairness can only be achieved by making everyone worse off in material or relational terms through injuries of stigma, loss of solidarity, unequal concern, and missed opportunities for substantive equality, something would appear to have gone wrong in translating the vague concept of 'fairness' into practice. This paper examines the causes and prevalence ",
+    "link": "http://arxiv.org/abs/2302.02404",
+    "total_tokens": 863,
+    "translated_title": "公平机器学习的不公平性：默认的水平下降和严格平等主义",
+    "translated_abstract": "近年来，机器学习中的公平性已成为一个高度活跃的研究和开发领域。大多数人简单地定义公平性，即公平意味着减少不同人群之间的表现或结果差距，同时尽可能保留原始系统的准确性。这种通过公平性措施简化平等的做法令人不安。许多当前的公平性措施既存在公平性和性能降级，或者“水平下降”，即通过使每个群体变得更糟或将表现更好的群体降到最差的水平来实现公平性。当公平只能通过在物质或关系方面使每个人变得更糟而实现，通过污名化、团结的损失、不平等的关注和错过实质平等的机会，似乎在将模糊的“公平”概念转化为实践时出现了问题。本文探讨了造成这种现象的原因和普遍性。",
+    "tldr": "公平机器学习的定义过于简单，许多公平性措施会导致性能降级和水平下降，使每个人都变得更糟，这种做法不符合实质平等的机会。",
+    "en_tldr": "The oversimplification of fairness in machine learning leads to performance degradation and leveling down, which does not achieve substantive equality."
+}

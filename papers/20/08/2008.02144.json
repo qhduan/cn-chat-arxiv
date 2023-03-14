@@ -1,0 +1,10 @@
+{
+    "title": "FRMDN: Flow-based Recurrent Mixture Density Network. (arXiv:2008.02144v2 [cs.LG] UPDATED)",
+    "abstract": "The class of recurrent mixture density networks is an important class of probabilistic models used extensively in sequence modeling and sequence-to-sequence mapping applications. In this class of models, the density of a target sequence in each time-step is modeled by a Gaussian mixture model with the parameters given by a recurrent neural network. In this paper, we generalize recurrent mixture density networks by defining a Gaussian mixture model on a non-linearly transformed target sequence in each time-step. The non-linearly transformed space is created by normalizing flow. We observed that this model significantly improves the fit to image sequences measured by the log-likelihood. We also applied the proposed model on some speech and image data, and observed that the model has significant modeling power outperforming other state-of-the-art methods in terms of the log-likelihood.",
+    "link": "http://arxiv.org/abs/2008.02144",
+    "total_tokens": 865,
+    "translated_title": "FRMDN: 基于流的循环混合密度网络",
+    "translated_abstract": "循环混合密度网络是一类重要的概率模型，广泛应用于序列建模和序列到序列映射应用中。在这类模型中，目标序列在每个时间步的密度由具有循环神经网络参数的高斯混合模型建模。本文通过在每个时间步上定义一个高斯混合模型，将循环混合密度网络推广到非线性变换的目标序列上。非线性变换空间是通过归一化流创建的。我们观察到，该模型显著提高了图像序列的拟合度，用对数似然度量。我们还将所提出的模型应用于一些语音和图像数据，并观察到该模型具有显著的建模能力，在对数似然度量方面优于其他最先进的方法。",
+    "tldr": "本文提出了一种基于流的循环混合密度网络，通过在每个时间步上定义一个高斯混合模型，将循环混合密度网络推广到非线性变换的目标序列上，该模型在图像序列的拟合度上表现显著，具有显著的建模能力，在对数似然度量方面优于其他最先进的方法。",
+    "en_tldr": "This paper proposes a flow-based recurrent mixture density network (FRMDN) that generalizes recurrent mixture density networks by defining a Gaussian mixture model on a non-linearly transformed target sequence in each time-step. The model significantly improves the fit to image sequences and outperforms other state-of-the-art methods in terms of the log-likelihood."
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Lossless Point Cloud Geometry and Attribute Compression Using a Learned Conditional Probability Model. (arXiv:2303.06519v1 [eess.IV])",
+    "abstract": "In recent years, we have witnessed the presence of point cloud data in many aspects of our life, from immersive media, autonomous driving to healthcare, although at the cost of a tremendous amount of data. In this paper, we present an efficient lossless point cloud compression method that uses sparse tensor-based deep neural networks to learn point cloud geometry and color probability distributions. Our method represents a point cloud with both occupancy feature and three attribute features at different bit depths in a unified sparse representation. This allows us to efficiently exploit feature-wise and point-wise dependencies within point clouds using a sparse tensor-based neural network and thus build an accurate auto-regressive context model for an arithmetic coder. To the best of our knowledge, this is the first learning-based lossless point cloud geometry and attribute compression approach. Compared with the-state-of-the-art lossless point cloud compression method from Moving Pict",
+    "link": "http://arxiv.org/abs/2303.06519",
+    "total_tokens": 901,
+    "translated_title": "使用学习的条件概率模型进行无损点云几何和属性压缩",
+    "translated_abstract": "近年来，我们在生活的许多方面都见证了点云数据的存在，从沉浸式媒体、自动驾驶到医疗保健，但代价是巨大的数据量。本文提出了一种高效的无损点云压缩方法，使用稀疏张量深度神经网络学习点云几何和颜色概率分布。我们的方法使用统一的稀疏表示将点云表示为具有不同位深度的占用特征和三个属性特征。这使我们能够使用稀疏张量神经网络有效地利用点云内的特征和点内依赖关系，从而为算术编码器构建准确的自回归上下文模型。据我们所知，这是第一个基于学习的无损点云几何和属性压缩方法。与Moving Pict的最新无损点云压缩方法相比，我们的方法在保持无损压缩的同时，具有更高的压缩比和更快的压缩速度。",
+    "tldr": "本文提出了一种使用稀疏张量深度神经网络学习点云几何和颜色概率分布的高效无损点云压缩方法，具有更高的压缩比和更快的压缩速度。",
+    "en_tldr": "This paper proposes an efficient lossless point cloud compression method that uses sparse tensor-based deep neural networks to learn point cloud geometry and color probability distributions, achieving higher compression ratio and faster compression speed compared to the state-of-the-art method from Moving Pict."
+}

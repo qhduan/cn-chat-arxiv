@@ -1,0 +1,10 @@
+{
+    "title": "Automatically Extracting Information in Medical Dialogue: Expert System And Attention for Labelling. (arXiv:2211.15544v2 [cs.CL] UPDATED)",
+    "abstract": "Medical dialogue information extraction is becoming an increasingly significant problem in modern medical care. It is difficult to extract key information from electronic medical records (EMRs) due to their large numbers. Previously, researchers proposed attention-based models for retrieving features from EMRs, but their limitations were reflected in their inability to recognize different categories in medical dialogues. In this paper, we propose a novel model, Expert System and Attention for Labelling (ESAL). We use mixture of experts and pre-trained BERT to retrieve the semantics of different categories, enabling the model to fuse the differences between them. In our experiment, ESAL was applied to a public dataset and the experimental results indicated that ESAL significantly improved the performance of Medical Information Classification.",
+    "link": "http://arxiv.org/abs/2211.15544",
+    "total_tokens": 812,
+    "translated_title": "自动提取医疗对话中的信息：专家系统和标注注意力",
+    "translated_abstract": "医疗对话信息提取正在成为现代医疗保健中越来越重要的问题。由于电子病历（EMR）数量庞大，从中提取关键信息是困难的。以前，研究人员提出了基于注意力的模型来从EMR中检索特征，但它们的局限性在于无法识别医疗对话中的不同类别。在本文中，我们提出了一种新颖的模型，即专家系统和标注注意力（ESAL）。我们使用专家混合和预训练的BERT来检索不同类别的语义，使模型能够融合它们之间的差异。在我们的实验中，ESAL被应用于一个公共数据集，实验结果表明ESAL显著提高了医疗信息分类的性能。",
+    "tldr": "本文提出了一种新颖的模型ESAL，使用专家混合和预训练的BERT来检索不同类别的语义，使模型能够融合它们之间的差异。实验结果表明ESAL显著提高了医疗信息分类的性能。",
+    "en_tldr": "This paper proposes a novel model ESAL, which uses mixture of experts and pre-trained BERT to retrieve the semantics of different categories, enabling the model to fuse the differences between them. The experimental results indicate that ESAL significantly improves the performance of Medical Information Classification."
+}

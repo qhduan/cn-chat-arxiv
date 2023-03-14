@@ -1,0 +1,10 @@
+{
+    "title": "Enhancing Protein Language Models with Structure-based Encoder and Pre-training. (arXiv:2303.06275v1 [q-bio.QM])",
+    "abstract": "Protein language models (PLMs) pre-trained on large-scale protein sequence corpora have achieved impressive performance on various downstream protein understanding tasks. Despite the ability to implicitly capture inter-residue contact information, transformer-based PLMs cannot encode protein structures explicitly for better structure-aware protein representations. Besides, the power of pre-training on available protein structures has not been explored for improving these PLMs, though structures are important to determine functions. To tackle these limitations, in this work, we enhance the PLMs with structure-based encoder and pre-training. We first explore feasible model architectures to combine the advantages of a state-of-the-art PLM (i.e., ESM-1b1) and a state-of-the-art protein structure encoder (i.e., GearNet). We empirically verify the ESM-GearNet that connects two encoders in a series way as the most effective combination model. To further improve the effectiveness of ESM-GearNe",
+    "link": "http://arxiv.org/abs/2303.06275",
+    "total_tokens": 822,
+    "translated_title": "结合基于结构的编码器和预训练的蛋白质语言模型的增强",
+    "translated_abstract": "在大规模蛋白质序列语料库上预训练的蛋白质语言模型（PLMs）在各种下游蛋白质理解任务中取得了令人印象深刻的表现。尽管能够隐式地捕获残基间的接触信息，但基于变压器的PLMs不能明确地编码蛋白质结构，以获得更好的结构感知蛋白质表示。此外，尽管结构对于确定功能很重要，但尚未探索在可用蛋白质结构上进行预训练以改进这些PLMs的能力。为了解决这些限制，我们在本文中使用基于结构的编码器和预训练来增强PLMs。",
+    "tldr": "本文提出了一种结合基于结构的编码器和预训练的蛋白质语言模型，以明确地编码蛋白质结构，获得更好的结构感知蛋白质表示，并在实验中验证了其有效性。",
+    "en_tldr": "This paper proposes enhancing protein language models with structure-based encoder and pre-training to explicitly encode protein structures for better structure-aware protein representations, and empirically verifies its effectiveness."
+}

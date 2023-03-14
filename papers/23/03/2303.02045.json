@@ -1,0 +1,10 @@
+{
+    "title": "Uncertainty Estimation by Fisher Information-based Evidential Deep Learning. (arXiv:2303.02045v2 [cs.LG] UPDATED)",
+    "abstract": "Uncertainty estimation is a key factor that makes deep learning reliable in practical applications. Recently proposed evidential neural networks explicitly account for different uncertainties by treating the network's outputs as evidence to parameterize the Dirichlet distribution, and achieve impressive performance in uncertainty estimation. However, for high data uncertainty samples but annotated with the one-hot label, the evidence-learning process for those mislabeled classes is over-penalized and remains hindered. To address this problem, we propose a novel method, Fisher Information-based Evidential Deep Learning ($\\mathcal{I}$-EDL). In particular, we introduce Fisher Information Matrix (FIM) to measure the informativeness of evidence carried by each sample, according to which we can dynamically reweight the objective loss terms to make the network more focused on the representation learning of uncertain classes. The generalization ability of our network is further improved by opt",
+    "link": "http://arxiv.org/abs/2303.02045",
+    "total_tokens": 874,
+    "translated_title": "基于Fisher信息的证据深度学习方法用于不确定性估计",
+    "translated_abstract": "不确定性估计是使深度学习在实际应用中可靠的关键因素。最近提出的证据神经网络通过将网络输出视为证据来参数化狄利克雷分布，明确考虑不同的不确定性，并在不确定性估计方面取得了令人印象深刻的性能。然而，对于高数据不确定性样本但注释为one-hot标签的情况，这些错误标记的类别的证据学习过程会被过度惩罚并受到阻碍。为了解决这个问题，我们提出了一种新的方法，基于Fisher信息的证据深度学习（$\\mathcal{I}$-EDL）。特别地，我们引入Fisher信息矩阵（FIM）来衡量每个样本所携带的证据的信息量，根据这个信息量，我们可以动态地重新加权目标损失项，使网络更加专注于不确定类别的表示学习。我们的网络的泛化能力通过优化进一步提高。",
+    "tldr": "本文提出了一种基于Fisher信息的证据深度学习方法，用于解决高数据不确定性样本但注释为one-hot标签的情况下证据学习过程被过度惩罚并受到阻碍的问题。",
+    "en_tldr": "This paper proposes a Fisher Information-based Evidential Deep Learning method to address the problem of over-penalization and hindrance in evidence learning for high data uncertainty samples annotated with one-hot labels."
+}

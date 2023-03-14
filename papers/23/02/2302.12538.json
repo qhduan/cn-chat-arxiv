@@ -1,0 +1,10 @@
+{
+    "title": "UnbiasedNets: A Dataset Diversification Framework for Robustness Bias Alleviation in Neural Networks. (arXiv:2302.12538v2 [cs.LG] UPDATED)",
+    "abstract": "Performance of trained neural network (NN) models, in terms of testing accuracy, has improved remarkably over the past several years, especially with the advent of deep learning. However, even the most accurate NNs can be biased toward a specific output classification due to the inherent bias in the available training datasets, which may propagate to the real-world implementations. This paper deals with the robustness bias, i.e., the bias exhibited by the trained NN by having a significantly large robustness to noise for a certain output class, as compared to the remaining output classes. The bias is shown to result from imbalanced datasets, i.e., the datasets where all output classes are not equally represented. Towards this, we propose the UnbiasedNets framework, which leverages K-means clustering and the NN's noise tolerance to diversify the given training dataset, even from relatively smaller datasets. This generates balanced datasets and reduces the bias within the datasets themse",
+    "link": "http://arxiv.org/abs/2302.12538",
+    "total_tokens": 911,
+    "translated_title": "UnbiasedNets：神经网络中的鲁棒性偏差缓解的数据集多样化框架",
+    "translated_abstract": "过去几年中，训练神经网络（NN）模型的性能（以测试准确性为指标）已经显著提高，特别是随着深度学习的出现。然而，即使是最准确的NN也可能对特定输出分类存在偏差，这是由于可用训练数据集中的固有偏差所致，这可能会传播到实际实现中。本文涉及鲁棒性偏差，即通过对某个输出类别的噪声具有显着的大鲁棒性，与其余输出类别相比，训练的NN所表现出的偏差。结果表明，偏差来自不平衡的数据集，即所有输出类别未被平等地表示的数据集。为此，我们提出了UnbiasedNets框架，它利用K-means聚类和NN的噪声容忍度来使给定的训练数据集多样化，即使是相对较小的数据集。这将生成平衡的数据集并减少数据集内的偏差。",
+    "tldr": "本文提出了UnbiasedNets框架，通过利用K-means聚类和NN的噪声容忍度来使给定的训练数据集多样化，生成平衡的数据集并减少数据集内的偏差。",
+    "en_tldr": "This paper proposes the UnbiasedNets framework, which leverages K-means clustering and the NN's noise tolerance to diversify the given training dataset, generating balanced datasets and reducing bias within them."
+}

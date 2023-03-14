@@ -1,0 +1,10 @@
+{
+    "title": "A large-scale and PCR-referenced vocal audio dataset for COVID-19. (arXiv:2212.07738v3 [cs.SD] UPDATED)",
+    "abstract": "The UK COVID-19 Vocal Audio Dataset is designed for the training and evaluation of machine learning models that classify SARS-CoV-2 infection status or associated respiratory symptoms using vocal audio. The UK Health Security Agency recruited voluntary participants through the national Test and Trace programme and the REACT-1 survey in England from March 2021 to March 2022, during dominant transmission of the Alpha and Delta SARS-CoV-2 variants and some Omicron variant sublineages. Audio recordings of volitional coughs, exhalations, and speech were collected in the 'Speak up to help beat coronavirus' digital survey alongside demographic, self-reported symptom and respiratory condition data, and linked to SARS-CoV-2 test results. The UK COVID-19 Vocal Audio Dataset represents the largest collection of SARS-CoV-2 PCR-referenced audio recordings to date. PCR results were linked to 70,794 of 72,999 participants and 24,155 of 25,776 positive cases. Respiratory symptoms were reported by 45.6",
+    "link": "http://arxiv.org/abs/2212.07738",
+    "total_tokens": 808,
+    "translated_title": "一份大规模的、基于PCR的COVID-19声音数据集",
+    "translated_abstract": "英国COVID-19 Vocal Audio Dataset旨在为训练和评估使用声音数据分类SARS-CoV-2感染状态或相关呼吸症状的机器学习模型而设计。英国卫生安全局通过国家测试和追踪计划和REACT-1调查在2021年3月至2022年3月期间招募了自愿参与者，收集了自愿咳嗽、呼气和语音的音频记录，并将其与SARS-CoV-2检测结果相关联。该数据集是迄今为止最大的SARS-CoV-2 PCR参考音频记录集合。",
+    "tldr": "英国COVID-19 Vocal Audio Dataset是迄今为止最大的SARS-CoV-2 PCR参考音频记录集合，旨在为训练和评估使用声音数据分类SARS-CoV-2感染状态或相关呼吸症状的机器学习模型而设计。",
+    "en_tldr": "The UK COVID-19 Vocal Audio Dataset is the largest collection of SARS-CoV-2 PCR-referenced audio recordings to date, designed for the training and evaluation of machine learning models that classify SARS-CoV-2 infection status or associated respiratory symptoms using vocal audio."
+}

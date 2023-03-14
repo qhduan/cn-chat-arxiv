@@ -1,0 +1,10 @@
+{
+    "title": "An FPGA-Based On-Device Reinforcement Learning Approach using Online Sequential Learning. (arXiv:2005.04646v4 [cs.LG] UPDATED)",
+    "abstract": "DQN (Deep Q-Network) is a method to perform Q-learning for reinforcement learning using deep neural networks. DQNs require a large buffer and batch processing for an experience replay and rely on a backpropagation based iterative optimization, making them difficult to be implemented on resource-limited edge devices. In this paper, we propose a lightweight on-device reinforcement learning approach for low-cost FPGA devices. It exploits a recently proposed neural-network based on-device learning approach that does not rely on the backpropagation method but uses OS-ELM (Online Sequential Extreme Learning Machine) based training algorithm. In addition, we propose a combination of L2 regularization and spectral normalization for the on-device reinforcement learning so that output values of the neural network can be fit into a certain range and the reinforcement learning becomes stable. The proposed reinforcement learning approach is designed for PYNQ-Z1 board as a low-cost FPGA platform. Th",
+    "link": "http://arxiv.org/abs/2005.04646",
+    "total_tokens": 911,
+    "translated_title": "基于FPGA的在线顺序学习强化学习方法",
+    "translated_abstract": "DQN是一种使用深度神经网络进行强化学习的Q学习方法。DQN需要大量的缓冲区和批处理进行经验重放，并依赖于基于反向传播的迭代优化，使它们难以在资源有限的边缘设备上实现。本文提出了一种轻量级的基于设备的强化学习方法，用于低成本的FPGA设备。它利用了最近提出的基于神经网络的设备学习方法，该方法不依赖于反向传播方法，而是使用基于OS-ELM（在线顺序极限学习机）的训练算法。此外，我们提出了一种L2正则化和谱归一化的组合，用于设备上的强化学习，以便将神经网络的输出值适合于某个范围，并使强化学习变得稳定。所提出的强化学习方法是为PYNQ-Z1板设计的，作为低成本的FPGA平台。",
+    "tldr": "本文提出了一种基于FPGA的轻量级强化学习方法，利用OS-ELM算法进行训练，避免了DQN需要大量缓冲区和批处理的问题，并通过L2正则化和谱归一化的组合使得强化学习更加稳定。",
+    "en_tldr": "This paper proposes a lightweight on-device reinforcement learning approach for low-cost FPGA devices, which uses OS-ELM algorithm for training and avoids the problem of requiring large buffers and batch processing in DQN. The combination of L2 regularization and spectral normalization is used to make the reinforcement learning more stable."
+}

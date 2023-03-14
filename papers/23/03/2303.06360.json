@@ -1,0 +1,10 @@
+{
+    "title": "FedLP: Layer-wise Pruning Mechanism for Communication-Computation Efficient Federated Learning. (arXiv:2303.06360v1 [cs.LG])",
+    "abstract": "Federated learning (FL) has prevailed as an efficient and privacy-preserved scheme for distributed learning. In this work, we mainly focus on the optimization of computation and communication in FL from a view of pruning. By adopting layer-wise pruning in local training and federated updating, we formulate an explicit FL pruning framework, FedLP (Federated Layer-wise Pruning), which is model-agnostic and universal for different types of deep learning models. Two specific schemes of FedLP are designed for scenarios with homogeneous local models and heterogeneous ones. Both theoretical and experimental evaluations are developed to verify that FedLP relieves the system bottlenecks of communication and computation with marginal performance decay. To the best of our knowledge, FedLP is the first framework that formally introduces the layer-wise pruning into FL. Within the scope of federated learning, more variants and combinations can be further designed based on FedLP.",
+    "link": "http://arxiv.org/abs/2303.06360",
+    "total_tokens": 890,
+    "translated_title": "FedLP: 一种用于通信计算高效的联邦学习的层次剪枝机制",
+    "translated_abstract": "联邦学习（FL）已经成为一种高效且隐私保护的分布式学习方案。本文主要关注FL中计算和通信的优化，采用局部训练和联邦更新中的层次剪枝，提出了一个显式的FL剪枝框架FedLP（Federated Layer-wise Pruning），该框架对不同类型的深度学习模型具有普适性。为具有同质本地模型和异质本地模型的场景设计了两种特定的FedLP方案。通过理论和实验评估，证明了FedLP可以缓解通信和计算的系统瓶颈，并且性能下降较小。据我们所知，FedLP是第一个正式将层次剪枝引入FL的框架。在联邦学习范围内，可以基于FedLP进一步设计更多的变体和组合。",
+    "tldr": "本文提出了一种显式的FL剪枝框架FedLP，采用局部训练和联邦更新中的层次剪枝，对不同类型的深度学习模型具有普适性，可以缓解通信和计算的系统瓶颈，并且性能下降较小。",
+    "en_tldr": "This paper proposes an explicit FL pruning framework, FedLP, which adopts layer-wise pruning in local training and federated updating, and is model-agnostic and universal for different types of deep learning models. FedLP can relieve the system bottlenecks of communication and computation with marginal performance decay."
+}

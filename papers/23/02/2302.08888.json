@@ -1,0 +1,10 @@
+{
+    "title": "Multimodal Federated Learning via Contrastive Representation Ensemble. (arXiv:2302.08888v2 [cs.LG] UPDATED)",
+    "abstract": "With the increasing amount of multimedia data on modern mobile systems and IoT infrastructures, harnessing these rich multimodal data without breaching user privacy becomes a critical issue. Federated learning (FL) serves as a privacy-conscious alternative to centralized machine learning. However, existing FL methods extended to multimodal data all rely on model aggregation on single modality level, which restrains the server and clients to have identical model architecture for each modality. This limits the global model in terms of both model complexity and data capacity, not to mention task diversity. In this work, we propose Contrastive Representation Ensemble and Aggregation for Multimodal FL (CreamFL), a multimodal federated learning framework that enables training larger server models from clients with heterogeneous model architectures and data modalities, while only communicating knowledge on public dataset. To achieve better multimodal representation fusion, we design a global-",
+    "link": "http://arxiv.org/abs/2302.08888",
+    "total_tokens": 857,
+    "translated_title": "多模态联邦学习：对比表示集成",
+    "translated_abstract": "随着现代移动系统和物联网基础设施上的多媒体数据量的增加，利用这些丰富的多模态数据而不违反用户隐私成为一个关键问题。联邦学习（FL）作为集中式机器学习的隐私意识替代方案。然而，现有的扩展到多模态数据的FL方法都依赖于单模态级别的模型聚合，这限制了服务器和客户端在每个模态上具有相同的模型架构。这限制了全局模型的模型复杂度和数据容量，更不用说任务多样性了。在这项工作中，我们提出了对比表示集成和多模态FL聚合（CreamFL），这是一个多模态联邦学习框架，它可以从具有异构模型架构和数据模态的客户端中训练更大的服务器模型，同时只在公共数据集上传递知识。为了实现更好的多模态表示融合，我们设计了一个全局-",
+    "tldr": "本文提出了一种名为CreamFL的多模态联邦学习框架，可以从具有异构模型架构和数据模态的客户端中训练更大的服务器模型，同时只在公共数据集上传递知识。",
+    "en_tldr": "This paper proposes a multimodal federated learning framework called CreamFL, which enables training larger server models from clients with heterogeneous model architectures and data modalities, while only communicating knowledge on public dataset."
+}

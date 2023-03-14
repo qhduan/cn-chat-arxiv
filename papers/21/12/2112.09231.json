@@ -1,0 +1,10 @@
+{
+    "title": "Two-view Graph Neural Networks for Knowledge Graph Completion. (arXiv:2112.09231v4 [cs.CL] UPDATED)",
+    "abstract": "We present an effective graph neural network (GNN)-based knowledge graph embedding model, which we name WGE, to capture entity- and relation-focused graph structures. Given a knowledge graph, WGE builds a single undirected entity-focused graph that views entities as nodes. WGE also constructs another single undirected graph from relation-focused constraints, which views entities and relations as nodes. WGE then proposes a GNN-based architecture to better learn vector representations of entities and relations from these two single entity- and relation-focused graphs. WGE feeds the learned entity and relation representations into a weighted score function to return the triple scores for knowledge graph completion. Experimental results show that WGE outperforms strong baselines on seven benchmark datasets for knowledge graph completion.",
+    "link": "http://arxiv.org/abs/2112.09231",
+    "total_tokens": 798,
+    "translated_title": "两视角图神经网络用于知识图谱补全",
+    "translated_abstract": "我们提出了一种有效的基于图神经网络（GNN）的知识图谱嵌入模型，称为WGE，以捕捉实体和关系为中心的图结构。给定一个知识图谱，WGE构建一个单一的无向实体为中心的图，将实体视为节点。WGE还从关系为中心的约束条件构建另一个单一的无向图，将实体和关系视为节点。然后，WGE提出了一种基于GNN的架构，从这两个单一的实体和关系为中心的图中更好地学习实体和关系的向量表示。WGE将学习到的实体和关系表示馈送到加权得分函数中，以返回知识图谱补全的三元组得分。实验结果表明，WGE在七个知识图谱补全基准数据集上优于强基线模型。",
+    "tldr": "本文提出了一种名为WGE的图神经网络模型，通过两个单一的实体和关系为中心的图来学习实体和关系的向量表示，并在知识图谱补全任务上取得了优异的性能。",
+    "en_tldr": "This paper proposes a graph neural network model named WGE, which learns vector representations of entities and relations from two single entity- and relation-focused graphs, and achieves excellent performance on knowledge graph completion task."
+}

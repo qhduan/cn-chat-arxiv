@@ -1,0 +1,10 @@
+{
+    "title": "Trustworthiness Score to Evaluate CNNs Predictions. (arXiv:2301.08839v3 [cs.LG] UPDATED)",
+    "abstract": "Due to the black box nature of Convolutional neural networks (CNNs), the continuous validation of CNNs during operation is infeasible. As a result this makes it difficult for developers and regulators to gain confidence in the deployment of autonomous systems employing CNNs. It is critical for safety during operation to know when a CNN's predictions are trustworthy or suspicious. The basic approach is to use the model's output confidence score to assess if predictions are trustworthy or suspicious. However, the model's confidence score is a result of computations coming from a black box, therefore lacks transparency and makes it challenging to credit trustworthiness to predictions. We introduce the trustworthiness score (TS), a simple metric that provides a more transparent and effective way of providing confidence in CNNs predictions. The metric quantifies the trustworthiness in a prediction by checking for the existence of certain features in the predictions made by the CNN. The TS m",
+    "link": "http://arxiv.org/abs/2301.08839",
+    "total_tokens": 823,
+    "translated_title": "用于评估CNN预测的可信度分数",
+    "translated_abstract": "由于卷积神经网络（CNN）的黑盒特性，无法在操作期间持续验证CNN，这使得开发人员和监管机构难以对使用CNN的自主系统的部署获得信心。在操作期间，了解CNN的预测何时可信或可疑对安全至关重要。基本方法是使用模型的输出置信度分数来评估预测是否可信或可疑。然而，模型的置信度分数是来自黑盒计算的结果，因此缺乏透明度，使得很难将可信度归因于预测。我们引入了可信度分数（TS），这是一种简单的度量标准，提供了一种更透明和有效的方式来提供CNN预测的信心。该度量标准通过检查CNN所做预测中的某些特征的存在来量化预测的可信度。",
+    "tldr": "本文提出了一种用于评估CNN预测可信度的可信度分数（TS）度量标准，通过检查CNN所做预测中的某些特征的存在来量化预测的可信度。",
+    "en_tldr": "This paper proposes a trustworthiness score (TS) metric to evaluate the confidence of CNN predictions, which quantifies the trustworthiness by checking for the existence of certain features in the predictions made by the CNN."
+}

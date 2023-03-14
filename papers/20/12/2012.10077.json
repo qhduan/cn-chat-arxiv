@@ -1,0 +1,10 @@
+{
+    "title": "Two-way Fixed Effects Regressions with Several Treatments. (arXiv:2012.10077v7 [econ.EM] UPDATED)",
+    "abstract": "We study two-way-fixed-effects regressions (TWFE) with several treatment variables. Under a parallel trends assumption, we show that the coefficient on each treatment identifies a weighted sum of that treatment's effect, with possibly negative weights, plus a weighted sum of the effects of the other treatments. Thus, those estimators are not robust to heterogeneous effects and may be contaminated by other treatments' effects. We further show that omitting a treatment from the regression can actually reduce the estimator's bias, unlike what would happen under constant treatment effects. We propose an alternative difference-in-differences estimator, robust to heterogeneous effects and immune to the contamination problem. In the application we consider, the TWFE regression identifies a highly non-convex combination of effects, with large contamination weights, and one of its coefficients significantly differs from our heterogeneity-robust estimator.",
+    "link": "http://arxiv.org/abs/2012.10077",
+    "total_tokens": 917,
+    "translated_title": "多个处理变量的双向固定效应回归",
+    "translated_abstract": "本文研究了具有多个处理变量的双向固定效应回归(TWFE)。在平行趋势假设下，我们表明每个处理变量的系数识别出该处理的效应的加权和，可能带有负权重，以及其他处理的效应的加权和。因此，这些估计器对异质效应不具有鲁棒性，并且可能被其他处理的效应污染。我们进一步表明，从回归中省略一个处理变量实际上可以减少估计器的偏差，这与恒定处理效应下的情况不同。我们提出了一种替代的差异法估计器，对异质效应具有鲁棒性，并且不受污染问题的影响。在我们考虑的应用中，TWFE回归识别出高度非凸的效应组合，具有大的污染权重，其中一个系数与我们的异质性鲁棒估计器显著不同。",
+    "tldr": "本文研究了具有多个处理变量的双向固定效应回归，发现这些估计器对异质效应不具有鲁棒性，并且可能被其他处理的效应污染。提出了一种替代的差异法估计器，对异质效应具有鲁棒性，并且不受污染问题的影响。",
+    "en_tldr": "This paper studies two-way-fixed-effects regressions with several treatment variables, finding that these estimators are not robust to heterogeneous effects and may be contaminated by other treatments' effects. An alternative difference-in-differences estimator is proposed, which is robust to heterogeneous effects and immune to the contamination problem."
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Why is That a Good or Not a Good Frying Pan? -- Knowledge Representation for Functions of Objects and Tools for Design Understanding, Improvement, and Generation for Design Understanding, Improvement, and Generation. (arXiv:2303.06152v1 [cs.AI])",
+    "abstract": "The understanding of the functional aspects of objects and tools is of paramount importance in supporting an intelligent system in navigating around in the environment and interacting with various objects, structures, and systems, to help fulfil its goals. A detailed understanding of functionalities can also lead to design improvements and novel designs that would enhance the operations of AI and robotic systems on the one hand, and human lives on the other. This paper demonstrates how a particular object - in this case, a frying pan - and its participation in the processes it is designed to support - in this case, the frying process - can be represented in a general function representational language and framework, that can be used to flesh out the processes and functionalities involved, leading to a deep conceptual understanding with explainability of functionalities that allows the system to answer \"why\" questions - why is something a good frying pan, say, or why a certain part on t",
+    "link": "http://arxiv.org/abs/2303.06152",
+    "total_tokens": 899,
+    "translated_title": "为什么这是一个好的或不是一个好的煎锅？——对象和工具功能的知识表示，用于设计理解、改进和生成",
+    "translated_abstract": "对象和工具的功能方面的理解对于支持智能系统在环境中导航和与各种对象、结构和系统进行交互以帮助实现其目标至关重要。对功能的详细理解也可以导致设计改进和新颖的设计，从而增强人工智能和机器人系统的操作，一方面，增强人类生活。本文演示了如何使用通用函数表示语言和框架来表示特定对象（在本例中为煎锅）及其参与支持其设计的过程（在本例中为煎炸过程），从而可以用于详细说明涉及的过程和功能，从而实现深入的概念理解，可解释性的功能，使系统能够回答“为什么”问题——为什么这是一个好的煎锅，或者为什么某个部件在煎锅中的位置很重要。",
+    "tldr": "本文演示了如何使用通用函数表示语言和框架来表示特定对象及其参与支持其设计的过程，从而实现深入的概念理解，可解释性的功能，使系统能够回答“为什么”问题。",
+    "en_tldr": "This paper demonstrates how a particular object and its participation in the processes it is designed to support can be represented in a general function representational language and framework, leading to a deep conceptual understanding with explainability of functionalities that allows the system to answer \"why\" questions."
+}

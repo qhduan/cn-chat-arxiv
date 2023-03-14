@@ -1,0 +1,10 @@
+{
+    "title": "DEPLOYR: A technical framework for deploying custom real-time machine learning models into the electronic medical record. (arXiv:2303.06269v1 [cs.LG])",
+    "abstract": "Machine learning (ML) applications in healthcare are extensively researched, but successful translations to the bedside are scant. Healthcare institutions are establishing frameworks to govern and promote the implementation of accurate, actionable and reliable models that integrate with clinical workflow. Such governance frameworks require an accompanying technical framework to deploy models in a resource efficient manner. Here we present DEPLOYR, a technical framework for enabling real-time deployment and monitoring of researcher created clinical ML models into a widely used electronic medical record (EMR) system. We discuss core functionality and design decisions, including mechanisms to trigger inference based on actions within EMR software, modules that collect real-time data to make inferences, mechanisms that close-the-loop by displaying inferences back to end-users within their workflow, monitoring modules that track performance of deployed models over time, silent deployment ca",
+    "link": "http://arxiv.org/abs/2303.06269",
+    "total_tokens": 878,
+    "translated_title": "DEPLOYR：将自定义实时机器学习模型部署到电子病历的技术框架",
+    "translated_abstract": "在医疗保健领域，机器学习（ML）应用得到了广泛研究，但成功的转化却很少。医疗机构正在建立框架来管理和促进准确、可操作和可靠的模型的实施，这些模型与临床工作流程相结合。这样的治理框架需要一个相应的技术框架，以资源有效的方式部署模型。在这里，我们介绍了DEPLOYR，一个技术框架，用于实时部署和监控研究人员创建的临床ML模型到广泛使用的电子病历（EMR）系统中。我们讨论了核心功能和设计决策，包括基于EMR软件内部操作触发推理的机制、收集实时数据以进行推理的模块、通过显示推理结果回馈给最终用户的机制、跟踪部署模型性能的监控模块、静默部署等机制。",
+    "tldr": "DEPLOYR是一个技术框架，可以将研究人员创建的临床机器学习模型实时部署到广泛使用的电子病历系统中，并提供监控和反馈机制。",
+    "en_tldr": "DEPLOYR is a technical framework that enables real-time deployment and monitoring of researcher-created clinical machine learning models into widely used electronic medical record systems, with mechanisms for triggering inference, collecting real-time data, displaying inferences back to end-users, monitoring performance, and silent deployment."
+}

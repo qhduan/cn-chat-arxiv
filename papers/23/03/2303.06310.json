@@ -1,0 +1,10 @@
+{
+    "title": "Driver Drowsiness Detection System: An Approach By Machine Learning Application. (arXiv:2303.06310v1 [cs.LG])",
+    "abstract": "The majority of human deaths and injuries are caused by traffic accidents. A million people worldwide die each year due to traffic accident injuries, consistent with the World Health Organization. Drivers who do not receive enough sleep, rest, or who feel weary may fall asleep behind the wheel, endangering both themselves and other road users. The research on road accidents specified that major road accidents occur due to drowsiness while driving. These days, it is observed that tired driving is the main reason to occur drowsiness. Now, drowsiness becomes the main principle for to increase in the number of road accidents. This becomes a major issue in a world which is very important to resolve as soon as possible. The predominant goal of all devices is to improve the performance to detect drowsiness in real time. Many devices were developed to detect drowsiness, which depend on different artificial intelligence algorithms. So, our research is also related to driver drowsiness detection",
+    "link": "http://arxiv.org/abs/2303.06310",
+    "total_tokens": 894,
+    "translated_title": "驾驶员疲劳检测系统：一种机器学习应用方法",
+    "translated_abstract": "交通事故导致大多数人的死亡和伤害。每年有数百万人因交通事故受伤或死亡，这与世界卫生组织的数据一致。没有得到足够睡眠、休息或感到疲倦的驾驶员可能会在驾驶过程中睡着，危及自己和其他道路使用者的安全。研究表明，由于疲劳驾驶而导致的重大道路事故。现在，疲劳驾驶成为发生疲劳的主要原因。现在，疲劳成为增加道路事故数量的主要原因。这成为一个非常重要的问题，需要尽快解决。所有设备的主要目标是提高实时检测疲劳的性能。许多设备已经开发出来，用于检测疲劳，这些设备依赖于不同的人工智能算法。因此，我们的研究也与驾驶员疲劳检测有关。",
+    "tldr": "驾驶员疲劳是导致交通事故的主要原因之一，本研究旨在通过机器学习算法开发一种实时检测驾驶员疲劳的系统。",
+    "en_tldr": "Driver drowsiness is one of the main causes of traffic accidents. This study aims to develop a real-time detection system for driver drowsiness using machine learning algorithms."
+}

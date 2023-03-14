@@ -1,0 +1,10 @@
+{
+    "title": "Privacy-Preserving Cooperative Visible Light Positioning for Nonstationary Environment: A Federated Learning Perspective. (arXiv:2303.06361v1 [eess.SP])",
+    "abstract": "Visible light positioning (VLP) has drawn plenty of attention as a promising indoor positioning technique. However, in nonstationary environments, the performance of VLP is limited because of the highly time-varying channels. To improve the positioning accuracy and generalization capability in nonstationary environments, a cooperative VLP scheme based on federated learning (FL) is proposed in this paper. Exploiting the FL framework, a global model adaptive to environmental changes can be jointly trained by users without sharing private data of users. Moreover, a Cooperative Visible-light Positioning Network (CVPosNet) is proposed to accelerate the convergence rate and improve the positioning accuracy. Simulation results show that the proposed scheme outperforms the benchmark schemes, especially in nonstationary environments.",
+    "link": "http://arxiv.org/abs/2303.06361",
+    "total_tokens": 802,
+    "translated_title": "面向非静态环境的隐私保护合作可见光定位：联邦学习视角",
+    "translated_abstract": "可见光定位（VLP）作为一种有前途的室内定位技术，已经引起了足够的关注。然而，在非静态环境下，由于高度时变的信道，VLP的性能受到限制。为了提高非静态环境下的定位精度和泛化能力，本文提出了一种基于联邦学习（FL）的合作VLP方案。利用FL框架，用户可以共同训练适应环境变化的全局模型，而不共享用户的私有数据。此外，提出了一种合作可见光定位网络（CVPosNet），以加速收敛速度和提高定位精度。仿真结果表明，所提出的方案在非静态环境下优于基准方案。",
+    "tldr": "本文提出了一种基于联邦学习的合作可见光定位方案，通过共同训练适应环境变化的全局模型，提高了在非静态环境下的定位精度和泛化能力。",
+    "en_tldr": "This paper proposes a cooperative visible light positioning scheme based on federated learning, which improves the positioning accuracy and generalization capability in nonstationary environments by jointly training a global model adaptive to environmental changes without sharing private data of users."
+}

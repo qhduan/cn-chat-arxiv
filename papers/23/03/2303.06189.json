@@ -1,0 +1,10 @@
+{
+    "title": "Papaya: Federated Learning, but Fully Decentralized. (arXiv:2303.06189v1 [cs.LG])",
+    "abstract": "Federated Learning systems use a centralized server to aggregate model updates. This is a bandwidth and resource-heavy constraint and exposes the system to privacy concerns. We instead implement a peer to peer learning system in which nodes train on their own data and periodically perform a weighted average of their parameters with that of their peers according to a learned trust matrix. So far, we have created a model client framework and have been using this to run experiments on the proposed system using multiple virtual nodes which in reality exist on the same computer. We used this strategy as stated in Iteration 1 of our proposal to prove the concept of peer to peer learning with shared parameters. We now hope to run more experiments and build a more deployable real world system for the same.",
+    "link": "http://arxiv.org/abs/2303.06189",
+    "total_tokens": 810,
+    "translated_title": "Papaya：联邦学习，但完全去中心化",
+    "translated_abstract": "联邦学习系统使用集中式服务器来聚合模型更新。这是一种带宽和资源密集型的限制，并暴露系统的隐私问题。相反，我们实现了一种点对点学习系统，其中节点在自己的数据上进行训练，并定期根据学习的信任矩阵将其参数与同伴的参数进行加权平均。到目前为止，我们已经创建了一个模型客户端框架，并使用多个虚拟节点在同一台计算机上运行实验来验证所提出的系统。我们使用了我们提案的第一轮中所述的策略来证明共享参数的点对点学习概念。我们现在希望运行更多实验，并构建一个更可部署的真实世界系统。",
+    "tldr": "Papaya是一种点对点学习系统，节点在自己的数据上进行训练，并定期根据学习的信任矩阵将其参数与同伴的参数进行加权平均，从而实现联邦学习的去中心化，避免了集中式服务器的带宽和资源密集型限制和隐私问题。",
+    "en_tldr": "Papaya is a peer-to-peer learning system that allows nodes to train on their own data and periodically perform a weighted average of their parameters with that of their peers according to a learned trust matrix, achieving decentralized federated learning and avoiding the bandwidth and resource-heavy constraint and privacy concerns of a centralized server."
+}

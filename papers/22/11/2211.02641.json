@@ -1,0 +1,10 @@
+{
+    "title": "Graph Neural Networks on SPD Manifolds for Motor Imagery Classification: A Perspective from the Time-Frequency Analysis. (arXiv:2211.02641v2 [eess.SP] UPDATED)",
+    "abstract": "The classification of motor imagery (MI) is a highly sought-after research topic in the field of Electroencephalography (EEG)-based brain-computer interfaces (BCIs), with immense commercial value. Over the past two decades, there has been a fundamental shift in the trend of MI-EEG classifiers, resulting in a gradual increase in their performance. The emergence of Tensor-CSPNet, the first geometric deep learning (GDL) framework in BCI research, is attributed to the imperative of characterizing the non-Euclidean nature of signals. Fundamentally, Tensor-CSPNet is a deep learning-based classifier that capitalizes on the second-order statistics of EEGs. In contrast to the conventional approach of utilizing first-order statistics for EEG signals, the utilization of these second-order statistics represents the classical treatment. These statistics provide adequate discriminative information, rendering them suitable for MI-EEG classification. In this study, we introduce another GDL classifier,",
+    "link": "http://arxiv.org/abs/2211.02641",
+    "total_tokens": 882,
+    "translated_title": "基于SPD流形的图神经网络用于运动想象分类：来自时频分析的视角",
+    "translated_abstract": "运动想象（MI）的分类是脑电图（EEG）基础脑机接口（BCI）领域中备受追捧的研究课题，具有巨大的商业价值。过去二十年，MI-EEG分类器的趋势发生了根本性的转变，其性能逐渐提高。 Tensor-CSPNet的出现是BCI研究中第一个几何深度学习（GDL）框架的必要性，其归因于信号的非欧几里德性质的特征化。从根本上讲，Tensor-CSPNet是一种基于深度学习的分类器，利用EEG的二阶统计量。与利用EEG信号的一阶统计量的传统方法相比，利用这些二阶统计量代表了经典的处理方法。这些统计量提供了足够的区分信息，使它们适用于MI-EEG分类。在本研究中，我们介绍了另一种GDL分类器，",
+    "tldr": "本文介绍了一种基于SPD流形的图神经网络用于运动想象分类，利用EEG的二阶统计量，相比传统方法具有更好的性能。",
+    "en_tldr": "This paper introduces a graph neural network based on SPD manifolds for motor imagery classification, which utilizes second-order statistics of EEG signals and outperforms traditional methods."
+}

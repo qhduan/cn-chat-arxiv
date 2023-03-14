@@ -1,0 +1,10 @@
+{
+    "title": "Fingerprint Presentation Attack Detection by Channel-wise Feature Denoising. (arXiv:2111.07620v2 [cs.CV] CROSS LISTED)",
+    "abstract": "Due to the diversity of attack materials, fingerprint recognition systems (AFRSs) are vulnerable to malicious attacks. It is thus important to propose effective fingerprint presentation attack detection (PAD) methods for the safety and reliability of AFRSs. However, current PAD methods often exhibit poor robustness under new attack types settings. This paper thus proposes a novel channel-wise feature denoising fingerprint PAD (CFD-PAD) method by handling the redundant noise information ignored in previous studies. The proposed method learns important features of fingerprint images by weighing the importance of each channel and identifying discriminative channels and \"noise\" channels. Then, the propagation of \"noise\" channels is suppressed in the feature map to reduce interference. Specifically, a PA-Adaptation loss is designed to constrain the feature distribution to make the feature distribution of live fingerprints more aggregate and that of spoof fingerprints more disperse. Experime",
+    "link": "http://arxiv.org/abs/2111.07620",
+    "total_tokens": 977,
+    "translated_title": "基于通道特征去噪的指纹呈现攻击检测",
+    "translated_abstract": "由于攻击材料的多样性，指纹识别系统（AFRS）容易受到恶意攻击。因此，提出有效的指纹呈现攻击检测（PAD）方法对于AFRS的安全性和可靠性至关重要。然而，当前的PAD方法在新的攻击类型设置下往往表现出较差的鲁棒性。因此，本文提出了一种新颖的基于通道特征去噪的指纹PAD（CFD-PAD）方法，通过处理先前研究中忽略的冗余噪声信息来学习指纹图像的重要特征。该方法通过权衡每个通道的重要性并识别出有区别性的通道和“噪声”通道来学习指纹图像的重要特征。然后，在特征图中抑制“噪声”通道的传播以减少干扰。具体而言，设计了PA-Adaptation损失来约束特征分布，使活体指纹的特征分布更聚合，而欺诈指纹的特征分布更分散。实验结果表明，所提出的方法在各种攻击类型下均具有较好的鲁棒性和准确性。",
+    "tldr": "本文提出了一种基于通道特征去噪的指纹呈现攻击检测方法，通过处理先前研究中忽略的冗余噪声信息来学习指纹图像的重要特征，具有较好的鲁棒性和准确性。",
+    "en_tldr": "This paper proposes a novel channel-wise feature denoising fingerprint presentation attack detection (CFD-PAD) method, which learns important features of fingerprint images by handling the redundant noise information ignored in previous studies, and exhibits good robustness and accuracy under various attack types."
+}

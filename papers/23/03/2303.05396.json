@@ -1,0 +1,10 @@
+{
+    "title": "Bounding the Probabilities of Benefit and Harm Through Sensitivity Parameters and Proxies. (arXiv:2303.05396v2 [stat.ME] UPDATED)",
+    "abstract": "We present two methods for bounding the probabilities of benefit and harm under unmeasured confounding. The first method computes the (upper or lower) bound of either probability as a function of the observed data distribution and two intuitive sensitivity parameters which, then, can be presented to the analyst as a 2-D plot to assist her in decision making. The second method assumes the existence of a measured nondifferential proxy (i.e., direct effect) of the unmeasured confounder. Using this proxy, tighter bounds than the existing ones can be derived from just the observed data distribution.",
+    "link": "http://arxiv.org/abs/2303.05396",
+    "total_tokens": 712,
+    "translated_title": "通过敏感性参数和代理变量限制受益和伤害的概率",
+    "translated_abstract": "我们提出了两种方法来限制未测量混杂下的受益和伤害概率。第一种方法计算任一概率的（上限或下限），作为观察数据分布和两个直观敏感性参数的函数，然后可以将其呈现给分析师作为2-D图以协助其决策。第二种方法假设存在未测量混杂因素的测量非差异代理变量（即直接效应）。使用此代理变量，可以从仅观察到的数据分布中导出比现有界限更紧的界限。",
+    "tldr": "本文提出了两种方法来限制未测量混杂下的受益和伤害概率，一种是通过敏感性参数计算概率的上限或下限，另一种是利用代理变量得到更紧的界限。",
+    "en_tldr": "This paper presents two methods for bounding the probabilities of benefit and harm under unmeasured confounding, one is to compute the upper or lower bound of the probability through sensitivity parameters, and the other is to derive tighter bounds using a measured nondifferential proxy of the unmeasured confounder."
+}

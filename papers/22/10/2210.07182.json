@@ -1,0 +1,10 @@
+{
+    "title": "PDEBENCH: An Extensive Benchmark for Scientific Machine Learning. (arXiv:2210.07182v6 [cs.LG] UPDATED)",
+    "abstract": "Machine learning-based modeling of physical systems has experienced increased interest in recent years. Despite some impressive progress, there is still a lack of benchmarks for Scientific ML that are easy to use but still challenging and representative of a wide range of problems. We introduce PDEBench, a benchmark suite of time-dependent simulation tasks based on Partial Differential Equations (PDEs). PDEBench comprises both code and data to benchmark the performance of novel machine learning models against both classical numerical simulations and machine learning baselines. Our proposed set of benchmark problems contribute the following unique features: (1) A much wider range of PDEs compared to existing benchmarks, ranging from relatively common examples to more realistic and difficult problems; (2) much larger ready-to-use datasets compared to prior work, comprising multiple simulation runs across a larger number of initial and boundary conditions and PDE parameters; (3) more exte",
+    "link": "http://arxiv.org/abs/2210.07182",
+    "total_tokens": 917,
+    "translated_title": "PDEBENCH：科学机器学习的广泛基准测试",
+    "translated_abstract": "近年来，基于机器学习的物理系统建模受到了越来越多的关注。尽管取得了一些令人印象深刻的进展，但仍缺乏易于使用但具有挑战性和代表性的科学ML基准测试。我们介绍了PDEBench，这是一个基于偏微分方程（PDE）的时间依赖性模拟任务基准套件。PDEBench包括代码和数据，以对新型机器学习模型的性能进行基准测试，同时还可以与经典数值模拟和机器学习基线进行比较。我们提出的基准问题集具有以下独特特征：（1）与现有基准测试相比，PDE的范围更广，从相对常见的示例到更现实和困难的问题；（2）与先前的工作相比，准备好使用的数据集更大，包括跨更多初始和边界条件以及PDE参数的多个模拟运行；（3）更广泛的基准测试，包括更多的性能指标和评估方法。",
+    "tldr": "PDEBench是一个基于偏微分方程的时间依赖性模拟任务基准套件，包括代码和数据，可用于对新型机器学习模型的性能进行基准测试，同时还可以与经典数值模拟和机器学习基线进行比较。",
+    "en_tldr": "PDEBench is a benchmark suite of time-dependent simulation tasks based on Partial Differential Equations (PDEs), which includes code and data to benchmark the performance of novel machine learning models against both classical numerical simulations and machine learning baselines."
+}

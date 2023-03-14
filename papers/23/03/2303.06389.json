@@ -1,0 +1,10 @@
+{
+    "title": "Uncertainty-Aware Off-Policy Learning. (arXiv:2303.06389v1 [cs.LG])",
+    "abstract": "Off-policy learning, referring to the procedure of policy optimization with access only to logged feedback data, has shown importance in various real-world applications, such as search engines, recommender systems, and etc. While the ground-truth logging policy, which generates the logged data, is usually unknown, previous work simply takes its estimated value in off-policy learning, ignoring both high bias and high variance resulted from such an estimator, especially on samples with small and inaccurately estimated logging probabilities. In this work, we explicitly model the uncertainty in the estimated logging policy and propose a Uncertainty-aware Inverse Propensity Score estimator (UIPS) for improved off-policy learning. Experiment results on synthetic and three real-world recommendation datasets demonstrate the advantageous sample efficiency of the proposed UIPS estimator against an extensive list of state-of-the-art baselines.",
+    "link": "http://arxiv.org/abs/2303.06389",
+    "total_tokens": 845,
+    "translated_title": "不确定性感知的离线学习",
+    "translated_abstract": "离线学习是指仅通过记录的反馈数据进行策略优化的过程，在各种实际应用中显示出重要性，例如搜索引擎、推荐系统等。虽然生成记录数据的真实记录策略通常是未知的，但以前的工作仅在离线学习中采用其估计值，忽略了由于这种估计器导致的高偏差和高方差，特别是在具有小且估计不准确的记录概率的样本上。在这项工作中，我们明确地模拟了估计的记录策略中的不确定性，并提出了一种不确定性感知的倒数概率分数估计器（UIPS）来改进离线学习。在合成和三个真实的推荐数据集上的实验结果表明，所提出的UIPS估计器相对于广泛的最先进基线具有优越的样本效率。",
+    "tldr": "本文提出了一种不确定性感知的倒数概率分数估计器（UIPS），用于改进离线学习，通过明确模拟估计的记录策略中的不确定性，相对于广泛的最先进基线具有优越的样本效率。",
+    "en_tldr": "This paper proposes an Uncertainty-aware Inverse Propensity Score estimator (UIPS) for improved off-policy learning, which explicitly models the uncertainty in the estimated logging policy and demonstrates advantageous sample efficiency against an extensive list of state-of-the-art baselines on synthetic and three real-world recommendation datasets."
+}

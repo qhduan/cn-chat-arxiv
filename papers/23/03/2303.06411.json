@@ -1,0 +1,10 @@
+{
+    "title": "Deep Reinforcement Learning Based Power Allocation for Minimizing AoI and Energy Consumption in MIMO-NOMA IoT Systems. (arXiv:2303.06411v1 [cs.IT])",
+    "abstract": "Multi-input multi-out and non-orthogonal multiple access (MIMO-NOMA) internet-of-things (IoT) systems can improve channel capacity and spectrum efficiency distinctly to support the real-time applications. Age of information (AoI) is an important metric for real-time application, but there is no literature have minimized AoI of the MIMO-NOMA IoT system, which motivates us to conduct this work. In MIMO-NOMA IoT system, the base station (BS) determines the sample collection requirements and allocates the transmission power for each IoT device. Each device determines whether to sample data according to the sample collection requirements and adopts the allocated power to transmit the sampled data to the BS over MIMO-NOMA channel. Afterwards, the BS employs successive interference cancelation (SIC) technique to decode the signal of the data transmitted by each device. The sample collection requirements and power allocation would affect AoI and energy consumption of the system. It is critical",
+    "link": "http://arxiv.org/abs/2303.06411",
+    "total_tokens": 822,
+    "translated_title": "基于深度强化学习的MIMO-NOMA IoT系统功率分配，以最小化AoI和能耗",
+    "translated_abstract": "多输入多输出和非正交多址（MIMO-NOMA）物联网（IoT）系统可以显著提高信道容量和频谱效率，以支持实时应用。时延（AoI）是实时应用的重要指标，但没有文献最小化MIMO-NOMA IoT系统的AoI，这促使我们进行这项工作。在MIMO-NOMA IoT系统中，基站（BS）确定样本收集要求并为每个IoT设备分配传输功率。每个设备根据样本收集要求确定是否采样数据，并采用分配的功率将采样的数据通过MIMO-NOMA信道传输到BS。然后，BS采用连续干扰消除（SIC）技术解码每个设备传输的数据信号。样本收集要求和功率分配将影响系统的AoI和能耗。这是至关重要的。",
+    "tldr": "本文提出了一种基于深度强化学习的MIMO-NOMA IoT系统功率分配方法，以最小化AoI和能耗。",
+    "en_tldr": "This paper proposes a deep reinforcement learning based power allocation method for MIMO-NOMA IoT systems to minimize AoI and energy consumption."
+}

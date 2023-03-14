@@ -1,0 +1,10 @@
+{
+    "title": "Transcription free filler word detection with Neural semi-CRFs. (arXiv:2303.06475v1 [eess.AS])",
+    "abstract": "Non-linguistic filler words, such as \"uh\" or \"um\", are prevalent in spontaneous speech and serve as indicators for expressing hesitation or uncertainty. Previous works for detecting certain non-linguistic filler words are highly dependent on transcriptions from a well-established commercial automatic speech recognition (ASR) system. However, certain ASR systems are not universally accessible from many aspects, e.g., budget, target languages, and computational power. In this work, we investigate filler word detection system that does not depend on ASR systems. We show that, by using the structured state space sequence model (S4) and neural semi-Markov conditional random fields (semi-CRFs), we achieve an absolute F1 improvement of 6.4% (segment level) and 3.1% (event level) on the PodcastFillers dataset. We also conduct a qualitative analysis on the detected results to analyze the limitations of our proposed system.",
+    "link": "http://arxiv.org/abs/2303.06475",
+    "total_tokens": 913,
+    "translated_title": "基于神经半条件随机场的无需转录的填充词检测",
+    "translated_abstract": "非语言填充词，如“嗯”或“啊”，在自发语言中普遍存在，用于表达犹豫或不确定性。以前检测某些非语言填充词的工作高度依赖于来自成熟商业自动语音识别（ASR）系统的转录。然而，某些ASR系统在许多方面（例如预算、目标语言和计算能力）并不普遍可用。在这项工作中，我们研究了不依赖于ASR系统的填充词检测系统。我们展示了通过使用结构化状态空间序列模型（S4）和神经半马尔可夫条件随机场（semi-CRFs），我们在PodcastFillers数据集上实现了6.4％（分段级别）和3.1％（事件级别）的绝对F1改进。我们还对检测结果进行了定性分析，以分析我们提出的系统的局限性。",
+    "tldr": "本文提出了一种无需转录的填充词检测系统，使用结构化状态空间序列模型和神经半马尔可夫条件随机场，能够在PodcastFillers数据集上实现6.4％（分段级别）和3.1％（事件级别）的绝对F1改进。",
+    "en_tldr": "This paper proposes a transcription-free filler word detection system that uses structured state space sequence model and neural semi-Markov conditional random fields, achieving an absolute F1 improvement of 6.4% (segment level) and 3.1% (event level) on the PodcastFillers dataset."
+}

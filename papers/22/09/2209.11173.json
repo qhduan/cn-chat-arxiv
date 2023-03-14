@@ -1,0 +1,10 @@
+{
+    "title": "U-Sleep's resilience to AASM guidelines. (arXiv:2209.11173v3 [eess.SP] UPDATED)",
+    "abstract": "AASM guidelines are the result of decades of efforts aiming at standardizing sleep scoring procedure, with the final goal of sharing a worldwide common methodology. The guidelines cover several aspects from the technical/digital specifications,e.g., recommended EEG derivations, to detailed sleep scoring rules accordingly to age. Automated sleep scoring systems have always largely exploited the standards as fundamental guidelines. In this context, deep learning has demonstrated better performance compared to classical machine learning. Our present work shows that a deep learning based sleep scoring algorithm may not need to fully exploit the clinical knowledge or to strictly adhere to the AASM guidelines. Specifically, we demonstrate that U-Sleep, a state-of-the-art sleep scoring algorithm, can be strong enough to solve the scoring task even using clinically non-recommended or non-conventional derivations, and with no need to exploit information about the chronological age of the subjec",
+    "link": "http://arxiv.org/abs/2209.11173",
+    "total_tokens": 828,
+    "translated_title": "U-Sleep对AASM指南的弹性",
+    "translated_abstract": "AASM指南是几十年努力的结果，旨在标准化睡眠评分程序，最终目标是共享全球通用的方法。该指南涵盖了从技术/数字规范（例如，推荐的EEG导联）到根据年龄详细的睡眠评分规则的几个方面。自动睡眠评分系统始终将标准作为基本指南。在这种情况下，深度学习表现出比传统机器学习更好的性能。我们的研究表明，基于深度学习的睡眠评分算法可能不需要充分利用临床知识或严格遵守AASM指南。具体而言，我们证明了U-Sleep，一种最先进的睡眠评分算法，即使使用临床非推荐或非传统的导联，也可以足够强大地解决评分任务，而且不需要利用有关受试者年龄的信息。",
+    "tldr": "本研究表明，基于深度学习的U-Sleep睡眠评分算法可以弹性地使用非推荐或非传统的导联，而不需要严格遵守AASM指南。",
+    "en_tldr": "This study shows that the deep learning-based U-Sleep sleep scoring algorithm can flexibly use non-recommended or non-traditional derivations without strictly adhering to AASM guidelines."
+}

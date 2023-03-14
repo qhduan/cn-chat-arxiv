@@ -1,0 +1,10 @@
+{
+    "title": "SegViz: A federated-learning based framework for multi-organ segmentation on heterogeneous data sets with partial annotations. (arXiv:2301.07074v2 [cs.CV] UPDATED)",
+    "abstract": "Segmentation is one of the most primary tasks in deep learning for medical imaging, owing to its multiple downstream clinical applications. However, generating manual annotations for medical images is time-consuming, requires high skill, and is an expensive effort, especially for 3D images. One potential solution is to aggregate knowledge from partially annotated datasets from multiple groups to collaboratively train global models using Federated Learning. To this end, we propose SegViz, a federated learning-based framework to train a segmentation model from distributed non-i.i.d datasets with partial annotations. The performance of SegViz was compared against training individual models separately on each dataset as well as centrally aggregating all the datasets in one place and training a single model. The SegViz framework using FedBN as the aggregation strategy demonstrated excellent performance on the external BTCV set with dice scores of 0.93, 0.83, 0.55, and 0.75 for segmentation ",
+    "link": "http://arxiv.org/abs/2301.07074",
+    "total_tokens": 988,
+    "translated_title": "SegViz：基于联邦学习的多器官分割框架，适用于具有部分注释的异构数据集",
+    "translated_abstract": "分割是医学图像深度学习中最基本的任务之一，由于其多个下游临床应用而备受关注。然而，为医学图像生成手动注释是耗时的、需要高技能的、昂贵的工作，特别是对于3D图像。一个潜在的解决方案是从多个组的部分注释数据集中聚合知识，使用联邦学习协作训练全局模型。为此，我们提出了SegViz，一种基于联邦学习的框架，用于从分布式的非i.i.d数据集中训练具有部分注释的分割模型。将SegViz的性能与分别在每个数据集上单独训练模型以及集中聚合所有数据集并训练单个模型进行比较。使用FedBN作为聚合策略的SegViz框架在外部BTCV集上表现出优异的性能，分割的dice分数分别为0.93、0.83、0.55和0.75。",
+    "tldr": "SegViz是一种基于联邦学习的框架，用于从分布式的非i.i.d数据集中训练具有部分注释的分割模型。使用FedBN作为聚合策略的SegViz框架在外部BTCV集上表现出优异的性能，分割的dice分数分别为0.93、0.83、0.55和0.75。",
+    "en_tldr": "SegViz is a federated learning-based framework for training segmentation models from distributed non-i.i.d datasets with partial annotations. The SegViz framework using FedBN as the aggregation strategy demonstrated excellent performance on the external BTCV set with dice scores of 0.93, 0.83, 0.55, and 0.75 for segmentation."
+}

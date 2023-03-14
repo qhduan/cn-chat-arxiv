@@ -1,0 +1,10 @@
+{
+    "title": "Optimal and Private Learning from Human Response Data. (arXiv:2303.06234v1 [cs.LG])",
+    "abstract": "Item response theory (IRT) is the study of how people make probabilistic decisions, with diverse applications in education testing, recommendation systems, among others. The Rasch model of binary response data, one of the most fundamental models in IRT, remains an active area of research with important practical significance. Recently, Nguyen and Zhang (2022) proposed a new spectral estimation algorithm that is efficient and accurate. In this work, we extend their results in two important ways. Firstly, we obtain a refined entrywise error bound for the spectral algorithm, complementing the `average error' $\\ell_2$ bound in their work. Notably, under mild sampling conditions, the spectral algorithm achieves the minimax optimal error bound (modulo a log factor). Building on the refined analysis, we also show that the spectral algorithm enjoys optimal sample complexity for top-$K$ recovery (e.g., identifying the best $K$ items from approval/disapproval response data), explaining the empir",
+    "link": "http://arxiv.org/abs/2303.06234",
+    "total_tokens": 920,
+    "translated_title": "从人类反应数据中进行最优和私密学习",
+    "translated_abstract": "项目反应理论（IRT）是研究人们如何做出概率决策的学科，具有教育测试、推荐系统等多种应用。二元反应数据的Rasch模型是IRT中最基本的模型之一，仍然是一个具有重要实际意义的研究领域。最近，Nguyen和Zhang（2022）提出了一种新的谱估计算法，具有高效和准确的特点。在本文中，我们以两种重要的方式扩展了他们的结果。首先，我们获得了谱算法的精细逐项误差界限，补充了他们工作中的“平均误差”$\\ell_2$界限。值得注意的是，在温和的采样条件下，谱算法实现了极小化最优误差界限（模除对数因子）。在精细分析的基础上，我们还展示了谱算法在top-$K$恢复的样本复杂度方面具有最优性（例如，从批准/不批准反应数据中识别最佳的$K$个项目），解释了实验结果。",
+    "tldr": "本文提出了一种新的谱估计算法，具有高效和准确的特点，可以在温和的采样条件下实现极小化最优误差界限，同时在top-$K$恢复的样本复杂度方面具有最优性。",
+    "en_tldr": "This paper proposes a new spectral estimation algorithm that is efficient and accurate, achieving the minimax optimal error bound (modulo a log factor) under mild sampling conditions, and enjoys optimal sample complexity for top-$K$ recovery."
+}

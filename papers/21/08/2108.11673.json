@@ -1,0 +1,10 @@
+{
+    "title": "Why Adversarial Reprogramming Works, When It Fails, and How to Tell the Difference. (arXiv:2108.11673v3 [cs.LG] UPDATED)",
+    "abstract": "Adversarial reprogramming allows repurposing a machine-learning model to perform a different task. For example, a model trained to recognize animals can be reprogrammed to recognize digits by embedding an adversarial program in the digit images provided as input. Recent work has shown that adversarial reprogramming may not only be used to abuse machine-learning models provided as a service, but also beneficially, to improve transfer learning when training data is scarce. However, the factors affecting its success are still largely unexplained. In this work, we develop a first-order linear model of adversarial reprogramming to show that its success inherently depends on the size of the average input gradient, which grows when input gradients are more aligned, and when inputs have higher dimensionality. The results of our experimental analysis, involving fourteen distinct reprogramming tasks, show that the above factors are correlated with the success and the failure of adversarial repro",
+    "link": "http://arxiv.org/abs/2108.11673",
+    "total_tokens": 886,
+    "translated_title": "为什么对抗性重编程有效，何时会失败，以及如何区分二者",
+    "translated_abstract": "对抗性重编程允许重新利用机器学习模型执行不同的任务。例如，通过在提供的数字图像中嵌入对抗性程序，可以将训练用于识别动物的模型重新编程为识别数字。最近的研究表明，对抗性重编程不仅可以用于滥用作为服务提供的机器学习模型，而且在训练数据稀缺时，还可以有益地改善迁移学习。然而，影响其成功的因素仍然大多未被解释。在本文中，我们开发了对抗性重编程的一阶线性模型，以表明其成功本质上取决于平均输入梯度的大小，当输入梯度更加对齐且输入具有更高的维度时，平均输入梯度会增长。我们的实验分析结果涉及14个不同的重编程任务，表明上述因素与对抗性重编程的成功和失败相关。",
+    "tldr": "对抗性重编程可以重新利用机器学习模型执行不同的任务，成功取决于平均输入梯度的大小，当输入梯度更加对齐且输入具有更高的维度时，平均输入梯度会增长。",
+    "en_tldr": "Adversarial reprogramming can repurpose machine-learning models to perform different tasks, and its success depends on the size of the average input gradient, which grows when input gradients are more aligned and when inputs have higher dimensionality."
+}

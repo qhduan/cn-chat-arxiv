@@ -1,0 +1,10 @@
+{
+    "title": "Complement Sparsification: Low-Overhead Model Pruning for Federated Learning. (arXiv:2303.06237v1 [cs.LG])",
+    "abstract": "Federated Learning (FL) is a privacy-preserving distributed deep learning paradigm that involves substantial communication and computation effort, which is a problem for resource-constrained mobile and IoT devices. Model pruning/sparsification develops sparse models that could solve this problem, but existing sparsification solutions cannot satisfy at the same time the requirements for low bidirectional communication overhead between the server and the clients, low computation overhead at the clients, and good model accuracy, under the FL assumption that the server does not have access to raw data to fine-tune the pruned models. We propose Complement Sparsification (CS), a pruning mechanism that satisfies all these requirements through a complementary and collaborative pruning done at the server and the clients. At each round, CS creates a global sparse model that contains the weights that capture the general data distribution of all clients, while the clients create local sparse model",
+    "link": "http://arxiv.org/abs/2303.06237",
+    "total_tokens": 926,
+    "translated_title": "低开销模型剪枝：面向联邦学习的补充稀疏化",
+    "translated_abstract": "联邦学习（FL）是一种隐私保护的分布式深度学习范例，涉及大量通信和计算工作，这对于资源受限的移动和物联网设备是一个问题。模型剪枝/稀疏化开发了可以解决此问题的稀疏模型，但现有的稀疏化解决方案不能同时满足服务器和客户端之间低双向通信开销、客户端低计算开销和良好模型准确性的要求，在FL假设下，服务器无法访问原始数据以微调修剪的模型。我们提出了补充稀疏化（CS），这是一种剪枝机制，通过在服务器和客户端之间进行互补和协作的剪枝来满足所有这些要求。在每一轮中，CS创建一个全局稀疏模型，其中包含捕获所有客户端的一般数据分布的权重，而客户端则创建本地稀疏模型。",
+    "tldr": "本文提出了一种名为补充稀疏化的模型剪枝机制，通过在服务器和客户端之间进行互补和协作的剪枝来满足联邦学习中低双向通信开销、客户端低计算开销和良好模型准确性的要求。",
+    "en_tldr": "This paper proposes a model pruning mechanism called Complement Sparsification (CS), which satisfies the requirements of low bidirectional communication overhead between the server and the clients, low computation overhead at the clients, and good model accuracy in federated learning through complementary and collaborative pruning done at the server and the clients."
+}

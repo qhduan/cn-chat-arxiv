@@ -1,0 +1,10 @@
+{
+    "title": "A Machine Learning Tutorial for Operational Meteorology, Part II: Neural Networks and Deep Learning. (arXiv:2211.00147v2 [cs.LG] UPDATED)",
+    "abstract": "Over the past decade the use of machine learning in meteorology has grown rapidly. Specifically neural networks and deep learning have been used at an unprecedented rate. In order to fill the dearth of resources covering neural networks with a meteorological lens, this paper discusses machine learning methods in a plain language format that is targeted for the operational meteorological community. This is the second paper in a pair that aim to serve as a machine learning resource for meteorologists. While the first paper focused on traditional machine learning methods (e.g., random forest), here a broad spectrum of neural networks and deep learning methods are discussed. Specifically this paper covers perceptrons, artificial neural networks, convolutional neural networks and U-networks. Like the part 1 paper, this manuscript discusses the terms associated with neural networks and their training. Then the manuscript provides some intuition behind every method and concludes by showing ea",
+    "link": "http://arxiv.org/abs/2211.00147",
+    "total_tokens": 874,
+    "translated_title": "操作气象学的机器学习教程，第二部分：神经网络和深度学习",
+    "translated_abstract": "在过去的十年中，机器学习在气象学中的应用迅速增长。特别是神经网络和深度学习的使用率前所未有。为了填补缺乏以气象学视角涵盖神经网络的资源，本文以平易近人的语言格式讨论了机器学习方法，针对操作气象学界。这是一对旨在为气象学家提供机器学习资源的论文中的第二篇。第一篇论文侧重于传统的机器学习方法（例如随机森林），而本文则涵盖了广泛的神经网络和深度学习方法。具体而言，本文涵盖了感知器、人工神经网络、卷积神经网络和U型网络。与第一篇论文一样，本文讨论了与神经网络及其训练相关的术语。然后，本文提供了每种方法背后的一些直觉，并以展示每种方法的实例来结束。",
+    "tldr": "本文讨论了机器学习在气象学中的应用，特别是神经网络和深度学习。涵盖了感知器、人工神经网络、卷积神经网络和U型网络等方法。",
+    "en_tldr": "This paper discusses the application of machine learning in meteorology, specifically neural networks and deep learning. It covers methods such as perceptrons, artificial neural networks, convolutional neural networks, and U-networks."
+}

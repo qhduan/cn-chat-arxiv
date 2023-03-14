@@ -1,0 +1,10 @@
+{
+    "title": "$L_2$BN: Enhancing Batch Normalization by Equalizing the $L_2$ Norms of Features. (arXiv:2207.02625v5 [cs.CV] UPDATED)",
+    "abstract": "In this paper, we show that the difference in $l_2$ norms of sample features can hinder batch normalization from obtaining more distinguished inter-class features and more compact intra-class features. To address this issue, we propose an intuitive but effective method to equalize the $l_2$ norms of sample features. Concretely, we $l_2$-normalize each sample feature before feeding them into batch normalization, and therefore the features are of the same magnitude. Since the proposed method combines the $l_2$ normalization and batch normalization, we name our method $L_2$BN. The $L_2$BN can strengthen the compactness of intra-class features and enlarge the discrepancy of inter-class features. The $L_2$BN is easy to implement and can exert its effect without any additional parameters or hyper-parameters. Therefore, it can be used as a basic normalization method for neural networks. We evaluate the effectiveness of $L_2$BN through extensive experiments with various models on image classif",
+    "link": "http://arxiv.org/abs/2207.02625",
+    "total_tokens": 997,
+    "translated_title": "$L_2$BN: 通过等化特征的$L_2$范数来增强批量归一化",
+    "translated_abstract": "本文表明，样本特征的$L_2$范数差异会妨碍批量归一化获得更加显著的跨类别特征和更加紧凑的内类别特征。为了解决这个问题，我们提出了一种直观但有效的方法来等化样本特征的$L_2$范数。具体来说，我们在将样本特征输入批量归一化之前对每个样本特征进行$L_2$归一化，因此特征具有相同的数量级。由于所提出的方法结合了$L_2$归一化和批量归一化，因此我们将其命名为$L_2$BN。$L_2$BN可以增强内类别特征的紧凑性并扩大跨类别特征的差异。$L_2$BN易于实现，可以在没有任何额外参数或超参数的情况下发挥其作用。因此，它可以用作神经网络的基本归一化方法。我们通过对各种模型进行广泛的实验评估了$L_2$BN的有效性，用于图像分类。",
+    "tldr": "本文提出了一种$L_2$BN方法，通过等化样本特征的$L_2$范数来增强批量归一化，可以增强内类别特征的紧凑性并扩大跨类别特征的差异，易于实现，可以用作神经网络的基本归一化方法。",
+    "en_tldr": "This paper proposes an $L_2$BN method to enhance batch normalization by equalizing the $l_2$ norms of sample features, which can strengthen the compactness of intra-class features and enlarge the discrepancy of inter-class features, easy to implement, and can be used as a basic normalization method for neural networks."
+}

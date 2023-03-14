@@ -1,0 +1,10 @@
+{
+    "title": "Learning Torque Control for Quadrupedal Locomotion. (arXiv:2203.05194v2 [cs.RO] UPDATED)",
+    "abstract": "Reinforcement learning (RL) has become a promising approach to developing controllers for quadrupedal robots. Conventionally, an RL design for locomotion follows a position-based paradigm, wherein an RL policy outputs target joint positions at a low frequency that are then tracked by a high-frequency proportional-derivative (PD) controller to produce joint torques. In contrast, for the model-based control of quadrupedal locomotion, there has been a paradigm shift from position-based control to torque-based control. In light of the recent advances in model-based control, we explore an alternative to the position-based RL paradigm, by introducing a torque-based RL framework, where an RL policy directly predicts joint torques at a high frequency, thus circumventing the use of a PD controller. The proposed learning torque control framework is validated with extensive experiments, in which a quadruped is capable of traversing various terrain and resisting external disturbances while followi",
+    "link": "http://arxiv.org/abs/2203.05194",
+    "total_tokens": 929,
+    "translated_title": "学习四足动物运动的扭矩控制",
+    "translated_abstract": "强化学习已成为开发四足机器人控制器的一种有前途的方法。传统上，用于运动的RL设计遵循基于位置的范例，其中RL策略以低频率输出目标关节位置，然后由高频比例-导数（PD）控制器跟踪以产生关节扭矩。相比之下，对于四足动物运动的基于模型的控制，已经从基于位置的控制范例转向基于扭矩的控制。鉴于基于模型的控制的最新进展，我们通过引入基于扭矩的RL框架，探索了一种替代基于位置的RL范例的方法，其中RL策略直接在高频率下预测关节扭矩，从而避免使用PD控制器。所提出的学习扭矩控制框架通过广泛的实验进行了验证，在这些实验中，四足动物能够穿越各种地形并抵抗外部干扰，同时保持运动。",
+    "tldr": "本文提出了一种基于扭矩的强化学习框架，直接预测关节扭矩，避免使用PD控制器，通过广泛的实验验证，四足动物能够穿越各种地形并抵抗外部干扰，同时保持运动。",
+    "en_tldr": "This paper proposes a torque-based reinforcement learning framework that directly predicts joint torques, avoiding the use of a PD controller. The framework is validated through extensive experiments, where a quadruped is capable of traversing various terrain and resisting external disturbances while maintaining locomotion."
+}

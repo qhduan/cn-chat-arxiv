@@ -1,0 +1,10 @@
+{
+    "title": "Holistic Deep Learning. (arXiv:2110.15829v4 [cs.LG] UPDATED)",
+    "abstract": "This paper presents a novel holistic deep learning framework that simultaneously addresses the challenges of vulnerability to input perturbations, overparametrization, and performance instability from different train-validation splits. The proposed framework holistically improves accuracy, robustness, sparsity, and stability over standard deep learning models, as demonstrated by extensive experiments on both tabular and image data sets. The results are further validated by ablation experiments and SHAP value analysis, which reveal the interactions and trade-offs between the different evaluation metrics. To support practitioners applying our framework, we provide a prescriptive approach that offers recommendations for selecting an appropriate training loss function based on their specific objectives. All the code to reproduce the results can be found at https://github.com/kimvc7/HDL.",
+    "link": "http://arxiv.org/abs/2110.15829",
+    "total_tokens": 884,
+    "translated_title": "全面深度学习",
+    "translated_abstract": "本文提出了一种新颖的全面深度学习框架，同时解决了对输入扰动的脆弱性、过度参数化和来自不同训练验证拆分的性能不稳定性等挑战。所提出的框架在标准深度学习模型上全面提高了准确性、鲁棒性、稀疏性和稳定性，这在对表格和图像数据集进行广泛实验中得到了证明。结果进一步通过消融实验和SHAP值分析进行验证，揭示了不同评估指标之间的交互作用和权衡。为了支持实践者应用我们的框架，我们提供了一种指导性方法，根据他们的具体目标，提供选择适当的训练损失函数的建议。所有用于重现结果的代码都可以在https://github.com/kimvc7/HDL找到。",
+    "tldr": "本文提出了一种全面深度学习框架，通过解决输入扰动的脆弱性、过度参数化和性能不稳定性等挑战，全面提高了准确性、鲁棒性、稀疏性和稳定性，适用于表格和图像数据集。提供了选择适当的训练损失函数的建议。",
+    "en_tldr": "This paper proposes a holistic deep learning framework that addresses the challenges of vulnerability to input perturbations, overparametrization, and performance instability from different train-validation splits. The proposed framework improves accuracy, robustness, sparsity, and stability over standard deep learning models, as demonstrated by extensive experiments on both tabular and image data sets. A prescriptive approach is provided to support practitioners in selecting an appropriate training loss function based on their specific objectives."
+}

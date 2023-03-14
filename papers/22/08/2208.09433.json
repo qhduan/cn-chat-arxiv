@@ -1,0 +1,10 @@
+{
+    "title": "Estimating a potential without the agony of the partition function. (arXiv:2208.09433v2 [cs.LG] UPDATED)",
+    "abstract": "Estimating a Gibbs density function given a sample is an important problem in computational statistics and statistical learning. Although the well established maximum likelihood method is commonly used, it requires the computation of the partition function (i.e., the normalization of the density).  This function can be easily calculated for simple low-dimensional problems but its computation is difficult or even intractable for general densities and high-dimensional problems. In this paper we propose an alternative approach based on Maximum A-Posteriori (MAP) estimators, we name Maximum Recovery MAP (MR-MAP), to derive estimators that do not require the computation of the partition function, and reformulate the problem as an optimization problem. We further propose a least-action type potential that allows us to quickly solve the optimization problem as a feed-forward hyperbolic neural network. We demonstrate the effectiveness of our methods on some standard data sets.",
+    "link": "http://arxiv.org/abs/2208.09433",
+    "total_tokens": 866,
+    "translated_title": "不需要计算配分函数的潜力估计方法",
+    "translated_abstract": "在计算统计和统计学习中，给定样本估计Gibbs密度函数是一个重要的问题。虽然最大似然方法被广泛使用，但它需要计算配分函数（即密度的归一化）。对于简单的低维问题，可以轻松计算该函数，但对于一般密度和高维问题，其计算是困难甚至是不可行的。在本文中，我们提出了一种基于最大后验估计（MAP）估计器的替代方法，我们将其命名为最大恢复MAP（MR-MAP），以导出不需要计算配分函数的估计器，并将问题重新表述为优化问题。我们进一步提出了一种最小作用量类型的势函数，使我们能够快速将优化问题解决为前馈双曲神经网络。我们在一些标准数据集上展示了我们方法的有效性。",
+    "tldr": "本文提出了一种不需要计算配分函数的潜力估计方法，基于最大后验估计（MAP）估计器，将问题重新表述为优化问题，并提出了一种最小作用量类型的势函数，使我们能够快速将优化问题解决为前馈双曲神经网络。",
+    "en_tldr": "This paper proposes a potential estimation method that does not require the computation of the partition function, based on Maximum A-Posteriori (MAP) estimators, reformulating the problem as an optimization problem, and proposing a least-action type potential that allows for quick solution as a feed-forward hyperbolic neural network."
+}

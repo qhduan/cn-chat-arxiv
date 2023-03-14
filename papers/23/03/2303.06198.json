@@ -1,0 +1,10 @@
+{
+    "title": "Deflated HeteroPCA: Overcoming the curse of ill-conditioning in heteroskedastic PCA. (arXiv:2303.06198v1 [math.ST])",
+    "abstract": "This paper is concerned with estimating the column subspace of a low-rank matrix $\\boldsymbol{X}^\\star \\in \\mathbb{R}^{n_1\\times n_2}$ from contaminated data. How to obtain optimal statistical accuracy while accommodating the widest range of signal-to-noise ratios (SNRs) becomes particularly challenging in the presence of heteroskedastic noise and unbalanced dimensionality (i.e., $n_2\\gg n_1$). While the state-of-the-art algorithm $\\textsf{HeteroPCA}$ emerges as a powerful solution for solving this problem, it suffers from \"the curse of ill-conditioning,\" namely, its performance degrades as the condition number of $\\boldsymbol{X}^\\star$ grows. In order to overcome this critical issue without compromising the range of allowable SNRs, we propose a novel algorithm, called $\\textsf{Deflated-HeteroPCA}$, that achieves near-optimal and condition-number-free theoretical guarantees in terms of both $\\ell_2$ and $\\ell_{2,\\infty}$ statistical accuracy. The proposed algorithm divides the spectrum",
+    "link": "http://arxiv.org/abs/2303.06198",
+    "total_tokens": 906,
+    "translated_title": "克服异方差PCA中病态问题的缩减算法",
+    "translated_abstract": "本文关注于从受污染的数据中估计低秩矩阵X*的列子空间。当存在异方差噪声和不平衡的维度（即n2 >> n1）时，如何在容纳最广泛的信噪比范围的同时获得最佳的统计精度变得特别具有挑战性。虽然最先进的算法HeteroPCA成为解决这个问题的强有力的解决方案，但它遭受了“病态问题的诅咒”，即随着X*的条件数增长，其性能会下降。为了克服这个关键问题而不影响允许的信噪比范围，我们提出了一种新的算法，称为缩减异方差PCA，它在$\\ell_2$和$\\ell_{2,\\infty}$统计精度方面实现了近乎最优和无条件数的理论保证。所提出的算法将谱分成两部分",
+    "tldr": "本文提出了一种新的算法，称为缩减异方差PCA，它在克服病态问题的同时实现了近乎最优和无条件数的理论保证。",
+    "en_tldr": "This paper proposes a novel algorithm, called Deflated-HeteroPCA, that overcomes the curse of ill-conditioning in heteroskedastic PCA while achieving near-optimal and condition-number-free theoretical guarantees."
+}

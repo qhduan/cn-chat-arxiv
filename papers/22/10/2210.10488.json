@@ -1,0 +1,10 @@
+{
+    "title": "Attribution and Obfuscation of Neural Text Authorship: A Data Mining Perspective. (arXiv:2210.10488v4 [cs.CL] UPDATED)",
+    "abstract": "Two interlocking research questions of growing interest and importance in privacy research are Authorship Attribution (AA) and Authorship Obfuscation (AO). Given an artifact, especially a text t in question, an AA solution aims to accurately attribute t to its true author out of many candidate authors while an AO solution aims to modify t to hide its true authorship. Traditionally, the notion of authorship and its accompanying privacy concern is only toward human authors. However, in recent years, due to the explosive advancements in Neural Text Generation (NTG) techniques in NLP, capable of synthesizing human-quality open-ended texts (so-called \"neural texts\"), one has to now consider authorships by humans, machines, or their combination. Due to the implications and potential threats of neural texts when used maliciously, it has become critical to understand the limitations of traditional AA/AO solutions and develop novel AA/AO solutions in dealing with neural texts. In this survey, t",
+    "link": "http://arxiv.org/abs/2210.10488",
+    "total_tokens": 780,
+    "translated_title": "神经文本作者归属和混淆：数据挖掘视角",
+    "translated_abstract": "作者归属（AA）和作者混淆（AO）是隐私研究中越来越受关注和重要的两个交织的研究问题。传统上，作者的概念及其随之而来的隐私关注仅针对人类作者。然而，由于自然语言处理中神经文本生成（NTG）技术的爆炸性进展，现在必须考虑人类、机器或它们的组合的作者身份。由于神经文本在恶意使用时的潜在威胁，了解传统AA / AO解决方案的局限性并开发处理神经文本的新型AA / AO解决方案变得至关重要。",
+    "tldr": "本文调查了神经文本生成技术在作者归属和混淆中的应用，提出了需要开发新型AA / AO解决方案来处理神经文本的问题。",
+    "en_tldr": "This survey investigates the application of neural text generation techniques in authorship attribution and obfuscation, and highlights the need for developing novel AA/AO solutions to deal with neural texts."
+}

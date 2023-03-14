@@ -1,0 +1,10 @@
+{
+    "title": "Adversarial random forests for density estimation and generative modeling. (arXiv:2205.09435v4 [stat.ML] UPDATED)",
+    "abstract": "We propose methods for density estimation and data synthesis using a novel form of unsupervised random forests. Inspired by generative adversarial networks, we implement a recursive procedure in which trees gradually learn structural properties of the data through alternating rounds of generation and discrimination. The method is provably consistent under minimal assumptions. Unlike classic tree-based alternatives, our approach provides smooth (un)conditional densities and allows for fully synthetic data generation. We achieve comparable or superior performance to state-of-the-art probabilistic circuits and deep learning models on various tabular data benchmarks while executing about two orders of magnitude faster on average. An accompanying $\\texttt{R}$ package, $\\texttt{arf}$, is available on $\\texttt{CRAN}$.",
+    "link": "http://arxiv.org/abs/2205.09435",
+    "total_tokens": 836,
+    "translated_title": "对抗随机森林用于密度估计和生成建模",
+    "translated_abstract": "我们提出了一种使用新型无监督随机森林进行密度估计和数据合成的方法。受生成对抗网络的启发，我们实现了一种递归过程，其中树通过交替的生成和判别轮次逐渐学习数据的结构特性。该方法在最小假设下可以被证明是一致的。与经典的基于树的替代方法不同，我们的方法提供平滑的（非）条件密度，并允许完全合成数据生成。我们在各种表格数据基准测试中实现了与最先进的概率电路和深度学习模型相当或更好的性能，同时平均执行速度快了两个数量级。附带的R包arf可在CRAN上获得。",
+    "tldr": "本文提出了一种使用对抗随机森林进行密度估计和数据合成的方法，该方法可以提供平滑的（非）条件密度，并允许完全合成数据生成，同时在各种表格数据基准测试中实现了与最先进的概率电路和深度学习模型相当或更好的性能，平均执行速度快了两个数量级。",
+    "en_tldr": "This paper proposes a method for density estimation and data synthesis using adversarial random forests, which provides smooth (un)conditional densities and allows for fully synthetic data generation. The method achieves comparable or superior performance to state-of-the-art probabilistic circuits and deep learning models on various tabular data benchmarks while executing about two orders of magnitude faster on average."
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Predicting risk of delirium from ambient noise and light information in the ICU. (arXiv:2303.06253v1 [cs.LG])",
+    "abstract": "Existing Intensive Care Unit (ICU) delirium prediction models do not consider environmental factors despite strong evidence of their influence on delirium. This study reports the first deep-learning based delirium prediction model for ICU patients using only ambient noise and light information. Ambient light and noise intensities were measured from ICU rooms of 102 patients from May 2021 to September 2022 using Thunderboard, ActiGraph sensors and an iPod with AudioTools application. These measurements were divided into daytime (0700 to 1859) and nighttime (1900 to 0659). Deep learning models were trained using this data to predict the incidence of delirium during ICU stay or within 4 days of discharge. Finally, outcome scores were analyzed to evaluate the importance and directionality of every feature. Daytime noise levels were significantly higher than nighttime noise levels. When using only noise features or a combination of noise and light features 1-D convolutional neural networks ",
+    "link": "http://arxiv.org/abs/2303.06253",
+    "total_tokens": 921,
+    "translated_title": "ICU环境噪声和光线信息预测谵妄风险",
+    "translated_abstract": "现有的重症监护室（ICU）谵妄预测模型没有考虑环境因素，尽管有强有力的证据表明它们对谵妄有影响。本研究利用Thunderboard、ActiGraph传感器和iPod with AudioTools应用程序，仅使用环境噪声和光线信息，报道了第一个基于深度学习的ICU患者谵妄预测模型。这些测量数据从2021年5月至2022年9月收集自102名患者的ICU病房，分为白天（0700至1859）和夜间（1900至0659）。使用这些数据训练深度学习模型，预测ICU住院期间或出院后4天内的谵妄发生率。最后，分析结果得分以评估每个特征的重要性和方向性。白天的噪声水平显著高于夜间的噪声水平。当仅使用噪声特征或噪声和光特征的组合时，1-D卷积神经网络",
+    "tldr": "本研究利用环境噪声和光线信息，开发了第一个基于深度学习的ICU患者谵妄预测模型，为谵妄的预防和治疗提供了新思路。",
+    "en_tldr": "This study developed the first deep-learning based delirium prediction model for ICU patients using only ambient noise and light information, providing new insights for the prevention and treatment of delirium."
+}

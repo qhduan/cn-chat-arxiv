@@ -1,0 +1,10 @@
+{
+    "title": "A Unified and Fast Interpretable Model for Predictive Analytics. (arXiv:2111.08255v2 [cs.LG] UPDATED)",
+    "abstract": "Predictive analytics aims to build machine learning models to predict behavior patterns and use predictions to guide decision-making. Predictive analytics is human involved, thus the machine learning model is preferred to be interpretable. In literature, Generalized Additive Model (GAM) is a standard for interpretability. However, due to the one-to-many and many-to-one phenomena which appear commonly in real-world scenarios, existing GAMs have limitations to serve predictive analytics in terms of both accuracy and training efficiency. In this paper, we propose FXAM (Fast and eXplainable Additive Model), a unified and fast interpretable model for predictive analytics. FXAM extends GAM's modeling capability with a unified additive model for numerical, categorical, and temporal features. FXAM conducts a novel training procedure called Three-Stage Iteration (TSI). TSI corresponds to learning over numerical, categorical, and temporal features respectively. Each stage learns a local optimum ",
+    "link": "http://arxiv.org/abs/2111.08255",
+    "total_tokens": 943,
+    "translated_title": "一种统一且快速可解释的预测分析模型",
+    "translated_abstract": "预测分析旨在构建机器学习模型以预测行为模式并使用预测指导决策。由于预测分析需要人类参与，因此机器学习模型最好是可解释的。在文献中，广义可加模型（GAM）是解释性的标准。然而，由于在现实场景中常见的一对多和多对一现象，现有的GAM在准确性和训练效率方面都存在局限性。在本文中，我们提出了FXAM（快速且可解释的可加模型），这是一种统一且快速可解释的预测分析模型。FXAM通过统一的可加模型扩展了GAM的建模能力，用于数值、分类和时间特征。FXAM进行了一种新颖的训练过程，称为三阶段迭代（TSI）。TSI分别对数值、分类和时间特征进行学习。每个阶段学习局部最优解。",
+    "tldr": "本文提出了一种名为FXAM的统一且快速可解释的预测分析模型，通过统一的可加模型扩展了GAM的建模能力，用于数值、分类和时间特征。FXAM进行了一种新颖的训练过程，称为三阶段迭代（TSI），分别对数值、分类和时间特征进行学习，具有较高的准确性和训练效率。",
+    "en_tldr": "This paper proposes a unified and fast interpretable model for predictive analytics called FXAM, which extends GAM's modeling capability with a unified additive model for numerical, categorical, and temporal features. FXAM conducts a novel training procedure called Three-Stage Iteration (TSI) and achieves high accuracy and training efficiency."
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Enabling Non-Linear Quantum Operations through Variational Quantum Splines. (arXiv:2303.04788v2 [quant-ph] UPDATED)",
+    "abstract": "The postulates of quantum mechanics impose only unitary transformations on quantum states, which is a severe limitation for quantum machine learning algorithms. Quantum Splines (QSplines) have recently been proposed to approximate quantum activation functions to introduce non-linearity in quantum algorithms. However, QSplines make use of the HHL as a subroutine and require a fault-tolerant quantum computer to be correctly implemented. This work proposes the Generalised QSplines (GQSplines), a novel method for approximating non-linear quantum activation functions using hybrid quantum-classical computation. The GQSplines overcome the highly demanding requirements of the original QSplines in terms of quantum hardware and can be implemented using near-term quantum computers. Furthermore, the proposed method relies on a flexible problem representation for non-linear approximation and it is suitable to be embedded in existing quantum neural network architectures. In addition, we provide a pr",
+    "link": "http://arxiv.org/abs/2303.04788",
+    "total_tokens": 849,
+    "translated_title": "通过变分量子样条使非线性量子操作成为可能",
+    "translated_abstract": "量子力学的假设仅对量子状态施加幺正变换，这对于量子机器学习算法来说是一个严重的限制。最近提出了量子样条（QSplines）来近似量子激活函数，以在量子算法中引入非线性。然而，QSplines使用HHL作为子程序，并需要一个容错的量子计算机才能正确实现。本文提出了广义QSplines（GQSplines），一种使用混合量子-经典计算来近似非线性量子激活函数的新方法。GQSplines克服了原始QSplines在量子硬件方面的高要求，并可以使用近期的量子计算机来实现。此外，所提出的方法依赖于灵活的问题表示，适合嵌入现有的量子神经网络架构中。",
+    "tldr": "本文提出了一种新方法——广义QSplines，使用混合量子-经典计算来近似非线性量子激活函数，克服了原始QSplines在量子硬件方面的高要求，并适合嵌入现有的量子神经网络架构中。",
+    "en_tldr": "This paper proposes a novel method, Generalised QSplines (GQSplines), for approximating non-linear quantum activation functions using hybrid quantum-classical computation, which overcomes the highly demanding requirements of the original QSplines in terms of quantum hardware and is suitable to be embedded in existing quantum neural network architectures."
+}

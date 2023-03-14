@@ -1,0 +1,10 @@
+{
+    "title": "Sparsity by Redundancy: Solving $L_1$ with SGD. (arXiv:2210.01212v2 [cs.LG] UPDATED)",
+    "abstract": "We propose to minimize a generic differentiable loss function with $L_1$ penalty with a redundant reparametrization and straightforward stochastic gradient descent. Our proposal is the direct generalization of a series of previous ideas that the $L_1$ penalty may be equivalent to a differentiable reparametrization with weight decay. We prove that the proposed method, \\textit{spred}, is an exact solver of $L_1$ and that the reparametrization trick is completely ``benign\" for a generic nonconvex function. Practically, we demonstrate the usefulness of the method in (1) training sparse neural networks to perform gene selection tasks, which involves finding relevant features in a very high dimensional space, and (2) neural network compression task, to which previous attempts at applying the $L_1$-penalty have been unsuccessful. Conceptually, our result bridges the gap between the sparsity in deep learning and conventional statistical learning.",
+    "link": "http://arxiv.org/abs/2210.01212",
+    "total_tokens": 1003,
+    "translated_title": "通过冗余性实现稀疏性：用SGD求解$L_1$",
+    "translated_abstract": "我们提出了一种通过冗余重参数化和简单的随机梯度下降来最小化带有$L_1$惩罚的通用可微损失函数的方法。我们的提议是$L_1$惩罚等价于带有权重衰减的可微重参数化的直接推广。我们证明了所提出的方法，即\\textit{spred}，是$L_1$的精确求解器，并且对于通用的非凸函数，重参数化技巧是完全“良性”的。在实践中，我们展示了该方法的实用性，包括(1)训练稀疏神经网络以执行基因选择任务，其中涉及在非常高维空间中找到相关特征，以及(2)神经网络压缩任务，先前尝试应用$L_1$惩罚的方法均未成功。从概念上讲，我们的结果弥合了深度学习中的稀疏性和传统统计学习之间的差距。",
+    "tldr": "该论文提出了一种通过冗余重参数化和简单的随机梯度下降来最小化带有$L_1$惩罚的通用可微损失函数的方法，称为\\textit{spred}，是$L_1$的精确求解器，可用于训练稀疏神经网络以执行基因选择任务和神经网络压缩任务，弥合了深度学习中的稀疏性和传统统计学习之间的差距。",
+    "en_tldr": "This paper proposes a method called \"spred\" to minimize a generic differentiable loss function with $L_1$ penalty using redundant reparametrization and straightforward stochastic gradient descent. It is an exact solver of $L_1$ and can be used to train sparse neural networks for gene selection tasks and neural network compression tasks, bridging the gap between sparsity in deep learning and conventional statistical learning."
+}

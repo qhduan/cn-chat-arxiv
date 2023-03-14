@@ -1,0 +1,10 @@
+{
+    "title": "ETF construction on CRIX. (arXiv:2211.15260v2 [q-fin.GN] UPDATED)",
+    "abstract": "Investments in cryptocurrencies (CCs) remain risky due to high volatility. Exchange Traded Funds (ETFs) are a suitable tool to diversify risk and to benefit from the growth of the whole CC sector. We construct an ETF on the CRIX, the CRyptocurrency IndeX that maps the non-stationary CC dynamics closely by adapting its constituents weights dynamically. The scenario analysis considers the fee schedules of regulated CC exchanges, spreads obtained from high-frequency order book data, and models capital deposits to the ETF stochastically. The analysis yields valuable insights into the mechanisms, costs and risks of this new financial product: i) although the composition of the CRIX ETF changes frequently (from 5 to 30 constituents), it remains robust in its core, as the weights of Bitcoin (BTC) and Ethereum (ETH) are robust over time, ii) on average, a portion of 5.2% needed to be rebalanced at the rebalancing dates, iii) trading costs are low compared to traditional assets, iv) the liquidi",
+    "link": "http://arxiv.org/abs/2211.15260",
+    "total_tokens": 902,
+    "translated_title": "CRIX上的ETF构建",
+    "translated_abstract": "由于高波动性，加密货币（CC）的投资仍然存在风险。交易所交易基金（ETF）是分散风险并从整个CC部门的增长中受益的合适工具。我们在CRIX上构建了一个ETF，即CRyptocurrency IndeX，通过动态调整其成分权重，紧密映射非平稳CC动态。情景分析考虑了受监管的CC交易所的费用计划，从高频订单簿数据获得的价差，并随机模拟向ETF的资本存款。分析提供了有关这种新金融产品的机制、成本和风险的有价值的见解：i）尽管CRIX ETF的组成经常变化（从5到30个成分），但其核心仍然稳健，因为比特币（BTC）和以太坊（ETH）的权重随时间稳健，ii）平均而言，在重新平衡日期需要重新平衡5.2%的部分，iii）交易成本与传统资产相比较低，iv）流动性",
+    "tldr": "本文构建了一个基于CRIX的ETF，通过动态调整其成分权重，紧密映射非平稳CC动态，提供了有关这种新金融产品的机制、成本和风险的有价值的见解。",
+    "en_tldr": "This paper constructs an ETF based on CRIX, which closely maps the non-stationary CC dynamics by adapting its constituents weights dynamically, providing valuable insights into the mechanisms, costs and risks of this new financial product."
+}

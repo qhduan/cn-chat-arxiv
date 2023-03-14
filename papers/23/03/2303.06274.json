@@ -1,0 +1,10 @@
+{
+    "title": "CoNIC Challenge: Pushing the Frontiers of Nuclear Detection, Segmentation, Classification and Counting. (arXiv:2303.06274v1 [cs.CV])",
+    "abstract": "Nuclear detection, segmentation and morphometric profiling are essential in helping us further understand the relationship between histology and patient outcome. To drive innovation in this area, we setup a community-wide challenge using the largest available dataset of its kind to assess nuclear segmentation and cellular composition. Our challenge, named CoNIC, stimulated the development of reproducible algorithms for cellular recognition with real-time result inspection on public leaderboards. We conducted an extensive post-challenge analysis based on the top-performing models using 1,658 whole-slide images of colon tissue. With around 700 million detected nuclei per model, associated features were used for dysplasia grading and survival analysis, where we demonstrated that the challenge's improvement over the previous state-of-the-art led to significant boosts in downstream performance. Our findings also suggest that eosinophils and neutrophils play an important role in the tumour m",
+    "link": "http://arxiv.org/abs/2303.06274",
+    "total_tokens": 920,
+    "translated_title": "CoNIC挑战：推动核检测、分割、分类和计数的前沿（arXiv:2303.06274v1 [cs.CV]）",
+    "translated_abstract": "核检测、分割和形态测量是帮助我们进一步了解组织学和患者预后关系的关键。为了推动这一领域的创新，我们使用目前最大的数据集设置了一个社区广泛的挑战，以评估核分割和细胞组成。我们的挑战名为CoNIC，刺激了可重复的细胞识别算法的开发，并在公共排行榜上进行实时结果检查。我们基于1,658个结肠组织的全切片图像对表现最佳的模型进行了广泛的后挑战分析。每个模型检测到约7亿个细胞核，相关特征用于不良增生分级和生存分析，我们证明了挑战对先前最先进技术的改进导致了下游性能的显著提升。我们的发现还表明，嗜酸性粒细胞和中性粒细胞在肿瘤中发挥重要作用。",
+    "tldr": "CoNIC挑战使用最大的数据集评估核分割和细胞组成，刺激了可重复的细胞识别算法的开发，发现嗜酸性粒细胞和中性粒细胞在肿瘤中发挥重要作用。",
+    "en_tldr": "The CoNIC challenge used the largest dataset to evaluate nuclear segmentation and cellular composition, stimulated the development of reproducible algorithms for cellular recognition, and found that eosinophils and neutrophils play an important role in tumors."
+}

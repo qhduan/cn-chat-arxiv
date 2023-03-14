@@ -1,0 +1,10 @@
+{
+    "title": "EGFR Mutation Prediction of Lung Biopsy Images using Deep Learning. (arXiv:2208.12506v3 [cs.CV] UPDATED)",
+    "abstract": "The standard diagnostic procedures for targeted therapies in lung cancer treatment involve histological subtyping and subsequent detection of key driver mutations, such as EGFR. Even though molecular profiling can uncover the driver mutation, the process is often expensive and time-consuming. Deep learning-oriented image analysis offers a more economical alternative for discovering driver mutations directly from whole slide images (WSIs). In this work, we used customized deep learning pipelines with weak supervision to identify the morphological correlates of EGFR mutation from hematoxylin and eosin-stained WSIs, in addition to detecting tumor and histologically subtyping it. We demonstrate the effectiveness of our pipeline by conducting rigorous experiments and ablation studies on two lung cancer datasets - TCGA and a private dataset from India. With our pipeline, we achieved an average area under the curve (AUC) of 0.964 for tumor detection, and 0.942 for histological subtyping betwe",
+    "link": "http://arxiv.org/abs/2208.12506",
+    "total_tokens": 883,
+    "translated_title": "使用深度学习预测肺活检图像中的EGFR突变",
+    "translated_abstract": "肺癌治疗的标准诊断程序涉及组织学亚型分型和随后的关键驱动基因突变检测，如EGFR。尽管分子分析可以揭示驱动基因突变，但该过程通常昂贵且耗时。基于深度学习的图像分析提供了一种更经济的选择，可以直接从全幻灯片图像（WSIs）中发现驱动基因突变。在这项工作中，我们使用定制的深度学习管道进行弱监督，以识别hematoxylin和eosin染色的WSIs中EGFR突变的形态学相关性，以及检测肿瘤和组织学亚型。我们通过在两个肺癌数据集（TCGA和来自印度的私人数据集）上进行严格的实验和消融研究来证明我们管道的有效性。使用我们的管道，我们实现了肿瘤检测的平均曲线下面积（AUC）为0.964，组织学亚型为0.942。",
+    "tldr": "本文使用深度学习技术，通过对肺活检图像进行分析，实现了对EGFR突变的预测，为肺癌治疗提供了更经济、更快捷的诊断方法。",
+    "en_tldr": "This paper uses deep learning technology to predict EGFR mutations through analysis of lung biopsy images, providing a more economical and faster diagnostic method for lung cancer treatment."
+}

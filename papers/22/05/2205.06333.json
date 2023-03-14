@@ -1,0 +1,10 @@
+{
+    "title": "Visuomotor Control in Multi-Object Scenes Using Object-Aware Representations. (arXiv:2205.06333v2 [cs.RO] UPDATED)",
+    "abstract": "Perceptual understanding of the scene and the relationship between its different components is important for successful completion of robotic tasks. Representation learning has been shown to be a powerful technique for this, but most of the current methodologies learn task specific representations that do not necessarily transfer well to other tasks. Furthermore, representations learned by supervised methods require large labeled datasets for each task that are expensive to collect in the real world. Using self-supervised learning to obtain representations from unlabeled data can mitigate this problem. However, current self-supervised representation learning methods are mostly object agnostic, and we demonstrate that the resulting representations are insufficient for general purpose robotics tasks as they fail to capture the complexity of scenes with many components. In this paper, we explore the effectiveness of using object-aware representation learning techniques for robotic tasks. ",
+    "link": "http://arxiv.org/abs/2205.06333",
+    "total_tokens": 816,
+    "translated_title": "使用物体感知表示在多物体场景中进行视觉运动控制",
+    "translated_abstract": "场景的感知理解以及其不同组件之间的关系对于成功完成机器人任务至关重要。表示学习已被证明是一种强大的技术，但大多数当前的方法学习任务特定的表示，不一定能够很好地转移到其他任务。此外，由监督方法学习的表示需要大量标记数据集，这在现实世界中收集起来很昂贵。使用自监督学习从未标记的数据中获取表示可以缓解这个问题。然而，当前的自监督表示学习方法大多是物体无关的，我们证明了由此得到的表示对于具有许多组件的场景的通用机器人任务是不足够的。在本文中，我们探讨了使用物体感知表示学习技术进行机器人任务的有效性。",
+    "tldr": "本文探讨了使用物体感知表示学习技术进行机器人任务的有效性，以解决当前方法学习任务特定表示不能很好地转移到其他任务的问题，以及由监督方法学习的表示需要大量标记数据集的问题。",
+    "en_tldr": "This paper explores the effectiveness of using object-aware representation learning techniques for robotic tasks, to address the problem that current methodologies learn task specific representations that do not necessarily transfer well to other tasks, and that representations learned by supervised methods require large labeled datasets for each task that are expensive to collect in the real world."
+}

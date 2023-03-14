@@ -1,0 +1,9 @@
+{
+    "title": "Matrix and graph representations of vine copula structures. (arXiv:2205.04783v2 [stat.ML] UPDATED)",
+    "abstract": "Vine copulas can efficiently model multivariate probability distributions. This paper focuses on a more thorough understanding of their structures, since in the literature, vine copula representations are often ambiguous. The graph representations include the original, cherry and chordal graph sequence structures, which we show equivalence between. Importantly we also show a new result, namely that when a perfect elimination ordering of a vine structure is given, then it can always be uniquely represented with a matrix. O. M. N\\'apoles has shown a way to represent vines in a matrix, and we algorithmify this previous approach, while also showing a new method for constructing such a matrix, through cherry tree sequences. We also calculate the runtime of these algorithms. Lastly, we prove that these two matrix-building algorithms are equivalent if the same perfect elimination ordering is being used.",
+    "link": "http://arxiv.org/abs/2205.04783",
+    "total_tokens": 752,
+    "translated_title": "Vine copula结构的矩阵和图形表示",
+    "translated_abstract": "Vine copula可以有效地建模多元概率分布。本文重点研究它们的结构，因为在文献中，vine copula的表示经常是模糊的。图形表示包括原始的、cherry和chordal图形序列结构，我们证明了它们之间的等价性。重要的是，我们还展示了一个新的结果，即当给出vine结构的完美消除排序时，它总是可以用矩阵唯一表示。O. M. N\\'apoles已经展示了一种在矩阵中表示vine的方法，我们对这种先前的方法进行了算法化，同时还展示了一种通过cherry树序列构建这种矩阵的新方法。我们还计算了这些算法的运行时间。最后，我们证明了这两种矩阵构建算法在使用相同的完美消除排序时是等价的。",
+    "tldr": "本文研究了Vine copula结构的矩阵和图形表示，证明了它们之间的等价性，并提出了一种新的方法来构建矩阵。这些算法的运行时间也被计算了。"
+}

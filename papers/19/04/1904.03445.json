@@ -1,0 +1,10 @@
+{
+    "title": "Feature-Based Interpolation and Geodesics in the Latent Spaces of Generative Models. (arXiv:1904.03445v3 [cs.LG] UPDATED)",
+    "abstract": "Interpolating between points is a problem connected simultaneously with finding geodesics and study of generative models. In the case of geodesics, we search for the curves with the shortest length, while in the case of generative models we typically apply linear interpolation in the latent space. However, this interpolation uses implicitly the fact that Gaussian is unimodal. Thus the problem of interpolating in the case when the latent density is non-Gaussian is an open problem.  In this paper, we present a general and unified approach to interpolation, which simultaneously allows us to search for geodesics and interpolating curves in latent space in the case of arbitrary density. Our results have a strong theoretical background based on the introduced quality measure of an interpolating curve. In particular, we show that maximising the quality measure of the curve can be equivalently understood as a search of geodesic for a certain redefinition of the Riemannian metric on the space. ",
+    "link": "http://arxiv.org/abs/1904.03445",
+    "total_tokens": 915,
+    "translated_title": "基于特征的生成模型潜空间插值和测地线",
+    "translated_abstract": "插值问题同时涉及到测地线和生成模型的研究。在测地线的情况下，我们寻找长度最短的曲线，而在生成模型的情况下，我们通常在潜空间中应用线性插值。然而，这种插值隐含地使用了高斯分布是单峰的事实。因此，在潜在密度为非高斯分布的情况下插值的问题是一个开放的问题。在本文中，我们提出了一种通用和统一的插值方法，它同时允许我们在任意密度的情况下搜索测地线和插值曲线。我们的结果具有强大的理论背景，基于引入的插值曲线质量度量。特别地，我们展示了最大化曲线的质量度量可以等价地理解为在空间上某种重新定义的黎曼度量下搜索测地线。",
+    "tldr": "本文提出了一种通用和统一的插值方法，它同时允许我们在任意密度的情况下搜索测地线和插值曲线。最大化曲线的质量度量可以等价地理解为在空间上某种重新定义的黎曼度量下搜索测地线。",
+    "en_tldr": "This paper proposes a general and unified approach to interpolation, which simultaneously allows us to search for geodesics and interpolating curves in latent space in the case of arbitrary density. Maximizing the quality measure of the curve can be equivalently understood as a search of geodesic for a certain redefinition of the Riemannian metric on the space."
+}

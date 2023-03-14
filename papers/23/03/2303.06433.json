@@ -1,0 +1,10 @@
+{
+    "title": "Reinforcement Learning-based Counter-Misinformation Response Generation: A Case Study of COVID-19 Vaccine Misinformation. (arXiv:2303.06433v1 [cs.SI])",
+    "abstract": "The spread of online misinformation threatens public health, democracy, and the broader society. While professional fact-checkers form the first line of defense by fact-checking popular false claims, they do not engage directly in conversations with misinformation spreaders. On the other hand, non-expert ordinary users act as eyes-on-the-ground who proactively counter misinformation -- recent research has shown that 96% counter-misinformation responses are made by ordinary users. However, research also found that 2/3 times, these responses are rude and lack evidence. This work seeks to create a counter-misinformation response generation model to empower users to effectively correct misinformation. This objective is challenging due to the absence of datasets containing ground-truth of ideal counter-misinformation responses, and the lack of models that can generate responses backed by communication theories. In this work, we create two novel datasets of misinformation and counter-misinfo",
+    "link": "http://arxiv.org/abs/2303.06433",
+    "total_tokens": 686,
+    "translated_title": "基于强化学习的反虚假信息响应生成：以COVID-19疫苗虚假信息为例",
+    "translated_abstract": "在线虚假信息的传播威胁着公共卫生、民主和更广泛的社会。本文旨在创建一个反虚假信息响应生成模型，以赋予用户有效纠正虚假信息的能力。本研究创建了两个虚假信息和反虚假信息数据集，使用强化学习算法训练模型，使其能够生成有效的反虚假信息响应。",
+    "tldr": "本研究使用强化学习算法创建了反虚假信息响应生成模型，以帮助普通用户有效纠正虚假信息。",
+    "en_tldr": "This study creates a counter-misinformation response generation model using reinforcement learning algorithm to empower ordinary users to effectively correct misinformation."
+}

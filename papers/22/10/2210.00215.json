@@ -1,0 +1,10 @@
+{
+    "title": "Differentiable Parsing and Visual Grounding of Natural Language Instructions for Object Placement. (arXiv:2210.00215v4 [cs.RO] UPDATED)",
+    "abstract": "We present a new method, PARsing And visual GrOuNding (ParaGon), for grounding natural language in object placement tasks. Natural language generally describes objects and spatial relations with compositionality and ambiguity, two major obstacles to effective language grounding. For compositionality, ParaGon parses a language instruction into an object-centric graph representation to ground objects individually. For ambiguity, ParaGon uses a novel particle-based graph neural network to reason about object placements with uncertainty. Essentially, ParaGon integrates a parsing algorithm into a probabilistic, data-driven learning framework. It is fully differentiable and trained end-to-end from data for robustness against complex, ambiguous language input.",
+    "link": "http://arxiv.org/abs/2210.00215",
+    "total_tokens": 803,
+    "translated_title": "可微分的自然语言指令解析和视觉定位在物体放置任务中的应用",
+    "translated_abstract": "我们提出了一种新的方法，PARsing And visual GrOuNding (ParaGon)，用于在物体放置任务中对自然语言进行定位。自然语言通常用组合性和歧义性描述对象和空间关系，这是有效语言定位的两个主要障碍。对于组合性，ParaGon将语言指令解析为以对象为中心的图形表示，以单独定位对象。对于歧义性，ParaGon使用一种新颖的基于粒子的图神经网络来推理关于带有不确定性的物体放置。本质上，ParaGon将解析算法集成到概率的数据驱动学习框架中。它是完全可微分的，并从数据中端到端地训练，以对抗复杂的，模糊的语言输入。",
+    "tldr": "ParaGon是一种可微分的自然语言指令解析和视觉定位方法，通过将语言指令解析为以对象为中心的图形表示，以单独定位对象，并使用一种新颖的基于粒子的图神经网络来推理关于带有不确定性的物体放置。",
+    "en_tldr": "ParaGon is a differentiable method for natural language instruction parsing and visual grounding in object placement tasks. It parses language instructions into an object-centric graph representation to ground objects individually and uses a novel particle-based graph neural network to reason about object placements with uncertainty."
+}

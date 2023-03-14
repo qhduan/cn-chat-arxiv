@@ -1,0 +1,10 @@
+{
+    "title": "Testing for the appropriate level of clustering in linear regression models. (arXiv:2301.04522v2 [econ.EM] UPDATED)",
+    "abstract": "The overwhelming majority of empirical research that uses cluster-robust inference assumes that the clustering structure is known, even though there are often several possible ways in which a dataset could be clustered. We propose two tests for the correct level of clustering in regression models. One test focuses on inference about a single coefficient, and the other on inference about two or more coefficients. We provide both asymptotic and wild bootstrap implementations. The proposed tests work for a null hypothesis of either no clustering or ``fine'' clustering against alternatives of ``coarser'' clustering. We also propose a sequential testing procedure to determine the appropriate level of clustering. Simulations suggest that the bootstrap tests perform very well under the null hypothesis and can have excellent power. An empirical example suggests that using the tests leads to sensible inferences.",
+    "link": "http://arxiv.org/abs/2301.04522",
+    "total_tokens": 821,
+    "translated_title": "线性回归模型中聚类水平的测试",
+    "translated_abstract": "绝大多数使用聚类稳健推断的实证研究都假定聚类结构已知，尽管数据集通常有多种可能的聚类方式。我们提出了两种回归模型中正确聚类水平的测试方法。一种测试方法侧重于单个系数的推断，另一种测试方法侧重于两个或多个系数的推断。我们提供了渐近和野外引导实现。所提出的测试适用于没有聚类或“细”聚类的零假设，对“更粗”的聚类的替代假设。我们还提出了一个顺序测试程序来确定适当的聚类水平。模拟表明，引导测试在零假设下表现非常好，并且具有出色的功率。一个实证例子表明，使用这些测试可以得出合理的推断。",
+    "tldr": "该论文提出了两种测试方法，用于确定回归模型中正确的聚类水平，以及一个顺序测试程序。模拟表明，这些测试方法在零假设下表现良好，并且具有出色的功率。一个实证例子表明，使用这些测试可以得出合理的推断。",
+    "en_tldr": "This paper proposes two tests and a sequential testing procedure to determine the appropriate level of clustering in regression models. The simulations show that the proposed tests perform well under the null hypothesis and have excellent power, and an empirical example suggests that using these tests leads to sensible inferences."
+}

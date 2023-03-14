@@ -1,0 +1,10 @@
+{
+    "title": "Learning Audio Features with Metadata and Contrastive Learning. (arXiv:2210.16192v2 [cs.SD] UPDATED)",
+    "abstract": "Methods based on supervised learning using annotations in an end-to-end fashion have been the state-of-the-art for classification problems. However, they may be limited in their generalization capability, especially in the low data regime. In this study, we address this issue using supervised contrastive learning combined with available metadata to solve multiple pretext tasks that learn a good representation of data. We apply our approach on ICBHI, a respiratory sound classification dataset suited for this setting. We show that learning representations using only metadata, without class labels, obtains similar performance as using cross entropy with those labels only. In addition, we obtain state-of-the-art score when combining class labels with metadata using multiple supervised contrastive learning. This work suggests the potential of using multiple metadata sources in supervised contrastive settings, in particular in settings with class imbalance and few data. Our code is released ",
+    "link": "http://arxiv.org/abs/2210.16192",
+    "total_tokens": 884,
+    "translated_title": "利用元数据和对比学习学习音频特征",
+    "translated_abstract": "基于注释的监督学习方法一直是分类问题的最先进技术，但是在低数据情况下，它们的泛化能力可能受到限制。本研究使用监督对比学习结合可用元数据解决多个前置任务，学习数据的良好表示。我们将我们的方法应用于ICBHI，这是一个适合这种情况的呼吸音分类数据集。我们表明，仅使用元数据学习表示，而不使用类标签，可以获得与仅使用这些标签的交叉熵相似的性能。此外，我们使用多个监督对比学习将类标签与元数据相结合时，获得了最先进的得分。这项工作表明，在监督对比设置中使用多个元数据源的潜力，特别是在类不平衡和少量数据的情况下。我们的代码已发布。",
+    "tldr": "本研究使用监督对比学习结合可用元数据解决多个前置任务，学习数据的良好表示。在呼吸音分类数据集上，仅使用元数据学习表示可以获得与仅使用类标签的交叉熵相似的性能。在使用多个监督对比学习将类标签与元数据相结合时，获得了最先进的得分。",
+    "en_tldr": "This study uses supervised contrastive learning combined with available metadata to solve multiple pretext tasks that learn a good representation of data. Learning representations using only metadata obtains similar performance as using cross entropy with class labels only. State-of-the-art score is obtained when combining class labels with metadata using multiple supervised contrastive learning."
+}

@@ -1,0 +1,10 @@
+{
+    "title": "MLP-SRGAN: A Single-Dimension Super Resolution GAN using MLP-Mixer. (arXiv:2303.06298v1 [cs.CV])",
+    "abstract": "We propose a novel architecture called MLP-SRGAN, which is a single-dimension Super Resolution Generative Adversarial Network (SRGAN) that utilizes Multi-Layer Perceptron Mixers (MLP-Mixers) along with convolutional layers to upsample in the slice direction. MLP-SRGAN is trained and validated using high resolution (HR) FLAIR MRI from the MSSEG2 challenge dataset. The method was applied to three multicentre FLAIR datasets (CAIN, ADNI, CCNA) of images with low spatial resolution in the slice dimension to examine performance on held-out (unseen) clinical data. Upsampled results are compared to several state-of-the-art SR networks. For images with high resolution (HR) ground truths, peak-signal-to-noise-ratio (PSNR) and structural similarity index (SSIM) are used to measure upsampling performance. Several new structural, no-reference image quality metrics were proposed to quantify sharpness (edge strength), noise (entropy), and blurriness (low frequency information) in the absence of groun",
+    "link": "http://arxiv.org/abs/2303.06298",
+    "total_tokens": 937,
+    "translated_title": "MLP-SRGAN: 使用MLP-Mixer的单维超分辨率GAN",
+    "translated_abstract": "我们提出了一种新的架构，称为MLP-SRGAN，它是一种单维超分辨率生成对抗网络（SRGAN），利用多层感知器混合器（MLP-Mixer）以及卷积层在切片方向上进行上采样。 MLP-SRGAN使用MSSEG2挑战数据集中的高分辨率（HR）FLAIR MRI进行训练和验证。该方法应用于三个低空间分辨率的多中心FLAIR数据集（CAIN，ADNI，CCNA）的图像，以检查在保留（未见）临床数据上的性能。将上采样结果与几种最先进的SR网络进行比较。对于具有高分辨率（HR）基本事实的图像，使用峰值信噪比（PSNR）和结构相似性指数（SSIM）来衡量上采样性能。提出了几种新的结构，无参考图像质量度量，以在缺乏基础事实的情况下量化锐度（边缘强度），噪声（熵）和模糊度（低频信息）。",
+    "tldr": "MLP-SRGAN是一种单维超分辨率GAN，使用MLP-Mixer和卷积层进行上采样，可用于FLAIR MRI图像的超分辨率重建，提出了新的图像质量度量方法。",
+    "en_tldr": "MLP-SRGAN is a single-dimension Super Resolution GAN that utilizes MLP-Mixers and convolutional layers for upsampling, and can be used for super-resolution reconstruction of FLAIR MRI images. New image quality metrics were proposed."
+}

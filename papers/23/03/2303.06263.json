@@ -1,0 +1,10 @@
+{
+    "title": "Quantum Machine Learning Implementations: Proposals and Experiments. (arXiv:2303.06263v1 [quant-ph])",
+    "abstract": "This article gives an overview and a perspective of recent theoretical proposals and their experimental implementations in the field of quantum machine learning. Without an aim to being exhaustive, the article reviews specific high-impact topics such as quantum reinforcement learning, quantum autoencoders, and quantum memristors, and their experimental realizations in the platforms of quantum photonics and superconducting circuits. The field of quantum machine learning could be among the first quantum technologies producing results that are beneficial for industry and, in turn, to society. Therefore, it is necessary to push forward initial quantum implementations of this technology, in Noisy Intermediate-Scale Quantum Computers, aiming for achieving fruitful calculations in machine learning that are better than with any other current or future computing paradigm.",
+    "link": "http://arxiv.org/abs/2303.06263",
+    "total_tokens": 781,
+    "translated_title": "量子机器学习实现：提议和实验",
+    "translated_abstract": "本文概述了量子机器学习领域中最近的理论提议及其实验实现，并回顾了特定的高影响主题，如量子强化学习、量子自编码器和量子记忆电阻器，以及它们在量子光子学和超导电路平台上的实验实现。量子机器学习领域可能是首批为工业和社会带来益处的量子技术之一。因此，有必要推动这项技术的初步量子实现，以在嘈杂的中间规模量子计算机上实现比任何当前或未来计算范式更好的机器学习计算。",
+    "tldr": "本文概述了量子机器学习领域中最近的理论提议及其实验实现，重点回顾了量子强化学习、量子自编码器和量子记忆电阻器等高影响主题，并强调了推动这项技术的初步量子实现的必要性。",
+    "en_tldr": "This article provides an overview of recent theoretical proposals and experimental implementations in the field of quantum machine learning, with a focus on high-impact topics such as quantum reinforcement learning, quantum autoencoders, and quantum memristors. The article emphasizes the necessity of pushing forward initial quantum implementations of this technology to achieve better machine learning calculations than any current or future computing paradigm."
+}

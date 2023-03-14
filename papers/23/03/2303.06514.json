@@ -1,0 +1,10 @@
+{
+    "title": "Credit Card Fraud Detection Using Enhanced Random Forest Classifier for Imbalanced Data. (arXiv:2303.06514v1 [cs.AI])",
+    "abstract": "The credit card has become the most popular payment method for both online and offline transactions. The necessity to create a fraud detection algorithm to precisely identify and stop fraudulent activity arises as a result of both the development of technology and the rise in fraud cases. This paper implements the random forest (RF) algorithm to solve the issue in the hand. A dataset of credit card transactions was used in this study. The main problem when dealing with credit card fraud detection is the imbalanced dataset in which most of the transaction are non-fraud ones. To overcome the problem of the imbalanced dataset, the synthetic minority over-sampling technique (SMOTE) was used. Implementing the hyperparameters technique to enhance the performance of the random forest classifier. The results showed that the RF classifier gained an accuracy of 98% and about 98% of F1-score value, which is promising. We also believe that our model is relatively easy to apply and can overcome the",
+    "link": "http://arxiv.org/abs/2303.06514",
+    "total_tokens": 930,
+    "translated_title": "使用增强型随机森林分类器检测不平衡数据中的信用卡欺诈",
+    "translated_abstract": "信用卡已成为在线和离线交易中最流行的支付方式。随着技术的发展和欺诈案件的增加，创建欺诈检测算法以精确识别和停止欺诈活动的必要性也随之产生。本文实现了随机森林（RF）算法来解决这个问题。本研究使用了一组信用卡交易数据集。在处理信用卡欺诈检测时的主要问题是不平衡的数据集，其中大部分交易都是非欺诈交易。为了克服不平衡数据集的问题，使用了合成少数类过采样技术（SMOTE）。实现超参数技术以增强随机森林分类器的性能。结果表明，RF分类器获得了98％的准确度和约98％的F1分数值，这是令人兴奋的。我们还相信，我们的模型相对容易应用，并且可以克服信用卡欺诈检测中不平衡数据的挑战。",
+    "tldr": "本文使用增强型随机森林分类器和合成少数类过采样技术来解决信用卡欺诈检测中的不平衡数据问题，获得了98%的准确度和F1分数值，具有实际应用价值。",
+    "en_tldr": "This paper proposes an enhanced random forest classifier and synthetic minority over-sampling technique to address the issue of imbalanced data in credit card fraud detection, achieving an accuracy of 98% and F1-score value of about 98%, with potential practical applications."
+}

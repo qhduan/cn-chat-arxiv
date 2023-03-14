@@ -1,0 +1,10 @@
+{
+    "title": "Generative Modeling Helps Weak Supervision (and Vice Versa). (arXiv:2203.12023v6 [cs.LG] UPDATED)",
+    "abstract": "Many promising applications of supervised machine learning face hurdles in the acquisition of labeled data in sufficient quantity and quality, creating an expensive bottleneck. To overcome such limitations, techniques that do not depend on ground truth labels have been studied, including weak supervision and generative modeling. While these techniques would seem to be usable in concert, improving one another, how to build an interface between them is not well-understood. In this work, we propose a model fusing programmatic weak supervision and generative adversarial networks and provide theoretical justification motivating this fusion. The proposed approach captures discrete latent variables in the data alongside the weak supervision derived label estimate. Alignment of the two allows for better modeling of sample-dependent accuracies of the weak supervision sources, improving the estimate of unobserved labels. It is the first approach to enable data augmentation through weakly supervi",
+    "link": "http://arxiv.org/abs/2203.12023",
+    "total_tokens": 884,
+    "translated_title": "生成建模有助于弱监督（反之亦然）",
+    "translated_abstract": "许多有前途的监督式机器学习应用在获取足够数量和质量的标记数据方面面临困难，从而造成昂贵的瓶颈。为了克服这些限制，研究了不依赖于基本真实标签的技术，包括弱监督和生成建模。虽然这些技术似乎可以共同使用，相互改进，但如何在它们之间建立接口尚不为人所知。在这项工作中，我们提出了一种融合程序弱监督和生成对抗网络的模型，并提供了理论上的理由来支持这种融合。所提出的方法捕捉数据中的离散潜在变量以及弱监督派生的标签估计。两者的对齐允许更好地建模弱监督来源的样本相关准确性，从而改善未观察到的标签的估计。这是第一种通过弱监督实现数据增强的方法。",
+    "tldr": "本文提出了一种融合程序弱监督和生成对抗网络的模型，通过对齐离散潜在变量和弱监督派生的标签估计，改善了未观察到的标签的估计，实现了数据增强。",
+    "en_tldr": "This paper proposes a model that fuses programmatic weak supervision and generative adversarial networks, improving the estimate of unobserved labels by aligning discrete latent variables and weak supervision derived label estimate, and enabling data augmentation through weak supervision."
+}

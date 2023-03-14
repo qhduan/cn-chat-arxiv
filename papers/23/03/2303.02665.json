@@ -1,0 +1,10 @@
+{
+    "title": "Heterogeneous Graph Learning for Acoustic Event Classification. (arXiv:2303.02665v2 [cs.SD] UPDATED)",
+    "abstract": "Heterogeneous graphs provide a compact, efficient, and scalable way to model data involving multiple disparate modalities. This makes modeling audiovisual data using heterogeneous graphs an attractive option. However, graph structure does not appear naturally in audiovisual data. Graphs for audiovisual data are constructed manually which is both difficult and sub-optimal. In this work, we address this problem by (i) proposing a parametric graph construction strategy for the intra-modal edges, and (ii) learning the crossmodal edges. To this end, we develop a new model, heterogeneous graph crossmodal network (HGCN) that learns the crossmodal edges. Our proposed model can adapt to various spatial and temporal scales owing to its parametric construction, while the learnable crossmodal edges effectively connect the relevant nodes across modalities. Experiments on a large benchmark dataset (AudioSet) show that our model is state-of-the-art (0.53 mean average precision), outperforming transfo",
+    "link": "http://arxiv.org/abs/2303.02665",
+    "total_tokens": 903,
+    "translated_title": "异构图学习在声音事件分类中的应用",
+    "translated_abstract": "异构图提供了一种紧凑、高效、可扩展的方式来建模涉及多个不同模态的数据。这使得使用异构图来建模音频视觉数据成为一种有吸引力的选择。然而，图结构在音频视觉数据中并不自然。音频视觉数据的图是手动构建的，这既困难又次优。在这项工作中，我们通过（i）提出一种参数化图构建策略来解决这个问题，以及（ii）学习跨模态边缘。为此，我们开发了一种新模型，异构图跨模态网络（HGCN），它学习跨模态边缘。我们提出的模型可以适应各种空间和时间尺度，因为它是参数化构建的，而可学习的跨模态边缘有效地连接了跨模态的相关节点。在一个大型基准数据集（AudioSet）上的实验表明，我们的模型是最先进的（0.53平均精度），优于transfo。",
+    "tldr": "本文提出了一种新模型，异构图跨模态网络（HGCN），它学习跨模态边缘，可以适应各种空间和时间尺度，有效地连接了跨模态的相关节点，在声音事件分类中表现出最先进的性能。",
+    "en_tldr": "This paper proposes a new model, Heterogeneous Graph Crossmodal Network (HGCN), which learns crossmodal edges and can adapt to various spatial and temporal scales, effectively connecting relevant nodes across modalities. It achieves state-of-the-art performance in acoustic event classification."
+}

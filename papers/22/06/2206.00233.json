@@ -1,0 +1,10 @@
+{
+    "title": "DM$^2$: Decentralized Multi-Agent Reinforcement Learning for Distribution Matching. (arXiv:2206.00233v3 [cs.MA] UPDATED)",
+    "abstract": "Current approaches to multi-agent cooperation rely heavily on centralized mechanisms or explicit communication protocols to ensure convergence. This paper studies the problem of distributed multi-agent learning without resorting to centralized components or explicit communication. It examines the use of distribution matching to facilitate the coordination of independent agents. In the proposed scheme, each agent independently minimizes the distribution mismatch to the corresponding component of a target visitation distribution. The theoretical analysis shows that under certain conditions, each agent minimizing its individual distribution mismatch allows the convergence to the joint policy that generated the target distribution. Further, if the target distribution is from a joint policy that optimizes a cooperative task, the optimal policy for a combination of this task reward and the distribution matching reward is the same joint policy. This insight is used to formulate a practical al",
+    "link": "http://arxiv.org/abs/2206.00233",
+    "total_tokens": 840,
+    "translated_title": "DM$^2$: 基于分布匹配的去中心化多智能体强化学习",
+    "translated_abstract": "当前的多智能体协作方法往往依赖于集中式机制或显式通信协议以确保收敛。本文研究了分布匹配在不依赖于集中式组件或显式通信的分布式多智能体学习中的应用。在所提出的方案中，每个智能体独立地最小化与目标访问分布的相应分量的分布不匹配。理论分析表明，在某些条件下，每个智能体最小化其个体分布不匹配可以实现收敛到生成目标分布的联合策略。此外，如果目标分布来自优化合作任务的联合策略，则该任务奖励和分布匹配奖励的组合的最优策略是相同的联合策略。这一见解被用来制定一个实用的算法。",
+    "tldr": "本文提出了一种基于分布匹配的去中心化多智能体强化学习方法，每个智能体独立地最小化与目标访问分布的相应分量的分布不匹配，可以实现收敛到生成目标分布的联合策略。",
+    "en_tldr": "This paper proposes a decentralized multi-agent reinforcement learning method based on distribution matching, where each agent independently minimizes the distribution mismatch to the corresponding component of a target visitation distribution, achieving convergence to the joint policy that generated the target distribution."
+}

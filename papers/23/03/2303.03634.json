@@ -1,0 +1,10 @@
+{
+    "title": "PreFallKD: Pre-Impact Fall Detection via CNN-ViT Knowledge Distillation. (arXiv:2303.03634v2 [eess.SP] UPDATED)",
+    "abstract": "Fall accidents are critical issues in an aging and aged society. Recently, many researchers developed pre-impact fall detection systems using deep learning to support wearable-based fall protection systems for preventing severe injuries. However, most works only employed simple neural network models instead of complex models considering the usability in resource-constrained mobile devices and strict latency requirements. In this work, we propose a novel pre-impact fall detection via CNN-ViT knowledge distillation, namely PreFallKD, to strike a balance between detection performance and computational complexity. The proposed PreFallKD transfers the detection knowledge from the pre-trained teacher model (vision transformer) to the student model (lightweight convolutional neural networks). Additionally, we apply data augmentation techniques to tackle issues of data imbalance. We conduct the experiment on the KFall public dataset and compare PreFallKD with other state-of-the-art models. The",
+    "link": "http://arxiv.org/abs/2303.03634",
+    "total_tokens": 934,
+    "translated_title": "PreFallKD: 基于CNN-ViT知识蒸馏的预防跌倒系统",
+    "translated_abstract": "跌倒事故是老龄化社会中的重要问题。近年来，许多研究人员使用深度学习开发了预防跌倒系统，以支持基于可穿戴设备的跌倒保护系统，以预防严重的伤害。然而，大多数工作只使用简单的神经网络模型，而不是考虑到资源受限的移动设备和严格的延迟要求的复杂模型的可用性。在这项工作中，我们提出了一种新颖的基于CNN-ViT知识蒸馏的预防跌倒系统，即PreFallKD，以在检测性能和计算复杂性之间取得平衡。所提出的PreFallKD将检测知识从预训练的教师模型（视觉变换器）转移到学生模型（轻量级卷积神经网络）。此外，我们应用数据增强技术来解决数据不平衡的问题。我们在KFall公共数据集上进行实验，并将PreFallKD与其他最先进的模型进行比较。",
+    "tldr": "本文提出了一种基于CNN-ViT知识蒸馏的预防跌倒系统PreFallKD，通过将预训练的教师模型的检测知识转移到轻量级卷积神经网络的学生模型上，实现了检测性能和计算复杂性的平衡。",
+    "en_tldr": "This paper proposes a pre-impact fall detection system called PreFallKD, which uses CNN-ViT knowledge distillation to transfer detection knowledge from a pre-trained teacher model to a lightweight convolutional neural network student model. The system achieves a balance between detection performance and computational complexity."
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Client Selection for Federated Bayesian Learning. (arXiv:2212.05492v2 [cs.LG] UPDATED)",
+    "abstract": "Distributed Stein Variational Gradient Descent (DSVGD) is a non-parametric distributed learning framework for federated Bayesian learning, where multiple clients jointly train a machine learning model by communicating a number of non-random and interacting particles with the server. Since communication resources are limited, selecting the clients with most informative local learning updates can improve the model convergence and communication efficiency. In this paper, we propose two selection schemes for DSVGD based on Kernelized Stein Discrepancy (KSD) and Hilbert Inner Product (HIP). We derive the upper bound on the decrease of the global free energy per iteration for both schemes, which is then minimized to speed up the model convergence. We evaluate and compare our schemes with conventional schemes in terms of model accuracy, convergence speed, and stability using various learning tasks and datasets.",
+    "link": "http://arxiv.org/abs/2212.05492",
+    "total_tokens": 821,
+    "translated_title": "联邦贝叶斯学习中的客户端选择",
+    "translated_abstract": "分布式Stein变分梯度下降（DSVGD）是一种非参数分布式学习框架，用于联邦贝叶斯学习，多个客户端通过与服务器通信一定数量的非随机和交互粒子来共同训练机器学习模型。由于通信资源有限，选择具有最具信息性的本地学习更新的客户端可以提高模型收敛和通信效率。本文提出了两种基于核化Stein差异（KSD）和希尔伯特内积（HIP）的DSVGD选择方案。我们推导了两种方案每次迭代全局自由能下降的上界，然后将其最小化以加速模型收敛。我们使用各种学习任务和数据集评估和比较了我们的方案与传统方案在模型准确性、收敛速度和稳定性方面的表现。",
+    "tldr": "本文提出了两种基于核化Stein差异（KSD）和希尔伯特内积（HIP）的DSVGD选择方案，以提高联邦贝叶斯学习中的模型收敛和通信效率。",
+    "en_tldr": "This paper proposes two selection schemes for Distributed Stein Variational Gradient Descent (DSVGD) based on Kernelized Stein Discrepancy (KSD) and Hilbert Inner Product (HIP) to improve the model convergence and communication efficiency in federated Bayesian learning."
+}

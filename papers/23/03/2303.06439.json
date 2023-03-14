@@ -1,0 +1,10 @@
+{
+    "title": "DECOMPL: Decompositional Learning with Attention Pooling for Group Activity Recognition from a Single Volleyball Image. (arXiv:2303.06439v1 [cs.CV])",
+    "abstract": "Group Activity Recognition (GAR) aims to detect the activity performed by multiple actors in a scene. Prior works model the spatio-temporal features based on the RGB, optical flow or keypoint data types. However, using both the temporality and these data types altogether increase the computational complexity significantly. Our hypothesis is that by only using the RGB data without temporality, the performance can be maintained with a negligible loss in accuracy. To that end, we propose a novel GAR technique for volleyball videos, DECOMPL, which consists of two complementary branches. In the visual branch, it extracts the features using attention pooling in a selective way. In the coordinate branch, it considers the current configuration of the actors and extracts the spatial information from the box coordinates. Moreover, we analyzed the Volleyball dataset that the recent literature is mostly based on, and realized that its labeling scheme degrades the group concept in the activities to",
+    "link": "http://arxiv.org/abs/2303.06439",
+    "total_tokens": 928,
+    "translated_title": "DECOMPL: 一种基于注意力池化的分解学习技术，用于从单个排球图像中识别团体活动",
+    "translated_abstract": "团体活动识别旨在检测场景中多个参与者执行的活动。先前的工作基于RGB、光流或关键点数据类型对时空特征进行建模。然而，同时使用时间性和这些数据类型会显著增加计算复杂度。我们的假设是，仅使用RGB数据而不考虑时间性，可以在几乎不损失准确性的情况下保持性能。为此，我们提出了一种新的排球视频团体活动识别技术DECOMPL，它由两个互补的分支组成。在视觉分支中，它使用选择性的注意力池化提取特征。在坐标分支中，它考虑参与者的当前配置，并从框坐标中提取空间信息。此外，我们分析了排球数据集，发现其标签方案降低了活动中的团体概念。",
+    "tldr": "本文提出了一种新的排球视频团体活动识别技术DECOMPL，它由两个互补的分支组成，使用选择性的注意力池化提取特征，考虑参与者的当前配置，并从框坐标中提取空间信息。同时，本文发现排球数据集的标签方案降低了活动中的团体概念。",
+    "en_tldr": "This paper proposes a novel GAR technique for volleyball videos, DECOMPL, which consists of two complementary branches, using selective attention pooling to extract features, considering the current configuration of actors and extracting spatial information from box coordinates. The paper also reveals that the labeling scheme of the Volleyball dataset degrades the group concept in activities."
+}

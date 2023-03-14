@@ -1,0 +1,10 @@
+{
+    "title": "Mapping the Design Space of Interactions in Human-AI Text Co-creation Tasks. (arXiv:2303.06430v1 [cs.AI])",
+    "abstract": "Large Language Models (LLMs) have demonstrated impressive text generation capabilities, prompting us to reconsider the future of human-AI co-creation and how humans interact with LLMs. In this paper, we present a spectrum of content generation tasks and their corresponding human-AI interaction patterns. These tasks include: 1) fixed-scope content curation tasks with minimal human-AI interactions, 2) independent creative tasks with precise human-AI interactions, and 3) complex and interdependent creative tasks with iterative human-AI interactions. We encourage the generative AI and HCI research communities to focus on the more complex and interdependent tasks, which require greater levels of human involvement.",
+    "link": "http://arxiv.org/abs/2303.06430",
+    "total_tokens": 787,
+    "translated_title": "人工智能与人类文本协作任务中交互设计空间的映射",
+    "translated_abstract": "大型语言模型（LLMs）展示了令人印象深刻的文本生成能力，促使我们重新考虑人工智能与人类协作的未来以及人类如何与LLMs交互。在本文中，我们提出了一系列内容生成任务及其相应的人工智能与人类交互模式。这些任务包括：1）具有最小人工智能与人类交互的固定范围内容策划任务，2）具有精确人工智能与人类交互的独立创意任务，以及3）具有迭代人工智能与人类交互的复杂且相互依赖的创意任务。我们鼓励生成AI和HCI研究社区专注于更复杂和相互依赖的任务，这些任务需要更高水平的人类参与。",
+    "tldr": "本文提出了一系列内容生成任务及其相应的人工智能与人类交互模式，鼓励研究社区专注于更复杂和相互依赖的任务，这些任务需要更高水平的人类参与。",
+    "en_tldr": "This paper presents a spectrum of content generation tasks and their corresponding human-AI interaction patterns, encouraging the research community to focus on more complex and interdependent tasks that require greater levels of human involvement."
+}

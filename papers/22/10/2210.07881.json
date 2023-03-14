@@ -1,0 +1,10 @@
+{
+    "title": "Communication-Efficient Topologies for Decentralized Learning with $O(1)$ Consensus Rate. (arXiv:2210.07881v2 [math.OC] UPDATED)",
+    "abstract": "Decentralized optimization is an emerging paradigm in distributed learning in which agents achieve network-wide solutions by peer-to-peer communication without the central server. Since communication tends to be slower than computation, when each agent communicates with only a few neighboring agents per iteration, they can complete iterations faster than with more agents or a central server. However, the total number of iterations to reach a network-wide solution is affected by the speed at which the agents' information is ``mixed'' by communication. We found that popular communication topologies either have large maximum degrees (such as stars and complete graphs) or are ineffective at mixing information (such as rings and grids). To address this problem, we propose a new family of topologies, EquiTopo, which has an (almost) constant degree and a network-size-independent consensus rate that is used to measure the mixing efficiency.  In the proposed family, EquiStatic has a degree of $",
+    "link": "http://arxiv.org/abs/2210.07881",
+    "total_tokens": 891,
+    "translated_title": "带有$O(1)$共识速率的分散式学习的通信高效拓扑结构",
+    "translated_abstract": "分散式优化是分布式学习中的新兴范例，其中代理通过点对点通信实现网络范围内的解决方案，而无需中央服务器。由于通信往往比计算慢，因此当每个代理每次迭代仅与少数相邻代理通信时，它们可以比使用更多代理或中央服务器更快地完成迭代。然而，到达网络范围内的解决方案所需的总迭代次数受到代理信息通过通信“混合”的速度的影响。我们发现，流行的通信拓扑结构要么具有较大的最大度数（例如星形和完全图），要么在混合信息方面效果不佳（例如环和网格）。为了解决这个问题，我们提出了一种新的拓扑结构家族EquiTopo，它具有（几乎）恒定的度数和与网络大小无关的共识速率，用于衡量混合效率。在所提出的家族中，EquiStatic的度数为$",
+    "tldr": "本文提出了一种新的拓扑结构家族EquiTopo，它具有（几乎）恒定的度数和与网络大小无关的共识速率，用于衡量混合效率。",
+    "en_tldr": "This paper proposes a new family of topologies, EquiTopo, which has an (almost) constant degree and a network-size-independent consensus rate that is used to measure the mixing efficiency."
+}

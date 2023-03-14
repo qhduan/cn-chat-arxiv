@@ -1,0 +1,10 @@
+{
+    "title": "Robust Learning from Explanations. (arXiv:2303.06419v1 [cs.LG])",
+    "abstract": "Machine learning from explanations (MLX) is an approach to learning that uses human-provided annotations of relevant features for each input to ensure that model predictions are right for the right reasons. Existing MLX approaches rely heavily on a specific model interpretation approach and require strong parameter regularization to align model and human explanations, leading to sub-optimal performance. We recast MLX as an adversarial robustness problem, where human explanations specify a lower dimensional manifold from which perturbations can be drawn, and show both theoretically and empirically how this approach alleviates the need for strong parameter regularization. We consider various approaches to achieving robustness, leading to improved performance over prior MLX methods. Finally, we combine robustness with an earlier MLX method, yielding state-of-the-art results on both synthetic and real-world benchmarks.",
+    "link": "http://arxiv.org/abs/2303.06419",
+    "total_tokens": 853,
+    "translated_title": "从解释中进行鲁棒学习",
+    "translated_abstract": "机器学习从解释（MLX）是一种学习方法，它使用人类提供的有关每个输入的相关特征的注释，以确保模型预测的原因正确。现有的MLX方法严重依赖于特定的模型解释方法，并需要强大的参数正则化来对齐模型和人类解释，导致次优性能。我们将MLX重新构建为对抗鲁棒性问题，其中人类解释指定了一个低维流形，可以从中绘制扰动，并理论上和实验上展示了这种方法如何减轻对强参数正则化的需求。我们考虑了实现鲁棒性的各种方法，从而提高了先前MLX方法的性能。最后，我们将鲁棒性与早期的MLX方法相结合，产生了在合成和真实世界基准测试中的最新结果。",
+    "tldr": "本文提出了一种新的机器学习方法，将机器学习从解释（MLX）重新构建为对抗鲁棒性问题，通过人类提供的解释来指定一个低维流形，从而减轻了对强参数正则化的需求，并在合成和真实世界基准测试中取得了最新结果。",
+    "en_tldr": "This paper proposes a new machine learning approach, recasting machine learning from explanations (MLX) as an adversarial robustness problem, which specifies a lower dimensional manifold from which perturbations can be drawn based on human-provided annotations, and shows improved performance over prior MLX methods on both synthetic and real-world benchmarks."
+}

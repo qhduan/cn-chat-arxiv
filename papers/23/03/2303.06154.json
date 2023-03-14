@@ -1,0 +1,10 @@
+{
+    "title": "Resource saving taxonomy classification with k-mer distributions and machine learning. (arXiv:2303.06154v1 [q-bio.GN])",
+    "abstract": "Modern high throughput sequencing technologies like metagenomic sequencing generate millions of sequences which have to be classified based on their taxonomic rank. Modern approaches either apply local alignment and comparison to existing data sets like MMseqs2 or use deep neural networks as it is done in DeepMicrobes and BERTax. Alignment-based approaches are costly in terms of runtime, especially since databases get larger and larger. For the deep learning-based approaches, specialized hardware is necessary for a computation, which consumes large amounts of energy. In this paper, we propose to use $k$-mer distributions obtained from DNA as features to classify its taxonomic origin using machine learning approaches like the subspace $k$-nearest neighbors algorithm, neural networks or bagged decision trees. In addition, we propose a feature space data set balancing approach, which allows reducing the data set for training and improves the performance of the classifiers. By comparing pe",
+    "link": "http://arxiv.org/abs/2303.06154",
+    "total_tokens": 819,
+    "translated_title": "基于k-mer分布和机器学习的资源节约分类法",
+    "translated_abstract": "现代高通量测序技术（如宏基因组测序）生成数百万个序列，需要根据它们的分类级别进行分类。现代方法要么应用本地比对和与现有数据集（如MMseqs2）的比较，要么使用深度神经网络（如DeepMicrobes和BERTax）。基于比对的方法在运行时间方面成本高，特别是由于数据库变得越来越大。对于基于深度学习的方法，需要专门的硬件进行计算，这消耗大量能源。在本文中，我们建议使用从DNA中获得的k-mer分布作为特征，使用机器学习方法（如子空间k最近邻算法、神经网络或袋装决策树）来分类其分类起源。此外，我们提出了一种特征空间数据集平衡方法，允许减少训练数据集并提高分类器的性能。通过比较性能，我们证明了我们的方法比现有方法更有效。",
+    "tldr": "本文提出了一种基于k-mer分布和机器学习的分类法，可以节约资源并提高分类器的性能。",
+    "en_tldr": "This paper proposes a resource-saving classification method based on k-mer distributions and machine learning, which can improve the performance of classifiers and reduce the consumption of energy."
+}

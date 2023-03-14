@@ -1,0 +1,10 @@
+{
+    "title": "VideoFACT: Detecting Video Forgeries Using Attention, Scene Context, and Forensic Traces. (arXiv:2211.15775v2 [cs.CV] UPDATED)",
+    "abstract": "Fake videos represent an important misinformation threat. While existing forensic networks have demonstrated strong performance on image forgeries, recent results reported on the Adobe VideoSham dataset show that these networks fail to identify fake content in videos. In this paper, we show that this is due to video coding, which introduces local variation into forensic traces. In response, we propose VideoFACT - a new network that is able to detect and localize a wide variety of video forgeries and manipulations. To overcome challenges that existing networks face when analyzing videos, our network utilizes both forensic embeddings to capture traces left by manipulation, context embeddings to control for variation in forensic traces introduced by video coding, and a deep self-attention mechanism to estimate the quality and relative importance of local forensic embeddings. We create several new video forgery datasets and use these, along with publicly available data, to experimentally e",
+    "link": "http://arxiv.org/abs/2211.15775",
+    "total_tokens": 851,
+    "translated_title": "VideoFACT: 使用注意力、场景上下文和取证痕迹检测视频伪造",
+    "translated_abstract": "假视频代表了一个重要的误导威胁。虽然现有的取证网络已经在图像伪造方面表现出强大的性能，但最近在Adobe VideoSham数据集上报告的结果表明，这些网络无法识别视频中的虚假内容。在本文中，我们展示了这是由于视频编码引入了取证痕迹的局部变化。为了应对现有网络在分析视频时面临的挑战，我们的网络利用取证嵌入来捕捉操纵留下的痕迹，上下文嵌入来控制视频编码引入的取证痕迹的变化，以及深度自我注意机制来估计局部取证嵌入的质量和相对重要性。我们创建了几个新的视频伪造数据集，并使用这些数据集以及公开可用的数据进行实验。",
+    "tldr": "本文提出了一种新的网络VideoFACT，它利用取证嵌入、上下文嵌入和深度自我注意机制来检测和定位各种视频伪造和操纵，克服了现有网络在分析视频时面临的挑战。",
+    "en_tldr": "This paper proposes a new network, VideoFACT, which utilizes forensic embeddings, context embeddings, and a deep self-attention mechanism to detect and localize a wide variety of video forgeries and manipulations, overcoming challenges faced by existing networks when analyzing videos."
+}

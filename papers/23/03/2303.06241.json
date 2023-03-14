@@ -1,0 +1,10 @@
+{
+    "title": "Do we need entire training data for adversarial training?. (arXiv:2303.06241v1 [cs.CV])",
+    "abstract": "Deep Neural Networks (DNNs) are being used to solve a wide range of problems in many domains including safety-critical domains like self-driving cars and medical imagery. DNNs suffer from vulnerability against adversarial attacks. In the past few years, numerous approaches have been proposed to tackle this problem by training networks using adversarial training. Almost all the approaches generate adversarial examples for the entire training dataset, thus increasing the training time drastically. We show that we can decrease the training time for any adversarial training algorithm by using only a subset of training data for adversarial training. To select the subset, we filter the adversarially-prone samples from the training data. We perform a simple adversarial attack on all training examples to filter this subset. In this attack, we add a small perturbation to each pixel and a few grid lines to the input image.  We perform adversarial training on the adversarially-prone subset and mi",
+    "link": "http://arxiv.org/abs/2303.06241",
+    "total_tokens": 867,
+    "translated_title": "对抗训练是否需要使用整个训练数据集？",
+    "translated_abstract": "深度神经网络（DNN）被用于解决许多领域的问题，包括自动驾驶汽车和医学图像等安全关键领域。DNN对抗攻击的脆弱性已经被广泛关注。近年来，已经提出了许多方法来通过对抗训练来解决这个问题。几乎所有的方法都会为整个训练数据集生成对抗性示例，从而大大增加了训练时间。我们展示了通过仅使用训练数据的子集进行对抗训练，可以减少任何对抗训练算法的训练时间。为了选择子集，我们从训练数据中过滤出易受对抗攻击的样本。我们对所有训练样本执行简单的对抗攻击，以过滤出这个子集。在这个攻击中，我们向每个像素添加一个小扰动和几条网格线到输入图像中。我们对易受对抗攻击的子集进行对抗训练，并且...",
+    "tldr": "本文提出了一种新的对抗训练方法，通过对训练数据集进行筛选，仅使用易受对抗攻击的样本进行训练，从而减少训练时间。",
+    "en_tldr": "This paper proposes a new adversarial training method that reduces training time by selecting only the adversarially-prone samples from the training dataset."
+}

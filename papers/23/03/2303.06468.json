@@ -1,0 +1,10 @@
+{
+    "title": "Accurate Prediction of Global Mean Temperature through Data Transformation Techniques. (arXiv:2303.06468v1 [stat.AP])",
+    "abstract": "It is important to predict how the Global Mean Temperature (GMT) will evolve in the next few decades. The ability to predict historical data is a necessary first step toward the actual goal of making long-range forecasts. This paper examines the advantage of statistical and simpler Machine Learning (ML) methods instead of directly using complex ML algorithms and Deep Learning Neural Networks (DNN). Often neglected data transformation methods prior to applying different algorithms have been used as a means of improving predictive accuracy. The GMT time series is treated both as a univariate time series and also cast as a regression problem. Some steps of data transformations were found to be effective. Various simple ML methods did as well or better than the more well-known ones showing merit in trying a large bouquet of algorithms as a first step. Fifty-six algorithms were subject to Box-Cox, Yeo-Johnson, and first-order differencing and compared with the absence of them. Predictions f",
+    "link": "http://arxiv.org/abs/2303.06468",
+    "total_tokens": 858,
+    "translated_title": "通过数据转换技术准确预测全球平均温度",
+    "translated_abstract": "预测全球平均温度（GMT）在未来几十年内的变化趋势非常重要。预测历史数据是实现长期预测目标的必要第一步。本文研究了使用统计和简单的机器学习（ML）方法的优势，而不是直接使用复杂的ML算法和深度学习神经网络（DNN）。在应用不同算法之前，经常被忽视的数据转换方法被用作提高预测准确性的手段。GMT时间序列既被视为单变量时间序列，也被视为回归问题。发现一些数据转换步骤是有效的。各种简单的ML方法表现得和更为知名的方法一样好甚至更好，这表明尝试大量算法作为第一步是有价值的。56种算法经过Box-Cox、Yeo-Johnson和一阶差分处理后进行比较，与没有进行处理的情况进行比较。预测结果表明，数据转换技术可以提高预测准确性。",
+    "tldr": "本文研究了使用统计和简单的机器学习方法预测全球平均温度的优势，发现数据转换技术可以提高预测准确性。",
+    "en_tldr": "This paper examines the advantage of using statistical and simpler machine learning methods to predict global mean temperature, and finds that data transformation techniques can improve prediction accuracy."
+}

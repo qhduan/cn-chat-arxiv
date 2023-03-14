@@ -1,0 +1,10 @@
+{
+    "title": "CHGNN: A Semi-Supervised Contrastive Hypergraph Learning Network. (arXiv:2303.06213v1 [cs.LG])",
+    "abstract": "Hypergraphs can model higher-order relationships among data objects that are found in applications such as social networks and bioinformatics. However, recent studies on hypergraph learning that extend graph convolutional networks to hypergraphs cannot learn effectively from features of unlabeled data. To such learning, we propose a contrastive hypergraph neural network, CHGNN, that exploits self-supervised contrastive learning techniques to learn from labeled and unlabeled data. First, CHGNN includes an adaptive hypergraph view generator that adopts an auto-augmentation strategy and learns a perturbed probability distribution of minimal sufficient views. Second, CHGNN encompasses an improved hypergraph encoder that considers hyperedge homogeneity to fuse information effectively. Third, CHGNN is equipped with a joint loss function that combines a similarity loss for the view generator, a node classification loss, and a hyperedge homogeneity loss to inject supervision signals. It also i",
+    "link": "http://arxiv.org/abs/2303.06213",
+    "total_tokens": 883,
+    "translated_title": "CHGNN: 一种半监督对比超图学习网络",
+    "translated_abstract": "超图可以模拟应用程序中发现的数据对象之间的高阶关系，例如社交网络和生物信息学。然而，最近的超图学习研究将图卷积网络扩展到超图，但无法有效地从未标记数据的特征中学习。为了进行这样的学习，我们提出了一种对比超图神经网络CHGNN，它利用自监督对比学习技术从标记和未标记的数据中学习。首先，CHGNN包括一个自适应超图视图生成器，采用自动增强策略，并学习最小充分视图的扰动概率分布。其次，CHGNN包含一个改进的超图编码器，考虑到超边的同质性，以有效地融合信息。第三，CHGNN配备了一个联合损失函数，结合了视图生成器的相似性损失、节点分类损失和超边同质性损失，注入监督信号。",
+    "tldr": "CHGNN是一种半监督对比超图学习网络，利用自监督对比学习技术从标记和未标记的数据中学习，包括自适应超图视图生成器、改进的超图编码器和联合损失函数。",
+    "en_tldr": "CHGNN is a semi-supervised contrastive hypergraph learning network that exploits self-supervised contrastive learning techniques to learn from labeled and unlabeled data. It includes an adaptive hypergraph view generator, an improved hypergraph encoder, and a joint loss function."
+}

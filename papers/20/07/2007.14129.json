@@ -1,0 +1,10 @@
+{
+    "title": "COMET: Convolutional Dimension Interaction for Collaborative Filtering. (arXiv:2007.14129v6 [cs.IR] UPDATED)",
+    "abstract": "Representation learning-based recommendation models play a dominant role among recommendation techniques. However, most of the existing methods assume both historical interactions and embedding dimensions are independent of each other, and thus regrettably ignore the high-order interaction information among historical interactions and embedding dimensions. In this paper, we propose a novel representation learning-based model called COMET (COnvolutional diMEnsion inTeraction), which simultaneously models the high-order interaction patterns among historical interactions and embedding dimensions. To be specific, COMET stacks the embeddings of historical interactions horizontally at first, which results in two \"embedding maps\". In this way, internal interactions and dimensional interactions can be exploited by convolutional neural networks (CNN) with kernels of different sizes simultaneously. A fully-connected multi-layer perceptron (MLP) is then applied to obtain two interaction vectors. ",
+    "link": "http://arxiv.org/abs/2007.14129",
+    "total_tokens": 814,
+    "translated_title": "COMET: 卷积维度交互用于协同过滤",
+    "translated_abstract": "基于表示学习的推荐模型在推荐技术中扮演着主导角色。然而，大多数现有方法假设历史交互和嵌入维度相互独立，因此遗憾地忽略了历史交互和嵌入维度之间的高阶交互信息。在本文中，我们提出了一种新的基于表示学习的模型，称为COMET（COnvolutional diMEnsion inTeraction），它同时模拟历史交互和嵌入维度之间的高阶交互模式。具体而言，COMET首先将历史交互的嵌入水平堆叠，从而产生两个“嵌入映射”。通过卷积神经网络（CNN）同时使用不同大小的内部交互和维度交互内核，可以利用内部交互和维度交互。然后应用全连接的多层感知器（MLP）来获得两个交互向量。",
+    "tldr": "COMET是一种新的基于表示学习的模型，它可以同时模拟历史交互和嵌入维度之间的高阶交互模式。",
+    "en_tldr": "COMET is a novel representation learning-based model that can simultaneously model the high-order interaction patterns among historical interactions and embedding dimensions."
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Interpretations of Domain Adaptations via Layer Variational Analysis. (arXiv:2302.01798v2 [cs.LG] UPDATED)",
+    "abstract": "Transfer learning is known to perform efficiently in many applications empirically, yet limited literature reports the mechanism behind the scene. This study establishes both formal derivations and heuristic analysis to formulate the theory of transfer learning in deep learning. Our framework utilizing layer variational analysis proves that the success of transfer learning can be guaranteed with corresponding data conditions. Moreover, our theoretical calculation yields intuitive interpretations towards the knowledge transfer process. Subsequently, an alternative method for network-based transfer learning is derived. The method shows an increase in efficiency and accuracy for domain adaptation. It is particularly advantageous when new domain data is sufficiently sparse during adaptation. Numerical experiments over diverse tasks validated our theory and verified that our analytic expression achieved better performance in domain adaptation than the gradient descent method.",
+    "link": "http://arxiv.org/abs/2302.01798",
+    "total_tokens": 835,
+    "translated_title": "通过层变分分析解释领域适应",
+    "translated_abstract": "转移学习在许多应用中表现出高效的性能，但有限的文献报道了其背后的机制。本研究建立了正式的推导和启发式分析，以制定深度学习中转移学习的理论。我们的框架利用层变分分析证明了转移学习的成功可以通过相应的数据条件得到保证。此外，我们的理论计算产生了对知识转移过程的直观解释。随后，我们推导出了一种基于网络的转移学习的替代方法。该方法在领域适应方面显示出了效率和准确性的提高。当适应期间的新领域数据足够稀疏时，它特别有优势。对各种任务的数值实验验证了我们的理论，并验证了我们的分析表达式在领域适应方面比梯度下降方法表现更好。",
+    "tldr": "本研究通过层变分分析证明了转移学习的成功可以通过相应的数据条件得到保证，并提出了一种基于网络的转移学习的替代方法，该方法在领域适应方面显示出了效率和准确性的提高。",
+    "en_tldr": "This study establishes the theory of transfer learning in deep learning through formal derivations and heuristic analysis, proving that the success of transfer learning can be guaranteed with corresponding data conditions. An alternative method for network-based transfer learning is proposed, which shows an increase in efficiency and accuracy for domain adaptation."
+}

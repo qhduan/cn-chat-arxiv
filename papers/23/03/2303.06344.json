@@ -1,0 +1,10 @@
+{
+    "title": "Contrastive Learning under Heterophily. (arXiv:2303.06344v1 [cs.LG])",
+    "abstract": "Graph Neural Networks are powerful tools for learning node representations when task-specific node labels are available. However, obtaining labels for graphs is expensive in many applications. This is particularly the case for large graphs. To address this, there has been a body of work to learn node representations in a self-supervised manner without labels. Contrastive learning (CL), has been particularly popular to learn representations in a self-supervised manner. In general, CL methods work by maximizing the similarity between representations of augmented views of the same example, and minimizing the similarity between augmented views of different examples. However, existing graph CL methods cannot learn high-quality representations under heterophily, where connected nodes tend to belong to different classes. This is because under heterophily, augmentations of the same example may not be similar to each other. In this work, we address the above problem by proposing the first graph",
+    "link": "http://arxiv.org/abs/2303.06344",
+    "total_tokens": 818,
+    "translated_title": "异质性下的对比学习",
+    "translated_abstract": "图神经网络是一种强大的工具，可以在具有特定任务节点标签的情况下学习节点表示。然而，在许多应用中，为图形获取标签是昂贵的。这在大型图形的情况下尤其如此。为了解决这个问题，已经有一些工作在没有标签的情况下以自监督的方式学习节点表示。对比学习（CL）在以自监督的方式学习表示方面特别受欢迎。一般来说，CL方法通过最大化相同示例的增强视图的表示之间的相似性，并最小化不同示例的增强视图之间的相似性来工作。然而，现有的图形CL方法不能在异质性下学习高质量的表示，其中连接的节点倾向于属于不同的类。这是因为在异质性下，同一示例的增强可能彼此不相似。在这项工作中，我们通过提出第一个图形对比学习方法来解决上述问题。",
+    "tldr": "本文提出了第一个图形对比学习方法，以解决现有图形对比学习方法在异质性下无法学习高质量表示的问题。",
+    "en_tldr": "This paper proposes the first graph contrastive learning method to address the problem that existing graph contrastive learning methods cannot learn high-quality representations under heterophily."
+}

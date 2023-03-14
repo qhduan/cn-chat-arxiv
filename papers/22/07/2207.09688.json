@@ -1,0 +1,10 @@
+{
+    "title": "Intrinsic dimension estimation for discrete metrics. (arXiv:2207.09688v2 [stat.ML] UPDATED)",
+    "abstract": "Real world-datasets characterized by discrete features are ubiquitous: from categorical surveys to clinical questionnaires, from unweighted networks to DNA sequences. Nevertheless, the most common unsupervised dimensional reduction methods are designed for continuous spaces, and their use for discrete spaces can lead to errors and biases. In this letter we introduce an algorithm to infer the intrinsic dimension (ID) of datasets embedded in discrete spaces. We demonstrate its accuracy on benchmark datasets, and we apply it to analyze a metagenomic dataset for species fingerprinting, finding a surprisingly small ID, of order 2. This suggests that evolutive pressure acts on a low-dimensional manifold despite the high-dimensionality of sequences' space.",
+    "link": "http://arxiv.org/abs/2207.09688",
+    "total_tokens": 790,
+    "translated_title": "离散度量的内在维度估计",
+    "translated_abstract": "具有离散特征的真实世界数据集是无处不在的：从分类调查到临床问卷，从无权网络到DNA序列。然而，最常见的无监督降维方法是为连续空间设计的，它们在离散空间中的使用可能会导致错误和偏差。在本文中，我们介绍了一种算法，用于推断嵌入离散空间的数据集的内在维度（ID）。我们在基准数据集上展示了其准确性，并将其应用于分析用于物种指纹的代谢组学数据集，发现一个令人惊讶的小ID，约为2的数量级。这表明，尽管序列空间的高维度，进化压力仍然作用于低维流形上。",
+    "tldr": "本文介绍了一种算法，用于推断嵌入离散空间的数据集的内在维度（ID），并在物种指纹的代谢组学数据集上展示了其准确性，发现一个令人惊讶的小ID，约为2的数量级。",
+    "en_tldr": "This paper introduces an algorithm to estimate the intrinsic dimension (ID) of datasets embedded in discrete spaces, and demonstrates its accuracy on a metagenomic dataset for species fingerprinting, finding a surprisingly small ID of order 2, suggesting that evolutive pressure acts on a low-dimensional manifold despite the high-dimensionality of sequences' space."
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Cutting Through the Noise: An Empirical Comparison of Psychoacoustic and Envelope-based Features for Machinery Fault Detection. (arXiv:2211.01704v2 [eess.SP] UPDATED)",
+    "abstract": "Acoustic-based fault detection has a high potential to monitor the health condition of mechanical parts. However, the background noise of an industrial environment may negatively influence the performance of fault detection. Limited attention has been paid to improving the robustness of fault detection against industrial environmental noise. Therefore, we present the Lenze production background-noise (LPBN) real-world dataset and an automated and noise-robust auditory inspection (ARAI) system for the end-of-line inspection of geared motors. An acoustic array is used to acquire data from motors with a minor fault, major fault, or which are healthy. A benchmark is provided to compare the psychoacoustic features with different types of envelope features based on expert knowledge of the gearbox. To the best of our knowledge, we are the first to apply time-varying psychoacoustic features for fault detection. We train a state-of-the-art one-class-classifier, on samples from healthy motors an",
+    "link": "http://arxiv.org/abs/2211.01704",
+    "total_tokens": 988,
+    "translated_title": "去除噪音：心理声学和基于包络的特征在机械故障检测中的实证比较",
+    "translated_abstract": "基于声学的故障检测具有监测机械部件健康状况的高潜力。然而，工业环境的背景噪音可能会对故障检测的性能产生负面影响。目前对于提高故障检测对工业环境噪声的鲁棒性的关注有限。因此，我们提出了Lenze生产背景噪声（LPBN）真实世界数据集和用于齿轮电机末端检查的自动化和噪声鲁棒的听觉检查（ARAI）系统。采用声学阵列从具有轻微故障、重大故障或健康的电机中获取数据。提供了一个基准来比较基于专家对齿轮箱的知识的不同类型的包络特征与心理声学特征。据我们所知，我们是第一个应用时变心理声学特征进行故障检测的人。我们训练了一种最先进的单类分类器，使用来自健康电机的样本进行训练。",
+    "tldr": "本文提出了一个自动化和噪声鲁棒的听觉检查系统，用于检测机械部件的健康状况。我们提供了一个基准来比较不同类型的包络特征与心理声学特征。我们是第一个应用时变心理声学特征进行故障检测的人。",
+    "en_tldr": "This paper presents an automated and noise-robust auditory inspection system for detecting the health condition of mechanical parts. A benchmark is provided to compare different types of envelope features with psychoacoustic features. The authors are the first to apply time-varying psychoacoustic features for fault detection."
+}

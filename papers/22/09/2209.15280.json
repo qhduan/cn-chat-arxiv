@@ -1,0 +1,10 @@
+{
+    "title": "Learning Transferable Spatiotemporal Representations from Natural Script Knowledge. (arXiv:2209.15280v3 [cs.CV] UPDATED)",
+    "abstract": "Pre-training on large-scale video data has become a common recipe for learning transferable spatiotemporal representations in recent years. Despite some progress, existing methods are mostly limited to highly curated datasets (e.g., K400) and exhibit unsatisfactory out-of-the-box representations. We argue that it is due to the fact that they only capture pixel-level knowledge rather than spatiotemporal semantics, which hinders further progress in video understanding. Inspired by the great success of image-text pre-training (e.g., CLIP), we take the first step to exploit language semantics to boost transferable spatiotemporal representation learning. We introduce a new pretext task, Turning to Video for Transcript Sorting (TVTS), which sorts shuffled ASR scripts by attending to learned video representations. We do not rely on descriptive captions and learn purely from video, i.e., leveraging the natural transcribed speech knowledge to provide noisy but useful semantics over time. Our me",
+    "link": "http://arxiv.org/abs/2209.15280",
+    "total_tokens": 876,
+    "translated_title": "从自然语言知识中学习可转移的时空表示",
+    "translated_abstract": "近年来，预训练大规模视频数据已成为学习可转移的时空表示的常见方法。尽管取得了一些进展，但现有方法大多局限于高度策划的数据集（例如K400），并展示出令人不满意的开箱即用表示。我们认为这是因为它们只捕捉像素级别的知识而不是时空语义，这阻碍了视频理解的进一步进展。受到图像文本预训练（例如CLIP）的巨大成功的启发，我们迈出了利用语言语义提高可转移的时空表示学习的第一步。我们引入了一个新的预文本任务，即“Turning to Video for Transcript Sorting（TVTS）”，通过关注学习到的视频表示来对打乱的ASR脚本进行排序。我们不依赖于描述性标题，纯粹从视频中学习，即利用自然转录的语音知识在时间上提供嘈杂但有用的语义。",
+    "tldr": "本文提出了一种新的预文本任务，利用自然语言知识来提高可转移的时空表示学习，通过关注学习到的视频表示来对打乱的ASR脚本进行排序，从而提高视频理解的进展。",
+    "en_tldr": "This paper proposes a new pretext task to boost transferable spatiotemporal representation learning by exploiting natural language knowledge, which sorts shuffled ASR scripts by attending to learned video representations, and thus improves the progress of video understanding."
+}

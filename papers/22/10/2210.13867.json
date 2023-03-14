@@ -1,0 +1,10 @@
+{
+    "title": "A Dynamical System View of Langevin-Based Non-Convex Sampling. (arXiv:2210.13867v2 [cs.LG] UPDATED)",
+    "abstract": "Non-convex sampling is a key challenge in machine learning, central to non-convex optimization in deep learning as well as to approximate probabilistic inference. Despite its significance, theoretically there remain many important challenges: Existing guarantees (1) typically only hold for the averaged iterates rather than the more desirable last iterates, (2) lack convergence metrics that capture the scales of the variables such as Wasserstein distances, and (3) mainly apply to elementary schemes such as stochastic gradient Langevin dynamics. In this paper, we develop a new framework that lifts the above issues by harnessing several tools from the theory of dynamical systems. Our key result is that, for a large class of state-of-the-art sampling schemes, their last-iterate convergence in Wasserstein distances can be reduced to the study of their continuous-time counterparts, which is much better understood. Coupled with standard assumptions of MCMC sampling, our theory immediately yie",
+    "link": "http://arxiv.org/abs/2210.13867",
+    "total_tokens": 951,
+    "translated_title": "Langevin-Based Non-Convex Sampling的动力学系统视角",
+    "translated_abstract": "非凸采样是机器学习中的一个关键挑战，对于深度学习中的非凸优化以及近似概率推断都至关重要。尽管其重要性，理论上仍存在许多重要挑战：现有的保证通常仅适用于平均迭代而不是更理想的最后迭代，缺乏捕捉变量尺度（如Wasserstein距离）的收敛度量，主要适用于随机梯度Langevin动力学等基本方案。在本文中，我们开发了一个新的框架，通过利用动力系统理论中的几个工具来解决上述问题。我们的关键结果是，对于一大类最先进的采样方案，它们在Wasserstein距离下的最后迭代收敛可以归结为对它们的连续时间对应物的研究，这是更好理解的。结合MCMC采样的标准假设，我们的理论立即产生了",
+    "tldr": "本文提出了一种新的框架，通过利用动力系统理论中的几个工具来解决非凸采样中的重要挑战。对于一大类最先进的采样方案，它们在Wasserstein距离下的最后迭代收敛可以归结为对它们的连续时间对应物的研究，这是更好理解的。",
+    "en_tldr": "This paper proposes a new framework that uses tools from the theory of dynamical systems to address important challenges in non-convex sampling. For a large class of state-of-the-art sampling schemes, their last-iterate convergence in Wasserstein distances can be reduced to the study of their continuous-time counterparts, which is much better understood."
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Adaptive Machine Translation with Large Language Models. (arXiv:2301.13294v2 [cs.CL] UPDATED)",
+    "abstract": "Consistency is a key requirement of high-quality translation. It is especially important to adhere to pre-approved terminology and adapt to corrected translations in domain-specific projects. Machine translation (MT) has achieved significant progress in the area of domain adaptation. However, real-time adaptation remains challenging. Large-scale language models (LLMs) have recently shown interesting capabilities of in-context learning, where they learn to replicate certain input-output text generation patterns, without further fine-tuning. By feeding an LLM at inference time with a prompt that consists of a list of translation pairs, it can then simulate the domain and style characteristics. This work aims to investigate how we can utilize in-context learning to improve real-time adaptive MT. Our extensive experiments show promising results at translation time. For example, GPT-3.5 can adapt to a set of in-domain sentence pairs and/or terminology while translating a new sentence. We ob",
+    "link": "http://arxiv.org/abs/2301.13294",
+    "total_tokens": 883,
+    "translated_title": "基于大型语言模型的自适应机器翻译",
+    "translated_abstract": "一致性是高质量翻译的关键要求。在特定领域的项目中，遵循预先批准的术语并适应更正的翻译尤为重要。机器翻译（MT）在领域适应方面取得了重大进展。然而，实时适应仍然具有挑战性。最近，大规模语言模型（LLM）展示了在上下文学习方面的有趣能力，它们学习复制某些输入-输出文本生成模式，而无需进一步微调。通过在推理时间将LLM提供给由翻译对列表组成的提示，它可以模拟领域和风格特征。本文旨在研究如何利用上下文学习来改进实时自适应MT。我们的广泛实验在翻译时间显示出有希望的结果。例如，GPT-3.5可以在翻译新句子时适应一组领域内的句子对和/或术语。我们的研究表明，基于大型语言模型的自适应机器翻译是可行的。",
+    "tldr": "本文研究了如何利用大型语言模型的上下文学习来改进实时自适应机器翻译，实验结果表明有希望的效果。",
+    "en_tldr": "This paper investigates how to use in-context learning of large language models to improve real-time adaptive machine translation, and the experimental results show promising effects."
+}

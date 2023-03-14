@@ -1,0 +1,10 @@
+{
+    "title": "Revisiting Self-Training with Regularized Pseudo-Labeling for Tabular Data. (arXiv:2302.14013v3 [cs.LG] UPDATED)",
+    "abstract": "Recent progress in semi- and self-supervised learning has caused a rift in the long-held belief about the need for an enormous amount of labeled data for machine learning and the irrelevancy of unlabeled data. Although it has been successful in various data, there is no dominant semi- and self-supervised learning method that can be generalized for tabular data (i.e. most of the existing methods require appropriate tabular datasets and architectures). In this paper, we revisit self-training which can be applied to any kind of algorithm including the most widely used architecture, gradient boosting decision tree, and introduce curriculum pseudo-labeling (a state-of-the-art pseudo-labeling technique in image) for a tabular domain. Furthermore, existing pseudo-labeling techniques do not assure the cluster assumption when computing confidence scores of pseudo-labels generated from unlabeled data. To overcome this issue, we propose a novel pseudo-labeling approach that regularizes the confid",
+    "link": "http://arxiv.org/abs/2302.14013",
+    "total_tokens": 872,
+    "translated_title": "重新审视带有正则化伪标签的表格数据自训练",
+    "translated_abstract": "半监督和自监督学习的最新进展已经打破了长期以来对于机器学习需要大量标记数据和未标记数据的无关性的信仰。虽然在各种数据上都取得了成功，但目前没有一种主导的半监督和自监督学习方法可以推广到表格数据（即大多数现有方法需要适当的表格数据集和架构）。在本文中，我们重新审视了自我训练，它可以应用于任何类型的算法，包括最广泛使用的架构——梯度提升决策树，并引入了课程伪标签（一种图像领域的最先进的伪标签技术）用于表格领域。此外，现有的伪标签技术在计算从未标记数据生成的伪标签的置信度分数时不能保证聚类假设。为了克服这个问题，我们提出了一种新的伪标签方法，它规范化了置信度分数。",
+    "tldr": "本文重新审视了自我训练，并引入了课程伪标签用于表格领域。提出了一种新的伪标签方法，它规范化了置信度分数。",
+    "en_tldr": "This paper revisits self-training and introduces curriculum pseudo-labeling for tabular data. A novel pseudo-labeling approach is proposed to regularize the confidence scores of pseudo-labels generated from unlabeled data."
+}

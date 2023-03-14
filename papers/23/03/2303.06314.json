@@ -1,0 +1,10 @@
+{
+    "title": "Stabilizing and Improving Federated Learning with Non-IID Data and Client Dropout in IoT Systems. (arXiv:2303.06314v1 [cs.LG])",
+    "abstract": "Federated learning is an emerging technique for training deep models over decentralized clients without exposing private data, which however suffers from label distribution skew and usually results in slow convergence and degraded model performance. This challenge could be more serious when the participating clients are in unstable circumstances and dropout frequently. Previous work and our empirical observations demonstrate that the classifier head for classification task is more sensitive to label skew and the unstable performance of FedAvg mainly lies in the imbalanced training samples across different classes. The biased classifier head will also impact the learning of feature representations. Therefore, maintaining a balanced classifier head is of significant importance for building a better global model. To tackle this issue, we propose a simple yet effective framework by introducing a prior-calibrated softmax function for computing the cross-entropy loss and a prototype-based fe",
+    "link": "http://arxiv.org/abs/2303.06314",
+    "total_tokens": 781,
+    "translated_title": "在物联网系统中通过非独立同分布数据和客户端dropout来稳定和改进联邦学习",
+    "translated_abstract": "联邦学习是一种新兴的技术，用于在不暴露私有数据的情况下在分散的客户端上训练深度模型，然而它受到标签分布偏斜的影响，通常导致收敛缓慢和模型性能下降。当参与的客户端处于不稳定的环境并经常掉线时，这个挑战可能更加严重。为了解决这个问题，我们提出了一个简单而有效的框架，通过引入一个先验校准的softmax函数来计算交叉熵损失和基于原型的特征提取来维护一个平衡的分类器头。",
+    "tldr": "本文提出了一个简单而有效的框架，通过引入一个先验校准的softmax函数来计算交叉熵损失和基于原型的特征提取来维护一个平衡的分类器头，以稳定和改进联邦学习。",
+    "en_tldr": "This paper proposes a simple yet effective framework to stabilize and improve federated learning by introducing a prior-calibrated softmax function for computing the cross-entropy loss and a prototype-based feature extraction to maintain a balanced classifier head."
+}

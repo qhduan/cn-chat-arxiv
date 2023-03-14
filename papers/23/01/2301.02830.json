@@ -1,0 +1,10 @@
+{
+    "title": "Image Data Augmentation Approaches: A Comprehensive Survey and Future directions. (arXiv:2301.02830v4 [cs.CV] UPDATED)",
+    "abstract": "Deep learning (DL) algorithms have shown significant performance in various computer vision tasks. However, having limited labelled data lead to a network overfitting problem, where network performance is bad on unseen data as compared to training data. Consequently, it limits performance improvement. To cope with this problem, various techniques have been proposed such as dropout, normalization and advanced data augmentation. Among these, data augmentation, which aims to enlarge the dataset size by including sample diversity, has been a hot topic in recent times. In this article, we focus on advanced data augmentation techniques. we provide a background of data augmentation, a novel and comprehensive taxonomy of reviewed data augmentation techniques, and the strengths and weaknesses (wherever possible) of each technique. We also provide comprehensive results of the data augmentation effect on three popular computer vision tasks, such as image classification, object detection and seman",
+    "link": "http://arxiv.org/abs/2301.02830",
+    "total_tokens": 843,
+    "translated_title": "图像数据增强方法：综述与未来方向",
+    "translated_abstract": "深度学习算法在各种计算机视觉任务中表现出了显著的性能。然而，由于标记数据有限，导致网络过拟合问题，即网络在未见过的数据上的性能比训练数据差。因此，它限制了性能的提高。为了应对这个问题，提出了各种技术，如dropout、归一化和高级数据增强。其中，数据增强旨在通过包括样本多样性来扩大数据集大小，近来成为热门话题。在本文中，我们重点关注高级数据增强技术。我们提供了数据增强的背景、一个新颖而全面的分类法、以及每种技术的优点和缺点（在可能的情况下）。我们还提供了数据增强对三个流行的计算机视觉任务（如图像分类、目标检测和语义分割）的全面结果。",
+    "tldr": "本文综述了图像数据增强方法，提供了全面的分类法和每种技术的优缺点，并给出了数据增强对图像分类、目标检测和语义分割等计算机视觉任务的全面结果。",
+    "en_tldr": "This article provides a comprehensive survey of advanced data augmentation techniques for computer vision tasks, including a novel taxonomy and evaluation of each technique's strengths and weaknesses. The article also presents comprehensive results of the data augmentation effect on popular computer vision tasks such as image classification, object detection, and semantic segmentation."
+}

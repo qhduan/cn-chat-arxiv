@@ -1,0 +1,10 @@
+{
+    "title": "Software Vulnerability Prediction Knowledge Transferring Between Programming Languages. (arXiv:2303.06177v1 [cs.SE])",
+    "abstract": "Developing automated and smart software vulnerability detection models has been receiving great attention from both research and development communities. One of the biggest challenges in this area is the lack of code samples for all different programming languages. In this study, we address this issue by proposing a transfer learning technique to leverage available datasets and generate a model to detect common vulnerabilities in different programming languages. We use C source code samples to train a Convolutional Neural Network (CNN) model, then, we use Java source code samples to adopt and evaluate the learned model. We use code samples from two benchmark datasets: NIST Software Assurance Reference Dataset (SARD) and Draper VDISC dataset. The results show that proposed model detects vulnerabilities in both C and Java codes with average recall of 72\\%. Additionally, we employ explainable AI to investigate how much each feature contributes to the knowledge transfer mechanisms between ",
+    "link": "http://arxiv.org/abs/2303.06177",
+    "total_tokens": 869,
+    "translated_title": "编程语言之间的软件漏洞预测知识转移",
+    "translated_abstract": "开发自动化和智能的软件漏洞检测模型一直受到研究和开发社区的关注。这个领域最大的挑战之一是缺乏所有不同编程语言的代码样本。在本研究中，我们通过提出一种转移学习技术来解决这个问题，利用可用数据集生成一个模型，以检测不同编程语言中的常见漏洞。我们使用C源代码样本训练卷积神经网络（CNN）模型，然后使用Java源代码样本来采用和评估学习的模型。我们使用两个基准数据集的代码样本：NIST软件保障参考数据集（SARD）和Draper VDISC数据集。结果表明，所提出的模型以平均召回率为72％检测C和Java代码中的漏洞。此外，我们采用可解释的AI来调查每个特征对知识转移机制的贡献程度。",
+    "tldr": "本研究提出了一种转移学习技术，利用可用数据集生成一个模型，以检测不同编程语言中的常见漏洞。结果表明，所提出的模型以平均召回率为72％检测C和Java代码中的漏洞。",
+    "en_tldr": "This study proposes a transfer learning technique to detect common vulnerabilities in different programming languages by leveraging available datasets. The results show that the proposed model detects vulnerabilities in both C and Java codes with an average recall of 72%."
+}

@@ -1,0 +1,10 @@
+{
+    "title": "A Dataset on Malicious Paper Bidding in Peer Review. (arXiv:2207.02303v2 [cs.CR] UPDATED)",
+    "abstract": "In conference peer review, reviewers are often asked to provide \"bids\" on each submitted paper that express their interest in reviewing that paper. A paper assignment algorithm then uses these bids (along with other data) to compute a high-quality assignment of reviewers to papers. However, this process has been exploited by malicious reviewers who strategically bid in order to unethically manipulate the paper assignment, crucially undermining the peer review process. For example, these reviewers may aim to get assigned to a friend's paper as part of a quid-pro-quo deal. A critical impediment towards creating and evaluating methods to mitigate this issue is the lack of any publicly-available data on malicious paper bidding. In this work, we collect and publicly release a novel dataset to fill this gap, collected from a mock conference activity where participants were instructed to bid either honestly or maliciously. We further provide a descriptive analysis of the bidding behavior, inc",
+    "link": "http://arxiv.org/abs/2207.02303",
+    "total_tokens": 832,
+    "translated_title": "一份关于同行评审中恶意投标的数据集",
+    "translated_abstract": "在会议同行评审中，评审人通常被要求对每篇提交的论文提供“投标”，以表达他们对审查该论文的兴趣。然后，一种论文分配算法使用这些投标（以及其他数据）来计算评审人对论文的高质量分配。然而，这个过程已经被恶意评审人利用，他们会有策略地投标，以非道德的方式操纵论文分配，从而严重破坏同行评审过程。例如，这些评审人可能会试图被分配到朋友的论文中，作为一种交换条件。解决这个问题的一个关键障碍是缺乏任何公开可用的关于恶意投标的数据。在这项工作中，我们收集并公开发布了一个新的数据集，以填补这一空白，该数据集是从一个模拟会议活动中收集的，参与者被要求诚实或恶意地投标。我们进一步提供了对投标行为的描述性分析。",
+    "tldr": "本文提供了一份关于同行评审中恶意投标的数据集，填补了这一领域缺乏公开数据的空白。",
+    "en_tldr": "This paper provides a dataset on malicious paper bidding in peer review, filling the gap of lack of publicly-available data in this field."
+}

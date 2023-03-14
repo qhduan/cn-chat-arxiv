@@ -1,0 +1,10 @@
+{
+    "title": "Machine Learning Enhanced Hankel Dynamic-Mode Decomposition. (arXiv:2303.06289v1 [cs.LG])",
+    "abstract": "While the acquisition of time series has become increasingly more straightforward and sophisticated, developing dynamical models from time series is still a challenging and ever evolving problem domain. Within the last several years, to address this problem, there has been a merging of machine learning tools with what is called the dynamic mode decomposition (DMD). This general approach has been shown to be an especially promising avenue for sophisticated and accurate model development. Building on this prior body of work, we develop a deep learning DMD based method which makes use of the fundamental insight of Takens' Embedding Theorem to develop an adaptive learning scheme that better captures higher dimensional and chaotic dynamics. We call this method the Deep Learning Hankel DMD (DLHDMD). We show that the DLHDMD is able to generate accurate dynamics for chaotic time series, and we likewise explore how our method learns mappings which tend, after successful training, to significant",
+    "link": "http://arxiv.org/abs/2303.06289",
+    "total_tokens": 913,
+    "translated_title": "机器学习增强的Hankel动态模态分解",
+    "translated_abstract": "尽管时间序列的获取变得越来越简单和复杂，但从时间序列中开发动态模型仍然是一个具有挑战性和不断发展的问题领域。在过去几年中，为了解决这个问题，机器学习工具已经与所谓的动态模态分解（DMD）相结合。这种通用方法已被证明是一个特别有前途的精密和准确的模型开发途径。在此基础上，我们开发了一种基于深度学习DMD的方法，利用Takens嵌入定理的基本见解开发了一种自适应学习方案，更好地捕捉了高维和混沌动力学。我们称这种方法为深度学习Hankel DMD（DLHDMD）。我们展示了DLHDMD能够为混沌时间序列生成准确的动态，并探讨了我们的方法如何学习映射，这些映射在成功训练后往往趋向于显著的特征。",
+    "tldr": "本文提出了一种基于深度学习DMD的方法，称为DLHDMD，利用Takens嵌入定理的基本见解开发了一种自适应学习方案，更好地捕捉了高维和混沌动力学，能够为混沌时间序列生成准确的动态。",
+    "en_tldr": "This paper proposes a deep learning DMD based method, called DLHDMD, which uses the fundamental insight of Takens' Embedding Theorem to develop an adaptive learning scheme that better captures higher dimensional and chaotic dynamics, and is able to generate accurate dynamics for chaotic time series."
+}

@@ -1,0 +1,10 @@
+{
+    "title": "A attention way in Explainable methods for infant brain. (arXiv:2301.00815v3 [cs.LG] UPDATED)",
+    "abstract": "Deploying reliable deep learning techniques in interdisciplinary applications needs learned models to output accurate and ({even more importantly}) explainable predictions. Existing approaches typically explicate network outputs in a post-hoc fashion, under an implicit assumption that faithful explanations come from accurate predictions/classifications. We have an opposite claim that explanations boost (or even determine) classification. That is, end-to-end learning of explanation factors to augment discriminative representation extraction could be a more intuitive strategy to inversely assure fine-grained explainability, e.g., in those neuroimaging and neuroscience studies with high-dimensional data containing noisy, redundant, and task-irrelevant information. In this paper, we propose such an explainable geometric deep network dubbed.",
+    "link": "http://arxiv.org/abs/2301.00815",
+    "total_tokens": 803,
+    "translated_title": "一种用于婴儿脑可解释方法的注意力机制",
+    "translated_abstract": "在跨学科应用中部署可靠的深度学习技术需要学习模型输出准确且（更重要的是）可解释的预测。现有方法通常以事后方式解释网络输出，隐含地假设忠实的解释来自准确的预测/分类。我们提出相反的观点，即解释提升（甚至决定）分类。也就是说，端到端学习解释因素以增强区分性表示提取可能是一种更直观的策略，以反向保证细粒度的可解释性，例如在那些包含噪声，冗余和任务无关信息的高维数据的神经影像和神经科学研究中。在本文中，我们提出了一种可解释的几何深度网络。",
+    "tldr": "本文提出了一种可解释的几何深度网络，通过端到端学习解释因素以增强区分性表示提取，以反向保证细粒度的可解释性，适用于神经影像和神经科学研究中的高维数据。",
+    "en_tldr": "This paper proposes an explainable geometric deep network that enhances discriminative representation extraction by end-to-end learning of explanation factors, which is a more intuitive strategy to inversely assure fine-grained explainability, suitable for high-dimensional data in neuroimaging and neuroscience studies containing noisy, redundant, and task-irrelevant information."
+}

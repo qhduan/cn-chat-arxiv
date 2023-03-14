@@ -1,0 +1,10 @@
+{
+    "title": "Communication Protocols under Transparent Motives. (arXiv:2303.06244v1 [econ.TH])",
+    "abstract": "We study optimal (information) mediation in sender-receiver communication games where the sender has transparent motives: she only cares about the receiver's actions and beliefs. We characterize the feasible distributions over the receiver's beliefs under mediation and the value of mediation. The sender achieves her optimal Bayesian persuasion value by mediation if and only if this value is attained by cheap talk. When the state is binary, mediation strictly improves on cheap talk if and only if the sender cannot do better than under cheap talk by always under -- or over -- stating the state.",
+    "link": "http://arxiv.org/abs/2303.06244",
+    "total_tokens": 707,
+    "translated_title": "透明动机下的通信协议",
+    "translated_abstract": "我们研究了发送者-接收者通信博弈中的最优（信息）调解，其中发送者具有透明动机：她只关心接收者的行动和信念。我们刻画了在调解下接收者信念的可行分布和调解的价值。如果发送者可以通过廉价谈话达到她的最优贝叶斯说服价值，那么她通过调解实现了这个价值。当状态是二进制时，如果发送者不能通过始终低估或高估状态来达到比廉价谈话更好的效果，那么调解严格优于廉价谈话。",
+    "tldr": "本文研究了透明动机下的通信协议，发现当状态是二进制时，调解严格优于廉价谈话，如果发送者不能通过始终低估或高估状态来达到比廉价谈话更好的效果，那么调解严格优于廉价谈话。",
+    "en_tldr": "This paper studies communication protocols under transparent motives and finds that mediation strictly improves on cheap talk when the state is binary, unless the sender can do better than under cheap talk by always under or over stating the state."
+}

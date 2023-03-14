@@ -1,0 +1,10 @@
+{
+    "title": "Multistage Stochastic Optimization via Kernels. (arXiv:2303.06515v1 [math.OC])",
+    "abstract": "We develop a non-parametric, data-driven, tractable approach for solving multistage stochastic optimization problems in which decisions do not affect the uncertainty. The proposed framework represents the decision variables as elements of a reproducing kernel Hilbert space and performs functional stochastic gradient descent to minimize the empirical regularized loss. By incorporating sparsification techniques based on function subspace projections we are able to overcome the computational complexity that standard kernel methods introduce as the data size increases. We prove that the proposed approach is asymptotically optimal for multistage stochastic optimization with side information. Across various computational experiments on stochastic inventory management problems, {our method performs well in multidimensional settings} and remains tractable when the data size is large. Lastly, by computing lower bounds for the optimal loss of the inventory control problem, we show that the propo",
+    "link": "http://arxiv.org/abs/2303.06515",
+    "total_tokens": 797,
+    "translated_title": "基于核的多阶段随机优化",
+    "translated_abstract": "我们提出了一种非参数、数据驱动、可行的方法来解决多阶段随机优化问题，其中决策不影响不确定性。所提出的框架将决策变量表示为再生核希尔伯特空间的元素，并执行函数随机梯度下降来最小化经验正则化损失。通过结合基于函数子空间投影的稀疏化技术，我们能够克服标准核方法引入的计算复杂度随着数据大小的增加而增加的问题。我们证明了所提出的方法在具有辅助信息的多阶段随机优化中是渐近最优的。在各种随机库存管理问题的计算实验中，我们的方法在多维设置中表现良好，并且在数据规模较大时仍然可行。最后，通过计算库存控制问题的最优损失的下界，我们展示了所提出的方法的有效性。",
+    "tldr": "我们提出了一种基于核的多阶段随机优化方法，能够在多维设置中表现良好，并且在数据规模较大时仍然可行。",
+    "en_tdlr": "We propose a kernel-based approach for multistage stochastic optimization that performs well in multidimensional settings and remains tractable when the data size is large."
+}

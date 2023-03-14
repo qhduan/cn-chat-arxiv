@@ -1,0 +1,10 @@
+{
+    "title": "Multimodal Data Integration for Oncology in the Era of Deep Neural Networks: A Review. (arXiv:2303.06471v1 [cs.LG])",
+    "abstract": "Cancer has relational information residing at varying scales, modalities, and resolutions of the acquired data, such as radiology, pathology, genomics, proteomics, and clinical records. Integrating diverse data types can improve the accuracy and reliability of cancer diagnosis and treatment. There can be disease-related information that is too subtle for humans or existing technological tools to discern visually. Traditional methods typically focus on partial or unimodal information about biological systems at individual scales and fail to encapsulate the complete spectrum of the heterogeneous nature of data. Deep neural networks have facilitated the development of sophisticated multimodal data fusion approaches that can extract and integrate relevant information from multiple sources. Recent deep learning frameworks such as Graph Neural Networks (GNNs) and Transformers have shown remarkable success in multimodal learning. This review article provides an in-depth analysis of the state-",
+    "link": "http://arxiv.org/abs/2303.06471",
+    "total_tokens": 819,
+    "translated_title": "深度神经网络时代的肿瘤多模态数据整合：一篇综述",
+    "translated_abstract": "癌症在不同尺度、模态和分辨率的获取数据中具有关系信息，例如放射学、病理学、基因组学、蛋白质组学和临床记录。整合多种数据类型可以提高癌症诊断和治疗的准确性和可靠性。可能存在人类或现有技术工具无法视觉上区分的与疾病相关的信息。传统方法通常关注单个尺度的生物系统的部分或单一模态信息，并未涵盖数据异质性的完整光谱。深度神经网络促进了复杂的多模态数据融合方法的发展，可以从多个来源提取和整合相关信息。最近的深度学习框架，如图形神经网络（GNN）和变压器，在多模态学习方面取得了显着的成功。本综述文章提供了对当前多模态数据整合方法的深入分析。",
+    "tldr": "本文综述了深度神经网络在多模态数据整合方面的应用，以提高癌症诊断和治疗的准确性和可靠性。",
+    "en_tldr": "This review article analyzes the application of deep neural networks in multimodal data integration to improve the accuracy and reliability of cancer diagnosis and treatment."
+}

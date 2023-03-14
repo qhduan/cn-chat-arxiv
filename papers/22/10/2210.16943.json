@@ -1,0 +1,10 @@
+{
+    "title": "ViTASD: Robust Vision Transformer Baselines for Autism Spectrum Disorder Facial Diagnosis. (arXiv:2210.16943v2 [cs.CV] UPDATED)",
+    "abstract": "Autism spectrum disorder (ASD) is a lifelong neurodevelopmental disorder with very high prevalence around the world. Research progress in the field of ASD facial analysis in pediatric patients has been hindered due to a lack of well-established baselines. In this paper, we propose the use of the Vision Transformer (ViT) for the computational analysis of pediatric ASD. The presented model, known as ViTASD, distills knowledge from large facial expression datasets and offers model structure transferability. Specifically, ViTASD employs a vanilla ViT to extract features from patients' face images and adopts a lightweight decoder with a Gaussian Process layer to enhance the robustness for ASD analysis. Extensive experiments conducted on standard ASD facial analysis benchmarks show that our method outperforms all of the representative approaches in ASD facial analysis, while the ViTASD-L achieves a new state-of-the-art. Our code and pretrained models are available at https://github.com/IrohX",
+    "link": "http://arxiv.org/abs/2210.16943",
+    "total_tokens": 956,
+    "translated_title": "ViTASD：自闭症谱系障碍面部诊断的强健视觉Transformer基线",
+    "translated_abstract": "自闭症谱系障碍（ASD）是一种终身神经发育障碍，在全球范围内具有非常高的患病率。由于缺乏良好的基线，ASD面部分析在儿科患者中的研究进展受到了阻碍。本文提出了使用Vision Transformer（ViT）进行儿童ASD计算分析的方法。所提出的模型，称为ViTASD，从大型面部表情数据集中提取知识，并提供模型结构可转移性。具体而言，ViTASD采用普通的ViT从患者的面部图像中提取特征，并采用轻量级解码器和高斯过程层来增强ASD分析的鲁棒性。在标准ASD面部分析基准测试上进行的大量实验表明，我们的方法优于所有代表性的ASD面部分析方法，而ViTASD-L实现了新的最先进水平。我们的代码和预训练模型可在https://github.com/IrohX上获得。",
+    "tldr": "本文提出了一种使用Vision Transformer进行儿童ASD计算分析的方法，该方法从大型面部表情数据集中提取知识，并提供模型结构可转移性。在标准ASD面部分析基准测试上进行的大量实验表明，ViTASD-L实现了新的最先进水平。",
+    "en_tldr": "This paper proposes a method for computational analysis of pediatric ASD using Vision Transformer, which extracts knowledge from large facial expression datasets and offers model structure transferability. Extensive experiments on standard ASD facial analysis benchmarks show that ViTASD-L achieves a new state-of-the-art."
+}

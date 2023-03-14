@@ -1,0 +1,10 @@
+{
+    "title": "Privacy-Aware Compression for Federated Learning Through Numerical Mechanism Design. (arXiv:2211.03942v2 [cs.LG] UPDATED)",
+    "abstract": "In private federated learning (FL), a server aggregates differentially private updates from a large number of clients in order to train a machine learning model. The main challenge in this setting is balancing privacy with both classification accuracy of the learnt model as well as the number of bits communicated between the clients and server. Prior work has achieved a good trade-off by designing a privacy-aware compression mechanism, called the minimum variance unbiased (MVU) mechanism, that numerically solves an optimization problem to determine the parameters of the mechanism. This paper builds upon it by introducing a new interpolation procedure in the numerical design process that allows for a far more efficient privacy analysis. The result is the new Interpolated MVU mechanism that is more scalable, has a better privacy-utility trade-off, and provides SOTA results on communication-efficient private FL on a variety of datasets.",
+    "link": "http://arxiv.org/abs/2211.03942",
+    "total_tokens": 860,
+    "translated_title": "面向隐私的联邦学习压缩：通过数值机制设计",
+    "translated_abstract": "在私有联邦学习（FL）中，服务器聚合来自大量客户端的差分隐私更新，以训练机器学习模型。这种情况下的主要挑战是在隐私和学习模型的分类准确性以及客户端和服务器之间通信的位数之间平衡隐私。先前的工作通过设计一种隐私感知压缩机制（称为最小方差无偏（MVU）机制）来实现良好的权衡，该机制通过数值求解优化问题来确定机制的参数。本文在此基础上引入了一种新的插值过程，用于数值设计过程，从而实现更高效的隐私分析。结果是新的插值MVU机制，它更具可扩展性，具有更好的隐私效用权衡，并在各种数据集上提供了通信高效的私有FL的SOTA结果。",
+    "tldr": "本文提出了一种新的插值MVU机制，通过数值机制设计实现面向隐私的联邦学习压缩，具有更好的隐私效用权衡和更高的可扩展性，并在各种数据集上提供了通信高效的私有FL的SOTA结果。",
+    "en_tldr": "This paper proposes a new Interpolated MVU mechanism for privacy-aware compression in federated learning, which achieves a better privacy-utility trade-off and scalability through numerical mechanism design, and provides SOTA results on communication-efficient private FL on a variety of datasets."
+}

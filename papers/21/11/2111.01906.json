@@ -1,0 +1,10 @@
+{
+    "title": "A trained humanoid robot can perform human-like crossmodal social attention and conflict resolution. (arXiv:2111.01906v5 [cs.RO] UPDATED)",
+    "abstract": "To enhance human-robot social interaction, it is essential for robots to process multiple social cues in a complex real-world environment. However, incongruency of input information across modalities is inevitable and could be challenging for robots to process. To tackle this challenge, our study adopted the neurorobotic paradigm of crossmodal conflict resolution to make a robot express human-like social attention. A behavioural experiment was conducted on 37 participants for the human study. We designed a round-table meeting scenario with three animated avatars to improve ecological validity. Each avatar wore a medical mask to obscure the facial cues of the nose, mouth, and jaw. The central avatar shifted its eye gaze while the peripheral avatars generated sound. Gaze direction and sound locations were either spatially congruent or incongruent. We observed that the central avatar's dynamic gaze could trigger crossmodal social attention responses. In particular, human performances are ",
+    "link": "http://arxiv.org/abs/2111.01906",
+    "total_tokens": 895,
+    "translated_title": "训练过的人形机器人可以执行类人的跨模态社交关注和冲突解决",
+    "translated_abstract": "为了增强人机社交互动，机器人在复杂的现实环境中处理多个社交线索至关重要。然而，跨模态输入信息的不一致性是不可避免的，这可能对机器人的处理造成挑战。为了解决这个问题，我们的研究采用了跨模态冲突解决的神经机器人范例，使机器人表现出类人的社交关注。我们对37名参与者进行了一项行为实验。我们设计了一个圆桌会议场景，有三个动画化的头像，以提高生态效度。每个头像都戴着医用口罩，遮盖了鼻子、嘴巴和下巴的面部线索。中央头像移动其眼睛注视，而外围头像则发出声音。凝视方向和声音位置要么是空间上一致的，要么是不一致的。我们观察到，中央头像的动态凝视可以触发跨模态社交关注反应。特别是，人类表现",
+    "tldr": "本研究采用跨模态冲突解决的神经机器人范例，使机器人表现出类人的社交关注，为增强人机社交互动提供了新思路。",
+    "en_tldr": "This study adopts the neurorobotic paradigm of crossmodal conflict resolution to make a robot express human-like social attention, providing a new approach to enhance human-robot social interaction."
+}

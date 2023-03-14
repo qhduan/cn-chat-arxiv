@@ -1,0 +1,10 @@
+{
+    "title": "Classification and Generation of real-world data with an Associative Memory Model. (arXiv:2207.04827v3 [cs.NE] UPDATED)",
+    "abstract": "Drawing from memory the face of a friend you have not seen in years is a difficult task. However, if you happen to cross paths, you would easily recognize each other. The biological memory is equipped with an impressive compression algorithm that can store the essential, and then infer the details to match perception. The Willshaw Memory is a simple abstract model for cortical computations which implements mechanisms of biological memories. Using our recently proposed sparse coding prescription for visual patterns [34], this model can store and retrieve an impressive amount of real-world data in a fault-tolerant manner. In this paper, we extend the capabilities of the basic Associative Memory Model by using a Multiple-Modality framework. In this setting, the memory stores several modalities (e.g., visual, or textual) of each pattern simultaneously. After training, the memory can be used to infer missing modalities when just a subset is perceived. Using a simple encoder-memory decoder a",
+    "link": "http://arxiv.org/abs/2207.04827",
+    "total_tokens": 885,
+    "translated_title": "基于联想记忆模型的真实世界数据分类和生成",
+    "translated_abstract": "回忆起多年未见的朋友的面孔是一项困难的任务。然而，如果你们偶然相遇，你们会轻易地认出彼此。生物记忆配备了一个令人印象深刻的压缩算法，可以存储必要的信息，然后推断细节以匹配感知。Willshaw Memory是一种用于皮层计算的简单抽象模型，实现了生物记忆的机制。使用我们最近提出的用于视觉模式的稀疏编码规则[34]，该模型可以以容错的方式存储和检索大量真实世界数据。在本文中，我们通过使用多模态框架扩展了基本联想记忆模型的能力。在这种设置中，记忆同时存储每个模式的几种模态（例如，视觉或文本）。训练后，当只感知到子集时，记忆可以用于推断缺失的模态。使用简单的编码器-记忆解码器，我们可以生成具有多个模态的数据。",
+    "tldr": "本文提出了一种基于联想记忆模型的多模态框架，可以以容错的方式存储和检索大量真实世界数据，并且可以用于推断缺失的模态。",
+    "en_tldr": "This paper proposes a multi-modality framework based on the associative memory model, which can store and retrieve a large amount of real-world data in a fault-tolerant manner, and can be used to infer missing modalities."
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Alternate Intermediate Conditioning with Syllable-level and Character-level Targets for Japanese ASR. (arXiv:2204.00175v2 [cs.CL] UPDATED)",
+    "abstract": "End-to-end automatic speech recognition directly maps input speech to characters. However, the mapping can be problematic when several different pronunciations should be mapped into one character or when one pronunciation is shared among many different characters. Japanese ASR suffers the most from such many-to-one and one-to-many mapping problems due to Japanese kanji characters. To alleviate the problems, we introduce explicit interaction between characters and syllables using Self-conditioned connectionist temporal classification (CTC), in which the upper layers are ``self-conditioned'' on the intermediate predictions from the lower layers. The proposed method utilizes character-level and syllable-level intermediate predictions as conditioning features to deal with mutual dependency between characters and syllables. Experimental results on Corpus of Spontaneous Japanese show that the proposed method outperformed the conventional multi-task and Self-conditioned CTC methods.",
+    "link": "http://arxiv.org/abs/2204.00175",
+    "total_tokens": 824,
+    "translated_title": "日语ASR中基于音节和字符目标的交替中间条件",
+    "translated_abstract": "端到端的自动语音识别直接将输入语音映射到字符。然而，当多个不同的发音应该映射到一个字符或一个发音被多个不同的字符共享时，映射可能会出现问题。由于日语汉字的存在，日语ASR最容易遭受这种多对一和一对多的映射问题。为了缓解这些问题，我们引入了字符和音节之间的显式交互，使用自我条件连接主义时间分类（CTC），其中上层“自我条件”于下层的中间预测。所提出的方法利用字符级和音节级中间预测作为条件特征来处理字符和音节之间的相互依赖关系。在自发日语语料库上的实验结果表明，所提出的方法优于传统的多任务和自我条件CTC方法。",
+    "tldr": "该论文提出了一种基于音节和字符目标的交替中间条件方法，利用字符级和音节级中间预测作为条件特征来处理日语ASR中的多对一和一对多的映射问题，并在实验中取得了优异的表现。",
+    "en_tldr": "This paper proposes an alternate intermediate conditioning method with syllable-level and character-level targets to deal with the many-to-one and one-to-many mapping problems in Japanese ASR, and achieves better performance than conventional multi-task and Self-conditioned CTC methods in experiments."
+}

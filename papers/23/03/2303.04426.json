@@ -1,0 +1,10 @@
+{
+    "title": "NASTyLinker: NIL-Aware Scalable Transformer-based Entity Linker. (arXiv:2303.04426v2 [cs.CL] UPDATED)",
+    "abstract": "Entity Linking (EL) is the task of detecting mentions of entities in text and disambiguating them to a reference knowledge base. Most prevalent EL approaches assume that the reference knowledge base is complete. In practice, however, it is necessary to deal with the case of linking to an entity that is not contained in the knowledge base (NIL entity). Recent works have shown that, instead of focusing only on affinities between mentions and entities, considering inter-mention affinities can be used to represent NIL entities by producing clusters of mentions. At the same time, inter-mention affinities can help to substantially improve linking performance for known entities. With NASTyLinker, we introduce an EL approach that is aware of NIL entities and produces corresponding mention clusters while maintaining high linking performance for known entities. The approach clusters mentions and entities based on dense representations from Transformers and resolves conflicts (if more than one en",
+    "link": "http://arxiv.org/abs/2303.04426",
+    "total_tokens": 797,
+    "translated_title": "NASTyLinker：NIL感知可扩展基于Transformer的实体链接器",
+    "translated_abstract": "实体链接（EL）是检测文本中实体提及并将其消歧为参考知识库的任务。大多数流行的EL方法假定参考知识库是完整的。然而，在实践中，需要处理链接到不包含在知识库中的实体（NIL实体）的情况。最近的研究表明，考虑提及之间的亲和力可以用于表示NIL实体，方法是通过生成提及簇。同时，提及之间的亲和力可以帮助显著提高已知实体的链接性能。通过NASTyLinker，我们介绍了一种EL方法，它知道NIL实体并产生相应的提及簇，同时保持已知实体的高链接性能。该方法基于Transformer的密集表示对提及和实体进行聚类，并解决冲突（如果一个实体有多个提及）。",
+    "tldr": "NASTyLinker是一种NIL感知的实体链接器，它通过生成提及簇来表示NIL实体，并在保持已知实体高链接性能的同时解决冲突。",
+    "en_tldr": "NASTyLinker is a NIL-aware entity linker that represents NIL entities by producing mention clusters and resolves conflicts while maintaining high linking performance for known entities."
+}

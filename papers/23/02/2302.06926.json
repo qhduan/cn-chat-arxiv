@@ -1,0 +1,10 @@
+{
+    "title": "Lightsolver challenges a leading deep learning solver for Max-2-SAT problems. (arXiv:2302.06926v2 [quant-ph] UPDATED)",
+    "abstract": "Maximum 2-satisfiability (MAX-2-SAT) is a type of combinatorial decision problem that is known to be NP-hard. In this paper, we compare LightSolver's quantum-inspired algorithm to a leading deep-learning solver for the MAX-2-SAT problem. Experiments on benchmark data sets show that LightSolver achieves significantly smaller time-to-optimal-solution compared to a state-of-the-art deep-learning algorithm, where the gain in performance tends to increase with the problem size.",
+    "link": "http://arxiv.org/abs/2302.06926",
+    "total_tokens": 645,
+    "translated_title": "Lightsolver挑战领先的深度学习求解器解决Max-2-SAT问题",
+    "translated_abstract": "最大2-SAT问题（MAX-2-SAT）是一种已知为NP难的组合决策问题。本文比较了LightSolver的量子启发式算法和领先的深度学习求解器在MAX-2-SAT问题上的表现。基准数据集上的实验表明，与最先进的深度学习算法相比，LightSolver实现了显著更小的最优解时间，其中性能提升的增益往往随着问题规模的增加而增加。",
+    "tldr": "本文比较了LightSolver的量子启发式算法和领先的深度学习求解器在MAX-2-SAT问题上的表现，实验结果表明LightSolver实现了显著更小的最优解时间。",
+    "en_tldr": "This paper compares LightSolver's quantum-inspired algorithm to a leading deep-learning solver for the MAX-2-SAT problem, and shows that LightSolver achieves significantly smaller time-to-optimal-solution compared to a state-of-the-art deep-learning algorithm."
+}

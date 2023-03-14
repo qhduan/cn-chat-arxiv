@@ -1,0 +1,10 @@
+{
+    "title": "Augmentation with Projection: Towards an Effective and Efficient Data Augmentation Paradigm for Distillation. (arXiv:2210.11768v2 [cs.CL] UPDATED)",
+    "abstract": "Knowledge distillation is one of the primary methods of transferring knowledge from large to small models. However, it requires massive task-specific data, which may not be plausible in many real-world applications. Data augmentation methods such as representation interpolation, token replacement, or augmentation with models are applied to tackle this problem. However, these data augmentation methods either potentially cause shifts in decision boundaries (representation interpolation), are not expressive enough (token replacement), or introduce too much computational overhead (augmentation with models). To this end, we propose AugPro (Augmentation with Projection), an effective and efficient data augmentation method for distillation. Our method builds on top of representation interpolation augmentation methods to maintain the diversity of expressions and converts the augmented data to tokens to avoid shifting decision boundaries. It uses simple operations that come with little computat",
+    "link": "http://arxiv.org/abs/2210.11768",
+    "total_tokens": 792,
+    "translated_title": "投影增强：一种有效且高效的蒸馏数据增强范式",
+    "translated_abstract": "知识蒸馏是从大型模型向小型模型转移知识的主要方法之一。然而，它需要大量的任务特定数据，在许多实际应用中可能不可行。为了解决这个问题，采用了表示插值、标记替换或模型增强等数据增强方法。然而，这些数据增强方法可能会导致决策边界的偏移（表示插值），不够表达（标记替换）或引入过多的计算开销（模型增强）。为此，我们提出了AugPro（投影增强），一种有效且高效的蒸馏数据增强方法。我们的方法建立在表示插值增强方法之上，以保持表达的多样性，并将增强的数据转换为标记以避免偏移决策边界。它使用简单的操作，计算开销小。",
+    "tldr": "提出了一种名为AugPro的数据增强方法，它是一种有效且高效的蒸馏数据增强方法，可以避免偏移决策边界，计算开销小。",
+    "en_tldr": "AugPro is an effective and efficient data augmentation method for distillation, which avoids shifting decision boundaries and has little computational overhead."
+}

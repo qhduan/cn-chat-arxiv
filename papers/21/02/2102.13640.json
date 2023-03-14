@@ -1,0 +1,10 @@
+{
+    "title": "NOMU: Neural Optimization-based Model Uncertainty. (arXiv:2102.13640v5 [cs.LG] UPDATED)",
+    "abstract": "We study methods for estimating model uncertainty for neural networks (NNs) in regression. To isolate the effect of model uncertainty, we focus on a noiseless setting with scarce training data. We introduce five important desiderata regarding model uncertainty that any method should satisfy. However, we find that established benchmarks often fail to reliably capture some of these desiderata, even those that are required by Bayesian theory. To address this, we introduce a new approach for capturing model uncertainty for NNs, which we call Neural Optimization-based Model Uncertainty (NOMU). The main idea of NOMU is to design a network architecture consisting of two connected sub-NNs, one for model prediction and one for model uncertainty, and to train it using a carefully-designed loss function. Importantly, our design enforces that NOMU satisfies our five desiderata. Due to its modular architecture, NOMU can provide model uncertainty for any given (previously trained) NN if given access",
+    "link": "http://arxiv.org/abs/2102.13640",
+    "total_tokens": 967,
+    "translated_title": "NOMU: 基于神经优化的模型不确定性",
+    "translated_abstract": "我们研究了神经网络（NN）回归中模型不确定性的估计方法。为了隔离模型不确定性的影响，我们专注于稀缺训练数据的无噪声设置。我们提出了五个关于模型不确定性的重要愿望，任何方法都应该满足这些愿望。然而，我们发现，即使是贝叶斯理论所要求的一些愿望，已经建立的基准测试也经常无法可靠地捕捉到。为了解决这个问题，我们引入了一种新的方法来捕捉NN的模型不确定性，称为神经优化模型不确定性（NOMU）。 NOMU的主要思想是设计一个由两个连接的子NN组成的网络架构，一个用于模型预测，一个用于模型不确定性，并使用精心设计的损失函数进行训练。重要的是，我们的设计强制NOMU满足我们的五个愿望。由于其模块化架构，如果给定访问权限，NOMU可以为任何给定的（先前训练的）NN提供模型不确定性。",
+    "tldr": "NOMU是一种新的神经网络模型，可以在无噪声设置下，通过设计一个由两个连接的子NN组成的网络架构，并使用精心设计的损失函数进行训练，来捕捉NN的模型不确定性。该模型满足五个关于模型不确定性的重要愿望。",
+    "en_tldr": "NOMU is a new neural network model that captures model uncertainty for neural networks (NNs) in regression by designing a network architecture consisting of two connected sub-NNs, one for model prediction and one for model uncertainty, and training it using a carefully-designed loss function. The model satisfies five important desiderata regarding model uncertainty."
+}

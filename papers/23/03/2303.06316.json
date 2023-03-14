@@ -1,0 +1,10 @@
+{
+    "title": "One Neuron Saved Is One Neuron Earned: On Parametric Efficiency of Quadratic Networks. (arXiv:2303.06316v1 [cs.LG])",
+    "abstract": "Inspired by neuronal diversity in the biological neural system, a plethora of studies proposed to design novel types of artificial neurons and introduce neuronal diversity into artificial neural networks. Recently proposed quadratic neuron, which replaces the inner-product operation in conventional neurons with a quadratic one, have achieved great success in many essential tasks. Despite the promising results of quadratic neurons, there is still an unresolved issue: \\textit{Is the superior performance of quadratic networks simply due to the increased parameters or due to the intrinsic expressive capability?} Without clarifying this issue, the performance of quadratic networks is always suspicious. Additionally, resolving this issue is reduced to finding killer applications of quadratic networks. In this paper, with theoretical and empirical studies, we show that quadratic networks enjoy parametric efficiency, thereby confirming that the superior performance of quadratic networks is due",
+    "link": "http://arxiv.org/abs/2303.06316",
+    "total_tokens": 810,
+    "translated_title": "一个神经元的节省就是一个神经元的收益：关于二次网络参数效率的研究",
+    "translated_abstract": "受生物神经系统中神经元多样性的启发，大量研究提出了设计新型人工神经元并将神经元多样性引入人工神经网络的方法。最近提出的二次神经元，将传统神经元中的内积操作替换为二次操作，在许多重要任务中取得了巨大成功。尽管二次神经元的结果很有前途，但仍存在一个未解决的问题：二次网络的卓越性能仅仅是由于参数增加还是由于内在表达能力？在未澄清这个问题的情况下，二次网络的性能总是令人怀疑。此外，解决这个问题就是找到二次网络的杀手应用。在本文中，通过理论和实证研究，我们展示了二次网络具有参数效率，从而确认了二次网络的卓越性能是由于其内在表达能力而非参数增加。",
+    "tldr": "本文研究了二次神经元的参数效率，证明了其卓越性能是由于内在表达能力而非参数增加。",
+    "en_tldr": "This paper studies the parametric efficiency of quadratic neurons and confirms that their superior performance is due to intrinsic expressive capability rather than increased parameters."
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Learning a model is paramount for sample efficiency in reinforcement learning control of PDEs. (arXiv:2302.07160v2 [cs.LG] UPDATED)",
+    "abstract": "The goal of this paper is to make a strong point for the usage of dynamical models when using reinforcement learning (RL) for feedback control of dynamical systems governed by partial differential equations (PDEs). To breach the gap between the immense promises we see in RL and the applicability in complex engineering systems, the main challenges are the massive requirements in terms of the training data, as well as the lack of performance guarantees. We present a solution for the first issue using a data-driven surrogate model in the form of a convolutional LSTM with actuation. We demonstrate that learning an actuated model in parallel to training the RL agent significantly reduces the total amount of required data sampled from the real system. Furthermore, we show that iteratively updating the model is of major importance to avoid biases in the RL training. Detailed ablation studies reveal the most important ingredients of the modeling process. We use the chaotic Kuramoto-Sivashinsky",
+    "link": "http://arxiv.org/abs/2302.07160",
+    "total_tokens": 966,
+    "translated_title": "学习模型对于强化学习控制偏微分方程的样本效率至关重要",
+    "translated_abstract": "本文旨在强调在使用强化学习（RL）进行偏微分方程（PDEs）控制的反馈控制时使用动态模型的重要性。为了弥合我们在RL中看到的巨大承诺与复杂工程系统中的适用性之间的差距，主要挑战是在训练数据方面的巨大需求以及缺乏性能保证。我们提出了一种解决方案，使用卷积LSTM作为带有激励的数据驱动代理模型来解决第一个问题。我们证明了在训练RL代理的同时并行学习一个带有激励的模型可以显著减少从真实系统中采样所需的总数据量。此外，我们还展示了迭代更新模型对于避免RL训练中的偏差非常重要。详细的消融研究揭示了建模过程中最重要的因素。我们使用混沌Kuramoto-Sivashinsky方程进行了实验验证。",
+    "tldr": "本文强调在使用强化学习进行偏微分方程控制时使用动态模型的重要性。使用卷积LSTM作为带有激励的数据驱动代理模型可以显著减少从真实系统中采样所需的总数据量。迭代更新模型对于避免RL训练中的偏差非常重要。",
+    "en_tldr": "This paper emphasizes the importance of using dynamic models when using reinforcement learning for feedback control of partial differential equations. Using a convolutional LSTM as a data-driven surrogate model with actuation significantly reduces the total amount of required data sampled from the real system. Iteratively updating the model is crucial to avoid biases in the RL training."
+}

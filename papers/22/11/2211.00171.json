@@ -1,0 +1,10 @@
+{
+    "title": "Using Emotion Embeddings to Transfer Knowledge Between Emotions, Languages, and Annotation Formats. (arXiv:2211.00171v2 [cs.CL] UPDATED)",
+    "abstract": "The need for emotional inference from text continues to diversify as more and more disciplines integrate emotions into their theories and applications. These needs include inferring different emotion types, handling multiple languages, and different annotation formats. A shared model between different configurations would enable the sharing of knowledge and a decrease in training costs, and would simplify the process of deploying emotion recognition models in novel environments. In this work, we study how we can build a single model that can transition between these different configurations by leveraging multilingual models and Demux, a transformer-based model whose input includes the emotions of interest, enabling us to dynamically change the emotions predicted by the model. Demux also produces emotion embeddings, and performing operations on them allows us to transition to clusters of emotions by pooling the embeddings of each cluster. We show that Demux can simultaneously transfer k",
+    "link": "http://arxiv.org/abs/2211.00171",
+    "total_tokens": 831,
+    "translated_title": "使用情感嵌入在情感、语言和注释格式之间传递知识",
+    "translated_abstract": "随着越来越多的学科将情感融入其理论和应用中，从文本中推断情感的需求不断多样化。这些需求包括推断不同类型的情感、处理多种语言和不同的注释格式。不同配置之间的共享模型将使知识共享和训练成本降低，并简化在新环境中部署情感识别模型的过程。在这项工作中，我们研究了如何通过利用多语言模型和Demux来构建一个可以在这些不同配置之间转换的单一模型，Demux是一个基于transformer的模型，其输入包括感兴趣的情感，使我们能够动态地改变模型预测的情感。Demux还产生情感嵌入，对它们执行操作可以通过汇集每个簇的嵌入来过渡到情感簇。我们展示了Demux可以同时传输k",
+    "tldr": "本文研究了如何通过利用多语言模型和Demux来构建一个可以在不同情感、语言和注释格式之间转换的单一模型，以实现知识共享和降低训练成本。",
+    "en_tldr": "This paper studies how to build a single model that can transition between different emotions, languages, and annotation formats by leveraging multilingual models and Demux, to achieve knowledge sharing and reduce training costs."
+}

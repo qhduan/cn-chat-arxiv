@@ -1,0 +1,10 @@
+{
+    "title": "Resurrecting Recurrent Neural Networks for Long Sequences. (arXiv:2303.06349v1 [cs.LG])",
+    "abstract": "Recurrent Neural Networks (RNNs) offer fast inference on long sequences but are hard to optimize and slow to train. Deep state-space models (SSMs) have recently been shown to perform remarkably well on long sequence modeling tasks, and have the added benefits of fast parallelizable training and RNN-like fast inference. However, while SSMs are superficially similar to RNNs, there are important differences that make it unclear where their performance boost over RNNs comes from. In this paper, we show that careful design of deep RNNs using standard signal propagation arguments can recover the impressive performance of deep SSMs on long-range reasoning tasks, while also matching their training speed. To achieve this, we analyze and ablate a series of changes to standard RNNs including linearizing and diagonalizing the recurrence, using better parameterizations and initializations, and ensuring proper normalization of the forward pass. Our results provide new insights on the origins of the ",
+    "link": "http://arxiv.org/abs/2303.06349",
+    "total_tokens": 947,
+    "translated_title": "复活长序列的循环神经网络",
+    "translated_abstract": "循环神经网络（RNN）在长序列上提供快速推理，但难以优化且训练速度慢。最近，深度状态空间模型（SSM）在长序列建模任务上表现出色，并具有快速可并行化的训练和类似RNN的快速推理的额外优势。然而，虽然SSM与RNN在表面上相似，但存在重要差异，使得不清楚它们在RNN上的性能提升来自何处。在本文中，我们展示了使用标准信号传播论据精心设计的深度RNN可以恢复深度SSM在长距离推理任务上的卓越性能，同时匹配它们的训练速度。为了实现这一点，我们分析和消融了一系列对标准RNN的更改，包括线性化和对角化循环，使用更好的参数化和初始化，并确保正常化前向传递。我们的结果提供了关于深度RNN和深度SSM性能差异来源的新见解。",
+    "tldr": "本文研究了如何通过对标准RNN进行精心设计，包括线性化和对角化循环、使用更好的参数化和初始化以及确保正常化前向传递等一系列改变，来恢复深度SSM在长距离推理任务上的卓越性能，同时匹配它们的训练速度。",
+    "en_tldr": "This paper explores how to recover the impressive performance of deep state-space models (SSMs) on long-range reasoning tasks by carefully designing deep RNNs using standard signal propagation arguments, including linearizing and diagonalizing the recurrence, using better parameterizations and initializations, and ensuring proper normalization of the forward pass."
+}

@@ -1,0 +1,10 @@
+{
+    "title": "The Surprising Computational Power of Nondeterministic Stack RNNs. (arXiv:2210.01343v3 [cs.CL] UPDATED)",
+    "abstract": "Traditional recurrent neural networks (RNNs) have a fixed, finite number of memory cells. In theory (assuming bounded range and precision), this limits their formal language recognition power to regular languages, and in practice, RNNs have been shown to be unable to learn many context-free languages (CFLs). In order to expand the class of languages RNNs recognize, prior work has augmented RNNs with a nondeterministic stack data structure, putting them on par with pushdown automata and increasing their language recognition power to CFLs. Nondeterminism is needed for recognizing all CFLs (not just deterministic CFLs), but in this paper, we show that nondeterminism and the neural controller interact to produce two more unexpected abilities. First, the nondeterministic stack RNN can recognize not only CFLs, but also many non-context-free languages. Second, it can recognize languages with much larger alphabet sizes than one might expect given the size of its stack alphabet. Finally, to inc",
+    "link": "http://arxiv.org/abs/2210.01343",
+    "total_tokens": 993,
+    "translated_title": "非确定性堆栈循环神经网络的惊人计算能力",
+    "translated_abstract": "传统的循环神经网络（RNN）具有固定的、有限的记忆单元。在理论上（假设有界的范围和精度），这限制了它们的形式语言识别能力为正则语言，并且在实践中，已经证明RNN无法学习许多上下文无关语言（CFL）。为了扩展RNN识别的语言类别，先前的工作使用非确定性堆栈数据结构增强了RNN，使它们与下推自动机相当，并将它们的语言识别能力增加到CFL。非确定性是识别所有CFL所必需的（不仅仅是确定性CFL），但在本文中，我们展示了非确定性和神经控制器相互作用产生了另外两种意想不到的能力。首先，非确定性堆栈RNN不仅可以识别CFL，还可以识别许多非上下文无关语言。其次，它可以识别具有比其堆栈字母表大小更大的语言，这一点可能超出了人们的预期。最后，为了增加其计算能力，我们提出了一种新的训练方法，该方法可以在不增加计算复杂度的情况下提高其识别能力。",
+    "tldr": "本文展示了非确定性堆栈循环神经网络的惊人计算能力，它不仅可以识别上下文无关语言，还可以识别许多非上下文无关语言，并且可以识别具有比其堆栈字母表大小更大的语言。",
+    "en_tldr": "This paper demonstrates the surprising computational power of nondeterministic stack recurrent neural networks, which can not only recognize context-free languages, but also many non-context-free languages and languages with larger alphabet sizes than their stack alphabet."
+}

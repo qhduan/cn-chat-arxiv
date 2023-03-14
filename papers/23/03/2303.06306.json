@@ -1,0 +1,10 @@
+{
+    "title": "Blockchain-based decentralized voting system security Perspective: Safe and secure for digital voting system. (arXiv:2303.06306v1 [cs.LG])",
+    "abstract": "This research study focuses primarily on Block-Chain-based voting systems, which facilitate participation in and administration of voting for voters, candidates, and officials. Because we used Block-Chain in the backend, which enables everyone to trace vote fraud, our system is incredibly safe. This paper approach any unique identification the Aadhar Card number or an OTP will be generated then user can utilise the voting system to cast his/her vote. A proposal for Bit-coin, a virtual currency system that is decided by a central authority for producing money, transferring ownership, and validating transactions, included the peer-to-peer network in a Block-Chain system, the ledger is duplicated across several, identical databases which is hosted and updated by a different process and all other nodes are updated concurrently if changes made to one node and a transaction occurs, the records of the values and assets are permanently exchanged, Only the user and the system need to be verifie",
+    "link": "http://arxiv.org/abs/2303.06306",
+    "total_tokens": 832,
+    "translated_title": "基于区块链的去中心化投票系统安全视角：数字投票系统的安全性和保障",
+    "translated_abstract": "本研究主要关注基于区块链的投票系统，为选民、候选人和官员参与和管理投票提供便利。由于我们在后端使用了区块链，使得每个人都能追踪投票欺诈，因此我们的系统非常安全。本文提出了一种独特的身份识别方式，即使用Aadhar卡号或OTP生成，然后用户可以利用投票系统投票。提出了比特币的建议，比特币是一种虚拟货币系统，由中央机构决定生产货币、转移所有权和验证交易，包括点对点网络在区块链系统中，账本在多个相同的数据库中复制，由不同的进程托管和更新，如果对一个节点进行更改并发生交易，则所有其他节点会同时更新，价值和资产的记录将永久交换，只有用户和系统需要进行验证。",
+    "tldr": "本文研究了基于区块链的去中心化投票系统，提出了一种独特的身份识别方式，使得每个人都能追踪投票欺诈，系统非常安全。",
+    "en_tldr": "This paper studies the blockchain-based decentralized voting system and proposes a unique identification method that enables everyone to trace vote fraud, making the system incredibly safe."
+}

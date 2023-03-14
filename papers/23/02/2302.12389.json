@@ -1,0 +1,10 @@
+{
+    "title": "Explainable AI is Dead, Long Live Explainable AI! Hypothesis-driven decision support. (arXiv:2302.12389v3 [cs.AI] UPDATED)",
+    "abstract": "In this paper, we argue for a paradigm shift from the current model of explainable artificial intelligence (XAI), which may be counter-productive to better human decision making. In early decision support systems, we assumed that we could give people recommendations and that they would consider them, and then follow them when required. However, research found that people often ignore recommendations because they do not trust them; or perhaps even worse, people follow them blindly, even when the recommendations are wrong. Explainable artificial intelligence mitigates this by helping people to understand how and why models give certain recommendations. However, recent research shows that people do not always engage with explainability tools enough to help improve decision making. The assumption that people will engage with recommendations and explanations has proven to be unfounded. We argue this is because we have failed to account for two things. First, recommendations (and their expla",
+    "link": "http://arxiv.org/abs/2302.12389",
+    "total_tokens": 878,
+    "translated_title": "可解释性人工智能已死，可解释性人工智能万岁！基于假设的决策支持",
+    "translated_abstract": "本文主张从当前的可解释性人工智能（XAI）模式转变，因为它可能会妨碍更好的人类决策。我们认为，人们不总是会接受和遵循建议，因为他们不信任它们，或者更糟糕的是，即使建议是错误的，人们也会盲目地遵循它们。可解释性人工智能通过帮助人们理解模型为什么会给出某些建议来缓解这种情况。然而，最近的研究表明，人们并不总是足够参与解释工具以帮助改善决策。我们认为，这是因为我们没有考虑到两件事情。首先，建议（及其解释）可能与人们的假设和信仰相冲突。其次，人们的决策往往是基于假设的，而不是基于事实的。因此，我们主张采用基于假设的决策支持系统，以更好地支持人类决策。",
+    "tldr": "本文主张从当前的可解释性人工智能（XAI）模式转变，采用基于假设的决策支持系统，以更好地支持人类决策。",
+    "en_tldr": "This paper argues for a paradigm shift from the current model of explainable artificial intelligence (XAI) to hypothesis-driven decision support systems to better support human decision making."
+}

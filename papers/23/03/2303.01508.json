@@ -1,0 +1,10 @@
+{
+    "title": "Fine-grained Emotional Control of Text-To-Speech: Learning To Rank Inter- And Intra-Class Emotion Intensities. (arXiv:2303.01508v2 [cs.SD] UPDATED)",
+    "abstract": "State-of-the-art Text-To-Speech (TTS) models are capable of producing high-quality speech. The generated speech, however, is usually neutral in emotional expression, whereas very often one would want fine-grained emotional control of words or phonemes. Although still challenging, the first TTS models have been recently proposed that are able to control voice by manually assigning emotion intensity. Unfortunately, due to the neglect of intra-class distance, the intensity differences are often unrecognizable. In this paper, we propose a fine-grained controllable emotional TTS, that considers both interand intra-class distances and be able to synthesize speech with recognizable intensity difference. Our subjective and objective experiments demonstrate that our model exceeds two state-of-the-art controllable TTS models for controllability, emotion expressiveness and naturalness.",
+    "link": "http://arxiv.org/abs/2303.01508",
+    "total_tokens": 831,
+    "translated_title": "文本转语音的细粒度情感控制：学习排名内部和外部类情感强度",
+    "translated_abstract": "最先进的文本转语音（TTS）模型能够产生高质量的语音。然而，生成的语音通常在情感表达上是中性的，而很多时候人们希望对单词或音素进行细粒度的情感控制。虽然仍然具有挑战性，但最近已经提出了第一批TTS模型，能够通过手动分配情感强度来控制语音。不幸的是，由于忽略了内部类距离，强度差异经常无法识别。在本文中，我们提出了一种细粒度可控情感TTS，考虑了内部和外部类距离，并能够合成具有可识别强度差异的语音。我们的主观和客观实验表明，我们的模型在可控性、情感表达和自然度方面超过了两个最先进的可控TTS模型。",
+    "tldr": "本文提出了一种细粒度可控情感TTS，考虑了内部和外部类距离，并能够合成具有可识别强度差异的语音。",
+    "en_tldr": "This paper proposes a fine-grained controllable emotional TTS, that considers both interand intra-class distances and be able to synthesize speech with recognizable intensity difference."
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Label Propagation with Weak Supervision. (arXiv:2210.03594v2 [cs.LG] UPDATED)",
+    "abstract": "Semi-supervised learning and weakly supervised learning are important paradigms that aim to reduce the growing demand for labeled data in current machine learning applications. In this paper, we introduce a novel analysis of the classical label propagation algorithm (LPA) (Zhu & Ghahramani, 2002) that moreover takes advantage of useful prior information, specifically probabilistic hypothesized labels on the unlabeled data. We provide an error bound that exploits both the local geometric properties of the underlying graph and the quality of the prior information. We also propose a framework to incorporate multiple sources of noisy information. In particular, we consider the setting of weak supervision, where our sources of information are weak labelers. We demonstrate the ability of our approach on multiple benchmark weakly supervised classification tasks, showing improvements upon existing semi-supervised and weakly supervised methods.",
+    "link": "http://arxiv.org/abs/2210.03594",
+    "total_tokens": 892,
+    "translated_title": "弱监督下的标签传播算法",
+    "translated_abstract": "半监督学习和弱监督学习是当前机器学习应用中旨在减少标记数据需求的重要范式。本文介绍了一种新的对经典标签传播算法（LPA）（Zhu＆Ghahramani，2002）的分析，该算法利用了有用的先验信息，特别是未标记数据上的概率假设标签。我们提供了一个误差界，利用了底层图形的局部几何特性和先验信息的质量。我们还提出了一个框架，用于合并多个噪声信息源。特别是，我们考虑了弱监督的设置，其中我们的信息来源是弱标记者。我们在多个基准弱监督分类任务上展示了我们方法的能力，显示出对现有半监督和弱监督方法的改进。",
+    "tldr": "本文提出了一种利用弱监督信息的标签传播算法，通过利用未标记数据上的概率假设标签，结合局部几何特性和先验信息的质量，提供了一个误差界，并提出了一个框架，用于合并多个噪声信息源。在多个基准弱监督分类任务上展示了方法的能力，显示出对现有半监督和弱监督方法的改进。",
+    "en_tldr": "This paper proposes a label propagation algorithm that utilizes weak supervision information, specifically probabilistic hypothesized labels on the unlabeled data, and provides an error bound that exploits both the local geometric properties of the underlying graph and the quality of the prior information. The approach is demonstrated on multiple benchmark weakly supervised classification tasks, showing improvements upon existing semi-supervised and weakly supervised methods."
+}

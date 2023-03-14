@@ -1,0 +1,10 @@
+{
+    "title": "Causal inference with misspecified exposure mappings: separating definitions and assumptions. (arXiv:2103.06471v2 [math.ST] UPDATED)",
+    "abstract": "Exposure mappings facilitate investigations of complex causal effects when units interact in experiments. Current methods require experimenters to use the same exposure mappings both to define the effect of interest and to impose assumptions on the interference structure. However, the two roles rarely coincide in practice, and experimenters are forced to make the often questionable assumption that their exposures are correctly specified. This paper argues that the two roles exposure mappings currently serve can, and typically should, be separated, so that exposures are used to define effects without necessarily assuming that they are capturing the complete causal structure in the experiment. The paper shows that this approach is practically viable by providing conditions under which exposure effects can be precisely estimated when the exposures are misspecified. Some important questions remain open.",
+    "link": "http://arxiv.org/abs/2103.06471",
+    "total_tokens": 808,
+    "translated_title": "误差曝光映射下的因果推断：区分定义和假设",
+    "translated_abstract": "当实验单位相互作用时，曝光映射有助于研究复杂的因果效应。目前的方法要求实验者在定义感兴趣的效应和对干扰结构施加假设时使用相同的曝光映射。然而，在实践中，这两个角色很少重合，实验者被迫做出常常是可疑的假设，即他们的曝光映射是正确的。本文认为，曝光映射目前所起的两个作用可以，而且通常应该分开，这样曝光就可以用来定义效应，而不必假设它们捕捉了实验中的完整因果结构。本文通过提供曝光效应可以在曝光被错误指定时精确估计的条件，证明了这种方法在实践中是可行的。一些重要的问题仍然没有解决。",
+    "tldr": "本文提出了一种新的方法，将曝光映射的两个作用分开，从而在曝光被错误指定时精确估计曝光效应，避免了常常是可疑的假设。",
+    "en_tldr": "This paper proposes a new method to separate the two roles of exposure mappings, which allows for precise estimation of exposure effects even when the exposures are misspecified, avoiding often questionable assumptions."
+}

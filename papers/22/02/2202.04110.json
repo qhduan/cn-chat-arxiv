@@ -1,0 +1,10 @@
+{
+    "title": "PGMax: Factor Graphs for Discrete Probabilistic Graphical Models and Loopy Belief Propagation in JAX. (arXiv:2202.04110v3 [cs.LG] UPDATED)",
+    "abstract": "PGMax is an open-source Python package for (a) easily specifying discrete Probabilistic Graphical Models (PGMs) as factor graphs; and (b) automatically running efficient and scalable loopy belief propagation (LBP) in JAX. PGMax supports general factor graphs with tractable factors, and leverages modern accelerators like GPUs for inference. Compared with existing alternatives, PGMax obtains higher-quality inference results with up to three orders-of-magnitude inference time speedups. PGMax additionally interacts seamlessly with the rapidly growing JAX ecosystem, opening up new research possibilities. Our source code, examples and documentation are available at https://github.com/deepmind/PGMax.",
+    "link": "http://arxiv.org/abs/2202.04110",
+    "total_tokens": 776,
+    "translated_title": "PGMax: 用于离散概率图模型和JAX中的循环置信传播的因子图",
+    "translated_abstract": "PGMax是一个开源的Python包，用于轻松指定离散概率图模型（PGMs）作为因子图，并在JAX中自动运行高效且可扩展的循环置信传播（LBP）。PGMax支持具有可处理因子的一般因子图，并利用现代加速器（如GPU）进行推理。与现有替代方案相比，PGMax获得了更高质量的推理结果，推理时间加速高达三个数量级。PGMax还与快速增长的JAX生态系统无缝交互，开启了新的研究可能性。我们的源代码、示例和文档可在https://github.com/deepmind/PGMax上获得。",
+    "tldr": "PGMax是一个用于离散概率图模型的因子图工具，可以在JAX中自动运行高效且可扩展的循环置信传播，与现有替代方案相比，PGMax获得了更高质量的推理结果，推理时间加速高达三个数量级。",
+    "en_tldr": "PGMax is a factor graph tool for discrete probabilistic graphical models that automatically runs efficient and scalable loopy belief propagation in JAX. Compared with existing alternatives, PGMax obtains higher-quality inference results with up to three orders-of-magnitude inference time speedups."
+}

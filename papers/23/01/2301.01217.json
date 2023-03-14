@@ -1,0 +1,10 @@
+{
+    "title": "Unlearnable Clusters: Towards Label-agnostic Unlearnable Examples. (arXiv:2301.01217v3 [cs.CR] UPDATED)",
+    "abstract": "There is a growing interest in developing unlearnable examples (UEs) against visual privacy leaks on the Internet. UEs are training samples added with invisible but unlearnable noise, which have been found can prevent unauthorized training of machine learning models. UEs typically are generated via a bilevel optimization framework with a surrogate model to remove (minimize) errors from the original samples, and then applied to protect the data against unknown target models. However, existing UE generation methods all rely on an ideal assumption called label-consistency, where the hackers and protectors are assumed to hold the same label for a given sample. In this work, we propose and promote a more practical label-agnostic setting, where the hackers may exploit the protected data quite differently from the protectors. E.g., a m-class unlearnable dataset held by the protector may be exploited by the hacker as a n-class dataset. Existing UE generation methods are rendered ineffective in",
+    "link": "http://arxiv.org/abs/2301.01217",
+    "total_tokens": 875,
+    "translated_title": "不可学习的聚类：面向标签不可知的不可学习样本",
+    "translated_abstract": "在互联网上，越来越多的人对开发不可学习的示例（UEs）来防止视觉隐私泄露感兴趣。UEs是添加了不可见但不可学习噪声的训练样本，已经发现可以防止未经授权的机器学习模型训练。UEs通常是通过一个双层优化框架和一个替代模型生成的，以从原始样本中去除（最小化）错误，然后应用于保护数据免受未知目标模型的攻击。然而，现有的UE生成方法都依赖于一个理想的假设，称为标签一致性，即假定黑客和保护者对于给定的样本持有相同的标签。在这项工作中，我们提出并推广了一个更实用的标签不可知设置，其中黑客可能会以与保护者完全不同的方式利用受保护的数据。例如，由保护者持有的m类不可学习数据集可能被黑客作为n类数据集利用。现有的UE生成方法在这种情况下失效。",
+    "tldr": "本文提出了一种更实用的标签不可知设置，以生成不可学习的样本，防止未经授权的机器学习模型训练。",
+    "en_tldr": "This paper proposes a more practical label-agnostic setting to generate unlearnable examples, which can prevent unauthorized training of machine learning models."
+}

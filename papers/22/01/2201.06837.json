@@ -1,0 +1,10 @@
+{
+    "title": "Landslide Susceptibility Modeling by Interpretable Neural Network. (arXiv:2201.06837v3 [cs.LG] UPDATED)",
+    "abstract": "Landslides are notoriously difficult to predict because numerous spatially and temporally varying factors contribute to slope stability. Artificial neural networks (ANN) have been shown to improve prediction accuracy but are largely uninterpretable. Here we introduce an additive ANN optimization framework to assess landslide susceptibility, as well as dataset division and outcome interpretation techniques. We refer to our approach, which features full interpretability, high accuracy, high generalizability and low model complexity, as superposable neural network (SNN) optimization. We validate our approach by training models on landslide inventory from three different easternmost Himalaya regions. Our SNN outperformed physically-based and statistical models and achieved similar performance to state-of-the-art deep neural networks. The SNN models found the product of slope and precipitation and hillslope aspect to be important primary contributors to high landslide susceptibility, which ",
+    "link": "http://arxiv.org/abs/2201.06837",
+    "total_tokens": 863,
+    "translated_title": "可解释神经网络在滑坡易发性建模中的应用",
+    "translated_abstract": "滑坡由于许多时空变化因素影响而难以预测。人工神经网络（ANN）已被证明可以提高预测准确性，但缺乏可解释性。本文介绍了一种可加性ANN优化框架，用于评估滑坡易发性，以及数据集划分和结果解释技术。我们将这种具有完全可解释性、高准确性、高泛化性和低模型复杂度的方法称为可叠加神经网络（SNN）优化。我们通过对来自三个不同东喜马拉雅地区的滑坡清单进行模型训练来验证我们的方法。我们的SNN优于基于物理和统计模型，并实现了类似于最先进的深度神经网络的性能。SNN模型发现坡度和降水的乘积以及坡向是高滑坡易发性的重要主要贡献因素。",
+    "tldr": "本文介绍了一种可解释神经网络（SNN）优化框架，用于评估滑坡易发性。SNN模型发现坡度和降水的乘积以及坡向是高滑坡易发性的重要主要贡献因素。",
+    "en_tldr": "This paper introduces an interpretable neural network framework, called superposable neural network (SNN) optimization, for assessing landslide susceptibility. The SNN models found the product of slope and precipitation and hillslope aspect to be important primary contributors to high landslide susceptibility."
+}

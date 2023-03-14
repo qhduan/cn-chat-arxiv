@@ -1,0 +1,10 @@
+{
+    "title": "Graph Neural Network contextual embedding for Deep Learning on Tabular Data. (arXiv:2303.06455v1 [cs.LG])",
+    "abstract": "All industries are trying to leverage Artificial Intelligence (AI) based on their existing big data which is available in so called tabular form, where each record is composed of a number of heterogeneous continuous and categorical columns also known as features. Deep Learning (DL) has consituted a major breathrough for AI in fields related to human skills like natural language processing, but its applicability to tabular data has been more challenging. More classical Machine Learning (ML) models like tree-based ensemble ones usually perform better. In this manuscript a novel DL model that uses Graph Neural Network (GNN), more specifically Interaction Network (IN), for contextual embedding is introduced. Its results outperform those of the recently published survey with DL benchmark based on five public datasets, achieving also competitive results when compared to boosted-tree solutions.",
+    "link": "http://arxiv.org/abs/2303.06455",
+    "total_tokens": 866,
+    "translated_title": "基于图神经网络的上下文嵌入在表格数据深度学习中的应用",
+    "translated_abstract": "所有行业都试图利用现有的大数据进行基于人工智能的应用，这些数据通常以所谓的表格形式存在，其中每个记录由许多异构的连续和分类列组成，也称为特征。深度学习在自然语言处理等与人类技能相关的领域中已经取得了重大突破，但其在表格数据上的应用更具挑战性。更经典的机器学习模型，如基于树的集成模型通常表现更好。本文介绍了一种新颖的深度学习模型，它使用图神经网络（GNN），更具体地说是交互网络（IN），进行上下文嵌入。其结果优于最近发布的基于五个公共数据集的深度学习基准调查，与提升树解决方案相比也取得了竞争性的结果。",
+    "tldr": "本文介绍了一种基于图神经网络的深度学习模型，使用交互网络进行上下文嵌入，用于表格数据的处理。该模型在公共数据集上的表现优于最近的深度学习基准调查，并且与提升树解决方案相比也取得了竞争性的结果。",
+    "en_tldr": "This paper introduces a novel deep learning model based on Graph Neural Network (GNN) with Interaction Network (IN) for contextual embedding, which outperforms the recent DL benchmark on five public datasets and achieves competitive results compared to boosted-tree solutions in tabular data processing."
+}

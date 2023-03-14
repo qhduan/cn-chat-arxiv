@@ -1,0 +1,10 @@
+{
+    "title": "D-Shape: Demonstration-Shaped Reinforcement Learning via Goal Conditioning. (arXiv:2210.14428v2 [cs.LG] UPDATED)",
+    "abstract": "While combining imitation learning (IL) and reinforcement learning (RL) is a promising way to address poor sample efficiency in autonomous behavior acquisition, methods that do so typically assume that the requisite behavior demonstrations are provided by an expert that behaves optimally with respect to a task reward. If, however, suboptimal demonstrations are provided, a fundamental challenge appears in that the demonstration-matching objective of IL conflicts with the return-maximization objective of RL. This paper introduces D-Shape, a new method for combining IL and RL that uses ideas from reward shaping and goal-conditioned RL to resolve the above conflict. D-Shape allows learning from suboptimal demonstrations while retaining the ability to find the optimal policy with respect to the task reward. We experimentally validate D-Shape in sparse-reward gridworld domains, showing that it both improves over RL in terms of sample efficiency and converges consistently to the optimal polic",
+    "link": "http://arxiv.org/abs/2210.14428",
+    "total_tokens": 940,
+    "translated_title": "D-Shape: 通过目标条件化实现演示形状的强化学习",
+    "translated_abstract": "将模仿学习（IL）和强化学习（RL）相结合是解决自主行为获取中样本效率低下的一种有前途的方法，但这样做的方法通常假定所需的行为演示由专家提供，该专家相对于任务奖励表现最佳。然而，如果提供的演示是次优的，则面临一个基本挑战，即IL的演示匹配目标与RL的回报最大化目标冲突。本文介绍了D-Shape，一种新的结合IL和RL的方法，它使用奖励塑形和目标条件化RL的思想来解决上述冲突。D-Shape允许从次优演示中学习，同时保留了找到相对于任务奖励的最优策略的能力。我们在稀疏奖励网格世界领域实验验证了D-Shape，结果表明它在样本效率方面优于RL，并且能够一致地收敛到最优策略。",
+    "tldr": "D-Shape是一种新的结合IL和RL的方法，它使用奖励塑形和目标条件化RL的思想来解决次优演示与回报最大化目标之间的冲突，能够在稀疏奖励网格世界领域中提高样本效率并一致地收敛到最优策略。",
+    "en_tldr": "D-Shape is a new method that combines imitation learning (IL) and reinforcement learning (RL) using reward shaping and goal-conditioned RL to resolve the conflict between suboptimal demonstrations and return-maximization objective of RL. It improves sample efficiency and consistently converges to the optimal policy in sparse-reward gridworld domains."
+}

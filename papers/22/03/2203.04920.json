@@ -1,0 +1,10 @@
+{
+    "title": "Effects of Epileptiform Activity on Discharge Outcome in Critically Ill Patients. (arXiv:2203.04920v3 [stat.ME] UPDATED)",
+    "abstract": "Epileptiform activity (EA) is associated with worse outcomes including increased risk of disability and death. However, the effect of EA on the neurologic outcome is confounded by the feedback between treatment with anti-seizure medications (ASM) and EA burden. A randomized clinical trial is challenging due to the sequential nature of EA-ASM feedback, as well as ethical reasons. However, some mechanistic knowledge is available, e.g., how drugs are absorbed. This knowledge together with observational data could provide a more accurate effect estimate using causal inference. We performed a retrospective cross-sectional study with 995 patients with the modified Rankin Scale (mRS) at discharge as the outcome and the EA burden defined as the mean or maximum proportion of time spent with EA in six-hour windows in the first 24 hours of electroencephalography as the exposure. We estimated the change in discharge mRS if everyone in the dataset had experienced a certain EA burden and were untrea",
+    "link": "http://arxiv.org/abs/2203.04920",
+    "total_tokens": 955,
+    "translated_title": "癫痫样活动对危重病患者出院结局的影响",
+    "translated_abstract": "癫痫样活动（EA）与更差的结局相关，包括增加残疾和死亡的风险。然而，EA对神经系统结局的影响受到抗癫痫药物（ASM）治疗和EA负荷之间的反馈的干扰。由于EA-ASM反馈的顺序性以及伦理原因，随机临床试验具有挑战性。然而，一些机制知识是可用的，例如药物的吸收方式。这些知识与观察数据结合起来，可以使用因果推断提供更准确的效应估计。我们进行了一项回顾性横断面研究，共有995名患者，以出院时的修正Rankin量表（mRS）为结果，以在第一次脑电图的前24小时内每个六小时窗口中EA负荷的平均或最大比例为暴露。我们估计了如果数据集中的每个人都经历了某种EA负荷并且未接受治疗，出院mRS的变化。",
+    "tldr": "本研究旨在探讨癫痫样活动对危重病患者出院结局的影响，通过回顾性横断面研究发现，如果每个人都经历了某种EA负荷并且未接受治疗，出院mRS会发生变化。",
+    "en_tldr": "This study aims to explore the effects of epileptiform activity on discharge outcomes in critically ill patients. Through a retrospective cross-sectional study, it was found that the discharge mRS would change if everyone had experienced a certain EA burden and were untreated."
+}

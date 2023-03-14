@@ -1,0 +1,10 @@
+{
+    "title": "Robust Distortion Risk Measures. (arXiv:2205.08850v3 [q-fin.RM] UPDATED)",
+    "abstract": "The robustness of risk measures to changes in underlying loss distributions (distributional uncertainty) is of crucial importance in making well-informed decisions. In this paper, we quantify, for the class of distortion risk measures with an absolutely continuous distortion function, its robustness to distributional uncertainty by deriving its largest (smallest) value when the underlying loss distribution has a known mean and variance and, furthermore, lies within a ball - specified through the Wasserstein distance - around a reference distribution. We employ the technique of isotonic projections to provide for these distortion risk measures a complete characterisation of sharp bounds on their value, and we obtain quasi-explicit bounds in the case of Value-at-Risk and Range-Value-at-Risk. We extend our results to account for uncertainty in the first two moments and provide applications to portfolio optimisation and to model risk assessment.",
+    "link": "http://arxiv.org/abs/2205.08850",
+    "total_tokens": 949,
+    "translated_title": "鲁棒失真风险度量",
+    "translated_abstract": "风险度量对基础损失分布（分布不确定性）的变化的鲁棒性在做出明智决策方面至关重要。本文针对具有绝对连续失真函数的失真风险度量类，通过推导其在已知均值和方差的基础损失分布在以Wasserstein距离指定的球内（参考分布）时的最大（最小）值，量化其对分布不确定性的鲁棒性。我们采用等调投影技术，为这些失真风险度量提供了关于其值的尖锐界限的完整刻画，并在风险价值和范围风险价值的情况下获得了准显式界限。我们将结果扩展到考虑前两个矩的不确定性，并应用于组合优化和模型风险评估。",
+    "tldr": "本文研究了具有绝对连续失真函数的失真风险度量类对分布不确定性的鲁棒性，通过推导其在已知均值和方差的基础损失分布在以Wasserstein距离指定的球内（参考分布）时的最大（最小）值，提供了关于其值的尖锐界限的完整刻画，并在风险价值和范围风险价值的情况下获得了准显式界限。结果可应用于组合优化和模型风险评估。",
+    "en_tldr": "This paper studies the robustness of distortion risk measures with an absolutely continuous distortion function to distributional uncertainty, by deriving its largest (smallest) value when the underlying loss distribution has a known mean and variance and lies within a ball specified through the Wasserstein distance around a reference distribution. The results provide sharp bounds on their value and can be applied to portfolio optimization and model risk assessment."
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Optimizing Federated Learning for Medical Image Classification on Distributed Non-iid Datasets with Partial Labels. (arXiv:2303.06180v1 [cs.LG])",
+    "abstract": "Numerous large-scale chest x-ray datasets have spearheaded expert-level detection of abnormalities using deep learning. However, these datasets focus on detecting a subset of disease labels that could be present, thus making them distributed and non-iid with partial labels. Recent literature has indicated the impact of batch normalization layers on the convergence of federated learning due to domain shift associated with non-iid data with partial labels. To that end, we propose FedFBN, a federated learning framework that draws inspiration from transfer learning by using pretrained networks as the model backend and freezing the batch normalization layers throughout the training process. We evaluate FedFBN with current FL strategies using synthetic iid toy datasets and large-scale non-iid datasets across scenarios with partial and complete labels. Our results demonstrate that FedFBN outperforms current aggregation strategies for training global models using distributed and non-iid data w",
+    "link": "http://arxiv.org/abs/2303.06180",
+    "total_tokens": 910,
+    "translated_title": "针对分布式非独立同分布数据和部分标签的医学图像分类，优化联邦学习",
+    "translated_abstract": "大量的胸部X光数据集已经带头使用深度学习进行异常检测。然而，这些数据集专注于检测可能存在的一部分疾病标签，因此使它们成为分布式和非独立同分布的部分标签数据集。最近的文献指出，批量归一化层对于联邦学习的收敛具有影响，因为它们与具有部分标签的非独立同分布数据相关的域漂移。为此，我们提出了FedFBN，这是一个联邦学习框架，它从迁移学习中汲取灵感，使用预训练的网络作为模型后端，并在整个训练过程中冻结批量归一化层。我们使用合成iid玩具数据集和大规模非iid数据集评估FedFBN与当前FL策略。我们的结果表明，FedFBN优于使用分布式和非独立同分布数据训练全局模型的当前聚合策略。",
+    "tldr": "本文提出了FedFBN，一个联邦学习框架，使用预训练的网络作为模型后端，并在整个训练过程中冻结批量归一化层，以优化分布式非独立同分布数据和部分标签的医学图像分类。",
+    "en_tldr": "This paper proposes FedFBN, a federated learning framework that uses pretrained networks as the model backend and freezes the batch normalization layers throughout the training process to optimize medical image classification on distributed non-iid datasets with partial labels."
+}

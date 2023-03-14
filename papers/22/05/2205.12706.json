@@ -1,0 +1,10 @@
+{
+    "title": "Maximum Mean Discrepancy on Exponential Windows for Online Change Detection. (arXiv:2205.12706v2 [cs.LG] UPDATED)",
+    "abstract": "Detecting changes is of fundamental importance when analyzing data streams and has many applications, e.g., predictive maintenance, fraud detection, or medicine. A principled approach to detect changes is to compare the distributions of observations within the stream to each other via hypothesis testing. Maximum mean discrepancy (MMD; also called energy distance) is a well-known (semi-)metric on the space of probability distributions. MMD gives rise to powerful non-parametric two-sample tests on kernel-enriched domains under mild conditions, which makes its deployment for change detection desirable. However, the classic MMD estimators suffer quadratic complexity, which prohibits their application in the online change detection setting. We propose a general-purpose change detection algorithm, Maximum Mean Discrepancy on Exponential Windows (MMDEW), which leverages the MMD two-sample test, facilitates its efficient online computation on any kernel-enriched domain, and is able to detect a",
+    "link": "http://arxiv.org/abs/2205.12706",
+    "total_tokens": 850,
+    "translated_title": "基于指数窗口的最大均值差异在线变化检测",
+    "translated_abstract": "在分析数据流时，检测变化是非常重要的，具有许多应用，例如预测性维护、欺诈检测或医学。一种检测变化的原则方法是通过假设检验将流中观测值的分布相互比较。最大均值差异（MMD；也称为能量距离）是概率分布空间上众所周知的（半）度量。在温和条件下，MMD在核富集域上产生了强大的非参数两样本检验，这使得它在变化检测中的应用变得可取。然而，经典的MMD估计器具有二次复杂度，这禁止了它们在在线变化检测设置中的应用。我们提出了一种通用的变化检测算法，基于指数窗口的最大均值差异（MMDEW），它利用MMD两样本检验，在任何核富集域上促进其有效的在线计算，并能够检测到变化。",
+    "tldr": "本文提出了一种基于指数窗口的最大均值差异在线变化检测算法，能够有效地检测数据流中的变化。",
+    "en_tldr": "This paper proposes a Maximum Mean Discrepancy on Exponential Windows (MMDEW) algorithm for online change detection, which efficiently detects changes in data streams."
+}

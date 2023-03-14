@@ -1,0 +1,10 @@
+{
+    "title": "Learning Topology-Specific Experts for Molecular Property Prediction. (arXiv:2302.13693v3 [cs.LG] UPDATED)",
+    "abstract": "Recently, graph neural networks (GNNs) have been successfully applied to predicting molecular properties, which is one of the most classical cheminformatics tasks with various applications. Despite their effectiveness, we empirically observe that training a single GNN model for diverse molecules with distinct structural patterns limits its prediction performance. In this paper, motivated by this observation, we propose TopExpert to leverage topology-specific prediction models (referred to as experts), each of which is responsible for each molecular group sharing similar topological semantics. That is, each expert learns topology-specific discriminative features while being trained with its corresponding topological group. To tackle the key challenge of grouping molecules by their topological patterns, we introduce a clustering-based gating module that assigns an input molecule into one of the clusters and further optimizes the gating module with two different types of self-supervision:",
+    "link": "http://arxiv.org/abs/2302.13693",
+    "total_tokens": 831,
+    "translated_title": "学习分子属性预测的拓扑专家",
+    "translated_abstract": "最近，图神经网络（GNN）已成功应用于预测分子属性，这是一种具有各种应用的最经典的化学信息学任务。尽管它们很有效，但我们经验性地观察到，为具有不同结构模式的多种分子训练单个GNN模型会限制其预测性能。因此，我们提出了TopExpert，利用拓扑特定的预测模型（称为专家），每个专家负责每个共享类似拓扑语义的分子组。也就是说，每个专家在与其相应的拓扑组一起训练时学习特定于拓扑的判别特征。为了解决按其拓扑模式对分子进行分组的关键挑战，我们引入了基于聚类的门控模块，将输入分子分配到其中一个聚类中，并使用两种不同类型的自监督进一步优化门控模块。",
+    "tldr": "本文提出了TopExpert，利用拓扑特定的预测模型（称为专家），每个专家负责每个共享类似拓扑语义的分子组，以提高分子属性预测的性能。",
+    "en_tldr": "This paper proposes TopExpert, which leverages topology-specific prediction models (referred to as experts) to improve the performance of molecular property prediction by assigning each expert to a molecular group sharing similar topological semantics."
+}

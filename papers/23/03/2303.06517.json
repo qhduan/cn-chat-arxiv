@@ -1,0 +1,10 @@
+{
+    "title": "Deep probabilistic model for lossless scalable point cloud attribute compression. (arXiv:2303.06517v1 [eess.IV])",
+    "abstract": "In recent years, several point cloud geometry compression methods that utilize advanced deep learning techniques have been proposed, but there are limited works on attribute compression, especially lossless compression. In this work, we build an end-to-end multiscale point cloud attribute coding method (MNeT) that progressively projects the attributes onto multiscale latent spaces. The multiscale architecture provides an accurate context for the attribute probability modeling and thus minimizes the coding bitrate with a single network prediction. Besides, our method allows scalable coding that lower quality versions can be easily extracted from the losslessly compressed bitstream. We validate our method on a set of point clouds from MVUB and MPEG and show that our method outperforms recently proposed methods and on par with the latest G-PCC version 14. Besides, our coding time is substantially faster than G-PCC.",
+    "link": "http://arxiv.org/abs/2303.06517",
+    "total_tokens": 939,
+    "translated_title": "深度概率模型用于无损可扩展点云属性压缩",
+    "translated_abstract": "近年来，已经提出了几种利用先进的深度学习技术的点云几何压缩方法，但是关于属性压缩，特别是无损压缩的工作还很有限。在这项工作中，我们构建了一种端到端的多尺度点云属性编码方法（MNeT），该方法逐步将属性投影到多尺度潜在空间上。多尺度架构为属性概率建模提供了准确的上下文，从而通过单个网络预测最小化编码比特率。此外，我们的方法允许可扩展编码，可以从无损压缩的比特流中轻松提取较低质量的版本。我们在来自MVUB和MPEG的一组点云上验证了我们的方法，并表明我们的方法优于最近提出的方法，并与最新的G-PCC版本14相当。此外，我们的编码时间比G-PCC快得多。",
+    "tldr": "本文提出了一种利用深度概率模型进行无损可扩展点云属性压缩的方法，通过多尺度架构提供准确的上下文，从而最小化编码比特率，同时允许从无损压缩的比特流中轻松提取较低质量的版本。该方法在实验中表现优于最近提出的方法，并与最新的G-PCC版本14相当，且编码时间更快。",
+    "en_tldr": "This paper proposes a deep probabilistic model for lossless scalable point cloud attribute compression, which utilizes a multiscale architecture to provide accurate context for attribute probability modeling and allows for easily extracting lower quality versions from the losslessly compressed bitstream. The method outperforms recently proposed methods and is on par with the latest G-PCC version 14, with substantially faster coding time."
+}

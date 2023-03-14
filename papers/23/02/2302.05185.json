@@ -1,0 +1,10 @@
+{
+    "title": "On Penalty-based Bilevel Gradient Descent Method. (arXiv:2302.05185v2 [cs.LG] UPDATED)",
+    "abstract": "Bilevel optimization enjoys a wide range of applications in hyper-parameter optimization, meta-learning and reinforcement learning. However, bilevel optimization problems are difficult to solve. Recent progress on scalable bilevel algorithms mainly focuses on bilevel optimization problems where the lower-level objective is either strongly convex or unconstrained. In this work, we tackle the bilevel problem through the lens of the penalty method. We show that under certain conditions, the penalty reformulation recovers the solutions of the original bilevel problem. Further, we propose the penalty-based bilevel gradient descent (PBGD) algorithm and establish its finite-time convergence for the constrained bilevel problem without lower-level strong convexity. Experiments showcase the efficiency of the proposed PBGD algorithm.",
+    "link": "http://arxiv.org/abs/2302.05185",
+    "total_tokens": 737,
+    "translated_title": "基于惩罚的双层梯度下降方法研究",
+    "translated_abstract": "双层优化在超参数优化、元学习和强化学习等领域有广泛应用，但是双层优化问题难以解决。最近的可扩展双层算法主要集中在下层目标函数是强凸或无约束的双层优化问题上。在本文中，我们通过惩罚方法来解决双层问题。我们证明，在一定条件下，惩罚重构可以恢复原始双层问题的解。此外，我们提出了基于惩罚的双层梯度下降（PBGD）算法，并证明了其在下层非强凸约束双层问题上的有限时间收敛性。实验展示了所提出的PBGD算法的效率。",
+    "tldr": "本文提出了基于惩罚的双层梯度下降算法，解决了下层非强凸约束双层问题，实验表明该算法有效。",
+    "en_tldr": "This paper proposes a penalty-based bilevel gradient descent algorithm to solve the constrained bilevel problem without lower-level strong convexity, and experiments show its efficiency."
+}

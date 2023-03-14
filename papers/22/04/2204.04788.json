@@ -1,0 +1,9 @@
+{
+    "title": "Representation Learning by Detecting Incorrect Location Embeddings. (arXiv:2204.04788v2 [cs.CV] UPDATED)",
+    "abstract": "In this paper, we introduce a novel self-supervised learning (SSL) loss for image representation learning. There is a growing belief that generalization in deep neural networks is linked to their ability to discriminate object shapes. Since object shape is related to the location of its parts, we propose to detect those that have been artificially misplaced. We represent object parts with image tokens and train a ViT to detect which token has been combined with an incorrect positional embedding. We then introduce sparsity in the inputs to make the model more robust to occlusions and to speed up the training. We call our method DILEMMA, which stands for Detection of Incorrect Location EMbeddings with MAsked inputs. We apply DILEMMA to MoCoV3, DINO and SimCLR and show an improvement in their performance of respectively 4.41%, 3.97%, and 0.5% under the same training time and with a linear probing transfer on ImageNet-1K. We also show full fine-tuning improvements of MAE combined with our ",
+    "link": "http://arxiv.org/abs/2204.04788",
+    "total_tokens": 904,
+    "translated_title": "通过检测错误的位置嵌入进行表示学习",
+    "translated_abstract": "本文提出了一种新的自监督学习（SSL）损失，用于图像表示学习。我们认为深度神经网络的泛化能力与其区分对象形状的能力有关。由于对象形状与其部件的位置有关，因此我们提出检测那些被人为移位的部件。我们用图像令牌表示对象部件，并训练ViT检测哪个令牌与错误的位置嵌入组合。然后，我们引入输入的稀疏性，使模型更加鲁棒，以应对遮挡并加速训练。我们称这种方法为DILEMMA，即检测错误位置嵌入和掩蔽输入。我们将DILEMMA应用于MoCoV3、DINO和SimCLR，并在相同的训练时间内，在ImageNet-1K上进行线性探测转移，分别显示它们的性能提高了4.41%、3.97%和0.5%。我们还展示了MAE与我们的完全微调改进的结果。",
+    "tldr": "本文提出了一种新的自监督学习（SSL）损失，用于图像表示学习。通过检测错误的位置嵌入，我们可以提高深度神经网络的泛化能力，使其更加鲁棒。我们称这种方法为DILEMMA，将其应用于MoCoV3、DINO和SimCLR，分别显示它们的性能提高了4.41%、3.97%和0.5%。"
+}

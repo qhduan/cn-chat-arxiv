@@ -1,0 +1,10 @@
+{
+    "title": "Improving SGD convergence by online linear regression of gradients in multiple statistically relevant directions. (arXiv:1901.11457v11 [cs.LG] UPDATED)",
+    "abstract": "Deep neural networks are usually trained with stochastic gradient descent (SGD), which minimizes objective function using very rough approximations of gradient, only averaging to the real gradient. Standard approaches like momentum or ADAM only consider a single direction, and do not try to model distance from extremum - neglecting valuable information from calculated sequence of gradients, often stagnating in some suboptimal plateau. Second order methods could exploit these missed opportunities, however, beside suffering from very large cost and numerical instabilities, many of them attract to suboptimal points like saddles due to negligence of signs of curvatures (as eigenvalues of Hessian).  Saddle-free Newton method is a rare example of addressing this issue changes saddle attraction into repulsion, and was shown to provide essential improvement for final value this way. However, it neglects noise while modelling second order behavior, focuses on Krylov subspace for numerical rea",
+    "link": "http://arxiv.org/abs/1901.11457",
+    "total_tokens": 941,
+    "translated_title": "在多个统计相关方向上进行梯度的在线线性回归以提高SGD的收敛性",
+    "translated_abstract": "深度神经网络通常使用随机梯度下降（SGD）进行训练，该方法仅使用梯度的非常粗略的近似值来最小化目标函数。标准方法（如动量或ADAM）仅考虑单个方向，并且不尝试模拟到极值的距离，忽略了从计算的梯度序列中获得的有价值信息，往往停滞在某些次优平台上。二阶方法可以利用这些错过的机会，但除了遭受非常大的成本和数值不稳定性外，其中许多方法由于忽略曲率的符号（作为Hessian的特征值）而吸引到像鞍点这样的次优点。无鞍牛顿法是解决这个问题的一个罕见例子，它将鞍点吸引力转变为排斥力，并被证明在这种方式下提供了最终值的重要改进。然而，它在模拟二阶行为时忽略了噪声，专注于Krylov子空间以进行数值计算。",
+    "tldr": "本文提出了一种在线线性回归的方法，通过在多个统计相关方向上进行梯度的回归来提高SGD的收敛性，解决了标准方法只考虑单个方向的问题，同时避免了二阶方法的成本和数值不稳定性。",
+    "en_tldr": "This paper proposes an online linear regression method that improves the convergence of SGD by regressing gradients in multiple statistically relevant directions, addressing the issue of standard methods only considering a single direction and avoiding the cost and numerical instability of second order methods."
+}

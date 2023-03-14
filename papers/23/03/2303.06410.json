@@ -1,0 +1,10 @@
+{
+    "title": "Brain Diffuser: An End-to-End Brain Image to Brain Network Pipeline. (arXiv:2303.06410v1 [cs.AI])",
+    "abstract": "Brain network analysis is essential for diagnosing and intervention for Alzheimer's disease (AD). However, previous research relied primarily on specific time-consuming and subjective toolkits. Only few tools can obtain the structural brain networks from brain diffusion tensor images (DTI). In this paper, we propose a diffusion based end-to-end brain network generative model Brain Diffuser that directly shapes the structural brain networks from DTI. Compared to existing toolkits, Brain Diffuser exploits more structural connectivity features and disease-related information by analyzing disparities in structural brain networks across subjects. For the case of Alzheimer's disease, the proposed model performs better than the results from existing toolkits on the Alzheimer's Disease Neuroimaging Initiative (ADNI) database.",
+    "link": "http://arxiv.org/abs/2303.06410",
+    "total_tokens": 838,
+    "translated_title": "Brain Diffuser：一种端到端的脑图像到脑网络管道",
+    "translated_abstract": "脑网络分析对于诊断和干预阿尔茨海默病（AD）至关重要。然而，以往的研究主要依赖于特定的耗时和主观的工具包。只有少数工具可以从脑扩散张量图像（DTI）中获取结构性脑网络。在本文中，我们提出了一种基于扩散的端到端脑网络生成模型Brain Diffuser，直接从DTI中形成结构性脑网络。与现有工具包相比，Brain Diffuser通过分析受试者之间结构性脑网络的差异，利用更多的结构连接特征和与疾病相关的信息。对于阿尔茨海默病的情况，所提出的模型在阿尔茨海默病神经影像学倡议（ADNI）数据库上的表现优于现有工具包的结果。",
+    "tldr": "本文提出了一种基于扩散的端到端脑网络生成模型Brain Diffuser，直接从DTI中形成结构性脑网络。对于阿尔茨海默病的情况，所提出的模型在ADNI数据库上的表现优于现有工具包的结果。",
+    "en_tldr": "This paper proposes a diffusion based end-to-end brain network generative model Brain Diffuser that directly shapes the structural brain networks from DTI. For the case of Alzheimer's disease, the proposed model performs better than the results from existing toolkits on the Alzheimer's Disease Neuroimaging Initiative (ADNI) database."
+}

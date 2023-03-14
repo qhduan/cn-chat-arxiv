@@ -1,0 +1,10 @@
+{
+    "title": "Localized Sparse Incomplete Multi-view Clustering. (arXiv:2208.02998v3 [cs.CV] UPDATED)",
+    "abstract": "Incomplete multi-view clustering, which aims to solve the clustering problem on the incomplete multi-view data with partial view missing, has received more and more attention in recent years. Although numerous methods have been developed, most of the methods either cannot flexibly handle the incomplete multi-view data with arbitrary missing views or do not consider the negative factor of information imbalance among views. Moreover, some methods do not fully explore the local structure of all incomplete views. To tackle these problems, this paper proposes a simple but effective method, named localized sparse incomplete multi-view clustering (LSIMVC). Different from the existing methods, LSIMVC intends to learn a sparse and structured consensus latent representation from the incomplete multi-view data by optimizing a sparse regularized and novel graph embedded multi-view matrix factorization model. Specifically, in such a novel model based on the matrix factorization, a l1 norm based spa",
+    "link": "http://arxiv.org/abs/2208.02998",
+    "total_tokens": 972,
+    "translated_title": "局部稀疏不完整多视图聚类",
+    "translated_abstract": "近年来，不完整多视图聚类在解决部分视图缺失的不完整多视图数据聚类问题方面受到越来越多的关注。虽然已经开发了许多方法，但大多数方法要么不能灵活处理具有任意缺失视图的不完整多视图数据，要么不考虑视图之间信息不平衡的负面因素。此外，一些方法没有充分探索所有不完整视图的局部结构。为了解决这些问题，本文提出了一种简单而有效的方法，称为局部稀疏不完整多视图聚类（LSIMVC）。与现有方法不同，LSIMVC旨在通过优化稀疏正则化和新颖的图嵌入多视图矩阵分解模型来从不完整的多视图数据中学习稀疏和结构化的共识潜在表示。具体而言，在基于矩阵分解的新颖模型中，基于l1范数的稀疏正则化被用于学习局部结构，以及新颖的图嵌入被用于处理视图之间的信息不平衡。",
+    "tldr": "本文提出了一种名为局部稀疏不完整多视图聚类（LSIMVC）的方法，通过优化稀疏正则化和新颖的图嵌入多视图矩阵分解模型，从不完整的多视图数据中学习稀疏和结构化的共识潜在表示，以解决不完整多视图聚类中的问题。",
+    "en_tldr": "This paper proposes a method named Localized Sparse Incomplete Multi-view Clustering (LSIMVC) to learn a sparse and structured consensus latent representation from incomplete multi-view data by optimizing a sparse regularized and novel graph embedded multi-view matrix factorization model, which aims to solve the clustering problem on incomplete multi-view data with partial view missing."
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Learning to Search in Task and Motion Planning with Streams. (arXiv:2111.13144v5 [cs.RO] UPDATED)",
+    "abstract": "Task and motion planning problems in robotics combine symbolic planning over discrete task variables with motion optimization over continuous state and action variables. Recent works such as PDDLStream have focused on optimistic planning with an incrementally growing set of objects until a feasible trajectory is found. However, this set is exhaustively expanded in a breadth-first manner, regardless of the logical and geometric structure of the problem at hand, which makes long-horizon reasoning with large numbers of objects prohibitively time-consuming. To address this issue, we propose a geometrically informed symbolic planner that expands the set of objects and facts in a best-first manner, prioritized by a Graph Neural Network that is learned from prior search computations. We evaluate our approach on a diverse set of problems and demonstrate an improved ability to plan in difficult scenarios. We also apply our algorithm on a 7DOF robotic arm in block-stacking manipulation tasks.",
+    "link": "http://arxiv.org/abs/2111.13144",
+    "total_tokens": 905,
+    "translated_title": "学习在任务和动作规划中使用流进行搜索",
+    "translated_abstract": "机器人中的任务和动作规划问题将离散任务变量上的符号规划与连续状态和动作变量上的运动优化相结合。最近的作品，如PDDLStream，专注于乐观规划，使用逐步增长的对象集，直到找到可行的轨迹。然而，这个集合是以广度优先的方式穷举扩展的，而不考虑手头问题的逻辑和几何结构，这使得具有大量对象的长期推理变得耗时。为了解决这个问题，我们提出了一个几何信息的符号规划器，以最佳优先方式扩展对象和事实集合，由先前的搜索计算学习的图神经网络优先级排序。我们在各种问题上评估了我们的方法，并展示了在困难情况下规划的能力得到了改善。我们还将我们的算法应用于7自由度机械臂在堆叠操纵任务中。",
+    "tldr": "本文提出了一种几何信息的符号规划器，使用图神经网络优先级排序，以最佳优先方式扩展对象和事实集合，从而改善了在任务和动作规划中的长期推理能力。在7自由度机械臂的堆叠操纵任务中得到了应用。",
+    "en_tldr": "This paper proposes a geometrically informed symbolic planner that expands the set of objects and facts in a best-first manner, prioritized by a Graph Neural Network that is learned from prior search computations, improving the long-term reasoning ability in task and motion planning. The algorithm is applied to a 7DOF robotic arm in block-stacking manipulation tasks."
+}

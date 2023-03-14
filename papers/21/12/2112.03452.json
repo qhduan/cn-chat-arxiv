@@ -1,0 +1,10 @@
+{
+    "title": "Location Leakage in Federated Signal Maps. (arXiv:2112.03452v2 [cs.LG] UPDATED)",
+    "abstract": "We consider the problem of predicting cellular network performance (signal maps) from measurements collected by several mobile devices. We formulate the problem within the online federated learning framework: (i) federated learning (FL) enables users to collaboratively train a model, while keeping their training data on their devices; (ii) measurements are collected as users move around over time and are used for local training in an online fashion. We consider an honest-but-curious server, who observes the updates from target users participating in FL and infers their location using a deep leakage from gradients (DLG) type of attack, originally developed to reconstruct training data of DNN image classifiers. We make the key observation that a DLG attack, applied to our setting, infers the average location of a batch of local data, and can thus be used to reconstruct the target users' trajectory at a coarse granularity. We build on this observation to protect location privacy, in our s",
+    "link": "http://arxiv.org/abs/2112.03452",
+    "total_tokens": 852,
+    "translated_title": "联邦信号地图中的位置泄露问题",
+    "translated_abstract": "本文考虑了从多个移动设备收集的测量数据中预测蜂窝网络性能（信号地图）的问题。我们在在线联邦学习框架内制定了问题：（i）联邦学习（FL）使用户能够协作训练模型，同时保留其训练数据在其设备上；（ii）测量数据是随着用户随时间移动而收集的，并以在线方式用于本地训练。我们考虑一个诚实但好奇的服务器，观察参与FL的目标用户的更新并使用梯度泄漏（DLG）类型的攻击推断他们的位置，该攻击最初是为重构DNN图像分类器的训练数据而开发的。我们做出了关键观察，即DLG攻击应用于我们的设置，可以推断出本地数据批次的平均位置，并因此可以用于在粗略粒度上重构目标用户的轨迹。我们基于这个观察来保护位置隐私，在我们的s中。",
+    "tldr": "本文研究了在联邦学习框架下，通过梯度泄漏攻击推断用户位置的问题，并提出了一种保护位置隐私的方法。",
+    "en_tldr": "This paper studies the problem of inferring user location through gradient leakage attacks in the federated learning framework, and proposes a method to protect location privacy."
+}

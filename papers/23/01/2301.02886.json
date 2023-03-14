@@ -1,0 +1,10 @@
+{
+    "title": "Perceptual-Neural-Physical Sound Matching. (arXiv:2301.02886v2 [cs.SD] UPDATED)",
+    "abstract": "Sound matching algorithms seek to approximate a target waveform by parametric audio synthesis. Deep neural networks have achieved promising results in matching sustained harmonic tones. However, the task is more challenging when targets are nonstationary and inharmonic, e.g., percussion. We attribute this problem to the inadequacy of loss function. On one hand, mean square error in the parametric domain, known as \"P-loss\", is simple and fast but fails to accommodate the differing perceptual significance of each parameter. On the other hand, mean square error in the spectrotemporal domain, known as \"spectral loss\", is perceptually motivated and serves in differentiable digital signal processing (DDSP). Yet, spectral loss is a poor predictor of pitch intervals and its gradient may be computationally expensive; hence a slow convergence. Against this conundrum, we present Perceptual-Neural-Physical loss (PNP). PNP is the optimal quadratic approximation of spectral loss while being as fast ",
+    "link": "http://arxiv.org/abs/2301.02886",
+    "total_tokens": 935,
+    "translated_title": "感知-神经-物理声音匹配",
+    "translated_abstract": "声音匹配算法旨在通过参数化音频合成来近似目标波形。深度神经网络在匹配持续谐波音调方面取得了有希望的结果。然而，当目标是非平稳和非谐波的时候，例如打击乐器，任务就更具挑战性。我们将这个问题归因于损失函数的不足。一方面，参数域中的均方误差，称为“P-loss”，简单快速，但未能适应每个参数的不同感知重要性。另一方面，频谱时间域中的均方误差，称为“频谱损失”，在感知上是有动机的，并在可微分数字信号处理（DDSP）中发挥作用。然而，频谱损失是音高间隔的不良预测因素，其梯度可能计算成本高，因此收敛速度较慢。在这个困境中，我们提出了感知-神经-物理损失（PNP）。PNP是频谱损失的最优二次近似，同时具有快速收敛的特点。",
+    "tldr": "本文提出了一种新的声音匹配算法，称为感知-神经-物理损失（PNP），它是频谱损失的最优二次近似，能够更好地适应不同参数的感知重要性，同时具有快速收敛的特点。",
+    "en_tldr": "This paper proposes a new sound matching algorithm called Perceptual-Neural-Physical loss (PNP), which is the optimal quadratic approximation of spectral loss and can better accommodate the differing perceptual significance of each parameter while having fast convergence."
+}

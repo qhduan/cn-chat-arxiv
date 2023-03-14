@@ -1,0 +1,10 @@
+{
+    "title": "Compressive Sensing with Tensorized Autoencoder. (arXiv:2303.06235v1 [cs.CV])",
+    "abstract": "Deep networks can be trained to map images into a low-dimensional latent space. In many cases, different images in a collection are articulated versions of one another; for example, same object with different lighting, background, or pose. Furthermore, in many cases, parts of images can be corrupted by noise or missing entries. In this paper, our goal is to recover images without access to the ground-truth (clean) images using the articulations as structural prior of the data. Such recovery problems fall under the domain of compressive sensing. We propose to learn autoencoder with tensor ring factorization on the the embedding space to impose structural constraints on the data. In particular, we use a tensor ring structure in the bottleneck layer of the autoencoder that utilizes the soft labels of the structured dataset. We empirically demonstrate the effectiveness of the proposed approach for inpainting and denoising applications. The resulting method achieves better reconstruction qu",
+    "link": "http://arxiv.org/abs/2303.06235",
+    "total_tokens": 847,
+    "translated_title": "带张量自编码器的压缩感知",
+    "translated_abstract": "深度网络可以训练成将图像映射到低维潜在空间的工具。在许多情况下，集合中的不同图像是彼此的关节版本；例如，同一物体具有不同的照明、背景或姿势。此外，在许多情况下，图像的某些部分可能会受到噪声或缺失条目的影响。在本文中，我们的目标是利用数据的结构先验来恢复图像，而没有访问地面真实（干净）图像。这样的恢复问题属于压缩感知领域。我们建议在嵌入空间上学习带有张量环因子分解的自动编码器，以对数据施加结构约束。特别地，我们在自动编码器的瓶颈层中使用张量环结构，利用结构化数据集的软标签。我们通过实验证明了所提出的方法在修复和去噪应用中的有效性。所得到的方法实现了更好的重建质量。",
+    "tldr": "本文提出了一种利用张量环因子分解的自动编码器来恢复图像的方法，该方法在修复和去噪应用中表现出更好的重建质量。",
+    "en_tldr": "This paper proposes a method for image recovery using an autoencoder with tensor ring factorization, which achieves better reconstruction quality in inpainting and denoising applications."
+}

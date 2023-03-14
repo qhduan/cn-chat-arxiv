@@ -1,0 +1,10 @@
+{
+    "title": "A Novel Tensor-Expert Hybrid Parallelism Approach to Scale Mixture-of-Experts Training. (arXiv:2303.06318v1 [cs.LG])",
+    "abstract": "A new neural network architecture called Mixture-of-Experts (MoE) has been proposed recently that increases the parameters of a neural network (the base model) by adding sparsely activated expert blocks, without changing the total number of floating point operations for training or inference. In theory, this architecture allows us to train arbitrarily large models while keeping the computational costs same as that of the base model. However, beyond 64 to 128 experts blocks, prior work has observed diminishing returns in the test accuracies of these MoE models. Thus, training high quality MoE models requires us to scale the size of the base models, along with the number of expert blocks. In this work, we propose a novel, three-dimensional, hybrid parallel algorithm that combines tensor, expert, and data parallelism to enable the training of MoE models with 4-8x larger base models than the current state-of-the-art -- DeepSpeed-MoE. We propose memory optimizations in the optimizer step, a",
+    "link": "http://arxiv.org/abs/2303.06318",
+    "total_tokens": 892,
+    "translated_title": "一种新的张量专家混合并行方法来扩展混合专家训练",
+    "translated_abstract": "最近提出了一种名为Mixture-of-Experts（MoE）的新型神经网络架构，通过添加稀疏激活的专家块来增加神经网络（基本模型）的参数，而不改变训练或推理的总浮点操作数。理论上，这种架构允许我们训练任意大的模型，同时保持计算成本与基本模型相同。然而，在64到128个专家块之外，先前的工作观察到这些MoE模型的测试准确性递减。因此，训练高质量的MoE模型需要我们扩展基本模型的大小以及专家块的数量。在这项工作中，我们提出了一种新颖的三维混合并行算法，结合了张量、专家和数据并行，以实现MoE模型的训练，其基本模型比当前最先进的DeepSpeed-MoE大4-8倍。我们在优化器步骤中提出了内存优化。",
+    "tldr": "本文提出了一种新的混合并行算法，结合了张量、专家和数据并行，以实现MoE模型的训练，其基本模型比当前最先进的DeepSpeed-MoE大4-8倍。",
+    "en_tldr": "This paper proposes a novel hybrid parallel algorithm that combines tensor, expert, and data parallelism to enable the training of MoE models with 4-8x larger base models than the current state-of-the-art -- DeepSpeed-MoE."
+}

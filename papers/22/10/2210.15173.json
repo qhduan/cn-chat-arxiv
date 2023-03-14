@@ -1,0 +1,10 @@
+{
+    "title": "Articulation GAN: Unsupervised modeling of articulatory learning. (arXiv:2210.15173v2 [cs.SD] UPDATED)",
+    "abstract": "Generative deep neural networks are widely used for speech synthesis, but most existing models directly generate waveforms or spectral outputs. Humans, however, produce speech by controlling articulators, which results in the production of speech sounds through physical properties of sound propagation. We introduce the Articulatory Generator to the Generative Adversarial Network paradigm, a new unsupervised generative model of speech production/synthesis. The Articulatory Generator more closely mimics human speech production by learning to generate articulatory representations (electromagnetic articulography or EMA) in a fully unsupervised manner. A separate pre-trained physical model (ema2wav) then transforms the generated EMA representations to speech waveforms, which get sent to the Discriminator for evaluation. Articulatory analysis suggests that the network learns to control articulators in a similar manner to humans during speech production. Acoustic analysis of the outputs sugge",
+    "link": "http://arxiv.org/abs/2210.15173",
+    "total_tokens": 857,
+    "translated_title": "Articulation GAN: 无监督建模关节学习",
+    "translated_abstract": "生成式深度神经网络广泛用于语音合成，但大多数现有模型直接生成波形或频谱输出。然而，人类通过控制关节来产生语音，这通过声音传播的物理特性导致语音声音的产生。我们引入了关节生成器到生成对抗网络范例中，这是一种新的无监督生成模型，用于语音产生/合成。关节生成器通过完全无监督的方式学习生成关节表示（电磁关节成像或EMA），更接近于人类语音产生的方式。然后，一个单独的预训练物理模型（ema2wav）将生成的EMA表示转换为语音波形，这些波形被发送到鉴别器进行评估。关节分析表明，网络学习控制关节的方式类似于人类在语音产生过程中的方式。输出的声学分析表明...",
+    "tldr": "本文提出了一种新的无监督生成模型，通过完全无监督的方式学习生成关节表示（电磁关节成像或EMA），更接近于人类语音产生的方式，从而更好地模拟人类语音产生的过程。",
+    "en_tldr": "This paper proposes a new unsupervised generative model that learns to generate articulatory representations (electromagnetic articulography or EMA) in a fully unsupervised manner, which more closely mimics human speech production and better simulates the process of human speech production."
+}

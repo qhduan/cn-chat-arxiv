@@ -1,0 +1,10 @@
+{
+    "title": "Rethinking the Reasonability of the Test Set for Simultaneous Machine Translation. (arXiv:2303.00969v2 [cs.CL] UPDATED)",
+    "abstract": "Simultaneous machine translation (SimulMT) models start translation before the end of the source sentence, making the translation monotonically aligned with the source sentence. However, the general full-sentence translation test set is acquired by offline translation of the entire source sentence, which is not designed for SimulMT evaluation, making us rethink whether this will underestimate the performance of SimulMT models. In this paper, we manually annotate a monotonic test set based on the MuST-C English-Chinese test set, denoted as SiMuST-C. Our human evaluation confirms the acceptability of our annotated test set. Evaluations on three different SimulMT models verify that the underestimation problem can be alleviated on our test set. Further experiments show that finetuning on an automatically extracted monotonic training set improves SimulMT models by up to 3 BLEU points.",
+    "link": "http://arxiv.org/abs/2303.00969",
+    "total_tokens": 870,
+    "translated_title": "重新思考同时机器翻译测试集的合理性",
+    "translated_abstract": "同时机器翻译（SimulMT）模型在源语句结束前开始翻译，使得翻译与源语句单调对齐。然而，一般的完整句子翻译测试集是通过离线翻译整个源语句获得的，这不是为SimulMT评估而设计的，这使我们重新思考这是否会低估SimulMT模型的性能。在本文中，我们基于MuST-C英汉测试集手动注释了一个单调测试集，称为SiMuST-C。我们的人工评估确认了我们注释的测试集的可接受性。对三种不同的SimulMT模型的评估验证了我们的测试集可以缓解低估问题。进一步的实验表明，在自动提取的单调训练集上微调可以将SimulMT模型的性能提高3个BLEU分数。",
+    "tldr": "本文提出了一个手动注释的单调测试集SiMuST-C，用于评估同时机器翻译（SimulMT）模型的性能，实验证明该测试集可以缓解低估问题，并且在自动提取的单调训练集上微调可以将SimulMT模型的性能提高3个BLEU分数。",
+    "en_tldr": "This paper proposes a manually annotated monotonic test set SiMuST-C for evaluating the performance of simultaneous machine translation (SimulMT) models, which can alleviate the underestimation problem and fine-tuning on an automatically extracted monotonic training set can improve SimulMT models by up to 3 BLEU points."
+}

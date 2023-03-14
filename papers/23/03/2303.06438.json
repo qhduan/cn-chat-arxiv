@@ -1,0 +1,10 @@
+{
+    "title": "On Neural Architectures for Deep Learning-based Source Separation of Co-Channel OFDM Signals. (arXiv:2303.06438v1 [eess.SP])",
+    "abstract": "We study the single-channel source separation problem involving orthogonal frequency-division multiplexing (OFDM) signals, which are ubiquitous in many modern-day digital communication systems. Related efforts have been pursued in monaural source separation, where state-of-the-art neural architectures have been adopted to train an end-to-end separator for audio signals (as 1-dimensional time series). In this work, through a prototype problem based on the OFDM source model, we assess -- and question -- the efficacy of using audio-oriented neural architectures in separating signals based on features pertinent to communication waveforms. Perhaps surprisingly, we demonstrate that in some configurations, where perfect separation is theoretically attainable, these audio-oriented neural architectures perform poorly in separating co-channel OFDM waveforms. Yet, we propose critical domain-informed modifications to the network parameterization, based on insights from OFDM structures, that can co",
+    "link": "http://arxiv.org/abs/2303.06438",
+    "total_tokens": 906,
+    "translated_title": "关于深度学习源分离中的神经网络架构：共信道OFDM信号的分离",
+    "translated_abstract": "本文研究了涉及正交频分复用（OFDM）信号的单通道源分离问题，这种信号在许多现代数字通信系统中普遍存在。在单声道源分离方面已经进行了相关的努力，其中采用了最先进的神经网络架构来训练端到端的音频信号分离器（作为一维时间序列）。通过基于OFDM源模型的原型问题，我们评估并质疑了使用面向音频的神经网络架构在基于通信波形相关特征分离信号方面的有效性。也许令人惊讶的是，我们证明在某些配置中，即使在理论上可以实现完美分离的情况下，这些面向音频的神经网络架构在分离共信道OFDM波形方面表现不佳。然而，我们提出了关键的领域知识修改网络参数化，基于OFDM结构的洞察，可以共同解决这个问题。",
+    "tldr": "本文研究了涉及OFDM信号的单通道源分离问题，通过原型问题评估了使用面向音频的神经网络架构在分离共信道OFDM波形方面的有效性，并提出了关键的领域知识修改网络参数化的解决方案。",
+    "en_tldr": "This paper studies the single-channel source separation problem involving OFDM signals and evaluates the efficacy of using audio-oriented neural architectures in separating co-channel OFDM waveforms. Critical domain-informed modifications to the network parameterization are proposed based on insights from OFDM structures."
+}

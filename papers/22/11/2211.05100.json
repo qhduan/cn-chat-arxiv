@@ -1,0 +1,10 @@
+{
+    "title": "BLOOM: A 176B-Parameter Open-Access Multilingual Language Model. (arXiv:2211.05100v3 [cs.CL] UPDATED)",
+    "abstract": "Large language models (LLMs) have been shown to be able to perform new tasks based on a few demonstrations or natural language instructions. While these capabilities have led to widespread adoption, most LLMs are developed by resource-rich organizations and are frequently kept from the public. As a step towards democratizing this powerful technology, we present BLOOM, a 176B-parameter open-access language model designed and built thanks to a collaboration of hundreds of researchers. BLOOM is a decoder-only Transformer language model that was trained on the ROOTS corpus, a dataset comprising hundreds of sources in 46 natural and 13 programming languages (59 in total). We find that BLOOM achieves competitive performance on a wide variety of benchmarks, with stronger results after undergoing multitask prompted finetuning. To facilitate future research and applications using LLMs, we publicly release our models and code under the Responsible AI License.",
+    "link": "http://arxiv.org/abs/2211.05100",
+    "total_tokens": 916,
+    "translated_title": "BLOOM: 一个拥有176B参数的开放式多语言语言模型",
+    "translated_abstract": "大型语言模型（LLMs）已被证明能够根据少量演示或自然语言指令执行新任务。尽管这些能力已被广泛采用，但大多数LLMs都是由资源丰富的组织开发的，并经常被保密。为了推动这种强大技术的民主化，我们提出了BLOOM，这是一个由数百名研究人员合作设计和构建的拥有176B参数的开放式语言模型。BLOOM是一个仅解码器的Transformer语言模型，它是在ROOTS语料库上进行训练的，该语料库包括46种自然语言和13种编程语言的数百个来源（总共59种）。我们发现，BLOOM在各种基准测试中取得了竞争性的表现，在进行多任务提示微调后表现更强。为了促进未来使用LLMs的研究和应用，我们在负责任的AI许可下公开发布我们的模型和代码。",
+    "tldr": "BLOOM是一个由数百名研究人员合作设计和构建的拥有176B参数的开放式语言模型，它在多种基准测试中表现出竞争性的性能，并在进行多任务提示微调后表现更强。该模型的发布有助于推动大型语言模型技术的民主化。",
+    "en_tldr": "BLOOM is an open-access language model with 176B parameters, designed and built by hundreds of researchers. It achieves competitive performance on various benchmarks and shows even stronger results after multitask prompted finetuning. The release of this model facilitates the democratization of large language model technology."
+}

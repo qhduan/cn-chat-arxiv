@@ -1,0 +1,10 @@
+{
+    "title": "Evaluating Continual Test-Time Adaptation for Contextual and Semantic Domain Shifts. (arXiv:2208.08767v2 [cs.CV] UPDATED)",
+    "abstract": "In this paper, our goal is to adapt a pre-trained convolutional neural network to domain shifts at test time. We do so continually with the incoming stream of test batches, without labels. The existing literature mostly operates on artificial shifts obtained via adversarial perturbations of a test image. Motivated by this, we evaluate the state of the art on two realistic and challenging sources of domain shifts, namely contextual and semantic shifts. Contextual shifts correspond to the environment types, for example, a model pre-trained on indoor context has to adapt to the outdoor context on CORe-50. Semantic shifts correspond to the capture types, for example a model pre-trained on natural images has to adapt to cliparts, sketches, and paintings on DomainNet. We include in our analysis recent techniques such as Prediction-Time Batch Normalization (BN), Test Entropy Minimization (TENT) and Continual Test-Time Adaptation (CoTTA). Our findings are three-fold: i) Test-time adaptation me",
+    "link": "http://arxiv.org/abs/2208.08767",
+    "total_tokens": 714,
+    "translated_title": "评估针对上下文和语义领域漂移的连续测试时间适应性",
+    "translated_abstract": "本文旨在将预训练的卷积神经网络在测试时间内连续适应领域漂移，无需标签。我们评估了最新技术，如预测时间批量归一化（BN）、测试熵最小化（TENT）和连续测试时间适应性（CoTTA），并在两个现实和具有挑战性的领域漂移源上进行了测试。",
+    "tldr": "本文评估了针对上下文和语义领域漂移的连续测试时间适应性，无需标签。研究发现，连续测试时间适应性（CoTTA）是一种有效的方法。",
+    "en_tldr": "This paper evaluates continual test-time adaptation for contextual and semantic domain shifts without labels. The study finds that Continual Test-Time Adaptation (CoTTA) is an effective method."
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Deep Feature Screening: Feature Selection for Ultra High-Dimensional Data via Deep Neural Networks. (arXiv:2204.01682v2 [stat.ML] UPDATED)",
+    "abstract": "The applications of traditional statistical feature selection methods to high-dimension, low sample-size data often struggle and encounter challenging problems, such as overfitting, curse of dimensionality, computational infeasibility, and strong model assumption. In this paper, we propose a novel two-step nonparametric approach called Deep Feature Screening (DeepFS) that can overcome these problems and identify significant features with high precision for ultra high-dimensional, low-sample-size data. This approach first extracts a low-dimensional representation of input data and then applies feature screening based on multivariate rank distance correlation recently developed by Deb and Sen (2021). This approach combines the strengths of both deep neural networks and feature screening, and thereby has the following appealing features in addition to its ability of handling ultra high-dimensional data with small number of samples: (1) it is model free and distribution free; (2) it can be",
+    "link": "http://arxiv.org/abs/2204.01682",
+    "total_tokens": 853,
+    "translated_title": "深度特征筛选：通过深度神经网络进行超高维数据的特征选择",
+    "translated_abstract": "传统的统计特征选择方法在高维、低样本数据上的应用经常遇到困难和挑战，如过拟合、维数灾难、计算不可行和强模型假设。本文提出了一种新的两步非参数方法，称为深度特征筛选（DeepFS），可以克服这些问题，并对超高维、低样本数据进行高精度的特征筛选。该方法首先提取输入数据的低维表示，然后应用基于Deb和Sen（2021）最近开发的多元秩距相关性的特征筛选。该方法结合了深度神经网络和特征筛选的优点，除了处理具有少量样本的超高维数据的能力外，还具有以下吸引人的特点：（1）它是模型自由和分布自由的；（2）它可以",
+    "tldr": "本文提出了一种新的两步非参数方法，称为深度特征筛选（DeepFS），可以克服高维、低样本数据上的困难和挑战，并对超高维、低样本数据进行高精度的特征筛选。",
+    "en_tldr": "This paper proposes a novel two-step nonparametric approach called Deep Feature Screening (DeepFS) that can overcome the challenges of high-dimensional, low-sample-size data and identify significant features with high precision for ultra high-dimensional, low-sample-size data."
+}

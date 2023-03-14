@@ -1,0 +1,10 @@
+{
+    "title": "DailyTalk: Spoken Dialogue Dataset for Conversational Text-to-Speech. (arXiv:2207.01063v3 [eess.AS] UPDATED)",
+    "abstract": "The majority of current Text-to-Speech (TTS) datasets, which are collections of individual utterances, contain few conversational aspects. In this paper, we introduce DailyTalk, a high-quality conversational speech dataset designed for conversational TTS. We sampled, modified, and recorded 2,541 dialogues from the open-domain dialogue dataset DailyDialog inheriting its annotated attributes. On top of our dataset, we extend prior work as our baseline, where a non-autoregressive TTS is conditioned on historical information in a dialogue. From the baseline experiment with both general and our novel metrics, we show that DailyTalk can be used as a general TTS dataset, and more than that, our baseline can represent contextual information from DailyTalk. The DailyTalk dataset and baseline code are freely available for academic use with CC-BY-SA 4.0 license.",
+    "link": "http://arxiv.org/abs/2207.01063",
+    "total_tokens": 799,
+    "translated_title": "DailyTalk：面向对话文本转语音的口语对话数据集",
+    "translated_abstract": "目前大多数的文本转语音（TTS）数据集都是由单个话语组成，缺乏对话方面的内容。本文介绍了DailyTalk，这是一个高质量的对话语音数据集，专门为对话TTS设计。我们从开放领域对话数据集DailyDialog中抽样、修改和录制了2,541个对话，并继承了其注释属性。在我们的数据集上，我们扩展了之前的工作作为我们的基线，其中一个非自回归TTS在对话中的历史信息的条件下进行。通过基线实验和我们的新颖度量标准，我们展示了DailyTalk可以用作通用的TTS数据集，而且我们的基线可以表示DailyTalk的上下文信息。DailyTalk数据集和基线代码可供学术用途免费使用，采用CC-BY-SA 4.0许可证。",
+    "tldr": "本文介绍了一个高质量的对话语音数据集DailyTalk，专门为对话TTS设计。DailyTalk可以用作通用的TTS数据集，而且基线可以表示DailyTalk的上下文信息。",
+    "en_tldr": "This paper introduces a high-quality conversational speech dataset DailyTalk designed for conversational TTS. DailyTalk can be used as a general TTS dataset, and the baseline can represent contextual information from DailyTalk."
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Assessing gender fairness in EEG-based machine learning detection of Parkinson's disease: A multi-center study. (arXiv:2303.06376v1 [eess.SP])",
+    "abstract": "As the number of automatic tools based on machine learning (ML) and resting-state electroencephalography (rs-EEG) for Parkinson's disease (PD) detection keeps growing, the assessment of possible exacerbation of health disparities by means of fairness and bias analysis becomes more relevant. Protected attributes, such as gender, play an important role in PD diagnosis development. However, analysis of sub-group populations stemming from different genders is seldom taken into consideration in ML models' development or the performance assessment for PD detection. In this work, we perform a systematic analysis of the detection ability for gender sub-groups in a multi-center setting of a previously developed ML algorithm based on power spectral density (PSD) features of rs-EEG. We find significant differences in the PD detection ability for males and females at testing time (80.5% vs. 63.7% accuracy) and significantly higher activity for a set of parietal and frontal EEG channels and frequen",
+    "link": "http://arxiv.org/abs/2303.06376",
+    "total_tokens": 915,
+    "translated_title": "评估基于EEG的机器学习在帕金森病检测中的性别公平性：一项多中心研究",
+    "translated_abstract": "随着基于机器学习（ML）和静息态脑电图（rs-EEG）的自动工具在帕金森病（PD）检测中的数量不断增长，通过公平性和偏差分析评估可能加剧健康差异的问题变得更加重要。受保护的属性，如性别，在PD诊断开发中发挥重要作用。然而，来自不同性别的子组群体的分析很少在ML模型的开发或PD检测的性能评估中考虑。在这项工作中，我们对基于静息态脑电图功率谱密度（PSD）特征的先前开发的ML算法在多中心环境中的性别子组群的检测能力进行了系统分析。我们发现在测试时间（80.5％对63.7％的准确性）男性和女性的PD检测能力存在显着差异，并且一组顶部和前额脑电图通道和频率存在显着更高的活动。",
+    "tldr": "本研究在多中心环境中对基于EEG的机器学习算法进行了性别子组群的检测能力分析，发现男性和女性的PD检测能力存在显着差异。",
+    "en_tldr": "This study analyzed the detection ability of gender sub-groups in a multi-center setting of a previously developed machine learning algorithm based on EEG, finding significant differences in Parkinson's disease detection ability between males and females."
+}

@@ -1,0 +1,10 @@
+{
+    "title": "EDU-level Extractive Summarization with Varying Summary Lengths. (arXiv:2210.04029v2 [cs.CL] UPDATED)",
+    "abstract": "Extractive models usually formulate text summarization as extracting fixed top-$k$ salient sentences from the document as a summary. Few works exploited extracting finer-grained Elementary Discourse Unit (EDU) with little analysis and justification for the extractive unit selection. Further, the selection strategy of the fixed top-$k$ salient sentences fits the summarization need poorly, as the number of salient sentences in different documents varies and therefore a common or best $k$ does not exist in reality. To fill these gaps, this paper first conducts the comparison analysis of oracle summaries based on EDUs and sentences, which provides evidence from both theoretical and experimental perspectives to justify and quantify that EDUs make summaries with higher automatic evaluation scores than sentences. Then, considering this merit of EDUs, this paper further proposes an EDU-level extractive model with Varying summary Lengths and develops the corresponding learning algorithm. EDU-VL",
+    "link": "http://arxiv.org/abs/2210.04029",
+    "total_tokens": 845,
+    "translated_title": "EDU级别的可变长度摘要提取",
+    "translated_abstract": "抽取式模型通常将文本摘要制定为从文档中提取固定的前k个显著句子作为摘要。很少有工作探索细粒度的基本话语单元（EDU）的提取，而且对于抽取单元的选择缺乏分析和证明。此外，固定的前k个显著句子的选择策略不适合摘要需求，因为不同文档中显著句子的数量不同，因此在现实中不存在共同或最佳的k。为了填补这些空白，本文首先对基于EDU和句子的oracle摘要进行比较分析，从理论和实验的角度提供证据，证明和量化EDU比句子具有更高的自动评估分数。然后，考虑到EDU的这种优点，本文进一步提出了一种EDU级别的可变长度摘要提取模型，并开发了相应的学习算法。EDU-VL",
+    "tldr": "本文提出了一种EDU级别的可变长度摘要提取模型，通过比较分析证明EDU比句子具有更高的自动评估分数。",
+    "en_tldr": "This paper proposes an EDU-level extractive model with varying summary lengths and provides evidence from both theoretical and experimental perspectives to justify and quantify that EDUs make summaries with higher automatic evaluation scores than sentences."
+}

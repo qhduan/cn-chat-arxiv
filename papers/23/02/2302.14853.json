@@ -1,0 +1,10 @@
+{
+    "title": "An Efficient Tester-Learner for Halfspaces. (arXiv:2302.14853v2 [cs.LG] UPDATED)",
+    "abstract": "We give the first efficient algorithm for learning halfspaces in the testable learning model recently defined by Rubinfeld and Vasilyan (2023). In this model, a learner certifies that the accuracy of its output hypothesis is near optimal whenever the training set passes an associated test, and training sets drawn from some target distribution -- e.g., the Gaussian -- must pass the test. This model is more challenging than distribution-specific agnostic or Massart noise models where the learner is allowed to fail arbitrarily if the distributional assumption does not hold.  We consider the setting where the target distribution is Gaussian (or more generally any strongly log-concave distribution) in $d$ dimensions and the noise model is either Massart or adversarial (agnostic). For Massart noise, our tester-learner runs in polynomial time and outputs a hypothesis with (information-theoretically optimal) error $\\mathsf{opt} + \\epsilon$ for any strongly log-concave target distribution. For ",
+    "link": "http://arxiv.org/abs/2302.14853",
+    "total_tokens": 881,
+    "translated_title": "半空间的高效测试学习算法",
+    "translated_abstract": "我们提出了第一个在Rubinfeld和Vasilyan（2023）最近定义的可测试学习模型中学习半空间的高效算法。在这个模型中，当训练集通过相关测试时，学习者证明其输出假设的准确性接近最优，并且从某些目标分布（例如高斯分布）中抽取的训练集必须通过测试。这个模型比分布特定的不可知或Massart噪声模型更具挑战性，因为如果分布假设不成立，学习者可以任意失败。我们考虑目标分布为高斯分布（或更一般的任何强对数凹分布）的$d$维情况，噪声模型为Massart或对抗性（不可知）。对于Massart噪声，我们的测试学习算法在多项式时间内运行，并输出一个在任何强对数凹目标分布下具有（信息理论上最优的）误差$\\mathsf{opt}+\\epsilon$的假设。",
+    "tldr": "我们提出了第一个在可测试学习模型中学习半空间的高效算法，该算法在多项式时间内运行，并输出一个在任何强对数凹目标分布下具有（信息理论上最优的）误差的假设。",
+    "en_tldr": "We propose the first efficient algorithm for learning halfspaces in the testable learning model, which runs in polynomial time and outputs a hypothesis with (information-theoretically optimal) error for any strongly log-concave target distribution."
+}

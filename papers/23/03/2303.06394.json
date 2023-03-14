@@ -1,0 +1,10 @@
+{
+    "title": "A Novel Method Combines Moving Fronts, Data Decomposition and Deep Learning to Forecast Intricate Time Series. (arXiv:2303.06394v1 [cs.LG])",
+    "abstract": "A univariate time series with high variability can pose a challenge even to Deep Neural Network (DNN). To overcome this, a univariate time series is decomposed into simpler constituent series, whose sum equals the original series. As demonstrated in this article, the conventional one-time decomposition technique suffers from a leak of information from the future, referred to as a data leak. In this work, a novel Moving Front (MF) method is proposed to prevent data leakage, so that the decomposed series can be treated like other time series. Indian Summer Monsoon Rainfall (ISMR) is a very complex time series, which poses a challenge to DNN and is therefore selected as an example. From the many signal processing tools available, Empirical Wavelet Transform (EWT) was chosen for decomposing the ISMR into simpler constituent series, as it was found to be more effective than the other popular algorithm, Complete Ensemble Empirical Mode Decomposition with Adaptive Noise (CEEMDAN). The propose",
+    "link": "http://arxiv.org/abs/2303.06394",
+    "total_tokens": 918,
+    "translated_title": "一种结合移动前沿、数据分解和深度学习的新方法用于预测复杂时间序列",
+    "translated_abstract": "高变异性的单变量时间序列甚至对深度神经网络（DNN）也构成挑战。为了克服这一问题，单变量时间序列被分解成更简单的组成序列，它们的总和等于原始序列。本文演示了传统的一次分解技术存在数据泄漏的问题。因此，提出了一种新的移动前沿（MF）方法来防止数据泄漏，使分解后的序列可以像其他时间序列一样处理。印度夏季季风降雨（ISMR）是一个非常复杂的时间序列，对DNN构成挑战，因此被选为示例。从众多可用的信号处理工具中，经验小波变换（EWT）被选择用于将ISMR分解成更简单的组成序列，因为它被发现比其他流行的算法，如自适应噪声完全集合经验模态分解（CEEMDAN）更有效。",
+    "tldr": "本文提出了一种新的方法，结合移动前沿、数据分解和深度学习，用于预测复杂时间序列。该方法通过经验小波变换将时间序列分解成更简单的组成序列，并使用移动前沿方法防止数据泄漏。",
+    "en_tldr": "This paper proposes a novel method that combines moving fronts, data decomposition, and deep learning to forecast intricate time series. The method decomposes the time series into simpler constituent series using empirical wavelet transform and prevents data leakage using the moving front method."
+}

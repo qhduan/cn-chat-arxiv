@@ -1,0 +1,10 @@
+{
+    "title": "Prefix-tree Decoding for Predicting Mass Spectra from Molecules. (arXiv:2303.06470v1 [q-bio.QM])",
+    "abstract": "Computational predictions of mass spectra from molecules have enabled the discovery of clinically relevant metabolites. However, such predictive tools are still limited as they occupy one of two extremes, either operating (a) by fragmenting molecules combinatorially with overly rigid constraints on potential rearrangements and poor time complexity or (b) by decoding lossy and nonphysical discretized spectra vectors. In this work, we introduce a new intermediate strategy for predicting mass spectra from molecules by treating mass spectra as sets of chemical formulae, which are themselves multisets of atoms. After first encoding an input molecular graph, we decode a set of chemical subformulae, each of which specify a predicted peak in the mass spectra, the intensities of which are predicted by a second model. Our key insight is to overcome the combinatorial possibilities for chemical subformulae by decoding the formula set using a prefix tree structure, atom-type by atom-type, represent",
+    "link": "http://arxiv.org/abs/2303.06470",
+    "total_tokens": 883,
+    "translated_title": "基于前缀树的分子质谱预测",
+    "translated_abstract": "计算预测分子的质谱已经实现了临床相关代谢物的发现。然而，这样的预测工具仍然存在局限性，因为它们占据了两个极端，要么通过过度刚性的约束和较差的时间复杂度组合分子来进行操作，要么通过解码有损和非物理离散化的光谱向量来进行操作。在这项工作中，我们介绍了一种新的中间策略，通过将质谱视为化学公式的集合来预测分子的质谱，这些化学公式本身是原子的多重集合。在首先对输入分子图进行编码后，我们解码一组化学子公式，每个化学子公式指定质谱中的一个预测峰，其强度由第二个模型预测。我们的关键洞察力是通过使用前缀树结构，逐个原子类型地解码公式集，克服了化学子公式的组合可能性。",
+    "tldr": "本文提出了一种基于前缀树的中间策略，通过将质谱视为化学公式的集合来预测分子的质谱，克服了化学子公式的组合可能性。",
+    "en_tldr": "This paper proposes an intermediate strategy for predicting mass spectra from molecules by treating mass spectra as sets of chemical formulae, which are themselves multisets of atoms, and decoding the formula set using a prefix tree structure, atom-type by atom-type, overcoming the combinatorial possibilities for chemical subformulae."
+}

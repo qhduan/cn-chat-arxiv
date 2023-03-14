@@ -1,0 +1,8 @@
+{
+    "title": "The impact of prior knowledge on causal structure learning. (arXiv:2102.00473v5 [cs.AI] UPDATED)",
+    "abstract": "Causal Bayesian networks have become a powerful technology for reasoning under uncertainty in areas that require transparency and explainability, by relying on causal assumptions that enable us to simulate hypothetical interventions. The graphical structure of such models can be estimated by structure learning algorithms, domain knowledge, or a combination of both. Various knowledge approaches have been proposed in the literature that enable us to specify prior knowledge that constrains or guides these algorithms. This paper introduces some novel, and also describes some existing, knowledge-based approaches that enable us to combine structure learning with knowledge obtained from heterogeneous sources. We investigate the impact of these approaches on structure learning across different algorithms, case studies and settings that we might encounter in practice. Each approach is assessed in terms of effectiveness and efficiency, including graphical accuracy, model fitting, complexity, and",
+    "link": "http://arxiv.org/abs/2102.00473",
+    "total_tokens": 604,
+    "tldr": "本文介绍了一些新颖的和现有的基于知识的方法，使我们能够将结构学习与从异构来源获得的知识相结合。我们研究了这些方法对不同算法、案例研究和实践中可能遇到的设置的结构学习的影响。每种方法都在效果和效率方面进行评估，包括图形准确性、模型拟合、复杂性和可解释性。",
+    "en_tldr": "This paper introduces novel and existing knowledge-based approaches that combine structure learning with knowledge from heterogeneous sources, and investigates their impact on structure learning across different algorithms, case studies, and practical settings. The effectiveness and efficiency of each approach are evaluated in terms of graphical accuracy, model fitting, complexity, and interpretability."
+}

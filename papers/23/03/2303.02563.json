@@ -1,0 +1,10 @@
+{
+    "title": "FinXABSA: Explainable Finance through Aspect-Based Sentiment Analysis. (arXiv:2303.02563v2 [cs.CL] UPDATED)",
+    "abstract": "This paper presents a novel approach for explainability in financial analysis by utilizing the Pearson correlation coefficient to establish a relationship between aspect-based sentiment analysis and stock prices. The proposed methodology involves constructing an aspect list from financial news articles and analyzing sentiment intensity scores for each aspect. These scores are then compared to the stock prices for the relevant companies using the Pearson coefficient to determine any significant correlations. The results indicate that the proposed approach provides a more detailed and accurate understanding of the relationship between sentiment analysis and stock prices, which can be useful for investors and financial analysts in making informed decisions. Additionally, this methodology offers a transparent and interpretable way to explain the sentiment analysis results and their impact on stock prices. Overall, the findings of this paper demonstrate the importance of explainability in f",
+    "link": "http://arxiv.org/abs/2303.02563",
+    "total_tokens": 885,
+    "translated_title": "FinXABSA: 通过基于方面的情感分析实现可解释的金融分析",
+    "translated_abstract": "本文提出了一种新颖的方法，通过利用Pearson相关系数建立基于方面的情感分析与股票价格之间的关系，实现金融分析的可解释性。所提出的方法涉及从金融新闻文章中构建方面列表，并分析每个方面的情感强度得分。然后，使用Pearson系数将这些得分与相关公司的股票价格进行比较，以确定任何显著的相关性。结果表明，所提出的方法提供了更详细和准确的了解情感分析与股票价格之间关系的方法，这对于投资者和金融分析师做出明智决策非常有用。此外，该方法提供了一种透明且可解释的方式来解释情感分析结果及其对股票价格的影响。总的来说，本文的研究结果表明，可解释性在金融分析中的重要性。",
+    "tldr": "本文提出了一种基于方面的情感分析方法，通过与股票价格的相关性建立关系，实现金融分析的可解释性。该方法提供了更详细和准确的了解情感分析与股票价格之间关系的方法，对于投资者和金融分析师做出明智决策非常有用。",
+    "en_tldr": "This paper proposes an aspect-based sentiment analysis approach to achieve explainability in financial analysis by establishing a relationship with stock prices using the Pearson correlation coefficient. The proposed methodology provides a more detailed and accurate understanding of the relationship between sentiment analysis and stock prices, which can be useful for investors and financial analysts in making informed decisions."
+}

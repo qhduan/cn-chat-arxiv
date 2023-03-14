@@ -1,0 +1,10 @@
+{
+    "title": "Kinematic Evidence of an Embedded Protoplanet in HD 142666 Identified by Machine Learning. (arXiv:2301.05075v2 [astro-ph.EP] UPDATED)",
+    "abstract": "Observations of protoplanetary disks have shown that forming exoplanets leave characteristic imprints on the gas and dust of the disk. In the gas, these forming exoplanets cause deviations from Keplerian motion, which can be detected through molecular line observations. Our previous work has shown that machine learning can correctly determine if a planet is present in these disks. Using our machine learning models, we identify strong, localized non-Keplerian motion within the disk HD 142666. Subsequent hydrodynamics simulations of a system with a 5 Jupiter-mass planet at 75 au recreates the kinematic structure. By currently established standards in the field, we conclude that HD 142666 hosts a planet. This work represents a first step towards using machine learning to identify previously overlooked non-Keplerian features in protoplanetary disks.",
+    "link": "http://arxiv.org/abs/2301.05075",
+    "total_tokens": 908,
+    "translated_title": "机器学习识别出HD 142666中嵌入的原行星的运动学证据",
+    "translated_abstract": "原行星盘的观测表明，形成系外行星会在盘中的气体和尘埃上留下特征印记。在气体中，这些形成中的系外行星会引起开普勒运动的偏差，可以通过分子线观测来检测。我们之前的工作表明，机器学习可以正确确定这些盘中是否存在行星。使用我们的机器学习模型，我们在HD 142666的盘中识别出强烈的、局部的非开普勒运动。随后进行的一个系统中有一个5个木星质量的行星在75天文单位处的流体动力学模拟再现了这种运动学结构。根据该领域目前已经建立的标准，我们得出结论：HD 142666中存在一个行星。这项工作代表了使用机器学习识别原行星盘中先前被忽视的非开普勒特征的第一步。",
+    "tldr": "该论文使用机器学习模型在HD 142666的盘中识别出强烈的、局部的非开普勒运动，进而得出该盘中存在一个行星的结论，这是使用机器学习识别原行星盘中先前被忽视的非开普勒特征的第一步。",
+    "en_tldr": "This paper uses machine learning models to identify strong, localized non-Keplerian motion in the disk HD 142666, and concludes that there is a planet in the disk, which represents a first step towards using machine learning to identify previously overlooked non-Keplerian features in protoplanetary disks."
+}

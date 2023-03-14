@@ -1,0 +1,10 @@
+{
+    "title": "No-regret Algorithms for Fair Resource Allocation. (arXiv:2303.06396v1 [cs.LG])",
+    "abstract": "We consider a fair resource allocation problem in the no-regret setting against an unrestricted adversary. The objective is to allocate resources equitably among several agents in an online fashion so that the difference of the aggregate $\\alpha$-fair utilities of the agents between an optimal static clairvoyant allocation and that of the online policy grows sub-linearly with time. The problem is challenging due to the non-additive nature of the $\\alpha$-fairness function. Previously, it was shown that no online policy can exist for this problem with a sublinear standard regret. In this paper, we propose an efficient online resource allocation policy, called Online Proportional Fair (OPF), that achieves $c_\\alpha$-approximate sublinear regret with the approximation factor $c_\\alpha=(1-\\alpha)^{-(1-\\alpha)}\\leq 1.445,$ for $0\\leq \\alpha < 1$. The upper bound to the $c_\\alpha$-regret for this problem exhibits a surprising phase transition phenomenon. The regret bound changes from a power",
+    "link": "http://arxiv.org/abs/2303.06396",
+    "total_tokens": 948,
+    "translated_title": "无遗憾算法用于公平资源分配",
+    "translated_abstract": "本文考虑了一个公平资源分配问题，该问题在无遗憾设置下针对无限制的对手。目标是以在线方式公平地分配多个代理的资源，使得最优静态预知分配和在线策略的代理的聚合α-公平效用之差随时间增长的速度为次线性。由于α-公平性函数的非加性特性，该问题具有挑战性。先前的研究表明，该问题不存在具有次线性标准遗憾的在线策略。本文提出了一种高效的在线资源分配策略，称为在线比例公平（OPF），该策略实现了$c_\\alpha$-近似次线性遗憾，其中近似因子$c_\\alpha=(1-\\alpha)^{-(1-\\alpha)}\\leq 1.445$，对于$0\\leq \\alpha < 1$。该问题的$c_\\alpha$-遗憾上界展现出了一个令人惊讶的相变现象。遗憾上界从一个幂函数变为一个对数函数。",
+    "tldr": "本文提出了一种无遗憾算法，用于公平资源分配问题，该算法可以实现$c_\\alpha$-近似次线性遗憾，其中近似因子$c_\\alpha=(1-\\alpha)^{-(1-\\alpha)}\\leq 1.445$，对于$0\\leq \\alpha < 1$。",
+    "en_tldr": "This paper proposes a no-regret algorithm for fair resource allocation, which achieves $c_\\alpha$-approximate sublinear regret with the approximation factor $c_\\alpha=(1-\\alpha)^{-(1-\\alpha)}\\leq 1.445,$ for $0\\leq \\alpha < 1$."
+}

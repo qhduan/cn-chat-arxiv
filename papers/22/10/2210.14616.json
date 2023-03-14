@@ -1,0 +1,10 @@
+{
+    "title": "A Late Multi-Modal Fusion Model for Detecting Hybrid Spam E-mail. (arXiv:2210.14616v3 [cs.CR] UPDATED)",
+    "abstract": "In recent years, spammers are now trying to obfuscate their intents by introducing hybrid spam e-mail combining both image and text parts, which is more challenging to detect in comparison to e-mails containing text or image only. The motivation behind this research is to design an effective approach filtering out hybrid spam e-mails to avoid situations where traditional text-based or image-baesd only filters fail to detect hybrid spam e-mails. To the best of our knowledge, a few studies have been conducted with the goal of detecting hybrid spam e-mails. Ordinarily, Optical Character Recognition (OCR) technology is used to eliminate the image parts of spam by transforming images into text. However, the research questions are that although OCR scanning is a very successful technique in processing text-and-image hybrid spam, it is not an effective solution for dealing with huge quantities due to the CPU power required and the execution time it takes to scan e-mail files. And the OCR tech",
+    "link": "http://arxiv.org/abs/2210.14616",
+    "total_tokens": 910,
+    "translated_title": "一种用于检测混合垃圾邮件的多模态融合模型",
+    "translated_abstract": "近年来，垃圾邮件发送者开始通过引入图像和文本部分的混合垃圾邮件来混淆其意图，这比仅包含文本或图像的电子邮件更具挑战性。本研究的动机是设计一种有效的方法来过滤混合垃圾邮件，以避免传统的基于文本或基于图像的过滤器无法检测到混合垃圾邮件的情况。据我们所知，目前只有少数研究旨在检测混合垃圾邮件。通常，光学字符识别（OCR）技术用于通过将图像转换为文本来消除垃圾邮件的图像部分。然而，研究问题是，尽管OCR扫描是处理文本和图像混合垃圾邮件的非常成功的技术，但由于所需的CPU功率和扫描电子邮件文件所需的执行时间，它不是处理大量垃圾邮件的有效解决方案。",
+    "tldr": "本研究旨在设计一种有效的方法来过滤混合垃圾邮件，提出了一种多模态融合模型，解决了传统基于文本或基于图像的过滤器无法检测到混合垃圾邮件的问题。",
+    "en_tldr": "This study aims to design an effective approach filtering out hybrid spam e-mails and proposes a late multi-modal fusion model to solve the problem of traditional text-based or image-based filters failing to detect hybrid spam e-mails."
+}

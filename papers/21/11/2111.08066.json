@@ -1,0 +1,10 @@
+{
+    "title": "Exploiting Action Impact Regularity and Exogenous State Variables for Offline Reinforcement Learning. (arXiv:2111.08066v4 [cs.LG] UPDATED)",
+    "abstract": "Offline reinforcement learning -- learning a policy from a batch of data -is known to be hard for general MDPs. These results motivate the need to look at specific classes of MDPs where offline reinforcement learning might be feasible. In this work, we explore a restricted class of MDPs to obtain guarantees for offline reinforcement learning. The key property, which we call Action Impact Regularity (AIR), is that actions primarily impact a part of the state (an endogenous component) and have limited impact on the remaining part of the state (an exogenous component). AIR is a strong assumption, but it nonetheless holds in a number of real-world domains including financial markets. We discuss algorithms that exploit the AIR property, and provide a theoretical analysis for an algorithm based on Fitted-Q Iteration. Finally, we demonstrate that the algorithm outperforms existing offline reinforcement learning algorithms across different data collection policies in simulated and real world",
+    "link": "http://arxiv.org/abs/2111.08066",
+    "total_tokens": 928,
+    "translated_title": "利用行动影响规律和外生状态变量进行离线强化学习",
+    "translated_abstract": "离线强化学习——从一批数据中学习策略——已知对于一般的MDP来说是困难的。这些结果促使我们需要关注离线强化学习可能可行的特定类别的MDP。在这项工作中，我们探索了一类受限制的MDP，以获得离线强化学习的保证。我们称之为行动影响规律（AIR）的关键属性是，行动主要影响状态的一部分（内生组件），并且对状态的其余部分（外生组件）影响有限。AIR是一个强假设，但它在许多现实世界的领域中仍然成立，包括金融市场。我们讨论了利用AIR属性的算法，并为基于Fitted-Q迭代的算法提供了理论分析。最后，我们证明了该算法在模拟和真实世界中的不同数据收集策略中优于现有的离线强化学习算法。",
+    "tldr": "本文提出了一种利用行动影响规律和外生状态变量进行离线强化学习的算法，该算法在现实世界的许多领域中成立，包括金融市场，并在模拟和真实世界中的不同数据收集策略中优于现有的离线强化学习算法。",
+    "en_tldr": "This paper proposes an algorithm for offline reinforcement learning that exploits the Action Impact Regularity (AIR) property, which holds in many real-world domains including financial markets, and outperforms existing algorithms across different data collection policies in simulated and real world."
+}

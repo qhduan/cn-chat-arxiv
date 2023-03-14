@@ -1,0 +1,10 @@
+{
+    "title": "Random Laplacian Features for Learning with Hyperbolic Space. (arXiv:2202.06854v3 [cs.LG] UPDATED)",
+    "abstract": "Due to its geometric properties, hyperbolic space can support high-fidelity embeddings of tree- and graph-structured data, upon which various hyperbolic networks have been developed. Existing hyperbolic networks encode geometric priors not only for the input, but also at every layer of the network. This approach involves repeatedly mapping to and from hyperbolic space, which makes these networks complicated to implement, computationally expensive to scale, and numerically unstable to train. In this paper, we propose a simpler approach: learn a hyperbolic embedding of the input, then map once from it to Euclidean space using a mapping that encodes geometric priors by respecting the isometries of hyperbolic space, and finish with a standard Euclidean network. The key insight is to use a random feature mapping via the eigenfunctions of the Laplace operator, which we show can approximate any isometry-invariant kernel on hyperbolic space. Our method can be used together with any graph neura",
+    "link": "http://arxiv.org/abs/2202.06854",
+    "total_tokens": 987,
+    "translated_title": "随机拉普拉斯特征用于超几何空间学习",
+    "translated_abstract": "由于其几何特性，超几何空间可以支持树形和图形结构数据的高保真嵌入，基于此，各种超几何网络已经被开发出来。现有的超几何网络不仅对输入进行几何先验编码，而且在网络的每一层都进行编码。这种方法涉及到反复映射到和从超几何空间，使得这些网络难以实现，计算成本高，训练数值不稳定。在本文中，我们提出了一种更简单的方法：学习输入的超几何嵌入，然后使用一种编码几何先验的映射将其映射到欧几里得空间，并最终使用标准欧几里得网络。关键的洞见是使用拉普拉斯算子的特征函数的随机特征映射，我们展示了它可以近似超几何空间上的任何等度量不变核。我们的方法可以与任何图形神经网络一起使用。",
+    "tldr": "本文提出了一种简单的方法，通过学习输入的超几何嵌入，使用一种编码几何先验的映射将其映射到欧几里得空间，并最终使用标准欧几里得网络。关键的洞见是使用拉普拉斯算子的特征函数的随机特征映射，我们展示了它可以近似超几何空间上的任何等度量不变核。",
+    "en_tldr": "This paper proposes a simple approach to learning hyperbolic embeddings by mapping them to Euclidean space using a mapping that encodes geometric priors and then using a standard Euclidean network. The key insight is to use a random feature mapping via the eigenfunctions of the Laplace operator, which can approximate any isometry-invariant kernel on hyperbolic space."
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Relational Attention: Generalizing Transformers for Graph-Structured Tasks. (arXiv:2210.05062v3 [cs.LG] UPDATED)",
+    "abstract": "Transformers flexibly operate over sets of real-valued vectors representing task-specific entities and their attributes, where each vector might encode one word-piece token and its position in a sequence, or some piece of information that carries no position at all. But as set processors, transformers are at a disadvantage in reasoning over more general graph-structured data where nodes represent entities and edges represent relations between entities. To address this shortcoming, we generalize transformer attention to consider and update edge vectors in each transformer layer. We evaluate this relational transformer on a diverse array of graph-structured tasks, including the large and challenging CLRS Algorithmic Reasoning Benchmark. There, it dramatically outperforms state-of-the-art graph neural networks expressly designed to reason over graph-structured data. Our analysis demonstrates that these gains are attributable to relational attention's inherent ability to leverage the great",
+    "link": "http://arxiv.org/abs/2210.05062",
+    "total_tokens": 856,
+    "translated_title": "关系注意力：将Transformer推广到图结构任务",
+    "translated_abstract": "Transformer可以灵活地操作表示任务特定实体及其属性的实值向量集，其中每个向量可能编码一个单词片段令牌及其在序列中的位置，或者一些不带位置的信息。但作为集合处理器，Transformer在推理更一般的图结构数据（其中节点表示实体，边表示实体之间的关系）方面处于劣势。为了解决这个缺点，我们将Transformer注意力推广到每个Transformer层中考虑和更新边向量。我们在各种图结构任务上评估了这个关系Transformer，包括大型且具有挑战性的CLRS算法推理基准测试。在那里，它明显优于专门设计用于推理图结构数据的最先进的图神经网络。我们的分析表明，这些收益归因于关系注意力固有的能力，即利用大量的边信息来推理。",
+    "tldr": "本文提出了一种关系注意力机制，将Transformer推广到图结构任务中，通过考虑和更新边向量，实现了对图结构数据的推理，相比于专门设计用于推理图结构数据的最先进的图神经网络，在各种图结构任务上都有明显的优势。",
+    "en_tldr": "This paper proposes a relational attention mechanism that generalizes Transformers for graph-structured tasks by considering and updating edge vectors in each Transformer layer, achieving reasoning over graph-structured data. Compared to state-of-the-art graph neural networks designed for reasoning over graph-structured data, it has significant advantages in various graph-structured tasks."
+}

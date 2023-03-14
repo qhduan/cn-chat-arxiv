@@ -1,0 +1,10 @@
+{
+    "title": "Max-Margin Works while Large Margin Fails: Generalization without Uniform Convergence. (arXiv:2206.07892v2 [cs.LG] UPDATED)",
+    "abstract": "A major challenge in modern machine learning is theoretically understanding the generalization properties of overparameterized models. Many existing tools rely on uniform convergence (UC), a property that, when it holds, guarantees that the test loss will be close to the training loss, uniformly over a class of candidate models. Nagarajan and Kolter (2019) show that in certain simple linear and neural-network settings, any uniform convergence bound will be vacuous, leaving open the question of how to prove generalization in settings where UC fails. Our main contribution is proving novel generalization bounds in two such settings, one linear, and one non-linear. We study the linear classification setting of Nagarajan and Kolter, and a quadratic ground truth function learned via a two-layer neural network in the non-linear regime. We prove a new type of margin bound showing that above a certain signal-to-noise threshold, any near-max-margin classifier will achieve almost no test loss in ",
+    "link": "http://arxiv.org/abs/2206.07892",
+    "total_tokens": 889,
+    "translated_title": "最大间隔有效而大间隔无效：无需均匀收敛的泛化。 (arXiv:2206.07892v2 [cs.LG] UPDATED)",
+    "translated_abstract": "现代机器学习中的一个主要挑战是理论上理解过度参数化模型的泛化特性。许多现有工具依赖于均匀收敛（UC），当它成立时，保证测试损失在候选模型类上均匀接近于训练损失。Nagarajan和Kolter（2019）表明，在某些简单的线性和神经网络设置中，任何均匀收敛界限都将是无意义的，这引出了一个问题：如何在UC失败的情况下证明泛化。我们的主要贡献是在两个这样的设置中证明了新的泛化界限，一个是线性的，一个是非线性的。我们研究了Nagarajan和Kolter的线性分类设置，以及通过两层神经网络学习的二次基本事实函数在非线性区域。我们证明了一种新型的边界，表明在一定的信噪比阈值以上，任何接近最大间隔分类器都将在测试损失上几乎没有损失。",
+    "tldr": "本文证明了在UC失败的情况下，最大间隔分类器可以实现几乎没有测试损失的泛化，提供了新的泛化界限。",
+    "en_tldr": "This paper proves that in cases where uniform convergence fails, the max-margin classifier can achieve almost no test loss in generalization, providing new generalization bounds."
+}

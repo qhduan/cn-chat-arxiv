@@ -1,0 +1,10 @@
+{
+    "title": "Counterfactual Copula and Its Application to the Effects of College Education on Intergenerational Mobility. (arXiv:2303.06658v1 [econ.EM])",
+    "abstract": "This paper proposes a nonparametric estimator of the counterfactual copula of two outcome variables that would be affected by a policy intervention. The proposed estimator allows policymakers to conduct ex-ante evaluations by comparing the estimated counterfactual and actual copulas as well as their corresponding measures of association. Asymptotic properties of the counterfactual copula estimator are established under regularity conditions. These conditions are also used to validate the nonparametric bootstrap for inference on counterfactual quantities. Simulation results indicate that our estimation and inference procedures perform well in moderately sized samples. Applying the proposed method to studying the effects of college education on intergenerational income mobility under two counterfactual scenarios, we find that while providing some college education to all children is unlikely to promote mobility, offering a college degree to children from less educated families can signif",
+    "link": "http://arxiv.org/abs/2303.06658",
+    "total_tokens": 959,
+    "translated_title": "反事实联合分布及其在大学教育对代际流动的影响中的应用",
+    "translated_abstract": "本文提出了一种非参数估计器，用于估计受政策干预影响的两个结果变量的反事实联合分布。所提出的估计器允许政策制定者通过比较估计的反事实和实际联合分布以及它们对应的关联度量来进行前期评估。在正则条件下，建立了反事实联合分布估计器的渐近性质。这些条件也用于验证非参数自助法对反事实量的推断。模拟结果表明，我们的估计和推断程序在中等样本大小下表现良好。将所提出的方法应用于研究大学教育对代际收入流动的影响的两个反事实情景下，我们发现，虽然为所有孩子提供一些大学教育不太可能促进流动性，但为来自教育程度较低的家庭的孩子提供大学学位可以显著提高流动性。",
+    "tldr": "本文提出了一种非参数估计器，用于估计受政策干预影响的两个结果变量的反事实联合分布。将所提出的方法应用于研究大学教育对代际收入流动的影响的两个反事实情景下，我们发现，为来自教育程度较低的家庭的孩子提供大学学位可以显著提高流动性。",
+    "en_tldr": "This paper proposes a nonparametric estimator of the counterfactual copula of two outcome variables that would be affected by a policy intervention. Applying the proposed method to studying the effects of college education on intergenerational income mobility under two counterfactual scenarios, we find that offering a college degree to children from less educated families can significantly improve mobility."
+}

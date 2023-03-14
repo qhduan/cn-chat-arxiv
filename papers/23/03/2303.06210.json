@@ -1,0 +1,10 @@
+{
+    "title": "A Theoretical Analysis Of Nearest Neighbor Search On Approximate Near Neighbor Graph. (arXiv:2303.06210v1 [cs.LG])",
+    "abstract": "Graph-based algorithms have demonstrated state-of-the-art performance in the nearest neighbor search (NN-Search) problem. These empirical successes urge the need for theoretical results that guarantee the search quality and efficiency of these algorithms. However, there exists a practice-to-theory gap in the graph-based NN-Search algorithms. Current theoretical literature focuses on greedy search on exact near neighbor graph while practitioners use approximate near neighbor graph (ANN-Graph) to reduce the preprocessing time. This work bridges this gap by presenting the theoretical guarantees of solving NN-Search via greedy search on ANN-Graph for low dimensional and dense vectors. To build this bridge, we leverage several novel tools from computational geometry. Our results provide quantification of the trade-offs associated with the approximation while building a near neighbor graph. We hope our results will open the door for more provable efficient graph-based NN-Search algorithms.",
+    "link": "http://arxiv.org/abs/2303.06210",
+    "total_tokens": 873,
+    "translated_title": "近似最近邻图上最近邻搜索的理论分析",
+    "translated_abstract": "基于图的算法在最近邻搜索问题中展示了最先进的性能。这些经验成功促使需要理论结果来保证这些算法的搜索质量和效率。然而，在基于图的最近邻搜索算法中存在实践与理论之间的差距。当前的理论文献集中于精确最近邻图上的贪心搜索，而从业者使用近似最近邻图（ANN-Graph）来减少预处理时间。本文通过提供解决低维密集向量的贪心搜索ANN-Graph的NN-Search的理论保证来弥合这一差距。为了建立这座桥梁，我们利用了计算几何学中的几个新颖工具。我们的结果提供了与构建近邻图时的近似相关的权衡的量化。我们希望我们的结果将为更多可证明的高效基于图的NN-Search算法打开大门。",
+    "tldr": "本文提出了解决NN-Search的理论保证，通过贪心搜索ANN-Graph来解决低维密集向量的问题。这些结果提供了与构建近邻图时的近似相关的权衡的量化，为更多可证明的高效基于图的NN-Search算法打开了大门。",
+    "en_tldr": "This paper presents theoretical guarantees for solving NN-Search by greedy search on ANN-Graph for low dimensional and dense vectors. The results provide quantification of the trade-offs associated with the approximation while building a near neighbor graph, and open the door for more provable efficient graph-based NN-Search algorithms."
+}

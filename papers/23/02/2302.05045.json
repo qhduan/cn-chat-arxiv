@@ -1,0 +1,10 @@
+{
+    "title": "Exploiting Sparsity in Pruned Neural Networks to Optimize Large Model Training. (arXiv:2302.05045v2 [cs.LG] UPDATED)",
+    "abstract": "Parallel training of neural networks at scale is challenging due to significant overheads arising from communication. Recently, deep learning researchers have developed a variety of pruning algorithms that are capable of pruning (i.e. setting to zero) 80-90% of the parameters in a neural network to yield sparse subnetworks that equal the accuracy of the unpruned parent network. In this work, we propose a novel approach that exploits these sparse subnetworks to optimize the memory utilization and communication in two popular algorithms for parallel deep learning namely -- data and inter-layer parallelism. We integrate our approach into AxoNN, a highly scalable framework for parallel deep learning that relies on data and inter-layer parallelism, and demonstrate the reduction in communication time and memory utilization. On 512 NVIDIA V100 GPUs, our optimizations reduce the memory consumption of a 2.7 billion parameter model by 74%, and the total communication time by 40%, thus providing ",
+    "link": "http://arxiv.org/abs/2302.05045",
+    "total_tokens": 935,
+    "translated_title": "利用剪枝神经网络中的稀疏性来优化大型模型训练",
+    "translated_abstract": "由于通信开销的显著增加，规模化神经网络的并行训练具有挑战性。最近，深度学习研究人员开发了各种剪枝算法，能够剪枝（即将神经网络中的参数设置为零）80-90％的参数，以产生与未剪枝父网络相等的稀疏子网络。在本文中，我们提出了一种新的方法，利用这些稀疏子网络来优化两种流行的深度学习并行算法 - 数据并行和层间并行的内存利用和通信。我们将我们的方法集成到AxoNN中，这是一个高度可扩展的并行深度学习框架，依赖于数据和层间并行，并展示了通信时间和内存利用的减少。在512个NVIDIA V100 GPU上，我们的优化将27亿参数模型的内存消耗减少了74％，总通信时间减少了40％，从而提供了",
+    "tldr": "本文提出了一种新的方法，利用稀疏子网络来优化两种流行的深度学习并行算法 - 数据并行和层间并行的内存利用和通信。在512个NVIDIA V100 GPU上，我们的优化将27亿参数模型的内存消耗减少了74％，总通信时间减少了40％。",
+    "en_tldr": "This paper proposes a novel approach that exploits sparse subnetworks to optimize memory utilization and communication in two popular algorithms for parallel deep learning, and demonstrates significant reductions in memory consumption and communication time on a 2.7 billion parameter model using 512 NVIDIA V100 GPUs."
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Detection of DDoS Attacks in Software Defined Networking Using Machine Learning Models. (arXiv:2303.06513v1 [cs.LG])",
+    "abstract": "The concept of Software Defined Networking (SDN) represents a modern approach to networking that separates the control plane from the data plane through network abstraction, resulting in a flexible, programmable and dynamic architecture compared to traditional networks. The separation of control and data planes has led to a high degree of network resilience, but has also given rise to new security risks, including the threat of distributed denial-of-service (DDoS) attacks, which pose a new challenge in the SDN environment. In this paper, the effectiveness of using machine learning algorithms to detect distributed denial-of-service (DDoS) attacks in software-defined networking (SDN) environments is investigated. Four algorithms, including Random Forest, Decision Tree, Support Vector Machine, and XGBoost, were tested on the CICDDoS2019 dataset, with the timestamp feature dropped among others. Performance was assessed by measures of accuracy, recall, accuracy, and F1 score, with the Rando",
+    "link": "http://arxiv.org/abs/2303.06513",
+    "total_tokens": 901,
+    "translated_title": "使用机器学习模型检测软件定义网络中的DDoS攻击",
+    "translated_abstract": "软件定义网络（SDN）的概念代表了一种现代的网络方法，通过网络抽象将控制平面与数据平面分离，从而实现与传统网络相比更灵活、可编程和动态的架构。控制平面和数据平面的分离导致了高度的网络弹性，但也带来了新的安全风险，包括分布式拒绝服务（DDoS）攻击的威胁，这在SDN环境中构成了新的挑战。本文研究了使用机器学习算法在软件定义网络（SDN）环境中检测分布式拒绝服务（DDoS）攻击的有效性。在CICDDoS2019数据集上测试了四种算法，包括随机森林、决策树、支持向量机和XGBoost，其中时间戳特征被删除等。通过准确率、召回率、准确率和F1分数等指标评估了性能，其中随机森林算法表现最佳。",
+    "tldr": "本文研究了使用机器学习算法在软件定义网络（SDN）环境中检测分布式拒绝服务（DDoS）攻击的有效性，通过测试四种算法，其中随机森林算法表现最佳。",
+    "en_tldr": "This paper investigates the effectiveness of using machine learning algorithms to detect distributed denial-of-service (DDoS) attacks in software-defined networking (SDN) environments, and tests four algorithms on the CICDDoS2019 dataset, with Random Forest performing the best."
+}

@@ -1,0 +1,10 @@
+{
+    "title": "AI-Enhanced Intensive Care Unit: Revolutionizing Patient Care with Pervasive Sensing. (arXiv:2303.06252v1 [cs.AI])",
+    "abstract": "The intensive care unit (ICU) is a specialized hospital space where critically ill patients receive intensive care and monitoring. Comprehensive monitoring is imperative in assessing patients conditions, in particular acuity, and ultimately the quality of care. However, the extent of patient monitoring in the ICU is limited due to time constraints and the workload on healthcare providers. Currently, visual assessments for acuity, including fine details such as facial expressions, posture, and mobility, are sporadically captured, or not captured at all. These manual observations are subjective to the individual, prone to documentation errors, and overburden care providers with the additional workload. Artificial Intelligence (AI) enabled systems has the potential to augment the patient visual monitoring and assessment due to their exceptional learning capabilities. Such systems require robust annotated data to train. To this end, we have developed pervasive sensing and data processing s",
+    "link": "http://arxiv.org/abs/2303.06252",
+    "total_tokens": 882,
+    "translated_title": "AI增强的重症监护室：通过普适感知革命性地改善患者护理",
+    "translated_abstract": "重症监护室（ICU）是一个专门的医院空间，用于接受危重病人的密集护理和监测。全面的监测对于评估患者的病情，特别是病情的严重程度以及最终的护理质量至关重要。然而，由于时间限制和医护人员的工作量，ICU中的患者监测范围受到限制。目前，包括面部表情、姿势和活动能力等细节的视觉评估仅偶尔被捕捉到，或者根本没有被捕捉到。这些手动观察是主观的，容易出现文档错误，并给护理人员带来额外的工作量。人工智能（AI）系统由于其出色的学习能力，有潜力增强患者的视觉监测和评估。这样的系统需要强大的注释数据进行训练。为此，我们开发了普适感知和数据处理系统。",
+    "tldr": "本文介绍了一种AI增强的重症监护室系统，通过普适感知和数据处理，可以改善患者的视觉监测和评估，提高护理质量。",
+    "en_tldr": "This paper introduces an AI-enhanced ICU system that improves patient visual monitoring and assessment, and ultimately enhances the quality of care, through pervasive sensing and data processing."
+}

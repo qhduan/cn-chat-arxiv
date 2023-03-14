@@ -1,0 +1,10 @@
+{
+    "title": "Developing a Trusted Human-AI Network for Humanitarian Benefit. (arXiv:2112.11191v3 [cs.CY] UPDATED)",
+    "abstract": "Artificial intelligences (AI) will increasingly participate digitally and physically in conflicts, yet there is a lack of trused communications with humans for humanitarian purposes. In this paper we consider the integration of a communications protocol (the 'whiteflag protocol'), distributed ledger 'blockchain' technology, and information fusion with AI, to improve conflict communications called 'protected assurance understanding situation and entitities' PAUSE. Such a trusted human-AI communication network could provide accountable information exchange regarding protected entities, critical infrastructure, humanitiarian signals and status updates for humans and machines in conflicts. We examine several realistic potential case studies for the integration of these technologies into a trusted human-AI network for humanitarian benefit including mapping a conflict zone with civilians and combatants in real time, preparation to avoid incidents and using the network to manage misinformatio",
+    "link": "http://arxiv.org/abs/2112.11191",
+    "total_tokens": 865,
+    "translated_title": "为人道主义利益开发可信的人工智能网络",
+    "translated_abstract": "人工智能（AI）将越来越多地在冲突中以数字和物理方式参与，但缺乏与人类进行人道主义目的的可信通信。本文考虑将通信协议（“白旗协议”）、分布式账本“区块链”技术和信息融合与AI集成，以改善冲突通信，称为“受保护的保证理解情况和实体”PAUSE。这样一个可信的人工智能通信网络可以提供关于受保护实体、关键基础设施、人道主义信号和人类和机器在冲突中的状态更新的可问责信息交换。我们研究了几个现实的潜在案例研究，将这些技术集成到一个可信的人工智能网络中，以实现人道主义利益，包括实时映射冲突区域的平民和战斗人员，为避免事故做准备，并使用网络管理错误信息。",
+    "tldr": "本文提出了一种可信的人工智能通信网络，将通信协议、区块链技术和信息融合与AI集成，以改善冲突通信，为人道主义利益提供可问责信息交换。",
+    "en_tldr": "This paper proposes a trusted human-AI communication network that integrates communication protocols, blockchain technology, and information fusion with AI to improve conflict communications for accountable information exchange regarding protected entities, critical infrastructure, and humanitarian signals and status updates for humans and machines in conflicts."
+}

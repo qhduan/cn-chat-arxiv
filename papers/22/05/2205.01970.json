@@ -1,0 +1,10 @@
+{
+    "title": "Non-Stationary Bandit Learning via Predictive Sampling. (arXiv:2205.01970v5 [cs.LG] UPDATED)",
+    "abstract": "Thompson sampling has proven effective across a wide range of stationary bandit environments. However, as we demonstrate in this paper, it can perform poorly when applied to non-stationary environments. We show that such failures are attributed to the fact that, when exploring, the algorithm does not differentiate actions based on how quickly the information acquired loses its usefulness due to non-stationarity. Building upon this insight, we propose predictive sampling, an algorithm that deprioritizes acquiring information that quickly loses usefulness. Theoretical guarantee on the performance of predictive sampling is established through a Bayesian regret bound. We provide versions of predictive sampling for which computations tractably scale to complex bandit environments of practical interest. Through numerical simulations, we demonstrate that predictive sampling outperforms Thompson sampling in all non-stationary environments examined.",
+    "link": "http://arxiv.org/abs/2205.01970",
+    "total_tokens": 862,
+    "translated_title": "非平稳赌博机学习的预测抽样方法",
+    "translated_abstract": "Thompson抽样已经在广泛的平稳赌博机环境中证明了其有效性。然而，正如我们在本文中所展示的，当应用于非平稳环境时，它的表现可能很差。我们表明，这样的失败是由于在探索时，算法没有根据由于非平稳性导致信息快速失去有用性的速度区分行动。基于这一洞见，我们提出了预测抽样算法，该算法降低了获取信息的优先级，这些信息由于快速失去有用性而不再重要。通过贝叶斯遗憾界，我们建立了预测抽样性能的理论保证。我们提供了预测抽样的版本，其计算可扩展到实际感兴趣的复杂赌博机环境。通过数值模拟，我们证明了预测抽样在所有非平稳环境中都优于Thompson抽样。",
+    "tldr": "本文提出了一种预测抽样算法，用于解决非平稳赌博机学习问题。该算法通过降低获取信息的优先级，解决了Thompson抽样在非平稳环境下表现不佳的问题，并在所有非平稳环境中优于Thompson抽样。",
+    "en_tldr": "This paper proposes a predictive sampling algorithm to solve the non-stationary bandit learning problem. By deprioritizing the acquisition of information that quickly loses usefulness, the algorithm outperforms Thompson sampling in all non-stationary environments examined."
+}

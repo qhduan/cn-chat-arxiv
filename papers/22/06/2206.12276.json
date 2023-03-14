@@ -1,0 +1,10 @@
+{
+    "title": "Multi-Frequency Joint Community Detection and Phase Synchronization. (arXiv:2206.12276v2 [cs.SI] UPDATED)",
+    "abstract": "This paper studies the joint community detection and phase synchronization problem on the stochastic block model with relative phase, where each node is associated with an unknown phase angle. This problem, with a variety of real-world applications, aims to recover the cluster structure and associated phase angles simultaneously. We show this problem exhibits a ``multi-frequency'' structure by closely examining its maximum likelihood estimation (MLE) formulation, whereas existing methods are not originated from this perspective. To this end, two simple yet efficient algorithms that leverage the MLE formulation and benefit from the information across multiple frequencies are proposed. The former is a spectral method based on the novel multi-frequency column-pivoted QR factorization. The factorization applied to the top eigenvectors of the observation matrix provides key information about the cluster structure and associated phase angles. The second approach is an iterative multi-frequen",
+    "link": "http://arxiv.org/abs/2206.12276",
+    "total_tokens": 808,
+    "translated_title": "多频联合社区检测和相位同步",
+    "translated_abstract": "本文研究了具有相对相位的随机块模型上的联合社区检测和相位同步问题，其中每个节点都与一个未知的相位角相关联。这个问题具有多种实际应用，旨在同时恢复簇结构和相关的相位角。我们通过仔细研究其最大似然估计（MLE）公式，展示了这个问题呈现出“多频”结构，而现有方法并非源于这个角度。为此，提出了两种简单而高效的算法，利用MLE公式并从多个频率的信息中受益。前者是基于新颖的多频列主元QR分解的谱方法。应用于观测矩阵的前几个特征向量的分解提供了有关簇结构和相关相位角的关键信息。第二种方法是迭代的多频率方法。",
+    "tldr": "本文提出了两种简单而高效的算法，利用MLE公式并从多个频率的信息中受益，用于解决具有相对相位的随机块模型上的联合社区检测和相位同步问题。",
+    "en_tldr": "This paper proposes two simple and efficient algorithms that leverage the MLE formulation and benefit from the information across multiple frequencies to solve the joint community detection and phase synchronization problem on the stochastic block model with relative phase."
+}

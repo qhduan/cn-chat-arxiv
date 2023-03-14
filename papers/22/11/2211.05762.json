@@ -1,0 +1,10 @@
+{
+    "title": "Efficient brain age prediction from 3D MRI volumes using 2D projections. (arXiv:2211.05762v2 [eess.IV] UPDATED)",
+    "abstract": "Using 3D CNNs on high resolution medical volumes is very computationally demanding, especially for large datasets like the UK Biobank which aims to scan 100,000 subjects. Here we demonstrate that using 2D CNNs on a few 2D projections (representing mean and standard deviation across axial, sagittal and coronal slices) of the 3D volumes leads to reasonable test accuracy when predicting the age from brain volumes. Using our approach, one training epoch with 20,324 subjects takes 20 - 50 seconds using a single GPU, which two orders of magnitude faster compared to a small 3D CNN. These results are important for researchers who do not have access to expensive GPU hardware for 3D CNNs.",
+    "link": "http://arxiv.org/abs/2211.05762",
+    "total_tokens": 787,
+    "translated_title": "使用2D投影从3D MRI体积中高效预测脑龄",
+    "translated_abstract": "在高分辨率医学体积上使用3D CNN非常计算密集，特别是对于像英国生物库这样的大型数据集，该库旨在扫描10万个受试者。在这里，我们证明了使用2D CNN在3D体积的几个2D投影（代表轴向，矢状面和冠状面切片的平均值和标准差）上进行预测脑龄时，可以获得合理的测试准确性。使用我们的方法，使用单个GPU进行的一次训练时，20324个受试者需要20-50秒，比小型3D CNN快两个数量级。这些结果对于没有3D CNN昂贵GPU硬件的研究人员非常重要。",
+    "tldr": "本文提出了一种使用2D投影从3D MRI体积中高效预测脑龄的方法，相比于使用3D CNN，该方法在计算速度上有两个数量级的提升，对于没有3D CNN昂贵GPU硬件的研究人员非常有用。",
+    "en_tldr": "This paper proposes an efficient method for predicting brain age from 3D MRI volumes using 2D projections, which is two orders of magnitude faster than using 3D CNNs and is important for researchers without access to expensive GPU hardware."
+}

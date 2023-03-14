@@ -1,0 +1,10 @@
+{
+    "title": "XG-BoT: An Explainable Deep Graph Neural Network for Botnet Detection and Forensics. (arXiv:2207.09088v5 [cs.CR] UPDATED)",
+    "abstract": "In this paper, we propose XG-BoT, an explainable deep graph neural network model for botnet node detection. The proposed model comprises a botnet detector and an explainer for automatic forensics. The XG-BoT detector can effectively detect malicious botnet nodes in large-scale networks. Specifically, it utilizes a grouped reversible residual connection with a graph isomorphism network to learn expressive node representations from botnet communication graphs. The explainer, based on the GNNExplainer and saliency map in XG-BoT, can perform automatic network forensics by highlighting suspicious network flows and related botnet nodes. We evaluated XG-BoT using real-world, large-scale botnet network graph datasets. Overall, XG-BoT outperforms state-of-the-art approaches in terms of key evaluation metrics. Additionally, we demonstrate that the XG-BoT explainers can generate useful explanations for automatic network forensics.",
+    "link": "http://arxiv.org/abs/2207.09088",
+    "total_tokens": 940,
+    "translated_title": "XG-BoT：一种可解释的深度图神经网络用于僵尸网络检测和取证",
+    "translated_abstract": "本文提出了一种名为XG-BoT的可解释的深度图神经网络模型，用于检测僵尸网络节点。该模型包括一个僵尸网络检测器和一个自动取证的解释器。XG-BoT检测器可以有效地检测大规模网络中的恶意僵尸网络节点。具体而言，它利用分组可逆残差连接和图同构网络从僵尸网络通信图中学习表达性节点表示。基于GNNExplainer和XG-BoT中的显著性图，解释器可以通过突出显示可疑的网络流和相关的僵尸网络节点来执行自动网络取证。我们使用真实的大规模僵尸网络图数据集评估了XG-BoT。总体而言，XG-BoT在关键评估指标方面优于现有的最先进方法。此外，我们证明了XG-BoT解释器可以为自动网络取证生成有用的解释。",
+    "tldr": "本文提出了一种名为XG-BoT的可解释的深度图神经网络模型，用于检测大规模网络中的恶意僵尸网络节点，并通过突出显示可疑的网络流和相关的僵尸网络节点来执行自动网络取证。该模型在关键评估指标方面优于现有的最先进方法。",
+    "en_tldr": "This paper proposes an explainable deep graph neural network model called XG-BoT for detecting malicious botnet nodes in large-scale networks and performing automatic network forensics by highlighting suspicious network flows and related botnet nodes. The model outperforms state-of-the-art approaches in terms of key evaluation metrics."
+}

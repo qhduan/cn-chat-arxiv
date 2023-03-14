@@ -1,0 +1,10 @@
+{
+    "title": "Learning Neuro-symbolic Programs for Language Guided Robot Manipulation. (arXiv:2211.06652v2 [cs.RO] UPDATED)",
+    "abstract": "Given a natural language instruction and an input scene, our goal is to train a model to output a manipulation program that can be executed by the robot. Prior approaches for this task possess one of the following limitations: (i) rely on hand-coded symbols for concepts limiting generalization beyond those seen during training [1] (ii) infer action sequences from instructions but require dense sub-goal supervision [2] or (iii) lack semantics required for deeper object-centric reasoning inherent in interpreting complex instructions [3]. In contrast, our approach can handle linguistic as well as perceptual variations, end-to-end trainable and requires no intermediate supervision. The proposed model uses symbolic reasoning constructs that operate on a latent neural object-centric representation, allowing for deeper reasoning over the input scene. Central to our approach is a modular structure consisting of a hierarchical instruction parser and an action simulator to learn disentangled act",
+    "link": "http://arxiv.org/abs/2211.06652",
+    "total_tokens": 921,
+    "translated_title": "学习神经符号程序以进行语言引导的机器人操作",
+    "translated_abstract": "给定自然语言指令和输入场景，我们的目标是训练一个模型，输出一个可以由机器人执行的操作程序。先前的方法存在以下限制之一：（i）依赖手工编码的概念符号，限制了超出训练期间所见的一般化能力[1]（ii）从指令中推断出动作序列，但需要密集的子目标监督[2]或（iii）缺乏解释复杂指令所需的语义，这种语义需要更深入的以物体为中心的推理[3]。相比之下，我们的方法可以处理语言和感知变化，端到端可训练，不需要中间监督。所提出的模型使用符号推理构造，这些构造在潜在的神经物体为中心的表示上操作，允许对输入场景进行更深入的推理。我们方法的核心是一个模块化结构，包括分层指令解析器和动作模拟器，以学习解耦的行动序列。",
+    "tldr": "该论文提出了一种学习神经符号程序以进行语言引导的机器人操作的方法，可以处理语言和感知变化，端到端可训练，不需要中间监督。该方法使用符号推理构造，在潜在的神经物体为中心的表示上操作，允许对输入场景进行更深入的推理。",
+    "en_tldr": "This paper proposes a method for learning neuro-symbolic programs for language guided robot manipulation, which can handle linguistic and perceptual variations, is end-to-end trainable, and requires no intermediate supervision. The method uses symbolic reasoning constructs that operate on a latent neural object-centric representation, allowing for deeper reasoning over the input scene."
+}

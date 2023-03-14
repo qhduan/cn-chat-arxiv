@@ -1,0 +1,10 @@
+{
+    "title": "Symmetry Defense Against CNN Adversarial Perturbation Attacks. (arXiv:2210.04087v2 [cs.LG] UPDATED)",
+    "abstract": "Convolutional neural network classifiers (CNNs) are susceptible to adversarial attacks that perturb original samples to fool classifiers such as an autonomous vehicle's road sign image classifier. CNNs also lack invariance in the classification of symmetric samples because CNNs can classify symmetric samples differently. Considered together, the CNN lack of adversarial robustness and the CNN lack of invariance mean that the classification of symmetric adversarial samples can differ from their incorrect classification. Could symmetric adversarial samples revert to their correct classification? This paper answers this question by designing a symmetry defense that inverts or horizontally flips adversarial samples before classification against adversaries unaware of the defense. Against adversaries aware of the defense, the defense devises a Klein four symmetry subgroup that includes the horizontal flip and pixel inversion symmetries. The symmetry defense uses the subgroup symmetries in ac",
+    "link": "http://arxiv.org/abs/2210.04087",
+    "total_tokens": 820,
+    "translated_title": "对抗性CNN扰动攻击的对称防御",
+    "translated_abstract": "卷积神经网络分类器（CNN）容易受到对抗性攻击，这些攻击会扰动原始样本以欺骗分类器，例如自动驾驶汽车的道路标志图像分类器。CNN在对称样本的分类中也缺乏不变性，因为CNN可以以不同的方式对称样本进行分类。考虑到CNN缺乏对抗性鲁棒性和CNN缺乏不变性，对称对抗样本的分类可能与其错误分类不同。本文通过设计一种对称防御来回答这个问题，在对抗者不知道防御的情况下，将对称对抗样本翻转或水平翻转后再进行分类。对于知道防御的对手，防御设计了一个Klein四个对称子群，其中包括水平翻转和像素反转对称性。对称防御使用子群对称性进行分类，以提高对抗性鲁棒性。",
+    "tldr": "本文提出了一种对称防御方法，通过翻转或水平翻转对称对抗样本来提高对抗性鲁棒性，同时使用子群对称性进行分类。",
+    "en_tldr": "This paper proposes a symmetry defense method to improve adversarial robustness by flipping or horizontally flipping symmetric adversarial samples, and uses subgroup symmetries for classification."
+}

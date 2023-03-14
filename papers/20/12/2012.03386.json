@@ -1,0 +1,10 @@
+{
+    "title": "SoK: Training Machine Learning Models over Multiple Sources with Privacy Preservation. (arXiv:2012.03386v2 [cs.CR] UPDATED)",
+    "abstract": "Nowadays, gathering high-quality training data from multiple data sources with privacy preservation is a crucial challenge to training high-performance machine learning models. The potential solutions could break the barriers among isolated data corpus, and consequently enlarge the range of data available for processing. To this end, both academic researchers and industrial vendors are recently strongly motivated to propose two main-stream folders of solutions mainly based on software constructions: 1) Secure Multi-party Learning (MPL for short); and 2) Federated Learning (FL for short). The above two technical folders have their advantages and limitations when we evaluate them according to the following five criteria: security, efficiency, data distribution, the accuracy of trained models, and application scenarios.  Motivated to demonstrate the research progress and discuss the insights on the future directions, we thoroughly investigate these protocols and frameworks of both MPL and",
+    "link": "http://arxiv.org/abs/2012.03386",
+    "total_tokens": 1010,
+    "translated_title": "SoK: 隐私保护下多源训练机器学习模型",
+    "translated_abstract": "如今，从多个数据源中收集高质量的训练数据并保护隐私是训练高性能机器学习模型的关键挑战。潜在的解决方案可以打破孤立数据语料库之间的障碍，从而扩大可用于处理的数据范围。为此，学术研究人员和工业供应商最近强烈动力，提出了两种主流解决方案，主要基于软件构造：1）安全多方学习（MPL）；和2）联邦学习（FL）。当我们根据以下五个标准评估它们时，上述两个技术文件夹都有其优点和局限性：安全性，效率，数据分布，训练模型的准确性和应用场景。为了展示研究进展并讨论未来方向的见解，我们彻底调查了这些协议和MPL和FL的框架，并总结了该领域的最新研究进展。我们还对这两个技术文件夹进行了全面比较，并讨论了开放的挑战和未来的研究方向。",
+    "tldr": "本文综述了隐私保护下多源训练机器学习模型的两种主流解决方案：安全多方学习和联邦学习，并对它们的安全性、效率、数据分布、训练模型的准确性和应用场景进行了比较和讨论，同时探讨了未来的研究方向。",
+    "en_tldr": "This paper reviews two mainstream solutions for training machine learning models over multiple sources with privacy preservation: Secure Multi-party Learning (MPL) and Federated Learning (FL). The security, efficiency, data distribution, accuracy of trained models, and application scenarios of these two solutions are compared and discussed, and future research directions are explored."
+}

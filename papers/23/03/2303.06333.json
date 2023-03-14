@@ -1,0 +1,10 @@
+{
+    "title": "Parachute: Evaluating Interactive Human-LM Co-writing Systems. (arXiv:2303.06333v1 [cs.HC])",
+    "abstract": "A surge of advances in language models (LMs) has led to significant interest in using LMs to build co-writing systems, in which humans and LMs interactively contribute to a shared writing artifact. However, there is a lack of studies assessing co-writing systems in interactive settings. We propose a human-centered evaluation framework, Parachute, for interactive co-writing systems. Parachute showcases an integrative view of interaction evaluation, where each evaluation aspect consists of categorized practical metrics. Furthermore, we present Parachute with a use case to demonstrate how to evaluate and compare co-writing systems using Parachute.",
+    "link": "http://arxiv.org/abs/2303.06333",
+    "total_tokens": 722,
+    "translated_title": "降落伞：评估交互式人机共同撰写系统",
+    "translated_abstract": "语言模型的飞速发展引起了人们对于利用语言模型构建共同撰写系统的极大兴趣，其中人类和语言模型交互地为共同的写作成果做出贡献。然而，缺乏对于交互式环境下共同撰写系统的评估研究。我们提出了一个以人为中心的评估框架Parachute，用于交互式共同撰写系统的评估。Parachute展示了交互评估的综合视角，其中每个评估方面都包含了分类的实用指标。此外，我们提供了一个使用案例来演示如何使用Parachute评估和比较共同撰写系统。",
+    "tldr": "本文提出了一个以人为中心的评估框架Parachute，用于交互式共同撰写系统的评估，该框架包含了分类的实用指标，可以用于评估和比较共同撰写系统。",
+    "en_tldr": "This paper proposes a human-centered evaluation framework, Parachute, for interactive co-writing systems, which includes categorized practical metrics and can be used to evaluate and compare co-writing systems."
+}
