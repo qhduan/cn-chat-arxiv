@@ -241,8 +241,9 @@ Abstract: {description_text}'''
 
 
 if __name__ == '__main__':
-    chat_arxiv('cs.AI')
-    chat_arxiv('cs.CL')
-    chat_arxiv('cs.LG')
-    chat_arxiv('econ')
-    chat_arxiv('q-fin')
+    cs = '''AI,AR,CC,CE,CG,CL,CR,CV,CY,DB,DC,DL,DM,DS,ET,FL,GL,GR,GT,HC,IR,IT,LG,LO,MA,MM,MS,NA,NE,NI,OH,OS,PF,PL,RO,SC,SD,SE,SI,SY'''.split(',')
+    for c in cs:
+        chat_arxiv(f'cs.{c}')
+    other = '''astro-ph,cond-mat,econ,eess,gr-qc,hep-ex,hep-lat,hep-ph,hep-th,math,math-ph,nlin,nucl-ex,nucl-th,physics,q-bio,q-fin,quant-ph,stat'''.split(',')
+    for c in other:
+        chat_arxiv(c)
