@@ -10,6 +10,8 @@
 
 https://github.com/qhduan/cn-chat-arxiv/raw/master/cs.AI.xml
 
+https://github.com/qhduan/cn-chat-arxiv/raw/master/ + 具体文件
+
 ## 领域列表
 
 来自arxiv的rss导出
