@@ -2,6 +2,9 @@ name: Fetch arxiv daily
 on:
   schedule:
     - cron: '0 9,21 * * *'
+  push:
+    branches:
+      - master
 jobs:
   build:
     runs-on: ubuntu-latest

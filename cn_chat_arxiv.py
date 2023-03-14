@@ -102,7 +102,7 @@ def clean_title(x):
 def make_markdown(rets):
     summary = []
     details = []
-    for x in rets[:50]:
+    for x in rets:
         if 'tldr' in x:
             ind = len(summary) + 1
             tldr = x['tldr'].replace('\n', ' ')
@@ -158,7 +158,7 @@ def make_rss(rets, arxiv_channel='cs.AI'):
     description.text = f"This is arxiv RSS feed for {arxiv_channel}"
 
     # Add some items to the channel
-    for x in rets[:50]:
+    for x in rets:
         if 'tldr' in x:
             item = ET.SubElement(channel, "item")
             item_title = ET.SubElement(item, "title")
