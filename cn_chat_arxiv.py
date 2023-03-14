@@ -108,7 +108,7 @@ def make_markdown(rets):
             tldr = x['tldr'].replace('\n', ' ')
             en_tldr = x.get('en_tldr', '').replace('\n', ' ')
             summary.append(f"| [^{ind}] | [{clean_title(x['title'])}]({x['link']}) | {tldr} |")
-            ta = x['translated_abstract'].replace('\n', ' ')
+            ta = x.get('translated_abstract', '').replace('\n', ' ')
             a = x['abstract'].replace('\n', ' ')
             details.append(f"""[^{ind}]: {x['translated_title']}
 
@@ -167,7 +167,7 @@ def make_rss(rets, arxiv_channel='cs.AI'):
             item_link.text = x['link']
             item_desc = ET.SubElement(item, "description")
 
-            ta = x['translated_abstract'].replace('\n', ' ')
+            ta = x.get('translated_abstract', '').replace('\n', ' ')
             a = x['abstract'].replace('\n', ' ')
             item_desc.text = f"""<p>
 {x['translated_title']}
