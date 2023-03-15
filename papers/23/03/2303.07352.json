@@ -1,0 +1,10 @@
+{
+    "title": "Sequential Spatial Network for Collision Avoidance in Autonomous Driving. (arXiv:2303.07352v1 [cs.CV])",
+    "abstract": "Several autonomous driving strategies have been applied to autonomous vehicles, especially in the collision avoidance area. The purpose of collision avoidance is achieved by adjusting the trajectory of autonomous vehicles (AV) to avoid intersection or overlap with the trajectory of surrounding vehicles. A large number of sophisticated vision algorithms have been designed for target inspection, classification, and other tasks, such as ResNet, YOLO, etc., which have achieved excellent performance in vision tasks because of their ability to accurately and quickly capture regional features. However, due to the variability of different tasks, the above models achieve good performance in capturing small regions but are still insufficient in correlating the regional features of the input image with each other. In this paper, we aim to solve this problem and develop an algorithm that takes into account the advantages of CNN in capturing regional features while establishing feature correlation ",
+    "link": "http://arxiv.org/abs/2303.07352",
+    "total_tokens": 706,
+    "translated_title": "自主驾驶中基于时序空间网络的碰撞避免方法",
+    "translated_abstract": "在自主驾驶领域中，特别是在碰撞避免方面，已经应用了多种自主驾驶策略。通过调整自主车辆的轨迹避免与周围车辆轨迹的交叉或重叠，以实现碰撞避免的目的。本文旨在解决由于回归模型难以有效地关联输入图像的区域特征而引起的问题，提出了一种新的基于时序空间网络的碰撞避免算法。",
+    "tldr": "本文提出了一种新的基于时序空间网络的碰撞避免算法，能够有效关联输入图像的区域特征，以实现自主驾驶领域中的碰撞避免。",
+    "en_tdlr": "The paper proposes a novel collision avoidance algorithm based on sequential spatial network, which can effectively correlate regional features of input images and achieve collision avoidance in autonomous driving."
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Thought Flow Nets: From Single Predictions to Trains of Model Thought. (arXiv:2107.12220v2 [cs.LG] UPDATED)",
+    "abstract": "When humans solve complex problems, they typically create a sequence of ideas (involving an intuitive decision, reflection, error correction, etc.) in order to reach a conclusive decision. Contrary to this, today's models are mostly trained to map an input to one single and fixed output. In this paper, we investigate how we can give models the opportunity of a second, third and $k$-th thought. Taking inspiration from Hegel's dialectics, we propose the concept of a thought flow which creates a sequence of predictions. We present a self-correction mechanism that is trained to estimate the model's correctness and performs iterative prediction updates based on the correctness prediction's gradient. We introduce our method at the example of question answering and conduct extensive experiments that demonstrate (i) our method's ability to correct its own predictions and (ii) its potential to notably improve model performances. In addition, we conduct a qualitative analysis of thought flow cor",
+    "link": "http://arxiv.org/abs/2107.12220",
+    "total_tokens": 881,
+    "translated_title": "思路流网络：从单一预测到模型思路的串联",
+    "translated_abstract": "当人类解决复杂问题时，通常会创建一系列思路（涉及直觉决策、反思、错误更正等）以达成决定。但是，如今的模型大多被训练为将输入映射到单一且固定的输出。本文研究了如何让模型有第二、第三和第 k 次思考的机会。我们从黑格尔的辩证法中获得灵感，提出了思路流的概念，创建了一系列预测。我们提出了一个自我校正机制，它被训练用于估计模型的正确性，并基于正确性预测的梯度执行迭代预测更新。我们以问答为例介绍了我们的方法，并进行了广泛的实验，证明了（i）我们的方法能够纠正自己的预测，（ii）它能够显著提高模型的性能。此外，我们对思路流的语义校验进行了定性分析。",
+    "tldr": "本文探讨了给模型第二次、第三次甚至第k次思考机会的思路流网络，其利用自我校正机制和梯度更新能够纠正自身预测，该方法可显著提高模型性能。",
+    "en_tdlr": "This paper investigates the thought flow networks, which allow models to have multiple thoughts and create a sequence of predictions. The self-correction mechanism and gradient update can correct the predictions and improve the model performance significantly."
+}

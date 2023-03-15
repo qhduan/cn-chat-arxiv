@@ -1,0 +1,8 @@
+{
+    "title": "Implant Global and Local Hierarchy Information to Sequence based Code Representation Models. (arXiv:2303.07826v1 [cs.SE])",
+    "abstract": "Source code representation with deep learning techniques is an important research field. There have been many studies that learn sequential or structural information for code representation. But sequence-based models and non-sequence-models both have their limitations. Researchers attempt to incorporate structural information to sequence-based models, but they only mine part of token-level hierarchical structure information. In this paper, we analyze how the complete hierarchical structure influences the tokens in code sequences and abstract this influence as a property of code tokens called hierarchical embedding. The hierarchical embedding is further divided into statement-level global hierarchy and token-level local hierarchy. Furthermore, we propose the Hierarchy Transformer (HiT), a simple but effective sequence model to incorporate the complete hierarchical embeddings of source code into a Transformer model. We demonstrate the effectiveness of hierarchical embedding on learning c",
+    "link": "http://arxiv.org/abs/2303.07826",
+    "total_tokens": 866,
+    "tldr": "本文通过分析完整的分层结构对代码序列中的令牌影响，将影响抽象为代码令牌的一种属性——分层嵌入，并提出了层次变压器（HiT）模型，将完整的分层嵌入源代码纳入Transformer模型。其可以有效地学习C代码表示。",
+    "en_tdlr": "This paper analyzes how the complete hierarchical structure influences the tokens in code sequences and proposes the Hierarchy Transformer model that effectively incorporates this influence into a Transformer model for learning C code representation."
+}

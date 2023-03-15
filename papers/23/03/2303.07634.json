@@ -1,0 +1,10 @@
+{
+    "title": "I$^2$-SDF: Intrinsic Indoor Scene Reconstruction and Editing via Raytracing in Neural SDFs. (arXiv:2303.07634v1 [cs.CV])",
+    "abstract": "In this work, we present I$^2$-SDF, a new method for intrinsic indoor scene reconstruction and editing using differentiable Monte Carlo raytracing on neural signed distance fields (SDFs). Our holistic neural SDF-based framework jointly recovers the underlying shapes, incident radiance and materials from multi-view images. We introduce a novel bubble loss for fine-grained small objects and error-guided adaptive sampling scheme to largely improve the reconstruction quality on large-scale indoor scenes. Further, we propose to decompose the neural radiance field into spatially-varying material of the scene as a neural field through surface-based, differentiable Monte Carlo raytracing and emitter semantic segmentations, which enables physically based and photorealistic scene relighting and editing applications. Through a number of qualitative and quantitative experiments, we demonstrate the superior quality of our method on indoor scene reconstruction, novel view synthesis, and scene editin",
+    "link": "http://arxiv.org/abs/2303.07634",
+    "total_tokens": 976,
+    "translated_title": "I$^2$-SDF: 通过神经网络中的光线追踪实现内部场景重建和编辑",
+    "translated_abstract": "本文提出了一种名为 I$^2$-SDF 的新方法，可使用可微分的蒙特卡罗光线追踪技术对神经网络有符号距离场中的多视图图像进行物体重建、辐射和材质恢复。针对小型物体，我们引入了新的气泡损失函数，以及误差引导自适应取样方案，大大提高了大规模室内场景的重建质量。此外，我们提出将神经辐射场分解为场景的空间变化材料，并通过基于表面的可微蒙特卡罗光线追踪和发射器语义分割来实现基于物理和逼真的场景重照和编辑应用。通过大量的定量和定性实验，我们展示了我们的方法在室内场景重建、新视角合成和场景编辑方面的卓越质量。",
+    "tldr": "本文提出了 I$^2$-SDF 方法，使用可微分的蒙特卡罗光线跟踪技术实现了室内场景的重建和编辑，采用气泡损失函数和错误引导的自适应采样方案提高了重建质量，同时分解神经辐射场为场景的空间变化材料实现了物理和逼真的场景编辑应用。",
+    "en_tdlr": "This paper presents I$^2$-SDF, a novel method for intrinsic indoor scene reconstruction and editing using differentiable Monte Carlo raytracing on neural signed distance fields (SDFs). The proposed method achieves high-quality results on scene reconstruction, novel view synthesis, and scene editing by utilizing bubble loss, error-guided adaptive sampling, and decomposition of neural radiance field into spatially-varying material."
+}

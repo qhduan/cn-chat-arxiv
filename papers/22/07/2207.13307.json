@@ -1,0 +1,10 @@
+{
+    "title": "Marker and source-marker reprogramming of Most Permissive Boolean networks and ensembles with BoNesis. (arXiv:2207.13307v3 [eess.SY] UPDATED)",
+    "abstract": "Boolean networks (BNs) are discrete dynamical systems with applications to the modeling of cellular behaviors. In this paper, we demonstrate how the software BoNesis can be employed to exhaustively identify combinations of perturbations which enforce properties on their fixed points and attractors. We consider marker properties, which specify that some components are fixed to a specific value. We study 4 variants of the marker reprogramming problem: the reprogramming of fixed points, of minimal trap spaces, and of fixed points and minimal trap spaces reachable from a given initial configuration with the most permissive update mode. The perturbations consist of fixing a set of components to a fixed value. They can destroy and create new attractors. In each case, we give an upper bound on their theoretical computational complexity, and give an implementation of the resolution using the BoNesis Python framework. Finally, we lift the reprogramming problems to ensembles of BNs, as supported",
+    "link": "http://arxiv.org/abs/2207.13307",
+    "total_tokens": 890,
+    "translated_title": "BoNesis软件在最大包容布尔网络和集合的标记和源标记再编程中的应用",
+    "translated_abstract": "布尔网络（BNs）是应用于细胞行为建模的离散动态系统。本文展示了如何使用BoNesis软件彻底识别强制其固定点和吸引子具有属性的扰动组合。我们考虑标记属性，它指定某些组件固定为特定值。我们研究了标记再编程问题的4个变体：固定点、最小陷阱空间、及其可从给定初始配置到达的具有最宽容更新模式的固定点和最小陷阱空间的再编程。扰动由将一组组件固定为固定值组成。它们可以破坏和创建新的吸引子。在每种情况下，我们给出了它们的理论计算复杂度上限，并利用BoNesis Python框架实现了解决方案。最后，我们将再编程问题提升到BNs的集合中。",
+    "tldr": "本文介绍了BoNesis软件在标记和源标记再编程问题中的应用，使用扰动固定点和最小陷阱空间，通过在BNs和集合中进行讨论和分析，得出相关的计算复杂度和解决方案。",
+    "en_tdlr": "This paper demonstrates the application of the BoNesis software in the marker and source-marker reprogramming problem using perturbations to fix the points and minimal trap spaces of BNs and ensembles. Theoretical computational complexity and solutions are analyzed and discussed."
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Continuous Risk Measures for Driving Support. (arXiv:2303.08007v1 [cs.RO])",
+    "abstract": "In this paper, we compare three different model-based risk measures by evaluating their stengths and weaknesses qualitatively and testing them quantitatively on a set of real longitudinal and intersection scenarios. We start with the traditional heuristic Time-To-Collision (TTC), which we extend towards 2D operation and non-crash cases to retrieve the Time-To-Closest-Encounter (TTCE). The second risk measure models position uncertainty with a Gaussian distribution and uses spatial occupancy probabilities for collision risks. We then derive a novel risk measure based on the statistics of sparse critical events and so-called survival conditions. The resulting survival analysis shows to have an earlier detection time of crashes and less false positive detections in near-crash and non-crash cases supported by its solid theoretical grounding. It can be seen as a generalization of TTCE and the Gaussian method which is suitable for the validation of ADAS and AD.",
+    "link": "http://arxiv.org/abs/2303.08007",
+    "total_tokens": 906,
+    "translated_title": "驾驶支持的连续风险度量",
+    "translated_abstract": "本文评估了三种不同的基于模型的风险度量，比较它们的优劣，并在一组真实的纵向和交叉场景中进行了定量测试。我们从传统的启发式时间相遇（TTC）开始，将其扩展到2D操作和非碰撞情况，以恢复最接近遭遇时间（TTCE）。第二个风险度量使用高斯分布建模位置不确定性，并使用空间占用概率来计算碰撞风险。然后，我们基于稀疏关键事件和所谓的生存条件提出了一种新的风险度量。导致的生存分析显示在碰撞的早期检测时间和在近碰撞和非碰撞情况下较少的误报检测方面具有较早的检测时间，并得到其坚实理论基础支持。它可以被看作是TTCE和适用于ADAS和AD验证的高斯方法的概括。",
+    "tldr": "本文通过比较三种不同的基于模型的风险度量方法并在真实情景下测试，提出了基于稀疏关键事件和生存条件的一种新风险度量方法，该方法具有较早的碰撞检测时间和较少的误报检测，适用于ADAS和AD验证。",
+    "en_tdlr": "This paper presents a comparison of three different model-based risk measures for driving support and derives a novel risk measure based on sparse critical events and survival conditions, which shows earlier detection time of crashes and less false positive detections in near-crash and non-crash cases and is suitable for ADAS and AD validation."
+}

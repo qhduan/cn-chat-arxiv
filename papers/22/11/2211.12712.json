@@ -1,0 +1,7 @@
+{
+    "title": "Contrastive Identity-Aware Learning for Multi-Agent Value Decomposition. (arXiv:2211.12712v2 [cs.LG] UPDATED)",
+    "abstract": "Value Decomposition (VD) aims to deduce the contributions of agents for decentralized policies in the presence of only global rewards, and has recently emerged as a powerful credit assignment paradigm for tackling cooperative Multi-Agent Reinforcement Learning (MARL) problems. One of the main challenges in VD is to promote diverse behaviors among agents, while existing methods directly encourage the diversity of learned agent networks with various strategies. However, we argue that these dedicated designs for agent networks are still limited by the indistinguishable VD network, leading to homogeneous agent behaviors and thus downgrading the cooperation capability. In this paper, we propose a novel Contrastive Identity-Aware learning (CIA) method, explicitly boosting the credit-level distinguishability of the VD network to break the bottleneck of multi-agent diversity. Specifically, our approach leverages contrastive learning to maximize the mutual information between the temporal credi",
+    "link": "http://arxiv.org/abs/2211.12712",
+    "total_tokens": 886,
+    "tldr": "提出了一种对抗身份感知学习（CIA）方法，通过增强VD网络的可区分性，打破了多智体多样性的瓶颈，促进智体之间的协作能力。"
+}

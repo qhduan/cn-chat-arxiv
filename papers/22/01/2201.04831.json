@@ -1,0 +1,10 @@
+{
+    "title": "Knowledge Graph Augmented Network Towards Multiview Representation Learning for Aspect-based Sentiment Analysis. (arXiv:2201.04831v2 [cs.CL] UPDATED)",
+    "abstract": "Aspect-based sentiment analysis (ABSA) is a fine-grained task of sentiment analysis. To better comprehend long complicated sentences and obtain accurate aspect-specific information, linguistic and commonsense knowledge are generally required in this task. However, most current methods employ complicated and inefficient approaches to incorporate external knowledge, e.g., directly searching the graph nodes. Additionally, the complementarity between external knowledge and linguistic information has not been thoroughly studied. To this end, we propose a knowledge graph augmented network KGAN, which aims to effectively incorporate external knowledge with explicitly syntactic and contextual information. In particular, KGAN captures the sentiment feature representations from multiple different perspectives, i.e., context-, syntaxand knowledge-based. First, KGAN learns the contextual and syntactic representations in parallel to fully extract the semantic features. Then, KGAN integrates the k",
+    "link": "http://arxiv.org/abs/2201.04831",
+    "total_tokens": 863,
+    "translated_title": "基于知识图谱增强网络的多视角表示学习用于方面情感分析",
+    "translated_abstract": "方面情感分析（ABSA）是情感分析的一项细粒度任务。为了更好地理解长句子并获取准确的方面特定信息，通常需要语言和常识知识。然而，大多数现有方法采用复杂和低效的方法来包含外部知识，例如直接搜索图形节点。此外，外部知识和语言信息之间的互补性还没有得到彻底研究。为此，我们提出了一种知识图增强网络KGAN，旨在有效地将外部知识与明确的句法和上下文信息相结合。特别地，KGAN从多个不同的角度捕获情感特征表示，即基于上下文、句法和知识的。首先，KGAN并行学习上下文和句法表示，以充分提取语义特征。然后，KGAN将外部知识与上下文和句法信息相融合。",
+    "tldr": "本文提出了一种名为KGAN的模型，通过知识图谱增强网络，将外部知识和上下文、句法信息相结合，从多个角度捕获情感特征，实现了多视角的表示学习。",
+    "en_tdlr": "This paper proposes a model named KGAN, which effectively combines external knowledge with syntactic and contextual information through knowledge graph augmented network to capture sentiment features from multiple perspectives, achieving multiview representation learning."
+}

@@ -1,0 +1,10 @@
+{
+    "title": "ChatGPT Prompt Patterns for Improving Code Quality, Refactoring, Requirements Elicitation, and Software Design. (arXiv:2303.07839v1 [cs.SE])",
+    "abstract": "This paper presents prompt design techniques for software engineering, in the form of patterns, to solve common problems when using large language models (LLMs), such as ChatGPT to automate common software engineering activities, such as ensuring code is decoupled from third-party libraries and simulating a web application API before it is implemented. This paper provides two contributions to research on using LLMs for software engineering. First, it provides a catalog of patterns for software engineering that classifies patterns according to the types of problems they solve. Second, it explores several prompt patterns that have been applied to improve requirements elicitation, rapid prototyping, code quality, refactoring, and system design.",
+    "link": "http://arxiv.org/abs/2303.07839",
+    "total_tokens": 777,
+    "translated_title": "ChatGPT提示模式用于提高代码质量、重构、需求调查和软件设计",
+    "translated_abstract": "本文提出了一种关于软件工程的提示设计技术，通过模式解决使用大型语言模型（LLMs），例如ChatGPT自动化常用的软件工程活动中遇到的通用问题，例如确保代码与第三方库解耦，并在实现之前模拟Web应用程序API。本文为使用LLMs进行软件工程的研究提供了两个贡献。首先，它提供了一种软件工程模式目录，根据它们解决的问题类型分类模式。其次，它探讨了几种提示模式，这些模式已应用于改善需求调查、快速原型设计、代码质量、重构和系统设计。",
+    "tldr": "本文提出了ChatGPT提示模式，用于提高代码质量、重构、需求调查和软件设计。它提供了软件工程模式目录，并探讨了几种提示模式，包括改善需求调查、快速原型设计、代码质量、重构和系统设计。",
+    "en_tdlr": "This paper proposes ChatGPT prompt patterns to improve code quality, refactoring, requirements elicitation, and software design. It provides a catalog of software engineering patterns and explores several prompt patterns, including improving requirements elicitation, rapid prototyping, code quality, refactoring, and system design."
+}

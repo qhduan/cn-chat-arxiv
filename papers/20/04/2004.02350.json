@@ -1,0 +1,12 @@
+{
+    "title": "Split Cycle: A New Condorcet Consistent Voting Method Independent of Clones and Immune to Spoilers. (arXiv:2004.02350v9 [cs.GT] UPDATED)",
+    "abstract": "We propose a Condorcet consistent voting method that we call Split Cycle. Split Cycle belongs to the small family of known voting methods satisfying the anti-vote-splitting criterion of independence of clones. In this family, only Split Cycle satisfies a new criterion we call immunity to spoilers, which concerns adding candidates to elections, as well as the known criteria of positive involvement and negative involvement, which concern adding voters to elections. Thus, in contrast to other clone-independent methods, Split Cycle mitigates both ``spoiler effects'' and ``strong no show paradoxes.''",
+    "link": "http://arxiv.org/abs/2004.02350",
+    "context": "Title: Split Cycle: A New Condorcet Consistent Voting Method Independent of Clones and Immune to Spoilers. (arXiv:2004.02350v9 [cs.GT] UPDATED)\nAbstract: We propose a Condorcet consistent voting method that we call Split Cycle. Split Cycle belongs to the small family of known voting methods satisfying the anti-vote-splitting criterion of independence of clones. In this family, only Split Cycle satisfies a new criterion we call immunity to spoilers, which concerns adding candidates to elections, as well as the known criteria of positive involvement and negative involvement, which concern adding voters to elections. Thus, in contrast to other clone-independent methods, Split Cycle mitigates both ``spoiler effects'' and ``strong no show paradoxes.''",
+    "path": "papers/20/04/2004.02350.json",
+    "total_tokens": 739,
+    "translated_title": "Split Cycle：一种新的康多塞一致投票方法，独立于克隆并对攻击者具有免疫性",
+    "translated_abstract": "我们提出了一种康多塞一致的投票方法，称为Split Cycle。Split Cycle属于已知的几种满足克隆无关性的反投票分割标准的投票方法之一。在这个家族中，只有Split Cycle满足我们称为对攻击者具有免疫性的新标准，该标准涉及向选举中添加候选人，以及涉及向选举中添加选民的已知标准，包括正结社和负结社。因此，与其他克隆无关的方法相比，Split Cycle减轻了“破坏者效应”和“强无表决悖论”。",
+    "tldr": "Split Cycle是一种新的康多塞一致的投票方法，独立于克隆并对攻击者具有免疫性，它可以减轻“破坏者效应”和“强无表决悖论”。",
+    "en_tdlr": "Split Cycle is a new Condorcet consistent voting method that is independent of clones and immune to spoilers. It mitigates both \"spoiler effects\" and \"strong no show paradoxes.\""
+}

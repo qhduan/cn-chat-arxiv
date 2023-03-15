@@ -1,0 +1,10 @@
+{
+    "title": "Polar-VQA: Visual Question Answering on Remote Sensed Ice sheet Imagery from Polar Region. (arXiv:2303.07403v1 [cs.CV])",
+    "abstract": "For glaciologists, studying ice sheets from the polar regions is critical. With the advancement of deep learning techniques, we can now extract high-level information from the ice sheet data (e.g., estimating the ice layer thickness, predicting the ice accumulation for upcoming years, etc.). However, a vision-based conversational deep learning approach has not been explored yet, where scientists can get information by asking questions about images. In this paper, we have introduced the task of Visual Question Answering (VQA) on remote-sensed ice sheet imagery. To study, we have presented a unique VQA dataset, Polar-VQA, in this study. All the images in this dataset were collected using four types of airborne radars. The main objective of this research is to highlight the importance of VQA in the context of ice sheet research and conduct a baseline study of existing VQA approaches on Polar-VQA dataset.",
+    "link": "http://arxiv.org/abs/2303.07403",
+    "total_tokens": 915,
+    "translated_title": "极地-VQA: 极地区域遥感冰层图像中的视觉问答",
+    "translated_abstract": "对于冰川学家来说，研究极地的冰层至关重要。通过深度学习技术的进步，我们现在可以从冰川数据中提取高级信息（例如，估计冰层厚度，预测未来几年的冰积累等）。然而，尚未探索基于视觉对话式深度学习方法，科学家可以通过对图像提问获取信息。本文介绍了对极地遥感冰层图像进行视觉问答（VQA）的任务。为了研究，我们在这项研究中提出了一个独特的VQA数据集Polar-VQA。该数据集中的所有图像都是使用四种类型的空中雷达收集的。本研究的主要目标是凸显在冰层研究中VQA的重要性，并在Polar-VQA数据集上进行现有VQA方法的基线研究。",
+    "tldr": "本文介绍了一项极地遥感冰层图像中的视觉问答（VQA）的任务，并提出了一个独特的数据集Polar-VQA。本研究的目标是强调VQA在冰层研究中的重要性，并对现有VQA方法在Polar-VQA数据集上进行基线研究。",
+    "en_tdlr": "This paper introduces the task of Visual Question Answering (VQA) on remote-sensed ice sheet imagery, and presents a unique dataset, Polar-VQA. The main objective is to highlight the importance of VQA in ice sheet research and conduct a baseline study of existing VQA approaches on the dataset."
+}

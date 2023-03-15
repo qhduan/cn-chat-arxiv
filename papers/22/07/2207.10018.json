@@ -1,0 +1,10 @@
+{
+    "title": "Mitigating Algorithmic Bias with Limited Annotations. (arXiv:2207.10018v3 [cs.LG] UPDATED)",
+    "abstract": "Existing work on fairness modeling commonly assumes that sensitive attributes for all instances are fully available, which may not be true in many real-world applications due to the high cost of acquiring sensitive information. When sensitive attributes are not disclosed or available, it is needed to manually annotate a small part of the training data to mitigate bias. However, the skewed distribution across different sensitive groups preserves the skewness of the original dataset in the annotated subset, which leads to non-optimal bias mitigation. To tackle this challenge, we propose Active Penalization Of Discrimination (APOD), an interactive framework to guide the limited annotations towards maximally eliminating the effect of algorithmic bias. The proposed APOD integrates discrimination penalization with active instance selection to efficiently utilize the limited annotation budget, and it is theoretically proved to be capable of bounding the algorithmic bias. According to the eval",
+    "link": "http://arxiv.org/abs/2207.10018",
+    "total_tokens": 927,
+    "translated_title": "通过有限注释减少算法偏见",
+    "translated_abstract": "现有的公平性建模工作通常假设所有实例的敏感属性都是完全可用的，但由于获取敏感信息的高成本，在许多实际应用中可能不是这样。当敏感属性未公开或无法获得时，需要手动注释一小部分训练数据以减轻偏差。然而，不同敏感组之间的偏斜分布会保留原始数据集中注释子集的偏斜性，这导致非最优的偏差减轻。为了解决这个挑战，我们提出了Active Penalization Of Discrimination (APOD)，这是一个交互式框架，用于指导有限注释最大限度地消除算法偏见。所提出的APOD将歧视惩罚与主动实例选择相结合，以有效利用有限的注释预算，并在理论上证明了其能够限制算法偏见。在基准数据集上评估的结果表明，APOD在公平性和准确度指标上优于几种最先进的方法，同时使用的注释数量明显较少。",
+    "tldr": "本文提出了一种名为APOD的交互式框架，用于在有限的注释预算下减少算法偏见，该框架将歧视惩罚与主动实例选择相结合，能够在公平性和准确度指标上优于传统方法。",
+    "en_tdlr": "The paper proposes an interactive framework, APOD, to reduce algorithmic bias with limited annotations, which integrates discrimination penalization with active instance selection and is capable of outperforming traditional methods in fairness and accuracy metrics while using significantly fewer annotations."
+}

@@ -2,202 +2,172 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [The Stock Price Relationship between Holding Companies and Subsidiaries: A Case study of Indonesia Multiholding Companies.](http://arxiv.org/abs/2303.07244) | 本研究旨在研究印度尼西亚两个主要控股公司MNC集团和Elang Mahkota Teknologi（Emtek）集团及其各自子公司之间的股价相关性，结果显示存在不同程度的差异，可能是由于市场条件、公司特定事件或行业部门的变化。 |
-| [^2] | [Reconciling rough volatility with jumps.](http://arxiv.org/abs/2303.07222) | 本文提出了一种将粗糙波动和跳跃模型相结合的回归Heston模型，能够生成类似于粗糙、超粗糙和跳跃模型的平价偏斜。 |
-| [^3] | [Uniform Pessimistic Risk and Optimal Portfolio.](http://arxiv.org/abs/2303.07158) | 本文提出了一种称为统一悲观风险的综合$\alpha$-风险版本和基于风险获得最优组合的计算算法，该方法可以用于估计韩国股票的悲观最优组合模型。 |
-| [^4] | [Are consumers ready to pay extra for crowd-shipping e-groceries and why? A hybrid choice analysis for developing economies.](http://arxiv.org/abs/2303.07044) | 本文研究了消费者是否愿意为基于众包配送的电子杂货配送支付额外费用，结果表明如果众包配送提供更灵活和以消费者为导向的服务，电子购物者有意愿支付额外费用。 |
-| [^5] | [Correlation between upstreamness and downstreamness in random global value chains.](http://arxiv.org/abs/2303.06603) | 本文研究了全球价值链中产业和国家的上游和下游，发现同一产业部门的上游和下游之间存在正相关性。 |
-| [^6] | [Art-ificial Intelligence: The Effect of AI Disclosure on Evaluations of Creative Content.](http://arxiv.org/abs/2303.06217) | 本研究探讨了披露使用AI创作创意内容如何影响人类对此类内容的评价。结果表明，AI披露对于创意或描述性短篇小说的评价没有实质性影响，但是对于以第一人称写成的情感诱发诗歌的评价有负面影响。这表明，当内容被视为明显“人类”时，对AI生成内容的反应可能是负面的。 |
-| [^7] | [Probabilistic Overview of Probabilities of Default for Low Default Portfolios by K. Pluto and D. Tasche.](http://arxiv.org/abs/2303.06148) | 本文概述了K. Pluto和D. Tasche提出的违约概率估计方法，详细列出了假设和推导，为早期职业分析师或学者提供更多的清晰度，特别是关于借款人独立性、条件独立性和概率分布之间的交互作用，如二项式、贝塔、正态分布等的假设。同时，还展示了违约概率与$\sqrt{\varrho}X-\sqrt{1-\varrho}Y$的联合分布之间的关系。 |
-| [^8] | [Quantum Monte Carlo algorithm for solving Black-Scholes PDEs for high-dimensional option pricing in finance and its proof of overcoming the curse of dimensionality.](http://arxiv.org/abs/2301.09241) | 本文提出了一种量子蒙特卡罗算法，用于解决高维Black-Scholes PDE的高维期权定价，其复杂度被多项式地限制，克服了维度诅咒。 |
-| [^9] | [Global LCOEs of decentralized off-grid renewable energy systems.](http://arxiv.org/abs/2212.12742) | 本文综述了分散式离网可再生能源系统的全球LCOE，发现100％可再生能源系统的平均LCOE在2016年至2021年间每年下降9％，从0.54 \$_{2021}/kWh降至0.29 \$_{2021}/kWh，可能是由于可再生能源和储能技术成本的降低。同时，本文还讨论了文献中经常高估或低估LCOE的七个关键原因，以及如何在未来防止这种情况。 |
-| [^10] | [Sequential decompositions at their limit.](http://arxiv.org/abs/2212.06733) | 本文研究了顺序更新分解技术在子间隔数量增加时的收敛性，提出了平均SU分解方法，并探讨了降低计算复杂度的方法。 |
-| [^11] | [Dynamic and static fund separations and their stability for long-term optimal investments.](http://arxiv.org/abs/2212.00391) | 本文研究了三种模型下的动态和静态基金分离及其在长期最优投资中的稳定性，证明了动态最优组合包括安全资产、短视组合、m个独立于时间的组合和跨期组合，随着时间的推移，跨期组合最终消失，导致动态组合收敛到m+2个组合，称为静态组合，并证明了在模型参数扰动下，收敛是稳定的。 |
-| [^12] | [ETF construction on CRIX.](http://arxiv.org/abs/2211.15260) | 本文构建了一个基于CRIX的ETF，通过动态调整其成分权重，紧密映射非平稳CC动态，提供了有关这种新金融产品的机制、成本和风险的有价值的见解。 |
-| [^13] | [Robust Distortion Risk Measures.](http://arxiv.org/abs/2205.08850) | 本文研究了具有绝对连续失真函数的失真风险度量类对分布不确定性的鲁棒性，通过推导其在已知均值和方差的基础损失分布在以Wasserstein距离指定的球内（参考分布）时的最大（最小）值，提供了关于其值的尖锐界限的完整刻画，并在风险价值和范围风险价值的情况下获得了准显式界限。结果可应用于组合优化和模型风险评估。 |
+| [^1] | [Mean field game of mutual holding with defaultable agents, and systemic risk.](http://arxiv.org/abs/2303.07996) | 该论文研究了互相持有的均值场博弈，引入了违约情况，提供了显式解和粒子系统近似模型，并通过演化违约概率描述了系统性风险。 |
+| [^2] | [Relative performance criteria of multiplicative form in complete markets.](http://arxiv.org/abs/2303.07941) | 该论文研究在完全半鞅市场中，针对乘性相对表现标准下的效用最大化N人博弈的纳什均衡初始财富向量的存在、唯一性和收敛性问题。 |
+| [^3] | [Understanding Model Complexity for temporal tabular and multi-variate time series, case study with Numerai data science tournament.](http://arxiv.org/abs/2303.07925) | 本文采用 Numerai 数据科学竞赛的数据，探究了多变量时间序列建模中不同特征工程和降维方法的应用；提出了一种新的集成方法，用于高维时间序列建模，该方法在通用性、鲁棒性和效率上优于一些深度学习模型。 |
+| [^4] | [A Commons-Compatible Implementation of the Sharing Economy: Blockchain-Based Open Source Mediation.](http://arxiv.org/abs/2303.07786) | 区块链技术和开源调解提供了一个共享经济的 commons-compatible 实现。 |
+| [^5] | [Axiomatic characterization of pointwise Shapley decompositions.](http://arxiv.org/abs/2303.07773) | 本文提出一种公理系统，可对所有Borel可测函数进行Shapley分解，并完全保留功能结构。 |
+| [^6] | [Ruin probability for the quota share model with~phase-type distributed claims.](http://arxiv.org/abs/2303.07705) | 本文推广了前人针对按比例再保险合同下保险公司-再保险公司模型的破产概率，应用相位类型分布描述索赔金额，包括指数、指数混合、Erlang和Erlang混合分布。结果对于协作保险公司的风险评估具有实用价值。 |
+| [^7] | [Superhuman Artificial Intelligence Can Improve Human Decision Making by Increasing Novelty.](http://arxiv.org/abs/2303.07462) | 该研究通过分析职业围棋选手的移动决策发现，在超人工智能问世后，人类开始做出显著更好的决策，并且新颖的决策更频繁地发生，可能意味着超人工智能的发展可以改变人类的决策能力。 |
+| [^8] | [Many learning agents interacting with an agent-based market model.](http://arxiv.org/abs/2303.07393) | 本论文介绍了多个强化学习最优执行交易智能体与反应式基于智能体的金融市场模型的交互。通过平衡执行差价和未能及时执行订单的惩罚，说明了奖励函数的作用。研究表明，学习智能体的数量、初始订单大小和状态空间的变化，会对最小智能市场模拟造成不同的影响。 |
+| [^9] | [Rather First in a Village than Second in Rome? The Effect of Students' Class Rank in Primary School on Subsequent Academic Achievements.](http://arxiv.org/abs/2302.10026) | 本文研究了小学时学生的班级排名和班级质量对后续学业成果的影响，结果表明，排名对学生成绩的影响很大；与班级质量相比，班级排名的影响较小。 |
+| [^10] | [$1/f$ noise from the sequence of nonoverlapping rectangular pulses.](http://arxiv.org/abs/2210.11792) | 本文分析了非重叠矩形脉冲的功率谱密度，证明了当特征脉冲持续时间较长且符合幂律分布时，可以观测到纯的 $1/f$ 噪声。 |
+| [^11] | [Singular Perturbation Expansion for Utility Maximization with Order-$\epsilon$ Quadratic Transaction Costs.](http://arxiv.org/abs/1910.06463) | 本文讨论了带有一阶二次交易成本的效用最大化问题，给出了一个按$\sqrt\epsilon$的幂级数展开的解法，并推导出该展开式的前两项显式公式。 |
 
 # 详细
 
-[^1]: 持有公司和子公司之间的股价关系：印度尼西亚多元控股公司的案例研究
+[^1]: 互相持有且存在违约代理的均值场博弈及系统风险
 
-    The Stock Price Relationship between Holding Companies and Subsidiaries: A Case study of Indonesia Multiholding Companies. (arXiv:2303.07244v1 [q-fin.TR])
+    Mean field game of mutual holding with defaultable agents, and systemic risk. (arXiv:2303.07996v1 [math.PR])
 
-    [http://arxiv.org/abs/2303.07244](http://arxiv.org/abs/2303.07244)
+    [http://arxiv.org/abs/2303.07996](http://arxiv.org/abs/2303.07996)
 
-    本研究旨在研究印度尼西亚两个主要控股公司MNC集团和Elang Mahkota Teknologi（Emtek）集团及其各自子公司之间的股价相关性，结果显示存在不同程度的差异，可能是由于市场条件、公司特定事件或行业部门的变化。
+    该论文研究了互相持有的均值场博弈，引入了违约情况，提供了显式解和粒子系统近似模型，并通过演化违约概率描述了系统性风险。
 
-    This study examines the correlation between the stock prices of two major Indonesian holding companies, MNC Group and Elang Mahkota Teknologi (Emtek) Group, and their respective subsidiaries. The results show varying degrees of correlation, possibly due to market conditions, company-specific events, or changes in industry sectors.
-
-    本研究旨在研究印度尼西亚两个主要控股公司MNC集团和Elang Mahkota Teknologi（Emtek）集团及其各自子公司之间的股价相关性。分析数据收集自2013年至2022年，使用Spearman相关性确定控股公司和子公司股价之间的强度和方向。分析结果显示，控股公司和子公司之间的股价相关性存在不同程度的差异。 BHIT和BMTR之间观察到最强的正相关性，而BHIT和IPTV以及BHIT和MSIN之间的相关性最弱。还发现相关性随时间变化，可能是由于市场条件、公司特定事件或行业部门的变化。在Emtek集团的情况下，分析表明EMTK的股价变动对其子公司的股价变动有影响。
-
-    This study aimed to examine the correlation between the stock prices of two major Indonesian holding companies, MNC Group and Elang Mahkota Teknologi (Emtek) Group, and their respective subsidiaries as case studies. The data for the analysis were collected from 2013 to 2022, and Spearman correlation was used to determine the strength and direction of the relationship between the stock prices of the holding companies and their subsidiaries. The results of the analysis revealed that there were varying degrees of correlation between the stock prices of the holding companies and their subsidiaries. The strongest positive correlation was observed between BHIT and BMTR, while the weakest correlations were found between BHIT and IPTV, and BHIT and MSIN. The correlations were also found to have changed over time, possibly due to market conditions, company-specific events, or changes in industry sectors.In the case of Emtek Group, the analysis suggested that EMTK's stock price movements had a s
     
-[^2]: 将粗糙波动与跳跃相结合
 
-    Reconciling rough volatility with jumps. (arXiv:2303.07222v1 [q-fin.MF])
+    我们在Djete和Touzi[11]的互相持有的均值场博弈中引入了违约的可能性。这是通过在股权过程的原点处引入吸收来建模的。我们提供了这个均值场博弈的显式解。此外，我们提供了一个粒子系统近似，并且我们导出了一个自主方程来描述违约概率的时间演变，或者等价地说是股权过程到达原点的击中时间的定律。因此，系统性风险通过违约概率的演变来描述。
 
-    [http://arxiv.org/abs/2303.07222](http://arxiv.org/abs/2303.07222)
-
-    本文提出了一种将粗糙波动和跳跃模型相结合的回归Heston模型，能够生成类似于粗糙、超粗糙和跳跃模型的平价偏斜。
-
-    This paper proposes a reversionary Heston model that reconciles rough volatility models and jump models, and is capable of generating at-the-money skews similar to those generated by rough, hyper-rough, and jump models.
-
-    我们使用一类具有快速均值回归和大波动率的回归Heston模型来调和粗糙波动模型和跳跃模型。从具有Hurst指数$H \in (-1/2,1/2)$的超粗糙Heston模型开始，我们推导出一维回归Heston类型模型的马尔可夫逼近类。这些代理编码了一个在爆炸性波动率和由回归时间尺度$\epsilon>0$和无约束参数$H \in \mathbb R$控制的快速均值回归速度之间的权衡。将$\epsilon$发送到0会导致回归Heston模型收敛于基于参数H的不同显式渐近极限。特别地，对于$H \leq -1/2$，回归Heston模型收敛于正态逆高斯类型的Lévy跳跃过程类。数值实例表明，回归Heston模型能够生成类似于粗糙、超粗糙和跳跃模型生成的平价偏斜。
-
-    We reconcile rough volatility models and jump models using a class of reversionary Heston models with fast mean reversions and large vol-of-vols. Starting from hyper-rough Heston models with a Hurst index $H \in (-1/2,1/2)$, we derive a Markovian approximating class of one dimensional reversionary Heston-type models. Such proxies encode a trade-off between an exploding vol-of-vol and a fast mean-reversion speed controlled by a reversionary time-scale $\epsilon>0$ and an unconstrained parameter $H \in \mathbb R$. Sending $\epsilon$ to 0 yields convergence of the reversionary Heston model towards different explicit asymptotic regimes based on the value of the parameter H. In particular, for $H \leq -1/2$, the reversionary Heston model converges to a class of L\'evy jump processes of Normal Inverse Gaussian type. Numerical illustrations show that the reversionary Heston model is capable of generating at-the-money skews similar to the ones generated by rough, hyper-rough and jump models.
+    We introduce the possibility of default in the mean field game of mutual holding of Djete and Touzi [11]. This is modeled by introducing absorption at the origin of the equity process. We provide an explicit solution of this mean field game. Moreover, we provide a particle system approximation, and we derive an autonomous equation for the time evolution of the default probability, or equivalently the law of the hitting time of the origin by the equity process. The systemic risk is thus described by the evolution of the default probability.
     
-[^3]: 统一悲观风险和最优组合
+[^2]: 完全市场中乘性相对表现标准下的相对表现标准
 
-    Uniform Pessimistic Risk and Optimal Portfolio. (arXiv:2303.07158v1 [q-fin.PM])
+    Relative performance criteria of multiplicative form in complete markets. (arXiv:2303.07941v1 [q-fin.MF])
 
-    [http://arxiv.org/abs/2303.07158](http://arxiv.org/abs/2303.07158)
+    [http://arxiv.org/abs/2303.07941](http://arxiv.org/abs/2303.07941)
 
-    本文提出了一种称为统一悲观风险的综合$\alpha$-风险版本和基于风险获得最优组合的计算算法，该方法可以用于估计韩国股票的悲观最优组合模型。
+    该论文研究在完全半鞅市场中，针对乘性相对表现标准下的效用最大化N人博弈的纳什均衡初始财富向量的存在、唯一性和收敛性问题。
 
-    This paper proposes a version of integrated $\alpha$-risk called the uniform pessimistic risk and a computational algorithm to obtain an optimal portfolio based on the risk. The proposed method can be used to estimate the pessimistic optimal portfolio models for Korean stocks.
-
-    资产配置的最优性已经在风险度量的理论分析中得到广泛讨论。悲观主义是一种超越传统最优组合模型的最有吸引力的方法之一，$\alpha$-风险在推导出广泛的悲观最优组合中起着关键作用。然而，由悲观风险评估的最优组合的估计仍然具有挑战性，因为缺乏可用的估计模型和计算算法。在本研究中，我们提出了一种称为统一悲观风险的综合$\alpha$-风险版本和基于风险获得最优组合的计算算法。此外，我们从多个分位数回归、适当的评分规则和分布鲁棒优化三个不同的方法来研究所提出的风险的理论性质。同时，统一悲观风险被应用于估计韩国股票的悲观最优组合模型。
-
-    The optimality of allocating assets has been widely discussed with the theoretical analysis of risk measures. Pessimism is one of the most attractive approaches beyond the conventional optimal portfolio model, and the $\alpha$-risk plays a crucial role in deriving a broad class of pessimistic optimal portfolios. However, estimating an optimal portfolio assessed by a pessimistic risk is still challenging due to the absence of an available estimation model and a computational algorithm. In this study, we propose a version of integrated $\alpha$-risk called the uniform pessimistic risk and the computational algorithm to obtain an optimal portfolio based on the risk. Further, we investigate the theoretical properties of the proposed risk in view of three different approaches: multiple quantile regression, the proper scoring rule, and distributionally robust optimization. Also, the uniform pessimistic risk is applied to estimate the pessimistic optimal portfolio models for the Korean stock 
     
-[^4]: 消费者是否愿意为众包配送的电子杂货支付额外费用？为发展中国家提供混合选择分析
 
-    Are consumers ready to pay extra for crowd-shipping e-groceries and why? A hybrid choice analysis for developing economies. (arXiv:2303.07044v1 [econ.GN])
+    我们考虑完全半鞅市场中乘性相对表现标准下的效用最大化N人博弈的纳什均衡的存在性和唯一性。针对大类玩家效用函数，我们提供了一个从$\mathbb {R} ^ N $到$\mathbb {R} ^ N $的映射的可逆性而提供的关于给定初始财富向量的纳什均衡的一般特征。作为一般定理的结果，我们推导了在任意初始财富向量下纳什均衡的存在性和唯一性，以及它们的收敛性，如果(i)玩家的效用函数接近CRRA，或(ii)玩家的竞争权重较小且相对风险规避程度远离无穷的话。
 
-    [http://arxiv.org/abs/2303.07044](http://arxiv.org/abs/2303.07044)
-
-    本文研究了消费者是否愿意为基于众包配送的电子杂货配送支付额外费用，结果表明如果众包配送提供更灵活和以消费者为导向的服务，电子购物者有意愿支付额外费用。
-
-    This paper studies whether consumers are willing to pay extra for crowd-shipping e-groceries deliveries, and the results indicate that e-shoppers are willing to pay extra if crowd-shipping provides more flexible and consumer-oriented service.
-
-    本文介绍了关于消费者愿意为基于众包配送的电子杂货配送支付额外费用的行为研究结果。该方法在乌克兰进行了测试，即一个众包配送服务正在发展的发展中国家。为了考虑到消费者的行为复杂性，选择模型被增加了一个潜在变量。研究结果表明，如果众包配送提供更灵活和以消费者为导向的服务，电子购物者有意愿为众包配送配送支付额外费用。众包配送的预期环境影响并不被电子购物者认为很重要，这可以通过对所考虑的案例研究中环境和以汽车为导向的流动性的低关注度来解释。
-
-    This paper presents the behavioral study's results on willingness-to-pay the extra money by the customers for e-groceries deliveries based on crowd-shipping. The proposed methodology was tested for Ukraine, i.e., a developing country where the crowd-shipping services are under development conditions. To account for the behavior complexity of the consumers who have not faced the crowd-shipping services in the past, the choice model was enhanced with a latent variable. The findings indicate the revealed readiness of the e-shoppers to pay extra money for crowd-shipping delivery if it provides more flexible and consumer-oriented service. The expected environmental impact of the crowd-shipping delivery was not considered as important by the e-shoppers, which is explained by low concerns about the environment and car-oriented mobility in the considered case study.
+    We consider existence and uniqueness of Nash equilibria in an $N$-player game of utility maximization under relative performance criteria of multiplicative form in complete semimartingale markets. For a large class of players' utility functions, a general characterization of Nash equilibria for a given initial wealth vector is provided in terms of invertibility of a map from $\mathbb{R}^N$ to $\mathbb{R}^N$. As a consequence of the general theorem, we derive existence and uniqueness of Nash equilibria for an arbitrary initial wealth vector, as well as their convergence, if either (i) players' utility functions are close to CRRA, or (ii) players' competition weights are small and relative risk aversions are bounded away from infinity.
     
-[^5]: 随机全球价值链中上游和下游之间的相关性
+[^3]: 通过 Numerai 数据科学竞赛案例，理解时间表格和多变量时间序列的模型复杂度
 
-    Correlation between upstreamness and downstreamness in random global value chains. (arXiv:2303.06603v1 [stat.AP])
+    Understanding Model Complexity for temporal tabular and multi-variate time series, case study with Numerai data science tournament. (arXiv:2303.07925v1 [cs.LG])
 
-    [http://arxiv.org/abs/2303.06603](http://arxiv.org/abs/2303.06603)
+    [http://arxiv.org/abs/2303.07925](http://arxiv.org/abs/2303.07925)
 
-    本文研究了全球价值链中产业和国家的上游和下游，发现同一产业部门的上游和下游之间存在正相关性。
+    本文采用 Numerai 数据科学竞赛的数据，探究了多变量时间序列建模中不同特征工程和降维方法的应用；提出了一种新的集成方法，用于高维时间序列建模，该方法在通用性、鲁棒性和效率上优于一些深度学习模型。
 
-    This paper studies the upstreamness and downstreamness of industries and countries in global value chains, and finds a positive correlation between upstreamness and downstreamness of the same industrial sector.
-
-    本文关注全球价值链中产业和国家的上游和下游。上游和下游分别衡量产业部门与最终消费和初级输入之间的平均距离，并基于最常用的全球投入产出表数据库（例如世界投入产出数据库（WIOD））进行计算。最近，Antr\`as和Chor在1995-2011年的数据中报告了一个令人困惑和反直觉的发现，即（在国家层面上）上游似乎与下游呈正相关，相关斜率接近+1。这种效应随时间和跨国家稳定存在，并已得到后续分析的确认和验证。我们分析了一个简单的随机投入产出表模型，并展示了在最小和现实的结构假设下，同一产业部门的上游和下游之间存在正相关性，具有相关性。
-
-    This paper is concerned with upstreamness and downstreamness of industries and countries in global value chains. Upstreamness and downstreamness measure respectively the average distance of an industrial sector from final consumption and from primary inputs, and they are computed from based on the most used global Input-Output tables databases, e.g., the World Input-Output Database (WIOD). Recently, Antr\`as and Chor reported a puzzling and counter-intuitive finding in data from the period 1995-2011, namely that (at country level) upstreamness appears to be positively correlated with downstreamness, with a correlation slope close to $+1$. This effect is stable over time and across countries, and it has been confirmed and validated by later analyses. We analyze a simple model of random Input/Output tables, and we show that, under minimal and realistic structural assumptions, there is a positive correlation between upstreamness and downstreamness of the same industrial sector, with corre
     
-[^6]: 人工智能对创意内容评价的影响：AI披露对创意内容评价的影响
 
-    Art-ificial Intelligence: The Effect of AI Disclosure on Evaluations of Creative Content. (arXiv:2303.06217v1 [cs.CY])
+    本文探究了在多变量时间序列建模中使用不同特征工程和降维方法的应用。利用从 Numerai 数据竞赛创建的特征目标交叉相关时间序列数据集，我们证明在过度参数化的情况下，不同特征工程方法的性能与预测会收敛到可由再生核希尔伯特空间刻画的相同平衡态。我们提出了一种新的集成方法，该方法结合了不同的随机非线性变换，随后采用岭回归模型进行高维时间序列建模。与一些常用的用于序列建模的深度学习模型（如 LSTM 和 transformer）相比，我们的方法更加鲁棒（在不同的随机种子下具有较低的模型方差，且对架构的选择不太敏感），并且更有效率。我们方法的另一个优势在于模型的简单性，因为没有必要使用复杂的深度学习框架。
 
-    [http://arxiv.org/abs/2303.06217](http://arxiv.org/abs/2303.06217)
-
-    本研究探讨了披露使用AI创作创意内容如何影响人类对此类内容的评价。结果表明，AI披露对于创意或描述性短篇小说的评价没有实质性影响，但是对于以第一人称写成的情感诱发诗歌的评价有负面影响。这表明，当内容被视为明显“人类”时，对AI生成内容的反应可能是负面的。
-
-    This study explores how disclosure regarding the use of AI in the creation of creative content affects human evaluation of such content. The results show that AI disclosure has no meaningful effect on evaluation either for creative or descriptive short stories, but has a negative effect on evaluations for emotionally evocative poems written in the first person. This suggests that reactions to AI-generated content may be negative when the content is viewed as distinctly "human."
-
-    生成式AI技术的出现，如OpenAI的ChatGPT聊天机器人，扩大了AI工具可以完成的任务范围，并实现了AI生成的创意内容。在本研究中，我们探讨了关于披露使用AI创作创意内容如何影响人类对此类内容的评价。在一系列预先注册的实验研究中，我们发现AI披露对于创意或描述性短篇小说的评价没有实质性影响，但是AI披露对于以第一人称写成的情感诱发诗歌的评价有负面影响。我们解释这个结果表明，当内容被视为明显“人类”时，对AI生成内容的反应可能是负面的。我们讨论了这项工作的影响，并概述了计划研究的途径，以更好地了解AI披露是否会影响创意内容的评价以及何时会影响。
-
-    The emergence of generative AI technologies, such as OpenAI's ChatGPT chatbot, has expanded the scope of tasks that AI tools can accomplish and enabled AI-generated creative content. In this study, we explore how disclosure regarding the use of AI in the creation of creative content affects human evaluation of such content. In a series of pre-registered experimental studies, we show that AI disclosure has no meaningful effect on evaluation either for creative or descriptive short stories, but that AI disclosure has a negative effect on evaluations for emotionally evocative poems written in the first person. We interpret this result to suggest that reactions to AI-generated content may be negative when the content is viewed as distinctly "human." We discuss the implications of this work and outline planned pathways of research to better understand whether and when AI disclosure may affect the evaluation of creative content.
+    In this paper, we explore the use of different feature engineering and dimensionality reduction methods in multi-variate time-series modelling. Using a feature-target cross correlation time series dataset created from Numerai tournament, we demonstrate under over-parameterised regime, both the performance and predictions from different feature engineering methods converge to the same equilibrium, which can be characterised by the reproducing kernel Hilbert space. We suggest a new Ensemble method, which combines different random non-linear transforms followed by ridge regression for modelling high dimensional time-series. Compared to some commonly used deep learning models for sequence modelling, such as LSTM and transformers, our method is more robust (lower model variance over different random seeds and less sensitive to the choice of architecture) and more efficient. An additional advantage of our method is model simplicity as there is no need to use sophisticated deep learning frame
     
-[^7]: 低违约组合的违约概率的概率论概述
+[^4]: 区块链技术基于开源调解的共享经济平台实现
 
-    Probabilistic Overview of Probabilities of Default for Low Default Portfolios by K. Pluto and D. Tasche. (arXiv:2303.06148v1 [q-fin.RM])
+    A Commons-Compatible Implementation of the Sharing Economy: Blockchain-Based Open Source Mediation. (arXiv:2303.07786v1 [econ.GN])
 
-    [http://arxiv.org/abs/2303.06148](http://arxiv.org/abs/2303.06148)
+    [http://arxiv.org/abs/2303.07786](http://arxiv.org/abs/2303.07786)
 
-    本文概述了K. Pluto和D. Tasche提出的违约概率估计方法，详细列出了假设和推导，为早期职业分析师或学者提供更多的清晰度，特别是关于借款人独立性、条件独立性和概率分布之间的交互作用，如二项式、贝塔、正态分布等的假设。同时，还展示了违约概率与$\sqrt{\varrho}X-\sqrt{1-\varrho}Y$的联合分布之间的关系。
+    区块链技术和开源调解提供了一个共享经济的 commons-compatible 实现。
 
-    This article provides a probabilistic overview of the default probability estimation method proposed by K. Pluto and D. Tasche, including detailed assumptions and derivations. It aims to clarify the assumptions of borrower independence, conditional independence, and interaction between probability distributions such as binomial, beta, and normal for early career analysts or scholars. Additionally, it shows the relationship between the probability of default and the joint distribution of $\sqrt{\varrho}X-\sqrt{1-\varrho}Y$, where $X$ is the standard normal and $Y$ is the beta-normal distribution.
-
-    本文对K. Pluto和D. Tasche提出的违约概率估计方法进行了概率论概述。列出了关于系统因素影响下涉及违约概率的不等式的详细假设和推导。作者预计为早期职业分析师或学者提供更多的清晰度，特别是关于借款人独立性、条件独立性和概率分布之间的交互作用，如二项式、贝塔、正态分布等的假设。还展示了违约概率与$\sqrt{\varrho}X-\sqrt{1-\varrho}Y$的联合分布之间的关系，其中$X$包括但不限于标准正态分布，$Y$包括但不限于贝塔-正态分布，$X,\,Y$是独立的。
-
-    This article gives a probabilistic overview of the widely used method of default probability estimation proposed by K. Pluto and D. Tasche. There are listed detailed assumptions and derivation of the inequality where the probability of default is involved under the influence of systematic factor. The author anticipates adding more clarity, especially for early career analysts or scholars, regarding the assumption of borrowers' independence, conditional independence and interaction between the probability distributions such as binomial, beta, normal and others. There is also shown the relation between the probability of default and the joint distribution of $\sqrt{\varrho}X-\sqrt{1-\varrho}Y$, where $X$, including but not limiting, is the standard normal, $Y$ admits, including but not limiting, the beta-normal distribution and $X,\,Y$ are independent.
     
-[^8]: 量子蒙特卡罗算法在金融中高维期权定价中解决Black-Scholes PDE及其克服维度诅咒的证明
 
-    Quantum Monte Carlo algorithm for solving Black-Scholes PDEs for high-dimensional option pricing in finance and its proof of overcoming the curse of dimensionality. (arXiv:2301.09241v2 [quant-ph] UPDATED)
+    直接交换作为核心特征的经济共享经济在 commons 和平台经济学基础上实施。这是由于信任、协作消费和民主管理的重要性增加，以及技术进步在近零边际成本、开放源代码贡献和数字化转型方面的进展。除了这些基于 commons 的驱动因素之外，商业和私人交流之间的灰色地带被用来通过中心平台经济学家利用工作、安全和税收规定。区块链技术使得在自我维持的点对点网络中使用 PoW 实现分散的共识达成成为可能，而不是中心中介者。因此，基于区块链的开源调解似乎提供了一个共享经济的共同实现。本文通过对基于区块链的 Sardex 和 Interlace 的案例研究，对其区块链应用进行了定性分析。
 
-    [http://arxiv.org/abs/2301.09241](http://arxiv.org/abs/2301.09241)
-
-    本文提出了一种量子蒙特卡罗算法，用于解决高维Black-Scholes PDE的高维期权定价，其复杂度被多项式地限制，克服了维度诅咒。
-
-    This paper proposes a quantum Monte Carlo algorithm for high-dimensional option pricing by solving high-dimensional Black-Scholes PDEs with correlation, and proves that its computational complexity is polynomially bounded in the space dimension and the reciprocal of the prescribed accuracy, overcoming the curse of dimensionality.
-
-    本文提供了一种量子蒙特卡罗算法，用于解决具有相关性的高维Black-Scholes PDE的高维期权定价。期权的支付函数为一般形式，只需要连续且分段仿射（CPWA），涵盖了金融中使用的大多数相关支付函数。我们提供了算法的严格误差分析和复杂度分析。特别地，我们证明了我们的算法的计算复杂度在PDE的空间维度$d$和所需精度$\varepsilon$的倒数中被多项式地限制，从而证明了我们的量子蒙特卡罗算法不会受到维度诅咒的影响。
-
-    In this paper we provide a quantum Monte Carlo algorithm to solve high-dimensional Black-Scholes PDEs with correlation for high-dimensional option pricing. The payoff function of the option is of general form and is only required to be continuous and piece-wise affine (CPWA), which covers most of the relevant payoff functions used in finance. We provide a rigorous error analysis and complexity analysis of our algorithm. In particular, we prove that the computational complexity of our algorithm is bounded polynomially in the space dimension $d$ of the PDE and the reciprocal of the prescribed accuracy $\varepsilon$ and so demonstrate that our quantum Monte Carlo algorithm does not suffer from the curse of dimensionality.
+    The network economical sharing economy, with direct exchange as a core characteristic, is implemented both, on a commons and platform economical basis. This is due to a gain in importance of trust, collaborative consumption and democratic management as well as technological progress, in the form of near zero marginal costs, open source contributions and digital transformation. Concurrent to these commons-based drivers, the grey area between commerce and private exchange is used to exploit work, safety and tax regulations by central platform economists. Instead of central intermediators, the blockchain technology makes decentralized consensus finding, using Proof-of-Work (PoW) within a self-sustaining Peer-to-Peer network, possible. Therefore, a blockchain-based open source mediation seems to offer a commons-compatible implementation of the sharing economy. This thesis is investigated through a qualitative case study of Sardex and Interlace with their blockchain application, based on ex
     
-[^9]: 分散式离网可再生能源系统的全球LCOE
+[^5]: 点态Shapley分解的公理表述
 
-    Global LCOEs of decentralized off-grid renewable energy systems. (arXiv:2212.12742v2 [econ.GN] UPDATED)
+    Axiomatic characterization of pointwise Shapley decompositions. (arXiv:2303.07773v1 [q-fin.MF])
 
-    [http://arxiv.org/abs/2212.12742](http://arxiv.org/abs/2212.12742)
+    [http://arxiv.org/abs/2303.07773](http://arxiv.org/abs/2303.07773)
 
-    本文综述了分散式离网可再生能源系统的全球LCOE，发现100％可再生能源系统的平均LCOE在2016年至2021年间每年下降9％，从0.54 \$_{2021}/kWh降至0.29 \$_{2021}/kWh，可能是由于可再生能源和储能技术成本的降低。同时，本文还讨论了文献中经常高估或低估LCOE的七个关键原因，以及如何在未来防止这种情况。
+    本文提出一种公理系统，可对所有Borel可测函数进行Shapley分解，并完全保留功能结构。
 
-    This paper provides a global overview of the levelized cost of electricity (LCOE) for decentralized off-grid renewable energy systems, finding that the average LCOEs for 100% renewable energy systems have decreased by 9% annually between 2016 and 2021 from 0.54 \$_{2021}/kWh to 0.29 \$_{2021}/kWh, presumably due to cost reductions in renewable energy and storage technologies. Additionally, the paper identifies and discusses seven key reasons why LCOEs are frequently overestimated or underestimated in literature, and how this can be prevented in the future.
-
-    最近的全球事件强调了可靠能源供应的重要性。增加能源供应安全的一种方式是通过分散式离网可再生能源系统，对此进行了越来越多的案例研究。本文综述了这些自治能源系统的电力等效成本（LCOE）的全球概况，其范围从全球0.03 \$_{2021}/kWh到超过1.00 \$_{2021}/kWh。100％可再生能源系统的平均LCOE在2016年至2021年间每年下降9％，从0.54 \$_{2021}/kWh降至0.29 \$_{2021}/kWh，可能是由于可再生能源和储能技术成本的降低。此外，我们确定并讨论了文献中经常高估或低估LCOE的七个关键原因，以及如何在未来防止这种情况。我们的概述可用于验证关于离网系统的发现，评估这些系统可能部署的位置以及成本的演变。
-
-    Recent global events emphasize the importance of a reliable energy supply. One way to increase energy supply security is through decentralized off-grid renewable energy systems, for which a growing number of case studies are researched. This review gives a global overview of the levelized cost of electricity (LCOE) for these autonomous energy systems, which range from 0.03 \$_{2021}/kWh to over 1.00 \$_{2021}/kWh worldwide. The average LCOEs for 100% renewable energy systems have decreased by 9% annually between 2016 and 2021 from 0.54 \$_{2021}/kWh to 0.29 \$_{2021}/kWh, presumably due to cost reductions in renewable energy and storage technologies. Furthermore, we identify and discuss seven key reasons why LCOEs are frequently overestimated or underestimated in literature, and how this can be prevented in the future. Our overview can be employed to verify findings on off-grid systems, to assess where these systems might be deployed and how costs evolve.
     
-[^10]: 极限下的顺序分解
 
-    Sequential decompositions at their limit. (arXiv:2212.06733v2 [q-fin.MF] UPDATED)
+    在各种应用中，常见问题是将函数的输出按照其输入变量进行加法分解。带有二进制参数的函数可以通过著名的Shapley值进行公设的分解。对于带有实数参数的函数，一种流行的方法是在该域上点态应用Shapley值。然而，这种点态应用在很大程度上忽视了函数的整体结构。在本文中，发展了完全保留功能结构并针对所有Borel可测函数得出唯一分解的公理。
 
-    [http://arxiv.org/abs/2212.06733](http://arxiv.org/abs/2212.06733)
-
-    本文研究了顺序更新分解技术在子间隔数量增加时的收敛性，提出了平均SU分解方法，并探讨了降低计算复杂度的方法。
-
-    This paper studies the convergence of sequential updating decompositions as the number of subintervals increases, proposes the average SU decomposition method, and discusses ways to reduce computational complexity.
-
-    顺序更新（SU）分解是一种用于创建收益和损失（P＆L）归因的众所周知的技术，例如，对于债券组合，通过将时间段分成子间隔并在每个子间隔中顺序编辑每个风险因素（例如FX，IR或CS）来实现。我们表明，如果P＆L归因可以用风险因素的平滑函数表示，则SU分解会在子间隔数量增加时收敛。我们进一步考虑平均SU分解，它们对于风险因素的顺序或标签是不变的。平均化在数值上是昂贵的，我们讨论了几种可以显着降低平均SU分解的计算复杂度的方法。
-
-    Sequential updating (SU) decompositions are a well-known technique for creating profit and loss (P&L) attributions, e.g., for a bond portfolio, by dividing the time horizon into subintervals and sequentially editing each risk factor in each subinterval, e.g., FX, IR or CS. We show that SU decompositions converge for increasing number of subintervals if the P&L attribution can be expressed by a smooth function of the risk factors. We further consider average SU decompositions, which are invariant with respect to the order or labeling of the risk factors. The averaging is numerically expensive, and we discuss several ways in which the computational complexity of average SU decompositions can be significantly reduced.
+    A common problem in various applications is the additive decomposition of the output of a function with respect to its input variables. Functions with binary arguments can be axiomatically decomposed by the famous Shapley value. For the decomposition of functions with real arguments, a popular method is the pointwise application of the Shapley value on the domain. However, this pointwise application largely ignores the overall structure of functions. In this paper, axioms are developed which fully preserve functional structures and lead to unique decompositions for all Borel measurable functions.
     
-[^11]: 动态和静态基金分离及其在长期最优投资中的稳定性
+[^6]: 相位类型分布索赔的配额共享模型的破产概率
 
-    Dynamic and static fund separations and their stability for long-term optimal investments. (arXiv:2212.00391v2 [q-fin.PM] UPDATED)
+    Ruin probability for the quota share model with~phase-type distributed claims. (arXiv:2303.07705v1 [q-fin.MF])
 
-    [http://arxiv.org/abs/2212.00391](http://arxiv.org/abs/2212.00391)
+    [http://arxiv.org/abs/2303.07705](http://arxiv.org/abs/2303.07705)
 
-    本文研究了三种模型下的动态和静态基金分离及其在长期最优投资中的稳定性，证明了动态最优组合包括安全资产、短视组合、m个独立于时间的组合和跨期组合，随着时间的推移，跨期组合最终消失，导致动态组合收敛到m+2个组合，称为静态组合，并证明了在模型参数扰动下，收敛是稳定的。
+    本文推广了前人针对按比例再保险合同下保险公司-再保险公司模型的破产概率，应用相位类型分布描述索赔金额，包括指数、指数混合、Erlang和Erlang混合分布。结果对于协作保险公司的风险评估具有实用价值。
 
-    This paper investigates the dynamic and static fund separations and their stability for long-term optimal investments under three model classes. The dynamic optimal portfolio consists of m+3 portfolios, including the safe asset, the myopic portfolio, the m time-independent portfolios, and the intertemporal portfolio, which eventually vanishes over time, leading the dynamic portfolio to converge to m+2 portfolios, referred to as the static portfolio. The convergence is proved to be stable under model parameter perturbations.
-
-    本文研究了三种模型下的动态和静态基金分离及其在长期最优投资中的稳定性。投资者在由安全资产、多种风险资产和单一状态变量组成的不完全市场中最大化期望效用，其中两个模型类别中的状态变量分别遵循3/2过程和反Bessel过程。另一个市场模型将部分观察到的状态变量建模为Ornstein-Uhlenbeck状态过程。我们证明了这种效用最大化的动态最优组合包括m+3个组合：安全资产、短视组合、m个独立于时间的组合和跨期组合。随着时间的推移，跨期组合最终消失，导致动态组合收敛到m+2个组合，称为静态组合。我们还证明了在模型参数扰动下，收敛是稳定的。
-
-    This paper investigates dynamic and static fund separations and their stability for long-term optimal investments under three model classes. An investor maximizes the expected utility with constant relative risk aversion under an incomplete market consisting of a safe asset, several risky assets, and a single state variable. The state variables in two of the model classes follow a 3/2 process and an inverse Bessel process, respectively. The other market model has the partially observed state variable modeled as an Ornstein-Uhlenbeck state process. We show that the dynamic optimal portfolio of this utility maximization consists of m+3 portfolios: the safe asset, the myopic portfolio, the m time-independent portfolios, and the intertemporal portfolio. Over time, the intertemporal portfolio eventually vanishes, leading the dynamic portfolio to converge to m+2 portfolios, referred to as the static portfolio. We also prove that the convergence is stable under model parameter perturbations. 
     
-[^12]: CRIX上的ETF构建
 
-    ETF construction on CRIX. (arXiv:2211.15260v2 [q-fin.GN] UPDATED)
+    本文将前人在按比例再保险合同下呈现的保险公司-再保险公司模型的破产概率推广到了描述索赔金额的包括指数、指数混合、Erlang和Erlang混合分布的相位类型分布。我们采用改变量的技术推导了破产概率公式，并提出了重要的特殊情况。我们通过将其拟合到实际损失数据中来说明引入的模型的实用性。我们利用统计检验和图形工具展示了Erlang混合分布与其他考虑的分布相比更能很好地拟合数据，这证明了提出的结果可以在协作保险公司的风险评估方面具有实用价值。
 
-    [http://arxiv.org/abs/2211.15260](http://arxiv.org/abs/2211.15260)
-
-    本文构建了一个基于CRIX的ETF，通过动态调整其成分权重，紧密映射非平稳CC动态，提供了有关这种新金融产品的机制、成本和风险的有价值的见解。
-
-    This paper constructs an ETF based on CRIX, which closely maps the non-stationary CC dynamics by adapting its constituents weights dynamically, providing valuable insights into the mechanisms, costs and risks of this new financial product.
-
-    由于高波动性，加密货币（CC）的投资仍然存在风险。交易所交易基金（ETF）是分散风险并从整个CC部门的增长中受益的合适工具。我们在CRIX上构建了一个ETF，即CRyptocurrency IndeX，通过动态调整其成分权重，紧密映射非平稳CC动态。情景分析考虑了受监管的CC交易所的费用计划，从高频订单簿数据获得的价差，并随机模拟向ETF的资本存款。分析提供了有关这种新金融产品的机制、成本和风险的有价值的见解：i）尽管CRIX ETF的组成经常变化（从5到30个成分），但其核心仍然稳健，因为比特币（BTC）和以太坊（ETH）的权重随时间稳健，ii）平均而言，在重新平衡日期需要重新平衡5.2%的部分，iii）交易成本与传统资产相比较低，iv）流动性
-
-    Investments in cryptocurrencies (CCs) remain risky due to high volatility. Exchange Traded Funds (ETFs) are a suitable tool to diversify risk and to benefit from the growth of the whole CC sector. We construct an ETF on the CRIX, the CRyptocurrency IndeX that maps the non-stationary CC dynamics closely by adapting its constituents weights dynamically. The scenario analysis considers the fee schedules of regulated CC exchanges, spreads obtained from high-frequency order book data, and models capital deposits to the ETF stochastically. The analysis yields valuable insights into the mechanisms, costs and risks of this new financial product: i) although the composition of the CRIX ETF changes frequently (from 5 to 30 constituents), it remains robust in its core, as the weights of Bitcoin (BTC) and Ethereum (ETH) are robust over time, ii) on average, a portion of 5.2% needed to be rebalanced at the rebalancing dates, iii) trading costs are low compared to traditional assets, iv) the liquidi
+    In this paper, we generalise the results presented in the literature for the ruin probability for the insurer--reinsurer model under a pro-rata reinsurance contract. We consider claim amounts that are described by a phase-type distribution that includes exponential, mixture of exponential, Erlang, and mixture of Erlang distributions. We derive the ruin probability formulas with the use of change-of-measure technique and present important special cases. We illustrate the usefulness of the introduced model by fitting it to the real-world loss data. With the use of statistical tests and graphical tools, we show that the mixture of Erlangs is well-fitted to the data and is superior to other considered distributions. This justifies the fact that the presented results can be useful in the context of risk assessment of co-operating insurance companies.
     
-[^13]: 鲁棒失真风险度量
+[^7]: 超人工智能可以通过增加新奇性来改进人类决策的能力
 
-    Robust Distortion Risk Measures. (arXiv:2205.08850v3 [q-fin.RM] UPDATED)
+    Superhuman Artificial Intelligence Can Improve Human Decision Making by Increasing Novelty. (arXiv:2303.07462v1 [cs.AI])
 
-    [http://arxiv.org/abs/2205.08850](http://arxiv.org/abs/2205.08850)
+    [http://arxiv.org/abs/2303.07462](http://arxiv.org/abs/2303.07462)
 
-    本文研究了具有绝对连续失真函数的失真风险度量类对分布不确定性的鲁棒性，通过推导其在已知均值和方差的基础损失分布在以Wasserstein距离指定的球内（参考分布）时的最大（最小）值，提供了关于其值的尖锐界限的完整刻画，并在风险价值和范围风险价值的情况下获得了准显式界限。结果可应用于组合优化和模型风险评估。
+    该研究通过分析职业围棋选手的移动决策发现，在超人工智能问世后，人类开始做出显著更好的决策，并且新颖的决策更频繁地发生，可能意味着超人工智能的发展可以改变人类的决策能力。
 
-    This paper studies the robustness of distortion risk measures with an absolutely continuous distortion function to distributional uncertainty, by deriving its largest (smallest) value when the underlying loss distribution has a known mean and variance and lies within a ball specified through the Wasserstein distance around a reference distribution. The results provide sharp bounds on their value and can be applied to portfolio optimization and model risk assessment.
+    
 
-    风险度量对基础损失分布（分布不确定性）的变化的鲁棒性在做出明智决策方面至关重要。本文针对具有绝对连续失真函数的失真风险度量类，通过推导其在已知均值和方差的基础损失分布在以Wasserstein距离指定的球内（参考分布）时的最大（最小）值，量化其对分布不确定性的鲁棒性。我们采用等调投影技术，为这些失真风险度量提供了关于其值的尖锐界限的完整刻画，并在风险价值和范围风险价值的情况下获得了准显式界限。我们将结果扩展到考虑前两个矩的不确定性，并应用于组合优化和模型风险评估。
+    超人工智能（AI）将如何影响人类决策，并且有哪些机制可用于支持这种影响？我们在一个领域中回答了这些问题，该领域的AI已经超过了人类的表现，分析了过去71年（1950-2021）职业围棋选手所做的超过580万个移动决策。为了回答第一个问题，我们使用了一个超人工智能程序来估计随时间变化的人类决策质量，生成了580亿个反事实的游戏模式，并将实际人类决策的胜率与反事实的AI决策的胜率进行比较。我们发现，在超人工智能问世后，人类开始做出显著更好的决策。然后，我们在时间上检查了人类玩家的策略，并发现在超人工智能问世后，新颖的决策（即以前未观察到的移动）更频繁地发生，并与更高的决策质量相关联。我们的研究结果表明，超人工智能程序的发展可能会改变人类的决策能力。
 
-    The robustness of risk measures to changes in underlying loss distributions (distributional uncertainty) is of crucial importance in making well-informed decisions. In this paper, we quantify, for the class of distortion risk measures with an absolutely continuous distortion function, its robustness to distributional uncertainty by deriving its largest (smallest) value when the underlying loss distribution has a known mean and variance and, furthermore, lies within a ball - specified through the Wasserstein distance - around a reference distribution. We employ the technique of isotonic projections to provide for these distortion risk measures a complete characterisation of sharp bounds on their value, and we obtain quasi-explicit bounds in the case of Value-at-Risk and Range-Value-at-Risk. We extend our results to account for uncertainty in the first two moments and provide applications to portfolio optimisation and to model risk assessment.
+    How will superhuman artificial intelligence (AI) affect human decision making? And what will be the mechanisms behind this effect? We address these questions in a domain where AI already exceeds human performance, analyzing more than 5.8 million move decisions made by professional Go players over the past 71 years (1950-2021). To address the first question, we use a superhuman AI program to estimate the quality of human decisions across time, generating 58 billion counterfactual game patterns and comparing the win rates of actual human decisions with those of counterfactual AI decisions. We find that humans began to make significantly better decisions following the advent of superhuman AI. We then examine human players' strategies across time and find that novel decisions (i.e., previously unobserved moves) occurred more frequently and became associated with higher decision quality after the advent of superhuman AI. Our findings suggest that the development of superhuman AI programs ma
+    
+[^8]: 多个学习智能体与基于智能体的市场模型的交互
+
+    Many learning agents interacting with an agent-based market model. (arXiv:2303.07393v1 [q-fin.TR])
+
+    [http://arxiv.org/abs/2303.07393](http://arxiv.org/abs/2303.07393)
+
+    本论文介绍了多个强化学习最优执行交易智能体与反应式基于智能体的金融市场模型的交互。通过平衡执行差价和未能及时执行订单的惩罚，说明了奖励函数的作用。研究表明，学习智能体的数量、初始订单大小和状态空间的变化，会对最小智能市场模拟造成不同的影响。
+
+    
+
+    本文考虑了多个强化学习最优执行交易智能体与在事件时间下的反应式基于智能体的金融市场模型的动态和相互作用。模型代表了一个市场生态系统，由三个营养级别代表：最优执行学习智能体，最小智能的流动性需要者和快速的电子流动性提供者。最优执行代理类别包括买入和卖出代理，可以使用限价单和市价单的组合，或者仅使用市价单进行交易。奖励函数明确平衡了交易执行差价与未能及时执行订单的惩罚之间的关系。本文展示了多个竞争学习智能体如何随着智能体数量、初始订单的大小和用于学习的状态空间的函数影响最小智能市场模拟。我们使用相空间图来研究ABM的动态，当特定规范被应用
+
+    We consider the dynamics and the interactions of multiple reinforcement learning optimal execution trading agents interacting with a reactive Agent-Based Model (ABM) of a financial market in event time. The model represents a market ecology with 3-trophic levels represented by: optimal execution learning agents, minimally intelligent liquidity takers, and fast electronic liquidity providers. The optimal execution agent classes include buying and selling agents that can either use a combination of limit orders and market orders, or only trade using market orders. The reward function explicitly balances trade execution slippage against the penalty of not executing the order timeously. This work demonstrates how multiple competing learning agents impact a minimally intelligent market simulation as functions of the number of agents, the size of agents' initial orders, and the state spaces used for learning. We use phase space plots to examine the dynamics of the ABM, when various specifica
+    
+[^9]: 在村里当第一还是在罗马当第二？小学时学生的班级排名对后来的学业成就的影响。
+
+    Rather First in a Village than Second in Rome? The Effect of Students' Class Rank in Primary School on Subsequent Academic Achievements. (arXiv:2302.10026v2 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2302.10026](http://arxiv.org/abs/2302.10026)
+
+    本文研究了小学时学生的班级排名和班级质量对后续学业成果的影响，结果表明，排名对学生成绩的影响很大；与班级质量相比，班级排名的影响较小。
+
+    
+
+    本文利用2013年至2019年间意大利学生的面板数据，比较了小学阶段学生的班级排名与班级质量对后续学业成果的影响。我们提出了一种新策略来确定排名的影响，同时控制同伴影响，即利用班级考试的成绩构建排名，并利用全国标准化考试的成绩来控制学生的能力。在小学时排名第一与最后相比，会使中学的全国标准化考试成绩分布提高8.1个百分点，高中提高7.6个百分点。尽管排名的影响很大，但我们的分析还强调了，班级质量一个标准差的提高对学业的影响是排名的五倍。最后，通过一项广泛的学生调查，我们确定了排名的影响是通过进入更好的高中和心理机制来发挥作用的。
+
+    Using panel data on Italian students from 2013 to 2019, we compare the effect of a student's class rank to the effect of class quality in primary school on subsequent academic outcomes. We propose a new strategy to identify the impact of rank while controlling for peer effects, by leveraging grades on class exams to construct the rank, and grades on national standardized tests to control for students' ability. Ranking first in primary school compared to last results in an improvement of 8.1 percentiles in the national standardized test grade distribution in middle school and 7.6 percentiles in high school. Despite the sizable impact of rank, our analysis highlights that a one standard deviation increase in class quality is five-fold greater than a similar increase in rank. Finally, using an extensive student survey, we establish that the rank effect is channeled through sorting into better high schools and psychological mechanisms.
+    
+[^10]: 非重叠矩形脉冲序列的 $1/f$ 噪声
+
+    $1/f$ noise from the sequence of nonoverlapping rectangular pulses. (arXiv:2210.11792v5 [cond-mat.stat-mech] UPDATED)
+
+    [http://arxiv.org/abs/2210.11792](http://arxiv.org/abs/2210.11792)
+
+    本文分析了非重叠矩形脉冲的功率谱密度，证明了当特征脉冲持续时间较长且符合幂律分布时，可以观测到纯的 $1/f$ 噪声。
+
+    
+
+    我们分析由非重叠矩形脉冲组成的信号的功率谱密度。首先，我们推导了由非重叠脉冲序列构成的信号的功率谱密度的通用公式。然后我们对矩形脉冲情况进行了详细分析。我们证明了纯 $1/f$ 噪声可以观察到极低的频率，当特征脉冲（或间隙）持续时间长时，与特征间隙（或脉冲）持续时间相比，并且间隙（或脉冲）持续时间服从幂律分布。所得结果适用于遍历和弱非遍历过程。
+
+    We analyze the power spectral density of a signal composed of nonoverlapping rectangular pulses. First, we derive a general formula for the power spectral density of a signal constructed from the sequence of nonoverlapping pulses. Then we perform a detailed analysis of the rectangular pulse case. We show that pure $1/f$ noise can be observed until extremely low frequencies when the characteristic pulse (or gap) duration is long in comparison to the characteristic gap (or pulse) duration, and gap (or pulse) durations are power-law distributed. The obtained results hold for the ergodic and weakly nonergodic processes.
+    
+[^11]: 带$\epsilon$一阶二次交易成本的效用最大化的奇异摄动展开
+
+    Singular Perturbation Expansion for Utility Maximization with Order-$\epsilon$ Quadratic Transaction Costs. (arXiv:1910.06463v5 [q-fin.TR] UPDATED)
+
+    [http://arxiv.org/abs/1910.06463](http://arxiv.org/abs/1910.06463)
+
+    本文讨论了带有一阶二次交易成本的效用最大化问题，给出了一个按$\sqrt\epsilon$的幂级数展开的解法，并推导出该展开式的前两项显式公式。
+
+    
+
+    我们提出了一个投资组合优化的展开形式，考虑到小的瞬时二次交易成本。具体来说，交易成本的大小具有一个$\epsilon$小的系数，这导致优化问题具有一个渐近奇异的Hamilton-Jacobi-Bellman方程，其解可以按$\sqrt\epsilon$的幂级数展开。在本文中，我们推导了这个展开式的前两项的显式公式。通过分析和模拟表明了这个近似解的行为。
+
+    We present an expansion for portfolio optimization in the presence of small, instantaneous, quadratic transaction costs. Specifically, the magnitude of transaction costs has a coefficient that is of the order $\epsilon$ small, which leads to the optimization problem having an asymptotically-singular Hamilton-Jacobi-Bellman equation whose solution can be expanded in powers of $\sqrt\epsilon$. In this paper we derive explicit formulae for the first two terms of this expansion. Analysis and simulation are provided to show the behavior of this approximating solution.
     
 

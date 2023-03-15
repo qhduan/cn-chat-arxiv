@@ -1,0 +1,9 @@
+{
+    "title": "Revealed Multi-Objective Utility Aggregation in Human Driving. (arXiv:2303.07435v1 [cs.AI])",
+    "abstract": "A central design problem in game theoretic analysis is the estimation of the players' utilities. In many real-world interactive situations of human decision making, including human driving, the utilities are multi-objective in nature; therefore, estimating the parameters of aggregation, i.e., mapping of multi-objective utilities to a scalar value, becomes an essential part of game construction. However, estimating this parameter from observational data introduces several challenges due to a host of unobservable factors, including the underlying modality of aggregation and the possibly boundedly rational behaviour model that generated the observation. Based on the concept of rationalisability, we develop algorithms for estimating multi-objective aggregation parameters for two common aggregation methods, weighted and satisficing aggregation, and for both strategic and non-strategic reasoning models. Based on three different datasets, we provide insights into how human drivers aggregate t",
+    "link": "http://arxiv.org/abs/2303.07435",
+    "total_tokens": 877,
+    "translated_abstract": "博弈理论分析中的一个中心设计问题是估计玩家的效用。在包括人类驾驶在内的许多现实世界中的互动决策制定情况中，效用具有多目标特性。因此，估计聚合参数的问题，即将多目标效用映射到标量值的问题，成为博弈构建的重要组成部分。但是，从观测数据中估计此参数会引入多种挑战，包括底层聚合模态和生成观测的可能是有限理性行为模型等多种无法观察的因素。基于合理性的概念，我们开发了算法，用于估计两种常见聚合方法的多目标聚合参数：加权聚合和满足聚合，以及用于战略和非战略推理模型。基于三个不同的数据集，我们提供了人类驾驶员如何聚合目标的洞见。",
+    "tldr": "该论文研究人类驾驶中多目标效用的估计问题，提出了基于合理性概念的算法，分别针对加权和满足两种聚合方法，在战略和非战略推理模型下进行了探究。",
+    "en_tdlr": "This paper addresses the problem of estimating multi-objective utilities in human driving using algorithms based on the concept of rationalisability, focusing on two common aggregation methods, weighted and satisficing aggregation, for both strategic and non-strategic reasoning models, and offers insights based on three different datasets."
+}

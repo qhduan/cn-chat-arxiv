@@ -1,0 +1,10 @@
+{
+    "title": "Unsupervised Representation Learning in Partially Observable Atari Games. (arXiv:2303.07437v1 [cs.LG])",
+    "abstract": "State representation learning aims to capture latent factors of an environment. Contrastive methods have performed better than generative models in previous state representation learning research. Although some researchers realize the connections between masked image modeling and contrastive representation learning, the effort is focused on using masks as an augmentation technique to represent the latent generative factors better. Partially observable environments in reinforcement learning have not yet been carefully studied using unsupervised state representation learning methods.  In this article, we create an unsupervised state representation learning scheme for partially observable states. We conducted our experiment on a previous Atari 2600 framework designed to evaluate representation learning models. A contrastive method called Spatiotemporal DeepInfomax (ST-DIM) has shown state-of-the-art performance on this benchmark but remains inferior to its supervised counterpart. Our appr",
+    "link": "http://arxiv.org/abs/2303.07437",
+    "total_tokens": 969,
+    "translated_title": "不完全可观测Atari游戏中的无监督表示学习",
+    "translated_abstract": "状态表示学习旨在捕捉环境的潜在因素。在以前的状态表示学习研究中，对比方法比生成模型表现更好。尽管一些研究人员意识到掩蔽图像建模和对比学习表示之间的联系，但努力集中在使用掩模作为增强技术来更好地表示潜在的生成因素。利用无监督状态表示学习方法仔细研究强化学习中的不完全可观察环境尚未得到充分研究。在本文中，我们针对部分可观测状态创建了一种无监督状态表示学习方案。我们在早期的Atari 2600框架上进行了实验，该框架旨在评估表示学习模型。一种名为时空深度信息最大化（ST-DIM）的对比方法在这个基准测试中展示了最新的性能，但仍然不如其监督对应物。我们的方法称为部分可观测ST-DIM（PO-ST-DIM），通过合并部分可观测方案来改进对比方法。PO-ST-DIM优于ST-DIM，并且相对于监督方法具有竞争性能。",
+    "tldr": "本文提出了一种针对部分可观测状态的无监督状态表示学习方法PO-ST-DIM，改进了ST-DIM的对比方法，并在Atari游戏中取得了与监督方法相当的表现。",
+    "en_tdlr": "This paper proposes an unsupervised state representation learning method called PO-ST-DIM for partially observable states, which improves the contrastive method of ST-DIM and achieves competitive performance compared to supervised methods in Atari games."
+}

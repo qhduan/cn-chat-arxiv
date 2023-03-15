@@ -1,0 +1,12 @@
+{
+    "title": "$1/f$ noise from the sequence of nonoverlapping rectangular pulses. (arXiv:2210.11792v5 [cond-mat.stat-mech] UPDATED)",
+    "abstract": "We analyze the power spectral density of a signal composed of nonoverlapping rectangular pulses. First, we derive a general formula for the power spectral density of a signal constructed from the sequence of nonoverlapping pulses. Then we perform a detailed analysis of the rectangular pulse case. We show that pure $1/f$ noise can be observed until extremely low frequencies when the characteristic pulse (or gap) duration is long in comparison to the characteristic gap (or pulse) duration, and gap (or pulse) durations are power-law distributed. The obtained results hold for the ergodic and weakly nonergodic processes.",
+    "link": "http://arxiv.org/abs/2210.11792",
+    "context": "Title: $1/f$ noise from the sequence of nonoverlapping rectangular pulses. (arXiv:2210.11792v5 [cond-mat.stat-mech] UPDATED)\nAbstract: We analyze the power spectral density of a signal composed of nonoverlapping rectangular pulses. First, we derive a general formula for the power spectral density of a signal constructed from the sequence of nonoverlapping pulses. Then we perform a detailed analysis of the rectangular pulse case. We show that pure $1/f$ noise can be observed until extremely low frequencies when the characteristic pulse (or gap) duration is long in comparison to the characteristic gap (or pulse) duration, and gap (or pulse) durations are power-law distributed. The obtained results hold for the ergodic and weakly nonergodic processes.",
+    "path": "papers/22/10/2210.11792.json",
+    "total_tokens": 749,
+    "translated_title": "非重叠矩形脉冲序列的 $1/f$ 噪声",
+    "translated_abstract": "我们分析由非重叠矩形脉冲组成的信号的功率谱密度。首先，我们推导了由非重叠脉冲序列构成的信号的功率谱密度的通用公式。然后我们对矩形脉冲情况进行了详细分析。我们证明了纯 $1/f$ 噪声可以观察到极低的频率，当特征脉冲（或间隙）持续时间长时，与特征间隙（或脉冲）持续时间相比，并且间隙（或脉冲）持续时间服从幂律分布。所得结果适用于遍历和弱非遍历过程。",
+    "tldr": "本文分析了非重叠矩形脉冲的功率谱密度，证明了当特征脉冲持续时间较长且符合幂律分布时，可以观测到纯的 $1/f$ 噪声。",
+    "en_tdlr": "This paper analyzes the power spectral density of a signal composed of nonoverlapping rectangular pulses, and shows that pure $1/f$ noise can be observed when the characteristic pulse duration is long and follows a power-law distribution."
+}

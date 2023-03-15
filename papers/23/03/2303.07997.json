@@ -1,0 +1,10 @@
+{
+    "title": "FingerSLAM: Closed-loop Unknown Object Localization and Reconstruction from Visuo-tactile Feedback. (arXiv:2303.07997v1 [cs.RO])",
+    "abstract": "In this paper, we address the problem of using visuo-tactile feedback for 6-DoF localization and 3D reconstruction of unknown in-hand objects. We propose FingerSLAM, a closed-loop factor graph-based pose estimator that combines local tactile sensing at finger-tip and global vision sensing from a wrist-mount camera. FingerSLAM is constructed with two constituent pose estimators: a multi-pass refined tactile-based pose estimator that captures movements from detailed local textures, and a single-pass vision-based pose estimator that predicts from a global view of the object. We also design a loop closure mechanism that actively matches current vision and tactile images to previously stored key-frames to reduce accumulated error. FingerSLAM incorporates the two sensing modalities of tactile and vision, as well as the loop closure mechanism with a factor graph-based optimization framework. Such a framework produces an optimized pose estimation solution that is more accurate than the standal",
+    "link": "http://arxiv.org/abs/2303.07997",
+    "total_tokens": 917,
+    "translated_title": "FingerSLAM: 利用视触反馈进行未知物体定位和重构的闭环方法",
+    "translated_abstract": "本文针对利用视触反馈进行未知物体的6自由度定位和三维重构的问题，提出了一种名为FingerSLAM的基于因子图的闭环姿态估计器。FingerSLAM结合了手指顶端的局部触觉传感和手腕处全局视觉传感，由两个姿态估计器构成：多通道的精细触觉姿态估计器和单通道的视觉姿态估计器。同时，我们设计了一个闭环机制，主动匹配当前视觉与触觉图像与先前存储的关键帧，以减少累积误差。 FingerSLAM将触觉和视觉两种感知模式以及闭环机制纳入基于因子图优化框架的方案中。这种方案能够产生比单一模态解决方案更精确的优化姿态估计解决方案。",
+    "tldr": "本论文提出了一种利用视触反馈进行未知物体定位和重构的闭环方法FingerSLAM，通过局部和全局的双重姿态估计器，以及闭环机制结合触觉和视觉的两种感知模式，实现了姿态估计的优化，并比单一模态的解决方案更加精确。",
+    "en_tdlr": "This paper proposes a closed-loop method named FingerSLAM for unknown object localization and reconstruction from visuo-tactile feedback. It combines local and global pose estimators and a loop closure mechanism to produce an optimized solution that is more accurate than single-modality solutions."
+}

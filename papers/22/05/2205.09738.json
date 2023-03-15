@@ -1,0 +1,10 @@
+{
+    "title": "AIGenC: AI generalisation via creativity. (arXiv:2205.09738v4 [cs.AI] UPDATED)",
+    "abstract": "Inspired by cognitive theories of creativity, this paper introduces a computational model (AIGenC) that lays down the necessary components to enable artificial agents to learn, use and generate transferable representations. Unlike machine representation learning, which relies exclusively on raw sensory data, biological representations incorporate relational and associative information that embeds rich and structured concept spaces. The AIGenC model poses a hierarchical graph architecture with various levels and types of representations procured by different components. The first component, Concept Processing, extracts objects and affordances from sensory input and encodes them into a concept space. The resulting representations are stored in a dual memory system and enriched with goal-directed and temporal information acquired through reinforcement learning, creating a higher-level of abstraction. Two additional components work in parallel to detect and recover relevant concepts and cr",
+    "link": "http://arxiv.org/abs/2205.09738",
+    "total_tokens": 947,
+    "translated_title": "AIGenC：通过创造力进行 AI 通用化",
+    "translated_abstract": "本文受到创造力的认知理论的启发，引入了一个计算模型（AIGenC），旨在提供必要的组成部分，使人工智能代理能够学习、使用和生成可转移的表征。与机器表征学习不同的是，生物表征包括关系和联想信息，嵌入了丰富和结构化的概念空间。AIGenC 模型采用分层的图形架构，具有不同组件获取的各种级别和类型的表征。第一个组件部分——概念处理，从感官输入中提取对象和支配因素，并将它们编码成概念空间。生成的表征存储在双重记忆系统中，并通过强化学习获得目标导向和时间信息的丰富度，从而创建了更高层次的抽象。另外两个组件并行工作，检测和恢复存储表征中的相关概念和创造连接，使系统能够生成新型解决方案并在新场景中应用它们。实验结果表明，AIGenC 在各种通用任务中优于现有的最先进方法。",
+    "tldr": "AIGenC 提出了一种创造性的计算模型，通过引入概念空间和分层结构来提高人工智能代理的通用性和创新能力，实验表明其在通用任务中的表现优于最先进方法。",
+    "en_tdlr": "AIGenC proposes a creative computational model that enhances the generalisation and innovation ability of artificial agents by introducing concept spaces and hierarchical structures, and experimental results demonstrate its superiority in various generalisation tasks compared to state-of-the-art methods."
+}

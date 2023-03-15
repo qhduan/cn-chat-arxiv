@@ -1,0 +1,10 @@
+{
+    "title": "Input-length-shortening and text generation via attention values. (arXiv:2303.07585v1 [cs.CL])",
+    "abstract": "Identifying words that impact a task's performance more than others is a challenge in natural language processing. Transformers models have recently addressed this issue by incorporating an attention mechanism that assigns greater attention (i.e., relevance) scores to some words than others. Because of the attention mechanism's high computational cost, transformer models usually have an input-length limitation caused by hardware constraints. This limitation applies to many transformers, including the well-known bidirectional encoder representations of the transformer (BERT) model. In this paper, we examined BERT's attention assignment mechanism, focusing on two questions: (1) How can attention be employed to reduce input length? (2) How can attention be used as a control mechanism for conditional text generation? We investigated these questions in the context of a text classification task. We discovered that BERT's early layers assign more critical attention scores for text classificat",
+    "link": "http://arxiv.org/abs/2303.07585",
+    "total_tokens": 822,
+    "translated_title": "利用注意力值缩短输入长度和生成文本",
+    "translated_abstract": "在自然语言处理中，识别影响任务性能的词语是一个挑战。最近，使用注意力机制的Transformer模型已经解决了这个问题，通过为一些词分配更高的注意力（即相关性）分数。由于注意力机制的高计算成本，Transformer模型通常由于硬件限制而有输入长度限制。这个限制适用于许多Transformer，包括知名的双向编码器表示的Transformer（BERT）模型。本文研究了BERT的注意力分配机制，关注以下两个问题：（1）如何利用注意力缩短输入长度？（2）如何利用注意力作为条件文本生成的控制机制？我们将这些问题应用于文本分类任务。我们发现BERT的早期层为文本分类分配了更关键的注意力分数。",
+    "tldr": "本文研究了BERT模型的注意力机制，提出了如何利用注意力缩短输入长度和控制条件文本生成的问题，并在文本分类任务中进行应用。研究发现BERT的早期层为文本分类分配了更关键的注意力分数。",
+    "en_tdlr": "This paper investigates the attention mechanism of the BERT model and proposes two questions on how to use attention to reduce input length and control conditional text generation, applied in a text classification task. The study finds that BERT's early layers assign more critical attention scores for text classification."
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Supervised Feature Selection with Neuron Evolution in Sparse Neural Networks. (arXiv:2303.07200v2 [cs.NE] UPDATED)",
+    "abstract": "Feature selection that selects an informative subset of variables from data not only enhances the model interpretability and performance but also alleviates the resource demands. Recently, there has been growing attention on feature selection using neural networks. However, existing methods usually suffer from high computational costs when applied to high-dimensional datasets. In this paper, inspired by evolution processes, we propose a novel resource-efficient supervised feature selection method using sparse neural networks, named \\enquote{NeuroFS}. By gradually pruning the uninformative features from the input layer of a sparse neural network trained from scratch, NeuroFS derives an informative subset of features efficiently. By performing several experiments on $11$ low and high-dimensional real-world benchmarks of different types, we demonstrate that NeuroFS achieves the highest ranking-based score among the considered state-of-the-art supervised feature selection models. The code ",
+    "link": "http://arxiv.org/abs/2303.07200",
+    "total_tokens": 860,
+    "translated_title": "稀疏神经网络中的神经元进化监督特征选择",
+    "translated_abstract": "特征选择从数据中选择信息量高的变量子集，不仅可以增强模型解释性和性能，而且可以减轻资源需求。最近，越来越多的人开始关注使用神经网络进行特征选择。然而，现有的方法通常在应用于高维度数据集时会受到高计算成本的困扰。在本文中，我们受到进化过程的启发，提出了一种使用稀疏神经网络的新型资源有效的监督式特征选择方法，命名为 \"NeuroFS\"。通过从零开始训练的稀疏神经网络逐步修剪无信息的特征，NeuroFS有效地派生出一个信息丰富的特征子集。通过对 $11$ 种不同类型的低维和高维真实世界基准数据集进行多个实验，我们证明了 NeuroFS 在考虑到最先进的监督特征选择模型时具有最高的排名得分。",
+    "tldr": "本文提出了一种使用神经元进化的稀疏神经网络方法，名为 NeuroFS，能够有效地派生出信息丰富的特征子集，且在实验中具有最高排名得分。",
+    "en_tdlr": "The paper proposes a novel supervised feature selection method, named NeuroFS, using neuron evolution in sparse neural networks, which efficiently derives an informative subset of features. The experiments demonstrate that NeuroFS achieves the highest ranking-based score among the considered state-of-the-art supervised feature selection models."
+}

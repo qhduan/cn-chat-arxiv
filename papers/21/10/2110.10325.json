@@ -1,0 +1,10 @@
+{
+    "title": "One-Step Abductive Multi-Target Learning with Diverse Noisy Samples and Its Application to Tumour Segmentation for Breast Cancer. (arXiv:2110.10325v9 [cs.LG] UPDATED)",
+    "abstract": "Recent studies have demonstrated the effectiveness of the combination of machine learning and logical reasoning, including data-driven logical reasoning, knowledge driven machine learning and abductive learning, in inventing advanced artificial intelligence technologies. One-step abductive multi-target learning (OSAMTL), an approach inspired by abductive learning, via simply combining machine learning and logical reasoning in a one-step balanced way, has as well shown its effectiveness in handling complex noisy labels of a single noisy sample in medical histopathology whole slide image analysis (MHWSIA). However, OSAMTL is not suitable for the situation where diverse noisy samples (DiNS) are provided for a learning task. In this paper, giving definition of DiNS, we propose one-step abductive multi-target learning with DiNS (OSAMTL-DiNS) to expand the original OSAMTL to handle complex noisy labels of DiNS. Applying OSAMTL-DiNS to tumour segmentation for breast cancer in MHWSIA, we show ",
+    "link": "http://arxiv.org/abs/2110.10325",
+    "total_tokens": 1012,
+    "translated_title": "一步式诱导式多目标学习及其在乳腺癌肿瘤分割中的应用",
+    "translated_abstract": "近年来的研究表明，机器学习和逻辑推理的结合，包括数据驱动的逻辑推理、知识驱动的机器学习和诱导学习，在发明先进的人工智能技术方面具有很高的有效性。在医学组织病理学全幻灯片图像分析中，一步式诱导式多目标学习（OSAMTL），作为一种受诱导学习启发的方法，通过以一种平衡的方式简单地结合机器学习和逻辑推理，已经证明了其处理单个嘈杂标签的复杂噪声标签的有效性。但是，OSAMTL不适用于提供多种嘈杂样本（DiNS）的学习任务情况。在本文中，我们给出了DiNS的定义，并提出了一步式诱导式多目标学习与DiNS（OSAMTL-DiNS），以扩展原始的OSAMTL以处理DiNS的复杂噪声标签。将OSAMTL-DiNS应用于MHWSIA中的乳腺癌肿瘤分割中，我们展示了其有效性。",
+    "tldr": "本论文提出了一种新的机器学习方法——一步式诱导式多目标学习与DiNS（OSAMTL-DiNS），以处理医学组织病理学全幻灯片图像分析中的复杂噪声标签。在乳腺癌肿瘤分割中得到了成功应用。",
+    "en_tdlr": "This paper proposes a new machine learning method, One-Step Abductive Multi-Target Learning with Diverse Noisy Samples (OSAMTL-DiNS), to handle the complex noisy labels in medical histopathology whole slide image analysis (MHWSIA). It has successful application in tumor segmentation for breast cancer."
+}

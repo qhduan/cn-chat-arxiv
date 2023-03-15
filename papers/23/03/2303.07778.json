@@ -1,0 +1,8 @@
+{
+    "title": "GANN: Graph Alignment Neural Network for Semi-Supervised Learning. (arXiv:2303.07778v1 [cs.LG])",
+    "abstract": "Graph neural networks (GNNs) have been widely investigated in the field of semi-supervised graph machine learning. Most methods fail to exploit adequate graph information when labeled data is limited, leading to the problem of oversmoothing. To overcome this issue, we propose the Graph Alignment Neural Network (GANN), a simple and effective graph neural architecture. A unique learning algorithm with three alignment rules is proposed to thoroughly explore hidden information for insufficient labels. Firstly, to better investigate attribute specifics, we suggest the feature alignment rule to align the inner product of both the attribute and embedding matrices. Secondly, to properly utilize the higher-order neighbor information, we propose the cluster center alignment rule, which involves aligning the inner product of the cluster center matrix with the unit matrix. Finally, to get reliable prediction results with few labels, we establish the minimum entropy alignment rule by lining up the ",
+    "link": "http://arxiv.org/abs/2303.07778",
+    "total_tokens": 709,
+    "tldr": "本论文提出了图对齐神经网络(GANN)，一种处理半监督学习中缺乏标签问题的简单有效的图神经网络架构。",
+    "en_tdlr": "This paper proposes GANN, a simple and effective graph neural architecture for semi-supervised learning that addresses the issue of limited labeled data by thoroughly exploring hidden information through a unique learning algorithm with three alignment rules."
+}

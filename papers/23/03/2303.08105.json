@@ -1,0 +1,10 @@
+{
+    "title": "Image Guidance for Robot-Assisted Ankle Fracture Repair. (arXiv:2303.08105v1 [eess.IV])",
+    "abstract": "This project concerns developing and validating an image guidance framework for application to a robotic-assisted fibular reduction in ankle fracture surgery. The aim is to produce and demonstrate proper functioning of software for automatic determination of directions for fibular repositioning with the ultimate goal of application to a robotic reduction procedure that can reduce the time and complexity of the procedure as well as provide the benefits of reduced error in ideal final fibular position, improved syndesmosis restoration and reduced incidence of post-traumatic osteoarthritis. The focus of this product will be developing and testing the image guidance software, from the input of preoperative images through the steps of automated segmentation and registration until the output of a final transformation that can be used as instructions to a robot on how to reposition the fibula, but will not involve developing or implementing the hardware of the robot itself.",
+    "link": "http://arxiv.org/abs/2303.08105",
+    "total_tokens": 791,
+    "translated_title": "机器人辅助踝骨骨折修复的图像引导技术研究",
+    "translated_abstract": "本项目涉及开发和验证一种适用于机器人辅助腓骨复位的图像引导框架，并旨在产生和证明自动确定腓骨复位方向的软件的正确功能，最终目标是应用于机器人减压程序，从而减少手术时间和复杂性，同时提供理想的最终腓骨位置误差减小、韧带结构恢复得到改善以及创伤后骨性关节炎发生率降低的益处。",
+    "tldr": "该研究旨在开发和验证一种图像引导框架，使机器人能够自动确定腓骨复位方向，进而提高骨折手术的效率和准确性，改善患者的手术效果，降低患者发生骨性关节炎的风险。",
+    "en_tdlr": "This study aims to develop and validate an image guidance framework to enable a robot to automatically determine the direction of fibular repositioning, thus improving the efficiency and accuracy of ankle fracture surgery, enhancing patient outcomes, and lowering the risk of post-traumatic osteoarthritis."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Singular Perturbation Expansion for Utility Maximization with Order-$\\epsilon$ Quadratic Transaction Costs. (arXiv:1910.06463v5 [q-fin.TR] UPDATED)",
+    "abstract": "We present an expansion for portfolio optimization in the presence of small, instantaneous, quadratic transaction costs. Specifically, the magnitude of transaction costs has a coefficient that is of the order $\\epsilon$ small, which leads to the optimization problem having an asymptotically-singular Hamilton-Jacobi-Bellman equation whose solution can be expanded in powers of $\\sqrt\\epsilon$. In this paper we derive explicit formulae for the first two terms of this expansion. Analysis and simulation are provided to show the behavior of this approximating solution.",
+    "link": "http://arxiv.org/abs/1910.06463",
+    "context": "Title: Singular Perturbation Expansion for Utility Maximization with Order-$\\epsilon$ Quadratic Transaction Costs. (arXiv:1910.06463v5 [q-fin.TR] UPDATED)\nAbstract: We present an expansion for portfolio optimization in the presence of small, instantaneous, quadratic transaction costs. Specifically, the magnitude of transaction costs has a coefficient that is of the order $\\epsilon$ small, which leads to the optimization problem having an asymptotically-singular Hamilton-Jacobi-Bellman equation whose solution can be expanded in powers of $\\sqrt\\epsilon$. In this paper we derive explicit formulae for the first two terms of this expansion. Analysis and simulation are provided to show the behavior of this approximating solution.",
+    "path": "papers/19/10/1910.06463.json",
+    "total_tokens": 678,
+    "translated_title": "带$\\epsilon$一阶二次交易成本的效用最大化的奇异摄动展开",
+    "translated_abstract": "我们提出了一个投资组合优化的展开形式，考虑到小的瞬时二次交易成本。具体来说，交易成本的大小具有一个$\\epsilon$小的系数，这导致优化问题具有一个渐近奇异的Hamilton-Jacobi-Bellman方程，其解可以按$\\sqrt\\epsilon$的幂级数展开。在本文中，我们推导了这个展开式的前两项的显式公式。通过分析和模拟表明了这个近似解的行为。",
+    "tldr": "本文讨论了带有一阶二次交易成本的效用最大化问题，给出了一个按$\\sqrt\\epsilon$的幂级数展开的解法，并推导出该展开式的前两项显式公式。",
+    "en_tdlr": "This paper discusses the utility maximization problem with order-$\\epsilon$ quadratic transaction costs and provides an expansion solution in powers of $\\sqrt\\epsilon$. The explicit formulas for the first two terms of the expansion are derived and analysis and simulation are conducted to show the behavior of this approximating solution."
+}

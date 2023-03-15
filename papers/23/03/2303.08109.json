@@ -1,0 +1,12 @@
+{
+    "title": "Vision-based route following by an embodied insect-inspired sparse neural network. (arXiv:2303.08109v1 [cs.NE])",
+    "abstract": "We compared the efficiency of the FlyHash model, an insect-inspired sparse neural network (Dasgupta et al., 2017), to similar but non-sparse models in an embodied navigation task. This requires a model to control steering by comparing current visual inputs to memories stored along a training route. We concluded the FlyHash model is more efficient than others, especially in terms of data encoding.",
+    "link": "http://arxiv.org/abs/2303.08109",
+    "context": "Title: Vision-based route following by an embodied insect-inspired sparse neural network. (arXiv:2303.08109v1 [cs.NE])\nAbstract: We compared the efficiency of the FlyHash model, an insect-inspired sparse neural network (Dasgupta et al., 2017), to similar but non-sparse models in an embodied navigation task. This requires a model to control steering by comparing current visual inputs to memories stored along a training route. We concluded the FlyHash model is more efficient than others, especially in terms of data encoding.",
+    "path": "papers/23/03/2303.08109.json",
+    "total_tokens": 609,
+    "translated_title": "基于视觉、仿生稀疏神经网络的路线跟随",
+    "translated_abstract": "我们比较了一种叫做FlyHash模型（Dasgupta et al., 2017）的仿生稀疏神经网络与其他非稀疏模型在路线跟随任务中的效率。该任务需要模型通过比较当前的视觉输入和沿途存储的记忆来控制转向。我们得出结论：FlyHash模型比其他模型更高效，尤其是在数据编码方面。",
+    "tldr": "该论文比较了一种基于仿生稀疏神经网络的FlyHash模型和其他非稀疏模型在路线跟随任务中的效率，发现FlyHash模型在数据编码方面更加高效。",
+    "en_tdlr": "The FlyHash model, an insect-inspired sparse neural network, was compared to similar but non-sparse models in an embodied navigation task and was found to be more efficient, particularly in terms of data encoding."
+}

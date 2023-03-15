@@ -1,0 +1,10 @@
+{
+    "title": "Large Language Models Fail on Trivial Alterations to Theory-of-Mind Tasks. (arXiv:2302.08399v5 [cs.AI] UPDATED)",
+    "abstract": "Intuitive psychology is a pillar of common-sense reasoning. The replication of this reasoning in machine intelligence is an important stepping-stone on the way to human-like artificial intelligence. Several recent tasks and benchmarks for examining this reasoning in Large-Large Models have focused in particular on belief attribution in Theory-of-Mind tasks. These tasks have shown both successes and failures. We consider in particular a recent purported success case, and show that small variations that maintain the principles of ToM turn the results on their head. We argue that in general, the zero-hypothesis for model evaluation in intuitive psychology should be skeptical, and that outlying failure cases should outweigh average success rates. We also consider what possible future successes on Theory-of-Mind tasks by more powerful LLMs would mean for ToM tasks with people.",
+    "link": "http://arxiv.org/abs/2302.08399",
+    "total_tokens": 801,
+    "translated_title": "大型语言模型在 Theory-of-Mind 任务的微小改变上失败",
+    "translated_abstract": "直觉心理学是常识推理的支柱。在机器智能中复制这种推理是迈向类人工智能的一个重要基石。最近，有几项任务和基准用于检查大型语言模型中这种推理，特别关注心灵理论任务中的信念归属。这些任务既有成功案例也有失败案例。我们特别考虑了一个最近声称的成功案例，并展示了维持ToM原则的小幅变化使结果大相径庭。我们认为，一般来说，在直觉心理学模型评估中，零假设应该持怀疑态度，并且离群故障案例应该超过平均成功率。我们还考虑了更强大的LLM（Large-Large Models）在理解心理学任务上可能取得的未来成功对人类ToM任务意味着什么。",
+    "tldr": "大型语言模型在微小的理论任务改动上容易失败，表明在直觉心理学模型评估中需要持怀疑态度，且失败案例应被重视。",
+    "en_tdlr": "Large language models fail on trivial alterations to Theory-of-Mind tasks, suggesting that a skeptical approach is needed for evaluating models in intuitive psychology and that outlier failure cases should be given more weight."
+}

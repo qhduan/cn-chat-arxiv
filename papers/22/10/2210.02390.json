@@ -1,0 +1,10 @@
+{
+    "title": "Bayesian Prompt Learning for Image-Language Model Generalization. (arXiv:2210.02390v2 [cs.CV] UPDATED)",
+    "abstract": "Foundational image-language models have generated considerable interest due to their efficient adaptation to downstream tasks by prompt learning. Prompt learning treats part of the language model input as trainable while freezing the rest, and optimizes an Empirical Risk Minimization objective. However, Empirical Risk Minimization is known to suffer from distributional shifts which hurt generalizability to prompts unseen during training. By leveraging the regularization ability of Bayesian methods, we frame prompt learning from the Bayesian perspective and formulate it as a variational inference problem. Our approach regularizes the prompt space, reduces overfitting to the seen prompts and improves the prompt generalization on unseen prompts. Our framework is implemented by modeling the input prompt space in a probabilistic manner, as an a priori distribution which makes our proposal compatible with prompt learning approaches that are unconditional or conditional on the image. We demon",
+    "link": "http://arxiv.org/abs/2210.02390",
+    "total_tokens": 813,
+    "translated_title": "基于贝叶斯的提示学习用于图像-语言模型泛化",
+    "translated_abstract": "基础的图像-语言模型因其高效的适应下游任务的提示学习而引起了广泛关注。提示学习将语言模型输入的一部分视为可训练的，同时冻结其余部分，并优化经验风险最小化目标。然而，经验风险最小化已知受到分布偏移的影响，这影响了对训练过程中未见提示的泛化能力。通过利用贝叶斯方法的正则化能力，我们从贝叶斯角度考虑提示学习，并将其制定为变分推断问题。我们的方法对提示空间进行正则化，减少对已见提示的过度拟合，并提高了对未见提示的提示泛化能力。我们的框架通过以概率的方式对输入提示空间进行建模，作为先验分布，使我们的提议与基于图像无条件或有条件的提示学习方法兼容。我们进行了实验证明了本提出的方法的有效性。",
+    "tldr": "本文提出了一种基于贝叶斯方法的提示学习框架，对提示空间进行正则化，提高了对未见提示的泛化能力。",
+    "en_tdlr": "This paper proposes a Bayesian prompt learning framework that regularizes the prompt space to improve generalization to unseen prompts."
+}

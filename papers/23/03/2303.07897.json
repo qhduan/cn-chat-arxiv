@@ -1,0 +1,10 @@
+{
+    "title": "Multiparticle Kalman filter for object localization in symmetric environments. (arXiv:2303.07897v1 [cs.RO])",
+    "abstract": "This study considers the object localization problem and proposes a novel multiparticle Kalman filter to solve it in complex and symmetric environments. Two well-known classes of filtering algorithms to solve the localization problem are Kalman filter-based methods and particle filter-based methods. We consider these classes, demonstrate their complementary properties, and propose a novel filtering algorithm that takes the best from two classes. We evaluate the multiparticle Kalman filter in symmetric and noisy environments. Such environments are especially challenging for both classes of classical methods. We compare the proposed approach with the particle filter since only this method is feasible if the initial state is unknown. In the considered challenging environments, our method outperforms the particle filter in terms of both localization error and runtime.",
+    "link": "http://arxiv.org/abs/2303.07897",
+    "total_tokens": 811,
+    "translated_title": "对称环境下的物体定位多粒子卡尔曼滤波器研究",
+    "translated_abstract": "本研究考虑了物体定位问题，并提出了一种新的多粒子卡尔曼滤波器来解决复杂对称环境中的问题。我们考虑了卡尔曼滤波器类和粒子滤波器类两种解决定位问题的滤波器算法，并提出了一种新的滤波算法，融合了两种方法的优点。在对称且有噪声的环境中评估了多粒子卡尔曼滤波器，这些环境对于两种经典方法都具有挑战性。我们将所提出的方法与粒子滤波进行了比较，由于只有此方法适用于未知初始状态，因此我们只考虑了这种方法。在考虑了如此挑战性的环境后，我们的方法在定位误差和运行时间方面均优于粒子滤波器。",
+    "tldr": "本研究提出了一种新的多粒子卡尔曼滤波器，可解决对称复杂环境下的物体定位问题，并在实验中表现出优于粒子滤波的性能。",
+    "en_tdlr": "A novel multiparticle Kalman filter is proposed in this study to solve the object localization problem in complex and symmetric environments, which outperforms particle filter-based methods in terms of localization error and runtime."
+}

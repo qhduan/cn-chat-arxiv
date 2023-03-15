@@ -1,0 +1,10 @@
+{
+    "title": "Parameter is Not All You Need: Starting from Non-Parametric Networks for 3D Point Cloud Analysis. (arXiv:2303.08134v1 [cs.CV])",
+    "abstract": "We present a Non-parametric Network for 3D point cloud analysis, Point-NN, which consists of purely non-learnable components: farthest point sampling (FPS), k-nearest neighbors (k-NN), and pooling operations, with trigonometric functions. Surprisingly, it performs well on various 3D tasks, requiring no parameters or training, and even surpasses existing fully trained models. Starting from this basic non-parametric model, we propose two extensions. First, Point-NN can serve as a base architectural framework to construct Parametric Networks by simply inserting linear layers on top. Given the superior non-parametric foundation, the derived Point-PN exhibits a high performance-efficiency trade-off with only a few learnable parameters. Second, Point-NN can be regarded as a plug-and-play module for the already trained 3D models during inference. Point-NN captures the complementary geometric knowledge and enhances existing methods for different 3D benchmarks without re-training. We hope our w",
+    "link": "http://arxiv.org/abs/2303.08134",
+    "total_tokens": 1007,
+    "translated_title": "非参数化网络在三维点云分析中的应用：参数不是唯一需要的。",
+    "translated_abstract": "本文提出了一种基于非参数化模型的三维点云分析网络——Point-NN。该网络仅由不可学习组件组成，包括最远点采样（FPS）、K近邻（k-NN）和加权平均池化等操作及三角函数。令人惊讶的是，它在各种三维任务中表现良好，不需要参数或训练，甚至超过了现有的完全训练模型。基于这种非参数模型，我们提出了两种扩展。首先，Point-NN可以作为基础架构框架，通过在其上简单插入线性层来构建参数化网络。在非参数基础上，得到的Point-PN具有较高的性能效率权衡，只需要很少的可学习参数。其次，Point-NN可以被视为已经训练好的三维模型的即插即用模块。Point-NN捕获互补的几何知识，增强现有方法对不同三维基准的性能。我们希望我们的工作能够激发更多对非线性操作和几何知识的研究。",
+    "tldr": "本文提出了一种基于非参数化模型的三维点云分析网络Point-NN。它在各种三维任务中表现良好，不需要参数或训练，可以作为基础架构框架构建参数化网络和已经训练好的三维模型的即插即用模块。",
+    "en_tdlr": "This paper proposes a non-parametric network, Point-NN, for 3D point cloud analysis, which performs well on various tasks without parameters or training. It can serve as a base architectural framework to construct parametric networks and a plug-and-play module for the already trained 3D models during inference."
+}

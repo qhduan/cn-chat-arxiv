@@ -1,0 +1,8 @@
+{
+    "title": "Context Normalization for Robust Image Classification. (arXiv:2303.07651v1 [cs.CV])",
+    "abstract": "Normalization is a pre-processing step that converts the data into a more usable representation. As part of the deep neural networks (DNNs), the batch normalization (BN) technique uses normalization to address the problem of internal covariate shift. It can be packaged as general modules, which have been extensively integrated into various DNNs, to stabilize and accelerate training, presumably leading to improved generalization. However, the effect of BN is dependent on the mini-batch size and it does not take into account any groups or clusters that may exist in the dataset when estimating population statistics. This study proposes a new normalization technique, called context normalization, for image data. This approach adjusts the scaling of features based on the characteristics of each sample, which improves the model's convergence speed and performance by adapting the data values to the context of the target task. The effectiveness of context normalization is demonstrated on vario",
+    "link": "http://arxiv.org/abs/2303.07651",
+    "total_tokens": 875,
+    "tldr": "本研究提出了一种新的标准化技术——上下文标准化，该技术针对图像数据，基于每个样本的特征调整特征的缩放，改善模型的收敛速度和性能，适应目标任务的上下文。",
+    "en_tdlr": "This paper proposes a novel normalization technique, called context normalization, for image data, which adjusts the feature scaling based on each sample's characteristics and improves the model's convergence speed and performance by adapting data values to the context of the target task."
+}

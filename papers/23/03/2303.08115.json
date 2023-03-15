@@ -1,0 +1,8 @@
+{
+    "title": "Human-Inspired Framework to Accelerate Reinforcement Learning. (arXiv:2303.08115v1 [cs.LG])",
+    "abstract": "While deep reinforcement learning (RL) is becoming an integral part of good decision-making in data science, it is still plagued with sample inefficiency. This can be challenging when applying deep-RL in real-world environments where physical interactions are expensive and can risk system safety. To improve the sample efficiency of RL algorithms, this paper proposes a novel human-inspired framework that facilitates fast exploration and learning for difficult RL tasks. The main idea is to first provide the learning agent with simpler but similar tasks that gradually grow in difficulty and progress toward the main task. The proposed method requires no pre-training phase. Specifically, the learning of simpler tasks is only done for one iteration. The generated knowledge could be used by any transfer learning, including value transfer and policy transfer, to reduce the sample complexity while not adding to the computational complexity. So, it can be applied to any goal, environment, and re",
+    "link": "http://arxiv.org/abs/2303.08115",
+    "total_tokens": 917,
+    "tldr": "本文提出了一种基于人类思维的框架来提高深度强化学习算法的样本效率，该框架向学习代理提供简单但相似的任务，逐渐增加难度，生成的知识可供任何转移学习使用以减少样本复杂性。",
+    "en_tdlr": "This paper proposes a human-inspired framework to improve the sample efficiency of deep reinforcement learning algorithms, which provides the learning agent with simpler but similar tasks that gradually grow in difficulty and progress toward the main task. The generated knowledge could be used by any transfer learning to reduce the sample complexity."
+}

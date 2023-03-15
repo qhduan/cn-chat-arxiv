@@ -1,0 +1,10 @@
+{
+    "title": "A Broad Ensemble Learning System for Drifting Stream Classification. (arXiv:2110.03540v2 [cs.LG] UPDATED)",
+    "abstract": "In a data stream environment, classification models must handle concept drift efficiently and effectively. Ensemble methods are widely used for this purpose; however, the ones available in the literature either use a large data chunk to update the model or learn the data one by one. In the former, the model may miss the changes in the data distribution, and in the latter, the model may suffer from inefficiency and instability. To address these issues, we introduce a novel ensemble approach based on the Broad Learning System (BLS), where mini chunks are used at each update. BLS is an effective lightweight neural architecture recently developed for incremental learning. Although it is fast, it requires huge data chunks for effective updates, and is unable to handle dynamic changes observed in data streams. Our proposed approach named Broad Ensemble Learning System (BELS) uses a novel updating method that significantly improves best-in-class model accuracy. It employs an ensemble of outpu",
+    "link": "http://arxiv.org/abs/2110.03540",
+    "total_tokens": 873,
+    "translated_title": "一种应对数据流分类概念漂移的广义集成学习系统",
+    "translated_abstract": "在数据流环境中，分类模型必须有效地处理概念漂移。集成方法是为此目的广泛使用的方法，但是文献中存在的方法要么使用大块数据更新模型，要么逐个学习数据。前者可能会错过数据分布中的变化，后者则可能受到效率和不稳定性的影响。为了解决这些问题，我们引入一种基于Broad Learning System (BLS)的新型集成方法，在每次更新时使用小块数据。BLS是一种有效的轻量级神经结构，最近被开发用于增量学习。尽管它速度很快，但它需要大量数据块来进行有效更新，而且不能处理数据流中观察到的动态变化。我们提出的Broad Ensemble Learning System (BELS)使用一种新的更新方式，显著提高了最佳性能模型的准确性。它使用输出集成",
+    "tldr": "一种名为Broad Ensemble Learning System (BELS)的新型集成方法用于数据流分类中的概念漂移问题。相对于文献中现有的方法，它能够更加高效、稳定地更新模型，提高最佳性能模型的准确性。",
+    "en_tdlr": "The paper introduces a new ensemble learning method called Broad Ensemble Learning System (BELS) to address the concept drift problem in data stream classification. Compared with existing methods in literature, it updates the model more efficiently and stably using mini chunks of data, and improves the accuracy of the best performance model."
+}

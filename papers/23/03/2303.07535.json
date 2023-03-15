@@ -1,0 +1,10 @@
+{
+    "title": "Path Planning using Reinforcement Learning: A Policy Iteration Approach. (arXiv:2303.07535v1 [cs.LG])",
+    "abstract": "With the impact of real-time processing being realized in the recent past, the need for efficient implementations of reinforcement learning algorithms has been on the rise. Albeit the numerous advantages of Bellman equations utilized in RL algorithms, they are not without the large search space of design parameters.  This research aims to shed light on the design space exploration associated with reinforcement learning parameters, specifically that of Policy Iteration. Given the large computational expenses of fine-tuning the parameters of reinforcement learning algorithms, we propose an auto-tuner-based ordinal regression approach to accelerate the process of exploring these parameters and, in return, accelerate convergence towards an optimal policy. Our approach provides 1.82x peak speedup with an average of 1.48x speedup over the previous state-of-the-art.",
+    "link": "http://arxiv.org/abs/2303.07535",
+    "total_tokens": 843,
+    "translated_title": "基于强化学习的路径规划：一种策略迭代方法",
+    "translated_abstract": "随着实时处理的影响在最近被认识到，对于强化学习算法的高效实现的需求也越来越迫切。尽管RL算法中利用Bellman方程具有许多优点，但是设计参数的大搜索空间也是不可避免的。本研究旨在阐明与强化学习参数相关的设计空间探索，特别是策略迭代方面。考虑到微调强化学习算法的参数需要大量的计算开销，我们提出了一种基于自动调节器的序数回归方法，以加速探索这些参数的过程，并加速收敛到最优策略。我们的方法提供了1.82倍的峰值加速，平均加速比为1.48倍，比之前的最先进技术有显著的提升。",
+    "tldr": "本研究提出了一种基于自动调整器的序数回归方法，以加速探索强化学习算法的参数，并加速收敛到最优策略。该方法可以提供1.82倍的峰值加速和1.48倍的平均加速比。",
+    "en_tdlr": "This research proposes an auto-tuner-based ordinal regression approach to accelerate the process of exploring the parameters of the reinforcement learning algorithm and to speed up convergence towards an optimal policy. Our approach provides 1.82x peak speedup and an average of 1.48x speedup over the previous state-of-the-art."
+}

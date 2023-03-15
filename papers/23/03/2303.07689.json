@@ -1,0 +1,10 @@
+{
+    "title": "Dual-Attention Model for Aspect-Level Sentiment Classification. (arXiv:2303.07689v1 [cs.CL])",
+    "abstract": "I propose a novel dual-attention model(DAM) for aspect-level sentiment classification. Many methods have been proposed, such as support vector machines for artificial design features, long short-term memory networks based on attention mechanisms, and graph neural networks based on dependency parsing. While these methods all have decent performance, I think they all miss one important piece of syntactic information: dependency labels. Based on this idea, this paper proposes a model using dependency labels for the attention mechanism to do this task. We evaluate the proposed approach on three datasets: laptop and restaurant are from SemEval 2014, and the last one is a twitter dataset. Experimental results show that the dual attention model has good performance on all three datasets.",
+    "link": "http://arxiv.org/abs/2303.07689",
+    "total_tokens": 733,
+    "translated_title": "面向方面级情感分类的双重注意力模型",
+    "translated_abstract": "本文提出了一种新颖的面向方面级情感分类的双重注意力模型(DAM)。尽管许多现有的方法，如支持向量机用于人工设计特征、基于注意力机制的长短时记忆网络和基于依存句法分析的图神经网络，都有不错的性能，但我认为它们都缺少一个重要的句法信息：依存标签。基于这个想法，本文提出了一种使用依存标签为注意力机制执行任务的模型。我们在三个数据集上评估了所提出的方法：笔记本电脑和餐厅数据集来自SemEval 2014，最后一个是Twitter数据集。实验结果表明，双重注意力模型在所有三个数据集上具有良好的性能。",
+    "tldr": "本文提出了一种面向方面级情感分类的双重注意力模型，使用依存标签为注意力机制执行任务，对三个数据集均有良好表现。",
+    "en_tdlr": "This paper proposes a dual-attention model for aspect-level sentiment classification, which uses dependency labels for the attention mechanism, and shows good performance on three datasets."
+}

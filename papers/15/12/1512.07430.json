@@ -1,0 +1,10 @@
+{
+    "title": "The ERA of FOLE: Foundation. (arXiv:1512.07430v2 [cs.DB] UPDATED)",
+    "abstract": "This paper discusses the representation of ontologies in the first-order logical environment FOLE (Kent 2013). An ontology defines the primitives with which to model the knowledge resources for a community of discourse (Gruber 2009). These primitives, consisting of classes, relationships and properties, are represented by the entity-relationship-attribute ERA data model (Chen 1976). An ontology uses formal axioms to constrain the interpretation of these primitives. In short, an ontology specifies a logical theory. This paper is the first in a series of three papers that provide a rigorous mathematical representation for the ERA data model in particular, and ontologies in general, within the first-order logical environment FOLE. The first two papers show how FOLE represents the formalism and semantics of (many-sorted) first-order logic in a classification form corresponding to ideas discussed in the Information Flow Framework (IFF). In particular, this first paper provides a foundation ",
+    "link": "http://arxiv.org/abs/1512.07430",
+    "total_tokens": 699,
+    "translated_title": "FOLE ERA：基础探讨",
+    "translated_abstract": "本文讨论本体在FOLE（Kent 2013）一阶逻辑环境中的表示。本体定义了用于为话语社区建模知识资源的原语（Gruber 2009）。这些原语包括类、关系和属性，由实体-关系-属性（ERA）数据模型（Chen 1976）表示。本文是三篇论文中的第一篇，它在FOLE的第一阶逻辑环境中提供了ERA数据模型的严格数学表示，特别是本体论的基础探讨。",
+    "tldr": "本文讨论本体在FOLE一阶逻辑环境中的表示，特别是提供了ERA数据模型的严格数学表示，作为本体论的基础探讨。",
+    "en_tdlr": "This paper discusses the representation of ontologies in the FOLE first-order logical environment and provides a rigorous mathematical representation of the ERA data model, serving as a foundation for ontology research."
+}

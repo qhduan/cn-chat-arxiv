@@ -1,0 +1,9 @@
+{
+    "title": "OVRL-V2: A simple state-of-art baseline for ImageNav and ObjectNav. (arXiv:2303.07798v1 [cs.CV])",
+    "abstract": "We present a single neural network architecture composed of task-agnostic components (ViTs, convolutions, and LSTMs) that achieves state-of-art results on both the ImageNav (\"go to location in <this picture>\") and ObjectNav (\"find a chair\") tasks without any task-specific modules like object detection, segmentation, mapping, or planning modules. Such general-purpose methods offer advantages of simplicity in design, positive scaling with available compute, and versatile applicability to multiple tasks. Our work builds upon the recent success of self-supervised learning (SSL) for pre-training vision transformers (ViT). However, while the training recipes for convolutional networks are mature and robust, the recipes for ViTs are contingent and brittle, and in the case of ViTs for visual navigation, yet to be fully discovered. Specifically, we find that vanilla ViTs do not outperform ResNets on visual navigation. We propose the use of a compression layer operating over ViT patch representa",
+    "link": "http://arxiv.org/abs/2303.07798",
+    "total_tokens": 929,
+    "translated_title": "OVRL-V2：ImageNav和ObjectNav的简单最新基准模型",
+    "translated_abstract": "我们提出了一个单一的神经网络结构，由任务无关的组件（ViTs、卷积和LSTM）组成，在没有任何任务特定模块，如目标检测、分割、映射或计划模块的情况下，实现了在ImageNav（“在<此图片>中进入位置”）和ObjectNav（“查找椅子”）任务中的最新结果。这种通用的方法在设计上具有简单性的优点，随着可用计算的正向缩放，对多个任务具有多功能应用性。我们的工作基于最近自监督学习（SSL）在视觉转换器（ViT）的预训练方面取得的成功。但是，虽然卷积网络的训练方案是成熟且稳健的，但视觉导航的ViTs的训练方案是依赖性的和脆弱的，尚未完全发现。具体而言，我们发现普通的ViT在视觉导航上表现不如ResNets。我们提出了使用在ViT补丁表示上运行的压缩层。",
+    "tldr": "OVRL-V2是一篇关于ImageNav和ObjectNav的最新基准模型，由任务无关的组件组成，不需要任务特定模块。该模型来源于对最近自监督学习的成功应用，而且通用性较强。"
+}

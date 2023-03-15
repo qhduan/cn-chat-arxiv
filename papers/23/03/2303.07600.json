@@ -1,0 +1,10 @@
+{
+    "title": "Forecasting COVID-19 Infections in Gulf Cooperation Council (GCC) Countries using Machine Learning. (arXiv:2303.07600v1 [cs.LG])",
+    "abstract": "COVID-19 has infected more than 68 million people worldwide since it was first detected about a year ago. Machine learning time series models have been implemented to forecast COVID-19 infections. In this paper, we develop time series models for the Gulf Cooperation Council (GCC) countries using the public COVID-19 dataset from Johns Hopkins. The dataset set includes the one-year cumulative COVID-19 cases between 22/01/2020 to 22/01/2021. We developed different models for the countries under study based on the spatial distribution of the infection data. Our experimental results show that the developed models can forecast COVID-19 infections with high precision.",
+    "link": "http://arxiv.org/abs/2303.07600",
+    "total_tokens": 751,
+    "translated_title": "利用机器学习预测海湾合作委员会国家的COVID-19感染情况",
+    "translated_abstract": "COVID-19自去年首次检测以来，已经在全球范围内感染了超过6800万人。时间序列机器学习模型已经被应用于预测COVID-19的感染情况。本文使用Johns Hopkins的公共COVID-19数据集针对海湾合作委员会（GCC）国家开发了时间序列模型。数据集包括2020年1月22日至2021年1月22日之间的一年累计COVID-19病例。我们根据感染数据的空间分布，为所研究的国家开发了不同的模型。我们的实验结果表明，所开发的模型可以高精度地预测COVID-19的感染情况。",
+    "tldr": "本论文利用机器学习时间序列模型针对海湾合作委员会国家的COVID-19疫情数据进行分析，实验结果表明所开发的模型可以高精度地对COVID-19感染情况进行预测。",
+    "en_tdlr": "This paper develops time series models for Gulf Cooperation Council (GCC) countries using machine learning to forecast COVID-19 infections, and experimental results show that the developed models can predict COVID-19 infections with high precision."
+}

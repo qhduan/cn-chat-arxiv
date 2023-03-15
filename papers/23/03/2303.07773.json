@@ -1,0 +1,11 @@
+{
+    "title": "Axiomatic characterization of pointwise Shapley decompositions. (arXiv:2303.07773v1 [q-fin.MF])",
+    "abstract": "A common problem in various applications is the additive decomposition of the output of a function with respect to its input variables. Functions with binary arguments can be axiomatically decomposed by the famous Shapley value. For the decomposition of functions with real arguments, a popular method is the pointwise application of the Shapley value on the domain. However, this pointwise application largely ignores the overall structure of functions. In this paper, axioms are developed which fully preserve functional structures and lead to unique decompositions for all Borel measurable functions.",
+    "link": "http://arxiv.org/abs/2303.07773",
+    "context": "Title: Axiomatic characterization of pointwise Shapley decompositions. (arXiv:2303.07773v1 [q-fin.MF])\nAbstract: A common problem in various applications is the additive decomposition of the output of a function with respect to its input variables. Functions with binary arguments can be axiomatically decomposed by the famous Shapley value. For the decomposition of functions with real arguments, a popular method is the pointwise application of the Shapley value on the domain. However, this pointwise application largely ignores the overall structure of functions. In this paper, axioms are developed which fully preserve functional structures and lead to unique decompositions for all Borel measurable functions.",
+    "path": "papers/23/03/2303.07773.json",
+    "total_tokens": 605,
+    "translated_title": "点态Shapley分解的公理表述",
+    "translated_abstract": "在各种应用中，常见问题是将函数的输出按照其输入变量进行加法分解。带有二进制参数的函数可以通过著名的Shapley值进行公设的分解。对于带有实数参数的函数，一种流行的方法是在该域上点态应用Shapley值。然而，这种点态应用在很大程度上忽视了函数的整体结构。在本文中，发展了完全保留功能结构并针对所有Borel可测函数得出唯一分解的公理。",
+    "tldr": "本文提出一种公理系统，可对所有Borel可测函数进行Shapley分解，并完全保留功能结构。"
+}

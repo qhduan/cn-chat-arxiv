@@ -1,0 +1,12 @@
+{
+    "title": "Relative performance criteria of multiplicative form in complete markets. (arXiv:2303.07941v1 [q-fin.MF])",
+    "abstract": "We consider existence and uniqueness of Nash equilibria in an $N$-player game of utility maximization under relative performance criteria of multiplicative form in complete semimartingale markets. For a large class of players' utility functions, a general characterization of Nash equilibria for a given initial wealth vector is provided in terms of invertibility of a map from $\\mathbb{R}^N$ to $\\mathbb{R}^N$. As a consequence of the general theorem, we derive existence and uniqueness of Nash equilibria for an arbitrary initial wealth vector, as well as their convergence, if either (i) players' utility functions are close to CRRA, or (ii) players' competition weights are small and relative risk aversions are bounded away from infinity.",
+    "link": "http://arxiv.org/abs/2303.07941",
+    "context": "Title: Relative performance criteria of multiplicative form in complete markets. (arXiv:2303.07941v1 [q-fin.MF])\nAbstract: We consider existence and uniqueness of Nash equilibria in an $N$-player game of utility maximization under relative performance criteria of multiplicative form in complete semimartingale markets. For a large class of players' utility functions, a general characterization of Nash equilibria for a given initial wealth vector is provided in terms of invertibility of a map from $\\mathbb{R}^N$ to $\\mathbb{R}^N$. As a consequence of the general theorem, we derive existence and uniqueness of Nash equilibria for an arbitrary initial wealth vector, as well as their convergence, if either (i) players' utility functions are close to CRRA, or (ii) players' competition weights are small and relative risk aversions are bounded away from infinity.",
+    "path": "papers/23/03/2303.07941.json",
+    "total_tokens": 810,
+    "translated_title": "完全市场中乘性相对表现标准下的相对表现标准",
+    "translated_abstract": "我们考虑完全半鞅市场中乘性相对表现标准下的效用最大化N人博弈的纳什均衡的存在性和唯一性。针对大类玩家效用函数，我们提供了一个从$\\mathbb {R} ^ N $到$\\mathbb {R} ^ N $的映射的可逆性而提供的关于给定初始财富向量的纳什均衡的一般特征。作为一般定理的结果，我们推导了在任意初始财富向量下纳什均衡的存在性和唯一性，以及它们的收敛性，如果(i)玩家的效用函数接近CRRA，或(ii)玩家的竞争权重较小且相对风险规避程度远离无穷的话。",
+    "tldr": "该论文研究在完全半鞅市场中，针对乘性相对表现标准下的效用最大化N人博弈的纳什均衡初始财富向量的存在、唯一性和收敛性问题。",
+    "en_tdlr": "This paper studies the existence, uniqueness and convergence of Nash equilibria for N-player game of utility maximization under relative performance criteria of multiplicative form in complete semimartingale markets."
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Parallel Vertex Diffusion for Unified Visual Grounding. (arXiv:2303.07216v2 [cs.CV] UPDATED)",
+    "abstract": "Unified visual grounding pursues a simple and generic technical route to leverage multi-task data with less task-specific design. The most advanced methods typically present boxes and masks as vertex sequences to model referring detection and segmentation as an autoregressive sequential vertex generation paradigm. However, generating high-dimensional vertex sequences sequentially is error-prone because the upstream of the sequence remains static and cannot be refined based on downstream vertex information, even if there is a significant location gap. Besides, with limited vertexes, the inferior fitting of objects with complex contours restricts the performance upper bound. To deal with this dilemma, we propose a parallel vertex generation paradigm for superior high-dimension scalability with a diffusion model by simply modifying the noise dimension. An intuitive materialization of our paradigm is Parallel Vertex Diffusion (PVD) to directly set vertex coordinates as the generation targe",
+    "link": "http://arxiv.org/abs/2303.07216",
+    "total_tokens": 873,
+    "translated_title": "并行顶点扩散用于统一视觉定位",
+    "translated_abstract": "统一的视觉定位追求一种简单和通用的技术路线，以利用多任务数据，减少任务特定的设计。最先进的方法通常将框和掩码作为顶点序列呈现，以建模引用检测和分割作为自回归顺序顶点生成范例。然而，顺序生成高维顶点序列容易出错，因为序列的上游仍保持静态，并且无法基于下游顶点信息进行精细化的改进，即使存在重大的位置差距。此外，由于顶点数量有限，对象具有复杂轮廓的较差拟合限制了性能的上限。为了应对这一困境，我们提出了一种用扩散模型进行高维扩展的并行顶点生成范例，只需修改噪声维度即可。我们范例的直观实现是并行顶点扩散 (PVD)，直接将顶点坐标设置为生成目标。",
+    "tldr": "本文提出了一种并行顶点扩散模型(PVD)，用于统一视觉定位中的高维扩展，解决了顺序生成高维顶点序列容易出现的问题，以及由于顶点数量不足而导致的对象轮廓匹配不准确的问题。",
+    "en_tdlr": "The paper proposes a Parallel Vertex Diffusion (PVD) model for high-dimensional scalability in unified visual grounding, which solves issues arising from sequential high-dimensional vertex sequence generation and limited vertices causing poor object contour fitting."
+}

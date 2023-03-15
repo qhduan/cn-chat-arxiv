@@ -1,0 +1,7 @@
+{
+    "title": "Architext: Language-Driven Generative Architecture Design. (arXiv:2303.07519v1 [cs.CL])",
+    "abstract": "Architectural design is a highly complex practice that involves a wide diversity of disciplines, technologies, proprietary design software, expertise, and an almost infinite number of constraints, across a vast array of design tasks. Enabling intuitive, accessible, and scalable design processes is an important step towards performance-driven and sustainable design for all. To that end, we introduce Architext, a novel semantic generation assistive tool. Architext enables design generation with only natural language prompts, given to large-scale Language Models, as input. We conduct a thorough quantitative evaluation of Architext's downstream task performance, focusing on semantic accuracy and diversity for a number of pre-trained language models ranging from 120 million to 6 billion parameters. Architext models are able to learn the specific design task, generating valid residential layouts at a near 100\\% rate. Accuracy shows great improvement when scaling the models, with the largest ",
+    "link": "http://arxiv.org/abs/2303.07519",
+    "total_tokens": 832,
+    "tldr": "Architext是一款基于语言的生成式建筑设计工具，通过自然语言提示输入，利用大规模语言模型生成住宅布局，准确率接近100％。"
+}

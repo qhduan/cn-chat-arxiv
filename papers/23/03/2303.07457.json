@@ -1,0 +1,10 @@
+{
+    "title": "AMOM: Adaptive Masking over Masking for Conditional Masked Language Model. (arXiv:2303.07457v1 [cs.CL])",
+    "abstract": "Transformer-based autoregressive (AR) methods have achieved appealing performance for varied sequence-to-sequence generation tasks, e.g., neural machine translation, summarization, and code generation, but suffer from low inference efficiency. To speed up the inference stage, many non-autoregressive (NAR) strategies have been proposed in the past few years. Among them, the conditional masked language model (CMLM) is one of the most versatile frameworks, as it can support many different sequence generation scenarios and achieve very competitive performance on these tasks. In this paper, we further introduce a simple yet effective adaptive masking over masking strategy to enhance the refinement capability of the decoder and make the encoder optimization easier. Experiments on \\textbf{3} different tasks (neural machine translation, summarization, and code generation) with \\textbf{15} datasets in total confirm that our proposed simple method achieves significant performance improvement ove",
+    "link": "http://arxiv.org/abs/2303.07457",
+    "total_tokens": 905,
+    "translated_title": "AMOM: 适应性 Masking over Masking 用于条件 Masked 语言模型",
+    "translated_abstract": "基于 Transformer 的自回归方法已经在各种序列生成任务中取得了令人满意的性能，例如神经机器翻译、摘要和代码生成，但是推理效率较低。为了加速推理阶段，过去几年中提出了许多非自回归策略。其中，条件 Masked 语言模型 (CMLM) 是最通用的框架之一，因为它可以支持许多不同的序列生成场景，并在这些任务上取得非常有竞争力的性能。在本文中，我们进一步引入了一种简单而有效的适应性 Masking over Masking 策略来增强解码器的细化能力并使编码器的优化更加容易。在总共 \\textbf{15} 个数据集上的 \\textbf{3} 个不同任务（神经机器翻译、摘要和代码生成）的实验确认：我们提出的简单方法取得了显著的性能提升。",
+    "tldr": "本文提出了一种适应性 Masking over Masking 策略来增强条件 Masked 语言模型的细化能力和优化效率，这种策略在神经机器翻译、摘要和代码生成任务中取得了显著的性能提升。",
+    "en_tdlr": "This paper proposes an adaptive masking over masking strategy to enhance the refinement capability and encoder optimization efficiency of the conditional masked language model. Experiments on three different tasks (neural machine translation, summarization, and code generation) with 15 datasets in total confirm that this strategy achieves significant performance improvement."
+}

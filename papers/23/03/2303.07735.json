@@ -1,0 +1,10 @@
+{
+    "title": "Can neural networks do arithmetic? A survey on the elementary numerical skills of state-of-the-art deep learning models. (arXiv:2303.07735v1 [cs.AI])",
+    "abstract": "Creating learning models that can exhibit sophisticated reasoning skills is one of the greatest challenges in deep learning research, and mathematics is rapidly becoming one of the target domains for assessing scientific progress in this direction. In the past few years there has been an explosion of neural network architectures, data sets, and benchmarks specifically designed to tackle mathematical problems, reporting notable success in disparate fields such as automated theorem proving, numerical integration, and discovery of new conjectures or matrix multiplication algorithms. However, despite these impressive achievements it is still unclear whether deep learning models possess an elementary understanding of quantities and symbolic numbers. In this survey we critically examine the recent literature, concluding that even state-of-the-art architectures often fall short when probed with relatively simple tasks designed to test basic numerical and arithmetic knowledge.",
+    "link": "http://arxiv.org/abs/2303.07735",
+    "total_tokens": 837,
+    "translated_title": "神经网络能做算术吗？对最先进的深度学习模型的基本数字技能的调查",
+    "translated_abstract": "创建能展示复杂推理技能的学习模型是深度学习研究中最大的挑战之一，而数学正在迅速成为评估科学进步方向的目标领域之一。过去几年里已经出现了大量的神经网络架构、数据集和基准测试，专门设计来解决数学问题，在自动定理证明、数值积分和新猜想或矩阵乘法算法的发现方面取得了显著的成功。然而，尽管取得了这些引人注目的成绩，深度学习模型是否具有数量和符号数字的基本理解力仍然不清楚。在这个调查中，我们对最近的文献进行了批判性的审核，得出结论，即即使是最先进的架构在面对相对简单的测试基本数值和算术知识的任务时，也经常无法胜任。",
+    "tldr": "本文调查了最近的文献，发现即使最先进的深度学习模型在面对基本数值和算术知识的相对简单任务时也经常无法胜任。",
+    "en_tdlr": "This paper surveys recent literature and concludes that even state-of-the-art deep learning models often struggle with relatively simple tasks that require basic numerical and arithmetic knowledge, despite their impressive achievements in mathematical problems such as automated theorem proving and numerical integration."
+}

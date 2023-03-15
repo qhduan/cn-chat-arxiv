@@ -1,0 +1,10 @@
+{
+    "title": "Challenges and Practices of Deep Learning Model Reengineering: A Case Study on Computer Vision. (arXiv:2303.07476v1 [cs.SE])",
+    "abstract": "Many engineering organizations are reimplementing and extending deep neural networks from the research community. We describe this process as deep learning model reengineering. Deep learning model reengineering - reusing, reproducing, adapting, and enhancing state-of-the-art deep learning approaches - is challenging for reasons including under-documented reference models, changing requirements, and the cost of implementation and testing. In addition, individual engineers may lack expertise in software engineering, yet teams must apply knowledge of software engineering and deep learning to succeed. Prior work has examined on DL systems from a \"product\" view, examining defects from projects regardless of the engineers' purpose. Our study is focused on reengineering activities from a \"process\" view, and focuses on engineers specifically engaged in the reengineering process.  Our goal is to understand the characteristics and challenges of deep learning model reengineering. We conducted a c",
+    "link": "http://arxiv.org/abs/2303.07476",
+    "total_tokens": 957,
+    "translated_title": "深度学习模型重构的挑战和实践：计算机视觉案例研究",
+    "translated_abstract": "许多工程组织正在重新实现和扩展研究界的深度神经网络。我们将这个过程描述为深度学习模型重构。深度学习模型重构-重用，再现，调整和增强最先进的深度学习方法-由于参考模型文档不全、需求变化以及实现和测试成本等原因，具有挑战性。此外，个别工程师可能缺乏软件工程方面的专业知识，但团队必须应用软件工程和深度学习的知识才能成功。先前的研究从“产品”视角研究DL系统，无论工程师的目的如何，都会研究项目中的缺陷。我们的研究集中在“过程”视角的重构活动上，专注于参与重构过程的工程师。我们的目标是了解深度学习模型重构的特点和挑战。我们进行了一项案例研究...",
+    "tldr": "本研究对深度学习模型重构进行了实例研究，并发现由于参考模型文档不全、需求变化以及实现和测试成本等原因，该过程具有挑战性，个别工程师可能缺乏软件工程方面的专业知识，但团队必须应用软件工程和深度学习的知识才能成功。",
+    "en_tdlr": "This study investigates the practice of deep learning model reengineering and finds that it is challenging due to factors such as under-documented reference models, changing requirements, and the cost of implementation and testing. Individual engineers may lack software engineering expertise, but teams need to apply knowledge in both software engineering and deep learning for success."
+}

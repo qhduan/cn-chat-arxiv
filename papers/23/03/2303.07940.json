@@ -1,0 +1,9 @@
+{
+    "title": "On the Connection between Concept Drift and Uncertainty in Industrial Artificial Intelligence. (arXiv:2303.07940v1 [cs.LG])",
+    "abstract": "AI-based digital twins are at the leading edge of the Industry 4.0 revolution, which are technologically empowered by the Internet of Things and real-time data analysis. Information collected from industrial assets is produced in a continuous fashion, yielding data streams that must be processed under stringent timing constraints. Such data streams are usually subject to non-stationary phenomena, causing that the data distribution of the streams may change, and thus the knowledge captured by models used for data analysis may become obsolete (leading to the so-called concept drift effect). The early detection of the change (drift) is crucial for updating the model's knowledge, which is challenging especially in scenarios where the ground truth associated to the stream data is not readily available. Among many other techniques, the estimation of the model's confidence has been timidly suggested in a few studies as a criterion for detecting drifts in unsupervised settings. The goal of thi",
+    "link": "http://arxiv.org/abs/2303.07940",
+    "total_tokens": 1022,
+    "translated_title": "关于产业人工智能中概念漂移和不确定性的联系",
+    "translated_abstract": "基于人工智能的数字孪生是工业4.0革命的前沿，其技术由物联网和实时数据分析提供支持。从工业资产中收集的信息以持续的方式产生，产生的数据流必须在严格的时间限制下进行处理。这样的数据流通常会受到非平稳现象的影响，导致数据流的数据分布可能发生变化，因此用于数据分析的模型捕获的知识可能会变得过时（导致所谓的概念漂移效应）。及早发现（漂移）的变化对于更新模型的知识至关重要，在场景中特别具有挑战性，其中与流数据相关联的基本真相不容易找到。本文的目标是探讨产业人工智能中概念漂移和不确定性之间的联系。我们提出了一种方法来估计模型预测的置信度，并展示了如何在无监督的情况下使用它来检测概念漂移。我们的结果表明，所提出的方法可以有效地检测概念漂移，并可以提高模型的整体性能。",
+    "tldr": "本文探索了工业人工智能中概念漂移和不确定性之间的联系，提出了一种方法来估计模型预测的置信度，并且证明了这种方法可以有效地在无监督的情况下检测概念漂移，从而提高模型的整体性能。"
+}

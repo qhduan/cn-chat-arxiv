@@ -1,0 +1,10 @@
+{
+    "title": "Diffusion Models in NLP: A Survey. (arXiv:2303.07576v1 [cs.CL])",
+    "abstract": "Diffusion models have become a powerful family of deep generative models, with record-breaking performance in many applications. This paper first gives an overview and derivation of the basic theory of diffusion models, then reviews the research results of diffusion models in the field of natural language processing, from text generation, text-driven image generation and other four aspects, and analyzes and summarizes the relevant literature materials sorted out, and finally records the experience and feelings of this topic literature review research.",
+    "link": "http://arxiv.org/abs/2303.07576",
+    "total_tokens": 640,
+    "translated_title": "NLP 中的扩散模型：一项调查研究",
+    "translated_abstract": "扩散模型已成为一个强大的深层生成模型系列，在许多应用中显示了创记录的性能。本文首先概述和推导了扩散模型的基本理论，然后回顾了扩散模型在自然语言处理领域中的研究成果，从文本生成、文本驱动的图像生成等四个方面进行分析和总结了相关的文献资料，并最终记录了这个主题文献综述研究的经验和感受。",
+    "tldr": "本文总结了在自然语言处理中，扩散模型在文本生成和驱动图像生成方面等应用中表现出的创纪录性能，并深入分析并总结相关文献资料。",
+    "en_tdlr": "This paper surveys diffusion models, a powerful family of deep generative models, and reviews their record-breaking performance in various applications in natural language processing, including text generation and driving image generation, among others, while also providing an in-depth analysis and summary of relevant literature materials."
+}

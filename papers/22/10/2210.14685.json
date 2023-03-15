@@ -1,0 +1,10 @@
+{
+    "title": "Leveraging Demonstrations with Latent Space Priors. (arXiv:2210.14685v2 [cs.LG] UPDATED)",
+    "abstract": "Demonstrations provide insight into relevant state or action space regions, bearing great potential to boost the efficiency and practicality of reinforcement learning agents. In this work, we propose to leverage demonstration datasets by combining skill learning and sequence modeling. Starting with a learned joint latent space, we separately train a generative model of demonstration sequences and an accompanying low-level policy. The sequence model forms a latent space prior over plausible demonstration behaviors to accelerate learning of high-level policies. We show how to acquire such priors from state-only motion capture demonstrations and explore several methods for integrating them into policy learning on transfer tasks. Our experimental results confirm that latent space priors provide significant gains in learning speed and final performance. We benchmark our approach on a set of challenging sparse-reward environments with a complex, simulated humanoid, and on offline RL benchmar",
+    "link": "http://arxiv.org/abs/2210.14685",
+    "total_tokens": 939,
+    "translated_title": "利用潜在空间先验知识的演示应用于强化学习",
+    "translated_abstract": "演示可以提供有关状态或动作空间的相关信息，具有提高强化学习智能体的效率和实用性的巨大潜力。本文提出了一种通过结合技能学习和序列建模来利用演示数据集的方法。从一个学习的联合潜在空间开始，我们分别训练演示序列的生成模型和相应的低层策略。序列模型形成了潜在空间对合理的演示行为的先验知识，以加速高层次策略的学习。我们展示了如何从仅状态的运动捕捉演示中获取这些先验知识，并探索了几种将它们整合到转移任务的策略学习中的方法。我们的实验结果证实了潜在空间先验知识在学习速度和最终性能方面都提供了显著的增益。我们在一组具有复杂、模拟的人形机器人的挑战性稀疏奖励环境和离线强化学习基准测试中对我们的方法进行了基准测试，并证明了我们的方法的有效性。",
+    "tldr": "本文提出了一种方法，通过结合技能学习和序列建模，利用演示数据集中的潜在空间先验知识来加速强化学习中高层次策略的学习，并在实验中证实了该方法的有效性。",
+    "en_tdlr": "This paper proposes a method to leverage latent space prior knowledge in demonstration datasets to accelerate high-level policy learning in reinforcement learning, by combining skill learning and sequence modeling. Experimental results show the effectiveness of the proposed method on challenging sparse-reward environments with a simulated humanoid and offline RL benchmarks."
+}

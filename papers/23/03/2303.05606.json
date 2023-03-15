@@ -1,0 +1,9 @@
+{
+    "title": "Variance-aware robust reinforcement learning with linear function approximation under heavy-tailed rewards. (arXiv:2303.05606v2 [cs.LG] UPDATED)",
+    "abstract": "This paper presents two algorithms, AdaOFUL and VARA, for online sequential decision-making in the presence of heavy-tailed rewards with only finite variances. For linear stochastic bandits, we address the issue of heavy-tailed rewards by modifying the adaptive Huber regression and proposing AdaOFUL. AdaOFUL achieves a state-of-the-art regret bound of $\\widetilde{O}\\big(d\\big(\\sum_{t=1}^T \\nu_{t}^2\\big)^{1/2}+d\\big)$ as if the rewards were uniformly bounded, where $\\nu_{t}^2$ is the observed conditional variance of the reward at round $t$, $d$ is the feature dimension, and $\\widetilde{O}(\\cdot)$ hides logarithmic dependence. Building upon AdaOFUL, we propose VARA for linear MDPs, which achieves a tighter variance-aware regret bound of $\\widetilde{O}(d\\sqrt{HG^*K})$. Here, $H$ is the length of episodes, $K$ is the number of episodes, and $G^*$ is a smaller instance-dependent quantity that can be bounded by other instance-dependent quantities when additional structural conditions on the ",
+    "link": "http://arxiv.org/abs/2303.05606",
+    "total_tokens": 1031,
+    "translated_title": "具有线性函数逼近的重尾奖励方差感知鲁棒强化学习",
+    "translated_abstract": "本文提出了两种算法AdaOFUL和VARA，用于在仅存在有限方差的重尾奖励情况下进行在线顺序决策。对于线性随机赌徒，我们通过修改自适应Huber回归并提出AdaOFUL来解决重尾奖励问题。AdaOFUL达到了状态-of-the-art的遗憾界，即$ \\widetilde{O}\\big（d\\big(\\sum_{t=1}^T\\nu_{t}^2\\big)^{1/2}+d\\big)$，其中$\\nu_{t}^2$是第$t$轮奖励观测到的条件方差，$d$是特征维度，$\\widetilde{O}（\\cdot）$ 隐藏对数依赖性。在AdaOFUL的基础上，我们提出了VARA用于线性MDP，它达到了更紧密的方差感知遗憾界，即 $ \\widetilde{O}(d\\sqrt{HG^*K})$。这里，$H$是事件的长度，$K$是事件的数量，$G^*$是较小的依赖于实例的量，当在其他实例相关量被限制时，它可以被边界化。",
+    "tldr": "本文提出了AdaOFUL和VARA两种算法，用于在存在有限方差的重尾奖励情况下进行在线顺序决策，其中AdaOFUL具有状态-of-the-art的遗憾界，VARA达到了更紧密的方差感知遗憾界。"
+}

@@ -1,0 +1,10 @@
+{
+    "title": "A Study on Bias and Fairness In Deep Speaker Recognition. (arXiv:2303.08026v1 [cs.SD])",
+    "abstract": "With the ubiquity of smart devices that use speaker recognition (SR) systems as a means of authenticating individuals and personalizing their services, fairness of SR systems has becomes an important point of focus. In this paper we study the notion of fairness in recent SR systems based on 3 popular and relevant definitions, namely Statistical Parity, Equalized Odds, and Equal Opportunity. We examine 5 popular neural architectures and 5 commonly used loss functions in training SR systems, while evaluating their fairness against gender and nationality groups. Our detailed experiments shed light on this concept and demonstrate that more sophisticated encoder architectures better align with the definitions of fairness. Additionally, we find that the choice of loss functions can significantly impact the bias of SR models.",
+    "link": "http://arxiv.org/abs/2303.08026",
+    "total_tokens": 772,
+    "translated_title": "深度说话人识别中的偏见与公平性研究",
+    "translated_abstract": "随着使用说话人识别（SR）系统作为认证个人和个性化服务方式的智能设备的普及，SR系统的公平性成为一个重要的焦点。本文研究基于三个流行和相关定义（即统计平等、均衡赔率和平等机会）的最新SR系统中的公平性概念。我们检查了5种流行的神经架构和5种常用的丢失功能来训练SR系统，并评估它们相对于性别和国籍组别的公平性。我们的详细实验阐明了这个概念，并证明了更复杂的编码器体系结构更符合公平的定义。此外，我们发现损失函数的选择可以显着影响SR模型的偏差。",
+    "tldr": "本论文研究深度说话人识别中的偏见和公平性。研究发现，更复杂的编码器结构更符合公平定义。此外，损失函数的选择对SR模型的偏差有显着影响。",
+    "en_tdlr": "This paper studies bias and fairness in deep speaker recognition, finding that more sophisticated encoder architectures align better with fairness definitions, and that the choice of loss function significantly impacts bias in SR models."
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Text-to-image Diffusion Model in Generative AI: A Survey. (arXiv:2303.07909v1 [cs.CV])",
+    "abstract": "This survey reviews text-to-image diffusion models in the context that diffusion models have emerged to be popular for a wide range of generative tasks. As a self-contained work, this survey starts with a brief introduction of how a basic diffusion model works for image synthesis, followed by how condition or guidance improves learning. Based on that, we present a review of state-of-the-art methods on text-conditioned image synthesis, i.e., text-to-image. We further summarize applications beyond text-to-image generation: text-guided creative generation and text-guided image editing. Beyond the progress made so far, we discuss existing challenges and promising future directions.",
+    "link": "http://arxiv.org/abs/2303.07909",
+    "total_tokens": 649,
+    "translated_title": "生成AI中的文本到图像扩散模型：一项调查",
+    "translated_abstract": "本文调查了文本到图像扩散模型，这些模型已经成为多种生成任务中流行的模型。作为一个自包含的工作，本调查从简单介绍基本扩散模型如何用于图像合成开始，接着是条件或引导如何改进学习。我们还总结了文本条件下的最先进的图像合成方法，并且进一步总结了文本引导创意生成和图像编辑的应用。除了迄今为止所取得的进展，我们还讨论了现有挑战和有前途的未来方向。",
+    "tldr": "本文调查了文本到图像扩散模型以及相关应用，总结了最先进的方法，并探讨了挑战和未来方向。",
+    "en_tdlr": "This survey explores text-to-image diffusion models and related applications, summarizes state-of-the-art methods, and discusses existing challenges and promising future directions."
+}

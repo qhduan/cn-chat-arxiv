@@ -1,0 +1,9 @@
+{
+    "title": "Fast exploration and learning of latent graphs with aliased observations. (arXiv:2303.07397v1 [cs.LG])",
+    "abstract": "Consider this scenario: an agent navigates a latent graph by performing actions that take it from one node to another. The chosen action determines the probability distribution over the next visited node. At each node, the agent receives an observation, but this observation is not unique, so it does not identify the node, making the problem aliased. The purpose of this work is to provide a policy that approximately maximizes exploration efficiency (i.e., how well the graph is recovered for a given exploration budget). In the unaliased case, we show improved performance w.r.t. state-of-the-art reinforcement learning baselines. For the aliased case we are not aware of suitable baselines and instead show faster recovery w.r.t. a random policy for a wide variety of topologies, and exponentially faster recovery than a random policy for challenging topologies. We dub the algorithm eFeX (from eFficient eXploration).",
+    "link": "http://arxiv.org/abs/2303.07397",
+    "total_tokens": 913,
+    "translated_title": "具有别名观测的潜在图的快速探索与学习",
+    "translated_abstract": "考虑这种场景：一个智能体通过执行操作从一个节点到另一个节点来导航潜在图。所选操作确定了下一个访问节点上的概率分布。在每个节点处，智能体收到一个观测，但该观测不是唯一的，因此它不能唯一地标识节点，这使得问题别名化。本文旨在提供一个政策，该政策约等于最大化探索效率（即在给定的探索预算下如何恢复图表）。在非别名化的情况下，我们展示了相对于现有最先进强化学习基线的改进性能。对于别名化的情况，我们不知道适用的基线，而是展示了在各种拓扑结构下相对于随机策略更快的恢复速度，并且对于具有挑战性的拓扑结构，恢复速度比随机策略快指数倍。我们将该算法称为 eFeX（来自于 efficient exploration 的缩写）。",
+    "tldr": "本文介绍了一种在具有别名观测的潜在图上，能够显著提高最大化探索效率的政策算法 eFeX，相比于随机策略，该算法能够更快地恢复各种拓扑结构下的图表。"
+}

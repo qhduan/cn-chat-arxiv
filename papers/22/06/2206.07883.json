@@ -1,0 +1,10 @@
+{
+    "title": "Combinatorial Pure Exploration of Causal Bandits. (arXiv:2206.07883v3 [cs.LG] UPDATED)",
+    "abstract": "The combinatorial pure exploration of causal bandits is the following online learning task: given a causal graph with unknown causal inference distributions, in each round we choose a subset of variables to intervene or do no intervention, and observe the random outcomes of all random variables, with the goal that using as few rounds as possible, we can output an intervention that gives the best (or almost best) expected outcome on the reward variable $Y$ with probability at least $1-\\delta$, where $\\delta$ is a given confidence level. We provide the first gap-dependent and fully adaptive pure exploration algorithms on two types of causal models -- the binary generalized linear model (BGLM) and general graphs. For BGLM, our algorithm is the first to be designed specifically for this setting and achieves polynomial sample complexity, while all existing algorithms for general graphs have either sample complexity exponential to the graph size or some unreasonable assumptions. For general ",
+    "link": "http://arxiv.org/abs/2206.07883",
+    "total_tokens": 1057,
+    "translated_title": "因果多臂老虎机的组合纯探索",
+    "translated_abstract": "因果多臂老虎机的组合纯探索是一种在线学习任务：在给定一个具有未知因果推断分布的因果图的情况下，在每一轮中，我们选择一个子集变量来干预或不干预，并观察所有随机变量的随机结果，目标是尽可能少的使用轮数，以概率至少为$1-\\delta$，输出能给予奖励变量$Y$最佳（或近乎最佳）期望结果的干预方案，其中$\\delta$是给定的置信水平。我们提供了两种类型因果模型——二元广义线性模型（BGLM） 和一般图的第一种间隔依赖性和完全自适应的纯探索算法。对于BGLM，我们的算法是首次专门针对这种情况设计的，并实现了多项式样本复杂度，而所有现有的一般图算法都具有指数复杂度到图大小或一些不合理的假设。对于一般图，我们的算法具有近乎最优的样本复杂度，仅对数于图大小和未知因果效应的数量，而且还能够抵御隐藏性混淆因素和任意分布偏移的情况。此外，我们的分析提供了一个紧密的下界，与上界相匹配，表明了算法的最优性。",
+    "tldr": "本文提出了用于因果模型的组合纯探索算法，其中对于二元广义线性模型，我们的算法实现了多项式样本复杂度，对于一般的图，我们的样本复杂度几乎是最优的。",
+    "en_tdlr": "This paper proposes combinatorial pure exploration algorithms for causal models, achieving polynomial sample complexity for binary generalized linear models and nearly optimal sample complexity for general graphs, while also being robust to hidden confounders and arbitrary distribution shifts."
+}

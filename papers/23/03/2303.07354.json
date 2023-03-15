@@ -1,0 +1,10 @@
+{
+    "title": "MetaTroll: Few-shot Detection of State-Sponsored Trolls with Transformer Adapters. (arXiv:2303.07354v1 [cs.CL])",
+    "abstract": "State-sponsored trolls are the main actors of influence campaigns on social media and automatic troll detection is important to combat misinformation at scale. Existing troll detection models are developed based on training data for known campaigns (e.g.\\ the influence campaign by Russia's Internet Research Agency on the 2016 US Election), and they fall short when dealing with {\\em novel} campaigns with new targets. We propose MetaTroll, a text-based troll detection model based on the meta-learning framework that enables high portability and parameter-efficient adaptation to new campaigns using only a handful of labelled samples for few-shot transfer. We introduce \\textit{campaign-specific} transformer adapters to MetaTroll to ``memorise'' campaign-specific knowledge so as to tackle catastrophic forgetting, where a model ``forgets'' how to detect trolls from older campaigns due to continual adaptation. Our experiments demonstrate that MetaTroll substantially outperforms baselines and s",
+    "link": "http://arxiv.org/abs/2303.07354",
+    "total_tokens": 871,
+    "translated_title": "MetaTroll: 使用Transformer Adapter进行少样本提取国家赞助的巨魔检测",
+    "translated_abstract": "国家赞助的巨魔是社交媒体影响运动的主要参与者，自动巨魔检测对大规模打击错误信息很重要。现有的巨魔检测模型是基于已知运动的训练数据开发的（例如：俄罗斯互联网研究机构对2016年美国大选的影响运动），当处理对新目标的新型运动时，无法胜任。在元学习框架下，我们提出了基于文本的巨魔检测模型MetaTroll，其可以使用极少量的标记样本适应并适用于新的运动，从而实现高度可移植性和参数效率。我们在MetaTroll中引入了“特定于运动”的转换适配器，以“记忆”运动特定知识，以解决由于持续适应而导致模型“遗忘”如何检测旧运动的问题。我们的实验表明，MetaTroll明显优于基线和同类最先进的方法。",
+    "tldr": "MetaTroll是一种使用Transformer Adapter的少样本巨魔检测模型，可以适应新的运动，并解决由于持续适应而导致模型遗忘的问题。",
+    "en_tdlr": "MetaTroll is a few-shot troll detection model that uses Transformer Adapters to adapt to new campaigns and solves the problem of model forgetting due to continuous adaptation."
+}

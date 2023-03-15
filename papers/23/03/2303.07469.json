@@ -1,0 +1,10 @@
+{
+    "title": "A Framework for Combining Entity Resolution and Query Answering in Knowledge Bases. (arXiv:2303.07469v1 [cs.DB])",
+    "abstract": "We propose a new framework for combining entity resolution and query answering in knowledge bases (KBs) with tuple-generating dependencies (tgds) and equality-generating dependencies (egds) as rules. We define the semantics of the KB in terms of special instances that involve equivalence classes of entities and sets of values. Intuitively, the former collect all entities denoting the same real-world object, while the latter collect all alternative values for an attribute. This approach allows us to both resolve entities and bypass possible inconsistencies in the data. We then design a chase procedure that is tailored to this new framework and has the feature that it never fails; moreover, when the chase procedure terminates, it produces a universal solution, which in turn can be used to obtain the certain answers to conjunctive queries. We finally discuss challenges arising when the chase does not terminate.",
+    "link": "http://arxiv.org/abs/2303.07469",
+    "total_tokens": 890,
+    "translated_title": "一种将实体消解和查询回答结合在知识库中的框架",
+    "translated_abstract": "我们提出了一种新的框架，用于将实体解析和查询回答与具有元组生成依赖关系（tgds）和等式生成依赖关系（egds）作为规则的知识库（KB）相结合。我们通过特殊实例的等价类和值集来定义KB的语义。直观地，前者收集表示相同现实世界对象的所有实体，而后者收集属性的所有可选值。这种方法使我们能够解决实体并规避数据中可能存在的不一致性。然后，我们设计了一个适用于此新框架的追踪过程，并具有永远不会失败的功能。此外，当追踪过程终止时，它会生成通用解决方案，可以用于获取连接查询的确定性答案。最后，我们讨论了当追踪不终止时出现的挑战。",
+    "tldr": "该论文提出了一种将实体解析和查询回答相结合的框架，可以解决数据中存在的不一致性，通过特殊实例的等价类和值集来定义KB的语义，设计了一个不会失败的追踪过程，生成通用解决方案，并讨论了可能的挑战。",
+    "en_tdlr": "This paper proposes a framework that combines entity resolution and query answering in knowledge bases with the help of special instances involving equivalence classes of entities and sets of values. The framework can overcome inconsistencies in the data and the designed chase procedure produces a universal solution that can provide certain answers to conjunctive queries. The paper also discusses the challenges that arise when the chase procedure does not terminate."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Mean field game of mutual holding with defaultable agents, and systemic risk. (arXiv:2303.07996v1 [math.PR])",
+    "abstract": "We introduce the possibility of default in the mean field game of mutual holding of Djete and Touzi [11]. This is modeled by introducing absorption at the origin of the equity process. We provide an explicit solution of this mean field game. Moreover, we provide a particle system approximation, and we derive an autonomous equation for the time evolution of the default probability, or equivalently the law of the hitting time of the origin by the equity process. The systemic risk is thus described by the evolution of the default probability.",
+    "link": "http://arxiv.org/abs/2303.07996",
+    "context": "Title: Mean field game of mutual holding with defaultable agents, and systemic risk. (arXiv:2303.07996v1 [math.PR])\nAbstract: We introduce the possibility of default in the mean field game of mutual holding of Djete and Touzi [11]. This is modeled by introducing absorption at the origin of the equity process. We provide an explicit solution of this mean field game. Moreover, we provide a particle system approximation, and we derive an autonomous equation for the time evolution of the default probability, or equivalently the law of the hitting time of the origin by the equity process. The systemic risk is thus described by the evolution of the default probability.",
+    "path": "papers/23/03/2303.07996.json",
+    "total_tokens": 678,
+    "translated_title": "互相持有且存在违约代理的均值场博弈及系统风险",
+    "translated_abstract": "我们在Djete和Touzi[11]的互相持有的均值场博弈中引入了违约的可能性。这是通过在股权过程的原点处引入吸收来建模的。我们提供了这个均值场博弈的显式解。此外，我们提供了一个粒子系统近似，并且我们导出了一个自主方程来描述违约概率的时间演变，或者等价地说是股权过程到达原点的击中时间的定律。因此，系统性风险通过违约概率的演变来描述。",
+    "tldr": "该论文研究了互相持有的均值场博弈，引入了违约情况，提供了显式解和粒子系统近似模型，并通过演化违约概率描述了系统性风险。",
+    "en_tdlr": "This paper studies the mean field game of mutual holding, introduces the possibility of default, provides explicit solutions and particle system approximations, and describes systemic risk through the evolution of default probabilities."
+}

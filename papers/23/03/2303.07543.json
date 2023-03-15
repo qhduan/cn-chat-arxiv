@@ -1,0 +1,10 @@
+{
+    "title": "WDiscOOD: Out-of-Distribution Detection via Whitened Linear Discriminative Analysis. (arXiv:2303.07543v1 [cs.CV])",
+    "abstract": "Deep neural networks are susceptible to generating overconfident yet erroneous predictions when presented with data beyond known concepts. This challenge underscores the importance of detecting out-of-distribution (OOD) samples in the open world. In this work, we propose a novel feature-space OOD detection score that jointly reasons with both class-specific and class-agnostic information. Specifically, our approach utilizes Whitened Linear Discriminative Analysis to project features into two subspaces - the discriminative and residual subspaces - in which the ID classes are maximally separated and closely clustered, respectively. The OOD score is then determined by combining the deviation from the input data to the ID distribution in both subspaces. The efficacy of our method, named WDiscOOD, is verified on the large-scale ImageNet-1k benchmark, with six OOD datasets that covers a variety of distribution shifts. WDiscOOD demonstrates superior performance on deep classifiers with divers",
+    "link": "http://arxiv.org/abs/2303.07543",
+    "total_tokens": 933,
+    "translated_title": "WDiscOOD：通过白化线性判别分析进行区分度优化的OOD检测",
+    "translated_abstract": "深度神经网络容易在遇到未知概念的情形下产生过度自信但错误的预测。这个挑战突显了在开放世界中检测OOD样本的重要性。本文提出了一种新颖的特征空间OOD检测分数，同时结合了类别特定和类别不可知的信息。具体地，我们的方法使用白化线性判别分析将特征投影到两个子空间中——判别子空间和残留子空间，其中ID类在判别子空间中被最大化地分离，并在残差子空间中被紧密地聚类。然后，在两个子空间中将来自输入数据与ID分布的偏差组合起来确定OOD分数。我们的方法名为WDiscOOD，在覆盖多种分布偏移的六个OOD数据集上验证了其高效性，包括大规模ImageNet-1k基准测试。WDiscOOD在深度分类器上表现出了优越的性能。",
+    "tldr": "本论文提出了一种名为WDiscOOD的新型OOD检测方法，其中使用白化线性判别分析将特征投影到判别子空间和残留子空间中，确定OOD分数。在大规模ImageNet-1k基准测试和六个OOD数据集中，WDiscOOD表现出了优越的性能。",
+    "en_tdlr": "This paper proposes a novel OOD detection method called WDiscOOD, which utilizes Whitened Linear Discriminative Analysis to determine OOD scores by projecting features into discriminative and residual subspaces. WDiscOOD demonstrates superior performance on both the large-scale ImageNet-1k benchmark and six OOD datasets with a variety of distribution shifts."
+}

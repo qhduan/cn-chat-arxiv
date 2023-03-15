@@ -1,0 +1,10 @@
+{
+    "title": "Superhuman Artificial Intelligence Can Improve Human Decision Making by Increasing Novelty. (arXiv:2303.07462v1 [cs.AI])",
+    "abstract": "How will superhuman artificial intelligence (AI) affect human decision making? And what will be the mechanisms behind this effect? We address these questions in a domain where AI already exceeds human performance, analyzing more than 5.8 million move decisions made by professional Go players over the past 71 years (1950-2021). To address the first question, we use a superhuman AI program to estimate the quality of human decisions across time, generating 58 billion counterfactual game patterns and comparing the win rates of actual human decisions with those of counterfactual AI decisions. We find that humans began to make significantly better decisions following the advent of superhuman AI. We then examine human players' strategies across time and find that novel decisions (i.e., previously unobserved moves) occurred more frequently and became associated with higher decision quality after the advent of superhuman AI. Our findings suggest that the development of superhuman AI programs ma",
+    "link": "http://arxiv.org/abs/2303.07462",
+    "total_tokens": 989,
+    "translated_title": "超人工智能可以通过增加新奇性来改进人类决策的能力",
+    "translated_abstract": "超人工智能（AI）将如何影响人类决策，并且有哪些机制可用于支持这种影响？我们在一个领域中回答了这些问题，该领域的AI已经超过了人类的表现，分析了过去71年（1950-2021）职业围棋选手所做的超过580万个移动决策。为了回答第一个问题，我们使用了一个超人工智能程序来估计随时间变化的人类决策质量，生成了580亿个反事实的游戏模式，并将实际人类决策的胜率与反事实的AI决策的胜率进行比较。我们发现，在超人工智能问世后，人类开始做出显著更好的决策。然后，我们在时间上检查了人类玩家的策略，并发现在超人工智能问世后，新颖的决策（即以前未观察到的移动）更频繁地发生，并与更高的决策质量相关联。我们的研究结果表明，超人工智能程序的发展可能会改变人类的决策能力。",
+    "tldr": "该研究通过分析职业围棋选手的移动决策发现，在超人工智能问世后，人类开始做出显著更好的决策，并且新颖的决策更频繁地发生，可能意味着超人工智能的发展可以改变人类的决策能力。",
+    "en_tdlr": "This study found through analyzing the move decisions of professional Go players that humans began to make significantly better decisions following the advent of superhuman AI, and novel decisions occurred more frequently and became associated with higher decision quality. This suggests that the development of superhuman AI programs may change human decision-making capabilities."
+}

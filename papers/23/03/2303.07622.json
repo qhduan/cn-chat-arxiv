@@ -1,0 +1,10 @@
+{
+    "title": "RE-MOVE: An Adaptive Policy Design Approach for Dynamic Environments via Language-Based Feedback. (arXiv:2303.07622v1 [cs.RO])",
+    "abstract": "Reinforcement learning-based policies for continuous control robotic navigation tasks often fail to adapt to changes in the environment during real-time deployment, which may result in catastrophic failures. To address this limitation, we propose a novel approach called RE-MOVE (\\textbf{RE}quest help and \\textbf{MOVE} on), which uses language-based feedback to adjust trained policies to real-time changes in the environment. In this work, we enable the trained policy to decide \\emph{when to ask for feedback} and \\emph{how to incorporate feedback into trained policies}. RE-MOVE incorporates epistemic uncertainty to determine the optimal time to request feedback from humans and uses language-based feedback for real-time adaptation. We perform extensive synthetic and real-world evaluations to demonstrate the benefits of our proposed approach in several test-time dynamic navigation scenarios. Our approach enable robots to learn from human feedback and adapt to previously unseen adversarial ",
+    "link": "http://arxiv.org/abs/2303.07622",
+    "total_tokens": 887,
+    "translated_title": "RE-MOVE：一种基于语言反馈的动态环境自适应策略设计方法",
+    "translated_abstract": "连续控制机器人导航任务的强化学习策略经常无法在实时部署期间适应环境的变化，这可能导致灾难性的失败。为了解决这个问题，我们提出了一种名为RE-MOVE（请求帮助并移动）的新方法，它使用基于语言的反馈来调整经过训练的策略以适应环境的实时变化。在这项工作中，我们使经过训练的策略能够决定何时请求反馈并如何将反馈纳入训练好的策略中。RE-MOVE利用先验不确定性来确定请求人类反馈的最佳时间，并使用基于语言的反馈进行实时适应。我们进行了大量的合成和实际世界的评估，以展示我们提出的方法在多种测试时间动态导航场景中的好处。我们的方法使机器人能够从人类反馈中学习并适应之前未见过的对抗性场景。",
+    "tldr": "RE-MOVE提出了一种基于语言反馈的自适应策略设计方法，可以使机器人适应实时环境变化，并从人类反馈中学习并适应之前未见过的对抗性场景。",
+    "en_tdlr": "RE-MOVE proposes an adaptive policy design approach based on language feedback, which enables robots to adapt to real-time environmental changes and learn from human feedback to handle previously unseen adversarial scenarios."
+}

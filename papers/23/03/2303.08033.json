@@ -1,0 +1,9 @@
+{
+    "title": "Large Language Models (GPT) Struggle to Answer Multiple-Choice Questions about Code. (arXiv:2303.08033v1 [cs.CL])",
+    "abstract": "We analyzed effectiveness of three generative pre-trained transformer (GPT) models in answering multiple-choice question (MCQ) assessments, often involving short snippets of code, from introductory and intermediate programming courses at the postsecondary level. This emerging technology stirs countless discussions of its potential uses (e.g., exercise generation, code explanation) as well as misuses in programming education (e.g., cheating). However, the capabilities of GPT models and their limitations to reason about and/or analyze code in educational settings have been under-explored. We evaluated several OpenAI's GPT models on formative and summative MCQ assessments from three Python courses (530 questions). We found that MCQs containing code snippets are not answered as successfully as those that only contain natural language. While questions requiring to fill-in a blank in the code or completing a natural language statement about the snippet are handled rather successfully, MCQs t",
+    "link": "http://arxiv.org/abs/2303.08033",
+    "total_tokens": 845,
+    "translated_abstract": "我们分析了三个生成式预训练变形器 (GPT) 模型在回答后期编程课程中包含短代码片段的多项选择题 (MCQ) 测评方面的有效性。这种新兴技术激起了无数关于它的潜在用途 (例如，练习生成，代码解释) 以及在编程教育中的误用 (例如，作弊) 的讨论。然而，GPT 模型的能力及其在教育环境中推理和/或分析代码的限制尚未得到充分探讨。我们从三个 Python 课程 (530 道问题) 中评估了几个 OpenAI 的 GPT 模型在形成性和终结性的 MCQ 测评中。我们发现包含代码片段的 MCQ 的答案不如仅包含自然语言的那些答案成功。虽然填写代码空白或完成有关片段的自然语言陈述的问题被处理得相当成功，但是多项选择题",
+    "tldr": "本研究分析了 GPT 模型在回答多项选择题中的表现，发现包含代码片段的多项选择题难以成功回答。",
+    "en_tdlr": "This study analyzed the performance of GPT models in answering multiple-choice questions, and found that those including code snippets are difficult to answer successfully."
+}

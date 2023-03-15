@@ -1,0 +1,12 @@
+{
+    "title": "DBSCAN of Multi-Slice Clustering for three-order Tensor. (arXiv:2303.07768v1 [cs.LG])",
+    "abstract": "Several methods for triclustering three-dimensional data require the cluster size or the number of clusters in each dimension to be specified. To address this issue, the Multi-Slice Clustering (MSC) for 3-order tensor finds signal slices that lie in a low dimensional subspace for a rank-one tensor dataset in order to find a cluster based on the threshold similarity. We propose an extension algorithm called MSC-DBSCAN to extract the different clusters of slices that lie in the different subspaces from the data if the dataset is a sum of r rank-one tensor (r > 1). Our algorithm uses the same input as the MSC algorithm and can find the same solution for rank-one tensor data as MSC.",
+    "link": "http://arxiv.org/abs/2303.07768",
+    "context": "Title: DBSCAN of Multi-Slice Clustering for three-order Tensor. (arXiv:2303.07768v1 [cs.LG])\nAbstract: Several methods for triclustering three-dimensional data require the cluster size or the number of clusters in each dimension to be specified. To address this issue, the Multi-Slice Clustering (MSC) for 3-order tensor finds signal slices that lie in a low dimensional subspace for a rank-one tensor dataset in order to find a cluster based on the threshold similarity. We propose an extension algorithm called MSC-DBSCAN to extract the different clusters of slices that lie in the different subspaces from the data if the dataset is a sum of r rank-one tensor (r > 1). Our algorithm uses the same input as the MSC algorithm and can find the same solution for rank-one tensor data as MSC.",
+    "path": "papers/23/03/2303.07768.json",
+    "total_tokens": 739,
+    "translated_title": "多维数组的多切片聚类中的DBSCAN算法",
+    "translated_abstract": "对于三维数据的三元聚类，现有的几种方法需要指定每个维度的聚类大小或聚类数量。为了解决这个问题，三元聚类(MSC)算法可以在低维子空间中找到保留信号的切片以便基于相似度阈值找到聚类。本文提出了 MSC-DBSCAN扩展算法以从数据中提取位于不同子空间的不同切片聚类(如果数据集是r个秩一张量(r>1)的总和)。我们的算法使用和 MSC 算法相同的输入，可以在处理秩一张量数据时与 MSC 算法获得相同的解决方案。",
+    "tldr": "本文提出了 MSC-DBSCAN扩展算法，可以在三元聚类中从数据中提取不同子空间的不同切片聚类，并可以获得与 MSC 算法在处理秩一张量数据时相同的解决方案。",
+    "en_tdlr": "The paper proposes an extension algorithm called MSC-DBSCAN for triclustering three-dimensional data to extract different clusters of slices that lie in different subspaces and achieve the same solution as the MSC algorithm for rank-one tensor data."
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Optimizing Deep Learning Model Parameters with the Bees Algorithm for Improved Medical Text Classification. (arXiv:2303.08021v1 [cs.CL])",
+    "abstract": "This paper introduces a novel mechanism to obtain the optimal parameters of a deep learning model using the Bees Algorithm, which is a recent promising swarm intelligence algorithm. The optimization problem is to maximize the accuracy of classifying ailments based on medical text given the initial hyper-parameters to be adjusted throughout a definite number of iterations. Experiments included two different datasets: English and Arabic. The highest accuracy achieved is 99.63% on the English dataset using Long Short-Term Memory (LSTM) along with the Bees Algorithm, and 88% on the Arabic dataset using AraBERT.",
+    "link": "http://arxiv.org/abs/2303.08021",
+    "total_tokens": 752,
+    "translated_title": "用蜜蜂算法优化深度学习模型参数，提高医学文本分类准确性",
+    "translated_abstract": "本文介绍了一种使用蜜蜂算法对深度学习模型进行参数优化的新机制，这是一种最近很有前途的群智能算法。优化问题是在给定初始超参数的情况下，通过确定的迭代次数来最大化基于医学文本分类疾病的准确性。实验包括两个不同的数据集：英语和阿拉伯语。使用长短期记忆 (LSTM) 和蜜蜂算法，在英语数据集上获得了99.63%的最高准确率，在阿拉伯语数据集上使用AraBERT获得了88%的最高准确率。",
+    "tldr": "本文使用蜜蜂算法优化了深度学习模型参数，提高了医学文本分类的准确性，最高准确率在英语数据集上达到了99.63%，在阿拉伯语数据集上达到了88%。",
+    "en_tdlr": "This paper introduces a novel mechanism for optimizing deep learning model parameters using the Bees Algorithm to improve accuracy in medical text classification. Results show a highest accuracy of 99.63% on the English dataset using Long Short-Term Memory (LSTM) with the Bees Algorithm, and 88% on the Arabic dataset using AraBERT."
+}

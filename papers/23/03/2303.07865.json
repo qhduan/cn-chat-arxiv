@@ -1,0 +1,10 @@
+{
+    "title": "Geolocation Predicting of Tweets Using BERT-Based Models. (arXiv:2303.07865v1 [cs.CL])",
+    "abstract": "This research is aimed to solve the tweet/user geolocation prediction task and provide a flexible methodology for the geotagging of textual big data. The suggested approach implements neural networks for natural language processing (NLP) to estimate the location as coordinate pairs (longitude, latitude) and two-dimensional Gaussian Mixture Models (GMMs). The scope of proposed models has been finetuned on a Twitter dataset using pretrained Bidirectional Encoder Representations from Transformers (BERT) as base models. Performance metrics show a median error of fewer than 30 km on a worldwide-level, and fewer than 15 km on the US-level datasets for the models trained and evaluated on text features of tweets' content and metadata context.",
+    "link": "http://arxiv.org/abs/2303.07865",
+    "total_tokens": 711,
+    "translated_title": "基于BERT模型的推文地理位置预测",
+    "translated_abstract": "该研究旨在解决推文/用户地理位置预测任务，并提供了处理文本大数据地理标记的灵活方法。该方法采用基于神经网络的自然语言处理来估计坐标对（经度，纬度）和二维高斯混合模型（GMM）。提出的模型的范围已经在Twitter数据集上使用预训练的BERT模型进行调整。性能指标表明，对于在推文内容和元数据上训练和评估的模型，全球范围内的中位误差小于30公里，美国范围内的中位误差小于15公里。",
+    "tldr": "该论文提出基于BERT模型的推文地理位置预测方法，可以实现全球和美国上的中位误差分别小于30公里和15公里的定位精度。",
+    "en_tdlr": "This paper proposes a BERT-based model for geolocation predicting of tweets, achieving a median error of less than 30 km on a global scale and less than 15 km on a US-level dataset, while providing a flexible methodology for geotagging textual big data."
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Efficient Self-supervised Continual Learning with Progressive Task-correlated Layer Freezing. (arXiv:2303.07477v1 [cs.CV])",
+    "abstract": "Inspired by the success of Self-supervised learning (SSL) in learning visual representations from unlabeled data, a few recent works have studied SSL in the context of continual learning (CL), where multiple tasks are learned sequentially, giving rise to a new paradigm, namely self-supervised continual learning (SSCL). It has been shown that the SSCL outperforms supervised continual learning (SCL) as the learned representations are more informative and robust to catastrophic forgetting. However, if not designed intelligently, the training complexity of SSCL may be prohibitively high due to the inherent training cost of SSL. In this work, by investigating the task correlations in SSCL setup first, we discover an interesting phenomenon that, with the SSL-learned background model, the intermediate features are highly correlated between tasks. Based on this new finding, we propose a new SSCL method with layer-wise freezing which progressively freezes partial layers with the highest correla",
+    "link": "http://arxiv.org/abs/2303.07477",
+    "total_tokens": 881,
+    "translated_title": "利用渐进任务相关性层冻结的有效自监督连续学习",
+    "translated_abstract": "受到自监督学习在从无标签数据中学习视觉表示方面的成功启发，最近一些研究探究了在连续学习（CL）环境下自监督学习的机制，形成了一种新的模式，即自监督连续学习（SSCL）。 SSCL已被证明优于受监督的连续学习（SCL），因为所学表示更加丰富和鲁棒。然而，如果不设计智能，则SSCL的培训复杂性可能会由于自监督学习的天然培训成本而变得禁止高。在本研究中，通过首先研究SSCL设置中的任务相关性，我们发现了一个有趣的现象，即在SSL学习的背景模型下，中间特征在任务之间高度相关。基于这一新发现，我们提出了一种新的具有层冻结的SSCL方法，该方法通过逐步冻结具有最高相关性的部分层。",
+    "tldr": "本论文提出了一种新的自监督连续学习方法，通过渐进地冻结有最高相关性的部分层来优化学习效率，并提高了所学表示的丰富性和鲁棒性。",
+    "en_tdlr": "This paper proposes a new self-supervised continual learning method, which optimizes the learning efficiency by progressively freezing the layers with the highest correlation and improves the richness and robustness of the learned representations."
+}

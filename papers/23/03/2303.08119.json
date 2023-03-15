@@ -1,0 +1,10 @@
+{
+    "title": "It Takes One to Tango but More Make Trouble? In-Context Training with Different Number of Demonstrations. (arXiv:2303.08119v1 [cs.AI])",
+    "abstract": "Large language models (LLMs) are capable to perform complex reasoning by in-context learning (ICL) when provided with a few input-output demonstrations (demos) and more powerful when intermediate reasoning steps (\"chain of thoughts (CoT)\") of the demos are given. Is it necessary to use multi-demo in ICL? In this paper, we study ICL using fewer demos for each test query on the tasks in~\\cite{wei2022chain}. Surprisingly, we do not observe significant degradation when using only one randomly chosen demo. To study this phenomenon, for each test query, we categorize demos into \"correct demos\" leading to the correct answer, and \"wrong demos\" resulting in wrong answers. Our analysis reveals an inherent bias in those widely studied datasets: most demos are correct for a majority of test queries, which explains the good performance of using one random demo. Moreover, ICL (with and w/o CoT) using only one correct demo significantly outperforms all-demo ICL adopted by most previous works, indicat",
+    "link": "http://arxiv.org/abs/2303.08119",
+    "total_tokens": 972,
+    "translated_title": "一人独舞好还是人多闹心？不同演示次数下的上下文训练",
+    "translated_abstract": "大型语言模型在提供了一些输入输出演示（demos）并给出更多演示的中间推理步骤（“思路链（CoT）”）时，能够通过上下文学习（ICL）进行复杂推理。本文研究了在每个测试查询上使用较少的演示来进行ICL的任务~\\cite{wei2022chain}。惊人地，当只使用一个随机选择的演示时，我们并没有观察到明显的性能下降。为了研究这种现象，对于每个测试查询，我们将演示分类为“正确演示”和“错误演示”。我们的分析揭示了这些广泛研究的数据集中存在的固有偏差：大多数测试查询的大多数演示都是正确的，这解释了使用一个随机演示时表现良好的原因。此外，只使用一个正确演示的ICL（带和不带CoT）在性能上显著优于大多数先前工作采用的全演示ICL，表明演示数量并不总是更好。",
+    "tldr": "本文研究了使用较少的演示数进行上下文学习（ICL）的任务，在测试查询上只使用一个随机选择的演示时并没有明显性能下降，而只使用一个正确演示的ICL在性能上显著优于全演示ICL。",
+    "en_tdlr": "This paper studies the in-context learning (ICL) task using fewer demonstration numbers and finds out that using only one randomly chosen demo on each test query does not lead to significant performance degradation, and ICL using only one correct demo significantly outperforms all-demo ICL."
+}

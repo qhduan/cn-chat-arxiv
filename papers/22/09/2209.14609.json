@@ -1,0 +1,10 @@
+{
+    "title": "Dataset Distillation Using Parameter Pruning. (arXiv:2209.14609v4 [cs.CV] UPDATED)",
+    "abstract": "In many fields, the acquisition of advanced models depends on large datasets, making data storage and model training expensive. As a solution, dataset distillation can synthesize a small dataset that preserves most information of the original large dataset. The recently proposed dataset distillation method by matching network parameters has been proven effective for several datasets. However, the dimensions of network parameters are typically large. Furthermore, some parameters are difficult to match during the distillation process, degrading distillation performance. Based on this observation, this study proposes a novel dataset distillation method based on parameter pruning that solves the problem. The proposed method can synthesize more robust distilled datasets and improve distillation performance by pruning difficult-to-match parameters during the distillation process. Experimental results on three datasets show that the proposed method outperforms other state-of-the-art dataset d",
+    "link": "http://arxiv.org/abs/2209.14609",
+    "total_tokens": 819,
+    "translated_title": "参数修剪的数据集蒸馏方法",
+    "translated_abstract": "在许多领域中，获得先进模型的方法取决于大型数据集，这使得数据存储和模型训练变得昂贵。作为解决方案，数据集蒸馏可以合成保留原始大型数据集大多数信息的小型数据集。最近提出的匹配网络参数的数据集蒸馏方法已被证明在几个数据集上有效。然而，网络参数的维度通常很大。此外，一些参数在蒸馏过程中难以匹配，降低了蒸馏性能。基于这个观察，本研究提出了一种基于参数修剪的新型数据集蒸馏方法来解决这个问题。该方法可以在蒸馏过程中修剪难以匹配的参数，从而合成更加稳健的蒸馏数据集并提高蒸馏性能。在三个数据集上的实验结果表明，该方法优于其他最先进的数据集蒸馏方法。",
+    "tldr": "本文提出了一种使用参数修剪的数据集蒸馏方法，该方法可以在蒸馏过程中修剪难以匹配的参数，提高蒸馏性能。",
+    "en_tdlr": "This paper proposes a dataset distillation method based on parameter pruning, which can improve distillation performance by pruning difficult-to-match parameters during the distillation process."
+}

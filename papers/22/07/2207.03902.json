@@ -1,0 +1,9 @@
+{
+    "title": "Interaction Pattern Disentangling for Multi-Agent Reinforcement Learning. (arXiv:2207.03902v2 [cs.LG] UPDATED)",
+    "abstract": "Deep cooperative multi-agent reinforcement learning has demonstrated its remarkable success over a wide spectrum of complex control tasks. However, recent advances in multi-agent learning mainly focus on value decomposition while leaving entity interactions still intertwined, which easily leads to over-fitting on noisy interactions between entities. In this work, we introduce a novel interactiOn Pattern disenTangling (OPT) method, to disentangle not only the joint value function into agent-wise value functions for decentralized execution, but also the entity interactions into interaction prototypes, each of which represents an underlying interaction pattern within a subgroup of the entities. OPT facilitates filtering the noisy interactions between irrelevant entities and thus significantly improves generalizability as well as interpretability. Specifically, OPT introduces a sparse disagreement mechanism to encourage sparsity and diversity among discovered interaction prototypes. Then t",
+    "link": "http://arxiv.org/abs/2207.03902",
+    "total_tokens": 811,
+    "translated_abstract": "基于深度合作的多智能体强化学习在复杂控制任务上取得了显着的成就。然而，最近的多智能体学习进展主要集中在 值分解 上，而将实体之间的交互仍然纠缠在一起，这很容易导致噪声交互过多从而过拟合。在本文中，我们引入了一种新颖的 互动模式解耦 （OPT）方法，不仅将联合值函数解耦成代理值函数以进行分散执行，而且还将实体交互解耦成交互原型，每个交互原型代表实体子组内的潜在交互模式。OPT有助于过滤与不相关实体之间的噪声交互，因此显着提高了泛化能力和可解释性。",
+    "tldr": "本文提出了一种新方法（OPT），通过解耦代理之间的价值函数和实体之间的交互，得到交互原型，从而改善了噪声交互过多的问题，同时提高了泛化能力和可解释性。",
+    "en_tdlr": "The paper proposes a new approach (OPT), which disentangles the value functions of agents and entity interactions into interaction prototypes, to filter noisy interactions among irrelevant entities and significantly improve generalizability and interpretability."
+}

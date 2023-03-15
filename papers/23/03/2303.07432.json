@@ -1,0 +1,10 @@
+{
+    "title": "End-to-end Deformable Attention Graph Neural Network for Single-view Liver Mesh Reconstruction. (arXiv:2303.07432v1 [cs.CV])",
+    "abstract": "Intensity modulated radiotherapy (IMRT) is one of the most common modalities for treating cancer patients. One of the biggest challenges is precise treatment delivery that accounts for varying motion patterns originating from free-breathing. Currently, image-guided solutions for IMRT is limited to 2D guidance due to the complexity of 3D tracking solutions. We propose a novel end-to-end attention graph neural network model that generates in real-time a triangular shape of the liver based on a reference segmentation obtained at the preoperative phase and a 2D MRI coronal slice taken during the treatment. Graph neural networks work directly with graph data and can capture hidden patterns in non-Euclidean domains. Furthermore, contrary to existing methods, it produces the shape entirely in a mesh structure and correctly infers mesh shape and position based on a surrogate image. We define two on-the-fly approaches to make the correspondence of liver mesh vertices with 2D images obtained dur",
+    "link": "http://arxiv.org/abs/2303.07432",
+    "total_tokens": 896,
+    "translated_title": "基于端到端可变形注意力图神经网络的单视角肝脏网格重建",
+    "translated_abstract": "肿瘤放疗是治疗癌症患者的最常见方式之一，然而，精确的治疗交付对来自自由呼吸的不同运动模式的考虑是最大的挑战之一。本文提出了一种新颖的端到端注意力图神经网络模型，根据在术前阶段获得的参考分割和治疗过程中获取的二维MRI冠状切片，实时生成肝脏的三角形形状。图神经网络可以直接处理图形数据，并能捕获非欧几里德域中的隐藏模式。与现有方法相反，它完全以网格结构产生形状，并根据代理图像正确推断网格形状和位置。我们定义了两种即时方法来使肝脏网格顶点与获取的二维图像对应。",
+    "tldr": "本文提出了一种基于端到端可变形注意力图神经网络的肝脏网格重建模型，可实时生成肝脏三角形形状，通过图神经网络处理图形数据，并提供了两种即时方法，能有效推断网格形状和位置。",
+    "en_tdlr": "This paper proposes an end-to-end deformable attention graph neural network for single-view liver mesh reconstruction, which can generate liver triangular shape in real-time. The graph neural network can process graph data and captures hidden patterns in non-Euclidean domains. The paper also defines two on-the-fly approaches to accurately infer mesh shape and position based on a surrogate image."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Sensitive Region-based Metamorphic Testing Framework using Explainable AI. (arXiv:2303.07580v1 [cs.LG])",
+    "abstract": "Deep Learning (DL) is one of the most popular research topics in machine learning and DL-driven image recognition systems have developed rapidly. Recent research has used metamorphic testing (MT) to detect misclassified images. Most of them discuss metamorphic relations (MR), with little discussion on which regions should be transformed. We focus on the fact that there are sensitive regions where even a small transformation can easily change the prediction results and propose an MT framework that efficiently tests for regions prone to misclassification by transforming the sensitive regions. Our evaluation showed that the sensitive regions can be specified by Explainable AI (XAI) and our framework effectively detects faults.",
+    "link": "http://arxiv.org/abs/2303.07580",
+    "context": "Title: Sensitive Region-based Metamorphic Testing Framework using Explainable AI. (arXiv:2303.07580v1 [cs.LG])\nAbstract: Deep Learning (DL) is one of the most popular research topics in machine learning and DL-driven image recognition systems have developed rapidly. Recent research has used metamorphic testing (MT) to detect misclassified images. Most of them discuss metamorphic relations (MR), with little discussion on which regions should be transformed. We focus on the fact that there are sensitive regions where even a small transformation can easily change the prediction results and propose an MT framework that efficiently tests for regions prone to misclassification by transforming the sensitive regions. Our evaluation showed that the sensitive regions can be specified by Explainable AI (XAI) and our framework effectively detects faults.",
+    "path": "papers/23/03/2303.07580.json",
+    "total_tokens": 731,
+    "translated_title": "基于敏感区域的可解释AI变态测试框架",
+    "translated_abstract": "深度学习是机器学习中最受欢迎的研究课题之一，基于深度学习的图像识别系统得到了快速发展。最近的研究使用变态测试来检测错误分类的图像。大多数研究讨论变态关系(MR)，但很少讨论应该转换哪些区域。我们的重点是存在敏感区域，即使进行小的转换也会容易改变预测结果，并提出一种变态测试框架，通过转换敏感区域有效地检测易出现错误分类的区域。我们的评估表明，敏感区域可以由可解释AI(XAI)指定，我们的框架有效地检测故障。",
+    "tldr": "提出了一种基于敏感区域的元测试框架，可以通过转换这些区域来有效地检测易出现错误分类的图像；敏感区域可以由可解释AI指定。",
+    "en_tdlr": "An MT framework based on sensitive regions is proposed to efficiently test for areas prone to misclassification and transform them. The sensitive regions can be specified by XAI."
+}

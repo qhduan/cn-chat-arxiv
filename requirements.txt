@@ -1,4 +1,5 @@
 feedparser
 bs4
-tqdm
 openai
+pebble
+tqdm

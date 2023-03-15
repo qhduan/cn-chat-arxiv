@@ -1,0 +1,10 @@
+{
+    "title": "Emergent Bio-Functional Similarities in a Cortical-Spike-Train-Decoding Spiking Neural Network Facilitate Predictions of Neural Computation. (arXiv:2303.07830v1 [q-bio.NC])",
+    "abstract": "Despite its better bio-plausibility, goal-driven spiking neural network (SNN) has not achieved applicable performance for classifying biological spike trains, and showed little bio-functional similarities compared to traditional artificial neural networks. In this study, we proposed the motorSRNN, a recurrent SNN topologically inspired by the neural motor circuit of primates. By employing the motorSRNN in decoding spike trains from the primary motor cortex of monkeys, we achieved a good balance between classification accuracy and energy consumption. The motorSRNN communicated with the input by capturing and cultivating more cosine-tuning, an essential property of neurons in the motor cortex, and maintained its stability during training. Such training-induced cultivation and persistency of cosine-tuning was also observed in our monkeys. Moreover, the motorSRNN produced additional bio-functional similarities at the single-neuron, population, and circuit levels, demonstrating biological a",
+    "link": "http://arxiv.org/abs/2303.07830",
+    "total_tokens": 988,
+    "translated_title": "皮层尖峰列解码脉冲神经网络中的生物功能相似性对神经计算预测有帮助",
+    "translated_abstract": "尽管其更好的生物学可塑性，但面向目标的尖峰神经网络（SNN）在分类生物脉冲列方面尚未实现可应用性，并且与传统的人工神经网络相比，显示出很少的生物功能相似性。在本研究中，我们提出了motorSRNN，一种由灵长类动物的神经运动电路启发的循环SNN。通过在解码猴子的主要运动皮层脉冲列中使用motorSRNN，我们在分类准确性和能量消耗之间取得了良好的平衡。motorSRNN通过捕获和培养更多余弦调谐来与输入进行通信，这是运动皮层神经元的一个重要特性，并且在训练期间保持其稳定性。这种训练诱导的余弦调谐的培养和持久性也在我们的猴子中观察到。此外，motorSRNN在单个神经元、群体和电路水平上产生了额外的生物功能相似性，证明了生物学的紧密结合。",
+    "tldr": "本研究提出了一种循环SNN模型，motorSRNN，通过捕获和培养运动皮层神经元的余弦调谐等生物学特性，实现了对猴子运动皮层脉冲列的良好分类，并且进一步产生了额外的生物功能相似性。",
+    "en_tdlr": "This study proposes a recurrent SNN model, motorSRNN, which captures and cultivates biological properties, such as cosine-tuning of motor cortex neurons, to achieve good classification of monkey's motor cortex spike trains and produce additional bio-functional similarities."
+}

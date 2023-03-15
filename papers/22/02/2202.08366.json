@@ -1,0 +1,12 @@
+{
+    "title": "Preference Learning in School Choice Problems. (arXiv:2202.08366v2 [econ.TH] UPDATED)",
+    "abstract": "In school choice, students make decisions based on their expectations of particular schools' suitability, and the decision to gather information about schools is influenced by the acceptance odds determined by the mechanism in place. We study a school choice model where students can obtain information about their preferences by incurring a cost. We demonstrate greater homogeneity in rank-order reports and reduced information acquisition under the Deferred-Acceptance (DA) mechanism, resulting in an increased reliance on random tie-breaking and ultimately inefficient outcomes. Thus, it is critical for the DA mechanism to have easy access to school information in order to maintain its efficiency.",
+    "link": "http://arxiv.org/abs/2202.08366",
+    "context": "Title: Preference Learning in School Choice Problems. (arXiv:2202.08366v2 [econ.TH] UPDATED)\nAbstract: In school choice, students make decisions based on their expectations of particular schools' suitability, and the decision to gather information about schools is influenced by the acceptance odds determined by the mechanism in place. We study a school choice model where students can obtain information about their preferences by incurring a cost. We demonstrate greater homogeneity in rank-order reports and reduced information acquisition under the Deferred-Acceptance (DA) mechanism, resulting in an increased reliance on random tie-breaking and ultimately inefficient outcomes. Thus, it is critical for the DA mechanism to have easy access to school information in order to maintain its efficiency.",
+    "path": "papers/22/02/2202.08366.json",
+    "total_tokens": 744,
+    "translated_title": "学校选择问题中的偏好学习",
+    "translated_abstract": "在学校选择中，学生们根据他们对特定学校的适应性期望做出决策，而收集学校信息的决策受到机制确定的接受率的影响。我们研究了一个学校选择模型，其中学生可以通过付出成本来获得有关他们偏好的信息。我们证明，在延迟承诺机制下，排名报告的同质性更大，并且信息获取减少，导致更多依赖于随机抽签，最终导致效率低下的结果。因此，延迟承诺机制易于获取学校信息，以保持其效率至关重要。",
+    "tldr": "该论文研究了学校选择问题中的偏好学习，发现在延迟承诺机制下，排名报告更同质化，信息获取减少，依赖于随机抽签，最终导致效率低下的结论。",
+    "en_tdlr": "This paper studies preference learning in school choice problems, finding that under the Deferred-Acceptance mechanism, there is greater homogeneity in rank-order reports and reduced information acquisition, leading to increased reliance on random tie-breaking and ultimately inefficient outcomes. It emphasizes the importance of easy access to school information to maintain the efficiency of the mechanism."
+}

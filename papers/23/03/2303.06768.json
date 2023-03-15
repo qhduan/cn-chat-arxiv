@@ -1,0 +1,10 @@
+{
+    "title": "The Planner Optimization Problem: Formulations and Frameworks. (arXiv:2303.06768v2 [cs.AI] UPDATED)",
+    "abstract": "Identifying internal parameters for planning is crucial to maximizing the performance of a planner. However, automatically tuning internal parameters which are conditioned on the problem instance is especially challenging. A recent line of work focuses on learning planning parameter generators, but lack a consistent problem definition and software framework. This work proposes the unified planner optimization problem (POP) formulation, along with the Open Planner Optimization Framework (OPOF), a highly extensible software framework to specify and to solve these problems in a reusable manner.",
+    "link": "http://arxiv.org/abs/2303.06768",
+    "total_tokens": 669,
+    "translated_title": "规划优化问题：公式和框架",
+    "translated_abstract": "确定规划的内部参数对于最大化规划器的性能至关重要。然而，自动调整针对问题实例的内部参数尤其具有挑战性。最近的一系列工作集中于学习规划参数生成器，但缺乏一致的问题定义和软件框架。本文提出了统一的规划优化问题（POP）公式，并提供了开放式规划优化框架（OPOF），这是一个高度可扩展的软件框架，可以以可重用的方式指定和解决这些问题。",
+    "tldr": "本研究提出了统一的规划优化问题公式和开放式规划优化框架，可帮助解决自动调整规划内部参数的挑战和缺乏统一问题定义和软件框架等问题。",
+    "en_tdlr": "This study proposes a unified Planner Optimization Problem (POP) formulation and the Open Planner Optimization Framework (OPOF) to tackle the challenge of automatically tuning internal parameters for planning, as well as the lack of consistent problem definition and software framework in the current learning planning parameter generators."
+}

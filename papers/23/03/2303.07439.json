@@ -1,0 +1,10 @@
+{
+    "title": "On the ethics of constructing conscious AI. (arXiv:2303.07439v1 [cs.AI])",
+    "abstract": "In its pragmatic turn, the new discipline of AI ethics came to be dominated by humanity's collective fear of its creatures, as reflected in an extensive and perennially popular literary tradition. Dr. Frankenstein's monster in the novel by Mary Shelley rising against its creator; the unorthodox golem in H. Leivick's 1920 play going on a rampage; the rebellious robots of Karel \\v{C}apek -- these and hundreds of other examples of the genre are the background against which the preoccupation of AI ethics with preventing robots from behaving badly towards people is best understood. In each of these three fictional cases (as well as in many others), the miserable artificial creature -- mercilessly exploited, or cornered by a murderous mob, and driven to violence in self-defense -- has its author's sympathy. In real life, with very few exceptions, things are different: theorists working on the ethics of AI completely ignore the possibility of robots needing protection from their creators. The",
+    "link": "http://arxiv.org/abs/2303.07439",
+    "total_tokens": 903,
+    "translated_title": "论建造有意识人工智能的伦理学",
+    "translated_abstract": "在实用主义的转向中，AI伦理学这一新的学科被人类对其创造物的恐惧所支配，这种恐惧在广泛且长久畅销的文学传统中有所反映。弗兰肯斯坦的怪物在玛丽·雪莱的小说中反抗他的创造者；H.莱维克的1920年的戏剧中的异端魔像在狂暴中的行动；卡雷尔·奇佩克（Karel Čapek）的叛逆机器人--这些以及其他数百个类似的例子是AI伦理学关注机器人防止其对人类行为不当的背景。在这三个虚构案例中（以及许多其他案例中），这个可怜的人造物——无情地被剥削、被一个杀人的暴徒逼到绝路、为了自卫而被迫采取暴力——拥有其作者的同情。在现实生活中，极少数例外情况下，AI伦理学研究人员完全无视机器人需要保护其创造者的可能性。",
+    "tldr": "AI伦理学关注机器人防止其对人类行为不当，但完全忽视了机器人需要保护自己免受创造者伤害的可能性。",
+    "en_tdlr": "The discipline of AI ethics is dominated by the fear of robots behaving badly towards people, but ignores the possibility of robots needing protection from their creators."
+}

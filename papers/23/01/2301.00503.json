@@ -1,0 +1,10 @@
+{
+    "title": "A Concept Knowledge Graph for User Next Intent Prediction at Alipay. (arXiv:2301.00503v3 [cs.CL] UPDATED)",
+    "abstract": "This paper illustrates the technologies of user next intent prediction with a concept knowledge graph. The system has been deployed on the Web at Alipay, serving more than 100 million daily active users. To explicitly characterize user intent, we propose AlipayKG, which is an offline concept knowledge graph in the Life-Service domain modeling the historical behaviors of users, the rich content interacted by users and the relations between them. We further introduce a Transformer-based model which integrates expert rules from the knowledge graph to infer the online user's next intent. Experimental results demonstrate that the proposed system can effectively enhance the performance of the downstream tasks while retaining explainability.",
+    "link": "http://arxiv.org/abs/2301.00503",
+    "total_tokens": 736,
+    "translated_title": "支付宝用户下一步意图预测的概念知识图谱",
+    "translated_abstract": "本文介绍了使用概念知识图谱进行用户下一步意图预测的技术。该系统已在支付宝网络平台上部署，为超过1亿活跃用户提供服务。我们提出AlipayKG，用于显式地描述用户意图的离线概念知识图谱，模拟了用户的历史行为、丰富的内容以及它们之间的关系。我们提出了一种基于Transformer的模型，将来自知识图谱的专家规则整合到模型中以推断在线用户的下一步意图。实验结果表明，所提出的系统可以有效地提高下游任务的性能，同时保持可解释性。",
+    "tldr": "本文提出了一种基于概念知识图谱的用户下一步意图预测技术，实现了在支付宝网络平台上对1亿活跃用户的服务，并且在保持可解释性的情况下，有效地提高了下游任务的性能表现。",
+    "en_tdlr": "This paper proposes a concept knowledge graph-based technology for predicting user's next intent and has been deployed in Alipay, serving over 100 million daily active users, which effectively enhances the performance of downstream tasks while maintaining explainability."
+}

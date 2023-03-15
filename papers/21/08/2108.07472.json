@@ -1,0 +1,12 @@
+{
+    "title": "Is Nash Equilibrium Approximator Learnable?. (arXiv:2108.07472v6 [cs.GT] UPDATED)",
+    "abstract": "In this paper, we investigate the learnability of the function approximator that approximates Nash equilibrium (NE) for games generated from a distribution. First, we offer a generalization bound using the Probably Approximately Correct (PAC) learning model. The bound describes the gap between the expected loss and empirical loss of the NE approximator. Afterward, we prove the agnostic PAC learnability of the Nash approximator. In addition to theoretical analysis, we demonstrate an application of NE approximator in experiments. The trained NE approximator can be used to warm-start and accelerate classical NE solvers. Together, our results show the practicability of approximating NE through function approximation.",
+    "link": "http://arxiv.org/abs/2108.07472",
+    "context": "Title: Is Nash Equilibrium Approximator Learnable?. (arXiv:2108.07472v6 [cs.GT] UPDATED)\nAbstract: In this paper, we investigate the learnability of the function approximator that approximates Nash equilibrium (NE) for games generated from a distribution. First, we offer a generalization bound using the Probably Approximately Correct (PAC) learning model. The bound describes the gap between the expected loss and empirical loss of the NE approximator. Afterward, we prove the agnostic PAC learnability of the Nash approximator. In addition to theoretical analysis, we demonstrate an application of NE approximator in experiments. The trained NE approximator can be used to warm-start and accelerate classical NE solvers. Together, our results show the practicability of approximating NE through function approximation.",
+    "path": "papers/21/08/2108.07472.json",
+    "total_tokens": 714,
+    "translated_title": "Nash平衡逼近器可学习吗？",
+    "translated_abstract": "本文研究了逼近生成游戏的分布中的Nash均衡（NE）的函数逼近器的可学习性。首先，我们使用Probably Approximately Correct（PAC）学习模型提供了一个泛化边界。该边界描述了NE逼近器的期望损失和经验损失之间的差距。之后，我们证明了Nash逼近器的agnostic PAC可学习性。除了理论分析，我们还在实验中展示了NE逼近器的一种应用。训练的NE逼近器可以用于启动和加速经典NE求解器。综上所述，我们的结果显示函数逼近可以实现逼近NE的实用性。",
+    "tldr": "本文研究了生成游戏中Nash平衡的学习方法，证明了可学习性，并展示了该方法在经典求解器加速方面的应用。",
+    "en_tdlr": "This paper investigates the learnability of Nash equilibrium approximator for games generated from a distribution, and proves its agnostic PAC learnability. An application of the trained approximator in accelerating classical NE solvers is also demonstrated."
+}

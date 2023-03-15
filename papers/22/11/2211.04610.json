@@ -1,0 +1,10 @@
+{
+    "title": "PhaseAug: A Differentiable Augmentation for Speech Synthesis to Simulate One-to-Many Mapping. (arXiv:2211.04610v2 [eess.AS] UPDATED)",
+    "abstract": "Previous generative adversarial network (GAN)-based neural vocoders are trained to reconstruct the exact ground truth waveform from the paired mel-spectrogram and do not consider the one-to-many relationship of speech synthesis. This conventional training causes overfitting for both the discriminators and the generator, leading to the periodicity artifacts in the generated audio signal. In this work, we present PhaseAug, the first differentiable augmentation for speech synthesis that rotates the phase of each frequency bin to simulate one-to-many mapping. With our proposed method, we outperform baselines without any architecture modification. Code and audio samples will be available at https://github.com/mindslab-ai/phaseaug.",
+    "link": "http://arxiv.org/abs/2211.04610",
+    "total_tokens": 801,
+    "translated_title": "PhaseAug: 一种可微的语音合成数据增强技术，用于模拟一对多映射关系",
+    "translated_abstract": "以往的生成对抗网络（GAN）基础声码器被训练成从对应的Mel频谱图中重建确切的语音波形，而不考虑语音合成中的一对多关系。这种传统训练会导致生成语音信号中出现周期性伪影，使得鉴别器和生成器都发生了过拟合。本文提出了PhaseAug——第一种不同iable 的语音合成数据增强技术——通过旋转每个频率箱的相位，模拟一对多映射关系。使用我们提出的方法，无需任何架构修改就可以超越基线方法。代码和音频样本可在 https://github.com/mindslab-ai/phaseaug 上获得。",
+    "tldr": "PhaseAug 是一种可微的语音合成数据增强技术，通过旋转每个频率箱的相位，模拟一对多映射关系，解决了传统训练中出现周期性伪影的问题，而且无需任何架构修改就可以超越基线方法。",
+    "en_tdlr": "PhaseAug is a differentiable data augmentation technique for speech synthesis that simulates the one-to-many mapping relationship by rotating phase of each frequency bin. It solves the problem of periodicity artifacts in generated audio signal caused by overfitting from traditional training without any architecture modification, and outperforms baselines."
+}

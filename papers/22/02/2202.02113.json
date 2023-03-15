@@ -1,0 +1,10 @@
+{
+    "title": "From Discrimination to Generation: Knowledge Graph Completion with Generative Transformer. (arXiv:2202.02113v7 [cs.CL] UPDATED)",
+    "abstract": "Knowledge graph completion aims to address the problem of extending a KG with missing triples. In this paper, we provide an approach GenKGC, which converts knowledge graph completion to sequence-to-sequence generation task with the pre-trained language model. We further introduce relation-guided demonstration and entity-aware hierarchical decoding for better representation learning and fast inference. Experimental results on three datasets show that our approach can obtain better or comparable performance than baselines and achieve faster inference speed compared with previous methods with pre-trained language models. We also release a new large-scale Chinese knowledge graph dataset AliopenKG500 for research purpose. Code and datasets are available in https://github.com/zjunlp/PromptKG/tree/main/GenKGC.",
+    "link": "http://arxiv.org/abs/2202.02113",
+    "total_tokens": 858,
+    "translated_title": "从区分到生成：基于生成变换器的知识图谱补全",
+    "translated_abstract": "知识图谱补全解决了扩展缺失三元组的问题。本文提出了一种称作GenKGC的方法，将知识图谱补全转化为预训练语言模型的序列到序列生成任务。我们进一步引入了关系引导演示和实体感知分层解码，以实现更好的表示学习和快速推断。在三个数据集上的实验结果显示，我们的方法可以获得比基线更好或相当的性能，并与以前具有预训练语言模型的方法相比，实现更快的推断速度。我们还发布了一个新的大规模中文知识图谱数据集AliopenKG500，供研究目的使用。代码和数据集可在https://github.com/zjunlp/PromptKG/tree/main/GenKGC中获得。",
+    "tldr": "本文介绍了一种将知识图谱补全转化为生成任务的方法，同时引入了关系引导演示和实体感知分层解码来实现更好的表示学习和快速推断。实验结果表明，这种方法具有比基线更好或相当的性能，并且比以往的方法更快。同时，作者还发布了一个新的大规模中文知识图谱数据集AliopenKG500。",
+    "en_tdlr": "This paper proposes a method to convert knowledge graph completion to a generative task, incorporating relation-guided demonstration and entity-aware hierarchical decoding for better representation learning and faster inference. Experimental results show comparable or better performance than baselines, with faster inference speed. The authors also introduce a new large-scale Chinese knowledge graph dataset, AliopenKG500, for research purposes."
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Audio Visual Language Maps for Robot Navigation. (arXiv:2303.07522v1 [cs.RO])",
+    "abstract": "While interacting in the world is a multi-sensory experience, many robots continue to predominantly rely on visual perception to map and navigate in their environments. In this work, we propose Audio-Visual-Language Maps (AVLMaps), a unified 3D spatial map representation for storing cross-modal information from audio, visual, and language cues. AVLMaps integrate the open-vocabulary capabilities of multimodal foundation models pre-trained on Internet-scale data by fusing their features into a centralized 3D voxel grid. In the context of navigation, we show that AVLMaps enable robot systems to index goals in the map based on multimodal queries, e.g., textual descriptions, images, or audio snippets of landmarks. In particular, the addition of audio information enables robots to more reliably disambiguate goal locations. Extensive experiments in simulation show that AVLMaps enable zero-shot multimodal goal navigation from multimodal prompts and provide 50% better recall in ambiguous scenar",
+    "link": "http://arxiv.org/abs/2303.07522",
+    "total_tokens": 881,
+    "translated_title": "机器人导航的音视语言地图",
+    "translated_abstract": "与世界的互动是一种多感官的体验，但是许多机器人仍然主要依赖视觉感知来绘制和导航他们的环境。本文提出了音视语言地图(AVLMaps)，这是一个统一的3D空间地图表示，用于存储来自音频、视觉和语言线索的跨模态信息。在导航的情境下，我们展示了AVLMaps能够使机器人系统根据多模态查询(例如，文本描述、图像或地标的音频片段)在地图中索引目标。特别是，添加音频信息使机器人能够更可靠地消除目标位置的歧义性。在模拟实验中，我们展示了AVLMaps能够实现从多模态提示进行零次学习的多模态目标导航，并在模糊场景中提供50%更好的召回率。",
+    "tldr": "该论文提出了一种音视语言地图(AVLMaps)，用于存储跨模态信息，实现机器人根据多模态查询在地图中索引目标的导航方式。在模拟实验中，AVLMaps实现了从多模态提示的零次学习式多模态目标导航，并提供了更好的召回率。",
+    "en_tdlr": "This paper proposes Audio-Visual-Language Maps (AVLMaps), a unified 3D spatial map representation for storing cross-modal information from audio, visual, and language cues for robot navigation. AVLMaps enable zero-shot multimodal goal navigation from multimodal prompts and provide better recall in ambiguous scenarios."
+}

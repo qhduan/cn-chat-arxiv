@@ -1,0 +1,12 @@
+{
+    "title": "High-dimensional analysis of double descent for linear regression with random projections. (arXiv:2303.01372v2 [cs.LG] UPDATED)",
+    "abstract": "We consider linear regression problems with a varying number of random projections, where we provably exhibit a double descent curve for a fixed prediction problem, with a high-dimensional analysis based on random matrix theory. We first consider the ridge regression estimator and review earlier results using classical notions from non-parametric statistics, namely degrees of freedom, also known as effective dimensionality. We then compute asymptotic equivalents of the generalization performance (in terms of squared bias and variance) of the minimum norm least-squares fit with random projections, providing simple expressions for the double descent phenomenon.",
+    "link": "http://arxiv.org/abs/2303.01372",
+    "context": "Title: High-dimensional analysis of double descent for linear regression with random projections. (arXiv:2303.01372v2 [cs.LG] UPDATED)\nAbstract: We consider linear regression problems with a varying number of random projections, where we provably exhibit a double descent curve for a fixed prediction problem, with a high-dimensional analysis based on random matrix theory. We first consider the ridge regression estimator and review earlier results using classical notions from non-parametric statistics, namely degrees of freedom, also known as effective dimensionality. We then compute asymptotic equivalents of the generalization performance (in terms of squared bias and variance) of the minimum norm least-squares fit with random projections, providing simple expressions for the double descent phenomenon.",
+    "path": "papers/23/03/2303.01372.json",
+    "total_tokens": 680,
+    "translated_title": "基于随机投影的线性回归双下降的高维分析",
+    "translated_abstract": "我们考虑随机投影的数量变化的线性回归问题，在随机矩阵理论的基础上，我们确定了一个固定的预测问题的双下降曲线。我们首先考虑Ridge回归估计器，并使用非参数统计中的经典概念（即自由度，又称有效维数）来回顾早期结果。然后，我们计算了随机投影的最小范数最小二乘拟合的广义性能（以平方偏差和方差表示）的渐近等价物，为双下降现象提供简单的表达式。",
+    "tldr": "本文使用随机矩阵理论对基于随机投影的线性回归问题进行高维分析，证明了固定预测问题的双下降曲线现象。",
+    "en_tdlr": "This paper performs high-dimensional analysis on linear regression problems with varying numbers of random projections, and demonstrates the double descent curve phenomenon for a fixed prediction problem using random matrix theory."
+}

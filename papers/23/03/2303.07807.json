@@ -1,0 +1,10 @@
+{
+    "title": "Robot Grasping and Manipulation: A Prospective. (arXiv:2303.07807v1 [cs.RO])",
+    "abstract": "``A simple handshake would give them away''. This is how Anthony Hopkins' fictional character, Dr Robert Ford, summarises a particular flaw of the 2016 science-fiction \\emph{Westworld}'s hosts. In the storyline, Westworld is a futuristic theme park and the hosts are autonomous robots engineered to be indistinguishable from the human guests, except for their hands that have not been perfected yet. In another classic science-fiction saga, scientists unlock the secrets of full synthetic intelligence, Skynet, by reverse engineering a futuristic hand.  In both storylines, reality inspires fiction on one crucial point: designing hands and reproducing robust and reliable manipulation actions is one of the biggest challenges in robotics.  Solving this problem would lead us to a new, improved era of autonomy. A century ago, the third industrial revolution brought robots into the assembly lines, changing our way of working forever. The next revolution has already started by bringing us artificia",
+    "link": "http://arxiv.org/abs/2303.07807",
+    "total_tokens": 885,
+    "translated_title": "机器人抓取和操作：前景展望。",
+    "translated_abstract": "“简简单单的握手必将暴露他们的身份。”这就是安东尼·霍普金斯在虚构角色罗伯特·福特博士中总结2016年科幻电视剧《西部世界》中主机的一个缺陷。在这个故事中，西部世界是一个未来主义主题公园，主机是被设计成与人类客人难以区分的自主机器人，但它们的手却还未被完善。在另一个经典的科幻系列中，科学家通过对未来手的逆向工程，开启了全合成智能Skynet的秘密。在这两个故事情节中，现实启发了小说写作，揭示了机器人设计手和复制强大可靠的操作动作是机器人技术面临的最大挑战之一。解决这个问题将引领我们进入一个新的改进时代。一个世纪前，第三次工业革命将机器人带到了装配线上，永远改变了我们的工作方式。下一个革命已经开始，带给我们的是人工智能和大数据分析。",
+    "tldr": "机器人手的设计和功能是机器人技术中的最大挑战之一，解决这个问题将引领进入一个新的改进时代。",
+    "en_tdlr": "The design and functionality of robot hands are one of the biggest challenges in robotics, solving this problem will lead us into a new era of improvement."
+}

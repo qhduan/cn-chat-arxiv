@@ -1,0 +1,10 @@
+{
+    "title": "Teacher-Student Knowledge Distillation for Radar Perception on Embedded Accelerators. (arXiv:2303.07586v1 [cs.AI])",
+    "abstract": "Many radar signal processing methodologies are being developed for critical road safety perception tasks. Unfortunately, these signal processing algorithms are often poorly suited to run on embedded hardware accelerators used in automobiles. Conversely, end-to-end machine learning (ML) approaches better exploit the performance gains brought by specialized accelerators. In this paper, we propose a teacher-student knowledge distillation approach for low-level radar perception tasks. We utilize a hybrid model for stationary object detection as a teacher to train an end-to-end ML student model. The student can efficiently harness embedded compute for real-time deployment. We demonstrate that the proposed student model runs at speeds 100x faster than the teacher model.",
+    "link": "http://arxiv.org/abs/2303.07586",
+    "total_tokens": 736,
+    "translated_title": "基于嵌入式加速器的雷达感知的师生知识蒸馏",
+    "translated_abstract": "目前许多用于道路安全感知的雷达信号处理方法都无法很好地运行在用于汽车的嵌入式硬件加速器上。相反，端到端的机器学习方法更好地利用了专门加速器所带来的性能提升。在本文中，我们提出了一种用于低级别雷达感知任务的师生知识蒸馏方法。我们利用用于静态目标检测的混合模型作为教师，来训练端到端的机器学习学生模型。该学生模型可以高效地利用嵌入式计算进行实时部署。我们证明了所提出的学生模型比教师模型快100倍。",
+    "tldr": "本文提出一种基于师生知识蒸馏的方法，用于低级别雷达感知任务，并成功实现嵌入式计算的实时部署，速度达到教师模型的100倍。",
+    "en_tdlr": "This paper proposes a teacher-student knowledge distillation method for low-level radar perception tasks, and successfully achieves real-time deployment using embedded computing, with a speed 100 times faster than the teacher model."
+}

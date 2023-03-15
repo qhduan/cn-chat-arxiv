@@ -1,0 +1,10 @@
+{
+    "title": "SceneRF: Self-Supervised Monocular 3D Scene Reconstruction with Radiance Fields. (arXiv:2212.02501v3 [cs.CV] UPDATED)",
+    "abstract": "3D reconstruction from 2D image was extensively studied, training with depth supervision. To relax the dependence to costly-acquired datasets, we propose SceneRF, a self-supervised monocular scene reconstruction method using only posed image sequences for training. Fueled by the recent progress in neural radiance fields (NeRF) we optimize a radiance field though with explicit depth optimization and a novel probabilistic sampling strategy to efficiently handle large scenes. At inference, a single input image suffices to hallucinate novel depth views which are fused together to obtain 3D scene reconstruction. Thorough experiments demonstrate that we outperform all recent baselines for novel depth views synthesis and scene reconstruction, on indoor BundleFusion and outdoor SemanticKITTI. Our code is available at https://astra-vision.github.io/SceneRF.",
+    "link": "http://arxiv.org/abs/2212.02501",
+    "total_tokens": 927,
+    "translated_title": "SceneRF: 利用辐射场的自监督单目3D场景重建",
+    "translated_abstract": "二维图像三维重建的研究已经得到广泛关注，通常需要使用深度监督来进行训练。为了减少对昂贵数据集的依赖，我们提出了SceneRF方法，这是一种完全基于图像序列进行训练的自监督单目场景重建方法。基于最新的神经辐射场技术(NeRF)，我们优化了一个辐射场，并采用了显式深度优化和新颖的概率采样策略来有效处理大场景。在推理阶段，只需输入单个图像即可生成新的深度视图，并将其融合在一起以获得3D场景重建。全面的实验结果表明，我们在室内BundleFusion和室外SemanticKITTI场景下，性能优于最近的所有基线，能够更好地进行新视角深度合成和场景重建。我们的代码可在https://astra-vision.github.io/SceneRF上获得。",
+    "tldr": "SceneRF利用自监督学习结合NeRF的辐射场技术，无需深度监督，只需使用图像序列训练，可以高效处理大场景，能够生成新的深度视图并进行3D场景重建，性能在室内外场景中优于所有基线方法。",
+    "en_tdlr": "SceneRF is a self-supervised monocular scene reconstruction method that uses neural radiance fields (NeRF) and does not require depth supervision. It can efficiently handle large scenes with only posed image sequences for training, and can synthesize novel depth views and perform 3D scene reconstruction with a single input image at inference. It outperforms recent baselines for novel depth views synthesis and scene reconstruction in both indoor BundleFusion and outdoor SemanticKITTI scenes."
+}

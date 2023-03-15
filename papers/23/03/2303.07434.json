@@ -1,0 +1,10 @@
+{
+    "title": "Discovering Multiple Algorithm Configurations. (arXiv:2303.07434v1 [cs.AI])",
+    "abstract": "Many practitioners in robotics regularly depend on classic, hand-designed algorithms. Often the performance of these algorithms is tuned across a dataset of annotated examples which represent typical deployment conditions. Automatic tuning of these settings is traditionally known as algorithm configuration. In this work, we extend algorithm configuration to automatically discover multiple modes in the tuning dataset. Unlike prior work, these configuration modes represent multiple dataset instances and are detected automatically during the course of optimization. We propose three methods for mode discovery: a post hoc method, a multi-stage method, and an online algorithm using a multi-armed bandit. Our results characterize these methods on synthetic test functions and in multiple robotics application domains: stereoscopic depth estimation, differentiable rendering, motion planning, and visual odometry. We show the clear benefits of detecting multiple modes in algorithm configuration spa",
+    "link": "http://arxiv.org/abs/2303.07434",
+    "total_tokens": 798,
+    "translated_title": "多算法配置的发现",
+    "translated_abstract": "许多机器人从业者经常依赖经典的手工设计算法。这些算法的性能通常通过调整一组包含典型部署条件的注释示例来优化。这种设置的自动调整称为算法配置。在本文中，我们将算法配置扩展到自动发现调整数据集中的多个模式。不同于现有的工作，这些配置模式代表多个数据集实例，并在优化过程中自动检测。我们提出了三种模式发现方法：后处理方法、多阶段方法和使用多臂赌博机的在线算法。我们在多个机器人应用领域（如立体深度估计、可微分渲染、运动规划和视觉测距）中对这些方法进行测试，并在合成测试函数上进行比较。我们展示了在算法配置中检测到多个模式的明显益处。",
+    "tldr": "本文扩展了算法配置以自动发现数据集中的多个模式，这些模式代表多个数据集实例，并在优化过程中自动检测。这对于多个机器人应用领域中的算法配置具有明显的益处。",
+    "en_tdlr": "The paper extends algorithm configuration to automatically discover multiple modes in the tuning dataset, which represent multiple dataset instances and are detected automatically during the course of optimization. This has clear benefits for algorithm configuration across multiple robotics application domains."
+}

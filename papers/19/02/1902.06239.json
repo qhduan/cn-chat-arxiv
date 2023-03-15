@@ -1,0 +1,10 @@
+{
+    "title": "A new Potential-Based Reward Shaping for Reinforcement Learning Agent. (arXiv:1902.06239v3 [cs.AI] UPDATED)",
+    "abstract": "Potential-based reward shaping (PBRS) is a particular category of machine learning methods which aims to improve the learning speed of a reinforcement learning agent by extracting and utilizing extra knowledge while performing a task. There are two steps in the process of transfer learning: extracting knowledge from previously learned tasks and transferring that knowledge to use it in a target task. The latter step is well discussed in the literature with various methods being proposed for it, while the former has been explored less. With this in mind, the type of knowledge that is transmitted is very important and can lead to considerable improvement. Among the literature of both the transfer learning and the potential-based reward shaping, a subject that has never been addressed is the knowledge gathered during the learning process itself. In this paper, we presented a novel potential-based reward shaping method that attempted to extract knowledge from the learning process. The propo",
+    "link": "http://arxiv.org/abs/1902.06239",
+    "total_tokens": 848,
+    "translated_title": "基于潜力的奖赏设计用于强化学习智能体的新模式",
+    "translated_abstract": "基于潜力的奖励设计（PBRS）是一类机器学习方法，旨在提高强化学习智能体在执行任务时利用额外知识的学习速度。其中，传递学习中先前学习任务中提取知识并将其迁移到目标任务中的是其中一个重要的步骤。在这项任务中收集到的知识对性能的提升起到了至关重要的作用。本文提出了一种基于历史经验的奖赏设计方法，通过利用先前的学习经验，利用任务无关性知识来增强强化学习智能体的任务特定奖励功能。",
+    "tldr": "本论文提出了一种新的基于历史经验的奖赏设计方法，旨在提高强化学习智能体的性能，该方法具有广泛的应用前景。",
+    "en_tdlr": "This paper proposes a novel method for potential-based reward shaping, called Learning from Experience Reward Shaping (LERS), which aims to improve the performance of reinforcement learning agents by utilizing task-independent knowledge gathered from the learning experience, showing significant improvements over traditional PBRS methods."
+}

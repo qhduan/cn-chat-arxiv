@@ -1,0 +1,10 @@
+{
+    "title": "A Diffusion Model Predicts 3D Shapes from 2D Microscopy Images. (arXiv:2208.14125v3 [cs.CV] UPDATED)",
+    "abstract": "Diffusion models are a special type of generative model, capable of synthesising new data from a learnt distribution. We introduce DISPR, a diffusion-based model for solving the inverse problem of three-dimensional (3D) cell shape prediction from two-dimensional (2D) single cell microscopy images. Using the 2D microscopy image as a prior, DISPR is conditioned to predict realistic 3D shape reconstructions. To showcase the applicability of DISPR as a data augmentation tool in a feature-based single cell classification task, we extract morphological features from the red blood cells grouped into six highly imbalanced classes. Adding features from the DISPR predictions to the three minority classes improved the macro F1 score from $F1_\\text{macro} = 55.2 \\pm 4.6\\%$ to $F1_\\text{macro} = 72.2 \\pm 4.9\\%$. We thus demonstrate that diffusion models can be successfully applied to inverse biomedical problems, and that they learn to reconstruct 3D shapes with realistic morphological features from",
+    "link": "http://arxiv.org/abs/2208.14125",
+    "total_tokens": 989,
+    "translated_title": "一种扩散模型预测2D显微图像中的3D细胞形状",
+    "translated_abstract": "扩散模型是一种特定类型的生成模型，能够从学习的分布中合成新数据。我们介绍了一种基于扩散的模型DISPR，用于解决从二维单个细胞显微图像预测三维细胞形状的反问题。利用二维显微图像作为先验条件，DISPR被调整为预测逼真的三维形状重建。我们从六个高度不平衡的类别中提取形态学特征，展示了DISPR作为数据增强工具在基于特征的单个细胞分类任务中的适用性。将DISPR预测的特征添加到三个少数类中，将宏F1得分从$F1_{macro}=55.2\\pm4.6\\%$提高到$F1_{macro}=72.2\\pm4.9\\%$。因此，我们证明了扩散模型可以成功应用于反生物医学问题，并且它们能够学习从2D显微图像中重建具有逼真形态学特征的3D形状。",
+    "tldr": "该论文介绍了一种基于扩散模型的方法，用于从2D显微图像中预测真实的3D单个细胞形状。该方法被成功应用于单个细胞分类任务。该模型学习从2D显微镜图像中重建具有逼真形态学特征的3D形状。",
+    "en_tdlr": "This paper presents a diffusion-based method for predicting the real 3D single cell shape from 2D microscopy images. The method is successfully applied to a single cell classification task. The model learns to reconstruct 3D shapes with realistic morphological features from 2D microscopy images."
+}

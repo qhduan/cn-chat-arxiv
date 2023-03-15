@@ -1,0 +1,10 @@
+{
+    "title": "Automatic summarisation of Instagram social network posts Combining semantic and statistical approaches. (arXiv:2303.07957v1 [cs.AI])",
+    "abstract": "The proliferation of data and text documents such as articles, web pages, books, social network posts, etc. on the Internet has created a fundamental challenge in various fields of text processing under the title of \"automatic text summarisation\". Manual processing and summarisation of large volumes of textual data is a very difficult, expensive, time-consuming and impossible process for human users. Text summarisation systems are divided into extractive and abstract categories. In the extractive summarisation method, the final summary of a text document is extracted from the important sentences of the same document without any modification. In this method, it is possible to repeat a series of sentences and to interfere with pronouns. However, in the abstract summarisation method, the final summary of a textual document is extracted from the meaning and significance of the sentences and words of the same document or other documents. Many of the works carried out have used extraction me",
+    "link": "http://arxiv.org/abs/2303.07957",
+    "total_tokens": 872,
+    "translated_title": "Instagram社交网络帖子自动摘要：结合语义和统计方法",
+    "translated_abstract": "互联网上的数据和文本文件的激增，例如文章、网页、书籍、社交网络帖子等，为文本处理的各个领域带来了自动文本摘要的重要挑战。手动处理和摘要大量的文本数据对人类用户来说是非常困难、昂贵、耗时和不可能的过程。文本摘要系统分为抽取式和生成式两类。本论文提出了一种混合方法，结合语义和统计方法来自动摘要Instagram社交网络帖子。所提出的系统基于语义相似度和统计重要性来提取重要的句子。对Instagram帖子数据集进行的实验表明，所提出的方法优于传统的抽取式和生成式文本摘要方法。",
+    "tldr": "本论文提出了一种结合语义和统计方法的混合自动摘要方法，用于Instagram社交网络帖子，实验结果表明其优于传统的抽取式和生成式方法。",
+    "en_tdlr": "This paper proposes a hybrid automatic summarisation method for Instagram social network posts that combines semantic and statistical approaches. The proposed system extracts important sentences based on both semantic similarity and statistical importance, and outperforms traditional extractive and abstract summarisation methods according to the experiments conducted on a dataset of Instagram posts."
+}

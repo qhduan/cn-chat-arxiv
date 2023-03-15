@@ -1,0 +1,10 @@
+{
+    "title": "Meta-learning approaches for few-shot learning: A survey of recent advances. (arXiv:2303.07502v1 [cs.LG])",
+    "abstract": "Despite its astounding success in learning deeper multi-dimensional data, the performance of deep learning declines on new unseen tasks mainly due to its focus on same-distribution prediction. Moreover, deep learning is notorious for poor generalization from few samples. Meta-learning is a promising approach that addresses these issues by adapting to new tasks with few-shot datasets. This survey first briefly introduces meta-learning and then investigates state-of-the-art meta-learning methods and recent advances in: (I) metric-based, (II) memory-based, (III), and learning-based methods. Finally, current challenges and insights for future researches are discussed.",
+    "link": "http://arxiv.org/abs/2303.07502",
+    "total_tokens": 698,
+    "translated_title": "元学习法在小样本学习中的应用：近期进展综述",
+    "translated_abstract": "尽管深度学习在学习多维数据方面取得了惊人的成功，但由于其专注于同分布预测，导致其在新的未见任务上表现不佳。此外，深度学习因样本不足而通常表现不佳。元学习是一种有前途的方法，可以通过适应少量样本数据来解决这些问题。本综述首先简要介绍了元学习，然后调查了最先进的元学习方法以及(I) 基于度量的、(II) 基于记忆的、(III) 和基于学习的方法的最新技术进展。最后，讨论了当前的挑战和未来研究的见解。",
+    "tldr": "本文综述了元学习在小样本学习中的应用，调查了最先进的方法，并讨论了当前挑战和未来研究方向。",
+    "en_tdlr": "This survey explores the applications of meta-learning in few-shot learning, investigates state-of-the-art methods, and discusses current challenges and future research directions."
+}

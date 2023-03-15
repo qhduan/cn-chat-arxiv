@@ -1,0 +1,10 @@
+{
+    "title": "Victoria Amazonica Optimization (VAO): An Algorithm Inspired by the Giant Water Lily Plant. (arXiv:2303.08070v1 [cs.NE])",
+    "abstract": "The Victoria Amazonica plant, often known as the Giant Water Lily, has the largest floating spherical leaf in the world, with a maximum leaf diameter of 3 meters. It spreads its leaves by the force of its spines and creates a large shadow underneath, killing any plants that require sunlight. These water tyrants use their formidable spines to compel each other to the surface and increase their strength to grab more space from the surface. As they spread throughout the pond or basin, with the earliest-growing leaves having more room to grow, each leaf gains a unique size. Its flowers are transsexual and when they bloom, Cyclocephala beetles are responsible for the pollination process, being attracted to the scent of the female flower. After entering the flower, the beetle becomes covered with pollen and transfers it to another flower for fertilization. After the beetle leaves, the flower turns into a male and changes color from white to pink. The male flower dies and sinks into the water",
+    "link": "http://arxiv.org/abs/2303.08070",
+    "total_tokens": 965,
+    "translated_title": "维多利亚亚马逊优化（VAO）:受巨型睡莲植物启示的算法",
+    "translated_abstract": "维多利亚亚马逊植物，通常称为巨型睡莲，拥有世界上直径最大的漂浮球形叶片，最大直径可达3米。它通过刺的力量展开叶子，在其下面形成大片阴影，扼杀需要阳光的任何植物。这些水中霸主用它们强大的刺迫使彼此升至水面并增强它们占据水面的能力。随着它们在池塘或盆地中的扩散，早期生长的叶子有更多的生长空间，每片叶子都获得了一个独特的大小。它的花是隐蔽雄性的，当它们开放时，Cyclocephala甲虫负责授粉过程，被女花的气味所吸引。甲虫进入花后，被花粉覆盖，将其转移到另一朵花上进行受精。甲虫离开后，花变成了雄花，颜色从白色变成了粉色。雄花死亡并沉入水中。",
+    "tldr": "基于维多利亚亚马逊植物的特点，提出一种维多利亚亚马逊优化（VAO）算法，该算法适用于占领更多表面空间的问题，并可用于优化问题的求解。",
+    "en_tdlr": "Inspired by the characteristics of Victoria Amazonica, a Victoria Amazonica Optimization (VAO) algorithm is proposed, which is applicable to problems of occupying more surface space and can be used for solving optimization problems."
+}

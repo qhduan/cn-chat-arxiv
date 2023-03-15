@@ -1,0 +1,12 @@
+{
+    "title": "Partial Neural Optimal Transport. (arXiv:2303.07988v1 [cs.LG])",
+    "abstract": "We propose a novel neural method to compute partial optimal transport (OT) maps, i.e., OT maps between parts of measures of the specified masses. We test our partial neural optimal transport algorithm on synthetic examples.",
+    "link": "http://arxiv.org/abs/2303.07988",
+    "context": "Title: Partial Neural Optimal Transport. (arXiv:2303.07988v1 [cs.LG])\nAbstract: We propose a novel neural method to compute partial optimal transport (OT) maps, i.e., OT maps between parts of measures of the specified masses. We test our partial neural optimal transport algorithm on synthetic examples.",
+    "path": "papers/23/03/2303.07988.json",
+    "total_tokens": 445,
+    "translated_title": "部分神经最优输运",
+    "translated_abstract": "我们提出了一种新颖的神经方法来计算部分最优输运（OT）映射，即指定质量的度量部分之间的OT映射。我们在合成例子上测试了我们的部分神经最优输运算法。",
+    "tldr": "我们提出了一种新的神经方法来计算部分最优输运映射，并在合成例子上进行了测试。",
+    "en_tdlr": "We propose a novel neural method to compute partial optimal transport maps, and test our algorithm on synthetic examples."
+}

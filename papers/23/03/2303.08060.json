@@ -1,0 +1,8 @@
+{
+    "title": "Beyond Games: A Systematic Review of Neural Monte Carlo Tree Search Applications. (arXiv:2303.08060v1 [cs.AI])",
+    "abstract": "The advent of AlphaGo and its successors marked the beginning of a new paradigm in playing games using artificial intelligence. This was achieved by combining Monte Carlo tree search, a planning procedure, and deep learning. While the impact on the domain of games has been undeniable, it is less clear how useful similar approaches are in applications beyond games and how they need to be adapted from the original methodology. We review 129 peer-reviewed articles detailing the application of neural Monte Carlo tree search methods in domains other than games. Our goal is to systematically assess how such methods are structured in practice and if their success can be extended to other domains. We find applications in a variety of domains, many distinct ways of guiding the tree search using learned policy and value functions, and various training methods. Our review maps the current landscape of algorithms in the family of neural monte carlo tree search as they are applied to practical prob",
+    "link": "http://arxiv.org/abs/2303.08060",
+    "total_tokens": 893,
+    "tldr": "本综述调查了129篇论文的神经蒙特卡罗树搜索的应用，证明了这种方法不仅在游戏中成功，在其他领域也很有应用潜力。",
+    "en_tdlr": "This systematic review of 129 peer-reviewed articles on the application of neural Monte Carlo tree search methods finds potential for success not only in game domains but also in various other practical applications."
+}

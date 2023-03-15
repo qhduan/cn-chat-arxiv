@@ -1,0 +1,10 @@
+{
+    "title": "Grad-StyleSpeech: Any-speaker Adaptive Text-to-Speech Synthesis with Diffusion Models. (arXiv:2211.09383v2 [eess.AS] UPDATED)",
+    "abstract": "There has been a significant progress in Text-To-Speech (TTS) synthesis technology in recent years, thanks to the advancement in neural generative modeling. However, existing methods on any-speaker adaptive TTS have achieved unsatisfactory performance, due to their suboptimal accuracy in mimicking the target speakers' styles. In this work, we present Grad-StyleSpeech, which is an any-speaker adaptive TTS framework that is based on a diffusion model that can generate highly natural speech with extremely high similarity to target speakers' voice, given a few seconds of reference speech. Grad-StyleSpeech significantly outperforms recent speaker-adaptive TTS baselines on English benchmarks. Audio samples are available at https://nardien.github.io/grad-stylespeech-demo.",
+    "link": "http://arxiv.org/abs/2211.09383",
+    "total_tokens": 771,
+    "translated_title": "Grad-StyleSpeech: 基于扩散模型的任意发言人自适应语音合成技术",
+    "translated_abstract": "近年来，基于神经生成模型的文本转语音合成技术取得了重大进展，但是现有的任意发言人自适应TTS方法由于在模拟目标说话人的风格方面的准确度不佳而表现出不尽人意的性能。本文提出了基于扩散模型的Grad-StyleSpeech框架，可以在给定几秒钟的参考语音情况下，生成非常自然且与目标说话人的声音极其相似的语音。Grad-StyleSpeech在英语基准测试上明显优于最近的说话者自适应TTS基线。声音样例可在https://nardien.github.io/grad-stylespeech-demo上获得。",
+    "tldr": "Grad-StyleSpeech基于扩散模型，可以实现任意发言人自适应语音合成，准确模拟目标说话人的风格，性能显著优于现有方法。",
+    "en_tdlr": "Grad-StyleSpeech is an any-speaker adaptive TTS framework based on diffusion models, which can generate highly natural speech with extremely high similarity to target speakers' voice. It significantly outperforms recent speaker-adaptive TTS baselines on English benchmarks."
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Decision Making for Human-in-the-loop Robotic Agents via Uncertainty-Aware Reinforcement Learning. (arXiv:2303.06710v2 [cs.RO] UPDATED)",
+    "abstract": "In a Human-in-the-Loop paradigm, a robotic agent is able to act mostly autonomously in solving a task, but can request help from an external expert when needed. However, knowing when to request such assistance is critical: too few requests can lead to the robot making mistakes, but too many requests can overload the expert. In this paper, we present a Reinforcement Learning based approach to this problem, where a semi-autonomous agent asks for external assistance when it has low confidence in the eventual success of the task. The confidence level is computed by estimating the variance of the return from the current state. We show that this estimate can be iteratively improved during training using a Bellman-like recursion. On discrete navigation problems with both fully- and partially-observable state information, we show that our method makes effective use of a limited budget of expert calls at run-time, despite having no access to the expert at training time.",
+    "link": "http://arxiv.org/abs/2303.06710",
+    "total_tokens": 874,
+    "translated_title": "通过不确定性感知的强化学习，为人-机协同机器人智能决策提供方法",
+    "translated_abstract": "在人-机协同范式中，机器人智能代理能够在大部分时间内自主完成任务，当需要帮助时，可以向外部专家寻求帮助。然而，关键是要知道何时请求外部帮助：太少的请求会导致机器人犯错，但太多的请求会使专家过载。本文提出了一种基于强化学习的方法来解决这个问题，其中半自主代理在对任务成功结果的信心低时请求外部帮助。置信度是通过估计当前状态的回报方差来计算的。我们展示了这个估计可以通过类似贝尔曼递归的训练过程逐步改进。在具有完全和部分可观察状态信息的离散导航问题中，我们展示了我们的方法在运行时利用有限的专家调用预算时是有效的，尽管在训练时没有访问专家。",
+    "tldr": "该论文提出了一种基于强化学习的半自主代理机器人方法，在对任务成功结果的信心低时请求外部帮助，有效降低专家调用数量。",
+    "en_tdlr": "This paper proposes a Reinforcement Learning based approach for human-machine collaborative robots to make intelligent decisions, where a semi-autonomous agent requests external assistance when it has low confidence in the eventual success of the task, effectively reducing the number of expert calls."
+}

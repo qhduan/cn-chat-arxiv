@@ -1,0 +1,10 @@
+{
+    "title": "Improving Prosody for Cross-Speaker Style Transfer by Semi-Supervised Style Extractor and Hierarchical Modeling in Speech Synthesis. (arXiv:2303.07711v1 [cs.SD])",
+    "abstract": "Cross-speaker style transfer in speech synthesis aims at transferring a style from source speaker to synthesized speech of a target speaker's timbre. In most previous methods, the synthesized fine-grained prosody features often represent the source speaker's average style, similar to the one-to-many problem(i.e., multiple prosody variations correspond to the same text). In response to this problem, a strength-controlled semi-supervised style extractor is proposed to disentangle the style from content and timbre, improving the representation and interpretability of the global style embedding, which can alleviate the one-to-many mapping and data imbalance problems in prosody prediction. A hierarchical prosody predictor is proposed to improve prosody modeling. We find that better style transfer can be achieved by using the source speaker's prosody features that are easily predicted. Additionally, a speaker-transfer-wise cycle consistency loss is proposed to assist the model in learning un",
+    "link": "http://arxiv.org/abs/2303.07711",
+    "total_tokens": 941,
+    "translated_title": "通过半监督风格提取器和分层建模改进音频跨发言人风格转移的韵律",
+    "translated_abstract": "在语音合成中，跨发言人风格转移旨在将源发言人的风格转移到目标发言人音色的合成语音中。在大多数方法中，合成的细粒度韵律特征通常表示源发言人的平均风格，类似于一对多问题（即，多个韵律变化对应于同一文本）。为了解决这个问题，提出了一种强度受控的半监督风格提取器，以解开风格与内容和音色之间的联系，改善全局风格嵌入的表示和可解释性，这可以缓解韵律预测中的一对多映射和数据不平衡问题。提出了一种分层韵律预测器来改善韵律建模。我们发现，使用易于预测的源发言人韵律特征可以实现更好的风格转移。此外，提出了一种讲话人间循环一致性损失，以帮助模型学习未观察到的目标说话者的特征。",
+    "tldr": "该论文提出了强度受控的半监督风格提取器以及分层韵律预测器来改善音频跨发言人风格转移中的韵律问题，解除了一对多映射和数据不平衡问题。",
+    "en_tdlr": "This paper proposes a strength-controlled semi-supervised style extractor and a hierarchical prosody predictor to improve the prosody problem in cross-speaker style transfer in speech synthesis, relieving one-to-many mapping and data imbalance problems."
+}

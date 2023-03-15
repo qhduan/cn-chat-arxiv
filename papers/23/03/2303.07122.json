@@ -1,0 +1,10 @@
+{
+    "title": "Quantifying Causes of Arctic Amplification via Deep Learning based Time-series Causal Inference. (arXiv:2303.07122v2 [cs.AI] UPDATED)",
+    "abstract": "The warming of the Arctic, also known as Arctic amplification, is led by several atmospheric and oceanic drivers, however, the details of its underlying thermodynamic causes are still unknown. Inferring the causal effects of atmospheric processes on sea ice melt using fixed treatment effect strategies leads to unrealistic counterfactual estimations. Such models are also prone to bias due to time-varying confoundedness. In order to tackle these challenges, we propose TCINet - time-series causal inference model to infer causation under continuous treatment using recurrent neural networks. Through experiments on synthetic and observational data, we show how our research can substantially improve the ability to quantify the leading causes of Arctic sea ice melt.",
+    "link": "http://arxiv.org/abs/2303.07122",
+    "total_tokens": 828,
+    "translated_title": "基于深度学习的时间序列因果推断量化北极放大的原因",
+    "translated_abstract": "北极变暖，也称北极放大，由多种大气和海洋因素导致，但其基础热力因素的详细情况仍不清楚。使用固定治疗效应策略推断大气过程对海冰融化的因果效应会导致不现实的反事实估计。这样的模型也容易受到时间变化的混淆的影响而引起偏差。为了解决这些挑战，我们提出了TCINet - 一种基于循环神经网络的时间序列因果推断模型，以连续治疗方式推断因果关系。通过对合成和观测数据的实验，我们展示了我们的研究如何大大提高量化北极海冰融化的主要原因的能力。",
+    "tldr": "该研究提出了一种基于循环神经网络的时间序列因果推断模型TCINet，用于推断大气过程对海冰融化的因果效应。通过实验证明，该模型能够显著提高量化北极海冰融化的主要原因的能力。",
+    "en_tdlr": "This study proposes a time-series causal inference model, TCINet, based on recurrent neural networks, to infer the causal effects of atmospheric processes on Arctic sea ice melt. Experimental results show that the proposed model substantially improves the ability to quantify the leading causes of Arctic amplification."
+}

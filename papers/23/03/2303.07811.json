@@ -1,0 +1,10 @@
+{
+    "title": "ICICLE: Interpretable Class Incremental Continual Learning. (arXiv:2303.07811v1 [cs.LG])",
+    "abstract": "Continual learning enables incremental learning of new tasks without forgetting those previously learned, resulting in positive knowledge transfer that can enhance performance on both new and old tasks. However, continual learning poses new challenges for interpretability, as the rationale behind model predictions may change over time, leading to interpretability concept drift. We address this problem by proposing Interpretable Class-InCremental LEarning (ICICLE), an exemplar-free approach that adopts a prototypical part-based approach. It consists of three crucial novelties: interpretability regularization that distills previously learned concepts while preserving user-friendly positive reasoning; proximity-based prototype initialization strategy dedicated to the fine-grained setting; and task-recency bias compensation devoted to prototypical parts. Our experimental results demonstrate that ICICLE reduces the interpretability concept drift and outperforms the existing exemplar-free me",
+    "link": "http://arxiv.org/abs/2303.07811",
+    "total_tokens": 855,
+    "translated_title": "ICICLE: 可解释的类增量连续学习方法",
+    "translated_abstract": "连续学习能够增量学习新任务而不忘记之前学习的内容，从而促进新旧任务之间的正向知识转移。然而，连续学习对解释性提出了新的挑战，因为模型预测背后的原理可能会随着时间而改变，导致解释性概念漂移。本文通过提出基于样本的 Interpretable Class-InCremental LEarning (ICICLE) 方法，采用原型部分化方法，解决了这个问题。它包括三个关键的创新点：解释性正则化、以微粒粒度为基础的原型初始化策略以及针对原型部分的任务时效偏差补偿。我们的实验结果表明，ICICLE减少了解释性概念漂移，并且在不需要样本的情况下表现优于现有的方法。",
+    "tldr": "ICICLE提出了一种基于样本的可解释的类增量连续学习方法，通过采用原型部分化方法来解决解释性概念漂移的问题，实验结果表明其在不需要样本的情况下表现优于现有的方法。",
+    "en_tdlr": "ICICLE proposes an exemplar-free approach called Interpretable Class-InCremental LEarning (ICICLE) to address the problem of interpretability concept drift in continual learning, with three crucial novelties: interpretability regularization, proximity-based prototype initialization strategy, and task-recency bias compensation. Experimental results show that ICICLE outperforms existing exemplar-free methods."
+}

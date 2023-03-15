@@ -1,0 +1,10 @@
+{
+    "title": "Augmenting Softmax Information for Selective Classification with Out-of-Distribution Data. (arXiv:2207.07506v3 [cs.LG] UPDATED)",
+    "abstract": "Detecting out-of-distribution (OOD) data is a task that is receiving an increasing amount of research attention in the domain of deep learning for computer vision. However, the performance of detection methods is generally evaluated on the task in isolation, rather than also considering potential downstream tasks in tandem. In this work, we examine selective classification in the presence of OOD data (SCOD). That is to say, the motivation for detecting OOD samples is to reject them so their impact on the quality of predictions is reduced. We show under this task specification, that existing post-hoc methods perform quite differently compared to when evaluated only on OOD detection. This is because it is no longer an issue to conflate in-distribution (ID) data with OOD data if the ID data is going to be misclassified. However, the conflation within ID data of correct and incorrect predictions becomes undesirable. We also propose a novel method for SCOD, Softmax Information Retaining Com",
+    "link": "http://arxiv.org/abs/2207.07506",
+    "total_tokens": 877,
+    "translated_title": "支持选择性分类的softmax信息拓展算法",
+    "translated_abstract": "在深度学习计算机视觉领域中，检测外部分布数据是一项正在受到越来越多研究关注的任务。然而，检测方法的性能通常是在任务中单独评估的，而不是考虑其在联合下游任务时的潜在影响。在本文中，我们研究了存在外部分布数据时的选择性分类(SCOD)问题。也就是说，检测OOD样本的动机在于拒绝它们，从而降低它们对预测质量的影响。我们发现，在这个任务规定下，现有的后处理方法和只在OOD检测时评估时相比，表现出了不同的性能。因为如果ID数据被错误分类，将ID数据与OOD数据混淆就不再是一个问题。然而，在ID数据中正确预测和错误预测之间的混淆是不可取的。我们还提出了一种新的SCOD方法，即保留softmax信息",
+    "tldr": "本文研究了存在外部分布数据时的选择性分类问题，提出了一种新的SCOD方法，即保留softmax信息，并发现现有的检测方法评价标准需根据任务规定进行调整。",
+    "en_tdlr": "This paper proposes a new method for selective classification in the presence of out-of-distribution data, which retains softmax information. It also highlights the need to adjust evaluation standards based on the task specifications and shows that existing detection methods perform differently under the task of selective classification."
+}

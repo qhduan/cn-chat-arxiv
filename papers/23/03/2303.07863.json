@@ -1,0 +1,10 @@
+{
+    "title": "You Can Ground Earlier than See: An Effective and Efficient Pipeline for Temporal Sentence Grounding in Compressed Videos. (arXiv:2303.07863v1 [cs.CV])",
+    "abstract": "Given an untrimmed video, temporal sentence grounding (TSG) aims to locate a target moment semantically according to a sentence query. Although previous respectable works have made decent success, they only focus on high-level visual features extracted from the consecutive decoded frames and fail to handle the compressed videos for query modelling, suffering from insufficient representation capability and significant computational complexity during training and testing. In this paper, we pose a new setting, compressed-domain TSG, which directly utilizes compressed videos rather than fully-decompressed frames as the visual input. To handle the raw video bit-stream input, we propose a novel Three-branch Compressed-domain Spatial-temporal Fusion (TCSF) framework, which extracts and aggregates three kinds of low-level visual features (I-frame, motion vector and residual features) for effective and efficient grounding. Particularly, instead of encoding the whole decoded frames like previous",
+    "link": "http://arxiv.org/abs/2303.07863",
+    "total_tokens": 877,
+    "translated_title": "一种针对压缩视频的时间句子对齐的有效和高效管道",
+    "translated_abstract": "时间句子对齐旨在根据句子查询通过语义定位目标瞬间。在本文中，我们提出了一种新的压缩域TSG（Temporal Sentence Grounding）设置，直接使用压缩视频作为视觉输入。针对原始视频比特流输入，我们提出了一种新型三支路压缩空间时间融合框架（TCSF），用于有效且高效地定位。我们通过利用压缩伪影来增强视觉特征的表示能力，提出了一种直接编码压缩位流的方法，而不是先解码整个帧的方法。在两个基准数据集上的实验结果表明，我们的方法在效果和效率方面优于目前最先进的方法。",
+    "tldr": "本文提出了一种新的压缩域TSG设置，通过直接编码压缩位流来增强视觉特征表示能力和提高时间句子对齐的效率，并且在两个基准数据集的实验中表现优于目前最先进的方法。",
+    "en_tdlr": "This paper proposes a new compressed-domain TSG setting and directly encodes the compressed bit-stream to enhance the representation capability of visual features and improve the efficiency of temporal sentence grounding. Experimental results on two benchmark datasets show the superiority of the proposed method against state-of-the-art methods."
+}

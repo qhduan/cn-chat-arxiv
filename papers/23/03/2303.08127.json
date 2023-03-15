@@ -1,0 +1,10 @@
+{
+    "title": "CB2: Collaborative Natural Language Interaction Research Platform. (arXiv:2303.08127v1 [cs.LG])",
+    "abstract": "CB2 is a multi-agent platform to study collaborative natural language interaction in a grounded task-oriented scenario. It includes a 3D game environment, a backend server designed to serve trained models to human agents, and various tools and processes to enable scalable studies. We deploy CB2 at https://cb2.ai as a system demonstration with a learned instruction following model.",
+    "link": "http://arxiv.org/abs/2303.08127",
+    "total_tokens": 605,
+    "translated_title": "CB2：合作自然语言交互研究平台",
+    "translated_abstract": "CB2 是一个多智能体平台，用于研究基于任务的情境下的合作自然语言交互。它包括一个 3D 游戏环境、一个后端服务器，可为人类智能体提供训练模型，以及各种工具和流程，以实现可扩展性的研究。我们在 https://cb2.ai 上展示了一个具有学习指令跟随模型的系统演示。",
+    "tldr": "CB2是一个用于研究基于任务的合作自然语言交互的平台，在3D游戏环境中提供了后端服务器和各种工具和流程。它在可扩展的研究中展示了学习的指令跟随模型。",
+    "en_tdlr": "CB2 is a platform for studying task-based collaborative natural language interaction, providing a 3D game environment, backend server, and various tools and processes for scalable research. It demonstrates a learned instruction following model."
+}

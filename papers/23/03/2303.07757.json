@@ -1,0 +1,12 @@
+{
+    "title": "Multiway clustering of 3-order tensor via affinity matrix. (arXiv:2303.07757v1 [cs.LG])",
+    "abstract": "We propose a new method of multiway clustering for 3-order tensors via affinity matrix (MCAM). Based on a notion of similarity between the tensor slices and the spread of information of each slice, our model builds an affinity/similarity matrix on which we apply advanced clustering methods. The combination of all clusters of the three modes delivers the desired multiway clustering. Finally, MCAM achieves competitive results compared with other known algorithms on synthetics and real datasets.",
+    "link": "http://arxiv.org/abs/2303.07757",
+    "context": "Title: Multiway clustering of 3-order tensor via affinity matrix. (arXiv:2303.07757v1 [cs.LG])\nAbstract: We propose a new method of multiway clustering for 3-order tensors via affinity matrix (MCAM). Based on a notion of similarity between the tensor slices and the spread of information of each slice, our model builds an affinity/similarity matrix on which we apply advanced clustering methods. The combination of all clusters of the three modes delivers the desired multiway clustering. Finally, MCAM achieves competitive results compared with other known algorithms on synthetics and real datasets.",
+    "path": "papers/23/03/2303.07757.json",
+    "total_tokens": 655,
+    "translated_title": "基于相似矩阵的三阶张量的多路聚类",
+    "translated_abstract": "我们提出了一种新的三阶张量的多路聚类方法，即基于相似矩阵的多路聚类（MCAM）。该模型基于张量切片之间的相似性和每个切片的信息传播，构建一个相似矩阵，并在其上应用先进的聚类方法。三种模式的所有聚类的组合可以实现所需的多路聚类。最后，MCAM在合成数据集和真实数据集上的表现与其他已知算法相当。",
+    "tldr": "本文提出了一种基于相似矩阵的三阶张量多路聚类方法(MCAM)，通过构建相似矩阵并应用先进聚类方法最终实现了多路聚类分析。与其他已知算法相比，MCAM具有竞争优势。",
+    "en_tdlr": "This paper proposes a new method, MCAM, for multiway clustering of 3-order tensors via affinity matrix. It achieves competitive results compared with other known algorithms on synthetics and real datasets."
+}

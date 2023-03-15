@@ -1,0 +1,10 @@
+{
+    "title": "Progress Note Understanding -- Assessment and Plan Reasoning: Overview of the 2022 N2C2 Track 3 Shared Task. (arXiv:2303.08038v1 [cs.AI])",
+    "abstract": "Daily progress notes are common types in the electronic health record (EHR) where healthcare providers document the patient's daily progress and treatment plans. The EHR is designed to document all the care provided to patients, but it also enables note bloat with extraneous information that distracts from the diagnoses and treatment plans. Applications of natural language processing (NLP) in the EHR is a growing field with the majority of methods in information extraction. Few tasks use NLP methods for downstream diagnostic decision support. We introduced the 2022 National NLP Clinical Challenge (N2C2) Track 3: Progress Note Understanding - Assessment and Plan Reasoning as one step towards a new suite of tasks. The Assessment and Plan Reasoning task focuses on the most critical components of progress notes, Assessment and Plan subsections where health problems and diagnoses are contained. The goal of the task was to develop and evaluate NLP systems that automatically predict causal re",
+    "link": "http://arxiv.org/abs/2303.08038",
+    "total_tokens": 952,
+    "translated_title": "进展笔记理解-评估和计划推理：2022 N2C2Track 3共享任务概述",
+    "translated_abstract": "每日进展笔记是电子健康记录（EHR）中常见的类型，医疗保健提供者在其中记录患者的每日进展和治疗计划。 EHR旨在记录为患者提供的所有护理，但它也会使笔记膨胀并包含分散诊断和治疗计划的多余信息。 在EHR中应用自然语言处理（NLP）是一个不断增长的领域，其中大部分方法都用于信息提取。很少有任务使用NLP方法进行下游诊断决策支持。我们介绍了2022年国家自然语言处理临床挑战赛（N2C2）Track 3：进展笔记理解-评估和计划推理，作为新一套任务的一步。 评估和计划推理任务侧重于进展笔记的最关键组成部分，即包含健康问题和诊断的评估和计划子部分。 该任务的目标是开发并评估自动预测评估和计划推理中因果相关概念的NLP系统。",
+    "tldr": "该论文介绍了2022 N2C2临床挑战赛中关于进展笔记理解-评估和计划推理的任务，旨在开发并评估自动预测因果相关概念的NLP系统。",
+    "en_tdlr": "This paper presents the task of Progress Note Understanding - Assessment and Plan Reasoning in the 2022 N2C2 Clinical Challenge, which aims to develop and evaluate NLP systems that automatically predict causal related concepts in Assessment and Plan reasoning."
+}

@@ -1,0 +1,10 @@
+{
+    "title": "DRISHTI: Visual Navigation Assistant for Visually Impaired. (arXiv:2303.07451v1 [cs.HC])",
+    "abstract": "In today's society, where independent living is becoming increasingly important, it can be extremely constricting for those who are blind. Blind and visually impaired (BVI) people face challenges because they need manual support to prompt information about their environment. In this work, we took our first step towards developing an affordable and high-performing eye wearable assistive device, DRISHTI, to provide visual navigation assistance for BVI people. This system comprises a camera module, ESP32 processor, Bluetooth module, smartphone and speakers. Using artificial intelligence, this system is proposed to detect and understand the nature of the users' path and obstacles ahead of the user in that path and then inform BVI users about it via audio output to enable them to acquire directions by themselves on their journey. This first step discussed in this paper involves establishing a proof-of-concept of achieving the right balance of affordability and performance by testing an init",
+    "link": "http://arxiv.org/abs/2303.07451",
+    "total_tokens": 866,
+    "translated_title": "DRISHTI：面向视障人士的视觉导航助手",
+    "translated_abstract": "在当今社会中，独立生活变得越来越重要，但对于盲人而言却十分局限。盲人和视觉障碍者（BVI）需要手动支持来获取环境信息，本文介绍了一个使用人工智能技术的低成本高性能可穿戴辅助设备DRISHTI，它由摄像头模块、ESP32处理器、蓝牙模块、智能手机和扬声器组成，旨在为BVI人士提供视觉导航辅助。该系统能够检测和理解用户路径和路径前方障碍物的大致情况，并通过音频输出告知BVI用户，使他们能够自行获取方向。本文介绍了在一组视觉障碍者身上测试DRISHTI的原型机，以实现经济和性能之间的平衡。",
+    "tldr": "DRISHTI是一个采用人工智能技术的可穿戴设备，可为视障人士提供实用的导航辅助，包括检测和识别用户路径及路径前方障碍物，并通过音频输出告知用户。",
+    "en_tdlr": "DRISHTI is a wearable device that uses artificial intelligence technology to provide practical navigation assistance for visually impaired individuals. It can detect and recognize the user's path and obstacles ahead of the user in that path, and inform the user via audio output."
+}

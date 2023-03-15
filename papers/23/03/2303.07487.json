@@ -1,0 +1,12 @@
+{
+    "title": "Using VAEs to Learn Latent Variables: Observations on Applications in cryo-EM. (arXiv:2303.07487v1 [stat.ML])",
+    "abstract": "Variational autoencoders (VAEs) are a popular generative model used to approximate distributions. The encoder part of the VAE is used in amortized learning of latent variables, producing a latent representation for data samples. Recently, VAEs have been used to characterize physical and biological systems. In this case study, we qualitatively examine the amortization properties of a VAE used in biological applications. We find that in this application the encoder bears a qualitative resemblance to more traditional explicit representation of latent variables.",
+    "link": "http://arxiv.org/abs/2303.07487",
+    "context": "Title: Using VAEs to Learn Latent Variables: Observations on Applications in cryo-EM. (arXiv:2303.07487v1 [stat.ML])\nAbstract: Variational autoencoders (VAEs) are a popular generative model used to approximate distributions. The encoder part of the VAE is used in amortized learning of latent variables, producing a latent representation for data samples. Recently, VAEs have been used to characterize physical and biological systems. In this case study, we qualitatively examine the amortization properties of a VAE used in biological applications. We find that in this application the encoder bears a qualitative resemblance to more traditional explicit representation of latent variables.",
+    "path": "papers/23/03/2303.07487.json",
+    "total_tokens": 654,
+    "translated_title": "使用VAE学习潜在变量：在cryo-EM中的应用观察（arXiv:2303.07487v1 [stat.ML]）",
+    "translated_abstract": "变分自编码器（VAEs）是一种流行的生成模型，用于近似分布。VAE的编码器部分用于认证学习潜在变量，为数据样本生成潜在表示。最近，VAEs已用于表征物理和生物系统。在这个案例研究中，我们定性地研究了VAE在生物应用中的摊销特性。我们发现，在这种应用中，编码器与更传统的显式潜在变量表示具有定性相似性。",
+    "tldr": "本研究通过定性分析，发现VAE在生物应用中摊销潜在变量的特性与传统显式表示方法相似。",
+    "en_tdlr": "This study qualitatively examines the amortization properties of VAE used in biological applications, finding that the encoder bears a qualitative resemblance to more traditional explicit representation of latent variables."
+}

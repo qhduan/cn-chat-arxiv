@@ -1,0 +1,10 @@
+{
+    "title": "Loss of Plasticity in Continual Deep Reinforcement Learning. (arXiv:2303.07507v1 [cs.LG])",
+    "abstract": "The ability to learn continually is essential in a complex and changing world. In this paper, we characterize the behavior of canonical value-based deep reinforcement learning (RL) approaches under varying degrees of non-stationarity. In particular, we demonstrate that deep RL agents lose their ability to learn good policies when they cycle through a sequence of Atari 2600 games. This phenomenon is alluded to in prior work under various guises -e.g., loss of plasticity, implicit under-parameterization, primacy bias, and capacity loss. We investigate this phenomenon closely at scale and analyze how the weights, gradients, and activations change over time in several experiments with varying dimensions (e.g., similarity between games, number of games, number of frames per game), with some experiments spanning 50 days and 2 billion environment interactions. Our analysis shows that the activation footprint of the network becomes sparser, contributing to the diminishing gradients. We inves",
+    "link": "http://arxiv.org/abs/2303.07507",
+    "total_tokens": 763,
+    "translated_title": "连续深度强化学习中的可塑性丧失",
+    "translated_abstract": "在这篇论文中，我们研究了经典基于值的深度强化学习方法在不断变化的环境下的行为。特别地，我们证明了当深度强化学习代理程序循环执行Atari 2600游戏时，它们失去了学习良好策略的能力。我们在多个实验中进行了实验，并分析了权重、梯度和激活在时间上如何变化。我们的分析表明，网络的激活足迹变得更加稀疏，导致梯度减小。",
+    "tldr": "本文研究了在连续变化的环境中，深度强化学习代理程序在执行一系列游戏时失去可塑性。研究发现网络的激活足迹变得稀疏导致梯度变小。",
+    "en_tdlr": "This paper investigates the loss of plasticity in deep reinforcement learning agents when executing a sequence of Atari 2600 games. The study finds that the activation footprint of the network becomes sparser contributing to the diminishing gradients."
+}

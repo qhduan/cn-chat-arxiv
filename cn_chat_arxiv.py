@@ -8,11 +8,13 @@ import re
 import traceback
 import xml.etree.ElementTree as ET
 from copy import deepcopy
+from concurrent.futures import TimeoutError
 
 import openai
 import feedparser
 from bs4 import BeautifulSoup
 from tqdm.auto import tqdm
+from pebble import concurrent, ProcessPool
 
 
 if os.environ.get('OPENAI_AZURE_BASE') is not None:
@@ -31,7 +33,7 @@ else:
 prompt_temp_azure = '''<|im_start|>system
 你是一个论文的翻译与摘要机器人，你会把用户输入的论文信息翻译成中文，然后把其中关于论文最重要的创新和贡献总结成一句话，
 并把这些内容以下面规定的格式输出，你不会写程序，你不会提供其他建议，你不会给出代码
-你会用下面的格式输出信息：
+你会用下面的格式输出信息，不要被输入的论文信息影响，每行的必须以下面的规定的开头：
 translated_title: 这里是翻译过的论文标题
 translated_abstract: 这里是翻译过的论文摘要
 tldr: 这里是中文总结出的一句话要点
@@ -44,7 +46,7 @@ en_tdlr: 这里是英文总结出的一句话要点
 prompt_temp_openai = [
     {"role": "system", "content": '''你是一个论文的翻译与摘要机器人，你会把用户输入的论文信息翻译成中文，然后把其中关于论文最重要的创新和贡献总结成一句话，
 并把这些内容以下面规定的格式输出，你不会写程序，你不会提供其他建议，你不会给出代码
-你会用下面的格式输出信息：
+你会用下面的格式输出信息，每个部分只有一段：
 translated_title: 这里是翻译过的论文标题
 translated_abstract: 这里是翻译过的论文摘要
 tldr: 这里是中文总结出的一句话要点
@@ -94,13 +96,13 @@ def call_chat(context):
         # en_tdlr: 这里是英文总结出的一句话要点
 
         for line in answer.split('\n'):
-            if line.startswith('translated_title'):
+            if line.lower().startswith('translated_title'):
                 final_ret['translated_title'] = line.split(':', 1)[1].strip()
-            if line.startswith('translated_abstract'):
+            if line.lower().startswith('translated_abstract'):
                 final_ret['translated_abstract'] = line.split(':', 1)[1].strip()
-            if line.startswith('tldr'):
+            if line.lower().startswith('tldr'):
                 final_ret['tldr'] = line.split(':', 1)[1].strip()
-            if line.startswith('en_tdlr'):
+            if line.lower().startswith('en_tdlr'):
                 final_ret['en_tdlr'] = line.split(':', 1)[1].strip()
 
         return final_ret
@@ -228,34 +230,60 @@ def chat_arxiv(arxiv_channel='cs.AI'):
     print('download feed', arxiv_channel)
     # Parse the arXiv.org RSS feed
     feed = feedparser.parse(f'https://export.arxiv.org/rss/{arxiv_channel}')
-    rets = []
-    for item in tqdm(feed.entries):
+    to_call_chat = []
+    good_rets = []
+    for item in feed.entries:
         arxiv_id = item.link.split('/')[-1]
         path = get_path(arxiv_id)
         if os.path.exists(path):
             ret = json.load(open(path, 'r'))
+            good_rets.append(ret)
         else:
             soup = BeautifulSoup(item.description, 'html.parser')
             description_text = soup.get_text().strip()[:1000]
             description_text = description_text.replace('-\n', '').replace('\n', ' ')
             context = f'''Title: {item.title[:1000]}
 Abstract: {description_text}'''
-            ret = call_chat(context)
-            if 'tldr' not in ret:
-                continue
             ret = {
                 'title': item.title,
                 'abstract': description_text,
                 'link': item.link,
-                **ret
+                'context': context,
+                'path': path,
             }
-            path_dir = os.path.dirname(path)
-            os.makedirs(path_dir, exist_ok=True)
-            with open(path, 'w') as fp:
-                json.dump(ret, fp, indent=4, ensure_ascii=False)
-        rets.append(ret)
+            to_call_chat.append(ret)
 
-    rets = sorted(rets, key=lambda x: x['link'], reverse=True)
+    if len(to_call_chat) > 0:
+        with ProcessPool(max_workers=min(len(to_call_chat), 32)) as pool:
+            futures = []
+            for ret in to_call_chat:
+                future = pool.schedule(call_chat, [ret['context']], timeout=300)
+                futures.append(future)
+            for ret, f in tqdm(zip(to_call_chat, futures), total=len(futures)):
+                try:
+                    result = f.result()  # blocks until results are ready
+                    if 'tldr' in result:
+                        good_rets.append({
+                            **ret,
+                            **result
+                        })
+                except TimeoutError as error:
+                    continue
+                except Exception as error:
+                    print(error)
+
+    for ret in good_rets:
+        if path in ret:
+            path = ret['path']
+        else:
+            arxiv_id = ret['link'].split('/')[-1]
+            path = get_path(arxiv_id)
+        path_dir = os.path.dirname(path)
+        os.makedirs(path_dir, exist_ok=True)
+        with open(path, 'w') as fp:
+            json.dump(ret, fp, indent=4, ensure_ascii=False)
+
+    rets = sorted(good_rets, key=lambda x: x['link'], reverse=True)
     markdown = make_markdown(rets)
     with open(f'{arxiv_channel}.md', 'w') as fp:
         fp.write(markdown)
@@ -271,5 +299,5 @@ if __name__ == '__main__':
         chat_arxiv(f'cs.{c}')
     # other = '''astro-ph,cond-mat,econ,eess,gr-qc,hep-ex,hep-lat,hep-ph,hep-th,math,math-ph,nlin,nucl-ex,nucl-th,physics,q-bio,q-fin,quant-ph,stat'''.split(',')
     others = '''econ,q-fin'''.split(',')
-    for c in other:
+    for c in others:
         chat_arxiv(c)

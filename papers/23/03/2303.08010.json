@@ -1,0 +1,10 @@
+{
+    "title": "Window-Based Early-Exit Cascades for Uncertainty Estimation: When Deep Ensembles are More Efficient than Single Models. (arXiv:2303.08010v1 [cs.LG])",
+    "abstract": "Deep Ensembles are a simple, reliable, and effective method of improving both the predictive performance and uncertainty estimates of deep learning approaches. However, they are widely criticised as being computationally expensive, due to the need to deploy multiple independent models. Recent work has challenged this view, showing that for predictive accuracy, ensembles can be more computationally efficient (at inference) than scaling single models within an architecture family. This is achieved by cascading ensemble members via an early-exit approach. In this work, we investigate extending these efficiency gains to tasks related to uncertainty estimation. As many such tasks, e.g. selective classification, are binary classification, our key novel insight is to only pass samples within a window close to the binary decision boundary to later cascade stages. Experiments on ImageNet-scale data across a number of network architectures and uncertainty tasks show that the proposed window-base",
+    "link": "http://arxiv.org/abs/2303.08010",
+    "total_tokens": 988,
+    "translated_title": "基于窗口的早期退出级联用于不确定性估计：当深度集成比单一模型更有效时",
+    "translated_abstract": "深度集成是提高深度学习方法预测性能和不确定性估计的简单、可靠和有效方法。然而，由于需要部署多个独立模型，它们被广泛批评为计算开销大。最近的研究挑战了这种观点，表明对于预测准确性，集成可以比在同一架构族中缩放单一模型在推理时更具计算效率。通过通过早期退出方法级联集成成员实现这一目标。在这项工作中，我们研究如何将这些效率提高扩展到与不确定性估计相关的任务。由于许多这样的任务，例如选择性分类，都是二分类问题，我们的关键新颖见解是仅将接近二分决策边界的样本传递到后续级联阶段。在ImageNet规模的数据上进行的实验表明，所提出的基于窗口的早期退出集成在使用比基线更少的模型评估的同时，实现了最先进的不确定性估计性能，并且在预测性能上与完整集成相竞争。",
+    "tldr": "本文研究了基于窗口的早期退出集成方法，以在保持模型可扩展性的同时实现不确定性估计任务的高效实现。实验结果表明，该方法在准确性和计算效率上都达到了最新的研究成果。",
+    "en_tdlr": "This paper investigates window-based early-exit ensembles to achieve efficient uncertainty estimation while maintaining model scalability. Experimental results show that the proposed method achieves state-of-the-art uncertainty estimation performance and is competitive with full ensembles on predictive performance while using fewer model evaluations than baselines."
+}
