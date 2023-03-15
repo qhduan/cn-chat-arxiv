@@ -83,7 +83,7 @@ def call_chat(context):
                 model="gpt-3.5-turbo",
                 messages=prompt
             )
-            answer = ret['choices'][0]['message']
+            answer = ret['choices'][0]['message']['content']
         # final_ret['raw_ret'] = answer
         print('raw answer', answer)
         final_ret['total_tokens'] = ret['usage']['total_tokens']
