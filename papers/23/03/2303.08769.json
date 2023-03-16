@@ -1,0 +1,12 @@
+{
+    "title": "Prompting Large Language Models With the Socratic Method. (arXiv:2303.08769v1 [cs.LG])",
+    "abstract": "This paper outlines a systematic approach to using the Socratic method in developing prompt templates that effectively interact with large language models, including GPT-3. We examine various methods and identify those that yield precise answers and justifications while simultaneously fostering creativity and imagination to enhance creative writing. Specifically, we discuss how techniques such as definition, elenchus, dialectic, maieutics, generalization, and counterfactual reasoning can be applied in engineering prompt templates, and provide practical examples that demonstrate their effectiveness in performing inductive, deductive, and abductive reasoning.",
+    "link": "http://arxiv.org/abs/2303.08769",
+    "context": "Title: Prompting Large Language Models With the Socratic Method. (arXiv:2303.08769v1 [cs.LG])\nAbstract: This paper outlines a systematic approach to using the Socratic method in developing prompt templates that effectively interact with large language models, including GPT-3. We examine various methods and identify those that yield precise answers and justifications while simultaneously fostering creativity and imagination to enhance creative writing. Specifically, we discuss how techniques such as definition, elenchus, dialectic, maieutics, generalization, and counterfactual reasoning can be applied in engineering prompt templates, and provide practical examples that demonstrate their effectiveness in performing inductive, deductive, and abductive reasoning.",
+    "path": "papers/23/03/2303.08769.json",
+    "total_tokens": 701,
+    "translated_title": "用苏格拉底式的方法引导大型语言模型",
+    "translated_abstract": "本论文概述了使用苏格拉底式方法开发提示模板的系统方法，以有效地与大型语言模型（包括GPT-3）交互。我们研究了各种方法，并确定了可以产生精确答案和证明的方法，同时在提高创意写作方面促进创造力和想象力的方法。具体来说，我们讨论了如何应用定义、elenchus、辩证法、母体、概括和反事实推理等技术来编写提示模板，并提供了实际示例，展示它们在归纳、演绎和诱导推理方面的有效性。",
+    "tldr": "本文提出了使用苏格拉底式方法开发提示模板的系统方法，以有效地与大型语言模型交互，并举出实例展示了这些方法在归纳、演绎和诱导推理方面的有效性。",
+    "en_tdlr": "This paper proposes a systematic approach to use the Socratic method in developing prompt templates that effectively interact with large language models, and provides practical examples that demonstrate their effectiveness in performing inductive, deductive, and abductive reasoning."
+}

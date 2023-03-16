@@ -1,0 +1,11 @@
+{
+    "title": "Artificial intelligence for artificial materials: moir\\'e atom. (arXiv:2303.08162v1 [cond-mat.str-el])",
+    "abstract": "Moir\\'e engineering in atomically thin van der Waals heterostructures creates artificial quantum materials with designer properties. We solve the many-body problem of interacting electrons confined to a moir\\'e superlattice potential minimum (the moir\\'e atom) using a 2D fermionic neural network. We show that strong Coulomb interactions in combination with the anisotropic moir\\'e potential lead to striking ``Wigner molecule\" charge density distributions observable with scanning tunneling microscopy.",
+    "link": "http://arxiv.org/abs/2303.08162",
+    "context": "Title: Artificial intelligence for artificial materials: moir\\'e atom. (arXiv:2303.08162v1 [cond-mat.str-el])\nAbstract: Moir\\'e engineering in atomically thin van der Waals heterostructures creates artificial quantum materials with designer properties. We solve the many-body problem of interacting electrons confined to a moir\\'e superlattice potential minimum (the moir\\'e atom) using a 2D fermionic neural network. We show that strong Coulomb interactions in combination with the anisotropic moir\\'e potential lead to striking ``Wigner molecule\" charge density distributions observable with scanning tunneling microscopy.",
+    "path": "papers/23/03/2303.08162.json",
+    "total_tokens": 623,
+    "translated_title": "人工智能用于人造材料：Moiré原子",
+    "translated_abstract": "原子薄层Van der Waals异质结构中的Moiré工程创建了具有设计师属性的人造量子材料。我们使用2D费米神经网络解决了相互作用电子受限于Moiré超晶格势能最小值（Moiré原子）的多体问题。我们证明强Coulomb相互作用与各向异性Moiré势能相结合，可以产生“Wigner分子”电荷密度分布，可通过扫描隧道显微镜观察到。",
+    "tldr": "研究者使用二维费米神经网络解决了Moiré工程中Moiré原子中电子的相互作用问题，并发现强Coulomb相互作用与各向异性Moiré势能相结合可以产生“Wigner分子”电荷密度分布。"
+}
