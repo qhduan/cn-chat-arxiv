@@ -1,0 +1,12 @@
+{
+    "title": "Generative Logic with Time: Beyond Logical Consistency and Statistical Possibility. (arXiv:2301.08509v2 [cs.AI] UPDATED)",
+    "abstract": "This paper gives a simple theory of inference to logically reason symbolic knowledge fully from data over time. We take a Bayesian approach to model how data causes symbolic knowledge. Probabilistic reasoning with symbolic knowledge is modelled as a process of going the causality forwards and backwards. The forward and backward processes correspond to an interpretation and inverse interpretation of formal logic, respectively. The theory is applied to a localisation problem to show a robot with broken or noisy sensors can efficiently solve the problem in a fully data-driven fashion.",
+    "link": "http://arxiv.org/abs/2301.08509",
+    "context": "Title: Generative Logic with Time: Beyond Logical Consistency and Statistical Possibility. (arXiv:2301.08509v2 [cs.AI] UPDATED)\nAbstract: This paper gives a simple theory of inference to logically reason symbolic knowledge fully from data over time. We take a Bayesian approach to model how data causes symbolic knowledge. Probabilistic reasoning with symbolic knowledge is modelled as a process of going the causality forwards and backwards. The forward and backward processes correspond to an interpretation and inverse interpretation of formal logic, respectively. The theory is applied to a localisation problem to show a robot with broken or noisy sensors can efficiently solve the problem in a fully data-driven fashion.",
+    "path": "papers/23/01/2301.08509.json",
+    "total_tokens": 655,
+    "translated_title": "带有时间的生成逻辑：超越逻辑一致性和统计可能性",
+    "translated_abstract": "本文提出了一种简单的推理理论，可以从数据中完全逻辑推理符号知识。我们采用贝叶斯方法来建模数据如何引起符号知识。符号知识的概率推理被建模为正向和反向过程，分别对应形式逻辑的解释和逆解释。该理论应用于定位问题，展示了一个具有损坏或噪声传感器的机器人可以以完全数据驱动的方式有效地解决该问题。",
+    "tldr": "本文提出了一种将数据和逻辑结合起来进行推理的理论，解决了符号知识的概率推理问题，并在定位问题中展示出机器人可以完全数据驱动地解决这一问题。",
+    "en_tdlr": "This paper proposes a theory that combines data and logic to perform inference, solves the problem of probabilistic reasoning with symbolic knowledge, and demonstrates that a robot can solve a localization problem in a fully data-driven way."
+}

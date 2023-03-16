@@ -1,0 +1,12 @@
+{
+    "title": "Identifying an Earnings Process With Dependent Contemporaneous Income Shocks. (arXiv:2303.08460v1 [econ.EM])",
+    "abstract": "This paper proposes a novel approach for identifying coefficients in an earnings dynamics model with arbitrarily dependent contemporaneous income shocks. Traditional methods relying on second moments fail to identify these coefficients, emphasizing the need for nongaussianity assumptions that capture information from higher moments. Our results contribute to the literature on earnings dynamics by allowing models of earnings to have, for example, the permanent income shock of a job change to be linked to the contemporaneous transitory income shock of a relocation bonus.",
+    "link": "http://arxiv.org/abs/2303.08460",
+    "context": "Title: Identifying an Earnings Process With Dependent Contemporaneous Income Shocks. (arXiv:2303.08460v1 [econ.EM])\nAbstract: This paper proposes a novel approach for identifying coefficients in an earnings dynamics model with arbitrarily dependent contemporaneous income shocks. Traditional methods relying on second moments fail to identify these coefficients, emphasizing the need for nongaussianity assumptions that capture information from higher moments. Our results contribute to the literature on earnings dynamics by allowing models of earnings to have, for example, the permanent income shock of a job change to be linked to the contemporaneous transitory income shock of a relocation bonus.",
+    "path": "papers/23/03/2303.08460.json",
+    "total_tokens": 603,
+    "translated_title": "识别具有相关同期收入冲击的盈利过程",
+    "translated_abstract": "本文提出了一种新的方法，用于识别具有任意相关同期收入冲击的盈利动态模型中的系数。传统方法依赖于二阶矩无法识别这些系数，强调了需要捕捉高阶矩信息的非高斯假设的必要性。例如，我们的结果有助于盈利动态文献，允许盈利模型具有工作变动的永久收入冲击与同期短暂收入冲击的关联性。",
+    "tldr": "本文提出了一种新的方法，用于识别具有任意相关同期收入冲击的盈利动态模型中的系数。",
+    "en_tdlr": "The paper proposes a novel approach for identifying coefficients in an earnings dynamics model with arbitrarily dependent contemporaneous income shocks."
+}

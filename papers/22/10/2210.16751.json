@@ -1,0 +1,12 @@
+{
+    "title": "Formalizing Statistical Causality via Modal Logic. (arXiv:2210.16751v3 [cs.AI] UPDATED)",
+    "abstract": "We propose a formal language for describing and explaining statistical causality. Concretely, we define Statistical Causality Language (StaCL) for expressing causal effects on random variables and specifying the requirements for causal inference. StaCL incorporates modal operators for interventions to express causal properties between probability distributions in different possible worlds in a Kripke model. We formalize axioms for probability distributions, interventions, and causal predicates using StaCL formulas. These axioms are expressive enough to derive the rules of Pearl's do-calculus. Finally, we demonstrate by examples that StaCL can be used to specify and explain the correctness of statistical causal inference.",
+    "link": "http://arxiv.org/abs/2210.16751",
+    "context": "Title: Formalizing Statistical Causality via Modal Logic. (arXiv:2210.16751v3 [cs.AI] UPDATED)\nAbstract: We propose a formal language for describing and explaining statistical causality. Concretely, we define Statistical Causality Language (StaCL) for expressing causal effects on random variables and specifying the requirements for causal inference. StaCL incorporates modal operators for interventions to express causal properties between probability distributions in different possible worlds in a Kripke model. We formalize axioms for probability distributions, interventions, and causal predicates using StaCL formulas. These axioms are expressive enough to derive the rules of Pearl's do-calculus. Finally, we demonstrate by examples that StaCL can be used to specify and explain the correctness of statistical causal inference.",
+    "path": "papers/22/10/2210.16751.json",
+    "total_tokens": 683,
+    "translated_title": "基于模态逻辑的统计因果关系形式化",
+    "translated_abstract": "我们提出了一种描述和解释统计因果关系的形式语言。具体来说，我们定义了统计因果语言（StaCL），用于表达随机变量上的因果效应并指定因果推断的要求。StaCL通过干预的模态运算符，在不同可能的世界的概率分布之间表达因果属性，在Kripke模型中解释。我们使用StaCL公式正式化概率分布、干预和因果谓词的公理。这些公理足够表达Pearl的do-calculus规则。最后，我们通过示例证明了StaCL可以用于指定和解释统计因果推断的正确性。",
+    "tldr": "提出了一种基于模态逻辑的形式语言，用于描述和解释统计因果关系，并且能够指定和解释统计因果推断的正确性。",
+    "en_tdlr": "A formal language based on modal logic is proposed for describing and explaining statistical causality, which can also specify and explain the correctness of statistical causal inference."
+}

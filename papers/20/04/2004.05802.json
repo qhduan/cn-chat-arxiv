@@ -1,0 +1,12 @@
+{
+    "title": "To Be Announced. (arXiv:2004.05802v4 [cs.LO] UPDATED)",
+    "abstract": "In this survey we review dynamic epistemic logics with modalities for quantification over information change. Of such logics we present complete axiomatizations, focussing on axioms involving the interaction between knowledge and such quantifiers, we report on their relative expressivity, on decidability and on the complexity of model checking and satisfiability, and on applications. We focus on open problems and new directions for research.",
+    "link": "http://arxiv.org/abs/2004.05802",
+    "context": "Title: To Be Announced. (arXiv:2004.05802v4 [cs.LO] UPDATED)\nAbstract: In this survey we review dynamic epistemic logics with modalities for quantification over information change. Of such logics we present complete axiomatizations, focussing on axioms involving the interaction between knowledge and such quantifiers, we report on their relative expressivity, on decidability and on the complexity of model checking and satisfiability, and on applications. We focus on open problems and new directions for research.",
+    "path": "papers/20/04/2004.05802.json",
+    "total_tokens": 618,
+    "translated_title": "动态认知逻辑中的信息变化量化模态：概述与评估",
+    "translated_abstract": "在这篇论文中，我们回顾了具有信息变化量化模态的动态认知逻辑，并介绍了其完整的公理化。我们关注了涉及知识和量词交互作用的公理，在表述方式、可决定性、模型检查和可满足性的复杂性，以及应用方面进行了评估。我们重点关注开放的问题和研究新方向。",
+    "tldr": "该论文综述了动态认知逻辑中的信息变化量化模态，包括公理化、表述方式、可决定性和复杂性评估，并提出了未解决的问题和研究方向。",
+    "en_tdlr": "This survey paper provides an overview and evaluation of dynamic epistemic logics with modalities for quantification over information change, including axiomatizations, expressivity, decidability, complexity of model checking and satisfiability, and applications. The paper highlights open problems and new directions for research."
+}

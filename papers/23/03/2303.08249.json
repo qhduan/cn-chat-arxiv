@@ -1,0 +1,12 @@
+{
+    "title": "Systematic design space exploration by learning the explored space using Machine Learning. (arXiv:2303.08249v1 [cs.LG])",
+    "abstract": "Current practice in parameter space exploration in euclidean space is dominated by randomized sampling or design of experiment methods. The biggest issue with these methods is not keeping track of what part of parameter space has been explored and what has not. In this context, we utilize the geometric learning of explored data space using modern machine learning methods to keep track of already explored regions and samples from the regions that are unexplored. For this purpose, we use a modified version of a robust random-cut forest along with other heuristic-based approaches. We demonstrate our method and its progression in two-dimensional Euclidean space but it can be extended to any dimension since the underlying method is generic.",
+    "link": "http://arxiv.org/abs/2303.08249",
+    "context": "Title: Systematic design space exploration by learning the explored space using Machine Learning. (arXiv:2303.08249v1 [cs.LG])\nAbstract: Current practice in parameter space exploration in euclidean space is dominated by randomized sampling or design of experiment methods. The biggest issue with these methods is not keeping track of what part of parameter space has been explored and what has not. In this context, we utilize the geometric learning of explored data space using modern machine learning methods to keep track of already explored regions and samples from the regions that are unexplored. For this purpose, we use a modified version of a robust random-cut forest along with other heuristic-based approaches. We demonstrate our method and its progression in two-dimensional Euclidean space but it can be extended to any dimension since the underlying method is generic.",
+    "path": "papers/23/03/2303.08249.json",
+    "total_tokens": 781,
+    "translated_title": "利用机器学习学习探测空间的系统设计空间探索",
+    "translated_abstract": "当前欧几里得空间参数空间探索的实践主要由随机抽样或试验设计方法主导。这些方法最大的问题是无法跟踪参数空间的哪一部分已被探索，哪一部分尚未被探索。在这种情况下，我们利用现代机器学习方法几何学习已探索数据空间，以跟踪已经探索过的区域，并从未探索的区域中提取样本。为此，我们使用了修改版的鲁棒随机切割森林以及其他基于启发式的方法。我们展示了我们的方法及其在二维欧几里得空间中的进展，但它可以扩展到任何维度，因为底层方法是通用的。",
+    "tldr": "本文提出了一种利用机器学习算法来学习已探索数据空间，跟踪参数探索状态的方法，通过修正的鲁棒随机切割森林和启发式方法在二维欧几里得空间中进行了验证。",
+    "en_tdlr": "This paper proposes a method to use machine learning algorithm to learn the explored data space and track the state of parameter exploration, demonstrated by modified robust random-cut forest and heuristic methods in two-dimensional Euclidean space."
+}

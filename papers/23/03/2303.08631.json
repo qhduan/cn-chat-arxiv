@@ -1,0 +1,12 @@
+{
+    "title": "Smoothed Q-learning. (arXiv:2303.08631v1 [cs.LG])",
+    "abstract": "In Reinforcement Learning the Q-learning algorithm provably converges to the optimal solution. However, as others have demonstrated, Q-learning can also overestimate the values and thereby spend too long exploring unhelpful states. Double Q-learning is a provably convergent alternative that mitigates some of the overestimation issues, though sometimes at the expense of slower convergence. We introduce an alternative algorithm that replaces the max operation with an average, resulting also in a provably convergent off-policy algorithm which can mitigate overestimation yet retain similar convergence as standard Q-learning.",
+    "link": "http://arxiv.org/abs/2303.08631",
+    "context": "Title: Smoothed Q-learning. (arXiv:2303.08631v1 [cs.LG])\nAbstract: In Reinforcement Learning the Q-learning algorithm provably converges to the optimal solution. However, as others have demonstrated, Q-learning can also overestimate the values and thereby spend too long exploring unhelpful states. Double Q-learning is a provably convergent alternative that mitigates some of the overestimation issues, though sometimes at the expense of slower convergence. We introduce an alternative algorithm that replaces the max operation with an average, resulting also in a provably convergent off-policy algorithm which can mitigate overestimation yet retain similar convergence as standard Q-learning.",
+    "path": "papers/23/03/2303.08631.json",
+    "total_tokens": 638,
+    "translated_title": "平滑Q学习",
+    "translated_abstract": "在强化学习中，Q学习算法可以证明收敛到最优解。然而，正如其他人所证明的那样，Q学习也可能高估价值，因此花费太长时间探索无用状态。双Q学习是一种可证明收敛的替代方法，可以缓解一些高估问题，但有时以更慢的收敛代价。我们引入了一种替代算法，用平均值替换了最大化操作，从而得到一种可证明收敛，且能缓解高估问题的离线算法，同时保持与标准Q学习类似的收敛特性。",
+    "tldr": "本文提出了一种能够缓解Q学习算法高估问题的平滑Q学习算法。",
+    "en_tdlr": "The paper proposes a smoothed Q-learning algorithm that mitigates the overestimation issue and retains similar convergence as standard Q-learning by replacing the max operation with an average."
+}

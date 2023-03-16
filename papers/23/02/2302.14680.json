@@ -1,0 +1,12 @@
+{
+    "title": "Which One Are You Referring To? Multimodal Object Identification in Situated Dialogue. (arXiv:2302.14680v2 [cs.CL] UPDATED)",
+    "abstract": "The demand for multimodal dialogue systems has been rising in various domains, emphasizing the importance of interpreting multimodal inputs from conversational and situational contexts. We explore three methods to tackle this problem and evaluate them on the largest situated dialogue dataset, SIMMC 2.1. Our best method, scene-dialogue alignment, improves the performance by ~20% F1-score compared to the SIMMC 2.1 baselines. We provide analysis and discussion regarding the limitation of our methods and the potential directions for future works. Our code is publicly available at https://github.com/holylovenia/multimodal-object-identification.",
+    "link": "http://arxiv.org/abs/2302.14680",
+    "context": "Title: Which One Are You Referring To? Multimodal Object Identification in Situated Dialogue. (arXiv:2302.14680v2 [cs.CL] UPDATED)\nAbstract: The demand for multimodal dialogue systems has been rising in various domains, emphasizing the importance of interpreting multimodal inputs from conversational and situational contexts. We explore three methods to tackle this problem and evaluate them on the largest situated dialogue dataset, SIMMC 2.1. Our best method, scene-dialogue alignment, improves the performance by ~20% F1-score compared to the SIMMC 2.1 baselines. We provide analysis and discussion regarding the limitation of our methods and the potential directions for future works. Our code is publicly available at https://github.com/holylovenia/multimodal-object-identification.",
+    "path": "papers/23/02/2302.14680.json",
+    "total_tokens": 732,
+    "translated_title": "你是指哪一个？基于情境对话的多模态对象识别",
+    "translated_abstract": "多模态对话系统的需求在各个领域都有不断上升，这强调了从对话和情境背景中理解多模态信息的重要性。我们探索了三种方法来解决这个问题，并在最大的情境对话数据集SIMMC 2.1上对它们进行了评估。我们最好的方法是基于场景对话的对齐，相比SIMMC 2.1的基准测试，它提高了约20%的F1分数。我们提供了分析和讨论我们方法的局限性和未来工作的潜在方向。我们的代码公开在https://github.com/holylovenia/multimodal-object-identification中。",
+    "tldr": "本文探索了三种多模态对象识别方法并在SIMMC 2.1数据集上进行了评估。最佳方法是基于场景对话的对齐，相比基准测试提高了约20%的F1分数。",
+    "en_tdlr": "This paper explores three methods for multimodal object identification and evaluates them on the SIMMC 2.1 dataset. The best method is scene-dialogue alignment, which improves F1-score by ~20% compared to baselines."
+}

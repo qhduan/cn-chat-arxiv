@@ -1,0 +1,12 @@
+{
+    "title": "GCRE-GPT: A Generative Model for Comparative Relation Extraction. (arXiv:2303.08601v1 [cs.CL])",
+    "abstract": "Given comparative text, comparative relation extraction aims to extract two targets (\\eg two cameras) in comparison and the aspect they are compared for (\\eg image quality). The extracted comparative relations form the basis of further opinion analysis.Existing solutions formulate this task as a sequence labeling task, to extract targets and aspects. However, they cannot directly extract comparative relation(s) from text. In this paper, we show that comparative relations can be directly extracted with high accuracy, by generative model. Based on GPT-2, we propose a Generation-based Comparative Relation Extractor (GCRE-GPT). Experiment results show that \\modelname achieves state-of-the-art accuracy on two datasets.",
+    "link": "http://arxiv.org/abs/2303.08601",
+    "context": "Title: GCRE-GPT: A Generative Model for Comparative Relation Extraction. (arXiv:2303.08601v1 [cs.CL])\nAbstract: Given comparative text, comparative relation extraction aims to extract two targets (\\eg two cameras) in comparison and the aspect they are compared for (\\eg image quality). The extracted comparative relations form the basis of further opinion analysis.Existing solutions formulate this task as a sequence labeling task, to extract targets and aspects. However, they cannot directly extract comparative relation(s) from text. In this paper, we show that comparative relations can be directly extracted with high accuracy, by generative model. Based on GPT-2, we propose a Generation-based Comparative Relation Extractor (GCRE-GPT). Experiment results show that \\modelname achieves state-of-the-art accuracy on two datasets.",
+    "path": "papers/23/03/2303.08601.json",
+    "total_tokens": 696,
+    "translated_title": "GCRE-GPT: 一种用于比较关系提取的生成模型",
+    "translated_abstract": "给定比较文本，比较关系提取旨在提取两个目标（例如两个相机）的比较和它们被比较的方面（例如图像质量）。提取出的比较关系是进一步意见分析的基础。现有的解决方案将此任务作为一个序列标记任务，以提取目标和方面。然而，它们不能直接从文本中提取比较关系。本文通过生成模型展示出，可以直接以高精度提取出比较关系。基于GPT-2，我们提出了一种生成式比较关系提取器（GCRE-GPT）。实验结果表明，该模型在两个数据集上达到了最先进的准确性。",
+    "tldr": "本文介绍了一种生成模型GCRE-GPT, 可直接从比较文本中提取出高精度的比较关系。",
+    "en_tdlr": "This paper introduces a generative model GCRE-GPT, which directly extracts high-accuracy comparative relations from comparative texts."
+}

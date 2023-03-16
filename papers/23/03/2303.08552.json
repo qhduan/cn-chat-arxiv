@@ -1,0 +1,12 @@
+{
+    "title": "Joint Graph and Vertex Importance Learning. (arXiv:2303.08552v1 [eess.SP])",
+    "abstract": "In this paper, we explore the topic of graph learning from the perspective of the Irregularity-Aware Graph Fourier Transform, with the goal of learning the graph signal space inner product to better model data. We propose a novel method to learn a graph with smaller edge weight upper bounds compared to combinatorial Laplacian approaches. Experimentally, our approach yields much sparser graphs compared to a combinatorial Laplacian approach, with a more interpretable model.",
+    "link": "http://arxiv.org/abs/2303.08552",
+    "context": "Title: Joint Graph and Vertex Importance Learning. (arXiv:2303.08552v1 [eess.SP])\nAbstract: In this paper, we explore the topic of graph learning from the perspective of the Irregularity-Aware Graph Fourier Transform, with the goal of learning the graph signal space inner product to better model data. We propose a novel method to learn a graph with smaller edge weight upper bounds compared to combinatorial Laplacian approaches. Experimentally, our approach yields much sparser graphs compared to a combinatorial Laplacian approach, with a more interpretable model.",
+    "path": "papers/23/03/2303.08552.json",
+    "total_tokens": 582,
+    "translated_title": "联合图形和顶点重要性学习",
+    "translated_abstract": "本文从不规则感知图傅里叶变换的角度探讨了图形学习的话题，旨在学习图信号空间内积以更好地建模数据。我们提出了一种新颖的方法，通过学习比组合拉普拉斯方法具有更小的边缘权重上界的图形。实验结果表明，我们的方法比组合拉普拉斯方法产生更稀疏的图形，并具有更可解释的模型。",
+    "tldr": "本研究提出了一种新颖的方法学习图形，并产生了比其他方法更为稀疏和可解释的模型。",
+    "en_tdlr": "This paper proposes a novel method to learn graph with smaller edge weight upper bounds and achieves sparser and more interpretable models compared to other methods."
+}

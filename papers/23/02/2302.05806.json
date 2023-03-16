@@ -1,0 +1,12 @@
+{
+    "title": "Random Utility, Repeated Choice, and Consumption Dependence. (arXiv:2302.05806v3 [econ.TH] UPDATED)",
+    "abstract": "We study the repeated choice interpretation of stochastic choice and the individual interpretation of the random utility model. We consider a myopic agent whose distribution over preferences tomorrow potentially depends on their consumption and preference today. Even when the agent is classically rational in each of their static decisions, there are forms of consumption dependence which are inconsistent with random utility as a model of intertemporal aggregation. We offer two characterizations of Markovian consumption dependence which are consistent with random utility. Further, we characterize the behavioral content of consumption dependence in a two period stochastic choice model.",
+    "link": "http://arxiv.org/abs/2302.05806",
+    "context": "Title: Random Utility, Repeated Choice, and Consumption Dependence. (arXiv:2302.05806v3 [econ.TH] UPDATED)\nAbstract: We study the repeated choice interpretation of stochastic choice and the individual interpretation of the random utility model. We consider a myopic agent whose distribution over preferences tomorrow potentially depends on their consumption and preference today. Even when the agent is classically rational in each of their static decisions, there are forms of consumption dependence which are inconsistent with random utility as a model of intertemporal aggregation. We offer two characterizations of Markovian consumption dependence which are consistent with random utility. Further, we characterize the behavioral content of consumption dependence in a two period stochastic choice model.",
+    "path": "papers/23/02/2302.05806.json",
+    "total_tokens": 749,
+    "translated_title": "随机效用、重复选择和消费依赖性研究",
+    "translated_abstract": "本研究探讨了随机选择的重复选择解释和随机效用模型的个体解释。我们考虑了一个目光短浅的代理人，他们明天的偏好分布可能取决于今天的消费和偏好。即使代理人在每个静态决策中都是经典的理性，也存在一些与随机效用作为跨时间聚合模型不一致的消费依赖形式。我们提供了两个马尔科夫消费依赖性的特征，这些特征与随机效用是一致的。进一步地，我们对两期随机选择模型中的消费依赖性进行了行为内容的特征化。",
+    "tldr": "本文研究了随机效用模型和重复选择模型中的消费依赖性，提出了两种符合随机效用的马尔科夫消费依赖性特征，并对两期随机选择模型中的消费依赖性进行了行为内容的特征化。",
+    "en_tdlr": "This paper studies the consumption dependence in random utility and repeated choice models, proposes two Markovian consumption dependence features consistent with random utility, and characterizes the behavioral content of consumption dependence in a two period stochastic choice model."
+}

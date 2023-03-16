@@ -1,0 +1,12 @@
+{
+    "title": "High-dimensional multi-view clustering methods. (arXiv:2303.08582v1 [cs.LG])",
+    "abstract": "Multi-view clustering has been widely used in recent years in comparison to single-view clustering, for clear reasons, as it offers more insights into the data, which has brought with it some challenges, such as how to combine these views or features. Most of recent work in this field focuses mainly on tensor representation instead of treating the data as simple matrices. This permits to deal with the high-order correlation between the data which the based matrix approach struggles to capture. Accordingly, we will examine and compare these approaches, particularly in two categories, namely graph-based clustering and subspace-based clustering. We will conduct and report experiments of the main clustering methods over a benchmark datasets.",
+    "link": "http://arxiv.org/abs/2303.08582",
+    "context": "Title: High-dimensional multi-view clustering methods. (arXiv:2303.08582v1 [cs.LG])\nAbstract: Multi-view clustering has been widely used in recent years in comparison to single-view clustering, for clear reasons, as it offers more insights into the data, which has brought with it some challenges, such as how to combine these views or features. Most of recent work in this field focuses mainly on tensor representation instead of treating the data as simple matrices. This permits to deal with the high-order correlation between the data which the based matrix approach struggles to capture. Accordingly, we will examine and compare these approaches, particularly in two categories, namely graph-based clustering and subspace-based clustering. We will conduct and report experiments of the main clustering methods over a benchmark datasets.",
+    "path": "papers/23/03/2303.08582.json",
+    "total_tokens": 694,
+    "translated_title": "高维多视角聚类方法",
+    "translated_abstract": "最近几年，相比于单视角聚类，多视角聚类被广泛应用于数据分析中。它可以提供更多的数据信息，但也带来了一些挑战，如如何组合这些视角或特征。最近的研究主要集中在张量表示上，而不是将数据视为简单的矩阵。这种方法可以处理数据之间的高阶相关性，而基于矩阵的方法则难以捕捉这种相关性。因此，我们将研究和比较这些方法，特别是基于图的聚类和子空间聚类，以及在基准数据集上的实验结果。",
+    "tldr": "本论文比较了两类高维多视角聚类方法（基于图和基于子空间），重点关注了如何处理高阶相关性，并在基准数据集上进行了实验研究。",
+    "en_tdlr": "This paper compares two categories of high-dimensional multi-view clustering methods (graph-based and subspace-based), with a focus on addressing high-order correlations, and reports experimental results on benchmark datasets."
+}

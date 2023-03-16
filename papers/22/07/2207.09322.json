@@ -1,0 +1,12 @@
+{
+    "title": "Probabilistic Reconciliation of Count Time Series. (arXiv:2207.09322v3 [stat.ME] UPDATED)",
+    "abstract": "Forecast reconciliation is an important research topic. Yet, there is currently neither formal framework nor practical method for the probabilistic reconciliation of count time series. In this paper we propose a definition of coherency and reconciled probabilistic forecast which applies to both real-valued and count variables and a novel method for probabilistic reconciliation. It is based on a generalization of Bayes' rule and it can reconcile both real-value and count variables. When applied to count variables, it yields a reconciled probability mass function. Our experiments with the temporal reconciliation of count variables show a major forecast improvement compared to the probabilistic Gaussian reconciliation.",
+    "link": "http://arxiv.org/abs/2207.09322",
+    "context": "Title: Probabilistic Reconciliation of Count Time Series. (arXiv:2207.09322v3 [stat.ME] UPDATED)\nAbstract: Forecast reconciliation is an important research topic. Yet, there is currently neither formal framework nor practical method for the probabilistic reconciliation of count time series. In this paper we propose a definition of coherency and reconciled probabilistic forecast which applies to both real-valued and count variables and a novel method for probabilistic reconciliation. It is based on a generalization of Bayes' rule and it can reconcile both real-value and count variables. When applied to count variables, it yields a reconciled probability mass function. Our experiments with the temporal reconciliation of count variables show a major forecast improvement compared to the probabilistic Gaussian reconciliation.",
+    "path": "papers/22/07/2207.09322.json",
+    "total_tokens": 715,
+    "translated_title": "计数时间序列的概率调和",
+    "translated_abstract": "预测调和是一个重要的研究课题，但目前既没有形式化的框架，也没有针对概率计数时间序列调和的实用方法。在本文中，我们提出了一种适用于实值和计数变量的连贯性和协调的概率预测定义，同时提出了一种新的概率协调方法。它是基于贝叶斯规则的概括，并且可以协调实数和计数变量。当用于计数变量时，它会产生协调的概率质量函数。我们通过对计数变量的时间协调实验表明，与概率高斯调和相比，它对预测的改进非常大。",
+    "tldr": "本文提出了一种新的概率计数时间序列调和方法，产生协调的概率质量函数，相比于概率高斯调和，能够带来显著的预测改进。",
+    "en_tdlr": "This paper proposes a novel method for probabilistic reconciliation of count time series which results in a reconciled probability mass function, and shows a significant forecast improvement over probabilistic Gaussian reconciliation."
+}

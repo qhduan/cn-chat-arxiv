@@ -1,0 +1,11 @@
+{
+    "title": "Attention-likelihood relationship in transformers. (arXiv:2303.08288v1 [cs.CL])",
+    "abstract": "We analyze how large language models (LLMs) represent out-of-context words, investigating their reliance on the given context to capture their semantics. Our likelihood-guided text perturbations reveal a correlation between token likelihood and attention values in transformer-based language models. Extensive experiments reveal that unexpected tokens cause the model to attend less to the information coming from themselves to compute their representations, particularly at higher layers. These findings have valuable implications for assessing the robustness of LLMs in real-world scenarios. Fully reproducible codebase at https://github.com/Flegyas/AttentionLikelihood.",
+    "link": "http://arxiv.org/abs/2303.08288",
+    "context": "Title: Attention-likelihood relationship in transformers. (arXiv:2303.08288v1 [cs.CL])\nAbstract: We analyze how large language models (LLMs) represent out-of-context words, investigating their reliance on the given context to capture their semantics. Our likelihood-guided text perturbations reveal a correlation between token likelihood and attention values in transformer-based language models. Extensive experiments reveal that unexpected tokens cause the model to attend less to the information coming from themselves to compute their representations, particularly at higher layers. These findings have valuable implications for assessing the robustness of LLMs in real-world scenarios. Fully reproducible codebase at https://github.com/Flegyas/AttentionLikelihood.",
+    "path": "papers/23/03/2303.08288.json",
+    "total_tokens": 719,
+    "translated_title": "Transformer中的注意力-可能性关系分析",
+    "translated_abstract": "本文分析了大型语言模型（LLMs）如何表示上下文之外的单词，并调查它们对给定上下文来捕捉语义的依赖性。我们的可能性引导的文本扰动揭示了基于transformer的语言模型中标记可能性和注意力值之间的关联。广泛的实验发现，在更高层特别是遇到意外的标记时，模型会关注较少的来自自身的信息来计算它们的表示。这些发现对于评估LLMs在现实世界场景中的稳健性具有有价值的影响。在https://github.com/Flegyas/AttentionLikelihood中有完全可重现的代码库。",
+    "tldr": "本文分析了Transformer中标记可能性和注意力值之间的关联，揭示了在遇到意外标记时模型关注较少的信息，对于评估LLMs在现实世界场景中的稳健性具有有价值的影响。"
+}

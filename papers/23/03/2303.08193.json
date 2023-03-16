@@ -1,0 +1,12 @@
+{
+    "title": "RODD: Robust Outlier Detection in Data Cubes. (arXiv:2303.08193v1 [cs.DB])",
+    "abstract": "Data cubes are multidimensional databases, often built from several separate databases, that serve as flexible basis for data analysis. Surprisingly, outlier detection on data cubes has not yet been treated extensively. In this work, we provide the first framework to evaluate robust outlier detection methods in data cubes (RODD). We introduce a novel random forest-based outlier detection approach (RODD-RF) and compare it with more traditional methods based on robust location estimators. We propose a general type of test data and examine all methods in a simulation study. Moreover, we apply ROOD-RF to real world data. The results show that RODD-RF can lead to improved outlier detection.",
+    "link": "http://arxiv.org/abs/2303.08193",
+    "context": "Title: RODD: Robust Outlier Detection in Data Cubes. (arXiv:2303.08193v1 [cs.DB])\nAbstract: Data cubes are multidimensional databases, often built from several separate databases, that serve as flexible basis for data analysis. Surprisingly, outlier detection on data cubes has not yet been treated extensively. In this work, we provide the first framework to evaluate robust outlier detection methods in data cubes (RODD). We introduce a novel random forest-based outlier detection approach (RODD-RF) and compare it with more traditional methods based on robust location estimators. We propose a general type of test data and examine all methods in a simulation study. Moreover, we apply ROOD-RF to real world data. The results show that RODD-RF can lead to improved outlier detection.",
+    "path": "papers/23/03/2303.08193.json",
+    "total_tokens": 808,
+    "translated_title": "RODD: 数据立方体中的鲁棒异常检测",
+    "translated_abstract": "数据立方体是多维数据库，通常由几个独立的数据库构建而成，可作为灵活的数据分析基础。令人惊讶的是，数据立方体上的异常检测尚未得到广泛的研究。在本文中，我们提供了第一个评估数据立方体中鲁棒异常检测方法的框架（RODD）。我们介绍了一种新的基于随机森林的异常检测方法（RODD-RF），并将其与基于鲁棒位置估计的传统方法进行比较。我们提出了一般类型的测试数据，并在模拟研究中研究了所有方法。此外，我们将ROOD-RF应用于真实世界的数据。结果表明，RODD-RF可以导致更好的异常检测。",
+    "tldr": "本文提出了第一个评估数据立方体中鲁棒异常检测方法的框架RODD，介绍了一种新的基于随机森林的异常检测方法RODD-RF，并将其应用于真实世界的数据中，结果表明RODD-RF可以导致更好的异常检测。",
+    "en_tdlr": "This paper proposes the first framework RODD to evaluate robust outlier detection methods in data cubes, introduces a novel random forest-based outlier detection approach RODD-RF, applies it to real world data and shows that RODD-RF can lead to improved outlier detection."
+}
