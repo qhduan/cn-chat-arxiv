@@ -17,6 +17,7 @@
 | [^13] | [A Bayesian derivation of the square root law of market impact.](http://arxiv.org/abs/2303.08867) | 本文提出了一个贝叶斯市场预期的简单模型，可以解释金融资产价格对一系列交易的影响，包括交易量与价格波动平方根成正比、小交易量时成线性关系、交易结束后影响衰减回到均衡。平方根影响定律可能来自于对元订单订单流的高估。 |
 | [^14] | [Robust utility maximization with nonlinear continuous semimartingales.](http://arxiv.org/abs/2206.14015) | 本文研究模型不确定性下的连续时间健壮效用最大化问题，通过对偶性证明了对数、指数和幂效用的最优组合的存在性。 |
 | [^15] | [Tail-GAN: Learning to Simulate Tail Risk Scenarios.](http://arxiv.org/abs/2203.01664) | 本文提出了一种新的数据驱动方法Tail-GAN来学习模拟尾部风险情景。该方法利用了生成对抗网络和风险价值及预期收益率的联合诱导属性，在保留统计数据的基础上模拟价格情景。通过大量实验证明，该方法表现出更准确、更快速和更稳健的特点。 |
+| [^16] | [Mixed--frequency quantile regressions to forecast Value--at--Risk and Expected Shortfall.](http://arxiv.org/abs/2011.00552) | 本文提出了一个基于混合频率分位数回归的模型，直接估计风险价值（VaR）和预期损失（ES）度量，既包括低频率部分，又包括高频率部分，提高了预测的准确性。 |
 
 # 详细
 
@@ -229,5 +230,19 @@
     动态投资组合的损失分布估计需要模拟代表其组成部分的联合动态的情景，特别重要的是模拟尾部风险情景。我们提出了一种新的数据驱动方法，利用生成对抗网络（GAN）结构并利用风险价值（VaR）和预期收益率（ES）的联合诱导属性。我们的方法能够学习模拟具有保留基准交易策略的尾部风险特征的价格情景，包括一致的统计数据，如 VaR 和 ES。在本文中，我们证明了在广泛的风险度量类别下，我们的生成器具有普适逼近定理。此外，我们证明生成器和鉴别器之间的双层优化公式等价于一个极大极小博弈，从而导致更有效和实用的公式来训练。我们的数值实验表明，与传统方法相比，Tail-Gan有更准确、更快速和更稳健的表现。
 
     The estimation of loss distributions for dynamic portfolios requires the simulation of scenarios representing realistic joint dynamics of their components, with particular importance devoted to the simulation of tail risk scenarios. We propose a novel data-driven approach that utilizes Generative Adversarial Network (GAN) architecture and exploits the joint elicitability property of Value-at-Risk (VaR) and Expected Shortfall (ES). Our proposed approach is capable of learning to simulate price scenarios that preserve tail risk features for benchmark trading strategies, including consistent statistics such as VaR and ES.  In this paper, we prove a universal approximation theorem for our generator under a broad class of risk measures. In addition, we prove that the bi-level optimization formulation between the generator and the discriminator is equivalent to a max-min game, leading to a more effective and practical formulation for training. Our numerical experiments show that, in contrast
+    
+[^16]: 混合频率分位数回归在预测风险价值和预期损失中的应用
+
+    Mixed--frequency quantile regressions to forecast Value--at--Risk and Expected Shortfall. (arXiv:2011.00552v3 [q-fin.ST] UPDATED)
+
+    [http://arxiv.org/abs/2011.00552](http://arxiv.org/abs/2011.00552)
+
+    本文提出了一个基于混合频率分位数回归的模型，直接估计风险价值（VaR）和预期损失（ES）度量，既包括低频率部分，又包括高频率部分，提高了预测的准确性。
+
+    
+
+    尽管分位数回归被广泛应用于计算风险度量，但在考虑混合频率数据时，则需要进行扩展。本文建立了一个基于混合频率分位数回归的模型，直接估计风险价值（VaR）和预期损失（ES）度量。特别是，低频率部分包含来自通常以月度或更低频率观测的变量的信息，而高频率部分可以包括各种日常变量，如市场指数或实现波动率度量。导出了日收益过程的弱平稳条件，并在广泛的蒙特卡罗实验中研究了有限样本性质。然后通过实际数据应用在两种能源商品，即原油和汽油期货中，探究了所提出模型的有效性。结果表明，我们的模型表现优异。
+
+    Although quantile regression to calculate risk measures has been widely established in the financial literature, when considering data observed at mixed--frequency, an extension is needed. In this paper, a model is suggested built on a mixed--frequency quantile regression to directly estimate the Value--at--Risk (VaR) and the Expected Shortfall (ES) measures. In particular, the low--frequency component incorporates information coming from variables observed at, typically, monthly or lower frequencies, while the high--frequency component can include a variety of daily variables, like market indices or realized volatility measures. The conditions for the weak stationarity of the daily return process are derived and the finite sample properties are investigated in an extensive Monte Carlo exercise. The validity of the proposed model is then explored through a real data application using two energy commodities, namely, Crude Oil and Gasoline futures. Results show that our model outperforms
     
 
