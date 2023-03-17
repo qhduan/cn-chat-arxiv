@@ -1,0 +1,12 @@
+{
+    "title": "Comparing Feature Importance and Rule Extraction for Interpretability on Text Data. (arXiv:2207.01420v1 [cs.LG] CROSS LISTED)",
+    "abstract": "Complex machine learning algorithms are used more and more often in critical tasks involving text data, leading to the development of interpretability methods. Among local methods, two families have emerged: those computing importance scores for each feature and those extracting simple logical rules. In this paper we show that using different methods can lead to unexpectedly different explanations, even when applied to simple models for which we would expect qualitative coincidence. To quantify this effect, we propose a new approach to compare explanations produced by different methods.",
+    "link": "http://arxiv.org/abs/2207.01420",
+    "context": "Title: Comparing Feature Importance and Rule Extraction for Interpretability on Text Data. (arXiv:2207.01420v1 [cs.LG] CROSS LISTED)\nAbstract: Complex machine learning algorithms are used more and more often in critical tasks involving text data, leading to the development of interpretability methods. Among local methods, two families have emerged: those computing importance scores for each feature and those extracting simple logical rules. In this paper we show that using different methods can lead to unexpectedly different explanations, even when applied to simple models for which we would expect qualitative coincidence. To quantify this effect, we propose a new approach to compare explanations produced by different methods.",
+    "path": "papers/22/07/2207.01420.json",
+    "total_tokens": 692,
+    "translated_title": "在文本数据上比较特征重要性和规则提取的可解释性",
+    "translated_abstract": "复杂的机器学习算法在涉及文本数据的关键任务中越来越常见，这导致了可解释性方法的发展。在局部方法中，出现了两种族群：一种计算每个特征的重要性分数，另一种则提取简单的逻辑规则。在本文中，我们展示了使用不同方法可以导致意外不同的解释，即使应用于那些我们预计会有定性巧合的简单模型上。为了量化这种影响，我们提出一种比较不同方法产生的解释的新方法。",
+    "tldr": "本文比较了文本数据上两类方法：计算每个特征的重要性分数和提取简单逻辑规则，发现在相同模型下产生的解释也不同。我们提出了一种比较解释差异的方法。",
+    "en_tdlr": "This paper compares the interpretability of two methods for text data: computing importance scores for each feature and extracting simple logical rules, and finds that using different methods can lead to unexpectedly different explanations, even for simple models. A new approach to compare explanations produced by different methods is proposed."
+}

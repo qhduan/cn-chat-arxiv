@@ -1,0 +1,12 @@
+{
+    "title": "Temporality and Causality in Abstract Argumentation. (arXiv:2303.09197v1 [cs.AI])",
+    "abstract": "In the context of abstract argumentation, we present the benefits of considering temporality, i.e. the order in which arguments are enunciated, as well as causality. We propose a formal method to rewrite the concepts of acyclic abstract argumentation frameworks into an action language, that allows us to model the evolution of the world, and to establish causal relationships between the enunciation of arguments and their consequences, whether direct or indirect. An Answer Set Programming implementation is also proposed, as well as perspectives towards explanations.",
+    "link": "http://arxiv.org/abs/2303.09197",
+    "context": "Title: Temporality and Causality in Abstract Argumentation. (arXiv:2303.09197v1 [cs.AI])\nAbstract: In the context of abstract argumentation, we present the benefits of considering temporality, i.e. the order in which arguments are enunciated, as well as causality. We propose a formal method to rewrite the concepts of acyclic abstract argumentation frameworks into an action language, that allows us to model the evolution of the world, and to establish causal relationships between the enunciation of arguments and their consequences, whether direct or indirect. An Answer Set Programming implementation is also proposed, as well as perspectives towards explanations.",
+    "path": "papers/23/03/2303.09197.json",
+    "total_tokens": 685,
+    "translated_title": "抽象论证中的时间性和因果关系。",
+    "translated_abstract": "在抽象论证的背景下，我们提出了考虑时间性和因果关系的好处，即论据被陈述的顺序以及它们之间的因果关系。我们提出了一种形式化的方法，将无环抽象论证框架的概念重新编写成一个行动语言，使我们能够模拟世界的演化，并建立论据陈述和它们的直接或间接后果之间的因果关系。我们还提出了一个Answer Set编程实现，并探讨了解释的发展方向。",
+    "tldr": "该论文研究了抽象论证中的时间性和因果关系，提出了一种形式化的方法，将无环抽象论证框架的概念重新编写成一个行动语言，并建立起论据陈述和它们直接或间接后果之间的因果关系。",
+    "en_tdlr": "This paper explores the benefits of considering temporality and causality in abstract argumentation, proposes a formal method to rewrite acyclic frameworks into an action language to establish causal relationships between arguments and their consequences, and presents an Answer Set Programming implementation with prospects towards explanations."
+}

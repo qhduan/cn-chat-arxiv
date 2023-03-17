@@ -2,232 +2,142 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [The Effects of the Pandemic on Market Power and Profitability.](http://arxiv.org/abs/2303.08765) | 该论文研究了COVID-19疫情期间上市公司的标价和利润率，估计了如果没有疫情，标记价格将比观察到的高，利润率将比预测低，此外还发现了疫情对关键公司特征和行业造成的明显影响。 |
-| [^2] | [Mean-variance constrained priors have finite maximum Bayes risk in the normal location model.](http://arxiv.org/abs/2303.08653) | 该研究证明了在正态位置模型中，限制了均值方差的先验，在贝叶斯风险下具有有限的最大误差，结果适用于各种先验和方差。 |
-| [^3] | [Expected Utility from a Constructive Viewpoint.](http://arxiv.org/abs/2303.08633) | 本文证明了期望效用定理的一个建设性版本，在这个版本中，偏好是在某个拓扑空间上连续变化的抽签上定义的，并用较小集合的开覆盖作为信息细化的一个概念，这两个建设性观点涉及到直觉主义逻辑和集合的分解。 |
-| [^4] | [Learning to Incentivize Information Acquisition: Proper Scoring Rules Meet Principal-Agent Model.](http://arxiv.org/abs/2303.08613) | 本文设计了一种样本高效算法，将 UCB 算法（Auer等人，2002）应用于委托代理模型的在线设置，该算法能够通过与策略代理多次互动来设计最优的计分规则，并实现良好的效果。 |
-| [^5] | [Identifying an Earnings Process With Dependent Contemporaneous Income Shocks.](http://arxiv.org/abs/2303.08460) | 本文提出了一种新的方法，用于识别具有任意相关同期收入冲击的盈利动态模型中的系数。 |
-| [^6] | [Are high school degrees and university diplomas equally heritable in the US? A new measure of relative intergenerational mobility.](http://arxiv.org/abs/2303.08445) | 本文提出了一种新的相对代际流动性的衡量方式，旨在控制个人和父母特征分布的变化。通过对美国人口普查数据的实证分析，揭示出充分控制特征分布的变化对于减少高中毕业率和大学学位遗传性的政策的制定具有重要意义。 |
-| [^7] | [Measuring Stochastic Rationality.](http://arxiv.org/abs/2303.08202) | 使用一种部分排序方法来开发随机理性的度量，并引入了一个随机理性指数。该排序检测违反（随机）传递性以及选择嵌套菜单之间的不一致性。 |
-| [^8] | [Redesigning the US Army's Branching Progress: A Case Study in Minimalist Market Design.](http://arxiv.org/abs/2303.06564) | 本文提出了一种简约市场设计的方法，以最小的干预来增强基于利益相关者的机构。通过将军队的期望作为严格的公理，我们分析了它们的影响。在我们的简约机构重构方法下，军队的目标唯一确定了一个分支机制。我们的设计现在已在美国陆军将军学院和ROTC中采用。 |
-| [^9] | [Random Utility, Repeated Choice, and Consumption Dependence.](http://arxiv.org/abs/2302.05806) | 本文研究了随机效用模型和重复选择模型中的消费依赖性，提出了两种符合随机效用的马尔科夫消费依赖性特征，并对两期随机选择模型中的消费依赖性进行了行为内容的特征化。 |
-| [^10] | [Factor Model of Mixtures.](http://arxiv.org/abs/2301.13843) | 本文提出了一种混合因子模型的方法，通过建模基分位函数的混合来估计响应变量分布，并通过凸优化问题进行校准，同时避免分位交叉。此外，作者还提出了一种降维方法和交替估计算法，并将该方法推广到条件混合因子模型。 |
-| [^11] | [Auctions without commitment in the auto-bidding world.](http://arxiv.org/abs/2301.07312) | 本文研究了自动出价世界中的无承诺拍卖，通过考虑承诺的概念，合理地采用了看似次优的投标方式。 |
-| [^12] | [Profit Shifting Frictions and the Geography of Multinational Activity.](http://arxiv.org/abs/2211.04388) | 本文建立了一个定量一般均衡模型，研究利润转移摩擦对跨国生产的影响，提出一种新的校准方法，并模拟了税收改革的影响。结果表明，公司国际转移对多个国家的影响与可纳税收入的直接增益相当。 |
-| [^13] | [Boosted p-Values for High-Dimensional Vector Autoregression.](http://arxiv.org/abs/2211.02215) | 本文提出了一种利用最小二乘提升法计算线性模型中每个选定参数的p-值的方法，这些p-值是适应于提升过程的迭代性质，并且在模拟和实际应用中都表现出良好的性能，控制了误报率，并选择具有良好预测性能的更稀疏的模型。 |
-| [^14] | [Do Unions Shape Political Ideologies at Work?.](http://arxiv.org/abs/2209.02637) | 本文研究了工会对美国工作场所、管理层和员工政治活动的影响，发现工会化导致政治活动捐款向左转移，不仅在工人中增加对民主党的支持，也在管理层中增加了对民主党的支持，表明两组人之间的政治分化并未增加。 |
-| [^15] | [Bounded rationality for relaxing best response and mutual consistency: The Quantal Hierarchy model of decision-making.](http://arxiv.org/abs/2106.15844) | 本研究提出了Quantal Hierarchy模型，放宽了互相一致性和最优反应的限制，使得可以近似级别K，QRE或Nash均衡行为。这种模型基于变分自由能原理的递归形式，将更高阶推理表示为演化形式博弈树中的（伪）序列决策制定。 |
+| [^1] | [Optimal Delegation in Markets for Matching with Signaling.](http://arxiv.org/abs/2303.09415) | 本文研究了在市场匹配中，接收者与发送者之间的信号传递和委托问题，提出了最优区间委托的解决方案，并针对接收者类型和发信人信号的生产力进行了解析，找到最优委托方法，来保证匹配效率和信号成本之间的平衡。 |
+| [^2] | [Simplifying and Improving: Revisiting Bulgaria's Revenue Forecasting Models.](http://arxiv.org/abs/2303.09405) | 本文探讨了是否有更好的个人和公司所得税收入的预测模型是容易实施的并且优于目前正在使用的模型。 |
+| [^3] | [Main Concepts and Principles of Political Economy -- Production and Values, Distribution and Prices, Reproduction and Profits.](http://arxiv.org/abs/2303.09399) | 本书提供了一个基于生产水平上的等价关系的一致的价值理论，并重新定义生产的真正含义及社会资本的再生产理论。其利润理论表明利润对应于物理可测量的量。 |
+| [^4] | [Physics Breakthrough Disproves Fundamental Assumptions of the Chicago School.](http://arxiv.org/abs/2303.09321) | 本文揭示出芝加哥学派的博弈论模型的一个基本假设被证明是错误的，这可以对其假设人类行为既理性又自私的学说提出挑战。 |
+| [^5] | [Economic Consequences of Online Tracking Restrictions.](http://arxiv.org/abs/2303.09147) | 该文介绍了限制在线追踪用户的时间，针对出版商可能产生的经济影响做了一个成本效益分析，研究发现Cookie寿命限制在一年（两年）会使其价值降低25％（19％），这表示所有Cookie价值减少了9％（5％）。 |
+| [^6] | [Economics of In-Space Industry and Competitiveness of Lunar-Derived Rocket Propellant.](http://arxiv.org/abs/2303.09011) | 本文通过分析运用太空经济学框架对月球推进剂生产的长期成本进行建模，研究对比从地球发射的推进剂是否具有商业竞争力，结果发现运输成本比和资本产量比是决定竞争力的重要因素，而之前分析结果的分歧是由于选择高成本比例的运输架构和忽略提高资本产量比的关键因素造成的。 |
+| [^7] | [Signalling for Electricity Demand Response: When is Truth Telling Optimal?.](http://arxiv.org/abs/2302.12770) | 该论文研究了电力需求响应计划中的信息传输问题，发现如果电力价格定为其生产边际成本，则系统运营商没有欺骗的动机且总是说真话。 |
+| [^8] | [Stronger Monotone Signaling Equilibrium.](http://arxiv.org/abs/2109.03370) | 本文研究了更强的单调信号平衡，提出了针对稳定匹配的竞争性信号均衡概念，并给出了满足 D1 准则的条件。在具有准线性效用函数的单一匹配市场上建立了唯一的更强单调平衡。 |
+| [^9] | [Necessary and Sufficient Conditions for Inverse Reinforcement Learning of Bayesian Stopping Time Problems.](http://arxiv.org/abs/2007.03481) | 本文提出了一个Bayesian停时问题的逆强化学习框架，结合微观经济学中的Bayesian揭示偏好思路，通过观察Bayesian决策者的行动，确定其的最优性。并且通过两个停时问题示例得到了验证，并且已在一个真实的例子中得到了高精度地预测用户参与度。 |
 
 # 详细
 
-[^1]: 疫情对市场力量和盈利能力的影响
+[^1]: 带信号的匹配市场中的最优委托问题研究
 
-    The Effects of the Pandemic on Market Power and Profitability. (arXiv:2303.08765v1 [econ.GN])
+    Optimal Delegation in Markets for Matching with Signaling. (arXiv:2303.09415v1 [econ.TH])
 
-    [http://arxiv.org/abs/2303.08765](http://arxiv.org/abs/2303.08765)
+    [http://arxiv.org/abs/2303.09415](http://arxiv.org/abs/2303.09415)
 
-    该论文研究了COVID-19疫情期间上市公司的标价和利润率，估计了如果没有疫情，标记价格将比观察到的高，利润率将比预测低，此外还发现了疫情对关键公司特征和行业造成的明显影响。
-
-    
-
-    该论文研究了3,611家上市公司在COVID-19疫情期间的公司水平的标记和利润率，并发现了平均公司的增长。我们提供了一些条件，使得标记和利润率的预测具有因果解释，即如果疫情没有发生，会发生什么。我们的估计表明，如果疫情没有发生，标记价格将比2020年和2021年观察到的高4％和7％，利润率将比预测低2.1和6.4个百分点。我们进行了一系列测试，以评估我们方法的稳健性。我们进一步展示了由关键公司特征和行业造成的冠状病毒对公司影响的显著差异。我们发现，标记价格低于预期的公司往往在股票上交易时间较短且员工较少。
-
-    We explore firm-level markup and profit rates during the COVID-19 pandemic for a panel of 3,611 publicly traded firms in Compustat and find increases for the average firm. We offer conditions to give markups and profit rate forecasts a causal interpretation of what would have happened had the pandemic not happened. Our estimations suggest that had the pandemic not happened, markups would have been 4% and 7% higher than observed in 2020 and 2021, respectively, and profit rates would have been 2.1 and 6.4 percentage points lower. We perform a battery of tests to assess the robustness of our approach. We further show significant heterogeneity in the impact of the pandemic on firms by key firm characteristics and industry. We find that firms with lower than forecasted markups tend to have lower stock-exchange tenure and fewer employees.
-    
-[^2]: 正态位置模型中的均值-方差受限先验有有限的最大贝叶斯风险
-
-    Mean-variance constrained priors have finite maximum Bayes risk in the normal location model. (arXiv:2303.08653v1 [math.ST])
-
-    [http://arxiv.org/abs/2303.08653](http://arxiv.org/abs/2303.08653)
-
-    该研究证明了在正态位置模型中，限制了均值方差的先验，在贝叶斯风险下具有有限的最大误差，结果适用于各种先验和方差。
+    本文研究了在市场匹配中，接收者与发送者之间的信号传递和委托问题，提出了最优区间委托的解决方案，并针对接收者类型和发信人信号的生产力进行了解析，找到最优委托方法，来保证匹配效率和信号成本之间的平衡。
 
     
 
-    考虑一个正态位置模型，其中 $X \mid \theta \sim N(\theta, \sigma^2)$，$\sigma^2$已知。假设 $\theta \sim G_0$，其中先验 $G_0$ 具有零均值和单位方差。令 $G_1$ 为可能存在误差的零均值和单位方差的先验。我们表明，在 $G_0, G_1, \sigma^2 > 0$ 范围内，贝叶斯风险下的后验均值的平方误差有界。
+    本文研究了在信号传递方面，规制接收者反应选择的代表面临的委托问题。本文提供了计算规制者愿意委托的新观点，并设计了最优（反应）区间委托作为规划者一般机制设计问题的解决方案。接收者类型的相对异质性和发件人信号的生产力对最优区间委托的确定起着至关重要的作用，因为需要在匹配效率和信号成本之间做出权衡决策。
 
-    Consider a normal location model $X \mid \theta \sim N(\theta, \sigma^2)$ with known $\sigma^2$. Suppose $\theta \sim G_0$, where the prior $G_0$ has zero mean and unit variance. Let $G_1$ be a possibly misspecified prior with zero mean and unit variance. We show that the squared error Bayes risk of the posterior mean under $G_1$ is bounded, uniformly over $G_0, G_1, \sigma^2 > 0$.
+    This paper studies a delegation problem faced by the planner who wants to regulate receivers' reaction choices in markets for matching between receivers and senders with signaling. We provide a noble insight into the planner's willingness to delegate and the design of optimal (reaction) interval delegation as a solution to the planner's general mechanism design problem. The relative heterogeneity of receiver types and the productivity of the sender' signal are crucial in deriving optimal interval delegation in the presence of the trade-off between matching efficiency and signaling costs.
     
-[^3]: 从建设性观点看期望效用
+[^2]: 简化与改进：重访保加利亚的收入预测模型。
 
-    Expected Utility from a Constructive Viewpoint. (arXiv:2303.08633v1 [econ.TH])
+    Simplifying and Improving: Revisiting Bulgaria's Revenue Forecasting Models. (arXiv:2303.09405v1 [econ.GN])
 
-    [http://arxiv.org/abs/2303.08633](http://arxiv.org/abs/2303.08633)
+    [http://arxiv.org/abs/2303.09405](http://arxiv.org/abs/2303.09405)
 
-    本文证明了期望效用定理的一个建设性版本，在这个版本中，偏好是在某个拓扑空间上连续变化的抽签上定义的，并用较小集合的开覆盖作为信息细化的一个概念，这两个建设性观点涉及到直觉主义逻辑和集合的分解。
-
-    
-
-    本文证明了期望效用定理的一个建设性版本。这里的建设性有两个含义——第一，像建设性数学那样，证明所依据的逻辑是直觉主义的；第二，建设性意味着由简单的组件构建而来。偏好是在某个拓扑空间上连续变化的抽签上定义的，而且这些抽签本身被认为是取决于某种基础的测量、商议或观察过程。拓扑空间的开集作为有关偏好的断言的可能真值，并且制约着可以测量、推导或观察到的内容。用较小集合的开覆盖替换开集作为信息细化的一个概念，并且对这些较小集合作出的推断可以组合或汇总，以便得到在较大集合上的相应推断。这两个建设性观点结果是相关的，因为其中一个涉及到直觉主义逻辑而另一个则涉及到集合的分解。
-
-    This paper proves a constructive version of the expected utility theorem. The word constructive is construed here in two senses - first, as in constructive mathematics, whereby the logic underlying proofs is intuitionistic. In a second sense of the word, constructive is taken to mean built up from simpler components. Preferences are defined over lotteries that vary continuously over some topological space and are themselves assumed to vary depending upon some underlying process of measurement, deliberation, or observation. The open sets of the topology serve as the possible truth values of assertions about preference and constrain what can be measured, deduced, or observed. Replacing an open set by an open covering of smaller sets serves as a notion of refinement of information, and deductions made for these smaller sets can be combined or collated to yield corresponding deductions over the larger set. The two notions of constructive turn out to be related because the underlying logic 
-    
-[^4]: 学习奖励信息获取：正确计分规则遇到委托代理模型
-
-    Learning to Incentivize Information Acquisition: Proper Scoring Rules Meet Principal-Agent Model. (arXiv:2303.08613v1 [cs.LG])
-
-    [http://arxiv.org/abs/2303.08613](http://arxiv.org/abs/2303.08613)
-
-    本文设计了一种样本高效算法，将 UCB 算法（Auer等人，2002）应用于委托代理模型的在线设置，该算法能够通过与策略代理多次互动来设计最优的计分规则，并实现良好的效果。
+    本文探讨了是否有更好的个人和公司所得税收入的预测模型是容易实施的并且优于目前正在使用的模型。
 
     
 
-    本文研究委托代理模型中的激励信息获取问题。此问题被建模为委托方和代理方之间的 Stackelberg 博弈，其中委托人宣布了一条得分规则来指定付款，然后代理方选择最大化其自身利润和报告信息的努力水平。我们从委托方的角度研究这个问题的在线设置，即通过与策略代理多次交互来设计最优计分规则。我们设计了一种可证明的样本高效算法，将 UCB 算法 (Auer et al., 2002) 量身定制到我们的模型中，其在 T 次迭代后实现了次线性 $T^{2/3}$-遗憾。我们的算法具有对委托方最优利润进行精细估计的过程以及保守纠正方案，以确保代理方的行动得到有效激励。此外，我们的遗憾界的一个关键特征是它是渐进最小可实现的。
+    自真正社会主义结束三十年来，保加利亚的税收制度已经从相当激进的“不同”制度转变为采用较低的税率，公司所得税和个人所得税的边际税率从40％降至10％。重要的是，在保加利亚财政部使用的计量经济学预测模型中，暗示着与所谓的“拉弗曲线”相容的税收增加。同样，许多经济学家认为，收入会增加。然而，现实并未达到基于预测模型和根植于主流经济理论的期望。因此，本文探讨是否有更好的个人和公司所得税收入的预测模型是容易实施的并且优于目前正在使用的模型。在提出对目前预测模型的建设性批评之后，本文提供了容易实现，透明的替代方案。
 
-    We study the incentivized information acquisition problem, where a principal hires an agent to gather information on her behalf. Such a problem is modeled as a Stackelberg game between the principal and the agent, where the principal announces a scoring rule that specifies the payment, and then the agent then chooses an effort level that maximizes her own profit and reports the information. We study the online setting of such a problem from the principal's perspective, i.e., designing the optimal scoring rule by repeatedly interacting with the strategic agent. We design a provably sample efficient algorithm that tailors the UCB algorithm (Auer et al., 2002) to our model, which achieves a sublinear $T^{2/3}$-regret after $T$ iterations. Our algorithm features a delicate estimation procedure for the optimal profit of the principal, and a conservative correction scheme that ensures the desired agent's actions are incentivized. Furthermore, a key feature of our regret bound is that it is i
+    In the thirty years since the end of real socialism, Bulgaria's went from having a rather radically 'different' tax system to adopting flat-rate taxation with marginal tax rates that fell from figures as high as 40% to 10% for both the corporate-income tax and the personal-income tax. Crucially, the econometric forecasting models in use at the Bulgarian Ministry of Finance hinted at an increase in tax revenue compatible with the so-called 'Laffer curve'. Similarly, many economists held the view that revenues would have increased. However, reality fell short of those expectations based on forecasting models and rooted in mainstream economic theory. Thus, this paper asks whether there are betterperforming forecasting models for personal-and corporate-income tax-revenues in Bulgaria that are readily implementable and overperform the ones currently in use. After articulating a constructive critique of the current forecasting models, the paper offers readily implementable, transparent alter
     
-[^5]: 识别具有相关同期收入冲击的盈利过程
+[^3]: 政治经济学的主要概念与原则——生产与价值、分配与价格、再生产与利润
 
-    Identifying an Earnings Process With Dependent Contemporaneous Income Shocks. (arXiv:2303.08460v1 [econ.EM])
+    Main Concepts and Principles of Political Economy -- Production and Values, Distribution and Prices, Reproduction and Profits. (arXiv:2303.09399v1 [econ.GN])
 
-    [http://arxiv.org/abs/2303.08460](http://arxiv.org/abs/2303.08460)
+    [http://arxiv.org/abs/2303.09399](http://arxiv.org/abs/2303.09399)
 
-    本文提出了一种新的方法，用于识别具有任意相关同期收入冲击的盈利动态模型中的系数。
-
-    
-
-    本文提出了一种新的方法，用于识别具有任意相关同期收入冲击的盈利动态模型中的系数。传统方法依赖于二阶矩无法识别这些系数，强调了需要捕捉高阶矩信息的非高斯假设的必要性。例如，我们的结果有助于盈利动态文献，允许盈利模型具有工作变动的永久收入冲击与同期短暂收入冲击的关联性。
-
-    This paper proposes a novel approach for identifying coefficients in an earnings dynamics model with arbitrarily dependent contemporaneous income shocks. Traditional methods relying on second moments fail to identify these coefficients, emphasizing the need for nongaussianity assumptions that capture information from higher moments. Our results contribute to the literature on earnings dynamics by allowing models of earnings to have, for example, the permanent income shock of a job change to be linked to the contemporaneous transitory income shock of a relocation bonus.
-    
-[^6]: 美国的高中文凭和大学学历是否同样具有遗传性？相对代际流动性的新衡量方式
-
-    Are high school degrees and university diplomas equally heritable in the US? A new measure of relative intergenerational mobility. (arXiv:2303.08445v1 [econ.GN])
-
-    [http://arxiv.org/abs/2303.08445](http://arxiv.org/abs/2303.08445)
-
-    本文提出了一种新的相对代际流动性的衡量方式，旨在控制个人和父母特征分布的变化。通过对美国人口普查数据的实证分析，揭示出充分控制特征分布的变化对于减少高中毕业率和大学学位遗传性的政策的制定具有重要意义。
+    本书提供了一个基于生产水平上的等价关系的一致的价值理论，并重新定义生产的真正含义及社会资本的再生产理论。其利润理论表明利润对应于物理可测量的量。
 
     
 
-    本文提出了一种相对代际流动性的新衡量方式，将教育特征作为机会不平等的代理。与通常使用的代际持久系数相比，新的衡量方式更适合控制个人和父母特征分布的变化。本文实证分析美国人口普查数据表明，充分控制特征分布的变化对于评估代际流动中不是由教育扩张引起的部分至关重要。否则，各种旨在减少高中毕业率和大学学位遗传性的政策的相对优先级可能会被颠倒。
+    本书旨在从经济理论的奠基者亚当·斯密、戴维·李嘉图和卡尔·马克思提出的基本问题入手，探究商品的价值是由什么构成的，生产、交换、货币和收入（如利润、工资和租金）是什么样的。这些经济学家提供的答案大多是错误的，尤其是在将商品的等价定义为交换的水平上，但也由于将价值与价格混淆，并错误地看待生产的真正含义及固定资本的作用。本书运用度量的数学理论和维度分析的物理理论，基于一个不是在交换水平而是在生产水平上的等价关系，提供了一个一致的价值理论。本书拒绝将生产视为将投入转化为产出的过程，并从物质、能量和人类与自然、机器和其他人类进行交互的智力活动的物理角度对其进行重新定义。社会资本的再生产理论是基于恒定资本、可变资本和剩余价值的三分法，并确立价值守恒定律作为分配与价格理论的基石。利润理论表明，利润对应于物理可测量的量，因为在不确定性和风险的条件下，它是生产过程的物理结果。
 
-    This paper proposes a new measure of relative intergenerational mobility along the educational trait as a proxy of inequality of opportunity. The new measure is more suitable for controlling for the variations in the trait distributions of individuals and their parents than the commonly used intergenerational persistence coefficient. This point is illustrated by our empirical analysis of US census data from the period between 1960 and 2015: we show that controlling for the variations in the trait distributions adequately is vital in assessing the part of intergenerational mobility which is not caused by the educational expansion. Failing to do so can potentially reverse the relative priority of various policies aiming at reducing the "heritability" of high school degrees and tertiary education diplomas.
+    This book starts from the basic questions that had been raised by the founders of Economic theory, Smith, Ricardo, and Marx: what makes the value of commodities, what are production, exchange, money and incomes like profits, wages and rents. The answers that these economists had provided were mostly wrong, above all by defining the equivalence of commodities at the level of exchange, but also because of a confusion made between values and prices, and wrong views of what production really is and the role of fixed capital. Using the mathematical theory of measurement and the physical theory of dimensional analysis, this book provides a coherent theory of value based on an equivalence relation not at the level of exchange, but of production. Indeed exchange is considered here as an equivalence relation between money and a monetary price, and not between commodities, modern monetary theory having demonstrated that money is not a commodity. The book rejects the conception of production as a
     
-[^7]: 测量随机理性
+[^4]: 物理学突破证明芝加哥学派的基本假设是错误的
 
-    Measuring Stochastic Rationality. (arXiv:2303.08202v1 [econ.TH])
+    Physics Breakthrough Disproves Fundamental Assumptions of the Chicago School. (arXiv:2303.09321v1 [econ.TH])
 
-    [http://arxiv.org/abs/2303.08202](http://arxiv.org/abs/2303.08202)
+    [http://arxiv.org/abs/2303.09321](http://arxiv.org/abs/2303.09321)
 
-    使用一种部分排序方法来开发随机理性的度量，并引入了一个随机理性指数。该排序检测违反（随机）传递性以及选择嵌套菜单之间的不一致性。
-
-    
-
-    我们通过为任意随机选择函数分配一个一参数类的确定性选择对应来开发一种部分排序方法，从而比较它们的理性基础。然后检查这些对应在每个参数值的理性性（按照显露首选之标准）。类似于确定性理性的经典概念，我们的理性排序不仅检测违反（随机）传递性，还检测嵌套菜单中选择之间的不一致性。我们获得了一种易于使用的排序特征描述，然后使用这种特征描述引入了一个随机理性指数。我们将我们的排序和指数应用于一些著名的随机选择模型，并使用阿莫斯·特沃斯基的一项著名实验进行了实证应用。
-
-    We develop a partial ordering approach toward comparing stochastic choice functions on the basis of their rationality. We do this by assigning to any stochastic choice function a one-parameter class of deterministic choice correspondences, and then checking for the rationality (in the standard sense of revealed preference) of these correspondences for each parameter value. Similar to the classical notion of deterministic rationality, our rationality ordering detects violations of (stochastic) transitivity as well as inconsistencies between choices from nested menus. We obtain an easy-to-use characterization of this ordering, and then use that characterization to introduce an index of stochastic rationality. We apply our ordering and index to some well-known stochastic choice models and provide an empirical application using a famous experiment by Amos Tversky.
-    
-[^8]: 简约市场设计下的美国陆军分支进程重构：一个案例研究
-
-    Redesigning the US Army's Branching Progress: A Case Study in Minimalist Market Design. (arXiv:2303.06564v1 [econ.TH])
-
-    [http://arxiv.org/abs/2303.06564](http://arxiv.org/abs/2303.06564)
-
-    本文提出了一种简约市场设计的方法，以最小的干预来增强基于利益相关者的机构。通过将军队的期望作为严格的公理，我们分析了它们的影响。在我们的简约机构重构方法下，军队的目标唯一确定了一个分支机制。我们的设计现在已在美国陆军将军学院和ROTC中采用。
-
-    This paper proposes a minimalist market design approach to enhance institutions based on stakeholders' desiderata with minimal interference. By formulating the Army's desiderata as rigorous axioms, the paper analyzes their implications and uniquely identifies a branching mechanism under the minimalist approach to institution redesign. The design is now adopted at USMA and ROTC.
-
-    我们提出了简约市场设计（Sönmez，2023）作为一种有效的方法，以最小的干预来增强基于利益相关者的机构。自2006年以来，美国陆军将军学院的中央分支过程进行了四项目标：尊重功绩，增加保留，调整人才和增强信任。美国陆军2020年级的机制加剧了实现这些目标的挑战。通过将军队的期望作为严格的公理，我们分析了它们的影响。在我们的简约机构重构方法下，军队的目标唯一确定了一个分支机制。我们的设计现在已在美国陆军将军学院和ROTC中采用。
-
-    We present the proof-of-concept for minimalist market design (S\"{o}nmez, 2023) as an effective methodology to enhance an institution based on the desiderata of stakeholders with minimal interference. Four objectives-respecting merit, increasing retention, aligning talent, and enhancing trust-guided reforms to US Army's centralized branching process of cadets to military specialties since 2006. USMA's mechanism for the Class of 2020 exacerbated challenges implementing these objectives. Formulating the Army's desiderata as rigorous axioms, we analyze their implications. Under our minimalist approach to institution redesign, the Army's objectives uniquely identify a branching mechanism. Our design is now adopted at USMA and ROTC.
-    
-[^9]: 随机效用、重复选择和消费依赖性研究
-
-    Random Utility, Repeated Choice, and Consumption Dependence. (arXiv:2302.05806v3 [econ.TH] UPDATED)
-
-    [http://arxiv.org/abs/2302.05806](http://arxiv.org/abs/2302.05806)
-
-    本文研究了随机效用模型和重复选择模型中的消费依赖性，提出了两种符合随机效用的马尔科夫消费依赖性特征，并对两期随机选择模型中的消费依赖性进行了行为内容的特征化。
+    本文揭示出芝加哥学派的博弈论模型的一个基本假设被证明是错误的，这可以对其假设人类行为既理性又自私的学说提出挑战。
 
     
 
-    本研究探讨了随机选择的重复选择解释和随机效用模型的个体解释。我们考虑了一个目光短浅的代理人，他们明天的偏好分布可能取决于今天的消费和偏好。即使代理人在每个静态决策中都是经典的理性，也存在一些与随机效用作为跨时间聚合模型不一致的消费依赖形式。我们提供了两个马尔科夫消费依赖性的特征，这些特征与随机效用是一致的。进一步地，我们对两期随机选择模型中的消费依赖性进行了行为内容的特征化。
+    古典的法律经济学是美国法律制度的基础。芝加哥大学是其核心，其中最重要的假设是人类行为既理性又自私，这种假设影响了立法机构、法官和政府律师的思维方式，并塑造了商业交易方方面面。但是，如果芝加哥学派是错误的呢？本文提出了一个全新的原因，即其博弈论模型的一个基本假设已被证明是错误的。本文揭示了2012年物理学家Freeman Dyson的突破性发现震惊了博弈论界。本文表明芝加哥学派的博弈论学者是错的。
 
-    We study the repeated choice interpretation of stochastic choice and the individual interpretation of the random utility model. We consider a myopic agent whose distribution over preferences tomorrow potentially depends on their consumption and preference today. Even when the agent is classically rational in each of their static decisions, there are forms of consumption dependence which are inconsistent with random utility as a model of intertemporal aggregation. We offer two characterizations of Markovian consumption dependence which are consistent with random utility. Further, we characterize the behavioral content of consumption dependence in a two period stochastic choice model.
+    Classical law and economics is foundational to the American legal system. Centered at the University of Chicago, its assumptions, most especially that humans act both rationally and selfishly, informs the thinking of legislatures, judges, and government lawyers, and has shaped nearly every aspect of the way commercial transactions are conducted. But what if the Chicago School, as I refer to this line of thinking, is wrong? Alternative approaches such as behavioral law and economics or law and political economy contend that human decisionmaking is based on emotions or should not be regulated as a social geometry of bargains. This Article proposes a different and wholly novel reason that the Chicago School is wrong: a fundamental assumption central to many of its game theory models has been disproven. This Article shows that a 2012 breakthrough from world famous physicist Freeman Dyson shocked the world of game theory. This Article shows that Chicago School game theorists are wrong on th
     
-[^10]: 混合因子模型
+[^5]: 在线追踪限制的经济后果
 
-    Factor Model of Mixtures. (arXiv:2301.13843v2 [stat.ME] UPDATED)
+    Economic Consequences of Online Tracking Restrictions. (arXiv:2303.09147v1 [econ.GN])
 
-    [http://arxiv.org/abs/2301.13843](http://arxiv.org/abs/2301.13843)
+    [http://arxiv.org/abs/2303.09147](http://arxiv.org/abs/2303.09147)
 
-    本文提出了一种混合因子模型的方法，通过建模基分位函数的混合来估计响应变量分布，并通过凸优化问题进行校准，同时避免分位交叉。此外，作者还提出了一种降维方法和交替估计算法，并将该方法推广到条件混合因子模型。
-
-    
-
-    本论文提出了一种估计响应变量分布的新方法，该方法考虑了观测到的某些因素。该方法具有灵活性、可解释性、易处理性和可扩展性。条件分位函数由一组基分位函数的混合（加权和）建模，其中权重取决于因子。校准问题被制定为一个凸优化问题。它可以被视为同时对所有置信水平进行分位回归而避免分位交叉的定义。校准问题等价于最小化连续排名概率分数（CRPS）。基于张量的规范多项分解（CP），我们提出了一个降维方法来降低参数张量的秩，并提出了一个交替估计算法。此外，基于风险四边形框架，我们将该方法推广到条件混合因子模型。
-
-    This paper proposes a new approach to estimating the distribution of a response variable conditioned on observing some factors. The proposed approach possesses desirable properties of flexibility, interpretability, tractability and extendability. The conditional quantile function is modeled by a mixture (weighted sum) of basis quantile functions, with the weights depending on factors. The calibration problem is formulated as a convex optimization problem. It can be viewed as conducting quantile regressions for all confidence levels simultaneously while avoiding quantile crossing by definition. The calibration problem is equivalent to minimizing the continuous ranked probability score (CRPS). Based on the canonical polyadic (CP) decomposition of tensors, we propose a dimensionality reduction method that reduces the rank of the parameter tensor and propose an alternating algorithm for estimation. Additionally, based on Risk Quadrangle framework, we generalize the approach to conditional 
-    
-[^11]: 自动出价世界中的无承诺拍卖
-
-    Auctions without commitment in the auto-bidding world. (arXiv:2301.07312v2 [econ.TH] UPDATED)
-
-    [http://arxiv.org/abs/2301.07312](http://arxiv.org/abs/2301.07312)
-
-    本文研究了自动出价世界中的无承诺拍卖，通过考虑承诺的概念，合理地采用了看似次优的投标方式。
+    该文介绍了限制在线追踪用户的时间，针对出版商可能产生的经济影响做了一个成本效益分析，研究发现Cookie寿命限制在一年（两年）会使其价值降低25％（19％），这表示所有Cookie价值减少了9％（5％）。
 
     
 
-    在在线广告拍卖中，广告主越来越多地使用自动竞标机制来投标，而不是手动竞标其价值。其中一个重要的自动出价格式是目标每项成本（tCPA），它在投资回报约束条件下最大化转化量。然而，从拍卖理论的角度来看，这种趋势似乎违反了基本的结果，即对于利润最大化的投标者来说，使用经典的边际成本（mCPA）投标系统比使用tCPA等策略更优。本文在经典的准线性框架内合理地采用了这种看似次优的投标方式。论文的核心在于承诺的概念。我们考虑一个多阶段博弈，在这个博弈中，首先拍卖人宣布拍卖规则；然后投标人选择tCPA或mCPA出价格式，然后，如果拍卖人没有承诺，它可以重新审视拍卖规则。
+    近年来，欧洲监管机构一直在就限制在线追踪用户的时间以更好地保护消费者隐私问题展开辩论。尽管这些辩论具有重要意义，但显然缺乏任何综合的成本效益分析。本文从成本方面提出了一种方法，旨在估计限制Cookie寿命对出版商的经济影响。对在2.5年内收到1.28亿广告展示的54,127个用户的Cookie进行的实证研究得出了平均Cookie寿命为279天，平均价值为2.52欧元/个。只有13%的cookie会随时间增值，但它们的平均价值约为所有cookie平均价值的四倍。将Cookie寿命限制在一年（两年）会使其寿命价值降低25％（19％），这表示所有Cookie价值减少了9％（5％）。鉴于106亿欧元的基于Cookie的展示广告收入，Cookie限制可能对出版商产生显着的经济影响。
 
-    Advertisers in online ad auctions are increasingly using auto-bidding mechanisms to bid into auctions instead of directly bidding their value manually. One prominent auto-bidding format is the target cost-per-acquisition (tCPA) which maximizes the volume of conversions subject to a return-of-investment constraint. From an auction theoretic perspective however, this trend seems to go against foundational results that postulate that for profit-maximizing bidders, it is optimal to use a classic bidding system like marginal CPA (mCPA) bidding rather than using strategies like tCPA.  In this paper we rationalize the adoption of such seemingly sub-optimal bidding within the canonical quasi-linear framework. The crux of the argument lies in the notion of commitment. We consider a multi-stage game where first the auctioneer declares the auction rules; then bidders select either the tCPA or mCPA bidding format and then, if the auctioneer lacks commitment, it can revisit the rules of the auction
+    In recent years, European regulators have debated restricting the time an online tracker can track a user to protect consumer privacy better. Despite the significance of these debates, there has been a noticeable absence of any comprehensive cost-benefit analysis. This article fills this gap on the cost side by suggesting an approach to estimate the economic consequences of lifetime restrictions on cookies for publishers. The empirical study on cookies of 54,127 users who received 128 million ad impressions over 2.5 years yields an average cookie lifetime of 279 days, with an average value of EUR 2.52 per cookie. Only 13% of all cookies increase their daily value over time, but their average value is about four times larger than the average value of all cookies. Restricting cookies lifetime to one year (two years) decreases their lifetime value by 25% (19%), which represents a decrease in the value of all cookies of 9% (5%). In light of the EUR 10.60 billion cookie-based display ad rev
     
-[^12]: 利润转移摩擦与跨国经营的地理位置
+[^6]: 太空经济学和月球衍生推进剂竞争力
 
-    Profit Shifting Frictions and the Geography of Multinational Activity. (arXiv:2211.04388v2 [econ.GN] UPDATED)
+    Economics of In-Space Industry and Competitiveness of Lunar-Derived Rocket Propellant. (arXiv:2303.09011v1 [econ.GN])
 
-    [http://arxiv.org/abs/2211.04388](http://arxiv.org/abs/2211.04388)
+    [http://arxiv.org/abs/2303.09011](http://arxiv.org/abs/2303.09011)
 
-    本文建立了一个定量一般均衡模型，研究利润转移摩擦对跨国生产的影响，提出一种新的校准方法，并模拟了税收改革的影响。结果表明，公司国际转移对多个国家的影响与可纳税收入的直接增益相当。
-
-    
-
-    我们建立了一个嵌入企业税收和利润转移的定量一般均衡模型，研究了跨国经营。除了贸易和投资摩擦外，我们的模型表明利润转移摩擦形成了跨国生产的地理位置。我们模型的关键在于区分实际活动和利润转移的企业税收弹性。我们量化模型需要估算转移利润流量的。我们提供了一种新的、与模型一致的方法，根据会计恒等式来校准双边利润转移摩擦。我们模拟了各种旨在遏制跨国公司逃税行为的税收改革，以及它们对一系列结果的影响，包括税收收入和生产。我们的结果表明，公司国际转移对多个国家的影响与可纳税收入的直接增益相当。
-
-    We develop a quantitative general equilibrium model of multinational activity embedding corporate taxation and profit shifting. In addition to trade and investment frictions, our model shows that profit-shifting frictions shape the geography of multinational production. Key to our model is the distinction between the corporate tax elasticity of real activity and profit shifting. The quantification of our model requires estimates of shifted profits flows. We provide a new, model-consistent methodology to calibrate bilateral profit-shifting frictions based on accounting identities. We simulate various tax reforms aimed at curbing tax-dodging practices of multinationals and their impact on a range of outcomes, including tax revenues and production. Our results show that the effects of the international relocation of firms across countries are of comparable magnitude as the direct gains in taxable income.
-    
-[^13]: 高维向量自回归模型中的提升p-值
-
-    Boosted p-Values for High-Dimensional Vector Autoregression. (arXiv:2211.02215v2 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2211.02215](http://arxiv.org/abs/2211.02215)
-
-    本文提出了一种利用最小二乘提升法计算线性模型中每个选定参数的p-值的方法，这些p-值是适应于提升过程的迭代性质，并且在模拟和实际应用中都表现出良好的性能，控制了误报率，并选择具有良好预测性能的更稀疏的模型。
+    本文通过分析运用太空经济学框架对月球推进剂生产的长期成本进行建模，研究对比从地球发射的推进剂是否具有商业竞争力，结果发现运输成本比和资本产量比是决定竞争力的重要因素，而之前分析结果的分歧是由于选择高成本比例的运输架构和忽略提高资本产量比的关键因素造成的。
 
     
 
-    在高维向量自回归建模中，评估参数估计的统计显著性是一个重要的步骤。使用最小二乘提升法，我们在线性模型的每个提升步骤中计算每个选定参数的p-值。这些p-值是渐近有效的，也适应于提升过程的迭代性质。我们的模拟实验表明，在高维向量自回归中，这些p-值可以控制误报率。在超过100个宏观经济时间序列的应用中，我们进一步展示了这些p-值不仅可以选择具有良好预测性能的更稀疏的模型，而且还有助于控制模型的稳定性。我们同时开发了一个名为boostvar的R软件包。
+    本文分析了一种在两个星球间进行的太空产业的经济参数，资本在第一个星球上制造，运往第二个星球上进行远程操作，产品再被运输离开第二个星球进行消费。运用这一框架，对月球推进剂生产的长期成本进行建模，以回答它是否与从地球发射的推进剂具有商业竞争力。之前的技术经济分析在这一问题上存在分歧。资本运输的成本比例和资本生产的产量比被确定为决定竞争力的最重要因素。分析了之前的技术经济分析如何处理这两个指标。指出了一些技术经济分析中的关键错误：选择具有高成本比例的运输架构，并忽略了可以实现足够产量比的资本选择。帐篷升华技术的产量比值接近1。
 
-    Assessing the statistical significance of parameter estimates is an important step in high-dimensional vector autoregression modeling. Using the least-squares boosting method, we compute the p-value for each selected parameter at every boosting step in a linear model. The p-values are asymptotically valid and also adapt to the iterative nature of the boosting procedure. Our simulation experiment shows that the p-values can keep false positive rate under control in high-dimensional vector autoregressions. In an application with more than 100 macroeconomic time series, we further show that the p-values can not only select a sparser model with good prediction performance but also help control model stability. A companion R package boostvar is developed.
+    Economic parameters are identified for an in-space industry where the capital is made on one planet, it is transported to and teleoperated on a second planet, and the product is transported off the second planet for consumption. This framework is used to model the long-run cost of lunar propellant production to help answer whether it is commercially competitive against propellant launched from Earth. The prior techno-economic analyses (TEAs) of lunar propellant production had disagreed over this. The "gear ratio on cost" for capital transport, G, and the production mass ratio of the capital, phi, are identified as the most important factors determining competitiveness. The prior TEAs are examined for how they handled these two metrics. This identifies crucial mistakes in some of the TEAs: choosing transportation architectures with high G, and neglecting to make choices for the capital that could achieve adequate phi. The tent sublimation technology has a value of phi that is an order o
     
-[^14]: 工会是否在工作中塑造政治意识形态？
+[^7]: 电力需求响应的信号传输：何时说实话最优？
 
-    Do Unions Shape Political Ideologies at Work?. (arXiv:2209.02637v2 [econ.GN] UPDATED)
+    Signalling for Electricity Demand Response: When is Truth Telling Optimal?. (arXiv:2302.12770v2 [eess.SY] UPDATED)
 
-    [http://arxiv.org/abs/2209.02637](http://arxiv.org/abs/2209.02637)
+    [http://arxiv.org/abs/2302.12770](http://arxiv.org/abs/2302.12770)
 
-    本文研究了工会对美国工作场所、管理层和员工政治活动的影响，发现工会化导致政治活动捐款向左转移，不仅在工人中增加对民主党的支持，也在管理层中增加了对民主党的支持，表明两组人之间的政治分化并未增加。
-
-    
-
-    工会对政治影响力的最大潜力可能来自于它们与数百万个体在工作场所的直接联系。在那里，它们可以改变工会化工人及其非工会化管理层的意识形态立场。本文分析了美国1980年至2016年期间工会对工作场所、管理层和员工政治活动捐款的影响。为此，我们将企业级工会选举数据与联邦和地方候选人的捐款级别相链接。使用“差异因差异法”设计，并验证回归的不连续性和新颖的工具变量方法，我们发现工会化导致政治活动捐款向左转移。工会化不仅在工人中增加了对民主党的支持而且在管理层中也增加了对民主党的支持，这反映出两组人之间政治分裂的增加。
-
-    Labor unions' greatest potential for political influence likely arises from their direct connection to millions of individuals at the workplace. There, they may change the ideological positions of both unionizing workers and their non-unionizing management. In this paper, we analyze the workplace-level impact of unionization on workers' and managers' political campaign contributions over the 1980-2016 period in the United States. To do so, we link establishment-level union election data with transaction-level campaign contributions to federal and local candidates. In a difference-in-differences design that we validate with regression discontinuity tests and a novel instrumental variables approach, we find that unionization leads to a leftward shift of campaign contributions. Unionization increases the support for Democrats relative to Republicans not only among workers but also among managers, which speaks against an increase in political cleavages between the two groups. We provide ev
-    
-[^15]: 有界理性下的量级序列模型：放宽最优反应和互相一致性的限制
-
-    Bounded rationality for relaxing best response and mutual consistency: The Quantal Hierarchy model of decision-making. (arXiv:2106.15844v5 [cs.GT] UPDATED)
-
-    [http://arxiv.org/abs/2106.15844](http://arxiv.org/abs/2106.15844)
-
-    本研究提出了Quantal Hierarchy模型，放宽了互相一致性和最优反应的限制，使得可以近似级别K，QRE或Nash均衡行为。这种模型基于变分自由能原理的递归形式，将更高阶推理表示为演化形式博弈树中的（伪）序列决策制定。
+    该论文研究了电力需求响应计划中的信息传输问题，发现如果电力价格定为其生产边际成本，则系统运营商没有欺骗的动机且总是说真话。
 
     
 
-    尽管博弈论对决策制定具有转型性的作用，但在某些情况下，所假设的条件可能过于严格。在本研究中，我们调查了理性的一些潜在假设，如互相一致性和最优反应，并考虑使用级别K推理和量化反馈平衡（QRE）的概念放宽这些假设的方法。具体而言，我们提出了一个名为Quantal Hierarchy模型的信息论双参数模型，可以放宽互相一致性和最优反应的限制，同时在极限情况下近似级别K，QRE或典型的Nash均衡行为。该模型基于变分自由能原理的递归形式，将更高阶推理表示为演化形式博弈树中的（伪）序列决策制定。这种表示方法使我们能够以类似于顺序博弈的方式处理同时博弈，其中推理资源在游戏中逐渐耗尽。
+    全球的公用事业和输电系统运营商实施需求响应计划，通过向最终用户发送供需状态信息来降低电力消耗。我们构建了一个贝叶斯说服模型来分析这种需求响应计划。使用一个简单的模型，包括两个时间步骤用于合同签署和唤醒以及两个状态的发电状态，分析电力定价与TSO歪曲信息的真实状态之间的关系。我们表明，如果电力价格定为其生产边际成本，则TSO没有欺骗的动机且总是说真话。另一方面，我们提供了过高定价导致TSO向用户提供无信息的条件。
 
-    While game theory has been transformative for decision-making, the assumptions made can be overly restrictive in certain instances. In this work, we investigate some of the underlying assumptions of rationality, such as mutual consistency and best response, and consider ways to relax these assumptions using concepts from level-$k$ reasoning and quantal response equilibrium (QRE) respectively. Specifically, we propose an information-theoretic two-parameter model called the Quantal Hierarchy model, which can relax both mutual consistency and best response while still approximating level-$k$, QRE, or typical Nash equilibrium behaviour in the limiting cases. The model is based on a recursive form of the variational free energy principle, representing higher-order reasoning as (pseudo) sequential decision-making in extensive-form game tree. This representation enables us to treat simultaneous games in a similar manner to sequential games, where reasoning resources deplete throughout the gam
+    Utilities and transmission system operators (TSO) around the world implement demand response programs for reducing electricity consumption by sending information on the state of balance between supply demand to end-use consumers. We construct a Bayesian persuasion model to analyse such demand response programs. Using a simple model consisting of two time steps for contract signing and invoking, and two states of the state of generation, we analyse the relation between the pricing of electricity and the incentives of the TSO to garble information about the true state of the generation. We show that if the electricity is priced at its marginal cost of production, the TSO has no incentive to lie and always tells the truth. On the other hand, we provide conditions where overpricing of electricity leads the TSO to provide no information to the consumer.
+    
+[^8]: 更强的单调信号平衡
+
+    Stronger Monotone Signaling Equilibrium. (arXiv:2109.03370v3 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2109.03370](http://arxiv.org/abs/2109.03370)
+
+    本文研究了更强的单调信号平衡，提出了针对稳定匹配的竞争性信号均衡概念，并给出了满足 D1 准则的条件。在具有准线性效用函数的单一匹配市场上建立了唯一的更强单调平衡。
+
+    
+
+    本文研究了单调信号平衡，其中平衡结果——行动、反应、信念（匹配模型中的匹配）——均在更强的集合序列中是单调的。我们证明了如果发送者的效用是单调超模型的，则对于一对发送者和接收者的博弈，如果通过 D1 准则（Cho 和 Kreps（1987）、Banks 和 Sobel(1987)）则纯策略完美贝叶斯均衡更强单调。我们引入了一种基于稳定匹配的单一匹配市场上的竞争性信号均衡（CSE）概念，其中发送者和接收者都是异构的连续变量。我们证明了如果发送者效用是单调超模型的话，如果接收者效用是弱单调超模型，那么 CSE 更强单调，当且仅当它通过 D1 准则。最后，在具有准线性效用函数的单一匹配市场上，在接收者可以采取任何可行反应的区间内，建立了一个唯一的更强单调平衡。
+
+    We study monotone signaling equilibrium where equilibrium outcomes - actions, reactions, beliefs (and matching in a matching model) - are all monotone in the stronger set order. We show that if the sender's utility is monotone-supermodular, a pure-strategy perfect Bayesian equilibrium of games with one sender and one receiver is stronger monotone if and only if it passes Criterion D1 (Cho and Kreps (1987), Banks and Sobel (1987)). We introduce a notion of competitive signaling equilibrium (CSE) in one-to-one matching markets with a continuum of heterogeneous senders and receivers, based on the notion of stable matching. We show that if the sender utility is monotone-supermodular and the receiver's utility is weakly monotone-supermodular, a CSE is stronger monotone if and only if it passes Criterion D1. Finally, in one-to-one matching markets with quasilinear utilities, a unique stronger monotone equilibrium is established given any interval of feasible reactions that receivers can take
+    
+[^9]: 《Bayesian停时问题的逆强化学习的充分必要条件》
+
+    Necessary and Sufficient Conditions for Inverse Reinforcement Learning of Bayesian Stopping Time Problems. (arXiv:2007.03481v6 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2007.03481](http://arxiv.org/abs/2007.03481)
+
+    本文提出了一个Bayesian停时问题的逆强化学习框架，结合微观经济学中的Bayesian揭示偏好思路，通过观察Bayesian决策者的行动，确定其的最优性。并且通过两个停时问题示例得到了验证，并且已在一个真实的例子中得到了高精度地预测用户参与度。
+
+    
+
+    本文提出了一个Bayesian停时问题的逆强化学习（IRL）框架。通过观察Bayesian决策者的行动，我们提供了一种必要且充分的条件来确定这些行动是否与优化成本函数一致。在Bayesian（部分观察）情况下，逆向学习者能够最好地确定针对观察到的策略的最优性。我们的IRL算法确定最优性，然后构建成本函数的估计值，是一个集合值。为了实现这样一个IRL目标，我们使用了来自微观经济学的Bayesian揭示偏好的新思路。我们通过两个重要的停时问题示例，即，顺序假设检验和Bayesian搜索，说明了所提议的IRL方案。作为一个真实世界的例子，我们使用来自190000个视频的元数据的YouTube数据集说明了所提议的IRL方法如何高精度地预测在线多媒体平台中用户的参与度。最后，对于该算法的未来研究方向做了最后讨论。
+
+    This paper presents an inverse reinforcement learning~(IRL) framework for Bayesian stopping time problems. By observing the actions of a Bayesian decision maker, we provide a necessary and sufficient condition to identify if these actions are consistent with optimizing a cost function. In a Bayesian (partially observed) setting, the inverse learner can at best identify optimality wrt the observed strategies. Our IRL algorithm identifies optimality and then constructs set-valued estimates of the cost function.To achieve this IRL objective, we use novel ideas from Bayesian revealed preferences stemming from microeconomics. We illustrate the proposed IRL scheme using two important examples of stopping time problems, namely, sequential hypothesis testing and Bayesian search. As a real-world example, we illustrate using a YouTube dataset comprising metadata from 190000 videos how the proposed IRL method predicts user engagement in online multimedia platforms with high accuracy. Finally, for
     
 

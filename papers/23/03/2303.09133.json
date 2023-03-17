@@ -1,0 +1,12 @@
+{
+    "title": "Predicting nonlinear reshaping of periodic signals in optical fibre with a neural network. (arXiv:2303.09133v1 [physics.optics])",
+    "abstract": "We deploy a supervised machine-learning model based on a neural network to predict the temporal and spectral reshaping of a simple sinusoidal modulation into a pulse train having a comb structure in the frequency domain, which occurs upon nonlinear propagation in an optical fibre. Both normal and anomalous second-order dispersion regimes of the fibre are studied, and the speed of the neural network is leveraged to probe the space of input parameters for the generation of custom combs or the occurrence of significant temporal or spectral focusing.",
+    "link": "http://arxiv.org/abs/2303.09133",
+    "context": "Title: Predicting nonlinear reshaping of periodic signals in optical fibre with a neural network. (arXiv:2303.09133v1 [physics.optics])\nAbstract: We deploy a supervised machine-learning model based on a neural network to predict the temporal and spectral reshaping of a simple sinusoidal modulation into a pulse train having a comb structure in the frequency domain, which occurs upon nonlinear propagation in an optical fibre. Both normal and anomalous second-order dispersion regimes of the fibre are studied, and the speed of the neural network is leveraged to probe the space of input parameters for the generation of custom combs or the occurrence of significant temporal or spectral focusing.",
+    "path": "papers/23/03/2303.09133.json",
+    "total_tokens": 660,
+    "translated_title": "用神经网络预测光纤中周期信号的非线性重塑",
+    "translated_abstract": "我们使用基于神经网络的监督式机器学习模型，预测简单正弦调制信号在光纤非线性传播时重塑成具有频域中具有一定结构脉冲列的时间和频谱。研究了光纤的正常和异常二阶色散区域，并利用神经网络的速度，探索输入参数空间以生成定制脉冲列或发生显着的时间或频谱聚焦。",
+    "tldr": "本研究利用神经网络预测光纤中周期信号的非线性重塑，探究了正常和异常二阶色散区域，可生成定制脉冲列或出现显着的时间或频谱聚焦。",
+    "en_tdlr": "This paper uses a neural network to predict the nonlinear reshaping of periodic signals in optical fiber and explores normal and anomalous second-order dispersion regimes. Custom pulse trains or significant temporal or spectral focusing can be generated with the input parameters space."
+}

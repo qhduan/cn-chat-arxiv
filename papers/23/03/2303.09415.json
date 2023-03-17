@@ -1,0 +1,12 @@
+{
+    "title": "Optimal Delegation in Markets for Matching with Signaling. (arXiv:2303.09415v1 [econ.TH])",
+    "abstract": "This paper studies a delegation problem faced by the planner who wants to regulate receivers' reaction choices in markets for matching between receivers and senders with signaling. We provide a noble insight into the planner's willingness to delegate and the design of optimal (reaction) interval delegation as a solution to the planner's general mechanism design problem. The relative heterogeneity of receiver types and the productivity of the sender' signal are crucial in deriving optimal interval delegation in the presence of the trade-off between matching efficiency and signaling costs.",
+    "link": "http://arxiv.org/abs/2303.09415",
+    "context": "Title: Optimal Delegation in Markets for Matching with Signaling. (arXiv:2303.09415v1 [econ.TH])\nAbstract: This paper studies a delegation problem faced by the planner who wants to regulate receivers' reaction choices in markets for matching between receivers and senders with signaling. We provide a noble insight into the planner's willingness to delegate and the design of optimal (reaction) interval delegation as a solution to the planner's general mechanism design problem. The relative heterogeneity of receiver types and the productivity of the sender' signal are crucial in deriving optimal interval delegation in the presence of the trade-off between matching efficiency and signaling costs.",
+    "path": "papers/23/03/2303.09415.json",
+    "total_tokens": 727,
+    "translated_title": "带信号的匹配市场中的最优委托问题研究",
+    "translated_abstract": "本文研究了在信号传递方面，规制接收者反应选择的代表面临的委托问题。本文提供了计算规制者愿意委托的新观点，并设计了最优（反应）区间委托作为规划者一般机制设计问题的解决方案。接收者类型的相对异质性和发件人信号的生产力对最优区间委托的确定起着至关重要的作用，因为需要在匹配效率和信号成本之间做出权衡决策。",
+    "tldr": "本文研究了在市场匹配中，接收者与发送者之间的信号传递和委托问题，提出了最优区间委托的解决方案，并针对接收者类型和发信人信号的生产力进行了解析，找到最优委托方法，来保证匹配效率和信号成本之间的平衡。",
+    "en_tdlr": "This paper studies the delegation problem in markets for matching between receivers and senders with signaling, and proposes optimal interval delegation as a solution to the problem. It analyzes the relative heterogeneity of receiver types and the productivity of the sender's signal to find the optimal delegation method that balances the trade-off between matching efficiency and signaling costs."
+}

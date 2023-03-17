@@ -1,0 +1,12 @@
+{
+    "title": "Markov Conditions and Factorization in Logical Credal Networks. (arXiv:2302.14146v2 [cs.AI] UPDATED)",
+    "abstract": "We examine the recently proposed language of Logical Credal Networks, in particular investigating the consequences of various Markov conditions. We introduce the notion of structure for a Logical Credal Network and show that a structure without directed cycles leads to a well-known factorization result. For networks with directed cycles, we analyze the differences between Markov conditions, factorization results, and specification requirements.",
+    "link": "http://arxiv.org/abs/2302.14146",
+    "context": "Title: Markov Conditions and Factorization in Logical Credal Networks. (arXiv:2302.14146v2 [cs.AI] UPDATED)\nAbstract: We examine the recently proposed language of Logical Credal Networks, in particular investigating the consequences of various Markov conditions. We introduce the notion of structure for a Logical Credal Network and show that a structure without directed cycles leads to a well-known factorization result. For networks with directed cycles, we analyze the differences between Markov conditions, factorization results, and specification requirements.",
+    "path": "papers/23/02/2302.14146.json",
+    "total_tokens": 624,
+    "translated_title": "马尔科夫条件与逻辑信任网络中的因子分解",
+    "translated_abstract": "我们研究了最近提出的逻辑信任网络的语言，特别是调查不同马尔科夫条件的后果。我们引入了逻辑信任网络的结构概念，并展示了没有有向循环的结构将导致一个众所周知的因子分解结果。对于带有有向循环的网络，我们分析了马尔科夫条件、因子分解结果和规范要求之间的差异。",
+    "tldr": "本文研究逻辑信任网络并探究不同马尔科夫条件的影响。我们发现没有有向循环的网络可以进行因子分解，而带有有向循环的网络则需要特别考虑不同的马尔科夫条件。",
+    "en_tdlr": "This paper investigates Logical Credal Networks and examines the consequences of different Markov conditions. We show that a structure without directed cycles leads to a well-known factorization result, while networks with directed cycles require special consideration of different Markov conditions."
+}

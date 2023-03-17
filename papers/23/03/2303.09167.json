@@ -1,0 +1,12 @@
+{
+    "title": "Emotional Reaction Intensity Estimation Based on Multimodal Data. (arXiv:2303.09167v1 [cs.CV])",
+    "abstract": "This paper introduces our method for the Emotional Reaction Intensity (ERI) Estimation Challenge, in CVPR 2023: 5th Workshop and Competition on Affective Behavior Analysis in-the-wild (ABAW). Based on the multimodal data provided by the originazers, we extract acoustic and visual features with different pretrained models. The multimodal features are mixed together by Transformer Encoders with cross-modal attention mechnism. In this paper, 1. better features are extracted with the SOTA pretrained models. 2. Compared with the baseline, we improve the Pearson's Correlations Coefficient a lot. 3. We process the data with some special skills to enhance performance ability of our model.",
+    "link": "http://arxiv.org/abs/2303.09167",
+    "context": "Title: Emotional Reaction Intensity Estimation Based on Multimodal Data. (arXiv:2303.09167v1 [cs.CV])\nAbstract: This paper introduces our method for the Emotional Reaction Intensity (ERI) Estimation Challenge, in CVPR 2023: 5th Workshop and Competition on Affective Behavior Analysis in-the-wild (ABAW). Based on the multimodal data provided by the originazers, we extract acoustic and visual features with different pretrained models. The multimodal features are mixed together by Transformer Encoders with cross-modal attention mechnism. In this paper, 1. better features are extracted with the SOTA pretrained models. 2. Compared with the baseline, we improve the Pearson's Correlations Coefficient a lot. 3. We process the data with some special skills to enhance performance ability of our model.",
+    "path": "papers/23/03/2303.09167.json",
+    "total_tokens": 673,
+    "translated_title": "基于多模态数据的情感反应强度估计",
+    "translated_abstract": "本论文介绍我们在CVPR 2023 ABAW中情感行为分析工作坊及竞赛中提出的情感反应强度（ERI）估计方法。通过使用预训练模型提取音频和视觉特征，我们利用Transformer编码器和跨模态注意力机制混合多模态特征。在本论文中，我们对所提取的特征进行了改进，同时通过对数据的特殊处理提高了模型的性能。",
+    "tldr": "本文提出了一种基于多模态数据的情感反应强度估计方法，提高了所提取的特征，改善了Pearson相关系数，并通过一些特殊技能处理数据以提高模型性能。",
+    "en_tdlr": "This paper proposes a method for emotional reaction intensity estimation based on multimodal data, which improves feature extraction, enhances Pearson's Correlation Coefficient, and uses special skills to process data to improve the model's performance."
+}

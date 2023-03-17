@@ -1,0 +1,12 @@
+{
+    "title": "Chain of Explanation: New Prompting Method to Generate Higher Quality Natural Language Explanation for Implicit Hate Speech. (arXiv:2209.04889v3 [cs.CL] UPDATED)",
+    "abstract": "Recent studies have exploited advanced generative language models to generate Natural Language Explanations (NLE) for why a certain text could be hateful. We propose the Chain of Explanation (CoE) Prompting method, using the heuristic words and target group, to generate high-quality NLE for implicit hate speech. We improved the BLUE score from 44.0 to 62.3 for NLE generation by providing accurate target information. We then evaluate the quality of generated NLE using various automatic metrics and human annotations of informativeness and clarity scores.",
+    "link": "http://arxiv.org/abs/2209.04889",
+    "context": "Title: Chain of Explanation: New Prompting Method to Generate Higher Quality Natural Language Explanation for Implicit Hate Speech. (arXiv:2209.04889v3 [cs.CL] UPDATED)\nAbstract: Recent studies have exploited advanced generative language models to generate Natural Language Explanations (NLE) for why a certain text could be hateful. We propose the Chain of Explanation (CoE) Prompting method, using the heuristic words and target group, to generate high-quality NLE for implicit hate speech. We improved the BLUE score from 44.0 to 62.3 for NLE generation by providing accurate target information. We then evaluate the quality of generated NLE using various automatic metrics and human annotations of informativeness and clarity scores.",
+    "path": "papers/22/09/2209.04889.json",
+    "total_tokens": 776,
+    "translated_title": "解释链：生成隐含仇恨言论更高质量自然语言解释的新提示方法",
+    "translated_abstract": "最近的研究利用高级生成语言模型生成自然语言解释，解释为什么某些文本可能是具有仇恨色彩的。我们提出了解释链 (CoE) 提示方法， 使用启发式词语和目标群体，为隐含仇恨言论生成高质量的自然语言解释。通过提供准确的目标信息，我们将 NLE 生成的 BLUE 分数从 44.0 提高到了 62.3。我们还利用多种自动度量指标和人工注释的信息量和清晰度评分评估了生成的 NLE 的质量。",
+    "tldr": "本研究提出了解释链提示方法，可以生成高质量的自然语言解释，帮助理解隐含仇恨言论。该方法通过提供准确的目标信息，将语言模型生成的BLUE分数从44.0提高到了62.3，已通过多种度量和人工注释的质量评估。",
+    "en_tdlr": "This paper proposes a new prompting method called the Chain of Explanation (CoE) for generating high-quality Natural Language Explanations (NLE) to help understand implicit hate speech. The CoE method utilizes heuristic words and target group information to improve the BLUE score for NLE generation from 44.0 to 62.3. The quality of generated NLE was evaluated through various automatic metrics and human annotation of informativeness and clarity scores."
+}

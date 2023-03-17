@@ -2,102 +2,58 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Dually Enhanced Propensity Score Estimation in Sequential Recommendation.](http://arxiv.org/abs/2303.08722) | 本文提出了一个名为DEPS的新算法，在顺序推荐系统中通过从用户和项目两个视角同时优化IPS估计器来减少偏差，提高推荐精度。 |
-| [^2] | [Automated Query Generation for Evidence Collection from Web Search Engines.](http://arxiv.org/abs/2303.08652) | 本研究考虑了自动查询生成，即根据事实陈述自动生成搜索查询。研究引入了一个包含390个事实陈述和相关搜索查询和结果的中等规模证据收集数据集。 |
-| [^3] | [Graph-less Collaborative Filtering.](http://arxiv.org/abs/2303.08537) | 本文提出了一个无图的协同过滤模型SimRec，通过知识蒸馏和对比学习，实现了教师GNN模型与轻量级学生网络之间的自适应知识转移，有效地解决了现有基于GNN的CF模型可能出现的过度平滑和噪声效应的问题，在多个数据集上都超过了目前最先进的方法。 |
-| [^4] | [A Cross-institutional Evaluation on Breast Cancer Phenotyping NLP Algorithms on Electronic Health Records.](http://arxiv.org/abs/2303.08448) | 本研究通过对乳腺癌表型提取任务的评估，展示了基于BERT的临床NLP模型在不同临床环境中具有良好的泛化能力，并强调了使用转移学习开发广义临床NLP模型的潜力。 |
-| [^5] | [Robust Preference-Guided Denoising for Graph based Social Recommendation.](http://arxiv.org/abs/2303.08346) | 本文提出了一种基于偏好引导的图形社交推荐去噪方法，以提高推荐的有效性和效率。 |
-| [^6] | [The Elements of Visual Art Recommendation: Learning Latent Semantic Representations of Paintings.](http://arxiv.org/abs/2303.08182) | 本文研究了如何高效地捕捉视觉艺术的元素，提出了结合文本和视觉特征学习技术的推荐系统，用于个性化艺术品推荐，结果显示两者的结合可以捕捉最合适的隐藏语义关系。 |
-| [^7] | [Graph Neural Network Surrogates of Fair Graph Filtering.](http://arxiv.org/abs/2303.08157) | 通过引入过滤器感知的通用近似框架，该方法定义了合适的图神经网络在运行时训练以满足统计平等约束，同时最小程度扰动原始后验情况下实现此目标。 |
-| [^8] | [Authorship Conflicts in Academia: an International Cross-Discipline Survey.](http://arxiv.org/abs/2303.00386) | 这项国际跨学科调查发现，作者署名的冲突问题非常普遍，并且往往在学者的职业生涯早期就开始出现。 |
+| [^1] | [Fairness-aware Differentially Private Collaborative Filtering.](http://arxiv.org/abs/2303.09527) | 本文提出了DP-Fair，一个两阶段的协同过滤算法框架，它结合了差分隐私机制和公平约束，旨在保护用户隐私、确保公平推荐。 |
+| [^2] | [Measuring the Impact of Explanation Bias: A Study of Natural Language Justifications for Recommender Systems.](http://arxiv.org/abs/2303.09498) | 本研究提出了一种实验方案，通过积极或消极偏见的自然语言解释来测量解释对用户选择建议的影响，并发现解释可以显著影响用户选择。 |
+| [^3] | [LLMSecEval: A Dataset of Natural Language Prompts for Security Evaluations.](http://arxiv.org/abs/2303.09384) | 本文提出了一个 LLMSecEval 数据集，其中包含 150 个自然语言提示，可用于评估大型语言模型在生成容易出现安全漏洞的代码时的安全性能。 |
+| [^4] | [Graph Neural Network Surrogates of Fair Graph Filtering.](http://arxiv.org/abs/2303.08157) | 通过引入过滤器感知的通用近似框架，该方法定义了合适的图神经网络在运行时训练以满足统计平等约束，同时最小程度扰动原始后验情况下实现此目标。 |
+| [^5] | [Pre-train, Prompt and Recommendation: A Comprehensive Survey of Language Modelling Paradigm Adaptations in Recommender Systems.](http://arxiv.org/abs/2302.03735) | 本文系统地研究了如何从不同预训练语言模型中提取和转移知识，提高推荐系统性能。我们提出了一个分类法，分析和总结了基于预训练语言模型的推荐系统的培训策略和目标。 |
+| [^6] | [UNIQORN: Unified Question Answering over RDF Knowledge Graphs and Natural Language Text.](http://arxiv.org/abs/2108.08614) | 本文提出了一个名为UNIQORN的问答系统，它能够无缝地处理RDF数据和文本，使用fine-tuned BERT模型为问题构建上下文图，并使用图算法确定与问题相关的子图来回答问题。 |
 
 # 详细
 
-[^1]: 顺序推荐中双重增强倾向分数算法的研究
+[^1]: 公平感知的差分隐私协同过滤
 
-    Dually Enhanced Propensity Score Estimation in Sequential Recommendation. (arXiv:2303.08722v1 [cs.IR])
+    Fairness-aware Differentially Private Collaborative Filtering. (arXiv:2303.09527v1 [cs.IR])
 
-    [http://arxiv.org/abs/2303.08722](http://arxiv.org/abs/2303.08722)
+    [http://arxiv.org/abs/2303.09527](http://arxiv.org/abs/2303.09527)
 
-    本文提出了一个名为DEPS的新算法，在顺序推荐系统中通过从用户和项目两个视角同时优化IPS估计器来减少偏差，提高推荐精度。
-
-    
-
-    顺序推荐系统是基于大量隐式用户反馈数据进行建模的，当用户系统地低估/高估某些项目时，会受到偏见的影响。提出了基于倒数倾向分数（IPS）的无偏学习方法，以解决这个问题。在这些方法中，倾向分数估计通常仅限于项目视图，即将反馈数据视为与用户互动的项目序列。然而，反馈数据也可以从用户的角度来看待，作为与项目互动的用户序列。此外，两个视角可以共同增强倾向分数的估计。受此观察的启发，我们提出了从用户和项目视角估计倾向分数的DEPS算法。具体而言，DEPS从用户视角和项目视角优化两个IPS估计器，并通过最小化其加权平均值的方差来减少偏差。在两个公共数据集上的实验结果表明DEPS在减少偏差和提高推荐精度方面具有有效性。
-
-    Sequential recommender systems train their models based on a large amount of implicit user feedback data and may be subject to biases when users are systematically under/over-exposed to certain items. Unbiased learning based on inverse propensity scores (IPS), which estimate the probability of observing a user-item pair given the historical information, has been proposed to address the issue. In these methods, propensity score estimation is usually limited to the view of item, that is, treating the feedback data as sequences of items that interacted with the users. However, the feedback data can also be treated from the view of user, as the sequences of users that interact with the items. Moreover, the two views can jointly enhance the propensity score estimation. Inspired by the observation, we propose to estimate the propensity scores from the views of user and item, called Dually Enhanced Propensity Score Estimation (DEPS). Specifically, given a target user-item pair and the corresp
-    
-[^2]: 自动查询生成用于从网络搜索引擎中收集证据。
-
-    Automated Query Generation for Evidence Collection from Web Search Engines. (arXiv:2303.08652v1 [cs.CL])
-
-    [http://arxiv.org/abs/2303.08652](http://arxiv.org/abs/2303.08652)
-
-    本研究考虑了自动查询生成，即根据事实陈述自动生成搜索查询。研究引入了一个包含390个事实陈述和相关搜索查询和结果的中等规模证据收集数据集。
+    本文提出了DP-Fair，一个两阶段的协同过滤算法框架，它结合了差分隐私机制和公平约束，旨在保护用户隐私、确保公平推荐。
 
     
 
-    人们普遍认为，可以通过在互联网上搜索信息来验证所谓的事实。这个过程需要事实核查员根据事实制定搜索查询并向搜索引擎提交，然后需要在搜索结果中识别相关和可信的段落，然后才能做出决策。在许多新闻和媒体组织中，这个过程由副编辑每天完成。在这里，我们问一个问题，那就是是否可能自动化第一步，即查询生成。我们是否能够根据类似于人类专家制定的事实陈述自动生成搜索查询？我们考虑相似性，无论是从文本相似性的角度还是从搜索引擎返回相关文档的角度。首先，我们介绍一个中等规模的证据收集数据集，其中包括390个事实陈述以及相关的人工生成的搜索查询和搜索结果。
+    最近，越来越多的隐私保护机器学习任务采用差分隐私引导算法，然而，这样的算法使用在算法公平性方面有折衷，这一点被广泛认可。本文针对差分隐私随机梯度下降（DP-SGD）训练的经典协同过滤方法导致用户群体与不同用户参与水平之间存在不公平影响的问题，提出了一个两阶段框架DP-Fair，它将差分隐私机制与公平限制相结合，从而在保护用户隐私的同时确保公平推荐。
 
-    It is widely accepted that so-called facts can be checked by searching for information on the Internet. This process requires a fact-checker to formulate a search query based on the fact and to present it to a search engine. Then, relevant and believable passages need to be identified in the search results before a decision is made. This process is carried out by sub-editors at many news and media organisations on a daily basis. Here, we ask the question as to whether it is possible to automate the first step, that of query generation. Can we automatically formulate search queries based on factual statements which are similar to those formulated by human experts? Here, we consider similarity both in terms of textual similarity and with respect to relevant documents being returned by a search engine. First, we introduce a moderate-sized evidence collection dataset which includes 390 factual statements together with associated human-generated search queries and search results. Then, we i
+    Recently, there has been an increasing adoption of differential privacy guided algorithms for privacy-preserving machine learning tasks. However, the use of such algorithms comes with trade-offs in terms of algorithmic fairness, which has been widely acknowledged. Specifically, we have empirically observed that the classical collaborative filtering method, trained by differentially private stochastic gradient descent (DP-SGD), results in a disparate impact on user groups with respect to different user engagement levels. This, in turn, causes the original unfair model to become even more biased against inactive users. To address the above issues, we propose \textbf{DP-Fair}, a two-stage framework for collaborative filtering based algorithms. Specifically, it combines differential privacy mechanisms with fairness constraints to protect user privacy while ensuring fair recommendations. The experimental results, based on Amazon datasets, and user history logs collected from Etsy, one of th
     
-[^3]: 无图协同过滤
+[^2]: 量化解释偏差的影响：关于推荐系统自然语言解释的研究
 
-    Graph-less Collaborative Filtering. (arXiv:2303.08537v1 [cs.IR])
+    Measuring the Impact of Explanation Bias: A Study of Natural Language Justifications for Recommender Systems. (arXiv:2303.09498v1 [cs.HC])
 
-    [http://arxiv.org/abs/2303.08537](http://arxiv.org/abs/2303.08537)
+    [http://arxiv.org/abs/2303.09498](http://arxiv.org/abs/2303.09498)
 
-    本文提出了一个无图的协同过滤模型SimRec，通过知识蒸馏和对比学习，实现了教师GNN模型与轻量级学生网络之间的自适应知识转移，有效地解决了现有基于GNN的CF模型可能出现的过度平滑和噪声效应的问题，在多个数据集上都超过了目前最先进的方法。
-
-    
-
-    图神经网络已经在协同过滤任务中展示出了其在图结构用户-物品交互数据上表示学习的能力。然而，由于低通Laplacian平滑算子的过度平滑和噪声效应，现有的基于GNN的CF模型可能会生成难以区分且不准确的用户（物品）表示。为解决这些限制，本文提出了一个简单而有效的协同过滤模型（SimRec），将知识蒸馏和对比学习的能力融合在一起，实现了教师GNN模型与轻量级学生网络之间的自适应知识转移，在不需要构建图的情况下更好地发现用户和物品之间的相互关系。
-
-    Graph neural networks (GNNs) have shown the power in representation learning over graph-structured user-item interaction data for collaborative filtering (CF) task. However, with their inherently recursive message propagation among neighboring nodes, existing GNN-based CF models may generate indistinguishable and inaccurate user (item) representations due to the over-smoothing and noise effect with low-pass Laplacian smoothing operators. In addition, the recursive information propagation with the stacked aggregators in the entire graph structures may result in poor scalability in practical applications. Motivated by these limitations, we propose a simple and effective collaborative filtering model (SimRec) that marries the power of knowledge distillation and contrastive learning. In SimRec, adaptive transferring knowledge is enabled between the teacher GNN model and a lightweight student network, to not only preserve the global collaborative signals, but also address the over-smoothing
-    
-[^4]: 通过对电子病历的乳腺癌表型NLP算法进行跨机构评估
-
-    A Cross-institutional Evaluation on Breast Cancer Phenotyping NLP Algorithms on Electronic Health Records. (arXiv:2303.08448v1 [cs.CL])
-
-    [http://arxiv.org/abs/2303.08448](http://arxiv.org/abs/2303.08448)
-
-    本研究通过对乳腺癌表型提取任务的评估，展示了基于BERT的临床NLP模型在不同临床环境中具有良好的泛化能力，并强调了使用转移学习开发广义临床NLP模型的潜力。
+    本研究提出了一种实验方案，通过积极或消极偏见的自然语言解释来测量解释对用户选择建议的影响，并发现解释可以显著影响用户选择。
 
     
 
-    目标：在模型开发过程中，通常忽略临床大型语言模型的泛化能力。本研究通过乳腺癌表型提取任务，评估了基于BERT的临床NLP模型在不同临床环境下的泛化能力。方法：从明尼苏达大学和梅奥诊所的电子病历中收集了两种乳腺癌患者的临床语料库，并按照同一指南进行注释。我们开发了三种类型的NLP模型（条件随机场、双向长短期记忆和CancerBERT），从临床文本中提取癌症表型。使用不同的学习策略（模型转移与本地训练）对模型在不同测试集上进行泛化能力评估。评估实体覆盖率与模型性能的相关性得分。结果：在UMN和MC手动注释了200和161份临床文档。CancerBERT模型达到了最高的F1分数（0.896）和实体覆盖率（98.8%），优于其他模型。模型转移方法在两个机构中产生了类似于本地训练模型的结果，表明跨机构存在潜在的泛化性。结论：本研究展示了在不同临床环境中评估NLP模型的重要性，并强调了使用转移学习开发广义临床NLP模型的潜力。
+    尽管解释可能对决策产生影响，但缺乏研究来量化其对用户选择的影响。本文提出了一个实验方案，用于测量积极或消极偏见解释可能导致用户选择次优建议的程度。该方案的关键要素包括偏好引导阶段以允许个性化建议、手动识别和提取评论中的项目要素以及通过将积极和消极要素结合而引入偏见的控制方法。我们研究了两种不同的文本格式的解释：作为项目要素列表的形式和作为流畅自然语言文本的形式。通过对129名参与者进行用户研究，我们证明了解释可以显著影响用户的选择，并且这些发现可以推广到解释格式上。
 
-    Objective: The generalizability of clinical large language models is usually ignored during the model development process. This study evaluated the generalizability of BERT-based clinical NLP models across different clinical settings through a breast cancer phenotype extraction task.  Materials and Methods: Two clinical corpora of breast cancer patients were collected from the electronic health records from the University of Minnesota and the Mayo Clinic, and annotated following the same guideline. We developed three types of NLP models (i.e., conditional random field, bi-directional long short-term memory and CancerBERT) to extract cancer phenotypes from clinical texts. The models were evaluated for their generalizability on different test sets with different learning strategies (model transfer vs. locally trained). The entity coverage score was assessed with their association with the model performances.  Results: We manually annotated 200 and 161 clinical documents at UMN and MC, re
+    Despite the potential impact of explanations on decision making, there is a lack of research on quantifying their effect on users' choices. This paper presents an experimental protocol for measuring the degree to which positively or negatively biased explanations can lead to users choosing suboptimal recommendations. Key elements of this protocol include a preference elicitation stage to allow for personalizing recommendations, manual identification and extraction of item aspects from reviews, and a controlled method for introducing bias through the combination of both positive and negative aspects. We study explanations in two different textual formats: as a list of item aspects and as fluent natural language text. Through a user study with 129 participants, we demonstrate that explanations can significantly affect users' selections and that these findings generalize across explanation formats.
     
-[^5]: 基于偏好引导去噪的图形社交推荐鲁棒性研究
+[^3]: LLMSecEval: 一个用于安全评估的自然语言提示数据集
 
-    Robust Preference-Guided Denoising for Graph based Social Recommendation. (arXiv:2303.08346v1 [cs.IR])
+    LLMSecEval: A Dataset of Natural Language Prompts for Security Evaluations. (arXiv:2303.09384v1 [cs.SE])
 
-    [http://arxiv.org/abs/2303.08346](http://arxiv.org/abs/2303.08346)
+    [http://arxiv.org/abs/2303.09384](http://arxiv.org/abs/2303.09384)
 
-    本文提出了一种基于偏好引导的图形社交推荐去噪方法，以提高推荐的有效性和效率。
-
-    
-
-    基于图神经网络(GNN)的社交推荐模型通过利用GNN在社交关系中的偏好相似性来提高用户偏好的预测准确性。然而，关于推荐的有效性和效率，很大一部分社交关系可能是冗余的甚至是嘈杂的，例如，在某个领域中，朋友之间不共享偏好是很正常的。现有模型没有完全解决这个关系冗余和噪音的问题，因为它们直接表征整个社交网络上的社交影响。在本文中，我们提出通过仅保留信息丰富的社交关系来改进基于图的社交推荐，以确保一个高效和有效的影响扩散，即图形去噪。我们设计的去噪方法是基于偏好引导的，以建模社交关系的信心，并通过提供一个去噪但更具信息量的社交图为推荐用户偏好学习提供帮助。
-
-    Graph Neural Network(GNN) based social recommendation models improve the prediction accuracy of user preference by leveraging GNN in exploiting preference similarity contained in social relations. However, in terms of both effectiveness and efficiency of recommendation, a large portion of social relations can be redundant or even noisy, e.g., it is quite normal that friends share no preference in a certain domain. Existing models do not fully solve this problem of relation redundancy and noise, as they directly characterize social influence over the full social network. In this paper, we instead propose to improve graph based social recommendation by only retaining the informative social relations to ensure an efficient and effective influence diffusion, i.e., graph denoising. Our designed denoising method is preference-guided to model social relation confidence and benefits user preference learning in return by providing a denoised but more informative social graph for recommendation 
-    
-[^6]: 视觉艺术推荐的要素：学习画作的潜在语义表征
-
-    The Elements of Visual Art Recommendation: Learning Latent Semantic Representations of Paintings. (arXiv:2303.08182v1 [cs.IR])
-
-    [http://arxiv.org/abs/2303.08182](http://arxiv.org/abs/2303.08182)
-
-    本文研究了如何高效地捕捉视觉艺术的元素，提出了结合文本和视觉特征学习技术的推荐系统，用于个性化艺术品推荐，结果显示两者的结合可以捕捉最合适的隐藏语义关系。
+    本文提出了一个 LLMSecEval 数据集，其中包含 150 个自然语言提示，可用于评估大型语言模型在生成容易出现安全漏洞的代码时的安全性能。
 
     
 
-    艺术品推荐具有挑战性，因为它需要理解用户如何与高度主观的内容互动，艺术品中嵌入的概念的复杂性，以及它们可能引起用户的情感和认知反应。本文重点研究如何高效地捕捉视觉艺术的元素（即潜在语义关系），以进行个性化推荐。我们提出并研究了基于文本和视觉特征学习技术以及它们的组合的推荐系统。我们对推荐质量进行了小规模和大规模的用户中心评估。我们的结果表明，文本特征比视觉特征表现更好，而两者的结合可以捕捉艺术品推荐最合适的隐藏语义关系。最终，本文有助于理解如何提供适合用户兴趣和感知的内容。
+    大型语言模型（LLM）如 Codex 在代码自动补全和生成任务方面具有强大的能力，因为它们通过公开可用的代码从数十亿行代码中进行训练。此外，这些模型能够通过从公共 GitHub 仓库学习语言和编程实践来生成来自自然语言描述的代码片段。尽管 LLM 承诺实现软件应用的 NL 驱动部署，但是它们生成的代码的安全性尚未得到广泛调查和记录。在这项工作中，我们提出了 LLMSecEval，这是一个包含 150 个 NL 提示的数据集，可用于评估此类模型的安全性能。这些提示是基于MITRE的前25个常见弱点列表中容易出现各种安全漏洞的代码片段的自然语言描述。我们数据集中的每个提示都配有一个安全实现示例，以便与由LLM生成的代码进行比较评估。
 
-    Artwork recommendation is challenging because it requires understanding how users interact with highly subjective content, the complexity of the concepts embedded within the artwork, and the emotional and cognitive reflections they may trigger in users. In this paper, we focus on efficiently capturing the elements (i.e., latent semantic relationships) of visual art for personalized recommendation. We propose and study recommender systems based on textual and visual feature learning techniques, as well as their combinations. We then perform a small-scale and a large-scale user-centric evaluation of the quality of the recommendations. Our results indicate that textual features compare favourably with visual ones, whereas a fusion of both captures the most suitable hidden semantic relationships for artwork recommendation. Ultimately, this paper contributes to our understanding of how to deliver content that suitably matches the user's interests and how they are perceived.
+    Large Language Models (LLMs) like Codex are powerful tools for performing code completion and code generation tasks as they are trained on billions of lines of code from publicly available sources. Moreover, these models are capable of generating code snippets from Natural Language (NL) descriptions by learning languages and programming practices from public GitHub repositories. Although LLMs promise an effortless NL-driven deployment of software applications, the security of the code they generate has not been extensively investigated nor documented. In this work, we present LLMSecEval, a dataset containing 150 NL prompts that can be leveraged for assessing the security performance of such models. Such prompts are NL descriptions of code snippets prone to various security vulnerabilities listed in MITRE's Top 25 Common Weakness Enumeration (CWE) ranking. Each prompt in our dataset comes with a secure implementation example to facilitate comparative evaluations against code produced by
     
-[^7]: 基于图神经网络的公平图过滤替代方法
+[^4]: 基于图神经网络的公平图过滤替代方法
 
     Graph Neural Network Surrogates of Fair Graph Filtering. (arXiv:2303.08157v1 [cs.LG])
 
@@ -111,18 +67,32 @@
 
     Graph filters that transform prior node values to posterior scores via edge propagation often support graph mining tasks affecting humans, such as recommendation and ranking. Thus, it is important to make them fair in terms of satisfying statistical parity constraints between groups of nodes (e.g., distribute score mass between genders proportionally to their representation). To achieve this while minimally perturbing the original posteriors, we introduce a filter-aware universal approximation framework for posterior objectives. This defines appropriate graph neural networks trained at runtime to be similar to filters but also locally optimize a large class of objectives, including fairness-aware ones. Experiments on a collection of 8 filters and 5 graphs show that our approach performs equally well or better than alternatives in meeting parity constraints while preserving the AUC of score-based community member recommendation and creating minimal utility loss in prior diffusion.
     
-[^8]: 学术界的作者冲突：一项国际跨学科调查
+[^5]: 预训练、提示和推荐：语言模型范式在推荐系统中的综合调查
 
-    Authorship Conflicts in Academia: an International Cross-Discipline Survey. (arXiv:2303.00386v2 [cs.DL] UPDATED)
+    Pre-train, Prompt and Recommendation: A Comprehensive Survey of Language Modelling Paradigm Adaptations in Recommender Systems. (arXiv:2302.03735v2 [cs.IR] UPDATED)
 
-    [http://arxiv.org/abs/2303.00386](http://arxiv.org/abs/2303.00386)
+    [http://arxiv.org/abs/2302.03735](http://arxiv.org/abs/2302.03735)
 
-    这项国际跨学科调查发现，作者署名的冲突问题非常普遍，并且往往在学者的职业生涯早期就开始出现。
+    本文系统地研究了如何从不同预训练语言模型中提取和转移知识，提高推荐系统性能。我们提出了一个分类法，分析和总结了基于预训练语言模型的推荐系统的培训策略和目标。
 
     
 
-    学者间的合作已成为当代科学的重要特征，因此在出版物中列出的作者数量不断上升。然而，确定应该包括哪些作者以及他们的顺序涉及多种困难，往往会导致冲突。尽管关于学术冲突的大量文献，但它在主要社会人口学特征以及学术界经历的不同类型的交互方面的分布仍不清楚。为了填补这一差距，我们进行了一项国际跨学科调查，受到了来自41个研究领域和93个国家的752名学者的统计学代表整体学术劳动力的回答。我们的发现令人担忧，表明作者署名冲突在一个人的学术生涯早期即产生，甚至在硕士和博士水平上就普遍出现。
+    预训练语言模型（PLM）的出现，通过自监督方式在大型语料库上学习通用表示，在自然语言处理（NLP）领域取得了巨大成功。预训练模型和学到的表示可受益于一系列下游NLP任务。这种培训范式最近被适用于推荐领域，并被学术界和工业界认为是一种有前途的方法。本文系统地研究了如何从不同PLM相关训练范式学习到的预训练模型中提取和转移知识，从多个角度（如通用性、稀疏性、效率和效果）提高推荐性能。具体而言，我们提出了一个正交分类法来划分现有的基于PLM的推荐系统，针对其培训策略和目标进行分析和总结。
 
-    Collaboration among scholars has emerged as a significant characteristic of contemporary science. As a result, the number of authors listed in publications continues to rise steadily. Unfortunately, determining the authors to be included in the byline and their respective order entails multiple difficulties which often lead to conflicts. Despite the large volume of literature about conflicts in academia, it remains unclear how exactly it is distributed over the main socio-demographic properties, as well as the different types of interactions academics experience. To address this gap, we conducted an international and cross-disciplinary survey answered by 752 academics from 41 fields of research and 93 countries that statistically well-represent the overall academic workforce. Our findings are concerning and suggest that authorship credit conflicts arise very early in one's academic career, even at the level of Master and Ph.D., and become increasingly common over time.
+    The emergency of Pre-trained Language Models (PLMs) has achieved tremendous success in the field of Natural Language Processing (NLP) by learning universal representations on large corpora in a self-supervised manner. The pre-trained models and the learned representations can be beneficial to a series of downstream NLP tasks. This training paradigm has recently been adapted to the recommendation domain and is considered a promising approach by both academia and industry. In this paper, we systematically investigate how to extract and transfer knowledge from pre-trained models learned by different PLM-related training paradigms to improve recommendation performance from various perspectives, such as generality, sparsity, efficiency and effectiveness. Specifically, we propose an orthogonal taxonomy to divide existing PLM-based recommender systems w.r.t. their training strategies and objectives. Then, we analyze and summarize the connection between PLM-based training paradigms and differe
+    
+[^6]: UNIQORN：统一的RDF知识图谱与自然语言文本问答系统
+
+    UNIQORN: Unified Question Answering over RDF Knowledge Graphs and Natural Language Text. (arXiv:2108.08614v5 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2108.08614](http://arxiv.org/abs/2108.08614)
+
+    本文提出了一个名为UNIQORN的问答系统，它能够无缝地处理RDF数据和文本，使用fine-tuned BERT模型为问题构建上下文图，并使用图算法确定与问题相关的子图来回答问题。
+
+    
+
+    问题回答在知识图谱和其他RDF数据上已经取得了巨大的进展，许多优秀的系统可以为自然语言问题或电报查询提供清晰的答案。其中一些系统将文本源作为附加证据纳入回答过程，但不能计算仅存在于文本中的答案。相反，IR和NLP社区的系统已经解决了有关文本的QA问题，但是这些系统几乎不利用语义数据和知识。本文提出了第一个可以无缝操作混合RDF数据集和文本语料库或单个来源的复杂问题的系统，在统一框架中进行操作。我们的方法称为UNIQORN，通过使用经过精细调整的BERT模型从RDF数据和/或文本语料库中检索与问题相关的证据来动态构建上下文图。结果图通常非常丰富但高度嘈杂。UNIQORN通过用于组Steiner树的图算法来处理这个输入，从而确定与问题相关的子图，进而回答问题。
+
+    Question answering over knowledge graphs and other RDF data has been greatly advanced, with a number of good systems providing crisp answers for natural language questions or telegraphic queries. Some of these systems incorporate textual sources as additional evidence for the answering process, but cannot compute answers that are present in text alone. Conversely, systems from the IR and NLP communities have addressed QA over text, but such systems barely utilize semantic data and knowledge. This paper presents the first system for complex questions that can seamlessly operate over a mixture of RDF datasets and text corpora, or individual sources, in a unified framework. Our method, called UNIQORN, builds a context graph on-the-fly, by retrieving question-relevant evidences from the RDF data and/or a text corpus, using fine-tuned BERT models. The resulting graph is typically rich but highly noisy. UNIQORN copes with this input by a graph algorithm for Group Steiner Trees, that identifi
     
 

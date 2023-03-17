@@ -1,0 +1,12 @@
+{
+    "title": "Empirical Study of Named Entity Recognition Performance Using Distribution-aware Word Embedding. (arXiv:2109.01636v2 [cs.CL] UPDATED)",
+    "abstract": "With the fast development of Deep Learning techniques, Named Entity Recognition (NER) is becoming more and more important in the information extraction task. The greatest difficulty that the NER task faces is to keep the detectability even when types of NE and documents are unfamiliar. Realizing that the specificity information may contain potential meanings of a word and generate semantic-related features for word embedding, we develop a distribution-aware word embedding and implement three different methods to make use of the distribution information in a NER framework. And the result shows that the performance of NER will be improved if the word specificity is incorporated into existing NER methods.",
+    "link": "http://arxiv.org/abs/2109.01636",
+    "context": "Title: Empirical Study of Named Entity Recognition Performance Using Distribution-aware Word Embedding. (arXiv:2109.01636v2 [cs.CL] UPDATED)\nAbstract: With the fast development of Deep Learning techniques, Named Entity Recognition (NER) is becoming more and more important in the information extraction task. The greatest difficulty that the NER task faces is to keep the detectability even when types of NE and documents are unfamiliar. Realizing that the specificity information may contain potential meanings of a word and generate semantic-related features for word embedding, we develop a distribution-aware word embedding and implement three different methods to make use of the distribution information in a NER framework. And the result shows that the performance of NER will be improved if the word specificity is incorporated into existing NER methods.",
+    "path": "papers/21/09/2109.01636.json",
+    "total_tokens": 737,
+    "translated_title": "使用分布感知词嵌入的命名实体识别性能的实证研究。",
+    "translated_abstract": "随着深度学习技术的快速发展，命名实体识别（NER）在信息提取任务中变得越来越重要。NER任务面临的最大困难是即使在NE类型和文档不熟悉的情况下仍然需要保持可检测性。意识到特定性信息可能包含单词的潜在含义并生成词嵌入的语义相关特征，我们开发了一个分布感知词嵌入，并实施了三种不同的方法来利用NER框架中的分布信息。结果表明，如果将词的特异性融入现有的NER方法中，NER的性能将得到提高。",
+    "tldr": "研究开发了一种分布感知词嵌入，并实施了三种不同的方法来利用NER框架中的分布信息，实验表明将词的特异性融入NER方法可提高NER的性能。",
+    "en_tdlr": "A new distribution-aware word embedding is proposed and implemented in three different methods to improve Named Entity Recognition (NER) performance. The experiment shows that incorporating word specificity into existing NER methods can improve the performance of NER."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Distributionally Robust Optimization using Cost-Aware Ambiguity Sets. (arXiv:2303.09408v1 [math.OC])",
+    "abstract": "We present a novel class of ambiguity sets for distributionally robust optimization (DRO). These ambiguity sets, called cost-aware ambiguity sets, are defined as halfspaces which depend on the cost function evaluated at an independent estimate of the optimal solution, thus excluding only those distributions that are expected to have significant impact on the obtained worst-case cost. We show that the resulting DRO method provides both a high-confidence upper bound and a consistent estimator of the out-of-sample expected cost, and demonstrate empirically that it results in less conservative solutions compared to divergence-based ambiguity sets.",
+    "link": "http://arxiv.org/abs/2303.09408",
+    "context": "Title: Distributionally Robust Optimization using Cost-Aware Ambiguity Sets. (arXiv:2303.09408v1 [math.OC])\nAbstract: We present a novel class of ambiguity sets for distributionally robust optimization (DRO). These ambiguity sets, called cost-aware ambiguity sets, are defined as halfspaces which depend on the cost function evaluated at an independent estimate of the optimal solution, thus excluding only those distributions that are expected to have significant impact on the obtained worst-case cost. We show that the resulting DRO method provides both a high-confidence upper bound and a consistent estimator of the out-of-sample expected cost, and demonstrate empirically that it results in less conservative solutions compared to divergence-based ambiguity sets.",
+    "path": "papers/23/03/2303.09408.json",
+    "total_tokens": 740,
+    "translated_title": "使用成本感知的模糊集的分布鲁棒优化",
+    "translated_abstract": "我们提出了一种新的用于分布鲁棒优化（DRO）的模糊集类别，称为成本感知的模糊集，其定义为取决于在独立估计的最优解处评估成本函数的半空间，因此仅排除那些预计对所获得的最坏情况成本产生重大影响的分布。我们表明，由此产生的DRO方法提供了高置信度的上界和样本外预期成本的一致估计，并且经验证明，它与基于散度的模糊集相比，可以产生更少保守的解。",
+    "tldr": "本文提出了一种新的用于分布鲁棒优化的模糊集，称为成本感知模糊集，它通过半空间定义，只排除那些预计对所获得的最坏情况成本产生重大影响的分布，实现了高置信度上界和一致估计。",
+    "en_tdlr": "This paper proposes a novel class of ambiguity sets, called cost-aware ambiguity sets, for distributionally robust optimization (DRO). The resulting DRO method provides high-confidence upper bound and consistent estimator of the out-of-sample expected cost, and is less conservative than divergence-based ambiguity sets."
+}

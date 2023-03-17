@@ -1,0 +1,12 @@
+{
+    "title": "A Dual Branch Network for Emotional Reaction Intensity Estimation. (arXiv:2303.09210v1 [cs.AI])",
+    "abstract": "Emotional Reaction Intensity(ERI) estimation is an important task in multimodal scenarios, and has fundamental applications in medicine, safe driving and other fields. In this paper, we propose a solution to the ERI challenge of the fifth Affective Behavior Analysis in-the-wild(ABAW), a dual-branch based multi-output regression model. The spatial attention is used to better extract visual features, and the Mel-Frequency Cepstral Coefficients technology extracts acoustic features, and a method named modality dropout is added to fusion multimodal features. Our method achieves excellent results on the official validation set.",
+    "link": "http://arxiv.org/abs/2303.09210",
+    "context": "Title: A Dual Branch Network for Emotional Reaction Intensity Estimation. (arXiv:2303.09210v1 [cs.AI])\nAbstract: Emotional Reaction Intensity(ERI) estimation is an important task in multimodal scenarios, and has fundamental applications in medicine, safe driving and other fields. In this paper, we propose a solution to the ERI challenge of the fifth Affective Behavior Analysis in-the-wild(ABAW), a dual-branch based multi-output regression model. The spatial attention is used to better extract visual features, and the Mel-Frequency Cepstral Coefficients technology extracts acoustic features, and a method named modality dropout is added to fusion multimodal features. Our method achieves excellent results on the official validation set.",
+    "path": "papers/23/03/2303.09210.json",
+    "total_tokens": 771,
+    "translated_title": "一种用于情感反应强度估计的双分支网络",
+    "translated_abstract": "情感反应强度(ERI)的估计是多模态场景中的一项重要任务，在医学、安全驾驶和其他领域有根本性的应用。本文提出了一个解决第五届野外情感行为分析(ABAW)中ERI挑战的解决方案，它是一种基于双分支的多输出回归模型。空间注意力被用于更好地提取视觉特征，Mel频率倒谱系数技术提取声学特征，并添加了一种名为模态丢失的方法来融合多模态特征。我们的方法在官方验证集上取得了出色的结果。",
+    "tldr": "本文提出了一种基于双分支的多输出回归模型，利用空间注意力和Mel-Frequency Cepstral Coefficients技术来提取视觉和声学特征，并添加了一种模态丢失方法来融合多模态特征，能够有效地解决情感反应强度估计的挑战。",
+    "en_tdlr": "This paper proposes a dual-branch based multi-output regression model for Emotional Reaction Intensity(ERI) estimation, using spatial attention and Mel-Frequency Cepstral Coefficients technology to extract visual and acoustic features, and a modality dropout method to fuse multimodal features, which effectively addresses the challenge of ERI estimation."
+}

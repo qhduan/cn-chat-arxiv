@@ -1,0 +1,12 @@
+{
+    "title": "SRMD: Sparse Random Mode Decomposition. (arXiv:2204.06108v2 [eess.SP] UPDATED)",
+    "abstract": "Signal decomposition and multiscale signal analysis provide many useful tools for time-frequency analysis. We proposed a random feature method for analyzing time-series data by constructing a sparse approximation to the spectrogram. The randomization is both in the time window locations and the frequency sampling, which lowers the overall sampling and computational cost. The sparsification of the spectrogram leads to a sharp separation between time-frequency clusters which makes it easier to identify intrinsic modes, and thus leads to a new data-driven mode decomposition. The applications include signal representation, outlier removal, and mode decomposition. On the benchmark tests, we show that our approach outperforms other state-of-the-art decomposition methods.",
+    "link": "http://arxiv.org/abs/2204.06108",
+    "context": "Title: SRMD: Sparse Random Mode Decomposition. (arXiv:2204.06108v2 [eess.SP] UPDATED)\nAbstract: Signal decomposition and multiscale signal analysis provide many useful tools for time-frequency analysis. We proposed a random feature method for analyzing time-series data by constructing a sparse approximation to the spectrogram. The randomization is both in the time window locations and the frequency sampling, which lowers the overall sampling and computational cost. The sparsification of the spectrogram leads to a sharp separation between time-frequency clusters which makes it easier to identify intrinsic modes, and thus leads to a new data-driven mode decomposition. The applications include signal representation, outlier removal, and mode decomposition. On the benchmark tests, we show that our approach outperforms other state-of-the-art decomposition methods.",
+    "path": "papers/22/04/2204.06108.json",
+    "total_tokens": 723,
+    "translated_title": "SRMD：稀疏随机模式分解",
+    "translated_abstract": "信号分解和多尺度信号分析提供了许多用于时频分析的有用工具。我们提出了一种随机特征方法，通过构建纤细近似于谱图的稀疏来分析时间序列数据。随机化同时发生在时间窗口位置和频率采样上，这降低了总体采样和计算成本。谱图的稀疏化导致时频聚类之间的尖锐分离，使识别固有模式更容易，因此引导了新的数据驱动模式分解。应用包括信号表征，异常值去除和模式分解。在基准测试中，我们展示了我们的方法优于其他最先进的分解方法。",
+    "tldr": "该论文提出了一种通过构建纤细近似于谱图的稀疏来分析时间序列数据的方法，这种方法在信号分解和多尺度信号分析方面是先进的。",
+    "en_tdlr": "This paper proposes a method to analyze time-series data by constructing a sparse approximation to the spectrogram, which is advanced in the fields of signal decomposition and multiscale signal analysis."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Robust utility maximization with nonlinear continuous semimartingales. (arXiv:2206.14015v3 [q-fin.MF] UPDATED)",
+    "abstract": "In this paper we study a robust utility maximization problem in continuous time under model uncertainty. The model uncertainty is governed by a continuous semimartingale with uncertain local characteristics. Here, the differential characteristics are prescribed by a set-valued function that depends on time and path. We show that the robust utility maximization problem is in duality with a conjugate problem, and study the existence of optimal portfolios for logarithmic, exponential and power utilities.",
+    "link": "http://arxiv.org/abs/2206.14015",
+    "context": "Title: Robust utility maximization with nonlinear continuous semimartingales. (arXiv:2206.14015v3 [q-fin.MF] UPDATED)\nAbstract: In this paper we study a robust utility maximization problem in continuous time under model uncertainty. The model uncertainty is governed by a continuous semimartingale with uncertain local characteristics. Here, the differential characteristics are prescribed by a set-valued function that depends on time and path. We show that the robust utility maximization problem is in duality with a conjugate problem, and study the existence of optimal portfolios for logarithmic, exponential and power utilities.",
+    "path": "papers/22/06/2206.14015.json",
+    "total_tokens": 613,
+    "translated_title": "非线性连续半鞅下的健壮效用最大化问题",
+    "translated_abstract": "本文研究在模型不确定性下的连续时间健壮效用最大化问题。模型不确定性由具有不确定局部特征的连续半鞅所控制。在此处，微分特征由一个取决于时间和路径的集合值函数所规定。我们展示了健壮效用最大化问题与共轭问题的对偶性，并研究了对数、指数和幂效用的最优组合的存在性。",
+    "tldr": "本文研究模型不确定性下的连续时间健壮效用最大化问题，通过对偶性证明了对数、指数和幂效用的最优组合的存在性。",
+    "en_tdlr": "This paper studies the robust utility maximization problem under model uncertainty in continuous time. It proves the existence of optimal portfolios for logarithmic, exponential and power utilities through duality."
+}

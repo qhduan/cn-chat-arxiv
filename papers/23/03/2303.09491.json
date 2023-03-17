@@ -1,0 +1,12 @@
+{
+    "title": "Challenges and Opportunities in Quantum Machine Learning. (arXiv:2303.09491v1 [quant-ph])",
+    "abstract": "At the intersection of machine learning and quantum computing, Quantum Machine Learning (QML) has the potential of accelerating data analysis, especially for quantum data, with applications for quantum materials, biochemistry, and high-energy physics. Nevertheless, challenges remain regarding the trainability of QML models. Here we review current methods and applications for QML. We highlight differences between quantum and classical machine learning, with a focus on quantum neural networks and quantum deep learning. Finally, we discuss opportunities for quantum advantage with QML.",
+    "link": "http://arxiv.org/abs/2303.09491",
+    "context": "Title: Challenges and Opportunities in Quantum Machine Learning. (arXiv:2303.09491v1 [quant-ph])\nAbstract: At the intersection of machine learning and quantum computing, Quantum Machine Learning (QML) has the potential of accelerating data analysis, especially for quantum data, with applications for quantum materials, biochemistry, and high-energy physics. Nevertheless, challenges remain regarding the trainability of QML models. Here we review current methods and applications for QML. We highlight differences between quantum and classical machine learning, with a focus on quantum neural networks and quantum deep learning. Finally, we discuss opportunities for quantum advantage with QML.",
+    "path": "papers/23/03/2303.09491.json",
+    "total_tokens": 772,
+    "translated_title": "量子机器学习中的挑战与机遇",
+    "translated_abstract": "量子机器学习（QML）位于机器学习和量子计算的交叉领域，具有加速数据分析的潜力，特别是在量子数据应用于量子材料、生物化学和高能物理方面。然而，QML模型的可训练性仍然存在挑战。本文回顾了当前的QML方法与应用，并突出了量子机器学习与经典机器学习之间的差异，重点关注量子神经网络和量子深度学习。最后，我们讨论了QML的量子优势机会。",
+    "tldr": "量子机器学习（QML）是机器学习和量子计算交叉领域中的前沿研究方向，具有应用于量子材料、生物化学和高能物理等领域的潜力，但其模型的可训练性仍有挑战，需要进一步解决。本文回顾了当前QML方法与应用，并探讨了QML的量子优势机会。",
+    "en_tdlr": "Quantum Machine Learning (QML) is a cutting-edge research direction at the intersection of machine learning and quantum computing, with the potential to be applied in quantum materials, biochemistry, high-energy physics and other fields. However, there are still challenges in the trainability of QML models that need to be further addressed. This paper reviews current methods and applications for QML and explores the opportunities for quantum advantage with QML."
+}
