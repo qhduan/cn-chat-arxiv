@@ -227,9 +227,13 @@ def make_rss(rets, arxiv_channel='cs.AI'):
 
 
 def chat_arxiv(arxiv_channel='cs.AI'):
+    """
+    Download the arxiv feed and use ChatGPT to do summary
+    """
     print('download feed', arxiv_channel)
     # Parse the arXiv.org RSS feed
     feed = feedparser.parse(f'https://export.arxiv.org/rss/{arxiv_channel}')
+    print(f'we found {len(feed.entries)} items')
     to_call_chat = []
     good_rets = []
     for item in feed.entries:
@@ -253,6 +257,7 @@ Abstract: {description_text}'''
             }
             to_call_chat.append(ret)
 
+    print(f'{len(to_call_chat)} paper need to chat')
     if len(to_call_chat) > 0:
         with ProcessPool(max_workers=min(len(to_call_chat), 32)) as pool:
             futures = []
@@ -293,12 +298,9 @@ Abstract: {description_text}'''
 
 
 if __name__ == '__main__':
-    # cs = '''AI,AR,CC,CE,CG,CL,CR,CV,CY,DB,DC,DL,DM,DS,ET,FL,GL,GR,GT,HC,IR,IT,LG,LO,MA,MM,MS,NA,NE,NI,OH,OS,PF,PL,RO,SC,SD,SE,SI,SY'''.split(',')
     cs = '''AI,CL,LG,IR'''.split(',')
     for c in cs:
         chat_arxiv(f'cs.{c}')
-    # other = '''astro-ph,cond-mat,econ,eess,gr-qc,hep-ex,hep-lat,hep-ph,hep-th,math,math-ph,nlin,nucl-ex,nucl-th,physics,q-bio,q-fin,quant-ph,stat'''.split(',')
-    others = '''econ,q-fin'''.split(',')
+    others = '''econ,q-fin,stat.ML'''.split(',')
     for c in others:
         chat_arxiv(c)
-    chat_arxiv('stat.ML')
