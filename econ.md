@@ -11,9 +11,11 @@
 | [^7] | [Dynamic Information Provision: Rewarding the Past and Guiding the Future.](http://arxiv.org/abs/2303.09675) | 本文解决了长期关系下发件人与收件人间信息提供的最优策略，这一策略褒奖过去，引领未来。 |
 | [^8] | [On Using Proportional Representation Methods as Alternatives to Pro-Rata Based Order Matching Algorithms in Stock Exchanges.](http://arxiv.org/abs/2303.09652) | 研究发现，选举制度中的比例代表方法可以替代股票交易所中的按比例分配顺序的匹配算法，提供更接近比例分配的订单分配。 |
 | [^9] | [Mr.Keynes and the... Complexity! A suggested agent-based version of the General Theory of Employment, Interest and Money.](http://arxiv.org/abs/2303.00889) | 本文提出了一种基于代理的宏观经济模型，旨在遵循凯恩斯的《失业、利率和货币的一般理论》，通过确定收入和就业水平来确定资本边际效益和倾向于消费的边际倾向。 |
-| [^10] | [Foundations of self-progressive choice theories.](http://arxiv.org/abs/2212.13449) | 该论文讨论了自我渐进选择理论及其与代数结构和超模函数的等价性，并将分析扩展到普遍自我渐进的选择理论。 |
-| [^11] | [Observable Perfect Equilibrium.](http://arxiv.org/abs/2210.16506) | 本文提出一种新的博弈均衡概念——可观测完美均衡，在顺序不完全信息博弈中可以帮助创建真正的策略代理。这种均衡概念在公开观察的行动概率方面具有鲁棒性。 |
-| [^12] | [Simultaneity in Binary Outcome Models with an Application to Employment for Couples.](http://arxiv.org/abs/2207.07343) | 本文研究了施密特提出的二元联立模型在动态面板数据版本下的应用，发现夫妻就业关系的依赖程度因夫妻的族裔构成而异。 |
+| [^10] | [Estimating the Effects of Fiscal Policy using a Novel Proxy Shrinkage Prior.](http://arxiv.org/abs/2302.13066) | 本文提出了一种新型代理收缩先验方法，能够在不依赖于代理变量有效性的强烈假设的情况下，估计财政政策冲击的效应。研究发现，增加政府支出比减税更有效地刺激经济，并构建了新的外生代理变量，可以用于传统的代理VAR方法中，与代理收缩模型的结果相似。 |
+| [^11] | [Foundations of self-progressive choice theories.](http://arxiv.org/abs/2212.13449) | 该论文讨论了自我渐进选择理论及其与代数结构和超模函数的等价性，并将分析扩展到普遍自我渐进的选择理论。 |
+| [^12] | [Observable Perfect Equilibrium.](http://arxiv.org/abs/2210.16506) | 本文提出一种新的博弈均衡概念——可观测完美均衡，在顺序不完全信息博弈中可以帮助创建真正的策略代理。这种均衡概念在公开观察的行动概率方面具有鲁棒性。 |
+| [^13] | [Simultaneity in Binary Outcome Models with an Application to Employment for Couples.](http://arxiv.org/abs/2207.07343) | 本文研究了施密特提出的二元联立模型在动态面板数据版本下的应用，发现夫妻就业关系的依赖程度因夫妻的族裔构成而异。 |
+| [^14] | [Inference for Cluster Randomized Experiments with Non-ignorable Cluster Sizes.](http://arxiv.org/abs/2204.08356) | 本文讨论了当簇大小非可忽略时，群集随机实验的推断问题，并提供方法用于识别平均权重簇水平治疗效应和大小加权簇水平治疗效应这两个参数。 |
 
 # 详细
 
@@ -143,7 +145,21 @@
 
     This paper presents a model with the aim to follow, as closely as possible, the rationale of the macroeconomic model advanced by J.M. Keynes in his famous "The General Theory of Unemployment, Interest and Money", in order to provide a viable tool for macroeconomic research. Keynes' main result will be shown, i.e., to determine the level of income and employment starting from the marginal efficiency of capital and the marginal propensity to consume, given the interest rate. Elements of the model will be described by referring to the original text. The sequentiality in model operation will prove quintessential in order to describe the complex nature of macroeconomic systems.
     
-[^10]: 自我渐进选择理论的基础
+[^10]: 使用新型代理收缩先验估计财政政策效应
+
+    Estimating the Effects of Fiscal Policy using a Novel Proxy Shrinkage Prior. (arXiv:2302.13066v2 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2302.13066](http://arxiv.org/abs/2302.13066)
+
+    本文提出了一种新型代理收缩先验方法，能够在不依赖于代理变量有效性的强烈假设的情况下，估计财政政策冲击的效应。研究发现，增加政府支出比减税更有效地刺激经济，并构建了新的外生代理变量，可以用于传统的代理VAR方法中，与代理收缩模型的结果相似。
+
+    
+
+    在财政政策结构向量自回归中，不同的代理变量会得出冲突的结论，意味着某些外生性假设可能无法满足。我们将数据驱动识别与新型代理收缩先验相结合，使我们能够在不依赖于代理变量有效性的强烈假设的情况下估计财政政策冲击的效应。我们的研究结果表明，增加政府支出是刺激经济的更有效工具比减税。此外，我们提供证据表明，文献中常用的代理变量与结构性冲击具有内生相关性，这导致估计结果存在偏差。我们构建了新的外生代理变量，可以用于传统的代理 VAR 方法中，结果与我们的代理收缩模型相似。
+
+    Different proxy variables commonly used in fiscal policy SVARs lead to contradicting conclusions implying that some of the exogeneity assumptions may not be fulfilled. We combine data-driven identification with a novel proxy shrinkage prior which enables us to estimate the effects of fiscal policy shocks without relying on strong assumptions about the validity of the proxy variables. Our results suggest that increasing government spending is a more effective tool to stimulate the economy than reducing taxes. Additionally, we provide evidence that the commonly used proxies in the literature are endogenously related to the structural shocks which leads to biased estimates. We construct new exogenous proxies that can be used in the traditional proxy VAR approach resulting in similar estimates compared to our proxy shrinkage model.
+    
+[^11]: 自我渐进选择理论的基础
 
     Foundations of self-progressive choice theories. (arXiv:2212.13449v4 [econ.TH] UPDATED)
 
@@ -157,7 +173,7 @@
 
     Consider a population of agents whose choice behaviors are partially comparable according to given primitive orderings. The set of choice functions admissible in the population specifies a choice theory. A choice theory is self-progressive if any aggregate choice behavior consistent with the theory is uniquely representable as a probability distribution over admissible choice functions that are comparable. We establish an equivalence between self-progressive choice theories and (i) well-known algebraic structures called lattices; (ii) the maximizers of supermodular functions over a specific domain of choice functions. We extend our analysis to universally self-progressive choice theories which render unique orderly representations independent of primitive orderings.
     
-[^11]: 可观测完美均衡 (Observable Perfect Equilibrium)
+[^12]: 可观测完美均衡 (Observable Perfect Equilibrium)
 
     Observable Perfect Equilibrium. (arXiv:2210.16506v5 [cs.GT] UPDATED)
 
@@ -171,7 +187,7 @@
 
     While Nash equilibrium has emerged as the central game-theoretic solution concept, many important games contain several Nash equilibria and we must determine how to select between them in order to create real strategic agents. Several Nash equilibrium refinement concepts have been proposed and studied for sequential imperfect-information games, the most prominent being trembling-hand perfect equilibrium, quasi-perfect equilibrium, and recently one-sided quasi-perfect equilibrium. These concepts are robust to certain arbitrarily small mistakes, and are guaranteed to always exist; however, we argue that neither of these is the correct concept for developing strong agents in sequential games of imperfect information. We define a new equilibrium refinement concept for extensive-form games called observable perfect equilibrium in which the solution is robust over trembles in publicly-observable action probabilities (not necessarily over all action probabilities that may not be observable by
     
-[^12]: 二元结果模型中的同时性及其在夫妻就业中的应用
+[^13]: 二元结果模型中的同时性及其在夫妻就业中的应用
 
     Simultaneity in Binary Outcome Models with an Application to Employment for Couples. (arXiv:2207.07343v2 [econ.EM] UPDATED)
 
@@ -184,5 +200,19 @@
     彼得·施密特在计量经济学发展中做出了许多贡献，其中包括引入联立logit模型以及研究短面板下动态线性固定效应面板数据模型的估计方法。本文研究了施密特和斯特劳斯（1975）引入的二元模型的动态面板数据版本，该模型允许滞后的因变量和固定效应，类似于安和施密特（1995）的模型。我们将条件似然方法与矩估计方法相结合，得出了模型的估计策略。我们将这种估计策略应用于夫妻就业关系的简单模型中。我们的主要结论是，在考虑未观测到的家庭特定异质性的情况下，夫妻之间的就业依赖关系因夫妻的族裔构成而异。
 
     Two of Peter Schmidt's many contributions to econometrics have been to introduce a simultaneous logit model for bivariate binary outcomes and to study estimation of dynamic linear fixed effects panel data models using short panels. In this paper, we study a dynamic panel data version of the bivariate model introduced in Schmidt and Strauss (1975) that allows for lagged dependent variables and fixed effects as in Ahn and Schmidt (1995). We combine a conditional likelihood approach with a method of moments approach to obtain an estimation strategy for the resulting model. We apply this estimation strategy to a simple model for the intra-household relationship in employment. Our main conclusion is that the within-household dependence in employment differs significantly by the ethnicity composition of the couple even after one allows for unobserved household specific heterogeneity.
+    
+[^14]: 带有非可忽略簇大小的群集随机实验推断
+
+    Inference for Cluster Randomized Experiments with Non-ignorable Cluster Sizes. (arXiv:2204.08356v4 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2204.08356](http://arxiv.org/abs/2204.08356)
+
+    本文讨论了当簇大小非可忽略时，群集随机实验的推断问题，并提供方法用于识别平均权重簇水平治疗效应和大小加权簇水平治疗效应这两个参数。
+
+    
+
+    本文考虑了当簇大小是非可忽略的时，群集随机实验的推断问题。在这里，群集随机实验是指治疗在群集级别分配的实验。非可忽略的簇大小意味着“大”簇和“小”簇可能是异质的，特别地，治疗效应可能因簇大小不同而异。为了允许这种灵活性，我们考虑了一个簇大小本身是随机的抽样框架。我们分别区分了两个不同的感兴趣的参数：平均权重簇水平治疗效应和大小加权簇水平治疗效应。对于每个参数，我们提供了推断方法，其中聚类数呈指数增长。
+
+    This paper considers the problem of inference in cluster randomized experiments when cluster sizes are non-ignorable. Here, by a cluster randomized experiment, we mean one in which treatment is assigned at the level of the cluster; by non-ignorable cluster sizes we mean that "large'' clusters and "small'' clusters may be heterogeneous, and, in particular, the effects of the treatment may vary across clusters of differing sizes. In order to permit this sort of flexibility, we consider a sampling framework in which cluster sizes themselves are random. In this way, our analysis departs from earlier analyses of cluster randomized experiments in which cluster sizes are treated as non-random. We distinguish between two different parameters of interest: the equally-weighted cluster-level average treatment effect, and the size-weighted cluster-level average treatment effect. For each parameter, we provide methods for inference in an asymptotic framework where the number of clusters tends to in
     
 

@@ -21,14 +21,16 @@
 | [^17] | [Greedy Ordering of Layer Weight Matrices in Transformers Improves Translation.](http://arxiv.org/abs/2302.02123) | 本论文提出了一种基于贪婪重排权重矩阵的算法AEIUOrder，能够最大化总的经过充分训练的层所贡献的"well-trainedness"指标进行优化，从而提高翻译质量并在各种翻译任务上达到最佳性能。 |
 | [^18] | [Matching Exemplar as Next Sentence Prediction (MeNSP): Zero-shot Prompt Learning for Automatic Scoring in Science Education.](http://arxiv.org/abs/2301.08771) | 本研究提出了一种零样本学习自动评分的方法，利用预训练的语言模型配合匹配标本作为下一句预测技术，成功应用于科学教育领域的论证任务，极大地减少了训练成本和时间。 |
 | [^19] | [Multi-Scales Data Augmentation Approach In Natural Language Inference For Artifacts Mitigation And Pre-Trained Model Optimization.](http://arxiv.org/abs/2212.08756) | 本文通过多尺度数据增强方法纠偏了预训练模型在自然语言推理中遇到的数据集人为制造效应，提高了模型对扰动测试的抵抗力。 |
-| [^20] | [Analysis of Utterance Embeddings and Clustering Methods Related to Intent Induction for Task-Oriented Dialogue.](http://arxiv.org/abs/2212.02021) | 本文旨在研究任务导向对话中的意图识别问题，并提出两个关键因素：聚类算法和用户话语嵌入空间。实验证明，利用预训练的MiniLM与层次聚类相结合可以显著提高意图归纳任务的效果。 |
-| [^21] | [Who are you referring to? Coreference resolution in image narrations.](http://arxiv.org/abs/2211.14563) | 本研究介绍了一个新的数据集和技术来解决图像叙述中的指代消解问题，提出的模型在解决这一任务中表现出较强的性能和优势，指代消解有助于提高图片中的叙述表达能力。 |
-| [^22] | [Comparative layer-wise analysis of self-supervised speech models.](http://arxiv.org/abs/2211.03929) | 本论文通过比较不同自监督语音模型的逐层中间表示，发现了不同模型在编码声学、语音和单词级属性上的差异，并发现这些差异与预训练目标的选择相关。通过比较属性趋势和语音识别和口语理解任务的性能，我们发现CCA趋势为选择层次提供了可靠的指导。 |
-| [^23] | [Leveraging Large Language Models for Multiple Choice Question Answering.](http://arxiv.org/abs/2210.12353) | 本文研究了利用大型语言模型进行多项选择题的答案推断，并探讨了一种更自然的问题提示方式，以提高准确性。 |
-| [^24] | [TabLLM: Few-shot Classification of Tabular Data with Large Language Models.](http://arxiv.org/abs/2210.10723) | 本文应用大语言模型将表格数据序列化为自然语言字符串进行分类，微调后即可在非常少的样本设置下与传统基线方法竞争力十足。 |
-| [^25] | [Treeformer: Dense Gradient Trees for Efficient Attention Computation.](http://arxiv.org/abs/2208.09015) | 本文提出了Treeformer，一种基于决策树的分层导航方法，用于高效地计算注意力。与传统的注意力计算方法相比，Treeformer 可以将检索成本从线性降为近似对数级别，并提供两种有效的关注层。算法的目标是处理输入序列长度过长的应用，提高计算效率。 |
-| [^26] | [The Maximum Linear Arrangement Problem for trees under projectivity and planarity.](http://arxiv.org/abs/2206.06924) | 该论文提出了一种解决在平面性和投影性定义下树的最大线性排列问题的算法，证明了最大投影和平面排列的多个性质，发现毛毛虫树最优，推广了之前的极值结果。 |
-| [^27] | [Empirical Study of Named Entity Recognition Performance Using Distribution-aware Word Embedding.](http://arxiv.org/abs/2109.01636) | 研究开发了一种分布感知词嵌入，并实施了三种不同的方法来利用NER框架中的分布信息，实验表明将词的特异性融入NER方法可提高NER的性能。 |
+| [^20] | [Effectiveness of Text, Acoustic, and Lattice-based representations in Spoken Language Understanding tasks.](http://arxiv.org/abs/2212.08489) | 本文研究了在口语理解任务中使用文本、声学和基于lattice的表示方法，结果表明使用更丰富的自动语音识别输出形式可以获得更好的性能。 |
+| [^21] | [Analysis of Utterance Embeddings and Clustering Methods Related to Intent Induction for Task-Oriented Dialogue.](http://arxiv.org/abs/2212.02021) | 本文旨在研究任务导向对话中的意图识别问题，并提出两个关键因素：聚类算法和用户话语嵌入空间。实验证明，利用预训练的MiniLM与层次聚类相结合可以显著提高意图归纳任务的效果。 |
+| [^22] | [Who are you referring to? Coreference resolution in image narrations.](http://arxiv.org/abs/2211.14563) | 本研究介绍了一个新的数据集和技术来解决图像叙述中的指代消解问题，提出的模型在解决这一任务中表现出较强的性能和优势，指代消解有助于提高图片中的叙述表达能力。 |
+| [^23] | [GPT-3-driven pedagogical agents for training children's curious question-asking skills.](http://arxiv.org/abs/2211.14228) | 该研究探索了使用自然语言处理技术自动生成儿童好奇心问题提问培训的教育内容，该方法显示出了很高的相关性和教育价值。 |
+| [^24] | [Comparative layer-wise analysis of self-supervised speech models.](http://arxiv.org/abs/2211.03929) | 本论文通过比较不同自监督语音模型的逐层中间表示，发现了不同模型在编码声学、语音和单词级属性上的差异，并发现这些差异与预训练目标的选择相关。通过比较属性趋势和语音识别和口语理解任务的性能，我们发现CCA趋势为选择层次提供了可靠的指导。 |
+| [^25] | [Leveraging Large Language Models for Multiple Choice Question Answering.](http://arxiv.org/abs/2210.12353) | 本文研究了利用大型语言模型进行多项选择题的答案推断，并探讨了一种更自然的问题提示方式，以提高准确性。 |
+| [^26] | [TabLLM: Few-shot Classification of Tabular Data with Large Language Models.](http://arxiv.org/abs/2210.10723) | 本文应用大语言模型将表格数据序列化为自然语言字符串进行分类，微调后即可在非常少的样本设置下与传统基线方法竞争力十足。 |
+| [^27] | [Treeformer: Dense Gradient Trees for Efficient Attention Computation.](http://arxiv.org/abs/2208.09015) | 本文提出了Treeformer，一种基于决策树的分层导航方法，用于高效地计算注意力。与传统的注意力计算方法相比，Treeformer 可以将检索成本从线性降为近似对数级别，并提供两种有效的关注层。算法的目标是处理输入序列长度过长的应用，提高计算效率。 |
+| [^28] | [The Maximum Linear Arrangement Problem for trees under projectivity and planarity.](http://arxiv.org/abs/2206.06924) | 该论文提出了一种解决在平面性和投影性定义下树的最大线性排列问题的算法，证明了最大投影和平面排列的多个性质，发现毛毛虫树最优，推广了之前的极值结果。 |
+| [^29] | [Empirical Study of Named Entity Recognition Performance Using Distribution-aware Word Embedding.](http://arxiv.org/abs/2109.01636) | 研究开发了一种分布感知词嵌入，并实施了三种不同的方法来利用NER框架中的分布信息，实验表明将词的特异性融入NER方法可提高NER的性能。 |
 
 # 详细
 
@@ -298,7 +300,21 @@
 
     Machine learning models can reach high performance on benchmark natural language processing (NLP) datasets but fail in more challenging settings. We study this issue when a pre-trained model learns dataset artifacts in natural language inference (NLI), the topic of studying the logical relationship between a pair of text sequences. We provide a variety of techniques for analyzing and locating dataset artifacts inside the crowdsourced Stanford Natural Language Inference (SNLI) corpus. We study the stylistic pattern of dataset artifacts in the SNLI. To mitigate dataset artifacts, we employ a unique multi-scale data augmentation technique with two distinct frameworks: a behavioral testing checklist at the sentence level and lexical synonym criteria at the word level. Specifically, our combination method enhances our model's resistance to perturbation testing, enabling it to continuously outperform the pre-trained baseline.
     
-[^20]: 与任务导向对话的意图识别相关的话语嵌入和聚类方法的分析
+[^20]: 文本、声学和基于lattice的表示在口语理解任务中的有效性
+
+    Effectiveness of Text, Acoustic, and Lattice-based representations in Spoken Language Understanding tasks. (arXiv:2212.08489v2 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2212.08489](http://arxiv.org/abs/2212.08489)
+
+    本文研究了在口语理解任务中使用文本、声学和基于lattice的表示方法，结果表明使用更丰富的自动语音识别输出形式可以获得更好的性能。
+
+    
+
+    本文针对口语理解（SLU）中的意图分类问题进行了多种表示方法的详细评估。我们对三种系统进行了基准评估来执行SLU意图检测任务：1）基于文本的，2）基于lattice的，以及一种新的3）多模式方法。我们提供了对不同情况下（例如，自动生成的转录 vs 手动转录等）不同最先进的SLU系统的可实现性能的全面分析。我们基于公开资源SLURP口语语言资源语料库评估了这些系统。结果表明，使用更丰富的自动语音识别（ASR）输出形式，即词共识网络，可以使SLU系统相对于1-best设置获得改善（相对提高5.5%）。然而，跨模态方法，即学习声学和文本嵌入，得到了与oracle设置相似的性能，即相对提高...
+
+    In this paper, we perform an exhaustive evaluation of different representations to address the intent classification problem in a Spoken Language Understanding (SLU) setup. We benchmark three types of systems to perform the SLU intent detection task: 1) text-based, 2) lattice-based, and a novel 3) multimodal approach. Our work provides a comprehensive analysis of what could be the achievable performance of different state-of-the-art SLU systems under different circumstances, e.g., automatically- vs. manually-generated transcripts. We evaluate the systems on the publicly available SLURP spoken language resource corpus. Our results indicate that using richer forms of Automatic Speech Recognition (ASR) outputs, namely word-consensus-networks, allows the SLU system to improve in comparison to the 1-best setup (5.5% relative improvement). However, crossmodal approaches, i.e., learning from acoustic and text embeddings, obtains performance similar to the oracle setup, a relative improvement 
+    
+[^21]: 与任务导向对话的意图识别相关的话语嵌入和聚类方法的分析
 
     Analysis of Utterance Embeddings and Clustering Methods Related to Intent Induction for Task-Oriented Dialogue. (arXiv:2212.02021v3 [cs.CL] UPDATED)
 
@@ -312,7 +328,7 @@
 
     The focus of this work is to investigate unsupervised approaches to overcome quintessential challenges in designing task-oriented dialog schema: assigning intent labels to each dialog turn (intent clustering) and generating a set of intents based on the intent clustering methods (intent induction). We postulate there are two salient factors for automatic induction of intents: (1) clustering algorithm for intent labeling and (2) user utterance embedding space. We compare existing off-the-shelf clustering models and embeddings based on DSTC11 evaluation. Our extensive experiments demonstrate that the combined selection of utterance embedding and clustering method in the intent induction task should be carefully considered. We also present that pretrained MiniLM with Agglomerative clustering shows significant improvement in NMI, ARI, F1, accuracy and example coverage in intent induction tasks. The source codes are available at https://github.com/Jeiyoon/dstc11-track2.
     
-[^21]: 图像叙述中的指代消解：你指的是谁？
+[^22]: 图像叙述中的指代消解：你指的是谁？
 
     Who are you referring to? Coreference resolution in image narrations. (arXiv:2211.14563v2 [cs.CV] UPDATED)
 
@@ -326,7 +342,21 @@
 
     Coreference resolution aims to identify words and phrases which refer to same entity in a text, a core task in natural language processing. In this paper, we extend this task to resolving coreferences in long-form narrations of visual scenes. First we introduce a new dataset with annotated coreference chains and their bounding boxes, as most existing image-text datasets only contain short sentences without coreferring expressions or labeled chains. We propose a new technique that learns to identify coreference chains using weak supervision, only from image-text pairs and a regularization using prior linguistic knowledge. Our model yields large performance gains over several strong baselines in resolving coreferences. We also show that coreference resolution helps improving grounding narratives in images.
     
-[^22]: 自监督语音模型的逐层比较分析
+[^23]: GPT-3 驱动的教育智能体训练儿童好奇心问题提问技巧
+
+    GPT-3-driven pedagogical agents for training children's curious question-asking skills. (arXiv:2211.14228v5 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2211.14228](http://arxiv.org/abs/2211.14228)
+
+    该研究探索了使用自然语言处理技术自动生成儿童好奇心问题提问培训的教育内容，该方法显示出了很高的相关性和教育价值。
+
+    
+
+    为了训练儿童提问好奇心驱动的问题的能力，之前的研究探索了设计特定的练习，依靠提供语义和语言提示来帮助形成这样的问题。但尽管表现出了教学效率，但该方法仍然受限于手动生成提示，这可能是一个非常昂贵的过程。在这种情况下，我们提议利用自然语言处理领域（NLP）的先进技术，并调查使用大型语言模型（LLM）自动化好奇心问题提问（QA）培训的教育内容的有效性。我们研究使用“基于提示”的方法来生成教育内容，该方法包括使用自然文本向LLM解释任务。我们使用人类专家注释和手动生成内容进行评估。结果确实表明了这种内容的相关性和有用性。我们还在小学进行了现场研究（75个孩子）
+
+    In order to train children's ability to ask curiosity-driven questions, previous research has explored designing specific exercises relying on providing semantic and linguistic cues to help formulate such questions. But despite showing pedagogical efficiency, this method is still limited as it relies on generating the said cues by hand, which can be a very costly process. In this context, we propose to leverage advances in the natural language processing field (NLP) and investigate the efficiency of using a large language model (LLM) for automating the production of the pedagogical content of a curious question-asking (QA) training. We study generating the said content using the "prompt-based" method that consists of explaining the task to the LLM in natural text. We evaluate the output using human experts annotations and comparisons with hand-generated content. Results suggested indeed the relevance and usefulness of this content. We also conduct a field study in primary school (75 ch
+    
+[^24]: 自监督语音模型的逐层比较分析
 
     Comparative layer-wise analysis of self-supervised speech models. (arXiv:2211.03929v3 [cs.CL] UPDATED)
 
@@ -340,7 +370,7 @@
 
     Many self-supervised speech models, varying in their pre-training objective, input modality, and pre-training data, have been proposed in the last few years. Despite impressive successes on downstream tasks, we still have a limited understanding of the properties encoded by the models and the differences across models. In this work, we examine the intermediate representations for a variety of recent models. Specifically, we measure acoustic, phonetic, and word-level properties encoded in individual layers, using a lightweight analysis tool based on canonical correlation analysis (CCA). We find that these properties evolve across layers differently depending on the model, and the variations relate to the choice of pre-training objective. We further investigate the utility of our analyses for downstream tasks by comparing the property trends with performance on speech recognition and spoken language understanding tasks. We discover that CCA trends provide reliable guidance to choose laye
     
-[^23]: 利用大型语言模型进行多项选择题的答案推断
+[^25]: 利用大型语言模型进行多项选择题的答案推断
 
     Leveraging Large Language Models for Multiple Choice Question Answering. (arXiv:2210.12353v3 [cs.CL] UPDATED)
 
@@ -354,7 +384,7 @@
 
     While large language models (LLMs) like GPT-3 have achieved impressive results on multiple choice question answering (MCQA) tasks in the zero, one, and few-shot settings, they generally lag behind the MCQA state of the art (SOTA). MCQA tasks have traditionally been presented to LLMs like cloze tasks. An LLM is conditioned on a question (without the associated answer options) and its chosen option is the one assigned the highest probability after normalization (for length, etc.). A more natural prompting approach is to present the question and answer options to the LLM jointly and have it output the symbol (e.g., "A") associated with its chosen answer option. This approach allows the model to explicitly compare answer options, reduces computational costs, and mitigates the effects of tokenization scheme and answer option representations on answer selection. For the natural approach to be effective, the LLM it is used with must be able to associate answer options with the symbols that re
     
-[^24]: TabLLM: 大语言模型在少样本表格数据分类中的应用
+[^26]: TabLLM: 大语言模型在少样本表格数据分类中的应用
 
     TabLLM: Few-shot Classification of Tabular Data with Large Language Models. (arXiv:2210.10723v2 [cs.CL] UPDATED)
 
@@ -368,7 +398,7 @@
 
     We study the application of large language models to zero-shot and few-shot classification of tabular data. We prompt the large language model with a serialization of the tabular data to a natural-language string, together with a short description of the classification problem. In the few-shot setting, we fine-tune the large language model using some labeled examples. We evaluate several serialization methods including templates, table-to-text models, and large language models. Despite its simplicity, we find that this technique outperforms prior deep-learning-based tabular classification methods on several benchmark datasets. In most cases, even zero-shot classification obtains non-trivial performance, illustrating the method's ability to exploit prior knowledge encoded in large language models. Unlike many deep learning methods for tabular datasets, this approach is also competitive with strong traditional baselines like gradient-boosted trees, especially in the very-few-shot setting
     
-[^25]: Treeformer: 稠密梯度树实现高效注意力计算
+[^27]: Treeformer: 稠密梯度树实现高效注意力计算
 
     Treeformer: Dense Gradient Trees for Efficient Attention Computation. (arXiv:2208.09015v2 [cs.CL] UPDATED)
 
@@ -382,7 +412,7 @@
 
     Standard inference and training with transformer based architectures scale quadratically with input sequence length. This is prohibitively large for a variety of applications especially in web-page translation, query-answering etc. Consequently, several approaches have been developed recently to speedup attention computation by enforcing different attention structures such as sparsity, low-rank, approximating attention using kernels. In this work, we view attention computation as that of nearest neighbor retrieval, and use decision tree based hierarchical navigation to reduce the retrieval cost per query token from linear in sequence length to nearly logarithmic. Based on such hierarchical navigation, we design Treeformer which can use one of two efficient attention layers -- TF-Attention and TC-Attention. TF-Attention computes the attention in a fine-grained style, while TC-Attention is a coarse attention layer which also ensures that the gradients are "dense". To optimize such challe
     
-[^26]: 基于平面性与投影性定义下树的最大线性排列问题（arXiv:2206.06924v3[cs.DS] 更新版）
+[^28]: 基于平面性与投影性定义下树的最大线性排列问题（arXiv:2206.06924v3[cs.DS] 更新版）
 
     The Maximum Linear Arrangement Problem for trees under projectivity and planarity. (arXiv:2206.06924v3 [cs.DS] UPDATED)
 
@@ -396,7 +426,7 @@
 
     The Maximum Linear Arrangement problem (MaxLA) consists of finding a mapping $\pi$ from the $n$ vertices of a graph $G$ to distinct consecutive integers that maximizes $D(G)=\sum_{uv\in E(G)}|\pi(u) - \pi(v)|$. In this setting, vertices are considered to lie on a horizontal line and edges are drawn as semicircles above the line. There exist variants of MaxLA in which the arrangements are constrained. In the planar variant, edge crossings are forbidden. In the projective variant for rooted trees, arrangements are planar and the root cannot be covered by any edge. Here we present $O(n)$-time and $O(n)$-space algorithms that solve planar and projective MaxLA for trees. We also prove several properties of maximum projective and planar arrangements, and show that caterpillar trees maximize planar MaxLA over all trees of a fixed size thereby generalizing a previous extremal result on trees.
     
-[^27]: 使用分布感知词嵌入的命名实体识别性能的实证研究。
+[^29]: 使用分布感知词嵌入的命名实体识别性能的实证研究。
 
     Empirical Study of Named Entity Recognition Performance Using Distribution-aware Word Embedding. (arXiv:2109.01636v2 [cs.CL] UPDATED)
 
