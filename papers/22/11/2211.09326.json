@@ -1,0 +1,12 @@
+{
+    "title": "Inadmissibility of the corrected Akaike information criterion. (arXiv:2211.09326v2 [math.ST] UPDATED)",
+    "abstract": "For the multivariate linear regression model with unknown covariance, the corrected Akaike information criterion is the minimum variance unbiased estimator of the expected Kullback--Leibler discrepancy. In this study, based on the loss estimation framework, we show its inadmissibility as an estimator of the Kullback--Leibler discrepancy itself, instead of the expected Kullback--Leibler discrepancy. We provide improved estimators of the Kullback--Leibler discrepancy that work well in reduced-rank situations and examine their performance numerically.",
+    "link": "http://arxiv.org/abs/2211.09326",
+    "context": "Title: Inadmissibility of the corrected Akaike information criterion. (arXiv:2211.09326v2 [math.ST] UPDATED)\nAbstract: For the multivariate linear regression model with unknown covariance, the corrected Akaike information criterion is the minimum variance unbiased estimator of the expected Kullback--Leibler discrepancy. In this study, based on the loss estimation framework, we show its inadmissibility as an estimator of the Kullback--Leibler discrepancy itself, instead of the expected Kullback--Leibler discrepancy. We provide improved estimators of the Kullback--Leibler discrepancy that work well in reduced-rank situations and examine their performance numerically.",
+    "path": "papers/22/11/2211.09326.json",
+    "total_tokens": 792,
+    "translated_title": "纠正后的赤池信息准则的不可允许性研究",
+    "translated_abstract": "对于未知协方差的多元线性回归模型，纠正后的赤池信息准则是期望库尔巴克-莱布勒差异最小方差无偏估计。在这项研究中，基于损失估计框架，我们表明它作为库尔巴克-莱布勒差异本身的估计量是不可接受的，而不是期望的库尔巴克-莱布勒差异。我们提供了在降低秩的情况下良好工作的库尔巴克-莱布勒差异的改进估计量，并通过数值实验检验了它们的性能。",
+    "tldr": "本文研究表明，对于未知协方差的多元线性回归模型，纠正后的赤池信息准则被证明作为库尔巴克-莱布勒差异本身的估计量是不可接受的。提供了改进估计量，并在降低秩的情况下良好工作。",
+    "en_tdlr": "This study shows the inadmissibility of the corrected Akaike information criterion as an estimator of the Kullback-Leibler discrepancy itself for the multivariate linear regression model with unknown covariance. Improved estimators of the Kullback-Leibler discrepancy are proposed and shown to work well in reduced-rank situations through numerical experiments."
+}

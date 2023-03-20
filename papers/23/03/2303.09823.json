@@ -1,0 +1,12 @@
+{
+    "title": "Transformers and Ensemble methods: A solution for Hate Speech Detection in Arabic languages. (arXiv:2303.09823v1 [cs.CL])",
+    "abstract": "This paper describes our participation in the shared task of hate speech detection, which is one of the subtasks of the CERIST NLP Challenge 2022. Our experiments evaluate the performance of six transformer models and their combination using 2 ensemble approaches. The best results on the training set, in a five-fold cross validation scenario, were obtained by using the ensemble approach based on the majority vote. The evaluation of this approach on the test set resulted in an F1-score of 0.60 and an Accuracy of 0.86.",
+    "link": "http://arxiv.org/abs/2303.09823",
+    "context": "Title: Transformers and Ensemble methods: A solution for Hate Speech Detection in Arabic languages. (arXiv:2303.09823v1 [cs.CL])\nAbstract: This paper describes our participation in the shared task of hate speech detection, which is one of the subtasks of the CERIST NLP Challenge 2022. Our experiments evaluate the performance of six transformer models and their combination using 2 ensemble approaches. The best results on the training set, in a five-fold cross validation scenario, were obtained by using the ensemble approach based on the majority vote. The evaluation of this approach on the test set resulted in an F1-score of 0.60 and an Accuracy of 0.86.",
+    "path": "papers/23/03/2303.09823.json",
+    "total_tokens": 670,
+    "translated_title": "Transformers和Ensemble方法：阿语恶意言论检测的一种解决方案",
+    "translated_abstract": "本文描述了我们参加CERIST NLP挑战赛2022中恶意言论检测共享任务的实验过程。我们评估了6个Transformer模型及其组合的性能，并使用了2种集成方法。在五折交叉验证的训练集上，基于多数表决的集成方法获得了最佳结果。在测试集上的评估结果为F1分数为0.60，准确性为0.86。",
+    "tldr": "本文提出了一种使用Transformer和Ensemble方法的解决方案，用于阿语恶意言论的检测。实验结果表明，基于多数表决的集成方法具有最佳效果，其在测试集上的准确率为0.86，F1分数为0.60。",
+    "en_tdlr": "This paper proposes a solution for hate speech detection in Arabic languages using Transformers and Ensemble methods. Experimental results show that the ensemble approach based on majority vote has the best performance, achieving an accuracy of 0.86 and an F1-score of 0.60 on the test set."
+}

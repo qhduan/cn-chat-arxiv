@@ -1,0 +1,12 @@
+{
+    "title": "Generalized partitioned local depth. (arXiv:2303.10167v1 [stat.ML])",
+    "abstract": "In this paper we provide a generalization of the concept of cohesion as introduced recently by Berenhaut, Moore and Melvin [Proceedings of the National Academy of Sciences, 119 (4) (2022)]. The formulation presented builds on the technique of partitioned local depth by distilling two key probabilistic concepts: local relevance and support division. Earlier results are extended within the new context, and examples of applications to revealing communities in data with uncertainty are included.",
+    "link": "http://arxiv.org/abs/2303.10167",
+    "context": "Title: Generalized partitioned local depth. (arXiv:2303.10167v1 [stat.ML])\nAbstract: In this paper we provide a generalization of the concept of cohesion as introduced recently by Berenhaut, Moore and Melvin [Proceedings of the National Academy of Sciences, 119 (4) (2022)]. The formulation presented builds on the technique of partitioned local depth by distilling two key probabilistic concepts: local relevance and support division. Earlier results are extended within the new context, and examples of applications to revealing communities in data with uncertainty are included.",
+    "path": "papers/23/03/2303.10167.json",
+    "total_tokens": 602,
+    "translated_title": "广义划分局部深度",
+    "translated_abstract": "本文提供了一个最近由Berenhaut、Moore和Melvin [Proccedings of the National Academy of Sciences, 119 (4) (2022)]提出的凝聚概念的概括。所提出的表述基于分区局部深度的技术并提炼了两个关键概率概念：局部相关性和支持分割。早期结果在新的背景下得到扩展，并包括在具有不确定性的数据中揭示社区的应用示例。",
+    "tldr": "本文提出了一个广义的凝聚概念，构建在分区局部深度的技术基础上，扩展了早期结果并应用于具有不确定性的数据的社区发现中。",
+    "en_tdlr": "This paper presents a generalized concept of cohesion, built on the technique of partitioned local depth, and extends earlier results to reveal communities in data with uncertainty."
+}

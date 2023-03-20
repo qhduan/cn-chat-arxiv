@@ -1,0 +1,12 @@
+{
+    "title": "On Using Proportional Representation Methods as Alternatives to Pro-Rata Based Order Matching Algorithms in Stock Exchanges. (arXiv:2303.09652v1 [econ.GN])",
+    "abstract": "The main observation of this short note is that methods for determining proportional representation in electoral systems may be suitable as alternatives to the pro-rata order matching algorithm used in stock exchanges. Our simulation studies provide strong evidence that the Jefferson/D'Hondt and the Webster/Saint-Lagu\\\"{e} proportional representation methods provide order allocations which are closer to proportionality than the order allocations obtained from the pro-rata algorithm.",
+    "link": "http://arxiv.org/abs/2303.09652",
+    "context": "Title: On Using Proportional Representation Methods as Alternatives to Pro-Rata Based Order Matching Algorithms in Stock Exchanges. (arXiv:2303.09652v1 [econ.GN])\nAbstract: The main observation of this short note is that methods for determining proportional representation in electoral systems may be suitable as alternatives to the pro-rata order matching algorithm used in stock exchanges. Our simulation studies provide strong evidence that the Jefferson/D'Hondt and the Webster/Saint-Lagu\\\"{e} proportional representation methods provide order allocations which are closer to proportionality than the order allocations obtained from the pro-rata algorithm.",
+    "path": "papers/23/03/2303.09652.json",
+    "total_tokens": 631,
+    "translated_title": "使用比例代表制方法替代股票交易所中基于比例分配顺序的匹配算法的研究",
+    "translated_abstract": "本短文的主要观察是，用于确定选举制度中比例代表的方法可以作为替代股票交易所中使用的按比例分配订单的匹配算法的选择。我们的模拟研究强有力地证明，杰斐逊/德汉特和韦伯斯特/圣拉格比例代表方法提供的订单分配比按比例分配算法获得的订单分配更接近比例分配。",
+    "tldr": "研究发现，选举制度中的比例代表方法可以替代股票交易所中的按比例分配顺序的匹配算法，提供更接近比例分配的订单分配。",
+    "en_tdlr": "The study finds that the proportional representation methods used in electoral systems can replace the pro-rata order matching algorithm used in stock exchanges, providing order allocations that are closer to proportionality."
+}

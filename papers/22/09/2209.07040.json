@@ -1,0 +1,12 @@
+{
+    "title": "Learning-Based Adaptive Control for Stochastic Linear Systems with Input Constraints. (arXiv:2209.07040v3 [eess.SY] UPDATED)",
+    "abstract": "We propose a certainty-equivalence scheme for adaptive control of scalar linear systems subject to additive, i.i.d. Gaussian disturbances and bounded control input constraints, without requiring prior knowledge of the bounds of the system parameters, nor the control direction. Assuming that the system is at-worst marginally stable, mean square boundedness of the closed-loop system states is proven. Lastly, numerical examples are presented to illustrate our results.",
+    "link": "http://arxiv.org/abs/2209.07040",
+    "context": "Title: Learning-Based Adaptive Control for Stochastic Linear Systems with Input Constraints. (arXiv:2209.07040v3 [eess.SY] UPDATED)\nAbstract: We propose a certainty-equivalence scheme for adaptive control of scalar linear systems subject to additive, i.i.d. Gaussian disturbances and bounded control input constraints, without requiring prior knowledge of the bounds of the system parameters, nor the control direction. Assuming that the system is at-worst marginally stable, mean square boundedness of the closed-loop system states is proven. Lastly, numerical examples are presented to illustrate our results.",
+    "path": "papers/22/09/2209.07040.json",
+    "total_tokens": 597,
+    "translated_title": "带有输入限制的随机线性系统学习自适应控制",
+    "translated_abstract": "本文提出了一种确定等价方案，用于自适应控制受加性、独立同分布高斯扰动和有界控制输入约束的标量线性系统，无需先知道系统参数边界或控制方向。 假设系统最差情况下是边缘稳定的，证明了闭环系统状态的平方均值有界性。最后，提供了数值例子来说明我们的结果。",
+    "tldr": "本文提出了一种新的自适应控制方案，用于具有输入限制的随机线性系统，无需先验参数信息。",
+    "en_tdlr": "This paper proposes a new adaptive control scheme for stochastic linear systems with input constraints, without the need for prior information about the parameters. The approach is shown to achieve mean square boundedness of the closed-loop system states, with numerical examples presented to illustrate the results."
+}

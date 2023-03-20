@@ -1,0 +1,12 @@
+{
+    "title": "SUD$^2$: Supervision by Denoising Diffusion Models for Image Reconstruction. (arXiv:2303.09642v1 [cs.CV])",
+    "abstract": "Many imaging inverse problems$\\unicode{x2014}$such as image-dependent in-painting and dehazing$\\unicode{x2014}$are challenging because their forward models are unknown or depend on unknown latent parameters. While one can solve such problems by training a neural network with vast quantities of paired training data, such paired training data is often unavailable. In this paper, we propose a generalized framework for training image reconstruction networks when paired training data is scarce. In particular, we demonstrate the ability of image denoising algorithms and, by extension, denoising diffusion models to supervise network training in the absence of paired training data.",
+    "link": "http://arxiv.org/abs/2303.09642",
+    "context": "Title: SUD$^2$: Supervision by Denoising Diffusion Models for Image Reconstruction. (arXiv:2303.09642v1 [cs.CV])\nAbstract: Many imaging inverse problems$\\unicode{x2014}$such as image-dependent in-painting and dehazing$\\unicode{x2014}$are challenging because their forward models are unknown or depend on unknown latent parameters. While one can solve such problems by training a neural network with vast quantities of paired training data, such paired training data is often unavailable. In this paper, we propose a generalized framework for training image reconstruction networks when paired training data is scarce. In particular, we demonstrate the ability of image denoising algorithms and, by extension, denoising diffusion models to supervise network training in the absence of paired training data.",
+    "path": "papers/23/03/2303.09642.json",
+    "total_tokens": 760,
+    "translated_title": "SUD$^2$:基于去噪扩散模型的图像重建监督方法",
+    "translated_abstract": "许多图像反问题（如图像修复和去雾）都非常具有挑战性，因为它们的前向模型是未知的，或者依赖于未知的潜在参数。虽然我们可以通过使用大量成对的训练数据来训练神经网络来解决这些问题，但这样的成对训练数据通常是不可用的。本文提出了一种广义的框架，用于在成对训练数据不足的情况下训练图像重建网络。特别地，我们展示了图像去噪算法和去噪扩散模型的能力，在缺少成对训练数据的情况下监督网络训练。",
+    "tldr": "本文提出了一种适用于成对训练数据不足的图像重建网络训练的广义框架，并且在缺少成对训练数据的情况下，使用去噪扩散模型进行网络训练的监督。",
+    "en_tdlr": "This paper proposes a generalized framework for training image reconstruction networks when paired training data is scarce. The study demonstrates the ability of image denoising algorithms and denoising diffusion models to supervise network training in the absence of paired training data."
+}

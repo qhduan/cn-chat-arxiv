@@ -2,142 +2,187 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Optimal Delegation in Markets for Matching with Signaling.](http://arxiv.org/abs/2303.09415) | 本文研究了在市场匹配中，接收者与发送者之间的信号传递和委托问题，提出了最优区间委托的解决方案，并针对接收者类型和发信人信号的生产力进行了解析，找到最优委托方法，来保证匹配效率和信号成本之间的平衡。 |
-| [^2] | [Simplifying and Improving: Revisiting Bulgaria's Revenue Forecasting Models.](http://arxiv.org/abs/2303.09405) | 本文探讨了是否有更好的个人和公司所得税收入的预测模型是容易实施的并且优于目前正在使用的模型。 |
-| [^3] | [Main Concepts and Principles of Political Economy -- Production and Values, Distribution and Prices, Reproduction and Profits.](http://arxiv.org/abs/2303.09399) | 本书提供了一个基于生产水平上的等价关系的一致的价值理论，并重新定义生产的真正含义及社会资本的再生产理论。其利润理论表明利润对应于物理可测量的量。 |
-| [^4] | [Physics Breakthrough Disproves Fundamental Assumptions of the Chicago School.](http://arxiv.org/abs/2303.09321) | 本文揭示出芝加哥学派的博弈论模型的一个基本假设被证明是错误的，这可以对其假设人类行为既理性又自私的学说提出挑战。 |
-| [^5] | [Economic Consequences of Online Tracking Restrictions.](http://arxiv.org/abs/2303.09147) | 该文介绍了限制在线追踪用户的时间，针对出版商可能产生的经济影响做了一个成本效益分析，研究发现Cookie寿命限制在一年（两年）会使其价值降低25％（19％），这表示所有Cookie价值减少了9％（5％）。 |
-| [^6] | [Economics of In-Space Industry and Competitiveness of Lunar-Derived Rocket Propellant.](http://arxiv.org/abs/2303.09011) | 本文通过分析运用太空经济学框架对月球推进剂生产的长期成本进行建模，研究对比从地球发射的推进剂是否具有商业竞争力，结果发现运输成本比和资本产量比是决定竞争力的重要因素，而之前分析结果的分歧是由于选择高成本比例的运输架构和忽略提高资本产量比的关键因素造成的。 |
-| [^7] | [Signalling for Electricity Demand Response: When is Truth Telling Optimal?.](http://arxiv.org/abs/2302.12770) | 该论文研究了电力需求响应计划中的信息传输问题，发现如果电力价格定为其生产边际成本，则系统运营商没有欺骗的动机且总是说真话。 |
-| [^8] | [Stronger Monotone Signaling Equilibrium.](http://arxiv.org/abs/2109.03370) | 本文研究了更强的单调信号平衡，提出了针对稳定匹配的竞争性信号均衡概念，并给出了满足 D1 准则的条件。在具有准线性效用函数的单一匹配市场上建立了唯一的更强单调平衡。 |
-| [^9] | [Necessary and Sufficient Conditions for Inverse Reinforcement Learning of Bayesian Stopping Time Problems.](http://arxiv.org/abs/2007.03481) | 本文提出了一个Bayesian停时问题的逆强化学习框架，结合微观经济学中的Bayesian揭示偏好思路，通过观察Bayesian决策者的行动，确定其的最优性。并且通过两个停时问题示例得到了验证，并且已在一个真实的例子中得到了高精度地预测用户参与度。 |
+| [^1] | [GPTs are GPTs: An Early Look at the Labor Market Impact Potential of Large Language Models.](http://arxiv.org/abs/2303.10130) | 该研究调查了GPT（大语言模型）和相关技术对美国劳动力市场的潜在影响，发现大约80%的美国劳动力可能会受到10%的工作任务的影响，涵盖了所有工资水平和各行各业，预示着这些模型可能具有显著的经济、社会和政策影响。 |
+| [^2] | [Inference of Grouped Time-Varying Network Vector Autoregression Models.](http://arxiv.org/abs/2303.10117) | 该论文研究了针对大规模时间序列的时变网络向量自回归模型的统计推断方法，通过引入潜在的群组结构来减少未知系数数量并提出了群组后局部线性平滑方法来提高初步估计的收敛速度，并进行了相应的参数模型检验。 |
+| [^3] | [Multivariate Probabilistic CRPS Learning with an Application to Day-Ahead Electricity Prices.](http://arxiv.org/abs/2303.10019) | 本文提出一种新的多元概率CRPS学习方法，应用于日前电价预测中，相比于统一组合在CRPS方面取得了显著改进。 |
+| [^4] | [Moderation in instant runoff voting.](http://arxiv.org/abs/2303.09734) | 研究证明，相对于传统多数票投票，瞬时排名投票在对称分布的选民偏好条件下具有中和效应，可以避免选出极端候选人。 |
+| [^5] | [Econotaxis in modeling urbanization by labor force migration.](http://arxiv.org/abs/2303.09720) | 本研究提出了一个劳动力迁移模型，通过模拟发现模型可以产生聚集行为，并展现了两个经验规律。更进一步，研究证明了经济性趋向性，这是一种新型人类行为中心的趋向性，可以解释在现实世界中的劳动力聚集现象，这一结论突显了城市化与所导出的PDE系统中的吹起现象的相关性。 |
+| [^6] | [Bootstrap based asymptotic refinements for high-dimensional nonlinear models.](http://arxiv.org/abs/2303.09680) | 本文研究了基于SCAD惩罚函数的高维稀疏非线性模型。通过Bootstrap方法，提出了渐近细化的解决方案，可大大减少覆盖概率误差。 |
+| [^7] | [Dynamic Information Provision: Rewarding the Past and Guiding the Future.](http://arxiv.org/abs/2303.09675) | 本文解决了长期关系下发件人与收件人间信息提供的最优策略，这一策略褒奖过去，引领未来。 |
+| [^8] | [On Using Proportional Representation Methods as Alternatives to Pro-Rata Based Order Matching Algorithms in Stock Exchanges.](http://arxiv.org/abs/2303.09652) | 研究发现，选举制度中的比例代表方法可以替代股票交易所中的按比例分配顺序的匹配算法，提供更接近比例分配的订单分配。 |
+| [^9] | [Mr.Keynes and the... Complexity! A suggested agent-based version of the General Theory of Employment, Interest and Money.](http://arxiv.org/abs/2303.00889) | 本文提出了一种基于代理的宏观经济模型，旨在遵循凯恩斯的《失业、利率和货币的一般理论》，通过确定收入和就业水平来确定资本边际效益和倾向于消费的边际倾向。 |
+| [^10] | [Foundations of self-progressive choice theories.](http://arxiv.org/abs/2212.13449) | 该论文讨论了自我渐进选择理论及其与代数结构和超模函数的等价性，并将分析扩展到普遍自我渐进的选择理论。 |
+| [^11] | [Observable Perfect Equilibrium.](http://arxiv.org/abs/2210.16506) | 本文提出一种新的博弈均衡概念——可观测完美均衡，在顺序不完全信息博弈中可以帮助创建真正的策略代理。这种均衡概念在公开观察的行动概率方面具有鲁棒性。 |
+| [^12] | [Simultaneity in Binary Outcome Models with an Application to Employment for Couples.](http://arxiv.org/abs/2207.07343) | 本文研究了施密特提出的二元联立模型在动态面板数据版本下的应用，发现夫妻就业关系的依赖程度因夫妻的族裔构成而异。 |
 
 # 详细
 
-[^1]: 带信号的匹配市场中的最优委托问题研究
+[^1]: GPT是GPT：大语言模型对劳动力市场影响的早期研究
 
-    Optimal Delegation in Markets for Matching with Signaling. (arXiv:2303.09415v1 [econ.TH])
+    GPTs are GPTs: An Early Look at the Labor Market Impact Potential of Large Language Models. (arXiv:2303.10130v1 [econ.GN])
 
-    [http://arxiv.org/abs/2303.09415](http://arxiv.org/abs/2303.09415)
+    [http://arxiv.org/abs/2303.10130](http://arxiv.org/abs/2303.10130)
 
-    本文研究了在市场匹配中，接收者与发送者之间的信号传递和委托问题，提出了最优区间委托的解决方案，并针对接收者类型和发信人信号的生产力进行了解析，找到最优委托方法，来保证匹配效率和信号成本之间的平衡。
-
-    
-
-    本文研究了在信号传递方面，规制接收者反应选择的代表面临的委托问题。本文提供了计算规制者愿意委托的新观点，并设计了最优（反应）区间委托作为规划者一般机制设计问题的解决方案。接收者类型的相对异质性和发件人信号的生产力对最优区间委托的确定起着至关重要的作用，因为需要在匹配效率和信号成本之间做出权衡决策。
-
-    This paper studies a delegation problem faced by the planner who wants to regulate receivers' reaction choices in markets for matching between receivers and senders with signaling. We provide a noble insight into the planner's willingness to delegate and the design of optimal (reaction) interval delegation as a solution to the planner's general mechanism design problem. The relative heterogeneity of receiver types and the productivity of the sender' signal are crucial in deriving optimal interval delegation in the presence of the trade-off between matching efficiency and signaling costs.
-    
-[^2]: 简化与改进：重访保加利亚的收入预测模型。
-
-    Simplifying and Improving: Revisiting Bulgaria's Revenue Forecasting Models. (arXiv:2303.09405v1 [econ.GN])
-
-    [http://arxiv.org/abs/2303.09405](http://arxiv.org/abs/2303.09405)
-
-    本文探讨了是否有更好的个人和公司所得税收入的预测模型是容易实施的并且优于目前正在使用的模型。
+    该研究调查了GPT（大语言模型）和相关技术对美国劳动力市场的潜在影响，发现大约80%的美国劳动力可能会受到10%的工作任务的影响，涵盖了所有工资水平和各行各业，预示着这些模型可能具有显著的经济、社会和政策影响。
 
     
 
-    自真正社会主义结束三十年来，保加利亚的税收制度已经从相当激进的“不同”制度转变为采用较低的税率，公司所得税和个人所得税的边际税率从40％降至10％。重要的是，在保加利亚财政部使用的计量经济学预测模型中，暗示着与所谓的“拉弗曲线”相容的税收增加。同样，许多经济学家认为，收入会增加。然而，现实并未达到基于预测模型和根植于主流经济理论的期望。因此，本文探讨是否有更好的个人和公司所得税收入的预测模型是容易实施的并且优于目前正在使用的模型。在提出对目前预测模型的建设性批评之后，本文提供了容易实现，透明的替代方案。
+    我们研究了生成预训练变压器（GPT）模型和相关技术对美国劳动力市场的潜在影响。使用新的标准，我们评估职业与GPT能力的对应关系，结合人类专业知识和GPT-4的分类。我们的研究结果表明，约80%的美国劳动力可能会至少有10%的工作任务受到GPT引入的影响，而约19%的工人可能会看到至少50%的任务受到影响。影响范围涵盖了所有工资水平，高收入工作可能面临更大的风险。值得注意的是，影响并不局限于最近生产率增长较高的行业。我们得出结论，生成预训练变压器具有通用技术（GPT）的特性，表明这些模型可能具有显著的经济、社会和政策影响。
 
-    In the thirty years since the end of real socialism, Bulgaria's went from having a rather radically 'different' tax system to adopting flat-rate taxation with marginal tax rates that fell from figures as high as 40% to 10% for both the corporate-income tax and the personal-income tax. Crucially, the econometric forecasting models in use at the Bulgarian Ministry of Finance hinted at an increase in tax revenue compatible with the so-called 'Laffer curve'. Similarly, many economists held the view that revenues would have increased. However, reality fell short of those expectations based on forecasting models and rooted in mainstream economic theory. Thus, this paper asks whether there are betterperforming forecasting models for personal-and corporate-income tax-revenues in Bulgaria that are readily implementable and overperform the ones currently in use. After articulating a constructive critique of the current forecasting models, the paper offers readily implementable, transparent alter
+    We investigate the potential implications of Generative Pre-trained Transformer (GPT) models and related technologies on the U.S. labor market. Using a new rubric, we assess occupations based on their correspondence with GPT capabilities, incorporating both human expertise and classifications from GPT-4. Our findings indicate that approximately 80% of the U.S. workforce could have at least 10% of their work tasks affected by the introduction of GPTs, while around 19% of workers may see at least 50% of their tasks impacted. The influence spans all wage levels, with higher-income jobs potentially facing greater exposure. Notably, the impact is not limited to industries with higher recent productivity growth. We conclude that Generative Pre-trained Transformers exhibit characteristics of general-purpose technologies (GPTs), suggesting that as these models could have notable economic, social, and policy implications.
     
-[^3]: 政治经济学的主要概念与原则——生产与价值、分配与价格、再生产与利润
+[^2]: 分组时变网络向量自回归模型的推断
 
-    Main Concepts and Principles of Political Economy -- Production and Values, Distribution and Prices, Reproduction and Profits. (arXiv:2303.09399v1 [econ.GN])
+    Inference of Grouped Time-Varying Network Vector Autoregression Models. (arXiv:2303.10117v1 [stat.ME])
 
-    [http://arxiv.org/abs/2303.09399](http://arxiv.org/abs/2303.09399)
+    [http://arxiv.org/abs/2303.10117](http://arxiv.org/abs/2303.10117)
 
-    本书提供了一个基于生产水平上的等价关系的一致的价值理论，并重新定义生产的真正含义及社会资本的再生产理论。其利润理论表明利润对应于物理可测量的量。
-
-    
-
-    本书旨在从经济理论的奠基者亚当·斯密、戴维·李嘉图和卡尔·马克思提出的基本问题入手，探究商品的价值是由什么构成的，生产、交换、货币和收入（如利润、工资和租金）是什么样的。这些经济学家提供的答案大多是错误的，尤其是在将商品的等价定义为交换的水平上，但也由于将价值与价格混淆，并错误地看待生产的真正含义及固定资本的作用。本书运用度量的数学理论和维度分析的物理理论，基于一个不是在交换水平而是在生产水平上的等价关系，提供了一个一致的价值理论。本书拒绝将生产视为将投入转化为产出的过程，并从物质、能量和人类与自然、机器和其他人类进行交互的智力活动的物理角度对其进行重新定义。社会资本的再生产理论是基于恒定资本、可变资本和剩余价值的三分法，并确立价值守恒定律作为分配与价格理论的基石。利润理论表明，利润对应于物理可测量的量，因为在不确定性和风险的条件下，它是生产过程的物理结果。
-
-    This book starts from the basic questions that had been raised by the founders of Economic theory, Smith, Ricardo, and Marx: what makes the value of commodities, what are production, exchange, money and incomes like profits, wages and rents. The answers that these economists had provided were mostly wrong, above all by defining the equivalence of commodities at the level of exchange, but also because of a confusion made between values and prices, and wrong views of what production really is and the role of fixed capital. Using the mathematical theory of measurement and the physical theory of dimensional analysis, this book provides a coherent theory of value based on an equivalence relation not at the level of exchange, but of production. Indeed exchange is considered here as an equivalence relation between money and a monetary price, and not between commodities, modern monetary theory having demonstrated that money is not a commodity. The book rejects the conception of production as a
-    
-[^4]: 物理学突破证明芝加哥学派的基本假设是错误的
-
-    Physics Breakthrough Disproves Fundamental Assumptions of the Chicago School. (arXiv:2303.09321v1 [econ.TH])
-
-    [http://arxiv.org/abs/2303.09321](http://arxiv.org/abs/2303.09321)
-
-    本文揭示出芝加哥学派的博弈论模型的一个基本假设被证明是错误的，这可以对其假设人类行为既理性又自私的学说提出挑战。
+    该论文研究了针对大规模时间序列的时变网络向量自回归模型的统计推断方法，通过引入潜在的群组结构来减少未知系数数量并提出了群组后局部线性平滑方法来提高初步估计的收敛速度，并进行了相应的参数模型检验。
 
     
 
-    古典的法律经济学是美国法律制度的基础。芝加哥大学是其核心，其中最重要的假设是人类行为既理性又自私，这种假设影响了立法机构、法官和政府律师的思维方式，并塑造了商业交易方方面面。但是，如果芝加哥学派是错误的呢？本文提出了一个全新的原因，即其博弈论模型的一个基本假设已被证明是错误的。本文揭示了2012年物理学家Freeman Dyson的突破性发现震惊了博弈论界。本文表明芝加哥学派的博弈论学者是错的。
+    本文考虑针对大规模时间序列的时变网络向量自回归模型的统计推断。在异构和节点特定的时变动量和网络溢出效应中，强加一个潜在的群组结构，以便可以大大减少需要估计的未知时变系数的数量。经过归一化距离矩阵的经典聚类算法结合广义信息准则，来一致地估计潜在的群组数量和群组成员。提出了一种群组后局部线性平滑方法，用于估计群组特定的时变动量和网络效应，从而大大提高了忽略潜在结构的初步估计的收敛速度。此外，还进行了群组后的规格化检验，以验证群组特定的时变系数函数的参数模型假设的有效性，并给出了渐进理论结果。
 
-    Classical law and economics is foundational to the American legal system. Centered at the University of Chicago, its assumptions, most especially that humans act both rationally and selfishly, informs the thinking of legislatures, judges, and government lawyers, and has shaped nearly every aspect of the way commercial transactions are conducted. But what if the Chicago School, as I refer to this line of thinking, is wrong? Alternative approaches such as behavioral law and economics or law and political economy contend that human decisionmaking is based on emotions or should not be regulated as a social geometry of bargains. This Article proposes a different and wholly novel reason that the Chicago School is wrong: a fundamental assumption central to many of its game theory models has been disproven. This Article shows that a 2012 breakthrough from world famous physicist Freeman Dyson shocked the world of game theory. This Article shows that Chicago School game theorists are wrong on th
+    This paper considers statistical inference of time-varying network vector autoregression models for large-scale time series. A latent group structure is imposed on the heterogeneous and node-specific time-varying momentum and network spillover effects so that the number of unknown time-varying coefficients to be estimated can be reduced considerably. A classic agglomerative clustering algorithm with normalized distance matrix estimates is combined with a generalized information criterion to consistently estimate the latent group number and membership. A post-grouping local linear smoothing method is proposed to estimate the group-specific time-varying momentum and network effects, substantially improving the convergence rates of the preliminary estimates which ignore the latent structure. In addition, a post-grouping specification test is conducted to verify the validity of the parametric model assumption for group-specific time-varying coefficient functions, and the asymptotic theory 
     
-[^5]: 在线追踪限制的经济后果
+[^3]: 多元概率CRPS学习及其在日前电价预测中的应用
 
-    Economic Consequences of Online Tracking Restrictions. (arXiv:2303.09147v1 [econ.GN])
+    Multivariate Probabilistic CRPS Learning with an Application to Day-Ahead Electricity Prices. (arXiv:2303.10019v1 [stat.ML])
 
-    [http://arxiv.org/abs/2303.09147](http://arxiv.org/abs/2303.09147)
+    [http://arxiv.org/abs/2303.10019](http://arxiv.org/abs/2303.10019)
 
-    该文介绍了限制在线追踪用户的时间，针对出版商可能产生的经济影响做了一个成本效益分析，研究发现Cookie寿命限制在一年（两年）会使其价值降低25％（19％），这表示所有Cookie价值减少了9％（5％）。
-
-    
-
-    近年来，欧洲监管机构一直在就限制在线追踪用户的时间以更好地保护消费者隐私问题展开辩论。尽管这些辩论具有重要意义，但显然缺乏任何综合的成本效益分析。本文从成本方面提出了一种方法，旨在估计限制Cookie寿命对出版商的经济影响。对在2.5年内收到1.28亿广告展示的54,127个用户的Cookie进行的实证研究得出了平均Cookie寿命为279天，平均价值为2.52欧元/个。只有13%的cookie会随时间增值，但它们的平均价值约为所有cookie平均价值的四倍。将Cookie寿命限制在一年（两年）会使其寿命价值降低25％（19％），这表示所有Cookie价值减少了9％（5％）。鉴于106亿欧元的基于Cookie的展示广告收入，Cookie限制可能对出版商产生显着的经济影响。
-
-    In recent years, European regulators have debated restricting the time an online tracker can track a user to protect consumer privacy better. Despite the significance of these debates, there has been a noticeable absence of any comprehensive cost-benefit analysis. This article fills this gap on the cost side by suggesting an approach to estimate the economic consequences of lifetime restrictions on cookies for publishers. The empirical study on cookies of 54,127 users who received 128 million ad impressions over 2.5 years yields an average cookie lifetime of 279 days, with an average value of EUR 2.52 per cookie. Only 13% of all cookies increase their daily value over time, but their average value is about four times larger than the average value of all cookies. Restricting cookies lifetime to one year (two years) decreases their lifetime value by 25% (19%), which represents a decrease in the value of all cookies of 9% (5%). In light of the EUR 10.60 billion cookie-based display ad rev
-    
-[^6]: 太空经济学和月球衍生推进剂竞争力
-
-    Economics of In-Space Industry and Competitiveness of Lunar-Derived Rocket Propellant. (arXiv:2303.09011v1 [econ.GN])
-
-    [http://arxiv.org/abs/2303.09011](http://arxiv.org/abs/2303.09011)
-
-    本文通过分析运用太空经济学框架对月球推进剂生产的长期成本进行建模，研究对比从地球发射的推进剂是否具有商业竞争力，结果发现运输成本比和资本产量比是决定竞争力的重要因素，而之前分析结果的分歧是由于选择高成本比例的运输架构和忽略提高资本产量比的关键因素造成的。
+    本文提出一种新的多元概率CRPS学习方法，应用于日前电价预测中，相比于统一组合在CRPS方面取得了显著改进。
 
     
 
-    本文分析了一种在两个星球间进行的太空产业的经济参数，资本在第一个星球上制造，运往第二个星球上进行远程操作，产品再被运输离开第二个星球进行消费。运用这一框架，对月球推进剂生产的长期成本进行建模，以回答它是否与从地球发射的推进剂具有商业竞争力。之前的技术经济分析在这一问题上存在分歧。资本运输的成本比例和资本生产的产量比被确定为决定竞争力的最重要因素。分析了之前的技术经济分析如何处理这两个指标。指出了一些技术经济分析中的关键错误：选择具有高成本比例的运输架构，并忽略了可以实现足够产量比的资本选择。帐篷升华技术的产量比值接近1。
+    本文提出了一种考虑分位数和协变量依赖关系的多元概率预测的结合方法，并通过平滑过程允许在线学习。通过维数降低和罚函数平滑等两种平滑方法来将标准CRPS学习框架推广到多元维度中。将该方法应用于预测日前电价，相比于统一组合，在CRPS方面取得了显著改进。
 
-    Economic parameters are identified for an in-space industry where the capital is made on one planet, it is transported to and teleoperated on a second planet, and the product is transported off the second planet for consumption. This framework is used to model the long-run cost of lunar propellant production to help answer whether it is commercially competitive against propellant launched from Earth. The prior techno-economic analyses (TEAs) of lunar propellant production had disagreed over this. The "gear ratio on cost" for capital transport, G, and the production mass ratio of the capital, phi, are identified as the most important factors determining competitiveness. The prior TEAs are examined for how they handled these two metrics. This identifies crucial mistakes in some of the TEAs: choosing transportation architectures with high G, and neglecting to make choices for the capital that could achieve adequate phi. The tent sublimation technology has a value of phi that is an order o
+    This paper presents a new method for combining (or aggregating or ensembling) multivariate probabilistic forecasts, taking into account dependencies between quantiles and covariates through a smoothing procedure that allows for online learning. Two smoothing methods are discussed: dimensionality reduction using Basis matrices and penalized smoothing. The new online learning algorithm generalizes the standard CRPS learning framework into multivariate dimensions. It is based on Bernstein Online Aggregation (BOA) and yields optimal asymptotic learning properties. We provide an in-depth discussion on possible extensions of the algorithm and several nested cases related to the existing literature on online forecast combination. The methodology is applied to forecasting day-ahead electricity prices, which are 24-dimensional distributional forecasts. The proposed method yields significant improvements over uniform combination in terms of continuous ranked probability score (CRPS). We discuss 
     
-[^7]: 电力需求响应的信号传输：何时说实话最优？
+[^4]: 瞬时排名投票中的中和性分析
 
-    Signalling for Electricity Demand Response: When is Truth Telling Optimal?. (arXiv:2302.12770v2 [eess.SY] UPDATED)
+    Moderation in instant runoff voting. (arXiv:2303.09734v1 [cs.MA])
 
-    [http://arxiv.org/abs/2302.12770](http://arxiv.org/abs/2302.12770)
+    [http://arxiv.org/abs/2303.09734](http://arxiv.org/abs/2303.09734)
 
-    该论文研究了电力需求响应计划中的信息传输问题，发现如果电力价格定为其生产边际成本，则系统运营商没有欺骗的动机且总是说真话。
-
-    
-
-    全球的公用事业和输电系统运营商实施需求响应计划，通过向最终用户发送供需状态信息来降低电力消耗。我们构建了一个贝叶斯说服模型来分析这种需求响应计划。使用一个简单的模型，包括两个时间步骤用于合同签署和唤醒以及两个状态的发电状态，分析电力定价与TSO歪曲信息的真实状态之间的关系。我们表明，如果电力价格定为其生产边际成本，则TSO没有欺骗的动机且总是说真话。另一方面，我们提供了过高定价导致TSO向用户提供无信息的条件。
-
-    Utilities and transmission system operators (TSO) around the world implement demand response programs for reducing electricity consumption by sending information on the state of balance between supply demand to end-use consumers. We construct a Bayesian persuasion model to analyse such demand response programs. Using a simple model consisting of two time steps for contract signing and invoking, and two states of the state of generation, we analyse the relation between the pricing of electricity and the incentives of the TSO to garble information about the true state of the generation. We show that if the electricity is priced at its marginal cost of production, the TSO has no incentive to lie and always tells the truth. On the other hand, we provide conditions where overpricing of electricity leads the TSO to provide no information to the consumer.
-    
-[^8]: 更强的单调信号平衡
-
-    Stronger Monotone Signaling Equilibrium. (arXiv:2109.03370v3 [econ.TH] UPDATED)
-
-    [http://arxiv.org/abs/2109.03370](http://arxiv.org/abs/2109.03370)
-
-    本文研究了更强的单调信号平衡，提出了针对稳定匹配的竞争性信号均衡概念，并给出了满足 D1 准则的条件。在具有准线性效用函数的单一匹配市场上建立了唯一的更强单调平衡。
+    研究证明，相对于传统多数票投票，瞬时排名投票在对称分布的选民偏好条件下具有中和效应，可以避免选出极端候选人。
 
     
 
-    本文研究了单调信号平衡，其中平衡结果——行动、反应、信念（匹配模型中的匹配）——均在更强的集合序列中是单调的。我们证明了如果发送者的效用是单调超模型的，则对于一对发送者和接收者的博弈，如果通过 D1 准则（Cho 和 Kreps（1987）、Banks 和 Sobel(1987)）则纯策略完美贝叶斯均衡更强单调。我们引入了一种基于稳定匹配的单一匹配市场上的竞争性信号均衡（CSE）概念，其中发送者和接收者都是异构的连续变量。我们证明了如果发送者效用是单调超模型的话，如果接收者效用是弱单调超模型，那么 CSE 更强单调，当且仅当它通过 D1 准则。最后，在具有准线性效用函数的单一匹配市场上，在接收者可以采取任何可行反应的区间内，建立了一个唯一的更强单调平衡。
+    近年来，瞬时排名投票（IRV）作为传统多数票投票的一种替代方式备受欢迎。支持者声称IRV相对于多数票投票的好处之一是它倾向于中间派：它产生比多数票更为温和的胜者，因此可以成为解决极化问题的有用工具。然而，对于这种说法，很少有理论支持，现有的证据都是基于模拟和案例研究的。在这项工作中，我们在一维欧几里得模型中的选民偏好条件下，证明了IRV相对于传统的多数票投票具有一定的中和效应。我们的结果表明，只要选民的分布是对称的，并且不太集中于极端，IRV就不会选出超过分布尾部某个阈值之外的候选人，而多数票则可能会。对于均匀分布，我们提供了推导出多数票和IRV精确分布的方法。
 
-    We study monotone signaling equilibrium where equilibrium outcomes - actions, reactions, beliefs (and matching in a matching model) - are all monotone in the stronger set order. We show that if the sender's utility is monotone-supermodular, a pure-strategy perfect Bayesian equilibrium of games with one sender and one receiver is stronger monotone if and only if it passes Criterion D1 (Cho and Kreps (1987), Banks and Sobel (1987)). We introduce a notion of competitive signaling equilibrium (CSE) in one-to-one matching markets with a continuum of heterogeneous senders and receivers, based on the notion of stable matching. We show that if the sender utility is monotone-supermodular and the receiver's utility is weakly monotone-supermodular, a CSE is stronger monotone if and only if it passes Criterion D1. Finally, in one-to-one matching markets with quasilinear utilities, a unique stronger monotone equilibrium is established given any interval of feasible reactions that receivers can take
+    Instant runoff voting (IRV) has gained popularity in recent years as an alternative to traditional plurality voting. Advocates of IRV claim that one of its benefits relative to plurality voting is its tendency toward moderation: that it produces more moderate winners than plurality and could therefore be a useful tool for addressing polarization. However, there is little theoretical backing for this claim, and existing evidence has focused on simulations and case studies. In this work, we prove that IRV has a moderating effect relative to traditional plurality voting in a specific sense, developed in a 1-dimensional Euclidean model of voter preferences. Our results show that as long as voters are symmetrically distributed and not too concentrated at the extremes, IRV will not elect a candidate that is beyond a certain threshold in the tails of the distribution, while plurality can. For the uniform distribution, we provide an approach for deriving the exact distributions of the pluralit
     
-[^9]: 《Bayesian停时问题的逆强化学习的充分必要条件》
+[^5]: 劳动力迁移模拟中的经济性趋向性
 
-    Necessary and Sufficient Conditions for Inverse Reinforcement Learning of Bayesian Stopping Time Problems. (arXiv:2007.03481v6 [cs.LG] UPDATED)
+    Econotaxis in modeling urbanization by labor force migration. (arXiv:2303.09720v1 [nlin.AO])
 
-    [http://arxiv.org/abs/2007.03481](http://arxiv.org/abs/2007.03481)
+    [http://arxiv.org/abs/2303.09720](http://arxiv.org/abs/2303.09720)
 
-    本文提出了一个Bayesian停时问题的逆强化学习框架，结合微观经济学中的Bayesian揭示偏好思路，通过观察Bayesian决策者的行动，确定其的最优性。并且通过两个停时问题示例得到了验证，并且已在一个真实的例子中得到了高精度地预测用户参与度。
+    本研究提出了一个劳动力迁移模型，通过模拟发现模型可以产生聚集行为，并展现了两个经验规律。更进一步，研究证明了经济性趋向性，这是一种新型人类行为中心的趋向性，可以解释在现实世界中的劳动力聚集现象，这一结论突显了城市化与所导出的PDE系统中的吹起现象的相关性。
 
     
 
-    本文提出了一个Bayesian停时问题的逆强化学习（IRL）框架。通过观察Bayesian决策者的行动，我们提供了一种必要且充分的条件来确定这些行动是否与优化成本函数一致。在Bayesian（部分观察）情况下，逆向学习者能够最好地确定针对观察到的策略的最优性。我们的IRL算法确定最优性，然后构建成本函数的估计值，是一个集合值。为了实现这样一个IRL目标，我们使用了来自微观经济学的Bayesian揭示偏好的新思路。我们通过两个重要的停时问题示例，即，顺序假设检验和Bayesian搜索，说明了所提议的IRL方案。作为一个真实世界的例子，我们使用来自190000个视频的元数据的YouTube数据集说明了所提议的IRL方法如何高精度地预测在线多媒体平台中用户的参与度。最后，对于该算法的未来研究方向做了最后讨论。
+    本研究采用主动布朗粒子框架，提出了一个简单的劳动力迁移微观模型。通过基于代理的模拟，我们发现我们的模型产生了从随机初始分布中聚集到一起的一群代理。此外，在我们的模型中观察到了Zipf和Okun定律这两个经验规律。为了揭示产生的聚集现象背后的机制，我们从我们的微观模型中导出了一个扩展的Keller-Segel系统。得到的宏观系统表明人力资源在现实世界中的聚集可以通过一种新型人类行为中心的趋向性来解释，这突显了城市化与所导出的PDE系统中的吹起现象的相关性。我们将其称为“经济性趋向性”。
 
-    This paper presents an inverse reinforcement learning~(IRL) framework for Bayesian stopping time problems. By observing the actions of a Bayesian decision maker, we provide a necessary and sufficient condition to identify if these actions are consistent with optimizing a cost function. In a Bayesian (partially observed) setting, the inverse learner can at best identify optimality wrt the observed strategies. Our IRL algorithm identifies optimality and then constructs set-valued estimates of the cost function.To achieve this IRL objective, we use novel ideas from Bayesian revealed preferences stemming from microeconomics. We illustrate the proposed IRL scheme using two important examples of stopping time problems, namely, sequential hypothesis testing and Bayesian search. As a real-world example, we illustrate using a YouTube dataset comprising metadata from 190000 videos how the proposed IRL method predicts user engagement in online multimedia platforms with high accuracy. Finally, for
+    Individual participants in human society collectively exhibit aggregation behavior. In this study, we present a simple microscopic model of labor force migration by employing the active Brownian particles framework. Through agent-based simulations, we find that our model produces clusters of agents from a random initial distribution. Furthermore, two empirical regularities called Zipf's and Okun's laws were observed in our model. To reveal the mechanism underlying the reproduced agglomeration phenomena, we derived an extended Keller-Segel system, a classic model that describes the aggregation behavior of biological organisms called "taxis," from our microscopic model. The obtained macroscopic system indicates that the agglomeration of the workforce in real world can be accounted for through a new type of taxis central to human behavior, which highlights the relevance of urbanization to blow-up phenomena in the derived PDE system. We term it "econotaxis."
+    
+[^6]: 基于Bootstrap的高维非线性模型渐近细化
+
+    Bootstrap based asymptotic refinements for high-dimensional nonlinear models. (arXiv:2303.09680v1 [econ.EM])
+
+    [http://arxiv.org/abs/2303.09680](http://arxiv.org/abs/2303.09680)
+
+    本文研究了基于SCAD惩罚函数的高维稀疏非线性模型。通过Bootstrap方法，提出了渐近细化的解决方案，可大大减少覆盖概率误差。
+
+    
+
+    本文考虑了一种高维可能非线性、稀疏的惩罚极值估计模型，其中大部分参数为零。使用SCAD惩罚函数，其在适当条件下提供了模型选择一致和oracle效率估计。然而，在许多应用中，基于oracle模型的渐近近似可能会出现样本量不准确的情况。本文给出了条件，证明了基于SCAD惩罚阈值估计的Bootstrap方法提供了对称假设检验（置信区间）中拒绝（覆盖）概率误差O（n^{-2}）和单侧或双侧检验（置信区间）中的拒绝（覆盖）概率误差O（n^{-1}）的渐近细化。蒙特卡罗实验结果表明，Bootstrap可以大大减少覆盖概率误差。
+
+    We consider penalized extremum estimation of a high-dimensional, possibly nonlinear model that is sparse in the sense that most of its parameters are zero but some are not. We use the SCAD penalty function, which provides model selection consistent and oracle efficient estimates under suitable conditions. However, asymptotic approximations based on the oracle model can be inaccurate with the sample sizes found in many applications. This paper gives conditions under which the bootstrap, based on estimates obtained through SCAD penalization with thresholding, provides asymptotic refinements of size \(O \left( n^{- 2} \right)\) for the error in the rejection (coverage) probability of a symmetric hypothesis test (confidence interval) and \(O \left( n^{- 1} \right)\) for the error in rejection (coverage) probability of a one-sided or equal tailed test (confidence interval). The results of Monte Carlo experiments show that the bootstrap can provide large reductions in errors in coverage prob
+    
+[^7]: 动态信息提供：褒奖过去，引领未来
+
+    Dynamic Information Provision: Rewarding the Past and Guiding the Future. (arXiv:2303.09675v1 [econ.TH])
+
+    [http://arxiv.org/abs/2303.09675](http://arxiv.org/abs/2303.09675)
+
+    本文解决了长期关系下发件人与收件人间信息提供的最优策略，这一策略褒奖过去，引领未来。
+
+    
+
+    本文研究了一个信息长期关系中发件人和收件人之间的最优信息提供。发件人观察一个持久且不断发展的状态，并承诺与时间推移而发送信号给收件人，后者顺序选择影响两个玩家福利的公共行动。我通过封闭形式求解了发件人的最优政策：发件人用逐渐缩小并最终消失的延迟报告状态的值。即使收件人知道当前状态，发件人通过威胁隐瞒状态未来的演变来保持影响力。
+
+    I study the optimal provision of information in a long-term relationship between a sender and a receiver. The sender observes a persistent, evolving state and commits to send signals over time to the receiver, who sequentially chooses public actions that affect the welfare of both players. I solve for the sender's optimal policy in closed form: the sender reports the value of the state with a delay that shrinks over time and eventually vanishes. Even when the receiver knows the current state, the sender retains leverage by threatening to conceal the future evolution of the state.
+    
+[^8]: 使用比例代表制方法替代股票交易所中基于比例分配顺序的匹配算法的研究
+
+    On Using Proportional Representation Methods as Alternatives to Pro-Rata Based Order Matching Algorithms in Stock Exchanges. (arXiv:2303.09652v1 [econ.GN])
+
+    [http://arxiv.org/abs/2303.09652](http://arxiv.org/abs/2303.09652)
+
+    研究发现，选举制度中的比例代表方法可以替代股票交易所中的按比例分配顺序的匹配算法，提供更接近比例分配的订单分配。
+
+    
+
+    本短文的主要观察是，用于确定选举制度中比例代表的方法可以作为替代股票交易所中使用的按比例分配订单的匹配算法的选择。我们的模拟研究强有力地证明，杰斐逊/德汉特和韦伯斯特/圣拉格比例代表方法提供的订单分配比按比例分配算法获得的订单分配更接近比例分配。
+
+    The main observation of this short note is that methods for determining proportional representation in electoral systems may be suitable as alternatives to the pro-rata order matching algorithm used in stock exchanges. Our simulation studies provide strong evidence that the Jefferson/D'Hondt and the Webster/Saint-Lagu\"{e} proportional representation methods provide order allocations which are closer to proportionality than the order allocations obtained from the pro-rata algorithm.
+    
+[^9]: Mr. Keynes和复杂性！一种建议的基于代理的就业，利率和货币总论的版本。
+
+    Mr.Keynes and the... Complexity! A suggested agent-based version of the General Theory of Employment, Interest and Money. (arXiv:2303.00889v2 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2303.00889](http://arxiv.org/abs/2303.00889)
+
+    本文提出了一种基于代理的宏观经济模型，旨在遵循凯恩斯的《失业、利率和货币的一般理论》，通过确定收入和就业水平来确定资本边际效益和倾向于消费的边际倾向。
+
+    
+
+    本文提出了一个模型，旨在尽可能地遵循J.M.凯恩斯在他著名的《失业、利率和货币的一般理论》中提出的宏观经济模型的基本原理，以提供一个可行的宏观经济研究工具。将展示凯恩斯的主要成果，即从资本边际效益和倾向于消费的边际倾向开始，在给定利率的情况下确定收入和就业水平。模型的要素将通过参考原始文本进行描述。模型操作中的顺序性将证明在描述宏观经济系统的复杂性时必不可少。
+
+    This paper presents a model with the aim to follow, as closely as possible, the rationale of the macroeconomic model advanced by J.M. Keynes in his famous "The General Theory of Unemployment, Interest and Money", in order to provide a viable tool for macroeconomic research. Keynes' main result will be shown, i.e., to determine the level of income and employment starting from the marginal efficiency of capital and the marginal propensity to consume, given the interest rate. Elements of the model will be described by referring to the original text. The sequentiality in model operation will prove quintessential in order to describe the complex nature of macroeconomic systems.
+    
+[^10]: 自我渐进选择理论的基础
+
+    Foundations of self-progressive choice theories. (arXiv:2212.13449v4 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2212.13449](http://arxiv.org/abs/2212.13449)
+
+    该论文讨论了自我渐进选择理论及其与代数结构和超模函数的等价性，并将分析扩展到普遍自我渐进的选择理论。
+
+    
+
+    考虑一个由许多代理人组成的群体，他们的选择行为可以根据给定的原始排序部分进行比较。在该群体中可接受的选择函数集合确定了一个选择理论。如果与理论一致的任何集体选择行为都可以表示为可比较的可接受选择函数上的概率分布，则该选择理论是自我渐进的。 我们证明了自我渐进选择理论和（i）称为格的众所周知的代数结构；（ii）特定领域内的超模函数的最大化者之间的等价性。我们将分析扩展到普遍自我渐进的选择理论，这些选择理论独立于原始排序给出了唯一的有序代表。
+
+    Consider a population of agents whose choice behaviors are partially comparable according to given primitive orderings. The set of choice functions admissible in the population specifies a choice theory. A choice theory is self-progressive if any aggregate choice behavior consistent with the theory is uniquely representable as a probability distribution over admissible choice functions that are comparable. We establish an equivalence between self-progressive choice theories and (i) well-known algebraic structures called lattices; (ii) the maximizers of supermodular functions over a specific domain of choice functions. We extend our analysis to universally self-progressive choice theories which render unique orderly representations independent of primitive orderings.
+    
+[^11]: 可观测完美均衡 (Observable Perfect Equilibrium)
+
+    Observable Perfect Equilibrium. (arXiv:2210.16506v5 [cs.GT] UPDATED)
+
+    [http://arxiv.org/abs/2210.16506](http://arxiv.org/abs/2210.16506)
+
+    本文提出一种新的博弈均衡概念——可观测完美均衡，在顺序不完全信息博弈中可以帮助创建真正的策略代理。这种均衡概念在公开观察的行动概率方面具有鲁棒性。
+
+    
+
+    尽管纳什均衡成为了博弈论的核心解决方案概念，许多重要的博弈包含多个纳什均衡，我们必须确定如何在其中选择，以创建真正的策略代理。为顺序不完全信息博弈提出了几个纳什均衡细化概念，其中最突出的是颤抖手完美均衡、拟完美均衡和最近提出的单侧拟完美均衡。这些概念对某些任意小的错误具有鲁棒性，并保证始终存在。但我们认为，对于发展顺序不完全信息博弈中强大的代理人，这些概念都不正确。我们为游戏树中提出了一种新的均衡概念——可观测完美均衡，在其中，解决方案在公开观察的行动概率方面具有鲁棒性（并不一定针对所有可能不可观察的行动概率具有鲁棒性）。
+
+    While Nash equilibrium has emerged as the central game-theoretic solution concept, many important games contain several Nash equilibria and we must determine how to select between them in order to create real strategic agents. Several Nash equilibrium refinement concepts have been proposed and studied for sequential imperfect-information games, the most prominent being trembling-hand perfect equilibrium, quasi-perfect equilibrium, and recently one-sided quasi-perfect equilibrium. These concepts are robust to certain arbitrarily small mistakes, and are guaranteed to always exist; however, we argue that neither of these is the correct concept for developing strong agents in sequential games of imperfect information. We define a new equilibrium refinement concept for extensive-form games called observable perfect equilibrium in which the solution is robust over trembles in publicly-observable action probabilities (not necessarily over all action probabilities that may not be observable by
+    
+[^12]: 二元结果模型中的同时性及其在夫妻就业中的应用
+
+    Simultaneity in Binary Outcome Models with an Application to Employment for Couples. (arXiv:2207.07343v2 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2207.07343](http://arxiv.org/abs/2207.07343)
+
+    本文研究了施密特提出的二元联立模型在动态面板数据版本下的应用，发现夫妻就业关系的依赖程度因夫妻的族裔构成而异。
+
+    
+
+    彼得·施密特在计量经济学发展中做出了许多贡献，其中包括引入联立logit模型以及研究短面板下动态线性固定效应面板数据模型的估计方法。本文研究了施密特和斯特劳斯（1975）引入的二元模型的动态面板数据版本，该模型允许滞后的因变量和固定效应，类似于安和施密特（1995）的模型。我们将条件似然方法与矩估计方法相结合，得出了模型的估计策略。我们将这种估计策略应用于夫妻就业关系的简单模型中。我们的主要结论是，在考虑未观测到的家庭特定异质性的情况下，夫妻之间的就业依赖关系因夫妻的族裔构成而异。
+
+    Two of Peter Schmidt's many contributions to econometrics have been to introduce a simultaneous logit model for bivariate binary outcomes and to study estimation of dynamic linear fixed effects panel data models using short panels. In this paper, we study a dynamic panel data version of the bivariate model introduced in Schmidt and Strauss (1975) that allows for lagged dependent variables and fixed effects as in Ahn and Schmidt (1995). We combine a conditional likelihood approach with a method of moments approach to obtain an estimation strategy for the resulting model. We apply this estimation strategy to a simple model for the intra-household relationship in employment. Our main conclusion is that the within-household dependence in employment differs significantly by the ethnicity composition of the couple even after one allows for unobserved household specific heterogeneity.
     
 

@@ -1,0 +1,12 @@
+{
+    "title": "Batch Updating of a Posterior Tree Distribution over a Meta-Tree. (arXiv:2303.09705v1 [cs.LG])",
+    "abstract": "Previously, we proposed a probabilistic data generation model represented by an unobservable tree and a sequential updating method to calculate a posterior distribution over a set of trees. The set is called a meta-tree. In this paper, we propose a more efficient batch updating method.",
+    "link": "http://arxiv.org/abs/2303.09705",
+    "context": "Title: Batch Updating of a Posterior Tree Distribution over a Meta-Tree. (arXiv:2303.09705v1 [cs.LG])\nAbstract: Previously, we proposed a probabilistic data generation model represented by an unobservable tree and a sequential updating method to calculate a posterior distribution over a set of trees. The set is called a meta-tree. In this paper, we propose a more efficient batch updating method.",
+    "path": "papers/23/03/2303.09705.json",
+    "total_tokens": 468,
+    "translated_title": "在元树上批量更新后验树分布。",
+    "translated_abstract": "以前，我们提出了一个由不可观察的树和一个序列更新方法表示的概率数据生成模型，用于计算一组树上的后验分布。该集合称为元树。在本文中，我们提出了一种更高效的批量更新方法。",
+    "tldr": "本文提出了一个更高效的批量更新方法，用于在元树上计算后验分布。",
+    "en_tdlr": "This paper proposes a more efficient batch updating method for calculating posterior distributions over a set of trees, called a meta-tree."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "QUBO Decision Tree: Annealing Machine Extends Decision Tree Splitting. (arXiv:2303.09772v1 [cs.LG])",
+    "abstract": "This paper proposes an extension of regression trees by quadratic unconstrained binary optimization (QUBO). Regression trees are very popular prediction models that are trainable with tabular datasets, but their accuracy is insufficient because the decision rules are too simple. The proposed method extends the decision rules in decision trees to multi-dimensional boundaries. Such an extension is generally unimplementable because of computational limitations, however, the proposed method transforms the training process to QUBO, which enables an annealing machine to solve this problem.",
+    "link": "http://arxiv.org/abs/2303.09772",
+    "context": "Title: QUBO Decision Tree: Annealing Machine Extends Decision Tree Splitting. (arXiv:2303.09772v1 [cs.LG])\nAbstract: This paper proposes an extension of regression trees by quadratic unconstrained binary optimization (QUBO). Regression trees are very popular prediction models that are trainable with tabular datasets, but their accuracy is insufficient because the decision rules are too simple. The proposed method extends the decision rules in decision trees to multi-dimensional boundaries. Such an extension is generally unimplementable because of computational limitations, however, the proposed method transforms the training process to QUBO, which enables an annealing machine to solve this problem.",
+    "path": "papers/23/03/2303.09772.json",
+    "total_tokens": 713,
+    "translated_title": "QUBO决策树：退火机器扩展决策树分裂",
+    "translated_abstract": "本论文提出了一种通过二次无约束二值优化（QUBO）扩展回归树的方法。回归树是非常流行的预测模型，可用于训练表格数据集，但其准确度不足，因为决策规则过于简单。该方法通过QUBO转换训练过程，将决策树的决策规则扩展到多维边界。这种扩展通常由于计算限制而无法实现，然而，所提出的方法使退火机器能够解决这个问题。",
+    "tldr": "本论文提出了一种扩展回归树的方法，通过将训练过程转化为QUBO，将决策树的决策规则扩展到多维边界，进而提高了决策树的准确度。使用退火机器解决这一扩展通常的计算限制。",
+    "en_tdlr": "This paper proposes a method to extend regression trees by transforming the training process to QUBO, which enables decision rules to be extended to multi-dimensional boundaries and improve the accuracy. The proposed method overcomes computational limitations by using an annealing machine to solve this problem."
+}

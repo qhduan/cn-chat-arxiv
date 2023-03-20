@@ -1,0 +1,12 @@
+{
+    "title": "It Is All About Data: A Survey on the Effects of Data on Adversarial Robustness. (arXiv:2303.09767v1 [cs.LG])",
+    "abstract": "Adversarial examples are inputs to machine learning models that an attacker has intentionally designed to confuse the model into making a mistake. Such examples pose a serious threat to the applicability of machine-learning-based systems, especially in life- and safety-critical domains. To address this problem, the area of adversarial robustness investigates mechanisms behind adversarial attacks and defenses against these attacks. This survey reviews literature that focuses on the effects of data used by a model on the model's adversarial robustness. It systematically identifies and summarizes the state-of-the-art research in this area and further discusses gaps of knowledge and promising future research directions.",
+    "link": "http://arxiv.org/abs/2303.09767",
+    "context": "Title: It Is All About Data: A Survey on the Effects of Data on Adversarial Robustness. (arXiv:2303.09767v1 [cs.LG])\nAbstract: Adversarial examples are inputs to machine learning models that an attacker has intentionally designed to confuse the model into making a mistake. Such examples pose a serious threat to the applicability of machine-learning-based systems, especially in life- and safety-critical domains. To address this problem, the area of adversarial robustness investigates mechanisms behind adversarial attacks and defenses against these attacks. This survey reviews literature that focuses on the effects of data used by a model on the model's adversarial robustness. It systematically identifies and summarizes the state-of-the-art research in this area and further discusses gaps of knowledge and promising future research directions.",
+    "path": "papers/23/03/2303.09767.json",
+    "total_tokens": 760,
+    "translated_title": "关于数据的一切：对数据对抗鲁棒性影响的研究综述",
+    "translated_abstract": "对抗性样本是攻击者有意设计用于混淆机器学习模型以便其犯错的输入。这些样本对基于机器学习的系统的适用性，特别是在涉及生命和安全的领域，构成了严重威胁。为了解决这个问题，对抗鲁棒性领域研究对抗攻击机制和防御策略。本综述回顾了有关模型使用的数据对其抗攻击鲁棒性影响的文献。它系统地识别和总结了这个领域内的最新研究，并进一步讨论了知识的差距和有前途的未来研究方向。",
+    "tldr": "本文综述了有关数据对抗鲁棒性的研究，系统地总结了最新研究成果，并进一步讨论了未来研究方向和知识差距。",
+    "en_tdlr": "This article reviews the effects of data on adversarial robustness, identifies and summarizes the state-of-the-art research in this area, and discusses promising future research directions as well as knowledge gaps."
+}

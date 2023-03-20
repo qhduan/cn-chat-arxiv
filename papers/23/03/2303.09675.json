@@ -1,0 +1,11 @@
+{
+    "title": "Dynamic Information Provision: Rewarding the Past and Guiding the Future. (arXiv:2303.09675v1 [econ.TH])",
+    "abstract": "I study the optimal provision of information in a long-term relationship between a sender and a receiver. The sender observes a persistent, evolving state and commits to send signals over time to the receiver, who sequentially chooses public actions that affect the welfare of both players. I solve for the sender's optimal policy in closed form: the sender reports the value of the state with a delay that shrinks over time and eventually vanishes. Even when the receiver knows the current state, the sender retains leverage by threatening to conceal the future evolution of the state.",
+    "link": "http://arxiv.org/abs/2303.09675",
+    "context": "Title: Dynamic Information Provision: Rewarding the Past and Guiding the Future. (arXiv:2303.09675v1 [econ.TH])\nAbstract: I study the optimal provision of information in a long-term relationship between a sender and a receiver. The sender observes a persistent, evolving state and commits to send signals over time to the receiver, who sequentially chooses public actions that affect the welfare of both players. I solve for the sender's optimal policy in closed form: the sender reports the value of the state with a delay that shrinks over time and eventually vanishes. Even when the receiver knows the current state, the sender retains leverage by threatening to conceal the future evolution of the state.",
+    "path": "papers/23/03/2303.09675.json",
+    "total_tokens": 673,
+    "translated_title": "动态信息提供：褒奖过去，引领未来",
+    "translated_abstract": "本文研究了一个信息长期关系中发件人和收件人之间的最优信息提供。发件人观察一个持久且不断发展的状态，并承诺与时间推移而发送信号给收件人，后者顺序选择影响两个玩家福利的公共行动。我通过封闭形式求解了发件人的最优政策：发件人用逐渐缩小并最终消失的延迟报告状态的值。即使收件人知道当前状态，发件人通过威胁隐瞒状态未来的演变来保持影响力。",
+    "tldr": "本文解决了长期关系下发件人与收件人间信息提供的最优策略，这一策略褒奖过去，引领未来。"
+}

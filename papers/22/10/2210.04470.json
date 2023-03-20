@@ -1,0 +1,12 @@
+{
+    "title": "Actor-Critic or Critic-Actor? A Tale of Two Time Scales. (arXiv:2210.04470v2 [cs.LG] UPDATED)",
+    "abstract": "We revisit the standard formulation of tabular actor-critic algorithm as a two time-scale stochastic approximation with value function computed on a faster time-scale and policy computed on a slower time-scale. This emulates policy iteration. We begin by observing that reversal of the time scales will in fact emulate value iteration and is a legitimate algorithm. We provide a proof of convergence and compare the two empirically with and without function approximation (with both linear and nonlinear function approximators) and observe that our proposed critic-actor algorithm performs on par with actor-critic in terms of both accuracy and computational effort.",
+    "link": "http://arxiv.org/abs/2210.04470",
+    "context": "Title: Actor-Critic or Critic-Actor? A Tale of Two Time Scales. (arXiv:2210.04470v2 [cs.LG] UPDATED)\nAbstract: We revisit the standard formulation of tabular actor-critic algorithm as a two time-scale stochastic approximation with value function computed on a faster time-scale and policy computed on a slower time-scale. This emulates policy iteration. We begin by observing that reversal of the time scales will in fact emulate value iteration and is a legitimate algorithm. We provide a proof of convergence and compare the two empirically with and without function approximation (with both linear and nonlinear function approximators) and observe that our proposed critic-actor algorithm performs on par with actor-critic in terms of both accuracy and computational effort.",
+    "path": "papers/22/10/2210.04470.json",
+    "total_tokens": 729,
+    "translated_title": "演员评论或评论演员？两个时间尺度的故事。",
+    "translated_abstract": "我们重新审视基于表格的演员评论算法的标准公式，将其视为两个时间尺度的随机逼近，其中价值函数在快速时间尺度上计算，策略在慢速时间尺度上计算。这模拟了策略迭代。我们首先观察到，时间尺度的反转实际上会模拟值迭代，并且是一种合法的算法。我们提供了收敛性证明，并通过带有线性和非线性函数逼近器的函数逼近测试两种方法，并观察到我们提出的评论演员算法在准确性和计算成本方面与演员评论算法相当。",
+    "tldr": "这篇论文提出了一种评论演员算法，它在快速和慢速时间尺度上计算价值函数和策略，该算法与演员评论算法在准确性和计算成本方面表现相当。",
+    "en_tdlr": "This paper proposes a critic-actor algorithm that computes the value function and policy on both a fast and slow time scale, and compares it to the actor-critic algorithm with linear and nonlinear function approximators, showing comparable accuracy and computational effort."
+}
