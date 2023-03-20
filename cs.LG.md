@@ -126,16 +126,17 @@
 | [^122] | [Push--Pull with Device Sampling.](http://arxiv.org/abs/2206.04113) | 我们提出了一种算法，采用梯度跟踪和网络级方差减少相结合的方法来解决异步分布式优化问题。该算法能够实现每个节点跟踪目标函数梯度的平均值，并在局部目标函数强凸的情况下，通过减少预期混合矩阵的温和连接条件实现线性收敛。 |
 | [^123] | [Backpropagation through Combinatorial Algorithms: Identity with Projection Works.](http://arxiv.org/abs/2205.15213) | 本文提出了一种基于离散解空间几何的原则方法，将求解器视为负恒等变换，以在反向传播时寻找有意义的替代方案，避免使用通过投影平滑求解器、将求解器松弛为连续问题或者通过技术对损失面貌进行插值等更复杂的方法，从而在离散求解器和深度图等情景中发挥作用。 |
 | [^124] | [HUMUS-Net: Hybrid unrolled multi-scale network architecture for accelerated MRI reconstruction.](http://arxiv.org/abs/2203.08213) | 本文提出了一种混合展开多尺度网络结构用于加速MRI重建，该结构将变压器和卷积技术相结合，有效地解决了处理高分辨率图像和大块图像时计算和内存成本过高的问题。 |
-| [^125] | [Transformer Module Networks for Systematic Generalization in Visual Question Answering.](http://arxiv.org/abs/2201.11316) | 本文引入了Transformer模块网络（TMN），它是由Transformer模块组成的新型NMN，能够取得在VQA任务中最先进的系统性能，针对子任务的新组合比标准Transformer提高了30%以上。 |
-| [^126] | [Partition-Based Active Learning for Graph Neural Networks.](http://arxiv.org/abs/2201.09391) | 本文提出了一种基于分区的图神经网络主动学习方法GraphPart，该方法在不引入额外超参数的情况下，在多个基准数据集上显著优于现有主动学习方法，并且在不同的注释预算约束下性能稳定。 |
-| [^127] | [Tiny, always-on and fragile: Bias propagation through design choices in on-device machine learning workflows.](http://arxiv.org/abs/2201.07677) | 本研究调查了边缘端机器学习工作流程中偏见传递的设计选择。结果表明，在模型训练过程中的技术设计选择，如模型架构和优化算法，会放大和传播可靠性偏见。 |
-| [^128] | [Observations on K-image Expansion of Image-Mixing Augmentation for Classification.](http://arxiv.org/abs/2110.04248) | 本文提出一种新的 K-image 混合增强方法，通过基于狄利克雷先验分布的棍子分拆，可以得到更健壮、广义的分类器，并具有更好的对抗鲁棒性。 |
-| [^129] | [Combining Physics and Deep Learning to learn Continuous-Time Dynamics Models.](http://arxiv.org/abs/2110.01894) | 本文提出了受物理启发的深度网络DeLaN，结合物理学原理和深度学习来学习具有物理合理性动力学的模型。 |
-| [^130] | [Empirical Study of Named Entity Recognition Performance Using Distribution-aware Word Embedding.](http://arxiv.org/abs/2109.01636) | 研究开发了一种分布感知词嵌入，并实施了三种不同的方法来利用NER框架中的分布信息，实验表明将词的特异性融入NER方法可提高NER的性能。 |
-| [^131] | [A Low-Cost Neural ODE with Depthwise Separable Convolution for Edge Domain Adaptation on FPGAs.](http://arxiv.org/abs/2107.12824) | 本文提出了一种低成本的神经ODE和深度可分卷积相结合的DNN模型dsODENet，并将其应用于边缘领域适应。此外，还提出了一种资源高效的FPGA设计，可部署dsODENet。 |
-| [^132] | [Learning Augmented Online Facility Location.](http://arxiv.org/abs/2107.08277) | 本文提出了一种用于在线设施选址问题的在线算法，竞争比率能够光滑地随误差减小而从对数级别降低到常数级别。 |
-| [^133] | [Breaking the Sample Size Barrier in Model-Based Reinforcement Learning with a Generative Model.](http://arxiv.org/abs/2005.12900) | 本文提出了两个算法——扰动模型驱动算法和保守模型驱动算法，通过生成模型在较小的样本大小下证明了它们的极小化最大算法优化性能。 |
-| [^134] | [Deep Image Feature Learning with Fuzzy Rules.](http://arxiv.org/abs/1905.10575) | 本论文提出了一种基于模糊规则的深度图像特征学习方法，能够生成更好的解释和可伸缩的特征模型，并且与数据集大小无关。 |
+| [^125] | [Deep learning-based conditional inpainting for restoration of artifact-affected 4D CT images.](http://arxiv.org/abs/2203.06431) | 该研究提出了基于深度学习的条件修复技术，可恢复受损部位的解剖正确的图像信息。研究依据实验结果表明该方法在修复追踪伪影上有效，具备广阔的应用前景。 |
+| [^126] | [Transformer Module Networks for Systematic Generalization in Visual Question Answering.](http://arxiv.org/abs/2201.11316) | 本文引入了Transformer模块网络（TMN），它是由Transformer模块组成的新型NMN，能够取得在VQA任务中最先进的系统性能，针对子任务的新组合比标准Transformer提高了30%以上。 |
+| [^127] | [Partition-Based Active Learning for Graph Neural Networks.](http://arxiv.org/abs/2201.09391) | 本文提出了一种基于分区的图神经网络主动学习方法GraphPart，该方法在不引入额外超参数的情况下，在多个基准数据集上显著优于现有主动学习方法，并且在不同的注释预算约束下性能稳定。 |
+| [^128] | [Tiny, always-on and fragile: Bias propagation through design choices in on-device machine learning workflows.](http://arxiv.org/abs/2201.07677) | 本研究调查了边缘端机器学习工作流程中偏见传递的设计选择。结果表明，在模型训练过程中的技术设计选择，如模型架构和优化算法，会放大和传播可靠性偏见。 |
+| [^129] | [Observations on K-image Expansion of Image-Mixing Augmentation for Classification.](http://arxiv.org/abs/2110.04248) | 本文提出一种新的 K-image 混合增强方法，通过基于狄利克雷先验分布的棍子分拆，可以得到更健壮、广义的分类器，并具有更好的对抗鲁棒性。 |
+| [^130] | [Combining Physics and Deep Learning to learn Continuous-Time Dynamics Models.](http://arxiv.org/abs/2110.01894) | 本文提出了受物理启发的深度网络DeLaN，结合物理学原理和深度学习来学习具有物理合理性动力学的模型。 |
+| [^131] | [Empirical Study of Named Entity Recognition Performance Using Distribution-aware Word Embedding.](http://arxiv.org/abs/2109.01636) | 研究开发了一种分布感知词嵌入，并实施了三种不同的方法来利用NER框架中的分布信息，实验表明将词的特异性融入NER方法可提高NER的性能。 |
+| [^132] | [A Low-Cost Neural ODE with Depthwise Separable Convolution for Edge Domain Adaptation on FPGAs.](http://arxiv.org/abs/2107.12824) | 本文提出了一种低成本的神经ODE和深度可分卷积相结合的DNN模型dsODENet，并将其应用于边缘领域适应。此外，还提出了一种资源高效的FPGA设计，可部署dsODENet。 |
+| [^133] | [Learning Augmented Online Facility Location.](http://arxiv.org/abs/2107.08277) | 本文提出了一种用于在线设施选址问题的在线算法，竞争比率能够光滑地随误差减小而从对数级别降低到常数级别。 |
+| [^134] | [Breaking the Sample Size Barrier in Model-Based Reinforcement Learning with a Generative Model.](http://arxiv.org/abs/2005.12900) | 本文提出了两个算法——扰动模型驱动算法和保守模型驱动算法，通过生成模型在较小的样本大小下证明了它们的极小化最大算法优化性能。 |
+| [^135] | [Deep Image Feature Learning with Fuzzy Rules.](http://arxiv.org/abs/1905.10575) | 本论文提出了一种基于模糊规则的深度图像特征学习方法，能够生成更好的解释和可伸缩的特征模型，并且与数据集大小无关。 |
 
 # 详细
 
@@ -1875,7 +1876,21 @@
 
     In accelerated MRI reconstruction, the anatomy of a patient is recovered from a set of under-sampled and noisy measurements. Deep learning approaches have been proven to be successful in solving this ill-posed inverse problem and are capable of producing very high quality reconstructions. However, current architectures heavily rely on convolutions, that are content-independent and have difficulties modeling long-range dependencies in images. Recently, Transformers, the workhorse of contemporary natural language processing, have emerged as powerful building blocks for a multitude of vision tasks. These models split input images into non-overlapping patches, embed the patches into lower-dimensional tokens and utilize a self-attention mechanism that does not suffer from the aforementioned weaknesses of convolutional architectures. However, Transformers incur extremely high compute and memory cost when 1) the input image resolution is high and 2) when the image needs to be split into a lar
     
-[^125]: Transformer模块网络用于视觉问答中的系统泛化
+[^125]: 基于深度学习的条件修复技术用于修复受伤迹影响的4D CT图像
+
+    Deep learning-based conditional inpainting for restoration of artifact-affected 4D CT images. (arXiv:2203.06431v2 [physics.med-ph] UPDATED)
+
+    [http://arxiv.org/abs/2203.06431](http://arxiv.org/abs/2203.06431)
+
+    该研究提出了基于深度学习的条件修复技术，可恢复受损部位的解剖正确的图像信息。研究依据实验结果表明该方法在修复追踪伪影上有效，具备广阔的应用前景。
+
+    
+
+    4D CT成像是胸部/腹部肿瘤放疗的重要组成部分。然而，4D CT图像经常受到损伤迹的影响，这会影响治疗规划的质量。本文提出基于深度学习（DL）的条件修复技术，以恢复受损部位的解剖正确的图像信息。修复方法包括两个阶段：DL-based检测常见的插值（INT）和双重结构（DS）伪影，然后应用条件修复技术到伪影部位。在这个语境中，条件指的是通过患者特定的图像数据来指导修复过程，以确保解剖学可靠的结果。该研究基于65名肺癌患者的内部4D CT图像（48名轻微受损，17名明显受损），以及两个公开可用的4D CT数据集作为独立外部测试集。自动伪影检测显示ROC-AUC为0.99的INT和0.97的DS。
+
+    4D CT imaging is an essential component of radiotherapy of thoracic/abdominal tumors. 4D CT images are, however, often affected by artifacts that compromise treatment planning quality. In this work, deep learning (DL)-based conditional inpainting is proposed to restore anatomically correct image information of artifact-affected areas. The restoration approach consists of a two-stage process: DL-based detection of common interpolation (INT) and double structure (DS) artifacts, followed by conditional inpainting applied to the artifact areas. In this context, conditional refers to a guidance of the inpainting process by patient-specific image data to ensure anatomically reliable results. The study is based on 65 in-house 4D CT images of lung cancer patients (48 with only slight artifacts, 17 with pronounced artifacts) and two publicly available 4D CT data sets that serve as independent external test sets. Automated artifact detection revealed a ROC-AUC of 0.99 for INT and of 0.97 for DS 
+    
+[^126]: Transformer模块网络用于视觉问答中的系统泛化
 
     Transformer Module Networks for Systematic Generalization in Visual Question Answering. (arXiv:2201.11316v2 [cs.CV] UPDATED)
 
@@ -1889,7 +1904,7 @@
 
     Transformers achieve great performance on Visual Question Answering (VQA). However, their systematic generalization capabilities, i.e., handling novel combinations of known concepts, is unclear. We reveal that Neural Module Networks (NMNs), i.e., question-specific compositions of modules that tackle a sub-task, achieve better or similar systematic generalization performance than the conventional Transformers, even though NMNs' modules are CNN-based. In order to address this shortcoming of Transformers with respect to NMNs, in this paper we investigate whether and how modularity can bring benefits to Transformers. Namely, we introduce Transformer Module Network (TMN), a novel NMN based on compositions of Transformer modules. TMNs achieve state-of-the-art systematic generalization performance in three VQA datasets, improving more than 30% over standard Transformers for novel compositions of sub-tasks. We show that not only the module composition but also the module specialization for eac
     
-[^126]: 基于分区的图神经网络主动学习方法研究
+[^127]: 基于分区的图神经网络主动学习方法研究
 
     Partition-Based Active Learning for Graph Neural Networks. (arXiv:2201.09391v2 [cs.LG] UPDATED)
 
@@ -1903,7 +1918,7 @@
 
     We study the problem of semi-supervised learning with Graph Neural Networks (GNNs) in an active learning setup. We propose GraphPart, a novel partition-based active learning approach for GNNs. GraphPart first splits the graph into disjoint partitions and then selects representative nodes within each partition to query. The proposed method is motivated by a novel analysis of the classification error under realistic smoothness assumptions over the graph and the node features. Extensive experiments on multiple benchmark datasets demonstrate that the proposed method outperforms existing active learning methods for GNNs under a wide range of annotation budget constraints. In addition, the proposed method does not introduce additional hyperparameters, which is crucial for model training, especially in the active learning setting where a labeled validation set may not be available.
     
-[^127]: 微型、始终在线且易碎: 设计选择中的偏见传递与在线机器学习工作流程。
+[^128]: 微型、始终在线且易碎: 设计选择中的偏见传递与在线机器学习工作流程。
 
     Tiny, always-on and fragile: Bias propagation through design choices in on-device machine learning workflows. (arXiv:2201.07677v4 [cs.LG] UPDATED)
 
@@ -1917,7 +1932,7 @@
 
     Billions of distributed, heterogeneous and resource constrained IoT devices deploy on-device machine learning (ML) for private, fast and offline inference on personal data. On-device ML is highly context dependent, and sensitive to user, usage, hardware and environment attributes. This sensitivity and the propensity towards bias in ML makes it important to study bias in on-device settings. Our study is one of the first investigations of bias in this emerging domain, and lays important foundations for building fairer on-device ML. We apply a software engineering lens, investigating the propagation of bias through design choices in on-device ML workflows. We first identify reliability bias as a source of unfairness and propose a measure to quantify it. We then conduct empirical experiments for a keyword spotting task to show how complex and interacting technical design choices amplify and propagate reliability bias. Our results validate that design choices made during model training, lik
     
-[^128]: 论分类问题中图像混合数据增强方法的 K-image 扩展探讨
+[^129]: 论分类问题中图像混合数据增强方法的 K-image 扩展探讨
 
     Observations on K-image Expansion of Image-Mixing Augmentation for Classification. (arXiv:2110.04248v2 [cs.CV] UPDATED)
 
@@ -1931,7 +1946,7 @@
 
     Image-mixing augmentations (e.g., Mixup and CutMix), which typically involve mixing two images, have become the de-facto training techniques for image classification. Despite their huge success in image classification, the number of images to be mixed has not been elucidated in the literature: only the naive K-image expansion has been shown to lead to performance degradation. This study derives a new K-image mixing augmentation based on the stick-breaking process under Dirichlet prior distribution. We demonstrate the superiority of our K-image expansion augmentation over conventional two-image mixing augmentation methods through extensive experiments and analyses: (1) more robust and generalized classifiers; (2) a more desirable loss landscape shape; (3) better adversarial robustness. Moreover, we show that our probabilistic model can measure the sample-wise uncertainty and boost the efficiency for network architecture search by achieving a 7-fold reduction in the search time. Code wil
     
-[^129]: 结合物理和深度学习来学习连续时间动力学模型
+[^130]: 结合物理和深度学习来学习连续时间动力学模型
 
     Combining Physics and Deep Learning to learn Continuous-Time Dynamics Models. (arXiv:2110.01894v2 [cs.LG] UPDATED)
 
@@ -1945,7 +1960,7 @@
 
     Deep learning has been widely used within learning algorithms for robotics. One disadvantage of deep networks is that these networks are black-box representations. Therefore, the learned approximations ignore the existing knowledge of physics or robotics. Especially for learning dynamics models, these black-box models are not desirable as the underlying principles are well understood and the standard deep networks can learn dynamics that violate these principles. To learn dynamics models with deep networks that guarantee physically plausible dynamics, we introduce physics-inspired deep networks that combine first principles from physics with deep learning. We incorporate Lagrangian mechanics within the model learning such that all approximated models adhere to the laws of physics and conserve energy. Deep Lagrangian Networks (DeLaN) parametrize the system energy using two networks. The parameters are obtained by minimizing the squared residual of the Euler-Lagrange differential equatio
     
-[^130]: 使用分布感知词嵌入的命名实体识别性能的实证研究。
+[^131]: 使用分布感知词嵌入的命名实体识别性能的实证研究。
 
     Empirical Study of Named Entity Recognition Performance Using Distribution-aware Word Embedding. (arXiv:2109.01636v2 [cs.CL] UPDATED)
 
@@ -1959,7 +1974,7 @@
 
     With the fast development of Deep Learning techniques, Named Entity Recognition (NER) is becoming more and more important in the information extraction task. The greatest difficulty that the NER task faces is to keep the detectability even when types of NE and documents are unfamiliar. Realizing that the specificity information may contain potential meanings of a word and generate semantic-related features for word embedding, we develop a distribution-aware word embedding and implement three different methods to make use of the distribution information in a NER framework. And the result shows that the performance of NER will be improved if the word specificity is incorporated into existing NER methods.
     
-[^131]: 一种基于深度可分卷积神经ODE的低成本FPGA边缘领域适应方法
+[^132]: 一种基于深度可分卷积神经ODE的低成本FPGA边缘领域适应方法
 
     A Low-Cost Neural ODE with Depthwise Separable Convolution for Edge Domain Adaptation on FPGAs. (arXiv:2107.12824v4 [cs.LG] UPDATED)
 
@@ -1973,7 +1988,7 @@
 
     High-performance deep neural network (DNN)-based systems are in high demand in edge environments. Due to its high computational complexity, it is challenging to deploy DNNs on edge devices with strict limitations on computational resources. In this paper, we derive a compact while highly-accurate DNN model, termed dsODENet, by combining recently-proposed parameter reduction techniques: Neural ODE (Ordinary Differential Equation) and DSC (Depthwise Separable Convolution). Neural ODE exploits a similarity between ResNet and ODE, and shares most of weight parameters among multiple layers, which greatly reduces the memory consumption. We apply dsODENet to a domain adaptation as a practical use case with image classification datasets. We also propose a resource-efficient FPGA-based design for dsODENet, where all the parameters and feature maps except for pre- and post-processing layers can be mapped onto on-chip memories. It is implemented on Xilinx ZCU104 board and evaluated in terms of do
     
-[^132]: 学习增强的在线设施选址问题
+[^133]: 学习增强的在线设施选址问题
 
     Learning Augmented Online Facility Location. (arXiv:2107.08277v3 [cs.DS] UPDATED)
 
@@ -1987,7 +2002,7 @@
 
     Following the research agenda initiated by Munoz & Vassilvitskii [1] and Lykouris & Vassilvitskii [2] on learning-augmented online algorithms for classical online optimization problems, in this work, we consider the Online Facility Location problem under this framework. In Online Facility Location (OFL), demands arrive one-by-one in a metric space and must be (irrevocably) assigned to an open facility upon arrival, without any knowledge about future demands.  We present an online algorithm for OFL that exploits potentially imperfect predictions on the locations of the optimal facilities. We prove that the competitive ratio decreases smoothly from sublogarithmic in the number of demands to constant, as the error, i.e., the total distance of the predicted locations to the optimal facility locations, decreases towards zero. We complement our analysis with a matching lower bound establishing that the dependence of the algorithm's competitive ratio on the error is optimal, up to constant fa
     
-[^133]: 用生成模型突破模型驱动强化学习中的样本大小障碍
+[^134]: 用生成模型突破模型驱动强化学习中的样本大小障碍
 
     Breaking the Sample Size Barrier in Model-Based Reinforcement Learning with a Generative Model. (arXiv:2005.12900v7 [cs.LG] UPDATED)
 
@@ -2001,7 +2016,7 @@
 
     This paper is concerned with the sample efficiency of reinforcement learning, assuming access to a generative model (or simulator). We first consider $\gamma$-discounted infinite-horizon Markov decision processes (MDPs) with state space $\mathcal{S}$ and action space $\mathcal{A}$. Despite a number of prior works tackling this problem, a complete picture of the trade-offs between sample complexity and statistical accuracy is yet to be determined. In particular, all prior results suffer from a severe sample size barrier, in the sense that their claimed statistical guarantees hold only when the sample size exceeds at least $\frac{|\mathcal{S}||\mathcal{A}|}{(1-\gamma)^2}$. The current paper overcomes this barrier by certifying the minimax optimality of two algorithms -- a perturbed model-based algorithm and a conservative model-based algorithm -- as soon as the sample size exceeds the order of $\frac{|\mathcal{S}||\mathcal{A}|}{1-\gamma}$ (modulo some log factor). Moving beyond infinite-
     
-[^134]: 带模糊规则的深度图像特征学习
+[^135]: 带模糊规则的深度图像特征学习
 
     Deep Image Feature Learning with Fuzzy Rules. (arXiv:1905.10575v3 [cs.CV] UPDATED)
 

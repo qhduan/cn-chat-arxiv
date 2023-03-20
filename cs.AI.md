@@ -55,18 +55,19 @@
 | [^51] | [Greedy Ordering of Layer Weight Matrices in Transformers Improves Translation.](http://arxiv.org/abs/2302.02123) | 本论文提出了一种基于贪婪重排权重矩阵的算法AEIUOrder，能够最大化总的经过充分训练的层所贡献的"well-trainedness"指标进行优化，从而提高翻译质量并在各种翻译任务上达到最佳性能。 |
 | [^52] | [Matching Exemplar as Next Sentence Prediction (MeNSP): Zero-shot Prompt Learning for Automatic Scoring in Science Education.](http://arxiv.org/abs/2301.08771) | 本研究提出了一种零样本学习自动评分的方法，利用预训练的语言模型配合匹配标本作为下一句预测技术，成功应用于科学教育领域的论证任务，极大地减少了训练成本和时间。 |
 | [^53] | [SIRL: Similarity-based Implicit Representation Learning.](http://arxiv.org/abs/2301.00810) | SIRL是基于人提供相似度判断的任务表示学习方法，能够帮助机器人识别和隔离因果特征并生成适当行为，在各种机器人任务上表现优秀。 |
-| [^54] | [Learning to Select Prototypical Parts for Interpretable Sequential Data Modeling.](http://arxiv.org/abs/2212.03396) | 提出了一种自解释选择模型，使用典型的概念的线性组合来解释其自身的预测，通过选择大部分激活不同概念的子序列作为典型部分来解释模型决策，为了更好的解释性，还设计了多个约束条件。 |
-| [^55] | [Analysis of Utterance Embeddings and Clustering Methods Related to Intent Induction for Task-Oriented Dialogue.](http://arxiv.org/abs/2212.02021) | 本文旨在研究任务导向对话中的意图识别问题，并提出两个关键因素：聚类算法和用户话语嵌入空间。实验证明，利用预训练的MiniLM与层次聚类相结合可以显著提高意图归纳任务的效果。 |
-| [^56] | [Representations of Domains via CF-approximation Spaces.](http://arxiv.org/abs/2211.17099) | 本文研究了通过CF-逼近空间的表示领域，介绍了CF-逼近空间和CF闭集的概念，并且证明了CF-逼近空间中的CF闭集族是连续领域，使用范畴论的方法，证明了CF-逼近空间和CF-可逼近关系的范畴与连续领域和Scott连续映射的范畴等同。 |
-| [^57] | [An Interpretable Machine Learning System to Identify EEG Patterns on the Ictal-Interictal-Injury Continuum.](http://arxiv.org/abs/2211.05207) | 该论文设计了一种可解释的深度学习模型，以预测ICU脑电监测中常见的6种脑波图案的存在，并提供高质量的解释和三种解释方法，这对于建立AI的信任和临床采用至关重要。 |
-| [^58] | [Liability regimes in the age of AI: a use-case driven analysis of the burden of proof.](http://arxiv.org/abs/2211.01817) | 本文通过用例分析探讨了基于AI技术的责任制度下证明负担的挑战和规则改革的建议。 |
-| [^59] | [Observable Perfect Equilibrium.](http://arxiv.org/abs/2210.16506) | 本文提出一种新的博弈均衡概念——可观测完美均衡，在顺序不完全信息博弈中可以帮助创建真正的策略代理。这种均衡概念在公开观察的行动概率方面具有鲁棒性。 |
-| [^60] | [TabLLM: Few-shot Classification of Tabular Data with Large Language Models.](http://arxiv.org/abs/2210.10723) | 本文应用大语言模型将表格数据序列化为自然语言字符串进行分类，微调后即可在非常少的样本设置下与传统基线方法竞争力十足。 |
-| [^61] | [Mine yOur owN Anatomy: Revisiting Medical Image Segmentation with Extremely Limited Labels.](http://arxiv.org/abs/2209.13476) | 提出了一种新的医学图像分割方法MOAN，该方法可以在极度有限的标签情况下实现高性能。MOAN由两个互补的流水线组成：协同邻域挖掘和自监督对比学习。实验结果表明，MOAN在Dice评分和其他评估指标方面优于现有最先进方法。 |
-| [^62] | [Learning Relational Causal Models with Cycles through Relational Acyclification.](http://arxiv.org/abs/2208.12210) | 本文通过引入关系无环化的算法，能够处理循环关系的因果模型，从而学习复杂动态系统。 |
-| [^63] | [Temporal Attention Unit: Towards Efficient Spatiotemporal Predictive Learning.](http://arxiv.org/abs/2206.12126) | 本研究提出了时间注意力单元（TAU）以提高时空预测学习的计算效率，将时间注意力分解为帧内静态注意力和帧间动态注意力。同时引入差分离散正则化方法来考虑帧间变化，大量实验表明该方法能够高效地进行预测学习。 |
-| [^64] | [Partition-Based Active Learning for Graph Neural Networks.](http://arxiv.org/abs/2201.09391) | 本文提出了一种基于分区的图神经网络主动学习方法GraphPart，该方法在不引入额外超参数的情况下，在多个基准数据集上显著优于现有主动学习方法，并且在不同的注释预算约束下性能稳定。 |
-| [^65] | [Over-Fit: Noisy-Label Detection based on the Overfitted Model Property.](http://arxiv.org/abs/2106.07217) | 本文提出一种基于模型过拟合特性的后训练学习方法，能够识别错误标记的样本，并逐步删除对决策边界有较高影响的样本，从而提高模型的泛化性能。 |
+| [^54] | [Effectiveness of Text, Acoustic, and Lattice-based representations in Spoken Language Understanding tasks.](http://arxiv.org/abs/2212.08489) | 本文研究了在口语理解任务中使用文本、声学和基于lattice的表示方法，结果表明使用更丰富的自动语音识别输出形式可以获得更好的性能。 |
+| [^55] | [Learning to Select Prototypical Parts for Interpretable Sequential Data Modeling.](http://arxiv.org/abs/2212.03396) | 提出了一种自解释选择模型，使用典型的概念的线性组合来解释其自身的预测，通过选择大部分激活不同概念的子序列作为典型部分来解释模型决策，为了更好的解释性，还设计了多个约束条件。 |
+| [^56] | [Analysis of Utterance Embeddings and Clustering Methods Related to Intent Induction for Task-Oriented Dialogue.](http://arxiv.org/abs/2212.02021) | 本文旨在研究任务导向对话中的意图识别问题，并提出两个关键因素：聚类算法和用户话语嵌入空间。实验证明，利用预训练的MiniLM与层次聚类相结合可以显著提高意图归纳任务的效果。 |
+| [^57] | [Representations of Domains via CF-approximation Spaces.](http://arxiv.org/abs/2211.17099) | 本文研究了通过CF-逼近空间的表示领域，介绍了CF-逼近空间和CF闭集的概念，并且证明了CF-逼近空间中的CF闭集族是连续领域，使用范畴论的方法，证明了CF-逼近空间和CF-可逼近关系的范畴与连续领域和Scott连续映射的范畴等同。 |
+| [^58] | [An Interpretable Machine Learning System to Identify EEG Patterns on the Ictal-Interictal-Injury Continuum.](http://arxiv.org/abs/2211.05207) | 该论文设计了一种可解释的深度学习模型，以预测ICU脑电监测中常见的6种脑波图案的存在，并提供高质量的解释和三种解释方法，这对于建立AI的信任和临床采用至关重要。 |
+| [^59] | [Liability regimes in the age of AI: a use-case driven analysis of the burden of proof.](http://arxiv.org/abs/2211.01817) | 本文通过用例分析探讨了基于AI技术的责任制度下证明负担的挑战和规则改革的建议。 |
+| [^60] | [Observable Perfect Equilibrium.](http://arxiv.org/abs/2210.16506) | 本文提出一种新的博弈均衡概念——可观测完美均衡，在顺序不完全信息博弈中可以帮助创建真正的策略代理。这种均衡概念在公开观察的行动概率方面具有鲁棒性。 |
+| [^61] | [TabLLM: Few-shot Classification of Tabular Data with Large Language Models.](http://arxiv.org/abs/2210.10723) | 本文应用大语言模型将表格数据序列化为自然语言字符串进行分类，微调后即可在非常少的样本设置下与传统基线方法竞争力十足。 |
+| [^62] | [Mine yOur owN Anatomy: Revisiting Medical Image Segmentation with Extremely Limited Labels.](http://arxiv.org/abs/2209.13476) | 提出了一种新的医学图像分割方法MOAN，该方法可以在极度有限的标签情况下实现高性能。MOAN由两个互补的流水线组成：协同邻域挖掘和自监督对比学习。实验结果表明，MOAN在Dice评分和其他评估指标方面优于现有最先进方法。 |
+| [^63] | [Learning Relational Causal Models with Cycles through Relational Acyclification.](http://arxiv.org/abs/2208.12210) | 本文通过引入关系无环化的算法，能够处理循环关系的因果模型，从而学习复杂动态系统。 |
+| [^64] | [Temporal Attention Unit: Towards Efficient Spatiotemporal Predictive Learning.](http://arxiv.org/abs/2206.12126) | 本研究提出了时间注意力单元（TAU）以提高时空预测学习的计算效率，将时间注意力分解为帧内静态注意力和帧间动态注意力。同时引入差分离散正则化方法来考虑帧间变化，大量实验表明该方法能够高效地进行预测学习。 |
+| [^65] | [Partition-Based Active Learning for Graph Neural Networks.](http://arxiv.org/abs/2201.09391) | 本文提出了一种基于分区的图神经网络主动学习方法GraphPart，该方法在不引入额外超参数的情况下，在多个基准数据集上显著优于现有主动学习方法，并且在不同的注释预算约束下性能稳定。 |
+| [^66] | [Over-Fit: Noisy-Label Detection based on the Overfitted Model Property.](http://arxiv.org/abs/2106.07217) | 本文提出一种基于模型过拟合特性的后训练学习方法，能够识别错误标记的样本，并逐步删除对决策边界有较高影响的样本，从而提高模型的泛化性能。 |
 
 # 详细
 
@@ -812,7 +813,21 @@
 
     When robots learn reward functions using high capacity models that take raw state directly as input, they need to both learn a representation for what matters in the task -- the task ``features" -- as well as how to combine these features into a single objective. If they try to do both at once from input designed to teach the full reward function, it is easy to end up with a representation that contains spurious correlations in the data, which fails to generalize to new settings. Instead, our ultimate goal is to enable robots to identify and isolate the causal features that people actually care about and use when they represent states and behavior. Our idea is that we can tune into this representation by asking users what behaviors they consider similar: behaviors will be similar if the features that matter are similar, even if low-level behavior is different; conversely, behaviors will be different if even one of the features that matter differs. This, in turn, is what enables the rob
     
-[^54]: 学习选择典型部分以解释序列数据建模
+[^54]: 文本、声学和基于lattice的表示在口语理解任务中的有效性
+
+    Effectiveness of Text, Acoustic, and Lattice-based representations in Spoken Language Understanding tasks. (arXiv:2212.08489v2 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2212.08489](http://arxiv.org/abs/2212.08489)
+
+    本文研究了在口语理解任务中使用文本、声学和基于lattice的表示方法，结果表明使用更丰富的自动语音识别输出形式可以获得更好的性能。
+
+    
+
+    本文针对口语理解（SLU）中的意图分类问题进行了多种表示方法的详细评估。我们对三种系统进行了基准评估来执行SLU意图检测任务：1）基于文本的，2）基于lattice的，以及一种新的3）多模式方法。我们提供了对不同情况下（例如，自动生成的转录 vs 手动转录等）不同最先进的SLU系统的可实现性能的全面分析。我们基于公开资源SLURP口语语言资源语料库评估了这些系统。结果表明，使用更丰富的自动语音识别（ASR）输出形式，即词共识网络，可以使SLU系统相对于1-best设置获得改善（相对提高5.5%）。然而，跨模态方法，即学习声学和文本嵌入，得到了与oracle设置相似的性能，即相对提高...
+
+    In this paper, we perform an exhaustive evaluation of different representations to address the intent classification problem in a Spoken Language Understanding (SLU) setup. We benchmark three types of systems to perform the SLU intent detection task: 1) text-based, 2) lattice-based, and a novel 3) multimodal approach. Our work provides a comprehensive analysis of what could be the achievable performance of different state-of-the-art SLU systems under different circumstances, e.g., automatically- vs. manually-generated transcripts. We evaluate the systems on the publicly available SLURP spoken language resource corpus. Our results indicate that using richer forms of Automatic Speech Recognition (ASR) outputs, namely word-consensus-networks, allows the SLU system to improve in comparison to the 1-best setup (5.5% relative improvement). However, crossmodal approaches, i.e., learning from acoustic and text embeddings, obtains performance similar to the oracle setup, a relative improvement 
+    
+[^55]: 学习选择典型部分以解释序列数据建模
 
     Learning to Select Prototypical Parts for Interpretable Sequential Data Modeling. (arXiv:2212.03396v2 [cs.LG] UPDATED)
 
@@ -826,7 +841,7 @@
 
     Prototype-based interpretability methods provide intuitive explanations of model prediction by comparing samples to a reference set of memorized exemplars or typical representatives in terms of similarity. In the field of sequential data modeling, similarity calculations of prototypes are usually based on encoded representation vectors. However, due to highly recursive functions, there is usually a non-negligible disparity between the prototype-based explanations and the original input. In this work, we propose a Self-Explaining Selective Model (SESM) that uses a linear combination of prototypical concepts to explain its own predictions. The model employs the idea of case-based reasoning by selecting sub-sequences of the input that mostly activate different concepts as prototypical parts, which users can compare to sub-sequences selected from different example inputs to understand model decisions. For better interpretability, we design multiple constraints including diversity, stabilit
     
-[^55]: 与任务导向对话的意图识别相关的话语嵌入和聚类方法的分析
+[^56]: 与任务导向对话的意图识别相关的话语嵌入和聚类方法的分析
 
     Analysis of Utterance Embeddings and Clustering Methods Related to Intent Induction for Task-Oriented Dialogue. (arXiv:2212.02021v3 [cs.CL] UPDATED)
 
@@ -840,7 +855,7 @@
 
     The focus of this work is to investigate unsupervised approaches to overcome quintessential challenges in designing task-oriented dialog schema: assigning intent labels to each dialog turn (intent clustering) and generating a set of intents based on the intent clustering methods (intent induction). We postulate there are two salient factors for automatic induction of intents: (1) clustering algorithm for intent labeling and (2) user utterance embedding space. We compare existing off-the-shelf clustering models and embeddings based on DSTC11 evaluation. Our extensive experiments demonstrate that the combined selection of utterance embedding and clustering method in the intent induction task should be carefully considered. We also present that pretrained MiniLM with Agglomerative clustering shows significant improvement in NMI, ARI, F1, accuracy and example coverage in intent induction tasks. The source codes are available at https://github.com/Jeiyoon/dstc11-track2.
     
-[^56]: 通过CF-逼近空间的表示领域
+[^57]: 通过CF-逼近空间的表示领域
 
     Representations of Domains via CF-approximation Spaces. (arXiv:2211.17099v2 [math.RA] UPDATED)
 
@@ -854,7 +869,7 @@
 
     Representations of domains mean in a general way representing a domain as a suitable family endowed with set-inclusion order of some mathematical structures. In this paper, representations of domains via CF-approximation spaces are considered. Concepts of CF-approximation spaces and CF-closed sets are introduced. It is proved that the family of CF-closed sets in a CF-approximation space endowed with set-inclusion order is a continuous domain and that every continuous domain is isomorphic to the family of CF-closed sets of some CF-approximation space endowed with set-inclusion order. The concept of CF-approximable relations is introduced using a categorical approach, which later facilitates the proof that the category of CF-approximation spaces and CF-approximable relations is equivalent to that of continuous domains and Scott continuous maps.
     
-[^57]: 一种可解释的机器学习系统来识别癫痫-间隙-损伤连续状态下的脑电图图案
+[^58]: 一种可解释的机器学习系统来识别癫痫-间隙-损伤连续状态下的脑电图图案
 
     An Interpretable Machine Learning System to Identify EEG Patterns on the Ictal-Interictal-Injury Continuum. (arXiv:2211.05207v3 [cs.CV] UPDATED)
 
@@ -868,7 +883,7 @@
 
     In many medical subfields, there is a call for greater interpretability in the machine learning systems used for clinical work. In this paper, we design an interpretable deep learning model to predict the presence of 6 types of brainwave patterns (Seizure, LPD, GPD, LRDA, GRDA, other) commonly encountered in ICU EEG monitoring. Each prediction is accompanied by a high-quality explanation delivered with the assistance of a specialized user interface. This novel model architecture learns a set of prototypical examples (``prototypes'') and makes decisions by comparing a new EEG segment to these prototypes. These prototypes are either single-class (affiliated with only one class) or dual-class (affiliated with two classes).  We present three main ways of interpreting the model: 1) Using global-structure preserving methods, we map the 1275-dimensional cEEG latent features to a 2D space to visualize the ictal-interictal-injury continuum and gain insight into its high-dimensional structure. 2
     
-[^58]: AI时代的责任制度：基于用例的证明负担分析
+[^59]: AI时代的责任制度：基于用例的证明负担分析
 
     Liability regimes in the age of AI: a use-case driven analysis of the burden of proof. (arXiv:2211.01817v2 [cs.AI] UPDATED)
 
@@ -882,7 +897,7 @@
 
     New emerging technologies powered by Artificial Intelligence (AI) have the potential to disruptively transform our societies for the better. In particular, data-driven learning approaches (i.e., Machine Learning (ML)) have been a true revolution in the advancement of multiple technologies in various application domains. But at the same time there is growing concern about certain intrinsic characteristics of these methodologies that carry potential risks to both safety and fundamental rights. Although there are mechanisms in the adoption process to minimize these risks (e.g., safety regulations), these do not exclude the possibility of harm occurring, and if this happens, victims should be able to seek compensation. Liability regimes will therefore play a key role in ensuring basic protection for victims using or interacting with these systems. However, the same characteristics that make AI systems inherently risky, such as lack of causality, opacity, unpredictability or their self and 
     
-[^59]: 可观测完美均衡 (Observable Perfect Equilibrium)
+[^60]: 可观测完美均衡 (Observable Perfect Equilibrium)
 
     Observable Perfect Equilibrium. (arXiv:2210.16506v5 [cs.GT] UPDATED)
 
@@ -896,7 +911,7 @@
 
     While Nash equilibrium has emerged as the central game-theoretic solution concept, many important games contain several Nash equilibria and we must determine how to select between them in order to create real strategic agents. Several Nash equilibrium refinement concepts have been proposed and studied for sequential imperfect-information games, the most prominent being trembling-hand perfect equilibrium, quasi-perfect equilibrium, and recently one-sided quasi-perfect equilibrium. These concepts are robust to certain arbitrarily small mistakes, and are guaranteed to always exist; however, we argue that neither of these is the correct concept for developing strong agents in sequential games of imperfect information. We define a new equilibrium refinement concept for extensive-form games called observable perfect equilibrium in which the solution is robust over trembles in publicly-observable action probabilities (not necessarily over all action probabilities that may not be observable by
     
-[^60]: TabLLM: 大语言模型在少样本表格数据分类中的应用
+[^61]: TabLLM: 大语言模型在少样本表格数据分类中的应用
 
     TabLLM: Few-shot Classification of Tabular Data with Large Language Models. (arXiv:2210.10723v2 [cs.CL] UPDATED)
 
@@ -910,7 +925,7 @@
 
     We study the application of large language models to zero-shot and few-shot classification of tabular data. We prompt the large language model with a serialization of the tabular data to a natural-language string, together with a short description of the classification problem. In the few-shot setting, we fine-tune the large language model using some labeled examples. We evaluate several serialization methods including templates, table-to-text models, and large language models. Despite its simplicity, we find that this technique outperforms prior deep-learning-based tabular classification methods on several benchmark datasets. In most cases, even zero-shot classification obtains non-trivial performance, illustrating the method's ability to exploit prior knowledge encoded in large language models. Unlike many deep learning methods for tabular datasets, this approach is also competitive with strong traditional baselines like gradient-boosted trees, especially in the very-few-shot setting
     
-[^61]: 重新审视医学图像分割:极度有限标签下的医学图像分割
+[^62]: 重新审视医学图像分割:极度有限标签下的医学图像分割
 
     Mine yOur owN Anatomy: Revisiting Medical Image Segmentation with Extremely Limited Labels. (arXiv:2209.13476v4 [eess.IV] UPDATED)
 
@@ -924,7 +939,7 @@
 
     Recent studies on contrastive learning have achieved remarkable performance solely by leveraging few labels in the context of medical image segmentation. Existing methods mainly focus on instance discrimination and invariant mapping. However, they face three common pitfalls: (1) tailness: medical image data usually follows an implicit long-tail class distribution. Blindly leveraging all pixels in training hence can lead to the data imbalance issues, and cause deteriorated performance; (2) consistency: it remains unclear whether a segmentation model has learned meaningful and yet consistent anatomical features due to the intra-class variations between different anatomical features; and (3) diversity: the intra-slice correlations within the entire dataset have received significantly less attention. This motivates us to seek a principled approach for strategically making use of the dataset itself to discover similar yet distinct samples from different anatomical views. In this paper, we i
     
-[^62]: 通过关系无环化学习带有循环关系的关系因果模型
+[^63]: 通过关系无环化学习带有循环关系的关系因果模型
 
     Learning Relational Causal Models with Cycles through Relational Acyclification. (arXiv:2208.12210v7 [cs.AI] UPDATED)
 
@@ -938,7 +953,7 @@
 
     In real-world phenomena which involve mutual influence or causal effects between interconnected units, equilibrium states are typically represented with cycles in graphical models. An expressive class of graphical models, relational causal models, can represent and reason about complex dynamic systems exhibiting such cycles or feedback loops. Existing cyclic causal discovery algorithms for learning causal models from observational data assume that the data instances are independent and identically distributed which makes them unsuitable for relational causal models. At the same time, causal discovery algorithms for relational causal models assume acyclicity. In this work, we examine the necessary and sufficient conditions under which a constraint-based relational causal discovery algorithm is sound and complete for cyclic relational causal models. We introduce relational acyclification, an operation specifically designed for relational models that enables reasoning about the identifiab
     
-[^63]: 时间注意力单元：面向高效时空预测学习的方法研究
+[^64]: 时间注意力单元：面向高效时空预测学习的方法研究
 
     Temporal Attention Unit: Towards Efficient Spatiotemporal Predictive Learning. (arXiv:2206.12126v2 [cs.CV] UPDATED)
 
@@ -952,7 +967,7 @@
 
     Spatiotemporal predictive learning aims to generate future frames by learning from historical frames. In this paper, we investigate existing methods and present a general framework of spatiotemporal predictive learning, in which the spatial encoder and decoder capture intra-frame features and the middle temporal module catches inter-frame correlations. While the mainstream methods employ recurrent units to capture long-term temporal dependencies, they suffer from low computational efficiency due to their unparallelizable architectures. To parallelize the temporal module, we propose the Temporal Attention Unit (TAU), which decomposes the temporal attention into intra-frame statical attention and inter-frame dynamical attention. Moreover, while the mean squared error loss focuses on intra-frame errors, we introduce a novel differential divergence regularization to take inter-frame variations into account. Extensive experiments demonstrate that the proposed method enables the derived mode
     
-[^64]: 基于分区的图神经网络主动学习方法研究
+[^65]: 基于分区的图神经网络主动学习方法研究
 
     Partition-Based Active Learning for Graph Neural Networks. (arXiv:2201.09391v2 [cs.LG] UPDATED)
 
@@ -966,7 +981,7 @@
 
     We study the problem of semi-supervised learning with Graph Neural Networks (GNNs) in an active learning setup. We propose GraphPart, a novel partition-based active learning approach for GNNs. GraphPart first splits the graph into disjoint partitions and then selects representative nodes within each partition to query. The proposed method is motivated by a novel analysis of the classification error under realistic smoothness assumptions over the graph and the node features. Extensive experiments on multiple benchmark datasets demonstrate that the proposed method outperforms existing active learning methods for GNNs under a wide range of annotation budget constraints. In addition, the proposed method does not introduce additional hyperparameters, which is crucial for model training, especially in the active learning setting where a labeled validation set may not be available.
     
-[^65]: 基于过拟合模型特性的噪声标签检测方法
+[^66]: 基于过拟合模型特性的噪声标签检测方法
 
     Over-Fit: Noisy-Label Detection based on the Overfitted Model Property. (arXiv:2106.07217v2 [cs.CV] UPDATED)
 
