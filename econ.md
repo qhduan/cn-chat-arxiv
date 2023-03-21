@@ -22,8 +22,9 @@
 | [^18] | [Efficient Integrated Volatility Estimation in the Presence of Infinite Variation Jumps via Debiased Truncated Realized Variations.](http://arxiv.org/abs/2209.10128) | 本文提出了一种新的方法，能够高效处理局部行为类似于稳定Lévy过程的跳跃行为的Itô半鞅的波动率估计，该方法基于一个两步去偏误程序，适用于跳跃是无界变化的情况。 |
 | [^19] | [Multi-Asset Bubbles Equilibrium Price Dynamics.](http://arxiv.org/abs/2206.01468) | 本文理论研究了多资产均衡模型中价格泡沫和崩溃形成的问题，推导了不同智能体模型的平均均衡价格动态的存在条件，并指出具有正股息的资产在均衡价格上表现出典型的驼峰泡沫形态。当市场末期出现急剧下跌时，会触发资产的错误估值效应。 |
 | [^20] | [Estimating Nonlinear Network Data Models with Fixed Effects.](http://arxiv.org/abs/2203.15603) | 本文提出一种使用杰克刀程序修正带有个体固定效应的非线性网络数据模型偏差的新方法，可适用于有向和无向网络，对非二元结果变量进行估计，并可用于修正平均效应和反事实结局的估算。 |
-| [^21] | [Ambiguity and Partial Bayesian Updating.](http://arxiv.org/abs/2102.11429) | 本文提出了一种新的贝叶斯更新方法，部分贝叶斯更新(PB)，该方法在可能性判断上设置门槛，对较为可能的先验概率进行更新，较大程度上克服了完全贝叶斯更新和最大似然更新的缺点。 |
-| [^22] | [Analysis of a Dynamic Voluntary Contribution Mechanism Public Good Game.](http://arxiv.org/abs/1807.04621) | 本文提出一种动态的自愿贡献机制的公共物品博弈，分析了其三种结果，即最低收益结果、纳什均衡和社会最优行为。 |
+| [^21] | [Reference Dependence and Random Attention.](http://arxiv.org/abs/2106.13350) | 本文提出了参考依赖随机注意力模型（RD-RAM），这个模型可以唯一识别偏好，并能捕捉到包括频率反转和选择过载在内的丰富行为模式。 |
+| [^22] | [Ambiguity and Partial Bayesian Updating.](http://arxiv.org/abs/2102.11429) | 本文提出了一种新的贝叶斯更新方法，部分贝叶斯更新(PB)，该方法在可能性判断上设置门槛，对较为可能的先验概率进行更新，较大程度上克服了完全贝叶斯更新和最大似然更新的缺点。 |
+| [^23] | [Analysis of a Dynamic Voluntary Contribution Mechanism Public Good Game.](http://arxiv.org/abs/1807.04621) | 本文提出一种动态的自愿贡献机制的公共物品博弈，分析了其三种结果，即最低收益结果、纳什均衡和社会最优行为。 |
 
 # 详细
 
@@ -307,7 +308,21 @@
 
     I introduce a new method for bias correction of dyadic models with agent-specific fixed-effects, including the dyadic link formation model with homophily and degree heterogeneity. The proposed approach uses a jackknife procedure to deal with the incidental parameters problem. The method can be applied to both directed and undirected networks, allows for non-binary outcome variables, and can be used to bias correct estimates of average effects and counterfactual outcomes. I also show how the jackknife can be used to bias-correct fixed effect averages over functions that depend on multiple nodes, e.g. triads or tetrads in the network. As an example, I implement specification tests for dependence across dyads, such as reciprocity or transitivity. Finally, I demonstrate the usefulness of the estimator in an application to a gravity model for import/export relationships across countries.
     
-[^21]: 歧义与部分贝叶斯更新
+[^21]: 参考点依赖和随机注意力
+
+    Reference Dependence and Random Attention. (arXiv:2106.13350v3 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2106.13350](http://arxiv.org/abs/2106.13350)
+
+    本文提出了参考依赖随机注意力模型（RD-RAM），这个模型可以唯一识别偏好，并能捕捉到包括频率反转和选择过载在内的丰富行为模式。
+
+    
+
+    本文探讨了参考点如何引导注意力。利用随机选择框架，我们为参考依赖随机注意力模型（RD-RAM）提供了行为基础。我们的表征结果表明，即使注意过程任意依赖于菜单和参考点，偏好也可以得到唯一识别。RD-RAM能够捕捉到丰富的行为模式，包括非现状替代品之间的频率反转和选择过载。我们还分析了具体的注意力过程，表征了参考依赖版本的几个著名随机考虑模型。
+
+    We explore the ways that a reference point may direct attention. Utilizing a stochastic choice framework, we provide behavioral foundations for the Reference-Dependent Random Attention Model (RD-RAM). Our characterization result shows that preferences may be uniquely identified even when the attention process depends arbitrarily on both the menu and the reference point. The RD-RAM is able to capture rich behavioral patterns, including frequency reversals among non-status quo alternatives and choice overload. We also analyze specific attention processes, characterizing reference-dependent versions of several prominent models of stochastic consideration.
+    
+[^22]: 歧义与部分贝叶斯更新
 
     Ambiguity and Partial Bayesian Updating. (arXiv:2102.11429v3 [econ.TH] UPDATED)
 
@@ -321,7 +336,7 @@
 
     Models of updating a set of priors either do not allow a decision maker to make inference about her priors (full bayesian updating or FB) or require an extreme degree of selection (maximum likelihood updating or ML). I characterize a general method for updating a set of priors, partial bayesian updating (PB), in which the decision maker (i) utilizes an event-dependent threshold to determine whether a prior is likely enough, conditional on observed information, and then (ii) applies Bayes' rule to the sufficiently likely priors. I show that PB nests FB and ML and explore its behavioral properties.
     
-[^22]: 动态自愿贡献机制的公共物品博弈分析
+[^23]: 动态自愿贡献机制的公共物品博弈分析
 
     Analysis of a Dynamic Voluntary Contribution Mechanism Public Good Game. (arXiv:1807.04621v2 [econ.EM] UPDATED)
 

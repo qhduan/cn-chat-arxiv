@@ -1,0 +1,11 @@
+{
+    "title": "Reference Dependence and Random Attention. (arXiv:2106.13350v3 [econ.TH] UPDATED)",
+    "abstract": "We explore the ways that a reference point may direct attention. Utilizing a stochastic choice framework, we provide behavioral foundations for the Reference-Dependent Random Attention Model (RD-RAM). Our characterization result shows that preferences may be uniquely identified even when the attention process depends arbitrarily on both the menu and the reference point. The RD-RAM is able to capture rich behavioral patterns, including frequency reversals among non-status quo alternatives and choice overload. We also analyze specific attention processes, characterizing reference-dependent versions of several prominent models of stochastic consideration.",
+    "link": "http://arxiv.org/abs/2106.13350",
+    "context": "Title: Reference Dependence and Random Attention. (arXiv:2106.13350v3 [econ.TH] UPDATED)\nAbstract: We explore the ways that a reference point may direct attention. Utilizing a stochastic choice framework, we provide behavioral foundations for the Reference-Dependent Random Attention Model (RD-RAM). Our characterization result shows that preferences may be uniquely identified even when the attention process depends arbitrarily on both the menu and the reference point. The RD-RAM is able to capture rich behavioral patterns, including frequency reversals among non-status quo alternatives and choice overload. We also analyze specific attention processes, characterizing reference-dependent versions of several prominent models of stochastic consideration.",
+    "path": "papers/21/06/2106.13350.json",
+    "total_tokens": 670,
+    "translated_title": "参考点依赖和随机注意力",
+    "translated_abstract": "本文探讨了参考点如何引导注意力。利用随机选择框架，我们为参考依赖随机注意力模型（RD-RAM）提供了行为基础。我们的表征结果表明，即使注意过程任意依赖于菜单和参考点，偏好也可以得到唯一识别。RD-RAM能够捕捉到丰富的行为模式，包括非现状替代品之间的频率反转和选择过载。我们还分析了具体的注意力过程，表征了参考依赖版本的几个著名随机考虑模型。",
+    "tldr": "本文提出了参考依赖随机注意力模型（RD-RAM），这个模型可以唯一识别偏好，并能捕捉到包括频率反转和选择过载在内的丰富行为模式。"
+}

@@ -398,6 +398,26 @@ http://arxiv.org/abs/2203.15603
 &lt;/p&gt;
 &lt;p&gt;
 I introduce a new method for bias correction of dyadic models with agent-specific fixed-effects, including the dyadic link formation model with homophily and degree heterogeneity. The proposed approach uses a jackknife procedure to deal with the incidental parameters problem. The method can be applied to both directed and undirected networks, allows for non-binary outcome variables, and can be used to bias correct estimates of average effects and counterfactual outcomes. I also show how the jackknife can be used to bias-correct fixed effect averages over functions that depend on multiple nodes, e.g. triads or tetrads in the network. As an example, I implement specification tests for dependence across dyads, such as reciprocity or transitivity. Finally, I demonstrate the usefulness of the estimator in an application to a gravity model for import/export relationships across countries.
+&lt;/p&gt;</description></item><item><title>&#26412;&#25991;&#25552;&#20986;&#20102;&#21442;&#32771;&#20381;&#36182;&#38543;&#26426;&#27880;&#24847;&#21147;&#27169;&#22411;&#65288;RD-RAM&#65289;&#65292;&#36825;&#20010;&#27169;&#22411;&#21487;&#20197;&#21807;&#19968;&#35782;&#21035;&#20559;&#22909;&#65292;&#24182;&#33021;&#25429;&#25417;&#21040;&#21253;&#25324;&#39057;&#29575;&#21453;&#36716;&#21644;&#36873;&#25321;&#36807;&#36733;&#22312;&#20869;&#30340;&#20016;&#23500;&#34892;&#20026;&#27169;&#24335;&#12290;</title><link>http://arxiv.org/abs/2106.13350</link><description>&lt;p&gt;
+&#21442;&#32771;&#28857;&#20381;&#36182;&#21644;&#38543;&#26426;&#27880;&#24847;&#21147;
+&lt;/p&gt;
+&lt;p&gt;
+Reference Dependence and Random Attention. (arXiv:2106.13350v3 [econ.TH] UPDATED)
+&lt;/p&gt;
+&lt;p&gt;
+http://arxiv.org/abs/2106.13350
+&lt;/p&gt;
+&lt;p&gt;
+&#26412;&#25991;&#25552;&#20986;&#20102;&#21442;&#32771;&#20381;&#36182;&#38543;&#26426;&#27880;&#24847;&#21147;&#27169;&#22411;&#65288;RD-RAM&#65289;&#65292;&#36825;&#20010;&#27169;&#22411;&#21487;&#20197;&#21807;&#19968;&#35782;&#21035;&#20559;&#22909;&#65292;&#24182;&#33021;&#25429;&#25417;&#21040;&#21253;&#25324;&#39057;&#29575;&#21453;&#36716;&#21644;&#36873;&#25321;&#36807;&#36733;&#22312;&#20869;&#30340;&#20016;&#23500;&#34892;&#20026;&#27169;&#24335;&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+&#26412;&#25991;&#25506;&#35752;&#20102;&#21442;&#32771;&#28857;&#22914;&#20309;&#24341;&#23548;&#27880;&#24847;&#21147;&#12290;&#21033;&#29992;&#38543;&#26426;&#36873;&#25321;&#26694;&#26550;&#65292;&#25105;&#20204;&#20026;&#21442;&#32771;&#20381;&#36182;&#38543;&#26426;&#27880;&#24847;&#21147;&#27169;&#22411;&#65288;RD-RAM&#65289;&#25552;&#20379;&#20102;&#34892;&#20026;&#22522;&#30784;&#12290;&#25105;&#20204;&#30340;&#34920;&#24449;&#32467;&#26524;&#34920;&#26126;&#65292;&#21363;&#20351;&#27880;&#24847;&#36807;&#31243;&#20219;&#24847;&#20381;&#36182;&#20110;&#33756;&#21333;&#21644;&#21442;&#32771;&#28857;&#65292;&#20559;&#22909;&#20063;&#21487;&#20197;&#24471;&#21040;&#21807;&#19968;&#35782;&#21035;&#12290;RD-RAM&#33021;&#22815;&#25429;&#25417;&#21040;&#20016;&#23500;&#30340;&#34892;&#20026;&#27169;&#24335;&#65292;&#21253;&#25324;&#38750;&#29616;&#29366;&#26367;&#20195;&#21697;&#20043;&#38388;&#30340;&#39057;&#29575;&#21453;&#36716;&#21644;&#36873;&#25321;&#36807;&#36733;&#12290;&#25105;&#20204;&#36824;&#20998;&#26512;&#20102;&#20855;&#20307;&#30340;&#27880;&#24847;&#21147;&#36807;&#31243;&#65292;&#34920;&#24449;&#20102;&#21442;&#32771;&#20381;&#36182;&#29256;&#26412;&#30340;&#20960;&#20010;&#33879;&#21517;&#38543;&#26426;&#32771;&#34385;&#27169;&#22411;&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+We explore the ways that a reference point may direct attention. Utilizing a stochastic choice framework, we provide behavioral foundations for the Reference-Dependent Random Attention Model (RD-RAM). Our characterization result shows that preferences may be uniquely identified even when the attention process depends arbitrarily on both the menu and the reference point. The RD-RAM is able to capture rich behavioral patterns, including frequency reversals among non-status quo alternatives and choice overload. We also analyze specific attention processes, characterizing reference-dependent versions of several prominent models of stochastic consideration.
 &lt;/p&gt;</description></item><item><title>&#26412;&#25991;&#25552;&#20986;&#20102;&#19968;&#31181;&#26032;&#30340;&#36125;&#21494;&#26031;&#26356;&#26032;&#26041;&#27861;&#65292;&#37096;&#20998;&#36125;&#21494;&#26031;&#26356;&#26032;(PB)&#65292;&#35813;&#26041;&#27861;&#22312;&#21487;&#33021;&#24615;&#21028;&#26029;&#19978;&#35774;&#32622;&#38376;&#27099;&#65292;&#23545;&#36739;&#20026;&#21487;&#33021;&#30340;&#20808;&#39564;&#27010;&#29575;&#36827;&#34892;&#26356;&#26032;&#65292;&#36739;&#22823;&#31243;&#24230;&#19978;&#20811;&#26381;&#20102;&#23436;&#20840;&#36125;&#21494;&#26031;&#26356;&#26032;&#21644;&#26368;&#22823;&#20284;&#28982;&#26356;&#26032;&#30340;&#32570;&#28857;&#12290;</title><link>http://arxiv.org/abs/2102.11429</link><description>&lt;p&gt;
 &#27495;&#20041;&#19982;&#37096;&#20998;&#36125;&#21494;&#26031;&#26356;&#26032;
 &lt;/p&gt;
