@@ -1,0 +1,12 @@
+{
+    "title": "NELA-GT-2022: A Large Multi-Labelled News Dataset for The Study of Misinformation in News Articles. (arXiv:2203.05659v2 [cs.CL] UPDATED)",
+    "abstract": "In this paper, we present the fifth installment of the NELA-GT datasets, NELA-GT-2022. The dataset contains 1,778,361 articles from 361 outlets between January 1st, 2022 and December 31st, 2022. Just as in past releases of the dataset, NELA-GT-2022 includes outlet-level veracity labels from Media Bias/Fact Check and tweets embedded in collected news articles. The NELA-GT-2022 dataset can be found at: https://doi.org/10.7910/DVN/AMCV2H",
+    "link": "http://arxiv.org/abs/2203.05659",
+    "context": "Title: NELA-GT-2022: A Large Multi-Labelled News Dataset for The Study of Misinformation in News Articles. (arXiv:2203.05659v2 [cs.CL] UPDATED)\nAbstract: In this paper, we present the fifth installment of the NELA-GT datasets, NELA-GT-2022. The dataset contains 1,778,361 articles from 361 outlets between January 1st, 2022 and December 31st, 2022. Just as in past releases of the dataset, NELA-GT-2022 includes outlet-level veracity labels from Media Bias/Fact Check and tweets embedded in collected news articles. The NELA-GT-2022 dataset can be found at: https://doi.org/10.7910/DVN/AMCV2H",
+    "path": "papers/22/03/2203.05659.json",
+    "total_tokens": 682,
+    "translated_title": "NELA-GT-2022：一份用于研究新闻报道中误导信息的大型多标签新闻数据集",
+    "translated_abstract": "本文介绍了NELA-GT数据集的第五版，即NELA-GT-2022。该数据集包含361个来源的1,778,361篇文章，时间跨度为2022年1月1日至12月31日。与过去版本一样，NELA-GT-2022还包括来自Media Bias / Fact Check的出口级真实性标签以及嵌入收集的新闻文章中的推文。NELA-GT-2022数据集的获取链接为： https://doi.org/10.7910/DVN/AMCV2H",
+    "tldr": "NELA-GT-2022是一份包含361个来源的1,778,361篇文章的多标签新闻数据集，可用于研究新闻报道中的误导信息。",
+    "en_tdlr": "NELA-GT-2022 is a multi-labeled news dataset that contains 1,778,361 articles from 361 outlets and can be used to study misinformation in news articles."
+}

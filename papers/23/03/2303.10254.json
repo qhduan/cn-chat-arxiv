@@ -1,0 +1,12 @@
+{
+    "title": "Multi-Task Model Personalization for Federated Supervised SVM in Heterogeneous Networks. (arXiv:2303.10254v1 [cs.LG])",
+    "abstract": "In this paper, we design an efficient distributed iterative learning method based on support vector machines (SVMs), which tackles federated classification and regression. The proposed method supports efficient computations and model exchange in a network of heterogeneous nodes and allows personalization of the learning model in the presence of non-i.i.d. data. To further enhance privacy, we introduce a random mask procedure that helps avoid data inversion. Finally, we analyze the impact of the proposed privacy mechanisms and the heterogeneity of participant hardware and data on the system performance.",
+    "link": "http://arxiv.org/abs/2303.10254",
+    "context": "Title: Multi-Task Model Personalization for Federated Supervised SVM in Heterogeneous Networks. (arXiv:2303.10254v1 [cs.LG])\nAbstract: In this paper, we design an efficient distributed iterative learning method based on support vector machines (SVMs), which tackles federated classification and regression. The proposed method supports efficient computations and model exchange in a network of heterogeneous nodes and allows personalization of the learning model in the presence of non-i.i.d. data. To further enhance privacy, we introduce a random mask procedure that helps avoid data inversion. Finally, we analyze the impact of the proposed privacy mechanisms and the heterogeneity of participant hardware and data on the system performance.",
+    "path": "papers/23/03/2303.10254.json",
+    "total_tokens": 755,
+    "translated_title": "异构网络中联邦支持向量机的多任务模型个性化",
+    "translated_abstract": "本文设计了一种基于支持向量机（SVM）的高效分布式迭代学习方法，用于处理联邦分类和回归。该方法支持在异构节点网络中进行高效的计算和模型交换，并允许在存在非独立同分布数据的情况下学习模型的个性化。为进一步提高隐私保护，我们引入了一种随机掩码过程，有助于避免数据反演。最后，我们分析了所提出的隐私机制以及参与者硬件和数据的异构性对系统性能的影响。",
+    "tldr": "本文提出了一种用于异构联邦网络中的高效分布式迭代学习方法，通过支持向量机实现对联邦分类和回归任务的处理，并支持个性化的学习模型。为了保护隐私，引入了一种随机掩码过程。研究结果表明，所提出的方法对于解决异构网络中联邦学习任务是有效的。",
+    "en_tdlr": "This paper proposes an efficient distributed iterative learning method using support vector machines (SVMs) for federated classification and regression in heterogeneous networks. The method allows personalization of the learning model and employs a random mask procedure for privacy protection. The proposed method is effective for solving federated learning tasks in heterogeneous networks."
+}

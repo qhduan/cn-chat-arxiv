@@ -1,0 +1,12 @@
+{
+    "title": "Model-free Hedging of Impermanent Loss in Geometric Mean Market Makers. (arXiv:2303.11118v1 [q-fin.MF])",
+    "abstract": "We consider Geometric Mean Market Makers -- a special type of Decentralized Exchange -- with two types of users: liquidity takers and arbitrageurs. Liquidity takers trade at prices that can create arbitrage opportunities, while arbitrageurs align the exchange's price with the external market price. We show that in Geometric Mean Market Makers charging proportional transaction fees, Impermanent Loss can be super-hedged by a model-free rebalancing strategy. Moreover, we demonstrate that in such a DEX, the exchange rate is of finite variation, so that loss-versus-rebalancing (the shortfall of providing liquidity versus the corresponding constant-weights portfolio) vanishes.",
+    "link": "http://arxiv.org/abs/2303.11118",
+    "context": "Title: Model-free Hedging of Impermanent Loss in Geometric Mean Market Makers. (arXiv:2303.11118v1 [q-fin.MF])\nAbstract: We consider Geometric Mean Market Makers -- a special type of Decentralized Exchange -- with two types of users: liquidity takers and arbitrageurs. Liquidity takers trade at prices that can create arbitrage opportunities, while arbitrageurs align the exchange's price with the external market price. We show that in Geometric Mean Market Makers charging proportional transaction fees, Impermanent Loss can be super-hedged by a model-free rebalancing strategy. Moreover, we demonstrate that in such a DEX, the exchange rate is of finite variation, so that loss-versus-rebalancing (the shortfall of providing liquidity versus the corresponding constant-weights portfolio) vanishes.",
+    "path": "papers/23/03/2303.11118.json",
+    "total_tokens": 723,
+    "translated_title": "在几何均值市场 Maker 中无模型对不可逆损失进行对冲",
+    "translated_abstract": "我们考虑一种特殊类型的去中心化交易所—几何均值市场 Maker，它有两种用户类型：流动性接受者和套利者。流动性接受者的交易价格可能会产生套利机会，而套利者则会将交易所价格与外部市场价格对齐。我们展示了在几何均值市场 Maker 中，通过无模型再平衡策略可以对超级对冲进行对冲。此外，我们证明，在这样的去中心化交易所中，交换率是有限变化的，所以提供流动性与相应的常数权重组合之间的损失可以消失。",
+    "tldr": "在几何均值市场 Maker 中，通过无模型再平衡策略可以对超级对冲进行对冲，而交换率是有限变化的，因此损失可以消失。",
+    "en_tdlr": "In Geometric Mean Market Makers, a model-free rebalancing strategy can super-hedge impermanent loss, and the exchange rate is of finite variation, causing the loss-versus-rebalancing to vanish."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Safety without alignment. (arXiv:2303.00752v2 [cs.AI] UPDATED)",
+    "abstract": "Currently, the dominant paradigm in AI safety is alignment with human values. Here we describe progress on developing an alternative approach to safety, based on ethical rationalism (Gewirth:1978), and propose an inherently safe implementation path via hybrid theorem provers in a sandbox. As AGIs evolve, their alignment may fade, but their rationality can only increase (otherwise more rational ones will have a significant evolutionary advantage) so an approach that ties their ethics to their rationality has clear long-term advantages.",
+    "link": "http://arxiv.org/abs/2303.00752",
+    "context": "Title: Safety without alignment. (arXiv:2303.00752v2 [cs.AI] UPDATED)\nAbstract: Currently, the dominant paradigm in AI safety is alignment with human values. Here we describe progress on developing an alternative approach to safety, based on ethical rationalism (Gewirth:1978), and propose an inherently safe implementation path via hybrid theorem provers in a sandbox. As AGIs evolve, their alignment may fade, but their rationality can only increase (otherwise more rational ones will have a significant evolutionary advantage) so an approach that ties their ethics to their rationality has clear long-term advantages.",
+    "path": "papers/23/03/2303.00752.json",
+    "total_tokens": 690,
+    "translated_title": "无需价值一致性的安全性",
+    "translated_abstract": "目前，人工智能安全的主导范式是与人类价值的一致性。本文描述了基于伦理理性（Gewirth:1978）的安全性替代方法的发展进展，并提出了一种通过混合定理证明器在沙盒中实现的固有安全的实现路径。随着AGI的发展，它们的一致性可能会逐渐消失，但它们的理性只能增加（否则更理性的个体将具有显着的进化优势）因此，将伦理道德与理性联系起来的方法具有明显的长期优势。",
+    "tldr": "本文讨论了基于伦理理性的替代人工智能安全方法。作者建议将伦理道德与理性联系起来，以获得明显的长期优势，提出了一种通过混合定理证明器在沙盒中实现的固有安全的实现路径。",
+    "en_tdlr": "This paper discusses an alternative approach to AI safety based on ethical rationalism. The authors propose tying ethics to rationality for long-term advantages and suggest an inherently safe implementation path via hybrid theorem provers in a sandbox."
+}

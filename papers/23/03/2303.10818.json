@@ -1,0 +1,12 @@
+{
+    "title": "A Re-Examination of the Foundations of Cost of Capital for Regulatory Purposes. (arXiv:2303.10818v1 [econ.GN])",
+    "abstract": "In regulatory proceedings, few issues are more hotly debated than the cost of capital. This article formalises the theoretical foundation of cost of capital estimation for regulatory purposes. Several common regulatory practices lack a solid foundation in the theory. For example, the common practice of estimating a single cost of capital for the regulated firm suffers from a circularity problem, especially in the context of a multi-year regulatory period. In addition, the relevant cost of debt cannot be estimated using the yield-to-maturity on a corporate bond. We suggest possible directions for reform of cost of capital practices in regulatory proceedings.",
+    "link": "http://arxiv.org/abs/2303.10818",
+    "context": "Title: A Re-Examination of the Foundations of Cost of Capital for Regulatory Purposes. (arXiv:2303.10818v1 [econ.GN])\nAbstract: In regulatory proceedings, few issues are more hotly debated than the cost of capital. This article formalises the theoretical foundation of cost of capital estimation for regulatory purposes. Several common regulatory practices lack a solid foundation in the theory. For example, the common practice of estimating a single cost of capital for the regulated firm suffers from a circularity problem, especially in the context of a multi-year regulatory period. In addition, the relevant cost of debt cannot be estimated using the yield-to-maturity on a corporate bond. We suggest possible directions for reform of cost of capital practices in regulatory proceedings.",
+    "path": "papers/23/03/2303.10818.json",
+    "total_tokens": 711,
+    "translated_title": "重新审视用于监管目的的资本成本的基础",
+    "translated_abstract": "在监管程序中，很少有问题比资本成本更加争议。本文正式确认了监管目的的资本成本估计的理论基础。一些常见的监管惯例在理论上缺乏坚实的基础。例如，为受监管企业估计单一的资本成本常常存在循环性问题，特别是在多年监管期间。此外，相关的债务成本不能使用公司债券的到期收益率来估计。我们提出了可能的资本成本监管改革方向。",
+    "tldr": "本文探讨了监管中存在的资本成本问题，指出了单一资本成本的循环性问题和基于公司债券收益率估计债务成本的不可靠性，并提出了可能的监管改革方向。",
+    "en_tdlr": "This paper formalizes the theoretical foundation of cost of capital estimation for regulatory purposes and suggests possible directions for reform of cost of capital practices in regulatory proceedings. Specifically, it points out the circularity problem of estimating a single cost of capital for the regulated firm and the unreliability of estimating the relevant cost of debt using the yield-to-maturity on a corporate bond."
+}

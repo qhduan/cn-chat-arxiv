@@ -2,24 +2,186 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [GPTs are GPTs: An Early Look at the Labor Market Impact Potential of Large Language Models.](http://arxiv.org/abs/2303.10130) | 该研究调查了GPT（大语言模型）和相关技术对美国劳动力市场的潜在影响，发现大约80%的美国劳动力可能会受到10%的工作任务的影响，涵盖了所有工资水平和各行各业，预示着这些模型可能具有显著的经济、社会和政策影响。 |
-| [^2] | [Inference of Grouped Time-Varying Network Vector Autoregression Models.](http://arxiv.org/abs/2303.10117) | 该论文研究了针对大规模时间序列的时变网络向量自回归模型的统计推断方法，通过引入潜在的群组结构来减少未知系数数量并提出了群组后局部线性平滑方法来提高初步估计的收敛速度，并进行了相应的参数模型检验。 |
-| [^3] | [Multivariate Probabilistic CRPS Learning with an Application to Day-Ahead Electricity Prices.](http://arxiv.org/abs/2303.10019) | 本文提出一种新的多元概率CRPS学习方法，应用于日前电价预测中，相比于统一组合在CRPS方面取得了显著改进。 |
-| [^4] | [Moderation in instant runoff voting.](http://arxiv.org/abs/2303.09734) | 研究证明，相对于传统多数票投票，瞬时排名投票在对称分布的选民偏好条件下具有中和效应，可以避免选出极端候选人。 |
-| [^5] | [Econotaxis in modeling urbanization by labor force migration.](http://arxiv.org/abs/2303.09720) | 本研究提出了一个劳动力迁移模型，通过模拟发现模型可以产生聚集行为，并展现了两个经验规律。更进一步，研究证明了经济性趋向性，这是一种新型人类行为中心的趋向性，可以解释在现实世界中的劳动力聚集现象，这一结论突显了城市化与所导出的PDE系统中的吹起现象的相关性。 |
-| [^6] | [Bootstrap based asymptotic refinements for high-dimensional nonlinear models.](http://arxiv.org/abs/2303.09680) | 本文研究了基于SCAD惩罚函数的高维稀疏非线性模型。通过Bootstrap方法，提出了渐近细化的解决方案，可大大减少覆盖概率误差。 |
-| [^7] | [Dynamic Information Provision: Rewarding the Past and Guiding the Future.](http://arxiv.org/abs/2303.09675) | 本文解决了长期关系下发件人与收件人间信息提供的最优策略，这一策略褒奖过去，引领未来。 |
-| [^8] | [On Using Proportional Representation Methods as Alternatives to Pro-Rata Based Order Matching Algorithms in Stock Exchanges.](http://arxiv.org/abs/2303.09652) | 研究发现，选举制度中的比例代表方法可以替代股票交易所中的按比例分配顺序的匹配算法，提供更接近比例分配的订单分配。 |
-| [^9] | [Mr.Keynes and the... Complexity! A suggested agent-based version of the General Theory of Employment, Interest and Money.](http://arxiv.org/abs/2303.00889) | 本文提出了一种基于代理的宏观经济模型，旨在遵循凯恩斯的《失业、利率和货币的一般理论》，通过确定收入和就业水平来确定资本边际效益和倾向于消费的边际倾向。 |
-| [^10] | [Estimating the Effects of Fiscal Policy using a Novel Proxy Shrinkage Prior.](http://arxiv.org/abs/2302.13066) | 本文提出了一种新型代理收缩先验方法，能够在不依赖于代理变量有效性的强烈假设的情况下，估计财政政策冲击的效应。研究发现，增加政府支出比减税更有效地刺激经济，并构建了新的外生代理变量，可以用于传统的代理VAR方法中，与代理收缩模型的结果相似。 |
-| [^11] | [Foundations of self-progressive choice theories.](http://arxiv.org/abs/2212.13449) | 该论文讨论了自我渐进选择理论及其与代数结构和超模函数的等价性，并将分析扩展到普遍自我渐进的选择理论。 |
-| [^12] | [Observable Perfect Equilibrium.](http://arxiv.org/abs/2210.16506) | 本文提出一种新的博弈均衡概念——可观测完美均衡，在顺序不完全信息博弈中可以帮助创建真正的策略代理。这种均衡概念在公开观察的行动概率方面具有鲁棒性。 |
-| [^13] | [Simultaneity in Binary Outcome Models with an Application to Employment for Couples.](http://arxiv.org/abs/2207.07343) | 本文研究了施密特提出的二元联立模型在动态面板数据版本下的应用，发现夫妻就业关系的依赖程度因夫妻的族裔构成而异。 |
-| [^14] | [Inference for Cluster Randomized Experiments with Non-ignorable Cluster Sizes.](http://arxiv.org/abs/2204.08356) | 本文讨论了当簇大小非可忽略时，群集随机实验的推断问题，并提供方法用于识别平均权重簇水平治疗效应和大小加权簇水平治疗效应这两个参数。 |
+| [^1] | [Network log-ARCH models for forecasting stock market volatility.](http://arxiv.org/abs/2303.11064) | 一种新型动态网络自回归条件异方差(ARCH)模型被用于预测美国股市波动率，并利用时间滞后波动率信息和相邻节点的信息提高预测精度，特别适用于高维情况。 |
+| [^2] | [Tail dependence structure and extreme risk spillover effects between the international agricultural futures and spot markets.](http://arxiv.org/abs/2303.11030) | 本文研究了国际农产品期货和现货市场的风险溢出效应，结果表明每个农产品期货市场对现货市场都有显著的极端风险溢出效应，而大豆和玉米的下行风险溢出效应显著强于相应的上行风险溢出效应，为制定全球粮食贸易政策提供了理论基础。 |
+| [^3] | [The Economic Value of User Tracking for Publishers.](http://arxiv.org/abs/2303.10906) | 发布者在追踪用户时为广告带来的收益将大幅下降，对大多数发布者来说，用户追踪限制会使价格降低，提供广泛内容的发布者受影响最大。 |
+| [^4] | [Decomposability and Strategy-proofness in Multidimensional Models.](http://arxiv.org/abs/2303.10889) | 本文证明了在多维混合偏好领域中的策略无关规则可以分解为逐分量策略无关规则，并且在特定条件下，将规则的可分解性与策略无关性融合的偏好领域必须是一个多维混合领域。 |
+| [^5] | [Proxy Forecasting to Avoid Stochastic Decision Rules in Decision Markets.](http://arxiv.org/abs/2303.10857) | 提出了三种类似于决策市场的机制，采用确定性决策规则，避免了随机决策规则可能导致次优决策的问题。这些机制保持了激励兼容性，并采用代理方法评估预测。 |
+| [^6] | [Bifurcation analysis of the Keynesian cross model.](http://arxiv.org/abs/2303.10835) | 本研究使用凯恩斯交叉模型，通过分析政府支出与经济均衡状态之间的动态关系，分类不同政府支出情况下经济均衡状态的稳定性。结果显示，政府支出对国民经济产生显著的影响。 |
+| [^7] | [A Re-Examination of the Foundations of Cost of Capital for Regulatory Purposes.](http://arxiv.org/abs/2303.10818) | 本文探讨了监管中存在的资本成本问题，指出了单一资本成本的循环性问题和基于公司债券收益率估计债务成本的不可靠性，并提出了可能的监管改革方向。 |
+| [^8] | [School-based malaria chemoprevention as a cost-effective approach to improve cognitive and educational outcomes: a meta-analysis.](http://arxiv.org/abs/2303.10684) | 本文荟萃分析了疟疾化学预防对教育成果的影响，发现其在改善学生认知能力方面具有极高成本效益。 |
+| [^9] | [Efficient Public Good Provision in a Multipolar World.](http://arxiv.org/abs/2303.10514) | 本研究建立了一个具有组、位置不确定性和观察学习的公共物品博弈模型，展示了在固定的时间视野内，自私的玩家之间可以实现全面合作，并发现了各组内的同时高效提供是一个均衡策略。 |
+| [^10] | [Minimum Wage Pass-through to Wholesale and Retail Prices: Evidence from Cannabis Scanner Data.](http://arxiv.org/abs/2303.10367) | 本文利用华盛顿州的大麻扫描数据研究了最低工资对批发和零售价格的影响，发现一旦考虑到批发成本效应，零售价格弹性会增加一倍以上。零售商完全转嫁了成本。 |
+| [^11] | [Standard errors when a regressor is randomly assigned.](http://arxiv.org/abs/2303.10306) | 研究了回归变量随机分配时OLS估计的方差计算，发现在回归变量与误差项相互独立时，教科书中的方差公式成立，即使误差项与辅助回归变量存在依赖结构，该结论在随机控制试验中适用。当回归变量的异方差和误差项的相关结构均存在时，方差公式需要相应调整。 |
+| [^12] | [GPTs are GPTs: An Early Look at the Labor Market Impact Potential of Large Language Models.](http://arxiv.org/abs/2303.10130) | 该研究调查了GPT（大语言模型）和相关技术对美国劳动力市场的潜在影响，发现大约80%的美国劳动力可能会受到10%的工作任务的影响，涵盖了所有工资水平和各行各业，预示着这些模型可能具有显著的经济、社会和政策影响。 |
+| [^13] | [Status substitution and conspicuous consumption.](http://arxiv.org/abs/2303.07008) | 本文提出了一种新的显眼消费模型，可以解释关于显眼消费的两个特征，即邻居收入上升时人们会消费更多可见商品，但更广泛地理区域内具有相同种族的人的收入上升时，会消费更少的可见商品。此外，本模型还解释了富人对他人收入的敏感程度比穷人更高，而收入不平等对消费的影响在不同群体之间存在质的差异。 |
+| [^14] | [Inertial Updating.](http://arxiv.org/abs/2303.06336) | 本文提出了一种惯性更新信念的方法，通过改变主观距离的概念，提供了一个统一的框架，嵌套了三种不同类型的信念更新，包括贝叶斯更新、非贝叶斯更新规则和针对概率为零的事件的更新规则。作者证明了该模型等同于假设检验模型，将其应用于一种说服游戏。 |
+| [^15] | [How will Language Modelers like ChatGPT Affect Occupations and Industries?.](http://arxiv.org/abs/2303.01157) | 本研究使用方法系统评估了职业和行业对人工智能语言建模技术进步的暴露程度，结果发现电话销售员、英语语言和文学、外语和文学、历史等高等教育教师是最受影响的职业，法律服务、证券、商品和投资是最受影响的行业；而工资与暴露度存在正相关关系。 |
+| [^16] | [Necessity of Rational Asset Price Bubbles in Two-Sector Growth Economies.](http://arxiv.org/abs/2211.13100) | 本研究提出了两部门内生增长模型，证明了在宽松的金融条件下理性资产价格泡沫是不可避免的，它存在于具有更快经济增长的多部门经济体中。 |
+| [^17] | [The Sample Complexity of Online Contract Design.](http://arxiv.org/abs/2211.05732) | 本文解决了在线合同设计中一个悬而未决的问题，证明了指数级的$m$个样本就足以学习一个近乎最优的合同。 |
+| [^18] | [Efficient Integrated Volatility Estimation in the Presence of Infinite Variation Jumps via Debiased Truncated Realized Variations.](http://arxiv.org/abs/2209.10128) | 本文提出了一种新的方法，能够高效处理局部行为类似于稳定Lévy过程的跳跃行为的Itô半鞅的波动率估计，该方法基于一个两步去偏误程序，适用于跳跃是无界变化的情况。 |
+| [^19] | [Multi-Asset Bubbles Equilibrium Price Dynamics.](http://arxiv.org/abs/2206.01468) | 本文理论研究了多资产均衡模型中价格泡沫和崩溃形成的问题，推导了不同智能体模型的平均均衡价格动态的存在条件，并指出具有正股息的资产在均衡价格上表现出典型的驼峰泡沫形态。当市场末期出现急剧下跌时，会触发资产的错误估值效应。 |
+| [^20] | [Estimating Nonlinear Network Data Models with Fixed Effects.](http://arxiv.org/abs/2203.15603) | 本文提出一种使用杰克刀程序修正带有个体固定效应的非线性网络数据模型偏差的新方法，可适用于有向和无向网络，对非二元结果变量进行估计，并可用于修正平均效应和反事实结局的估算。 |
+| [^21] | [Ambiguity and Partial Bayesian Updating.](http://arxiv.org/abs/2102.11429) | 本文提出了一种新的贝叶斯更新方法，部分贝叶斯更新(PB)，该方法在可能性判断上设置门槛，对较为可能的先验概率进行更新，较大程度上克服了完全贝叶斯更新和最大似然更新的缺点。 |
+| [^22] | [Analysis of a Dynamic Voluntary Contribution Mechanism Public Good Game.](http://arxiv.org/abs/1807.04621) | 本文提出一种动态的自愿贡献机制的公共物品博弈，分析了其三种结果，即最低收益结果、纳什均衡和社会最优行为。 |
 
 # 详细
 
-[^1]: GPT是GPT：大语言模型对劳动力市场影响的早期研究
+[^1]: 网络日志ARCH模型预测股市波动性
+
+    Network log-ARCH models for forecasting stock market volatility. (arXiv:2303.11064v1 [stat.AP])
+
+    [http://arxiv.org/abs/2303.11064](http://arxiv.org/abs/2303.11064)
+
+    一种新型动态网络自回归条件异方差(ARCH)模型被用于预测美国股市波动率，并利用时间滞后波动率信息和相邻节点的信息提高预测精度，特别适用于高维情况。
+
+    
+
+    本文提出了一种新型的动态网络自回归条件异方差(ARCH)模型，基于时空ARCH模型，用于预测美国股市的波动率。该模型利用时间滞后波动率信息和相邻节点的信息提高了预测精度，特别适用于高维情况。本文比较了该新方法与独立的单变量对数ARCH模型的效果，并量化了由于瞬时网络ARCH效应的改进。
+
+    This paper presents a novel dynamic network autoregressive conditional heteroscedasticity (ARCH) model based on spatiotemporal ARCH models to forecast volatility in the US stock market. To improve the forecasting accuracy, the model integrates temporally lagged volatility information and information from adjacent nodes, which may instantaneously spill across the entire network. The model is also suitable for high-dimensional cases where multivariate ARCH models are typically no longer applicable. We adopt the theoretical foundations from spatiotemporal statistics and transfer the dynamic ARCH model for processes to networks. This new approach is compared with independent univariate log-ARCH models. We could quantify the improvements due to the instantaneous network ARCH effects, which are studied for the first time in this paper. The edges are determined based on various distance and correlation measures between the time series. The performances of the alternative networks' definitions
+    
+[^2]: 国际农产品期货和现货市场的尾部依赖结构和极端风险溢出效应。
+
+    Tail dependence structure and extreme risk spillover effects between the international agricultural futures and spot markets. (arXiv:2303.11030v1 [econ.GN])
+
+    [http://arxiv.org/abs/2303.11030](http://arxiv.org/abs/2303.11030)
+
+    本文研究了国际农产品期货和现货市场的风险溢出效应，结果表明每个农产品期货市场对现货市场都有显著的极端风险溢出效应，而大豆和玉米的下行风险溢出效应显著强于相应的上行风险溢出效应，为制定全球粮食贸易政策提供了理论基础。
+
+    
+
+    本文将Copula-CoVaR方法与ARMA-GARCH-偏态学生t模型相结合，以大豆、玉米、小麦和稻米为例，研究国际农产品期货和现货市场之间的尾部依赖结构和极端风险溢出效应。实证结果表明，四个期货-现货对的尾部依赖结构差异很大，而且每个结构都表现出一定的不对称性。此外，每种农产品的期货市场对现货市场都有显著和稳健的极端风险溢出效应。而且大豆和玉米的下行风险溢出效应显著强于其相应的上行风险溢出效应，而小麦和稻米的两个风险溢出效应之间没有显著的强度差异。本研究为加强全球粮食贸易政策的制定提供了理论基础。
+
+    This paper combines the Copula-CoVaR approach with the ARMA-GARCH-skewed Student-t model to investigate the tail dependence structure and extreme risk spillover effects between the international agricultural futures and spot markets, taking four main agricultural commodities, namely soybean, maize, wheat, and rice as examples. The empirical results indicate that the tail dependence structures for the four futures-spot pairs are quite different, and each of them exhibits a certain degree of asymmetry. In addition, the futures market for each agricultural commodity has significant and robust extreme downside and upside risk spillover effects on the spot market, and the downside risk spillover effects for both soybeans and maize are significantly stronger than their corresponding upside risk spillover effects, while there is no significant strength difference between the two risk spillover effects for wheat, and rice. This study provides a theoretical basis for strengthening global food c
+    
+[^3]: 发布者用户追踪的经济价值
+
+    The Economic Value of User Tracking for Publishers. (arXiv:2303.10906v1 [econ.GN])
+
+    [http://arxiv.org/abs/2303.10906](http://arxiv.org/abs/2303.10906)
+
+    发布者在追踪用户时为广告带来的收益将大幅下降，对大多数发布者来说，用户追踪限制会使价格降低，提供广泛内容的发布者受影响最大。
+
+    
+
+    为了保护用户的在线隐私，监管机构和浏览器越来越限制用户追踪。这种限制对卖广告空间以资助业务、包括内容的发布者有经济影响。根据对111家发行商涉及4200万次广告展示的分析，当用户追踪不可用时，发布者为广告展示所收到的原始价格下降了约60％。在控制用户、广告商和发布者的差异后，这种下降仍然很大，为18％。超过90％的发布者感到当他们无法进行用户追踪时，价格变低。提供广泛内容的发布者（如新闻网站）比提供主题内容的发布者更受用户追踪限制的影响。收集用户浏览历史记录被认为普遍具有侵入性，对发布者的价值微不足道。这些结果证实了保护用户在线隐私将对发布者的经济利益产生重大影响的预测。
+
+    Regulators and browsers increasingly restrict user tracking to protect users privacy online. Such restrictions also have economic implications for publishers that rely on selling advertising space to finance their business, including their content. According to an analysis of 42 million ad impressions related to 111 publishers, when user tracking is unavailable, the raw price paid to publishers for ad impressions decreases by about -60%. After controlling for differences in users, advertisers, and publishers, this decrease remains substantial, at -18%. More than 90% of the publishers realize lower prices when prevented from engaging in user tracking. Publishers offering broad content, such as news websites, suffer more from user tracking restrictions than publishers with thematically focused content. Collecting a users browsing history, perceived as generally intrusive to most users, generates negligible value for publishers. These results affirm the prediction that ensuring user priva
+    
+[^4]: 多维模型中的可分解性与策略无关性
+
+    Decomposability and Strategy-proofness in Multidimensional Models. (arXiv:2303.10889v1 [econ.TH])
+
+    [http://arxiv.org/abs/2303.10889](http://arxiv.org/abs/2303.10889)
+
+    本文证明了在多维混合偏好领域中的策略无关规则可以分解为逐分量策略无关规则，并且在特定条件下，将规则的可分解性与策略无关性融合的偏好领域必须是一个多维混合领域。
+
+    
+
+    我们介绍了一个多维混合偏好领域的概念，该领域是由有限的替代品集合的笛卡尔积组成的。我们研究了在此领域中的策略无关规则，并表明每个这样的规则可以分解为逐分量策略无关规则。更重要的是，我们表明在适当的“丰富性”条件下，调和了规则的可分解性与策略无关性的偏好领域必须是一个多维混合领域。最后，我们确定了可分离性的直观弱化方式，解释了如何在公共物品供应模型中产生多维混合领域。
+
+    We introduce the notion of a multidimensional hybrid preference domain on a (finite) set of alternatives that is a Cartesian product of finitely many components. We study strategy-proof rules on this domain and show that every such rule can be decomposed into component-wise strategy proof rules. More importantly, we show that under a suitable ``richness'' condition, every domain of preferences that reconciles decomposability of rules with strategy-proofness must be a multidimensional hybrid domain. We finally identify an intuitive weakening of separability that explains how a multidimensional hybrid domain may arise in a public goods provision model.
+    
+[^5]: 决策市场中避免使用随机决策规则的投影预测
+
+    Proxy Forecasting to Avoid Stochastic Decision Rules in Decision Markets. (arXiv:2303.10857v1 [cs.GT])
+
+    [http://arxiv.org/abs/2303.10857](http://arxiv.org/abs/2303.10857)
+
+    提出了三种类似于决策市场的机制，采用确定性决策规则，避免了随机决策规则可能导致次优决策的问题。这些机制保持了激励兼容性，并采用代理方法评估预测。
+
+    
+
+    决策中涉及的信息通常是分布的，并由自利代理持有。决策市场可用于聚合信息，但依赖随机决策规则，导致有时必须采取次优行动。本文提出了三种类似于决策市场的机制，但使用确定性决策规则，具有激励兼容性。采用代理方法评估预测，而不是观察到的未来结果。
+
+    Information that is of relevance for decision-making is often distributed, and held by self-interested agents. Decision markets are well-suited mechanisms to elicit such information and aggregate it into conditional forecasts that can be used for decision-making. However, for incentive-compatible elicitation, decision markets rely on stochastic decision rules which entails that sometimes actions have to be taken that have been predicted to be sub-optimal. In this work, we propose three closely related mechanisms that elicit and aggregate information similar to a decision market, but are incentive compatible despite using a deterministic decision rule. Following ideas from peer prediction mechanisms, proxies rather than observed future outcomes are used to score predictions. The first mechanism requires the principal to have her own signal, which is then used as a proxy to elicit information from a group of self-interested agents. The principal then deterministically maps the aggregated
+    
+[^6]: 凯恩斯交叉模型的分岔分析
+
+    Bifurcation analysis of the Keynesian cross model. (arXiv:2303.10835v1 [econ.GN])
+
+    [http://arxiv.org/abs/2303.10835](http://arxiv.org/abs/2303.10835)
+
+    本研究使用凯恩斯交叉模型，通过分析政府支出与经济均衡状态之间的动态关系，分类不同政府支出情况下经济均衡状态的稳定性。结果显示，政府支出对国民经济产生显著的影响。
+
+    
+
+    本文在国民经济的凯恩斯交叉模型中研究了政府支出和经济均衡之间的动态关系。该模型由两个普通微分方程组成，涉及国民收入变化率和消费支出变化率。研究了国民收入与政府支出之间的三种动态关系。本研究旨在通过讨论不同政府支出的情况，对经济均衡状态的稳定性进行分类。此外，基于每种情景下的相图和动态系统的分岔分析，探讨了政府支出对国民经济的影响。
+
+    This study rigorously investigates the Keynesian cross model of a national economy with a focus on the dynamic relationship between government spending and economic equilibrium. The model consists of two ordinary differential equations regarding the rate of change of national income and the rate of consumer spending. Three dynamic relationships between national income and government spending are studied. This study aims to classify the stabilities of equilibrium states for the economy by discussing different cases of government spending. Furthermore, the implication of government spending on the national economy is investigated based on phase portraits and bifurcation analysis of the dynamical system in each scenario.
+    
+[^7]: 重新审视用于监管目的的资本成本的基础
+
+    A Re-Examination of the Foundations of Cost of Capital for Regulatory Purposes. (arXiv:2303.10818v1 [econ.GN])
+
+    [http://arxiv.org/abs/2303.10818](http://arxiv.org/abs/2303.10818)
+
+    本文探讨了监管中存在的资本成本问题，指出了单一资本成本的循环性问题和基于公司债券收益率估计债务成本的不可靠性，并提出了可能的监管改革方向。
+
+    
+
+    在监管程序中，很少有问题比资本成本更加争议。本文正式确认了监管目的的资本成本估计的理论基础。一些常见的监管惯例在理论上缺乏坚实的基础。例如，为受监管企业估计单一的资本成本常常存在循环性问题，特别是在多年监管期间。此外，相关的债务成本不能使用公司债券的到期收益率来估计。我们提出了可能的资本成本监管改革方向。
+
+    In regulatory proceedings, few issues are more hotly debated than the cost of capital. This article formalises the theoretical foundation of cost of capital estimation for regulatory purposes. Several common regulatory practices lack a solid foundation in the theory. For example, the common practice of estimating a single cost of capital for the regulated firm suffers from a circularity problem, especially in the context of a multi-year regulatory period. In addition, the relevant cost of debt cannot be estimated using the yield-to-maturity on a corporate bond. We suggest possible directions for reform of cost of capital practices in regulatory proceedings.
+    
+[^8]: 基于学校的疟疾化学预防是一种提高认知和教育成果的成本效益方法：一项荟萃分析
+
+    School-based malaria chemoprevention as a cost-effective approach to improve cognitive and educational outcomes: a meta-analysis. (arXiv:2303.10684v1 [econ.GN])
+
+    [http://arxiv.org/abs/2303.10684](http://arxiv.org/abs/2303.10684)
+
+    本文荟萃分析了疟疾化学预防对教育成果的影响，发现其在改善学生认知能力方面具有极高成本效益。
+
+    
+
+    目前有限的证据表明，健康干预对认知功能和教育成果的影响很小。本文在两项先前的系统评价基础上进行荟萃分析，探讨疟疾化学预防这一最重要的健康干预对教育成果的影响。我们汇集了来自四个国家的九个研究治疗组（N=4,075）的数据和结果。我们发现，低成本的疟疾化学预防对学生的认知功能有积极影响（Cohen's d = 0.12, 95% CI [0.08, 0.16]）。这些结果表明，疟疾化学预防在提高某些认知技能（如持续注意力）方面具有极高的成本效益。此外，我们使用一种新的公共度量（学习调整发展年限）进行模拟，以比较各种干预措施的成本效益。尽管我们可能期望传统的教育干预措施提供立即的学习收益，但像疟疾预防这样的健康干预措施在教育成果方面具有惊人的成本效益。
+
+    There is limited evidence of health interventions impact on cognitive function and educational outcomes. We build on two prior systematic reviews to conduct a meta-analysis, exploring the effects of one of the most consequential health interventions, malaria chemoprevention, on education outcomes. We pool data from nine study treatment groups (N=4,075) and outcomes across four countries. We find evidence of a positive effect (Cohen's d = 0.12, 95% CI [0.08, 0.16]) on student cognitive function, achieved at low cost. These results show that malaria chemoprevention can be highly cost effective in improving some cognitive skills, such as sustained attention. Moreover, we conduct simulations using a new common metric (learning-adjusted years of development) to compare cost-effectiveness across diverse interventions. While we might expect that traditional education interventions provide an immediate learning gain, health interventions such as malaria prevention can have surprisingly cost-ef
+    
+[^9]: 在多极世界中高效提供公共物品
+
+    Efficient Public Good Provision in a Multipolar World. (arXiv:2303.10514v1 [econ.TH])
+
+    [http://arxiv.org/abs/2303.10514](http://arxiv.org/abs/2303.10514)
+
+    本研究建立了一个具有组、位置不确定性和观察学习的公共物品博弈模型，展示了在固定的时间视野内，自私的玩家之间可以实现全面合作，并发现了各组内的同时高效提供是一个均衡策略。
+
+    
+
+    我们建立了一个具有组、位置不确定性和观察学习的公共物品博弈模型。各组内的贡献是同时进行的，而各组的游戏则是基于过去贡献不完整样本的观察依次进行的。我们展示了在固定的时间视野内，即使是自私的玩家之间也可以实现全面合作。位置不确定性意味着存在一个均衡，即玩家组有条件地合作以期影响后续组玩家的行动。条件合作意味着每个组成员都是关键的，因此各组内的同时高效提供是一个均衡策略。
+
+    We model a public goods game with groups, position uncertainty, and observational learning. Contributions are simultaneous within groups, but groups play sequentially based on their observation of an incomplete sample of past contributions. We show that full cooperation between and within groups is possible with self-interested players on a fixed horizon. Position uncertainty implies the existence of an equilibrium where groups of players conditionally cooperate in the hope of influencing further groups. Conditional cooperation implies that each group member is pivotal, so that efficient simultaneous provision within groups is an equilibrium.
+    
+[^10]: 最低工资对批发和零售价格的影响：基于大麻扫描数据的证据
+
+    Minimum Wage Pass-through to Wholesale and Retail Prices: Evidence from Cannabis Scanner Data. (arXiv:2303.10367v1 [econ.GN])
+
+    [http://arxiv.org/abs/2303.10367](http://arxiv.org/abs/2303.10367)
+
+    本文利用华盛顿州的大麻扫描数据研究了最低工资对批发和零售价格的影响，发现一旦考虑到批发成本效应，零售价格弹性会增加一倍以上。零售商完全转嫁了成本。
+
+    
+
+    越来越多的实证文献发现，企业通过提高零售价将最低工资上涨的成本转嫁给消费者。然而，我们很少了解最低工资对批发价格的影响以及零售商是否面对除劳动成本冲击外的批发成本冲击。本文利用华盛顿州合法的休闲大麻产业的独特市场结构，研究最低工资对批发和零售价格的影响。在一个动态差分差异架构中，利用供应链上60亿美元交易的扫描数据，并利用在2018年至2021年之间六次最低工资的涨幅中企业最低工资曝露的地理差异。当忽略批发成本效应时，我发现零售价格弹性与现有文献一致，但一旦考虑到批发成本效应，零售价格弹性会增加一倍以上。零售利润率不会调整以适应批发成本冲击，表明完全转嫁了成本。
+
+    A growing empirical literature finds that firms pass the cost of minimum wage hikes onto consumers via higher retail prices. Yet, little is known about minimum wage effects on wholesale prices and whether retailers face a wholesale cost shock in addition to the labor cost shock. I exploit the unique market structure of Washington state's legal recreational cannabis industry to investigate minimum wage pass-through to wholesale and retail prices. In a dynamic difference-in-differences framework, I utilize scanner data on $6 billion of transactions across the supply chain and leverage geographic variation in firms' minimum wage exposure across six minimum wage hikes between 2018 and 2021. When ignoring wholesale cost effects, I find retail pass-through elasticities consistent with existing literature -- yet retail pass-through elasticities more than double once wholesale cost effects are accounted for. Retail markups do not adjust to the wholesale cost shock, indicating a full pass-throu
+    
+[^11]: 随机分配回归变量时的标准误分析
+
+    Standard errors when a regressor is randomly assigned. (arXiv:2303.10306v1 [econ.EM])
+
+    [http://arxiv.org/abs/2303.10306](http://arxiv.org/abs/2303.10306)
+
+    研究了回归变量随机分配时OLS估计的方差计算，发现在回归变量与误差项相互独立时，教科书中的方差公式成立，即使误差项与辅助回归变量存在依赖结构，该结论在随机控制试验中适用。当回归变量的异方差和误差项的相关结构均存在时，方差公式需要相应调整。
+
+    
+
+    本文研究OLS估计当回归变量的值随机且独立于其他回归变量时的渐近性质。我们发现在这种情况下，OLS的方差公式通常可以简化，有时甚至可以大幅简化。特别地，当感兴趣的回归变量不仅与其他回归变量独立，而且与误差项也独立时，即使误差项和辅助回归器表现出普遍的依赖结构，教科书中的均方差公式也是有效的。在随机控制试验的背景下，当治疗效应恒定且完全随机分配时，该结论适用。当误差项关于回归变量的异方差时，方差公式不仅必须考虑异方差性，还必须考虑误差项的相关结构。但即使在后一种情况下，也可能存在一些简化。
+
+    We examine asymptotic properties of the OLS estimator when the values of the regressor of interest are assigned randomly and independently of other regressors. We find that the OLS variance formula in this case is often simplified, sometimes substantially. In particular, when the regressor of interest is independent not only of other regressors but also of the error term, the textbook homoskedastic variance formula is valid even if the error term and auxiliary regressors exhibit a general dependence structure. In the context of randomized controlled trials, this conclusion holds in completely randomized experiments with constant treatment effects. When the error term is heteroscedastic with respect to the regressor of interest, the variance formula has to be adjusted not only for heteroscedasticity but also for correlation structure of the error term. However, even in the latter case, some simplifications are possible as only a part of the correlation structure of the error term should
+    
+[^12]: GPT是GPT：大语言模型对劳动力市场影响的早期研究
 
     GPTs are GPTs: An Early Look at the Labor Market Impact Potential of Large Language Models. (arXiv:2303.10130v1 [econ.GN])
 
@@ -33,186 +195,144 @@
 
     We investigate the potential implications of Generative Pre-trained Transformer (GPT) models and related technologies on the U.S. labor market. Using a new rubric, we assess occupations based on their correspondence with GPT capabilities, incorporating both human expertise and classifications from GPT-4. Our findings indicate that approximately 80% of the U.S. workforce could have at least 10% of their work tasks affected by the introduction of GPTs, while around 19% of workers may see at least 50% of their tasks impacted. The influence spans all wage levels, with higher-income jobs potentially facing greater exposure. Notably, the impact is not limited to industries with higher recent productivity growth. We conclude that Generative Pre-trained Transformers exhibit characteristics of general-purpose technologies (GPTs), suggesting that as these models could have notable economic, social, and policy implications.
     
-[^2]: 分组时变网络向量自回归模型的推断
+[^13]: 状态替代和显眼消费
 
-    Inference of Grouped Time-Varying Network Vector Autoregression Models. (arXiv:2303.10117v1 [stat.ME])
+    Status substitution and conspicuous consumption. (arXiv:2303.07008v1 [econ.TH])
 
-    [http://arxiv.org/abs/2303.10117](http://arxiv.org/abs/2303.10117)
+    [http://arxiv.org/abs/2303.07008](http://arxiv.org/abs/2303.07008)
 
-    该论文研究了针对大规模时间序列的时变网络向量自回归模型的统计推断方法，通过引入潜在的群组结构来减少未知系数数量并提出了群组后局部线性平滑方法来提高初步估计的收敛速度，并进行了相应的参数模型检验。
-
-    
-
-    本文考虑针对大规模时间序列的时变网络向量自回归模型的统计推断。在异构和节点特定的时变动量和网络溢出效应中，强加一个潜在的群组结构，以便可以大大减少需要估计的未知时变系数的数量。经过归一化距离矩阵的经典聚类算法结合广义信息准则，来一致地估计潜在的群组数量和群组成员。提出了一种群组后局部线性平滑方法，用于估计群组特定的时变动量和网络效应，从而大大提高了忽略潜在结构的初步估计的收敛速度。此外，还进行了群组后的规格化检验，以验证群组特定的时变系数函数的参数模型假设的有效性，并给出了渐进理论结果。
-
-    This paper considers statistical inference of time-varying network vector autoregression models for large-scale time series. A latent group structure is imposed on the heterogeneous and node-specific time-varying momentum and network spillover effects so that the number of unknown time-varying coefficients to be estimated can be reduced considerably. A classic agglomerative clustering algorithm with normalized distance matrix estimates is combined with a generalized information criterion to consistently estimate the latent group number and membership. A post-grouping local linear smoothing method is proposed to estimate the group-specific time-varying momentum and network effects, substantially improving the convergence rates of the preliminary estimates which ignore the latent structure. In addition, a post-grouping specification test is conducted to verify the validity of the parametric model assumption for group-specific time-varying coefficient functions, and the asymptotic theory 
-    
-[^3]: 多元概率CRPS学习及其在日前电价预测中的应用
-
-    Multivariate Probabilistic CRPS Learning with an Application to Day-Ahead Electricity Prices. (arXiv:2303.10019v1 [stat.ML])
-
-    [http://arxiv.org/abs/2303.10019](http://arxiv.org/abs/2303.10019)
-
-    本文提出一种新的多元概率CRPS学习方法，应用于日前电价预测中，相比于统一组合在CRPS方面取得了显著改进。
+    本文提出了一种新的显眼消费模型，可以解释关于显眼消费的两个特征，即邻居收入上升时人们会消费更多可见商品，但更广泛地理区域内具有相同种族的人的收入上升时，会消费更少的可见商品。此外，本模型还解释了富人对他人收入的敏感程度比穷人更高，而收入不平等对消费的影响在不同群体之间存在质的差异。
 
     
 
-    本文提出了一种考虑分位数和协变量依赖关系的多元概率预测的结合方法，并通过平滑过程允许在线学习。通过维数降低和罚函数平滑等两种平滑方法来将标准CRPS学习框架推广到多元维度中。将该方法应用于预测日前电价，相比于统一组合，在CRPS方面取得了显著改进。
+    本文将社会认同理论的思想应用于建立一种新的显眼消费模型。值得注意的是，这种方法可以解释关于显眼消费的两个特征，这些特征最初似乎相互矛盾，并且迄今为止需要不同的模型来解释每个特征：（1）当邻居的收入上升时，人们会消费更多的可见商品，但是（2）当更广泛地理区域内具有相同种族的人的收入上升时，会消费更少的可见商品。第一个特征通常由“跟上琼斯”的模型来解释，第二个特征则由信号模型来解释。我们的模型还解释了显眼消费的相关特征：富人对他人收入的敏感程度比穷人更高，而收入不平等对消费的影响在不同群体之间存在质的差异。重要的是，它解释了这第四个特征，而不需要像其他模型那样依赖于群体间偏好的差异。
 
-    This paper presents a new method for combining (or aggregating or ensembling) multivariate probabilistic forecasts, taking into account dependencies between quantiles and covariates through a smoothing procedure that allows for online learning. Two smoothing methods are discussed: dimensionality reduction using Basis matrices and penalized smoothing. The new online learning algorithm generalizes the standard CRPS learning framework into multivariate dimensions. It is based on Bernstein Online Aggregation (BOA) and yields optimal asymptotic learning properties. We provide an in-depth discussion on possible extensions of the algorithm and several nested cases related to the existing literature on online forecast combination. The methodology is applied to forecasting day-ahead electricity prices, which are 24-dimensional distributional forecasts. The proposed method yields significant improvements over uniform combination in terms of continuous ranked probability score (CRPS). We discuss 
+    This paper adapts ideas from social identity theory to set out a new framework for modelling conspicuous consumption. Notably, this approach can explain two stylised facts about conspicuous consumption that initially seem at odds with one another, and to date have required different families of models to explain each: (1) people consume more visible goods when their neighbours' incomes rise, but (2) consume less visible goods when incomes of those with the same race in a wider geographic area rise. The first fact is typically explained by `Keeping up with the Joneses' models, and the second by signalling models. Our model also explains related features of conspicuous consumption: that the rich are more sensitive to others' incomes than the poor, and that the effect of income inequality on consumption differs qualitatively across groups. Importantly, it explains this fourth stylised fact without falling back on differences in preferences across groups, as required in other models. In ad
     
-[^4]: 瞬时排名投票中的中和性分析
+[^14]: 惯性更新
 
-    Moderation in instant runoff voting. (arXiv:2303.09734v1 [cs.MA])
+    Inertial Updating. (arXiv:2303.06336v1 [econ.TH])
 
-    [http://arxiv.org/abs/2303.09734](http://arxiv.org/abs/2303.09734)
+    [http://arxiv.org/abs/2303.06336](http://arxiv.org/abs/2303.06336)
 
-    研究证明，相对于传统多数票投票，瞬时排名投票在对称分布的选民偏好条件下具有中和效应，可以避免选出极端候选人。
+    本文提出了一种惯性更新信念的方法，通过改变主观距离的概念，提供了一个统一的框架，嵌套了三种不同类型的信念更新，包括贝叶斯更新、非贝叶斯更新规则和针对概率为零的事件的更新规则。作者证明了该模型等同于假设检验模型，将其应用于一种说服游戏。
 
+    This paper proposes a method of inertial updating of beliefs, which provides a unified framework that nests three different types of belief updating, including Bayesian updating, non-Bayesian updating rules, and updating rules for events with zero probability. The authors demonstrate that the model is behaviorally equivalent to the Hypothesis Testing model and apply it to a persuasion game.
+
+    我们介绍并表征了惯性更新信念。在惯性更新下，决策者（DM）选择一种信念，该信念最小化其先验信念与观察事件一致的信念集之间的主观距离。重要的是，通过改变主观距离的概念，惯性更新提供了一个统一的框架，嵌套了三种不同类型的信念更新：（i）贝叶斯更新，（ii）非贝叶斯更新规则，以及（iii）针对概率为零的事件的更新规则，包括Myerson（1986a，b）的条件概率系统（CPS）。我们证明了我们的模型在行为上等同于Ortoleva（2012）的假设检验模型（HT），澄清了HT和CPS之间的联系。我们将我们的模型应用于一种说服游戏。
+
+    We introduce and characterize inertial updating of beliefs. Under inertial updating, a decision maker (DM) chooses a belief that minimizes the subjective distance between their prior belief and the set of beliefs consistent with the observed event. Importantly, by varying the subjective notion of distance, inertial updating provides a unifying framework that nests three different types of belief updating: (i) Bayesian updating, (ii) non-Bayesian updating rules, and (iii) updating rules for events with zero probability, including the conditional probability system (CPS) of Myerson (1986a,b). We demonstrate that our model is behaviorally equivalent to the Hypothesis Testing model (HT) of Ortoleva (2012), clarifying the connection between HT and CPS. We apply our model to a persuasion game.
     
+[^15]: 语言模型（如ChatGPT）将如何影响职业和行业？
 
-    近年来，瞬时排名投票（IRV）作为传统多数票投票的一种替代方式备受欢迎。支持者声称IRV相对于多数票投票的好处之一是它倾向于中间派：它产生比多数票更为温和的胜者，因此可以成为解决极化问题的有用工具。然而，对于这种说法，很少有理论支持，现有的证据都是基于模拟和案例研究的。在这项工作中，我们在一维欧几里得模型中的选民偏好条件下，证明了IRV相对于传统的多数票投票具有一定的中和效应。我们的结果表明，只要选民的分布是对称的，并且不太集中于极端，IRV就不会选出超过分布尾部某个阈值之外的候选人，而多数票则可能会。对于均匀分布，我们提供了推导出多数票和IRV精确分布的方法。
+    How will Language Modelers like ChatGPT Affect Occupations and Industries?. (arXiv:2303.01157v2 [econ.GN] UPDATED)
 
-    Instant runoff voting (IRV) has gained popularity in recent years as an alternative to traditional plurality voting. Advocates of IRV claim that one of its benefits relative to plurality voting is its tendency toward moderation: that it produces more moderate winners than plurality and could therefore be a useful tool for addressing polarization. However, there is little theoretical backing for this claim, and existing evidence has focused on simulations and case studies. In this work, we prove that IRV has a moderating effect relative to traditional plurality voting in a specific sense, developed in a 1-dimensional Euclidean model of voter preferences. Our results show that as long as voters are symmetrically distributed and not too concentrated at the extremes, IRV will not elect a candidate that is beyond a certain threshold in the tails of the distribution, while plurality can. For the uniform distribution, we provide an approach for deriving the exact distributions of the pluralit
-    
-[^5]: 劳动力迁移模拟中的经济性趋向性
+    [http://arxiv.org/abs/2303.01157](http://arxiv.org/abs/2303.01157)
 
-    Econotaxis in modeling urbanization by labor force migration. (arXiv:2303.09720v1 [nlin.AO])
-
-    [http://arxiv.org/abs/2303.09720](http://arxiv.org/abs/2303.09720)
-
-    本研究提出了一个劳动力迁移模型，通过模拟发现模型可以产生聚集行为，并展现了两个经验规律。更进一步，研究证明了经济性趋向性，这是一种新型人类行为中心的趋向性，可以解释在现实世界中的劳动力聚集现象，这一结论突显了城市化与所导出的PDE系统中的吹起现象的相关性。
-
-    
-
-    本研究采用主动布朗粒子框架，提出了一个简单的劳动力迁移微观模型。通过基于代理的模拟，我们发现我们的模型产生了从随机初始分布中聚集到一起的一群代理。此外，在我们的模型中观察到了Zipf和Okun定律这两个经验规律。为了揭示产生的聚集现象背后的机制，我们从我们的微观模型中导出了一个扩展的Keller-Segel系统。得到的宏观系统表明人力资源在现实世界中的聚集可以通过一种新型人类行为中心的趋向性来解释，这突显了城市化与所导出的PDE系统中的吹起现象的相关性。我们将其称为“经济性趋向性”。
-
-    Individual participants in human society collectively exhibit aggregation behavior. In this study, we present a simple microscopic model of labor force migration by employing the active Brownian particles framework. Through agent-based simulations, we find that our model produces clusters of agents from a random initial distribution. Furthermore, two empirical regularities called Zipf's and Okun's laws were observed in our model. To reveal the mechanism underlying the reproduced agglomeration phenomena, we derived an extended Keller-Segel system, a classic model that describes the aggregation behavior of biological organisms called "taxis," from our microscopic model. The obtained macroscopic system indicates that the agglomeration of the workforce in real world can be accounted for through a new type of taxis central to human behavior, which highlights the relevance of urbanization to blow-up phenomena in the derived PDE system. We term it "econotaxis."
-    
-[^6]: 基于Bootstrap的高维非线性模型渐近细化
-
-    Bootstrap based asymptotic refinements for high-dimensional nonlinear models. (arXiv:2303.09680v1 [econ.EM])
-
-    [http://arxiv.org/abs/2303.09680](http://arxiv.org/abs/2303.09680)
-
-    本文研究了基于SCAD惩罚函数的高维稀疏非线性模型。通过Bootstrap方法，提出了渐近细化的解决方案，可大大减少覆盖概率误差。
+    本研究使用方法系统评估了职业和行业对人工智能语言建模技术进步的暴露程度，结果发现电话销售员、英语语言和文学、外语和文学、历史等高等教育教师是最受影响的职业，法律服务、证券、商品和投资是最受影响的行业；而工资与暴露度存在正相关关系。
 
     
 
-    本文考虑了一种高维可能非线性、稀疏的惩罚极值估计模型，其中大部分参数为零。使用SCAD惩罚函数，其在适当条件下提供了模型选择一致和oracle效率估计。然而，在许多应用中，基于oracle模型的渐近近似可能会出现样本量不准确的情况。本文给出了条件，证明了基于SCAD惩罚阈值估计的Bootstrap方法提供了对称假设检验（置信区间）中拒绝（覆盖）概率误差O（n^{-2}）和单侧或双侧检验（置信区间）中的拒绝（覆盖）概率误差O（n^{-1}）的渐近细化。蒙特卡罗实验结果表明，Bootstrap可以大大减少覆盖概率误差。
+    最近人工智能语言建模能力的急剧提高引发了关于这些技术对经济的影响的许多问题。在本文中，我们提出了一种方法来系统评估职业、行业和地域对人工智能语言建模能力进步的暴露程度。我们发现，最受语言建模影响的职业包括电话销售员和各种高等教育教师，例如英语语言和文学、外语和文学以及历史教师。我们发现，最受语言建模影响的行业是法律服务和证券、商品和投资。我们还发现，工资与人工智能语言建模暴露度之间存在正相关关系。
 
-    We consider penalized extremum estimation of a high-dimensional, possibly nonlinear model that is sparse in the sense that most of its parameters are zero but some are not. We use the SCAD penalty function, which provides model selection consistent and oracle efficient estimates under suitable conditions. However, asymptotic approximations based on the oracle model can be inaccurate with the sample sizes found in many applications. This paper gives conditions under which the bootstrap, based on estimates obtained through SCAD penalization with thresholding, provides asymptotic refinements of size \(O \left( n^{- 2} \right)\) for the error in the rejection (coverage) probability of a symmetric hypothesis test (confidence interval) and \(O \left( n^{- 1} \right)\) for the error in rejection (coverage) probability of a one-sided or equal tailed test (confidence interval). The results of Monte Carlo experiments show that the bootstrap can provide large reductions in errors in coverage prob
+    Recent dramatic increases in AI language modeling capabilities has led to many questions about the effect of these technologies on the economy. In this paper we present a methodology to systematically assess the extent to which occupations, industries and geographies are exposed to advances in AI language modeling capabilities. We find that the top occupations exposed to language modeling include telemarketers and a variety of post-secondary teachers such as English language and literature, foreign language and literature, and history teachers. We find the top industries exposed to advances in language modeling are legal services and securities, commodities, and investments. We also find a positive correlation between wages and exposure to AI language modeling.
     
-[^7]: 动态信息提供：褒奖过去，引领未来
+[^16]: 两部门增长经济体中理性资产价格泡沫的必要性。
 
-    Dynamic Information Provision: Rewarding the Past and Guiding the Future. (arXiv:2303.09675v1 [econ.TH])
+    Necessity of Rational Asset Price Bubbles in Two-Sector Growth Economies. (arXiv:2211.13100v4 [econ.TH] UPDATED)
 
-    [http://arxiv.org/abs/2303.09675](http://arxiv.org/abs/2303.09675)
+    [http://arxiv.org/abs/2211.13100](http://arxiv.org/abs/2211.13100)
 
-    本文解决了长期关系下发件人与收件人间信息提供的最优策略，这一策略褒奖过去，引领未来。
-
-    
-
-    本文研究了一个信息长期关系中发件人和收件人之间的最优信息提供。发件人观察一个持久且不断发展的状态，并承诺与时间推移而发送信号给收件人，后者顺序选择影响两个玩家福利的公共行动。我通过封闭形式求解了发件人的最优政策：发件人用逐渐缩小并最终消失的延迟报告状态的值。即使收件人知道当前状态，发件人通过威胁隐瞒状态未来的演变来保持影响力。
-
-    I study the optimal provision of information in a long-term relationship between a sender and a receiver. The sender observes a persistent, evolving state and commits to send signals over time to the receiver, who sequentially chooses public actions that affect the welfare of both players. I solve for the sender's optimal policy in closed form: the sender reports the value of the state with a delay that shrinks over time and eventually vanishes. Even when the receiver knows the current state, the sender retains leverage by threatening to conceal the future evolution of the state.
-    
-[^8]: 使用比例代表制方法替代股票交易所中基于比例分配顺序的匹配算法的研究
-
-    On Using Proportional Representation Methods as Alternatives to Pro-Rata Based Order Matching Algorithms in Stock Exchanges. (arXiv:2303.09652v1 [econ.GN])
-
-    [http://arxiv.org/abs/2303.09652](http://arxiv.org/abs/2303.09652)
-
-    研究发现，选举制度中的比例代表方法可以替代股票交易所中的按比例分配顺序的匹配算法，提供更接近比例分配的订单分配。
+    本研究提出了两部门内生增长模型，证明了在宽松的金融条件下理性资产价格泡沫是不可避免的，它存在于具有更快经济增长的多部门经济体中。
 
     
 
-    本短文的主要观察是，用于确定选举制度中比例代表的方法可以作为替代股票交易所中使用的按比例分配订单的匹配算法的选择。我们的模拟研究强有力地证明，杰斐逊/德汉特和韦伯斯特/圣拉格比例代表方法提供的订单分配比按比例分配算法获得的订单分配更接近比例分配。
+    我们提出了合理的经济模型，其中存在具有理性资产价格泡沫的均衡，但资产价格等于基本价值的均衡不存在。这些经济体具有比股利增长更快的多个部门的增长。在我们的两部门内生增长模型中，创业者可以获得受特异性投资风险（技术部门）影响的生产技术，并交易支付股息的资产（土地）。当杠杆超过临界值时，唯一的趋势稳态均衡表现出从基本状态到具有增长的泡沫状态的相变，这意味着在宽松的金融条件下泡沫的不可避免性。
 
-    The main observation of this short note is that methods for determining proportional representation in electoral systems may be suitable as alternatives to the pro-rata order matching algorithm used in stock exchanges. Our simulation studies provide strong evidence that the Jefferson/D'Hondt and the Webster/Saint-Lagu\"{e} proportional representation methods provide order allocations which are closer to proportionality than the order allocations obtained from the pro-rata algorithm.
+    We present plausible economic models in which an equilibrium with rational asset price bubbles exists but equilibria with asset prices equal to fundamental values do not. These economies feature multiple sectors with faster economic growth than dividend growth. In our two-sector endogenous growth model, entrepreneurs have access to a production technology subject to idiosyncratic investment risk (tech sector) and trade a dividend-paying asset (land). When leverage is relaxed beyond a critical value, the unique trend stationary equilibrium exhibits a phase transition from the fundamental regime to the bubbly regime with growth, implying the inevitability of bubbles with loose financial conditions.
     
-[^9]: Mr. Keynes和复杂性！一种建议的基于代理的就业，利率和货币总论的版本。
+[^17]: 在线合同设计的样本复杂度
 
-    Mr.Keynes and the... Complexity! A suggested agent-based version of the General Theory of Employment, Interest and Money. (arXiv:2303.00889v2 [econ.TH] UPDATED)
+    The Sample Complexity of Online Contract Design. (arXiv:2211.05732v2 [cs.GT] UPDATED)
 
-    [http://arxiv.org/abs/2303.00889](http://arxiv.org/abs/2303.00889)
+    [http://arxiv.org/abs/2211.05732](http://arxiv.org/abs/2211.05732)
 
-    本文提出了一种基于代理的宏观经济模型，旨在遵循凯恩斯的《失业、利率和货币的一般理论》，通过确定收入和就业水平来确定资本边际效益和倾向于消费的边际倾向。
-
-    
-
-    本文提出了一个模型，旨在尽可能地遵循J.M.凯恩斯在他著名的《失业、利率和货币的一般理论》中提出的宏观经济模型的基本原理，以提供一个可行的宏观经济研究工具。将展示凯恩斯的主要成果，即从资本边际效益和倾向于消费的边际倾向开始，在给定利率的情况下确定收入和就业水平。模型的要素将通过参考原始文本进行描述。模型操作中的顺序性将证明在描述宏观经济系统的复杂性时必不可少。
-
-    This paper presents a model with the aim to follow, as closely as possible, the rationale of the macroeconomic model advanced by J.M. Keynes in his famous "The General Theory of Unemployment, Interest and Money", in order to provide a viable tool for macroeconomic research. Keynes' main result will be shown, i.e., to determine the level of income and employment starting from the marginal efficiency of capital and the marginal propensity to consume, given the interest rate. Elements of the model will be described by referring to the original text. The sequentiality in model operation will prove quintessential in order to describe the complex nature of macroeconomic systems.
-    
-[^10]: 使用新型代理收缩先验估计财政政策效应
-
-    Estimating the Effects of Fiscal Policy using a Novel Proxy Shrinkage Prior. (arXiv:2302.13066v2 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2302.13066](http://arxiv.org/abs/2302.13066)
-
-    本文提出了一种新型代理收缩先验方法，能够在不依赖于代理变量有效性的强烈假设的情况下，估计财政政策冲击的效应。研究发现，增加政府支出比减税更有效地刺激经济，并构建了新的外生代理变量，可以用于传统的代理VAR方法中，与代理收缩模型的结果相似。
+    本文解决了在线合同设计中一个悬而未决的问题，证明了指数级的$m$个样本就足以学习一个近乎最优的合同。
 
     
 
-    在财政政策结构向量自回归中，不同的代理变量会得出冲突的结论，意味着某些外生性假设可能无法满足。我们将数据驱动识别与新型代理收缩先验相结合，使我们能够在不依赖于代理变量有效性的强烈假设的情况下估计财政政策冲击的效应。我们的研究结果表明，增加政府支出是刺激经济的更有效工具比减税。此外，我们提供证据表明，文献中常用的代理变量与结构性冲击具有内生相关性，这导致估计结果存在偏差。我们构建了新的外生代理变量，可以用于传统的代理 VAR 方法中，结果与我们的代理收缩模型相似。
+    本文研究在线情境下的隐藏-行动委托问题。在每轮中，委托人发布一份合同，根据每个结果规定代理人的支付。代理人然后做出一个最大化她自己效用的战略行动选择，但直接观察不到行动。委托人观察结果并从代理人的行动选择中获得效用。根据过去的观察，委托人动态地调整合同，目标是最大化其效用。我们引入了一种在线学习算法，并给出了其Stackelberg遗憾的上界。我们证明，在合同空间为$[0,1]^m$时，Stackelberg遗憾的上界为$\widetilde O(\sqrt{m} \cdot T^{1-1/(2m+1)})$，下界为$\Omega(T^{1-1/(m+2)})$，其中$\widetilde O$排除对数因子。 这个结果表明，指数级的$m$个样本就足以学习一个近乎最优的合同，解决了在线合同设计中的一个悬而未决的问题。
 
-    Different proxy variables commonly used in fiscal policy SVARs lead to contradicting conclusions implying that some of the exogeneity assumptions may not be fulfilled. We combine data-driven identification with a novel proxy shrinkage prior which enables us to estimate the effects of fiscal policy shocks without relying on strong assumptions about the validity of the proxy variables. Our results suggest that increasing government spending is a more effective tool to stimulate the economy than reducing taxes. Additionally, we provide evidence that the commonly used proxies in the literature are endogenously related to the structural shocks which leads to biased estimates. We construct new exogenous proxies that can be used in the traditional proxy VAR approach resulting in similar estimates compared to our proxy shrinkage model.
+    We study the hidden-action principal-agent problem in an online setting. In each round, the principal posts a contract that specifies the payment to the agent based on each outcome. The agent then makes a strategic choice of action that maximizes her own utility, but the action is not directly observable by the principal. The principal observes the outcome and receives utility from the agent's choice of action. Based on past observations, the principal dynamically adjusts the contracts with the goal of maximizing her utility.  We introduce an online learning algorithm and provide an upper bound on its Stackelberg regret. We show that when the contract space is $[0,1]^m$, the Stackelberg regret is upper bounded by $\widetilde O(\sqrt{m} \cdot T^{1-1/(2m+1)})$, and lower bounded by $\Omega(T^{1-1/(m+2)})$, where $\widetilde O$ omits logarithmic factors. This result shows that exponential-in-$m$ samples are sufficient and necessary to learn a near-optimal contract, resolving an open probl
     
-[^11]: 自我渐进选择理论的基础
+[^18]: 利用去偏截断实现波动率估计处理无限变化跳跃的高效方法。
 
-    Foundations of self-progressive choice theories. (arXiv:2212.13449v4 [econ.TH] UPDATED)
+    Efficient Integrated Volatility Estimation in the Presence of Infinite Variation Jumps via Debiased Truncated Realized Variations. (arXiv:2209.10128v2 [econ.EM] UPDATED)
 
-    [http://arxiv.org/abs/2212.13449](http://arxiv.org/abs/2212.13449)
+    [http://arxiv.org/abs/2209.10128](http://arxiv.org/abs/2209.10128)
 
-    该论文讨论了自我渐进选择理论及其与代数结构和超模函数的等价性，并将分析扩展到普遍自我渐进的选择理论。
-
-    
-
-    考虑一个由许多代理人组成的群体，他们的选择行为可以根据给定的原始排序部分进行比较。在该群体中可接受的选择函数集合确定了一个选择理论。如果与理论一致的任何集体选择行为都可以表示为可比较的可接受选择函数上的概率分布，则该选择理论是自我渐进的。 我们证明了自我渐进选择理论和（i）称为格的众所周知的代数结构；（ii）特定领域内的超模函数的最大化者之间的等价性。我们将分析扩展到普遍自我渐进的选择理论，这些选择理论独立于原始排序给出了唯一的有序代表。
-
-    Consider a population of agents whose choice behaviors are partially comparable according to given primitive orderings. The set of choice functions admissible in the population specifies a choice theory. A choice theory is self-progressive if any aggregate choice behavior consistent with the theory is uniquely representable as a probability distribution over admissible choice functions that are comparable. We establish an equivalence between self-progressive choice theories and (i) well-known algebraic structures called lattices; (ii) the maximizers of supermodular functions over a specific domain of choice functions. We extend our analysis to universally self-progressive choice theories which render unique orderly representations independent of primitive orderings.
-    
-[^12]: 可观测完美均衡 (Observable Perfect Equilibrium)
-
-    Observable Perfect Equilibrium. (arXiv:2210.16506v5 [cs.GT] UPDATED)
-
-    [http://arxiv.org/abs/2210.16506](http://arxiv.org/abs/2210.16506)
-
-    本文提出一种新的博弈均衡概念——可观测完美均衡，在顺序不完全信息博弈中可以帮助创建真正的策略代理。这种均衡概念在公开观察的行动概率方面具有鲁棒性。
+    本文提出了一种新的方法，能够高效处理局部行为类似于稳定Lévy过程的跳跃行为的Itô半鞅的波动率估计，该方法基于一个两步去偏误程序，适用于跳跃是无界变化的情况。
 
     
 
-    尽管纳什均衡成为了博弈论的核心解决方案概念，许多重要的博弈包含多个纳什均衡，我们必须确定如何在其中选择，以创建真正的策略代理。为顺序不完全信息博弈提出了几个纳什均衡细化概念，其中最突出的是颤抖手完美均衡、拟完美均衡和最近提出的单侧拟完美均衡。这些概念对某些任意小的错误具有鲁棒性，并保证始终存在。但我们认为，对于发展顺序不完全信息博弈中强大的代理人，这些概念都不正确。我们为游戏树中提出了一种新的均衡概念——可观测完美均衡，在其中，解决方案在公开观察的行动概率方面具有鲁棒性（并不一定针对所有可能不可观察的行动概率具有鲁棒性）。
+    基于高频观测的随机过程的统计推断已经是一个活跃的研究领域超过二十年了。其中一个最为著名和广泛研究的问题是估计带跳跃分量的Itô半鞅的二次变化量。在跳跃分量是有界变化的情况下，文献中已经提出了几种速率和方差高效的估计器。然而，到目前为止，几乎没有方法可以处理无界变化的跳跃。通过开发某些局部稳定Lévy过程的截断矩的新的高阶展开，我们为一类Itô半鞅构建了一种新的速率和方差高效的波动率估计器，其中跳跃行为在局部上类似于Blumenthal-Getoor指数为$Y\in(1,8/5)$（因此是无界变化的）的稳定Lévy过程。所提出的方法基于一个两步的去偏误程序，用于该过程的截断实现的二次变化量。
 
-    While Nash equilibrium has emerged as the central game-theoretic solution concept, many important games contain several Nash equilibria and we must determine how to select between them in order to create real strategic agents. Several Nash equilibrium refinement concepts have been proposed and studied for sequential imperfect-information games, the most prominent being trembling-hand perfect equilibrium, quasi-perfect equilibrium, and recently one-sided quasi-perfect equilibrium. These concepts are robust to certain arbitrarily small mistakes, and are guaranteed to always exist; however, we argue that neither of these is the correct concept for developing strong agents in sequential games of imperfect information. We define a new equilibrium refinement concept for extensive-form games called observable perfect equilibrium in which the solution is robust over trembles in publicly-observable action probabilities (not necessarily over all action probabilities that may not be observable by
+    Statistical inference for stochastic processes based on high-frequency observations has been an active research area for more than two decades. One of the most well-known and widely studied problems is the estimation of the quadratic variation of the continuous component of an It\^o semimartingale with jumps. Several rate- and variance-efficient estimators have been proposed in the literature when the jump component is of bounded variation. However, to date, very few methods can deal with jumps of unbounded variation. By developing new high-order expansions of the truncated moments of a locally stable L\'evy process, we construct a new rate- and variance-efficient volatility estimator for a class of It\^o semimartingales whose jumps behave locally like those of a stable L\'evy process with Blumenthal-Getoor index $Y\in (1,8/5)$ (hence, of unbounded variation). The proposed method is based on a two-step debiasing procedure for the truncated realized quadratic variation of the process. O
     
-[^13]: 二元结果模型中的同时性及其在夫妻就业中的应用
+[^19]: 多资产泡沫均衡价格动力学
 
-    Simultaneity in Binary Outcome Models with an Application to Employment for Couples. (arXiv:2207.07343v2 [econ.EM] UPDATED)
+    Multi-Asset Bubbles Equilibrium Price Dynamics. (arXiv:2206.01468v6 [q-fin.TR] UPDATED)
 
-    [http://arxiv.org/abs/2207.07343](http://arxiv.org/abs/2207.07343)
+    [http://arxiv.org/abs/2206.01468](http://arxiv.org/abs/2206.01468)
 
-    本文研究了施密特提出的二元联立模型在动态面板数据版本下的应用，发现夫妻就业关系的依赖程度因夫妻的族裔构成而异。
-
-    
-
-    彼得·施密特在计量经济学发展中做出了许多贡献，其中包括引入联立logit模型以及研究短面板下动态线性固定效应面板数据模型的估计方法。本文研究了施密特和斯特劳斯（1975）引入的二元模型的动态面板数据版本，该模型允许滞后的因变量和固定效应，类似于安和施密特（1995）的模型。我们将条件似然方法与矩估计方法相结合，得出了模型的估计策略。我们将这种估计策略应用于夫妻就业关系的简单模型中。我们的主要结论是，在考虑未观测到的家庭特定异质性的情况下，夫妻之间的就业依赖关系因夫妻的族裔构成而异。
-
-    Two of Peter Schmidt's many contributions to econometrics have been to introduce a simultaneous logit model for bivariate binary outcomes and to study estimation of dynamic linear fixed effects panel data models using short panels. In this paper, we study a dynamic panel data version of the bivariate model introduced in Schmidt and Strauss (1975) that allows for lagged dependent variables and fixed effects as in Ahn and Schmidt (1995). We combine a conditional likelihood approach with a method of moments approach to obtain an estimation strategy for the resulting model. We apply this estimation strategy to a simple model for the intra-household relationship in employment. Our main conclusion is that the within-household dependence in employment differs significantly by the ethnicity composition of the couple even after one allows for unobserved household specific heterogeneity.
-    
-[^14]: 带有非可忽略簇大小的群集随机实验推断
-
-    Inference for Cluster Randomized Experiments with Non-ignorable Cluster Sizes. (arXiv:2204.08356v4 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2204.08356](http://arxiv.org/abs/2204.08356)
-
-    本文讨论了当簇大小非可忽略时，群集随机实验的推断问题，并提供方法用于识别平均权重簇水平治疗效应和大小加权簇水平治疗效应这两个参数。
+    本文理论研究了多资产均衡模型中价格泡沫和崩溃形成的问题，推导了不同智能体模型的平均均衡价格动态的存在条件，并指出具有正股息的资产在均衡价格上表现出典型的驼峰泡沫形态。当市场末期出现急剧下跌时，会触发资产的错误估值效应。
 
     
 
-    本文考虑了当簇大小是非可忽略的时，群集随机实验的推断问题。在这里，群集随机实验是指治疗在群集级别分配的实验。非可忽略的簇大小意味着“大”簇和“小”簇可能是异质的，特别地，治疗效应可能因簇大小不同而异。为了允许这种灵活性，我们考虑了一个簇大小本身是随机的抽样框架。我们分别区分了两个不同的感兴趣的参数：平均权重簇水平治疗效应和大小加权簇水平治疗效应。对于每个参数，我们提供了推断方法，其中聚类数呈指数增长。
+    本文在一个双资产均衡模型中，理论研究了价格泡沫和崩溃过程的形成。推导了不同基于智能体的模型的平均均衡价格动态的存在的充分必要条件，其中代理人根据因子和投资交易策略进行区分。与实验结果一致，我们表明，具有正平均股息的资产（即，具有严格下降的基本价值）在均衡价格上显示出实验资产市场中典型的驼峰形泡沫。此外，当市场末期出现急剧的价格下跌时，引发了具有恒定基本价值的资产以及显示价格泡沫形状的其他资产的错误评估效应。
 
-    This paper considers the problem of inference in cluster randomized experiments when cluster sizes are non-ignorable. Here, by a cluster randomized experiment, we mean one in which treatment is assigned at the level of the cluster; by non-ignorable cluster sizes we mean that "large'' clusters and "small'' clusters may be heterogeneous, and, in particular, the effects of the treatment may vary across clusters of differing sizes. In order to permit this sort of flexibility, we consider a sampling framework in which cluster sizes themselves are random. In this way, our analysis departs from earlier analyses of cluster randomized experiments in which cluster sizes are treated as non-random. We distinguish between two different parameters of interest: the equally-weighted cluster-level average treatment effect, and the size-weighted cluster-level average treatment effect. For each parameter, we provide methods for inference in an asymptotic framework where the number of clusters tends to in
+    The price-bubble and crash process formation is theoretically investigated in a two-asset equilibrium model. Sufficient and necessary conditions are derived for the existence of average equilibrium price dynamics of different agent-based models, where agents are distinguished in terms of factor and investment trading strategies. In line with experimental results, we show that assets with a positive average dividend, i.e., with a strictly declining fundamental value, display at the equilibrium price the typical hump-shaped bubble observed in experimental asset markets. Moreover, a misvaluation effect is observed in the asset with a constant fundamental value, triggered by the other asset that displays the price bubble shape when a sharp price decline is exhibited at the end of the market.
+    
+[^20]: 修正带有固定效应的非线性网络数据模型的估计方法
+
+    Estimating Nonlinear Network Data Models with Fixed Effects. (arXiv:2203.15603v2 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2203.15603](http://arxiv.org/abs/2203.15603)
+
+    本文提出一种使用杰克刀程序修正带有个体固定效应的非线性网络数据模型偏差的新方法，可适用于有向和无向网络，对非二元结果变量进行估计，并可用于修正平均效应和反事实结局的估算。
+
+    
+
+    本论文提出一种新的方法来修正带有特定个体的固定特征的二元模型——其中包括同质性和度异质性的二元链接形成模型的偏差。所提出的方法使用了杰克刀（jackknife）程序来处理关于偶然参数的问题。该方法可应用于有向和无向网络，并且允许使用非二元结果变量，并可用于修正平均效应和反事实结局的估计。作者还展示了如何使用杰克刀来纠正对多个节点的固定效应平均值的偏差，例如三元组或四元组。最后，作者在一个关于跨国进出口关系的引力模型的应用中展示了该估计器的实用性。
+
+    I introduce a new method for bias correction of dyadic models with agent-specific fixed-effects, including the dyadic link formation model with homophily and degree heterogeneity. The proposed approach uses a jackknife procedure to deal with the incidental parameters problem. The method can be applied to both directed and undirected networks, allows for non-binary outcome variables, and can be used to bias correct estimates of average effects and counterfactual outcomes. I also show how the jackknife can be used to bias-correct fixed effect averages over functions that depend on multiple nodes, e.g. triads or tetrads in the network. As an example, I implement specification tests for dependence across dyads, such as reciprocity or transitivity. Finally, I demonstrate the usefulness of the estimator in an application to a gravity model for import/export relationships across countries.
+    
+[^21]: 歧义与部分贝叶斯更新
+
+    Ambiguity and Partial Bayesian Updating. (arXiv:2102.11429v3 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2102.11429](http://arxiv.org/abs/2102.11429)
+
+    本文提出了一种新的贝叶斯更新方法，部分贝叶斯更新(PB)，该方法在可能性判断上设置门槛，对较为可能的先验概率进行更新，较大程度上克服了完全贝叶斯更新和最大似然更新的缺点。
+
+    
+
+    先前对于先验集的更新模型要么不允许决策者推断自己的先验概率（完全贝叶斯更新或FB），要么需要极高的选择（最大似然更新或ML）。我描述了一种一般的先验更新方法，部分贝叶斯更新（PB），其中（i）决策者利用事件相关的阈值来确定先验概率的可能性，以观察到的信息为条件，然后（ii）对于足够可能的先验概率应用贝叶斯规则。我证明了PB嵌套了FB和ML，并探讨了它的行为特性。
+
+    Models of updating a set of priors either do not allow a decision maker to make inference about her priors (full bayesian updating or FB) or require an extreme degree of selection (maximum likelihood updating or ML). I characterize a general method for updating a set of priors, partial bayesian updating (PB), in which the decision maker (i) utilizes an event-dependent threshold to determine whether a prior is likely enough, conditional on observed information, and then (ii) applies Bayes' rule to the sufficiently likely priors. I show that PB nests FB and ML and explore its behavioral properties.
+    
+[^22]: 动态自愿贡献机制的公共物品博弈分析
+
+    Analysis of a Dynamic Voluntary Contribution Mechanism Public Good Game. (arXiv:1807.04621v2 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/1807.04621](http://arxiv.org/abs/1807.04621)
+
+    本文提出一种动态的自愿贡献机制的公共物品博弈，分析了其三种结果，即最低收益结果、纳什均衡和社会最优行为。
+
+    
+
+    本文提出了一种动态的自愿贡献机制的公共物品博弈，并推导了其潜在结果。在每个周期中，玩家通过进行昂贵的投资来内生地确定贡献生产率。贡献生产率从一个时期延续到另一个时期，形成了一种动态联系。投资类似于投资于科技股票，用以生产公共物品，例如国防或清洁环境。在投资之后，玩家决定贡献多少剩余资金用于提供公共物品，就像传统的公共物品博弈一样。本文分析了游戏的三种结果：最低收益结果，纳什均衡和社会最优行为。在最低收益结果中，所有玩家收益为零。当玩家投入任何金额并根据贡献生产率全部或全部不贡献时，纳什均衡发生。因此，存在无穷多的纳什均衡策略。
+
+    I present a dynamic, voluntary contribution mechanism, public good game and derive its potential outcomes. In each period, players endogenously determine contribution productivity by engaging in costly investment. The level of contribution productivity carries from period to period, creating a dynamic link between periods. The investment mimics investing in the stock of technology for producing public goods such as national defense or a clean environment. After investing, players decide how much of their remaining money to contribute to provision of the public good, as in traditional public good games. I analyze three kinds of outcomes of the game: the lowest payoff outcome, the Nash Equilibria, and socially optimal behavior. In the lowest payoff outcome, all players receive payoffs of zero. Nash Equilibrium occurs when players invest any amount and contribute all or nothing depending on the contribution productivity. Therefore, there are infinitely many Nash Equilibria strategies. Fin
     
 

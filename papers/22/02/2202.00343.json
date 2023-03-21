@@ -1,0 +1,12 @@
+{
+    "title": "Interactive configurator with FO(.) and IDP-Z3. (arXiv:2202.00343v3 [cs.LO] UPDATED)",
+    "abstract": "Industry abounds with interactive configuration problems, i.e., constraint solving problems interactively solved by persons with the assistance of a computer. The computer program, called a configurator, needs to perform a variety of reasoning tasks with the (often incomplete) information that the user provides. Imperative programming approaches make such systems difficult to implement and maintain. Knowledge-based configurators have been proposed to help engineers solve such problems, but many challenges remain.  We present IDP-Z3, a new reasoning engine for the FO(.) KR language, and we report on its use for building configurators automatically from a knowledge base.",
+    "link": "http://arxiv.org/abs/2202.00343",
+    "context": "Title: Interactive configurator with FO(.) and IDP-Z3. (arXiv:2202.00343v3 [cs.LO] UPDATED)\nAbstract: Industry abounds with interactive configuration problems, i.e., constraint solving problems interactively solved by persons with the assistance of a computer. The computer program, called a configurator, needs to perform a variety of reasoning tasks with the (often incomplete) information that the user provides. Imperative programming approaches make such systems difficult to implement and maintain. Knowledge-based configurators have been proposed to help engineers solve such problems, but many challenges remain.  We present IDP-Z3, a new reasoning engine for the FO(.) KR language, and we report on its use for building configurators automatically from a knowledge base.",
+    "path": "papers/22/02/2202.00343.json",
+    "total_tokens": 703,
+    "translated_title": "带有FO(.)和IDP-Z3的交互式配置器",
+    "translated_abstract": "交互式配置问题在工业中普遍存在，即计算机辅助下由人们交互地解决的约束求解问题。所谓的配置程序需要根据用户提供的（通常是不完整的）信息执行各种推理任务。采用命令式编程方法使得实现和维护此类系统变得十分困难。已经提出了基于知识的配置程序来帮助工程师解决此类问题，但仍面临着许多挑战。我们提出了IDP-Z3，这是一种适用于FO(.)知识表示语言的新的推理引擎，并报告了它在从知识库中自动构建配置程序方面的应用。",
+    "tldr": "本文介绍了一种新的推理引擎IDP-Z3，它适用于FO(.)知识表示语言，并应用于自动构建基于知识的交互式配置器。",
+    "en_tdlr": "This paper introduces a new reasoning engine IDP-Z3 that is suitable for the FO(.) KR language and applied to automatically construct knowledge-based interactive configurators."
+}

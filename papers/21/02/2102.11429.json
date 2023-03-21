@@ -1,0 +1,12 @@
+{
+    "title": "Ambiguity and Partial Bayesian Updating. (arXiv:2102.11429v3 [econ.TH] UPDATED)",
+    "abstract": "Models of updating a set of priors either do not allow a decision maker to make inference about her priors (full bayesian updating or FB) or require an extreme degree of selection (maximum likelihood updating or ML). I characterize a general method for updating a set of priors, partial bayesian updating (PB), in which the decision maker (i) utilizes an event-dependent threshold to determine whether a prior is likely enough, conditional on observed information, and then (ii) applies Bayes' rule to the sufficiently likely priors. I show that PB nests FB and ML and explore its behavioral properties.",
+    "link": "http://arxiv.org/abs/2102.11429",
+    "context": "Title: Ambiguity and Partial Bayesian Updating. (arXiv:2102.11429v3 [econ.TH] UPDATED)\nAbstract: Models of updating a set of priors either do not allow a decision maker to make inference about her priors (full bayesian updating or FB) or require an extreme degree of selection (maximum likelihood updating or ML). I characterize a general method for updating a set of priors, partial bayesian updating (PB), in which the decision maker (i) utilizes an event-dependent threshold to determine whether a prior is likely enough, conditional on observed information, and then (ii) applies Bayes' rule to the sufficiently likely priors. I show that PB nests FB and ML and explore its behavioral properties.",
+    "path": "papers/21/02/2102.11429.json",
+    "total_tokens": 719,
+    "translated_title": "歧义与部分贝叶斯更新",
+    "translated_abstract": "先前对于先验集的更新模型要么不允许决策者推断自己的先验概率（完全贝叶斯更新或FB），要么需要极高的选择（最大似然更新或ML）。我描述了一种一般的先验更新方法，部分贝叶斯更新（PB），其中（i）决策者利用事件相关的阈值来确定先验概率的可能性，以观察到的信息为条件，然后（ii）对于足够可能的先验概率应用贝叶斯规则。我证明了PB嵌套了FB和ML，并探讨了它的行为特性。",
+    "tldr": "本文提出了一种新的贝叶斯更新方法，部分贝叶斯更新(PB)，该方法在可能性判断上设置门槛，对较为可能的先验概率进行更新，较大程度上克服了完全贝叶斯更新和最大似然更新的缺点。",
+    "en_tdlr": "This paper proposes a new Bayesian updating method, Partial Bayesian Updating (PB), which sets a threshold for probability judgement to update the sufficiently likely priors, and overcomes the drawbacks of Full Bayesian Updating and Maximum Likelihood Updating."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Concentration inequalities and optimal number of layers for stochastic deep neural networks. (arXiv:2206.11241v4 [cs.LG] UPDATED)",
+    "abstract": "We state concentration inequalities for the output of the hidden layers of a stochastic deep neural network (SDNN), as well as for the output of the whole SDNN. These results allow us to introduce an expected classifier (EC), and to give probabilistic upper bound for the classification error of the EC. We also state the optimal number of layers for the SDNN via an optimal stopping procedure. We apply our analysis to a stochastic version of a feedforward neural network with ReLU activation function.",
+    "link": "http://arxiv.org/abs/2206.11241",
+    "context": "Title: Concentration inequalities and optimal number of layers for stochastic deep neural networks. (arXiv:2206.11241v4 [cs.LG] UPDATED)\nAbstract: We state concentration inequalities for the output of the hidden layers of a stochastic deep neural network (SDNN), as well as for the output of the whole SDNN. These results allow us to introduce an expected classifier (EC), and to give probabilistic upper bound for the classification error of the EC. We also state the optimal number of layers for the SDNN via an optimal stopping procedure. We apply our analysis to a stochastic version of a feedforward neural network with ReLU activation function.",
+    "path": "papers/22/06/2206.11241.json",
+    "total_tokens": 610,
+    "translated_title": "随机深度神经网络的浓度不等式和最优层数",
+    "translated_abstract": "我们提出了随机深度神经网络（SDNN）隐藏层输出的浓度不等式，以及整个SDNN输出的浓度不等式。这些结果使我们能够引入期望分类器（EC），并给出EC分类误差的概率上界。我们还通过最优停止策略确定了SDNN的最佳层数。我们将分析应用于具有ReLU激活函数的前馈神经网络的随机版本。",
+    "tldr": "该论文提出了随机深度神经网络的浓度不等式，通过期望分类器给出了分类误差的概率上界，并确定了最优层数。",
+    "en_tdlr": "This paper introduces concentration inequalities for stochastic deep neural networks, gives a probabilistic upper bound for the classification error of an expected classifier, and determines the optimal number of layers via an optimal stopping procedure."
+}

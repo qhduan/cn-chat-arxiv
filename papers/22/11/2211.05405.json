@@ -1,0 +1,11 @@
+{
+    "title": "VieCap4H-VLSP 2021: ObjectAoA-Enhancing performance of Object Relation Transformer with Attention on Attention for Vietnamese image captioning. (arXiv:2211.05405v4 [cs.CV] UPDATED)",
+    "abstract": "Image captioning is currently a challenging task that requires the ability to both understand visual information and use human language to describe this visual information in the image. In this paper, we propose an efficient way to improve the image understanding ability of transformer-based method by extending Object Relation Transformer architecture with Attention on Attention mechanism. Experiments on the VieCap4H dataset show that our proposed method significantly outperforms its original structure on both the public test and private test of the Image Captioning shared task held by VLSP.",
+    "link": "http://arxiv.org/abs/2211.05405",
+    "context": "Title: VieCap4H-VLSP 2021: ObjectAoA-Enhancing performance of Object Relation Transformer with Attention on Attention for Vietnamese image captioning. (arXiv:2211.05405v4 [cs.CV] UPDATED)\nAbstract: Image captioning is currently a challenging task that requires the ability to both understand visual information and use human language to describe this visual information in the image. In this paper, we propose an efficient way to improve the image understanding ability of transformer-based method by extending Object Relation Transformer architecture with Attention on Attention mechanism. Experiments on the VieCap4H dataset show that our proposed method significantly outperforms its original structure on both the public test and private test of the Image Captioning shared task held by VLSP.",
+    "path": "papers/22/11/2211.05405.json",
+    "total_tokens": 670,
+    "translated_title": "VieCap4H-VLSP 2021：使用Attention on Attention增强物体关系Transformer的性能，提高越南图像字幕生成能力.",
+    "translated_abstract": "图像字幕生成是一项需要理解视觉信息并使用自然语言描述图像的挑战性任务。本文提出了一种扩展物体关系Transformer结构的Attention on Attention机制，从而提高了基于Transformer方法的图像理解能力。在VieCap4H数据集上的实验表明，我们提出的方法在VLSP举办的图像字幕生成任务的公共测试和私人测试中都显著优于其原始结构。",
+    "tldr": "本文提出了一种使用Attention on Attention机制来提高基于Transformer方法的图像理解能力的方法，实验结果显示其在VieCap4H数据集上表现显著优于其原始结构。"
+}

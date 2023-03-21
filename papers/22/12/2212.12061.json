@@ -1,0 +1,11 @@
+{
+    "title": "MN-DS: A Multilabeled News Dataset for News Articles Hierarchical Classification. (arXiv:2212.12061v2 [cs.CL] UPDATED)",
+    "abstract": "This article presents a dataset of 10,917 news articles with hierarchical news categories collected between January 1st 2019, and December 31st 2019. We manually labelled the articles based on a hierarchical taxonomy with 17 first-level and 109 second-level categories. This dataset can be used to train machine learning models for automatically classifying news articles by topic. This dataset can be helpful for researchers working on news structuring, classification, and predicting future events based on released news.",
+    "link": "http://arxiv.org/abs/2212.12061",
+    "context": "Title: MN-DS: A Multilabeled News Dataset for News Articles Hierarchical Classification. (arXiv:2212.12061v2 [cs.CL] UPDATED)\nAbstract: This article presents a dataset of 10,917 news articles with hierarchical news categories collected between January 1st 2019, and December 31st 2019. We manually labelled the articles based on a hierarchical taxonomy with 17 first-level and 109 second-level categories. This dataset can be used to train machine learning models for automatically classifying news articles by topic. This dataset can be helpful for researchers working on news structuring, classification, and predicting future events based on released news.",
+    "path": "papers/22/12/2212.12061.json",
+    "total_tokens": 691,
+    "translated_title": "MN-DS：新闻文章层次分类的多标签数据集",
+    "translated_abstract": "本文介绍了一个数据集，其中包含10,917篇新闻文章，涵盖了从2019年1月1日到2019年12月31日的层次新闻分类。我们根据17个一级类别和109个二级类别的层次分类手动标记了这些文章。该数据集可用于训练机器学习模型，以自动按主题分类新闻文章。该数据集对于从事新闻结构、分类和根据发布的新闻预测未来事件的研究人员非常有帮助。",
+    "tldr": "本文介绍了一个包含10,917篇新闻文章的多标签数据集，可用于训练机器学习模型自动按主题对新闻文章进行分类，对新闻结构、分类和预测未来事件的研究人员非常有帮助。"
+}

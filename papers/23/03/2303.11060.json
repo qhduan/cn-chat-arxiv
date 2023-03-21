@@ -1,0 +1,12 @@
+{
+    "title": "Quantile and moment neural networks for learning functionals of distributions. (arXiv:2303.11060v1 [stat.ML])",
+    "abstract": "We study news neural networks to approximate function of distributions in a probability space. Two classes of neural networks based on quantile and moment approximation are proposed to learn these functions and are theoretically supported by universal approximation theorems. By mixing the quantile and moment features in other new networks, we develop schemes that outperform existing networks on numerical test cases involving univariate distributions. For bivariate distributions, the moment neural network outperforms all other networks.",
+    "link": "http://arxiv.org/abs/2303.11060",
+    "context": "Title: Quantile and moment neural networks for learning functionals of distributions. (arXiv:2303.11060v1 [stat.ML])\nAbstract: We study news neural networks to approximate function of distributions in a probability space. Two classes of neural networks based on quantile and moment approximation are proposed to learn these functions and are theoretically supported by universal approximation theorems. By mixing the quantile and moment features in other new networks, we develop schemes that outperform existing networks on numerical test cases involving univariate distributions. For bivariate distributions, the moment neural network outperforms all other networks.",
+    "path": "papers/23/03/2303.11060.json",
+    "total_tokens": 632,
+    "translated_title": "分位数神经网络与矩神经网络学习分布的函数",
+    "translated_abstract": "本文研究了用神经网络逼近概率空间中分布函数的方法。提出了基于分位数和矩逼近的两类神经网络，理论上支持它们的普适逼近定理。通过在其他新网络中混合分位数和矩特征，我们开发出在涉及单变量分布的数值测试案例中优于现有网络的方案。对于双变量分布，矩神经网络优于所有其他网络。",
+    "tldr": "本研究提出了基于分位数和矩逼近的两类神经网络用于学习概率空间中分布的函数，并混合这些特征以优于现有网络的表现。",
+    "en_tdlr": "This study proposes two classes of neural networks based on quantile and moment approximation for learning functionals of distributions in probability space, which outperform existing networks by mixing these features in new networks, and the moment neural network performs the best for bivariate distributions."
+}

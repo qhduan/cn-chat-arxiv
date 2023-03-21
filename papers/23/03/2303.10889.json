@@ -1,0 +1,12 @@
+{
+    "title": "Decomposability and Strategy-proofness in Multidimensional Models. (arXiv:2303.10889v1 [econ.TH])",
+    "abstract": "We introduce the notion of a multidimensional hybrid preference domain on a (finite) set of alternatives that is a Cartesian product of finitely many components. We study strategy-proof rules on this domain and show that every such rule can be decomposed into component-wise strategy proof rules. More importantly, we show that under a suitable ``richness'' condition, every domain of preferences that reconciles decomposability of rules with strategy-proofness must be a multidimensional hybrid domain. We finally identify an intuitive weakening of separability that explains how a multidimensional hybrid domain may arise in a public goods provision model.",
+    "link": "http://arxiv.org/abs/2303.10889",
+    "context": "Title: Decomposability and Strategy-proofness in Multidimensional Models. (arXiv:2303.10889v1 [econ.TH])\nAbstract: We introduce the notion of a multidimensional hybrid preference domain on a (finite) set of alternatives that is a Cartesian product of finitely many components. We study strategy-proof rules on this domain and show that every such rule can be decomposed into component-wise strategy proof rules. More importantly, we show that under a suitable ``richness'' condition, every domain of preferences that reconciles decomposability of rules with strategy-proofness must be a multidimensional hybrid domain. We finally identify an intuitive weakening of separability that explains how a multidimensional hybrid domain may arise in a public goods provision model.",
+    "path": "papers/23/03/2303.10889.json",
+    "total_tokens": 773,
+    "translated_title": "多维模型中的可分解性与策略无关性",
+    "translated_abstract": "我们介绍了一个多维混合偏好领域的概念，该领域是由有限的替代品集合的笛卡尔积组成的。我们研究了在此领域中的策略无关规则，并表明每个这样的规则可以分解为逐分量策略无关规则。更重要的是，我们表明在适当的“丰富性”条件下，调和了规则的可分解性与策略无关性的偏好领域必须是一个多维混合领域。最后，我们确定了可分离性的直观弱化方式，解释了如何在公共物品供应模型中产生多维混合领域。",
+    "tldr": "本文证明了在多维混合偏好领域中的策略无关规则可以分解为逐分量策略无关规则，并且在特定条件下，将规则的可分解性与策略无关性融合的偏好领域必须是一个多维混合领域。",
+    "en_tdlr": "This paper proves that strategy-proof rules in multidimensional hybrid preference domains can be decomposed into component-wise strategy-proof rules, and that under specific conditions, preference domains reconciling decomposability of rules with strategy-proofness must be multidimensional hybrid domains."
+}

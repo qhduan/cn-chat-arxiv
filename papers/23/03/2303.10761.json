@@ -1,0 +1,12 @@
+{
+    "title": "Calibration of Neural Networks. (arXiv:2303.10761v1 [cs.NE])",
+    "abstract": "Neural networks solving real-world problems are often required not only to make accurate predictions but also to provide a confidence level in the forecast. The calibration of a model indicates how close the estimated confidence is to the true probability. This paper presents a survey of confidence calibration problems in the context of neural networks and provides an empirical comparison of calibration methods. We analyze problem statement, calibration definitions, and different approaches to evaluation: visualizations and scalar measures that estimate whether the model is well-calibrated. We review modern calibration techniques: based on post-processing or requiring changes in training. Empirical experiments cover various datasets and models, comparing calibration methods according to different criteria.",
+    "link": "http://arxiv.org/abs/2303.10761",
+    "context": "Title: Calibration of Neural Networks. (arXiv:2303.10761v1 [cs.NE])\nAbstract: Neural networks solving real-world problems are often required not only to make accurate predictions but also to provide a confidence level in the forecast. The calibration of a model indicates how close the estimated confidence is to the true probability. This paper presents a survey of confidence calibration problems in the context of neural networks and provides an empirical comparison of calibration methods. We analyze problem statement, calibration definitions, and different approaches to evaluation: visualizations and scalar measures that estimate whether the model is well-calibrated. We review modern calibration techniques: based on post-processing or requiring changes in training. Empirical experiments cover various datasets and models, comparing calibration methods according to different criteria.",
+    "path": "papers/23/03/2303.10761.json",
+    "total_tokens": 678,
+    "translated_title": "神经网络的校准",
+    "translated_abstract": "在解决现实问题时，神经网络不仅需要进行准确的预测，还需要提供预测结果的置信度水平。模型的校准指的是估计的置信度与真实概率之间的接近程度。本文在神经网络的背景下提供了置信度校准问题的概述，并提供了校准方法的经验比较。我们分析了问题陈述、校准定义以及对模型是否校准良好的可视化和标量度量的不同方法。我们审查了基于后处理或需要改变训练的现代校准技术。实证实验涵盖各种数据集和模型，根据不同的标准比较校准方法。",
+    "tldr": "本文概述了神经网络的置信度校准问题，并提供了现代校准技术的经验比较。",
+    "en_tdlr": "This paper provides an overview of confidence calibration problems in the context of neural networks and presents an empirical comparison of modern calibration techniques."
+}

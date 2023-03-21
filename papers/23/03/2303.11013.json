@@ -1,0 +1,12 @@
+{
+    "title": "Venture Capital Portfolio Construction and the Main Factors Impacting the Optimal Strategy. (arXiv:2303.11013v1 [q-fin.PM])",
+    "abstract": "The optimal portfolio size for a venture capital (VC) fund is a topic often debated, but there is no consensus on the best strategy. This is because it is a function of many factors. It is not easy to find a general formula that can be applied to all situations, and it largely depends on the goal of the fund. In this report, we will go through the different factors step by step, studying how they affect fund returns and the optimal portfolio size, starting with some basic assumptions and then increasing the complexity of the model.",
+    "link": "http://arxiv.org/abs/2303.11013",
+    "context": "Title: Venture Capital Portfolio Construction and the Main Factors Impacting the Optimal Strategy. (arXiv:2303.11013v1 [q-fin.PM])\nAbstract: The optimal portfolio size for a venture capital (VC) fund is a topic often debated, but there is no consensus on the best strategy. This is because it is a function of many factors. It is not easy to find a general formula that can be applied to all situations, and it largely depends on the goal of the fund. In this report, we will go through the different factors step by step, studying how they affect fund returns and the optimal portfolio size, starting with some basic assumptions and then increasing the complexity of the model.",
+    "path": "papers/23/03/2303.11013.json",
+    "total_tokens": 696,
+    "translated_title": "风险投资投资组合构建及影响最佳策略的主要因素",
+    "translated_abstract": "风险投资（VC）基金的最佳投资组合规模往往是一个备受争议的话题，但并不存在最佳策略的共识。这是因为它涉及多种因素。很难找到一个适用于所有情况的通用公式，它在很大程度上取决于基金的目标。在本报告中，我们将逐步通过研究不同因素，从一些基本假设开始，然后增加模型的复杂性来探讨它们如何影响基金回报和最佳投资组合规模。",
+    "tldr": "该论文探讨了影响风险投资基金回报和最佳投资组合规模的不同因素，这是一个涉及多种因素的时常争议话题，很难找到一个适用于所有情况的通用公式。",
+    "en_tdlr": "This paper explores the various factors that impact the returns and optimal portfolio size of venture capital funds, which is a debated topic with no consensus on a universal formula applicable in all situations."
+}

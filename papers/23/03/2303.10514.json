@@ -1,0 +1,12 @@
+{
+    "title": "Efficient Public Good Provision in a Multipolar World. (arXiv:2303.10514v1 [econ.TH])",
+    "abstract": "We model a public goods game with groups, position uncertainty, and observational learning. Contributions are simultaneous within groups, but groups play sequentially based on their observation of an incomplete sample of past contributions. We show that full cooperation between and within groups is possible with self-interested players on a fixed horizon. Position uncertainty implies the existence of an equilibrium where groups of players conditionally cooperate in the hope of influencing further groups. Conditional cooperation implies that each group member is pivotal, so that efficient simultaneous provision within groups is an equilibrium.",
+    "link": "http://arxiv.org/abs/2303.10514",
+    "context": "Title: Efficient Public Good Provision in a Multipolar World. (arXiv:2303.10514v1 [econ.TH])\nAbstract: We model a public goods game with groups, position uncertainty, and observational learning. Contributions are simultaneous within groups, but groups play sequentially based on their observation of an incomplete sample of past contributions. We show that full cooperation between and within groups is possible with self-interested players on a fixed horizon. Position uncertainty implies the existence of an equilibrium where groups of players conditionally cooperate in the hope of influencing further groups. Conditional cooperation implies that each group member is pivotal, so that efficient simultaneous provision within groups is an equilibrium.",
+    "path": "papers/23/03/2303.10514.json",
+    "total_tokens": 725,
+    "translated_title": "在多极世界中高效提供公共物品",
+    "translated_abstract": "我们建立了一个具有组、位置不确定性和观察学习的公共物品博弈模型。各组内的贡献是同时进行的，而各组的游戏则是基于过去贡献不完整样本的观察依次进行的。我们展示了在固定的时间视野内，即使是自私的玩家之间也可以实现全面合作。位置不确定性意味着存在一个均衡，即玩家组有条件地合作以期影响后续组玩家的行动。条件合作意味着每个组成员都是关键的，因此各组内的同时高效提供是一个均衡策略。",
+    "tldr": "本研究建立了一个具有组、位置不确定性和观察学习的公共物品博弈模型，展示了在固定的时间视野内，自私的玩家之间可以实现全面合作，并发现了各组内的同时高效提供是一个均衡策略。",
+    "en_tdlr": "This study establishes a public goods game model with groups, position uncertainty, and observational learning, demonstrates that full cooperation between self-interested players is possible within a fixed time horizon, and discovers that efficient simultaneous provision within groups is an equilibrium strategy."
+}

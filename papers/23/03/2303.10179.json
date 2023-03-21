@@ -1,0 +1,12 @@
+{
+    "title": "QUBO-inspired Molecular Fingerprint for Chemical Property Prediction. (arXiv:2303.10179v1 [cs.LG])",
+    "abstract": "Molecular fingerprints are widely used for predicting chemical properties, and selecting appropriate fingerprints is important. We generate new fingerprints based on the assumption that a performance of prediction using a more effective fingerprint is better. We generate effective interaction fingerprints that are the product of multiple base fingerprints. It is difficult to evaluate all combinations of interaction fingerprints because of computational limitations. Against this problem, we transform a problem of searching more effective interaction fingerprints into a quadratic unconstrained binary optimization problem. In this study, we found effective interaction fingerprints using QM9 dataset.",
+    "link": "http://arxiv.org/abs/2303.10179",
+    "context": "Title: QUBO-inspired Molecular Fingerprint for Chemical Property Prediction. (arXiv:2303.10179v1 [cs.LG])\nAbstract: Molecular fingerprints are widely used for predicting chemical properties, and selecting appropriate fingerprints is important. We generate new fingerprints based on the assumption that a performance of prediction using a more effective fingerprint is better. We generate effective interaction fingerprints that are the product of multiple base fingerprints. It is difficult to evaluate all combinations of interaction fingerprints because of computational limitations. Against this problem, we transform a problem of searching more effective interaction fingerprints into a quadratic unconstrained binary optimization problem. In this study, we found effective interaction fingerprints using QM9 dataset.",
+    "path": "papers/23/03/2303.10179.json",
+    "total_tokens": 672,
+    "translated_title": "基于QUBO的分子指纹用于化学性质预测",
+    "translated_abstract": "分子指纹广泛用于预测化学性质，选择合适的指纹非常重要。我们基于使用更有效指纹进行预测性能更好的假设，生成了新的指纹。我们生成了有效的交互指纹，它们是多种基础指纹的乘积。由于计算的限制，评估所有交互指纹的组合是困难的。针对这个问题，我们将寻找更有效的交互指纹问题转化为二次无约束二进制优化问题。在本研究中，我们使用QM9数据集发现了有效的交互指纹。",
+    "tldr": "本研究提出了一种基于QUBO的分子指纹，使用二次无约束二进制优化寻找更有效的交互指纹，并在QM9数据集上取得了成功。",
+    "en_tdlr": "This study presents a QUBO-inspired molecular fingerprint for predicting chemical properties, using quadratic unconstrained binary optimization to search for more effective interaction fingerprints, achieving success in the QM9 dataset."
+}

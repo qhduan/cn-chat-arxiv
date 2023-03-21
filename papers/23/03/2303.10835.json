@@ -1,0 +1,12 @@
+{
+    "title": "Bifurcation analysis of the Keynesian cross model. (arXiv:2303.10835v1 [econ.GN])",
+    "abstract": "This study rigorously investigates the Keynesian cross model of a national economy with a focus on the dynamic relationship between government spending and economic equilibrium. The model consists of two ordinary differential equations regarding the rate of change of national income and the rate of consumer spending. Three dynamic relationships between national income and government spending are studied. This study aims to classify the stabilities of equilibrium states for the economy by discussing different cases of government spending. Furthermore, the implication of government spending on the national economy is investigated based on phase portraits and bifurcation analysis of the dynamical system in each scenario.",
+    "link": "http://arxiv.org/abs/2303.10835",
+    "context": "Title: Bifurcation analysis of the Keynesian cross model. (arXiv:2303.10835v1 [econ.GN])\nAbstract: This study rigorously investigates the Keynesian cross model of a national economy with a focus on the dynamic relationship between government spending and economic equilibrium. The model consists of two ordinary differential equations regarding the rate of change of national income and the rate of consumer spending. Three dynamic relationships between national income and government spending are studied. This study aims to classify the stabilities of equilibrium states for the economy by discussing different cases of government spending. Furthermore, the implication of government spending on the national economy is investigated based on phase portraits and bifurcation analysis of the dynamical system in each scenario.",
+    "path": "papers/23/03/2303.10835.json",
+    "total_tokens": 741,
+    "translated_title": "凯恩斯交叉模型的分岔分析",
+    "translated_abstract": "本文在国民经济的凯恩斯交叉模型中研究了政府支出和经济均衡之间的动态关系。该模型由两个普通微分方程组成，涉及国民收入变化率和消费支出变化率。研究了国民收入与政府支出之间的三种动态关系。本研究旨在通过讨论不同政府支出的情况，对经济均衡状态的稳定性进行分类。此外，基于每种情景下的相图和动态系统的分岔分析，探讨了政府支出对国民经济的影响。",
+    "tldr": "本研究使用凯恩斯交叉模型，通过分析政府支出与经济均衡状态之间的动态关系，分类不同政府支出情况下经济均衡状态的稳定性。结果显示，政府支出对国民经济产生显著的影响。",
+    "en_tdlr": "This study uses the Keynesian cross model to analyze the dynamic relationship between government spending and economic equilibrium, and classifies the stability of equilibrium states for different levels of government spending. The results show that government spending has a significant impact on the national economy."
+}

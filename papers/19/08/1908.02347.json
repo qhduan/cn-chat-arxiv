@@ -1,0 +1,12 @@
+{
+    "title": "Tail Option Pricing Under Power Laws. (arXiv:1908.02347v3 [q-fin.PR] UPDATED)",
+    "abstract": "We build a methodology that takes a given option price in the tails with strike $K$ and extends (for calls, all strikes > $K$, for puts all strikes $< K$) assuming the continuation falls into what we define as \"Karamata Constant\" over which the strong Pareto law holds. The heuristic produces relative prices for options, with for sole parameter the tail index $\\alpha$, under some mild arbitrage constraints.  Usual restrictions such as finiteness of variance are not required.  The methodology allows us to scrutinize the volatility surface and test various theories of relative tail option overpricing (usually built on thin tailed models and minor modifications/fudging of the Black-Scholes formula).",
+    "link": "http://arxiv.org/abs/1908.02347",
+    "context": "Title: Tail Option Pricing Under Power Laws. (arXiv:1908.02347v3 [q-fin.PR] UPDATED)\nAbstract: We build a methodology that takes a given option price in the tails with strike $K$ and extends (for calls, all strikes > $K$, for puts all strikes $< K$) assuming the continuation falls into what we define as \"Karamata Constant\" over which the strong Pareto law holds. The heuristic produces relative prices for options, with for sole parameter the tail index $\\alpha$, under some mild arbitrage constraints.  Usual restrictions such as finiteness of variance are not required.  The methodology allows us to scrutinize the volatility surface and test various theories of relative tail option overpricing (usually built on thin tailed models and minor modifications/fudging of the Black-Scholes formula).",
+    "path": "papers/19/08/1908.02347.json",
+    "total_tokens": 785,
+    "translated_title": "幂律分布下的尾部期权定价",
+    "translated_abstract": "我们构建了一种方法，可以在给定尾部行权价格K的情况下对期权价格进行扩展（对于看涨期权，所有行权价> K；对于看跌期权，所有行权价< K），并假设延续部分遵循我们定义的“Karamata Constant”，在此之上强势 Pareto 定律成立。该启发式方法在一些温和的套利约束条件下用尾指数α作为唯一参数来产生期权的相对价格。 不需要像方差有限等常见限制。该方法允许我们仔细研究波动率曲面并检验相对尾部期权溢价的各种理论（通常基于细尾模型和对Black-Scholes公式的轻微修改/临时处理）。",
+    "tldr": "该论文提出一种在幂律分布下的尾部期权定价的方法，以单一参数尾指数α作为唯一变量。该方法能够跨越长时间扩展期间来计算期权价格，并检验相对尾部期权溢价的多种理论。",
+    "en_tdlr": "This paper proposes a methodology for pricing tail options under power laws using a single parameter, the tail index α. The method allows for extension of option prices over long time horizons and testing of various theories of relative tail option overpricing."
+}

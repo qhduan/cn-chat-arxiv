@@ -1,0 +1,12 @@
+{
+    "title": "ITM-Rec: An Open Data Set for Educational Recommender Systems. (arXiv:2303.10230v1 [cs.IR])",
+    "abstract": "With the development of recommender systems (RS), several promising systems have emerged, such as context-aware RS, multi-criteria RS, and group RS. However, the education domain may not benefit from these developments due to missing information, such as contexts and multiple criteria, in educational data sets. In this paper, we announce and release an open data set for educational recommender systems. This data set includes not only traditional rating entries, but also enriched information, e.g., contexts, user preferences in multiple criteria, group compositions and preferences, etc. It provides a testbed and enables more opportunities to develop and examine various educational recommender systems.",
+    "link": "http://arxiv.org/abs/2303.10230",
+    "context": "Title: ITM-Rec: An Open Data Set for Educational Recommender Systems. (arXiv:2303.10230v1 [cs.IR])\nAbstract: With the development of recommender systems (RS), several promising systems have emerged, such as context-aware RS, multi-criteria RS, and group RS. However, the education domain may not benefit from these developments due to missing information, such as contexts and multiple criteria, in educational data sets. In this paper, we announce and release an open data set for educational recommender systems. This data set includes not only traditional rating entries, but also enriched information, e.g., contexts, user preferences in multiple criteria, group compositions and preferences, etc. It provides a testbed and enables more opportunities to develop and examine various educational recommender systems.",
+    "path": "papers/23/03/2303.10230.json",
+    "total_tokens": 749,
+    "translated_title": "ITM-Rec：教育推荐系统的开放数据集",
+    "translated_abstract": "随着推荐系统的发展，出现了一些有前途的系统，如上下文感知推荐系统，多准则推荐系统和群组推荐系统。然而，教育领域可能无法从这些发展中受益，因为教育数据集中缺乏上下文和多个准则等缺失信息。在本文中，我们发布了一个教育推荐系统的开放数据集，其中不仅包括传统的评分条目，还包括丰富的信息，例如上下文、用户多准则偏好、群组组成和偏好等。它提供了一个测试平台，为开发和检验各种教育推荐系统提供了更多机会。",
+    "tldr": "本文发布了一个教育推荐系统的开放数据集，该数据集包含了传统评分条目和丰富的信息，为开发和检验各种教育推荐系统提供了更多机会。",
+    "en_tdlr": "This paper announces the release of an open data set for educational recommender systems, which includes traditional rating entries as well as enriched information such as contexts, user preferences in multiple criteria, and group compositions and preferences, providing a testbed for developing and examining various educational recommender systems."
+}

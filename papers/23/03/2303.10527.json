@@ -1,0 +1,12 @@
+{
+    "title": "Two Kinds of Recall. (arXiv:2303.10527v1 [cs.CL])",
+    "abstract": "It is an established assumption that pattern-based models are good at precision, while learning based models are better at recall. But is that really the case? I argue that there are two kinds of recall: d-recall, reflecting diversity, and e-recall, reflecting exhaustiveness. I demonstrate through experiments that while neural methods are indeed significantly better at d-recall, it is sometimes the case that pattern-based methods are still substantially better at e-recall. Ideal methods should aim for both kinds, and this ideal should in turn be reflected in our evaluations.",
+    "link": "http://arxiv.org/abs/2303.10527",
+    "context": "Title: Two Kinds of Recall. (arXiv:2303.10527v1 [cs.CL])\nAbstract: It is an established assumption that pattern-based models are good at precision, while learning based models are better at recall. But is that really the case? I argue that there are two kinds of recall: d-recall, reflecting diversity, and e-recall, reflecting exhaustiveness. I demonstrate through experiments that while neural methods are indeed significantly better at d-recall, it is sometimes the case that pattern-based methods are still substantially better at e-recall. Ideal methods should aim for both kinds, and this ideal should in turn be reflected in our evaluations.",
+    "path": "papers/23/03/2303.10527.json",
+    "total_tokens": 674,
+    "translated_title": "两种记忆方式",
+    "translated_abstract": "人们普遍认为，基于模式的模型擅长准确性，而基于学习的模型则更擅长召回率。但这确实是这样吗？作者认为，有两种记忆方式：d-recall，代表多样性，和e-recall，代表详尽性。作者通过实验证明，虽然神经网络方法确实在d-recall方面显著优于模式方法，但有时候模式方法仍然在e-recall方面明显优于神经网络方法。理想的方法应该同时追求这两种方式，并且这种理想应该反映在我们的评估中。",
+    "tldr": "该论文提出了基于模式的方法和基于神经网络的方法在两种不同记忆方式（多样性和详尽性）方面不同的表现，并认为优秀方法应同时追求这两种方式。",
+    "en_tdlr": "The paper introduces two kinds of recall (diversity and exhaustiveness) and argues that both pattern-based and neural-based models have their strengths and weaknesses in each kind. The ideal method should aim for both and should be reflected in evaluations."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Parallel Conformal Hyperparameter Optimization. (arXiv:2207.03017v2 [cs.LG] UPDATED)",
+    "abstract": "Several novel frameworks for hyperparameter search have emerged in the last decade, but most rely on strict, often normal, distributional assumptions, limiting search model flexibility. This paper proposes a novel optimization framework based on upper confidence bound sampling of conformal confidence intervals, whose assumption of exchangeability enables greater choice of search model architectures. Several such architectures were explored and benchmarked on hyperparameter tuning of both dense and convolutional neural networks, displaying superior performance to random search.",
+    "link": "http://arxiv.org/abs/2207.03017",
+    "context": "Title: Parallel Conformal Hyperparameter Optimization. (arXiv:2207.03017v2 [cs.LG] UPDATED)\nAbstract: Several novel frameworks for hyperparameter search have emerged in the last decade, but most rely on strict, often normal, distributional assumptions, limiting search model flexibility. This paper proposes a novel optimization framework based on upper confidence bound sampling of conformal confidence intervals, whose assumption of exchangeability enables greater choice of search model architectures. Several such architectures were explored and benchmarked on hyperparameter tuning of both dense and convolutional neural networks, displaying superior performance to random search.",
+    "path": "papers/22/07/2207.03017.json",
+    "total_tokens": 656,
+    "translated_title": "并行的一致置信区间超参数优化",
+    "translated_abstract": "在过去的十年中，出现了几个新颖的超参数搜索框架，但大多数都依赖于严格的、通常是正态分布假设，限制了搜索模型的灵活性。本文提出了一种基于置信区间一致性上限抽样的优化框架，其交换性假设能够提供更多的搜索模型架构选择。对超参优化的多个架构进行了探索和基准测试，包括密集和卷积神经网络，在性能上优于随机搜索。",
+    "tldr": "本文提出了一种基于一致置信区间上限抽样的优化框架，其假设具有交换性，能够提供更多的搜索模型架构选择，并且在超参数调整时具有优异的性能。",
+    "en_tdlr": "This paper proposes a novel optimization framework based on upper confidence bound sampling of conformal confidence intervals, whose assumption of exchangeability enables greater choice of search model architectures, and displays superior performance to random search on hyperparameter tuning of both dense and convolutional neural networks."
+}

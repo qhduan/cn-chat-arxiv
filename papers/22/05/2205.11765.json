@@ -1,0 +1,12 @@
+{
+    "title": "Byzantine-Robust Federated Learning with Optimal Statistical Rates and Privacy Guarantees. (arXiv:2205.11765v2 [cs.LG] UPDATED)",
+    "abstract": "We propose Byzantine-robust federated learning protocols with nearly optimal statistical rates. In contrast to prior work, our proposed protocols improve the dimension dependence and achieve a tight statistical rate in terms of all the parameters for strongly convex losses. We benchmark against competing protocols and show the empirical superiority of the proposed protocols. Finally, we remark that our protocols with bucketing can be naturally combined with privacy-guaranteeing procedures to introduce security against a semi-honest server. The code for evaluation is provided in https://github.com/wanglun1996/secure-robust-federated-learning.",
+    "link": "http://arxiv.org/abs/2205.11765",
+    "context": "Title: Byzantine-Robust Federated Learning with Optimal Statistical Rates and Privacy Guarantees. (arXiv:2205.11765v2 [cs.LG] UPDATED)\nAbstract: We propose Byzantine-robust federated learning protocols with nearly optimal statistical rates. In contrast to prior work, our proposed protocols improve the dimension dependence and achieve a tight statistical rate in terms of all the parameters for strongly convex losses. We benchmark against competing protocols and show the empirical superiority of the proposed protocols. Finally, we remark that our protocols with bucketing can be naturally combined with privacy-guaranteeing procedures to introduce security against a semi-honest server. The code for evaluation is provided in https://github.com/wanglun1996/secure-robust-federated-learning.",
+    "path": "papers/22/05/2205.11765.json",
+    "total_tokens": 771,
+    "translated_title": "具有最优统计率和隐私保证的拜占庭鲁棒联邦学习",
+    "translated_abstract": "我们提出了一种具有近乎最优统计率的拜占庭鲁棒联邦学习协议。与之前的工作相比，我们提出的协议提高了维度依赖性，并在强凸损失的所有参数方面实现了紧密的统计率。我们对竞争协议进行了基准测试，并展示了所提出协议的经验优越性。最后，我们指出，我们的分桶协议可以与隐私保障程序自然地结合起来，以引入对半诚实服务器的安全保障。评估代码位于https://github.com/wanglun1996/secure-robust-federated-learning中。",
+    "tldr": "本文提出了一种具有近乎最优统计率的拜占庭鲁棒联邦学习协议，并展示了其与竞争协议相比的经验优越性，协议通过分桶可以结合隐私保障程序以对半诚实服务器进行安全保障。",
+    "en_tdlr": "This paper proposes a Byzantine-robust federated learning protocol with nearly optimal statistical rates, demonstrating its empirical superiority over competing protocols. The protocol can be combined with privacy-guaranteeing procedures through bucketing to introduce security against a semi-honest server."
+}
