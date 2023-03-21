@@ -165,16 +165,17 @@
 | [^161] | [Augmenting astrophysical scaling relations with machine learning: application to reducing the Sunyaev-Zeldovich flux-mass scatter.](http://arxiv.org/abs/2201.01305) | 本文使用符号回归的机器学习工具，在Sunyaev-Zeldovich 荧光$-$星团质量关系中找到了一个新的代理变量，结合了$Y_\mathrm{SZ}$和电离气体浓度($c_\mathrm{gas}$)，极大地减小了该关系中的散射，提高了宇宙学分析的灵敏度。 |
 | [^162] | [Learning-Augmented Algorithms for Online Steiner Tree.](http://arxiv.org/abs/2112.05353) | 本文提出了一种集成机器学习预测与在线算法设计的超越最坏情况算法分析模型，并基于该模型研究了有向图和无向图的在线Steiner树问题。通过预测在线终端节点，算法在有良好预测的情况下打破在线下界，并且竞争比例会优雅地降低。 |
 | [^163] | [A generalization gap estimation for overparameterized models via the Langevin functional variance.](http://arxiv.org/abs/2112.03660) | 本文提出了一种函数方差的Langevin估计方法，用于高效计算超参数模型的泛化缺口，实现与基于梯度的优化算法一致。 |
-| [^164] | [Knowledge Sheaves: A Sheaf-Theoretic Framework for Knowledge Graph Embedding.](http://arxiv.org/abs/2110.03789) | 本研究提出了一种“知识花扭”方法来描述知识图谱嵌入模型，并可以表达广泛的嵌入先验约束，可轻松应对复合关系推理。 |
-| [^165] | [Approximate Newton policy gradient algorithms.](http://arxiv.org/abs/2110.02398) | 本文提出了一种用于政策梯度算法的近似牛顿方法，包括自然策略梯度算法和全新的策略梯度算法，具有快速收敛的优势。 |
-| [^166] | [Bilevel Imaging Learning Problems as Mathematical Programs with Complementarity Constraints: Reformulation and Theory.](http://arxiv.org/abs/2110.02273) | 本论文提出了一种新的数学规划问题（MPCC）的方法用于解决双层成像学习问题。该方法在满足一定条件下，可以得出稳定条件、最优性条件和局部唯一性结果，可用于函数空间中的问题，并且可以加入对梯度的约束。 |
-| [^167] | [Long-Range Transformers for Dynamic Spatiotemporal Forecasting.](http://arxiv.org/abs/2109.12218) | 本研究提出了一种名为Spacetimeformer的方法，将多元时间序列预测转化为“时空序列”形式进行建模，实现了对变量之间动态空间关系的学习，同时在多个基准测试上取得了最先进的结果。 |
-| [^168] | [Data-Driven Constitutive Relation Reveals Scaling Law for Hydrodynamic Transport Coefficients.](http://arxiv.org/abs/2108.00413) | 本文研究了基于数据的模型中导数选择及其局限性，认为这些模型相当于非线性长度尺度比例定律，建模比例定律可避免实际困难。 |
-| [^169] | [Who Is the Strongest Enemy? Towards Optimal and Efficient Evasion Attacks in Deep RL.](http://arxiv.org/abs/2106.05087) | 本文提出了一种新的攻击方法，通过一个名为“演员”的设计函数和名为“导演”的基于RL的学习器之间的协作，最新方法可以找到最优攻击，提高了关于RL代理鲁棒性的理解。 |
-| [^170] | [Towards Teachable Autotelic Agents.](http://arxiv.org/abs/2105.11977) | 本文提出了可教学自主智能体的概念，它们可以从内部和教学信号中同步学习，从而提高技能习得的效率，此举是构建具有人类级智能的代理的关键步骤。 |
-| [^171] | [Disentangling Geometric Deformation Spaces in Generative Latent Shape Models.](http://arxiv.org/abs/2103.00142) | 研究改进了先前的生成模型，通过将物体几何空间分解为刚性方向、非刚性姿态和固有形状，并使用谱几何和概率分离的组合进行训练，赋予了对对象变形空间的可解释性描述。同时改进包括更复杂的旋转不变处理和使用流形变形网络来连接潜在和谱空间，可以更好地控制生成形状。 |
-| [^172] | [Is Q-Learning Minimax Optimal? A Tight Sample Complexity Analysis.](http://arxiv.org/abs/2102.06548) | 本文通过紧密的样本复杂度分析回答了Q学习是否是极小极大最优的问题。 |
-| [^173] | [Falsification-Based Robust Adversarial Reinforcement Learning.](http://arxiv.org/abs/2007.00691) | 本论文提出了基于虚假测试的鲁棒性对抗学习框架，通过使用虚假测试方法提高了强化学习算法在测试场景下的准确性和鲁棒性，得到了显著的实验结果。 |
+| [^164] | [Geometry-aware Bayesian Optimization in Robotics using Riemannian Mat\'ern Kernels.](http://arxiv.org/abs/2111.01460) | 本文探讨了基于Riemannian Mat\'ern kernels技术在机器人学中的实现，并在一组基准函数上展示了其性能。该技术可以有效地处理非欧几里得域上定义的函数。 |
+| [^165] | [Knowledge Sheaves: A Sheaf-Theoretic Framework for Knowledge Graph Embedding.](http://arxiv.org/abs/2110.03789) | 本研究提出了一种“知识花扭”方法来描述知识图谱嵌入模型，并可以表达广泛的嵌入先验约束，可轻松应对复合关系推理。 |
+| [^166] | [Approximate Newton policy gradient algorithms.](http://arxiv.org/abs/2110.02398) | 本文提出了一种用于政策梯度算法的近似牛顿方法，包括自然策略梯度算法和全新的策略梯度算法，具有快速收敛的优势。 |
+| [^167] | [Bilevel Imaging Learning Problems as Mathematical Programs with Complementarity Constraints: Reformulation and Theory.](http://arxiv.org/abs/2110.02273) | 本论文提出了一种新的数学规划问题（MPCC）的方法用于解决双层成像学习问题。该方法在满足一定条件下，可以得出稳定条件、最优性条件和局部唯一性结果，可用于函数空间中的问题，并且可以加入对梯度的约束。 |
+| [^168] | [Long-Range Transformers for Dynamic Spatiotemporal Forecasting.](http://arxiv.org/abs/2109.12218) | 本研究提出了一种名为Spacetimeformer的方法，将多元时间序列预测转化为“时空序列”形式进行建模，实现了对变量之间动态空间关系的学习，同时在多个基准测试上取得了最先进的结果。 |
+| [^169] | [Data-Driven Constitutive Relation Reveals Scaling Law for Hydrodynamic Transport Coefficients.](http://arxiv.org/abs/2108.00413) | 本文研究了基于数据的模型中导数选择及其局限性，认为这些模型相当于非线性长度尺度比例定律，建模比例定律可避免实际困难。 |
+| [^170] | [Who Is the Strongest Enemy? Towards Optimal and Efficient Evasion Attacks in Deep RL.](http://arxiv.org/abs/2106.05087) | 本文提出了一种新的攻击方法，通过一个名为“演员”的设计函数和名为“导演”的基于RL的学习器之间的协作，最新方法可以找到最优攻击，提高了关于RL代理鲁棒性的理解。 |
+| [^171] | [Towards Teachable Autotelic Agents.](http://arxiv.org/abs/2105.11977) | 本文提出了可教学自主智能体的概念，它们可以从内部和教学信号中同步学习，从而提高技能习得的效率，此举是构建具有人类级智能的代理的关键步骤。 |
+| [^172] | [Disentangling Geometric Deformation Spaces in Generative Latent Shape Models.](http://arxiv.org/abs/2103.00142) | 研究改进了先前的生成模型，通过将物体几何空间分解为刚性方向、非刚性姿态和固有形状，并使用谱几何和概率分离的组合进行训练，赋予了对对象变形空间的可解释性描述。同时改进包括更复杂的旋转不变处理和使用流形变形网络来连接潜在和谱空间，可以更好地控制生成形状。 |
+| [^173] | [Is Q-Learning Minimax Optimal? A Tight Sample Complexity Analysis.](http://arxiv.org/abs/2102.06548) | 本文通过紧密的样本复杂度分析回答了Q学习是否是极小极大最优的问题。 |
+| [^174] | [Falsification-Based Robust Adversarial Reinforcement Learning.](http://arxiv.org/abs/2007.00691) | 本论文提出了基于虚假测试的鲁棒性对抗学习框架，通过使用虚假测试方法提高了强化学习算法在测试场景下的准确性和鲁棒性，得到了显著的实验结果。 |
 
 # 详细
 
@@ -2460,7 +2461,21 @@
 
     This paper discusses the estimation of the generalization gap, the difference between generalization performance and training performance, for overparameterized models including neural networks. We first show that a functional variance, a key concept in defining a widely-applicable information criterion, characterizes the generalization gap even in overparameterized settings where a conventional theory cannot be applied. As the computational cost of the functional variance is expensive for the overparameterized models, we propose an efficient approximation of the function variance, the Langevin approximation of the functional variance (Langevin FV). This method leverages only the $1$st-order gradient of the squared loss function, without referencing the $2$nd-order gradient; this ensures that the computation is efficient and the implementation is consistent with gradient-based optimization algorithms. We demonstrate the Langevin FV numerically by estimating the generalization gaps of o
     
-[^164]: 知识花束：适用于知识图谱嵌入的花扭理论框架
+[^164]: 基于黎曼Matern核的几何感知贝叶斯优化在机器人学中的应用
+
+    Geometry-aware Bayesian Optimization in Robotics using Riemannian Mat\'ern Kernels. (arXiv:2111.01460v2 [cs.RO] UPDATED)
+
+    [http://arxiv.org/abs/2111.01460](http://arxiv.org/abs/2111.01460)
+
+    本文探讨了基于Riemannian Mat\'ern kernels技术在机器人学中的实现，并在一组基准函数上展示了其性能。该技术可以有效地处理非欧几里得域上定义的函数。
+
+    
+
+    贝叶斯优化是一种数据有效的技术，可用于控制参数调整、参数策略适应和机器人结构设计。其中许多问题需要优化在非欧几里得域上定义的函数，如球、旋转群或正定矩阵空间。为此，必须在所关注的空间中放置高斯过程先验，或等价地定义一个核。有效的核通常反映了它们所定义空间的几何特性，但设计它们通常是非平凡的。基于随机偏微分方程和拉普拉斯 – 贝尔特拉米算子的谱理论的最近研究，提供了构建这种几何感知核的有前途的途径。本文研究了在机器人学中实现这些内核的技术，在一组人工基准功能上展示了它们的性能，并说明了几何感知优化在实际机器人控制问题中的应用。
+
+    Bayesian optimization is a data-efficient technique which can be used for control parameter tuning, parametric policy adaptation, and structure design in robotics. Many of these problems require optimization of functions defined on non-Euclidean domains like spheres, rotation groups, or spaces of positive-definite matrices. To do so, one must place a Gaussian process prior, or equivalently define a kernel, on the space of interest. Effective kernels typically reflect the geometry of the spaces they are defined on, but designing them is generally non-trivial. Recent work on the Riemannian Mat\'ern kernels, based on stochastic partial differential equations and spectral theory of the Laplace-Beltrami operator, offers promising avenues towards constructing such geometry-aware kernels. In this paper, we study techniques for implementing these kernels on manifolds of interest in robotics, demonstrate their performance on a set of artificial benchmark functions, and illustrate geometry-aware
+    
+[^165]: 知识花束：适用于知识图谱嵌入的花扭理论框架
 
     Knowledge Sheaves: A Sheaf-Theoretic Framework for Knowledge Graph Embedding. (arXiv:2110.03789v2 [cs.LG] UPDATED)
 
@@ -2474,7 +2489,7 @@
 
     Knowledge graph embedding involves learning representations of entities -the vertices of the graph -- and relations -- the edges of the graph -- such that the resulting representations encode the known factual information represented by the knowledge graph and can be used in the inference of new relations. We show that knowledge graph embedding is naturally expressed in the topological and categorical language of \textit{cellular sheaves}: a knowledge graph embedding can be described as an approximate global section of an appropriate \textit{knowledge sheaf} over the graph, with consistency constraints induced by the knowledge graph's schema. This approach provides a generalized framework for reasoning about knowledge graph embedding models and allows for the expression of a wide range of prior constraints on embeddings. Further, the resulting embeddings can be easily adapted for reasoning over composite relations without special training. We implement these ideas to highlight the be
     
-[^165]: 近似牛顿策略梯度算法
+[^166]: 近似牛顿策略梯度算法
 
     Approximate Newton policy gradient algorithms. (arXiv:2110.02398v5 [cs.LG] UPDATED)
 
@@ -2488,7 +2503,7 @@
 
     Policy gradient algorithms have been widely applied to Markov decision processes and reinforcement learning problems in recent years. Regularization with various entropy functions is often used to encourage exploration and improve stability. This paper proposes an approximate Newton method for the policy gradient algorithm with entropy regularization. In the case of Shannon entropy, the resulting algorithm reproduces the natural policy gradient algorithm. For other entropy functions, this method results in brand-new policy gradient algorithms. We prove that all these algorithms enjoy Newton-type quadratic convergence and that the corresponding gradient flow converges globally to the optimal solution. We use synthetic and industrial-scale examples to demonstrate that the proposed approximate Newton method typically converges in single-digit iterations, often orders of magnitude faster than other state-of-the-art algorithms.
     
-[^166]: 具有互补约束的数学规划问题作为双层成像学习问题的改进和理论研究
+[^167]: 具有互补约束的数学规划问题作为双层成像学习问题的改进和理论研究
 
     Bilevel Imaging Learning Problems as Mathematical Programs with Complementarity Constraints: Reformulation and Theory. (arXiv:2110.02273v2 [math.OC] UPDATED)
 
@@ -2502,7 +2517,7 @@
 
     We investigate a family of bilevel imaging learning problems where the lower-level instance corresponds to a convex variational model involving firstand second-order nonsmooth sparsity-based regularizers. By using geometric properties of the primal-dual reformulation of the lower-level problem and introducing suitable auxiliar variables, we are able to reformulate the original bilevel problems as Mathematical Programs with Complementarity Constraints (MPCC). For the latter, we prove tight constraint qualification conditions (MPCC-RCPLD and partial MPCC-LICQ) and derive Mordukhovich (M-) and Strong (S-) stationarity conditions. The stationarity systems for the MPCC turn also into stationarity conditions for the original formulation. Second-order sufficient optimality conditions are derived as well, together with a local uniqueness result for stationary points. The proposed reformulation may be extended to problems in function spaces, leading to MPCC's with constraints on the gradient 
     
-[^167]: 面向动态时空预测的长距离Transformer
+[^168]: 面向动态时空预测的长距离Transformer
 
     Long-Range Transformers for Dynamic Spatiotemporal Forecasting. (arXiv:2109.12218v3 [cs.LG] UPDATED)
 
@@ -2516,7 +2531,7 @@
 
     Multivariate time series forecasting focuses on predicting future values based on historical context. State-of-the-art sequence-to-sequence models rely on neural attention between timesteps, which allows for temporal learning but fails to consider distinct spatial relationships between variables. In contrast, methods based on graph neural networks explicitly model variable relationships. However, these methods often rely on predefined graphs that cannot change over time and perform separate spatial and temporal updates without establishing direct connections between each variable at every timestep. Our work addresses these problems by translating multivariate forecasting into a "spatiotemporal sequence" formulation where each Transformer input token represents the value of a single variable at a given time. Long-Range Transformers can then learn interactions between space, time, and value information jointly along this extended sequence. Our method, which we call Spacetimeformer, achie
     
-[^168]: 基于数据的本构关系揭示流体力学传输系数的比例定律
+[^169]: 基于数据的本构关系揭示流体力学传输系数的比例定律
 
     Data-Driven Constitutive Relation Reveals Scaling Law for Hydrodynamic Transport Coefficients. (arXiv:2108.00413v4 [physics.flu-dyn] UPDATED)
 
@@ -2530,7 +2545,7 @@
 
     Finding extended hydrodynamics equations valid from the dense gas region to the rarefied gas region remains a great challenge. The key to success is to obtain accurate constitutive relations for stress and heat flux. Data-driven models offer a new phenomenological approach to learning constitutive relations from data. Such models enable complex constitutive relations that extend Newton's law of viscosity and Fourier's law of heat conduction by regression on higher derivatives. However, the choices of derivatives in these models are ad-hoc without a clear physical explanation. We investigated data-driven models theoretically on a linear system. We argue that these models are equivalent to non-linear length scale scaling laws of transport coefficients. The equivalence to scaling laws justified the physical plausibility and revealed the limitation of data-driven models. Our argument also points out that modeling the scaling law could avoid practical difficulties in data-driven models like
     
-[^169]: 最强敌人是谁？探索深度强化学习中最优和高效的规避攻击方法。
+[^170]: 最强敌人是谁？探索深度强化学习中最优和高效的规避攻击方法。
 
     Who Is the Strongest Enemy? Towards Optimal and Efficient Evasion Attacks in Deep RL. (arXiv:2106.05087v5 [cs.LG] UPDATED)
 
@@ -2544,7 +2559,7 @@
 
     Evaluating the worst-case performance of a reinforcement learning (RL) agent under the strongest/optimal adversarial perturbations on state observations (within some constraints) is crucial for understanding the robustness of RL agents. However, finding the optimal adversary is challenging, in terms of both whether we can find the optimal attack and how efficiently we can find it. Existing works on adversarial RL either use heuristics-based methods that may not find the strongest adversary, or directly train an RL-based adversary by treating the agent as a part of the environment, which can find the optimal adversary but may become intractable in a large state space. This paper introduces a novel attacking method to find the optimal attacks through collaboration between a designed function named "actor" and an RL-based learner named "director". The actor crafts state perturbations for a given policy perturbation direction, and the director learns to propose the best policy perturbation
     
-[^170]: 追寻可教学自主智能体
+[^171]: 追寻可教学自主智能体
 
     Towards Teachable Autotelic Agents. (arXiv:2105.11977v3 [cs.LG] UPDATED)
 
@@ -2558,7 +2573,7 @@
 
     Autonomous discovery and direct instruction are two distinct sources of learning in children but education sciences demonstrate that mixed approaches such as assisted discovery or guided play result in improved skill acquisition. In the field of Artificial Intelligence, these extremes respectively map to autonomous agents learning from their own signals and interactive learning agents fully taught by their teachers. In between should stand teachable autotelic agents (TAA): agents that learn from both internal and teaching signals to benefit from the higher efficiency of assisted discovery. Designing such agents will enable real-world non-expert users to orient the learning trajectories of agents towards their expectations. More fundamentally, this may also be a key step to build agents with human-level intelligence. This paper presents a roadmap towards the design of teachable autonomous agents. Building on developmental psychology and education sciences, we start by identifying key fe
     
-[^171]: 在生成潜在形状模型中解离几何变形空间
+[^172]: 在生成潜在形状模型中解离几何变形空间
 
     Disentangling Geometric Deformation Spaces in Generative Latent Shape Models. (arXiv:2103.00142v2 [cs.CV] UPDATED)
 
@@ -2572,7 +2587,7 @@
 
     A complete representation of 3D objects requires characterizing the space of deformations in an interpretable manner, from articulations of a single instance to changes in shape across categories. In this work, we improve on a prior generative model of geometric disentanglement for 3D shapes, wherein the space of object geometry is factorized into rigid orientation, non-rigid pose, and intrinsic shape. The resulting model can be trained from raw 3D shapes, without correspondences, labels, or even rigid alignment, using a combination of classical spectral geometry and probabilistic disentanglement of a structured latent representation space. Our improvements include more sophisticated handling of rotational invariance and the use of a diffeomorphic flow network to bridge latent and spectral space. The geometric structuring of the latent space imparts an interpretable characterization of the deformation space of an object. Furthermore, it enables tasks like pose transfer and pose-aware r
     
-[^172]: Q学习是否是极小极大最优的？一项紧密的样本复杂性分析。
+[^173]: Q学习是否是极小极大最优的？一项紧密的样本复杂性分析。
 
     Is Q-Learning Minimax Optimal? A Tight Sample Complexity Analysis. (arXiv:2102.06548v4 [stat.ML] UPDATED)
 
@@ -2586,7 +2601,7 @@
 
     Q-learning, which seeks to learn the optimal Q-function of a Markov decision process (MDP) in a model-free fashion, lies at the heart of reinforcement learning. When it comes to the synchronous setting (such that independent samples for all state-action pairs are drawn from a generative model in each iteration), substantial progress has been made towards understanding the sample efficiency of Q-learning. Consider a $\gamma$-discounted infinite-horizon MDP with state space $\mathcal{S}$ and action space $\mathcal{A}$: to yield an entrywise $\varepsilon$-approximation of the optimal Q-function, state-of-the-art theory for Q-learning requires a sample size exceeding the order of $\frac{|\mathcal{S}||\mathcal{A}|}{(1-\gamma)^5\varepsilon^{2}}$, which fails to match existing minimax lower bounds. This gives rise to natural questions: what is the sharp sample complexity of Q-learning? Is Q-learning provably sub-optimal? This paper addresses these questions for the synchronous setting: (1) wh
     
-[^173]: 基于虚假测试的强化学习的鲁棒性对抗方法
+[^174]: 基于虚假测试的强化学习的鲁棒性对抗方法
 
     Falsification-Based Robust Adversarial Reinforcement Learning. (arXiv:2007.00691v3 [cs.RO] UPDATED)
 
