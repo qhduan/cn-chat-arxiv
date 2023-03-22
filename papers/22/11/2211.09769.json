@@ -1,0 +1,12 @@
+{
+    "title": "DeepSense 6G: A Large-Scale Real-World Multi-Modal Sensing and Communication Dataset. (arXiv:2211.09769v2 [eess.SP] UPDATED)",
+    "abstract": "This article presents the DeepSense 6G dataset, which is a large-scale dataset based on real-world measurements of co-existing multi-modal sensing and communication data. The DeepSense 6G dataset is built to advance deep learning research in a wide range of applications in the intersection of multi-modal sensing, communication, and positioning. This article provides a detailed overview of the DeepSense dataset structure, adopted testbeds, data collection and processing methodology, deployment scenarios, and example applications, with the objective of facilitating the adoption and reproducibility of multi-modal sensing and communication datasets.",
+    "link": "http://arxiv.org/abs/2211.09769",
+    "context": "Title: DeepSense 6G: A Large-Scale Real-World Multi-Modal Sensing and Communication Dataset. (arXiv:2211.09769v2 [eess.SP] UPDATED)\nAbstract: This article presents the DeepSense 6G dataset, which is a large-scale dataset based on real-world measurements of co-existing multi-modal sensing and communication data. The DeepSense 6G dataset is built to advance deep learning research in a wide range of applications in the intersection of multi-modal sensing, communication, and positioning. This article provides a detailed overview of the DeepSense dataset structure, adopted testbeds, data collection and processing methodology, deployment scenarios, and example applications, with the objective of facilitating the adoption and reproducibility of multi-modal sensing and communication datasets.",
+    "path": "papers/22/11/2211.09769.json",
+    "total_tokens": 695,
+    "translated_title": "DeepSense 6G：一个大规模真实世界多模态感知和通信数据集。",
+    "translated_abstract": "本文介绍了DeepSense 6G数据集，这是一个基于共存多模态感知和通信数据的真实世界测量数据的大规模数据集。DeepSense 6G数据集旨在推动在多模态感知、通信和定位交叉领域的广泛应用中的深度学习研究。本文详细介绍了DeepSense数据集的结构、采用的测试平台、数据收集和处理方法、部署场景以及示例应用，旨在促进多模态感知和通信数据集的采用和可重复性。",
+    "tldr": "DeepSense 6G是一个大型真实世界多模态感知和通信数据集，旨在推动在多模态感知、通信和定位交叉领域的广泛应用中的深度学习研究。",
+    "en_tdlr": "DeepSense 6G is a large-scale real-world multi-modal sensing and communication dataset aimed at advancing deep learning research in a wide range of applications in the intersection of multi-modal sensing, communication, and positioning."
+}
