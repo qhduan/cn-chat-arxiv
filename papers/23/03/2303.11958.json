@@ -1,0 +1,12 @@
+{
+    "title": "Formulation of Weighted Average Smoothing as a Projection of the Origin onto a Convex Polytope. (arXiv:2303.11958v1 [cs.LG])",
+    "abstract": "Our study focuses on determining the best weight windows for a weighted moving average smoother under squared loss. We show that there exists an optimal weight window that is symmetrical around its center. We study the class of tapered weight windows, which decrease in weight as they move away from the center. We formulate the corresponding least squares problem as a quadratic program and finally as a projection of the origin onto a convex polytope. Additionally, we provide some analytical solutions to the best window when some conditions are met on the input data.",
+    "link": "http://arxiv.org/abs/2303.11958",
+    "context": "Title: Formulation of Weighted Average Smoothing as a Projection of the Origin onto a Convex Polytope. (arXiv:2303.11958v1 [cs.LG])\nAbstract: Our study focuses on determining the best weight windows for a weighted moving average smoother under squared loss. We show that there exists an optimal weight window that is symmetrical around its center. We study the class of tapered weight windows, which decrease in weight as they move away from the center. We formulate the corresponding least squares problem as a quadratic program and finally as a projection of the origin onto a convex polytope. Additionally, we provide some analytical solutions to the best window when some conditions are met on the input data.",
+    "path": "papers/23/03/2303.11958.json",
+    "total_tokens": 702,
+    "translated_title": "加权平滑在凸多面体上的投影式",
+    "translated_abstract": "本文研究了在平方损失下加权移动平均平滑器的最佳加权窗口。我们证明存在一个最优的对称加权窗口。我们研究了逐步减弱的加权窗口，它们的权重随着远离中心而减少。我们将相应的最小二乘问题公式化为一个二次规划问题，最终将其转化为原点在凸多面体上的投影。此外，当输入数据满足某些条件时，我们还提供了一些最佳窗口的分析解决方案。",
+    "tldr": "本文研究了加权移动平均平滑器的最佳加权窗口，将问题转化为原点在凸多面体上的投影，并提供了一些解决方案。",
+    "en_tdlr": "This study focuses on the best weight windows for a weighted moving average smoother under squared loss. By formulating the corresponding least squares problem as a quadratic program and finally as a projection of the origin onto a convex polytope, the optimal symmetrical weight window and tapered weight windows are found, and analytical solutions are provided when certain conditions are met on the input data."
+}

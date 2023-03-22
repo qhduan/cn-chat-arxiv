@@ -1,0 +1,12 @@
+{
+    "title": "Valid Inference after Causal Discovery. (arXiv:2208.05949v2 [stat.ME] UPDATED)",
+    "abstract": "Causal discovery and causal effect estimation are two fundamental tasks in causal inference. While many methods have been developed for each task individually, statistical challenges arise when applying these methods jointly: estimating causal effects after running causal discovery algorithms on the same data leads to \"double dipping,\" invalidating the coverage guarantees of classical confidence intervals. To this end, we develop tools for valid post-causal-discovery inference. Across empirical studies, we show that a naive combination of causal discovery and subsequent inference algorithms leads to highly inflated miscoverage rates; on the other hand, applying our method provides reliable coverage while achieving more accurate causal discovery than data splitting.",
+    "link": "http://arxiv.org/abs/2208.05949",
+    "context": "Title: Valid Inference after Causal Discovery. (arXiv:2208.05949v2 [stat.ME] UPDATED)\nAbstract: Causal discovery and causal effect estimation are two fundamental tasks in causal inference. While many methods have been developed for each task individually, statistical challenges arise when applying these methods jointly: estimating causal effects after running causal discovery algorithms on the same data leads to \"double dipping,\" invalidating the coverage guarantees of classical confidence intervals. To this end, we develop tools for valid post-causal-discovery inference. Across empirical studies, we show that a naive combination of causal discovery and subsequent inference algorithms leads to highly inflated miscoverage rates; on the other hand, applying our method provides reliable coverage while achieving more accurate causal discovery than data splitting.",
+    "path": "papers/22/08/2208.05949.json",
+    "total_tokens": 737,
+    "translated_title": "因果发现后的有效推断",
+    "translated_abstract": "因果发现和因果效应估计是因果推断中的两个基本任务。虽然已经针对每个任务单独开发了许多方法，但是同时应用这些方法时会出现统计上的挑战：在对相同数据运行因果发现算法后估计因果效应会导致\"双重挑选\"，从而使经典置信区间的覆盖保证无效。为此，我们开发了针对因果发现后有效的推断工具。通过实证研究，我们发现，天真组合因果发现算法和随后推断算法会导致高度膨胀的误覆盖率，而应用我们的方法则提供可靠的覆盖并实现比数据分割更准确的因果发现。",
+    "tldr": "本研究开发了工具以实现因果发现后的有效推断，解决了使用相同数据运行因果发现算法后估计因果效应导致经典置信区间的覆盖保证无效问题。",
+    "en_tdlr": "This study develops tools for valid post-causal-discovery inference, addressing the issue of invalidating the coverage guarantees of classical confidence intervals when estimating causal effects after running causal discovery algorithms on the same data."
+}

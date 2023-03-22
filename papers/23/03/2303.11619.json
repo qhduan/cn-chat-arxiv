@@ -1,0 +1,12 @@
+{
+    "title": "Blow-up Algorithm for Sum-of-Products Polynomials and Real Log Canonical Thresholds. (arXiv:2303.11619v1 [math.ST])",
+    "abstract": "When considering a real log canonical threshold (RLCT) that gives a Bayesian generalization error, in general, papers replace a mean error function with a relatively simple polynomial whose RLCT corresponds to that of the mean error function, and obtain its RLCT by resolving its singularities through an algebraic operation called blow-up. Though it is known that the singularities of any polynomial can be resolved by a finite number of blow-up iterations, it is not clarified whether or not it is possible to resolve singularities of a specific polynomial by applying a specific blow-up algorithm. Therefore this paper considers the blow-up algorithm for the polynomials called sum-of-products (sop) polynomials and its RLCT.",
+    "link": "http://arxiv.org/abs/2303.11619",
+    "context": "Title: Blow-up Algorithm for Sum-of-Products Polynomials and Real Log Canonical Thresholds. (arXiv:2303.11619v1 [math.ST])\nAbstract: When considering a real log canonical threshold (RLCT) that gives a Bayesian generalization error, in general, papers replace a mean error function with a relatively simple polynomial whose RLCT corresponds to that of the mean error function, and obtain its RLCT by resolving its singularities through an algebraic operation called blow-up. Though it is known that the singularities of any polynomial can be resolved by a finite number of blow-up iterations, it is not clarified whether or not it is possible to resolve singularities of a specific polynomial by applying a specific blow-up algorithm. Therefore this paper considers the blow-up algorithm for the polynomials called sum-of-products (sop) polynomials and its RLCT.",
+    "path": "papers/23/03/2303.11619.json",
+    "total_tokens": 681,
+    "translated_title": "求解和积多项式和实对数规范阈值的炸裂算法",
+    "translated_abstract": "在考虑给出贝叶斯广义误差的实对数规范阈值时，论文用稍微简单的多项式替换平均误差函数，其 RLCT 对应于平均误差函数的 RLCT，并通过称为炸裂的代数操作解决其奇点来获得其 RLCT。虽然众所周知，任何多项式的奇点都可以通过有限次的炸裂迭代来解决，但并没有明确是否可以通过应用特定的炸裂算法来解决特定多项式的奇点。因此，本文考虑了称为和积多项式的多项式的炸裂算法及其 RLCT。",
+    "tldr": "本文研究了和积多项式的炸裂算法和其 RLCT。",
+    "en_tdlr": "This paper studies the blow-up algorithm and RLCT of sum-of-products polynomials."
+}

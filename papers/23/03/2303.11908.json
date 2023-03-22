@@ -1,0 +1,12 @@
+{
+    "title": "Non-Asymptotic Pointwise and Worst-Case Bounds for Classical Spectrum Estimators. (arXiv:2303.11908v1 [math.ST])",
+    "abstract": "Spectrum estimation is a fundamental methodology in the analysis of time-series data, with applications including medicine, speech analysis, and control design. The asymptotic theory of spectrum estimation is well-understood, but the theory is limited when the number of samples is fixed and finite. This paper gives non-asymptotic error bounds for a broad class of spectral estimators, both pointwise (at specific frequencies) and in the worst case over all frequencies. The general method is used to derive error bounds for the classical Blackman-Tukey, Bartlett, and Welch estimators.",
+    "link": "http://arxiv.org/abs/2303.11908",
+    "context": "Title: Non-Asymptotic Pointwise and Worst-Case Bounds for Classical Spectrum Estimators. (arXiv:2303.11908v1 [math.ST])\nAbstract: Spectrum estimation is a fundamental methodology in the analysis of time-series data, with applications including medicine, speech analysis, and control design. The asymptotic theory of spectrum estimation is well-understood, but the theory is limited when the number of samples is fixed and finite. This paper gives non-asymptotic error bounds for a broad class of spectral estimators, both pointwise (at specific frequencies) and in the worst case over all frequencies. The general method is used to derive error bounds for the classical Blackman-Tukey, Bartlett, and Welch estimators.",
+    "path": "papers/23/03/2303.11908.json",
+    "total_tokens": 769,
+    "translated_title": "经典谱估计的非渐进式点值和最坏情况边界",
+    "translated_abstract": "谱估计是时间序列数据分析的基本方法，应用包括医学、语音分析和控制设计。虽然谱估计的渐进理论很好理解，但在样本数量固定且有限的情况下，该理论存在一定局限性。本文为广泛类别的谱估计器提供了非渐进误差边界，包括在特定频率处的点值误差边界和所有频率下的最坏情况误差边界。本文所提的一般方法也用于导出了经典的 Blackman-Tukey、Bartlett 和 Welch 估计器的误差边界。",
+    "tldr": "本文给出了非渐进误差边界，为广泛类别的谱估计器提供了误差边界，包括在特定频率处的点值误差边界和所有频率下的最坏情况误差边界，并利用该方法导出了经典谱估计器（Blackman-Tukey、Bartlett 和 Welch 估计器）的误差边界。",
+    "en_tdlr": "This paper provides non-asymptotic error bounds for a broad class of spectral estimators including pointwise and worst-case errors, and derives these bounds for classical Blackman-Tukey, Bartlett and Welch estimators."
+}

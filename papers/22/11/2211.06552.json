@@ -1,0 +1,12 @@
+{
+    "title": "Collecting Interactive Multi-modal Datasets for Grounded Language Understanding. (arXiv:2211.06552v3 [cs.CL] UPDATED)",
+    "abstract": "Human intelligence can remarkably adapt quickly to new tasks and environments. Starting from a very young age, humans acquire new skills and learn how to solve new tasks either by imitating the behavior of others or by following provided natural language instructions. To facilitate research which can enable similar capabilities in machines, we made the following contributions (1) formalized the collaborative embodied agent using natural language task; (2) developed a tool for extensive and scalable data collection; and (3) collected the first dataset for interactive grounded language understanding.",
+    "link": "http://arxiv.org/abs/2211.06552",
+    "context": "Title: Collecting Interactive Multi-modal Datasets for Grounded Language Understanding. (arXiv:2211.06552v3 [cs.CL] UPDATED)\nAbstract: Human intelligence can remarkably adapt quickly to new tasks and environments. Starting from a very young age, humans acquire new skills and learn how to solve new tasks either by imitating the behavior of others or by following provided natural language instructions. To facilitate research which can enable similar capabilities in machines, we made the following contributions (1) formalized the collaborative embodied agent using natural language task; (2) developed a tool for extensive and scalable data collection; and (3) collected the first dataset for interactive grounded language understanding.",
+    "path": "papers/22/11/2211.06552.json",
+    "total_tokens": 646,
+    "translated_title": "收集交互多模态数据集以进行基础语言理解",
+    "translated_abstract": "人类智慧能够迅速适应新的任务和环境。从很小的时候开始，人类通过模仿他人的行为或按照提供的自然语言指令学习新技能并学会解决新任务。为了促进研究能够在机器中实现类似功能的方法，本文作出了以下贡献：（1）形式化协作体验智能体使用自然语言任务；（2）开发了一个可进行广泛和可扩展的数据收集工具；（3）收集了首个交互基础语言理解数据集。",
+    "tldr": "本文提出了一个通过自然语言任务与协作体验智能体交互收集数据集的方法，并收集了首个交互基础语言理解数据集。",
+    "en_tdlr": "The paper proposes a method of collecting datasets through interactions between collaborative embodied agents and natural language tasks and collected the first interactive grounded language understanding dataset."
+}

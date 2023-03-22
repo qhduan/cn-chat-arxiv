@@ -1,0 +1,12 @@
+{
+    "title": "Graph Kalman Filters. (arXiv:2303.12021v1 [cs.LG])",
+    "abstract": "The well-known Kalman filters model dynamical systems by relying on state-space representations with the next state updated, and its uncertainty controlled, by fresh information associated with newly observed system outputs. This paper generalizes, for the first time in the literature, Kalman and extended Kalman filters to discrete-time settings where inputs, states, and outputs are represented as attributed graphs whose topology and attributes can change with time. The setup allows us to adapt the framework to cases where the output is a vector or a scalar too (node/graph level tasks). Within the proposed theoretical framework, the unknown state-transition and the readout functions are learned end-to-end along with the downstream prediction task.",
+    "link": "http://arxiv.org/abs/2303.12021",
+    "context": "Title: Graph Kalman Filters. (arXiv:2303.12021v1 [cs.LG])\nAbstract: The well-known Kalman filters model dynamical systems by relying on state-space representations with the next state updated, and its uncertainty controlled, by fresh information associated with newly observed system outputs. This paper generalizes, for the first time in the literature, Kalman and extended Kalman filters to discrete-time settings where inputs, states, and outputs are represented as attributed graphs whose topology and attributes can change with time. The setup allows us to adapt the framework to cases where the output is a vector or a scalar too (node/graph level tasks). Within the proposed theoretical framework, the unknown state-transition and the readout functions are learned end-to-end along with the downstream prediction task.",
+    "path": "papers/23/03/2303.12021.json",
+    "total_tokens": 715,
+    "translated_title": "图卡尔曼滤波器",
+    "translated_abstract": "众所周知，卡尔曼滤波器通过使用状态空间表示来模拟动态系统，下一个状态的更新以及与新观察到的系统输出相关的信息来控制其不确定性。本文首次将卡尔曼和扩展卡尔曼滤波器推广到离散时间的设置下，其中输入、状态和输出均表示为带属性的图形，其拓扑和属性可以随时间变化。此设置使得我们可以将框架适应于输出是向量或标量的情况（节点/图级任务）。在所提出的理论框架内，未知的状态转移和读取函数与下游预测任务一起端到端学习。",
+    "tldr": "本文首次将卡尔曼和扩展卡尔曼滤波器推广到图形上，使得它可以适用于输出是向量或标量的情况，并且可以学习未知的状态转移和读取函数。",
+    "en_tdlr": "This paper generalizes Kalman and extended Kalman filters to attributed graphs, allowing it to adapt to cases where the output is a vector or a scalar, and enabling the learning of unknown state-transition and readout functions."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "GLADE: Gradient Loss Augmented Degradation Enhancement for Unpaired Super-Resolution of Anisotropic MRI. (arXiv:2303.11831v1 [cs.CV])",
+    "abstract": "We present a novel approach to synthesise high-resolution isotropic 3D abdominal MR images, from anisotropic 3D images in an unpaired fashion. Using a modified CycleGAN architecture with a gradient mapping loss, we leverage disjoint patches from the high-resolution (in-plane) data of an anisotropic volume to enforce the network generator to increase the resolution of the low-resolution (through-plane) slices. This will enable accelerated whole-abdomen scanning with high-resolution isotropic images within short breath-hold times.",
+    "link": "http://arxiv.org/abs/2303.11831",
+    "context": "Title: GLADE: Gradient Loss Augmented Degradation Enhancement for Unpaired Super-Resolution of Anisotropic MRI. (arXiv:2303.11831v1 [cs.CV])\nAbstract: We present a novel approach to synthesise high-resolution isotropic 3D abdominal MR images, from anisotropic 3D images in an unpaired fashion. Using a modified CycleGAN architecture with a gradient mapping loss, we leverage disjoint patches from the high-resolution (in-plane) data of an anisotropic volume to enforce the network generator to increase the resolution of the low-resolution (through-plane) slices. This will enable accelerated whole-abdomen scanning with high-resolution isotropic images within short breath-hold times.",
+    "path": "papers/23/03/2303.11831.json",
+    "total_tokens": 684,
+    "translated_title": "GLADE：用于非配对超分辨率各向异性MRI的梯度损失增强退化增强",
+    "translated_abstract": "我们提出了一种新方法，在非配对的情况下，从各向异性3D图像中合成高分辨率等向性3D腹部MR图像。通过使用修改后的CycleGAN架构，并使用梯度映射损失，我们利用来自各向异性体积高分辨率（面内）数据的不重叠的补丁，强制网络生成器增加低分辨率（面外）切片的分辨率。这将使在短时间内以高分辨率等向性图像进行全腹扫描成为可能。",
+    "tldr": "本文提出了一种可用于加速全腹MRI扫描的新方法GLADE，它通过使用梯度映射损失来合成高分辨率等向性3D腹部MR图像。",
+    "en_tdlr": "The paper proposes a new approach GLADE for accelerating full abdomen MRI scanning by synthesizing high-resolution isotropic 3D abdominal MR images using the gradient mapping loss in an unpaired fashion."
+}

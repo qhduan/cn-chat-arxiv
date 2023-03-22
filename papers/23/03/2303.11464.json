@@ -1,0 +1,12 @@
+{
+    "title": "Seven open problems in applied combinatorics. (arXiv:2303.11464v1 [math.CO])",
+    "abstract": "We present and discuss seven different open problems in applied combinatorics. The application areas relevant to this compilation include quantum computing, algorithmic differentiation, topological data analysis, iterative methods, hypergraph cut algorithms, and power systems.",
+    "link": "http://arxiv.org/abs/2303.11464",
+    "context": "Title: Seven open problems in applied combinatorics. (arXiv:2303.11464v1 [math.CO])\nAbstract: We present and discuss seven different open problems in applied combinatorics. The application areas relevant to this compilation include quantum computing, algorithmic differentiation, topological data analysis, iterative methods, hypergraph cut algorithms, and power systems.",
+    "path": "papers/23/03/2303.11464.json",
+    "total_tokens": 517,
+    "translated_title": "应用组合数学中的七个未解之谜",
+    "translated_abstract": "我们提出并讨论了应用组合数学中的七个不同的未解之谜。这个研究领域包括量子计算，算法分化，拓扑数据分析，迭代方法，超图切割算法和电力系统。",
+    "tldr": "这篇论文介绍了七个应用组合数学中的未解之谜，这些问题涉及量子计算，算法分化，拓扑数据分析，超图切割算法和电力系统等多个研究领域。",
+    "en_tdlr": "This paper presents and discusses seven open problems in applied combinatorics, including quantum computing, algorithmic differentiation, topological data analysis, iterative methods, hypergraph cut algorithms, and power systems."
+}

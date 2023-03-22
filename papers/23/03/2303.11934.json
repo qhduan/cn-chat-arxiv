@@ -1,0 +1,12 @@
+{
+    "title": "Sparse Distributed Memory is a Continual Learner. (arXiv:2303.11934v1 [cs.NE])",
+    "abstract": "Continual learning is a problem for artificial neural networks that their biological counterparts are adept at solving. Building on work using Sparse Distributed Memory (SDM) to connect a core neural circuit with the powerful Transformer model, we create a modified Multi-Layered Perceptron (MLP) that is a strong continual learner. We find that every component of our MLP variant translated from biology is necessary for continual learning. Our solution is also free from any memory replay or task information, and introduces novel methods to train sparse networks that may be broadly applicable.",
+    "link": "http://arxiv.org/abs/2303.11934",
+    "context": "Title: Sparse Distributed Memory is a Continual Learner. (arXiv:2303.11934v1 [cs.NE])\nAbstract: Continual learning is a problem for artificial neural networks that their biological counterparts are adept at solving. Building on work using Sparse Distributed Memory (SDM) to connect a core neural circuit with the powerful Transformer model, we create a modified Multi-Layered Perceptron (MLP) that is a strong continual learner. We find that every component of our MLP variant translated from biology is necessary for continual learning. Our solution is also free from any memory replay or task information, and introduces novel methods to train sparse networks that may be broadly applicable.",
+    "path": "papers/23/03/2303.11934.json",
+    "total_tokens": 752,
+    "translated_title": "稀疏分布式内存是一个持续学习者",
+    "translated_abstract": "持续学习是人工神经网络面临的问题，而它们的生物学对应物擅长解决。在利用稀疏分布式内存（SDM）将核心神经电路与强大的Transformer模型相连接的研究基础上，我们创建了一个改进的多层感知器（MLP），它是一个强大的持续学习者。我们发现，从生物学上翻译过来的我们的MLP变体的每个组成部分都是持续学习所必需的。我们的解决方案也不需要任何记忆重放或任务信息，并引入了训练稀疏网络的新方法，这可能具有广泛的适用性。",
+    "tldr": "该论文提出了一个使用稀疏分布式内存的修改多层感知器（MLP）模型，它是一个强大的持续学习者，并且该方法不需要记忆重放或任务信息。这是一种训练稀疏网络的新方法，具有广泛的适用性。",
+    "en_tdlr": "This paper proposes a modified Multi-Layered Perceptron (MLP) model using Sparse Distributed Memory (SDM), which is a strong continual learner and does not require memory replay or task information. It introduces a novel method for training sparse networks with broad applicability."
+}

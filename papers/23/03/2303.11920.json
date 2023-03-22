@@ -1,0 +1,12 @@
+{
+    "title": "Do intermediate feature coalitions aid explainability of black-box models?. (arXiv:2303.11920v1 [cs.LG])",
+    "abstract": "This work introduces the notion of intermediate concepts based on levels structure to aid explainability for black-box models. The levels structure is a hierarchical structure in which each level corresponds to features of a dataset (i.e., a player-set partition). The level of coarseness increases from the trivial set, which only comprises singletons, to the set, which only contains the grand coalition. In addition, it is possible to establish meronomies, i.e., part-whole relationships, via a domain expert that can be utilised to generate explanations at an abstract level. We illustrate the usability of this approach in a real-world car model example and the Titanic dataset, where intermediate concepts aid in explainability at different levels of abstraction.",
+    "link": "http://arxiv.org/abs/2303.11920",
+    "context": "Title: Do intermediate feature coalitions aid explainability of black-box models?. (arXiv:2303.11920v1 [cs.LG])\nAbstract: This work introduces the notion of intermediate concepts based on levels structure to aid explainability for black-box models. The levels structure is a hierarchical structure in which each level corresponds to features of a dataset (i.e., a player-set partition). The level of coarseness increases from the trivial set, which only comprises singletons, to the set, which only contains the grand coalition. In addition, it is possible to establish meronomies, i.e., part-whole relationships, via a domain expert that can be utilised to generate explanations at an abstract level. We illustrate the usability of this approach in a real-world car model example and the Titanic dataset, where intermediate concepts aid in explainability at different levels of abstraction.",
+    "path": "papers/23/03/2303.11920.json",
+    "total_tokens": 731,
+    "translated_title": "中间特征联盟能帮助解释黑盒模型吗？",
+    "translated_abstract": "本文引入了基于级别结构的中间概念，以帮助黑盒模型的可解释性。级别结构是一种分层结构，每个级别对应数据集的特征（即玩家集分区）。从只包含单元素的平凡集合到只包含大联盟的集合，粗糙度的级别逐渐增加。此外，可以通过领域专家建立部分-整体关系来生成抽象级别的解释。我们在一个实际的汽车模型示例和泰坦尼克号的数据集中说明了这种方法的可用性，其中中间概念在不同抽象级别上帮助解释。",
+    "tldr": "本文引入了中间概念的级别结构，利用领域专家建立部分-整体关系，从而在不同抽象级别上帮助解释黑盒模型。",
+    "en_tdlr": "This work introduces intermediate concepts based on levels structure to assist in the explainability of black-box models using part-whole relationships established by domain experts, explaining at different levels of abstraction in real-world examples."
+}

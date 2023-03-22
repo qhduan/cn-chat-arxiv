@@ -1,0 +1,12 @@
+{
+    "title": "Application of an ontology for model cards to generate computable artifacts for linking machine learning information from biomedical research. (arXiv:2303.11991v1 [cs.DL])",
+    "abstract": "Model card reports provide a transparent description of machine learning models which includes information about their evaluation, limitations, intended use, etc. Federal health agencies have expressed an interest in model cards report for research studies using machine-learning based AI. Previously, we have developed an ontology model for model card reports to structure and formalize these reports. In this paper, we demonstrate a Java-based library (OWL API, FaCT++) that leverages our ontology to publish computable model card reports. We discuss future directions and other use cases that highlight applicability and feasibility of ontology-driven systems to support FAIR challenges.",
+    "link": "http://arxiv.org/abs/2303.11991",
+    "context": "Title: Application of an ontology for model cards to generate computable artifacts for linking machine learning information from biomedical research. (arXiv:2303.11991v1 [cs.DL])\nAbstract: Model card reports provide a transparent description of machine learning models which includes information about their evaluation, limitations, intended use, etc. Federal health agencies have expressed an interest in model cards report for research studies using machine-learning based AI. Previously, we have developed an ontology model for model card reports to structure and formalize these reports. In this paper, we demonstrate a Java-based library (OWL API, FaCT++) that leverages our ontology to publish computable model card reports. We discuss future directions and other use cases that highlight applicability and feasibility of ontology-driven systems to support FAIR challenges.",
+    "path": "papers/23/03/2303.11991.json",
+    "total_tokens": 737,
+    "translated_title": "基于本体论的模型卡在生物医学研究中机器学习信息链接中的应用",
+    "translated_abstract": "模型卡报告提供了机器学习模型的透明描述，其中包括有关其评估、限制、预期用途等信息。联邦卫生机构对使用基于机器学习的人工智能进行研究的模型卡报告表达了兴趣。之前，我们开发了一个用于模型卡报告的本体模型，以结构化和正式化这些报告。在本文中，我们展示了一个基于Java的库(OWL API，FaCT++)，利用我们的本体发布可计算的模型卡报告。我们讨论未来的方向和其他的用例，以凸显本体驱动系统支持FAIR挑战的适用性和可行性。",
+    "tldr": "本研究介绍了一个基于本体论的模型卡系统，用于结构化和正式化机器学习模型的评估、限制和预期用途等相关信息，以支持FAIR挑战。",
+    "en_tdlr": "This paper presents an ontology-driven model card system to structure and formalize information related to the evaluation, limitations, and intended use of machine learning models, supporting FAIR challenges."
+}

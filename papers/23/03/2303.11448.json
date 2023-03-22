@@ -1,0 +1,12 @@
+{
+    "title": "Geometrical aspects of lattice gauge equivariant convolutional neural networks. (arXiv:2303.11448v1 [hep-lat])",
+    "abstract": "Lattice gauge equivariant convolutional neural networks (L-CNNs) are a framework for convolutional neural networks that can be applied to non-Abelian lattice gauge theories without violating gauge symmetry. We demonstrate how L-CNNs can be equipped with global group equivariance. This allows us to extend the formulation to be equivariant not just under translations but under global lattice symmetries such as rotations and reflections. Additionally, we provide a geometric formulation of L-CNNs and show how convolutions in L-CNNs arise as a special case of gauge equivariant neural networks on SU($N$) principal bundles.",
+    "link": "http://arxiv.org/abs/2303.11448",
+    "context": "Title: Geometrical aspects of lattice gauge equivariant convolutional neural networks. (arXiv:2303.11448v1 [hep-lat])\nAbstract: Lattice gauge equivariant convolutional neural networks (L-CNNs) are a framework for convolutional neural networks that can be applied to non-Abelian lattice gauge theories without violating gauge symmetry. We demonstrate how L-CNNs can be equipped with global group equivariance. This allows us to extend the formulation to be equivariant not just under translations but under global lattice symmetries such as rotations and reflections. Additionally, we provide a geometric formulation of L-CNNs and show how convolutions in L-CNNs arise as a special case of gauge equivariant neural networks on SU($N$) principal bundles.",
+    "path": "papers/23/03/2303.11448.json",
+    "total_tokens": 727,
+    "translated_title": "栅格规范等变卷积神经网络的几何方面",
+    "translated_abstract": "栅格规范等变卷积神经网络(L-CNNs)是卷积神经网络的框架，可应用于非阿贝尔栅格规范理论，而不违反规范对称性。我们演示了如何将L-CNNs配备全局群等变性。这使我们能够将公式扩展为既等变于平移，又等变于全局纹格对称性，例如旋转和反射。此外，我们提供了一个L-CNN的几何公式，并显示L-CNN中的卷积是SU($N$)主丛上规范等变神经网络的特例。",
+    "tldr": "本文研究了栅格规范等变卷积神经网络的全局群等变性，并提供了一个几何公式，表明L-CNN中的卷积是SU($N$)主丛上规范等变神经网络的一个特例。",
+    "en_tdlr": "The paper studies the global group equivariance of lattice gauge equivariant convolutional neural networks and provides a geometric formulation, showing that convolutions in L-CNNs are a special case of gauge equivariant neural networks on SU($N$) principal bundles."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Characterizing Random Serial Dictatorship. (arXiv:2303.11976v1 [econ.TH])",
+    "abstract": "Random serial dictatorship (RSD) is a randomized assignment rule that - given a set of $n$ agents with strict preferences over $n$ houses - satisfies equal treatment of equals, ex post efficiency, and strategyproofness. For $n \\le 3$, Bogomolnaia and Moulin (2001) have shown that RSD is characterized by these three axioms. Using best first search in combination with quadratic programming, we extend this characterization to $n \\le 5$, getting closer to answering the long-standing open question whether the characterization holds for arbitrary $n$. On the way, we describe weakenings of ex post efficiency and strategyproofness that are sufficient for our characterization and identify problems when making statements for larger $n$.",
+    "link": "http://arxiv.org/abs/2303.11976",
+    "context": "Title: Characterizing Random Serial Dictatorship. (arXiv:2303.11976v1 [econ.TH])\nAbstract: Random serial dictatorship (RSD) is a randomized assignment rule that - given a set of $n$ agents with strict preferences over $n$ houses - satisfies equal treatment of equals, ex post efficiency, and strategyproofness. For $n \\le 3$, Bogomolnaia and Moulin (2001) have shown that RSD is characterized by these three axioms. Using best first search in combination with quadratic programming, we extend this characterization to $n \\le 5$, getting closer to answering the long-standing open question whether the characterization holds for arbitrary $n$. On the way, we describe weakenings of ex post efficiency and strategyproofness that are sufficient for our characterization and identify problems when making statements for larger $n$.",
+    "path": "papers/23/03/2303.11976.json",
+    "total_tokens": 803,
+    "translated_title": "描述随机串行独裁的特征",
+    "translated_abstract": "随机串行独裁是一种随机分配规则，它给定了一组对$n$个房屋的选择具有严格偏好的$n$个代理人，满足平等对待、后验效率和策略无关性。对于$n \\le 3$，Bogomolnaia和Moulin（2001）已经表明随机串行独裁以这三个公理为特征。本文利用组合最佳优先搜索和二次规划将这个特征扩展到$n \\le 5$，更接近回答长期存在的开放性问题，即这个特征是否适用于任意$n$。在此过程中，我们描述了后验效率和策略无关性的削弱形式，这些形式足以满足我们的特征，并确定在针对更大$n$时做出陈述时存在的问题。",
+    "tldr": "本文通过使用组合最佳优先算法和二次规划，扩展了随机串行独裁的特征到$n\\le5$的情况，接近解决该特征是否适用于任意$n$的问题。",
+    "en_tdlr": "This paper characterizes random serial dictatorship using a combination of best first search and quadratic programming, extending the characterization to $n \\le 5$ and getting closer to answering the open question of whether the characterization holds for arbitrary $n$."
+}

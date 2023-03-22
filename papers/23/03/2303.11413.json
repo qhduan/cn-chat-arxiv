@@ -1,0 +1,12 @@
+{
+    "title": "Vibration Signal Denoising Using Deep Learning. (arXiv:2303.11413v1 [eess.SP])",
+    "abstract": "Structure vibration signals induced by footsteps are widely used for tasks like occupant identification, localization, human activity inference, structure health monitoring and so on. The vibration signals are collected as time series with amplitude values. However, the collected signals are always noisy in practice due to the influence of environmental noise, electromagnetic interference and other factors. The presence of noise affects the process of signal analysis, thus affecting the accuracy and error of the final tasks. In this paper, we mainly explore the denoising methods for footstep-induced vibration signals. We have considered different kinds of noise including stationary noises such as gaussian noises and non-stationary noises such as item-dropping vibration noise and music noises.",
+    "link": "http://arxiv.org/abs/2303.11413",
+    "context": "Title: Vibration Signal Denoising Using Deep Learning. (arXiv:2303.11413v1 [eess.SP])\nAbstract: Structure vibration signals induced by footsteps are widely used for tasks like occupant identification, localization, human activity inference, structure health monitoring and so on. The vibration signals are collected as time series with amplitude values. However, the collected signals are always noisy in practice due to the influence of environmental noise, electromagnetic interference and other factors. The presence of noise affects the process of signal analysis, thus affecting the accuracy and error of the final tasks. In this paper, we mainly explore the denoising methods for footstep-induced vibration signals. We have considered different kinds of noise including stationary noises such as gaussian noises and non-stationary noises such as item-dropping vibration noise and music noises.",
+    "path": "papers/23/03/2303.11413.json",
+    "total_tokens": 733,
+    "translated_title": "基于深度学习的振动信号去噪方法",
+    "translated_abstract": "由脚步引起的结构振动信号被广泛用于人员识别、定位、人类活动推断、结构健康监测等任务。然而，由于环境噪声、电磁干扰等因素的影响，实际采集的信号通常会带有噪声。噪声的存在影响了信号处理过程，从而影响了最终任务的准确性和误差。本文主要探讨了基于深度学习的去除脚步引起的振动信号的噪声的方法。我们考虑了不同类型的噪声，包括高斯噪声和非平稳噪声等。",
+    "tldr": "本文研究了基于深度学习的去除脚步引起的振动信号的噪声的方法，该方法适用于高斯噪声和非平稳噪声。",
+    "en_tdlr": "This paper explores the denoising methods for footstep-induced vibration signals using deep learning, which can handle both stationary and non-stationary noises such as gaussian noises and item-dropping vibration noise."
+}

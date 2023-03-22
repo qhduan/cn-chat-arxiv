@@ -1,0 +1,12 @@
+{
+    "title": "Non-Market Allocation Mechanisms: Optimal Design and Investment Incentives. (arXiv:2303.11805v1 [econ.TH])",
+    "abstract": "We study how to optimally design selection mechanisms, accounting for agents' investment incentives. A principal wishes to allocate a resource of homogeneous quality to a heterogeneous population of agents. The principal commits to a possibly random selection rule that depends on a one-dimensional characteristic of the agents she intrinsically values. Agents have a strict preference for being selected by the principal and may undertake a costly investment to improve their characteristic before it is revealed to the principal. We show that even if random selection rules foster agents' investments, especially at the top of the characteristic distribution, deterministic \"pass-fail\" selection rules are in fact optimal.",
+    "link": "http://arxiv.org/abs/2303.11805",
+    "context": "Title: Non-Market Allocation Mechanisms: Optimal Design and Investment Incentives. (arXiv:2303.11805v1 [econ.TH])\nAbstract: We study how to optimally design selection mechanisms, accounting for agents' investment incentives. A principal wishes to allocate a resource of homogeneous quality to a heterogeneous population of agents. The principal commits to a possibly random selection rule that depends on a one-dimensional characteristic of the agents she intrinsically values. Agents have a strict preference for being selected by the principal and may undertake a costly investment to improve their characteristic before it is revealed to the principal. We show that even if random selection rules foster agents' investments, especially at the top of the characteristic distribution, deterministic \"pass-fail\" selection rules are in fact optimal.",
+    "path": "papers/23/03/2303.11805.json",
+    "total_tokens": 702,
+    "translated_title": "非市场分配机制：最优设计与投资激励研究",
+    "translated_abstract": "本文研究了如何对选择机制进行最优设计，并考虑到代理商的投资激励。主体希望将均质资源分配给异质人群的代理商。主体确定了一个可能是随机的选择规则，该规则取决于代理商本质上看重的一维特征。代理商严格偏爱被主体选择，可能会进行昂贵的投资以提高在主体揭示之前的特征。我们表明，即使随机选择规则促进了代理商的投资，特别是在特征分布的顶部，确定性的“过/不过”选择规则实际上是最优的。",
+    "tldr": "研究了如何对选择机制进行最优设计，考虑代理商的投资激励，确定性的“过/不过”选择规则实际上是最优的。",
+    "en_tdlr": "This paper studies the optimal design of selection mechanisms, considering agents' investment incentives, and shows that deterministic \"pass-fail\" selection rules are in fact optimal."
+}

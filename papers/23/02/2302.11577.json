@@ -1,0 +1,12 @@
+{
+    "title": "Explainable AI does not provide the explanations end-users are asking for. (arXiv:2302.11577v2 [cs.HC] UPDATED)",
+    "abstract": "Explainable Artificial Intelligence (XAI) techniques are frequently required by users in many AI systems with the goal of understanding complex models, their associated predictions, and gaining trust. While suitable for some specific tasks during development, their adoption by organisations to enhance trust in machine learning systems has unintended consequences. In this paper we discuss XAI's limitations in deployment and conclude that transparency alongside with rigorous validation are better suited to gaining trust in AI systems.",
+    "link": "http://arxiv.org/abs/2302.11577",
+    "context": "Title: Explainable AI does not provide the explanations end-users are asking for. (arXiv:2302.11577v2 [cs.HC] UPDATED)\nAbstract: Explainable Artificial Intelligence (XAI) techniques are frequently required by users in many AI systems with the goal of understanding complex models, their associated predictions, and gaining trust. While suitable for some specific tasks during development, their adoption by organisations to enhance trust in machine learning systems has unintended consequences. In this paper we discuss XAI's limitations in deployment and conclude that transparency alongside with rigorous validation are better suited to gaining trust in AI systems.",
+    "path": "papers/23/02/2302.11577.json",
+    "total_tokens": 637,
+    "translated_title": "可解释性人工智能无法提供最终用户所要求的解释",
+    "translated_abstract": "可解释性人工智能（XAI）技术经常被许多人工智能系统的用户要求使用，旨在了解复杂模型及其相关预测，并建立信任。虽然在开发的某些特定任务中是适用的，但组织采用这些技术来增强对机器学习系统的信任时，会产生意想不到的后果。在本文中，我们讨论了XAI在部署中的局限性，并得出结论认为透明度和严格的验证更适合获得人工智能系统的信任。",
+    "tldr": "可解释性人工智能对提高人工智能系统信任度的效果有局限性，透明度和严格的验证更适合打造可靠的人工智能系统。",
+    "en_tdlr": "Explainable AI has limitations in improving the trustworthiness of AI systems, and transparency with rigorous validation is better suited for building reliable AI systems."
+}

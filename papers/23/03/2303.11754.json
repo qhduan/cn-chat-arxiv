@@ -1,0 +1,12 @@
+{
+    "title": "Projections of Model Spaces for Latent Graph Inference. (arXiv:2303.11754v1 [cs.LG])",
+    "abstract": "Graph Neural Networks leverage the connectivity structure of graphs as an inductive bias. Latent graph inference focuses on learning an adequate graph structure to diffuse information on and improve the downstream performance of the model. In this work we employ stereographic projections of the hyperbolic and spherical model spaces, as well as products of Riemannian manifolds, for the purpose of latent graph inference. Stereographically projected model spaces achieve comparable performance to their non-projected counterparts, while providing theoretical guarantees that avoid divergence of the spaces when the curvature tends to zero. We perform experiments on both homophilic and heterophilic graphs.",
+    "link": "http://arxiv.org/abs/2303.11754",
+    "context": "Title: Projections of Model Spaces for Latent Graph Inference. (arXiv:2303.11754v1 [cs.LG])\nAbstract: Graph Neural Networks leverage the connectivity structure of graphs as an inductive bias. Latent graph inference focuses on learning an adequate graph structure to diffuse information on and improve the downstream performance of the model. In this work we employ stereographic projections of the hyperbolic and spherical model spaces, as well as products of Riemannian manifolds, for the purpose of latent graph inference. Stereographically projected model spaces achieve comparable performance to their non-projected counterparts, while providing theoretical guarantees that avoid divergence of the spaces when the curvature tends to zero. We perform experiments on both homophilic and heterophilic graphs.",
+    "path": "papers/23/03/2303.11754.json",
+    "total_tokens": 695,
+    "translated_title": "潜在图推断中的模型空间投影。",
+    "translated_abstract": "图神经网络利用图的连接结构作为归纳偏差。潜在图推断关注于学习一个合适的图结构来扩散信息并提高模型的下游性能。本文利用双曲和球形模型空间的立体投影，以及Riemannian隐空间的乘积，用于潜在图推断。在避免曲率趋于零时空间发散的理论保证下，立体投影模型空间能实现与非投影对应模型空间相当的性能。我们在同构和异构图上进行实验。",
+    "tldr": "本文将双曲和球形模型空间的立体投影以及Riemannian隐空间的乘积应用于潜在图推断，实现了与非投影空间相当的性能并提供理论保证。",
+    "en_tdlr": "This paper applies stereographic projections of the hyperbolic and spherical model spaces, as well as products of Riemannian manifolds, for latent graph inference, achieving comparable performance with theoretical guarantees that avoid space divergence when curvature tends to zero."
+}

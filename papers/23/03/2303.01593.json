@@ -1,0 +1,12 @@
+{
+    "title": "QAID: Question Answering Inspired Few-shot Intent Detection. (arXiv:2303.01593v2 [cs.CL] UPDATED)",
+    "abstract": "Intent detection with semantically similar fine-grained intents is a challenging task. To address it, we reformulate intent detection as a question-answering retrieval task by treating utterances and intent names as questions and answers. To that end, we utilize a question-answering retrieval architecture and adopt a two stages training schema with batch contrastive loss. In the pre-training stage, we improve query representations through self-supervised training. Then, in the fine-tuning stage, we increase contextualized token-level similarity scores between queries and answers from the same intent. Our results on three few-shot intent detection benchmarks achieve state-of-the-art performance.",
+    "link": "http://arxiv.org/abs/2303.01593",
+    "context": "Title: QAID: Question Answering Inspired Few-shot Intent Detection. (arXiv:2303.01593v2 [cs.CL] UPDATED)\nAbstract: Intent detection with semantically similar fine-grained intents is a challenging task. To address it, we reformulate intent detection as a question-answering retrieval task by treating utterances and intent names as questions and answers. To that end, we utilize a question-answering retrieval architecture and adopt a two stages training schema with batch contrastive loss. In the pre-training stage, we improve query representations through self-supervised training. Then, in the fine-tuning stage, we increase contextualized token-level similarity scores between queries and answers from the same intent. Our results on three few-shot intent detection benchmarks achieve state-of-the-art performance.",
+    "path": "papers/23/03/2303.01593.json",
+    "total_tokens": 763,
+    "translated_title": "QAID：启发式的Few-shot意图检测方法",
+    "translated_abstract": "意图检测涉及到一些语义相似的细粒度意图，是一个具有挑战性的任务。为了解决这个问题，我们将意图检测重新定义为一个问题-回答检索任务，将话语和意图名作为问题和答案。为此，我们利用了一个问题-回答检索体系结构，并采用了一个两阶段培训模式，其中包括批量对比损失。在预训练阶段，我们通过自我监督培训来改善查询表示。然后，在微调阶段中，我们增加了查询和同一意图答案之间的上下文化令牌级相似度分数。我們在三个few-shot意图检测基准测试上的结果达到了最优表现。",
+    "tldr": "本文提出了一个启发式的Few-shot意图检测方法，通过将意图检测重新定义为一个问题-回答检索任务来解决语义相似的细粒度意图问题，结果在三个few-shot意图检测基准测试上取得了最优表现。",
+    "en_tdlr": "This paper proposes a Question Answering inspired Few-shot Intent Detection method that reformulates intent detection as a question-answering retrieval task and achieves state-of-the-art performance on three few-shot intent detection benchmarks."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Convergence of stochastic gradient descent on parameterized sphere with applications to variational Monte Carlo simulation. (arXiv:2303.11602v1 [cs.LG])",
+    "abstract": "We analyze stochastic gradient descent (SGD) type algorithms on a high-dimensional sphere which is parameterized by a neural network up to a normalization constant. We provide a new algorithm for the setting of supervised learning and show its convergence both theoretically and numerically. We also provide the first proof of convergence for the unsupervised setting, which corresponds to the widely used variational Monte Carlo (VMC) method in quantum physics.",
+    "link": "http://arxiv.org/abs/2303.11602",
+    "context": "Title: Convergence of stochastic gradient descent on parameterized sphere with applications to variational Monte Carlo simulation. (arXiv:2303.11602v1 [cs.LG])\nAbstract: We analyze stochastic gradient descent (SGD) type algorithms on a high-dimensional sphere which is parameterized by a neural network up to a normalization constant. We provide a new algorithm for the setting of supervised learning and show its convergence both theoretically and numerically. We also provide the first proof of convergence for the unsupervised setting, which corresponds to the widely used variational Monte Carlo (VMC) method in quantum physics.",
+    "path": "papers/23/03/2303.11602.json",
+    "total_tokens": 638,
+    "translated_title": "带应用于变分蒙特卡罗模拟的参数化球的随机梯度下降的收敛性分析。",
+    "translated_abstract": "本文分析了在由神经网络参数化为常数倍的高维球上使用随机梯度下降（SGD）类型算法。我们为有监督学习提供了一种新算法，并在理论和数值上证明了其收敛性。我们还首次提供了无监督设置的收敛证明，该设置对应于量子物理学中广泛使用的变分蒙特卡罗（VMC）方法。",
+    "tldr": "本论文在高维度球体上，通过神经网络参数化，使用SGD算法在监督学习和无监督学习中，提供了一种新算法，并且证明了其收敛性。",
+    "en_tdlr": "This paper provides a new algorithm using SGD on a high-dimensional sphere parameterized by a neural network for both supervised and unsupervised learning, with proof of convergence. It also provides the first convergence proof for the frequently used VMC method in quantum physics."
+}

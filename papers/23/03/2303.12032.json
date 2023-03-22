@@ -1,0 +1,12 @@
+{
+    "title": "The Representational Status of Deep Learning Models. (arXiv:2303.12032v1 [cs.AI])",
+    "abstract": "This paper aims to clarify the representational status of Deep Learning Models (DLMs). While commonly referred to as 'representations', what this entails is ambiguous due to a conflation of functional and relational conceptions of representation. This paper argues that while DLMs represent their targets in a relational sense, they are best understood as highly idealized models. This result has immediate implications for explainable AI (XAI) and directs philosophical attention toward examining the idealized nature of DLM representations and their role in future scientific investigation.",
+    "link": "http://arxiv.org/abs/2303.12032",
+    "context": "Title: The Representational Status of Deep Learning Models. (arXiv:2303.12032v1 [cs.AI])\nAbstract: This paper aims to clarify the representational status of Deep Learning Models (DLMs). While commonly referred to as 'representations', what this entails is ambiguous due to a conflation of functional and relational conceptions of representation. This paper argues that while DLMs represent their targets in a relational sense, they are best understood as highly idealized models. This result has immediate implications for explainable AI (XAI) and directs philosophical attention toward examining the idealized nature of DLM representations and their role in future scientific investigation.",
+    "path": "papers/23/03/2303.12032.json",
+    "total_tokens": 707,
+    "translated_title": "深度学习模型的表征状态",
+    "translated_abstract": "本文旨在澄清深度学习模型（DLMs）的表征状态。由于功能和关系概念的混淆，尽管通常称为“表征”，但这意味着含糊不清。本文认为，虽然DLM以关系意义上的表征其目标，但最好理解为高度理想化的模型。这个结果对可解释的AI（XAI）有直接影响，并引导哲学关注DLM表征的理想化性质及其在未来科学研究中的作用。",
+    "tldr": "该论文澄清了深度学习模型的表征状态。尽管通常称为“表征”，但实际上它们更适合理解为高度理想化的模型，这一结果对可解释的AI有着直接影响，也引起了哲学家对其在未来科学研究中的作用的关注。",
+    "en_tdlr": "This paper clarifies the representational status of Deep Learning Models (DLMs) and argues that they are better understood as highly idealized models, which has implications for explainable AI (XAI) and philosophical investigation into their idealized nature in scientific research."
+}

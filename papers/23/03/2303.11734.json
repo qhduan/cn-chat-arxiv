@@ -1,0 +1,12 @@
+{
+    "title": "Unlocking Layer-wise Relevance Propagation for Autoencoders. (arXiv:2303.11734v1 [cs.LG])",
+    "abstract": "Autoencoders are a powerful and versatile tool often used for various problems such as anomaly detection, image processing and machine translation. However, their reconstructions are not always trivial to explain. Therefore, we propose a fast explainability solution by extending the Layer-wise Relevance Propagation method with the help of Deep Taylor Decomposition framework. Furthermore, we introduce a novel validation technique for comparing our explainability approach with baseline methods in the case of missing ground-truth data. Our results highlight computational as well as qualitative advantages of the proposed explainability solution with respect to existing methods.",
+    "link": "http://arxiv.org/abs/2303.11734",
+    "context": "Title: Unlocking Layer-wise Relevance Propagation for Autoencoders. (arXiv:2303.11734v1 [cs.LG])\nAbstract: Autoencoders are a powerful and versatile tool often used for various problems such as anomaly detection, image processing and machine translation. However, their reconstructions are not always trivial to explain. Therefore, we propose a fast explainability solution by extending the Layer-wise Relevance Propagation method with the help of Deep Taylor Decomposition framework. Furthermore, we introduce a novel validation technique for comparing our explainability approach with baseline methods in the case of missing ground-truth data. Our results highlight computational as well as qualitative advantages of the proposed explainability solution with respect to existing methods.",
+    "path": "papers/23/03/2303.11734.json",
+    "total_tokens": 706,
+    "translated_title": "解锁自编码器的逐层相关传播",
+    "translated_abstract": "自编码器是一种强大而多功能的工具，常用于各种问题，如异常检测、图像处理和机器翻译。然而，它们的重建并不总是易于解释。因此，我们提出了一种通过将深度泰勒分解框架与逐层相关传播方法相结合来快速解释的解决方案。此外，我们引入了一种新的验证技术，用于比较我们的可解释性方法和缺失地面真实数据的基准方法。我们的结果凸显了所提出的可解释性解决方案相对于现有方法的计算和质量优势。",
+    "tldr": "本文提出了一种解释自编码器的快速解决方案，通过将深度泰勒分解框架与逐层相关传播方法相结合。结果显示，该方法计算和质量方面具有比现有方法更好的优势。",
+    "en_tdlr": "This paper proposes a fast explainability solution for autoencoders by combining the Deep Taylor Decomposition framework with the Layer-wise Relevance Propagation method. Results show that the method has computational and quality advantages over existing methods."
+}

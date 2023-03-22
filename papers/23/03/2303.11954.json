@@ -1,0 +1,12 @@
+{
+    "title": "Bayesian Optimization for Function Compositions with Applications to Dynamic Pricing. (arXiv:2303.11954v1 [cs.LG])",
+    "abstract": "Bayesian Optimization (BO) is used to find the global optima of black box functions. In this work, we propose a practical BO method of function compositions where the form of the composition is known but the constituent functions are expensive to evaluate. By assuming an independent Gaussian process (GP) model for each of the constituent black-box function, we propose EI and UCB based BO algorithms and demonstrate their ability to outperform vanilla BO and the current state-of-art algorithms. We demonstrate a novel application of the proposed methods to dynamic pricing in revenue management when the underlying demand function is expensive to evaluate.",
+    "link": "http://arxiv.org/abs/2303.11954",
+    "context": "Title: Bayesian Optimization for Function Compositions with Applications to Dynamic Pricing. (arXiv:2303.11954v1 [cs.LG])\nAbstract: Bayesian Optimization (BO) is used to find the global optima of black box functions. In this work, we propose a practical BO method of function compositions where the form of the composition is known but the constituent functions are expensive to evaluate. By assuming an independent Gaussian process (GP) model for each of the constituent black-box function, we propose EI and UCB based BO algorithms and demonstrate their ability to outperform vanilla BO and the current state-of-art algorithms. We demonstrate a novel application of the proposed methods to dynamic pricing in revenue management when the underlying demand function is expensive to evaluate.",
+    "path": "papers/23/03/2303.11954.json",
+    "total_tokens": 679,
+    "translated_title": "基于贝叶斯优化的函数组合方法及其在动态定价中的应用",
+    "translated_abstract": "贝叶斯优化（BO）被用来找到黑盒函数的全局最优解。本文提出了一种针对函数组合的实用BO方法，其中组合的形式已知，但各组成函数难以评估。通过为每个黑盒函数建立独立的高斯过程（GP）模型，我们提出EI和UCB基于BO算法，并证明它们能够胜过传统BO和目前先进算法。我们展示了所提出的方法在收益管理中动态定价时的一种新颖应用，尤其适用于昂贵的需求函数。",
+    "tldr": "本文提出了一种基于贝叶斯优化的函数组合方法，可以解决黑盒函数难以评估的问题，并在动态定价中得到应用。",
+    "en_tdlr": "This paper proposes a practical method of function compositions using Bayesian Optimization (BO), which can tackle the problem of evaluating complex black-box functions. The novel application of this method to dynamic pricing in revenue management is demonstrated."
+}

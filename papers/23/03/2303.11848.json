@@ -1,0 +1,12 @@
+{
+    "title": "Dens-PU: PU Learning with Density-Based Positive Labeled Augmentation. (arXiv:2303.11848v1 [cs.LG])",
+    "abstract": "This study proposes a novel approach for solving the PU learning problem based on an anomaly-detection strategy. Latent encodings extracted from positive-labeled data are linearly combined to acquire new samples. These new samples are used as embeddings to increase the density of positive-labeled data and, thus, define a boundary that approximates the positive class. The further a sample is from the boundary the more it is considered as a negative sample. Once a set of negative samples is obtained, the PU learning problem reduces to binary classification. The approach, named Dens-PU due to its reliance on the density of positive-labeled data, was evaluated using benchmark image datasets, and state-of-the-art results were attained.",
+    "link": "http://arxiv.org/abs/2303.11848",
+    "context": "Title: Dens-PU: PU Learning with Density-Based Positive Labeled Augmentation. (arXiv:2303.11848v1 [cs.LG])\nAbstract: This study proposes a novel approach for solving the PU learning problem based on an anomaly-detection strategy. Latent encodings extracted from positive-labeled data are linearly combined to acquire new samples. These new samples are used as embeddings to increase the density of positive-labeled data and, thus, define a boundary that approximates the positive class. The further a sample is from the boundary the more it is considered as a negative sample. Once a set of negative samples is obtained, the PU learning problem reduces to binary classification. The approach, named Dens-PU due to its reliance on the density of positive-labeled data, was evaluated using benchmark image datasets, and state-of-the-art results were attained.",
+    "path": "papers/23/03/2303.11848.json",
+    "total_tokens": 729,
+    "translated_title": "基于密度的正样本增强的 PU Learning 方法：Dens-PU",
+    "translated_abstract": "本研究提出了一种新的 PU Learning 方法，基于异常检测策略解决该问题。从正样本数据中提取的潜在编码线性组合以获得新样本。这些新样本被用作嵌入以增加正样本数据的密度，从而定义近似正类的边界。样本距离边界越远，则认为它是负样本的可能性越大。一旦获得一组负样本，PU Learning 问题就转化为二元分类。名为 Dens-PU 的方法，由于其依赖于正样本数据的密度，经过基准图像数据集的评估，取得了最先进的结果。",
+    "tldr": "Dens-PU是一种基于密度的正样本增强的PU Learning方法，可以用于解决二元分类问题，且在基准图像数据集上表现出最先进的结果。",
+    "en_tdlr": "Dens-PU is a novel density-based positive-labeled augmentation PU Learning approach that solves binary classification problems by using an anomaly-detection strategy. It achieved state-of-the-art results when evaluated on benchmark image datasets."
+}

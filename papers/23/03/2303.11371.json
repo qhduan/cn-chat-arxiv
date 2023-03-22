@@ -1,0 +1,12 @@
+{
+    "title": "Optimized preprocessing and Tiny ML for Attention State Classification. (arXiv:2303.11371v1 [cs.LG])",
+    "abstract": "In this paper, we present a new approach to mental state classification from EEG signals by combining signal processing techniques and machine learning (ML) algorithms. We evaluate the performance of the proposed method on a dataset of EEG recordings collected during a cognitive load task and compared it to other state-of-the-art methods. The results show that the proposed method achieves high accuracy in classifying mental states and outperforms state-of-the-art methods in terms of classification accuracy and computational efficiency.",
+    "link": "http://arxiv.org/abs/2303.11371",
+    "context": "Title: Optimized preprocessing and Tiny ML for Attention State Classification. (arXiv:2303.11371v1 [cs.LG])\nAbstract: In this paper, we present a new approach to mental state classification from EEG signals by combining signal processing techniques and machine learning (ML) algorithms. We evaluate the performance of the proposed method on a dataset of EEG recordings collected during a cognitive load task and compared it to other state-of-the-art methods. The results show that the proposed method achieves high accuracy in classifying mental states and outperforms state-of-the-art methods in terms of classification accuracy and computational efficiency.",
+    "path": "papers/23/03/2303.11371.json",
+    "total_tokens": 599,
+    "translated_title": "针对注意力状态分类的优化预处理和小型机器学习",
+    "translated_abstract": "本文通过结合信号处理技术和机器学习算法，提出了一种新的EEG信号处理方法，用于注意力状态分类。我们在一个认知负荷任务期间收集的EEG记录数据集上测试了所提出方法的性能，并将其与其他最先进的方法进行了比较。结果表明，所提出的方法能够高准确度地分类注意力状态，并在分类精度和计算效率方面优于最先进的方法。",
+    "tldr": "本文提出了一种结合信号处理和机器学习算法的EEG信号处理方法，用于注意力状态分类，在性能和效率方面优于其他最先进的方法。",
+    "en_tdlr": "This paper proposes a new EEG signal processing method for attention state classification by combining signal processing techniques and machine learning algorithms, and outperforms other state-of-the-art methods in terms of performance and efficiency."
+}
