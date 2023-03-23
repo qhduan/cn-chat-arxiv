@@ -1,0 +1,12 @@
+{
+    "title": "RoBIC: A benchmark suite for assessing classifiers robustness. (arXiv:2102.05368v2 [cs.CV] UPDATED)",
+    "abstract": "Many defenses have emerged with the development of adversarial attacks. Models must be objectively evaluated accordingly. This paper systematically tackles this concern by proposing a new parameter-free benchmark we coin RoBIC. RoBIC fairly evaluates the robustness of image classifiers using a new half-distortion measure. It gauges the robustness of the network against white and black box attacks, independently of its accuracy. RoBIC is faster than the other available benchmarks. We present the significant differences in the robustness of 16 recent models as assessed by RoBIC.",
+    "link": "http://arxiv.org/abs/2102.05368",
+    "context": "Title: RoBIC: A benchmark suite for assessing classifiers robustness. (arXiv:2102.05368v2 [cs.CV] UPDATED)\nAbstract: Many defenses have emerged with the development of adversarial attacks. Models must be objectively evaluated accordingly. This paper systematically tackles this concern by proposing a new parameter-free benchmark we coin RoBIC. RoBIC fairly evaluates the robustness of image classifiers using a new half-distortion measure. It gauges the robustness of the network against white and black box attacks, independently of its accuracy. RoBIC is faster than the other available benchmarks. We present the significant differences in the robustness of 16 recent models as assessed by RoBIC.",
+    "path": "papers/21/02/2102.05368.json",
+    "total_tokens": 750,
+    "translated_title": "RoBIC：一个用于评估分类器鲁棒性的基准测试套件",
+    "translated_abstract": "随着对抗性攻击的发展，许多防御措施已经涌现出来。因此，必须有相应的客观评估模型的方法。本文通过提出一个新的无参数基准测试套件RoBIC来系统地解决这个问题。RoBIC使用一种新的半扭曲度量方法，公正地评估图像分类器的鲁棒性。它独立于分类器的准确性，评估其对白盒和黑盒攻击的鲁棒性。RoBIC比其他现有基准测试套件更快。我们还展示了16个最近模型在RoBIC评估下鲁棒性的显著差异。",
+    "tldr": "RoBIC是一个无参数基准测试套件，用于公正地评估图像分类器的鲁棒性，独立于准确性，并可以评估其对白盒和黑盒攻击的鲁棒性。",
+    "en_tdlr": "RoBIC is a parameter-free benchmark suite proposed to systematically evaluate the robustness of image classifiers fairly, independently of accuracy, using a novel half-distortion measure to assess its robustness against white and black box attacks. It is faster than the available benchmarks and highlights significant differences in the robustness of 16 recent models."
+}

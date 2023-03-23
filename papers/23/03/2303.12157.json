@@ -1,0 +1,12 @@
+{
+    "title": "Learning a Depth Covariance Function. (arXiv:2303.12157v1 [cs.CV])",
+    "abstract": "We propose learning a depth covariance function with applications to geometric vision tasks. Given RGB images as input, the covariance function can be flexibly used to define priors over depth functions, predictive distributions given observations, and methods for active point selection. We leverage these techniques for a selection of downstream tasks: depth completion, bundle adjustment, and monocular dense visual odometry.",
+    "link": "http://arxiv.org/abs/2303.12157",
+    "context": "Title: Learning a Depth Covariance Function. (arXiv:2303.12157v1 [cs.CV])\nAbstract: We propose learning a depth covariance function with applications to geometric vision tasks. Given RGB images as input, the covariance function can be flexibly used to define priors over depth functions, predictive distributions given observations, and methods for active point selection. We leverage these techniques for a selection of downstream tasks: depth completion, bundle adjustment, and monocular dense visual odometry.",
+    "path": "papers/23/03/2303.12157.json",
+    "total_tokens": 581,
+    "translated_title": "学习深度协方差函数",
+    "translated_abstract": "我们提出了学习深度协方差函数，并将其应用于几何视觉任务。给定RGB图像作为输入，协方差函数可灵活地用于定义深度函数先验，给定观测的预测分布以及主动点选择方法。我们利用这些技术来解决一系列下游任务：深度补全、捆集调整和单目密集视觉里程计。",
+    "tldr": "该论文提出了学习深度协方差函数，并利用该方法对深度补全、捆集调整和单目密集视觉里程计等几何视觉任务进行了处理。",
+    "en_tdlr": "This paper proposes learning a depth covariance function with flexible applications in defining priors over depth functions, predictive distributions given observations, and methods for active point selection, which are utilized for downstream tasks such as depth completion, bundle adjustment, and monocular dense visual odometry."
+}

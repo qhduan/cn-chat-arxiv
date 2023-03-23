@@ -1,0 +1,12 @@
+{
+    "title": "Pedestrain detection for low-light vision proposal. (arXiv:2303.12725v1 [cs.CV])",
+    "abstract": "The demand for pedestrian detection has created a challenging problem for various visual tasks such as image fusion. As infrared images can capture thermal radiation information, image fusion between infrared and visible images could significantly improve target detection under environmental limitations. In our project, we would approach by preprocessing our dataset with image fusion technique, then using Vision Transformer model to detect pedestrians from the fused images. During the evaluation procedure, a comparison would be made between YOLOv5 and the revised ViT model performance on our fused images",
+    "link": "http://arxiv.org/abs/2303.12725",
+    "context": "Title: Pedestrain detection for low-light vision proposal. (arXiv:2303.12725v1 [cs.CV])\nAbstract: The demand for pedestrian detection has created a challenging problem for various visual tasks such as image fusion. As infrared images can capture thermal radiation information, image fusion between infrared and visible images could significantly improve target detection under environmental limitations. In our project, we would approach by preprocessing our dataset with image fusion technique, then using Vision Transformer model to detect pedestrians from the fused images. During the evaluation procedure, a comparison would be made between YOLOv5 and the revised ViT model performance on our fused images",
+    "path": "papers/23/03/2303.12725.json",
+    "total_tokens": 703,
+    "translated_title": "低光环境下的行人检测方案提案",
+    "translated_abstract": "随着对行人检测的需求增加，针对各种视觉任务（如图像融合）的挑战性问题也日益突出。由于红外图像可以捕捉到热辐射信息，因此红外和可见光图像之间的图像融合可以在环境限制下显着提高目标检测效果。在我们的项目中，我们将使用图像融合技术对数据集进行预处理，然后使用 Vision Transformer 模型从融合图像中检测行人。在评估过程中，将在我们融合图像上比较 YOLOv5 和修订后的 ViT 模型的性能。",
+    "tldr": "低光环境下的行人检测方案提案，使用图像融合技术预处理数据集，采用 Vision Transformer 模型检测行人，比较 ViT 模型和 YOLOv5 模型性能。",
+    "en_tdlr": "A proposal for pedestrian detection in low-light environment using image fusion technique to preprocess the dataset and the Vision Transformer model to detect pedestrians from fused images, with a performance comparison between the revised ViT model and YOLOv5 model on the fused images."
+}

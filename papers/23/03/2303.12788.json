@@ -1,0 +1,12 @@
+{
+    "title": "Open-source Frame Semantic Parsing. (arXiv:2303.12788v1 [cs.CL])",
+    "abstract": "While the state-of-the-art for frame semantic parsing has progressed dramatically in recent years, it is still difficult for end-users to apply state-of-the-art models in practice. To address this, we present Frame Semantic Transformer, an open-source Python library which achieves near state-of-the-art performance on FrameNet 1.7, while focusing on ease-of-use. We use a T5 model fine-tuned on Propbank and FrameNet exemplars as a base, and improve performance by using FrameNet lexical units to provide hints to T5 at inference time. We enhance robustness to real-world data by using textual data augmentations during training.",
+    "link": "http://arxiv.org/abs/2303.12788",
+    "context": "Title: Open-source Frame Semantic Parsing. (arXiv:2303.12788v1 [cs.CL])\nAbstract: While the state-of-the-art for frame semantic parsing has progressed dramatically in recent years, it is still difficult for end-users to apply state-of-the-art models in practice. To address this, we present Frame Semantic Transformer, an open-source Python library which achieves near state-of-the-art performance on FrameNet 1.7, while focusing on ease-of-use. We use a T5 model fine-tuned on Propbank and FrameNet exemplars as a base, and improve performance by using FrameNet lexical units to provide hints to T5 at inference time. We enhance robustness to real-world data by using textual data augmentations during training.",
+    "path": "papers/23/03/2303.12788.json",
+    "total_tokens": 762,
+    "translated_title": "开源框架语义解析",
+    "translated_abstract": "虽然最近几年来框架语义解析的最新技术取得了显著进展，但对于终端用户来说，将最新模型应用于实践仍然很困难。为了解决这个问题，我们提出了Frame Semantic Transformer，这是一个开源Python库，可以在关注易用性的同时，在FrameNet 1.7上实现接近最新水平的性能。我们使用一个在Propbank和FrameNet示例上微调的T5模型作为基础，并通过在推理时使用FrameNet词汇单元为T5提供提示来提高性能。我们通过在训练期间使用文本数据增强来提高对真实世界数据的稳健性。",
+    "tldr": "本文介绍了一个开源Python库Frame Semantic Transformer，该库用于框架语义解析，并在易用性和性能方面实现接近最新水平，可通过在推理时使用FrameNet词汇单元来提高性能，并通过在训练期间使用文本数据增强来提高对真实世界数据的稳健性。",
+    "en_tdlr": "This paper introduces an open-source Python library, Frame Semantic Transformer, for frame semantic parsing, which achieves near state-of-the-art performance while focusing on ease-of-use, improves performance by using FrameNet lexical units at inference time, and enhances robustness to real-world data by using textual data augmentations during training."
+}

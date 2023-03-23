@@ -1,0 +1,12 @@
+{
+    "title": "Non-convex approaches for low-rank tensor completion under tubal sampling. (arXiv:2303.12721v1 [cs.LG])",
+    "abstract": "Tensor completion is an important problem in modern data analysis. In this work, we investigate a specific sampling strategy, referred to as tubal sampling. We propose two novel non-convex tensor completion frameworks that are easy to implement, named tensor $L_1$-$L_2$ (TL12) and tensor completion via CUR (TCCUR). We test the efficiency of both methods on synthetic data and a color image inpainting problem. Empirical results reveal a trade-off between the accuracy and time efficiency of these two methods in a low sampling ratio. Each of them outperforms some classical completion methods in at least one aspect.",
+    "link": "http://arxiv.org/abs/2303.12721",
+    "context": "Title: Non-convex approaches for low-rank tensor completion under tubal sampling. (arXiv:2303.12721v1 [cs.LG])\nAbstract: Tensor completion is an important problem in modern data analysis. In this work, we investigate a specific sampling strategy, referred to as tubal sampling. We propose two novel non-convex tensor completion frameworks that are easy to implement, named tensor $L_1$-$L_2$ (TL12) and tensor completion via CUR (TCCUR). We test the efficiency of both methods on synthetic data and a color image inpainting problem. Empirical results reveal a trade-off between the accuracy and time efficiency of these two methods in a low sampling ratio. Each of them outperforms some classical completion methods in at least one aspect.",
+    "path": "papers/23/03/2303.12721.json",
+    "total_tokens": 767,
+    "translated_title": "面向管状采样的低秩张量完成的非凸方法",
+    "translated_abstract": "张量完成是现代数据分析中的重要问题。本文研究了一种具体的采样策略，称为管状采样。我们提出了两个新颖的易于实现的非凸张量完成框架，称为张量 $L_1$-$L_2$ (TL12) 和张量完成 via CUR (TCCUR)。我们在合成数据和彩色图像修复问题上测试了两种方法的效率。实验结果揭示了这两种方法在低采样率下准确性和时间效率之间的权衡。它们中的每一个在至少某个方面优于一些经典完成方法。",
+    "tldr": "本文提出了两种易于实现的非凸张量完成框架（TL12和TCCUR），针对管状采样的问题进行了探究，实验结果展示它们在低采样率下在时间效率和准确性方面存在折衷，且在至少某个方面优于经典完成方法。",
+    "en_tdlr": "This paper proposes two easy-to-implement non-convex tensor completion frameworks (TL12 and TCCUR) for the problem of tubal sampling. The experimental results show a trade-off between time efficiency and accuracy at low sampling rates, and both methods outperform some classic completion methods in at least one aspect."
+}

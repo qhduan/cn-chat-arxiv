@@ -1,0 +1,12 @@
+{
+    "title": "Thrill-K Architecture: Towards a Solution to the Problem of Knowledge Based Understanding. (arXiv:2303.12084v1 [cs.LG])",
+    "abstract": "While end-to-end learning systems are rapidly gaining capabilities and popularity, the increasing computational demands for deploying such systems, along with a lack of flexibility, adaptability, explainability, reasoning and verification capabilities, require new types of architectures. Here we introduce a classification of hybrid systems which, based on an analysis of human knowledge and intelligence, combines neural learning with various types of knowledge and knowledge sources. We present the Thrill-K architecture as a prototypical solution for integrating instantaneous knowledge, standby knowledge and external knowledge sources in a framework capable of inference, learning and intelligent control.",
+    "link": "http://arxiv.org/abs/2303.12084",
+    "context": "Title: Thrill-K Architecture: Towards a Solution to the Problem of Knowledge Based Understanding. (arXiv:2303.12084v1 [cs.LG])\nAbstract: While end-to-end learning systems are rapidly gaining capabilities and popularity, the increasing computational demands for deploying such systems, along with a lack of flexibility, adaptability, explainability, reasoning and verification capabilities, require new types of architectures. Here we introduce a classification of hybrid systems which, based on an analysis of human knowledge and intelligence, combines neural learning with various types of knowledge and knowledge sources. We present the Thrill-K architecture as a prototypical solution for integrating instantaneous knowledge, standby knowledge and external knowledge sources in a framework capable of inference, learning and intelligent control.",
+    "path": "papers/23/03/2303.12084.json",
+    "total_tokens": 754,
+    "translated_title": "Thrill-K架构：迈向基于知识的理解问题的解决方案",
+    "translated_abstract": "虽然端到端学习系统正迅速获得能力和流行度，但部署这种系统所需的计算需求不断增加，加之灵活性、适应性、可解释性、推理和验证能力的缺乏，需要新类型的架构。在这里，我们介绍了一种混合系统的分类，该分类基于对人类知识和智能的分析，将神经学习与各种类型的知识和知识来源相结合。我们提出了Thrill-K架构作为将瞬时知识、备用知识和外部知识源集成到一个具有推理、学习和智能控制能力的框架中的原型解决方案。",
+    "tldr": "Thrill-K架构将神经学习与不同类型的知识相结合，为解决部署端到端学习系统所需要的计算需求增加、以及缺乏灵活性、适应性、可解释性、推理和验证能力等问题提供了一种解决方案。",
+    "en_tdlr": "The Thrill-K architecture combines neural learning with various types of knowledge and knowledge sources, providing a solution to the increasing computational demands and lack of flexibility, adaptability, explainability, reasoning, and verification capabilities when deploying end-to-end learning systems."
+}

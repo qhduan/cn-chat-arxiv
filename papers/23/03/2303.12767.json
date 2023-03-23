@@ -1,0 +1,12 @@
+{
+    "title": "Can we trust the evaluation on ChatGPT?. (arXiv:2303.12767v1 [cs.CL])",
+    "abstract": "ChatGPT, the first large language model (LLM) with mass adoption, has demonstrated remarkable performance in numerous natural language tasks. Despite its evident usefulness, evaluating ChatGPT's performance in diverse problem domains remains challenging due to the closed nature of the model and its continuous updates via Reinforcement Learning from Human Feedback (RLHF). We highlight the issue of data contamination in ChatGPT evaluations, with a case study of the task of stance detection. We discuss the challenge of preventing data contamination and ensuring fair model evaluation in the age of closed and continuously trained models.",
+    "link": "http://arxiv.org/abs/2303.12767",
+    "context": "Title: Can we trust the evaluation on ChatGPT?. (arXiv:2303.12767v1 [cs.CL])\nAbstract: ChatGPT, the first large language model (LLM) with mass adoption, has demonstrated remarkable performance in numerous natural language tasks. Despite its evident usefulness, evaluating ChatGPT's performance in diverse problem domains remains challenging due to the closed nature of the model and its continuous updates via Reinforcement Learning from Human Feedback (RLHF). We highlight the issue of data contamination in ChatGPT evaluations, with a case study of the task of stance detection. We discuss the challenge of preventing data contamination and ensuring fair model evaluation in the age of closed and continuously trained models.",
+    "path": "papers/23/03/2303.12767.json",
+    "total_tokens": 706,
+    "translated_title": "我们能相信ChatGPT的评估吗？",
+    "translated_abstract": "ChatGPT是第一个被广泛采纳的大型语言模型，展示出在多项自然语言任务中卓越的表现。但是，由于模型的闭合性以及通过强化学习和人类反馈不断更新，评估ChatGPT在不同问题领域的表现仍然具有挑战性。本文重点讨论了在ChatGPT的评估中存在的数据污染问题，并使用倾向性检测任务作为案例进行了说明。我们还讨论了如何在闭合和持续训练模型的时代，避免数据污染和确保公平的模型评估的挑战。",
+    "tldr": "本文讨论了ChatGPT评估中面临的数据污染挑战，通过倾向性检测任务阐述了这一问题，并探讨了如何在闭合且持续训练模型的时代确保模型评估的公平性。",
+    "en_tdlr": "This paper discusses the challenge of data contamination in ChatGPT evaluations, using stance detection task as an example, and explores the challenge of ensuring fair model evaluation in the age of closed and continuously trained models."
+}

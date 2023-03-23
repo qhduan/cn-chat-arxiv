@@ -1,0 +1,12 @@
+{
+    "title": "AIREPAIR: A Repair Platform for Neural Networks. (arXiv:2211.15387v2 [cs.NE] UPDATED)",
+    "abstract": "We present AIREPAIR, a platform for repairing neural networks. It features the integration of existing network repair tools. Based on AIREPAIR, one can run different repair methods on the same model, thus enabling the fair comparison of different repair techniques. We evaluate AIREPAIR with three state-of-the-art repair tools on popular deep-learning datasets and models. Our evaluation confirms the utility of AIREPAIR, by comparing and analyzing the results from different repair techniques. A demonstration is available at https://youtu.be/UkKw5neeWhw.",
+    "link": "http://arxiv.org/abs/2211.15387",
+    "context": "Title: AIREPAIR: A Repair Platform for Neural Networks. (arXiv:2211.15387v2 [cs.NE] UPDATED)\nAbstract: We present AIREPAIR, a platform for repairing neural networks. It features the integration of existing network repair tools. Based on AIREPAIR, one can run different repair methods on the same model, thus enabling the fair comparison of different repair techniques. We evaluate AIREPAIR with three state-of-the-art repair tools on popular deep-learning datasets and models. Our evaluation confirms the utility of AIREPAIR, by comparing and analyzing the results from different repair techniques. A demonstration is available at https://youtu.be/UkKw5neeWhw.",
+    "path": "papers/22/11/2211.15387.json",
+    "total_tokens": 634,
+    "translated_title": "AIREPAIR——一种神经网络修复平台",
+    "translated_abstract": "我们介绍了一种名为AIREPAIR的神经网络修复平台。它包括了现有网络修复工具的集成，使得用户可以在同一个模型上运行不同的网络修复方法并进行公平的比较。我们使用三个最先进的修复工具在流行的深度学习数据集和模型上评估了AIREPAIR。评估结果表明AIREPAIR的实用性，通过比较和分析不同修复技术的结果进行了验证。演示视频可在 https://youtu.be/UkKw5neeWhw 查看。",
+    "tldr": "AIREPAIR是一个神经网络修复平台，它能够集成现有网络修复工具并实现不同方法的公平比较，评估结果表明其实用性。",
+    "en_tdlr": "AIREPAIR is a platform for repairing neural networks, integrating existing network repair tools and enabling fair comparison of different repair methods on the same model. Evaluation confirms its utility."
+}

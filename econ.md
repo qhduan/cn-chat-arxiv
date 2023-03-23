@@ -2,202 +2,142 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Characterizing Random Serial Dictatorship.](http://arxiv.org/abs/2303.11976) | 本文通过使用组合最佳优先算法和二次规划，扩展了随机串行独裁的特征到$n\le5$的情况，接近解决该特征是否适用于任意$n$的问题。 |
-| [^2] | [Large-Scale Education Reform in General Equilibrium: Regression Discontinuity Evidence from India: Comment.](http://arxiv.org/abs/2303.11956) | 本文重新分析了Khanna (2023)的研究，指出缺失数据及绘图软件等因素对结果造成了干扰，表明他们之前的结论不能被有效支持。 |
-| [^3] | [Non-Market Allocation Mechanisms: Optimal Design and Investment Incentives.](http://arxiv.org/abs/2303.11805) | 研究了如何对选择机制进行最优设计，考虑代理商的投资激励，确定性的“过/不过”选择规则实际上是最优的。 |
-| [^4] | [Quasi Maximum Likelihood Estimation of High-Dimensional Factor Models.](http://arxiv.org/abs/2303.11777) | 本文回顾了高维时间序列面板的因子模型的拟极大似然估计，特别是当允许偏离截面和时间上相关时，细微的异质成分的相关，我们展示了因子模型具有维度的优势属性。 |
-| [^5] | [Using Forests in Multivariate Regression Discontinuity Designs.](http://arxiv.org/abs/2303.11721) | 本文提出了一种基于森林的估计器，可以灵活地建模多元得分中的回归不连续设计，相比于局部线性回归在高维空间运算时具有优势。 |
-| [^6] | [Both invariant principles implied by Marx's law of value are necessary and sufficient to solve the transformation problem through Morishima's formalism.](http://arxiv.org/abs/2303.11471) | 通过Morishima的形式主义，我们证明了从马克思的不变原则出发解决转型问题的必要性和充分性。 |
-| [^7] | [On the Existence and Information of Orthogonal Moments For Inference.](http://arxiv.org/abs/2303.11418) | 本文研究了正交矩在鲁棒性推断中的广泛应用，并提供了正交矩存在的必要和充分条件，以应用于正则半参数模型中的参数估计问题。同时，需要注意的是，要让正交矩在推断中具有信息性，必须满足效率矩阵非零的要求。 |
-| [^8] | [How Much Should We Trust Instrumental Variable Estimates in Political Science? Practical Advice Based on Over 60 Replicated Studies.](http://arxiv.org/abs/2303.11399) | 工具变量策略广泛应用于政治学中，但是识别假设苛刻，本文复制了67篇论文发现，研究人员往往高估IV的强度，并且2SLS估计值存在一定的不确定性，同时其估计值也往往比普通最小二乘法大许多，值得注意。 |
-| [^9] | [A Theory of Rational Housing Bubbles with Phase Transitions.](http://arxiv.org/abs/2303.11365) | 本研究针对观察到的租售价格比存在断层现象，通过交叉世代模型证明，在购房者收入增加时，经济体呈现出从基本面到基本面和泡沫平衡的相变，当购房者收入更高时，泡沫变得不可避免，存在基于预期推动的房地产繁荣和崩溃，并且固有基本面均衡是低效的。 |
-| [^10] | [Decomposability and Strategy-proofness in Multidimensional Models.](http://arxiv.org/abs/2303.10889) | 本文证明了在多维混合偏好领域中的策略无关规则可以分解为逐分量策略无关规则，并且在特定条件下，将规则的可分解性与策略无关性融合的偏好领域必须是一个多维混合领域。 |
-| [^11] | [Minimum Wage Pass-through to Wholesale and Retail Prices: Evidence from Cannabis Scanner Data.](http://arxiv.org/abs/2303.10367) | 本文利用华盛顿州的大麻扫描数据研究了最低工资对批发和零售价格的影响，发现一旦考虑到批发成本效应，零售价格弹性会增加一倍以上。零售商完全转嫁了成本。 |
-| [^12] | [On the Convergence of Credit Risk in Current Consumer Automobile Loans.](http://arxiv.org/abs/2211.09176) | 本研究使用大量样本数据证明，对于不同信用风险组的借款人，存活后的违约风险最终会趋于收敛，这种现象被称为信用风险收敛。低风险借款人的拖延偿还让他们损失了1212-2327美元，同时当前的低风险借款人比当前的高风险借款人表现得不够有效率。 |
-| [^13] | [Inference from Selectively Disclosed Data.](http://arxiv.org/abs/2204.07191) | 研究了如何在发送者部分汇集均衡时推断选择性披露数据，发现在大数据极限情况下，发送者最优策略是使用模仿策略来提交证据。 |
+| [^1] | [Don't (fully) exclude me, it's not necessary! Identification with semi-IVs.](http://arxiv.org/abs/2303.12667) | 本文提出了一种利用半工具变量实现离散内生变量模型识别的方法，对劳动、健康、教育等领域具有潜在应用价值。 |
+| [^2] | [Dynamic Transportation of Economic Agents.](http://arxiv.org/abs/2303.12567) | 本文通过提出新的方法，解决了之前在某些异质性代理人不完全市场模型的宏观经济均衡解决方案的问题。 |
+| [^3] | [Artificial Intelligence and Dual Contract.](http://arxiv.org/abs/2303.12350) | 本文通过实验研究了人工智能算法在双重合同问题中能够自主设计激励相容的合同，无需外部引导或通信，并且不同AI算法支持的委托人可以采用混合和零和博弈行为，更具智能的委托人往往会变得合作。 |
+| [^4] | [Strategic Ambiguity in Global Games.](http://arxiv.org/abs/2303.12263) | 论文研究全球博弈中的策略模糊性对玩家行为的影响，发现模糊质量信息下更多玩家选择恒定收益行动，而低质量信息下更多玩家选择前期最优反应。在金融危机应用中，更模糊质量的新闻会引发债务危机，而质量低的新闻会引发货币危机。 |
+| [^5] | [GPTs are GPTs: An Early Look at the Labor Market Impact Potential of Large Language Models.](http://arxiv.org/abs/2303.10130) | 该研究调查了GPT（大语言模型）和相关技术对美国劳动力市场的潜在影响，发现大约80%的美国劳动力可能会受到10%的工作任务的影响，涵盖了所有工资水平和各行各业，预示着这些模型可能具有显著的经济、社会和政策影响。 |
+| [^6] | [Gender Segregation: Analysis across Sectoral-Dominance in the UK Labour Market.](http://arxiv.org/abs/2303.04539) | 本研究发现英国性别分离问题仍然存在，女性在传统女性主导行业中的参与较高，由于持久的歧视性限制和就业行业选择的不同，女性在女性主导行业中的工资和合同机会较低。 |
+| [^7] | [Human and Machine Intelligence in n-Person Games with Partial Knowledge.](http://arxiv.org/abs/2302.13937) | 提出了有限知识下n人博弈的框架，引入了“游戏智能”机制和“防作弊性”概念，GI机制可以实际评估玩家的智能，应用广泛。 |
+| [^8] | [Being at the core: firm product specialisation.](http://arxiv.org/abs/2302.02767) | 本文使用产品核心度作为新的度量方法，研究企业的产品专业化。同时发现，企业出口的产品组成变化较小，与核心能力相距较远的产品更可能被剔除；更高的核心度与企业级别更大的出口流量有关；与更高核心度一起出口的产品在国家级别上具有更高的出口流量。 |
+| [^9] | [Overinference from Weak Signals and Underinference from Strong Signals.](http://arxiv.org/abs/2109.09871) | 研究表明，人们在面对弱信号时会存在过度反应，在面对强信号时会存在欠反应，这与信号信息量的认知不精确有关。 |
 
 # 详细
 
-[^1]: 描述随机串行独裁的特征
+[^1]: 不要完全排除我，这是不必要的! 半工具变量的识别
 
-    Characterizing Random Serial Dictatorship. (arXiv:2303.11976v1 [econ.TH])
+    Don't (fully) exclude me, it's not necessary! Identification with semi-IVs. (arXiv:2303.12667v1 [econ.EM])
 
-    [http://arxiv.org/abs/2303.11976](http://arxiv.org/abs/2303.11976)
+    [http://arxiv.org/abs/2303.12667](http://arxiv.org/abs/2303.12667)
 
-    本文通过使用组合最佳优先算法和二次规划，扩展了随机串行独裁的特征到$n\le5$的情况，接近解决该特征是否适用于任意$n$的问题。
-
-    
-
-    随机串行独裁是一种随机分配规则，它给定了一组对$n$个房屋的选择具有严格偏好的$n$个代理人，满足平等对待、后验效率和策略无关性。对于$n \le 3$，Bogomolnaia和Moulin（2001）已经表明随机串行独裁以这三个公理为特征。本文利用组合最佳优先搜索和二次规划将这个特征扩展到$n \le 5$，更接近回答长期存在的开放性问题，即这个特征是否适用于任意$n$。在此过程中，我们描述了后验效率和策略无关性的削弱形式，这些形式足以满足我们的特征，并确定在针对更大$n$时做出陈述时存在的问题。
-
-    Random serial dictatorship (RSD) is a randomized assignment rule that - given a set of $n$ agents with strict preferences over $n$ houses - satisfies equal treatment of equals, ex post efficiency, and strategyproofness. For $n \le 3$, Bogomolnaia and Moulin (2001) have shown that RSD is characterized by these three axioms. Using best first search in combination with quadratic programming, we extend this characterization to $n \le 5$, getting closer to answering the long-standing open question whether the characterization holds for arbitrary $n$. On the way, we describe weakenings of ex post efficiency and strategyproofness that are sufficient for our characterization and identify problems when making statements for larger $n$.
-    
-[^2]: 基于一般均衡的大规模教育改革：印度回归不连续证据的评论
-
-    Large-Scale Education Reform in General Equilibrium: Regression Discontinuity Evidence from India: Comment. (arXiv:2303.11956v1 [econ.GN])
-
-    [http://arxiv.org/abs/2303.11956](http://arxiv.org/abs/2303.11956)
-
-    本文重新分析了Khanna (2023)的研究，指出缺失数据及绘图软件等因素对结果造成了干扰，表明他们之前的结论不能被有效支持。
+    本文提出了一种利用半工具变量实现离散内生变量模型识别的方法，对劳动、健康、教育等领域具有潜在应用价值。
 
     
 
-    本文重新分析了 Khanna (2023) 中通过回归不连续设计研究印度教育对劳动力市场的影响的内容。在图形初步分析中，反转绘图软件默认值的覆盖极大地减少了不连续性的出现。在数据中缺少离不连续点四个街区；修复后削减了对学校和对数工资的简化形式影响分别为62％和75％。使用一致的方差估计器，并将其聚类处理到地理治疗单元，进一步削弱了积极影响的推断。一般均衡效应和替代弹性的估计不是无偏的，且有效方差为无限大。
+    本文提出了一种识别离散内生变量模型的新方法，将其应用于连续潜在结果的不可分离模型的一般情况下进行研究。我们采用半工具变量（semi-IVs) 来实现潜在结果的非参数识别以及选择方程式的识别，因此也能够识别个体治疗效应。与标准工具变量 （IVs）需要强制性完全排除不同，半工具变量仅在一些潜在结果方程式中部分排除，而不是全部排除。实践中，需要在强化排除约束和找到支持范围更广、相关性假设更强的半工具变量之间权衡。我们的方法为识别、估计和反事实预测开辟了新的途径，并在许多领域，如劳动，健康和教育等方面具有潜在应用。
 
-    This paper reanalyzes Khanna (2023), which studies labor market effects of schooling in India through a regression discontinuity design. In graphical preliminaries, reversing overrides of the plotting software's defaults greatly reduces the appearance of discontinuities. Absent from the data are four districts close to the discontinuity; restoring them cuts the reduced-form impacts on schooling and log wages by 62% and 75%. Using a consistent variance estimator, and clustering it at the geographic unit of treatment, further weakens the inference of positive impact. The estimates of general equilibrium effects and elasticities of substitution are not unbiased and have effectively infinite variance.
+    This paper proposes a novel approach to identify models with a discrete endogenous variable, that I study in the general context of nonseparable models with continuous potential outcomes. I show that nonparametric identification of the potential outcome and selection equations, and thus of the individual treatment effects, can be obtained with semi-instrumental variables (semi-IVs), which are relevant but only partially excluded from the potential outcomes, i.e., excluded from one or more potential outcome equations, but not necessarily all. This contrasts with the full exclusion restriction imposed on standard instrumental variables (IVs), which is stronger than necessary for identification: IVs are only a special case of valid semi-IVs. In practice, there is a trade-off between imposing stronger exclusion restrictions, and finding semi-IVs with a larger support and stronger relevance assumptions. Since, in empirical work, the main obstacle for finding a valid IV is often the full exc
     
-[^3]: 非市场分配机制：最优设计与投资激励研究
+[^2]: 经济主体的动态运输
 
-    Non-Market Allocation Mechanisms: Optimal Design and Investment Incentives. (arXiv:2303.11805v1 [econ.TH])
+    Dynamic Transportation of Economic Agents. (arXiv:2303.12567v1 [econ.GN])
 
-    [http://arxiv.org/abs/2303.11805](http://arxiv.org/abs/2303.11805)
+    [http://arxiv.org/abs/2303.12567](http://arxiv.org/abs/2303.12567)
 
-    研究了如何对选择机制进行最优设计，考虑代理商的投资激励，确定性的“过/不过”选择规则实际上是最优的。
-
-    
-
-    本文研究了如何对选择机制进行最优设计，并考虑到代理商的投资激励。主体希望将均质资源分配给异质人群的代理商。主体确定了一个可能是随机的选择规则，该规则取决于代理商本质上看重的一维特征。代理商严格偏爱被主体选择，可能会进行昂贵的投资以提高在主体揭示之前的特征。我们表明，即使随机选择规则促进了代理商的投资，特别是在特征分布的顶部，确定性的“过/不过”选择规则实际上是最优的。
-
-    We study how to optimally design selection mechanisms, accounting for agents' investment incentives. A principal wishes to allocate a resource of homogeneous quality to a heterogeneous population of agents. The principal commits to a possibly random selection rule that depends on a one-dimensional characteristic of the agents she intrinsically values. Agents have a strict preference for being selected by the principal and may undertake a costly investment to improve their characteristic before it is revealed to the principal. We show that even if random selection rules foster agents' investments, especially at the top of the characteristic distribution, deterministic "pass-fail" selection rules are in fact optimal.
-    
-[^4]: 高维因子模型的拟极大似然估计
-
-    Quasi Maximum Likelihood Estimation of High-Dimensional Factor Models. (arXiv:2303.11777v1 [econ.EM])
-
-    [http://arxiv.org/abs/2303.11777](http://arxiv.org/abs/2303.11777)
-
-    本文回顾了高维时间序列面板的因子模型的拟极大似然估计，特别是当允许偏离截面和时间上相关时，细微的异质成分的相关，我们展示了因子模型具有维度的优势属性。
+    本文通过提出新的方法，解决了之前在某些异质性代理人不完全市场模型的宏观经济均衡解决方案的问题。
 
     
 
-    我们回顾了高维时间序列面板的因子模型的拟极大似然估计。我们考虑了两种情况：（1）当未指定因子的动态模型时估计（Bai和Li，2016）；（2）基于Kalman平滑器和期望最大化算法的估计，从而允许显式建模因子动态（Doz等人，2012）。我们的兴趣在于近似因子模型，即当我们允许偏离截面和时间上相关时，细微的异质成分的相关。尽管这种设置似乎使估计更加困难，但我们实际上展示了因子模型没有受到维度诅咒问题的影响，反而具有维度的优势属性。特别地，我们展示了如果数据的截面维数N增长到无穷大，则：（i）模型的确认仍然是可能的，（ii）由于使用精确因子模型对数似然而导致的误规范误差会减少。
+    本文是在发现了一个共同的策略未能将某些异质性代理人不完全市场模型的宏观经济均衡定位到广泛引用的基准研究中而引发的。通过模仿Dumas和Lyasoff（2012）提出的方法，本文提供了一个新的描述，在面对不可保险的总体和个体风险的大量互动经济体代表的私人状态分布的运动定律。提出了一种新的算法，用于确定回报、最优私人配置和平衡状态下的人口运输，并在两个众所周知的基准研究中进行了测试。
 
-    We review Quasi Maximum Likelihood estimation of factor models for high-dimensional panels of time series. We consider two cases: (1) estimation when no dynamic model for the factors is specified (Bai and Li, 2016); (2) estimation based on the Kalman smoother and the Expectation Maximization algorithm thus allowing to model explicitly the factor dynamics (Doz et al., 2012). Our interest is in approximate factor models, i.e., when we allow for the idiosyncratic components to be mildly cross-sectionally, as well as serially, correlated. Although such setting apparently makes estimation harder, we show, in fact, that factor models do not suffer of the curse of dimensionality problem, but instead they enjoy a blessing of dimensionality property. In particular, we show that if the cross-sectional dimension of the data, $N$, grows to infinity, then: (i) identification of the model is still possible, (ii) the mis-specification error due to the use of an exact factor model log-likelihood vanis
+    The paper was prompted by the surprising discovery that the common strategy, adopted in a large body of research, for producing macroeconomic equilibrium in certain heterogeneous-agent incomplete-market models fails to locate the equilibrium in a widely cited benchmark study. By mimicking the approach proposed by Dumas and Lyasoff (2012), the paper provides a novel description of the law of motion of the distribution over the range of private states of a large population of interacting economic agents faced with uninsurable aggregate and idiosyncratic risk. A new algorithm for identifying the returns, the optimal private allocations, and the population transport in the state of equilibrium is developed and is tested in two well known benchmark studies.
     
-[^5]: 多元回归不连续设计中的森林应用
+[^3]: 人工智能与双重合同
 
-    Using Forests in Multivariate Regression Discontinuity Designs. (arXiv:2303.11721v1 [econ.EM])
+    Artificial Intelligence and Dual Contract. (arXiv:2303.12350v1 [cs.AI])
 
-    [http://arxiv.org/abs/2303.11721](http://arxiv.org/abs/2303.11721)
+    [http://arxiv.org/abs/2303.12350](http://arxiv.org/abs/2303.12350)
 
-    本文提出了一种基于森林的估计器，可以灵活地建模多元得分中的回归不连续设计，相比于局部线性回归在高维空间运算时具有优势。
-
-    
-
-    本文讨论在具有多个得分的回归不连续设计中估计条件治疗效应。虽然当治疗状态完全由一个连续变量描述时，局部线性回归已经成为常见方法，但在包含多个治疗分配规则的实际应用中，这些方法不易推广。我们提出一种基于森林的估计器，可以灵活地建模多元得分，通过在治疗边界两侧建立两个基于Wager和Athey（2018）诚实森林。该估计器是渐近正常的，并避免了在高维空间中运行局部线性回归的缺陷。在模拟中，我们发现我们提出的估计器在多元设计中优于局部线性回归，并且与Imbens和Wager（2019）的最小极小估计器竞争。
-
-    We discuss estimating conditional treatment effects in regression discontinuity designs with multiple scores. While local linear regressions have been popular in settings where the treatment status is completely described by one running variable, they do not easily generalize to empirical applications involving multiple treatment assignment rules. In practice, the multivariate problem is usually reduced to a univariate one where using local linear regressions is suitable. Instead, we propose a forest-based estimator that can flexibly model multivariate scores, where we build two honest forests in the sense of Wager and Athey (2018) on both sides of the treatment boundary. This estimator is asymptotically normal and sidesteps the pitfalls of running local linear regressions in higher dimensions. In simulations, we find our proposed estimator outperforms local linear regressions in multivariate designs and is competitive against the minimax-optimal estimator of Imbens and Wager (2019). T
-    
-[^6]: 用于解决马克思价值法则下的转型问题的不变原理——从森岛正雄形式主义出发
-
-    Both invariant principles implied by Marx's law of value are necessary and sufficient to solve the transformation problem through Morishima's formalism. (arXiv:2303.11471v1 [econ.TH])
-
-    [http://arxiv.org/abs/2303.11471](http://arxiv.org/abs/2303.11471)
-
-    通过Morishima的形式主义，我们证明了从马克思的不变原则出发解决转型问题的必要性和充分性。
+    本文通过实验研究了人工智能算法在双重合同问题中能够自主设计激励相容的合同，无需外部引导或通信，并且不同AI算法支持的委托人可以采用混合和零和博弈行为，更具智能的委托人往往会变得合作。
 
     
 
-    Michio Morishima的方法可以正确确定商品的单位价值，即它所含的商品价值（输入）和生产所需的劳动量之和。但是，只有当商品满足涉及整个经济体系各个产业部门之间互相关联的有偿的社会需求时，它们才能以市场生产价格售出。这一条件充分体现了马克思的基本等式，这些等式源于价值法则，并构成适用于整个经济体系的不变量。这些等式是确定市场生产价格必需的。我们证明这些等式还能够用于解决一个没有固定资本的简单再生产系统的转型问题，从Morishima的形式主义出发并回归到更接近马克思所用形式主义。
+    随着人工智能算法的快速进步，人们希望算法很快就能在各个领域取代人类决策者，例如合同设计。我们通过实验研究了由人工智能（多智能体Q学习）驱动的算法在双重委托-代理问题的经典“双重合同”模型中的行为。我们发现，这些AI算法可以自主学习设计合适的激励相容合同，而无需外部引导或者它们之间的通信。我们强调，由不同AI算法支持的委托人可以采用混合和零和博弈行为。我们还发现，更具智能的委托人往往会变得合作，而智能较低的委托人则会出现内生性近视并倾向于竞争。在最优合同下，代理的较低合同激励由委托人之间的勾结策略维持。
 
-    The unit value of a commodity that Michio Morishima's method and its variations enable to determine correctly, is the sum of the value of the commodities it contains (inputs) and the quantity of labor required for its production. However, goods are sold at their market production price only when they meet a solvent social need that involves the entire economy with its interconnections between the different industrial sectors. This condition gives full meaning to Marx's fundamental equalities, which derive from the law of value and constitute invariants that apply to the economy as a whole. These equalities are necessary to determine market production prices. We demonstrate that they also enable to solve the transformation problem for a simple reproduction system without fixed capital by starting from Morishima's formalism and returning to a formalism closer to that used by Marx.
+    With the dramatic progress of artificial intelligence algorithms in recent times, it is hoped that algorithms will soon supplant human decision-makers in various fields, such as contract design. We analyze the possible consequences by experimentally studying the behavior of algorithms powered by Artificial Intelligence (Multi-agent Q-learning) in a workhorse \emph{dual contract} model for dual-principal-agent problems. We find that the AI algorithms autonomously learn to design incentive-compatible contracts without external guidance or communication among themselves. We emphasize that the principal, powered by distinct AI algorithms, can play mixed-sum behavior such as collusion and competition. We find that the more intelligent principals tend to become cooperative, and the less intelligent principals are endogenizing myopia and tend to become competitive. Under the optimal contract, the lower contract incentive to the agent is sustained by collusive strategies between the principals
     
-[^7]: 关于推断中正交矩存在性和信息性的研究
+[^4]: 全球博弈中的策略模糊性
 
-    On the Existence and Information of Orthogonal Moments For Inference. (arXiv:2303.11418v1 [econ.EM])
+    Strategic Ambiguity in Global Games. (arXiv:2303.12263v1 [econ.TH])
 
-    [http://arxiv.org/abs/2303.11418](http://arxiv.org/abs/2303.11418)
+    [http://arxiv.org/abs/2303.12263](http://arxiv.org/abs/2303.12263)
 
-    本文研究了正交矩在鲁棒性推断中的广泛应用，并提供了正交矩存在的必要和充分条件，以应用于正则半参数模型中的参数估计问题。同时，需要注意的是，要让正交矩在推断中具有信息性，必须满足效率矩阵非零的要求。
-
-    
-
-    本文研究了正交、局部鲁棒性和消除偏差的矩在机器学习或高维数据中的应用，并提供了一种称为“限制局部非满射性”的必要和充分条件，用于保证这些正交矩存在于正则半参数模型的参数中，以进行鲁棒性推断，而且不需要对目标参数或辅助参数进行识别。重要的是，这些正交矩在相当普遍的条件下存在。但是，为了让正交矩对推断有信息性，参数的有效Fisher信息矩阵必须是非零的（但可能是奇异的）。作者利用这些结果来刻画UH模型中正交矩的存在，并澄清了供方在此过程中所起的重要作用。
-
-    Locally Robust (LR)/Orthogonal/Debiased moments have been proved useful with machine learning or high dimensional first steps, but their existence has not been investigated for general models and parameters. In this paper, we provide a necessary and sufficient condition, referred to as Restricted Local Non-surjectivity (RLN), for the existence of such orthogonal moments to conduct robust inference on parameters of interest in regular semiparametric models. Importantly, RLN does not require identification of the parameters of interest or identification of the nuisance parameters. Thus, orthogonal moments exist under rather general conditions. However, for orthogonal moments to be informative for inference, the efficient Fisher Information matrix for the parameter must be non-zero (though possibly singular). We use these results to characterize the existence of orthogonal moments in a class of models with Unobserved Heterogeneity (UH), and to clarify the important role played by the supp
-    
-[^8]: 政治学中的工具变量估计：我们应该相信多少？基于60多个复制研究的实用建议
-
-    How Much Should We Trust Instrumental Variable Estimates in Political Science? Practical Advice Based on Over 60 Replicated Studies. (arXiv:2303.11399v1 [econ.EM])
-
-    [http://arxiv.org/abs/2303.11399](http://arxiv.org/abs/2303.11399)
-
-    工具变量策略广泛应用于政治学中，但是识别假设苛刻，本文复制了67篇论文发现，研究人员往往高估IV的强度，并且2SLS估计值存在一定的不确定性，同时其估计值也往往比普通最小二乘法大许多，值得注意。
+    论文研究全球博弈中的策略模糊性对玩家行为的影响，发现模糊质量信息下更多玩家选择恒定收益行动，而低质量信息下更多玩家选择前期最优反应。在金融危机应用中，更模糊质量的新闻会引发债务危机，而质量低的新闻会引发货币危机。
 
     
 
-    工具变量（IV）策略被广泛用于政治学中建立因果关系，但是其所需的识别假设很苛刻，研究人员评估其有效性仍然具有挑战性。本文复制了2010-2022年期间在政治学三个顶级期刊上发表的67篇论文，并发现了一些令人不安的模式。我们发现，研究人员经常由于非独立同分布误差（如聚类结构）而高估其IV的强度。同时，两阶段最小二乘法（2SLS）估计最常用的t检验（t-test）通常严重低估不确定性。而采用更强健的推断方法，我们发现在样本中约19-30％的2SLS估计是无法达到统计功效的。此外，大多数复制研究中，2SLS估计值远大于普通最小二乘估计值，其比值与IV强度呈负相关。
+    在具有不完全和模糊信息的博弈中，理性行为不仅取决于基本模糊（关于状态的模糊性）而且取决于策略模糊（关于他人行为的模糊性）。我们研究了策略模糊在全球博弈中的影响。模糊质量信息使更多的玩家选择产生恒定收益的行动，而（明确的）低质量信息使更多的玩家选择对对手行动的统一信念做出前期最优反应。如果前期最优反应的行动产生恒定收益，则足够模糊的质量信息会诱导出一种唯一的均衡，而足够低质量的信息会产生多个均衡。在金融危机的应用中，我们证明了更模糊质量的新闻会引发债务展期危机，而质量较低的新闻会引发货币危机。
 
-    Instrumental variable (IV) strategies are widely used in political science to establish causal relationships. However, the identifying assumptions required by an IV design are demanding, and it remains challenging for researchers to assess their validity. In this paper, we replicate 67 papers published in three top journals in political science during 2010-2022 and identify several troubling patterns. First, researchers often overestimate the strength of their IVs due to non-i.i.d. errors, such as a clustering structure. Second, the most commonly used t-test for the two-stage-least-squares (2SLS) estimates often severely underestimates uncertainty. Using more robust inferential methods, we find that around 19-30% of the 2SLS estimates in our sample are underpowered. Third, in the majority of the replicated studies, the 2SLS estimates are much larger than the ordinary-least-squares estimates, and their ratio is negatively correlated with the strength of the IVs in studies where the IVs 
+    In games with incomplete and ambiguous information, rational behavior depends not only on fundamental ambiguity (ambiguity about states) but also on strategic ambiguity (ambiguity about others' actions). We study the impact of strategic ambiguity in global games. Ambiguous-quality information makes more players choose an action yielding a constant payoff, whereas (unambiguous) low-quality information makes more players choose an ex-ante best response to the uniform belief over the opponents' actions. If the ex-ante best-response action yields a constant payoff, sufficiently ambiguous-quality information induces a unique equilibrium, whereas sufficiently low-quality information generates multiple equilibria. In applications to financial crises, we demonstrate that news of more ambiguous quality triggers a debt rollover crisis, whereas news of less ambiguous quality triggers a currency crisis.
     
-[^9]: 有关具有相变的理性房地产泡沫的理论
+[^5]: GPT是GPT：大语言模型对劳动力市场影响的早期研究
 
-    A Theory of Rational Housing Bubbles with Phase Transitions. (arXiv:2303.11365v1 [econ.TH])
+    GPTs are GPTs: An Early Look at the Labor Market Impact Potential of Large Language Models. (arXiv:2303.10130v1 [econ.GN])
 
-    [http://arxiv.org/abs/2303.11365](http://arxiv.org/abs/2303.11365)
+    [http://arxiv.org/abs/2303.10130](http://arxiv.org/abs/2303.10130)
 
-    本研究针对观察到的租售价格比存在断层现象，通过交叉世代模型证明，在购房者收入增加时，经济体呈现出从基本面到基本面和泡沫平衡的相变，当购房者收入更高时，泡沫变得不可避免，存在基于预期推动的房地产繁荣和崩溃，并且固有基本面均衡是低效的。
-
-    
-
-    根据实证观察到的租售价格比，表明基本面与房价存在断层。本文在一个存在完美住房和租赁市场的交叉世代模型中分析平衡的房价。我们证明经济体呈现出二阶段相变：随着购房者收入的增加，平衡制度从仅基本面到基本面和泡沫平衡共存发生了转变。当购房者收入更高时，基本面均衡消失，房地产泡沫变得不可避免。包含泡沫的预期推动房地产繁荣以及它们的崩溃可能会发生。与广为人知的相反，尽管房产是一种生产性的不可再生资产，但固有基本面均衡是低效的。
-
-    Empirically observed rent-price ratios suggest a disconnection between fundamentals and prices. We analyze equilibrium housing prices in an overlapping generations model with perfect housing and rental markets. We prove that the economy exhibits a two-stage phase transition: as the income of home buyers rises, the equilibrium regime changes from fundamental only to coexistence of fundamental and bubbly equilibria. With even higher incomes, fundamental equilibria disappear and housing bubbles become inevitable. Expectation-driven housing booms containing a bubble and their collapse can occur. Contrary to widely-held beliefs, fundamental equilibria in the coexistence region are inefficient despite housing being a productive non-reproducible asset.
-    
-[^10]: 多维模型中的可分解性与策略无关性
-
-    Decomposability and Strategy-proofness in Multidimensional Models. (arXiv:2303.10889v1 [econ.TH])
-
-    [http://arxiv.org/abs/2303.10889](http://arxiv.org/abs/2303.10889)
-
-    本文证明了在多维混合偏好领域中的策略无关规则可以分解为逐分量策略无关规则，并且在特定条件下，将规则的可分解性与策略无关性融合的偏好领域必须是一个多维混合领域。
+    该研究调查了GPT（大语言模型）和相关技术对美国劳动力市场的潜在影响，发现大约80%的美国劳动力可能会受到10%的工作任务的影响，涵盖了所有工资水平和各行各业，预示着这些模型可能具有显著的经济、社会和政策影响。
 
     
 
-    我们介绍了一个多维混合偏好领域的概念，该领域是由有限的替代品集合的笛卡尔积组成的。我们研究了在此领域中的策略无关规则，并表明每个这样的规则可以分解为逐分量策略无关规则。更重要的是，我们表明在适当的“丰富性”条件下，调和了规则的可分解性与策略无关性的偏好领域必须是一个多维混合领域。最后，我们确定了可分离性的直观弱化方式，解释了如何在公共物品供应模型中产生多维混合领域。
+    我们研究了生成预训练变压器（GPT）模型和相关技术对美国劳动力市场的潜在影响。使用新的标准，我们评估职业与GPT能力的对应关系，结合人类专业知识和GPT-4的分类。我们的研究结果表明，约80%的美国劳动力可能会至少有10%的工作任务受到GPT引入的影响，而约19%的工人可能会看到至少50%的任务受到影响。影响范围涵盖了所有工资水平，高收入工作可能面临更大的风险。值得注意的是，影响并不局限于最近生产率增长较高的行业。我们得出结论，生成预训练变压器具有通用技术（GPT）的特性，表明这些模型可能具有显著的经济、社会和政策影响。
 
-    We introduce the notion of a multidimensional hybrid preference domain on a (finite) set of alternatives that is a Cartesian product of finitely many components. We study strategy-proof rules on this domain and show that every such rule can be decomposed into component-wise strategy proof rules. More importantly, we show that under a suitable ``richness'' condition, every domain of preferences that reconciles decomposability of rules with strategy-proofness must be a multidimensional hybrid domain. We finally identify an intuitive weakening of separability that explains how a multidimensional hybrid domain may arise in a public goods provision model.
+    We investigate the potential implications of Generative Pre-trained Transformer (GPT) models and related technologies on the U.S. labor market. Using a new rubric, we assess occupations based on their correspondence with GPT capabilities, incorporating both human expertise and classifications from GPT-4. Our findings indicate that approximately 80% of the U.S. workforce could have at least 10% of their work tasks affected by the introduction of GPTs, while around 19% of workers may see at least 50% of their tasks impacted. The influence spans all wage levels, with higher-income jobs potentially facing greater exposure. Notably, the impact is not limited to industries with higher recent productivity growth. We conclude that Generative Pre-trained Transformers exhibit characteristics of general-purpose technologies (GPTs), suggesting that as these models could have notable economic, social, and policy implications.
     
-[^11]: 最低工资对批发和零售价格的影响：基于大麻扫描数据的证据
+[^6]: 英国劳动力市场中基于行业主导的性别分离分析
 
-    Minimum Wage Pass-through to Wholesale and Retail Prices: Evidence from Cannabis Scanner Data. (arXiv:2303.10367v1 [econ.GN])
+    Gender Segregation: Analysis across Sectoral-Dominance in the UK Labour Market. (arXiv:2303.04539v2 [econ.GN] UPDATED)
 
-    [http://arxiv.org/abs/2303.10367](http://arxiv.org/abs/2303.10367)
+    [http://arxiv.org/abs/2303.04539](http://arxiv.org/abs/2303.04539)
 
-    本文利用华盛顿州的大麻扫描数据研究了最低工资对批发和零售价格的影响，发现一旦考虑到批发成本效应，零售价格弹性会增加一倍以上。零售商完全转嫁了成本。
-
-    
-
-    越来越多的实证文献发现，企业通过提高零售价将最低工资上涨的成本转嫁给消费者。然而，我们很少了解最低工资对批发价格的影响以及零售商是否面对除劳动成本冲击外的批发成本冲击。本文利用华盛顿州合法的休闲大麻产业的独特市场结构，研究最低工资对批发和零售价格的影响。在一个动态差分差异架构中，利用供应链上60亿美元交易的扫描数据，并利用在2018年至2021年之间六次最低工资的涨幅中企业最低工资曝露的地理差异。当忽略批发成本效应时，我发现零售价格弹性与现有文献一致，但一旦考虑到批发成本效应，零售价格弹性会增加一倍以上。零售利润率不会调整以适应批发成本冲击，表明完全转嫁了成本。
-
-    A growing empirical literature finds that firms pass the cost of minimum wage hikes onto consumers via higher retail prices. Yet, little is known about minimum wage effects on wholesale prices and whether retailers face a wholesale cost shock in addition to the labor cost shock. I exploit the unique market structure of Washington state's legal recreational cannabis industry to investigate minimum wage pass-through to wholesale and retail prices. In a dynamic difference-in-differences framework, I utilize scanner data on $6 billion of transactions across the supply chain and leverage geographic variation in firms' minimum wage exposure across six minimum wage hikes between 2018 and 2021. When ignoring wholesale cost effects, I find retail pass-through elasticities consistent with existing literature -- yet retail pass-through elasticities more than double once wholesale cost effects are accounted for. Retail markups do not adjust to the wholesale cost shock, indicating a full pass-throu
-    
-[^12]: 当前消费者汽车贷款的信用风险收敛研究
-
-    On the Convergence of Credit Risk in Current Consumer Automobile Loans. (arXiv:2211.09176v2 [q-fin.ST] UPDATED)
-
-    [http://arxiv.org/abs/2211.09176](http://arxiv.org/abs/2211.09176)
-
-    本研究使用大量样本数据证明，对于不同信用风险组的借款人，存活后的违约风险最终会趋于收敛，这种现象被称为信用风险收敛。低风险借款人的拖延偿还让他们损失了1212-2327美元，同时当前的低风险借款人比当前的高风险借款人表现得不够有效率。
+    本研究发现英国性别分离问题仍然存在，女性在传统女性主导行业中的参与较高，由于持久的歧视性限制和就业行业选择的不同，女性在女性主导行业中的工资和合同机会较低。
 
     
 
-    当前贷款的条件信用风险鲜少研究。本研究使用大样本统计和基于消费者汽车资产支持证券数据的资产层面的分析，发现对于不同信用风险组的借款人，存活后的违约风险最终会趋于收敛，这种现象被称为信用风险收敛。我们估计低风险借款人的拖延偿还造成了1212-2327美元的损失，并发现了出人意料的结果：当前的低风险借款人比当前的高风险借款人表现得不够有效率。我们还通过视觉证据展示了汽车价值和经济刺激导致贷款提前偿还增加，但并非由于借款人的财务能力。我们的结果经过多种敏感性测试，表现稳健。
+    虽然英国的性别分离程度随着时间的推移有所降低，但女性在传统上“女性主导”的行业中的参与度仍然高于比例。本文旨在评估行业性别分离模式的变化如何影响英国2005年至2020年间女性的就业合同和工资，并研究性别特定主导行业中的工资差异。我们发现，工资和合同机会的差异主要来自于女性在不同行业之间的分配倾向。因此，女性在女性主导的行业中的不成比例会导致所有工人的典型合同特征和较低的平均工资。这种差异主要是由于持久的歧视性限制所解释，而人力资本相关特征只起到次要作用。然而，如果工人在男性主导的行业中具有与男性相同的潜在工资，工资差距将缩小。此外，这也会鼓励女性参加男性主导的行业，从而进一步减少性别分离。
 
-    Conditional credit risk of a current loan is understudied. Using large-sample statistics and asset-level consumer automobile asset-backed security data, we find default risk conditional on survival eventually converges for borrowers in disparate credit risk bands, a phenomenon we call credit risk convergence. We conservatively estimate that borrowers forwent $1,212 - $2,327 in savings through delayed prepayment and find the surprising result that current lower risk borrowers behave less efficiently than current higher risk borrowers. We also present visual evidence prepayments rose with used auto values and economic stimulus rather than financial acumen. Our results are robust to various sensitivity tests.
+    Although the degree of gender segregation in the UK has decreased over time, women's participation in traditionally "female-dominated" sectors is disproportionately high. This paper aims to evaluate how changing patterns of sectoral gender segregation affected women's employment contracts and wages in the UK between 2005 and 2020. We then study wage differentials in gender-specific dominated sectors. We found that the differences in wages and contractual opportunities result mainly from the propensity of women to be distributed differently across sectors. Hence, the disproportion of women in female-dominated sectors implies contractual features and lower wages typical of that sector, on average, for all workers. This difference is primarily explained by persistent discriminatory constraints, while human capital-related characteristics play a minor role. However, wage differentials would shrink if workers had the same potential wages as men in male-dominated sectors. Moreover, this does
     
-[^13]: 针对有选择性披露数据的推断问题
+[^7]: 有限知识下n人博弈的人类与机器智能
 
-    Inference from Selectively Disclosed Data. (arXiv:2204.07191v2 [econ.TH] UPDATED)
+    Human and Machine Intelligence in n-Person Games with Partial Knowledge. (arXiv:2302.13937v2 [econ.TH] UPDATED)
 
-    [http://arxiv.org/abs/2204.07191](http://arxiv.org/abs/2204.07191)
+    [http://arxiv.org/abs/2302.13937](http://arxiv.org/abs/2302.13937)
 
-    研究了如何在发送者部分汇集均衡时推断选择性披露数据，发现在大数据极限情况下，发送者最优策略是使用模仿策略来提交证据。
+    提出了有限知识下n人博弈的框架，引入了“游戏智能”机制和“防作弊性”概念，GI机制可以实际评估玩家的智能，应用广泛。
 
     
 
-    我们考虑一个发送者想要使用硬证据说服接收者做出更高行动的披露问题。当接收者希望从数据的分布中做出推断时，发送者有动机删除某些观测数据以模仿在更好状态下观测到的数据分布。我们使用一个连续模型来预测数据集很大时最优策略，发现在大数据极限下，发送者最优策略是使用模仿策略，他们提交符合某些理想目标状态下的自然分布的证据。相对于完全信息来说，主动披露的部分汇集均衡会对那些数据很少或者处于有利状态的发送者产生福利损失，那些发送者会最优地披露整个数据集，但对于拥有大型数据集的发送者而言，可以在低状态下有利地删除观察数据。
+    本文提出了一个新的框架——有限知识下的n人博弈，其中玩家只对游戏的某些方面（包括行动、结果和其他玩家）有限的了解。为了分析这些游戏，我介绍了一组新的概念和机制，重点关注人类和机器决策之间的相互作用。具体而言，我引入了两个主要概念：第一个是“游戏智能”（GI）机制，它通过考虑参考机器智能下的“错误”，不仅仅是游戏的结果，量化了玩家在游戏中展示出的智能。第二个是“防作弊性”，这是一种实用的、可计算的策略无关性的概念。GI机制提供了一种实用的方法来评估玩家，可以潜在地应用于从在线游戏到现实生活决策的各种游戏。
 
-    We consider the disclosure problem of a sender who wants to use hard evidence to persuade a receiver towards higher actions. When the receiver hopes to make inferences based on the distribution of the data, the sender has an incentive to drop observations to mimic the distributions observed under better states. We use a continuum model to predict optimal play when datasets are large and find that, in the big-data limit, it is optimal for senders to play an imitation strategy, under which they submit evidence imitating the natural distribution under some desirable target state. Relative to full information, the partial pooling equilibrium with voluntary disclosure generates a loss in welfare to senders who either have little data or a favorable state, who optimally disclose their full dataset, but a benefit to senders with access to large datasets, who can profitably drop observations under low states.
+    In this note, I introduce a new framework called n-person games with partial knowledge, in which players have only limited knowledge about the aspects of the game -- including actions, outcomes, and other players. For example, playing an actual game of chess is a game of partial knowledge. To analyze these games, I introduce a set of new concepts and mechanisms for measuring the intelligence of players, with a focus on the interplay between human- and machine-based decision-making. Specifically, I introduce two main concepts: firstly, the Game Intelligence (GI) mechanism, which quantifies a player's demonstrated intelligence in a game by considering not only the game's outcome but also the "mistakes" made during the game according to the reference machine's intelligence. Secondly, I define gaming-proofness, a practical and computational concept of strategy-proofness. The GI mechanism provides a practicable way to assess players and can potentially be applied to a wide range of games, f
+    
+[^8]: 在核心位置：企业产品专业化
+
+    Being at the core: firm product specialisation. (arXiv:2302.02767v2 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2302.02767](http://arxiv.org/abs/2302.02767)
+
+    本文使用产品核心度作为新的度量方法，研究企业的产品专业化。同时发现，企业出口的产品组成变化较小，与核心能力相距较远的产品更可能被剔除；更高的核心度与企业级别更大的出口流量有关；与更高核心度一起出口的产品在国家级别上具有更高的出口流量。
+
+    
+
+    我们提出了一个新的度量方法来研究企业的产品专业化：产品核心度，它捕捉了出口产品在企业出口篮子中的中心地位。我们使用2018年至2020年哥伦比亚、厄瓜多尔和秘鲁的企业-产品级别数据研究了产品核心度。我们的分析得出了三个主要发现。首先，企业出口篮子的组成在一年之内变化相对较小，与企业核心能力相距较远、核心度较低的产品更有可能被剔除。其次，更高的核心度与企业级别更大的出口流量有关。第三，这种企业级别的模式也对总体水平产生影响：平均而言，与更高核心度一起出口的产品在国家级别上具有更高的出口流量，这在所有产品复杂性水平上都成立。因此，本文表明一个产品与企业能力的契合程度对企业和国家的经济表现都很重要。
+
+    We propose a novel measure to investigate firms' product specialisation: product coreness, that captures the centrality of exported products within the firm's export basket. We study product coreness using firm-product level data between 2018 and 2020 for Colombia, Ecuador, and Peru. Three main findings emerge from our analysis. First, the composition of firms' export baskets changes relatively little from one year to the other, and products far from the firm's core competencies, with low coreness, are more likely to be dropped. Second, higher coreness is associated with larger export flows at the firm level. Third, such firm-level patterns also have implications at the aggregate level: products that are, on average, exported with higher coreness have higher export flows at the country level, which holds across all levels of product complexity. Therefore, the paper shows that how closely a product fits within a firm's capabilities is important for economic performance at both the firm 
+    
+[^9]: 弱信号的过度推断及强信号的欠推断
+
+    Overinference from Weak Signals and Underinference from Strong Signals. (arXiv:2109.09871v4 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2109.09871](http://arxiv.org/abs/2109.09871)
+
+    研究表明，人们在面对弱信号时会存在过度反应，在面对强信号时会存在欠反应，这与信号信息量的认知不精确有关。
+
+    
+
+    本文研究了关于信息量大小对信号更新的过度反应和欠反应的影响。尽管大量文献研究了高信息量信号的信念更新，但在现实世界中，人们往往面对一大堆弱信号。我们使用了严密的实验和新的来自博彩和金融市场的经验证据证明，信号强度对更新行为有着实质性的影响：在各领域中，我们得到了一致且稳健的结果，即对于弱信号存在过度反应，而对于强信号存在欠反应。这两种结果都与关于信号信息量的认知不精确的简单理论相吻合。我们的框架和发现可帮助协调实验和经验文献中表现出的明显矛盾之处。
+
+    We study how overreaction and underreaction to signals depend on their informativeness. While a large literature has studied belief updating in response to highly informative signals, people in important real-world settings are often faced with a steady stream of weak signals. We use a tightly controlled experiment and new empirical evidence from betting and financial markets to demonstrate that updating behavior differs meaningfully by signal strength: across domains, our consistent and robust finding is overreaction to weak signals and underreaction to strong signals. Both sets of results align well with a simple theory of cognitive imprecision about signal informativeness. Our framework and findings can help harmonize apparently contradictory results from the experimental and empirical literatures.
     
 

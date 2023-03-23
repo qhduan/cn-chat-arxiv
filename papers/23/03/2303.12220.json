@@ -1,0 +1,12 @@
+{
+    "title": "A Unified Taxonomy of Deep Syntactic Relations. (arXiv:2303.12220v1 [cs.CL])",
+    "abstract": "This paper analyzes multiple deep-syntactic frameworks with the goal of creating a proposal for a set of universal semantic role labels. The proposal examines various theoretic linguistic perspectives and focuses on Meaning-Text Theory and Functional Generative Description frameworks.  For the purpose of this research, data from four languages is used -- Spanish and Catalan (Taule et al., 2011), Czech (Hajic et al., 2017), and English (Hajic et al., 2012). This proposal is oriented towards Universal Dependencies (de Marneffe et al., 2021) with a further intention of applying the universal semantic role labels to the UD data.",
+    "link": "http://arxiv.org/abs/2303.12220",
+    "context": "Title: A Unified Taxonomy of Deep Syntactic Relations. (arXiv:2303.12220v1 [cs.CL])\nAbstract: This paper analyzes multiple deep-syntactic frameworks with the goal of creating a proposal for a set of universal semantic role labels. The proposal examines various theoretic linguistic perspectives and focuses on Meaning-Text Theory and Functional Generative Description frameworks.  For the purpose of this research, data from four languages is used -- Spanish and Catalan (Taule et al., 2011), Czech (Hajic et al., 2017), and English (Hajic et al., 2012). This proposal is oriented towards Universal Dependencies (de Marneffe et al., 2021) with a further intention of applying the universal semantic role labels to the UD data.",
+    "path": "papers/23/03/2303.12220.json",
+    "total_tokens": 657,
+    "translated_title": "深层句法关系的统一分类",
+    "translated_abstract": "本文分析了多个深层句法框架，旨在提出一组普适的语义角色标签。提案考虑了各种理论语言学视角，并重点关注了Meaning-Text Theory和Functional Generative Description框架。为了研究的目的，使用了来自四种语言的数据——西班牙语和加泰罗尼亚语（Taule等，2011），捷克语（Hajic等，2017）和英语（Hajic等，2012）。该提案针对Universal Dependencies（de Marneffe等，2021），并进一步意图将通用的语义角色标签应用于UD数据。",
+    "tldr": "本文提出了一组通用的语义角色标签，针对Universal Dependencies，并应用于四种语言的数据中。",
+    "en_tdlr": "This paper proposes a set of universal semantic role labels for Universal Dependencies and applies it to data from four languages."
+}

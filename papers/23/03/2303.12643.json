@@ -1,0 +1,12 @@
+{
+    "title": "Traffic Volume Prediction using Memory-Based Recurrent Neural Networks: A comparative analysis of LSTM and GRU. (arXiv:2303.12643v1 [cs.LG])",
+    "abstract": "Predicting traffic volume in real-time can improve both traffic flow and road safety. A precise traffic volume forecast helps alert drivers to the flow of traffic along their preferred routes, preventing potential deadlock situations. Existing parametric models cannot reliably forecast traffic volume in dynamic and complex traffic conditions. Therefore, in order to evaluate and forecast the traffic volume for every given time step in a real-time manner, we develop non-linear memory-based deep neural network models. Our extensive experiments run on the Metro Interstate Traffic Volume dataset demonstrate the effectiveness of the proposed models in predicting traffic volume in highly dynamic and heterogeneous traffic environments.",
+    "link": "http://arxiv.org/abs/2303.12643",
+    "context": "Title: Traffic Volume Prediction using Memory-Based Recurrent Neural Networks: A comparative analysis of LSTM and GRU. (arXiv:2303.12643v1 [cs.LG])\nAbstract: Predicting traffic volume in real-time can improve both traffic flow and road safety. A precise traffic volume forecast helps alert drivers to the flow of traffic along their preferred routes, preventing potential deadlock situations. Existing parametric models cannot reliably forecast traffic volume in dynamic and complex traffic conditions. Therefore, in order to evaluate and forecast the traffic volume for every given time step in a real-time manner, we develop non-linear memory-based deep neural network models. Our extensive experiments run on the Metro Interstate Traffic Volume dataset demonstrate the effectiveness of the proposed models in predicting traffic volume in highly dynamic and heterogeneous traffic environments.",
+    "path": "papers/23/03/2303.12643.json",
+    "total_tokens": 722,
+    "translated_title": "基于记忆的循环神经网络的交通量预测：LSTM和GRU的比较分析",
+    "translated_abstract": "实时预测交通量可以提高交通流量和道路安全性。精确的交通量预测有助于警示驾驶员沿着他们喜欢的路线的实时交通流量，避免潜在的死锁情况。现有的参数模型无法可靠地预测动态和复杂交通条件下的交通量。因此，为了实时地评估和预测每个给定时间步的交通量，我们开发了非线性的基于记忆的深度神经网络模型。我们在公交高架交通量数据集上进行的大量实验证明了所提出模型在高度动态和异质交通环境下预测交通量的有效性。",
+    "tldr": "该论文提出了基于记忆的深度神经网络模型，可以在高度动态和异质交通环境下实时预测交通量的有效性。",
+    "en_tdlr": "This paper proposes memory-based deep neural network models for real-time traffic volume prediction in highly dynamic and heterogeneous traffic environments, demonstrating their effectiveness on the Metro Interstate Traffic Volume dataset."
+}

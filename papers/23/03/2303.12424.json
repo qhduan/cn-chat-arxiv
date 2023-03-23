@@ -1,0 +1,12 @@
+{
+    "title": "Unsupervised Domain Adaptation for Training Event-Based Networks Using Contrastive Learning and Uncorrelated Conditioning. (arXiv:2303.12424v1 [cs.CV])",
+    "abstract": "Event-based cameras offer reliable measurements for preforming computer vision tasks in high-dynamic range environments and during fast motion maneuvers. However, adopting deep learning in event-based vision faces the challenge of annotated data scarcity due to recency of event cameras. Transferring the knowledge that can be obtained from conventional camera annotated data offers a practical solution to this challenge. We develop an unsupervised domain adaptation algorithm for training a deep network for event-based data image classification using contrastive learning and uncorrelated conditioning of data. Our solution outperforms the existing algorithms for this purpose.",
+    "link": "http://arxiv.org/abs/2303.12424",
+    "context": "Title: Unsupervised Domain Adaptation for Training Event-Based Networks Using Contrastive Learning and Uncorrelated Conditioning. (arXiv:2303.12424v1 [cs.CV])\nAbstract: Event-based cameras offer reliable measurements for preforming computer vision tasks in high-dynamic range environments and during fast motion maneuvers. However, adopting deep learning in event-based vision faces the challenge of annotated data scarcity due to recency of event cameras. Transferring the knowledge that can be obtained from conventional camera annotated data offers a practical solution to this challenge. We develop an unsupervised domain adaptation algorithm for training a deep network for event-based data image classification using contrastive learning and uncorrelated conditioning of data. Our solution outperforms the existing algorithms for this purpose.",
+    "path": "papers/23/03/2303.12424.json",
+    "total_tokens": 739,
+    "translated_title": "使用对比学习和不相关条件的非监督域适应，训练面向事件的网络",
+    "translated_abstract": "事件相机在高动态范围环境和快速运动机动期间进行计算机视觉任务时提供可靠的测量。然而，采用深度学习进行事件驱动视觉面临着由于事件相机的最近性而导致的注释数据稀缺的挑战。从传统相机注释数据中获取的知识转移提供了这一挑战的实用解决方法。我们开发了一种非监督域适应算法，使用对比学习和不相关数据条件来训练面向事件的数据图像分类的深度网络。我们的解决方案优于现有的此类算法。",
+    "tldr": "发展了一种非监督域适应算法，使用对比学习和不相关条件的数据来训练深度神经网络，涉及事件相机图片分类，这种方法能够应对数据稀缺的困境，并且优于现有算法。",
+    "en_tdlr": "An unsupervised domain adaptation algorithm is developed for event-based data image classification using contrastive learning and uncorrelated conditioning, which outperforms existing algorithms and offers a solution to the challenge of annotated data scarcity in deep learning for event-based vision."
+}

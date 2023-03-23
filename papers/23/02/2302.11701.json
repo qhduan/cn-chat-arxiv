@@ -1,0 +1,12 @@
+{
+    "title": "Pairwise counter-monotonicity. (arXiv:2302.11701v2 [q-fin.RM] UPDATED)",
+    "abstract": "We systemically study pairwise counter-monotonicity, an extremal notion of negative dependence. A stochastic representation and an invariance property are established for this dependence structure. We show that pairwise counter-monotonicity implies negative association, and it is equivalent to joint mix dependence if both are possible for the same marginal distributions. We find an intimate connection between pairwise counter-monotonicity and risk sharing problems for quantile agents. This result highlights the importance of this extremal negative dependence structure in optimal allocations for agents who are not risk averse in the classic sense.",
+    "link": "http://arxiv.org/abs/2302.11701",
+    "context": "Title: Pairwise counter-monotonicity. (arXiv:2302.11701v2 [q-fin.RM] UPDATED)\nAbstract: We systemically study pairwise counter-monotonicity, an extremal notion of negative dependence. A stochastic representation and an invariance property are established for this dependence structure. We show that pairwise counter-monotonicity implies negative association, and it is equivalent to joint mix dependence if both are possible for the same marginal distributions. We find an intimate connection between pairwise counter-monotonicity and risk sharing problems for quantile agents. This result highlights the importance of this extremal negative dependence structure in optimal allocations for agents who are not risk averse in the classic sense.",
+    "path": "papers/23/02/2302.11701.json",
+    "total_tokens": 665,
+    "translated_title": "一对一反单调性",
+    "translated_abstract": "我们系统地研究了一对一反单调性，这是负相关性的一种极端形式。我们建立了一个随机表示和一个不变性质来描述这种依赖结构。我们表明一对一反单调性意味着负相关性，并且当相同边际分布可以实现时，和联合混合依赖性等价。我们发现一对一反单调性和量位代理的风险共担问题之间存在密切联系。这个结果强调了这种极端负相关依赖结构在不以经典方式冒险的代理人的最优配置中的重要性。",
+    "tldr": "本文系统地研究了负相关性的一种极端形式——一对一反单调性，并且在量位代理的风险共担问题中找到了它的应用价值。",
+    "en_tdlr": "The paper systematically studies pairwise counter-monotonicity, an extreme form of negative dependence, and finds an application in risk sharing problems for quantile agents."
+}

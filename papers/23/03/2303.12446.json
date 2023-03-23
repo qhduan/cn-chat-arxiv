@@ -1,0 +1,12 @@
+{
+    "title": "Externalities in Chore Division. (arXiv:2303.12446v1 [cs.GT])",
+    "abstract": "The chore division problem simulates the fair division of a heterogeneous undesirable resource among several agents. In the fair division problem, each agent only gains value from its own piece. Agents may, however, also be concerned with the pieces given to other agents; these externalities naturally appear in fair division situations. Branzei et ai. (Branzei et al., IJCAI 2013) generalize the classical ideas of proportionality and envy-freeness while extending the classical model to account for externalities.",
+    "link": "http://arxiv.org/abs/2303.12446",
+    "context": "Title: Externalities in Chore Division. (arXiv:2303.12446v1 [cs.GT])\nAbstract: The chore division problem simulates the fair division of a heterogeneous undesirable resource among several agents. In the fair division problem, each agent only gains value from its own piece. Agents may, however, also be concerned with the pieces given to other agents; these externalities naturally appear in fair division situations. Branzei et ai. (Branzei et al., IJCAI 2013) generalize the classical ideas of proportionality and envy-freeness while extending the classical model to account for externalities.",
+    "path": "papers/23/03/2303.12446.json",
+    "total_tokens": 588,
+    "translated_title": "劳务分工中的外部性。",
+    "translated_abstract": "劳务分工问题模拟了不同的资源在多个代理之间的公平分配。在公平分配问题中，每个代理只从自己的资源中获得价值。然而，代理也可能关注分配给其他代理的资源，这些外部性自然地出现在公平分配的情况中。Branzei等人通过扩展经典模型以考虑外部性，推广了比例和无嫉妒性的经典思想。（Branzei et al。，IJCAI 2013）",
+    "tldr": "该论文研究了劳务分工中的外部性问题，扩展了经典模型考虑到其他代理的影响。",
+    "en_tdlr": "This paper studies externalities in chore division by extending the classical model to account for the impact of other agents."
+}

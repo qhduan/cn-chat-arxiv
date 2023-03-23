@@ -1,0 +1,12 @@
+{
+    "title": "A Random Projection k Nearest Neighbours Ensemble for Classification via Extended Neighbourhood Rule. (arXiv:2303.12210v1 [stat.ML])",
+    "abstract": "Ensembles based on k nearest neighbours (kNN) combine a large number of base learners, each constructed on a sample taken from a given training data. Typical kNN based ensembles determine the k closest observations in the training data bounded to a test sample point by a spherical region to predict its class. In this paper, a novel random projection extended neighbourhood rule (RPExNRule) ensemble is proposed where bootstrap samples from the given training data are randomly projected into lower dimensions for additional randomness in the base models and to preserve features information. It uses the extended neighbourhood rule (ExNRule) to fit kNN as base learners on randomly projected bootstrap samples.",
+    "link": "http://arxiv.org/abs/2303.12210",
+    "context": "Title: A Random Projection k Nearest Neighbours Ensemble for Classification via Extended Neighbourhood Rule. (arXiv:2303.12210v1 [stat.ML])\nAbstract: Ensembles based on k nearest neighbours (kNN) combine a large number of base learners, each constructed on a sample taken from a given training data. Typical kNN based ensembles determine the k closest observations in the training data bounded to a test sample point by a spherical region to predict its class. In this paper, a novel random projection extended neighbourhood rule (RPExNRule) ensemble is proposed where bootstrap samples from the given training data are randomly projected into lower dimensions for additional randomness in the base models and to preserve features information. It uses the extended neighbourhood rule (ExNRule) to fit kNN as base learners on randomly projected bootstrap samples.",
+    "path": "papers/23/03/2303.12210.json",
+    "total_tokens": 709,
+    "translated_title": "随机投影k最近邻集成分类器 via 扩展邻域规则",
+    "translated_abstract": "基于k最近邻（kNN）的集成将许多基本学习者组合在一起，每个学习者都是基于给定训练数据中的一个样本构建的。这篇论文提出了一种新颖的随机投影扩展邻域规则（RPExNRule）集成，其中来自给定训练数据的自举样本在降低的维度中被随机投影，以增加基本模型的随机性并保留特征信息，并使用扩展邻域规则（ExNRule）将kNN作为基本学习者拟合随机投影的自举样本。",
+    "tldr": "本文提出了一种随机投影的kNN集成分类器，使用扩展邻域规则和降维来增加基本学习者的随机性并保留特征信息。",
+    "en_tdlr": "This paper proposes a kNN ensemble classifier that uses random projection, extended neighbourhood rule, and dimensionality reduction to increase the randomness of base learners while preserving feature information."
+}

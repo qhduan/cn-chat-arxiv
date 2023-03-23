@@ -1,0 +1,12 @@
+{
+    "title": "Posthoc Interpretation via Quantization. (arXiv:2303.12659v1 [cs.AI])",
+    "abstract": "In this paper, we introduce a new approach, called \"Posthoc Interpretation via Quantization (PIQ)\", for interpreting decisions made by trained classifiers. Our method utilizes vector quantization to transform the representations of a classifier into a discrete, class-specific latent space. The class-specific codebooks act as a bottleneck that forces the interpreter to focus on the parts of the input data deemed relevant by the classifier for making a prediction. We evaluated our method through quantitative and qualitative studies and found that PIQ generates interpretations that are more easily understood by participants to our user studies when compared to several other interpretation methods in the literature.",
+    "link": "http://arxiv.org/abs/2303.12659",
+    "context": "Title: Posthoc Interpretation via Quantization. (arXiv:2303.12659v1 [cs.AI])\nAbstract: In this paper, we introduce a new approach, called \"Posthoc Interpretation via Quantization (PIQ)\", for interpreting decisions made by trained classifiers. Our method utilizes vector quantization to transform the representations of a classifier into a discrete, class-specific latent space. The class-specific codebooks act as a bottleneck that forces the interpreter to focus on the parts of the input data deemed relevant by the classifier for making a prediction. We evaluated our method through quantitative and qualitative studies and found that PIQ generates interpretations that are more easily understood by participants to our user studies when compared to several other interpretation methods in the literature.",
+    "path": "papers/23/03/2303.12659.json",
+    "total_tokens": 723,
+    "translated_title": "通过量化进行的事后解释",
+    "translated_abstract": "本文提出了一种新的方法，称为“通过量化实现的事后解释（PIQ）”，用于解释训练分类器所做出的决策。我们的方法利用向量量化将分类器的表示转换为离散，类特定的潜空间。类特定的码本作为瓶颈，迫使解释者专注于分类器认为用于进行预测的输入数据的相关部分。我们通过定量和定性研究评估了我们的方法，并发现与文献中的几种其他解释方法相比，PIQ生成的解释更容易被参与我们用户研究的人所理解。",
+    "tldr": "本文提出了一种新的方法 PIQ，通过对分类器进行向量量化，将其表示转换为离散类特定的潜空间，从而解释分类器所做出的决策，并且通过研究发现该方法相比其他方法更容易让人理解。",
+    "en_tdlr": "This paper proposes a new approach - Posthoc Interpretation via Quantization (PIQ) - for interpreting decisions made by trained classifiers, which utilizes vector quantization to transform classifier representations into a discrete, class-specific latent space that resulted in more easily understood interpretations when compared to other methods through studies."
+}

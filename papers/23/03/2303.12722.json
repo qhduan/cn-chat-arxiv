@@ -1,0 +1,11 @@
+{
+    "title": "Learning Fractals by Gradient Descent. (arXiv:2303.12722v1 [cs.CV])",
+    "abstract": "Fractals are geometric shapes that can display complex and self-similar patterns found in nature (e.g., clouds and plants). Recent works in visual recognition have leveraged this property to create random fractal images for model pre-training. In this paper, we study the inverse problem -- given a target image (not necessarily a fractal), we aim to generate a fractal image that looks like it. We propose a novel approach that learns the parameters underlying a fractal image via gradient descent. We show that our approach can find fractal parameters of high visual quality and be compatible with different loss functions, opening up several potentials, e.g., learning fractals for downstream tasks, scientific understanding, etc.",
+    "link": "http://arxiv.org/abs/2303.12722",
+    "context": "Title: Learning Fractals by Gradient Descent. (arXiv:2303.12722v1 [cs.CV])\nAbstract: Fractals are geometric shapes that can display complex and self-similar patterns found in nature (e.g., clouds and plants). Recent works in visual recognition have leveraged this property to create random fractal images for model pre-training. In this paper, we study the inverse problem -- given a target image (not necessarily a fractal), we aim to generate a fractal image that looks like it. We propose a novel approach that learns the parameters underlying a fractal image via gradient descent. We show that our approach can find fractal parameters of high visual quality and be compatible with different loss functions, opening up several potentials, e.g., learning fractals for downstream tasks, scientific understanding, etc.",
+    "path": "papers/23/03/2303.12722.json",
+    "total_tokens": 751,
+    "translated_title": "通过梯度下降学习分形",
+    "translated_abstract": "分形是一种可以展示自然界中复杂且自相似的几何形态的图案（例如云和植物）。最近在视觉识别领域中，借助这种属性生成随机分形图像来进行模型预训练。本文中，我们研究了相反的问题--给定一个目标图像（不一定是分形），我们旨在生成一个类似的分形图像。我们提出了一种通过梯度下降学习分形图像参数的新方法。我们展示了我们的方法能够找到高质量视觉效果的分形参数，并且兼容不同的损失函数，开启了多种可能性，例如为下游任务、科学理解等学习分形。",
+    "tldr": "本文提出了一种通过梯度下降学习分形图像参数的方法，能够生成高质量视觉效果的分形图像，并且兼容不同的损失函数，有望为下游任务和科学理解提供新的应用。"
+}
