@@ -14,26 +14,27 @@
 | [^10] | [MEGA: Multilingual Evaluation of Generative AI.](http://arxiv.org/abs/2303.12528) | 这项研究对 33 种语言中 8 个不同任务的生成 AI 进行了全面评估，比较了生成 LLMs 和非自回归模型的表现差异。 |
 | [^11] | [Is BERT Blind? Exploring the Effect of Vision-and-Language Pretraining on Visual Language Understanding.](http://arxiv.org/abs/2303.12513) | 本文调查了视觉语言预训练对仅文本任务的表现是否有提高。作者提出了一套视觉语言理解任务，证明了多模态训练的文本编码器在视觉推理方面的优越性。 |
 | [^12] | [Few-shot Multimodal Multitask Multilingual Learning.](http://arxiv.org/abs/2303.12489) | 提出了一种多阶段微调框架，针对少样本多模态多任务多语言学习，可以有效地利用迁移学习和少样本学习的优势，它采用一种通用的编码器-解码器骨架，并使用注意机制处理多模态信息和每个任务的语言特定的微调，在多个基准数据集上表现优异。 |
-| [^13] | [Self-supervised Meta-Prompt Learning with Meta-Gradient Regularization for Few-shot Generalization.](http://arxiv.org/abs/2303.12314) | 提出了一种自我监督元提示学习框架SUPMER，包括元梯度正则化，用于少样本泛化，通过锚定的元训练任务和基于课程的任务增强丰富了任务分布，解决了在少样本情况下良好初始化软提示和过拟合的问题。 |
-| [^14] | [Exploring Turkish Speech Recognition via Hybrid CTC/Attention Architecture and Multi-feature Fusion Network.](http://arxiv.org/abs/2303.12300) | 本文提出了一种基于混合CTC/Attention架构和多特征融合网络的土耳其语音识别系统，实现了数据增强技术和特征提取器LSPC的优化。实验结果表明，该模型在土耳其语音语料库上取得良好表现。 |
-| [^15] | [Evaluating Transformer Models and Human Behaviors on Chinese Character Naming.](http://arxiv.org/abs/2303.12294) | 本研究评估了一组 transformer 模型，在未知的中文字符命名任务中，这些模型表现得与人类很相似，能够很好地捕捉人类字符命名行为。 |
-| [^16] | [A Unified Taxonomy of Deep Syntactic Relations.](http://arxiv.org/abs/2303.12220) | 本文提出了一组通用的语义角色标签，针对Universal Dependencies，并应用于四种语言的数据中。 |
-| [^17] | [MAGVLT: Masked Generative Vision-and-Language Transformer.](http://arxiv.org/abs/2303.12208) | 本文提出 MGVLT 模型用于生成图像和文本序列，通过非自回归掩码预测实现了双向上下文编码和快速解码等特点。 |
-| [^18] | [Understand Legal Documents with Contextualized Large Language Models.](http://arxiv.org/abs/2303.12135) | 本文介绍了针对 SemEval-2023 任务 6 开发的 Legal-BERT-HSLN 模型和 Legal-LUKE 模型，其中 Legal-BERT-HSLN 模型通过考虑句内和句间的上下文信息以预测修辞角色，Legal-LUKE 模型是具有法律上下文和实体知识的模型，以识别法律实体。模型相比基线模型更准确，能够解决在人口众多的国家处理法律文件的问题。 |
-| [^19] | [Fundamentals of Generative Large Language Models and Perspectives in Cyber-Defense.](http://arxiv.org/abs/2303.12132) | 生成式语言模型的改进引起了公众广泛关注。它们广泛应用及其真实能力揭示了它们的潜在应用，但同时也带来了对其可能的恶意用途的担忧。本文旨在提供生成式大语言模型的简要概述以及在网络防御中的应用。 |
-| [^20] | [Positive-Augmented Constrastive Learning for Image and Video Captioning Evaluation.](http://arxiv.org/abs/2303.12112) | 本论文提出一种新的图像标题评估指标PAC-S，可以更准确地评估图像和视频的标题，相比于现有的指标有更好的表现；源代码和训练模型已经公开。 |
-| [^21] | [Large Language Models Can Be Used to Estimate the Ideologies of Politicians in a Zero-Shot Learning Setting.](http://arxiv.org/abs/2303.12057) | 本文展示了在零-shot学习环境下，大型语言模型可以用于评估政治家的意识形态，为我们更好地理解政治功能提供了有用的信息。 |
-| [^22] | [EVA-02: A Visual Representation for Neon Genesis.](http://arxiv.org/abs/2303.11331) | EVA-02是一种基于Transformer的下一代视觉表征，具有重建强大且稳健特征的能力，并在各种代表性视觉任务中表现出色，同时使用的参数和计算预算显著较少。 |
-| [^23] | [EmotionIC: Emotional Inertia and Contagion-driven Dependency Modelling for Emotion Recognition in Conversation.](http://arxiv.org/abs/2303.11117) | 本文提出了一种新的依赖性建模方法，由情感惯性和感染驱动（EmotionIC），用于在特征提取和分类级别上进行会话情感识别。设计了多项具体方法，包括身份掩码多头注意（IM-MHA）和基于对话门控循环单元(DialogGRU)，以抓取上下文信息，提高模型的性能。 |
-| [^24] | [Character, Word, or Both? Revisiting the Segmentation Granularity for Chinese Pre-trained Language Models.](http://arxiv.org/abs/2303.10893) | 该论文提出了一种混合粒度中文BERT（MigBERT），同时考虑字符和单词，以更好地表现单词的语义。实验证明MigBERT在各种中文NLP任务上均可实现新的SOTA性能。 |
-| [^25] | [COVID-19 event extraction from Twitter via extractive question answering with continuous prompts.](http://arxiv.org/abs/2303.10659) | 本文使用连续提示和抽取式问答的方法从Twitter中提取COVID-19事件，在COVID-19事件插槽中达到了5%以上的F1得分改进。 |
-| [^26] | [ChatGPT Participates in a Computer Science Exam.](http://arxiv.org/abs/2303.09461) | ChatGPT在算法和数据结构考试中取得20.5分的成绩，表现出能在具有挑战性的大学考试中成功，但不能说明其对计算机科学有理解。 |
-| [^27] | [UPRISE: Universal Prompt Retrieval for Improving Zero-Shot Evaluation.](http://arxiv.org/abs/2303.08518) | UPRISE是一种通用的检索器，可自动为给定的零样本任务输入检索提示，从而提高大型语言模型的零样本评估。它通过跨任务和跨模型的实验展示了其通用性和潜力，同时表明具有减轻幻觉问题和提高LLM性能的能力。 |
-| [^28] | [Tell Me What Happened: Unifying Text-guided Video Completion via Multimodal Masked Video Generation.](http://arxiv.org/abs/2211.12824) | 本论文引入了一种新的任务，文本引导的视频补全，提出了多模态掩码视频生成方法，能够处理三种情况的视频补全。该方法在基准数据集上取得了最好的性能。 |
-| [^29] | [VoP: Text-Video Co-operative Prompt Tuning for Cross-Modal Retrieval.](http://arxiv.org/abs/2211.12764) | 本论文提出了一种用于文本视频跨模态检索的协作提示调整（VoP）框架，与传统方法相比，VoP具有更少的可训练参数和更低的计算复杂度，同时实现了相似甚至更好的性能。 |
-| [^30] | [Dual-Stream Transformer for Generic Event Boundary Captioning.](http://arxiv.org/abs/2207.03038) | 本文提出了一种双流Transformer的通用事件边界字幕生成方法，结合多个预训练模型和边界类型提示，以及单词级别的集成策略，实现了生成更人性化的字幕，并在GEBC测试集上取得了令人满意的结果。 |
-| [^31] | [The Causal Structure of Semantic Ambiguities.](http://arxiv.org/abs/2206.06807) | 本文使用Gogioso和Pinzani在QPL 2021中提出的束理论模型，为语义歧义的两个特征（不同可能解释的联合可信度和某些词在过程中扮演更重要角色的因果结构）进行建模。通过对心理语言学文献中的歧义短语数据集进行分析，研究人员对人类对于这些歧义的判断进行了实证测量。 |
-| [^32] | [Visual Spatial Reasoning.](http://arxiv.org/abs/2205.00363) | 本文介绍了一种名为Visual Spatial Reasoning（VSR）的数据集，其中包含超过10k个自然文本-图像配对，用于推理包括66种空间关系，研究发现目前的视觉和语言模型（VLMs）难以捕捉关系信息和较少关注物体的方向关系。 |
+| [^13] | [GrapeQA: GRaph Augmentation and Pruning to Enhance Question-Answering.](http://arxiv.org/abs/2303.12320) | GrapeQA是一种新方法，使用“重要实体图形增强”和“上下文感知节点剪枝”策略，以提高问答准确性和效率。 |
+| [^14] | [Self-supervised Meta-Prompt Learning with Meta-Gradient Regularization for Few-shot Generalization.](http://arxiv.org/abs/2303.12314) | 提出了一种自我监督元提示学习框架SUPMER，包括元梯度正则化，用于少样本泛化，通过锚定的元训练任务和基于课程的任务增强丰富了任务分布，解决了在少样本情况下良好初始化软提示和过拟合的问题。 |
+| [^15] | [Exploring Turkish Speech Recognition via Hybrid CTC/Attention Architecture and Multi-feature Fusion Network.](http://arxiv.org/abs/2303.12300) | 本文提出了一种基于混合CTC/Attention架构和多特征融合网络的土耳其语音识别系统，实现了数据增强技术和特征提取器LSPC的优化。实验结果表明，该模型在土耳其语音语料库上取得良好表现。 |
+| [^16] | [Evaluating Transformer Models and Human Behaviors on Chinese Character Naming.](http://arxiv.org/abs/2303.12294) | 本研究评估了一组 transformer 模型，在未知的中文字符命名任务中，这些模型表现得与人类很相似，能够很好地捕捉人类字符命名行为。 |
+| [^17] | [A Unified Taxonomy of Deep Syntactic Relations.](http://arxiv.org/abs/2303.12220) | 本文提出了一组通用的语义角色标签，针对Universal Dependencies，并应用于四种语言的数据中。 |
+| [^18] | [MAGVLT: Masked Generative Vision-and-Language Transformer.](http://arxiv.org/abs/2303.12208) | 本文提出 MGVLT 模型用于生成图像和文本序列，通过非自回归掩码预测实现了双向上下文编码和快速解码等特点。 |
+| [^19] | [Understand Legal Documents with Contextualized Large Language Models.](http://arxiv.org/abs/2303.12135) | 本文介绍了针对 SemEval-2023 任务 6 开发的 Legal-BERT-HSLN 模型和 Legal-LUKE 模型，其中 Legal-BERT-HSLN 模型通过考虑句内和句间的上下文信息以预测修辞角色，Legal-LUKE 模型是具有法律上下文和实体知识的模型，以识别法律实体。模型相比基线模型更准确，能够解决在人口众多的国家处理法律文件的问题。 |
+| [^20] | [Fundamentals of Generative Large Language Models and Perspectives in Cyber-Defense.](http://arxiv.org/abs/2303.12132) | 生成式语言模型的改进引起了公众广泛关注。它们广泛应用及其真实能力揭示了它们的潜在应用，但同时也带来了对其可能的恶意用途的担忧。本文旨在提供生成式大语言模型的简要概述以及在网络防御中的应用。 |
+| [^21] | [Positive-Augmented Constrastive Learning for Image and Video Captioning Evaluation.](http://arxiv.org/abs/2303.12112) | 本论文提出一种新的图像标题评估指标PAC-S，可以更准确地评估图像和视频的标题，相比于现有的指标有更好的表现；源代码和训练模型已经公开。 |
+| [^22] | [Large Language Models Can Be Used to Estimate the Ideologies of Politicians in a Zero-Shot Learning Setting.](http://arxiv.org/abs/2303.12057) | 本文展示了在零-shot学习环境下，大型语言模型可以用于评估政治家的意识形态，为我们更好地理解政治功能提供了有用的信息。 |
+| [^23] | [EVA-02: A Visual Representation for Neon Genesis.](http://arxiv.org/abs/2303.11331) | EVA-02是一种基于Transformer的下一代视觉表征，具有重建强大且稳健特征的能力，并在各种代表性视觉任务中表现出色，同时使用的参数和计算预算显著较少。 |
+| [^24] | [EmotionIC: Emotional Inertia and Contagion-driven Dependency Modelling for Emotion Recognition in Conversation.](http://arxiv.org/abs/2303.11117) | 本文提出了一种新的依赖性建模方法，由情感惯性和感染驱动（EmotionIC），用于在特征提取和分类级别上进行会话情感识别。设计了多项具体方法，包括身份掩码多头注意（IM-MHA）和基于对话门控循环单元(DialogGRU)，以抓取上下文信息，提高模型的性能。 |
+| [^25] | [Character, Word, or Both? Revisiting the Segmentation Granularity for Chinese Pre-trained Language Models.](http://arxiv.org/abs/2303.10893) | 该论文提出了一种混合粒度中文BERT（MigBERT），同时考虑字符和单词，以更好地表现单词的语义。实验证明MigBERT在各种中文NLP任务上均可实现新的SOTA性能。 |
+| [^26] | [COVID-19 event extraction from Twitter via extractive question answering with continuous prompts.](http://arxiv.org/abs/2303.10659) | 本文使用连续提示和抽取式问答的方法从Twitter中提取COVID-19事件，在COVID-19事件插槽中达到了5%以上的F1得分改进。 |
+| [^27] | [ChatGPT Participates in a Computer Science Exam.](http://arxiv.org/abs/2303.09461) | ChatGPT在算法和数据结构考试中取得20.5分的成绩，表现出能在具有挑战性的大学考试中成功，但不能说明其对计算机科学有理解。 |
+| [^28] | [UPRISE: Universal Prompt Retrieval for Improving Zero-Shot Evaluation.](http://arxiv.org/abs/2303.08518) | UPRISE是一种通用的检索器，可自动为给定的零样本任务输入检索提示，从而提高大型语言模型的零样本评估。它通过跨任务和跨模型的实验展示了其通用性和潜力，同时表明具有减轻幻觉问题和提高LLM性能的能力。 |
+| [^29] | [Tell Me What Happened: Unifying Text-guided Video Completion via Multimodal Masked Video Generation.](http://arxiv.org/abs/2211.12824) | 本论文引入了一种新的任务，文本引导的视频补全，提出了多模态掩码视频生成方法，能够处理三种情况的视频补全。该方法在基准数据集上取得了最好的性能。 |
+| [^30] | [VoP: Text-Video Co-operative Prompt Tuning for Cross-Modal Retrieval.](http://arxiv.org/abs/2211.12764) | 本论文提出了一种用于文本视频跨模态检索的协作提示调整（VoP）框架，与传统方法相比，VoP具有更少的可训练参数和更低的计算复杂度，同时实现了相似甚至更好的性能。 |
+| [^31] | [Dual-Stream Transformer for Generic Event Boundary Captioning.](http://arxiv.org/abs/2207.03038) | 本文提出了一种双流Transformer的通用事件边界字幕生成方法，结合多个预训练模型和边界类型提示，以及单词级别的集成策略，实现了生成更人性化的字幕，并在GEBC测试集上取得了令人满意的结果。 |
+| [^32] | [The Causal Structure of Semantic Ambiguities.](http://arxiv.org/abs/2206.06807) | 本文使用Gogioso和Pinzani在QPL 2021中提出的束理论模型，为语义歧义的两个特征（不同可能解释的联合可信度和某些词在过程中扮演更重要角色的因果结构）进行建模。通过对心理语言学文献中的歧义短语数据集进行分析，研究人员对人类对于这些歧义的判断进行了实证测量。 |
+| [^33] | [Visual Spatial Reasoning.](http://arxiv.org/abs/2205.00363) | 本文介绍了一种名为Visual Spatial Reasoning（VSR）的数据集，其中包含超过10k个自然文本-图像配对，用于推理包括66种空间关系，研究发现目前的视觉和语言模型（VLMs）难以捕捉关系信息和较少关注物体的方向关系。 |
 
 # 详细
 
@@ -205,7 +206,21 @@
 
     While few-shot learning as a transfer learning paradigm has gained significant traction for scenarios with limited data, it has primarily been explored in the context of building unimodal and unilingual models. Furthermore, a significant part of the existing literature in the domain of few-shot multitask learning perform in-context learning which requires manually generated prompts as the input, yielding varying outcomes depending on the level of manual prompt-engineering. In addition, in-context learning suffers from substantial computational, memory, and storage costs which eventually leads to high inference latency because it involves running all of the prompt's examples through the model every time a prediction is made. In contrast, methods based on the transfer learning via the fine-tuning paradigm avoid the aforementioned issues at a one-time cost of fine-tuning weights on a per-task basis. However, such methods lack exposure to few-shot multimodal multitask learning. In this pap
     
-[^13]: 具有元梯度正则化的自监督元提示学习用于少样本泛化
+[^13]: GrapeQA：增强问答功能的图形增强和剪枝方法
+
+    GrapeQA: GRaph Augmentation and Pruning to Enhance Question-Answering. (arXiv:2303.12320v1 [cs.CL])
+
+    [http://arxiv.org/abs/2303.12320](http://arxiv.org/abs/2303.12320)
+
+    GrapeQA是一种新方法，使用“重要实体图形增强”和“上下文感知节点剪枝”策略，以提高问答准确性和效率。
+
+    
+
+    常识问答方法结合了预先训练的语言模型（LM）的能力和知识图（KG）提供的推理。 典型方法从KG中收集与QA匹配的节点以形成工作图（WG），然后使用图神经网络（GNN）进行推理。这面临两个主要挑战：（i）很难从WG中捕获QA中的所有信息，（ii）WG包含一些来自KG的不相关节点。为了解决这些问题，我们提出了一个名为GrapeQA的算法以对WG进行两个简单的改进：（i）用于图形增强的重要实体（Prominent Entities）识别QA对当中相关文本块，并使用相应的潜在表示从LM进行增强；（ii）将不相关的节点剪枝。我们在OpenBookQA，CommonsenseQA和MedQA-USMLE上评估了结果，并发现GrapeQA显示出持续的改进，超过了其LM + KG前身（特别是QA-GNN）并获得了巨大的改进。
+
+    Commonsense question-answering (QA) methods combine the power of pre-trained Language Models (LM) with the reasoning provided by Knowledge Graphs (KG). A typical approach collects nodes relevant to the QA pair from a KG to form a Working Graph (WG) followed by reasoning using Graph Neural Networks(GNNs). This faces two major challenges: (i) it is difficult to capture all the information from the QA in the WG, and (ii) the WG contains some irrelevant nodes from the KG. To address these, we propose GrapeQA with two simple improvements on the WG: (i) Prominent Entities for Graph Augmentation identifies relevant text chunks from the QA pair and augments the WG with corresponding latent representations from the LM, and (ii) Context-Aware Node Pruning removes nodes that are less relevant to the QA pair. We evaluate our results on OpenBookQA, CommonsenseQA and MedQA-USMLE and see that GrapeQA shows consistent improvements over its LM + KG predecessor (QA-GNN in particular) and large improveme
+    
+[^14]: 具有元梯度正则化的自监督元提示学习用于少样本泛化
 
     Self-supervised Meta-Prompt Learning with Meta-Gradient Regularization for Few-shot Generalization. (arXiv:2303.12314v1 [cs.CL])
 
@@ -219,7 +234,7 @@
 
     Prompt tuning is a parameter-efficient method, which learns soft prompts and conditions frozen language models to perform specific downstream tasks. Though effective, prompt tuning under few-shot settings on the one hand heavily relies on a good initialization of soft prompts. On the other hand, it can easily result in overfitting. Existing works leverage pre-training or supervised meta-learning to initialize soft prompts but they cannot data-efficiently generalize to unseen downstream tasks. To address the above problems, this paper proposes a novel Self-sUpervised meta-Prompt learning framework with meta-gradient Regularization for few-shot generalization (SUPMER). We first design a set of self-supervised anchor meta-training tasks with different task formats and further enrich the task distribution with curriculum-based task augmentation. Then a novel meta-gradient regularization method is integrated into meta-prompt learning. It meta-learns to transform the raw gradients during few
     
-[^14]: 基于混合CTC/Attention架构和多特征融合网络的土耳其语音识别研究
+[^15]: 基于混合CTC/Attention架构和多特征融合网络的土耳其语音识别研究
 
     Exploring Turkish Speech Recognition via Hybrid CTC/Attention Architecture and Multi-feature Fusion Network. (arXiv:2303.12300v1 [cs.SD])
 
@@ -233,7 +248,7 @@
 
     In recent years, End-to-End speech recognition technology based on deep learning has developed rapidly. Due to the lack of Turkish speech data, the performance of Turkish speech recognition system is poor. Firstly, this paper studies a series of speech recognition tuning technologies. The results show that the performance of the model is the best when the data enhancement technology combining speed perturbation with noise addition is adopted and the beam search width is set to 16. Secondly, to maximize the use of effective feature information and improve the accuracy of feature extraction, this paper proposes a new feature extractor LSPC. LSPC and LiGRU network are combined to form a shared encoder structure, and model compression is realized. The results show that the performance of LSPC is better than MSPC and VGGnet when only using Fbank features, and the WER is improved by 1.01% and 2.53% respectively. Finally, based on the above two points, a new multi-feature fusion network is pr
     
-[^15]: 评估变换器模型和人类行为在中文字符命名方面的表现。
+[^16]: 评估变换器模型和人类行为在中文字符命名方面的表现。
 
     Evaluating Transformer Models and Human Behaviors on Chinese Character Naming. (arXiv:2303.12294v1 [cs.CL])
 
@@ -247,7 +262,7 @@
 
     Neural network models have been proposed to explain the grapheme-phoneme mapping process in humans for many alphabet languages. These models not only successfully learned the correspondence of the letter strings and their pronunciation, but also captured human behavior in nonce word naming tasks. How would the neural models perform for a non-alphabet language (e.g., Chinese) unknown character task? How well would the model capture human behavior? In this study, we evaluate a set of transformer models and compare their performances with human behaviors on an unknown Chinese character naming task. We found that the models and humans behaved very similarly, that they had similar accuracy distribution for each character, and had a substantial overlap in answers. In addition, the models' answers are highly correlated with humans' answers. These results suggested that the transformer models can well capture human's character naming behavior.
     
-[^16]: 深层句法关系的统一分类
+[^17]: 深层句法关系的统一分类
 
     A Unified Taxonomy of Deep Syntactic Relations. (arXiv:2303.12220v1 [cs.CL])
 
@@ -261,7 +276,7 @@
 
     This paper analyzes multiple deep-syntactic frameworks with the goal of creating a proposal for a set of universal semantic role labels. The proposal examines various theoretic linguistic perspectives and focuses on Meaning-Text Theory and Functional Generative Description frameworks.  For the purpose of this research, data from four languages is used -- Spanish and Catalan (Taule et al., 2011), Czech (Hajic et al., 2017), and English (Hajic et al., 2012). This proposal is oriented towards Universal Dependencies (de Marneffe et al., 2021) with a further intention of applying the universal semantic role labels to the UD data.
     
-[^17]: MAGVLT: 带掩码的生成视觉语言变压器
+[^18]: MAGVLT: 带掩码的生成视觉语言变压器
 
     MAGVLT: Masked Generative Vision-and-Language Transformer. (arXiv:2303.12208v1 [cs.CV])
 
@@ -275,7 +290,7 @@
 
     While generative modeling on multimodal image-text data has been actively developed with large-scale paired datasets, there have been limited attempts to generate both image and text data by a single model rather than a generation of one fixed modality conditioned on the other modality. In this paper, we explore a unified generative vision-and-language (VL) model that can produce both images and text sequences. Especially, we propose a generative VL transformer based on the non-autoregressive mask prediction, named MAGVLT, and compare it with an autoregressive generative VL transformer (ARGVLT). In comparison to ARGVLT, the proposed MAGVLT enables bidirectional context encoding, fast decoding by parallel token predictions in an iterative refinement, and extended editing capabilities such as image and text infilling. For rigorous training of our MAGVLT with image-text pairs from scratch, we combine the image-to-text, text-to-image, and joint image-and-text mask prediction tasks. Moreove
     
-[^18]: 利用上下文化的大型语言模型理解法律文件
+[^19]: 利用上下文化的大型语言模型理解法律文件
 
     Understand Legal Documents with Contextualized Large Language Models. (arXiv:2303.12135v1 [cs.CL])
 
@@ -289,7 +304,7 @@
 
     The growth of pending legal cases in populous countries, such as India, has become a major issue. Developing effective techniques to process and understand legal documents is extremely useful in resolving this problem. In this paper, we present our systems for SemEval-2023 Task 6: understanding legal texts (Modi et al., 2023). Specifically, we first develop the Legal-BERT-HSLN model that considers the comprehensive context information in both intra- and inter-sentence levels to predict rhetorical roles (subtask A) and then train a Legal-LUKE model, which is legal-contextualized and entity-aware, to recognize legal entities (subtask B). Our evaluations demonstrate that our designed models are more accurate than baselines, e.g., with an up to 15.0% better F1 score in subtask B. We achieved notable performance in the task leaderboard, e.g., 0.834 micro F1 score, and ranked No.5 out of 27 teams in subtask A.
     
-[^19]: 生成式大语言模型的基础与在网络防御中的应用
+[^20]: 生成式大语言模型的基础与在网络防御中的应用
 
     Fundamentals of Generative Large Language Models and Perspectives in Cyber-Defense. (arXiv:2303.12132v1 [cs.CL])
 
@@ -303,7 +318,7 @@
 
     Generative Language Models gained significant attention in late 2022 / early 2023, notably with the introduction of models refined to act consistently with users' expectations of interactions with AI (conversational models). Arguably the focal point of public attention has been such a refinement of the GPT3 model -- the ChatGPT and its subsequent integration with auxiliary capabilities, including search as part of Microsoft Bing. Despite extensive prior research invested in their development, their performance and applicability to a range of daily tasks remained unclear and niche. However, their wider utilization without a requirement for technical expertise, made in large part possible through conversational fine-tuning, revealed the extent of their true capabilities in a real-world environment. This has garnered both public excitement for their potential applications and concerns about their capabilities and potential malicious uses. This review aims to provide a brief overview of th
     
-[^20]: 基于正样本增强对比学习的图像视频标题评估
+[^21]: 基于正样本增强对比学习的图像视频标题评估
 
     Positive-Augmented Constrastive Learning for Image and Video Captioning Evaluation. (arXiv:2303.12112v1 [cs.CV])
 
@@ -317,7 +332,7 @@
 
     The CLIP model has been recently proven to be very effective for a variety of cross-modal tasks, including the evaluation of captions generated from vision-and-language architectures. In this paper, we propose a new recipe for a contrastive-based evaluation metric for image captioning, namely Positive-Augmented Contrastive learning Score (PAC-S), that in a novel way unifies the learning of a contrastive visual-semantic space with the addition of generated images and text on curated data. Experiments spanning several datasets demonstrate that our new metric achieves the highest correlation with human judgments on both images and videos, outperforming existing reference-based metrics like CIDEr and SPICE and reference-free metrics like CLIP-Score. Finally, we test the system-level correlation of the proposed metric when considering popular image captioning approaches, and assess the impact of employing different cross-modal features. Our source code and trained models are publicly availa
     
-[^21]: 大型语言模型可以在零-shot学习环境下用于评估政治家的意识形态
+[^22]: 大型语言模型可以在零-shot学习环境下用于评估政治家的意识形态
 
     Large Language Models Can Be Used to Estimate the Ideologies of Politicians in a Zero-Shot Learning Setting. (arXiv:2303.12057v1 [cs.CY])
 
@@ -331,7 +346,7 @@
 
     The mass aggregation of knowledge embedded in large language models (LLMs) holds the promise of new solutions to problems of observability and measurement in the social sciences. We examine the utility of one such model for a particularly difficult measurement task: measuring the latent ideology of lawmakers, which allows us to better understand functions that are core to democracy, such as how politics shape policy and how political actors represent their constituents. We scale the senators of the 116th United States Congress along the liberal-conservative spectrum by prompting ChatGPT to select the more liberal (or conservative) senator in pairwise comparisons. We show that the LLM produced stable answers across repeated iterations, did not hallucinate, and was not simply regurgitating information from a single source. This new scale strongly correlates with pre-existing liberal-conservative scales such as NOMINATE, but also differs in several important ways, such as correctly placin
     
-[^22]: EVA-02：新世纪福音战士的视觉表现
+[^23]: EVA-02：新世纪福音战士的视觉表现
 
     EVA-02: A Visual Representation for Neon Genesis. (arXiv:2303.11331v2 [cs.CV] UPDATED)
 
@@ -345,7 +360,7 @@
 
     We launch EVA-02, a next-generation Transformer-based visual representation pre-trained to reconstruct strong and robust language-aligned vision features via masked image modeling. With an updated plain Transformer architecture as well as extensive pre-training from an open & accessible giant CLIP vision encoder, EVA-02 demonstrates superior performance compared to prior state-of-the-art approaches across various representative vision tasks, while utilizing significantly fewer parameters and compute budgets. Notably, using exclusively publicly accessible training data, EVA-02 with only 304M parameters achieves a phenomenal 90.0 fine-tuning top-1 accuracy on ImageNet-1K val set. Additionally, our EVA-02-CLIP can reach up to 80.4 zero-shot top-1 on ImageNet-1K, outperforming the previous largest & best open-sourced CLIP with only ~1/6 parameters and ~1/6 image-text training data. We offer four EVA-02 variants in various model sizes, ranging from 6M to 304M parameters, all with impressive
     
-[^23]: EmotionIC：基于情感惯性和感染的依赖建模可用于对话中的情感识别
+[^24]: EmotionIC：基于情感惯性和感染的依赖建模可用于对话中的情感识别
 
     EmotionIC: Emotional Inertia and Contagion-driven Dependency Modelling for Emotion Recognition in Conversation. (arXiv:2303.11117v2 [cs.CL] UPDATED)
 
@@ -359,7 +374,7 @@
 
     Emotion Recognition in Conversation (ERC) has attracted growing attention in recent years as a result of the advancement and implementation of human-computer interface technologies. However, previous approaches to modeling global and local context dependencies lost the diversity of dependency information and do not take the context dependency into account at the classification level. In this paper, we propose a novel approach to dependency modeling driven by Emotional Inertia and Contagion (EmotionIC) for conversational emotion recognition at the feature extraction and classification levels. At the feature extraction level, our designed Identity Masked Multi-head Attention (IM-MHA) captures the identity-based long-distant context in the dialogue to contain the diverse influence of different participants and construct the global emotional atmosphere, while the devised Dialogue-based Gate Recurrent Unit (DialogGRU) that aggregates the emotional tendencies of dyadic dialogue is applied to
     
-[^24]: 字符，词还是两者兼备？——重访中文预训练语言模型的分词粒度
+[^25]: 字符，词还是两者兼备？——重访中文预训练语言模型的分词粒度
 
     Character, Word, or Both? Revisiting the Segmentation Granularity for Chinese Pre-trained Language Models. (arXiv:2303.10893v2 [cs.CL] UPDATED)
 
@@ -373,7 +388,7 @@
 
     Pretrained language models (PLMs) have shown marvelous improvements across various NLP tasks. Most Chinese PLMs simply treat an input text as a sequence of characters, and completely ignore word information. Although Whole Word Masking can alleviate this, the semantics in words is still not well represented. In this paper, we revisit the segmentation granularity of Chinese PLMs. We propose a mixed-granularity Chinese BERT (MigBERT) by considering both characters and words. To achieve this, we design objective functions for learning both character and word-level representations. We conduct extensive experiments on various Chinese NLP tasks to evaluate existing PLMs as well as the proposed MigBERT. Experimental results show that MigBERT achieves new SOTA performance on all these tasks. Further analysis demonstrates that words are semantically richer than characters. More interestingly, we show that MigBERT also works with Japanese. Our code and model have been released here~\footnote{htt
     
-[^25]: 通过连续提示的抽取式问答从Twitter中提取COVID-19事件
+[^26]: 通过连续提示的抽取式问答从Twitter中提取COVID-19事件
 
     COVID-19 event extraction from Twitter via extractive question answering with continuous prompts. (arXiv:2303.10659v2 [cs.CL] UPDATED)
 
@@ -387,7 +402,7 @@
 
     As COVID-19 ravages the world, social media analytics could augment traditional surveys in assessing how the pandemic evolves and capturing consumer chatter that could help healthcare agencies in addressing it. This typically involves mining disclosure events that mention testing positive for the disease or discussions surrounding perceptions and beliefs in preventative or treatment options. The 2020 shared task on COVID-19 event extraction (conducted as part of the W-NUT workshop during the EMNLP conference) introduced a new Twitter dataset for benchmarking event extraction from COVID-19 tweets. In this paper, we cast the problem of event extraction as extractive question answering using recent advances in continuous prompting in language models. On the shared task test dataset, our approach leads to over 5% absolute micro-averaged F1-score improvement over prior best results, across all COVID-19 event slots. Our ablation study shows that continuous prompts have a major impact on the 
     
-[^26]: ChatGPT参加计算机科学考试
+[^27]: ChatGPT参加计算机科学考试
 
     ChatGPT Participates in a Computer Science Exam. (arXiv:2303.09461v1 [cs.CL])
 
@@ -401,7 +416,7 @@
 
     We asked ChatGPT to participate in an undergraduate computer science exam on ''Algorithms and Data Structures''. We evaluated the program on the entire exam as posed to the students. We hand-copied its answers onto an exam sheet, which was subsequently graded in a blind setup alongside those of 200 participating students. We find that ChatGPT narrowly passed the exam, obtaining 20.5 out of 40 points. This impressive performance indicates that ChatGPT can indeed succeed in challenging tasks like university exams. At the same time, the tasks in our exam are structurally similar to those on other exams, solved homework problems, and teaching materials that can be found online. Therefore, it would be premature to conclude from this experiment that ChatGPT has any understanding of computer science. The transcript of our conversation with ChatGPT is available at \url{https://github.com/tml-tuebingen/chatgpt-algorithm-exam}, and the entire graded exam is in the appendix of this paper.
     
-[^27]: UPRISE: 通用提示检索以提高零样本评估
+[^28]: UPRISE: 通用提示检索以提高零样本评估
 
     UPRISE: Universal Prompt Retrieval for Improving Zero-Shot Evaluation. (arXiv:2303.08518v1 [cs.CL])
 
@@ -415,7 +430,7 @@
 
     Large Language Models (LLMs) are popular for their impressive abilities, but the need for model-specific fine-tuning or task-specific prompt engineering can hinder their generalization. We propose UPRISE (Universal Prompt Retrieval for Improving zero-Shot Evaluation), which tunes a lightweight and versatile retriever that automatically retrieves prompts for a given zero-shot task input. Specifically, we demonstrate universality in a cross-task and cross-model scenario: the retriever is tuned on a diverse set of tasks, but tested on unseen task types; we use a small frozen LLM, GPT-Neo-2.7B, for tuning the retriever, but test the retriever on different LLMs of much larger scales, such as BLOOM-7.1B, OPT-66B and GPT3-175B. Additionally, we show that UPRISE mitigates the hallucination problem in our experiments with ChatGPT, suggesting its potential to improve even the strongest LLMs.
     
-[^28]: 讲述故事：通过多模态掩码视频生成统一文本引导的视频补全
+[^29]: 讲述故事：通过多模态掩码视频生成统一文本引导的视频补全
 
     Tell Me What Happened: Unifying Text-guided Video Completion via Multimodal Masked Video Generation. (arXiv:2211.12824v2 [cs.CV] UPDATED)
 
@@ -429,7 +444,7 @@
 
     Generating a video given the first several static frames is challenging as it anticipates reasonable future frames with temporal coherence. Besides video prediction, the ability to rewind from the last frame or infilling between the head and tail is also crucial, but they have rarely been explored for video completion. Since there could be different outcomes from the hints of just a few frames, a system that can follow natural language to perform video completion may significantly improve controllability. Inspired by this, we introduce a novel task, text-guided video completion (TVC), which requests the model to generate a video from partial frames guided by an instruction. We then propose Multimodal Masked Video Generation (MMVG) to address this TVC task. During training, MMVG discretizes the video frames into visual tokens and masks most of them to perform video completion from any time point. At inference time, a single MMVG model can address all 3 cases of TVC, including video pred
     
-[^29]: VoP：用于文本视频跨模态检索的协作提示调整
+[^30]: VoP：用于文本视频跨模态检索的协作提示调整
 
     VoP: Text-Video Co-operative Prompt Tuning for Cross-Modal Retrieval. (arXiv:2211.12764v3 [cs.CV] UPDATED)
 
@@ -443,7 +458,7 @@
 
     Many recent studies leverage the pre-trained CLIP for text-video cross-modal retrieval by tuning the backbone with additional heavy modules, which not only brings huge computational burdens with much more parameters, but also leads to the knowledge forgetting from upstream models. In this work, we propose the VoP: Text-Video Co-operative Prompt Tuning for efficient tuning on the text-video retrieval task. The proposed VoP is an end-to-end framework with both video & text prompts introducing, which can be regarded as a powerful baseline with only 0.1% trainable parameters. Further, based on the spatio-temporal characteristics of videos, we develop three novel video prompt mechanisms to improve the performance with different scales of trainable parameters. The basic idea of the VoP enhancement is to model the frame position, frame context, and layer function with specific trainable prompts, respectively. Extensive experiments show that compared to full fine-tuning, the enhanced VoP achie
     
-[^30]: 基于双流Transformer的通用事件边界字幕生成
+[^31]: 基于双流Transformer的通用事件边界字幕生成
 
     Dual-Stream Transformer for Generic Event Boundary Captioning. (arXiv:2207.03038v2 [cs.CV] UPDATED)
 
@@ -457,7 +472,7 @@
 
     This paper describes our champion solution for the CVPR2022 Generic Event Boundary Captioning (GEBC) competition. GEBC requires the captioning model to have a comprehension of instantaneous status changes around the given video boundary, which makes it much more challenging than conventional video captioning task. In this paper, a Dual-Stream Transformer with improvements on both video content encoding and captions generation is proposed: (1) We utilize three pre-trained models to extract the video features from different granularities. Moreover, we exploit the types of boundary as hints to help the model generate captions. (2) We particularly design an model, termed as Dual-Stream Transformer, to learn discriminative representations for boundary captioning. (3) Towards generating content-relevant and human-like captions, we improve the description quality by designing a word-level ensemble strategy. The promising results on the GEBC test split demonstrate the efficacy of our proposed 
     
-[^31]: 语义歧义的因果结构
+[^32]: 语义歧义的因果结构
 
     The Causal Structure of Semantic Ambiguities. (arXiv:2206.06807v2 [cs.CL] UPDATED)
 
@@ -471,7 +486,7 @@
 
     Ambiguity is a natural language phenomenon occurring at different levels of syntax, semantics, and pragmatics. It is widely studied; in Psycholinguistics, for instance, we have a variety of competing studies for the human disambiguation processes. These studies are empirical and based on eyetracking measurements. Here we take first steps towards formalizing these processes for semantic ambiguities where we identified the presence of two features: (1) joint plausibility degrees of different possible interpretations, (2) causal structures according to which certain words play a more substantial role in the processes. The novel sheaf-theoretic model of definite causality developed by Gogioso and Pinzani in QPL 2021 offers tools to model and reason about these features. We applied this theory to a dataset of ambiguous phrases extracted from Psycholinguistics literature and their human plausibility judgements collected by us using the Amazon Mechanical Turk engine. We measured the causal fr
     
-[^32]: 视觉空间推理
+[^33]: 视觉空间推理
 
     Visual Spatial Reasoning. (arXiv:2205.00363v3 [cs.CL] UPDATED)
 

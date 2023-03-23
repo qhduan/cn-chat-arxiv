@@ -4,26 +4,27 @@
 | --- | --- | --- |
 | [^1] | [Conformal Prediction for Time Series with Modern Hopfield Networks.](http://arxiv.org/abs/2303.12783) | 该论文提出了一种名为 HopCPT 的新一致性时间序列预测方法，不仅能够处理时间结构，而且能够利用其优势，已在多种真实世界的时间序列数据集上证明了优于现有方法的性能。 |
 | [^2] | [Adaptive Conformal Prediction by Reweighting Nonconformity Score.](http://arxiv.org/abs/2303.12695) | 该论文提出了一种新方法，利用分位数回归森林来学习非拟合分数的分布，并利用其权重分配更多的重要性给残差与测试点相似的样本，从而实现更符合模型的不确定性的预测区间。 |
-| [^3] | [EDGI: Equivariant Diffusion for Planning with Embodied Agents.](http://arxiv.org/abs/2303.12410) | EDGI是一种基于模型的强化学习和规划算法，通过等变扩散处理内在对称性，具有更高效的采样和更好的泛化能力，适用于具有内在对称性的机器人操作任务。 |
-| [^4] | [Non-asymptotic analysis of Langevin-type Monte Carlo algorithms.](http://arxiv.org/abs/2303.12407) | 本文提出了一种新的Langevin型算法并应用于吉布斯分布。通过提出的2-Wasserstein距离上限，我们发现势函数的耗散性以及梯度 $\alpha>1/3$ 下的 $\alpha$-H\"{o}lder连续性可以保证算法具有接近零的误差。新的Langevin型算法还可以应用于无凸性或连续可微性的势函数。 |
-| [^5] | [Hardness of Independent Learning and Sparse Equilibrium Computation in Markov Games.](http://arxiv.org/abs/2303.12287) | 本文研究了分散式多智能体强化学习的问题，证明了在标准马尔可夫博弈框架下不存在可获得纳什均衡且可独立学习的算法。 |
-| [^6] | [Information-Based Sensor Placement for Data-Driven Estimation of Unsteady Flows.](http://arxiv.org/abs/2303.12260) | 本文提出了一种基于数据驱动的流场估计的传感器选择框架，能够使用少量传感器高效地估计高攻角下机翼后流的流场。 |
-| [^7] | [A Random Projection k Nearest Neighbours Ensemble for Classification via Extended Neighbourhood Rule.](http://arxiv.org/abs/2303.12210) | 本文提出了一种随机投影的kNN集成分类器，使用扩展邻域规则和降维来增加基本学习者的随机性并保留特征信息。 |
-| [^8] | [Universal Approximation Property of Hamiltonian Deep Neural Networks.](http://arxiv.org/abs/2303.12147) | 本文研究了离散化的哈密顿神经常微分方程引起的Hamiltonian深度神经网络的通用逼近能力，证明了其中的一部分流可以逐渐逼近紧致域上的任何连续函数，为实际使用提供了理论基础。 |
-| [^9] | [Understanding the Diffusion Objective as a Weighted Integral of ELBOs.](http://arxiv.org/abs/2303.00848) | 本文深入理解了扩散目标，并揭示了加权损失和ELBO目标之间的直接关系。 |
-| [^10] | [On Finite-Step Convergence of the Non-Greedy Algorithm and Proximal Alternating Minimization Method with Extrapolation for $L_1$-Norm PCA.](http://arxiv.org/abs/2302.07712) | 本文研究了非贪婪算法和具有外推的近端交替最小化方法在 $L_1$-范数PCA中的有限步收敛性，证明了在一定条件下，算法生成的迭代点将在有限步骤中保持不变。通过将算法视为交替最优化方法，同时优化条件下固定目标值。 |
-| [^11] | [Scalable Bayesian optimization with high-dimensional outputs using randomized prior networks.](http://arxiv.org/abs/2302.07260) | 本文提出了一个基于带随机先验的神经网络的深度学习框架用于高维输出的贝叶斯优化，可有效地处理全局优化问题，即使在高维度向量空间或无限维函数空间中也能近似功能关系。 |
-| [^12] | [On Penalty-based Bilevel Gradient Descent Method.](http://arxiv.org/abs/2302.05185) | 本文提出了基于惩罚的双层梯度下降算法，解决了下层非强凸约束双层问题，实验表明该算法有效。 |
-| [^13] | [Unconstrained Dynamic Regret via Sparse Coding.](http://arxiv.org/abs/2301.13349) | 本文探讨了在线线性优化（OLO）涉及无约束问题和动态遗憾问题的复杂性，提出了一种通过重新构造问题为稀疏编码的复杂度度量方式，在适应性和应用上有较好的应用价值。 |
-| [^14] | [Sequence Generation via Subsequence Similarity: Theory and Application to UAV Identification.](http://arxiv.org/abs/2301.08403) | 本文探究了一种单次生成模型的多样性，主要聚焦于子序列相似性如何影响整个序列相似性，并通过生成子序列相似的序列来增强数据集。 |
-| [^15] | [Retire: Robust Expectile Regression in High Dimensions.](http://arxiv.org/abs/2212.05562) | 本文提出了一种适用于高维数据的健壮expectile回归方法（Robust Retire），并针对迭代重新加权l1惩罚提出了oracle属性解决了惩罚分位数的非平滑和expectile回归敏感误差分布的问题。实验表明这种方法在预测和变量选择方面的表现都优于其他现有方法。 |
-| [^16] | [Unbiased Supervised Contrastive Learning.](http://arxiv.org/abs/2211.05568) | 本文提出了一种新的监督对比损失形式（epsilon-SupInfoNCE）以及一种新的去偏正则化损失（FairKL），旨在解决从有偏数据中学习无偏模型的问题。 |
-| [^17] | [Safe Exploration Incurs Nearly No Additional Sample Complexity for Reward-free RL.](http://arxiv.org/abs/2206.14057) | 本文提出 Safe reWard-frEe ExploraTion (SWEET)框架，在RF-RL任务中可将安全约束和探索效率同时实现，使得安全探索几乎不会增加额外的样本复杂度。 |
-| [^18] | [When Doubly Robust Methods Meet Machine Learning for Estimating Treatment Effects from Real-World Data: A Comparative Study.](http://arxiv.org/abs/2204.10969) | 本研究比较了多种常用的双重稳健方法，探讨了它们使用治疗模型和结果模型的策略异同，并研究了如何结合机器学习技术以提高其性能。 |
-| [^19] | [Near-optimal inference in adaptive linear regression.](http://arxiv.org/abs/2107.02266) | 本文提出了一些在线去偏估计的方法来修正自适应线性回归中的渐近偏差，利用数据集中的协方差结构提供更锐利的估计。 |
-| [^20] | [Robust and flexible learning of a high-dimensional classification rule using auxiliary outcomes.](http://arxiv.org/abs/2011.05493) | 该论文提出了一种利用所有结果共享的信息来学习高维线性决策规则的方法，其中包括使用多任务学习（MTL）来提高效率，并使用校准步骤来纠正估计偏差。 |
-| [^21] | [The generalization error of max-margin linear classifiers: Benign overfitting and high dimensional asymptotics in the overparametrized regime.](http://arxiv.org/abs/1911.01544) | 这篇论文在深入探讨现代机器学习分类器的最大间隔线性分类器问题上发现了一些关于过度拟合以及高维渐近性的泛化误差。 |
-| [^22] | [Bayesian stochastic blockmodeling.](http://arxiv.org/abs/1705.10225) | 本论文介绍了如何利用贝叶斯推断从复杂网络中提取大规模模块结构，并探讨了其潜在应用，同时展示了将其应用于预测网络中缺失和虚假链接的能力。 |
+| [^3] | [Inexact iterative numerical linear algebra for neural network-based spectral estimation and rare-event prediction.](http://arxiv.org/abs/2303.12534) | 本文开发了一种不精确的迭代线性代数方法，用于基于神经网络的谱估计和从短轨迹数据集中进行稀有事件的预测，这对于理解复杂系统的动态是具有挑战性的，并讨论了该方法对强化学习中的预测问题的影响。 |
+| [^4] | [EDGI: Equivariant Diffusion for Planning with Embodied Agents.](http://arxiv.org/abs/2303.12410) | EDGI是一种基于模型的强化学习和规划算法，通过等变扩散处理内在对称性，具有更高效的采样和更好的泛化能力，适用于具有内在对称性的机器人操作任务。 |
+| [^5] | [Non-asymptotic analysis of Langevin-type Monte Carlo algorithms.](http://arxiv.org/abs/2303.12407) | 本文提出了一种新的Langevin型算法并应用于吉布斯分布。通过提出的2-Wasserstein距离上限，我们发现势函数的耗散性以及梯度 $\alpha>1/3$ 下的 $\alpha$-H\"{o}lder连续性可以保证算法具有接近零的误差。新的Langevin型算法还可以应用于无凸性或连续可微性的势函数。 |
+| [^6] | [Hardness of Independent Learning and Sparse Equilibrium Computation in Markov Games.](http://arxiv.org/abs/2303.12287) | 本文研究了分散式多智能体强化学习的问题，证明了在标准马尔可夫博弈框架下不存在可获得纳什均衡且可独立学习的算法。 |
+| [^7] | [Information-Based Sensor Placement for Data-Driven Estimation of Unsteady Flows.](http://arxiv.org/abs/2303.12260) | 本文提出了一种基于数据驱动的流场估计的传感器选择框架，能够使用少量传感器高效地估计高攻角下机翼后流的流场。 |
+| [^8] | [A Random Projection k Nearest Neighbours Ensemble for Classification via Extended Neighbourhood Rule.](http://arxiv.org/abs/2303.12210) | 本文提出了一种随机投影的kNN集成分类器，使用扩展邻域规则和降维来增加基本学习者的随机性并保留特征信息。 |
+| [^9] | [Universal Approximation Property of Hamiltonian Deep Neural Networks.](http://arxiv.org/abs/2303.12147) | 本文研究了离散化的哈密顿神经常微分方程引起的Hamiltonian深度神经网络的通用逼近能力，证明了其中的一部分流可以逐渐逼近紧致域上的任何连续函数，为实际使用提供了理论基础。 |
+| [^10] | [Understanding the Diffusion Objective as a Weighted Integral of ELBOs.](http://arxiv.org/abs/2303.00848) | 本文深入理解了扩散目标，并揭示了加权损失和ELBO目标之间的直接关系。 |
+| [^11] | [On Finite-Step Convergence of the Non-Greedy Algorithm and Proximal Alternating Minimization Method with Extrapolation for $L_1$-Norm PCA.](http://arxiv.org/abs/2302.07712) | 本文研究了非贪婪算法和具有外推的近端交替最小化方法在 $L_1$-范数PCA中的有限步收敛性，证明了在一定条件下，算法生成的迭代点将在有限步骤中保持不变。通过将算法视为交替最优化方法，同时优化条件下固定目标值。 |
+| [^12] | [Scalable Bayesian optimization with high-dimensional outputs using randomized prior networks.](http://arxiv.org/abs/2302.07260) | 本文提出了一个基于带随机先验的神经网络的深度学习框架用于高维输出的贝叶斯优化，可有效地处理全局优化问题，即使在高维度向量空间或无限维函数空间中也能近似功能关系。 |
+| [^13] | [On Penalty-based Bilevel Gradient Descent Method.](http://arxiv.org/abs/2302.05185) | 本文提出了基于惩罚的双层梯度下降算法，解决了下层非强凸约束双层问题，实验表明该算法有效。 |
+| [^14] | [Unconstrained Dynamic Regret via Sparse Coding.](http://arxiv.org/abs/2301.13349) | 本文探讨了在线线性优化（OLO）涉及无约束问题和动态遗憾问题的复杂性，提出了一种通过重新构造问题为稀疏编码的复杂度度量方式，在适应性和应用上有较好的应用价值。 |
+| [^15] | [Sequence Generation via Subsequence Similarity: Theory and Application to UAV Identification.](http://arxiv.org/abs/2301.08403) | 本文探究了一种单次生成模型的多样性，主要聚焦于子序列相似性如何影响整个序列相似性，并通过生成子序列相似的序列来增强数据集。 |
+| [^16] | [Retire: Robust Expectile Regression in High Dimensions.](http://arxiv.org/abs/2212.05562) | 本文提出了一种适用于高维数据的健壮expectile回归方法（Robust Retire），并针对迭代重新加权l1惩罚提出了oracle属性解决了惩罚分位数的非平滑和expectile回归敏感误差分布的问题。实验表明这种方法在预测和变量选择方面的表现都优于其他现有方法。 |
+| [^17] | [Unbiased Supervised Contrastive Learning.](http://arxiv.org/abs/2211.05568) | 本文提出了一种新的监督对比损失形式（epsilon-SupInfoNCE）以及一种新的去偏正则化损失（FairKL），旨在解决从有偏数据中学习无偏模型的问题。 |
+| [^18] | [Safe Exploration Incurs Nearly No Additional Sample Complexity for Reward-free RL.](http://arxiv.org/abs/2206.14057) | 本文提出 Safe reWard-frEe ExploraTion (SWEET)框架，在RF-RL任务中可将安全约束和探索效率同时实现，使得安全探索几乎不会增加额外的样本复杂度。 |
+| [^19] | [When Doubly Robust Methods Meet Machine Learning for Estimating Treatment Effects from Real-World Data: A Comparative Study.](http://arxiv.org/abs/2204.10969) | 本研究比较了多种常用的双重稳健方法，探讨了它们使用治疗模型和结果模型的策略异同，并研究了如何结合机器学习技术以提高其性能。 |
+| [^20] | [Near-optimal inference in adaptive linear regression.](http://arxiv.org/abs/2107.02266) | 本文提出了一些在线去偏估计的方法来修正自适应线性回归中的渐近偏差，利用数据集中的协方差结构提供更锐利的估计。 |
+| [^21] | [Robust and flexible learning of a high-dimensional classification rule using auxiliary outcomes.](http://arxiv.org/abs/2011.05493) | 该论文提出了一种利用所有结果共享的信息来学习高维线性决策规则的方法，其中包括使用多任务学习（MTL）来提高效率，并使用校准步骤来纠正估计偏差。 |
+| [^22] | [The generalization error of max-margin linear classifiers: Benign overfitting and high dimensional asymptotics in the overparametrized regime.](http://arxiv.org/abs/1911.01544) | 这篇论文在深入探讨现代机器学习分类器的最大间隔线性分类器问题上发现了一些关于过度拟合以及高维渐近性的泛化误差。 |
+| [^23] | [Bayesian stochastic blockmodeling.](http://arxiv.org/abs/1705.10225) | 本论文介绍了如何利用贝叶斯推断从复杂网络中提取大规模模块结构，并探讨了其潜在应用，同时展示了将其应用于预测网络中缺失和虚假链接的能力。 |
 
 # 详细
 
@@ -55,7 +56,21 @@
 
     Despite attractive theoretical guarantees and practical successes, Predictive Interval (PI) given by Conformal Prediction (CP) may not reflect the uncertainty of a given model. This limitation arises from CP methods using a constant correction for all test points, disregarding their individual uncertainties, to ensure coverage properties. To address this issue, we propose using a Quantile Regression Forest (QRF) to learn the distribution of nonconformity scores and utilizing the QRF's weights to assign more importance to samples with residuals similar to the test point. This approach results in PI lengths that are more aligned with the model's uncertainty. In addition, the weights learnt by the QRF provide a partition of the features space, allowing for more efficient computations and improved adaptiveness of the PI through groupwise conformalization. Our approach enjoys an assumption-free finite sample marginal and training-conditional coverage, and under suitable assumptions, it also
     
-[^3]: EDGI: 内在对称性规划的等变扩散
+[^3]: 不精确的迭代数值线性代数用于基于神经网络的谱估计和稀有事件预测
+
+    Inexact iterative numerical linear algebra for neural network-based spectral estimation and rare-event prediction. (arXiv:2303.12534v1 [physics.comp-ph])
+
+    [http://arxiv.org/abs/2303.12534](http://arxiv.org/abs/2303.12534)
+
+    本文开发了一种不精确的迭代线性代数方法，用于基于神经网络的谱估计和从短轨迹数据集中进行稀有事件的预测，这对于理解复杂系统的动态是具有挑战性的，并讨论了该方法对强化学习中的预测问题的影响。
+
+    
+
+    由于复杂系统存在大量自由度，其中最重要的度量通常并不明显，因此理解其动态是具有挑战性的。转移算符的主要特征函数对于可视化很有用，它们可以为计算统计量（例如事件的可能性和平均时间）提供高效的基础（预测）。在本文中，我们开发了不精确的迭代线性代数方法来计算这些特征函数（谱估计）并从短轨迹数据集上进行预测。我们在便于可视化的低维模型和生物分子系统的高维模型上演示了该方法。我们还讨论了这些方法对强化学习中的预测问题的影响。
+
+    Understanding dynamics in complex systems is challenging because there are many degrees of freedom, and those that are most important for describing events of interest are often not obvious. The leading eigenfunctions of the transition operator are useful for visualization, and they can provide an efficient basis for computing statistics such as the likelihood and average time of events (predictions). Here we develop inexact iterative linear algebra methods for computing these eigenfunctions (spectral estimation) and making predictions from a data set of short trajectories sampled at finite intervals. We demonstrate the methods on a low-dimensional model that facilitates visualization and a high-dimensional model of a biomolecular system. Implications for the prediction problem in reinforcement learning are discussed.
+    
+[^4]: EDGI: 内在对称性规划的等变扩散
 
     EDGI: Equivariant Diffusion for Planning with Embodied Agents. (arXiv:2303.12410v1 [cs.LG])
 
@@ -69,7 +84,7 @@
 
     Embodied agents operate in a structured world, often solving tasks with spatial, temporal, and permutation symmetries. Most algorithms for planning and model-based reinforcement learning (MBRL) do not take this rich geometric structure into account, leading to sample inefficiency and poor generalization. We introduce the Equivariant Diffuser for Generating Interactions (EDGI), an algorithm for MBRL and planning that is equivariant with respect to the product of the spatial symmetry group $\mathrm{SE(3)}$, the discrete-time translation group $\mathbb{Z}$, and the object permutation group $\mathrm{S}_n$. EDGI follows the Diffuser framework (Janner et al. 2022) in treating both learning a world model and planning in it as a conditional generative modeling problem, training a diffusion model on an offline trajectory dataset. We introduce a new $\mathrm{SE(3)} \times \mathbb{Z} \times \mathrm{S}_n$-equivariant diffusion model that supports multiple representations. We integrate this model i
     
-[^4]: Langevin型Monte Carlo算法的非渐进分析
+[^5]: Langevin型Monte Carlo算法的非渐进分析
 
     Non-asymptotic analysis of Langevin-type Monte Carlo algorithms. (arXiv:2303.12407v1 [math.ST])
 
@@ -83,7 +98,7 @@
 
     We study the Langevin-type algorithms for Gibbs distributions such that the potentials are dissipative and their weak gradients have the finite moduli of continuity. Our main result is a non-asymptotic upper bound of the 2-Wasserstein distance between the Gibbs distribution and the law of general Langevin-type algorithms based on the Liptser--Shiryaev theory and functional inequalities. We apply this bound to show that the dissipativity of the potential and the $\alpha$-H\"{o}lder continuity of the gradient with $\alpha>1/3$ are sufficient for the convergence of the Langevin Monte Carlo algorithm with appropriate control of the parameters. We also propose Langevin-type algorithms with spherical smoothing for potentials without convexity or continuous differentiability.
     
-[^5]: 独立学习和稀疏均衡计算在马尔可夫博弈中的难度
+[^6]: 独立学习和稀疏均衡计算在马尔可夫博弈中的难度
 
     Hardness of Independent Learning and Sparse Equilibrium Computation in Markov Games. (arXiv:2303.12287v1 [cs.LG])
 
@@ -97,7 +112,7 @@
 
     We consider the problem of decentralized multi-agent reinforcement learning in Markov games. A fundamental question is whether there exist algorithms that, when adopted by all agents and run independently in a decentralized fashion, lead to no-regret for each player, analogous to celebrated convergence results in normal-form games. While recent work has shown that such algorithms exist for restricted settings (notably, when regret is defined with respect to deviations to Markovian policies), the question of whether independent no-regret learning can be achieved in the standard Markov game framework was open. We provide a decisive negative resolution this problem, both from a computational and statistical perspective. We show that:  - Under the widely-believed assumption that PPAD-hard problems cannot be solved in polynomial time, there is no polynomial-time algorithm that attains no-regret in general-sum Markov games when executed independently by all players, even when the game is kno
     
-[^6]: 基于信息的传感器放置用于无定常流量的数据驱动估计
+[^7]: 基于信息的传感器放置用于无定常流量的数据驱动估计
 
     Information-Based Sensor Placement for Data-Driven Estimation of Unsteady Flows. (arXiv:2303.12260v1 [physics.flu-dyn])
 
@@ -111,7 +126,7 @@
 
     Estimation of unsteady flow fields around flight vehicles may improve flow interactions and lead to enhanced vehicle performance. Although flow-field representations can be very high-dimensional, their dynamics can have low-order representations and may be estimated using a few, appropriately placed measurements. This paper presents a sensor-selection framework for the intended application of data-driven, flow-field estimation. This framework combines data-driven modeling, steady-state Kalman Filter design, and a sparsification technique for sequential selection of sensors. This paper also uses the sensor selection framework to design sensor arrays that can perform well across a variety of operating conditions. Flow estimation results on numerical data show that the proposed framework produces arrays that are highly effective at flow-field estimation for the flow behind and an airfoil at a high angle of attack using embedded pressure sensors. Analysis of the flow fields reveals that pa
     
-[^7]: 随机投影k最近邻集成分类器 via 扩展邻域规则
+[^8]: 随机投影k最近邻集成分类器 via 扩展邻域规则
 
     A Random Projection k Nearest Neighbours Ensemble for Classification via Extended Neighbourhood Rule. (arXiv:2303.12210v1 [stat.ML])
 
@@ -125,7 +140,7 @@
 
     Ensembles based on k nearest neighbours (kNN) combine a large number of base learners, each constructed on a sample taken from a given training data. Typical kNN based ensembles determine the k closest observations in the training data bounded to a test sample point by a spherical region to predict its class. In this paper, a novel random projection extended neighbourhood rule (RPExNRule) ensemble is proposed where bootstrap samples from the given training data are randomly projected into lower dimensions for additional randomness in the base models and to preserve features information. It uses the extended neighbourhood rule (ExNRule) to fit kNN as base learners on randomly projected bootstrap samples.
     
-[^8]: Hamiltonian深度神经网络的万能逼近性质研究
+[^9]: Hamiltonian深度神经网络的万能逼近性质研究
 
     Universal Approximation Property of Hamiltonian Deep Neural Networks. (arXiv:2303.12147v1 [cs.LG])
 
@@ -139,7 +154,7 @@
 
     This paper investigates the universal approximation capabilities of Hamiltonian Deep Neural Networks (HDNNs) that arise from the discretization of Hamiltonian Neural Ordinary Differential Equations. Recently, it has been shown that HDNNs enjoy, by design, non-vanishing gradients, which provide numerical stability during training. However, although HDNNs have demonstrated state-of-the-art performance in several applications, a comprehensive study to quantify their expressivity is missing. In this regard, we provide a universal approximation theorem for HDNNs and prove that a portion of the flow of HDNNs can approximate arbitrary well any continuous function over a compact domain. This result provides a solid theoretical foundation for the practical use of HDNNs.
     
-[^9]: 以ELBOs的加权积分理解扩散目标
+[^10]: 以ELBOs的加权积分理解扩散目标
 
     Understanding the Diffusion Objective as a Weighted Integral of ELBOs. (arXiv:2303.00848v2 [cs.LG] UPDATED)
 
@@ -153,7 +168,7 @@
 
     Diffusion models in the literature are optimized with various objectives that are special cases of a weighted loss, where the weighting function specifies the weight per noise level. Uniform weighting corresponds to maximizing the ELBO, a principled approximation of maximum likelihood. In current practice diffusion models are optimized with non-uniform weighting due to better results in terms of sample quality. In this work we expose a direct relationship between the weighted loss (with any weighting) and the ELBO objective.  We show that the weighted loss can be written as a weighted integral of ELBOs, with one ELBO per noise level. If the weighting function is monotonic, then the weighted loss is a likelihood-based objective: it maximizes the ELBO under simple data augmentation, namely Gaussian noise perturbation. Our main contribution is a deeper theoretical understanding of the diffusion objective, but we also performed some experiments comparing monotonic with non-monotonic weight
     
-[^10]: 非贪婪算法和具有外推的近端交替最小化方法在 $L_1$-范数PCA中的有限步收敛性
+[^11]: 非贪婪算法和具有外推的近端交替最小化方法在 $L_1$-范数PCA中的有限步收敛性
 
     On Finite-Step Convergence of the Non-Greedy Algorithm and Proximal Alternating Minimization Method with Extrapolation for $L_1$-Norm PCA. (arXiv:2302.07712v3 [math.OC] UPDATED)
 
@@ -167,7 +182,7 @@
 
     The classical non-greedy algorithm (NGA) and the recently proposed proximal alternating minimization method with extrapolation (PAMe) for $L_1$-norm PCA are revisited and their finite-step convergence are studied. It is first shown that NGA can be interpreted as a conditional subgradient or an alternating maximization method. By recognizing it as a conditional subgradient, we prove that the iterative points generated by the algorithm will be constant in finitely many steps under a certain full-rank assumption; such an assumption can be removed when the projection dimension is one. By treating the algorithm as an alternating maximization, we then prove that the objective value will be fixed after at most $\left\lceil\frac{F^{\max}}{\tau_0} \right\rceil$ steps, where the stopping point satisfies certain optimality conditions. Then, a slight modification of NGA with improved convergence properties is analyzed. It is shown that the iterative points generated by the modified algorithm will 
     
-[^11]: 基于随机先验网络的高维输出可扩展贝叶斯优化
+[^12]: 基于随机先验网络的高维输出可扩展贝叶斯优化
 
     Scalable Bayesian optimization with high-dimensional outputs using randomized prior networks. (arXiv:2302.07260v2 [cs.LG] UPDATED)
 
@@ -181,7 +196,7 @@
 
     Several fundamental problems in science and engineering consist of global optimization tasks involving unknown high-dimensional (black-box) functions that map a set of controllable variables to the outcomes of an expensive experiment. Bayesian Optimization (BO) techniques are known to be effective in tackling global optimization problems using a relatively small number objective function evaluations, but their performance suffers when dealing with high-dimensional outputs. To overcome the major challenge of dimensionality, here we propose a deep learning framework for BO and sequential decision making based on bootstrapped ensembles of neural architectures with randomized priors. Using appropriate architecture choices, we show that the proposed framework can approximate functional relationships between design variables and quantities of interest, even in cases where the latter take values in high-dimensional vector spaces or even infinite-dimensional function spaces. In the context of 
     
-[^12]: 基于惩罚的双层梯度下降方法研究
+[^13]: 基于惩罚的双层梯度下降方法研究
 
     On Penalty-based Bilevel Gradient Descent Method. (arXiv:2302.05185v2 [cs.LG] UPDATED)
 
@@ -195,7 +210,7 @@
 
     Bilevel optimization enjoys a wide range of applications in hyper-parameter optimization, meta-learning and reinforcement learning. However, bilevel optimization problems are difficult to solve. Recent progress on scalable bilevel algorithms mainly focuses on bilevel optimization problems where the lower-level objective is either strongly convex or unconstrained. In this work, we tackle the bilevel problem through the lens of the penalty method. We show that under certain conditions, the penalty reformulation recovers the solutions of the original bilevel problem. Further, we propose the penalty-based bilevel gradient descent (PBGD) algorithm and establish its finite-time convergence for the constrained bilevel problem without lower-level strong convexity. Experiments showcase the efficiency of the proposed PBGD algorithm.
     
-[^13]: 通过稀疏编码实现无约束动态遗憾
+[^14]: 通过稀疏编码实现无约束动态遗憾
 
     Unconstrained Dynamic Regret via Sparse Coding. (arXiv:2301.13349v2 [cs.LG] UPDATED)
 
@@ -209,7 +224,7 @@
 
     Motivated by time series forecasting, we study Online Linear Optimization (OLO) under the coupling of two problem structures: the domain is unbounded, and the performance of an algorithm is measured by its dynamic regret. Handling either of them requires the regret bound to depend on certain complexity measure of the comparator sequence -- specifically, the comparator norm in unconstrained OLO, and the path length in dynamic regret. In contrast to a recent work (Jacobsen & Cutkosky, 2022) that adapts to the combination of these two complexity measures, we propose an alternative complexity measure by recasting the problem into sparse coding. Adaptivity can be achieved by a simple modular framework, which naturally exploits more intricate prior knowledge of the environment. Along the way, we also present a new gradient adaptive algorithm for static unconstrained OLO, designed using novel continuous time machinery. This could be of independent interest.
     
-[^14]: 通过子序列相似性生成序列：理论及其在无人机识别中的应用
+[^15]: 通过子序列相似性生成序列：理论及其在无人机识别中的应用
 
     Sequence Generation via Subsequence Similarity: Theory and Application to UAV Identification. (arXiv:2301.08403v2 [cs.LG] UPDATED)
 
@@ -223,7 +238,7 @@
 
     The ability to generate synthetic sequences is crucial for a wide range of applications, and recent advances in deep learning architectures and generative frameworks have greatly facilitated this process. Particularly, unconditional one-shot generative models constitute an attractive line of research that focuses on capturing the internal information of a single image or video to generate samples with similar contents. Since many of those one-shot models are shifting toward efficient non-deep and non-adversarial approaches, we examine the versatility of a one-shot generative model for augmenting whole datasets. In this work, we focus on how similarity at the subsequence level affects similarity at the sequence level, and derive bounds on the optimal transport of real and generated sequences based on that of corresponding subsequences. We use a one-shot generative model to sample from the vicinity of individual sequences and generate subsequence-similar ones and demonstrate the improvem
     
-[^15]: 高维数据中的健壮性expectile回归方法Robust Retire
+[^16]: 高维数据中的健壮性expectile回归方法Robust Retire
 
     Retire: Robust Expectile Regression in High Dimensions. (arXiv:2212.05562v2 [stat.ME] UPDATED)
 
@@ -237,7 +252,7 @@
 
     High-dimensional data can often display heterogeneity due to heteroscedastic variance or inhomogeneous covariate effects. Penalized quantile and expectile regression methods offer useful tools to detect heteroscedasticity in high-dimensional data. The former is computationally challenging due to the non-smooth nature of the check loss, and the latter is sensitive to heavy-tailed error distributions. In this paper, we propose and study (penalized) robust expectile regression (retire), with a focus on iteratively reweighted $\ell_1$-penalization which reduces the estimation bias from $\ell_1$-penalization and leads to oracle properties. Theoretically, we establish the statistical properties of the retire estimator under two regimes: (i) low-dimensional regime in which $d \ll n$; (ii) high-dimensional regime in which $s\ll n\ll d$ with $s$ denoting the number of significant predictors. In the high-dimensional setting, we carefully characterize the solution path of the iteratively reweight
     
-[^16]: 无偏的监督对比学习
+[^17]: 无偏的监督对比学习
 
     Unbiased Supervised Contrastive Learning. (arXiv:2211.05568v3 [cs.LG] UPDATED)
 
@@ -251,7 +266,7 @@
 
     Many datasets are biased, namely they contain easy-to-learn features that are highly correlated with the target class only in the dataset but not in the true underlying distribution of the data. For this reason, learning unbiased models from biased data has become a very relevant research topic in the last years. In this work, we tackle the problem of learning representations that are robust to biases. We first present a margin-based theoretical framework that allows us to clarify why recent contrastive losses (InfoNCE, SupCon, etc.) can fail when dealing with biased data. Based on that, we derive a novel formulation of the supervised contrastive loss (epsilon-SupInfoNCE), providing more accurate control of the minimal distance between positive and negative samples. Furthermore, thanks to our theoretical framework, we also propose FairKL, a new debiasing regularization loss, that works well even with extremely biased data. We validate the proposed losses on standard vision datasets inc
     
-[^17]: 安全探索在没有奖励反馈的强化学习任务中几乎不会增加样本的复杂度
+[^18]: 安全探索在没有奖励反馈的强化学习任务中几乎不会增加样本的复杂度
 
     Safe Exploration Incurs Nearly No Additional Sample Complexity for Reward-free RL. (arXiv:2206.14057v3 [cs.LG] UPDATED)
 
@@ -265,7 +280,7 @@
 
     Reward-free reinforcement learning (RF-RL), a recently introduced RL paradigm, relies on random action-taking to explore the unknown environment without any reward feedback information. While the primary goal of the exploration phase in RF-RL is to reduce the uncertainty in the estimated model with minimum number of trajectories, in practice, the agent often needs to abide by certain safety constraint at the same time. It remains unclear how such safe exploration requirement would affect the corresponding sample complexity in order to achieve the desired optimality of the obtained policy in planning. In this work, we make a first attempt to answer this question. In particular, we consider the scenario where a safe baseline policy is known beforehand, and propose a unified Safe reWard-frEe ExploraTion (SWEET) framework. We then particularize the SWEET framework to the tabular and the low-rank MDP settings, and develop algorithms coined Tabular-SWEET and Low-rank-SWEET, respectively. Bot
     
-[^18]: 当双重稳健方法遇到机器学习：用于从实际数据中估计治疗效果的比较研究
+[^19]: 当双重稳健方法遇到机器学习：用于从实际数据中估计治疗效果的比较研究
 
     When Doubly Robust Methods Meet Machine Learning for Estimating Treatment Effects from Real-World Data: A Comparative Study. (arXiv:2204.10969v3 [stat.ME] UPDATED)
 
@@ -279,7 +294,7 @@
 
     Observational cohort studies are increasingly being used for comparative effectiveness research to assess the safety of therapeutics. Recently, various doubly robust methods have been proposed for average treatment effect estimation by combining the treatment model and the outcome model via different vehicles, such as matching, weighting, and regression. The key advantage of doubly robust estimators is that they require either the treatment model or the outcome model to be correctly specified to obtain a consistent estimator of average treatment effects, and therefore lead to a more accurate and often more precise inference. However, little work has been done to understand how doubly robust estimators differ due to their unique strategies of using the treatment and outcome models and how machine learning techniques can be combined to boost their performance. Here we examine multiple popular doubly robust methods and compare their performance using different treatment and outcome modeli
     
-[^19]: 自适应线性回归中的近最优推断
+[^20]: 自适应线性回归中的近最优推断
 
     Near-optimal inference in adaptive linear regression. (arXiv:2107.02266v3 [math.ST] UPDATED)
 
@@ -293,7 +308,7 @@
 
     When data is collected in an adaptive manner, even simple methods like ordinary least squares can exhibit non-normal asymptotic behavior. As an undesirable consequence, hypothesis tests and confidence intervals based on asymptotic normality can lead to erroneous results. We propose a family of online debiasing estimators to correct these distributional anomalies in least squares estimation. Our proposed methods take advantage of the covariance structure present in the dataset and provide sharper estimates in directions for which more information has accrued. We establish an asymptotic normality property for our proposed online debiasing estimators under mild conditions on the data collection process and provide asymptotically exact confidence intervals. We additionally prove a minimax lower bound for the adaptive linear regression problem, thereby providing a baseline by which to compare estimators. There are various conditions under which our proposed estimators achieve the minimax lo
     
-[^20]: 利用辅助结果强韧灵活地学习高维分类规则
+[^21]: 利用辅助结果强韧灵活地学习高维分类规则
 
     Robust and flexible learning of a high-dimensional classification rule using auxiliary outcomes. (arXiv:2011.05493v3 [stat.ME] UPDATED)
 
@@ -307,7 +322,7 @@
 
     Correlated outcomes are common in many practical problems. In some settings, one outcome is of particular interest, and others are auxiliary. To leverage information shared by all the outcomes, traditional multi-task learning (MTL) minimizes an averaged loss function over all the outcomes, which may lead to biased estimation for the target outcome, especially when the MTL model is mis-specified. In this work, based on a decomposition of estimation bias into two types, within-subspace and against-subspace, we develop a robust transfer learning approach to estimating a high-dimensional linear decision rule for the outcome of interest with the presence of auxiliary outcomes. The proposed method includes an MTL step using all outcomes to gain efficiency, and a subsequent calibration step using only the outcome of interest to correct both types of biases. We show that the final estimator can achieve a lower estimation error than the one using only the single outcome of interest. Simulations
     
-[^21]: 最大间隔线性分类器的泛化误差：过度拟合和超参数区域的高维渐近性。
+[^22]: 最大间隔线性分类器的泛化误差：过度拟合和超参数区域的高维渐近性。
 
     The generalization error of max-margin linear classifiers: Benign overfitting and high dimensional asymptotics in the overparametrized regime. (arXiv:1911.01544v3 [math.ST] UPDATED)
 
@@ -321,7 +336,7 @@
 
     Modern machine learning classifiers often exhibit vanishing classification error on the training set. They achieve this by learning nonlinear representations of the inputs that maps the data into linearly separable classes.  Motivated by these phenomena, we revisit high-dimensional maximum margin classification for linearly separable data. We consider a stylized setting in which data $(y_i,{\boldsymbol x}_i)$, $i\le n$ are i.i.d. with ${\boldsymbol x}_i\sim\mathsf{N}({\boldsymbol 0},{\boldsymbol \Sigma})$ a $p$-dimensional Gaussian feature vector, and $y_i \in\{+1,-1\}$ a label whose distribution depends on a linear combination of the covariates $\langle {\boldsymbol \theta}_*,{\boldsymbol x}_i \rangle$. While the Gaussian model might appear extremely simplistic, universality arguments can be used to show that the results derived in this setting also apply to the output of certain nonlinear featurization maps.  We consider the proportional asymptotics $n,p\to\infty$ with $p/n\to \psi$,
     
-[^22]: 贝叶斯随机块模型
+[^23]: 贝叶斯随机块模型
 
     Bayesian stochastic blockmodeling. (arXiv:1705.10225v9 [stat.ML] UPDATED)
 
