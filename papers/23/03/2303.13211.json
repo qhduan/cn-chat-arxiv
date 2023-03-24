@@ -1,0 +1,12 @@
+{
+    "title": "Don't FREAK Out: A Frequency-Inspired Approach to Detecting Backdoor Poisoned Samples in DNNs. (arXiv:2303.13211v1 [cs.CR])",
+    "abstract": "In this paper we investigate the frequency sensitivity of Deep Neural Networks (DNNs) when presented with clean samples versus poisoned samples. Our analysis shows significant disparities in frequency sensitivity between these two types of samples. Building on these findings, we propose FREAK, a frequency-based poisoned sample detection algorithm that is simple yet effective. Our experimental results demonstrate the efficacy of FREAK not only against frequency backdoor attacks but also against some spatial attacks. Our work is just the first step in leveraging these insights. We believe that our analysis and proposed defense mechanism will provide a foundation for future research and development of backdoor defenses.",
+    "link": "http://arxiv.org/abs/2303.13211",
+    "context": "Title: Don't FREAK Out: A Frequency-Inspired Approach to Detecting Backdoor Poisoned Samples in DNNs. (arXiv:2303.13211v1 [cs.CR])\nAbstract: In this paper we investigate the frequency sensitivity of Deep Neural Networks (DNNs) when presented with clean samples versus poisoned samples. Our analysis shows significant disparities in frequency sensitivity between these two types of samples. Building on these findings, we propose FREAK, a frequency-based poisoned sample detection algorithm that is simple yet effective. Our experimental results demonstrate the efficacy of FREAK not only against frequency backdoor attacks but also against some spatial attacks. Our work is just the first step in leveraging these insights. We believe that our analysis and proposed defense mechanism will provide a foundation for future research and development of backdoor defenses.",
+    "path": "papers/23/03/2303.13211.json",
+    "total_tokens": 758,
+    "translated_title": "不要慌张：一种基于频率的方法检测DNN中的后门毒化样本。",
+    "translated_abstract": "本文研究了当DNN面对清洁样本和毒化样本时的频率敏感性。我们的分析显示，这两种类型样本的频率敏感性存在显著差异。在此基础上，我们提出了FREAK，一种简单而有效的基于频率的毒化样本检测算法。我们的实验结果不仅证明了FREAK对频率后门攻击的有效性，也对一些空间攻击具有防御能力。我们的工作只是利用这些洞见的第一步。我们相信我们的分析和提出的防御机制将为未来的后门防御研究和开发提供基础。",
+    "tldr": "本文研究了DNN对清洁样本和毒化样本的频率敏感性差异，提出了一种简单而有效的FREAK基于频率的毒化样本检测算法，可有效防御频率后门攻击和一些空间攻击。",
+    "en_tdlr": "This paper investigates the frequency sensitivity of DNNs when presented with clean samples versus poisoned samples, proposing FREAK, a simple yet effective frequency-based poisoned sample detection algorithm that can defend against frequency backdoor attacks and some spatial attacks."
+}

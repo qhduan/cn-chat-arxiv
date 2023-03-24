@@ -1,0 +1,12 @@
+{
+    "title": "Features matching using natural language processing. (arXiv:2303.12804v1 [cs.DB])",
+    "abstract": "The feature matching is a basic step in matching different datasets. This article proposes shows a new hybrid model of a pretrained Natural Language Processing (NLP) based model called BERT used in parallel with a statistical model based on Jaccard similarity to measure the similarity between list of features from two different datasets. This reduces the time required to search for correlations or manually match each feature from one dataset to another.",
+    "link": "http://arxiv.org/abs/2303.12804",
+    "context": "Title: Features matching using natural language processing. (arXiv:2303.12804v1 [cs.DB])\nAbstract: The feature matching is a basic step in matching different datasets. This article proposes shows a new hybrid model of a pretrained Natural Language Processing (NLP) based model called BERT used in parallel with a statistical model based on Jaccard similarity to measure the similarity between list of features from two different datasets. This reduces the time required to search for correlations or manually match each feature from one dataset to another.",
+    "path": "papers/23/03/2303.12804.json",
+    "total_tokens": 557,
+    "translated_title": "使用自然语言处理进行特征匹配",
+    "translated_abstract": "特征匹配是匹配不同数据集的基本步骤。本文提出了一种新的混合模型，该模型由预训练的基于自然语言处理（NLP）的BERT模型与基于Jaccard相似度的统计模型并行使用，以测量两个不同数据集中特征列表之间的相似性。这减少了搜索相关性或手动匹配每个数据集中的特征所需的时间。",
+    "tldr": "本文提出了一种使用自然语言处理进行特征匹配的新混合模型，它可以减少匹配不同数据集所需的时间。",
+    "en_tdlr": "This paper proposes a new hybrid model which uses natural language processing for feature matching, and reduces the time required to match different datasets."
+}

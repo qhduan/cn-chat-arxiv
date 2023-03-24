@@ -1,0 +1,12 @@
+{
+    "title": "Information transmission in monopolistic credence goods markets. (arXiv:2303.13295v1 [econ.TH])",
+    "abstract": "We study a general credence goods model with $N$ problem types and $N$ treatments. Communication between the expert seller and the client is modeled as cheap talk. We find that the expert's equilibrium payoffs admit a geometric characterization, described by the quasiconcave envelope of his belief-based profits function under discriminatory pricing. We establish the existence of client-worst equilibria, apply the geometric characterization to previous research on credence goods, and provide a necessary and sufficient condition for when communication benefits the expert. For the binary case, we solve for all equilibria and analyze their welfare properties.",
+    "link": "http://arxiv.org/abs/2303.13295",
+    "context": "Title: Information transmission in monopolistic credence goods markets. (arXiv:2303.13295v1 [econ.TH])\nAbstract: We study a general credence goods model with $N$ problem types and $N$ treatments. Communication between the expert seller and the client is modeled as cheap talk. We find that the expert's equilibrium payoffs admit a geometric characterization, described by the quasiconcave envelope of his belief-based profits function under discriminatory pricing. We establish the existence of client-worst equilibria, apply the geometric characterization to previous research on credence goods, and provide a necessary and sufficient condition for when communication benefits the expert. For the binary case, we solve for all equilibria and analyze their welfare properties.",
+    "path": "papers/23/03/2303.13295.json",
+    "total_tokens": 725,
+    "translated_title": "垄断性信任商品市场中的信息传递",
+    "translated_abstract": "本文研究了一个涵盖 $N$ 个问题类型和 $N$ 种治疗方法的信任商品模型。专家销售者和客户之间的通讯被建模为廉价谈判。我们发现，在歧视性定价下，专家的均衡回报具有几何特征描述，即专家以信念利润函数的拟下凸包为代价。我们证明了客户最差的均衡存在性，并将这个几何特征应用于之前关于信任商品的研究中，并为通讯何时有益于专家提供了充分必要条件。对于二元情形，我们求解了所有均衡，并分析了它们的福利属性。",
+    "tldr": "本文研究了信任商品市场中专家销售者和客户之间的通讯问题，提供了几何特征描述和必要条件，以及对二元情形下的所有均衡进行了福利分析。",
+    "en_tdlr": "This paper studies the information transmission problem between expert sellers and clients in credence goods markets, provides the geometric characterization and necessary conditions, and analyzes the welfare properties of all equilibria in the binary case."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Towards Solving Fuzzy Tasks with Human Feedback: A Retrospective of the MineRL BASALT 2022 Competition. (arXiv:2303.13512v1 [cs.AI])",
+    "abstract": "To facilitate research in the direction of fine-tuning foundation models from human feedback, we held the MineRL BASALT Competition on Fine-Tuning from Human Feedback at NeurIPS 2022. The BASALT challenge asks teams to compete to develop algorithms to solve tasks with hard-to-specify reward functions in Minecraft. Through this competition, we aimed to promote the development of algorithms that use human feedback as channels to learn the desired behavior. We describe the competition and provide an overview of the top solutions. We conclude by discussing the impact of the competition and future directions for improvement.",
+    "link": "http://arxiv.org/abs/2303.13512",
+    "context": "Title: Towards Solving Fuzzy Tasks with Human Feedback: A Retrospective of the MineRL BASALT 2022 Competition. (arXiv:2303.13512v1 [cs.AI])\nAbstract: To facilitate research in the direction of fine-tuning foundation models from human feedback, we held the MineRL BASALT Competition on Fine-Tuning from Human Feedback at NeurIPS 2022. The BASALT challenge asks teams to compete to develop algorithms to solve tasks with hard-to-specify reward functions in Minecraft. Through this competition, we aimed to promote the development of algorithms that use human feedback as channels to learn the desired behavior. We describe the competition and provide an overview of the top solutions. We conclude by discussing the impact of the competition and future directions for improvement.",
+    "path": "papers/23/03/2303.13512.json",
+    "total_tokens": 700,
+    "translated_title": "利用人类反馈解决模糊任务：MineRL BASALT 2022竞赛回顾。",
+    "translated_abstract": "为了促进基础模型通过人类反馈的微调研究，我们在NeurIPS 2022举办了MineRL BASALT竞赛，该竞赛旨在寻求用于解决Minecraft中难以明确定义奖励函数的任务的算法。通过此竞赛，我们致力于促进利用人类反馈作为学习所需行为的渠道的算法的发展。我们描述了竞赛，并概述了顶尖解决方案。最后，我们探讨了竞赛的影响和未来的改进方向。",
+    "tldr": "MineRL BASALT 2022竞赛旨在促进开发算法来利用人类反馈解决Minecraft中难以指定奖励函数的任务，帮助推动此方向的研究。",
+    "en_tdlr": "The MineRL BASALT 2022 competition aims to promote the development of algorithms that utilize human feedback to solve tasks with hard-to-specify reward functions in Minecraft, and to advance research in this direction."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Attribution-Scores and Causal Counterfactuals as Explanations in Artificial Intelligence. (arXiv:2303.02829v2 [cs.AI] UPDATED)",
+    "abstract": "In this expository article we highlight the relevance of explanations for artificial intelligence, in general, and for the newer developments in {\\em explainable AI}, referring to origins and connections of and among different approaches. We describe in simple terms, explanations in data management and machine learning that are based on attribution-scores, and counterfactuals as found in the area of causality. We elaborate on the importance of logical reasoning when dealing with counterfactuals, and their use for score computation.",
+    "link": "http://arxiv.org/abs/2303.02829",
+    "context": "Title: Attribution-Scores and Causal Counterfactuals as Explanations in Artificial Intelligence. (arXiv:2303.02829v2 [cs.AI] UPDATED)\nAbstract: In this expository article we highlight the relevance of explanations for artificial intelligence, in general, and for the newer developments in {\\em explainable AI}, referring to origins and connections of and among different approaches. We describe in simple terms, explanations in data management and machine learning that are based on attribution-scores, and counterfactuals as found in the area of causality. We elaborate on the importance of logical reasoning when dealing with counterfactuals, and their use for score computation.",
+    "path": "papers/23/03/2303.02829.json",
+    "total_tokens": 647,
+    "translated_title": "作为解释的因果反事实和归属分数在人工智能中的应用",
+    "translated_abstract": "在本文中，我们突出了解释对人工智能的普遍影响和解释人工智能的新发展的重要性，包括起源和不同方法之间的联系。我们用简单的术语描述了基于归属分数的数据管理和机器学习的解释，以及在因果关系领域中发现的反事实。我们阐述了在处理反事实时逻辑推理的重要性，以及它们用于计算分数的用途。",
+    "tldr": "本文介绍了归属分数和因果反事实在解释人工智能中的应用，重点关注因果关系领域中的逻辑推理和分数计算。",
+    "en_tdlr": "This expository article highlights the relevance of explanations for artificial intelligence and describes the applications of attribution-scores and causal counterfactuals in explainable AI, emphasizing on the importance of logical reasoning and score computation in dealing with counterfactuals."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "TRON: Transformer Neural Network Acceleration with Non-Coherent Silicon Photonics. (arXiv:2303.12914v1 [cs.LG])",
+    "abstract": "Transformer neural networks are rapidly being integrated into state-of-the-art solutions for natural language processing (NLP) and computer vision. However, the complex structure of these models creates challenges for accelerating their execution on conventional electronic platforms. We propose the first silicon photonic hardware neural network accelerator called TRON for transformer-based models such as BERT, and Vision Transformers. Our analysis demonstrates that TRON exhibits at least 14x better throughput and 8x better energy efficiency, in comparison to state-of-the-art transformer accelerators.",
+    "link": "http://arxiv.org/abs/2303.12914",
+    "context": "Title: TRON: Transformer Neural Network Acceleration with Non-Coherent Silicon Photonics. (arXiv:2303.12914v1 [cs.LG])\nAbstract: Transformer neural networks are rapidly being integrated into state-of-the-art solutions for natural language processing (NLP) and computer vision. However, the complex structure of these models creates challenges for accelerating their execution on conventional electronic platforms. We propose the first silicon photonic hardware neural network accelerator called TRON for transformer-based models such as BERT, and Vision Transformers. Our analysis demonstrates that TRON exhibits at least 14x better throughput and 8x better energy efficiency, in comparison to state-of-the-art transformer accelerators.",
+    "path": "papers/23/03/2303.12914.json",
+    "total_tokens": 633,
+    "translated_title": "TRON：利用非相干硅光子学进行Transformer神经网络加速",
+    "translated_abstract": "Transformer神经网络目前被广泛应用于自然语言处理(NLP)和计算机视觉领域，但模型结构复杂，加快电子平台上的执行速度面临着挑战。本文提出了一种基于硅光子学的神经网络加速器TRON，可用于加速BERT和Vision Transformer等Transformer模型。实验结果表明，TRON的吞吐量至少比现有的Transformer加速器高14倍，能效至少高出8倍。",
+    "tldr": "TRON是一种基于硅光子学的神经网络加速器，能够比同类Transformer加速器高14倍的吞吐量和8倍的能效。"
+}

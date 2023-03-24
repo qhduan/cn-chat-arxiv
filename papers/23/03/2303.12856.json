@@ -1,0 +1,12 @@
+{
+    "title": "Anti-symmetric Barron functions and their approximation with sums of determinants. (arXiv:2303.12856v1 [math.NA])",
+    "abstract": "A fundamental problem in quantum physics is to encode functions that are completely anti-symmetric under permutations of identical particles. The Barron space consists of high-dimensional functions that can be parameterized by infinite neural networks with one hidden layer. By explicitly encoding the anti-symmetric structure, we prove that the anti-symmetric functions which belong to the Barron space can be efficiently approximated with sums of determinants. This yields a factorial improvement in complexity compared to the standard representation in the Barron space and provides a theoretical explanation for the effectiveness of determinant-based architectures in ab-initio quantum chemistry.",
+    "link": "http://arxiv.org/abs/2303.12856",
+    "context": "Title: Anti-symmetric Barron functions and their approximation with sums of determinants. (arXiv:2303.12856v1 [math.NA])\nAbstract: A fundamental problem in quantum physics is to encode functions that are completely anti-symmetric under permutations of identical particles. The Barron space consists of high-dimensional functions that can be parameterized by infinite neural networks with one hidden layer. By explicitly encoding the anti-symmetric structure, we prove that the anti-symmetric functions which belong to the Barron space can be efficiently approximated with sums of determinants. This yields a factorial improvement in complexity compared to the standard representation in the Barron space and provides a theoretical explanation for the effectiveness of determinant-based architectures in ab-initio quantum chemistry.",
+    "path": "papers/23/03/2303.12856.json",
+    "total_tokens": 659,
+    "translated_title": "反对称巴龙函数及其用行列式和表示的逼近",
+    "translated_abstract": "在量子物理中，一个基本的问题是如何编码在粒子置换下完全反对称的函数。Barron空间由可被一层隐藏神经网络无限参数化的高维函数组成。通过明确地编码反对称结构，我们证明了属于Barron空间的反对称函数可以用行列式和有效逼近。这相对于在Barron空间的标准表示中的复杂度提供了阶乘级的改进，并为基于行列式的结构在从头算量子化学中有效的理论解释提供了依据。",
+    "tldr": "用行列式和有效地逼近反对称巴龙函数，从而获得了阶乘级的复杂度提升和在从头算量子化学中的有效性。",
+    "en_tdlr": "Anti-symmetric Barron functions can be efficiently approximated with sums of determinants, yielding a factorial improvement in complexity and providing theoretical explanation for determinant-based architectures in ab-initio quantum chemistry."
+}

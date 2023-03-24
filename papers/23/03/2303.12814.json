@@ -1,0 +1,12 @@
+{
+    "title": "Fixed points of arbitrarily deep 1-dimensional neural networks. (arXiv:2303.12814v1 [stat.ML])",
+    "abstract": "In this paper, we introduce a new class of functions on $\\mathbb{R}$ that is closed under composition, and contains the logistic sigmoid function. We use this class to show that any 1-dimensional neural network of arbitrary depth with logistic sigmoid activation functions has at most three fixed points. While such neural networks are far from real world applications, we are able to completely understand their fixed points, providing a foundation to the much needed connection between application and theory of deep neural networks.",
+    "link": "http://arxiv.org/abs/2303.12814",
+    "context": "Title: Fixed points of arbitrarily deep 1-dimensional neural networks. (arXiv:2303.12814v1 [stat.ML])\nAbstract: In this paper, we introduce a new class of functions on $\\mathbb{R}$ that is closed under composition, and contains the logistic sigmoid function. We use this class to show that any 1-dimensional neural network of arbitrary depth with logistic sigmoid activation functions has at most three fixed points. While such neural networks are far from real world applications, we are able to completely understand their fixed points, providing a foundation to the much needed connection between application and theory of deep neural networks.",
+    "path": "papers/23/03/2303.12814.json",
+    "total_tokens": 634,
+    "translated_title": "任意深度的一维神经网络的不动点",
+    "translated_abstract": "本文介绍了一个在$\\mathbb{R}$上具有合成性且包含对数S型函数的新函数类。我们使用这个类来证明具有对数S型激活函数的任意深度的一维神经网络最多只有三个不动点。虽然这样的神经网络远离实际应用，但我们能够完全理解它们的不动点，并为深度神经网络的应用和理论之间构建了一个必要的桥梁。",
+    "tldr": "本研究发现，具有对数S型激活函数的任意深度的一维神经网络最多只有三个不动点，为深度神经网络的应用和理论之间构建了一个必要的桥梁。",
+    "en_tdlr": "This paper finds that any 1-dimensional neural network of arbitrary depth with logistic sigmoid activation functions has at most three fixed points, providing a foundation to connect the application and theory of deep neural networks."
+}

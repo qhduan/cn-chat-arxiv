@@ -1,0 +1,12 @@
+{
+    "title": "Multivariate L\\'evy Models: Calibration and Pricing. (arXiv:2303.13346v1 [q-fin.PR])",
+    "abstract": "In this research we employ a range of multivariate asset models based on L\\'evy processes to price exotic derivatives. We compare their ability to fit market data and replicate price benchmarks, and evaluate their flexibility in terms of parametrization and dependence structure. We review recent risk-neutral calibration approaches and techniques in the multivariate setting, and provide tools to make well-informed decisions in a practical context. A special focus is given to the ability of the models to capture linear and nonlinear dependence, with implications on their pricing performance. Given the exotic features of the analyzed derivatives, valuation is carried out through Monte Carlo methods.",
+    "link": "http://arxiv.org/abs/2303.13346",
+    "context": "Title: Multivariate L\\'evy Models: Calibration and Pricing. (arXiv:2303.13346v1 [q-fin.PR])\nAbstract: In this research we employ a range of multivariate asset models based on L\\'evy processes to price exotic derivatives. We compare their ability to fit market data and replicate price benchmarks, and evaluate their flexibility in terms of parametrization and dependence structure. We review recent risk-neutral calibration approaches and techniques in the multivariate setting, and provide tools to make well-informed decisions in a practical context. A special focus is given to the ability of the models to capture linear and nonlinear dependence, with implications on their pricing performance. Given the exotic features of the analyzed derivatives, valuation is carried out through Monte Carlo methods.",
+    "path": "papers/23/03/2303.13346.json",
+    "total_tokens": 729,
+    "translated_title": "多元Lévy模型：校准与定价。",
+    "translated_abstract": "本研究采用基于Lévy过程的多元资产模型，用于定价异类衍生品。我们比较它们拟合市场数据和复制价格基准的能力，评估它们在参数化和依赖结构方面的灵活性。我们回顾了最近在多元设定中的风险中性校准方法和技术，并提供了在实际情况下做出明智决策的工具。特别关注模型捕捉线性和非线性依赖的能力，对其定价性能产生影响。鉴于分析衍生品的异类特性，估值是通过蒙特卡洛方法进行的。",
+    "tldr": "本研究采用多元资产模型基于Lévy过程，用于定价异类衍生品，着重考虑模型捕捉线性和非线性依赖的能力。通过蒙特卡洛方法进行估值。",
+    "en_tdlr": "This research uses multivariate asset models based on Lévy processes to price exotic derivatives, with a focus on the models' ability to capture linear and nonlinear dependence. Valuation is carried out through Monte Carlo methods."
+}

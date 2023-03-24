@@ -1,0 +1,12 @@
+{
+    "title": "Adaptive Gradient Descent Methods for Computing Implied Volatility. (arXiv:2108.07035v5 [q-fin.CP] UPDATED)",
+    "abstract": "In this paper, a new numerical method based on adaptive gradient descent optimizers is provided for computing the implied volatility from the Black-Scholes (B-S) option pricing model. It is shown that the new method is more accurate than the close form approximation. Compared with the Newton-Raphson method, the new method obtains a reliable rate of convergence and tends to be less sensitive to the beginning point.",
+    "link": "http://arxiv.org/abs/2108.07035",
+    "context": "Title: Adaptive Gradient Descent Methods for Computing Implied Volatility. (arXiv:2108.07035v5 [q-fin.CP] UPDATED)\nAbstract: In this paper, a new numerical method based on adaptive gradient descent optimizers is provided for computing the implied volatility from the Black-Scholes (B-S) option pricing model. It is shown that the new method is more accurate than the close form approximation. Compared with the Newton-Raphson method, the new method obtains a reliable rate of convergence and tends to be less sensitive to the beginning point.",
+    "path": "papers/21/08/2108.07035.json",
+    "total_tokens": 621,
+    "translated_title": "适应性梯度下降法计算隐含波动率的方法",
+    "translated_abstract": "本文提出了一种基于自适应梯度下降优化器的新数值方法，用于计算Black-Scholes（B-S）期权定价模型中的隐含波动率。实验证明该新方法比封闭式近似更准确。与牛顿-拉夫逊方法相比，该新方法具有可靠的收敛速度，并且倾向于对起始点的灵敏度更低。",
+    "tldr": "本文提出一种适应性梯度下降法来计算期权隐含波动率，相较于传统方法具有更高准确度和更快收敛速度，并且对起始点的灵敏度更低。",
+    "en_tdlr": "This paper proposes an adaptive gradient descent method for computing implied volatility in the Black-Scholes option pricing model, which is more accurate and has a reliable convergence rate compared to the traditional Newton-Raphson method while being less sensitive to the starting point."
+}

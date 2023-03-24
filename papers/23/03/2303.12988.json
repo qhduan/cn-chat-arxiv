@@ -1,0 +1,12 @@
+{
+    "title": "Characterizing the Feasible Payoff Set of OLG Repeated Games. (arXiv:2303.12988v1 [econ.TH])",
+    "abstract": "We study the set of feasible payoffs of OLG repeated games. We first provide a complete characterization of the feasible payoffs. Second, we provide a novel comparative statics of the feasible payoff set with respect to players' discount factor and the length of interaction. Perhaps surprisingly, the feasible payoff set becomes smaller as the players' discount factor approaches to one.",
+    "link": "http://arxiv.org/abs/2303.12988",
+    "context": "Title: Characterizing the Feasible Payoff Set of OLG Repeated Games. (arXiv:2303.12988v1 [econ.TH])\nAbstract: We study the set of feasible payoffs of OLG repeated games. We first provide a complete characterization of the feasible payoffs. Second, we provide a novel comparative statics of the feasible payoff set with respect to players' discount factor and the length of interaction. Perhaps surprisingly, the feasible payoff set becomes smaller as the players' discount factor approaches to one.",
+    "path": "papers/23/03/2303.12988.json",
+    "total_tokens": 571,
+    "translated_title": "描述OLG重复博弈可行收益集合的特征",
+    "translated_abstract": "本文研究了OLG重复博弈的可行收益集合，并给出了完整的特征描述。本文还首次提供了关于由玩家贴现因子和交互长度引起的可行收益集合的新比较静态。而令人惊讶的是，随着玩家贴现因子接近1，可行收益集合变得更小了。",
+    "tldr": "本研究完整描述了OLG重复博弈的收益集合，发现随着玩家贴现因子接近1，可行收益集合变得更小。",
+    "en_tdlr": "This study provides a complete characterization of the feasible payoff set of OLG repeated games, and finds that the feasible payoff set becomes smaller as the players' discount factor approaches one."
+}

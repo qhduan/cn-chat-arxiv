@@ -1,0 +1,12 @@
+{
+    "title": "Reimagining Application User Interface (UI) Design using Deep Learning Methods: Challenges and Opportunities. (arXiv:2303.13055v1 [cs.HC])",
+    "abstract": "In this paper, we present a review of the recent work in deep learning methods for user interface design. The survey encompasses well known deep learning techniques (deep neural networks, convolutional neural networks, recurrent neural networks, autoencoders, and generative adversarial networks) and datasets widely used to design user interface applications. We highlight important problems and emerging research frontiers in this field. We believe that the use of deep learning for user interface design automation tasks could be one of the high potential fields for the advancement of the software development industry.",
+    "link": "http://arxiv.org/abs/2303.13055",
+    "context": "Title: Reimagining Application User Interface (UI) Design using Deep Learning Methods: Challenges and Opportunities. (arXiv:2303.13055v1 [cs.HC])\nAbstract: In this paper, we present a review of the recent work in deep learning methods for user interface design. The survey encompasses well known deep learning techniques (deep neural networks, convolutional neural networks, recurrent neural networks, autoencoders, and generative adversarial networks) and datasets widely used to design user interface applications. We highlight important problems and emerging research frontiers in this field. We believe that the use of deep learning for user interface design automation tasks could be one of the high potential fields for the advancement of the software development industry.",
+    "path": "papers/23/03/2303.13055.json",
+    "total_tokens": 645,
+    "translated_title": "利用深度学习方法重新设计应用程序用户界面的挑战和机遇",
+    "translated_abstract": "本文概述了深度学习方法在用户界面设计中的最新研究进展，涵盖了深度神经网络、卷积神经网络、循环神经网络、自编码器和生成对抗网络等众所周知的深度学习技术和广泛使用的数据集。我们重点介绍了该领域的重要问题和新兴研究前沿。我们认为，利用深度学习进行用户界面设计自动化任务可能是推动软件开发行业进步的高潜力领域。",
+    "tldr": "深度学习方法在用户界面设计中的最新研究进展，将推动软件开发行业进步的高潜力领域。",
+    "en_tdlr": "The recent progress in deep learning methods for user interface design will be a highly potential field to advance the software development industry."
+}

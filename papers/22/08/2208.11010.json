@@ -1,0 +1,12 @@
+{
+    "title": "Convex mixed-integer optimization with Frank-Wolfe methods. (arXiv:2208.11010v5 [math.OC] UPDATED)",
+    "abstract": "Mixed-integer nonlinear optimization encompasses a broad class of problems that present both theoretical and computational challenges. We propose a new type of method to solve these problems based on a branch-and-bound algorithm with convex node relaxations. These relaxations are solved with a Frank-Wolfe algorithm over the convex hull of mixed-integer feasible points instead of the continuous relaxation via calls to a mixed-integer linear solver as the linear oracle. The proposed method computes feasible solutions while working on a single representation of the polyhedral constraints, leveraging the full extent of mixed-integer linear solvers without an outer approximation scheme and can exploit inexact solutions of node subproblems.",
+    "link": "http://arxiv.org/abs/2208.11010",
+    "context": "Title: Convex mixed-integer optimization with Frank-Wolfe methods. (arXiv:2208.11010v5 [math.OC] UPDATED)\nAbstract: Mixed-integer nonlinear optimization encompasses a broad class of problems that present both theoretical and computational challenges. We propose a new type of method to solve these problems based on a branch-and-bound algorithm with convex node relaxations. These relaxations are solved with a Frank-Wolfe algorithm over the convex hull of mixed-integer feasible points instead of the continuous relaxation via calls to a mixed-integer linear solver as the linear oracle. The proposed method computes feasible solutions while working on a single representation of the polyhedral constraints, leveraging the full extent of mixed-integer linear solvers without an outer approximation scheme and can exploit inexact solutions of node subproblems.",
+    "path": "papers/22/08/2208.11010.json",
+    "total_tokens": 721,
+    "translated_title": "Frank-Wolfe方法的凸混合整数优化",
+    "translated_abstract": "混合整数非线性优化涵盖了一类既有理论又有计算挑战的广泛问题。我们提出了一种基于分支定界算法的新型解决方案，其使用凸节点松弛的Frank-Wolfe算法来解决这些问题。这些松弛是在混合整数可行点的凸包上求解的，而不是通过调用混合整数线性求解器的连续松弛作为线性预言机来解决的。该方法在处理单个多面体约束的表示时计算可行解，利用混合整数线性求解器的全部能力，而不需要外部逼近方案，并且可以利用节点子问题的不精确解。",
+    "tldr": "该论文提出了一种新的凸混合整数优化方法，它使用Frank-Wolfe算法在混合整数可行点的凸包上求解，以解决混合整数非线性优化问题。",
+    "en_tdlr": "This paper proposes a novel convex mixed-integer optimization method using Frank-Wolfe algorithm to solve mixed-integer nonlinear optimization problems on the convex hull of mixed-integer feasible points."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "DBLP-QuAD: A Question Answering Dataset over the DBLP Scholarly Knowledge Graph. (arXiv:2303.13351v1 [cs.DL])",
+    "abstract": "In this work we create a question answering dataset over the DBLP scholarly knowledge graph (KG). DBLP is an on-line reference for bibliographic information on major computer science publications that indexes over 4.4 million publications published by more than 2.2 million authors. Our dataset consists of 10,000 question answer pairs with the corresponding SPARQL queries which can be executed over the DBLP KG to fetch the correct answer. DBLP-QuAD is the largest scholarly question answering dataset.",
+    "link": "http://arxiv.org/abs/2303.13351",
+    "context": "Title: DBLP-QuAD: A Question Answering Dataset over the DBLP Scholarly Knowledge Graph. (arXiv:2303.13351v1 [cs.DL])\nAbstract: In this work we create a question answering dataset over the DBLP scholarly knowledge graph (KG). DBLP is an on-line reference for bibliographic information on major computer science publications that indexes over 4.4 million publications published by more than 2.2 million authors. Our dataset consists of 10,000 question answer pairs with the corresponding SPARQL queries which can be executed over the DBLP KG to fetch the correct answer. DBLP-QuAD is the largest scholarly question answering dataset.",
+    "path": "papers/23/03/2303.13351.json",
+    "total_tokens": 615,
+    "translated_title": "DBLP-QuAD：DBLP学术知识图上的问答数据集",
+    "translated_abstract": "本文在DBLP学术知识图上创建了一个问答数据集。DBLP是一个在线计算机科学主要出版物的参考文献信息索引，索引了超过440万篇论文，由220万多位作者发表。我们的数据集包含了10000个问题-答案对以及相应的SPARQL查询，可以在DBLP KG上执行以获得正确的答案。DBLP-QuAD是最大的学术问答数据集。",
+    "tldr": "这篇论文在DBLP学术知识图上创建了一个包含10000个问题-答案对的问答数据集，是最大的学术问答数据集。",
+    "en_tdlr": "This paper creates a question answering dataset over the DBLP scholarly knowledge graph, consisting of 10,000 question-answer pairs with corresponding SPARQL queries and is the largest scholarly question answering dataset."
+}

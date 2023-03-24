@@ -2,33 +2,121 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Don't (fully) exclude me, it's not necessary! Identification with semi-IVs.](http://arxiv.org/abs/2303.12667) | 本文提出了一种利用半工具变量实现离散内生变量模型识别的方法，对劳动、健康、教育等领域具有潜在应用价值。 |
-| [^2] | [Dynamic Transportation of Economic Agents.](http://arxiv.org/abs/2303.12567) | 本文通过提出新的方法，解决了之前在某些异质性代理人不完全市场模型的宏观经济均衡解决方案的问题。 |
-| [^3] | [Artificial Intelligence and Dual Contract.](http://arxiv.org/abs/2303.12350) | 本文通过实验研究了人工智能算法在双重合同问题中能够自主设计激励相容的合同，无需外部引导或通信，并且不同AI算法支持的委托人可以采用混合和零和博弈行为，更具智能的委托人往往会变得合作。 |
-| [^4] | [Strategic Ambiguity in Global Games.](http://arxiv.org/abs/2303.12263) | 论文研究全球博弈中的策略模糊性对玩家行为的影响，发现模糊质量信息下更多玩家选择恒定收益行动，而低质量信息下更多玩家选择前期最优反应。在金融危机应用中，更模糊质量的新闻会引发债务危机，而质量低的新闻会引发货币危机。 |
-| [^5] | [GPTs are GPTs: An Early Look at the Labor Market Impact Potential of Large Language Models.](http://arxiv.org/abs/2303.10130) | 该研究调查了GPT（大语言模型）和相关技术对美国劳动力市场的潜在影响，发现大约80%的美国劳动力可能会受到10%的工作任务的影响，涵盖了所有工资水平和各行各业，预示着这些模型可能具有显著的经济、社会和政策影响。 |
-| [^6] | [Gender Segregation: Analysis across Sectoral-Dominance in the UK Labour Market.](http://arxiv.org/abs/2303.04539) | 本研究发现英国性别分离问题仍然存在，女性在传统女性主导行业中的参与较高，由于持久的歧视性限制和就业行业选择的不同，女性在女性主导行业中的工资和合同机会较低。 |
-| [^7] | [Human and Machine Intelligence in n-Person Games with Partial Knowledge.](http://arxiv.org/abs/2302.13937) | 提出了有限知识下n人博弈的框架，引入了“游戏智能”机制和“防作弊性”概念，GI机制可以实际评估玩家的智能，应用广泛。 |
-| [^8] | [Being at the core: firm product specialisation.](http://arxiv.org/abs/2302.02767) | 本文使用产品核心度作为新的度量方法，研究企业的产品专业化。同时发现，企业出口的产品组成变化较小，与核心能力相距较远的产品更可能被剔除；更高的核心度与企业级别更大的出口流量有关；与更高核心度一起出口的产品在国家级别上具有更高的出口流量。 |
-| [^9] | [Overinference from Weak Signals and Underinference from Strong Signals.](http://arxiv.org/abs/2109.09871) | 研究表明，人们在面对弱信号时会存在过度反应，在面对强信号时会存在欠反应，这与信号信息量的认知不精确有关。 |
+| [^1] | [Persuaded Search.](http://arxiv.org/abs/2303.13409) | 本篇论文主要讨论推助式搜索，证明了在这种情况下，委托人无需具有长期承诺能力或制定复杂的非稳态合同，仍然能够在唯一稳定均衡中获得最大的收益。 |
+| [^2] | [Sequential Cauchy Combination Test for Multiple Testing Problems with Financial Applications.](http://arxiv.org/abs/2303.13406) | 本文提出了一种名为“顺序柯西组合检验”的多重检验控制工具，可用于控制错误发现和识别单个信号。该检验实现了强大的家族误差率控制，并且当检验统计量依赖于现有的控制程序时，比现有的控制程序保守程度更低，从而导致更高的全局功率和成功的检测率。 |
+| [^3] | [Why Are Immigrants Always Accused of Stealing People's Jobs?.](http://arxiv.org/abs/2303.13319) | 移民在一个配给职位的匹配模型中可能降低本地工人的就业率，但移民对本地福利的总体影响取决于劳动力市场的状态，当劳动力市场繁荣时，移民的影响可能是正面的。 |
+| [^4] | [Information transmission in monopolistic credence goods markets.](http://arxiv.org/abs/2303.13295) | 本文研究了信任商品市场中专家销售者和客户之间的通讯问题，提供了几何特征描述和必要条件，以及对二元情形下的所有均衡进行了福利分析。 |
+| [^5] | [Uncertain Prior Economic Knowledge and Statistically Identified Structural Vector Autoregressions.](http://arxiv.org/abs/2303.13281) | 本文提出了一种估计器，它将统计识别与经济学动机相结合，通过自适应岭惩罚考虑了不确定的先验经济知识。该估计器应用于分析股票和石油市场之间的相互作用，并发现通常被认为是石油特定需求冲击的东西实际上可以归因于从股票市场提取的信息冲击。 |
+| [^6] | [Functional-Coefficient Quantile Regression for Panel Data with Latent Group Structure.](http://arxiv.org/abs/2303.13218) | 本文提出了一种具有潜在群组结构的面板数据定量回归的功能系数估计方法，通过施加潜在的群组结构的方法，显著减少了需要估计的非参数功能系数数量，使用局部线性分位数估计和经典聚类算法来估计未知的群组结构，并使用一种比率准则确定群组数量。最终通过群组后局部线性平滑方法来估计群组特定的功能系数。 |
+| [^7] | [Characterizing the Feasible Payoff Set of OLG Repeated Games.](http://arxiv.org/abs/2303.12988) | 本研究完整描述了OLG重复博弈的收益集合，发现随着玩家贴现因子接近1，可行收益集合变得更小。 |
+| [^8] | [Dynamic Transportation of Economic Agents.](http://arxiv.org/abs/2303.12567) | 本文通过提出新的方法，解决了之前在某些异质性代理人不完全市场模型的宏观经济均衡解决方案的问题。 |
+| [^9] | [Intergenerational risk sharing in a Defined Contribution pension system: analysis with Bayesian optimization.](http://arxiv.org/abs/2106.13644) | 本文研究了一种多重代际情况下的定义贡献养老金制度，通过贝叶斯优化实现代际风险共担以提高参与者福利，结果表明代际风险共担可以显著提高实用效用。 |
+| [^10] | [Dynamic tariffs-based demand response in retail electricity market under uncertainty.](http://arxiv.org/abs/2105.03405) | 本文提出了一种基于需求弹性的动态电价模型，在不确定性下考虑了零售电力市场中的领导者和追随者之间的关系，并通过分层决策过程优化不同市场配置的选择。 |
+| [^11] | [Kernel Methods for Unobserved Confounding: Negative Controls, Proxies, and Instruments.](http://arxiv.org/abs/2012.10315) | 该论文提出了一种使用负对照、代理变量和工具变量的核方法，以识别治疗效果并学习非参数治疗效果。 作者证明了算法的一致性和收敛速度，并估计了香烟吸烟的剂量反应曲线。 |
+| [^12] | [The Variational Method of Moments.](http://arxiv.org/abs/2012.09422) | 本文提出了一个非常通用的条件矩问题估计器类 - 变分矩方法，使得我们能够控制无限数量的矩，并提供了基于核方法和神经网络的多个VMM估计器的理论分析和证明。 |
+| [^13] | [New robust inference for predictive regressions.](http://arxiv.org/abs/2006.01191) | 提出了两种鲁棒方法，用于测试预测回归模型未知参数的假设，适用于异质和持久波动性以及内生、持久和/或重尾回归变量和误差。这些方法使用Cauchy估计量来有效地应对内生性、持久性和/或重尾性的问题。与现有方法相比，这些方法表现良好。 |
 
 # 详细
 
-[^1]: 不要完全排除我，这是不必要的! 半工具变量的识别
+[^1]: 推助式搜索
 
-    Don't (fully) exclude me, it's not necessary! Identification with semi-IVs. (arXiv:2303.12667v1 [econ.EM])
+    Persuaded Search. (arXiv:2303.13409v1 [econ.TH])
 
-    [http://arxiv.org/abs/2303.12667](http://arxiv.org/abs/2303.12667)
+    [http://arxiv.org/abs/2303.13409](http://arxiv.org/abs/2303.13409)
 
-    本文提出了一种利用半工具变量实现离散内生变量模型识别的方法，对劳动、健康、教育等领域具有潜在应用价值。
+    本篇论文主要讨论推助式搜索，证明了在这种情况下，委托人无需具有长期承诺能力或制定复杂的非稳态合同，仍然能够在唯一稳定均衡中获得最大的收益。
 
     
 
-    本文提出了一种识别离散内生变量模型的新方法，将其应用于连续潜在结果的不可分离模型的一般情况下进行研究。我们采用半工具变量（semi-IVs) 来实现潜在结果的非参数识别以及选择方程式的识别，因此也能够识别个体治疗效应。与标准工具变量 （IVs）需要强制性完全排除不同，半工具变量仅在一些潜在结果方程式中部分排除，而不是全部排除。实践中，需要在强化排除约束和找到支持范围更广、相关性假设更强的半工具变量之间权衡。我们的方法为识别、估计和反事实预测开辟了新的途径，并在许多领域，如劳动，健康和教育等方面具有潜在应用。
+    我们考虑了一种序贯搜索环境，其中搜索代理无法观察到商品的质量。代理可以与以利润最大化为目标的委托人订立合同，委托人出售货物质量的信号，但不能对未来的合同作出承诺。代理人愿意为更具信息量的信号支付更高的价格，但预期未来价格高的代理人由于低的继续价值，更不可能继续搜索，从而减少了委托人未来的利润。我们展示了基本上唯一的稳定均衡，其中委托人(i)引导社会有效的停止规则，(ii)充分提取搜索产生的剩余，并且(iii)说服代理人不要满足于边际质量的货物，从而延长租金提取的时间。我们的结果表明，委托人不会从长期承诺能力或考虑复杂的非稳态合同中获益。
 
-    This paper proposes a novel approach to identify models with a discrete endogenous variable, that I study in the general context of nonseparable models with continuous potential outcomes. I show that nonparametric identification of the potential outcome and selection equations, and thus of the individual treatment effects, can be obtained with semi-instrumental variables (semi-IVs), which are relevant but only partially excluded from the potential outcomes, i.e., excluded from one or more potential outcome equations, but not necessarily all. This contrasts with the full exclusion restriction imposed on standard instrumental variables (IVs), which is stronger than necessary for identification: IVs are only a special case of valid semi-IVs. In practice, there is a trade-off between imposing stronger exclusion restrictions, and finding semi-IVs with a larger support and stronger relevance assumptions. Since, in empirical work, the main obstacle for finding a valid IV is often the full exc
+    We consider a sequential search environment in which the searching agent does not observe the quality of goods. The agent can contract with a profit-maximizing principal who sells a signal about a good's quality but cannot commit to future contracts. The agent is willing to pay a high price for a more informative signal today, but an agent who anticipates high prices in the future is less likely to continue searching due to a low continuation value, thereby reducing the principal's future profits. We show that there is an essentially unique stationary equilibrium in which the principal (i) induces the socially efficient stopping rule, (ii) fully extracts the surplus generated from search, and (iii) persuades the agent against settling for marginal quality goods, thus extending the duration of rent extraction. Our results demonstrate that the principal would not gain from long-term commitment power or considering complicated, non-stationary contracts.
     
-[^2]: 经济主体的动态运输
+[^2]: 多重检验问题中的顺序柯西组合检验及其在金融应用中的应用
+
+    Sequential Cauchy Combination Test for Multiple Testing Problems with Financial Applications. (arXiv:2303.13406v1 [econ.EM])
+
+    [http://arxiv.org/abs/2303.13406](http://arxiv.org/abs/2303.13406)
+
+    本文提出了一种名为“顺序柯西组合检验”的多重检验控制工具，可用于控制错误发现和识别单个信号。该检验实现了强大的家族误差率控制，并且当检验统计量依赖于现有的控制程序时，比现有的控制程序保守程度更低，从而导致更高的全局功率和成功的检测率。
+
+    
+
+    我们引入了一种简单的工具，用于在存在许多检验、检验统计量相关且信号潜在稀疏的情况下控制错误发现并识别单个信号。该工具在一系列不断扩展的$p$值子集上递归应用柯西组合检验，并称为顺序柯西组合检验。虽然原始的柯西组合检验旨在通过对转换后的$p$值求和对一组零假设进行全局声明，但顺序版本确定哪些$p$值触发拒绝全局零假设。该检验实现了强大的家族误差率控制，并且当检验统计量依赖于现有的控制程序时，比现有的控制程序保守程度更低，从而导致更高的全局功率和成功的检测率。作为说明，我们考虑了两种流行的金融计量应用程序，两者的检验统计量具有序列依赖性或横截面依赖性：监测漂移。
+
+    We introduce a simple tool to control for false discoveries and identify individual signals when there are many tests, the test statistics are correlated, and the signals are potentially sparse. The tool applies the Cauchy combination test recursively on a sequence of expanding subsets of $p$-values and is referred to as the sequential Cauchy combination test. While the original Cauchy combination test aims for a global statement over a set of null hypotheses by summing transformed $p$-values, the sequential version determines which $p$-values trigger the rejection of the global null. The test achieves strong familywise error rate control and is less conservative than existing controlling procedures when the test statistics are dependent, leading to higher global powers and successful detection rates. As illustrations, we consider two popular financial econometric applications for which the test statistics have either serial dependence or cross-sectional dependence: monitoring drift bu
+    
+[^3]: 为什么移民总被指责窃取人们的工作?
+
+    Why Are Immigrants Always Accused of Stealing People's Jobs?. (arXiv:2303.13319v1 [econ.GN])
+
+    [http://arxiv.org/abs/2303.13319](http://arxiv.org/abs/2303.13319)
+
+    移民在一个配给职位的匹配模型中可能降低本地工人的就业率，但移民对本地福利的总体影响取决于劳动力市场的状态，当劳动力市场繁荣时，移民的影响可能是正面的。
+
+    
+
+    移民总是被指责窃取人们的工作。然而，在劳动力市场的新古典模型中，每个人都有工作可做，也没有工作可被窃取（没有失业，因此想工作的人都可以工作）。在标准匹配模型中，存在一些失业，但由于劳动力需求完全弹性，因此新进入劳动力市场的人被吸收时不会影响求职者的前景。再次说明，当移民到达时没有工作会被窃取。本文显示，在一个具有就业配给的匹配模型中，移民的进入会降低本地工人的就业率。此外，当劳动力市场不景气时，就业率的降幅更大，因为那时工作更加稀缺。因为移民降低了劳动力市场的紧张程度，使得公司更容易招聘，并改善公司利润。移民对本地福利的总体影响取决于劳动力市场的状态。当劳动力市场出现衰退时总体影响始终是负面的，并且当劳动力市场繁荣时可能是正面的。
+
+    Immigrants are always accused of stealing people's jobs. Yet, in a neoclassical model of the labor market, there are jobs for everybody and no jobs to steal. (There is no unemployment, so anybody who wants to work can work.) In standard matching models, there is some unemployment, but labor demand is perfectly elastic so new entrants into the labor force are absorbed without affecting jobseekers' prospects. Once again, no jobs are stolen when immigrants arrive. This paper shows that in a matching model with job rationing, in contrast, the entry of immigrants reduces the employment rate of native workers. Moreover, the reduction in employment rate is sharper when the labor market is depressed -- because jobs are more scarce then. Because immigration reduces labor-market tightness, it makes it easier for firms to recruit and improves firm profits. The overall effect of immigration on native welfare depends on the state of the labor market. It is always negative when the labor market is i
+    
+[^4]: 垄断性信任商品市场中的信息传递
+
+    Information transmission in monopolistic credence goods markets. (arXiv:2303.13295v1 [econ.TH])
+
+    [http://arxiv.org/abs/2303.13295](http://arxiv.org/abs/2303.13295)
+
+    本文研究了信任商品市场中专家销售者和客户之间的通讯问题，提供了几何特征描述和必要条件，以及对二元情形下的所有均衡进行了福利分析。
+
+    
+
+    本文研究了一个涵盖 $N$ 个问题类型和 $N$ 种治疗方法的信任商品模型。专家销售者和客户之间的通讯被建模为廉价谈判。我们发现，在歧视性定价下，专家的均衡回报具有几何特征描述，即专家以信念利润函数的拟下凸包为代价。我们证明了客户最差的均衡存在性，并将这个几何特征应用于之前关于信任商品的研究中，并为通讯何时有益于专家提供了充分必要条件。对于二元情形，我们求解了所有均衡，并分析了它们的福利属性。
+
+    We study a general credence goods model with $N$ problem types and $N$ treatments. Communication between the expert seller and the client is modeled as cheap talk. We find that the expert's equilibrium payoffs admit a geometric characterization, described by the quasiconcave envelope of his belief-based profits function under discriminatory pricing. We establish the existence of client-worst equilibria, apply the geometric characterization to previous research on credence goods, and provide a necessary and sufficient condition for when communication benefits the expert. For the binary case, we solve for all equilibria and analyze their welfare properties.
+    
+[^5]: 不确定的先验经济知识与具有统计识别特性的结构向量自回归
+
+    Uncertain Prior Economic Knowledge and Statistically Identified Structural Vector Autoregressions. (arXiv:2303.13281v1 [econ.EM])
+
+    [http://arxiv.org/abs/2303.13281](http://arxiv.org/abs/2303.13281)
+
+    本文提出了一种估计器，它将统计识别与经济学动机相结合，通过自适应岭惩罚考虑了不确定的先验经济知识。该估计器应用于分析股票和石油市场之间的相互作用，并发现通常被认为是石油特定需求冲击的东西实际上可以归因于从股票市场提取的信息冲击。
+
+    
+
+    本研究提出了一种估计器，它将统计识别与经济学动机相结合。估计值是由（均值）独立非高斯性冲击识别的，并通过自适应岭惩罚来考虑不确定的先验经济知识。当数据与经济学约束一致时，估计值向这些约束收缩；当数据提供反对证据时，收缩停止。本研究将该估计器应用于分析股票和石油市场之间的相互作用。结果表明，通常被认为是石油特定需求冲击的东西，实际上可以归因于从股票市场提取的信息冲击，其解释了约30-40%的油价变动。
+
+    This study proposes an estimator that combines statistical identification with economically motivated restrictions on the interactions. The estimator is identified by (mean) independent non-Gaussian shocks and allows for incorporation of uncertain prior economic knowledge through an adaptive ridge penalty. The estimator shrinks towards economically motivated restrictions when the data is consistent with them and stops shrinkage when the data provides evidence against the restriction. The estimator is applied to analyze the interaction between the stock and oil market. The results suggest that what is usually identified as oil-specific demand shocks can actually be attributed to information shocks extracted from the stock market, which explain about 30-40% of the oil price variation.
+    
+[^6]: 具有潜在群组结构的面板数据定量回归的功能系数估计
+
+    Functional-Coefficient Quantile Regression for Panel Data with Latent Group Structure. (arXiv:2303.13218v1 [econ.EM])
+
+    [http://arxiv.org/abs/2303.13218](http://arxiv.org/abs/2303.13218)
+
+    本文提出了一种具有潜在群组结构的面板数据定量回归的功能系数估计方法，通过施加潜在的群组结构的方法，显著减少了需要估计的非参数功能系数数量，使用局部线性分位数估计和经典聚类算法来估计未知的群组结构，并使用一种比率准则确定群组数量。最终通过群组后局部线性平滑方法来估计群组特定的功能系数。
+
+    
+
+    本文考虑在个体效应下，在大规模面板观测的情况下，估计面板定量回归中的功能系数模型，允许横向和时间依赖性。在异质定量回归模型中，施加潜在的群组结构，从而可以显著减少需要估计的非参数功能系数数量。使用主题特定功能系数的初步局部线性分位数估计，采用经典的聚类聚合算法来估计未知的群组结构，并提出一个易于实现的比率准则来确定群组数量。证明了估计的群组数量和结构的一致性。此外，引入了一种群组后局部线性平滑方法来估计各群组特定的功能系数，并导出了相关的渐近正常分布理论，其归一化速率与文献中的速率相当。
+
+    This paper considers estimating functional-coefficient models in panel quantile regression with individual effects, allowing the cross-sectional and temporal dependence for large panel observations. A latent group structure is imposed on the heterogenous quantile regression models so that the number of nonparametric functional coefficients to be estimated can be reduced considerably. With the preliminary local linear quantile estimates of the subject-specific functional coefficients, a classic agglomerative clustering algorithm is used to estimate the unknown group structure and an easy-to-implement ratio criterion is proposed to determine the group number. The estimated group number and structure are shown to be consistent. Furthermore, a post-grouping local linear smoothing method is introduced to estimate the group-specific functional coefficients, and the relevant asymptotic normal distribution theory is derived with a normalisation rate comparable to that in the literature. The de
+    
+[^7]: 描述OLG重复博弈可行收益集合的特征
+
+    Characterizing the Feasible Payoff Set of OLG Repeated Games. (arXiv:2303.12988v1 [econ.TH])
+
+    [http://arxiv.org/abs/2303.12988](http://arxiv.org/abs/2303.12988)
+
+    本研究完整描述了OLG重复博弈的收益集合，发现随着玩家贴现因子接近1，可行收益集合变得更小。
+
+    
+
+    本文研究了OLG重复博弈的可行收益集合，并给出了完整的特征描述。本文还首次提供了关于由玩家贴现因子和交互长度引起的可行收益集合的新比较静态。而令人惊讶的是，随着玩家贴现因子接近1，可行收益集合变得更小了。
+
+    We study the set of feasible payoffs of OLG repeated games. We first provide a complete characterization of the feasible payoffs. Second, we provide a novel comparative statics of the feasible payoff set with respect to players' discount factor and the length of interaction. Perhaps surprisingly, the feasible payoff set becomes smaller as the players' discount factor approaches to one.
+    
+[^8]: 经济主体的动态运输
 
     Dynamic Transportation of Economic Agents. (arXiv:2303.12567v1 [econ.GN])
 
@@ -42,102 +130,74 @@
 
     The paper was prompted by the surprising discovery that the common strategy, adopted in a large body of research, for producing macroeconomic equilibrium in certain heterogeneous-agent incomplete-market models fails to locate the equilibrium in a widely cited benchmark study. By mimicking the approach proposed by Dumas and Lyasoff (2012), the paper provides a novel description of the law of motion of the distribution over the range of private states of a large population of interacting economic agents faced with uninsurable aggregate and idiosyncratic risk. A new algorithm for identifying the returns, the optimal private allocations, and the population transport in the state of equilibrium is developed and is tested in two well known benchmark studies.
     
-[^3]: 人工智能与双重合同
+[^9]: 基于贝叶斯优化的定义贡献养老金制度中代际风险共担研究
 
-    Artificial Intelligence and Dual Contract. (arXiv:2303.12350v1 [cs.AI])
+    Intergenerational risk sharing in a Defined Contribution pension system: analysis with Bayesian optimization. (arXiv:2106.13644v3 [econ.GN] UPDATED)
 
-    [http://arxiv.org/abs/2303.12350](http://arxiv.org/abs/2303.12350)
+    [http://arxiv.org/abs/2106.13644](http://arxiv.org/abs/2106.13644)
 
-    本文通过实验研究了人工智能算法在双重合同问题中能够自主设计激励相容的合同，无需外部引导或通信，并且不同AI算法支持的委托人可以采用混合和零和博弈行为，更具智能的委托人往往会变得合作。
-
-    
-
-    随着人工智能算法的快速进步，人们希望算法很快就能在各个领域取代人类决策者，例如合同设计。我们通过实验研究了由人工智能（多智能体Q学习）驱动的算法在双重委托-代理问题的经典“双重合同”模型中的行为。我们发现，这些AI算法可以自主学习设计合适的激励相容合同，而无需外部引导或者它们之间的通信。我们强调，由不同AI算法支持的委托人可以采用混合和零和博弈行为。我们还发现，更具智能的委托人往往会变得合作，而智能较低的委托人则会出现内生性近视并倾向于竞争。在最优合同下，代理的较低合同激励由委托人之间的勾结策略维持。
-
-    With the dramatic progress of artificial intelligence algorithms in recent times, it is hoped that algorithms will soon supplant human decision-makers in various fields, such as contract design. We analyze the possible consequences by experimentally studying the behavior of algorithms powered by Artificial Intelligence (Multi-agent Q-learning) in a workhorse \emph{dual contract} model for dual-principal-agent problems. We find that the AI algorithms autonomously learn to design incentive-compatible contracts without external guidance or communication among themselves. We emphasize that the principal, powered by distinct AI algorithms, can play mixed-sum behavior such as collusion and competition. We find that the more intelligent principals tend to become cooperative, and the less intelligent principals are endogenizing myopia and tend to become competitive. Under the optimal contract, the lower contract incentive to the agent is sustained by collusive strategies between the principals
-    
-[^4]: 全球博弈中的策略模糊性
-
-    Strategic Ambiguity in Global Games. (arXiv:2303.12263v1 [econ.TH])
-
-    [http://arxiv.org/abs/2303.12263](http://arxiv.org/abs/2303.12263)
-
-    论文研究全球博弈中的策略模糊性对玩家行为的影响，发现模糊质量信息下更多玩家选择恒定收益行动，而低质量信息下更多玩家选择前期最优反应。在金融危机应用中，更模糊质量的新闻会引发债务危机，而质量低的新闻会引发货币危机。
+    本文研究了一种多重代际情况下的定义贡献养老金制度，通过贝叶斯优化实现代际风险共担以提高参与者福利，结果表明代际风险共担可以显著提高实用效用。
 
     
 
-    在具有不完全和模糊信息的博弈中，理性行为不仅取决于基本模糊（关于状态的模糊性）而且取决于策略模糊（关于他人行为的模糊性）。我们研究了策略模糊在全球博弈中的影响。模糊质量信息使更多的玩家选择产生恒定收益的行动，而（明确的）低质量信息使更多的玩家选择对对手行动的统一信念做出前期最优反应。如果前期最优反应的行动产生恒定收益，则足够模糊的质量信息会诱导出一种唯一的均衡，而足够低质量的信息会产生多个均衡。在金融危机的应用中，我们证明了更模糊质量的新闻会引发债务展期危机，而质量较低的新闻会引发货币危机。
+    本文研究了一个面向多个重叠代际的完全资本化、集体定义贡献（DC）养老金制度。我们调查了通过代际风险共担（IRS）实现养老金自动调整与投资策略适配的方法，以提高参与者的福利。我们使用了一个自动调整规则来调整个人账户的指数化，该规则根据养老金制度的名义资金比率进行调整。该养老金制度有两个参数，确定了投资策略和调整规则的强度，并通过贝叶斯优化的预期效用最大化来优化。我们分析了退休福利波动和融资比率波动，显示通过最优调整参数控制它们之间的平衡可以实现IRS。与最佳个人投资策略相比，我们的结果表明，IRS可以显著提高参与者的实用效用。
 
-    In games with incomplete and ambiguous information, rational behavior depends not only on fundamental ambiguity (ambiguity about states) but also on strategic ambiguity (ambiguity about others' actions). We study the impact of strategic ambiguity in global games. Ambiguous-quality information makes more players choose an action yielding a constant payoff, whereas (unambiguous) low-quality information makes more players choose an ex-ante best response to the uniform belief over the opponents' actions. If the ex-ante best-response action yields a constant payoff, sufficiently ambiguous-quality information induces a unique equilibrium, whereas sufficiently low-quality information generates multiple equilibria. In applications to financial crises, we demonstrate that news of more ambiguous quality triggers a debt rollover crisis, whereas news of less ambiguous quality triggers a currency crisis.
+    We study a fully funded, collective defined-contribution (DC) pension system with multiple overlapping generations. We investigate whether the welfare of participants can be improved by intergenerational risk sharing (IRS) implemented with a realistic investment strategy (e.g., no borrowing) and without an outside entity (e.g., share holders) that helps finance the pension fund. To implement IRS, the pension system uses an automatic adjustment rule for the indexation of individual accounts, which adapts to the notional funding ratio of the pension system. The pension system has two parameters that determine the investment strategy and the strength of the adjustment rule, which are optimized by expected utility maximization using Bayesian optimization. The volatility of the retirement benefits and that of the funding ratio are analyzed, and it is shown that the trade-off between them can be controlled by the optimal adjustment parameter to attain IRS. Compared with the optimal individua
     
-[^5]: GPT是GPT：大语言模型对劳动力市场影响的早期研究
+[^10]: 不确定性下基于动态电价的零售电力市场需求响应
 
-    GPTs are GPTs: An Early Look at the Labor Market Impact Potential of Large Language Models. (arXiv:2303.10130v1 [econ.GN])
+    Dynamic tariffs-based demand response in retail electricity market under uncertainty. (arXiv:2105.03405v3 [econ.GN] UPDATED)
 
-    [http://arxiv.org/abs/2303.10130](http://arxiv.org/abs/2303.10130)
+    [http://arxiv.org/abs/2105.03405](http://arxiv.org/abs/2105.03405)
 
-    该研究调查了GPT（大语言模型）和相关技术对美国劳动力市场的潜在影响，发现大约80%的美国劳动力可能会受到10%的工作任务的影响，涵盖了所有工资水平和各行各业，预示着这些模型可能具有显著的经济、社会和政策影响。
-
-    
-
-    我们研究了生成预训练变压器（GPT）模型和相关技术对美国劳动力市场的潜在影响。使用新的标准，我们评估职业与GPT能力的对应关系，结合人类专业知识和GPT-4的分类。我们的研究结果表明，约80%的美国劳动力可能会至少有10%的工作任务受到GPT引入的影响，而约19%的工人可能会看到至少50%的任务受到影响。影响范围涵盖了所有工资水平，高收入工作可能面临更大的风险。值得注意的是，影响并不局限于最近生产率增长较高的行业。我们得出结论，生成预训练变压器具有通用技术（GPT）的特性，表明这些模型可能具有显著的经济、社会和政策影响。
-
-    We investigate the potential implications of Generative Pre-trained Transformer (GPT) models and related technologies on the U.S. labor market. Using a new rubric, we assess occupations based on their correspondence with GPT capabilities, incorporating both human expertise and classifications from GPT-4. Our findings indicate that approximately 80% of the U.S. workforce could have at least 10% of their work tasks affected by the introduction of GPTs, while around 19% of workers may see at least 50% of their tasks impacted. The influence spans all wage levels, with higher-income jobs potentially facing greater exposure. Notably, the impact is not limited to industries with higher recent productivity growth. We conclude that Generative Pre-trained Transformers exhibit characteristics of general-purpose technologies (GPTs), suggesting that as these models could have notable economic, social, and policy implications.
-    
-[^6]: 英国劳动力市场中基于行业主导的性别分离分析
-
-    Gender Segregation: Analysis across Sectoral-Dominance in the UK Labour Market. (arXiv:2303.04539v2 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2303.04539](http://arxiv.org/abs/2303.04539)
-
-    本研究发现英国性别分离问题仍然存在，女性在传统女性主导行业中的参与较高，由于持久的歧视性限制和就业行业选择的不同，女性在女性主导行业中的工资和合同机会较低。
+    本文提出了一种基于需求弹性的动态电价模型，在不确定性下考虑了零售电力市场中的领导者和追随者之间的关系，并通过分层决策过程优化不同市场配置的选择。
 
     
 
-    虽然英国的性别分离程度随着时间的推移有所降低，但女性在传统上“女性主导”的行业中的参与度仍然高于比例。本文旨在评估行业性别分离模式的变化如何影响英国2005年至2020年间女性的就业合同和工资，并研究性别特定主导行业中的工资差异。我们发现，工资和合同机会的差异主要来自于女性在不同行业之间的分配倾向。因此，女性在女性主导的行业中的不成比例会导致所有工人的典型合同特征和较低的平均工资。这种差异主要是由于持久的歧视性限制所解释，而人力资本相关特征只起到次要作用。然而，如果工人在男性主导的行业中具有与男性相同的潜在工资，工资差距将缩小。此外，这也会鼓励女性参加男性主导的行业，从而进一步减少性别分离。
+    电力需求响应（DR）计划在电力市场重组后备受关注，并被用于优化市场参与者的决策。他们可以通过修改用电量或电力消费时间来提高系统的可靠性和管理价格波动。本文提出了一种新的博弈理论模型，在不确定的动态价格环境下考虑了零售商（领导者）和消费者（追随者）之间的关系。该模型利用需求弹性进行分层决策过程，从而在不同的不确定性来源下提供不同市场配置的选择，从而带来优质和经济收益。该模型在两个框架下求解：一是考虑零售商的市场力量，另一个是基于完全竞争游戏的均衡设置。这些模型可用一个数学规划模型来表述并求解出平衡点。
 
-    Although the degree of gender segregation in the UK has decreased over time, women's participation in traditionally "female-dominated" sectors is disproportionately high. This paper aims to evaluate how changing patterns of sectoral gender segregation affected women's employment contracts and wages in the UK between 2005 and 2020. We then study wage differentials in gender-specific dominated sectors. We found that the differences in wages and contractual opportunities result mainly from the propensity of women to be distributed differently across sectors. Hence, the disproportion of women in female-dominated sectors implies contractual features and lower wages typical of that sector, on average, for all workers. This difference is primarily explained by persistent discriminatory constraints, while human capital-related characteristics play a minor role. However, wage differentials would shrink if workers had the same potential wages as men in male-dominated sectors. Moreover, this does
+    Demand response (DR) programs have gained much attention after the restructuring of the electricity markets and have been used to optimize the decisions of market participants. They can potentially enhance system reliability and manage price volatility by modifying the amount or time of electricity consumption. This paper proposes a novel game-theoretical model accounting for the relationship between retailers (leaders) and consumers (followers) in a dynamic price environment under uncertainty. The quality and economic gains brought by the proposed procedure essentially stem from the utilization of demand elasticity in a hierarchical decision process that renders the options of different market configurations under different sources of uncertainty. The model is solved under two frameworks: by considering the retailer's market power and by accounting for an equilibrium setting based on a perfect competitive game. These are formulated in terms of a mathematical program with equilibrium c
     
-[^7]: 有限知识下n人博弈的人类与机器智能
+[^11]: 无法观测到的混淆变量的核方法：负对照、代理变量和工具变量
 
-    Human and Machine Intelligence in n-Person Games with Partial Knowledge. (arXiv:2302.13937v2 [econ.TH] UPDATED)
+    Kernel Methods for Unobserved Confounding: Negative Controls, Proxies, and Instruments. (arXiv:2012.10315v5 [stat.ML] UPDATED)
 
-    [http://arxiv.org/abs/2302.13937](http://arxiv.org/abs/2302.13937)
+    [http://arxiv.org/abs/2012.10315](http://arxiv.org/abs/2012.10315)
 
-    提出了有限知识下n人博弈的框架，引入了“游戏智能”机制和“防作弊性”概念，GI机制可以实际评估玩家的智能，应用广泛。
-
-    
-
-    本文提出了一个新的框架——有限知识下的n人博弈，其中玩家只对游戏的某些方面（包括行动、结果和其他玩家）有限的了解。为了分析这些游戏，我介绍了一组新的概念和机制，重点关注人类和机器决策之间的相互作用。具体而言，我引入了两个主要概念：第一个是“游戏智能”（GI）机制，它通过考虑参考机器智能下的“错误”，不仅仅是游戏的结果，量化了玩家在游戏中展示出的智能。第二个是“防作弊性”，这是一种实用的、可计算的策略无关性的概念。GI机制提供了一种实用的方法来评估玩家，可以潜在地应用于从在线游戏到现实生活决策的各种游戏。
-
-    In this note, I introduce a new framework called n-person games with partial knowledge, in which players have only limited knowledge about the aspects of the game -- including actions, outcomes, and other players. For example, playing an actual game of chess is a game of partial knowledge. To analyze these games, I introduce a set of new concepts and mechanisms for measuring the intelligence of players, with a focus on the interplay between human- and machine-based decision-making. Specifically, I introduce two main concepts: firstly, the Game Intelligence (GI) mechanism, which quantifies a player's demonstrated intelligence in a game by considering not only the game's outcome but also the "mistakes" made during the game according to the reference machine's intelligence. Secondly, I define gaming-proofness, a practical and computational concept of strategy-proofness. The GI mechanism provides a practicable way to assess players and can potentially be applied to a wide range of games, f
-    
-[^8]: 在核心位置：企业产品专业化
-
-    Being at the core: firm product specialisation. (arXiv:2302.02767v2 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2302.02767](http://arxiv.org/abs/2302.02767)
-
-    本文使用产品核心度作为新的度量方法，研究企业的产品专业化。同时发现，企业出口的产品组成变化较小，与核心能力相距较远的产品更可能被剔除；更高的核心度与企业级别更大的出口流量有关；与更高核心度一起出口的产品在国家级别上具有更高的出口流量。
+    该论文提出了一种使用负对照、代理变量和工具变量的核方法，以识别治疗效果并学习非参数治疗效果。 作者证明了算法的一致性和收敛速度，并估计了香烟吸烟的剂量反应曲线。
 
     
 
-    我们提出了一个新的度量方法来研究企业的产品专业化：产品核心度，它捕捉了出口产品在企业出口篮子中的中心地位。我们使用2018年至2020年哥伦比亚、厄瓜多尔和秘鲁的企业-产品级别数据研究了产品核心度。我们的分析得出了三个主要发现。首先，企业出口篮子的组成在一年之内变化相对较小，与企业核心能力相距较远、核心度较低的产品更有可能被剔除。其次，更高的核心度与企业级别更大的出口流量有关。第三，这种企业级别的模式也对总体水平产生影响：平均而言，与更高核心度一起出口的产品在国家级别上具有更高的出口流量，这在所有产品复杂性水平上都成立。因此，本文表明一个产品与企业能力的契合程度对企业和国家的经济表现都很重要。
+    负对照是一种在存在未测量混淆的情况下学习治疗与结果之间因果关系的策略。如果有两个辅助变量可用：一个负对照治疗（对实际结果没有影响）和一个负对照结果（不受实际治疗影响），则仍然可以识别治疗效果。 这些辅助变量也可以视为传统控制变量集的代理变量，并且它们类似于工具变量。我提出了一族基于核岭回归的算法，在负对照下学习非参数治疗效果。示例包括剂量反应曲线、具有分布偏移的剂量反应曲线和异质性治疗效果。 数据可以是离散、连续和低维、高维或无限维。我证明了均匀一致性并提供了有限样本收敛率。 我估计了香烟吸烟剂量反应曲线。
 
-    We propose a novel measure to investigate firms' product specialisation: product coreness, that captures the centrality of exported products within the firm's export basket. We study product coreness using firm-product level data between 2018 and 2020 for Colombia, Ecuador, and Peru. Three main findings emerge from our analysis. First, the composition of firms' export baskets changes relatively little from one year to the other, and products far from the firm's core competencies, with low coreness, are more likely to be dropped. Second, higher coreness is associated with larger export flows at the firm level. Third, such firm-level patterns also have implications at the aggregate level: products that are, on average, exported with higher coreness have higher export flows at the country level, which holds across all levels of product complexity. Therefore, the paper shows that how closely a product fits within a firm's capabilities is important for economic performance at both the firm 
+    Negative control is a strategy for learning the causal relationship between treatment and outcome in the presence of unmeasured confounding. The treatment effect can nonetheless be identified if two auxiliary variables are available: a negative control treatment (which has no effect on the actual outcome), and a negative control outcome (which is not affected by the actual treatment). These auxiliary variables can also be viewed as proxies for a traditional set of control variables, and they bear resemblance to instrumental variables. I propose a family of algorithms based on kernel ridge regression for learning nonparametric treatment effects with negative controls. Examples include dose response curves, dose response curves with distribution shift, and heterogeneous treatment effects. Data may be discrete or continuous, and low, high, or infinite dimensional. I prove uniform consistency and provide finite sample rates of convergence. I estimate the dose response curve of cigarette sm
     
-[^9]: 弱信号的过度推断及强信号的欠推断
+[^12]: 条件矩问题的变分矩方法
 
-    Overinference from Weak Signals and Underinference from Strong Signals. (arXiv:2109.09871v4 [econ.GN] UPDATED)
+    The Variational Method of Moments. (arXiv:2012.09422v4 [cs.LG] UPDATED)
 
-    [http://arxiv.org/abs/2109.09871](http://arxiv.org/abs/2109.09871)
+    [http://arxiv.org/abs/2012.09422](http://arxiv.org/abs/2012.09422)
 
-    研究表明，人们在面对弱信号时会存在过度反应，在面对强信号时会存在欠反应，这与信号信息量的认知不精确有关。
+    本文提出了一个非常通用的条件矩问题估计器类 - 变分矩方法，使得我们能够控制无限数量的矩，并提供了基于核方法和神经网络的多个VMM估计器的理论分析和证明。
 
     
 
-    本文研究了关于信息量大小对信号更新的过度反应和欠反应的影响。尽管大量文献研究了高信息量信号的信念更新，但在现实世界中，人们往往面对一大堆弱信号。我们使用了严密的实验和新的来自博彩和金融市场的经验证据证明，信号强度对更新行为有着实质性的影响：在各领域中，我们得到了一致且稳健的结果，即对于弱信号存在过度反应，而对于强信号存在欠反应。这两种结果都与关于信号信息量的认知不精确的简单理论相吻合。我们的框架和发现可帮助协调实验和经验文献中表现出的明显矛盾之处。
+    条件矩问题是描述结构性因果参数的有力形式化工具。一个常见的方法是将问题转化为有限组的边际矩条件，并应用最优加权广义矩法（OWGMM）。本文提出了一个称之为变分矩方法（VMM）的非常通用的条件矩问题估计器类，并自然地使我们能够控制无限数量的矩。作者对多个VMM估计器进行了详细的理论分析，包括基于核方法和神经网络的估计器，并提供了这些方法在一定条件下一致估计真实因果参数的证明。
 
-    We study how overreaction and underreaction to signals depend on their informativeness. While a large literature has studied belief updating in response to highly informative signals, people in important real-world settings are often faced with a steady stream of weak signals. We use a tightly controlled experiment and new empirical evidence from betting and financial markets to demonstrate that updating behavior differs meaningfully by signal strength: across domains, our consistent and robust finding is overreaction to weak signals and underreaction to strong signals. Both sets of results align well with a simple theory of cognitive imprecision about signal informativeness. Our framework and findings can help harmonize apparently contradictory results from the experimental and empirical literatures.
+    The conditional moment problem is a powerful formulation for describing structural causal parameters in terms of observables, a prominent example being instrumental variable regression. A standard approach reduces the problem to a finite set of marginal moment conditions and applies the optimally weighted generalized method of moments (OWGMM), but this requires we know a finite set of identifying moments, can still be inefficient even if identifying, or can be theoretically efficient but practically unwieldy if we use a growing sieve of moment conditions. Motivated by a variational minimax reformulation of OWGMM, we define a very general class of estimators for the conditional moment problem, which we term the variational method of moments (VMM) and which naturally enables controlling infinitely-many moments. We provide a detailed theoretical analysis of multiple VMM estimators, including ones based on kernel methods and neural nets, and provide conditions under which these are consist
+    
+[^13]: 抗干扰预测回归模型新的鲁棒性推断方法
+
+    New robust inference for predictive regressions. (arXiv:2006.01191v4 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2006.01191](http://arxiv.org/abs/2006.01191)
+
+    提出了两种鲁棒方法，用于测试预测回归模型未知参数的假设，适用于异质和持久波动性以及内生、持久和/或重尾回归变量和误差。这些方法使用Cauchy估计量来有效地应对内生性、持久性和/或重尾性的问题。与现有方法相比，这些方法表现良好。
+
+    
+
+    我们提出了两种鲁棒方法来测试在异质和持久波动性以及内生、持久和/或重尾回归变量和误差下的预测回归模型未知参数的假设。提出的鲁棒推断方法适用于离散和连续时间模型。这两种方法都使用Cauchy估计量来有效处理回归变量和误差中内生性、持久性和/或重尾性的问题。这两种方法的区别在于如何控制异质波动性。第一种方法依赖于在Ibragimov和Muller（2010）中提出的回归参数的群体估计量的鲁棒t统计推断。它实现简单，但需要外生波动性假设。为了放宽外生波动性假设，我们提出了另一种方法，依赖于波动率的非参数校正。与现有方法相比，我们提出的方法表现良好。
+
+    We propose two robust methods for testing hypotheses on unknown parameters of predictive regression models under heterogeneous and persistent volatility as well as endogenous, persistent and/or fat-tailed regressors and errors. The proposed robust testing approaches are applicable both in the case of discrete and continuous time models. Both of the methods use the Cauchy estimator to effectively handle the problems of endogeneity, persistence and/or fat-tailedness in regressors and errors. The difference between our two methods is how the heterogeneous volatility is controlled. The first method relies on robust t-statistic inference using group estimators of a regression parameter of interest proposed in Ibragimov and Muller, 2010. It is simple to implement, but requires the exogenous volatility assumption. To relax the exogenous volatility assumption, we propose another method which relies on the nonparametric correction of volatility. The proposed methods perform well compared with w
     
 

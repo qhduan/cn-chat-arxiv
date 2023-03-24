@@ -1,0 +1,12 @@
+{
+    "title": "Applications of statistical causal inference in software engineering. (arXiv:2211.11482v3 [cs.SE] UPDATED)",
+    "abstract": "This paper reviews existing work in software engineering that applies statistical causal inference methods. These methods aim at estimating causal effects from observational data. The review covers 32 papers published between 2010 and 2022. Our results show that the application of statistical causal inference methods is relatively recent and that the corresponding research community remains relatively fragmented.",
+    "link": "http://arxiv.org/abs/2211.11482",
+    "context": "Title: Applications of statistical causal inference in software engineering. (arXiv:2211.11482v3 [cs.SE] UPDATED)\nAbstract: This paper reviews existing work in software engineering that applies statistical causal inference methods. These methods aim at estimating causal effects from observational data. The review covers 32 papers published between 2010 and 2022. Our results show that the application of statistical causal inference methods is relatively recent and that the corresponding research community remains relatively fragmented.",
+    "path": "papers/22/11/2211.11482.json",
+    "total_tokens": 547,
+    "translated_title": "软件工程中的统计因果推断应用",
+    "translated_abstract": "本文回顾了在软件工程领域应用统计因果推断方法的相关研究工作，该方法旨在从观测数据中估计因果效应。本文综述了2010年至2022年间发表的32篇论文。结果表明，统计因果推断方法的应用相对较新，相应的研究社区仍然相对分散。",
+    "tldr": "本文回顾了在软件工程领域的32篇相关研究，总结出统计因果推断方法的应用较新，研究社区相对分散。",
+    "en_tdlr": "This paper reviews 32 papers in software engineering that apply statistical causal inference methods, concluding that the application is relatively recent and the research community remains fragmented."
+}

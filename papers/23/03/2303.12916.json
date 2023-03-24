@@ -1,0 +1,12 @@
+{
+    "title": "Deep learning-based stereo camera multi-video synchronization. (arXiv:2303.12916v1 [cs.CV])",
+    "abstract": "Stereo vision is essential for many applications. Currently, the synchronization of the streams coming from two cameras is done using mostly hardware. A software-based synchronization method would reduce the cost, weight and size of the entire system and allow for more flexibility when building such systems. With this goal in mind, we present here a comparison of different deep learning-based systems and prove that some are efficient and generalizable enough for such a task. This study paves the way to a production ready software-based video synchronization system.",
+    "link": "http://arxiv.org/abs/2303.12916",
+    "context": "Title: Deep learning-based stereo camera multi-video synchronization. (arXiv:2303.12916v1 [cs.CV])\nAbstract: Stereo vision is essential for many applications. Currently, the synchronization of the streams coming from two cameras is done using mostly hardware. A software-based synchronization method would reduce the cost, weight and size of the entire system and allow for more flexibility when building such systems. With this goal in mind, we present here a comparison of different deep learning-based systems and prove that some are efficient and generalizable enough for such a task. This study paves the way to a production ready software-based video synchronization system.",
+    "path": "papers/23/03/2303.12916.json",
+    "total_tokens": 712,
+    "translated_title": "基于深度学习的立体相机多视频同步技术",
+    "translated_abstract": "立体视觉对于许多应用都至关重要。目前，两个摄像头传来的视流同步主要是使用硬件来完成的。基于软件的同步方法将会降低整个系统的成本、重量和大小，并允许在建立这样的系统时更加灵活。鉴于此，我们在本文中提出了不同深度学习系统的比较，并证明了一些系统足够高效且具有一般性来完成此任务。本研究为生产准备就绪的基于软件的视频同步系统铺平了道路。",
+    "tldr": "本研究比较了不同深度学习系统的优劣，并证明一些系统具备足够高效且具有一般性来完成立体相机多视频同步任务。这个技术将有望降低整个系统的成本、重量和大小，并允许在建立这样的系统时更加灵活。",
+    "en_tdlr": "This study compares different deep learning-based systems and proves that some are efficient and generalizable enough to synchronize multiple videos from stereo cameras. This technology has the potential to reduce the cost, weight, and size of the entire system while allowing for more flexibility in building such systems."
+}

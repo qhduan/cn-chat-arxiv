@@ -1,0 +1,11 @@
+{
+    "title": "Non-homogeneous stochastic LQ control with regime switching and random coefficients. (arXiv:2201.01433v6 [math.OC] UPDATED)",
+    "abstract": "This paper is concerned with a general non-homogeneous stochastic linear quadratic (LQ) control problem with regime switching and random coefficients. We obtain the explicit optimal state feedback control and optimal value for this problem in terms of two systems of backward stochastic differential equations (BSDEs): one is the famous stochastic Riccati equation and the other one is a linear multi-dimensional BSDE with unbounded coefficients. The existence and uniqueness of the solutions to these two systems of BSDEs are proved by means of BMO martingales and contraction mapping method. At last, the theory is applied to study an asset-liability management problem under the mean-variance criteria.",
+    "link": "http://arxiv.org/abs/2201.01433",
+    "context": "Title: Non-homogeneous stochastic LQ control with regime switching and random coefficients. (arXiv:2201.01433v6 [math.OC] UPDATED)\nAbstract: This paper is concerned with a general non-homogeneous stochastic linear quadratic (LQ) control problem with regime switching and random coefficients. We obtain the explicit optimal state feedback control and optimal value for this problem in terms of two systems of backward stochastic differential equations (BSDEs): one is the famous stochastic Riccati equation and the other one is a linear multi-dimensional BSDE with unbounded coefficients. The existence and uniqueness of the solutions to these two systems of BSDEs are proved by means of BMO martingales and contraction mapping method. At last, the theory is applied to study an asset-liability management problem under the mean-variance criteria.",
+    "path": "papers/22/01/2201.01433.json",
+    "total_tokens": 737,
+    "translated_title": "带有制度转换和随机系数的非齐次随机线性二次 ( LQ ) 控制",
+    "translated_abstract": "本文探讨了具有制度转换和随机系数的一般非齐次随机线性二次 ( LQ ) 控制问题。我们利用两个反向随机微分方程系统得到了此问题的显式最优状态反馈控制和最优值。其中一个是著名的随机 Riccati 方程，另一个是具有无界系数的线性多维 BSDE。通过使用 BMO 常鞥和收缩映射方法证明了这两个反向随机微分方程系统的解的存在性和唯一性。最后，将此理论应用于研究均值-方差标准下的资产负债管理问题。",
+    "tldr": "本文提出了一种解决带有制度转换和随机系数的非齐次随机LQ控制问题方法，并应用于资产负债管理问题 under the mean-variance criteria。"
+}

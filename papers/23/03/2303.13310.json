@@ -1,0 +1,12 @@
+{
+    "title": "SwissBERT: The Multilingual Language Model for Switzerland. (arXiv:2303.13310v1 [cs.CL])",
+    "abstract": "We present SwissBERT, a masked language model created specifically for processing Switzerland-related text. SwissBERT is a pre-trained model that we adapted to news articles written in the national languages of Switzerland -German, French, Italian, and Romansh. We evaluate SwissBERT on natural language understanding tasks related to Switzerland and find that it tends to outperform previous models on these tasks, especially when processing contemporary news and/or Romansh Grischun. Since SwissBERT uses language adapters, it may be extended to Swiss German dialects in future work. The model and our open-source code are publicly released at https://github.com/ZurichNLP/swissbert.",
+    "link": "http://arxiv.org/abs/2303.13310",
+    "context": "Title: SwissBERT: The Multilingual Language Model for Switzerland. (arXiv:2303.13310v1 [cs.CL])\nAbstract: We present SwissBERT, a masked language model created specifically for processing Switzerland-related text. SwissBERT is a pre-trained model that we adapted to news articles written in the national languages of Switzerland -German, French, Italian, and Romansh. We evaluate SwissBERT on natural language understanding tasks related to Switzerland and find that it tends to outperform previous models on these tasks, especially when processing contemporary news and/or Romansh Grischun. Since SwissBERT uses language adapters, it may be extended to Swiss German dialects in future work. The model and our open-source code are publicly released at https://github.com/ZurichNLP/swissbert.",
+    "path": "papers/23/03/2303.13310.json",
+    "total_tokens": 755,
+    "translated_title": "SwissBERT：瑞士的多语言语言模型",
+    "translated_abstract": "我们介绍了SwissBERT，这是一个专门为处理与瑞士相关的文本而创建的掩码语言模型。 SwissBERT是一种预训练模型，我们将其调整为能够处理瑞士国家语言 -德语、法语、意大利语和罗曼什语的新闻文章。我们评估了SwissBERT在与瑞士相关的自然语言理解任务上的效果，发现它在这些任务上的表现往往优于以前的模型，特别是在处理当代新闻和/或罗曼什语格里斯昆时。由于SwissBERT使用语言适配器，因此未来的工作可能将其扩展到瑞士德语方言中。该模型和我们的开源代码公开发布在https://github.com/ZurichNLP/swissbert。",
+    "tldr": "该论文介绍了SwissBERT，它是一个专门为处理瑞士相关文本而创建的多语言语言模型，SwissBERT在与瑞士相关的自然语言理解任务上的效果优于以前的模型。",
+    "en_tdlr": "The paper introduces SwissBERT, a multilingual language model created specifically for processing Switzerland-related text, which outperforms previous models on natural language understanding tasks related to Switzerland."
+}

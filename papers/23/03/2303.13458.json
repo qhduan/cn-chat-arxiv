@@ -1,0 +1,12 @@
+{
+    "title": "Optimization Dynamics of Equivariant and Augmented Neural Networks. (arXiv:2303.13458v1 [cs.LG])",
+    "abstract": "We investigate the optimization of multilayer perceptrons on symmetric data. We compare the strategy of constraining the architecture to be equivariant to that of using augmentation. We show that, under natural assumptions on the loss and non-linearities, the sets of equivariant stationary points are identical for the two strategies, and that the set of equivariant layers is invariant under the gradient flow for augmented models. Finally, we show that stationary points may be unstable for augmented training although they are stable for the equivariant models",
+    "link": "http://arxiv.org/abs/2303.13458",
+    "context": "Title: Optimization Dynamics of Equivariant and Augmented Neural Networks. (arXiv:2303.13458v1 [cs.LG])\nAbstract: We investigate the optimization of multilayer perceptrons on symmetric data. We compare the strategy of constraining the architecture to be equivariant to that of using augmentation. We show that, under natural assumptions on the loss and non-linearities, the sets of equivariant stationary points are identical for the two strategies, and that the set of equivariant layers is invariant under the gradient flow for augmented models. Finally, we show that stationary points may be unstable for augmented training although they are stable for the equivariant models",
+    "path": "papers/23/03/2303.13458.json",
+    "total_tokens": 715,
+    "translated_title": "等变增强神经网络的优化动态",
+    "translated_abstract": "我们研究了在对称数据上优化多层感知机的方法。我们比较了限制架构等变和使用增强的策略。我们证明，在对损失和非线性性进行自然假设的情况下，等变稳定点的集合对于这两种策略是相同的，并且等变层的集合在增强模型的梯度流下是不变的。最后，我们表明，尽管等变模型的稳定点是稳定的，增强训练的稳定点可能是不稳定的。",
+    "tldr": "本论文研究了在对称数据上优化多层感知机的方法，比较了等变和增强两种策略的优缺点，证明了在自然假设下等变稳定点的集合和等变层的集合具有不变性，但增强模型的稳定点可能是不稳定的。",
+    "en_tdlr": "This paper investigates the optimization of multilayer perceptrons on symmetric data, compares the pros and cons of equivariant and augmentation strategies, and proves the invariance of the sets of equivariant stationary points and layers under the gradient flow of augmented models, while showing that stationary points may be unstable for the augmented training."
+}
