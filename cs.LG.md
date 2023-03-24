@@ -144,19 +144,20 @@
 | [^140] | [gDDIM: Generalized denoising diffusion implicit models.](http://arxiv.org/abs/2206.05564) | 本研究将降噪扩散隐式模型（DDIM）扩展到一般扩散模型，创新性地提出了广义DDIM（gDDIM），并在模糊扩散模型（BDM）和临界阻尼朗之万扩散模型（CLD）中获得了超过20倍和15倍的加速效果。 |
 | [^141] | [Utilising the CLT Structure in Stochastic Gradient based Sampling : Improved Analysis and Faster Algorithms.](http://arxiv.org/abs/2206.03792) | 本文研究了基于随机近似的采样算法，利用中心极限定理结构吸收扩散过程中的随机逼近误差并获得了改进的收敛保证。此外，对于SGLD和RBM，我们分别证明了不同的假设条件下较优的收敛率和参数范围。 |
 | [^142] | [Physics-Embedded Neural Networks: Graph Neural PDE Solvers with Mixed Boundary Conditions.](http://arxiv.org/abs/2205.11912) | 本文介绍了一种名为物理嵌入神经网络的方法，该方法能够充分考虑边界条件，使用隐式方法预测长时间后的状态，并在各种形状上具有高度的泛化性能，为使用混合边界条件描述的PDE边界值问题提供了有前途的解决方案。 |
-| [^143] | [Distributed Random Reshuffling over Networks.](http://arxiv.org/abs/2112.15287) | 本文提出了一种分布式随机重洗（D-RR）算法，能够解决协作优化问题。在平滑强凸和平滑非凸目标函数的情况下，D-RR算法都能够实现很好的优化结果，并且优于分布式随机梯度下降算法。 |
-| [^144] | [Evaluating the Robustness of Deep Reinforcement Learning for Autonomous Policies in a Multi-agent Urban Driving Environment.](http://arxiv.org/abs/2112.11947) | 本论文提出了一个基准测试框架，用于评估和比较深度强化学习算法在单个和多个智能体自主驾驶环境中的性能。同时，提出了一种混合算法以提高深度强化学习策略在多代理驾驶环境中的鲁棒性。 |
-| [^145] | [Focusing on Potential Named Entities During Active Label Acquisition.](http://arxiv.org/abs/2111.03837) | 本文提出了几个AL句子查询评估函数，关注潜在正面标记，并使用更好的数据驱动的正常化方法，以最小化NER注释成本。 |
-| [^146] | [Proximal Reinforcement Learning: Efficient Off-Policy Evaluation in Partially Observed Markov Decision Processes.](http://arxiv.org/abs/2110.15332) | 本文提出了一种方法，可以在离线强化学习中，应用于从医疗保健或教育领域收集的观测数据。我们考虑在部分观测马尔可夫决策过程（POMDP）中进行离线策略评估，以解决观察到的行动可能受到未观察到的因素影响，导致估计值出现偏差的问题。 |
-| [^147] | [A Coupled Design of Exploiting Record Similarity for Practical Vertical Federated Learning.](http://arxiv.org/abs/2106.06312) | 本文提出了一种新的耦合训练范式FedSim，将一对多链接集成到训练过程中，以解决现有VFL方法忽略“记录链接”过程的问题，并实现了更好的性能。 |
-| [^148] | [The Low-Rank Simplicity Bias in Deep Networks.](http://arxiv.org/abs/2103.10427) | 本文研究了现代深度神经网络的泛化能力及可能的原因，发现深度网络具有归纳偏见，更倾向于寻找低有效秩嵌入的解决方案，并通过实证证明了该偏好在有限宽度线性和非线性模型上的实用性和鲁棒性。 |
-| [^149] | [A* Search Without Expansions: Learning Heuristic Functions with Deep Q-Networks.](http://arxiv.org/abs/2102.04518) | 本文提出了一种使用深度Q网络学习启发式函数，通过只进行一次前向传递计算相邻节点的转移成本和启发式值之和，并在不显式生成这些子节点的情况下指导搜索的Q*搜索算法，以大幅减少计算时间。在魔方问题上的实验表明，该方法能够高效地解决具有大动作空间的问题。 |
-| [^150] | [Kernel Methods for Unobserved Confounding: Negative Controls, Proxies, and Instruments.](http://arxiv.org/abs/2012.10315) | 该论文提出了一种使用负对照、代理变量和工具变量的核方法，以识别治疗效果并学习非参数治疗效果。 作者证明了算法的一致性和收敛速度，并估计了香烟吸烟的剂量反应曲线。 |
-| [^151] | [The Variational Method of Moments.](http://arxiv.org/abs/2012.09422) | 本文提出了一个非常通用的条件矩问题估计器类 - 变分矩方法，使得我们能够控制无限数量的矩，并提供了基于核方法和神经网络的多个VMM估计器的理论分析和证明。 |
-| [^152] | [Joint Inference of Diffusion and Structure in Partially Observed Social Networks Using Coupled Matrix Factorization.](http://arxiv.org/abs/2010.01400) | 本文提出了一种概率生成模型DiffStru，通过学习耦合低维潜在因素，在部分观测社交网络中联合推断未观测到的扩散和结构网络。 |
-| [^153] | [Representation Ensembling for Synergistic Lifelong Learning with Quasilinear Complexity.](http://arxiv.org/abs/2004.12908) | 本文提出了一种名为RELL的方法，利用知识蒸馏和知识保持正则化方法，以协同集成在不同任务上独立学习的表示，在准线性复杂度下实现了前向和后向传递。实验结果表明，在各种基准数据集上，RELL的表现优于现有的最先进方法，尤其是在存在灾难性遗忘的情况下，能够显着改善反向传递。 |
-| [^154] | [Almost Sure Convergence of Dropout Algorithms for Neural Networks.](http://arxiv.org/abs/2002.02247) | 本文提出了针对神经网络的dropout算法的收敛性及收敛速度的研究，给出了概率论证明，证明其权重将收敛于正常微分方程系统的投影唯一稳态点，同时给出了ε-定态点的通用样本复杂度限制。 |
-| [^155] | [Student Engagement Detection Using Emotion Analysis, Eye Tracking and Head Movement with Machine Learning.](http://arxiv.org/abs/1909.12913) | 本文提出了一个利用情绪分析、眼动和头部运动进行学生参与度检测的机器学习系统。该系统能够使用笔记本电脑内置摄像头实时监测学生的专注度，通过结合眼睛和头部的运动信息以及面部表情来识别学生处于三种不同的参与度状态，并在典型的在线学习情境下进行了测试，结果表明其能够正确地识别学生的参与度水平。 |
+| [^143] | [Faith-Shap: The Faithful Shapley Interaction Index.](http://arxiv.org/abs/2203.00870) | 本文介绍了一种称为Faith-Shap的方法，用于为黑盒机器学习模型中的交互提供归因，它不需要放弃效率这一关键属性，并通过将Shapley值作为最忠实线性逼近系数的方法解决了唯一性问题。 |
+| [^144] | [Distributed Random Reshuffling over Networks.](http://arxiv.org/abs/2112.15287) | 本文提出了一种分布式随机重洗（D-RR）算法，能够解决协作优化问题。在平滑强凸和平滑非凸目标函数的情况下，D-RR算法都能够实现很好的优化结果，并且优于分布式随机梯度下降算法。 |
+| [^145] | [Evaluating the Robustness of Deep Reinforcement Learning for Autonomous Policies in a Multi-agent Urban Driving Environment.](http://arxiv.org/abs/2112.11947) | 本论文提出了一个基准测试框架，用于评估和比较深度强化学习算法在单个和多个智能体自主驾驶环境中的性能。同时，提出了一种混合算法以提高深度强化学习策略在多代理驾驶环境中的鲁棒性。 |
+| [^146] | [Focusing on Potential Named Entities During Active Label Acquisition.](http://arxiv.org/abs/2111.03837) | 本文提出了几个AL句子查询评估函数，关注潜在正面标记，并使用更好的数据驱动的正常化方法，以最小化NER注释成本。 |
+| [^147] | [Proximal Reinforcement Learning: Efficient Off-Policy Evaluation in Partially Observed Markov Decision Processes.](http://arxiv.org/abs/2110.15332) | 本文提出了一种方法，可以在离线强化学习中，应用于从医疗保健或教育领域收集的观测数据。我们考虑在部分观测马尔可夫决策过程（POMDP）中进行离线策略评估，以解决观察到的行动可能受到未观察到的因素影响，导致估计值出现偏差的问题。 |
+| [^148] | [A Coupled Design of Exploiting Record Similarity for Practical Vertical Federated Learning.](http://arxiv.org/abs/2106.06312) | 本文提出了一种新的耦合训练范式FedSim，将一对多链接集成到训练过程中，以解决现有VFL方法忽略“记录链接”过程的问题，并实现了更好的性能。 |
+| [^149] | [The Low-Rank Simplicity Bias in Deep Networks.](http://arxiv.org/abs/2103.10427) | 本文研究了现代深度神经网络的泛化能力及可能的原因，发现深度网络具有归纳偏见，更倾向于寻找低有效秩嵌入的解决方案，并通过实证证明了该偏好在有限宽度线性和非线性模型上的实用性和鲁棒性。 |
+| [^150] | [A* Search Without Expansions: Learning Heuristic Functions with Deep Q-Networks.](http://arxiv.org/abs/2102.04518) | 本文提出了一种使用深度Q网络学习启发式函数，通过只进行一次前向传递计算相邻节点的转移成本和启发式值之和，并在不显式生成这些子节点的情况下指导搜索的Q*搜索算法，以大幅减少计算时间。在魔方问题上的实验表明，该方法能够高效地解决具有大动作空间的问题。 |
+| [^151] | [Kernel Methods for Unobserved Confounding: Negative Controls, Proxies, and Instruments.](http://arxiv.org/abs/2012.10315) | 该论文提出了一种使用负对照、代理变量和工具变量的核方法，以识别治疗效果并学习非参数治疗效果。 作者证明了算法的一致性和收敛速度，并估计了香烟吸烟的剂量反应曲线。 |
+| [^152] | [The Variational Method of Moments.](http://arxiv.org/abs/2012.09422) | 本文提出了一个非常通用的条件矩问题估计器类 - 变分矩方法，使得我们能够控制无限数量的矩，并提供了基于核方法和神经网络的多个VMM估计器的理论分析和证明。 |
+| [^153] | [Joint Inference of Diffusion and Structure in Partially Observed Social Networks Using Coupled Matrix Factorization.](http://arxiv.org/abs/2010.01400) | 本文提出了一种概率生成模型DiffStru，通过学习耦合低维潜在因素，在部分观测社交网络中联合推断未观测到的扩散和结构网络。 |
+| [^154] | [Representation Ensembling for Synergistic Lifelong Learning with Quasilinear Complexity.](http://arxiv.org/abs/2004.12908) | 本文提出了一种名为RELL的方法，利用知识蒸馏和知识保持正则化方法，以协同集成在不同任务上独立学习的表示，在准线性复杂度下实现了前向和后向传递。实验结果表明，在各种基准数据集上，RELL的表现优于现有的最先进方法，尤其是在存在灾难性遗忘的情况下，能够显着改善反向传递。 |
+| [^155] | [Almost Sure Convergence of Dropout Algorithms for Neural Networks.](http://arxiv.org/abs/2002.02247) | 本文提出了针对神经网络的dropout算法的收敛性及收敛速度的研究，给出了概率论证明，证明其权重将收敛于正常微分方程系统的投影唯一稳态点，同时给出了ε-定态点的通用样本复杂度限制。 |
+| [^156] | [Student Engagement Detection Using Emotion Analysis, Eye Tracking and Head Movement with Machine Learning.](http://arxiv.org/abs/1909.12913) | 本文提出了一个利用情绪分析、眼动和头部运动进行学生参与度检测的机器学习系统。该系统能够使用笔记本电脑内置摄像头实时监测学生的专注度，通过结合眼睛和头部的运动信息以及面部表情来识别学生处于三种不同的参与度状态，并在典型的在线学习情境下进行了测试，结果表明其能够正确地识别学生的参与度水平。 |
 
 # 详细
 
@@ -2148,7 +2149,21 @@
 
     Graph neural network (GNN) is a promising approach to learning and predicting physical phenomena described in boundary value problems, such as partial differential equations (PDEs) with boundary conditions. However, existing models inadequately treat boundary conditions essential for the reliable prediction of such problems. In addition, because of the locally connected nature of GNNs, it is difficult to accurately predict the state after a long time, where interaction between vertices tends to be global. We present our approach termed physics-embedded neural networks that considers boundary conditions and predicts the state after a long time using an implicit method. It is built based on an E(n)-equivariant GNN, resulting in high generalization performance on various shapes. We demonstrate that our model learns flow phenomena in complex shapes and outperforms a well-optimized classical solver and a state-of-the-art machine learning model in speed-accuracy trade-off. Therefore, our mod
     
-[^143]: 分布式随机重洗算法在网络中的应用
+[^143]: Faith-Shap：忠实的Shapley交互指数
+
+    Faith-Shap: The Faithful Shapley Interaction Index. (arXiv:2203.00870v3 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2203.00870](http://arxiv.org/abs/2203.00870)
+
+    本文介绍了一种称为Faith-Shap的方法，用于为黑盒机器学习模型中的交互提供归因，它不需要放弃效率这一关键属性，并通过将Shapley值作为最忠实线性逼近系数的方法解决了唯一性问题。
+
+    
+
+    Shapley值最初是为了在联盟博弈中为个体玩家分配归因而设计的，现在已成为解释性机器学习中常用的方法，可为黑盒机器学习模型的输入特征提供归因。 Shapley值的关键吸引力在于它们独特地满足一组非常自然的公理属性。然而，将Shapley值扩展到分配相互作用而非个体玩家的归因，即交互指数，是非平凡的：由于原始Shapley值扩展到交互上的自然公理集不再指定唯一的交互指数，因此许多提案引入了更少“自然”的公理，同时放弃效率这一关键公理，以获得唯一的交互指数。在这项工作中，我们不引入其他相互冲突的公理，而是采取Shapley值作为最忠实线性逼近的系数的观点。
+
+    Shapley values, which were originally designed to assign attributions to individual players in coalition games, have become a commonly used approach in explainable machine learning to provide attributions to input features for black-box machine learning models. A key attraction of Shapley values is that they uniquely satisfy a very natural set of axiomatic properties. However, extending the Shapley value to assigning attributions to interactions rather than individual players, an interaction index, is non-trivial: as the natural set of axioms for the original Shapley values, extended to the context of interactions, no longer specify a unique interaction index. Many proposals thus introduce additional less ''natural'' axioms, while sacrificing the key axiom of efficiency, in order to obtain unique interaction indices. In this work, rather than introduce additional conflicting axioms, we adopt the viewpoint of Shapley values as coefficients of the most faithful linear approximation to th
+    
+[^144]: 分布式随机重洗算法在网络中的应用
 
     Distributed Random Reshuffling over Networks. (arXiv:2112.15287v5 [math.OC] UPDATED)
 
@@ -2162,7 +2177,7 @@
 
     In this paper, we consider distributed optimization problems where $n$ agents, each possessing a local cost function, collaboratively minimize the average of the local cost functions over a connected network. To solve the problem, we propose a distributed random reshuffling (D-RR) algorithm that invokes the random reshuffling (RR) update in each agent. We show that D-RR inherits favorable characteristics of RR for both smooth strongly convex and smooth nonconvex objective functions. In particular, for smooth strongly convex objective functions, D-RR achieves $\mathcal{O}(1/T^2)$ rate of convergence (where $T$ counts epoch number) in terms of the squared distance between the iterate and the global minimizer. When the objective function is assumed to be smooth nonconvex, we show that D-RR drives the squared norm of gradient to $0$ at a rate of $\mathcal{O}(1/T^{2/3})$. These convergence results match those of centralized RR (up to constant factors) and outperform the distributed stochast
     
-[^144]: 在多智能体城市驾驶环境中评估深度强化学习自主策略的鲁棒性
+[^145]: 在多智能体城市驾驶环境中评估深度强化学习自主策略的鲁棒性
 
     Evaluating the Robustness of Deep Reinforcement Learning for Autonomous Policies in a Multi-agent Urban Driving Environment. (arXiv:2112.11947v3 [cs.AI] UPDATED)
 
@@ -2176,7 +2191,7 @@
 
     Deep reinforcement learning is actively used for training autonomous car policies in a simulated driving environment. Due to the large availability of various reinforcement learning algorithms and the lack of their systematic comparison across different driving scenarios, we are unsure of which ones are more effective for training autonomous car software in single-agent as well as multi-agent driving environments. A benchmarking framework for the comparison of deep reinforcement learning in a vision-based autonomous driving will open up the possibilities for training better autonomous car driving policies. To address these challenges, we provide an open and reusable benchmarking framework for systematic evaluation and comparative analysis of deep reinforcement learning algorithms for autonomous driving in a single- and multi-agent environment. Using the framework, we perform a comparative study of discrete and continuous action space deep reinforcement learning algorithms. We also prop
     
-[^145]: 集中关注潜在命名实体的主动标注获取
+[^146]: 集中关注潜在命名实体的主动标注获取
 
     Focusing on Potential Named Entities During Active Label Acquisition. (arXiv:2111.03837v2 [cs.CL] UPDATED)
 
@@ -2190,7 +2205,7 @@
 
     Named entity recognition (NER) aims to identify mentions of named entities in an unstructured text and classify them into predefined named entity classes. While deep learning-based pre-trained language models help to achieve good predictive performances in NER, many domain-specific NER applications still call for a substantial amount of labeled data. Active learning (AL), a general framework for the label acquisition problem, has been used for NER tasks to minimize the annotation cost without sacrificing model performance. However, the heavily imbalanced class distribution of tokens introduces challenges in designing effective AL querying methods for NER. We propose several AL sentence query evaluation functions that pay more attention to potential positive tokens, and evaluate these proposed functions with both sentence-based and token-based cost evaluation strategies. We also propose a better data-driven normalization approach to penalize sentences that are too long or too short. Our
     
-[^146]: 近端强化学习：部分观测马尔可夫决策过程中高效的离线策略评估
+[^147]: 近端强化学习：部分观测马尔可夫决策过程中高效的离线策略评估
 
     Proximal Reinforcement Learning: Efficient Off-Policy Evaluation in Partially Observed Markov Decision Processes. (arXiv:2110.15332v2 [cs.LG] UPDATED)
 
@@ -2204,7 +2219,7 @@
 
     In applications of offline reinforcement learning to observational data, such as in healthcare or education, a general concern is that observed actions might be affected by unobserved factors, inducing confounding and biasing estimates derived under the assumption of a perfect Markov decision process (MDP) model. Here we tackle this by considering off-policy evaluation in a partially observed MDP (POMDP). Specifically, we consider estimating the value of a given target policy in a POMDP given trajectories with only partial state observations generated by a different and unknown policy that may depend on the unobserved state. We tackle two questions: what conditions allow us to identify the target policy value from the observed data and, given identification, how to best estimate it. To answer these, we extend the framework of proximal causal inference to our POMDP setting, providing a variety of settings where identification is made possible by the existence of so-called bridge functio
     
-[^147]: 一种利用记录相似性进行实际垂直联邦学习的耦合设计
+[^148]: 一种利用记录相似性进行实际垂直联邦学习的耦合设计
 
     A Coupled Design of Exploiting Record Similarity for Practical Vertical Federated Learning. (arXiv:2106.06312v4 [cs.LG] UPDATED)
 
@@ -2218,7 +2233,7 @@
 
     Federated learning is a learning paradigm to enable collaborative learning across different parties without revealing raw data. Notably, vertical federated learning (VFL), where parties share the same set of samples but only hold partial features, has a wide range of real-world applications. However, most existing studies in VFL disregard the "record linkage" process. They design algorithms either assuming the data from different parties can be exactly linked or simply linking each record with its most similar neighboring record. These approaches may fail to capture the key features from other less similar records. Moreover, such improper linkage cannot be corrected by training since existing approaches provide no feedback on linkage during training. In this paper, we design a novel coupled training paradigm, FedSim, that integrates one-to-many linkage into the training process. Besides enabling VFL in many real-world applications with fuzzy identifiers, FedSim also achieves better per
     
-[^148]: 深度网络中的低秩简单性偏好
+[^149]: 深度网络中的低秩简单性偏好
 
     The Low-Rank Simplicity Bias in Deep Networks. (arXiv:2103.10427v4 [cs.LG] UPDATED)
 
@@ -2232,7 +2247,7 @@
 
     Modern deep neural networks are highly over-parameterized compared to the data on which they are trained, yet they often generalize remarkably well. A flurry of recent work has asked: why do deep networks not overfit to their training data? In this work, we make a series of empirical observations that investigate and extend the hypothesis that deeper networks are inductively biased to find solutions with lower effective rank embeddings. We conjecture that this bias exists because the volume of functions that maps to low effective rank embedding increases with depth. We show empirically that our claim holds true on finite width linear and non-linear models on practical learning paradigms and show that on natural data, these are often the solutions that generalize well. We then show that the simplicity bias exists at both initialization and after training and is resilient to hyper-parameters and learning methods. We further demonstrate how linear over-parameterization of deep non-linear 
     
-[^149]: 不扩展的A*搜索：用深度Q网络学习启发式函数
+[^150]: 不扩展的A*搜索：用深度Q网络学习启发式函数
 
     A* Search Without Expansions: Learning Heuristic Functions with Deep Q-Networks. (arXiv:2102.04518v2 [cs.AI] UPDATED)
 
@@ -2246,7 +2261,7 @@
 
     Efficiently solving problems with large action spaces using A* search has been of importance to the artificial intelligence community for decades. This is because the computation and memory requirements of A* search grow linearly with the size of the action space. This burden becomes even more apparent when A* search uses a heuristic function learned by computationally expensive function approximators, such as deep neural networks. To address this problem, we introduce Q* search, a search algorithm that uses deep Q-networks to guide search in order to take advantage of the fact that the sum of the transition costs and heuristic values of the children of a node can be computed with a single forward pass through a deep Q-network without explicitly generating those children. This significantly reduces computation time and requires only one node to be generated per iteration. We use Q* search to solve the Rubik's cube when formulated with a large action space that includes 1872 meta-action
     
-[^150]: 无法观测到的混淆变量的核方法：负对照、代理变量和工具变量
+[^151]: 无法观测到的混淆变量的核方法：负对照、代理变量和工具变量
 
     Kernel Methods for Unobserved Confounding: Negative Controls, Proxies, and Instruments. (arXiv:2012.10315v5 [stat.ML] UPDATED)
 
@@ -2260,7 +2275,7 @@
 
     Negative control is a strategy for learning the causal relationship between treatment and outcome in the presence of unmeasured confounding. The treatment effect can nonetheless be identified if two auxiliary variables are available: a negative control treatment (which has no effect on the actual outcome), and a negative control outcome (which is not affected by the actual treatment). These auxiliary variables can also be viewed as proxies for a traditional set of control variables, and they bear resemblance to instrumental variables. I propose a family of algorithms based on kernel ridge regression for learning nonparametric treatment effects with negative controls. Examples include dose response curves, dose response curves with distribution shift, and heterogeneous treatment effects. Data may be discrete or continuous, and low, high, or infinite dimensional. I prove uniform consistency and provide finite sample rates of convergence. I estimate the dose response curve of cigarette sm
     
-[^151]: 条件矩问题的变分矩方法
+[^152]: 条件矩问题的变分矩方法
 
     The Variational Method of Moments. (arXiv:2012.09422v4 [cs.LG] UPDATED)
 
@@ -2274,7 +2289,7 @@
 
     The conditional moment problem is a powerful formulation for describing structural causal parameters in terms of observables, a prominent example being instrumental variable regression. A standard approach reduces the problem to a finite set of marginal moment conditions and applies the optimally weighted generalized method of moments (OWGMM), but this requires we know a finite set of identifying moments, can still be inefficient even if identifying, or can be theoretically efficient but practically unwieldy if we use a growing sieve of moment conditions. Motivated by a variational minimax reformulation of OWGMM, we define a very general class of estimators for the conditional moment problem, which we term the variational method of moments (VMM) and which naturally enables controlling infinitely-many moments. We provide a detailed theoretical analysis of multiple VMM estimators, including ones based on kernel methods and neural nets, and provide conditions under which these are consist
     
-[^152]: 利用耦合矩阵分解在部分观测社交网络中联合推断扩散和结构
+[^153]: 利用耦合矩阵分解在部分观测社交网络中联合推断扩散和结构
 
     Joint Inference of Diffusion and Structure in Partially Observed Social Networks Using Coupled Matrix Factorization. (arXiv:2010.01400v2 [cs.SI] UPDATED)
 
@@ -2288,7 +2303,7 @@
 
     Access to complete data in large-scale networks is often infeasible. Therefore, the problem of missing data is a crucial and unavoidable issue in the analysis and modeling of real-world social networks. However, most of the research on different aspects of social networks does not consider this limitation. One effective way to solve this problem is to recover the missing data as a pre-processing step. In this paper, a model is learned from partially observed data to infer unobserved diffusion and structure networks. To jointly discover omitted diffusion activities and hidden network structures, we develop a probabilistic generative model called "DiffStru." The interrelations among links of nodes and cascade processes are utilized in the proposed method via learning coupled with low-dimensional latent factors. Besides inferring unseen data, latent factors such as community detection may also aid in network classification problems. We tested different missing data scenarios on simulated 
     
-[^153]: 代表性集成在准线性复杂度下实现协同生命周期学习
+[^154]: 代表性集成在准线性复杂度下实现协同生命周期学习
 
     Representation Ensembling for Synergistic Lifelong Learning with Quasilinear Complexity. (arXiv:2004.12908v16 [cs.AI] UPDATED)
 
@@ -2302,7 +2317,7 @@
 
     In lifelong learning, data are used to improve performance not only on the current task, but also on previously encountered, and as yet unencountered tasks. In contrast, classical machine learning, which we define as, starts from a blank slate, or tabula rasa and uses data only for the single task at hand. While typical transfer learning algorithms can improve performance on future tasks, their performance on prior tasks degrades upon learning new tasks (called forgetting). Many recent approaches for continual or lifelong learning have attempted to maintain performance on old tasks given new tasks. But striving to avoid forgetting sets the goal unnecessarily low. The goal of lifelong learning should be not only to improve performance on future tasks (forward transfer) but also on past tasks (backward transfer) with any new data. Our key insight is that we can synergistically ensemble representations -- that were learned independently on disparate tasks -- to enable both forward and bac
     
-[^154]: 神经网络的Dropout算法的几乎必然收敛性
+[^155]: 神经网络的Dropout算法的几乎必然收敛性
 
     Almost Sure Convergence of Dropout Algorithms for Neural Networks. (arXiv:2002.02247v2 [math.OC] UPDATED)
 
@@ -2316,7 +2331,7 @@
 
     We investigate the convergence and convergence rate of stochastic training algorithms for Neural Networks (NNs) that have been inspired by Dropout (Hinton et al., 2012). With the goal of avoiding overfitting during training of NNs, dropout algorithms consist in practice of multiplying the weight matrices of a NN componentwise by independently drawn random matrices with $\{0, 1 \}$-valued entries during each iteration of Stochastic Gradient Descent (SGD). This paper presents a probability theoretical proof that for fully-connected NNs with differentiable, polynomially bounded activation functions, if we project the weights onto a compact set when using a dropout algorithm, then the weights of the NN converge to a unique stationary point of a projected system of Ordinary Differential Equations (ODEs). After this general convergence guarantee, we go on to investigate the convergence rate of dropout. Firstly, we obtain generic sample complexity bounds for finding $\epsilon$-stationary poin
     
-[^155]: 利用情绪分析、眼动和头部运动进行学生参与度检测的机器学习系统
+[^156]: 利用情绪分析、眼动和头部运动进行学生参与度检测的机器学习系统
 
     Student Engagement Detection Using Emotion Analysis, Eye Tracking and Head Movement with Machine Learning. (arXiv:1909.12913v5 [cs.CV] UPDATED)
 
