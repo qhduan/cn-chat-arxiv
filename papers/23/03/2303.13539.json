@@ -1,0 +1,12 @@
+{
+    "title": "Decentralized Multi-Agent Reinforcement Learning for Continuous-Space Stochastic Games. (arXiv:2303.13539v1 [cs.LG])",
+    "abstract": "Stochastic games are a popular framework for studying multi-agent reinforcement learning (MARL). Recent advances in MARL have focused primarily on games with finitely many states. In this work, we study multi-agent learning in stochastic games with general state spaces and an information structure in which agents do not observe each other's actions. In this context, we propose a decentralized MARL algorithm and we prove the near-optimality of its policy updates. Furthermore, we study the global policy-updating dynamics for a general class of best-reply based algorithms and derive a closed-form characterization of convergence probabilities over the joint policy space.",
+    "link": "http://arxiv.org/abs/2303.13539",
+    "context": "Title: Decentralized Multi-Agent Reinforcement Learning for Continuous-Space Stochastic Games. (arXiv:2303.13539v1 [cs.LG])\nAbstract: Stochastic games are a popular framework for studying multi-agent reinforcement learning (MARL). Recent advances in MARL have focused primarily on games with finitely many states. In this work, we study multi-agent learning in stochastic games with general state spaces and an information structure in which agents do not observe each other's actions. In this context, we propose a decentralized MARL algorithm and we prove the near-optimality of its policy updates. Furthermore, we study the global policy-updating dynamics for a general class of best-reply based algorithms and derive a closed-form characterization of convergence probabilities over the joint policy space.",
+    "path": "papers/23/03/2303.13539.json",
+    "total_tokens": 762,
+    "translated_title": "连续空间随机博弈的分布式多智能体强化学习",
+    "translated_abstract": "随机博弈是研究多智能体强化学习的流行框架。最近，多智能体强化学习的进展主要集中在有限状态的游戏上。在本文中，我们研究带有通用状态空间和信息结构的随机博弈中的多智能体学习。在这种情况下，我们提出了一种分布式的多智能体强化学习算法，并证明了其策略更新的近最优性。此外，我们研究基于纳什均衡的一般类算法的全局策略更新动态，并推导了联合策略空间内收敛概率的闭式表征。",
+    "tldr": "本研究提出了一种分布式的多智能体强化学习算法，证明了其在连续空间随机博弈中的策略更新接近最优，同时推导了一般类算法的全局策略更新动态。",
+    "en_tdlr": "The paper proposes a decentralized MARL algorithm for stochastic games with general state spaces, proves its near-optimality of policy updates, and derives a closed-form characterization of convergence probabilities over joint policy space for a general class of best-reply based algorithms."
+}

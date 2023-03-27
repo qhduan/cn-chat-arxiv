@@ -1,0 +1,11 @@
+{
+    "title": "Overview of the ICASSP 2023 General Meeting Understanding and Generation Challenge (MUG). (arXiv:2303.13932v1 [cs.CL])",
+    "abstract": "ICASSP2023 General Meeting Understanding and Generation Challenge (MUG) focuses on prompting a wide range of spoken language processing (SLP) research on meeting transcripts, as SLP applications are critical to improve users' efficiency in grasping important information in meetings. MUG includes five tracks, including topic segmentation, topic-level and session-level extractive summarization, topic title generation, keyphrase extraction, and action item detection. To facilitate MUG, we construct and release a large-scale meeting dataset, the AliMeeting4MUG Corpus.",
+    "link": "http://arxiv.org/abs/2303.13932",
+    "context": "Title: Overview of the ICASSP 2023 General Meeting Understanding and Generation Challenge (MUG). (arXiv:2303.13932v1 [cs.CL])\nAbstract: ICASSP2023 General Meeting Understanding and Generation Challenge (MUG) focuses on prompting a wide range of spoken language processing (SLP) research on meeting transcripts, as SLP applications are critical to improve users' efficiency in grasping important information in meetings. MUG includes five tracks, including topic segmentation, topic-level and session-level extractive summarization, topic title generation, keyphrase extraction, and action item detection. To facilitate MUG, we construct and release a large-scale meeting dataset, the AliMeeting4MUG Corpus.",
+    "path": "papers/23/03/2303.13932.json",
+    "total_tokens": 729,
+    "translated_title": "ICASSP 2023年总会理解与生成挑战赛（MUG）概述 (arXiv：2303.13932v1 [cs.CL])",
+    "translated_abstract": "ICASSP2023年总会理解与生成挑战赛（MUG）旨在促进针对会议记录的广泛口语语言处理（SLP）研究，因为SLP应用对于提高用户在会议中抓住重要信息的效率至关重要。MUG包括五个跟踪项目，包括主题分割、主题级和会话级的提取性摘要、主题标题生成、关键短语提取和动作项检测。为了方便MUG，我们构建了并发布了大规模会议数据集AliMeeting4MUG Corpus。",
+    "tldr": "ICASSP 2023年将举行总会理解与生成挑战赛，希望通过该挑战赛促进SLP研究的发展，挑战赛包括五个跟踪项目，发起了大规模会议数据集AliMeeting4MUG Corpus。"
+}

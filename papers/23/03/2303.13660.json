@@ -1,0 +1,12 @@
+{
+    "title": "Presenting Multiagent Challenges in Team Sports Analytics. (arXiv:2303.13660v1 [cs.AI])",
+    "abstract": "This paper draws correlations between several challenges and opportunities within the area of team sports analytics and key research areas within multiagent systems (MAS). We specifically consider invasion games, defined as sports where players invade the opposing team's territory and can interact anywhere on a playing surface such as ice hockey, soccer, and basketball. We argue that MAS is well-equipped to study invasion games and will benefit both MAS and sports analytics fields. Our discussion highlights areas for MAS implementation and further development along two axes: short-term in-game strategy (coaching) and long-term team planning (management).",
+    "link": "http://arxiv.org/abs/2303.13660",
+    "context": "Title: Presenting Multiagent Challenges in Team Sports Analytics. (arXiv:2303.13660v1 [cs.AI])\nAbstract: This paper draws correlations between several challenges and opportunities within the area of team sports analytics and key research areas within multiagent systems (MAS). We specifically consider invasion games, defined as sports where players invade the opposing team's territory and can interact anywhere on a playing surface such as ice hockey, soccer, and basketball. We argue that MAS is well-equipped to study invasion games and will benefit both MAS and sports analytics fields. Our discussion highlights areas for MAS implementation and further development along two axes: short-term in-game strategy (coaching) and long-term team planning (management).",
+    "path": "papers/23/03/2303.13660.json",
+    "total_tokens": 732,
+    "translated_title": "呈现团队运动分析中的多智能体挑战",
+    "translated_abstract": "本文将团队运动分析领域中的若干挑战和机遇与多智能体系统（MAS）的关键研究领域相联系。我们特别考虑入侵式游戏，即球员入侵对方团队领地并可以在球场上的任何地方进行互动的运动项目，如冰球、足球和篮球。我们认为，MAS有能力研究入侵型游戏，并将使MAS和运动分析领域受益。我们的讨论重点强调了MAS实现和进一步开发的两个方向：短期的比赛策略（教练）和长期的团队规划（管理）。",
+    "tldr": "本文将多智能体系统与团队运动分析联系起来，特别考虑入侵式游戏，并将其分为短期比赛策略和长期团队规划两个方向，为MAS的实现和发展提供了机会和挑战。",
+    "en_tdlr": "This paper links multiagent systems with team sports analytics, specifically considering invasion games and dividing it into short-term in-game strategy and long-term team planning, providing opportunities and challenges for the implementation and development of MAS."
+}

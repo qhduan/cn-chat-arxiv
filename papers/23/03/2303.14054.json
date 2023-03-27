@@ -1,0 +1,12 @@
+{
+    "title": "Communicating Complex Decisions in Robot-Assisted Therapy. (arXiv:2303.14054v1 [cs.RO])",
+    "abstract": "Socially Assistive Robots (SARs) have shown promising potential in therapeutic scenarios as decision-making instructors or motivational companions. In human-human therapy, experts often communicate the thought process behind the decisions they make to promote transparency and build trust. As research aims to incorporate more complex decision-making models into these robots to drive better interaction, the ability for the SAR to explain its decisions becomes an increasing challenge. We present the latest examples of complex SAR decision-makers. We argue that, based on the importance of transparent communication in human-human therapy, SARs should incorporate such components into their design. To stimulate discussion around this topic, we present a set of design considerations for researchers.",
+    "link": "http://arxiv.org/abs/2303.14054",
+    "context": "Title: Communicating Complex Decisions in Robot-Assisted Therapy. (arXiv:2303.14054v1 [cs.RO])\nAbstract: Socially Assistive Robots (SARs) have shown promising potential in therapeutic scenarios as decision-making instructors or motivational companions. In human-human therapy, experts often communicate the thought process behind the decisions they make to promote transparency and build trust. As research aims to incorporate more complex decision-making models into these robots to drive better interaction, the ability for the SAR to explain its decisions becomes an increasing challenge. We present the latest examples of complex SAR decision-makers. We argue that, based on the importance of transparent communication in human-human therapy, SARs should incorporate such components into their design. To stimulate discussion around this topic, we present a set of design considerations for researchers.",
+    "path": "papers/23/03/2303.14054.json",
+    "total_tokens": 787,
+    "translated_title": "机器人辅助治疗中的复杂决策传达",
+    "translated_abstract": "在治疗场景中，社交辅助机器人（SAR）作为决策指导或激励伴侣已经显示出极大潜力。在人与人之间的治疗中，专家通常会沟通他们作出决策的思考过程以促进透明度和建立信任。随着研究旨在将更复杂的决策模型纳入这些机器人以推动更好的交互，SAR解释其决策的能力变得越来越具有挑战性。我们展示了最新的复杂SAR决策制定者的例子。我们认为，基于人与人之间治疗中透明沟通的重要性，SAR应该将这些组件纳入其设计之中。为了刺激对这个话题的讨论，我们提出了一组设计考虑因素供研究人员参考。",
+    "tldr": "社交辅助机器人（SAR）在治疗中发挥重要作用，应该考虑将透明沟通组件纳入设计中去促进人-机交互。",
+    "en_tdlr": "Socially Assistive Robots (SARs) play an important role in therapy and should consider incorporating transparent communication components into their design to promote human-robot interaction."
+}

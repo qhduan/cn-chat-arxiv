@@ -1,0 +1,12 @@
+{
+    "title": "High Fidelity Image Synthesis With Deep VAEs In Latent Space. (arXiv:2303.13714v1 [cs.CV])",
+    "abstract": "We present fast, realistic image generation on high-resolution, multimodal datasets using hierarchical variational autoencoders (VAEs) trained on a deterministic autoencoder's latent space. In this two-stage setup, the autoencoder compresses the image into its semantic features, which are then modeled with a deep VAE. With this method, the VAE avoids modeling the fine-grained details that constitute the majority of the image's code length, allowing it to focus on learning its structural components. We demonstrate the effectiveness of our two-stage approach, achieving a FID of 9.34 on the ImageNet-256 dataset which is comparable to BigGAN. We make our implementation available online.",
+    "link": "http://arxiv.org/abs/2303.13714",
+    "context": "Title: High Fidelity Image Synthesis With Deep VAEs In Latent Space. (arXiv:2303.13714v1 [cs.CV])\nAbstract: We present fast, realistic image generation on high-resolution, multimodal datasets using hierarchical variational autoencoders (VAEs) trained on a deterministic autoencoder's latent space. In this two-stage setup, the autoencoder compresses the image into its semantic features, which are then modeled with a deep VAE. With this method, the VAE avoids modeling the fine-grained details that constitute the majority of the image's code length, allowing it to focus on learning its structural components. We demonstrate the effectiveness of our two-stage approach, achieving a FID of 9.34 on the ImageNet-256 dataset which is comparable to BigGAN. We make our implementation available online.",
+    "path": "papers/23/03/2303.13714.json",
+    "total_tokens": 781,
+    "translated_title": "深度VAE在潜空间中高保真图像合成技术",
+    "translated_abstract": "我们提出了一种使用分层变分自编码器（VAE）在确定性自编码器的潜空间上进行训练的快速、逼真的高分辨率、多模态数据集图像生成方法。在这个两阶段的设置中，自编码器将图像压缩为其语义特征，然后用深度VAE对其进行建模。通过这种方法，VAE避免了对构成图像大部分代码长度的细节进行建模，而是专注于学习其结构组件。我们展示了我们的两阶段方法的有效性，在ImageNet-256数据集上实现了9.34的FID，这与BigGAN相当。我们的实现代码已经在线上公开。",
+    "tldr": "该论文提出了一种使用深度VAE在潜空间中进行高保真地图像生成的方法，通过两个阶段的训练，在避免对大部分细节进行建模的基础上，重点学习图像的结构组成，并取得了较好的效果。",
+    "en_tdlr": "This paper presents a method for high-fidelity image generation using deep VAEs in the latent space, focusing on learning the structural components of the image and avoiding modeling the majority of the fine-grained details in a two-stage setup, achieving comparable results to BigGAN on the ImageNet-256 dataset."
+}

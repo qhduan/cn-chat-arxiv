@@ -1,0 +1,12 @@
+{
+    "title": "Authorship attribution for Differences between Literary Texts by Bilingual Russian-French and Non-Bilingual French Authors. (arXiv:2303.13622v1 [cs.CL])",
+    "abstract": "Do bilingual Russian-French authors of the end of the twentieth century such as Andre\\\"i Makine, Val\\'ery Afanassiev, Vladimir F\\'edorovski, Iegor Gran, Luba Jurgenson have common stylistic traits in the novels they wrote in French? Can we distinguish between them and non-bilingual French writers' texts? Is the phenomenon of interference observable in French texts of Russian authors? This paper applies authorship attribution methods including Support Vector Machine (SVM), $K$-Nearest Neighbors (KNN), Ridge classification, and Neural Network to answer these questions.",
+    "link": "http://arxiv.org/abs/2303.13622",
+    "context": "Title: Authorship attribution for Differences between Literary Texts by Bilingual Russian-French and Non-Bilingual French Authors. (arXiv:2303.13622v1 [cs.CL])\nAbstract: Do bilingual Russian-French authors of the end of the twentieth century such as Andre\\\"i Makine, Val\\'ery Afanassiev, Vladimir F\\'edorovski, Iegor Gran, Luba Jurgenson have common stylistic traits in the novels they wrote in French? Can we distinguish between them and non-bilingual French writers' texts? Is the phenomenon of interference observable in French texts of Russian authors? This paper applies authorship attribution methods including Support Vector Machine (SVM), $K$-Nearest Neighbors (KNN), Ridge classification, and Neural Network to answer these questions.",
+    "path": "papers/23/03/2303.13622.json",
+    "total_tokens": 714,
+    "translated_title": "双语俄法作家与非双语法国作家文学作品的作者归属问题研究",
+    "translated_abstract": "本文使用支持向量机（SVM）、$K$最近邻（KNN）、岭分类、神经网络等方法进行分析，旨在探究双语俄法作家（如安德雷·马金、瓦莱里·阿法纳谢夫、弗拉基米尔·费奥多罗夫斯基、伊戈尔·格兰、卢巴·尤尔戈森）与非双语法国作家的文学作品在风格上的差异，以及在俄罗斯作家的法语作品中是否存在语言干扰现象。",
+    "tldr": "本文旨在利用SVM、KNN、岭分类、神经网络等方法探究双语俄法作家与非双语法国作家的文学作品在风格、语言干扰上的差异。",
+    "en_tdlr": "This paper applies methods such as SVM, KNN, Ridge classification, and Neural Network to explore the differences in style and language interference between bilingual Russian-French authors and non-bilingual French authors' literary works."
+}

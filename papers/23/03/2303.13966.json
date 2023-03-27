@@ -1,0 +1,12 @@
+{
+    "title": "State space decomposition and classification of term structure shapes in the two-factor Vasicek model. (arXiv:2303.13966v1 [q-fin.MF])",
+    "abstract": "Using the concept of envelopes we show how to divide the state space $\\RR^2$ of the two-factor Vasicek model into regions of identical term-structure shape. We develop a formula for determining the shapes utilizing winding numbers and give a nearly complete classification of the parameter space regarding the occurring shapes.",
+    "link": "http://arxiv.org/abs/2303.13966",
+    "context": "Title: State space decomposition and classification of term structure shapes in the two-factor Vasicek model. (arXiv:2303.13966v1 [q-fin.MF])\nAbstract: Using the concept of envelopes we show how to divide the state space $\\RR^2$ of the two-factor Vasicek model into regions of identical term-structure shape. We develop a formula for determining the shapes utilizing winding numbers and give a nearly complete classification of the parameter space regarding the occurring shapes.",
+    "path": "papers/23/03/2303.13966.json",
+    "total_tokens": 550,
+    "translated_title": "两因子Vasicek模型中的利率结构形状的状态空间分解与分类",
+    "translated_abstract": "我们利用包络的概念，展示了如何将两因子Vasicek模型的状态空间 $\\RR^2$ 划分为具有相同利率结构形状的区域。我们开发了一个利用绕数确定形状的公式，并在参数空间方面给出了几乎完整的分类，以确定发生的形状。",
+    "tldr": "我们在两因子Vasicek模型中实现了状态空间的分解，得出了利率结构形状的公式，并进行了分类，以便更好地理解利率市场。",
+    "en_tdlr": "We achieved state space decomposition in the two-factor Vasicek model, obtained a formula for term structure shape and provided a classification in order to better understand the interest rate market."
+}

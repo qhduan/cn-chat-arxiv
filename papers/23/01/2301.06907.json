@@ -1,0 +1,12 @@
+{
+    "title": "Deep Conditional Measure Quantization. (arXiv:2301.06907v2 [stat.ML] UPDATED)",
+    "abstract": "Quantization of a probability measure means representing it with a finite set of Dirac masses that approximates the input distribution well enough (in some metric space of probability measures). Various methods exists to do so, but the situation of quantizing a conditional law has been less explored. We propose a method, called DCMQ, involving a Huber-energy kernel-based approach coupled with a deep neural network architecture. The method is tested on several examples and obtains promising results.",
+    "link": "http://arxiv.org/abs/2301.06907",
+    "context": "Title: Deep Conditional Measure Quantization. (arXiv:2301.06907v2 [stat.ML] UPDATED)\nAbstract: Quantization of a probability measure means representing it with a finite set of Dirac masses that approximates the input distribution well enough (in some metric space of probability measures). Various methods exists to do so, but the situation of quantizing a conditional law has been less explored. We propose a method, called DCMQ, involving a Huber-energy kernel-based approach coupled with a deep neural network architecture. The method is tested on several examples and obtains promising results.",
+    "path": "papers/23/01/2301.06907.json",
+    "total_tokens": 619,
+    "translated_title": "深度条件测度量化",
+    "translated_abstract": "概率测度的量化意味着使用一组有限的狄拉克分布来近似表示输入分布（在一些概率测度度量空间中）。有各种各样的方法可以实现这一点，但可能会存在条件法的量化需要探索的情况。我们提出了一种称为DCMQ的方法，它涉及到基于Huber能量核的方法和深度神经网络体系结构的耦合。该方法在多个实例上进行了测试，并获得了有希望的结果。",
+    "tldr": "提出了一种名为DCMQ的方法，该方法结合了基于Huber能量核的方法和深度神经网络架构，用于条件测度量化，并在多个实例中取得了有希望的结果。",
+    "en_tdlr": "A method called DCMQ is proposed, which combines a Huber-energy kernel-based approach and a deep neural network architecture for conditional measure quantization, and obtains promising results on several examples."
+}

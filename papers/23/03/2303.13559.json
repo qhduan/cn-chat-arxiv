@@ -1,0 +1,12 @@
+{
+    "title": "Enhancing Unsupervised Speech Recognition with Diffusion GANs. (arXiv:2303.13559v1 [cs.CL])",
+    "abstract": "We enhance the vanilla adversarial training method for unsupervised Automatic Speech Recognition (ASR) by a diffusion-GAN. Our model (1) injects instance noises of various intensities to the generator's output and unlabeled reference text which are sampled from pretrained phoneme language models with a length constraint, (2) asks diffusion timestep-dependent discriminators to separate them, and (3) back-propagates the gradients to update the generator. Word/phoneme error rate comparisons with wav2vec-U under Librispeech (3.1% for test-clean and 5.6% for test-other), TIMIT and MLS datasets, show that our enhancement strategies work effectively.",
+    "link": "http://arxiv.org/abs/2303.13559",
+    "context": "Title: Enhancing Unsupervised Speech Recognition with Diffusion GANs. (arXiv:2303.13559v1 [cs.CL])\nAbstract: We enhance the vanilla adversarial training method for unsupervised Automatic Speech Recognition (ASR) by a diffusion-GAN. Our model (1) injects instance noises of various intensities to the generator's output and unlabeled reference text which are sampled from pretrained phoneme language models with a length constraint, (2) asks diffusion timestep-dependent discriminators to separate them, and (3) back-propagates the gradients to update the generator. Word/phoneme error rate comparisons with wav2vec-U under Librispeech (3.1% for test-clean and 5.6% for test-other), TIMIT and MLS datasets, show that our enhancement strategies work effectively.",
+    "path": "papers/23/03/2303.13559.json",
+    "total_tokens": 766,
+    "translated_title": "基于扩散GAN的无监督语音识别的增强",
+    "translated_abstract": "我们通过扩散GAN增强了用于无监督自动语音识别(ASR)的普通对抗训练方法。我们的模型(1)注入了强度不同的实例噪声到生成器的输出和未标记的参考文本，这些文本是从带有长度约束的预训练音素语言模型中采样的，(2)请求扩散时间步骤相关的判别器将它们分开，(3)反向传播梯度以更新生成器。在Librispeech(测试干净和测试其他的误差率分别为3.1%和5.6%)、TIMIT和MLS数据集下，与wav2vec-U进行单词/音素错误率比较表明，我们的增强策略是有效的。",
+    "tldr": "本论文提出了一种基于扩散GAN的增强方法，可用于无监督语音识别任务，实验结果表明该方法在多个数据集上都取得了良好的效果。",
+    "en_tdlr": "In this paper, we propose an enhanced method for unsupervised Automatic Speech Recognition (ASR) based on Diffusion GANs, which injects instance noises and asks for timestep-dependent discriminators to separate them. Experimental results show that our method achieves good performance on multiple datasets."
+}

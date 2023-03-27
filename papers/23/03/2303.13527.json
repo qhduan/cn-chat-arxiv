@@ -1,0 +1,12 @@
+{
+    "title": "Dataset for predicting cybersickness from a virtual navigation task. (arXiv:2303.13527v1 [cs.HC])",
+    "abstract": "This work presents a dataset collected to predict cybersickness in virtual reality environments. The data was collected from navigation tasks in a virtual environment designed to induce cybersickness. The dataset consists of many data points collected from diverse participants, including physiological responses (EDA and Heart Rate) and self-reported cybersickness symptoms. The paper will provide a detailed description of the dataset, including the arranged navigation task, the data collection procedures, and the data format. The dataset will serve as a valuable resource for researchers to develop and evaluate predictive models for cybersickness and will facilitate more research in cybersickness mitigation.",
+    "link": "http://arxiv.org/abs/2303.13527",
+    "context": "Title: Dataset for predicting cybersickness from a virtual navigation task. (arXiv:2303.13527v1 [cs.HC])\nAbstract: This work presents a dataset collected to predict cybersickness in virtual reality environments. The data was collected from navigation tasks in a virtual environment designed to induce cybersickness. The dataset consists of many data points collected from diverse participants, including physiological responses (EDA and Heart Rate) and self-reported cybersickness symptoms. The paper will provide a detailed description of the dataset, including the arranged navigation task, the data collection procedures, and the data format. The dataset will serve as a valuable resource for researchers to develop and evaluate predictive models for cybersickness and will facilitate more research in cybersickness mitigation.",
+    "path": "papers/23/03/2303.13527.json",
+    "total_tokens": 733,
+    "translated_title": "预测虚拟导航任务中晕动症的数据集",
+    "translated_abstract": "本文提供了一个用于预测虚拟现实环境中晕动症的数据集。数据集包括在诱发晕动症的虚拟环境中进行导航任务的多个数据点，包括生理反应(EDA和心率)和自报晕动症状。本文将详细描述数据集，包括排列的导航任务、数据采集过程和数据格式。这个数据集将为研究人员开发和评估晕动症预测模型提供有价值的资源，并促进晕动症缓解的更多研究。",
+    "tldr": "本文提供了一个用于预测虚拟现实环境中晕动症的数据集，包含多个来自不同参与者的数据点，并详细描述了数据集内容和采集过程，将有助于研究晕动症缓解和预测模型开发。",
+    "en_tdlr": "This paper presents a dataset for predicting cybersickness in virtual reality environments, including physiological responses and self-reported symptoms from diverse participants. The dataset will serve as a valuable resource for developing and evaluating predictive models for cybersickness and facilitate further research in cybersickness mitigation."
+}

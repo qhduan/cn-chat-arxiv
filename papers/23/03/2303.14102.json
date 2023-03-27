@@ -1,0 +1,12 @@
+{
+    "title": "Distributed Silhouette Algorithm: Evaluating Clustering on Big Data. (arXiv:2303.14102v1 [cs.DC])",
+    "abstract": "In the big data era, the key feature that each algorithm needs to have is the possibility of efficiently running in parallel in a distributed environment. The popular Silhouette metric to evaluate the quality of a clustering, unfortunately, does not have this property and has a quadratic computational complexity with respect to the size of the input dataset. For this reason, its execution has been hindered in big data scenarios, where clustering had to be evaluated otherwise. To fill this gap, in this paper we introduce the first algorithm that computes the Silhouette metric with linear complexity and can easily execute in parallel in a distributed environment. Its implementation is freely available in the Apache Spark ML library.",
+    "link": "http://arxiv.org/abs/2303.14102",
+    "context": "Title: Distributed Silhouette Algorithm: Evaluating Clustering on Big Data. (arXiv:2303.14102v1 [cs.DC])\nAbstract: In the big data era, the key feature that each algorithm needs to have is the possibility of efficiently running in parallel in a distributed environment. The popular Silhouette metric to evaluate the quality of a clustering, unfortunately, does not have this property and has a quadratic computational complexity with respect to the size of the input dataset. For this reason, its execution has been hindered in big data scenarios, where clustering had to be evaluated otherwise. To fill this gap, in this paper we introduce the first algorithm that computes the Silhouette metric with linear complexity and can easily execute in parallel in a distributed environment. Its implementation is freely available in the Apache Spark ML library.",
+    "path": "papers/23/03/2303.14102.json",
+    "total_tokens": 674,
+    "translated_title": "分布式Silhouette算法：评估大数据聚类",
+    "translated_abstract": "在大数据时代，每个算法需要具备的关键特征是在分布式环境下高效运行的可能性。然而，流行的Silhouette度量评估聚类质量的算法没有这个性质，并且与输入数据集的大小呈二次计算复杂度。因此，在大数据场景中，聚类评估必须采用其他方法。为了填补这个空白，本文介绍了第一个可以以线性复杂度计算Silhouette指标并可以在分布式环境中轻松执行的算法。它的实现在Apache Spark ML库中免费提供。",
+    "tldr": "本文提出了一种可以在分布式环境下快速计算 Silhouette 指标的算法，解决了大数据场景下聚类评估的难点。",
+    "en_tdlr": "The paper proposes an algorithm that can efficiently compute the Silhouette metric in a distributed environment with linear complexity, thus resolving the challenge of evaluating clustering in big data scenarios."
+}

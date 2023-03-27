@@ -1,0 +1,12 @@
+{
+    "title": "Particle Mean Field Variational Bayes. (arXiv:2303.13930v1 [stat.CO])",
+    "abstract": "The Mean Field Variational Bayes (MFVB) method is one of the most computationally efficient techniques for Bayesian inference. However, its use has been restricted to models with conjugate priors or those that require analytical calculations. This paper proposes a novel particle-based MFVB approach that greatly expands the applicability of the MFVB method. We establish the theoretical basis of the new method by leveraging the connection between Wasserstein gradient flows and Langevin diffusion dynamics, and demonstrate the effectiveness of this approach using Bayesian logistic regression, stochastic volatility, and deep neural networks.",
+    "link": "http://arxiv.org/abs/2303.13930",
+    "context": "Title: Particle Mean Field Variational Bayes. (arXiv:2303.13930v1 [stat.CO])\nAbstract: The Mean Field Variational Bayes (MFVB) method is one of the most computationally efficient techniques for Bayesian inference. However, its use has been restricted to models with conjugate priors or those that require analytical calculations. This paper proposes a novel particle-based MFVB approach that greatly expands the applicability of the MFVB method. We establish the theoretical basis of the new method by leveraging the connection between Wasserstein gradient flows and Langevin diffusion dynamics, and demonstrate the effectiveness of this approach using Bayesian logistic regression, stochastic volatility, and deep neural networks.",
+    "path": "papers/23/03/2303.13930.json",
+    "total_tokens": 674,
+    "translated_title": "粒子平均场变分贝叶斯方法",
+    "translated_abstract": "平均场变分贝叶斯（MFVB）方法是一种计算效率最高的贝叶斯推断技术之一，然而其使用仅限于具有共轭先验或需要解析计算的模型。本文提出了一种新的基于粒子的MFVB方法，大大扩展了MFVB方法的适用范围。我们通过利用Wasserstein梯度流与Langevin扩散动力学之间的联系构建了新方法的理论基础，并使用贝叶斯逻辑回归、随机波动和深度神经网络证明了这种方法的有效性。",
+    "tldr": "本论文提出了一种新的基于粒子的MFVB方法，有效扩展了其适用范围，可应用于贝叶斯逻辑回归、随机波动和深度神经网络。",
+    "en_tdlr": "This paper proposes a novel particle-based MFVB approach that greatly expands the applicability of the MFVB method, and demonstrates its effectiveness using Bayesian logistic regression, stochastic volatility, and deep neural networks."
+}

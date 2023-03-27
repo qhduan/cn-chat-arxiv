@@ -1,0 +1,12 @@
+{
+    "title": "Near Optimal Adversarial Attack on UCB Bandits. (arXiv:2008.09312v3 [cs.LG] UPDATED)",
+    "abstract": "We consider a stochastic multi-arm bandit problem where rewards are subject to adversarial corruption. We propose a novel attack strategy that manipulates a UCB principle into pulling some non-optimal target arm $T - o(T)$ times with a cumulative cost that scales as $\\sqrt{\\log T}$, where $T$ is the number of rounds. We also prove the first lower bound on the cumulative attack cost. Our lower bound matches our upper bound up to $\\log \\log T$ factors, showing our attack to be near optimal.",
+    "link": "http://arxiv.org/abs/2008.09312",
+    "context": "Title: Near Optimal Adversarial Attack on UCB Bandits. (arXiv:2008.09312v3 [cs.LG] UPDATED)\nAbstract: We consider a stochastic multi-arm bandit problem where rewards are subject to adversarial corruption. We propose a novel attack strategy that manipulates a UCB principle into pulling some non-optimal target arm $T - o(T)$ times with a cumulative cost that scales as $\\sqrt{\\log T}$, where $T$ is the number of rounds. We also prove the first lower bound on the cumulative attack cost. Our lower bound matches our upper bound up to $\\log \\log T$ factors, showing our attack to be near optimal.",
+    "path": "papers/20/08/2008.09312.json",
+    "total_tokens": 700,
+    "translated_title": "UCB Bandits在对抗攻击中的近乎最优攻击策略",
+    "translated_abstract": "本文考虑了一种随机多臂赌博问题，其中奖励受到对抗性破坏。我们提出了一种新颖的攻击策略，通过操作UCB原则来拉动一些非最优目标臂$T-o(T)$次，累积成本的标度为$\\sqrt{\\log T}$，其中$T$为回合数。我们还证明了累积攻击成本的第一个下界。我们的下界与我们的上界匹配，除了$\\log\\log T$因子，表明我们的攻击策略近乎是最优的。",
+    "tldr": "本文提出了一种在对抗攻击下的UCB最优拉臂策略，成本为$\\sqrt{\\log T}$，并且证明了此攻击策略近乎是最优的。",
+    "en_tdlr": "This paper proposes a near-optimal attack strategy on UCB bandits in the presence of adversarial corruption, achieving a cumulative cost of $\\sqrt{\\log T}$ while manipulating non-optimal target arms. Furthermore, the first lower bound on the cumulative attack cost is proven to match the upper bound up to $\\log\\log T$ factors."
+}

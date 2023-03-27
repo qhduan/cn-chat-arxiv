@@ -1,0 +1,12 @@
+{
+    "title": "The Economics of the DeLend Project: Agent-based Simulations. (arXiv:2303.03214v2 [q-fin.CP] UPDATED)",
+    "abstract": "This paper presents our methodology to simulate the behavior of the DeLend Platform. Such simulations are important to verify if the system is able to connect the different sets of agents linked to the platform in a functional manner. They also provide inputs to guide the choices of operational parameters, such as the platform spread, and strategies by DeLend, since they estimate how the key variables of interest respond to different policies. We discuss the methodology and provide examples meant to clarify the approach and to how we intend to use the tool in practice -- they should not be interpreted as representative of real life scenarios.",
+    "link": "http://arxiv.org/abs/2303.03214",
+    "context": "Title: The Economics of the DeLend Project: Agent-based Simulations. (arXiv:2303.03214v2 [q-fin.CP] UPDATED)\nAbstract: This paper presents our methodology to simulate the behavior of the DeLend Platform. Such simulations are important to verify if the system is able to connect the different sets of agents linked to the platform in a functional manner. They also provide inputs to guide the choices of operational parameters, such as the platform spread, and strategies by DeLend, since they estimate how the key variables of interest respond to different policies. We discuss the methodology and provide examples meant to clarify the approach and to how we intend to use the tool in practice -- they should not be interpreted as representative of real life scenarios.",
+    "path": "papers/23/03/2303.03214.json",
+    "total_tokens": 681,
+    "translated_title": "DeLend项目的经济学：基于代理的模拟",
+    "translated_abstract": "本文介绍了我们模拟DeLend平台行为的方法学。这样的模拟对于验证系统能否以功能性方式连接到与平台相关的不同代理集合非常重要。它们还提供了输入来指导操作参数的选择，例如平台传播和DeLend的策略，因为它们估计关键利益变量对不同政策的反应。我们讨论了这种方法论，并提供了示例，旨在阐明我们的方法，并展示我们如何在实践中使用此工具——它们不应被解释为代表真实情况。",
+    "tldr": "本文介绍了模拟DeLend平台行为的方法学，提供了输入来指导操作参数的选择和DeLend的策略，并估计关键利益变量对不同政策的反应。",
+    "en_tdlr": "This paper presents a methodology for simulating the behavior of the DeLend platform, providing inputs to guide operational parameter and strategy choices for DeLend, and estimating the response of key variables of interest to different policies."
+}

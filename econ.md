@@ -2,202 +2,157 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Persuaded Search.](http://arxiv.org/abs/2303.13409) | 本篇论文主要讨论推助式搜索，证明了在这种情况下，委托人无需具有长期承诺能力或制定复杂的非稳态合同，仍然能够在唯一稳定均衡中获得最大的收益。 |
-| [^2] | [Sequential Cauchy Combination Test for Multiple Testing Problems with Financial Applications.](http://arxiv.org/abs/2303.13406) | 本文提出了一种名为“顺序柯西组合检验”的多重检验控制工具，可用于控制错误发现和识别单个信号。该检验实现了强大的家族误差率控制，并且当检验统计量依赖于现有的控制程序时，比现有的控制程序保守程度更低，从而导致更高的全局功率和成功的检测率。 |
-| [^3] | [Why Are Immigrants Always Accused of Stealing People's Jobs?.](http://arxiv.org/abs/2303.13319) | 移民在一个配给职位的匹配模型中可能降低本地工人的就业率，但移民对本地福利的总体影响取决于劳动力市场的状态，当劳动力市场繁荣时，移民的影响可能是正面的。 |
-| [^4] | [Information transmission in monopolistic credence goods markets.](http://arxiv.org/abs/2303.13295) | 本文研究了信任商品市场中专家销售者和客户之间的通讯问题，提供了几何特征描述和必要条件，以及对二元情形下的所有均衡进行了福利分析。 |
-| [^5] | [Uncertain Prior Economic Knowledge and Statistically Identified Structural Vector Autoregressions.](http://arxiv.org/abs/2303.13281) | 本文提出了一种估计器，它将统计识别与经济学动机相结合，通过自适应岭惩罚考虑了不确定的先验经济知识。该估计器应用于分析股票和石油市场之间的相互作用，并发现通常被认为是石油特定需求冲击的东西实际上可以归因于从股票市场提取的信息冲击。 |
-| [^6] | [Functional-Coefficient Quantile Regression for Panel Data with Latent Group Structure.](http://arxiv.org/abs/2303.13218) | 本文提出了一种具有潜在群组结构的面板数据定量回归的功能系数估计方法，通过施加潜在的群组结构的方法，显著减少了需要估计的非参数功能系数数量，使用局部线性分位数估计和经典聚类算法来估计未知的群组结构，并使用一种比率准则确定群组数量。最终通过群组后局部线性平滑方法来估计群组特定的功能系数。 |
-| [^7] | [Characterizing the Feasible Payoff Set of OLG Repeated Games.](http://arxiv.org/abs/2303.12988) | 本研究完整描述了OLG重复博弈的收益集合，发现随着玩家贴现因子接近1，可行收益集合变得更小。 |
-| [^8] | [Dynamic Transportation of Economic Agents.](http://arxiv.org/abs/2303.12567) | 本文通过提出新的方法，解决了之前在某些异质性代理人不完全市场模型的宏观经济均衡解决方案的问题。 |
-| [^9] | [Intergenerational risk sharing in a Defined Contribution pension system: analysis with Bayesian optimization.](http://arxiv.org/abs/2106.13644) | 本文研究了一种多重代际情况下的定义贡献养老金制度，通过贝叶斯优化实现代际风险共担以提高参与者福利，结果表明代际风险共担可以显著提高实用效用。 |
-| [^10] | [Dynamic tariffs-based demand response in retail electricity market under uncertainty.](http://arxiv.org/abs/2105.03405) | 本文提出了一种基于需求弹性的动态电价模型，在不确定性下考虑了零售电力市场中的领导者和追随者之间的关系，并通过分层决策过程优化不同市场配置的选择。 |
-| [^11] | [Kernel Methods for Unobserved Confounding: Negative Controls, Proxies, and Instruments.](http://arxiv.org/abs/2012.10315) | 该论文提出了一种使用负对照、代理变量和工具变量的核方法，以识别治疗效果并学习非参数治疗效果。 作者证明了算法的一致性和收敛速度，并估计了香烟吸烟的剂量反应曲线。 |
-| [^12] | [The Variational Method of Moments.](http://arxiv.org/abs/2012.09422) | 本文提出了一个非常通用的条件矩问题估计器类 - 变分矩方法，使得我们能够控制无限数量的矩，并提供了基于核方法和神经网络的多个VMM估计器的理论分析和证明。 |
-| [^13] | [New robust inference for predictive regressions.](http://arxiv.org/abs/2006.01191) | 提出了两种鲁棒方法，用于测试预测回归模型未知参数的假设，适用于异质和持久波动性以及内生、持久和/或重尾回归变量和误差。这些方法使用Cauchy估计量来有效地应对内生性、持久性和/或重尾性的问题。与现有方法相比，这些方法表现良好。 |
+| [^1] | [The effect of the Austrian-German bidding zone split on unplanned cross-border flows.](http://arxiv.org/abs/2303.14182) | 本文研究了奥地利和德国竞价区域的分割对中欧地区计划内和未计划的跨境电力流的影响。作者发现，分割后计划内电力流量增加，且在政策干预期间，德国和奥地利以及捷克和斯洛伐克之间的未计划电力流有所减少，但波兰的未计划电力流量却在增加。 |
+| [^2] | [sparseDFM: An R Package to Estimate Dynamic Factor Models with Sparse Loadings.](http://arxiv.org/abs/2303.14125) | 这个R软件包可以利用稀疏负载动态因子模型的方法来提高经典因子模型的可解释性，从而更好地预测时间序列数据。 |
+| [^3] | [On the failure of the bootstrap for Chatterjee's rank correlation.](http://arxiv.org/abs/2303.14088) | 研究者发现，通常情况下标准的自助法并不适用于Chatterjee的排名相关性，有效的推断方法是Chatterjee的原始提出和Lin和Han的解析渐近方差估计器。 |
+| [^4] | [Point Identification of LATE with Two Imperfect Instruments.](http://arxiv.org/abs/2303.13795) | 本文提出了一种使用两个不完美的工具来确定局部平均治疗效应的新方法，该方法较传统方法更为稳健。 |
+| [^5] | [The State of Food Systems Worldwide: Counting Down to 2030.](http://arxiv.org/abs/2303.13669) | 本文介绍了食物系统到2030倒计时倡议提出的五个主题和指标体系结构，并应用最新可用数据构建了第一个全球食物系统基线以跟踪转型。 |
+| [^6] | [Bootstrap-Assisted Inference for Generalized Grenander-type Estimators.](http://arxiv.org/abs/2303.13598) | 本文研究了广义Grenander型估计量的大样本分布特性，提出了Bootstrap-Aided推断方法，解决了标准非参数Bootstrap难以逼近广义Grenander型估计量的大样本分布的问题。 |
+| [^7] | [GPTs are GPTs: An Early Look at the Labor Market Impact Potential of Large Language Models.](http://arxiv.org/abs/2303.10130) | 该研究调查了GPT（大语言模型）和相关技术对美国劳动力市场的潜在影响，发现大约80%的美国劳动力可能会受到10%的工作任务的影响，涵盖了所有工资水平和各行各业，预示着这些模型可能具有显著的经济、社会和政策影响。 |
+| [^8] | [Unbiased estimation and asymptotically valid inference in multivariable Mendelian randomization with many weak instrumental variables.](http://arxiv.org/abs/2301.05130) | 本文提出了一种名为MRBEE的新型多变量MR方法，可解决多个GWAS队列之间的样本重叠问题，能够推断许多弱工具变量的无偏因果关系。 |
+| [^9] | [High Dimensional Generalised Penalised Least Squares.](http://arxiv.org/abs/2207.07055) | 本文提出了GLS Lasso方法用于高维线性模型的推断，支持强混合变量和误差过程的分布和重尾特征，并采用去偏Lasso方法进行感兴趣的参数均匀推断，蒙特卡罗结果表明该方法比传统方法更有效。 |
+| [^10] | [Bivariate Distribution Regression with Application to Insurance Data.](http://arxiv.org/abs/2203.12228) | 本文提出了一种半参数估计方法，它可以在不对整个分布施加全局参数假设的情况下，灵活地建模关于协变量的边际和联合分布。与现有的参数方法相比，我们的方法可以适应离散、连续或混合变量，并提供了一种简单而有效的方式来捕获分布依赖结构。 |
 
 # 详细
 
-[^1]: 推助式搜索
+[^1]: 奥地利-德国竞标分割对跨境电力流的影响
 
-    Persuaded Search. (arXiv:2303.13409v1 [econ.TH])
+    The effect of the Austrian-German bidding zone split on unplanned cross-border flows. (arXiv:2303.14182v1 [econ.GN])
 
-    [http://arxiv.org/abs/2303.13409](http://arxiv.org/abs/2303.13409)
+    [http://arxiv.org/abs/2303.14182](http://arxiv.org/abs/2303.14182)
 
-    本篇论文主要讨论推助式搜索，证明了在这种情况下，委托人无需具有长期承诺能力或制定复杂的非稳态合同，仍然能够在唯一稳定均衡中获得最大的收益。
-
-    
-
-    我们考虑了一种序贯搜索环境，其中搜索代理无法观察到商品的质量。代理可以与以利润最大化为目标的委托人订立合同，委托人出售货物质量的信号，但不能对未来的合同作出承诺。代理人愿意为更具信息量的信号支付更高的价格，但预期未来价格高的代理人由于低的继续价值，更不可能继续搜索，从而减少了委托人未来的利润。我们展示了基本上唯一的稳定均衡，其中委托人(i)引导社会有效的停止规则，(ii)充分提取搜索产生的剩余，并且(iii)说服代理人不要满足于边际质量的货物，从而延长租金提取的时间。我们的结果表明，委托人不会从长期承诺能力或考虑复杂的非稳态合同中获益。
-
-    We consider a sequential search environment in which the searching agent does not observe the quality of goods. The agent can contract with a profit-maximizing principal who sells a signal about a good's quality but cannot commit to future contracts. The agent is willing to pay a high price for a more informative signal today, but an agent who anticipates high prices in the future is less likely to continue searching due to a low continuation value, thereby reducing the principal's future profits. We show that there is an essentially unique stationary equilibrium in which the principal (i) induces the socially efficient stopping rule, (ii) fully extracts the surplus generated from search, and (iii) persuades the agent against settling for marginal quality goods, thus extending the duration of rent extraction. Our results demonstrate that the principal would not gain from long-term commitment power or considering complicated, non-stationary contracts.
-    
-[^2]: 多重检验问题中的顺序柯西组合检验及其在金融应用中的应用
-
-    Sequential Cauchy Combination Test for Multiple Testing Problems with Financial Applications. (arXiv:2303.13406v1 [econ.EM])
-
-    [http://arxiv.org/abs/2303.13406](http://arxiv.org/abs/2303.13406)
-
-    本文提出了一种名为“顺序柯西组合检验”的多重检验控制工具，可用于控制错误发现和识别单个信号。该检验实现了强大的家族误差率控制，并且当检验统计量依赖于现有的控制程序时，比现有的控制程序保守程度更低，从而导致更高的全局功率和成功的检测率。
+    本文研究了奥地利和德国竞价区域的分割对中欧地区计划内和未计划的跨境电力流的影响。作者发现，分割后计划内电力流量增加，且在政策干预期间，德国和奥地利以及捷克和斯洛伐克之间的未计划电力流有所减少，但波兰的未计划电力流量却在增加。
 
     
 
-    我们引入了一种简单的工具，用于在存在许多检验、检验统计量相关且信号潜在稀疏的情况下控制错误发现并识别单个信号。该工具在一系列不断扩展的$p$值子集上递归应用柯西组合检验，并称为顺序柯西组合检验。虽然原始的柯西组合检验旨在通过对转换后的$p$值求和对一组零假设进行全局声明，但顺序版本确定哪些$p$值触发拒绝全局零假设。该检验实现了强大的家族误差率控制，并且当检验统计量依赖于现有的控制程序时，比现有的控制程序保守程度更低，从而导致更高的全局功率和成功的检测率。作为说明，我们考虑了两种流行的金融计量应用程序，两者的检验统计量具有序列依赖性或横截面依赖性：监测漂移。
+    2013年，中欧地区的输电系统操作商向能源监管机构投诉因欧洲电力市场中德国-奥地利联合竞价区域而造成的越来越多的未计划电力流。本文实证分析了2018年该竞标区域分割对德国、奥地利、波兰、捷克、斯洛伐克和匈牙利之间计划内和未计划的跨境电力流量的影响。除德国-奥地利竞标区域外，所有区域中计划内电力流量都有所增加。此外，作者发现在2017年至2019年政策干预期间，德国和奥地利以及捷克和斯洛伐克之间的未计划电力流量有所减少，但波兰的未计划电力流量却在增加。
 
-    We introduce a simple tool to control for false discoveries and identify individual signals when there are many tests, the test statistics are correlated, and the signals are potentially sparse. The tool applies the Cauchy combination test recursively on a sequence of expanding subsets of $p$-values and is referred to as the sequential Cauchy combination test. While the original Cauchy combination test aims for a global statement over a set of null hypotheses by summing transformed $p$-values, the sequential version determines which $p$-values trigger the rejection of the global null. The test achieves strong familywise error rate control and is less conservative than existing controlling procedures when the test statistics are dependent, leading to higher global powers and successful detection rates. As illustrations, we consider two popular financial econometric applications for which the test statistics have either serial dependence or cross-sectional dependence: monitoring drift bu
+    In 2013, TSOs from the Central European Region complained to the Agency for the Cooperation of Energy Regulators because of increasing unplanned flows that were presumed to be caused by a joint German-Austrian bidding zone in the European electricity market. This paper empirically analyses the effects of the split of this bidding zone in 2018 on planned and unplanned cross-border flows between Germany, Austria, Poland, the Czech Republic, Slovakia, and Hungary. For all bidding zones, apart from the German-Austrian one, planned flows increased. Further, I find that around the policy intervention between 2017 and 2019, unplanned flows between Germany and Austria as well as for the Czech Republic and Slovakia decreased. However, for Poland increasing unplanned flows are found.
     
-[^3]: 为什么移民总被指责窃取人们的工作?
+[^2]: sparseDFM：一个用于估计稀疏负载动态因子模型的R软件包
 
-    Why Are Immigrants Always Accused of Stealing People's Jobs?. (arXiv:2303.13319v1 [econ.GN])
+    sparseDFM: An R Package to Estimate Dynamic Factor Models with Sparse Loadings. (arXiv:2303.14125v1 [stat.CO])
 
-    [http://arxiv.org/abs/2303.13319](http://arxiv.org/abs/2303.13319)
+    [http://arxiv.org/abs/2303.14125](http://arxiv.org/abs/2303.14125)
 
-    移民在一个配给职位的匹配模型中可能降低本地工人的就业率，但移民对本地福利的总体影响取决于劳动力市场的状态，当劳动力市场繁荣时，移民的影响可能是正面的。
-
-    
-
-    移民总是被指责窃取人们的工作。然而，在劳动力市场的新古典模型中，每个人都有工作可做，也没有工作可被窃取（没有失业，因此想工作的人都可以工作）。在标准匹配模型中，存在一些失业，但由于劳动力需求完全弹性，因此新进入劳动力市场的人被吸收时不会影响求职者的前景。再次说明，当移民到达时没有工作会被窃取。本文显示，在一个具有就业配给的匹配模型中，移民的进入会降低本地工人的就业率。此外，当劳动力市场不景气时，就业率的降幅更大，因为那时工作更加稀缺。因为移民降低了劳动力市场的紧张程度，使得公司更容易招聘，并改善公司利润。移民对本地福利的总体影响取决于劳动力市场的状态。当劳动力市场出现衰退时总体影响始终是负面的，并且当劳动力市场繁荣时可能是正面的。
-
-    Immigrants are always accused of stealing people's jobs. Yet, in a neoclassical model of the labor market, there are jobs for everybody and no jobs to steal. (There is no unemployment, so anybody who wants to work can work.) In standard matching models, there is some unemployment, but labor demand is perfectly elastic so new entrants into the labor force are absorbed without affecting jobseekers' prospects. Once again, no jobs are stolen when immigrants arrive. This paper shows that in a matching model with job rationing, in contrast, the entry of immigrants reduces the employment rate of native workers. Moreover, the reduction in employment rate is sharper when the labor market is depressed -- because jobs are more scarce then. Because immigration reduces labor-market tightness, it makes it easier for firms to recruit and improves firm profits. The overall effect of immigration on native welfare depends on the state of the labor market. It is always negative when the labor market is i
-    
-[^4]: 垄断性信任商品市场中的信息传递
-
-    Information transmission in monopolistic credence goods markets. (arXiv:2303.13295v1 [econ.TH])
-
-    [http://arxiv.org/abs/2303.13295](http://arxiv.org/abs/2303.13295)
-
-    本文研究了信任商品市场中专家销售者和客户之间的通讯问题，提供了几何特征描述和必要条件，以及对二元情形下的所有均衡进行了福利分析。
+    这个R软件包可以利用稀疏负载动态因子模型的方法来提高经典因子模型的可解释性，从而更好地预测时间序列数据。
 
     
 
-    本文研究了一个涵盖 $N$ 个问题类型和 $N$ 种治疗方法的信任商品模型。专家销售者和客户之间的通讯被建模为廉价谈判。我们发现，在歧视性定价下，专家的均衡回报具有几何特征描述，即专家以信念利润函数的拟下凸包为代价。我们证明了客户最差的均衡存在性，并将这个几何特征应用于之前关于信任商品的研究中，并为通讯何时有益于专家提供了充分必要条件。对于二元情形，我们求解了所有均衡，并分析了它们的福利属性。
+    sparseDFM是一个R软件包，用于实现动态因子模型（DFM）的流行估计方法，包括Mosley等人（2023）的新型稀疏DFM方法。 稀疏DFM通过将负载矩阵约束为具有少量非零条目（即是稀疏的）来改善经典DFM中因子结构的可解释性问题。 Mosley等人（2023）构建了一种高效的期望最大化（EM）算法，以使用正则化的拟极大似然估计模型参数。我们在本文中提供了有关估计策略的详细信息，并展示了如何以高效的计算方式实现它。然后，我们提供了两个真实数据案例研究，作为如何使用sparseDFM软件包的教程。第一个案例研究重点总结了英国季度CPI（消费者价格通胀）指数数据的一小部分的结构，而第二个案例研究将该软件包应用于大规模的月度时间序列，目的是预测未来的趋势。
 
-    We study a general credence goods model with $N$ problem types and $N$ treatments. Communication between the expert seller and the client is modeled as cheap talk. We find that the expert's equilibrium payoffs admit a geometric characterization, described by the quasiconcave envelope of his belief-based profits function under discriminatory pricing. We establish the existence of client-worst equilibria, apply the geometric characterization to previous research on credence goods, and provide a necessary and sufficient condition for when communication benefits the expert. For the binary case, we solve for all equilibria and analyze their welfare properties.
+    sparseDFM is an R package for the implementation of popular estimation methods for dynamic factor models (DFMs) including the novel Sparse DFM approach of Mosley et al. (2023). The Sparse DFM ameliorates interpretability issues of factor structure in classic DFMs by constraining the loading matrices to have few non-zero entries (i.e. are sparse). Mosley et al. (2023) construct an efficient expectation maximisation (EM) algorithm to enable estimation of model parameters using a regularised quasi-maximum likelihood. We provide detail on the estimation strategy in this paper and show how we implement this in a computationally efficient way. We then provide two real-data case studies to act as tutorials on how one may use the sparseDFM package. The first case study focuses on summarising the structure of a small subset of quarterly CPI (consumer price inflation) index data for the UK, while the second applies the package onto a large-scale set of monthly time series for the purpose of nowc
     
-[^5]: 不确定的先验经济知识与具有统计识别特性的结构向量自回归
+[^3]: 关于Chatterjee排名相关性自助法失败的研究
 
-    Uncertain Prior Economic Knowledge and Statistically Identified Structural Vector Autoregressions. (arXiv:2303.13281v1 [econ.EM])
+    On the failure of the bootstrap for Chatterjee's rank correlation. (arXiv:2303.14088v1 [math.ST])
 
-    [http://arxiv.org/abs/2303.13281](http://arxiv.org/abs/2303.13281)
+    [http://arxiv.org/abs/2303.14088](http://arxiv.org/abs/2303.14088)
 
-    本文提出了一种估计器，它将统计识别与经济学动机相结合，通过自适应岭惩罚考虑了不确定的先验经济知识。该估计器应用于分析股票和石油市场之间的相互作用，并发现通常被认为是石油特定需求冲击的东西实际上可以归因于从股票市场提取的信息冲击。
-
-    
-
-    本研究提出了一种估计器，它将统计识别与经济学动机相结合。估计值是由（均值）独立非高斯性冲击识别的，并通过自适应岭惩罚来考虑不确定的先验经济知识。当数据与经济学约束一致时，估计值向这些约束收缩；当数据提供反对证据时，收缩停止。本研究将该估计器应用于分析股票和石油市场之间的相互作用。结果表明，通常被认为是石油特定需求冲击的东西，实际上可以归因于从股票市场提取的信息冲击，其解释了约30-40%的油价变动。
-
-    This study proposes an estimator that combines statistical identification with economically motivated restrictions on the interactions. The estimator is identified by (mean) independent non-Gaussian shocks and allows for incorporation of uncertain prior economic knowledge through an adaptive ridge penalty. The estimator shrinks towards economically motivated restrictions when the data is consistent with them and stops shrinkage when the data provides evidence against the restriction. The estimator is applied to analyze the interaction between the stock and oil market. The results suggest that what is usually identified as oil-specific demand shocks can actually be attributed to information shocks extracted from the stock market, which explain about 30-40% of the oil price variation.
-    
-[^6]: 具有潜在群组结构的面板数据定量回归的功能系数估计
-
-    Functional-Coefficient Quantile Regression for Panel Data with Latent Group Structure. (arXiv:2303.13218v1 [econ.EM])
-
-    [http://arxiv.org/abs/2303.13218](http://arxiv.org/abs/2303.13218)
-
-    本文提出了一种具有潜在群组结构的面板数据定量回归的功能系数估计方法，通过施加潜在的群组结构的方法，显著减少了需要估计的非参数功能系数数量，使用局部线性分位数估计和经典聚类算法来估计未知的群组结构，并使用一种比率准则确定群组数量。最终通过群组后局部线性平滑方法来估计群组特定的功能系数。
+    研究者发现，通常情况下标准的自助法并不适用于Chatterjee的排名相关性，有效的推断方法是Chatterjee的原始提出和Lin和Han的解析渐近方差估计器。
 
     
 
-    本文考虑在个体效应下，在大规模面板观测的情况下，估计面板定量回归中的功能系数模型，允许横向和时间依赖性。在异质定量回归模型中，施加潜在的群组结构，从而可以显著减少需要估计的非参数功能系数数量。使用主题特定功能系数的初步局部线性分位数估计，采用经典的聚类聚合算法来估计未知的群组结构，并提出一个易于实现的比率准则来确定群组数量。证明了估计的群组数量和结构的一致性。此外，引入了一种群组后局部线性平滑方法来估计各群组特定的功能系数，并导出了相关的渐近正常分布理论，其归一化速率与文献中的速率相当。
+    研究者通常使用自助法进行统计推断，但我们意识到，通常情况下标准的自助法并不适用于Chatterjee的排名相关性。本文在一个额外的独立性假设下证明了这个问题，并通过模拟证据来补充我们的理论，这使得Chatterjee的排名相关性成为渐近正态但自助法不一致的统计中的一类数据。在这种情况下，有效的推断方法是Chatterjee的原始提出（用于测试独立性）和Lin和Han（2022）的解析渐近方差估计器（用于更广泛的目的）。
 
-    This paper considers estimating functional-coefficient models in panel quantile regression with individual effects, allowing the cross-sectional and temporal dependence for large panel observations. A latent group structure is imposed on the heterogenous quantile regression models so that the number of nonparametric functional coefficients to be estimated can be reduced considerably. With the preliminary local linear quantile estimates of the subject-specific functional coefficients, a classic agglomerative clustering algorithm is used to estimate the unknown group structure and an easy-to-implement ratio criterion is proposed to determine the group number. The estimated group number and structure are shown to be consistent. Furthermore, a post-grouping local linear smoothing method is introduced to estimate the group-specific functional coefficients, and the relevant asymptotic normal distribution theory is derived with a normalisation rate comparable to that in the literature. The de
+    While researchers commonly use the bootstrap for statistical inference, many of us have realized that the standard bootstrap, in general, does not work for Chatterjee's rank correlation. In this paper, we provide proof of this issue under an additional independence assumption, and complement our theory with simulation evidence for general settings. Chatterjee's rank correlation thus falls into a category of statistics that are asymptotically normal but bootstrap inconsistent. Valid inferential methods in this case are Chatterjee's original proposal (for testing independence) and Lin and Han (2022)'s analytic asymptotic variance estimator (for more general purposes).
     
-[^7]: 描述OLG重复博弈可行收益集合的特征
+[^4]: 两个不完美的工具下LATE的点识别
 
-    Characterizing the Feasible Payoff Set of OLG Repeated Games. (arXiv:2303.12988v1 [econ.TH])
+    Point Identification of LATE with Two Imperfect Instruments. (arXiv:2303.13795v1 [econ.EM])
 
-    [http://arxiv.org/abs/2303.12988](http://arxiv.org/abs/2303.12988)
+    [http://arxiv.org/abs/2303.13795](http://arxiv.org/abs/2303.13795)
 
-    本研究完整描述了OLG重复博弈的收益集合，发现随着玩家贴现因子接近1，可行收益集合变得更小。
-
-    
-
-    本文研究了OLG重复博弈的可行收益集合，并给出了完整的特征描述。本文还首次提供了关于由玩家贴现因子和交互长度引起的可行收益集合的新比较静态。而令人惊讶的是，随着玩家贴现因子接近1，可行收益集合变得更小了。
-
-    We study the set of feasible payoffs of OLG repeated games. We first provide a complete characterization of the feasible payoffs. Second, we provide a novel comparative statics of the feasible payoff set with respect to players' discount factor and the length of interaction. Perhaps surprisingly, the feasible payoff set becomes smaller as the players' discount factor approaches to one.
-    
-[^8]: 经济主体的动态运输
-
-    Dynamic Transportation of Economic Agents. (arXiv:2303.12567v1 [econ.GN])
-
-    [http://arxiv.org/abs/2303.12567](http://arxiv.org/abs/2303.12567)
-
-    本文通过提出新的方法，解决了之前在某些异质性代理人不完全市场模型的宏观经济均衡解决方案的问题。
+    本文提出了一种使用两个不完美的工具来确定局部平均治疗效应的新方法，该方法较传统方法更为稳健。
 
     
 
-    本文是在发现了一个共同的策略未能将某些异质性代理人不完全市场模型的宏观经济均衡定位到广泛引用的基准研究中而引发的。通过模仿Dumas和Lyasoff（2012）提出的方法，本文提供了一个新的描述，在面对不可保险的总体和个体风险的大量互动经济体代表的私人状态分布的运动定律。提出了一种新的算法，用于确定回报、最优私人配置和平衡状态下的人口运输，并在两个众所周知的基准研究中进行了测试。
+    本文使用两个不完美的工具来表征局部平均治疗效应（LATE）的点识别结果。文中使用两个工具但对两个工具的假设都不那么严格。第一个工具允许违反排除限制，第二个工具不需要满足单调性。因此，第一个工具可以通过直接效应和治疗状态的转移对结果产生影响。直接效应可以通过第二个工具的外生变异来确定，从而确定局部平均治疗效应。本文提出了一个估计器，并使用蒙特卡罗模拟表明其比经典方法更为稳健。
 
-    The paper was prompted by the surprising discovery that the common strategy, adopted in a large body of research, for producing macroeconomic equilibrium in certain heterogeneous-agent incomplete-market models fails to locate the equilibrium in a widely cited benchmark study. By mimicking the approach proposed by Dumas and Lyasoff (2012), the paper provides a novel description of the law of motion of the distribution over the range of private states of a large population of interacting economic agents faced with uninsurable aggregate and idiosyncratic risk. A new algorithm for identifying the returns, the optimal private allocations, and the population transport in the state of equilibrium is developed and is tested in two well known benchmark studies.
+    This paper characterizes point identification results of the local average treatment effect (LATE) using two imperfect instruments. The classical approach (Imbens and Angrist (1994)) establishes the identification of LATE via an instrument that satisfies exclusion, monotonicity, and independence. However, it may be challenging to find a single instrument that satisfies all these assumptions simultaneously. My paper uses two instruments but imposes weaker assumptions on both instruments. The first instrument is allowed to violate the exclusion restriction and the second instrument does not need to satisfy monotonicity. Therefore, the first instrument can affect the outcome via both direct effects and a shift in the treatment status. The direct effects can be identified via exogenous variation in the second instrument and therefore the local average treatment effect is identified. An estimator is proposed, and using Monte Carlo simulations, it is shown to perform more robustly than the i
     
-[^9]: 基于贝叶斯优化的定义贡献养老金制度中代际风险共担研究
+[^5]: 全球食物系统的现状：倒计时至2030年
 
-    Intergenerational risk sharing in a Defined Contribution pension system: analysis with Bayesian optimization. (arXiv:2106.13644v3 [econ.GN] UPDATED)
+    The State of Food Systems Worldwide: Counting Down to 2030. (arXiv:2303.13669v1 [econ.GN])
 
-    [http://arxiv.org/abs/2106.13644](http://arxiv.org/abs/2106.13644)
+    [http://arxiv.org/abs/2303.13669](http://arxiv.org/abs/2303.13669)
 
-    本文研究了一种多重代际情况下的定义贡献养老金制度，通过贝叶斯优化实现代际风险共担以提高参与者福利，结果表明代际风险共担可以显著提高实用效用。
-
-    
-
-    本文研究了一个面向多个重叠代际的完全资本化、集体定义贡献（DC）养老金制度。我们调查了通过代际风险共担（IRS）实现养老金自动调整与投资策略适配的方法，以提高参与者的福利。我们使用了一个自动调整规则来调整个人账户的指数化，该规则根据养老金制度的名义资金比率进行调整。该养老金制度有两个参数，确定了投资策略和调整规则的强度，并通过贝叶斯优化的预期效用最大化来优化。我们分析了退休福利波动和融资比率波动，显示通过最优调整参数控制它们之间的平衡可以实现IRS。与最佳个人投资策略相比，我们的结果表明，IRS可以显著提高参与者的实用效用。
-
-    We study a fully funded, collective defined-contribution (DC) pension system with multiple overlapping generations. We investigate whether the welfare of participants can be improved by intergenerational risk sharing (IRS) implemented with a realistic investment strategy (e.g., no borrowing) and without an outside entity (e.g., share holders) that helps finance the pension fund. To implement IRS, the pension system uses an automatic adjustment rule for the indexation of individual accounts, which adapts to the notional funding ratio of the pension system. The pension system has two parameters that determine the investment strategy and the strength of the adjustment rule, which are optimized by expected utility maximization using Bayesian optimization. The volatility of the retirement benefits and that of the funding ratio are analyzed, and it is shown that the trade-off between them can be controlled by the optimal adjustment parameter to attain IRS. Compared with the optimal individua
-    
-[^10]: 不确定性下基于动态电价的零售电力市场需求响应
-
-    Dynamic tariffs-based demand response in retail electricity market under uncertainty. (arXiv:2105.03405v3 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2105.03405](http://arxiv.org/abs/2105.03405)
-
-    本文提出了一种基于需求弹性的动态电价模型，在不确定性下考虑了零售电力市场中的领导者和追随者之间的关系，并通过分层决策过程优化不同市场配置的选择。
+    本文介绍了食物系统到2030倒计时倡议提出的五个主题和指标体系结构，并应用最新可用数据构建了第一个全球食物系统基线以跟踪转型。
 
     
 
-    电力需求响应（DR）计划在电力市场重组后备受关注，并被用于优化市场参与者的决策。他们可以通过修改用电量或电力消费时间来提高系统的可靠性和管理价格波动。本文提出了一种新的博弈理论模型，在不确定的动态价格环境下考虑了零售商（领导者）和消费者（追随者）之间的关系。该模型利用需求弹性进行分层决策过程，从而在不同的不确定性来源下提供不同市场配置的选择，从而带来优质和经济收益。该模型在两个框架下求解：一是考虑零售商的市场力量，另一个是基于完全竞争游戏的均衡设置。这些模型可用一个数学规划模型来表述并求解出平衡点。
+    转变食物系统是实现全球发展和可持续目标、带来更健康、公平、可持续和有弹性的未来所必需的。迄今为止，没有综合性框架来跟踪食物系统的转型及其对全球目标的贡献。在2021年，食物系统到2030倒计时倡议（FSCI）阐明了一种体系结构来监测食物系统，分为五个主题：1 饮食、营养和健康；2 环境、自然资源和生产；3 生计、贫困和公平；4 治理；和5弹性和可持续性。每个主题包括三至五个指标领域。本文基于该体系结构，介绍了包容性、咨询性的过程用于选择指标，并应用最新可用的数据构建了第一个全球食物系统基线以跟踪转型。虽然涵盖了大多数主题和领域的数据，但关键指标仍需进一步开发。
 
-    Demand response (DR) programs have gained much attention after the restructuring of the electricity markets and have been used to optimize the decisions of market participants. They can potentially enhance system reliability and manage price volatility by modifying the amount or time of electricity consumption. This paper proposes a novel game-theoretical model accounting for the relationship between retailers (leaders) and consumers (followers) in a dynamic price environment under uncertainty. The quality and economic gains brought by the proposed procedure essentially stem from the utilization of demand elasticity in a hierarchical decision process that renders the options of different market configurations under different sources of uncertainty. The model is solved under two frameworks: by considering the retailer's market power and by accounting for an equilibrium setting based on a perfect competitive game. These are formulated in terms of a mathematical program with equilibrium c
+    Transforming food systems is essential to bring about a healthier, equitable, sustainable, and resilient future, including achieving global development and sustainability goals. To date, no comprehensive framework exists to track food systems transformation and their contributions to global goals. In 2021, the Food Systems Countdown to 2030 Initiative (FSCI) articulated an architecture to monitor food systems across five themes: 1 diets, nutrition, and health; 2 environment, natural resources, and production; 3 livelihoods, poverty, and equity; 4 governance; and 5 resilience and sustainability. Each theme comprises three-to-five indicator domains. This paper builds on that architecture, presenting the inclusive, consultative process used to select indicators and an application of the indicator framework using the latest available data, constructing the first global food systems baseline to track transformation. While data are available to cover most themes and domains, critical indicat
     
-[^11]: 无法观测到的混淆变量的核方法：负对照、代理变量和工具变量
+[^6]: 广义Grenander型估计量的Bootstrap-Aided推断
 
-    Kernel Methods for Unobserved Confounding: Negative Controls, Proxies, and Instruments. (arXiv:2012.10315v5 [stat.ML] UPDATED)
+    Bootstrap-Assisted Inference for Generalized Grenander-type Estimators. (arXiv:2303.13598v1 [math.ST])
 
-    [http://arxiv.org/abs/2012.10315](http://arxiv.org/abs/2012.10315)
+    [http://arxiv.org/abs/2303.13598](http://arxiv.org/abs/2303.13598)
 
-    该论文提出了一种使用负对照、代理变量和工具变量的核方法，以识别治疗效果并学习非参数治疗效果。 作者证明了算法的一致性和收敛速度，并估计了香烟吸烟的剂量反应曲线。
-
-    
-
-    负对照是一种在存在未测量混淆的情况下学习治疗与结果之间因果关系的策略。如果有两个辅助变量可用：一个负对照治疗（对实际结果没有影响）和一个负对照结果（不受实际治疗影响），则仍然可以识别治疗效果。 这些辅助变量也可以视为传统控制变量集的代理变量，并且它们类似于工具变量。我提出了一族基于核岭回归的算法，在负对照下学习非参数治疗效果。示例包括剂量反应曲线、具有分布偏移的剂量反应曲线和异质性治疗效果。 数据可以是离散、连续和低维、高维或无限维。我证明了均匀一致性并提供了有限样本收敛率。 我估计了香烟吸烟剂量反应曲线。
-
-    Negative control is a strategy for learning the causal relationship between treatment and outcome in the presence of unmeasured confounding. The treatment effect can nonetheless be identified if two auxiliary variables are available: a negative control treatment (which has no effect on the actual outcome), and a negative control outcome (which is not affected by the actual treatment). These auxiliary variables can also be viewed as proxies for a traditional set of control variables, and they bear resemblance to instrumental variables. I propose a family of algorithms based on kernel ridge regression for learning nonparametric treatment effects with negative controls. Examples include dose response curves, dose response curves with distribution shift, and heterogeneous treatment effects. Data may be discrete or continuous, and low, high, or infinite dimensional. I prove uniform consistency and provide finite sample rates of convergence. I estimate the dose response curve of cigarette sm
-    
-[^12]: 条件矩问题的变分矩方法
-
-    The Variational Method of Moments. (arXiv:2012.09422v4 [cs.LG] UPDATED)
-
-    [http://arxiv.org/abs/2012.09422](http://arxiv.org/abs/2012.09422)
-
-    本文提出了一个非常通用的条件矩问题估计器类 - 变分矩方法，使得我们能够控制无限数量的矩，并提供了基于核方法和神经网络的多个VMM估计器的理论分析和证明。
+    本文研究了广义Grenander型估计量的大样本分布特性，提出了Bootstrap-Aided推断方法，解决了标准非参数Bootstrap难以逼近广义Grenander型估计量的大样本分布的问题。
 
     
 
-    条件矩问题是描述结构性因果参数的有力形式化工具。一个常见的方法是将问题转化为有限组的边际矩条件，并应用最优加权广义矩法（OWGMM）。本文提出了一个称之为变分矩方法（VMM）的非常通用的条件矩问题估计器类，并自然地使我们能够控制无限数量的矩。作者对多个VMM估计器进行了详细的理论分析，包括基于核方法和神经网络的估计器，并提供了这些方法在一定条件下一致估计真实因果参数的证明。
+    Westling和Carone（2020）提出了一个框架来研究广义Grenander型估计量的大样本分布特性，这是一类用于单调函数的非参数估计器的多才多艺的类。这些估计量的极限分布可表示为高斯过程的最大凸支撑线的左导数，该高斯过程的协方差核可以很复杂，其单项式均值可以是未知阶数（如果感兴趣的函数的平坦度未知）。标准的非参数bootstrap即使知道均值的单项式顺序，也无法一致地逼近广义Grenander型估计量的大样本分布，这使得在应用中进行统计推断成为具有挑战性的任务。为了解决这个推断问题，我们提出了一种广义Grenander型估计量的bootstrap辅助推断程序。该程序依赖于一个精心设计但自动化的变换e
 
-    The conditional moment problem is a powerful formulation for describing structural causal parameters in terms of observables, a prominent example being instrumental variable regression. A standard approach reduces the problem to a finite set of marginal moment conditions and applies the optimally weighted generalized method of moments (OWGMM), but this requires we know a finite set of identifying moments, can still be inefficient even if identifying, or can be theoretically efficient but practically unwieldy if we use a growing sieve of moment conditions. Motivated by a variational minimax reformulation of OWGMM, we define a very general class of estimators for the conditional moment problem, which we term the variational method of moments (VMM) and which naturally enables controlling infinitely-many moments. We provide a detailed theoretical analysis of multiple VMM estimators, including ones based on kernel methods and neural nets, and provide conditions under which these are consist
+    Westling and Carone (2020) proposed a framework for studying the large sample distributional properties of generalized Grenander-type estimators, a versatile class of nonparametric estimators of monotone functions. The limiting distribution of those estimators is representable as the left derivative of the greatest convex minorant of a Gaussian process whose covariance kernel can be complicated and whose monomial mean can be of unknown order (when the degree of flatness of the function of interest is unknown). The standard nonparametric bootstrap is unable to consistently approximate the large sample distribution of the generalized Grenander-type estimators even if the monomial order of the mean is known, making statistical inference a challenging endeavour in applications. To address this inferential problem, we present a bootstrap-assisted inference procedure for generalized Grenander-type estimators. The procedure relies on a carefully crafted, yet automatic, transformation of the e
     
-[^13]: 抗干扰预测回归模型新的鲁棒性推断方法
+[^7]: GPT是GPT：大语言模型对劳动力市场影响的早期研究
 
-    New robust inference for predictive regressions. (arXiv:2006.01191v4 [econ.EM] UPDATED)
+    GPTs are GPTs: An Early Look at the Labor Market Impact Potential of Large Language Models. (arXiv:2303.10130v1 [econ.GN])
 
-    [http://arxiv.org/abs/2006.01191](http://arxiv.org/abs/2006.01191)
+    [http://arxiv.org/abs/2303.10130](http://arxiv.org/abs/2303.10130)
 
-    提出了两种鲁棒方法，用于测试预测回归模型未知参数的假设，适用于异质和持久波动性以及内生、持久和/或重尾回归变量和误差。这些方法使用Cauchy估计量来有效地应对内生性、持久性和/或重尾性的问题。与现有方法相比，这些方法表现良好。
+    该研究调查了GPT（大语言模型）和相关技术对美国劳动力市场的潜在影响，发现大约80%的美国劳动力可能会受到10%的工作任务的影响，涵盖了所有工资水平和各行各业，预示着这些模型可能具有显著的经济、社会和政策影响。
 
     
 
-    我们提出了两种鲁棒方法来测试在异质和持久波动性以及内生、持久和/或重尾回归变量和误差下的预测回归模型未知参数的假设。提出的鲁棒推断方法适用于离散和连续时间模型。这两种方法都使用Cauchy估计量来有效处理回归变量和误差中内生性、持久性和/或重尾性的问题。这两种方法的区别在于如何控制异质波动性。第一种方法依赖于在Ibragimov和Muller（2010）中提出的回归参数的群体估计量的鲁棒t统计推断。它实现简单，但需要外生波动性假设。为了放宽外生波动性假设，我们提出了另一种方法，依赖于波动率的非参数校正。与现有方法相比，我们提出的方法表现良好。
+    我们研究了生成预训练变压器（GPT）模型和相关技术对美国劳动力市场的潜在影响。使用新的标准，我们评估职业与GPT能力的对应关系，结合人类专业知识和GPT-4的分类。我们的研究结果表明，约80%的美国劳动力可能会至少有10%的工作任务受到GPT引入的影响，而约19%的工人可能会看到至少50%的任务受到影响。影响范围涵盖了所有工资水平，高收入工作可能面临更大的风险。值得注意的是，影响并不局限于最近生产率增长较高的行业。我们得出结论，生成预训练变压器具有通用技术（GPT）的特性，表明这些模型可能具有显著的经济、社会和政策影响。
 
-    We propose two robust methods for testing hypotheses on unknown parameters of predictive regression models under heterogeneous and persistent volatility as well as endogenous, persistent and/or fat-tailed regressors and errors. The proposed robust testing approaches are applicable both in the case of discrete and continuous time models. Both of the methods use the Cauchy estimator to effectively handle the problems of endogeneity, persistence and/or fat-tailedness in regressors and errors. The difference between our two methods is how the heterogeneous volatility is controlled. The first method relies on robust t-statistic inference using group estimators of a regression parameter of interest proposed in Ibragimov and Muller, 2010. It is simple to implement, but requires the exogenous volatility assumption. To relax the exogenous volatility assumption, we propose another method which relies on the nonparametric correction of volatility. The proposed methods perform well compared with w
+    We investigate the potential implications of Generative Pre-trained Transformer (GPT) models and related technologies on the U.S. labor market. Using a new rubric, we assess occupations based on their correspondence with GPT capabilities, incorporating both human expertise and classifications from GPT-4. Our findings indicate that approximately 80% of the U.S. workforce could have at least 10% of their work tasks affected by the introduction of GPTs, while around 19% of workers may see at least 50% of their tasks impacted. The influence spans all wage levels, with higher-income jobs potentially facing greater exposure. Notably, the impact is not limited to industries with higher recent productivity growth. We conclude that Generative Pre-trained Transformers exhibit characteristics of general-purpose technologies (GPTs), suggesting that as these models could have notable economic, social, and policy implications.
+    
+[^8]: 多变量门捷列夫随机化中的无偏估计和渐近有效推断与弱工具变量
+
+    Unbiased estimation and asymptotically valid inference in multivariable Mendelian randomization with many weak instrumental variables. (arXiv:2301.05130v3 [stat.ME] UPDATED)
+
+    [http://arxiv.org/abs/2301.05130](http://arxiv.org/abs/2301.05130)
+
+    本文提出了一种名为MRBEE的新型多变量MR方法，可解决多个GWAS队列之间的样本重叠问题，能够推断许多弱工具变量的无偏因果关系。
+
+    
+
+    门捷列夫随机化（MR）是一种利用基因组关联研究（GWAS）摘要数据推断曝露和结果之间因果关系的工具变量方法。然而，多变量反方差加权（IVW）方法作为大多数MR方法的基础，在存在许多弱工具变量的情况下无法产生无偏的因果效应估计。本文证明了多变量IVW估计的偏差是弱工具、估计误差偏差的乘积，后者与多个GWAS队列之间的样本重叠存在权衡关系，是由测量误差和混淆变量引起的。为解决这个问题，我们提出了一种新颖的多变量MR方法，即使用校正偏差估计方程的MR（MRBEE），可以推断许多弱工具变量的无偏因果关系。在适度条件下研究了多变量IVW和MRBEE的渐近行为，结果表明当弱工具变量的数量很大时，MRBEE优于多变量IVW。
+
+    Mendelian randomization (MR) is an instrumental variable (IV) approach to infer causal relationships between exposures and outcomes with genome-wide association studies (GWAS) summary data. However, the multivariable inverse-variance weighting (IVW) approach, which serves as the foundation for most MR approaches, cannot yield unbiased causal effect estimates in the presence of many weak IVs. In this paper, we prove that the bias of the multivariable IVW estimate is a product of weak instrument and estimation error biases, where the latter is linearly composed of measurement error and confounder biases with a trade-off due to sample overlap among multiple GWAS cohorts. To address this problem, we propose a novel multivariable MR approach, MR using Bias-corrected Estimating Equation (MRBEE), which can infer unbiased causal relationships with many weak IVs. Asymptotic behaviors of multivariable IVW and MRBEE are investigated under moderate conditions, showing that MRBEE outperforms multiv
+    
+[^9]: 高维广义惩罚最小二乘的推断方法
+
+    High Dimensional Generalised Penalised Least Squares. (arXiv:2207.07055v3 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2207.07055](http://arxiv.org/abs/2207.07055)
+
+    本文提出了GLS Lasso方法用于高维线性模型的推断，支持强混合变量和误差过程的分布和重尾特征，并采用去偏Lasso方法进行感兴趣的参数均匀推断，蒙特卡罗结果表明该方法比传统方法更有效。
+
+    
+
+    本文针对高维线性模型中的串行相关误差开展推断研究。我们在变量和误差过程强混合的假设下探讨了Lasso方法，并允许它们的分布尾部更加厚重。虽然在这种情况下Lasso估计量表现不佳，但我们通过GLS Lasso估计感兴趣的参数，并在更一般的条件下扩展了Lasso的渐近特性。我们的理论结果表明，对于平稳相关过程的非渐近界限更严格，而Lasso在一般条件下的速度随着$T, p \to \infty$而变慢。此外，我们采用去偏Lasso方法，对感兴趣的参数进行均匀推断。蒙特卡罗结果支持所提出的估计量，因为它相对传统方法具有显着的效率提高。
+
+    In this paper we develop inference for high dimensional linear models, with serially correlated errors. We examine Lasso under the assumption of strong mixing in the covariates and error process, allowing for fatter tails in their distribution. While the Lasso estimator performs poorly under such circumstances, we estimate via GLS Lasso the parameters of interest and extend the asymptotic properties of the Lasso under more general conditions. Our theoretical results indicate that the non-asymptotic bounds for stationary dependent processes are sharper, while the rate of Lasso under general conditions appears slower as $T,p\to \infty$. Further we employ the debiased Lasso to perform inference uniformly on the parameters of interest. Monte Carlo results support the proposed estimator, as it has significant efficiency gains over traditional methods.
+    
+[^10]: 双变量分布回归在保险数据中的应用
+
+    Bivariate Distribution Regression with Application to Insurance Data. (arXiv:2203.12228v2 [stat.ME] UPDATED)
+
+    [http://arxiv.org/abs/2203.12228](http://arxiv.org/abs/2203.12228)
+
+    本文提出了一种半参数估计方法，它可以在不对整个分布施加全局参数假设的情况下，灵活地建模关于协变量的边际和联合分布。与现有的参数方法相比，我们的方法可以适应离散、连续或混合变量，并提供了一种简单而有效的方式来捕获分布依赖结构。
+
+    
+
+    理解变量之间的相互依赖关系，尤其是在给定一组协变量的情况下，调查它们的统计特性，为风险分析和根据观察到的情况做出决策等实际运营管理提供了数学基础。本文提出了一种估计方法，用于基于分布回归和分解方法建模双变量结果的条件联合分布。这种方法被认为是半参数的，因为它允许在不对整个分布施加全局参数假设的情况下，灵活地建模关于协变量的边际和联合分布。与现有的参数方法相比，我们的方法可以适应离散、连续或混合变量，并提供了一种简单而有效的方式来捕获双变量结果和协变量之间的分布依赖结构。各种模拟结果证实了我们的方法在性能方面可以表现得与或更好。
+
+    Understanding variable dependence, particularly eliciting their statistical properties given a set of covariates, provides the mathematical foundation in practical operations management such as risk analysis and decision making given observed circumstances. This article presents an estimation method for modeling the conditional joint distribution of bivariate outcomes based on the distribution regression and factorization methods. This method is considered semiparametric in that it allows for flexible modeling of both the marginal and joint distributions conditional on covariates without imposing global parametric assumptions across the entire distribution. In contrast to existing parametric approaches, our method can accommodate discrete, continuous, or mixed variables, and provides a simple yet effective way to capture distributional dependence structures between bivariate outcomes and covariates. Various simulation results confirm that our method can perform similarly or better in f
     
 

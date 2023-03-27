@@ -1,0 +1,12 @@
+{
+    "title": "On the failure of the bootstrap for Chatterjee's rank correlation. (arXiv:2303.14088v1 [math.ST])",
+    "abstract": "While researchers commonly use the bootstrap for statistical inference, many of us have realized that the standard bootstrap, in general, does not work for Chatterjee's rank correlation. In this paper, we provide proof of this issue under an additional independence assumption, and complement our theory with simulation evidence for general settings. Chatterjee's rank correlation thus falls into a category of statistics that are asymptotically normal but bootstrap inconsistent. Valid inferential methods in this case are Chatterjee's original proposal (for testing independence) and Lin and Han (2022)'s analytic asymptotic variance estimator (for more general purposes).",
+    "link": "http://arxiv.org/abs/2303.14088",
+    "context": "Title: On the failure of the bootstrap for Chatterjee's rank correlation. (arXiv:2303.14088v1 [math.ST])\nAbstract: While researchers commonly use the bootstrap for statistical inference, many of us have realized that the standard bootstrap, in general, does not work for Chatterjee's rank correlation. In this paper, we provide proof of this issue under an additional independence assumption, and complement our theory with simulation evidence for general settings. Chatterjee's rank correlation thus falls into a category of statistics that are asymptotically normal but bootstrap inconsistent. Valid inferential methods in this case are Chatterjee's original proposal (for testing independence) and Lin and Han (2022)'s analytic asymptotic variance estimator (for more general purposes).",
+    "path": "papers/23/03/2303.14088.json",
+    "total_tokens": 712,
+    "translated_title": "关于Chatterjee排名相关性自助法失败的研究",
+    "translated_abstract": "研究者通常使用自助法进行统计推断，但我们意识到，通常情况下标准的自助法并不适用于Chatterjee的排名相关性。本文在一个额外的独立性假设下证明了这个问题，并通过模拟证据来补充我们的理论，这使得Chatterjee的排名相关性成为渐近正态但自助法不一致的统计中的一类数据。在这种情况下，有效的推断方法是Chatterjee的原始提出（用于测试独立性）和Lin和Han（2022）的解析渐近方差估计器（用于更广泛的目的）。",
+    "tldr": "研究者发现，通常情况下标准的自助法并不适用于Chatterjee的排名相关性，有效的推断方法是Chatterjee的原始提出和Lin和Han的解析渐近方差估计器。",
+    "en_tdlr": "Researchers found that the standard bootstrap does not work for Chatterjee's rank correlation, and valid inferential methods are Chatterjee's original proposal and Lin and Han's analytic asymptotic variance estimator."
+}

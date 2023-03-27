@@ -1,0 +1,12 @@
+{
+    "title": "Paint by Word. (arXiv:2103.10951v3 [cs.CV] UPDATED)",
+    "abstract": "We investigate the problem of zero-shot semantic image painting. Instead of painting modifications into an image using only concrete colors or a finite set of semantic concepts, we ask how to create semantic paint based on open full-text descriptions: our goal is to be able to point to a location in a synthesized image and apply an arbitrary new concept such as \"rustic\" or \"opulent\" or \"happy dog.\" To do this, our method combines a state-of-the art generative model of realistic images with a state-of-the-art text-image semantic similarity network. We find that, to make large changes, it is important to use non-gradient methods to explore latent space, and it is important to relax the computations of the GAN to target changes to a specific region. We conduct user studies to compare our methods to several baselines.",
+    "link": "http://arxiv.org/abs/2103.10951",
+    "context": "Title: Paint by Word. (arXiv:2103.10951v3 [cs.CV] UPDATED)\nAbstract: We investigate the problem of zero-shot semantic image painting. Instead of painting modifications into an image using only concrete colors or a finite set of semantic concepts, we ask how to create semantic paint based on open full-text descriptions: our goal is to be able to point to a location in a synthesized image and apply an arbitrary new concept such as \"rustic\" or \"opulent\" or \"happy dog.\" To do this, our method combines a state-of-the art generative model of realistic images with a state-of-the-art text-image semantic similarity network. We find that, to make large changes, it is important to use non-gradient methods to explore latent space, and it is important to relax the computations of the GAN to target changes to a specific region. We conduct user studies to compare our methods to several baselines.",
+    "path": "papers/21/03/2103.10951.json",
+    "total_tokens": 712,
+    "translated_title": "通过文字创作画作",
+    "translated_abstract": "本文研究零样本语义图像绘制问题，目标是基于开放式文本描述创建语义画作。文章通过将最先进的逼真图像生成模型和文本-图像语义相似性网络相结合来完成这一目标。研究表明，为了进行大的变化，使用非梯度方法来探索潜空间是重要的，而且重要的是放宽GAN的计算以针对特定区域进行变化。文章进行了用户调研，将我们的方法与几个基线进行了比较。",
+    "tldr": "本文研究了零样本语义图像绘制问题，并使用最先进的逼真图像生成模型和文本-图像语义相似性网络相结合，使得能够在开放式的文本描述下进行语义画作。",
+    "en_tdlr": "This paper explores the problem of zero-shot semantic image painting and combines state-of-the-art generative model of realistic images with a state-of-the-art text-image semantic similarity network to allow semantic painting based on open full-text descriptions."
+}
