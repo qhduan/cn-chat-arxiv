@@ -43,96 +43,98 @@
 | [^39] | [Efficient and Accurate Co-Visible Region Localization with Matching Key-Points Crop (MKPC): A Two-Stage Pipeline for Enhancing Image Matching Performance.](http://arxiv.org/abs/2303.13794) | 本文提出了一种特征点裁剪算法(MKPC)来定位、提取和裁剪包含重要信息的共视区域，并提出了一个通用的二阶段管线用于图像匹配，该算法具有高效和准确性，能够提高在户外环境下的图像匹配性能，且比最先进的算法更为优秀。 |
 | [^40] | [Forecasting Competitions with Correlated Events.](http://arxiv.org/abs/2303.13793) | 此论文研究了带有相关事件的预测竞赛，并引入了一个块相关的概念。证明了在具有块相关性的分布下，基于follow-the-regularized-leader(FTRL)的竞赛机制仍然保留了它的$\epsilon$-最优保证。 |
 | [^41] | [Towards Fair Patient-Trial Matching via Patient-Criterion Level Fairness Constraint.](http://arxiv.org/abs/2303.13790) | 本文提出了一个公平的病人-试验匹配框架，通过生成病人准则级别的公平性约束，考虑了包含和排除标准的嵌入差异，有效地解决了病人-试验匹配中的不公平性问题。 |
-| [^42] | [A Graph Neural Network Approach to Nanosatellite Task Scheduling: Insights into Learning Mixed-Integer Models.](http://arxiv.org/abs/2303.13773) | 本研究提出基于GNN的纳米卫星任务调度方法，以更好地优化服务质量，解决ONTS问题的复杂性。 |
-| [^43] | [Unknown Sniffer for Object Detection: Don't Turn a Blind Eye to Unknown Objects.](http://arxiv.org/abs/2303.13769) | 本文提出了未知嗅探器(UnSniffer)，用于同时寻找未知和已知的目标。通过引入广义物体置信度(GOC)分数和负能量抑制损失来提高未知对象在背景中的检测准确率，并解决了在推断过程中难以获得每个未知目标最佳框的问题。 |
-| [^44] | [Edge-free but Structure-aware: Prototype-Guided Knowledge Distillation from GNNs to MLPs.](http://arxiv.org/abs/2303.13763) | 本文提出了一种原型引导知识蒸馏（PGKD）方法，它不需要图形边缘，但可以在不考虑边缘的情况下学习结构感知的MLP。 |
-| [^45] | [Structural Imbalance Aware Graph Augmentation Learning.](http://arxiv.org/abs/2303.13757) | 本文提出了一种选择性图增强方法 (SAug)，通过识别图中的中心节点和尾节点，设计了一种选择性增强策略，可以显著提高图机器学习模型的性能，特别是在学习尾节点时。 |
-| [^46] | [Sparsifiner: Learning Sparse Instance-Dependent Attention for Efficient Vision Transformers.](http://arxiv.org/abs/2303.13755) | 本文分析了ViT算法的计算成本高的问题，并且通过学习实例相关的注意力模式，来提高计算效率 |
-| [^47] | [Leveraging Old Knowledge to Continually Learn New Classes in Medical Images.](http://arxiv.org/abs/2303.13752) | 本研究提出了一个框架，利用动态架构和训练过程交替两个目标的方式，使得机器学习算法在学习新类别时不会灾难性地遗忘已经学习的内容。该研究在医学数据集上取得了优秀的性能表现。 |
-| [^48] | [LONGNN: Spectral GNNs with Learnable Orthonormal Basis.](http://arxiv.org/abs/2303.13750) | 本研究提出了一种谱图神经网络LONGNN，它采用可学习正交标准基，并解决了固定多项式基和非归一化基础所带来的缺陷，经实验证明其在各种图数据集上具有优异的表现。 |
-| [^49] | [FixFit: using parameter-compression to solve the inverse problem in overdetermined models.](http://arxiv.org/abs/2303.13746) | FixFit是一种使用神经网络进行参数压缩的方法，可以解决复杂非线性模型中由于参数之间的相互作用导致的多参数集问题。 |
-| [^50] | [EdgeTran: Co-designing Transformers for Efficient Inference on Mobile Edge Platforms.](http://arxiv.org/abs/2303.13745) | EdgeTran框架旨在设计适用于移动边缘设备且在准确性、延迟、能耗和波峰功耗方面表现优秀的Transformer模型。同时，作者提出了块稀疏训练算法GPTran以帮助优化模型的内存占用和推理效率。 |
-| [^51] | [An investigation of licensing of datasets for machine learning based on the GQM model.](http://arxiv.org/abs/2303.13735) | 机器学习数据集的许可证是一个问题，公开数据集质量不佳，缺乏商业可用性。当前数据集缺少许可证，需要更科学和系统的方法来调查。 |
-| [^52] | [How Does Attention Work in Vision Transformers? A Visual Analytics Attempt.](http://arxiv.org/abs/2303.13731) | 本文采用视觉分析方法回答了ViT中头的重要性、不同头对空间邻居的关注强度、以及每个头学习的注意力模式等问题。 |
-| [^53] | [A Survey on Secure and Private Federated Learning Using Blockchain: Theory and Application in Resource-constrained Computing.](http://arxiv.org/abs/2303.13727) | 基于区块链的安全与隐私联邦学习的综述与应用，旨在探讨如何防止隐私与安全威胁，并减少由资源不足引起的瓶颈问题。 |
-| [^54] | [High Fidelity Image Synthesis With Deep VAEs In Latent Space.](http://arxiv.org/abs/2303.13714) | 该论文提出了一种使用深度VAE在潜空间中进行高保真地图像生成的方法，通过两个阶段的训练，在避免对大部分细节进行建模的基础上，重点学习图像的结构组成，并取得了较好的效果。 |
-| [^55] | [End-to-End Diffusion Latent Optimization Improves Classifier Guidance.](http://arxiv.org/abs/2303.13703) | 本文提出了一种新的分类器引导方法DOODL，它可以通过针对真实生成的像素上预训练分类器的梯度优化扩散潜变来实现即插即用的指导，并在计算和人类评估度量上优于一步分类器指导。 |
-| [^56] | [OFA$^2$: A Multi-Objective Perspective for the Once-for-All Neural Architecture Search.](http://arxiv.org/abs/2303.13683) | OFA$^2$是一个基于多目标优化的神经架构搜索模型，它通过将搜索阶段构想为一个多目标优化问题，并使用已经训练好的神经网络，从而在多个权衡目标之间找到高效和多样化的子网络。 |
-| [^57] | [Clustering based on Mixtures of Sparse Gaussian Processes.](http://arxiv.org/abs/2303.13665) | 本文提出了一种基于稀疏高斯过程混合的聚类方法，同时实现了降维，并且相比于现有方法更具优势。 |
-| [^58] | [Policy Evaluation in Distributional LQR.](http://arxiv.org/abs/2303.13657) | 本文提出了一种新的分布式LQR方法，通过提供一种有效逼近无限多个随机变量的有限一组时刻，解决了DRL中策略评估的挑战，其效果优于竞争方法。 |
-| [^59] | [Building artificial neural circuits for domain-general cognition: a primer on brain-inspired systems-level architecture.](http://arxiv.org/abs/2303.13651) | 本文提供了关于构建领域通用人工智能的思路和原则，通过研究生物神经网络和系统级分布网络通信、递归和短期拓扑变化，为建立人工神经网络提供宝贵指导。 |
-| [^60] | [Adversarial Robustness and Feature Impact Analysis for Driver Drowsiness Detection.](http://arxiv.org/abs/2303.13649) | 本研究发现，对于驾驶员疲劳检测，最可靠的模型是XGB，最佳窗口时间为120至150秒之间。本研究使用SHAP方法选择了18个最具影响力的特征，并训练出新的较小模型以获得与最初模型相同的性能。尽管所有模型都容易受到对抗性攻击的影响，但对抗性训练使它们能够保持更高的对抗鲁棒性。 |
-| [^61] | [Efficient and Direct Inference of Heart Rate Variability using Both Signal Processing and Machine Learning.](http://arxiv.org/abs/2303.13637) | 本论文使用信号处理和机器学习结合的方法，直接推断出心率变异性。在大数据集的评估中，该方法表现出比单独使用信号处理或机器学习更高的准确性。 |
-| [^62] | [PPG-based Heart Rate Estimation with Efficient Sensor Sampling and Learning Models.](http://arxiv.org/abs/2303.13636) | 本文研究了如何将PPG心率估计技术应用于低功耗和资源受限的嵌入式设备中，在结合信号处理和机器学习的基础上，成功将PPG采样频率降至仅25Hz，并提高了心率估计的精度，同时也减小了机器学习模型的特征大小，使得模型更小。 |
-| [^63] | [Low Rank Optimization for Efficient Deep Learning: Making A Balance between Compact Architecture and Fast Training.](http://arxiv.org/abs/2303.13635) | 本文着重研究了低秩优化为基础的深度学习技术，可通过低秩逼近压缩深度神经网络，既减少存储要求又可实现高效快速的训练。通过综合技术，可将以上方法集成到LRI-Net框架中，以共同降低存储和计算成本，且不影响模型准确性。 |
-| [^64] | [Associated Random Neural Networks for Collective Classification of Nodes in Botnet Attacks.](http://arxiv.org/abs/2303.13627) | 本文介绍了一种基于Associated Random Neural Networks的Botnet攻击集成分类技术，它能够识别被攻陷的节点并在个别节点分类方法上进行更多有效的补充。 |
-| [^65] | [Artificial-intelligence-based molecular classification of diffuse gliomas using rapid, label-free optical imaging.](http://arxiv.org/abs/2303.13610) | 本文研究了一种基于人工智能的光学成像技术，可以快速、无标记的对弥漫性胶质瘤进行分子诊断，为其治疗提供更加准确的指导。 |
-| [^66] | [Stochastic Submodular Bandits with Delayed Composite Anonymous Bandit Feedback.](http://arxiv.org/abs/2303.13604) | 本论文研究了具有随机次模收益和全赌徒延迟反馈的组合多臂赌博机问题，研究了三种延迟反馈模型并导出了后悔上限。研究结果表明，算法能够在考虑延迟组合匿名反馈时胜过其他全赌徒方法。 |
-| [^67] | [Une comparaison des algorithmes d'apprentissage pour la survie avec donn\'ees manquantes.](http://arxiv.org/abs/2303.13590) | 本文研究了基于神经网络的生存任务学习算法在缺失数据处理方面的表现，结果显示对于所有情况没有单一的数据插补方法优于其他方法，提出的方法可用于比较其他缺失数据模式和(或)生存模型。 |
-| [^68] | [A Closer Look at Scoring Functions and Generalization Prediction.](http://arxiv.org/abs/2303.13589) | 本文研究了广义误差预测器的有效性，探讨了置信度、局部流形平滑度和模型一致性评分函数的优缺点，发现在复杂机制缺失的情况下，最先进的评分无法在分布转移和损坏下超越简单的模型一致性。同时，在受损训练数据的情况下，模型一致性打分仍然表现良好，并且集成多样性有助于提高泛化性能。 |
-| [^69] | [Efficient Symbolic Reasoning for Neural-Network Verification.](http://arxiv.org/abs/2303.13588) | 本文提出了一种高效的符号推理技术，用于解决神经网络的验证问题。该技术可以编码许多验证问题为二次程序，并将其松弛为半定程序以高效地解决。该框架可以验证各种神经网络属性，并为解决神经网络对对抗攻击的脆弱性问题提供了改进。 |
-| [^70] | [Return of the RNN: Residual Recurrent Networks for Invertible Sentence Embeddings.](http://arxiv.org/abs/2303.13570) | 本研究提出了一种使用残差循环神经网络的新型模型，实现了可逆的句子嵌入。与其他神经机器翻译模型不同，该方法使用基于回归的输出层重建输入序列的单词向量，其具有高准确度和快速训练速度。这种方法适合各种自然语言处理应用，特别是对需要高质量句嵌入的神经网络系统的使用具有潜在优势。 |
-| [^71] | [TinyML: Tools, Applications, Challenges, and Future Research Directions.](http://arxiv.org/abs/2303.13569) | TinyML是一种嵌入式ML技术，可在多种廉价，资源有限和功率有限的设备上实现ML应用。但是，在其实现过程中，需要及时解决多种挑战，例如处理能力优化，提高可靠性以及维护学习模型的准确性。 |
-| [^72] | [Extracting real estate values of rental apartment floor plans using graph convolutional networks.](http://arxiv.org/abs/2303.13568) | 本文使用改进后的方法从大量平面图像中提取访问图，利用图卷积神经网络模型“平面图价值”估计访问图的房地产价值，大幅提高了租金估计的精度。该模型为全面估计平面图的价值提供了新思路。 |
-| [^73] | [Federated Learning on Heterogenous Data using Chest CT.](http://arxiv.org/abs/2303.13567) | 本研究使用联邦学习技术在全球21家医院的10,000多位COVID患者的胸部CT扫描图像数据集上进行了研究，提出了三种联邦学习策略，并提出了结合合成生成数据的联邦学习策略，为医学AI在异构数据上的应用提供了新的解决方案。 |
-| [^74] | [Enhancing Embedding Representations of Biomedical Data using Logic Knowledge.](http://arxiv.org/abs/2303.13566) | 本文提出使用逻辑规则增强生物医学数据的嵌入表示，应用于最具挑战性的PharmKG数据集，并能够处理复杂的实验环境中关系事实之间的依赖性。 |
-| [^75] | [Graph Tensor Networks: An Intuitive Framework for Designing Large-Scale Neural Learning Systems on Multiple Domains.](http://arxiv.org/abs/2303.13565) | 张量数学已经被广泛用于现代深度学习，但在形式化设计和描述神经网络上，还未被充分利用。本文引入了图张量网络（GTN）框架，提供了一个直观而严谨的图形化框架，用于在规则和不规则领域上的大规模神经学习系统上系统地设计和实现，且通用性和灵活性很强。 |
-| [^76] | [Skip Connections in Spiking Neural Networks: An Analysis of Their Effect on Network Training.](http://arxiv.org/abs/2303.13563) | 本文研究了跳跃连接在脉冲神经网络中的作用，并提出了一种优化技术。通过优化跳跃连接的位置、类型和数量等超参数，可以显著提高SNN的准确性和效率，使其收敛更快、信息流更畅。 |
-| [^77] | [Learning unidirectional coupling using echo-state network.](http://arxiv.org/abs/2303.13562) | 本文介绍了利用回声状态网络（ESN）学习单向耦合的能力。仅使用系统的几个时间序列数据进行训练后，ESN可以预测不同驱动信号下响应系统的动态，该方法仅需要一些$A-B$型的时间序列训练数据就足以让ESN学习这种耦合方式。 |
-| [^78] | [Enhancing Unsupervised Speech Recognition with Diffusion GANs.](http://arxiv.org/abs/2303.13559) | 本论文提出了一种基于扩散GAN的增强方法，可用于无监督语音识别任务，实验结果表明该方法在多个数据集上都取得了良好的效果。 |
-| [^79] | [Efficient hybrid modeling and sorption model discovery for non-linear advection-diffusion-sorption systems: A systematic scientific machine learning approach.](http://arxiv.org/abs/2303.13555) | 本研究提出了一种机器学习方法，可用于创建非线性平流-扩散-吸附系统的高效混合模型和发现吸附摄取模型的吸附动力学定律结构。 |
-| [^80] | [CH-Go: Online Go System Based on Chunk Data Storage.](http://arxiv.org/abs/2303.13553) | 该论文提出了一种基于分块数据存储方法的在线围棋游戏系统 CH-Go，可以高效地处理海量数据，并使用神经网络来进行训练。 |
-| [^81] | [Optical Character Recognition and Transcription of Berber Signs from Images in a Low-Resource Language Amazigh.](http://arxiv.org/abs/2303.13549) | 本文介绍了一种名为DaToBS的方法，用于从自然环境中的照片中检测和转录Tifinagh字符，以提高非洲低资源语言阿马齐语在教育、研究和网络应用等方面的支持。 |
-| [^82] | [Hey Dona! Can you help me with student course registration?.](http://arxiv.org/abs/2303.13548) | 本文演示了智能个人助手Dona，用于学生选课的自动化操作，采用语音输入、任务规划优化和语言翻译等技术，使学生不需要自己完成复杂的选课表格。 |
-| [^83] | [Labeled Subgraph Entropy Kernel.](http://arxiv.org/abs/2303.13543) | 本文提出了一种新的标记子图熵图核，它具有较好的结构相似性评估性能，采用了动态规划子图枚举算法有效减少了时间复杂度，同时提出了标记子图来丰富子结构拓扑，用全局图熵来描述网络，已应用于多个真实数据集，并能对不同任务产生良好效果。 |
-| [^84] | [Artificial Intelligence for Sustainability: Facilitating Sustainable Smart Product-Service Systems with Computer Vision.](http://arxiv.org/abs/2303.13540) | 本论文在可持续性方面的主要贡献是使用深度学习技术提高产品生产和使用的可持续性，通过计算机视觉技术检测产品的磨损状态并用于改进智能产品-服务系统的集成和结果取向。 |
-| [^85] | [Decentralized Multi-Agent Reinforcement Learning for Continuous-Space Stochastic Games.](http://arxiv.org/abs/2303.13539) | 本研究提出了一种分布式的多智能体强化学习算法，证明了其在连续空间随机博弈中的策略更新接近最优，同时推导了一般类算法的全局策略更新动态。 |
-| [^86] | [Bluetooth and WiFi Dataset for Real World RF Fingerprinting of Commercial Devices.](http://arxiv.org/abs/2303.13538) | 该论文捕获了首个公开可访问的商用设备真实射频指纹数据集，这对于识别非法或未授权发射器具有重要意义。 |
-| [^87] | [Towards risk-informed PBSHM: Populations as hierarchical systems.](http://arxiv.org/abs/2303.13533) | PBSHM是一种新的结构健康监测方法，它通过对结构群体进行监测，将有价值的知识在结构实例之间传递，从而提高了决策的准确性和泛化能力。 |
-| [^88] | [Enhancing Peak Network Traffic Prediction via Time-Series Decomposition.](http://arxiv.org/abs/2303.13529) | 本文通过将时间序列数据分解为趋势、季节性和噪声三个部分，并分别预测峰值流量，提高了峰值网络流量预测的能力。 |
-| [^89] | [Uncertainty-Aware Workload Prediction in Cloud Computing.](http://arxiv.org/abs/2303.13525) | 本文提出单变量和双变量贝叶斯深度学习模型，用于在云计算中预测未来的资源需求及其不确定性，并探讨不同的训练方式对预测准确性的影响。 |
-| [^90] | [Neural Preset for Color Style Transfer.](http://arxiv.org/abs/2303.13511) | 本文提出了一种名为神经预设的技术，通过确定性神经颜色映射方法（DNCM）和两阶段流水线实现高质量的颜色风格转移，并且具有各种优势。 |
-| [^91] | [Adaptive Regularization for Class-Incremental Learning.](http://arxiv.org/abs/2303.13113) | 本文研究了适应性正则化在类增量学习中的应用，通过根据任务复杂度动态调整正则化强度，在学习新类别同时防止遗忘之前学习的类别。实验表明适应性正则化可以实现更加准确和不易遗忘的视觉增量学习。 |
-| [^92] | [Lower Bound on the Bayesian Risk via Information Measure.](http://arxiv.org/abs/2303.12497) | 新提出一种方法计算贝叶斯风险下界，允许使用几乎任何信息度量，能提供与估计器无关的不可能结果。已应用于离散和连续参数问题，与最先进的技术进行了比较。 |
-| [^93] | [Neural networks trained on synthetically generated crystals can extract structural information from ICSD powder X-ray diffractograms.](http://arxiv.org/abs/2303.11699) | 本研究提出了一种使用合成晶体数据集，通过神经网络从ICSD粉末X射线衍射图中提取结构信息的方法，并且在空间群分类任务上，取得了比直接在ICSD晶体上进行训练更高的准确度。 |
-| [^94] | [Convergence of stochastic gradient descent on parameterized sphere with applications to variational Monte Carlo simulation.](http://arxiv.org/abs/2303.11602) | 本论文在高维度球体上，通过神经网络参数化，使用SGD算法在监督学习和无监督学习中，提供了一种新算法，并且证明了其收敛性。 |
-| [^95] | [Dynamic-Aware Loss for Learning with Label Noise.](http://arxiv.org/abs/2303.11562) | 本文提出一种动态感知损失函数，采用增强拟合能力，逐渐增加鲁棒性的权重来处理标签噪声。在后期阶段，引入自举项，让DNN更加重视容易的样例，证明了这种方法的优越性。 |
-| [^96] | [ERSAM: Neural Architecture Search For Energy-Efficient and Real-Time Social Ambiance Measurement.](http://arxiv.org/abs/2303.10727) | 本文提出了一种面向能源高效性和实时性的社交氛围测量神经网络架构搜索框架ERSAM。该框架可以自动搜索适合SAM任务的神经网络架构，并满足能源效率、实时处理和有限标签数据的要求。在基准数据集上，该框架优于现有解决方案，具有更好的精度和效率。 |
-| [^97] | [DBSCAN of Multi-Slice Clustering for three-order Tensor.](http://arxiv.org/abs/2303.07768) | 本文提出了 MSC-DBSCAN扩展算法，可以在三元聚类中从数据中提取不同子空间的不同切片聚类，并可以获得与 MSC 算法在处理秩一张量数据时相同的解决方案。 |
-| [^98] | [Investigating Catastrophic Overfitting in Fast Adversarial Training: A Self-fitting Perspective.](http://arxiv.org/abs/2302.11963) | 本文首次将单步对抗示例分解为数据信息和自信息，揭示了一种有趣的现象，称为“自我拟合”，即网络学习单步扰动中嵌入的自信息，导致灾难性过拟合。 |
-| [^99] | [An Operational Perspective to Fairness Interventions: Where and How to Intervene.](http://arxiv.org/abs/2302.01574) | 该论文提出了一个平衡预测性能、跨组差异、保护敏感群组属性和工程成本的全面框架，探讨了公平性干预的“何时”和“如何”，同时通过预测平等的案例研究，展示了一种新的方法。 |
-| [^100] | [Real-Time Evaluation in Online Continual Learning: A New Hope.](http://arxiv.org/abs/2302.01047) | 该研究针对现实环境中的连续学习提出了一种实时评估方法，并在包含3900万个时间戳标记图像的大型数据集CLOC上进行了实验。结果表明，简单的基线模型胜过了最先进的CL方法，证明现有方法在现实环境下的适用性存在问题。 |
-| [^101] | [One Model for All Domains: Collaborative Domain-Prefix Tuning for Cross-Domain NER.](http://arxiv.org/abs/2301.10410) | 本论文提出了基于协作域前缀调整的跨领域实体识别，使用文本到文本生成的支撑领域相关指导来将知识转移至新域NER任务，避免了先前的为每个领域结束一个全新的NER模型的问题。 |
-| [^102] | [Deep Conditional Measure Quantization.](http://arxiv.org/abs/2301.06907) | 提出了一种名为DCMQ的方法，该方法结合了基于Huber能量核的方法和深度神经网络架构，用于条件测度量化，并在多个实例中取得了有希望的结果。 |
-| [^103] | [Detection of out-of-distribution samples using binary neuron activation patterns.](http://arxiv.org/abs/2212.14268) | 本文提出了一种检测样本分布情况的新方法，该方法利用神经元激活模式，通过二进制表示提取卷积层的激活模式，具有更高的检测准确度。 |
-| [^104] | [Towards Scalable Physically Consistent Neural Networks: an Application to Data-driven Multi-zone Thermal Building Models.](http://arxiv.org/abs/2212.12380) | 本论文研究了物理一致神经网络(PCNNs) 在模拟建筑温度动态方面的扩展性和准确性。结果发现，PCNNs既确保了物理一致性，同时又能在复杂的多区域热建筑模型中取得高精度的性能表现，且在可用数据量有限的情况下超越经典灰盒模型，具有可扩展性优势。 |
-| [^105] | [POTATO: The Portable Text Annotation Tool.](http://arxiv.org/abs/2212.08620) | POTATO是一个免费、开源的便携式文本注释工具，支持多种类型的文本和多模态数据的标注，提供易于配置的功能以最大化生产力，特别是对于长文档和复杂任务。 |
-| [^106] | [FlexiViT: One Model for All Patch Sizes.](http://arxiv.org/abs/2212.08013) | 本文介绍了一种名为FlexiViT的模型，它可以使用一组权重表现良好，并且适用于各种补丁大小，从而使其在部署时容易根据不同的计算预算来定制模型。 |
-| [^107] | [Misspecification in Inverse Reinforcement Learning.](http://arxiv.org/abs/2212.03201) | 本文研究了逆强化学习中的错误规范问题，探讨了不同模型与演示策略之间的偏差，以及在何种情况下模型会导致误导性推断。 |
-| [^108] | [Convolution, aggregation and attention based deep neural networks for accelerating simulations in mechanics.](http://arxiv.org/abs/2212.01386) | 本研究探讨了基于卷积、聚合和注意力的深度神经网络架构，为学习固体变形的高度非线性变化提供了有效解决方案，并在两个基准示例上取得了良好性能。 |
-| [^109] | [MHCCL: Masked Hierarchical Cluster-Wise Contrastive Learning for Multivariate Time Series.](http://arxiv.org/abs/2212.01141) | 本文提出了一种名为MHCCL的对比学习模型，可以从多元时间序列数据中学习语义丰富的表示，并利用层次聚类结构中的多粒度信息来滤除虚假负样本和补充正样本。 |
-| [^110] | [Towards Dynamic Causal Discovery with Rare Events: A Nonparametric Conditional Independence Test.](http://arxiv.org/abs/2211.16596) | 该论文提出了一种针对稀有事件的新的因果发现方法，基于收集到的时间不变动态系统的数据，构建了叠加数据集和条件独立性检验的方法。该方法能够揭示在变量第一次经历低概率实现时才会显现的因果关系，具有很好的可行性和可扩展性。 |
-| [^111] | [RUST: Latent Neural Scene Representations from Unposed Imagery.](http://arxiv.org/abs/2211.14306) | 该论文提出了一种无需摆姿势的新视角合成方法RUST，通过训练一个姿势编码器学习图像中的潜在姿态嵌入，可有效地推广到多个场景和提高视觉质量，优于最先进的无监督方法。 |
-| [^112] | [Broken Neural Scaling Laws.](http://arxiv.org/abs/2210.14891) | 本文提出了一个平滑破碎的幂律函数形式，可以准确地模拟和外推深度神经网络的缩放行为，适用于各种架构和大量不同任务，包括视觉、语言、音频、视频、生成建模、对比学习、机器人、不确定性估计/校准、对抗鲁棒性、分子、计算机编程/编码、数学单词问题、算术、无监督/自监督学习和强化学习。 |
-| [^113] | [Less Emphasis on Difficult Layer Regions: Curriculum Learning for Singularly Perturbed Convection-Diffusion-Reaction Problems.](http://arxiv.org/abs/2210.12685) | 提出了一种基于课程学习的新的优化方法，让神经网络优先学习容易的区域，减少对难的区域的学习，从而提高对奇异摄动对流扩散反应问题的预测精度。 |
-| [^114] | [When and why vision-language models behave like bags-of-words, and what to do about it?.](http://arxiv.org/abs/2210.01936) | 针对大型视觉语言模型在编码组合信息方面的表现存在问题，我们创建了Attribution、Relation和Order（ARO）基准，并提出了对VLMs进行Attention机制和对抗训练等修改以提高其组合理解能力。 |
-| [^115] | [Implicit Bias of Large Depth Networks: a Notion of Rank for Nonlinear Functions.](http://arxiv.org/abs/2209.15055) | 本文研究了全连接神经网络的表示成本和深度之间的关系，发现其会收敛到非线性函数的秩的概念。同时，发现在一定的深度范围内，全局最小值可以恢复真实的数据秩，并探讨了分类器秩对类边界拓扑结构的影响。 |
-| [^116] | [Continuous Mixtures of Tractable Probabilistic Models.](http://arxiv.org/abs/2209.10584) | 本文研究了一种连续混合的方法，将可计算概率模型和基于连续潜空间的模型结合起来，从而实现了高效的概率推断。 |
-| [^117] | [TrojViT: Trojan Insertion in Vision Transformers.](http://arxiv.org/abs/2208.13049) | 本文提出了一种针对视觉Transformer的隐秘实用的后门攻击方法TrojViT，通过补丁级触发器将一些易受攻击位组成的参数建立为特洛伊木马。 |
-| [^118] | [Towards Efficient Use of Multi-Scale Features in Transformer-Based Object Detectors.](http://arxiv.org/abs/2208.11356) | 本文提出了一种在基于Transformer的目标检测器中，通过两个新的设计实现了多尺度特征的高效利用，其核心思想是通过稀疏采样多尺度特征，以减少计算成本，同时保证了目标检测性能。 |
-| [^119] | [The Integration of Machine Learning into Automated Test Generation: A Systematic Mapping Study.](http://arxiv.org/abs/2206.10210) | 该论文研究了将机器学习应用于自动化测试生成的方法，并总结了目前的研究进展、应用和挑战。其中监督学习和强化学习是主要的技术方法。 |
-| [^120] | [Efficient decentralized multi-agent learning in asymmetric bipartite queueing systems.](http://arxiv.org/abs/2206.03324) | 该论文提出了一种简单的学习算法，使得在非对称二分排队系统中实现了高效的性能，并具备附加的鲁棒性质，并且提供了该问题的集中式情况下的首个经过证明的有效的UCB算法。 |
-| [^121] | [On the Symmetries of Deep Learning Models and their Internal Representations.](http://arxiv.org/abs/2205.14258) | 本文研究了深度学习模型及其内部表示的对称性，发现网络的对称性传播到数据的表示中的对称性，为更好地理解架构影响学习和预测过程提供了一种方法。 |
-| [^122] | [Continual Spatio-Temporal Graph Convolutional Networks.](http://arxiv.org/abs/2203.11009) | 本文提出了一种连续时空图卷积神经网络（CoST-GCN）来解决基于图的方法在在线推理设置中应用时重复计算的问题，相比之前的方法最多可将时间复杂度减少109倍。 |
-| [^123] | [Euler State Networks: Non-dissipative Reservoir Computing.](http://arxiv.org/abs/2203.09382) | 本文提出了一种新型水库计算模型EuSN，其利用前向欧拉离散化和反对称循环矩阵来设计水库动力学，具有接近稳定边缘的饱和有效谱半径和零局部李雅普诺夫指数。在长期记忆任务和时间序列分类基准测试中表现出了优异的性能。 |
-| [^124] | [Query Efficient Decision Based Sparse Attacks Against Black-Box Deep Learning Models.](http://arxiv.org/abs/2202.00091) | 研究提出了基于决策的稀疏攻击方法SparseEvo，通过最小化扰动的像素数量，能够有效地欺骗黑盒深度学习模型，而不需要了解它的内部构造。 |
-| [^125] | [Coordinate Descent Methods for Fractional Minimization.](http://arxiv.org/abs/2201.12691) | 本文提出两种坐标下降方法，用于解决具有结构化约束的分数规划问题，并保证收敛到逐坐标静态点。 |
-| [^126] | [Augmented RBMLE-UCB Approach for Adaptive Control of Linear Quadratic Systems.](http://arxiv.org/abs/2201.10542) | 本文提出一种增强式RBMLE-UCB算法，将RBMLE方法的惩罚与UCB方法的约束相结合，解决了自适应LQ控制问题。在噪声较高或样本数较少时，该算法表现更优。 |
-| [^127] | [Decompositional Quantum Graph Neural Network.](http://arxiv.org/abs/2201.05158) | 本论文提出了一种新型的基于量子计算的神经网络，能够处理基于图的数据，通过使用自我图和张量积降低模型参数数量，提出一种从现实世界数据到希尔伯特空间的新型映射方式。 |
-| [^128] | [DeBERTaV3: Improving DeBERTa using ELECTRA-Style Pre-Training with Gradient-Disentangled Embedding Sharing.](http://arxiv.org/abs/2111.09543) | 本论文介绍了一种新的预训练语言模型DeBERTaV3，使用更加样本有效的替换令牌检测（RTD）取代了掩码语言建模（MLM）并提出了一种新的梯度去耦合嵌入共享方法，避免了“拔河”动态，提高了预训练模型的训练效率和质量。在多个下游自然语言理解任务中，DeBERTaV3表现出优秀的性能。 |
-| [^129] | [Efficient Algorithms for Learning from Coarse Labels.](http://arxiv.org/abs/2108.09805) | 本文研究了从粗糙数据中学习的问题，提出了一种高效的算法，只需足够信息的粗标签即可在从细标签中学习的任何问题上进行学习。 |
-| [^130] | [Local Clustering in Contextual Multi-Armed Bandits.](http://arxiv.org/abs/2103.00063) | 本文提出了一种基于未知赌博机参数的本地聚类策略，用于上下文多臂赌博机中的用户聚类问题。该算法在内容推荐和定向广告中具有重要应用价值，并在实验中表现出较高的性能。 |
-| [^131] | [Near Optimal Adversarial Attack on UCB Bandits.](http://arxiv.org/abs/2008.09312) | 本文提出了一种在对抗攻击下的UCB最优拉臂策略，成本为$\sqrt{\log T}$，并且证明了此攻击策略近乎是最优的。 |
+| [^42] | [GSplit: Scaling Graph Neural Network Training on Large Graphs via Split-Parallelism.](http://arxiv.org/abs/2303.13775) | 本文提出了一种新的并行小批量训练方法，即分裂并行，应用在图神经网络训练上，能有效缓解数据并行方法的性能瓶颈，同时在大规模图上的性能表现优越。 |
+| [^43] | [A Graph Neural Network Approach to Nanosatellite Task Scheduling: Insights into Learning Mixed-Integer Models.](http://arxiv.org/abs/2303.13773) | 本研究提出基于GNN的纳米卫星任务调度方法，以更好地优化服务质量，解决ONTS问题的复杂性。 |
+| [^44] | [Unknown Sniffer for Object Detection: Don't Turn a Blind Eye to Unknown Objects.](http://arxiv.org/abs/2303.13769) | 本文提出了未知嗅探器(UnSniffer)，用于同时寻找未知和已知的目标。通过引入广义物体置信度(GOC)分数和负能量抑制损失来提高未知对象在背景中的检测准确率，并解决了在推断过程中难以获得每个未知目标最佳框的问题。 |
+| [^45] | [Edge-free but Structure-aware: Prototype-Guided Knowledge Distillation from GNNs to MLPs.](http://arxiv.org/abs/2303.13763) | 本文提出了一种原型引导知识蒸馏（PGKD）方法，它不需要图形边缘，但可以在不考虑边缘的情况下学习结构感知的MLP。 |
+| [^46] | [Structural Imbalance Aware Graph Augmentation Learning.](http://arxiv.org/abs/2303.13757) | 本文提出了一种选择性图增强方法 (SAug)，通过识别图中的中心节点和尾节点，设计了一种选择性增强策略，可以显著提高图机器学习模型的性能，特别是在学习尾节点时。 |
+| [^47] | [Sparsifiner: Learning Sparse Instance-Dependent Attention for Efficient Vision Transformers.](http://arxiv.org/abs/2303.13755) | 本文分析了ViT算法的计算成本高的问题，并且通过学习实例相关的注意力模式，来提高计算效率 |
+| [^48] | [Leveraging Old Knowledge to Continually Learn New Classes in Medical Images.](http://arxiv.org/abs/2303.13752) | 本研究提出了一个框架，利用动态架构和训练过程交替两个目标的方式，使得机器学习算法在学习新类别时不会灾难性地遗忘已经学习的内容。该研究在医学数据集上取得了优秀的性能表现。 |
+| [^49] | [LONGNN: Spectral GNNs with Learnable Orthonormal Basis.](http://arxiv.org/abs/2303.13750) | 本研究提出了一种谱图神经网络LONGNN，它采用可学习正交标准基，并解决了固定多项式基和非归一化基础所带来的缺陷，经实验证明其在各种图数据集上具有优异的表现。 |
+| [^50] | [FixFit: using parameter-compression to solve the inverse problem in overdetermined models.](http://arxiv.org/abs/2303.13746) | FixFit是一种使用神经网络进行参数压缩的方法，可以解决复杂非线性模型中由于参数之间的相互作用导致的多参数集问题。 |
+| [^51] | [EdgeTran: Co-designing Transformers for Efficient Inference on Mobile Edge Platforms.](http://arxiv.org/abs/2303.13745) | EdgeTran框架旨在设计适用于移动边缘设备且在准确性、延迟、能耗和波峰功耗方面表现优秀的Transformer模型。同时，作者提出了块稀疏训练算法GPTran以帮助优化模型的内存占用和推理效率。 |
+| [^52] | [An investigation of licensing of datasets for machine learning based on the GQM model.](http://arxiv.org/abs/2303.13735) | 机器学习数据集的许可证是一个问题，公开数据集质量不佳，缺乏商业可用性。当前数据集缺少许可证，需要更科学和系统的方法来调查。 |
+| [^53] | [How Does Attention Work in Vision Transformers? A Visual Analytics Attempt.](http://arxiv.org/abs/2303.13731) | 本文采用视觉分析方法回答了ViT中头的重要性、不同头对空间邻居的关注强度、以及每个头学习的注意力模式等问题。 |
+| [^54] | [A Survey on Secure and Private Federated Learning Using Blockchain: Theory and Application in Resource-constrained Computing.](http://arxiv.org/abs/2303.13727) | 基于区块链的安全与隐私联邦学习的综述与应用，旨在探讨如何防止隐私与安全威胁，并减少由资源不足引起的瓶颈问题。 |
+| [^55] | [High Fidelity Image Synthesis With Deep VAEs In Latent Space.](http://arxiv.org/abs/2303.13714) | 该论文提出了一种使用深度VAE在潜空间中进行高保真地图像生成的方法，通过两个阶段的训练，在避免对大部分细节进行建模的基础上，重点学习图像的结构组成，并取得了较好的效果。 |
+| [^56] | [End-to-End Diffusion Latent Optimization Improves Classifier Guidance.](http://arxiv.org/abs/2303.13703) | 本文提出了一种新的分类器引导方法DOODL，它可以通过针对真实生成的像素上预训练分类器的梯度优化扩散潜变来实现即插即用的指导，并在计算和人类评估度量上优于一步分类器指导。 |
+| [^57] | [OFA$^2$: A Multi-Objective Perspective for the Once-for-All Neural Architecture Search.](http://arxiv.org/abs/2303.13683) | OFA$^2$是一个基于多目标优化的神经架构搜索模型，它通过将搜索阶段构想为一个多目标优化问题，并使用已经训练好的神经网络，从而在多个权衡目标之间找到高效和多样化的子网络。 |
+| [^58] | [Clustering based on Mixtures of Sparse Gaussian Processes.](http://arxiv.org/abs/2303.13665) | 本文提出了一种基于稀疏高斯过程混合的聚类方法，同时实现了降维，并且相比于现有方法更具优势。 |
+| [^59] | [Policy Evaluation in Distributional LQR.](http://arxiv.org/abs/2303.13657) | 本文提出了一种新的分布式LQR方法，通过提供一种有效逼近无限多个随机变量的有限一组时刻，解决了DRL中策略评估的挑战，其效果优于竞争方法。 |
+| [^60] | [Building artificial neural circuits for domain-general cognition: a primer on brain-inspired systems-level architecture.](http://arxiv.org/abs/2303.13651) | 本文提供了关于构建领域通用人工智能的思路和原则，通过研究生物神经网络和系统级分布网络通信、递归和短期拓扑变化，为建立人工神经网络提供宝贵指导。 |
+| [^61] | [Adversarial Robustness and Feature Impact Analysis for Driver Drowsiness Detection.](http://arxiv.org/abs/2303.13649) | 本研究发现，对于驾驶员疲劳检测，最可靠的模型是XGB，最佳窗口时间为120至150秒之间。本研究使用SHAP方法选择了18个最具影响力的特征，并训练出新的较小模型以获得与最初模型相同的性能。尽管所有模型都容易受到对抗性攻击的影响，但对抗性训练使它们能够保持更高的对抗鲁棒性。 |
+| [^62] | [Efficient and Direct Inference of Heart Rate Variability using Both Signal Processing and Machine Learning.](http://arxiv.org/abs/2303.13637) | 本论文使用信号处理和机器学习结合的方法，直接推断出心率变异性。在大数据集的评估中，该方法表现出比单独使用信号处理或机器学习更高的准确性。 |
+| [^63] | [PPG-based Heart Rate Estimation with Efficient Sensor Sampling and Learning Models.](http://arxiv.org/abs/2303.13636) | 本文研究了如何将PPG心率估计技术应用于低功耗和资源受限的嵌入式设备中，在结合信号处理和机器学习的基础上，成功将PPG采样频率降至仅25Hz，并提高了心率估计的精度，同时也减小了机器学习模型的特征大小，使得模型更小。 |
+| [^64] | [Low Rank Optimization for Efficient Deep Learning: Making A Balance between Compact Architecture and Fast Training.](http://arxiv.org/abs/2303.13635) | 本文着重研究了低秩优化为基础的深度学习技术，可通过低秩逼近压缩深度神经网络，既减少存储要求又可实现高效快速的训练。通过综合技术，可将以上方法集成到LRI-Net框架中，以共同降低存储和计算成本，且不影响模型准确性。 |
+| [^65] | [Physics-informed PointNet: On how many irregular geometries can it solve an inverse problem simultaneously? Application to linear elasticity.](http://arxiv.org/abs/2303.13634) | 本文提出了一种物理学指导的神经网络模型PIPN，它能利用稀疏标记数据同时预测所需偏微分方程在数百个不同的几何体上的解，有望在工业界进行快速的几何设计。 |
+| [^66] | [Associated Random Neural Networks for Collective Classification of Nodes in Botnet Attacks.](http://arxiv.org/abs/2303.13627) | 本文介绍了一种基于Associated Random Neural Networks的Botnet攻击集成分类技术，它能够识别被攻陷的节点并在个别节点分类方法上进行更多有效的补充。 |
+| [^67] | [Artificial-intelligence-based molecular classification of diffuse gliomas using rapid, label-free optical imaging.](http://arxiv.org/abs/2303.13610) | 本文研究了一种基于人工智能的光学成像技术，可以快速、无标记的对弥漫性胶质瘤进行分子诊断，为其治疗提供更加准确的指导。 |
+| [^68] | [Stochastic Submodular Bandits with Delayed Composite Anonymous Bandit Feedback.](http://arxiv.org/abs/2303.13604) | 本论文研究了具有随机次模收益和全赌徒延迟反馈的组合多臂赌博机问题，研究了三种延迟反馈模型并导出了后悔上限。研究结果表明，算法能够在考虑延迟组合匿名反馈时胜过其他全赌徒方法。 |
+| [^69] | [Une comparaison des algorithmes d'apprentissage pour la survie avec donn\'ees manquantes.](http://arxiv.org/abs/2303.13590) | 本文研究了基于神经网络的生存任务学习算法在缺失数据处理方面的表现，结果显示对于所有情况没有单一的数据插补方法优于其他方法，提出的方法可用于比较其他缺失数据模式和(或)生存模型。 |
+| [^70] | [A Closer Look at Scoring Functions and Generalization Prediction.](http://arxiv.org/abs/2303.13589) | 本文研究了广义误差预测器的有效性，探讨了置信度、局部流形平滑度和模型一致性评分函数的优缺点，发现在复杂机制缺失的情况下，最先进的评分无法在分布转移和损坏下超越简单的模型一致性。同时，在受损训练数据的情况下，模型一致性打分仍然表现良好，并且集成多样性有助于提高泛化性能。 |
+| [^71] | [Efficient Symbolic Reasoning for Neural-Network Verification.](http://arxiv.org/abs/2303.13588) | 本文提出了一种高效的符号推理技术，用于解决神经网络的验证问题。该技术可以编码许多验证问题为二次程序，并将其松弛为半定程序以高效地解决。该框架可以验证各种神经网络属性，并为解决神经网络对对抗攻击的脆弱性问题提供了改进。 |
+| [^72] | [Return of the RNN: Residual Recurrent Networks for Invertible Sentence Embeddings.](http://arxiv.org/abs/2303.13570) | 本研究提出了一种使用残差循环神经网络的新型模型，实现了可逆的句子嵌入。与其他神经机器翻译模型不同，该方法使用基于回归的输出层重建输入序列的单词向量，其具有高准确度和快速训练速度。这种方法适合各种自然语言处理应用，特别是对需要高质量句嵌入的神经网络系统的使用具有潜在优势。 |
+| [^73] | [TinyML: Tools, Applications, Challenges, and Future Research Directions.](http://arxiv.org/abs/2303.13569) | TinyML是一种嵌入式ML技术，可在多种廉价，资源有限和功率有限的设备上实现ML应用。但是，在其实现过程中，需要及时解决多种挑战，例如处理能力优化，提高可靠性以及维护学习模型的准确性。 |
+| [^74] | [Extracting real estate values of rental apartment floor plans using graph convolutional networks.](http://arxiv.org/abs/2303.13568) | 本文使用改进后的方法从大量平面图像中提取访问图，利用图卷积神经网络模型“平面图价值”估计访问图的房地产价值，大幅提高了租金估计的精度。该模型为全面估计平面图的价值提供了新思路。 |
+| [^75] | [Federated Learning on Heterogenous Data using Chest CT.](http://arxiv.org/abs/2303.13567) | 本研究使用联邦学习技术在全球21家医院的10,000多位COVID患者的胸部CT扫描图像数据集上进行了研究，提出了三种联邦学习策略，并提出了结合合成生成数据的联邦学习策略，为医学AI在异构数据上的应用提供了新的解决方案。 |
+| [^76] | [Enhancing Embedding Representations of Biomedical Data using Logic Knowledge.](http://arxiv.org/abs/2303.13566) | 本文提出使用逻辑规则增强生物医学数据的嵌入表示，应用于最具挑战性的PharmKG数据集，并能够处理复杂的实验环境中关系事实之间的依赖性。 |
+| [^77] | [Graph Tensor Networks: An Intuitive Framework for Designing Large-Scale Neural Learning Systems on Multiple Domains.](http://arxiv.org/abs/2303.13565) | 张量数学已经被广泛用于现代深度学习，但在形式化设计和描述神经网络上，还未被充分利用。本文引入了图张量网络（GTN）框架，提供了一个直观而严谨的图形化框架，用于在规则和不规则领域上的大规模神经学习系统上系统地设计和实现，且通用性和灵活性很强。 |
+| [^78] | [Skip Connections in Spiking Neural Networks: An Analysis of Their Effect on Network Training.](http://arxiv.org/abs/2303.13563) | 本文研究了跳跃连接在脉冲神经网络中的作用，并提出了一种优化技术。通过优化跳跃连接的位置、类型和数量等超参数，可以显著提高SNN的准确性和效率，使其收敛更快、信息流更畅。 |
+| [^79] | [Learning unidirectional coupling using echo-state network.](http://arxiv.org/abs/2303.13562) | 本文介绍了利用回声状态网络（ESN）学习单向耦合的能力。仅使用系统的几个时间序列数据进行训练后，ESN可以预测不同驱动信号下响应系统的动态，该方法仅需要一些$A-B$型的时间序列训练数据就足以让ESN学习这种耦合方式。 |
+| [^80] | [Enhancing Unsupervised Speech Recognition with Diffusion GANs.](http://arxiv.org/abs/2303.13559) | 本论文提出了一种基于扩散GAN的增强方法，可用于无监督语音识别任务，实验结果表明该方法在多个数据集上都取得了良好的效果。 |
+| [^81] | [Efficient hybrid modeling and sorption model discovery for non-linear advection-diffusion-sorption systems: A systematic scientific machine learning approach.](http://arxiv.org/abs/2303.13555) | 本研究提出了一种机器学习方法，可用于创建非线性平流-扩散-吸附系统的高效混合模型和发现吸附摄取模型的吸附动力学定律结构。 |
+| [^82] | [CH-Go: Online Go System Based on Chunk Data Storage.](http://arxiv.org/abs/2303.13553) | 该论文提出了一种基于分块数据存储方法的在线围棋游戏系统 CH-Go，可以高效地处理海量数据，并使用神经网络来进行训练。 |
+| [^83] | [Optical Character Recognition and Transcription of Berber Signs from Images in a Low-Resource Language Amazigh.](http://arxiv.org/abs/2303.13549) | 本文介绍了一种名为DaToBS的方法，用于从自然环境中的照片中检测和转录Tifinagh字符，以提高非洲低资源语言阿马齐语在教育、研究和网络应用等方面的支持。 |
+| [^84] | [Hey Dona! Can you help me with student course registration?.](http://arxiv.org/abs/2303.13548) | 本文演示了智能个人助手Dona，用于学生选课的自动化操作，采用语音输入、任务规划优化和语言翻译等技术，使学生不需要自己完成复杂的选课表格。 |
+| [^85] | [Labeled Subgraph Entropy Kernel.](http://arxiv.org/abs/2303.13543) | 本文提出了一种新的标记子图熵图核，它具有较好的结构相似性评估性能，采用了动态规划子图枚举算法有效减少了时间复杂度，同时提出了标记子图来丰富子结构拓扑，用全局图熵来描述网络，已应用于多个真实数据集，并能对不同任务产生良好效果。 |
+| [^86] | [Artificial Intelligence for Sustainability: Facilitating Sustainable Smart Product-Service Systems with Computer Vision.](http://arxiv.org/abs/2303.13540) | 本论文在可持续性方面的主要贡献是使用深度学习技术提高产品生产和使用的可持续性，通过计算机视觉技术检测产品的磨损状态并用于改进智能产品-服务系统的集成和结果取向。 |
+| [^87] | [Decentralized Multi-Agent Reinforcement Learning for Continuous-Space Stochastic Games.](http://arxiv.org/abs/2303.13539) | 本研究提出了一种分布式的多智能体强化学习算法，证明了其在连续空间随机博弈中的策略更新接近最优，同时推导了一般类算法的全局策略更新动态。 |
+| [^88] | [Bluetooth and WiFi Dataset for Real World RF Fingerprinting of Commercial Devices.](http://arxiv.org/abs/2303.13538) | 该论文捕获了首个公开可访问的商用设备真实射频指纹数据集，这对于识别非法或未授权发射器具有重要意义。 |
+| [^89] | [Towards risk-informed PBSHM: Populations as hierarchical systems.](http://arxiv.org/abs/2303.13533) | PBSHM是一种新的结构健康监测方法，它通过对结构群体进行监测，将有价值的知识在结构实例之间传递，从而提高了决策的准确性和泛化能力。 |
+| [^90] | [Enhancing Peak Network Traffic Prediction via Time-Series Decomposition.](http://arxiv.org/abs/2303.13529) | 本文通过将时间序列数据分解为趋势、季节性和噪声三个部分，并分别预测峰值流量，提高了峰值网络流量预测的能力。 |
+| [^91] | [Uncertainty-Aware Workload Prediction in Cloud Computing.](http://arxiv.org/abs/2303.13525) | 本文提出单变量和双变量贝叶斯深度学习模型，用于在云计算中预测未来的资源需求及其不确定性，并探讨不同的训练方式对预测准确性的影响。 |
+| [^92] | [Neural Preset for Color Style Transfer.](http://arxiv.org/abs/2303.13511) | 本文提出了一种名为神经预设的技术，通过确定性神经颜色映射方法（DNCM）和两阶段流水线实现高质量的颜色风格转移，并且具有各种优势。 |
+| [^93] | [Adaptive Regularization for Class-Incremental Learning.](http://arxiv.org/abs/2303.13113) | 本文研究了适应性正则化在类增量学习中的应用，通过根据任务复杂度动态调整正则化强度，在学习新类别同时防止遗忘之前学习的类别。实验表明适应性正则化可以实现更加准确和不易遗忘的视觉增量学习。 |
+| [^94] | [Lower Bound on the Bayesian Risk via Information Measure.](http://arxiv.org/abs/2303.12497) | 新提出一种方法计算贝叶斯风险下界，允许使用几乎任何信息度量，能提供与估计器无关的不可能结果。已应用于离散和连续参数问题，与最先进的技术进行了比较。 |
+| [^95] | [Neural networks trained on synthetically generated crystals can extract structural information from ICSD powder X-ray diffractograms.](http://arxiv.org/abs/2303.11699) | 本研究提出了一种使用合成晶体数据集，通过神经网络从ICSD粉末X射线衍射图中提取结构信息的方法，并且在空间群分类任务上，取得了比直接在ICSD晶体上进行训练更高的准确度。 |
+| [^96] | [Convergence of stochastic gradient descent on parameterized sphere with applications to variational Monte Carlo simulation.](http://arxiv.org/abs/2303.11602) | 本论文在高维度球体上，通过神经网络参数化，使用SGD算法在监督学习和无监督学习中，提供了一种新算法，并且证明了其收敛性。 |
+| [^97] | [Dynamic-Aware Loss for Learning with Label Noise.](http://arxiv.org/abs/2303.11562) | 本文提出一种动态感知损失函数，采用增强拟合能力，逐渐增加鲁棒性的权重来处理标签噪声。在后期阶段，引入自举项，让DNN更加重视容易的样例，证明了这种方法的优越性。 |
+| [^98] | [ERSAM: Neural Architecture Search For Energy-Efficient and Real-Time Social Ambiance Measurement.](http://arxiv.org/abs/2303.10727) | 本文提出了一种面向能源高效性和实时性的社交氛围测量神经网络架构搜索框架ERSAM。该框架可以自动搜索适合SAM任务的神经网络架构，并满足能源效率、实时处理和有限标签数据的要求。在基准数据集上，该框架优于现有解决方案，具有更好的精度和效率。 |
+| [^99] | [DBSCAN of Multi-Slice Clustering for three-order Tensor.](http://arxiv.org/abs/2303.07768) | 本文提出了 MSC-DBSCAN扩展算法，可以在三元聚类中从数据中提取不同子空间的不同切片聚类，并可以获得与 MSC 算法在处理秩一张量数据时相同的解决方案。 |
+| [^100] | [Investigating Catastrophic Overfitting in Fast Adversarial Training: A Self-fitting Perspective.](http://arxiv.org/abs/2302.11963) | 本文首次将单步对抗示例分解为数据信息和自信息，揭示了一种有趣的现象，称为“自我拟合”，即网络学习单步扰动中嵌入的自信息，导致灾难性过拟合。 |
+| [^101] | [An Operational Perspective to Fairness Interventions: Where and How to Intervene.](http://arxiv.org/abs/2302.01574) | 该论文提出了一个平衡预测性能、跨组差异、保护敏感群组属性和工程成本的全面框架，探讨了公平性干预的“何时”和“如何”，同时通过预测平等的案例研究，展示了一种新的方法。 |
+| [^102] | [Real-Time Evaluation in Online Continual Learning: A New Hope.](http://arxiv.org/abs/2302.01047) | 该研究针对现实环境中的连续学习提出了一种实时评估方法，并在包含3900万个时间戳标记图像的大型数据集CLOC上进行了实验。结果表明，简单的基线模型胜过了最先进的CL方法，证明现有方法在现实环境下的适用性存在问题。 |
+| [^103] | [One Model for All Domains: Collaborative Domain-Prefix Tuning for Cross-Domain NER.](http://arxiv.org/abs/2301.10410) | 本论文提出了基于协作域前缀调整的跨领域实体识别，使用文本到文本生成的支撑领域相关指导来将知识转移至新域NER任务，避免了先前的为每个领域结束一个全新的NER模型的问题。 |
+| [^104] | [Deep Conditional Measure Quantization.](http://arxiv.org/abs/2301.06907) | 提出了一种名为DCMQ的方法，该方法结合了基于Huber能量核的方法和深度神经网络架构，用于条件测度量化，并在多个实例中取得了有希望的结果。 |
+| [^105] | [Detection of out-of-distribution samples using binary neuron activation patterns.](http://arxiv.org/abs/2212.14268) | 本文提出了一种检测样本分布情况的新方法，该方法利用神经元激活模式，通过二进制表示提取卷积层的激活模式，具有更高的检测准确度。 |
+| [^106] | [Towards Scalable Physically Consistent Neural Networks: an Application to Data-driven Multi-zone Thermal Building Models.](http://arxiv.org/abs/2212.12380) | 本论文研究了物理一致神经网络(PCNNs) 在模拟建筑温度动态方面的扩展性和准确性。结果发现，PCNNs既确保了物理一致性，同时又能在复杂的多区域热建筑模型中取得高精度的性能表现，且在可用数据量有限的情况下超越经典灰盒模型，具有可扩展性优势。 |
+| [^107] | [POTATO: The Portable Text Annotation Tool.](http://arxiv.org/abs/2212.08620) | POTATO是一个免费、开源的便携式文本注释工具，支持多种类型的文本和多模态数据的标注，提供易于配置的功能以最大化生产力，特别是对于长文档和复杂任务。 |
+| [^108] | [FlexiViT: One Model for All Patch Sizes.](http://arxiv.org/abs/2212.08013) | 本文介绍了一种名为FlexiViT的模型，它可以使用一组权重表现良好，并且适用于各种补丁大小，从而使其在部署时容易根据不同的计算预算来定制模型。 |
+| [^109] | [Misspecification in Inverse Reinforcement Learning.](http://arxiv.org/abs/2212.03201) | 本文研究了逆强化学习中的错误规范问题，探讨了不同模型与演示策略之间的偏差，以及在何种情况下模型会导致误导性推断。 |
+| [^110] | [Convolution, aggregation and attention based deep neural networks for accelerating simulations in mechanics.](http://arxiv.org/abs/2212.01386) | 本研究探讨了基于卷积、聚合和注意力的深度神经网络架构，为学习固体变形的高度非线性变化提供了有效解决方案，并在两个基准示例上取得了良好性能。 |
+| [^111] | [MHCCL: Masked Hierarchical Cluster-Wise Contrastive Learning for Multivariate Time Series.](http://arxiv.org/abs/2212.01141) | 本文提出了一种名为MHCCL的对比学习模型，可以从多元时间序列数据中学习语义丰富的表示，并利用层次聚类结构中的多粒度信息来滤除虚假负样本和补充正样本。 |
+| [^112] | [Towards Dynamic Causal Discovery with Rare Events: A Nonparametric Conditional Independence Test.](http://arxiv.org/abs/2211.16596) | 该论文提出了一种针对稀有事件的新的因果发现方法，基于收集到的时间不变动态系统的数据，构建了叠加数据集和条件独立性检验的方法。该方法能够揭示在变量第一次经历低概率实现时才会显现的因果关系，具有很好的可行性和可扩展性。 |
+| [^113] | [RUST: Latent Neural Scene Representations from Unposed Imagery.](http://arxiv.org/abs/2211.14306) | 该论文提出了一种无需摆姿势的新视角合成方法RUST，通过训练一个姿势编码器学习图像中的潜在姿态嵌入，可有效地推广到多个场景和提高视觉质量，优于最先进的无监督方法。 |
+| [^114] | [Broken Neural Scaling Laws.](http://arxiv.org/abs/2210.14891) | 本文提出了一个平滑破碎的幂律函数形式，可以准确地模拟和外推深度神经网络的缩放行为，适用于各种架构和大量不同任务，包括视觉、语言、音频、视频、生成建模、对比学习、机器人、不确定性估计/校准、对抗鲁棒性、分子、计算机编程/编码、数学单词问题、算术、无监督/自监督学习和强化学习。 |
+| [^115] | [Less Emphasis on Difficult Layer Regions: Curriculum Learning for Singularly Perturbed Convection-Diffusion-Reaction Problems.](http://arxiv.org/abs/2210.12685) | 提出了一种基于课程学习的新的优化方法，让神经网络优先学习容易的区域，减少对难的区域的学习，从而提高对奇异摄动对流扩散反应问题的预测精度。 |
+| [^116] | [When and why vision-language models behave like bags-of-words, and what to do about it?.](http://arxiv.org/abs/2210.01936) | 针对大型视觉语言模型在编码组合信息方面的表现存在问题，我们创建了Attribution、Relation和Order（ARO）基准，并提出了对VLMs进行Attention机制和对抗训练等修改以提高其组合理解能力。 |
+| [^117] | [Implicit Bias of Large Depth Networks: a Notion of Rank for Nonlinear Functions.](http://arxiv.org/abs/2209.15055) | 本文研究了全连接神经网络的表示成本和深度之间的关系，发现其会收敛到非线性函数的秩的概念。同时，发现在一定的深度范围内，全局最小值可以恢复真实的数据秩，并探讨了分类器秩对类边界拓扑结构的影响。 |
+| [^118] | [Continuous Mixtures of Tractable Probabilistic Models.](http://arxiv.org/abs/2209.10584) | 本文研究了一种连续混合的方法，将可计算概率模型和基于连续潜空间的模型结合起来，从而实现了高效的概率推断。 |
+| [^119] | [TrojViT: Trojan Insertion in Vision Transformers.](http://arxiv.org/abs/2208.13049) | 本文提出了一种针对视觉Transformer的隐秘实用的后门攻击方法TrojViT，通过补丁级触发器将一些易受攻击位组成的参数建立为特洛伊木马。 |
+| [^120] | [Towards Efficient Use of Multi-Scale Features in Transformer-Based Object Detectors.](http://arxiv.org/abs/2208.11356) | 本文提出了一种在基于Transformer的目标检测器中，通过两个新的设计实现了多尺度特征的高效利用，其核心思想是通过稀疏采样多尺度特征，以减少计算成本，同时保证了目标检测性能。 |
+| [^121] | [The Integration of Machine Learning into Automated Test Generation: A Systematic Mapping Study.](http://arxiv.org/abs/2206.10210) | 该论文研究了将机器学习应用于自动化测试生成的方法，并总结了目前的研究进展、应用和挑战。其中监督学习和强化学习是主要的技术方法。 |
+| [^122] | [Efficient decentralized multi-agent learning in asymmetric bipartite queueing systems.](http://arxiv.org/abs/2206.03324) | 该论文提出了一种简单的学习算法，使得在非对称二分排队系统中实现了高效的性能，并具备附加的鲁棒性质，并且提供了该问题的集中式情况下的首个经过证明的有效的UCB算法。 |
+| [^123] | [On the Symmetries of Deep Learning Models and their Internal Representations.](http://arxiv.org/abs/2205.14258) | 本文研究了深度学习模型及其内部表示的对称性，发现网络的对称性传播到数据的表示中的对称性，为更好地理解架构影响学习和预测过程提供了一种方法。 |
+| [^124] | [Continual Spatio-Temporal Graph Convolutional Networks.](http://arxiv.org/abs/2203.11009) | 本文提出了一种连续时空图卷积神经网络（CoST-GCN）来解决基于图的方法在在线推理设置中应用时重复计算的问题，相比之前的方法最多可将时间复杂度减少109倍。 |
+| [^125] | [Euler State Networks: Non-dissipative Reservoir Computing.](http://arxiv.org/abs/2203.09382) | 本文提出了一种新型水库计算模型EuSN，其利用前向欧拉离散化和反对称循环矩阵来设计水库动力学，具有接近稳定边缘的饱和有效谱半径和零局部李雅普诺夫指数。在长期记忆任务和时间序列分类基准测试中表现出了优异的性能。 |
+| [^126] | [Query Efficient Decision Based Sparse Attacks Against Black-Box Deep Learning Models.](http://arxiv.org/abs/2202.00091) | 研究提出了基于决策的稀疏攻击方法SparseEvo，通过最小化扰动的像素数量，能够有效地欺骗黑盒深度学习模型，而不需要了解它的内部构造。 |
+| [^127] | [Coordinate Descent Methods for Fractional Minimization.](http://arxiv.org/abs/2201.12691) | 本文提出两种坐标下降方法，用于解决具有结构化约束的分数规划问题，并保证收敛到逐坐标静态点。 |
+| [^128] | [Augmented RBMLE-UCB Approach for Adaptive Control of Linear Quadratic Systems.](http://arxiv.org/abs/2201.10542) | 本文提出一种增强式RBMLE-UCB算法，将RBMLE方法的惩罚与UCB方法的约束相结合，解决了自适应LQ控制问题。在噪声较高或样本数较少时，该算法表现更优。 |
+| [^129] | [Decompositional Quantum Graph Neural Network.](http://arxiv.org/abs/2201.05158) | 本论文提出了一种新型的基于量子计算的神经网络，能够处理基于图的数据，通过使用自我图和张量积降低模型参数数量，提出一种从现实世界数据到希尔伯特空间的新型映射方式。 |
+| [^130] | [DeBERTaV3: Improving DeBERTa using ELECTRA-Style Pre-Training with Gradient-Disentangled Embedding Sharing.](http://arxiv.org/abs/2111.09543) | 本论文介绍了一种新的预训练语言模型DeBERTaV3，使用更加样本有效的替换令牌检测（RTD）取代了掩码语言建模（MLM）并提出了一种新的梯度去耦合嵌入共享方法，避免了“拔河”动态，提高了预训练模型的训练效率和质量。在多个下游自然语言理解任务中，DeBERTaV3表现出优秀的性能。 |
+| [^131] | [Efficient Algorithms for Learning from Coarse Labels.](http://arxiv.org/abs/2108.09805) | 本文研究了从粗糙数据中学习的问题，提出了一种高效的算法，只需足够信息的粗标签即可在从细标签中学习的任何问题上进行学习。 |
+| [^132] | [Local Clustering in Contextual Multi-Armed Bandits.](http://arxiv.org/abs/2103.00063) | 本文提出了一种基于未知赌博机参数的本地聚类策略，用于上下文多臂赌博机中的用户聚类问题。该算法在内容推荐和定向广告中具有重要应用价值，并在实验中表现出较高的性能。 |
+| [^133] | [Near Optimal Adversarial Attack on UCB Bandits.](http://arxiv.org/abs/2008.09312) | 本文提出了一种在对抗攻击下的UCB最优拉臂策略，成本为$\sqrt{\log T}$，并且证明了此攻击策略近乎是最优的。 |
 
 # 详细
 
@@ -710,7 +712,21 @@
 
     Clinical trials are indispensable in developing new treatments, but they face obstacles in patient recruitment and retention, hindering the enrollment of necessary participants. To tackle these challenges, deep learning frameworks have been created to match patients to trials. These frameworks calculate the similarity between patients and clinical trial eligibility criteria, considering the discrepancy between inclusion and exclusion criteria. Recent studies have shown that these frameworks outperform earlier approaches. However, deep learning models may raise fairness issues in patient-trial matching when certain sensitive groups of individuals are underrepresented in clinical trials, leading to incomplete or inaccurate data and potential harm. To tackle the issue of fairness, this work proposes a fair patient-trial matching framework by generating a patient-criterion level fairness constraint. The proposed framework considers the inconsistency between the embedding of inclusion and e
     
-[^42]: 基于图神经网络的纳米卫星任务调度方法：学习混合整数模型的洞见
+[^42]: GSplit: 通过分裂并行实现大规模图神经网络训练的扩展
+
+    GSplit: Scaling Graph Neural Network Training on Large Graphs via Split-Parallelism. (arXiv:2303.13775v1 [cs.DC])
+
+    [http://arxiv.org/abs/2303.13775](http://arxiv.org/abs/2303.13775)
+
+    本文提出了一种新的并行小批量训练方法，即分裂并行，应用在图神经网络训练上，能有效缓解数据并行方法的性能瓶颈，同时在大规模图上的性能表现优越。
+
+    
+
+    在许多行业、科学和工程领域（如推荐系统、社交图分析、知识库、材料科学和生物学）中，拥有数十亿个边的大规模图形是普遍存在的。图神经网络（GNN）作为一种新兴的机器学习模型，由于在各种图分析任务中具有卓越的性能，因此越来越多地被采用来学习这些图形。在大型图形上训练通常采用小批量训练，并且数据并行是将小批量训练扩展到多个 GPU 的标准方法。本文认为，GNN 训练系统的几个基本性能瓶颈与数据并行方法的固有限制有关。我们提出了一种新的并行小批量训练范式- 分裂并行，并将其实现在一个名为gsplit的新系统中。实验表明，gsplit 的性能优于DGL、Quiver和PaGraph等现有的系统。
+
+    Large-scale graphs with billions of edges are ubiquitous in many industries, science, and engineering fields such as recommendation systems, social graph analysis, knowledge base, material science, and biology. Graph neural networks (GNN), an emerging class of machine learning models, are increasingly adopted to learn on these graphs due to their superior performance in various graph analytics tasks. Mini-batch training is commonly adopted to train on large graphs, and data parallelism is the standard approach to scale mini-batch training to multiple GPUs. In this paper, we argue that several fundamental performance bottlenecks of GNN training systems have to do with inherent limitations of the data parallel approach. We then propose split parallelism, a novel parallel mini-batch training paradigm. We implement split parallelism in a novel system called gsplit and show that it outperforms state-of-the-art systems such as DGL, Quiver, and PaGraph.
+    
+[^43]: 基于图神经网络的纳米卫星任务调度方法：学习混合整数模型的洞见
 
     A Graph Neural Network Approach to Nanosatellite Task Scheduling: Insights into Learning Mixed-Integer Models. (arXiv:2303.13773v1 [cs.LG])
 
@@ -724,7 +740,7 @@
 
     This study investigates how to schedule nanosatellite tasks more efficiently using Graph Neural Networks (GNN). In the Offline Nanosatellite Task Scheduling (ONTS) problem, the goal is to find the optimal schedule for tasks to be carried out in orbit while taking into account Quality-of-Service (QoS) considerations such as priority, minimum and maximum activation events, execution time-frames, periods, and execution windows, as well as constraints on the satellite's power resources and the complexity of energy harvesting and management. The ONTS problem has been approached using conventional mathematical formulations and precise methods, but their applicability to challenging cases of the problem is limited. This study examines the use of GNNs in this context, which has been effectively applied to many optimization problems, including traveling salesman problems, scheduling problems, and facility placement problems. Here, we fully represent MILP instances of the ONTS problem in biparti
     
-[^43]: 未知嗅探器用于目标检测：不要对未知对象视而不见
+[^44]: 未知嗅探器用于目标检测：不要对未知对象视而不见
 
     Unknown Sniffer for Object Detection: Don't Turn a Blind Eye to Unknown Objects. (arXiv:2303.13769v1 [cs.CV])
 
@@ -738,7 +754,7 @@
 
     The recently proposed open-world object and open-set detection achieve a breakthrough in finding never-seen-before objects and distinguishing them from class-known ones. However, their studies on knowledge transfer from known classes to unknown ones need to be deeper, leading to the scanty capability for detecting unknowns hidden in the background. In this paper, we propose the unknown sniffer (UnSniffer) to find both unknown and known objects. Firstly, the generalized object confidence (GOC) score is introduced, which only uses class-known samples for supervision and avoids improper suppression of unknowns in the background. Significantly, such confidence score learned from class-known objects can be generalized to unknown ones. Additionally, we propose a negative energy suppression loss to further limit the non-object samples in the background. Next, the best box of each unknown is hard to obtain during inference due to lacking their semantic information in training. To solve this is
     
-[^44]: 无需边缘但具有结构感知性：从GNN到MLP的原型引导知识蒸馏。
+[^45]: 无需边缘但具有结构感知性：从GNN到MLP的原型引导知识蒸馏。
 
     Edge-free but Structure-aware: Prototype-Guided Knowledge Distillation from GNNs to MLPs. (arXiv:2303.13763v1 [cs.LG])
 
@@ -752,7 +768,7 @@
 
     Distilling high-accuracy Graph Neural Networks~(GNNs) to low-latency multilayer perceptrons~(MLPs) on graph tasks has become a hot research topic. However, MLPs rely exclusively on the node features and fail to capture the graph structural information. Previous methods address this issue by processing graph edges into extra inputs for MLPs, but such graph structures may be unavailable for various scenarios. To this end, we propose a Prototype-Guided Knowledge Distillation~(PGKD) method, which does not require graph edges~(edge-free) yet learns structure-aware MLPs. Specifically, we analyze the graph structural information in GNN teachers, and distill such information from GNNs to MLPs via prototypes in an edge-free setting. Experimental results on popular graph benchmarks demonstrate the effectiveness and robustness of the proposed PGKD.
     
-[^45]: 结构不平衡感知的图增强学习
+[^46]: 结构不平衡感知的图增强学习
 
     Structural Imbalance Aware Graph Augmentation Learning. (arXiv:2303.13757v1 [cs.LG])
 
@@ -766,7 +782,7 @@
 
     Graph machine learning (GML) has made great progress in node classification, link prediction, graph classification and so on. However, graphs in reality are often structurally imbalanced, that is, only a few hub nodes have a denser local structure and higher influence. The imbalance may compromise the robustness of existing GML models, especially in learning tail nodes. This paper proposes a selective graph augmentation method (SAug) to solve this problem. Firstly, a Pagerank-based sampling strategy is designed to identify hub nodes and tail nodes in the graph. Secondly, a selective augmentation strategy is proposed, which drops the noisy neighbors of hub nodes on one side, and discovers the latent neighbors and generates pseudo neighbors for tail nodes on the other side. It can also alleviate the structural imbalance between two types of nodes. Finally, a GNN model will be retrained on the augmented graph. Extensive experiments demonstrate that SAug can significantly improve the backb
     
-[^46]: Sparsifiner：学习稀疏的实例相关注意力用于高效的视觉Transformer
+[^47]: Sparsifiner：学习稀疏的实例相关注意力用于高效的视觉Transformer
 
     Sparsifiner: Learning Sparse Instance-Dependent Attention for Efficient Vision Transformers. (arXiv:2303.13755v1 [cs.CV])
 
@@ -780,7 +796,7 @@
 
     Vision Transformers (ViT) have shown their competitive advantages performance-wise compared to convolutional neural networks (CNNs) though they often come with high computational costs. To this end, previous methods explore different attention patterns by limiting a fixed number of spatially nearby tokens to accelerate the ViT's multi-head self-attention (MHSA) operations. However, such structured attention patterns limit the token-to-token connections to their spatial relevance, which disregards learned semantic connections from a full attention mask. In this work, we propose a novel approach to learn instance-dependent attention patterns, by devising a lightweight connectivity predictor module to estimate the connectivity score of each pair of tokens. Intuitively, two tokens have high connectivity scores if the features are considered relevant either spatially or semantically. As each token only attends to a small number of other tokens, the binarized connectivity masks are often ver
     
-[^47]: 利用旧知识在医疗影像中持续学习新类别
+[^48]: 利用旧知识在医疗影像中持续学习新类别
 
     Leveraging Old Knowledge to Continually Learn New Classes in Medical Images. (arXiv:2303.13752v1 [cs.LG])
 
@@ -794,7 +810,7 @@
 
     Class-incremental continual learning is a core step towards developing artificial intelligence systems that can continuously adapt to changes in the environment by learning new concepts without forgetting those previously learned. This is especially needed in the medical domain where continually learning from new incoming data is required to classify an expanded set of diseases. In this work, we focus on how old knowledge can be leveraged to learn new classes without catastrophic forgetting. We propose a framework that comprises of two main components: (1) a dynamic architecture with expanding representations to preserve previously learned features and accommodate new features; and (2) a training procedure alternating between two objectives to balance the learning of new features while maintaining the model's performance on old classes. Experiment results on multiple medical datasets show that our solution is able to achieve superior performance over state-of-the-art baselines in terms
     
-[^48]: LONGNN: 具有可学习正交标准基的谱图神经网络
+[^49]: LONGNN: 具有可学习正交标准基的谱图神经网络
 
     LONGNN: Spectral GNNs with Learnable Orthonormal Basis. (arXiv:2303.13750v1 [cs.LG])
 
@@ -808,7 +824,7 @@
 
     In recent years, a plethora of spectral graph neural networks (GNN) methods have utilized polynomial basis with learnable coefficients to achieve top-tier performances on many node-level tasks. Although various kinds of polynomial bases have been explored, each such method adopts a fixed polynomial basis which might not be the optimal choice for the given graph. Besides, we identify the so-called over-passing issue of these methods and show that it is somewhat rooted in their less-principled regularization strategy and unnormalized basis. In this paper, we make the first attempts to address these two issues. Leveraging Jacobi polynomials, we design a novel spectral GNN, LON-GNN, with Learnable OrthoNormal bases and prove that regularizing coefficients becomes equivalent to regularizing the norm of learned filter function now. We conduct extensive experiments on diverse graph datasets to evaluate the fitting and generalization capability of LON-GNN, where the results imply its superiori
     
-[^49]: FixFit：使用参数压缩解决超定模型中的逆问题
+[^50]: FixFit：使用参数压缩解决超定模型中的逆问题
 
     FixFit: using parameter-compression to solve the inverse problem in overdetermined models. (arXiv:2303.13746v1 [cs.LG])
 
@@ -822,7 +838,7 @@
 
     All fields of science depend on mathematical models. One of the fundamental problems with using complex nonlinear models is that data-driven parameter estimation often fails because interactions between model parameters lead to multiple parameter sets fitting the data equally well. Here, we develop a new method to address this problem, FixFit, which compresses a given mathematical model's parameters into a latent representation unique to model outputs. We acquire this representation by training a neural network with a bottleneck layer on data pairs of model parameters and model outputs. The bottleneck layer nodes correspond to the unique latent parameters, and their dimensionality indicates the information content of the model. The trained neural network can be split at the bottleneck layer into an encoder to characterize the redundancies and a decoder to uniquely infer latent parameters from measurements. We demonstrate FixFit in two use cases drawn from classical physics and neurosci
     
-[^50]: EdgeTran：在移动边缘平台上共同设计Transformer以实现高效推理
+[^51]: EdgeTran：在移动边缘平台上共同设计Transformer以实现高效推理
 
     EdgeTran: Co-designing Transformers for Efficient Inference on Mobile Edge Platforms. (arXiv:2303.13745v1 [cs.LG])
 
@@ -836,7 +852,7 @@
 
     Automated design of efficient transformer models has recently attracted significant attention from industry and academia. However, most works only focus on certain metrics while searching for the best-performing transformer architecture. Furthermore, running traditional, complex, and large transformer models on low-compute edge platforms is a challenging problem. In this work, we propose a framework, called ProTran, to profile the hardware performance measures for a design space of transformer architectures and a diverse set of edge devices. We use this profiler in conjunction with the proposed co-design technique to obtain the best-performing models that have high accuracy on the given task and minimize latency, energy consumption, and peak power draw to enable edge deployment. We refer to our framework for co-optimizing accuracy and hardware performance measures as EdgeTran. It searches for the best transformer model and edge device pair. Finally, we propose GPTran, a multi-stage blo
     
-[^51]: 基于GQM模型的机器学习数据集许可证调查
+[^52]: 基于GQM模型的机器学习数据集许可证调查
 
     An investigation of licensing of datasets for machine learning based on the GQM model. (arXiv:2303.13735v1 [cs.SE])
 
@@ -850,7 +866,7 @@
 
     Dataset licensing is currently an issue in the development of machine learning systems. And in the development of machine learning systems, the most widely used are publicly available datasets. However, since the images in the publicly available dataset are mainly obtained from the Internet, some images are not commercially available. Furthermore, developers of machine learning systems do not often care about the license of the dataset when training machine learning models with it. In summary, the licensing of datasets for machine learning systems is in a state of incompleteness in all aspects at this stage.  Our investigation of two collection datasets revealed that most of the current datasets lacked licenses, and the lack of licenses made it impossible to determine the commercial availability of the datasets. Therefore, we decided to take a more scientific and systematic approach to investigate the licensing of datasets and the licensing of machine learning systems that use the data
     
-[^52]: 注意力在视觉Transformer中是如何工作的？一次视觉分析尝试
+[^53]: 注意力在视觉Transformer中是如何工作的？一次视觉分析尝试
 
     How Does Attention Work in Vision Transformers? A Visual Analytics Attempt. (arXiv:2303.13731v1 [cs.LG])
 
@@ -864,7 +880,7 @@
 
     Vision transformer (ViT) expands the success of transformer models from sequential data to images. The model decomposes an image into many smaller patches and arranges them into a sequence. Multi-head self-attentions are then applied to the sequence to learn the attention between patches. Despite many successful interpretations of transformers on sequential data, little effort has been devoted to the interpretation of ViTs, and many questions remain unanswered. For example, among the numerous attention heads, which one is more important? How strong are individual patches attending to their spatial neighbors in different heads? What attention patterns have individual heads learned? In this work, we answer these questions through a visual analytics approach. Specifically, we first identify what heads are more important in ViTs by introducing multiple pruning-based metrics. Then, we profile the spatial distribution of attention strengths between patches inside individual heads, as well as
     
-[^53]: 基于区块链的安全与隐私联邦学习综述：在资源受限计算中的理论与应用
+[^54]: 基于区块链的安全与隐私联邦学习综述：在资源受限计算中的理论与应用
 
     A Survey on Secure and Private Federated Learning Using Blockchain: Theory and Application in Resource-constrained Computing. (arXiv:2303.13727v1 [cs.CR])
 
@@ -878,7 +894,7 @@
 
     Federated Learning (FL) has gained widespread popularity in recent years due to the fast booming of advanced machine learning and artificial intelligence along with emerging security and privacy threats. FL enables efficient model generation from local data storage of the edge devices without revealing the sensitive data to any entities. While this paradigm partly mitigates the privacy issues of users' sensitive data, the performance of the FL process can be threatened and reached a bottleneck due to the growing cyber threats and privacy violation techniques. To expedite the proliferation of FL process, the integration of blockchain for FL environments has drawn prolific attention from the people of academia and industry. Blockchain has the potential to prevent security and privacy threats with its decentralization, immutability, consensus, and transparency characteristic. However, if the blockchain mechanism requires costly computational resources, then the resource-constrained FL cli
     
-[^54]: 深度VAE在潜空间中高保真图像合成技术
+[^55]: 深度VAE在潜空间中高保真图像合成技术
 
     High Fidelity Image Synthesis With Deep VAEs In Latent Space. (arXiv:2303.13714v1 [cs.CV])
 
@@ -892,7 +908,7 @@
 
     We present fast, realistic image generation on high-resolution, multimodal datasets using hierarchical variational autoencoders (VAEs) trained on a deterministic autoencoder's latent space. In this two-stage setup, the autoencoder compresses the image into its semantic features, which are then modeled with a deep VAE. With this method, the VAE avoids modeling the fine-grained details that constitute the majority of the image's code length, allowing it to focus on learning its structural components. We demonstrate the effectiveness of our two-stage approach, achieving a FID of 9.34 on the ImageNet-256 dataset which is comparable to BigGAN. We make our implementation available online.
     
-[^55]: 端到端扩散潜在优化提高分类器引导能力。
+[^56]: 端到端扩散潜在优化提高分类器引导能力。
 
     End-to-End Diffusion Latent Optimization Improves Classifier Guidance. (arXiv:2303.13703v1 [cs.CV])
 
@@ -906,7 +922,7 @@
 
     Classifier guidance -- using the gradients of an image classifier to steer the generations of a diffusion model -- has the potential to dramatically expand the creative control over image generation and editing. However, currently classifier guidance requires either training new noise-aware models to obtain accurate gradients or using a one-step denoising approximation of the final generation, which leads to misaligned gradients and sub-optimal control. We highlight this approximation's shortcomings and propose a novel guidance method: Direct Optimization of Diffusion Latents (DOODL), which enables plug-and-play guidance by optimizing diffusion latents w.r.t. the gradients of a pre-trained classifier on the true generated pixels, using an invertible diffusion process to achieve memory-efficient backpropagation. Showcasing the potential of more precise guidance, DOODL outperforms one-step classifier guidance on computational and human evaluation metrics across different forms of guidanc
     
-[^56]: OFA$^2$: 一种基于多目标的Once-for-All神经架构搜索
+[^57]: OFA$^2$: 一种基于多目标的Once-for-All神经架构搜索
 
     OFA$^2$: A Multi-Objective Perspective for the Once-for-All Neural Architecture Search. (arXiv:2303.13683v1 [cs.NE])
 
@@ -920,7 +936,7 @@
 
     Once-for-All (OFA) is a Neural Architecture Search (NAS) framework designed to address the problem of searching efficient architectures for devices with different resources constraints by decoupling the training and the searching stages. The computationally expensive process of training the OFA neural network is done only once, and then it is possible to perform multiple searches for subnetworks extracted from this trained network according to each deployment scenario. In this work we aim to give one step further in the search for efficiency by explicitly conceiving the search stage as a multi-objective optimization problem. A Pareto frontier is then populated with efficient, and already trained, neural architectures exhibiting distinct trade-offs among the conflicting objectives. This could be achieved by using any multi-objective evolutionary algorithm during the search stage, such as NSGA-II and SMS-EMOA. In other words, the neural network is trained once, the searching for subnetwo
     
-[^57]: 基于稀疏高斯过程混合的聚类方法
+[^58]: 基于稀疏高斯过程混合的聚类方法
 
     Clustering based on Mixtures of Sparse Gaussian Processes. (arXiv:2303.13665v1 [cs.LG])
 
@@ -934,7 +950,7 @@
 
     Creating low dimensional representations of a high dimensional data set is an important component in many machine learning applications. How to cluster data using their low dimensional embedded space is still a challenging problem in machine learning. In this article, we focus on proposing a joint formulation for both clustering and dimensionality reduction. When a probabilistic model is desired, one possible solution is to use the mixture models in which both cluster indicator and low dimensional space are learned. Our algorithm is based on a mixture of sparse Gaussian processes, which is called Sparse Gaussian Process Mixture Clustering (SGP-MIC). The main advantages to our approach over existing methods are that the probabilistic nature of this model provides more advantages over existing deterministic methods, it is straightforward to construct non-linear generalizations of the model, and applying a sparse model and an efficient variational EM approximation help to speed up the alg
     
-[^58]: 分布式LQR中的策略评估
+[^59]: 分布式LQR中的策略评估
 
     Policy Evaluation in Distributional LQR. (arXiv:2303.13657v1 [math.OC])
 
@@ -948,7 +964,7 @@
 
     Distributional reinforcement learning (DRL) enhances the understanding of the effects of the randomness in the environment by letting agents learn the distribution of a random return, rather than its expected value as in standard RL. At the same time, a main challenge in DRL is that policy evaluation in DRL typically relies on the representation of the return distribution, which needs to be carefully designed. In this paper, we address this challenge for a special class of DRL problems that rely on linear quadratic regulator (LQR) for control, advocating for a new distributional approach to LQR, which we call \emph{distributional LQR}. Specifically, we provide a closed-form expression of the distribution of the random return which, remarkably, is applicable to all exogenous disturbances on the dynamics, as long as they are independent and identically distributed (i.i.d.). While the proposed exact return distribution consists of infinitely many random variables, we show that this distri
     
-[^59]: 建立人工神经电路用于领域通用认知：脑启发式系统级架构入门。
+[^60]: 建立人工神经电路用于领域通用认知：脑启发式系统级架构入门。
 
     Building artificial neural circuits for domain-general cognition: a primer on brain-inspired systems-level architecture. (arXiv:2303.13651v1 [cs.NE])
 
@@ -962,7 +978,7 @@
 
     There is a concerted effort to build domain-general artificial intelligence in the form of universal neural network models with sufficient computational flexibility to solve a wide variety of cognitive tasks but without requiring fine-tuning on individual problem spaces and domains. To do this, models need appropriate priors and inductive biases, such that trained models can generalise to out-of-distribution examples and new problem sets. Here we provide an overview of the hallmarks endowing biological neural networks with the functionality needed for flexible cognition, in order to establish which features might also be important to achieve similar functionality in artificial systems. We specifically discuss the role of system-level distribution of network communication and recurrence, in addition to the role of short-term topological changes for efficient local computation. As machine learning models become more complex, these principles may provide valuable directions in an otherwis
     
-[^60]: 驾驶员疲劳检测的对抗鲁棒性和特征影响分析
+[^61]: 驾驶员疲劳检测的对抗鲁棒性和特征影响分析
 
     Adversarial Robustness and Feature Impact Analysis for Driver Drowsiness Detection. (arXiv:2303.13649v1 [cs.LG])
 
@@ -976,7 +992,7 @@
 
     Drowsy driving is a major cause of road accidents, but drivers are dismissive of the impact that fatigue can have on their reaction times. To detect drowsiness before any impairment occurs, a promising strategy is using Machine Learning (ML) to monitor Heart Rate Variability (HRV) signals. This work presents multiple experiments with different HRV time windows and ML models, a feature impact analysis using Shapley Additive Explanations (SHAP), and an adversarial robustness analysis to assess their reliability when processing faulty input data and perturbed HRV signals. The most reliable model was Extreme Gradient Boosting (XGB) and the optimal time window had between 120 and 150 seconds. Furthermore, SHAP enabled the selection of the 18 most impactful features and the training of new smaller models that achieved a performance as good as the initial ones. Despite the susceptibility of all models to adversarial attacks, adversarial training enabled them to preserve significantly higher r
     
-[^61]: 利用信号处理和机器学习高效直接推断心率变异性
+[^62]: 利用信号处理和机器学习高效直接推断心率变异性
 
     Efficient and Direct Inference of Heart Rate Variability using Both Signal Processing and Machine Learning. (arXiv:2303.13637v1 [cs.LG])
 
@@ -990,7 +1006,7 @@
 
     Heart Rate Variability (HRV) measures the variation of the time between consecutive heartbeats and is a major indicator of physical and mental health. Recent research has demonstrated that photoplethysmography (PPG) sensors can be used to infer HRV. However, many prior studies had high errors because they only employed signal processing or machine learning (ML), or because they indirectly inferred HRV, or because there lacks large training datasets. Many prior studies may also require large ML models. The low accuracy and large model sizes limit their applications to small embedded devices and potential future use in healthcare. To address the above issues, we first collected a large dataset of PPG signals and HRV ground truth. With this dataset, we developed HRV models that combine signal processing and ML to directly infer HRV. Evaluation results show that our method had errors between 3.5% to 25.7% and outperformed signal-processing-only and ML-only methods. We also explored differe
     
-[^62]: 基于高效传感器采样和学习模型的PPG心率估计
+[^63]: 基于高效传感器采样和学习模型的PPG心率估计
 
     PPG-based Heart Rate Estimation with Efficient Sensor Sampling and Learning Models. (arXiv:2303.13636v1 [cs.LG])
 
@@ -1004,7 +1020,7 @@
 
     Recent studies showed that Photoplethysmography (PPG) sensors embedded in wearable devices can estimate heart rate (HR) with high accuracy. However, despite of prior research efforts, applying PPG sensor based HR estimation to embedded devices still faces challenges due to the energy-intensive high-frequency PPG sampling and the resource-intensive machine-learning models. In this work, we aim to explore HR estimation techniques that are more suitable for lower-power and resource-constrained embedded devices. More specifically, we seek to design techniques that could provide high-accuracy HR estimation with low-frequency PPG sampling, small model size, and fast inference time. First, we show that by combining signal processing and ML, it is possible to reduce the PPG sampling frequency from 125 Hz to only 25 Hz while providing higher HR estimation accuracy. This combination also helps to reduce the ML model feature size, leading to smaller models. Additionally, we present a comprehensiv
     
-[^63]: 提高效率的低秩优化：使紧凑结构和快速训练达到平衡的深度学习研究
+[^64]: 提高效率的低秩优化：使紧凑结构和快速训练达到平衡的深度学习研究
 
     Low Rank Optimization for Efficient Deep Learning: Making A Balance between Compact Architecture and Fast Training. (arXiv:2303.13635v1 [cs.LG])
 
@@ -1018,7 +1034,21 @@
 
     Deep neural networks have achieved great success in many data processing applications. However, the high computational complexity and storage cost makes deep learning hard to be used on resource-constrained devices, and it is not environmental-friendly with much power cost. In this paper, we focus on low-rank optimization for efficient deep learning techniques. In the space domain, deep neural networks are compressed by low rank approximation of the network parameters, which directly reduces the storage requirement with a smaller number of network parameters. In the time domain, the network parameters can be trained in a few subspaces, which enables efficient training for fast convergence. The model compression in the spatial domain is summarized into three categories as pre-train, pre-set, and compression-aware methods, respectively. With a series of integrable techniques discussed, such as sparse pruning, quantization, and entropy coding, we can ensemble them in an integration framew
     
-[^64]: 关于Botnet攻击中节点的集成分类的Associated Random Neural Networks（论文翻译）
+[^65]: 物理学指导的PointNet：它能同时解决多少不规则几何体的反问题？以线弹性为例。
+
+    Physics-informed PointNet: On how many irregular geometries can it solve an inverse problem simultaneously? Application to linear elasticity. (arXiv:2303.13634v1 [cs.LG])
+
+    [http://arxiv.org/abs/2303.13634](http://arxiv.org/abs/2303.13634)
+
+    本文提出了一种物理学指导的神经网络模型PIPN，它能利用稀疏标记数据同时预测所需偏微分方程在数百个不同的几何体上的解，有望在工业界进行快速的几何设计。
+
+    
+
+    常规的物理学指导的神经网络（PINN）利用稀疏标记数据预测偏微分方程的解，但只限于单一的域。相反，完全监督学习模型通常是首先在已知解（即标记数据）的几千个域上进行训练，然后预测在一些未知域上的解。物理学指导的PointNet（PIPN）主要旨在填补PINN（作为弱监督学习模型）和完全监督学习模型之间的差距。在本文中，我们展示了PIPN能够同时预测所需偏微分方程在数百个域上的解，而只使用稀疏标记数据。这个框架有助于在工业界进行快速的几何设计，尤其当只有稀疏标记数据可用时。特别地，我们展示了PIPN能够同时预测平面应力问题在500多个不同几何体上的解。
+
+    Regular physics-informed neural networks (PINNs) predict the solution of partial differential equations using sparse labeled data but only over a single domain. On the other hand, fully supervised learning models are first trained usually over a few thousand domains with known solutions (i.e., labeled data) and then predict the solution over a few hundred unseen domains. Physics-informed PointNet (PIPN) is primarily designed to fill this gap between PINNs (as weakly supervised learning models) and fully supervised learning models. In this article, we demonstrate that PIPN predicts the solution of desired partial differential equations over a few hundred domains simultaneously, while it only uses sparse labeled data. This framework benefits fast geometric designs in the industry when only sparse labeled data are available. Particularly, we show that PIPN predicts the solution of a plane stress problem over more than 500 domains with different geometries, simultaneously. Moreover, we pio
+    
+[^66]: 关于Botnet攻击中节点的集成分类的Associated Random Neural Networks（论文翻译）
 
     Associated Random Neural Networks for Collective Classification of Nodes in Botnet Attacks. (arXiv:2303.13627v1 [cs.NI])
 
@@ -1032,7 +1062,7 @@
 
     Botnet attacks are a major threat to networked systems because of their ability to turn the network nodes that they compromise into additional attackers, leading to the spread of high volume attacks over long periods. The detection of such Botnets is complicated by the fact that multiple network IP addresses will be simultaneously compromised, so that Collective Classification of compromised nodes, in addition to the already available traditional methods that focus on individual nodes, can be useful. Thus this work introduces a collective Botnet attack classification technique that operates on traffic from an n-node IP network with a novel Associated Random Neural Network (ARNN) that identifies the nodes which are compromised. The ARNN is a recurrent architecture that incorporates two mutually associated, interconnected and architecturally identical n-neuron random neural networks, that act simultneously as mutual critics to reach the decision regarding which of n nodes have been compr
     
-[^65]: 基于人工智能的快速、无标记光学成像分子分类诊断的应用于弥漫性胶质瘤研究
+[^67]: 基于人工智能的快速、无标记光学成像分子分类诊断的应用于弥漫性胶质瘤研究
 
     Artificial-intelligence-based molecular classification of diffuse gliomas using rapid, label-free optical imaging. (arXiv:2303.13610v1 [cs.CV])
 
@@ -1046,7 +1076,7 @@
 
     Molecular classification has transformed the management of brain tumors by enabling more accurate prognostication and personalized treatment. However, timely molecular diagnostic testing for patients with brain tumors is limited, complicating surgical and adjuvant treatment and obstructing clinical trial enrollment. In this study, we developed DeepGlioma, a rapid ($< 90$ seconds), artificial-intelligence-based diagnostic screening system to streamline the molecular diagnosis of diffuse gliomas. DeepGlioma is trained using a multimodal dataset that includes stimulated Raman histology (SRH); a rapid, label-free, non-consumptive, optical imaging method; and large-scale, public genomic data. In a prospective, multicenter, international testing cohort of patients with diffuse glioma ($n=153$) who underwent real-time SRH imaging, we demonstrate that DeepGlioma can predict the molecular alterations used by the World Health Organization to define the adult-type diffuse glioma taxonomy (IDH mut
     
-[^66]: 带有延迟组合匿名赌徒反馈的随机次模赌博算法
+[^68]: 带有延迟组合匿名赌徒反馈的随机次模赌博算法
 
     Stochastic Submodular Bandits with Delayed Composite Anonymous Bandit Feedback. (arXiv:2303.13604v1 [cs.LG])
 
@@ -1060,7 +1090,7 @@
 
     This paper investigates the problem of combinatorial multiarmed bandits with stochastic submodular (in expectation) rewards and full-bandit delayed feedback, where the delayed feedback is assumed to be composite and anonymous. In other words, the delayed feedback is composed of components of rewards from past actions, with unknown division among the sub-components. Three models of delayed feedback: bounded adversarial, stochastic independent, and stochastic conditionally independent are studied, and regret bounds are derived for each of the delay models. Ignoring the problem dependent parameters, we show that regret bound for all the delay models is $\tilde{O}(T^{2/3} + T^{1/3} \nu)$ for time horizon $T$, where $\nu$ is a delay parameter defined differently in the three cases, thus demonstrating an additive term in regret with delay in all the three delay models. The considered algorithm is demonstrated to outperform other full-bandit approaches with delayed composite anonymous feedbac
     
-[^67]: 缺失数据的生存学习算法比较研究
+[^69]: 缺失数据的生存学习算法比较研究
 
     Une comparaison des algorithmes d'apprentissage pour la survie avec donn\'ees manquantes. (arXiv:2303.13590v1 [stat.ML])
 
@@ -1074,7 +1104,7 @@
 
     Survival analysis is an essential tool for the study of health data. An inherent component of such data is the presence of missing values. In recent years, researchers proposed new learning algorithms for survival tasks based on neural networks. Here, we studied the predictive performance of such algorithms coupled with different methods for handling missing values on simulated data that reflect a realistic situation, i.e., when individuals belong to unobserved clusters. We investigated different patterns of missing data. The results show that, without further feature engineering, no single imputation method is better than the others in all cases. The proposed methodology can be used to compare other missing data patterns and/or survival models. The Python code is accessible via the package survivalsim.  - L'analyse de survie est un outil essentiel pour l'\'etude des donn\'ees de sant\'e. Une composante inh\'erente \`a ces donn\'ees est la pr\'esence de valeurs manquantes. Ces derni\
     
-[^68]: Scoring Functions 和 Generalization Prediction 的详细研究
+[^70]: Scoring Functions 和 Generalization Prediction 的详细研究
 
     A Closer Look at Scoring Functions and Generalization Prediction. (arXiv:2303.13589v1 [cs.LG])
 
@@ -1088,7 +1118,7 @@
 
     Generalization error predictors (GEPs) aim to predict model performance on unseen distributions by deriving dataset-level error estimates from sample-level scores. However, GEPs often utilize disparate mechanisms (e.g., regressors, thresholding functions, calibration datasets, etc), to derive such error estimates, which can obfuscate the benefits of a particular scoring function. Therefore, in this work, we rigorously study the effectiveness of popular scoring functions (confidence, local manifold smoothness, model agreement), independent of mechanism choice. We find, absent complex mechanisms, that state-of-the-art confidence- and smoothness- based scores fail to outperform simple model-agreement scores when estimating error under distribution shifts and corruptions. Furthermore, on realistic settings where the training data has been compromised (e.g., label noise, measurement noise, undersampling), we find that model-agreement scores continue to perform well and that ensemble diversi
     
-[^69]: 神经网络验证的高效符号推理技术
+[^71]: 神经网络验证的高效符号推理技术
 
     Efficient Symbolic Reasoning for Neural-Network Verification. (arXiv:2303.13588v1 [cs.AI])
 
@@ -1102,7 +1132,7 @@
 
     The neural network has become an integral part of modern software systems. However, they still suffer from various problems, in particular, vulnerability to adversarial attacks. In this work, we present a novel program reasoning framework for neural-network verification, which we refer to as symbolic reasoning. The key components of our framework are the use of the symbolic domain and the quadratic relation. The symbolic domain has very flexible semantics, and the quadratic relation is quite expressive. They allow us to encode many verification problems for neural networks as quadratic programs. Our scheme then relaxes the quadratic programs to semidefinite programs, which can be efficiently solved. This framework allows us to verify various neural-network properties under different scenarios, especially those that appear challenging for non-symbolic domains. Moreover, it introduces new representations and perspectives for the verification tasks. We believe that our framework can bring
     
-[^70]: RNN 的回归：用可逆句嵌入的残差循环神经网络
+[^72]: RNN 的回归：用可逆句嵌入的残差循环神经网络
 
     Return of the RNN: Residual Recurrent Networks for Invertible Sentence Embeddings. (arXiv:2303.13570v1 [cs.CL])
 
@@ -1116,7 +1146,7 @@
 
     This study presents a novel model for invertible sentence embeddings using a residual recurrent network trained on an unsupervised encoding task. Rather than the probabilistic outputs common to neural machine translation models, our approach employs a regression-based output layer to reconstruct the input sequence's word vectors. The model achieves high accuracy and fast training with the ADAM optimizer, a significant finding given that RNNs typically require memory units, such as LSTMs, or second-order optimization methods. We incorporate residual connections and introduce a "match drop" technique, where gradients are calculated only for incorrect words. Our approach demonstrates potential for various natural language processing applications, particularly in neural network-based systems that require high-quality sentence embeddings.
     
-[^71]: TinyML：工具，应用，挑战和未来研究方向
+[^73]: TinyML：工具，应用，挑战和未来研究方向
 
     TinyML: Tools, Applications, Challenges, and Future Research Directions. (arXiv:2303.13569v1 [cs.LG])
 
@@ -1130,7 +1160,7 @@
 
     In recent years, Artificial Intelligence (AI) and Machine learning (ML) have gained significant interest from both, industry and academia. Notably, conventional ML techniques require enormous amounts of power to meet the desired accuracy, which has limited their use mainly to high-capability devices such as network nodes. However, with many advancements in technologies such as the Internet of Things (IoT) and edge computing, it is desirable to incorporate ML techniques into resource-constrained embedded devices for distributed and ubiquitous intelligence. This has motivated the emergence of the TinyML paradigm which is an embedded ML technique that enables ML applications on multiple cheap, resource- and power-constrained devices. However, during this transition towards appropriate implementation of the TinyML technology, multiple challenges such as processing capacity optimization, improved reliability, and maintenance of learning models' accuracy require timely solutions. In this art
     
-[^72]: 利用图卷积神经网络提取租赁公寓平面图的房地产价值
+[^74]: 利用图卷积神经网络提取租赁公寓平面图的房地产价值
 
     Extracting real estate values of rental apartment floor plans using graph convolutional networks. (arXiv:2303.13568v1 [cs.LG])
 
@@ -1144,7 +1174,7 @@
 
     Access graphs that indicate adjacency relationships from the perspective of flow lines of rooms are extracted automatically from a large number of floor plan images of a family-oriented rental apartment complex in Osaka Prefecture, Japan, based on a recently proposed access graph extraction method with slight modifications. We define and implement a graph convolutional network (GCN) for access graphs and propose a model to estimate the real estate value of access graphs as the floor plan value. The model, which includes the floor plan value and hedonic method using other general explanatory variables, is used to estimate rents and their estimation accuracies are compared. In addition, the features of the floor plan that explain the rent are analyzed from the learned convolution network. Therefore, a new model for comprehensively estimating the value of real estate floor plans is proposed and validated. The results show that the proposed method significantly improves the accuracy of ren
     
-[^73]: 使用胸部CT进行异构数据联邦学习
+[^75]: 使用胸部CT进行异构数据联邦学习
 
     Federated Learning on Heterogenous Data using Chest CT. (arXiv:2303.13567v1 [cs.LG])
 
@@ -1158,7 +1188,7 @@
 
     Large data have accelerated advances in AI. While it is well known that population differences from genetics, sex, race, diet, and various environmental factors contribute significantly to disease, AI studies in medicine have largely focused on locoregional patient cohorts with less diverse data sources. Such limitation stems from barriers to large-scale data share in medicine and ethical concerns over data privacy. Federated learning (FL) is one potential pathway for AI development that enables learning across hospitals without data share. In this study, we show the results of various FL strategies on one of the largest and most diverse COVID-19 chest CT datasets: 21 participating hospitals across five continents that comprise >10,000 patients with >1 million images. We present three techniques: Fed Averaging (FedAvg), Incremental Institutional Learning (IIL), and Cyclical Incremental Institutional Learning (CIIL). We also propose an FL strategy that leverages synthetically generated 
     
-[^74]: 使用逻辑知识增强生物医学数据的嵌入表示
+[^76]: 使用逻辑知识增强生物医学数据的嵌入表示
 
     Enhancing Embedding Representations of Biomedical Data using Logic Knowledge. (arXiv:2303.13566v1 [cs.AI])
 
@@ -1172,7 +1202,7 @@
 
     Knowledge Graph Embeddings (KGE) have become a quite popular class of models specifically devised to deal with ontologies and graph structure data, as they can implicitly encode statistical dependencies between entities and relations in a latent space. KGE techniques are particularly effective for the biomedical domain, where it is quite common to deal with large knowledge graphs underlying complex interactions between biological and chemical objects. Recently in the literature, the PharmKG dataset has been proposed as one of the most challenging knowledge graph biomedical benchmark, with hundreds of thousands of relational facts between genes, diseases and chemicals. Despite KGEs can scale to very large relational domains, they generally fail at representing more complex relational dependencies between facts, like logic rules, which may be fundamental in complex experimental settings. In this paper, we exploit logic rules to enhance the embedding representations of KGEs on the PharmKG
     
-[^75]: 图张量网络：在多个领域上设计大规模神经学习系统的直观框架
+[^77]: 图张量网络：在多个领域上设计大规模神经学习系统的直观框架
 
     Graph Tensor Networks: An Intuitive Framework for Designing Large-Scale Neural Learning Systems on Multiple Domains. (arXiv:2303.13565v1 [cs.LG])
 
@@ -1186,7 +1216,7 @@
 
     Despite the omnipresence of tensors and tensor operations in modern deep learning, the use of tensor mathematics to formally design and describe neural networks is still under-explored within the deep learning community. To this end, we introduce the Graph Tensor Network (GTN) framework, an intuitive yet rigorous graphical framework for systematically designing and implementing large-scale neural learning systems on both regular and irregular domains. The proposed framework is shown to be general enough to include many popular architectures as special cases, and flexible enough to handle data on any and many data domains. The power and flexibility of the proposed framework is demonstrated through real-data experiments, resulting in improved performance at a drastically lower complexity costs, by virtue of tensor algebra.
     
-[^76]: 跳跃连接在脉冲神经网络中的作用：对网络训练影响的分析。
+[^78]: 跳跃连接在脉冲神经网络中的作用：对网络训练影响的分析。
 
     Skip Connections in Spiking Neural Networks: An Analysis of Their Effect on Network Training. (arXiv:2303.13563v1 [cs.NE])
 
@@ -1200,7 +1230,7 @@
 
     Spiking neural networks (SNNs) have gained attention as a promising alternative to traditional artificial neural networks (ANNs) due to their potential for energy efficiency and their ability to model spiking behavior in biological systems. However, the training of SNNs is still a challenging problem, and new techniques are needed to improve their performance. In this paper, we study the impact of skip connections on SNNs and propose a hyperparameter optimization technique that adapts models from ANN to SNN. We demonstrate that optimizing the position, type, and number of skip connections can significantly improve the accuracy and efficiency of SNNs by enabling faster convergence and increasing information flow through the network. Our results show an average +8% accuracy increase on CIFAR-10-DVS and DVS128 Gesture datasets adaptation of multiple state-of-the-art models.
     
-[^77]: 利用回声状态网络学习单向耦合
+[^79]: 利用回声状态网络学习单向耦合
 
     Learning unidirectional coupling using echo-state network. (arXiv:2303.13562v1 [cs.LG])
 
@@ -1214,7 +1244,7 @@
 
     Reservoir Computing has found many potential applications in the field of complex dynamics. In this article, we exploit the exceptional capability of the echo-state network (ESN) model to make it learn a unidirectional coupling scheme from only a few time series data of the system. We show that, once trained with a few example dynamics of a drive-response system, the machine is able to predict the response system's dynamics for any driver signal with the same coupling. Only a few time series data of an $A-B$ type drive-response system in training is sufficient for the ESN to learn the coupling scheme. After training even if we replace drive system $A$ with a different system $C$, the ESN can reproduce the dynamics of response system $B$ using the dynamics of new drive system $C$ only.
     
-[^78]: 基于扩散GAN的无监督语音识别的增强
+[^80]: 基于扩散GAN的无监督语音识别的增强
 
     Enhancing Unsupervised Speech Recognition with Diffusion GANs. (arXiv:2303.13559v1 [cs.CL])
 
@@ -1228,7 +1258,7 @@
 
     We enhance the vanilla adversarial training method for unsupervised Automatic Speech Recognition (ASR) by a diffusion-GAN. Our model (1) injects instance noises of various intensities to the generator's output and unlabeled reference text which are sampled from pretrained phoneme language models with a length constraint, (2) asks diffusion timestep-dependent discriminators to separate them, and (3) back-propagates the gradients to update the generator. Word/phoneme error rate comparisons with wav2vec-U under Librispeech (3.1% for test-clean and 5.6% for test-other), TIMIT and MLS datasets, show that our enhancement strategies work effectively.
     
-[^79]: 非线性平流-扩散-吸附系统的高效混合建模和吸附模型探索：系统科学机器学习方法
+[^81]: 非线性平流-扩散-吸附系统的高效混合建模和吸附模型探索：系统科学机器学习方法
 
     Efficient hybrid modeling and sorption model discovery for non-linear advection-diffusion-sorption systems: A systematic scientific machine learning approach. (arXiv:2303.13555v1 [cs.CE])
 
@@ -1242,7 +1272,7 @@
 
     This study presents a systematic machine learning approach for creating efficient hybrid models and discovering sorption uptake models in non-linear advection-diffusion-sorption systems. It demonstrates an effective method to train these complex systems using gradientbased optimizers, adjoint sensitivity analysis, and JIT-compiled vector Jacobian products, combined with spatial discretization and adaptive integrators. Sparse and symbolic regression were employed to identify missing functions in the artificial neural network. The robustness of the proposed method was tested on an in-silico data set of noisy breakthrough curve observations of fixed-bed adsorption, resulting in a well-fitted hybrid model. The study successfully reconstructed sorption uptake kinetics using sparse and symbolic regression, and accurately predicted breakthrough curves using identified polynomials, highlighting the potential of the proposed framework for discovering sorption kinetic law structures.
     
-[^80]: 基于分块数据存储的在线围棋系统CH-Go
+[^82]: 基于分块数据存储的在线围棋系统CH-Go
 
     CH-Go: Online Go System Based on Chunk Data Storage. (arXiv:2303.13553v1 [cs.LG])
 
@@ -1256,7 +1286,7 @@
 
     The training and running of an online Go system require the support of effective data management systems to deal with vast data, such as the initial Go game records, the feature data set obtained by representation learning, the experience data set of self-play, the randomly sampled Monte Carlo tree, and so on. Previous work has rarely mentioned this problem, but the ability and efficiency of data management systems determine the accuracy and speed of the Go system. To tackle this issue, we propose an online Go game system based on the chunk data storage method (CH-Go), which processes the format of 160k Go game data released by Kiseido Go Server (KGS) and designs a Go encoder with 11 planes, a parallel processor and generator for better memory performance. Specifically, we store the data in chunks, take the chunk size of 1024 as a batch, and save the features and labels of each chunk as binary files. Then a small set of data is randomly sampled each time for the neural network training
     
-[^81]: 从低资源语言阿马齐语的图像中进行Tifinagh字符的光学字符识别和转录
+[^83]: 从低资源语言阿马齐语的图像中进行Tifinagh字符的光学字符识别和转录
 
     Optical Character Recognition and Transcription of Berber Signs from Images in a Low-Resource Language Amazigh. (arXiv:2303.13549v1 [cs.CV])
 
@@ -1270,7 +1300,7 @@
 
     The Berber, or Amazigh language family is a low-resource North African vernacular language spoken by the indigenous Berber ethnic group. It has its own unique alphabet called Tifinagh used across Berber communities in Morocco, Algeria, and others. The Afroasiatic language Berber is spoken by 14 million people, yet lacks adequate representation in education, research, web applications etc. For instance, there is no option of translation to or from Amazigh / Berber on Google Translate, which hosts over 100 languages today. Consequently, we do not find specialized educational apps, L2 (2nd language learner) acquisition, automated language translation, and remote-access facilities enabled in Berber. Motivated by this background, we propose a supervised approach called DaToBS for Detection and Transcription of Berber Signs. The DaToBS approach entails the automatic recognition and transcription of Tifinagh characters from signs in photographs of natural environments. This is achieved by sel
     
-[^82]: 嘿，Dona！你能帮我处理学生选课吗？
+[^84]: 嘿，Dona！你能帮我处理学生选课吗？
 
     Hey Dona! Can you help me with student course registration?. (arXiv:2303.13548v1 [cs.HC])
 
@@ -1284,7 +1314,7 @@
 
     In this paper, we present a demo of an intelligent personal agent called Hey Dona (or just Dona) with virtual voice assistance in student course registration. It is a deployed project in the theme of AI for education. In this digital age with a myriad of smart devices, users often delegate tasks to agents. While pointing and clicking supersedes the erstwhile command-typing, modern devices allow users to speak commands for agents to execute tasks, enhancing speed and convenience. In line with this progress, Dona is an intelligent agent catering to student needs by automated, voice-operated course registration, spanning a multitude of accents, entailing task planning optimization, with some language translation as needed. Dona accepts voice input by microphone (Bluetooth, wired microphone), converts human voice to computer understandable language, performs query processing as per user commands, connects with the Web to search for answers, models task dependencies, imbibes quality control
     
-[^83]: 标记子图熵核
+[^85]: 标记子图熵核
 
     Labeled Subgraph Entropy Kernel. (arXiv:2303.13543v1 [cs.LG])
 
@@ -1298,7 +1328,7 @@
 
     In recent years, kernel methods are widespread in tasks of similarity measuring. Specifically, graph kernels are widely used in fields of bioinformatics, chemistry and financial data analysis. However, existing methods, especially entropy based graph kernels are subject to large computational complexity and the negligence of node-level information. In this paper, we propose a novel labeled subgraph entropy graph kernel, which performs well in structural similarity assessment. We design a dynamic programming subgraph enumeration algorithm, which effectively reduces the time complexity. Specially, we propose labeled subgraph, which enriches substructure topology with semantic information. Analogizing the cluster expansion process of gas cluster in statistical mechanics, we re-derive the partition function and calculate the global graph entropy to characterize the network. In order to test our method, we apply several real-world datasets and assess the effects in different tasks. To captu
     
-[^84]: 人工智能在可持续性方面的应用: 利用计算机视觉促进可持续智能产品-服务系统。
+[^86]: 人工智能在可持续性方面的应用: 利用计算机视觉促进可持续智能产品-服务系统。
 
     Artificial Intelligence for Sustainability: Facilitating Sustainable Smart Product-Service Systems with Computer Vision. (arXiv:2303.13540v1 [cs.LG])
 
@@ -1312,7 +1342,7 @@
 
     The usage and impact of deep learning for cleaner production and sustainability purposes remain little explored. This work shows how deep learning can be harnessed to increase sustainability in production and product usage. Specifically, we utilize deep learning-based computer vision to determine the wear states of products. The resulting insights serve as a basis for novel product-service systems with improved integration and result orientation. Moreover, these insights are expected to facilitate product usage improvements and R&D innovations. We demonstrate our approach on two products: machining tools and rotating X-ray anodes. From a technical standpoint, we show that it is possible to recognize the wear state of these products using deep-learning-based computer vision. In particular, we detect wear through microscopic images of the two products. We utilize a U-Net for semantic segmentation to detect wear based on pixel granularity. The resulting mean dice coefficients of 0.631 and
     
-[^85]: 连续空间随机博弈的分布式多智能体强化学习
+[^87]: 连续空间随机博弈的分布式多智能体强化学习
 
     Decentralized Multi-Agent Reinforcement Learning for Continuous-Space Stochastic Games. (arXiv:2303.13539v1 [cs.LG])
 
@@ -1326,7 +1356,7 @@
 
     Stochastic games are a popular framework for studying multi-agent reinforcement learning (MARL). Recent advances in MARL have focused primarily on games with finitely many states. In this work, we study multi-agent learning in stochastic games with general state spaces and an information structure in which agents do not observe each other's actions. In this context, we propose a decentralized MARL algorithm and we prove the near-optimality of its policy updates. Furthermore, we study the global policy-updating dynamics for a general class of best-reply based algorithms and derive a closed-form characterization of convergence probabilities over the joint policy space.
     
-[^86]: 用于商用设备真实射频指纹的蓝牙和WiFi数据集
+[^88]: 用于商用设备真实射频指纹的蓝牙和WiFi数据集
 
     Bluetooth and WiFi Dataset for Real World RF Fingerprinting of Commercial Devices. (arXiv:2303.13538v1 [cs.NI])
 
@@ -1340,7 +1370,7 @@
 
     RF fingerprinting is emerging as a physical layer security scheme to identify illegitimate and/or unauthorized emitters sharing the RF spectrum. However, due to the lack of publicly accessible real-world datasets, most research focuses on generating synthetic waveforms with software-defined radios (SDRs) which are not suited for practical deployment settings. On other hand, the limited datasets that are available focus only on chipsets that generate only one kind of waveform. Commercial off-the-shelf (COTS) combo chipsets that support two wireless standards (for example WiFi and Bluetooth) over a shared dual-band antenna such as those found in laptops, adapters, wireless chargers, Raspberry Pis, among others are becoming ubiquitous in the IoT realm. Hence, to keep up with the modern IoT environment, there is a pressing need for real-world open datasets capturing emissions from these combo chipsets transmitting heterogeneous communication protocols. To this end, we capture the first kno
     
-[^87]: 基于风险的群体结构健康监视理论：以层次系统中的人口为例
+[^89]: 基于风险的群体结构健康监视理论：以层次系统中的人口为例
 
     Towards risk-informed PBSHM: Populations as hierarchical systems. (arXiv:2303.13533v1 [cs.AI])
 
@@ -1354,7 +1384,7 @@
 
     The prospect of informed and optimal decision-making regarding the operation and maintenance (O&M) of structures provides impetus to the development of structural health monitoring (SHM) systems. A probabilistic risk-based framework for decision-making has already been proposed. However, in order to learn the statistical models necessary for decision-making, measured data from the structure of interest are required. Unfortunately, these data are seldom available across the range of environmental and operational conditions necessary to ensure good generalisation of the model.  Recently, technologies have been developed that overcome this challenge, by extending SHM to populations of structures, such that valuable knowledge may be transferred between instances of structures that are sufficiently similar. This new approach is termed population-based structural heath monitoring (PBSHM).  The current paper presents a formal representation of populations of structures, such that risk-based d
     
-[^88]: 通过时间序列分解提高峰值网络流量预测能力
+[^90]: 通过时间序列分解提高峰值网络流量预测能力
 
     Enhancing Peak Network Traffic Prediction via Time-Series Decomposition. (arXiv:2303.13529v1 [cs.NI])
 
@@ -1368,7 +1398,7 @@
 
     For network administration and maintenance, it is critical to anticipate when networks will receive peak volumes of traffic so that adequate resources can be allocated to service requests made to servers. In the event that sufficient resources are not allocated to servers, they can become prone to failure and security breaches. On the contrary, we would waste a lot of resources if we always allocate the maximum amount of resources. Therefore, anticipating peak volumes in network traffic becomes an important problem. However, popular forecasting models such as Autoregressive Integrated Moving Average (ARIMA) forecast time-series data generally, thus lack in predicting peak volumes in these time-series. More than often, a time-series is a combination of different features, which may include but are not limited to 1) Trend, the general movement of the traffic volume, 2) Seasonality, the patterns repeated over some time periods (e.g. daily and monthly), and 3) Noise, the random changes in 
     
-[^89]: 云计算下的不确定性工作负载预测
+[^91]: 云计算下的不确定性工作负载预测
 
     Uncertainty-Aware Workload Prediction in Cloud Computing. (arXiv:2303.13525v1 [cs.DC])
 
@@ -1382,7 +1412,7 @@
 
     Predicting future resource demand in Cloud Computing is essential for managing Cloud data centres and guaranteeing customers a minimum Quality of Service (QoS) level. Modelling the uncertainty of future demand improves the quality of the prediction and reduces the waste due to overallocation. In this paper, we propose univariate and bivariate Bayesian deep learning models to predict the distribution of future resource demand and its uncertainty. We design different training scenarios to train these models, where each procedure is a different combination of pretraining and fine-tuning steps on multiple datasets configurations. We also compare the bivariate model to its univariate counterpart training with one or more datasets to investigate how different components affect the accuracy of the prediction and impact the QoS. Finally, we investigate whether our models have transfer learning capabilities. Extensive experiments show that pretraining with multiple datasets boosts performances 
     
-[^90]: 神经预设：用于颜色风格转移的新技术
+[^92]: 神经预设：用于颜色风格转移的新技术
 
     Neural Preset for Color Style Transfer. (arXiv:2303.13511v1 [cs.CV])
 
@@ -1396,7 +1426,7 @@
 
     In this paper, we present a Neural Preset technique to address the limitations of existing color style transfer methods, including visual artifacts, vast memory requirement, and slow style switching speed. Our method is based on two core designs. First, we propose Deterministic Neural Color Mapping (DNCM) to consistently operate on each pixel via an image-adaptive color mapping matrix, avoiding artifacts and supporting high-resolution inputs with a small memory footprint. Second, we develop a two-stage pipeline by dividing the task into color normalization and stylization, which allows efficient style switching by extracting color styles as presets and reusing them on normalized input images. Due to the unavailability of pairwise datasets, we describe how to train Neural Preset via a self-supervised strategy. Various advantages of Neural Preset over existing methods are demonstrated through comprehensive evaluations. Besides, we show that our trained model can naturally support multipl
     
-[^91]: 适应性正则化在类增量学习中的应用
+[^93]: 适应性正则化在类增量学习中的应用
 
     Adaptive Regularization for Class-Incremental Learning. (arXiv:2303.13113v1 [cs.LG])
 
@@ -1410,7 +1440,7 @@
 
     Class-Incremental Learning updates a deep classifier with new categories while maintaining the previously observed class accuracy. Regularizing the neural network weights is a common method to prevent forgetting previously learned classes while learning novel ones. However, existing regularizers use a constant magnitude throughout the learning sessions, which may not reflect the varying levels of difficulty of the tasks encountered during incremental learning. This study investigates the necessity of adaptive regularization in Class-Incremental Learning, which dynamically adjusts the regularization strength according to the complexity of the task at hand. We propose a Bayesian Optimization-based approach to automatically determine the optimal regularization magnitude for each learning task. Our experiments on two datasets via two regularizers demonstrate the importance of adaptive regularization for achieving accurate and less forgetful visual incremental learning.
     
-[^92]: 通过信息度量的下界贝叶斯风险
+[^94]: 通过信息度量的下界贝叶斯风险
 
     Lower Bound on the Bayesian Risk via Information Measure. (arXiv:2303.12497v1 [cs.IT])
 
@@ -1424,7 +1454,7 @@
 
     This paper focuses on parameter estimation and introduces a new method for lower bounding the Bayesian risk. The method allows for the use of virtually \emph{any} information measure, including R\'enyi's $\alpha$, $\varphi$-Divergences, and Sibson's $\alpha$-Mutual Information. The approach considers divergences as functionals of measures and exploits the duality between spaces of measures and spaces of functions. In particular, we show that one can lower bound the risk with any information measure by upper bounding its dual via Markov's inequality. We are thus able to provide estimator-independent impossibility results thanks to the Data-Processing Inequalities that divergences satisfy. The results are then applied to settings of interest involving both discrete and continuous parameters, including the ``Hide-and-Seek'' problem, and compared to the state-of-the-art techniques. An important observation is that the behaviour of the lower bound in the number of samples is influenced by t
     
-[^93]: 在合成晶体数据集上训练的神经网络可以从ICSD粉末X射线衍射图中提取结构信息
+[^95]: 在合成晶体数据集上训练的神经网络可以从ICSD粉末X射线衍射图中提取结构信息
 
     Neural networks trained on synthetically generated crystals can extract structural information from ICSD powder X-ray diffractograms. (arXiv:2303.11699v1 [cond-mat.mtrl-sci])
 
@@ -1438,7 +1468,7 @@
 
     Machine learning techniques have successfully been used to extract structural information such as the crystal space group from powder X-ray diffractograms. However, training directly on simulated diffractograms from databases such as the ICSD is challenging due to its limited size, class-inhomogeneity, and bias toward certain structure types. We propose an alternative approach of generating synthetic crystals with random coordinates by using the symmetry operations of each space group. Based on this approach, we demonstrate online training of deep ResNet-like models on up to a few million unique on-the-fly generated synthetic diffractograms per hour. For our chosen task of space group classification, we achieved a test accuracy of 79.9% on unseen ICSD structure types from most space groups. This surpasses the 56.1% accuracy of the current state-of-the-art approach of training on ICSD crystals directly. Our results demonstrate that synthetically generated crystals can be used to extract
     
-[^94]: 带应用于变分蒙特卡罗模拟的参数化球的随机梯度下降的收敛性分析。
+[^96]: 带应用于变分蒙特卡罗模拟的参数化球的随机梯度下降的收敛性分析。
 
     Convergence of stochastic gradient descent on parameterized sphere with applications to variational Monte Carlo simulation. (arXiv:2303.11602v1 [cs.LG])
 
@@ -1452,7 +1482,7 @@
 
     We analyze stochastic gradient descent (SGD) type algorithms on a high-dimensional sphere which is parameterized by a neural network up to a normalization constant. We provide a new algorithm for the setting of supervised learning and show its convergence both theoretically and numerically. We also provide the first proof of convergence for the unsupervised setting, which corresponds to the widely used variational Monte Carlo (VMC) method in quantum physics.
     
-[^95]: 动态感知损失函数用于标签噪声学习
+[^97]: 动态感知损失函数用于标签噪声学习
 
     Dynamic-Aware Loss for Learning with Label Noise. (arXiv:2303.11562v1 [cs.LG])
 
@@ -1466,7 +1496,7 @@
 
     Label noise poses a serious threat to deep neural networks (DNNs). Employing robust loss function which reconciles fitting ability with robustness is a simple but effective strategy to handle this problem. However, the widely-used static trade-off between these two factors contradicts the dynamic nature of DNNs learning with label noise, leading to inferior performance. Therefore, we propose a dynamics-aware loss (DAL) to solve this problem. Considering that DNNs tend to first learn generalized patterns, then gradually overfit label noise, DAL strengthens the fitting ability initially, then gradually increases the weight of robustness. Moreover, at the later stage, we let DNNs put more emphasis on easy examples which are more likely to be correctly labeled than hard ones and introduce a bootstrapping term to further reduce the negative impact of label noise. Both the detailed theoretical analyses and extensive experimental results demonstrate the superiority of our method.
     
-[^96]: ERSAM: 面向能源高效和实时社交氛围测量的神经架构搜索
+[^98]: ERSAM: 面向能源高效和实时社交氛围测量的神经架构搜索
 
     ERSAM: Neural Architecture Search For Energy-Efficient and Real-Time Social Ambiance Measurement. (arXiv:2303.10727v2 [cs.LG] UPDATED)
 
@@ -1480,7 +1510,7 @@
 
     Social ambiance describes the context in which social interactions happen, and can be measured using speech audio by counting the number of concurrent speakers. This measurement has enabled various mental health tracking and human-centric IoT applications. While on-device Socal Ambiance Measure (SAM) is highly desirable to ensure user privacy and thus facilitate wide adoption of the aforementioned applications, the required computational complexity of state-of-the-art deep neural networks (DNNs) powered SAM solutions stands at odds with the often constrained resources on mobile devices. Furthermore, only limited labeled data is available or practical when it comes to SAM under clinical settings due to various privacy constraints and the required human effort, further challenging the achievable accuracy of on-device SAM solutions. To this end, we propose a dedicated neural architecture search framework for Energy-efficient and Real-time SAM (ERSAM). Specifically, our ERSAM framework can
     
-[^97]: 多维数组的多切片聚类中的DBSCAN算法
+[^99]: 多维数组的多切片聚类中的DBSCAN算法
 
     DBSCAN of Multi-Slice Clustering for three-order Tensor. (arXiv:2303.07768v1 [cs.LG])
 
@@ -1494,7 +1524,7 @@
 
     Several methods for triclustering three-dimensional data require the cluster size or the number of clusters in each dimension to be specified. To address this issue, the Multi-Slice Clustering (MSC) for 3-order tensor finds signal slices that lie in a low dimensional subspace for a rank-one tensor dataset in order to find a cluster based on the threshold similarity. We propose an extension algorithm called MSC-DBSCAN to extract the different clusters of slices that lie in the different subspaces from the data if the dataset is a sum of r rank-one tensor (r > 1). Our algorithm uses the same input as the MSC algorithm and can find the same solution for rank-one tensor data as MSC.
     
-[^98]: 快速对抗训练中的灾难性过拟合的自我拟合视角研究
+[^100]: 快速对抗训练中的灾难性过拟合的自我拟合视角研究
 
     Investigating Catastrophic Overfitting in Fast Adversarial Training: A Self-fitting Perspective. (arXiv:2302.11963v2 [cs.LG] UPDATED)
 
@@ -1508,7 +1538,7 @@
 
     Although fast adversarial training provides an efficient approach for building robust networks, it may suffer from a serious problem known as catastrophic overfitting (CO), where multi-step robust accuracy suddenly collapses to zero. In this paper, we for the first time decouple single-step adversarial examples into data-information and self-information, which reveals an interesting phenomenon called "self-fitting". Self-fitting, i.e., the network learns the self-information embedded in single-step perturbations, naturally leads to the occurrence of CO. When self-fitting occurs, the network experiences an obvious "channel differentiation" phenomenon that some convolution channels accounting for recognizing self-information become dominant, while others for data-information are suppressed. In this way, the network can only recognize images with sufficient self-information and loses generalization ability to other types of data. Based on self-fitting, we provide new insights into the exi
     
-[^99]: 公平性干预的操作视角：何时和如何干预
+[^101]: 公平性干预的操作视角：何时和如何干预
 
     An Operational Perspective to Fairness Interventions: Where and How to Intervene. (arXiv:2302.01574v2 [cs.LG] UPDATED)
 
@@ -1522,7 +1552,7 @@
 
     As AI-based decision systems proliferate, their successful operationalization requires balancing multiple desiderata: predictive performance, disparity across groups, safeguarding sensitive group attributes (e.g., race), and engineering cost. We present a holistic framework for evaluating and contextualizing fairness interventions with respect to the above desiderata. The two key points of practical consideration are \emph{where} (pre-, in-, post-processing) and \emph{how} (in what way the sensitive group data is used) the intervention is introduced. We demonstrate our framework with a case study on predictive parity. In it, we first propose a novel method for achieving predictive parity fairness without using group data at inference time via distibutionally robust optimization. Then, we showcase the effectiveness of these methods in a benchmarking study of close to 400 variations across two major model types (XGBoost vs. Neural Net), ten datasets, and over twenty unique methodologies.
     
-[^100]: 在在线连续学习中进行实时评估：一个新希望
+[^102]: 在在线连续学习中进行实时评估：一个新希望
 
     Real-Time Evaluation in Online Continual Learning: A New Hope. (arXiv:2302.01047v2 [cs.LG] UPDATED)
 
@@ -1536,7 +1566,7 @@
 
     Current evaluations of Continual Learning (CL) methods typically assume that there is no constraint on training time and computation. This is an unrealistic assumption for any real-world setting, which motivates us to propose: a practical real-time evaluation of continual learning, in which the stream does not wait for the model to complete training before revealing the next data for predictions. To do this, we evaluate current CL methods with respect to their computational costs. We conduct extensive experiments on CLOC, a large-scale dataset containing 39 million time-stamped images with geolocation labels. We show that a simple baseline outperforms state-of-the-art CL methods under this evaluation, questioning the applicability of existing methods in realistic settings. In addition, we explore various CL components commonly used in the literature, including memory sampling strategies and regularization approaches. We find that all considered methods fail to be competitive against ou
     
-[^101]: 适用于所有领域的一个模型：基于协作域前缀调整的跨领域实体识别
+[^103]: 适用于所有领域的一个模型：基于协作域前缀调整的跨领域实体识别
 
     One Model for All Domains: Collaborative Domain-Prefix Tuning for Cross-Domain NER. (arXiv:2301.10410v3 [cs.CL] UPDATED)
 
@@ -1550,7 +1580,7 @@
 
     Cross-domain NER is a challenging task to address the low-resource problem in practical scenarios. Previous typical solutions mainly obtain a NER model by pre-trained language models (PLMs) with data from a rich-resource domain and adapt it to the target domain. Owing to the mismatch issue among entity types in different domains, previous approaches normally tune all parameters of PLMs, ending up with an entirely new NER model for each domain. Moreover, current models only focus on leveraging knowledge in one general source domain while failing to successfully transfer knowledge from multiple sources to the target. To address these issues, we introduce Collaborative Domain-Prefix Tuning for cross-domain NER (CP-NER) based on text-to-text generative PLMs. Specifically, we present text-to-text generation grounding domain-related instructors to transfer knowledge to new domain NER tasks without structural modifications. We utilize frozen PLMs and conduct collaborative domain-prefix tuning
     
-[^102]: 深度条件测度量化
+[^104]: 深度条件测度量化
 
     Deep Conditional Measure Quantization. (arXiv:2301.06907v2 [stat.ML] UPDATED)
 
@@ -1564,7 +1594,7 @@
 
     Quantization of a probability measure means representing it with a finite set of Dirac masses that approximates the input distribution well enough (in some metric space of probability measures). Various methods exists to do so, but the situation of quantizing a conditional law has been less explored. We propose a method, called DCMQ, involving a Huber-energy kernel-based approach coupled with a deep neural network architecture. The method is tested on several examples and obtains promising results.
     
-[^103]: 使用二进制神经元激活模式检测样本的分布情况
+[^105]: 使用二进制神经元激活模式检测样本的分布情况
 
     Detection of out-of-distribution samples using binary neuron activation patterns. (arXiv:2212.14268v2 [cs.LG] UPDATED)
 
@@ -1578,7 +1608,7 @@
 
     Deep neural networks (DNN) have outstanding performance in various applications. Despite numerous efforts of the research community, out-of-distribution (OOD) samples remain a significant limitation of DNN classifiers. The ability to identify previously unseen inputs as novel is crucial in safety-critical applications such as self-driving cars, unmanned aerial vehicles, and robots. Existing approaches to detect OOD samples treat a DNN as a black box and evaluate the confidence score of the output predictions. Unfortunately, this method frequently fails, because DNNs are not trained to reduce their confidence for OOD inputs. In this work, we introduce a novel method for OOD detection. Our method is motivated by theoretical analysis of neuron activation patterns (NAP) in ReLU-based architectures. The proposed method does not introduce a high computational overhead due to the binary representation of the activation patterns extracted from convolutional layers. The extensive empirical eval
     
-[^104]: 面向可扩展物理一致的神经网络：在数据驱动多区域热建筑模型中的应用研究
+[^106]: 面向可扩展物理一致的神经网络：在数据驱动多区域热建筑模型中的应用研究
 
     Towards Scalable Physically Consistent Neural Networks: an Application to Data-driven Multi-zone Thermal Building Models. (arXiv:2212.12380v2 [cs.LG] UPDATED)
 
@@ -1592,7 +1622,7 @@
 
     With more and more data being collected, data-driven modeling methods have been gaining in popularity in recent years. While physically sound, classical gray-box models are often cumbersome to identify and scale, and their accuracy might be hindered by their limited expressiveness. On the other hand, classical black-box methods, typically relying on Neural Networks (NNs) nowadays, often achieve impressive performance, even at scale, by deriving statistical patterns from data. However, they remain completely oblivious to the underlying physical laws, which may lead to potentially catastrophic failures if decisions for real-world physical systems are based on them. Physically Consistent Neural Networks (PCNNs) were recently developed to address these aforementioned issues, ensuring physical consistency while still leveraging NNs to attain state-of-the-art accuracy.  In this work, we scale PCNNs to model building temperature dynamics and propose a thorough comparison with classical gray-b
     
-[^105]: POTATO: 便携式文本注释工具
+[^107]: POTATO: 便携式文本注释工具
 
     POTATO: The Portable Text Annotation Tool. (arXiv:2212.08620v2 [cs.CL] UPDATED)
 
@@ -1606,7 +1636,7 @@
 
     We present POTATO, the Portable text annotation tool, a free, fully open-sourced annotation system that 1) supports labeling many types of text and multimodal data; 2) offers easy-to-configure features to maximize the productivity of both deployers and annotators (convenient templates for common ML/NLP tasks, active learning, keypress shortcuts, keyword highlights, tooltips); and 3) supports a high degree of customization (editable UI, inserting pre-screening questions, attention and qualification tests). Experiments over two annotation tasks suggest that POTATO improves labeling speed through its specially-designed productivity features, especially for long documents and complex tasks. POTATO is available at https://github.com/davidjurgens/potato and will continue to be updated.
     
-[^106]: FlexiViT：适用于所有补丁大小的模型
+[^108]: FlexiViT：适用于所有补丁大小的模型
 
     FlexiViT: One Model for All Patch Sizes. (arXiv:2212.08013v2 [cs.CV] UPDATED)
 
@@ -1620,7 +1650,7 @@
 
     Vision Transformers convert images to sequences by slicing them into patches. The size of these patches controls a speed/accuracy tradeoff, with smaller patches leading to higher accuracy at greater computational cost, but changing the patch size typically requires retraining the model. In this paper, we demonstrate that simply randomizing the patch size at training time leads to a single set of weights that performs well across a wide range of patch sizes, making it possible to tailor the model to different compute budgets at deployment time. We extensively evaluate the resulting model, which we call FlexiViT, on a wide range of tasks, including classification, image-text retrieval, open-world detection, panoptic segmentation, and semantic segmentation, concluding that it usually matches, and sometimes outperforms, standard ViT models trained at a single patch size in an otherwise identical setup. Hence, FlexiViT training is a simple drop-in improvement for ViT that makes it easy to a
     
-[^107]: 逆强化学习中的错误规范问题
+[^109]: 逆强化学习中的错误规范问题
 
     Misspecification in Inverse Reinforcement Learning. (arXiv:2212.03201v2 [cs.LG] UPDATED)
 
@@ -1634,7 +1664,7 @@
 
     The aim of Inverse Reinforcement Learning (IRL) is to infer a reward function $R$ from a policy $\pi$. To do this, we need a model of how $\pi$ relates to $R$. In the current literature, the most common models are optimality, Boltzmann rationality, and causal entropy maximisation. One of the primary motivations behind IRL is to infer human preferences from human behaviour. However, the true relationship between human preferences and human behaviour is much more complex than any of the models currently used in IRL. This means that they are misspecified, which raises the worry that they might lead to unsound inferences if applied to real-world data. In this paper, we provide a mathematical analysis of how robust different IRL models are to misspecification, and answer precisely how the demonstrator policy may differ from each of the standard models before that model leads to faulty inferences about the reward function $R$. We also introduce a framework for reasoning about misspecificatio
     
-[^108]: 基于卷积、聚合和注意力的深度神经网络用于加速力学模拟
+[^110]: 基于卷积、聚合和注意力的深度神经网络用于加速力学模拟
 
     Convolution, aggregation and attention based deep neural networks for accelerating simulations in mechanics. (arXiv:2212.01386v2 [cs.LG] UPDATED)
 
@@ -1648,7 +1678,7 @@
 
     Deep learning surrogate models are being increasingly used in accelerating scientific simulations as a replacement for costly conventional numerical techniques. However, their use remains a significant challenge when dealing with real-world complex examples. In this work, we demonstrate three types of neural network architectures for efficient learning of highly non-linear deformations of solid bodies. The first two architectures are based on the recently proposed CNN U-NET and MAgNET (graph U-NET) frameworks which have shown promising performance for learning on mesh-based data. The third architecture is Perceiver IO, a very recent architecture that belongs to the family of attention-based neural networks--a class that has revolutionised diverse engineering fields and is still unexplored in computational mechanics. We study and compare the performance of all three networks on two benchmark examples, and show their capabilities to accurately predict the non-linear mechanical responses 
     
-[^109]: MHCCL：用于多元时间序列的层次掩蔽聚类对比学习
+[^111]: MHCCL：用于多元时间序列的层次掩蔽聚类对比学习
 
     MHCCL: Masked Hierarchical Cluster-Wise Contrastive Learning for Multivariate Time Series. (arXiv:2212.01141v3 [cs.LG] UPDATED)
 
@@ -1662,7 +1692,7 @@
 
     Learning semantic-rich representations from raw unlabeled time series data is critical for downstream tasks such as classification and forecasting. Contrastive learning has recently shown its promising representation learning capability in the absence of expert annotations. However, existing contrastive approaches generally treat each instance independently, which leads to false negative pairs that share the same semantics. To tackle this problem, we propose MHCCL, a Masked Hierarchical Cluster-wise Contrastive Learning model, which exploits semantic information obtained from the hierarchical structure consisting of multiple latent partitions for multivariate time series. Motivated by the observation that fine-grained clustering preserves higher purity while coarse-grained one reflects higher-level semantics, we propose a novel downward masking strategy to filter out fake negatives and supplement positives by incorporating the multi-granularity information from the clustering hierarchy
     
-[^110]: 面向稀有事件的动态因果发现：一种非参数条件独立性检验
+[^112]: 面向稀有事件的动态因果发现：一种非参数条件独立性检验
 
     Towards Dynamic Causal Discovery with Rare Events: A Nonparametric Conditional Independence Test. (arXiv:2211.16596v3 [stat.ML] UPDATED)
 
@@ -1676,7 +1706,7 @@
 
     Causal phenomena associated with rare events occur across a wide range of engineering problems, such as risk-sensitive safety analysis, accident analysis and prevention, and extreme value theory. However, current methods for causal discovery are often unable to uncover causal links, between random variables in a dynamic setting, that manifest only when the variables first experience low-probability realizations. To address this issue, we introduce a novel statistical independence test on data collected from time-invariant dynamical systems in which rare but consequential events occur. In particular, we exploit the time-invariance of the underlying data to construct a superimposed dataset of the system state before rare events happen at different timesteps. We then design a conditional independence test on the reorganized data. We provide non-asymptotic sample complexity bounds for the consistency of our method, and validate its performance across various simulated and real-world datase
     
-[^111]: RUST：从未摆姿势的图像中学习潜在的神经场景表示
+[^113]: RUST：从未摆姿势的图像中学习潜在的神经场景表示
 
     RUST: Latent Neural Scene Representations from Unposed Imagery. (arXiv:2211.14306v2 [cs.CV] UPDATED)
 
@@ -1690,7 +1720,7 @@
 
     Inferring the structure of 3D scenes from 2D observations is a fundamental challenge in computer vision. Recently popularized approaches based on neural scene representations have achieved tremendous impact and have been applied across a variety of applications. One of the major remaining challenges in this space is training a single model which can provide latent representations which effectively generalize beyond a single scene. Scene Representation Transformer (SRT) has shown promise in this direction, but scaling it to a larger set of diverse scenes is challenging and necessitates accurately posed ground truth data. To address this problem, we propose RUST (Really Unposed Scene representation Transformer), a pose-free approach to novel view synthesis trained on RGB images alone. Our main insight is that one can train a Pose Encoder that peeks at the target image and learns a latent pose embedding which is used by the decoder for view synthesis. We perform an empirical investigation
     
-[^112]: 破碎的神经缩放定律
+[^114]: 破碎的神经缩放定律
 
     Broken Neural Scaling Laws. (arXiv:2210.14891v7 [cs.LG] UPDATED)
 
@@ -1704,7 +1734,7 @@
 
     We present a smoothly broken power law functional form (referred to by us as a Broken Neural Scaling Law (BNSL)) that accurately models and extrapolates the scaling behaviors of deep neural networks (i.e. how the evaluation metric of interest varies as the amount of compute used for training, number of model parameters, training dataset size, or upstream performance varies) for various architectures and for each of various tasks within a large and diverse set of upstream and downstream tasks, in zero-shot, prompted, and fine-tuned settings. This set includes large-scale vision, language, audio, video, diffusion, generative modeling, multimodal learning, contrastive learning, AI alignment, robotics, out-of-distribution (OOD) generalization, continual learning, uncertainty estimation / calibration, out-of-distribution detection, adversarial robustness, distillation, molecules, computer programming/coding, math word problems, arithmetic, unsupervised/self-supervised learning, and reinforc
     
-[^113]: 基于课程学习的奇异摄动对流扩散反应问题中的PINN优化方法
+[^115]: 基于课程学习的奇异摄动对流扩散反应问题中的PINN优化方法
 
     Less Emphasis on Difficult Layer Regions: Curriculum Learning for Singularly Perturbed Convection-Diffusion-Reaction Problems. (arXiv:2210.12685v2 [cs.LG] UPDATED)
 
@@ -1718,7 +1748,7 @@
 
     Although Physics-Informed Neural Networks (PINNs) have been successfully applied in a wide variety of science and engineering fields, they can fail to accurately predict the underlying solution in slightly challenging convection-diffusion-reaction problems. In this paper, we investigate the reason of this failure from a domain distribution perspective, and identify that learning multi-scale fields simultaneously makes the network unable to advance its training and easily get stuck in poor local minima. We show that the widespread experience of sampling more collocation points in high-loss layer regions hardly help optimize and may even worsen the results. These findings motivate the development of a novel curriculum learning method that encourages neural networks to prioritize learning on easier non-layer regions while downplaying learning on harder layer regions. The proposed method helps PINNs automatically adjust the learning emphasis and thereby facilitate the optimization procedur
     
-[^114]: 视觉语言模型何时以及为何行为像词袋，以及如何解决？
+[^116]: 视觉语言模型何时以及为何行为像词袋，以及如何解决？
 
     When and why vision-language models behave like bags-of-words, and what to do about it?. (arXiv:2210.01936v3 [cs.CV] UPDATED)
 
@@ -1732,7 +1762,7 @@
 
     Despite the success of large vision and language models (VLMs) in many downstream applications, it is unclear how well they encode compositional information. Here, we create the Attribution, Relation, and Order (ARO) benchmark to systematically evaluate the ability of VLMs to understand different types of relationships, attributes, and order. ARO consists of Visual Genome Attribution, to test the understanding of objects' properties; Visual Genome Relation, to test for relational understanding; and COCO & Flickr30k-Order, to test for order sensitivity. ARO is orders of magnitude larger than previous benchmarks of compositionality, with more than 50,000 test cases. We show where state-of-the-art VLMs have poor relational understanding, can blunder when linking objects to their attributes, and demonstrate a severe lack of order sensitivity. VLMs are predominantly trained and evaluated on large datasets with rich compositional structure in the images and captions. Yet, training on these d
     
-[^115]: 大深度网络的隐式偏见：非线性函数的秩定义。
+[^117]: 大深度网络的隐式偏见：非线性函数的秩定义。
 
     Implicit Bias of Large Depth Networks: a Notion of Rank for Nonlinear Functions. (arXiv:2209.15055v4 [stat.ML] UPDATED)
 
@@ -1746,7 +1776,7 @@
 
     We show that the representation cost of fully connected neural networks with homogeneous nonlinearities - which describes the implicit bias in function space of networks with $L_2$-regularization or with losses such as the cross-entropy - converges as the depth of the network goes to infinity to a notion of rank over nonlinear functions. We then inquire under which conditions the global minima of the loss recover the `true' rank of the data: we show that for too large depths the global minimum will be approximately rank 1 (underestimating the rank); we then argue that there is a range of depths which grows with the number of datapoints where the true rank is recovered. Finally, we discuss the effect of the rank of a classifier on the topology of the resulting class boundaries and show that autoencoders with optimal nonlinear rank are naturally denoising.
     
-[^116]: 可计算概率模型的连续混合
+[^118]: 可计算概率模型的连续混合
 
     Continuous Mixtures of Tractable Probabilistic Models. (arXiv:2209.10584v3 [cs.LG] UPDATED)
 
@@ -1760,7 +1790,7 @@
 
     Probabilistic models based on continuous latent spaces, such as variational autoencoders, can be understood as uncountable mixture models where components depend continuously on the latent code. They have proven to be expressive tools for generative and probabilistic modelling, but are at odds with tractable probabilistic inference, that is, computing marginals and conditionals of the represented probability distribution. Meanwhile, tractable probabilistic models such as probabilistic circuits (PCs) can be understood as hierarchical discrete mixture models, and thus are capable of performing exact inference efficiently but often show subpar performance in comparison to continuous latent-space models. In this paper, we investigate a hybrid approach, namely continuous mixtures of tractable models with a small latent dimension. While these models are analytically intractable, they are well amenable to numerical integration schemes based on a finite set of integration points. With a large 
     
-[^117]: TrojViT: 视觉Transformer中的后门插入
+[^119]: TrojViT: 视觉Transformer中的后门插入
 
     TrojViT: Trojan Insertion in Vision Transformers. (arXiv:2208.13049v3 [cs.LG] UPDATED)
 
@@ -1774,7 +1804,7 @@
 
     Vision Transformers (ViTs) have demonstrated the state-of-the-art performance in various vision-related tasks. The success of ViTs motivates adversaries to perform backdoor attacks on ViTs. Although the vulnerability of traditional CNNs to backdoor attacks is well-known, backdoor attacks on ViTs are seldom-studied. Compared to CNNs capturing pixel-wise local features by convolutions, ViTs extract global context information through patches and attentions. Na\"ively transplanting CNN-specific backdoor attacks to ViTs yields only a low clean data accuracy and a low attack success rate. In this paper, we propose a stealth and practical ViT-specific backdoor attack $TrojViT$. Rather than an area-wise trigger used by CNN-specific backdoor attacks, TrojViT generates a patch-wise trigger designed to build a Trojan composed of some vulnerable bits on the parameters of a ViT stored in DRAM memory through patch salience ranking and attention-target loss. TrojViT further uses minimum-tuned paramet
     
-[^118]: 基于Transformer的目标检测器中多尺度特征的有效利用方法研究
+[^120]: 基于Transformer的目标检测器中多尺度特征的有效利用方法研究
 
     Towards Efficient Use of Multi-Scale Features in Transformer-Based Object Detectors. (arXiv:2208.11356v2 [cs.CV] UPDATED)
 
@@ -1788,7 +1818,7 @@
 
     Multi-scale features have been proven highly effective for object detection but often come with huge and even prohibitive extra computation costs, especially for the recent Transformer-based detectors. In this paper, we propose Iterative Multi-scale Feature Aggregation (IMFA) -- a generic paradigm that enables efficient use of multi-scale features in Transformer-based object detectors. The core idea is to exploit sparse multi-scale features from just a few crucial locations, and it is achieved with two novel designs. First, IMFA rearranges the Transformer encoder-decoder pipeline so that the encoded features can be iteratively updated based on the detection predictions. Second, IMFA sparsely samples scale-adaptive features for refined detection from just a few keypoint locations under the guidance of prior detection predictions. As a result, the sampled multi-scale features are sparse yet still highly beneficial for object detection. Extensive experiments show that the proposed IMFA bo
     
-[^119]: 将机器学习应用于自动化测试生成的融合：系统性映射研究
+[^121]: 将机器学习应用于自动化测试生成的融合：系统性映射研究
 
     The Integration of Machine Learning into Automated Test Generation: A Systematic Mapping Study. (arXiv:2206.10210v4 [cs.SE] UPDATED)
 
@@ -1802,7 +1832,7 @@
 
     Context: Machine learning (ML) may enable effective automated test generation.  Objective: We characterize emerging research, examining testing practices, researcher goals, ML techniques applied, evaluation, and challenges.  Methods: We perform a systematic mapping on a sample of 102 publications.  Results: ML generates input for system, GUI, unit, performance, and combinatorial testing or improves the performance of existing generation methods. ML is also used to generate test verdicts, property-based, and expected output oracles. Supervised learning - often based on neural networks and reinforcement learning - often based on Q-learning - are common, and some publications also employ unsupervised or semi-supervised learning. (Semi-/Un-)Supervised approaches are evaluated using both traditional testing metrics and ML-related metrics (e.g., accuracy), while reinforcement learning is often evaluated using testing metrics tied to the reward function.  Conclusion: Work-to-date shows grea
     
-[^120]: 非对称二分排队系统中的高效分散式多智能体学习
+[^122]: 非对称二分排队系统中的高效分散式多智能体学习
 
     Efficient decentralized multi-agent learning in asymmetric bipartite queueing systems. (arXiv:2206.03324v2 [cs.LG] UPDATED)
 
@@ -1816,7 +1846,7 @@
 
     We study decentralized multi-agent learning in bipartite queueing systems, a standard model for service systems. In particular, N agents request service from K servers in a fully decentralized way, i.e, by running the same algorithm without communication. Previous decentralized algorithms are restricted to symmetric systems, have performance that is degrading exponentially in the number of servers, require communication through shared randomness and unique agent identities, and are computationally demanding. In contrast, we provide a simple learning algorithm that, when run decentrally by each agent, leads the queueing system to have efficient performance in general asymmetric bipartite queueing systems while also having additional robustness properties. Along the way, we provide the first provably efficient UCB-based algorithm for the centralized case of the problem.
     
-[^121]: 深度学习模型及其内部表示的对称性研究
+[^123]: 深度学习模型及其内部表示的对称性研究
 
     On the Symmetries of Deep Learning Models and their Internal Representations. (arXiv:2205.14258v5 [cs.LG] UPDATED)
 
@@ -1830,7 +1860,7 @@
 
     Symmetry is a fundamental tool in the exploration of a broad range of complex systems. In machine learning symmetry has been explored in both models and data. In this paper we seek to connect the symmetries arising from the architecture of a family of models with the symmetries of that family's internal representation of data. We do this by calculating a set of fundamental symmetry groups, which we call the intertwiner groups of the model. We connect intertwiner groups to a model's internal representations of data through a range of experiments that probe similarities between hidden states across models with the same architecture. Our work suggests that the symmetries of a network are propagated into the symmetries in that network's representation of data, providing us with a better understanding of how architecture affects the learning and prediction process. Finally, we speculate that for ReLU networks, the intertwiner groups may provide a justification for the common practice of con
     
-[^122]: 持续的时空图卷积神经网络
+[^124]: 持续的时空图卷积神经网络
 
     Continual Spatio-Temporal Graph Convolutional Networks. (arXiv:2203.11009v2 [cs.CV] UPDATED)
 
@@ -1844,7 +1874,7 @@
 
     Graph-based reasoning over skeleton data has emerged as a promising approach for human action recognition. However, the application of prior graph-based methods, which predominantly employ whole temporal sequences as their input, to the setting of online inference entails considerable computational redundancy. In this paper, we tackle this issue by reformulating the Spatio-Temporal Graph Convolutional Neural Network as a Continual Inference Network, which can perform step-by-step predictions in time without repeat frame processing. To evaluate our method, we create a continual version of ST-GCN, CoST-GCN, alongside two derived methods with different self-attention mechanisms, CoAGCN and CoS-TR. We investigate weight transfer strategies and architectural modifications for inference acceleration, and perform experiments on the NTU RGB+D 60, NTU RGB+D 120, and Kinetics Skeleton 400 datasets. Retaining similar predictive accuracy, we observe up to 109x reduction in time complexity, on-hard
     
-[^123]: Euler State Networks: 非耗散性水库计算
+[^125]: Euler State Networks: 非耗散性水库计算
 
     Euler State Networks: Non-dissipative Reservoir Computing. (arXiv:2203.09382v3 [cs.LG] UPDATED)
 
@@ -1858,7 +1888,7 @@
 
     Inspired by the numerical solution of ordinary differential equations, in this paper we propose a novel Reservoir Computing (RC) model, called the Euler State Network (EuSN). The presented approach makes use of forward Euler discretization and antisymmetric recurrent matrices to design reservoir dynamics that are both stable and non-dissipative by construction.  Our mathematical analysis shows that the resulting model is biased towards a unitary effective spectral radius and zero local Lyapunov exponents, intrinsically operating near to the edge of stability. Experiments on long-term memory tasks show the clear superiority of the proposed approach over standard RC models in problems requiring effective propagation of input information over multiple time-steps. Furthermore, results on time-series classification benchmarks indicate that EuSN is able to match (or even exceed) the accuracy of trainable Recurrent Neural Networks, while retaining the training efficiency of the RC family, res
     
-[^124]: 基于决策的稀疏攻击黑盒深度学习模型的有效查询
+[^126]: 基于决策的稀疏攻击黑盒深度学习模型的有效查询
 
     Query Efficient Decision Based Sparse Attacks Against Black-Box Deep Learning Models. (arXiv:2202.00091v2 [cs.LG] UPDATED)
 
@@ -1872,7 +1902,7 @@
 
     Despite our best efforts, deep learning models remain highly vulnerable to even tiny adversarial perturbations applied to the inputs. The ability to extract information from solely the output of a machine learning model to craft adversarial perturbations to black-box models is a practical threat against real-world systems, such as autonomous cars or machine learning models exposed as a service (MLaaS). Of particular interest are sparse attacks. The realization of sparse attacks in black-box models demonstrates that machine learning models are more vulnerable than we believe. Because these attacks aim to minimize the number of perturbed pixels measured by l_0 norm-required to mislead a model by solely observing the decision (the predicted label) returned to a model query; the so-called decision-based attack setting. But, such an attack leads to an NP-hard optimization problem. We develop an evolution-based algorithm-SparseEvo-for the problem and evaluate against both convolutional deep 
     
-[^125]: 分数规划的坐标下降方法
+[^127]: 分数规划的坐标下降方法
 
     Coordinate Descent Methods for Fractional Minimization. (arXiv:2201.12691v3 [math.OC] UPDATED)
 
@@ -1886,7 +1916,7 @@
 
     We consider a class of structured fractional minimization problems, in which the numerator part of the objective is the sum of a differentiable convex function and a convex non-smooth function, while the denominator part is a convex or concave function. This problem is difficult to solve since it is non-convex. By exploiting the structure of the problem, we propose two Coordinate Descent (CD) methods for solving this problem. The proposed methods iteratively solve a one-dimensional subproblem \textit{globally}, and they are guaranteed to converge to coordinate-wise stationary points. In the case of a convex denominator, under a weak \textit{locally bounded non-convexity condition}, we prove that the optimality of coordinate-wise stationary point is stronger than that of the standard critical point and directional point. Under additional suitable conditions, CD methods converge Q-linearly to coordinate-wise stationary points. In the case of a concave denominator, we show that any critic
     
-[^126]: 基于增强式RBMLE-UCB方法的线性二次系统自适应控制研究
+[^128]: 基于增强式RBMLE-UCB方法的线性二次系统自适应控制研究
 
     Augmented RBMLE-UCB Approach for Adaptive Control of Linear Quadratic Systems. (arXiv:2201.10542v2 [math.OC] UPDATED)
 
@@ -1900,7 +1930,7 @@
 
     We consider the problem of controlling an unknown stochastic linear system with quadratic costs - called the adaptive LQ control problem. We re-examine an approach called ''Reward Biased Maximum Likelihood Estimate'' (RBMLE) that was proposed more than forty years ago, and which predates the ''Upper Confidence Bound'' (UCB) method as well as the definition of ''regret'' for bandit problems. It simply added a term favoring parameters with larger rewards to the criterion for parameter estimation. We show how the RBMLE and UCB methods can be reconciled, and thereby propose an Augmented RBMLE-UCB algorithm that combines the penalty of the RBMLE method with the constraints of the UCB method, uniting the two approaches to optimism in the face of uncertainty. We establish that theoretically, this method retains $\Tilde{\mathcal{O}}(\sqrt{T})$ regret, the best-known so far. We further compare the empirical performance of the proposed Augmented RBMLE-UCB and the standard RBMLE (without the augm
     
-[^127]: 分解式量子图神经网络
+[^129]: 分解式量子图神经网络
 
     Decompositional Quantum Graph Neural Network. (arXiv:2201.05158v2 [quant-ph] UPDATED)
 
@@ -1914,7 +1944,7 @@
 
     Quantum machine learning is a fast-emerging field that aims to tackle machine learning using quantum algorithms and quantum computing. Due to the lack of physical qubits and an effective means to map real-world data from Euclidean space to Hilbert space, most of these methods focus on quantum analogies or process simulations rather than devising concrete architectures based on qubits. In this paper, we propose a novel hybrid quantum-classical algorithm for graph-structured data, which we refer to as the Ego-graph based Quantum Graph Neural Network (egoQGNN). egoQGNN implements the GNN theoretical framework using the tensor product and unity matrix representation, which greatly reduces the number of model parameters required. When controlled by a classical computer, egoQGNN can accommodate arbitrarily sized graphs by processing ego-graphs from the input graph using a modestly-sized quantum device. The architecture is based on a novel mapping from real-world data to Hilbert space. This m
     
-[^128]: DeBERTaV3：使用梯度去耦合嵌入共享的ELECTRA风格预训练来改进DeBERTa模型
+[^130]: DeBERTaV3：使用梯度去耦合嵌入共享的ELECTRA风格预训练来改进DeBERTa模型
 
     DeBERTaV3: Improving DeBERTa using ELECTRA-Style Pre-Training with Gradient-Disentangled Embedding Sharing. (arXiv:2111.09543v3 [cs.CL] UPDATED)
 
@@ -1928,7 +1958,7 @@
 
     This paper presents a new pre-trained language model, DeBERTaV3, which improves the original DeBERTa model by replacing mask language modeling (MLM) with replaced token detection (RTD), a more sample-efficient pre-training task. Our analysis shows that vanilla embedding sharing in ELECTRA hurts training efficiency and model performance. This is because the training losses of the discriminator and the generator pull token embeddings in different directions, creating the "tug-of-war" dynamics. We thus propose a new gradient-disentangled embedding sharing method that avoids the tug-of-war dynamics, improving both training efficiency and the quality of the pre-trained model. We have pre-trained DeBERTaV3 using the same settings as DeBERTa to demonstrate its exceptional performance on a wide range of downstream natural language understanding (NLU) tasks. Taking the GLUE benchmark with eight tasks as an example, the DeBERTaV3 Large model achieves a 91.37% average score, which is 1.37% over D
     
-[^129]: 学习粗标签的高效算法
+[^131]: 学习粗标签的高效算法
 
     Efficient Algorithms for Learning from Coarse Labels. (arXiv:2108.09805v2 [cs.LG] UPDATED)
 
@@ -1942,7 +1972,7 @@
 
     For many learning problems one may not have access to fine grained label information; e.g., an image can be labeled as husky, dog, or even animal depending on the expertise of the annotator. In this work, we formalize these settings and study the problem of learning from such coarse data. Instead of observing the actual labels from a set $\mathcal{Z}$, we observe coarse labels corresponding to a partition of $\mathcal{Z}$ (or a mixture of partitions).  Our main algorithmic result is that essentially any problem learnable from fine grained labels can also be learned efficiently when the coarse data are sufficiently informative. We obtain our result through a generic reduction for answering Statistical Queries (SQ) over fine grained labels given only coarse labels. The number of coarse labels required depends polynomially on the information distortion due to coarsening and the number of fine labels $|\mathcal{Z}|$.  We also investigate the case of (infinitely many) real valued labels foc
     
-[^130]: 上下文多臂赌博机中的本地聚类
+[^132]: 上下文多臂赌博机中的本地聚类
 
     Local Clustering in Contextual Multi-Armed Bandits. (arXiv:2103.00063v3 [cs.LG] UPDATED)
 
@@ -1956,7 +1986,7 @@
 
     We study identifying user clusters in contextual multi-armed bandits (MAB). Contextual MAB is an effective tool for many real applications, such as content recommendation and online advertisement. In practice, user dependency plays an essential role in the user's actions, and thus the rewards. Clustering similar users can improve the quality of reward estimation, which in turn leads to more effective content recommendation and targeted advertising. Different from traditional clustering settings, we cluster users based on the unknown bandit parameters, which will be estimated incrementally. In particular, we define the problem of cluster detection in contextual MAB, and propose a bandit algorithm, LOCB, embedded with local clustering procedure. And, we provide theoretical analysis about LOCB in terms of the correctness and efficiency of clustering and its regret bound. Finally, we evaluate the proposed algorithm from various aspects, which outperforms state-of-the-art baselines.
     
-[^131]: UCB Bandits在对抗攻击中的近乎最优攻击策略
+[^133]: UCB Bandits在对抗攻击中的近乎最优攻击策略
 
     Near Optimal Adversarial Attack on UCB Bandits. (arXiv:2008.09312v3 [cs.LG] UPDATED)
 

@@ -15,12 +15,13 @@
 | [^11] | [Data thinning for convolution-closed distributions.](http://arxiv.org/abs/2301.07276) | 本文提出了数据稀疏化方法，适用于很多分布类型，包括高斯分布、泊松分布、负二项分布、伽玛分布和二项分布等。该方法具有广泛的应用，如在交叉验证方面提供了一种新的方法，能有效验证无监督学习算法的可靠性。 |
 | [^12] | [Deep Conditional Measure Quantization.](http://arxiv.org/abs/2301.06907) | 提出了一种名为DCMQ的方法，该方法结合了基于Huber能量核的方法和深度神经网络架构，用于条件测度量化，并在多个实例中取得了有希望的结果。 |
 | [^13] | [Towards Dynamic Causal Discovery with Rare Events: A Nonparametric Conditional Independence Test.](http://arxiv.org/abs/2211.16596) | 该论文提出了一种针对稀有事件的新的因果发现方法，基于收集到的时间不变动态系统的数据，构建了叠加数据集和条件独立性检验的方法。该方法能够揭示在变量第一次经历低概率实现时才会显现的因果关系，具有很好的可行性和可扩展性。 |
-| [^14] | [Implicit Bias of Large Depth Networks: a Notion of Rank for Nonlinear Functions.](http://arxiv.org/abs/2209.15055) | 本文研究了全连接神经网络的表示成本和深度之间的关系，发现其会收敛到非线性函数的秩的概念。同时，发现在一定的深度范围内，全局最小值可以恢复真实的数据秩，并探讨了分类器秩对类边界拓扑结构的影响。 |
-| [^15] | [Continuous Mixtures of Tractable Probabilistic Models.](http://arxiv.org/abs/2209.10584) | 本文研究了一种连续混合的方法，将可计算概率模型和基于连续潜空间的模型结合起来，从而实现了高效的概率推断。 |
-| [^16] | [Euler State Networks: Non-dissipative Reservoir Computing.](http://arxiv.org/abs/2203.09382) | 本文提出了一种新型水库计算模型EuSN，其利用前向欧拉离散化和反对称循环矩阵来设计水库动力学，具有接近稳定边缘的饱和有效谱半径和零局部李雅普诺夫指数。在长期记忆任务和时间序列分类基准测试中表现出了优异的性能。 |
-| [^17] | [Efficient Algorithms for Learning from Coarse Labels.](http://arxiv.org/abs/2108.09805) | 本文研究了从粗糙数据中学习的问题，提出了一种高效的算法，只需足够信息的粗标签即可在从细标签中学习的任何问题上进行学习。 |
-| [^18] | [Dimension-agnostic inference using cross U-statistics.](http://arxiv.org/abs/2011.05068) | 该论文介绍了一种新的统计推断方法，它不依赖于对数据集维度的假设，可以在高维数据集上进行推断。 |
-| [^19] | [Near Optimal Adversarial Attack on UCB Bandits.](http://arxiv.org/abs/2008.09312) | 本文提出了一种在对抗攻击下的UCB最优拉臂策略，成本为$\sqrt{\log T}$，并且证明了此攻击策略近乎是最优的。 |
+| [^14] | [Counter-Adversarial Learning with Inverse Unscented Kalman Filter.](http://arxiv.org/abs/2210.00359) | 本文提出了逆无味卡尔曼滤波器系统，用于解决对抗学习中的反向认知问题。实验证明，此系统具有良好的估计精度和稳定性。 |
+| [^15] | [Implicit Bias of Large Depth Networks: a Notion of Rank for Nonlinear Functions.](http://arxiv.org/abs/2209.15055) | 本文研究了全连接神经网络的表示成本和深度之间的关系，发现其会收敛到非线性函数的秩的概念。同时，发现在一定的深度范围内，全局最小值可以恢复真实的数据秩，并探讨了分类器秩对类边界拓扑结构的影响。 |
+| [^16] | [Continuous Mixtures of Tractable Probabilistic Models.](http://arxiv.org/abs/2209.10584) | 本文研究了一种连续混合的方法，将可计算概率模型和基于连续潜空间的模型结合起来，从而实现了高效的概率推断。 |
+| [^17] | [Euler State Networks: Non-dissipative Reservoir Computing.](http://arxiv.org/abs/2203.09382) | 本文提出了一种新型水库计算模型EuSN，其利用前向欧拉离散化和反对称循环矩阵来设计水库动力学，具有接近稳定边缘的饱和有效谱半径和零局部李雅普诺夫指数。在长期记忆任务和时间序列分类基准测试中表现出了优异的性能。 |
+| [^18] | [Efficient Algorithms for Learning from Coarse Labels.](http://arxiv.org/abs/2108.09805) | 本文研究了从粗糙数据中学习的问题，提出了一种高效的算法，只需足够信息的粗标签即可在从细标签中学习的任何问题上进行学习。 |
+| [^19] | [Dimension-agnostic inference using cross U-statistics.](http://arxiv.org/abs/2011.05068) | 该论文介绍了一种新的统计推断方法，它不依赖于对数据集维度的假设，可以在高维数据集上进行推断。 |
+| [^20] | [Near Optimal Adversarial Attack on UCB Bandits.](http://arxiv.org/abs/2008.09312) | 本文提出了一种在对抗攻击下的UCB最优拉臂策略，成本为$\sqrt{\log T}$，并且证明了此攻击策略近乎是最优的。 |
 
 # 详细
 
@@ -206,7 +207,21 @@
 
     Causal phenomena associated with rare events occur across a wide range of engineering problems, such as risk-sensitive safety analysis, accident analysis and prevention, and extreme value theory. However, current methods for causal discovery are often unable to uncover causal links, between random variables in a dynamic setting, that manifest only when the variables first experience low-probability realizations. To address this issue, we introduce a novel statistical independence test on data collected from time-invariant dynamical systems in which rare but consequential events occur. In particular, we exploit the time-invariance of the underlying data to construct a superimposed dataset of the system state before rare events happen at different timesteps. We then design a conditional independence test on the reorganized data. We provide non-asymptotic sample complexity bounds for the consistency of our method, and validate its performance across various simulated and real-world datase
     
-[^14]: 大深度网络的隐式偏见：非线性函数的秩定义。
+[^14]: 对抗学习中的反向无味卡尔曼滤波器
+
+    Counter-Adversarial Learning with Inverse Unscented Kalman Filter. (arXiv:2210.00359v2 [math.OC] UPDATED)
+
+    [http://arxiv.org/abs/2210.00359](http://arxiv.org/abs/2210.00359)
+
+    本文提出了逆无味卡尔曼滤波器系统，用于解决对抗学习中的反向认知问题。实验证明，此系统具有良好的估计精度和稳定性。
+
+    
+
+    在对抗学习系统中，为了推断出智能对手的策略，防御者代理需要认知地感知对手已经收集到的关于自己的信息。先前的研究使用线性高斯状态空间模型，并通过设计反向随机过滤器来解决这个反向认知问题。然而，在实践中，对抗性系统通常是高度非线性的。本文通过将反向认知作为一种非线性高斯状态空间模型进行了研究，并提出了一种逆无味卡尔曼滤波器（IUKF）系统来估计对手对防御者的估计。然后，我们推导了IUKF在均方有界的意义下的随机稳定性的理论保证。多个实际应用的数值实验表明，IUKF的估计误差
+
+    In counter-adversarial systems, to infer the strategy of an intelligent adversarial agent, the defender agent needs to cognitively sense the information that the adversary has gathered about the latter. Prior works on the problem employ linear Gaussian state-space models and solve this inverse cognition problem by designing inverse stochastic filters. However, in practice, counter-adversarial systems are generally highly nonlinear. In this paper, we address this scenario by formulating inverse cognition as a nonlinear Gaussian state-space model, wherein the adversary employs an unscented Kalman filter (UKF) to estimate the defender's state with reduced linearization errors. To estimate the adversary's estimate of the defender, we propose and develop an inverse UKF (IUKF) system. We then derive theoretical guarantees for the stochastic stability of IUKF in the mean-squared boundedness sense. Numerical experiments for multiple practical applications show that the estimation error of IUKF
+    
+[^15]: 大深度网络的隐式偏见：非线性函数的秩定义。
 
     Implicit Bias of Large Depth Networks: a Notion of Rank for Nonlinear Functions. (arXiv:2209.15055v4 [stat.ML] UPDATED)
 
@@ -220,7 +235,7 @@
 
     We show that the representation cost of fully connected neural networks with homogeneous nonlinearities - which describes the implicit bias in function space of networks with $L_2$-regularization or with losses such as the cross-entropy - converges as the depth of the network goes to infinity to a notion of rank over nonlinear functions. We then inquire under which conditions the global minima of the loss recover the `true' rank of the data: we show that for too large depths the global minimum will be approximately rank 1 (underestimating the rank); we then argue that there is a range of depths which grows with the number of datapoints where the true rank is recovered. Finally, we discuss the effect of the rank of a classifier on the topology of the resulting class boundaries and show that autoencoders with optimal nonlinear rank are naturally denoising.
     
-[^15]: 可计算概率模型的连续混合
+[^16]: 可计算概率模型的连续混合
 
     Continuous Mixtures of Tractable Probabilistic Models. (arXiv:2209.10584v3 [cs.LG] UPDATED)
 
@@ -234,7 +249,7 @@
 
     Probabilistic models based on continuous latent spaces, such as variational autoencoders, can be understood as uncountable mixture models where components depend continuously on the latent code. They have proven to be expressive tools for generative and probabilistic modelling, but are at odds with tractable probabilistic inference, that is, computing marginals and conditionals of the represented probability distribution. Meanwhile, tractable probabilistic models such as probabilistic circuits (PCs) can be understood as hierarchical discrete mixture models, and thus are capable of performing exact inference efficiently but often show subpar performance in comparison to continuous latent-space models. In this paper, we investigate a hybrid approach, namely continuous mixtures of tractable models with a small latent dimension. While these models are analytically intractable, they are well amenable to numerical integration schemes based on a finite set of integration points. With a large 
     
-[^16]: Euler State Networks: 非耗散性水库计算
+[^17]: Euler State Networks: 非耗散性水库计算
 
     Euler State Networks: Non-dissipative Reservoir Computing. (arXiv:2203.09382v3 [cs.LG] UPDATED)
 
@@ -248,7 +263,7 @@
 
     Inspired by the numerical solution of ordinary differential equations, in this paper we propose a novel Reservoir Computing (RC) model, called the Euler State Network (EuSN). The presented approach makes use of forward Euler discretization and antisymmetric recurrent matrices to design reservoir dynamics that are both stable and non-dissipative by construction.  Our mathematical analysis shows that the resulting model is biased towards a unitary effective spectral radius and zero local Lyapunov exponents, intrinsically operating near to the edge of stability. Experiments on long-term memory tasks show the clear superiority of the proposed approach over standard RC models in problems requiring effective propagation of input information over multiple time-steps. Furthermore, results on time-series classification benchmarks indicate that EuSN is able to match (or even exceed) the accuracy of trainable Recurrent Neural Networks, while retaining the training efficiency of the RC family, res
     
-[^17]: 学习粗标签的高效算法
+[^18]: 学习粗标签的高效算法
 
     Efficient Algorithms for Learning from Coarse Labels. (arXiv:2108.09805v2 [cs.LG] UPDATED)
 
@@ -262,7 +277,7 @@
 
     For many learning problems one may not have access to fine grained label information; e.g., an image can be labeled as husky, dog, or even animal depending on the expertise of the annotator. In this work, we formalize these settings and study the problem of learning from such coarse data. Instead of observing the actual labels from a set $\mathcal{Z}$, we observe coarse labels corresponding to a partition of $\mathcal{Z}$ (or a mixture of partitions).  Our main algorithmic result is that essentially any problem learnable from fine grained labels can also be learned efficiently when the coarse data are sufficiently informative. We obtain our result through a generic reduction for answering Statistical Queries (SQ) over fine grained labels given only coarse labels. The number of coarse labels required depends polynomially on the information distortion due to coarsening and the number of fine labels $|\mathcal{Z}|$.  We also investigate the case of (infinitely many) real valued labels foc
     
-[^18]: 使用交叉U统计量的维度不可知推断
+[^19]: 使用交叉U统计量的维度不可知推断
 
     Dimension-agnostic inference using cross U-statistics. (arXiv:2011.05068v6 [math.ST] UPDATED)
 
@@ -276,7 +291,7 @@
 
     Classical asymptotic theory for statistical inference usually involves calibrating a statistic by fixing the dimension $d$ while letting the sample size $n$ increase to infinity. Recently, much effort has been dedicated towards understanding how these methods behave in high-dimensional settings, where $d$ and $n$ both increase to infinity together. This often leads to different inference procedures, depending on the assumptions about the dimensionality, leaving the practitioner in a bind: given a dataset with 100 samples in 20 dimensions, should they calibrate by assuming $n \gg d$, or $d/n \approx 0.2$? This paper considers the goal of dimension-agnostic inference; developing methods whose validity does not depend on any assumption on $d$ versus $n$. We introduce an approach that uses variational representations of existing test statistics along with sample splitting and self-normalization to produce a refined test statistic with a Gaussian limiting distribution, regardless of how $d$
     
-[^19]: UCB Bandits在对抗攻击中的近乎最优攻击策略
+[^20]: UCB Bandits在对抗攻击中的近乎最优攻击策略
 
     Near Optimal Adversarial Attack on UCB Bandits. (arXiv:2008.09312v3 [cs.LG] UPDATED)
 

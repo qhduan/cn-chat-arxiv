@@ -5,13 +5,14 @@
 | [^1] | [The effect of the Austrian-German bidding zone split on unplanned cross-border flows.](http://arxiv.org/abs/2303.14182) | 本文研究了奥地利和德国竞价区域的分割对中欧地区计划内和未计划的跨境电力流的影响。作者发现，分割后计划内电力流量增加，且在政策干预期间，德国和奥地利以及捷克和斯洛伐克之间的未计划电力流有所减少，但波兰的未计划电力流量却在增加。 |
 | [^2] | [sparseDFM: An R Package to Estimate Dynamic Factor Models with Sparse Loadings.](http://arxiv.org/abs/2303.14125) | 这个R软件包可以利用稀疏负载动态因子模型的方法来提高经典因子模型的可解释性，从而更好地预测时间序列数据。 |
 | [^3] | [On the failure of the bootstrap for Chatterjee's rank correlation.](http://arxiv.org/abs/2303.14088) | 研究者发现，通常情况下标准的自助法并不适用于Chatterjee的排名相关性，有效的推断方法是Chatterjee的原始提出和Lin和Han的解析渐近方差估计器。 |
-| [^4] | [Point Identification of LATE with Two Imperfect Instruments.](http://arxiv.org/abs/2303.13795) | 本文提出了一种使用两个不完美的工具来确定局部平均治疗效应的新方法，该方法较传统方法更为稳健。 |
-| [^5] | [The State of Food Systems Worldwide: Counting Down to 2030.](http://arxiv.org/abs/2303.13669) | 本文介绍了食物系统到2030倒计时倡议提出的五个主题和指标体系结构，并应用最新可用数据构建了第一个全球食物系统基线以跟踪转型。 |
-| [^6] | [Bootstrap-Assisted Inference for Generalized Grenander-type Estimators.](http://arxiv.org/abs/2303.13598) | 本文研究了广义Grenander型估计量的大样本分布特性，提出了Bootstrap-Aided推断方法，解决了标准非参数Bootstrap难以逼近广义Grenander型估计量的大样本分布的问题。 |
-| [^7] | [GPTs are GPTs: An Early Look at the Labor Market Impact Potential of Large Language Models.](http://arxiv.org/abs/2303.10130) | 该研究调查了GPT（大语言模型）和相关技术对美国劳动力市场的潜在影响，发现大约80%的美国劳动力可能会受到10%的工作任务的影响，涵盖了所有工资水平和各行各业，预示着这些模型可能具有显著的经济、社会和政策影响。 |
-| [^8] | [Unbiased estimation and asymptotically valid inference in multivariable Mendelian randomization with many weak instrumental variables.](http://arxiv.org/abs/2301.05130) | 本文提出了一种名为MRBEE的新型多变量MR方法，可解决多个GWAS队列之间的样本重叠问题，能够推断许多弱工具变量的无偏因果关系。 |
-| [^9] | [High Dimensional Generalised Penalised Least Squares.](http://arxiv.org/abs/2207.07055) | 本文提出了GLS Lasso方法用于高维线性模型的推断，支持强混合变量和误差过程的分布和重尾特征，并采用去偏Lasso方法进行感兴趣的参数均匀推断，蒙特卡罗结果表明该方法比传统方法更有效。 |
-| [^10] | [Bivariate Distribution Regression with Application to Insurance Data.](http://arxiv.org/abs/2203.12228) | 本文提出了一种半参数估计方法，它可以在不对整个分布施加全局参数假设的情况下，灵活地建模关于协变量的边际和联合分布。与现有的参数方法相比，我们的方法可以适应离散、连续或混合变量，并提供了一种简单而有效的方式来捕获分布依赖结构。 |
+| [^4] | [Dynamic Combinatorial Assignment.](http://arxiv.org/abs/2303.13967) | 本文研究了一种无货币的不可分割物品动态组合分配模型，提出了等收入下动态近似竞争均衡和在线组合分配机制，具有群组策略证明性、几乎无嫉妒程度和近似市场清算等优点。 |
+| [^5] | [Point Identification of LATE with Two Imperfect Instruments.](http://arxiv.org/abs/2303.13795) | 本文提出了一种使用两个不完美的工具来确定局部平均治疗效应的新方法，该方法较传统方法更为稳健。 |
+| [^6] | [The State of Food Systems Worldwide: Counting Down to 2030.](http://arxiv.org/abs/2303.13669) | 本文介绍了食物系统到2030倒计时倡议提出的五个主题和指标体系结构，并应用最新可用数据构建了第一个全球食物系统基线以跟踪转型。 |
+| [^7] | [Bootstrap-Assisted Inference for Generalized Grenander-type Estimators.](http://arxiv.org/abs/2303.13598) | 本文研究了广义Grenander型估计量的大样本分布特性，提出了Bootstrap-Aided推断方法，解决了标准非参数Bootstrap难以逼近广义Grenander型估计量的大样本分布的问题。 |
+| [^8] | [GPTs are GPTs: An Early Look at the Labor Market Impact Potential of Large Language Models.](http://arxiv.org/abs/2303.10130) | 该研究调查了GPT（大语言模型）和相关技术对美国劳动力市场的潜在影响，发现大约80%的美国劳动力可能会受到10%的工作任务的影响，涵盖了所有工资水平和各行各业，预示着这些模型可能具有显著的经济、社会和政策影响。 |
+| [^9] | [Unbiased estimation and asymptotically valid inference in multivariable Mendelian randomization with many weak instrumental variables.](http://arxiv.org/abs/2301.05130) | 本文提出了一种名为MRBEE的新型多变量MR方法，可解决多个GWAS队列之间的样本重叠问题，能够推断许多弱工具变量的无偏因果关系。 |
+| [^10] | [High Dimensional Generalised Penalised Least Squares.](http://arxiv.org/abs/2207.07055) | 本文提出了GLS Lasso方法用于高维线性模型的推断，支持强混合变量和误差过程的分布和重尾特征，并采用去偏Lasso方法进行感兴趣的参数均匀推断，蒙特卡罗结果表明该方法比传统方法更有效。 |
+| [^11] | [Bivariate Distribution Regression with Application to Insurance Data.](http://arxiv.org/abs/2203.12228) | 本文提出了一种半参数估计方法，它可以在不对整个分布施加全局参数假设的情况下，灵活地建模关于协变量的边际和联合分布。与现有的参数方法相比，我们的方法可以适应离散、连续或混合变量，并提供了一种简单而有效的方式来捕获分布依赖结构。 |
 
 # 详细
 
@@ -57,7 +58,21 @@
 
     While researchers commonly use the bootstrap for statistical inference, many of us have realized that the standard bootstrap, in general, does not work for Chatterjee's rank correlation. In this paper, we provide proof of this issue under an additional independence assumption, and complement our theory with simulation evidence for general settings. Chatterjee's rank correlation thus falls into a category of statistics that are asymptotically normal but bootstrap inconsistent. Valid inferential methods in this case are Chatterjee's original proposal (for testing independence) and Lin and Han (2022)'s analytic asymptotic variance estimator (for more general purposes).
     
-[^4]: 两个不完美的工具下LATE的点识别
+[^4]: 动态组合分配
+
+    Dynamic Combinatorial Assignment. (arXiv:2303.13967v1 [econ.TH])
+
+    [http://arxiv.org/abs/2303.13967](http://arxiv.org/abs/2303.13967)
+
+    本文研究了一种无货币的不可分割物品动态组合分配模型，提出了等收入下动态近似竞争均衡和在线组合分配机制，具有群组策略证明性、几乎无嫉妒程度和近似市场清算等优点。
+
+    
+
+    我们研究了一种无货币的不可分割对象的动态组合分配模型。我们引入了一个新的解决方案概念，称为“等收入下动态近似竞争均衡”（DACEEI），它规定市场在几乎所有时间段内都必须近似清算。naive的重复应用近似竞争均衡（Budish，2011）并不会产生令人满意的结果，因为市场清算中的近似误差会随着时间的推移快速累积。因此，我们开发了一种新版本的静态近似竞争均衡，使用精心构建的随机预算来确保市场能够精确清算。然后，我们使用它来设计“在线组合分配机制”（OCAM），以高概率实现DACEEI。OCAM具有以下特点(i)对于一个物品具有群组策略证明性 (ii)对于几乎所有代理能实现一物品无嫉妒程度 (iii)几乎所有周期内都有极高的概率近似市场清算。
+
+    We study a model of dynamic combinatorial assignment of indivisible objects without money. We introduce a new solution concept called ``dynamic approximate competitive equilibrium from equal incomes'' (DACEEI), which stipulates that markets must approximately clear in almost all time periods. A naive repeated application of approximate competitive equilibrium from equal incomes (Budish, 2011) does not yield a desirable outcome because the approximation error in market-clearing compounds quickly over time. We therefore develop a new version of the static approximate competitive equilibrium from carefully constructed random budgets which ensures that, in expectation, markets clear exactly. We then use it to design the ``online combinatorial assignment mechanism'' (OCAM) which implements a DACEEI with high probability. The OCAM is (i) group-strategyproof up to one object (ii) envy-free up to one object for almost all agents (iii) approximately market-clearing in almost all periods with hi
+    
+[^5]: 两个不完美的工具下LATE的点识别
 
     Point Identification of LATE with Two Imperfect Instruments. (arXiv:2303.13795v1 [econ.EM])
 
@@ -71,7 +86,7 @@
 
     This paper characterizes point identification results of the local average treatment effect (LATE) using two imperfect instruments. The classical approach (Imbens and Angrist (1994)) establishes the identification of LATE via an instrument that satisfies exclusion, monotonicity, and independence. However, it may be challenging to find a single instrument that satisfies all these assumptions simultaneously. My paper uses two instruments but imposes weaker assumptions on both instruments. The first instrument is allowed to violate the exclusion restriction and the second instrument does not need to satisfy monotonicity. Therefore, the first instrument can affect the outcome via both direct effects and a shift in the treatment status. The direct effects can be identified via exogenous variation in the second instrument and therefore the local average treatment effect is identified. An estimator is proposed, and using Monte Carlo simulations, it is shown to perform more robustly than the i
     
-[^5]: 全球食物系统的现状：倒计时至2030年
+[^6]: 全球食物系统的现状：倒计时至2030年
 
     The State of Food Systems Worldwide: Counting Down to 2030. (arXiv:2303.13669v1 [econ.GN])
 
@@ -85,7 +100,7 @@
 
     Transforming food systems is essential to bring about a healthier, equitable, sustainable, and resilient future, including achieving global development and sustainability goals. To date, no comprehensive framework exists to track food systems transformation and their contributions to global goals. In 2021, the Food Systems Countdown to 2030 Initiative (FSCI) articulated an architecture to monitor food systems across five themes: 1 diets, nutrition, and health; 2 environment, natural resources, and production; 3 livelihoods, poverty, and equity; 4 governance; and 5 resilience and sustainability. Each theme comprises three-to-five indicator domains. This paper builds on that architecture, presenting the inclusive, consultative process used to select indicators and an application of the indicator framework using the latest available data, constructing the first global food systems baseline to track transformation. While data are available to cover most themes and domains, critical indicat
     
-[^6]: 广义Grenander型估计量的Bootstrap-Aided推断
+[^7]: 广义Grenander型估计量的Bootstrap-Aided推断
 
     Bootstrap-Assisted Inference for Generalized Grenander-type Estimators. (arXiv:2303.13598v1 [math.ST])
 
@@ -99,7 +114,7 @@
 
     Westling and Carone (2020) proposed a framework for studying the large sample distributional properties of generalized Grenander-type estimators, a versatile class of nonparametric estimators of monotone functions. The limiting distribution of those estimators is representable as the left derivative of the greatest convex minorant of a Gaussian process whose covariance kernel can be complicated and whose monomial mean can be of unknown order (when the degree of flatness of the function of interest is unknown). The standard nonparametric bootstrap is unable to consistently approximate the large sample distribution of the generalized Grenander-type estimators even if the monomial order of the mean is known, making statistical inference a challenging endeavour in applications. To address this inferential problem, we present a bootstrap-assisted inference procedure for generalized Grenander-type estimators. The procedure relies on a carefully crafted, yet automatic, transformation of the e
     
-[^7]: GPT是GPT：大语言模型对劳动力市场影响的早期研究
+[^8]: GPT是GPT：大语言模型对劳动力市场影响的早期研究
 
     GPTs are GPTs: An Early Look at the Labor Market Impact Potential of Large Language Models. (arXiv:2303.10130v1 [econ.GN])
 
@@ -113,7 +128,7 @@
 
     We investigate the potential implications of Generative Pre-trained Transformer (GPT) models and related technologies on the U.S. labor market. Using a new rubric, we assess occupations based on their correspondence with GPT capabilities, incorporating both human expertise and classifications from GPT-4. Our findings indicate that approximately 80% of the U.S. workforce could have at least 10% of their work tasks affected by the introduction of GPTs, while around 19% of workers may see at least 50% of their tasks impacted. The influence spans all wage levels, with higher-income jobs potentially facing greater exposure. Notably, the impact is not limited to industries with higher recent productivity growth. We conclude that Generative Pre-trained Transformers exhibit characteristics of general-purpose technologies (GPTs), suggesting that as these models could have notable economic, social, and policy implications.
     
-[^8]: 多变量门捷列夫随机化中的无偏估计和渐近有效推断与弱工具变量
+[^9]: 多变量门捷列夫随机化中的无偏估计和渐近有效推断与弱工具变量
 
     Unbiased estimation and asymptotically valid inference in multivariable Mendelian randomization with many weak instrumental variables. (arXiv:2301.05130v3 [stat.ME] UPDATED)
 
@@ -127,7 +142,7 @@
 
     Mendelian randomization (MR) is an instrumental variable (IV) approach to infer causal relationships between exposures and outcomes with genome-wide association studies (GWAS) summary data. However, the multivariable inverse-variance weighting (IVW) approach, which serves as the foundation for most MR approaches, cannot yield unbiased causal effect estimates in the presence of many weak IVs. In this paper, we prove that the bias of the multivariable IVW estimate is a product of weak instrument and estimation error biases, where the latter is linearly composed of measurement error and confounder biases with a trade-off due to sample overlap among multiple GWAS cohorts. To address this problem, we propose a novel multivariable MR approach, MR using Bias-corrected Estimating Equation (MRBEE), which can infer unbiased causal relationships with many weak IVs. Asymptotic behaviors of multivariable IVW and MRBEE are investigated under moderate conditions, showing that MRBEE outperforms multiv
     
-[^9]: 高维广义惩罚最小二乘的推断方法
+[^10]: 高维广义惩罚最小二乘的推断方法
 
     High Dimensional Generalised Penalised Least Squares. (arXiv:2207.07055v3 [econ.EM] UPDATED)
 
@@ -141,7 +156,7 @@
 
     In this paper we develop inference for high dimensional linear models, with serially correlated errors. We examine Lasso under the assumption of strong mixing in the covariates and error process, allowing for fatter tails in their distribution. While the Lasso estimator performs poorly under such circumstances, we estimate via GLS Lasso the parameters of interest and extend the asymptotic properties of the Lasso under more general conditions. Our theoretical results indicate that the non-asymptotic bounds for stationary dependent processes are sharper, while the rate of Lasso under general conditions appears slower as $T,p\to \infty$. Further we employ the debiased Lasso to perform inference uniformly on the parameters of interest. Monte Carlo results support the proposed estimator, as it has significant efficiency gains over traditional methods.
     
-[^10]: 双变量分布回归在保险数据中的应用
+[^11]: 双变量分布回归在保险数据中的应用
 
     Bivariate Distribution Regression with Application to Insurance Data. (arXiv:2203.12228v2 [stat.ME] UPDATED)
 
