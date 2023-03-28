@@ -1,0 +1,12 @@
+{
+    "title": "FedGiA: An Efficient Hybrid Algorithm for Federated Learning. (arXiv:2205.01438v5 [cs.LG] UPDATED)",
+    "abstract": "Federated learning has shown its advances recently but is still facing many challenges, such as how algorithms save communication resources and reduce computational costs, and whether they converge. To address these critical issues, we propose a hybrid federated learning algorithm (FedGiA) that combines the gradient descent and the inexact alternating direction method of multipliers. The proposed algorithm is more communication- and computation-efficient than several state-of-the-art algorithms theoretically and numerically. Moreover, it also converges globally under mild conditions.",
+    "link": "http://arxiv.org/abs/2205.01438",
+    "context": "Title: FedGiA: An Efficient Hybrid Algorithm for Federated Learning. (arXiv:2205.01438v5 [cs.LG] UPDATED)\nAbstract: Federated learning has shown its advances recently but is still facing many challenges, such as how algorithms save communication resources and reduce computational costs, and whether they converge. To address these critical issues, we propose a hybrid federated learning algorithm (FedGiA) that combines the gradient descent and the inexact alternating direction method of multipliers. The proposed algorithm is more communication- and computation-efficient than several state-of-the-art algorithms theoretically and numerically. Moreover, it also converges globally under mild conditions.",
+    "path": "papers/22/05/2205.01438.json",
+    "total_tokens": 641,
+    "translated_title": "FedGiA: 一种高效的混合式联邦学习算法",
+    "translated_abstract": "联邦学习近来取得了进展，但仍面临许多挑战，如算法如何节省通信资源和降低计算成本，以及它们是否会收敛。为了解决这些关键问题，我们提出了一种混合联合学习算法（FedGiA），将梯度下降和不精确交替方向乘法方法相结合。所提出的算法在理论上和数值上比几种最先进的算法更具通信和计算效率。此外，在温和条件下，它还具有全局收敛性。",
+    "tldr": "FedGiA是一种高效的混合式联邦学习算法，能够更有效地节省通信和计算资源，并在温和条件下实现全局收敛。",
+    "en_tdlr": "FedGiA is an efficient hybrid federated learning algorithm that can save communication and computational resources more effectively and achieve global convergence under mild conditions."
+}

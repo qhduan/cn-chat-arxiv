@@ -1,0 +1,11 @@
+{
+    "title": "Indian Language Summarization using Pretrained Sequence-to-Sequence Models. (arXiv:2303.14461v1 [cs.CL])",
+    "abstract": "The ILSUM shared task focuses on text summarization for two major Indian languages- Hindi and Gujarati, along with English. In this task, we experiment with various pretrained sequence-to-sequence models to find out the best model for each of the languages. We present a detailed overview of the models and our approaches in this paper. We secure the first rank across all three sub-tasks (English, Hindi and Gujarati). This paper also extensively analyzes the impact of k-fold cross-validation while experimenting with limited data size, and we also perform various experiments with a combination of the original and a filtered version of the data to determine the efficacy of the pretrained models.",
+    "link": "http://arxiv.org/abs/2303.14461",
+    "context": "Title: Indian Language Summarization using Pretrained Sequence-to-Sequence Models. (arXiv:2303.14461v1 [cs.CL])\nAbstract: The ILSUM shared task focuses on text summarization for two major Indian languages- Hindi and Gujarati, along with English. In this task, we experiment with various pretrained sequence-to-sequence models to find out the best model for each of the languages. We present a detailed overview of the models and our approaches in this paper. We secure the first rank across all three sub-tasks (English, Hindi and Gujarati). This paper also extensively analyzes the impact of k-fold cross-validation while experimenting with limited data size, and we also perform various experiments with a combination of the original and a filtered version of the data to determine the efficacy of the pretrained models.",
+    "path": "papers/23/03/2303.14461.json",
+    "total_tokens": 793,
+    "translated_title": "使用预先训练的序列到序列模型的印度语言摘要",
+    "translated_abstract": "ILSUM共享任务专注于对印地语、古吉拉特语和英语三种主要语言进行文本摘要。在这个任务中，我们尝试了各种预先训练的序列到序列模型，以找出每种语言最佳的模型。本文提供了这些模型和我们方法的详细概述。我们在所有三个子任务（英语，印地语和古吉拉特语）中获得了第一名。我们还对有限数据大小进行了k倍交叉验证的影响进行了广泛分析，并进行了对原始数据和经过筛选的数据的组合进行各种实验，以确定预训练模型的有效性。",
+    "tldr": "本文介绍了使用预训练序列到序列模型进行印度语言文本摘要的研究。该研究在ILSUM shared task任务中获得了三个子任务的第一名，广泛分析了有限数据大小下的k倍交叉验证对结果的影响，并进行了各种实验验证了预训练模型的有效性。"
+}

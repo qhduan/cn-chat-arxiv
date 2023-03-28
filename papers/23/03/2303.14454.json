@@ -1,0 +1,12 @@
+{
+    "title": "Weighted Fair Division with Matroid-Rank Valuations: Monotonicity and Strategyproofness. (arXiv:2303.14454v1 [econ.TH])",
+    "abstract": "We study the problem of fairly allocating indivisible goods to agents with weights corresponding to their entitlements. Previous work has shown that, when agents have binary additive valuations, the maximum weighted Nash welfare rule is resource-, population-, and weight-monotone, satisfies group-strategyproofness, and can be implemented in polynomial time. We generalize these results to the class of weighted additive welfarist rules with concave functions and agents with matroid-rank (also known as binary submodular) valuations.",
+    "link": "http://arxiv.org/abs/2303.14454",
+    "context": "Title: Weighted Fair Division with Matroid-Rank Valuations: Monotonicity and Strategyproofness. (arXiv:2303.14454v1 [econ.TH])\nAbstract: We study the problem of fairly allocating indivisible goods to agents with weights corresponding to their entitlements. Previous work has shown that, when agents have binary additive valuations, the maximum weighted Nash welfare rule is resource-, population-, and weight-monotone, satisfies group-strategyproofness, and can be implemented in polynomial time. We generalize these results to the class of weighted additive welfarist rules with concave functions and agents with matroid-rank (also known as binary submodular) valuations.",
+    "path": "papers/23/03/2303.14454.json",
+    "total_tokens": 705,
+    "translated_title": "带有 matroid-rank 估值的加权公平分配：单调性与策略稳定性。",
+    "translated_abstract": "本文研究如何针对权益进行公平的不可分配物品分配问题。先前的研究表明，当普通代理人具有二元加性估值时，最大化的加权纳什福利规则符合资源、人口和权重单调性，满足群组策略稳定性，并且可以在多项式时间内实现。我们将这些结果推广到具有凸函数和 matroid-rank（也称为二元子模）估值的代理人组的加权加性福利规则类中。",
+    "tldr": "本文研究在代理人权益具有 matroid-rank 估值的情况下公平分配不可分配物品的问题，通过推广先前的研究结果，提出了一类具有群组策略稳定性的加权加性福利规则。",
+    "en_tdlr": "The paper studies the fair allocation of indivisible goods to agents with matroid-rank valuations, and generalizes previous results to a class of weighted additive welfarist rules with concave functions, showing group-strategyproofness."
+}

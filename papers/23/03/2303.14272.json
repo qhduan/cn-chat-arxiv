@@ -1,0 +1,12 @@
+{
+    "title": "Learning to Operate in Open Worlds by Adapting Planning Models. (arXiv:2303.14272v1 [cs.AI])",
+    "abstract": "Planning agents are ill-equipped to act in novel situations in which their domain model no longer accurately represents the world. We introduce an approach for such agents operating in open worlds that detects the presence of novelties and effectively adapts their domain models and consequent action selection. It uses observations of action execution and measures their divergence from what is expected, according to the environment model, to infer existence of a novelty. Then, it revises the model through a heuristics-guided search over model changes. We report empirical evaluations on the CartPole problem, a standard Reinforcement Learning (RL) benchmark. The results show that our approach can deal with a class of novelties very quickly and in an interpretable fashion.",
+    "link": "http://arxiv.org/abs/2303.14272",
+    "context": "Title: Learning to Operate in Open Worlds by Adapting Planning Models. (arXiv:2303.14272v1 [cs.AI])\nAbstract: Planning agents are ill-equipped to act in novel situations in which their domain model no longer accurately represents the world. We introduce an approach for such agents operating in open worlds that detects the presence of novelties and effectively adapts their domain models and consequent action selection. It uses observations of action execution and measures their divergence from what is expected, according to the environment model, to infer existence of a novelty. Then, it revises the model through a heuristics-guided search over model changes. We report empirical evaluations on the CartPole problem, a standard Reinforcement Learning (RL) benchmark. The results show that our approach can deal with a class of novelties very quickly and in an interpretable fashion.",
+    "path": "papers/23/03/2303.14272.json",
+    "total_tokens": 745,
+    "translated_title": "通过适应规划模型学习在开放环境中操作",
+    "translated_abstract": "规划代理在领域模型不能准确代表世界的新情况下无法很好地行动。我们引入了一种方法，使这种代理在开放环境中能够检测到新奇性并有效地适应其领域模型和相应的行动选择。它利用行动执行的观察和根据环境模型的预期测量它们的偏差来推断新奇性的存在。然后，它通过对模型变化的启发式搜索来修订模型。我们在标准强化学习基准测试问题CartPole上报告了实证评估结果。结果表明，我们的方法可以快速且可解释地处理一类新奇性。",
+    "tldr": "该论文提出了一种能够在开放环境中检测新奇性并快速适应其领域模型和行动选择的方法，具有解释性，表现良好。",
+    "en_tdlr": "The paper introduces an approach for planning agents to detect novelties and effectively adapt their models and actions in open worlds, and reports empirical evaluations on the CartPole problem, showing its quick and interpretable performance."
+}

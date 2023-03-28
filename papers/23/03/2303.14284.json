@@ -1,0 +1,12 @@
+{
+    "title": "Feature Space Sketching for Logistic Regression. (arXiv:2303.14284v1 [cs.LG])",
+    "abstract": "We present novel bounds for coreset construction, feature selection, and dimensionality reduction for logistic regression. All three approaches can be thought of as sketching the logistic regression inputs. On the coreset construction front, we resolve open problems from prior work and present novel bounds for the complexity of coreset construction methods. On the feature selection and dimensionality reduction front, we initiate the study of forward error bounds for logistic regression. Our bounds are tight up to constant factors and our forward error bounds can be extended to Generalized Linear Models.",
+    "link": "http://arxiv.org/abs/2303.14284",
+    "context": "Title: Feature Space Sketching for Logistic Regression. (arXiv:2303.14284v1 [cs.LG])\nAbstract: We present novel bounds for coreset construction, feature selection, and dimensionality reduction for logistic regression. All three approaches can be thought of as sketching the logistic regression inputs. On the coreset construction front, we resolve open problems from prior work and present novel bounds for the complexity of coreset construction methods. On the feature selection and dimensionality reduction front, we initiate the study of forward error bounds for logistic regression. Our bounds are tight up to constant factors and our forward error bounds can be extended to Generalized Linear Models.",
+    "path": "papers/23/03/2303.14284.json",
+    "total_tokens": 669,
+    "translated_title": "逻辑回归特征空间草图",
+    "translated_abstract": "我们提出了针对逻辑回归的coreset构建、特征选择和降维的新界限。这三种方法都可以视为逻辑回归输入的草图。在coreset构建方面，我们解决了之前工作中的问题，并提出了coreset构造方法的复杂度新界限。在特征选择和降维方面，我们开始研究逻辑回归的前向误差界限。我们的界限可以收紧，直到确定的因素为止，并且前向误差界限可以扩展到广义线性模型。",
+    "tldr": "该论文提出了基于草图的逻辑回归coreset构建、特征选择和降维的新界限，并解决了之前工作中存在的问题，并提出了可扩展到广义线性模型的前向误差界限。",
+    "en_tdlr": "This paper proposes novel bounds for coreset construction, feature selection, and dimensionality reduction for logistic regression using feature space sketching. The bounds are tight up to constant factors and the forward error bounds can be extended to Generalized Linear Models."
+}

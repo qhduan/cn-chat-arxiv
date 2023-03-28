@@ -1,0 +1,11 @@
+{
+    "title": "Deep Linear Discriminant Analysis with Variation for Polycystic Ovary Syndrome Classification. (arXiv:2303.14401v1 [cs.LG])",
+    "abstract": "The polycystic ovary syndrome diagnosis is a problem that can be leveraged using prognostication based learning procedures. Many implementations of PCOS can be seen with Machine Learning but the algorithms have certain limitations in utilizing the processing power graphical processing units. The simple machine learning algorithms can be improved with advanced frameworks using Deep Learning. The Linear Discriminant Analysis is a linear dimensionality reduction algorithm for classification that can be boosted in terms of performance using deep learning with Deep LDA, a transformed version of the traditional LDA. In this result oriented paper we present the Deep LDA implementation with a variation for prognostication of PCOS.",
+    "link": "http://arxiv.org/abs/2303.14401",
+    "context": "Title: Deep Linear Discriminant Analysis with Variation for Polycystic Ovary Syndrome Classification. (arXiv:2303.14401v1 [cs.LG])\nAbstract: The polycystic ovary syndrome diagnosis is a problem that can be leveraged using prognostication based learning procedures. Many implementations of PCOS can be seen with Machine Learning but the algorithms have certain limitations in utilizing the processing power graphical processing units. The simple machine learning algorithms can be improved with advanced frameworks using Deep Learning. The Linear Discriminant Analysis is a linear dimensionality reduction algorithm for classification that can be boosted in terms of performance using deep learning with Deep LDA, a transformed version of the traditional LDA. In this result oriented paper we present the Deep LDA implementation with a variation for prognostication of PCOS.",
+    "path": "papers/23/03/2303.14401.json",
+    "total_tokens": 767,
+    "translated_title": "带变化的深度线性判别分析在多囊卵巢综合症分类中的应用",
+    "translated_abstract": "多囊卵巢综合症诊断是一个可以利用预测学习程序来解决的问题。虽然机器学习的算法在多囊卵巢综合症的诊断方面被广泛使用，但是这些算法在利用图形处理器的处理能力方面存在一定的局限性。通过使用深度学习的先进框架，可以提高简单机器学习算法的性能。线性判别分析是一种用于分类的线性降维算法，可以通过使用深度学习的 Deep LDA 来提高其性能。本文介绍了基于 Deep LDA 的多囊卵巢综合症预测方案。",
+    "tldr": "本文介绍了基于 Deep LDA 的多囊卵巢综合症预测方案，采用带变化的深度线性判别分析算法，绕过简单机器学习算法利用图形处理器的限制，提高了诊断性能。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Beta-VAE has 2 Behaviors: PCA or ICA?. (arXiv:2303.14430v1 [cs.LG])",
+    "abstract": "Beta-VAE is a very classical model for disentangled representation learning, the use of an expanding bottleneck that allow information into the decoder gradually is key to representation disentanglement as well as high-quality reconstruction. During recent experiments on such fascinating structure, we discovered that the total amount of latent variables can affect the representation learnt by the network: with very few latent variables, the network tend to learn the most important or principal variables, acting like a PCA; with very large numbers of latent variables, the variables tend to be more disentangled, and act like an ICA. Our assumption is that the competition between latent variables while trying to gain the most information bandwidth can lead to this phenomenon.",
+    "link": "http://arxiv.org/abs/2303.14430",
+    "context": "Title: Beta-VAE has 2 Behaviors: PCA or ICA?. (arXiv:2303.14430v1 [cs.LG])\nAbstract: Beta-VAE is a very classical model for disentangled representation learning, the use of an expanding bottleneck that allow information into the decoder gradually is key to representation disentanglement as well as high-quality reconstruction. During recent experiments on such fascinating structure, we discovered that the total amount of latent variables can affect the representation learnt by the network: with very few latent variables, the network tend to learn the most important or principal variables, acting like a PCA; with very large numbers of latent variables, the variables tend to be more disentangled, and act like an ICA. Our assumption is that the competition between latent variables while trying to gain the most information bandwidth can lead to this phenomenon.",
+    "path": "papers/23/03/2303.14430.json",
+    "total_tokens": 736,
+    "translated_title": "Beta-VAE有两种表现形式：PCA或ICA？",
+    "translated_abstract": "Beta-VAE是一种非常经典的解缠表示学习模型，扩展瓶颈的使用可使信息逐渐进入解码器，这是表示解缠以及高质量重建的关键。在最近对这种迷人结构进行的实验中，我们发现潜在变量的总量可以影响网络学习到的表示：使用非常少的潜在变量时，网络倾向于学习最重要或主要的变量，表现得像一个PCA; 使用非常大量的潜在变量时，变量倾向于更加解缠，表现出类似ICA的特点。我们的假设是潜在变量之间为获取最大信息带宽而进行的竞争可能导致这一现象。",
+    "tldr": "Beta-VAE模型的表示学习效果受潜在变量总量影响：使用少量潜在变量时表现为PCA，使用大量潜在变量时表现为ICA。",
+    "en_tdlr": "The performance of Beta-VAE model for representation learning is affected by the total amount of latent variables: with few variables it behaves like PCA, with large numbers it behaves like ICA."
+}

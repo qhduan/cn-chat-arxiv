@@ -1,0 +1,12 @@
+{
+    "title": "Natural Language Processing in Ethiopian Languages: Current State, Challenges, and Opportunities. (arXiv:2303.14406v1 [cs.CL])",
+    "abstract": "This survey delves into the current state of natural language processing (NLP) for four Ethiopian languages: Amharic, Afaan Oromo, Tigrinya, and Wolaytta. Through this paper, we identify key challenges and opportunities for NLP research in Ethiopia. Furthermore, we provide a centralized repository on GitHub that contains publicly available resources for various NLP tasks in these languages. This repository can be updated periodically with contributions from other researchers. Our objective is to identify research gaps and disseminate the information to NLP researchers interested in Ethiopian languages and encourage future research in this domain.",
+    "link": "http://arxiv.org/abs/2303.14406",
+    "context": "Title: Natural Language Processing in Ethiopian Languages: Current State, Challenges, and Opportunities. (arXiv:2303.14406v1 [cs.CL])\nAbstract: This survey delves into the current state of natural language processing (NLP) for four Ethiopian languages: Amharic, Afaan Oromo, Tigrinya, and Wolaytta. Through this paper, we identify key challenges and opportunities for NLP research in Ethiopia. Furthermore, we provide a centralized repository on GitHub that contains publicly available resources for various NLP tasks in these languages. This repository can be updated periodically with contributions from other researchers. Our objective is to identify research gaps and disseminate the information to NLP researchers interested in Ethiopian languages and encourage future research in this domain.",
+    "path": "papers/23/03/2303.14406.json",
+    "total_tokens": 771,
+    "translated_title": "埃塞俄比亚语言中的自然语言处理：现状、挑战和机遇",
+    "translated_abstract": "本综述调查了埃塞俄比亚的四种语言（阿姆哈拉语、奥罗莫语、提格利尼亚语和沃拉伊塔语）的自然语言处理（NLP）目前的状况。通过本文，我们确定了埃塞俄比亚NLP研究的关键挑战和机遇。此外，我们提供了一个GitHub上的集中存储库，其中包含这些语言的各种NLP任务的公共资源。该存储库可以定期更新，从其他研究人员的贡献中得到完善。我们的目标是确定研究空白并将信息传播给对埃塞俄比亚语言感兴趣的NLP研究者，并鼓励未来在这一领域的研究。",
+    "tldr": "本论文调查了四种埃塞俄比亚语言的自然语言处理现状，提出了关键挑战和机遇，并提供了一个资源库以促进该领域的未来研究。",
+    "en_tdlr": "This survey presents the current state of natural language processing (NLP) for four Ethiopian languages, identifying key challenges and opportunities, and providing a repository to encourage future research in this domain."
+}

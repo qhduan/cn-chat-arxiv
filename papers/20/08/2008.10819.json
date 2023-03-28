@@ -1,0 +1,12 @@
+{
+    "title": "\"Near\" Weighted Utilitarian Characterizations of Pareto Optima. (arXiv:2008.10819v2 [econ.TH] UPDATED)",
+    "abstract": "We characterize Pareto optimality via \"near\" weighted utilitarian welfare maximization. One characterization sequentially maximizes utilitarian welfare functions using a finite sequence of nonnegative and eventually positive welfare weights. The other maximizes a utilitarian welfare function with a certain class of positive hyperreal weights. The social welfare ordering represented by these \"near\" weighted utilitarian welfare criteria is characterized by the standard axioms for weighted utilitarianism under a suitable weakening of the continuity axiom.",
+    "link": "http://arxiv.org/abs/2008.10819",
+    "context": "Title: \"Near\" Weighted Utilitarian Characterizations of Pareto Optima. (arXiv:2008.10819v2 [econ.TH] UPDATED)\nAbstract: We characterize Pareto optimality via \"near\" weighted utilitarian welfare maximization. One characterization sequentially maximizes utilitarian welfare functions using a finite sequence of nonnegative and eventually positive welfare weights. The other maximizes a utilitarian welfare function with a certain class of positive hyperreal weights. The social welfare ordering represented by these \"near\" weighted utilitarian welfare criteria is characterized by the standard axioms for weighted utilitarianism under a suitable weakening of the continuity axiom.",
+    "path": "papers/20/08/2008.10819.json",
+    "total_tokens": 625,
+    "translated_title": "\"接近\"加权 Utilitarian 描述 Pareto Optima",
+    "translated_abstract": "我们通过“接近”加权 Utilitarian 福利最大化来描述 Pareto 最优性。一种描述方法是使用非负的最终正福利权重序列依次最大化 Utilitarian 福利函数。另一种方法是使用一类具有正超实权重的 Utilitarian 福利函数。这些“接近”加权 Utilitarian 福利标准所代表的社会福利排序是通过一定程度上弱化连续性公理而描述的加权 Utilitarianism 标准公理。",
+    "tldr": "本文通过“接近”加权 Utilitarian 福利最大化来描述 Pareto 最优性。这些标准所代表的社会福利排序是通过弱化连续性公理得出的加权 Utilitarianism 标准公理。",
+    "en_tdlr": "This paper characterizes Pareto optimality through \"near\" weighted utilitarian welfare maximization, which is represented by weighted utilitarianism under a suitable weakening of the continuity axiom."
+}

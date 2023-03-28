@@ -1,0 +1,12 @@
+{
+    "title": "Fictitious Play Outperforms Counterfactual Regret Minimization. (arXiv:2001.11165v7 [cs.GT] UPDATED)",
+    "abstract": "We compare the performance of two popular algorithms, fictitious play and counterfactual regret minimization, in approximating Nash equilibrium in multiplayer games. Despite recent success of counterfactual regret minimization in multiplayer poker and conjectures of its superiority, we show that fictitious play leads to improved Nash equilibrium approximation over a variety of game classes and sizes.",
+    "link": "http://arxiv.org/abs/2001.11165",
+    "context": "Title: Fictitious Play Outperforms Counterfactual Regret Minimization. (arXiv:2001.11165v7 [cs.GT] UPDATED)\nAbstract: We compare the performance of two popular algorithms, fictitious play and counterfactual regret minimization, in approximating Nash equilibrium in multiplayer games. Despite recent success of counterfactual regret minimization in multiplayer poker and conjectures of its superiority, we show that fictitious play leads to improved Nash equilibrium approximation over a variety of game classes and sizes.",
+    "path": "papers/20/01/2001.11165.json",
+    "total_tokens": 592,
+    "translated_title": "Fictitious Play优于Counterfactual Regret Minimization",
+    "translated_abstract": "本文比较了两种广受欢迎的算法——Fictitious Play和Counterfactual Regret Minimization在近似多人博弈Nash均衡方面的表现。虽然Counterfactual Regret Minimization在多人扑克中取得了较大成功并被认为是更优秀的算法，但我们展示了Fictitious Play在各种类别和规模的游戏中都可以带来更好的Nash均衡近似效果。",
+    "tldr": "本研究比较了两种算法在近似多人博弈Nash均衡方面的表现，结果发现Fictitious Play比Counterfactual Regret Minimization更优秀。",
+    "en_tdlr": "This study compares the performance of two algorithms, Fictitious Play and Counterfactual Regret Minimization, in approximating Nash equilibrium in multiplayer games and found that Fictitious Play outperforms Counterfactual Regret Minimization."
+}

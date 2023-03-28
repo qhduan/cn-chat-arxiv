@@ -1,0 +1,12 @@
+{
+    "title": "repliclust: Synthetic Data for Cluster Analysis. (arXiv:2303.14301v1 [cs.LG])",
+    "abstract": "We present repliclust (from repli-cate and clust-er), a Python package for generating synthetic data sets with clusters. Our approach is based on data set archetypes, high-level geometric descriptions from which the user can create many different data sets, each possessing the desired geometric characteristics. The architecture of our software is modular and object-oriented, decomposing data generation into algorithms for placing cluster centers, sampling cluster shapes, selecting the number of data points for each cluster, and assigning probability distributions to clusters. The project webpage, repliclust.org, provides a concise user guide and thorough documentation.",
+    "link": "http://arxiv.org/abs/2303.14301",
+    "context": "Title: repliclust: Synthetic Data for Cluster Analysis. (arXiv:2303.14301v1 [cs.LG])\nAbstract: We present repliclust (from repli-cate and clust-er), a Python package for generating synthetic data sets with clusters. Our approach is based on data set archetypes, high-level geometric descriptions from which the user can create many different data sets, each possessing the desired geometric characteristics. The architecture of our software is modular and object-oriented, decomposing data generation into algorithms for placing cluster centers, sampling cluster shapes, selecting the number of data points for each cluster, and assigning probability distributions to clusters. The project webpage, repliclust.org, provides a concise user guide and thorough documentation.",
+    "path": "papers/23/03/2303.14301.json",
+    "total_tokens": 707,
+    "translated_title": "repliclust：聚类分析的合成数据",
+    "translated_abstract": "我们介绍了 repliclust（来自于 repli-cate 和 clust-er），这是一个用于生成具有聚类的合成数据集的 Python 包。我们的方法基于数据集的原型，即高级几何描述，用户可以从中创建许多不同的数据集，并具有所需的几何特性。我们软件的架构是模块化和面向对象的，将数据生成分解成放置集群中心的算法、采样集群形状的算法、选择每个集群的数据点数量的算法以及为集群分配概率分布的算法。repliclust.org 项目网页提供了简明的用户指南和全面的文档。",
+    "tldr": "repliclust 是一个 Python 包，用于生成具有聚类的合成数据集，基于数据集的原型，提供了放置集群中心、采样集群形状、选择每个集群的数据点数量以及为集群分配概率分布的算法。",
+    "en_tdlr": "repliclust is a Python package that generates synthetic datasets with clusters based on dataset archetypes, providing algorithms for placing cluster centers, sampling cluster shapes, selecting the number of datapoints for each cluster, and assigning probability distributions to clusters."
+}

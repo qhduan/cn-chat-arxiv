@@ -1,0 +1,12 @@
+{
+    "title": "On the Connection between Temperature and Volatility in Ideal Agent Systems. (arXiv:2303.15164v1 [q-fin.ST])",
+    "abstract": "Models for spin systems known from statistical physics are applied by analogy in econometrics in the form of agent-based models. Researchers suggest that the state variable temperature $T$ corresponds to volatility $\\sigma$ in capital market theory problems. To the best of our knowledge, this has not yet been theoretically derived, for example, for an ideal agent system. In the present paper, we derive the exact algebraic relation between $T$ and $\\sigma$ for an ideal agent system and discuss implications and limitations.",
+    "link": "http://arxiv.org/abs/2303.15164",
+    "context": "Title: On the Connection between Temperature and Volatility in Ideal Agent Systems. (arXiv:2303.15164v1 [q-fin.ST])\nAbstract: Models for spin systems known from statistical physics are applied by analogy in econometrics in the form of agent-based models. Researchers suggest that the state variable temperature $T$ corresponds to volatility $\\sigma$ in capital market theory problems. To the best of our knowledge, this has not yet been theoretically derived, for example, for an ideal agent system. In the present paper, we derive the exact algebraic relation between $T$ and $\\sigma$ for an ideal agent system and discuss implications and limitations.",
+    "path": "papers/23/03/2303.15164.json",
+    "total_tokens": 611,
+    "translated_title": "关于理想代理系统中温度和波动性之间的联系",
+    "translated_abstract": "经济计量学中的基于代理的模型，借鉴了统计物理学中所知的自旋系统，研究者认为状态变量温度 $T$ 与资本市场理论问题中的波动率 $\\sigma$ 相应。但是，到目前为止，例如对于理想代理系统，尚未从理论上推导出这一点。本文推导了理想代理系统中 $T$ 和 $\\sigma$ 之间的精确代数关系，并讨论了其影响和局限性。",
+    "tldr": "本文推导出理想代理系统中 $T$ 和 $\\sigma$ 之间的精确代数关系。",
+    "en_tdlr": "This paper derives the exact algebraic relation between $T$ and $\\sigma$ for an ideal agent system in which the temperature $T$ corresponds to the volatility $\\sigma$ in capital market theory problems."
+}

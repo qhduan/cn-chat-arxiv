@@ -1,0 +1,12 @@
+{
+    "title": "Utilizing Network Properties to Detect Erroneous Inputs. (arXiv:2002.12520v3 [cs.CV] UPDATED)",
+    "abstract": "Neural networks are vulnerable to a wide range of erroneous inputs such as adversarial, corrupted, out-of-distribution, and misclassified examples. In this work, we train a linear SVM classifier to detect these four types of erroneous data using hidden and softmax feature vectors of pre-trained neural networks. Our results indicate that these faulty data types generally exhibit linearly separable activation properties from correct examples, giving us the ability to reject bad inputs with no extra training or overhead. We experimentally validate our findings across a diverse range of datasets, domains, pre-trained models, and adversarial attacks.",
+    "link": "http://arxiv.org/abs/2002.12520",
+    "context": "Title: Utilizing Network Properties to Detect Erroneous Inputs. (arXiv:2002.12520v3 [cs.CV] UPDATED)\nAbstract: Neural networks are vulnerable to a wide range of erroneous inputs such as adversarial, corrupted, out-of-distribution, and misclassified examples. In this work, we train a linear SVM classifier to detect these four types of erroneous data using hidden and softmax feature vectors of pre-trained neural networks. Our results indicate that these faulty data types generally exhibit linearly separable activation properties from correct examples, giving us the ability to reject bad inputs with no extra training or overhead. We experimentally validate our findings across a diverse range of datasets, domains, pre-trained models, and adversarial attacks.",
+    "path": "papers/20/02/2002.12520.json",
+    "total_tokens": 760,
+    "translated_title": "利用网络特性检测错误输入",
+    "translated_abstract": "神经网络容易受到各种错误输入的影响，包括对抗性、损坏的、超出分布范围的和误分类的示例。本研究利用预训练神经网络的隐藏特征向量和softmax特征向量，训练一个线性SVM分类器来检测这四种类型的错误数据。结果表明，这些错误数据通常表现出与正确示例的线性可分激活属性，使我们能够拒绝坏的输入而无需额外的训练或开销。我们在各种数据集、领域、预训练模型和对抗攻击上实验证实了我们的发现。",
+    "tldr": "本研究利用预训练神经网络的特征向量，训练线性SVM分类器，通过检测隐藏特征向量和softmax特征向量的线性可分性，来识别四种类型的错误数据，包括对抗攻击、损坏的、超出分布范围和误分类的示例。",
+    "en_tdlr": "This study trains a linear SVM classifier using feature vectors of pre-trained neural networks to detect four types of erroneous data, including adversarial, corrupted, out-of-distribution, and misclassified examples, by detecting their linearly separable activation properties. The findings are experimentally validated across diverse datasets, domains, pre-trained models, and adversarial attacks."
+}

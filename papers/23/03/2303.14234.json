@@ -1,0 +1,12 @@
+{
+    "title": "SIGMORPHON 2023 Shared Task of Interlinear Glossing: Baseline Model. (arXiv:2303.14234v1 [cs.CL])",
+    "abstract": "Language documentation is a critical aspect of language preservation, often including the creation of Interlinear Glossed Text (IGT). Creating IGT is time-consuming and tedious, and automating the process can save valuable annotator effort.  This paper describes the baseline system for the SIGMORPHON 2023 Shared Task of Interlinear Glossing. In our system, we utilize a transformer architecture and treat gloss generation as a sequence labelling task.",
+    "link": "http://arxiv.org/abs/2303.14234",
+    "context": "Title: SIGMORPHON 2023 Shared Task of Interlinear Glossing: Baseline Model. (arXiv:2303.14234v1 [cs.CL])\nAbstract: Language documentation is a critical aspect of language preservation, often including the creation of Interlinear Glossed Text (IGT). Creating IGT is time-consuming and tedious, and automating the process can save valuable annotator effort.  This paper describes the baseline system for the SIGMORPHON 2023 Shared Task of Interlinear Glossing. In our system, we utilize a transformer architecture and treat gloss generation as a sequence labelling task.",
+    "path": "papers/23/03/2303.14234.json",
+    "total_tokens": 608,
+    "translated_title": "SIGMORPHON 2023交互示范的基线模型",
+    "translated_abstract": "语言文献是语言保护的关键方面，通常包括创建交互式标注文本（IGT）。创建IGT费时且繁琐，自动化处理可以节省宝贵的人力成本。本文介绍了SIGMORPHON 2023交互示范的基线系统。在我们的系统中，我们利用变压器架构，并将内插发生视为序列标记任务。",
+    "tldr": "本文介绍了SIGMORPHON 2023交互示范的基线系统，利用变压器架构，将内插发生视为序列标记任务，实现了IGT的自动处理。",
+    "en_tdlr": "This paper describes the baseline system for the SIGMORPHON 2023 Shared Task of Interlinear Glossing, utilizing a transformer architecture and treating gloss generation as a sequence labelling task, achieving automatic processing of IGT."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Consistent and Truthful Interpretation with Fourier Analysis. (arXiv:2210.17426v1 [cs.LG] CROSS LISTED)",
+    "abstract": "For many interdisciplinary fields, ML interpretations need to be consistent with what-if scenarios related to the current case, i.e., if one factor changes, how does the model react? Although the attribution methods are supported by the elegant axiomatic systems, they mainly focus on individual inputs, and are generally inconsistent. To support what-if scenarios, we introduce a new notion called truthful interpretation, and apply Fourier analysis of Boolean functions to get rigorous guarantees. Experimental results show that for neighborhoods with various radii, our method achieves 2x - 50x lower interpretation error compared with the other methods.",
+    "link": "http://arxiv.org/abs/2210.17426",
+    "context": "Title: Consistent and Truthful Interpretation with Fourier Analysis. (arXiv:2210.17426v1 [cs.LG] CROSS LISTED)\nAbstract: For many interdisciplinary fields, ML interpretations need to be consistent with what-if scenarios related to the current case, i.e., if one factor changes, how does the model react? Although the attribution methods are supported by the elegant axiomatic systems, they mainly focus on individual inputs, and are generally inconsistent. To support what-if scenarios, we introduce a new notion called truthful interpretation, and apply Fourier analysis of Boolean functions to get rigorous guarantees. Experimental results show that for neighborhoods with various radii, our method achieves 2x - 50x lower interpretation error compared with the other methods.",
+    "path": "papers/22/10/2210.17426.json",
+    "total_tokens": 715,
+    "translated_title": "傅立叶分析实现一致且真实的模型解释",
+    "translated_abstract": "对于许多跨学科领域，机器学习的解释需要与当前案例相关的假设情景一致，即如果一个因素改变，模型会如何反应？尽管归因方法由优雅的公理系统支持，但它们主要关注单个输入，并且通常不一致。为支持假设情景，我们引入了一个称为真实解释的新概念，并应用布尔函数的傅立叶分析来获得严格的保证。实验结果表明，对于各种半径的邻域，我们的方法与其他方法相比，可以实现2倍至50倍更低的解释误差。",
+    "tldr": "该论文提出了一个称为真实解释的新概念，通过傅立叶分析获得严格保证，并在实验中证明了其在支持假设情景和降低解释误差方面的优势。",
+    "en_tdlr": "This paper proposes a new concept called truthful interpretation, which is supported by rigorous guarantees through Fourier analysis of Boolean functions. The experimental results demonstrate the advantage of the method in supporting what-if scenarios and reducing interpretation error compared to other methods."
+}

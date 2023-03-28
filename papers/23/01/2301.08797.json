@@ -1,0 +1,12 @@
+{
+    "title": "When do Default Nudges Work?. (arXiv:2301.08797v3 [econ.GN] UPDATED)",
+    "abstract": "Nudging is a burgeoning topic in science and in policy, but evidence on the effectiveness of nudges among differentially-incentivized groups is lacking. This paper exploits regional variations in the roll-out of the Covid-19 vaccine in Sweden to examine the effect of a nudge on groups whose intrinsic incentives are different: 16-17-year-olds, for whom Covid-19 is not dangerous, and 50-59-year-olds, who face a substantial risk of death or severe dis-ease. We find a significantly stronger response in the younger group, consistent with the theory that nudges are more effective for choices that are not meaningful to the individual.",
+    "link": "http://arxiv.org/abs/2301.08797",
+    "context": "Title: When do Default Nudges Work?. (arXiv:2301.08797v3 [econ.GN] UPDATED)\nAbstract: Nudging is a burgeoning topic in science and in policy, but evidence on the effectiveness of nudges among differentially-incentivized groups is lacking. This paper exploits regional variations in the roll-out of the Covid-19 vaccine in Sweden to examine the effect of a nudge on groups whose intrinsic incentives are different: 16-17-year-olds, for whom Covid-19 is not dangerous, and 50-59-year-olds, who face a substantial risk of death or severe dis-ease. We find a significantly stronger response in the younger group, consistent with the theory that nudges are more effective for choices that are not meaningful to the individual.",
+    "path": "papers/23/01/2301.08797.json",
+    "total_tokens": 716,
+    "translated_title": "默认提示什么时候有效?",
+    "translated_abstract": "提示是科学和政策上一个新兴的话题，但不同激励群体中的提示效果的证据还不足。本文利用瑞典Covid-19疫苗推出过程中的区域变化，研究了对激励有差异的群体的提示效果：对于16-17岁的孩子，Covid-19不危险，而50-59岁的人则面临着严重疾病或死亡的巨大风险。我们发现，年轻人的反应显著强烈，这与提示对于个人无意义的选择更有效的理论相一致。",
+    "tldr": "通过在瑞典Covid-19疫苗推出中的区域变化，研究了对激励有差异的群体的提示效果，结果显示提示对于个人无意义的选择更有效。",
+    "en_tdlr": "This study examines the effectiveness of nudges on groups with different intrinsic incentives using regional variations in the roll-out of the Covid-19 vaccine in Sweden, and finds that nudges are more effective for choices that are not meaningful to the individual."
+}

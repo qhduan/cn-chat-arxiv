@@ -1,0 +1,12 @@
+{
+    "title": "The Impossibility of Parallelizing Boosting. (arXiv:2301.09627v2 [cs.LG] UPDATED)",
+    "abstract": "The aim of boosting is to convert a sequence of weak learners into a strong learner. At their heart, these methods are fully sequential. In this paper, we investigate the possibility of parallelizing boosting. Our main contribution is a strong negative result, implying that significant parallelization of boosting requires an exponential blow-up in the total computing resources needed for training.",
+    "link": "http://arxiv.org/abs/2301.09627",
+    "context": "Title: The Impossibility of Parallelizing Boosting. (arXiv:2301.09627v2 [cs.LG] UPDATED)\nAbstract: The aim of boosting is to convert a sequence of weak learners into a strong learner. At their heart, these methods are fully sequential. In this paper, we investigate the possibility of parallelizing boosting. Our main contribution is a strong negative result, implying that significant parallelization of boosting requires an exponential blow-up in the total computing resources needed for training.",
+    "path": "papers/23/01/2301.09627.json",
+    "total_tokens": 516,
+    "translated_title": "Boosting算法的并行化不可能性研究",
+    "translated_abstract": "Boosting算法的目标是将一系列弱学习器集成成一个强学习器。然而，这些方法都是完全顺序的。本文研究了Boosting算法的并行化可能性，发现了一个强烈的负面结果，即显著的并行化需要指数级别的计算资源来完成训练。",
+    "tldr": "Boosting算法无法进行有效的并行化，需要指数级别的计算资源，否则并行化的效果并不显著。",
+    "en_tdlr": "It is impossible to parallelize Boosting algorithm effectively as it requires exponential computing resources, which provides a strong negative result."
+}

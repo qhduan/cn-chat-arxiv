@@ -1,0 +1,12 @@
+{
+    "title": "On the Connection between $L_p$ and Risk Consistency and its Implications on Regularized Kernel Methods. (arXiv:2303.15210v1 [stat.ML])",
+    "abstract": "As a predictor's quality is often assessed by means of its risk, it is natural to regard risk consistency as a desirable property of learning methods, and many such methods have indeed been shown to be risk consistent. The first aim of this paper is to establish the close connection between risk consistency and $L_p$-consistency for a considerably wider class of loss functions than has been done before. The attempt to transfer this connection to shifted loss functions surprisingly reveals that this shift does not reduce the assumptions needed on the underlying probability measure to the same extent as it does for many other results. The results are applied to regularized kernel methods such as support vector machines.",
+    "link": "http://arxiv.org/abs/2303.15210",
+    "context": "Title: On the Connection between $L_p$ and Risk Consistency and its Implications on Regularized Kernel Methods. (arXiv:2303.15210v1 [stat.ML])\nAbstract: As a predictor's quality is often assessed by means of its risk, it is natural to regard risk consistency as a desirable property of learning methods, and many such methods have indeed been shown to be risk consistent. The first aim of this paper is to establish the close connection between risk consistency and $L_p$-consistency for a considerably wider class of loss functions than has been done before. The attempt to transfer this connection to shifted loss functions surprisingly reveals that this shift does not reduce the assumptions needed on the underlying probability measure to the same extent as it does for many other results. The results are applied to regularized kernel methods such as support vector machines.",
+    "path": "papers/23/03/2303.15210.json",
+    "total_tokens": 760,
+    "translated_title": "$L_p$与风险一致性之间的联系及其对正则化内核方法的影响",
+    "translated_abstract": "由于预测质量经常通过其风险进行评估，因此将风险一致性视为学习方法的理想性质是很自然的，确实已经证明了许多这样的方法具有风险一致性。本文的第一个目的是在比以前更广泛的损失函数类别中建立$L_p$一致性与风险一致性之间的密切联系。尝试将此联系转移到移位损失函数，惊人地发现，与其他许多结果相比，这种移位并不能减少必须对基础概率度量做出的假设。结果应用于正则化内核方法，例如支持向量机。",
+    "tldr": "本文阐明了$L_p$-一致性和风险一致性之间的密切关系，特别在移位损失函数中发现了新的规律，这对于正则化内核方法具有重要意义。",
+    "en_tdlr": "This paper establishes the close connection between $L_p$-consistency and risk consistency for a wider class of loss functions, and reveals new patterns in shifted loss functions, which is of great significance for regularized kernel methods, such as support vector machines."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Sensitivity Analysis in Unconditional Quantile Effects. (arXiv:2303.14298v1 [econ.EM])",
+    "abstract": "This paper proposes a framework to analyze the effects of counterfactual policies on the unconditional quantiles of an outcome variable. For a given counterfactual policy, we obtain identified sets for the effect of both marginal and global changes in the proportion of treated individuals. To conduct a sensitivity analysis, we introduce the quantile breakdown frontier, a curve that (i) indicates whether a sensitivity analysis if possible or not, and (ii) when a sensitivity analysis is possible, quantifies the amount of selection bias consistent with a given conclusion of interest across different quantiles. To illustrate our method, we perform a sensitivity analysis on the effect of unionizing low income workers on the quantiles of the distribution of (log) wages.",
+    "link": "http://arxiv.org/abs/2303.14298",
+    "context": "Title: Sensitivity Analysis in Unconditional Quantile Effects. (arXiv:2303.14298v1 [econ.EM])\nAbstract: This paper proposes a framework to analyze the effects of counterfactual policies on the unconditional quantiles of an outcome variable. For a given counterfactual policy, we obtain identified sets for the effect of both marginal and global changes in the proportion of treated individuals. To conduct a sensitivity analysis, we introduce the quantile breakdown frontier, a curve that (i) indicates whether a sensitivity analysis if possible or not, and (ii) when a sensitivity analysis is possible, quantifies the amount of selection bias consistent with a given conclusion of interest across different quantiles. To illustrate our method, we perform a sensitivity analysis on the effect of unionizing low income workers on the quantiles of the distribution of (log) wages.",
+    "path": "papers/23/03/2303.14298.json",
+    "total_tokens": 713,
+    "translated_title": "无条件分位数效应的敏感性分析",
+    "translated_abstract": "本文提出了一个分析反事实政策对结果变量无条件分位数效应的框架。对于给定的反事实政策，我们得到了边际和全局变化影响的效应可识别集。为了进行敏感性分析，我们引入了分位数分解边界，一条曲线，它（i）指示是否有可能进行敏感性分析，（ii）当存在敏感性分析时，它量化了在不同分位数上与感兴趣的结论一致的选择偏差量。为了说明我们的方法，我们对组织低收入工人的效应在工资（对数）的分布的不同分位数上进行了敏感性分析。",
+    "tldr": "本文提出了一个分析反事实政策对结果变量无条件分位数效应的框架，通过分位数分解边界进行敏感性分析。",
+    "en_tdlr": "This paper proposes a framework to analyze the effects of counterfactual policies on the unconditional quantiles of an outcome variable, and conducts sensitivity analysis through the quantile breakdown frontier."
+}
