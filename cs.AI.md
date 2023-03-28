@@ -67,51 +67,52 @@
 | [^63] | [Editing Language Model-based Knowledge Graph Embeddings.](http://arxiv.org/abs/2301.10405) | 本文提出了一种新的任务——编辑基于语言模型的知识图谱嵌入，旨在实现对KG嵌入的数据高效和快速更新。针对这一任务，提出了一个简单而强大的方案——KGEditor，可以更好地更新特定事实而不影响其余部分的性能。 |
 | [^64] | [Open-World Multi-Task Control Through Goal-Aware Representation Learning and Adaptive Horizon Prediction.](http://arxiv.org/abs/2301.10034) | 该论文提出了一种解决多任务控制中面临的开放世界挑战的新方法，即通过Goal-Sensitive Backbone鼓励出现与目标相关的视觉状态表示，并通过自适应视野预测模块来减轻非静态动态引起的学习不确定性。 |
 | [^65] | [PIRLNav: Pretraining with Imitation and RL Finetuning for ObjectNav.](http://arxiv.org/abs/2301.07302) | 本文提出了PIRLNav，通过人类演示的BC预训练和RL微调两个阶段的学习方案，成功率达到ObjectNav的65.0％，比以前的最新技术高5.0％。 |
-| [^66] | [Towards Scalable Physically Consistent Neural Networks: an Application to Data-driven Multi-zone Thermal Building Models.](http://arxiv.org/abs/2212.12380) | 本论文研究了物理一致神经网络(PCNNs) 在模拟建筑温度动态方面的扩展性和准确性。结果发现，PCNNs既确保了物理一致性，同时又能在复杂的多区域热建筑模型中取得高精度的性能表现，且在可用数据量有限的情况下超越经典灰盒模型，具有可扩展性优势。 |
-| [^67] | [On Calibrating Semantic Segmentation Models: Analyses and An Algorithm.](http://arxiv.org/abs/2212.12053) | 本文系统研究了语义分割模型的校准问题，提出了一种简单而有效的方法——选择性缩放，通过将正确/错误预测分开进行缩放，并更加关注错误预测的逻辑平滑，此方法在语义分割校准上取得了良好效果。 |
-| [^68] | [RepMode: Learning to Re-parameterize Diverse Experts for Subcellular Structure Prediction.](http://arxiv.org/abs/2212.10066) | 本文提出了RepMode，一种网络，利用任务感知的先验动态组织其参数以处理亚细胞结构预测等指定的单标签预测任务。 |
-| [^69] | [Expanding Knowledge Graphs with Humans in the Loop.](http://arxiv.org/abs/2212.05189) | 本文提出了一种与人类互动的方法扩展知识图谱，通过预测新概念的“父母”，然后由人类专家进一步验证。该方法能够保证预测的父母距离概念的真实父母“近”，能够提高人算协作的速度和准确性，并在新闻和娱乐领域的真实数据集上得到了验证。 |
-| [^70] | [Fine-tuned CLIP Models are Efficient Video Learners.](http://arxiv.org/abs/2212.03640) | 本文提出了一个简单的视频细调CLIP（ViFi-CLIP）基线，通过从CLIP图像编码器的帧级处理，接着进行特征池化和与相应文本嵌入的相似度匹配，有效地将图像级别的CLIP表示转移到视频中，从而弥合了从图像到视频的领域差距。 |
-| [^71] | [Diffusion Video Autoencoders: Toward Temporally Consistent Face Video Editing via Disentangled Video Encoding.](http://arxiv.org/abs/2212.02802) | 本文提出了一种基于扩散自编码器的面部视频编辑框架，可以从给定的视频中提取出分解的特征，实现简单的特征调整来确保时间上的一致性。与现有的基于GAN的方法不同，该模型同时满足重建和编辑能力，并且对受野外面部视频的角落情况具有鲁棒性。 |
-| [^72] | [Optimizing Explanations by Network Canonization and Hyperparameter Search.](http://arxiv.org/abs/2211.17174) | 这篇论文介绍了新的解释人工智能方法，通过网络规范化和超参数搜索来提高解释效果。 |
-| [^73] | [Shifted Diffusion for Text-to-image Generation.](http://arxiv.org/abs/2211.15388) | 本文提出了一种新的文本到图像生成方法，使用Shifted Diffusion模型更好地生成来自输入文本的图像嵌入，并通过大量实验和评估证明了其在效率和有效性方面的优势，同时支持半监督和无语言训练。 |
-| [^74] | [Multi-Modal Few-Shot Temporal Action Detection.](http://arxiv.org/abs/2211.14905) | 提出了一个新的多模态少样本时间动作检测问题，针对这个问题提出了一个新的 MUPPET 方法，通过在视觉-语言模型中构建多模态提示，并使用多模态聚类算法来组合时序连续的片段，解决了问题。在少样本和零样本场景下表现出了优越性，并验证了不同组件的有效性。 |
-| [^75] | [On Designing Light-Weight Object Trackers through Network Pruning: Use CNNs or Transformers?.](http://arxiv.org/abs/2211.13769) | 本文介绍了如何通过神经网络结构剪枝技术设计压缩版的高度压缩轻量级物体跟踪器。通过对CNN和Transformers跟踪器的比较研究，揭示出在设计轻量级跟踪器时的最佳架构选择。最后，提供了极端剪枝率的跟踪结果，可能有助于更好地了解网络剪枝在物体跟踪中的限制。 |
-| [^76] | [Visually Grounded Commonsense Knowledge Acquisition.](http://arxiv.org/abs/2211.12054) | 本文介绍了CLEVER，一种以视觉-语言预训练模型为基础的常识知识提取方法，通过包含有关实体对的图像包汇总出常识关系，避免了对图像实例进行人工注释的问题。 |
-| [^77] | [Minimizing the Accumulated Trajectory Error to Improve Dataset Distillation.](http://arxiv.org/abs/2211.11004) | 通过新增损失项最小化累积轨迹误差，从而提高数据集精炼效果，并且在多种数据集和网络架构上的实验证明该方法优于当前最先进的方法。 |
-| [^78] | [Fraudulent User Detection Via Behavior Information Aggregation Network (BIAN) On Large-Scale Financial Social Network.](http://arxiv.org/abs/2211.06315) | 本文提出了一款新颖的行为信息聚合网络（BIAN），可以同时考虑用户的个人资料、行为以及社交联系，以有效检测金融欺诈。 |
-| [^79] | [DynamicISP: Dynamically Controlled Image Signal Processor for Image Recognition.](http://arxiv.org/abs/2211.01146) | DynamicISP是一个动态控制图像信号处理器，能够根据前一帧的识别结果自动调整每帧的参数，实现高精度的单类别和多类别物体检测任务，同时计算成本低。 |
-| [^80] | [Consistent and Truthful Interpretation with Fourier Analysis.](http://arxiv.org/abs/2210.17426) | 该论文提出了一个称为真实解释的新概念，通过傅立叶分析获得严格保证，并在实验中证明了其在支持假设情景和降低解释误差方面的优势。 |
-| [^81] | [LongShortNet: Exploring Temporal and Semantic Features Fusion in Streaming Perception.](http://arxiv.org/abs/2210.15518) | LongShortNet是一种基于双路径网络的流式感知方法，它结合了长期时间运动和短期空间语义，实现了时空特征融合。在Argoverse-HD数据集上，LongShortNet表现出优异的检测性能，并且几乎不需要额外的计算成本。 |
-| [^82] | [ProContEXT: Exploring Progressive Context Transformer for Tracking.](http://arxiv.org/abs/2210.15511) | 本文提出了基于递进的上下文变换机制的目标跟踪方法 ProContEXT，采用上下文感知的自注意力模块对空间和时间上下文进行编码，逐步利用静态和动态多尺度模板进行准确跟踪。它探索了空间和时间上下文之间的互补性，为基于 transformer 的跟踪器的多上下文建模提供了新的途径。 |
-| [^83] | [Broken Neural Scaling Laws.](http://arxiv.org/abs/2210.14891) | 本文提出了一个平滑破碎的幂律函数形式，可以准确地模拟和外推深度神经网络的缩放行为，适用于各种架构和大量不同任务，包括视觉、语言、音频、视频、生成建模、对比学习、机器人、不确定性估计/校准、对抗鲁棒性、分子、计算机编程/编码、数学单词问题、算术、无监督/自监督学习和强化学习。 |
-| [^84] | [TFAD: A Decomposition Time Series Anomaly Detection Architecture with Time-Frequency Analysis.](http://arxiv.org/abs/2210.09693) | 本文提出了一种基于时频分析的时间序列异常检测模型 TFAD。在设计的时频架构中，同时加入了时间序列分解和数据增强机制，以提升性能和解释性能力。在广泛使用的基准数据集上，实证研究表明，该方法在单变量和多变量时间序列异常检测任务中性能最佳。 |
-| [^85] | [An Equal-Size Hard EM Algorithm for Diverse Dialogue Generation.](http://arxiv.org/abs/2209.14627) | 本文提出了一种平衡约束的等大小硬EM算法，用于训练多解码器模型以实现多样的对话生成，可在小型模型中生成高质量的多样化响应。 |
-| [^86] | [All are Worth Words: A ViT Backbone for Diffusion Models.](http://arxiv.org/abs/2209.12152) | 本文提出了一种适用于扩散模型的ViT骨干网络U-ViT，用于图像生成任务，相较于传统基于CNN的U-Net模型，U-ViT具有可比甚至更好的性能，甚至在某些任务中创造了新的FID分数记录。 |
-| [^87] | [CNN based Intelligent Streetlight Management Using Smart CCTV Camera and Semantic Segmentation.](http://arxiv.org/abs/2209.08633) | 本研究提出了一种基于智能交通监测系统和CCTV相机的自动化路灯控制方法，利用语义分割技术检测行人或车辆的存在并调节LED路灯的亮度，减少了能源浪费和环境影响。 |
-| [^88] | [Attention-aware Resource Allocation and QoE Analysis for Metaverse xURLLC Services.](http://arxiv.org/abs/2208.05438) | 本文研究了元宇宙xURLLC服务资源分配和QoE分析，提出了一个最优合同设计框架。在数学上模拟QoE的新型度量标准Meta-Immersion有助于在满足客户端物理需求的情况下，提供个性化沉浸式体验。 |
-| [^89] | [AI-driven Hypergraph Network of Organic Chemistry: Network Statistics and Applications in Reaction Classification.](http://arxiv.org/abs/2208.01647) | 本文通过将化学反应表示为超图，构建了基于AI的有机化学超图网络并进行了统计研究，为反应分类提供了新思路。 |
-| [^90] | [Online Knowledge Distillation via Mutual Contrastive Learning for Visual Recognition.](http://arxiv.org/abs/2207.11518) | 该论文提出了一种互相对比学习的在线知识蒸馏框架，可以让不同的学生模型互相学习到额外的对比知识，从而提高了视觉识别任务的性能。 |
-| [^91] | [Where to Begin? On the Impact of Pre-Training and Initialization in Federated Learning.](http://arxiv.org/abs/2206.15387) | 该论文研究了在联邦学习中从预训练模型开始的影响，证明这种方法可以减少训练时间并提高模型的准确性。 |
-| [^92] | [Data Augmentation techniques in time series domain: A survey and taxonomy.](http://arxiv.org/abs/2206.13508) | 本综述介绍了基于时间序列数据增强技术的最新进展，并提出了一个分类法，旨在提高训练深度神经网络的数据集的大小和一致性，从而提高模型的效率和性能。 |
-| [^93] | [Optimal Activation Functions for the Random Features Regression Model.](http://arxiv.org/abs/2206.01332) | 本文确定了随机特征回归模型的最佳激活函数。这些函数可能是线性的、饱和线性函数或基于Hermite多项式的函数。使用最佳激活函数会影响RFR模型的重要特性，如双峰曲线和最佳正则化参数与噪声水平的相关性。 |
-| [^94] | [Explanatory machine learning for sequential human teaching.](http://arxiv.org/abs/2205.10250) | 本文研究了顺序问题解决中，课程顺序和机器学习解释对人类理解力的影响。 |
-| [^95] | [Cross-Camera Trajectories Help Person Retrieval in a Camera Network.](http://arxiv.org/abs/2204.12900) | 本文提出了一种基于跨摄像头轨迹生成的行人检索框架，该框架在时间和空间信息中进行了结合。通过提取跨摄像头轨迹并进行条件随机场模型和受限非负矩阵分解的优化，最终提高了检索效果。 |
-| [^96] | [CLIP-Dissect: Automatic Description of Neuron Representations in Deep Vision Networks.](http://arxiv.org/abs/2204.10965) | CLIP-Dissect是一种用于自动描述视觉网络中神经元功能的新技术，它可以无需任何标记数据或人类示例即将内部神经元标记为无需任何标记数据或人类示例的开放概念，并比现有方法提供了更准确的描述。此外，它具有灵活性、高效性和可扩展性。 |
-| [^97] | [CgAT: Center-Guided Adversarial Training for Deep Hashing-Based Retrieval.](http://arxiv.org/abs/2204.10779) | 本文提出了CgAT方法，基于中心引导的对抗性训练方法，可提升深度Hashing网络检索的鲁棒性，取得了领先于现有方法的效果。 |
-| [^98] | [CGC: Contrastive Graph Clustering for Community Detection and Tracking.](http://arxiv.org/abs/2204.08504) | 本文提出了一种全新的图聚类算法CGC，采用对比学习进行自监督表示学习，结合跟踪模块以应对动态图拓扑变化，在社区发现和跟踪方面表现出领先的状态。 |
-| [^99] | [Multi-Modal Few-Shot Object Detection with Meta-Learning-Based Cross-Modal Prompting.](http://arxiv.org/abs/2204.07841) | 本文提出了一种基于元学习的跨模态提示的多模态小样本目标检测方法，该方法不需要微调，结合了视觉样本和语义信息，并取得了最先进的性能。 |
-| [^100] | [A survey on GANs for computer vision: Recent research, analysis and taxonomy.](http://arxiv.org/abs/2203.11242) | 本文综述了GAN的最新架构、损失函数优化、验证指标和应用领域，并提出了一个分类法以更好地理解计算机视觉中GAN的现状。 |
-| [^101] | [An Information-Theoretic Framework for Supervised Learning.](http://arxiv.org/abs/2203.00246) | 本文提出了一种信息论框架，分析机器学习的数据需求，研究了由具有ReLU激活单元的深度神经网络生成的数据的学习样本复杂度，提出了样本复杂度边界。 |
-| [^102] | [Unsupervised Point Cloud Representation Learning with Deep Neural Networks: A Survey.](http://arxiv.org/abs/2202.13589) | 该论文综述了最近使用深度神经网络进行无监督点云表示学习的相关研究，旨在从未标记的点云数据中学习通用和有用的点云表示，克服了大规模点云标记的限制。 |
-| [^103] | [PGMax: Factor Graphs for Discrete Probabilistic Graphical Models and Loopy Belief Propagation in JAX.](http://arxiv.org/abs/2202.04110) | PGMax是一个用于离散概率图模型的因子图工具，可以在JAX中自动运行高效且可扩展的循环置信传播，与现有替代方案相比，PGMax获得了更高质量的推理结果，推理时间加速高达三个数量级。 |
-| [^104] | [AnomMAN: Detect Anomaly on Multi-view Attributed Networks.](http://arxiv.org/abs/2201.02822) | 这篇论文提出了一种基于图卷积的框架 AnomMAN，用于检测多视图属性网络上的异常。它使用注意机制来定义网络中所有视图的重要性，并使用残差学习来捕捉高频信号。实验证明 AnomMAN 在检测准确性方面优于现有方法。 |
-| [^105] | [FLSys: Toward an Open Ecosystem for Federated Learning Mobile Apps.](http://arxiv.org/abs/2111.09445) | 本文介绍了FLSys，一个移动-云联邦学习（FL）系统，可以成为FL模型和应用程序开放生态系统的关键组成部分。FLSys旨在在智能手机上使用移动感测数据。它平衡了模型性能和资源消耗，容忍通信故障，并实现了可扩展性。FLSys提供了先进的隐私保护机制和一个通用的API，供第三方应用程序开发人员访问FL模型。 |
-| [^106] | [WEDGE: Web-Image Assisted Domain Generalization for Semantic Segmentation.](http://arxiv.org/abs/2109.14196) | 本研究提出了一种基于网络图像辅助的领域泛化方法，利用网络抓取的大量现实图像数据集来增加数据的多样性，提高模型泛化能力，在未见过的领域中表现良好。 |
-| [^107] | [FGLP: A Federated Fine-Grained Location Prediction System for Mobile Users.](http://arxiv.org/abs/2106.08946) | FGLP是一个联邦学习框架和预测模型组成的系统，将智能手机上收集的GPS轨迹抽象为2D空间中的相对点，合并了BiLSTM和CNN以捕获时间和空间模式，实现了8米的预测精度，且数据发送开销降低了两个数量级。 |
-| [^108] | [Attention for Image Registration (AiR): an unsupervised Transformer approach.](http://arxiv.org/abs/2105.02282) | 这篇论文提出了一种新颖的图像配准方法，名为AiR，它利用Transformer框架和注意力机制来学习变形场，无需标记数据或地面真实形变场。实验结果表明，该方法在精度和效率方面优于现有的最先进方法。 |
-| [^109] | [Theoretical Analyses of Multiobjective Evolutionary Algorithms on Multimodal Objectives.](http://arxiv.org/abs/2012.07231) | 本文证明了当运行时间为无穷大时，SEMO无法找到所有Pareto前沿。但全局SEMO证明了在期望迭代次数上限内找到了所有Pareto前沿，这对于理解多目标进化算法在多峰问题中的应用具有参考价值。 |
-| [^110] | [Fictitious Play Outperforms Counterfactual Regret Minimization.](http://arxiv.org/abs/2001.11165) | 本研究比较了两种算法在近似多人博弈Nash均衡方面的表现，结果发现Fictitious Play比Counterfactual Regret Minimization更优秀。 |
+| [^66] | [Test of Time: Instilling Video-Language Models with a Sense of Time.](http://arxiv.org/abs/2301.02074) | 本文针对视频-语言模型中时间理解的问题，提出了一种基于后预训练的时间适应配方，使模型能够在需要时间理解的任务中获得性能提升。 |
+| [^67] | [Towards Scalable Physically Consistent Neural Networks: an Application to Data-driven Multi-zone Thermal Building Models.](http://arxiv.org/abs/2212.12380) | 本论文研究了物理一致神经网络(PCNNs) 在模拟建筑温度动态方面的扩展性和准确性。结果发现，PCNNs既确保了物理一致性，同时又能在复杂的多区域热建筑模型中取得高精度的性能表现，且在可用数据量有限的情况下超越经典灰盒模型，具有可扩展性优势。 |
+| [^68] | [On Calibrating Semantic Segmentation Models: Analyses and An Algorithm.](http://arxiv.org/abs/2212.12053) | 本文系统研究了语义分割模型的校准问题，提出了一种简单而有效的方法——选择性缩放，通过将正确/错误预测分开进行缩放，并更加关注错误预测的逻辑平滑，此方法在语义分割校准上取得了良好效果。 |
+| [^69] | [RepMode: Learning to Re-parameterize Diverse Experts for Subcellular Structure Prediction.](http://arxiv.org/abs/2212.10066) | 本文提出了RepMode，一种网络，利用任务感知的先验动态组织其参数以处理亚细胞结构预测等指定的单标签预测任务。 |
+| [^70] | [Expanding Knowledge Graphs with Humans in the Loop.](http://arxiv.org/abs/2212.05189) | 本文提出了一种与人类互动的方法扩展知识图谱，通过预测新概念的“父母”，然后由人类专家进一步验证。该方法能够保证预测的父母距离概念的真实父母“近”，能够提高人算协作的速度和准确性，并在新闻和娱乐领域的真实数据集上得到了验证。 |
+| [^71] | [Fine-tuned CLIP Models are Efficient Video Learners.](http://arxiv.org/abs/2212.03640) | 本文提出了一个简单的视频细调CLIP（ViFi-CLIP）基线，通过从CLIP图像编码器的帧级处理，接着进行特征池化和与相应文本嵌入的相似度匹配，有效地将图像级别的CLIP表示转移到视频中，从而弥合了从图像到视频的领域差距。 |
+| [^72] | [Diffusion Video Autoencoders: Toward Temporally Consistent Face Video Editing via Disentangled Video Encoding.](http://arxiv.org/abs/2212.02802) | 本文提出了一种基于扩散自编码器的面部视频编辑框架，可以从给定的视频中提取出分解的特征，实现简单的特征调整来确保时间上的一致性。与现有的基于GAN的方法不同，该模型同时满足重建和编辑能力，并且对受野外面部视频的角落情况具有鲁棒性。 |
+| [^73] | [Optimizing Explanations by Network Canonization and Hyperparameter Search.](http://arxiv.org/abs/2211.17174) | 这篇论文介绍了新的解释人工智能方法，通过网络规范化和超参数搜索来提高解释效果。 |
+| [^74] | [Shifted Diffusion for Text-to-image Generation.](http://arxiv.org/abs/2211.15388) | 本文提出了一种新的文本到图像生成方法，使用Shifted Diffusion模型更好地生成来自输入文本的图像嵌入，并通过大量实验和评估证明了其在效率和有效性方面的优势，同时支持半监督和无语言训练。 |
+| [^75] | [Multi-Modal Few-Shot Temporal Action Detection.](http://arxiv.org/abs/2211.14905) | 提出了一个新的多模态少样本时间动作检测问题，针对这个问题提出了一个新的 MUPPET 方法，通过在视觉-语言模型中构建多模态提示，并使用多模态聚类算法来组合时序连续的片段，解决了问题。在少样本和零样本场景下表现出了优越性，并验证了不同组件的有效性。 |
+| [^76] | [On Designing Light-Weight Object Trackers through Network Pruning: Use CNNs or Transformers?.](http://arxiv.org/abs/2211.13769) | 本文介绍了如何通过神经网络结构剪枝技术设计压缩版的高度压缩轻量级物体跟踪器。通过对CNN和Transformers跟踪器的比较研究，揭示出在设计轻量级跟踪器时的最佳架构选择。最后，提供了极端剪枝率的跟踪结果，可能有助于更好地了解网络剪枝在物体跟踪中的限制。 |
+| [^77] | [Visually Grounded Commonsense Knowledge Acquisition.](http://arxiv.org/abs/2211.12054) | 本文介绍了CLEVER，一种以视觉-语言预训练模型为基础的常识知识提取方法，通过包含有关实体对的图像包汇总出常识关系，避免了对图像实例进行人工注释的问题。 |
+| [^78] | [Minimizing the Accumulated Trajectory Error to Improve Dataset Distillation.](http://arxiv.org/abs/2211.11004) | 通过新增损失项最小化累积轨迹误差，从而提高数据集精炼效果，并且在多种数据集和网络架构上的实验证明该方法优于当前最先进的方法。 |
+| [^79] | [Fraudulent User Detection Via Behavior Information Aggregation Network (BIAN) On Large-Scale Financial Social Network.](http://arxiv.org/abs/2211.06315) | 本文提出了一款新颖的行为信息聚合网络（BIAN），可以同时考虑用户的个人资料、行为以及社交联系，以有效检测金融欺诈。 |
+| [^80] | [DynamicISP: Dynamically Controlled Image Signal Processor for Image Recognition.](http://arxiv.org/abs/2211.01146) | DynamicISP是一个动态控制图像信号处理器，能够根据前一帧的识别结果自动调整每帧的参数，实现高精度的单类别和多类别物体检测任务，同时计算成本低。 |
+| [^81] | [Consistent and Truthful Interpretation with Fourier Analysis.](http://arxiv.org/abs/2210.17426) | 该论文提出了一个称为真实解释的新概念，通过傅立叶分析获得严格保证，并在实验中证明了其在支持假设情景和降低解释误差方面的优势。 |
+| [^82] | [LongShortNet: Exploring Temporal and Semantic Features Fusion in Streaming Perception.](http://arxiv.org/abs/2210.15518) | LongShortNet是一种基于双路径网络的流式感知方法，它结合了长期时间运动和短期空间语义，实现了时空特征融合。在Argoverse-HD数据集上，LongShortNet表现出优异的检测性能，并且几乎不需要额外的计算成本。 |
+| [^83] | [ProContEXT: Exploring Progressive Context Transformer for Tracking.](http://arxiv.org/abs/2210.15511) | 本文提出了基于递进的上下文变换机制的目标跟踪方法 ProContEXT，采用上下文感知的自注意力模块对空间和时间上下文进行编码，逐步利用静态和动态多尺度模板进行准确跟踪。它探索了空间和时间上下文之间的互补性，为基于 transformer 的跟踪器的多上下文建模提供了新的途径。 |
+| [^84] | [Broken Neural Scaling Laws.](http://arxiv.org/abs/2210.14891) | 本文提出了一个平滑破碎的幂律函数形式，可以准确地模拟和外推深度神经网络的缩放行为，适用于各种架构和大量不同任务，包括视觉、语言、音频、视频、生成建模、对比学习、机器人、不确定性估计/校准、对抗鲁棒性、分子、计算机编程/编码、数学单词问题、算术、无监督/自监督学习和强化学习。 |
+| [^85] | [TFAD: A Decomposition Time Series Anomaly Detection Architecture with Time-Frequency Analysis.](http://arxiv.org/abs/2210.09693) | 本文提出了一种基于时频分析的时间序列异常检测模型 TFAD。在设计的时频架构中，同时加入了时间序列分解和数据增强机制，以提升性能和解释性能力。在广泛使用的基准数据集上，实证研究表明，该方法在单变量和多变量时间序列异常检测任务中性能最佳。 |
+| [^86] | [An Equal-Size Hard EM Algorithm for Diverse Dialogue Generation.](http://arxiv.org/abs/2209.14627) | 本文提出了一种平衡约束的等大小硬EM算法，用于训练多解码器模型以实现多样的对话生成，可在小型模型中生成高质量的多样化响应。 |
+| [^87] | [All are Worth Words: A ViT Backbone for Diffusion Models.](http://arxiv.org/abs/2209.12152) | 本文提出了一种适用于扩散模型的ViT骨干网络U-ViT，用于图像生成任务，相较于传统基于CNN的U-Net模型，U-ViT具有可比甚至更好的性能，甚至在某些任务中创造了新的FID分数记录。 |
+| [^88] | [CNN based Intelligent Streetlight Management Using Smart CCTV Camera and Semantic Segmentation.](http://arxiv.org/abs/2209.08633) | 本研究提出了一种基于智能交通监测系统和CCTV相机的自动化路灯控制方法，利用语义分割技术检测行人或车辆的存在并调节LED路灯的亮度，减少了能源浪费和环境影响。 |
+| [^89] | [Attention-aware Resource Allocation and QoE Analysis for Metaverse xURLLC Services.](http://arxiv.org/abs/2208.05438) | 本文研究了元宇宙xURLLC服务资源分配和QoE分析，提出了一个最优合同设计框架。在数学上模拟QoE的新型度量标准Meta-Immersion有助于在满足客户端物理需求的情况下，提供个性化沉浸式体验。 |
+| [^90] | [AI-driven Hypergraph Network of Organic Chemistry: Network Statistics and Applications in Reaction Classification.](http://arxiv.org/abs/2208.01647) | 本文通过将化学反应表示为超图，构建了基于AI的有机化学超图网络并进行了统计研究，为反应分类提供了新思路。 |
+| [^91] | [Online Knowledge Distillation via Mutual Contrastive Learning for Visual Recognition.](http://arxiv.org/abs/2207.11518) | 该论文提出了一种互相对比学习的在线知识蒸馏框架，可以让不同的学生模型互相学习到额外的对比知识，从而提高了视觉识别任务的性能。 |
+| [^92] | [Where to Begin? On the Impact of Pre-Training and Initialization in Federated Learning.](http://arxiv.org/abs/2206.15387) | 该论文研究了在联邦学习中从预训练模型开始的影响，证明这种方法可以减少训练时间并提高模型的准确性。 |
+| [^93] | [Data Augmentation techniques in time series domain: A survey and taxonomy.](http://arxiv.org/abs/2206.13508) | 本综述介绍了基于时间序列数据增强技术的最新进展，并提出了一个分类法，旨在提高训练深度神经网络的数据集的大小和一致性，从而提高模型的效率和性能。 |
+| [^94] | [Optimal Activation Functions for the Random Features Regression Model.](http://arxiv.org/abs/2206.01332) | 本文确定了随机特征回归模型的最佳激活函数。这些函数可能是线性的、饱和线性函数或基于Hermite多项式的函数。使用最佳激活函数会影响RFR模型的重要特性，如双峰曲线和最佳正则化参数与噪声水平的相关性。 |
+| [^95] | [Explanatory machine learning for sequential human teaching.](http://arxiv.org/abs/2205.10250) | 本文研究了顺序问题解决中，课程顺序和机器学习解释对人类理解力的影响。 |
+| [^96] | [Cross-Camera Trajectories Help Person Retrieval in a Camera Network.](http://arxiv.org/abs/2204.12900) | 本文提出了一种基于跨摄像头轨迹生成的行人检索框架，该框架在时间和空间信息中进行了结合。通过提取跨摄像头轨迹并进行条件随机场模型和受限非负矩阵分解的优化，最终提高了检索效果。 |
+| [^97] | [CLIP-Dissect: Automatic Description of Neuron Representations in Deep Vision Networks.](http://arxiv.org/abs/2204.10965) | CLIP-Dissect是一种用于自动描述视觉网络中神经元功能的新技术，它可以无需任何标记数据或人类示例即将内部神经元标记为无需任何标记数据或人类示例的开放概念，并比现有方法提供了更准确的描述。此外，它具有灵活性、高效性和可扩展性。 |
+| [^98] | [CgAT: Center-Guided Adversarial Training for Deep Hashing-Based Retrieval.](http://arxiv.org/abs/2204.10779) | 本文提出了CgAT方法，基于中心引导的对抗性训练方法，可提升深度Hashing网络检索的鲁棒性，取得了领先于现有方法的效果。 |
+| [^99] | [CGC: Contrastive Graph Clustering for Community Detection and Tracking.](http://arxiv.org/abs/2204.08504) | 本文提出了一种全新的图聚类算法CGC，采用对比学习进行自监督表示学习，结合跟踪模块以应对动态图拓扑变化，在社区发现和跟踪方面表现出领先的状态。 |
+| [^100] | [Multi-Modal Few-Shot Object Detection with Meta-Learning-Based Cross-Modal Prompting.](http://arxiv.org/abs/2204.07841) | 本文提出了一种基于元学习的跨模态提示的多模态小样本目标检测方法，该方法不需要微调，结合了视觉样本和语义信息，并取得了最先进的性能。 |
+| [^101] | [A survey on GANs for computer vision: Recent research, analysis and taxonomy.](http://arxiv.org/abs/2203.11242) | 本文综述了GAN的最新架构、损失函数优化、验证指标和应用领域，并提出了一个分类法以更好地理解计算机视觉中GAN的现状。 |
+| [^102] | [An Information-Theoretic Framework for Supervised Learning.](http://arxiv.org/abs/2203.00246) | 本文提出了一种信息论框架，分析机器学习的数据需求，研究了由具有ReLU激活单元的深度神经网络生成的数据的学习样本复杂度，提出了样本复杂度边界。 |
+| [^103] | [Unsupervised Point Cloud Representation Learning with Deep Neural Networks: A Survey.](http://arxiv.org/abs/2202.13589) | 该论文综述了最近使用深度神经网络进行无监督点云表示学习的相关研究，旨在从未标记的点云数据中学习通用和有用的点云表示，克服了大规模点云标记的限制。 |
+| [^104] | [PGMax: Factor Graphs for Discrete Probabilistic Graphical Models and Loopy Belief Propagation in JAX.](http://arxiv.org/abs/2202.04110) | PGMax是一个用于离散概率图模型的因子图工具，可以在JAX中自动运行高效且可扩展的循环置信传播，与现有替代方案相比，PGMax获得了更高质量的推理结果，推理时间加速高达三个数量级。 |
+| [^105] | [AnomMAN: Detect Anomaly on Multi-view Attributed Networks.](http://arxiv.org/abs/2201.02822) | 这篇论文提出了一种基于图卷积的框架 AnomMAN，用于检测多视图属性网络上的异常。它使用注意机制来定义网络中所有视图的重要性，并使用残差学习来捕捉高频信号。实验证明 AnomMAN 在检测准确性方面优于现有方法。 |
+| [^106] | [FLSys: Toward an Open Ecosystem for Federated Learning Mobile Apps.](http://arxiv.org/abs/2111.09445) | 本文介绍了FLSys，一个移动-云联邦学习（FL）系统，可以成为FL模型和应用程序开放生态系统的关键组成部分。FLSys旨在在智能手机上使用移动感测数据。它平衡了模型性能和资源消耗，容忍通信故障，并实现了可扩展性。FLSys提供了先进的隐私保护机制和一个通用的API，供第三方应用程序开发人员访问FL模型。 |
+| [^107] | [WEDGE: Web-Image Assisted Domain Generalization for Semantic Segmentation.](http://arxiv.org/abs/2109.14196) | 本研究提出了一种基于网络图像辅助的领域泛化方法，利用网络抓取的大量现实图像数据集来增加数据的多样性，提高模型泛化能力，在未见过的领域中表现良好。 |
+| [^108] | [FGLP: A Federated Fine-Grained Location Prediction System for Mobile Users.](http://arxiv.org/abs/2106.08946) | FGLP是一个联邦学习框架和预测模型组成的系统，将智能手机上收集的GPS轨迹抽象为2D空间中的相对点，合并了BiLSTM和CNN以捕获时间和空间模式，实现了8米的预测精度，且数据发送开销降低了两个数量级。 |
+| [^109] | [Attention for Image Registration (AiR): an unsupervised Transformer approach.](http://arxiv.org/abs/2105.02282) | 这篇论文提出了一种新颖的图像配准方法，名为AiR，它利用Transformer框架和注意力机制来学习变形场，无需标记数据或地面真实形变场。实验结果表明，该方法在精度和效率方面优于现有的最先进方法。 |
+| [^110] | [Theoretical Analyses of Multiobjective Evolutionary Algorithms on Multimodal Objectives.](http://arxiv.org/abs/2012.07231) | 本文证明了当运行时间为无穷大时，SEMO无法找到所有Pareto前沿。但全局SEMO证明了在期望迭代次数上限内找到了所有Pareto前沿，这对于理解多目标进化算法在多峰问题中的应用具有参考价值。 |
+| [^111] | [Fictitious Play Outperforms Counterfactual Regret Minimization.](http://arxiv.org/abs/2001.11165) | 本研究比较了两种算法在近似多人博弈Nash均衡方面的表现，结果发现Fictitious Play比Counterfactual Regret Minimization更优秀。 |
 
 # 详细
 
@@ -1025,7 +1026,21 @@
 
     We study ObjectGoal Navigation -- where a virtual robot situated in a new environment is asked to navigate to an object. Prior work has shown that imitation learning (IL) using behavior cloning (BC) on a dataset of human demonstrations achieves promising results. However, this has limitations -- 1) BC policies generalize poorly to new states, since the training mimics actions not their consequences, and 2) collecting demonstrations is expensive. On the other hand, reinforcement learning (RL) is trivially scalable, but requires careful reward engineering to achieve desirable behavior. We present PIRLNav, a two-stage learning scheme for BC pretraining on human demonstrations followed by RL-finetuning. This leads to a policy that achieves a success rate of $65.0\%$ on ObjectNav ($+5.0\%$ absolute over previous state-of-the-art). Using this BC$\rightarrow$RL training recipe, we present a rigorous empirical analysis of design choices. First, we investigate whether human demonstrations can b
     
-[^66]: 面向可扩展物理一致的神经网络：在数据驱动多区域热建筑模型中的应用研究
+[^66]: 时光考验：为视频-语言模型注入时间感知能力
+
+    Test of Time: Instilling Video-Language Models with a Sense of Time. (arXiv:2301.02074v2 [cs.CV] UPDATED)
+
+    [http://arxiv.org/abs/2301.02074](http://arxiv.org/abs/2301.02074)
+
+    本文针对视频-语言模型中时间理解的问题，提出了一种基于后预训练的时间适应配方，使模型能够在需要时间理解的任务中获得性能提升。
+
+    
+
+    在当今的视频理解模型中，建模和理解时间仍然是一个挑战。随着语言成为强大推理的关键驱动因素，对于基础视频-语言模型具备时间感知能力是必要的。在本文中，我们考虑了时间理解的一个特定方面：以before/after关系引出的时间顺序的一致性。我们发现，即使是这样简单的时间关系，七个现有的视频-语言模型都很难理解。然后，我们质疑在不从头开始训练的情况下，是否有可能为这些基础模型装备时间感知能力。为此，我们提出了一种基于视频-文本数据的后预训练的视频CLIP模型的时间适应配方。我们对适应后的模型进行了零-shot评估，其中包括需要不同程度的时间感知的三个下游任务的六个数据集。我们观察到，在需要更显式时间理解的任务（例如视频字幕生成）上，性能提升是令人鼓舞的。总体而言，我们的工作突显了为视频-语言模型配备时间感知能力的紧迫需求，并提供了一个可行的解决方案。
+
+    Modelling and understanding time remains a challenge in contemporary video understanding models. With language emerging as a key driver towards powerful generalization, it is imperative for foundational video-language models to have a sense of time. In this paper, we consider a specific aspect of temporal understanding: consistency of time order as elicited by before/after relations. We establish that seven existing video-language models struggle to understand even such simple temporal relations. We then question whether it is feasible to equip these foundational models with temporal awareness without re-training them from scratch. Towards this, we propose a temporal adaptation recipe on top of one such model, VideoCLIP, based on post-pretraining on a small amount of video-text data. We conduct a zero-shot evaluation of the adapted models on six datasets for three downstream tasks which require varying degrees of time awareness. We observe encouraging performance gains especially when 
+    
+[^67]: 面向可扩展物理一致的神经网络：在数据驱动多区域热建筑模型中的应用研究
 
     Towards Scalable Physically Consistent Neural Networks: an Application to Data-driven Multi-zone Thermal Building Models. (arXiv:2212.12380v2 [cs.LG] UPDATED)
 
@@ -1039,7 +1054,7 @@
 
     With more and more data being collected, data-driven modeling methods have been gaining in popularity in recent years. While physically sound, classical gray-box models are often cumbersome to identify and scale, and their accuracy might be hindered by their limited expressiveness. On the other hand, classical black-box methods, typically relying on Neural Networks (NNs) nowadays, often achieve impressive performance, even at scale, by deriving statistical patterns from data. However, they remain completely oblivious to the underlying physical laws, which may lead to potentially catastrophic failures if decisions for real-world physical systems are based on them. Physically Consistent Neural Networks (PCNNs) were recently developed to address these aforementioned issues, ensuring physical consistency while still leveraging NNs to attain state-of-the-art accuracy.  In this work, we scale PCNNs to model building temperature dynamics and propose a thorough comparison with classical gray-b
     
-[^67]: 关于语义分割模型的校准：分析与算法
+[^68]: 关于语义分割模型的校准：分析与算法
 
     On Calibrating Semantic Segmentation Models: Analyses and An Algorithm. (arXiv:2212.12053v3 [cs.CV] UPDATED)
 
@@ -1053,7 +1068,7 @@
 
     We study the problem of semantic segmentation calibration. Lots of solutions have been proposed to approach model miscalibration of confidence in image classification. However, to date, confidence calibration research on semantic segmentation is still limited. We provide a systematic study on the calibration of semantic segmentation models and propose a simple yet effective approach. First, we find that model capacity, crop size, multi-scale testing, and prediction correctness have impact on calibration. Among them, prediction correctness, especially misprediction, is more important to miscalibration due to over-confidence. Next, we propose a simple, unifying, and effective approach, namely selective scaling, by separating correct/incorrect prediction for scaling and more focusing on misprediction logit smoothing. Then, we study popular existing calibration methods and compare them with selective scaling on semantic segmentation calibration. We conduct extensive experiments with a vari
     
-[^68]: RepMode：学习重新参数化用于亚细胞结构预测的不同专家
+[^69]: RepMode：学习重新参数化用于亚细胞结构预测的不同专家
 
     RepMode: Learning to Re-parameterize Diverse Experts for Subcellular Structure Prediction. (arXiv:2212.10066v2 [cs.CV] UPDATED)
 
@@ -1067,7 +1082,7 @@
 
     In biological research, fluorescence staining is a key technique to reveal the locations and morphology of subcellular structures. However, it is slow, expensive, and harmful to cells. In this paper, we model it as a deep learning task termed subcellular structure prediction (SSP), aiming to predict the 3D fluorescent images of multiple subcellular structures from a 3D transmitted-light image. Unfortunately, due to the limitations of current biotechnology, each image is partially labeled in SSP. Besides, naturally, subcellular structures vary considerably in size, which causes the multi-scale issue of SSP. To overcome these challenges, we propose Re-parameterizing Mixture-of-Diverse-Experts (RepMode), a network that dynamically organizes its parameters with task-aware priors to handle specified single-label prediction tasks. In RepMode, the Mixture-of-Diverse-Experts (MoDE) block is designed to learn the generalized parameters for all tasks, and gating re-parameterization (GatRep) is p
     
-[^69]: 人工参与的知识图谱拓展
+[^70]: 人工参与的知识图谱拓展
 
     Expanding Knowledge Graphs with Humans in the Loop. (arXiv:2212.05189v2 [cs.LG] UPDATED)
 
@@ -1081,7 +1096,7 @@
 
     Curated knowledge graphs encode domain expertise and improve the performance of recommendation, segmentation, ad targeting, and other machine learning systems in several domains. As new concepts emerge in a domain, knowledge graphs must be expanded to preserve machine learning performance. Manually expanding knowledge graphs, however, is infeasible at scale. In this work, we propose a method for knowledge graph expansion with humans-in-the-loop. Concretely, given a knowledge graph, our method predicts the "parents" of new concepts to be added to this graph for further verification by human experts. We show that our method is both accurate and provably "human-friendly". Specifically, we prove that our method predicts parents that are "near" concepts' true parents in the knowledge graph, even when the predictions are incorrect. We then show, with a controlled experiment, that satisfying this property increases both the speed and the accuracy of the human-algorithm collaboration. We furth
     
-[^70]: 细调CLIP模型是高效的视频学习器
+[^71]: 细调CLIP模型是高效的视频学习器
 
     Fine-tuned CLIP Models are Efficient Video Learners. (arXiv:2212.03640v2 [cs.CV] UPDATED)
 
@@ -1095,7 +1110,7 @@
 
     Large-scale multi-modal training with image-text pairs imparts strong generalization to CLIP model. Since training on a similar scale for videos is infeasible, recent approaches focus on the effective transfer of image-based CLIP to the video domain. In this pursuit, new parametric modules are added to learn temporal information and inter-frame relationships which require meticulous design efforts. Furthermore, when the resulting models are learned on videos, they tend to overfit on the given task distribution and lack in generalization aspect. This begs the following question: How to effectively transfer image-level CLIP representations to videos? In this work, we show that a simple Video Fine-tuned CLIP (ViFi-CLIP) baseline is generally sufficient to bridge the domain gap from images to videos. Our qualitative analysis illustrates that the frame-level processing from CLIP image-encoder followed by feature pooling and similarity matching with corresponding text embeddings helps in imp
     
-[^71]: 扩散视频自编码器：通过分解视频特征实现一致的人脸视频编辑
+[^72]: 扩散视频自编码器：通过分解视频特征实现一致的人脸视频编辑
 
     Diffusion Video Autoencoders: Toward Temporally Consistent Face Video Editing via Disentangled Video Encoding. (arXiv:2212.02802v2 [cs.CV] UPDATED)
 
@@ -1109,7 +1124,7 @@
 
     Inspired by the impressive performance of recent face image editing methods, several studies have been naturally proposed to extend these methods to the face video editing task. One of the main challenges here is temporal consistency among edited frames, which is still unresolved. To this end, we propose a novel face video editing framework based on diffusion autoencoders that can successfully extract the decomposed features - for the first time as a face video editing model - of identity and motion from a given video. This modeling allows us to edit the video by simply manipulating the temporally invariant feature to the desired direction for the consistency. Another unique strength of our model is that, since our model is based on diffusion models, it can satisfy both reconstruction and edit capabilities at the same time, and is robust to corner cases in wild face videos (e.g. occluded faces) unlike the existing GAN-based methods.
     
-[^72]: 通过网络规范化和超参数搜索优化解释
+[^73]: 通过网络规范化和超参数搜索优化解释
 
     Optimizing Explanations by Network Canonization and Hyperparameter Search. (arXiv:2211.17174v2 [cs.CV] UPDATED)
 
@@ -1123,7 +1138,7 @@
 
     Explainable AI (XAI) is slowly becoming a key component for many AI applications. Rule-based and modified backpropagation XAI approaches however often face challenges when being applied to modern model architectures including innovative layer building blocks, which is caused by two reasons. Firstly, the high flexibility of rule-based XAI methods leads to numerous potential parameterizations. Secondly, many XAI methods break the implementation-invariance axiom because they struggle with certain model components, e.g., BatchNorm layers. The latter can be addressed with model canonization, which is the process of re-structuring the model to disregard problematic components without changing the underlying function. While model canonization is straightforward for simple architectures (e.g., VGG, ResNet), it can be challenging for more complex and highly interconnected models (e.g., DenseNet). Moreover, there is only little quantifiable evidence that model canonization is beneficial for XAI.
     
-[^73]: Shifted Diffusion用于文本到图像生成
+[^74]: Shifted Diffusion用于文本到图像生成
 
     Shifted Diffusion for Text-to-image Generation. (arXiv:2211.15388v2 [cs.CV] UPDATED)
 
@@ -1137,7 +1152,7 @@
 
     We present Corgi, a novel method for text-to-image generation. Corgi is based on our proposed shifted diffusion model, which achieves better image embedding generation from input text. Unlike the baseline diffusion model used in DALL-E 2, our method seamlessly encodes prior knowledge of the pre-trained CLIP model in its diffusion process by designing a new initialization distribution and a new transition step of the diffusion. Compared to the strong DALL-E 2 baseline, our method performs better in generating image embedding from the text in terms of both efficiency and effectiveness, resulting in better text-to-image generation. Extensive large-scale experiments are conducted and evaluated in terms of both quantitative measures and human evaluation, indicating a stronger generation ability of our method compared to existing ones. Furthermore, our model enables semi-supervised and language-free training for text-to-image generation, where only part or none of the images in the training 
     
-[^74]: 多模态少样本时间动作检测
+[^75]: 多模态少样本时间动作检测
 
     Multi-Modal Few-Shot Temporal Action Detection. (arXiv:2211.14905v2 [cs.CV] UPDATED)
 
@@ -1151,7 +1166,7 @@
 
     Few-shot (FS) and zero-shot (ZS) learning are two different approaches for scaling temporal action detection (TAD) to new classes. The former adapts a pretrained vision model to a new task represented by as few as a single video per class, whilst the latter requires no training examples by exploiting a semantic description of the new class. In this work, we introduce a new multi-modality few-shot (MMFS) TAD problem, which can be considered as a marriage of FS-TAD and ZS-TAD by leveraging few-shot support videos and new class names jointly. To tackle this problem, we further introduce a novel MUlti-modality PromPt mETa-learning (MUPPET) method. This is enabled by efficiently bridging pretrained vision and language models whilst maximally reusing already learned capacity. Concretely, we construct multi-modal prompts by mapping support videos into the textual token space of a vision-language model using a meta-learned adapter-equipped visual semantics tokenizer. To tackle large intra-clas
     
-[^75]: 通过网络剪枝设计轻量级物体跟踪器：使用CNN还是Transformers?
+[^76]: 通过网络剪枝设计轻量级物体跟踪器：使用CNN还是Transformers?
 
     On Designing Light-Weight Object Trackers through Network Pruning: Use CNNs or Transformers?. (arXiv:2211.13769v2 [cs.CV] UPDATED)
 
@@ -1165,7 +1180,7 @@
 
     Object trackers deployed on low-power devices need to be light-weight, however, most of the current state-of-the-art (SOTA) methods rely on using compute-heavy backbones built using CNNs or transformers. Large sizes of such models do not allow their deployment in low-power conditions and designing compressed variants of large tracking models is of great importance. This paper demonstrates how highly compressed light-weight object trackers can be designed using neural architectural pruning of large CNN and transformer based trackers. Further, a comparative study on architectural choices best suited to design light-weight trackers is provided. A comparison between SOTA trackers using CNNs, transformers as well as the combination of the two is presented to study their stability at various compression ratios. Finally results for extreme pruning scenarios going as low as 1% in some cases are shown to study the limits of network pruning in object tracking. This work provides deeper insights 
     
-[^76]: 视觉基础下的常识知识获取
+[^77]: 视觉基础下的常识知识获取
 
     Visually Grounded Commonsense Knowledge Acquisition. (arXiv:2211.12054v2 [cs.CV] UPDATED)
 
@@ -1179,7 +1194,7 @@
 
     Large-scale commonsense knowledge bases empower a broad range of AI applications, where the automatic extraction of commonsense knowledge (CKE) is a fundamental and challenging problem. CKE from text is known for suffering from the inherent sparsity and reporting bias of commonsense in text. Visual perception, on the other hand, contains rich commonsense knowledge about real-world entities, e.g., (person, can_hold, bottle), which can serve as promising sources for acquiring grounded commonsense knowledge. In this work, we present CLEVER, which formulates CKE as a distantly supervised multi-instance learning problem, where models learn to summarize commonsense relations from a bag of images about an entity pair without any human annotation on image instances. To address the problem, CLEVER leverages vision-language pre-training models for deep understanding of each image in the bag, and selects informative instances from the bag to summarize commonsense entity relations via a novel cont
     
-[^77]: 通过减少累积轨迹误差来提高数据集精炼效果的论文翻译
+[^78]: 通过减少累积轨迹误差来提高数据集精炼效果的论文翻译
 
     Minimizing the Accumulated Trajectory Error to Improve Dataset Distillation. (arXiv:2211.11004v3 [cs.LG] UPDATED)
 
@@ -1193,7 +1208,7 @@
 
     Model-based deep learning has achieved astounding successes due in part to the availability of large-scale real-world data. However, processing such massive amounts of data comes at a considerable cost in terms of computations, storage, training and the search for good neural architectures. Dataset distillation has thus recently come to the fore. This paradigm involves distilling information from large real-world datasets into tiny and compact synthetic datasets such that processing the latter ideally yields similar performances as the former. State-of-the-art methods primarily rely on learning the synthetic dataset by matching the gradients obtained during training between the real and synthetic data. However, these gradient-matching methods suffer from the so-called accumulated trajectory error caused by the discrepancy between the distillation and subsequent evaluation. To mitigate the adverse impact of this accumulated trajectory error, we propose a novel approach that encourages t
     
-[^78]: 基于行为信息聚合网络（BIAN）的大规模金融社交网络欺诈用户检测
+[^79]: 基于行为信息聚合网络（BIAN）的大规模金融社交网络欺诈用户检测
 
     Fraudulent User Detection Via Behavior Information Aggregation Network (BIAN) On Large-Scale Financial Social Network. (arXiv:2211.06315v2 [cs.SI] UPDATED)
 
@@ -1207,7 +1222,7 @@
 
     Financial frauds cause billions of losses annually and yet it lacks efficient approaches in detecting frauds considering user profile and their behaviors simultaneously in social network . A social network forms a graph structure whilst Graph neural networks (GNN), a promising research domain in Deep Learning, can seamlessly process non-Euclidean graph data . In financial fraud detection, the modus operandi of criminals can be identified by analyzing user profile and their behaviors such as transaction, loaning etc. as well as their social connectivity. Currently, most GNNs are incapable of selecting important neighbors since the neighbors' edge attributes (i.e., behaviors) are ignored. In this paper, we propose a novel behavior information aggregation network (BIAN) to combine the user behaviors with other user features. Different from its close "relatives" such as Graph Attention Networks (GAT) and Graph Transformer Networks (GTN), it aggregates neighbors based on neighboring edge at
     
-[^79]: DynamicISP：用于图像识别的动态控制图像信号处理器
+[^80]: DynamicISP：用于图像识别的动态控制图像信号处理器
 
     DynamicISP: Dynamically Controlled Image Signal Processor for Image Recognition. (arXiv:2211.01146v2 [cs.CV] UPDATED)
 
@@ -1221,7 +1236,7 @@
 
     Image Signal Processors (ISPs) play important roles in image recognition tasks as well as in the perceptual quality of captured images. In most cases, experts make a lot of effort to manually tune many parameters of ISPs, but the parameters are sub-optimal. In the literature, two types of techniques have been actively studied: a machine learning-based parameter tuning technique and a DNN-based ISP technique. The former is lightweight but lacks expressive power. The latter has expressive power, but the computational cost is too heavy on edge devices. To solve these problems, we propose "DynamicISP," which consists of multiple classical ISP functions and dynamically controls the parameters of each frame according to the recognition result of the previous frame. We show our method successfully controls the parameters of multiple ISP functions and achieves state-of-the-art accuracy with low computational cost in single and multi-category object detection tasks.
     
-[^80]: 傅立叶分析实现一致且真实的模型解释
+[^81]: 傅立叶分析实现一致且真实的模型解释
 
     Consistent and Truthful Interpretation with Fourier Analysis. (arXiv:2210.17426v1 [cs.LG] CROSS LISTED)
 
@@ -1235,7 +1250,7 @@
 
     For many interdisciplinary fields, ML interpretations need to be consistent with what-if scenarios related to the current case, i.e., if one factor changes, how does the model react? Although the attribution methods are supported by the elegant axiomatic systems, they mainly focus on individual inputs, and are generally inconsistent. To support what-if scenarios, we introduce a new notion called truthful interpretation, and apply Fourier analysis of Boolean functions to get rigorous guarantees. Experimental results show that for neighborhoods with various radii, our method achieves 2x - 50x lower interpretation error compared with the other methods.
     
-[^81]: LongShortNet：探索时间和语义特征融合在流式感知中
+[^82]: LongShortNet：探索时间和语义特征融合在流式感知中
 
     LongShortNet: Exploring Temporal and Semantic Features Fusion in Streaming Perception. (arXiv:2210.15518v3 [cs.CV] UPDATED)
 
@@ -1249,7 +1264,7 @@
 
     Streaming perception is a fundamental task in autonomous driving that requires a careful balance between the latency and accuracy of the autopilot system. However, current methods for streaming perception are limited as they rely only on the current and adjacent two frames to learn movement patterns, which restricts their ability to model complex scenes, often leading to poor detection results. To address this limitation, we propose LongShortNet, a novel dual-path network that captures long-term temporal motion and integrates it with short-term spatial semantics for real-time perception. Our proposed LongShortNet is notable as it is the first work to extend long-term temporal modeling to streaming perception, enabling spatiotemporal feature fusion. We evaluate LongShortNet on the challenging Argoverse-HD dataset and demonstrate that it outperforms existing state-of-the-art methods with almost no additional computational cost.
     
-[^82]: ProContEXT：基于递进的上下文变换机制的目标跟踪方法研究
+[^83]: ProContEXT：基于递进的上下文变换机制的目标跟踪方法研究
 
     ProContEXT: Exploring Progressive Context Transformer for Tracking. (arXiv:2210.15511v3 [cs.CV] UPDATED)
 
@@ -1263,7 +1278,7 @@
 
     Existing Visual Object Tracking (VOT) only takes the target area in the first frame as a template. This causes tracking to inevitably fail in fast-changing and crowded scenes, as it cannot account for changes in object appearance between frames. To this end, we revamped the tracking framework with Progressive Context Encoding Transformer Tracker (ProContEXT), which coherently exploits spatial and temporal contexts to predict object motion trajectories. Specifically, ProContEXT leverages a context-aware self-attention module to encode the spatial and temporal context, refining and updating the multi-scale static and dynamic templates to progressively perform accurate tracking. It explores the complementary between spatial and temporal context, raising a new pathway to multi-context modeling for transformer-based trackers. In addition, ProContEXT revised the token pruning technique to reduce computational complexity. Extensive experiments on popular benchmark datasets such as GOT-10k and
     
-[^83]: 破碎的神经缩放定律
+[^84]: 破碎的神经缩放定律
 
     Broken Neural Scaling Laws. (arXiv:2210.14891v7 [cs.LG] UPDATED)
 
@@ -1277,7 +1292,7 @@
 
     We present a smoothly broken power law functional form (referred to by us as a Broken Neural Scaling Law (BNSL)) that accurately models and extrapolates the scaling behaviors of deep neural networks (i.e. how the evaluation metric of interest varies as the amount of compute used for training, number of model parameters, training dataset size, or upstream performance varies) for various architectures and for each of various tasks within a large and diverse set of upstream and downstream tasks, in zero-shot, prompted, and fine-tuned settings. This set includes large-scale vision, language, audio, video, diffusion, generative modeling, multimodal learning, contrastive learning, AI alignment, robotics, out-of-distribution (OOD) generalization, continual learning, uncertainty estimation / calibration, out-of-distribution detection, adversarial robustness, distillation, molecules, computer programming/coding, math word problems, arithmetic, unsupervised/self-supervised learning, and reinforc
     
-[^84]: TFAD: 一种基于时频分析的时间序列异常检测架构
+[^85]: TFAD: 一种基于时频分析的时间序列异常检测架构
 
     TFAD: A Decomposition Time Series Anomaly Detection Architecture with Time-Frequency Analysis. (arXiv:2210.09693v2 [cs.LG] UPDATED)
 
@@ -1291,7 +1306,7 @@
 
     Time series anomaly detection is a challenging problem due to the complex temporal dependencies and the limited label data. Although some algorithms including both traditional and deep models have been proposed, most of them mainly focus on time-domain modeling, and do not fully utilize the information in the frequency domain of the time series data. In this paper, we propose a Time-Frequency analysis based time series Anomaly Detection model, or TFAD for short, to exploit both time and frequency domains for performance improvement. Besides, we incorporate time series decomposition and data augmentation mechanisms in the designed time-frequency architecture to further boost the abilities of performance and interpretability. Empirical studies on widely used benchmark datasets show that our approach obtains state-of-the-art performance in univariate and multivariate time series anomaly detection tasks. Code is provided at https://github.com/DAMO-DI-ML/CIKM22-TFAD.
     
-[^85]: 《一种针对多样对话生成的等大小硬EM算法》
+[^86]: 《一种针对多样对话生成的等大小硬EM算法》
 
     An Equal-Size Hard EM Algorithm for Diverse Dialogue Generation. (arXiv:2209.14627v2 [cs.CL] UPDATED)
 
@@ -1305,7 +1320,7 @@
 
     Open-domain dialogue systems aim to interact with humans through natural language texts in an open-ended fashion. Despite the recent success of super large dialogue systems such as ChatGPT, using medium-to-small-sized dialogue systems remains the common practice as they are more lightweight and accessible; however, generating diverse dialogue responses is challenging, especially with smaller models. In this work, we propose an Equal-size Hard Expectation--Maximization (EqHard-EM) algorithm to train a multi-decoder model for diverse dialogue generation. Our algorithm assigns a sample to a decoder in a hard manner and additionally imposes an equal-assignment constraint to ensure that all decoders are well-trained. We provide detailed theoretical analysis to justify our approach. Further, experiments on two large-scale open-domain dialogue datasets verify that our EqHard-EM algorithm generates high-quality diverse responses.
     
-[^86]: 全部值得一试：适用于扩散模型的ViT骨干网络
+[^87]: 全部值得一试：适用于扩散模型的ViT骨干网络
 
     All are Worth Words: A ViT Backbone for Diffusion Models. (arXiv:2209.12152v4 [cs.CV] UPDATED)
 
@@ -1319,7 +1334,7 @@
 
     Vision transformers (ViT) have shown promise in various vision tasks while the U-Net based on a convolutional neural network (CNN) remains dominant in diffusion models. We design a simple and general ViT-based architecture (named U-ViT) for image generation with diffusion models. U-ViT is characterized by treating all inputs including the time, condition and noisy image patches as tokens and employing long skip connections between shallow and deep layers. We evaluate U-ViT in unconditional and class-conditional image generation, as well as text-to-image generation tasks, where U-ViT is comparable if not superior to a CNN-based U-Net of a similar size. In particular, latent diffusion models with U-ViT achieve record-breaking FID scores of 2.29 in class-conditional image generation on ImageNet 256x256, and 5.48 in text-to-image generation on MS-COCO, among methods without accessing large external datasets during the training of generative models. Our results suggest that, for diffusion-b
     
-[^87]: 基于智能CCTV相机和语义分割的CNN智能路灯管理
+[^88]: 基于智能CCTV相机和语义分割的CNN智能路灯管理
 
     CNN based Intelligent Streetlight Management Using Smart CCTV Camera and Semantic Segmentation. (arXiv:2209.08633v2 [cs.CV] UPDATED)
 
@@ -1333,7 +1348,7 @@
 
     One of the most neglected sources of energy loss is streetlights which generate too much light in areas where it is not required. Energy waste has enormous economic and environmental effects. In addition, due to the conventional manual nature of the operation, streetlights are frequently seen being turned ON during the day and OFF in the evening, which is regrettable even in the twenty-first century. These issues require automated streetlight control in order to be resolved. This study aims to develop a novel streetlight controlling method by combining a smart transport monitoring system powered by computer vision technology with a closed circuit television (CCTV) camera that allows the light-emitting diode (LED) streetlight to automatically light up with the appropriate brightness by detecting the presence of pedestrians or vehicles and dimming the streetlight in their absence using semantic image segmentation from the CCTV video streaming. Consequently, our model distinguishes daylig
     
-[^88]: 基于注意力的元宇宙xURLLC服务资源分配和QoE分析
+[^89]: 基于注意力的元宇宙xURLLC服务资源分配和QoE分析
 
     Attention-aware Resource Allocation and QoE Analysis for Metaverse xURLLC Services. (arXiv:2208.05438v5 [cs.AI] UPDATED)
 
@@ -1347,7 +1362,7 @@
 
     Metaverse encapsulates our expectations of the next-generation Internet, while bringing new key performance indicators (KPIs). Although conventional ultra-reliable and low-latency communications (URLLC) can satisfy objective KPIs, it is difficult to provide a personalized immersive experience that is a distinctive feature of the Metaverse. Since the quality of experience (QoE) can be regarded as a comprehensive KPI, the URLLC is evolved towards the next generation URLLC (xURLLC) with a personalized resource allocation scheme to achieve higher QoE. To deploy Metaverse xURLLC services, we study the interaction between the Metaverse service provider (MSP) and the network infrastructure provider (InP), and provide an optimal contract design framework. Specifically, the utility of the MSP, defined as a function of Metaverse users' QoE, is to be maximized, while ensuring the incentives of the InP. To model the QoE mathematically, we propose a novel metric named Meta-Immersion that incorporat
     
-[^89]: 基于AI的有机化学超图网络：网络统计和反应分类应用
+[^90]: 基于AI的有机化学超图网络：网络统计和反应分类应用
 
     AI-driven Hypergraph Network of Organic Chemistry: Network Statistics and Applications in Reaction Classification. (arXiv:2208.01647v2 [q-bio.MN] UPDATED)
 
@@ -1361,7 +1376,7 @@
 
     Rapid discovery of new reactions and molecules in recent years has been facilitated by the advancements in high throughput screening, accessibility to a much more complex chemical design space, and the development of accurate molecular modeling frameworks. A holistic study of the growing chemistry literature is, therefore, required that focuses on understanding the recent trends and extrapolating them into possible future trajectories. To this end, several network theory-based studies have been reported that use a directed graph representation of chemical reactions. Here, we perform a study based on representing chemical reactions as hypergraphs where the hyperedges represent chemical reactions and nodes represent the participating molecules. We use a standard reactions dataset to construct a hypernetwork and report its statistics such as degree distributions, average path length, assortativity or degree correlations, PageRank centrality, and graph-based clusters (or communities). We a
     
-[^90]: 在视觉识别中通过互相对比学习的在线知识蒸馏
+[^91]: 在视觉识别中通过互相对比学习的在线知识蒸馏
 
     Online Knowledge Distillation via Mutual Contrastive Learning for Visual Recognition. (arXiv:2207.11518v2 [cs.CV] UPDATED)
 
@@ -1375,7 +1390,7 @@
 
     The teacher-free online Knowledge Distillation (KD) aims to train an ensemble of multiple student models collaboratively and distill knowledge from each other. Although existing online KD methods achieve desirable performance, they often focus on class probabilities as the core knowledge type, ignoring the valuable feature representational information. We present a Mutual Contrastive Learning (MCL) framework for online KD. The core idea of MCL is to perform mutual interaction and transfer of contrastive distributions among a cohort of networks in an online manner. Our MCL can aggregate cross-network embedding information and maximize the lower bound to the mutual information between two networks. This enables each network to learn extra contrastive knowledge from others, leading to better feature representations, thus improving the performance of visual recognition tasks. Beyond the final layer, we extend MCL to intermediate layers and perform an adaptive layer-matching mechanism train
     
-[^91]: 从哪里开始？关于联邦学习中预训练和初始化的影响。
+[^92]: 从哪里开始？关于联邦学习中预训练和初始化的影响。
 
     Where to Begin? On the Impact of Pre-Training and Initialization in Federated Learning. (arXiv:2206.15387v3 [cs.LG] UPDATED)
 
@@ -1389,7 +1404,7 @@
 
     An oft-cited challenge of federated learning is the presence of heterogeneity. \emph{Data heterogeneity} refers to the fact that data from different clients may follow very different distributions. \emph{System heterogeneity} refers to client devices having different system capabilities. A considerable number of federated optimization methods address this challenge. In the literature, empirical evaluations usually start federated training from random initialization. However, in many practical applications of federated learning, the server has access to proxy data for the training task that can be used to pre-train a model before starting federated training. Using four standard federated learning benchmark datasets, we empirically study the impact of starting from a pre-trained model in federated learning. Unsurprisingly, starting from a pre-trained model reduces the training time required to reach a target error rate and enables the training of more accurate models (up to 40\%) than is
     
-[^92]: 基于时间序列的数据增强技术：一份综述和分类
+[^93]: 基于时间序列的数据增强技术：一份综述和分类
 
     Data Augmentation techniques in time series domain: A survey and taxonomy. (arXiv:2206.13508v2 [cs.LG] UPDATED)
 
@@ -1403,7 +1418,7 @@
 
     With the latest advances in Deep Learning-based} generative models, it has not taken long to take advantage of their remarkable performance in the area of time series. Deep neural networks used to work with time series heavily depend on the size and consistency of the datasets used in training. These features are not usually abundant in the real world, where they are usually limited and often have constraints that must be guaranteed. Therefore, an effective way to increase the amount of data is by using Data Augmentation techniques, either by adding noise or permutations and by generating new synthetic data. This work systematically reviews the current state-of-the-art in the area to provide an overview of all available algorithms and proposes a taxonomy of the most relevant research. The efficiency of the different variants will be evaluated as a central part of the process, as well as the different metrics to evaluate the performance and the main problems concerning each model will b
     
-[^93]: 随机特征回归模型的最佳激活函数
+[^94]: 随机特征回归模型的最佳激活函数
 
     Optimal Activation Functions for the Random Features Regression Model. (arXiv:2206.01332v3 [stat.ML] UPDATED)
 
@@ -1417,7 +1432,7 @@
 
     The asymptotic mean squared test error and sensitivity of the Random Features Regression model (RFR) have been recently studied. We build on this work and identify in closed-form the family of Activation Functions (AFs) that minimize a combination of the test error and sensitivity of the RFR under different notions of functional parsimony. We find scenarios under which the optimal AFs are linear, saturated linear functions, or expressible in terms of Hermite polynomials. Finally, we show how using optimal AFs impacts well-established properties of the RFR model, such as its double descent curve, and the dependency of its optimal regularization parameter on the observation noise level.
     
-[^94]: 顺序人类教学的机器学习解释性研究
+[^95]: 顺序人类教学的机器学习解释性研究
 
     Explanatory machine learning for sequential human teaching. (arXiv:2205.10250v2 [cs.AI] UPDATED)
 
@@ -1431,7 +1446,7 @@
 
     The topic of comprehensibility of machine-learned theories has recently drawn increasing attention. Inductive Logic Programming (ILP) uses logic programming to derive logic theories from small data based on abduction and induction techniques. Learned theories are represented in the form of rules as declarative descriptions of obtained knowledge. In earlier work, the authors provided the first evidence of a measurable increase in human comprehension based on machine-learned logic rules for simple classification tasks. In a later study, it was found that the presentation of machine-learned explanations to humans can produce both beneficial and harmful effects in the context of game learning. We continue our investigation of comprehensibility by examining the effects of the ordering of concept presentations on human comprehension. In this work, we examine the explanatory effects of curriculum order and the presence of machine-learned explanations for sequential problem-solving. We show th
     
-[^95]: “跨摄像头轨迹辅助相机网络中的人员检索”
+[^96]: “跨摄像头轨迹辅助相机网络中的人员检索”
 
     Cross-Camera Trajectories Help Person Retrieval in a Camera Network. (arXiv:2204.12900v2 [cs.CV] UPDATED)
 
@@ -1445,7 +1460,7 @@
 
     We are concerned with retrieving a query person from multiple videos captured by a non-overlapping camera network. Existing methods often rely on purely visual matching or consider temporal constraints but ignore the spatial information of the camera network. To address this issue, we propose a pedestrian retrieval framework based on cross-camera trajectory generation, which integrates both temporal and spatial information. To obtain pedestrian trajectories, we propose a novel cross-camera spatio-temporal model that integrates pedestrians' walking habits and the path layout between cameras to form a joint probability distribution. Such a spatio-temporal model among a camera network can be specified using sparsely sampled pedestrian data. Based on the spatio-temporal model, cross-camera trajectories can be extracted by the conditional random field model and further optimized by restricted non-negative matrix factorization. Finally, a trajectory re-ranking technique is proposed to improv
     
-[^96]: CLIP-Dissect：深度视觉网络中神经元表示的自动描述
+[^97]: CLIP-Dissect：深度视觉网络中神经元表示的自动描述
 
     CLIP-Dissect: Automatic Description of Neuron Representations in Deep Vision Networks. (arXiv:2204.10965v4 [cs.CV] UPDATED)
 
@@ -1459,7 +1474,7 @@
 
     In this paper, we propose CLIP-Dissect, a new technique to automatically describe the function of individual hidden neurons inside vision networks. CLIP-Dissect leverages recent advances in multimodal vision/language models to label internal neurons with open-ended concepts without the need for any labeled data or human examples. We show that CLIP-Dissect provides more accurate descriptions than existing methods for last layer neurons where the ground-truth is available as well as qualitatively good descriptions for hidden layer neurons. In addition, our method is very flexible: it is model agnostic, can easily handle new concepts and can be extended to take advantage of better multimodal models in the future. Finally CLIP-Dissect is computationally efficient and can label all neurons from five layers of ResNet-50 in just 4 minutes, which is more than 10 times faster than existing methods. Our code is available at https://github.com/Trustworthy-ML-Lab/CLIP-dissect.
     
-[^97]: CgAT：基于中心引导的对抗性训练提升Hashing检索鲁棒性
+[^98]: CgAT：基于中心引导的对抗性训练提升Hashing检索鲁棒性
 
     CgAT: Center-Guided Adversarial Training for Deep Hashing-Based Retrieval. (arXiv:2204.10779v5 [cs.CV] UPDATED)
 
@@ -1473,7 +1488,7 @@
 
     Deep hashing has been extensively utilized in massive image retrieval because of its efficiency and effectiveness. However, deep hashing models are vulnerable to adversarial examples, making it essential to develop adversarial defense methods for image retrieval. Existing solutions achieved limited defense performance because of using weak adversarial samples for training and lacking discriminative optimization objectives to learn robust features. In this paper, we present a min-max based Center-guided Adversarial Training, namely CgAT, to improve the robustness of deep hashing networks through worst adversarial examples. Specifically, we first formulate the center code as a semantically-discriminative representative of the input image content, which preserves the semantic similarity with positive samples and dissimilarity with negative examples. We prove that a mathematical formula can calculate the center code immediately. After obtaining the center codes in each optimization iterati
     
-[^98]: CGC: 对比图聚类用于社区发现和跟踪
+[^99]: CGC: 对比图聚类用于社区发现和跟踪
 
     CGC: Contrastive Graph Clustering for Community Detection and Tracking. (arXiv:2204.08504v3 [cs.SI] UPDATED)
 
@@ -1487,7 +1502,7 @@
 
     Given entities and their interactions in the web data, which may have occurred at different time, how can we find communities of entities and track their evolution? In this paper, we approach this important task from graph clustering perspective. Recently, state-of-the-art clustering performance in various domains has been achieved by deep clustering methods. Especially, deep graph clustering (DGC) methods have successfully extended deep clustering to graph-structured data by learning node representations and cluster assignments in a joint optimization framework. Despite some differences in modeling choices (e.g., encoder architectures), existing DGC methods are mainly based on autoencoders and use the same clustering objective with relatively minor adaptations. Also, while many real-world graphs are dynamic, previous DGC methods considered only static graphs. In this work, we develop CGC, a novel end-to-end framework for graph clustering, which fundamentally differs from existing meth
     
-[^99]: 基于元学习的跨模态提示的多模态小样本目标检测
+[^100]: 基于元学习的跨模态提示的多模态小样本目标检测
 
     Multi-Modal Few-Shot Object Detection with Meta-Learning-Based Cross-Modal Prompting. (arXiv:2204.07841v3 [cs.CV] UPDATED)
 
@@ -1501,7 +1516,7 @@
 
     We study multi-modal few-shot object detection (FSOD) in this paper, using both few-shot visual examples and class semantic information for detection, which are complementary to each other by definition. Most of the previous works on multi-modal FSOD are fine-tuning-based which are inefficient for online applications. Moreover, these methods usually require expertise like class names to extract class semantic embedding, which are hard to get for rare classes. Our approach is motivated by the high-level conceptual similarity of (metric-based) meta-learning and prompt-based learning to learn generalizable few-shot and zero-shot object detection models respectively without fine-tuning. Specifically, we combine the few-shot visual classifier and text classifier learned via meta-learning and prompt-based learning respectively to build the multi-modal classifier and detection models. In addition, to fully exploit the pre-trained language models, we propose meta-learning-based cross-modal pro
     
-[^100]: 计算机视觉GAN综述：最新研究、分析和分类（arXiv：2203.11242v2 [cs.LG] UPDATED）
+[^101]: 计算机视觉GAN综述：最新研究、分析和分类（arXiv：2203.11242v2 [cs.LG] UPDATED）
 
     A survey on GANs for computer vision: Recent research, analysis and taxonomy. (arXiv:2203.11242v2 [cs.LG] UPDATED)
 
@@ -1515,7 +1530,7 @@
 
     In the last few years, there have been several revolutions in the field of deep learning, mainly headlined by the large impact of Generative Adversarial Networks (GANs). GANs not only provide an unique architecture when defining their models, but also generate incredible results which have had a direct impact on society. Due to the significant improvements and new areas of research that GANs have brought, the community is constantly coming up with new researches that make it almost impossible to keep up with the times. Our survey aims to provide a general overview of GANs, showing the latest architectures, optimizations of the loss functions, validation metrics and application areas of the most widely recognized variants. The efficiency of the different variants of the model architecture will be evaluated, as well as showing the best application area; as a vital part of the process, the different metrics for evaluating the performance of GANs and the frequently used loss functions will
     
-[^101]: 监督学习的信息论框架
+[^102]: 监督学习的信息论框架
 
     An Information-Theoretic Framework for Supervised Learning. (arXiv:2203.00246v6 [cs.LG] UPDATED)
 
@@ -1529,7 +1544,7 @@
 
     Each year, deep learning demonstrates new and improved empirical results with deeper and wider neural networks. Meanwhile, with existing theoretical frameworks, it is difficult to analyze networks deeper than two layers without resorting to counting parameters or encountering sample complexity bounds that are exponential in depth. Perhaps it may be fruitful to try to analyze modern machine learning under a different lens. In this paper, we propose a novel information-theoretic framework with its own notions of regret and sample complexity for analyzing the data requirements of machine learning. With our framework, we first work through some classical examples such as scalar estimation and linear regression to build intuition and introduce general techniques. Then, we use the framework to study the sample complexity of learning from data generated by deep neural networks with ReLU activation units. For a particular prior distribution on weights, we establish sample complexity bounds tha
     
-[^102]: 使用深度神经网络的无监督点云表示学习综述
+[^103]: 使用深度神经网络的无监督点云表示学习综述
 
     Unsupervised Point Cloud Representation Learning with Deep Neural Networks: A Survey. (arXiv:2202.13589v3 [cs.CV] UPDATED)
 
@@ -1543,7 +1558,7 @@
 
     Point cloud data have been widely explored due to its superior accuracy and robustness under various adverse situations. Meanwhile, deep neural networks (DNNs) have achieved very impressive success in various applications such as surveillance and autonomous driving. The convergence of point cloud and DNNs has led to many deep point cloud models, largely trained under the supervision of large-scale and densely-labelled point cloud data. Unsupervised point cloud representation learning, which aims to learn general and useful point cloud representations from unlabelled point cloud data, has recently attracted increasing attention due to the constraint in large-scale point cloud labelling. This paper provides a comprehensive review of unsupervised point cloud representation learning using DNNs. It first describes the motivation, general pipelines as well as terminologies of the recent studies. Relevant background including widely adopted point cloud datasets and DNN architectures is then b
     
-[^103]: PGMax: 用于离散概率图模型和JAX中的循环置信传播的因子图
+[^104]: PGMax: 用于离散概率图模型和JAX中的循环置信传播的因子图
 
     PGMax: Factor Graphs for Discrete Probabilistic Graphical Models and Loopy Belief Propagation in JAX. (arXiv:2202.04110v3 [cs.LG] UPDATED)
 
@@ -1557,7 +1572,7 @@
 
     PGMax is an open-source Python package for (a) easily specifying discrete Probabilistic Graphical Models (PGMs) as factor graphs; and (b) automatically running efficient and scalable loopy belief propagation (LBP) in JAX. PGMax supports general factor graphs with tractable factors, and leverages modern accelerators like GPUs for inference. Compared with existing alternatives, PGMax obtains higher-quality inference results with up to three orders-of-magnitude inference time speedups. PGMax additionally interacts seamlessly with the rapidly growing JAX ecosystem, opening up new research possibilities. Our source code, examples and documentation are available at https://github.com/deepmind/PGMax.
     
-[^104]: AnomMAN: 检测多视图属性网络上的异常
+[^105]: AnomMAN: 检测多视图属性网络上的异常
 
     AnomMAN: Detect Anomaly on Multi-view Attributed Networks. (arXiv:2201.02822v2 [cs.SI] UPDATED)
 
@@ -1571,7 +1586,7 @@
 
     Anomaly detection on attributed networks is widely used in online shopping, financial transactions, communication networks, and so on. However, most existing works trying to detect anomalies on attributed networks only consider a single kind of interaction, so they cannot deal with various kinds of interactions on multi-view attributed networks. It remains a challenging task to jointly consider all different kinds of interactions and detect anomalous instances on multi-view attributed networks. In this paper, we propose a graph convolution-based framework, named AnomMAN, to detect Anomaly on Multi-view Attributed Networks. To jointly consider attributes and all kinds of interactions on multi-view attributed networks, we use the attention mechanism to define the importance of all views in networks. Since the low-pass characteristic of graph convolution operation filters out most high-frequency signals (aonmaly signals), it cannot be directly applied to anomaly detection tasks. AnomMAN i
     
-[^105]: FLSys：面向联邦学习移动应用的开放生态系统
+[^106]: FLSys：面向联邦学习移动应用的开放生态系统
 
     FLSys: Toward an Open Ecosystem for Federated Learning Mobile Apps. (arXiv:2111.09445v3 [cs.LG] UPDATED)
 
@@ -1585,7 +1600,7 @@
 
     This article presents the design, implementation, and evaluation of FLSys, a mobile-cloud federated learning (FL) system, which can be a key component for an open ecosystem of FL models and apps. FLSys is designed to work on smart phones with mobile sensing data. It balances model performance with resource consumption, tolerates communication failures, and achieves scalability. In FLSys, different DL models with different FL aggregation methods can be trained and accessed concurrently by different apps. Furthermore, FLSys provides advanced privacy preserving mechanisms and a common API for third-party app developers to access FL models. FLSys adopts a modular design and is implemented in Android and AWS cloud. We co-designed FLSys with a human activity recognition (HAR) model. HAR sensing data was collected in the wild from 100+ college students during a 4-month period. We implemented HAR-Wild, a CNN model tailored to mobile devices, with a data augmentation mechanism to mitigate the p
     
-[^106]: WEDGE：基于网络图像辅助的语义分割领域泛化
+[^107]: WEDGE：基于网络图像辅助的语义分割领域泛化
 
     WEDGE: Web-Image Assisted Domain Generalization for Semantic Segmentation. (arXiv:2109.14196v3 [cs.CV] UPDATED)
 
@@ -1599,7 +1614,7 @@
 
     Domain generalization for semantic segmentation is highly demanded in real applications, where a trained model is expected to work well in previously unseen domains. One challenge lies in the lack of data which could cover the diverse distributions of the possible unseen domains for training. In this paper, we propose a WEb-image assisted Domain GEneralization (WEDGE) scheme, which is the first to exploit the diversity of web-crawled images for generalizable semantic segmentation. To explore and exploit the real-world data distributions, we collect a web-crawled dataset which presents large diversity in terms of weather conditions, sites, lighting, camera styles, etc. We also present a method which injects the style representation of the web-crawled data into the source domain on-the-fly during training, which enables the network to experience images of diverse styles with reliable labels for effective training. Moreover, we use the web-crawled dataset with predicted pseudo labels for 
     
-[^107]: FGLP：移动用户联邦细粒度位置预测系统
+[^108]: FGLP：移动用户联邦细粒度位置预测系统
 
     FGLP: A Federated Fine-Grained Location Prediction System for Mobile Users. (arXiv:2106.08946v1 [cs.LG] CROSS LISTED)
 
@@ -1613,7 +1628,7 @@
 
     Fine-grained location prediction on smart phones can be used to improve app/system performance. Application scenarios include video quality adaptation as a function of the 5G network quality at predicted user locations, and augmented reality apps that speed up content rendering based on predicted user locations. Such use cases require prediction error in the same range as the GPS error, and no existing works on location prediction can achieve this level of accuracy. We present a system for fine-grained location prediction (FGLP) of mobile users, based on GPS traces collected on the phones. FGLP has two components: a federated learning framework and a prediction model. The framework runs on the phones of the users and also on a server that coordinates learning from all users in the system. FGLP represents the user location data as relative points in an abstract 2D space, which enables learning across different physical spaces. The model merges Bidirectional Long Short-Term Memory (BiLST
     
-[^108]: 图像配准中的注意力机制（AiR）：一种无监督的Transformer方法
+[^109]: 图像配准中的注意力机制（AiR）：一种无监督的Transformer方法
 
     Attention for Image Registration (AiR): an unsupervised Transformer approach. (arXiv:2105.02282v2 [cs.CV] UPDATED)
 
@@ -1627,7 +1642,7 @@
 
     Image registration is a crucial task in signal processing, but it often encounters issues with stability and efficiency. Non-learning registration approaches rely on optimizing similarity metrics between fixed and moving images, which can be expensive in terms of time and space complexity. This problem can be exacerbated when the images are large or there are significant deformations between them. Recently, deep learning, specifically convolutional neural network (CNN)-based methods, have been explored as an effective solution to the weaknesses of non-learning approaches. To further advance learning approaches in image registration, we introduce an attention mechanism in the deformable image registration problem. Our proposed approach is based on a Transformer framework called AiR, which can be efficiently trained on GPGPU devices. We treat the image registration problem as a language translation task and use the Transformer to learn the deformation field. The method learns an unsuperv
     
-[^109]: 多目标进化算法在多峰目标上的理论分析
+[^110]: 多目标进化算法在多峰目标上的理论分析
 
     Theoretical Analyses of Multiobjective Evolutionary Algorithms on Multimodal Objectives. (arXiv:2012.07231v4 [cs.NE] UPDATED)
 
@@ -1641,7 +1656,7 @@
 
     The theoretical understanding of MOEAs is lagging far behind their success in practice. In particular, previous theory work considers mostly easy problems that are composed of unimodal objectives.  As a first step towards a deeper understanding of how evolutionary algorithms solve multimodal multiobjective problems, we propose the OJZJ problem, a bi-objective problem composed of two objectives isomorphic to the classic jump function benchmark. We prove that SEMO with probability one does not compute the full Pareto front, regardless of the runtime. In contrast, for all problem sizes $n$ and all jump sizes ${k \in [4..\frac n2 - 1]}$, the global SEMO (GSEMO) covers the Pareto front in an expected number of $\Theta((n-2k)n^{k})$ iterations. For $k = o(n)$, we also show the tighter bound $\frac 32 e n^{k+1} \pm o(n^{k+1})$, which might be the first runtime bound for an MOEA that is tight apart from lower-order terms. We also combine the GSEMO with two approaches that showed advantages in 
     
-[^110]: Fictitious Play优于Counterfactual Regret Minimization
+[^111]: Fictitious Play优于Counterfactual Regret Minimization
 
     Fictitious Play Outperforms Counterfactual Regret Minimization. (arXiv:2001.11165v7 [cs.GT] UPDATED)
 
