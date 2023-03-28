@@ -26,13 +26,15 @@
 | [^22] | [Inference in Cluster Randomized Trials with Matched Pairs.](http://arxiv.org/abs/2211.14903) | 本文研究了在匹配对簇随机试验中进行统计推断的问题，提出了加权均值差估计量和方差估计量，建立了基于这些估计量的渐近精确性，并探讨了常用的两种测试程序的特性。 |
 | [^23] | [Inference on Extreme Quantiles of Unobserved Individual Heterogeneity.](http://arxiv.org/abs/2210.08524) | 本文提出了一种可计算个体异质性极值分位数置信区间的方法，该方法通过构造极值定理和中间阶定理，以及适当的速率和动量条件来解决只有带有噪声的估计可用的情况下，推断个体异质性的极值分位数的问题。 |
 | [^24] | [Smiles in Profiles: Improving Fairness and Efficiency Using Estimates of User Preferences in Online Marketplaces.](http://arxiv.org/abs/2209.01235) | 通过模拟不同特征的档案照片对出借人需求的影响，研究提出了实现线上市场公平和效率的方法。 |
-| [^25] | [Estimating the Gains (and Losses) of Revenue Management.](http://arxiv.org/abs/2206.04424) | 本论文研究了法国铁路运输中收益管理与统一定价或完全灵活的策略的盈利和损失，提出了一种原始的识别策略，研究结果显示实际收益管理表现相似或更好，但也存在高达16.7%的实质损失，并强调了收益管理在需求不确定时获取信息的关键作用。 |
-| [^26] | [Inventories, Demand Shocks Propagation and Amplification in Supply Chains.](http://arxiv.org/abs/2205.03862) | 本文通过研究供应链上的产业地位和存货对需求冲击传导效应的作用，发现冲击在上游产业中有放大效应，并找到了存货在解释产出弹性上的重要作用。 |
-| [^27] | [Abadie's Kappa and Weighting Estimators of the Local Average Treatment Effect.](http://arxiv.org/abs/2204.07672) | 本文研究了基于 Abadie Kappa 定理的局部平均治疗效应的加权估计量的特性，并提出了一个归一化的 Abadie 估计值更为可取的观点。 |
-| [^28] | [Entitled to Property: How Breaking the Gender Barrier Improves Child Health in India.](http://arxiv.org/abs/2106.10841) | 印度一项政策措施授予未婚妇女继承权，改善了儿童身高和体重，同时提高了母亲在家庭内的谈判能力，从而产生了更好的父母照顾和改善的儿童健康状况的效益。这表明，赋予妇女权利的政策可以对儿童的人力资本产生额外积极效应。 |
-| [^29] | ["Near" Weighted Utilitarian Characterizations of Pareto Optima.](http://arxiv.org/abs/2008.10819) | 本文通过“接近”加权 Utilitarian 福利最大化来描述 Pareto 最优性。这些标准所代表的社会福利排序是通过弱化连续性公理得出的加权 Utilitarianism 标准公理。 |
-| [^30] | [Fictitious Play Outperforms Counterfactual Regret Minimization.](http://arxiv.org/abs/2001.11165) | 本研究比较了两种算法在近似多人博弈Nash均衡方面的表现，结果发现Fictitious Play比Counterfactual Regret Minimization更优秀。 |
-| [^31] | [State-Building through Public Land Disposal? An Application of Matrix Completion for Counterfactual Prediction.](http://arxiv.org/abs/1903.08028) | 本文使用矩阵完整性方法预测了在没有土地政策的情况下前沿州规模的反事实时间序列，发现土地政策对州政府支出和收入产生了显著的负面影响。 |
+| [^25] | [Impossibility theorems involving weakenings of expansion consistency and resoluteness in voting.](http://arxiv.org/abs/2208.06907) | 研究发现在投票系统中，扩展一致性的弱化与决议的几个变体之间不相容，包括允许选民只表达弱偏好或允许平局的变体。 |
+| [^26] | [Estimating the Gains (and Losses) of Revenue Management.](http://arxiv.org/abs/2206.04424) | 本论文研究了法国铁路运输中收益管理与统一定价或完全灵活的策略的盈利和损失，提出了一种原始的识别策略，研究结果显示实际收益管理表现相似或更好，但也存在高达16.7%的实质损失，并强调了收益管理在需求不确定时获取信息的关键作用。 |
+| [^27] | [Inventories, Demand Shocks Propagation and Amplification in Supply Chains.](http://arxiv.org/abs/2205.03862) | 本文通过研究供应链上的产业地位和存货对需求冲击传导效应的作用，发现冲击在上游产业中有放大效应，并找到了存货在解释产出弹性上的重要作用。 |
+| [^28] | [Abadie's Kappa and Weighting Estimators of the Local Average Treatment Effect.](http://arxiv.org/abs/2204.07672) | 本文研究了基于 Abadie Kappa 定理的局部平均治疗效应的加权估计量的特性，并提出了一个归一化的 Abadie 估计值更为可取的观点。 |
+| [^29] | [Bridging the short-term and long-term dynamics of economic structural change.](http://arxiv.org/abs/2110.09673) | 提出了一个建模框架，将研究经济多样化和复杂性的两个领域统一起来，从而使我们可以更好地理解经济的长期结构性变化。 |
+| [^30] | [Entitled to Property: How Breaking the Gender Barrier Improves Child Health in India.](http://arxiv.org/abs/2106.10841) | 印度一项政策措施授予未婚妇女继承权，改善了儿童身高和体重，同时提高了母亲在家庭内的谈判能力，从而产生了更好的父母照顾和改善的儿童健康状况的效益。这表明，赋予妇女权利的政策可以对儿童的人力资本产生额外积极效应。 |
+| [^31] | ["Near" Weighted Utilitarian Characterizations of Pareto Optima.](http://arxiv.org/abs/2008.10819) | 本文通过“接近”加权 Utilitarian 福利最大化来描述 Pareto 最优性。这些标准所代表的社会福利排序是通过弱化连续性公理得出的加权 Utilitarianism 标准公理。 |
+| [^32] | [Fictitious Play Outperforms Counterfactual Regret Minimization.](http://arxiv.org/abs/2001.11165) | 本研究比较了两种算法在近似多人博弈Nash均衡方面的表现，结果发现Fictitious Play比Counterfactual Regret Minimization更优秀。 |
+| [^33] | [State-Building through Public Land Disposal? An Application of Matrix Completion for Counterfactual Prediction.](http://arxiv.org/abs/1903.08028) | 本文使用矩阵完整性方法预测了在没有土地政策的情况下前沿州规模的反事实时间序列，发现土地政策对州政府支出和收入产生了显著的负面影响。 |
 
 # 详细
 
@@ -372,7 +374,21 @@
 
     Online platforms often face challenges being both fair (i.e., non-discriminatory) and efficient (i.e., maximizing revenue). Using computer vision algorithms and observational data from a micro-lending marketplace, we find that choices made by borrowers creating online profiles impact both of these objectives. We further support this conclusion with a web-based randomized survey experiment. In the experiment, we create profile images using Generative Adversarial Networks that differ in a specific feature and estimate its impact on lender demand. We then counterfactually evaluate alternative platform policies and identify particular approaches to influencing the changeable profile photo features that can ameliorate the fairness-efficiency tension.
     
-[^25]: 预估收益管理的盈利和损失
+[^25]: 投票中扩展一致性和决议弱化的不可能定理
+
+    Impossibility theorems involving weakenings of expansion consistency and resoluteness in voting. (arXiv:2208.06907v3 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2208.06907](http://arxiv.org/abs/2208.06907)
+
+    研究发现在投票系统中，扩展一致性的弱化与决议的几个变体之间不相容，包括允许选民只表达弱偏好或允许平局的变体。
+
+    
+
+    个人理性选择的一个基本原则是森的 γ公理，也称为扩展一致性，它规定两个菜单中选择的任何一个替代品必须从菜单的并集中选择。扩展一致性也可以在社会选择的环境中规定。在投票理论中，它规定从两个候选人中选择的任何候选人必须从候选人的联合领域中选择。该公理的一个重要特例是二元扩展一致性，它规定从最初的候选人领域中选择的任何候选人，在与新候选人进行头对头比赛时也必须被选择，当将新的候选人添加到领域时更新选择，从而排除破坏者效应。本文研究了扩展一致性的弱化和决议弱化之间的紧张关系，决议强调在任何选举中选择单一候选人的原则。众所周知，在许多投票系统中，包括排序对投票和舒尔采方法，决议与基本公平条件不一致。我们证明了不可能定理，在二元扩展一致性的弱化与(弱)决议的几个变体之间不相容，包括允许选民只表达弱偏好或允许平局的变体。我们的结果突显了设计符合多个合理标准的投票规则面临的困难，并且对扩展一致性和决议之间的权衡关系提供了新的见解。
+
+    A fundamental principle of individual rational choice is Sen's $\gamma$ axiom, also known as expansion consistency, stating that any alternative chosen from each of two menus must be chosen from the union of the menus. Expansion consistency can also be formulated in the setting of social choice. In voting theory, it states that any candidate chosen from two fields of candidates must be chosen from the combined field of candidates. An important special case of the axiom is binary expansion consistency, which states that any candidate chosen from an initial field of candidates and chosen in a head-to-head match with a new candidate must also be chosen when the new candidate is added to the field, thereby ruling out spoiler effects. In this paper, we study the tension between this weakening of expansion consistency and weakenings of resoluteness, an axiom demanding the choice of a single candidate in any election. As is well known, resoluteness is inconsistent with basic fairness conditio
+    
+[^26]: 预估收益管理的盈利和损失
 
     Estimating the Gains (and Losses) of Revenue Management. (arXiv:2206.04424v2 [econ.GN] UPDATED)
 
@@ -386,7 +402,7 @@
 
     Despite the wide adoption of revenue management in many industries such as airline, railway, and hospitality, there is still scarce empirical evidence on the gains or losses of such strategies compared to uniform pricing or fully flexible strategies. We quantify such gains and losses and identify their underlying sources in the context of French railway transportation. The identification of demand is complicated by censoring and the absence of exogenous price variations. We develop an original identification strategy combining temporal variations in relative prices, consumers' rationality and weak optimality conditions on the firm's pricing strategy. Our results suggest similar or better performance of the actual revenue management compared to optimal uniform pricing, but also substantial losses of up to 16.7% compared to the optimal pricing strategy. We also highlight the key role of revenue management in acquiring information when demand is uncertain.
     
-[^26]: 存货、需求冲击传导和供应链中的放大效应
+[^27]: 存货、需求冲击传导和供应链中的放大效应
 
     Inventories, Demand Shocks Propagation and Amplification in Supply Chains. (arXiv:2205.03862v4 [econ.GN] UPDATED)
 
@@ -400,7 +416,7 @@
 
     I study the role of industries' position in supply chains in shaping the transmission of final demand shocks. First, I use a shift-share design based on destination-specific final demand shocks and destination shares to show that shocks amplify upstream. Quantitatively, upstream industries respond to final demand shocks up to three times as much as final goods producers. To organize the reduced form results, I develop a tractable production network model with inventories and study how the properties of the network and the cyclicality of inventories interact to determine whether final demand shocks amplify or dissipate upstream. I test the mechanism by directly estimating the model-implied relationship between output growth and demand shocks, mediated by network position and inventories. I find evidence of the role of inventories in explaining heterogeneous output elasticities. Finally, I use the model to quantitatively study how inventories and network properties shape the volatility o
     
-[^27]: Abadie's Kappa 和权重估计局部平均治疗效应
+[^28]: Abadie's Kappa 和权重估计局部平均治疗效应
 
     Abadie's Kappa and Weighting Estimators of the Local Average Treatment Effect. (arXiv:2204.07672v2 [econ.EM] UPDATED)
 
@@ -414,7 +430,21 @@
 
     In this paper we study the finite sample and asymptotic properties of various weighting estimators of the local average treatment effect (LATE), several of which are based on Abadie's (2003) kappa theorem. Our framework presumes a binary treatment and a binary instrument, which may only be valid after conditioning on additional covariates. We argue that one of the Abadie estimators, which is weight normalized, is preferable in many contexts. Several other estimators, which are unnormalized, do not generally satisfy the properties of scale invariance with respect to the natural logarithm and translation invariance, thereby exhibiting sensitivity to the units of measurement when estimating the LATE in logs and the centering of the outcome variable more generally. On the other hand, when noncompliance is one-sided, certain unnormalized estimators have the advantage of being based on a denominator that is bounded away from zero. To reconcile these findings, we demonstrate that when the ins
     
-[^28]: 拥有财产权：打破性别壁垒改善印度儿童健康状况
+[^29]: 桥接经济结构变化的短期和长期动态
+
+    Bridging the short-term and long-term dynamics of economic structural change. (arXiv:2110.09673v2 [physics.soc-ph] UPDATED)
+
+    [http://arxiv.org/abs/2110.09673](http://arxiv.org/abs/2110.09673)
+
+    提出了一个建模框架，将研究经济多样化和复杂性的两个领域统一起来，从而使我们可以更好地理解经济的长期结构性变化。
+
+    
+
+    经济转型——即经济所生产东西的变化——对于发展和提高生活水平至关重要。最近经济复杂性领域的两个研究方向推动了我们对这一过程的理解，一个研究经济如何多样化，另一个研究经济的复杂性如何在其产出的组成中体现。然而，这些学科之间的联系尚不清楚，以及它们如何与结构转型的经典理解相关。在这里，我们提出了一个简单的动态建模框架，将这些工作领域统一起来，基于普遍观察到的经济多样化倾向于与它们已经拥有的活动相关联。我们展示了如何从这一观察中自然地产生长期结构性变化的样式事实，以及复杂度度量。然而，复杂度度量具有新的含义，可以描述经济体验到的长期变化。
+
+    Economic transformation -- change in what an economy produces -- is foundational to development and rising standards of living. Our understanding of this process has been propelled recently by two branches of work in the field of economic complexity, one studying how economies diversify, the other how the complexity of an economy is expressed in the makeup of its output. However, the connection between these branches is not well understood, nor how they relate to a classic understanding of structural transformation. Here, we present a simple dynamical modeling framework that unifies these areas of work, based on the widespread observation that economies diversify preferentially into activities that are related to ones they do already. We show how stylized facts of long-run structural change, as well as complexity metrics, can both emerge naturally from this one observation. However, complexity metrics take on new meanings, as descriptions of the long-term changes an economy experiences
+    
+[^30]: 拥有财产权：打破性别壁垒改善印度儿童健康状况
 
     Entitled to Property: How Breaking the Gender Barrier Improves Child Health in India. (arXiv:2106.10841v9 [econ.GN] UPDATED)
 
@@ -428,7 +458,7 @@
 
     Non-unitary household models posit that increasing women's bargaining power can affect child health, a significant predictor of human capital and economic status throughout adulthood. We study how a policy change, the Hindu Succession Act Amendment (HSAA), which provided inheritance rights to unmarried women in India, impacts child health. We find evidence that the HSAA improved the height and weight of children. In addition, we find evidence consistent with a channel that the policy improved women's intra-household bargaining power, leading to downstream benefits through better parental care for children and improved child health. The findings confirm that children do better when their mothers control a more significant fraction of the family resources. Thus, policies that empower women can have additional positive spillovers for children's human capital.
     
-[^29]: "接近"加权 Utilitarian 描述 Pareto Optima
+[^31]: "接近"加权 Utilitarian 描述 Pareto Optima
 
     "Near" Weighted Utilitarian Characterizations of Pareto Optima. (arXiv:2008.10819v2 [econ.TH] UPDATED)
 
@@ -442,7 +472,7 @@
 
     We characterize Pareto optimality via "near" weighted utilitarian welfare maximization. One characterization sequentially maximizes utilitarian welfare functions using a finite sequence of nonnegative and eventually positive welfare weights. The other maximizes a utilitarian welfare function with a certain class of positive hyperreal weights. The social welfare ordering represented by these "near" weighted utilitarian welfare criteria is characterized by the standard axioms for weighted utilitarianism under a suitable weakening of the continuity axiom.
     
-[^30]: Fictitious Play优于Counterfactual Regret Minimization
+[^32]: Fictitious Play优于Counterfactual Regret Minimization
 
     Fictitious Play Outperforms Counterfactual Regret Minimization. (arXiv:2001.11165v7 [cs.GT] UPDATED)
 
@@ -456,7 +486,7 @@
 
     We compare the performance of two popular algorithms, fictitious play and counterfactual regret minimization, in approximating Nash equilibrium in multiplayer games. Despite recent success of counterfactual regret minimization in multiplayer poker and conjectures of its superiority, we show that fictitious play leads to improved Nash equilibrium approximation over a variety of game classes and sizes.
     
-[^31]: 公共土地处置对国家建设的影响？一种矩阵完整性应用于反事实预测
+[^33]: 公共土地处置对国家建设的影响？一种矩阵完整性应用于反事实预测
 
     State-Building through Public Land Disposal? An Application of Matrix Completion for Counterfactual Prediction. (arXiv:1903.08028v3 [econ.GN] UPDATED)
 

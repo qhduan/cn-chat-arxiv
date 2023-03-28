@@ -1,0 +1,12 @@
+{
+    "title": "Efficient Methods for Natural Language Processing: A Survey. (arXiv:2209.00099v2 [cs.CL] UPDATED)",
+    "abstract": "Recent work in natural language processing (NLP) has yielded appealing results from scaling model parameters and training data; however, using only scale to improve performance means that resource consumption also grows. Such resources include data, time, storage, or energy, all of which are naturally limited and unevenly distributed. This motivates research into efficient methods that require fewer resources to achieve similar results. This survey synthesizes and relates current methods and findings in efficient NLP. We aim to provide both guidance for conducting NLP under limited resources, and point towards promising research directions for developing more efficient methods.",
+    "link": "http://arxiv.org/abs/2209.00099",
+    "context": "Title: Efficient Methods for Natural Language Processing: A Survey. (arXiv:2209.00099v2 [cs.CL] UPDATED)\nAbstract: Recent work in natural language processing (NLP) has yielded appealing results from scaling model parameters and training data; however, using only scale to improve performance means that resource consumption also grows. Such resources include data, time, storage, or energy, all of which are naturally limited and unevenly distributed. This motivates research into efficient methods that require fewer resources to achieve similar results. This survey synthesizes and relates current methods and findings in efficient NLP. We aim to provide both guidance for conducting NLP under limited resources, and point towards promising research directions for developing more efficient methods.",
+    "path": "papers/22/09/2209.00099.json",
+    "total_tokens": 686,
+    "translated_title": "自然语言处理的高效方法：一项调查",
+    "translated_abstract": "自然语言处理（NLP）的最近研究通过扩展模型参数和训练数据取得了吸引人的结果；但是，仅使用规模来提高性能意味着资源消耗也增加。这些资源包括数据、时间、存储或能源，所有这些资源自然受限且分布不均。这促使研究出更有效的方法以达到类似结果而需要较少的资源。本调查综合和关联当前高效NLP中的方法和研究结果。我们旨在为在有限的资源下进行NLP提供指导，并指向开发更有效方法的有希望的研究方向。",
+    "tldr": "这篇论文调查了当前高效NLP方法和研究结果，旨在在有限的资源下为进行NLP提供指南，并指向开发更有效方法的有希望的研究方向。",
+    "en_tdlr": "This survey explores current efficient methods and findings in NLP, aiming to provide guidance for conducting NLP with limited resources and pointing towards promising research directions for developing more efficient methods."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Complexity and scalability of defeasible reasoning in many-valued weighted knowledge bases with typicality. (arXiv:2303.04534v2 [cs.AI] UPDATED)",
+    "abstract": "Weighted knowledge bases for description logics with typicality under a \"concept-wise\" multi-preferential semantics provide a logical interpretation of MultiLayer Perceptrons. In this context, Answer Set Programming (ASP) has been shown to be suitable for addressing defeasible reasoning in the finitely many-valued case, providing a $\\Pi^p_2$ upper bound on the complexity of the problem, nonetheless leaving unknown the exact complexity and only providing a proof-of-concept implementation. This paper fulfils the lack by providing a $P^{NP[log]}$-completeness result and new ASP encodings that deal with weighted knowledge bases with large search spaces.",
+    "link": "http://arxiv.org/abs/2303.04534",
+    "context": "Title: Complexity and scalability of defeasible reasoning in many-valued weighted knowledge bases with typicality. (arXiv:2303.04534v2 [cs.AI] UPDATED)\nAbstract: Weighted knowledge bases for description logics with typicality under a \"concept-wise\" multi-preferential semantics provide a logical interpretation of MultiLayer Perceptrons. In this context, Answer Set Programming (ASP) has been shown to be suitable for addressing defeasible reasoning in the finitely many-valued case, providing a $\\Pi^p_2$ upper bound on the complexity of the problem, nonetheless leaving unknown the exact complexity and only providing a proof-of-concept implementation. This paper fulfils the lack by providing a $P^{NP[log]}$-completeness result and new ASP encodings that deal with weighted knowledge bases with large search spaces.",
+    "path": "papers/23/03/2303.04534.json",
+    "total_tokens": 716,
+    "translated_title": "具有典型性的多值加权知识库中可撤销推理的复杂性和可扩展性",
+    "translated_abstract": "针对具有典型性的描述逻辑的加权知识库，本文提出了一种基于“概念级”的多优先语义的逻辑解释方法，并显示出答案集编程（ASP）适用于处理有限多值情形下的可撤销推理。该文通过提供 $P^{NP[log]}$-完备性结果和具有大搜索空间的加权知识库的新的ASP编码来填补这一缺口。",
+    "tldr": "本文提出了一种基于典型性描述逻辑的加权知识库的推理方法，通过提供新的ASP编码填补现有研究的不足，复杂性项的理论分析推导了经典问题 $P^{NP[log]}$-完备性结果。",
+    "en_tdlr": "This paper presents a reasoning method for weighted knowledge bases based on typicality in description logics, and fills the existing research gaps by providing new ASP encoding and theoretical analysis of the complexity, resulting in the $P^{NP[log]}$-completeness of the classical problem."
+}

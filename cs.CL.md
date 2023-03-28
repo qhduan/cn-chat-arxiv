@@ -39,11 +39,13 @@
 | [^35] | [Deep Temporal Modelling of Clinical Depression through Social Media Text.](http://arxiv.org/abs/2211.07717) | 本文通过使用抑郁症状检测分类器，从社交媒体文本提取临床相关特征，建立了一个模型用于检测用户的临床抑郁症，通过提供不同时间粒度的准确度度量来评估该模型。 |
 | [^36] | [Knowledge-in-Context: Towards Knowledgeable Semi-Parametric Language Models.](http://arxiv.org/abs/2210.16433) | 本文提出了一种名为「Knowledge-in-Context」的半参数语言模型架构，通过外部存储器带入各种类型的知识以帮助解决自然语言处理任务，并且可以自适应地选择最有用的知识片段。 |
 | [^37] | [End-to-End Entity Detection with Proposer and Regressor.](http://arxiv.org/abs/2210.10260) | 该论文提出了一种基于提议器和回归器的端到端实体检测方法，通过利用特征金字塔网络生成高质量的实体提议，并对提议进行精细调整以生成最终的预测结果。该模型具有查询语义丰富、实体定位精度高、模型训练容易等优点，还引入了空间调制变压器来增强内部关系的建模能力。实验结果表明，该方法显著优于现有的最先进方法。 |
-| [^38] | [MAP: Multimodal Uncertainty-Aware Vision-Language Pre-training Model.](http://arxiv.org/abs/2210.05335) | 本文提出了一种利用概率分布编码器进行多模态不确定性建模的预训练模型MAP，该模型在多项下游任务中均表现优异，超越了现有模型。 |
-| [^39] | [An Equal-Size Hard EM Algorithm for Diverse Dialogue Generation.](http://arxiv.org/abs/2209.14627) | 本文提出了一种平衡约束的等大小硬EM算法，用于训练多解码器模型以实现多样的对话生成，可在小型模型中生成高质量的多样化响应。 |
-| [^40] | [Multilingual Bidirectional Unsupervised Translation Through Multilingual Finetuning and Back-Translation.](http://arxiv.org/abs/2209.02821) | 该论文提出了一种两阶段的方法，实现单个NMT模型对未见过的语言同英语之间的双向无监督翻译。该方法包括多语言微调和双向回译，成功提高了翻译质量。 |
-| [^41] | [Dual-Stream Transformer for Generic Event Boundary Captioning.](http://arxiv.org/abs/2207.03038) | 本文提出了一种双流Transformer的通用事件边界字幕生成方法，结合多个预训练模型和边界类型提示，以及单词级别的集成策略，实现了生成更人性化的字幕，并在GEBC测试集上取得了令人满意的结果。 |
-| [^42] | [Does Transliteration Help Multilingual Language Modeling?.](http://arxiv.org/abs/2201.12501) | 本文探究了把使用不同书写系统的相近语言音译成同一种书写系统，对于多语言语言模型的提升的影响，发现音译可以提高低资源语言的表现，而不会对资源相对较高的语言产生负面影响。 |
+| [^38] | [Zero-Shot On-the-Fly Event Schema Induction.](http://arxiv.org/abs/2210.06254) | 通过利用大型语言模型生成源文档，可以在零样本的情况下即时生成任何主题的完整事件模式，比人工策划的模式更完整。 |
+| [^39] | [MAP: Multimodal Uncertainty-Aware Vision-Language Pre-training Model.](http://arxiv.org/abs/2210.05335) | 本文提出了一种利用概率分布编码器进行多模态不确定性建模的预训练模型MAP，该模型在多项下游任务中均表现优异，超越了现有模型。 |
+| [^40] | [An Equal-Size Hard EM Algorithm for Diverse Dialogue Generation.](http://arxiv.org/abs/2209.14627) | 本文提出了一种平衡约束的等大小硬EM算法，用于训练多解码器模型以实现多样的对话生成，可在小型模型中生成高质量的多样化响应。 |
+| [^41] | [Multilingual Bidirectional Unsupervised Translation Through Multilingual Finetuning and Back-Translation.](http://arxiv.org/abs/2209.02821) | 该论文提出了一种两阶段的方法，实现单个NMT模型对未见过的语言同英语之间的双向无监督翻译。该方法包括多语言微调和双向回译，成功提高了翻译质量。 |
+| [^42] | [Efficient Methods for Natural Language Processing: A Survey.](http://arxiv.org/abs/2209.00099) | 这篇论文调查了当前高效NLP方法和研究结果，旨在在有限的资源下为进行NLP提供指南，并指向开发更有效方法的有希望的研究方向。 |
+| [^43] | [Dual-Stream Transformer for Generic Event Boundary Captioning.](http://arxiv.org/abs/2207.03038) | 本文提出了一种双流Transformer的通用事件边界字幕生成方法，结合多个预训练模型和边界类型提示，以及单词级别的集成策略，实现了生成更人性化的字幕，并在GEBC测试集上取得了令人满意的结果。 |
+| [^44] | [Does Transliteration Help Multilingual Language Modeling?.](http://arxiv.org/abs/2201.12501) | 本文探究了把使用不同书写系统的相近语言音译成同一种书写系统，对于多语言语言模型的提升的影响，发现音译可以提高低资源语言的表现，而不会对资源相对较高的语言产生负面影响。 |
 
 # 详细
 
@@ -565,7 +567,21 @@
 
     Named entity recognition is a traditional task in natural language processing. In particular, nested entity recognition receives extensive attention for the widespread existence of the nesting scenario. The latest research migrates the well-established paradigm of set prediction in object detection to cope with entity nesting. However, the manual creation of query vectors, which fail to adapt to the rich semantic information in the context, limits these approaches. An end-to-end entity detection approach with proposer and regressor is presented in this paper to tackle the issues. First, the proposer utilizes the feature pyramid network to generate high-quality entity proposals. Then, the regressor refines the proposals for generating the final prediction. The model adopts encoder-only architecture and thus obtains the advantages of the richness of query semantics, high precision of entity localization, and easiness of model training. Moreover, we introduce the novel spatially modulated
     
-[^38]: MAP：多模态不确定性感知的视觉语言预训练模型
+[^38]: 零样本即时事件模式感知技术
+
+    Zero-Shot On-the-Fly Event Schema Induction. (arXiv:2210.06254v2 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2210.06254](http://arxiv.org/abs/2210.06254)
+
+    通过利用大型语言模型生成源文档，可以在零样本的情况下即时生成任何主题的完整事件模式，比人工策划的模式更完整。
+
+    
+
+    如何应对一次大流行爆发中涉及到的事件？计划一场婚礼需要采取哪些措施？这些问题的答案可以通过收集许多与该复杂事件有关的文档、提取相关信息并进行分析来找到。我们提出了一种新的方法，利用大型语言模型生成源文档，以便根据高层事件定义预测特定事件、参数和它们之间的关系，从而构建描述整个复杂事件的模式。使用我们的模型，可以零样本地即时生成任何主题的完整模式，无需进行任何手动数据收集。此外，我们开发了高效的方法从文本中提取相关信息，并在一系列实验中表明，在大多数情况下，这些模式比人工策划的模式更完整。最后，我们展示了这个框架与需要数百万人类标注的注释示例的最新事件模式感知方法在性能上的可比性。
+
+    What are the events involved in a pandemic outbreak? What steps should be taken when planning a wedding? The answers to these questions can be found by collecting many documents on the complex event of interest, extracting relevant information, and analyzing it. We present a new approach in which large language models are utilized to generate source documents that allow predicting, given a high-level event definition, the specific events, arguments, and relations between them to construct a schema that describes the complex event in its entirety. Using our model, complete schemas on any topic can be generated on-the-fly without any manual data collection, i.e., in a zero-shot manner. Moreover, we develop efficient methods to extract pertinent information from texts and demonstrate in a series of experiments that these schemas are considered to be more complete than human-curated ones in the majority of examined scenarios. Finally, we show that this framework is comparable in performanc
+    
+[^39]: MAP：多模态不确定性感知的视觉语言预训练模型
 
     MAP: Multimodal Uncertainty-Aware Vision-Language Pre-training Model. (arXiv:2210.05335v2 [cs.CV] UPDATED)
 
@@ -579,7 +595,7 @@
 
     Multimodal semantic understanding often has to deal with uncertainty, which means the obtained messages tend to refer to multiple targets. Such uncertainty is problematic for our interpretation, including inter- and intra-modal uncertainty. Little effort has studied the modeling of this uncertainty, particularly in pre-training on unlabeled datasets and fine-tuning in task-specific downstream datasets. In this paper, we project the representations of all modalities as probabilistic distributions via a Probability Distribution Encoder (PDE) by utilizing sequence-level interactions. Compared to the existing deterministic methods, such uncertainty modeling can convey richer multimodal semantic information and more complex relationships. Furthermore, we integrate uncertainty modeling with popular pre-training frameworks and propose suitable pre-training tasks: Distribution-based Vision-Language Contrastive learning (D-VLC), Distribution-based Masked Language Modeling (D-MLM), and Distribut
     
-[^39]: 《一种针对多样对话生成的等大小硬EM算法》
+[^40]: 《一种针对多样对话生成的等大小硬EM算法》
 
     An Equal-Size Hard EM Algorithm for Diverse Dialogue Generation. (arXiv:2209.14627v2 [cs.CL] UPDATED)
 
@@ -593,7 +609,7 @@
 
     Open-domain dialogue systems aim to interact with humans through natural language texts in an open-ended fashion. Despite the recent success of super large dialogue systems such as ChatGPT, using medium-to-small-sized dialogue systems remains the common practice as they are more lightweight and accessible; however, generating diverse dialogue responses is challenging, especially with smaller models. In this work, we propose an Equal-size Hard Expectation--Maximization (EqHard-EM) algorithm to train a multi-decoder model for diverse dialogue generation. Our algorithm assigns a sample to a decoder in a hard manner and additionally imposes an equal-assignment constraint to ensure that all decoders are well-trained. We provide detailed theoretical analysis to justify our approach. Further, experiments on two large-scale open-domain dialogue datasets verify that our EqHard-EM algorithm generates high-quality diverse responses.
     
-[^40]: 通过多语言微调和回译实现的多语言双向无监督翻译
+[^41]: 通过多语言微调和回译实现的多语言双向无监督翻译
 
     Multilingual Bidirectional Unsupervised Translation Through Multilingual Finetuning and Back-Translation. (arXiv:2209.02821v3 [cs.CL] UPDATED)
 
@@ -607,7 +623,21 @@
 
     We propose a two-stage approach for training a single NMT model to translate unseen languages both to and from English. For the first stage, we initialize an encoder-decoder model to pretrained XLM-R and RoBERTa weights, then perform multilingual fine-tuning on parallel data in 40 languages to English. We find this model can generalize to zero-shot translations on unseen languages. For the second stage, we leverage this generalization ability to generate synthetic parallel data from monolingual datasets, then train with successive rounds of bidirectional back-translation.  We term our approach EcXTra ({E}nglish-{c}entric Crosslingual ({X}) {Tra}nsfer). Our approach is conceptually simple, only using a standard cross-entropy objective throughout, and also is data-driven, sequentially leveraging auxiliary parallel data and monolingual data. We evaluate our unsupervised NMT results on 7 low-resource languages, and find that each round of back-translation training further refines bidirecti
     
-[^41]: 基于双流Transformer的通用事件边界字幕生成
+[^42]: 自然语言处理的高效方法：一项调查
+
+    Efficient Methods for Natural Language Processing: A Survey. (arXiv:2209.00099v2 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2209.00099](http://arxiv.org/abs/2209.00099)
+
+    这篇论文调查了当前高效NLP方法和研究结果，旨在在有限的资源下为进行NLP提供指南，并指向开发更有效方法的有希望的研究方向。
+
+    
+
+    自然语言处理（NLP）的最近研究通过扩展模型参数和训练数据取得了吸引人的结果；但是，仅使用规模来提高性能意味着资源消耗也增加。这些资源包括数据、时间、存储或能源，所有这些资源自然受限且分布不均。这促使研究出更有效的方法以达到类似结果而需要较少的资源。本调查综合和关联当前高效NLP中的方法和研究结果。我们旨在为在有限的资源下进行NLP提供指导，并指向开发更有效方法的有希望的研究方向。
+
+    Recent work in natural language processing (NLP) has yielded appealing results from scaling model parameters and training data; however, using only scale to improve performance means that resource consumption also grows. Such resources include data, time, storage, or energy, all of which are naturally limited and unevenly distributed. This motivates research into efficient methods that require fewer resources to achieve similar results. This survey synthesizes and relates current methods and findings in efficient NLP. We aim to provide both guidance for conducting NLP under limited resources, and point towards promising research directions for developing more efficient methods.
+    
+[^43]: 基于双流Transformer的通用事件边界字幕生成
 
     Dual-Stream Transformer for Generic Event Boundary Captioning. (arXiv:2207.03038v2 [cs.CV] UPDATED)
 
@@ -621,7 +651,7 @@
 
     This paper describes our champion solution for the CVPR2022 Generic Event Boundary Captioning (GEBC) competition. GEBC requires the captioning model to have a comprehension of instantaneous status changes around the given video boundary, which makes it much more challenging than conventional video captioning task. In this paper, a Dual-Stream Transformer with improvements on both video content encoding and captions generation is proposed: (1) We utilize three pre-trained models to extract the video features from different granularities. Moreover, we exploit the types of boundary as hints to help the model generate captions. (2) We particularly design an model, termed as Dual-Stream Transformer, to learn discriminative representations for boundary captioning. (3) Towards generating content-relevant and human-like captions, we improve the description quality by designing a word-level ensemble strategy. The promising results on the GEBC test split demonstrate the efficacy of our proposed 
     
-[^42]: 翻译：汉语拼音是否有助于多语言语言建模？
+[^44]: 翻译：汉语拼音是否有助于多语言语言建模？
 
     Does Transliteration Help Multilingual Language Modeling?. (arXiv:2201.12501v2 [cs.CL] UPDATED)
 

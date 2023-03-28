@@ -1,0 +1,12 @@
+{
+    "title": "Measuring Classification Decision Certainty and Doubt. (arXiv:2303.14568v1 [stat.ML])",
+    "abstract": "Quantitative characterizations and estimations of uncertainty are of fundamental importance in optimization and decision-making processes. Herein, we propose intuitive scores, which we call \\textit{certainty} and \\textit{doubt}, that can be used in both a Bayesian and frequentist framework to assess and compare the quality and uncertainty of predictions in (multi-)classification decision machine learning problems.",
+    "link": "http://arxiv.org/abs/2303.14568",
+    "context": "Title: Measuring Classification Decision Certainty and Doubt. (arXiv:2303.14568v1 [stat.ML])\nAbstract: Quantitative characterizations and estimations of uncertainty are of fundamental importance in optimization and decision-making processes. Herein, we propose intuitive scores, which we call \\textit{certainty} and \\textit{doubt}, that can be used in both a Bayesian and frequentist framework to assess and compare the quality and uncertainty of predictions in (multi-)classification decision machine learning problems.",
+    "path": "papers/23/03/2303.14568.json",
+    "total_tokens": 554,
+    "translated_title": "量化分类决策的确定性和不确定性测量",
+    "translated_abstract": "确定性和不确定性的定量表征和估计在优化和决策过程中具有基础重要性。本文提出了直观的得分，称为“确定性”和“不确定性”，可在贝叶斯和频率主义框架下用于评估和比较（多）分类决策机器学习问题的预测质量和不确定性。",
+    "tldr": "该论文提出了一种名为“确定性”和“不确定性”的得分方法来量化分类决策中预测的质量和不确定性。",
+    "en_tdlr": "This paper proposes a scoring method called \"certainty\" and \"doubt\" to quantify the quality and uncertainty of predictions in (multi-)classification decision machine learning problems."
+}
