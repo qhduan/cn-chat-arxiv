@@ -39,8 +39,9 @@
 | [^35] | [TextDescriptives: A Python package for calculating a large variety of metrics from text.](http://arxiv.org/abs/2301.02057) | TextDescriptives是一个Python包，可用于从文本中计算多种指标，已被用于分析临床文本的语言稳定性、预测神经精神疾病的特征以及分析小学生成语言目标。 |
 | [^36] | [InferEM: Inferring the Speaker's Intention for Empathetic Dialogue Generation.](http://arxiv.org/abs/2212.06373) | 通过推断对话中最后一次发言来捕捉说话者的意图，提出了一种利用多头注意力的意图融合模块的共情对话生成模型InferEM。模型同时利用前几次发言预测最后一次发言，具有较高的可行性。 |
 | [^37] | [PromptCap: Prompt-Guided Image Captioning for VQA with GPT-3.](http://arxiv.org/abs/2211.09699) | 提出了PromptCap，一种使用提示引导的图像字幕生成模型，用于解决基于知识的视觉问答中通用图像字幕无法准确描述视觉实体的问题。 |
-| [^38] | [SilverAlign: MT-Based Silver Data Algorithm For Evaluating Word Alignment.](http://arxiv.org/abs/2210.06207) | 本文提出SilverAlign算法，将机器翻译和最小对用于生成银标准数据以评估单词对齐器，解决了低资源语言缺失金标准数据对齐的重要场景问题。 |
-| [^39] | [AtteSTNet -- An attention and subword tokenization based approach for code-switched text hate speech detection.](http://arxiv.org/abs/2112.11479) | AtteSTNet是一种基于注意力机制和子词分割的检测混合语言仇恨言论的方法，它不仅与复杂网络相当，而且在各种数据集上性能更好，其极大的简单性和易于维护性是其优点。 |
+| [^38] | [Parameter-Efficient Tuning Makes a Good Classification Head.](http://arxiv.org/abs/2210.16771) | 提出了一种高效参数调整的分类头训练方法，取代了随机初始化的分类头使模型性能稳定提升。 |
+| [^39] | [SilverAlign: MT-Based Silver Data Algorithm For Evaluating Word Alignment.](http://arxiv.org/abs/2210.06207) | 本文提出SilverAlign算法，将机器翻译和最小对用于生成银标准数据以评估单词对齐器，解决了低资源语言缺失金标准数据对齐的重要场景问题。 |
+| [^40] | [AtteSTNet -- An attention and subword tokenization based approach for code-switched text hate speech detection.](http://arxiv.org/abs/2112.11479) | AtteSTNet是一种基于注意力机制和子词分割的检测混合语言仇恨言论的方法，它不仅与复杂网络相当，而且在各种数据集上性能更好，其极大的简单性和易于维护性是其优点。 |
 
 # 详细
 
@@ -562,7 +563,21 @@
 
     Knowledge-based visual question answering (VQA) involves questions that require world knowledge beyond the image to yield the correct answer. Large language models (LMs) like GPT-3 are particularly helpful for this task because of their strong knowledge retrieval and reasoning capabilities. To enable LM to understand images, prior work uses a captioning model to convert images into text. However, when summarizing an image in a single caption sentence, which visual entities to describe are often underspecified. Generic image captions often miss visual details essential for the LM to answer visual questions correctly. To address this challenge, we propose PromptCap (Prompt-guided image Captioning), a captioning model designed to serve as a better connector between images and black-box LMs. Different from generic captions, PromptCap takes a natural-language prompt to control the visual entities to describe in the generated caption. The prompt contains a question that the caption should ai
     
-[^38]: SilverAlign：用机器翻译生成银标准数据进行单词对齐评估的算法
+[^38]: 高效参数调整可以使分类头表现出色
+
+    Parameter-Efficient Tuning Makes a Good Classification Head. (arXiv:2210.16771v2 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2210.16771](http://arxiv.org/abs/2210.16771)
+
+    提出了一种高效参数调整的分类头训练方法，取代了随机初始化的分类头使模型性能稳定提升。
+
+    
+
+    近年来，预训练模型革命性地改变了自然语言理解范式。我们在预训练的主干模型（如BERT）之后附加一个随机初始化的分类头，并微调整个模型。由于预训练主干模型对性能的贡献很大，因此我们自然期望良好的预训练分类头也能受益于训练。然而，主干模型最后一层的输出（即分类头的输入）在微调期间会有很大变化，导致通常的头部单独预训练（LP-FT）失效。在本文中，我们发现高效参数调整可以使分类头表现出色，通过简单地替换随机初始化的头部，我们可以获得稳定的性能提升。我们的实验表明，在 GLUE 和 SuperGLUE 的 9 项任务中，使用参数高效调整联合预训练的分类头可以持续提高性能。
+
+    In recent years, pretrained models revolutionized the paradigm of natural language understanding (NLU), where we append a randomly initialized classification head after the pretrained backbone, e.g. BERT, and finetune the whole model. As the pretrained backbone makes a major contribution to the improvement, we naturally expect a good pretrained classification head can also benefit the training. However, the final-layer output of the backbone, i.e. the input of the classification head, will change greatly during finetuning, making the usual head-only pretraining (LP-FT) ineffective. In this paper, we find that parameter-efficient tuning makes a good classification head, with which we can simply replace the randomly initialized heads for a stable performance gain. Our experiments demonstrate that the classification head jointly pretrained with parameter-efficient tuning consistently improves the performance on 9 tasks in GLUE and SuperGLUE.
+    
+[^39]: SilverAlign：用机器翻译生成银标准数据进行单词对齐评估的算法
 
     SilverAlign: MT-Based Silver Data Algorithm For Evaluating Word Alignment. (arXiv:2210.06207v2 [cs.CL] UPDATED)
 
@@ -576,7 +591,7 @@
 
     Word alignments are essential for a variety of NLP tasks. Therefore, choosing the best approaches for their creation is crucial. However, the scarce availability of gold evaluation data makes the choice difficult. We propose SilverAlign, a new method to automatically create silver data for the evaluation of word aligners by exploiting machine translation and minimal pairs. We show that performance on our silver data correlates well with gold benchmarks for 9 language pairs, making our approach a valid resource for evaluation of different domains and languages when gold data are not available. This addresses the important scenario of missing gold data alignments for low-resource languages.
     
-[^39]: 基于注意力机制和子词分割的混合语言仇恨言论检测方法
+[^40]: 基于注意力机制和子词分割的混合语言仇恨言论检测方法
 
     AtteSTNet -- An attention and subword tokenization based approach for code-switched text hate speech detection. (arXiv:2112.11479v3 [cs.CL] UPDATED)
 
