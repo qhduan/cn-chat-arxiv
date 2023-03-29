@@ -1,0 +1,12 @@
+{
+    "title": "A comment to \"A General Theory of IR Evaluation Measures\". (arXiv:2303.16061v1 [cs.IR])",
+    "abstract": "The paper \"A General Theory of IR Evaluation Measures\" develops a formal framework to determine whether IR evaluation measures are interval scales. This comment shows some limitations about its conclusions.",
+    "link": "http://arxiv.org/abs/2303.16061",
+    "context": "Title: A comment to \"A General Theory of IR Evaluation Measures\". (arXiv:2303.16061v1 [cs.IR])\nAbstract: The paper \"A General Theory of IR Evaluation Measures\" develops a formal framework to determine whether IR evaluation measures are interval scales. This comment shows some limitations about its conclusions.",
+    "path": "papers/23/03/2303.16061.json",
+    "total_tokens": 438,
+    "translated_title": "一篇《关于IR评估方法的一般理论》的评论",
+    "translated_abstract": "本文“一般的IR评估方法理论”开发了一个形式化的框架，以确定IR评估方法是否为区间刻度。本评论显示了一些关于其结论的限制。",
+    "tldr": "本文是一篇对于《关于IR评估方法的一般理论》的评论，指出了它的结论存在一些限制。",
+    "en_tdlr": "This paper is a comment on \"A General Theory of IR Evaluation Measures\", highlighting some limitations in its conclusions."
+}

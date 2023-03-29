@@ -1,0 +1,12 @@
+{
+    "title": "Decentralized Exchanges: The Profitability Frontier of Constant Product Market Makers. (arXiv:2302.05219v2 [q-fin.GN] UPDATED)",
+    "abstract": "In this paper we analyze constant product market makers (CPMMs). We formalize the liquidity providers' profitability conditions and introduce a concept we call the profitability frontier in the xyk-space. We study the effect of mint and burn fees on the profitability frontier, consider various pool types, and compile a large data set from all Uniswap V2 transactions. We use this data to further study our theoretical framework and the profitability conditions. We show how the profitability of liquidity provision is severely affected by the costs of mint and burn events relative to the portfolio size and the characteristics of the trading pair.",
+    "link": "http://arxiv.org/abs/2302.05219",
+    "context": "Title: Decentralized Exchanges: The Profitability Frontier of Constant Product Market Makers. (arXiv:2302.05219v2 [q-fin.GN] UPDATED)\nAbstract: In this paper we analyze constant product market makers (CPMMs). We formalize the liquidity providers' profitability conditions and introduce a concept we call the profitability frontier in the xyk-space. We study the effect of mint and burn fees on the profitability frontier, consider various pool types, and compile a large data set from all Uniswap V2 transactions. We use this data to further study our theoretical framework and the profitability conditions. We show how the profitability of liquidity provision is severely affected by the costs of mint and burn events relative to the portfolio size and the characteristics of the trading pair.",
+    "path": "papers/23/02/2302.05219.json",
+    "total_tokens": 723,
+    "translated_title": "去中心化交易所：常量产品市场制造商的盈利前沿",
+    "translated_abstract": "本文分析了常量产品市场制造商（CPMM），并形式化了提供流动性的盈利条件，提出了我们称之为xyk空间中的盈利前沿的概念。我们研究了铸造和销毁费用对盈利前沿的影响，考虑了各种池类型，并从所有Uniswap V2交易中编制了一个庞大的数据集。我们利用这些数据进一步研究了我们的理论框架和盈利条件。我们展示了流动性提供的盈利严重受到铸造和销毁事件成本相对于组合规模和交易对特性的影响。",
+    "tldr": "本文分析了常量产品市场制造商，提出了盈利前沿的概念，并从 Uniswap V2 交易数据集出发，研究了铸造和销毁费用对流动性提供盈利的影响。",
+    "en_tdlr": "This paper analyzes Constant Product Market Makers, introduces the concept of the profitability frontier, and studies the effect of mint and burn fees on liquidity provision profitability using data from Uniswap V2 transactions."
+}

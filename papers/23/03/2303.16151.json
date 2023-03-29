@@ -1,0 +1,12 @@
+{
+    "title": "Forecasting Large Realized Covariance Matrices: The Benefits of Factor Models and Shrinkage. (arXiv:2303.16151v1 [q-fin.ST])",
+    "abstract": "We propose a model to forecast large realized covariance matrices of returns, applying it to the constituents of the S\\&P 500 daily. To address the curse of dimensionality, we decompose the return covariance matrix using standard firm-level factors (e.g., size, value, and profitability) and use sectoral restrictions in the residual covariance matrix. This restricted model is then estimated using vector heterogeneous autoregressive (VHAR) models with the least absolute shrinkage and selection operator (LASSO). Our methodology improves forecasting precision relative to standard benchmarks and leads to better estimates of minimum variance portfolios.",
+    "link": "http://arxiv.org/abs/2303.16151",
+    "context": "Title: Forecasting Large Realized Covariance Matrices: The Benefits of Factor Models and Shrinkage. (arXiv:2303.16151v1 [q-fin.ST])\nAbstract: We propose a model to forecast large realized covariance matrices of returns, applying it to the constituents of the S\\&P 500 daily. To address the curse of dimensionality, we decompose the return covariance matrix using standard firm-level factors (e.g., size, value, and profitability) and use sectoral restrictions in the residual covariance matrix. This restricted model is then estimated using vector heterogeneous autoregressive (VHAR) models with the least absolute shrinkage and selection operator (LASSO). Our methodology improves forecasting precision relative to standard benchmarks and leads to better estimates of minimum variance portfolios.",
+    "path": "papers/23/03/2303.16151.json",
+    "total_tokens": 786,
+    "translated_title": "预测大型实现协方差矩阵:因子模型和收缩的好处。",
+    "translated_abstract": "我们提出了一种模型来预测收益的大型实现协方差矩阵，并对S&P 500的成分股进行了应用。为了解决维数灾难，我们使用标准企业级别因子（如大小、价值和盈利能力）分解回报协方差矩阵，并在残差协方差矩阵中使用部门限制。然后，使用最小绝对收缩和选择运算符（LASSO）的向量异质自回归（VHAR）模型对该限制模型进行估计。相对于标准基准，我们的方法提高了预测精度，并导致对最小方差组合的更好估计。",
+    "tldr": "本论文介绍了一种用因子模型和收缩的方法预测大型实现协方差矩阵的模型。这种方法通过分解回报协方差矩阵并使用向量异质自回归模型进行估计，相对于标准基准提高了预测精度，并导致对最小方差组合的更好估计。",
+    "en_tdlr": "This paper proposes a model to forecast large realized covariance matrices, using factor models and shrinkage method. The methodology improves forecasting precision and leads to better estimates of minimum variance portfolios."
+}

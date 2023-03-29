@@ -1,0 +1,12 @@
+{
+    "title": "Exploring the Performance of Pruning Methods in Neural Networks: An Empirical Study of the Lottery Ticket Hypothesis. (arXiv:2303.15479v1 [cs.LG])",
+    "abstract": "In this paper, we explore the performance of different pruning methods in the context of the lottery ticket hypothesis. We compare the performance of L1 unstructured pruning, Fisher pruning, and random pruning on different network architectures and pruning scenarios. The experiments include an evaluation of one-shot and iterative pruning, an examination of weight movement in the network during pruning, a comparison of the pruning methods on networks of varying widths, and an analysis of the performance of the methods when the network becomes very sparse. Additionally, we propose and evaluate a new method for efficient computation of Fisher pruning, known as batched Fisher pruning.",
+    "link": "http://arxiv.org/abs/2303.15479",
+    "context": "Title: Exploring the Performance of Pruning Methods in Neural Networks: An Empirical Study of the Lottery Ticket Hypothesis. (arXiv:2303.15479v1 [cs.LG])\nAbstract: In this paper, we explore the performance of different pruning methods in the context of the lottery ticket hypothesis. We compare the performance of L1 unstructured pruning, Fisher pruning, and random pruning on different network architectures and pruning scenarios. The experiments include an evaluation of one-shot and iterative pruning, an examination of weight movement in the network during pruning, a comparison of the pruning methods on networks of varying widths, and an analysis of the performance of the methods when the network becomes very sparse. Additionally, we propose and evaluate a new method for efficient computation of Fisher pruning, known as batched Fisher pruning.",
+    "path": "papers/23/03/2303.15479.json",
+    "total_tokens": 773,
+    "translated_title": "探究神经网络中剪枝方法的性能：关于“中奖券假说”的实证研究",
+    "translated_abstract": "本文探究了不同剪枝方法在“中奖券假说”背景下的性能。我们比较了L1非结构化剪枝、Fisher剪枝和随机剪枝在不同网络架构和剪枝场景下的性能。实验包括一次性和迭代剪枝的评估，对网络在剪枝过程中的权重移动的考察，比较不同宽度网络上剪枝方法的表现，以及在网络变得非常稀疏时方法的性能分析。此外，我们提出并评估了一种新的用于有效计算Fisher剪枝的方法，称为批处理Fisher剪枝。",
+    "tldr": "本文比较了L1非结构化剪枝、Fisher剪枝和随机剪枝在不同网络架构和剪枝场景下的性能，提出了一种新的用于有效计算Fisher剪枝的方法，称为批处理Fisher剪枝。",
+    "en_tdlr": "This paper compares the performance of L1 unstructured pruning, Fisher pruning, and random pruning on different network architectures and pruning scenarios under the context of the lottery ticket hypothesis, and proposes a new method for efficient computation of Fisher pruning known as batched Fisher pruning."
+}

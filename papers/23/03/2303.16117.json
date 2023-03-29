@@ -1,0 +1,11 @@
+{
+    "title": "Feature Engineering Methods on Multivariate Time-Series Data for Financial Data Science Competitions. (arXiv:2303.16117v1 [q-fin.ST])",
+    "abstract": "We apply different feature engineering methods for time-series to US market price data. The predictive power of models are tested against Numerai-Signals targets.",
+    "link": "http://arxiv.org/abs/2303.16117",
+    "context": "Title: Feature Engineering Methods on Multivariate Time-Series Data for Financial Data Science Competitions. (arXiv:2303.16117v1 [q-fin.ST])\nAbstract: We apply different feature engineering methods for time-series to US market price data. The predictive power of models are tested against Numerai-Signals targets.",
+    "path": "papers/23/03/2303.16117.json",
+    "total_tokens": 479,
+    "translated_title": "面向金融数据科学竞赛的多元时间序列数据特征工程方法",
+    "translated_abstract": "我们应用不同的时间序列特征工程方法对美国市场价格数据进行处理，并测试模型在Numerai-Signals目标上的预测能力。",
+    "tldr": "针对金融数据科学竞赛，本研究尝试采用多元时间序列特征工程方法，利用美国市场价格数据进行测试，并验证其在Numerai-Signals目标上的预测能力。"
+}

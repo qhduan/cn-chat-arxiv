@@ -1,0 +1,12 @@
+{
+    "title": "The Value of Information and Circular Settings. (arXiv:2303.16126v1 [econ.TH])",
+    "abstract": "We present a universal concept for the Value of Information (VoI) based on Claude Shannon's information and work of Ruslan Stratonovich that has desirable properties for Bayesian decision theory and demand analysis. The Shannon/Stratonovich VoI concept is compared to the concept of Hartley VoI and applied to an epitome economic application of a circular setting generalizing an example of Ruslan Stratonovich and allowing for a network structure and an investigation of various economic transport costs.",
+    "link": "http://arxiv.org/abs/2303.16126",
+    "context": "Title: The Value of Information and Circular Settings. (arXiv:2303.16126v1 [econ.TH])\nAbstract: We present a universal concept for the Value of Information (VoI) based on Claude Shannon's information and work of Ruslan Stratonovich that has desirable properties for Bayesian decision theory and demand analysis. The Shannon/Stratonovich VoI concept is compared to the concept of Hartley VoI and applied to an epitome economic application of a circular setting generalizing an example of Ruslan Stratonovich and allowing for a network structure and an investigation of various economic transport costs.",
+    "path": "papers/23/03/2303.16126.json",
+    "total_tokens": 676,
+    "translated_title": "信息价值和环形设置的研究",
+    "translated_abstract": "本文提出了一种基于克劳德·香农的信息和Ruslan Stratonovich的工作的信息价值（VoI）的通用概念，该概念具有贝叶斯决策理论和需求分析所需的理想属性。将Shannon / Stratonovich VoI概念与Hartley VoI概念进行比较，并应用于环形设置的典型经济应用，该设置概括了Ruslan Stratonovich的示例，并允许网络结构和不同经济运输成本的调查。",
+    "tldr": "本文提出了一种基于克劳德·香农的信息和Ruslan Stratonovich的工作的信息价值（VoI）的通用概念，并将其应用于环形设置的经济应用，具有重要意义。",
+    "en_tdlr": "This paper presents a universal concept for the Value of Information (VoI) based on Claude Shannon's information and the work of Ruslan Stratonovich. It is compared to the concept of Hartley VoI and applied to a circular setting in economics that generalizes Stratonovich's previous work and investigates various economic transport costs. The proposed concept has significant implications."
+}

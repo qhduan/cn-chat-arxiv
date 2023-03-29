@@ -1,0 +1,12 @@
+{
+    "title": "The transformative potential of machine learning for experiments in fluid mechanics. (arXiv:2303.15832v1 [physics.flu-dyn])",
+    "abstract": "The field of machine learning has rapidly advanced the state of the art in many fields of science and engineering, including experimental fluid dynamics, which is one of the original big-data disciplines. This perspective will highlight several aspects of experimental fluid mechanics that stand to benefit from progress advances in machine learning, including: 1) augmenting the fidelity and quality of measurement techniques, 2) improving experimental design and surrogate digital-twin models and 3) enabling real-time estimation and control. In each case, we discuss recent success stories and ongoing challenges, along with caveats and limitations, and outline the potential for new avenues of ML-augmented and ML-enabled experimental fluid mechanics.",
+    "link": "http://arxiv.org/abs/2303.15832",
+    "context": "Title: The transformative potential of machine learning for experiments in fluid mechanics. (arXiv:2303.15832v1 [physics.flu-dyn])\nAbstract: The field of machine learning has rapidly advanced the state of the art in many fields of science and engineering, including experimental fluid dynamics, which is one of the original big-data disciplines. This perspective will highlight several aspects of experimental fluid mechanics that stand to benefit from progress advances in machine learning, including: 1) augmenting the fidelity and quality of measurement techniques, 2) improving experimental design and surrogate digital-twin models and 3) enabling real-time estimation and control. In each case, we discuss recent success stories and ongoing challenges, along with caveats and limitations, and outline the potential for new avenues of ML-augmented and ML-enabled experimental fluid mechanics.",
+    "path": "papers/23/03/2303.15832.json",
+    "total_tokens": 727,
+    "translated_title": "机器学习在流体力学实验中的变革性潜力",
+    "translated_abstract": "机器学习领域在许多科学和工程领域取得了快速进展，其中包括实验流体力学，这是最初的大数据学科之一。本文将重点介绍实验流体力学中几个受益于机器学习进展的方面，包括：1）增强测量技术的精度和质量，2）改进实验设计和替代数值孪生模型和3）实现实时估计和控制。对于每个方面，我们讨论了最近的成功案例和正在进行的挑战，以及注意事项和限制，并概述了ML增强和ML能力的实验流体力学的新途径的潜力。",
+    "tldr": "本文介绍了机器学习在实验流体力学中的三个方面的应用潜力：提高测量技术精度，改进实验设计和实现实时估计和控制。",
+    "en_tdlr": "The paper discusses the potential of machine learning in enhancing measurement techniques, improving experimental design, and enabling real-time estimation and control in experimental fluid mechanics."
+}

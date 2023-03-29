@@ -1,0 +1,12 @@
+{
+    "title": "Multi-sensor large-scale dataset for multi-view 3D reconstruction. (arXiv:2203.06111v4 [cs.CV] UPDATED)",
+    "abstract": "We present a new multi-sensor dataset for multi-view 3D surface reconstruction. It includes registered RGB and depth data from sensors of different resolutions and modalities: smartphones, Intel RealSense, Microsoft Kinect, industrial cameras, and structured-light scanner. The scenes are selected to emphasize a diverse set of material properties challenging for existing algorithms. We provide around 1.4 million images of 107 different scenes acquired from 100 viewing directions under 14 lighting conditions. We expect our dataset will be useful for evaluation and training of 3D reconstruction algorithms and for related tasks. The dataset is available at skoltech3d.appliedai.tech.",
+    "link": "http://arxiv.org/abs/2203.06111",
+    "context": "Title: Multi-sensor large-scale dataset for multi-view 3D reconstruction. (arXiv:2203.06111v4 [cs.CV] UPDATED)\nAbstract: We present a new multi-sensor dataset for multi-view 3D surface reconstruction. It includes registered RGB and depth data from sensors of different resolutions and modalities: smartphones, Intel RealSense, Microsoft Kinect, industrial cameras, and structured-light scanner. The scenes are selected to emphasize a diverse set of material properties challenging for existing algorithms. We provide around 1.4 million images of 107 different scenes acquired from 100 viewing directions under 14 lighting conditions. We expect our dataset will be useful for evaluation and training of 3D reconstruction algorithms and for related tasks. The dataset is available at skoltech3d.appliedai.tech.",
+    "path": "papers/22/03/2203.06111.json",
+    "total_tokens": 761,
+    "translated_title": "多传感器大规模数据集用于多视角三维重建",
+    "translated_abstract": "我们提供了一个新的多传感器数据集，用于多视角三维表面重建。它包括来自不同分辨率和模态传感器的注册RGB和深度数据:智能手机、英特尔RealSense、微软Kinect、工业相机和结构光扫描仪。场景的选择强调了现有算法挑战的各种物质属性。我们提供了约107个不同场景的100个视角方向下的1.4百万张图像，涵盖了14种照明条件。我们预计我们的数据集将对评估和培训三维重建算法及相关任务有用。该数据集可在skoltech3d.appliedai.tech上获得。",
+    "tldr": "这个数据集包括不同传感器注册的RGB和深度数据，可用于多视角三维重建。它对具有挑战性的物质属性进行了选择并提供了在多个场景下获取的大量数据，旨在帮助算法的评估和训练。",
+    "en_tdlr": "This dataset provides registered RGB and depth data from different sensors for multi-view 3D surface reconstruction, and includes diverse material properties challenging for existing algorithms. It offers a large amount of data acquired from multiple scenes and lighting conditions, aimed at aiding algorithm evaluation and training."
+}

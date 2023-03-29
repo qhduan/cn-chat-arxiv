@@ -1,0 +1,12 @@
+{
+    "title": "Lazy learning: a biologically-inspired plasticity rule for fast and energy efficient synaptic plasticity. (arXiv:2303.16067v1 [cs.NE])",
+    "abstract": "When training neural networks for classification tasks with backpropagation, parameters are updated on every trial, even if the sample is classified correctly. In contrast, humans concentrate their learning effort on errors. Inspired by human learning, we introduce lazy learning, which only learns on incorrect samples. Lazy learning can be implemented in a few lines of code and requires no hyperparameter tuning. Lazy learning achieves state-of-the-art performance and is particularly suited when datasets are large. For instance, it reaches 99.2% test accuracy on Extended MNIST using a single-layer MLP, and does so 7.6x faster than a matched backprop network",
+    "link": "http://arxiv.org/abs/2303.16067",
+    "context": "Title: Lazy learning: a biologically-inspired plasticity rule for fast and energy efficient synaptic plasticity. (arXiv:2303.16067v1 [cs.NE])\nAbstract: When training neural networks for classification tasks with backpropagation, parameters are updated on every trial, even if the sample is classified correctly. In contrast, humans concentrate their learning effort on errors. Inspired by human learning, we introduce lazy learning, which only learns on incorrect samples. Lazy learning can be implemented in a few lines of code and requires no hyperparameter tuning. Lazy learning achieves state-of-the-art performance and is particularly suited when datasets are large. For instance, it reaches 99.2% test accuracy on Extended MNIST using a single-layer MLP, and does so 7.6x faster than a matched backprop network",
+    "path": "papers/23/03/2303.16067.json",
+    "total_tokens": 743,
+    "translated_title": "惰性学习：一种受生物启发的快速、节能突触可塑性规则",
+    "translated_abstract": "在使用反向传播训练神经网络进行分类任务时，即使样本被正确分类，参数也会在每个试验中更新。相比之下，人类集中学习差错。受人类学习的启发，我们引入了惰性学习，仅对错误样本进行学习。惰性学习可以用几行代码实现，无需超参数调整。惰性学习实现了最先进的性能，在数据集较大时特别适用。例如，在使用单层MLP对扩展MNIST进行测试准确率达到99.2％，并且比匹配反向传播网络快7.6倍。",
+    "tldr": "使用惰性学习只对错误样本进行更新参数，实现快速、节能的神经网络训练，并在单层MLP模型上达到了99.2％的测试准确率，比匹配的反向传播网络快7.6倍。",
+    "en_tdlr": "Lazy learning updates parameters only on incorrect samples, achieving fast and energy efficient neural network training. It reaches 99.2% test accuracy on Extended MNIST using a single-layer MLP, and does so 7.6x faster than a matched backprop network."
+}

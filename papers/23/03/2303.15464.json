@@ -1,0 +1,12 @@
+{
+    "title": "Mathematical Challenges in Deep Learning. (arXiv:2303.15464v1 [cs.LG])",
+    "abstract": "Deep models are dominating the artificial intelligence (AI) industry since the ImageNet challenge in 2012. The size of deep models is increasing ever since, which brings new challenges to this field with applications in cell phones, personal computers, autonomous cars, and wireless base stations. Here we list a set of problems, ranging from training, inference, generalization bound, and optimization with some formalism to communicate these challenges with mathematicians, statisticians, and theoretical computer scientists. This is a subjective view of the research questions in deep learning that benefits the tech industry in long run.",
+    "link": "http://arxiv.org/abs/2303.15464",
+    "context": "Title: Mathematical Challenges in Deep Learning. (arXiv:2303.15464v1 [cs.LG])\nAbstract: Deep models are dominating the artificial intelligence (AI) industry since the ImageNet challenge in 2012. The size of deep models is increasing ever since, which brings new challenges to this field with applications in cell phones, personal computers, autonomous cars, and wireless base stations. Here we list a set of problems, ranging from training, inference, generalization bound, and optimization with some formalism to communicate these challenges with mathematicians, statisticians, and theoretical computer scientists. This is a subjective view of the research questions in deep learning that benefits the tech industry in long run.",
+    "path": "papers/23/03/2303.15464.json",
+    "total_tokens": 732,
+    "translated_title": "深度学习中的数学挑战",
+    "translated_abstract": "自从2012年的ImageNet挑战以来，深度模型已经主宰了人工智能领域。深度模型的大小从那时起一直在增加，这给在手机、个人电脑、自动驾驶车辆和无线基站等领域应用的这一领域带来了新的挑战。在这里，我们列出了一组问题，涵盖培训、推理、一般化边界和优化问题，并用一些形式化语言来与数学家、统计学家和理论计算机科学家交流这些挑战。这是对深度学习研究问题的主观看法，它有益于长期的技术发展。",
+    "tldr": "本文总结了深度学习中涉及培训、推理、一般化边界和优化问题的一组数学挑战，为数学家、统计学家和理论计算机科学家提供了与深度学习领域交流的形式化工具。",
+    "en_tdlr": "This paper summarizes a set of mathematical challenges in deep learning, including training, inference, generalization bound, and optimization problems, and provides a formalism for communication with mathematicians, statisticians, and theoretical computer scientists."
+}

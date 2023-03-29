@@ -1,0 +1,12 @@
+{
+    "title": "Generative Invertible Quantum Neural Networks. (arXiv:2302.12906v2 [hep-ph] UPDATED)",
+    "abstract": "Invertible Neural Networks (INN) have become established tools for the simulation and generation of highly complex data. We propose a quantum-gate algorithm for a Quantum Invertible Neural Network (QINN) and apply it to the LHC data of jet-associated production of a Z-boson that decays into leptons, a standard candle process for particle collider precision measurements. We compare the QINN's performance for different loss functions and training scenarios. For this task, we find that a hybrid QINN matches the performance of a significantly larger purely classical INN in learning and generating complex data.",
+    "link": "http://arxiv.org/abs/2302.12906",
+    "context": "Title: Generative Invertible Quantum Neural Networks. (arXiv:2302.12906v2 [hep-ph] UPDATED)\nAbstract: Invertible Neural Networks (INN) have become established tools for the simulation and generation of highly complex data. We propose a quantum-gate algorithm for a Quantum Invertible Neural Network (QINN) and apply it to the LHC data of jet-associated production of a Z-boson that decays into leptons, a standard candle process for particle collider precision measurements. We compare the QINN's performance for different loss functions and training scenarios. For this task, we find that a hybrid QINN matches the performance of a significantly larger purely classical INN in learning and generating complex data.",
+    "path": "papers/23/02/2302.12906.json",
+    "total_tokens": 696,
+    "translated_title": "生成可逆量子神经网络",
+    "translated_abstract": "可逆神经网络已成为模拟和生成高度复杂数据的工具。我们提出了一种量子门算法用于量子可逆神经网络（QINN），并将其应用于将衰变为轻子的Z玻色子的喷注相关产生的LHC数据，这是粒子对撞机精密测量的标准过程。我们比较了QINN在不同损失函数和训练场景下的表现。对于这个任务，我们发现一个混合的QINN可以在学习和生成复杂数据方面与一个显著更大的完全经典的INN的表现匹配。",
+    "tldr": "本论文提出了一种用于生成可逆量子神经网络的算法，并将其应用于LHC数据的处理，结果表明该算法可以在学习和生成复杂数据方面与经典算法的表现相匹配。",
+    "en_tdlr": "This paper proposes a quantum-gate algorithm for a Quantum Invertible Neural Network (QINN) for generating complex data, which is applied to LHC data and shows comparable performance to classical algorithms."
+}

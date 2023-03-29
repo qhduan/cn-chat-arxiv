@@ -1,0 +1,12 @@
+{
+    "title": "Nonlinear classifiers for ranking problems based on kernelized SVM. (arXiv:2002.11436v2 [cs.LG] UPDATED)",
+    "abstract": "Many classification problems focus on maximizing the performance only on the samples with the highest relevance instead of all samples. As an example, we can mention ranking problems, accuracy at the top or search engines where only the top few queries matter. In our previous work, we derived a general framework including several classes of these linear classification problems. In this paper, we extend the framework to nonlinear classifiers. Utilizing a similarity to SVM, we dualize the problems, add kernels and propose a componentwise dual ascent method.",
+    "link": "http://arxiv.org/abs/2002.11436",
+    "context": "Title: Nonlinear classifiers for ranking problems based on kernelized SVM. (arXiv:2002.11436v2 [cs.LG] UPDATED)\nAbstract: Many classification problems focus on maximizing the performance only on the samples with the highest relevance instead of all samples. As an example, we can mention ranking problems, accuracy at the top or search engines where only the top few queries matter. In our previous work, we derived a general framework including several classes of these linear classification problems. In this paper, we extend the framework to nonlinear classifiers. Utilizing a similarity to SVM, we dualize the problems, add kernels and propose a componentwise dual ascent method.",
+    "path": "papers/20/02/2002.11436.json",
+    "total_tokens": 583,
+    "translated_title": "基于核化 SVM 的排名问题非线性分类器",
+    "translated_abstract": "许多分类问题仅关注最具相关性的样本的性能而非所有样本。例如，排名问题、顶部准确度或搜索引擎仅关注前几个查询的结果。我们之前已经推导出包括多个线性分类问题类别的通用框架。本文将该框架扩展到非线性分类器。利用 SVM 的相似性，我们对问题进行对偶化处理，添加了核函数，并提出了一个分量对偶上升方法。",
+    "tldr": "本文提出了一种基于核化 SVM 的非线性分类器，用于解决最高相关性样本的排名问题。",
+    "en_tdlr": "The paper presents a nonlinear classifier based on kernelized SVM, which aims to solve ranking problems focusing on the samples with highest relevance."
+}

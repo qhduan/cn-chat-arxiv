@@ -1,0 +1,12 @@
+{
+    "title": "Conditional Generative Models are Provably Robust: Pointwise Guarantees for Bayesian Inverse Problems. (arXiv:2303.15845v1 [cs.LG])",
+    "abstract": "Conditional generative models became a very powerful tool to sample from Bayesian inverse problem posteriors. It is well-known in classical Bayesian literature that posterior measures are quite robust with respect to perturbations of both the prior measure and the negative log-likelihood, which includes perturbations of the observations. However, to the best of our knowledge, the robustness of conditional generative models with respect to perturbations of the observations has not been investigated yet. In this paper, we prove for the first time that appropriately learned conditional generative models provide robust results for single observations.",
+    "link": "http://arxiv.org/abs/2303.15845",
+    "context": "Title: Conditional Generative Models are Provably Robust: Pointwise Guarantees for Bayesian Inverse Problems. (arXiv:2303.15845v1 [cs.LG])\nAbstract: Conditional generative models became a very powerful tool to sample from Bayesian inverse problem posteriors. It is well-known in classical Bayesian literature that posterior measures are quite robust with respect to perturbations of both the prior measure and the negative log-likelihood, which includes perturbations of the observations. However, to the best of our knowledge, the robustness of conditional generative models with respect to perturbations of the observations has not been investigated yet. In this paper, we prove for the first time that appropriately learned conditional generative models provide robust results for single observations.",
+    "path": "papers/23/03/2303.15845.json",
+    "total_tokens": 618,
+    "translated_title": "条件生成模型可证明具有健壮性:银湖反问题的逐点保证",
+    "translated_abstract": "条件生成模型成为采样银湖反问题后验概率的强大工具. 经典的贝叶斯文献已经知道后验测度对先前测度和负对数似然函数(包括观察的扰动)非常 robust. 但是, 就我们所知, 条件生成模型的健壮性还没被研究过. 在本文中, 我们首次证明了适当学习的条件生成模型在单个观测值方面提供了健壮的结果.",
+    "tldr": "本文证明了条件生成模型对单个观测结果有健壮性",
+    "en_tdlr": "The paper proves the robustness of conditional generative models for single observations."
+}

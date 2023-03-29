@@ -1,0 +1,12 @@
+{
+    "title": "Two-stage Pipeline for Multilingual Dialect Detection. (arXiv:2303.03487v2 [cs.CL] UPDATED)",
+    "abstract": "Dialect Identification is a crucial task for localizing various Large Language Models. This paper outlines our approach to the VarDial 2023 shared task. Here we have to identify three or two dialects from three languages each which results in a 9-way classification for Track-1 and 6-way classification for Track-2 respectively. Our proposed approach consists of a two-stage system and outperforms other participants' systems and previous works in this domain. We achieve a score of 58.54% for Track-1 and 85.61% for Track-2. Our codebase is available publicly (https://github.com/ankit-vaidya19/EACL_VarDial2023).",
+    "link": "http://arxiv.org/abs/2303.03487",
+    "context": "Title: Two-stage Pipeline for Multilingual Dialect Detection. (arXiv:2303.03487v2 [cs.CL] UPDATED)\nAbstract: Dialect Identification is a crucial task for localizing various Large Language Models. This paper outlines our approach to the VarDial 2023 shared task. Here we have to identify three or two dialects from three languages each which results in a 9-way classification for Track-1 and 6-way classification for Track-2 respectively. Our proposed approach consists of a two-stage system and outperforms other participants' systems and previous works in this domain. We achieve a score of 58.54% for Track-1 and 85.61% for Track-2. Our codebase is available publicly (https://github.com/ankit-vaidya19/EACL_VarDial2023).",
+    "path": "papers/23/03/2303.03487.json",
+    "total_tokens": 710,
+    "translated_title": "多语言方言检测的两阶段流水线",
+    "translated_abstract": "方言识别对于本地化各种大型语言模型至关重要。本文概述了我们在VarDial 2023共享任务中的方法。我们必须从三种语言中识别出三个或两个方言，这导致了Track-1的9路分类和Track-2的6路分类。我们提出的方法包括两个阶段的系统，在这个领域中超越了其他参与者的系统和以前的工作。我们在Track-1和Track-2上分别获得58.54％和85.61％的得分。我们的代码库是公开的（https://github.com/ankit-vaidya19/EACL_VarDial2023）。",
+    "tldr": "本篇论文提出了一种两阶段的方言识别系统，在VarDial 2023中超越其他参与者的系统，对多语言方言检测有重要贡献。",
+    "en_tdlr": "This paper proposes a two-stage system for dialect identification, which outperforms other participants' systems and previous works in the VarDial 2023 shared task, and makes important contributions to multilingual dialect detection."
+}

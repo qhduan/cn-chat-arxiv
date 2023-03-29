@@ -1,0 +1,12 @@
+{
+    "title": "Robustness of Utilizing Feedback in Embodied Visual Navigation. (arXiv:2303.15453v1 [cs.LG])",
+    "abstract": "This paper presents a framework for training an agent to actively request help in object-goal navigation tasks, with feedback indicating the location of the target object in its field of view. To make the agent more robust in scenarios where a teacher may not always be available, the proposed training curriculum includes a mix of episodes with and without feedback. The results show that this approach improves the agent's performance, even in the absence of feedback.",
+    "link": "http://arxiv.org/abs/2303.15453",
+    "context": "Title: Robustness of Utilizing Feedback in Embodied Visual Navigation. (arXiv:2303.15453v1 [cs.LG])\nAbstract: This paper presents a framework for training an agent to actively request help in object-goal navigation tasks, with feedback indicating the location of the target object in its field of view. To make the agent more robust in scenarios where a teacher may not always be available, the proposed training curriculum includes a mix of episodes with and without feedback. The results show that this approach improves the agent's performance, even in the absence of feedback.",
+    "path": "papers/23/03/2303.15453.json",
+    "total_tokens": 694,
+    "translated_title": "利用反馈进行具身视觉导航的稳健性",
+    "translated_abstract": "本文提出了一个框架，用于训练在目标-物体导航任务中主动请求帮助的代理，并使用反馈指示目标物体在其视野中的位置。为了使代理更具有稳健性，即在老师可能不总是可用的情况下，所提出的训练课程包括有和没有反馈的混合剧集。结果表明，这种方法提高了代理的性能，即使在没有反馈的情况下也是如此。",
+    "tldr": "本文提出了一个代理训练框架，可以在目标-物体导航任务中主动请求帮助，并使用反馈指示目标物体在其视野中的位置。训练过程中包括有和没有反馈的混合剧集，使得代理更加稳健，即使在没有反馈的情况下也可以提高代理的性能。",
+    "en_tdlr": "This paper proposes a training framework for an agent to actively request help in object-goal navigation tasks, utilizing feedback to indicate the location of the target object in its field of view. The training curriculum includes a mix of episodes with and without feedback to improve agent's robustness even in the absence of feedback."
+}

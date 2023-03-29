@@ -1,0 +1,12 @@
+{
+    "title": "Adaptive Riemannian Metrics on SPD Manifolds. (arXiv:2303.15477v1 [cs.LG])",
+    "abstract": "Symmetric Positive Definite (SPD) matrices have received wide attention in machine learning due to their intrinsic capacity of encoding underlying structural correlation in data. To reflect the non-Euclidean geometry of SPD manifolds, many successful Riemannian metrics have been proposed. However, existing fixed metric tensors might lead to sub-optimal performance for SPD matrices learning, especially for SPD neural networks. To remedy this limitation, we leverage the idea of pullback and propose adaptive Riemannian metrics for SPD manifolds. Moreover, we present comprehensive theories for our metrics. Experiments on three datasets demonstrate that equipped with the proposed metrics, SPD networks can exhibit superior performance.",
+    "link": "http://arxiv.org/abs/2303.15477",
+    "context": "Title: Adaptive Riemannian Metrics on SPD Manifolds. (arXiv:2303.15477v1 [cs.LG])\nAbstract: Symmetric Positive Definite (SPD) matrices have received wide attention in machine learning due to their intrinsic capacity of encoding underlying structural correlation in data. To reflect the non-Euclidean geometry of SPD manifolds, many successful Riemannian metrics have been proposed. However, existing fixed metric tensors might lead to sub-optimal performance for SPD matrices learning, especially for SPD neural networks. To remedy this limitation, we leverage the idea of pullback and propose adaptive Riemannian metrics for SPD manifolds. Moreover, we present comprehensive theories for our metrics. Experiments on three datasets demonstrate that equipped with the proposed metrics, SPD networks can exhibit superior performance.",
+    "path": "papers/23/03/2303.15477.json",
+    "total_tokens": 731,
+    "translated_title": "对称正定矩阵上的自适应黎曼度量",
+    "translated_abstract": "由于其内在能够编码数据中的潜在结构相关性，对称正定（SPD）矩阵在机器学习中受到广泛关注。为了反映SPD流形的非欧几里得几何，已经提出了许多成功的黎曼度量。然而，现有的固定度量张量可能会导致SPD矩阵学习的次优性能，特别是对于SPD神经网络。为了解决这个限制，我们利用拉回的思想，提出了自适应SPD流形的黎曼度量。此外，我们还对我们的度量提出了全面的理论。三个数据集上的实验表明，配备了我们提出的度量的SPD网络可以展现出优越的性能。",
+    "tldr": "本文提出了自适应黎曼度量来改进SPD神经网络的次优性能，实验结果表明该度量能使网络表现更好。",
+    "en_tdlr": "This paper proposes adaptive Riemannian metrics to improve the sub-optimal performance of SPD neural networks. The experiment results demonstrate that the proposed metric can enhance the performance of networks."
+}

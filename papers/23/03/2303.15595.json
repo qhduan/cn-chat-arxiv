@@ -1,0 +1,12 @@
+{
+    "title": "Model Cascades for Efficient Image Search. (arXiv:2303.15595v1 [cs.IR])",
+    "abstract": "Modern neural encoders offer unprecedented text-image retrieval (TIR) accuracy. However, their high computational cost impedes an adoption to large-scale image searches. We propose a novel image ranking algorithm that uses a cascade of increasingly powerful neural encoders to progressively filter images by how well they match a given text. Our algorithm reduces lifetime TIR costs by over 3x.",
+    "link": "http://arxiv.org/abs/2303.15595",
+    "context": "Title: Model Cascades for Efficient Image Search. (arXiv:2303.15595v1 [cs.IR])\nAbstract: Modern neural encoders offer unprecedented text-image retrieval (TIR) accuracy. However, their high computational cost impedes an adoption to large-scale image searches. We propose a novel image ranking algorithm that uses a cascade of increasingly powerful neural encoders to progressively filter images by how well they match a given text. Our algorithm reduces lifetime TIR costs by over 3x.",
+    "path": "papers/23/03/2303.15595.json",
+    "total_tokens": 588,
+    "translated_title": "高效图像搜索的模型级联",
+    "translated_abstract": "现代神经编码器提供了前所未有的文本-图像检索（TIR）准确性。然而，它们高昂的计算成本阻碍了它们在大规模图像搜索中的应用。我们提出了一种新的图像排名算法，它使用逐步增强的神经编码器级联逐步按照它们与给定的文本匹配的好坏程度来过滤图像。 我们的算法将TIR的生命周期成本降低了3倍以上。",
+    "tldr": "该论文提出了一种新颖的图像排名算法，使用级联的神经编码器来逐步过滤图像，从而减少了3倍以上的TIR生命周期成本。",
+    "en_tdlr": "The paper proposes a novel image ranking algorithm that filters images using cascades of increasingly powerful neural encoders to reduce lifetime TIR costs by over 3x."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "TextDescriptives: A Python package for calculating a large variety of metrics from text. (arXiv:2301.02057v3 [cs.CL] UPDATED)",
+    "abstract": "TextDescriptives is a Python package for calculating a large variety of metrics from text. It is built on top of spaCy and can be easily integrated into existing workflows. The package has already been used for analysing the linguistic stability of clinical texts, creating features for predicting neuropsychiatric conditions, and analysing linguistic goals of primary school students. This paper describes the package and its features.",
+    "link": "http://arxiv.org/abs/2301.02057",
+    "context": "Title: TextDescriptives: A Python package for calculating a large variety of metrics from text. (arXiv:2301.02057v3 [cs.CL] UPDATED)\nAbstract: TextDescriptives is a Python package for calculating a large variety of metrics from text. It is built on top of spaCy and can be easily integrated into existing workflows. The package has already been used for analysing the linguistic stability of clinical texts, creating features for predicting neuropsychiatric conditions, and analysing linguistic goals of primary school students. This paper describes the package and its features.",
+    "path": "papers/23/01/2301.02057.json",
+    "total_tokens": 617,
+    "translated_title": "TextDescriptives：一个用于从文本中计算多种指标的Python包",
+    "translated_abstract": "TextDescriptives是一个Python包，用于计算从文本中获取的多种度量标准。它建立在spaCy之上，并可以轻松集成到现有工作流程中。该包已被用于分析临床文本的语言稳定性，创建用于预测神经精神疾病的特征以及分析小学生语言目标。本文描述了该包及其特点。",
+    "tldr": "TextDescriptives是一个Python包，可用于从文本中计算多种指标，已被用于分析临床文本的语言稳定性、预测神经精神疾病的特征以及分析小学生成语言目标。",
+    "en_tdlr": "TextDescriptives is a Python package for calculating a large variety of metrics from text. It has been used for analyzing the linguistic stability of clinical texts, creating features for predicting neuropsychiatric conditions, and analyzing linguistic goals of primary school students."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Kernel interpolation generalizes poorly. (arXiv:2303.15809v1 [cs.LG])",
+    "abstract": "One of the most interesting problems in the recent renaissance of the studies in kernel regression might be whether the kernel interpolation can generalize well, since it may help us understand the `benign overfitting henomenon' reported in the literature on deep networks. In this paper, under mild conditions, we show that for any $\\varepsilon>0$, the generalization error of kernel interpolation is lower bounded by $\\Omega(n^{-\\varepsilon})$. In other words, the kernel interpolation generalizes poorly for a large class of kernels. As a direct corollary, we can show that overfitted wide neural networks defined on sphere generalize poorly.",
+    "link": "http://arxiv.org/abs/2303.15809",
+    "context": "Title: Kernel interpolation generalizes poorly. (arXiv:2303.15809v1 [cs.LG])\nAbstract: One of the most interesting problems in the recent renaissance of the studies in kernel regression might be whether the kernel interpolation can generalize well, since it may help us understand the `benign overfitting henomenon' reported in the literature on deep networks. In this paper, under mild conditions, we show that for any $\\varepsilon>0$, the generalization error of kernel interpolation is lower bounded by $\\Omega(n^{-\\varepsilon})$. In other words, the kernel interpolation generalizes poorly for a large class of kernels. As a direct corollary, we can show that overfitted wide neural networks defined on sphere generalize poorly.",
+    "path": "papers/23/03/2303.15809.json",
+    "total_tokens": 714,
+    "translated_title": "核插值的泛化能力较弱",
+    "translated_abstract": "在核回归研究的复兴中，一个最有趣的问题可能是核插值是否具有较好的泛化能力，因为这可能有助于我们理解深度网络领域中的“良性过拟合现象”。在本文中，在温和的条件下，我们证明了对于任何$\\varepsilon>0$，核插值的泛化误差都有一个下界$\\Omega(n^{-\\varepsilon})$。换句话说，核插值在较大范围的核函数中泛化能力较差。作为一个直接的推论，我们可以证明在球上定义的过拟合宽神经网络的泛化能力也较差。",
+    "tldr": "本文证明了核插值的泛化误差有一个下界，在较大范围的核函数中泛化能力较差，使得过拟合的宽神经网络泛化性能差。",
+    "en_tdlr": "This paper proves that kernel interpolation has a lower bound on generalization error, and has poor generalization performance for a large class of kernels, which causes overfitted wide neural networks to have poor generalization performance."
+}

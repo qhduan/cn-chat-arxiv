@@ -1,0 +1,12 @@
+{
+    "title": "A neural operator-based surrogate solver for free-form electromagnetic inverse design. (arXiv:2302.01934v2 [physics.comp-ph] UPDATED)",
+    "abstract": "Neural operators have emerged as a powerful tool for solving partial differential equations in the context of scientific machine learning. Here, we implement and train a modified Fourier neural operator as a surrogate solver for electromagnetic scattering problems and compare its data efficiency to existing methods. We further demonstrate its application to the gradient-based nanophotonic inverse design of free-form, fully three-dimensional electromagnetic scatterers, an area that has so far eluded the application of deep learning techniques.",
+    "link": "http://arxiv.org/abs/2302.01934",
+    "context": "Title: A neural operator-based surrogate solver for free-form electromagnetic inverse design. (arXiv:2302.01934v2 [physics.comp-ph] UPDATED)\nAbstract: Neural operators have emerged as a powerful tool for solving partial differential equations in the context of scientific machine learning. Here, we implement and train a modified Fourier neural operator as a surrogate solver for electromagnetic scattering problems and compare its data efficiency to existing methods. We further demonstrate its application to the gradient-based nanophotonic inverse design of free-form, fully three-dimensional electromagnetic scatterers, an area that has so far eluded the application of deep learning techniques.",
+    "path": "papers/23/02/2302.01934.json",
+    "total_tokens": 662,
+    "translated_title": "基于神经算子的自由形电磁反演设计代理求解器",
+    "translated_abstract": "在科学机器学习的背景下，神经算子已成为解决偏微分方程的强大工具。在这里，我们实现和训练了一个改进的傅里叶神经算子作为电磁散射问题的代理解算器，并将其数据效率与现有方法进行了比较。我们进一步展示了其在基于梯度的自由形全三维电磁散射体的纳米光子学反演设计中的应用，这是一个到目前为止尚未应用深度学习技术的领域。",
+    "tldr": "本文基于神经算子实现了一个代理解算器，可以应用在自由形电磁反演设计中，取得了比现有方法更高的数据效率。",
+    "en_tdlr": "The paper presents a neural operator-based surrogate solver that achieves higher data efficiency compared to existing methods, and demonstrates its application in gradient-based nanophotonic inverse design of free-form, fully three-dimensional electromagnetic scatterers, where deep learning techniques have not been applied before."
+}

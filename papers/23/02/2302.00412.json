@@ -1,0 +1,12 @@
+{
+    "title": "KNNs of Semantic Encodings for Rating Prediction. (arXiv:2302.00412v2 [cs.CL] UPDATED)",
+    "abstract": "This paper explores a novel application of textual semantic similarity to user-preference representation for rating prediction. The approach represents a user's preferences as a graph of textual snippets from review text, where the edges are defined by semantic similarity. This textual, memory-based approach to rating prediction enables review-based explanations for recommendations. The method is evaluated quantitatively, highlighting that leveraging text in this way outperforms both strong memory-based and model-based collaborative filtering baselines.",
+    "link": "http://arxiv.org/abs/2302.00412",
+    "context": "Title: KNNs of Semantic Encodings for Rating Prediction. (arXiv:2302.00412v2 [cs.CL] UPDATED)\nAbstract: This paper explores a novel application of textual semantic similarity to user-preference representation for rating prediction. The approach represents a user's preferences as a graph of textual snippets from review text, where the edges are defined by semantic similarity. This textual, memory-based approach to rating prediction enables review-based explanations for recommendations. The method is evaluated quantitatively, highlighting that leveraging text in this way outperforms both strong memory-based and model-based collaborative filtering baselines.",
+    "path": "papers/23/02/2302.00412.json",
+    "total_tokens": 583,
+    "translated_title": "语义编码的KNN用于评分预测",
+    "translated_abstract": "本文探讨了一种文本语义相似性在用户评分预测中的创新应用。该方法表示用户偏好为来自评论文本的文本片段的图形，其中边缘根据语义相似度定义。这种基于文本的记忆方法可以为推荐提供基于评论的解释。方法经过量化评估，突出了以这种方式利用文本优于强记忆和模型合作过滤基线。",
+    "tldr": "本文提出了一种通过文本语义相似性预测用户评分的方法，并且在评估中表现出优异的性能。",
+    "en_tdlr": "This paper proposes a method of predicting user ratings using textual semantic similarity, which outperforms strong memory-based and model-based collaborative filtering baselines, and provides review-based explanations for recommendations."
+}

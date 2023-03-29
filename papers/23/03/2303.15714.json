@@ -1,0 +1,12 @@
+{
+    "title": "Explicit Planning Helps Language Models in Logical Reasoning. (arXiv:2303.15714v1 [cs.CL])",
+    "abstract": "Language models have been shown to perform remarkably well on a wide range of natural language processing tasks. In this paper, we propose a novel system that uses language models to perform multi-step logical reasoning. Our system incorporates explicit planning into its inference procedure, thus able to make more informed reasoning decisions at each step by looking ahead into their future effects. In our experiments, our full system significantly outperforms other competing systems. On a multiple-choice question answering task, our system performs competitively compared to GPT-3-davinci despite having only around 1.5B parameters. We conduct several ablation studies to demonstrate that explicit planning plays a crucial role in the system's performance.",
+    "link": "http://arxiv.org/abs/2303.15714",
+    "context": "Title: Explicit Planning Helps Language Models in Logical Reasoning. (arXiv:2303.15714v1 [cs.CL])\nAbstract: Language models have been shown to perform remarkably well on a wide range of natural language processing tasks. In this paper, we propose a novel system that uses language models to perform multi-step logical reasoning. Our system incorporates explicit planning into its inference procedure, thus able to make more informed reasoning decisions at each step by looking ahead into their future effects. In our experiments, our full system significantly outperforms other competing systems. On a multiple-choice question answering task, our system performs competitively compared to GPT-3-davinci despite having only around 1.5B parameters. We conduct several ablation studies to demonstrate that explicit planning plays a crucial role in the system's performance.",
+    "path": "papers/23/03/2303.15714.json",
+    "total_tokens": 737,
+    "translated_title": "显式规划有助于语言模型进行逻辑推理",
+    "translated_abstract": "语言模型在各种自然语言处理任务中表现出色。本文提出了一个新颖的系统，采用语言模型进行多步逻辑推理。我们的系统将显式规划纳入到推理过程中，因此可以通过展望未来的效果来做出更明智的决策。在实验中，我们的全套系统在多项选择题答题任务中明显优于其他竞争系统，尽管只有约15亿个参数，但与GPT-3-davinci表现相当。我们进行了多个消融研究以证明显式规划在系统性能中起着关键作用。",
+    "tldr": "本文提出了一个新的系统，使用语言模型进行多步逻辑推理，采用了显式规划来帮助做出更明智的决策，比其他竞争系统表现更好，显式规划在系统性能中起着关键作用。",
+    "en_tdlr": "This paper proposes a novel system that uses language models to perform multi-step logical reasoning, incorporating explicit planning to make more informed decisions and outperforming other systems in experiments, with explicit planning playing a crucial role in the system's performance."
+}

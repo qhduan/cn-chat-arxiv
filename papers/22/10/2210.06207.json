@@ -1,0 +1,12 @@
+{
+    "title": "SilverAlign: MT-Based Silver Data Algorithm For Evaluating Word Alignment. (arXiv:2210.06207v2 [cs.CL] UPDATED)",
+    "abstract": "Word alignments are essential for a variety of NLP tasks. Therefore, choosing the best approaches for their creation is crucial. However, the scarce availability of gold evaluation data makes the choice difficult. We propose SilverAlign, a new method to automatically create silver data for the evaluation of word aligners by exploiting machine translation and minimal pairs. We show that performance on our silver data correlates well with gold benchmarks for 9 language pairs, making our approach a valid resource for evaluation of different domains and languages when gold data are not available. This addresses the important scenario of missing gold data alignments for low-resource languages.",
+    "link": "http://arxiv.org/abs/2210.06207",
+    "context": "Title: SilverAlign: MT-Based Silver Data Algorithm For Evaluating Word Alignment. (arXiv:2210.06207v2 [cs.CL] UPDATED)\nAbstract: Word alignments are essential for a variety of NLP tasks. Therefore, choosing the best approaches for their creation is crucial. However, the scarce availability of gold evaluation data makes the choice difficult. We propose SilverAlign, a new method to automatically create silver data for the evaluation of word aligners by exploiting machine translation and minimal pairs. We show that performance on our silver data correlates well with gold benchmarks for 9 language pairs, making our approach a valid resource for evaluation of different domains and languages when gold data are not available. This addresses the important scenario of missing gold data alignments for low-resource languages.",
+    "path": "papers/22/10/2210.06207.json",
+    "total_tokens": 751,
+    "translated_title": "SilverAlign：用机器翻译生成银标准数据进行单词对齐评估的算法",
+    "translated_abstract": "单词对齐在各种自然语言处理任务中非常重要。因此，选择最佳方法以创建单词对齐非常关键。然而，由于金标准数据的稀缺性，这种选择变得困难。我们提出了SilverAlign方法，通过利用机器翻译和最小对生成银标准数据，从而自动创建用于评估单词对齐器的数据。我们展示了在我们的银标准数据上的性能与9种语言对的金标准基准相关性高，使我们的方法成为在金标准数据不可用情况下评估不同领域和语言的有效资源。这解决了低资源语言缺失金标准数据对齐的重要场景问题。",
+    "tldr": "本文提出SilverAlign算法，将机器翻译和最小对用于生成银标准数据以评估单词对齐器，解决了低资源语言缺失金标准数据对齐的重要场景问题。",
+    "en_tdlr": "The paper proposes SilverAlign algorithm, which uses machine translation and minimal pairs to generate silver data to evaluate word aligners, addressing the important scenario of missing gold data alignments for low-resource languages."
+}

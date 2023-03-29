@@ -1,0 +1,12 @@
+{
+    "title": "Scaling Down to Scale Up: A Guide to Parameter-Efficient Fine-Tuning. (arXiv:2303.15647v1 [cs.CL])",
+    "abstract": "This paper presents a systematic overview and comparison of parameter-efficient fine-tuning methods covering over 40 papers published between February 2019 and February 2023. These methods aim to resolve the infeasibility and impracticality of fine-tuning large language models by only training a small set of parameters. We provide a taxonomy that covers a broad range of methods and present a detailed method comparison with a specific focus on real-life efficiency and fine-tuning multibillion-scale language models.",
+    "link": "http://arxiv.org/abs/2303.15647",
+    "context": "Title: Scaling Down to Scale Up: A Guide to Parameter-Efficient Fine-Tuning. (arXiv:2303.15647v1 [cs.CL])\nAbstract: This paper presents a systematic overview and comparison of parameter-efficient fine-tuning methods covering over 40 papers published between February 2019 and February 2023. These methods aim to resolve the infeasibility and impracticality of fine-tuning large language models by only training a small set of parameters. We provide a taxonomy that covers a broad range of methods and present a detailed method comparison with a specific focus on real-life efficiency and fine-tuning multibillion-scale language models.",
+    "path": "papers/23/03/2303.15647.json",
+    "total_tokens": 689,
+    "translated_title": "缩小规模以实现超大语言模型的参数有效微调指南",
+    "translated_abstract": "本文提供了一份系统化的综述和比较，覆盖了2019年2月至2023年2月期间发布的40多篇参数有效微调方法的论文。这些方法旨在通过仅训练小部分参数来解决微调大型语言模型的不可行和不切实际性。我们提供了一个分类法，涵盖了广泛的方法，并对实现效率和微调千亿级语言模型进行了详细的方法比较。",
+    "tldr": "本文综述了40多种缩小模型规模进行超大模型参数微调的方法，旨在解决大型语言模型训练的不可行性和不切实际性。提供了分类法和方法比较，并重点关注实际效率和千亿级语言模型微调。",
+    "en_tdlr": "This paper provides a systematic overview and comparison of over 40 parameter-efficient fine-tuning methods, aiming to address the infeasibility and impracticality of fine-tuning large language models by training only a small set of parameters. The paper offers a taxonomy, a detailed method comparison, and focuses on real-life efficiency and fine-tuning multibillion-scale language models."
+}

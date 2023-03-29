@@ -1,0 +1,12 @@
+{
+    "title": "Adaptive Background Music for a Fighting Game: A Multi-Instrument Volume Modulation Approach. (arXiv:2303.15734v1 [cs.SD])",
+    "abstract": "This paper presents our work to enhance the background music (BGM) in DareFightingICE by adding an adaptive BGM. The adaptive BGM consists of five different instruments playing a classical music piece called \"Air on G-String.\" The BGM adapts by changing the volume of the instruments. Each instrument is connected to a different element of the game. We then run experiments to evaluate the adaptive BGM by using a deep reinforcement learning AI that only uses audio as input (Blind DL AI). The results show that the performance of the Blind DL AI improves while playing with the adaptive BGM as compared to playing without the adaptive BGM.",
+    "link": "http://arxiv.org/abs/2303.15734",
+    "context": "Title: Adaptive Background Music for a Fighting Game: A Multi-Instrument Volume Modulation Approach. (arXiv:2303.15734v1 [cs.SD])\nAbstract: This paper presents our work to enhance the background music (BGM) in DareFightingICE by adding an adaptive BGM. The adaptive BGM consists of five different instruments playing a classical music piece called \"Air on G-String.\" The BGM adapts by changing the volume of the instruments. Each instrument is connected to a different element of the game. We then run experiments to evaluate the adaptive BGM by using a deep reinforcement learning AI that only uses audio as input (Blind DL AI). The results show that the performance of the Blind DL AI improves while playing with the adaptive BGM as compared to playing without the adaptive BGM.",
+    "path": "papers/23/03/2303.15734.json",
+    "total_tokens": 809,
+    "translated_title": "一个多乐器体积调制的方法增强格斗游戏中的背景音乐：自适应背景音乐",
+    "translated_abstract": "本文介绍了我们在 DareFightingICE 中添加自适应背景音乐以增强游戏体验的工作。自适应背景音乐由五种不同的乐器演奏名为“空中小姐曲”的古典音乐组成，通过改变乐器的音量来适应游戏的不同元素。我们进行了一项实验来评估自适应背景音乐，并使用了一种只使用音频作为输入的深度增强学习 AI（Blind DL AI）。结果表明，与没有自适应背景音乐时相比，Blind DL AI 在与自适应背景音乐一起播放时表现更好。",
+    "tldr": "本文介绍了一种自适应背景音乐的方法，它由五种不同的乐器演奏名为“空中小姐曲”的古典音乐组成，并通过改变乐器的音量来适应游戏的不同元素。实验结果表明，使用这种自适应背景音乐可以改善游戏的体验。",
+    "en_tdlr": "This paper presents a method for implementing adaptive background music for a fighting game, which consists of five different instruments playing \"Air on G-String\" and adapts to different elements of the game by changing the volume of each instrument. The results show that using this method can improve the gaming experience."
+}
