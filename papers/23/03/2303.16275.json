@@ -1,0 +1,12 @@
+{
+    "title": "Writing Assistants Should Model Social Factors of Language. (arXiv:2303.16275v1 [cs.CL])",
+    "abstract": "Intelligent writing assistants powered by large language models (LLMs) are more popular today than ever before, but their further widespread adoption is precluded by sub-optimal performance. In this position paper, we argue that a major reason for this sub-optimal performance and adoption is a singular focus on the information content of language while ignoring its social aspects. We analyze the different dimensions of these social factors in the context of writing assistants and propose their incorporation into building smarter, more effective, and truly personalized writing assistants that would enrich the user experience and contribute to increased user adoption.",
+    "link": "http://arxiv.org/abs/2303.16275",
+    "context": "Title: Writing Assistants Should Model Social Factors of Language. (arXiv:2303.16275v1 [cs.CL])\nAbstract: Intelligent writing assistants powered by large language models (LLMs) are more popular today than ever before, but their further widespread adoption is precluded by sub-optimal performance. In this position paper, we argue that a major reason for this sub-optimal performance and adoption is a singular focus on the information content of language while ignoring its social aspects. We analyze the different dimensions of these social factors in the context of writing assistants and propose their incorporation into building smarter, more effective, and truly personalized writing assistants that would enrich the user experience and contribute to increased user adoption.",
+    "path": "papers/23/03/2303.16275.json",
+    "total_tokens": 769,
+    "translated_title": "写作助手应该模拟语言的社会因素",
+    "translated_abstract": "根据这篇文章，智能写作助手在当今比以往任何时候都更受欢迎，但他们的进一步普及受到亚优化表现的限制。作者们认为造成这种状态的主要原因是只关注语言的信息内容而忽略了其社会因素。本文分析了这些社会因素在写作助手中的不同方面，并提出将其纳入更智能、更有效和真正个性化的写作助手的建设中，从而丰富用户体验并促进用户采纳。",
+    "tldr": "当前，由大型语言模型构建的智能写作助手越来越流行，但它们的表现并不优秀。作者认为，这种状况的主要原因是过于专注于语言的信息内容而忽略了其社会因素。他们提出将社会因素融入到写作助手的建设中，以构建智能、有效和个性化的写作助手，从而提高用户的使用体验和接受度。",
+    "en_tdlr": "Intelligent writing assistants powered by large language models (LLMs) are popular, but their sub-optimal performance is due to a singular focus on the information content of language while ignoring its social aspects. The paper argues for incorporating social factors into building smarter, more effective, and truly personalized writing assistants that would enrich the user experience and contribute to increased user adoption."
+}

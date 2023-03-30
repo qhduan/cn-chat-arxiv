@@ -1,0 +1,12 @@
+{
+    "title": "Policy Gradient Methods for Discrete Time Linear Quadratic Regulator With Random Parameters. (arXiv:2303.16548v1 [math.OC])",
+    "abstract": "This paper studies an infinite horizon optimal control problem for discrete-time linear system and quadratic criteria, both with random parameters which are independent and identically distributed with respect to time. In this general setting, we apply the policy gradient method, a reinforcement learning technique, to search for the optimal control without requiring knowledge of statistical information of the parameters. We investigate the sub-Gaussianity of the state process and establish global linear convergence guarantee for this approach based on assumptions that are weaker and easier to verify compared to existing results. Numerical experiments are presented to illustrate our result.",
+    "link": "http://arxiv.org/abs/2303.16548",
+    "context": "Title: Policy Gradient Methods for Discrete Time Linear Quadratic Regulator With Random Parameters. (arXiv:2303.16548v1 [math.OC])\nAbstract: This paper studies an infinite horizon optimal control problem for discrete-time linear system and quadratic criteria, both with random parameters which are independent and identically distributed with respect to time. In this general setting, we apply the policy gradient method, a reinforcement learning technique, to search for the optimal control without requiring knowledge of statistical information of the parameters. We investigate the sub-Gaussianity of the state process and establish global linear convergence guarantee for this approach based on assumptions that are weaker and easier to verify compared to existing results. Numerical experiments are presented to illustrate our result.",
+    "path": "papers/23/03/2303.16548.json",
+    "total_tokens": 708,
+    "translated_title": "离散时间线性二次调节器中带随机参数的策略梯度方法",
+    "translated_abstract": "本文研究了一个离散时间的线性系统和二次准则的无限时域最优控制问题，其中参数是独立同分布于时间的随机变量。在这种一般情况下，我们应用增强学习技术中的策略梯度方法来寻找最优控制，而不需要了解参数的统计信息。我们研究了状态过程的次高斯性质，并根据比现有结果更弱且更易验证的假设，建立了此方法的全局线性收敛保证。我们进行了数值实验，以说明我们的结果。",
+    "tldr": "本文使用增强学习技术中的策略梯度方法解决了带随机参数的离散时间线性二次调节器的最优控制问题，并建立了全局线性收敛保证。",
+    "en_tdlr": "This paper solves the optimal control problem of a discrete-time linear quadratic regulator with random parameters using the policy gradient method, and establishes a global linear convergence guarantee based on weaker and easier-to-verify assumptions. Numerical experiments are presented to illustrate the results."
+}

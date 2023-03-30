@@ -1,0 +1,11 @@
+{
+    "title": "A multifractional option pricing formula. (arXiv:2303.16314v1 [q-fin.MF])",
+    "abstract": "Fractional Brownian motion has become a standard tool to address long-range dependence in financial time series. However, a constant memory parameter is too restrictive to address different market conditions. Here we model the price fluctuations using a multifractional Brownian motion assuming that the Hurst exponent is a time-deterministic function. Through the multifractional Ito calculus, both the related transition density function and the analytical European Call option pricing formula are obtained. The empirical performance of the multifractional Black-Scholes models is tested and appears superior to its fractional and standard counterparts.",
+    "link": "http://arxiv.org/abs/2303.16314",
+    "context": "Title: A multifractional option pricing formula. (arXiv:2303.16314v1 [q-fin.MF])\nAbstract: Fractional Brownian motion has become a standard tool to address long-range dependence in financial time series. However, a constant memory parameter is too restrictive to address different market conditions. Here we model the price fluctuations using a multifractional Brownian motion assuming that the Hurst exponent is a time-deterministic function. Through the multifractional Ito calculus, both the related transition density function and the analytical European Call option pricing formula are obtained. The empirical performance of the multifractional Black-Scholes models is tested and appears superior to its fractional and standard counterparts.",
+    "path": "papers/23/03/2303.16314.json",
+    "total_tokens": 713,
+    "translated_title": "一种多分数期权定价公式",
+    "translated_abstract": "分数布朗运动已经成为处理金融时间序列中的长期相关性的标准工具。然而，一个恒定的记忆参数过于限制以适应不同的市场条件。在这里，我们使用多分数布朗运动来模拟价格波动，假定Hurst指数是一个时变的确定性函数。通过多分数Ito微积分，获得了相关的转移密度函数和分析欧式看涨期权定价公式。多分数Black-Scholes模型的经验表现得到了测试，并且似乎优于其分数和标准对应物。",
+    "tldr": "本文介绍了一种通过多分数布朗运动模拟价格波动的方法，并且通过多分数Ito微积分推导出相关的转移密度函数和欧式看涨期权定价公式。实验表现表明多分数Black-Scholes模型优于分数和标准对应物。"
+}

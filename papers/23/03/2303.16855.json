@@ -1,0 +1,12 @@
+{
+    "title": "Peer Prediction for Peer Review: Designing a Marketplace for Ideas. (arXiv:2303.16855v1 [cs.DL])",
+    "abstract": "The paper describes a potential platform to facilitate academic peer review with emphasis on early-stage research. This platform aims to make peer review more accurate and timely by rewarding reviewers on the basis of peer prediction algorithms. The algorithm uses a variation of Peer Truth Serum for Crowdsourcing (Radanovic et al., 2016) with human raters competing against a machine learning benchmark. We explain how our approach addresses two large productive inefficiencies in science: mismatch between research questions and publication bias. Better peer review for early research creates additional incentives for sharing it, which simplifies matching ideas to teams and makes negative results and p-hacking more visible.",
+    "link": "http://arxiv.org/abs/2303.16855",
+    "context": "Title: Peer Prediction for Peer Review: Designing a Marketplace for Ideas. (arXiv:2303.16855v1 [cs.DL])\nAbstract: The paper describes a potential platform to facilitate academic peer review with emphasis on early-stage research. This platform aims to make peer review more accurate and timely by rewarding reviewers on the basis of peer prediction algorithms. The algorithm uses a variation of Peer Truth Serum for Crowdsourcing (Radanovic et al., 2016) with human raters competing against a machine learning benchmark. We explain how our approach addresses two large productive inefficiencies in science: mismatch between research questions and publication bias. Better peer review for early research creates additional incentives for sharing it, which simplifies matching ideas to teams and makes negative results and p-hacking more visible.",
+    "path": "papers/23/03/2303.16855.json",
+    "total_tokens": 750,
+    "translated_title": "同行评审的同行预测：设计一个想法市场",
+    "translated_abstract": "本文描述了一个潜在的平台，旨在促进早期研究的学术同行评审。该平台旨在通过基于同行预测算法对评审人员进行奖励，使同行评审更加准确和及时。该算法使用对众包进行的Peer Truth Serum的变体（Radanovic等人，2016），其中人类评分者与机器学习基准竞争。我们解释了我们的方法如何解决科学中的两个大的低效问题：研究问题与出版偏见之间的不匹配。更好的早期研究同行评审为分享研究成果创造了额外的激励，简化了将想法匹配到团队，并使负面结果和p-hacking更加明显。",
+    "tldr": "本文提出了一个平台，利用同行预测算法奖励评审人员，旨在改善早期研究的同行评审，解决研究问题与出版偏见之间的不匹配问题。",
+    "en_tdlr": "This paper proposes a platform that rewards reviewers using peer prediction algorithms to improve peer review for early-stage research, addressing the mismatch between research questions and publication bias."
+}

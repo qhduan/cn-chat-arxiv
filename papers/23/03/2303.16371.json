@@ -1,0 +1,12 @@
+{
+    "title": "Dark Matter in (Volatility and) Equity Option Risk Premiums. (arXiv:2303.16371v1 [q-fin.MF])",
+    "abstract": "Emphasizing the statistics of jumps crossing the strike and local time, we develop a decomposition of equity option risk premiums. Operationalizing this theoretical treatment, we equip the pricing kernel process with unspanned risks, embed (unspanned) jump risks, and allow equity return volatility to contain unspanned risks. Unspanned risks are consistent with negative risk premiums for jumps crossing the strike and local time and imply negative risk premiums for out-of-the-money call options and straddles. The empirical evidence from weekly and farther-dated index options is supportive of our theory of economically relevant unspanned risks and reveals ``dark matter\" in option risk premiums.",
+    "link": "http://arxiv.org/abs/2303.16371",
+    "context": "Title: Dark Matter in (Volatility and) Equity Option Risk Premiums. (arXiv:2303.16371v1 [q-fin.MF])\nAbstract: Emphasizing the statistics of jumps crossing the strike and local time, we develop a decomposition of equity option risk premiums. Operationalizing this theoretical treatment, we equip the pricing kernel process with unspanned risks, embed (unspanned) jump risks, and allow equity return volatility to contain unspanned risks. Unspanned risks are consistent with negative risk premiums for jumps crossing the strike and local time and imply negative risk premiums for out-of-the-money call options and straddles. The empirical evidence from weekly and farther-dated index options is supportive of our theory of economically relevant unspanned risks and reveals ``dark matter\" in option risk premiums.",
+    "path": "papers/23/03/2303.16371.json",
+    "total_tokens": 796,
+    "translated_title": "波动性和股票期权风险溢价中的暗物质",
+    "translated_abstract": "本文重点研究跨越执行价格和本地时间的跳跃统计学，发展了股票期权风险溢价的分解。在理论处理的基础上，我们赋予定价核心过程未跨跨度的风险，并嵌入了（无跨度的）跳跃风险，并允许股票回报波动率包含未跨足的风险。未跨跨度的风险与跨越执行价格和本地时间的负风险溢价一致，并意味着虚值期权和跨式期权的负风险溢价。来自每周和更长时间的指数期权的经验证据支持我们的经济上相关的未跨跨度风险理论，并揭示了期权风险溢价的“暗物质”。",
+    "tldr": "本文研究了股票期权风险溢价中的未跨跨度风险，证明了这种风险与负风险溢价一致，并在实证分析中发现了期权风险溢价的“暗物质”。",
+    "en_tdlr": "This paper studies the unspanned risks in equity option risk premiums, proves their consistency with negative risk premiums, and discovers the \"dark matter\" in option risk premiums through empirical analysis."
+}

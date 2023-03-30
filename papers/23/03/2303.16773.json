@@ -1,0 +1,12 @@
+{
+    "title": "The inverse Black-Scholes problem in Radon measures space revisited: towards a new measure of market uncertainty. (arXiv:2303.16773v1 [q-fin.MF])",
+    "abstract": "In this paper, we revisit the inverse Black-Scholes model, the existence of the solution is proved in more rigorous way, and the empirical study is done using different approach based on finite element method. The article leads to a measure of incertitude in the option market.",
+    "link": "http://arxiv.org/abs/2303.16773",
+    "context": "Title: The inverse Black-Scholes problem in Radon measures space revisited: towards a new measure of market uncertainty. (arXiv:2303.16773v1 [q-fin.MF])\nAbstract: In this paper, we revisit the inverse Black-Scholes model, the existence of the solution is proved in more rigorous way, and the empirical study is done using different approach based on finite element method. The article leads to a measure of incertitude in the option market.",
+    "path": "papers/23/03/2303.16773.json",
+    "total_tokens": 512,
+    "translated_title": "Radon测度空间中的反向Black-Scholes问题再探讨：迈向一种新的市场不确定性测度。",
+    "translated_abstract": "本文重访了反向Black-Scholes模型，以一种更严格的方式证明了解的存在性，并使用基于有限元方法的不同方法进行了实证研究。该文章导出了期权市场的不确定性测度。",
+    "tldr": "本文重新审视了反向Black-Scholes模型，提出了一种新的市场不确定性测度。",
+    "en_tdlr": "This paper revisits the inverse Black-Scholes model, presents a more rigorous existence proof and an empirical study using a finite element method, and proposes a new measure of market uncertainty in the option market."
+}

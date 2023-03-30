@@ -1,0 +1,12 @@
+{
+    "title": "Did You Mean...? Confidence-based Trade-offs in Semantic Parsing. (arXiv:2303.16857v1 [cs.CL])",
+    "abstract": "We illustrate how a calibrated model can help balance common trade-offs in task-oriented parsing. In a simulated annotator-in-the-loop experiment, we show that well-calibrated confidence scores allow us to balance cost with annotator load, improving accuracy with a small number of interactions. We then examine how confidence scores can help optimize the trade-off between usability and safety. We show that confidence-based thresholding can substantially reduce the number of incorrect low-confidence programs executed; however, this comes at a cost to usability. We propose the DidYouMean system which better balances usability and safety.",
+    "link": "http://arxiv.org/abs/2303.16857",
+    "context": "Title: Did You Mean...? Confidence-based Trade-offs in Semantic Parsing. (arXiv:2303.16857v1 [cs.CL])\nAbstract: We illustrate how a calibrated model can help balance common trade-offs in task-oriented parsing. In a simulated annotator-in-the-loop experiment, we show that well-calibrated confidence scores allow us to balance cost with annotator load, improving accuracy with a small number of interactions. We then examine how confidence scores can help optimize the trade-off between usability and safety. We show that confidence-based thresholding can substantially reduce the number of incorrect low-confidence programs executed; however, this comes at a cost to usability. We propose the DidYouMean system which better balances usability and safety.",
+    "path": "papers/23/03/2303.16857.json",
+    "total_tokens": 715,
+    "translated_title": "“你指的是...？”：语义解析中的置信度权衡",
+    "translated_abstract": "我们演示了如何通过一个校准好的模型来平衡任务导向解析中的常见权衡。在一个模拟的标注员交互的实验中，我们展示了校准的置信分数如何平衡成本和标注员负担，用较少的交互提高准确性。然后，我们研究了置信度分数如何帮助优化可用性和安全性的权衡。我们展示了基于置信度阈值的解析错误数量大幅减少的系统DidYouMean，然而这也牺牲了可用性。",
+    "tldr": "该论文介绍了如何通过校准的置信分数，平衡解析任务中的成本、标注员负担、准确性、可用性和安全性等多个权衡，提出了一个可以更好地平衡可用性和安全性的DidYouMean系统。",
+    "en_tdlr": "This paper introduces how to balance multiple trade-offs in task-oriented parsing, such as cost, annotator load, accuracy, usability, and safety, through calibrated confidence scores. It proposes a DidYouMean system that can better balance usability and safety by reducing the number of parsing errors while maintaining good usability."
+}

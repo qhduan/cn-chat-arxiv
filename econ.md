@@ -2,142 +2,127 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Behavioral Machine Learning? Computer Predictions of Corporate Earnings also Overreact.](http://arxiv.org/abs/2303.16158) | 本文研究发现，机器学习算法可以更准确地预测公司盈利，但同样存在过度反应的问题，而传统培训的股市分析师和经过机器学习方法培训的分析师相比会产生较少的过度反应。 |
-| [^2] | [Forecasting Large Realized Covariance Matrices: The Benefits of Factor Models and Shrinkage.](http://arxiv.org/abs/2303.16151) | 本论文介绍了一种用因子模型和收缩的方法预测大型实现协方差矩阵的模型。这种方法通过分解回报协方差矩阵并使用向量异质自回归模型进行估计，相对于标准基准提高了预测精度，并导致对最小方差组合的更好估计。 |
-| [^3] | [The Value of Information and Circular Settings.](http://arxiv.org/abs/2303.16126) | 本文提出了一种基于克劳德·香农的信息和Ruslan Stratonovich的工作的信息价值（VoI）的通用概念，并将其应用于环形设置的经济应用，具有重要意义。 |
-| [^4] | [Study on the risk-informed heuristic of decision-making on the restoration of defaulted corporation networks.](http://arxiv.org/abs/2303.15863) | 本文提出了可行的启发式决策制定方案，用于驱动违约公司网络恢复工作，在两个真实的DCN案例中进行了实验验证，研究结果表明启发式决策制定方案的实用性和性能。 |
-| [^5] | [Redeeming Falsifiability?.](http://arxiv.org/abs/2303.15723) | 波普尔的可证伪性标准仍然有价值，因为如果知情的专家可以获得额外的信息，那么它能够识别出没有价值的理论。 |
-| [^6] | [Endogenous Labour Flow Networks.](http://arxiv.org/abs/2301.07979) | 本文提出一种新型模型，从代理层面出发形成劳动力流动网络(LFNs)，消除了历史路径假设。该模型使用英国的微观数据为基础，生成了具有高精度的实证LFNs。 |
-| [^7] | [Generalized Difference-in-differences Models: Robust Bounds.](http://arxiv.org/abs/2211.06710) | 该论文发展了一个鲁棒的广义DID方法，可以利用多个数据来源的信息来推断治疗效果。这种方法通过选择偏差的概念重新解释了平行趋势假设，适用性更广泛。 |
-| [^8] | [Revealed preference characterization of marital stability under mutual consent divorce.](http://arxiv.org/abs/2110.10781) | 该论文提出了一个基于揭示性偏好的婚姻稳定性刻画，明确考虑了调节婚姻解散的离婚法律下的互意离婚，为了评估该刻画在确定家庭内消费方面的潜力，还进行了模拟实验。 |
-| [^9] | [Equilibrium Selection in Data Markets: Multiple-Principal, Multiple-Agent Problems with Non-Rivalrous Goods.](http://arxiv.org/abs/2004.00196) | 数据市场的均衡选择是多元化的，现有的均衡概念不能预测结果。需要修改数据市场的制度框架或引入外部力量来解决根本问题。 |
+| [^1] | [Peer Prediction for Peer Review: Designing a Marketplace for Ideas.](http://arxiv.org/abs/2303.16855) | 本文提出了一个平台，利用同行预测算法奖励评审人员，旨在改善早期研究的同行评审，解决研究问题与出版偏见之间的不匹配问题。 |
+| [^2] | [Power sector effects of alternative options for electrifying heavy-duty vehicles: go electric, and charge smartly.](http://arxiv.org/abs/2303.16629) | 研究了电动公路系统和电池电动车的替代方案对于电力部门的影响，发现可灵活充电的车辆共享BEV的电力部门成本最低，而使用电力燃料的重型车辆的成本最高。 |
+| [^3] | [A general equilibrium model for multi-passenger ridesharing systems with stable matching.](http://arxiv.org/abs/2303.16595) | 本文提出了一个通用均衡模型以解决多乘客拼车系统的问题，并提出了一个序列-树算法用于求解问题。 |
+| [^4] | [Critical Thinking Via Storytelling: Theory and Social Media Experiment.](http://arxiv.org/abs/2303.16422) | 通过社交媒体实验，研究人员发现不同的数字叙事格式会影响人们的批判性思维，中等长度的设计最有效，需要认知程度高的个体影响最大。 |
+| [^5] | [Complexity of Equilibria in First-Price Auctions under General Tie-Breaking Rules.](http://arxiv.org/abs/2303.16388) | 本研究探讨了一种常见信息分布下一价拍卖中关于贝叶斯纳什均衡的复杂性，发现即使在三方平局规则下，该问题的复杂度都是PPAD完全的。同时提出了在采用均匀平局规则情况下的部分近似算法。 |
+| [^6] | [Inflation forecasting with attention based transformer neural networks.](http://arxiv.org/abs/2303.15364) | 本文研究了基于注意力机制变压器神经网络用于预测不同通货膨胀率的潜力，结果表明其可以超越传统模型，成为金融决策中的有用工具。 |
+| [^7] | [Incorporating Prior Knowledge of Latent Group Structure in Panel Data Models.](http://arxiv.org/abs/2211.16714) | 本文提出了一种受限制的贝叶斯分组估计器，通过利用研究人员对组的先验信念以两两约束的形式进行表达，将潜在组结构的先验知识纳入到面板数据模型中。蒙特卡罗实验显示，加入先验知识可以得到更准确的系数估计，并且比替代估计器获得更多的预测增益分数。我们应用了我们的方法到两个经验应用中。 |
+| [^8] | [Sparse Quantile Regression.](http://arxiv.org/abs/2006.11201) | 本文研究了稀疏分位回归估计器，通过指数不等式得到了均方误差和回归函数估计误差的非渐近上界，并使用混合整数线性规划和一阶近似算法实现，能在实际数据应用中使用。 |
 
 # 详细
 
-[^1]: 机器学习准确预测财报，但同样存在过度反应
+[^1]: 同行评审的同行预测：设计一个想法市场
 
-    Behavioral Machine Learning? Computer Predictions of Corporate Earnings also Overreact. (arXiv:2303.16158v1 [q-fin.ST])
+    Peer Prediction for Peer Review: Designing a Marketplace for Ideas. (arXiv:2303.16855v1 [cs.DL])
 
-    [http://arxiv.org/abs/2303.16158](http://arxiv.org/abs/2303.16158)
+    [http://arxiv.org/abs/2303.16855](http://arxiv.org/abs/2303.16855)
 
-    本文研究发现，机器学习算法可以更准确地预测公司盈利，但同样存在过度反应的问题，而传统培训的股市分析师和经过机器学习方法培训的分析师相比会产生较少的过度反应。
-
-    
-
-    大量证据表明，在金融领域中，机器学习算法的预测能力比人类更为准确。但是，文献并未测试算法预测是否更为理性。本文研究了几个算法（包括线性回归和一种名为Gradient Boosted Regression Trees的流行算法）对于公司盈利的预测结果。结果发现，GBRT平均胜过线性回归和人类股市分析师，但仍存在过度反应且无法满足理性预期标准。通过降低学习率，可最小程度上减少过度反应程度，但这会牺牲预测准确性。通过机器学习方法培训过的股市分析师比传统训练的分析师产生的过度反应较少。此外，股市分析师的预测反映出机器算法没有捕捉到的信息。
-
-    There is considerable evidence that machine learning algorithms have better predictive abilities than humans in various financial settings. But, the literature has not tested whether these algorithmic predictions are more rational than human predictions. We study the predictions of corporate earnings from several algorithms, notably linear regressions and a popular algorithm called Gradient Boosted Regression Trees (GBRT). On average, GBRT outperformed both linear regressions and human stock analysts, but it still overreacted to news and did not satisfy rational expectation as normally defined. By reducing the learning rate, the magnitude of overreaction can be minimized, but it comes with the cost of poorer out-of-sample prediction accuracy. Human stock analysts who have been trained in machine learning methods overreact less than traditionally trained analysts. Additionally, stock analyst predictions reflect information not otherwise available to machine algorithms.
-    
-[^2]: 预测大型实现协方差矩阵:因子模型和收缩的好处。
-
-    Forecasting Large Realized Covariance Matrices: The Benefits of Factor Models and Shrinkage. (arXiv:2303.16151v1 [q-fin.ST])
-
-    [http://arxiv.org/abs/2303.16151](http://arxiv.org/abs/2303.16151)
-
-    本论文介绍了一种用因子模型和收缩的方法预测大型实现协方差矩阵的模型。这种方法通过分解回报协方差矩阵并使用向量异质自回归模型进行估计，相对于标准基准提高了预测精度，并导致对最小方差组合的更好估计。
+    本文提出了一个平台，利用同行预测算法奖励评审人员，旨在改善早期研究的同行评审，解决研究问题与出版偏见之间的不匹配问题。
 
     
 
-    我们提出了一种模型来预测收益的大型实现协方差矩阵，并对S&P 500的成分股进行了应用。为了解决维数灾难，我们使用标准企业级别因子（如大小、价值和盈利能力）分解回报协方差矩阵，并在残差协方差矩阵中使用部门限制。然后，使用最小绝对收缩和选择运算符（LASSO）的向量异质自回归（VHAR）模型对该限制模型进行估计。相对于标准基准，我们的方法提高了预测精度，并导致对最小方差组合的更好估计。
+    本文描述了一个潜在的平台，旨在促进早期研究的学术同行评审。该平台旨在通过基于同行预测算法对评审人员进行奖励，使同行评审更加准确和及时。该算法使用对众包进行的Peer Truth Serum的变体（Radanovic等人，2016），其中人类评分者与机器学习基准竞争。我们解释了我们的方法如何解决科学中的两个大的低效问题：研究问题与出版偏见之间的不匹配。更好的早期研究同行评审为分享研究成果创造了额外的激励，简化了将想法匹配到团队，并使负面结果和p-hacking更加明显。
 
-    We propose a model to forecast large realized covariance matrices of returns, applying it to the constituents of the S\&P 500 daily. To address the curse of dimensionality, we decompose the return covariance matrix using standard firm-level factors (e.g., size, value, and profitability) and use sectoral restrictions in the residual covariance matrix. This restricted model is then estimated using vector heterogeneous autoregressive (VHAR) models with the least absolute shrinkage and selection operator (LASSO). Our methodology improves forecasting precision relative to standard benchmarks and leads to better estimates of minimum variance portfolios.
+    The paper describes a potential platform to facilitate academic peer review with emphasis on early-stage research. This platform aims to make peer review more accurate and timely by rewarding reviewers on the basis of peer prediction algorithms. The algorithm uses a variation of Peer Truth Serum for Crowdsourcing (Radanovic et al., 2016) with human raters competing against a machine learning benchmark. We explain how our approach addresses two large productive inefficiencies in science: mismatch between research questions and publication bias. Better peer review for early research creates additional incentives for sharing it, which simplifies matching ideas to teams and makes negative results and p-hacking more visible.
     
-[^3]: 信息价值和环形设置的研究
+[^2]: 重型车辆电气化的替代方案的电力部门影响:电气化和智能充电
 
-    The Value of Information and Circular Settings. (arXiv:2303.16126v1 [econ.TH])
+    Power sector effects of alternative options for electrifying heavy-duty vehicles: go electric, and charge smartly. (arXiv:2303.16629v1 [econ.GN])
 
-    [http://arxiv.org/abs/2303.16126](http://arxiv.org/abs/2303.16126)
+    [http://arxiv.org/abs/2303.16629](http://arxiv.org/abs/2303.16629)
 
-    本文提出了一种基于克劳德·香农的信息和Ruslan Stratonovich的工作的信息价值（VoI）的通用概念，并将其应用于环形设置的经济应用，具有重要意义。
-
-    
-
-    本文提出了一种基于克劳德·香农的信息和Ruslan Stratonovich的工作的信息价值（VoI）的通用概念，该概念具有贝叶斯决策理论和需求分析所需的理想属性。将Shannon / Stratonovich VoI概念与Hartley VoI概念进行比较，并应用于环形设置的典型经济应用，该设置概括了Ruslan Stratonovich的示例，并允许网络结构和不同经济运输成本的调查。
-
-    We present a universal concept for the Value of Information (VoI) based on Claude Shannon's information and work of Ruslan Stratonovich that has desirable properties for Bayesian decision theory and demand analysis. The Shannon/Stratonovich VoI concept is compared to the concept of Hartley VoI and applied to an epitome economic application of a circular setting generalizing an example of Ruslan Stratonovich and allowing for a network structure and an investigation of various economic transport costs.
-    
-[^4]: 对违约公司网络恢复的风险知情启发式决策研究
-
-    Study on the risk-informed heuristic of decision-making on the restoration of defaulted corporation networks. (arXiv:2303.15863v1 [econ.TH])
-
-    [http://arxiv.org/abs/2303.15863](http://arxiv.org/abs/2303.15863)
-
-    本文提出了可行的启发式决策制定方案，用于驱动违约公司网络恢复工作，在两个真实的DCN案例中进行了实验验证，研究结果表明启发式决策制定方案的实用性和性能。
+    研究了电动公路系统和电池电动车的替代方案对于电力部门的影响，发现可灵活充电的车辆共享BEV的电力部门成本最低，而使用电力燃料的重型车辆的成本最高。
 
     
 
-    由政府主导的恢复已成为减轻因公司信用违约引发的金融风险的常见且有效方法。然而，在实践中，由于违约公司网络（DCNs）中存在大量搜索空间以及个体公司间的动态和循环相互依赖关系，往往难以提出最优方案。为了解决这一挑战，本文提出了一系列可行的决策启发式，驱动这些恢复工作的决策制定。为了检查其适用性和测量其性能，将这些启发式应用于由100家上市中国A股公司组成的两个真实DCN，并基于2021年财务数据，模拟随机生成的违约情况下的恢复。相应的案例研究模拟结果表明，DCN的恢复将会是...
+    在乘用车领域，电池电动车(BEV)已成为去碳化交通的最有前途的选择。对于重型车辆(HDV)，技术领域似乎更为开放。除了BEV外，还讨论了用于动态供电的电动公路系统(ERS)，以及使用氢燃料电池或电力燃料的卡车间接电气化。在这里，我们研究了这些替代方案的电力部门影响。我们将基于未来德国高可再生能源份额的情景，应用一个开源的容量扩展模型，利用详细的以路线为基础的卡车交通数据。结果表明，可灵活充电的车辆共享BEV的电力部门成本最低，而使用电力燃料的重型车辆的成本最高。如果BEV和ERS-BEV没有以优化的方式充电，电力部门成本会增加，但仍远低于使用氢或电力燃料的情景。这是相对较小电池、高度灵活的BEV在短途和中途步骤转移和超出道路广泛使用的优势的结果。
 
-    Government-run (Government-led) restoration has become a common and effective approach to the mitigation of financial risks triggered by corporation credit defaults. However, in practice, it is often challenging to come up with the optimal plan of those restorations, due to the massive search space associated with defaulted corporation networks (DCNs), as well as the dynamic and looped interdependence among the recovery of those individual corporations. To address such a challenge, this paper proposes an array of viable heuristics of the decision-making that drives those restoration campaigns. To examine their applicability and measure their performance, those heuristics have been applied to two real-work DCNs that consists of 100 listed Chinese A-share companies, whose restoration has been modelled based on the 2021 financial data, in the wake of randomly generated default scenarios. The corresponding simulation outcome of the case-study shows that the restoration of the DCNs would be
+    In the passenger car segment, battery-electric vehicles (BEV) have emerged as the most promising option to decarbonize transportation. For heavy-duty vehicles (HDV), the technology space still appears to be more open. Aside from BEV, electric road systems (ERS) for dynamic power transfer are discussed, as well as indirect electrification with trucks that use hydrogen fuel cells or e-fuels. Here we investigate the power sector implications of these alternative options. We apply an open-source capacity expansion model to future scenarios of Germany with high renewable energy shares, drawing on detailed route-based truck traffic data. Results show that power sector costs are lowest for flexibly charged BEV that also carry out vehicle-to-grid operations, and highest for HDV using e-fuels. If BEV and ERS-BEV are not charged in an optimized way, power sector costs increase, but are still substantially lower than in scenarios with hydrogen or e-fuels. This is a consequence of the relatively p
     
-[^5]: 重温可证伪性？
+[^3]: 带稳定匹配的多乘客拼车系统的一般均衡模型研究
 
-    Redeeming Falsifiability?. (arXiv:2303.15723v1 [econ.TH])
+    A general equilibrium model for multi-passenger ridesharing systems with stable matching. (arXiv:2303.16595v1 [econ.GN])
 
-    [http://arxiv.org/abs/2303.15723](http://arxiv.org/abs/2303.15723)
+    [http://arxiv.org/abs/2303.16595](http://arxiv.org/abs/2303.16595)
 
-    波普尔的可证伪性标准仍然有价值，因为如果知情的专家可以获得额外的信息，那么它能够识别出没有价值的理论。
-
-    
-
-    我们重新审视了波普尔的可证伪性标准。一个测试者雇佣一个潜在的专家来提出一种理论，根据理论的表现，向专家提供有条件的付款。我们认为，如果知情的专家可以获得额外的信息，可证伪性确实有能力识别出没有价值的理论。
-
-    We revisit Popper's falsifiability criterion. A tester hires a potential expert to produce a theory, offering payments contingent on the observed performance of the theory. We argue that if the informed expert can acquire additional information, falsifiability does have the power to identify worthless theories.
-    
-[^6]: 内生化劳动力流动网络
-
-    Endogenous Labour Flow Networks. (arXiv:2301.07979v2 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2301.07979](http://arxiv.org/abs/2301.07979)
-
-    本文提出一种新型模型，从代理层面出发形成劳动力流动网络(LFNs)，消除了历史路径假设。该模型使用英国的微观数据为基础，生成了具有高精度的实证LFNs。
+    本文提出了一个通用均衡模型以解决多乘客拼车系统的问题，并提出了一个序列-树算法用于求解问题。
 
     
 
-    在过去十年中，劳动动力学的研究引入了劳动力流动网络（LFN）来概括工作转移，并开发了数学模型来探索这些网络流的动态性。到目前为止，LFN模型一直依赖于静态网络结构的假设。然而，正如最近的事件（工作场所的自动化增加，COVID-19大流行，对编程技能的需求激增等）所显示的，我们正在经历改变劳动力市场中个人导航方式的重大变革。在这里，我们开发了一种新型模型，从代理层面出发形成LFNs，消除了假定未来工作转移流将沿着它们历史观察到的相同轨迹流动的必要性。该模型以英国的微观数据为基础，生成了具有高精度的实证LFNs。我们使用该模型探索了影响基础的冲击。
+    本文提出了一个通用均衡模型，用于捕捉多乘客拼车系统中乘客、司机、平台和交通网络之间的内生性互动。稳定匹配被建模为一个均衡问题，其中没有拼车司机或乘客能够通过单方面切换另一个匹配序列来降低拼车的不满意程度。本文是首批将拼车平台多乘客匹配问题明确融入模型的研究之一。通过将匹配序列与超网络相结合，避免了多乘客拼车系统中的拼车-乘客转移。此外，本论文将拼车司机和乘客之间的匹配稳定性扩展到以匹配序列为基础的多OD多乘客情况。本文提供了所提出一般均衡模型的存在性证明。针对求解多乘客拼车问题，还提出了一个序列-树算法。
 
-    In the last decade, the study of labour dynamics has led to the introduction of labour flow networks (LFNs) as a way to conceptualise job-to-job transitions, and to the development of mathematical models to explore the dynamics of these networked flows. To date, LFN models have relied upon an assumption of static network structure. However, as recent events (increasing automation in the workplace, the COVID-19 pandemic, a surge in the demand for programming skills, etc.) have shown, we are experiencing drastic shifts to the job landscape that are altering the ways individuals navigate the labour market. Here we develop a novel model that emerges LFNs from agent-level behaviour, removing the necessity of assuming that future job-to-job flows will be along the same paths where they have been historically observed. This model, informed by microdata for the United Kingdom, generates empirical LFNs with a high level of accuracy. We use the model to explore how shocks impacting the underlyin
+    This paper proposes a general equilibrium model for multi-passenger ridesharing systems, in which interactions between ridesharing drivers, passengers, platforms, and transportation networks are endogenously captured. Stable matching is modeled as an equilibrium problem in which no ridesharing driver or passenger can reduce ridesharing disutility by unilaterally switching to another matching sequence. This paper is one of the first studies that explicitly integrates the ridesharing platform multi-passenger matching problem into the model. By integrating matching sequence with hyper-network, ridesharing-passenger transfers are avoided in a multi-passenger ridesharing system. Moreover, the matching stability between the ridesharing drivers and passengers is extended to address the multi-OD multi-passenger case in terms of matching sequence. The paper provides a proof for the existence of the proposed general equilibrium. A sequence-bush algorithm is developed for solving the multi-passen
     
-[^7]: 广义差异-in-差异模型：稳健的界限
+[^4]: 通过讲故事培养批判性思维：理论与社交媒体实验
 
-    Generalized Difference-in-differences Models: Robust Bounds. (arXiv:2211.06710v4 [econ.EM] UPDATED)
+    Critical Thinking Via Storytelling: Theory and Social Media Experiment. (arXiv:2303.16422v1 [econ.TH])
 
-    [http://arxiv.org/abs/2211.06710](http://arxiv.org/abs/2211.06710)
+    [http://arxiv.org/abs/2303.16422](http://arxiv.org/abs/2303.16422)
 
-    该论文发展了一个鲁棒的广义DID方法，可以利用多个数据来源的信息来推断治疗效果。这种方法通过选择偏差的概念重新解释了平行趋势假设，适用性更广泛。
-
-    
-
-    差异-in-差异（DID）方法主要基于平行趋势（PT）假设，确定了被治疗对象的平均治疗效果（ATT）。通常，预处理期检验是证明PT假设的最常用方法。如果预处理期内治疗组和对照组的结果平均值趋势假设被拒绝，研究人员则对PT和DID结果的可信程度降低。本文发展了一个鲁棒的广义DID方法，利用所有可用的信息，不仅包括来自预处理期的信息，还包括来自多个数据来源的信息。我们采用一种不同于常规DID方法的方法来解释PT，利用了选择偏差的概念，使我们能够通过定义可能包含多个预处理期或其他基线协变量的信息集来推广标准DID估计量。我们的主要假设是，后处理期的选择偏差在所有可能结果的凸包内。
-
-    The difference-in-differences (DID) method identifies the average treatment effects on the treated (ATT) under mainly the so-called parallel trends (PT) assumption. The most common and widely used approach to justify the PT assumption is the pre-treatment period examination. If a null hypothesis of the same trend in the outcome means for both treatment and control groups in the pre-treatment periods is rejected, researchers believe less in PT and the DID results. This paper develops a robust generalized DID method that utilizes all the information available not only from the pre-treatment periods but also from multiple data sources. Our approach interprets PT in a different way using a notion of selection bias, which enables us to generalize the standard DID estimand by defining an information set that may contain multiple pre-treatment periods or other baseline covariates. Our main assumption states that the selection bias in the post-treatment period lies within the convex hull of al
-    
-[^8]: 基于揭示性偏好的互意离婚下婚姻稳定性的刻画
-
-    Revealed preference characterization of marital stability under mutual consent divorce. (arXiv:2110.10781v3 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2110.10781](http://arxiv.org/abs/2110.10781)
-
-    该论文提出了一个基于揭示性偏好的婚姻稳定性刻画，明确考虑了调节婚姻解散的离婚法律下的互意离婚，为了评估该刻画在确定家庭内消费方面的潜力，还进行了模拟实验。
+    通过社交媒体实验，研究人员发现不同的数字叙事格式会影响人们的批判性思维，中等长度的设计最有效，需要认知程度高的个体影响最大。
 
     
 
-    我们提出了一个基于揭示性偏好的婚姻稳定性刻画，明确考虑了调节婚姻解散的离婚法律。我们重点研究了互意离婚，即当事人只有在获得了对方的同意时才能离婚。我们提供理论见解，探讨了该刻画在确定家庭内消费方面的潜力。我们使用从“社会科学的网络化纵向研究”（LISS）小组抽取的家庭数据进行模拟实验，结果支持了我们的理论发现。
+    在一个简化的投票模型中，我们证明了增加具有意识到某一问题模棱两可性质的批判性思维者的比例会提高调查（选举）的效率，但可能会增加调查的偏见。在针对代表性美国人口的激励在线社交媒体实验（N = 706）中，我们证明了不同的数字叙事格式 – 不同的设计来呈现同一组事实 – 影响个体成为批判性思维者的强度。中等长度的设计（Facebook帖子）最有效地激发个体的批判性思维。需要认知的程度高的个体主要驱动了治疗效果的差异。
 
-    We present a revealed preference characterization of marital stability explicitly accounting for the divorce law governing marital dissolution. We focus on mutual consent divorce, where individuals can divorce their partner only if they can obtain their consent. We provide theoretical insights into the potential of the characterization for identifying intrahousehold consumption. Simulation exercises using household data drawn from the Longitudinal Internet Studies for the Social Sciences (LISS) panel support our theoretical findings.
+    In a stylized voting model, we establish that increasing the share of critical thinkers -- individuals who are aware of the ambivalent nature of a certain issue -- in the population increases the efficiency of surveys (elections) but might increase surveys' bias. In an incentivized online social media experiment on a representative US population (N = 706), we show that different digital storytelling formats -- different designs to present the same set of facts -- affect the intensity at which individuals become critical thinkers. Intermediate-length designs (Facebook posts) are most effective at triggering individuals into critical thinking. Individuals with a high need for cognition mostly drive the differential effects of the treatments.
     
-[^9]: 数据市场中的均衡选择：多主体、多代理问题中的非竞争性商品
+[^5]: 一般性平局规则下一价拍卖均衡的复杂度
 
-    Equilibrium Selection in Data Markets: Multiple-Principal, Multiple-Agent Problems with Non-Rivalrous Goods. (arXiv:2004.00196v2 [cs.GT] UPDATED)
+    Complexity of Equilibria in First-Price Auctions under General Tie-Breaking Rules. (arXiv:2303.16388v1 [cs.GT])
 
-    [http://arxiv.org/abs/2004.00196](http://arxiv.org/abs/2004.00196)
+    [http://arxiv.org/abs/2303.16388](http://arxiv.org/abs/2303.16388)
 
-    数据市场的均衡选择是多元化的，现有的均衡概念不能预测结果。需要修改数据市场的制度框架或引入外部力量来解决根本问题。
+    本研究探讨了一种常见信息分布下一价拍卖中关于贝叶斯纳什均衡的复杂性，发现即使在三方平局规则下，该问题的复杂度都是PPAD完全的。同时提出了在采用均匀平局规则情况下的部分近似算法。
 
     
 
-    数据市场与典型的商品市场存在几个不同之处，如信息不对称、数据的非竞争性和信息外部性。正式地，这些特点引出了一类新的博弈问题，我们称之为多主体、多代理非竞争性商品问题。假设主体的收益是支付给代理商的收益的拟线性函数，我们发现非竞争性商品市场存在根本的退化。这种均衡的多样性也影响到了均衡定义的普遍反复修正：变分均衡和归一化均衡在一般情况下都是不唯一的。这意味着大多数现有的均衡概念不能对当今出现的数据市场结果进行预测。研究结果支持了这样一个想法：即对支付合同本身的修改不太可能产生唯一的均衡，而需要调整数据市场的制度框架或引入外部力量来解决根本的退化问题。
+    本研究探讨了一种常见信息分布下一价拍卖中关于贝叶斯纳什均衡的复杂性，考虑了平局规则作为输入的一部分。结果表明即使在三方平局规则（即表示当出现不超过三名竞标人员并列第一时，将物品分配给这些人员，否则采用均匀平局规则）的情况下，该问题的复杂度也是PPAD完全的。这是关于带有平局规则下一价拍卖均衡计算的首个困难结果。在积极方面，我们对于采用均匀平局规则的问题提出了一种部分近似算法。
 
-    There are several aspects of data markets that distinguish them from a typical commodity market: asymmetric information, the non-rivalrous nature of data, and informational externalities. Formally, this gives rise to a new class of games which we call multiple-principal, multiple-agent problem with non-rivalrous goods. Under the assumption that the principal's payoff is quasilinear in the payments given to agents, we show that there is a fundamental degeneracy in the market of non-rivalrous goods. This multiplicity of equilibria also affects common refinements of equilibrium definitions intended to uniquely select an equilibrium: both variational equilibria and normalized equilibria will be non-unique in general. This implies that most existing equilibrium concepts cannot provide predictions on the outcomes of data markets emerging today. The results support the idea that modifications to payment contracts themselves are unlikely to yield a unique equilibrium, and either changes to the
+    We study the complexity of finding an approximate (pure) Bayesian Nash equilibrium in a first-price auction with common priors when the tie-breaking rule is part of the input. We show that the problem is PPAD-complete even when the tie-breaking rule is trilateral (i.e., it specifies item allocations when no more than three bidders are in tie, and adopts the uniform tie-breaking rule otherwise). This is the first hardness result for equilibrium computation in first-price auctions with common priors. On the positive side, we give a PTAS for the problem under the uniform tie-breaking rule.
+    
+[^6]: 基于注意力机制变压器神经网络的通胀预测
+
+    Inflation forecasting with attention based transformer neural networks. (arXiv:2303.15364v1 [econ.EM])
+
+    [http://arxiv.org/abs/2303.15364](http://arxiv.org/abs/2303.15364)
+
+    本文研究了基于注意力机制变压器神经网络用于预测不同通货膨胀率的潜力，结果表明其可以超越传统模型，成为金融决策中的有用工具。
+
+    
+
+    通胀是资金配置决策的重要因素，其预测是政府和中央银行的基本目标。然而，由于其预测取决于低频高波动数据且缺乏清晰的解释变量，因此预测通胀并不是一项简单的任务。最近，（深度）神经网络在许多应用中已显示出惊人的结果，逐渐成为新的技术水平标杆。本文研究了变压器深度神经网络架构用于预测不同通胀率的潜力。结果与经典时间序列和机器学习模型进行了比较。我们发现，我们改进后的变压器模型在16个实验中平均超过基准模型6个实验，在研究的4个通货膨胀率中表现最佳。我们的结果表明，基于变压器的通胀预测模型有超越传统模型的潜力，并可以成为金融决策中的有用工具。
+
+    Inflation is a major determinant for allocation decisions and its forecast is a fundamental aim of governments and central banks. However, forecasting inflation is not a trivial task, as its prediction relies on low frequency, highly fluctuating data with unclear explanatory variables. While classical models show some possibility of predicting inflation, reliably beating the random walk benchmark remains difficult. Recently, (deep) neural networks have shown impressive results in a multitude of applications, increasingly setting the new state-of-the-art. This paper investigates the potential of the transformer deep neural network architecture to forecast different inflation rates. The results are compared to a study on classical time series and machine learning models. We show that our adapted transformer, on average, outperforms the baseline in 6 out of 16 experiments, showing best scores in two out of four investigated inflation rates. Our results demonstrate that a transformer based
+    
+[^7]: 将潜在组结构的先验知识纳入面板数据模型中
+
+    Incorporating Prior Knowledge of Latent Group Structure in Panel Data Models. (arXiv:2211.16714v2 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2211.16714](http://arxiv.org/abs/2211.16714)
+
+    本文提出了一种受限制的贝叶斯分组估计器，通过利用研究人员对组的先验信念以两两约束的形式进行表达，将潜在组结构的先验知识纳入到面板数据模型中。蒙特卡罗实验显示，加入先验知识可以得到更准确的系数估计，并且比替代估计器获得更多的预测增益分数。我们应用了我们的方法到两个经验应用中。
+
+    
+
+    组异质性假设已经成为面板数据模型中的研究热点。本文提出了一种受限制的贝叶斯分组估计器，利用研究人员对组的先验信念以两两约束的形式进行表达，表明一对单位是否可能属于同一组或不同组。我们提出了一种先验方法，用不同程度的置信度来纳入两两约束。整个框架建立在非参数贝叶斯方法上，隐含地指定了对组分区的分布，因此后验分析考虑了潜在的组结构的不确定性。蒙特卡罗实验显示，加入先验知识可以得到更准确的系数估计，并且比替代估计器获得更多的预测增益分数。我们应用了我们的方法到两个经验应用中。在第一个预测美国CPI通货膨胀率的应用中，我们证明了组的先验知识可以在数据不充足时提高密度预测。
+
+    The assumption of group heterogeneity has become popular in panel data models. We develop a constrained Bayesian grouped estimator that exploits researchers' prior beliefs on groups in a form of pairwise constraints, indicating whether a pair of units is likely to belong to a same group or different groups. We propose a prior to incorporate the pairwise constraints with varying degrees of confidence. The whole framework is built on the nonparametric Bayesian method, which implicitly specifies a distribution over the group partitions, and so the posterior analysis takes the uncertainty of the latent group structure into account. Monte Carlo experiments reveal that adding prior knowledge yields more accurate estimates of coefficient and scores predictive gains over alternative estimators. We apply our method to two empirical applications. In a first application to forecasting U.S. CPI inflation, we illustrate that prior knowledge of groups improves density forecasts when the data is not 
+    
+[^8]: 稀疏分位回归
+
+    Sparse Quantile Regression. (arXiv:2006.11201v4 [stat.ME] UPDATED)
+
+    [http://arxiv.org/abs/2006.11201](http://arxiv.org/abs/2006.11201)
+
+    本文研究了稀疏分位回归估计器，通过指数不等式得到了均方误差和回归函数估计误差的非渐近上界，并使用混合整数线性规划和一阶近似算法实现，能在实际数据应用中使用。
+
+    
+
+    本文考虑了$\ell_0$惩罚和约束下的分位回归估计器。对于$\ell_0$惩罚的估计器，我们推导出超额分位预测风险尾部概率的指数不等式，并将其应用于获得非渐近上界的均方误差和回归函数估计误差。我们还为$\ell_0$约束的估计器推导了类似的结果。得到的收敛速率几乎是极小最优的，并且与$\ell_1$惩罚和非凸惩罚估计器的速率相同。此外，我们还表征了$\ell_0$惩罚估计器的期望汉明损失。我们通过混合整数线性规划和一个更可扩展的一阶近似算法实现了所提出的过程。我们通过蒙特卡罗实验展示了我们方法在有限样本情况下的性能，并在涉及婴儿出生体重的实际数据应用中展示了它的实用性。
+
+    We consider both $\ell _{0}$-penalized and $\ell _{0}$-constrained quantile regression estimators. For the $\ell _{0}$-penalized estimator, we derive an exponential inequality on the tail probability of excess quantile prediction risk and apply it to obtain non-asymptotic upper bounds on the mean-square parameter and regression function estimation errors. We also derive analogous results for the $\ell _{0}$-constrained estimator. The resulting rates of convergence are nearly minimax-optimal and the same as those for $\ell _{1}$-penalized and non-convex penalized estimators. Further, we characterize expected Hamming loss for the $\ell _{0}$-penalized estimator. We implement the proposed procedure via mixed integer linear programming and also a more scalable first-order approximation algorithm. We illustrate the finite-sample performance of our approach in Monte Carlo experiments and its usefulness in a real data application concerning conformal prediction of infant birth weights (with $
     
 

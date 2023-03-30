@@ -2,90 +2,133 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [NeuralMind-UNICAMP at 2022 TREC NeuCLIR: Large Boring Rerankers for Cross-lingual Retrieval.](http://arxiv.org/abs/2303.16145) | 本研究发现尽管mT5模型仅在相同语言的查询-文档对上进行微调，但在不同语言的查询-文档对存在的情况下也是可行的。研究结果表明，在所有任务和语言上都表现出色，获得了很高的获胜位置，强调了其作为一种跨语言检索的可行解决方案的潜力。 |
-| [^2] | [Causal Disentangled Recommendation Against User Preference Shifts.](http://arxiv.org/abs/2303.16068) | 本文提出因果分离推荐系统解决用户偏好变化问题，通过抽象因果图发现未观察到的因素的变化导致偏好移位，并关注精细偏好影响与不同项目的交互。 |
-| [^3] | [A comment to "A General Theory of IR Evaluation Measures".](http://arxiv.org/abs/2303.16061) | 本文是一篇对于《关于IR评估方法的一般理论》的评论，指出了它的结论存在一些限制。 |
-| [^4] | [Item Graph Convolution Collaborative Filtering for Inductive Recommendations.](http://arxiv.org/abs/2303.15946) | 该论文提出了一种基于物品图卷积的归纳式协同过滤推荐算法，通过加权投影构建物品-物品图，并采用卷积将高阶关联注入物品嵌入，同时将用户表示形成加权的加权和。 |
-| [^5] | [A Multi-Granularity Matching Attention Network for Query Intent Classification in E-commerce Retrieval.](http://arxiv.org/abs/2303.15870) | 本文提出了一种名为 MMAN 的多粒度匹配注意力网络，可以全面提取查询和查询类别交互矩阵的特征，从而消除查询和类别之间表达差异的差距，用于查询意图分类。 |
-| [^6] | [Genetic Analysis of Prostate Cancer with Computer Science Methods.](http://arxiv.org/abs/2303.15851) | 本文应用数据科学、机器学习和拓扑网络分析方法对不同转移部位的前列腺癌肿瘤进行了基因分析，筛选出了与前列腺癌转移相关的13个基因，准确率达到了92%。 |
-| [^7] | [Multi-Behavior Recommendation with Cascading Graph Convolution Networks.](http://arxiv.org/abs/2303.15720) | 本文提出了一种基于级联图卷积网络的多行为推荐模型，能够明确地利用行为链中的依赖关系，以缓解推荐系统数据稀疏或冷启动问题。 |
-| [^8] | [Model Cascades for Efficient Image Search.](http://arxiv.org/abs/2303.15595) | 该论文提出了一种新颖的图像排名算法，使用级联的神经编码器来逐步过滤图像，从而减少了3倍以上的TIR生命周期成本。 |
-| [^9] | [GETT-QA: Graph Embedding based T2T Transformer for Knowledge Graph Question Answering.](http://arxiv.org/abs/2303.13284) | 本论文提出了GETT-QA系统，该系统使用T5对自然语言问题生成简化的SPARQL查询，并使用截断的KG嵌入提高了知识图谱问答的性能。 |
-| [^10] | [Optimizing generalized Gini indices for fairness in rankings.](http://arxiv.org/abs/2204.06521) | 本文探讨了使用广义基尼福利函数（GGF）作为规范性准则来指定推荐系统应优化的方法，以此实现排名公平性。 |
+| [^1] | [Thistle: A Vector Database in Rust.](http://arxiv.org/abs/2303.16780) | Thistle是一个完全功能的向量数据库，旨在解决回答搜索查询中的潜在知识领域问题，已经在MS MARCO数据集上进行了基准测试，并且有助于推进Rust ML生态系统的发展。 |
+| [^2] | [A Novel Patent Similarity Measurement Methodology: Semantic Distance and Technological Distance.](http://arxiv.org/abs/2303.16767) | 该研究提出了一种混合方法，用于自动测量专利之间的相似性，同时考虑语义和技术相似性，并且实验证明该方法优于仅考虑语义相似性的方法。 |
+| [^3] | [Computationally Efficient Labeling of Cancer Related Forum Posts by Non-Clinical Text Information Retrieval.](http://arxiv.org/abs/2303.16766) | 本研究基于非临床和免费可用的信息，结合分布式计算、文本检索、聚类和分类方法开发了一个能够检索、聚类和展示关于癌症病程信息的计算有效系统。 |
+| [^4] | [Dialogue-to-Video Retrieval.](http://arxiv.org/abs/2303.16761) | 本研究提出了一种基于对话的视频检索系统，使用对话作为搜索描述符，有效地提高了视频检索的准确性。 |
+| [^5] | [Exploring celebrity influence on public attitude towards the COVID-19 pandemic: social media shared sentiment analysis.](http://arxiv.org/abs/2303.16759) | 本文研究了公众人物在社交媒体上共享的信息对 COVID-19 疫情中的公众情感和大众意见的影响。通过收集和分析推文，发现公众人物的信息对公众情感和大众意见具有显著的影响。 |
+| [^6] | [Judicial Intelligent Assistant System: Extracting Events from Divorce Cases to Detect Disputes for the Judge.](http://arxiv.org/abs/2303.16751) | 本文提出了一种基于两轮标注事件提取技术的离婚案件争议检测方法，实现了司法智能助手（JIA）系统，以自动从离婚案件材料中提取重点事件，通过识别其中的共指来对事件进行对齐，并检测冲突。 |
+| [^7] | [A Gold Standard Dataset for the Reviewer Assignment Problem.](http://arxiv.org/abs/2303.16750) | 该论文提出了一个用于审稿人分配问题的新数据集，解决了当前算法难以进行原则比较的问题，并提供了基于此数据集的算法比较结果，为利益相关者在选择算法方面提供了一个基础。 |
+| [^8] | [Bi-directional Training for Composed Image Retrieval via Text Prompt Learning.](http://arxiv.org/abs/2303.16604) | 本文提出了一种基于文本提示学习和双向训练的组成图像检索方法，可以应用于现有的体系结构，并且在修改文本存在噪声或歧义的情况下特别有效。 |
+| [^9] | [Genetic Analysis of Prostate Cancer with Computer Science Methods.](http://arxiv.org/abs/2303.15851) | 本文应用数据科学、机器学习和拓扑网络分析方法对不同转移部位的前列腺癌肿瘤进行了基因分析，筛选出了与前列腺癌转移相关的13个基因，准确率达到了92%。 |
+| [^10] | [Clustering Without Knowing How To: Application and Evaluation.](http://arxiv.org/abs/2209.10267) | 该论文介绍了一个用于图像聚类的众包系统，实验证明只通过众包可以获得有意义的数据聚类，而不需要任何机器学习算法。 |
+| [^11] | [Cooperative Retriever and Ranker in Deep Recommenders.](http://arxiv.org/abs/2206.14649) | 本文介绍了深度推荐系统中的检索和排名两阶段工作流程。传统方法中，这两个组件都是独立训练或使用简单的级联管道，效果不佳。最近一些工作提出联合训练检索器和排名器，但仍存在许多限制。因此，还需要探索更有效的协作方法。 |
 
 # 详细
 
-[^1]: 《神经网络-巴西坎普斯大学》在2022年TREC NeuCLIR中的大型无聊重排器实现跨语言检索
+[^1]: Thistle: Rust中的向量数据库
 
-    NeuralMind-UNICAMP at 2022 TREC NeuCLIR: Large Boring Rerankers for Cross-lingual Retrieval. (arXiv:2303.16145v1 [cs.IR])
+    Thistle: A Vector Database in Rust. (arXiv:2303.16780v1 [cs.IR])
 
-    [http://arxiv.org/abs/2303.16145](http://arxiv.org/abs/2303.16145)
+    [http://arxiv.org/abs/2303.16780](http://arxiv.org/abs/2303.16780)
 
-    本研究发现尽管mT5模型仅在相同语言的查询-文档对上进行微调，但在不同语言的查询-文档对存在的情况下也是可行的。研究结果表明，在所有任务和语言上都表现出色，获得了很高的获胜位置，强调了其作为一种跨语言检索的可行解决方案的潜力。
-
-    
-
-    本文报道了使用mT5-XXL重排器在TREC 2022 NeuCLIR赛道上进行跨语言信息检索（CLIR）的研究。该研究最大的贡献也许是发现尽管mT5模型仅在相同语言的查询-文档对上进行微调，但在不同语言的查询-文档对存在的情况下，它证明了在第一阶段检索表现亚优的情况下是可行的。研究结果表明，在所有任务和语言上都表现出色，获得了很高的获胜位置。最后，本研究为在CLIR任务中使用mT5提供了有价值的见解，并强调了其作为一种可行解决方案的潜力。如需复制，请参阅https://github.com/unicamp-dl/NeuCLIR22-mT5。
-
-    This paper reports on a study of cross-lingual information retrieval (CLIR) using the mT5-XXL reranker on the NeuCLIR track of TREC 2022. Perhaps the biggest contribution of this study is the finding that despite the mT5 model being fine-tuned only on query-document pairs of the same language it proved to be viable for CLIR tasks, where query-document pairs are in different languages, even in the presence of suboptimal first-stage retrieval performance. The results of the study show outstanding performance across all tasks and languages, leading to a high number of winning positions. Finally, this study provides valuable insights into the use of mT5 in CLIR tasks and highlights its potential as a viable solution. For reproduction refer to https://github.com/unicamp-dl/NeuCLIR22-mT5
-    
-[^2]: 因果分离推荐：应对用户偏好变化的问题
-
-    Causal Disentangled Recommendation Against User Preference Shifts. (arXiv:2303.16068v1 [cs.IR])
-
-    [http://arxiv.org/abs/2303.16068](http://arxiv.org/abs/2303.16068)
-
-    本文提出因果分离推荐系统解决用户偏好变化问题，通过抽象因果图发现未观察到的因素的变化导致偏好移位，并关注精细偏好影响与不同项目的交互。
+    Thistle是一个完全功能的向量数据库，旨在解决回答搜索查询中的潜在知识领域问题，已经在MS MARCO数据集上进行了基准测试，并且有助于推进Rust ML生态系统的发展。
 
     
 
-    推荐系统很容易面临用户偏好移位的问题。如果用户偏好随着时间的推移而发生了变化，用户表示将变得过时，从而导致不适当的推荐。为了解决这个问题，现有的工作专注于学习稳健的表示或预测变化模式，缺乏发现用户偏好移位的潜在原因的全面视角。为了理解偏好移位，我们抽象了一个因果图，描述了用户交互序列的生成过程。假设用户偏好在短时间内是稳定的，我们将交互序列抽象为一组时间顺序的环境。从因果图中，我们发现一些未观察到的因素的变化（例如怀孕）导致了环境之间的偏好移位。此外，用户对不同类别的精细偏好稀疏地影响与不同项目的交互。受到因果图的启示，我们关注处理偏好移位问题的关键考虑。
+    我们介绍了Thistle，一个完全功能的向量数据库。Thistle是Latent Knowledge Use在回答搜索查询方面的分支，这是初创公司和搜索引擎公司的持续研究课题。我们使用数个著名算法实现Thistle，并在MS MARCO数据集上进行基准测试。结果有助于澄清潜在知识领域以及不断增长的Rust ML生态系统。
 
-    Recommender systems easily face the issue of user preference shifts. User representations will become out-of-date and lead to inappropriate recommendations if user preference has shifted over time. To solve the issue, existing work focuses on learning robust representations or predicting the shifting pattern. There lacks a comprehensive view to discover the underlying reasons for user preference shifts. To understand the preference shift, we abstract a causal graph to describe the generation procedure of user interaction sequences. Assuming user preference is stable within a short period, we abstract the interaction sequence as a set of chronological environments. From the causal graph, we find that the changes of some unobserved factors (e.g., becoming pregnant) cause preference shifts between environments. Besides, the fine-grained user preference over categories sparsely affects the interactions with different items. Inspired by the causal graph, our key considerations to handle pre
+    We present Thistle, a fully functional vector database. Thistle is an entry into the domain of latent knowledge use in answering search queries, an ongoing research topic at both start-ups and search engine companies. We implement Thistle with several well-known algorithms, and benchmark results on the MS MARCO dataset. Results help clarify the latent knowledge domain as well as the growing Rust ML ecosystem.
     
-[^3]: 一篇《关于IR评估方法的一般理论》的评论
+[^2]: 一种新的专利相似度测量方法：语义距离和技术距离
 
-    A comment to "A General Theory of IR Evaluation Measures". (arXiv:2303.16061v1 [cs.IR])
+    A Novel Patent Similarity Measurement Methodology: Semantic Distance and Technological Distance. (arXiv:2303.16767v1 [cs.IR])
 
-    [http://arxiv.org/abs/2303.16061](http://arxiv.org/abs/2303.16061)
+    [http://arxiv.org/abs/2303.16767](http://arxiv.org/abs/2303.16767)
 
-    本文是一篇对于《关于IR评估方法的一般理论》的评论，指出了它的结论存在一些限制。
-
-    
-
-    本文“一般的IR评估方法理论”开发了一个形式化的框架，以确定IR评估方法是否为区间刻度。本评论显示了一些关于其结论的限制。
-
-    The paper "A General Theory of IR Evaluation Measures" develops a formal framework to determine whether IR evaluation measures are interval scales. This comment shows some limitations about its conclusions.
-    
-[^4]: 基于物品图卷积的归纳式协同过滤推荐算法
-
-    Item Graph Convolution Collaborative Filtering for Inductive Recommendations. (arXiv:2303.15946v1 [cs.IR])
-
-    [http://arxiv.org/abs/2303.15946](http://arxiv.org/abs/2303.15946)
-
-    该论文提出了一种基于物品图卷积的归纳式协同过滤推荐算法，通过加权投影构建物品-物品图，并采用卷积将高阶关联注入物品嵌入，同时将用户表示形成加权的加权和。
+    该研究提出了一种混合方法，用于自动测量专利之间的相似性，同时考虑语义和技术相似性，并且实验证明该方法优于仅考虑语义相似性的方法。
 
     
 
-    最近，GCN被用作推荐系统算法的核心组件，将用户-项目交互作为二分图的边解释。然而，在缺乏附加信息的情况下，大多数现有模型采用随机初始化用户嵌入并在训练过程中优化它们的方法。这种策略使得这些算法本质上是转换型的，从而限制了它们为训练时未见过的用户生成预测的能力。为了解决这个问题，我们提出了一种基于卷积的算法，从用户的角度是归纳式的，同时仅依赖于隐式用户-项目交互数据。我们提出通过二分图交互网络的加权投影构建物品-物品图并采用卷积将高阶关联注入物品嵌入，同时将用户表示形成加权的加权和。
+    测量专利之间的相似性是确保创新的新颖性的关键步骤。然而，目前大多数专利相似度测量方法仍然依赖于专家手动分类专利。另一方面，一些研究提出了自动化方法；然而，大部分自动化方法只关注专利的语义相似性。为了解决这些问题，我们提出了一种混合方法，用于自动测量专利之间的相似性，同时考虑语义和技术的相似性。我们基于专利文本使用BERT测量语义相似性，使用Jaccard相似性计算专利的技术相似性，并通过分配权重来实现混合。我们的评估结果表明，所提出的方法优于仅考虑语义相似度的基准方法。
 
-    Graph Convolutional Networks (GCN) have been recently employed as core component in the construction of recommender system algorithms, interpreting user-item interactions as the edges of a bipartite graph. However, in the absence of side information, the majority of existing models adopt an approach of randomly initialising the user embeddings and optimising them throughout the training process. This strategy makes these algorithms inherently transductive, curtailing their ability to generate predictions for users that were unseen at training time. To address this issue, we propose a convolution-based algorithm, which is inductive from the user perspective, while at the same time, depending only on implicit user-item interaction data. We propose the construction of an item-item graph through a weighted projection of the bipartite interaction network and to employ convolution to inject higher order associations into item embeddings, while constructing user representations as weighted su
+    Measuring similarity between patents is an essential step to ensure novelty of innovation. However, a large number of methods of measuring the similarity between patents still rely on manual classification of patents by experts. Another body of research has proposed automated methods; nevertheless, most of it solely focuses on the semantic similarity of patents. In order to tackle these limitations, we propose a hybrid method for automatically measuring the similarity between patents, considering both semantic and technological similarities. We measure the semantic similarity based on patent texts using BERT, calculate the technological similarity with IPC codes using Jaccard similarity, and perform hybridization by assigning weights to the two similarity methods. Our evaluation result demonstrates that the proposed method outperforms the baseline that considers the semantic similarity only.
     
-[^5]: 电商检索中用于查询意图分类的多粒度匹配注意力网络
+[^3]: 用非临床文本信息检索实现肿瘤相关论坛帖子的计算有效标记
 
-    A Multi-Granularity Matching Attention Network for Query Intent Classification in E-commerce Retrieval. (arXiv:2303.15870v1 [cs.IR])
+    Computationally Efficient Labeling of Cancer Related Forum Posts by Non-Clinical Text Information Retrieval. (arXiv:2303.16766v1 [cs.IR])
 
-    [http://arxiv.org/abs/2303.15870](http://arxiv.org/abs/2303.15870)
+    [http://arxiv.org/abs/2303.16766](http://arxiv.org/abs/2303.16766)
 
-    本文提出了一种名为 MMAN 的多粒度匹配注意力网络，可以全面提取查询和查询类别交互矩阵的特征，从而消除查询和类别之间表达差异的差距，用于查询意图分类。
+    本研究基于非临床和免费可用的信息，结合分布式计算、文本检索、聚类和分类方法开发了一个能够检索、聚类和展示关于癌症病程信息的计算有效系统。
 
     
 
-    查询意图分类旨在协助客户找到所需产品，已成为电子商务搜索的重要组成部分。现有的查询意图分类模型要么设计更精细的模型以增强查询的表示学习，要么探索标签图和多任务以帮助模型学习外部信息。然而，这些模型无法从查询和类别中捕捉多粒度匹配特征，这使得它们难以弥补非正式查询和类别之间表达差异的差距。本文提出了一种多粒度匹配注意力网络(MMAN)，其包含三个模块：自匹配模块、字符级匹配模块和语义级匹配模块，以全面提取查询和查询类别交互矩阵的特征。通过这种方式，该模型可以消除查询意图分类中查询和类别之间表达差异的差距。
+    在线上存在着大量关于癌症的信息，但分类和提取有用信息很困难。几乎所有的医疗保健数据处理研究都涉及正式的临床数据，但非临床数据中也有有价值的信息。本研究将分布式计算、文本检索、聚类和分类方法结合成一个连贯、计算有效的系统，基于非临床和免费可用的信息，可以澄清癌症患者的病程。我们开发了一个完全功能的原型，可以从非临床论坛帖子中检索、聚类和展示关于癌症病程的信息。我们评估了三种聚类算法（MR-DBSCAN、DBSCAN和HDBSCAN），并比较了它们在调整后的兰德指数和总运行时间方面的表现，作为检索的帖子数量和邻域半径函数。聚类结果显示，邻域半径对聚类结果有最显著的影响。
 
-    Query intent classification, which aims at assisting customers to find desired products, has become an essential component of the e-commerce search. Existing query intent classification models either design more exquisite models to enhance the representation learning of queries or explore label-graph and multi-task to facilitate models to learn external information. However, these models cannot capture multi-granularity matching features from queries and categories, which makes them hard to mitigate the gap in the expression between informal queries and categories.  This paper proposes a Multi-granularity Matching Attention Network (MMAN), which contains three modules: a self-matching module, a char-level matching module, and a semantic-level matching module to comprehensively extract features from the query and a query-category interaction matrix. In this way, the model can eliminate the difference in expression between queries and categories for query intent classification. We conduc
+    An abundance of information about cancer exists online, but categorizing and extracting useful information from it is difficult. Almost all research within healthcare data processing is concerned with formal clinical data, but there is valuable information in non-clinical data too. The present study combines methods within distributed computing, text retrieval, clustering, and classification into a coherent and computationally efficient system, that can clarify cancer patient trajectories based on non-clinical and freely available information. We produce a fully-functional prototype that can retrieve, cluster and present information about cancer trajectories from non-clinical forum posts. We evaluate three clustering algorithms (MR-DBSCAN, DBSCAN, and HDBSCAN) and compare them in terms of Adjusted Rand Index and total run time as a function of the number of posts retrieved and the neighborhood radius. Clustering results show that neighborhood radius has the most significant impact on c
     
-[^6]: 计算机科学方法在前列腺癌遗传学中的应用
+[^4]: 基于对话的视频检索
+
+    Dialogue-to-Video Retrieval. (arXiv:2303.16761v1 [cs.IR])
+
+    [http://arxiv.org/abs/2303.16761](http://arxiv.org/abs/2303.16761)
+
+    本研究提出了一种基于对话的视频检索系统，使用对话作为搜索描述符，有效地提高了视频检索的准确性。
+
+    
+
+    近年来，在社交媒体等网络平台上，人们进行着越来越多的对话。这启发了基于对话的检索的发展，其中基于对话的视频检索对于推荐系统具有越来越大的兴趣。不同于其他视频检索任务，对话到视频检索使用以用户生成的对话为搜索描述符的结构化查询。本文提出了一个新颖的基于对话的视频检索系统，融合了结构化的对话信息。在AVSD数据集上进行的实验表明，我们提出的使用纯文本查询的方法在R@1上比以前的模型提高了15.8%。此外，我们使用对话作为查询的方法，在R@1、R@5和R@10上分别提高了4.2%、6.2%和8.6%，在R@1、R@5和R@10上分别比基准模型提高了0.7%、3.6%和6.0%。
+
+    Recent years have witnessed an increasing amount of dialogue/conversation on the web especially on social media. That inspires the development of dialogue-based retrieval, in which retrieving videos based on dialogue is of increasing interest for recommendation systems. Different from other video retrieval tasks, dialogue-to-video retrieval uses structured queries in the form of user-generated dialogue as the search descriptor. We present a novel dialogue-to-video retrieval system, incorporating structured conversational information. Experiments conducted on the AVSD dataset show that our proposed approach using plain-text queries improves over the previous counterpart model by 15.8% on R@1. Furthermore, our approach using dialogue as a query, improves retrieval performance by 4.2%, 6.2%, 8.6% on R@1, R@5 and R@10 and outperforms the state-of-the-art model by 0.7%, 3.6% and 6.0% on R@1, R@5 and R@10 respectively.
+    
+[^5]: 探究名人对公众态度影响的研究：基于社交媒体情感分析的 COVID-19 研究
+
+    Exploring celebrity influence on public attitude towards the COVID-19 pandemic: social media shared sentiment analysis. (arXiv:2303.16759v1 [cs.CL])
+
+    [http://arxiv.org/abs/2303.16759](http://arxiv.org/abs/2303.16759)
+
+    本文研究了公众人物在社交媒体上共享的信息对 COVID-19 疫情中的公众情感和大众意见的影响。通过收集和分析推文，发现公众人物的信息对公众情感和大众意见具有显著的影响。
+
+    
+
+    COVID-19 疫情为健康沟通带来了新机遇，增加了公众使用在线渠道获取与健康相关情绪的机会。人们已经转向社交媒体网络分享与 COVID-19 疫情影响相关的情感。本文研究了公众人物（即运动员、政治家、新闻工作者）共享的社交信息在决定整体公共话语方向中的作用。我们从 2020 年 1 月 1 日到 2022 年 3 月 1 日收集了约 1300 万条推特。使用一个经过调优的 DistilRoBERTa 模型计算了每条推文的情绪，该模型用于比较与公众人物提及同时出现的 COVID-19 疫苗相关推特发布。我们的发现表明，在 COVID-19 疫情的前两年里，与公众人物共享的信息同时出现的情感内容具有一致的模式，影响了公众舆论和大众。
+
+    The COVID-19 pandemic has introduced new opportunities for health communication, including an increase in the public use of online outlets for health-related emotions. People have turned to social media networks to share sentiments related to the impacts of the COVID-19 pandemic. In this paper we examine the role of social messaging shared by Persons in the Public Eye (i.e. athletes, politicians, news personnel) in determining overall public discourse direction. We harvested approximately 13 million tweets ranging from 1 January 2020 to 1 March 2022. The sentiment was calculated for each tweet using a fine-tuned DistilRoBERTa model, which was used to compare COVID-19 vaccine-related Twitter posts (tweets) that co-occurred with mentions of People in the Public Eye. Our findings suggest the presence of consistent patterns of emotional content co-occurring with messaging shared by Persons in the Public Eye for the first two years of the COVID-19 pandemic influenced public opinion and larg
+    
+[^6]: 司法智能助手系统：从离婚案件中提取事件以检测裁判中的争议
+
+    Judicial Intelligent Assistant System: Extracting Events from Divorce Cases to Detect Disputes for the Judge. (arXiv:2303.16751v1 [cs.CL])
+
+    [http://arxiv.org/abs/2303.16751](http://arxiv.org/abs/2303.16751)
+
+    本文提出了一种基于两轮标注事件提取技术的离婚案件争议检测方法，实现了司法智能助手（JIA）系统，以自动从离婚案件材料中提取重点事件，通过识别其中的共指来对事件进行对齐，并检测冲突。
+
+    
+
+    在民事案件的正式程序中，由不同当事人提供的文本资料描述了案件的发展过程。从这些文本材料中提取案件的关键信息并澄清相关当事人的争议焦点是一项困难而必要的任务。本文提出了一种基于两轮标注事件提取技术的离婚案件争议检测方法。我们按照所提出的方法实现了司法智能助手（JIA）系统，以自动从离婚案件材料中提取重点事件，通过识别其中的共指来对事件进行对齐，并检测冲突。
+
+    In formal procedure of civil cases, the textual materials provided by different parties describe the development process of the cases. It is a difficult but necessary task to extract the key information for the cases from these textual materials and to clarify the dispute focus of related parties. Currently, officers read the materials manually and use methods, such as keyword searching and regular matching, to get the target information. These approaches are time-consuming and heavily depending on prior knowledge and carefulness of the officers. To assist the officers to enhance working efficiency and accuracy, we propose an approach to detect disputes from divorce cases based on a two-round-labeling event extracting technique in this paper. We implement the Judicial Intelligent Assistant (JIA) system according to the proposed approach to 1) automatically extract focus events from divorce case materials, 2) align events by identifying co-reference among them, and 3) detect conflicts a
+    
+[^7]: 一种用于审稿人分配问题的黄金标准数据集
+
+    A Gold Standard Dataset for the Reviewer Assignment Problem. (arXiv:2303.16750v1 [cs.IR])
+
+    [http://arxiv.org/abs/2303.16750](http://arxiv.org/abs/2303.16750)
+
+    该论文提出了一个用于审稿人分配问题的新数据集，解决了当前算法难以进行原则比较的问题，并提供了基于此数据集的算法比较结果，为利益相关者在选择算法方面提供了一个基础。
+
+    
+
+    许多同行评审期刊或会议正在使用或试图使用算法将投稿分配给审稿人。这些自动化方法的关键是“相似度分数”，即对审稿人在审查论文中的专业水平的数值估计，已经提出了许多算法来计算这些分数。然而，这些算法尚未经过有原则的比较，这使得利益相关者难以以基于证据的方式选择算法。比较现有算法和开发更好算法的关键挑战是缺乏公开可用的黄金标准数据，这些数据将用于进行可重复研究。我们通过收集一组新的相似度得分数据来解决这个问题，并将其发布给研究社区。我们的数据集由58位研究人员提供的477个自我报告的专业水平分数组成，用于评估他们先前阅读的论文的审查经验。我们使用这些数据来比较各种算法，并对标准数据集的设计提出了建议。
+
+    Many peer-review venues are either using or looking to use algorithms to assign submissions to reviewers. The crux of such automated approaches is the notion of the "similarity score"--a numerical estimate of the expertise of a reviewer in reviewing a paper--and many algorithms have been proposed to compute these scores. However, these algorithms have not been subjected to a principled comparison, making it difficult for stakeholders to choose the algorithm in an evidence-based manner. The key challenge in comparing existing algorithms and developing better algorithms is the lack of the publicly available gold-standard data that would be needed to perform reproducible research. We address this challenge by collecting a novel dataset of similarity scores that we release to the research community. Our dataset consists of 477 self-reported expertise scores provided by 58 researchers who evaluated their expertise in reviewing papers they have read previously.  We use this data to compare s
+    
+[^8]: 基于文本提示学习和双向训练的组成图像检索方法
+
+    Bi-directional Training for Composed Image Retrieval via Text Prompt Learning. (arXiv:2303.16604v1 [cs.CV])
+
+    [http://arxiv.org/abs/2303.16604](http://arxiv.org/abs/2303.16604)
+
+    本文提出了一种基于文本提示学习和双向训练的组成图像检索方法，可以应用于现有的体系结构，并且在修改文本存在噪声或歧义的情况下特别有效。
+
+    
+
+    组成图像检索是根据包含参考图像和描述所需更改的修改文本的多模态用户查询来搜索目标图像的方法。现有的解决这个具有挑战性的任务的方法学习从（参考图像，修改文本）对到图像嵌入的映射，然后将其与大型图像语料库进行匹配。本文提出了一种双向训练方案，利用了这种反向查询，并可应用于现有的组成图像检索体系结构。为了编码双向查询，我们在修改文本前面添加一个可学习的令牌，指定查询的方向，然后微调文本嵌入模块的参数。我们没有对网络架构进行其他更改。在两个标准数据集上的实验表明，双向训练在提高组成图像检索性能方面是有效的，特别是在修改文本存在噪声或歧义的情况下。
+
+    Composed image retrieval searches for a target image based on a multi-modal user query comprised of a reference image and modification text describing the desired changes. Existing approaches to solving this challenging task learn a mapping from the (reference image, modification text)-pair to an image embedding that is then matched against a large image corpus. One area that has not yet been explored is the reverse direction, which asks the question, what reference image when modified as describe by the text would produce the given target image? In this work we propose a bi-directional training scheme that leverages such reversed queries and can be applied to existing composed image retrieval architectures. To encode the bi-directional query we prepend a learnable token to the modification text that designates the direction of the query and then finetune the parameters of the text embedding module. We make no other changes to the network architecture. Experiments on two standard datas
+    
+[^9]: 计算机科学方法在前列腺癌遗传学中的应用
 
     Genetic Analysis of Prostate Cancer with Computer Science Methods. (arXiv:2303.15851v1 [cs.IR])
 
@@ -99,60 +142,32 @@
 
     Metastatic prostate cancer is one of the most common cancers in men. In the advanced stages of prostate cancer, tumours can metastasise to other tissues in the body, which is fatal. In this thesis, we performed a genetic analysis of prostate cancer tumours at different metastatic sites using data science, machine learning and topological network analysis methods. We presented a general procedure for pre-processing gene expression datasets and pre-filtering significant genes by analytical methods. We then used machine learning models for further key gene filtering and secondary site tumour classification. Finally, we performed gene co-expression network analysis and community detection on samples from different prostate cancer secondary site types. In this work, 13 of the 14,379 genes were selected as the most metastatic prostate cancer related genes, achieving approximately 92% accuracy under cross-validation. In addition, we provide preliminary insights into the co-expression patterns
     
-[^7]: 基于级联图卷积网络的多行为推荐
+[^10]: 不需要知道如何聚类：应用和评估
 
-    Multi-Behavior Recommendation with Cascading Graph Convolution Networks. (arXiv:2303.15720v1 [cs.IR])
+    Clustering Without Knowing How To: Application and Evaluation. (arXiv:2209.10267v3 [cs.HC] UPDATED)
 
-    [http://arxiv.org/abs/2303.15720](http://arxiv.org/abs/2303.15720)
+    [http://arxiv.org/abs/2209.10267](http://arxiv.org/abs/2209.10267)
 
-    本文提出了一种基于级联图卷积网络的多行为推荐模型，能够明确地利用行为链中的依赖关系，以缓解推荐系统数据稀疏或冷启动问题。
-
-    
-
-    多行为推荐利用辅助行为（例如点击和加入购物车）来帮助预测用户在目标行为（例如购买）上的潜在交互，被认为是缓解推荐系统数据稀疏或冷启动问题的有效方法。在现实应用中，多个行为通常按特定顺序进行（例如点击>加入购物车>购买）。在行为链中，后续行为通常比前面的行为展现出更强的用户偏好信号。现有的多行为模型大多未能抓住此类行为链中的依赖关系。为此，本文提出了一种基于级联图卷积网络的新型多行为推荐模型（称为MB-CGCN）。在MB-CGCN中，经过特征变换操作后，从一个行为学习到的嵌入被用作下一个行为嵌入学习的输入特征。这样，我们的模型明确地利用了嵌入学习中的行为依赖性。
-
-    Multi-behavior recommendation, which exploits auxiliary behaviors (e.g., click and cart) to help predict users' potential interactions on the target behavior (e.g., buy), is regarded as an effective way to alleviate the data sparsity or cold-start issues in recommendation. Multi-behaviors are often taken in certain orders in real-world applications (e.g., click>cart>buy). In a behavior chain, a latter behavior usually exhibits a stronger signal of user preference than the former one does. Most existing multi-behavior models fail to capture such dependencies in a behavior chain for embedding learning. In this work, we propose a novel multi-behavior recommendation model with cascading graph convolution networks (named MB-CGCN). In MB-CGCN, the embeddings learned from one behavior are used as the input features for the next behavior's embedding learning after a feature transformation operation. In this way, our model explicitly utilizes the behavior dependencies in embedding learning. Exp
-    
-[^8]: 高效图像搜索的模型级联
-
-    Model Cascades for Efficient Image Search. (arXiv:2303.15595v1 [cs.IR])
-
-    [http://arxiv.org/abs/2303.15595](http://arxiv.org/abs/2303.15595)
-
-    该论文提出了一种新颖的图像排名算法，使用级联的神经编码器来逐步过滤图像，从而减少了3倍以上的TIR生命周期成本。
+    该论文介绍了一个用于图像聚类的众包系统，实验证明只通过众包可以获得有意义的数据聚类，而不需要任何机器学习算法。
 
     
 
-    现代神经编码器提供了前所未有的文本-图像检索（TIR）准确性。然而，它们高昂的计算成本阻碍了它们在大规模图像搜索中的应用。我们提出了一种新的图像排名算法，它使用逐步增强的神经编码器级联逐步按照它们与给定的文本匹配的好坏程度来过滤图像。 我们的算法将TIR的生命周期成本降低了3倍以上。
+    众包允许在大规模工人群体上运行简单的人类智能任务，可以解决难以制定算法或在合理时间内训练机器学习模型的问题。其中之一就是按不充分的标准对数据进行聚类，这对人类来说很简单，但对机器来说很困难。在这篇演示论文中，我们构建了一个众包系统用于图像聚类，并在https://github.com/Toloka/crowdclustering 上发布其代码，并供大家免费使用。我们在两个不同的图像数据集上进行了实验，即 Zalando 的 FEIDEGGER裙子和 Toloka 鞋子数据集，确认可以仅通过众包获得有意义的数据聚类，而不需要任何机器学习算法。
 
-    Modern neural encoders offer unprecedented text-image retrieval (TIR) accuracy. However, their high computational cost impedes an adoption to large-scale image searches. We propose a novel image ranking algorithm that uses a cascade of increasingly powerful neural encoders to progressively filter images by how well they match a given text. Our algorithm reduces lifetime TIR costs by over 3x.
+    Crowdsourcing allows running simple human intelligence tasks on a large crowd of workers, enabling solving problems for which it is difficult to formulate an algorithm or train a machine learning model in reasonable time. One of such problems is data clustering by an under-specified criterion that is simple for humans, but difficult for machines. In this demonstration paper, we build a crowdsourced system for image clustering and release its code under a free license at https://github.com/Toloka/crowdclustering. Our experiments on two different image datasets, dresses from Zalando's FEIDEGGER and shoes from the Toloka Shoes Dataset, confirm that one can yield meaningful clusters with no machine learning algorithms purely with crowdsourcing.
     
-[^9]: GETT-QA：基于图嵌入的知识图谱问答中的T2T Transformer
+[^11]: 深度推荐系统中的协作检索器和排名器
 
-    GETT-QA: Graph Embedding based T2T Transformer for Knowledge Graph Question Answering. (arXiv:2303.13284v1 [cs.CL])
+    Cooperative Retriever and Ranker in Deep Recommenders. (arXiv:2206.14649v2 [cs.IR] UPDATED)
 
-    [http://arxiv.org/abs/2303.13284](http://arxiv.org/abs/2303.13284)
+    [http://arxiv.org/abs/2206.14649](http://arxiv.org/abs/2206.14649)
 
-    本论文提出了GETT-QA系统，该系统使用T5对自然语言问题生成简化的SPARQL查询，并使用截断的KG嵌入提高了知识图谱问答的性能。
-
-    
-
-    本文提出了一个名为GETT-QA的端到端知识图谱问答系统。GETT-QA使用了T5，这是一种热门的文本到文本预训练语言模型。该模型以自然语言形式的问题作为输入并生成所需SPARQL查询的简化形式。在简化形式中，模型不直接生成实体和关系ID，而是产生相应的实体和关系标签。标签在随后的步骤中与KG实体和关系ID联系起来。为了进一步改进结果，我们指导模型为每个实体生成KG嵌入的截断版本。截断的KG嵌入使得更精细的搜索从而更有效进行消歧。我们发现，T5能够在不改变损失函数的情况下学习截断的KG嵌入，提高了KGQA的性能。因此，我们在Wikidata的LC-QuAD 2.0和SimpleQuestions-Wikidata数据集上报告了端到端KGQA的强大结果。
-
-    In this work, we present an end-to-end Knowledge Graph Question Answering (KGQA) system named GETT-QA. GETT-QA uses T5, a popular text-to-text pre-trained language model. The model takes a question in natural language as input and produces a simpler form of the intended SPARQL query. In the simpler form, the model does not directly produce entity and relation IDs. Instead, it produces corresponding entity and relation labels. The labels are grounded to KG entity and relation IDs in a subsequent step. To further improve the results, we instruct the model to produce a truncated version of the KG embedding for each entity. The truncated KG embedding enables a finer search for disambiguation purposes. We find that T5 is able to learn the truncated KG embeddings without any change of loss function, improving KGQA performance. As a result, we report strong results for LC-QuAD 2.0 and SimpleQuestions-Wikidata datasets on end-to-end KGQA over Wikidata.
-    
-[^10]: 优化广义基尼指数实现排名公平性
-
-    Optimizing generalized Gini indices for fairness in rankings. (arXiv:2204.06521v4 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2204.06521](http://arxiv.org/abs/2204.06521)
-
-    本文探讨了使用广义基尼福利函数（GGF）作为规范性准则来指定推荐系统应优化的方法，以此实现排名公平性。
+    本文介绍了深度推荐系统中的检索和排名两阶段工作流程。传统方法中，这两个组件都是独立训练或使用简单的级联管道，效果不佳。最近一些工作提出联合训练检索器和排名器，但仍存在许多限制。因此，还需要探索更有效的协作方法。
 
     
 
-    越来越多的人关注设计能够对物品生产者或最不满意用户公平的推荐系统。受经济学不平等测量领域的启发，本文探讨了使用广义基尼福利函数（GGF）作为规范性准则来指定推荐系统应优化的方法。GGF根据人口普查中的排名对个体进行加权，将更多的权重放在处境较差的个体上以促进平等。根据这些权重，GGF最小化物品曝光的基尼指数，以促进物品之间的平等，或关注最不满意用户的特定分位数的性能。排名的GGF难以优化，因为它们是不可微分的。我们通过利用非平滑优化和可微排序中使用的投影算子来解决这个挑战。我们使用最多有15k个用户和物品的真实数据集进行实验，结果表明我们的方法可以通过优化GGF有效地促进排名公平性。
+    深度推荐系统(DRS)在现代网络服务中被广泛应用。为了处理海量网络内容，DRS采用了两阶段工作流程：检索和排名，以生成其推荐结果。检索器旨在高效地从整个项目中选择一小组相关候选项；而排名器通常更精确但时间消耗更大，应进一步从检索候选项中优化最佳项目。传统上，两个组件要么独立训练，要么在简单的级联管道内训练，这容易产生合作效果差的问题。尽管最近一些工作建议联合训练检索器和排名器，但仍存在许多严重限制：训练和推理中的项分布转移、假阴性和排名顺序不对齐等。因此，探索检索器和排名器之间的有效协作仍然是必要的。
 
-    There is growing interest in designing recommender systems that aim at being fair towards item producers or their least satisfied users. Inspired by the domain of inequality measurement in economics, this paper explores the use of generalized Gini welfare functions (GGFs) as a means to specify the normative criterion that recommender systems should optimize for. GGFs weight individuals depending on their ranks in the population, giving more weight to worse-off individuals to promote equality. Depending on these weights, GGFs minimize the Gini index of item exposure to promote equality between items, or focus on the performance on specific quantiles of least satisfied users. GGFs for ranking are challenging to optimize because they are non-differentiable. We resolve this challenge by leveraging tools from non-smooth optimization and projection operators used in differentiable sorting. We present experiments using real datasets with up to 15k users and items, which show that our approach
+    Deep recommender systems (DRS) are intensively applied in modern web services. To deal with the massive web contents, DRS employs a two-stage workflow: retrieval and ranking, to generate its recommendation results. The retriever aims to select a small set of relevant candidates from the entire items with high efficiency; while the ranker, usually more precise but time-consuming, is supposed to further refine the best items from the retrieved candidates. Traditionally, the two components are trained either independently or within a simple cascading pipeline, which is prone to poor collaboration effect. Though some latest works suggested to train retriever and ranker jointly, there still exist many severe limitations: item distribution shift between training and inference, false negative, and misalignment of ranking order. As such, it remains to explore effective collaborations between retriever and ranker.
     
 

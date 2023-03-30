@@ -1,0 +1,12 @@
+{
+    "title": "Module-based regularization improves Gaussian graphical models when observing noisy data. (arXiv:2303.16796v1 [physics.data-an])",
+    "abstract": "Researchers often represent relations in multi-variate correlational data using Gaussian graphical models, which require regularization to sparsify the models. Acknowledging that they often study the modular structure of the inferred network, we suggest integrating it in the cross-validation of the regularization strength to balance under- and overfitting. Using synthetic and real data, we show that this approach allows us to better recover and infer modular structure in noisy data compared with the graphical lasso, a standard approach using the Gaussian log-likelihood when cross-validating the regularization strength.",
+    "link": "http://arxiv.org/abs/2303.16796",
+    "context": "Title: Module-based regularization improves Gaussian graphical models when observing noisy data. (arXiv:2303.16796v1 [physics.data-an])\nAbstract: Researchers often represent relations in multi-variate correlational data using Gaussian graphical models, which require regularization to sparsify the models. Acknowledging that they often study the modular structure of the inferred network, we suggest integrating it in the cross-validation of the regularization strength to balance under- and overfitting. Using synthetic and real data, we show that this approach allows us to better recover and infer modular structure in noisy data compared with the graphical lasso, a standard approach using the Gaussian log-likelihood when cross-validating the regularization strength.",
+    "path": "papers/23/03/2303.16796.json",
+    "total_tokens": 640,
+    "translated_title": "基于模块化正则化可改善观察含噪数据的高斯图模型",
+    "translated_abstract": "研究人员经常使用高斯图模型表示多变量相关数据中的关系，这些模型需要正则化来稀疏模型。我们建议在正则化强度的交叉验证中，将推断网络的模块化结构整合起来以平衡欠拟合和过拟合。使用合成和真实数据，我们发现与使用高斯对数似然进行交叉验证的标准方法（图形套索法）相比，这种方法可以更好地恢复和推断含噪声数据中的模块化结构。",
+    "tldr": "建议将推断网络的模块化结构整合到正则化强度的交叉验证中，以改善高斯图模型在观察含噪数据时的表现。",
+    "en_tdlr": "Integrating modular structure in the cross-validation of regularization strength improves Gaussian graphical models when observing noisy data."
+}

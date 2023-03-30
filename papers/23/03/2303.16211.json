@@ -1,0 +1,12 @@
+{
+    "title": "Combinatorial Convolutional Neural Networks for Words. (arXiv:2303.16211v1 [cs.LG])",
+    "abstract": "The paper discusses the limitations of deep learning models in identifying and utilizing features that remain invariant under a bijective transformation on the data entries, which we refer to as combinatorial patterns. We argue that the identification of such patterns may be important for certain applications and suggest providing neural networks with information that fully describes the combinatorial patterns of input entries and allows the network to determine what is relevant for prediction. To demonstrate the feasibility of this approach, we present a combinatorial convolutional neural network for word classification.",
+    "link": "http://arxiv.org/abs/2303.16211",
+    "context": "Title: Combinatorial Convolutional Neural Networks for Words. (arXiv:2303.16211v1 [cs.LG])\nAbstract: The paper discusses the limitations of deep learning models in identifying and utilizing features that remain invariant under a bijective transformation on the data entries, which we refer to as combinatorial patterns. We argue that the identification of such patterns may be important for certain applications and suggest providing neural networks with information that fully describes the combinatorial patterns of input entries and allows the network to determine what is relevant for prediction. To demonstrate the feasibility of this approach, we present a combinatorial convolutional neural network for word classification.",
+    "path": "papers/23/03/2303.16211.json",
+    "total_tokens": 650,
+    "translated_title": "用于单词的组合卷积神经网络",
+    "translated_abstract": "本文讨论了深度学习模型在识别和利用数据项上的双射变换下保持不变的特征（我们称其为组合模式）方面的局限性。我们认为在某些应用中识别出这样的模式可能很重要，并建议为神经网络提供充分描述输入项组合模式的信息，让网络确定预测相关内容。为了证明这种方法的可行性，我们提出了一种用于单词分类的组合卷积神经网络。",
+    "tldr": "本文研究了深度学习模型在识别和利用数据项上的双射变换下保持不变的特征方面的局限性，并提出了一种组合卷积神经网络用于单词分类。",
+    "en_tdlr": "This paper discusses the limitations of deep learning models in identifying and utilizing features that remain invariant under a bijective transformation on the data entries, and proposes a combinatorial convolutional neural network for word classification to address this issue."
+}

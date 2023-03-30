@@ -1,0 +1,12 @@
+{
+    "title": "Complexity of Equilibria in First-Price Auctions under General Tie-Breaking Rules. (arXiv:2303.16388v1 [cs.GT])",
+    "abstract": "We study the complexity of finding an approximate (pure) Bayesian Nash equilibrium in a first-price auction with common priors when the tie-breaking rule is part of the input. We show that the problem is PPAD-complete even when the tie-breaking rule is trilateral (i.e., it specifies item allocations when no more than three bidders are in tie, and adopts the uniform tie-breaking rule otherwise). This is the first hardness result for equilibrium computation in first-price auctions with common priors. On the positive side, we give a PTAS for the problem under the uniform tie-breaking rule.",
+    "link": "http://arxiv.org/abs/2303.16388",
+    "context": "Title: Complexity of Equilibria in First-Price Auctions under General Tie-Breaking Rules. (arXiv:2303.16388v1 [cs.GT])\nAbstract: We study the complexity of finding an approximate (pure) Bayesian Nash equilibrium in a first-price auction with common priors when the tie-breaking rule is part of the input. We show that the problem is PPAD-complete even when the tie-breaking rule is trilateral (i.e., it specifies item allocations when no more than three bidders are in tie, and adopts the uniform tie-breaking rule otherwise). This is the first hardness result for equilibrium computation in first-price auctions with common priors. On the positive side, we give a PTAS for the problem under the uniform tie-breaking rule.",
+    "path": "papers/23/03/2303.16388.json",
+    "total_tokens": 789,
+    "translated_title": "一般性平局规则下一价拍卖均衡的复杂度",
+    "translated_abstract": "本研究探讨了一种常见信息分布下一价拍卖中关于贝叶斯纳什均衡的复杂性，考虑了平局规则作为输入的一部分。结果表明即使在三方平局规则（即表示当出现不超过三名竞标人员并列第一时，将物品分配给这些人员，否则采用均匀平局规则）的情况下，该问题的复杂度也是PPAD完全的。这是关于带有平局规则下一价拍卖均衡计算的首个困难结果。在积极方面，我们对于采用均匀平局规则的问题提出了一种部分近似算法。",
+    "tldr": "本研究探讨了一种常见信息分布下一价拍卖中关于贝叶斯纳什均衡的复杂性，发现即使在三方平局规则下，该问题的复杂度都是PPAD完全的。同时提出了在采用均匀平局规则情况下的部分近似算法。",
+    "en_tdlr": "This study investigates the complexity of the pure Bayesian Nash equilibrium in first-price auctions with common priors and under general tie-breaking rules. The PPAD-completeness is proven even for trilateral tie-breaking rules, while a PTAS is proposed for the uniform tie-breaking rule."
+}

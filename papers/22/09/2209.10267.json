@@ -1,0 +1,12 @@
+{
+    "title": "Clustering Without Knowing How To: Application and Evaluation. (arXiv:2209.10267v3 [cs.HC] UPDATED)",
+    "abstract": "Crowdsourcing allows running simple human intelligence tasks on a large crowd of workers, enabling solving problems for which it is difficult to formulate an algorithm or train a machine learning model in reasonable time. One of such problems is data clustering by an under-specified criterion that is simple for humans, but difficult for machines. In this demonstration paper, we build a crowdsourced system for image clustering and release its code under a free license at https://github.com/Toloka/crowdclustering. Our experiments on two different image datasets, dresses from Zalando's FEIDEGGER and shoes from the Toloka Shoes Dataset, confirm that one can yield meaningful clusters with no machine learning algorithms purely with crowdsourcing.",
+    "link": "http://arxiv.org/abs/2209.10267",
+    "context": "Title: Clustering Without Knowing How To: Application and Evaluation. (arXiv:2209.10267v3 [cs.HC] UPDATED)\nAbstract: Crowdsourcing allows running simple human intelligence tasks on a large crowd of workers, enabling solving problems for which it is difficult to formulate an algorithm or train a machine learning model in reasonable time. One of such problems is data clustering by an under-specified criterion that is simple for humans, but difficult for machines. In this demonstration paper, we build a crowdsourced system for image clustering and release its code under a free license at https://github.com/Toloka/crowdclustering. Our experiments on two different image datasets, dresses from Zalando's FEIDEGGER and shoes from the Toloka Shoes Dataset, confirm that one can yield meaningful clusters with no machine learning algorithms purely with crowdsourcing.",
+    "path": "papers/22/09/2209.10267.json",
+    "total_tokens": 746,
+    "translated_title": "不需要知道如何聚类：应用和评估",
+    "translated_abstract": "众包允许在大规模工人群体上运行简单的人类智能任务，可以解决难以制定算法或在合理时间内训练机器学习模型的问题。其中之一就是按不充分的标准对数据进行聚类，这对人类来说很简单，但对机器来说很困难。在这篇演示论文中，我们构建了一个众包系统用于图像聚类，并在https://github.com/Toloka/crowdclustering 上发布其代码，并供大家免费使用。我们在两个不同的图像数据集上进行了实验，即 Zalando 的 FEIDEGGER裙子和 Toloka 鞋子数据集，确认可以仅通过众包获得有意义的数据聚类，而不需要任何机器学习算法。",
+    "tldr": "该论文介绍了一个用于图像聚类的众包系统，实验证明只通过众包可以获得有意义的数据聚类，而不需要任何机器学习算法。",
+    "en_tdlr": "The paper presents a crowdsourced system for image clustering, and the experiments on two different image datasets confirm that meaningful clusters can be obtained without any machine learning algorithms, purely with crowdsourcing."
+}

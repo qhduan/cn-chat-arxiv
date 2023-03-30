@@ -1,0 +1,12 @@
+{
+    "title": "Summarizing Indian Languages using Multilingual Transformers based Models. (arXiv:2303.16657v1 [cs.CL])",
+    "abstract": "With the advent of multilingual models like mBART, mT5, IndicBART etc., summarization in low resource Indian languages is getting a lot of attention now a days. But still the number of datasets is low in number. In this work, we (Team HakunaMatata) study how these multilingual models perform on the datasets which have Indian languages as source and target text while performing summarization. We experimented with IndicBART and mT5 models to perform the experiments and report the ROUGE-1, ROUGE-2, ROUGE-3 and ROUGE-4 scores as a performance metric.",
+    "link": "http://arxiv.org/abs/2303.16657",
+    "context": "Title: Summarizing Indian Languages using Multilingual Transformers based Models. (arXiv:2303.16657v1 [cs.CL])\nAbstract: With the advent of multilingual models like mBART, mT5, IndicBART etc., summarization in low resource Indian languages is getting a lot of attention now a days. But still the number of datasets is low in number. In this work, we (Team HakunaMatata) study how these multilingual models perform on the datasets which have Indian languages as source and target text while performing summarization. We experimented with IndicBART and mT5 models to perform the experiments and report the ROUGE-1, ROUGE-2, ROUGE-3 and ROUGE-4 scores as a performance metric.",
+    "path": "papers/23/03/2303.16657.json",
+    "total_tokens": 667,
+    "translated_title": "使用多语言变形金刚模型总结印度语言",
+    "translated_abstract": "随着类似mBART、mT5、IndicBART等多语言模型的出现，低资源印度语言的总结正受到越来越多的关注。但是现有数据集的数量仍然很少。在本文中，我们( HakunaMatata团队)研究了这些多语言模型在印度语言作为源和目标文本的情况下执行摘要的表现。我们使用IndicBART和mT5模型进行实验，并报告ROUGE-1、ROUGE-2、ROUGE-3和ROUGE-4分数作为性能指标。",
+    "tldr": "本文研究了在印度语言作为源和目标文本的情况下使用多语言变形金刚模型进行摘要的表现，并报告了ROUGE分数。",
+    "en_tdlr": "This paper studies the performance of using multilingual Transformers-based models for summarizing Indian languages with limited datasets, and reports the ROUGE scores as evaluation metrics."
+}

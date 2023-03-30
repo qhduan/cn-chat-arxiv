@@ -1,0 +1,12 @@
+{
+    "title": "Using Semantic Similarity and Text Embedding to Measure the Social Media Echo of Strategic Communications. (arXiv:2303.16694v1 [cs.SI])",
+    "abstract": "Online discourse covers a wide range of topics and many actors tailor their content to impact online discussions through carefully crafted messages and targeted campaigns. Yet the scale and diversity of online media content make it difficult to evaluate the impact of a particular message. In this paper, we present a new technique that leverages semantic similarity to quantify the change in the discussion after a particular message has been published. We use a set of press releases from environmental organisations and tweets from the climate change debate to show that our novel approach reveals a heavy-tailed distribution of response in online discourse to strategic communications.",
+    "link": "http://arxiv.org/abs/2303.16694",
+    "context": "Title: Using Semantic Similarity and Text Embedding to Measure the Social Media Echo of Strategic Communications. (arXiv:2303.16694v1 [cs.SI])\nAbstract: Online discourse covers a wide range of topics and many actors tailor their content to impact online discussions through carefully crafted messages and targeted campaigns. Yet the scale and diversity of online media content make it difficult to evaluate the impact of a particular message. In this paper, we present a new technique that leverages semantic similarity to quantify the change in the discussion after a particular message has been published. We use a set of press releases from environmental organisations and tweets from the climate change debate to show that our novel approach reveals a heavy-tailed distribution of response in online discourse to strategic communications.",
+    "path": "papers/23/03/2303.16694.json",
+    "total_tokens": 731,
+    "translated_title": "使用语义相似性和文本嵌入衡量战略传播的社交媒体回响",
+    "translated_abstract": "在线讨论涉及各种话题，许多参与者通过精心制作的信息和有针对性的活动影响在线讨论。然而，在线媒体内容的规模和多样性使得评估特定信息的影响变得困难。本文提出了一种利用语义相似性定量衡量特定信息发布后讨论变化的新技术。我们使用环境组织的新闻发布和气候变化辩论中的推文，展示了我们的新方法揭示了战略传播的在线讨论响应呈重尾分布的特点。",
+    "tldr": "本文介绍了一种使用语义相似性来衡量特定信息传播后在线讨论变化的新技术，并使用环境新闻发布和气候变化推文来揭示了战略传播的响应呈重尾分布的特征。",
+    "en_tdlr": "This paper presents a new technique that leverages semantic similarity to quantify the change in online discourse after a particular message has been published, and uses press releases from environmental organizations and tweets from the climate change debate to reveal a heavy-tailed distribution of response to strategic communications."
+}

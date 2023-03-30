@@ -1,0 +1,12 @@
+{
+    "title": "A Byzantine-Resilient Aggregation Scheme for Federated Learning via Matrix Autoregression on Client Updates. (arXiv:2303.16668v1 [cs.LG])",
+    "abstract": "In this work, we propose FLANDERS, a novel federated learning (FL) aggregation scheme robust to Byzantine attacks. FLANDERS considers the local model updates sent by clients at each FL round as a matrix-valued time series. Then, it identifies malicious clients as outliers of this time series by comparing actual observations with those estimated by a matrix autoregressive forecasting model. Experiments conducted on several datasets under different FL settings demonstrate that FLANDERS matches the robustness of the most powerful baselines against Byzantine clients. Furthermore, FLANDERS remains highly effective even under extremely severe attack scenarios, as opposed to existing defense strategies.",
+    "link": "http://arxiv.org/abs/2303.16668",
+    "context": "Title: A Byzantine-Resilient Aggregation Scheme for Federated Learning via Matrix Autoregression on Client Updates. (arXiv:2303.16668v1 [cs.LG])\nAbstract: In this work, we propose FLANDERS, a novel federated learning (FL) aggregation scheme robust to Byzantine attacks. FLANDERS considers the local model updates sent by clients at each FL round as a matrix-valued time series. Then, it identifies malicious clients as outliers of this time series by comparing actual observations with those estimated by a matrix autoregressive forecasting model. Experiments conducted on several datasets under different FL settings demonstrate that FLANDERS matches the robustness of the most powerful baselines against Byzantine clients. Furthermore, FLANDERS remains highly effective even under extremely severe attack scenarios, as opposed to existing defense strategies.",
+    "path": "papers/23/03/2303.16668.json",
+    "total_tokens": 771,
+    "translated_title": "基于矩阵自回归的联邦学习拜占庭容错聚合方案",
+    "translated_abstract": "本文提出了FLANDERS，一种新颖的联邦学习（FL）聚合方案，可以抵御拜占庭攻击。FLANDERS将每个FL轮次中由客户端发送的本地模型更新视为矩阵值时间序列。然后，通过将实际观测与由矩阵自回归预测模型估计的观测进行比较，识别恶意客户端作为这个时间序列的异常值。在不同FL设置下对多个数据集进行的实验证明，FLANDERS在抵御拜占庭攻击方面与最强大的基线相匹配。此外，与现有的防御策略相比， FLANDERS即使在极其严重的攻击场景下仍然非常有效。",
+    "tldr": "本文提出了FLANDERS，一种基于矩阵自回归的联邦学习聚合方案，可以识别恶意客户端，并提供了强大的拜占庭攻击防御。",
+    "en_tdlr": "This paper proposes FLANDERS, a federated learning aggregation scheme based on matrix autoregression that can identify malicious clients and provides robust defense against Byzantine attacks."
+}

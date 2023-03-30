@@ -1,0 +1,12 @@
+{
+    "title": "Evaluating NLG systems: A brief introduction. (arXiv:2303.16742v1 [cs.CL])",
+    "abstract": "This year the International Conference on Natural Language Generation (INLG) will feature an award for the paper with the best evaluation. The purpose of this award is to provide an incentive for NLG researchers to pay more attention to the way they assess the output of their systems. This essay provides a short introduction to evaluation in NLG, explaining key terms and distinctions.",
+    "link": "http://arxiv.org/abs/2303.16742",
+    "context": "Title: Evaluating NLG systems: A brief introduction. (arXiv:2303.16742v1 [cs.CL])\nAbstract: This year the International Conference on Natural Language Generation (INLG) will feature an award for the paper with the best evaluation. The purpose of this award is to provide an incentive for NLG researchers to pay more attention to the way they assess the output of their systems. This essay provides a short introduction to evaluation in NLG, explaining key terms and distinctions.",
+    "path": "papers/23/03/2303.16742.json",
+    "total_tokens": 525,
+    "translated_title": "评估自然语言生成系统：简介",
+    "translated_abstract": "今年，国际自然语言生成会议（INLG）将评选评估最佳论文奖项。该奖项的目的是为了激励NLG研究者们更加关注如何评估他们系统的输出。本文提供了一个简短的NLG评估导论，解释了关键术语和区别。",
+    "tldr": "本文介绍了自然语言生成中评估的关键术语和区别，并阐述了INLG评估最佳论文奖设立的意义。",
+    "en_tdlr": "This essay provides an introduction to key terms and distinctions in NLG evaluation, and explains the significance of the INLG award for the best evaluation paper."
+}

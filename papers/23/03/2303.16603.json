@@ -1,0 +1,12 @@
+{
+    "title": "Federated Learning in MIMO Satellite Broadcast System. (arXiv:2303.16603v1 [eess.SP])",
+    "abstract": "Federated learning (FL) is a type of distributed machine learning at the wireless edge that preserves the privacy of clients' data from adversaries and even the central server. Existing federated learning approaches either use (i) secure multiparty computation (SMC) which is vulnerable to inference or (ii) differential privacy which may decrease the test accuracy given a large number of parties with relatively small amounts of data each. To tackle the problem with the existing methods in the literature, In this paper, we introduce incorporate federated learning in the inner-working of MIMO systems.",
+    "link": "http://arxiv.org/abs/2303.16603",
+    "context": "Title: Federated Learning in MIMO Satellite Broadcast System. (arXiv:2303.16603v1 [eess.SP])\nAbstract: Federated learning (FL) is a type of distributed machine learning at the wireless edge that preserves the privacy of clients' data from adversaries and even the central server. Existing federated learning approaches either use (i) secure multiparty computation (SMC) which is vulnerable to inference or (ii) differential privacy which may decrease the test accuracy given a large number of parties with relatively small amounts of data each. To tackle the problem with the existing methods in the literature, In this paper, we introduce incorporate federated learning in the inner-working of MIMO systems.",
+    "path": "papers/23/03/2303.16603.json",
+    "total_tokens": 693,
+    "translated_title": "多输入多输出卫星广播系统中的联邦学习",
+    "translated_abstract": "联邦学习（FL）是一种分布式机器学习技术，可以在无线边缘保护客户端数据安全，使之免受攻击甚至能够不将数据上传到中央服务器。现有的联邦学习方法要么使用安全多方计算（SMC），但对于推断攻击容易受到威胁；要么采用差分隐私，但对于相对较少数据的大量客户端，可能会降低测试精度。为了解决现有方法面临的问题，本文在多输入多输出系统的内部引入了联邦学习。",
+    "tldr": "本文介绍将联邦学习应用于多输入多输出卫星广播系统，以解决现有联邦学习方法中存在的推断攻击和差分隐私精度降低的问题。",
+    "en_tdlr": "This paper proposes the incorporation of federated learning into the inner-working of MIMO systems to address the problems faced by existing FL methods such as inference attacks and decreased test accuracy in differential privacy with a large number of clients with relatively small amounts of data."
+}

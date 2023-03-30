@@ -1,0 +1,12 @@
+{
+    "title": "Unified analysis of SGD-type methods. (arXiv:2303.16502v1 [math.OC])",
+    "abstract": "This note focuses on a simple approach to the unified analysis of SGD-type methods from (Gorbunov et al., 2020) for strongly convex smooth optimization problems. The similarities in the analyses of different stochastic first-order methods are discussed along with the existing extensions of the framework. The limitations of the analysis and several alternative approaches are mentioned as well.",
+    "link": "http://arxiv.org/abs/2303.16502",
+    "context": "Title: Unified analysis of SGD-type methods. (arXiv:2303.16502v1 [math.OC])\nAbstract: This note focuses on a simple approach to the unified analysis of SGD-type methods from (Gorbunov et al., 2020) for strongly convex smooth optimization problems. The similarities in the analyses of different stochastic first-order methods are discussed along with the existing extensions of the framework. The limitations of the analysis and several alternative approaches are mentioned as well.",
+    "path": "papers/23/03/2303.16502.json",
+    "total_tokens": 501,
+    "translated_title": "SGD类型方法的统一分析",
+    "translated_abstract": "本文着重探讨了从（Gorbunov et al.，2020）对于强凸光滑优化问题中SGD类型方法的统一分析方法。讨论了不同随机一阶方法分析的相似之处以及现有框架的扩展。同时提到了分析的局限性以及几种替代方法。",
+    "tldr": "本文从统一分析的角度探讨了SGD类型方法，在强凸光滑优化问题中具有重要作用。",
+    "en_tdlr": "This paper provides a unified analysis of SGD-type methods, highlighting their significance for strongly convex smooth optimization problems."
+}

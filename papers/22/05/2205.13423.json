@@ -1,0 +1,12 @@
+{
+    "title": "Do price trajectory data increase the efficiency of market impact estimation?. (arXiv:2205.13423v2 [q-fin.TR] UPDATED)",
+    "abstract": "Market impact is an important problem faced by large institutional investor and active market participant. In this paper, we rigorously investigate whether price trajectory data from the metaorder increases the efficiency of estimation, from an asymptotic view of statistical estimation. We show that, for popular market impact models, estimation methods based on partial price trajectory data, especially those containing early trade prices, can outperform established estimation methods (e.g., VWAP-based) asymptotically. We discuss theoretical and empirical implications of such phenomenon, and how they could be readily incorporated into practice.",
+    "link": "http://arxiv.org/abs/2205.13423",
+    "context": "Title: Do price trajectory data increase the efficiency of market impact estimation?. (arXiv:2205.13423v2 [q-fin.TR] UPDATED)\nAbstract: Market impact is an important problem faced by large institutional investor and active market participant. In this paper, we rigorously investigate whether price trajectory data from the metaorder increases the efficiency of estimation, from an asymptotic view of statistical estimation. We show that, for popular market impact models, estimation methods based on partial price trajectory data, especially those containing early trade prices, can outperform established estimation methods (e.g., VWAP-based) asymptotically. We discuss theoretical and empirical implications of such phenomenon, and how they could be readily incorporated into practice.",
+    "path": "papers/22/05/2205.13423.json",
+    "total_tokens": 696,
+    "translated_title": "价格轨迹数据是否能提高市场影响估计的效率？",
+    "translated_abstract": "市场影响是大型机构投资者和积极的市场参与者面临的一个重要问题。本文从统计估计的渐近视角，严格探讨了来自元订单的价格轨迹数据是否能提高估计的效率。我们展示了对于流行的市场影响模型，基于部分价格轨迹数据的估计方法，特别是包含早期交易价格的方法，可以在渐近意义下优于已建立的估计方法（例如以VWAP为基础的方法）。我们讨论了这种现象的理论和实证影响，以及如何将其轻松地应用到实践中。",
+    "tldr": "本文研究了是否可以利用来自元订单的部分价格轨迹数据提高市场影响估计的效率，结果发现这种方法在流行的市场影响模型中效果更好。",
+    "en_tdlr": "This paper investigates whether using partial price trajectory data from the metaorder can increase the efficiency of market impact estimation, and finds that this method outperforms established estimation methods for popular market impact models."
+}

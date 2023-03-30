@@ -1,0 +1,12 @@
+{
+    "title": "Thistle: A Vector Database in Rust. (arXiv:2303.16780v1 [cs.IR])",
+    "abstract": "We present Thistle, a fully functional vector database. Thistle is an entry into the domain of latent knowledge use in answering search queries, an ongoing research topic at both start-ups and search engine companies. We implement Thistle with several well-known algorithms, and benchmark results on the MS MARCO dataset. Results help clarify the latent knowledge domain as well as the growing Rust ML ecosystem.",
+    "link": "http://arxiv.org/abs/2303.16780",
+    "context": "Title: Thistle: A Vector Database in Rust. (arXiv:2303.16780v1 [cs.IR])\nAbstract: We present Thistle, a fully functional vector database. Thistle is an entry into the domain of latent knowledge use in answering search queries, an ongoing research topic at both start-ups and search engine companies. We implement Thistle with several well-known algorithms, and benchmark results on the MS MARCO dataset. Results help clarify the latent knowledge domain as well as the growing Rust ML ecosystem.",
+    "path": "papers/23/03/2303.16780.json",
+    "total_tokens": 580,
+    "translated_title": "Thistle: Rust中的向量数据库",
+    "translated_abstract": "我们介绍了Thistle，一个完全功能的向量数据库。Thistle是Latent Knowledge Use在回答搜索查询方面的分支，这是初创公司和搜索引擎公司的持续研究课题。我们使用数个著名算法实现Thistle，并在MS MARCO数据集上进行基准测试。结果有助于澄清潜在知识领域以及不断增长的Rust ML生态系统。",
+    "tldr": "Thistle是一个完全功能的向量数据库，旨在解决回答搜索查询中的潜在知识领域问题，已经在MS MARCO数据集上进行了基准测试，并且有助于推进Rust ML生态系统的发展。",
+    "en_tdlr": "Thistle is a fully functional vector database designed to address latent knowledge domain in answering search queries, benchmarked on MS MARCO dataset, and helps advance the growing Rust ML ecosystem."
+}

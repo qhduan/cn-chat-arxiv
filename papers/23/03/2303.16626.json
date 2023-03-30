@@ -1,0 +1,11 @@
+{
+    "title": "Fairlearn: Assessing and Improving Fairness of AI Systems. (arXiv:2303.16626v1 [cs.LG])",
+    "abstract": "Fairlearn is an open source project to help practitioners assess and improve fairness of artificial intelligence (AI) systems. The associated Python library, also named fairlearn, supports evaluation of a model's output across affected populations and includes several algorithms for mitigating fairness issues. Grounded in the understanding that fairness is a sociotechnical challenge, the project integrates learning resources that aid practitioners in considering a system's broader societal context.",
+    "link": "http://arxiv.org/abs/2303.16626",
+    "context": "Title: Fairlearn: Assessing and Improving Fairness of AI Systems. (arXiv:2303.16626v1 [cs.LG])\nAbstract: Fairlearn is an open source project to help practitioners assess and improve fairness of artificial intelligence (AI) systems. The associated Python library, also named fairlearn, supports evaluation of a model's output across affected populations and includes several algorithms for mitigating fairness issues. Grounded in the understanding that fairness is a sociotechnical challenge, the project integrates learning resources that aid practitioners in considering a system's broader societal context.",
+    "path": "papers/23/03/2303.16626.json",
+    "total_tokens": 667,
+    "translated_title": "Fairlearn: 评估和提升人工智能系统的公平性",
+    "translated_abstract": "Fairlearn是一个开源项目，旨在帮助从业人员评估和提高人工智能（AI）系统的公平性。该相关的Python库，也名为Fairlearn，支持跨受影响的人口评估模型的输出，并包括几种算法以缓解公平性问题。基于公平是一个社会技术挑战的认识，该项目集成了学习资源，以帮助从业人员考虑一个系统的更广泛社会背景。",
+    "tldr": "Fairlearn是一个有助于评估和提高人工智能系统公平性的开源项目，通过可视化地评估受影响人群的模型输出，并提供多种算法来缓解不公平问题，同时还在考虑系统的更广泛社会背景方面提供了学习资源。"
+}

@@ -2,232 +2,247 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Behavioral Machine Learning? Computer Predictions of Corporate Earnings also Overreact.](http://arxiv.org/abs/2303.16158) | 本文研究发现，机器学习算法可以更准确地预测公司盈利，但同样存在过度反应的问题，而传统培训的股市分析师和经过机器学习方法培训的分析师相比会产生较少的过度反应。 |
-| [^2] | [Entropy of financial time series due to the shock of war.](http://arxiv.org/abs/2303.16155) | 本文研究了突发事件对金融时间序列熵的影响，通过波兰股票市场数据表明熵可以量化地捕捉市场变化的定性特征。 |
-| [^3] | [Optimal Cross-Correlation Estimates from Asynchronous Tick-by-Tick Trading Data.](http://arxiv.org/abs/2303.16153) | 该论文提出了一种快速且精度较高的逐笔估算器，可用于计算金融资产逐笔价格数据中变化之间的相关系数。 |
-| [^4] | [Forecasting Large Realized Covariance Matrices: The Benefits of Factor Models and Shrinkage.](http://arxiv.org/abs/2303.16151) | 本论文介绍了一种用因子模型和收缩的方法预测大型实现协方差矩阵的模型。这种方法通过分解回报协方差矩阵并使用向量异质自回归模型进行估计，相对于标准基准提高了预测精度，并导致对最小方差组合的更好估计。 |
-| [^5] | [Explaining Exchange Rate Forecasts with Macroeconomic Fundamentals Using Interpretive Machine Learning.](http://arxiv.org/abs/2303.16149) | 本研究开发了一个基于基本面的模型来预测加拿大美元兑美国美元汇率，利用机器学习方法提高预测准确性，并发现原油作为加拿大主要商品对汇率有重要影响。 |
-| [^6] | [Modelling Determinants of Cryptocurrency Prices: A Bayesian Network Approach.](http://arxiv.org/abs/2303.16148) | 本文使用贝叶斯网络方法，从因果分析的角度研究了影响替代加密货币价格的因素，包括五种主要替代加密货币、传统金融资产和社交媒体，提供了一种解决加密货币价格预测问题的方法。 |
-| [^7] | [Feature Engineering Methods on Multivariate Time-Series Data for Financial Data Science Competitions.](http://arxiv.org/abs/2303.16117) | 针对金融数据科学竞赛，本研究尝试采用多元时间序列特征工程方法，利用美国市场价格数据进行测试，并验证其在Numerai-Signals目标上的预测能力。 |
-| [^8] | [How to handle the COS method for option pricing.](http://arxiv.org/abs/2303.16012) | 介绍了用于欧式期权定价的 Fourier余弦展开 (COS) 方法，通过指定截断范围和项数N进行逼近，文章提出明确的N的上界，对密度平滑并指数衰减的情况，COS方法的收敛阶数至少是指数收敛阶数。 |
-| [^9] | [Mean-variance hybrid portfolio optimization with quantile-based risk measure.](http://arxiv.org/abs/2303.15830) | 本文提出了一种基于分位数风险度量的动态混合组合优化模型，在有利市场状态下分配更高的风险资产和在不利市场状态下分配更少的风险资产来提高投资回报并降低风险。 |
-| [^10] | [Mitigating Decentralized Finance Liquidations with Reversible Call Options.](http://arxiv.org/abs/2303.15162) | 本文提出了可逆认购期权的金融原语，将其运用于去中心化金融的借贷中，设计了Miqado借贷协议，作为清算机制的替代方案，通过鼓励支持者来缓解清算风险。 |
-| [^11] | [Portfolio Optimization with Relative Tail Risk.](http://arxiv.org/abs/2303.12209) | 本文提出了对正常温和稳定市场模型下投资组合CoVaR和CoCVaR的解析形式，将CoCVaR应用于相对投资组合优化，并推导了对CoVaR和CoCVaR的边际贡献的解析形式，最终使用风险分配方法降低了投资组合的CoVaR和CoCVaR。 |
-| [^12] | [Decentralized Exchanges: The Profitability Frontier of Constant Product Market Makers.](http://arxiv.org/abs/2302.05219) | 本文分析了常量产品市场制造商，提出了盈利前沿的概念，并从 Uniswap V2 交易数据集出发，研究了铸造和销毁费用对流动性提供盈利的影响。 |
-| [^13] | [Endogenous Labour Flow Networks.](http://arxiv.org/abs/2301.07979) | 本文提出一种新型模型，从代理层面出发形成劳动力流动网络(LFNs)，消除了历史路径假设。该模型使用英国的微观数据为基础，生成了具有高精度的实证LFNs。 |
-| [^14] | [Fat Tails and Optimal Liability Driven Portfolios.](http://arxiv.org/abs/2201.10846) | 研究了一系列重尾风险度量下的最优负责任驱动投资组合，提出了一种比条件风险价值更加敏感的新的极值风险度量，即“极端偏差”(XD)，最优组合将优化每单位的XD回报。 |
-| [^15] | [Revealed preference characterization of marital stability under mutual consent divorce.](http://arxiv.org/abs/2110.10781) | 该论文提出了一个基于揭示性偏好的婚姻稳定性刻画，明确考虑了调节婚姻解散的离婚法律下的互意离婚，为了评估该刻画在确定家庭内消费方面的潜力，还进行了模拟实验。 |
+| [^1] | [Peer Prediction for Peer Review: Designing a Marketplace for Ideas.](http://arxiv.org/abs/2303.16855) | 本文提出了一个平台，利用同行预测算法奖励评审人员，旨在改善早期研究的同行评审，解决研究问题与出版偏见之间的不匹配问题。 |
+| [^2] | [The inverse Black-Scholes problem in Radon measures space revisited: towards a new measure of market uncertainty.](http://arxiv.org/abs/2303.16773) | 本文重新审视了反向Black-Scholes模型，提出了一种新的市场不确定性测度。 |
+| [^3] | [Power sector effects of alternative options for electrifying heavy-duty vehicles: go electric, and charge smartly.](http://arxiv.org/abs/2303.16629) | 研究了电动公路系统和电池电动车的替代方案对于电力部门的影响，发现可灵活充电的车辆共享BEV的电力部门成本最低，而使用电力燃料的重型车辆的成本最高。 |
+| [^4] | [A general equilibrium model for multi-passenger ridesharing systems with stable matching.](http://arxiv.org/abs/2303.16595) | 本文提出了一个通用均衡模型以解决多乘客拼车系统的问题，并提出了一个序列-树算法用于求解问题。 |
+| [^5] | [Quantum Deep Hedging.](http://arxiv.org/abs/2303.16585) | 本论文针对对冲问题提出了基于量子神经网络的深度强化学习方法，相比于其他经典或量子的标准方法，其分布式方法可以获得更高的性能。 |
+| [^6] | [Futures Quantitative Investment with Heterogeneous Continual Graph Neural Network.](http://arxiv.org/abs/2303.16532) | 为了预测期货价格趋势，本文提出了一种基于异构任务设计和连续训练的时空图神经网络模型，可以捕捉长期和短期特征。 |
+| [^7] | [Dark Matter in (Volatility and) Equity Option Risk Premiums.](http://arxiv.org/abs/2303.16371) | 本文研究了股票期权风险溢价中的未跨跨度风险，证明了这种风险与负风险溢价一致，并在实证分析中发现了期权风险溢价的“暗物质”。 |
+| [^8] | [Oracle Counterpoint: Relationships between On-chain and Off-chain Market Data.](http://arxiv.org/abs/2303.16331) | 本文研究了On-chain市场活动和Off-chain数字货币市场定价之间的关系，探索使用On-chain数据恢复Off-chain定价信息的程度，并发现局限的On-chain数据也能代理alpha价值。 |
+| [^9] | [A multifractional option pricing formula.](http://arxiv.org/abs/2303.16314) | 本文介绍了一种通过多分数布朗运动模拟价格波动的方法，并且通过多分数Ito微积分推导出相关的转移密度函数和欧式看涨期权定价公式。实验表现表明多分数Black-Scholes模型优于分数和标准对应物。 |
+| [^10] | [Reinforcement learning for optimization of energy trading strategy.](http://arxiv.org/abs/2303.16266) | 本文使用强化学习算法优化了一种黑盒交易策略，该策略通过在马尔可夫决策过程中使用真实数据进行优化，在 DA 能源市场上由中型生产者自动进行交易。 |
+| [^11] | [FuNVol: A Multi-Asset Implied Volatility Market Simulator using Functional Principal Components and Neural SDEs.](http://arxiv.org/abs/2303.00859) | FuNVol是一个多资产隐含波动率市场模拟器，使用函数主成分和神经SDE生成真实历史价格的IV表面序列，并在无静态套利的表面次流形内产生一致的市场情景。同时，使用模拟表面进行对冲可以生成与实现P＆L一致的损益分布。 |
+| [^12] | [Motif-aware temporal GCN for fraud detection in signed cryptocurrency trust networks.](http://arxiv.org/abs/2211.13123) | 本文提出了一种基于图卷积网络和平衡理论的加密货币信任网络欺诈检测方法，并使用模式矩阵捕捉局部拓扑信息。实验结果表明，该方法在真实数据和合成数据集上均优于现有方法。 |
+| [^13] | [Genuine multifractality in time series is due to temporal correlations.](http://arxiv.org/abs/2211.00728) | 本论文表明，时间序列的真正多重分形性仅可能来自长程时间相关性，而波动的更宽的分布尾部仅在存在这样的相关性时才能扩展奇异性谱的宽度。 |
+| [^14] | [Identifying Dominant Industrial Sectors in Market States of the S&P 500 Financial Data.](http://arxiv.org/abs/2208.14106) | 本研究使用聚类算法识别了S&P 500股票市场的部门相关矩阵动态变化的不同状态，并通过XAI方法和贝叶斯变点分析确定了每个状态中占主导地位的产业部门，结果发现少数产业部门主导了每个状态的相关矩阵，尤其是能源部门表现出了独特的特征。 |
+| [^15] | [Do price trajectory data increase the efficiency of market impact estimation?.](http://arxiv.org/abs/2205.13423) | 本文研究了是否可以利用来自元订单的部分价格轨迹数据提高市场影响估计的效率，结果发现这种方法在流行的市场影响模型中效果更好。 |
+| [^16] | [Cyber Loss Model Risk Translates to Premium Mispricing and Risk Sensitivity.](http://arxiv.org/abs/2202.10588) | 本文研究了模型风险和风险敏感性对网络风险的保险定价和风险评估的影响，并开发了一种针对重尾损失模型的健壮估算器以及对联合损失模型和保险组合多样性的健壮依赖分析工具。 |
 
 # 详细
 
-[^1]: 机器学习准确预测财报，但同样存在过度反应
+[^1]: 同行评审的同行预测：设计一个想法市场
 
-    Behavioral Machine Learning? Computer Predictions of Corporate Earnings also Overreact. (arXiv:2303.16158v1 [q-fin.ST])
+    Peer Prediction for Peer Review: Designing a Marketplace for Ideas. (arXiv:2303.16855v1 [cs.DL])
 
-    [http://arxiv.org/abs/2303.16158](http://arxiv.org/abs/2303.16158)
+    [http://arxiv.org/abs/2303.16855](http://arxiv.org/abs/2303.16855)
 
-    本文研究发现，机器学习算法可以更准确地预测公司盈利，但同样存在过度反应的问题，而传统培训的股市分析师和经过机器学习方法培训的分析师相比会产生较少的过度反应。
-
-    
-
-    大量证据表明，在金融领域中，机器学习算法的预测能力比人类更为准确。但是，文献并未测试算法预测是否更为理性。本文研究了几个算法（包括线性回归和一种名为Gradient Boosted Regression Trees的流行算法）对于公司盈利的预测结果。结果发现，GBRT平均胜过线性回归和人类股市分析师，但仍存在过度反应且无法满足理性预期标准。通过降低学习率，可最小程度上减少过度反应程度，但这会牺牲预测准确性。通过机器学习方法培训过的股市分析师比传统训练的分析师产生的过度反应较少。此外，股市分析师的预测反映出机器算法没有捕捉到的信息。
-
-    There is considerable evidence that machine learning algorithms have better predictive abilities than humans in various financial settings. But, the literature has not tested whether these algorithmic predictions are more rational than human predictions. We study the predictions of corporate earnings from several algorithms, notably linear regressions and a popular algorithm called Gradient Boosted Regression Trees (GBRT). On average, GBRT outperformed both linear regressions and human stock analysts, but it still overreacted to news and did not satisfy rational expectation as normally defined. By reducing the learning rate, the magnitude of overreaction can be minimized, but it comes with the cost of poorer out-of-sample prediction accuracy. Human stock analysts who have been trained in machine learning methods overreact less than traditionally trained analysts. Additionally, stock analyst predictions reflect information not otherwise available to machine algorithms.
-    
-[^2]: 战争冲击对金融时间序列熵的影响
-
-    Entropy of financial time series due to the shock of war. (arXiv:2303.16155v1 [q-fin.ST])
-
-    [http://arxiv.org/abs/2303.16155](http://arxiv.org/abs/2303.16155)
-
-    本文研究了突发事件对金融时间序列熵的影响，通过波兰股票市场数据表明熵可以量化地捕捉市场变化的定性特征。
+    本文提出了一个平台，利用同行预测算法奖励评审人员，旨在改善早期研究的同行评审，解决研究问题与出版偏见之间的不匹配问题。
 
     
 
-    熵的概念不仅仅与统计力学有关，而且在时间序列分析中也可以起到关键作用，特别是股票市场数据。在这个领域中，突发事件尤其引人关注，因为它们描述了可能会产生长期影响的突然数据变化。本文旨在研究这些事件对金融时间序列熵的影响。以波兰股票市场为案例研究，考虑其主要累积指数在2022年俄罗斯入侵乌克兰的爆发前后的有限时间段内的数据。通过分析，我们可以验证以熵为基础的方法在评估市场变化时受到极端外部因素的影响。我们表明，市场变化的定性特征可以量化地用熵来捕捉。此外，影响的大小也在各种时间段内进行了分析。
+    本文描述了一个潜在的平台，旨在促进早期研究的学术同行评审。该平台旨在通过基于同行预测算法对评审人员进行奖励，使同行评审更加准确和及时。该算法使用对众包进行的Peer Truth Serum的变体（Radanovic等人，2016），其中人类评分者与机器学习基准竞争。我们解释了我们的方法如何解决科学中的两个大的低效问题：研究问题与出版偏见之间的不匹配。更好的早期研究同行评审为分享研究成果创造了额外的激励，简化了将想法匹配到团队，并使负面结果和p-hacking更加明显。
 
-    The concept of entropy is not uniquely relevant to the statistical mechanics but among others it can play pivotal role in the analysis of a time series, particularly the stock market data. In this area sudden events are especially interesting as they describe abrupt data changes which may have long-lasting effects. Here, we investigate the impact of such events on the entropy of financial time series. As a case study we assume data of polish stock market in the context of its main cumulative index. This index is discussed for the finite time periods before and after outbreak of the 2022 Russian invasion of Ukraine, acting as the sudden event. The analysis allows us to validate the entropy-based methodology in assessing market changes as driven by the extreme external factors. We show that qualitative features of market changes can be captured quantitatively in terms of the entropy. In addition to that, the magnitude of the impact is analysed over various time periods in terms of the in
+    The paper describes a potential platform to facilitate academic peer review with emphasis on early-stage research. This platform aims to make peer review more accurate and timely by rewarding reviewers on the basis of peer prediction algorithms. The algorithm uses a variation of Peer Truth Serum for Crowdsourcing (Radanovic et al., 2016) with human raters competing against a machine learning benchmark. We explain how our approach addresses two large productive inefficiencies in science: mismatch between research questions and publication bias. Better peer review for early research creates additional incentives for sharing it, which simplifies matching ideas to teams and makes negative results and p-hacking more visible.
     
-[^3]: 异步逐笔交易数据的最优交叉相关估计
+[^2]: Radon测度空间中的反向Black-Scholes问题再探讨：迈向一种新的市场不确定性测度。
 
-    Optimal Cross-Correlation Estimates from Asynchronous Tick-by-Tick Trading Data. (arXiv:2303.16153v1 [q-fin.ST])
+    The inverse Black-Scholes problem in Radon measures space revisited: towards a new measure of market uncertainty. (arXiv:2303.16773v1 [q-fin.MF])
 
-    [http://arxiv.org/abs/2303.16153](http://arxiv.org/abs/2303.16153)
+    [http://arxiv.org/abs/2303.16773](http://arxiv.org/abs/2303.16773)
 
-    该论文提出了一种快速且精度较高的逐笔估算器，可用于计算金融资产逐笔价格数据中变化之间的相关系数。
-
-    
-
-    在给定两个异步采样的时间序列A和B，分别在不同的时间{t_A_i}和{t_B_j} 上，如何最好地估计A和B的变化之间的相关系数ρ？我们推导了一种自然的最小方差估计器，不使用任何插值或分组，然后从中推导出一种快速（线性时间）的估计器，它可以证明几乎和最佳方法一样好。将这种“快速逐笔估算法”与通常的插值变化到常规网格的方法进行了模拟比较。即使优化了网格间距以适应特定参数（在实践中不经常发生），快速逐笔估算器的估计误差通常更小，而且经常小得多。这些结果直接适用于金融资产的逐笔价格数据。
-
-    Given two time series, A and B, sampled asynchronously at different times {t_A_i} and {t_B_j}, termed "ticks", how can one best estimate the correlation coefficient \rho between changes in A and B? We derive a natural, minimum-variance estimator that does not use any interpolation or binning, then derive from it a fast (linear time) estimator that is demonstrably nearly as good. This "fast tickwise estimator" is compared in simulation to the usual method of interpolating changes to a regular grid. Even when the grid spacing is optimized for the particular parameters (not often possible in practice), the fast tickwise estimator has generally smaller estimation errors, often by a large factor. These results are directly applicable to tick-by-tick price data of financial assets.
-    
-[^4]: 预测大型实现协方差矩阵:因子模型和收缩的好处。
-
-    Forecasting Large Realized Covariance Matrices: The Benefits of Factor Models and Shrinkage. (arXiv:2303.16151v1 [q-fin.ST])
-
-    [http://arxiv.org/abs/2303.16151](http://arxiv.org/abs/2303.16151)
-
-    本论文介绍了一种用因子模型和收缩的方法预测大型实现协方差矩阵的模型。这种方法通过分解回报协方差矩阵并使用向量异质自回归模型进行估计，相对于标准基准提高了预测精度，并导致对最小方差组合的更好估计。
+    本文重新审视了反向Black-Scholes模型，提出了一种新的市场不确定性测度。
 
     
 
-    我们提出了一种模型来预测收益的大型实现协方差矩阵，并对S&P 500的成分股进行了应用。为了解决维数灾难，我们使用标准企业级别因子（如大小、价值和盈利能力）分解回报协方差矩阵，并在残差协方差矩阵中使用部门限制。然后，使用最小绝对收缩和选择运算符（LASSO）的向量异质自回归（VHAR）模型对该限制模型进行估计。相对于标准基准，我们的方法提高了预测精度，并导致对最小方差组合的更好估计。
+    本文重访了反向Black-Scholes模型，以一种更严格的方式证明了解的存在性，并使用基于有限元方法的不同方法进行了实证研究。该文章导出了期权市场的不确定性测度。
 
-    We propose a model to forecast large realized covariance matrices of returns, applying it to the constituents of the S\&P 500 daily. To address the curse of dimensionality, we decompose the return covariance matrix using standard firm-level factors (e.g., size, value, and profitability) and use sectoral restrictions in the residual covariance matrix. This restricted model is then estimated using vector heterogeneous autoregressive (VHAR) models with the least absolute shrinkage and selection operator (LASSO). Our methodology improves forecasting precision relative to standard benchmarks and leads to better estimates of minimum variance portfolios.
+    In this paper, we revisit the inverse Black-Scholes model, the existence of the solution is proved in more rigorous way, and the empirical study is done using different approach based on finite element method. The article leads to a measure of incertitude in the option market.
     
-[^5]: 用机器学习解释宏观经济基本面对汇率预测的影响
+[^3]: 重型车辆电气化的替代方案的电力部门影响:电气化和智能充电
 
-    Explaining Exchange Rate Forecasts with Macroeconomic Fundamentals Using Interpretive Machine Learning. (arXiv:2303.16149v1 [q-fin.ST])
+    Power sector effects of alternative options for electrifying heavy-duty vehicles: go electric, and charge smartly. (arXiv:2303.16629v1 [econ.GN])
 
-    [http://arxiv.org/abs/2303.16149](http://arxiv.org/abs/2303.16149)
+    [http://arxiv.org/abs/2303.16629](http://arxiv.org/abs/2303.16629)
 
-    本研究开发了一个基于基本面的模型来预测加拿大美元兑美国美元汇率，利用机器学习方法提高预测准确性，并发现原油作为加拿大主要商品对汇率有重要影响。
-
-    
-
-    金融和经济系统的复杂性和歧义性，以及经济环境的频繁变化，使得难以进行准确的预测，并得到受理论支持的解释。解释用于预测重要宏观经济指标的预测模型对于理解不同因素之间的关系、增强对预测模型的信任度以及使预测更具操作性具有高度的价值。在本研究中，我们开发了一个基于基本面的模型来预测加拿大美元兑美国美元汇率并在一个解释性框架内进行了分析。我们提出了一种综合方法，利用机器学习预测汇率，并采用可解释性方法准确分析宏观经济变量之间的关系。此外，我们根据解释的输出实施了消融研究，以提高模型的预测准确性。我们的实证结果表明，原油作为加拿大的主要商品，对汇率有很大的影响。
-
-    The complexity and ambiguity of financial and economic systems, along with frequent changes in the economic environment, have made it difficult to make precise predictions that are supported by theory-consistent explanations. Interpreting the prediction models used for forecasting important macroeconomic indicators is highly valuable for understanding relations among different factors, increasing trust towards the prediction models, and making predictions more actionable. In this study, we develop a fundamental-based model for the Canadian-U.S. dollar exchange rate within an interpretative framework. We propose a comprehensive approach using machine learning to predict the exchange rate and employ interpretability methods to accurately analyze the relationships among macroeconomic variables. Moreover, we implement an ablation study based on the output of the interpretations to improve the predictive accuracy of the models. Our empirical results show that crude oil, as Canada's main com
-    
-[^6]: 加密货币价格因素的建模：一种贝叶斯网络方法
-
-    Modelling Determinants of Cryptocurrency Prices: A Bayesian Network Approach. (arXiv:2303.16148v1 [q-fin.ST])
-
-    [http://arxiv.org/abs/2303.16148](http://arxiv.org/abs/2303.16148)
-
-    本文使用贝叶斯网络方法，从因果分析的角度研究了影响替代加密货币价格的因素，包括五种主要替代加密货币、传统金融资产和社交媒体，提供了一种解决加密货币价格预测问题的方法。
+    研究了电动公路系统和电池电动车的替代方案对于电力部门的影响，发现可灵活充电的车辆共享BEV的电力部门成本最低，而使用电力燃料的重型车辆的成本最高。
 
     
 
-    市场总值和替代比特币的加密货币数量的增长提供了投资机会，同时也增加了预测其价格波动的复杂度。在这个波动性相对较弱的市场中，预测加密货币价格的一个重要挑战是需要确定影响价格的因素。本研究的重点是从因果分析的角度研究影响替代比特币价格的因素，特别地，研究了五个主要的替代加密货币，包括黄金、石油和标准普尔500指数等传统金融资产以及社交媒体之间的相互作用。为了回答这个问题，我们创建了由五个传统金融资产的历史价格数据、社交媒体数据和替代加密货币价格数据构成的因果网络，这些网络用于因果推理和诊断。
+    在乘用车领域，电池电动车(BEV)已成为去碳化交通的最有前途的选择。对于重型车辆(HDV)，技术领域似乎更为开放。除了BEV外，还讨论了用于动态供电的电动公路系统(ERS)，以及使用氢燃料电池或电力燃料的卡车间接电气化。在这里，我们研究了这些替代方案的电力部门影响。我们将基于未来德国高可再生能源份额的情景，应用一个开源的容量扩展模型，利用详细的以路线为基础的卡车交通数据。结果表明，可灵活充电的车辆共享BEV的电力部门成本最低，而使用电力燃料的重型车辆的成本最高。如果BEV和ERS-BEV没有以优化的方式充电，电力部门成本会增加，但仍远低于使用氢或电力燃料的情景。这是相对较小电池、高度灵活的BEV在短途和中途步骤转移和超出道路广泛使用的优势的结果。
 
-    The growth of market capitalisation and the number of altcoins (cryptocurrencies other than Bitcoin) provide investment opportunities and complicate the prediction of their price movements. A significant challenge in this volatile and relatively immature market is the problem of predicting cryptocurrency prices which needs to identify the factors influencing these prices. The focus of this study is to investigate the factors influencing altcoin prices, and these factors have been investigated from a causal analysis perspective using Bayesian networks. In particular, studying the nature of interactions between five leading altcoins, traditional financial assets including gold, oil, and S\&P 500, and social media is the research question. To provide an answer to the question, we create causal networks which are built from the historic price data of five traditional financial assets, social media data, and price data of altcoins. The ensuing networks are used for causal reasoning and diag
+    In the passenger car segment, battery-electric vehicles (BEV) have emerged as the most promising option to decarbonize transportation. For heavy-duty vehicles (HDV), the technology space still appears to be more open. Aside from BEV, electric road systems (ERS) for dynamic power transfer are discussed, as well as indirect electrification with trucks that use hydrogen fuel cells or e-fuels. Here we investigate the power sector implications of these alternative options. We apply an open-source capacity expansion model to future scenarios of Germany with high renewable energy shares, drawing on detailed route-based truck traffic data. Results show that power sector costs are lowest for flexibly charged BEV that also carry out vehicle-to-grid operations, and highest for HDV using e-fuels. If BEV and ERS-BEV are not charged in an optimized way, power sector costs increase, but are still substantially lower than in scenarios with hydrogen or e-fuels. This is a consequence of the relatively p
     
-[^7]: 面向金融数据科学竞赛的多元时间序列数据特征工程方法
+[^4]: 带稳定匹配的多乘客拼车系统的一般均衡模型研究
 
-    Feature Engineering Methods on Multivariate Time-Series Data for Financial Data Science Competitions. (arXiv:2303.16117v1 [q-fin.ST])
+    A general equilibrium model for multi-passenger ridesharing systems with stable matching. (arXiv:2303.16595v1 [econ.GN])
 
-    [http://arxiv.org/abs/2303.16117](http://arxiv.org/abs/2303.16117)
+    [http://arxiv.org/abs/2303.16595](http://arxiv.org/abs/2303.16595)
 
-    针对金融数据科学竞赛，本研究尝试采用多元时间序列特征工程方法，利用美国市场价格数据进行测试，并验证其在Numerai-Signals目标上的预测能力。
-
-    
-
-    我们应用不同的时间序列特征工程方法对美国市场价格数据进行处理，并测试模型在Numerai-Signals目标上的预测能力。
-
-    We apply different feature engineering methods for time-series to US market price data. The predictive power of models are tested against Numerai-Signals targets.
-    
-[^8]: 如何处理用于期权定价的 COS 方法
-
-    How to handle the COS method for option pricing. (arXiv:2303.16012v1 [q-fin.CP])
-
-    [http://arxiv.org/abs/2303.16012](http://arxiv.org/abs/2303.16012)
-
-    介绍了用于欧式期权定价的 Fourier余弦展开 (COS) 方法，通过指定截断范围和项数N进行逼近，文章提出明确的N的上界，对密度平滑并指数衰减的情况，COS方法的收敛阶数至少是指数收敛阶数。
+    本文提出了一个通用均衡模型以解决多乘客拼车系统的问题，并提出了一个序列-树算法用于求解问题。
 
     
 
-    Fourier余弦展开（COS）方法用于高效地计算欧式期权价格。要应用COS方法，必须指定两个参数：对数收益率密度的截断范围和用余弦级数逼近截断密度的项数N。如何选择截断范围已经为人所知。在这里，我们还能找到一个明确的并且有用的项数N的界限。我们还进一步表明，如果密度是平滑的并且呈指数衰减，则COS方法至少具有指数收敛阶数。但是，如果密度平滑但有重尾巴，就像在有限矩阵log稳定模型中一样，则COS方法没有指数收敛阶数。数值实验确认了理论发现。
+    本文提出了一个通用均衡模型，用于捕捉多乘客拼车系统中乘客、司机、平台和交通网络之间的内生性互动。稳定匹配被建模为一个均衡问题，其中没有拼车司机或乘客能够通过单方面切换另一个匹配序列来降低拼车的不满意程度。本文是首批将拼车平台多乘客匹配问题明确融入模型的研究之一。通过将匹配序列与超网络相结合，避免了多乘客拼车系统中的拼车-乘客转移。此外，本论文将拼车司机和乘客之间的匹配稳定性扩展到以匹配序列为基础的多OD多乘客情况。本文提供了所提出一般均衡模型的存在性证明。针对求解多乘客拼车问题，还提出了一个序列-树算法。
 
-    The Fourier cosine expansion (COS) method is used for pricing European options numerically very efficiently. To apply the COS method, one has to specify two parameters: a truncation range for the density of the log-returns and a number of terms N to approximate the truncated density by a cosine series. How to choose the truncation range is already known. Here, we are able to find an explicit and useful bound for N as well. We further show that the COS method has at least an exponential order of convergence if the density is smooth and decays exponentially. But, if the density is smooth and has heavy tails like in the Finite Moment Log Stable model, the COS method has not an exponential order of convergence. Numerical experiments confirm the theoretical findings.
+    This paper proposes a general equilibrium model for multi-passenger ridesharing systems, in which interactions between ridesharing drivers, passengers, platforms, and transportation networks are endogenously captured. Stable matching is modeled as an equilibrium problem in which no ridesharing driver or passenger can reduce ridesharing disutility by unilaterally switching to another matching sequence. This paper is one of the first studies that explicitly integrates the ridesharing platform multi-passenger matching problem into the model. By integrating matching sequence with hyper-network, ridesharing-passenger transfers are avoided in a multi-passenger ridesharing system. Moreover, the matching stability between the ridesharing drivers and passengers is extended to address the multi-OD multi-passenger case in terms of matching sequence. The paper provides a proof for the existence of the proposed general equilibrium. A sequence-bush algorithm is developed for solving the multi-passen
     
-[^9]: 基于分位数风险度量的均值-方差混合组合优化。
+[^5]: 量子深度对冲
 
-    Mean-variance hybrid portfolio optimization with quantile-based risk measure. (arXiv:2303.15830v1 [q-fin.PM])
+    Quantum Deep Hedging. (arXiv:2303.16585v1 [quant-ph])
 
-    [http://arxiv.org/abs/2303.15830](http://arxiv.org/abs/2303.15830)
+    [http://arxiv.org/abs/2303.16585](http://arxiv.org/abs/2303.16585)
 
-    本文提出了一种基于分位数风险度量的动态混合组合优化模型，在有利市场状态下分配更高的风险资产和在不利市场状态下分配更少的风险资产来提高投资回报并降低风险。
-
-    
-
-    本文探讨了在投资组合管理中加入风险度量的重要性，并提出了一种动态混合组合优化模型，该模型将频谱风险度量和价值风险度量结合在均值-方差公式中。通过利用分位数优化技术和鞅表示，我们为这些问题提供了一个解决框架，并在所有市场参数都是确定性的情况下，开发了一个闭式组合策略。相比于基准模型，我们的混合模型通过在有利市场状态下分配更高的风险资产和在不利市场状态下分配更少的风险资产来获得更好的表现。这种优势带来了很有前景的数值实验结果，包括改善了Sortino比率，降低了下行风险。
-
-    This paper addresses the importance of incorporating various risk measures in portfolio management and proposes a dynamic hybrid portfolio optimization model that combines the spectral risk measure and the Value-at-Risk in the mean-variance formulation. By utilizing the quantile optimization technique and martingale representation, we offer a solution framework for these issues and also develop a closed-form portfolio policy when all market parameters are deterministic. Our hybrid model outperforms the classical continuous-time mean-variance portfolio policy by allocating a higher position of the risky asset in favorable market states and a less risky asset in unfavorable market states. This desirable property leads to promising numerical experiment results, including improved Sortino ratio and reduced downside risk compared to the benchmark models.
-    
-[^10]: 用可逆认购期权缓解去中心化金融清算问题
-
-    Mitigating Decentralized Finance Liquidations with Reversible Call Options. (arXiv:2303.15162v1 [q-fin.PR])
-
-    [http://arxiv.org/abs/2303.15162](http://arxiv.org/abs/2303.15162)
-
-    本文提出了可逆认购期权的金融原语，将其运用于去中心化金融的借贷中，设计了Miqado借贷协议，作为清算机制的替代方案，通过鼓励支持者来缓解清算风险。
+    本论文针对对冲问题提出了基于量子神经网络的深度强化学习方法，相比于其他经典或量子的标准方法，其分布式方法可以获得更高的性能。
 
     
 
-    去中心化金融中的清算既是福音也是咒诅——尽管可以防止放贷人的资本损失，但同时也导致清算螺旋和系统性失败。本文介绍了可逆认购期权——一种新的金融原语，使得认购期权的卖方能在到期前终止它。我们将可逆认购期权应用到去中心化金融的借贷中，并设计了Miqado——一个替代清算机制的借贷协议。据我们所知，Miqado是首个积极缓解清算以减少清算螺旋风险的协议。Miqado并不是卖出抵押品，它鼓励外部实体——所谓的支持者，来补充借贷头寸，并为借方提供额外时间。
+    量子机器学习在金融等行业有着潜在变革性的影响。本论文研究对冲问题，深度强化学习提供了实现真实市场的有力框架。我们发展了基于策略搜索和分布式Actor-Critic算法的量子强化学习方法，使用正交和复合层的量子神经网络架构来处理策略和价值函数。我们证明了我们使用的量子神经网络是可训练的，并进行了广泛的模拟，表明量子模型可以减少可训练参数的数量，同时实现可比较的性能，分布式方法得到的性能比标准方法更好，无论是经典的还是量子的。我们成功地将所提出模型实现在一个最多有16个量子比特的离子陷阱量子处理器上，并观察到与无噪声情况下的性能相符。
 
-    Liquidations in DeFi are both a blessing and a curse -- whereas liquidations prevent lenders from capital loss, they simultaneously lead to liquidation spirals and system-wide failures. Since most lending and borrowing protocols assume liquidations are indispensable, there is an increased interest in alternative constructions that prevent immediate systemic-failure under uncertain circumstances.  In this work, we introduce reversible call options, a novel financial primitive that enables the seller of a call option to terminate it before maturity. We apply reversible call options to lending in DeFi and devise Miqado, a protocol for lending platforms to replace the liquidation mechanisms. To the best of our knowledge, Miqado is the first protocol that actively mitigates liquidations to reduce the risk of liquidation spirals. Instead of selling collateral, Miqado incentivizes external entities, so-called supporters, to top-up a borrowing position and grant the borrower additional time to
+    Quantum machine learning has the potential for a transformative impact across industry sectors and in particular in finance. In our work we look at the problem of hedging where deep reinforcement learning offers a powerful framework for real markets. We develop quantum reinforcement learning methods based on policy-search and distributional actor-critic algorithms that use quantum neural network architectures with orthogonal and compound layers for the policy and value functions. We prove that the quantum neural networks we use are trainable, and we perform extensive simulations that show that quantum models can reduce the number of trainable parameters while achieving comparable performance and that the distributional approach obtains better performance than other standard approaches, both classical and quantum. We successfully implement the proposed models on a trapped-ion quantum processor, utilizing circuits with up to $16$ qubits, and observe performance that agrees well with nois
     
-[^11]: 相对尾部风险下的投资组合优化
+[^6]: 异构时空图神经网络在期货量化投资中的应用研究
 
-    Portfolio Optimization with Relative Tail Risk. (arXiv:2303.12209v1 [q-fin.PM])
+    Futures Quantitative Investment with Heterogeneous Continual Graph Neural Network. (arXiv:2303.16532v1 [cs.LG])
 
-    [http://arxiv.org/abs/2303.12209](http://arxiv.org/abs/2303.12209)
+    [http://arxiv.org/abs/2303.16532](http://arxiv.org/abs/2303.16532)
 
-    本文提出了对正常温和稳定市场模型下投资组合CoVaR和CoCVaR的解析形式，将CoCVaR应用于相对投资组合优化，并推导了对CoVaR和CoCVaR的边际贡献的解析形式，最终使用风险分配方法降低了投资组合的CoVaR和CoCVaR。
-
-    
-
-    本文提出了对正常温和稳定市场模型下的投资组合CoVaR和CoCVaR的解析形式。由于CoCVaR捕捉了投资组合相对于基准回报的相对风险，因此我们将其应用于相对投资组合优化。此外，我们还推导出了对CoVaR和CoCVaR的边际贡献的解析形式，讨论了用蒙特卡罗模拟方法计算CoCVaR以及CoVaR和CoCVaR的边际贡献的方法。作为实证研究，我们展示了在道琼斯工业平均指数困境下的30只股票的相对投资组合优化方法。最后，我们使用边际贡献到CoVaR和CoCVaR的方法实施风险分配来降低投资组合的CoVaR和CoCVaR。
-
-    This paper proposes analytic forms of portfolio CoVaR and CoCVaR on the normal tempered stable market model. Since CoCVaR captures the relative risk of the portfolio with respect to a benchmark return, we apply it to the relative portfolio optimization. Moreover, we derive analytic forms for the marginal contribution to CoVaR and the marginal contribution to CoCVaR. We discuss the Monte-Carlo simulation method to calculate CoCVaR and the marginal contributions of CoVaR and CoCVaR. As the empirical illustration, we show relative portfolio optimization with thirty stocks under the distress condition of the Dow Jones Industrial Average. Finally, we perform the risk budgeting method to reduce the CoVaR and CoCVaR of the portfolio based on the marginal contributions to CoVaR and CoCVaR.
-    
-[^12]: 去中心化交易所：常量产品市场制造商的盈利前沿
-
-    Decentralized Exchanges: The Profitability Frontier of Constant Product Market Makers. (arXiv:2302.05219v2 [q-fin.GN] UPDATED)
-
-    [http://arxiv.org/abs/2302.05219](http://arxiv.org/abs/2302.05219)
-
-    本文分析了常量产品市场制造商，提出了盈利前沿的概念，并从 Uniswap V2 交易数据集出发，研究了铸造和销毁费用对流动性提供盈利的影响。
+    为了预测期货价格趋势，本文提出了一种基于异构任务设计和连续训练的时空图神经网络模型，可以捕捉长期和短期特征。
 
     
 
-    本文分析了常量产品市场制造商（CPMM），并形式化了提供流动性的盈利条件，提出了我们称之为xyk空间中的盈利前沿的概念。我们研究了铸造和销毁费用对盈利前沿的影响，考虑了各种池类型，并从所有Uniswap V2交易中编制了一个庞大的数据集。我们利用这些数据进一步研究了我们的理论框架和盈利条件。我们展示了流动性提供的盈利严重受到铸造和销毁事件成本相对于组合规模和交易对特性的影响。
+    传统计量模型预测期货价格趋势是一个具有挑战性的问题，因为需要考虑到期货历史数据以及不同期货之间的关联。时空图神经网络在处理此类空间时间数据方面具有很大的优势。本研究通过设计四个异构任务来捕捉长期和短期特征：价格回归、移动平均价格回归、短时间内的价格差回归和变化点检测。为了充分利用这些标签，我们采用连续训练的方式对模型进行训练。
 
-    In this paper we analyze constant product market makers (CPMMs). We formalize the liquidity providers' profitability conditions and introduce a concept we call the profitability frontier in the xyk-space. We study the effect of mint and burn fees on the profitability frontier, consider various pool types, and compile a large data set from all Uniswap V2 transactions. We use this data to further study our theoretical framework and the profitability conditions. We show how the profitability of liquidity provision is severely affected by the costs of mint and burn events relative to the portfolio size and the characteristics of the trading pair.
+    It is a challenging problem to predict trends of futures prices with traditional econometric models as one needs to consider not only futures' historical data but also correlations among different futures. Spatial-temporal graph neural networks (STGNNs) have great advantages in dealing with such kind of spatial-temporal data. However, we cannot directly apply STGNNs to high-frequency future data because future investors have to consider both the long-term and short-term characteristics when doing decision-making. To capture both the long-term and short-term features, we exploit more label information by designing four heterogeneous tasks: price regression, price moving average regression, price gap regression (within a short interval), and change-point detection, which involve both long-term and short-term scenes. To make full use of these labels, we train our model in a continual manner. Traditional continual GNNs define the gradient of prices as the parameter important to overcome ca
     
-[^13]: 内生化劳动力流动网络
+[^7]: 波动性和股票期权风险溢价中的暗物质
 
-    Endogenous Labour Flow Networks. (arXiv:2301.07979v2 [econ.GN] UPDATED)
+    Dark Matter in (Volatility and) Equity Option Risk Premiums. (arXiv:2303.16371v1 [q-fin.MF])
 
-    [http://arxiv.org/abs/2301.07979](http://arxiv.org/abs/2301.07979)
+    [http://arxiv.org/abs/2303.16371](http://arxiv.org/abs/2303.16371)
 
-    本文提出一种新型模型，从代理层面出发形成劳动力流动网络(LFNs)，消除了历史路径假设。该模型使用英国的微观数据为基础，生成了具有高精度的实证LFNs。
-
-    
-
-    在过去十年中，劳动动力学的研究引入了劳动力流动网络（LFN）来概括工作转移，并开发了数学模型来探索这些网络流的动态性。到目前为止，LFN模型一直依赖于静态网络结构的假设。然而，正如最近的事件（工作场所的自动化增加，COVID-19大流行，对编程技能的需求激增等）所显示的，我们正在经历改变劳动力市场中个人导航方式的重大变革。在这里，我们开发了一种新型模型，从代理层面出发形成LFNs，消除了假定未来工作转移流将沿着它们历史观察到的相同轨迹流动的必要性。该模型以英国的微观数据为基础，生成了具有高精度的实证LFNs。我们使用该模型探索了影响基础的冲击。
-
-    In the last decade, the study of labour dynamics has led to the introduction of labour flow networks (LFNs) as a way to conceptualise job-to-job transitions, and to the development of mathematical models to explore the dynamics of these networked flows. To date, LFN models have relied upon an assumption of static network structure. However, as recent events (increasing automation in the workplace, the COVID-19 pandemic, a surge in the demand for programming skills, etc.) have shown, we are experiencing drastic shifts to the job landscape that are altering the ways individuals navigate the labour market. Here we develop a novel model that emerges LFNs from agent-level behaviour, removing the necessity of assuming that future job-to-job flows will be along the same paths where they have been historically observed. This model, informed by microdata for the United Kingdom, generates empirical LFNs with a high level of accuracy. We use the model to explore how shocks impacting the underlyin
-    
-[^14]: Fat Tails和最优负责任驱动投资组合
-
-    Fat Tails and Optimal Liability Driven Portfolios. (arXiv:2201.10846v3 [q-fin.PM] UPDATED)
-
-    [http://arxiv.org/abs/2201.10846](http://arxiv.org/abs/2201.10846)
-
-    研究了一系列重尾风险度量下的最优负责任驱动投资组合，提出了一种比条件风险价值更加敏感的新的极值风险度量，即“极端偏差”(XD)，最优组合将优化每单位的XD回报。
+    本文研究了股票期权风险溢价中的未跨跨度风险，证明了这种风险与负风险溢价一致，并在实证分析中发现了期权风险溢价的“暗物质”。
 
     
 
-    我们研究了一系列重尾风险度量下的最优负责任驱动投资组合，尤其是在养老基金和保险固定现金流义务配置方面，但也包括在衍生品交易中出现的数据一交易或存在随机波动率的期权交易。在极值极限下，我们得出了一个新的尾部风险度量，即“极端偏差”(XD)，这是一个比条件风险价值更加敏感的极值风险度量。最优组合将优化每单位的XD回报，其中投资比重包括对冲义务贡献和寻求产生正的风险调整回报的风险贡献。所得到的资产分配在多种不同限制条件下进行了质量和数量分析。
+    本文重点研究跨越执行价格和本地时间的跳跃统计学，发展了股票期权风险溢价的分解。在理论处理的基础上，我们赋予定价核心过程未跨跨度的风险，并嵌入了（无跨度的）跳跃风险，并允许股票回报波动率包含未跨足的风险。未跨跨度的风险与跨越执行价格和本地时间的负风险溢价一致，并意味着虚值期权和跨式期权的负风险溢价。来自每周和更长时间的指数期权的经验证据支持我们的经济上相关的未跨跨度风险理论，并揭示了期权风险溢价的“暗物质”。
 
-    We look at optimal liability-driven portfolios in a family of fat-tailed and extremal risk measures, especially in the context of pension fund and insurance fixed cashflow liability profiles, but also those arising in derivatives books such as delta one books or options books in the presence of stochastic volatilities. In the extremal limit, we recover a new tail risk measure, Extreme Deviation (XD), an extremal risk measure significantly more sensitive to extremal returns than CVaR. Resulting optimal portfolios optimize the return per unit of XD, with portfolio weights consisting of a liability hedging contribution, and a risk contribution seeking to generate positive risk-adjusted return. The resulting allocations are analyzed qualitatively and quantitatively in a number of different limits.
+    Emphasizing the statistics of jumps crossing the strike and local time, we develop a decomposition of equity option risk premiums. Operationalizing this theoretical treatment, we equip the pricing kernel process with unspanned risks, embed (unspanned) jump risks, and allow equity return volatility to contain unspanned risks. Unspanned risks are consistent with negative risk premiums for jumps crossing the strike and local time and imply negative risk premiums for out-of-the-money call options and straddles. The empirical evidence from weekly and farther-dated index options is supportive of our theory of economically relevant unspanned risks and reveals ``dark matter" in option risk premiums.
     
-[^15]: 基于揭示性偏好的互意离婚下婚姻稳定性的刻画
+[^8]: Oracle反驳： On-chain和Off-chain市场数据间的关系
 
-    Revealed preference characterization of marital stability under mutual consent divorce. (arXiv:2110.10781v3 [econ.GN] UPDATED)
+    Oracle Counterpoint: Relationships between On-chain and Off-chain Market Data. (arXiv:2303.16331v1 [cs.CR])
 
-    [http://arxiv.org/abs/2110.10781](http://arxiv.org/abs/2110.10781)
+    [http://arxiv.org/abs/2303.16331](http://arxiv.org/abs/2303.16331)
 
-    该论文提出了一个基于揭示性偏好的婚姻稳定性刻画，明确考虑了调节婚姻解散的离婚法律下的互意离婚，为了评估该刻画在确定家庭内消费方面的潜力，还进行了模拟实验。
+    本文研究了On-chain市场活动和Off-chain数字货币市场定价之间的关系，探索使用On-chain数据恢复Off-chain定价信息的程度，并发现局限的On-chain数据也能代理alpha价值。
 
     
 
-    我们提出了一个基于揭示性偏好的婚姻稳定性刻画，明确考虑了调节婚姻解散的离婚法律。我们重点研究了互意离婚，即当事人只有在获得了对方的同意时才能离婚。我们提供理论见解，探讨了该刻画在确定家庭内消费方面的潜力。我们使用从“社会科学的网络化纵向研究”（LISS）小组抽取的家庭数据进行模拟实验，结果支持了我们的理论发现。
+    我们研究了On-chain市场活动和Off-chain数字货币市场定价（如ETH/USD价格）之间的相关理论和实证关系。我们的目标是开发使用原则上可验证的On-chain数据和计算代理Off-chain市场数据的方法，提供区块链价格oracle的替代方法。我们研究了PoW挖矿、PoS验证、区块空间市场、网络去中心化、使用和货币流通速度以及On-chain流动性池和AMMs的关系。我们从这些市场选择关键特征，通过图形模型、互信息和集成机器学习模型分析它们，以探索完全使用On-chain数据恢复Off-chain定价信息的程度。我们发现大量的定价信息包含在On-chain数据中，但通常很难恢复精确价格，除非在短时间重新训练模型。我们讨论了即使仅有局限的On-chain数据，我们也可以使用它们代理alpha价值的方法。
 
-    We present a revealed preference characterization of marital stability explicitly accounting for the divorce law governing marital dissolution. We focus on mutual consent divorce, where individuals can divorce their partner only if they can obtain their consent. We provide theoretical insights into the potential of the characterization for identifying intrahousehold consumption. Simulation exercises using household data drawn from the Longitudinal Internet Studies for the Social Sciences (LISS) panel support our theoretical findings.
+    We investigate the theoretical and empirical relationships between activity in on-chain markets and pricing in off-chain cryptocurrency markets (e.g., ETH/USD prices). The motivation is to develop methods for proxying off-chain market data using data and computation that is in principle verifiable on-chain and could provide an alternative approach to blockchain price oracles. We explore relationships in PoW mining, PoS validation, block space markets, network decentralization, usage and monetary velocity, and on-chain liquidity pools and AMMs. We select key features from these markets, which we analyze through graphical models, mutual information, and ensemble machine learning models to explore the degree to which off-chain pricing information can be recovered entirely on-chain. We find that a large amount of pricing information is contained in on-chain data, but that it is generally hard to recover precise prices except on short time scales of retraining the model. We discuss how even
+    
+[^9]: 一种多分数期权定价公式
+
+    A multifractional option pricing formula. (arXiv:2303.16314v1 [q-fin.MF])
+
+    [http://arxiv.org/abs/2303.16314](http://arxiv.org/abs/2303.16314)
+
+    本文介绍了一种通过多分数布朗运动模拟价格波动的方法，并且通过多分数Ito微积分推导出相关的转移密度函数和欧式看涨期权定价公式。实验表现表明多分数Black-Scholes模型优于分数和标准对应物。
+
+    
+
+    分数布朗运动已经成为处理金融时间序列中的长期相关性的标准工具。然而，一个恒定的记忆参数过于限制以适应不同的市场条件。在这里，我们使用多分数布朗运动来模拟价格波动，假定Hurst指数是一个时变的确定性函数。通过多分数Ito微积分，获得了相关的转移密度函数和分析欧式看涨期权定价公式。多分数Black-Scholes模型的经验表现得到了测试，并且似乎优于其分数和标准对应物。
+
+    Fractional Brownian motion has become a standard tool to address long-range dependence in financial time series. However, a constant memory parameter is too restrictive to address different market conditions. Here we model the price fluctuations using a multifractional Brownian motion assuming that the Hurst exponent is a time-deterministic function. Through the multifractional Ito calculus, both the related transition density function and the analytical European Call option pricing formula are obtained. The empirical performance of the multifractional Black-Scholes models is tested and appears superior to its fractional and standard counterparts.
+    
+[^10]: 强化学习用于能源交易策略的优化
+
+    Reinforcement learning for optimization of energy trading strategy. (arXiv:2303.16266v1 [cs.LG])
+
+    [http://arxiv.org/abs/2303.16266](http://arxiv.org/abs/2303.16266)
+
+    本文使用强化学习算法优化了一种黑盒交易策略，该策略通过在马尔可夫决策过程中使用真实数据进行优化，在 DA 能源市场上由中型生产者自动进行交易。
+
+    
+
+    越来越多的能源来自大量小型生产者的可再生能源，这些来源的效率是不稳定的，在某种程度上也是随机的，加剧了能源市场平衡问题。在许多国家，这种平衡是在预测日（DA）能源市场上完成的。本文考虑由中型生产者在DA能源市场上的自动化交易。我们将此活动建模为马尔可夫决策过程，并规范了一个框架，其中可以使用现实数据优化即用策略。我们合成参数化交易策略，并使用进化算法优化它们。我们还使用最先进的强化学习算法优化一个黑盒交易策略，该策略利用来自环境的可用信息来影响未来价格。
+
+    An increasing part of energy is produced from renewable sources by a large number of small producers. The efficiency of these sources is volatile and, to some extent, random, exacerbating the energy market balance problem. In many countries, that balancing is performed on day-ahead (DA) energy markets. In this paper, we consider automated trading on a DA energy market by a medium size prosumer. We model this activity as a Markov Decision Process and formalize a framework in which a ready-to-use strategy can be optimized with real-life data. We synthesize parametric trading strategies and optimize them with an evolutionary algorithm. We also use state-of-the-art reinforcement learning algorithms to optimize a black-box trading strategy fed with available information from the environment that can impact future prices.
+    
+[^11]: FuNVol：使用函数主成分和神经SDE的多资产隐含波动率市场模拟器
+
+    FuNVol: A Multi-Asset Implied Volatility Market Simulator using Functional Principal Components and Neural SDEs. (arXiv:2303.00859v2 [q-fin.CP] UPDATED)
+
+    [http://arxiv.org/abs/2303.00859](http://arxiv.org/abs/2303.00859)
+
+    FuNVol是一个多资产隐含波动率市场模拟器，使用函数主成分和神经SDE生成真实历史价格的IV表面序列，并在无静态套利的表面次流形内产生一致的市场情景。同时，使用模拟表面进行对冲可以生成与实现P＆L一致的损益分布。
+
+    
+
+    我们介绍了一种新的方法，使用函数数据分析和神经随机微分方程，结合概率积分变换惩罚来生成多个资产的隐含波动率表面序列，该方法忠实于历史价格。我们证明了学习IV表面和价格的联合动态产生的市场情景与历史特征一致，并且在没有静态套利的表面次流形内。最后，我们证明使用模拟表面进行对冲会生成与实现P＆L一致的损益分布。
+
+    Here, we introduce a new approach for generating sequences of implied volatility (IV) surfaces across multiple assets that is faithful to historical prices. We do so using a combination of functional data analysis and neural stochastic differential equations (SDEs) combined with a probability integral transform penalty to reduce model misspecification. We demonstrate that learning the joint dynamics of IV surfaces and prices produces market scenarios that are consistent with historical features and lie within the sub-manifold of surfaces that are essentially free of static arbitrage. Finally, we demonstrate that delta hedging using the simulated surfaces generates profit and loss (P&L) distributions that are consistent with realised P&Ls.
+    
+[^12]: 基于图卷积网络的密码货币信任网络中的欺诈检测方法
+
+    Motif-aware temporal GCN for fraud detection in signed cryptocurrency trust networks. (arXiv:2211.13123v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2211.13123](http://arxiv.org/abs/2211.13123)
+
+    本文提出了一种基于图卷积网络和平衡理论的加密货币信任网络欺诈检测方法，并使用模式矩阵捕捉局部拓扑信息。实验结果表明，该方法在真实数据和合成数据集上均优于现有方法。
+
+    
+
+    图卷积网络是一种处理可表示为图的数据的人工神经网络。由于金融交易可以自然地构造成图形，因此GCN在金融行业中得到了广泛应用，特别是在金融欺诈检测方面。本文重点研究加密货币信任网络中的欺诈检测。在现有文献中，大部分工作都集中在静态图上。而在本研究中，我们考虑了加密货币网络的演化特性，并利用本地结构和平衡理论来指导训练过程。具体而言，我们计算动态网络中的模式矩阵来捕捉局部拓扑信息，然后在GCN聚合过程中使用它们。每个快照生成的嵌入是时间窗口内嵌入的加权平均值，其中权重是可学习的参数。由于信任网络在每个边缘上都有签名，因此使用平衡理论来指导训练过程。实验结果表明，我们提出的基于模式感知的时态GCN在真实数据和合成数据集上均比现有的方法具有优异的性能。
+
+    Graph convolutional networks (GCNs) is a class of artificial neural networks for processing data that can be represented as graphs. Since financial transactions can naturally be constructed as graphs, GCNs are widely applied in the financial industry, especially for financial fraud detection. In this paper, we focus on fraud detection on cryptocurrency truct networks. In the literature, most works focus on static networks. Whereas in this study, we consider the evolving nature of cryptocurrency networks, and use local structural as well as the balance theory to guide the training process. More specifically, we compute motif matrices to capture the local topological information, then use them in the GCN aggregation process. The generated embedding at each snapshot is a weighted average of embeddings within a time window, where the weights are learnable parameters. Since the trust networks is signed on each edge, balance theory is used to guide the training process. Experimental results 
+    
+[^13]: 时间序列的真正多重分形性归因于时间相关性
+
+    Genuine multifractality in time series is due to temporal correlations. (arXiv:2211.00728v2 [physics.data-an] UPDATED)
+
+    [http://arxiv.org/abs/2211.00728](http://arxiv.org/abs/2211.00728)
+
+    本论文表明，时间序列的真正多重分形性仅可能来自长程时间相关性，而波动的更宽的分布尾部仅在存在这样的相关性时才能扩展奇异性谱的宽度。
+
+    
+
+    基于多重分形去趋势波动分析（MFDFA）方法中的数学论证，本文表明在从高斯吸引盆地的不相关时间序列中，当时间序列的长度增加时，对于正矩，类似多重分形的效应渐近消失。提出这也适用于负矩，并扩展到波动的L\'evy稳定区域。相关效应也通过数值模拟进行了说明和验证。这表明，时间序列中的真正多重分形性仅可能来自长程时间相关性，而波动的更宽的分布尾部仅在存在这样的相关性时才能扩展奇异性谱的宽度。因此，经常被问到的是什么造成了时间序列的多重分形性--时间相关性还是分布尾部的宽度，这是有问题的。在没有相关性的情况下，只有双分形或单分形。
+
+    Based on the mathematical arguments formulated within the Multifractal Detrended Fluctuation Analysis (MFDFA) approach it is shown that in the uncorrelated time series from the Gaussian basin of attraction the effects resembling multifractality asymptotically disappear for positive moments when the length of time series increases. A hint is given that this applies to the negative moments as well and extends to the L\'evy stable regime of fluctuations. The related effects are also illustrated and confirmed by numerical simulations. This documents that the genuine multifractality in time series may only result from the long-range temporal correlations and the fatter distribution tails of fluctuations may broaden the width of singularity spectrum only when such correlations are present. The frequently asked question of what makes multifractality in time series - temporal correlations or broad distribution tails - is thus ill posed. In the absence of correlations only the bifractal or mono
+    
+[^14]: 在S&P 500金融数据的市场状态中识别主导产业部门
+
+    Identifying Dominant Industrial Sectors in Market States of the S&P 500 Financial Data. (arXiv:2208.14106v3 [q-fin.ST] UPDATED)
+
+    [http://arxiv.org/abs/2208.14106](http://arxiv.org/abs/2208.14106)
+
+    本研究使用聚类算法识别了S&P 500股票市场的部门相关矩阵动态变化的不同状态，并通过XAI方法和贝叶斯变点分析确定了每个状态中占主导地位的产业部门，结果发现少数产业部门主导了每个状态的相关矩阵，尤其是能源部门表现出了独特的特征。
+
+    
+
+    理解和预测金融市场等复杂经济系统中的变化市场条件对各利益相关者（如金融机构和监管机构）至关重要。基于一项发现，即可以通过聚类算法将S＆P 500股票市场的部门相关矩阵动态描述为一系列不同状态，我们试图确定主导每种状态的相关结构的产业部门。为此，我们使用Explainable Artificial Intelligence（XAI）中的一种方法，对1992年至2012年的日度S＆P 500股票市场数据分配每个数据点的相关分数。为了比较整个数据集的特征重要性，我们开发了一种聚合过程，并应用贝叶斯变点分析来识别最显著的部门相关性。我们展示了每种状态的相关矩阵仅由少数部门相关性主导。特别是能源部门表现出了独特的特征。
+
+    Understanding and forecasting changing market conditions in complex economic systems like the financial market is of great importance to various stakeholders such as financial institutions and regulatory agencies. Based on the finding that the dynamics of sector correlation matrices of the S&P 500 stock market can be described by a sequence of distinct states via a clustering algorithm, we try to identify the industrial sectors dominating the correlation structure of each state. For this purpose, we use a method from Explainable Artificial Intelligence (XAI) on daily S&P 500 stock market data from 1992 to 2012 to assign relevance scores to every feature of each data point. To compare the significance of the features for the entire data set we develop an aggregation procedure and apply a Bayesian change point analysis to identify the most significant sector correlations. We show that the correlation matrix of each state is dominated only by a few sector correlations. Especially the ener
+    
+[^15]: 价格轨迹数据是否能提高市场影响估计的效率？
+
+    Do price trajectory data increase the efficiency of market impact estimation?. (arXiv:2205.13423v2 [q-fin.TR] UPDATED)
+
+    [http://arxiv.org/abs/2205.13423](http://arxiv.org/abs/2205.13423)
+
+    本文研究了是否可以利用来自元订单的部分价格轨迹数据提高市场影响估计的效率，结果发现这种方法在流行的市场影响模型中效果更好。
+
+    
+
+    市场影响是大型机构投资者和积极的市场参与者面临的一个重要问题。本文从统计估计的渐近视角，严格探讨了来自元订单的价格轨迹数据是否能提高估计的效率。我们展示了对于流行的市场影响模型，基于部分价格轨迹数据的估计方法，特别是包含早期交易价格的方法，可以在渐近意义下优于已建立的估计方法（例如以VWAP为基础的方法）。我们讨论了这种现象的理论和实证影响，以及如何将其轻松地应用到实践中。
+
+    Market impact is an important problem faced by large institutional investor and active market participant. In this paper, we rigorously investigate whether price trajectory data from the metaorder increases the efficiency of estimation, from an asymptotic view of statistical estimation. We show that, for popular market impact models, estimation methods based on partial price trajectory data, especially those containing early trade prices, can outperform established estimation methods (e.g., VWAP-based) asymptotically. We discuss theoretical and empirical implications of such phenomenon, and how they could be readily incorporated into practice.
+    
+[^16]: 模型风险对网络风险的保险定价和风险敏感性产生影响
+
+    Cyber Loss Model Risk Translates to Premium Mispricing and Risk Sensitivity. (arXiv:2202.10588v3 [q-fin.RM] UPDATED)
+
+    [http://arxiv.org/abs/2202.10588](http://arxiv.org/abs/2202.10588)
+
+    本文研究了模型风险和风险敏感性对网络风险的保险定价和风险评估的影响，并开发了一种针对重尾损失模型的健壮估算器以及对联合损失模型和保险组合多样性的健壮依赖分析工具。
+
+    
+
+    本文着重探究模型风险和风险敏感性对网络风险的保险性问题。我们增强了标准的统计方法，考虑到模型风险，特别是由模型不确定性和参数不确定性所导致的风险。通过整合基于边缘和联合网络风险损失过程建模的关键模型参数的各种健壮估算器，我们展示了如何量化模型风险对分析的影响。我们对比了这些健壮技术与之前研究网络风险的标准方法，从而准确评估健壮估算在重尾损失模型的尾指数估计中的关键影响，以及在量化联合损失模型和保险组合多样化时的健壮依赖分析的影响。我们认为，正确选择这些方法就像选择一种保险模型。
+
+    We focus on model risk and risk sensitivity when addressing the insurability of cyber risk. The standard statistical approaches to assessment of insurability and potential mispricing are enhanced in several aspects involving consideration of model risk. Model risk can arise from model uncertainty, and parameters uncertainty. We demonstrate how to quantify the effect of model risk in this analysis by incorporating various robust estimators for key model parameter estimates that apply in both marginal and joint cyber risk loss process modelling. We contrast these robust techniques with standard methods previously used in studying insurabilty of cyber risk. This allows us to accurately assess the critical impact that robust estimation can have on tail index estimation for heavy tailed loss models, as well as the effect of robust dependence analysis when quantifying joint loss models and insurance portfolio diversification. We argue that the choice of such methods is akin to a form of mode
     
 
