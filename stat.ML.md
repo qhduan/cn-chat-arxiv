@@ -5,28 +5,29 @@
 | [^1] | [Efficient distributed representations beyond negative sampling.](http://arxiv.org/abs/2303.17475) | 本文介绍了一种高效的分布式表示（嵌入）学习方法，通过线性时间估计softmax归一化常数来实现学习过程，该方法优于负采样方法并在多项测试中验证了其有效性。 |
 | [^2] | [Fast inference of latent space dynamics in huge relational event networks.](http://arxiv.org/abs/2303.17460) | 本研究提出了一种适用于巨型关系事件网络的基于可能性的算法，可以快速推理出潜在空间动态，并实现分层推断网络社区动态。 |
 | [^3] | [The Graphical Nadaraya-Watson Estimator on Latent Position Models.](http://arxiv.org/abs/2303.17229) | 研究了潜在位置模型上的图形Nadaraya-Watson估计器的性质，对于更复杂的方法有理论指导意义。 |
-| [^4] | [Deep Single Image Camera Calibration by Heatmap Regression to Recover Fisheye Images Under ManhattanWorld AssumptionWithout Ambiguity.](http://arxiv.org/abs/2303.17166) | 本文提出一种基于学习的标定方法，使用热度图回归来消除曼哈顿世界假设下鱼眼图片中横向角度歧义，同时恢复旋转和消除鱼眼失真。该方法使用优化的对角线点缓解图像中缺乏消失点的情况，并在实验证明其性能优于现有技术。 |
-| [^5] | [Contextual Combinatorial Bandits with Probabilistically Triggered Arms.](http://arxiv.org/abs/2303.17110) | 本文研究了带有概率触发臂的情境组合赌博机，在不同条件下设计了C$^2$-UCB-T算法和VAC$^2$-UCB算法，并分别导出了对应的遗憾值上限，为相关应用提供了理论支持。 |
-| [^6] | [Efficient Sampling of Stochastic Differential Equations with Positive Semi-Definite Models.](http://arxiv.org/abs/2303.17109) | 本文提出了一个从正半定随机微分方程中高效采样的方法，可以利用正半定-PSD模型在精度$\varepsilon$下生成iid样本。算法复杂度为$O(T d \log(1/\varepsilon) m^2 + d m^{\beta+1} \log(T)/\varepsilon^2)$，其中$T$是时间步数，$\beta$是Fokker-Planck解的正则性。 |
-| [^7] | [Training Neural Networks is NP-Hard in Fixed Dimension.](http://arxiv.org/abs/2303.17045) | 研究了训练具有ReLU和线性阈值激活函数的两层神经网络的固定维度下的NP难度。 回答了两个问题，证明了这两个问题在二维情况下是NP难的，此外在ReLU案例中证明了固定参数问题的参数化固定复杂度维数和ReLU数量的组合参数。 |
-| [^8] | [Federated Stochastic Bandit Learning with Unobserved Context.](http://arxiv.org/abs/2303.17043) | 本文提出了一种联邦随机多臂上下文赌博算法以最大化累积奖励，针对未知上下文的情况通过执行特征向量转换解决问题。 |
-| [^9] | [Sparse joint shift in multinomial classification.](http://arxiv.org/abs/2303.16971) | 该论文提出了一种稀疏联合偏移模型，用于解决整体数据集偏移问题，提供了传递SJS、修正类后验概率、SJS的可辨认性、SJS与协变量转移关系等新结果。 |
-| [^10] | [Leveraging joint sparsity in hierarchical Bayesian learning.](http://arxiv.org/abs/2303.16954) | 本文提出了一种分层贝叶斯学习方法，用于从多个测量向量中推断联合稀疏的参数向量，该方法使用共同的伽马分布超参数来强制联合稀疏性，并在实验中进行了验证。 |
-| [^11] | [Are Neural Architecture Search Benchmarks Well Designed? A Deeper Look Into Operation Importance.](http://arxiv.org/abs/2303.16938) | 本论文对当前广泛使用的NAS基准测试进行了经验研究，发现只需一小部分的操作即可生成接近最高性能的架构，同时这些基准测试存在缺点可能影响公平比较并提供不可靠结果。 |
-| [^12] | [Non-Asymptotic Lower Bounds For Training Data Reconstruction.](http://arxiv.org/abs/2303.16372) | 本文通过研究差分隐私和度量隐私学习器在对抗者重构错误方面的鲁棒性，得出了非渐进性下界，覆盖了高维情况，且扩展了深度学习算法的隐私分析 |
-| [^13] | [Operator learning with PCA-Net: upper and lower complexity bounds.](http://arxiv.org/abs/2303.16317) | 本文发展了PCA-Net的近似理论，得出了通用逼近结果，并识别出了使用PCA-Net进行高效操作学习的潜在障碍：输出分布的复杂性和算子空间的内在复杂性。 |
-| [^14] | [Lifting uniform learners via distributional decomposition.](http://arxiv.org/abs/2303.16208) | 本文介绍了一种方法，可以将任何在均匀分布下有效的PAC学习算法转换成一个在任意未知分布下有效的算法，而且对于单调分布，只需要用$\mathcal{D}$中的样本。算法的核心是通过一个算法将$\mathcal{D}$逼近成由子立方体混合而成的混合均匀分布。 |
-| [^15] | [Validation of uncertainty quantification metrics: a primer based on the consistency and adaptivity concepts.](http://arxiv.org/abs/2303.07170) | 本文介绍了一种基于一致性和适应性概念的UQ度量验证方法，通过重新审视已有的方法，提高了对UQ度量能力的理解。 |
-| [^16] | [Physics-informed Information Field Theory for Modeling Physical Systems with Uncertainty Quantification.](http://arxiv.org/abs/2301.07609) | 该论文扩展了信息场理论(IFT)到物理信息场理论(PIFT)，将描述场的物理定律的信息编码为函数先验。从这个PIFT得出的后验与任何数值方案无关，并且可以捕捉多种模式。 |
-| [^17] | [Sliced Optimal Partial Transport.](http://arxiv.org/abs/2212.08049) | 本文提出了一种适用于一维非负测度之间最优偏转运输问题的高效算法，并通过切片的方式定义了切片最优偏转运输距离。 |
-| [^18] | [Packed-Ensembles for Efficient Uncertainty Estimation.](http://arxiv.org/abs/2210.09184) | Packed-Ensembles是一种能够在标准神经网络内运行的轻量级结构化集合，它通过精心调节编码空间的维度来设计。该方法在不损失效果的情况下提高了训练和推理速度。 |
-| [^19] | [Clustered Graph Matching for Label Recovery and Graph Classification.](http://arxiv.org/abs/2205.03486) | 本论文提出一种利用顶点对齐的平均图，聚类平均图和混淆网络匹配的策略，比起传统的全局平均图策略，可以更有效地提高匹配性能和分类精度。 |
-| [^20] | [Random Manifold Sampling and Joint Sparse Regularization for Multi-label Feature Selection.](http://arxiv.org/abs/2204.06445) | 本文提出了一种基于联合约束优化问题的 $\ell_{2,1}$ 和 $\ell_{F}$ 正则化方法来获得最相关的几个特征，并在流形正则化中实现了基于随机游走策略的高度稳健的邻域图。该方法在真实数据集上的比较实验中表现优异。 |
-| [^21] | [Approximation bounds for norm constrained neural networks with applications to regression and GANs.](http://arxiv.org/abs/2201.09418) | 本文研究了具范数约束的ReLU神经网络的逼近能力，并证明了对于平滑函数类，这些网络的逼近误差有上下界。此外，应用结果分析了回归和GAN分布估计问题的收敛性，最终证明了当GAN的判别器选择合适的具范数约束的神经网络时，可以实现学习概率分布的最优速率。 |
-| [^22] | [Statistically Meaningful Approximation: a Case Study on Approximating Turing Machines with Transformers.](http://arxiv.org/abs/2107.13163) | 本文提出了统计上意义的近似的正式定义，研究了过度参数化的前馈神经网络和变换器的SM近似在布尔电路和图灵机中的应用，重点在于探索近似网络应该具有良好的统计可学性的概念，达到更有意义的近似效果。 |
-| [^23] | [Out-of-sample error estimate for robust M-estimators with convex penalty.](http://arxiv.org/abs/2008.11840) | 该论文提出了一种通用的样外误差估计方法，适用于正则化具有凸惩罚的鲁棒$M$-估计，该方法仅通过固定的观测数据依赖于特定量，其中在高维渐近区域中，该估计具有相对误差，具有广泛的适用性。 |
-| [^24] | [Variational Wasserstein Barycenters for Geometric Clustering.](http://arxiv.org/abs/2002.10543) | 该论文提出了利用变分Wasserstein质心解决几何聚类问题的方法，特别是Monge WBs与K-means聚类和共同聚类相关，同时还提出了两个新问题——正则化K-means和Wasserstein质心压缩，并演示了VWBs在解决这些聚类相关问题的有效性。 |
-| [^25] | [Optimal Experimental Design for Staggered Rollouts.](http://arxiv.org/abs/1911.03764) | 本文研究了隔开式试验的最优设计问题。对于非自适应实验，提出了一个近似最优解；对于自适应实验，提出了一种新算法——精度导向的自适应实验（PGAE）算法，它使用贝叶斯决策理论来最大化估计治疗效果的预期精度。 |
+| [^4] | [Sublinear Convergence Rates of Extragradient-Type Methods: A Survey on Classical and Recent Developments.](http://arxiv.org/abs/2303.17192) | 本文调查了外推梯度方法和其变种的最新进展，并提供了次线性最佳迭代和最后迭代的收敛速率。 |
+| [^5] | [Deep Single Image Camera Calibration by Heatmap Regression to Recover Fisheye Images Under ManhattanWorld AssumptionWithout Ambiguity.](http://arxiv.org/abs/2303.17166) | 本文提出一种基于学习的标定方法，使用热度图回归来消除曼哈顿世界假设下鱼眼图片中横向角度歧义，同时恢复旋转和消除鱼眼失真。该方法使用优化的对角线点缓解图像中缺乏消失点的情况，并在实验证明其性能优于现有技术。 |
+| [^6] | [Contextual Combinatorial Bandits with Probabilistically Triggered Arms.](http://arxiv.org/abs/2303.17110) | 本文研究了带有概率触发臂的情境组合赌博机，在不同条件下设计了C$^2$-UCB-T算法和VAC$^2$-UCB算法，并分别导出了对应的遗憾值上限，为相关应用提供了理论支持。 |
+| [^7] | [Efficient Sampling of Stochastic Differential Equations with Positive Semi-Definite Models.](http://arxiv.org/abs/2303.17109) | 本文提出了一个从正半定随机微分方程中高效采样的方法，可以利用正半定-PSD模型在精度$\varepsilon$下生成iid样本。算法复杂度为$O(T d \log(1/\varepsilon) m^2 + d m^{\beta+1} \log(T)/\varepsilon^2)$，其中$T$是时间步数，$\beta$是Fokker-Planck解的正则性。 |
+| [^8] | [Training Neural Networks is NP-Hard in Fixed Dimension.](http://arxiv.org/abs/2303.17045) | 研究了训练具有ReLU和线性阈值激活函数的两层神经网络的固定维度下的NP难度。 回答了两个问题，证明了这两个问题在二维情况下是NP难的，此外在ReLU案例中证明了固定参数问题的参数化固定复杂度维数和ReLU数量的组合参数。 |
+| [^9] | [Federated Stochastic Bandit Learning with Unobserved Context.](http://arxiv.org/abs/2303.17043) | 本文提出了一种联邦随机多臂上下文赌博算法以最大化累积奖励，针对未知上下文的情况通过执行特征向量转换解决问题。 |
+| [^10] | [Sparse joint shift in multinomial classification.](http://arxiv.org/abs/2303.16971) | 该论文提出了一种稀疏联合偏移模型，用于解决整体数据集偏移问题，提供了传递SJS、修正类后验概率、SJS的可辨认性、SJS与协变量转移关系等新结果。 |
+| [^11] | [Leveraging joint sparsity in hierarchical Bayesian learning.](http://arxiv.org/abs/2303.16954) | 本文提出了一种分层贝叶斯学习方法，用于从多个测量向量中推断联合稀疏的参数向量，该方法使用共同的伽马分布超参数来强制联合稀疏性，并在实验中进行了验证。 |
+| [^12] | [Are Neural Architecture Search Benchmarks Well Designed? A Deeper Look Into Operation Importance.](http://arxiv.org/abs/2303.16938) | 本论文对当前广泛使用的NAS基准测试进行了经验研究，发现只需一小部分的操作即可生成接近最高性能的架构，同时这些基准测试存在缺点可能影响公平比较并提供不可靠结果。 |
+| [^13] | [Non-Asymptotic Lower Bounds For Training Data Reconstruction.](http://arxiv.org/abs/2303.16372) | 本文通过研究差分隐私和度量隐私学习器在对抗者重构错误方面的鲁棒性，得出了非渐进性下界，覆盖了高维情况，且扩展了深度学习算法的隐私分析 |
+| [^14] | [Operator learning with PCA-Net: upper and lower complexity bounds.](http://arxiv.org/abs/2303.16317) | 本文发展了PCA-Net的近似理论，得出了通用逼近结果，并识别出了使用PCA-Net进行高效操作学习的潜在障碍：输出分布的复杂性和算子空间的内在复杂性。 |
+| [^15] | [Lifting uniform learners via distributional decomposition.](http://arxiv.org/abs/2303.16208) | 本文介绍了一种方法，可以将任何在均匀分布下有效的PAC学习算法转换成一个在任意未知分布下有效的算法，而且对于单调分布，只需要用$\mathcal{D}$中的样本。算法的核心是通过一个算法将$\mathcal{D}$逼近成由子立方体混合而成的混合均匀分布。 |
+| [^16] | [Validation of uncertainty quantification metrics: a primer based on the consistency and adaptivity concepts.](http://arxiv.org/abs/2303.07170) | 本文介绍了一种基于一致性和适应性概念的UQ度量验证方法，通过重新审视已有的方法，提高了对UQ度量能力的理解。 |
+| [^17] | [Physics-informed Information Field Theory for Modeling Physical Systems with Uncertainty Quantification.](http://arxiv.org/abs/2301.07609) | 该论文扩展了信息场理论(IFT)到物理信息场理论(PIFT)，将描述场的物理定律的信息编码为函数先验。从这个PIFT得出的后验与任何数值方案无关，并且可以捕捉多种模式。 |
+| [^18] | [Sliced Optimal Partial Transport.](http://arxiv.org/abs/2212.08049) | 本文提出了一种适用于一维非负测度之间最优偏转运输问题的高效算法，并通过切片的方式定义了切片最优偏转运输距离。 |
+| [^19] | [Packed-Ensembles for Efficient Uncertainty Estimation.](http://arxiv.org/abs/2210.09184) | Packed-Ensembles是一种能够在标准神经网络内运行的轻量级结构化集合，它通过精心调节编码空间的维度来设计。该方法在不损失效果的情况下提高了训练和推理速度。 |
+| [^20] | [Clustered Graph Matching for Label Recovery and Graph Classification.](http://arxiv.org/abs/2205.03486) | 本论文提出一种利用顶点对齐的平均图，聚类平均图和混淆网络匹配的策略，比起传统的全局平均图策略，可以更有效地提高匹配性能和分类精度。 |
+| [^21] | [Random Manifold Sampling and Joint Sparse Regularization for Multi-label Feature Selection.](http://arxiv.org/abs/2204.06445) | 本文提出了一种基于联合约束优化问题的 $\ell_{2,1}$ 和 $\ell_{F}$ 正则化方法来获得最相关的几个特征，并在流形正则化中实现了基于随机游走策略的高度稳健的邻域图。该方法在真实数据集上的比较实验中表现优异。 |
+| [^22] | [Approximation bounds for norm constrained neural networks with applications to regression and GANs.](http://arxiv.org/abs/2201.09418) | 本文研究了具范数约束的ReLU神经网络的逼近能力，并证明了对于平滑函数类，这些网络的逼近误差有上下界。此外，应用结果分析了回归和GAN分布估计问题的收敛性，最终证明了当GAN的判别器选择合适的具范数约束的神经网络时，可以实现学习概率分布的最优速率。 |
+| [^23] | [Statistically Meaningful Approximation: a Case Study on Approximating Turing Machines with Transformers.](http://arxiv.org/abs/2107.13163) | 本文提出了统计上意义的近似的正式定义，研究了过度参数化的前馈神经网络和变换器的SM近似在布尔电路和图灵机中的应用，重点在于探索近似网络应该具有良好的统计可学性的概念，达到更有意义的近似效果。 |
+| [^24] | [Out-of-sample error estimate for robust M-estimators with convex penalty.](http://arxiv.org/abs/2008.11840) | 该论文提出了一种通用的样外误差估计方法，适用于正则化具有凸惩罚的鲁棒$M$-估计，该方法仅通过固定的观测数据依赖于特定量，其中在高维渐近区域中，该估计具有相对误差，具有广泛的适用性。 |
+| [^25] | [Variational Wasserstein Barycenters for Geometric Clustering.](http://arxiv.org/abs/2002.10543) | 该论文提出了利用变分Wasserstein质心解决几何聚类问题的方法，特别是Monge WBs与K-means聚类和共同聚类相关，同时还提出了两个新问题——正则化K-means和Wasserstein质心压缩，并演示了VWBs在解决这些聚类相关问题的有效性。 |
+| [^26] | [Optimal Experimental Design for Staggered Rollouts.](http://arxiv.org/abs/1911.03764) | 本文研究了隔开式试验的最优设计问题。对于非自适应实验，提出了一个近似最优解；对于自适应实验，提出了一种新算法——精度导向的自适应实验（PGAE）算法，它使用贝叶斯决策理论来最大化估计治疗效果的预期精度。 |
 
 # 详细
 
@@ -72,7 +73,21 @@
 
     Given a graph with a subset of labeled nodes, we are interested in the quality of the averaging estimator which for an unlabeled node predicts the average of the observations of its labeled neighbours. We rigorously study concentration properties, variance bounds and risk bounds in this context. While the estimator itself is very simple and the data generating process is too idealistic for practical applications, we believe that our small steps will contribute towards the theoretical understanding of more sophisticated methods such as Graph Neural Networks.
     
-[^4]: 使用热度图回归进行深度单张图片摄像机标定，在曼哈顿世界假设下在不模糊的情况下还原鱼眼图片
+[^4]: Extragradient类型方法的次线性收敛速率：对经典和最新进展的调查
+
+    Sublinear Convergence Rates of Extragradient-Type Methods: A Survey on Classical and Recent Developments. (arXiv:2303.17192v1 [math.OC])
+
+    [http://arxiv.org/abs/2303.17192](http://arxiv.org/abs/2303.17192)
+
+    本文调查了外推梯度方法和其变种的最新进展，并提供了次线性最佳迭代和最后迭代的收敛速率。
+
+    
+
+    其中，外推梯度（EG）是G. M. Korpelevich在1976年引入的一种广泛应用于近似解决最小斜率问题和其扩展的方法，如变分不等式和单调包含。多年来，文献中提出并研究了EG的各种变体。最近，由于在机器学习和鲁棒优化中的新应用，这些方法变得越来越流行。本文概述了EG方法及其变种的最新进展，用于近似求解非线性方程和包含，重点关注单调性和协同单调性设置。我们为不同类别的算法提供了统一的收敛分析，重点是次线性最佳迭代和最后迭代的收敛速率。我们还讨论了基于Halpern固定点迭代和Nesterov加速技术的最近加速变体的EG。我们使用简单的论证和基本的数学工具来使我们的方法易于理解和应用。
+
+    The extragradient (EG), introduced by G. M. Korpelevich in 1976, is a well-known method to approximate solutions of saddle-point problems and their extensions such as variational inequalities and monotone inclusions. Over the years, numerous variants of EG have been proposed and studied in the literature. Recently, these methods have gained popularity due to new applications in machine learning and robust optimization. In this work, we survey the latest developments in the EG method and its variants for approximating solutions of nonlinear equations and inclusions, with a focus on the monotonicity and co-hypomonotonicity settings. We provide a unified convergence analysis for different classes of algorithms, with an emphasis on sublinear best-iterate and last-iterate convergence rates. We also discuss recent accelerated variants of EG based on both Halpern fixed-point iteration and Nesterov's accelerated techniques. Our approach uses simple arguments and basic mathematical tools to mak
+    
+[^5]: 使用热度图回归进行深度单张图片摄像机标定，在曼哈顿世界假设下在不模糊的情况下还原鱼眼图片
 
     Deep Single Image Camera Calibration by Heatmap Regression to Recover Fisheye Images Under ManhattanWorld AssumptionWithout Ambiguity. (arXiv:2303.17166v1 [cs.CV])
 
@@ -86,7 +101,7 @@
 
     In orthogonal world coordinates, a Manhattan world lying along cuboid buildings is widely useful for various computer vision tasks. However, the Manhattan world has much room for improvement because the origin of pan angles from an image is arbitrary, that is, four-fold rotational symmetric ambiguity of pan angles. To address this problem, we propose a definition for the pan-angle origin based on the directions of the roads with respect to a camera and the direction of travel. We propose a learning-based calibration method that uses heatmap regression to remove the ambiguity by each direction of labeled image coordinates, similar to pose estimation keypoints. Simultaneously, our two-branched network recovers the rotation and removes fisheye distortion from a general scene image. To alleviate the lack of vanishing points in images, we introduce auxiliary diagonal points that have the optimal 3D arrangement of spatial uniformity. Extensive experiments demonstrated that our method outperf
     
-[^5]: 带有概率触发臂的情境组合赌博机
+[^6]: 带有概率触发臂的情境组合赌博机
 
     Contextual Combinatorial Bandits with Probabilistically Triggered Arms. (arXiv:2303.17110v1 [cs.LG])
 
@@ -100,7 +115,7 @@
 
     We study contextual combinatorial bandits with probabilistically triggered arms (C$^2$MAB-T) under a variety of smoothness conditions that capture a wide range of applications, such as contextual cascading bandits and contextual influence maximization bandits. Under the triggering probability modulated (TPM) condition, we devise the C$^2$-UCB-T algorithm and propose a novel analysis that achieves an $\tilde{O}(d\sqrt{KT})$ regret bound, removing a potentially exponentially large factor $O(1/p_{\min})$, where $d$ is the dimension of contexts, $p_{\min}$ is the minimum positive probability that any arm can be triggered, and batch-size $K$ is the maximum number of arms that can be triggered per round. Under the variance modulated (VM) or triggering probability and variance modulated (TPVM) conditions, we propose a new variance-adaptive algorithm VAC$^2$-UCB and derive a regret bound $\tilde{O}(d\sqrt{T})$, which is independent of the batch-size $K$. As a valuable by-product, we find our a
     
-[^6]: 正半定随机微分方程的高效采样
+[^7]: 正半定随机微分方程的高效采样
 
     Efficient Sampling of Stochastic Differential Equations with Positive Semi-Definite Models. (arXiv:2303.17109v1 [stat.ML])
 
@@ -114,7 +129,7 @@
 
     This paper deals with the problem of efficient sampling from a stochastic differential equation, given the drift function and the diffusion matrix. The proposed approach leverages a recent model for probabilities \citep{rudi2021psd} (the positive semi-definite -- PSD model) from which it is possible to obtain independent and identically distributed (i.i.d.) samples at precision $\varepsilon$ with a cost that is $m^2 d \log(1/\varepsilon)$ where $m$ is the dimension of the model, $d$ the dimension of the space. The proposed approach consists in: first, computing the PSD model that satisfies the Fokker-Planck equation (or its fractional variant) associated with the SDE, up to error $\varepsilon$, and then sampling from the resulting PSD model. Assuming some regularity of the Fokker-Planck solution (i.e. $\beta$-times differentiability plus some geometric condition on its zeros) We obtain an algorithm that: (a) in the preparatory phase obtains a PSD model with L2 distance $\varepsilon$ fr
     
-[^7]: 训练神经网络在固定维度上是NP难的
+[^8]: 训练神经网络在固定维度上是NP难的
 
     Training Neural Networks is NP-Hard in Fixed Dimension. (arXiv:2303.17045v1 [cs.CC])
 
@@ -128,7 +143,7 @@
 
     We study the parameterized complexity of training two-layer neural networks with respect to the dimension of the input data and the number of hidden neurons, considering ReLU and linear threshold activation functions. Albeit the computational complexity of these problems has been studied numerous times in recent years, several questions are still open. We answer questions by Arora et al. [ICLR '18] and Khalife and Basu [IPCO '22] showing that both problems are NP-hard for two dimensions, which excludes any polynomial-time algorithm for constant dimension. We also answer a question by Froese et al. [JAIR '22] proving W[1]-hardness for four ReLUs (or two linear threshold neurons) with zero training error. Finally, in the ReLU case, we show fixed-parameter tractability for the combined parameter number of dimensions and number of ReLUs if the network is assumed to compute a convex map. Our results settle the complexity status regarding these parameters almost completely.
     
-[^8]: 无观测上下文的联邦随机赌博学习
+[^9]: 无观测上下文的联邦随机赌博学习
 
     Federated Stochastic Bandit Learning with Unobserved Context. (arXiv:2303.17043v1 [cs.LG])
 
@@ -142,7 +157,7 @@
 
     We study the problem of federated stochastic multi-arm contextual bandits with unknown contexts, in which M agents are faced with different bandits and collaborate to learn. The communication model consists of a central server and the agents share their estimates with the central server periodically to learn to choose optimal actions in order to minimize the total regret. We assume that the exact contexts are not observable and the agents observe only a distribution of the contexts. Such a situation arises, for instance, when the context itself is a noisy measurement or based on a prediction mechanism. Our goal is to develop a distributed and federated algorithm that facilitates collaborative learning among the agents to select a sequence of optimal actions so as to maximize the cumulative reward. By performing a feature vector transformation, we propose an elimination-based algorithm and prove the regret bound for linearly parametrized reward functions. Finally, we validated the perfo
     
-[^9]: 多项式分类中的稀疏联合偏移
+[^10]: 多项式分类中的稀疏联合偏移
 
     Sparse joint shift in multinomial classification. (arXiv:2303.16971v1 [stat.ML])
 
@@ -156,7 +171,7 @@
 
     Sparse joint shift (SJS) was recently proposed as a tractable model for general dataset shift which may cause changes to the marginal distributions of features and labels as well as the posterior probabilities and the class-conditional feature distributions. Fitting SJS for a target dataset without label observations may produce valid predictions of labels and estimates of class prior probabilities. We present new results on the transmission of SJS from sets of features to larger sets of features, a conditional correction formula for the class posterior probabilities under the target distribution, identifiability of SJS, and the relationship between SJS and covariate shift. In addition, we point out inconsistencies in the algorithms which were proposed for estimating the characteristics of SJS, as they could hamper the search for optimal solutions.
     
-[^10]: 利用联合稀疏性的分层贝叶斯学习方法
+[^11]: 利用联合稀疏性的分层贝叶斯学习方法
 
     Leveraging joint sparsity in hierarchical Bayesian learning. (arXiv:2303.16954v1 [stat.ML])
 
@@ -170,7 +185,7 @@
 
     We present a hierarchical Bayesian learning approach to infer jointly sparse parameter vectors from multiple measurement vectors. Our model uses separate conditionally Gaussian priors for each parameter vector and common gamma-distributed hyper-parameters to enforce joint sparsity. The resulting joint-sparsity-promoting priors are combined with existing Bayesian inference methods to generate a new family of algorithms. Our numerical experiments, which include a multi-coil magnetic resonance imaging application, demonstrate that our new approach consistently outperforms commonly used hierarchical Bayesian methods.
     
-[^11]: 神经架构搜索基准测试是否设计良好？对操作重要性的深入研究
+[^12]: 神经架构搜索基准测试是否设计良好？对操作重要性的深入研究
 
     Are Neural Architecture Search Benchmarks Well Designed? A Deeper Look Into Operation Importance. (arXiv:2303.16938v1 [cs.LG])
 
@@ -184,7 +199,7 @@
 
     Neural Architecture Search (NAS) benchmarks significantly improved the capability of developing and comparing NAS methods while at the same time drastically reduced the computational overhead by providing meta-information about thousands of trained neural networks. However, tabular benchmarks have several drawbacks that can hinder fair comparisons and provide unreliable results. These usually focus on providing a small pool of operations in heavily constrained search spaces -- usually cell-based neural networks with pre-defined outer-skeletons. In this work, we conducted an empirical analysis of the widely used NAS-Bench-101, NAS-Bench-201 and TransNAS-Bench-101 benchmarks in terms of their generability and how different operations influence the performance of the generated architectures. We found that only a subset of the operation pool is required to generate architectures close to the upper-bound of the performance range. Also, the performance distribution is negatively skewed, havi
     
-[^12]: 训练数据重构的非渐进性下界
+[^13]: 训练数据重构的非渐进性下界
 
     Non-Asymptotic Lower Bounds For Training Data Reconstruction. (arXiv:2303.16372v1 [cs.LG])
 
@@ -198,7 +213,7 @@
 
     We investigate semantic guarantees of private learning algorithms for their resilience to training Data Reconstruction Attacks (DRAs) by informed adversaries. To this end, we derive non-asymptotic minimax lower bounds on the adversary's reconstruction error against learners that satisfy differential privacy (DP) and metric differential privacy (mDP). Furthermore, we demonstrate that our lower bound analysis for the latter also covers the high dimensional regime, wherein, the input data dimensionality may be larger than the adversary's query budget. Motivated by the theoretical improvements conferred by metric DP, we extend the privacy analysis of popular deep learning algorithms such as DP-SGD and Projected Noisy SGD to cover the broader notion of metric differential privacy.
     
-[^13]: PCA-Net：操作学习的复杂性上下界
+[^14]: PCA-Net：操作学习的复杂性上下界
 
     Operator learning with PCA-Net: upper and lower complexity bounds. (arXiv:2303.16317v1 [cs.LG])
 
@@ -212,7 +227,7 @@
 
     Neural operators are gaining attention in computational science and engineering. PCA-Net is a recently proposed neural operator architecture which combines principal component analysis (PCA) with neural networks to approximate an underlying operator. The present work develops approximation theory for this approach, improving and significantly extending previous work in this direction. In terms of qualitative bounds, this paper derives a novel universal approximation result, under minimal assumptions on the underlying operator and the data-generating distribution. In terms of quantitative bounds, two potential obstacles to efficient operator learning with PCA-Net are identified, and made rigorous through the derivation of lower complexity bounds; the first relates to the complexity of the output distribution, measured by a slow decay of the PCA eigenvalues. The other obstacle relates the inherent complexity of the space of operators between infinite-dimensional input and output spaces, 
     
-[^14]: 利用分布分解提高均匀学习算法的性能
+[^15]: 利用分布分解提高均匀学习算法的性能
 
     Lifting uniform learners via distributional decomposition. (arXiv:2303.16208v1 [stat.ML])
 
@@ -226,7 +241,7 @@
 
     We show how any PAC learning algorithm that works under the uniform distribution can be transformed, in a blackbox fashion, into one that works under an arbitrary and unknown distribution $\mathcal{D}$. The efficiency of our transformation scales with the inherent complexity of $\mathcal{D}$, running in $\mathrm{poly}(n, (md)^d)$ time for distributions over $\{\pm 1\}^n$ whose pmfs are computed by depth-$d$ decision trees, where $m$ is the sample complexity of the original algorithm. For monotone distributions our transformation uses only samples from $\mathcal{D}$, and for general ones it uses subcube conditioning samples.  A key technical ingredient is an algorithm which, given the aforementioned access to $\mathcal{D}$, produces an optimal decision tree decomposition of $\mathcal{D}$: an approximation of $\mathcal{D}$ as a mixture of uniform distributions over disjoint subcubes. With this decomposition in hand, we run the uniform-distribution learner on each subcube and combine the 
     
-[^15]: 基于一致性和适应性概念的不确定性量化度量的验证：一个入门指南。
+[^16]: 基于一致性和适应性概念的不确定性量化度量的验证：一个入门指南。
 
     Validation of uncertainty quantification metrics: a primer based on the consistency and adaptivity concepts. (arXiv:2303.07170v2 [physics.chem-ph] UPDATED)
 
@@ -240,7 +255,7 @@
 
     The practice of uncertainty quantification (UQ) validation, notably in machine learning for the physico-chemical sciences, rests on several graphical methods (scattering plots, calibration curves, reliability diagrams and confidence curves) which explore complementary aspects of calibration, without covering all the desirable ones. For instance, none of these methods deals with the reliability of UQ metrics across the range of input features (adaptivity). Based on the complementary concepts of consistency and adaptivity, the toolbox of common validation methods for variance- and intervals- based UQ metrics is revisited with the aim to provide a better grasp on their capabilities. This study is conceived as an introduction to UQ validation, and all methods are derived from a few basic rules. The methods are illustrated and tested on synthetic datasets and representative examples extracted from the recent physico-chemical machine learning UQ literature.
     
-[^16]: 物理学知识作为不确定性量化模型的信息场理论
+[^17]: 物理学知识作为不确定性量化模型的信息场理论
 
     Physics-informed Information Field Theory for Modeling Physical Systems with Uncertainty Quantification. (arXiv:2301.07609v2 [stat.ML] UPDATED)
 
@@ -254,7 +269,7 @@
 
     Data-driven approaches coupled with physical knowledge are powerful techniques to model systems. The goal of such models is to efficiently solve for the underlying field by combining measurements with known physical laws. As many systems contain unknown elements, such as missing parameters, noisy data, or incomplete physical laws, this is widely approached as an uncertainty quantification problem. The common techniques to handle all the variables typically depend on the numerical scheme used to approximate the posterior, and it is desirable to have a method which is independent of any such discretization. Information field theory (IFT) provides the tools necessary to perform statistics over fields that are not necessarily Gaussian. We extend IFT to physics-informed IFT (PIFT) by encoding the functional priors with information about the physical laws which describe the field. The posteriors derived from this PIFT remain independent of any numerical scheme and can capture multiple modes,
     
-[^17]: 切片最优偏转运输
+[^18]: 切片最优偏转运输
 
     Sliced Optimal Partial Transport. (arXiv:2212.08049v5 [cs.LG] UPDATED)
 
@@ -268,7 +283,7 @@
 
     Optimal transport (OT) has become exceedingly popular in machine learning, data science, and computer vision. The core assumption in the OT problem is the equal total amount of mass in source and target measures, which limits its application. Optimal Partial Transport (OPT) is a recently proposed solution to this limitation. Similar to the OT problem, the computation of OPT relies on solving a linear programming problem (often in high dimensions), which can become computationally prohibitive. In this paper, we propose an efficient algorithm for calculating the OPT problem between two non-negative measures in one dimension. Next, following the idea of sliced OT distances, we utilize slicing to define the sliced OPT distance. Finally, we demonstrate the computational and accuracy benefits of the sliced OPT-based method in various numerical experiments. In particular, we show an application of our proposed Sliced-OPT in noisy point cloud registration.
     
-[^18]: 紧凑集成用于高效的不确定性估计
+[^19]: 紧凑集成用于高效的不确定性估计
 
     Packed-Ensembles for Efficient Uncertainty Estimation. (arXiv:2210.09184v2 [cs.LG] UPDATED)
 
@@ -282,7 +297,7 @@
 
     Deep Ensembles (DE) are a prominent approach for achieving excellent performance on key metrics such as accuracy, calibration, uncertainty estimation, and out-of-distribution detection. However, hardware limitations of real-world systems constrain to smaller ensembles and lower-capacity networks, significantly deteriorating their performance and properties. We introduce Packed-Ensembles (PE), a strategy to design and train lightweight structured ensembles by carefully modulating the dimension of their encoding space. We leverage grouped convolutions to parallelize the ensemble into a single shared backbone and forward pass to improve training and inference speeds. PE is designed to operate within the memory limits of a standard neural network. Our extensive research indicates that PE accurately preserves the properties of DE, such as diversity, and performs equally well in terms of accuracy, calibration, out-of-distribution detection, and robustness to distribution shift. We make our c
     
-[^19]: 聚类图匹配用于标签恢复和图分类
+[^20]: 聚类图匹配用于标签恢复和图分类
 
     Clustered Graph Matching for Label Recovery and Graph Classification. (arXiv:2205.03486v2 [stat.ML] UPDATED)
 
@@ -296,7 +311,7 @@
 
     Given a collection of vertex-aligned networks and an additional label-shuffled network, we propose procedures for leveraging the signal in the vertex-aligned collection to recover the labels of the shuffled network. We consider matching the shuffled network to averages of the networks in the vertex-aligned collection at different levels of granularity. We demonstrate both in theory and practice that if the graphs come from different network classes, then clustering the networks into classes followed by matching the new graph to cluster-averages can yield higher fidelity matching performance than matching to the global average graph. Moreover, by minimizing the graph matching objective function with respect to each cluster average, this approach simultaneously classifies and recovers the vertex labels for the shuffled graph. These theoretical developments are further reinforced via an illuminating real data experiment matching human connectomes.
     
-[^20]: 随机流形采样和联合稀疏正则化的多标签特征选择
+[^21]: 随机流形采样和联合稀疏正则化的多标签特征选择
 
     Random Manifold Sampling and Joint Sparse Regularization for Multi-label Feature Selection. (arXiv:2204.06445v3 [stat.ML] UPDATED)
 
@@ -310,7 +325,7 @@
 
     Multi-label learning is usually used to mine the correlation between features and labels, and feature selection can retain as much information as possible through a small number of features. $\ell_{2,1}$ regularization method can get sparse coefficient matrix, but it can not solve multicollinearity problem effectively. The model proposed in this paper can obtain the most relevant few features by solving the joint constrained optimization problems of $\ell_{2,1}$ and $\ell_{F}$ regularization.In manifold regularization, we implement random walk strategy based on joint information matrix, and get a highly robust neighborhood graph.In addition, we given the algorithm for solving the model and proved its convergence.Comparative experiments on real-world data sets show that the proposed method outperforms other methods.
     
-[^21]: 具范数约束的神经网络的逼近误差界与应用研究
+[^22]: 具范数约束的神经网络的逼近误差界与应用研究
 
     Approximation bounds for norm constrained neural networks with applications to regression and GANs. (arXiv:2201.09418v3 [cs.LG] UPDATED)
 
@@ -324,7 +339,7 @@
 
     This paper studies the approximation capacity of ReLU neural networks with norm constraint on the weights. We prove upper and lower bounds on the approximation error of these networks for smooth function classes. The lower bound is derived through the Rademacher complexity of neural networks, which may be of independent interest. We apply these approximation bounds to analyze the convergences of regression using norm constrained neural networks and distribution estimation by GANs. In particular, we obtain convergence rates for over-parameterized neural networks. It is also shown that GANs can achieve optimal rate of learning probability distributions, when the discriminator is a properly chosen norm constrained neural network.
     
-[^22]: 统计上意义的近似：一种在变换器中近似图灵机的案例研究
+[^23]: 统计上意义的近似：一种在变换器中近似图灵机的案例研究
 
     Statistically Meaningful Approximation: a Case Study on Approximating Turing Machines with Transformers. (arXiv:2107.13163v3 [cs.LG] UPDATED)
 
@@ -338,7 +353,7 @@
 
     A common lens to theoretically study neural net architectures is to analyze the functions they can approximate. However, constructions from approximation theory may be unrealistic and therefore less meaningful. For example, a common unrealistic trick is to encode target function values using infinite precision. To address these issues, this work proposes a formal definition of statistically meaningful (SM) approximation which requires the approximating network to exhibit good statistical learnability. We study SM approximation for two function classes: boolean circuits and Turing machines. We show that overparameterized feedforward neural nets can SM approximate boolean circuits with sample complexity depending only polynomially on the circuit size, not the size of the network. In addition, we show that transformers can SM approximate Turing machines with computation time bounded by $T$ with sample complexity polynomial in the alphabet size, state space size, and $\log (T)$. We also in
     
-[^23]: 针对具有凸惩罚的鲁棒M-估计的样外误差估计
+[^24]: 针对具有凸惩罚的鲁棒M-估计的样外误差估计
 
     Out-of-sample error estimate for robust M-estimators with convex penalty. (arXiv:2008.11840v5 [math.ST] UPDATED)
 
@@ -352,7 +367,7 @@
 
     A generic out-of-sample error estimate is proposed for robust $M$-estimators regularized with a convex penalty in high-dimensional linear regression where $(X,y)$ is observed and $p,n$ are of the same order. If $\psi$ is the derivative of the robust data-fitting loss $\rho$, the estimate depends on the observed data only through the quantities $\hat\psi = \psi(y-X\hat\beta)$, $X^\top \hat\psi$ and the derivatives $(\partial/\partial y) \hat\psi$ and $(\partial/\partial y) X\hat\beta$ for fixed $X$.  The out-of-sample error estimate enjoys a relative error of order $n^{-1/2}$ in a linear model with Gaussian covariates and independent noise, either non-asymptotically when $p/n\le \gamma$ or asymptotically in the high-dimensional asymptotic regime $p/n\to\gamma'\in(0,\infty)$. General differentiable loss functions $\rho$ are allowed provided that $\psi=\rho'$ is 1-Lipschitz. The validity of the out-of-sample error estimate holds either under a strong convexity assumption, or for the $\ell
     
-[^24]: 变分Wasserstein质心用于几何聚类
+[^25]: 变分Wasserstein质心用于几何聚类
 
     Variational Wasserstein Barycenters for Geometric Clustering. (arXiv:2002.10543v2 [cs.LG] UPDATED)
 
@@ -366,7 +381,7 @@
 
     We propose to compute Wasserstein barycenters (WBs) by solving for Monge maps with variational principle. We discuss the metric properties of WBs and explore their connections, especially the connections of Monge WBs, to K-means clustering and co-clustering. We also discuss the feasibility of Monge WBs on unbalanced measures and spherical domains. We propose two new problems -regularized K-means and Wasserstein barycenter compression. We demonstrate the use of VWBs in solving these clustering-related problems.
     
-[^25]: 隔开式试验的最优设计
+[^26]: 隔开式试验的最优设计
 
     Optimal Experimental Design for Staggered Rollouts. (arXiv:1911.03764v5 [econ.EM] UPDATED)
 
