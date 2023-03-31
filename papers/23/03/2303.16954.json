@@ -1,0 +1,12 @@
+{
+    "title": "Leveraging joint sparsity in hierarchical Bayesian learning. (arXiv:2303.16954v1 [stat.ML])",
+    "abstract": "We present a hierarchical Bayesian learning approach to infer jointly sparse parameter vectors from multiple measurement vectors. Our model uses separate conditionally Gaussian priors for each parameter vector and common gamma-distributed hyper-parameters to enforce joint sparsity. The resulting joint-sparsity-promoting priors are combined with existing Bayesian inference methods to generate a new family of algorithms. Our numerical experiments, which include a multi-coil magnetic resonance imaging application, demonstrate that our new approach consistently outperforms commonly used hierarchical Bayesian methods.",
+    "link": "http://arxiv.org/abs/2303.16954",
+    "context": "Title: Leveraging joint sparsity in hierarchical Bayesian learning. (arXiv:2303.16954v1 [stat.ML])\nAbstract: We present a hierarchical Bayesian learning approach to infer jointly sparse parameter vectors from multiple measurement vectors. Our model uses separate conditionally Gaussian priors for each parameter vector and common gamma-distributed hyper-parameters to enforce joint sparsity. The resulting joint-sparsity-promoting priors are combined with existing Bayesian inference methods to generate a new family of algorithms. Our numerical experiments, which include a multi-coil magnetic resonance imaging application, demonstrate that our new approach consistently outperforms commonly used hierarchical Bayesian methods.",
+    "path": "papers/23/03/2303.16954.json",
+    "total_tokens": 718,
+    "translated_title": "利用联合稀疏性的分层贝叶斯学习方法",
+    "translated_abstract": "我们提出了一种分层贝叶斯学习方法，从多个测量向量中推断联合稀疏的参数向量。我们的模型为每个参数向量使用单独的条件高斯先验，并使用共同的伽马分布超参数来强制联合稀疏性。得到的联合稀疏性先验与现有的贝叶斯推断方法相结合，形成了一系列新算法。我们的数值实验，包括多线圈磁共振成像应用，证明了我们的新方法始终优于常用的分层贝叶斯方法。",
+    "tldr": "本文提出了一种分层贝叶斯学习方法，用于从多个测量向量中推断联合稀疏的参数向量，该方法使用共同的伽马分布超参数来强制联合稀疏性，并在实验中进行了验证。",
+    "en_tdlr": "This paper proposes a hierarchical Bayesian learning approach to infer jointly sparse parameter vectors from multiple measurement vectors. By combining joint-sparsity-promoting priors with existing Bayesian inference methods, a new family of algorithms is generated, which consistently outperforms commonly used hierarchical Bayesian methods according to numerical experiments, including a multi-coil magnetic resonance imaging application."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Data-driven multiscale modeling of subgrid parameterizations in climate models. (arXiv:2303.17496v1 [physics.ao-ph])",
+    "abstract": "Subgrid parameterizations, which represent physical processes occurring below the resolution of current climate models, are an important component in producing accurate, long-term predictions for the climate. A variety of approaches have been tested to design these components, including deep learning methods. In this work, we evaluate a proof of concept illustrating a multiscale approach to this prediction problem. We train neural networks to predict subgrid forcing values on a testbed model and examine improvements in prediction accuracy that can be obtained by using additional information in both fine-to-coarse and coarse-to-fine directions.",
+    "link": "http://arxiv.org/abs/2303.17496",
+    "context": "Title: Data-driven multiscale modeling of subgrid parameterizations in climate models. (arXiv:2303.17496v1 [physics.ao-ph])\nAbstract: Subgrid parameterizations, which represent physical processes occurring below the resolution of current climate models, are an important component in producing accurate, long-term predictions for the climate. A variety of approaches have been tested to design these components, including deep learning methods. In this work, we evaluate a proof of concept illustrating a multiscale approach to this prediction problem. We train neural networks to predict subgrid forcing values on a testbed model and examine improvements in prediction accuracy that can be obtained by using additional information in both fine-to-coarse and coarse-to-fine directions.",
+    "path": "papers/23/03/2303.17496.json",
+    "total_tokens": 726,
+    "translated_title": "基于数据驱动的气候模型子网格参数化多尺度建模",
+    "translated_abstract": "子网格参数化是目前气候模型中重要的组成部分，用于表示低于模型分辨率下发生的物理过程，从而产生准确的长期气候预测。已经尝试了多种方法来设计这些组件，包括深度学习方法。本研究中，我们评估了一种多尺度方法用于解决这个预测问题的概念验证。我们训练神经网络来预测测试模型上的子网格强迫值，并研究在精细-粗糙和粗糙-精细方向上使用额外信息可以获得的预测准确性提高。",
+    "tldr": "该研究提出了一种基于数据驱动的气候模型多尺度子网格参数化建模方法，通过训练神经网络预测子网格强迫值来提高预测准确性。",
+    "en_tdlr": "This study proposes a data-driven multiscale modeling approach for subgrid parameterizations in climate models, which improves prediction accuracy by training neural networks to predict subgrid forcing values with additional information in both fine-to-coarse and coarse-to-fine directions."
+}

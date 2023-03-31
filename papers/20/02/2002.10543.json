@@ -1,0 +1,12 @@
+{
+    "title": "Variational Wasserstein Barycenters for Geometric Clustering. (arXiv:2002.10543v2 [cs.LG] UPDATED)",
+    "abstract": "We propose to compute Wasserstein barycenters (WBs) by solving for Monge maps with variational principle. We discuss the metric properties of WBs and explore their connections, especially the connections of Monge WBs, to K-means clustering and co-clustering. We also discuss the feasibility of Monge WBs on unbalanced measures and spherical domains. We propose two new problems -regularized K-means and Wasserstein barycenter compression. We demonstrate the use of VWBs in solving these clustering-related problems.",
+    "link": "http://arxiv.org/abs/2002.10543",
+    "context": "Title: Variational Wasserstein Barycenters for Geometric Clustering. (arXiv:2002.10543v2 [cs.LG] UPDATED)\nAbstract: We propose to compute Wasserstein barycenters (WBs) by solving for Monge maps with variational principle. We discuss the metric properties of WBs and explore their connections, especially the connections of Monge WBs, to K-means clustering and co-clustering. We also discuss the feasibility of Monge WBs on unbalanced measures and spherical domains. We propose two new problems -regularized K-means and Wasserstein barycenter compression. We demonstrate the use of VWBs in solving these clustering-related problems.",
+    "path": "papers/20/02/2002.10543.json",
+    "total_tokens": 711,
+    "translated_title": "变分Wasserstein质心用于几何聚类",
+    "translated_abstract": "我们提出通过解决具有变分原理的Monge映射来计算Wasserstein质心(WBs)。我们讨论了WBs的度量特性，并探索它们的联系，特别是Monge WBs与K-means聚类和共同聚类的联系。我们还讨论了Monge WBs在非平衡度量和球形域上的可行性。我们提出了两个新问题——正则化K-means和Wasserstein质心压缩。我们演示了使用VWBs解决这些聚类相关问题的方法。",
+    "tldr": "该论文提出了利用变分Wasserstein质心解决几何聚类问题的方法，特别是Monge WBs与K-means聚类和共同聚类相关，同时还提出了两个新问题——正则化K-means和Wasserstein质心压缩，并演示了VWBs在解决这些聚类相关问题的有效性。",
+    "en_tdlr": "This paper proposes using variational Wasserstein barycenters to solve geometric clustering problems, with a focus on the connections between Monge WBs and K-means/clustering. The paper also introduces two new problems, and demonstrates the efficacy of using VWBs to solve these clustering-related problems."
+}

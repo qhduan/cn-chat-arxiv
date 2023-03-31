@@ -1,0 +1,12 @@
+{
+    "title": "Improving the Diproche CNL through autoformalization via GPT-3. (arXiv:2303.17513v1 [cs.CL])",
+    "abstract": "The Diproche system is an automated proof checker for texts written in a controlled fragment of German, designed for didactical applications in classes introducing students to proofs for the first time. The first version of the system used a controlled natural language for which a Prolog formalization routine was written. In this paper, we explore the possibility of prompting large language models for autoformalization in the context of Diproche, with encouraging first results.",
+    "link": "http://arxiv.org/abs/2303.17513",
+    "context": "Title: Improving the Diproche CNL through autoformalization via GPT-3. (arXiv:2303.17513v1 [cs.CL])\nAbstract: The Diproche system is an automated proof checker for texts written in a controlled fragment of German, designed for didactical applications in classes introducing students to proofs for the first time. The first version of the system used a controlled natural language for which a Prolog formalization routine was written. In this paper, we explore the possibility of prompting large language models for autoformalization in the context of Diproche, with encouraging first results.",
+    "path": "papers/23/03/2303.17513.json",
+    "total_tokens": 581,
+    "translated_title": "通过GPT-3自动形式化提高Diproche CNL系统",
+    "translated_abstract": "Diproche系统是一款针对德语控制语言片段的自动化证明检查器，旨在用于教学应用，在引导学生进行证明时使用。该系统的第一个版本使用一种控制自然语言，其Prolog形式化例程已经编写好。本文中，我们探讨了在Diproche上使用大型语言模型进行自动形式化的可能性，并取得了令人鼓舞的初步结果。",
+    "tldr": "本文探讨了在Diproche上使用大型语言模型进行自动形式化的可能性，并取得了令人鼓舞的初步结果。",
+    "en_tdlr": "This paper explores the possibility of using large language models for autoformalization in the context of Diproche, with encouraging preliminary results."
+}

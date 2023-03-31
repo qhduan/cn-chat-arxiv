@@ -1,0 +1,12 @@
+{
+    "title": "Learning dynamical systems: an example from open quantum system dynamics. (arXiv:2211.06678v2 [quant-ph] UPDATED)",
+    "abstract": "Machine learning algorithms designed to learn dynamical systems from data can be used to forecast, control and interpret the observed dynamics. In this work we exemplify the use of one of such algorithms, namely Koopman operator learning, in the context of open quantum system dynamics. We will study the dynamics of a small spin chain coupled with dephasing gates and show how Koopman operator learning is an approach to efficiently learn not only the evolution of the density matrix, but also of every physical observable associated to the system. Finally, leveraging the spectral decomposition of the learned Koopman operator, we show how symmetries obeyed by the underlying dynamics can be inferred directly from data.",
+    "link": "http://arxiv.org/abs/2211.06678",
+    "context": "Title: Learning dynamical systems: an example from open quantum system dynamics. (arXiv:2211.06678v2 [quant-ph] UPDATED)\nAbstract: Machine learning algorithms designed to learn dynamical systems from data can be used to forecast, control and interpret the observed dynamics. In this work we exemplify the use of one of such algorithms, namely Koopman operator learning, in the context of open quantum system dynamics. We will study the dynamics of a small spin chain coupled with dephasing gates and show how Koopman operator learning is an approach to efficiently learn not only the evolution of the density matrix, but also of every physical observable associated to the system. Finally, leveraging the spectral decomposition of the learned Koopman operator, we show how symmetries obeyed by the underlying dynamics can be inferred directly from data.",
+    "path": "papers/22/11/2211.06678.json",
+    "total_tokens": 727,
+    "translated_title": "学习动态系统：来自开放量子系统动力学的举例",
+    "translated_abstract": "设计用于从数据中学习动态系统的机器学习算法可用于预测、控制和解释观察到的动态。在本文中，我们举例说明了其中一种算法，即库普曼算子学习，应用于开放量子系统动力学。我们将研究由退相干门耦合的小自旋链的动态，并展示了库普曼算子学习如何高效地学习密度矩阵的演化，以及与系统相关的每个物理可观察量的演化。最后，利用学习的库普曼算子的谱分解，我们展示了如何直接从数据推断出底层动力学遵循的对称性。",
+    "tldr": "应用库普曼算子学习算法可以高效地学习量子系统的演化和可观测量，同时推断出底层动力学的对称性。",
+    "en_tdlr": "Using Koopman operator learning algorithm can efficiently learn the evolution and observables of quantum systems, and infer the symmetries obeyed by the underlying dynamics directly from data."
+}

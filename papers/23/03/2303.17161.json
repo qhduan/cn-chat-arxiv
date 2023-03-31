@@ -1,0 +1,12 @@
+{
+    "title": "TreePiece: Faster Semantic Parsing via Tree Tokenization. (arXiv:2303.17161v1 [cs.CL])",
+    "abstract": "Autoregressive (AR) encoder-decoder neural networks have proved successful in many NLP problems, including Semantic Parsing -- a task that translates natural language to machine-readable parse trees. However, the sequential prediction process of AR models can be slow. To accelerate AR for semantic parsing, we introduce a new technique called TreePiece that tokenizes a parse tree into subtrees and generates one subtree per decoding step. On TopV2 benchmark, TreePiece shows 4.6 times faster decoding speed than standard AR, and comparable speed but significantly higher accuracy compared to Non-Autoregressive (NAR).",
+    "link": "http://arxiv.org/abs/2303.17161",
+    "context": "Title: TreePiece: Faster Semantic Parsing via Tree Tokenization. (arXiv:2303.17161v1 [cs.CL])\nAbstract: Autoregressive (AR) encoder-decoder neural networks have proved successful in many NLP problems, including Semantic Parsing -- a task that translates natural language to machine-readable parse trees. However, the sequential prediction process of AR models can be slow. To accelerate AR for semantic parsing, we introduce a new technique called TreePiece that tokenizes a parse tree into subtrees and generates one subtree per decoding step. On TopV2 benchmark, TreePiece shows 4.6 times faster decoding speed than standard AR, and comparable speed but significantly higher accuracy compared to Non-Autoregressive (NAR).",
+    "path": "papers/23/03/2303.17161.json",
+    "total_tokens": 761,
+    "translated_title": "TreePiece：通过树状分割提高语义解析速度",
+    "translated_abstract": "自回归编码器-解码器神经网络已经在许多自然语言处理问题中取得了成功，包括语义解析（一种将自然语言转换为机器可读的解析树的任务）。然而，自回归模型的顺序预测过程可能会很慢。为了加速用于语义分析的自回归模型，我们引入了一种新技术，称为TreePiece，它将解析树分割成子树，并在每个解码步骤中生成一个子树。在TopV2基准测试中，TreePiece的解码速度比标准自回归快4.6倍，比非自回归方法（NAR）的速度相当但准确性显着更高。",
+    "tldr": "本文提出的TreePiece技术将解析树分割成子树，以加速自回归模型用于语义分析的过程，相比标准自回归提高了4.6倍的解码速度，并在速度相当的情况下准确性更高于非自回归方法。",
+    "en_tdlr": "This paper introduces TreePiece, which tokenizes a parse tree into subtrees and generates one subtree per decoding step to accelerate AR for semantic parsing. Compared to standard AR, TreePiece shows 4.6 times faster decoding speed, and significantly higher accuracy compared to non-autoregressive methods."
+}

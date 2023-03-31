@@ -1,0 +1,12 @@
+{
+    "title": "A New Deep Learning and XAI-Based Algorithm for Features Selection in Genomics. (arXiv:2303.16914v1 [q-bio.GN])",
+    "abstract": "In the field of functional genomics, the analysis of gene expression profiles through Machine and Deep Learning is increasingly providing meaningful insight into a number of diseases. The paper proposes a novel algorithm to perform Feature Selection on genomic-scale data, which exploits the reconstruction capabilities of autoencoders and an ad-hoc defined Explainable Artificial Intelligence-based score in order to select the most informative genes for diagnosis, prognosis, and precision medicine. Results of the application on a Chronic Lymphocytic Leukemia dataset evidence the effectiveness of the algorithm, by identifying and suggesting a set of meaningful genes for further medical investigation.",
+    "link": "http://arxiv.org/abs/2303.16914",
+    "context": "Title: A New Deep Learning and XAI-Based Algorithm for Features Selection in Genomics. (arXiv:2303.16914v1 [q-bio.GN])\nAbstract: In the field of functional genomics, the analysis of gene expression profiles through Machine and Deep Learning is increasingly providing meaningful insight into a number of diseases. The paper proposes a novel algorithm to perform Feature Selection on genomic-scale data, which exploits the reconstruction capabilities of autoencoders and an ad-hoc defined Explainable Artificial Intelligence-based score in order to select the most informative genes for diagnosis, prognosis, and precision medicine. Results of the application on a Chronic Lymphocytic Leukemia dataset evidence the effectiveness of the algorithm, by identifying and suggesting a set of meaningful genes for further medical investigation.",
+    "path": "papers/23/03/2303.16914.json",
+    "total_tokens": 773,
+    "translated_title": "基于深度学习和XAI的基因组学特征选择新算法",
+    "translated_abstract": "在功能基因组学领域，机器学习和深度学习对基因表达谱的分析越来越能够提供有意义的洞察力，特别是对于多种疾病的分析。本文提出了一种新的算法，利用自编码器的重构能力和一种专门定义的可解释人工智能基础分数，以选择作为诊断、预后和精准医学最具信息量的基因组数据特征。在慢性淋巴细胞白血病数据集上的应用结果表明，该算法的有效性，通过确定并提供一组具有意义的基因组数据特征，有助于进行进一步的医学调查。",
+    "tldr": "本文提出了一种基于深度学习和可解释人工智能的新算法来选择基因组数据中最有信息的特征，为诊断、预后和精准医学提供支持，并在慢性淋巴细胞白血病数据集上取得了有效结果。",
+    "en_tdlr": "This paper proposes a new algorithm based on deep learning and explainable artificial intelligence for selecting the most informative features in genomic data to support diagnosis, prognosis, and precision medicine, and achieves effective results on a Chronic Lymphocytic Leukemia dataset."
+}

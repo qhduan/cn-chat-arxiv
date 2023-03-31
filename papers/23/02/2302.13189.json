@@ -1,0 +1,12 @@
+{
+    "title": "Vagueness in Predicates and Objects. (arXiv:2302.13189v2 [cs.AI] UPDATED)",
+    "abstract": "Classical semantics assumes that one can model reference, predication and quantification with respect to a fixed domain of precise referent objects. Non-logical terms and quantification are then interpreted directly in terms of elements and subsets of this domain. We explore ways to generalise this classical picture of precise predicates and objects to account for variability of meaning due to factors such as vagueness, context and diversity of definitions or opinions. Both names and predicative expressions can be given either multiple semantic referents or be associated with semantic referents that incorporate some model of variability. We present a semantic framework, Variable Reference Semantics, that can accommodate several modes of variability in relation to both predicates and objects.",
+    "link": "http://arxiv.org/abs/2302.13189",
+    "context": "Title: Vagueness in Predicates and Objects. (arXiv:2302.13189v2 [cs.AI] UPDATED)\nAbstract: Classical semantics assumes that one can model reference, predication and quantification with respect to a fixed domain of precise referent objects. Non-logical terms and quantification are then interpreted directly in terms of elements and subsets of this domain. We explore ways to generalise this classical picture of precise predicates and objects to account for variability of meaning due to factors such as vagueness, context and diversity of definitions or opinions. Both names and predicative expressions can be given either multiple semantic referents or be associated with semantic referents that incorporate some model of variability. We present a semantic framework, Variable Reference Semantics, that can accommodate several modes of variability in relation to both predicates and objects.",
+    "path": "papers/23/02/2302.13189.json",
+    "total_tokens": 697,
+    "translated_title": "谓词和物体的模糊性",
+    "translated_abstract": "经典语义学认为，我们可以将参考、谓词和量词建模为固定域内精确参考对象的集合。非逻辑术语和量词可以通过该域中元素和子集的直接解释来解释。但我们探讨了如何将精确谓词和对象的经典观点概括为考虑诸如模糊性、语境和定义或观点多样性等因素的含义的可变性，并提出了一种称为变量参考语义学的语义框架，该框架可以适应涉及谓词和对象的多种变异模式。",
+    "tldr": "本文提出了一种称为变量参考语义学的语义框架，用于建模在谓词和物体中的模糊性和因诸多因素导致的变异性。",
+    "en_tdlr": "This paper presents a semantic framework called Variable Reference Semantics, which models vagueness and variability in predicates and objects due to factors such as context and diversity of definitions or opinions."
+}

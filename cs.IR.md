@@ -2,172 +2,97 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Thistle: A Vector Database in Rust.](http://arxiv.org/abs/2303.16780) | Thistle是一个完全功能的向量数据库，旨在解决回答搜索查询中的潜在知识领域问题，已经在MS MARCO数据集上进行了基准测试，并且有助于推进Rust ML生态系统的发展。 |
-| [^2] | [A Novel Patent Similarity Measurement Methodology: Semantic Distance and Technological Distance.](http://arxiv.org/abs/2303.16767) | 该研究提出了一种混合方法，用于自动测量专利之间的相似性，同时考虑语义和技术相似性，并且实验证明该方法优于仅考虑语义相似性的方法。 |
-| [^3] | [Computationally Efficient Labeling of Cancer Related Forum Posts by Non-Clinical Text Information Retrieval.](http://arxiv.org/abs/2303.16766) | 本研究基于非临床和免费可用的信息，结合分布式计算、文本检索、聚类和分类方法开发了一个能够检索、聚类和展示关于癌症病程信息的计算有效系统。 |
-| [^4] | [Dialogue-to-Video Retrieval.](http://arxiv.org/abs/2303.16761) | 本研究提出了一种基于对话的视频检索系统，使用对话作为搜索描述符，有效地提高了视频检索的准确性。 |
-| [^5] | [Exploring celebrity influence on public attitude towards the COVID-19 pandemic: social media shared sentiment analysis.](http://arxiv.org/abs/2303.16759) | 本文研究了公众人物在社交媒体上共享的信息对 COVID-19 疫情中的公众情感和大众意见的影响。通过收集和分析推文，发现公众人物的信息对公众情感和大众意见具有显著的影响。 |
-| [^6] | [Judicial Intelligent Assistant System: Extracting Events from Divorce Cases to Detect Disputes for the Judge.](http://arxiv.org/abs/2303.16751) | 本文提出了一种基于两轮标注事件提取技术的离婚案件争议检测方法，实现了司法智能助手（JIA）系统，以自动从离婚案件材料中提取重点事件，通过识别其中的共指来对事件进行对齐，并检测冲突。 |
-| [^7] | [A Gold Standard Dataset for the Reviewer Assignment Problem.](http://arxiv.org/abs/2303.16750) | 该论文提出了一个用于审稿人分配问题的新数据集，解决了当前算法难以进行原则比较的问题，并提供了基于此数据集的算法比较结果，为利益相关者在选择算法方面提供了一个基础。 |
-| [^8] | [Bi-directional Training for Composed Image Retrieval via Text Prompt Learning.](http://arxiv.org/abs/2303.16604) | 本文提出了一种基于文本提示学习和双向训练的组成图像检索方法，可以应用于现有的体系结构，并且在修改文本存在噪声或歧义的情况下特别有效。 |
-| [^9] | [Genetic Analysis of Prostate Cancer with Computer Science Methods.](http://arxiv.org/abs/2303.15851) | 本文应用数据科学、机器学习和拓扑网络分析方法对不同转移部位的前列腺癌肿瘤进行了基因分析，筛选出了与前列腺癌转移相关的13个基因，准确率达到了92%。 |
-| [^10] | [Clustering Without Knowing How To: Application and Evaluation.](http://arxiv.org/abs/2209.10267) | 该论文介绍了一个用于图像聚类的众包系统，实验证明只通过众包可以获得有意义的数据聚类，而不需要任何机器学习算法。 |
-| [^11] | [Cooperative Retriever and Ranker in Deep Recommenders.](http://arxiv.org/abs/2206.14649) | 本文介绍了深度推荐系统中的检索和排名两阶段工作流程。传统方法中，这两个组件都是独立训练或使用简单的级联管道，效果不佳。最近一些工作提出联合训练检索器和排名器，但仍存在许多限制。因此，还需要探索更有效的协作方法。 |
+| [^1] | [An evaluation framework for comparing epidemic intelligence systems.](http://arxiv.org/abs/2303.17431) | 本研究提出了一种新的评估流行病情报系统的框架，通过四个评估目标描述性回顾分析，可以发现面向事件监测系统在流行病监测方面的优缺点。 |
+| [^2] | [Methods and advancement of content-based fashion image retrieval: A Review.](http://arxiv.org/abs/2303.17371) | 本综述文章总结了基于内容的时尚图像检索的最新研究，对CBFIR方法进行了分类，并描述了CBFIR研究中常用的数据集和评估措施。 |
+| [^3] | [Yes but.. Can ChatGPT Identify Entities in Historical Documents?.](http://arxiv.org/abs/2303.17322) | 本文通过比较ChatGPT和最先进的基于LM的系统，探究了它在历史文献中进行命名实体识别和分类的能力，发现存在多方面的缺陷，包括实体复杂性和提示特定性等。 |
+| [^4] | [CSDR-BERT: a pre-trained scientific dataset match model for Chinese Scientific Dataset Retrieval.](http://arxiv.org/abs/2301.12700) | 本文介绍了CSDR-BERT，一种用于汉语科学数据检索的预训练科学数据集匹配模型，采用了预训练和微调范式以及改进的模型结构和优化方法，在公共和自建数据集上均表现出更好的性能。 |
+| [^5] | [A Review of Modern Fashion Recommender Systems.](http://arxiv.org/abs/2202.02757) | 本综述综合评估了时尚推荐系统领域的最新研究进展，并分类总结出物品和服装推荐、尺寸推荐和可解释性等方面的研究现状。 |
+| [^6] | [MOEF: Modeling Occasion Evolution in Frequency Domain for Promotion-Aware Click-Through Rate Prediction.](http://arxiv.org/abs/2112.13747) | 本文提出了一种新的CTR模型MOEF，它通过在频域中建模场合演变来处理在线分布的不确定性，采用多个专家学习特征表示，取得了在真实世界的电子商务数据集上优于最先进的CTR模型的效果。 |
 
 # 详细
 
-[^1]: Thistle: Rust中的向量数据库
+[^1]: 一种比较流行病情报系统的评估框架
 
-    Thistle: A Vector Database in Rust. (arXiv:2303.16780v1 [cs.IR])
+    An evaluation framework for comparing epidemic intelligence systems. (arXiv:2303.17431v1 [cs.IR])
 
-    [http://arxiv.org/abs/2303.16780](http://arxiv.org/abs/2303.16780)
+    [http://arxiv.org/abs/2303.17431](http://arxiv.org/abs/2303.17431)
 
-    Thistle是一个完全功能的向量数据库，旨在解决回答搜索查询中的潜在知识领域问题，已经在MS MARCO数据集上进行了基准测试，并且有助于推进Rust ML生态系统的发展。
-
-    
-
-    我们介绍了Thistle，一个完全功能的向量数据库。Thistle是Latent Knowledge Use在回答搜索查询方面的分支，这是初创公司和搜索引擎公司的持续研究课题。我们使用数个著名算法实现Thistle，并在MS MARCO数据集上进行基准测试。结果有助于澄清潜在知识领域以及不断增长的Rust ML生态系统。
-
-    We present Thistle, a fully functional vector database. Thistle is an entry into the domain of latent knowledge use in answering search queries, an ongoing research topic at both start-ups and search engine companies. We implement Thistle with several well-known algorithms, and benchmark results on the MS MARCO dataset. Results help clarify the latent knowledge domain as well as the growing Rust ML ecosystem.
-    
-[^2]: 一种新的专利相似度测量方法：语义距离和技术距离
-
-    A Novel Patent Similarity Measurement Methodology: Semantic Distance and Technological Distance. (arXiv:2303.16767v1 [cs.IR])
-
-    [http://arxiv.org/abs/2303.16767](http://arxiv.org/abs/2303.16767)
-
-    该研究提出了一种混合方法，用于自动测量专利之间的相似性，同时考虑语义和技术相似性，并且实验证明该方法优于仅考虑语义相似性的方法。
+    本研究提出了一种新的评估流行病情报系统的框架，通过四个评估目标描述性回顾分析，可以发现面向事件监测系统在流行病监测方面的优缺点。
 
     
 
-    测量专利之间的相似性是确保创新的新颖性的关键步骤。然而，目前大多数专利相似度测量方法仍然依赖于专家手动分类专利。另一方面，一些研究提出了自动化方法；然而，大部分自动化方法只关注专利的语义相似性。为了解决这些问题，我们提出了一种混合方法，用于自动测量专利之间的相似性，同时考虑语义和技术的相似性。我们基于专利文本使用BERT测量语义相似性，使用Jaccard相似性计算专利的技术相似性，并通过分配权重来实现混合。我们的评估结果表明，所提出的方法优于仅考虑语义相似度的基准方法。
+    在流行病情报的背景下，文献中提出了许多面向事件的监测系统，以促进从任何类型的在线信息源中尽早识别和描述潜在健康威胁。每种系统都有其自己的监测定义和优先级，因此选择最适合给定情况的面向事件监测系统对终端用户来说是一个挑战。在本研究中，我们提出了一种新的评估框架来解决这个问题。它首先将原始输入的流行病事件数据转化为一组具有多粒度的归一化事件，然后基于四个评估目标（空间、时间、主题和来源分析）进行描述性回顾分析。我们通过将其应用于一组由不同面向事件监测系统收集的禽流感数据集，并展示了如何利用我们的框架来确定其在流行病监测方面的优缺点。
 
-    Measuring similarity between patents is an essential step to ensure novelty of innovation. However, a large number of methods of measuring the similarity between patents still rely on manual classification of patents by experts. Another body of research has proposed automated methods; nevertheless, most of it solely focuses on the semantic similarity of patents. In order to tackle these limitations, we propose a hybrid method for automatically measuring the similarity between patents, considering both semantic and technological similarities. We measure the semantic similarity based on patent texts using BERT, calculate the technological similarity with IPC codes using Jaccard similarity, and perform hybridization by assigning weights to the two similarity methods. Our evaluation result demonstrates that the proposed method outperforms the baseline that considers the semantic similarity only.
+    In the context of Epidemic Intelligence, many Event-Based Surveillance (EBS) systems have been proposed in the literature to promote the early identification and characterization of potential health threats from online sources of any nature. Each EBS system has its own surveillance definitions and priorities, therefore this makes the task of selecting the most appropriate EBS system for a given situation a challenge for end-users. In this work, we propose a new evaluation framework to address this issue. It first transforms the raw input epidemiological event data into a set of normalized events with multi-granularity, then conducts a descriptive retrospective analysis based on four evaluation objectives: spatial, temporal, thematic and source analysis. We illustrate its relevance by applying it to an Avian Influenza dataset collected by a selection of EBS systems, and show how our framework allows identifying their strengths and drawbacks in terms of epidemic surveillance.
     
-[^3]: 用非临床文本信息检索实现肿瘤相关论坛帖子的计算有效标记
+[^2]: 基于内容的时尚图像检索方法和进展：综述
 
-    Computationally Efficient Labeling of Cancer Related Forum Posts by Non-Clinical Text Information Retrieval. (arXiv:2303.16766v1 [cs.IR])
+    Methods and advancement of content-based fashion image retrieval: A Review. (arXiv:2303.17371v1 [cs.IR])
 
-    [http://arxiv.org/abs/2303.16766](http://arxiv.org/abs/2303.16766)
+    [http://arxiv.org/abs/2303.17371](http://arxiv.org/abs/2303.17371)
 
-    本研究基于非临床和免费可用的信息，结合分布式计算、文本检索、聚类和分类方法开发了一个能够检索、聚类和展示关于癌症病程信息的计算有效系统。
-
-    
-
-    在线上存在着大量关于癌症的信息，但分类和提取有用信息很困难。几乎所有的医疗保健数据处理研究都涉及正式的临床数据，但非临床数据中也有有价值的信息。本研究将分布式计算、文本检索、聚类和分类方法结合成一个连贯、计算有效的系统，基于非临床和免费可用的信息，可以澄清癌症患者的病程。我们开发了一个完全功能的原型，可以从非临床论坛帖子中检索、聚类和展示关于癌症病程的信息。我们评估了三种聚类算法（MR-DBSCAN、DBSCAN和HDBSCAN），并比较了它们在调整后的兰德指数和总运行时间方面的表现，作为检索的帖子数量和邻域半径函数。聚类结果显示，邻域半径对聚类结果有最显著的影响。
-
-    An abundance of information about cancer exists online, but categorizing and extracting useful information from it is difficult. Almost all research within healthcare data processing is concerned with formal clinical data, but there is valuable information in non-clinical data too. The present study combines methods within distributed computing, text retrieval, clustering, and classification into a coherent and computationally efficient system, that can clarify cancer patient trajectories based on non-clinical and freely available information. We produce a fully-functional prototype that can retrieve, cluster and present information about cancer trajectories from non-clinical forum posts. We evaluate three clustering algorithms (MR-DBSCAN, DBSCAN, and HDBSCAN) and compare them in terms of Adjusted Rand Index and total run time as a function of the number of posts retrieved and the neighborhood radius. Clustering results show that neighborhood radius has the most significant impact on c
-    
-[^4]: 基于对话的视频检索
-
-    Dialogue-to-Video Retrieval. (arXiv:2303.16761v1 [cs.IR])
-
-    [http://arxiv.org/abs/2303.16761](http://arxiv.org/abs/2303.16761)
-
-    本研究提出了一种基于对话的视频检索系统，使用对话作为搜索描述符，有效地提高了视频检索的准确性。
+    本综述文章总结了基于内容的时尚图像检索的最新研究，对CBFIR方法进行了分类，并描述了CBFIR研究中常用的数据集和评估措施。
 
     
 
-    近年来，在社交媒体等网络平台上，人们进行着越来越多的对话。这启发了基于对话的检索的发展，其中基于对话的视频检索对于推荐系统具有越来越大的兴趣。不同于其他视频检索任务，对话到视频检索使用以用户生成的对话为搜索描述符的结构化查询。本文提出了一个新颖的基于对话的视频检索系统，融合了结构化的对话信息。在AVSD数据集上进行的实验表明，我们提出的使用纯文本查询的方法在R@1上比以前的模型提高了15.8%。此外，我们使用对话作为查询的方法，在R@1、R@5和R@10上分别提高了4.2%、6.2%和8.6%，在R@1、R@5和R@10上分别比基准模型提高了0.7%、3.6%和6.0%。
+    基于内容的时尚图像检索在我们的日常生活中广泛使用，用于从在线平台上搜索时尚图像或商品。在电子商务购买中，当消费者上传参考图像、带文本的图像、草图或来自日常生活的视觉流时，CBFIR系统可以检索具有相同或可比特征的时尚商品或产品。这降低了CBFIR系统对文本的依赖性，允许更准确直接地搜索所需的时尚产品。考虑到最近的发展，由于多个时尚物品的同时可用性、时尚产品的遮挡和形状变形，CBFIR在现实世界中的视觉搜索仍存在局限性。本文重点介绍了基于图像、带文本的图像、草图和视频的CBFIR方法。因此，我们将CBFIR方法分为四类，即基于图像的CBFIR（增加属性和样式），图像和文本引导、草图引导和视频引导的CBFIR。在本综述文章中，我们总结了CBFIR的最新研究，对CBFIR方法进行了分类，并描述了CBFIR研究中常用的数据集和评估措施。
 
-    Recent years have witnessed an increasing amount of dialogue/conversation on the web especially on social media. That inspires the development of dialogue-based retrieval, in which retrieving videos based on dialogue is of increasing interest for recommendation systems. Different from other video retrieval tasks, dialogue-to-video retrieval uses structured queries in the form of user-generated dialogue as the search descriptor. We present a novel dialogue-to-video retrieval system, incorporating structured conversational information. Experiments conducted on the AVSD dataset show that our proposed approach using plain-text queries improves over the previous counterpart model by 15.8% on R@1. Furthermore, our approach using dialogue as a query, improves retrieval performance by 4.2%, 6.2%, 8.6% on R@1, R@5 and R@10 and outperforms the state-of-the-art model by 0.7%, 3.6% and 6.0% on R@1, R@5 and R@10 respectively.
+    Content-based fashion image retrieval (CBFIR) has been widely used in our daily life for searching fashion images or items from online platforms. In e-commerce purchasing, the CBFIR system can retrieve fashion items or products with the same or comparable features when a consumer uploads a reference image, image with text, sketch or visual stream from their daily life. This lowers the CBFIR system reliance on text and allows for a more accurate and direct searching of the desired fashion product. Considering recent developments, CBFIR still has limits when it comes to visual searching in the real world due to the simultaneous availability of multiple fashion items, occlusion of fashion products, and shape deformation. This paper focuses on CBFIR methods with the guidance of images, images with text, sketches, and videos. Accordingly, we categorized CBFIR methods into four main categories, i.e., image-guided CBFIR (with the addition of attributes and styles), image and text-guided, sket
     
-[^5]: 探究名人对公众态度影响的研究：基于社交媒体情感分析的 COVID-19 研究
+[^3]: 能否使用ChatGPT识别历史文献中的实体？
 
-    Exploring celebrity influence on public attitude towards the COVID-19 pandemic: social media shared sentiment analysis. (arXiv:2303.16759v1 [cs.CL])
+    Yes but.. Can ChatGPT Identify Entities in Historical Documents?. (arXiv:2303.17322v1 [cs.DL])
 
-    [http://arxiv.org/abs/2303.16759](http://arxiv.org/abs/2303.16759)
+    [http://arxiv.org/abs/2303.17322](http://arxiv.org/abs/2303.17322)
 
-    本文研究了公众人物在社交媒体上共享的信息对 COVID-19 疫情中的公众情感和大众意见的影响。通过收集和分析推文，发现公众人物的信息对公众情感和大众意见具有显著的影响。
-
-    
-
-    COVID-19 疫情为健康沟通带来了新机遇，增加了公众使用在线渠道获取与健康相关情绪的机会。人们已经转向社交媒体网络分享与 COVID-19 疫情影响相关的情感。本文研究了公众人物（即运动员、政治家、新闻工作者）共享的社交信息在决定整体公共话语方向中的作用。我们从 2020 年 1 月 1 日到 2022 年 3 月 1 日收集了约 1300 万条推特。使用一个经过调优的 DistilRoBERTa 模型计算了每条推文的情绪，该模型用于比较与公众人物提及同时出现的 COVID-19 疫苗相关推特发布。我们的发现表明，在 COVID-19 疫情的前两年里，与公众人物共享的信息同时出现的情感内容具有一致的模式，影响了公众舆论和大众。
-
-    The COVID-19 pandemic has introduced new opportunities for health communication, including an increase in the public use of online outlets for health-related emotions. People have turned to social media networks to share sentiments related to the impacts of the COVID-19 pandemic. In this paper we examine the role of social messaging shared by Persons in the Public Eye (i.e. athletes, politicians, news personnel) in determining overall public discourse direction. We harvested approximately 13 million tweets ranging from 1 January 2020 to 1 March 2022. The sentiment was calculated for each tweet using a fine-tuned DistilRoBERTa model, which was used to compare COVID-19 vaccine-related Twitter posts (tweets) that co-occurred with mentions of People in the Public Eye. Our findings suggest the presence of consistent patterns of emotional content co-occurring with messaging shared by Persons in the Public Eye for the first two years of the COVID-19 pandemic influenced public opinion and larg
-    
-[^6]: 司法智能助手系统：从离婚案件中提取事件以检测裁判中的争议
-
-    Judicial Intelligent Assistant System: Extracting Events from Divorce Cases to Detect Disputes for the Judge. (arXiv:2303.16751v1 [cs.CL])
-
-    [http://arxiv.org/abs/2303.16751](http://arxiv.org/abs/2303.16751)
-
-    本文提出了一种基于两轮标注事件提取技术的离婚案件争议检测方法，实现了司法智能助手（JIA）系统，以自动从离婚案件材料中提取重点事件，通过识别其中的共指来对事件进行对齐，并检测冲突。
+    本文通过比较ChatGPT和最先进的基于LM的系统，探究了它在历史文献中进行命名实体识别和分类的能力，发现存在多方面的缺陷，包括实体复杂性和提示特定性等。
 
     
 
-    在民事案件的正式程序中，由不同当事人提供的文本资料描述了案件的发展过程。从这些文本材料中提取案件的关键信息并澄清相关当事人的争议焦点是一项困难而必要的任务。本文提出了一种基于两轮标注事件提取技术的离婚案件争议检测方法。我们按照所提出的方法实现了司法智能助手（JIA）系统，以自动从离婚案件材料中提取重点事件，通过识别其中的共指来对事件进行对齐，并检测冲突。
+    大型语言模型(LLM)多年来一直被用于现代文档中的实体识别，取得了最先进的性能。最近几个月，会话代理ChatGPT由于其生成听起来合理的答案的能力，在科学界和公众中引起了很多兴趣。本文尝试以零-shot的方式探究ChatGPT在一次性源（例如历史报纸和古典注释）中进行命名实体识别和分类（NERC）任务的能力，并将其与最先进的基于LM的系统进行比较。研究发现，在识别历史文本中的实体方面存在几个缺陷，包括实体注释准则的一致性、实体的复杂性和代码切换以及提示的特定性。此外，由于历史档案对公众不可访问（因此无法在互联网上使用），也影响了ChatGPT的性能。
 
-    In formal procedure of civil cases, the textual materials provided by different parties describe the development process of the cases. It is a difficult but necessary task to extract the key information for the cases from these textual materials and to clarify the dispute focus of related parties. Currently, officers read the materials manually and use methods, such as keyword searching and regular matching, to get the target information. These approaches are time-consuming and heavily depending on prior knowledge and carefulness of the officers. To assist the officers to enhance working efficiency and accuracy, we propose an approach to detect disputes from divorce cases based on a two-round-labeling event extracting technique in this paper. We implement the Judicial Intelligent Assistant (JIA) system according to the proposed approach to 1) automatically extract focus events from divorce case materials, 2) align events by identifying co-reference among them, and 3) detect conflicts a
+    Large language models (LLMs) have been leveraged for several years now, obtaining state-of-the-art performance in recognizing entities from modern documents. For the last few months, the conversational agent ChatGPT has "prompted" a lot of interest in the scientific community and public due to its capacity of generating plausible-sounding answers. In this paper, we explore this ability by probing it in the named entity recognition and classification (NERC) task in primary sources (e.g., historical newspapers and classical commentaries) in a zero-shot manner and by comparing it with state-of-the-art LM-based systems. Our findings indicate several shortcomings in identifying entities in historical text that range from the consistency of entity annotation guidelines, entity complexity, and code-switching, to the specificity of prompting. Moreover, as expected, the inaccessibility of historical archives to the public (and thus on the Internet) also impacts its performance.
     
-[^7]: 一种用于审稿人分配问题的黄金标准数据集
+[^4]: CSDR-BERT：一种用于汉语科学数据检索的预训练科学数据集匹配模型
 
-    A Gold Standard Dataset for the Reviewer Assignment Problem. (arXiv:2303.16750v1 [cs.IR])
+    CSDR-BERT: a pre-trained scientific dataset match model for Chinese Scientific Dataset Retrieval. (arXiv:2301.12700v3 [cs.IR] UPDATED)
 
-    [http://arxiv.org/abs/2303.16750](http://arxiv.org/abs/2303.16750)
+    [http://arxiv.org/abs/2301.12700](http://arxiv.org/abs/2301.12700)
 
-    该论文提出了一个用于审稿人分配问题的新数据集，解决了当前算法难以进行原则比较的问题，并提供了基于此数据集的算法比较结果，为利益相关者在选择算法方面提供了一个基础。
-
-    
-
-    许多同行评审期刊或会议正在使用或试图使用算法将投稿分配给审稿人。这些自动化方法的关键是“相似度分数”，即对审稿人在审查论文中的专业水平的数值估计，已经提出了许多算法来计算这些分数。然而，这些算法尚未经过有原则的比较，这使得利益相关者难以以基于证据的方式选择算法。比较现有算法和开发更好算法的关键挑战是缺乏公开可用的黄金标准数据，这些数据将用于进行可重复研究。我们通过收集一组新的相似度得分数据来解决这个问题，并将其发布给研究社区。我们的数据集由58位研究人员提供的477个自我报告的专业水平分数组成，用于评估他们先前阅读的论文的审查经验。我们使用这些数据来比较各种算法，并对标准数据集的设计提出了建议。
-
-    Many peer-review venues are either using or looking to use algorithms to assign submissions to reviewers. The crux of such automated approaches is the notion of the "similarity score"--a numerical estimate of the expertise of a reviewer in reviewing a paper--and many algorithms have been proposed to compute these scores. However, these algorithms have not been subjected to a principled comparison, making it difficult for stakeholders to choose the algorithm in an evidence-based manner. The key challenge in comparing existing algorithms and developing better algorithms is the lack of the publicly available gold-standard data that would be needed to perform reproducible research. We address this challenge by collecting a novel dataset of similarity scores that we release to the research community. Our dataset consists of 477 self-reported expertise scores provided by 58 researchers who evaluated their expertise in reviewing papers they have read previously.  We use this data to compare s
-    
-[^8]: 基于文本提示学习和双向训练的组成图像检索方法
-
-    Bi-directional Training for Composed Image Retrieval via Text Prompt Learning. (arXiv:2303.16604v1 [cs.CV])
-
-    [http://arxiv.org/abs/2303.16604](http://arxiv.org/abs/2303.16604)
-
-    本文提出了一种基于文本提示学习和双向训练的组成图像检索方法，可以应用于现有的体系结构，并且在修改文本存在噪声或歧义的情况下特别有效。
+    本文介绍了CSDR-BERT，一种用于汉语科学数据检索的预训练科学数据集匹配模型，采用了预训练和微调范式以及改进的模型结构和优化方法，在公共和自建数据集上均表现出更好的性能。
 
     
 
-    组成图像检索是根据包含参考图像和描述所需更改的修改文本的多模态用户查询来搜索目标图像的方法。现有的解决这个具有挑战性的任务的方法学习从（参考图像，修改文本）对到图像嵌入的映射，然后将其与大型图像语料库进行匹配。本文提出了一种双向训练方案，利用了这种反向查询，并可应用于现有的组成图像检索体系结构。为了编码双向查询，我们在修改文本前面添加一个可学习的令牌，指定查询的方向，然后微调文本嵌入模块的参数。我们没有对网络架构进行其他更改。在两个标准数据集上的实验表明，双向训练在提高组成图像检索性能方面是有效的，特别是在修改文本存在噪声或歧义的情况下。
+    随着开放科学运动下开放和共享科学数据集的数量的增加，有效地检索这些数据集是信息检索(IR)研究中的一个关键任务。近年来，大模型的发展，特别是预训练和微调范式，即在大模型上进行预训练并在下游任务上进行微调的范式，为IR匹配任务提供了新的解决方案。在本研究中，我们使用嵌入层中的原始BERT令牌，在模型层中引入SimCSE和K-最近邻方法改进了Sentence-BERT模型结构，使用余弦损失函数在优化阶段优化目标输出。通过比较实验和消融实现，我们的实验结果表明，我们的模型在公共数据集和自建数据集上均优于其他竞争模型。本研究探讨和验证了预训练技术对科学数据集匹配领域的可行性和有效性。
 
-    Composed image retrieval searches for a target image based on a multi-modal user query comprised of a reference image and modification text describing the desired changes. Existing approaches to solving this challenging task learn a mapping from the (reference image, modification text)-pair to an image embedding that is then matched against a large image corpus. One area that has not yet been explored is the reverse direction, which asks the question, what reference image when modified as describe by the text would produce the given target image? In this work we propose a bi-directional training scheme that leverages such reversed queries and can be applied to existing composed image retrieval architectures. To encode the bi-directional query we prepend a learnable token to the modification text that designates the direction of the query and then finetune the parameters of the text embedding module. We make no other changes to the network architecture. Experiments on two standard datas
+    As the number of open and shared scientific datasets on the Internet increases under the open science movement, efficiently retrieving these datasets is a crucial task in information retrieval (IR) research. In recent years, the development of large models, particularly the pre-training and fine-tuning paradigm, which involves pre-training on large models and fine-tuning on downstream tasks, has provided new solutions for IR match tasks. In this study, we use the original BERT token in the embedding layer, improve the Sentence-BERT model structure in the model layer by introducing the SimCSE and K-Nearest Neighbors method, and use the cosent loss function in the optimization phase to optimize the target output. Our experimental results show that our model outperforms other competing models on both public and self-built datasets through comparative experiments and ablation implementations. This study explores and validates the feasibility and efficiency of pre-training techniques for se
     
-[^9]: 计算机科学方法在前列腺癌遗传学中的应用
+[^5]: 现代时尚推荐系统综述
 
-    Genetic Analysis of Prostate Cancer with Computer Science Methods. (arXiv:2303.15851v1 [cs.IR])
+    A Review of Modern Fashion Recommender Systems. (arXiv:2202.02757v2 [cs.IR] UPDATED)
 
-    [http://arxiv.org/abs/2303.15851](http://arxiv.org/abs/2303.15851)
+    [http://arxiv.org/abs/2202.02757](http://arxiv.org/abs/2202.02757)
 
-    本文应用数据科学、机器学习和拓扑网络分析方法对不同转移部位的前列腺癌肿瘤进行了基因分析，筛选出了与前列腺癌转移相关的13个基因，准确率达到了92%。
-
-    
-
-    转移性前列腺癌是男性最常见的癌症之一。本文采用数据科学、机器学习和拓扑网络分析方法对不同转移部位的前列腺癌肿瘤进行基因分析。文章提出了一般性的基因表达数据预处理和分析方法来过滤显著基因，并采用机器学习模型和次要肿瘤分类来进一步过滤关键基因。最后，本文对不同类型前列腺癌细胞系样本进行了基因共表达网络分析和社区检测。文章筛选出了与前列腺癌转移相关的13个基因，交叉验证下准确率达到了92%。此外，本文还提供了共表达模式的初步见解。
-
-    Metastatic prostate cancer is one of the most common cancers in men. In the advanced stages of prostate cancer, tumours can metastasise to other tissues in the body, which is fatal. In this thesis, we performed a genetic analysis of prostate cancer tumours at different metastatic sites using data science, machine learning and topological network analysis methods. We presented a general procedure for pre-processing gene expression datasets and pre-filtering significant genes by analytical methods. We then used machine learning models for further key gene filtering and secondary site tumour classification. Finally, we performed gene co-expression network analysis and community detection on samples from different prostate cancer secondary site types. In this work, 13 of the 14,379 genes were selected as the most metastatic prostate cancer related genes, achieving approximately 92% accuracy under cross-validation. In addition, we provide preliminary insights into the co-expression patterns
-    
-[^10]: 不需要知道如何聚类：应用和评估
-
-    Clustering Without Knowing How To: Application and Evaluation. (arXiv:2209.10267v3 [cs.HC] UPDATED)
-
-    [http://arxiv.org/abs/2209.10267](http://arxiv.org/abs/2209.10267)
-
-    该论文介绍了一个用于图像聚类的众包系统，实验证明只通过众包可以获得有意义的数据聚类，而不需要任何机器学习算法。
+    本综述综合评估了时尚推荐系统领域的最新研究进展，并分类总结出物品和服装推荐、尺寸推荐和可解释性等方面的研究现状。
 
     
 
-    众包允许在大规模工人群体上运行简单的人类智能任务，可以解决难以制定算法或在合理时间内训练机器学习模型的问题。其中之一就是按不充分的标准对数据进行聚类，这对人类来说很简单，但对机器来说很困难。在这篇演示论文中，我们构建了一个众包系统用于图像聚类，并在https://github.com/Toloka/crowdclustering 上发布其代码，并供大家免费使用。我们在两个不同的图像数据集上进行了实验，即 Zalando 的 FEIDEGGER裙子和 Toloka 鞋子数据集，确认可以仅通过众包获得有意义的数据聚类，而不需要任何机器学习算法。
+    近年来，纺织和服装行业蓬勃发展。顾客不再需要亲自去实体店面，排队试穿衣物，因为成千上万的产品现在都可以在在线目录中找到。然而，由于选项太多，一个有效的推荐系统是必不可少的，以便有效地排序、整理并向用户传达相关的产品资料或信息。有效的时尚推荐系统可以显著提高数十亿顾客的购物体验，并增加提供商的销售和收入。本综述的目的是对在服装和时尚产品特定垂直领域运行的推荐系统进行综述。我们确定了时尚推荐系统研究中最紧迫的挑战，并创建了一个分类法，根据它们试图实现的目标（例如，物品或服装推荐、尺寸推荐、可解释性）对文献进行分类。
 
-    Crowdsourcing allows running simple human intelligence tasks on a large crowd of workers, enabling solving problems for which it is difficult to formulate an algorithm or train a machine learning model in reasonable time. One of such problems is data clustering by an under-specified criterion that is simple for humans, but difficult for machines. In this demonstration paper, we build a crowdsourced system for image clustering and release its code under a free license at https://github.com/Toloka/crowdclustering. Our experiments on two different image datasets, dresses from Zalando's FEIDEGGER and shoes from the Toloka Shoes Dataset, confirm that one can yield meaningful clusters with no machine learning algorithms purely with crowdsourcing.
+    The textile and apparel industries have grown tremendously over the last few years. Customers no longer have to visit many stores, stand in long queues, or try on garments in dressing rooms as millions of products are now available in online catalogs. However, given the plethora of options available, an effective recommendation system is necessary to properly sort, order, and communicate relevant product material or information to users. Effective fashion RS can have a noticeable impact on billions of customers' shopping experiences and increase sales and revenues on the provider side.  The goal of this survey is to provide a review of recommender systems that operate in the specific vertical domain of garment and fashion products. We have identified the most pressing challenges in fashion RS research and created a taxonomy that categorizes the literature according to the objective they are trying to accomplish (e.g., item or outfit recommendation, size recommendation, explainability, 
     
-[^11]: 深度推荐系统中的协作检索器和排名器
+[^6]: MOEF:建模频域中的场合演变，实现促销感知的点击率预测
 
-    Cooperative Retriever and Ranker in Deep Recommenders. (arXiv:2206.14649v2 [cs.IR] UPDATED)
+    MOEF: Modeling Occasion Evolution in Frequency Domain for Promotion-Aware Click-Through Rate Prediction. (arXiv:2112.13747v6 [cs.LG] UPDATED)
 
-    [http://arxiv.org/abs/2206.14649](http://arxiv.org/abs/2206.14649)
+    [http://arxiv.org/abs/2112.13747](http://arxiv.org/abs/2112.13747)
 
-    本文介绍了深度推荐系统中的检索和排名两阶段工作流程。传统方法中，这两个组件都是独立训练或使用简单的级联管道，效果不佳。最近一些工作提出联合训练检索器和排名器，但仍存在许多限制。因此，还需要探索更有效的协作方法。
+    本文提出了一种新的CTR模型MOEF，它通过在频域中建模场合演变来处理在线分布的不确定性，采用多个专家学习特征表示，取得了在真实世界的电子商务数据集上优于最先进的CTR模型的效果。
 
     
 
-    深度推荐系统(DRS)在现代网络服务中被广泛应用。为了处理海量网络内容，DRS采用了两阶段工作流程：检索和排名，以生成其推荐结果。检索器旨在高效地从整个项目中选择一小组相关候选项；而排名器通常更精确但时间消耗更大，应进一步从检索候选项中优化最佳项目。传统上，两个组件要么独立训练，要么在简单的级联管道内训练，这容易产生合作效果差的问题。尽管最近一些工作建议联合训练检索器和排名器，但仍存在许多严重限制：训练和推理中的项分布转移、假阴性和排名顺序不对齐等。因此，探索检索器和排名器之间的有效协作仍然是必要的。
+    促销在电子商务中变得越来越重要和普遍，以吸引客户和促进销售，导致场合经常变化，从而驱动用户表现出不同的行为。在这种情况下，由于即将到来的场合分布的不确定性，大多数现有的点击率（CTR）模型无法在在线服务中良好地推广。本文提出了一种新颖的CTR模型，名为MOEF，用于在场合经常变化的情况下进行推荐。首先，我们设计了一个时间序列，其中包括从在线业务场景中生成的场合信号。由于场合信号在频域中更具有区别性，我们对时间窗口应用傅里叶变换，得到一系列频谱，然后通过场合演变层（OEL）进行处理。通过这种方式，可以学习高阶场合表示，以处理在线分布的不确定性。此外，我们采用多个专家来学习特征表示，表示为场合上下文编码（OCE）和模型感知注意力（MAA），以捕捉用户行为和项目特征的不同方面。在真实世界的电子商务数据集上进行的广泛实验证明，MOEF在离线评估和在线服务方面优于最先进的CTR模型。
 
-    Deep recommender systems (DRS) are intensively applied in modern web services. To deal with the massive web contents, DRS employs a two-stage workflow: retrieval and ranking, to generate its recommendation results. The retriever aims to select a small set of relevant candidates from the entire items with high efficiency; while the ranker, usually more precise but time-consuming, is supposed to further refine the best items from the retrieved candidates. Traditionally, the two components are trained either independently or within a simple cascading pipeline, which is prone to poor collaboration effect. Though some latest works suggested to train retriever and ranker jointly, there still exist many severe limitations: item distribution shift between training and inference, false negative, and misalignment of ranking order. As such, it remains to explore effective collaborations between retriever and ranker.
+    Promotions are becoming more important and prevalent in e-commerce to attract customers and boost sales, leading to frequent changes of occasions, which drives users to behave differently. In such situations, most existing Click-Through Rate (CTR) models can't generalize well to online serving due to distribution uncertainty of the upcoming occasion. In this paper, we propose a novel CTR model named MOEF for recommendations under frequent changes of occasions. Firstly, we design a time series that consists of occasion signals generated from the online business scenario. Since occasion signals are more discriminative in the frequency domain, we apply Fourier Transformation to sliding time windows upon the time series, obtaining a sequence of frequency spectrum which is then processed by Occasion Evolution Layer (OEL). In this way, a high-order occasion representation can be learned to handle the online distribution uncertainty. Moreover, we adopt multiple experts to learn feature repres
     
 

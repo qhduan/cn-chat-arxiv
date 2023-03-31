@@ -1,0 +1,12 @@
+{
+    "title": "System Predictor: Grounding Size Estimator for Logic Programs under Answer Set Semantics. (arXiv:2303.17018v1 [cs.AI])",
+    "abstract": "Answer set programming is a declarative logic programming paradigm geared towards solving difficult combinatorial search problems. While different logic programs can encode the same problem, their performance may vary significantly. It is not always easy to identify which version of the program performs the best. We present the system Predictor (and its algorithmic backend) for estimating the grounding size of programs, a metric that can influence a performance of a system processing a program. We evaluate the impact of Predictor when used as a guide for rewritings produced by the answer set programming rewriting tools Projector and Lpopt. The results demonstrate potential to this approach.",
+    "link": "http://arxiv.org/abs/2303.17018",
+    "context": "Title: System Predictor: Grounding Size Estimator for Logic Programs under Answer Set Semantics. (arXiv:2303.17018v1 [cs.AI])\nAbstract: Answer set programming is a declarative logic programming paradigm geared towards solving difficult combinatorial search problems. While different logic programs can encode the same problem, their performance may vary significantly. It is not always easy to identify which version of the program performs the best. We present the system Predictor (and its algorithmic backend) for estimating the grounding size of programs, a metric that can influence a performance of a system processing a program. We evaluate the impact of Predictor when used as a guide for rewritings produced by the answer set programming rewriting tools Projector and Lpopt. The results demonstrate potential to this approach.",
+    "path": "papers/23/03/2303.17018.json",
+    "total_tokens": 672,
+    "translated_title": "系统预测器：面向答案集语义下逻辑程序的规模估计器",
+    "translated_abstract": "答案集编程是一种面向解决困难组合搜索问题的声明式逻辑编程范式。虽然不同的逻辑程序可以编码同一问题，但它们的性能可能会有很大差异。很难确定哪个版本的程序表现最佳。我们提出了系统Predictor及其算法后端，用于估计程序的实例化大小，这是一个可以影响处理程序的系统性能的度量标准。我们评估了当Predictor用作答案集编程重写工具Projector和Lpopt生成的重写的指南时的影响。结果表明这种方法具有潜力。",
+    "tldr": "系统预测器可以通过估计程序实例化大小来影响系统性能，为答案集编程提供潜在改进。",
+    "en_tdlr": "The System Predictor is capable of influencing system performance in answer set programming by estimating the grounding size of programs, providing potential improvement for this paradigm."
+}

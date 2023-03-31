@@ -1,0 +1,12 @@
+{
+    "title": "Coskewness under dependence uncertainty. (arXiv:2303.17266v1 [math.ST])",
+    "abstract": "We study the impact of dependence uncertainty on the expectation of the product of $d$ random variables, $\\mathbb{E}(X_1X_2\\cdots X_d)$ when $X_i \\sim F_i$ for all~$i$. Under some conditions on the $F_i$, explicit sharp bounds are obtained and a numerical method is provided to approximate them for arbitrary choices of the $F_i$. The results are applied to assess the impact of dependence uncertainty on coskewness. In this regard, we introduce a novel notion of \"standardized rank coskewness,\" which is invariant under strictly increasing transformations and takes values in $[-1,\\ 1]$.",
+    "link": "http://arxiv.org/abs/2303.17266",
+    "context": "Title: Coskewness under dependence uncertainty. (arXiv:2303.17266v1 [math.ST])\nAbstract: We study the impact of dependence uncertainty on the expectation of the product of $d$ random variables, $\\mathbb{E}(X_1X_2\\cdots X_d)$ when $X_i \\sim F_i$ for all~$i$. Under some conditions on the $F_i$, explicit sharp bounds are obtained and a numerical method is provided to approximate them for arbitrary choices of the $F_i$. The results are applied to assess the impact of dependence uncertainty on coskewness. In this regard, we introduce a novel notion of \"standardized rank coskewness,\" which is invariant under strictly increasing transformations and takes values in $[-1,\\ 1]$.",
+    "path": "papers/23/03/2303.17266.json",
+    "total_tokens": 704,
+    "translated_title": "处理依赖不确定性下的共偏度问题",
+    "translated_abstract": "本论文研究了$X_i\\sim F_i$的$d$个随机变量乘积$\\mathbb{E}(X_1X_2\\cdots X_d)$在依赖关系不确定时的期望影响。在对$F_i$的一些限制条件下，得到了明确的尖锐限制，并提供了数值方法，以逼近任意选择的$F_i$的结果。结果应用于评估依赖不确定性对共偏度的影响。在这方面，我们介绍了一种新的“标准排名共偏度”的概念，其在严格递增变换下不变，并取值为[-1,1]。",
+    "tldr": "本文研究在依赖不确定的情况下，解决序列随机变量乘积的期望问题，并介绍了一种新的“标准排名共偏度”的概念。",
+    "en_tdlr": "This paper investigates the expectation of the product of random variables under dependence uncertainty, and introduces a new concept of \"standardized rank coskewness.\""
+}

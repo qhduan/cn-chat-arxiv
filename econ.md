@@ -2,127 +2,172 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Peer Prediction for Peer Review: Designing a Marketplace for Ideas.](http://arxiv.org/abs/2303.16855) | 本文提出了一个平台，利用同行预测算法奖励评审人员，旨在改善早期研究的同行评审，解决研究问题与出版偏见之间的不匹配问题。 |
-| [^2] | [Power sector effects of alternative options for electrifying heavy-duty vehicles: go electric, and charge smartly.](http://arxiv.org/abs/2303.16629) | 研究了电动公路系统和电池电动车的替代方案对于电力部门的影响，发现可灵活充电的车辆共享BEV的电力部门成本最低，而使用电力燃料的重型车辆的成本最高。 |
-| [^3] | [A general equilibrium model for multi-passenger ridesharing systems with stable matching.](http://arxiv.org/abs/2303.16595) | 本文提出了一个通用均衡模型以解决多乘客拼车系统的问题，并提出了一个序列-树算法用于求解问题。 |
-| [^4] | [Critical Thinking Via Storytelling: Theory and Social Media Experiment.](http://arxiv.org/abs/2303.16422) | 通过社交媒体实验，研究人员发现不同的数字叙事格式会影响人们的批判性思维，中等长度的设计最有效，需要认知程度高的个体影响最大。 |
-| [^5] | [Complexity of Equilibria in First-Price Auctions under General Tie-Breaking Rules.](http://arxiv.org/abs/2303.16388) | 本研究探讨了一种常见信息分布下一价拍卖中关于贝叶斯纳什均衡的复杂性，发现即使在三方平局规则下，该问题的复杂度都是PPAD完全的。同时提出了在采用均匀平局规则情况下的部分近似算法。 |
-| [^6] | [Inflation forecasting with attention based transformer neural networks.](http://arxiv.org/abs/2303.15364) | 本文研究了基于注意力机制变压器神经网络用于预测不同通货膨胀率的潜力，结果表明其可以超越传统模型，成为金融决策中的有用工具。 |
-| [^7] | [Incorporating Prior Knowledge of Latent Group Structure in Panel Data Models.](http://arxiv.org/abs/2211.16714) | 本文提出了一种受限制的贝叶斯分组估计器，通过利用研究人员对组的先验信念以两两约束的形式进行表达，将潜在组结构的先验知识纳入到面板数据模型中。蒙特卡罗实验显示，加入先验知识可以得到更准确的系数估计，并且比替代估计器获得更多的预测增益分数。我们应用了我们的方法到两个经验应用中。 |
-| [^8] | [Sparse Quantile Regression.](http://arxiv.org/abs/2006.11201) | 本文研究了稀疏分位回归估计器，通过指数不等式得到了均方误差和回归函数估计误差的非渐近上界，并使用混合整数线性规划和一阶近似算法实现，能在实际数据应用中使用。 |
+| [^1] | [Capitalising the Network Externalities of New Land Supply in the Metaverse.](http://arxiv.org/abs/2303.17180) | 本文基于区块链的虚拟世界The Sandbox的实验数据，研究了首次供应在元宇宙中的网络外部性的资本化，结果发现新土地的供应将会与现有土地形成竞争，但是新增供应也能提升现有土地的网络价值。 |
+| [^2] | [Entrepreneurial Capability And Engagement Of Persons With Disabilities Toward A Framework For Inclusive Entrepreneurship.](http://arxiv.org/abs/2303.17130) | 该研究旨在建立包容性创业框架，调查残疾人的创业能力和参与度。调查结果发现，残疾人在创业方面的感知能力水平较为合适，大多数参与水平回应时投入较多，受访者认为缺乏获得信贷和资金的能力和困难是创业过程中的主要挑战。 |
+| [^3] | [Liquidity Constraints, Cash Windfalls, and Entrepreneurship: Evidence from Administrative Data on Lottery Winners.](http://arxiv.org/abs/2303.17029) | 本文利用台湾彩票获奖者的行政数据，发现丰厚的现金盈利增加了流动性受限家庭创业的可能性，创业财富弹性为0.25至0.36。连续创业家更有可能开始一家新业务，但不会改变他们继续经营当前业务的决策。 |
+| [^4] | [The State of Food Systems Worldwide: Counting Down to 2030.](http://arxiv.org/abs/2303.13669) | 本文介绍了食物系统到2030倒计时倡议提出的五个主题和指标体系结构，并应用最新可用数据构建了第一个全球食物系统基线以跟踪转型。 |
+| [^5] | [Strategic Ambiguity in Global Games.](http://arxiv.org/abs/2303.12263) | 论文研究全球博弈中的策略模糊性对玩家行为的影响，发现模糊质量信息下更多玩家选择恒定收益行动，而低质量信息下更多玩家选择前期最优反应。在金融危机应用中，更模糊质量的新闻会引发债务危机，而质量低的新闻会引发货币危机。 |
+| [^6] | [Extreme Points and First-Order Stochastic Dominance: Theory and Applications.](http://arxiv.org/abs/2302.03135) | 该论文以一阶随机支配(FOSD)区间的极值为基础，研究了一些关于经济学中的重要问题，如心理判断、政治经济学和证券设计。其中，使用极值表征后验分位数的分布得到了关于后验均值分布的类比，并且还统一和概括了涉及不良选择或道德风险的重要结果及文献。 |
+| [^7] | [On the Trail of Lost Pennies: player-funded tug-of-war on the integers.](http://arxiv.org/abs/2209.07451) | 在研究一个基于玩家赞助的整数之间的游戏中，发现了一个有趣的结果，对于一类自然的策略，纳什均衡存在的条件是x在λ和λ^-1之间，其中λ是一个值非常接近于0和1的有理数。 |
+| [^8] | [Information-theoretic limitations of data-based price discrimination.](http://arxiv.org/abs/2204.12723) | 本文研究基于数据的价格歧视，揭示了任何基于数据的定价策略在收入生成方面的信息论限制，提出了新的经验收益最大化（ERM）策略，并实现了最优收敛速率。 |
+| [^9] | [Stable and extremely unequal.](http://arxiv.org/abs/2108.06587) | 这篇论文研究了非可转让效用匹配中的稳定性和平等之间的紧张关系，发现唯一的稳定分配在匹配的一对之间表现出极端的不平等。 |
+| [^10] | [Learning in a Small/Big World.](http://arxiv.org/abs/2009.11917) | 这篇论文研究了在小/大世界中最优学习行为的特征，发现随着环境变得更复杂和决策者的认知能力变弱，最优行为逐渐不同。在大世界中，最优学习行为可能表现出多种非贝叶斯学习行为。 |
+| [^11] | [Optimal Experimental Design for Staggered Rollouts.](http://arxiv.org/abs/1911.03764) | 本文研究了隔开式试验的最优设计问题。对于非自适应实验，提出了一个近似最优解；对于自适应实验，提出了一种新算法——精度导向的自适应实验（PGAE）算法，它使用贝叶斯决策理论来最大化估计治疗效果的预期精度。 |
 
 # 详细
 
-[^1]: 同行评审的同行预测：设计一个想法市场
+[^1]: 首次供应在元宇宙中的网络外部性的资本化
 
-    Peer Prediction for Peer Review: Designing a Marketplace for Ideas. (arXiv:2303.16855v1 [cs.DL])
+    Capitalising the Network Externalities of New Land Supply in the Metaverse. (arXiv:2303.17180v1 [econ.GN])
 
-    [http://arxiv.org/abs/2303.16855](http://arxiv.org/abs/2303.16855)
+    [http://arxiv.org/abs/2303.17180](http://arxiv.org/abs/2303.17180)
 
-    本文提出了一个平台，利用同行预测算法奖励评审人员，旨在改善早期研究的同行评审，解决研究问题与出版偏见之间的不匹配问题。
-
-    
-
-    本文描述了一个潜在的平台，旨在促进早期研究的学术同行评审。该平台旨在通过基于同行预测算法对评审人员进行奖励，使同行评审更加准确和及时。该算法使用对众包进行的Peer Truth Serum的变体（Radanovic等人，2016），其中人类评分者与机器学习基准竞争。我们解释了我们的方法如何解决科学中的两个大的低效问题：研究问题与出版偏见之间的不匹配。更好的早期研究同行评审为分享研究成果创造了额外的激励，简化了将想法匹配到团队，并使负面结果和p-hacking更加明显。
-
-    The paper describes a potential platform to facilitate academic peer review with emphasis on early-stage research. This platform aims to make peer review more accurate and timely by rewarding reviewers on the basis of peer prediction algorithms. The algorithm uses a variation of Peer Truth Serum for Crowdsourcing (Radanovic et al., 2016) with human raters competing against a machine learning benchmark. We explain how our approach addresses two large productive inefficiencies in science: mismatch between research questions and publication bias. Better peer review for early research creates additional incentives for sharing it, which simplifies matching ideas to teams and makes negative results and p-hacking more visible.
-    
-[^2]: 重型车辆电气化的替代方案的电力部门影响:电气化和智能充电
-
-    Power sector effects of alternative options for electrifying heavy-duty vehicles: go electric, and charge smartly. (arXiv:2303.16629v1 [econ.GN])
-
-    [http://arxiv.org/abs/2303.16629](http://arxiv.org/abs/2303.16629)
-
-    研究了电动公路系统和电池电动车的替代方案对于电力部门的影响，发现可灵活充电的车辆共享BEV的电力部门成本最低，而使用电力燃料的重型车辆的成本最高。
+    本文基于区块链的虚拟世界The Sandbox的实验数据，研究了首次供应在元宇宙中的网络外部性的资本化，结果发现新土地的供应将会与现有土地形成竞争，但是新增供应也能提升现有土地的网络价值。
 
     
 
-    在乘用车领域，电池电动车(BEV)已成为去碳化交通的最有前途的选择。对于重型车辆(HDV)，技术领域似乎更为开放。除了BEV外，还讨论了用于动态供电的电动公路系统(ERS)，以及使用氢燃料电池或电力燃料的卡车间接电气化。在这里，我们研究了这些替代方案的电力部门影响。我们将基于未来德国高可再生能源份额的情景，应用一个开源的容量扩展模型，利用详细的以路线为基础的卡车交通数据。结果表明，可灵活充电的车辆共享BEV的电力部门成本最低，而使用电力燃料的重型车辆的成本最高。如果BEV和ERS-BEV没有以优化的方式充电，电力部门成本会增加，但仍远低于使用氢或电力燃料的情景。这是相对较小电池、高度灵活的BEV在短途和中途步骤转移和超出道路广泛使用的优势的结果。
+    当土地变得更加连接时，由于网络外部性，其价值可能会发生变化。这种想法对于开发人员和政策制定者来说直观而有吸引力，但是在实践中难以分离土地价值的决定因素，这是数据挖掘的一个难点。我们使用基于区块链的虚拟经济——The Sandbox中的房地产，应用一系列自然实验来估计基于网络外部性的土地的因果影响，从而解决了这个挑战。我们的研究结果表明，当新土地可用时，现有土地的网络价值会增加，但是要权衡新土地与现有供应的竞争关系。我们的工作展示了使用虚拟世界进行政策实验的好处。
 
-    In the passenger car segment, battery-electric vehicles (BEV) have emerged as the most promising option to decarbonize transportation. For heavy-duty vehicles (HDV), the technology space still appears to be more open. Aside from BEV, electric road systems (ERS) for dynamic power transfer are discussed, as well as indirect electrification with trucks that use hydrogen fuel cells or e-fuels. Here we investigate the power sector implications of these alternative options. We apply an open-source capacity expansion model to future scenarios of Germany with high renewable energy shares, drawing on detailed route-based truck traffic data. Results show that power sector costs are lowest for flexibly charged BEV that also carry out vehicle-to-grid operations, and highest for HDV using e-fuels. If BEV and ERS-BEV are not charged in an optimized way, power sector costs increase, but are still substantially lower than in scenarios with hydrogen or e-fuels. This is a consequence of the relatively p
+    When land becomes more connected, its value can change because of network externalities. This idea is intuitive and appealing to developers and policymakers, but documenting their importance is empirically challenging because it is difficult to isolate the determinants of land value in practice. We address this challenge with real estate in The Sandbox, a virtual economy built on blockchain, which provides a series of natural experiments that can be used to estimate the causal impact of land-based of network externalities. Our results show that when new land becomes available, the network value of existing land increases, but there is a trade-off as new land also competes with existing supply. Our work illustrates the benefits of using virtual worlds to conduct policy experiments.
     
-[^3]: 带稳定匹配的多乘客拼车系统的一般均衡模型研究
+[^2]: 残疾人的创业能力和参与度：建立包容性创业框架
 
-    A general equilibrium model for multi-passenger ridesharing systems with stable matching. (arXiv:2303.16595v1 [econ.GN])
+    Entrepreneurial Capability And Engagement Of Persons With Disabilities Toward A Framework For Inclusive Entrepreneurship. (arXiv:2303.17130v1 [econ.GN])
 
-    [http://arxiv.org/abs/2303.16595](http://arxiv.org/abs/2303.16595)
+    [http://arxiv.org/abs/2303.17130](http://arxiv.org/abs/2303.17130)
 
-    本文提出了一个通用均衡模型以解决多乘客拼车系统的问题，并提出了一个序列-树算法用于求解问题。
-
-    
-
-    本文提出了一个通用均衡模型，用于捕捉多乘客拼车系统中乘客、司机、平台和交通网络之间的内生性互动。稳定匹配被建模为一个均衡问题，其中没有拼车司机或乘客能够通过单方面切换另一个匹配序列来降低拼车的不满意程度。本文是首批将拼车平台多乘客匹配问题明确融入模型的研究之一。通过将匹配序列与超网络相结合，避免了多乘客拼车系统中的拼车-乘客转移。此外，本论文将拼车司机和乘客之间的匹配稳定性扩展到以匹配序列为基础的多OD多乘客情况。本文提供了所提出一般均衡模型的存在性证明。针对求解多乘客拼车问题，还提出了一个序列-树算法。
-
-    This paper proposes a general equilibrium model for multi-passenger ridesharing systems, in which interactions between ridesharing drivers, passengers, platforms, and transportation networks are endogenously captured. Stable matching is modeled as an equilibrium problem in which no ridesharing driver or passenger can reduce ridesharing disutility by unilaterally switching to another matching sequence. This paper is one of the first studies that explicitly integrates the ridesharing platform multi-passenger matching problem into the model. By integrating matching sequence with hyper-network, ridesharing-passenger transfers are avoided in a multi-passenger ridesharing system. Moreover, the matching stability between the ridesharing drivers and passengers is extended to address the multi-OD multi-passenger case in terms of matching sequence. The paper provides a proof for the existence of the proposed general equilibrium. A sequence-bush algorithm is developed for solving the multi-passen
-    
-[^4]: 通过讲故事培养批判性思维：理论与社交媒体实验
-
-    Critical Thinking Via Storytelling: Theory and Social Media Experiment. (arXiv:2303.16422v1 [econ.TH])
-
-    [http://arxiv.org/abs/2303.16422](http://arxiv.org/abs/2303.16422)
-
-    通过社交媒体实验，研究人员发现不同的数字叙事格式会影响人们的批判性思维，中等长度的设计最有效，需要认知程度高的个体影响最大。
+    该研究旨在建立包容性创业框架，调查残疾人的创业能力和参与度。调查结果发现，残疾人在创业方面的感知能力水平较为合适，大多数参与水平回应时投入较多，受访者认为缺乏获得信贷和资金的能力和困难是创业过程中的主要挑战。
 
     
 
-    在一个简化的投票模型中，我们证明了增加具有意识到某一问题模棱两可性质的批判性思维者的比例会提高调查（选举）的效率，但可能会增加调查的偏见。在针对代表性美国人口的激励在线社交媒体实验（N = 706）中，我们证明了不同的数字叙事格式 – 不同的设计来呈现同一组事实 – 影响个体成为批判性思维者的强度。中等长度的设计（Facebook帖子）最有效地激发个体的批判性思维。需要认知的程度高的个体主要驱动了治疗效果的差异。
+    该研究旨在确定残疾人的创业能力和参与度，以建立包容性创业框架。研究者通过有目的的随机抽样，采用描述性和相关方法进行调查研究。样本来自通用三角市和Rosario市的残疾人事务办公室（PDAO）注册的人群。调查结果表明，受访者大多来自工薪阶层，女性居多，大多数是单身，拥有大学学位，住在中等大小的住房中，收入仅够维生。此外，残疾人在创业方面的感知能力水平较为合适，大多数参与水平回应时会有所投入。值得一提的是，年龄和婚姻状况与研究对象的大部分变量存在显著关系。最后，残疾人受访者所认为的挑战包括以下几点：缺乏财务能力、获得信贷和资金的难度，身体状况等。
 
-    In a stylized voting model, we establish that increasing the share of critical thinkers -- individuals who are aware of the ambivalent nature of a certain issue -- in the population increases the efficiency of surveys (elections) but might increase surveys' bias. In an incentivized online social media experiment on a representative US population (N = 706), we show that different digital storytelling formats -- different designs to present the same set of facts -- affect the intensity at which individuals become critical thinkers. Intermediate-length designs (Facebook posts) are most effective at triggering individuals into critical thinking. Individuals with a high need for cognition mostly drive the differential effects of the treatments.
+    The study was designed to determine the entrepreneurial capability and engagement of persons with disabilities toward a framework for inclusive entrepreneurship. The researcher used descriptive and correlational approaches through purposive random sampling. The sample came from the City of General Trias and the Municipality of Rosario, registered under their respective Persons with Disabilities Affairs Offices (PDAO). The findings indicated that the respondents are from the working class, are primarily female, are mostly single, have college degrees, live in a medium-sized home, and earn the bare minimum. Furthermore, PWDs' perceived capability level in entrepreneurship was somehow capable, and the majority of engagement level responses were somehow engaged. Considerably, age and civil status have significant relationships with most of the variables under study. Finally, the perceived challenges of PWDs' respondents noted the following: lack of financial capacity, access to credit and 
     
-[^5]: 一般性平局规则下一价拍卖均衡的复杂度
+[^3]: 流动性约束、现金盈利和创业：台湾彩票获奖者的实证研究
 
-    Complexity of Equilibria in First-Price Auctions under General Tie-Breaking Rules. (arXiv:2303.16388v1 [cs.GT])
+    Liquidity Constraints, Cash Windfalls, and Entrepreneurship: Evidence from Administrative Data on Lottery Winners. (arXiv:2303.17029v1 [econ.GN])
 
-    [http://arxiv.org/abs/2303.16388](http://arxiv.org/abs/2303.16388)
+    [http://arxiv.org/abs/2303.17029](http://arxiv.org/abs/2303.17029)
 
-    本研究探讨了一种常见信息分布下一价拍卖中关于贝叶斯纳什均衡的复杂性，发现即使在三方平局规则下，该问题的复杂度都是PPAD完全的。同时提出了在采用均匀平局规则情况下的部分近似算法。
-
-    
-
-    本研究探讨了一种常见信息分布下一价拍卖中关于贝叶斯纳什均衡的复杂性，考虑了平局规则作为输入的一部分。结果表明即使在三方平局规则（即表示当出现不超过三名竞标人员并列第一时，将物品分配给这些人员，否则采用均匀平局规则）的情况下，该问题的复杂度也是PPAD完全的。这是关于带有平局规则下一价拍卖均衡计算的首个困难结果。在积极方面，我们对于采用均匀平局规则的问题提出了一种部分近似算法。
-
-    We study the complexity of finding an approximate (pure) Bayesian Nash equilibrium in a first-price auction with common priors when the tie-breaking rule is part of the input. We show that the problem is PPAD-complete even when the tie-breaking rule is trilateral (i.e., it specifies item allocations when no more than three bidders are in tie, and adopts the uniform tie-breaking rule otherwise). This is the first hardness result for equilibrium computation in first-price auctions with common priors. On the positive side, we give a PTAS for the problem under the uniform tie-breaking rule.
-    
-[^6]: 基于注意力机制变压器神经网络的通胀预测
-
-    Inflation forecasting with attention based transformer neural networks. (arXiv:2303.15364v1 [econ.EM])
-
-    [http://arxiv.org/abs/2303.15364](http://arxiv.org/abs/2303.15364)
-
-    本文研究了基于注意力机制变压器神经网络用于预测不同通货膨胀率的潜力，结果表明其可以超越传统模型，成为金融决策中的有用工具。
+    本文利用台湾彩票获奖者的行政数据，发现丰厚的现金盈利增加了流动性受限家庭创业的可能性，创业财富弹性为0.25至0.36。连续创业家更有可能开始一家新业务，但不会改变他们继续经营当前业务的决策。
 
     
 
-    通胀是资金配置决策的重要因素，其预测是政府和中央银行的基本目标。然而，由于其预测取决于低频高波动数据且缺乏清晰的解释变量，因此预测通胀并不是一项简单的任务。最近，（深度）神经网络在许多应用中已显示出惊人的结果，逐渐成为新的技术水平标杆。本文研究了变压器深度神经网络架构用于预测不同通胀率的潜力。结果与经典时间序列和机器学习模型进行了比较。我们发现，我们改进后的变压器模型在16个实验中平均超过基准模型6个实验，在研究的4个通货膨胀率中表现最佳。我们的结果表明，基于变压器的通胀预测模型有超越传统模型的潜力，并可以成为金融决策中的有用工具。
+    本文利用台湾彩票获奖者的行政数据，考察现金盈利对创业的影响。我们将在特定年份中赢得超过150万新台币（50,000美元）彩票的家庭的创业决策与赢得不到15,000新台币（500美元）的家庭相比较。结果表明，丰厚的盈利增加了1.5个百分点（从基线平均值增加了125%）的创业可能性。创业财富弹性为0.25至0.36。此外，流动性受限的家庭驱动了盈利引发的创业反应。最后，我们研究了拥有企业的家庭如何应对现金盈利，并发现连续创业家更有可能开始一家新业务，但不会改变他们继续经营当前业务的决策。
 
-    Inflation is a major determinant for allocation decisions and its forecast is a fundamental aim of governments and central banks. However, forecasting inflation is not a trivial task, as its prediction relies on low frequency, highly fluctuating data with unclear explanatory variables. While classical models show some possibility of predicting inflation, reliably beating the random walk benchmark remains difficult. Recently, (deep) neural networks have shown impressive results in a multitude of applications, increasingly setting the new state-of-the-art. This paper investigates the potential of the transformer deep neural network architecture to forecast different inflation rates. The results are compared to a study on classical time series and machine learning models. We show that our adapted transformer, on average, outperforms the baseline in 6 out of 16 experiments, showing best scores in two out of four investigated inflation rates. Our results demonstrate that a transformer based
+    Using administrative data on Taiwanese lottery winners, this paper examines the effects of cash windfalls on entrepreneurship. We compare the start-up decisions of households winning more than 1.5 million NTD (50,000 USD) in the lottery in a particular year with those of households winning less than 15,000 NTD (500 USD). Our results suggest that a substantial windfall increases the likelihood of starting a business by 1.5 percentage points (125% from the baseline mean). Startup wealth elasticity is 0.25 to 0.36. Moreover, households who tend to be liquidity-constrained drive the windfall-induced entrepreneurial response. Finally, we examine how households with a business react to a cash windfall and find that serial entrepreneurs are more likely to start a new business but do not change their decision to continue the current business.
     
-[^7]: 将潜在组结构的先验知识纳入面板数据模型中
+[^4]: 全球食物系统的现状：倒计时至2030年
 
-    Incorporating Prior Knowledge of Latent Group Structure in Panel Data Models. (arXiv:2211.16714v2 [econ.EM] UPDATED)
+    The State of Food Systems Worldwide: Counting Down to 2030. (arXiv:2303.13669v1 [econ.GN])
 
-    [http://arxiv.org/abs/2211.16714](http://arxiv.org/abs/2211.16714)
+    [http://arxiv.org/abs/2303.13669](http://arxiv.org/abs/2303.13669)
 
-    本文提出了一种受限制的贝叶斯分组估计器，通过利用研究人员对组的先验信念以两两约束的形式进行表达，将潜在组结构的先验知识纳入到面板数据模型中。蒙特卡罗实验显示，加入先验知识可以得到更准确的系数估计，并且比替代估计器获得更多的预测增益分数。我们应用了我们的方法到两个经验应用中。
-
-    
-
-    组异质性假设已经成为面板数据模型中的研究热点。本文提出了一种受限制的贝叶斯分组估计器，利用研究人员对组的先验信念以两两约束的形式进行表达，表明一对单位是否可能属于同一组或不同组。我们提出了一种先验方法，用不同程度的置信度来纳入两两约束。整个框架建立在非参数贝叶斯方法上，隐含地指定了对组分区的分布，因此后验分析考虑了潜在的组结构的不确定性。蒙特卡罗实验显示，加入先验知识可以得到更准确的系数估计，并且比替代估计器获得更多的预测增益分数。我们应用了我们的方法到两个经验应用中。在第一个预测美国CPI通货膨胀率的应用中，我们证明了组的先验知识可以在数据不充足时提高密度预测。
-
-    The assumption of group heterogeneity has become popular in panel data models. We develop a constrained Bayesian grouped estimator that exploits researchers' prior beliefs on groups in a form of pairwise constraints, indicating whether a pair of units is likely to belong to a same group or different groups. We propose a prior to incorporate the pairwise constraints with varying degrees of confidence. The whole framework is built on the nonparametric Bayesian method, which implicitly specifies a distribution over the group partitions, and so the posterior analysis takes the uncertainty of the latent group structure into account. Monte Carlo experiments reveal that adding prior knowledge yields more accurate estimates of coefficient and scores predictive gains over alternative estimators. We apply our method to two empirical applications. In a first application to forecasting U.S. CPI inflation, we illustrate that prior knowledge of groups improves density forecasts when the data is not 
-    
-[^8]: 稀疏分位回归
-
-    Sparse Quantile Regression. (arXiv:2006.11201v4 [stat.ME] UPDATED)
-
-    [http://arxiv.org/abs/2006.11201](http://arxiv.org/abs/2006.11201)
-
-    本文研究了稀疏分位回归估计器，通过指数不等式得到了均方误差和回归函数估计误差的非渐近上界，并使用混合整数线性规划和一阶近似算法实现，能在实际数据应用中使用。
+    本文介绍了食物系统到2030倒计时倡议提出的五个主题和指标体系结构，并应用最新可用数据构建了第一个全球食物系统基线以跟踪转型。
 
     
 
-    本文考虑了$\ell_0$惩罚和约束下的分位回归估计器。对于$\ell_0$惩罚的估计器，我们推导出超额分位预测风险尾部概率的指数不等式，并将其应用于获得非渐近上界的均方误差和回归函数估计误差。我们还为$\ell_0$约束的估计器推导了类似的结果。得到的收敛速率几乎是极小最优的，并且与$\ell_1$惩罚和非凸惩罚估计器的速率相同。此外，我们还表征了$\ell_0$惩罚估计器的期望汉明损失。我们通过混合整数线性规划和一个更可扩展的一阶近似算法实现了所提出的过程。我们通过蒙特卡罗实验展示了我们方法在有限样本情况下的性能，并在涉及婴儿出生体重的实际数据应用中展示了它的实用性。
+    转变食物系统是实现全球发展和可持续目标、带来更健康、公平、可持续和有弹性的未来所必需的。迄今为止，没有综合性框架来跟踪食物系统的转型及其对全球目标的贡献。在2021年，食物系统到2030倒计时倡议（FSCI）阐明了一种体系结构来监测食物系统，分为五个主题：1 饮食、营养和健康；2 环境、自然资源和生产；3 生计、贫困和公平；4 治理；和5弹性和可持续性。每个主题包括三至五个指标领域。本文基于该体系结构，介绍了包容性、咨询性的过程用于选择指标，并应用最新可用的数据构建了第一个全球食物系统基线以跟踪转型。虽然涵盖了大多数主题和领域的数据，但关键指标仍需进一步开发。
 
-    We consider both $\ell _{0}$-penalized and $\ell _{0}$-constrained quantile regression estimators. For the $\ell _{0}$-penalized estimator, we derive an exponential inequality on the tail probability of excess quantile prediction risk and apply it to obtain non-asymptotic upper bounds on the mean-square parameter and regression function estimation errors. We also derive analogous results for the $\ell _{0}$-constrained estimator. The resulting rates of convergence are nearly minimax-optimal and the same as those for $\ell _{1}$-penalized and non-convex penalized estimators. Further, we characterize expected Hamming loss for the $\ell _{0}$-penalized estimator. We implement the proposed procedure via mixed integer linear programming and also a more scalable first-order approximation algorithm. We illustrate the finite-sample performance of our approach in Monte Carlo experiments and its usefulness in a real data application concerning conformal prediction of infant birth weights (with $
+    Transforming food systems is essential to bring about a healthier, equitable, sustainable, and resilient future, including achieving global development and sustainability goals. To date, no comprehensive framework exists to track food systems transformation and their contributions to global goals. In 2021, the Food Systems Countdown to 2030 Initiative (FSCI) articulated an architecture to monitor food systems across five themes: 1 diets, nutrition, and health; 2 environment, natural resources, and production; 3 livelihoods, poverty, and equity; 4 governance; and 5 resilience and sustainability. Each theme comprises three-to-five indicator domains. This paper builds on that architecture, presenting the inclusive, consultative process used to select indicators and an application of the indicator framework using the latest available data, constructing the first global food systems baseline to track transformation. While data are available to cover most themes and domains, critical indicat
+    
+[^5]: 全球博弈中的策略模糊性
+
+    Strategic Ambiguity in Global Games. (arXiv:2303.12263v1 [econ.TH])
+
+    [http://arxiv.org/abs/2303.12263](http://arxiv.org/abs/2303.12263)
+
+    论文研究全球博弈中的策略模糊性对玩家行为的影响，发现模糊质量信息下更多玩家选择恒定收益行动，而低质量信息下更多玩家选择前期最优反应。在金融危机应用中，更模糊质量的新闻会引发债务危机，而质量低的新闻会引发货币危机。
+
+    
+
+    在具有不完全和模糊信息的博弈中，理性行为不仅取决于基本模糊（关于状态的模糊性）而且取决于策略模糊（关于他人行为的模糊性）。我们研究了策略模糊在全球博弈中的影响。模糊质量信息使更多的玩家选择产生恒定收益的行动，而（明确的）低质量信息使更多的玩家选择对对手行动的统一信念做出前期最优反应。如果前期最优反应的行动产生恒定收益，则足够模糊的质量信息会诱导出一种唯一的均衡，而足够低质量的信息会产生多个均衡。在金融危机的应用中，我们证明了更模糊质量的新闻会引发债务展期危机，而质量较低的新闻会引发货币危机。
+
+    In games with incomplete and ambiguous information, rational behavior depends not only on fundamental ambiguity (ambiguity about states) but also on strategic ambiguity (ambiguity about others' actions). We study the impact of strategic ambiguity in global games. Ambiguous-quality information makes more players choose an action yielding a constant payoff, whereas (unambiguous) low-quality information makes more players choose an ex-ante best response to the uniform belief over the opponents' actions. If the ex-ante best-response action yields a constant payoff, sufficiently ambiguous-quality information induces a unique equilibrium, whereas sufficiently low-quality information generates multiple equilibria. In applications to financial crises, we demonstrate that news of more ambiguous quality triggers a debt rollover crisis, whereas news of less ambiguous quality triggers a currency crisis.
+    
+[^6]: 极值与一阶随机支配：理论与应用
+
+    Extreme Points and First-Order Stochastic Dominance: Theory and Applications. (arXiv:2302.03135v2 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2302.03135](http://arxiv.org/abs/2302.03135)
+
+    该论文以一阶随机支配(FOSD)区间的极值为基础，研究了一些关于经济学中的重要问题，如心理判断、政治经济学和证券设计。其中，使用极值表征后验分位数的分布得到了关于后验均值分布的类比，并且还统一和概括了涉及不良选择或道德风险的重要结果及文献。
+
+    
+
+    我们对一阶随机支配(FOSD)区间的极值进行了表征，并展示了这些区间在经济学中许多主题中的核心作用。利用这些极值，我们表征了后验分位数的分布，从而得到了关于后验均值分布的经典结果的类比。我们将这个类比应用于各种主题，包括判断心理学、政治经济学和贝叶斯说服。此外，FOSD区间提供了一个通用的证券设计结构。当涉及到不良选择或道德风险时，我们使用极值来统一和概括该文献中的重要结果。
+
+    We characterize the extreme points of first-order stochastic dominance (FOSD) intervals and show how these intervals are at the heart of many topics in economics. Using these extreme points, we characterize the distributions of posterior quantiles, leading to an analog of a classical result regarding the distributions of posterior means. We apply this analog to various subjects, including the psychology of judgement, political economy, and Bayesian persuasion. In addition, FOSD intervals provide a common structure to security design. We use the extreme points to unify and generalize seminal results in that literature when either adverse selection or moral hazard pertains.
+    
+[^7]: 失落的一分钱：基于玩家赞助的整数游戏研究
+
+    On the Trail of Lost Pennies: player-funded tug-of-war on the integers. (arXiv:2209.07451v2 [math.PR] UPDATED)
+
+    [http://arxiv.org/abs/2209.07451](http://arxiv.org/abs/2209.07451)
+
+    在研究一个基于玩家赞助的整数之间的游戏中，发现了一个有趣的结果，对于一类自然的策略，纳什均衡存在的条件是x在λ和λ^-1之间，其中λ是一个值非常接近于0和1的有理数。
+
+    
+
+    我们研究一类随机轮流分配资源的游戏，称为“失落的一分钱”，该游戏在整数集合上进行。在每回合中，Maxine投下a（a∈[0，∞)），而Mina 投下b（b∈[0,∞)）。然后，计数器X向右移动，移动距离为1，概率为a/(a+b)。如果在这个无穷回合游戏中Xi→−∞，那么Mina获得一个单位，而Maxine获得零单位;如果Xi→∞，则这些收据为零和x。因此，对于每个玩家来说，净收入是-A+B，其中A是她的总投注，B是她的最终收入。这个游戏的灵感来源于2009年的公正拔河比赛，但实际上非常类似于原始版本的拔河比赛，即1987年在经济学文献中介绍的那种。我们展示了这个游戏有一些令人惊讶的特点。对于一类自然的策略，当且仅当x在[λ，λ^（-1）]时，纳什均衡存在，其中λ∈（0，1）的一定值。我们指出，λ非常接近……
+
+    We study a class of  random-turn resource-allocation games. In the Trail of Lost Pennies, a counter moves on $\mathbb{Z}$. At each turn, Maxine stakes $a \in [0,\infty)$ and Mina $b \in [0,\infty)$. The counter $X$ then moves adjacently, to the right with probability $\tfrac{a}{a+b}$. If $X_i \to -\infty$ in this infinte-turn game, Mina receives one unit, and Maxine zero; if $X_i \to \infty$, then these receipts are zero and~$x$. Thus the net receipt to a given player is $-A+B$, where $A$ is the sum of her stakes, and $B$ is her terminal receipt. The game was inspired by unbiased tug-of-war in~\cite{PSSW09} from 2009 but in fact closely resembles the original version of tug-of-war, introduced~\cite{HarrisVickers87} in the economics literature in 1987. We show that the game has surprising features. For a natural class of strategies, Nash equilibria exist precisely when $x$ lies in $[\lambda,\lambda^{-1}]$, for a certain $\lambda \in (0,1)$. We indicate that $\lambda$ is remarkably close
+    
+[^8]: 基于数据的价格歧视的信息论限制研究
+
+    Information-theoretic limitations of data-based price discrimination. (arXiv:2204.12723v3 [cs.GT] UPDATED)
+
+    [http://arxiv.org/abs/2204.12723](http://arxiv.org/abs/2204.12723)
+
+    本文研究基于数据的价格歧视，揭示了任何基于数据的定价策略在收入生成方面的信息论限制，提出了新的经验收益最大化（ERM）策略，并实现了最优收敛速率。
+
+    
+
+    本文研究了基于估值和外生变量数据随机样本的第三度价格歧视（3PD），其中外生变量是连续的，数据分布对卖方来说是未知的。本文的主要结果有两个方面。第一组结果是定价策略无关的，揭示了任何基于数据的定价策略在收入生成方面的信息论限制，分为3PD和均匀定价两种情况。第二组结果提出了$K$-markets经验收益最大化（ERM）策略，并显示$K$-markets ERM和均匀ERM策略实现了收入收敛到各自真实分布3PD和均匀定价最优解的最优收敛速率。我们的理论和数值结果表明，当样本量足够小的时候，均匀（即$1$-market）ERM策略产生的收入比$K$-markets ERM策略更高，反之亦然。
+
+    This paper studies third-degree price discrimination (3PD) based on a random sample of valuation and covariate data, where the covariate is continuous, and the distribution of the data is unknown to the seller. The main results of this paper are twofold. The first set of results is pricing strategy independent and reveals the fundamental information-theoretic limitation of any data-based pricing strategy in revenue generation for two cases: 3PD and uniform pricing. The second set of results proposes the $K$-markets empirical revenue maximization (ERM) strategy and shows that the $K$-markets ERM and the uniform ERM strategies achieve the optimal rate of convergence in revenue to that generated by their respective true-distribution 3PD and uniform pricing optima. Our theoretical and numerical results suggest that the uniform (i.e., $1$-market) ERM strategy generates a larger revenue than the $K$-markets ERM strategy when the sample size is small enough, and vice versa.
+    
+[^9]: 稳定与极度不平等：非可转让效用匹配问题的研究
+
+    Stable and extremely unequal. (arXiv:2108.06587v2 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2108.06587](http://arxiv.org/abs/2108.06587)
+
+    这篇论文研究了非可转让效用匹配中的稳定性和平等之间的紧张关系，发现唯一的稳定分配在匹配的一对之间表现出极端的不平等。
+
+    
+
+    我们强调了非可转让效用匹配中稳定性和平等之间的紧张关系。我们考虑多对一的匹配，将市场的两个方面称为学生和学校。后者拥有一致的偏好，这意味着学校的效用是其学生效用的总和。我们展示了唯一稳定分配在匹配的一对之间表现出极端的不平等。
+
+    We highlight the tension between stability and equality in non transferable utility matching. We consider many to one matchings and refer to the two sides of the market as students and schools. The latter have aligned preferences, which in this context means that a school's utility is the sum of its students' utilities. We show that the unique stable allocation displays extreme inequality between matched pairs.
+    
+[^10]: 小/大世界中的学习
+
+    Learning in a Small/Big World. (arXiv:2009.11917v8 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2009.11917](http://arxiv.org/abs/2009.11917)
+
+    这篇论文研究了在小/大世界中最优学习行为的特征，发现随着环境变得更复杂和决策者的认知能力变弱，最优行为逐渐不同。在大世界中，最优学习行为可能表现出多种非贝叶斯学习行为。
+
+    
+
+    复杂性和有限能力对我们在不确定性下的学习和决策有深刻的影响。本文使用有限自动机理论来模拟信念形成过程，研究了在小世界和大世界中，即环境复杂度相对于决策者的认知能力较低或较高的情况下，最优学习行为的特征。在非常小的世界中，最优行为非常接近贝叶斯基准，但随着世界的变大，最优行为则越来越不同。此外，在大世界中，最优学习行为可能表现出多种已有文献报道过的非贝叶斯学习行为，包括启发式的使用、相关忽视、持续的过度自信、不注意学习以及模型简化或误设等行为。这些结果建立了非贝叶斯学习行为、复杂度和认知能力之间明确可验证的关系。
+
+    Complexity and limited ability have profound effect on how we learn and make decisions under uncertainty. Using the theory of finite automaton to model belief formation, this paper studies the characteristics of optimal learning behavior in small and big worlds, where the complexity of the environment is low and high, respectively, relative to the cognitive ability of the decision maker. Optimal behavior is well approximated by the Bayesian benchmark in very small world but is more different as the world gets bigger. In addition, in big worlds, the optimal learning behavior could exhibit a wide range of well-documented non-Bayesian learning behavior, including the use of heuristics, correlation neglect, persistent over-confidence, inattentive learning, and other behaviors of model simplification or misspecification. These results establish a clear and testable relationship among the prominence of non-Bayesian learning behavior, complexity, and cognitive ability.
+    
+[^11]: 隔开式试验的最优设计
+
+    Optimal Experimental Design for Staggered Rollouts. (arXiv:1911.03764v5 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/1911.03764](http://arxiv.org/abs/1911.03764)
+
+    本文研究了隔开式试验的最优设计问题。对于非自适应实验，提出了一个近似最优解；对于自适应实验，提出了一种新算法——精度导向的自适应实验（PGAE）算法，它使用贝叶斯决策理论来最大化估计治疗效果的预期精度。
+
+    
+
+    本文研究了在不同时期内某组数据单元的治疗开始时间存在差异时，对实验进行设计和分析的问题。设计问题涉及选择每个数据单元的初始治疗时间以便最精确地估计治疗的瞬时效应和累积效应。我们首先考虑非自适应实验，其中所有的治疗分配决策都在实验开始之前做出。针对这种情况，我们证明了优化问题通常是NP难的，并提出了一种近似最优解。在该解决方案下，每个时期进入治疗的分数最初较低，然后变高，最后再次降低。接下来，我们研究了自适应实验设计问题，其中在收集每个时期的数据后更新继续实验和治疗分配决策。对于自适应情况，我们提出了一种新算法——精度导向的自适应实验（PGAE）算法，它使用贝叶斯决策理论来最大化估计治疗效果的预期精度。我们证明了PGAE算法达到了悔恨的下限，悔恨定义为期望累计平方标准误差和任意治疗分配策略所能实现的最佳误差之间的差异。
+
+    In this paper, we study the design and analysis of experiments conducted on a set of units over multiple time periods where the starting time of the treatment may vary by unit. The design problem involves selecting an initial treatment time for each unit in order to most precisely estimate both the instantaneous and cumulative effects of the treatment. We first consider non-adaptive experiments, where all treatment assignment decisions are made prior to the start of the experiment. For this case, we show that the optimization problem is generally NP-hard, and we propose a near-optimal solution. Under this solution, the fraction entering treatment each period is initially low, then high, and finally low again. Next, we study an adaptive experimental design problem, where both the decision to continue the experiment and treatment assignment decisions are updated after each period's data is collected. For the adaptive case, we propose a new algorithm, the Precision-Guided Adaptive Experim
     
 

@@ -1,0 +1,11 @@
+{
+    "title": "The Nordic Pile: A 1.2TB Nordic Dataset for Language Modeling. (arXiv:2303.17183v1 [cs.CL])",
+    "abstract": "Pre-training Large Language Models (LLMs) require massive amounts of text data, and the performance of the LLMs typically correlates with the scale and quality of the datasets. This means that it may be challenging to build LLMs for smaller languages such as Nordic ones, where the availability of text corpora is limited. In order to facilitate the development of the LLMS in the Nordic languages, we curate a high-quality dataset consisting of 1.2TB of text, in all of the major North Germanic languages (Danish, Icelandic, Norwegian, and Swedish), as well as some high-quality English data. This paper details our considerations and processes for collecting, cleaning, and filtering the dataset.",
+    "link": "http://arxiv.org/abs/2303.17183",
+    "context": "Title: The Nordic Pile: A 1.2TB Nordic Dataset for Language Modeling. (arXiv:2303.17183v1 [cs.CL])\nAbstract: Pre-training Large Language Models (LLMs) require massive amounts of text data, and the performance of the LLMs typically correlates with the scale and quality of the datasets. This means that it may be challenging to build LLMs for smaller languages such as Nordic ones, where the availability of text corpora is limited. In order to facilitate the development of the LLMS in the Nordic languages, we curate a high-quality dataset consisting of 1.2TB of text, in all of the major North Germanic languages (Danish, Icelandic, Norwegian, and Swedish), as well as some high-quality English data. This paper details our considerations and processes for collecting, cleaning, and filtering the dataset.",
+    "path": "papers/23/03/2303.17183.json",
+    "total_tokens": 753,
+    "translated_title": "《北欧根桩:一个1.2TB的北欧语言建模数据集》",
+    "translated_abstract": "预训练大型语言模型( LLMs )需要海量的文本数据，LLMs的性能通常与数据集的规模和质量相关。这意味着在北欧等语种中建立LLMs可能是具有挑战性的，因为其文本语料库的可用性有限。为了促进北欧语言的LLMs开发，我们策划了一个高质量的数据集，其中包括了1.2TB的文本，涵盖了所有重要的北日耳曼语言（丹麦语、冰岛语、挪威语和瑞典语），以及一些高质量的英文数据。本文详细介绍了我们收集、清理和过滤该数据集的考虑和流程。",
+    "tldr": "本论文描述了一个包含1.2TB文本的北欧语言数据集，为预训练大型语言模型提供了重要资源，促进了北欧语言的LLMs的开发。"
+}

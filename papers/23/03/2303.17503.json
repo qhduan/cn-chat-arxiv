@@ -1,0 +1,12 @@
+{
+    "title": "Pgx: Hardware-accelerated parallel game simulation for reinforcement learning. (arXiv:2303.17503v1 [cs.AI])",
+    "abstract": "We propose Pgx, a collection of board game simulators written in JAX. Thanks to auto-vectorization and Just-In-Time compilation of JAX, Pgx scales easily to thousands of parallel execution on GPU/TPU accelerators. We found that the simulation of Pgx on a single A100 GPU is 10x faster than that of existing reinforcement learning libraries. Pgx implements games considered vital benchmarks in artificial intelligence research, such as Backgammon, Shogi, and Go. Pgx is available at https://github.com/sotetsuk/pgx.",
+    "link": "http://arxiv.org/abs/2303.17503",
+    "context": "Title: Pgx: Hardware-accelerated parallel game simulation for reinforcement learning. (arXiv:2303.17503v1 [cs.AI])\nAbstract: We propose Pgx, a collection of board game simulators written in JAX. Thanks to auto-vectorization and Just-In-Time compilation of JAX, Pgx scales easily to thousands of parallel execution on GPU/TPU accelerators. We found that the simulation of Pgx on a single A100 GPU is 10x faster than that of existing reinforcement learning libraries. Pgx implements games considered vital benchmarks in artificial intelligence research, such as Backgammon, Shogi, and Go. Pgx is available at https://github.com/sotetsuk/pgx.",
+    "path": "papers/23/03/2303.17503.json",
+    "total_tokens": 709,
+    "translated_title": "Pgx:强化学习硬件加速的并行游戏模拟器",
+    "translated_abstract": "我们提出了Pgx，这是一个用JAX编写的棋盘游戏模拟器集合。由于JAX的自动向量化和即时编译功能，Pgx易于在GPU/TPU加速器上进行大规模并行执行。我们发现，在单个A100 GPU上的Pgx模拟比现有的强化学习库快10倍。Pgx实现了被认为是人工智能研究中至关重要的基准测试的游戏，如Backgammon，Shogi和Go。 Pgx可在https://github.com/sotetsuk/pgx获得。",
+    "tldr": "Pgx是一个用JAX编写的游戏模拟器集合，具有强化学习硬件加速能力，支持并行执行，速度比现有的强化学习库快10倍。 它实现了Backgammon，Shogi和Go等基准测试游戏。",
+    "en_tdlr": "Pgx is a collection of board game simulators written in JAX, with hardware-accelerated reinforcement learning capabilities that support parallel execution, and is 10x faster than existing reinforcement learning libraries. It implements benchmark games such as Backgammon, Shogi, and Go."
+}

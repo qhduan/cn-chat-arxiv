@@ -1,0 +1,11 @@
+{
+    "title": "Online Learning and Disambiguations of Partial Concept Classes. (arXiv:2303.17578v1 [cs.LG])",
+    "abstract": "In a recent article, Alon, Hanneke, Holzman, and Moran (FOCS '21) introduced a unifying framework to study the learnability of classes of partial concepts. One of the central questions studied in their work is whether the learnability of a partial concept class is always inherited from the learnability of some ``extension'' of it to a total concept class.  They showed this is not the case for PAC learning but left the problem open for the stronger notion of online learnability.  We resolve this problem by constructing a class of partial concepts that is online learnable, but no extension of it to a class of total concepts is online learnable (or even PAC learnable).",
+    "link": "http://arxiv.org/abs/2303.17578",
+    "context": "Title: Online Learning and Disambiguations of Partial Concept Classes. (arXiv:2303.17578v1 [cs.LG])\nAbstract: In a recent article, Alon, Hanneke, Holzman, and Moran (FOCS '21) introduced a unifying framework to study the learnability of classes of partial concepts. One of the central questions studied in their work is whether the learnability of a partial concept class is always inherited from the learnability of some ``extension'' of it to a total concept class.  They showed this is not the case for PAC learning but left the problem open for the stronger notion of online learnability.  We resolve this problem by constructing a class of partial concepts that is online learnable, but no extension of it to a class of total concepts is online learnable (or even PAC learnable).",
+    "path": "papers/23/03/2303.17578.json",
+    "total_tokens": 750,
+    "translated_title": "在线学习与部分概念类别的消岐",
+    "translated_abstract": "近期，Alon、Hanneke、Holzman和Moran（FOCS '21）提出了一个统一框架，用于研究部分概念类别的可学习性。他们研究的其中一个核心问题是，部分概念类别的可学习性是否总是来自于将其“扩展”到总概念类别的可学习性。他们展示了这一点对于PAC学习不成立，但对于在线学习的更强概念他们将问题留给了读者。本文通过构造一个部分概念类别，证明其是在线可学习的，但其任何扩展成为总概念类别却并不在线可学习（即使是PAC可学习）。",
+    "tldr": "研究在线学习问题，证明可以构造一个部分概念类别，其是在线可学习的，但其任何扩展成为总概念类别却并不在线可学习。"
+}

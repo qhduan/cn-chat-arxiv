@@ -1,0 +1,12 @@
+{
+    "title": "Invertible Convolution with Symmetric Paddings. (arXiv:2303.17361v1 [cs.CV])",
+    "abstract": "We show that symmetrically padded convolution can be analytically inverted via DFT. We comprehensively analyze several different symmetric and anti-symmetric padding modes and show that multiple cases exist where the inversion can be achieved. The implementation is available at \\url{https://github.com/prclibo/iconv_dft}.",
+    "link": "http://arxiv.org/abs/2303.17361",
+    "context": "Title: Invertible Convolution with Symmetric Paddings. (arXiv:2303.17361v1 [cs.CV])\nAbstract: We show that symmetrically padded convolution can be analytically inverted via DFT. We comprehensively analyze several different symmetric and anti-symmetric padding modes and show that multiple cases exist where the inversion can be achieved. The implementation is available at \\url{https://github.com/prclibo/iconv_dft}.",
+    "path": "papers/23/03/2303.17361.json",
+    "total_tokens": 533,
+    "translated_title": "对称填充的可逆卷积",
+    "translated_abstract": "本文展示了对称填充的卷积可以通过DFT得到解析反演。我们全面分析了几种不同的对称和反对称填充模式，并展示了多种可实现反演的情况。此实现可在\\url{https://github.com/prclibo/iconv_dft}中获得。",
+    "tldr": "本文提出对称填充的可逆卷积方法，可通过DFT解析反演，可应用于多种填充模式；相关代码可在GitHub获取。",
+    "en_tdlr": "The paper proposes an invertible convolution method with symmetric paddings that can be analytically inverted via DFT. It comprehensively analyzes several symmetric and anti-symmetric padding modes and shows multiple cases where the inversion can be achieved. The implementation is available on GitHub."
+}

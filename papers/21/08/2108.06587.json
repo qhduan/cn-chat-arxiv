@@ -1,0 +1,12 @@
+{
+    "title": "Stable and extremely unequal. (arXiv:2108.06587v2 [econ.TH] UPDATED)",
+    "abstract": "We highlight the tension between stability and equality in non transferable utility matching. We consider many to one matchings and refer to the two sides of the market as students and schools. The latter have aligned preferences, which in this context means that a school's utility is the sum of its students' utilities. We show that the unique stable allocation displays extreme inequality between matched pairs.",
+    "link": "http://arxiv.org/abs/2108.06587",
+    "context": "Title: Stable and extremely unequal. (arXiv:2108.06587v2 [econ.TH] UPDATED)\nAbstract: We highlight the tension between stability and equality in non transferable utility matching. We consider many to one matchings and refer to the two sides of the market as students and schools. The latter have aligned preferences, which in this context means that a school's utility is the sum of its students' utilities. We show that the unique stable allocation displays extreme inequality between matched pairs.",
+    "path": "papers/21/08/2108.06587.json",
+    "total_tokens": 592,
+    "translated_title": "稳定与极度不平等：非可转让效用匹配问题的研究",
+    "translated_abstract": "我们强调了非可转让效用匹配中稳定性和平等之间的紧张关系。我们考虑多对一的匹配，将市场的两个方面称为学生和学校。后者拥有一致的偏好，这意味着学校的效用是其学生效用的总和。我们展示了唯一稳定分配在匹配的一对之间表现出极端的不平等。",
+    "tldr": "这篇论文研究了非可转让效用匹配中的稳定性和平等之间的紧张关系，发现唯一的稳定分配在匹配的一对之间表现出极端的不平等。",
+    "en_tdlr": "This paper explores the tension between stability and equality in non transferable utility matching, finding that the unique stable allocation displays extreme inequality between matched pairs."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "A Generative Modeling Approach Using Quantum Gates. (arXiv:2303.16955v1 [quant-ph])",
+    "abstract": "In recent years, quantum computing has emerged as a promising technology for solving complex computational problems. Generative modeling is a technique that allows us to learn and generate new data samples similar to the original dataset. In this paper, we propose a generative modeling approach using quantum gates to generate new samples from a given dataset. We start with a brief introduction to quantum computing and generative modeling. Then, we describe our proposed approach, which involves encoding the dataset into quantum states and using quantum gates to manipulate these states to generate new samples. We also provide mathematical details of our approach and demonstrate its effectiveness through experimental results on various datasets.",
+    "link": "http://arxiv.org/abs/2303.16955",
+    "context": "Title: A Generative Modeling Approach Using Quantum Gates. (arXiv:2303.16955v1 [quant-ph])\nAbstract: In recent years, quantum computing has emerged as a promising technology for solving complex computational problems. Generative modeling is a technique that allows us to learn and generate new data samples similar to the original dataset. In this paper, we propose a generative modeling approach using quantum gates to generate new samples from a given dataset. We start with a brief introduction to quantum computing and generative modeling. Then, we describe our proposed approach, which involves encoding the dataset into quantum states and using quantum gates to manipulate these states to generate new samples. We also provide mathematical details of our approach and demonstrate its effectiveness through experimental results on various datasets.",
+    "path": "papers/23/03/2303.16955.json",
+    "total_tokens": 646,
+    "translated_title": "一种使用量子门的生成建模方法",
+    "translated_abstract": "近些年来，量子计算作为解决复杂计算问题的有前途的技术，开始变得越来越流行。生成建模是一种技术，可以让我们学习并生成类似于原数据集的新数据样本。本文提出了一种使用量子门生成新样本的生成建模方法。我们从简要介绍量子计算和生成建模开始。接着，我们描述了我们的方法，这种方法涉及到将数据集编码成量子态，并使用量子门来操作这些状态以生成新样本。我们还提供了我们方法的数学细节，并通过在各种数据集上的实验结果来证明其有效性。",
+    "tldr": "本文提出了一种使用量子门生成新样本的生成建模方法，并在不同数据集上进行了实验证明其有效性。",
+    "en_tdlr": "This paper proposes a generative modeling approach using quantum gates to generate new samples and demonstrates its effectiveness on various datasets through experiments."
+}
