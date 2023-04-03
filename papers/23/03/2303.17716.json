@@ -1,0 +1,12 @@
+{
+    "title": "A Characterization of Online Multiclass Learnability. (arXiv:2303.17716v1 [cs.LG])",
+    "abstract": "We consider the problem of online multiclass learning when the number of labels is unbounded. We show that the Multiclass Littlestone dimension, first introduced in \\cite{DanielyERMprinciple}, continues to characterize online learnability in this setting. Our result complements the recent work by \\cite{Brukhimetal2022} who give a characterization of batch multiclass learnability when the label space is unbounded.",
+    "link": "http://arxiv.org/abs/2303.17716",
+    "context": "Title: A Characterization of Online Multiclass Learnability. (arXiv:2303.17716v1 [cs.LG])\nAbstract: We consider the problem of online multiclass learning when the number of labels is unbounded. We show that the Multiclass Littlestone dimension, first introduced in \\cite{DanielyERMprinciple}, continues to characterize online learnability in this setting. Our result complements the recent work by \\cite{Brukhimetal2022} who give a characterization of batch multiclass learnability when the label space is unbounded.",
+    "path": "papers/23/03/2303.17716.json",
+    "total_tokens": 587,
+    "translated_title": "在线多类可学习性的刻画。",
+    "translated_abstract": "我们考虑当标签数目是无界的时候在线多类学习问题。我们展示了Multiclass Littlestone维度，这个概念首次出现在\\cite{DanielyERMprinciple}中，继续刻画了该场景下的在线可学习性。我们的结果补充了最近的工作，\\cite{Brukhimetal2022}给出了当标签空间是无界的情况下批处理多类可学习性的刻画。",
+    "tldr": "在线多类学习问题中，使用Multiclass Littlestone维度可以刻画标签数目为无界情况下的可学习性。",
+    "en_tdlr": "Multiclass Littlestone dimension characterizes the learnability of online multiclass learning in unbounded label space, as shown in this paper. This complements the recent work by Brukhim et al. who characterized the batch multiclass learning in the same setting."
+}

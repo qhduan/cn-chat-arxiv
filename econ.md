@@ -2,172 +2,112 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Capitalising the Network Externalities of New Land Supply in the Metaverse.](http://arxiv.org/abs/2303.17180) | 本文基于区块链的虚拟世界The Sandbox的实验数据，研究了首次供应在元宇宙中的网络外部性的资本化，结果发现新土地的供应将会与现有土地形成竞争，但是新增供应也能提升现有土地的网络价值。 |
-| [^2] | [Entrepreneurial Capability And Engagement Of Persons With Disabilities Toward A Framework For Inclusive Entrepreneurship.](http://arxiv.org/abs/2303.17130) | 该研究旨在建立包容性创业框架，调查残疾人的创业能力和参与度。调查结果发现，残疾人在创业方面的感知能力水平较为合适，大多数参与水平回应时投入较多，受访者认为缺乏获得信贷和资金的能力和困难是创业过程中的主要挑战。 |
-| [^3] | [Liquidity Constraints, Cash Windfalls, and Entrepreneurship: Evidence from Administrative Data on Lottery Winners.](http://arxiv.org/abs/2303.17029) | 本文利用台湾彩票获奖者的行政数据，发现丰厚的现金盈利增加了流动性受限家庭创业的可能性，创业财富弹性为0.25至0.36。连续创业家更有可能开始一家新业务，但不会改变他们继续经营当前业务的决策。 |
-| [^4] | [The State of Food Systems Worldwide: Counting Down to 2030.](http://arxiv.org/abs/2303.13669) | 本文介绍了食物系统到2030倒计时倡议提出的五个主题和指标体系结构，并应用最新可用数据构建了第一个全球食物系统基线以跟踪转型。 |
-| [^5] | [Strategic Ambiguity in Global Games.](http://arxiv.org/abs/2303.12263) | 论文研究全球博弈中的策略模糊性对玩家行为的影响，发现模糊质量信息下更多玩家选择恒定收益行动，而低质量信息下更多玩家选择前期最优反应。在金融危机应用中，更模糊质量的新闻会引发债务危机，而质量低的新闻会引发货币危机。 |
-| [^6] | [Extreme Points and First-Order Stochastic Dominance: Theory and Applications.](http://arxiv.org/abs/2302.03135) | 该论文以一阶随机支配(FOSD)区间的极值为基础，研究了一些关于经济学中的重要问题，如心理判断、政治经济学和证券设计。其中，使用极值表征后验分位数的分布得到了关于后验均值分布的类比，并且还统一和概括了涉及不良选择或道德风险的重要结果及文献。 |
-| [^7] | [On the Trail of Lost Pennies: player-funded tug-of-war on the integers.](http://arxiv.org/abs/2209.07451) | 在研究一个基于玩家赞助的整数之间的游戏中，发现了一个有趣的结果，对于一类自然的策略，纳什均衡存在的条件是x在λ和λ^-1之间，其中λ是一个值非常接近于0和1的有理数。 |
-| [^8] | [Information-theoretic limitations of data-based price discrimination.](http://arxiv.org/abs/2204.12723) | 本文研究基于数据的价格歧视，揭示了任何基于数据的定价策略在收入生成方面的信息论限制，提出了新的经验收益最大化（ERM）策略，并实现了最优收敛速率。 |
-| [^9] | [Stable and extremely unequal.](http://arxiv.org/abs/2108.06587) | 这篇论文研究了非可转让效用匹配中的稳定性和平等之间的紧张关系，发现唯一的稳定分配在匹配的一对之间表现出极端的不平等。 |
-| [^10] | [Learning in a Small/Big World.](http://arxiv.org/abs/2009.11917) | 这篇论文研究了在小/大世界中最优学习行为的特征，发现随着环境变得更复杂和决策者的认知能力变弱，最优行为逐渐不同。在大世界中，最优学习行为可能表现出多种非贝叶斯学习行为。 |
-| [^11] | [Optimal Experimental Design for Staggered Rollouts.](http://arxiv.org/abs/1911.03764) | 本文研究了隔开式试验的最优设计问题。对于非自适应实验，提出了一个近似最优解；对于自适应实验，提出了一种新算法——精度导向的自适应实验（PGAE）算法，它使用贝叶斯决策理论来最大化估计治疗效果的预期精度。 |
+| [^1] | [Inference on eigenvectors of non-symmetric matrices.](http://arxiv.org/abs/2303.18233) | 本研究探讨了建立渐近推断非对称矩阵特征向量程序的必要条件，并针对完全向量和每个系数假设分别建立了 Wald 和 t 检验的分布理论，是多元统计学中的一种有用工具。 |
+| [^2] | [Anonymity in sharing the revenues from broadcasting sports leagues.](http://arxiv.org/abs/2303.17897) | 研究了分享广播体育联赛收益的公平性问题，提出匿名性为主要公理，结合其他公理得到多种规则的特征，包括零团队的广义分割规则以及必要团队的让步和分割规则，同时提出了几种新的规则并对这些规则进行了刻画和分析。 |
+| [^3] | [Stake-governed tug-of-war and the biased infinity Laplacian.](http://arxiv.org/abs/2206.08300) | 本文提出一种带有分配预算的拔河游戏数学模型，每个玩家依靠自己的预算进行赌注，在给定的轮次中，根据硬币翻转的结果获得移动的权利，当计数器到达边界时，其中一个玩家向另一个支付由边界定点确定的金额。 |
+| [^4] | [Firm Heterogeneity, Market Power and Macroeconomic Fragility.](http://arxiv.org/abs/2205.03908) | 本文研究了公司异质性和市场垄断如何影响宏观经济脆弱性，尤其是如何引起经济竞争驱动的贫困陷阱。研究模型的校准表明，已知的公司异质性趋势会显著增加缓慢复苏的可能性和持续时间。 |
+| [^5] | [Monitoring the Economy in Real Time: Trends and Gaps in Real Activity and Prices.](http://arxiv.org/abs/2201.05556) | 该论文提出可以用于实时监控官方趋势和缺口估计的具有参考意义的模型，有助于评估美国的产出潜力、产出缺口、菲利普斯曲线和奥肯定律。 |
+| [^6] | [Factor-augmented tree ensembles.](http://arxiv.org/abs/2111.14000) | 本文提出了一种因子增强的树集合方法，能够处理多种不规则预测变量，为处理宏观金融问题提供一种可靠的方法。 |
+| [^7] | [Learning Treatment Effects in Panels with General Intervention Patterns.](http://arxiv.org/abs/2106.02780) | 本文提出了一种针对面板数据的因果推断问题的解决方案，利用合成对照的方法进行处理。文章拓展了该框架，使其适用性更加广泛，并在计算实验中展现了它的优越性能。 |
 
 # 详细
 
-[^1]: 首次供应在元宇宙中的网络外部性的资本化
+[^1]: 非对称矩阵特征向量的推断
 
-    Capitalising the Network Externalities of New Land Supply in the Metaverse. (arXiv:2303.17180v1 [econ.GN])
+    Inference on eigenvectors of non-symmetric matrices. (arXiv:2303.18233v1 [math.ST])
 
-    [http://arxiv.org/abs/2303.17180](http://arxiv.org/abs/2303.17180)
+    [http://arxiv.org/abs/2303.18233](http://arxiv.org/abs/2303.18233)
 
-    本文基于区块链的虚拟世界The Sandbox的实验数据，研究了首次供应在元宇宙中的网络外部性的资本化，结果发现新土地的供应将会与现有土地形成竞争，但是新增供应也能提升现有土地的网络价值。
-
-    
-
-    当土地变得更加连接时，由于网络外部性，其价值可能会发生变化。这种想法对于开发人员和政策制定者来说直观而有吸引力，但是在实践中难以分离土地价值的决定因素，这是数据挖掘的一个难点。我们使用基于区块链的虚拟经济——The Sandbox中的房地产，应用一系列自然实验来估计基于网络外部性的土地的因果影响，从而解决了这个挑战。我们的研究结果表明，当新土地可用时，现有土地的网络价值会增加，但是要权衡新土地与现有供应的竞争关系。我们的工作展示了使用虚拟世界进行政策实验的好处。
-
-    When land becomes more connected, its value can change because of network externalities. This idea is intuitive and appealing to developers and policymakers, but documenting their importance is empirically challenging because it is difficult to isolate the determinants of land value in practice. We address this challenge with real estate in The Sandbox, a virtual economy built on blockchain, which provides a series of natural experiments that can be used to estimate the causal impact of land-based of network externalities. Our results show that when new land becomes available, the network value of existing land increases, but there is a trade-off as new land also competes with existing supply. Our work illustrates the benefits of using virtual worlds to conduct policy experiments.
-    
-[^2]: 残疾人的创业能力和参与度：建立包容性创业框架
-
-    Entrepreneurial Capability And Engagement Of Persons With Disabilities Toward A Framework For Inclusive Entrepreneurship. (arXiv:2303.17130v1 [econ.GN])
-
-    [http://arxiv.org/abs/2303.17130](http://arxiv.org/abs/2303.17130)
-
-    该研究旨在建立包容性创业框架，调查残疾人的创业能力和参与度。调查结果发现，残疾人在创业方面的感知能力水平较为合适，大多数参与水平回应时投入较多，受访者认为缺乏获得信贷和资金的能力和困难是创业过程中的主要挑战。
+    本研究探讨了建立渐近推断非对称矩阵特征向量程序的必要条件，并针对完全向量和每个系数假设分别建立了 Wald 和 t 检验的分布理论，是多元统计学中的一种有用工具。
 
     
 
-    该研究旨在确定残疾人的创业能力和参与度，以建立包容性创业框架。研究者通过有目的的随机抽样，采用描述性和相关方法进行调查研究。样本来自通用三角市和Rosario市的残疾人事务办公室（PDAO）注册的人群。调查结果表明，受访者大多来自工薪阶层，女性居多，大多数是单身，拥有大学学位，住在中等大小的住房中，收入仅够维生。此外，残疾人在创业方面的感知能力水平较为合适，大多数参与水平回应时会有所投入。值得一提的是，年龄和婚姻状况与研究对象的大部分变量存在显著关系。最后，残疾人受访者所认为的挑战包括以下几点：缺乏财务能力、获得信贷和资金的难度，身体状况等。
+    本文认为，Tyler（1981）的可对称化条件并非建立渐近推断特征向量程序所必需的。 我们为完全向量和每个系数假设分别建立了 Wald 和 t 检验的分布理论。 我们的检验统计量来源于非对称矩阵的特征投影。 通过将投影表示为从基础矩阵到其谱数据的映射，我们通过解析摄动理论找到了导数。 这些结果演示了 Sun（1991）的解析摄动理论是多元统计学中的一种有用工具，并且具有独立的兴趣。作为一种应用，我们为由有向图引发的邻接矩阵估计的 Bonacich 中心性定义置信区间。
 
-    The study was designed to determine the entrepreneurial capability and engagement of persons with disabilities toward a framework for inclusive entrepreneurship. The researcher used descriptive and correlational approaches through purposive random sampling. The sample came from the City of General Trias and the Municipality of Rosario, registered under their respective Persons with Disabilities Affairs Offices (PDAO). The findings indicated that the respondents are from the working class, are primarily female, are mostly single, have college degrees, live in a medium-sized home, and earn the bare minimum. Furthermore, PWDs' perceived capability level in entrepreneurship was somehow capable, and the majority of engagement level responses were somehow engaged. Considerably, age and civil status have significant relationships with most of the variables under study. Finally, the perceived challenges of PWDs' respondents noted the following: lack of financial capacity, access to credit and 
+    This paper argues that the symmetrisability condition in Tyler(1981) is not necessary to establish asymptotic inference procedures for eigenvectors. We establish distribution theory for a Wald and t-test for full-vector and individual coefficient hypotheses, respectively. Our test statistics originate from eigenprojections of non-symmetric matrices. Representing projections as a mapping from the underlying matrix to its spectral data, we find derivatives through analytic perturbation theory. These results demonstrate how the analytic perturbation theory of Sun(1991) is a useful tool in multivariate statistics and are of independent interest. As an application, we define confidence sets for Bonacich centralities estimated from adjacency matrices induced by directed graphs.
     
-[^3]: 流动性约束、现金盈利和创业：台湾彩票获奖者的实证研究
+[^2]: 分享广播体育联赛收益中的匿名性
 
-    Liquidity Constraints, Cash Windfalls, and Entrepreneurship: Evidence from Administrative Data on Lottery Winners. (arXiv:2303.17029v1 [econ.GN])
+    Anonymity in sharing the revenues from broadcasting sports leagues. (arXiv:2303.17897v1 [econ.TH])
 
-    [http://arxiv.org/abs/2303.17029](http://arxiv.org/abs/2303.17029)
+    [http://arxiv.org/abs/2303.17897](http://arxiv.org/abs/2303.17897)
 
-    本文利用台湾彩票获奖者的行政数据，发现丰厚的现金盈利增加了流动性受限家庭创业的可能性，创业财富弹性为0.25至0.36。连续创业家更有可能开始一家新业务，但不会改变他们继续经营当前业务的决策。
-
-    
-
-    本文利用台湾彩票获奖者的行政数据，考察现金盈利对创业的影响。我们将在特定年份中赢得超过150万新台币（50,000美元）彩票的家庭的创业决策与赢得不到15,000新台币（500美元）的家庭相比较。结果表明，丰厚的盈利增加了1.5个百分点（从基线平均值增加了125%）的创业可能性。创业财富弹性为0.25至0.36。此外，流动性受限的家庭驱动了盈利引发的创业反应。最后，我们研究了拥有企业的家庭如何应对现金盈利，并发现连续创业家更有可能开始一家新业务，但不会改变他们继续经营当前业务的决策。
-
-    Using administrative data on Taiwanese lottery winners, this paper examines the effects of cash windfalls on entrepreneurship. We compare the start-up decisions of households winning more than 1.5 million NTD (50,000 USD) in the lottery in a particular year with those of households winning less than 15,000 NTD (500 USD). Our results suggest that a substantial windfall increases the likelihood of starting a business by 1.5 percentage points (125% from the baseline mean). Startup wealth elasticity is 0.25 to 0.36. Moreover, households who tend to be liquidity-constrained drive the windfall-induced entrepreneurial response. Finally, we examine how households with a business react to a cash windfall and find that serial entrepreneurs are more likely to start a new business but do not change their decision to continue the current business.
-    
-[^4]: 全球食物系统的现状：倒计时至2030年
-
-    The State of Food Systems Worldwide: Counting Down to 2030. (arXiv:2303.13669v1 [econ.GN])
-
-    [http://arxiv.org/abs/2303.13669](http://arxiv.org/abs/2303.13669)
-
-    本文介绍了食物系统到2030倒计时倡议提出的五个主题和指标体系结构，并应用最新可用数据构建了第一个全球食物系统基线以跟踪转型。
+    研究了分享广播体育联赛收益的公平性问题，提出匿名性为主要公理，结合其他公理得到多种规则的特征，包括零团队的广义分割规则以及必要团队的让步和分割规则，同时提出了几种新的规则并对这些规则进行了刻画和分析。
 
     
 
-    转变食物系统是实现全球发展和可持续目标、带来更健康、公平、可持续和有弹性的未来所必需的。迄今为止，没有综合性框架来跟踪食物系统的转型及其对全球目标的贡献。在2021年，食物系统到2030倒计时倡议（FSCI）阐明了一种体系结构来监测食物系统，分为五个主题：1 饮食、营养和健康；2 环境、自然资源和生产；3 生计、贫困和公平；4 治理；和5弹性和可持续性。每个主题包括三至五个指标领域。本文基于该体系结构，介绍了包容性、咨询性的过程用于选择指标，并应用最新可用的数据构建了第一个全球食物系统基线以跟踪转型。虽然涵盖了大多数主题和领域的数据，但关键指标仍需进一步开发。
+    我们从公理化的角度研究了从广播体育联赛中分享收益的问题。我们的主要公理是匿名性，即传统的公正性公理。其他公正性公理在这些问题中已经得到研究，包括平等地对待相等的人、弱平等对待相等的人和对称性。我们研究了所有公正性公理之间的关系。此外，我们将匿名性与文献中已有的其他公理相结合。有些组合产生了对众所周知规则的新刻画。以匿名性、可加性和零团队为特征的广义分割规则系列得到了刻画。具有匿名性、可加性和必要团队特征的让步和分割规则也被刻画。其他组合对以前未考虑过的新规则进行了刻画。我们提供了三个刻画，其中三个公理是相同的（匿名性、可加性和顺序保持），第四个公理不同（最大渴望、弱上界和非负性）。取决于第四个公理，结果规则可能高度集中或分散，并且可能与先前的规则产生相当大的差异。
 
-    Transforming food systems is essential to bring about a healthier, equitable, sustainable, and resilient future, including achieving global development and sustainability goals. To date, no comprehensive framework exists to track food systems transformation and their contributions to global goals. In 2021, the Food Systems Countdown to 2030 Initiative (FSCI) articulated an architecture to monitor food systems across five themes: 1 diets, nutrition, and health; 2 environment, natural resources, and production; 3 livelihoods, poverty, and equity; 4 governance; and 5 resilience and sustainability. Each theme comprises three-to-five indicator domains. This paper builds on that architecture, presenting the inclusive, consultative process used to select indicators and an application of the indicator framework using the latest available data, constructing the first global food systems baseline to track transformation. While data are available to cover most themes and domains, critical indicat
+    We study the problem of sharing the revenues from broadcasting sports leagues axiomatically. Our key axiom is anonymity, the classical impartiality axiom. Other impartiality axioms already studied in these problems are equal treatment of equals, weak equal treatment of equals and symmetry. We study the relationship between all impartiality axioms. Besides we combine anonymity with other existing axioms in the literature. Some combinations give rise to new characterizations of well-known rules. The family of generalized split rules is characterized with anonymity, additivity and null team. The concede-and-divide rule is characterized with anonymity, additivity and essential team. Others combinations characterize new rules that had not been considered before. We provide three characterizations in which three axioms are the same (anonymity, additivity, and order preservation) the fourth one is different (maximum aspirations, weak upper bound, and non-negativity). Depending on the fourth a
     
-[^5]: 全球博弈中的策略模糊性
+[^3]: 赌注控制的拔河游戏与有偏无限拉普拉斯算子。
 
-    Strategic Ambiguity in Global Games. (arXiv:2303.12263v1 [econ.TH])
+    Stake-governed tug-of-war and the biased infinity Laplacian. (arXiv:2206.08300v2 [math.PR] UPDATED)
 
-    [http://arxiv.org/abs/2303.12263](http://arxiv.org/abs/2303.12263)
+    [http://arxiv.org/abs/2206.08300](http://arxiv.org/abs/2206.08300)
 
-    论文研究全球博弈中的策略模糊性对玩家行为的影响，发现模糊质量信息下更多玩家选择恒定收益行动，而低质量信息下更多玩家选择前期最优反应。在金融危机应用中，更模糊质量的新闻会引发债务危机，而质量低的新闻会引发货币危机。
-
-    
-
-    在具有不完全和模糊信息的博弈中，理性行为不仅取决于基本模糊（关于状态的模糊性）而且取决于策略模糊（关于他人行为的模糊性）。我们研究了策略模糊在全球博弈中的影响。模糊质量信息使更多的玩家选择产生恒定收益的行动，而（明确的）低质量信息使更多的玩家选择对对手行动的统一信念做出前期最优反应。如果前期最优反应的行动产生恒定收益，则足够模糊的质量信息会诱导出一种唯一的均衡，而足够低质量的信息会产生多个均衡。在金融危机的应用中，我们证明了更模糊质量的新闻会引发债务展期危机，而质量较低的新闻会引发货币危机。
-
-    In games with incomplete and ambiguous information, rational behavior depends not only on fundamental ambiguity (ambiguity about states) but also on strategic ambiguity (ambiguity about others' actions). We study the impact of strategic ambiguity in global games. Ambiguous-quality information makes more players choose an action yielding a constant payoff, whereas (unambiguous) low-quality information makes more players choose an ex-ante best response to the uniform belief over the opponents' actions. If the ex-ante best-response action yields a constant payoff, sufficiently ambiguous-quality information induces a unique equilibrium, whereas sufficiently low-quality information generates multiple equilibria. In applications to financial crises, we demonstrate that news of more ambiguous quality triggers a debt rollover crisis, whereas news of less ambiguous quality triggers a currency crisis.
-    
-[^6]: 极值与一阶随机支配：理论与应用
-
-    Extreme Points and First-Order Stochastic Dominance: Theory and Applications. (arXiv:2302.03135v2 [econ.TH] UPDATED)
-
-    [http://arxiv.org/abs/2302.03135](http://arxiv.org/abs/2302.03135)
-
-    该论文以一阶随机支配(FOSD)区间的极值为基础，研究了一些关于经济学中的重要问题，如心理判断、政治经济学和证券设计。其中，使用极值表征后验分位数的分布得到了关于后验均值分布的类比，并且还统一和概括了涉及不良选择或道德风险的重要结果及文献。
+    本文提出一种带有分配预算的拔河游戏数学模型，每个玩家依靠自己的预算进行赌注，在给定的轮次中，根据硬币翻转的结果获得移动的权利，当计数器到达边界时，其中一个玩家向另一个支付由边界定点确定的金额。
 
     
 
-    我们对一阶随机支配(FOSD)区间的极值进行了表征，并展示了这些区间在经济学中许多主题中的核心作用。利用这些极值，我们表征了后验分位数的分布，从而得到了关于后验均值分布的经典结果的类比。我们将这个类比应用于各种主题，包括判断心理学、政治经济学和贝叶斯说服。此外，FOSD区间提供了一个通用的证券设计结构。当涉及到不良选择或道德风险时，我们使用极值来统一和概括该文献中的重要结果。
+    在拔河游戏中，两个玩家通过沿图形的边移动计数器来竞争，每个人根据可能存在偏差的硬币翻转决定在给定轮次中获得移动的权利。当计数器到达边界时，即固定的顶点子集，游戏结束，其中一个玩家向另一个支付由边界定点确定的金额。在本文中，我们提供了一类带有分配预算的拔河游戏的数学处理：每个玩家最初获得一个固定的预算，她在整个游戏中依靠这个预算进行下一轮的赌注，她赢得轮次的概率是
 
-    We characterize the extreme points of first-order stochastic dominance (FOSD) intervals and show how these intervals are at the heart of many topics in economics. Using these extreme points, we characterize the distributions of posterior quantiles, leading to an analog of a classical result regarding the distributions of posterior means. We apply this analog to various subjects, including the psychology of judgement, political economy, and Bayesian persuasion. In addition, FOSD intervals provide a common structure to security design. We use the extreme points to unify and generalize seminal results in that literature when either adverse selection or moral hazard pertains.
+    In tug-of-war, two players compete by moving a counter along edges of a graph, each winning the right to move at a given turn according to the flip of a possibly biased coin. The game ends when the counter reaches the boundary, a fixed subset of the vertices, at which point one player pays the other an amount determined by the boundary vertex. Economists and mathematicians have independently studied tug-of-war for many years, focussing respectively on resource-allocation forms of the game, in which players iteratively spend precious budgets in an effort to influence the bias of the coins that determine the turn victors; and on PDE arising in fine mesh limits of the constant-bias game in a Euclidean setting.  In this article, we offer a mathematical treatment of a class of tug-of-war games with allocated budgets: each player is initially given a fixed budget which she draws on throughout the game to offer a stake at the start of each turn, and her probability of winning the turn is the 
     
-[^7]: 失落的一分钱：基于玩家赞助的整数游戏研究
+[^4]: 市场异质性、垄断和宏观经济脆弱性
 
-    On the Trail of Lost Pennies: player-funded tug-of-war on the integers. (arXiv:2209.07451v2 [math.PR] UPDATED)
+    Firm Heterogeneity, Market Power and Macroeconomic Fragility. (arXiv:2205.03908v7 [econ.GN] UPDATED)
 
-    [http://arxiv.org/abs/2209.07451](http://arxiv.org/abs/2209.07451)
+    [http://arxiv.org/abs/2205.03908](http://arxiv.org/abs/2205.03908)
 
-    在研究一个基于玩家赞助的整数之间的游戏中，发现了一个有趣的结果，对于一类自然的策略，纳什均衡存在的条件是x在λ和λ^-1之间，其中λ是一个值非常接近于0和1的有理数。
-
-    
-
-    我们研究一类随机轮流分配资源的游戏，称为“失落的一分钱”，该游戏在整数集合上进行。在每回合中，Maxine投下a（a∈[0，∞)），而Mina 投下b（b∈[0,∞)）。然后，计数器X向右移动，移动距离为1，概率为a/(a+b)。如果在这个无穷回合游戏中Xi→−∞，那么Mina获得一个单位，而Maxine获得零单位;如果Xi→∞，则这些收据为零和x。因此，对于每个玩家来说，净收入是-A+B，其中A是她的总投注，B是她的最终收入。这个游戏的灵感来源于2009年的公正拔河比赛，但实际上非常类似于原始版本的拔河比赛，即1987年在经济学文献中介绍的那种。我们展示了这个游戏有一些令人惊讶的特点。对于一类自然的策略，当且仅当x在[λ，λ^（-1）]时，纳什均衡存在，其中λ∈（0，1）的一定值。我们指出，λ非常接近……
-
-    We study a class of  random-turn resource-allocation games. In the Trail of Lost Pennies, a counter moves on $\mathbb{Z}$. At each turn, Maxine stakes $a \in [0,\infty)$ and Mina $b \in [0,\infty)$. The counter $X$ then moves adjacently, to the right with probability $\tfrac{a}{a+b}$. If $X_i \to -\infty$ in this infinte-turn game, Mina receives one unit, and Maxine zero; if $X_i \to \infty$, then these receipts are zero and~$x$. Thus the net receipt to a given player is $-A+B$, where $A$ is the sum of her stakes, and $B$ is her terminal receipt. The game was inspired by unbiased tug-of-war in~\cite{PSSW09} from 2009 but in fact closely resembles the original version of tug-of-war, introduced~\cite{HarrisVickers87} in the economics literature in 1987. We show that the game has surprising features. For a natural class of strategies, Nash equilibria exist precisely when $x$ lies in $[\lambda,\lambda^{-1}]$, for a certain $\lambda \in (0,1)$. We indicate that $\lambda$ is remarkably close
-    
-[^8]: 基于数据的价格歧视的信息论限制研究
-
-    Information-theoretic limitations of data-based price discrimination. (arXiv:2204.12723v3 [cs.GT] UPDATED)
-
-    [http://arxiv.org/abs/2204.12723](http://arxiv.org/abs/2204.12723)
-
-    本文研究基于数据的价格歧视，揭示了任何基于数据的定价策略在收入生成方面的信息论限制，提出了新的经验收益最大化（ERM）策略，并实现了最优收敛速率。
+    本文研究了公司异质性和市场垄断如何影响宏观经济脆弱性，尤其是如何引起经济竞争驱动的贫困陷阱。研究模型的校准表明，已知的公司异质性趋势会显著增加缓慢复苏的可能性和持续时间。
 
     
 
-    本文研究了基于估值和外生变量数据随机样本的第三度价格歧视（3PD），其中外生变量是连续的，数据分布对卖方来说是未知的。本文的主要结果有两个方面。第一组结果是定价策略无关的，揭示了任何基于数据的定价策略在收入生成方面的信息论限制，分为3PD和均匀定价两种情况。第二组结果提出了$K$-markets经验收益最大化（ERM）策略，并显示$K$-markets ERM和均匀ERM策略实现了收入收敛到各自真实分布3PD和均匀定价最优解的最优收敛速率。我们的理论和数值结果表明，当样本量足够小的时候，均匀（即$1$-market）ERM策略产生的收入比$K$-markets ERM策略更高，反之亦然。
+    本文研究了公司异质性和市场垄断如何影响宏观经济的脆弱性，即长期衰退的概率。我们提出了一种理论，其中公司进入、竞争和要素供给之间的积极相互作用可以产生多个稳定状态。我们表明，当公司的异质性很大时，即使是小的暂时性冲击也可以引起公司退出并使经济进入一个竞争驱动的贫困陷阱。我们根据美国经济上不断上升的公司异质性的已知趋势来校准我们的模型，我们表明它们显着增加了经济缓慢复苏的可能性和持续时间。我们使用我们的框架来研究2008-09年的经济衰退，并证明该模型可以解释产出和大多数宏观经济聚合物与趋势的持久偏差，包括净进入、加权平均和劳动份额的行为。后危机经济数据也支持了我们的提出的机制。我们最后指出，公司补贴可以是防止经济陷入低增长均衡的强有力工具。
 
-    This paper studies third-degree price discrimination (3PD) based on a random sample of valuation and covariate data, where the covariate is continuous, and the distribution of the data is unknown to the seller. The main results of this paper are twofold. The first set of results is pricing strategy independent and reveals the fundamental information-theoretic limitation of any data-based pricing strategy in revenue generation for two cases: 3PD and uniform pricing. The second set of results proposes the $K$-markets empirical revenue maximization (ERM) strategy and shows that the $K$-markets ERM and the uniform ERM strategies achieve the optimal rate of convergence in revenue to that generated by their respective true-distribution 3PD and uniform pricing optima. Our theoretical and numerical results suggest that the uniform (i.e., $1$-market) ERM strategy generates a larger revenue than the $K$-markets ERM strategy when the sample size is small enough, and vice versa.
+    We study how firm heterogeneity and market power affect macroeconomic fragility, defined as the probability of long slumps. We propose a theory in which the positive interaction between firm entry, competition and factor supply can give rise to multiple steady-states. We show that when firm heterogeneity is large, even small temporary shocks can trigger firm exit and make the economy spiral in a competition-driven poverty trap. We calibrate our model to incorporate the well-documented trends on rising firm heterogeneity in the US economy, we show that they significantly increase the likelihood and length of slow recoveries. We use our framework to study the 2008-09 recession and show that the model can rationalize the persistent deviation of output and most macroeconomic aggregates from trend, including the behavior of net entry, markups and the labor share. Post-crisis cross-industry data corroborates our proposed mechanism. We conclude by showing that firm subsidies can be powerful i
     
-[^9]: 稳定与极度不平等：非可转让效用匹配问题的研究
+[^5]: 实时监测经济：实际活动和价格中的趋势和差距
 
-    Stable and extremely unequal. (arXiv:2108.06587v2 [econ.TH] UPDATED)
+    Monitoring the Economy in Real Time: Trends and Gaps in Real Activity and Prices. (arXiv:2201.05556v2 [econ.EM] UPDATED)
 
-    [http://arxiv.org/abs/2108.06587](http://arxiv.org/abs/2108.06587)
+    [http://arxiv.org/abs/2201.05556](http://arxiv.org/abs/2201.05556)
 
-    这篇论文研究了非可转让效用匹配中的稳定性和平等之间的紧张关系，发现唯一的稳定分配在匹配的一对之间表现出极端的不平等。
-
-    
-
-    我们强调了非可转让效用匹配中稳定性和平等之间的紧张关系。我们考虑多对一的匹配，将市场的两个方面称为学生和学校。后者拥有一致的偏好，这意味着学校的效用是其学生效用的总和。我们展示了唯一稳定分配在匹配的一对之间表现出极端的不平等。
-
-    We highlight the tension between stability and equality in non transferable utility matching. We consider many to one matchings and refer to the two sides of the market as students and schools. The latter have aligned preferences, which in this context means that a school's utility is the sum of its students' utilities. We show that the unique stable allocation displays extreme inequality between matched pairs.
-    
-[^10]: 小/大世界中的学习
-
-    Learning in a Small/Big World. (arXiv:2009.11917v8 [econ.TH] UPDATED)
-
-    [http://arxiv.org/abs/2009.11917](http://arxiv.org/abs/2009.11917)
-
-    这篇论文研究了在小/大世界中最优学习行为的特征，发现随着环境变得更复杂和决策者的认知能力变弱，最优行为逐渐不同。在大世界中，最优学习行为可能表现出多种非贝叶斯学习行为。
+    该论文提出可以用于实时监控官方趋势和缺口估计的具有参考意义的模型，有助于评估美国的产出潜力、产出缺口、菲利普斯曲线和奥肯定律。
 
     
 
-    复杂性和有限能力对我们在不确定性下的学习和决策有深刻的影响。本文使用有限自动机理论来模拟信念形成过程，研究了在小世界和大世界中，即环境复杂度相对于决策者的认知能力较低或较高的情况下，最优学习行为的特征。在非常小的世界中，最优行为非常接近贝叶斯基准，但随着世界的变大，最优行为则越来越不同。此外，在大世界中，最优学习行为可能表现出多种已有文献报道过的非贝叶斯学习行为，包括启发式的使用、相关忽视、持续的过度自信、不注意学习以及模型简化或误设等行为。这些结果建立了非贝叶斯学习行为、复杂度和认知能力之间明确可验证的关系。
+    我们提出了两种实时混合频率半结构化时间序列模型的规范，用于评估美国的产出潜力、产出缺口、菲利普斯曲线和奥肯定律。基准模型使用最少的基于理论的多元识别限制来指导趋势周期分解，而替代模型将国会预算办公室的产出缺口测量作为观察变量。后者的模型结果是产出潜力更平稳，通胀和实际变量之间的周期相关性更低，但在短期之外的预测中表现较差。此方法允许评估和实时监控官方趋势和缺口估计。
 
-    Complexity and limited ability have profound effect on how we learn and make decisions under uncertainty. Using the theory of finite automaton to model belief formation, this paper studies the characteristics of optimal learning behavior in small and big worlds, where the complexity of the environment is low and high, respectively, relative to the cognitive ability of the decision maker. Optimal behavior is well approximated by the Bayesian benchmark in very small world but is more different as the world gets bigger. In addition, in big worlds, the optimal learning behavior could exhibit a wide range of well-documented non-Bayesian learning behavior, including the use of heuristics, correlation neglect, persistent over-confidence, inattentive learning, and other behaviors of model simplification or misspecification. These results establish a clear and testable relationship among the prominence of non-Bayesian learning behavior, complexity, and cognitive ability.
+    We propose two specifications of a real-time mixed-frequency semi-structural time series model for evaluating the output potential, output gap, Phillips curve, and Okun's law for the US. The baseline model uses minimal theory-based multivariate identification restrictions to inform trend-cycle decomposition, while the alternative model adds the CBO's output gap measure as an observed variable. The latter model results in a smoother output potential and lower cyclical correlation between inflation and real variables but performs worse in forecasting beyond the short term. This methodology allows for the assessment and real-time monitoring of official trend and gap estimates.
     
-[^11]: 隔开式试验的最优设计
+[^6]: 因子增强的树集合方法
 
-    Optimal Experimental Design for Staggered Rollouts. (arXiv:1911.03764v5 [econ.EM] UPDATED)
+    Factor-augmented tree ensembles. (arXiv:2111.14000v5 [stat.ML] UPDATED)
 
-    [http://arxiv.org/abs/1911.03764](http://arxiv.org/abs/1911.03764)
+    [http://arxiv.org/abs/2111.14000](http://arxiv.org/abs/2111.14000)
 
-    本文研究了隔开式试验的最优设计问题。对于非自适应实验，提出了一个近似最优解；对于自适应实验，提出了一种新算法——精度导向的自适应实验（PGAE）算法，它使用贝叶斯决策理论来最大化估计治疗效果的预期精度。
+    本文提出了一种因子增强的树集合方法，能够处理多种不规则预测变量，为处理宏观金融问题提供一种可靠的方法。
 
     
 
-    本文研究了在不同时期内某组数据单元的治疗开始时间存在差异时，对实验进行设计和分析的问题。设计问题涉及选择每个数据单元的初始治疗时间以便最精确地估计治疗的瞬时效应和累积效应。我们首先考虑非自适应实验，其中所有的治疗分配决策都在实验开始之前做出。针对这种情况，我们证明了优化问题通常是NP难的，并提出了一种近似最优解。在该解决方案下，每个时期进入治疗的分数最初较低，然后变高，最后再次降低。接下来，我们研究了自适应实验设计问题，其中在收集每个时期的数据后更新继续实验和治疗分配决策。对于自适应情况，我们提出了一种新算法——精度导向的自适应实验（PGAE）算法，它使用贝叶斯决策理论来最大化估计治疗效果的预期精度。我们证明了PGAE算法达到了悔恨的下限，悔恨定义为期望累计平方标准误差和任意治疗分配策略所能实现的最佳误差之间的差异。
+    本文提出了利用状态空间方法提取潜在稳态因子来扩展时间序列回归树信息集的方法。通过这样做，该方法将时间序列回归树的应用扩展到两个方面。第一，它可以处理测量误差、非平稳趋势、季节性和/或缺失观测等不规则的预测变量。第二，它提供了一种明确的利用领域专业理论来指导时间序列回归树的方法。实证结果表明，这些因子增强的树集合方法在宏观金融问题方面提供了一种可靠的方法。本文重点介绍了美国股票波动率与商业周期之间的先导滞后效应。
 
-    In this paper, we study the design and analysis of experiments conducted on a set of units over multiple time periods where the starting time of the treatment may vary by unit. The design problem involves selecting an initial treatment time for each unit in order to most precisely estimate both the instantaneous and cumulative effects of the treatment. We first consider non-adaptive experiments, where all treatment assignment decisions are made prior to the start of the experiment. For this case, we show that the optimization problem is generally NP-hard, and we propose a near-optimal solution. Under this solution, the fraction entering treatment each period is initially low, then high, and finally low again. Next, we study an adaptive experimental design problem, where both the decision to continue the experiment and treatment assignment decisions are updated after each period's data is collected. For the adaptive case, we propose a new algorithm, the Precision-Guided Adaptive Experim
+    This manuscript proposes to extend the information set of time-series regression trees with latent stationary factors extracted via state-space methods. In doing so, this approach generalises time-series regression trees on two dimensions. First, it allows to handle predictors that exhibit measurement error, non-stationary trends, seasonality and/or irregularities such as missing observations. Second, it gives a transparent way for using domain-specific theory to inform time-series regression trees. Empirically, ensembles of these factor-augmented trees provide a reliable approach for macro-finance problems. This article highlights it focussing on the lead-lag effect between equity volatility and the business cycle in the United States.
+    
+[^7]: 学习具有一般干预模式面板数据中的治疗效应
+
+    Learning Treatment Effects in Panels with General Intervention Patterns. (arXiv:2106.02780v2 [stat.ML] UPDATED)
+
+    [http://arxiv.org/abs/2106.02780](http://arxiv.org/abs/2106.02780)
+
+    本文提出了一种针对面板数据的因果推断问题的解决方案，利用合成对照的方法进行处理。文章拓展了该框架，使其适用性更加广泛，并在计算实验中展现了它的优越性能。
+
+    
+
+    面板数据中的因果推断问题是一个中心计量经济学问题。本文研究的是一个基本版本的面板数据因果推断问题：设$M^*$为低秩矩阵，$E$为零均值噪声矩阵。对于一个具有$\{0,1\}$值的“治疗”矩阵$Z$，我们观测到矩阵$O$，其中$O_{ij} := M^*_{ij} + E_{ij} + \mathcal{T}_{ij} Z_{ij}$，其中$\mathcal{T}_{ij}$是未知的异质性治疗效应。这个问题需要我们估计平均治疗效应$\tau^*:=\sum_{ij} \mathcal{T}_{ij} Z_{ij} / \sum_{ij} Z_{ij}$。合成对照范例提供了一种估计$\tau^*$的方法，当$Z$仅仅支持单个行时。本文将该框架扩展到允许一般的$Z$的速率最优恢复$\tau^*$，从而广泛扩展了它的适用性。我们的保证是在这个广泛的设置中第一次出现的。合成和真实数据上的计算实验表明，我们的估计器相对于竞争估计器具有重大优势。
+
+    The problem of causal inference with panel data is a central econometric question. The following is a fundamental version of this problem: Let $M^*$ be a low rank matrix and $E$ be a zero-mean noise matrix. For a `treatment' matrix $Z$ with entries in $\{0,1\}$ we observe the matrix $O$ with entries $O_{ij} := M^*_{ij} + E_{ij} + \mathcal{T}_{ij} Z_{ij}$ where $\mathcal{T}_{ij} $ are unknown, heterogenous treatment effects. The problem requires we estimate the average treatment effect $\tau^* := \sum_{ij} \mathcal{T}_{ij} Z_{ij} / \sum_{ij} Z_{ij}$. The synthetic control paradigm provides an approach to estimating $\tau^*$ when $Z$ places support on a single row. This paper extends that framework to allow rate-optimal recovery of $\tau^*$ for general $Z$, thus broadly expanding its applicability. Our guarantees are the first of their type in this general setting. Computational experiments on synthetic and real-world data show a substantial advantage over competing estimators.
     
 

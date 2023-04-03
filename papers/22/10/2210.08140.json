@@ -1,0 +1,12 @@
+{
+    "title": "A Kernel Approach for PDE Discovery and Operator Learning. (arXiv:2210.08140v2 [stat.ML] UPDATED)",
+    "abstract": "This article presents a three-step framework for learning and solving partial differential equations (PDEs) using kernel methods. Given a training set consisting of pairs of noisy PDE solutions and source/boundary terms on a mesh, kernel smoothing is utilized to denoise the data and approximate derivatives of the solution. This information is then used in a kernel regression model to learn the algebraic form of the PDE. The learned PDE is then used within a kernel based solver to approximate the solution of the PDE with a new source/boundary term, thereby constituting an operator learning framework. Numerical experiments compare the method to state-of-the-art algorithms and demonstrate its competitive performance.",
+    "link": "http://arxiv.org/abs/2210.08140",
+    "context": "Title: A Kernel Approach for PDE Discovery and Operator Learning. (arXiv:2210.08140v2 [stat.ML] UPDATED)\nAbstract: This article presents a three-step framework for learning and solving partial differential equations (PDEs) using kernel methods. Given a training set consisting of pairs of noisy PDE solutions and source/boundary terms on a mesh, kernel smoothing is utilized to denoise the data and approximate derivatives of the solution. This information is then used in a kernel regression model to learn the algebraic form of the PDE. The learned PDE is then used within a kernel based solver to approximate the solution of the PDE with a new source/boundary term, thereby constituting an operator learning framework. Numerical experiments compare the method to state-of-the-art algorithms and demonstrate its competitive performance.",
+    "path": "papers/22/10/2210.08140.json",
+    "total_tokens": 723,
+    "translated_title": "用核方法探索偏微分方程和算子学习",
+    "translated_abstract": "本文介绍了一种使用核方法学习和解决偏微分方程（PDEs）的三步框架。给定一个训练集，包括网格上的噪声PDE解以及源项/边界项的对，利用核平滑技术去噪并近似解的导数。然后利用这些信息在核回归模型中学习PDE的代数形式。学习得到的PDE在基于核的求解器中被用来近似解新的源项/边界项的PDE，从而构成了一个算子学习框架。数值实验将该方法与最先进的算法进行了比较，并展示了其竞争性能。",
+    "tldr": "本文提出了一种使用核方法的三步学习和求解偏微分方程的框架，能够近似解新的PDE，并展示了比其他算法更优的表现。",
+    "en_tdlr": "This paper presents a three-step framework for learning and solving partial differential equations using kernel methods, which can approximate the solution of the PDE with a new source/boundary term and demonstrate better performance than other algorithms."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "An ADMM Solver for the MKL-$L_{0/1}$-SVM. (arXiv:2303.04445v2 [stat.ML] UPDATED)",
+    "abstract": "We formulate the Multiple Kernel Learning (abbreviated as MKL) problem for the support vector machine with the infamous $(0,1)$-loss function. Some first-order optimality conditions are given and then exploited to develop a fast ADMM solver for the nonconvex and nonsmooth optimization problem. A simple numerical experiment on synthetic planar data shows that our MKL-$L_{0/1}$-SVM framework could be promising.",
+    "link": "http://arxiv.org/abs/2303.04445",
+    "context": "Title: An ADMM Solver for the MKL-$L_{0/1}$-SVM. (arXiv:2303.04445v2 [stat.ML] UPDATED)\nAbstract: We formulate the Multiple Kernel Learning (abbreviated as MKL) problem for the support vector machine with the infamous $(0,1)$-loss function. Some first-order optimality conditions are given and then exploited to develop a fast ADMM solver for the nonconvex and nonsmooth optimization problem. A simple numerical experiment on synthetic planar data shows that our MKL-$L_{0/1}$-SVM framework could be promising.",
+    "path": "papers/23/03/2303.04445.json",
+    "total_tokens": 630,
+    "translated_title": "一个ADMM求解MKL-$L_{0/1}$-SVM的方法",
+    "translated_abstract": "我们针对带有臭名昭著的$(0,1)$-损失函数的支持向量机问题，制定了多核学习(MKL)问题。给出了一些一阶最优性条件，然后利用这些条件来开发一个快速的ADMM求解器，用于处理非凸和非光滑的优化问题。一个简单的数值实验表明，我们的MKL-$L_{0/1}$-SVM框架具有很好的前景。",
+    "tldr": "该论文提出了一个快速ADMM求解器，能够有效处理带有$(0,1)$-损失函数的支持向量机问题，通过在合成平面数据上的实验，证明了该方法的潜力。",
+    "en_tdlr": "The paper proposes a fast ADMM solver for solving support vector machine problems with the infamous $(0,1)$-loss function. The method is promising, as demonstrated by a simple numerical experiment on synthetic planar data."
+}

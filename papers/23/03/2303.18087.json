@@ -1,0 +1,12 @@
+{
+    "title": "Evaluation Challenges for Geospatial ML. (arXiv:2303.18087v1 [cs.LG])",
+    "abstract": "As geospatial machine learning models and maps derived from their predictions are increasingly used for downstream analyses in science and policy, it is imperative to evaluate their accuracy and applicability. Geospatial machine learning has key distinctions from other learning paradigms, and as such, the correct way to measure performance of spatial machine learning outputs has been a topic of debate. In this paper, I delineate unique challenges of model evaluation for geospatial machine learning with global or remotely sensed datasets, culminating in concrete takeaways to improve evaluations of geospatial model performance.",
+    "link": "http://arxiv.org/abs/2303.18087",
+    "context": "Title: Evaluation Challenges for Geospatial ML. (arXiv:2303.18087v1 [cs.LG])\nAbstract: As geospatial machine learning models and maps derived from their predictions are increasingly used for downstream analyses in science and policy, it is imperative to evaluate their accuracy and applicability. Geospatial machine learning has key distinctions from other learning paradigms, and as such, the correct way to measure performance of spatial machine learning outputs has been a topic of debate. In this paper, I delineate unique challenges of model evaluation for geospatial machine learning with global or remotely sensed datasets, culminating in concrete takeaways to improve evaluations of geospatial model performance.",
+    "path": "papers/23/03/2303.18087.json",
+    "total_tokens": 651,
+    "translated_title": "地理空间机器学习的评估挑战",
+    "translated_abstract": "随着地理空间机器学习模型和由其预测产生的地图在科学和政策的下游分析中越来越多地被使用，评估其准确性和适用性变得至关重要。地理空间机器学习与其他学习范例有着关键差异，因此，衡量空间机器学习输出性能的正确方法一直是争论的话题。本文阐述了全球或遥感数据下地理空间机器学习模型评估的独特挑战，并总结了改进地理空间模型性能评估的具体方法。",
+    "tldr": "本文论述了地理空间机器学习评估中的独特挑战，提出了改进地理空间模型性能评估的具体方法。",
+    "en_tdlr": "This paper discusses the unique challenges of evaluating geospatial machine learning models and suggests concrete methods to improve the evaluation of their performance."
+}

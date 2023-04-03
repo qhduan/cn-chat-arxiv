@@ -1,0 +1,12 @@
+{
+    "title": "Concatenated Classic and Neural (CCN) Codes: ConcatenatedAE. (arXiv:2209.01701v2 [cs.IT] UPDATED)",
+    "abstract": "Small neural networks (NNs) used for error correction were shown to improve on classic channel codes and to address channel model changes. We extend the code dimension of any such structure by using the same NN under one-hot encoding multiple times, then serially-concatenated with an outer classic code. We design NNs with the same network parameters, where each Reed-Solomon codeword symbol is an input to a different NN. Significant improvements in block error probabilities for an additive Gaussian noise channel as compared to the small neural code are illustrated, as well as robustness to channel model changes.",
+    "link": "http://arxiv.org/abs/2209.01701",
+    "context": "Title: Concatenated Classic and Neural (CCN) Codes: ConcatenatedAE. (arXiv:2209.01701v2 [cs.IT] UPDATED)\nAbstract: Small neural networks (NNs) used for error correction were shown to improve on classic channel codes and to address channel model changes. We extend the code dimension of any such structure by using the same NN under one-hot encoding multiple times, then serially-concatenated with an outer classic code. We design NNs with the same network parameters, where each Reed-Solomon codeword symbol is an input to a different NN. Significant improvements in block error probabilities for an additive Gaussian noise channel as compared to the small neural code are illustrated, as well as robustness to channel model changes.",
+    "path": "papers/22/09/2209.01701.json",
+    "total_tokens": 734,
+    "translated_title": "连接传统和神经网络的长码（CCN）：ConcatenatedAE",
+    "translated_abstract": "研究表明，用于纠错的小型神经网络（NN）可以提高经典信道编码的效果，并解决信道模型变化的问题。我们使用同一组NN来进行一次性编码多个One-hot编码，并通过串联在外层的经典编码中来扩展任何这样结构的编码维度。我们设计了具有相同网络参数的NN，其中每个Reed-Solomon码字符都是不同NN的输入。相对于小型神经编码，显示了显着的块误码概率提高以及对信道模型变化的鲁棒性。",
+    "tldr": "本论文提出了连接传统和神经网络的长码方法，并设计出具有相同网络参数的NN用于多次进行One-hot编码，以扩展编码维度。实验证明，这种方法有效提高了纠错能力并具有较强的鲁棒性。",
+    "en_tdlr": "This paper proposes a method of concatenated classic and neural (CCN) codes through designing neural networks (NNs) with the same network parameters, and using them for one-hot encoding multiple times to extend the code dimension. The experimental results demonstrate significant improvement in error correction capability and robustness to channel model changes compared to small neural codes."
+}

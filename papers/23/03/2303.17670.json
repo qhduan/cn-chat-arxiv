@@ -1,0 +1,12 @@
+{
+    "title": "Utilizing Remote Sensing to Analyze Land Usage and Rice Planting Patterns. (arXiv:2303.17670v1 [cs.CY])",
+    "abstract": "The cooperative management of rice terraces in Bali reveals an interesting phenomenon that stems from the feedback loop between human decisions and the ecosystem process. In particular, spatial patterning is observed, which is heavily reliant on the farmer's decision to plant crops as well as the response from the physical environment like pest damage and water shortage. A recent study proposed an evolutionary game theoretic model to infer particular power laws governing this spatial patterning along the Bali region. In this paper, we show a snapshot of rice patches in Bali with colors to indicate the different stages of rice growth",
+    "link": "http://arxiv.org/abs/2303.17670",
+    "context": "Title: Utilizing Remote Sensing to Analyze Land Usage and Rice Planting Patterns. (arXiv:2303.17670v1 [cs.CY])\nAbstract: The cooperative management of rice terraces in Bali reveals an interesting phenomenon that stems from the feedback loop between human decisions and the ecosystem process. In particular, spatial patterning is observed, which is heavily reliant on the farmer's decision to plant crops as well as the response from the physical environment like pest damage and water shortage. A recent study proposed an evolutionary game theoretic model to infer particular power laws governing this spatial patterning along the Bali region. In this paper, we show a snapshot of rice patches in Bali with colors to indicate the different stages of rice growth",
+    "path": "papers/23/03/2303.17670.json",
+    "total_tokens": 722,
+    "translated_title": "利用遥感技术分析土地利用和水稻种植模式",
+    "translated_abstract": "在巴厘岛合作管理水稻梯田中，人类决策和生态系统过程之间的反馈环路引出了有趣的现象。特别地，观察到空间分布模式，受农民种植作物的决策以及物理环境如害虫损害和水源短缺的响应，严重依赖于决策。最近的一项研究提出了演化博弈理论模型，推断了支配这种空间分布模式的特定幂律规律。本文展示了巴厘岛水稻田光亮的快照，使用颜色来指示不同生长阶段的水稻。",
+    "tldr": "该研究利用遥感技术分析了巴厘岛水稻田中的空间分布模式，揭示了决策和环境因素对种植决策的影响。",
+    "en_tdlr": "This study utilizes remote sensing to analyze the spatial patterning of rice fields in Bali, revealing the influence of the feedback loop between human decisions and environmental factors on planting decisions."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Partial Optimality in Cubic Correlation Clustering. (arXiv:2302.04694v2 [cs.DM] UPDATED)",
+    "abstract": "The higher-order correlation clustering problem is an expressive model, and recently, local search heuristics have been proposed for several applications. Certifying optimality, however, is NP-hard and practically hampered already by the complexity of the problem statement. Here, we focus on establishing partial optimality conditions for the special case of complete graphs and cubic objective functions. In addition, we define and implement algorithms for testing these conditions and examine their effect numerically, on two datasets.",
+    "link": "http://arxiv.org/abs/2302.04694",
+    "context": "Title: Partial Optimality in Cubic Correlation Clustering. (arXiv:2302.04694v2 [cs.DM] UPDATED)\nAbstract: The higher-order correlation clustering problem is an expressive model, and recently, local search heuristics have been proposed for several applications. Certifying optimality, however, is NP-hard and practically hampered already by the complexity of the problem statement. Here, we focus on establishing partial optimality conditions for the special case of complete graphs and cubic objective functions. In addition, we define and implement algorithms for testing these conditions and examine their effect numerically, on two datasets.",
+    "path": "papers/23/02/2302.04694.json",
+    "total_tokens": 629,
+    "translated_title": "三次相关聚类中的部分最优性",
+    "translated_abstract": "高阶相关聚类问题是一种表达力强的模型，最近针对几个应用提出了局部搜索启发式算法。然而，保证最优性是 NP-hard 的，而且在问题陈述的复杂性上已经受到实际阻碍。在这里，我们专注于建立完全图和三次目标函数的特殊情况下部分最优性条件。此外，我们定义和实现了测试这些条件的算法，并在两个数据集上数值上检验了它们的效果。",
+    "tldr": "该论文关注于建立完全图和三次目标函数的特殊情况下的部分最优性条件，同时提出了测试这些条件的算法并在两个数据集上数值上检验了它们的效果。",
+    "en_tdlr": "This paper focuses on establishing partial optimality conditions for the special case of complete graphs and cubic objective functions, proposes algorithms for testing these conditions, and examines their effect numerically, on two datasets."
+}

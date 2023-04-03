@@ -1,0 +1,12 @@
+{
+    "title": "Adaptive joint distribution learning. (arXiv:2110.04829v2 [stat.ML] UPDATED)",
+    "abstract": "We develop a new framework for embedding joint probability distributions in tensor product reproducing kernel Hilbert spaces (RKHS). Our framework accommodates a low-dimensional, normalized and positive model of a Radon-Nikodym derivative, which we estimate from sample sizes of up to several million data points, alleviating the inherent limitations of RKHS modeling. Well-defined normalized and positive conditional distributions are natural by-products to our approach. The embedding is fast to compute and accommodates learning problems ranging from prediction to classification. Our theoretical findings are supplemented by favorable numerical results.",
+    "link": "http://arxiv.org/abs/2110.04829",
+    "context": "Title: Adaptive joint distribution learning. (arXiv:2110.04829v2 [stat.ML] UPDATED)\nAbstract: We develop a new framework for embedding joint probability distributions in tensor product reproducing kernel Hilbert spaces (RKHS). Our framework accommodates a low-dimensional, normalized and positive model of a Radon-Nikodym derivative, which we estimate from sample sizes of up to several million data points, alleviating the inherent limitations of RKHS modeling. Well-defined normalized and positive conditional distributions are natural by-products to our approach. The embedding is fast to compute and accommodates learning problems ranging from prediction to classification. Our theoretical findings are supplemented by favorable numerical results.",
+    "path": "papers/21/10/2110.04829.json",
+    "total_tokens": 699,
+    "translated_title": "自适应联合分布学习",
+    "translated_abstract": "我们开发了一个新的框架，用于将联合概率分布嵌入张量积再生核希尔伯特空间（RKHS）中。我们的框架可以容纳一个低维、归一化和正的Radon-Nikodym导数模型，该模型可以从多达数百万个数据点的样本大小中进行估计，减轻了RKHS建模的固有限制。我们的方法自然产生了定义良好的归一化和正的条件分布。嵌入计算速度快且适用于从预测到分类的各种学习问题。我们的理论结果得到了有益的数值结果的支持。",
+    "tldr": "该论文提出了一种自适应联合分布学习的框架，可以从大量数据点中估计低维、归一化和正的Radon-Nikodym导数模型，并在不同学习问题上取得了良好的结果。",
+    "en_tdlr": "This paper proposes a framework for adaptive joint distribution learning, which estimates a low-dimensional, normalized and positive model of a Radon-Nikodym derivative from large amounts of data points, and achieves favorable results on various learning problems."
+}

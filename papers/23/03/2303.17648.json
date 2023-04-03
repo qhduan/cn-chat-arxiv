@@ -1,0 +1,12 @@
+{
+    "title": "Practical Policy Optimization with Personalized Experimentation. (arXiv:2303.17648v1 [cs.LG])",
+    "abstract": "Many organizations measure treatment effects via an experimentation platform to evaluate the casual effect of product variations prior to full-scale deployment. However, standard experimentation platforms do not perform optimally for end user populations that exhibit heterogeneous treatment effects (HTEs). Here we present a personalized experimentation framework, Personalized Experiments (PEX), which optimizes treatment group assignment at the user level via HTE modeling and sequential decision policy optimization to optimize multiple short-term and long-term outcomes simultaneously. We describe an end-to-end workflow that has proven to be successful in practice and can be readily implemented using open-source software.",
+    "link": "http://arxiv.org/abs/2303.17648",
+    "context": "Title: Practical Policy Optimization with Personalized Experimentation. (arXiv:2303.17648v1 [cs.LG])\nAbstract: Many organizations measure treatment effects via an experimentation platform to evaluate the casual effect of product variations prior to full-scale deployment. However, standard experimentation platforms do not perform optimally for end user populations that exhibit heterogeneous treatment effects (HTEs). Here we present a personalized experimentation framework, Personalized Experiments (PEX), which optimizes treatment group assignment at the user level via HTE modeling and sequential decision policy optimization to optimize multiple short-term and long-term outcomes simultaneously. We describe an end-to-end workflow that has proven to be successful in practice and can be readily implemented using open-source software.",
+    "path": "papers/23/03/2303.17648.json",
+    "total_tokens": 698,
+    "translated_title": "个性化试验下的实用策略优化",
+    "translated_abstract": "许多组织通过实验平台来测量处理效果，以在全面部署之前评估产品变化的因果效应。然而，标准实验平台对表现出异质处理效应的最终用户人群（HTE）的效果并不理想。在这里，我们介绍了一个个性化试验框架，个性化试验（PEX），通过HTE建模和顺序决策策略优化，以在用户级别上优化治疗组分配，同时优化多个短期和长期结果。我们描述了一种从实践中证明成功并可使用开源软件轻松实现的端到端工作流程。",
+    "tldr": "本文提出了一个个性化试验框架PEX，利用HTE建模和序列决策策略优化，在用户级别上优化治疗组分配，同时优化多个短期和长期结果。",
+    "en_tdlr": "This paper proposes a personalized experimentation framework, PEX, which optimizes treatment group assignment at the user level via HTE modeling and sequential decision policy optimization to optimize multiple short-term and long-term outcomes simultaneously."
+}

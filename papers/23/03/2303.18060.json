@@ -1,0 +1,12 @@
+{
+    "title": "NOSTROMO: Lessons learned, conclusions and way forward. (arXiv:2303.18060v1 [cs.LG])",
+    "abstract": "This White Paper sets out to explain the value that metamodelling can bring to air traffic management (ATM) research. It will define metamodelling and explore what it can, and cannot, do. The reader is assumed to have basic knowledge of SESAR: the Single European Sky ATM Research project. An important element of SESAR, as the technological pillar of the Single European Sky initiative, is to bring about improvements, as measured through specific key performance indicators (KPIs), and as implemented by a series of so-called SESAR 'Solutions'. These 'Solutions' are new or improved operational procedures or technologies, designed to meet operational and performance improvements described in the European ATM Master Plan.",
+    "link": "http://arxiv.org/abs/2303.18060",
+    "context": "Title: NOSTROMO: Lessons learned, conclusions and way forward. (arXiv:2303.18060v1 [cs.LG])\nAbstract: This White Paper sets out to explain the value that metamodelling can bring to air traffic management (ATM) research. It will define metamodelling and explore what it can, and cannot, do. The reader is assumed to have basic knowledge of SESAR: the Single European Sky ATM Research project. An important element of SESAR, as the technological pillar of the Single European Sky initiative, is to bring about improvements, as measured through specific key performance indicators (KPIs), and as implemented by a series of so-called SESAR 'Solutions'. These 'Solutions' are new or improved operational procedures or technologies, designed to meet operational and performance improvements described in the European ATM Master Plan.",
+    "path": "papers/23/03/2303.18060.json",
+    "total_tokens": 738,
+    "translated_title": "NOSTROMO: 教训、结论与未来方向",
+    "translated_abstract": "本白皮书旨在解释元建模对空中交通管理(ATM)研究的价值。它将定义元建模并探讨其能力和不能做到的事情。读者假定具有SESAR的基础知识：单一欧洲天空ATM研究项目。 SESAR的重要组成部分是带来改进，该项目是单一欧洲天空倡议的技术支柱，改进是通过特定关键绩效指标(KPIs)衡量的，并由所谓的SESAR“解决方案”系列来实施。这些“解决方案”是新的或改进的操作程序或技术，旨在满足欧洲ATM总体计划中描述的操作和性能改进。",
+    "tldr": "本文介绍了元建模对于空中交通管理研究的价值，并强调了其在实现欧洲ATM总体计划中的关键绩效指标方面所起的作用。",
+    "en_tdlr": "This paper explains the value of metamodelling in air traffic management research and highlights its role in achieving key performance indicators in the European ATM Master Plan."
+}

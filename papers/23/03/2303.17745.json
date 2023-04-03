@@ -1,0 +1,12 @@
+{
+    "title": "A Note On Nonlinear Regression Under L2 Loss. (arXiv:2303.17745v1 [cs.LG])",
+    "abstract": "We investigate the nonlinear regression problem under L2 loss (square loss) functions. Traditional nonlinear regression models often result in non-convex optimization problems with respect to the parameter set. We show that a convex nonlinear regression model exists for the traditional least squares problem, which can be a promising towards designing more complex systems with easier to train models.",
+    "link": "http://arxiv.org/abs/2303.17745",
+    "context": "Title: A Note On Nonlinear Regression Under L2 Loss. (arXiv:2303.17745v1 [cs.LG])\nAbstract: We investigate the nonlinear regression problem under L2 loss (square loss) functions. Traditional nonlinear regression models often result in non-convex optimization problems with respect to the parameter set. We show that a convex nonlinear regression model exists for the traditional least squares problem, which can be a promising towards designing more complex systems with easier to train models.",
+    "path": "papers/23/03/2303.17745.json",
+    "total_tokens": 553,
+    "translated_title": "L2范数下的非线性回归注释",
+    "translated_abstract": "我们研究了L2范数（平方损失）函数下的非线性回归问题。传统的非线性回归模型通常导致参数集的非凸优化问题。我们展示了一个针对传统最小二乘问题的凸非线性回归模型，可能有助于设计更复杂的系统和更易于训练的模型。",
+    "tldr": "研究者们发现对于传统的最小二乘问题存在一个可以使用凸非线性回归模型解决的方法，使得设计更复杂的系统和更易于训练的模型成为可能。",
+    "en_tdlr": "Researchers discovered a convex nonlinear regression model can be used to solve the traditional least squares problem, which could make it possible to design more complex systems with easier to train models."
+}

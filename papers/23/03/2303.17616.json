@@ -1,0 +1,12 @@
+{
+    "title": "Patterns Detection in Glucose Time Series by Domain Transformations and Deep Learning. (arXiv:2303.17616v1 [cs.LG])",
+    "abstract": "People with diabetes have to manage their blood glucose level to keep it within an appropriate range. Predicting whether future glucose values will be outside the healthy threshold is of vital importance in order to take corrective actions to avoid potential health damage. In this paper we describe our research with the aim of predicting the future behavior of blood glucose levels, so that hypoglycemic events may be anticipated. The approach of this work is the application of transformation functions on glucose time series, and their use in convolutional neural networks. We have tested our proposed method using real data from 4 different diabetes patients with promising results.",
+    "link": "http://arxiv.org/abs/2303.17616",
+    "context": "Title: Patterns Detection in Glucose Time Series by Domain Transformations and Deep Learning. (arXiv:2303.17616v1 [cs.LG])\nAbstract: People with diabetes have to manage their blood glucose level to keep it within an appropriate range. Predicting whether future glucose values will be outside the healthy threshold is of vital importance in order to take corrective actions to avoid potential health damage. In this paper we describe our research with the aim of predicting the future behavior of blood glucose levels, so that hypoglycemic events may be anticipated. The approach of this work is the application of transformation functions on glucose time series, and their use in convolutional neural networks. We have tested our proposed method using real data from 4 different diabetes patients with promising results.",
+    "path": "papers/23/03/2303.17616.json",
+    "total_tokens": 751,
+    "translated_title": "基于领域转换和深度学习的血糖时间序列模式检测",
+    "translated_abstract": "糖尿病患者需要管理血糖水平以使其保持在适当范围内。预测未来的血糖值是否会超出健康阈值对于采取纠正措施以避免潜在健康损害至关重要。本文描述了我们的研究，旨在预测血糖水平的未来行为，以便可以预测低血糖事件。本文的方法是在血糖时间序列上应用变换函数，并将其用于卷积神经网络中。我们使用4位不同糖尿病患者的真实数据测试了我们的方法，取得了有希望的结果。",
+    "tldr": "该论文介绍了一种基于血糖时间序列的领域转换和深度学习方法，以预测血糖水平的未来行为，帮助避免低血糖事件。",
+    "en_tdlr": "This paper proposes a domain transformation and deep learning approach based on glucose time series to predict the future behavior of blood glucose levels and avoid hypoglycemic events. Results from testing on real data from 4 different diabetes patients are promising."
+}

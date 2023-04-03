@@ -1,0 +1,12 @@
+{
+    "title": "An evaluation of time series forecasting models on water consumption data: A case study of Greece. (arXiv:2303.17617v1 [cs.LG])",
+    "abstract": "In recent years, the increased urbanization and industrialization has led to a rising water demand and resources, thus increasing the gap between demand and supply. Proper water distribution and forecasting of water consumption are key factors in mitigating the imbalance of supply and demand by improving operations, planning and management of water resources. To this end, in this paper, several well-known forecasting algorithms are evaluated over time series, water consumption data from Greece, a country with diverse socio-economic and urbanization issues. The forecasting algorithms are evaluated on a real-world dataset provided by the Water Supply and Sewerage Company of Greece revealing key insights about each algorithm and its use.",
+    "link": "http://arxiv.org/abs/2303.17617",
+    "context": "Title: An evaluation of time series forecasting models on water consumption data: A case study of Greece. (arXiv:2303.17617v1 [cs.LG])\nAbstract: In recent years, the increased urbanization and industrialization has led to a rising water demand and resources, thus increasing the gap between demand and supply. Proper water distribution and forecasting of water consumption are key factors in mitigating the imbalance of supply and demand by improving operations, planning and management of water resources. To this end, in this paper, several well-known forecasting algorithms are evaluated over time series, water consumption data from Greece, a country with diverse socio-economic and urbanization issues. The forecasting algorithms are evaluated on a real-world dataset provided by the Water Supply and Sewerage Company of Greece revealing key insights about each algorithm and its use.",
+    "path": "papers/23/03/2303.17617.json",
+    "total_tokens": 704,
+    "translated_title": "基于希腊数据的用水量时间序列预测模型评估",
+    "translated_abstract": "近年来，城市化和工业化的加剧导致水资源需求不断上升，从而加大了供需之间的差距。适当的用水分配和用水量预测是缓解供需失衡、改善水资源运营、规划和管理的关键因素。为此，在本文中，我们评估了几种著名的时间序列预测算法，针对希腊的用水量数据进行了评估。这是一个拥有多元社会经济和城市化问题的国家。我们采用由希腊自来水和污水公司提供的真实数据集对预测算法进行了评估，揭示了每种算法及其应用的关键见解。",
+    "tldr": "本文对希腊的用水量数据进行了时间序列预测模型的评估，揭示了各算法优缺点。",
+    "en_tdlr": "This paper evaluates time series forecasting models on water consumption data from Greece, revealing insights on the pros and cons of different algorithms."
+}

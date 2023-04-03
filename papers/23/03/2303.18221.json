@@ -1,0 +1,12 @@
+{
+    "title": "Microcanonical Langevin Monte Carlo. (arXiv:2303.18221v1 [hep-lat])",
+    "abstract": "We propose a method for sampling from an arbitrary distribution $\\exp[-S(\\x)]$ with an available gradient $\\nabla S(\\x)$, formulated as an energy-preserving stochastic differential equation (SDE). We derive the Fokker-Planck equation and show that both the deterministic drift and the stochastic diffusion separately preserve the stationary distribution. This implies that the drift-diffusion discretization schemes are bias-free, in contrast to the standard Langevin dynamics. We apply the method to the $\\phi^4$ lattice field theory, showing the results agree with the standard sampling methods but with significantly higher efficiency compared to the current state-of-the-art samplers.",
+    "link": "http://arxiv.org/abs/2303.18221",
+    "context": "Title: Microcanonical Langevin Monte Carlo. (arXiv:2303.18221v1 [hep-lat])\nAbstract: We propose a method for sampling from an arbitrary distribution $\\exp[-S(\\x)]$ with an available gradient $\\nabla S(\\x)$, formulated as an energy-preserving stochastic differential equation (SDE). We derive the Fokker-Planck equation and show that both the deterministic drift and the stochastic diffusion separately preserve the stationary distribution. This implies that the drift-diffusion discretization schemes are bias-free, in contrast to the standard Langevin dynamics. We apply the method to the $\\phi^4$ lattice field theory, showing the results agree with the standard sampling methods but with significantly higher efficiency compared to the current state-of-the-art samplers.",
+    "path": "papers/23/03/2303.18221.json",
+    "total_tokens": 675,
+    "translated_title": "微正则 Langevin Monte Carlo",
+    "translated_abstract": "我们提出了一种方法，用于以可用渐变 $ \\nabla S(\\x)$ 的形式采样自一任意分布 $ \\exp[-S(\\x)]$，该方法被制定为保持能量的随机微分方程（SDE）。我们推导出 Fokker-Planck 方程，并证明确定性漂移和随机扩散分别保持平稳分布。这意味着漂移扩散离散化方案无偏，而标准 Langevin 动力学则不是。我们将该方法应用于 $\\phi^4$ 晶格场论，展示了结果与标准采样方法一致，但比当前最先进的采样器效率显著提高。",
+    "tldr": "我们提出的微正则 Langevin Monte Carlo 方法能够高效地采样 $\\exp[-S(\\x)]$ 分布，同时具有无偏性。",
+    "en_tdlr": "Our proposed microcanonical Langevin Monte Carlo method can efficiently sample from the $\\exp[-S(\\x)]$ distribution with bias-free properties."
+}

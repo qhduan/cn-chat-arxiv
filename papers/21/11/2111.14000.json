@@ -1,0 +1,11 @@
+{
+    "title": "Factor-augmented tree ensembles. (arXiv:2111.14000v5 [stat.ML] UPDATED)",
+    "abstract": "This manuscript proposes to extend the information set of time-series regression trees with latent stationary factors extracted via state-space methods. In doing so, this approach generalises time-series regression trees on two dimensions. First, it allows to handle predictors that exhibit measurement error, non-stationary trends, seasonality and/or irregularities such as missing observations. Second, it gives a transparent way for using domain-specific theory to inform time-series regression trees. Empirically, ensembles of these factor-augmented trees provide a reliable approach for macro-finance problems. This article highlights it focussing on the lead-lag effect between equity volatility and the business cycle in the United States.",
+    "link": "http://arxiv.org/abs/2111.14000",
+    "context": "Title: Factor-augmented tree ensembles. (arXiv:2111.14000v5 [stat.ML] UPDATED)\nAbstract: This manuscript proposes to extend the information set of time-series regression trees with latent stationary factors extracted via state-space methods. In doing so, this approach generalises time-series regression trees on two dimensions. First, it allows to handle predictors that exhibit measurement error, non-stationary trends, seasonality and/or irregularities such as missing observations. Second, it gives a transparent way for using domain-specific theory to inform time-series regression trees. Empirically, ensembles of these factor-augmented trees provide a reliable approach for macro-finance problems. This article highlights it focussing on the lead-lag effect between equity volatility and the business cycle in the United States.",
+    "path": "papers/21/11/2111.14000.json",
+    "total_tokens": 720,
+    "translated_title": "因子增强的树集合方法",
+    "translated_abstract": "本文提出了利用状态空间方法提取潜在稳态因子来扩展时间序列回归树信息集的方法。通过这样做，该方法将时间序列回归树的应用扩展到两个方面。第一，它可以处理测量误差、非平稳趋势、季节性和/或缺失观测等不规则的预测变量。第二，它提供了一种明确的利用领域专业理论来指导时间序列回归树的方法。实证结果表明，这些因子增强的树集合方法在宏观金融问题方面提供了一种可靠的方法。本文重点介绍了美国股票波动率与商业周期之间的先导滞后效应。",
+    "tldr": "本文提出了一种因子增强的树集合方法，能够处理多种不规则预测变量，为处理宏观金融问题提供一种可靠的方法。"
+}

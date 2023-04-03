@@ -1,0 +1,11 @@
+{
+    "title": "Monitoring the Economy in Real Time: Trends and Gaps in Real Activity and Prices. (arXiv:2201.05556v2 [econ.EM] UPDATED)",
+    "abstract": "We propose two specifications of a real-time mixed-frequency semi-structural time series model for evaluating the output potential, output gap, Phillips curve, and Okun's law for the US. The baseline model uses minimal theory-based multivariate identification restrictions to inform trend-cycle decomposition, while the alternative model adds the CBO's output gap measure as an observed variable. The latter model results in a smoother output potential and lower cyclical correlation between inflation and real variables but performs worse in forecasting beyond the short term. This methodology allows for the assessment and real-time monitoring of official trend and gap estimates.",
+    "link": "http://arxiv.org/abs/2201.05556",
+    "context": "Title: Monitoring the Economy in Real Time: Trends and Gaps in Real Activity and Prices. (arXiv:2201.05556v2 [econ.EM] UPDATED)\nAbstract: We propose two specifications of a real-time mixed-frequency semi-structural time series model for evaluating the output potential, output gap, Phillips curve, and Okun's law for the US. The baseline model uses minimal theory-based multivariate identification restrictions to inform trend-cycle decomposition, while the alternative model adds the CBO's output gap measure as an observed variable. The latter model results in a smoother output potential and lower cyclical correlation between inflation and real variables but performs worse in forecasting beyond the short term. This methodology allows for the assessment and real-time monitoring of official trend and gap estimates.",
+    "path": "papers/22/01/2201.05556.json",
+    "total_tokens": 760,
+    "translated_title": "实时监测经济：实际活动和价格中的趋势和差距",
+    "translated_abstract": "我们提出了两种实时混合频率半结构化时间序列模型的规范，用于评估美国的产出潜力、产出缺口、菲利普斯曲线和奥肯定律。基准模型使用最少的基于理论的多元识别限制来指导趋势周期分解，而替代模型将国会预算办公室的产出缺口测量作为观察变量。后者的模型结果是产出潜力更平稳，通胀和实际变量之间的周期相关性更低，但在短期之外的预测中表现较差。此方法允许评估和实时监控官方趋势和缺口估计。",
+    "tldr": "该论文提出可以用于实时监控官方趋势和缺口估计的具有参考意义的模型，有助于评估美国的产出潜力、产出缺口、菲利普斯曲线和奥肯定律。"
+}

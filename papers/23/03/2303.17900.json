@@ -1,0 +1,12 @@
+{
+    "title": "Procedural Generation of Complex Roundabouts for Autonomous Vehicle Testing. (arXiv:2303.17900v1 [cs.RO])",
+    "abstract": "High-definition roads are an essential component of realistic driving scenario simulation for autonomous vehicle testing. Roundabouts are one of the key road segments that have not been thoroughly investigated. Based on the geometric constraints of the nearby road structure, this work presents a novel method for procedurally building roundabouts. The suggested method can result in roundabout lanes that are not perfectly circular and resemble real-world roundabouts by allowing approaching roadways to be connected to a roundabout at any angle. One can easily incorporate the roundabout in their HD road generation process or use the standalone roundabouts in scenario-based testing of autonomous driving.",
+    "link": "http://arxiv.org/abs/2303.17900",
+    "context": "Title: Procedural Generation of Complex Roundabouts for Autonomous Vehicle Testing. (arXiv:2303.17900v1 [cs.RO])\nAbstract: High-definition roads are an essential component of realistic driving scenario simulation for autonomous vehicle testing. Roundabouts are one of the key road segments that have not been thoroughly investigated. Based on the geometric constraints of the nearby road structure, this work presents a novel method for procedurally building roundabouts. The suggested method can result in roundabout lanes that are not perfectly circular and resemble real-world roundabouts by allowing approaching roadways to be connected to a roundabout at any angle. One can easily incorporate the roundabout in their HD road generation process or use the standalone roundabouts in scenario-based testing of autonomous driving.",
+    "path": "papers/23/03/2303.17900.json",
+    "total_tokens": 744,
+    "translated_title": "用于自动驾驶测试的复杂环形交叉口的过程生成",
+    "translated_abstract": "高清道路是自动驾驶场景模拟测试的重要组成部分，而环形交叉口是其中一个关键的路段，目前对其研究还不够深入。本研究基于附近道路结构的几何限制，提出一种新颖的建造环形交叉口的过程生成方法。该方法可以产生不完全圆形且类似于真实世界中的环形交叉口的车道，因为它允许连接到环形交叉口的途径道路的任意角度。可以轻松地将环形交叉口融入高清道路生成过程中，或使用独立的环形交叉口进行自动驾驶场景测试。",
+    "tldr": "本文提出了一种基于附近道路结构的几何限制的过程生成方法，用于生成非完全圆形且类似于真实世界中的环形交叉口的车道，适用于自动驾驶场景测试。",
+    "en_tdlr": "This paper presents a novel method for procedurally building non-perfectly circular roundabout lanes that resemble real-world roundabouts based on the geometric constraints of the nearby road structure, which is suitable for scenario-based testing of autonomous driving."
+}

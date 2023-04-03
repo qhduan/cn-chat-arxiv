@@ -1,0 +1,12 @@
+{
+    "title": "Scardina: Scalable Join Cardinality Estimation by Multiple Density Estimators. (arXiv:2303.18042v1 [cs.DB])",
+    "abstract": "In recent years, machine learning-based cardinality estimation methods are replacing traditional methods. This change is expected to contribute to one of the most important applications of cardinality estimation, the query optimizer, to speed up query processing. However, none of the existing methods do not precisely estimate cardinalities when relational schemas consist of many tables with strong correlations between tables/attributes. This paper describes that multiple density estimators can be combined to effectively target the cardinality estimation of data with large and complex schemas having strong correlations. We propose Scardina, a new join cardinality estimation method using multiple partitioned models based on the schema structure.",
+    "link": "http://arxiv.org/abs/2303.18042",
+    "context": "Title: Scardina: Scalable Join Cardinality Estimation by Multiple Density Estimators. (arXiv:2303.18042v1 [cs.DB])\nAbstract: In recent years, machine learning-based cardinality estimation methods are replacing traditional methods. This change is expected to contribute to one of the most important applications of cardinality estimation, the query optimizer, to speed up query processing. However, none of the existing methods do not precisely estimate cardinalities when relational schemas consist of many tables with strong correlations between tables/attributes. This paper describes that multiple density estimators can be combined to effectively target the cardinality estimation of data with large and complex schemas having strong correlations. We propose Scardina, a new join cardinality estimation method using multiple partitioned models based on the schema structure.",
+    "path": "papers/23/03/2303.18042.json",
+    "total_tokens": 733,
+    "translated_title": "基于多个密度估计器的可扩展连接基数估计方法",
+    "translated_abstract": "近年来，基于机器学习的基数估计方法正在取代传统方法。这一变化预计将有助于基数估计的最重要应用之一，即查询优化器，以加快查询处理速度。然而，当关系模式由许多表格组成，且表格/属性之间存在强相关性时，现有的方法没有精确估计基数。本文描述了多个密度估计器可以结合使用，有效地针对具有强相关的大型和复杂模式的数据进行基数估计。我们提出了Scardina，一种新的连接基数估计方法，该方法使用基于模式结构的多个分区模型。",
+    "tldr": "本篇论文提出了一种基于多个密度估计器的可扩展连接基数估计方法，可以精确估计具有强相关的大型和复杂模式的数据的基数，有望在查询优化器中得到应用。",
+    "en_tdlr": "This paper proposes a scalable join cardinality estimation method using multiple density estimators, which can accurately estimate the cardinalities of data with strong correlations in large and complex schemas, and is expected to be applied in query optimizer."
+}
