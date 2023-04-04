@@ -13,29 +13,31 @@
 | [^9] | [The short- and long-term determinants of fertility in Uruguay.](http://arxiv.org/abs/2304.00539) | 研究发现，乌拉圭妇女在不同生殖阶段的生育率受到经济表现、教育和婴儿死亡率的影响。20岁至29岁女性的收入与生育率呈负相关；教育与青少年生育率呈负相关。需要制定相应的公共政策。 |
 | [^10] | [The Tech Decoupling.](http://arxiv.org/abs/2304.00510) | 本文研究了过去20年技术和非技术行业的共同变化，发现从2015年开始存在技术部门与非技术部门的分离现象，并证明技术部门是其他经济领域增长的领先指标。 |
 | [^11] | [Reduction of Excess Capacity with Response of Capital Intensity.](http://arxiv.org/abs/2304.00489) | 研究结果显示，在制造业中，资本投资可以帮助提高劳动生产率以优化产能利用并减少过剩产能。 |
-| [^12] | [Life cycle costing analysis of deep energy retrofits of a mid-rise building to understand the impact of energy conservation measures.](http://arxiv.org/abs/2304.00456) | 该研究旨在为现有的中层建筑改建提供路线图，以了解加拿大中层住宅建筑所需的资本投资、节能、节能成本和碳足迹。通过能源模拟软件和成本排放数据的结合，评估了11种节能改建措施的经济和环境性能。 |
-| [^13] | [The Focal Quantal Response Equilibrium.](http://arxiv.org/abs/2304.00438) | 该论文提出了焦点量化响应均衡（Focal QRE）作为量化响应均衡（QRE）的一种广义形式，它能够系统地考虑玩家有限理性的不同形式，并以后悔为基础，相对准确地预测策略何时会被更频繁地选择。 |
-| [^14] | [The Effects of Incentives on Choices and Beliefs in Games: An Experiment.](http://arxiv.org/abs/2304.00412) | 本文研究激励对战略游戏中选择和信念的影响，通过实验证明在支配可解游戏中，更高的激励水平可以提高行动的复杂性和最佳响应率，并减少错误倾向；而在简单游戏中，更高自身激励会使信念更加准确。但是，具有更高激励水平的对手更难预测且信念也更加有偏见。研究还发现，激励可以影响认知努力和表现，其与选择和信念复杂性相关。 |
-| [^15] | [Max-Plus Synchronization in Decentralized Trading Systems.](http://arxiv.org/abs/2304.00210) | 本文提出了一个基于最大加法同步的去中心化机制，用于交易成本约束的替代品定价和交换，将涉及的热方程的时不变解定义为近似均衡状态，并研究解集的代数性质和动态系统的收敛行为。文中的RRAggU算法在数值模拟中证明了理论的正确性。 |
-| [^16] | [Machine Learning for Economics Research: When What and How?.](http://arxiv.org/abs/2304.00086) | 本文精选综述了使用机器学习工具进行经济学研究和政策分析的文章，强调了机器学习在处理非传统和非结构化数据、捕捉强非线性性和提高预测准确性方面的应用优势，成为计量经济学家工具箱中不可或缺的一部分。 |
-| [^17] | [Decentralized Attack Search and the Design of Bug Bounty Schemes.](http://arxiv.org/abs/2304.00077) | 该论文讨论了漏洞赏金计划的竞赛模型和相关策略，包括如何加入有偿代理以提高计划效率、如何指定已知漏洞的添加概率以限制奖励支付、以及为什么邀请无限数量的人不能保证找到漏洞。 |
-| [^18] | [Study on the risk-informed heuristic of decision-making on the restoration of defaulted corporation networks.](http://arxiv.org/abs/2303.15863) | 本文提出了可行的启发式决策制定方案，用于驱动违约公司网络恢复工作，在两个真实的DCN案例中进行了实验验证，研究结果表明启发式决策制定方案的实用性和性能。 |
-| [^19] | [Price Discovery for Derivatives.](http://arxiv.org/abs/2302.13426) | 本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。 |
-| [^20] | [Designing binary social decisions.](http://arxiv.org/abs/2302.09548) | 设计了一种机制"带有随机检查的多数票机制"，可实现二元社会决策的多数原则，且适用于完整和不完整信息。同时还可通过修改实现任何超级多数规则，或基于网络形成概念进行实现。 |
-| [^21] | [Regulating Oligopolistic Competition.](http://arxiv.org/abs/2302.03185) | 论文探讨了如何在企业拥有成本私有信息的情况下，通过征求价格、收取税款或给予补贴以及对每个企业实施“码头价”价格上限来规范垄断市场。 |
-| [^22] | [Enhanced Bayesian Neural Networks for Macroeconomics and Finance.](http://arxiv.org/abs/2211.04752) | 该论文提出的增强贝叶斯神经网络能够模拟大量宏观经济和金融变量的通用非线性和时间变化，具有潜在的政策决策应用价值。 |
-| [^23] | [On the Trail of Lost Pennies: player-funded tug-of-war on the integers.](http://arxiv.org/abs/2209.07451) | 在研究一个基于玩家赞助的整数之间的游戏中，发现了一个有趣的结果，对于一类自然的策略，纳什均衡存在的条件是x在λ和λ^-1之间，其中λ是一个值非常接近于0和1的有理数。 |
-| [^24] | [Estimation of Heterogeneous Treatment Effects Using Quantile Regression with Interactive Fixed Effects.](http://arxiv.org/abs/2208.03632) | 分位数回归可以估计群体政策的异质性效应，对分布政策的影响进行分析，本文使用差异法将其应用于评估美国最低工资政策对收入不平等性的影响，结果发现最低工资政策对不平等性造成了显著的负面影响，但对内在不平等性的影响较小。 |
-| [^25] | [Symmetric reduced form voting.](http://arxiv.org/abs/2207.09253) | 该论文研究了对称环境下的投票模型，发现每个中期分配概率都可以通过合格多数和合格反多数两组决策投票规则的凸组合来实现。 |
-| [^26] | [Average Adjusted Association: Efficient Estimation with High Dimensional Confounders.](http://arxiv.org/abs/2205.14048) | 本研究提出了一个总结衡量标准——平均调整关联度（AAA），用于评估一个具有混淆影响的异质群体中的关联程度。并且我们提出了高效的估计方法，可用于各种采样场景。 |
-| [^27] | [Game Transformations That Preserve Nash Equilibria or Best Response Sets.](http://arxiv.org/abs/2111.00076) | 本研究探讨了对N人博弈应用的游戏变换中，哪些变换可以保持最佳反应集或纳什均衡集。我们证明了正仿射变换可以保持最佳反应集。这个研究提供了一个明确的描述，说明哪些游戏变换可以保持最佳反应集或纳什均衡集。 |
-| [^28] | [Partial Identification of Marginal Treatment Effects with discrete instruments and misreported treatment.](http://arxiv.org/abs/2110.06285) | 本文提出了在存在误报和离散型工具变量情况下，对边际治疗效应进行部分识别的结果，可以用于确定食品券对健康的边际治疗效应。 |
-| [^29] | [Estimating Endogenous Coalitional Mergers: Merger Costs and Assortativeness of Size and Specialization.](http://arxiv.org/abs/2108.12744) | 本文研究了日本运输并购，通过未匹配公司的存在，估计了内生并购的成本，发现技术多样化的重要性因运营商和公司类型而异，在反事实模拟中，政府支出可削减20％。 |
-| [^30] | [Federated Causal Inference in Heterogeneous Observational Data.](http://arxiv.org/abs/2107.11732) | 本文开发了联邦方法，在异构的本地数据中进行摘要统计信息的计算，并在站点之间聚合这些统计信息，以获得多站点数据的平均治疗效果的点估计和方差估计。聚合方案需要考虑站点之间的治疗分配异质性和结果的异质性，以使得估计量是一致的和渐近正常的。 |
-| [^31] | [Marginal Treatment Effects with a Misclassified Treatment.](http://arxiv.org/abs/2105.00358) | 本文研究了二元治疗变量被误分类时边际处理效应（MTE）的识别。我们证明在标准假设下，MTE可被识别为给定真实倾向得分的观察结果条件期望的导数，我们的MTE界限比局部平均处理效应的现有界限更紧。 |
-| [^32] | [Optimal Portfolio Using Factor Graphical Lasso.](http://arxiv.org/abs/2011.00435) | 本文提出了一种新的方法，因子图形Lasso（FGL），将图形模型与因子结构相结合，用于投资组合分配的背景下，这种方法对于金融应用来说具有健壮性且可以提高投资组合表现。 |
-| [^33] | [Filtered and Unfiltered Treatment Effects with Targeting Instruments.](http://arxiv.org/abs/2007.10432) | 本文研究如何使用有目标工具来控制多值处理中的选择偏差，并建立了组合编译器群体的条件来确定反事实平均值和处理效果。 |
-| [^34] | [Robust Inference on Infinite and Growing Dimensional Time Series Regression.](http://arxiv.org/abs/1911.08637) | 该论文针对时间序列模型开发了一类测试方法，通过引入新的尺度校正和偏差校正来考虑其复杂性，仿真研究表明鲁棒化测试程序对于保证准确性和稳健性是很重要的。 |
+| [^12] | [Immigrant assimilation in health care utilisation in Spain.](http://arxiv.org/abs/2304.00482) | 该论文研究了在西班牙医疗保健利用方面的移民同化问题。研究发现，移民女性看家庭医生的情况有一定的同化，而外来人口与本地人口在医疗保健使用上的年龄差异是导致在西班牙居住20年后，大多数卫生服务利用模式趋于收敛的原因。 |
+| [^13] | [Life cycle costing analysis of deep energy retrofits of a mid-rise building to understand the impact of energy conservation measures.](http://arxiv.org/abs/2304.00456) | 该研究旨在为现有的中层建筑改建提供路线图，以了解加拿大中层住宅建筑所需的资本投资、节能、节能成本和碳足迹。通过能源模拟软件和成本排放数据的结合，评估了11种节能改建措施的经济和环境性能。 |
+| [^14] | [The Focal Quantal Response Equilibrium.](http://arxiv.org/abs/2304.00438) | 该论文提出了焦点量化响应均衡（Focal QRE）作为量化响应均衡（QRE）的一种广义形式，它能够系统地考虑玩家有限理性的不同形式，并以后悔为基础，相对准确地预测策略何时会被更频繁地选择。 |
+| [^15] | [The Effects of Incentives on Choices and Beliefs in Games: An Experiment.](http://arxiv.org/abs/2304.00412) | 本文研究激励对战略游戏中选择和信念的影响，通过实验证明在支配可解游戏中，更高的激励水平可以提高行动的复杂性和最佳响应率，并减少错误倾向；而在简单游戏中，更高自身激励会使信念更加准确。但是，具有更高激励水平的对手更难预测且信念也更加有偏见。研究还发现，激励可以影响认知努力和表现，其与选择和信念复杂性相关。 |
+| [^16] | [Max-Plus Synchronization in Decentralized Trading Systems.](http://arxiv.org/abs/2304.00210) | 本文提出了一个基于最大加法同步的去中心化机制，用于交易成本约束的替代品定价和交换，将涉及的热方程的时不变解定义为近似均衡状态，并研究解集的代数性质和动态系统的收敛行为。文中的RRAggU算法在数值模拟中证明了理论的正确性。 |
+| [^17] | [Machine Learning for Economics Research: When What and How?.](http://arxiv.org/abs/2304.00086) | 本文精选综述了使用机器学习工具进行经济学研究和政策分析的文章，强调了机器学习在处理非传统和非结构化数据、捕捉强非线性性和提高预测准确性方面的应用优势，成为计量经济学家工具箱中不可或缺的一部分。 |
+| [^18] | [Reconstructing firm-level input-output networks from partial information.](http://arxiv.org/abs/2304.00081) | 该论文介绍了一种从不完整信息中重构公司级别投入产出网络的最大熵方法。作者将这一方法应用到了厄瓜多尔的行政数据集中，并用结果构建了一个商业数据集，结果表明该方法在重构微观量分布方面具有很好的性能。 |
+| [^19] | [Decentralized Attack Search and the Design of Bug Bounty Schemes.](http://arxiv.org/abs/2304.00077) | 该论文讨论了漏洞赏金计划的竞赛模型和相关策略，包括如何加入有偿代理以提高计划效率、如何指定已知漏洞的添加概率以限制奖励支付、以及为什么邀请无限数量的人不能保证找到漏洞。 |
+| [^20] | [Study on the risk-informed heuristic of decision-making on the restoration of defaulted corporation networks.](http://arxiv.org/abs/2303.15863) | 本文提出了可行的启发式决策制定方案，用于驱动违约公司网络恢复工作，在两个真实的DCN案例中进行了实验验证，研究结果表明启发式决策制定方案的实用性和性能。 |
+| [^21] | [Price Discovery for Derivatives.](http://arxiv.org/abs/2302.13426) | 本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。 |
+| [^22] | [Designing binary social decisions.](http://arxiv.org/abs/2302.09548) | 设计了一种机制"带有随机检查的多数票机制"，可实现二元社会决策的多数原则，且适用于完整和不完整信息。同时还可通过修改实现任何超级多数规则，或基于网络形成概念进行实现。 |
+| [^23] | [Regulating Oligopolistic Competition.](http://arxiv.org/abs/2302.03185) | 论文探讨了如何在企业拥有成本私有信息的情况下，通过征求价格、收取税款或给予补贴以及对每个企业实施“码头价”价格上限来规范垄断市场。 |
+| [^24] | [Enhanced Bayesian Neural Networks for Macroeconomics and Finance.](http://arxiv.org/abs/2211.04752) | 该论文提出的增强贝叶斯神经网络能够模拟大量宏观经济和金融变量的通用非线性和时间变化，具有潜在的政策决策应用价值。 |
+| [^25] | [On the Trail of Lost Pennies: player-funded tug-of-war on the integers.](http://arxiv.org/abs/2209.07451) | 在研究一个基于玩家赞助的整数之间的游戏中，发现了一个有趣的结果，对于一类自然的策略，纳什均衡存在的条件是x在λ和λ^-1之间，其中λ是一个值非常接近于0和1的有理数。 |
+| [^26] | [Estimation of Heterogeneous Treatment Effects Using Quantile Regression with Interactive Fixed Effects.](http://arxiv.org/abs/2208.03632) | 分位数回归可以估计群体政策的异质性效应，对分布政策的影响进行分析，本文使用差异法将其应用于评估美国最低工资政策对收入不平等性的影响，结果发现最低工资政策对不平等性造成了显著的负面影响，但对内在不平等性的影响较小。 |
+| [^27] | [Symmetric reduced form voting.](http://arxiv.org/abs/2207.09253) | 该论文研究了对称环境下的投票模型，发现每个中期分配概率都可以通过合格多数和合格反多数两组决策投票规则的凸组合来实现。 |
+| [^28] | [Average Adjusted Association: Efficient Estimation with High Dimensional Confounders.](http://arxiv.org/abs/2205.14048) | 本研究提出了一个总结衡量标准——平均调整关联度（AAA），用于评估一个具有混淆影响的异质群体中的关联程度。并且我们提出了高效的估计方法，可用于各种采样场景。 |
+| [^29] | [Game Transformations That Preserve Nash Equilibria or Best Response Sets.](http://arxiv.org/abs/2111.00076) | 本研究探讨了对N人博弈应用的游戏变换中，哪些变换可以保持最佳反应集或纳什均衡集。我们证明了正仿射变换可以保持最佳反应集。这个研究提供了一个明确的描述，说明哪些游戏变换可以保持最佳反应集或纳什均衡集。 |
+| [^30] | [Partial Identification of Marginal Treatment Effects with discrete instruments and misreported treatment.](http://arxiv.org/abs/2110.06285) | 本文提出了在存在误报和离散型工具变量情况下，对边际治疗效应进行部分识别的结果，可以用于确定食品券对健康的边际治疗效应。 |
+| [^31] | [Estimating Endogenous Coalitional Mergers: Merger Costs and Assortativeness of Size and Specialization.](http://arxiv.org/abs/2108.12744) | 本文研究了日本运输并购，通过未匹配公司的存在，估计了内生并购的成本，发现技术多样化的重要性因运营商和公司类型而异，在反事实模拟中，政府支出可削减20％。 |
+| [^32] | [Federated Causal Inference in Heterogeneous Observational Data.](http://arxiv.org/abs/2107.11732) | 本文开发了联邦方法，在异构的本地数据中进行摘要统计信息的计算，并在站点之间聚合这些统计信息，以获得多站点数据的平均治疗效果的点估计和方差估计。聚合方案需要考虑站点之间的治疗分配异质性和结果的异质性，以使得估计量是一致的和渐近正常的。 |
+| [^33] | [Marginal Treatment Effects with a Misclassified Treatment.](http://arxiv.org/abs/2105.00358) | 本文研究了二元治疗变量被误分类时边际处理效应（MTE）的识别。我们证明在标准假设下，MTE可被识别为给定真实倾向得分的观察结果条件期望的导数，我们的MTE界限比局部平均处理效应的现有界限更紧。 |
+| [^34] | [Optimal Portfolio Using Factor Graphical Lasso.](http://arxiv.org/abs/2011.00435) | 本文提出了一种新的方法，因子图形Lasso（FGL），将图形模型与因子结构相结合，用于投资组合分配的背景下，这种方法对于金融应用来说具有健壮性且可以提高投资组合表现。 |
+| [^35] | [Filtered and Unfiltered Treatment Effects with Targeting Instruments.](http://arxiv.org/abs/2007.10432) | 本文研究如何使用有目标工具来控制多值处理中的选择偏差，并建立了组合编译器群体的条件来确定反事实平均值和处理效果。 |
+| [^36] | [Robust Inference on Infinite and Growing Dimensional Time Series Regression.](http://arxiv.org/abs/1911.08637) | 该论文针对时间序列模型开发了一类测试方法，通过引入新的尺度校正和偏差校正来考虑其复杂性，仿真研究表明鲁棒化测试程序对于保证准确性和稳健性是很重要的。 |
 
 # 详细
 
@@ -193,7 +195,21 @@
 
     Purpose: The objective of this research was to show the response of the potential reduction of excess capacity in terms of capital intensity to the growth rate of labor productivity in the manufacturing industrial sector. Design/Methodology/Approach: The research was carried out in 2019 in 55 groups of Indian manufacturing industry within six major Indian industrial states. Mainly, the research used the modified VES (Variable Elasticity Substitution) estimation model. The research focused on the value of the additional substitution parameter of capital intensity (mu > 0). Findings: Almost all selected industry groups with in six states need capital-intensive production. The results found additional parameter of capital intensity (mu) is greater than zero for all industry groups. It means that a higher product per man can be obtained by increasing the capital per worker. Practical Implications: Research shows that an increasingly need for capital investment in need for higher labor prod
     
-[^12]: 深度节能改造的寿命周期成本分析，以理解能源保护措施的影响。
+[^12]: 西班牙的移民在医疗利用方面的同化
+
+    Immigrant assimilation in health care utilisation in Spain. (arXiv:2304.00482v1 [econ.GN])
+
+    [http://arxiv.org/abs/2304.00482](http://arxiv.org/abs/2304.00482)
+
+    该论文研究了在西班牙医疗保健利用方面的移民同化问题。研究发现，移民女性看家庭医生的情况有一定的同化，而外来人口与本地人口在医疗保健使用上的年龄差异是导致在西班牙居住20年后，大多数卫生服务利用模式趋于收敛的原因。
+
+    
+
+    大量证据揭示了移民在劳动力市场和健康融合方面的情况，包括对外国出生和本地出生居民消费医疗服务方式差异的静态分析。然而，我们对移民的医疗保健使用模式如何随居住时间演变所知甚少，尤其是在提供通用或准通用覆盖的国家。我们通过结合所有可用的当地卫生调查波，来研究西班牙的这一过程，这使我们能够单独识别出时间段、队列和同化影响。我们发现健康同化的证据有限，并且仅适用于移民女性拜访全科医生的情况。然而，外生与本地出生人群在健康保健使用上的年龄差异影响，有助于在西班牙居住20年后，在大多数卫生服务中实现利用模式的收敛。时间和来源地区的显著异质性均表明了必须审慎推断总体同化模式之前必须考虑一些非常细节的影响。
+
+    Abundant evidence has tracked the labour market and health assimilation of immigrants, including static analyses of differences in how foreign-born and native-born residents consume health care services. However, we know much less about how migrants' patterns of health care usage evolve with time of residence, especially in countries providing universal or quasi-universal coverage. We investigate this process in Spain by combining all the available waves of the local health survey, which allows us to separately identify period, cohort, and assimilation effects. We find that the evidence of health assimilation is limited and solely applies to migrant females' visits to general practitioners. Nevertheless, the differential effects of ageing on health care use between foreign-born and native-born populations contributes to the convergence of utilisation patterns in most health services after 20 years in Spain. Substantial heterogeneity over time and by region of origin both suggest that s
+    
+[^13]: 深度节能改造的寿命周期成本分析，以理解能源保护措施的影响。
 
     Life cycle costing analysis of deep energy retrofits of a mid-rise building to understand the impact of energy conservation measures. (arXiv:2304.00456v1 [econ.GN])
 
@@ -207,7 +223,7 @@
 
     Building energy retrofits have been identified as key to realizing climate mitigation goals in Canada. This study aims to provide a roadmap for existing mid-rise building retrofits in order to understand the required capital investment, energy savings, energy cost savings, and carbon footprint for mid-rise residential buildings in Canada. This study employed EnergyPlus to examine the energy performance of 11 energy retrofit measures for a typical multi-unit residential building (MURB) in Metro Vancouver, British Columbia, Canada. The author employed the energy simulation software (EnergyPlus) to evaluate the pre-and post-retrofit operational energy performance of the selected MURB. Two base building models powered by natural gas (NG-building) and electricity (E-building) were created by SketchUP. The energy simulation results were combined with cost and emission impact data to evaluate the economic and environmental performance of the selected energy retrofit measures. The results indi
     
-[^13]: 焦点量化响应均衡
+[^14]: 焦点量化响应均衡
 
     The Focal Quantal Response Equilibrium. (arXiv:2304.00438v1 [econ.TH])
 
@@ -221,7 +237,7 @@
 
     We propose a generalization of Quantal Response Equilibrium (QRE) built on a simple premise: some actions are more focal than others. In our model, which we call the Focal Quantal Response Equilibrium (Focal QRE), each player plays a stochastic version of Nash equilibrium as in the QRE, but some strategies are focal and thus are chosen relatively more frequently than other strategies after accounting for expected utilities. The Focal QRE is able to systemically account for various forms of bounded rationality of players, especially regret-aversion, salience, or limited consideration. The Focal QRE is also useful to explain observed heterogeneity of bounded rationality of players across different games. We show that regret-based focal sets perform relatively well at predicting strategies that are chosen more frequently relative to their expected utilities.
     
-[^14]: 激励对游戏中选择和信念的影响：一个实验
+[^15]: 激励对游戏中选择和信念的影响：一个实验
 
     The Effects of Incentives on Choices and Beliefs in Games: An Experiment. (arXiv:2304.00412v1 [econ.TH])
 
@@ -235,7 +251,7 @@
 
     How and why do incentive levels affect strategic behavior? This paper examines an experiment designed to identify the causal effect of scaling up incentives on choices and beliefs in strategic settings by holding fixed opponents' actions. In dominance-solvable games, higher incentives increase action sophistication and best-response rates and decrease mistake propensity. Beliefs tend to become more accurate with higher own incentives in simple games. However, opponents with higher incentive levels are harder to predict: while beliefs track opponents' behavior when they have higher incentive levels, beliefs about opponents also become more biased. We provide evidence that incentives affect cognitive effort and that greater effort increases performance and predicts choice and belief sophistication. Overall, the data lends support to combining both payoff-dependent mistakes and costly reasoning.
     
-[^15]: 基于最大加法同步的分散交易系统
+[^16]: 基于最大加法同步的分散交易系统
 
     Max-Plus Synchronization in Decentralized Trading Systems. (arXiv:2304.00210v1 [cs.GT])
 
@@ -249,7 +265,7 @@
 
     We introduce a decentralized mechanism for pricing and exchanging alternatives constrained by transaction costs. We characterize the time-invariant solutions of a heat equation involving a (weighted) Tarski Laplacian operator, defined for max-plus matrix-weighted graphs, as approximate equilibria of the trading system. We study algebraic properties of the solution sets as well as convergence behavior of the dynamical system. We apply these tools to the ``economic problem'' of allocating scarce resources among competing uses. Our theory suggests differences in competitive equilibrium, bargaining, or cost-benefit analysis, depending on the context, are largely due to differences in the way that transaction costs are incorporated into the decision-making process. We present numerical simulations of the synchronization algorithm (RRAggU), demonstrating our theoretical findings.
     
-[^16]: 机器学习在经济研究中的应用：何时、什么和如何运用？
+[^17]: 机器学习在经济研究中的应用：何时、什么和如何运用？
 
     Machine Learning for Economics Research: When What and How?. (arXiv:2304.00086v1 [econ.GN])
 
@@ -263,7 +279,21 @@
 
     This article provides a curated review of selected papers published in prominent economics journals that use machine learning (ML) tools for research and policy analysis. The review focuses on three key questions: (1) when ML is used in economics, (2) what ML models are commonly preferred, and (3) how they are used for economic applications. The review highlights that ML is particularly used in processing nontraditional and unstructured data, capturing strong nonlinearity, and improving prediction accuracy. Deep learning models are suitable for nontraditional data, whereas ensemble learning models are preferred for traditional datasets. While traditional econometric models may suffice for analyzing low-complexity data, the increasing complexity of economic data due to rapid digitalization and the growing literature suggest that ML is becoming an essential addition to the econometrician's toolbox.
     
-[^17]: 去中心化攻击搜索和漏洞赏金计划的设计
+[^18]: 从部分信息中重构公司级别的投入产出网络
+
+    Reconstructing firm-level input-output networks from partial information. (arXiv:2304.00081v1 [econ.GN])
+
+    [http://arxiv.org/abs/2304.00081](http://arxiv.org/abs/2304.00081)
+
+    该论文介绍了一种从不完整信息中重构公司级别投入产出网络的最大熵方法。作者将这一方法应用到了厄瓜多尔的行政数据集中，并用结果构建了一个商业数据集，结果表明该方法在重构微观量分布方面具有很好的性能。
+
+    
+
+    在宏观经济学中，人们普遍认为公司级别的供应链网络起着基础性的作用。然而，关于公司级别供应链的数据往往是缺乏和不完整的。对于上市公司，已有一些商业数据集，但只包含两家公司之间存在贸易关系的信息，而没有货币交易价值的信息。我们使用最大熵方法来根据存在的信息以及公司财报中披露的聚合信息来重构交易价值。我们在厄瓜多尔的行政数据集上测试了该方法，并重构了一个商业数据集（FactSet）。我们测试了该方法在权重、技术和分配系数（微观量）、公司系统重要性和GDP波动率两个量度上的性能。该方法在合理范围内重构了微观量的分布，但结果存在差异。
+
+    There is a large consensus on the fundamental role of firm-level supply chain networks in macroeconomics. However, data on supply chains at the fine-grained, firm level are scarce and frequently incomplete. For listed firms, some commercial datasets exist but only contain information about the existence of a trade relationship between two companies, not the value of the monetary transaction. We use a recently developed maximum entropy method to reconstruct the values of the transactions based on information about their existence and aggregate information disclosed by firms in financial statements. We test the method on the administrative dataset of Ecuador and reconstruct a commercial dataset (FactSet). We test the method's performance on the weights, the technical and allocation coefficients (microscale quantities), two measures of firms' systemic importance and GDP volatility. The method reconstructs the distribution of microscale quantities reasonably well but shows diverging result
+    
+[^19]: 去中心化攻击搜索和漏洞赏金计划的设计
 
     Decentralized Attack Search and the Design of Bug Bounty Schemes. (arXiv:2304.00077v1 [econ.TH])
 
@@ -277,7 +307,7 @@
 
     Systems and blockchains often have security vulnerabilities and can be attacked by adversaries, with potentially significant negative consequences. Therefore, organizations and blockchain infrastructure providers increasingly rely on bug bounty programs, where external individuals probe the system and report any vulnerabilities (bugs) in exchange for monetary rewards (bounty). We develop a contest model for bug bounty programs with an arbitrary number of agents who decide whether to undertake a costly search for bugs or not. Search costs are private information. Besides characterizing the ensuing equilibria, we show that even inviting an unlimited crowd does not guarantee that bugs are found. Adding paid agents can increase the efficiency of the bug bounty scheme although the crowd that is attracted becomes smaller. Finally, adding (known) bugs increases the likelihood that unknown bugs are found, but to limit reward payments it may be optimal to add them only with some probability.
     
-[^18]: 对违约公司网络恢复的风险知情启发式决策研究
+[^20]: 对违约公司网络恢复的风险知情启发式决策研究
 
     Study on the risk-informed heuristic of decision-making on the restoration of defaulted corporation networks. (arXiv:2303.15863v1 [econ.TH])
 
@@ -291,7 +321,7 @@
 
     Government-run (Government-led) restoration has become a common and effective approach to the mitigation of financial risks triggered by corporation credit defaults. However, in practice, it is often challenging to come up with the optimal plan of those restorations, due to the massive search space associated with defaulted corporation networks (DCNs), as well as the dynamic and looped interdependence among the recovery of those individual corporations. To address such a challenge, this paper proposes an array of viable heuristics of the decision-making that drives those restoration campaigns. To examine their applicability and measure their performance, those heuristics have been applied to two real-work DCNs that consists of 100 listed Chinese A-share companies, whose restoration has been modelled based on the 2021 financial data, in the wake of randomly generated default scenarios. The corresponding simulation outcome of the case-study shows that the restoration of the DCNs would be
     
-[^19]: 期权的价格发现
+[^21]: 期权的价格发现
 
     Price Discovery for Derivatives. (arXiv:2302.13426v5 [econ.GN] UPDATED)
 
@@ -305,7 +335,7 @@
 
     We obtain a basic theory of price discovery across derivative markets with respect to higher-order information, using a model where an agent with general private information regarding state probabilities is allowed to trade arbitrary portfolios of state-contingent claims. In an equivalent options formulation, the informed agent has private information regarding arbitrary aspects of the payoff distribution of an underlying asset and is allowed to trade arbitrary option portfolios. We characterize, in closed form, the informed demand, price impact, and information efficiency of prices. Our results offer a theory of insider trading on higher moments of the underlying payoff as a special case. The informed demand formula prescribes option strategies for trading on any given moment and extends those used in practice for, e.g. volatility trading.
     
-[^20]: 设计二元社会决策机制
+[^22]: 设计二元社会决策机制
 
     Designing binary social decisions. (arXiv:2302.09548v2 [econ.TH] UPDATED)
 
@@ -319,7 +349,7 @@
 
     We design a mechanism, Majority voting with random checks (RC mechanism), that fully implements the majority rule for binary social decisions. A simultaneous vote over the two options is followed by a sequence of checks, where each agent (out of a random sample) can accept or reject the winner of the vote. If some agent in the sample accepts, the winner is implemented. If all agents reject the winner, one of the agents is selected randomly and the option she voted for initially wins. The implementation of the majority rule holds under both complete and incomplete information. We also extend the RC mechanism to accommodate for abstention and show that any supermajority rule is implementable via a modification of the RC mechanism. Finally, we introduce additional implementation mechanisms based on the concept of network formation.
     
-[^21]: 控制寡头垄断竞争
+[^23]: 控制寡头垄断竞争
 
     Regulating Oligopolistic Competition. (arXiv:2302.03185v2 [econ.TH] UPDATED)
 
@@ -333,7 +363,7 @@
 
     We consider the problem of how to regulate an oligopoly when firms have private information about their costs. In the environment, consumers make discrete choices over goods, and minimal structure is placed on the manner in which firms compete. In the optimal regulatory policy, the regulator need only solicit prices from firms, and based on those prices, charge them taxes or give them subsidies, and impose on each firm a ``yardstick'' price cap that depends on the posted prices of competing firms.
     
-[^22]: 增强贝叶斯神经网络在宏观经济和金融领域的应用
+[^24]: 增强贝叶斯神经网络在宏观经济和金融领域的应用
 
     Enhanced Bayesian Neural Networks for Macroeconomics and Finance. (arXiv:2211.04752v3 [econ.EM] UPDATED)
 
@@ -347,7 +377,7 @@
 
     We develop Bayesian neural networks (BNNs) that permit to model generic nonlinearities and time variation for (possibly large sets of) macroeconomic and financial variables. From a methodological point of view, we allow for a general specification of networks that can be applied to either dense or sparse datasets, and combines various activation functions, a possibly very large number of neurons, and stochastic volatility (SV) for the error term. From a computational point of view, we develop fast and efficient estimation algorithms for the general BNNs we introduce. From an empirical point of view, we show both with simulated data and with a set of common macro and financial applications that our BNNs can be of practical use, particularly so for observations in the tails of the cross-sectional or time series distributions of the target variables, which makes the method particularly informative for policy making in uncommon times.
     
-[^23]: 失落的一分钱：基于玩家赞助的整数游戏研究
+[^25]: 失落的一分钱：基于玩家赞助的整数游戏研究
 
     On the Trail of Lost Pennies: player-funded tug-of-war on the integers. (arXiv:2209.07451v2 [math.PR] UPDATED)
 
@@ -361,7 +391,7 @@
 
     We study a class of  random-turn resource-allocation games. In the Trail of Lost Pennies, a counter moves on $\mathbb{Z}$. At each turn, Maxine stakes $a \in [0,\infty)$ and Mina $b \in [0,\infty)$. The counter $X$ then moves adjacently, to the right with probability $\tfrac{a}{a+b}$. If $X_i \to -\infty$ in this infinte-turn game, Mina receives one unit, and Maxine zero; if $X_i \to \infty$, then these receipts are zero and~$x$. Thus the net receipt to a given player is $-A+B$, where $A$ is the sum of her stakes, and $B$ is her terminal receipt. The game was inspired by unbiased tug-of-war in~\cite{PSSW09} from 2009 but in fact closely resembles the original version of tug-of-war, introduced~\cite{HarrisVickers87} in the economics literature in 1987. We show that the game has surprising features. For a natural class of strategies, Nash equilibria exist precisely when $x$ lies in $[\lambda,\lambda^{-1}]$, for a certain $\lambda \in (0,1)$. We indicate that $\lambda$ is remarkably close
     
-[^24]: 利用交互固定效应的分位数回归估计异质性处理效应
+[^26]: 利用交互固定效应的分位数回归估计异质性处理效应
 
     Estimation of Heterogeneous Treatment Effects Using Quantile Regression with Interactive Fixed Effects. (arXiv:2208.03632v2 [econ.EM] UPDATED)
 
@@ -375,7 +405,7 @@
 
     We study the estimation of heterogeneous effects of group-level policies, using quantile regression with interactive fixed effects. Our approach can identify distributional policy effects, particularly effects on inequality, under a type of difference-in-differences assumption. We provide asymptotic properties of our estimators and an inferential method. We apply the model to evaluate the effect of the minimum wage policy on earnings between 1967 and 1980 in the United States. Our results suggest that the minimum wage policy has a significant negative impact on the between-inequality but little effect on the within-inequality.
     
-[^25]: 对称化简形式投票
+[^27]: 对称化简形式投票
 
     Symmetric reduced form voting. (arXiv:2207.09253v4 [econ.TH] UPDATED)
 
@@ -389,7 +419,7 @@
 
     We study a model of voting with two alternatives in a symmetric environment. We characterize the interim allocation probabilities that can be implemented by a symmetric voting rule. We show that every such interim allocation probabilities can be implemented as a convex combination of two families of deterministic voting rules: qualified majority and qualified anti-majority. We also provide analogous results by requiring implementation by a symmetric monotone (strategy-proof) voting rule and by a symmetric unanimous voting rule. We apply our results to show that an ex-ante Rawlsian rule is a convex combination of a pair of qualified majority rules.
     
-[^26]: 平均调整关联度：高维混淆因素的高效估计
+[^28]: 平均调整关联度：高维混淆因素的高效估计
 
     Average Adjusted Association: Efficient Estimation with High Dimensional Confounders. (arXiv:2205.14048v2 [stat.ME] UPDATED)
 
@@ -403,7 +433,7 @@
 
     The log odds ratio is a well-established metric for evaluating the association between binary outcome and exposure variables. Despite its widespread use, there has been limited discussion on how to summarize the log odds ratio as a function of confounders through averaging. To address this issue, we propose the Average Adjusted Association (AAA), which is a summary measure of association in a heterogeneous population, adjusted for observed confounders. To facilitate the use of it, we also develop efficient double/debiased machine learning (DML) estimators of the AAA. Our DML estimators use two equivalent forms of the efficient influence function, and are applicable in various sampling scenarios, including random sampling, outcome-based sampling, and exposure-based sampling. Through real data and simulations, we demonstrate the practicality and effectiveness of our proposed estimators in measuring the AAA.
     
-[^27]: 保持纳什均衡或最佳反应集的游戏变换
+[^29]: 保持纳什均衡或最佳反应集的游戏变换
 
     Game Transformations That Preserve Nash Equilibria or Best Response Sets. (arXiv:2111.00076v2 [cs.GT] UPDATED)
 
@@ -417,7 +447,7 @@
 
     In the literature on simultaneous non-cooperative games, it is a widely used fact that a positive affine (linear) transformation of the utility payoffs neither changes the best response sets nor the Nash equilibrium set. We investigate which other game transformations also possess one of these two properties when being applied to an arbitrary N-player game (N >= 2):  (i) The Nash equilibrium set stays the same.  (ii) The best response sets stay the same.  For game transformations that operate player-wise and strategy-wise, we prove that (i) implies (ii) and that transformations with property (ii) must be positive affine. The resulting equivalence chain gives an explicit description of all those game transformations that always preserve the Nash equilibrium set (or, respectively, the best response sets). Simultaneously, we obtain two new characterizations of the class of positive affine transformations.
     
-[^28]: 应用离散工具和误报处理局部边际治疗效应的部分识别
+[^30]: 应用离散工具和误报处理局部边际治疗效应的部分识别
 
     Partial Identification of Marginal Treatment Effects with discrete instruments and misreported treatment. (arXiv:2110.06285v3 [econ.EM] UPDATED)
 
@@ -431,7 +461,7 @@
 
     This paper provides partial identification results for the marginal treatment effect ($MTE$) when the binary treatment variable is potentially misreported and the instrumental variable is discrete. Identification results are derived under different sets of nonparametric assumptions. The identification results are illustrated in identifying the marginal treatment effects of food stamps on health.
     
-[^29]: 估计内生联合并购: 并购成本和大小与专业性间的同质化
+[^31]: 估计内生联合并购: 并购成本和大小与专业性间的同质化
 
     Estimating Endogenous Coalitional Mergers: Merger Costs and Assortativeness of Size and Specialization. (arXiv:2108.12744v5 [econ.GN] UPDATED)
 
@@ -445,7 +475,7 @@
 
     I present a structural empirical model of a one-sided one-to-many matching with complementarities to quantify the effect of subsidy design on endogenous merger matching. I investigate shipping mergers and consolidations in Japan in 1964. At the time, 95 firms formed six large groups. I find that the existence of unmatched firms enables us to recover merger costs, and the importance of technological diversification varies across carrier and firm types. The counterfactual simulations show that 20 \% of government subsidy expenditures could have been cut. The government could have possibly changed the equilibrium number of groups to between one and six.
     
-[^30]: 异构观测数据中联邦因果推断
+[^32]: 异构观测数据中联邦因果推断
 
     Federated Causal Inference in Heterogeneous Observational Data. (arXiv:2107.11732v5 [cs.LG] UPDATED)
 
@@ -459,7 +489,7 @@
 
     We are interested in estimating the effect of a treatment applied to individuals at multiple sites, where data is stored locally for each site. Due to privacy constraints, individual-level data cannot be shared across sites; the sites may also have heterogeneous populations and treatment assignment mechanisms. Motivated by these considerations, we develop federated methods to draw inference on the average treatment effects of combined data across sites. Our methods first compute summary statistics locally using propensity scores and then aggregate these statistics across sites to obtain point and variance estimators of average treatment effects. We show that these estimators are consistent and asymptotically normal. To achieve these asymptotic properties, we find that the aggregation schemes need to account for the heterogeneity in treatment assignments and in outcomes across sites. We demonstrate the validity of our federated methods through a comparative study of two large medical cl
     
-[^31]: 被误分类处理的边际处理效应
+[^33]: 被误分类处理的边际处理效应
 
     Marginal Treatment Effects with a Misclassified Treatment. (arXiv:2105.00358v6 [econ.EM] UPDATED)
 
@@ -473,7 +503,7 @@
 
     This paper studies identification of the marginal treatment effect (MTE) when a binary treatment variable is misclassified. We show under standard assumptions that the MTE is identified as the derivative of the conditional expectation of the observed outcome given the true propensity score, which is partially identified. We characterize the identified set for this propensity score, and then for the MTE. We show under some mild regularity conditions that the sign of the MTE is locally identified. We use our MTE bounds to derive bounds on other commonly used parameters in the literature. We show that our bounds are tighter than the existing bounds for the local average treatment effect. We illustrate the practical relevance of our derived bounds through some numerical and empirical results.
     
-[^32]: 使用因子图形Lasso的最优投资组合
+[^34]: 使用因子图形Lasso的最优投资组合
 
     Optimal Portfolio Using Factor Graphical Lasso. (arXiv:2011.00435v5 [econ.EM] UPDATED)
 
@@ -487,7 +517,7 @@
 
     Graphical models are a powerful tool to estimate a high-dimensional inverse covariance (precision) matrix, which has been applied for a portfolio allocation problem. The assumption made by these models is a sparsity of the precision matrix. However, when stock returns are driven by common factors, such assumption does not hold. We address this limitation and develop a framework, Factor Graphical Lasso (FGL), which integrates graphical models with the factor structure in the context of portfolio allocation by decomposing a precision matrix into low-rank and sparse components. Our theoretical results and simulations show that FGL consistently estimates the portfolio weights and risk exposure and also that FGL is robust to heavy-tailed distributions which makes our method suitable for financial applications. FGL-based portfolios are shown to exhibit superior performance over several prominent competitors including equal-weighted and Index portfolios in the empirical application for the S&
     
-[^33]: 有目标工具的过滤与未过滤处理效果
+[^35]: 有目标工具的过滤与未过滤处理效果
 
     Filtered and Unfiltered Treatment Effects with Targeting Instruments. (arXiv:2007.10432v3 [econ.EM] UPDATED)
 
@@ -501,7 +531,7 @@
 
     Multivalued treatments are commonplace in applications. We explore the use of discrete-valued instruments to control for selection bias in this setting. Our discussion stresses the role of assumptions on targeting (which instruments target which treatments) and filtering (limits on the analyst's knowledge of the treatment assigned to a given observation). It allows us to establish conditions under which counterfactual averages and treatment effects are identified for composite complier groups. We illustrate the usefulness of our framework by applying it to data from the Head Start Impact Study and the Student Achievement and Retention Project.
     
-[^34]: 无限和增长维度时间序列回归的鲁棒推断
+[^36]: 无限和增长维度时间序列回归的鲁棒推断
 
     Robust Inference on Infinite and Growing Dimensional Time Series Regression. (arXiv:1911.08637v4 [econ.EM] UPDATED)
 
