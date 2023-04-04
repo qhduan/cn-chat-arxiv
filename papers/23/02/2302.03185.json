@@ -1,0 +1,12 @@
+{
+    "title": "Regulating Oligopolistic Competition. (arXiv:2302.03185v2 [econ.TH] UPDATED)",
+    "abstract": "We consider the problem of how to regulate an oligopoly when firms have private information about their costs. In the environment, consumers make discrete choices over goods, and minimal structure is placed on the manner in which firms compete. In the optimal regulatory policy, the regulator need only solicit prices from firms, and based on those prices, charge them taxes or give them subsidies, and impose on each firm a ``yardstick'' price cap that depends on the posted prices of competing firms.",
+    "link": "http://arxiv.org/abs/2302.03185",
+    "context": "Title: Regulating Oligopolistic Competition. (arXiv:2302.03185v2 [econ.TH] UPDATED)\nAbstract: We consider the problem of how to regulate an oligopoly when firms have private information about their costs. In the environment, consumers make discrete choices over goods, and minimal structure is placed on the manner in which firms compete. In the optimal regulatory policy, the regulator need only solicit prices from firms, and based on those prices, charge them taxes or give them subsidies, and impose on each firm a ``yardstick'' price cap that depends on the posted prices of competing firms.",
+    "path": "papers/23/02/2302.03185.json",
+    "total_tokens": 642,
+    "translated_title": "控制寡头垄断竞争",
+    "translated_abstract": "我们考虑的问题是在企业拥有其成本私有信息的情况下，如何规范垄断市场。在本环境中，消费者对商品进行离散选择，且对企业竞争方式的结构没有任何限制。在最佳监管政策中，监管机构只需向企业征求价格，然后根据这些价格收取税款或提供补贴，并对每个企业实施“码头价”价格上限，该上限取决于竞争企业公布的价格。",
+    "tldr": "论文探讨了如何在企业拥有成本私有信息的情况下，通过征求价格、收取税款或给予补贴以及对每个企业实施“码头价”价格上限来规范垄断市场。",
+    "en_tdlr": "The paper explores how to regulate oligopoly with private cost information by soliciting prices, imposing taxes or subsidies, and implementing \"yardstick\" price caps for each firm based on the posted prices of their competitors."
+}

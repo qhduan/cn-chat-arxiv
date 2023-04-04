@@ -1,0 +1,11 @@
+{
+    "title": "On the Relationships between Graph Neural Networks for the Simulation of Physical Systems and Classical Numerical Methods. (arXiv:2304.00146v1 [cs.LG])",
+    "abstract": "Recent developments in Machine Learning approaches for modelling physical systems have begun to mirror the past development of numerical methods in the computational sciences. In this survey, we begin by providing an example of this with the parallels between the development trajectories of graph neural network acceleration for physical simulations and particle-based approaches. We then give an overview of simulation approaches, which have not yet found their way into state-of-the-art Machine Learning methods and hold the potential to make Machine Learning approaches more accurate and more efficient. We conclude by presenting an outlook on the potential of these approaches for making Machine Learning models for science more efficient.",
+    "link": "http://arxiv.org/abs/2304.00146",
+    "context": "Title: On the Relationships between Graph Neural Networks for the Simulation of Physical Systems and Classical Numerical Methods. (arXiv:2304.00146v1 [cs.LG])\nAbstract: Recent developments in Machine Learning approaches for modelling physical systems have begun to mirror the past development of numerical methods in the computational sciences. In this survey, we begin by providing an example of this with the parallels between the development trajectories of graph neural network acceleration for physical simulations and particle-based approaches. We then give an overview of simulation approaches, which have not yet found their way into state-of-the-art Machine Learning methods and hold the potential to make Machine Learning approaches more accurate and more efficient. We conclude by presenting an outlook on the potential of these approaches for making Machine Learning models for science more efficient.",
+    "path": "papers/23/04/2304.00146.json",
+    "total_tokens": 744,
+    "translated_title": "关于图神经网络在物理系统模拟和经典数值方法之间的关系",
+    "translated_abstract": "最近机器学习建模物理系统的方法开始呈现出计算科学中数值方法发展的影子。本文首先通过对比图神经网络加速物理模拟和基于粒子方法的发展轨迹来阐述这一点。接着，我们概述了一些模拟方法，这些方法尚未被运用到最先进的机器学习方法之中，但它们具备让机器学习方法更加准确和高效的潜力。最后，我们展望这些方法将为使机器学习模型更加高效的科学研究提供潜在可能性。",
+    "tldr": "本文探讨了图神经网络与经典数值方法在物理系统模拟上的关系，并提出了有潜力提高机器学习方法准确性和效率的新的模拟方法。展望这些方法将为科学研究提供更高效的机器学习模型。"
+}

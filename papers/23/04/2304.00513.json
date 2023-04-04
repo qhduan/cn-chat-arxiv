@@ -1,0 +1,12 @@
+{
+    "title": "TSCI: two stage curvature identification for causal inference with invalid instruments. (arXiv:2304.00513v1 [stat.ME])",
+    "abstract": "TSCI implements treatment effect estimation from observational data under invalid instruments in the R statistical computing environment. Existing instrumental variable approaches rely on arguably strong and untestable identification assumptions, which limits their practical application. TSCI does not require the classical instrumental variable identification conditions and is effective even if all instruments are invalid. TSCI implements a two-stage algorithm. In the first stage, machine learning is used to cope with nonlinearities and interactions in the treatment model. In the second stage, a space to capture the instrument violations is selected in a data-adaptive way. These violations are then projected out to estimate the treatment effect.",
+    "link": "http://arxiv.org/abs/2304.00513",
+    "context": "Title: TSCI: two stage curvature identification for causal inference with invalid instruments. (arXiv:2304.00513v1 [stat.ME])\nAbstract: TSCI implements treatment effect estimation from observational data under invalid instruments in the R statistical computing environment. Existing instrumental variable approaches rely on arguably strong and untestable identification assumptions, which limits their practical application. TSCI does not require the classical instrumental variable identification conditions and is effective even if all instruments are invalid. TSCI implements a two-stage algorithm. In the first stage, machine learning is used to cope with nonlinearities and interactions in the treatment model. In the second stage, a space to capture the instrument violations is selected in a data-adaptive way. These violations are then projected out to estimate the treatment effect.",
+    "path": "papers/23/04/2304.00513.json",
+    "total_tokens": 710,
+    "translated_title": "TSCI：使用两阶段曲率识别在无效仪器下执行因果推断",
+    "translated_abstract": "TSCI 在 R 统计计算环境中执行观测数据下的治疗效应估计，即使仪器无效也可有效运行。现有的仪器变量方法依赖于强且难以验证的识别假设，这限制了它们的实际应用。TSCI 不需要经典的仪器变量识别条件，通过两阶段算法实现。在第一阶段，机器学习用于处理治疗模型中的非线性和交互作用。在第二阶段，通过数据自适应方式选择空间来捕捉仪器违规行为，然后将这些违规行为投影出来以估计治疗效应。",
+    "tldr": "TSCI 提出了无效仪器条件下使用两阶段算法进行因果推断，不需要强识别假设，可通过数据自适应方式捕捉仪器违规行为。",
+    "en_tdlr": "TSCI proposes a two-stage algorithm for causal inference with invalid instruments, which does not rely on strong identification assumptions and captures instrument violations in a data-adaptive way."
+}

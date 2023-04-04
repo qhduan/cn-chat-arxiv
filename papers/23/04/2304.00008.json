@@ -1,0 +1,12 @@
+{
+    "title": "On the Creativity of Large Language Models. (arXiv:2304.00008v1 [cs.AI])",
+    "abstract": "Large Language Models (LLMs) are revolutionizing several areas of Artificial Intelligence. One of the most remarkable applications is creative writing, e.g., poetry or storytelling: the generated outputs are often of astonishing quality. However, a natural question arise: can LLMs really be considered creative? In this article we firstly analyze the development of LLMs under the lens of creativity theories, investigating the key open questions and challenges. Then, we identify a set of \"easy\" and \"hard\" problems in machine creativity, discussing them in relation to LLMs. Finally, we analyze the societal impact of these technologies with a particular focus on the creative industries.",
+    "link": "http://arxiv.org/abs/2304.00008",
+    "context": "Title: On the Creativity of Large Language Models. (arXiv:2304.00008v1 [cs.AI])\nAbstract: Large Language Models (LLMs) are revolutionizing several areas of Artificial Intelligence. One of the most remarkable applications is creative writing, e.g., poetry or storytelling: the generated outputs are often of astonishing quality. However, a natural question arise: can LLMs really be considered creative? In this article we firstly analyze the development of LLMs under the lens of creativity theories, investigating the key open questions and challenges. Then, we identify a set of \"easy\" and \"hard\" problems in machine creativity, discussing them in relation to LLMs. Finally, we analyze the societal impact of these technologies with a particular focus on the creative industries.",
+    "path": "papers/23/04/2304.00008.json",
+    "total_tokens": 727,
+    "translated_title": "关于大型语言模型的创造性研究",
+    "translated_abstract": "大型语言模型(LLMs)正在颠覆人工智能的多个领域。其中最显著的应用之一是创作，例如诗歌或故事：生成的输出通常具有惊人的质量。但是，一个自然的问题是：LLMs真的可以被认为是创造性的吗？在本文中，我们首先通过创造性理论的角度分析了LLMs的发展，探讨了关键的未解决问题和挑战。然后，我们在与LLMs相关的机器创造性方面确定了一组“易”和“难”问题，并对其进行了讨论。最后，我们分析了这些技术在创意产业中的社会影响。",
+    "tldr": "这篇论文探讨了大型语言模型的创造性问题，分析了与之相关的机器创造性的难点和易点，并重点分析了这些技术在创意产业中的社会影响。",
+    "en_tdlr": "This paper discusses the creativity of large language models, analyzes the easy and hard problems in machine creativity related to LLMs, and focuses on the societal impact of these technologies in the creative industries."
+}

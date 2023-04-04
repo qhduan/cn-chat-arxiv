@@ -1,0 +1,12 @@
+{
+    "title": "Diffusion map particle systems for generative modeling. (arXiv:2304.00200v1 [stat.ML])",
+    "abstract": "We propose a novel diffusion map particle system (DMPS) for generative modeling, based on diffusion maps and Laplacian-adjusted Wasserstein gradient descent (LAWGD). Diffusion maps are used to approximate the generator of the Langevin diffusion process from samples, and hence to learn the underlying data-generating manifold. On the other hand, LAWGD enables efficient sampling from the target distribution given a suitable choice of kernel, which we construct here via a spectral approximation of the generator, computed with diffusion maps. Numerical experiments show that our method outperforms others on synthetic datasets, including examples with manifold structure.",
+    "link": "http://arxiv.org/abs/2304.00200",
+    "context": "Title: Diffusion map particle systems for generative modeling. (arXiv:2304.00200v1 [stat.ML])\nAbstract: We propose a novel diffusion map particle system (DMPS) for generative modeling, based on diffusion maps and Laplacian-adjusted Wasserstein gradient descent (LAWGD). Diffusion maps are used to approximate the generator of the Langevin diffusion process from samples, and hence to learn the underlying data-generating manifold. On the other hand, LAWGD enables efficient sampling from the target distribution given a suitable choice of kernel, which we construct here via a spectral approximation of the generator, computed with diffusion maps. Numerical experiments show that our method outperforms others on synthetic datasets, including examples with manifold structure.",
+    "path": "papers/23/04/2304.00200.json",
+    "total_tokens": 721,
+    "translated_title": "基于扩散映射的粒子系统用于生成模型",
+    "translated_abstract": "本文提出了一种新颖的扩散映射粒子系统(DMPS)，用于生成建模，该方法基于扩散映射和Laplacian调整的Wasserstein梯度下降（LAWGD）。扩散映射被用来从样本中近似Langevin扩散过程的生成器，从而学习潜在的数据生成流形。另一方面，LAWGD能够在合适的核函数选择下高效地从目标分布中抽样，我们在这里通过扩散映射计算生成器的谱逼近来构造核函数。数值实验表明，我们的方法在包括具有流形结构的合成数据集上优于其他方法。",
+    "tldr": "本文提出一种新型扩散映射粒子系统(DMPS)，可以用于高效生成建模，实验表明在包含流形结构的合成数据集上取得了比其他方法更好的效果。",
+    "en_tdlr": "This paper proposes a novel diffusion map particle system (DMPS) for generative modeling, which can efficiently learn the underlying data-generating manifold and outperforms other methods on synthetic datasets with manifold structure."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Abstractors: Transformer Modules for Symbolic Message Passing and Relational Reasoning. (arXiv:2304.00195v1 [stat.ML])",
+    "abstract": "A framework is proposed that casts relational learning in terms of transformers, implementing binding between sensory states and abstract states with relational cross attention mechanisms.",
+    "link": "http://arxiv.org/abs/2304.00195",
+    "context": "Title: Abstractors: Transformer Modules for Symbolic Message Passing and Relational Reasoning. (arXiv:2304.00195v1 [stat.ML])\nAbstract: A framework is proposed that casts relational learning in terms of transformers, implementing binding between sensory states and abstract states with relational cross attention mechanisms.",
+    "path": "papers/23/04/2304.00195.json",
+    "total_tokens": 460,
+    "translated_title": "抽象器：基于Transformer的符号消息传递和关系推理模块",
+    "translated_abstract": "该论文提出了一个框架，将关系学习转化为Transformer模型，并通过关系交叉注意力机制实现感性状态与抽象状态之间的绑定。",
+    "tldr": "该论文提出了一个基于Transformer的框架，用于实现符号消息传递和关系推理，并通过关系交叉注意力机制实现感性状态与抽象状态之间的绑定。",
+    "en_tdlr": "This paper proposes a transformer-based framework for implementing symbolic message passing and relational reasoning, utilizing relational cross-attention mechanisms to bind sensory states and abstract states."
+}

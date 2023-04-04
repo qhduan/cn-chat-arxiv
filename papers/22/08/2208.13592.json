@@ -1,0 +1,12 @@
+{
+    "title": "Smooth Monotone Stochastic Variational Inequalities and Saddle Point Problems: A Survey. (arXiv:2208.13592v3 [math.OC] UPDATED)",
+    "abstract": "This paper is a survey of methods for solving smooth (strongly) monotone stochastic variational inequalities. To begin with, we give the deterministic foundation from which the stochastic methods eventually evolved. Then we review methods for the general stochastic formulation, and look at the finite sum setup. The last parts of the paper are devoted to various recent (not necessarily stochastic) advances in algorithms for variational inequalities.",
+    "link": "http://arxiv.org/abs/2208.13592",
+    "context": "Title: Smooth Monotone Stochastic Variational Inequalities and Saddle Point Problems: A Survey. (arXiv:2208.13592v3 [math.OC] UPDATED)\nAbstract: This paper is a survey of methods for solving smooth (strongly) monotone stochastic variational inequalities. To begin with, we give the deterministic foundation from which the stochastic methods eventually evolved. Then we review methods for the general stochastic formulation, and look at the finite sum setup. The last parts of the paper are devoted to various recent (not necessarily stochastic) advances in algorithms for variational inequalities.",
+    "path": "papers/22/08/2208.13592.json",
+    "total_tokens": 541,
+    "translated_title": "平滑单调随机变分不等式与鞍点问题：综述",
+    "translated_abstract": "本文综述了解决平滑（强）单调随机变分不等式的方法。首先，我们给出了随机方法最终演变的确定性基础。然后我们回顾了一般随机公式的方法，看看有限和设置。最后部分是致力于各种最近的（不一定是随机的）算法变分不等式的进步的。",
+    "tldr": "本文综述了解决平滑（强）单调随机变分不等式的方法。",
+    "en_tdlr": "This paper surveys methods for solving smooth (strongly) monotone stochastic variational inequalities."
+}

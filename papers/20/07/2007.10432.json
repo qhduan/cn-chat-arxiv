@@ -1,0 +1,12 @@
+{
+    "title": "Filtered and Unfiltered Treatment Effects with Targeting Instruments. (arXiv:2007.10432v3 [econ.EM] UPDATED)",
+    "abstract": "Multivalued treatments are commonplace in applications. We explore the use of discrete-valued instruments to control for selection bias in this setting. Our discussion stresses the role of assumptions on targeting (which instruments target which treatments) and filtering (limits on the analyst's knowledge of the treatment assigned to a given observation). It allows us to establish conditions under which counterfactual averages and treatment effects are identified for composite complier groups. We illustrate the usefulness of our framework by applying it to data from the Head Start Impact Study and the Student Achievement and Retention Project.",
+    "link": "http://arxiv.org/abs/2007.10432",
+    "context": "Title: Filtered and Unfiltered Treatment Effects with Targeting Instruments. (arXiv:2007.10432v3 [econ.EM] UPDATED)\nAbstract: Multivalued treatments are commonplace in applications. We explore the use of discrete-valued instruments to control for selection bias in this setting. Our discussion stresses the role of assumptions on targeting (which instruments target which treatments) and filtering (limits on the analyst's knowledge of the treatment assigned to a given observation). It allows us to establish conditions under which counterfactual averages and treatment effects are identified for composite complier groups. We illustrate the usefulness of our framework by applying it to data from the Head Start Impact Study and the Student Achievement and Retention Project.",
+    "path": "papers/20/07/2007.10432.json",
+    "total_tokens": 682,
+    "translated_title": "有目标工具的过滤与未过滤处理效果",
+    "translated_abstract": "在应用中，多值处理是很常见的。我们探讨了在这种情况下使用离散工具来控制选择偏差的方法。我们强调了有关定位（工具定位于哪些处理）和过滤（限制分析师对给定观测的处理分配的知识）的假设作用。这允许我们建立条件，使得针对组合编译器群体，可以确定反事实平均值和处理效果。我们通过将其应用于Head Start Impact Study和Student Achievement and Retention Project的数据来说明我们框架的实用性。",
+    "tldr": "本文研究如何使用有目标工具来控制多值处理中的选择偏差，并建立了组合编译器群体的条件来确定反事实平均值和处理效果。",
+    "en_tdlr": "This paper explores the use of targeting instruments to control selection bias in multivalued treatments, and establishes conditions for identifying counterfactual averages and treatment effects for composite complier groups. It is illustrated using data from the Head Start Impact Study and the Student Achievement and Retention Project."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Data Privacy Preservation on the Internet of Things. (arXiv:2304.00258v1 [cs.CR])",
+    "abstract": "Recent developments in hardware and information technology have enabled the emergence of billions of connected, intelligent devices around the world exchanging information with minimal human involvement. This paradigm, known as the Internet of Things (IoT) is progressing quickly with an estimated 27 billion devices by 2025. This growth in the number of IoT devices and successful IoT services has generated a tremendous amount of data. However, this humongous volume of data poses growing concerns for user privacy. This introductory chapter has presented a brief survey of some of the existing data privacy-preservation schemes proposed by researchers in the field of the Internet of Things.",
+    "link": "http://arxiv.org/abs/2304.00258",
+    "context": "Title: Data Privacy Preservation on the Internet of Things. (arXiv:2304.00258v1 [cs.CR])\nAbstract: Recent developments in hardware and information technology have enabled the emergence of billions of connected, intelligent devices around the world exchanging information with minimal human involvement. This paradigm, known as the Internet of Things (IoT) is progressing quickly with an estimated 27 billion devices by 2025. This growth in the number of IoT devices and successful IoT services has generated a tremendous amount of data. However, this humongous volume of data poses growing concerns for user privacy. This introductory chapter has presented a brief survey of some of the existing data privacy-preservation schemes proposed by researchers in the field of the Internet of Things.",
+    "path": "papers/23/04/2304.00258.json",
+    "total_tokens": 634,
+    "translated_title": "物联网数据隐私保护",
+    "translated_abstract": "硬件和信息技术的最新发展使得全球数十亿个智能设备相互连接并交换信息，人类的介入 minimal。这个被称为物联网（IoT）的范式正在迅速发展，预计到2025年将有270亿个设备。这种增长导致了大量数据的产生，而这也引发了对用户隐私不断增长的关注。本文综述了物联网领域研究人员提出的一些现有数据隐私保护方案。",
+    "tldr": "物联网的普及带来大量数据，对用户的隐私安全构成威胁，本文综述了物联网领域数据隐私保护的现有方案。"
+}

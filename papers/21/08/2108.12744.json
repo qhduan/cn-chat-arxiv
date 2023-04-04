@@ -1,0 +1,12 @@
+{
+    "title": "Estimating Endogenous Coalitional Mergers: Merger Costs and Assortativeness of Size and Specialization. (arXiv:2108.12744v5 [econ.GN] UPDATED)",
+    "abstract": "I present a structural empirical model of a one-sided one-to-many matching with complementarities to quantify the effect of subsidy design on endogenous merger matching. I investigate shipping mergers and consolidations in Japan in 1964. At the time, 95 firms formed six large groups. I find that the existence of unmatched firms enables us to recover merger costs, and the importance of technological diversification varies across carrier and firm types. The counterfactual simulations show that 20 \\% of government subsidy expenditures could have been cut. The government could have possibly changed the equilibrium number of groups to between one and six.",
+    "link": "http://arxiv.org/abs/2108.12744",
+    "context": "Title: Estimating Endogenous Coalitional Mergers: Merger Costs and Assortativeness of Size and Specialization. (arXiv:2108.12744v5 [econ.GN] UPDATED)\nAbstract: I present a structural empirical model of a one-sided one-to-many matching with complementarities to quantify the effect of subsidy design on endogenous merger matching. I investigate shipping mergers and consolidations in Japan in 1964. At the time, 95 firms formed six large groups. I find that the existence of unmatched firms enables us to recover merger costs, and the importance of technological diversification varies across carrier and firm types. The counterfactual simulations show that 20 \\% of government subsidy expenditures could have been cut. The government could have possibly changed the equilibrium number of groups to between one and six.",
+    "path": "papers/21/08/2108.12744.json",
+    "total_tokens": 771,
+    "translated_title": "估计内生联合并购: 并购成本和大小与专业性间的同质化",
+    "translated_abstract": "本文提出了一个结构性实证模型，通过补充性与一对多匹配来量化补贴设计对内生并购匹配的影响。本文调查了1964年日本的运输并购和整并，当时95家公司形成了六个大集团。研究发现未匹配的公司的存在使我们能够恢复并购成本，并且技术多样化的重要性因运营商和公司类型而异。反事实模拟表明，政府补贴支出的20％可以被削减。政府可能会改变平衡状态下的集团数量，从一个到六个集团。",
+    "tldr": "本文研究了日本运输并购，通过未匹配公司的存在，估计了内生并购的成本，发现技术多样化的重要性因运营商和公司类型而异，在反事实模拟中，政府支出可削减20％。",
+    "en_tdlr": "This paper investigates shipping mergers and consolidations in Japan and estimates the endogenous merger costs through the existence of unmatched firms. The importance of technological diversification varies by carrier and firm types. Counterfactual simulations suggest a possible 20% cut in government subsidy expenditures and a change in the equilibrium number of groups from one to six."
+}

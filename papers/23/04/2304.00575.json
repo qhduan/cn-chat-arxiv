@@ -1,0 +1,12 @@
+{
+    "title": "Modelling customer churn for the retail industry in a deep learning based sequential framework. (arXiv:2304.00575v1 [stat.ML])",
+    "abstract": "As retailers around the world increase efforts in developing targeted marketing campaigns for different audiences, predicting accurately which customers are most likely to churn ahead of time is crucial for marketing teams in order to increase business profits. This work presents a deep survival framework to predict which customers are at risk of stopping to purchase with retail companies in non-contractual settings. By leveraging the survival model parameters to be learnt by recurrent neural networks, we are able to obtain individual level survival models for purchasing behaviour based only on individual customer behaviour and avoid time-consuming feature engineering processes usually done when training machine learning models.",
+    "link": "http://arxiv.org/abs/2304.00575",
+    "context": "Title: Modelling customer churn for the retail industry in a deep learning based sequential framework. (arXiv:2304.00575v1 [stat.ML])\nAbstract: As retailers around the world increase efforts in developing targeted marketing campaigns for different audiences, predicting accurately which customers are most likely to churn ahead of time is crucial for marketing teams in order to increase business profits. This work presents a deep survival framework to predict which customers are at risk of stopping to purchase with retail companies in non-contractual settings. By leveraging the survival model parameters to be learnt by recurrent neural networks, we are able to obtain individual level survival models for purchasing behaviour based only on individual customer behaviour and avoid time-consuming feature engineering processes usually done when training machine learning models.",
+    "path": "papers/23/04/2304.00575.json",
+    "total_tokens": 751,
+    "translated_title": "基于深度学习时序框架的零售客户流失建模",
+    "translated_abstract": "随着世界各地的零售商增加针对不同受众的定向营销活动，准确预测哪些客户最有可能流失对于营销团队来说至关重要，以增加业务利润。本研究提出了一个深度生存框架，用于预测哪些客户在非合同情况下停止与零售公司购买。通过利用循环神经网络学习生存模型参数，我们能够仅基于客户行为获取基于个体水平消费行为的生存模型，避免训练机器学习模型时耗时的特征工程过程。",
+    "tldr": "本文提出了一种基于深度学习的时序框架，能够预测非合同情况下哪些客户存在流失风险，这种模型只需要基于客户行为就能获得具有个体特征的生存模型，避免了繁琐而耗时的特征工程过程。",
+    "en_tdlr": "This paper proposes a deep learning sequential framework for predicting customer churn risk in non-contractual settings, which obtains individual-level survival models based on customer behavior without time-consuming feature engineering."
+}

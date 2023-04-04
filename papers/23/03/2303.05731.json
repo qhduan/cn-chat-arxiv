@@ -1,0 +1,12 @@
+{
+    "title": "Upper Bound of Real Log Canonical Threshold of Tensor Decomposition and its Application to Bayesian Inference. (arXiv:2303.05731v2 [cs.LG] UPDATED)",
+    "abstract": "Tensor decomposition is now being used for data analysis, information compression, and knowledge recovery. However, the mathematical property of tensor decomposition is not yet fully clarified because it is one of singular learning machines. In this paper, we give the upper bound of its real log canonical threshold (RLCT) of the tensor decomposition by using an algebraic geometrical method and derive its Bayesian generalization error theoretically. We also give considerations about its mathematical property through numerical experiments.",
+    "link": "http://arxiv.org/abs/2303.05731",
+    "context": "Title: Upper Bound of Real Log Canonical Threshold of Tensor Decomposition and its Application to Bayesian Inference. (arXiv:2303.05731v2 [cs.LG] UPDATED)\nAbstract: Tensor decomposition is now being used for data analysis, information compression, and knowledge recovery. However, the mathematical property of tensor decomposition is not yet fully clarified because it is one of singular learning machines. In this paper, we give the upper bound of its real log canonical threshold (RLCT) of the tensor decomposition by using an algebraic geometrical method and derive its Bayesian generalization error theoretically. We also give considerations about its mathematical property through numerical experiments.",
+    "path": "papers/23/03/2303.05731.json",
+    "total_tokens": 662,
+    "translated_title": "张量分解的实对数典范阈值的上界及其在贝叶斯推断中的应用",
+    "translated_abstract": "张量分解现在被用于数据分析、信息压缩和知识恢复。然而，张量分解的数学性质尚未完全阐明，因为它是一种奇异学习机。在本文中，我们利用代数几何方法给出了张量分解的实对数典范阈值(RLCT)的上界，并从理论上推导了其贝叶斯泛化误差。我们还通过数值实验给出了其数学性质的考虑。",
+    "tldr": "本研究利用代数几何方法给出了张量分解的实对数典范阈值的上界，并推导了其在贝叶斯推断中的应用理论误差，揭示了张量分解的数学性质。",
+    "en_tdlr": "This study provides an upper bound for the real log canonical threshold of tensor decomposition using an algebraic geometric method, and derives its Bayesian generalization error theoretically. It also sheds light on the mathematical properties through numerical experiments."
+}

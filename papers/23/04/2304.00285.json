@@ -1,0 +1,12 @@
+{
+    "title": "Branch Identification in Passive Optical Networks using Machine Learning. (arXiv:2304.00285v1 [cs.LG])",
+    "abstract": "A machine learning approach for improving monitoring in passive optical networks with almost equidistant branches is proposed and experimentally validated. It achieves a high diagnostic accuracy of 98.7% and an event localization error of 0.5m",
+    "link": "http://arxiv.org/abs/2304.00285",
+    "context": "Title: Branch Identification in Passive Optical Networks using Machine Learning. (arXiv:2304.00285v1 [cs.LG])\nAbstract: A machine learning approach for improving monitoring in passive optical networks with almost equidistant branches is proposed and experimentally validated. It achieves a high diagnostic accuracy of 98.7% and an event localization error of 0.5m",
+    "path": "papers/23/04/2304.00285.json",
+    "total_tokens": 483,
+    "translated_title": "使用机器学习进行被动式光纤网络中的分支识别",
+    "translated_abstract": "本文提出并实验验证了一种利用机器学习来改善几乎等距分支的被动式光纤网络中监测的方法。它实现了高达98.7％的诊断准确度和0.5m的事件定位误差。",
+    "tldr": "本文提出利用机器学习改善被动式光纤网络监测，具有高的诊断准确率和定位精度。",
+    "en_tdlr": "This paper proposes the use of machine learning to improve monitoring in passive optical networks with high diagnostic accuracy and event localization precision."
+}

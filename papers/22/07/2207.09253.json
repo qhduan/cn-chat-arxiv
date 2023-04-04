@@ -1,0 +1,12 @@
+{
+    "title": "Symmetric reduced form voting. (arXiv:2207.09253v4 [econ.TH] UPDATED)",
+    "abstract": "We study a model of voting with two alternatives in a symmetric environment. We characterize the interim allocation probabilities that can be implemented by a symmetric voting rule. We show that every such interim allocation probabilities can be implemented as a convex combination of two families of deterministic voting rules: qualified majority and qualified anti-majority. We also provide analogous results by requiring implementation by a symmetric monotone (strategy-proof) voting rule and by a symmetric unanimous voting rule. We apply our results to show that an ex-ante Rawlsian rule is a convex combination of a pair of qualified majority rules.",
+    "link": "http://arxiv.org/abs/2207.09253",
+    "context": "Title: Symmetric reduced form voting. (arXiv:2207.09253v4 [econ.TH] UPDATED)\nAbstract: We study a model of voting with two alternatives in a symmetric environment. We characterize the interim allocation probabilities that can be implemented by a symmetric voting rule. We show that every such interim allocation probabilities can be implemented as a convex combination of two families of deterministic voting rules: qualified majority and qualified anti-majority. We also provide analogous results by requiring implementation by a symmetric monotone (strategy-proof) voting rule and by a symmetric unanimous voting rule. We apply our results to show that an ex-ante Rawlsian rule is a convex combination of a pair of qualified majority rules.",
+    "path": "papers/22/07/2207.09253.json",
+    "total_tokens": 655,
+    "translated_title": "对称化简形式投票",
+    "translated_abstract": "我们研究了一个对称环境下具有两个选择的投票模型。我们表征了可以通过对称化投票规则实现的中期分配概率。我们展示了每个这样的中期分配概率可以通过两种决策投票规则的凸组合来实现：合格多数和合格反多数。我们还通过要求对称单调（战略无效）投票规则和对称一致投票规则实现类似的结果。我们应用我们的结果来展示一个前期 Rawlsian 规则是一对合格多数规则的凸组合。",
+    "tldr": "该论文研究了对称环境下的投票模型，发现每个中期分配概率都可以通过合格多数和合格反多数两组决策投票规则的凸组合来实现。",
+    "en_tdlr": "This paper studies a symmetric voting model with two alternatives and finds that every interim allocation probability can be implemented as a convex combination of qualified majority and qualified anti-majority deterministic voting rules."
+}

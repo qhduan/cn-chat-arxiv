@@ -1,0 +1,12 @@
+{
+    "title": "Learning Job Titles Similarity from Noisy Skill Labels. (arXiv:2207.00494v3 [cs.IR] UPDATED)",
+    "abstract": "Measuring semantic similarity between job titles is an essential functionality for automatic job recommendations. This task is usually approached using supervised learning techniques, which requires training data in the form of equivalent job title pairs. In this paper, we instead propose an unsupervised representation learning method for training a job title similarity model using noisy skill labels. We show that it is highly effective for tasks such as text ranking and job normalization.",
+    "link": "http://arxiv.org/abs/2207.00494",
+    "context": "Title: Learning Job Titles Similarity from Noisy Skill Labels. (arXiv:2207.00494v3 [cs.IR] UPDATED)\nAbstract: Measuring semantic similarity between job titles is an essential functionality for automatic job recommendations. This task is usually approached using supervised learning techniques, which requires training data in the form of equivalent job title pairs. In this paper, we instead propose an unsupervised representation learning method for training a job title similarity model using noisy skill labels. We show that it is highly effective for tasks such as text ranking and job normalization.",
+    "path": "papers/22/07/2207.00494.json",
+    "total_tokens": 603,
+    "translated_title": "从含噪技能标签中学习职称相似度",
+    "translated_abstract": "测量职称之间的语义相似度是自动职位推荐的重要功能。这个任务通常使用监督学习技术来实现，需要以等效职称对的形式进行训练数据。本文提出了一种无监督表示学习方法，使用含噪技能标签训练职称相似性模型。我们证明，这种方法在文本排序和职位标准化等任务中非常有效。",
+    "tldr": "本文介绍了一种使用含噪技能标签的无监督表示学习方法，能够训练出有效的职称相似性模型，对于文本排序和职位标准化等任务非常有效。",
+    "en_tdlr": "This paper proposes an unsupervised representation learning method for training a job title similarity model using noisy skill labels, which is highly effective for tasks such as text ranking and job normalization."
+}

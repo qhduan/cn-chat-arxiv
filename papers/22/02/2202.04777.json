@@ -1,0 +1,12 @@
+{
+    "title": "Exact Solutions of a Deep Linear Network. (arXiv:2202.04777v6 [stat.ML] UPDATED)",
+    "abstract": "This work finds the analytical expression of the global minima of a deep linear network with weight decay and stochastic neurons, a fundamental model for understanding the landscape of neural networks. Our result implies that zero is a special point in deep neural network architecture. We show that weight decay strongly interacts with the model architecture and can create bad minima at zero in a network with more than $1$ hidden layer, qualitatively different from a network with only $1$ hidden layer. Practically, our result implies that common deep learning initialization methods are insufficient to ease the optimization of neural networks in general.",
+    "link": "http://arxiv.org/abs/2202.04777",
+    "context": "Title: Exact Solutions of a Deep Linear Network. (arXiv:2202.04777v6 [stat.ML] UPDATED)\nAbstract: This work finds the analytical expression of the global minima of a deep linear network with weight decay and stochastic neurons, a fundamental model for understanding the landscape of neural networks. Our result implies that zero is a special point in deep neural network architecture. We show that weight decay strongly interacts with the model architecture and can create bad minima at zero in a network with more than $1$ hidden layer, qualitatively different from a network with only $1$ hidden layer. Practically, our result implies that common deep learning initialization methods are insufficient to ease the optimization of neural networks in general.",
+    "path": "papers/22/02/2202.04777.json",
+    "total_tokens": 809,
+    "translated_title": "深度线性网络的精确解析解",
+    "translated_abstract": "本研究找到了带权重衰减和随机神经元的深度线性网络全局最小值的解析表达式，这是理解神经网络理论中的基础模型。我们的结果表明，在深度神经网络架构中，零是一个特殊的点。我们展示了权重衰减与模型架构的强烈交互作用，并能够在具有超过 $1$ 个隐藏层的网络中创建不良极小值，这与仅有 $1$ 个隐藏层的网络有质的不同。实际上，我们的结果意味着常见的深度学习初始化方法无法在一般情况下缓解神经网络的优化问题。",
+    "tldr": "本研究找到了带权重衰减和随机神经元的深度线性网络全局最小值的解析表达式，结果表明权重衰减与模型架构的强烈交互作用会在多于1个隐藏层的网络中创建不良极小值，并表明常见的深度学习初始化方法无法在一般情况下缓解神经网络的优化问题。",
+    "en_tdlr": "This study finds the analytical expression of the global minima of a deep linear network with weight decay and stochastic neurons, which indicates the strong interaction between weight decay and model architecture that can create bad minima at zero in a network with more than 1 hidden layer, and implies that common deep learning initialization methods are insufficient to ease the optimization of neural networks in general."
+}

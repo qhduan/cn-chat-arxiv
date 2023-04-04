@@ -1,0 +1,12 @@
+{
+    "title": "Disentangling Domain Ontologies. (arXiv:2304.00004v1 [cs.AI])",
+    "abstract": "In this paper, we introduce and illustrate the novel phenomenon of Conceptual Entanglement which emerges due to the representational manifoldness immanent while incrementally modelling domain ontologies step-by-step across the following five levels: perception, labelling, semantic alignment, hierarchical modelling and intensional definition. In turn, we propose Conceptual Disentanglement, a multi-level conceptual modelling strategy which enforces and explicates, via guiding principles, semantic bijections with respect to each level of conceptual entanglement (across all the above five levels) paving the way for engineering conceptually disentangled domain ontologies. We also briefly argue why state-of-the-art ontology development methodologies and approaches are insufficient with respect to our characterization.",
+    "link": "http://arxiv.org/abs/2304.00004",
+    "context": "Title: Disentangling Domain Ontologies. (arXiv:2304.00004v1 [cs.AI])\nAbstract: In this paper, we introduce and illustrate the novel phenomenon of Conceptual Entanglement which emerges due to the representational manifoldness immanent while incrementally modelling domain ontologies step-by-step across the following five levels: perception, labelling, semantic alignment, hierarchical modelling and intensional definition. In turn, we propose Conceptual Disentanglement, a multi-level conceptual modelling strategy which enforces and explicates, via guiding principles, semantic bijections with respect to each level of conceptual entanglement (across all the above five levels) paving the way for engineering conceptually disentangled domain ontologies. We also briefly argue why state-of-the-art ontology development methodologies and approaches are insufficient with respect to our characterization.",
+    "path": "papers/23/04/2304.00004.json",
+    "total_tokens": 744,
+    "translated_title": "分离领域本体论",
+    "translated_abstract": "本文介绍并论证了\"概念纠结\"现象，该现象由于逐步跨越以下五个层次（感知、标记、语义对齐、分层建模和内涵定义）之间的表征多样性而出现，随即我们提出了\"概念分离\"的多层概念建模策略，其通过指导原则强制和阐明每个概念纠缠层次（对所有上述五个层次）的语义双射，为构建概念上分离的领域本体论扫清了道路。另外，我们还简要阐述了为什么当前的本体论开发方法和方法论在我们的特定分析上是不足的。",
+    "tldr": "本文介绍了领域本体论中的概念纠结现象，并提出了一种多层概念建模策略，旨在构建概念上分离的领域本体论。",
+    "en_tdlr": "This paper introduces the phenomenon of Conceptual Entanglement in domain ontologies and proposes a multi-level conceptual modeling strategy, Conceptual Disentanglement, to achieve conceptually disentangled domain ontologies."
+}

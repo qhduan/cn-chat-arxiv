@@ -1,0 +1,12 @@
+{
+    "title": "Black-Scholes without stochastics or PDEs. (arXiv:2301.09996v2 [q-fin.PR] UPDATED)",
+    "abstract": "We show how to derive the Black-Scholes model and its generalisation to the `exchange-option' (to exchange one asset for another) via the continuum limit of the Binomial tree. No knowledge of stochastic calculus or partial differential equations is assumed, as we do not use them.",
+    "link": "http://arxiv.org/abs/2301.09996",
+    "context": "Title: Black-Scholes without stochastics or PDEs. (arXiv:2301.09996v2 [q-fin.PR] UPDATED)\nAbstract: We show how to derive the Black-Scholes model and its generalisation to the `exchange-option' (to exchange one asset for another) via the continuum limit of the Binomial tree. No knowledge of stochastic calculus or partial differential equations is assumed, as we do not use them.",
+    "path": "papers/23/01/2301.09996.json",
+    "total_tokens": 497,
+    "translated_title": "不涉及随机或偏微分方程的Black-Scholes模型",
+    "translated_abstract": "本文展示了如何通过二项树的连续极限推导出Black-Scholes模型及其对“交换期权”的推广。我们不涉及随机微积分或偏微分方程的知识，因此没有使用它们。",
+    "tldr": "本文介绍了一种不使用随机微积分或偏微分方程的方法推导出Black-Scholes模型及其对“交换期权”的推广。",
+    "en_tdlr": "This paper introduces a method for deriving the Black-Scholes model and its generalization to \"exchange-option\" without using stochastic calculus or partial differential equations."
+}

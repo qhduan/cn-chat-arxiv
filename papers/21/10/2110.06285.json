@@ -1,0 +1,12 @@
+{
+    "title": "Partial Identification of Marginal Treatment Effects with discrete instruments and misreported treatment. (arXiv:2110.06285v3 [econ.EM] UPDATED)",
+    "abstract": "This paper provides partial identification results for the marginal treatment effect ($MTE$) when the binary treatment variable is potentially misreported and the instrumental variable is discrete. Identification results are derived under different sets of nonparametric assumptions. The identification results are illustrated in identifying the marginal treatment effects of food stamps on health.",
+    "link": "http://arxiv.org/abs/2110.06285",
+    "context": "Title: Partial Identification of Marginal Treatment Effects with discrete instruments and misreported treatment. (arXiv:2110.06285v3 [econ.EM] UPDATED)\nAbstract: This paper provides partial identification results for the marginal treatment effect ($MTE$) when the binary treatment variable is potentially misreported and the instrumental variable is discrete. Identification results are derived under different sets of nonparametric assumptions. The identification results are illustrated in identifying the marginal treatment effects of food stamps on health.",
+    "path": "papers/21/10/2110.06285.json",
+    "total_tokens": 606,
+    "translated_title": "应用离散工具和误报处理局部边际治疗效应的部分识别",
+    "translated_abstract": "本文提出了在二元治疗变量可能存在误报和工具变量为离散型的情况下，对边际治疗效应（$MTE$）进行部分识别的结果。识别结果是在不同的非参数假设集下得出的。该识别结果被应用于确定食品券对健康的边际治疗效应。",
+    "tldr": "本文提出了在存在误报和离散型工具变量情况下，对边际治疗效应进行部分识别的结果，可以用于确定食品券对健康的边际治疗效应。",
+    "en_tdlr": "This paper presents partial identification results for the marginal treatment effect ($MTE$) in the presence of misreported binary treatment variable and discrete instrumental variable. The identification results, obtained under different sets of nonparametric assumptions, are illustrated in identifying the marginal treatment effects of food stamps on health."
+}

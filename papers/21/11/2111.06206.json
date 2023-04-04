@@ -1,0 +1,12 @@
+{
+    "title": "Defining and Quantifying the Emergence of Sparse Concepts in DNNs. (arXiv:2111.06206v6 [cs.LG] UPDATED)",
+    "abstract": "This paper aims to illustrate the concept-emerging phenomenon in a trained DNN. Specifically, we find that the inference score of a DNN can be disentangled into the effects of a few interactive concepts. These concepts can be understood as causal patterns in a sparse, symbolic causal graph, which explains the DNN. The faithfulness of using such a causal graph to explain the DNN is theoretically guaranteed, because we prove that the causal graph can well mimic the DNN's outputs on an exponential number of different masked samples. Besides, such a causal graph can be further simplified and re-written as an And-Or graph (AOG), without losing much explanation accuracy.",
+    "link": "http://arxiv.org/abs/2111.06206",
+    "context": "Title: Defining and Quantifying the Emergence of Sparse Concepts in DNNs. (arXiv:2111.06206v6 [cs.LG] UPDATED)\nAbstract: This paper aims to illustrate the concept-emerging phenomenon in a trained DNN. Specifically, we find that the inference score of a DNN can be disentangled into the effects of a few interactive concepts. These concepts can be understood as causal patterns in a sparse, symbolic causal graph, which explains the DNN. The faithfulness of using such a causal graph to explain the DNN is theoretically guaranteed, because we prove that the causal graph can well mimic the DNN's outputs on an exponential number of different masked samples. Besides, such a causal graph can be further simplified and re-written as an And-Or graph (AOG), without losing much explanation accuracy.",
+    "path": "papers/21/11/2111.06206.json",
+    "total_tokens": 731,
+    "translated_title": "DNN中稀疏概念的定义和量化",
+    "translated_abstract": "本文旨在说明在训练过的DNN中概念的产生现象。具体来说，我们发现DNN的推理分数可以分解为少数交互概念的影响。这些概念可以被理解为一个稀疏的符号因果图中的因果模式，该图解释了DNN。使用此类因果图对DNN进行解释的忠实性在理论上得到保证，因为我们证明了因果图可以在指数数量的不同屏蔽样本上很好地模仿DNN的输出。此外，这样的因果图可以进一步简化并重新编写为And-Or图（AOG），而不会失去太多的解释准确性。",
+    "tldr": "本文提出了在DNN中理解产生的交互概念的概念-emerging现象，这些概念可以用稀疏的符号因果图和And-Or图（AOG）进行量化和简化。",
+    "en_tdlr": "This paper introduces the concept-emerging phenomenon in a trained DNN, which can be quantified and simplified using a sparse symbolic causal graph and an And-Or graph (AOG)."
+}

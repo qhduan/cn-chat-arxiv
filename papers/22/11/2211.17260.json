@@ -1,0 +1,12 @@
+{
+    "title": "SinGRAF: Learning a 3D Generative Radiance Field for a Single Scene. (arXiv:2211.17260v2 [cs.CV] UPDATED)",
+    "abstract": "Generative models have shown great promise in synthesizing photorealistic 3D objects, but they require large amounts of training data. We introduce SinGRAF, a 3D-aware generative model that is trained with a few input images of a single scene. Once trained, SinGRAF generates different realizations of this 3D scene that preserve the appearance of the input while varying scene layout. For this purpose, we build on recent progress in 3D GAN architectures and introduce a novel progressive-scale patch discrimination approach during training. With several experiments, we demonstrate that the results produced by SinGRAF outperform the closest related works in both quality and diversity by a large margin.",
+    "link": "http://arxiv.org/abs/2211.17260",
+    "context": "Title: SinGRAF: Learning a 3D Generative Radiance Field for a Single Scene. (arXiv:2211.17260v2 [cs.CV] UPDATED)\nAbstract: Generative models have shown great promise in synthesizing photorealistic 3D objects, but they require large amounts of training data. We introduce SinGRAF, a 3D-aware generative model that is trained with a few input images of a single scene. Once trained, SinGRAF generates different realizations of this 3D scene that preserve the appearance of the input while varying scene layout. For this purpose, we build on recent progress in 3D GAN architectures and introduce a novel progressive-scale patch discrimination approach during training. With several experiments, we demonstrate that the results produced by SinGRAF outperform the closest related works in both quality and diversity by a large margin.",
+    "path": "papers/22/11/2211.17260.json",
+    "total_tokens": 742,
+    "translated_title": "SinGRAF：学习单个场景的3D生成辐射场",
+    "translated_abstract": "生成模型在合成逼真的3D物体方面表现出很大的潜力，但需要大量的训练数据。我们介绍了SinGRAF，这是一个3D感知的生成模型，只需少量输入一单个场景的图像即可训练。一旦训练完成，SinGRAF可以生成保留输入外观并变化场景布局的不同3D场景实现。为此，我们借鉴了近期3D GAN架构的进展，同时在训练过程中使用了一种新颖的渐进式规模补丁判别方法。通过几个实验，我们证明SinGRAF产生的结果在质量和多样性方面都远远优于最接近的相关作品。",
+    "tldr": "SinGRAF是一个3D感知的生成模型，只需少量输入一单个场景的图像即可训练，并可在保持输入外观的同时生成多样的3D场景。",
+    "en_tdlr": "SinGRAF is a 3D-aware generative model that can be trained with a few input images of a single scene, and can generate diverse 3D scenes while preserving the appearance of the input."
+}
