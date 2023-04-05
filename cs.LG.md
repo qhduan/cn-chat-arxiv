@@ -167,8 +167,9 @@
 | [^163] | [Iterated Block Particle Filter for High-dimensional Parameter Learning: Beating the Curse of Dimensionality.](http://arxiv.org/abs/2110.10745) | 本文提出了一种迭代分块粒子滤波算法，用于学习高维参数。该算法克服了维度灾难，表现出良好的收敛性和似然最大化，成功地在非线性和非高斯空间时间模型上实现了参数学习。 |
 | [^164] | [Adaptive joint distribution learning.](http://arxiv.org/abs/2110.04829) | 该论文提出了一种自适应联合分布学习的框架，可以从大量数据点中估计低维、归一化和正的Radon-Nikodym导数模型，并在不同学习问题上取得了良好的结果。 |
 | [^165] | [Communication-Efficient Federated Linear and Deep Generalized Canonical Correlation Analysis.](http://arxiv.org/abs/2109.12400) | 本文提出了一种通信高效的联邦学习框架，用于线性和深度广义典型相关分析，通过压缩本地数据统计信息和使用子空间共识算法减少通信成本，同时具有与中心化算法相当的性能。 |
-| [^166] | [Transformer visualization via dictionary learning: contextualized embedding as a linear superposition of transformer factors.](http://arxiv.org/abs/2103.15949) | 本文提出使用字典学习将上下文嵌入作为Transformer因子的线性叠加来打开Transformer“黑匣子”，通过可视化展示其捕获的层次化语义结构，为更好地理解Transformer网络的工作方式带来新的见解。 |
-| [^167] | [MARS: Masked Automatic Ranks Selection in Tensor Decompositions.](http://arxiv.org/abs/2006.10859) | 本文介绍了一种名为MARS的新型高效方法，在一般的张量分解中自动选择秩，学习二值掩码来选择最佳的张量结构，在实验中显示出更好的结果。 |
+| [^166] | [Universal set of Observables for Forecasting Physical Systems through Causal Embedding.](http://arxiv.org/abs/2105.10759) | 本文实现了一种基于因果嵌入的预测方案，可以唯一地表示基础动力系统的整个左无限轨道或来自这样的轨道的观测，该方案具有通用性、可计算性和误差容错性，可以在长期保证预测一致性。 |
+| [^167] | [Transformer visualization via dictionary learning: contextualized embedding as a linear superposition of transformer factors.](http://arxiv.org/abs/2103.15949) | 本文提出使用字典学习将上下文嵌入作为Transformer因子的线性叠加来打开Transformer“黑匣子”，通过可视化展示其捕获的层次化语义结构，为更好地理解Transformer网络的工作方式带来新的见解。 |
+| [^168] | [MARS: Masked Automatic Ranks Selection in Tensor Decompositions.](http://arxiv.org/abs/2006.10859) | 本文介绍了一种名为MARS的新型高效方法，在一般的张量分解中自动选择秩，学习二值掩码来选择最佳的张量结构，在实验中显示出更好的结果。 |
 
 # 详细
 
@@ -2482,7 +2483,21 @@
 
     Classic and deep generalized canonical correlation analysis (GCCA) algorithms seek low-dimensional common representations of data entities from multiple ``views'' (e.g., audio and image) using linear transformations and neural networks, respectively. When the views are acquired and stored at different computing agents (e.g., organizations and edge devices) and data sharing is undesired due to privacy or communication cost considerations, federated learning-based GCCA is well-motivated. In federated learning, the views are kept locally at the agents and only derived, limited information exchange with a central server is allowed. However, applying existing GCCA algorithms onto such federated learning settings may incur prohibitively high communication overhead. This work puts forth a communication-efficient federated learning framework for both linear and deep GCCA under the maximum variance (MAX-VAR) formulation. The overhead issue is addressed by aggressively compressing (via quantizat
     
-[^166]: 通过字典学习实现Transformer可视化:将上下文嵌入作为Transformer因子的线性叠加
+[^166]: 基于因果嵌入的物理系统预测的通用可观测集
+
+    Universal set of Observables for Forecasting Physical Systems through Causal Embedding. (arXiv:2105.10759v3 [math.DS] UPDATED)
+
+    [http://arxiv.org/abs/2105.10759](http://arxiv.org/abs/2105.10759)
+
+    本文实现了一种基于因果嵌入的预测方案，可以唯一地表示基础动力系统的整个左无限轨道或来自这样的轨道的观测，该方案具有通用性、可计算性和误差容错性，可以在长期保证预测一致性。
+
+    
+
+    我们展示了何时以及如何可以通过不同空间中的一对元素唯一地表示基础动力系统的整个左无限轨道或来自这样的左无限轨道的观测，我们称之为“因果嵌入”现象。这些成对的集合是从驱动的动力系统中导出的，并用于学习一个函数，该函数与驱动系统一起确定一个拓扑共轭于基础系统的系统，使得预测基础系统的动态成为可能，因为这种共轭是可计算且通用的，即它不依赖于基础系统，即使在学习函数时存在误差，也能保证吸引子包含因果嵌入物体的图像。通过实现这些，我们引领了一种新的预测方案，其优于现有的储备计算方案，后者通常导致长期不一致性很差，因为无法保证存在可学习的系统。
+
+    We demonstrate when and how an entire left-infinite orbit of an underlying dynamical system or observations from such left-infinite orbits can be uniquely represented by a pair of elements in a different space, a phenomenon which we call \textit{causal embedding}. The collection of such pairs is derived from a driven dynamical system and is used to learn a function which together with the driven system would: (i). determine a system that is topologically conjugate to the underlying system (ii). enable forecasting the underlying system's dynamics since the conjugacy is computable and universal, i.e., it does not depend on the underlying system (iii). guarantee an attractor containing the image of the causally embedded object even if there is an error made in learning the function. By accomplishing these we herald a new forecasting scheme that beats the existing reservoir computing schemes that often lead to poor long-term consistency as there is no guarantee of the existence of a learna
+    
+[^167]: 通过字典学习实现Transformer可视化:将上下文嵌入作为Transformer因子的线性叠加
 
     Transformer visualization via dictionary learning: contextualized embedding as a linear superposition of transformer factors. (arXiv:2103.15949v2 [cs.CL] UPDATED)
 
@@ -2496,7 +2511,7 @@
 
     Transformer networks have revolutionized NLP representation learning since they were introduced. Though a great effort has been made to explain the representation in transformers, it is widely recognized that our understanding is not sufficient. One important reason is that there lack enough visualization tools for detailed analysis. In this paper, we propose to use dictionary learning to open up these "black boxes" as linear superpositions of transformer factors. Through visualization, we demonstrate the hierarchical semantic structures captured by the transformer factors, e.g., word-level polysemy disambiguation, sentence-level pattern formation, and long-range dependency. While some of these patterns confirm the conventional prior linguistic knowledge, the rest are relatively unexpected, which may provide new insights. We hope this visualization tool can bring further knowledge and a better understanding of how transformer networks work. The code is available at https://github.com/z
     
-[^167]: MARS:张量分解中的自动排名选择问题
+[^168]: MARS:张量分解中的自动排名选择问题
 
     MARS: Masked Automatic Ranks Selection in Tensor Decompositions. (arXiv:2006.10859v3 [cs.LG] UPDATED)
 
