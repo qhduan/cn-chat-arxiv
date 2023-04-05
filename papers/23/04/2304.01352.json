@@ -1,0 +1,12 @@
+{
+    "title": "A Simple and Effective Method of Cross-Lingual Plagiarism Detection. (arXiv:2304.01352v1 [cs.CL])",
+    "abstract": "We present a simple cross-lingual plagiarism detection method applicable to a large number of languages. The presented approach leverages open multilingual thesauri for candidate retrieval task and pre-trained multilingual BERT-based language models for detailed analysis. The method does not rely on machine translation and word sense disambiguation when in use, and therefore is suitable for a large number of languages, including under-resourced languages. The effectiveness of the proposed approach is demonstrated for several existing and new benchmarks, achieving state-of-the-art results for French, Russian, and Armenian languages.",
+    "link": "http://arxiv.org/abs/2304.01352",
+    "context": "Title: A Simple and Effective Method of Cross-Lingual Plagiarism Detection. (arXiv:2304.01352v1 [cs.CL])\nAbstract: We present a simple cross-lingual plagiarism detection method applicable to a large number of languages. The presented approach leverages open multilingual thesauri for candidate retrieval task and pre-trained multilingual BERT-based language models for detailed analysis. The method does not rely on machine translation and word sense disambiguation when in use, and therefore is suitable for a large number of languages, including under-resourced languages. The effectiveness of the proposed approach is demonstrated for several existing and new benchmarks, achieving state-of-the-art results for French, Russian, and Armenian languages.",
+    "path": "papers/23/04/2304.01352.json",
+    "total_tokens": 761,
+    "translated_title": "一种简单有效的跨语言抄袭检测方法",
+    "translated_abstract": "我们提出了一种简单的跨语言抄袭检测方法，适用于大量的语言。该方法利用开放的多语言同义词库进行候选检索任务，并利用预训练的基于多语言BERT的语言模型进行详细分析。该方法在使用时不依赖机器翻译和词义消歧，因此适用于许多语言，包括资源匮乏的语言。该方法在多个现有和新的基准测试中展示了其有效性，在法语、俄语和亚美尼亚语等语言中取得了最先进的结果。",
+    "tldr": "该论文提出了一种简单有效的跨语言抄袭检测方法，不依赖机器翻译和词义消歧，使用开放的多语言同义词库进行候选检索任务和预训练的基于多语言BERT的语言模型进行详细分析，在多个基准测试中取得了最先进的结果。",
+    "en_tdlr": "This paper proposes a simple and effective method of cross-lingual plagiarism detection, which doesn't rely on machine translation and word sense disambiguation, and leverages open multilingual thesauri for candidate retrieval task and pre-trained multilingual BERT-based language models for detailed analysis. It achieves state-of-the-art results for several languages in various benchmarks."
+}

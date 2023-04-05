@@ -1,0 +1,12 @@
+{
+    "title": "HarsanyiNet: Computing Accurate Shapley Values in a Single Forward Propagation. (arXiv:2304.01811v1 [cs.LG])",
+    "abstract": "The Shapley value is widely regarded as a trustworthy attribution metric. However, when people use Shapley values to explain the attribution of input variables of a deep neural network (DNN), it usually requires a very high computational cost to approximate relatively accurate Shapley values in real-world applications. Therefore, we propose a novel network architecture, the HarsanyiNet, which makes inferences on the input sample and simultaneously computes the exact Shapley values of the input variables in a single forward propagation. The HarsanyiNet is designed on the theoretical foundation that the Shapley value can be reformulated as the redistribution of Harsanyi interactions encoded by the network.",
+    "link": "http://arxiv.org/abs/2304.01811",
+    "context": "Title: HarsanyiNet: Computing Accurate Shapley Values in a Single Forward Propagation. (arXiv:2304.01811v1 [cs.LG])\nAbstract: The Shapley value is widely regarded as a trustworthy attribution metric. However, when people use Shapley values to explain the attribution of input variables of a deep neural network (DNN), it usually requires a very high computational cost to approximate relatively accurate Shapley values in real-world applications. Therefore, we propose a novel network architecture, the HarsanyiNet, which makes inferences on the input sample and simultaneously computes the exact Shapley values of the input variables in a single forward propagation. The HarsanyiNet is designed on the theoretical foundation that the Shapley value can be reformulated as the redistribution of Harsanyi interactions encoded by the network.",
+    "path": "papers/23/04/2304.01811.json",
+    "total_tokens": 718,
+    "translated_title": "HarsanyiNet: 在单次前向传播中计算准确的 Shapley 值",
+    "translated_abstract": "Shapley 值被广泛认为是一种可信的属性度量方法。然而，当人们使用 Shapley 值来解释深度神经网络（DNN）的输入变量的属性时，通常需要非常高的计算成本才能在实际应用中近似计算出比较精确的 Shapley 值。因此，我们提出一种新型网络架构 HarsanyiNet，在输入样本的推理过程中同时计算输入变量的精确 Shapley 值，只需要一次前向传播即可。HarsanyiNet 是构建在 Shapley 值可以被重新构建为网络编码的 Harsanyi 交互重新分配的理论基础之上的。",
+    "tldr": "HarsanyiNet 是一种新型的深度神经网络架构，它可以在单次前向传播中计算输入变量的精确 Shapley 值。",
+    "en_tdlr": "HarsanyiNet is a novel deep neural network architecture that computes the exact Shapley values of input variables in a single forward propagation."
+}

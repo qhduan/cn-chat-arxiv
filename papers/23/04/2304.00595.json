@@ -1,0 +1,12 @@
+{
+    "title": "Optimal Mass Transport over the Euler Equation. (arXiv:2304.00595v1 [math.OC] CROSS LISTED)",
+    "abstract": "We consider the finite horizon optimal steering of the joint state probability distribution subject to the angular velocity dynamics governed by the Euler equation. The problem and its solution amounts to controlling the spin of a rigid body via feedback, and is of practical importance, for example, in angular stabilization of a spacecraft with stochastic initial and terminal states. We clarify how this problem is an instance of the optimal mass transport (OMT) problem with bilinear prior drift. We deduce both static and dynamic versions of the Eulerian OMT, and provide analytical and numerical results for the synthesis of the optimal controller.",
+    "link": "http://arxiv.org/abs/2304.00595",
+    "context": "Title: Optimal Mass Transport over the Euler Equation. (arXiv:2304.00595v1 [math.OC] CROSS LISTED)\nAbstract: We consider the finite horizon optimal steering of the joint state probability distribution subject to the angular velocity dynamics governed by the Euler equation. The problem and its solution amounts to controlling the spin of a rigid body via feedback, and is of practical importance, for example, in angular stabilization of a spacecraft with stochastic initial and terminal states. We clarify how this problem is an instance of the optimal mass transport (OMT) problem with bilinear prior drift. We deduce both static and dynamic versions of the Eulerian OMT, and provide analytical and numerical results for the synthesis of the optimal controller.",
+    "path": "papers/23/04/2304.00595.json",
+    "total_tokens": 680,
+    "translated_title": "Euler Equation上的最优质量输运",
+    "translated_abstract": "我们考虑有限时间内的最佳操纵问题，其中涉及到由欧拉方程控制的联合状态概率分布的优化传递。该问题及其解决方案相当于通过反馈控制刚体的旋转，这在实践中非常重要，例如在具有随机初始和终端状态的航天器的角稳定中。我们阐明了这个问题是具有双线性先验漂移的最优质量输运问题的一个实例。我们推导了Eulerian OMT的静态和动态版本，并提供了最优控制器综合的分析和数值结果。",
+    "tldr": "本文分析了欧拉方程的控制问题，发现其是一个最优质量输运问题的实例，并提供了该问题的静态和动态版本的Eulerian OMT解决方案。",
+    "en_tdlr": "This paper analyzes the control problem of the Euler equation, finding it to be an instance of the optimal mass transport problem, and provides solutions for the static and dynamic versions of the Eulerian OMT for the problem."
+}

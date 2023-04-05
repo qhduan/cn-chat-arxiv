@@ -1,0 +1,12 @@
+{
+    "title": "Predicting Choice from Information Costs. (arXiv:2205.10434v2 [econ.TH] UPDATED)",
+    "abstract": "An agent acquires a costly flexible signal before making a decision. We explore to what degree knowledge of the agent's information costs helps predict her behavior. We establish an impossibility result: learning costs alone generate no testable restrictions on choice without also imposing constraints on actions' state-dependent utilities. By contrast, choices from a menu often uniquely pin down the agent's decisions in all submenus. To prove the latter result, we define iteratively differentiable cost functions, a tractable class amenable to first-order techniques. Finally, we construct tight tests for a multi-menu data set to be consistent with a given cost.",
+    "link": "http://arxiv.org/abs/2205.10434",
+    "context": "Title: Predicting Choice from Information Costs. (arXiv:2205.10434v2 [econ.TH] UPDATED)\nAbstract: An agent acquires a costly flexible signal before making a decision. We explore to what degree knowledge of the agent's information costs helps predict her behavior. We establish an impossibility result: learning costs alone generate no testable restrictions on choice without also imposing constraints on actions' state-dependent utilities. By contrast, choices from a menu often uniquely pin down the agent's decisions in all submenus. To prove the latter result, we define iteratively differentiable cost functions, a tractable class amenable to first-order techniques. Finally, we construct tight tests for a multi-menu data set to be consistent with a given cost.",
+    "path": "papers/22/05/2205.10434.json",
+    "total_tokens": 789,
+    "translated_title": "从信息成本中预测选择",
+    "translated_abstract": "一个代理在做决策之前会获取昂贵但灵活的信号。我们探讨了代理的信息成本对于预测他的行为有多大的作用。我们得出了一个不可能的结果：仅仅通过学习成本，没有测试时可以对选择进行明确的限制，除非还对行为的状态与效用施加约束。与之相反，从一个菜单中选择的结果通常可以唯一地确定代理在所有子菜单中的决策。为了证明后一种结果，我们定义了可迭代的可微分费用函数，这是一种易于使用一阶技术处理的可计算类。最后，我们构建了紧密的测试，用于判定一个多菜单数据集是否与给定的成本一致。",
+    "tldr": "研究了代理人在获取昂贵信号后做出决策时的信息成本，发现仅凭学习成本无法对选择行为施加明确限制，但选择菜单的结果可以完全确定，通过迭代可微分费用函数能有效验证数据集是否与给定成本一致。",
+    "en_tdlr": "Investigated the impact of information costs on agents' decision-making, revealing that learning costs alone cannot impose clear restrictions on choices, however, choices from a menu can distinctly determine the agent's decisions in all submenus. The study proposes iteratively differentiable cost functions as a tractable class for first-order techniques and presents tight tests for verifying the consistency of a multi-menu dataset with a given cost."
+}

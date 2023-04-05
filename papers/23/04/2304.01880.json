@@ -1,0 +1,11 @@
+{
+    "title": "Measure theoretic results for approximation by neural networks with limited weights. (arXiv:2304.01880v1 [cs.LG])",
+    "abstract": "In this paper, we study approximation properties of single hidden layer neural networks with weights varying on finitely many directions and thresholds from an open interval. We obtain a necessary and at the same time sufficient measure theoretic condition for density of such networks in the space of continuous functions. Further, we prove a density result for neural networks with a specifically constructed activation function and a fixed number of neurons.",
+    "link": "http://arxiv.org/abs/2304.01880",
+    "context": "Title: Measure theoretic results for approximation by neural networks with limited weights. (arXiv:2304.01880v1 [cs.LG])\nAbstract: In this paper, we study approximation properties of single hidden layer neural networks with weights varying on finitely many directions and thresholds from an open interval. We obtain a necessary and at the same time sufficient measure theoretic condition for density of such networks in the space of continuous functions. Further, we prove a density result for neural networks with a specifically constructed activation function and a fixed number of neurons.",
+    "path": "papers/23/04/2304.01880.json",
+    "total_tokens": 640,
+    "translated_title": "有限权重神经网络的度量论逼近结果",
+    "translated_abstract": "本文研究了单隐藏层神经网络在权重在有限方向和开区间阈值上变化的逼近性质。我们获得了一种必要且同时充分的度量论条件，以使此类网络在连续函数空间中具有密度。此外，我们证明了一种构建激活函数和固定神经元数量的神经网络的密度结论。",
+    "tldr": "本文探讨了有限权重神经网络的逼近性质，给出了获得密度的必要且充分的度量论条件，同时针对一种特定激活函数和固定神经元数量的神经网络证明了其在连续函数空间中具有密度。"
+}

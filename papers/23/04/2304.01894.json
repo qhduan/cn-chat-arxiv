@@ -1,0 +1,12 @@
+{
+    "title": "San-BERT: Extractive Summarization for Sanskrit Documents using BERT and it's variants. (arXiv:2304.01894v1 [cs.CL])",
+    "abstract": "In this work, we develop language models for the Sanskrit language, namely Bidirectional Encoder Representations from Transformers (BERT) and its variants: A Lite BERT (ALBERT), and Robustly Optimized BERT (RoBERTa) using Devanagari Sanskrit text corpus. Then we extracted the features for the given text from these models. We applied the dimensional reduction and clustering techniques on the features to generate an extractive summary for a given Sanskrit document. Along with the extractive text summarization techniques, we have also created and released a Sanskrit Devanagari text corpus publicly.",
+    "link": "http://arxiv.org/abs/2304.01894",
+    "context": "Title: San-BERT: Extractive Summarization for Sanskrit Documents using BERT and it's variants. (arXiv:2304.01894v1 [cs.CL])\nAbstract: In this work, we develop language models for the Sanskrit language, namely Bidirectional Encoder Representations from Transformers (BERT) and its variants: A Lite BERT (ALBERT), and Robustly Optimized BERT (RoBERTa) using Devanagari Sanskrit text corpus. Then we extracted the features for the given text from these models. We applied the dimensional reduction and clustering techniques on the features to generate an extractive summary for a given Sanskrit document. Along with the extractive text summarization techniques, we have also created and released a Sanskrit Devanagari text corpus publicly.",
+    "path": "papers/23/04/2304.01894.json",
+    "total_tokens": 709,
+    "translated_title": "使用BERT及其变种的梵语文献摘要提取技术",
+    "translated_abstract": "本研究开发了针对梵语的语言模型，包括双向编码器表示来自变形金刚（BERT）及其变体：轻量级BERT（ALBERT）和鲁棒优化BERT（RoBERTa），利用天城文梵语文献语料库。然后，我们从这些模型中提取给定文本的特征。我们应用降维和聚类技术对特征进行处理，以生成给定梵语文献的摘要。除了提取文本摘要技术外，我们还公开发布了一个梵语天城文本语料库。",
+    "tldr": "本研究使用BERT及其变种为梵语文献开发了语言模型，并利用这些模型提取摘要。同时，我们还公开发布了一个梵语天城文本语料库。",
+    "en_tdlr": "This paper develops language models for Sanskrit using BERT and its variants, extracts features from these models, and applies dimensional reduction and clustering techniques to generate extractive summaries. A Sanskrit Devanagari text corpus is also publicly released."
+}

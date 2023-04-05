@@ -1,0 +1,12 @@
+{
+    "title": "Learning from data with structured missingness. (arXiv:2304.01429v1 [stat.ML])",
+    "abstract": "Missing data are an unavoidable complication in many machine learning tasks. When data are `missing at random' there exist a range of tools and techniques to deal with the issue. However, as machine learning studies become more ambitious, and seek to learn from ever-larger volumes of heterogeneous data, an increasingly encountered problem arises in which missing values exhibit an association or structure, either explicitly or implicitly. Such `structured missingness' raises a range of challenges that have not yet been systematically addressed, and presents a fundamental hindrance to machine learning at scale. Here, we outline the current literature and propose a set of grand challenges in learning from data with structured missingness.",
+    "link": "http://arxiv.org/abs/2304.01429",
+    "context": "Title: Learning from data with structured missingness. (arXiv:2304.01429v1 [stat.ML])\nAbstract: Missing data are an unavoidable complication in many machine learning tasks. When data are `missing at random' there exist a range of tools and techniques to deal with the issue. However, as machine learning studies become more ambitious, and seek to learn from ever-larger volumes of heterogeneous data, an increasingly encountered problem arises in which missing values exhibit an association or structure, either explicitly or implicitly. Such `structured missingness' raises a range of challenges that have not yet been systematically addressed, and presents a fundamental hindrance to machine learning at scale. Here, we outline the current literature and propose a set of grand challenges in learning from data with structured missingness.",
+    "path": "papers/23/04/2304.01429.json",
+    "total_tokens": 748,
+    "translated_title": "带有结构性缺失的数据学习",
+    "translated_abstract": "缺失数据是许多机器学习任务中不可避免的复杂问题。当数据是“随机缺失”时，存在一系列的工具和技术来解决此问题。然而，随着机器学习研究变得更加雄心勃勃，并且试图从越来越大量的异构数据中学习，越来越普遍的问题是出现了缺失值的关联或结构，无论是明确还是隐含。这种“结构性缺失”提出了一系列尚未系统解决的挑战，并对规模化的机器学习构成了重要阻碍。在这里，我们概述了当前的文献，并提出了一组关于如何在带有结构性缺失的数据中学习的挑战。",
+    "tldr": "带有结构性缺失的数据学习是一个尚未被系统解决的问题，它对规模化的机器学习构成了重要阻碍，并且需要进一步的研究和解决。",
+    "en_tdlr": "Learning from data with structured missingness is a problem that has not been systematically addressed and presents a fundamental hindrance to scaling up machine learning, requiring further research and solutions."
+}

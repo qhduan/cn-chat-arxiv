@@ -1,0 +1,12 @@
+{
+    "title": "Using Language Models For Knowledge Acquisition in Natural Language Reasoning Problems. (arXiv:2304.01771v1 [cs.AI])",
+    "abstract": "For a natural language problem that requires some non-trivial reasoning to solve, there are at least two ways to do it using a large language model (LLM). One is to ask it to solve it directly. The other is to use it to extract the facts from the problem text and then use a theorem prover to solve it. In this note, we compare the two methods using ChatGPT and GPT4 on a series of logic word puzzles, and conclude that the latter is the right approach.",
+    "link": "http://arxiv.org/abs/2304.01771",
+    "context": "Title: Using Language Models For Knowledge Acquisition in Natural Language Reasoning Problems. (arXiv:2304.01771v1 [cs.AI])\nAbstract: For a natural language problem that requires some non-trivial reasoning to solve, there are at least two ways to do it using a large language model (LLM). One is to ask it to solve it directly. The other is to use it to extract the facts from the problem text and then use a theorem prover to solve it. In this note, we compare the two methods using ChatGPT and GPT4 on a series of logic word puzzles, and conclude that the latter is the right approach.",
+    "path": "papers/23/04/2304.01771.json",
+    "total_tokens": 631,
+    "translated_title": "使用语言模型在自然语言推理问题中获取知识",
+    "translated_abstract": "对于需要一些非平凡推理才能解决的自然语言问题，可以使用大型语言模型（LLM）的至少两种方法进行解决。一种方法是直接要求它解决问题，另一种方法是使用它从问题文本中提取事实，然后使用定理证明器进行解决。在本研究中，我们使用ChatGPT和GPT4对一系列逻辑单词谜题进行比较，并得出了后者是正确的方法的结论。",
+    "tldr": "本文研究了使用大型语言模型在自然语言推理问题中获取知识的方法，比较了两种方式并得出后一种使用语言模型提取知识更合适的结论。",
+    "en_tdlr": "This paper studies the methods of using large language models to acquire knowledge in natural language reasoning problems, compares two approaches, and concludes that the latter, which uses language models to extract knowledge, is more suitable."
+}

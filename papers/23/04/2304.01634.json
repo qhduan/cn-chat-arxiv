@@ -1,0 +1,12 @@
+{
+    "title": "De-novo Identification of Small Molecules from Their GC-EI-MS Spectra. (arXiv:2304.01634v1 [physics.data-an])",
+    "abstract": "Identification of experimentally acquired mass spectra of unknown compounds presents a~particular challenge because reliable spectral databases do not cover the potential chemical space with sufficient density. Therefore machine learning based \\emph{de-novo} methods, which derive molecular structure directly from its mass spectrum gained attention recently. We present a~novel method in this family, addressing a~specific usecase of GC-EI-MS spectra, which is particularly hard due to lack of additional information from the first stage of MS/MS experiments, on which the previously published methods rely. We analyze strengths and drawbacks or our approach and discuss future directions.",
+    "link": "http://arxiv.org/abs/2304.01634",
+    "context": "Title: De-novo Identification of Small Molecules from Their GC-EI-MS Spectra. (arXiv:2304.01634v1 [physics.data-an])\nAbstract: Identification of experimentally acquired mass spectra of unknown compounds presents a~particular challenge because reliable spectral databases do not cover the potential chemical space with sufficient density. Therefore machine learning based \\emph{de-novo} methods, which derive molecular structure directly from its mass spectrum gained attention recently. We present a~novel method in this family, addressing a~specific usecase of GC-EI-MS spectra, which is particularly hard due to lack of additional information from the first stage of MS/MS experiments, on which the previously published methods rely. We analyze strengths and drawbacks or our approach and discuss future directions.",
+    "path": "papers/23/04/2304.01634.json",
+    "total_tokens": 743,
+    "translated_title": "GC-EI-MS光谱中小分子的新型异构体鉴定方法",
+    "translated_abstract": "针对当前可靠的光谱数据库无法覆盖足够密集的潜在化学空间而带来的挑战，基于机器学习的新型\\emph{de-novo}方法已受到关注直接从质谱数据推导分子结构。我们提出了一种新颖的方法来解决GC-EI-MS光谱的特定用例，由于缺乏先前已发表方法所依赖的MS / MS实验的额外信息，因此该用例尤其困难。我们分析了我们的方法的优点和缺点，并讨论了未来的方向。",
+    "tldr": "该论文提出了一种针对GC-EI-MS光谱的新型\\emph{de-novo}方法，能够直接从质谱数据推导小分子的结构，克服了当前可靠的光谱数据库无法覆盖足够密集潜在化学空间的难题。",
+    "en_tdlr": "The paper proposes a novel \\emph{de-novo} method for identifying small molecules from their GC-EI-MS spectra, which directly derives molecular structures from mass spectra and overcomes the challenge of sparse coverage of potential chemical space by reliable spectral databases."
+}

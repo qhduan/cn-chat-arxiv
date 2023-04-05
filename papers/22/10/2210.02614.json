@@ -1,0 +1,12 @@
+{
+    "title": "Federated Learning with Server Learning: Enhancing Performance for Non-IID Data. (arXiv:2210.02614v3 [cs.LG] UPDATED)",
+    "abstract": "Federated Learning (FL) has emerged as a means of distributed learning using local data stored at clients with a coordinating server. Recent studies showed that FL can suffer from poor performance and slower convergence when training data at clients are not independent and identically distributed. Here we consider a new complementary approach to mitigating this performance degradation by allowing the server to perform auxiliary learning from a small dataset. Our analysis and experiments show that this new approach can achieve significant improvements in both model accuracy and convergence time even when the server dataset is small and its distribution differs from that of the aggregated data from all clients.",
+    "link": "http://arxiv.org/abs/2210.02614",
+    "context": "Title: Federated Learning with Server Learning: Enhancing Performance for Non-IID Data. (arXiv:2210.02614v3 [cs.LG] UPDATED)\nAbstract: Federated Learning (FL) has emerged as a means of distributed learning using local data stored at clients with a coordinating server. Recent studies showed that FL can suffer from poor performance and slower convergence when training data at clients are not independent and identically distributed. Here we consider a new complementary approach to mitigating this performance degradation by allowing the server to perform auxiliary learning from a small dataset. Our analysis and experiments show that this new approach can achieve significant improvements in both model accuracy and convergence time even when the server dataset is small and its distribution differs from that of the aggregated data from all clients.",
+    "path": "papers/22/10/2210.02614.json",
+    "total_tokens": 702,
+    "translated_title": "带有服务器学习的联邦学习：提高非独立同分布数据的性能",
+    "translated_abstract": "联邦学习（FL）已成为使用客户端存储的本地数据进行分布式学习的一种手段，其中协调服务器。最近的研究表明，当训练客户端数据不独立同分布时，FL可能会遭受性能下降和收敛缓慢的问题。在这里，我们考虑一种新的补充方法来减轻这种性能下降，即允许服务器从小数据集上执行辅助学习。我们的分析和实验表明，即使服务器数据集很小且其分布与所有客户端聚合数据不同，这种新方法也可以在模型精度和收敛时间方面实现显着的改进。",
+    "tldr": "基于辅助学习的联邦学习可以显著提高在非独立同分布数据上的模型精度和收敛时间",
+    "en_tdlr": "Federated Learning with Server Learning can significantly improve model accuracy and convergence time on non-iid data by using auxiliary learning."
+}

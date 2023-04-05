@@ -1,0 +1,12 @@
+{
+    "title": "Real-time Driver Monitoring Systems on Edge AI Device. (arXiv:2304.01555v1 [cs.CV])",
+    "abstract": "As road accident cases are increasing due to the inattention of the driver, automated driver monitoring systems (DMS) have gained an increase in acceptance. In this report, we present a real-time DMS system that runs on a hardware-accelerator-based edge device. The system consists of an InfraRed camera to record the driver footage and an edge device to process the data. To successfully port the deep learning models to run on the edge device taking full advantage of the hardware accelerators, model surgery was performed. The final DMS system achieves 63 frames per second (FPS) on the TI-TDA4VM edge device.",
+    "link": "http://arxiv.org/abs/2304.01555",
+    "context": "Title: Real-time Driver Monitoring Systems on Edge AI Device. (arXiv:2304.01555v1 [cs.CV])\nAbstract: As road accident cases are increasing due to the inattention of the driver, automated driver monitoring systems (DMS) have gained an increase in acceptance. In this report, we present a real-time DMS system that runs on a hardware-accelerator-based edge device. The system consists of an InfraRed camera to record the driver footage and an edge device to process the data. To successfully port the deep learning models to run on the edge device taking full advantage of the hardware accelerators, model surgery was performed. The final DMS system achieves 63 frames per second (FPS) on the TI-TDA4VM edge device.",
+    "path": "papers/23/04/2304.01555.json",
+    "total_tokens": 710,
+    "translated_title": "边缘AI设备上的实时驾驶员监控系统",
+    "translated_abstract": "随着司机不注意力导致路上事故的增加，自动化驾驶员监控系统(DMS)得到了越来越多的认可。在本报告中，我们介绍了一个运行于硬件加速器的边缘设备上的实时DMS系统。该系统由红外摄像头记录驾驶员的画面和边缘设备处理数据组成。为了在边缘设备上成功移植深度学习模型，充分利用硬件加速器，进行了模型手术。最终的DMS系统在TI-TDA4VM边缘设备上实现了63帧每秒(FPS)的效果。",
+    "tldr": "本论文介绍了一种运行在边缘AI设备上的实时驾驶员监控系统，该系统经过模型手术，在硬件加速器的帮助下实现了高帧率的处理效果。",
+    "en_tdlr": "This paper presents a real-time driver monitoring system that runs on an edge AI device. By performing model surgery and taking full advantage of hardware accelerators, the system achieves high frame rate processing."
+}

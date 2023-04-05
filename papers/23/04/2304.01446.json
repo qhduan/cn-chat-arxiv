@@ -1,0 +1,12 @@
+{
+    "title": "Integrating Commercial and Social Determinants of Health: A Unified Ontology for Non-Clinical Determinants of Health. (arXiv:2304.01446v1 [cs.IR])",
+    "abstract": "The objectives of this research are 1) to develop an ontology for CDoH by utilizing PubMed articles and ChatGPT; 2) to foster ontology reuse by integrating CDoH with an existing SDoH ontology into a unified structure; 3) to devise an overarching conception for all non-clinical determinants of health and to create an initial ontology, called N-CODH, for them; 4) and to validate the degree of correspondence between concepts provided by ChatGPT with the existing SDoH ontology",
+    "link": "http://arxiv.org/abs/2304.01446",
+    "context": "Title: Integrating Commercial and Social Determinants of Health: A Unified Ontology for Non-Clinical Determinants of Health. (arXiv:2304.01446v1 [cs.IR])\nAbstract: The objectives of this research are 1) to develop an ontology for CDoH by utilizing PubMed articles and ChatGPT; 2) to foster ontology reuse by integrating CDoH with an existing SDoH ontology into a unified structure; 3) to devise an overarching conception for all non-clinical determinants of health and to create an initial ontology, called N-CODH, for them; 4) and to validate the degree of correspondence between concepts provided by ChatGPT with the existing SDoH ontology",
+    "path": "papers/23/04/2304.01446.json",
+    "total_tokens": 651,
+    "translated_title": "将商业和社会决定因素融合: 非临床决定因素的统一本体论",
+    "translated_abstract": "该研究的目标是利用PubMed文章和ChatGPT开发商业决定因素的本体论，将其与现有的社会决定因素本体论结合起来，形成一个统一的结构，为所有的非临床决定因素构建一个最初的本体论并验证ChatGPT提供的概念与现有社会决定因素本体论之间的相应程度。",
+    "tldr": "该论文提出了一个名为N-CODH的初始本体论，旨在统一所有非临床决定因素，并将商业和社会决定因素融合到一个统一的结构中。",
+    "en_tdlr": "This paper proposes an initial ontology named N-CODH to unify all non-clinical determinants of health, and integrate Commercial Determinants of Health (CDoH) with existing Social Determinants of Health (SDoH) ontology into a unified structure."
+}

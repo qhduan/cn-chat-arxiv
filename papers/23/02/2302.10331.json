@@ -1,0 +1,12 @@
+{
+    "title": "Causal Razors. (arXiv:2302.10331v2 [cs.LG] UPDATED)",
+    "abstract": "When performing causal discovery, assumptions have to be made on how the true causal mechanism corresponds to the underlying joint probability distribution. These assumptions are labeled as causal razors in this work. We review numerous causal razors that appeared in the literature, and offer a comprehensive logical comparison of them. In particular, we scrutinize an unpopular causal razor, namely parameter minimality, in multinomial causal models and its logical relations with other well-studied causal razors. Our logical result poses a dilemma in selecting a reasonable scoring criterion for score-based casual search algorithms.",
+    "link": "http://arxiv.org/abs/2302.10331",
+    "context": "Title: Causal Razors. (arXiv:2302.10331v2 [cs.LG] UPDATED)\nAbstract: When performing causal discovery, assumptions have to be made on how the true causal mechanism corresponds to the underlying joint probability distribution. These assumptions are labeled as causal razors in this work. We review numerous causal razors that appeared in the literature, and offer a comprehensive logical comparison of them. In particular, we scrutinize an unpopular causal razor, namely parameter minimality, in multinomial causal models and its logical relations with other well-studied causal razors. Our logical result poses a dilemma in selecting a reasonable scoring criterion for score-based casual search algorithms.",
+    "path": "papers/23/02/2302.10331.json",
+    "total_tokens": 730,
+    "translated_title": "因果剃刀",
+    "translated_abstract": "在进行因果推断时，必须对真实因果机制如何与底层联合概率分布相对应做出假设。本文将这些假设称为因果剃刀。我们回顾了许多出现在文献中的因果剃刀，对它们进行了全面的逻辑比较。特别地，我们对在多项式因果模型中不太受欢迎的因果剃刀——参数最小性进行了深入的研究，并研究了它与其他广泛研究的因果剃刀之间的逻辑关系。我们的逻辑结果在为基于分数的因果搜索算法选择合理得分标准时提出了困境。",
+    "tldr": "本文比较了许多出现在文献中的因果剃刀，并特别研究了在多项式因果模型中不太受欢迎的因果剃刀——参数最小性。逻辑结果揭示了选择合理得分标准时的困境。",
+    "en_tdlr": "This paper compares many causal razors that appeared in the literature, and particularly studies an unpopular causal razor, parameter minimality, in multinomial causal models. The logical result poses a dilemma in selecting a reasonable scoring criterion for score-based casual search algorithms."
+}

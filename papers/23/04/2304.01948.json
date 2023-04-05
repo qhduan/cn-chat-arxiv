@@ -1,0 +1,12 @@
+{
+    "title": "Network Visualization of ChatGPT Research: a study based on term and keyword co-occurrence network analysis. (arXiv:2304.01948v1 [cs.SI])",
+    "abstract": "The main objective of this paper is to identify the major research areas of ChatGPT through term and keyword co-occurrence network mapping techniques. For conducting the present study, total of 577 publications were retrieved from the Lens database for the network visualization. The findings of the study showed that chatgpt occurrence in maximum number of times followed by its related terms such as artificial intelligence, large language model, gpt, study etc. This study will be helpful to library and information science as well as computer or information technology professionals.",
+    "link": "http://arxiv.org/abs/2304.01948",
+    "context": "Title: Network Visualization of ChatGPT Research: a study based on term and keyword co-occurrence network analysis. (arXiv:2304.01948v1 [cs.SI])\nAbstract: The main objective of this paper is to identify the major research areas of ChatGPT through term and keyword co-occurrence network mapping techniques. For conducting the present study, total of 577 publications were retrieved from the Lens database for the network visualization. The findings of the study showed that chatgpt occurrence in maximum number of times followed by its related terms such as artificial intelligence, large language model, gpt, study etc. This study will be helpful to library and information science as well as computer or information technology professionals.",
+    "path": "papers/23/04/2304.01948.json",
+    "total_tokens": 676,
+    "translated_title": "基于术语和关键词共现网络分析的ChatGPT研究的网络可视化",
+    "translated_abstract": "本文旨在通过术语和关键词共现网络映射技术识别ChatGPT的主要研究领域。为进行本研究，共从Lens数据库中检索到577篇文章进行网络可视化。研究结果表明，“chatgpt”是最常出现的词，其次是其相关术语，如人工智能、大型语言模型、GPT和学习等。本研究对图书馆和信息科学以及计算机或信息技术专业人员将是有益的。",
+    "tldr": "本研究基于术语和关键词共现网络分析，识别出ChatGPT的主要研究领域，结果表明ChatGPT和其相关术语是最常出现的关键词。",
+    "en_tdlr": "This study identifies the major research areas of ChatGPT through term and keyword co-occurrence network mapping techniques, revealing that \"chatgpt\" and related terms are the most commonly occurring keywords."
+}

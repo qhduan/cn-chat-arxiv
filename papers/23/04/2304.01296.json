@@ -1,0 +1,11 @@
+{
+    "title": "Dynamic Accommodation Measurement using Purkinje Images and ML Algorithms. (arXiv:2304.01296v1 [physics.med-ph])",
+    "abstract": "We developed a prototype device for dynamic gaze and accommodation measurements based on 4 Purkinje reflections (PR) suitable for use in AR and ophthalmology applications. PR1&2 and PR3&4 are used for accurate gaze and accommodation measurements, respectively. Our eye model was developed in ZEMAX and matches the experiments well. Our model predicts the accommodation from 4 diopters to 1 diopter with better than 0.25D accuracy. We performed repeatability tests and obtained accurate gaze and accommodation estimations from subjects. We are generating a large synthetic data set using physically accurate models and machine learning.",
+    "link": "http://arxiv.org/abs/2304.01296",
+    "context": "Title: Dynamic Accommodation Measurement using Purkinje Images and ML Algorithms. (arXiv:2304.01296v1 [physics.med-ph])\nAbstract: We developed a prototype device for dynamic gaze and accommodation measurements based on 4 Purkinje reflections (PR) suitable for use in AR and ophthalmology applications. PR1&2 and PR3&4 are used for accurate gaze and accommodation measurements, respectively. Our eye model was developed in ZEMAX and matches the experiments well. Our model predicts the accommodation from 4 diopters to 1 diopter with better than 0.25D accuracy. We performed repeatability tests and obtained accurate gaze and accommodation estimations from subjects. We are generating a large synthetic data set using physically accurate models and machine learning.",
+    "path": "papers/23/04/2304.01296.json",
+    "total_tokens": 747,
+    "translated_title": "利用普尔金氏图像和机器学习算法进行动态调节测量",
+    "translated_abstract": "我们开发了一种基于4个普尔金氏反射（PR）的原型设备，用于适用于AR和眼科应用的动态注视和调节测量。 PR1和2以及PR3和4分别用于准确测量凝视和调节。我们的眼睛模型在ZEMAX中开发，并与实验结果相匹配。 我们的模型能够以超过0.25D的精度从4度到1度预测调节。我们进行了重复性测试，并从受试者身上获得了准确的凝视和调节估计。我们正在使用物理精确的模型和机器学习生成大量合成数据集。",
+    "tldr": "本研究开发出一种基于普尔金氏图像和机器学习算法的原型设备，可用于动态注视和调节测量，预测调节可以精确到0.25D，正在使用机器学习生成大量合成数据集。"
+}

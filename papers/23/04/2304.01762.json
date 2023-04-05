@@ -1,0 +1,12 @@
+{
+    "title": "Incorporating Unlabelled Data into Bayesian Neural Networks. (arXiv:2304.01762v1 [cs.LG])",
+    "abstract": "We develop a contrastive framework for learning better prior distributions for Bayesian Neural Networks (BNNs) using unlabelled data. With this framework, we propose a practical BNN algorithm that offers the label-efficiency of self-supervised learning and the principled uncertainty estimates of Bayesian methods. Finally, we demonstrate the advantages of our approach for data-efficient learning in semi-supervised and low-budget active learning problems.",
+    "link": "http://arxiv.org/abs/2304.01762",
+    "context": "Title: Incorporating Unlabelled Data into Bayesian Neural Networks. (arXiv:2304.01762v1 [cs.LG])\nAbstract: We develop a contrastive framework for learning better prior distributions for Bayesian Neural Networks (BNNs) using unlabelled data. With this framework, we propose a practical BNN algorithm that offers the label-efficiency of self-supervised learning and the principled uncertainty estimates of Bayesian methods. Finally, we demonstrate the advantages of our approach for data-efficient learning in semi-supervised and low-budget active learning problems.",
+    "path": "papers/23/04/2304.01762.json",
+    "total_tokens": 710,
+    "translated_title": "将未标记数据纳入贝叶斯神经网络中",
+    "translated_abstract": "我们提出了一个对贝叶斯神经网络（BNNs）中先验分布进行学习的对比框架，利用未标记数据来优化。基于该框架，我们提出了一种实用的BNN算法，同时具备自监督学习的标签效率和贝叶斯方法中的根据原则的不确定性估计。最后，我们展示了我们的方法在半监督和低预算主动学习问题中的数据高效学习优势。",
+    "tldr": "该论文提出了一种利用未标记数据学习贝叶斯神经网络（BNNs）的对比框架，通过该框架提出了一种同时具备自监督学习的标签效率和贝叶斯方法中的不确定性估计的实用BNN算法。最后，该方法在半监督和低预算主动学习问题中展现出了数据高效学习的优势。",
+    "en_tdlr": "This paper proposes a contrastive framework for learning better prior distributions for Bayesian Neural Networks using unlabelled data, and a practical BNN algorithm with label-efficiency of self-supervised learning and principled uncertainty estimates of Bayesian methods. The advantages of this approach are demonstrated for data-efficient learning in semi-supervised and low-budget active learning problems."
+}

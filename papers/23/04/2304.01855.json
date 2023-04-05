@@ -1,0 +1,12 @@
+{
+    "title": "Inequality and Growth: A Two-Player Dynamic Game with Production and Appropriation. (arXiv:2304.01855v1 [econ.TH])",
+    "abstract": "This paper models a two-agent economy with production and appropriation as a noncooperative dynamic game, and determines its closed-form Markovian Nash equilibrium. The analysis highlights the para-metric conditions that tip the economy from a nonaggressive or \"co-operative\" equilibrium to outright distributional conflict. The model includes parameters that capture the role of appropriation technology and destructiveness. The full dynamic implications of the game are yet to be explored, but the model offers a promising general framework for thinking about different technological and economic conditions as more or less conducive to cooperation or distributional conflict.",
+    "link": "http://arxiv.org/abs/2304.01855",
+    "context": "Title: Inequality and Growth: A Two-Player Dynamic Game with Production and Appropriation. (arXiv:2304.01855v1 [econ.TH])\nAbstract: This paper models a two-agent economy with production and appropriation as a noncooperative dynamic game, and determines its closed-form Markovian Nash equilibrium. The analysis highlights the para-metric conditions that tip the economy from a nonaggressive or \"co-operative\" equilibrium to outright distributional conflict. The model includes parameters that capture the role of appropriation technology and destructiveness. The full dynamic implications of the game are yet to be explored, but the model offers a promising general framework for thinking about different technological and economic conditions as more or less conducive to cooperation or distributional conflict.",
+    "path": "papers/23/04/2304.01855.json",
+    "total_tokens": 782,
+    "translated_title": "不平等与经济增长：一种带有生产和挪用的双人动态博弈模型",
+    "translated_abstract": "本文将一个带有生产和挪用的双人经济体建模为一个非合作动态博弈，并确定其闭合形式的马尔可夫纳什均衡。该分析凸显了参数条件是如何使经济从“合作”均衡转变为明显的分配冲突。该模型包括捕获挪用技术和破坏性作用的参数。该游戏的全部动态影响尚未探索，但该模型提供了一个有前途的通用框架，可以考虑不同技术和经济条件对于合作或分配冲突更或者较少有利的情况。",
+    "tldr": "本文研究了一个带有生产和挪用的双人经济体在参数条件下如何从“合作”均衡转变为明显的分配冲突，模型提供了一个有前途的通用框架，可以考虑不同技术和经济条件对于合作或分配冲突更或者较少有利的情况。",
+    "en_tdlr": "This article examines how a two-player economy with production and appropriation can transition from cooperative equilibrium to distributional conflict based on parametric conditions, and provides a promising general framework for considering different technological and economic conditions as more or less conducive to cooperation or distributional conflict."
+}
