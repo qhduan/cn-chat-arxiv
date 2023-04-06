@@ -1,0 +1,12 @@
+{
+    "title": "csa2sls: A complete subset approach for many instruments using Stata. (arXiv:2207.01533v2 [econ.EM] UPDATED)",
+    "abstract": "We develop a Stata command $\\texttt{csa2sls}$ that implements the complete subset averaging two-stage least squares (CSA2SLS) estimator in Lee and Shin (2021). The CSA2SLS estimator is an alternative to the two-stage least squares estimator that remedies the bias issue caused by many correlated instruments. We conduct Monte Carlo simulations and confirm that the CSA2SLS estimator reduces both the mean squared error and the estimation bias substantially when instruments are correlated. We illustrate the usage of $\\texttt{csa2sls}$ in Stata by an empirical application.",
+    "link": "http://arxiv.org/abs/2207.01533",
+    "context": "Title: csa2sls: A complete subset approach for many instruments using Stata. (arXiv:2207.01533v2 [econ.EM] UPDATED)\nAbstract: We develop a Stata command $\\texttt{csa2sls}$ that implements the complete subset averaging two-stage least squares (CSA2SLS) estimator in Lee and Shin (2021). The CSA2SLS estimator is an alternative to the two-stage least squares estimator that remedies the bias issue caused by many correlated instruments. We conduct Monte Carlo simulations and confirm that the CSA2SLS estimator reduces both the mean squared error and the estimation bias substantially when instruments are correlated. We illustrate the usage of $\\texttt{csa2sls}$ in Stata by an empirical application.",
+    "path": "papers/22/07/2207.01533.json",
+    "total_tokens": 723,
+    "translated_title": "csa2sls：使用Stata的完整子集方法处理多个工具",
+    "translated_abstract": "我们开发了一个Stata命令$\\texttt{csa2sls}$，实现了Lee和Shin（2021）中的完整子集平均二阶段最小二乘法（CSA2SLS）估计量。CSA2SLS估计器是解决由于许多相关工具导致的偏差问题的替代估计器。我们进行了蒙特卡罗模拟，并确认在工具相关时，CSA2SLS估计器显著降低了均方误差和估计偏差。我们通过实证应用说明了$\\texttt{csa2sls}$在Stata中的使用方法。",
+    "tldr": "本论文提出了一种解决多个工具相关性导致偏差问题的替代估计器CSA2SLS，研发了相应的Stata命令并通过蒙特卡罗模拟和实证应用进行了验证。",
+    "en_tdlr": "This paper presents an alternative estimator CSA2SLS to solve the bias issue caused by many correlated instruments, develops a corresponding Stata command $\\texttt{csa2sls}$, and verifies it through Monte Carlo simulations and empirical applications."
+}

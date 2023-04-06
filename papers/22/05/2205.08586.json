@@ -1,0 +1,12 @@
+{
+    "title": "Treatment Choice with Nonlinear Regret. (arXiv:2205.08586v3 [econ.EM] UPDATED)",
+    "abstract": "The literature focuses on minimizing the mean of welfare regret, which can lead to undesirable treatment choice due to sampling uncertainty. We propose to minimize the mean of a nonlinear transformation of regret and show that admissible rules are fractional for nonlinear regret. Focusing on mean square regret, we derive closed-form fractions for finite-sample Bayes and minimax optimal rules. Our approach is grounded in decision theory and extends to limit experiments. The treatment fractions can be viewed as the strength of evidence favoring treatment. We apply our framework to a normal regression model and sample size calculations in randomized experiments.",
+    "link": "http://arxiv.org/abs/2205.08586",
+    "context": "Title: Treatment Choice with Nonlinear Regret. (arXiv:2205.08586v3 [econ.EM] UPDATED)\nAbstract: The literature focuses on minimizing the mean of welfare regret, which can lead to undesirable treatment choice due to sampling uncertainty. We propose to minimize the mean of a nonlinear transformation of regret and show that admissible rules are fractional for nonlinear regret. Focusing on mean square regret, we derive closed-form fractions for finite-sample Bayes and minimax optimal rules. Our approach is grounded in decision theory and extends to limit experiments. The treatment fractions can be viewed as the strength of evidence favoring treatment. We apply our framework to a normal regression model and sample size calculations in randomized experiments.",
+    "path": "papers/22/05/2205.08586.json",
+    "total_tokens": 752,
+    "translated_title": "非线性悔恨下的治疗选择",
+    "translated_abstract": "文献一般侧重于最小化福利悔恨的平均值，由于采样不确定性，这可能导致不良的治疗选择。我们建议最小化非线性悔恨的平均值，并表明可接受的规则为非线性悔恨的分数规则。针对均方悔恨，我们推导出有限样本贝叶斯和极小化最优规则的闭合分数形式。我们的方法基于决策理论，扩展到极限实验。治疗分数可以看作是支持治疗的证据强度。我们将我们的框架应用于正常回归模型和随机实验的样本量计算。",
+    "tldr": "该论文针对治疗选择中的不确定性问题，提出了最小化非线性悔恨的方法，并导出了闭合分数形式的有限样本贝叶斯和极小化最优规则，可视为支持治疗的证据强度。",
+    "en_tdlr": "This paper proposes a method to minimize nonlinear regret in treatment choice, and derives closed-form fractions for finite-sample Bayes and minimax optimal rules for mean square regret. The treatment fractions can be viewed as the strength of evidence favoring treatment. The approach is grounded in decision theory and extends to limit experiments."
+}

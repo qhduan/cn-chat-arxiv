@@ -1,0 +1,12 @@
+{
+    "title": "Explaining Multimodal Data Fusion: Occlusion Analysis for Wilderness Mapping. (arXiv:2304.02407v1 [cs.CV])",
+    "abstract": "Jointly harnessing complementary features of multi-modal input data in a common latent space has been found to be beneficial long ago. However, the influence of each modality on the models decision remains a puzzle. This study proposes a deep learning framework for the modality-level interpretation of multimodal earth observation data in an end-to-end fashion. While leveraging an explainable machine learning method, namely Occlusion Sensitivity, the proposed framework investigates the influence of modalities under an early-fusion scenario in which the modalities are fused before the learning process. We show that the task of wilderness mapping largely benefits from auxiliary data such as land cover and night time light data.",
+    "link": "http://arxiv.org/abs/2304.02407",
+    "context": "Title: Explaining Multimodal Data Fusion: Occlusion Analysis for Wilderness Mapping. (arXiv:2304.02407v1 [cs.CV])\nAbstract: Jointly harnessing complementary features of multi-modal input data in a common latent space has been found to be beneficial long ago. However, the influence of each modality on the models decision remains a puzzle. This study proposes a deep learning framework for the modality-level interpretation of multimodal earth observation data in an end-to-end fashion. While leveraging an explainable machine learning method, namely Occlusion Sensitivity, the proposed framework investigates the influence of modalities under an early-fusion scenario in which the modalities are fused before the learning process. We show that the task of wilderness mapping largely benefits from auxiliary data such as land cover and night time light data.",
+    "path": "papers/23/04/2304.02407.json",
+    "total_tokens": 796,
+    "translated_title": "解释多模态数据融合：野区地图制作中的遮挡分析",
+    "translated_abstract": "早在很久以前人们就发现，在一个共同的潜在空间中共同利用多模态输入数据的互补特征是有益的。然而，每种模态对模型决策的影响仍然令人困惑。本研究提出了一种用于多模态地球观测数据的模态级解释的深度学习框架，该框架利用了可解释的机器学习方法，即遮挡敏感性，并研究了在早期融合情况下模态的影响。我们表明，野区地图制作这一任务很大程度上受益于诸如土地覆盖和夜间光数据等辅助数据。",
+    "tldr": "本研究提出了一个用于多模态数据融合的深度学习框架，采用可解释的机器学习方法来研究模态的影响，结果显示在野区地图制作任务中，利用土地覆盖和夜间光数据能够大大提高模型准确性。",
+    "en_tdlr": "This study proposes a deep learning framework for multimodal data fusion, employing an explainable machine learning method to investigate the influence of modalities and showing that utilizing auxiliary data such as land cover and night time light can greatly improve the accuracy of wilderness mapping."
+}

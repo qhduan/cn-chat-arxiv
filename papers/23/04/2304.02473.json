@@ -1,0 +1,12 @@
+{
+    "title": "Fully Variational Noise-Contrastive Estimation. (arXiv:2304.02473v1 [cs.LG])",
+    "abstract": "By using the underlying theory of proper scoring rules, we design a family of noise-contrastive estimation (NCE) methods that are tractable for latent variable models. Both terms in the underlying NCE loss, the one using data samples and the one using noise samples, can be lower-bounded as in variational Bayes, therefore we call this family of losses fully variational noise-contrastive estimation. Variational autoencoders are a particular example in this family and therefore can be also understood as separating real data from synthetic samples using an appropriate classification loss. We further discuss other instances in this family of fully variational NCE objectives and indicate differences in their empirical behavior.",
+    "link": "http://arxiv.org/abs/2304.02473",
+    "context": "Title: Fully Variational Noise-Contrastive Estimation. (arXiv:2304.02473v1 [cs.LG])\nAbstract: By using the underlying theory of proper scoring rules, we design a family of noise-contrastive estimation (NCE) methods that are tractable for latent variable models. Both terms in the underlying NCE loss, the one using data samples and the one using noise samples, can be lower-bounded as in variational Bayes, therefore we call this family of losses fully variational noise-contrastive estimation. Variational autoencoders are a particular example in this family and therefore can be also understood as separating real data from synthetic samples using an appropriate classification loss. We further discuss other instances in this family of fully variational NCE objectives and indicate differences in their empirical behavior.",
+    "path": "papers/23/04/2304.02473.json",
+    "total_tokens": 731,
+    "translated_title": "全变分噪声对比估计",
+    "translated_abstract": "本文利用适当评分规则的基本理论，设计了一族可用于潜变量模型的噪声对比估计（NCE）方法。这些方法可以将噪声和数据样本的对比损失函数分别下界为变分贝叶斯中的相应项，因此我们称这个损失函数族为全变分噪声对比估计。其中一个特例是变分自编码器，因此也可以理解为通过适当的分类损失将真实数据与合成样本分离开来。我们进一步讨论了全变分NCE目标函数族中的其他例子，并指出它们在实证行为上的差异。",
+    "tldr": "本文提出了一种全变分噪声对比估计方法，可以用于潜变量模型，其中变分自编码器是其中一个特例，可以将真实数据与合成样本分离开来。",
+    "en_tdlr": "This paper proposes a family of fully variational noise-contrastive estimation (NCE) methods for latent variable models, including variational autoencoders as a special case, which can separate real data from synthetic samples using an appropriate classification loss. The authors also discuss other instances in this family and their empirical behavior."
+}

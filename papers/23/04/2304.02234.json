@@ -1,0 +1,12 @@
+{
+    "title": "JPEG Compressed Images Can Bypass Protections Against AI Editing. (arXiv:2304.02234v1 [cs.LG])",
+    "abstract": "Recently developed text-to-image diffusion models make it easy to edit or create high-quality images. Their ease of use has raised concerns about the potential for malicious editing or deepfake creation. Imperceptible perturbations have been proposed as a means of protecting images from malicious editing by preventing diffusion models from generating realistic images. However, we find that the aforementioned perturbations are not robust to JPEG compression, which poses a major weakness because of the common usage and availability of JPEG. We discuss the importance of robustness for additive imperceptible perturbations and encourage alternative approaches to protect images against editing.",
+    "link": "http://arxiv.org/abs/2304.02234",
+    "context": "Title: JPEG Compressed Images Can Bypass Protections Against AI Editing. (arXiv:2304.02234v1 [cs.LG])\nAbstract: Recently developed text-to-image diffusion models make it easy to edit or create high-quality images. Their ease of use has raised concerns about the potential for malicious editing or deepfake creation. Imperceptible perturbations have been proposed as a means of protecting images from malicious editing by preventing diffusion models from generating realistic images. However, we find that the aforementioned perturbations are not robust to JPEG compression, which poses a major weakness because of the common usage and availability of JPEG. We discuss the importance of robustness for additive imperceptible perturbations and encourage alternative approaches to protect images against editing.",
+    "path": "papers/23/04/2304.02234.json",
+    "total_tokens": 721,
+    "translated_title": "JPEG压缩图像可以绕过对抗AI编辑的保护措施",
+    "translated_abstract": "最近的文本生成图像模型使得高质量图像的编辑或生成变得更加容易。然而，其易用性引发了对恶意编辑或深度伪造的担忧。为防止传播模型生成真实图像，我们提出了微不可见的扰动作为保护图像免受恶意攻击的手段。然而，我们发现这些扰动不具有鲁棒性，不能经受JPEG压缩的考验，这是一个主要的弱点，因为JPEG具有普遍的使用和可获取性。我们讨论了加性微不可见扰动鲁棒性的重要性，鼓励采用其他方法来保护图像免受攻击。",
+    "tldr": "该论文指出微小但有效的图像扰动方法并不能抵御JPEG压缩，因此不能有效保护图像免受恶意编辑和深度伪造攻击，建议采用其他方法进行保护。",
+    "en_tdlr": "The paper reveals that imperceptible perturbations are not robust enough to prevent malicious editing of JPEG compressed images, and proposes alternative approaches for image protection."
+}

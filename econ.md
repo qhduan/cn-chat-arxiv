@@ -2,78 +2,124 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Individual Welfare Analysis: Random Quasilinear Utility, Independence, and Confidence Bounds.](http://arxiv.org/abs/2304.01921) | 本论文提出了一种基于随机准线性效用函数的个体福利分析框架，通过新的置信区间约束求解任意置信水平下的个人消费者福利损失下限，该求解方法简单高效，且适用范围广泛，具有很强的实际应用价值。 |
-| [^2] | [Torch-Choice: A PyTorch Package for Large-Scale Choice Modelling with Python.](http://arxiv.org/abs/2304.01906) | 本文介绍了一款名为 Torch-Choice 的 PyTorch 软件包，用于管理数据库、构建多项式Logit和嵌套Logit模型，并支持GPU加速，具有灵活性和高效性。 |
-| [^3] | [Inequality and Growth: A Two-Player Dynamic Game with Production and Appropriation.](http://arxiv.org/abs/2304.01855) | 本文研究了一个带有生产和挪用的双人经济体在参数条件下如何从“合作”均衡转变为明显的分配冲突，模型提供了一个有前途的通用框架，可以考虑不同技术和经济条件对于合作或分配冲突更或者较少有利的情况。 |
-| [^4] | [With great power (prices) comes great tail pipe emissions? \\ A natural experiment of electricity prices and electric car adoption.](http://arxiv.org/abs/2304.01709) | 本文利用挪威南北电价自然实验，发现高电价对购买纯电池电动汽车有显着但适度的负面影响，预计高电价区域的电动汽车销售量会减少3000到6000辆。 |
-| [^5] | [The Economic Effect of Gaining a New Qualification Later in Life.](http://arxiv.org/abs/2304.01490) | 本研究通过机器学习方法分析晚年完成学位与经济回报之间的因果效应，发现获得新资格将带来每年超过3000澳元的经济回报。 |
-| [^6] | [Should the Timing of Inspections be Predictable?.](http://arxiv.org/abs/2304.01385) | 该论文研究了长期项目中雇佣代理人的检查策略。周期性检查适用于代理人的行为主要加速突破，随机检查适用于代理人的行为主要延迟崩溃。代理人的行为决定了他在惩罚时间方面的风险态度。 |
-| [^7] | [Heterogeneity-robust granular instruments.](http://arxiv.org/abs/2304.01273) | 本论文提出了一种新的估计方法——鲁棒性粒度仪器变量（RGIV）——可以处理单位级异质性和未知的冲击方差，适用于各种经济环境，比现有方法更具广泛适用性。 |
-| [^8] | [Inference on eigenvectors of non-symmetric matrices.](http://arxiv.org/abs/2303.18233) | 本研究探讨了建立渐近推断非对称矩阵特征向量程序的必要条件，并针对完全向量和每个系数假设分别建立了 Wald 和 t 检验的分布理论，是多元统计学中的一种有用工具。 |
-| [^9] | [Predicting Choice from Information Costs.](http://arxiv.org/abs/2205.10434) | 研究了代理人在获取昂贵信号后做出决策时的信息成本，发现仅凭学习成本无法对选择行为施加明确限制，但选择菜单的结果可以完全确定，通过迭代可微分费用函数能有效验证数据集是否与给定成本一致。 |
-| [^10] | [The Rising Entropy of English in the Attention Economy.](http://arxiv.org/abs/2107.12848) | 美式英语的熵值自1900年左右持续上升并且不同媒体之间存在着熵值上的差异，作者认为这是由于注意力经济的生态系统导致的。 |
-| [^11] | [How Advance Sales can Reduce Profits: When to Buy, When to Sell, and What Price to Charge.](http://arxiv.org/abs/1912.02869) | 该论文讨论了在不同时期销售商品的市场，发现即使没有提前制造产品的成本，公司也不会盈利，通常会亏损，使产品能够提前上市。 |
-| [^12] | [On Policy Evaluation with Aggregate Time-Series Shocks.](http://arxiv.org/abs/1905.13660) | 本文提出了一种基于数据聚合方案的新的因果效应估计器，用于具有时间序列振荡的聚合应用中的外源性变动。与传统估计器不同，该方法能够解决此类应用中的未观察到的混杂问题，并已在大维度测试中得到验证。 |
+| [^1] | [Portuguese Households Savings in Times of Pandemic: A Way to Better Resist the Escalating Inflation?.](http://arxiv.org/abs/2304.02573) | 疫情期间，葡萄牙家庭的储蓄率创下历史新高，然而，由于储蓄对经济产生了负面影响，会导致需求下降、生产下降、收入下降等一系列连锁反应。 |
+| [^2] | [Wardrop Equilibrium Can Be Boundedly Rational: A New Behavioral Theory of Route Choice.](http://arxiv.org/abs/2304.02500) | 该论文提出了一种新的行为理论来加强Wardrop均衡基础，该理论可以通过有限理性的旅行者玩的路径游戏达到Wardrop均衡和全局稳定。 |
+| [^3] | [A Comparative Study of Inter-Regional Intra-Industry Disparity.](http://arxiv.org/abs/2304.02430) | 本文研究了印度制造业和工业州内的跨区域内部行业差异。研究发现，低效率是由高技能劳动力供应和升级技术不均匀分布所驱动的。为了解决这些差异，本文建议政策制定者在全印度地区推广劳动力培训和技术促进计划。 |
+| [^4] | [Synthetic Controls with Multiple Outcomes: Estimating the Effects of Non-Pharmaceutical Interventions in the COVID-19 Pandemic.](http://arxiv.org/abs/2304.02272) | 本研究提出了一种新的合成控制方法，可以评估一种治疗对于多个结果变量的影响。在使用该方法估计瑞典在COVID-19大流行中非药物干预措施的效果时，我们得出结论：如果瑞典在3月份像欧洲其他国家一样实施了更严格的非药物干预措施，那么到7月份，COVID-19感染病例和死亡人数将减少约70％，而在5月初所有原因的死亡人数将减少约20％。 |
+| [^5] | [Faster estimation of dynamic discrete choice models using index sufficiency.](http://arxiv.org/abs/2304.02171) | 本文提出了一种利用指标充分性实现动态离散选择模型的快速估算器，通过限制参数空间并降低计算量，达到了快速估算的效果，估算结果与高计算量估算器的渐近效果等价。在模型中，我们使用了等式约束，并提供了关于子空间维度的一系列结果。在英国快餐市场的实证应用中，我们证明了该方法的优越性。 |
+| [^6] | [Causes of Excess Capacity.](http://arxiv.org/abs/2304.02137) | 本研究使用三层生产函数模型研究了资本、劳动和资本密集度的反应，从而探讨了过剩产能的起源。结果表明，政策制定者应通过激活采用先进机器设备扩大制造厂规模来解决过剩产能的问题。 |
+| [^7] | [Stability and chaos of the duopoly model of Kopel: A study based on symbolic computations.](http://arxiv.org/abs/2304.02136) | 本文使用符号计算工具对Kopel非对称垄断模型进行了分析，探讨了多个正平衡点的存在可能性，并首次建立了不同数量正平衡点存在的严格条件。通过数值模拟支持模型中存在混沌，但混沌的存在很难被严格证明。 |
+| [^8] | [The Economic Effect of Gaining a New Qualification Later in Life.](http://arxiv.org/abs/2304.01490) | 本研究通过机器学习方法分析晚年完成学位与经济回报之间的因果效应，发现获得新资格将带来每年超过3000澳元的经济回报。 |
+| [^9] | [On the failure of the bootstrap for Chatterjee's rank correlation.](http://arxiv.org/abs/2303.14088) | 研究者发现，通常情况下标准的自助法并不适用于Chatterjee的排名相关性，有效的推断方法是Chatterjee的原始提出和Lin和Han的解析渐近方差估计器。 |
+| [^10] | [Information transmission in monopolistic credence goods markets.](http://arxiv.org/abs/2303.13295) | 本文研究了信任商品市场中专家销售者和客户之间的通讯问题，提供了几何特征描述和必要条件，以及对二元情形下的所有均衡进行了福利分析。 |
+| [^11] | [Unbiased estimation and asymptotically valid inference in multivariable Mendelian randomization with many weak instrumental variables.](http://arxiv.org/abs/2301.05130) | 本文提出了一种名为MRBEE的新型多变量MR方法，可解决多个GWAS队列之间的样本重叠问题，能够推断许多弱工具变量的无偏因果关系。 |
+| [^12] | [csa2sls: A complete subset approach for many instruments using Stata.](http://arxiv.org/abs/2207.01533) | 本论文提出了一种解决多个工具相关性导致偏差问题的替代估计器CSA2SLS，研发了相应的Stata命令并通过蒙特卡罗模拟和实证应用进行了验证。 |
+| [^13] | [Treatment Choice with Nonlinear Regret.](http://arxiv.org/abs/2205.08586) | 该论文针对治疗选择中的不确定性问题，提出了最小化非线性悔恨的方法，并导出了闭合分数形式的有限样本贝叶斯和极小化最优规则，可视为支持治疗的证据强度。 |
+| [^14] | [(When) should you adjust inferences for multiple hypothesis testing?.](http://arxiv.org/abs/2104.13367) | 研究生产函数中的规模经济；具有多个结果的研究激励使用单个指标进行测试；标准程序过于保守。 |
+| [^15] | [A Pricing Mechanism to Jointly Mitigate Market Power and Environmental Externalities in Electricity Markets.](http://arxiv.org/abs/2104.00578) | 本论文提出了在电力市场中解决市场垄断和环境外部性问题的定价机制，并成功克服了现有价格上限机制的缺陷。 |
+| [^16] | [Treatment Allocation with Strategic Agents.](http://arxiv.org/abs/2011.06528) | 论文研究了带有战略代理的治疗分配问题。研究表明，最优规则可以涉及随机化，对那些平均上对治疗有积极反应的个体也可以分配不到100%的治疗机会。 |
 
 # 详细
 
-[^1]: 个体福利分析：随机准线性效用、独立性和置信区间
+[^1]: 疫情期间葡萄牙家庭的储蓄: 应对不断上涨的通货膨胀的一种方式?
 
-    Individual Welfare Analysis: Random Quasilinear Utility, Independence, and Confidence Bounds. (arXiv:2304.01921v1 [econ.EM])
+    Portuguese Households Savings in Times of Pandemic: A Way to Better Resist the Escalating Inflation?. (arXiv:2304.02573v1 [econ.GN])
 
-    [http://arxiv.org/abs/2304.01921](http://arxiv.org/abs/2304.01921)
+    [http://arxiv.org/abs/2304.02573](http://arxiv.org/abs/2304.02573)
 
-    本论文提出了一种基于随机准线性效用函数的个体福利分析框架，通过新的置信区间约束求解任意置信水平下的个人消费者福利损失下限，该求解方法简单高效，且适用范围广泛，具有很强的实际应用价值。
-
-    
-
-    我们介绍了一种新的个体水平福利分析框架。它建立在一个具有准线性效用函数的连续需求参数模型上，允许存在未观测到的个体-产品水平的偏好冲击。我们得出了由于假想价格上涨导致的个人级别消费者福利损失的任何置信水平的下限，并在独立性限制下受新的置信区间约束的可扩展优化问题中求解。这个置信区间非常简单，鲁棒性强，对于弱工具和非线性模型敏感度都很低，并且可能适用于福利分析之外的其他领域。Monte Carlo模拟和两个关于汽油和食品需求的实证应用证明了我们的方法的实效性。
-
-    We introduce a novel framework for individual-level welfare analysis. It builds on a parametric model for continuous demand with a quasilinear utility function, allowing for unobserved individual-product-level preference shocks. We obtain bounds on the individual-level consumer welfare loss at any confidence level due to a hypothetical price increase, solving a scalable optimization problem constrained by a new confidence set under an independence restriction. This confidence set is computationally simple, robust to weak instruments and nonlinearity, and may have applications beyond welfare analysis. Monte Carlo simulations and two empirical applications on gasoline and food demand demonstrate the effectiveness of our method.
-    
-[^2]: Torch-Choice: 用Python实现大规模选择建模的PyTorch包
-
-    Torch-Choice: A PyTorch Package for Large-Scale Choice Modelling with Python. (arXiv:2304.01906v1 [cs.LG])
-
-    [http://arxiv.org/abs/2304.01906](http://arxiv.org/abs/2304.01906)
-
-    本文介绍了一款名为 Torch-Choice 的 PyTorch 软件包，用于管理数据库、构建多项式Logit和嵌套Logit模型，并支持GPU加速，具有灵活性和高效性。
+    疫情期间，葡萄牙家庭的储蓄率创下历史新高，然而，由于储蓄对经济产生了负面影响，会导致需求下降、生产下降、收入下降等一系列连锁反应。
 
     
 
-    $\texttt{torch-choice}$ 是一款开源软件包，使用Python和PyTorch实现灵活、快速的选择建模。它提供了 $\texttt{ChoiceDataset}$ 数据结构，以便灵活而高效地管理数据库。本文演示了如何从各种格式的数据库中构建 $\texttt{ChoiceDataset}$，并展示了 $\texttt{ChoiceDataset}$ 的各种功能。该软件包实现了两种常用的模型: 多项式Logit和嵌套Logit模型，并支持模型估计期间的正则化。该软件包还支持使用GPU进行估计，使其可以扩展到大规模数据集而且在计算上更高效。模型可以使用R风格的公式字符串或Python字典进行初始化。最后，我们比较了 $\texttt{torch-choice}$ 和 R中的 $\texttt{mlogit}$ 在以下几个方面的计算效率: (1) 观测数增加时，(2) 协变量个数增加时， (3) 测试数升高时。
+    2020年3月的封锁使葡萄牙的储蓄率达到历史最高水平，在2021年初达到可支配总收入的13.4%(INE,2023)。要找到类似的储蓄数据，我们需要回到1999年。由于没有其他消费选择，家庭减少了支出。消费、储蓄和收入之间的关系在经济思想中占据了重要地位 [(Keynes, 1936; 1937); (Friedman, 1957)]。传统上，高水平的储蓄与经济受益有关，因为融资能力得到提升(Singh,2010)。然而，这里的影响可能是两面的。
 
-    The $\texttt{torch-choice}$ is an open-source library for flexible, fast choice modeling with Python and PyTorch. $\texttt{torch-choice}$ provides a $\texttt{ChoiceDataset}$ data structure to manage databases flexibly and memory-efficiently. The paper demonstrates constructing a $\texttt{ChoiceDataset}$ from databases of various formats and functionalities of $\texttt{ChoiceDataset}$. The package implements two widely used models, namely the multinomial logit and nested logit models, and supports regularization during model estimation. The package incorporates the option to take advantage of GPUs for estimation, allowing it to scale to massive datasets while being computationally efficient. Models can be initialized using either R-style formula strings or Python dictionaries. We conclude with a comparison of the computational efficiencies of $\texttt{torch-choice}$ and $\texttt{mlogit}$ in R as (1) the number of observations increases, (2) the number of covariates increases, and (3) th
+    March 2020 confinement has shot Portuguese savings to historic levels, reaching 13.4% of gross disposable income in early 2021 (INE, 2023). To find similar savings figures we need to go back to 1999. With consumption reduced to a bare minimum, the Portuguese were forced to save. Households reduced spending more because of a lack of alternatives to consumption than for any other reason. The relationship between consumption, savings, and income has occupied an important role in economic thought [(Keynes, 1936; 1937); (Friedman, 1957)]. Traditionally, high levels of savings have been associated with benefits to the economy, since financing capacity is enhanced (Singh, 2010). However, the effects here can be twofold. On the one hand, it seems that Portugal faced the so-called Savings Paradox (Keynes, 1936). If consumers decide to save a considerable part of their income, there will be less demand for the goods produced. Lower demand will lead to lower supply, production, income, and, parad
     
-[^3]: 不平等与经济增长：一种带有生产和挪用的双人动态博弈模型
+[^2]: Wardrop均衡可以被有限理性进行边界限制：路径选择的新行为理论。
 
-    Inequality and Growth: A Two-Player Dynamic Game with Production and Appropriation. (arXiv:2304.01855v1 [econ.TH])
+    Wardrop Equilibrium Can Be Boundedly Rational: A New Behavioral Theory of Route Choice. (arXiv:2304.02500v1 [econ.TH])
 
-    [http://arxiv.org/abs/2304.01855](http://arxiv.org/abs/2304.01855)
+    [http://arxiv.org/abs/2304.02500](http://arxiv.org/abs/2304.02500)
 
-    本文研究了一个带有生产和挪用的双人经济体在参数条件下如何从“合作”均衡转变为明显的分配冲突，模型提供了一个有前途的通用框架，可以考虑不同技术和经济条件对于合作或分配冲突更或者较少有利的情况。
-
-    
-
-    本文将一个带有生产和挪用的双人经济体建模为一个非合作动态博弈，并确定其闭合形式的马尔可夫纳什均衡。该分析凸显了参数条件是如何使经济从“合作”均衡转变为明显的分配冲突。该模型包括捕获挪用技术和破坏性作用的参数。该游戏的全部动态影响尚未探索，但该模型提供了一个有前途的通用框架，可以考虑不同技术和经济条件对于合作或分配冲突更或者较少有利的情况。
-
-    This paper models a two-agent economy with production and appropriation as a noncooperative dynamic game, and determines its closed-form Markovian Nash equilibrium. The analysis highlights the para-metric conditions that tip the economy from a nonaggressive or "co-operative" equilibrium to outright distributional conflict. The model includes parameters that capture the role of appropriation technology and destructiveness. The full dynamic implications of the game are yet to be explored, but the model offers a promising general framework for thinking about different technological and economic conditions as more or less conducive to cooperation or distributional conflict.
-    
-[^4]: 以大权力（价格）推动强大尾气排放？电力价格与电动汽车采用的自然实验
-
-    With great power (prices) comes great tail pipe emissions? \\ A natural experiment of electricity prices and electric car adoption. (arXiv:2304.01709v1 [econ.GN])
-
-    [http://arxiv.org/abs/2304.01709](http://arxiv.org/abs/2304.01709)
-
-    本文利用挪威南北电价自然实验，发现高电价对购买纯电池电动汽车有显着但适度的负面影响，预计高电价区域的电动汽车销售量会减少3000到6000辆。
+    该论文提出了一种新的行为理论来加强Wardrop均衡基础，该理论可以通过有限理性的旅行者玩的路径游戏达到Wardrop均衡和全局稳定。
 
     
 
-    实现电气化乘用车的共同目标中，一个基本和未回答的问题是电力价格如何影响购买行为，而电力价格在不同国家和地区可能会有很大的差异。本文利用了挪威在2021-2022年时出现的南北价格巨大差异的自然实验，估计了电力价格对购买纯电池电动汽车决策的影响。沿价格区域边界的差异估计以及差异-差异回归模型表明，在高价格区域，购买电动汽车的概率有显着但经济上适度的下降，约为2-4％。一项对事实的模拟表明，在南部价格等于北部的情况下，高价格区域将有大约3000到6000辆电动汽车销售量的减少。
+    作为交通科学中最基本的概念之一, Wardrop 均衡一直缺乏相对较强的行为学支撑。为了加强这一基础，必须考虑人类决策过程中的有限理性，如缺乏准确信息、有限的计算能力和次优选择。然而，文献中的这种对行为完美主义的放弃通常伴随着WE的概念修改。在这里，我们展示了放弃完美理性不必导致WE的离开。相反，一种称为累积logit（CULO）的动态模型可以通过有限理性旅行者玩的路径游戏达到WE和全局稳定。我们通过开发一种称为每日（DTD）的动态模型达成了这个结果，该模型模拟旅客根据过去的经验逐渐调整其路径价值，从而得到了选择概率。我们的模型类似于经典的DTD模型，但发生了重大变化：经典模型中采取实数，而CULO模型使用积极的整数。
 
-    A fundemantal and unanswered question for the widely shared goal of electrifying passenger vehicles is how the price of electricity, which can vary greatly across countries and regions, affects buying behavior. I make use of a natural experiment in Norway in the period 2021-2022 when large price differences between north and south emerged to estimate the effect of electricity prices on the decision to purchase a pure battery-electric vehicle. Simple difference estimates along the border of the price zones as well as a difference-in-difference regression model suggest a significant but economically modest effect of a 2-4\% reduction in the probability of purchasing an electric vehicle in the high price zone. A counterfactual simulation suggests that there would have been about 3000 to 6000 fewer electric vehicles sold in the high-price south compared to a scenario where the south had equally low prices as in the north.
+    As one of the most fundamental concepts in transportation science, Wardrop equilibrium (WE) has always had a relatively weak behavioral underpinning. To strengthen this foundation, one must reckon with bounded rationality in human decision-making processes, such as the lack of accurate information, limited computing power, and sub-optimal choices. This retreat from behavioral perfectionism in the literature, however, was typically accompanied by a conceptual modification of WE. Here we show that giving up perfect rationality need not force a departure from WE. On the contrary, WE can be reached with global stability in a routing game played by boundedly rational travelers. We achieve this result by developing a day-to-day (DTD) dynamical model that mimics how travelers gradually adjust their route valuations, hence choice probabilities, based on past experiences. Our model, called cumulative logit (CULO), resembles the classical DTD models but makes a crucial change: whereas the classi
     
-[^5]: 后期获得新资格的经济效应
+[^3]: 跨区域内部行业差异比较研究
+
+    A Comparative Study of Inter-Regional Intra-Industry Disparity. (arXiv:2304.02430v1 [econ.GN])
+
+    [http://arxiv.org/abs/2304.02430](http://arxiv.org/abs/2304.02430)
+
+    本文研究了印度制造业和工业州内的跨区域内部行业差异。研究发现，低效率是由高技能劳动力供应和升级技术不均匀分布所驱动的。为了解决这些差异，本文建议政策制定者在全印度地区推广劳动力培训和技术促进计划。
+
+    
+
+    本文研究了选定的印度制造业和工业州内的跨区域内部行业差异。研究使用了三个衡量标准——产出资本比、资本劳动比和输出劳动比——来评估平均效率以及资本密集度的差异水平。此外，本文还比较了六个主要工业州的人均收入差异率。研究发现，低效率是由高技能劳动力供应和升级技术不均匀分布所驱动的。为了解决这些差异，本文建议政策制定者在全印度地区推广劳动力培训和技术促进计划。研究认为，通过这样做，该国可以减少地区不平等并改善所有人的经济成果。
+
+    This paper investigates the inter-regional intra-industry disparity within selected Indian manufacturing industries and industrial states. The study uses three measures - the Output-Capital Ratio, the Capital-Labor Ratio, and the Output-Labor Ratio - to critically evaluate the level of disparity in average efficiency of labor and capital, as well as capital intensity. Additionally, the paper compares the rate of disparity of per capita income between six major industrial states. The study finds that underutilization of capacity is driven by an unequal distribution of high-skilled labor supply and upgraded technologies. To address these disparities, the paper suggests that policymakers campaign for labor training and technology promotion schemes throughout all regions of India. By doing so, the study argues, the country can reduce regional inequality and improve economic outcomes for all.
+    
+[^4]: 带多个结果的合成控制：COVID-19大流行中估计非药物干预效果
+
+    Synthetic Controls with Multiple Outcomes: Estimating the Effects of Non-Pharmaceutical Interventions in the COVID-19 Pandemic. (arXiv:2304.02272v1 [econ.GN])
+
+    [http://arxiv.org/abs/2304.02272](http://arxiv.org/abs/2304.02272)
+
+    本研究提出了一种新的合成控制方法，可以评估一种治疗对于多个结果变量的影响。在使用该方法估计瑞典在COVID-19大流行中非药物干预措施的效果时，我们得出结论：如果瑞典在3月份像欧洲其他国家一样实施了更严格的非药物干预措施，那么到7月份，COVID-19感染病例和死亡人数将减少约70％，而在5月初所有原因的死亡人数将减少约20％。
+
+    
+
+    我们提出了一个将合成控制方法推广到多结果框架的算法，可以提高治疗效果评估的可靠性。这是通过在计算合成控制权重时，将传统的预处理时间维度与相关结果的额外维度进行补充来实现的。我们的推广对于评估一种治疗对于多个结果变量的影响的研究尤其有用。我们用瑞典在2020年前三个季度的数据来说明我们的方法，估计非药物干预措施对多个结果的影响。我们的结果表明，如果瑞典在3月份像欧洲其他国家一样实施了更严格的非药物干预措施，那么到7月份，COVID-19感染病例和死亡人数将减少约70％，而在5月初所有原因的死亡人数将减少约20％。而非药物干预措施对劳动力市场和经济结果的影响相对较小。
+
+    We propose a generalization of the synthetic control method to a multiple-outcome framework, which improves the reliability of treatment effect estimation. This is done by supplementing the conventional pre-treatment time dimension with the extra dimension of related outcomes in computing the synthetic control weights. Our generalization can be particularly useful for studies evaluating the effect of a treatment on multiple outcome variables. To illustrate our method, we estimate the effects of non-pharmaceutical interventions (NPIs) on various outcomes in Sweden in the first 3 quarters of 2020. Our results suggest that if Sweden had implemented stricter NPIs like the other European countries by March, then there would have been about 70% fewer cumulative COVID-19 infection cases and deaths by July, and 20% fewer deaths from all causes in early May, whereas the impacts of the NPIs were relatively mild on the labor market and economic outcomes.
+    
+[^5]: 利用指标充分性实现动态离散选择模型的快速估算
+
+    Faster estimation of dynamic discrete choice models using index sufficiency. (arXiv:2304.02171v1 [econ.EM])
+
+    [http://arxiv.org/abs/2304.02171](http://arxiv.org/abs/2304.02171)
+
+    本文提出了一种利用指标充分性实现动态离散选择模型的快速估算器，通过限制参数空间并降低计算量，达到了快速估算的效果，估算结果与高计算量估算器的渐近效果等价。在模型中，我们使用了等式约束，并提供了关于子空间维度的一系列结果。在英国快餐市场的实证应用中，我们证明了该方法的优越性。
+
+    
+
+    许多具有理想统计性质的动态离散选择模型估算器可能需要大量计算。本文提出了一种方法，通过利用指标充分性，在限制参数空间并降低计算量的情况下，快速估算一类广泛的动态离散选择问题。我们提出了一个估算器，该估算器使用等式约束，并显示它渐近等效于无约束的高计算量估算器。由于我们提议估算器的计算收益是由限制参数空间至满足等式约束的子空间所致，因此我们提供了一系列关于这个子空间维度的结果。最后，我们通过估算英国快餐市场的动态模型来展示我们方法的优势。
+
+    Many estimators of dynamic discrete choice models with permanent unobserved heterogeneity have desirable statistical properties but may be computationally intensive. In this paper we propose a method to quicken estimation for a broad class of dynamic discrete choice problems by exploiting index sufficiency. Index sufficiency implies a set of equality constraints which restrict the structural parameter of interest to belong in a subspace of the parameter space. We propose an estimator that uses the equality constraints, and show it is asymptotically equivalent to the unconstrained, computationally heavy estimator. Since the computational gains of our proposed estimator are due to the restriction of the parameter space to the subspace satisfying the equality constraints, we provide a series of results on the dimension of this subspace. Finally, we demonstrate the advantages of our approach by estimating a dynamic model of the U.K. fast food market.
+    
+[^6]: “过剩产能的原因”
+
+    Causes of Excess Capacity. (arXiv:2304.02137v1 [econ.TH])
+
+    [http://arxiv.org/abs/2304.02137](http://arxiv.org/abs/2304.02137)
+
+    本研究使用三层生产函数模型研究了资本、劳动和资本密集度的反应，从而探讨了过剩产能的起源。结果表明，政策制定者应通过激活采用先进机器设备扩大制造厂规模来解决过剩产能的问题。
+
+    
+
+    本研究通过研究资本、劳动和资本密集度的反应，探讨了过剩产能的起源。为了实现此目的，我们采用了一种新颖的三层生产函数模型，估计了所有产业组之间资本和劳动替代弹性的嵌套层，同时考虑了资本密集度。我们对几个产业组进行了选择性分析，以进行比较，考虑到当前的政府政策和制造厂的实际情况。最终，我们建议政策制定者通过激活采用先进机器设备扩大制造厂的规模来解决过剩产能的问题。我们的发现和建议旨在吸引学者和政策制定者的关注。
+
+    This study delves into the origins of excess capacity by examining the reactions of capital, labor, and capital intensity. To achieve this, we have employed a novel three-layered production function model, estimating the elasticity of substitution between capital and labor as a nested layer, alongside capital intensity, for all industry groups. We have then selectively analyzed a few industry groups for comparative purposes, taking into account the current government policies and manufacturing plant realities. Ultimately, we recommend that policymakers address the issue of excess capacity by stimulating the expansion of manufacturing plants with cutting-edge machinery. Our findings and recommendations are intended to appeal to academics and policymakers alike.
+    
+[^7]: Kopel垄断模型的稳定性和混沌：基于符号计算的研究。
+
+    Stability and chaos of the duopoly model of Kopel: A study based on symbolic computations. (arXiv:2304.02136v1 [math.DS])
+
+    [http://arxiv.org/abs/2304.02136](http://arxiv.org/abs/2304.02136)
+
+    本文使用符号计算工具对Kopel非对称垄断模型进行了分析，探讨了多个正平衡点的存在可能性，并首次建立了不同数量正平衡点存在的严格条件。通过数值模拟支持模型中存在混沌，但混沌的存在很难被严格证明。
+
+    
+
+    Kopel垄断模型提出近30年来，对于非对称情况下的平衡点和其稳定性，几乎没有分析结果。本文采用多种基于符号计算的工具，对Kopel的非对称垄断模型进行了分析。我们讨论了多个正平衡点的存在可能性，并建立了存在给定数量正平衡点的必要充分条件。同时，探讨了Kopel模型中平衡点的可能位置。此外，如果垄断者采用最佳反应策略或同质自适应预期，则我们首次建立了不同数量正平衡点存在的严格条件。通过数值模拟的观察支持Kopel模型存在混沌，但这很难得到严格证明。本文的第二个目标是，建立和验证模型中存在混沌的条件。
+
+    Since Kopel's duopoly model was proposed about three decades ago, there are almost no analytical results on the equilibria and their stability in the asymmetric case. The first objective of our study is to fill this gap. This paper analyzes the asymmetric duopoly model of Kopel analytically by using several tools based on symbolic computations. We discuss the possibility of the existence of multiple positive equilibria and establish necessary and sufficient conditions for a given number of positive equilibria to exist. The possible positions of the equilibria in Kopel's model are also explored. Furthermore, if the duopolists adopt the best response reactions or homogeneous adaptive expectations, we establish rigorous conditions for the existence of distinct numbers of positive equilibria for the first time. The occurrence of chaos in Kopel's model seems to be supported by observations through numerical simulations, which, however, is challenging to prove rigorously. The second objectiv
+    
+[^8]: 后期获得新资格的经济效应
 
     The Economic Effect of Gaining a New Qualification Later in Life. (arXiv:2304.01490v1 [econ.GN])
 
@@ -87,102 +133,116 @@
 
     Pursuing educational qualifications later in life is an increasingly common phenomenon within OECD countries since technological change and automation continues to drive the evolution of skills needed in many professions. We focus on the causal impacts to economic returns of degrees completed later in life, where motivations and capabilities to acquire additional education may be distinct from education in early years. We find that completing and additional degree leads to more than \$3000 (AUD, 2019) per year compared to those who do not complete additional study. For outcomes, treatment and controls we use the extremely rich and nationally representative longitudinal data from the Household Income and Labour Dynamics Australia survey is used for this work. To take full advantage of the complexity and richness of this data we use a Machine Learning (ML) based methodology to estimate the causal effect. We are also able to use ML to discover sources of heterogeneity in the effects of ga
     
-[^6]: 检查时间可预测吗？
+[^9]: 关于Chatterjee排名相关性自助法失败的研究
 
-    Should the Timing of Inspections be Predictable?. (arXiv:2304.01385v1 [econ.TH])
+    On the failure of the bootstrap for Chatterjee's rank correlation. (arXiv:2303.14088v1 [math.ST])
 
-    [http://arxiv.org/abs/2304.01385](http://arxiv.org/abs/2304.01385)
+    [http://arxiv.org/abs/2303.14088](http://arxiv.org/abs/2303.14088)
 
-    该论文研究了长期项目中雇佣代理人的检查策略。周期性检查适用于代理人的行为主要加速突破，随机检查适用于代理人的行为主要延迟崩溃。代理人的行为决定了他在惩罚时间方面的风险态度。
-
-    
-
-    一位委托人聘请一个代理人长期从事工作，该工作会在某个时刻突破或者崩溃。在每个时刻，代理人会私下选择工作或逃避责任。工作可以增加突破到来的速度并减少崩溃到来的速度。为了激励代理人工作，委托人会进行昂贵的检查，如果发现代理人在逃避责任，就会解雇他。我们确定了委托人的最佳检查策略。当工作主要加速突破时，周期性检查是最优的。当工作主要延迟崩溃时，随机检查是最优的。至关重要的是，代理人的行为决定了他在惩罚时间方面的风险态度。
-
-    A principal hires an agent to work on a long-term project that culminates in a breakthrough or a breakdown. At each time, the agent privately chooses to work or shirk. Working increases the arrival rate of breakthroughs and decreases the arrival rate of breakdowns. To motivate the agent to work, the principal conducts costly inspections. She fires the agent if shirking is detected. We characterize the principal's optimal inspection policy. Periodic inspections are optimal if work primarily speeds up breakthroughs. Random inspections are optimal if work primarily delays breakdowns. Crucially, the agent's actions determine his risk-attitude over the timing of punishments.
-    
-[^7]: 异质性鲁棒性的粒度仪器
-
-    Heterogeneity-robust granular instruments. (arXiv:2304.01273v1 [econ.EM])
-
-    [http://arxiv.org/abs/2304.01273](http://arxiv.org/abs/2304.01273)
-
-    本论文提出了一种新的估计方法——鲁棒性粒度仪器变量（RGIV）——可以处理单位级异质性和未知的冲击方差，适用于各种经济环境，比现有方法更具广泛适用性。
+    研究者发现，通常情况下标准的自助法并不适用于Chatterjee的排名相关性，有效的推断方法是Chatterjee的原始提出和Lin和Han的解析渐近方差估计器。
 
     
 
-    粒度仪器变量在经验宏观金融方面得到了快速发展。它们的吸引力在于它们适用于各种经济环境，如需求系统和溢出的估计。我提出了一种新的估计方法——鲁棒性粒度仪器变量（RGIV）——它不像GIV那样只是允许单位对总量变量产生的响应不同，而且还可处理单位级异质性和未知的冲击方差。其广泛适用性使得研究人员可以考虑和研究单位层面的差异。我还开发了一个超识别检验，评估RGIV与数据的兼容性，以及一个参数限制检验，评估同质系数假设的适当性。在模拟中，我证明RGIV产生可靠且信息丰富的置信区间。
+    研究者通常使用自助法进行统计推断，但我们意识到，通常情况下标准的自助法并不适用于Chatterjee的排名相关性。本文在一个额外的独立性假设下证明了这个问题，并通过模拟证据来补充我们的理论，这使得Chatterjee的排名相关性成为渐近正态但自助法不一致的统计中的一类数据。在这种情况下，有效的推断方法是Chatterjee的原始提出（用于测试独立性）和Lin和Han（2022）的解析渐近方差估计器（用于更广泛的目的）。
 
-    Granular instrumental variables have experienced sharp growth in empirical macro-finance. Their attraction lies in their applicability to a wide set of economic environments like demand systems and the estimation of spillovers. I propose a new estimator$\unicode{x2014}$called robust granular instrumental variables (RGIV)$\unicode{x2014}$that, unlike GIV, allows for heterogeneous responses across units to the aggregate variable, unknown shock variances, and does not rely on skewness of the size distribution of units. Its generality allows researchers to account for and study unit-level heterogeneity. I also develop an overidentification test that evaluates the RGIV's compatibility with the data and a parameter restriction test that evaluates the appropriateness of the homogeneous coefficient assumption. In simulations, I show that RGIV produces reliable and informative confidence intervals.
+    While researchers commonly use the bootstrap for statistical inference, many of us have realized that the standard bootstrap, in general, does not work for Chatterjee's rank correlation. In this paper, we provide proof of this issue under an additional independence assumption, and complement our theory with simulation evidence for general settings. Chatterjee's rank correlation thus falls into a category of statistics that are asymptotically normal but bootstrap inconsistent. Valid inferential methods in this case are Chatterjee's original proposal (for testing independence) and Lin and Han (2022)'s analytic asymptotic variance estimator (for more general purposes).
     
-[^8]: 非对称矩阵特征向量的推断
+[^10]: 垄断性信任商品市场中的信息传递
 
-    Inference on eigenvectors of non-symmetric matrices. (arXiv:2303.18233v1 [math.ST])
+    Information transmission in monopolistic credence goods markets. (arXiv:2303.13295v1 [econ.TH])
 
-    [http://arxiv.org/abs/2303.18233](http://arxiv.org/abs/2303.18233)
+    [http://arxiv.org/abs/2303.13295](http://arxiv.org/abs/2303.13295)
 
-    本研究探讨了建立渐近推断非对称矩阵特征向量程序的必要条件，并针对完全向量和每个系数假设分别建立了 Wald 和 t 检验的分布理论，是多元统计学中的一种有用工具。
-
-    
-
-    本文认为，Tyler（1981）的可对称化条件并非建立渐近推断特征向量程序所必需的。 我们为完全向量和每个系数假设分别建立了 Wald 和 t 检验的分布理论。 我们的检验统计量来源于非对称矩阵的特征投影。 通过将投影表示为从基础矩阵到其谱数据的映射，我们通过解析摄动理论找到了导数。 这些结果演示了 Sun（1991）的解析摄动理论是多元统计学中的一种有用工具，并且具有独立的兴趣。作为一种应用，我们为由有向图引发的邻接矩阵估计的 Bonacich 中心性定义置信区间。
-
-    This paper argues that the symmetrisability condition in Tyler(1981) is not necessary to establish asymptotic inference procedures for eigenvectors. We establish distribution theory for a Wald and t-test for full-vector and individual coefficient hypotheses, respectively. Our test statistics originate from eigenprojections of non-symmetric matrices. Representing projections as a mapping from the underlying matrix to its spectral data, we find derivatives through analytic perturbation theory. These results demonstrate how the analytic perturbation theory of Sun(1991) is a useful tool in multivariate statistics and are of independent interest. As an application, we define confidence sets for Bonacich centralities estimated from adjacency matrices induced by directed graphs.
-    
-[^9]: 从信息成本中预测选择
-
-    Predicting Choice from Information Costs. (arXiv:2205.10434v2 [econ.TH] UPDATED)
-
-    [http://arxiv.org/abs/2205.10434](http://arxiv.org/abs/2205.10434)
-
-    研究了代理人在获取昂贵信号后做出决策时的信息成本，发现仅凭学习成本无法对选择行为施加明确限制，但选择菜单的结果可以完全确定，通过迭代可微分费用函数能有效验证数据集是否与给定成本一致。
+    本文研究了信任商品市场中专家销售者和客户之间的通讯问题，提供了几何特征描述和必要条件，以及对二元情形下的所有均衡进行了福利分析。
 
     
 
-    一个代理在做决策之前会获取昂贵但灵活的信号。我们探讨了代理的信息成本对于预测他的行为有多大的作用。我们得出了一个不可能的结果：仅仅通过学习成本，没有测试时可以对选择进行明确的限制，除非还对行为的状态与效用施加约束。与之相反，从一个菜单中选择的结果通常可以唯一地确定代理在所有子菜单中的决策。为了证明后一种结果，我们定义了可迭代的可微分费用函数，这是一种易于使用一阶技术处理的可计算类。最后，我们构建了紧密的测试，用于判定一个多菜单数据集是否与给定的成本一致。
+    本文研究了一个涵盖 $N$ 个问题类型和 $N$ 种治疗方法的信任商品模型。专家销售者和客户之间的通讯被建模为廉价谈判。我们发现，在歧视性定价下，专家的均衡回报具有几何特征描述，即专家以信念利润函数的拟下凸包为代价。我们证明了客户最差的均衡存在性，并将这个几何特征应用于之前关于信任商品的研究中，并为通讯何时有益于专家提供了充分必要条件。对于二元情形，我们求解了所有均衡，并分析了它们的福利属性。
 
-    An agent acquires a costly flexible signal before making a decision. We explore to what degree knowledge of the agent's information costs helps predict her behavior. We establish an impossibility result: learning costs alone generate no testable restrictions on choice without also imposing constraints on actions' state-dependent utilities. By contrast, choices from a menu often uniquely pin down the agent's decisions in all submenus. To prove the latter result, we define iteratively differentiable cost functions, a tractable class amenable to first-order techniques. Finally, we construct tight tests for a multi-menu data set to be consistent with a given cost.
+    We study a general credence goods model with $N$ problem types and $N$ treatments. Communication between the expert seller and the client is modeled as cheap talk. We find that the expert's equilibrium payoffs admit a geometric characterization, described by the quasiconcave envelope of his belief-based profits function under discriminatory pricing. We establish the existence of client-worst equilibria, apply the geometric characterization to previous research on credence goods, and provide a necessary and sufficient condition for when communication benefits the expert. For the binary case, we solve for all equilibria and analyze their welfare properties.
     
-[^10]: 注意力经济中英语熵值的不断上升
+[^11]: 多变量门捷列夫随机化中的无偏估计和渐近有效推断与弱工具变量
 
-    The Rising Entropy of English in the Attention Economy. (arXiv:2107.12848v4 [econ.GN] UPDATED)
+    Unbiased estimation and asymptotically valid inference in multivariable Mendelian randomization with many weak instrumental variables. (arXiv:2301.05130v3 [stat.ME] UPDATED)
 
-    [http://arxiv.org/abs/2107.12848](http://arxiv.org/abs/2107.12848)
+    [http://arxiv.org/abs/2301.05130](http://arxiv.org/abs/2301.05130)
 
-    美式英语的熵值自1900年左右持续上升并且不同媒体之间存在着熵值上的差异，作者认为这是由于注意力经济的生态系统导致的。
-
-    
-
-    我们提供了证据表明自1900年左右起，美式英语的词汇熵值一直在稳步上升，这与现有社会语言学理论的预测相反。我们还发现，不同媒体之间存在着词汇熵值上的差异，短格式媒体如新闻和杂志的熵值比长格式媒体更高，而社交媒体的熵值则更高。为了解释这些结果，我们提出了一种注意力经济生态模型，结合了Zipf定律和信息搜寻的思想。在该模型中，媒体消费者在考虑信息检索成本的同时，最大化信息效用率，而媒体生产者则适应减少检索成本的技术，推动他们生成越来越短的更高熵值的内容。
-
-    We present evidence that the word entropy of American English has been rising steadily since around 1900, contrary to predictions from existing sociolinguistic theories. We also find differences in word entropy between media categories, with short-form media such as news and magazines having higher entropy than long-form media, and social media feeds having higher entropy still. To explain these results we develop an ecological model of the attention economy that combines ideas from Zipf's law and information foraging. In this model, media consumers maximize information utility rate taking into account the costs of information search, while media producers adapt to technologies that reduce search costs, driving them to generate higher entropy content in increasingly shorter formats.
-    
-[^11]: 预售如何降低利润：何时购买，何时出售，以及何价售卖
-
-    How Advance Sales can Reduce Profits: When to Buy, When to Sell, and What Price to Charge. (arXiv:1912.02869v2 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/1912.02869](http://arxiv.org/abs/1912.02869)
-
-    该论文讨论了在不同时期销售商品的市场，发现即使没有提前制造产品的成本，公司也不会盈利，通常会亏损，使产品能够提前上市。
+    本文提出了一种名为MRBEE的新型多变量MR方法，可解决多个GWAS队列之间的样本重叠问题，能够推断许多弱工具变量的无偏因果关系。
 
     
 
-    如果消费者担心耽误时间会导致商品售罄，消费者想要在某个特定的时间消费商品，可能会尝试提前购买。该论文考虑了一个模型，其中商品可以在两个时期提供; 所有消费者最重视商品的时期（第2时期）和早期时期（第1时期）。在考虑无限需求下，研究了公司的利润最大化策略，发现即使没有提前制造产品的成本，公司也不会盈利，通常会亏损，使产品能够提前上市。有趣的是，最大化利润的价格会导致所有到达早期或所有到达晚期，具体取决于参数。公司不会设定能够导致消费者在两个时期都到达的价格。特别是，如果公司控制到达时间过早的惩罚，则应设置高的惩罚，以确保没有人提前到达。当消费者决定何时购买商品时，Nash均衡的行为。
+    门捷列夫随机化（MR）是一种利用基因组关联研究（GWAS）摘要数据推断曝露和结果之间因果关系的工具变量方法。然而，多变量反方差加权（IVW）方法作为大多数MR方法的基础，在存在许多弱工具变量的情况下无法产生无偏的因果效应估计。本文证明了多变量IVW估计的偏差是弱工具、估计误差偏差的乘积，后者与多个GWAS队列之间的样本重叠存在权衡关系，是由测量误差和混淆变量引起的。为解决这个问题，我们提出了一种新颖的多变量MR方法，即使用校正偏差估计方程的MR（MRBEE），可以推断许多弱工具变量的无偏因果关系。在适度条件下研究了多变量IVW和MRBEE的渐近行为，结果表明当弱工具变量的数量很大时，MRBEE优于多变量IVW。
 
-    A consumer who wants to consume a good in a particular period may nevertheless attempt to buy it earlier if he is concerned that in delaying he would find the good already sold. This paper considers a model in which the good may be offered in two periods; the period in which all consumers most value the good (period 2), and an earlier period (period 1). Examining the profit-maximizing strategy of the firm under unbounded demand, we find that even with no cost of making the product available early, the firm does not profit, and usually loses, by making the product available early. Interestingly, the price that maximizes profits induces all arrivals to occur early, or all arrivals to occur late, depending on the parameters. The firm would not set a price which induces consumers to arrive in both periods. In particular, if the firm controls the penalty for arriving early, then it should set a high penalty so that no one arrives early. The Nash equilibrium behavior of consumers, when decid
+    Mendelian randomization (MR) is an instrumental variable (IV) approach to infer causal relationships between exposures and outcomes with genome-wide association studies (GWAS) summary data. However, the multivariable inverse-variance weighting (IVW) approach, which serves as the foundation for most MR approaches, cannot yield unbiased causal effect estimates in the presence of many weak IVs. In this paper, we prove that the bias of the multivariable IVW estimate is a product of weak instrument and estimation error biases, where the latter is linearly composed of measurement error and confounder biases with a trade-off due to sample overlap among multiple GWAS cohorts. To address this problem, we propose a novel multivariable MR approach, MR using Bias-corrected Estimating Equation (MRBEE), which can infer unbiased causal relationships with many weak IVs. Asymptotic behaviors of multivariable IVW and MRBEE are investigated under moderate conditions, showing that MRBEE outperforms multiv
     
-[^12]: 关于具有时间序列振荡的聚合策略评估
+[^12]: csa2sls：使用Stata的完整子集方法处理多个工具
 
-    On Policy Evaluation with Aggregate Time-Series Shocks. (arXiv:1905.13660v7 [econ.EM] UPDATED)
+    csa2sls: A complete subset approach for many instruments using Stata. (arXiv:2207.01533v2 [econ.EM] UPDATED)
 
-    [http://arxiv.org/abs/1905.13660](http://arxiv.org/abs/1905.13660)
+    [http://arxiv.org/abs/2207.01533](http://arxiv.org/abs/2207.01533)
 
-    本文提出了一种基于数据聚合方案的新的因果效应估计器，用于具有时间序列振荡的聚合应用中的外源性变动。与传统估计器不同，该方法能够解决此类应用中的未观察到的混杂问题，并已在大维度测试中得到验证。
+    本论文提出了一种解决多个工具相关性导致偏差问题的替代估计器CSA2SLS，研发了相应的Stata命令并通过蒙特卡罗模拟和实证应用进行了验证。
 
     
 
-    我们提出了一种新的因果效应估计器，用于具有时间序列振荡的聚合应用中的外源性变动。我们解决了此类应用中的重要识别难题--未观察到的混杂，这使得传统估计器无效。我们的估计器使用一种新的基于数据的聚合方案，并在存在未观测到的聚合冲击时保持一致。我们使用Nakamura和Steinsson（2014）的数据说明了我们算法的优点。我们还建立了我们的估计器在一个实际相关的范围内的统计特性，其中横截面和时间序列维度都很大，并展示了如何使用我们的方法进行推断。
+    我们开发了一个Stata命令$\texttt{csa2sls}$，实现了Lee和Shin（2021）中的完整子集平均二阶段最小二乘法（CSA2SLS）估计量。CSA2SLS估计器是解决由于许多相关工具导致的偏差问题的替代估计器。我们进行了蒙特卡罗模拟，并确认在工具相关时，CSA2SLS估计器显著降低了均方误差和估计偏差。我们通过实证应用说明了$\texttt{csa2sls}$在Stata中的使用方法。
 
-    We propose a new estimator for causal effects in applications where the exogenous variation comes from aggregate time-series shocks. We address the critical identification challenge in such applications -- unobserved confounding, which renders conventional estimators invalid. Our estimator uses a new data-based aggregation scheme and remains consistent in the presence of unobserved aggregate shocks. We illustrate the advantages of our algorithm using data from Nakamura and Steinsson (2014). We also establish the statistical properties of our estimator in a practically relevant regime, where both cross-sectional and time-series dimensions are large, and show how to use our method to conduct inference.
+    We develop a Stata command $\texttt{csa2sls}$ that implements the complete subset averaging two-stage least squares (CSA2SLS) estimator in Lee and Shin (2021). The CSA2SLS estimator is an alternative to the two-stage least squares estimator that remedies the bias issue caused by many correlated instruments. We conduct Monte Carlo simulations and confirm that the CSA2SLS estimator reduces both the mean squared error and the estimation bias substantially when instruments are correlated. We illustrate the usage of $\texttt{csa2sls}$ in Stata by an empirical application.
+    
+[^13]: 非线性悔恨下的治疗选择
+
+    Treatment Choice with Nonlinear Regret. (arXiv:2205.08586v3 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2205.08586](http://arxiv.org/abs/2205.08586)
+
+    该论文针对治疗选择中的不确定性问题，提出了最小化非线性悔恨的方法，并导出了闭合分数形式的有限样本贝叶斯和极小化最优规则，可视为支持治疗的证据强度。
+
+    
+
+    文献一般侧重于最小化福利悔恨的平均值，由于采样不确定性，这可能导致不良的治疗选择。我们建议最小化非线性悔恨的平均值，并表明可接受的规则为非线性悔恨的分数规则。针对均方悔恨，我们推导出有限样本贝叶斯和极小化最优规则的闭合分数形式。我们的方法基于决策理论，扩展到极限实验。治疗分数可以看作是支持治疗的证据强度。我们将我们的框架应用于正常回归模型和随机实验的样本量计算。
+
+    The literature focuses on minimizing the mean of welfare regret, which can lead to undesirable treatment choice due to sampling uncertainty. We propose to minimize the mean of a nonlinear transformation of regret and show that admissible rules are fractional for nonlinear regret. Focusing on mean square regret, we derive closed-form fractions for finite-sample Bayes and minimax optimal rules. Our approach is grounded in decision theory and extends to limit experiments. The treatment fractions can be viewed as the strength of evidence favoring treatment. We apply our framework to a normal regression model and sample size calculations in randomized experiments.
+    
+[^14]: 何时应对多重假设检验进行推断调整？
+
+    (When) should you adjust inferences for multiple hypothesis testing?. (arXiv:2104.13367v5 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2104.13367](http://arxiv.org/abs/2104.13367)
+
+    研究生产函数中的规模经济；具有多个结果的研究激励使用单个指标进行测试；标准程序过于保守。
+
+    
+
+    多重假设检验的实践存在巨大差异，无法确定哪种方法合适。我们为这些做法提供了经济基础。在研究多个干预或亚群体时，根据研究生产函数的规模经济，可能需要进行调整，在有些情况下会控制复合误差的经典概念，但并非所有情况下都会出现。具有多个结果的研究激励使用单个指标进行测试，或者在面向异构受众时使用多个指标进行调整测试。两个应用程序中实际研究成本的数据表明，一些调整是有必要的，并且标准程序过于保守。
+
+    Multiple hypothesis testing practices vary widely, without consensus on which are appropriate when. We provide an economic foundation for these practices. In studies of multiple interventions or sub-populations, adjustments may be appropriate depending on scale economies in the research production function, with control of classical notions of compound errors emerging in some but not all cases. Studies with multiple outcomes motivate testing using a single index, or adjusted tests of several indices when the intended audience is heterogeneous. Data on actual research costs in two applications suggest both that some adjustment is warranted and that standard procedures are overly conservative.
+    
+[^15]: 电力市场中联合缓解市场垄断和环境外部性的定价机制
+
+    A Pricing Mechanism to Jointly Mitigate Market Power and Environmental Externalities in Electricity Markets. (arXiv:2104.00578v2 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2104.00578](http://arxiv.org/abs/2104.00578)
+
+    本论文提出了在电力市场中解决市场垄断和环境外部性问题的定价机制，并成功克服了现有价格上限机制的缺陷。
+
+    
+
+    电力产业一直是首先面临可持续性问题的行业之一。市场设计的效率方面往往集中于市场垄断问题，而新的政策挑战则强调可持续性。我们认为，市场设计需要发展治理市场行为和环境外部性联系的措施。因此，我们利用具有关于发电成本不完全信息的电网表示开发了一种基于激励的市场清算机制。在这种情况下，所提出的机制克服了价格上限缓解市场垄断的缺点。
+
+    The electricity industry has been one of the first to face technological changes motivated by sustainability concerns. Whilst efficiency aspects of market design have tended to focus upon market power concerns, the new policy challenges emphasise sustainability. We argue that market designs need to develop remedies for market conduct integrated with regard to environmental externalities. Accordingly, we develop an incentive-based market clearing mechanism using a power network representation with a distinctive feature of incomplete information regarding generation costs. The shortcomings of price caps to mitigate market power, in this context, are overcome with the proposed mechanism.
+    
+[^16]: 具有战略代理的治疗分配
+
+    Treatment Allocation with Strategic Agents. (arXiv:2011.06528v5 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2011.06528](http://arxiv.org/abs/2011.06528)
+
+    论文研究了带有战略代理的治疗分配问题。研究表明，最优规则可以涉及随机化，对那些平均上对治疗有积极反应的个体也可以分配不到100%的治疗机会。
+
+    
+
+    越来越多的人对基于观察到的个体特征的治疗分配产生兴趣，例如定向营销、个性化信用报价和异质性定价等。治疗个性化引入了个体修改其行为以获得更好治疗的激励。战略行为会改变共变量和潜在结果的联合分布。在没有战略行为的情况下，最佳规则将分配治疗对于有积极条件平均治疗效应的个体。而在存在战略行为时，我们发现最佳规则可以涉及随机化，即使是对那些平均上对治疗有积极反应的个体，也可以分配不到100%的治疗机会。我们提出了一个基于贝叶斯优化的顺序实验，它可以在没有个体战略行为参数假设下，收敛到最优治疗分配规则。
+
+    There is increasing interest in allocating treatments based on observed individual characteristics: examples include targeted marketing, individualized credit offers, and heterogeneous pricing. Treatment personalization introduces incentives for individuals to modify their behavior to obtain a better treatment. Strategic behavior shifts the joint distribution of covariates and potential outcomes. The optimal rule without strategic behavior allocates treatments only to those with a positive Conditional Average Treatment Effect. With strategic behavior, we show that the optimal rule can involve randomization, allocating treatments with less than 100% probability even to those who respond positively on average to the treatment. We propose a sequential experiment based on Bayesian Optimization that converges to the optimal treatment rule without parametric assumptions on individual strategic behavior.
     
 

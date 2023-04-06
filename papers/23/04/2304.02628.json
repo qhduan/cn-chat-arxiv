@@ -1,0 +1,12 @@
+{
+    "title": "What Affects Learned Equivariance in Deep Image Recognition Models?. (arXiv:2304.02628v1 [cs.CV])",
+    "abstract": "Equivariance w.r.t. geometric transformations in neural networks improves data efficiency, parameter efficiency and robustness to out-of-domain perspective shifts. When equivariance is not designed into a neural network, the network can still learn equivariant functions from the data. We quantify this learned equivariance, by proposing an improved measure for equivariance. We find evidence for a correlation between learned translation equivariance and validation accuracy on ImageNet. We therefore investigate what can increase the learned equivariance in neural networks, and find that data augmentation, reduced model capacity and inductive bias in the form of convolutions induce higher learned equivariance in neural networks.",
+    "link": "http://arxiv.org/abs/2304.02628",
+    "context": "Title: What Affects Learned Equivariance in Deep Image Recognition Models?. (arXiv:2304.02628v1 [cs.CV])\nAbstract: Equivariance w.r.t. geometric transformations in neural networks improves data efficiency, parameter efficiency and robustness to out-of-domain perspective shifts. When equivariance is not designed into a neural network, the network can still learn equivariant functions from the data. We quantify this learned equivariance, by proposing an improved measure for equivariance. We find evidence for a correlation between learned translation equivariance and validation accuracy on ImageNet. We therefore investigate what can increase the learned equivariance in neural networks, and find that data augmentation, reduced model capacity and inductive bias in the form of convolutions induce higher learned equivariance in neural networks.",
+    "path": "papers/23/04/2304.02628.json",
+    "total_tokens": 756,
+    "translated_title": "影响深度图像识别模型中学习等变性的因素是什么？",
+    "translated_abstract": "神经网络中与几何变换相关的等变性可以提高数据效率、参数效率和对域外透视变换的鲁棒性。当等变性没有被设计到神经网络中时，网络仍然可以从数据中学习等变函数。本文提出了一种改进的等变性测量方法来量化这种学习到的等变性，并发现学习到的翻译等变性与在ImageNet上的验证准确性之间存在相关性。因此，我们研究了如何增加神经网络中学习到的等变性，并发现数据增强、减少模型容量以及卷积形式的归纳偏差可以在神经网络中引入更高的学习到的等变性。",
+    "tldr": "本文研究了神经网络中学习到的等变性，提出了一种改进的等变性测量方法，并发现数据增强、减少模型容量和卷积操作可提高神经网络中学习到的等变性。",
+    "en_tdlr": "This article investigates the learned equivariance in neural networks and proposes an improved measure for it. The study finds that data augmentation, reduced model capacity, and convolutional bias can increase the learned equivariance in neural networks."
+}

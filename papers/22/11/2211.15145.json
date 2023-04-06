@@ -1,0 +1,12 @@
+{
+    "title": "Emerging trends in machine learning for computational fluid dynamics. (arXiv:2211.15145v2 [physics.flu-dyn] UPDATED)",
+    "abstract": "The renewed interest from the scientific community in machine learning (ML) is opening many new areas of research. Here we focus on how novel trends in ML are providing opportunities to improve the field of computational fluid dynamics (CFD). In particular, we discuss synergies between ML and CFD that have already shown benefits, and we also assess areas that are under development and may produce important benefits in the coming years. We believe that it is also important to emphasize a balanced perspective of cautious optimism for these emerging approaches",
+    "link": "http://arxiv.org/abs/2211.15145",
+    "context": "Title: Emerging trends in machine learning for computational fluid dynamics. (arXiv:2211.15145v2 [physics.flu-dyn] UPDATED)\nAbstract: The renewed interest from the scientific community in machine learning (ML) is opening many new areas of research. Here we focus on how novel trends in ML are providing opportunities to improve the field of computational fluid dynamics (CFD). In particular, we discuss synergies between ML and CFD that have already shown benefits, and we also assess areas that are under development and may produce important benefits in the coming years. We believe that it is also important to emphasize a balanced perspective of cautious optimism for these emerging approaches",
+    "path": "papers/22/11/2211.15145.json",
+    "total_tokens": 692,
+    "translated_title": "计算流体力学中机器学习的新趋势",
+    "translated_abstract": "科学界对机器学习的重新关注正在开辟许多新的研究领域。本文讨论了机器学习在计算流体力学领域中的新趋势，重点讨论了ML和CFD之间已经产生的协同效应，并评估了目前仍在开发中且可能在未来几年产生重要效益的领域。我们认为，强调谨慎乐观的平衡视角对于这些新兴方法非常重要。",
+    "tldr": "本文讨论了机器学习在计算流体力学领域中的新趋势，并重点讨论了ML和CFD之间的协同效应，还评估了仍在开发中的领域，提出了平衡谨慎乐观的视角。",
+    "en_tdlr": "This paper discusses the emerging trends of machine learning in the field of computational fluid dynamics (CFD) and the synergies between machine learning and CFD that have shown benefits. The paper also assesses areas still in development that may produce important benefits in the future, while emphasizing a balanced perspective of cautious optimism for these emerging approaches."
+}

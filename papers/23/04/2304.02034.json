@@ -1,0 +1,12 @@
+{
+    "title": "Effective Theory of Transformers at Initialization. (arXiv:2304.02034v1 [cs.LG])",
+    "abstract": "We perform an effective-theory analysis of forward-backward signal propagation in wide and deep Transformers, i.e., residual neural networks with multi-head self-attention blocks and multilayer perceptron blocks. This analysis suggests particular width scalings of initialization and training hyperparameters for these models. We then take up such suggestions, training Vision and Language Transformers in practical setups.",
+    "link": "http://arxiv.org/abs/2304.02034",
+    "context": "Title: Effective Theory of Transformers at Initialization. (arXiv:2304.02034v1 [cs.LG])\nAbstract: We perform an effective-theory analysis of forward-backward signal propagation in wide and deep Transformers, i.e., residual neural networks with multi-head self-attention blocks and multilayer perceptron blocks. This analysis suggests particular width scalings of initialization and training hyperparameters for these models. We then take up such suggestions, training Vision and Language Transformers in practical setups.",
+    "path": "papers/23/04/2304.02034.json",
+    "total_tokens": 597,
+    "translated_title": "初始化时Transformer的有效理论分析",
+    "translated_abstract": "我们对宽且深的Transformer（即使用多头自注意块和多层感知机块的残差神经网络）中的前向和后向信号传播进行了有效理论分析。该分析建议这些模型的初始化和训练超参数采用特定的宽度缩放。我们随后采用这些建议，在实际设置中对视觉和语言Transformer进行训练。",
+    "tldr": "本研究分析了宽且深的Transformer中的前向和后向信号传播，提出了特定的初始化和训练超参数宽度缩放建议，并在实际设置中验证了这些建议。",
+    "en_tdlr": "This paper presents an effective-theory analysis of forward-backward signal propagation in wide and deep Transformers based on residual neural networks with multi-head self-attention blocks and multilayer perceptron blocks. The analysis suggests particular width scalings of initialization and training hyperparameters for these models, which are then verified through training Vision and Language Transformers in practical setups."
+}

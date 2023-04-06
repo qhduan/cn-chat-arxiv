@@ -1,0 +1,11 @@
+{
+    "title": "Generalisation under gradient descent via deterministic PAC-Bayes. (arXiv:2209.02525v3 [stat.ML] UPDATED)",
+    "abstract": "We establish disintegrated PAC-Bayesian generalisation bounds for models trained with gradient descent methods or continuous gradient flows. Contrary to standard practice in the PAC-Bayesian setting, our result applies to optimisation algorithms that are deterministic, without requiring any de-randomisation step. Our bounds are fully computable, depending on the density of the initial distribution and the Hessian of the training objective over the trajectory. We show that our framework can be applied to a variety of iterative optimisation algorithms, including stochastic gradient descent (SGD), momentum-based schemes, and damped Hamiltonian dynamics.",
+    "link": "http://arxiv.org/abs/2209.02525",
+    "context": "Title: Generalisation under gradient descent via deterministic PAC-Bayes. (arXiv:2209.02525v3 [stat.ML] UPDATED)\nAbstract: We establish disintegrated PAC-Bayesian generalisation bounds for models trained with gradient descent methods or continuous gradient flows. Contrary to standard practice in the PAC-Bayesian setting, our result applies to optimisation algorithms that are deterministic, without requiring any de-randomisation step. Our bounds are fully computable, depending on the density of the initial distribution and the Hessian of the training objective over the trajectory. We show that our framework can be applied to a variety of iterative optimisation algorithms, including stochastic gradient descent (SGD), momentum-based schemes, and damped Hamiltonian dynamics.",
+    "path": "papers/22/09/2209.02525.json",
+    "total_tokens": 710,
+    "translated_title": "基于确定性PAC-Bayes的梯度下降下的泛化",
+    "translated_abstract": "我们为使用梯度下降方法或连续梯度流训练模型建立了细分的PAC-Bayesian泛化界限。与PAC-Bayes设定中的标准做法相反，我们的结果适用于确定性的优化算法，而不需要任何去随机化的步骤。我们的界限是完全可计算的，取决于初始分布的密度和轨迹上训练目标的海森矩阵。我们展示了我们的框架可以应用于各种迭代优化算法，包括随机梯度下降（SGD）、动量算法和阻尼哈密顿动力学。",
+    "tldr": "本文介绍了一种新的PAC-Bayesian泛化界限，适用于使用梯度下降方法或连续梯度流训练模型的优化算法，且无需随机化。"
+}

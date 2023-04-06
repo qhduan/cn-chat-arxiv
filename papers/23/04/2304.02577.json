@@ -1,0 +1,12 @@
+{
+    "title": "ECG Feature Importance Rankings: Cardiologists vs. Algorithms. (arXiv:2304.02577v1 [physics.med-ph])",
+    "abstract": "Feature importance methods promise to provide a ranking of features according to importance for a given classification task. A wide range of methods exist but their rankings often disagree and they are inherently difficult to evaluate due to a lack of ground truth beyond synthetic datasets. In this work, we put feature importance methods to the test on real-world data in the domain of cardiology, where we try to distinguish three specific pathologies from healthy subjects based on ECG features comparing to features used in cardiologists' decision rules as ground truth. Some methods generally performed well and others performed poorly, while some methods did well on some but not all of the problems considered.",
+    "link": "http://arxiv.org/abs/2304.02577",
+    "context": "Title: ECG Feature Importance Rankings: Cardiologists vs. Algorithms. (arXiv:2304.02577v1 [physics.med-ph])\nAbstract: Feature importance methods promise to provide a ranking of features according to importance for a given classification task. A wide range of methods exist but their rankings often disagree and they are inherently difficult to evaluate due to a lack of ground truth beyond synthetic datasets. In this work, we put feature importance methods to the test on real-world data in the domain of cardiology, where we try to distinguish three specific pathologies from healthy subjects based on ECG features comparing to features used in cardiologists' decision rules as ground truth. Some methods generally performed well and others performed poorly, while some methods did well on some but not all of the problems considered.",
+    "path": "papers/23/04/2304.02577.json",
+    "total_tokens": 749,
+    "translated_title": "ECG特征重要性排名：心脏病专家与算法的比较。",
+    "translated_abstract": "特征重要性方法承诺提供根据给定分类任务对特征的重要性进行排序。存在各种各样的方法，但它们的排序经常不一致，由于缺乏除合成数据集以外的基准真相，它们本质上很难评估。在本研究中，我们在心脏病学领域的真实数据上对特征重要性方法进行了测试，我们试图根据与心脏病专家决策规则中使用的特征进行比较来区分健康受试者中的三种特定病理。一些方法表现良好，而另一些方法表现不佳，而有些方法在考虑的问题中表现良好，但并非所有问题。",
+    "tldr": "该研究检验了在心脏病学领域的真实数据上的特征重要性方法，尝试区分三种特定病理。一些方法表现良好，而其他方法表现不佳。",
+    "en_tdlr": "This study examines feature importance methods on real-world data in the field of cardiology, attempting to distinguish three specific pathologies. Some methods perform well while others do not."
+}

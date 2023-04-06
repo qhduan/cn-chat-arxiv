@@ -1,0 +1,12 @@
+{
+    "title": "Three Variations on Variational Autoencoders. (arXiv:2212.04451v2 [cs.LG] UPDATED)",
+    "abstract": "Variational autoencoders (VAEs) are one class of generative probabilistic latent-variable models designed for inference based on known data. We develop three variations on VAEs by introducing a second parameterized encoder/decoder pair and, for one variation, an additional fixed encoder. The parameters of the encoders/decoders are to be learned with a neural network. The fixed encoder is obtained by probabilistic-PCA. The variations are compared to the Evidence Lower Bound (ELBO) approximation to the original VAE. One variation leads to an Evidence Upper Bound (EUBO) that can be used in conjunction with the original ELBO to interrogate the convergence of the VAE.",
+    "link": "http://arxiv.org/abs/2212.04451",
+    "context": "Title: Three Variations on Variational Autoencoders. (arXiv:2212.04451v2 [cs.LG] UPDATED)\nAbstract: Variational autoencoders (VAEs) are one class of generative probabilistic latent-variable models designed for inference based on known data. We develop three variations on VAEs by introducing a second parameterized encoder/decoder pair and, for one variation, an additional fixed encoder. The parameters of the encoders/decoders are to be learned with a neural network. The fixed encoder is obtained by probabilistic-PCA. The variations are compared to the Evidence Lower Bound (ELBO) approximation to the original VAE. One variation leads to an Evidence Upper Bound (EUBO) that can be used in conjunction with the original ELBO to interrogate the convergence of the VAE.",
+    "path": "papers/22/12/2212.04451.json",
+    "total_tokens": 736,
+    "translated_title": "变分自编码器的三种变体",
+    "translated_abstract": "变分自编码器（VAE）是一类基于已知数据推断的生成概率潜变量模型。我们通过引入第二个参数编码器/解码器对VAE进行了三种变体的开发，对于其中的一种变体，还引入了一个额外的固定编码器。编码器/解码器的参数将通过神经网络进行学习。固定编码器则由概率性PCA获得。这些变体与原始VAE的下限证据（ELBO）逼近进行了比较。其中一种变体产生了证据上限（EUBO），可与原始ELBO一起用来查询VAE的收敛情况。",
+    "tldr": "本文针对变分自编码器提出三种变体，其中一种与原模型的ELBO逼近相比产生了证据上限（EUBO），可用来查询模型收敛情况。",
+    "en_tdlr": "This paper presents three variations on Variational Autoencoders with the introduction of a second parameterized encoder/decoder pair and, for one variation, an additional fixed encoder. One of the variations results in an Evidence Upper Bound (EUBO) that can be used to interrogate the convergence of the VAE in conjunction with the original Evidence Lower Bound (ELBO)."
+}

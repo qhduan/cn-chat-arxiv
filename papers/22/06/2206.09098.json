@@ -1,0 +1,12 @@
+{
+    "title": "Existence and Minimax Theorems for Adversarial Surrogate Risks in Binary Classification. (arXiv:2206.09098v2 [cs.LG] UPDATED)",
+    "abstract": "Adversarial training is one of the most popular methods for training methods robust to adversarial attacks, however, it is not well-understood from a theoretical perspective. We prove and existence, regularity, and minimax theorems for adversarial surrogate risks. Our results explain some empirical observations on adversarial robustness from prior work and suggest new directions in algorithm development. Furthermore, our results extend previously known existence and minimax theorems for the adversarial classification risk to surrogate risks.",
+    "link": "http://arxiv.org/abs/2206.09098",
+    "context": "Title: Existence and Minimax Theorems for Adversarial Surrogate Risks in Binary Classification. (arXiv:2206.09098v2 [cs.LG] UPDATED)\nAbstract: Adversarial training is one of the most popular methods for training methods robust to adversarial attacks, however, it is not well-understood from a theoretical perspective. We prove and existence, regularity, and minimax theorems for adversarial surrogate risks. Our results explain some empirical observations on adversarial robustness from prior work and suggest new directions in algorithm development. Furthermore, our results extend previously known existence and minimax theorems for the adversarial classification risk to surrogate risks.",
+    "path": "papers/22/06/2206.09098.json",
+    "total_tokens": 667,
+    "translated_title": "对抗性代理风险在二元分类中的存在性和极小化定理",
+    "translated_abstract": "对抗性训练是训练鲁棒性强的方法之一，然而，它从理论角度并不为人们所熟知。本文证明了对抗性代理风险的存在性、正则性和极小化定理。我们的结果解释了之前研究中有关对抗鲁棒性的一些经验观察，并提出了算法发展的新方向。此外，我们的结果将之前已知的对抗分类风险的存在和极小化定理扩展到了代理风险。",
+    "tldr": "本文证明了对抗性代理风险的存在性、正则性和极小化定理，这一结果为对抗鲁棒性的理论提供了支持，并且可以指导算法的发展。",
+    "en_tdlr": "This paper proves the existence, regularity, and minimax theorems for adversarial surrogate risks in binary classification, which provides theoretical support for adversarial robustness and suggests new directions for algorithm development."
+}

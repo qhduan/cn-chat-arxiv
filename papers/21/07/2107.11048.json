@@ -1,0 +1,12 @@
+{
+    "title": "Stability of backward stochastic differential equations: the general case. (arXiv:2107.11048v2 [math.PR] UPDATED)",
+    "abstract": "In this paper, we obtain stability results for backward stochastic differential equations with jumps (BSDEs) in a very general framework. More specifically, we consider a convergent sequence of standard data, each associated to their own filtration, and we prove that the associated sequence of (unique) solutions is also convergent. The current result extends earlier contributions in the literature of stability of BSDEs and unifies several frameworks for numerical approximations of BSDEs and their implementations.",
+    "link": "http://arxiv.org/abs/2107.11048",
+    "context": "Title: Stability of backward stochastic differential equations: the general case. (arXiv:2107.11048v2 [math.PR] UPDATED)\nAbstract: In this paper, we obtain stability results for backward stochastic differential equations with jumps (BSDEs) in a very general framework. More specifically, we consider a convergent sequence of standard data, each associated to their own filtration, and we prove that the associated sequence of (unique) solutions is also convergent. The current result extends earlier contributions in the literature of stability of BSDEs and unifies several frameworks for numerical approximations of BSDEs and their implementations.",
+    "path": "papers/21/07/2107.11048.json",
+    "total_tokens": 678,
+    "translated_title": "倒向随机微分方程的稳定性：一般情况",
+    "translated_abstract": "本文在一个非常通用的框架下获得了带跳的倒向随机微分方程（BSDEs）的稳定性结果。具体而言，我们考虑了一个收敛的标准数据序列，每个数据序列都与自己的过滤器相关联，并且我们证明了相关的（唯一）解序列也收敛。当前的结果扩展了文献中对BSDEs稳定性的早期贡献，并统一了几种BSDEs数值逼近和实现的框架。",
+    "tldr": "本文证明了带跳的倒向随机微分方程（BSDEs）的解序列是稳定的，扩展了文献中对BSDEs稳定性的早期贡献，并统一了几种BSDEs数值逼近和实现的框架。",
+    "en_tdlr": "This paper proves the stability of the sequence of solutions to backward stochastic differential equations with jumps (BSDEs) in a very general framework, extending earlier contributions in the literature and unifying several frameworks for numerical approximations of BSDEs and their implementations."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "A Neural Network Approach for Selecting Track-like Events in Fluorescence Telescope Data. (arXiv:2212.03787v2 [astro-ph.IM] UPDATED)",
+    "abstract": "In 2016-2017, TUS, the world's first experiment for testing the possibility of registering ultra-high energy cosmic rays (UHECRs) by their fluorescent radiation in the night atmosphere of Earth was carried out. Since 2019, the Russian-Italian fluorescence telescope (FT) Mini-EUSO (\"UV Atmosphere\") has been operating on the ISS. The stratospheric experiment EUSO-SPB2, which will employ an FT for registering UHECRs, is planned for 2023. We show how a simple convolutional neural network can be effectively used to find track-like events in the variety of data obtained with such instruments.",
+    "link": "http://arxiv.org/abs/2212.03787",
+    "context": "Title: A Neural Network Approach for Selecting Track-like Events in Fluorescence Telescope Data. (arXiv:2212.03787v2 [astro-ph.IM] UPDATED)\nAbstract: In 2016-2017, TUS, the world's first experiment for testing the possibility of registering ultra-high energy cosmic rays (UHECRs) by their fluorescent radiation in the night atmosphere of Earth was carried out. Since 2019, the Russian-Italian fluorescence telescope (FT) Mini-EUSO (\"UV Atmosphere\") has been operating on the ISS. The stratospheric experiment EUSO-SPB2, which will employ an FT for registering UHECRs, is planned for 2023. We show how a simple convolutional neural network can be effectively used to find track-like events in the variety of data obtained with such instruments.",
+    "path": "papers/22/12/2212.03787.json",
+    "total_tokens": 731,
+    "translated_title": "一种用神经网络筛选荧光望远镜数据中轨迹事件的方法",
+    "translated_abstract": "2016-2017年，TUS进行了首次测试通过观测地球夜间大气中的紫外线荧光辐射来注册极高能宇宙射线(UHECRs)的可能性。自2019年以来，俄罗斯-意大利荧光望远镜(Mini-EUSO)一直在国际空间站上运行。计划于2023年进行平流层实验EUSO-SPB2，该实验将使用荧光望远镜来注册UHECRs。我们展示了如何使用简单的卷积神经网络在这些仪器获得的多样数据中有效地找到轨迹事件。",
+    "tldr": "该论文研究了如何使用神经网络在荧光望远镜数据中筛选出轨迹事件，结合实验测试了注册极高能宇宙射线的可能性。",
+    "en_tdlr": "This paper explores how to effectively select track-like events in fluorescence telescope data using a simple convolutional neural network and experimentally tests the possibility of registering ultra-high energy cosmic rays."
+}

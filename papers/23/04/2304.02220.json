@@ -1,0 +1,12 @@
+{
+    "title": "On the universal approximation property of radial basis function neural networks. (arXiv:2304.02220v1 [cs.LG])",
+    "abstract": "In this paper we consider a new class of RBF (Radial Basis Function) neural networks, in which smoothing factors are replaced with shifts. We prove under certain conditions on the activation function that these networks are capable of approximating any continuous multivariate function on any compact subset of the $d$-dimensional Euclidean space. For RBF networks with finitely many fixed centroids we describe conditions guaranteeing approximation with arbitrary precision.",
+    "link": "http://arxiv.org/abs/2304.02220",
+    "context": "Title: On the universal approximation property of radial basis function neural networks. (arXiv:2304.02220v1 [cs.LG])\nAbstract: In this paper we consider a new class of RBF (Radial Basis Function) neural networks, in which smoothing factors are replaced with shifts. We prove under certain conditions on the activation function that these networks are capable of approximating any continuous multivariate function on any compact subset of the $d$-dimensional Euclidean space. For RBF networks with finitely many fixed centroids we describe conditions guaranteeing approximation with arbitrary precision.",
+    "path": "papers/23/04/2304.02220.json",
+    "total_tokens": 633,
+    "translated_title": "关于径向基函数神经网络普适逼近性质的研究",
+    "translated_abstract": "本文研究了一种新的径向基函数神经网络类别，其中平滑因子被替换为位移。我们在激活函数的一定条件下证明了这些网络能够逼近欧几里得空间d维紧致子集上的任何连续多元函数。对于有限个固定中心的RBF网络，我们描述了保证任意精度逼近的条件。",
+    "tldr": "本论文研究了一种新的径向基函数神经网络类别，证明这些网络能够逼近任何连续多元函数，还讨论了有限个固定中心的RBF网络的逼近条件。",
+    "en_tdlr": "This paper studies a new class of Radial Basis Function (RBF) neural networks, proving their ability to approximate any continuous multivariate function on a compact subset of euclidean space under certain conditions on the activation function. The paper also discusses conditions for RBF networks with finitely many fixed centroids to achieve arbitrary precision approximation."
+}

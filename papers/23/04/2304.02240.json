@@ -1,0 +1,12 @@
+{
+    "title": "List and Certificate Complexities in Replicable Learning. (arXiv:2304.02240v1 [cs.LG])",
+    "abstract": "We investigate replicable learning algorithms. Ideally, we would like to design algorithms that output the same canonical model over multiple runs, even when different runs observe a different set of samples from the unknown data distribution. In general, such a strong notion of replicability is not achievable. Thus we consider two feasible notions of replicability called list replicability and certificate replicability. Intuitively, these notions capture the degree of (non) replicability. We design algorithms for certain learning problems that are optimal in list and certificate complexity. We establish matching impossibility results.",
+    "link": "http://arxiv.org/abs/2304.02240",
+    "context": "Title: List and Certificate Complexities in Replicable Learning. (arXiv:2304.02240v1 [cs.LG])\nAbstract: We investigate replicable learning algorithms. Ideally, we would like to design algorithms that output the same canonical model over multiple runs, even when different runs observe a different set of samples from the unknown data distribution. In general, such a strong notion of replicability is not achievable. Thus we consider two feasible notions of replicability called list replicability and certificate replicability. Intuitively, these notions capture the degree of (non) replicability. We design algorithms for certain learning problems that are optimal in list and certificate complexity. We establish matching impossibility results.",
+    "path": "papers/23/04/2304.02240.json",
+    "total_tokens": 678,
+    "translated_title": "复制学习中的列表和证明复杂度",
+    "translated_abstract": "我们研究了可复制学习算法。我们希望设计算法，即使不同的运行观察到来自未知数据分布的不同样本集，也能在多次运行中输出相同的规范模型。一般情况下，这种强的复制性并不可行。因此，我们考虑了两个可行的复制概念，称为列表复制和证书复制。直观地，这些概念捕捉了（无）复制的程度。我们设计了某些学习问题的算法，这些算法在列表和证书复杂度上是最优的。我们建立了匹配的不可能结果。",
+    "tldr": "研究复制学习算法的列表和证明复杂度，提出列表复制和证书复制的概念，设计了可行的方法，并在某些学习问题上建立了最优解。",
+    "en_tdlr": "This paper investigates list and certificate complexities in replicable learning algorithms, proposes feasible notions of replicability, and establishes optimal algorithms for certain learning problems while presenting matching impossibility results."
+}

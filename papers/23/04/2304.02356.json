@@ -1,0 +1,12 @@
+{
+    "title": "Unifying Market Microstructure and Dynamic Asset Pricing. (arXiv:2304.02356v1 [q-fin.MF])",
+    "abstract": "In this work, we introduce a discrete binary tree for pricing contingent claims with underlying securities that are characterized by discontinuity jumps. The discrete nature of financial markets means that a continuous model is unable to correctly describe the traders' expectations of future price variations. The proposed binary tree contains, as special cases, classical models of market microstructure theory. The underlying price process converges to the classical geometric Brownian motion as the time interval between trades approaches zero.",
+    "link": "http://arxiv.org/abs/2304.02356",
+    "context": "Title: Unifying Market Microstructure and Dynamic Asset Pricing. (arXiv:2304.02356v1 [q-fin.MF])\nAbstract: In this work, we introduce a discrete binary tree for pricing contingent claims with underlying securities that are characterized by discontinuity jumps. The discrete nature of financial markets means that a continuous model is unable to correctly describe the traders' expectations of future price variations. The proposed binary tree contains, as special cases, classical models of market microstructure theory. The underlying price process converges to the classical geometric Brownian motion as the time interval between trades approaches zero.",
+    "path": "papers/23/04/2304.02356.json",
+    "total_tokens": 665,
+    "translated_title": "合并市场微观结构与动态资产定价",
+    "translated_abstract": "本研究引入了一种针对具有间断跳跃特征的基础证券的离散二叉树来定价债权。金融市场的离散性意味着一个连续模型无法正确地描述交易者对未来价格变动的预期。所提出的二叉树包含了市场微观结构理论的经典模型作为特殊情况。当交易之间的时间间隔趋近于零时，基础价格过程收敛于经典几何布朗运动。",
+    "tldr": "本研究提出了一种离散二叉树模型，针对具有间断跳跃特征的基础证券进行债权定价，旨在合并市场微观结构和动态资产定价，能够描述交易者未来价格变动预期。",
+    "en_tdlr": "This paper proposes a discrete binary tree model for pricing contingent claims with underlying securities characterized by discontinuity jumps, aiming to unify market microstructure and dynamic asset pricing and accurately describe traders' expectations of future price variations."
+}

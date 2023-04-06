@@ -1,0 +1,12 @@
+{
+    "title": "A Characterization of Multioutput Learnability. (arXiv:2301.02729v4 [cs.LG] UPDATED)",
+    "abstract": "We consider the problem of learning multioutput function classes in batch and online settings. In both settings, we show that a multioutput function class is learnable if and only if each single-output restriction of the function class is learnable. This provides a complete characterization of the learnability of multilabel classification and multioutput regression in both batch and online settings. As an extension, we also consider multilabel learnability in the bandit feedback setting and show a similar characterization as in the full-feedback setting.",
+    "link": "http://arxiv.org/abs/2301.02729",
+    "context": "Title: A Characterization of Multioutput Learnability. (arXiv:2301.02729v4 [cs.LG] UPDATED)\nAbstract: We consider the problem of learning multioutput function classes in batch and online settings. In both settings, we show that a multioutput function class is learnable if and only if each single-output restriction of the function class is learnable. This provides a complete characterization of the learnability of multilabel classification and multioutput regression in both batch and online settings. As an extension, we also consider multilabel learnability in the bandit feedback setting and show a similar characterization as in the full-feedback setting.",
+    "path": "papers/23/01/2301.02729.json",
+    "total_tokens": 695,
+    "translated_title": "多输出可学习性的特征化研究",
+    "translated_abstract": "本文考虑了批处理和在线学习中的多输出函数类学习问题。我们证明了，当且仅当函数类的每个单输出子类都可学习时，多输出函数类才是可学习的。这提供了多标记分类和多输出回归在批处理和在线学习中可学习性的完整特征化。作为扩展，我们还考虑了在赌博反馈环境下的多标记学习，并展示了与完全反馈环境下类似的特征化。",
+    "tldr": "该论文研究了多输出函数类的学习问题，提出了多输出函数类学习的特征化判别标准，即每个单输出子类可学习时多输出函数类才可学习，在多标记分类和多输出回归领域取得了重要进展。",
+    "en_tdlr": "This paper studies the learning problem of multioutput function classes and proposes a characterization criterion for the learnability of multioutput function classes, which states that a multioutput function class is learnable only if each single-output restriction of the function class is learnable. Important progress has been made in the fields of multilabel classification and multioutput regression."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Globalizing Fairness Attributes in Machine Learning: A Case Study on Health in Africa. (arXiv:2304.02190v1 [cs.LG])",
+    "abstract": "With growing machine learning (ML) applications in healthcare, there have been calls for fairness in ML to understand and mitigate ethical concerns these systems may pose. Fairness has implications for global health in Africa, which already has inequitable power imbalances between the Global North and South. This paper seeks to explore fairness for global health, with Africa as a case study. We propose fairness attributes for consideration in the African context and delineate where they may come into play in different ML-enabled medical modalities. This work serves as a basis and call for action for furthering research into fairness in global health.",
+    "link": "http://arxiv.org/abs/2304.02190",
+    "context": "Title: Globalizing Fairness Attributes in Machine Learning: A Case Study on Health in Africa. (arXiv:2304.02190v1 [cs.LG])\nAbstract: With growing machine learning (ML) applications in healthcare, there have been calls for fairness in ML to understand and mitigate ethical concerns these systems may pose. Fairness has implications for global health in Africa, which already has inequitable power imbalances between the Global North and South. This paper seeks to explore fairness for global health, with Africa as a case study. We propose fairness attributes for consideration in the African context and delineate where they may come into play in different ML-enabled medical modalities. This work serves as a basis and call for action for furthering research into fairness in global health.",
+    "path": "papers/23/04/2304.02190.json",
+    "total_tokens": 757,
+    "translated_title": "机器学习中全球化的公正属性：以非洲健康为例的案例研究",
+    "translated_abstract": "随着机器学习在医疗保健中应用日益增加，有人呼吁在机器学习中实现公平，以了解和缓解这些系统可能带来的伦理问题。公平对非洲的全球卫生具有影响，因为全球南北之间已经存在不公平的权力失衡。本文旨在探讨非洲健康的公平性，并提出了非洲语境下考虑公平性的属性，并勾画了这些属性可能在不同的机器学习医学模式中发挥作用的范围。这项工作为促进全球卫生中的公平研究提供了基础和行动的呼吁。",
+    "tldr": "该论文以非洲卫生领域为案例研究，提出了机器学习中全球化的公正属性的体系，并应用于医疗模式，为促进全球卫生中的公平研究提供了基础和行动的呼吁。",
+    "en_tdlr": "This paper proposes a system of global fairness attributes for machine learning in healthcare, using Africa as a case study and calling for further research into fairness in global health."
+}

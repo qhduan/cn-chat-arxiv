@@ -1,0 +1,12 @@
+{
+    "title": "(When) should you adjust inferences for multiple hypothesis testing?. (arXiv:2104.13367v5 [econ.GN] UPDATED)",
+    "abstract": "Multiple hypothesis testing practices vary widely, without consensus on which are appropriate when. We provide an economic foundation for these practices. In studies of multiple interventions or sub-populations, adjustments may be appropriate depending on scale economies in the research production function, with control of classical notions of compound errors emerging in some but not all cases. Studies with multiple outcomes motivate testing using a single index, or adjusted tests of several indices when the intended audience is heterogeneous. Data on actual research costs in two applications suggest both that some adjustment is warranted and that standard procedures are overly conservative.",
+    "link": "http://arxiv.org/abs/2104.13367",
+    "context": "Title: (When) should you adjust inferences for multiple hypothesis testing?. (arXiv:2104.13367v5 [econ.GN] UPDATED)\nAbstract: Multiple hypothesis testing practices vary widely, without consensus on which are appropriate when. We provide an economic foundation for these practices. In studies of multiple interventions or sub-populations, adjustments may be appropriate depending on scale economies in the research production function, with control of classical notions of compound errors emerging in some but not all cases. Studies with multiple outcomes motivate testing using a single index, or adjusted tests of several indices when the intended audience is heterogeneous. Data on actual research costs in two applications suggest both that some adjustment is warranted and that standard procedures are overly conservative.",
+    "path": "papers/21/04/2104.13367.json",
+    "total_tokens": 686,
+    "translated_title": "何时应对多重假设检验进行推断调整？",
+    "translated_abstract": "多重假设检验的实践存在巨大差异，无法确定哪种方法合适。我们为这些做法提供了经济基础。在研究多个干预或亚群体时，根据研究生产函数的规模经济，可能需要进行调整，在有些情况下会控制复合误差的经典概念，但并非所有情况下都会出现。具有多个结果的研究激励使用单个指标进行测试，或者在面向异构受众时使用多个指标进行调整测试。两个应用程序中实际研究成本的数据表明，一些调整是有必要的，并且标准程序过于保守。",
+    "tldr": "研究生产函数中的规模经济；具有多个结果的研究激励使用单个指标进行测试；标准程序过于保守。",
+    "en_tdlr": "Scale economies in research production function; Studies with multiple outcomes motivate testing using a single index; Standard procedures are overly conservative."
+}

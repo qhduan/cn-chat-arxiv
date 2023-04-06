@@ -1,0 +1,12 @@
+{
+    "title": "Sequential Linearithmic Time Optimal Unimodal Fitting When Minimizing Univariate Linear Losses. (arXiv:2304.02141v1 [cs.LG])",
+    "abstract": "This paper focuses on optimal unimodal transformation of the score outputs of a univariate learning model under linear loss functions. We demonstrate that the optimal mapping between score values and the target region is a rectangular function. To produce this optimal rectangular fit for the observed samples, we propose a sequential approach that can its estimation with each incoming new sample. Our approach has logarithmic time complexity per iteration and is optimally efficient.",
+    "link": "http://arxiv.org/abs/2304.02141",
+    "context": "Title: Sequential Linearithmic Time Optimal Unimodal Fitting When Minimizing Univariate Linear Losses. (arXiv:2304.02141v1 [cs.LG])\nAbstract: This paper focuses on optimal unimodal transformation of the score outputs of a univariate learning model under linear loss functions. We demonstrate that the optimal mapping between score values and the target region is a rectangular function. To produce this optimal rectangular fit for the observed samples, we propose a sequential approach that can its estimation with each incoming new sample. Our approach has logarithmic time complexity per iteration and is optimally efficient.",
+    "path": "papers/23/04/2304.02141.json",
+    "total_tokens": 647,
+    "translated_title": "线性损失下的最优单峰拟合问题的线性对数时间算法",
+    "translated_abstract": "本文关注于单变量学习模型在线性损失函数下得分输出的最优单峰转换问题。我们证明了分数面值和目标区域之间的最佳映射是一个矩形函数。为了获得观测样本的最优矩形拟合，我们提出了一种顺序方法，可以在每个新样本到来时进行估计。我们的方法每次迭代具有对数时间复杂度，并且具有最优的效率。",
+    "tldr": "本文提出了一种线性对数时间算法，用于解决单变量学习模型在线性损失函数下得分输出的最优单峰转换问题。",
+    "en_tdlr": "This paper proposes a linearithmic time optimal algorithm for solving the optimal unimodal transformation problem of univariate learning model under linear loss functions. The authors proved that the optimal mapping between score values and the target region is a rectangular function and proposed a sequential approach with logarithmic time complexity per iteration for estimating this optimal rectangular fit for observed samples."
+}

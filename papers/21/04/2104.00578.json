@@ -1,0 +1,12 @@
+{
+    "title": "A Pricing Mechanism to Jointly Mitigate Market Power and Environmental Externalities in Electricity Markets. (arXiv:2104.00578v2 [econ.TH] UPDATED)",
+    "abstract": "The electricity industry has been one of the first to face technological changes motivated by sustainability concerns. Whilst efficiency aspects of market design have tended to focus upon market power concerns, the new policy challenges emphasise sustainability. We argue that market designs need to develop remedies for market conduct integrated with regard to environmental externalities. Accordingly, we develop an incentive-based market clearing mechanism using a power network representation with a distinctive feature of incomplete information regarding generation costs. The shortcomings of price caps to mitigate market power, in this context, are overcome with the proposed mechanism.",
+    "link": "http://arxiv.org/abs/2104.00578",
+    "context": "Title: A Pricing Mechanism to Jointly Mitigate Market Power and Environmental Externalities in Electricity Markets. (arXiv:2104.00578v2 [econ.TH] UPDATED)\nAbstract: The electricity industry has been one of the first to face technological changes motivated by sustainability concerns. Whilst efficiency aspects of market design have tended to focus upon market power concerns, the new policy challenges emphasise sustainability. We argue that market designs need to develop remedies for market conduct integrated with regard to environmental externalities. Accordingly, we develop an incentive-based market clearing mechanism using a power network representation with a distinctive feature of incomplete information regarding generation costs. The shortcomings of price caps to mitigate market power, in this context, are overcome with the proposed mechanism.",
+    "path": "papers/21/04/2104.00578.json",
+    "total_tokens": 665,
+    "translated_title": "电力市场中联合缓解市场垄断和环境外部性的定价机制",
+    "translated_abstract": "电力产业一直是首先面临可持续性问题的行业之一。市场设计的效率方面往往集中于市场垄断问题，而新的政策挑战则强调可持续性。我们认为，市场设计需要发展治理市场行为和环境外部性联系的措施。因此，我们利用具有关于发电成本不完全信息的电网表示开发了一种基于激励的市场清算机制。在这种情况下，所提出的机制克服了价格上限缓解市场垄断的缺点。",
+    "tldr": "本论文提出了在电力市场中解决市场垄断和环境外部性问题的定价机制，并成功克服了现有价格上限机制的缺陷。",
+    "en_tdlr": "This paper proposes a pricing mechanism to address market power and environmental externalities in electricity markets, overcoming the limitations of existing price cap mechanisms."
+}
