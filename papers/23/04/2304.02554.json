@@ -1,0 +1,12 @@
+{
+    "title": "Human-like Summarization Evaluation with ChatGPT. (arXiv:2304.02554v1 [cs.CL])",
+    "abstract": "Evaluating text summarization is a challenging problem, and existing evaluation metrics are far from satisfactory. In this study, we explored ChatGPT's ability to perform human-like summarization evaluation using four human evaluation methods on five datasets. We found that ChatGPT was able to complete annotations relatively smoothly using Likert scale scoring, pairwise comparison, Pyramid, and binary factuality evaluation. Additionally, it outperformed commonly used automatic evaluation metrics on some datasets. Furthermore, we discussed the impact of different prompts, compared its performance with that of human evaluation, and analyzed the generated explanations and invalid responses.",
+    "link": "http://arxiv.org/abs/2304.02554",
+    "context": "Title: Human-like Summarization Evaluation with ChatGPT. (arXiv:2304.02554v1 [cs.CL])\nAbstract: Evaluating text summarization is a challenging problem, and existing evaluation metrics are far from satisfactory. In this study, we explored ChatGPT's ability to perform human-like summarization evaluation using four human evaluation methods on five datasets. We found that ChatGPT was able to complete annotations relatively smoothly using Likert scale scoring, pairwise comparison, Pyramid, and binary factuality evaluation. Additionally, it outperformed commonly used automatic evaluation metrics on some datasets. Furthermore, we discussed the impact of different prompts, compared its performance with that of human evaluation, and analyzed the generated explanations and invalid responses.",
+    "path": "papers/23/04/2304.02554.json",
+    "total_tokens": 697,
+    "translated_title": "ChatGPT进行类人摘要评估",
+    "translated_abstract": "评估文本摘要是一个具有挑战性的问题，现有的评估指标远远不能令人满意。本研究探讨了ChatGPT在五个数据集上使用四种人类评估方法进行类人摘要评估的能力。我们发现，ChatGPT能够使用Likert量表评分、成对比较、金字塔和二元事实性评估比较顺利地完成注释。此外，在某些数据集上，它的表现优于常用的自动评估指标。此外，我们还讨论了不同提示的影响，比较了其性能与人类评估的性能，并分析了生成的解释和无效响应。",
+    "tldr": "本研究发现，使用ChatGPT进行类人摘要评估的能力良好，可以使用多种方法进行评估，并在某些数据集上优于现有的自动评估指标。",
+    "en_tdlr": "This study found that the ability to conduct human-like summarization evaluations using ChatGPT is good and can be evaluated using multiple methods, outperforming existing automatic evaluation metrics on some datasets."
+}

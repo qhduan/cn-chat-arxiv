@@ -61,12 +61,13 @@
 | [^57] | [Untargeted Backdoor Watermark: Towards Harmless and Stealthy Dataset Copyright Protection.](http://arxiv.org/abs/2210.00875) | 本文提出了一种针对数据集版权保护的无害和隐蔽的无目标后门水印方案，可以达到与最先进方案相当或更好的水印效果，并证明对模型性能无害且隐蔽。 |
 | [^58] | [Adversarial robustness of VAEs through the lens of local geometry.](http://arxiv.org/abs/2208.03923) | 本文证明了对手攻击VAEs的最佳方法是利用由编码器和解码器网络引起的随机回溯度规张量的方向偏差。 |
 | [^59] | [DeepIPC: Deeply Integrated Perception and Control for an Autonomous Vehicle in Real Environments.](http://arxiv.org/abs/2207.09934) | 本文介绍了DeepIPC，一个端到端自动驾驶模型，能够同时处理感知和控制任务。实验结果表明，DeepIPC具有最佳的可驾性和多任务性能，甚至比其他模型所需的参数更少。 |
-| [^60] | [PatchCensor: Patch Robustness Certification for Transformers via Exhaustive Testing.](http://arxiv.org/abs/2111.10481) | PatchCensor是一种用于视觉Transformer的补丁鲁棒性认证方法，基于全面测试并考虑最坏的补丁攻击情境，能够提供受保证的准确性。 |
-| [^61] | [From SLAM to Situational Awareness: Challenges and Survey.](http://arxiv.org/abs/2110.00273) | 本文研究旨在连接广泛的多学科现有知识，为移动机器人构建完整的情境感知（SA）系统，以提升其自主能力。 |
-| [^62] | [Federated Submodel Optimization for Hot and Cold Data Features.](http://arxiv.org/abs/2109.07704) | 本文提出了一种针对联邦学习稀疏数据特征的联邦子模型平均算法(FedSubAvg)，该算法可以有效避免数据稀疏问题导致的计算下降，并保证每个模型参数的全局更新期望等于涉及它的客户端的本地更新平均值。该算法的新度量元素梯度范数可以更好地表征在稀疏数据上的联邦优化收敛。 |
-| [^63] | [Improving Semiconductor Device Modeling for Electronic Design Automation by Machine Learning Techniques.](http://arxiv.org/abs/2105.11453) | 本文提出一种利用机器学习技术改进半导体器件建模的方法，通过自我增强策略和变分自编码器技术，只需少量实验数据点即可实现高精度预测，有效降低平均绝对误差，具有广泛应用价值。 |
-| [^64] | [Undivided Attention: Are Intermediate Layers Necessary for BERT?.](http://arxiv.org/abs/2012.11881) | 本论文调查了中间层对于BERT在下游任务表现的作用，表明删除中间层数量可以减少模型参数和训练时间，同时对下游任务的影响较小，学习到的表示不受影响。 |
-| [^65] | [CokeBERT: Contextual Knowledge Selection and Embedding towards Enhanced Pre-Trained Language Models.](http://arxiv.org/abs/2009.13964) | 本文提出了一种名为Coke的新框架，用于将上下文知识动态选择和嵌入到预训练语言模型中，以避免对输入文本匹配效果差的冗余和模糊知识的影响，并在知识驱动的自然语言处理任务上取得了优异表现。 |
+| [^60] | [Newton methods based convolution neural networks using parallel processing.](http://arxiv.org/abs/2112.01401) | 本研究提出基于牛顿方法和并行处理的卷积神经网络训练方法，使用完整的数据集来处理Hessian矩阵，并比之前的方法更高效。 |
+| [^61] | [PatchCensor: Patch Robustness Certification for Transformers via Exhaustive Testing.](http://arxiv.org/abs/2111.10481) | PatchCensor是一种用于视觉Transformer的补丁鲁棒性认证方法，基于全面测试并考虑最坏的补丁攻击情境，能够提供受保证的准确性。 |
+| [^62] | [From SLAM to Situational Awareness: Challenges and Survey.](http://arxiv.org/abs/2110.00273) | 本文研究旨在连接广泛的多学科现有知识，为移动机器人构建完整的情境感知（SA）系统，以提升其自主能力。 |
+| [^63] | [Federated Submodel Optimization for Hot and Cold Data Features.](http://arxiv.org/abs/2109.07704) | 本文提出了一种针对联邦学习稀疏数据特征的联邦子模型平均算法(FedSubAvg)，该算法可以有效避免数据稀疏问题导致的计算下降，并保证每个模型参数的全局更新期望等于涉及它的客户端的本地更新平均值。该算法的新度量元素梯度范数可以更好地表征在稀疏数据上的联邦优化收敛。 |
+| [^64] | [Improving Semiconductor Device Modeling for Electronic Design Automation by Machine Learning Techniques.](http://arxiv.org/abs/2105.11453) | 本文提出一种利用机器学习技术改进半导体器件建模的方法，通过自我增强策略和变分自编码器技术，只需少量实验数据点即可实现高精度预测，有效降低平均绝对误差，具有广泛应用价值。 |
+| [^65] | [Undivided Attention: Are Intermediate Layers Necessary for BERT?.](http://arxiv.org/abs/2012.11881) | 本论文调查了中间层对于BERT在下游任务表现的作用，表明删除中间层数量可以减少模型参数和训练时间，同时对下游任务的影响较小，学习到的表示不受影响。 |
+| [^66] | [CokeBERT: Contextual Knowledge Selection and Embedding towards Enhanced Pre-Trained Language Models.](http://arxiv.org/abs/2009.13964) | 本文提出了一种名为Coke的新框架，用于将上下文知识动态选择和嵌入到预训练语言模型中，以避免对输入文本匹配效果差的冗余和模糊知识的影响，并在知识驱动的自然语言处理任务上取得了优异表现。 |
 
 # 详细
 
@@ -896,7 +897,21 @@
 
     We propose DeepIPC, an end-to-end autonomous driving model that handles both perception and control tasks in driving a vehicle. The model consists of two main parts, perception and controller modules. The perception module takes an RGBD image to perform semantic segmentation and bird's eye view (BEV) semantic mapping along with providing their encoded features. Meanwhile, the controller module processes these features with the measurement of GNSS locations and angular speed to estimate waypoints that come with latent features. Then, two different agents are used to translate waypoints and latent features into a set of navigational controls to drive the vehicle. The model is evaluated by predicting driving records and performing automated driving under various conditions in real environments. The experimental results show that DeepIPC achieves the best drivability and multi-task performance even with fewer parameters compared to the other models. Codes are available at https://github.co
     
-[^60]: PatchCensor：通过穷尽测试提高视觉Transformers的补丁鲁棒性认证
+[^60]: 基于牛顿方法和并行处理的卷积神经网络
+
+    Newton methods based convolution neural networks using parallel processing. (arXiv:2112.01401v3 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2112.01401](http://arxiv.org/abs/2112.01401)
+
+    本研究提出基于牛顿方法和并行处理的卷积神经网络训练方法，使用完整的数据集来处理Hessian矩阵，并比之前的方法更高效。
+
+    
+
+    卷积神经网络的训练是一个高维的非凸优化问题。目前，在无法自信地设置参数学习率的情况下，效率很低。过去的一些研究引入了牛顿方法来训练深度神经网络。对于卷积神经网络，牛顿方法涉及复杂的操作。通过使用子采样的Hessian牛顿方法，卷积神经网络的牛顿方法处理了这个问题。本研究中，我们使用完整的数据而不是一次只处理部分数据的子采样方法。此外，我们使用并行处理而不是串行处理来进行小批量计算。本研究中使用并行处理得到的结果优于之前所用方法所需的时间。
+
+    Training of convolutional neural networks is a high dimensional and a non-convex optimization problem. At present, it is inefficient in situations where parametric learning rates can not be confidently set. Some past works have introduced Newton methods for training deep neural networks. Newton methods for convolutional neural networks involve complicated operations. Finding the Hessian matrix in second-order methods becomes very complex as we mainly use the finite differences method with the image data. Newton methods for convolutional neural networks deals with this by using the sub-sampled Hessian Newton methods. In this paper, we have used the complete data instead of the sub-sampled methods that only handle partial data at a time. Further, we have used parallel processing instead of serial processing in mini-batch computations. The results obtained using parallel processing in this study, outperform the time taken by the previous approach.
+    
+[^61]: PatchCensor：通过穷尽测试提高视觉Transformers的补丁鲁棒性认证
 
     PatchCensor: Patch Robustness Certification for Transformers via Exhaustive Testing. (arXiv:2111.10481v2 [cs.CV] UPDATED)
 
@@ -910,7 +925,7 @@
 
     Vision Transformer (ViT) is known to be highly nonlinear like other classical neural networks and could be easily fooled by both natural and adversarial patch perturbations. This limitation could pose a threat to the deployment of ViT in the real industrial environment, especially in safety-critical scenarios. In this work, we propose PatchCensor, aiming to certify the patch robustness of ViT by applying exhaustive testing. We try to provide a provable guarantee by considering the worst patch attack scenarios. Unlike empirical defenses against adversarial patches that may be adaptively breached, certified robust approaches can provide a certified accuracy against arbitrary attacks under certain conditions. However, existing robustness certifications are mostly based on robust training, which often requires substantial training efforts and the sacrifice of model performance on normal samples. To bridge the gap, PatchCensor seeks to improve the robustness of the whole system by detecting
     
-[^61]: 从SLAM到情境感知：挑战与综述
+[^62]: 从SLAM到情境感知：挑战与综述
 
     From SLAM to Situational Awareness: Challenges and Survey. (arXiv:2110.00273v3 [cs.RO] UPDATED)
 
@@ -924,7 +939,7 @@
 
     The capability of a mobile robot to efficiently and safely perform complex missions is limited by its knowledge of the environment, namely the situation. Advanced reasoning, decision-making, and execution skills enable an intelligent agent to act autonomously in unknown environments. Situational Awareness (SA) is a fundamental capability of humans that has been deeply studied in various fields, such as psychology, military, aerospace, and education. Nevertheless, it has yet to be considered in robotics, which has focused on single compartmentalized concepts such as sensing, spatial perception, sensor fusion, state estimation, and Simultaneous Localization and Mapping (SLAM). Hence, the present research aims to connect the broad multidisciplinary existing knowledge to pave the way for a complete SA system for mobile robotics that we deem paramount for autonomy. To this aim, we define the principal components to structure a robotic SA and their area of competence. Accordingly, this paper
     
-[^62]: Federated Submodel Optimization for Hot and Cold Data Features（热点和冷门数据特征的联邦子模型优化）
+[^63]: Federated Submodel Optimization for Hot and Cold Data Features（热点和冷门数据特征的联邦子模型优化）
 
     Federated Submodel Optimization for Hot and Cold Data Features. (arXiv:2109.07704v4 [cs.LG] UPDATED)
 
@@ -938,7 +953,7 @@
 
     We study practical data characteristics underlying federated learning, where non-i.i.d. data from clients have sparse features, and a certain client's local data normally involves only a small part of the full model, called a submodel. Due to data sparsity, the classical federated averaging (FedAvg) algorithm or its variants will be severely slowed down, because when updating the global model, each client's zero update of the full model excluding its submodel is inaccurately aggregated. Therefore, we propose federated submodel averaging (FedSubAvg), ensuring that the expectation of the global update of each model parameter is equal to the average of the local updates of the clients who involve it. We theoretically proved the convergence rate of FedSubAvg by deriving an upper bound under a new metric called the element-wise gradient norm. In particular, this new metric can characterize the convergence of federated optimization over sparse data, while the conventional metric of squared g
     
-[^63]: 利用机器学习技术改进半导体器件建模的电子设计自动化
+[^64]: 利用机器学习技术改进半导体器件建模的电子设计自动化
 
     Improving Semiconductor Device Modeling for Electronic Design Automation by Machine Learning Techniques. (arXiv:2105.11453v2 [cs.LG] UPDATED)
 
@@ -952,7 +967,7 @@
 
     The semiconductors industry benefits greatly from the integration of Machine Learning (ML)-based techniques in Technology Computer-Aided Design (TCAD) methods. The performance of ML models however relies heavily on the quality and quantity of training datasets. They can be particularly difficult to obtain in the semiconductor industry due to the complexity and expense of the device fabrication. In this paper, we propose a self-augmentation strategy for improving ML-based device modeling using variational autoencoder-based techniques. These techniques require a small number of experimental data points and does not rely on TCAD tools. To demonstrate the effectiveness of our approach, we apply it to a deep neural network-based prediction task for the Ohmic resistance value in Gallium Nitride devices. A 70% reduction in mean absolute error when predicting experimental results is achieved. The inherent flexibility of our approach allows easy adaptation to various tasks, thus making it highl
     
-[^64]: 无分割关注：BERT是否需要中间层？
+[^65]: 无分割关注：BERT是否需要中间层？
 
     Undivided Attention: Are Intermediate Layers Necessary for BERT?. (arXiv:2012.11881v2 [cs.CL] UPDATED)
 
@@ -966,7 +981,7 @@
 
     In recent times, BERT-based models have been extremely successful in solving a variety of natural language processing (NLP) tasks such as reading comprehension, natural language inference, sentiment analysis, etc. All BERT-based architectures have a self-attention block followed by a block of intermediate layers as the basic building component. However, a strong justification for the inclusion of these intermediate layers remains missing in the literature. In this work we investigate the importance of intermediate layers on the overall network performance of downstream tasks. We show that reducing the number of intermediate layers and modifying the architecture for BERT-BASE results in minimal loss in fine-tuning accuracy for downstream tasks while decreasing the number of parameters and training time of the model. Additionally, we use centered kernel alignment and probing linear classifiers to gain insight into our architectural modifications and justify that removal of intermediate l
     
-[^65]: CokeBERT: 增强预训练语言模型的上下文知识选择与嵌入
+[^66]: CokeBERT: 增强预训练语言模型的上下文知识选择与嵌入
 
     CokeBERT: Contextual Knowledge Selection and Embedding towards Enhanced Pre-Trained Language Models. (arXiv:2009.13964v5 [cs.CL] UPDATED)
 
