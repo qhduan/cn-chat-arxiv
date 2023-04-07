@@ -30,23 +30,24 @@
 | [^26] | [Performance of Data Augmentation Methods for Brazilian Portuguese Text Classification.](http://arxiv.org/abs/2304.02785) | 本文分析了不同的数据增强方法在巴西葡萄牙语文本分类中的表现，揭示了一些方法的改进之处，同时也指出了需要更多利用语言偏见和非英语文本数据的稀缺性。 |
 | [^27] | [Application of Transformers based methods in Electronic Medical Records: A Systematic Literature Review.](http://arxiv.org/abs/2304.02768) | 这篇论文综述了基于Transformer的自然语言处理技术在电子病历领域中的应用，并提出了目前研究中的限制和未来研究的方向。 |
 | [^28] | [The Saudi Privacy Policy Dataset.](http://arxiv.org/abs/2304.02757) | 本文介绍了由沙特阿拉伯不同领域的阿拉伯语隐私政策组成的数据集，该数据集根据个人数据保护法的10个原则进行了注释。该数据集可用于评估隐私政策遵守性、行业隐私实践基准测试以及开发监测数据保护法规遵守性的自动化工具。 |
-| [^29] | [Sejarah dan Perkembangan Teknik Natural Language Processing (NLP) Bahasa Indonesia: Tinjauan tentang sejarah, perkembangan teknologi, dan aplikasi NLP dalam bahasa Indonesia.](http://arxiv.org/abs/2304.02746) | 本文概述了印尼语自然语言处理技术的历史和发展，包括基础技术、实际应用和挑战。未来的研究应该拓展更有效率的方法和技术，并扩大NLP的应用范围。 |
-| [^30] | [Bengali Fake Review Detection using Semi-supervised Generative Adversarial Networks.](http://arxiv.org/abs/2304.02739) | 本文研究使用半监督生成对抗网络以少量数据分类孟加拉语假评论和真实评论的潜力，并提出了BanglaBERT与半监督GAN相结合的解决方案，实验结果表明其准确率达到83.59％，f1分数达到84.89％。 |
-| [^31] | [Core Challenges in Embodied Vision-Language Planning.](http://arxiv.org/abs/2304.02738) | 本文讨论了具身视觉语言规划（EVLP）任务领域的挑战和机会，旨在共同利用计算机视觉和自然语言进行物理环境交互。 |
-| [^32] | [To Asymmetry and Beyond: Structured Pruning of Sequence to Sequence Models for Improved Inference Efficiency.](http://arxiv.org/abs/2304.02721) | 本论文研究了模型大小、结构化剪枝、推断效率和摘要准确性之间的关系，发现使用不对称剪枝可在不大损失模型准确性的情况下，提高推断效率约3倍。 |
-| [^33] | [ParroT: Translating During Chat Using Large Language Models.](http://arxiv.org/abs/2304.02426) | ParroT提出了一种基于开源LLM和人工编写的翻译评估数据的聊天翻译框架，可以将翻译数据转化为指令执行样式，并引入额外要求来规范翻译过程。在使用相对较少的训练数据的情况下，实验结果表明 ParroT 可以大幅提高翻译质量。 |
-| [^34] | [Large Language Models as Master Key: Unlocking the Secrets of Materials Science with GPT.](http://arxiv.org/abs/2304.02213) | 本文介绍了一个新的自然语言处理任务——结构化信息推理（SIS），利用GPT-3模型能够准确提取材料科学设备层面的信息，并通过实验预测PCE和反向预测参数，展示了大型语言模型在材料学中的巨大潜力。 |
-| [^35] | [Unlocking the Potential of ChatGPT: A Comprehensive Exploration of its Applications, Advantages, Limitations, and Future Directions in Natural Language Processing.](http://arxiv.org/abs/2304.02017) | 本文全面探讨了ChatGPT在自然语言处理中的应用、优点和局限性，强调了使用这个强大工具时的道德考虑，为人工智能和NLP领域的讨论做出了贡献。 |
-| [^36] | [RPTQ: Reorder-based Post-training Quantization for Large Language Models.](http://arxiv.org/abs/2304.01089) | 本研究提出了一种新的基于重排的量化方法RPTQ，目的是解决大型语言模型在量化时由于信道激活范围不同而产生的问题。实现该方法后，我们将LLL模型推动到3位激活。 |
-| [^37] | [ViewRefer: Grasp the Multi-view Knowledge for 3D Visual Grounding with GPT and Prototype Guidance.](http://arxiv.org/abs/2303.16894) | 本文提出了ViewRefer，这是一个多视角的三维视觉定位框架，利用大规模语言模型和多视角原型，从文本和3D模态中获取视角知识并增强框架的表现。 |
-| [^38] | [Task-oriented Memory-efficient Pruning-Adapter.](http://arxiv.org/abs/2303.14704) | 本文提出了一种面向任务的剪枝适配器方法，既实现了训练和内存的高效率，又加快了训练时间，并且在 GLUE 任务中没有显著降低准确性。 |
-| [^39] | [Return of the RNN: Residual Recurrent Networks for Invertible Sentence Embeddings.](http://arxiv.org/abs/2303.13570) | 本研究提出了一种使用残差循环神经网络的新型模型，实现了可逆的句子嵌入。与其他神经机器翻译模型不同，该方法使用基于回归的输出层重建输入序列的单词向量，其具有高准确度和快速训练速度。这种方法适合各种自然语言处理应用，特别是对需要高质量句嵌入的神经网络系统的使用具有潜在优势。 |
-| [^40] | [Zero-Shot Cross-Lingual Summarization via Large Language Models.](http://arxiv.org/abs/2302.14229) | 本文实验性地使用各种提示来指导大型语言模型从不同的范式执行零样本跨语言摘要，并成功提高了它们的CLS性能。其中，GPT-4实现了零样本CLS的最先进性能，并且在性能方面与最佳方法相当。 |
-| [^41] | [Dataless Knowledge Fusion by Merging Weights of Language Models.](http://arxiv.org/abs/2212.09849) | 本文提出了一种无数据知识融合方法，可以合并在不同训练数据集上建立的单个模型，以得到一个在所有数据集领域上表现良好且可以推广到域外数据的单一模型。 |
-| [^42] | [From exemplar to copy: the scribal appropriation of a Hadewijch manuscript computationally explored.](http://arxiv.org/abs/2210.14061) | 本文研究了中世纪神秘作家Hadewijch的手稿副本之间微妙的语言变化和抄写者的拼写惯例差异，并运用计算分析方法进行了探究。 |
-| [^43] | [Toxicity in Multilingual Machine Translation at Scale.](http://arxiv.org/abs/2210.03070) | 本文研究了在大规模多语言机器翻译中一种关键错误类型——添加毒性。自动和人工评估均表明低资源语言和特定人口统计轴，如性取向、性别和能力等，往往会出现更多的毒性。为了更好地解释这些结果，我们使用了度量翻译源贡献量的方法。 |
-| [^44] | [Sparse*BERT: Sparse Models Generalize To New tasks and Domains.](http://arxiv.org/abs/2205.12452) | 本文研究了使用渐进非结构化幅值修剪进行修剪的模型如何在领域和任务之间进行转移。使用遮蔽语言模型进行预训练的被修剪模型能够在不进行广泛的超参数探索或专门方法的情况下转移到新的领域和任务。在生物医学NLP任务中，Sparse*BERT可以达到或超过BioBERT的性能。 |
-| [^45] | [Term Rewriting Based On Set Automaton Matching.](http://arxiv.org/abs/2202.08687) | 本文描述了如何利用集合自动机构造重写系统的左侧，从而高效查找术语中的所有红块，并提供了一个在最外层重写下具有竞争力的有效实现方法。 |
+| [^29] | [Behavioral estimates of conceptual structure are robust across tasks in humans but not large language models.](http://arxiv.org/abs/2304.02754) | 本研究使用两种经典认知心理学技术来估算人类和GPT-3等大型语言模型的词汇语义结构，结果表明人类的概念结构稳健鲁棒，而大型语言模型的行为估算结构更多取决于具体任务。 |
+| [^30] | [Sejarah dan Perkembangan Teknik Natural Language Processing (NLP) Bahasa Indonesia: Tinjauan tentang sejarah, perkembangan teknologi, dan aplikasi NLP dalam bahasa Indonesia.](http://arxiv.org/abs/2304.02746) | 本文概述了印尼语自然语言处理技术的历史和发展，包括基础技术、实际应用和挑战。未来的研究应该拓展更有效率的方法和技术，并扩大NLP的应用范围。 |
+| [^31] | [Bengali Fake Review Detection using Semi-supervised Generative Adversarial Networks.](http://arxiv.org/abs/2304.02739) | 本文研究使用半监督生成对抗网络以少量数据分类孟加拉语假评论和真实评论的潜力，并提出了BanglaBERT与半监督GAN相结合的解决方案，实验结果表明其准确率达到83.59％，f1分数达到84.89％。 |
+| [^32] | [Core Challenges in Embodied Vision-Language Planning.](http://arxiv.org/abs/2304.02738) | 本文讨论了具身视觉语言规划（EVLP）任务领域的挑战和机会，旨在共同利用计算机视觉和自然语言进行物理环境交互。 |
+| [^33] | [To Asymmetry and Beyond: Structured Pruning of Sequence to Sequence Models for Improved Inference Efficiency.](http://arxiv.org/abs/2304.02721) | 本论文研究了模型大小、结构化剪枝、推断效率和摘要准确性之间的关系，发现使用不对称剪枝可在不大损失模型准确性的情况下，提高推断效率约3倍。 |
+| [^34] | [ParroT: Translating During Chat Using Large Language Models.](http://arxiv.org/abs/2304.02426) | ParroT提出了一种基于开源LLM和人工编写的翻译评估数据的聊天翻译框架，可以将翻译数据转化为指令执行样式，并引入额外要求来规范翻译过程。在使用相对较少的训练数据的情况下，实验结果表明 ParroT 可以大幅提高翻译质量。 |
+| [^35] | [Large Language Models as Master Key: Unlocking the Secrets of Materials Science with GPT.](http://arxiv.org/abs/2304.02213) | 本文介绍了一个新的自然语言处理任务——结构化信息推理（SIS），利用GPT-3模型能够准确提取材料科学设备层面的信息，并通过实验预测PCE和反向预测参数，展示了大型语言模型在材料学中的巨大潜力。 |
+| [^36] | [Unlocking the Potential of ChatGPT: A Comprehensive Exploration of its Applications, Advantages, Limitations, and Future Directions in Natural Language Processing.](http://arxiv.org/abs/2304.02017) | 本文全面探讨了ChatGPT在自然语言处理中的应用、优点和局限性，强调了使用这个强大工具时的道德考虑，为人工智能和NLP领域的讨论做出了贡献。 |
+| [^37] | [RPTQ: Reorder-based Post-training Quantization for Large Language Models.](http://arxiv.org/abs/2304.01089) | 本研究提出了一种新的基于重排的量化方法RPTQ，目的是解决大型语言模型在量化时由于信道激活范围不同而产生的问题。实现该方法后，我们将LLL模型推动到3位激活。 |
+| [^38] | [ViewRefer: Grasp the Multi-view Knowledge for 3D Visual Grounding with GPT and Prototype Guidance.](http://arxiv.org/abs/2303.16894) | 本文提出了ViewRefer，这是一个多视角的三维视觉定位框架，利用大规模语言模型和多视角原型，从文本和3D模态中获取视角知识并增强框架的表现。 |
+| [^39] | [Task-oriented Memory-efficient Pruning-Adapter.](http://arxiv.org/abs/2303.14704) | 本文提出了一种面向任务的剪枝适配器方法，既实现了训练和内存的高效率，又加快了训练时间，并且在 GLUE 任务中没有显著降低准确性。 |
+| [^40] | [Return of the RNN: Residual Recurrent Networks for Invertible Sentence Embeddings.](http://arxiv.org/abs/2303.13570) | 本研究提出了一种使用残差循环神经网络的新型模型，实现了可逆的句子嵌入。与其他神经机器翻译模型不同，该方法使用基于回归的输出层重建输入序列的单词向量，其具有高准确度和快速训练速度。这种方法适合各种自然语言处理应用，特别是对需要高质量句嵌入的神经网络系统的使用具有潜在优势。 |
+| [^41] | [Zero-Shot Cross-Lingual Summarization via Large Language Models.](http://arxiv.org/abs/2302.14229) | 本文实验性地使用各种提示来指导大型语言模型从不同的范式执行零样本跨语言摘要，并成功提高了它们的CLS性能。其中，GPT-4实现了零样本CLS的最先进性能，并且在性能方面与最佳方法相当。 |
+| [^42] | [Dataless Knowledge Fusion by Merging Weights of Language Models.](http://arxiv.org/abs/2212.09849) | 本文提出了一种无数据知识融合方法，可以合并在不同训练数据集上建立的单个模型，以得到一个在所有数据集领域上表现良好且可以推广到域外数据的单一模型。 |
+| [^43] | [From exemplar to copy: the scribal appropriation of a Hadewijch manuscript computationally explored.](http://arxiv.org/abs/2210.14061) | 本文研究了中世纪神秘作家Hadewijch的手稿副本之间微妙的语言变化和抄写者的拼写惯例差异，并运用计算分析方法进行了探究。 |
+| [^44] | [Toxicity in Multilingual Machine Translation at Scale.](http://arxiv.org/abs/2210.03070) | 本文研究了在大规模多语言机器翻译中一种关键错误类型——添加毒性。自动和人工评估均表明低资源语言和特定人口统计轴，如性取向、性别和能力等，往往会出现更多的毒性。为了更好地解释这些结果，我们使用了度量翻译源贡献量的方法。 |
+| [^45] | [Sparse*BERT: Sparse Models Generalize To New tasks and Domains.](http://arxiv.org/abs/2205.12452) | 本文研究了使用渐进非结构化幅值修剪进行修剪的模型如何在领域和任务之间进行转移。使用遮蔽语言模型进行预训练的被修剪模型能够在不进行广泛的超参数探索或专门方法的情况下转移到新的领域和任务。在生物医学NLP任务中，Sparse*BERT可以达到或超过BioBERT的性能。 |
+| [^46] | [Term Rewriting Based On Set Automaton Matching.](http://arxiv.org/abs/2202.08687) | 本文描述了如何利用集合自动机构造重写系统的左侧，从而高效查找术语中的所有红块，并提供了一个在最外层重写下具有竞争力的有效实现方法。 |
 
 # 详细
 
@@ -442,7 +443,21 @@
 
     This paper introduces the Saudi Privacy Policy Dataset, a diverse compilation of Arabic privacy policies from various sectors in Saudi Arabia, annotated according to the 10 principles of the Personal Data Protection Law (PDPL); the PDPL was established to be compatible with General Data Protection Regulation (GDPR); one of the most comprehensive data regulations worldwide. Data were collected from multiple sources, including the Saudi Central Bank, the Saudi Arabia National United Platform, the Council of Health Insurance, and general websites using Google and Wikipedia. The final dataset includes 1,000 websites belonging to 7 sectors, 4,638 lines of text, 775,370 tokens, and a corpus size of 8,353 KB. The annotated dataset offers significant reuse potential for assessing privacy policy compliance, benchmarking privacy practices across industries, and developing automated tools for monitoring adherence to data protection regulations. By providing a comprehensive and annotated dataset o
     
-[^29]: 印尼语自然语言处理技术（NLP）的历史和发展：基础技术、方法、实际应用和挑战
+[^29]: 人类和大型语言模型中的概念结构表现的差异性
+
+    Behavioral estimates of conceptual structure are robust across tasks in humans but not large language models. (arXiv:2304.02754v1 [cs.AI])
+
+    [http://arxiv.org/abs/2304.02754](http://arxiv.org/abs/2304.02754)
+
+    本研究使用两种经典认知心理学技术来估算人类和GPT-3等大型语言模型的词汇语义结构，结果表明人类的概念结构稳健鲁棒，而大型语言模型的行为估算结构更多取决于具体任务。
+
+    
+
+    多年以来，神经网络语言模型一直被用作研究心理和脑部概念表征的工具。然而，在当代语言人工智能中，我们可以使用与人类参与者几乎相同的方法来探讨概念表征的潜在结构。本研究使用两种经典的认知心理学技术来估算和比较人类和一个著名的大型语言模型（GPT-3的DaVinci变体）的词汇语义结构。研究表明，人类的概念结构强大且鲁棒，不受文化、语言和估算方法的差异影响；大型语言模型中的行为估算结果相对稳定，但具体取决于任务本身。这些结果表明，虽然人类参与者的行为估算结果可靠，但在使用大型语言模型进行人类认知处理相关推断时，需要谨慎。
+
+    Neural network models of language have long been used as a tool for developing hypotheses about conceptual representation in the mind and brain. For many years, such use involved extracting vector-space representations of words and using distances among these to predict or understand human behavior in various semantic tasks. In contemporary language AIs, however, it is possible to interrogate the latent structure of conceptual representations using methods nearly identical to those commonly used with human participants. The current work uses two common techniques borrowed from cognitive psychology to estimate and compare lexical-semantic structure in both humans and a well-known AI, the DaVinci variant of GPT-3. In humans, we show that conceptual structure is robust to differences in culture, language, and method of estimation. Structures estimated from AI behavior, while individually fairly consistent with those estimated from human behavior, depend much more upon the particular task 
+    
+[^30]: 印尼语自然语言处理技术（NLP）的历史和发展：基础技术、方法、实际应用和挑战
 
     Sejarah dan Perkembangan Teknik Natural Language Processing (NLP) Bahasa Indonesia: Tinjauan tentang sejarah, perkembangan teknologi, dan aplikasi NLP dalam bahasa Indonesia. (arXiv:2304.02746v1 [cs.CL])
 
@@ -456,7 +471,7 @@
 
     This study provides an overview of the history of the development of Natural Language Processing (NLP) in the context of the Indonesian language, with a focus on the basic technologies, methods, and practical applications that have been developed. This review covers developments in basic NLP technologies such as stemming, part-of-speech tagging, and related methods; practical applications in cross-language information retrieval systems, information extraction, and sentiment analysis; and methods and techniques used in Indonesian language NLP research, such as machine learning, statistics-based machine translation, and conflict-based approaches. This study also explores the application of NLP in Indonesian language industry and research and identifies challenges and opportunities in Indonesian language NLP research and development. Recommendations for future Indonesian language NLP research and development include developing more efficient methods and technologies, expanding NLP applica
     
-[^30]: 使用半监督生成对抗网络检测孟加拉语假评论
+[^31]: 使用半监督生成对抗网络检测孟加拉语假评论
 
     Bengali Fake Review Detection using Semi-supervised Generative Adversarial Networks. (arXiv:2304.02739v1 [cs.CL])
 
@@ -470,7 +485,7 @@
 
     This paper investigates the potential of semi-supervised Generative Adversarial Networks (GANs) to fine-tune pretrained language models in order to classify Bengali fake reviews from real reviews with a few annotated data. With the rise of social media and e-commerce, the ability to detect fake or deceptive reviews is becoming increasingly important in order to protect consumers from being misled by false information. Any machine learning model will have trouble identifying a fake review, especially for a low resource language like Bengali. We have demonstrated that the proposed semi-supervised GAN-LM architecture (generative adversarial network on top of a pretrained language model) is a viable solution in classifying Bengali fake reviews as the experimental results suggest that even with only 1024 annotated samples, BanglaBERT with semi-supervised GAN (SSGAN) achieved an accuracy of 83.59% and a f1-score of 84.89% outperforming other pretrained language models BanglaBERT generator,
     
-[^31]: 具身视觉语言规划中的核心挑战
+[^32]: 具身视觉语言规划中的核心挑战
 
     Core Challenges in Embodied Vision-Language Planning. (arXiv:2304.02738v1 [cs.RO])
 
@@ -484,7 +499,7 @@
 
     Recent advances in the areas of Multimodal Machine Learning and Artificial Intelligence (AI) have led to the development of challenging tasks at the intersection of Computer Vision, Natural Language Processing, and Robotics. Whereas many approaches and previous survey pursuits have characterised one or two of these dimensions, there has not been a holistic analysis at the center of all three. Moreover, even when combinations of these topics are considered, more focus is placed on describing, e.g., current architectural methods, as opposed to also illustrating high-level challenges and opportunities for the field. In this survey paper, we discuss Embodied Vision-Language Planning (EVLP) tasks, a family of prominent embodied navigation and manipulation problems that jointly leverage computer vision and natural language for interaction in physical environments. We propose a taxonomy to unify these tasks and provide an in-depth analysis and comparison of the current and new algorithmic app
     
-[^32]: 超越不对称性：结构剪枝提高序列到序列模型的推断效率
+[^33]: 超越不对称性：结构剪枝提高序列到序列模型的推断效率
 
     To Asymmetry and Beyond: Structured Pruning of Sequence to Sequence Models for Improved Inference Efficiency. (arXiv:2304.02721v1 [cs.CL])
 
@@ -498,7 +513,7 @@
 
     Sequence-to-sequence language models can be used to produce abstractive summaries which are coherent, relevant, and concise. Still, model sizes can make deployment in latency-sensitive or web-scale implementations difficult. This paper studies the relationship between model size, structured pruning, inference efficiency, and summarization accuracy on widely used summarization datasets. We show that model accuracy is tied to the encoder size while inference efficiency is connected to the decoder. Using asymmetric pruning can lead to nearly 3x improvement in inference latency with ~1 point loss in Rouge-2. Moreover, we find both the average degradation and the role of asymmetry to be consistent across model sizes and variations in datasets.
     
-[^33]: ParroT: 使用大型语言模型进行聊天翻译
+[^34]: ParroT: 使用大型语言模型进行聊天翻译
 
     ParroT: Translating During Chat Using Large Language Models. (arXiv:2304.02426v1 [cs.CL])
 
@@ -512,7 +527,7 @@
 
     Large language models (LLMs) like ChatGPT and GPT-4 have exhibited remarkable abilities on a wide range of natural language processing (NLP) tasks, including various machine translation abilities accomplished during chat. However, these models are only accessible through restricted APIs, which creates barriers to new research and advancements in the field. Therefore, we propose the $\mathbf{ParroT}$ framework to enhance and regulate the translation abilities during chat based on open-sourced LLMs (i.e., LLaMA-7b) and human written translation and evaluation data. Specifically, ParroT reformulates translation data into the instruction-following style, and introduces a "Hint" field for incorporating extra requirements to regulate the translation process. Accordingly, we propose three instruction types for finetuning ParroT models, including translation instruction, contrastive instruction, and error-guided instruction. Experiments on two Flores subsets and WMT22 test sets suggest that tr
     
-[^34]: 大型语言模型作为钥匙：用GPT解密材料科学的秘密。
+[^35]: 大型语言模型作为钥匙：用GPT解密材料科学的秘密。
 
     Large Language Models as Master Key: Unlocking the Secrets of Materials Science with GPT. (arXiv:2304.02213v1 [cs.CL])
 
@@ -526,7 +541,7 @@
 
     This article presents a new NLP task called structured information inference (SIS) to address the complexities of information extraction at the device level in materials science. We accomplished this task by finetuning GPT-3 on a exsiting perovskite solar cell FAIR dataset with 91.8 F1-score and we updated the dataset with all related scientific papers up to now. The produced dataset is formatted and normalized, enabling its direct utilization as input in subsequent data analysis. This feature will enable materials scientists to develop their own models by selecting high-quality review papers within their domain. Furthermore, we designed experiments to predict PCE and reverse-predict parameters and obtained comparable performance with DFT, which demonstrates the potential of large language models to judge materials and design new materials like a materials scientist.
     
-[^35]: 解锁ChatGPT的潜力：对其在自然语言处理中应用、优点、局限性和未来方向的全面探讨
+[^36]: 解锁ChatGPT的潜力：对其在自然语言处理中应用、优点、局限性和未来方向的全面探讨
 
     Unlocking the Potential of ChatGPT: A Comprehensive Exploration of its Applications, Advantages, Limitations, and Future Directions in Natural Language Processing. (arXiv:2304.02017v1 [cs.CL])
 
@@ -540,7 +555,7 @@
 
     ChatGPT is a powerful tool in the field of artificial intelligence that has been widely used in various applications. ChatGPT has been applied successfully in chatbots, content generation, language translation, personalized recommendations, and medical diagnosis and treatment. Its versatility and accuracy make it a powerful tool for natural language processing (NLP). However, there are also limitations to ChatGPT, such as its tendency to produce biased responses and its potential to perpetuate harmful language patterns. This article provides a comprehensive overview of ChatGPT, its applications, advantages, and limitations. Additionally, the paper emphasizes the importance of ethical considerations when using this robust tool in real-world scenarios. Finally, This paper contributes to ongoing discussions surrounding artificial intelligence and its impact on vision and NLP domains by providing insights into prompt engineering techniques.
     
-[^36]: 基于重排的后训练量化方法在大型语言模型中的应用
+[^37]: 基于重排的后训练量化方法在大型语言模型中的应用
 
     RPTQ: Reorder-based Post-training Quantization for Large Language Models. (arXiv:2304.01089v2 [cs.CL] UPDATED)
 
@@ -554,7 +569,7 @@
 
     Large-scale language models (LLMs) have demonstrated outstanding performance on various tasks, but their deployment poses challenges due to their enormous model size. In this paper, we identify that the main challenge in quantizing LLMs stems from the different activation ranges between the channels, rather than just the issue of outliers.We propose a novel reorder-based quantization approach, RPTQ, that addresses the issue of quantizing the activations of LLMs. RPTQ rearranges the channels in the activations and then quantizing them in clusters, thereby reducing the impact of range difference of channels. In addition, we reduce the storage and computation overhead by avoiding explicit reordering. By implementing this approach, we achieved a significant breakthrough by pushing LLM models to 3 bit activation for the first time.
     
-[^37]: ViewRefer: 基于GPT和样例引导的多视角知识处理的三维视觉定位
+[^38]: ViewRefer: 基于GPT和样例引导的多视角知识处理的三维视觉定位
 
     ViewRefer: Grasp the Multi-view Knowledge for 3D Visual Grounding with GPT and Prototype Guidance. (arXiv:2303.16894v1 [cs.CV])
 
@@ -568,7 +583,7 @@
 
     Understanding 3D scenes from multi-view inputs has been proven to alleviate the view discrepancy issue in 3D visual grounding. However, existing methods normally neglect the view cues embedded in the text modality and fail to weigh the relative importance of different views. In this paper, we propose ViewRefer, a multi-view framework for 3D visual grounding exploring how to grasp the view knowledge from both text and 3D modalities. For the text branch, ViewRefer leverages the diverse linguistic knowledge of large-scale language models, e.g., GPT, to expand a single grounding text to multiple geometry-consistent descriptions. Meanwhile, in the 3D modality, a transformer fusion module with inter-view attention is introduced to boost the interaction of objects across views. On top of that, we further present a set of learnable multi-view prototypes, which memorize scene-agnostic knowledge for different views, and enhance the framework from two perspectives: a view-guided attention module 
     
-[^38]: 面向任务的内存高效剪枝适配器
+[^39]: 面向任务的内存高效剪枝适配器
 
     Task-oriented Memory-efficient Pruning-Adapter. (arXiv:2303.14704v2 [cs.CL] UPDATED)
 
@@ -582,7 +597,7 @@
 
     The Outstanding performance and growing size of Large Language Models has led to increased attention in parameter efficient learning. The two predominant approaches are Adapters and Pruning. Adapters are to freeze the model and give it a new weight matrix on the side, which can significantly reduce the time and memory of training, but the cost is that the evaluation and testing will increase the time and memory consumption. Pruning is to cut off some weight and re-distribute the remaining weight, which sacrifices the complexity of training at the cost of extremely high memory and training time, making the cost of evaluation and testing relatively low. So efficiency of training and inference can't be obtained in the same time. In this work, we propose a task-oriented Pruning-Adapter method that achieve a high memory efficiency of training and memory, and speeds up training time and ensures no significant decrease in accuracy in GLUE tasks, achieving training and inference efficiency at 
     
-[^39]: RNN 的回归：用可逆句嵌入的残差循环神经网络
+[^40]: RNN 的回归：用可逆句嵌入的残差循环神经网络
 
     Return of the RNN: Residual Recurrent Networks for Invertible Sentence Embeddings. (arXiv:2303.13570v1 [cs.CL])
 
@@ -596,7 +611,7 @@
 
     This study presents a novel model for invertible sentence embeddings using a residual recurrent network trained on an unsupervised encoding task. Rather than the probabilistic outputs common to neural machine translation models, our approach employs a regression-based output layer to reconstruct the input sequence's word vectors. The model achieves high accuracy and fast training with the ADAM optimizer, a significant finding given that RNNs typically require memory units, such as LSTMs, or second-order optimization methods. We incorporate residual connections and introduce a "match drop" technique, where gradients are calculated only for incorrect words. Our approach demonstrates potential for various natural language processing applications, particularly in neural network-based systems that require high-quality sentence embeddings.
     
-[^40]: 基于大语言模型的零样本跨语言摘要
+[^41]: 基于大语言模型的零样本跨语言摘要
 
     Zero-Shot Cross-Lingual Summarization via Large Language Models. (arXiv:2302.14229v2 [cs.CL] UPDATED)
 
@@ -610,7 +625,7 @@
 
     Given a document in a source language, cross-lingual summarization (CLS) aims to generate a summary in a different target language. Recently, the emergence of Large Language Models (LLMs), such as GPT-3.5, ChatGPT and GPT-4, has attracted wide attention from the computational linguistics community. However, it is not yet known the performance of LLMs on CLS. In this report, we empirically use various prompts to guide LLMs to perform zero-shot CLS from different paradigms (i.e., end-to-end and pipeline), and provide a preliminary evaluation on the generated summaries. We find that ChatGPT and GPT-4 originally prefer to produce lengthy summaries with detailed information. These two LLMs can further balance informativeness and conciseness with the help of an interactive prompt, significantly improving their CLS performance. Experimental results on three widely-used CLS datasets show that GPT-4 achieves state-of-the-art zero-shot CLS performance, and performs competitively compared with th
     
-[^41]: 通过合并语言模型的权重实现无数据知识融合
+[^42]: 通过合并语言模型的权重实现无数据知识融合
 
     Dataless Knowledge Fusion by Merging Weights of Language Models. (arXiv:2212.09849v2 [cs.CL] UPDATED)
 
@@ -624,7 +639,7 @@
 
     Fine-tuning pre-trained language models has become the prevalent paradigm for building downstream NLP models. Oftentimes fine-tuned models are readily available but their training data is not, due to data privacy or intellectual property concerns. This creates a barrier to fusing knowledge across individual models to yield a better single model. In this paper, we study the problem of merging individual models built on different training data sets to obtain a single model that performs well both across all data set domains and can generalize on out-of-domain data. We propose a dataless knowledge fusion method that merges models in their parameter space, guided by weights that minimize prediction differences between the merged model and the individual models. Over a battery of evaluation settings, we show that the proposed method significantly outperforms baselines such as Fisher-weighted averaging or model ensembling. Further, we find that our method is a promising alternative to multi-
     
-[^42]: 从范例到抄本：计算探究Hadewijch手稿的抄写者拓本
+[^43]: 从范例到抄本：计算探究Hadewijch手稿的抄写者拓本
 
     From exemplar to copy: the scribal appropriation of a Hadewijch manuscript computationally explored. (arXiv:2210.14061v4 [cs.CL] UPDATED)
 
@@ -638,7 +653,7 @@
 
     This study is devoted to two of the oldest known manuscripts in which the oeuvre of the medieval mystical author Hadewijch has been preserved: Brussels, KBR, 2879-2880 (ms. A) and Brussels, KBR, 2877-2878 (ms. B). On the basis of codicological and contextual arguments, it is assumed that the scribe who produced B used A as an exemplar. While the similarities in both layout and content between the two manuscripts are striking, the present article seeks to identify the differences. After all, regardless of the intention to produce a copy that closely follows the exemplar, subtle linguistic variation is apparent. Divergences relate to spelling conventions, but also to the way in which words are abbreviated (and the extent to which abbreviations occur). The present study investigates the spelling profiles of the scribes who produced mss. A and B in a computational way. In the first part of this study, we will present both manuscripts in more detail, after which we will consider prior resea
     
-[^43]: 大规模多语言机器翻译中的毒性问题
+[^44]: 大规模多语言机器翻译中的毒性问题
 
     Toxicity in Multilingual Machine Translation at Scale. (arXiv:2210.03070v2 [cs.CL] UPDATED)
 
@@ -652,7 +667,7 @@
 
     Machine Translation systems can produce different types of errors, some of which are characterized as critical or catastrophic due to the specific negative impact that they can have on users. In this paper we focus on one type of critical error: added toxicity. We evaluate and analyze added toxicity when translating a large evaluation dataset (HOLISTICBIAS, over 472k sentences, covering 13 demographic axes) from English into 164 languages. An automatic toxicity evaluation shows that added toxicity across languages varies from 0% to 5%. The output languages with the most added toxicity tend to be low-resource ones, and the demographic axes with the most added toxicity include sexual orientation, gender and sex, and ability. We also perform human evaluation on a subset of 8 translation directions, confirming the prevalence of true added toxicity. We use a measurement of the amount of source contribution to the translation, where a low source contribution implies hallucination, to interpr
     
-[^44]: 稀疏*BERT：稀疏模型能够泛化到新的任务和领域（翻译自arXiv:2205.12452v2 [cs.CL] UPDATED）
+[^45]: 稀疏*BERT：稀疏模型能够泛化到新的任务和领域（翻译自arXiv:2205.12452v2 [cs.CL] UPDATED）
 
     Sparse*BERT: Sparse Models Generalize To New tasks and Domains. (arXiv:2205.12452v2 [cs.CL] UPDATED)
 
@@ -666,7 +681,7 @@
 
     Large Language Models have become the core architecture upon which most modern natural language processing (NLP) systems build. These models can consistently deliver impressive accuracy and robustness across tasks and domains, but their high computational overhead can make inference difficult and expensive. To make using these models less costly, recent work has explored leveraging structured and unstructured pruning, quantization, and distillation to improve inference speed and decrease size. This paper studies how models pruned using Gradual Unstructured Magnitude Pruning can transfer between domains and tasks. Our experimentation shows that models that are pruned during pretraining using general domain masked language models can transfer to novel domains and tasks without extensive hyperparameter exploration or specialized approaches. We demonstrate that our general sparse model Sparse*BERT can become SparseBioBERT simply by pretraining the compressed architecture on unstructured bi
     
-[^45]: 基于集合自动机匹配的术语重写
+[^46]: 基于集合自动机匹配的术语重写
 
     Term Rewriting Based On Set Automaton Matching. (arXiv:2202.08687v3 [cs.CL] UPDATED)
 
