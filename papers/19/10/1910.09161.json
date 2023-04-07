@@ -1,0 +1,11 @@
+{
+    "title": "Sequential Adversarial Anomaly Detection for One-Class Event Data. (arXiv:1910.09161v5 [stat.ML] UPDATED)",
+    "abstract": "We consider the sequential anomaly detection problem in the one-class setting when only the anomalous sequences are available and propose an adversarial sequential detector by solving a minimax problem to find an optimal detector against the worst-case sequences from a generator. The generator captures the dependence in sequential events using the marked point process model. The detector sequentially evaluates the likelihood of a test sequence and compares it with a time-varying threshold, also learned from data through the minimax problem. We demonstrate our proposed method's good performance using numerical experiments on simulations and proprietary large-scale credit card fraud datasets. The proposed method can generally apply to detecting anomalous sequences.",
+    "link": "http://arxiv.org/abs/1910.09161",
+    "context": "Title: Sequential Adversarial Anomaly Detection for One-Class Event Data. (arXiv:1910.09161v5 [stat.ML] UPDATED)\nAbstract: We consider the sequential anomaly detection problem in the one-class setting when only the anomalous sequences are available and propose an adversarial sequential detector by solving a minimax problem to find an optimal detector against the worst-case sequences from a generator. The generator captures the dependence in sequential events using the marked point process model. The detector sequentially evaluates the likelihood of a test sequence and compares it with a time-varying threshold, also learned from data through the minimax problem. We demonstrate our proposed method's good performance using numerical experiments on simulations and proprietary large-scale credit card fraud datasets. The proposed method can generally apply to detecting anomalous sequences.",
+    "path": "papers/19/10/1910.09161.json",
+    "total_tokens": 758,
+    "translated_title": "用于一类事件数据的顺序对抗异常检测",
+    "translated_abstract": "本文考虑在单类场景下的顺序异常检测问题，仅在异常序列可用时，提出了一种对抗顺序检测器，通过解决最小最大问题，针对最坏情况的生成器，找到最佳检测器。生成器使用带标记的点过程模型捕捉序列事件中的相关性。检测器顺序评估测试序列的可能性，并将其与学习自最小最大问题的时间变化阈值进行比较。我们在模拟和专有的大规模信用卡欺诈数据集上展示了提出方法的良好性能。该方法通常适用于检测异常序列。",
+    "tldr": "本文提出了一种对抗顺序检测器，使用带标记的点过程模型捕捉序列事件中的相关性，可以应用于检测异常序列，通过解决最小最大问题，针对最坏情况的生成器，找到最佳检测器。"
+}

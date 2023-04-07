@@ -1,0 +1,12 @@
+{
+    "title": "Term Rewriting Based On Set Automaton Matching. (arXiv:2202.08687v3 [cs.CL] UPDATED)",
+    "abstract": "In this article we investigate how a subterm pattern matching algorithm can be exploited to implement efficient term rewriting procedures. From the left-hand sides of the rewrite system we construct a set automaton, which can be used to find all redexes in a term efficiently. We formally describe a procedure that, given a rewrite strategy, interleaves pattern matching steps and rewriting steps and thus smoothly integrates redex discovery and subterm replacement. We then present an efficient implementation that instantiates this procedure with outermost rewriting, and present the results of some experiments. Our implementation shows to be competitive with comparable tools.",
+    "link": "http://arxiv.org/abs/2202.08687",
+    "context": "Title: Term Rewriting Based On Set Automaton Matching. (arXiv:2202.08687v3 [cs.CL] UPDATED)\nAbstract: In this article we investigate how a subterm pattern matching algorithm can be exploited to implement efficient term rewriting procedures. From the left-hand sides of the rewrite system we construct a set automaton, which can be used to find all redexes in a term efficiently. We formally describe a procedure that, given a rewrite strategy, interleaves pattern matching steps and rewriting steps and thus smoothly integrates redex discovery and subterm replacement. We then present an efficient implementation that instantiates this procedure with outermost rewriting, and present the results of some experiments. Our implementation shows to be competitive with comparable tools.",
+    "path": "papers/22/02/2202.08687.json",
+    "total_tokens": 704,
+    "translated_title": "基于集合自动机匹配的术语重写",
+    "translated_abstract": "本文研究了如何利用子项模式匹配算法来实现高效的术语重写程序。从重写系统的左侧构造集合自动机，以便有效地查找所有术语中的红块。我们正式描述了一个过程，给定重写策略，交替进行模式匹配和重写步骤，从而顺利地集成了红块发现和子项替换。然后，我们提出了一种高效的实现，将此过程实例化为最外层重写，并呈现了一些实验结果。我们的实现表现出与可比工具相当的竞争力。",
+    "tldr": "本文描述了如何利用集合自动机构造重写系统的左侧，从而高效查找术语中的所有红块，并提供了一个在最外层重写下具有竞争力的有效实现方法。",
+    "en_tdlr": "This paper describes how to efficiently find all redexes in terms by constructing a set automaton from the left-hand sides of the rewrite system using subterm pattern matching, and provides an efficient implementation with outermost rewriting that is competitive with comparable tools."
+}

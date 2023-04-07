@@ -1,0 +1,11 @@
+{
+    "title": "Deep learning-based image exposure enhancement as a pre-processing for an accurate 3D colon surface reconstruction. (arXiv:2304.03171v1 [eess.IV])",
+    "abstract": "This contribution shows how an appropriate image pre-processing can improve a deep-learning based 3D reconstruction of colon parts. The assumption is that, rather than global image illumination corrections, local under- and over-exposures should be corrected in colonoscopy. An overview of the pipeline including the image exposure correction and a RNN-SLAM is first given. Then, this paper quantifies the reconstruction accuracy of the endoscope trajectory in the colon with and without appropriate illumination correction",
+    "link": "http://arxiv.org/abs/2304.03171",
+    "context": "Title: Deep learning-based image exposure enhancement as a pre-processing for an accurate 3D colon surface reconstruction. (arXiv:2304.03171v1 [eess.IV])\nAbstract: This contribution shows how an appropriate image pre-processing can improve a deep-learning based 3D reconstruction of colon parts. The assumption is that, rather than global image illumination corrections, local under- and over-exposures should be corrected in colonoscopy. An overview of the pipeline including the image exposure correction and a RNN-SLAM is first given. Then, this paper quantifies the reconstruction accuracy of the endoscope trajectory in the colon with and without appropriate illumination correction",
+    "path": "papers/23/04/2304.03171.json",
+    "total_tokens": 669,
+    "translated_title": "以深度学习为基础的图像曝光增强作为准确的三维结肠表面重建的预处理",
+    "translated_abstract": "本文介绍了如何通过适当的图像预处理改善基于深度学习的结肠部分三维重建。假设在内窥镜检查中应该纠正局部欠曝光和过曝光而不是全局图像照明校正。首先概述了包括图像曝光校正和循环神经网络-SLAM的流程。然后，本文比较了在与适当照明校正和无校正的情况下结肠内镜轨迹的重建精度。",
+    "tldr": "本文研究了基于深度学习的三维结肠表面重建，在图像预处理的过程中通过纠正局部欠曝光和过曝光来提高重建精度。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Whose Text Is It Anyway? Exploring BigCode, Intellectual Property, and Ethics. (arXiv:2304.02839v1 [cs.CY])",
+    "abstract": "Intelligent or generative writing tools rely on large language models that recognize, summarize, translate, and predict content. This position paper probes the copyright interests of open data sets used to train large language models (LLMs). Our paper asks, how do LLMs trained on open data sets circumvent the copyright interests of the used data? We start by defining software copyright and tracing its history. We rely on GitHub Copilot as a modern case study challenging software copyright. Our conclusion outlines obstacles that generative writing assistants create for copyright, and offers a practical road map for copyright analysis for developers, software law experts, and general users to consider in the context of intelligent LLM-powered writing tools.",
+    "link": "http://arxiv.org/abs/2304.02839",
+    "context": "Title: Whose Text Is It Anyway? Exploring BigCode, Intellectual Property, and Ethics. (arXiv:2304.02839v1 [cs.CY])\nAbstract: Intelligent or generative writing tools rely on large language models that recognize, summarize, translate, and predict content. This position paper probes the copyright interests of open data sets used to train large language models (LLMs). Our paper asks, how do LLMs trained on open data sets circumvent the copyright interests of the used data? We start by defining software copyright and tracing its history. We rely on GitHub Copilot as a modern case study challenging software copyright. Our conclusion outlines obstacles that generative writing assistants create for copyright, and offers a practical road map for copyright analysis for developers, software law experts, and general users to consider in the context of intelligent LLM-powered writing tools.",
+    "path": "papers/23/04/2304.02839.json",
+    "total_tokens": 780,
+    "translated_title": "这是翻译后的论文标题：谁是文本的主人？探索 BigCode、知识产权和伦理道德。",
+    "translated_abstract": "智能或生成的写作工具依赖于识别、概括、翻译和预测内容的大型语言模型。本文探讨了用于训练大型语言模型的开放数据集的版权利益。我们提出了一个问题，即如何解决基于开放数据集的LLMs规避使用数据的版权利益问题？我们从定义软件版权并追溯其历史开始。我们以GitHub Copilot作为挑战软件版权的现代案例研究。我们的结论概述了生成式写作助手为版权所产生的障碍，并提供了一份实用的路线图，供开发人员、软件法律专家和普通用户在智能LLM驱动的写作工具的背景下考虑版权分析。",
+    "tldr": "该论文探讨了用于训练大型语言模型的开放数据集的版权利益，并分析了现代生成式写作工具在版权方面所带来的挑战和障碍。",
+    "en_tdlr": "This paper explores the copyright interests of open datasets used to train large language models and examines the challenges and obstacles that modern generative writing tools create for copyright."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Improving automatic endoscopic stone recognition using a multi-view fusion approach enhanced with two-step transfer learning. (arXiv:2304.03193v1 [eess.IV])",
+    "abstract": "This contribution presents a deep-learning method for extracting and fusing image information acquired from different viewpoints, with the aim to produce more discriminant object features for the identification of the type of kidney stones seen in endoscopic images. The model was further improved with a two-step transfer learning approach and by attention blocks to refine the learned feature maps. Deep feature fusion strategies improved the results of single view extraction backbone models by more than 6% in terms of accuracy of the kidney stones classification.",
+    "link": "http://arxiv.org/abs/2304.03193",
+    "context": "Title: Improving automatic endoscopic stone recognition using a multi-view fusion approach enhanced with two-step transfer learning. (arXiv:2304.03193v1 [eess.IV])\nAbstract: This contribution presents a deep-learning method for extracting and fusing image information acquired from different viewpoints, with the aim to produce more discriminant object features for the identification of the type of kidney stones seen in endoscopic images. The model was further improved with a two-step transfer learning approach and by attention blocks to refine the learned feature maps. Deep feature fusion strategies improved the results of single view extraction backbone models by more than 6% in terms of accuracy of the kidney stones classification.",
+    "path": "papers/23/04/2304.03193.json",
+    "total_tokens": 663,
+    "translated_title": "采用多视图融合及两步式迁移学习增强的自动内镜结石识别方法",
+    "translated_abstract": "本文提出了一种深度学习方法，用于提取和融合从不同视角获取的图像信息，旨在为鉴定内镜图像中所见的肾结石类型产生更具区分性的物体特征。本模型进一步应用了两步迁移学习方法和注意力块来调整学习的特征图。深度特征融合策略将肾结石分类准确度比单视图提取主干模型提高了6%以上。",
+    "tldr": "本文介绍了一种利用多视图融合及两步式迁移学习增强的自动内镜结石识别方法，可提高肾结石分类准确度达6%以上。",
+    "en_tdlr": "This paper presents a deep-learning approach for automatic endoscopic stone recognition using multi-view fusion and two-step transfer learning, which improves the classification accuracy of kidney stones by more than 6% compared to single view extraction backbone models."
+}

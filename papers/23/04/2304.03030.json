@@ -1,0 +1,12 @@
+{
+    "title": "Compression of enumerations and gain. (arXiv:2304.03030v1 [cs.CL])",
+    "abstract": "We study the compressibility of enumerations, and its role in the relative Kolmogorov complexity of computably enumerable sets, with respect to density. With respect to a strong and a weak form of compression, we examine the gain: the amount of auxiliary information embedded in the compressed enumeration. Strong compression and weak gainless compression is shown for any computably enumerable set, and a positional game is studied toward understanding strong gainless compression.",
+    "link": "http://arxiv.org/abs/2304.03030",
+    "context": "Title: Compression of enumerations and gain. (arXiv:2304.03030v1 [cs.CL])\nAbstract: We study the compressibility of enumerations, and its role in the relative Kolmogorov complexity of computably enumerable sets, with respect to density. With respect to a strong and a weak form of compression, we examine the gain: the amount of auxiliary information embedded in the compressed enumeration. Strong compression and weak gainless compression is shown for any computably enumerable set, and a positional game is studied toward understanding strong gainless compression.",
+    "path": "papers/23/04/2304.03030.json",
+    "total_tokens": 667,
+    "translated_title": "枚举压缩与增益",
+    "translated_abstract": "我们研究了枚举的可压缩性，以及其在计算可枚举集合的相对Kolmogorov复杂度中密度方面的作用。我们关注了强压缩和弱压缩，以及压缩枚举中嵌入的附加信息的数量：增益。我们证明了任何计算可枚举集合都可以进行强压缩和无增益弱压缩，并研究了位置游戏以理解强无增益压缩。",
+    "tldr": "本文研究了枚举的可压缩性对于计算可枚举集合的相对Kolmogorov复杂度的影响，并证明了任何计算可枚举集合都可以进行强压缩和无增益弱压缩。",
+    "en_tdlr": "This article explores the compressibility of enumerations and its impact on the relative Kolmogorov complexity of computably enumerable sets with respect to density. It is demonstrated that any computably enumerable set can be strongly compressed or weakly compressed without gain, and a positional game is utilized to comprehend strong gainless compression."
+}

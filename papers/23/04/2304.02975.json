@@ -1,0 +1,11 @@
+{
+    "title": "Deep Long-Short Term Memory networks: Stability properties and Experimental validation. (arXiv:2304.02975v1 [eess.SY])",
+    "abstract": "The aim of this work is to investigate the use of Incrementally Input-to-State Stable ($\\delta$ISS) deep Long Short Term Memory networks (LSTMs) for the identification of nonlinear dynamical systems. We show that suitable sufficient conditions on the weights of the network can be leveraged to setup a training procedure able to learn provenly-$\\delta$ISS LSTM models from data. The proposed approach is tested on a real brake-by-wire apparatus to identify a model of the system from input-output experimentally collected data. Results show satisfactory modeling performances.",
+    "link": "http://arxiv.org/abs/2304.02975",
+    "context": "Title: Deep Long-Short Term Memory networks: Stability properties and Experimental validation. (arXiv:2304.02975v1 [eess.SY])\nAbstract: The aim of this work is to investigate the use of Incrementally Input-to-State Stable ($\\delta$ISS) deep Long Short Term Memory networks (LSTMs) for the identification of nonlinear dynamical systems. We show that suitable sufficient conditions on the weights of the network can be leveraged to setup a training procedure able to learn provenly-$\\delta$ISS LSTM models from data. The proposed approach is tested on a real brake-by-wire apparatus to identify a model of the system from input-output experimentally collected data. Results show satisfactory modeling performances.",
+    "path": "papers/23/04/2304.02975.json",
+    "total_tokens": 772,
+    "translated_title": "深度长短期记忆网络：稳定性和实验验证",
+    "translated_abstract": "本文旨在研究增量输入状态稳定（$\\delta$ISS）深度长短期记忆网络（LSTMs）在非线性动态系统识别方面的应用。我们表明可以利用对网络权重的适当充分条件来建立一个训练过程，能够从数据中学习到经过证明的$\\delta$ISS LSTM模型。所提出的方法在实际的制动器上进行了测试，以从实验收集的输入输出数据中识别出系统的模型。结果表明了令人满意的建模表现。",
+    "tldr": "本研究研究了增量输入状态稳定的深度长短期记忆网络在非线性动态系统识别方面的应用，并利用对网络权重的适当充分条件来建立一个训练过程，从数据中学习到经过证明的$\\delta$ISS LSTM模型。在实验中测试结果表明了令人满意的建模表现。"
+}

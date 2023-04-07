@@ -1,0 +1,12 @@
+{
+    "title": "Investigating Chain-of-thought with ChatGPT for Stance Detection on Social Media. (arXiv:2304.03087v1 [cs.CL])",
+    "abstract": "Stance detection predicts attitudes towards targets in texts and has gained attention with the rise of social media. Traditional approaches include conventional machine learning, early deep neural networks, and pre-trained fine-tuning models. However, with the evolution of very large pre-trained language models (VLPLMs) like ChatGPT (GPT-3.5), traditional methods face deployment challenges. The parameter-free Chain-of-Thought (CoT) approach, not requiring backpropagation training, has emerged as a promising alternative. This paper examines CoT's effectiveness in stance detection tasks, demonstrating its superior accuracy and discussing associated challenges.",
+    "link": "http://arxiv.org/abs/2304.03087",
+    "context": "Title: Investigating Chain-of-thought with ChatGPT for Stance Detection on Social Media. (arXiv:2304.03087v1 [cs.CL])\nAbstract: Stance detection predicts attitudes towards targets in texts and has gained attention with the rise of social media. Traditional approaches include conventional machine learning, early deep neural networks, and pre-trained fine-tuning models. However, with the evolution of very large pre-trained language models (VLPLMs) like ChatGPT (GPT-3.5), traditional methods face deployment challenges. The parameter-free Chain-of-Thought (CoT) approach, not requiring backpropagation training, has emerged as a promising alternative. This paper examines CoT's effectiveness in stance detection tasks, demonstrating its superior accuracy and discussing associated challenges.",
+    "path": "papers/23/04/2304.03087.json",
+    "total_tokens": 730,
+    "translated_title": "利用ChatGPT探究思维链在社交媒体中的立场检测",
+    "translated_abstract": "立场检测是预测文本中针对目标的态度，随着社交媒体的兴起已受到关注。传统方法包括传统机器学习、早期深度神经网络和预训练微调模型。然而，随着非常大的预训练语言模型（VLPLMs）如ChatGPT（GPT-3.5）的发展，传统方法面临部署挑战。不需要反向传播训练的无参数思维链（CoT）方法已成为一种有希望的替代方法。本文研究了CoT在立场检测任务中的有效性，展示了其优越的精度并讨论了相关的挑战。",
+    "tldr": "本文研究了利用ChatGPT进行立场检测中，无参数的思维链（CoT）方法的有效性，证明其表现优越，并探讨了相关挑战。",
+    "en_tdlr": "This paper examines the effectiveness of the parameter-free Chain-of-Thought (CoT) approach in stance detection tasks using ChatGPT, demonstrating its superior accuracy and discussing associated challenges."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "The Concept of Forward-Forward Learning Applied to a Multi Output Perceptron. (arXiv:2304.03189v1 [cs.LG])",
+    "abstract": "The concept of a recently proposed Forward-Forward learning algorithm for fully connected artificial neural networks is applied to a single multi output perceptron for classification. The parameters of the system are trained with respect to increased (decreased) \"goodness\" for correctly (incorrectly) labelled input samples. Basic numerical tests demonstrate that the trained perceptron effectively deals with data sets that have non-linear decision boundaries. Moreover, the overall performance is comparable to more complex neural networks with hidden layers. The benefit of the approach presented here is that it only involves a single matrix multiplication.",
+    "link": "http://arxiv.org/abs/2304.03189",
+    "context": "Title: The Concept of Forward-Forward Learning Applied to a Multi Output Perceptron. (arXiv:2304.03189v1 [cs.LG])\nAbstract: The concept of a recently proposed Forward-Forward learning algorithm for fully connected artificial neural networks is applied to a single multi output perceptron for classification. The parameters of the system are trained with respect to increased (decreased) \"goodness\" for correctly (incorrectly) labelled input samples. Basic numerical tests demonstrate that the trained perceptron effectively deals with data sets that have non-linear decision boundaries. Moreover, the overall performance is comparable to more complex neural networks with hidden layers. The benefit of the approach presented here is that it only involves a single matrix multiplication.",
+    "path": "papers/23/04/2304.03189.json",
+    "total_tokens": 670,
+    "translated_title": "应用于多输出感知机的前向前向学习概念",
+    "translated_abstract": "本文将最近提出的前向前向学习算法应用于单个多输出感知机模型中，以进行分类。系统参数的训练是基于对输入样本的正确（错误）标记的“好度”增加（减少）。基本的数值测试结果表明，经过训练的多输出感知机有效地处理具有非线性决策边界的数据集。此外，其性能总体上与隐藏层更多的复杂神经网络相当。所提出的方法的优点在于仅涉及单个矩阵乘法。",
+    "tldr": "本文应用前向前向学习算法于多输出感知机，仅需单个矩阵乘法，有效地处理数据集，性能与隐藏层更多的复杂神经网络相当。",
+    "en_tdlr": "This paper applies the concept of forward-forward learning algorithm to a multi output perceptron, which only involves a single matrix multiplication and effectively deals with datasets of non-linear decision boundaries, showing comparable performance with more complex neural networks with hidden layers."
+}

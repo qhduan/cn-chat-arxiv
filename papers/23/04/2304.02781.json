@@ -1,0 +1,12 @@
+{
+    "title": "Inapproximability of sufficient reasons for decision trees. (arXiv:2304.02781v1 [cs.CC])",
+    "abstract": "In this note, we establish the hardness of approximation of the problem of computing the minimal size of a $\\delta$-sufficient reason for decision trees.",
+    "link": "http://arxiv.org/abs/2304.02781",
+    "context": "Title: Inapproximability of sufficient reasons for decision trees. (arXiv:2304.02781v1 [cs.CC])\nAbstract: In this note, we establish the hardness of approximation of the problem of computing the minimal size of a $\\delta$-sufficient reason for decision trees.",
+    "path": "papers/23/04/2304.02781.json",
+    "total_tokens": 405,
+    "translated_title": "决策树的充分原因问题的近似难度",
+    "translated_abstract": "本文证明了计算决策树的$\\delta$-充分原因的最小大小的问题的近似难度。",
+    "tldr": "本文研究了决策树的充分原因问题，并证明了该问题的近似难度。",
+    "en_tdlr": "This paper studies the problem of sufficient reasons for decision trees and proves its hardness of approximation."
+}

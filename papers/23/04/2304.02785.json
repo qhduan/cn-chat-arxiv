@@ -1,0 +1,12 @@
+{
+    "title": "Performance of Data Augmentation Methods for Brazilian Portuguese Text Classification. (arXiv:2304.02785v1 [cs.CL])",
+    "abstract": "Improving machine learning performance while increasing model generalization has been a constantly pursued goal by AI researchers. Data augmentation techniques are often used towards achieving this target, and most of its evaluation is made using English corpora. In this work, we took advantage of different existing data augmentation methods to analyze their performances applied to text classification problems using Brazilian Portuguese corpora. As a result, our analysis shows some putative improvements in using some of these techniques; however, it also suggests further exploitation of language bias and non-English text data scarcity.",
+    "link": "http://arxiv.org/abs/2304.02785",
+    "context": "Title: Performance of Data Augmentation Methods for Brazilian Portuguese Text Classification. (arXiv:2304.02785v1 [cs.CL])\nAbstract: Improving machine learning performance while increasing model generalization has been a constantly pursued goal by AI researchers. Data augmentation techniques are often used towards achieving this target, and most of its evaluation is made using English corpora. In this work, we took advantage of different existing data augmentation methods to analyze their performances applied to text classification problems using Brazilian Portuguese corpora. As a result, our analysis shows some putative improvements in using some of these techniques; however, it also suggests further exploitation of language bias and non-English text data scarcity.",
+    "path": "papers/23/04/2304.02785.json",
+    "total_tokens": 696,
+    "translated_title": "数据增强方法在巴西葡萄牙语文本分类中的表现",
+    "translated_abstract": "提高机器学习性能，同时增加模型的泛化能力一直是人工智能研究人员不断追求的目标。数据增强技术通常被用于实现这一目标，而大多数评估都是使用英语语料库完成的。在这项工作中，我们利用不同的现有数据增强方法，分析其在使用巴西葡萄牙语语料库进行文本分类问题时的性能。结果表明，我们的分析显示了其中某些技术的可行改进；然而，它也表明需要进一步利用语言偏见和非英语文本数据的稀缺性。",
+    "tldr": "本文分析了不同的数据增强方法在巴西葡萄牙语文本分类中的表现，揭示了一些方法的改进之处，同时也指出了需要更多利用语言偏见和非英语文本数据的稀缺性。",
+    "en_tdlr": "This paper analyzes the performance of different data augmentation methods for Brazilian Portuguese text classification, revealing potential improvements while also highlighting the need for further exploitation of language bias and non-English text data scarcity."
+}

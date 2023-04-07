@@ -1,0 +1,12 @@
+{
+    "title": "Low-Shot Learning for Fictional Claim Verification. (arXiv:2304.02769v1 [cs.AI])",
+    "abstract": "In this paper, we study the problem of claim verification in the context of claims about fictional stories in a low-shot learning setting. To this end, we generate two synthetic datasets and then develop an end-to-end pipeline and model that is tested on both benchmarks. To test the efficacy of our pipeline and the difficulty of benchmarks, we compare our models' results against human and random assignment results. Our code is available at https://github.com/Derposoft/plot_hole_detection.",
+    "link": "http://arxiv.org/abs/2304.02769",
+    "context": "Title: Low-Shot Learning for Fictional Claim Verification. (arXiv:2304.02769v1 [cs.AI])\nAbstract: In this paper, we study the problem of claim verification in the context of claims about fictional stories in a low-shot learning setting. To this end, we generate two synthetic datasets and then develop an end-to-end pipeline and model that is tested on both benchmarks. To test the efficacy of our pipeline and the difficulty of benchmarks, we compare our models' results against human and random assignment results. Our code is available at https://github.com/Derposoft/plot_hole_detection.",
+    "path": "papers/23/04/2304.02769.json",
+    "total_tokens": 615,
+    "translated_title": "面向小样本学习的虚构故事验证低成本学习",
+    "translated_abstract": "本文研究了虚构故事中事实验证的问题，并采用低成本学习的方式产生了两个合成数据集，并开发了一个端到端的流程和模型，同时在两个基准测试中进行了测试。为了测试我们的流程和难度，我们将模型的结果与人类和随机分配的结果进行了比较。我们的代码可以在https://github.com/Derposoft/plot_hole_detection找到。",
+    "tldr": "本文提出了一个面向虚构故事的事实验证问题的低成本学习解决方案，包括两个合成数据集和一个端到端流程和模型，并展示了其效果。",
+    "en_tdlr": "This paper proposes a low-shot learning solution to the problem of claim verification in fictional stories, including two synthetic datasets and an end-to-end pipeline and model, and demonstrates its effectiveness by comparing results to human and random assignment results."
+}

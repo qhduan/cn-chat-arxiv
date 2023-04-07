@@ -1,0 +1,12 @@
+{
+    "title": "Covert learning and disclosure. (arXiv:2304.02989v1 [econ.TH])",
+    "abstract": "I study a model of information acquisition and transmission in which the sender's ability to misreport her findings is limited. In equilibrium, the sender only influences the receiver by choosing to remain selectively ignorant, rather than by deceiving her about the discoveries. Although deception does not occur, I highlight how deception possibilities determine what information the sender chooses to acquire and transmit. I then turn to comparative statics, characterizing in which sense the sender benefits from her claims being more verifiable, showing this is akin to increasing her commitment power. Finally, I characterize sender- and receiver-optimal falsification environments.",
+    "link": "http://arxiv.org/abs/2304.02989",
+    "context": "Title: Covert learning and disclosure. (arXiv:2304.02989v1 [econ.TH])\nAbstract: I study a model of information acquisition and transmission in which the sender's ability to misreport her findings is limited. In equilibrium, the sender only influences the receiver by choosing to remain selectively ignorant, rather than by deceiving her about the discoveries. Although deception does not occur, I highlight how deception possibilities determine what information the sender chooses to acquire and transmit. I then turn to comparative statics, characterizing in which sense the sender benefits from her claims being more verifiable, showing this is akin to increasing her commitment power. Finally, I characterize sender- and receiver-optimal falsification environments.",
+    "path": "papers/23/04/2304.02989.json",
+    "total_tokens": 745,
+    "translated_title": "隐秘的学习和披露",
+    "translated_abstract": "本研究研究了一个信息获取和传递的模型，在该模型中，发送者误报其发现的能力受到限制。在均衡状态下，发送者选择有选择性地忽视信息，而不是欺骗接收者。虽然不会产生欺骗，但我强调了欺骗可能性如何决定发送者选择获取和传递的信息。然后，本文转向比较静态分析，阐明了发送者如何从其声明更可验证中受益，并表明这类似于增加其承诺能力。最后，本文确定了发送者和接收者最优的伪造环境。",
+    "tldr": "本研究研究了一个信息获取和传递的模型，在该模型中，发送者选择有选择性地忽视信息，而不是欺骗接收者。本文阐明了欺骗可能性如何决定发送者选择获取和传递的信息，并确定了发送者和接收者最优的伪造环境。",
+    "en_tdlr": "This study examines a model of information acquisition and transmission in which the sender chooses to remain selectively ignorant instead of deceiving the receiver about their discoveries. The study highlights how deception possibilities determine the information the sender chooses to acquire and transmit and characterizes the sender's and receiver's optimal falsification environments."
+}

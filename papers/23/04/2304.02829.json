@@ -1,0 +1,11 @@
+{
+    "title": "SoK: Machine Learning for Continuous Integration. (arXiv:2304.02829v1 [cs.SE])",
+    "abstract": "Continuous Integration (CI) has become a well-established software development practice for automatically and continuously integrating code changes during software development. An increasing number of Machine Learning (ML) based approaches for automation of CI phases are being reported in the literature. It is timely and relevant to provide a Systemization of Knowledge (SoK) of ML-based approaches for CI phases. This paper reports an SoK of different aspects of the use of ML for CI. Our systematic analysis also highlights the deficiencies of the existing ML-based solutions that can be improved for advancing the state-of-the-art.",
+    "link": "http://arxiv.org/abs/2304.02829",
+    "context": "Title: SoK: Machine Learning for Continuous Integration. (arXiv:2304.02829v1 [cs.SE])\nAbstract: Continuous Integration (CI) has become a well-established software development practice for automatically and continuously integrating code changes during software development. An increasing number of Machine Learning (ML) based approaches for automation of CI phases are being reported in the literature. It is timely and relevant to provide a Systemization of Knowledge (SoK) of ML-based approaches for CI phases. This paper reports an SoK of different aspects of the use of ML for CI. Our systematic analysis also highlights the deficiencies of the existing ML-based solutions that can be improved for advancing the state-of-the-art.",
+    "path": "papers/23/04/2304.02829.json",
+    "total_tokens": 644,
+    "translated_title": "SoK: 机器学习在持续集成中的应用",
+    "translated_abstract": "持续集成（CI）已成为自动和持续集成软件开发过程中代码变更的一项成熟的软件开发实践。越来越多基于机器学习的方法用于自动化CI过程的报道正在出现。提供一个机器学习在CI阶段应用的知识体系化（SoK）是及时且相关的。本文报告了机器学习在CI的不同方面的 SoK。我们的系统分析还强调了现有基于机器学习的解决方案的缺陷，可以改进以推进最新技术的发展。",
+    "tldr": "这篇论文对使用机器学习进行持续集成的方法进行了系统综述并指出了目前存在的不足和改进方向。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Quantifying dimensional change in stochastic portfolio theory. (arXiv:2303.00858v2 [q-fin.MF] UPDATED)",
+    "abstract": "In this paper, we develop the theory of functional generation of portfolios in an equity market with changing dimension. By introducing dimensional jumps in the market, as well as jumps in stock capitalization between the dimensional jumps, we construct different types of self-financing stock portfolios (additive, multiplicative, and rank-based) in a very general setting. Our study explains how a dimensional change caused by a listing or delisting event of a stock, and unexpected shocks in the market, affect portfolio return. We also provide empirical analyses of some classical portfolios, quantifying the impact of dimensional change in portfolio performance relative to the market.",
+    "link": "http://arxiv.org/abs/2303.00858",
+    "context": "Title: Quantifying dimensional change in stochastic portfolio theory. (arXiv:2303.00858v2 [q-fin.MF] UPDATED)\nAbstract: In this paper, we develop the theory of functional generation of portfolios in an equity market with changing dimension. By introducing dimensional jumps in the market, as well as jumps in stock capitalization between the dimensional jumps, we construct different types of self-financing stock portfolios (additive, multiplicative, and rank-based) in a very general setting. Our study explains how a dimensional change caused by a listing or delisting event of a stock, and unexpected shocks in the market, affect portfolio return. We also provide empirical analyses of some classical portfolios, quantifying the impact of dimensional change in portfolio performance relative to the market.",
+    "path": "papers/23/03/2303.00858.json",
+    "total_tokens": 752,
+    "translated_title": "随机组合理论中的维度变化定量化研究",
+    "translated_abstract": "本文研究了具有变化维度的股票市场组合理论中的功能生成理论。通过引入市场中的维度跳跃以及维度跳跃之间的股票资本化跳跃，我们构建了不同类型的自融资股票组合（加法、乘法和排名）在一个非常普通的环境中。我们的研究阐释了由于股票上市或退市事件以及市场上未预期的冲击所引起的维度变化如何影响组合回报。我们还对一些经典组合进行了实证分析，量化了维度变化对组合表现相对于市场的影响。",
+    "tldr": "本文研究了具有变化维度的股票组合理论，通过构建不同类型的自融资股票组合来解释维度变化如何影响组合回报，并对一些经典组合进行了实证分析，量化了维度变化对组合表现的影响。",
+    "en_tdlr": "This paper studies the theory of functional generation of portfolios in an equity market with changing dimension, explaining how dimensional changes affect portfolio returns and quantifying their impact on portfolio performance relative to the market through empirical analyses of classical portfolios."
+}

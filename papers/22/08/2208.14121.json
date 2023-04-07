@@ -1,0 +1,12 @@
+{
+    "title": "Prolonged Learning and Hasty Stopping: the Wald Problem with Ambiguity. (arXiv:2208.14121v2 [econ.TH] UPDATED)",
+    "abstract": "This paper studies sequential information acquisition by an ambiguity-averse decision maker (DM), who decides how long to collect information before taking an irreversible action. The agent optimizes against the worst-case belief and updates prior by prior. We show that the consideration of ambiguity gives rise to rich dynamics: compared to the Bayesian DM, the DM here tends to experiment excessively when facing modest uncertainty and, to counteract it, may stop experimenting prematurely when facing high uncertainty. In the latter case, the DM's stopping rule is non-monotonic in beliefs and features randomized stopping.",
+    "link": "http://arxiv.org/abs/2208.14121",
+    "context": "Title: Prolonged Learning and Hasty Stopping: the Wald Problem with Ambiguity. (arXiv:2208.14121v2 [econ.TH] UPDATED)\nAbstract: This paper studies sequential information acquisition by an ambiguity-averse decision maker (DM), who decides how long to collect information before taking an irreversible action. The agent optimizes against the worst-case belief and updates prior by prior. We show that the consideration of ambiguity gives rise to rich dynamics: compared to the Bayesian DM, the DM here tends to experiment excessively when facing modest uncertainty and, to counteract it, may stop experimenting prematurely when facing high uncertainty. In the latter case, the DM's stopping rule is non-monotonic in beliefs and features randomized stopping.",
+    "path": "papers/22/08/2208.14121.json",
+    "total_tokens": 709,
+    "translated_title": "风险厌恶的决策者的信息收集行为研究",
+    "translated_abstract": "本文研究了风险厌恶的决策者的信息收集行为，探讨了在何种情况下他们决定进行可逆性行为之前需要多长时间收集信息。我们发现与贝叶斯决策者相比，考虑到不确定性，非理性决策者会在面对适度的不确定性时过分实验，而在面对高度不确定性时可能会过早停止实验。在后一种情况下，决策者的停止规则在信念上是非单增的，并具有随机停止的特征。",
+    "tldr": "本文研究了风险厌恶的决策者的信息收集行为，发现与贝叶斯决策者不同，会在面对适度的不确定性时过度实验，并在面对高度不确定性时过早停止实验",
+    "en_tdlr": "This paper studies the information acquisition behavior of risk-averse decision makers and finds that they experiment excessively when facing moderate uncertainty and may prematurely stop experimenting when facing high uncertainty, which is different from Bayesian decision makers."
+}

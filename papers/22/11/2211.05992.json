@@ -1,0 +1,12 @@
+{
+    "title": "Delay Embedded Echo-State Network: A Predictor for Partially Observed Systems. (arXiv:2211.05992v2 [eess.SY] UPDATED)",
+    "abstract": "This paper considers the problem of data-driven prediction of partially observed systems using a recurrent neural network. While neural network based dynamic predictors perform well with full-state training data, prediction with partial observation during training phase poses a significant challenge. Here a predictor for partial observations is developed using an echo-state network (ESN) and time delay embedding of the partially observed state. The proposed method is theoretically justified with Taken's embedding theorem and strong observability of a nonlinear system. The efficacy of the proposed method is demonstrated on three systems: two synthetic datasets from chaotic dynamical systems and a set of real-time traffic data.",
+    "link": "http://arxiv.org/abs/2211.05992",
+    "context": "Title: Delay Embedded Echo-State Network: A Predictor for Partially Observed Systems. (arXiv:2211.05992v2 [eess.SY] UPDATED)\nAbstract: This paper considers the problem of data-driven prediction of partially observed systems using a recurrent neural network. While neural network based dynamic predictors perform well with full-state training data, prediction with partial observation during training phase poses a significant challenge. Here a predictor for partial observations is developed using an echo-state network (ESN) and time delay embedding of the partially observed state. The proposed method is theoretically justified with Taken's embedding theorem and strong observability of a nonlinear system. The efficacy of the proposed method is demonstrated on three systems: two synthetic datasets from chaotic dynamical systems and a set of real-time traffic data.",
+    "path": "papers/22/11/2211.05992.json",
+    "total_tokens": 709,
+    "translated_title": "延迟嵌入的回声状态网络：一种部分观测系统的预测器",
+    "translated_abstract": "本文研究了使用循环神经网络进行基于数据的部分观测系统预测的问题。虽然神经网络基于完整状态训练数据的动态预测表现良好，但在训练阶段使用部分观测的数据进行预测会带来显着挑战。本文提出了一种使用回声状态网络（ESN）和部分观测状态的时间延迟嵌入来进行部分观测系统预测的方法。该方法基于Taken的嵌入定理和非线性系统的强可观测性理论上得到了证明。该方法的有效性在三个系统上得到了证明：两个混沌动力学系统的合成数据集和一组实时交通数据。",
+    "tldr": "本文提出了一种基于回声状态网络和时间延迟嵌入的方法来解决部分观测系统预测的问题。",
+    "en_tdlr": "This paper proposes a method based on echo-state network and time delay embedding to solve the problem of predicting partially observed systems."
+}

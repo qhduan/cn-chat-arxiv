@@ -1,0 +1,12 @@
+{
+    "title": "Hybrid Zonotopes Exactly Represent ReLU Neural Networks. (arXiv:2304.02755v1 [cs.LG])",
+    "abstract": "We show that hybrid zonotopes offer an equivalent representation of feed-forward fully connected neural networks with ReLU activation functions. Our approach demonstrates that the complexity of binary variables is equal to the total number of neurons in the network and hence grows linearly in the size of the network. We demonstrate the utility of the hybrid zonotope formulation through three case studies including nonlinear function approximation, MPC closed-loop reachability and verification, and robustness of classification on the MNIST dataset.",
+    "link": "http://arxiv.org/abs/2304.02755",
+    "context": "Title: Hybrid Zonotopes Exactly Represent ReLU Neural Networks. (arXiv:2304.02755v1 [cs.LG])\nAbstract: We show that hybrid zonotopes offer an equivalent representation of feed-forward fully connected neural networks with ReLU activation functions. Our approach demonstrates that the complexity of binary variables is equal to the total number of neurons in the network and hence grows linearly in the size of the network. We demonstrate the utility of the hybrid zonotope formulation through three case studies including nonlinear function approximation, MPC closed-loop reachability and verification, and robustness of classification on the MNIST dataset.",
+    "path": "papers/23/04/2304.02755.json",
+    "total_tokens": 640,
+    "translated_title": "混合区间多面体精确表示ReLU神经网络",
+    "translated_abstract": "我们展示了混合区间多面体提供了一种等价的表示前馈全连接ReLU激活函数神经网络的方法。我们的方法证明了二进制变量的复杂度等于网络中神经元的总数，因此随着网络规模的增大而线性增长。我们通过三个案例研究展示了混合区间多面体公式的实用性，包括非线性函数逼近、MPC闭环可达性和验证，以及对MNIST数据集的分类鲁棒性。",
+    "tldr": "混合区间多面体精确表示ReLU神经网络，并且二进制变量随网络规模线性增长，实用性广泛。",
+    "en_tdlr": "Hybrid zonotopes offer an exact representation of ReLU neural networks, with complexity of binary variables growing linearly with network size. The utility of the hybrid zonotope formulation is demonstrated through three case studies, including nonlinear function approximation, MPC closed-loop reachability and verification, and robustness of classification on the MNIST dataset."
+}

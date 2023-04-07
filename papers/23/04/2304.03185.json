@@ -1,0 +1,11 @@
+{
+    "title": "Pairwise Ranking with Gaussian Kernels. (arXiv:2304.03185v1 [stat.ML])",
+    "abstract": "Regularized pairwise ranking with Gaussian kernels is one of the cutting-edge learning algorithms. Despite a wide range of applications, a rigorous theoretical demonstration still lacks to support the performance of such ranking estimators. This work aims to fill this gap by developing novel oracle inequalities for regularized pairwise ranking. With the help of these oracle inequalities, we derive fast learning rates of Gaussian ranking estimators under a general box-counting dimension assumption on the input domain combined with the noise conditions or the standard smoothness condition. Our theoretical analysis improves the existing estimates and shows that a low intrinsic dimension of input space can help the rates circumvent the curse of dimensionality.",
+    "link": "http://arxiv.org/abs/2304.03185",
+    "context": "Title: Pairwise Ranking with Gaussian Kernels. (arXiv:2304.03185v1 [stat.ML])\nAbstract: Regularized pairwise ranking with Gaussian kernels is one of the cutting-edge learning algorithms. Despite a wide range of applications, a rigorous theoretical demonstration still lacks to support the performance of such ranking estimators. This work aims to fill this gap by developing novel oracle inequalities for regularized pairwise ranking. With the help of these oracle inequalities, we derive fast learning rates of Gaussian ranking estimators under a general box-counting dimension assumption on the input domain combined with the noise conditions or the standard smoothness condition. Our theoretical analysis improves the existing estimates and shows that a low intrinsic dimension of input space can help the rates circumvent the curse of dimensionality.",
+    "path": "papers/23/04/2304.03185.json",
+    "total_tokens": 778,
+    "translated_title": "带高斯核的成对排名",
+    "translated_abstract": "带高斯核的正则成对排名是前沿的学习算法之一。尽管应用范围广泛，但缺乏严格的理论证明来支持这种排名估计器的性能。本文旨在通过为正则成对排名开发新的 Oracle 不等式来填补这一空白。借助这些 Oracle 不等式，结合输入域上的一般盒计数维度假设和噪声条件或标准平滑条件，我们推导出高斯排名估计器的快速学习率。我们的理论分析改进了现有的估计，并显示输入空间的低固有维度可以帮助速率避免维度诅咒。",
+    "tldr": "本文提出新的Oracle不等式，在输入域上的一般盒计数维度假设和噪声条件或标准平滑条件下，对于高斯成对排名估计器得出了快速学习率。这表明，输入空间的低固有维度可以帮助避免维度诅咒。"
+}

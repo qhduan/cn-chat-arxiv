@@ -1,0 +1,12 @@
+{
+    "title": "Almost optimal manipulation of a pair of alternatives. (arXiv:2304.03060v1 [cs.AI])",
+    "abstract": "The role of an expert in the decision-making process is crucial, as the final recommendation depends on his disposition, clarity of mind, experience, and knowledge of the problem. However, the recommendation also depends on their honesty. But what if the expert is dishonest? Then, the answer on how difficult it is to manipulate in a given case becomes essential. In the presented work, we consider manipulation of a ranking obtained by comparing alternatives in pairs. More specifically, we propose an algorithm for finding an almost optimal way to swap the positions of two selected alternatives. Thanks to this, it is possible to determine how difficult such manipulation is in a given case. Theoretical considerations are illustrated by a practical example.",
+    "link": "http://arxiv.org/abs/2304.03060",
+    "context": "Title: Almost optimal manipulation of a pair of alternatives. (arXiv:2304.03060v1 [cs.AI])\nAbstract: The role of an expert in the decision-making process is crucial, as the final recommendation depends on his disposition, clarity of mind, experience, and knowledge of the problem. However, the recommendation also depends on their honesty. But what if the expert is dishonest? Then, the answer on how difficult it is to manipulate in a given case becomes essential. In the presented work, we consider manipulation of a ranking obtained by comparing alternatives in pairs. More specifically, we propose an algorithm for finding an almost optimal way to swap the positions of two selected alternatives. Thanks to this, it is possible to determine how difficult such manipulation is in a given case. Theoretical considerations are illustrated by a practical example.",
+    "path": "papers/23/04/2304.03060.json",
+    "total_tokens": 742,
+    "translated_title": "一对替代品的几乎最优操纵",
+    "translated_abstract": "决策过程中专家的角色至关重要，因为最终的建议取决于他们的态度、头脑清晰程度、经验和对问题的了解。但是，建议还取决于他们的诚实。如果专家不诚实怎么办？那么，在给定情况下操纵是多么困难就变得很重要了。本研究考虑到了通过比较一对替代品获得的排名的操纵。更具体地说，我们提出了一种算法，用于找到交换选定的两个替代品位置的几乎最优方式。由此，就可以确定在给定情况下操纵是多么困难的了。理论考虑通过一个实际例子进行了说明。",
+    "tldr": "本文研究了一对替代品的排名，通过算法找到了一种几乎最优的操纵方式，以确定在给定情况下操纵的难易程度。",
+    "en_tdlr": "This paper studies the ranking of a pair of alternatives and proposes an algorithm to find an almost optimal way to manipulate them, which helps determine the difficulty of manipulation in a given situation."
+}

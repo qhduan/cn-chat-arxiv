@@ -1,0 +1,12 @@
+{
+    "title": "Spectral Toolkit of Algorithms for Graphs: Technical Report (1). (arXiv:2304.03170v1 [cs.SI])",
+    "abstract": "Spectral Toolkit of Algorithms for Graphs (STAG) is an open-source library for efficient spectral graph algorithms, and its development starts in September 2022. We have so far finished the component on local graph clustering, and this technical report presents a user's guide to STAG, showcase studies, and several technical considerations behind our development.",
+    "link": "http://arxiv.org/abs/2304.03170",
+    "context": "Title: Spectral Toolkit of Algorithms for Graphs: Technical Report (1). (arXiv:2304.03170v1 [cs.SI])\nAbstract: Spectral Toolkit of Algorithms for Graphs (STAG) is an open-source library for efficient spectral graph algorithms, and its development starts in September 2022. We have so far finished the component on local graph clustering, and this technical report presents a user's guide to STAG, showcase studies, and several technical considerations behind our development.",
+    "path": "papers/23/04/2304.03170.json",
+    "total_tokens": 596,
+    "translated_title": "图谱算法的频谱工具包：技术报告（1）",
+    "translated_abstract": "图谱算法的频谱工具包（STAG）是一个用于高效频谱图算法的开源库，其开发始于2022年9月。我们目前已经完成了本地图聚类的组件，并且本技术报告介绍了STAG的用户指南、展示研究以及我们开发背后的几个技术考虑。",
+    "tldr": "频谱工具包STAG是一个开源库，用于实现高效的频谱图算法，其中还包括本地图聚类组件。此技术报告介绍了STAG的用户指南、展示研究以及开发背后的技术考虑。",
+    "en_tdlr": "The Spectral Toolkit of Algorithms for Graphs (STAG) is an open-source library for efficient spectral graph algorithms that includes a local graph clustering component. This technical report provides a user's guide to STAG, showcase studies, and technical considerations behind its development."
+}

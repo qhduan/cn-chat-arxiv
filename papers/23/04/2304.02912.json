@@ -1,0 +1,12 @@
+{
+    "title": "Classification of Superstatistical Features in High Dimensions. (arXiv:2304.02912v1 [stat.ML])",
+    "abstract": "We characterise the learning of a mixture of two clouds of data points with generic centroids via empirical risk minimisation in the high dimensional regime, under the assumptions of generic convex loss and convex regularisation. Each cloud of data points is obtained by sampling from a possibly uncountable superposition of Gaussian distributions, whose variance has a generic probability density $\\varrho$. Our analysis covers therefore a large family of data distributions, including the case of power-law-tailed distributions with no covariance. We study the generalisation performance of the obtained estimator, we analyse the role of regularisation, and the dependence of the separability transition on the distribution scale parameters.",
+    "link": "http://arxiv.org/abs/2304.02912",
+    "context": "Title: Classification of Superstatistical Features in High Dimensions. (arXiv:2304.02912v1 [stat.ML])\nAbstract: We characterise the learning of a mixture of two clouds of data points with generic centroids via empirical risk minimisation in the high dimensional regime, under the assumptions of generic convex loss and convex regularisation. Each cloud of data points is obtained by sampling from a possibly uncountable superposition of Gaussian distributions, whose variance has a generic probability density $\\varrho$. Our analysis covers therefore a large family of data distributions, including the case of power-law-tailed distributions with no covariance. We study the generalisation performance of the obtained estimator, we analyse the role of regularisation, and the dependence of the separability transition on the distribution scale parameters.",
+    "path": "papers/23/04/2304.02912.json",
+    "total_tokens": 698,
+    "translated_title": "高维超统计特征的分类方法",
+    "translated_abstract": "在高维情况下，我们通过经验风险最小化的方法，对具有一般中心点的两个数据云的混合进行了学习，假设具有通用的凸损失和凸正则化。每个数据云是通过从可能是不可数的高斯分布叠加中进行采样来获得的，其方差具有通用的概率密度$\\varrho$。我们的分析涵盖了大量的数据分布，包括没有协方差的幂律尾部分布的情况。我们研究了所得估计器的泛化性能，分析了正则化的作用以及分离转换与分布尺度参数的相关性。",
+    "tldr": "本文利用经验风险最小化的方法，对高维超统计特征下的数据进行分类，并分析了正则化和分布尺度参数对分类的影响。",
+    "en_tdlr": "This paper proposes a method using empirical risk minimization to classify data with superstatistical features in high dimensions, and analyzes the impact of regularization and scale parameters on classification performance."
+}

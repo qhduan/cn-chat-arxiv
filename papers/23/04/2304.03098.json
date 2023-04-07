@@ -1,0 +1,11 @@
+{
+    "title": "Static Fuzzy Bag-of-Words: a lightweight sentence embedding algorithm. (arXiv:2304.03098v1 [cs.CL])",
+    "abstract": "The introduction of embedding techniques has pushed forward significantly the Natural Language Processing field. Many of the proposed solutions have been presented for word-level encoding; anyhow, in the last years, new mechanism to treat information at an higher level of aggregation, like at sentence- and document-level, have emerged. With this work we address specifically the sentence embeddings problem, presenting the Static Fuzzy Bag-of-Word model. Our model is a refinement of the Fuzzy Bag-of-Words approach, providing sentence embeddings with a predefined dimension. SFBoW provides competitive performances in Semantic Textual Similarity benchmarks, while requiring low computational resources.",
+    "link": "http://arxiv.org/abs/2304.03098",
+    "context": "Title: Static Fuzzy Bag-of-Words: a lightweight sentence embedding algorithm. (arXiv:2304.03098v1 [cs.CL])\nAbstract: The introduction of embedding techniques has pushed forward significantly the Natural Language Processing field. Many of the proposed solutions have been presented for word-level encoding; anyhow, in the last years, new mechanism to treat information at an higher level of aggregation, like at sentence- and document-level, have emerged. With this work we address specifically the sentence embeddings problem, presenting the Static Fuzzy Bag-of-Word model. Our model is a refinement of the Fuzzy Bag-of-Words approach, providing sentence embeddings with a predefined dimension. SFBoW provides competitive performances in Semantic Textual Similarity benchmarks, while requiring low computational resources.",
+    "path": "papers/23/04/2304.03098.json",
+    "total_tokens": 728,
+    "translated_title": "静态模糊词袋：一种轻量级句子嵌入算法",
+    "translated_abstract": "嵌入技术的引入显著推动了自然语言处理领域的发展。许多提出的解决方案都是针对单词级别的编码。然而，在过去的几年中，出现了一些新的机制来处理更高层次的信息处理，例如句子和文档级别。本文专门讨论句子嵌入问题，提出了静态模糊词袋模型。我们的模型是模糊词袋方法的一种改进，针对预定义维度提供句子嵌入。SFBoW在语义文本相似性基准测试中表现竞争力，同时要求低计算资源。",
+    "tldr": "本文提出了一种静态模糊词袋模型，可提供预定义维度的句子嵌入。该模型在语义文本相似性基准测试中表现出竞争力，并要求低计算资源。"
+}

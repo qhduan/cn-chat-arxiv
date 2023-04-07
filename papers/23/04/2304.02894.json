@@ -1,0 +1,12 @@
+{
+    "title": "Affect as a proxy for literary mood. (arXiv:2304.02894v1 [cs.CL])",
+    "abstract": "We propose to use affect as a proxy for mood in literary texts. In this study, we explore the differences in computationally detecting tone versus detecting mood. Methodologically we utilize affective word embeddings to look at the affective distribution in different text segments. We also present a simple yet efficient and effective method of enhancing emotion lexicons to take both semantic shift and the domain of the text into account producing real-world congruent results closely matching both contemporary and modern qualitative analyses.",
+    "link": "http://arxiv.org/abs/2304.02894",
+    "context": "Title: Affect as a proxy for literary mood. (arXiv:2304.02894v1 [cs.CL])\nAbstract: We propose to use affect as a proxy for mood in literary texts. In this study, we explore the differences in computationally detecting tone versus detecting mood. Methodologically we utilize affective word embeddings to look at the affective distribution in different text segments. We also present a simple yet efficient and effective method of enhancing emotion lexicons to take both semantic shift and the domain of the text into account producing real-world congruent results closely matching both contemporary and modern qualitative analyses.",
+    "path": "papers/23/04/2304.02894.json",
+    "total_tokens": 639,
+    "translated_title": "基于情感的文学情绪代理",
+    "translated_abstract": "我们提出使用情感作为文学文本情绪的代理。在这项研究中，我们探讨了在计算情感与检测情绪之间的区别。从方法论的角度，我们利用情感词嵌入来观察不同文本段落中的情感分布。我们还提出了一种简单而有效的方法，用于增强情感词典，考虑了语义转移和文本领域，从而产生了与当代和现代定性分析密切匹配的现实世界一致的结果。",
+    "tldr": "该研究提出使用情感作为文学文本情绪的代理，并能通过扩展情感词典在考虑文本语义转移和领域的前提下，提供近期和现代分析的实际可行结果。",
+    "en_tdlr": "This study proposes using affect as a proxy for literary mood and provides practical feasible results by enhancing emotion lexicons while considering semantic shift and the domain of the text."
+}

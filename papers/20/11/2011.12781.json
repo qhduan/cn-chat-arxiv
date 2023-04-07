@@ -1,0 +1,12 @@
+{
+    "title": "Functional Principal Component Analysis for Cointegrated Functional Time Series. (arXiv:2011.12781v6 [stat.ME] UPDATED)",
+    "abstract": "Functional principal component analysis (FPCA) has played an important role in the development of functional time series analysis. This note investigates how FPCA can be used to analyze cointegrated functional time series and proposes a modification of FPCA as a novel statistical tool. Our modified FPCA not only provides an asymptotically more efficient estimator of the cointegrating vectors, but also leads to novel FPCA-based tests for examining essential properties of cointegrated functional time series.",
+    "link": "http://arxiv.org/abs/2011.12781",
+    "context": "Title: Functional Principal Component Analysis for Cointegrated Functional Time Series. (arXiv:2011.12781v6 [stat.ME] UPDATED)\nAbstract: Functional principal component analysis (FPCA) has played an important role in the development of functional time series analysis. This note investigates how FPCA can be used to analyze cointegrated functional time series and proposes a modification of FPCA as a novel statistical tool. Our modified FPCA not only provides an asymptotically more efficient estimator of the cointegrating vectors, but also leads to novel FPCA-based tests for examining essential properties of cointegrated functional time series.",
+    "path": "papers/20/11/2011.12781.json",
+    "total_tokens": 606,
+    "translated_title": "Cointegrated Functional Time Series的函数主成分分析",
+    "translated_abstract": "函数主成分分析（FPCA）在发展函数时间序列分析方面发挥了重要作用。本文研究了如何利用FPCA分析协整的函数时间序列，并提出了一种改进的FPCA作为一种新的统计工具。我们改进后的FPCA不仅提供了协整向量的渐近更有效的估计，还引导了基于FPCA的测试，以检查协整函数时间序列的重要属性。",
+    "tldr": "本研究提出了一种改进的FPCA，可用于分析协整的函数时间序列并提供更有效的估计，以及FPCA-based的测试，以检查协整函数时间序列的重要属性。",
+    "en_tdlr": "This study proposes a modified FPCA for analyzing cointegrated functional time series, providing more efficient estimation and FPCA-based tests for examining essential properties of cointegrated functional time series."
+}
