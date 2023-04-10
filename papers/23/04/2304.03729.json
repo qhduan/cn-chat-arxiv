@@ -1,0 +1,12 @@
+{
+    "title": "Full Gradient Deep Reinforcement Learning for Average-Reward Criterion. (arXiv:2304.03729v1 [eess.SY])",
+    "abstract": "We extend the provably convergent Full Gradient DQN algorithm for discounted reward Markov decision processes from Avrachenkov et al. (2021) to average reward problems. We experimentally compare widely used RVI Q-Learning with recently proposed Differential Q-Learning in the neural function approximation setting with Full Gradient DQN and DQN. We also extend this to learn Whittle indices for Markovian restless multi-armed bandits. We observe a better convergence rate of the proposed Full Gradient variant across different tasks.",
+    "link": "http://arxiv.org/abs/2304.03729",
+    "context": "Title: Full Gradient Deep Reinforcement Learning for Average-Reward Criterion. (arXiv:2304.03729v1 [eess.SY])\nAbstract: We extend the provably convergent Full Gradient DQN algorithm for discounted reward Markov decision processes from Avrachenkov et al. (2021) to average reward problems. We experimentally compare widely used RVI Q-Learning with recently proposed Differential Q-Learning in the neural function approximation setting with Full Gradient DQN and DQN. We also extend this to learn Whittle indices for Markovian restless multi-armed bandits. We observe a better convergence rate of the proposed Full Gradient variant across different tasks.",
+    "path": "papers/23/04/2304.03729.json",
+    "total_tokens": 706,
+    "translated_title": "全梯度深度强化学习在平均奖励标准下的应用",
+    "translated_abstract": "本论文将已被证明可收敛的全梯度DQN算法从折扣奖励马尔可夫决策过程扩展至平均奖励问题。我们在神经网络函数逼近环境中，比较了广泛使用的RVI Q-learning与最近提出的Differential Q-learning以及全梯度DQN和DQN。我们还将其扩展到学习马尔可夫不静态多臂老虎机的Whittle指数。我们发现所提出的全梯度变体在不同任务中具有更好的收敛速度。",
+    "tldr": "本论文将全梯度DQN算法从折扣奖励马尔可夫决策过程扩展至平均奖励问题，并在神经网络函数逼近环境中证明其在不同任务中具有更好的收敛速度。",
+    "en_tdlr": "This paper extends the convergent Full Gradient DQN algorithm from discounted reward Markov decision processes to average reward problems and experimentally proves its better convergence rate in different tasks with neural network function approximation, including Whittle indices learning in restless multi-armed bandits decision process."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "A Policy for Early Sequence Classification. (arXiv:2304.03463v1 [cs.LG])",
+    "abstract": "Sequences are often not received in their entirety at once, but instead, received incrementally over time, element by element. Early predictions yielding a higher benefit, one aims to classify a sequence as accurately as possible, as soon as possible, without having to wait for the last element. For this early sequence classification, we introduce our novel classifier-induced stopping. While previous methods depend on exploration during training to learn when to stop and classify, ours is a more direct, supervised approach. Our classifier-induced stopping achieves an average Pareto frontier AUC increase of 11.8% over multiple experiments.",
+    "link": "http://arxiv.org/abs/2304.03463",
+    "context": "Title: A Policy for Early Sequence Classification. (arXiv:2304.03463v1 [cs.LG])\nAbstract: Sequences are often not received in their entirety at once, but instead, received incrementally over time, element by element. Early predictions yielding a higher benefit, one aims to classify a sequence as accurately as possible, as soon as possible, without having to wait for the last element. For this early sequence classification, we introduce our novel classifier-induced stopping. While previous methods depend on exploration during training to learn when to stop and classify, ours is a more direct, supervised approach. Our classifier-induced stopping achieves an average Pareto frontier AUC increase of 11.8% over multiple experiments.",
+    "path": "papers/23/04/2304.03463.json",
+    "total_tokens": 718,
+    "translated_title": "一种用于序列早期分类的策略",
+    "translated_abstract": "序列往往不是一次性全部接收的，而是逐个元素地逐步接收。由于早期预测带来更大的收益，因此人们希望尽快、尽可能准确地对序列进行分类，而不必等到最后一个元素。为了实现这种早期序列分类，我们提出了一种新的分类器诱导停止方法。而以往的方法依赖于训练期间的探索来学习何时停止和分类，而我们的方法是一种更直接的监督方法。我们的分类器诱导停止在多个实验中平均 Pareto 前沿 AUC 增加了 11.8%。",
+    "tldr": "本论文提出了一种用于早期序列分类的新策略——分类器诱导停止。与以往方法依赖探索学习停止和分类不同，本方法采用监督方法直接进行分类，AUC值可增加11.8%。",
+    "en_tdlr": "This paper proposes a novel strategy called classifier-induced stopping for early sequence classification, which achieves an average Pareto frontier AUC increase of 11.8% through a supervised approach instead of exploration during training like previous methods."
+}

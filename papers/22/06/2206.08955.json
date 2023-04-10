@@ -1,0 +1,12 @@
+{
+    "title": "Making first order linear logic a generating grammar. (arXiv:2206.08955v2 [cs.CL] UPDATED)",
+    "abstract": "It is known that different categorial grammars have surface representation in a fragment of first order multiplicative linear logic. We show that the fragment of interest is equivalent to the recently introduced {\\it extended tensor type calculus}. This provides the former not only with some alternative syntax and intuitive geometric representation, but also with an intrinsic deductive system, which has been absent.",
+    "link": "http://arxiv.org/abs/2206.08955",
+    "context": "Title: Making first order linear logic a generating grammar. (arXiv:2206.08955v2 [cs.CL] UPDATED)\nAbstract: It is known that different categorial grammars have surface representation in a fragment of first order multiplicative linear logic. We show that the fragment of interest is equivalent to the recently introduced {\\it extended tensor type calculus}. This provides the former not only with some alternative syntax and intuitive geometric representation, but also with an intrinsic deductive system, which has been absent.",
+    "path": "papers/22/06/2206.08955.json",
+    "total_tokens": 540,
+    "translated_title": "让一阶线性逻辑成为生成语法",
+    "translated_abstract": "众所周知，不同的范畴语法在一阶乘法线性逻辑的一个片段中具有表面表示。 我们表明，该片段等价于最近引入的扩展张量类型演算。 这不仅为前者提供了一些替代的语法和直观的几何表示，而且还提供了一个固有的演绎系统，这是以前缺少的。",
+    "tldr": "本文研究了一阶线性逻辑与扩展张量类型演算的关系，提出了一种固有的演绎系统。",
+    "en_tdlr": "This paper explores the relationship between first order linear logic and extended tensor type calculus, and proposes an intrinsic deductive system."
+}

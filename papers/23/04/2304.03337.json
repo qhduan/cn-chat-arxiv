@@ -1,0 +1,12 @@
+{
+    "title": "On the Learnability of Multilabel Ranking. (arXiv:2304.03337v1 [cs.LG])",
+    "abstract": "Multilabel ranking is a central task in machine learning with widespread applications to web search, news stories, recommender systems, etc. However, the most fundamental question of learnability in a multilabel ranking setting remains unanswered. In this paper, we characterize the learnability of multilabel ranking problems in both the batch and online settings for a large family of ranking losses. Along the way, we also give the first equivalence class of ranking losses based on learnability.",
+    "link": "http://arxiv.org/abs/2304.03337",
+    "context": "Title: On the Learnability of Multilabel Ranking. (arXiv:2304.03337v1 [cs.LG])\nAbstract: Multilabel ranking is a central task in machine learning with widespread applications to web search, news stories, recommender systems, etc. However, the most fundamental question of learnability in a multilabel ranking setting remains unanswered. In this paper, we characterize the learnability of multilabel ranking problems in both the batch and online settings for a large family of ranking losses. Along the way, we also give the first equivalence class of ranking losses based on learnability.",
+    "path": "papers/23/04/2304.03337.json",
+    "total_tokens": 614,
+    "translated_title": "关于多标签排名的可学习性研究",
+    "translated_abstract": "在机器学习中，多标签排名是一项重要任务，广泛应用于网络搜索、新闻报道、推荐系统等领域。但是，关于多标签排名设置中可学习性的最基本问题仍未解答。本文研究了一系列排名损失函数下多标签排名问题在批处理和在线设置下的可学习性，同时也首次给出了基于可学习性的排名损失函数的等价类。",
+    "tldr": "研究了一系列排名损失函数下多标签排名问题在批处理和在线设置下的可学习性，并首次给出基于可学习性的排名损失函数的等价类。",
+    "en_tdlr": "This paper characterizes the learnability of multilabel ranking problems in both the batch and online settings for a large family of ranking losses, and provides the first equivalence class of ranking losses based on learnability."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Lon-ea at SemEval-2023 Task 11: A Comparison of Activation Functions for Soft and Hard Label Prediction. (arXiv:2303.02468v2 [cs.CL] UPDATED)",
+    "abstract": "We study the influence of different activation functions in the output layer of deep neural network models for soft and hard label prediction in the learning with disagreement task. In this task, the goal is to quantify the amount of disagreement via predicting soft labels. To predict the soft labels, we use BERT-based preprocessors and encoders and vary the activation function used in the output layer, while keeping other parameters constant. The soft labels are then used for the hard label prediction. The activation functions considered are sigmoid as well as a step-function that is added to the model post-training and a sinusoidal activation function, which is introduced for the first time in this paper.",
+    "link": "http://arxiv.org/abs/2303.02468",
+    "context": "Title: Lon-ea at SemEval-2023 Task 11: A Comparison of Activation Functions for Soft and Hard Label Prediction. (arXiv:2303.02468v2 [cs.CL] UPDATED)\nAbstract: We study the influence of different activation functions in the output layer of deep neural network models for soft and hard label prediction in the learning with disagreement task. In this task, the goal is to quantify the amount of disagreement via predicting soft labels. To predict the soft labels, we use BERT-based preprocessors and encoders and vary the activation function used in the output layer, while keeping other parameters constant. The soft labels are then used for the hard label prediction. The activation functions considered are sigmoid as well as a step-function that is added to the model post-training and a sinusoidal activation function, which is introduced for the first time in this paper.",
+    "path": "papers/23/03/2303.02468.json",
+    "total_tokens": 717,
+    "translated_title": "SemEval-2023任务11的Lon-ea：软硬标签预测中激活函数的比较。",
+    "translated_abstract": "我们研究在学习不同意任务的软硬标签预测中，深度神经网络模型输出层中不同激活函数的影响。在该任务中，目标是通过预测软标签来量化不同意量。为了预测软标签，我们使用基于BERT的预处理器和编码器，并改变输出层中使用的激活函数，同时保持其他参数不变。然后将软标签用于硬标签预测。考虑的激活函数包括sigmoid函数以及添加到模型中的阶跃函数和本文中首次介绍的正弦激活函数。",
+    "tldr": "本研究研究了在软硬标签预测中，不同激活函数对于深度神经网络模型输出的影响，并引入了一种新的正弦激活函数。",
+    "en_tdlr": "This study explores the impact of different activation functions on the output layer of deep neural networks for soft and hard label prediction, and introduces a new sinusoidal activation function."
+}

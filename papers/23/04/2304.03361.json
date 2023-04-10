@@ -1,0 +1,12 @@
+{
+    "title": "NMR shift prediction from small data quantities. (arXiv:2304.03361v1 [physics.chem-ph])",
+    "abstract": "Prediction of chemical shift in NMR using machine learning methods is typically done with the maximum amount of data available to achieve the best results. In some cases, such large amounts of data are not available, e.g. for heteronuclei. We demonstrate a novel machine learning model which is able to achieve good results with comparatively low amounts of data. We show this by predicting 19F and 13C NMR chemical shifts of small molecules in specific solvents.",
+    "link": "http://arxiv.org/abs/2304.03361",
+    "context": "Title: NMR shift prediction from small data quantities. (arXiv:2304.03361v1 [physics.chem-ph])\nAbstract: Prediction of chemical shift in NMR using machine learning methods is typically done with the maximum amount of data available to achieve the best results. In some cases, such large amounts of data are not available, e.g. for heteronuclei. We demonstrate a novel machine learning model which is able to achieve good results with comparatively low amounts of data. We show this by predicting 19F and 13C NMR chemical shifts of small molecules in specific solvents.",
+    "path": "papers/23/04/2304.03361.json",
+    "total_tokens": 624,
+    "translated_title": "小数据量下的NMR位移预测",
+    "translated_abstract": "使用机器学习方法进行NMR化学位移预测通常需要使用尽可能多的数据以获得最佳结果。但是在某些情况下，如异核核素，很难得到大量数据。我们展示了一种新颖的机器学习模型，该模型能够以相对较少的数据量取得良好的结果。我们通过预测特定溶剂中小分子的19F和13C NMR化学位移来展示这一点。",
+    "tldr": "提出了一种新的机器学习模型，能够以相对较少的数据量预测NMR化学位移，展示了在特定溶剂中预测小分子的19F和13C NMR化学位移方面的良好效果。",
+    "en_tdlr": "A novel machine learning model is proposed for predicting NMR chemical shift with small data quantities, which shows good results in predicting 19F and 13C NMR chemical shifts of small molecules in specific solvents."
+}

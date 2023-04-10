@@ -1,0 +1,11 @@
+{
+    "title": "Representer Theorems for Metric and Preference Learning: A Geometric Perspective. (arXiv:2304.03720v1 [cs.LG])",
+    "abstract": "We explore the metric and preference learning problem in Hilbert spaces. We obtain a novel representer theorem for the simultaneous task of metric and preference learning. Our key observation is that the representer theorem can be formulated with respect to the norm induced by the inner product inherent in the problem structure. Additionally, we demonstrate how our framework can be applied to the task of metric learning from triplet comparisons and show that it leads to a simple and self-contained representer theorem for this task. In the case of Reproducing Kernel Hilbert Spaces (RKHS), we demonstrate that the solution to the learning problem can be expressed using kernel terms, akin to classical representer theorems.",
+    "link": "http://arxiv.org/abs/2304.03720",
+    "context": "Title: Representer Theorems for Metric and Preference Learning: A Geometric Perspective. (arXiv:2304.03720v1 [cs.LG])\nAbstract: We explore the metric and preference learning problem in Hilbert spaces. We obtain a novel representer theorem for the simultaneous task of metric and preference learning. Our key observation is that the representer theorem can be formulated with respect to the norm induced by the inner product inherent in the problem structure. Additionally, we demonstrate how our framework can be applied to the task of metric learning from triplet comparisons and show that it leads to a simple and self-contained representer theorem for this task. In the case of Reproducing Kernel Hilbert Spaces (RKHS), we demonstrate that the solution to the learning problem can be expressed using kernel terms, akin to classical representer theorems.",
+    "path": "papers/23/04/2304.03720.json",
+    "total_tokens": 773,
+    "translated_title": "度量学习与偏好学习的表现定理：基于几何的视角",
+    "translated_abstract": "我们探讨了希尔伯特空间中的度量学习和偏好学习问题，并获得了一种新的度量学习和偏好学习的表现定理。我们的关键观察是，表现定理可以根据问题结构内在的内积所诱导的范数来表示。此外，我们展示了如何将我们的框架应用于三元组比较的度量学习任务，并展示它导致了一个简单且自包含的该任务的表现定理。在再生核希尔伯特空间(RKHS)的情况下，我们展示了学习问题的解可以使用类似于经典表现定理的核术语表示。",
+    "tldr": "该论文提出了度量学习和偏好学习的新的表现定理，解决了度量学习任务以三元组比较为基础的表现定理问题。这种表现定理可以用内积诱导的范数来表示。"
+}

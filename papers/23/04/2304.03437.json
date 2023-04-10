@@ -1,0 +1,11 @@
+{
+    "title": "Echo disappears: momentum term structure and cyclic information in turnover. (arXiv:2304.03437v1 [econ.GN])",
+    "abstract": "We extract cyclic information in turnover and find it can explain the momentum echo. The reversal in recent month momentum is the key factor that cancels out the recent month momentum and excluding it makes the echo regress to a damped shape. Both rational and behavioral theories can explain the reversal. This study is the first explanation of the momentum echo in U.S. stock markets.",
+    "link": "http://arxiv.org/abs/2304.03437",
+    "context": "Title: Echo disappears: momentum term structure and cyclic information in turnover. (arXiv:2304.03437v1 [econ.GN])\nAbstract: We extract cyclic information in turnover and find it can explain the momentum echo. The reversal in recent month momentum is the key factor that cancels out the recent month momentum and excluding it makes the echo regress to a damped shape. Both rational and behavioral theories can explain the reversal. This study is the first explanation of the momentum echo in U.S. stock markets.",
+    "path": "papers/23/04/2304.03437.json",
+    "total_tokens": 558,
+    "translated_title": "Echo消失：动量期限结构和换手中的循环信息",
+    "translated_abstract": "我们提取了换手中的循环信息，并发现它可以解释动量回声。近期动量反转是取消近期动量的关键因素，将其排除后，回声会回归到阻尼形状。理性和行为理论均可解释反转现象。这项研究是对美国股市动量回声的首次解释。",
+    "tldr": "通过提取换手中的循环信息，研究发现动量回声可以通过近期动量反转进行解释。"
+}

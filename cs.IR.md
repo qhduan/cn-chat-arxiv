@@ -2,157 +2,157 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Zero-Shot Next-Item Recommendation using Large Pretrained Language Models.](http://arxiv.org/abs/2304.03153) | 本研究通过提出零样本下一个项目推荐策略，解决了使用大型预训练语言模型进行下一个项目推荐中遇到的挑战。 |
-| [^2] | [Simplifying Content-Based Neural News Recommendation: On User Modeling and Training Objectives.](http://arxiv.org/abs/2304.03112) | 该论文提出了一个新闻推荐的统一框架，以便在候选人感知用户建模、点击行为融合和培训目标等关键设计维度上进行系统和公平的比较。该框架简化了模型设计和训练目标，并获得了有竞争力的结果。 |
-| [^3] | [Manipulating Federated Recommender Systems: Poisoning with Synthetic Users and Its Countermeasures.](http://arxiv.org/abs/2304.03054) | 本文提出了一种新的攻击方法，利用合成的恶意用户上传有毒的梯度来在联邦推荐系统中有效地操纵目标物品的排名和曝光率。在两个真实世界的推荐数据集上进行了大量实验。 |
-| [^4] | [TagGPT: Large Language Models are Zero-shot Multimodal Taggers.](http://arxiv.org/abs/2304.03022) | TagGPT是一个零-shot多模态标注器，通过精心设计的提示，利用大型语言模型从一系列原始数据中预测大规模的候选标签，并进行过滤和语义分析，为特定应用程序构建高质量标签集。 |
-| [^5] | [HGCC: Enhancing Hyperbolic Graph Convolution Networks on Heterogeneous Collaborative Graph for Recommendation.](http://arxiv.org/abs/2304.02961) | 该论文提出了一种名为HGCC的协同过滤模型，它通过添加幂律偏差来保持协同图的长尾性质，并直接聚合邻居节点，以提高推荐性能。 |
-| [^6] | [Opportunities and challenges of ChatGPT for design knowledge management.](http://arxiv.org/abs/2304.02796) | 本文评述了设计知识分类和表示方法，以及过去支持设计师获得知识的努力。通过分析 ChatGPT 影响设计知识管理的机遇和挑战，提出了未来的研究方向，并进行了验证，结果表明设计师可以从各个领域获取有针对性的知识，但知识的质量高度依赖于提示。 |
-| [^7] | [Unfolded Self-Reconstruction LSH: Towards Machine Unlearning in Approximate Nearest Neighbour Search.](http://arxiv.org/abs/2304.02350) | 本文提出了一种基于数据依赖的哈希方法USR-LSH，该方法通过展开实例级数据重建的优化更新，提高了数据的信息保留能力，同时还提出了一种动态的遗忘机制，使得数据可以快速删除和插入，无需重新训练，这是一种具有数据隐私和安全要求的在线ANN搜索的实际解决方案。 |
-| [^8] | [FinalMLP: An Enhanced Two-Stream MLP Model for CTR Prediction.](http://arxiv.org/abs/2304.00902) | 本研究提出了一个用于CTR预测的增强双流MLP模型，经实证研究表明，该模型仅是简单地结合两个MLP就可以实现令人惊讶的良好性能。 |
-| [^9] | [Blurring-Sharpening Process Models for Collaborative Filtering.](http://arxiv.org/abs/2211.09324) | 本文提出了一种协同过滤的模糊-锐化过程模型（BSPM），并利用期望最大化算法学习模型参数，在显式和隐式反馈中优于现有技术方法。 |
-| [^10] | [Personalized Showcases: Generating Multi-Modal Explanations for Recommendations.](http://arxiv.org/abs/2207.00422) | 该论文提出了一个新的任务——个性化展示，通过提供文本和视觉信息进一步丰富推荐的解释。作者从 Google Local（即地图）收集了一个大规模的数据集，并提出了一个个性化多模态框架。实验证明，该框架能够产生比先前方法更多样化和更具表现力的解释。 |
+| [^1] | [T2Ranking: A large-scale Chinese Benchmark for Passage Ranking.](http://arxiv.org/abs/2304.03679) | T2Ranking是一个大规模的中文段落排序基准数据集，使用了4级分级相关性评分，以解决现有数据集在数据规模、细粒度相关性注释和错误负面问题方面的限制。 |
+| [^2] | [From Retrieval to Generation: Efficient and Effective Entity Set Expansion.](http://arxiv.org/abs/2304.03531) | 本文提出了GenExpan，一种基于生成式预训练语言模型的实体集扩展框架，利用前缀树保证实体生成的有效性，采用自动生成的类名来引导模型生成同一类实体，从而提高了效率和可扩展性。 |
+| [^3] | [Generative Recommendation: Towards Next-generation Recommender Paradigm.](http://arxiv.org/abs/2304.03516) | 生成式AI可以克服推荐系统中的限制，使其能够生成满足用户特定信息需求的内容，并且用户可以通过自然语言指令来指导内容生成。 |
+| [^4] | [Continuous Input Embedding Size Search For Recommender Systems.](http://arxiv.org/abs/2304.03501) | 提出了一种新的方法CONTINUOUS，可以对潜在因子模型进行连续嵌入大小搜索，它通过将嵌入大小选择建模为连续变量解决了先前工作中的挑战，并在三个基准数据集上的实验中证实了它的有效性和高效性。 |
+| [^5] | [CAPOT: Creating Robust Dense Query Encoders using Post Training Contrastive Alignment.](http://arxiv.org/abs/2304.03401) | CAPOT使用后训练对比对齐的方法，提高模型对于噪声查询的健壮性，表现类似于数据增强但没有其开销。 |
+| [^6] | [Graph Collaborative Signals Denoising and Augmentation for Recommendation.](http://arxiv.org/abs/2304.03344) | 本文提出了一种新的图邻接矩阵，它包括了用户-用户和项目-项目的相关性，以及一个经过适当设计的用户-项目交互矩阵，并通过预训练和top-K采样增强了用户-项目交互矩阵，以更好地适应所有用户的需求。 |
+| [^7] | [ChatGPT-Crawler: Find out if ChatGPT really knows what it's talking about.](http://arxiv.org/abs/2304.03325) | 本文分析了从不同对话QA语料库中生成的ChatGPT的响应，并比较了其与正确答案的相似度。研究发现ChatGPT在某些情况下提供了错误的答案，提供了潜在用户和开发者的宝贵见解。 |
+| [^8] | [Multi-Modal Self-Supervised Learning for Recommendation.](http://arxiv.org/abs/2302.10632) | 本论文提出了一种名为“多模态自监督学习”的方法，通过有效地学习模态感知用户偏好和跨模态依赖关系的自我监控信号，以提高推荐系统的性能，实验结果表明其效果优于现有方法和多模态推荐。 |
+| [^9] | [Complex QA and language models hybrid architectures, Survey.](http://arxiv.org/abs/2302.09051) | 本文综述了语言模型架构和策略的最新进展，并重点关注混合技术在复杂问题回答中的应用，讨论了该领域的挑战和未来研究方向。 |
+| [^10] | [Clustering-based Imputation for Dropout Buyers in Large-scale Online Experimentation.](http://arxiv.org/abs/2209.06125) | 本文提出一种基于聚类方法的在线实验数据填补方法，将不完整指标值的用户分为访客和缺失购买者两组，使用$k$-最近邻填补方法，并考虑实验特定的特征和用户的购物路径活动，同时使用分层和聚类结合的方式提高填补效率。 |
 
 # 详细
 
-[^1]: 利用大型预训练语言模型进行零样本下一个项目推荐
+[^1]: T2Ranking：一个大规模的中文段落排序基准数据集
 
-    Zero-Shot Next-Item Recommendation using Large Pretrained Language Models. (arXiv:2304.03153v1 [cs.IR])
+    T2Ranking: A large-scale Chinese Benchmark for Passage Ranking. (arXiv:2304.03679v1 [cs.IR])
 
-    [http://arxiv.org/abs/2304.03153](http://arxiv.org/abs/2304.03153)
+    [http://arxiv.org/abs/2304.03679](http://arxiv.org/abs/2304.03679)
 
-    本研究通过提出零样本下一个项目推荐策略，解决了使用大型预训练语言模型进行下一个项目推荐中遇到的挑战。
-
-    
-
-    大型语言模型（LLM）在各种自然语言处理（NLP）任务中取得了令人印象深刻的零样本表现，展示了它们在没有训练示例的情况下进行推理的能力。尽管取得了成功，但尚未有研究探索LLMs在零样本情况下执行下一个项目推荐的潜力。作者们确定了必须解决的两个主要问题，以使LLMs有效地充当推荐者。
-
-    Large language models (LLMs) have achieved impressive zero-shot performance in various natural language processing (NLP) tasks, demonstrating their capabilities for inference without training examples. Despite their success, no research has yet explored the potential of LLMs to perform next-item recommendations in the zero-shot setting. We have identified two major challenges that must be addressed to enable LLMs to act effectively as recommenders. First, the recommendation space can be extremely large for LLMs, and LLMs do not know about the target user's past interacted items and preferences. To address this gap, we propose a prompting strategy called Zero-Shot Next-Item Recommendation (NIR) prompting that directs LLMs to make next-item recommendations. Specifically, the NIR-based strategy involves using an external module to generate candidate items based on user-filtering or item-filtering. Our strategy incorporates a 3-step prompting that guides GPT-3 to carry subtasks that captur
-    
-[^2]: 简化基于内容的神经新闻推荐：关于用户建模和训练目标
-
-    Simplifying Content-Based Neural News Recommendation: On User Modeling and Training Objectives. (arXiv:2304.03112v1 [cs.IR])
-
-    [http://arxiv.org/abs/2304.03112](http://arxiv.org/abs/2304.03112)
-
-    该论文提出了一个新闻推荐的统一框架，以便在候选人感知用户建模、点击行为融合和培训目标等关键设计维度上进行系统和公平的比较。该框架简化了模型设计和训练目标，并获得了有竞争力的结果。
+    T2Ranking是一个大规模的中文段落排序基准数据集，使用了4级分级相关性评分，以解决现有数据集在数据规模、细粒度相关性注释和错误负面问题方面的限制。
 
     
 
-    个性化新闻推荐的出现使得推荐体系结构变得越来越复杂。大多数神经新闻推荐器依赖于用户点击行为，通常引入专门的用户编码器将点击新闻内容聚合成用户嵌入（早期融合）。这些模型主要通过标准的逐点分类目标进行训练。现有的工作存在两个主要缺点：（1）尽管设计普遍相同，但由于评估数据集和协议的不同，模型之间的直接比较受到了阻碍; （2）留给了替代的模型设计和训练目标大量的未开发空间。在这项工作中，我们提出了一个新闻推荐的统一框架，允许在几个关键设计维度上系统地和公平地比较新闻推荐器: （i）候选人感知用户建模，（ii）点击行为融合，和（iii）培训目标。我们的发现挑战了神经新闻推荐的现状，并突显了我们提出的框架的有效性，它使用非常简化的模型设计和训练目标实现了竞争性的结果。
+    段落排名包括两个阶段：段落检索和段落重新排序，这是信息检索领域中学术界和工业界都关注的重要而具有挑战性的主题。然而，用于段落排名的常用数据集通常关注英语语言。对于非英语语境，如中文，现有的数据集在数据规模、细粒度相关性注释和错误负面问题方面受到限制。为了解决这个问题，我们引入了T2Ranking，这是一个针对中文段落排序的大规模基准数据集。T2Ranking包括来自真实搜索引擎的超过300K个查询和超过2M个唯一的段落。专家评注员被招募，为查询-段落对提供4级分级相关性评分（细粒度），而不是二进制相关性判断（粗粒度）。为了减少错误负面问题，在执行相关性注释时考虑更多具有较高多样性的段落，特别是在测试集中，以确保最大化评注的质量。
 
-    The advent of personalized news recommendation has given rise to increasingly complex recommender architectures. Most neural news recommenders rely on user click behavior and typically introduce dedicated user encoders that aggregate the content of clicked news into user embeddings (early fusion). These models are predominantly trained with standard point-wise classification objectives. The existing body of work exhibits two main shortcomings: (1) despite general design homogeneity, direct comparisons between models are hindered by varying evaluation datasets and protocols; (2) it leaves alternative model designs and training objectives vastly unexplored. In this work, we present a unified framework for news recommendation, allowing for a systematic and fair comparison of news recommenders across several crucial design dimensions: (i) candidate-awareness in user modeling, (ii) click behavior fusion, and (iii) training objectives. Our findings challenge the status quo in neural news rec
+    Passage ranking involves two stages: passage retrieval and passage re-ranking, which are important and challenging topics for both academics and industries in the area of Information Retrieval (IR). However, the commonly-used datasets for passage ranking usually focus on the English language. For non-English scenarios, such as Chinese, the existing datasets are limited in terms of data scale, fine-grained relevance annotation and false negative issues. To address this problem, we introduce T2Ranking, a large-scale Chinese benchmark for passage ranking. T2Ranking comprises more than 300K queries and over 2M unique passages from real-world search engines. Expert annotators are recruited to provide 4-level graded relevance scores (fine-grained) for query-passage pairs instead of binary relevance judgments (coarse-grained). To ease the false negative issues, more passages with higher diversities are considered when performing relevance annotations, especially in the test set, to ensure a m
     
-[^3]: 操纵联邦推荐系统: 用合成用户进行攻击及其对策
+[^2]: 从检索到生成：高效且有效的实体集扩展方法
 
-    Manipulating Federated Recommender Systems: Poisoning with Synthetic Users and Its Countermeasures. (arXiv:2304.03054v1 [cs.IR])
+    From Retrieval to Generation: Efficient and Effective Entity Set Expansion. (arXiv:2304.03531v1 [cs.CL])
 
-    [http://arxiv.org/abs/2304.03054](http://arxiv.org/abs/2304.03054)
+    [http://arxiv.org/abs/2304.03531](http://arxiv.org/abs/2304.03531)
 
-    本文提出了一种新的攻击方法，利用合成的恶意用户上传有毒的梯度来在联邦推荐系统中有效地操纵目标物品的排名和曝光率。在两个真实世界的推荐数据集上进行了大量实验。
-
-    
-
-    联邦推荐系统（FedRecs）被认为是一种保护隐私的技术，可以在不共享用户数据的情况下协同学习推荐模型。因为所有参与者都可以通过上传梯度直接影响系统，所以FedRecs容易受到恶意客户的攻击，尤其是利用合成用户进行的攻击更加有效。本文提出了一种新的攻击方法，可以在不依赖任何先前知识的情况下，通过一组合成的恶意用户上传有毒的梯度来有效地操纵目标物品的排名和曝光率。我们在两个真实世界的推荐数据集上对两种广泛使用的FedRecs （Fed-NCF和Fed-LightGCN）进行了大量实验。
-
-    Federated Recommender Systems (FedRecs) are considered privacy-preserving techniques to collaboratively learn a recommendation model without sharing user data. Since all participants can directly influence the systems by uploading gradients, FedRecs are vulnerable to poisoning attacks of malicious clients. However, most existing poisoning attacks on FedRecs are either based on some prior knowledge or with less effectiveness. To reveal the real vulnerability of FedRecs, in this paper, we present a new poisoning attack method to manipulate target items' ranks and exposure rates effectively in the top-$K$ recommendation without relying on any prior knowledge. Specifically, our attack manipulates target items' exposure rate by a group of synthetic malicious users who upload poisoned gradients considering target items' alternative products. We conduct extensive experiments with two widely used FedRecs (Fed-NCF and Fed-LightGCN) on two real-world recommendation datasets. The experimental res
-    
-[^4]: TagGPT：大型语言模型是零-shot多模态标注器
-
-    TagGPT: Large Language Models are Zero-shot Multimodal Taggers. (arXiv:2304.03022v1 [cs.IR])
-
-    [http://arxiv.org/abs/2304.03022](http://arxiv.org/abs/2304.03022)
-
-    TagGPT是一个零-shot多模态标注器，通过精心设计的提示，利用大型语言模型从一系列原始数据中预测大规模的候选标签，并进行过滤和语义分析，为特定应用程序构建高质量标签集。
+    本文提出了GenExpan，一种基于生成式预训练语言模型的实体集扩展框架，利用前缀树保证实体生成的有效性，采用自动生成的类名来引导模型生成同一类实体，从而提高了效率和可扩展性。
 
     
 
-    标签在促进当代互联网时代各种应用中多媒体内容的有效分发方面起着关键作用，如搜索引擎和推荐系统。最近，大型语言模型在各种任务上展示了惊人的能力。在这项工作中，我们提出了TagGPT，这是一个完全自动化的系统，能够以完全零-shot的方式进行标签提取和多模态标注。我们的核心见解是，通过精心设计的提示，LLM能够在给定视觉、语音等多模态数据的文本线索的情况下提取和推理正确的标签。具体来说，为了自动构建反映特定应用程序中用户意图和兴趣的高质量标签集，TagGPT通过提示LLM从一系列原始数据中预测大规模的候选标签，并进行了过滤和语义分析。对于需要分发标记的新实体，TagGPT提出了两个零-shot选项。
+    实体集扩展（ESE）是一项至关重要的任务，旨在扩展由小的种子实体集描述的目标语义类的实体。大多数现有的ESE方法是基于检索的框架，需要提取实体的上下文特征，并计算种子实体和候选实体之间的相似性。为了实现这两个目的，它们必须迭代地遍历语料库和数据集中提供的实体词汇，导致效率和可扩展性较差。实验结果表明，基于检索的ESE方法消耗的时间与实体词汇和语料库的大小成线性增长。本文首先提出了一种生成式ESE框架，Generative Entity Set Expansion (GenExpan)，它利用生成式预训练语言模型来完成ESE任务。具体而言，采用前缀树来保证实体生成的有效性，并采用自动生成的类名来引导模型生成同一类实体。
 
-    Tags are pivotal in facilitating the effective distribution of multimedia content in various applications in the contemporary Internet era, such as search engines and recommendation systems. Recently, large language models (LLMs) have demonstrated impressive capabilities across a wide range of tasks. In this work, we propose TagGPT, a fully automated system capable of tag extraction and multimodal tagging in a completely zero-shot fashion. Our core insight is that, through elaborate prompt engineering, LLMs are able to extract and reason about proper tags given textual clues of multimodal data, e.g., OCR, ASR, title, etc. Specifically, to automatically build a high-quality tag set that reflects user intent and interests for a specific application, TagGPT predicts large-scale candidate tags from a series of raw data via prompting LLMs, filtered with frequency and semantics. Given a new entity that needs tagging for distribution, TagGPT introduces two alternative options for zero-shot ta
+    Entity Set Expansion (ESE) is a critical task aiming to expand entities of the target semantic class described by a small seed entity set. Most existing ESE methods are retrieval-based frameworks that need to extract the contextual features of entities and calculate the similarity between seed entities and candidate entities. To achieve the two purposes, they should iteratively traverse the corpus and the entity vocabulary provided in the datasets, resulting in poor efficiency and scalability. The experimental results indicate that the time consumed by the retrieval-based ESE methods increases linearly with entity vocabulary and corpus size. In this paper, we firstly propose a generative ESE framework, Generative Entity Set Expansion (GenExpan), which utilizes a generative pre-trained language model to accomplish ESE task. Specifically, a prefix tree is employed to guarantee the validity of entity generation, and automatically generated class names are adopted to guide the model to gen
     
-[^5]: HGCC：提高异构协同图上的超几何图卷积网络用于推荐
+[^3]: 生成式推荐：走向下一代推荐系统范式。
 
-    HGCC: Enhancing Hyperbolic Graph Convolution Networks on Heterogeneous Collaborative Graph for Recommendation. (arXiv:2304.02961v1 [cs.IR])
+    Generative Recommendation: Towards Next-generation Recommender Paradigm. (arXiv:2304.03516v1 [cs.IR])
 
-    [http://arxiv.org/abs/2304.02961](http://arxiv.org/abs/2304.02961)
+    [http://arxiv.org/abs/2304.03516](http://arxiv.org/abs/2304.03516)
 
-    该论文提出了一种名为HGCC的协同过滤模型，它通过添加幂律偏差来保持协同图的长尾性质，并直接聚合邻居节点，以提高推荐性能。
-
-    
-
-    由于推荐任务中用户-物品交互数据的自然幂律分布特性，超几何空间建模已被引入协同过滤方法中。其中，超几何GCN结合了GCN和超几何空间的优势，并取得了令人惊讶的性能。然而，这些方法仅在设计中部分利用了超几何空间的特性，由于完全随机的嵌入初始化和不精确的切线空间聚合。此外，这些工作中使用的数据主要集中在仅用户-物品交互数据中，这进一步限制了模型的性能。本文提出了一种超几何GCN协同过滤模型HGCC，它改进了现有的超几何GCN结构，用于协同过滤并纳入了附加信息。它通过在节点嵌入初始化时添加幂律偏差来保持协同图的长尾性质；然后，它直接聚合邻居节点，以提高推荐性能。
-
-    Due to the naturally power-law distributed nature of user-item interaction data in recommendation tasks, hyperbolic space modeling has recently been introduced into collaborative filtering methods. Among them, hyperbolic GCN combines the advantages of GCN and hyperbolic space and achieves a surprising performance. However, these methods only partially exploit the nature of hyperbolic space in their designs due to completely random embedding initialization and an inaccurate tangent space aggregation. In addition, the data used in these works mainly focus on user-item interaction data only, which further limits the performance of the models. In this paper, we propose a hyperbolic GCN collaborative filtering model, HGCC, which improves the existing hyperbolic GCN structure for collaborative filtering and incorporates side information. It keeps the long-tailed nature of the collaborative graph by adding power law prior to node embedding initialization; then, it aggregates neighbors directl
-    
-[^6]: ChatGPT 在设计知识管理中的机遇和挑战
-
-    Opportunities and challenges of ChatGPT for design knowledge management. (arXiv:2304.02796v1 [cs.IR])
-
-    [http://arxiv.org/abs/2304.02796](http://arxiv.org/abs/2304.02796)
-
-    本文评述了设计知识分类和表示方法，以及过去支持设计师获得知识的努力。通过分析 ChatGPT 影响设计知识管理的机遇和挑战，提出了未来的研究方向，并进行了验证，结果表明设计师可以从各个领域获取有针对性的知识，但知识的质量高度依赖于提示。
+    生成式AI可以克服推荐系统中的限制，使其能够生成满足用户特定信息需求的内容，并且用户可以通过自然语言指令来指导内容生成。
 
     
 
-    自然语言处理技术的进步使得像 ChatGPT 这样的大型语言模型能够便捷地为设计师提供广泛的相关信息，以促进设计过程中的知识管理。然而，将 ChatGPT 导入设计过程也带来了新的挑战。本文简要评述了设计知识的分类和表示方式，以及支持设计师获取知识的先前努力。我们分析了 ChatGPT 在设计知识管理中所带来的机遇和挑战，并提出了未来有前途的研究方向。通过实验证明 ChatGPT 可以让设计师获取来自各个领域的有针对性的知识，但所获取的知识质量极大地依赖于提示的质量。
+    推荐系统通常从项目集合中检索项目进行个性化推荐。然而，这种基于检索的推荐范式面临两个限制：1）语料库中的人工生成项目可能无法满足用户的多样化信息需求，2）用户通常通过点击等被动且低效的反馈方式调整推荐内容。近年来，人工智能生成内容在各个领域取得显著成功，具有克服这些限制的潜力：1）生成式人工智能可以生成个性化的内容以满足用户特定的信息需求，2）新兴的ChatGPT通过自然语言指令显著提高了用户准确表达信息需求的能力。在这种情况下，人工智能生成内容的大爆发指引我们走向下一代推荐范式，具有两个新的目标：1）通过生成式人工智能生成个性化内容，2）整合用户指令以指导由人工智能生成的内容。
 
-    Recent advancements in Natural Language Processing have opened up new possibilities for the development of large language models like ChatGPT, which can facilitate knowledge management in the design process by providing designers with access to a vast array of relevant information. However, integrating ChatGPT into the design process also presents new challenges. In this paper, we provide a concise review of the classification and representation of design knowledge, and past efforts to support designers in acquiring knowledge. We analyze the opportunities and challenges that ChatGPT presents for knowledge management in design and propose promising future research directions. A case study is conducted to validate the advantages and drawbacks of ChatGPT, showing that designers can acquire targeted knowledge from various domains, but the quality of the acquired knowledge is highly dependent on the prompt.
+    Recommender systems typically retrieve items from an item corpus for personalized recommendations. However, such a retrieval-based recommender paradigm faces two limitations: 1) the human-generated items in the corpus might fail to satisfy the users' diverse information needs, and 2) users usually adjust the recommendations via passive and inefficient feedback such as clicks. Nowadays, AI-Generated Content (AIGC) has revealed significant success across various domains, offering the potential to overcome these limitations: 1) generative AI can produce personalized items to meet users' specific information needs, and 2) the newly emerged ChatGPT significantly facilitates users to express information needs more precisely via natural language instructions. In this light, the boom of AIGC points the way towards the next-generation recommender paradigm with two new objectives: 1) generating personalized content through generative AI, and 2) integrating user instructions to guide content gene
     
-[^7]: 未折叠自重建局部敏感哈希：走向近似最近邻搜索中的机器遗忘
+[^4]: 推荐系统的连续输入嵌入大小搜索
 
-    Unfolded Self-Reconstruction LSH: Towards Machine Unlearning in Approximate Nearest Neighbour Search. (arXiv:2304.02350v1 [cs.IR])
+    Continuous Input Embedding Size Search For Recommender Systems. (arXiv:2304.03501v1 [cs.IR])
 
-    [http://arxiv.org/abs/2304.02350](http://arxiv.org/abs/2304.02350)
+    [http://arxiv.org/abs/2304.03501](http://arxiv.org/abs/2304.03501)
 
-    本文提出了一种基于数据依赖的哈希方法USR-LSH，该方法通过展开实例级数据重建的优化更新，提高了数据的信息保留能力，同时还提出了一种动态的遗忘机制，使得数据可以快速删除和插入，无需重新训练，这是一种具有数据隐私和安全要求的在线ANN搜索的实际解决方案。
-
-    
-
-    近似最近邻搜索是搜索引擎、推荐系统等的重要组成部分。许多最近的工作都是基于学习的数据分布依赖哈希，实现了良好的检索性能。但是，由于对用户隐私和安全的需求不断增加，我们经常需要从机器学习模型中删除用户数据信息以满足特定的隐私和安全要求。这种需求需要ANN搜索算法支持快速的在线数据删除和插入。当前的基于学习的哈希方法需要重新训练哈希函数，这是由于大规模数据的时间成本太高而难以承受的。为了解决这个问题，我们提出了一种新型的数据依赖哈希方法，名为unfolded self-reconstruction locality-sensitive hashing (USR-LSH)。我们的USR-LSH展开了实例级数据重建的优化更新，这比数据无关的LSH更能保留数据信息。此外，我们的USR-LSH提出了一种动态的遗忘机制，用于快速的数据删除和插入，无需重新训练。实验结果表明，USR-LSH在检索准确性和时间效率方面优于现有的哈希方法。USR-LSH是具有数据隐私和安全要求的在线ANN搜索的实际解决方案。
-
-    Approximate nearest neighbour (ANN) search is an essential component of search engines, recommendation systems, etc. Many recent works focus on learning-based data-distribution-dependent hashing and achieve good retrieval performance. However, due to increasing demand for users' privacy and security, we often need to remove users' data information from Machine Learning (ML) models to satisfy specific privacy and security requirements. This need requires the ANN search algorithm to support fast online data deletion and insertion. Current learning-based hashing methods need retraining the hash function, which is prohibitable due to the vast time-cost of large-scale data. To address this problem, we propose a novel data-dependent hashing method named unfolded self-reconstruction locality-sensitive hashing (USR-LSH). Our USR-LSH unfolded the optimization update for instance-wise data reconstruction, which is better for preserving data information than data-independent LSH. Moreover, our US
-    
-[^8]: FinalMLP: 用于CTR预测的增强双流MLP模型
-
-    FinalMLP: An Enhanced Two-Stream MLP Model for CTR Prediction. (arXiv:2304.00902v2 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2304.00902](http://arxiv.org/abs/2304.00902)
-
-    本研究提出了一个用于CTR预测的增强双流MLP模型，经实证研究表明，该模型仅是简单地结合两个MLP就可以实现令人惊讶的良好性能。
+    提出了一种新的方法CONTINUOUS，可以对潜在因子模型进行连续嵌入大小搜索，它通过将嵌入大小选择建模为连续变量解决了先前工作中的挑战，并在三个基准数据集上的实验中证实了它的有效性和高效性。
 
     
 
-    点击率预测是在线广告和推荐中的基本任务之一。虽然多层感知器（MLP）在许多深度CTR预测模型中作为核心组件，但广为人知的是，仅应用一个基本MLP网络在学习乘法特征相互作用方面并不高效。因此，许多两个流交互模型（例如，DeepFM和DCN）通过将MLP网络与另一个专用网络集成以增强CTR预测。由于MLP流隐式地学习特征交互作用，因此现有研究主要关注于增强补充流中的显式特征交互作用。相反，我们的实证研究表明，一个经过良好调整的双流MLP模型，它只是简单地结合了两个MLP，甚至可以实现令人惊讶的良好性能，这在现有的工作中从未被报道过。基于这个观察结果，我们进一步提出了特征选择和交互聚合层。
+    潜在因子模型是现今推荐系统最流行的基础，其性能卓越。潜在因子模型通过对用户和项目进行表示，用于对成对相似度的计算。所有嵌入向量传统上都被限制在一个相对较大的统一大小（例如256维）。随着当代电子商务中用户和项目目录指数级增长，这种设计显然变得效率低下。为了促进轻量级推荐，强化学习（RL）最近开辟了一些机会，用于识别不同用户/项目的不同嵌入大小。然而，受到搜索效率和学习最优RL策略的限制，现有的基于RL的方法被限制为高度离散的预定义嵌入大小选项。这导致了一个被广泛忽视的潜力，可以在给定计算预算下引入更细的粒度来获得更好的推荐效果。在本文中，我们提出了一种新方法，称为CONTINUOUS，可以对潜在因子模型进行连续嵌入大小搜索。CONTINUOUS通过将嵌入大小选择建模为连续变量和制定可微优化问题的形式来解决之前工作的挑战。在三个基准数据集上的实验证实了CONTINUOUS优于基线的优越性，验证了动态优化嵌入大小的有效性和高效性。
 
-    Click-through rate (CTR) prediction is one of the fundamental tasks for online advertising and recommendation. While multi-layer perceptron (MLP) serves as a core component in many deep CTR prediction models, it has been widely recognized that applying a vanilla MLP network alone is inefficient in learning multiplicative feature interactions. As such, many two-stream interaction models (e.g., DeepFM and DCN) have been proposed by integrating an MLP network with another dedicated network for enhanced CTR prediction. As the MLP stream learns feature interactions implicitly, existing research focuses mainly on enhancing explicit feature interactions in the complementary stream. In contrast, our empirical study shows that a well-tuned two-stream MLP model that simply combines two MLPs can even achieve surprisingly good performance, which has never been reported before by existing work. Based on this observation, we further propose feature selection and interaction aggregation layers that c
+    Latent factor models are the most popular backbones for today's recommender systems owing to their prominent performance. Latent factor models represent users and items as real-valued embedding vectors for pairwise similarity computation, and all embeddings are traditionally restricted to a uniform size that is relatively large (e.g., 256-dimensional). With the exponentially expanding user base and item catalog in contemporary e-commerce, this design is admittedly becoming memory-inefficient. To facilitate lightweight recommendation, reinforcement learning (RL) has recently opened up opportunities for identifying varying embedding sizes for different users/items. However, challenged by search efficiency and learning an optimal RL policy, existing RL-based methods are restricted to highly discrete, predefined embedding size choices. This leads to a largely overlooked potential of introducing finer granularity into embedding sizes to obtain better recommendation effectiveness under a giv
     
-[^9]: 协同过滤的模糊-锐化过程模型
+[^5]: CAPOT: 使用后训练对比对齐创建强健的密集查询编码器
 
-    Blurring-Sharpening Process Models for Collaborative Filtering. (arXiv:2211.09324v2 [cs.IR] UPDATED)
+    CAPOT: Creating Robust Dense Query Encoders using Post Training Contrastive Alignment. (arXiv:2304.03401v1 [cs.IR])
 
-    [http://arxiv.org/abs/2211.09324](http://arxiv.org/abs/2211.09324)
+    [http://arxiv.org/abs/2304.03401](http://arxiv.org/abs/2304.03401)
 
-    本文提出了一种协同过滤的模糊-锐化过程模型（BSPM），并利用期望最大化算法学习模型参数，在显式和隐式反馈中优于现有技术方法。
-
-    
-
-    协同过滤是推荐系统中最基本的主题之一。从矩阵分解到图卷积方法，已经提出了各种各样的协同过滤方法。在图过滤方法和基于分数的生成模型（SGM）的最近成功启发下，我们提出了一种新的模糊-锐化过程模型（BSPM）的概念。SGM和BSPM共享相同的处理哲学，即在将原始信息首先扰乱然后恢复到原始形式的过程中可以发现新信息（例如，在SGM的情况下生成新图像）。然而，SGM和我们的BSPM处理不同类型的信息，并且它们的最优扰动和恢复过程存在根本上的差异。因此，我们的BSPM与SGM具有不同的形式。此外，我们的概念不仅理论上包括了许多现有的协同过滤模型，而且在显式和隐式反馈的情况下，在召回率和NDCG方面也优于它们。具体而言，我们提出了一组具有不同模糊和锐化滤波器设置的BSPM，并推导了期望最大化（EM）算法以学习模型参数。四个基准数据集的实验结果证明了我们的模型相对于现有技术方法的有效性。
-
-    Collaborative filtering is one of the most fundamental topics for recommender systems. Various methods have been proposed for collaborative filtering, ranging from matrix factorization to graph convolutional methods. Being inspired by recent successes of graph filtering-based methods and score-based generative models (SGMs), we present a novel concept of blurring-sharpening process model (BSPM). SGMs and BSPMs share the same processing philosophy that new information can be discovered (e.g., new images are generated in the case of SGMs) while original information is first perturbed and then recovered to its original form. However, SGMs and our BSPMs deal with different types of information, and their optimal perturbation and recovery processes have fundamental discrepancies. Therefore, our BSPMs have different forms from SGMs. In addition, our concept not only theoretically subsumes many existing collaborative filtering models but also outperforms them in terms of Recall and NDCG in th
-    
-[^10]: 个性化展示：生成面向推荐的多模态解释
-
-    Personalized Showcases: Generating Multi-Modal Explanations for Recommendations. (arXiv:2207.00422v2 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2207.00422](http://arxiv.org/abs/2207.00422)
-
-    该论文提出了一个新的任务——个性化展示，通过提供文本和视觉信息进一步丰富推荐的解释。作者从 Google Local（即地图）收集了一个大规模的数据集，并提出了一个个性化多模态框架。实验证明，该框架能够产生比先前方法更多样化和更具表现力的解释。
+    CAPOT使用后训练对比对齐的方法，提高模型对于噪声查询的健壮性，表现类似于数据增强但没有其开销。
 
     
 
-    现有的解释模型只为推荐生成文本，但仍然难以产生多样化的内容。在本文中，我们提出了一个名为“个性化展示”的新任务，通过在解释中提供文本和视觉信息来进一步丰富解释。具体而言，我们首先选择一个定制的图像集，该集合与用户对推荐物品的兴趣最相关。然后，根据我们所选的图像生成自然语言解释。 为了实现这个新任务，我们从 Google Local（即地图）收集了一个大规模的数据集，并构建了一个高质量的子集以生成多模态解释。我们提出了一个个性化多模态框架，可以通过对比学习生成多样化和视觉一致的解释。实验表明，我们的框架受益于不同的输入模态，并且能够产生比先前方法更多样化和更具表现力的解释。
+    上下文词表示的成功和神经信息检索的进步使得基于密集向量的检索成为段落和文档排名的标准方法。双编码器虽然有效和高效，但对查询分布和嘈杂查询变化很脆弱。数据增强可以使模型更加健壮，但会引入训练集生成的开销，并需要重新训练和索引重建。我们提出了 Contrastive Alignment POst Training (CAPOT)，一种高效的微调方法，通过冻结文档编码器，让查询编码器学习将嘈杂查询与其未更改的根对齐，以提高模型的健壮性。我们评估了 CAPOT 在 MSMARCO、自然问题和 Trivia QA 段落检索的嘈杂变体上，发现 CAPOT 具有与数据增强类似的影响，但没有它的开销。
 
-    Existing explanation models generate only text for recommendations but still struggle to produce diverse contents. In this paper, to further enrich explanations, we propose a new task named personalized showcases, in which we provide both textual and visual information to explain our recommendations. Specifically, we first select a personalized image set that is the most relevant to a user's interest toward a recommended item. Then, natural language explanations are generated accordingly given our selected images. For this new task, we collect a large-scale dataset from Google Local (i.e.,~maps) and construct a high-quality subset for generating multi-modal explanations. We propose a personalized multi-modal framework which can generate diverse and visually-aligned explanations via contrastive learning. Experiments show that our framework benefits from different modalities as inputs, and is able to produce more diverse and expressive explanations compared to previous methods on a varie
+    The success of contextual word representations and advances in neural information retrieval have made dense vector-based retrieval a standard approach for passage and document ranking. While effective and efficient, dual-encoders are brittle to variations in query distributions and noisy queries. Data augmentation can make models more robust but introduces overhead to training set generation and requires retraining and index regeneration. We present Contrastive Alignment POst Training (CAPOT), a highly efficient finetuning method that improves model robustness without requiring index regeneration, the training set optimization, or alteration. CAPOT enables robust retrieval by freezing the document encoder while the query encoder learns to align noisy queries with their unaltered root. We evaluate CAPOT noisy variants of MSMARCO, Natural Questions, and Trivia QA passage retrieval, finding CAPOT has a similar impact as data augmentation with none of its overhead.
+    
+[^6]: 推荐系统的图协作信号去噪与增强
+
+    Graph Collaborative Signals Denoising and Augmentation for Recommendation. (arXiv:2304.03344v1 [cs.IR])
+
+    [http://arxiv.org/abs/2304.03344](http://arxiv.org/abs/2304.03344)
+
+    本文提出了一种新的图邻接矩阵，它包括了用户-用户和项目-项目的相关性，以及一个经过适当设计的用户-项目交互矩阵，并通过预训练和top-K采样增强了用户-项目交互矩阵，以更好地适应所有用户的需求。
+
+    
+
+    图协作过滤（GCF）是捕捉推荐系统中高阶协同信号的流行技术。然而，GCF的双向邻接矩阵，其定义了基于用户-项目交互进行聚合的邻居，对于有大量交互但不足的用户/项目来说可能是嘈杂的。此外，邻接矩阵忽略了用户-用户和项目-项目之间的相关性，这可能限制了聚合的有益邻居的范围。在这项工作中，我们提出了一种新的图邻接矩阵，它包括了用户-用户和项目-项目的相关性，以及一个经过适当设计的用户-项目交互矩阵，以平衡所有用户之间的交互数量。为了实现这一点，我们预先训练了一个基于图的推荐方法来获得用户/项目嵌入，然后通过top-K采样增强了用户-项目交互矩阵。我们还增强了对称的用户-用户和项目-项目相关组件，以更好地适应所有用户的需求。
+
+    Graph collaborative filtering (GCF) is a popular technique for capturing high-order collaborative signals in recommendation systems. However, GCF's bipartite adjacency matrix, which defines the neighbors being aggregated based on user-item interactions, can be noisy for users/items with abundant interactions and insufficient for users/items with scarce interactions. Additionally, the adjacency matrix ignores user-user and item-item correlations, which can limit the scope of beneficial neighbors being aggregated.  In this work, we propose a new graph adjacency matrix that incorporates user-user and item-item correlations, as well as a properly designed user-item interaction matrix that balances the number of interactions across all users. To achieve this, we pre-train a graph-based recommendation method to obtain users/items embeddings, and then enhance the user-item interaction matrix via top-K sampling. We also augment the symmetric user-user and item-item correlation components to th
+    
+[^7]: ChatGPT-Crawler：发现ChatGPT是否真的知道自己在说什么。（arXiv:2304.03325v1 [cs.CL]）
+
+    ChatGPT-Crawler: Find out if ChatGPT really knows what it's talking about. (arXiv:2304.03325v1 [cs.CL])
+
+    [http://arxiv.org/abs/2304.03325](http://arxiv.org/abs/2304.03325)
+
+    本文分析了从不同对话QA语料库中生成的ChatGPT的响应，并比较了其与正确答案的相似度。研究发现ChatGPT在某些情况下提供了错误的答案，提供了潜在用户和开发者的宝贵见解。
+
+    
+
+    大型语言模型因其在各种任务上的出色表现而引起了人们的极大兴趣。其中，OpenAI开发的ChatGPT已经成为早期采用者中非常流行的模型，他们甚至将其视为客户服务、教育、医疗和金融等许多领域的破坏性技术。理解这些初期用户的观点非常重要，因为它可以为不同领域技术的潜在优势、劣势、成功或失败提供有价值的洞见。本研究考察了ChatGPT从不同对话QA语料库中生成的响应。研究使用BERT相似度分数将这些响应与正确答案进行比较，并获得自然语言推理（NLI）标签。还计算并比较了评估分数，以确定GPT-3＆GPT-4的整体性能。此外，该研究还确定了ChatGPT提供错误答案的情况，为相关领域提供了洞见。
+
+    Large language models have gained considerable interest for their impressive performance on various tasks. Among these models, ChatGPT developed by OpenAI has become extremely popular among early adopters who even regard it as a disruptive technology in many fields like customer service, education, healthcare, and finance. It is essential to comprehend the opinions of these initial users as it can provide valuable insights into the potential strengths, weaknesses, and success or failure of the technology in different areas. This research examines the responses generated by ChatGPT from different Conversational QA corpora. The study employed BERT similarity scores to compare these responses with correct answers and obtain Natural Language Inference(NLI) labels. Evaluation scores were also computed and compared to determine the overall performance of GPT-3 \& GPT-4. Additionally, the study identified instances where ChatGPT provided incorrect answers to questions, providing insights into
+    
+[^8]: 多模态自监督学习用于推荐系统
+
+    Multi-Modal Self-Supervised Learning for Recommendation. (arXiv:2302.10632v4 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2302.10632](http://arxiv.org/abs/2302.10632)
+
+    本论文提出了一种名为“多模态自监督学习”的方法，通过有效地学习模态感知用户偏好和跨模态依赖关系的自我监控信号，以提高推荐系统的性能，实验结果表明其效果优于现有方法和多模态推荐。
+
+    
+
+    多模态分享平台（例如 TikTok、YouTube）的崛起使得个性化推荐系统能够将各种模式（例如视觉、文本和声音）纳入潜在用户表示法。虽然现有的多模态推荐工作利用多媒体内容特征增强物品嵌入，但它们的模型表示能力受到重标签依赖性和稀疏用户行为数据的影响。受自监控学习在减轻标签稀缺性问题方面的最新进展的启发，我们探索有效地学习模态感知用户偏好和跨模态依赖关系的自我监控信号。为此，我们提出了一种新的多模态自监控学习（MMSSL）方法，解决了两个关键挑战。具体而言，为了表征用户-物品协同视图和物品多模态语义视图之间的相互依赖关系，我们设计了一种模态感知的交互结构学习组件；为了在模态相关的推荐任务中进一步利用自我监控信号，我们开发了一种学习用户内部模态分布的模态相关的预文本任务。对各种真实世界推荐数据集的实验结果表明，MMSSL优于最先进的推荐基线和多模态对应物，特别是在用户-物品交互稀缺的情况下。
+
+    The online emergence of multi-modal sharing platforms (eg, TikTok, Youtube) is powering personalized recommender systems to incorporate various modalities (eg, visual, textual and acoustic) into the latent user representations. While existing works on multi-modal recommendation exploit multimedia content features in enhancing item embeddings, their model representation capability is limited by heavy label reliance and weak robustness on sparse user behavior data. Inspired by the recent progress of self-supervised learning in alleviating label scarcity issue, we explore deriving self-supervision signals with effectively learning of modality-aware user preference and cross-modal dependencies. To this end, we propose a new Multi-Modal Self-Supervised Learning (MMSSL) method which tackles two key challenges. Specifically, to characterize the inter-dependency between the user-item collaborative view and item multi-modal semantic view, we design a modality-aware interactive structure learnin
+    
+[^9]: 复杂问答和语言模型混合架构综述
+
+    Complex QA and language models hybrid architectures, Survey. (arXiv:2302.09051v4 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2302.09051](http://arxiv.org/abs/2302.09051)
+
+    本文综述了语言模型架构和策略的最新进展，并重点关注混合技术在复杂问题回答中的应用，讨论了该领域的挑战和未来研究方向。
+
+    
+
+    本文回顾了语言模型架构和策略的最新进展，重点关注混合技术在复杂问题回答中的应用。大型语言模型能够在标准问题上利用公共数据，但在解决更具体的复杂问题时（如在不同文化中个人自由概念的变化如何？什么是为减少气候变化而实现的最佳发电方法组合？），需要特定的架构、知识、技能、方法、敏感数据保护、可解释性、人类审批和多功能反馈。最近的项目如ChatGPT和GALACTICA允许非专业人员了解LLM在复杂QA中的巨大潜力以及同等强大的局限性。在本文中，我们首先审查所需的技能和评估技术。然后，我们综述了现有的混合架构，将LLM与基于规则的方法、信息检索、知识图谱和其他AI/ML技术相结合。最后，我们指出这些CQA系统的挑战，并提出未来研究的可能方向。
+
+    This paper reviews the state-of-the-art of language models architectures and strategies for "complex" question-answering (QA, CQA, CPS) with a focus on hybridization. Large Language Models (LLM) are good at leveraging public data on standard problems but once you want to tackle more specific complex questions or problems (e.g. How does the concept of personal freedom vary between different cultures ? What is the best mix of power generation methods to reduce climate change ?) you may need specific architecture, knowledge, skills, methods, sensitive data protection, explainability, human approval and versatile feedback... Recent projects like ChatGPT and GALACTICA have allowed non-specialists to grasp the great potential as well as the equally strong limitations of LLM in complex QA. In this paper, we start by reviewing required skills and evaluation techniques. We integrate findings from the robust community edited research papers BIG, BLOOM and HELM which open source, benchmark and an
+    
+[^10]: 基于聚类的缺失购买者在线实验数据填补方法
+
+    Clustering-based Imputation for Dropout Buyers in Large-scale Online Experimentation. (arXiv:2209.06125v3 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2209.06125](http://arxiv.org/abs/2209.06125)
+
+    本文提出一种基于聚类方法的在线实验数据填补方法，将不完整指标值的用户分为访客和缺失购买者两组，使用$k$-最近邻填补方法，并考虑实验特定的特征和用户的购物路径活动，同时使用分层和聚类结合的方式提高填补效率。
+
+    
+
+    在线实验中，合适的度量指标（比如购买）可以提供支持假设和增强决策过程的强有力证据。但是，在线实验中经常出现不完整的度量指标，使得可用数据比计划的在线实验（比如A/B测试）要少得多。在这项工作中，我们引入了缺失购买者的概念，并将指标值不完整的用户分为两组：访客和缺失购买者。为了分析不完整的指标，我们提出了一种基于聚类的$k$-最近邻填补方法。我们提出的填补方法考虑了实验特定的特征和用户沿购物路径的活动，允许不同的用户有不同的填补值。为了方便地填补在线实验中大规模数据集，所提出的方法使用分层和聚类结合的方式。所提出方法的性能与现有的比较方法相比较为优。
+
+    In online experimentation, appropriate metrics (e.g., purchase) provide strong evidence to support hypotheses and enhance the decision-making process. However, incomplete metrics are frequently occurred in the online experimentation, making the available data to be much fewer than the planned online experiments (e.g., A/B testing). In this work, we introduce the concept of dropout buyers and categorize users with incomplete metric values into two groups: visitors and dropout buyers. For the analysis of incomplete metrics, we propose a clustering-based imputation method using $k$-nearest neighbors. Our proposed imputation method considers both the experiment-specific features and users' activities along their shopping paths, allowing different imputation values for different users. To facilitate efficient imputation of large-scale data sets in online experimentation, the proposed method uses a combination of stratification and clustering. The performance of the proposed method is compar
     
 

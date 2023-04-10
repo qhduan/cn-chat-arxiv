@@ -1,0 +1,12 @@
+{
+    "title": "Distributed VC Firms: The Next Iteration of Venture Capital. (arXiv:2304.03525v1 [econ.GN])",
+    "abstract": "Using a combination of incentive modeling and empirical meta-analyses, this paper provides a pointed critique at the incentive systems that drive venture capital firms to optimize their practices towards activities that increase General Partner utility yet are disjoint from improving the underlying asset of startup equity. We propose a \"distributed venture firm\" powered by software automations and governed by a set of functional teams called \"Pods\" that carry out specific tasks with immediate and long-term payouts given on a deal-by-deal basis. Avenues are provided for further research to validate this model and discover likely paths to implementation.",
+    "link": "http://arxiv.org/abs/2304.03525",
+    "context": "Title: Distributed VC Firms: The Next Iteration of Venture Capital. (arXiv:2304.03525v1 [econ.GN])\nAbstract: Using a combination of incentive modeling and empirical meta-analyses, this paper provides a pointed critique at the incentive systems that drive venture capital firms to optimize their practices towards activities that increase General Partner utility yet are disjoint from improving the underlying asset of startup equity. We propose a \"distributed venture firm\" powered by software automations and governed by a set of functional teams called \"Pods\" that carry out specific tasks with immediate and long-term payouts given on a deal-by-deal basis. Avenues are provided for further research to validate this model and discover likely paths to implementation.",
+    "path": "papers/23/04/2304.03525.json",
+    "total_tokens": 706,
+    "translated_title": "分布式创业投资公司：风险投资的下一次革新",
+    "translated_abstract": "本文结合激励模型和实证元分析，对驱动风险投资公司优化其实践以增加GP效用的激励系统提出了尖锐的批评，这些实践与改善初创企业股权的基础资产不相关。我们提出了一种由软件自动化推动的“分布式创业投资公司”，由一组名为“Pods”的功能小组管理，他们在交易-交易的基础上执行特定任务，并获得即时和长期回报。提供了进一步研究的途径，以验证这个模型并发现实施的可能路径。",
+    "tldr": "本文提出了一种由软件自动化推动的“分布式创业投资公司”，并批评了传统风险投资公司的激励机制。可以通过进一步研究来验证该模型并发现实施的可能路径。",
+    "en_tdlr": "The paper proposes a \"distributed venture firm\" powered by software automations and criticizes traditional venture capital firms' incentive systems. Further research is needed to validate this model and discover possible implementation paths."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Revisiting LQR Control from the Perspective of Receding-Horizon Policy Gradient. (arXiv:2302.13144v2 [math.OC] UPDATED)",
+    "abstract": "We revisit in this paper the discrete-time linear quadratic regulator (LQR) problem from the perspective of receding-horizon policy gradient (RHPG), a newly developed model-free learning framework for control applications. We provide a fine-grained sample complexity analysis for RHPG to learn a control policy that is both stabilizing and $\\epsilon$-close to the optimal LQR solution, and our algorithm does not require knowing a stabilizing control policy for initialization. Combined with the recent application of RHPG in learning the Kalman filter, we demonstrate the general applicability of RHPG in linear control and estimation with streamlined analyses.",
+    "link": "http://arxiv.org/abs/2302.13144",
+    "context": "Title: Revisiting LQR Control from the Perspective of Receding-Horizon Policy Gradient. (arXiv:2302.13144v2 [math.OC] UPDATED)\nAbstract: We revisit in this paper the discrete-time linear quadratic regulator (LQR) problem from the perspective of receding-horizon policy gradient (RHPG), a newly developed model-free learning framework for control applications. We provide a fine-grained sample complexity analysis for RHPG to learn a control policy that is both stabilizing and $\\epsilon$-close to the optimal LQR solution, and our algorithm does not require knowing a stabilizing control policy for initialization. Combined with the recent application of RHPG in learning the Kalman filter, we demonstrate the general applicability of RHPG in linear control and estimation with streamlined analyses.",
+    "path": "papers/23/02/2302.13144.json",
+    "total_tokens": 762,
+    "translated_title": "从递推视角重新审视LQR控制",
+    "translated_abstract": "本文从递推视角重新审视了离散时间线性二次调节器（LQR）问题。结合递推-视角策略梯度（RHPG）模型无需任何先验信息进行优化求解，提供了一种采样复杂度分析，能够学习到在ε-范数意义下接近LQR最优解的优化控制策略。在最近将RHPG应用于学习卡尔曼滤波中进行拓展分析之后，我们展示了RHPG在线性控制和估计中的普适性。",
+    "tldr": "本文从递推视角重新审视了LQR控制问题，并应用递推-视角策略梯度（RHPG）模型提供了一种采样复杂度分析，通过无需任何先验信息进行优化求解，并展示了RHPG在线性控制和估计中的普适性。",
+    "en_tdlr": "This paper revisits the LQR problem from the perspective of receding-horizon policy gradient (RHPG), and provides a fine-grained sample complexity analysis for RHPG to learn a stabilizing control policy that is ε-close to the optimal LQR solution without requiring any prior information for initialization. The general applicability of RHPG in linear control and estimation is demonstrated."
+}

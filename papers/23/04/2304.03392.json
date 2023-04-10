@@ -1,0 +1,12 @@
+{
+    "title": "Personalizing Digital Health Behavior Change Interventions using Machine Learning and Domain Knowledge. (arXiv:2304.03392v1 [cs.LG])",
+    "abstract": "We are developing a virtual coaching system that helps patients adhere to behavior change interventions (BCI). Our proposed system predicts whether a patient will perform the targeted behavior and uses counterfactual examples with feature control to guide personalizsation of BCI. We evaluated our prediction model using simulated patient data with varying levels of receptivity to intervention.",
+    "link": "http://arxiv.org/abs/2304.03392",
+    "context": "Title: Personalizing Digital Health Behavior Change Interventions using Machine Learning and Domain Knowledge. (arXiv:2304.03392v1 [cs.LG])\nAbstract: We are developing a virtual coaching system that helps patients adhere to behavior change interventions (BCI). Our proposed system predicts whether a patient will perform the targeted behavior and uses counterfactual examples with feature control to guide personalizsation of BCI. We evaluated our prediction model using simulated patient data with varying levels of receptivity to intervention.",
+    "path": "papers/23/04/2304.03392.json",
+    "total_tokens": 598,
+    "translated_title": "应用机器学习和领域知识个性化数字健康行为变革干预",
+    "translated_abstract": "我们正在开发一种虚拟教练系统，帮助患者坚持行为变革干预（BCI）。我们的系统预测患者是否会执行目标行为，并使用反事实例子进行特征控制，以指导个性化BCI。我们使用具有不同响应水平的模拟患者数据评估了我们的预测模型。",
+    "tldr": "该论文提出了一种采用机器学习和领域知识进行个性化数字健康行为变革干预的系统，其利用反事实例子进行特征控制以预测干预效果并优化干预效果。",
+    "en_tdlr": "This paper proposes a system for personalizing digital health behavior change interventions using machine learning and domain knowledge, which predicts the effectiveness of interventions and optimizes them through counterfactual examples with feature control."
+}
