@@ -2,17 +2,32 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Distributed VC Firms: The Next Iteration of Venture Capital.](http://arxiv.org/abs/2304.03525) | 本文提出了一种由软件自动化推动的“分布式创业投资公司”，并批评了传统风险投资公司的激励机制。可以通过进一步研究来验证该模型并发现实施的可能路径。 |
-| [^2] | [Linking Representations with Multimodal Contrastive Learning.](http://arxiv.org/abs/2304.03464) | 本文提出了一种名为CLIPPINGS的多模态框架，用于记录链接。该框架利用深度学习和对比学习的方法，通过端到端训练对称的视觉和语言编码器，在度量空间中学习相近或不同类别的表示方法，用于多个应用场景，如构建全面的补充专利注册表和识别不同社交媒体平台上的个人。 |
-| [^3] | [Echo disappears: momentum term structure and cyclic information in turnover.](http://arxiv.org/abs/2304.03437) | 通过提取换手中的循环信息，研究发现动量回声可以通过近期动量反转进行解释。 |
-| [^4] | [The Dynamics of Leverage and the Belief Distribution of Wealth.](http://arxiv.org/abs/2304.03436) | 本文中，通过建模经济体和资产，探讨了信仰分布和风险类型对借贷的影响。在好的状态之后，总借贷会增加，债务面额也会增加。当然，若借款违约，则悲观主义者会更被看好。即使没有噪声，财富也会收敛到与实际概率不同的信仰，风险越大，乐观主义就越强。 |
-| [^5] | [Leveraging policy instruments and financial incentives to reduce embodied carbon in energy retrofits.](http://arxiv.org/abs/2304.03403) | 本研究旨在发展政策策略来减少翻新中的体积碳排放，基于对文献的综述, 确定了不列颠哥伦比亚省（BC）的政策和财政激励来减少现有建筑部门总体GHG排放。 |
-| [^6] | [How to sample and when to stop sampling: The generalized Wald problem and minimax policies.](http://arxiv.org/abs/2210.15841) | 本文研究了引入信息成本的实验设计技术，特别是在顺序实验中，通过自适应地分配样本和在福利最大时停止采样来确定最佳处理方法。最小极大遗憾标准下，我们描述了最优策略，最小极大优化采样规则只是Neyman分配，独立于采样成本和先前的结果。 |
-| [^7] | [Sequential Veto Bargaining with Incomplete Information.](http://arxiv.org/abs/2202.02462) | 研究了有关顺序谈判的新模型，发现在提议者和否决者具有不确定性和单峰偏好的情况下，提议者可以在没有承诺权的情况下获得高收益。 |
+| [^1] | [Idaho Blacks: Quiet Economic Triumph of Enduring Champions.](http://arxiv.org/abs/2304.03676) | 爱达荷州黑人收入超过白人和其他种族。较少的土地所有权障碍、较小的人口、社区联系紧密、男性参与家庭和相对较少的敌对环境可能是其经济成功以及减少种族和经济差距的关键因素。 |
+| [^2] | [Distributed VC Firms: The Next Iteration of Venture Capital.](http://arxiv.org/abs/2304.03525) | 本文提出了一种由软件自动化推动的“分布式创业投资公司”，并批评了传统风险投资公司的激励机制。可以通过进一步研究来验证该模型并发现实施的可能路径。 |
+| [^3] | [Linking Representations with Multimodal Contrastive Learning.](http://arxiv.org/abs/2304.03464) | 本文提出了一种名为CLIPPINGS的多模态框架，用于记录链接。该框架利用深度学习和对比学习的方法，通过端到端训练对称的视觉和语言编码器，在度量空间中学习相近或不同类别的表示方法，用于多个应用场景，如构建全面的补充专利注册表和识别不同社交媒体平台上的个人。 |
+| [^4] | [Echo disappears: momentum term structure and cyclic information in turnover.](http://arxiv.org/abs/2304.03437) | 通过提取换手中的循环信息，研究发现动量回声可以通过近期动量反转进行解释。 |
+| [^5] | [The Dynamics of Leverage and the Belief Distribution of Wealth.](http://arxiv.org/abs/2304.03436) | 本文中，通过建模经济体和资产，探讨了信仰分布和风险类型对借贷的影响。在好的状态之后，总借贷会增加，债务面额也会增加。当然，若借款违约，则悲观主义者会更被看好。即使没有噪声，财富也会收敛到与实际概率不同的信仰，风险越大，乐观主义就越强。 |
+| [^6] | [Leveraging policy instruments and financial incentives to reduce embodied carbon in energy retrofits.](http://arxiv.org/abs/2304.03403) | 本研究旨在发展政策策略来减少翻新中的体积碳排放，基于对文献的综述, 确定了不列颠哥伦比亚省（BC）的政策和财政激励来减少现有建筑部门总体GHG排放。 |
+| [^7] | [How to sample and when to stop sampling: The generalized Wald problem and minimax policies.](http://arxiv.org/abs/2210.15841) | 本文研究了引入信息成本的实验设计技术，特别是在顺序实验中，通过自适应地分配样本和在福利最大时停止采样来确定最佳处理方法。最小极大遗憾标准下，我们描述了最优策略，最小极大优化采样规则只是Neyman分配，独立于采样成本和先前的结果。 |
+| [^8] | [Sequential Veto Bargaining with Incomplete Information.](http://arxiv.org/abs/2202.02462) | 研究了有关顺序谈判的新模型，发现在提议者和否决者具有不确定性和单峰偏好的情况下，提议者可以在没有承诺权的情况下获得高收益。 |
 
 # 详细
 
-[^1]: 分布式创业投资公司：风险投资的下一次革新
+[^1]: 爱达荷州黑人：持续的冠军们安静地获得经济成功
+
+    Idaho Blacks: Quiet Economic Triumph of Enduring Champions. (arXiv:2304.03676v1 [econ.GN])
+
+    [http://arxiv.org/abs/2304.03676](http://arxiv.org/abs/2304.03676)
+
+    爱达荷州黑人收入超过白人和其他种族。较少的土地所有权障碍、较小的人口、社区联系紧密、男性参与家庭和相对较少的敌对环境可能是其经济成功以及减少种族和经济差距的关键因素。
+
+    
+
+    随着美国经济不平等问题的加剧，我们发现了一个与传统议题背道而驰的独特案例。爱达荷州是全美唯一黑人收入超过白人和其他种族的州。本文研究了爱达荷州黑人如何实现经济成功，并探讨了有哪些因素导致了减少种族和经济差距的成就。初步研究表明，土地所有权障碍较少、人口较少、社区联系紧密、男性参与家庭和相对较少的敌对环境都发挥了重要作用。历史学家的进一步研究可以帮助国家揭示潜在因素，以确定某些因素是否可以适用于其他地区。
+
+    As the United States is witnessing elevated racial differences pertaining to economic disparities, we have found a unique example contrary to the traditional narrative. Idaho is the only US state where Blacks earn more than Whites and all other races. In this paper, we examine how Idaho Blacks might have achieved economic success and, more importantly, what factors might have led to this achievement in reducing racial and economic disparities. Preliminary research suggests that fewer barriers to land ownership, smaller populations, well-knit communities, men's involvement in the family, and a relatively less hostile environment have played a significant role. Further research by historians can help the nation uncover the underlying factors to see if some factors are transportable to other parts of the country.
+    
+[^2]: 分布式创业投资公司：风险投资的下一次革新
 
     Distributed VC Firms: The Next Iteration of Venture Capital. (arXiv:2304.03525v1 [econ.GN])
 
@@ -26,7 +41,7 @@
 
     Using a combination of incentive modeling and empirical meta-analyses, this paper provides a pointed critique at the incentive systems that drive venture capital firms to optimize their practices towards activities that increase General Partner utility yet are disjoint from improving the underlying asset of startup equity. We propose a "distributed venture firm" powered by software automations and governed by a set of functional teams called "Pods" that carry out specific tasks with immediate and long-term payouts given on a deal-by-deal basis. Avenues are provided for further research to validate this model and discover likely paths to implementation.
     
-[^2]: 用多模态对比学习连接表示
+[^3]: 用多模态对比学习连接表示
 
     Linking Representations with Multimodal Contrastive Learning. (arXiv:2304.03464v1 [cs.CV])
 
@@ -40,7 +55,7 @@
 
     Many applications require grouping instances contained in diverse document datasets into classes. Most widely used methods do not employ deep learning and do not exploit the inherently multimodal nature of documents. Notably, record linkage is typically conceptualized as a string-matching problem. This study develops CLIPPINGS, (Contrastively Linking Pooled Pre-trained Embeddings), a multimodal framework for record linkage. CLIPPINGS employs end-to-end training of symmetric vision and language bi-encoders, aligned through contrastive language-image pre-training, to learn a metric space where the pooled image-text representation for a given instance is close to representations in the same class and distant from representations in different classes. At inference time, instances can be linked by retrieving their nearest neighbor from an offline exemplar embedding index or by clustering their representations. The study examines two challenging applications: constructing comprehensive suppl
     
-[^3]: Echo消失：动量期限结构和换手中的循环信息
+[^4]: Echo消失：动量期限结构和换手中的循环信息
 
     Echo disappears: momentum term structure and cyclic information in turnover. (arXiv:2304.03437v1 [econ.GN])
 
@@ -54,7 +69,7 @@
 
     We extract cyclic information in turnover and find it can explain the momentum echo. The reversal in recent month momentum is the key factor that cancels out the recent month momentum and excluding it makes the echo regress to a damped shape. Both rational and behavioral theories can explain the reversal. This study is the first explanation of the momentum echo in U.S. stock markets.
     
-[^4]: 杠杆的动态和财富信仰分布
+[^5]: 杠杆的动态和财富信仰分布
 
     The Dynamics of Leverage and the Belief Distribution of Wealth. (arXiv:2304.03436v1 [econ.GN])
 
@@ -68,7 +83,7 @@
 
     The scale and terms of aggregate borrowing in an economy depend on the manner in which wealth is distributed across potential creditors with heterogeneous beliefs about the future. This distribution evolves over time as uncertainty is resolved, in favour of optimists if loans are repaid in full, and in favour of pessimists if there is widespread default. We model this process in an economy with two assets - risky bonds and risk-free cash. Within periods, given the inherited distribution of wealth across belief types, the scale and terms of borrowing are endogenously determined. Following good states, aggregate borrowing and the face value of debt both rise, and the interest rate falls. In the absence of noise, wealth converges to beliefs that differ systematically from the objective probability governing state realisations, with greater risk-aversion associated with greater optimism. In the presence of noise, the economy exhibits periods of high performance, punctuated by periods of cr
     
-[^5]: 利用政策工具和财政激励减少能源翻新中的碳排放
+[^6]: 利用政策工具和财政激励减少能源翻新中的碳排放
 
     Leveraging policy instruments and financial incentives to reduce embodied carbon in energy retrofits. (arXiv:2304.03403v1 [econ.GN])
 
@@ -82,7 +97,7 @@
 
     The existing buildings and building construction sectors together are responsible for over one-third of the total global energy consumption and nearly 40% of total greenhouse gas (GHG) emissions. GHG emissions from the building sector are made up of embodied emissions and operational emissions. Recognizing the importance of reducing energy use and emissions associated with the building sector, governments have introduced policies, standards, and design guidelines to improve building energy performance and reduce GHG emissions associated with operating buildings. However, policy initiatives that reduce embodied emissions of the existing building sector are lacking. This research aims to develop policy strategies to reduce embodied carbon emissions in retrofits. In order to achieve this goal, this research conducted a literature review and identification of policies and financial incentives in British Columbia (BC) for reducing overall GHG emissions from the existing building sector. The
     
-[^6]: 如何进行样本采集以及何时停止采样：广义Wald问题和最小极大决策
+[^7]: 如何进行样本采集以及何时停止采样：广义Wald问题和最小极大决策
 
     How to sample and when to stop sampling: The generalized Wald problem and minimax policies. (arXiv:2210.15841v4 [econ.EM] UPDATED)
 
@@ -96,7 +111,7 @@
 
     Acquiring information is expensive. Experimenters need to carefully choose how many units of each treatment to sample and when to stop sampling. The aim of this paper is to develop techniques for incorporating the cost of information into experimental design. In particular, we study sequential experiments where sampling is costly and a decision-maker aims to determine the best treatment for full scale implementation by (1) adaptively allocating units to two possible treatments, and (2) stopping the experiment when the expected welfare (inclusive of sampling costs) from implementing the chosen treatment is maximized. Working under the diffusion limit, we describe the optimal policies under the minimax regret criterion. Under small cost asymptotics, the same policies are also optimal under parametric and non-parametric distributions of outcomes. The minimax optimal sampling rule is just the Neyman allocation; it is independent of sampling costs and does not adapt to previous outcomes. Th
     
-[^7]: 不完全信息下的顺序否决谈判
+[^8]: 不完全信息下的顺序否决谈判
 
     Sequential Veto Bargaining with Incomplete Information. (arXiv:2202.02462v3 [econ.TH] UPDATED)
 
