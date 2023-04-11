@@ -45,12 +45,13 @@
 | [^41] | [How would Stance Detection Techniques Evolve after the Launch of ChatGPT?.](http://arxiv.org/abs/2212.14548) | ChatGPT是一种新的预训练语言模型，可以用于解决立场检测问题，并提供了其预测的解释能力。 |
 | [^42] | [MiLMo:Minority Multilingual Pre-trained Language Model.](http://arxiv.org/abs/2212.01779) | 本论文构建了一个名为MiLMo的多语言预训练模型，该模型在少数民族语言任务上表现较好，并构建了一个少数民族多语言文本分类数据集。 |
 | [^43] | [Lifelong Embedding Learning and Transfer for Growing Knowledge Graphs.](http://arxiv.org/abs/2211.15845) | 现有的知识图谱嵌入模型主要集中在静态KG上，无法随着KG不断增长而及时获取新知识，本文引入了终身KG嵌入模型，实现对不断增长的知识图谱的终身嵌入学习与转移，通过嵌入转移策略和正则化方法避免灾难性遗忘。 |
-| [^44] | [Discharge Summary Hospital Course Summarisation of In Patient Electronic Health Record Text with Clinical Concept Guided Deep Pre-Trained Transformer Models.](http://arxiv.org/abs/2211.07126) | 本文探讨了使用深度学习方法对医院住院病历文本进行出院总结的方法，包括提取和抽象总结，同时测试了一种结合医学概念本体论的混合模型。 |
-| [^45] | [A Transformer-Based Substitute Recommendation Model Incorporating Weakly Supervised Customer Behavior Data.](http://arxiv.org/abs/2211.02533) | 本文将替代品推荐适应到语言匹配问题中，并通过设计新的转换方法去除信号噪音，并考虑了多语言支持。该模型已成功在一个大型电子商务网站上的11个市场和6种语言中部署，提高了顾客忠诚度和购买率。 |
-| [^46] | [M-SpeechCLIP: Leveraging Large-Scale, Pre-Trained Models for Multilingual Speech to Image Retrieval.](http://arxiv.org/abs/2211.01180) | 本文研究使用大规模预训练模型多语音到图像检索的方法，取得了在非英语检索中比当前最先进性能大幅提高的效果，并证明这些模型也适用于跨语音检索和跨语音文本检索。 |
-| [^47] | [Large Language Models Still Can't Plan (A Benchmark for LLMs on Planning and Reasoning about Change).](http://arxiv.org/abs/2206.10498) | 本研究提出了一个用于测评LLMs规划和变化推理能力的框架，并测试了流行的LLMs (GPT-3 和 GShard) 在此基准上的表现。研究发现这些模型在最简单的规划任务上都表现不佳，强调了目前LLMs推理能力的严重限制，建议需要大量工作来开发更先进的LLM基础系统来满足实际应用需求。 |
-| [^48] | [InCoder: A Generative Model for Code Infilling and Synthesis.](http://arxiv.org/abs/2204.05999) | InCoder是一种统一的生成模型，可以进行程序合成和双向上下文的代码填充，是第一个能够直接进行零样本代码填充的生成模型。 |
-| [^49] | [The Factual Inconsistency Problem in Abstractive Text Summarization: A Survey.](http://arxiv.org/abs/2104.14839) | 摘要文本自动概括模型的抽象化能力对于生成准确摘要文本是双刃剑，研究主要关注设计事实感知的评估指标和改进模型的训练以减少事实不一致问题。 |
+| [^44] | [STAGE: Span Tagging and Greedy Inference Scheme for Aspect Sentiment Triplet Extraction.](http://arxiv.org/abs/2211.15003) | STAGE是一种新方法用于处理Aspect Sentiment Triplet Extraction（ASTE）任务，可以处理单词具有多个角色或方面/意见术语由多个单词组成等复杂情况，通过Span标记和贪心推理方案来提取情感三元组，更准确地识别给定句子中方面术语、相应的意见术语和相关的情感极性。 |
+| [^45] | [Discharge Summary Hospital Course Summarisation of In Patient Electronic Health Record Text with Clinical Concept Guided Deep Pre-Trained Transformer Models.](http://arxiv.org/abs/2211.07126) | 本文探讨了使用深度学习方法对医院住院病历文本进行出院总结的方法，包括提取和抽象总结，同时测试了一种结合医学概念本体论的混合模型。 |
+| [^46] | [A Transformer-Based Substitute Recommendation Model Incorporating Weakly Supervised Customer Behavior Data.](http://arxiv.org/abs/2211.02533) | 本文将替代品推荐适应到语言匹配问题中，并通过设计新的转换方法去除信号噪音，并考虑了多语言支持。该模型已成功在一个大型电子商务网站上的11个市场和6种语言中部署，提高了顾客忠诚度和购买率。 |
+| [^47] | [M-SpeechCLIP: Leveraging Large-Scale, Pre-Trained Models for Multilingual Speech to Image Retrieval.](http://arxiv.org/abs/2211.01180) | 本文研究使用大规模预训练模型多语音到图像检索的方法，取得了在非英语检索中比当前最先进性能大幅提高的效果，并证明这些模型也适用于跨语音检索和跨语音文本检索。 |
+| [^48] | [Large Language Models Still Can't Plan (A Benchmark for LLMs on Planning and Reasoning about Change).](http://arxiv.org/abs/2206.10498) | 本研究提出了一个用于测评LLMs规划和变化推理能力的框架，并测试了流行的LLMs (GPT-3 和 GShard) 在此基准上的表现。研究发现这些模型在最简单的规划任务上都表现不佳，强调了目前LLMs推理能力的严重限制，建议需要大量工作来开发更先进的LLM基础系统来满足实际应用需求。 |
+| [^49] | [InCoder: A Generative Model for Code Infilling and Synthesis.](http://arxiv.org/abs/2204.05999) | InCoder是一种统一的生成模型，可以进行程序合成和双向上下文的代码填充，是第一个能够直接进行零样本代码填充的生成模型。 |
+| [^50] | [The Factual Inconsistency Problem in Abstractive Text Summarization: A Survey.](http://arxiv.org/abs/2104.14839) | 摘要文本自动概括模型的抽象化能力对于生成准确摘要文本是双刃剑，研究主要关注设计事实感知的评估指标和改进模型的训练以减少事实不一致问题。 |
 
 # 详细
 
@@ -656,7 +657,21 @@
 
     Existing knowledge graph (KG) embedding models have primarily focused on static KGs. However, real-world KGs do not remain static, but rather evolve and grow in tandem with the development of KG applications. Consequently, new facts and previously unseen entities and relations continually emerge, necessitating an embedding model that can quickly learn and transfer new knowledge through growth. Motivated by this, we delve into an expanding field of KG embedding in this paper, i.e., lifelong KG embedding. We consider knowledge transfer and retention of the learning on growing snapshots of a KG without having to learn embeddings from scratch. The proposed model includes a masked KG autoencoder for embedding learning and update, with an embedding transfer strategy to inject the learned knowledge into the new entity and relation embeddings, and an embedding regularization method to avoid catastrophic forgetting. To investigate the impacts of different aspects of KG growth, we construct four
     
-[^44]: 临床概念指导下的深度预训练变压器模型对住院病历文本进行出院总结医院经过的概括
+[^44]: STAGE: 基于Span标记和贪心推理方案的Aspect Sentiment Triplet提取
+
+    STAGE: Span Tagging and Greedy Inference Scheme for Aspect Sentiment Triplet Extraction. (arXiv:2211.15003v3 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2211.15003](http://arxiv.org/abs/2211.15003)
+
+    STAGE是一种新方法用于处理Aspect Sentiment Triplet Extraction（ASTE）任务，可以处理单词具有多个角色或方面/意见术语由多个单词组成等复杂情况，通过Span标记和贪心推理方案来提取情感三元组，更准确地识别给定句子中方面术语、相应的意见术语和相关的情感极性。
+
+    
+
+    近年来，Aspect Sentiment Triplet Extraction（ASTE）已成为情感分析研究中的新兴任务，旨在从给定的句子中提取方面术语、相应的意见术语和相应的情感极性三元组。然而，目前提出的大多数基于神经网络的模型都有其局限性：过于依赖于1）假设每个单词仅与单个角色（例如，方面术语或意见术语等）相关联和2）词级交互并将每个意见/方面视为一组独立的单词。因此，在复杂的ASTE任务中效果不佳，例如一个单词与多个角色相关联或者一个方面/意见术语由多个单词组成。因此，我们提出了一种新方法，Span标记和贪心推理（STAGE），以在跨度级别上提取情感三元组，其中每个跨度可能由多个单词组成，并同时扮演不同的角色。为此，本文提出了一种名为STAGE的新方法来处理ASTE任务，它比以前的模型更准确地识别了给定句子中方面术语、相应的意见术语和相关的情感极性。
+
+    Aspect Sentiment Triplet Extraction (ASTE) has become an emerging task in sentiment analysis research, aiming to extract triplets of the aspect term, its corresponding opinion term, and its associated sentiment polarity from a given sentence. Recently, many neural networks based models with different tagging schemes have been proposed, but almost all of them have their limitations: heavily relying on 1) prior assumption that each word is only associated with a single role (e.g., aspect term, or opinion term, etc. ) and 2) word-level interactions and treating each opinion/aspect as a set of independent words. Hence, they perform poorly on the complex ASTE task, such as a word associated with multiple roles or an aspect/opinion term with multiple words. Hence, we propose a novel approach, Span TAgging and Greedy infErence (STAGE), to extract sentiment triplets in span-level, where each span may consist of multiple words and play different roles simultaneously. To this end, this paper for
+    
+[^45]: 临床概念指导下的深度预训练变压器模型对住院病历文本进行出院总结医院经过的概括
 
     Discharge Summary Hospital Course Summarisation of In Patient Electronic Health Record Text with Clinical Concept Guided Deep Pre-Trained Transformer Models. (arXiv:2211.07126v3 [cs.CL] UPDATED)
 
@@ -670,7 +685,7 @@
 
     Brief Hospital Course (BHC) summaries are succinct summaries of an entire hospital encounter, embedded within discharge summaries, written by senior clinicians responsible for the overall care of a patient. Methods to automatically produce summaries from inpatient documentation would be invaluable in reducing clinician manual burden of summarising documents under high time-pressure to admit and discharge patients. Automatically producing these summaries from the inpatient course, is a complex, multi-document summarisation task, as source notes are written from various perspectives (e.g. nursing, doctor, radiology), during the course of the hospitalisation. We demonstrate a range of methods for BHC summarisation demonstrating the performance of deep learning summarisation models across extractive and abstractive summarisation scenarios. We also test a novel ensemble extractive and abstractive summarisation model that incorporates a medical concept ontology (SNOMED) as a clinical guidanc
     
-[^45]: 一种基于Transformer的替代品推荐模型，融合了弱监督的顾客行为数据
+[^46]: 一种基于Transformer的替代品推荐模型，融合了弱监督的顾客行为数据
 
     A Transformer-Based Substitute Recommendation Model Incorporating Weakly Supervised Customer Behavior Data. (arXiv:2211.02533v2 [cs.IR] UPDATED)
 
@@ -684,7 +699,7 @@
 
     The substitute-based recommendation is widely used in E-commerce to provide better alternatives to customers. However, existing research typically uses the customer behavior signals like co-view and view-but-purchase-another to capture the substitute relationship. Despite its intuitive soundness, we find that such an approach might ignore the functionality and characteristics of products. In this paper, we adapt substitute recommendation into language matching problem by taking product title description as model input to consider product functionality. We design a new transformation method to de-noise the signals derived from production data. In addition, we consider multilingual support from the engineering point of view. Our proposed end-to-end transformer-based model achieves both successes from offline and online experiments. The proposed model has been deployed in a large-scale E-commerce website for 11 marketplaces in 6 languages. Our proposed model is demonstrated to increase re
     
-[^46]: M-SpeechCLIP：利用大规模预训练模型进行多语音到图像检索
+[^47]: M-SpeechCLIP：利用大规模预训练模型进行多语音到图像检索
 
     M-SpeechCLIP: Leveraging Large-Scale, Pre-Trained Models for Multilingual Speech to Image Retrieval. (arXiv:2211.01180v2 [cs.CL] UPDATED)
 
@@ -698,7 +713,7 @@
 
     This work investigates the use of large-scale, English-only pre-trained models (CLIP and HuBERT) for multilingual image-speech retrieval. For non-English image-speech retrieval, we outperform the current state-of-the-art performance by a wide margin both when training separate models for each language, and with a single model which processes speech in all three languages. We identify key differences in model behavior and performance between English and non-English settings, attributable to the English-only pre-training of CLIP and HuBERT, and investigate how fine-tuning the pre-trained models impacts these differences. Finally, we show that our models can be used for mono- and cross-lingual speech-text retrieval and cross-lingual speech-speech retrieval, despite never having seen any parallel speech-text or speech-speech data during training.
     
-[^47]: 大型语言模型仍无法规划（LLM在规划和变化推理中的基准）。（arXiv:2206.10498v3 [cs.CL] UPDATED）
+[^48]: 大型语言模型仍无法规划（LLM在规划和变化推理中的基准）。（arXiv:2206.10498v3 [cs.CL] UPDATED）
 
     Large Language Models Still Can't Plan (A Benchmark for LLMs on Planning and Reasoning about Change). (arXiv:2206.10498v3 [cs.CL] UPDATED)
 
@@ -712,7 +727,7 @@
 
     Recent advances in large language models (LLMs) have transformed the field of natural language processing (NLP). From GPT-3 to PaLM, the state-of-the-art performance on natural language tasks is being pushed forward with every new large language model. Along with natural language abilities, there has been a significant interest in understanding whether such models exhibit reasoning capabilities with the use of reasoning benchmarks. However, even though results are seemingly positive, these benchmarks prove to be simplistic in nature and the performance of LLMs on these benchmarks cannot be used as evidence to support, many a times outlandish, claims being made about LLMs' reasoning capabilities. Further, these only represent a very limited set of simple reasoning tasks and we need to look at more sophisticated reasoning problems if we are to measure the true limits of such LLM-based systems. Motivated by this, we propose an extensible assessment framework to test the capabilities of LL
     
-[^48]: InCoder：一种代码填充和合成的生成模型
+[^49]: InCoder：一种代码填充和合成的生成模型
 
     InCoder: A Generative Model for Code Infilling and Synthesis. (arXiv:2204.05999v3 [cs.SE] UPDATED)
 
@@ -726,7 +741,7 @@
 
     Code is seldom written in a single left-to-right pass and is instead repeatedly edited and refined. We introduce InCoder, a unified generative model that can perform program synthesis (via left-to-right generation) as well as editing (via infilling). InCoder is trained to generate code files from a large corpus of permissively licensed code, where regions of code have been randomly masked and moved to the end of each file, allowing code infilling with bidirectional context. Our model is the first generative model that is able to directly perform zero-shot code infilling, which we evaluate on challenging tasks such as type inference, comment generation, and variable re-naming. We find that the ability to condition on bidirectional context substantially improves performance on these tasks, while still performing comparably on standard program synthesis benchmarks in comparison to left-to-right only models pretrained at similar scale. The InCoder models and code are publicly released. htt
     
-[^49]: 摘要文本自动概括中的事实不一致问题：综述
+[^50]: 摘要文本自动概括中的事实不一致问题：综述
 
     The Factual Inconsistency Problem in Abstractive Text Summarization: A Survey. (arXiv:2104.14839v3 [cs.CL] UPDATED)
 

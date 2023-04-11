@@ -12,11 +12,12 @@
 | [^8] | [Inference on Optimal Dynamic Policies via Softmax Approximation.](http://arxiv.org/abs/2303.04416) | 本文提出了一种简单的softmax逼近方法，可用于从离线数据中估计最优的动态治疗方案并对其进行有效推断。 |
 | [^9] | [Resolving the Conflict on Conduct Parameter Estimation in Homogeneous Goods Markets between Bresnahan (1982) and Perloff and Shen (2012).](http://arxiv.org/abs/2301.06665) | 本文解决了同质化商品市场中Bresnahan（1982）和Perloff和Shen（2012）之间的关于行为参数估计的冲突，通过在供应估计中适当增加需求转移和增加样本量，提高了估计的精确性。 |
 | [^10] | [The Simple Economics of Optimal Bundling.](http://arxiv.org/abs/2212.12623) | 本文研究了消费者在一个维度上的差异时最优捆绑的问题，并且证明了分层定价最优，并且提出了菜单的嵌套捆绑的最优方案。此外，本文提出了三个应用例子，其中前两个将最优捆绑和质量设计与价格弹性和成本结构联系起来，最后一个建立了在主体可以使用价格和非价格筛选工具时昂贵筛选的最优条件。 |
-| [^11] | [Estimation and Inference for High Dimensional Factor Model with Regime Switching.](http://arxiv.org/abs/2205.12126) | 本文提出了一种用于高维因子模型在载荷的制度转换下的最大（准）似然估计方法。通过迭代计算制度概率和加权样本协方差矩阵的主成分，实现了模型参数的联合估计。值得注意的是，由于高维度，制度转换可以在转换点之后仅通过一个观察而一致地被识别。 |
-| [^12] | [Who Increases Emergency Department Use? New Insights from the Oregon Health Insurance Experiment.](http://arxiv.org/abs/2201.07072) | 用因果机器学习方法研究发现医疗补助对急诊利用率具有异质性影响，只有少数群体驱动了整体效应，强度边际效应是其重要驱动因素，适当确定优先群体将有效控制急诊利用率。 |
-| [^13] | [Infinite utility: counterparts and ultimate locations.](http://arxiv.org/abs/2109.01852) | 论文探讨了无穷伦理学中的位置问题，辩护了“时间上的人”是终极位置，可以避免不安定意义，严格排名广泛类的世界。 |
-| [^14] | [A Partial Order on Preference Profiles.](http://arxiv.org/abs/2108.08465) | 该论文提出了一个理论框架来比较偏好档案，并定义了偏好档案的偏序关系。根据该理论框架，一种个人主义形式的社会偏好可以成为最大化偏序关系下的极大元素。 |
-| [^15] | [To Infinity and Beyond: A General Framework for Scaling Economic Theories.](http://arxiv.org/abs/1906.10333) | 该论文提供了一个通用的框架，通过去除经济学模型中的有限性假设来扩展其结果。该方法具有多用途性，可应用于启示式理论和匹配理论等领域。 |
+| [^11] | [Identification of the Marginal Treatment Effect with Multivalued Treatments.](http://arxiv.org/abs/2209.11444) | 本文通过扩展Heckman等人的局部工具变量（LIV）方法来研究具有多元处理的边际处理效应（MTE）的识别。 |
+| [^12] | [Estimation and Inference for High Dimensional Factor Model with Regime Switching.](http://arxiv.org/abs/2205.12126) | 本文提出了一种用于高维因子模型在载荷的制度转换下的最大（准）似然估计方法。通过迭代计算制度概率和加权样本协方差矩阵的主成分，实现了模型参数的联合估计。值得注意的是，由于高维度，制度转换可以在转换点之后仅通过一个观察而一致地被识别。 |
+| [^13] | [Who Increases Emergency Department Use? New Insights from the Oregon Health Insurance Experiment.](http://arxiv.org/abs/2201.07072) | 用因果机器学习方法研究发现医疗补助对急诊利用率具有异质性影响，只有少数群体驱动了整体效应，强度边际效应是其重要驱动因素，适当确定优先群体将有效控制急诊利用率。 |
+| [^14] | [Infinite utility: counterparts and ultimate locations.](http://arxiv.org/abs/2109.01852) | 论文探讨了无穷伦理学中的位置问题，辩护了“时间上的人”是终极位置，可以避免不安定意义，严格排名广泛类的世界。 |
+| [^15] | [A Partial Order on Preference Profiles.](http://arxiv.org/abs/2108.08465) | 该论文提出了一个理论框架来比较偏好档案，并定义了偏好档案的偏序关系。根据该理论框架，一种个人主义形式的社会偏好可以成为最大化偏序关系下的极大元素。 |
+| [^16] | [To Infinity and Beyond: A General Framework for Scaling Economic Theories.](http://arxiv.org/abs/1906.10333) | 该论文提供了一个通用的框架，通过去除经济学模型中的有限性假设来扩展其结果。该方法具有多用途性，可应用于启示式理论和匹配理论等领域。 |
 
 # 详细
 
@@ -160,7 +161,21 @@
 
     We study optimal bundling when consumers differ in one dimension. We introduce a partial order on the set of bundles defined by (i) set inclusion and (ii) sales volumes (if sold alone and priced optimally). We show that if the undominated bundles with respect to this partial order are nested, then nested bundling (tiered pricing) is optimal. We characterize which nested menu is optimal: Selling a given menu of nested bundles is optimal if a smaller bundle in (out of) the menu sells more (less) than a bigger bundle in the menu. We present three applications of these insights: the first two connect optimal bundling and quality design to price elasticities and cost structures; the last one establishes a necessary and sufficient condition for costly screening to be optimal when a principal can use both price and nonprice screening instruments.
     
-[^11]: 高维因子模型在制度转换下的估计和推断
+[^11]: 用多元处理方法识别边际处理效应
+
+    Identification of the Marginal Treatment Effect with Multivalued Treatments. (arXiv:2209.11444v2 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2209.11444](http://arxiv.org/abs/2209.11444)
+
+    本文通过扩展Heckman等人的局部工具变量（LIV）方法来研究具有多元处理的边际处理效应（MTE）的识别。
+
+    
+
+    本文通过扩展Heckman和Vytlacil(1999)的局部工具变量（LIV）方法来研究具有多元处理的边际处理效应（MTE）的识别。在上述方法的选择机制下，我们建立了改进的模型并确定了充分条件，可以识别MTE。
+
+    Heckman et al. (2008) examine the identification of the marginal treatment effect (MTE) with multivalued treatments by extending the local instrumental variable (LIV) approach of Heckman and Vytlacil (1999). Lee and Salani\'e (2018) study the identification of conditional expectations given unobserved heterogeneity; in Section 5.2 of their paper, they analyze the identification of MTE under the same selection mechanism as in Heckman et al. (2008). We note that the construction of their model in Section 5.2 in Lee and Salani\'e (2018) is incomplete, and we establish sufficient conditions for the identification of MTE with an improved model. While we reduce the unordered multiple-choice model to the binary treatment setting as in Heckman et al. (2008), we can identify the MTE defined as a natural extension of the MTE using the binary treatment defined in Heckman and Vytlacil (2005). Further, our results can help identify other parameters such as the marginal distribution of potential out
+    
+[^12]: 高维因子模型在制度转换下的估计和推断
 
     Estimation and Inference for High Dimensional Factor Model with Regime Switching. (arXiv:2205.12126v2 [econ.EM] UPDATED)
 
@@ -174,7 +189,7 @@
 
     This paper proposes maximum (quasi)likelihood estimation for high dimensional factor models with regime switching in the loadings. The model parameters are estimated jointly by the EM (expectation maximization) algorithm, which in the current context only requires iteratively calculating regime probabilities and principal components of the weighted sample covariance matrix. When regime dynamics are taken into account, smoothed regime probabilities are calculated using a recursive algorithm. Consistency, convergence rates and limit distributions of the estimated loadings and the estimated factors are established under weak cross-sectional and temporal dependence as well as heteroscedasticity. It is worth noting that due to high dimension, regime switching can be identified consistently after the switching point with only one observation. Simulation results show good performance of the proposed method. An application to the FRED-MD dataset illustrates the potential of the proposed method
     
-[^12]: 《谁增加了紧急诊所的使用率？来自俄勒冈医疗保险实验的新见解》
+[^13]: 《谁增加了紧急诊所的使用率？来自俄勒冈医疗保险实验的新见解》
 
     Who Increases Emergency Department Use? New Insights from the Oregon Health Insurance Experiment. (arXiv:2201.07072v4 [econ.EM] UPDATED)
 
@@ -188,7 +203,7 @@
 
     We provide new insights regarding the headline result that Medicaid increased emergency department (ED) use from the Oregon experiment. We find meaningful heterogeneous impacts of Medicaid on ED use using causal machine learning methods. The individualized treatment effect distribution includes a wide range of negative and positive values, suggesting the average effect masks substantial heterogeneity. A small group-about 14% of participants-in the right tail of the distribution drives the overall effect. We identify priority groups with economically significant increases in ED usage based on demographics and previous utilization. Intensive margin effects are an important driver of increases in ED utilization.
     
-[^13]: 无穷效用：对应物和终极位置
+[^14]: 无穷效用：对应物和终极位置
 
     Infinite utility: counterparts and ultimate locations. (arXiv:2109.01852v2 [econ.TH] UPDATED)
 
@@ -202,7 +217,7 @@
 
     The locations problem in infinite ethics concerns the relative moral status of different categories of potential bearers of value, the primary examples of which are people and points in time. The challenge is to determine which category of value bearers are of ultimate moral significance: the ultimate locations, for short. This paper defends the view that the ultimate locations are 'people at times'. A person at a time is not a specific person, but the person born at a specific point in time (de dicto). The main conclusion of the paper is that the unsettling implications of the time- and person-centered approaches to infinite ethics can be avoided. Most notably, a broad class of worlds that person-centered views deem incomparable can be strictly ranked.
     
-[^14]: 偏好档案的偏序关系
+[^15]: 偏好档案的偏序关系
 
     A Partial Order on Preference Profiles. (arXiv:2108.08465v2 [econ.TH] UPDATED)
 
@@ -216,7 +231,7 @@
 
     We propose a theoretical framework under which preference profiles can be meaningfully compared. Specifically, given a finite set of feasible allocations and a preference profile, we first define a ranking vector of an allocation as the vector of all individuals' rankings of this allocation. We then define a partial order on preference profiles and write "$P \geq P^{'}$", if there exists an onto mapping $\psi$ from the Pareto frontier of $P^{'}$ onto the Pareto frontier of $P$, such that the ranking vector of any Pareto efficient allocation $x$ under $P^{'}$ is weakly dominated by the ranking vector of the image allocation $\psi(x)$ under $P$. We provide a characterization of the maximal and minimal elements under the partial order. In particular, we illustrate how an individualistic form of social preferences can be maximal in a specific setting. We also discuss how the framework can be further generalized to incorporate additional economic ingredients.
     
-[^15]: 超越无限大：一个通用的经济理论扩展框架
+[^16]: 超越无限大：一个通用的经济理论扩展框架
 
     To Infinity and Beyond: A General Framework for Scaling Economic Theories. (arXiv:1906.10333v5 [cs.GT] UPDATED)
 
