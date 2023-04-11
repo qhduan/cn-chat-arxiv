@@ -2,112 +2,157 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Idaho Blacks: Quiet Economic Triumph of Enduring Champions.](http://arxiv.org/abs/2304.03676) | 爱达荷州黑人收入超过白人和其他种族。较少的土地所有权障碍、较小的人口、社区联系紧密、男性参与家庭和相对较少的敌对环境可能是其经济成功以及减少种族和经济差距的关键因素。 |
-| [^2] | [Distributed VC Firms: The Next Iteration of Venture Capital.](http://arxiv.org/abs/2304.03525) | 本文提出了一种由软件自动化推动的“分布式创业投资公司”，并批评了传统风险投资公司的激励机制。可以通过进一步研究来验证该模型并发现实施的可能路径。 |
-| [^3] | [Linking Representations with Multimodal Contrastive Learning.](http://arxiv.org/abs/2304.03464) | 本文提出了一种名为CLIPPINGS的多模态框架，用于记录链接。该框架利用深度学习和对比学习的方法，通过端到端训练对称的视觉和语言编码器，在度量空间中学习相近或不同类别的表示方法，用于多个应用场景，如构建全面的补充专利注册表和识别不同社交媒体平台上的个人。 |
-| [^4] | [Echo disappears: momentum term structure and cyclic information in turnover.](http://arxiv.org/abs/2304.03437) | 通过提取换手中的循环信息，研究发现动量回声可以通过近期动量反转进行解释。 |
-| [^5] | [The Dynamics of Leverage and the Belief Distribution of Wealth.](http://arxiv.org/abs/2304.03436) | 本文中，通过建模经济体和资产，探讨了信仰分布和风险类型对借贷的影响。在好的状态之后，总借贷会增加，债务面额也会增加。当然，若借款违约，则悲观主义者会更被看好。即使没有噪声，财富也会收敛到与实际概率不同的信仰，风险越大，乐观主义就越强。 |
-| [^6] | [Leveraging policy instruments and financial incentives to reduce embodied carbon in energy retrofits.](http://arxiv.org/abs/2304.03403) | 本研究旨在发展政策策略来减少翻新中的体积碳排放，基于对文献的综述, 确定了不列颠哥伦比亚省（BC）的政策和财政激励来减少现有建筑部门总体GHG排放。 |
-| [^7] | [Dissecting the explanatory power of ESG features on equity returns by sector, capitalization, and year with interpretable machine learning.](http://arxiv.org/abs/2201.04393) | 此论文通过可解释的机器学习探究了ESG评分与欧洲股市价格回报之间的联系。其发现，ESG评分可以更好地解释价格回报，并且与小公司的股票回报呈正相关，而与大公司的股票回报呈负相关。 |
+| [^1] | [Adjust factor with volatility model using MAXFLAT low-pass filter and construct portfolio in China A share market.](http://arxiv.org/abs/2304.04676) | 本研究基于MAXFLAT低通波动率模型调整因子，并在中国A股市场构建投资组合，在大盘和小盘股中均表现优异，具有连续性超额回报和低贝塔值。 |
+| [^2] | [On the state-space model of unawareness.](http://arxiv.org/abs/2304.04626) | 本文研究表明非平凡的无意识状态与知识的“必然性”性质相矛盾，修订后的“必然性”解决了经典的“Dekel-Lipman-Rustichini”问题，提出了一个能适用于无限状态空间的无意识标准状态空间模型。 |
+| [^3] | [A stochastic control perspective on term structure models with roll-over risk.](http://arxiv.org/abs/2304.04453) | 本文为探索存在滚动风险的利率市场提供了一种随机控制视角的期限结构模型，并将现货/远期价差的表示形式作为相应随机最优控制问题的价值函数导出。 |
+| [^4] | [Robust optimized certainty equivalents and quantiles for loss positions with distribution uncertainty.](http://arxiv.org/abs/2304.04396) | 本文研究了基于分布不确定性的损失头寸风险度量方法，提出了鲁棒广义分位数并考虑了两种具体惩罚函数的鲁棒期望损失。带有 $\varphi_{1}$ 的鲁棒期望损失是相容的风险度量，惩罚函数对鲁棒期望损失的影响进行了数值模拟。 |
+| [^5] | [Symmetric positive semi-definite Fourier estimator of instantaneous variance-covariance matrix.](http://arxiv.org/abs/2304.04372) | 本文提出了一种估计现货协方差矩阵的方法，确保对称的半正定估计值，并在数值研究中得到了验证。 |
+| [^6] | [Who are the gatekeepers of economics? Geographic diversity, gender composition, and interlocking editorship of journal boards.](http://arxiv.org/abs/2304.04242) | 本研究分析了经济学期刊的编辑委员会成员的国家分布、所属机构和性别，发现经济学领域的学术出版环境仍然缺乏多样性和包容性。 |
+| [^7] | [Asymmetric networks, clientelism and their impacts: households' access to workfare employment in rural India.](http://arxiv.org/abs/2304.04236) | 本文研究了印度农村家庭获得公共就业机会的因素，发现非对称网络和客户主义关系会影响其获得就业机会，并提供了相应的理论模型支持。 |
+| [^8] | [OFTER: An Online Pipeline for Time Series Forecasting.](http://arxiv.org/abs/2304.03877) | 本文介绍了OFTER，一种专门针对中等规模多种时间序列的在线预测管线，能够胜过几种最先进的基准方法。OFTER是金融多元时间序列问题的理想解决方案。 |
+| [^9] | [f-Betas and Portfolio Optimization with f-Divergence induced Risk Measures.](http://arxiv.org/abs/2302.00452) | 本研究基于f-散度引导的风险度量进行投资组合优化，并提出了一种新的f-Beta度量绩效。实验结果表明，基于Hellinger-Beta的方法可以提供新的视角和比标准Beta和Drawdown Beta更好的性能评估。 |
+| [^10] | [Distributionally robust risk evaluation with a causality constraint and structural information.](http://arxiv.org/abs/2203.10571) | 本文提出了具有因果约束的分布鲁棒风险评估方法，并用神经网络逼近测试函数。在结构信息有限制时，提供了高效的优化方法。 |
 
 # 详细
 
-[^1]: 爱达荷州黑人：持续的冠军们安静地获得经济成功
+[^1]: 使用MAXFLAT低通滤波器基于波动率模型调整因子并在中国A股市场构建投资组合
 
-    Idaho Blacks: Quiet Economic Triumph of Enduring Champions. (arXiv:2304.03676v1 [econ.GN])
+    Adjust factor with volatility model using MAXFLAT low-pass filter and construct portfolio in China A share market. (arXiv:2304.04676v1 [q-fin.RM])
 
-    [http://arxiv.org/abs/2304.03676](http://arxiv.org/abs/2304.03676)
+    [http://arxiv.org/abs/2304.04676](http://arxiv.org/abs/2304.04676)
 
-    爱达荷州黑人收入超过白人和其他种族。较少的土地所有权障碍、较小的人口、社区联系紧密、男性参与家庭和相对较少的敌对环境可能是其经济成功以及减少种族和经济差距的关键因素。
-
-    
-
-    随着美国经济不平等问题的加剧，我们发现了一个与传统议题背道而驰的独特案例。爱达荷州是全美唯一黑人收入超过白人和其他种族的州。本文研究了爱达荷州黑人如何实现经济成功，并探讨了有哪些因素导致了减少种族和经济差距的成就。初步研究表明，土地所有权障碍较少、人口较少、社区联系紧密、男性参与家庭和相对较少的敌对环境都发挥了重要作用。历史学家的进一步研究可以帮助国家揭示潜在因素，以确定某些因素是否可以适用于其他地区。
-
-    As the United States is witnessing elevated racial differences pertaining to economic disparities, we have found a unique example contrary to the traditional narrative. Idaho is the only US state where Blacks earn more than Whites and all other races. In this paper, we examine how Idaho Blacks might have achieved economic success and, more importantly, what factors might have led to this achievement in reducing racial and economic disparities. Preliminary research suggests that fewer barriers to land ownership, smaller populations, well-knit communities, men's involvement in the family, and a relatively less hostile environment have played a significant role. Further research by historians can help the nation uncover the underlying factors to see if some factors are transportable to other parts of the country.
-    
-[^2]: 分布式创业投资公司：风险投资的下一次革新
-
-    Distributed VC Firms: The Next Iteration of Venture Capital. (arXiv:2304.03525v1 [econ.GN])
-
-    [http://arxiv.org/abs/2304.03525](http://arxiv.org/abs/2304.03525)
-
-    本文提出了一种由软件自动化推动的“分布式创业投资公司”，并批评了传统风险投资公司的激励机制。可以通过进一步研究来验证该模型并发现实施的可能路径。
+    本研究基于MAXFLAT低通波动率模型调整因子，并在中国A股市场构建投资组合，在大盘和小盘股中均表现优异，具有连续性超额回报和低贝塔值。
 
     
 
-    本文结合激励模型和实证元分析，对驱动风险投资公司优化其实践以增加GP效用的激励系统提出了尖锐的批评，这些实践与改善初创企业股权的基础资产不相关。我们提出了一种由软件自动化推动的“分布式创业投资公司”，由一组名为“Pods”的功能小组管理，他们在交易-交易的基础上执行特定任务，并获得即时和长期回报。提供了进一步研究的途径，以验证这个模型并发现实施的可能路径。
+    在量化金融领域，波动率模型（如ARCH、GARCH、FIGARCH、SV、EWMA等）在风险和投资组合管理中扮演着关键角色。与此同时，自20世纪中期起，因子投资越来越受到关注和发展。CAPM、Fama French三因子模型、Fama French五因子模型、MSCI Barra因子模型等都在这一期间提出和发展。本文将展示为什么我们需要通过我们的MAXFLAT低通波动率模型调整因子组。我们的所有实验都是在中国的CSI 300和CSI 500股票池下进行的，这代表了中国的大型股票和中小型股票。我们的结果表明，通过MAXFLAT波动率模型调整因子在中国A股市场的大盘和小盘股中均表现出更好的业绩。此外，由MAXFLAT风险调整因子构建的投资组合在超额回报方面具有连续性，与基准指数相比具有更低的贝塔值。
 
-    Using a combination of incentive modeling and empirical meta-analyses, this paper provides a pointed critique at the incentive systems that drive venture capital firms to optimize their practices towards activities that increase General Partner utility yet are disjoint from improving the underlying asset of startup equity. We propose a "distributed venture firm" powered by software automations and governed by a set of functional teams called "Pods" that carry out specific tasks with immediate and long-term payouts given on a deal-by-deal basis. Avenues are provided for further research to validate this model and discover likely paths to implementation.
+    In the field of quantitative finance, volatility models, such as ARCH, GARCH, FIGARCH, SV, EWMA, play the key role in risk and portfolio management. Meanwhile, factor investing is more and more famous since mid of 20 century. CAPM, Fama French three factor model, Fama French five-factor model, MSCI Barra factor model are mentioned and developed during this period. In this paper, we will show why we need adjust group of factors by our MAXFLAT low-pass volatility model. All of our experiments are under China's CSI 300 and CSI 500 universe which represent China's large cap stocks and mid-small cap stocks. Our result shows adjust factors by MAXFLAT volatility model have better performance in both large cap and small cap universe than original factors or other risk adjust factors in China A share. Also the portfolio constructed by MAXFLAT risk adjust factors have continuous excess return and lower beta compare with benchmark index.
     
-[^3]: 用多模态对比学习连接表示
+[^2]: 无意识状态空间模型论析
 
-    Linking Representations with Multimodal Contrastive Learning. (arXiv:2304.03464v1 [cs.CV])
+    On the state-space model of unawareness. (arXiv:2304.04626v1 [econ.GN])
 
-    [http://arxiv.org/abs/2304.03464](http://arxiv.org/abs/2304.03464)
+    [http://arxiv.org/abs/2304.04626](http://arxiv.org/abs/2304.04626)
 
-    本文提出了一种名为CLIPPINGS的多模态框架，用于记录链接。该框架利用深度学习和对比学习的方法，通过端到端训练对称的视觉和语言编码器，在度量空间中学习相近或不同类别的表示方法，用于多个应用场景，如构建全面的补充专利注册表和识别不同社交媒体平台上的个人。
-
-    
-
-    许多应用需要将包含在各种文档数据集中的实例分组成类。最广泛使用的方法不使用深度学习，也不利用文档固有的多模态性质。值得注意的是，记录链接通常被概念化为字符串匹配问题。本研究开发了 CLIPPINGS，一种用于记录链接的多模态框架。CLIPPINGS 采用端到端训练对称的视觉和语言双编码器，通过对比语言-图像预训练进行对齐，学习一个度量空间，其中给定实例的汇总图像-文本表示靠近同一类中的表示，并远离不同类中的表示。在推理时，可以通过从离线示例嵌入索引中检索它们最近的邻居或聚类它们的表示来链接实例。本研究研究了两个具有挑战性的应用：通过将专利与其对应的监管文件链接来构建全面的补充专利注册表，以及在不同的社交媒体平台上识别个人。
-
-    Many applications require grouping instances contained in diverse document datasets into classes. Most widely used methods do not employ deep learning and do not exploit the inherently multimodal nature of documents. Notably, record linkage is typically conceptualized as a string-matching problem. This study develops CLIPPINGS, (Contrastively Linking Pooled Pre-trained Embeddings), a multimodal framework for record linkage. CLIPPINGS employs end-to-end training of symmetric vision and language bi-encoders, aligned through contrastive language-image pre-training, to learn a metric space where the pooled image-text representation for a given instance is close to representations in the same class and distant from representations in different classes. At inference time, instances can be linked by retrieving their nearest neighbor from an offline exemplar embedding index or by clustering their representations. The study examines two challenging applications: constructing comprehensive suppl
-    
-[^4]: Echo消失：动量期限结构和换手中的循环信息
-
-    Echo disappears: momentum term structure and cyclic information in turnover. (arXiv:2304.03437v1 [econ.GN])
-
-    [http://arxiv.org/abs/2304.03437](http://arxiv.org/abs/2304.03437)
-
-    通过提取换手中的循环信息，研究发现动量回声可以通过近期动量反转进行解释。
+    本文研究表明非平凡的无意识状态与知识的“必然性”性质相矛盾，修订后的“必然性”解决了经典的“Dekel-Lipman-Rustichini”问题，提出了一个能适用于无限状态空间的无意识标准状态空间模型。
 
     
 
-    我们提取了换手中的循环信息，并发现它可以解释动量回声。近期动量反转是取消近期动量的关键因素，将其排除后，回声会回归到阻尼形状。理性和行为理论均可解释反转现象。这项研究是对美国股市动量回声的首次解释。
+    本研究表明，承载非平凡无意识的智能体知识违反了“必然性”的标准属性，因此“必然性”不能用来反驳标准的状态空间模型。经修订后的“必然性”保留了非平凡无意识，并解决了经典的 Dekel-Lipman-Rustichini 结果。我们提出了一个通用的知识操作符，与无意识的标准状态空间模型一致，包括无限状态空间模型。
 
-    We extract cyclic information in turnover and find it can explain the momentum echo. The reversal in recent month momentum is the key factor that cancels out the recent month momentum and excluding it makes the echo regress to a damped shape. Both rational and behavioral theories can explain the reversal. This study is the first explanation of the momentum echo in U.S. stock markets.
+    We show that the knowledge of an agent carrying non-trivial unawareness violates the standard property of 'necessitation', therefore necessitation cannot be used to refute the standard state-space model. A revised version of necessitation preserves non-trivial unawareness and solves the classical Dekel-Lipman-Rustichini result. We propose a generalised knowledge operator consistent with the standard state-space model of unawareness, including the model of infinite state-space.
     
-[^5]: 杠杆的动态和财富信仰分布
+[^3]: 一种考虑到滚动风险的随机控制视角的期限结构模型
 
-    The Dynamics of Leverage and the Belief Distribution of Wealth. (arXiv:2304.03436v1 [econ.GN])
+    A stochastic control perspective on term structure models with roll-over risk. (arXiv:2304.04453v1 [q-fin.PR])
 
-    [http://arxiv.org/abs/2304.03436](http://arxiv.org/abs/2304.03436)
+    [http://arxiv.org/abs/2304.04453](http://arxiv.org/abs/2304.04453)
 
-    本文中，通过建模经济体和资产，探讨了信仰分布和风险类型对借贷的影响。在好的状态之后，总借贷会增加，债务面额也会增加。当然，若借款违约，则悲观主义者会更被看好。即使没有噪声，财富也会收敛到与实际概率不同的信仰，风险越大，乐观主义就越强。
-
-    
-
-    经济中的总体借贷规模和条款取决于财富如何在对未来持有不同信仰的潜在债权人中分配。如果贷款得到全额偿还，则不确定性逐渐解决，使乐观主义者更加被青睐。反之，如果出现大规模违约，则悲观主义者更被看好。我们在一个拥有两种资产——风险债券和无风险现金的经济体中建模这个过程。在每个时期内，考虑到相继经历的信仰类型，借贷的规模和条款都是内生确定的。好的状态之后，总借贷和债务面额都会上升，利率会下降。在没有噪声的情况下，财富会收敛到与实际概率不同的信仰，风险厌恶越大，乐观主义越强。在存在噪声的情况下，经济体表现出高表现期和低表现期的交替。
-
-    The scale and terms of aggregate borrowing in an economy depend on the manner in which wealth is distributed across potential creditors with heterogeneous beliefs about the future. This distribution evolves over time as uncertainty is resolved, in favour of optimists if loans are repaid in full, and in favour of pessimists if there is widespread default. We model this process in an economy with two assets - risky bonds and risk-free cash. Within periods, given the inherited distribution of wealth across belief types, the scale and terms of borrowing are endogenously determined. Following good states, aggregate borrowing and the face value of debt both rise, and the interest rate falls. In the absence of noise, wealth converges to beliefs that differ systematically from the objective probability governing state realisations, with greater risk-aversion associated with greater optimism. In the presence of noise, the economy exhibits periods of high performance, punctuated by periods of cr
-    
-[^6]: 利用政策工具和财政激励减少能源翻新中的碳排放
-
-    Leveraging policy instruments and financial incentives to reduce embodied carbon in energy retrofits. (arXiv:2304.03403v1 [econ.GN])
-
-    [http://arxiv.org/abs/2304.03403](http://arxiv.org/abs/2304.03403)
-
-    本研究旨在发展政策策略来减少翻新中的体积碳排放，基于对文献的综述, 确定了不列颠哥伦比亚省（BC）的政策和财政激励来减少现有建筑部门总体GHG排放。
+    本文为探索存在滚动风险的利率市场提供了一种随机控制视角的期限结构模型，并将现货/远期价差的表示形式作为相应随机最优控制问题的价值函数导出。
 
     
 
-    建筑行业和建筑施工行业占全球总能源消耗的三分之一以上，近40％的总温室气体（GHG）排放量。建筑部门的GHG排放由体积排放和经营排放组成。为了降低建筑部门的能耗和排放，许多政府推出了政策、标准和设计方针，以改善建筑能源性能并减少与建筑经营相关的GHG排放。然而，减少现有建筑部门中的体积排放的政策倡议还不足。本研究旨在制定减少翻新中体积碳排放的政策策略。为了实现这一目标，本研究对文献进行了综述，并确定了在不列颠哥伦比亚省（BC）减少现有建筑部门总体GHG排放的政策和财政激励措施。
+    本文研究了存在滚动风险的利率市场，滚动风险生成了现货/远期期限利率差。我们不要求无套利条件，而是依靠市场生命力最小假设来工作，在基准方法的背景下工作。在马尔可夫设置下，我们扩展了Gombani＆Runggaldier（2013年）的控制理论方法，并将现货/远期价差的表示形式作为相应随机最优控制问题的价值函数导出，该问题在实际世界概率下以及具有功率类型的目标函数进行了规定。我们通过将其与代表性投资者的风险敏感优化问题相关联来内生确定资金流动性价差。
 
-    The existing buildings and building construction sectors together are responsible for over one-third of the total global energy consumption and nearly 40% of total greenhouse gas (GHG) emissions. GHG emissions from the building sector are made up of embodied emissions and operational emissions. Recognizing the importance of reducing energy use and emissions associated with the building sector, governments have introduced policies, standards, and design guidelines to improve building energy performance and reduce GHG emissions associated with operating buildings. However, policy initiatives that reduce embodied emissions of the existing building sector are lacking. This research aims to develop policy strategies to reduce embodied carbon emissions in retrofits. In order to achieve this goal, this research conducted a literature review and identification of policies and financial incentives in British Columbia (BC) for reducing overall GHG emissions from the existing building sector. The
+    In this paper, we consider a generic interest rate market in the presence of roll-over risk, which generates spreads in spot/forward term rates. We do not require classical absence of arbitrage and rely instead on a minimal market viability assumption, which enables us to work in the context of the benchmark approach. In a Markovian setting, we extend the control theoretic approach of Gombani & Runggaldier (2013) and derive representations of spot/forward spreads as value functions of suitable stochastic optimal control problems, formulated under the real-world probability and with power-type objective functionals. We determine endogenously the funding-liquidity spread by relating it to the risk-sensitive optimization problem of a representative investor.
     
-[^7]: 利用可解释机器学习解析ESG特征对各个行业、市值和年份的股票回报的解释能力
+[^4]: 分布不确定性下损失头寸的鲁棒优化确定等价值和分位数
 
-    Dissecting the explanatory power of ESG features on equity returns by sector, capitalization, and year with interpretable machine learning. (arXiv:2201.04393v4 [q-fin.PM] UPDATED)
+    Robust optimized certainty equivalents and quantiles for loss positions with distribution uncertainty. (arXiv:2304.04396v1 [q-fin.RM])
 
-    [http://arxiv.org/abs/2201.04393](http://arxiv.org/abs/2201.04393)
+    [http://arxiv.org/abs/2304.04396](http://arxiv.org/abs/2304.04396)
 
-    此论文通过可解释的机器学习探究了ESG评分与欧洲股市价格回报之间的联系。其发现，ESG评分可以更好地解释价格回报，并且与小公司的股票回报呈正相关，而与大公司的股票回报呈负相关。
+    本文研究了基于分布不确定性的损失头寸风险度量方法，提出了鲁棒广义分位数并考虑了两种具体惩罚函数的鲁棒期望损失。带有 $\varphi_{1}$ 的鲁棒期望损失是相容的风险度量，惩罚函数对鲁棒期望损失的影响进行了数值模拟。
 
     
 
-    我们系统地研究了环境、社会和治理(ESG)评分与欧洲股市价格回报之间的联系。利用可解释的机器学习，我们检查了ESG评分能否解释经典股票因子未能解释的部分回报，特别是市场回报。我们提出了一种交叉验证方案，采用随机公司验证来缓解ESG数据的相对初始数量和质量不足的问题，这使我们能够使用大多数最新和最好的数据来训练和验证我们的模型。梯度提升模型成功地解释了市场因素未能解释的年度价格回报的部分。我们通过基准特征检测得出，相比于基本的基本面特征，ESG数据可以更好地解释价格回报。最相关的ESG评分编码争议。最后，我们发现好的ESG评分对小型和大型公司的股票回报产生相反的影响：好的ESG评分与小公司的股票回报呈正相关，而与大公司的股票回报呈负相关。
+    本文研究了基于分布不确定性的损失头寸的鲁棒优化确定等价值，并分析了其作为风险度量的相关特性。在此基础上，提出了鲁棒广义分位数并进行了讨论。进一步分别考虑了两种具体惩罚函数 $\varphi_{1}$ 和 $\varphi_{2}$ 的鲁棒期望损失，并证明了带有 $\varphi_{1}$ 的鲁棒期望损失是相容的风险度量，并建立了对偶表示定理。此外，对惩罚函数对鲁棒期望损失的影响和与期望损失的比较进行了数值模拟。
 
-    We systematically investigate the links between price returns and Environment, Social and Governance (ESG) scores in the European equity market. Using interpretable machine learning, we examine whether ESG scores can explain the part of price returns not accounted for by classic equity factors, especially the market one. We propose a cross-validation scheme with random company-wise validation to mitigate the relative initial lack of quantity and quality of ESG data, which allows us to use most of the latest and best data to both train and validate our models. Gradient boosting models successfully explain the part of annual price returns not accounted for by the market factor. We check with benchmark features that ESG data explain significantly better price returns than basic fundamental features alone. The most relevant ESG score encodes controversies. Finally, we find the opposite effects of better ESG scores on the price returns of small and large capitalization companies: better ESG
+    The paper investigates the robust optimized certainty equivalents and analyzes the relevant properties of them as risk measures for loss positions with distribution uncertainty. On this basis, the robust generalized quantiles are proposed and discussed. The robust expectiles with two specific penalization functions $\varphi_{1}$ and $\varphi_{2}$ are further considered respectively. The robust expectiles with $\varphi_{1}$ are proved to be coherent risk measures, and the dual representation theorems are established. In addition, the effect of penalization functions on the robust expectiles and its comparison with expectiles are examined and simulated numerically.
+    
+[^5]: 对瞬时方差-协方差矩阵的对称半正定傅里叶估计器
+
+    Symmetric positive semi-definite Fourier estimator of instantaneous variance-covariance matrix. (arXiv:2304.04372v1 [stat.ME])
+
+    [http://arxiv.org/abs/2304.04372](http://arxiv.org/abs/2304.04372)
+
+    本文提出了一种估计现货协方差矩阵的方法，确保对称的半正定估计值，并在数值研究中得到了验证。
+
+    
+
+    本文提出了一种估计现货协方差矩阵的方法，确保对称的半正定估计值。所提出的估计器依赖于对Malliavin和Mancino(2009)中傅里叶协方差估计器的适当修改，并在适当选择加权核的情况下保持一致性。通过与文献中的竞争方法进行比较，在广泛的数值研究中评估了估计器的准确性和产生半正定协方差矩阵的能力。在考虑问题的维度性、数据的不同步和市场微观结构噪声的多个规范下，模拟研究的结果得到了证实。
+
+    In this paper we propose an estimator of spot covariance matrix which ensure symmetric positive semi-definite estimations. The proposed estimator relies on a suitable modification of the Fourier covariance estimator in Malliavin and Mancino (2009) and it is consistent for suitable choices of the weighting kernel. The accuracy and the ability of the estimator to produce positive semi-definite covariance matrices is evaluated with an extensive numerical study, in comparison with the competitors present in the literature. The results of the simulation study are confirmed under many scenarios, that consider the dimensionality of the problem, the asynchronicity of data and the presence of several specification of market microstructure noise.
+    
+[^6]: 经济学的门户是谁？地理多样性、性别比例和杂志编辑委员会的交叉指挥。
+
+    Who are the gatekeepers of economics? Geographic diversity, gender composition, and interlocking editorship of journal boards. (arXiv:2304.04242v1 [econ.GN])
+
+    [http://arxiv.org/abs/2304.04242](http://arxiv.org/abs/2304.04242)
+
+    本研究分析了经济学期刊的编辑委员会成员的国家分布、所属机构和性别，发现经济学领域的学术出版环境仍然缺乏多样性和包容性。
+
+    
+
+    编辑委员会成员在科学门户的角色非常重要，本研究分析了经济学期刊的编辑委员会成员的国家分布、所属机构和性别。同时，它还研究了由同一人在多个期刊编辑委员会任职所产生的交叉指挥网络。分析基于一个独特的数据库，包含了2019年在EconLit数据库中具有活跃编辑委员会的所有1,516个期刊。对于每个期刊，我们手动收集了委员会成员的姓名和所属机构，得到了一个包含来自142个国家的6,000多个机构的44,000多个成员的数据库。这些数据使得我们能够在前所未有的大规模上研究当代经济学的门户现象。结果突出了有关编辑门户的一些共同问题，得出的结论是在经济学领域，学术出版环境仍然远未达到足够多样化和包容性的水平。
+
+    Members of editorial boards play the role of gatekeepers of science because. This paper analyses the national distribution of editorial boards members of economics journal, their affiliation, and their gender. It studies also the interlocking editorship network generated by the presence of a same person on the editorial board of more than one journal. The analysis is based on a unique database comprising all the 1,516 journals indexed in the database EconLit with an active editorial board in 2019. For each journal, we manually collected the names of the board members along with their affiliation, obtaining a database containing more than 44,000 members from more than 6,000 institutions and 142 countries. These data allow to investigate the phenomenon of gatekeeping in contemporary economics on an unprecedented large scale. The obtained results highlight some common issues concerning the editorial gatekeeping, leading to the conclusion that in Economics the academic publishing environme
+    
+[^7]: 非对称网络、客户主义及其影响：印度农村家庭获取公共就业岗位的途径。
+
+    Asymmetric networks, clientelism and their impacts: households' access to workfare employment in rural India. (arXiv:2304.04236v1 [econ.GN])
+
+    [http://arxiv.org/abs/2304.04236](http://arxiv.org/abs/2304.04236)
+
+    本文研究了印度农村家庭获得公共就业机会的因素，发现非对称网络和客户主义关系会影响其获得就业机会，并提供了相应的理论模型支持。
+
+    
+
+    本文探讨了两个相互关联的问题。首先，我们使用原始数据，研究了建立在多个生活领域丰富关系信息基础上的非对称网络对印度农村地区获得公共就业机会的影响。我们发现，与相互关系相比，单向关系以及这种单向关系的集中可以提高农村家庭获得公共就业机会的机会。进一步深入的探究提供证据表明，家长-客户关系是决定农村家庭获得这种就业机会的因素。作为我们实证研究的补充，我们构建并分析了一个支持我们发现的博弈理论模型。
+
+    In this paper we explore two intertwined issues. First, using primary data we examine the impact of asymmetric networks, built on rich relational information on several spheres of living, on access to workfare employment in rural India. We find that unidirectional relations, as opposed to reciprocal relations, and the concentration of such unidirectional relations increase access to workfare jobs. Further in-depth exploration provides evidence that patron-client relations are responsible for this differential access to such employment for rural households. Complementary to our empirical exercises, we construct and analyse a game-theoretical model supporting our findings.
+    
+[^8]: OFTER：一种专门针对中等规模多元时间序列的在线预测管线
+
+    OFTER: An Online Pipeline for Time Series Forecasting. (arXiv:2304.03877v1 [stat.ML])
+
+    [http://arxiv.org/abs/2304.03877](http://arxiv.org/abs/2304.03877)
+
+    本文介绍了OFTER，一种专门针对中等规模多种时间序列的在线预测管线，能够胜过几种最先进的基准方法。OFTER是金融多元时间序列问题的理想解决方案。
+
+    
+
+    本文介绍了OFTER，一种专门针对中等规模多元时间序列的预测管线。OFTER利用kNN和广义回归神经网络的非参数模型，并与降维组件集成在一起。为了避免高维度的困境，我们采用基于修改后的最大相关系数的加权范数。我们介绍的管线专门针对在线任务进行设计，具有可解释性，并能够胜过几种最先进的基准方法。算法的计算效率、在线性质以及在低信噪比环境下运行的能力使OFTER成为金融多元时间序列问题的理想解决方案，例如每日股票预测。
+
+    We introduce OFTER, a time series forecasting pipeline tailored for mid-sized multivariate time series. OFTER utilizes the non-parametric models of k-nearest neighbors and Generalized Regression Neural Networks, integrated with a dimensionality reduction component. To circumvent the curse of dimensionality, we employ a weighted norm based on a modified version of the maximal correlation coefficient. The pipeline we introduce is specifically designed for online tasks, has an interpretable output, and is able to outperform several state-of-the art baselines. The computational efficacy of the algorithm, its online nature, and its ability to operate in low signal-to-noise regimes, render OFTER an ideal approach for financial multivariate time series problems, such as daily equity forecasting. Our work demonstrates that while deep learning models hold significant promise for time series forecasting, traditional methods carefully integrating mainstream tools remain very competitive alternati
+    
+[^9]: f-Betas与基于f-散度风险度量的投资组合优化
+
+    f-Betas and Portfolio Optimization with f-Divergence induced Risk Measures. (arXiv:2302.00452v2 [q-fin.PM] UPDATED)
+
+    [http://arxiv.org/abs/2302.00452](http://arxiv.org/abs/2302.00452)
+
+    本研究基于f-散度引导的风险度量进行投资组合优化，并提出了一种新的f-Beta度量绩效。实验结果表明，基于Hellinger-Beta的方法可以提供新的视角和比标准Beta和Drawdown Beta更好的性能评估。
+
+    
+
+    本文研究了使用f-散度引导的一类相容风险度量来进行投资组合优化，并导出了在CAPM格式下的必要最佳条件。我们提出了一种新的f-Beta，类似于标准Beta和之前研究中的Drawdown Beta。f-Beta在最优扰动市场概率测度下评估投资组合绩效，并且该Beta度量家族提供了各种程度的灵活性和可解释性。我们采用DOW 30股票对比选择市场投资组合作为最优组合，以展示基于Hellinger-Beta的新视角，以及其与标准Beta和Drawdown Beta的不同之处，基于选择平方Hellinger距离作为f-散度函数的特定选择，衡量f-散度引导的风险度量和f-Betas。我们基于偏差度量计算了Hellinger-Beta度量，并进一步扩展了该方法以计算Hellinger-Betas。
+
+    In this paper, we build on using the class of f-divergence induced coherent risk measures for portfolio optimization and derive its necessary optimality conditions formulated in CAPM format. We have derived a new f-Beta similar to the Standard Betas and previous works in Drawdown Betas. The f-Beta evaluates portfolio performance under an optimally perturbed market probability measure and this family of Beta metrics gives various degrees of flexibility and interpretability. We conducted numerical experiments using DOW 30 stocks against a chosen market portfolio as the optimal portfolio to demonstrate the new perspectives provided by Hellinger-Beta as compared with Standard Beta and Drawdown Betas, based on choosing square Hellinger distance to be the particular choice of f-divergence function in the general f-divergence induced risk measures and f-Betas. We calculated Hellinger-Beta metrics based on deviation measures and further extended this approach to calculate Hellinger-Betas based
+    
+[^10]: 具有因果约束和结构信息的分布鲁棒风险评估
+
+    Distributionally robust risk evaluation with a causality constraint and structural information. (arXiv:2203.10571v3 [q-fin.MF] UPDATED)
+
+    [http://arxiv.org/abs/2203.10571](http://arxiv.org/abs/2203.10571)
+
+    本文提出了具有因果约束的分布鲁棒风险评估方法，并用神经网络逼近测试函数。在结构信息有限制时，提供了高效的优化方法。
+
+    
+
+    本文研究了基于时间数据的期望函数值的分布鲁棒评估。一组备选度量通过因果最优传输进行表征。我们证明了强对偶性，并将因果约束重构为无限维测试函数空间的最小化问题。我们通过神经网络逼近测试函数，并用Rademacher复杂度证明了样本复杂度。此外，当结构信息可用于进一步限制模糊集时，我们证明了对偶形式并提供高效的优化方法。对实现波动率和股指的经验分析表明，我们的框架为经典最优传输公式提供了一种有吸引力的替代方案。
+
+    This work studies distributionally robust evaluation of expected function values over temporal data. A set of alternative measures is characterized by the causal optimal transport. We prove the strong duality and recast the causality constraint as minimization over an infinite-dimensional test function space. We approximate test functions by neural networks and prove the sample complexity with Rademacher complexity. Moreover, when structural information is available to further restrict the ambiguity set, we prove the dual formulation and provide efficient optimization methods. Empirical analysis of realized volatility and stock indices demonstrates that our framework offers an attractive alternative to the classic optimal transport formulation.
     
 

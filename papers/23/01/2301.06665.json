@@ -1,0 +1,12 @@
+{
+    "title": "Resolving the Conflict on Conduct Parameter Estimation in Homogeneous Goods Markets between Bresnahan (1982) and Perloff and Shen (2012). (arXiv:2301.06665v4 [econ.EM] UPDATED)",
+    "abstract": "We revisit conduct parameter estimation in homogeneous goods markets to resolve the conflict between Bresnahan (1982) and Perloff and Shen (2012) regarding the identification and the accuracy of conduct parameter estimation. We point out that the proof of Perloff and Shen (2012) is incorrect and its simulation setting is not valid. Our simulation shows that the estimation becomes accurate when properly adding demand shifters in the supply estimation and increasing the sample size. Therefore, we support Bresnahan (1982).",
+    "link": "http://arxiv.org/abs/2301.06665",
+    "context": "Title: Resolving the Conflict on Conduct Parameter Estimation in Homogeneous Goods Markets between Bresnahan (1982) and Perloff and Shen (2012). (arXiv:2301.06665v4 [econ.EM] UPDATED)\nAbstract: We revisit conduct parameter estimation in homogeneous goods markets to resolve the conflict between Bresnahan (1982) and Perloff and Shen (2012) regarding the identification and the accuracy of conduct parameter estimation. We point out that the proof of Perloff and Shen (2012) is incorrect and its simulation setting is not valid. Our simulation shows that the estimation becomes accurate when properly adding demand shifters in the supply estimation and increasing the sample size. Therefore, we support Bresnahan (1982).",
+    "path": "papers/23/01/2301.06665.json",
+    "total_tokens": 730,
+    "translated_title": "在同质化商品市场中解决Bresnahan（1982）和Perloff和Shen（2012）之间关于行为参数估计的冲突",
+    "translated_abstract": "我们重新审视了同质化商品市场中的行为参数估计，以解决Bresnahan（1982）和Perloff和Shen（2012）在行为参数估计的识别和精确性方面存在的冲突。我们指出Perloff和Shen（2012）的证明是不正确的，其模拟设置也不合法。我们的模拟结果表明，在适当增加需求转移和增加样本量的情况下，估计变得精确。因此，我们支持Bresnahan（1982）的结论。",
+    "tldr": "本文解决了同质化商品市场中Bresnahan（1982）和Perloff和Shen（2012）之间的关于行为参数估计的冲突，通过在供应估计中适当增加需求转移和增加样本量，提高了估计的精确性。",
+    "en_tdlr": "This paper resolves the conflict between Bresnahan (1982) and Perloff and Shen (2012) regarding conduct parameter estimation in homogeneous goods markets, by improving the accuracy of estimation through adding demand shifters in the supply estimation and increasing the sample size."
+}

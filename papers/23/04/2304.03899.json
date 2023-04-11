@@ -1,0 +1,11 @@
+{
+    "title": "An Empirical Study and Improvement for Speech Emotion Recognition. (arXiv:2304.03899v1 [cs.CL])",
+    "abstract": "Multimodal speech emotion recognition aims to detect speakers' emotions from audio and text. Prior works mainly focus on exploiting advanced networks to model and fuse different modality information to facilitate performance, while neglecting the effect of different fusion strategies on emotion recognition. In this work, we consider a simple yet important problem: how to fuse audio and text modality information is more helpful for this multimodal task. Further, we propose a multimodal emotion recognition model improved by perspective loss. Empirical results show our method obtained new state-of-the-art results on the IEMOCAP dataset. The in-depth analysis explains why the improved model can achieve improvements and outperforms baselines.",
+    "link": "http://arxiv.org/abs/2304.03899",
+    "context": "Title: An Empirical Study and Improvement for Speech Emotion Recognition. (arXiv:2304.03899v1 [cs.CL])\nAbstract: Multimodal speech emotion recognition aims to detect speakers' emotions from audio and text. Prior works mainly focus on exploiting advanced networks to model and fuse different modality information to facilitate performance, while neglecting the effect of different fusion strategies on emotion recognition. In this work, we consider a simple yet important problem: how to fuse audio and text modality information is more helpful for this multimodal task. Further, we propose a multimodal emotion recognition model improved by perspective loss. Empirical results show our method obtained new state-of-the-art results on the IEMOCAP dataset. The in-depth analysis explains why the improved model can achieve improvements and outperforms baselines.",
+    "path": "papers/23/04/2304.03899.json",
+    "total_tokens": 749,
+    "translated_title": "语音情感识别的实证研究与改进",
+    "translated_abstract": "多模式语音情感识别旨在从音频和文本中检测说话者的情感。先前的研究主要集中于利用先进网络对不同模态信息进行建模和融合，以提高性能，但忽略了不同融合策略对情感识别的影响。在本研究中，我们考虑了一个简单但重要的问题：如何融合音频和文本模态信息对于多模式任务更有帮助。进一步地，我们提出了一种由透视损失改进的多模式情感识别模型。实证结果表明我们的方法在IEMOCAP数据集上取得了新的最优结果。深入分析解释了为什么改进的模型可以实现改进并超过基线。",
+    "tldr": "本研究提出一种改进的多模式情感识别模型，利用透视损失来融合音频和文本模态信息，取得了IEMOCAP数据集上的最新最优结果。"
+}

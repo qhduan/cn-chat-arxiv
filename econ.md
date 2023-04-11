@@ -2,127 +2,232 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Idaho Blacks: Quiet Economic Triumph of Enduring Champions.](http://arxiv.org/abs/2304.03676) | 爱达荷州黑人收入超过白人和其他种族。较少的土地所有权障碍、较小的人口、社区联系紧密、男性参与家庭和相对较少的敌对环境可能是其经济成功以及减少种族和经济差距的关键因素。 |
-| [^2] | [Distributed VC Firms: The Next Iteration of Venture Capital.](http://arxiv.org/abs/2304.03525) | 本文提出了一种由软件自动化推动的“分布式创业投资公司”，并批评了传统风险投资公司的激励机制。可以通过进一步研究来验证该模型并发现实施的可能路径。 |
-| [^3] | [Linking Representations with Multimodal Contrastive Learning.](http://arxiv.org/abs/2304.03464) | 本文提出了一种名为CLIPPINGS的多模态框架，用于记录链接。该框架利用深度学习和对比学习的方法，通过端到端训练对称的视觉和语言编码器，在度量空间中学习相近或不同类别的表示方法，用于多个应用场景，如构建全面的补充专利注册表和识别不同社交媒体平台上的个人。 |
-| [^4] | [Echo disappears: momentum term structure and cyclic information in turnover.](http://arxiv.org/abs/2304.03437) | 通过提取换手中的循环信息，研究发现动量回声可以通过近期动量反转进行解释。 |
-| [^5] | [The Dynamics of Leverage and the Belief Distribution of Wealth.](http://arxiv.org/abs/2304.03436) | 本文中，通过建模经济体和资产，探讨了信仰分布和风险类型对借贷的影响。在好的状态之后，总借贷会增加，债务面额也会增加。当然，若借款违约，则悲观主义者会更被看好。即使没有噪声，财富也会收敛到与实际概率不同的信仰，风险越大，乐观主义就越强。 |
-| [^6] | [Leveraging policy instruments and financial incentives to reduce embodied carbon in energy retrofits.](http://arxiv.org/abs/2304.03403) | 本研究旨在发展政策策略来减少翻新中的体积碳排放，基于对文献的综述, 确定了不列颠哥伦比亚省（BC）的政策和财政激励来减少现有建筑部门总体GHG排放。 |
-| [^7] | [How to sample and when to stop sampling: The generalized Wald problem and minimax policies.](http://arxiv.org/abs/2210.15841) | 本文研究了引入信息成本的实验设计技术，特别是在顺序实验中，通过自适应地分配样本和在福利最大时停止采样来确定最佳处理方法。最小极大遗憾标准下，我们描述了最优策略，最小极大优化采样规则只是Neyman分配，独立于采样成本和先前的结果。 |
-| [^8] | [Sequential Veto Bargaining with Incomplete Information.](http://arxiv.org/abs/2202.02462) | 研究了有关顺序谈判的新模型，发现在提议者和否决者具有不确定性和单峰偏好的情况下，提议者可以在没有承诺权的情况下获得高收益。 |
+| [^1] | [On the state-space model of unawareness.](http://arxiv.org/abs/2304.04626) | 本文研究表明非平凡的无意识状态与知识的“必然性”性质相矛盾，修订后的“必然性”解决了经典的“Dekel-Lipman-Rustichini”问题，提出了一个能适用于无限状态空间的无意识标准状态空间模型。 |
+| [^2] | [Recursive Preferences, Correlation Aversion, and the Temporal Resolution of Uncertainty.](http://arxiv.org/abs/2304.04599) | 本文探讨了递归效用模型中的相关厌恶行为特征，提出了它们对资产定价、气候政策和最优财政政策等领域的应用意义。 |
+| [^3] | [A micro-founded comparison of fiscal policies: indirect and direct job creation.](http://arxiv.org/abs/2304.04506) | 本文提供了一个微观经济基础来支持政府直接雇用比政府购买商品更有利于消除失业，政府雇佣可以实现充分就业而不会引起价格上涨。 |
+| [^4] | [Who are the gatekeepers of economics? Geographic diversity, gender composition, and interlocking editorship of journal boards.](http://arxiv.org/abs/2304.04242) | 本研究分析了经济学期刊的编辑委员会成员的国家分布、所属机构和性别，发现经济学领域的学术出版环境仍然缺乏多样性和包容性。 |
+| [^5] | [Asymmetric networks, clientelism and their impacts: households' access to workfare employment in rural India.](http://arxiv.org/abs/2304.04236) | 本文研究了印度农村家庭获得公共就业机会的因素，发现非对称网络和客户主义关系会影响其获得就业机会，并提供了相应的理论模型支持。 |
+| [^6] | [Waiting for Fake News.](http://arxiv.org/abs/2304.04053) | 本文研究了以伪造新闻的形式操纵信息的情况下，当事人在搜索信息时可能受到的正面和规范扭曲，并提出了三种解决方案。 |
+| [^7] | [Complementarity in Demand-side Variables and Educational Participation.](http://arxiv.org/abs/2303.04647) | 本文研究了继承环境与预期教育回报之间的互补关系，揭示了印度社会中以种姓和性别定义的群体之间存在的教育参与不平等的根源。 |
+| [^8] | [Inference on Optimal Dynamic Policies via Softmax Approximation.](http://arxiv.org/abs/2303.04416) | 本文提出了一种简单的softmax逼近方法，可用于从离线数据中估计最优的动态治疗方案并对其进行有效推断。 |
+| [^9] | [Resolving the Conflict on Conduct Parameter Estimation in Homogeneous Goods Markets between Bresnahan (1982) and Perloff and Shen (2012).](http://arxiv.org/abs/2301.06665) | 本文解决了同质化商品市场中Bresnahan（1982）和Perloff和Shen（2012）之间的关于行为参数估计的冲突，通过在供应估计中适当增加需求转移和增加样本量，提高了估计的精确性。 |
+| [^10] | [The Simple Economics of Optimal Bundling.](http://arxiv.org/abs/2212.12623) | 本文研究了消费者在一个维度上的差异时最优捆绑的问题，并且证明了分层定价最优，并且提出了菜单的嵌套捆绑的最优方案。此外，本文提出了三个应用例子，其中前两个将最优捆绑和质量设计与价格弹性和成本结构联系起来，最后一个建立了在主体可以使用价格和非价格筛选工具时昂贵筛选的最优条件。 |
+| [^11] | [Estimation and Inference for High Dimensional Factor Model with Regime Switching.](http://arxiv.org/abs/2205.12126) | 本文提出了一种用于高维因子模型在载荷的制度转换下的最大（准）似然估计方法。通过迭代计算制度概率和加权样本协方差矩阵的主成分，实现了模型参数的联合估计。值得注意的是，由于高维度，制度转换可以在转换点之后仅通过一个观察而一致地被识别。 |
+| [^12] | [Who Increases Emergency Department Use? New Insights from the Oregon Health Insurance Experiment.](http://arxiv.org/abs/2201.07072) | 用因果机器学习方法研究发现医疗补助对急诊利用率具有异质性影响，只有少数群体驱动了整体效应，强度边际效应是其重要驱动因素，适当确定优先群体将有效控制急诊利用率。 |
+| [^13] | [Infinite utility: counterparts and ultimate locations.](http://arxiv.org/abs/2109.01852) | 论文探讨了无穷伦理学中的位置问题，辩护了“时间上的人”是终极位置，可以避免不安定意义，严格排名广泛类的世界。 |
+| [^14] | [A Partial Order on Preference Profiles.](http://arxiv.org/abs/2108.08465) | 该论文提出了一个理论框架来比较偏好档案，并定义了偏好档案的偏序关系。根据该理论框架，一种个人主义形式的社会偏好可以成为最大化偏序关系下的极大元素。 |
+| [^15] | [To Infinity and Beyond: A General Framework for Scaling Economic Theories.](http://arxiv.org/abs/1906.10333) | 该论文提供了一个通用的框架，通过去除经济学模型中的有限性假设来扩展其结果。该方法具有多用途性，可应用于启示式理论和匹配理论等领域。 |
 
 # 详细
 
-[^1]: 爱达荷州黑人：持续的冠军们安静地获得经济成功
+[^1]: 无意识状态空间模型论析
 
-    Idaho Blacks: Quiet Economic Triumph of Enduring Champions. (arXiv:2304.03676v1 [econ.GN])
+    On the state-space model of unawareness. (arXiv:2304.04626v1 [econ.GN])
 
-    [http://arxiv.org/abs/2304.03676](http://arxiv.org/abs/2304.03676)
+    [http://arxiv.org/abs/2304.04626](http://arxiv.org/abs/2304.04626)
 
-    爱达荷州黑人收入超过白人和其他种族。较少的土地所有权障碍、较小的人口、社区联系紧密、男性参与家庭和相对较少的敌对环境可能是其经济成功以及减少种族和经济差距的关键因素。
-
-    
-
-    随着美国经济不平等问题的加剧，我们发现了一个与传统议题背道而驰的独特案例。爱达荷州是全美唯一黑人收入超过白人和其他种族的州。本文研究了爱达荷州黑人如何实现经济成功，并探讨了有哪些因素导致了减少种族和经济差距的成就。初步研究表明，土地所有权障碍较少、人口较少、社区联系紧密、男性参与家庭和相对较少的敌对环境都发挥了重要作用。历史学家的进一步研究可以帮助国家揭示潜在因素，以确定某些因素是否可以适用于其他地区。
-
-    As the United States is witnessing elevated racial differences pertaining to economic disparities, we have found a unique example contrary to the traditional narrative. Idaho is the only US state where Blacks earn more than Whites and all other races. In this paper, we examine how Idaho Blacks might have achieved economic success and, more importantly, what factors might have led to this achievement in reducing racial and economic disparities. Preliminary research suggests that fewer barriers to land ownership, smaller populations, well-knit communities, men's involvement in the family, and a relatively less hostile environment have played a significant role. Further research by historians can help the nation uncover the underlying factors to see if some factors are transportable to other parts of the country.
-    
-[^2]: 分布式创业投资公司：风险投资的下一次革新
-
-    Distributed VC Firms: The Next Iteration of Venture Capital. (arXiv:2304.03525v1 [econ.GN])
-
-    [http://arxiv.org/abs/2304.03525](http://arxiv.org/abs/2304.03525)
-
-    本文提出了一种由软件自动化推动的“分布式创业投资公司”，并批评了传统风险投资公司的激励机制。可以通过进一步研究来验证该模型并发现实施的可能路径。
+    本文研究表明非平凡的无意识状态与知识的“必然性”性质相矛盾，修订后的“必然性”解决了经典的“Dekel-Lipman-Rustichini”问题，提出了一个能适用于无限状态空间的无意识标准状态空间模型。
 
     
 
-    本文结合激励模型和实证元分析，对驱动风险投资公司优化其实践以增加GP效用的激励系统提出了尖锐的批评，这些实践与改善初创企业股权的基础资产不相关。我们提出了一种由软件自动化推动的“分布式创业投资公司”，由一组名为“Pods”的功能小组管理，他们在交易-交易的基础上执行特定任务，并获得即时和长期回报。提供了进一步研究的途径，以验证这个模型并发现实施的可能路径。
+    本研究表明，承载非平凡无意识的智能体知识违反了“必然性”的标准属性，因此“必然性”不能用来反驳标准的状态空间模型。经修订后的“必然性”保留了非平凡无意识，并解决了经典的 Dekel-Lipman-Rustichini 结果。我们提出了一个通用的知识操作符，与无意识的标准状态空间模型一致，包括无限状态空间模型。
 
-    Using a combination of incentive modeling and empirical meta-analyses, this paper provides a pointed critique at the incentive systems that drive venture capital firms to optimize their practices towards activities that increase General Partner utility yet are disjoint from improving the underlying asset of startup equity. We propose a "distributed venture firm" powered by software automations and governed by a set of functional teams called "Pods" that carry out specific tasks with immediate and long-term payouts given on a deal-by-deal basis. Avenues are provided for further research to validate this model and discover likely paths to implementation.
+    We show that the knowledge of an agent carrying non-trivial unawareness violates the standard property of 'necessitation', therefore necessitation cannot be used to refute the standard state-space model. A revised version of necessitation preserves non-trivial unawareness and solves the classical Dekel-Lipman-Rustichini result. We propose a generalised knowledge operator consistent with the standard state-space model of unawareness, including the model of infinite state-space.
     
-[^3]: 用多模态对比学习连接表示
+[^2]: 递归偏好、相关厌恶和时间不确定性的解决方式
 
-    Linking Representations with Multimodal Contrastive Learning. (arXiv:2304.03464v1 [cs.CV])
+    Recursive Preferences, Correlation Aversion, and the Temporal Resolution of Uncertainty. (arXiv:2304.04599v1 [econ.TH])
 
-    [http://arxiv.org/abs/2304.03464](http://arxiv.org/abs/2304.03464)
+    [http://arxiv.org/abs/2304.04599](http://arxiv.org/abs/2304.04599)
 
-    本文提出了一种名为CLIPPINGS的多模态框架，用于记录链接。该框架利用深度学习和对比学习的方法，通过端到端训练对称的视觉和语言编码器，在度量空间中学习相近或不同类别的表示方法，用于多个应用场景，如构建全面的补充专利注册表和识别不同社交媒体平台上的个人。
-
-    
-
-    许多应用需要将包含在各种文档数据集中的实例分组成类。最广泛使用的方法不使用深度学习，也不利用文档固有的多模态性质。值得注意的是，记录链接通常被概念化为字符串匹配问题。本研究开发了 CLIPPINGS，一种用于记录链接的多模态框架。CLIPPINGS 采用端到端训练对称的视觉和语言双编码器，通过对比语言-图像预训练进行对齐，学习一个度量空间，其中给定实例的汇总图像-文本表示靠近同一类中的表示，并远离不同类中的表示。在推理时，可以通过从离线示例嵌入索引中检索它们最近的邻居或聚类它们的表示来链接实例。本研究研究了两个具有挑战性的应用：通过将专利与其对应的监管文件链接来构建全面的补充专利注册表，以及在不同的社交媒体平台上识别个人。
-
-    Many applications require grouping instances contained in diverse document datasets into classes. Most widely used methods do not employ deep learning and do not exploit the inherently multimodal nature of documents. Notably, record linkage is typically conceptualized as a string-matching problem. This study develops CLIPPINGS, (Contrastively Linking Pooled Pre-trained Embeddings), a multimodal framework for record linkage. CLIPPINGS employs end-to-end training of symmetric vision and language bi-encoders, aligned through contrastive language-image pre-training, to learn a metric space where the pooled image-text representation for a given instance is close to representations in the same class and distant from representations in different classes. At inference time, instances can be linked by retrieving their nearest neighbor from an offline exemplar embedding index or by clustering their representations. The study examines two challenging applications: constructing comprehensive suppl
-    
-[^4]: Echo消失：动量期限结构和换手中的循环信息
-
-    Echo disappears: momentum term structure and cyclic information in turnover. (arXiv:2304.03437v1 [econ.GN])
-
-    [http://arxiv.org/abs/2304.03437](http://arxiv.org/abs/2304.03437)
-
-    通过提取换手中的循环信息，研究发现动量回声可以通过近期动量反转进行解释。
+    本文探讨了递归效用模型中的相关厌恶行为特征，提出了它们对资产定价、气候政策和最优财政政策等领域的应用意义。
 
     
 
-    我们提取了换手中的循环信息，并发现它可以解释动量回声。近期动量反转是取消近期动量的关键因素，将其排除后，回声会回归到阻尼形状。理性和行为理论均可解释反转现象。这项研究是对美国股市动量回声的首次解释。
+    递归效用模型在许多经济应用程序中起着重要作用。本文研究了这些模型所表现的一种新的行为特征：对时间上呈现持续性（正自相关）风险的厌恶，称为相关厌恶。我引入了这种属性的形式概念，并提供了一个基于风险态度的特征，同时还表明相关厌恶的偏好具有特定的变分表示。我讨论了这些发现如何说明对相关性的态度是推动递归效用在资产定价、气候政策和最优财政政策等领域应用的关键行为因素。
 
-    We extract cyclic information in turnover and find it can explain the momentum echo. The reversal in recent month momentum is the key factor that cancels out the recent month momentum and excluding it makes the echo regress to a damped shape. Both rational and behavioral theories can explain the reversal. This study is the first explanation of the momentum echo in U.S. stock markets.
+    Models of recursive utility are of central importance in many economic applications. This paper investigates a new behavioral feature exhibited by these models: aversion to risks that exhibit persistence (positive autocorrelation) through time, referred to as correlation aversion. I introduce a formal notion of such a property and provide a characterization based on risk attitudes, and show that correlation averse preferences admit a specific variational representation. I discuss how these findings imply that attitudes toward correlation are a crucial behavioral aspect driving the applications of recursive utility in fields such as asset pricing, climate policy, and optimal fiscal policy.
     
-[^5]: 杠杆的动态和财富信仰分布
+[^3]: 财政政策的微观比较：间接和直接就业创造
 
-    The Dynamics of Leverage and the Belief Distribution of Wealth. (arXiv:2304.03436v1 [econ.GN])
+    A micro-founded comparison of fiscal policies: indirect and direct job creation. (arXiv:2304.04506v1 [econ.TH])
 
-    [http://arxiv.org/abs/2304.03436](http://arxiv.org/abs/2304.03436)
+    [http://arxiv.org/abs/2304.04506](http://arxiv.org/abs/2304.04506)
 
-    本文中，通过建模经济体和资产，探讨了信仰分布和风险类型对借贷的影响。在好的状态之后，总借贷会增加，债务面额也会增加。当然，若借款违约，则悲观主义者会更被看好。即使没有噪声，财富也会收敛到与实际概率不同的信仰，风险越大，乐观主义就越强。
-
-    
-
-    经济中的总体借贷规模和条款取决于财富如何在对未来持有不同信仰的潜在债权人中分配。如果贷款得到全额偿还，则不确定性逐渐解决，使乐观主义者更加被青睐。反之，如果出现大规模违约，则悲观主义者更被看好。我们在一个拥有两种资产——风险债券和无风险现金的经济体中建模这个过程。在每个时期内，考虑到相继经历的信仰类型，借贷的规模和条款都是内生确定的。好的状态之后，总借贷和债务面额都会上升，利率会下降。在没有噪声的情况下，财富会收敛到与实际概率不同的信仰，风险厌恶越大，乐观主义越强。在存在噪声的情况下，经济体表现出高表现期和低表现期的交替。
-
-    The scale and terms of aggregate borrowing in an economy depend on the manner in which wealth is distributed across potential creditors with heterogeneous beliefs about the future. This distribution evolves over time as uncertainty is resolved, in favour of optimists if loans are repaid in full, and in favour of pessimists if there is widespread default. We model this process in an economy with two assets - risky bonds and risk-free cash. Within periods, given the inherited distribution of wealth across belief types, the scale and terms of borrowing are endogenously determined. Following good states, aggregate borrowing and the face value of debt both rise, and the interest rate falls. In the absence of noise, wealth converges to beliefs that differ systematically from the objective probability governing state realisations, with greater risk-aversion associated with greater optimism. In the presence of noise, the economy exhibits periods of high performance, punctuated by periods of cr
-    
-[^6]: 利用政策工具和财政激励减少能源翻新中的碳排放
-
-    Leveraging policy instruments and financial incentives to reduce embodied carbon in energy retrofits. (arXiv:2304.03403v1 [econ.GN])
-
-    [http://arxiv.org/abs/2304.03403](http://arxiv.org/abs/2304.03403)
-
-    本研究旨在发展政策策略来减少翻新中的体积碳排放，基于对文献的综述, 确定了不列颠哥伦比亚省（BC）的政策和财政激励来减少现有建筑部门总体GHG排放。
+    本文提供了一个微观经济基础来支持政府直接雇用比政府购买商品更有利于消除失业，政府雇佣可以实现充分就业而不会引起价格上涨。
 
     
 
-    建筑行业和建筑施工行业占全球总能源消耗的三分之一以上，近40％的总温室气体（GHG）排放量。建筑部门的GHG排放由体积排放和经营排放组成。为了降低建筑部门的能耗和排放，许多政府推出了政策、标准和设计方针，以改善建筑能源性能并减少与建筑经营相关的GHG排放。然而，减少现有建筑部门中的体积排放的政策倡议还不足。本研究旨在制定减少翻新中体积碳排放的政策策略。为了实现这一目标，本研究对文献进行了综述，并确定了在不列颠哥伦比亚省（BC）减少现有建筑部门总体GHG排放的政策和财政激励措施。
+    本文提出了一个微观经济基础，支持政府直接雇用比政府购买私人商品更有利于消除失业。通过一种具有垄断竞争性质的一般均衡模型，研究了政策参数（政府购买、政府雇佣和税率）对宏观经济变量（消费、价格和利润）的影响。研究表明：1）政府购买具有通胀性质，因为政府的额外有效需求不仅增加了私人就业，还提高了价格；2）政府雇佣可以实现充分就业，而不会引起价格上涨。
 
-    The existing buildings and building construction sectors together are responsible for over one-third of the total global energy consumption and nearly 40% of total greenhouse gas (GHG) emissions. GHG emissions from the building sector are made up of embodied emissions and operational emissions. Recognizing the importance of reducing energy use and emissions associated with the building sector, governments have introduced policies, standards, and design guidelines to improve building energy performance and reduce GHG emissions associated with operating buildings. However, policy initiatives that reduce embodied emissions of the existing building sector are lacking. This research aims to develop policy strategies to reduce embodied carbon emissions in retrofits. In order to achieve this goal, this research conducted a literature review and identification of policies and financial incentives in British Columbia (BC) for reducing overall GHG emissions from the existing building sector. The
+    This paper provides a micro-economic foundation for argument that direct employment by government is more desirable than government purchase of private goods to eliminate unemployment. A general equilibrium model with monopolistic competition is devised, and effects of policy parameters (government purchase, government employment, and tax rate) to macroeconomic variables (consumption, price, and profit) are investigated. It is shown that 1) the government purchase is inflationary in the sense that additional effective demand by government not only increases private employment but also raises prices; 2) the government employment can achieve full employment without causing a rise in prices.
     
-[^7]: 如何进行样本采集以及何时停止采样：广义Wald问题和最小极大决策
+[^4]: 经济学的门户是谁？地理多样性、性别比例和杂志编辑委员会的交叉指挥。
 
-    How to sample and when to stop sampling: The generalized Wald problem and minimax policies. (arXiv:2210.15841v4 [econ.EM] UPDATED)
+    Who are the gatekeepers of economics? Geographic diversity, gender composition, and interlocking editorship of journal boards. (arXiv:2304.04242v1 [econ.GN])
 
-    [http://arxiv.org/abs/2210.15841](http://arxiv.org/abs/2210.15841)
+    [http://arxiv.org/abs/2304.04242](http://arxiv.org/abs/2304.04242)
 
-    本文研究了引入信息成本的实验设计技术，特别是在顺序实验中，通过自适应地分配样本和在福利最大时停止采样来确定最佳处理方法。最小极大遗憾标准下，我们描述了最优策略，最小极大优化采样规则只是Neyman分配，独立于采样成本和先前的结果。
-
-    
-
-    获取信息是昂贵的。实验者需要仔细选择每种处理的样本数量以及何时停止采样。本文的目的是开发将信息成本纳入实验设计的技术。特别是，我们研究了一种顺序实验，其中采样具有成本，决策者通过（1）自适应地分配单位到两种可能的处理方法，以及（2）当实施所选择的处理的预期福利（包括采样成本）达到最大时停止实验，来确定最佳处理方法以进行全面实施。在扩散极限下工作，我们在最小极大遗憾标准下描述了最优策略。在小成本渐近下，相同的策略在参数化和非参数化结果分布下也是最优的。最小极大优化采样规则只是Neyman分配；它独立于采样成本，也不适应于先前的结果。
-
-    Acquiring information is expensive. Experimenters need to carefully choose how many units of each treatment to sample and when to stop sampling. The aim of this paper is to develop techniques for incorporating the cost of information into experimental design. In particular, we study sequential experiments where sampling is costly and a decision-maker aims to determine the best treatment for full scale implementation by (1) adaptively allocating units to two possible treatments, and (2) stopping the experiment when the expected welfare (inclusive of sampling costs) from implementing the chosen treatment is maximized. Working under the diffusion limit, we describe the optimal policies under the minimax regret criterion. Under small cost asymptotics, the same policies are also optimal under parametric and non-parametric distributions of outcomes. The minimax optimal sampling rule is just the Neyman allocation; it is independent of sampling costs and does not adapt to previous outcomes. Th
-    
-[^8]: 不完全信息下的顺序否决谈判
-
-    Sequential Veto Bargaining with Incomplete Information. (arXiv:2202.02462v3 [econ.TH] UPDATED)
-
-    [http://arxiv.org/abs/2202.02462](http://arxiv.org/abs/2202.02462)
-
-    研究了有关顺序谈判的新模型，发现在提议者和否决者具有不确定性和单峰偏好的情况下，提议者可以在没有承诺权的情况下获得高收益。
+    本研究分析了经济学期刊的编辑委员会成员的国家分布、所属机构和性别，发现经济学领域的学术出版环境仍然缺乏多样性和包容性。
 
     
 
-    我们研究了提议者和否决者之间的顺序谈判。两者都具有单峰偏好，但提议者对否决者的理想点不确定。当玩家有耐心时，可以出现带有Coasian动态的均衡：否决者的私人信息可以在很大程度上抵消提议者的谈判能力。然而，我们的主要结果是，在某些条件下，也存在使提议者获得承诺权高收益的均衡。驱动力在于否决者的单峰偏好为提议者提供了一种“跨越”的选择，即提议者可以通过先从低剩余类型处获得协议以可信地从高类型处提取剩余来实现。
+    编辑委员会成员在科学门户的角色非常重要，本研究分析了经济学期刊的编辑委员会成员的国家分布、所属机构和性别。同时，它还研究了由同一人在多个期刊编辑委员会任职所产生的交叉指挥网络。分析基于一个独特的数据库，包含了2019年在EconLit数据库中具有活跃编辑委员会的所有1,516个期刊。对于每个期刊，我们手动收集了委员会成员的姓名和所属机构，得到了一个包含来自142个国家的6,000多个机构的44,000多个成员的数据库。这些数据使得我们能够在前所未有的大规模上研究当代经济学的门户现象。结果突出了有关编辑门户的一些共同问题，得出的结论是在经济学领域，学术出版环境仍然远未达到足够多样化和包容性的水平。
 
-    We study sequential bargaining between a proposer and a veto player. Both have single-peaked preferences, but the proposer is uncertain about the veto player's ideal point. The proposer cannot commit to future proposals. When players are patient, there can be equilibria with Coasian dynamics: the veto player's private information can largely nullify proposer's bargaining power. Our main result, however, is that under some conditions there are also equilibria in which the proposer obtains the high payoff that he would with commitment power. The driving force is that the veto player's single-peaked preferences give the proposer an option to "leapfrog", i.e., to secure agreement from only low-surplus types early on to credibly extract surplus from high types later. Methodologically, we exploit the connection between sequential bargaining and static mechanism design.
+    Members of editorial boards play the role of gatekeepers of science because. This paper analyses the national distribution of editorial boards members of economics journal, their affiliation, and their gender. It studies also the interlocking editorship network generated by the presence of a same person on the editorial board of more than one journal. The analysis is based on a unique database comprising all the 1,516 journals indexed in the database EconLit with an active editorial board in 2019. For each journal, we manually collected the names of the board members along with their affiliation, obtaining a database containing more than 44,000 members from more than 6,000 institutions and 142 countries. These data allow to investigate the phenomenon of gatekeeping in contemporary economics on an unprecedented large scale. The obtained results highlight some common issues concerning the editorial gatekeeping, leading to the conclusion that in Economics the academic publishing environme
+    
+[^5]: 非对称网络、客户主义及其影响：印度农村家庭获取公共就业岗位的途径。
+
+    Asymmetric networks, clientelism and their impacts: households' access to workfare employment in rural India. (arXiv:2304.04236v1 [econ.GN])
+
+    [http://arxiv.org/abs/2304.04236](http://arxiv.org/abs/2304.04236)
+
+    本文研究了印度农村家庭获得公共就业机会的因素，发现非对称网络和客户主义关系会影响其获得就业机会，并提供了相应的理论模型支持。
+
+    
+
+    本文探讨了两个相互关联的问题。首先，我们使用原始数据，研究了建立在多个生活领域丰富关系信息基础上的非对称网络对印度农村地区获得公共就业机会的影响。我们发现，与相互关系相比，单向关系以及这种单向关系的集中可以提高农村家庭获得公共就业机会的机会。进一步深入的探究提供证据表明，家长-客户关系是决定农村家庭获得这种就业机会的因素。作为我们实证研究的补充，我们构建并分析了一个支持我们发现的博弈理论模型。
+
+    In this paper we explore two intertwined issues. First, using primary data we examine the impact of asymmetric networks, built on rich relational information on several spheres of living, on access to workfare employment in rural India. We find that unidirectional relations, as opposed to reciprocal relations, and the concentration of such unidirectional relations increase access to workfare jobs. Further in-depth exploration provides evidence that patron-client relations are responsible for this differential access to such employment for rural households. Complementary to our empirical exercises, we construct and analyse a game-theoretical model supporting our findings.
+    
+[^6]: 等待虚假新闻
+
+    Waiting for Fake News. (arXiv:2304.04053v1 [econ.TH])
+
+    [http://arxiv.org/abs/2304.04053](http://arxiv.org/abs/2304.04053)
+
+    本文研究了以伪造新闻的形式操纵信息的情况下，当事人在搜索信息时可能受到的正面和规范扭曲，并提出了三种解决方案。
+
+    
+
+    本文研究了一种信息获取的动态模型，其中信息可能被秘密操纵。当事人必须在安全行动和有不确定结果的风险行动之间进行选择，偏向于在先验信念下选择安全行动。其可以延迟决策，以获取揭示风险行动结果的额外新闻，但不知道这样的新闻什么时候到来。一个不知情但与代理人偏好不一致的\aaa{}可能有能力生成一个假的新闻到达时间，这与真实的到达时间无法区分，从而扭曲了新闻的信息内容和当事人的搜索。分析了这种操纵所导致的信息搜索中的正面和规范扭曲，并考虑了三种增加当事人收益的解决方案：承诺进行天真的搜索、转移代理权以及委托一个有偏见的中介人代理人的利益。
+
+    This paper studies a dynamic model of information acquisition, in which information might be secretly manipulated. A principal must choose between a safe action with known payoff and a risky action with uncertain payoff, favoring the safe action under the prior belief. She may delay her decision to acquire additional news that reveals the risky action's payoff, without knowing exactly when such news will arrive. An uninformed \aaa{} with a misaligned preference may have the capability to generate a false arrival of news, which is indistinguishable from a real one, distorting the information content of news and the principal's search. The analysis characterizes the positive and normative distortions in the search for news arising from such manipulation, and it considers three remedies that increase the principal's payoff: a commitment to naive search, transfer of authority to the agent, and delegation to an intermediary who is biased in the agent's favor.
+    
+[^7]: 需求侧变量与教育参与中的互补性
+
+    Complementarity in Demand-side Variables and Educational Participation. (arXiv:2303.04647v2 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2303.04647](http://arxiv.org/abs/2303.04647)
+
+    本文研究了继承环境与预期教育回报之间的互补关系，揭示了印度社会中以种姓和性别定义的群体之间存在的教育参与不平等的根源。
+
+    
+
+    教育参与的决定取决于个体继承的环境，以及她所期望的教育回报。如果任何一个社会经济劣势群体中的个人继承了以家庭背景衡量的不良环境，那么她的能力集限制了，拥有的选择最佳方案的自由也较少，从教育参与中获得的潜在回报也更少。因此，可以观察到继承环境与预期教育回报之间具有互补关系。本文基于理论逻辑和实证调查来研究这种互补性，从而揭示了印度社会中以种姓和性别定义的群体之间存在的教育参与不平等的根源。
+
+    Decision to participate in education depends on the circumstances individual inherits and on the returns to education she expects as well. If one person from any socio-economically disadvantaged social group inherits poor circumstances measured in terms of family background, then she is having poor opportunities vis-\`a-vis her capability set becomes confined. Accordingly, her freedom to choose the best alternative from many is also less, and she fails to expect the potential returns from educational participation. Consequently, a complementary relationship between the circumstances one inherits and the returns to education she expects can be observed. This paper is an attempt to look at this complementarity on the basis of theoretical logic and empirical investigation, which enables us to unearth the origin of inter-group disparity in educational participation, as is existed across the groups defined by taking caste and gender together in Indian society. Furthermore, in the second pie
+    
+[^8]: 通过Softmax逼近实现动态最优策略的推断
+
+    Inference on Optimal Dynamic Policies via Softmax Approximation. (arXiv:2303.04416v2 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2303.04416](http://arxiv.org/abs/2303.04416)
+
+    本文提出了一种简单的softmax逼近方法，可用于从离线数据中估计最优的动态治疗方案并对其进行有效推断。
+
+    
+
+    从离线数据中估计最优的动态策略是动态决策制定中的一个基本问题。在因果推断的背景下，该问题被称为估计最优的动态治疗方案。即使存在大量的估计方法，构建置信区间来估计最优策略的价值及其相关的结构参数本质上更加困难，因为它涉及到未知量的非线性和非可微函数。以前的研究采用了亚样本方法，但可能会降低估计的质量。我们证明，对于一个适当增长的温度参数，最优治疗方案的简单softmax逼近可以实现对真正最优方案的有效推断。我们将我们的结果用于两期的最优动态方案，并将该方法直接推广到有限的时间段情况。我们的工作结合了半参数方法和机器学习技术。
+
+    Estimating optimal dynamic policies from offline data is a fundamental problem in dynamic decision making. In the context of causal inference, the problem is known as estimating the optimal dynamic treatment regime. Even though there exists a plethora of methods for estimation, constructing confidence intervals for the value of the optimal regime and structural parameters associated with it is inherently harder, as it involves non-linear and non-differentiable functionals of un-known quantities that need to be estimated. Prior work resorted to sub-sample approaches that can deteriorate the quality of the estimate. We show that a simple soft-max approximation to the optimal treatment regime, for an appropriately fast growing temperature parameter, can achieve valid inference on the truly optimal regime. We illustrate our result for a two-period optimal dynamic regime, though our approach should directly extend to the finite horizon case. Our work combines techniques from semi-parametric
+    
+[^9]: 在同质化商品市场中解决Bresnahan（1982）和Perloff和Shen（2012）之间关于行为参数估计的冲突
+
+    Resolving the Conflict on Conduct Parameter Estimation in Homogeneous Goods Markets between Bresnahan (1982) and Perloff and Shen (2012). (arXiv:2301.06665v4 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2301.06665](http://arxiv.org/abs/2301.06665)
+
+    本文解决了同质化商品市场中Bresnahan（1982）和Perloff和Shen（2012）之间的关于行为参数估计的冲突，通过在供应估计中适当增加需求转移和增加样本量，提高了估计的精确性。
+
+    
+
+    我们重新审视了同质化商品市场中的行为参数估计，以解决Bresnahan（1982）和Perloff和Shen（2012）在行为参数估计的识别和精确性方面存在的冲突。我们指出Perloff和Shen（2012）的证明是不正确的，其模拟设置也不合法。我们的模拟结果表明，在适当增加需求转移和增加样本量的情况下，估计变得精确。因此，我们支持Bresnahan（1982）的结论。
+
+    We revisit conduct parameter estimation in homogeneous goods markets to resolve the conflict between Bresnahan (1982) and Perloff and Shen (2012) regarding the identification and the accuracy of conduct parameter estimation. We point out that the proof of Perloff and Shen (2012) is incorrect and its simulation setting is not valid. Our simulation shows that the estimation becomes accurate when properly adding demand shifters in the supply estimation and increasing the sample size. Therefore, we support Bresnahan (1982).
+    
+[^10]: 最优捆绑的简单经济学
+
+    The Simple Economics of Optimal Bundling. (arXiv:2212.12623v2 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2212.12623](http://arxiv.org/abs/2212.12623)
+
+    本文研究了消费者在一个维度上的差异时最优捆绑的问题，并且证明了分层定价最优，并且提出了菜单的嵌套捆绑的最优方案。此外，本文提出了三个应用例子，其中前两个将最优捆绑和质量设计与价格弹性和成本结构联系起来，最后一个建立了在主体可以使用价格和非价格筛选工具时昂贵筛选的最优条件。
+
+    
+
+    我们研究了消费者在一个维度上的差异时的最优捆绑。我们引入了捆绑集合的偏序关系，其中包括(i) 集合包含关系和(ii) 单独销售时的销售量（定价最优）。我们证明，如果在这个偏序关系下没有优于其他捆绑集合，那么分层定价是最优的。我们刻画了哪种分层菜单是最优的:如果菜单中较小的捆绑比菜单中较大的捆绑销售更多（更少），则出售特定菜单的嵌套捆绑是最优的。我们提出了三个应用例子:前两个将最优捆绑和质量设计与价格弹性和成本结构联系起来; 最后一个建立了一个必要和充分条件，表明在主体可以使用价格和非价格筛选工具时，昂贵的筛选是最优的。
+
+    We study optimal bundling when consumers differ in one dimension. We introduce a partial order on the set of bundles defined by (i) set inclusion and (ii) sales volumes (if sold alone and priced optimally). We show that if the undominated bundles with respect to this partial order are nested, then nested bundling (tiered pricing) is optimal. We characterize which nested menu is optimal: Selling a given menu of nested bundles is optimal if a smaller bundle in (out of) the menu sells more (less) than a bigger bundle in the menu. We present three applications of these insights: the first two connect optimal bundling and quality design to price elasticities and cost structures; the last one establishes a necessary and sufficient condition for costly screening to be optimal when a principal can use both price and nonprice screening instruments.
+    
+[^11]: 高维因子模型在制度转换下的估计和推断
+
+    Estimation and Inference for High Dimensional Factor Model with Regime Switching. (arXiv:2205.12126v2 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2205.12126](http://arxiv.org/abs/2205.12126)
+
+    本文提出了一种用于高维因子模型在载荷的制度转换下的最大（准）似然估计方法。通过迭代计算制度概率和加权样本协方差矩阵的主成分，实现了模型参数的联合估计。值得注意的是，由于高维度，制度转换可以在转换点之后仅通过一个观察而一致地被识别。
+
+    
+
+    本文提出了一种用于高维因子模型在载荷的制度转换下的最大（准）似然估计方法。在当前情境下，EM（期望最大化）算法通过迭代计算制度概率和加权样本协方差矩阵的主成分来联合估计模型参数。当考虑制度动态时，使用递归算法计算平滑制度概率。在弱横向和时间相关性以及异方差性下，建立了估计载荷和估计因子的一致性、收敛速率和极限分布。值得注意的是，由于高维度，制度转换可以在转换点之后仅通过一个观察而一致地被识别。仿真结果显示出所提方法的良好性能。一份针对FRED-MD数据集的应用说明了所提方法的潜力。
+
+    This paper proposes maximum (quasi)likelihood estimation for high dimensional factor models with regime switching in the loadings. The model parameters are estimated jointly by the EM (expectation maximization) algorithm, which in the current context only requires iteratively calculating regime probabilities and principal components of the weighted sample covariance matrix. When regime dynamics are taken into account, smoothed regime probabilities are calculated using a recursive algorithm. Consistency, convergence rates and limit distributions of the estimated loadings and the estimated factors are established under weak cross-sectional and temporal dependence as well as heteroscedasticity. It is worth noting that due to high dimension, regime switching can be identified consistently after the switching point with only one observation. Simulation results show good performance of the proposed method. An application to the FRED-MD dataset illustrates the potential of the proposed method
+    
+[^12]: 《谁增加了紧急诊所的使用率？来自俄勒冈医疗保险实验的新见解》
+
+    Who Increases Emergency Department Use? New Insights from the Oregon Health Insurance Experiment. (arXiv:2201.07072v4 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2201.07072](http://arxiv.org/abs/2201.07072)
+
+    用因果机器学习方法研究发现医疗补助对急诊利用率具有异质性影响，只有少数群体驱动了整体效应，强度边际效应是其重要驱动因素，适当确定优先群体将有效控制急诊利用率。
+
+    
+
+    我们利用因果机器学习方法提供了一项新见解，针对医疗保险实验中的一个主要结果：医疗补助增加了紧急诊所的使用率。我们发现医疗保险对紧急诊所使用率的影响存在有意义的异质性。个性化的治疗效应分布包括了一系列正负值，表明平均效应掩盖了相当大的异质性。一个极小的群体（约14%的参与者）在治疗效应分布的右尾驱动了整体效应。我们根据人口统计学和以往的利用情况确定了具有经济重要性的增加急诊使用的优先群体。强度边际效应是急诊利用率增加的重要驱动因素。
+
+    We provide new insights regarding the headline result that Medicaid increased emergency department (ED) use from the Oregon experiment. We find meaningful heterogeneous impacts of Medicaid on ED use using causal machine learning methods. The individualized treatment effect distribution includes a wide range of negative and positive values, suggesting the average effect masks substantial heterogeneity. A small group-about 14% of participants-in the right tail of the distribution drives the overall effect. We identify priority groups with economically significant increases in ED usage based on demographics and previous utilization. Intensive margin effects are an important driver of increases in ED utilization.
+    
+[^13]: 无穷效用：对应物和终极位置
+
+    Infinite utility: counterparts and ultimate locations. (arXiv:2109.01852v2 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2109.01852](http://arxiv.org/abs/2109.01852)
+
+    论文探讨了无穷伦理学中的位置问题，辩护了“时间上的人”是终极位置，可以避免不安定意义，严格排名广泛类的世界。
+
+    
+
+    无穷伦理学中的位置问题涉及价值潜在承担者的不同类别之间相对道德地位的问题，其主要例子是人和时间点。挑战在于确定哪一类价值承担者具有终极道德意义：简而言之，是终极位置。本文辩护了“时间上的人”是终极位置的观点。在特定时间点的人不是特定的人，而是在特定时间点出生的人（de dicto）。本文的主要结论是，时间和以人为中心的无穷伦理观点的不安定意义可以避免。特别是，人为中心的观点认为不可比较的广泛类的世界可以严格排名。
+
+    The locations problem in infinite ethics concerns the relative moral status of different categories of potential bearers of value, the primary examples of which are people and points in time. The challenge is to determine which category of value bearers are of ultimate moral significance: the ultimate locations, for short. This paper defends the view that the ultimate locations are 'people at times'. A person at a time is not a specific person, but the person born at a specific point in time (de dicto). The main conclusion of the paper is that the unsettling implications of the time- and person-centered approaches to infinite ethics can be avoided. Most notably, a broad class of worlds that person-centered views deem incomparable can be strictly ranked.
+    
+[^14]: 偏好档案的偏序关系
+
+    A Partial Order on Preference Profiles. (arXiv:2108.08465v2 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2108.08465](http://arxiv.org/abs/2108.08465)
+
+    该论文提出了一个理论框架来比较偏好档案，并定义了偏好档案的偏序关系。根据该理论框架，一种个人主义形式的社会偏好可以成为最大化偏序关系下的极大元素。
+
+    
+
+    我们提出了一个理论框架，可以有意义地比较偏好档案。具体来说，给定一组有限的可行分配和一个偏好档案，我们首先将分配的排序向量定义为该分配所有个体对于该分配的排名的向量。然后我们定义了一个偏好档案的偏序关系，并写作"$P \geq P^{'}$"，如果存在一个到映射$\psi$，将$P^{'}$的帕累托前沿映射到$P$的帕累托前沿上，使得在$P^{'}$下的任何帕累托高效分配$x$的排名向量都被$P$下的映像分配$\psi(x)$的排名向量弱支配。我们提供了偏序关系下极大元素和极小元素的刻画。特别地，我们说明了在特定情况下，一种个人主义形式的社会偏好可以成为最大化偏序关系下的极大元素。我们还讨论了如何进一步推广这个框架来包括更多的经济元素。
+
+    We propose a theoretical framework under which preference profiles can be meaningfully compared. Specifically, given a finite set of feasible allocations and a preference profile, we first define a ranking vector of an allocation as the vector of all individuals' rankings of this allocation. We then define a partial order on preference profiles and write "$P \geq P^{'}$", if there exists an onto mapping $\psi$ from the Pareto frontier of $P^{'}$ onto the Pareto frontier of $P$, such that the ranking vector of any Pareto efficient allocation $x$ under $P^{'}$ is weakly dominated by the ranking vector of the image allocation $\psi(x)$ under $P$. We provide a characterization of the maximal and minimal elements under the partial order. In particular, we illustrate how an individualistic form of social preferences can be maximal in a specific setting. We also discuss how the framework can be further generalized to incorporate additional economic ingredients.
+    
+[^15]: 超越无限大：一个通用的经济理论扩展框架
+
+    To Infinity and Beyond: A General Framework for Scaling Economic Theories. (arXiv:1906.10333v5 [cs.GT] UPDATED)
+
+    [http://arxiv.org/abs/1906.10333](http://arxiv.org/abs/1906.10333)
+
+    该论文提供了一个通用的框架，通过去除经济学模型中的有限性假设来扩展其结果。该方法具有多用途性，可应用于启示式理论和匹配理论等领域。
+
+    
+
+    许多经济学理论模型都包含有限性假设，虽然这些假设是出于简单性而引入的，但却在分析中发挥了实际作用。我们提供了一个有原则的框架来扩展这些模型的结果，通过去除这些有限性的假设。我们的充分条件仅适用于定理陈述方面，而不是证明。这导致了简短的证明，并且甚至允许使用相同的论证来扩展使用完全不同工具证明的类似定理。我们通过来自启示式理论和匹配理论的示例展示了我们方法的多用途性。
+
+    Many economic theory models incorporate finiteness assumptions that, while introduced for simplicity, play a real role in the analysis. We provide a principled framework for scaling results from such models by removing these finiteness assumptions. Our sufficient conditions are on the theorem statement only, and not on its proof. This results in short proofs, and even allows to use the same argument to scale similar theorems that were proven using distinctly different tools. We demonstrate the versatility of our approach via examples from both revealed-preference theory and matching theory.
     
 

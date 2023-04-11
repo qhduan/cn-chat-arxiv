@@ -1,0 +1,12 @@
+{
+    "title": "On the state-space model of unawareness. (arXiv:2304.04626v1 [econ.GN])",
+    "abstract": "We show that the knowledge of an agent carrying non-trivial unawareness violates the standard property of 'necessitation', therefore necessitation cannot be used to refute the standard state-space model. A revised version of necessitation preserves non-trivial unawareness and solves the classical Dekel-Lipman-Rustichini result. We propose a generalised knowledge operator consistent with the standard state-space model of unawareness, including the model of infinite state-space.",
+    "link": "http://arxiv.org/abs/2304.04626",
+    "context": "Title: On the state-space model of unawareness. (arXiv:2304.04626v1 [econ.GN])\nAbstract: We show that the knowledge of an agent carrying non-trivial unawareness violates the standard property of 'necessitation', therefore necessitation cannot be used to refute the standard state-space model. A revised version of necessitation preserves non-trivial unawareness and solves the classical Dekel-Lipman-Rustichini result. We propose a generalised knowledge operator consistent with the standard state-space model of unawareness, including the model of infinite state-space.",
+    "path": "papers/23/04/2304.04626.json",
+    "total_tokens": 682,
+    "translated_title": "无意识状态空间模型论析",
+    "translated_abstract": "本研究表明，承载非平凡无意识的智能体知识违反了“必然性”的标准属性，因此“必然性”不能用来反驳标准的状态空间模型。经修订后的“必然性”保留了非平凡无意识，并解决了经典的 Dekel-Lipman-Rustichini 结果。我们提出了一个通用的知识操作符，与无意识的标准状态空间模型一致，包括无限状态空间模型。",
+    "tldr": "本文研究表明非平凡的无意识状态与知识的“必然性”性质相矛盾，修订后的“必然性”解决了经典的“Dekel-Lipman-Rustichini”问题，提出了一个能适用于无限状态空间的无意识标准状态空间模型。",
+    "en_tdlr": "This paper shows that non-trivial unawareness contradicts the property of 'necessitation' and proposes a revised version to solve the classical Dekel-Lipman-Rustichini result. It also introduces a generalized knowledge operator consistent with the standard state-space model of unawareness, including the model of infinite state-space."
+}

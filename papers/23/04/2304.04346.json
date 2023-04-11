@@ -1,0 +1,12 @@
+{
+    "title": "A Novel Point-based Algorithm for Multi-agent Control Using the Common Information Approach. (arXiv:2304.04346v1 [cs.AI])",
+    "abstract": "The Common Information (CI) approach provides a systematic way to transform a multi-agent stochastic control problem to a single-agent partially observed Markov decision problem (POMDP) called the coordinator's POMDP. However, such a POMDP can be hard to solve due to its extraordinarily large action space. We propose a new algorithm for multi-agent stochastic control problems, called coordinator's heuristic search value iteration (CHSVI), that combines the CI approach and point-based POMDP algorithms for large action spaces. We demonstrate the algorithm through optimally solving several benchmark problems.",
+    "link": "http://arxiv.org/abs/2304.04346",
+    "context": "Title: A Novel Point-based Algorithm for Multi-agent Control Using the Common Information Approach. (arXiv:2304.04346v1 [cs.AI])\nAbstract: The Common Information (CI) approach provides a systematic way to transform a multi-agent stochastic control problem to a single-agent partially observed Markov decision problem (POMDP) called the coordinator's POMDP. However, such a POMDP can be hard to solve due to its extraordinarily large action space. We propose a new algorithm for multi-agent stochastic control problems, called coordinator's heuristic search value iteration (CHSVI), that combines the CI approach and point-based POMDP algorithms for large action spaces. We demonstrate the algorithm through optimally solving several benchmark problems.",
+    "path": "papers/23/04/2304.04346.json",
+    "total_tokens": 690,
+    "translated_title": "基于点的新型多智能体控制算法：基于公共信息方法",
+    "translated_abstract": "公共信息方法提供了一种将多智能体随机控制问题转化为单一智能体部分可观察的马尔可夫决策问题（POMDP）的系统方法，称为协调者的POMDP。然而，由于其极其庞大的行动空间，这样的POMDP可能很难解决。因此，我们提出了一种新的多智能体随机控制问题的算法，称为协调者的启发式搜索值迭代（CHSVI），该算法将公共信息方法和基于点的POMDP算法相结合，用于大行动空间的问题。通过优化解决多个基准问题来演示该算法。",
+    "tldr": "本文提出了基于公共信息方法的新型多智能体控制算法，结合点处理POMDP算法，解决了行动空间庞大的问题。",
+    "en_tdlr": "This paper proposes a novel multi-agent control algorithm based on the common information approach, which combines point-based POMDP algorithms to address problems with large action spaces."
+}

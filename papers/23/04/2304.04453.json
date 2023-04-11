@@ -1,0 +1,11 @@
+{
+    "title": "A stochastic control perspective on term structure models with roll-over risk. (arXiv:2304.04453v1 [q-fin.PR])",
+    "abstract": "In this paper, we consider a generic interest rate market in the presence of roll-over risk, which generates spreads in spot/forward term rates. We do not require classical absence of arbitrage and rely instead on a minimal market viability assumption, which enables us to work in the context of the benchmark approach. In a Markovian setting, we extend the control theoretic approach of Gombani & Runggaldier (2013) and derive representations of spot/forward spreads as value functions of suitable stochastic optimal control problems, formulated under the real-world probability and with power-type objective functionals. We determine endogenously the funding-liquidity spread by relating it to the risk-sensitive optimization problem of a representative investor.",
+    "link": "http://arxiv.org/abs/2304.04453",
+    "context": "Title: A stochastic control perspective on term structure models with roll-over risk. (arXiv:2304.04453v1 [q-fin.PR])\nAbstract: In this paper, we consider a generic interest rate market in the presence of roll-over risk, which generates spreads in spot/forward term rates. We do not require classical absence of arbitrage and rely instead on a minimal market viability assumption, which enables us to work in the context of the benchmark approach. In a Markovian setting, we extend the control theoretic approach of Gombani & Runggaldier (2013) and derive representations of spot/forward spreads as value functions of suitable stochastic optimal control problems, formulated under the real-world probability and with power-type objective functionals. We determine endogenously the funding-liquidity spread by relating it to the risk-sensitive optimization problem of a representative investor.",
+    "path": "papers/23/04/2304.04453.json",
+    "total_tokens": 793,
+    "translated_title": "一种考虑到滚动风险的随机控制视角的期限结构模型",
+    "translated_abstract": "本文研究了存在滚动风险的利率市场，滚动风险生成了现货/远期期限利率差。我们不要求无套利条件，而是依靠市场生命力最小假设来工作，在基准方法的背景下工作。在马尔可夫设置下，我们扩展了Gombani＆Runggaldier（2013年）的控制理论方法，并将现货/远期价差的表示形式作为相应随机最优控制问题的价值函数导出，该问题在实际世界概率下以及具有功率类型的目标函数进行了规定。我们通过将其与代表性投资者的风险敏感优化问题相关联来内生确定资金流动性价差。",
+    "tldr": "本文为探索存在滚动风险的利率市场提供了一种随机控制视角的期限结构模型，并将现货/远期价差的表示形式作为相应随机最优控制问题的价值函数导出。"
+}

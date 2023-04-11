@@ -1,0 +1,12 @@
+{
+    "title": "Training Neural Networks for Execution on Approximate Hardware. (arXiv:2304.04125v1 [cs.LG])",
+    "abstract": "Approximate computing methods have shown great potential for deep learning. Due to the reduced hardware costs, these methods are especially suitable for inference tasks on battery-operated devices that are constrained by their power budget. However, approximate computing hasn't reached its full potential due to the lack of work on training methods. In this work, we discuss training methods for approximate hardware. We demonstrate how training needs to be specialized for approximate hardware, and propose methods to speed up the training process by up to 18X.",
+    "link": "http://arxiv.org/abs/2304.04125",
+    "context": "Title: Training Neural Networks for Execution on Approximate Hardware. (arXiv:2304.04125v1 [cs.LG])\nAbstract: Approximate computing methods have shown great potential for deep learning. Due to the reduced hardware costs, these methods are especially suitable for inference tasks on battery-operated devices that are constrained by their power budget. However, approximate computing hasn't reached its full potential due to the lack of work on training methods. In this work, we discuss training methods for approximate hardware. We demonstrate how training needs to be specialized for approximate hardware, and propose methods to speed up the training process by up to 18X.",
+    "path": "papers/23/04/2304.04125.json",
+    "total_tokens": 683,
+    "translated_title": "在近似硬件上训练神经网络",
+    "translated_abstract": "近似计算方法在深度学习领域展现出了巨大的潜力。由于硬件成本降低，这些方法特别适用于受到功率预算限制的需要进行推理任务的电池操作设备。然而，由于缺乏有关训练方法的研究，近似计算尚未充分发挥其潜力。在本研究中，我们讨论了近似硬件的训练方法，展示了如何为近似硬件优化训练过程，并提出了可加速训练过程多达18倍的方法。",
+    "tldr": "这篇论文介绍了如何针对近似硬件进行神经网络训练，加速了训练过程，为在需要进行推理任务的电池操作设备上实现高效深度学习提供了新的思路。",
+    "en_tdlr": "This paper discusses training neural networks for approximate hardware, proposes methods to speed up the training process by up to 18X, and provides new ideas for achieving efficient deep learning on battery-operated devices that are constrained by their power budget."
+}

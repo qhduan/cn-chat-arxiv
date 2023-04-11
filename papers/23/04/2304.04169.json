@@ -1,0 +1,12 @@
+{
+    "title": "SLowcal-SGD: Slow Query Points Improve Local-SGD for Stochastic Convex Optimization. (arXiv:2304.04169v1 [cs.LG])",
+    "abstract": "We consider distributed learning scenarios where M machines interact with a parameter server along several communication rounds in order to minimize a joint objective function. Focusing on the heterogeneous case, where different machines may draw samples from different data-distributions, we design the first local update method that provably benefits over the two most prominent distributed baselines: namely Minibatch-SGD and Local-SGD. Key to our approach is a slow querying technique that we customize to the distributed setting, which in turn enables a better mitigation of the bias caused by local updates.",
+    "link": "http://arxiv.org/abs/2304.04169",
+    "context": "Title: SLowcal-SGD: Slow Query Points Improve Local-SGD for Stochastic Convex Optimization. (arXiv:2304.04169v1 [cs.LG])\nAbstract: We consider distributed learning scenarios where M machines interact with a parameter server along several communication rounds in order to minimize a joint objective function. Focusing on the heterogeneous case, where different machines may draw samples from different data-distributions, we design the first local update method that provably benefits over the two most prominent distributed baselines: namely Minibatch-SGD and Local-SGD. Key to our approach is a slow querying technique that we customize to the distributed setting, which in turn enables a better mitigation of the bias caused by local updates.",
+    "path": "papers/23/04/2304.04169.json",
+    "total_tokens": 659,
+    "translated_title": "SLowcal-SGD：慢查询点提高了随机凸优化的Local-SGD算法（arXiv:2304.04169v1 [cs.LG]）",
+    "translated_abstract": "在分布式学习场景中，M台计算机与参数服务器交互，通过多个通信轮次来最小化联合目标函数。我们关注异构情况，即不同计算机可能从不同的数据分布中抽取样本，设计了第一种可以证明优于两个最突出的分布式基准线——Minibatch-SGD和Local-SGD的本地更新方法。我们方法的关键在于慢查询技术，我们将其定制给分布式设置使用，从而更好地减轻本地更新带来的偏差。",
+    "tldr": "本论文提出了一种利用慢查询点技术改进Local-SGD算法的方法，可以对抗异构情况下本地更新的偏差。",
+    "en_tdlr": "This paper proposes a method that utilizes slow query points to improve Local-SGD algorithm and mitigate the bias caused by local updates in the heterogeneous scenario."
+}

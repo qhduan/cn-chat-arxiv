@@ -1,0 +1,12 @@
+{
+    "title": "Recursive Preferences, Correlation Aversion, and the Temporal Resolution of Uncertainty. (arXiv:2304.04599v1 [econ.TH])",
+    "abstract": "Models of recursive utility are of central importance in many economic applications. This paper investigates a new behavioral feature exhibited by these models: aversion to risks that exhibit persistence (positive autocorrelation) through time, referred to as correlation aversion. I introduce a formal notion of such a property and provide a characterization based on risk attitudes, and show that correlation averse preferences admit a specific variational representation. I discuss how these findings imply that attitudes toward correlation are a crucial behavioral aspect driving the applications of recursive utility in fields such as asset pricing, climate policy, and optimal fiscal policy.",
+    "link": "http://arxiv.org/abs/2304.04599",
+    "context": "Title: Recursive Preferences, Correlation Aversion, and the Temporal Resolution of Uncertainty. (arXiv:2304.04599v1 [econ.TH])\nAbstract: Models of recursive utility are of central importance in many economic applications. This paper investigates a new behavioral feature exhibited by these models: aversion to risks that exhibit persistence (positive autocorrelation) through time, referred to as correlation aversion. I introduce a formal notion of such a property and provide a characterization based on risk attitudes, and show that correlation averse preferences admit a specific variational representation. I discuss how these findings imply that attitudes toward correlation are a crucial behavioral aspect driving the applications of recursive utility in fields such as asset pricing, climate policy, and optimal fiscal policy.",
+    "path": "papers/23/04/2304.04599.json",
+    "total_tokens": 725,
+    "translated_title": "递归偏好、相关厌恶和时间不确定性的解决方式",
+    "translated_abstract": "递归效用模型在许多经济应用程序中起着重要作用。本文研究了这些模型所表现的一种新的行为特征：对时间上呈现持续性（正自相关）风险的厌恶，称为相关厌恶。我引入了这种属性的形式概念，并提供了一个基于风险态度的特征，同时还表明相关厌恶的偏好具有特定的变分表示。我讨论了这些发现如何说明对相关性的态度是推动递归效用在资产定价、气候政策和最优财政政策等领域应用的关键行为因素。",
+    "tldr": "本文探讨了递归效用模型中的相关厌恶行为特征，提出了它们对资产定价、气候政策和最优财政政策等领域的应用意义。",
+    "en_tdlr": "This paper investigates the behavioral feature of correlation aversion in recursive utility models and its implications in applications such as asset pricing, climate policy, and optimal fiscal policy. Correlation averse preferences admit a specific variational representation."
+}

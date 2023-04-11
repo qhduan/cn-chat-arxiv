@@ -1,0 +1,12 @@
+{
+    "title": "Symmetric positive semi-definite Fourier estimator of instantaneous variance-covariance matrix. (arXiv:2304.04372v1 [stat.ME])",
+    "abstract": "In this paper we propose an estimator of spot covariance matrix which ensure symmetric positive semi-definite estimations. The proposed estimator relies on a suitable modification of the Fourier covariance estimator in Malliavin and Mancino (2009) and it is consistent for suitable choices of the weighting kernel. The accuracy and the ability of the estimator to produce positive semi-definite covariance matrices is evaluated with an extensive numerical study, in comparison with the competitors present in the literature. The results of the simulation study are confirmed under many scenarios, that consider the dimensionality of the problem, the asynchronicity of data and the presence of several specification of market microstructure noise.",
+    "link": "http://arxiv.org/abs/2304.04372",
+    "context": "Title: Symmetric positive semi-definite Fourier estimator of instantaneous variance-covariance matrix. (arXiv:2304.04372v1 [stat.ME])\nAbstract: In this paper we propose an estimator of spot covariance matrix which ensure symmetric positive semi-definite estimations. The proposed estimator relies on a suitable modification of the Fourier covariance estimator in Malliavin and Mancino (2009) and it is consistent for suitable choices of the weighting kernel. The accuracy and the ability of the estimator to produce positive semi-definite covariance matrices is evaluated with an extensive numerical study, in comparison with the competitors present in the literature. The results of the simulation study are confirmed under many scenarios, that consider the dimensionality of the problem, the asynchronicity of data and the presence of several specification of market microstructure noise.",
+    "path": "papers/23/04/2304.04372.json",
+    "total_tokens": 754,
+    "translated_title": "对瞬时方差-协方差矩阵的对称半正定傅里叶估计器",
+    "translated_abstract": "本文提出了一种估计现货协方差矩阵的方法，确保对称的半正定估计值。所提出的估计器依赖于对Malliavin和Mancino(2009)中傅里叶协方差估计器的适当修改，并在适当选择加权核的情况下保持一致性。通过与文献中的竞争方法进行比较，在广泛的数值研究中评估了估计器的准确性和产生半正定协方差矩阵的能力。在考虑问题的维度性、数据的不同步和市场微观结构噪声的多个规范下，模拟研究的结果得到了证实。",
+    "tldr": "本文提出了一种估计现货协方差矩阵的方法，确保对称的半正定估计值，并在数值研究中得到了验证。",
+    "en_tdlr": "This paper proposes an estimator of spot covariance matrix which ensures symmetric positive semi-definite estimations, and the accuracy and ability of the estimator to produce positive semi-definite covariance matrices is evaluated with an extensive numerical study."
+}

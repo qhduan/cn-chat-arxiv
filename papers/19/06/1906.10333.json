@@ -1,0 +1,12 @@
+{
+    "title": "To Infinity and Beyond: A General Framework for Scaling Economic Theories. (arXiv:1906.10333v5 [cs.GT] UPDATED)",
+    "abstract": "Many economic theory models incorporate finiteness assumptions that, while introduced for simplicity, play a real role in the analysis. We provide a principled framework for scaling results from such models by removing these finiteness assumptions. Our sufficient conditions are on the theorem statement only, and not on its proof. This results in short proofs, and even allows to use the same argument to scale similar theorems that were proven using distinctly different tools. We demonstrate the versatility of our approach via examples from both revealed-preference theory and matching theory.",
+    "link": "http://arxiv.org/abs/1906.10333",
+    "context": "Title: To Infinity and Beyond: A General Framework for Scaling Economic Theories. (arXiv:1906.10333v5 [cs.GT] UPDATED)\nAbstract: Many economic theory models incorporate finiteness assumptions that, while introduced for simplicity, play a real role in the analysis. We provide a principled framework for scaling results from such models by removing these finiteness assumptions. Our sufficient conditions are on the theorem statement only, and not on its proof. This results in short proofs, and even allows to use the same argument to scale similar theorems that were proven using distinctly different tools. We demonstrate the versatility of our approach via examples from both revealed-preference theory and matching theory.",
+    "path": "papers/19/06/1906.10333.json",
+    "total_tokens": 710,
+    "translated_title": "超越无限大：一个通用的经济理论扩展框架",
+    "translated_abstract": "许多经济学理论模型都包含有限性假设，虽然这些假设是出于简单性而引入的，但却在分析中发挥了实际作用。我们提供了一个有原则的框架来扩展这些模型的结果，通过去除这些有限性的假设。我们的充分条件仅适用于定理陈述方面，而不是证明。这导致了简短的证明，并且甚至允许使用相同的论证来扩展使用完全不同工具证明的类似定理。我们通过来自启示式理论和匹配理论的示例展示了我们方法的多用途性。",
+    "tldr": "该论文提供了一个通用的框架，通过去除经济学模型中的有限性假设来扩展其结果。该方法具有多用途性，可应用于启示式理论和匹配理论等领域。",
+    "en_tdlr": "This paper provides a general framework to scale the results of economic theory models by removing the finiteness assumptions, which offers versatility and can be applied in various fields such as revealed-preference theory and matching theory."
+}

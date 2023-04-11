@@ -1,0 +1,12 @@
+{
+    "title": "$\\mu^2$-SGD: Stable Stochastic Optimization via a Double Momentum Mechanism. (arXiv:2304.04172v1 [cs.LG])",
+    "abstract": "We consider stochastic convex optimization problems where the objective is an expectation over smooth functions. For this setting we suggest a novel gradient estimate that combines two recent mechanism that are related to notion of momentum. Then, we design an SGD-style algorithm as well as an accelerated version that make use of this new estimator, and demonstrate the robustness of these new approaches to the choice of the learning rate. Concretely, we show that these approaches obtain the optimal convergence rates for both noiseless and noisy case with the same choice of fixed learning rate. Moreover, for the noisy case we show that these approaches achieve the same optimal bound for a very wide range of learning rates.",
+    "link": "http://arxiv.org/abs/2304.04172",
+    "context": "Title: $\\mu^2$-SGD: Stable Stochastic Optimization via a Double Momentum Mechanism. (arXiv:2304.04172v1 [cs.LG])\nAbstract: We consider stochastic convex optimization problems where the objective is an expectation over smooth functions. For this setting we suggest a novel gradient estimate that combines two recent mechanism that are related to notion of momentum. Then, we design an SGD-style algorithm as well as an accelerated version that make use of this new estimator, and demonstrate the robustness of these new approaches to the choice of the learning rate. Concretely, we show that these approaches obtain the optimal convergence rates for both noiseless and noisy case with the same choice of fixed learning rate. Moreover, for the noisy case we show that these approaches achieve the same optimal bound for a very wide range of learning rates.",
+    "path": "papers/23/04/2304.04172.json",
+    "total_tokens": 797,
+    "translated_title": "$\\mu^2$-SGD: 通过双动量机制实现稳定的随机优化",
+    "translated_abstract": "我们考虑目标函数为平滑函数期望的随机凸优化问题。针对这种情况，我们建议一种新的梯度估计方法，结合了最近的两种与动量概念相关的机制。然后，我们设计了一种SGD样式的算法和一个加速版，利用这个新的估计器，并证明了这些新方法对学习率的选择具有鲁棒性。具体而言，我们表明，这些方法使用相同的固定学习率选择在无噪声和有噪声情况下的最优收敛速率。此外，对于有噪声的情况，我们表明这些方法在非常广泛的学习率范围内实现了相同的最优误差界。",
+    "tldr": "提出了一种新的梯度估计方法，结合了最近的两种与动量概念相关的机制，实现了稳定的随机优化，对学习率选择具有鲁棒性，在无噪声和有噪声情况下的收敛速率均为最优。",
+    "en_tdlr": "A new gradient estimation method is proposed, which combines two recent mechanisms related to momentum concept, to achieve stable stochastic optimization with robustness to the choice of learning rate, and optimal convergence rates for noiseless and noisy cases with a fixed learning rate."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Generating Adversarial Attacks in the Latent Space. (arXiv:2304.04386v1 [cs.LG])",
+    "abstract": "Adversarial attacks in the input (pixel) space typically incorporate noise margins such as $L_1$ or $L_{\\infty}$-norm to produce imperceptibly perturbed data that confound deep learning networks. Such noise margins confine the magnitude of permissible noise. In this work, we propose injecting adversarial perturbations in the latent (feature) space using a generative adversarial network, removing the need for margin-based priors. Experiments on MNIST, CIFAR10, Fashion-MNIST, CIFAR100 and Stanford Dogs datasets support the effectiveness of the proposed method in generating adversarial attacks in the latent space while ensuring a high degree of visual realism with respect to pixel-based adversarial attack methods.",
+    "link": "http://arxiv.org/abs/2304.04386",
+    "context": "Title: Generating Adversarial Attacks in the Latent Space. (arXiv:2304.04386v1 [cs.LG])\nAbstract: Adversarial attacks in the input (pixel) space typically incorporate noise margins such as $L_1$ or $L_{\\infty}$-norm to produce imperceptibly perturbed data that confound deep learning networks. Such noise margins confine the magnitude of permissible noise. In this work, we propose injecting adversarial perturbations in the latent (feature) space using a generative adversarial network, removing the need for margin-based priors. Experiments on MNIST, CIFAR10, Fashion-MNIST, CIFAR100 and Stanford Dogs datasets support the effectiveness of the proposed method in generating adversarial attacks in the latent space while ensuring a high degree of visual realism with respect to pixel-based adversarial attack methods.",
+    "path": "papers/23/04/2304.04386.json",
+    "total_tokens": 751,
+    "translated_title": "在潜空间中生成对抗攻击",
+    "translated_abstract": "在输入空间中注入噪音来生成对抗攻击通常需要$L_1$或$L_{\\infty}$范数等噪音界限。本文提出使用生成对抗网络在潜空间中注入对抗扰动，避免了基于界限的先验。在MNIST、CIFAR10、Fashion-MNIST、CIFAR100和Stanford Dogs数据集上的实验证明了该方法在生成潜空间中的对抗攻击时具有很高的视觉真实度和像素空间中基于对抗攻击的方法相比具有同等的有效性。",
+    "tldr": "该论文提出在潜空间中使用生成对抗网络注入对抗扰动来生成对抗攻击。实验证明该方法在生成潜空间中的对抗攻击时与像素空间中基于对抗攻击的方法相比具有同等的有效性，同时保持了高度的视觉真实度。",
+    "en_tdlr": "This paper proposes to generate adversarial attacks in the latent space by injecting adversarial perturbations using a generative adversarial network, which removes the need for margin-based priors. Experiments show that this method is as effective as pixel-based adversarial attack methods while ensuring high visual realism."
+}
