@@ -1,0 +1,12 @@
+{
+    "title": "Estimation of Vehicular Velocity based on Non-Intrusive stereo camera. (arXiv:2304.05298v1 [cs.CV])",
+    "abstract": "The paper presents a modular approach for the estimation of a leading vehicle's velocity based on a non-intrusive stereo camera where SiamMask is used for leading vehicle tracking, Kernel Density estimate (KDE) is used to smooth the distance prediction from a disparity map, and LightGBM is used for leading vehicle velocity estimation.  Our approach yields an RMSE of 0.416 which outperforms the baseline RMSE of 0.582 for the SUBARU Image Recognition Challenge",
+    "link": "http://arxiv.org/abs/2304.05298",
+    "context": "Title: Estimation of Vehicular Velocity based on Non-Intrusive stereo camera. (arXiv:2304.05298v1 [cs.CV])\nAbstract: The paper presents a modular approach for the estimation of a leading vehicle's velocity based on a non-intrusive stereo camera where SiamMask is used for leading vehicle tracking, Kernel Density estimate (KDE) is used to smooth the distance prediction from a disparity map, and LightGBM is used for leading vehicle velocity estimation.  Our approach yields an RMSE of 0.416 which outperforms the baseline RMSE of 0.582 for the SUBARU Image Recognition Challenge",
+    "path": "papers/23/04/2304.05298.json",
+    "total_tokens": 709,
+    "translated_title": "基于非侵入式立体相机的车辆速度估计",
+    "translated_abstract": "本文提出了一种基于非侵入式立体相机的领先车辆速度估计模块化方法，其中使用SiamMask进行领先车辆跟踪，采用核密度估计（KDE）平滑从视差图中预测的距离，使用LightGBM进行领先车辆速度估计。我们的方法得到了0.416的RMSE，优于由SUBARU图像识别挑战赛提供的0.582的基准RMSE。",
+    "tldr": "本文提出了一种基于非侵入式立体相机的车辆速度估计方法，使用SiamMask进行领先车辆跟踪，采用核密度估计（KDE）和LightGBM进行距离平滑和速度估计，优于SUBARU图像识别挑战赛的基准RMSE。",
+    "en_tdlr": "This paper presents an approach for estimating the velocity of a leading vehicle based on a non-intrusive stereo camera, using SiamMask for vehicle tracking, Kernel Density Estimate (KDE) and LightGBM for distance smoothing and velocity estimation. The proposed method outperforms the baseline RMSE of 0.582 provided by the SUBARU Image Recognition Challenge."
+}
