@@ -2,54 +2,126 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [On the state-space model of unawareness.](http://arxiv.org/abs/2304.04626) | 本文研究表明非平凡的无意识状态与知识的“必然性”性质相矛盾，修订后的“必然性”解决了经典的“Dekel-Lipman-Rustichini”问题，提出了一个能适用于无限状态空间的无意识标准状态空间模型。 |
-| [^2] | [Recursive Preferences, Correlation Aversion, and the Temporal Resolution of Uncertainty.](http://arxiv.org/abs/2304.04599) | 本文探讨了递归效用模型中的相关厌恶行为特征，提出了它们对资产定价、气候政策和最优财政政策等领域的应用意义。 |
-| [^3] | [A micro-founded comparison of fiscal policies: indirect and direct job creation.](http://arxiv.org/abs/2304.04506) | 本文提供了一个微观经济基础来支持政府直接雇用比政府购买商品更有利于消除失业，政府雇佣可以实现充分就业而不会引起价格上涨。 |
-| [^4] | [Who are the gatekeepers of economics? Geographic diversity, gender composition, and interlocking editorship of journal boards.](http://arxiv.org/abs/2304.04242) | 本研究分析了经济学期刊的编辑委员会成员的国家分布、所属机构和性别，发现经济学领域的学术出版环境仍然缺乏多样性和包容性。 |
-| [^5] | [Asymmetric networks, clientelism and their impacts: households' access to workfare employment in rural India.](http://arxiv.org/abs/2304.04236) | 本文研究了印度农村家庭获得公共就业机会的因素，发现非对称网络和客户主义关系会影响其获得就业机会，并提供了相应的理论模型支持。 |
-| [^6] | [Waiting for Fake News.](http://arxiv.org/abs/2304.04053) | 本文研究了以伪造新闻的形式操纵信息的情况下，当事人在搜索信息时可能受到的正面和规范扭曲，并提出了三种解决方案。 |
-| [^7] | [Complementarity in Demand-side Variables and Educational Participation.](http://arxiv.org/abs/2303.04647) | 本文研究了继承环境与预期教育回报之间的互补关系，揭示了印度社会中以种姓和性别定义的群体之间存在的教育参与不平等的根源。 |
-| [^8] | [Inference on Optimal Dynamic Policies via Softmax Approximation.](http://arxiv.org/abs/2303.04416) | 本文提出了一种简单的softmax逼近方法，可用于从离线数据中估计最优的动态治疗方案并对其进行有效推断。 |
-| [^9] | [Resolving the Conflict on Conduct Parameter Estimation in Homogeneous Goods Markets between Bresnahan (1982) and Perloff and Shen (2012).](http://arxiv.org/abs/2301.06665) | 本文解决了同质化商品市场中Bresnahan（1982）和Perloff和Shen（2012）之间的关于行为参数估计的冲突，通过在供应估计中适当增加需求转移和增加样本量，提高了估计的精确性。 |
-| [^10] | [The Simple Economics of Optimal Bundling.](http://arxiv.org/abs/2212.12623) | 本文研究了消费者在一个维度上的差异时最优捆绑的问题，并且证明了分层定价最优，并且提出了菜单的嵌套捆绑的最优方案。此外，本文提出了三个应用例子，其中前两个将最优捆绑和质量设计与价格弹性和成本结构联系起来，最后一个建立了在主体可以使用价格和非价格筛选工具时昂贵筛选的最优条件。 |
-| [^11] | [Identification of the Marginal Treatment Effect with Multivalued Treatments.](http://arxiv.org/abs/2209.11444) | 本文通过扩展Heckman等人的局部工具变量（LIV）方法来研究具有多元处理的边际处理效应（MTE）的识别。 |
-| [^12] | [Estimation and Inference for High Dimensional Factor Model with Regime Switching.](http://arxiv.org/abs/2205.12126) | 本文提出了一种用于高维因子模型在载荷的制度转换下的最大（准）似然估计方法。通过迭代计算制度概率和加权样本协方差矩阵的主成分，实现了模型参数的联合估计。值得注意的是，由于高维度，制度转换可以在转换点之后仅通过一个观察而一致地被识别。 |
-| [^13] | [Who Increases Emergency Department Use? New Insights from the Oregon Health Insurance Experiment.](http://arxiv.org/abs/2201.07072) | 用因果机器学习方法研究发现医疗补助对急诊利用率具有异质性影响，只有少数群体驱动了整体效应，强度边际效应是其重要驱动因素，适当确定优先群体将有效控制急诊利用率。 |
-| [^14] | [Infinite utility: counterparts and ultimate locations.](http://arxiv.org/abs/2109.01852) | 论文探讨了无穷伦理学中的位置问题，辩护了“时间上的人”是终极位置，可以避免不安定意义，严格排名广泛类的世界。 |
-| [^15] | [A Partial Order on Preference Profiles.](http://arxiv.org/abs/2108.08465) | 该论文提出了一个理论框架来比较偏好档案，并定义了偏好档案的偏序关系。根据该理论框架，一种个人主义形式的社会偏好可以成为最大化偏序关系下的极大元素。 |
-| [^16] | [To Infinity and Beyond: A General Framework for Scaling Economic Theories.](http://arxiv.org/abs/1906.10333) | 该论文提供了一个通用的框架，通过去除经济学模型中的有限性假设来扩展其结果。该方法具有多用途性，可应用于启示式理论和匹配理论等领域。 |
+| [^1] | [Mapping job complexity and skills into wages.](http://arxiv.org/abs/2304.05251) | 通过算法和网络工具，本研究探究了工作的技能等级、复杂度和薪酬之间的关系，并发现一致技能要求的工作平均工资较低。工资不仅仅反映工作的价值，还可能受其他工资设定动态的影响。 |
+| [^2] | [Eliciting Awareness.](http://arxiv.org/abs/2304.05142) | 探究决策者如何鼓励高意识专家揭示新奇情况并确保完全揭示的承诺水平；最优策略是采用近视最优化试验，即在任何决策点上，决策者都有动力揭示最具信息量的新奇情况。 |
+| [^3] | [Five guidelines to improve context-aware process selection: an Australian banking perspective.](http://arxiv.org/abs/2304.05033) | 本研究从澳大利亚银行业的视角出发，采用设计科学方法，提出了改善上下文感知流程选择的五个实用指南。 |
+| [^4] | [Contingent Fees in Order Flow Auctions.](http://arxiv.org/abs/2304.04981) | 本文研究拍卖中的有条件的费用，将其与预付费和两种费用的混合进行比较。 |
+| [^5] | [Regulatory Markets: The Future of AI Governance.](http://arxiv.org/abs/2304.04914) | 提出一种监管市场的概念，即政府要求受监管对象从私人监管机构购买监管服务，以克服过度依赖行业自律和立法机构缺乏专业知识的局限性，从而逐步实现人工智能的恰当监管。 |
+| [^6] | [Financial Time Series Forecasting using CNN and Transformer.](http://arxiv.org/abs/2304.04912) | 本文提出了结合使用CNN和Transformer来预测金融时间序列的涨跌幅。 |
+| [^7] | [The presence of White students and the emergence of Black-White within-school inequalities: two interaction-based mechanisms.](http://arxiv.org/abs/2304.04849) | 本文研究了不平等访问教育资源的实证模式和黑白人之间的进阶入学差距，发现白人学生的存在可以影响黑白人之间的进阶入学差距，并可能是这一宏观模式的另一个解释。 |
+| [^8] | [A micro-founded comparison of fiscal policies: indirect and direct job creation.](http://arxiv.org/abs/2304.04506) | 本文提供了一个微观经济基础来支持政府直接雇用比政府购买商品更有利于消除失业，政府雇佣可以实现充分就业而不会引起价格上涨。 |
+| [^9] | [Linking Representations with Multimodal Contrastive Learning.](http://arxiv.org/abs/2304.03464) | 本文提出了一种名为CLIPPINGS的多模态框架，用于记录链接。该框架利用深度学习和对比学习的方法，通过端到端训练对称的视觉和语言编码器，在度量空间中学习相近或不同类别的表示方法，用于多个应用场景，如构建全面的补充专利注册表和识别不同社交媒体平台上的个人。 |
+| [^10] | [Foundations of self-progressive choice theories.](http://arxiv.org/abs/2212.13449) | 该论文讨论了自我渐进选择理论及其与代数结构和超模函数的等价性，并将分析扩展到普遍自我渐进的选择理论。 |
+| [^11] | [Valuing Pharmaceutical Drug Innovations.](http://arxiv.org/abs/2212.07384) | 通过市场价值和研发成本，估计了制药药品创新的平均价值。成功药品的平均价值为 16.2 亿美元，临床试验前阶段的平均价值为 6430 万美元，成本为 5850 万美元。 |
+| [^12] | [Welfare ordering of voting weight allocations.](http://arxiv.org/abs/2208.05316) | 本文研究了委员会投票权的分配，并通过对社会福利的随机比较引入了一种偏序。当群体数量足够大时，这种偏序与余弦比例引起的总排序相一致，并且期望福利、平均多数亏空和反转概率等客观函数是渐近单调的。 |
+| [^13] | [Rawlsian Assignments.](http://arxiv.org/abs/2207.02930) | 本文针对转移不允许时的不可分割物品分配问题，引入了Rawlsian Assignments的概念，并且证明了存在一种独特的Rawlsian Assignments可以在保持有效和匿名性的同时满足平等主义的要求。 |
+| [^14] | [A Bias-Corrected CD Test for Error Cross-Sectional Dependence in Panel Data Models with Latent Factors.](http://arxiv.org/abs/2109.00408) | 本文提出了一种修正CD检验的新方法CD*，适用于纯潜在因素模型以及面板回归，具有渐近正态性，相比于现有方法具有更好的性能。 |
+| [^15] | [Marginal Treatment Effects with a Misclassified Treatment.](http://arxiv.org/abs/2105.00358) | 本文研究了二元治疗变量被误分类时边际处理效应（MTE）的识别。我们证明在标准假设下，MTE可被识别为给定真实倾向得分的观察结果条件期望的导数，我们的MTE界限比局部平均处理效应的现有界限更紧。 |
+| [^16] | [Functional Principal Component Analysis for Cointegrated Functional Time Series.](http://arxiv.org/abs/2011.12781) | 本研究提出了一种改进的FPCA，可用于分析协整的函数时间序列并提供更有效的估计，以及FPCA-based的测试，以检查协整函数时间序列的重要属性。 |
+| [^17] | [Spillovers of Program Benefits with Missing Network Links.](http://arxiv.org/abs/2009.09614) | 本文研究了在经验研究中经常被忽略的部分观测到的网络中的计划收益溢出问题，并提出了两种方法来识别处理和溢出效应，这对于减少缺失网络链接造成的偏差很有效。 |
+| [^18] | [Cointegration without Unit Roots.](http://arxiv.org/abs/2002.08092) | 提出了一种基于脉冲响应函数的协整特征，可以在无精确单位根的情况下保持长期均衡关系的确定性，提供了一个框架使得结构性冲击可以通过长期限制继续被确定。我们还导出了一致估计的协整向量方法，即使自回归根接近1时也仍然保持一致。 |
 
 # 详细
 
-[^1]: 无意识状态空间模型论析
+[^1]: 映射工作复杂性和技能等级与工资之间的关系
 
-    On the state-space model of unawareness. (arXiv:2304.04626v1 [econ.GN])
+    Mapping job complexity and skills into wages. (arXiv:2304.05251v1 [econ.GN])
 
-    [http://arxiv.org/abs/2304.04626](http://arxiv.org/abs/2304.04626)
+    [http://arxiv.org/abs/2304.05251](http://arxiv.org/abs/2304.05251)
 
-    本文研究表明非平凡的无意识状态与知识的“必然性”性质相矛盾，修订后的“必然性”解决了经典的“Dekel-Lipman-Rustichini”问题，提出了一个能适用于无限状态空间的无意识标准状态空间模型。
-
-    
-
-    本研究表明，承载非平凡无意识的智能体知识违反了“必然性”的标准属性，因此“必然性”不能用来反驳标准的状态空间模型。经修订后的“必然性”保留了非平凡无意识，并解决了经典的 Dekel-Lipman-Rustichini 结果。我们提出了一个通用的知识操作符，与无意识的标准状态空间模型一致，包括无限状态空间模型。
-
-    We show that the knowledge of an agent carrying non-trivial unawareness violates the standard property of 'necessitation', therefore necessitation cannot be used to refute the standard state-space model. A revised version of necessitation preserves non-trivial unawareness and solves the classical Dekel-Lipman-Rustichini result. We propose a generalised knowledge operator consistent with the standard state-space model of unawareness, including the model of infinite state-space.
-    
-[^2]: 递归偏好、相关厌恶和时间不确定性的解决方式
-
-    Recursive Preferences, Correlation Aversion, and the Temporal Resolution of Uncertainty. (arXiv:2304.04599v1 [econ.TH])
-
-    [http://arxiv.org/abs/2304.04599](http://arxiv.org/abs/2304.04599)
-
-    本文探讨了递归效用模型中的相关厌恶行为特征，提出了它们对资产定价、气候政策和最优财政政策等领域的应用意义。
+    通过算法和网络工具，本研究探究了工作的技能等级、复杂度和薪酬之间的关系，并发现一致技能要求的工作平均工资较低。工资不仅仅反映工作的价值，还可能受其他工资设定动态的影响。
 
     
 
-    递归效用模型在许多经济应用程序中起着重要作用。本文研究了这些模型所表现的一种新的行为特征：对时间上呈现持续性（正自相关）风险的厌恶，称为相关厌恶。我引入了这种属性的形式概念，并提供了一个基于风险态度的特征，同时还表明相关厌恶的偏好具有特定的变分表示。我讨论了这些发现如何说明对相关性的态度是推动递归效用在资产定价、气候政策和最优财政政策等领域应用的关键行为因素。
+    我们使用算法和基于网络的工具来构建和分析将工作与所需技能相连的二分网络。我们使用经过统计验证的网络来量化和代表工作与技能之间的相关性。使用适应度和复杂度算法，我们计算出了工作的基于技能的复杂度。该数量与工作的平均工资、抽象性和非例行性水平呈正相关。此外，具有一致技能要求的工作平均工资较低。我们发现，工资并不总是反映工作的内在价值，而可能是其他工资设定动态的结果，这些动态可能与其技能组合没有直接的关系。我们的结果为决策制定者、雇主和个人提供了有价值的信息，以更好地了解劳动力市场的动态并做出关于他们职业生涯的明智决策。
 
-    Models of recursive utility are of central importance in many economic applications. This paper investigates a new behavioral feature exhibited by these models: aversion to risks that exhibit persistence (positive autocorrelation) through time, referred to as correlation aversion. I introduce a formal notion of such a property and provide a characterization based on risk attitudes, and show that correlation averse preferences admit a specific variational representation. I discuss how these findings imply that attitudes toward correlation are a crucial behavioral aspect driving the applications of recursive utility in fields such as asset pricing, climate policy, and optimal fiscal policy.
+    We use algorithmic and network-based tools to build and analyze the bipartite network connecting jobs with the skills they require. We quantify and represent the relatedness between jobs and skills by using statistically validated networks. Using the fitness and complexity algorithm, we compute a skill-based complexity of jobs. This quantity is positively correlated with the average salary, abstraction, and non-routinarity level of jobs. Furthermore, coherent jobs - defined as the ones requiring closely related skills - have, on average, lower wages. We find that salaries may not always reflect the intrinsic value of a job, but rather other wage-setting dynamics that may not be directly related to its skill composition. Our results provide valuable information for policymakers, employers, and individuals to better understand the dynamics of the labor market and make informed decisions about their careers.
     
-[^3]: 财政政策的微观比较：间接和直接就业创造
+[^2]: 探究决策者如何鼓励比其更具意识的专家揭示新奇情况
+
+    Eliciting Awareness. (arXiv:2304.05142v1 [econ.TH])
+
+    [http://arxiv.org/abs/2304.05142](http://arxiv.org/abs/2304.05142)
+
+    探究决策者如何鼓励高意识专家揭示新奇情况并确保完全揭示的承诺水平；最优策略是采用近视最优化试验，即在任何决策点上，决策者都有动力揭示最具信息量的新奇情况。
+
+    
+
+    本文研究了一名决策者如何激励比他更具意识的专家揭示新奇情况。特别地，决策者将采取一个行动，决定与不确定性的解决一起，为两个玩家提供回报。本文确定了确保完全揭示所需的承诺水平：任何完全揭示的激励方案等效于一款动态游戏，在每一轮中，决策者提出一项行动计划，专家选择揭示一些新奇情况。当没有新奇情况被揭示并且专家选择实施哪个提议的计划时，游戏结束。也就是说，决策者必须能够承诺，一旦提出了行动计划，就不能撤回。然后，我考虑了强大策略的集合——这些策略可以在专家的任何可能意识类型的情况下最大化最坏情况下的结果，并证明它们的特征是一个关于近视最优化试验的原则；在任何给定的决策点上，决策者都有动力揭示可能情况。
+
+    This paper examines how a decision maker might incentive an expert, who is more aware than himself, to reveal novel contingencies. In particular, the decision maker will take an action that determines, along with the resolution of uncertainty, the payoffs to both players. I delineate the exact level of commitment needed to ensure full revelation: any fully revealing incentive scheme is equivalent to a dynamic game wherein each round the decision maker proposes a plan of action and the expert chooses to reveal some novel contingencies. The game ends when nothing novel is revealed and the expert chooses which of the proposed plans gets implemented. That is, the decision maker must be able to commit that once a plan of action is proposed, it cannot be taken off the table.  I then consider the set of robust strategies -- those strategies that maximize the worst case outcome across any possible awareness type of the expert -- and show they are characterized by a principle of myopic optimali
+    
+[^3]: 改善上下文感知流程选择的五个指南：澳大利亚银行业视角研究
+
+    Five guidelines to improve context-aware process selection: an Australian banking perspective. (arXiv:2304.05033v1 [econ.GN])
+
+    [http://arxiv.org/abs/2304.05033](http://arxiv.org/abs/2304.05033)
+
+    本研究从澳大利亚银行业的视角出发，采用设计科学方法，提出了改善上下文感知流程选择的五个实用指南。
+
+    
+
+    作为业务流程管理（BPM）生命周期的第一阶段，流程识别解决了确定需要优先改进哪些流程的问题。流程选择在这个阶段中起着至关重要的作用，但是这一步存在已知的问题。决策者经常依赖主观标准，而他们对选定的替代流程的了解常常不一致。这导致决策质量差，浪费资源。近年来，拒绝一刀切的BPM方法，转而采用更多上下文感知方法引起了重视。本研究考虑了上下文在流程选择中的作用。上下文是定性的、主观的、对决策制定偏见敏感和政治敏感的。我们采用了设计科学方法，并通过研究方法结合行业决策者的意见来评估流程输入不同配置对流程选择的影响。
+
+    As the first phase in the Business Process Management (BPM) lifecycle, process identification addresses the problem of identifying which processes to prioritize for improvement. Process selection plays a critical role in this phase, but it is a step with known pitfalls. Decision makers rely frequently on subjective criteria, and their knowledge of the alternative processes put forward for selection is often inconsistent. This leads to poor quality decision-making and wastes resources. In recent years, a rejection of a one-size-fits-all approach to BPM in favor of a more context-aware approach has gained significant academic attention. In this study, the role of context in the process selection step is considered. The context is qualitative, subjective, sensitive to decision-making bias and politically charged. We applied a design-science approach and engaged industry decision makers through a combination of research methods to assess how different configurations of process inputs influ
+    
+[^4]: 订单流拍卖中的报酬率
+
+    Contingent Fees in Order Flow Auctions. (arXiv:2304.04981v1 [econ.TH])
+
+    [http://arxiv.org/abs/2304.04981](http://arxiv.org/abs/2304.04981)
+
+    本文研究拍卖中的有条件的费用，将其与预付费和两种费用的混合进行比较。
+
+    
+
+    许多早期的订单流拍卖设计处理订单的付款是在它们在链上执行时而不是在拍卖中获胜时进行的。
+
+    Many early order flow auction designs handle the payment for orders when they execute on the chain rather than when they are won in the auction. Payments in these auctions only take place when the orders are executed, creating a free option for whoever wins the order. Bids in these auctions set the strike price of this option rather than the option premium. This paper develops a simple model of an order flow auction and compares contingent fees with upfront payments as well as mixtures of the two. Results suggest that auctions with a greater share of the payment contingent on execution have lower execution probability, lower revenue, and increased effective spreads in equilibrium. A Reputation system can act as a negative contingent fee, partially mitigating the downsides; however, unless the system is calibrated perfectly, some of the undesirable qualities of the contingent fees remain. Results suggest that designers of order flow auctions should avoid contingent fees whenever possibl
+    
+[^5]: 监管市场：人工智能治理的未来
+
+    Regulatory Markets: The Future of AI Governance. (arXiv:2304.04914v1 [cs.AI])
+
+    [http://arxiv.org/abs/2304.04914](http://arxiv.org/abs/2304.04914)
+
+    提出一种监管市场的概念，即政府要求受监管对象从私人监管机构购买监管服务，以克服过度依赖行业自律和立法机构缺乏专业知识的局限性，从而逐步实现人工智能的恰当监管。
+
+    
+
+    恰当地监管人工智能是一个日益紧迫的政策挑战。立法机构和监管机构缺乏翻译公众需求为法律要求所需的专业知识。过度依赖行业自律未能使AI系统的生产者和使用者对民主要求负责。提出了监管市场的概念，即政府要求受监管对象从私人监管机构购买监管服务。这种方法可以克服命令和控制监管和自我监管的局限性。监管市场可以使政府为AI监管建立政策优先级，同时依靠市场力量和行业研发努力来开创最能实现政策制定者声明目标的监管方法。
+
+    Appropriately regulating artificial intelligence is an increasingly urgent policy challenge. Legislatures and regulators lack the specialized knowledge required to best translate public demands into legal requirements. Overreliance on industry self-regulation fails to hold producers and users of AI systems accountable to democratic demands. Regulatory markets, in which governments require the targets of regulation to purchase regulatory services from a private regulator, are proposed. This approach to AI regulation could overcome the limitations of both command-and-control regulation and self-regulation. Regulatory market could enable governments to establish policy priorities for the regulation of AI, whilst relying on market forces and industry R&D efforts to pioneer the methods of regulation that best achieve policymakers' stated objectives.
+    
+[^6]: 使用CNN和Transformer进行金融时间序列预测
+
+    Financial Time Series Forecasting using CNN and Transformer. (arXiv:2304.04912v1 [cs.LG])
+
+    [http://arxiv.org/abs/2304.04912](http://arxiv.org/abs/2304.04912)
+
+    本文提出了结合使用CNN和Transformer来预测金融时间序列的涨跌幅。
+
+    
+
+    时间序列预测在各个领域的决策中都是重要的。其中，金融时间序列（如股票价格）的预测往往比较困难，因为很难对数据点之间的短期和长期时间依赖性建模。卷积神经网络（CNN）对于捕捉短期依赖关系的局部模式很擅长。然而，由于有限的感受野，CNN不能学习长期依赖性。另一方面，Transformer可以学习全局上下文和长期依赖关系。在本文中，我们提出了利用CNN和Transformer的优势来建模时间序列中的短期和长期依赖关系，并预测未来价格的涨跌幅。在实验中，我们比较了所提出的方法与常用的统计和深度学习方法在预测标普500成分股盘中盘股价格变化方面的成功应用。
+
+    Time series forecasting is important across various domains for decision-making. In particular, financial time series such as stock prices can be hard to predict as it is difficult to model short-term and long-term temporal dependencies between data points. Convolutional Neural Networks (CNN) are good at capturing local patterns for modeling short-term dependencies. However, CNNs cannot learn long-term dependencies due to the limited receptive field. Transformers on the other hand are capable of learning global context and long-term dependencies. In this paper, we propose to harness the power of CNNs and Transformers to model both short-term and long-term dependencies within a time series, and forecast if the price would go up, down or remain the same (flat) in the future. In our experiments, we demonstrated the success of the proposed method in comparison to commonly adopted statistical and deep learning methods on forecasting intraday stock price change of S&P 500 constituents.
+    
+[^7]: 白人学生的存在与黑白人内校不平等的出现：两个基于互动的机制
+
+    The presence of White students and the emergence of Black-White within-school inequalities: two interaction-based mechanisms. (arXiv:2304.04849v1 [physics.soc-ph])
+
+    [http://arxiv.org/abs/2304.04849](http://arxiv.org/abs/2304.04849)
+
+    本文研究了不平等访问教育资源的实证模式和黑白人之间的进阶入学差距，发现白人学生的存在可以影响黑白人之间的进阶入学差距，并可能是这一宏观模式的另一个解释。
+
+    
+
+    本文探讨了教育社会学中一个众所周知的实证模式的机制解释，即黑白人在进阶课程等学校资源获取上的不平等在种族多样和以白人为主的学校中最为明显。通过一个经验性的校准和验证代理模型，本研究探讨了两种定性决策机制的动态，显示(1)我们有理由相信白人学生的存在对黑白人的进阶课程招生差异的出现有影响；(2)这种影响可能代表了有关宏观模式的另一个可能的解释。结果有助于目前有关内校不平等的学术研究，为政策战略提供指导，以提高黑人学生在种族交融的环境中的教育体验。
+
+    This article investigates mechanism-based explanations for a well-known empirical pattern in sociology of education, namely, that Black-White unequal access to school resources -- defined as advanced coursework -- is the highest in racially diverse and majority-White schools. Through an empirically calibrated and validated agent-based model, this study explores the dynamics of two qualitatively informed mechanisms, showing (1) that we have reason to believe that the presence of White students in school can influence the emergence of Black-White advanced enrollment disparities and (2) that such influence can represent another possible explanation for the macro-level pattern of interest. Results contribute to current scholarly accounts of within-school inequalities, shedding light into policy strategies to improve the educational experiences of Black students in racially integrated settings.
+    
+[^8]: 财政政策的微观比较：间接和直接就业创造
 
     A micro-founded comparison of fiscal policies: indirect and direct job creation. (arXiv:2304.04506v1 [econ.TH])
 
@@ -63,186 +135,144 @@
 
     This paper provides a micro-economic foundation for argument that direct employment by government is more desirable than government purchase of private goods to eliminate unemployment. A general equilibrium model with monopolistic competition is devised, and effects of policy parameters (government purchase, government employment, and tax rate) to macroeconomic variables (consumption, price, and profit) are investigated. It is shown that 1) the government purchase is inflationary in the sense that additional effective demand by government not only increases private employment but also raises prices; 2) the government employment can achieve full employment without causing a rise in prices.
     
-[^4]: 经济学的门户是谁？地理多样性、性别比例和杂志编辑委员会的交叉指挥。
+[^9]: 用多模态对比学习连接表示
 
-    Who are the gatekeepers of economics? Geographic diversity, gender composition, and interlocking editorship of journal boards. (arXiv:2304.04242v1 [econ.GN])
+    Linking Representations with Multimodal Contrastive Learning. (arXiv:2304.03464v1 [cs.CV])
 
-    [http://arxiv.org/abs/2304.04242](http://arxiv.org/abs/2304.04242)
+    [http://arxiv.org/abs/2304.03464](http://arxiv.org/abs/2304.03464)
 
-    本研究分析了经济学期刊的编辑委员会成员的国家分布、所属机构和性别，发现经济学领域的学术出版环境仍然缺乏多样性和包容性。
-
-    
-
-    编辑委员会成员在科学门户的角色非常重要，本研究分析了经济学期刊的编辑委员会成员的国家分布、所属机构和性别。同时，它还研究了由同一人在多个期刊编辑委员会任职所产生的交叉指挥网络。分析基于一个独特的数据库，包含了2019年在EconLit数据库中具有活跃编辑委员会的所有1,516个期刊。对于每个期刊，我们手动收集了委员会成员的姓名和所属机构，得到了一个包含来自142个国家的6,000多个机构的44,000多个成员的数据库。这些数据使得我们能够在前所未有的大规模上研究当代经济学的门户现象。结果突出了有关编辑门户的一些共同问题，得出的结论是在经济学领域，学术出版环境仍然远未达到足够多样化和包容性的水平。
-
-    Members of editorial boards play the role of gatekeepers of science because. This paper analyses the national distribution of editorial boards members of economics journal, their affiliation, and their gender. It studies also the interlocking editorship network generated by the presence of a same person on the editorial board of more than one journal. The analysis is based on a unique database comprising all the 1,516 journals indexed in the database EconLit with an active editorial board in 2019. For each journal, we manually collected the names of the board members along with their affiliation, obtaining a database containing more than 44,000 members from more than 6,000 institutions and 142 countries. These data allow to investigate the phenomenon of gatekeeping in contemporary economics on an unprecedented large scale. The obtained results highlight some common issues concerning the editorial gatekeeping, leading to the conclusion that in Economics the academic publishing environme
-    
-[^5]: 非对称网络、客户主义及其影响：印度农村家庭获取公共就业岗位的途径。
-
-    Asymmetric networks, clientelism and their impacts: households' access to workfare employment in rural India. (arXiv:2304.04236v1 [econ.GN])
-
-    [http://arxiv.org/abs/2304.04236](http://arxiv.org/abs/2304.04236)
-
-    本文研究了印度农村家庭获得公共就业机会的因素，发现非对称网络和客户主义关系会影响其获得就业机会，并提供了相应的理论模型支持。
+    本文提出了一种名为CLIPPINGS的多模态框架，用于记录链接。该框架利用深度学习和对比学习的方法，通过端到端训练对称的视觉和语言编码器，在度量空间中学习相近或不同类别的表示方法，用于多个应用场景，如构建全面的补充专利注册表和识别不同社交媒体平台上的个人。
 
     
 
-    本文探讨了两个相互关联的问题。首先，我们使用原始数据，研究了建立在多个生活领域丰富关系信息基础上的非对称网络对印度农村地区获得公共就业机会的影响。我们发现，与相互关系相比，单向关系以及这种单向关系的集中可以提高农村家庭获得公共就业机会的机会。进一步深入的探究提供证据表明，家长-客户关系是决定农村家庭获得这种就业机会的因素。作为我们实证研究的补充，我们构建并分析了一个支持我们发现的博弈理论模型。
+    许多应用需要将包含在各种文档数据集中的实例分组成类。最广泛使用的方法不使用深度学习，也不利用文档固有的多模态性质。值得注意的是，记录链接通常被概念化为字符串匹配问题。本研究开发了 CLIPPINGS，一种用于记录链接的多模态框架。CLIPPINGS 采用端到端训练对称的视觉和语言双编码器，通过对比语言-图像预训练进行对齐，学习一个度量空间，其中给定实例的汇总图像-文本表示靠近同一类中的表示，并远离不同类中的表示。在推理时，可以通过从离线示例嵌入索引中检索它们最近的邻居或聚类它们的表示来链接实例。本研究研究了两个具有挑战性的应用：通过将专利与其对应的监管文件链接来构建全面的补充专利注册表，以及在不同的社交媒体平台上识别个人。
 
-    In this paper we explore two intertwined issues. First, using primary data we examine the impact of asymmetric networks, built on rich relational information on several spheres of living, on access to workfare employment in rural India. We find that unidirectional relations, as opposed to reciprocal relations, and the concentration of such unidirectional relations increase access to workfare jobs. Further in-depth exploration provides evidence that patron-client relations are responsible for this differential access to such employment for rural households. Complementary to our empirical exercises, we construct and analyse a game-theoretical model supporting our findings.
+    Many applications require grouping instances contained in diverse document datasets into classes. Most widely used methods do not employ deep learning and do not exploit the inherently multimodal nature of documents. Notably, record linkage is typically conceptualized as a string-matching problem. This study develops CLIPPINGS, (Contrastively Linking Pooled Pre-trained Embeddings), a multimodal framework for record linkage. CLIPPINGS employs end-to-end training of symmetric vision and language bi-encoders, aligned through contrastive language-image pre-training, to learn a metric space where the pooled image-text representation for a given instance is close to representations in the same class and distant from representations in different classes. At inference time, instances can be linked by retrieving their nearest neighbor from an offline exemplar embedding index or by clustering their representations. The study examines two challenging applications: constructing comprehensive suppl
     
-[^6]: 等待虚假新闻
+[^10]: 自我渐进选择理论的基础
 
-    Waiting for Fake News. (arXiv:2304.04053v1 [econ.TH])
+    Foundations of self-progressive choice theories. (arXiv:2212.13449v4 [econ.TH] UPDATED)
 
-    [http://arxiv.org/abs/2304.04053](http://arxiv.org/abs/2304.04053)
+    [http://arxiv.org/abs/2212.13449](http://arxiv.org/abs/2212.13449)
 
-    本文研究了以伪造新闻的形式操纵信息的情况下，当事人在搜索信息时可能受到的正面和规范扭曲，并提出了三种解决方案。
-
-    
-
-    本文研究了一种信息获取的动态模型，其中信息可能被秘密操纵。当事人必须在安全行动和有不确定结果的风险行动之间进行选择，偏向于在先验信念下选择安全行动。其可以延迟决策，以获取揭示风险行动结果的额外新闻，但不知道这样的新闻什么时候到来。一个不知情但与代理人偏好不一致的\aaa{}可能有能力生成一个假的新闻到达时间，这与真实的到达时间无法区分，从而扭曲了新闻的信息内容和当事人的搜索。分析了这种操纵所导致的信息搜索中的正面和规范扭曲，并考虑了三种增加当事人收益的解决方案：承诺进行天真的搜索、转移代理权以及委托一个有偏见的中介人代理人的利益。
-
-    This paper studies a dynamic model of information acquisition, in which information might be secretly manipulated. A principal must choose between a safe action with known payoff and a risky action with uncertain payoff, favoring the safe action under the prior belief. She may delay her decision to acquire additional news that reveals the risky action's payoff, without knowing exactly when such news will arrive. An uninformed \aaa{} with a misaligned preference may have the capability to generate a false arrival of news, which is indistinguishable from a real one, distorting the information content of news and the principal's search. The analysis characterizes the positive and normative distortions in the search for news arising from such manipulation, and it considers three remedies that increase the principal's payoff: a commitment to naive search, transfer of authority to the agent, and delegation to an intermediary who is biased in the agent's favor.
-    
-[^7]: 需求侧变量与教育参与中的互补性
-
-    Complementarity in Demand-side Variables and Educational Participation. (arXiv:2303.04647v2 [econ.TH] UPDATED)
-
-    [http://arxiv.org/abs/2303.04647](http://arxiv.org/abs/2303.04647)
-
-    本文研究了继承环境与预期教育回报之间的互补关系，揭示了印度社会中以种姓和性别定义的群体之间存在的教育参与不平等的根源。
+    该论文讨论了自我渐进选择理论及其与代数结构和超模函数的等价性，并将分析扩展到普遍自我渐进的选择理论。
 
     
 
-    教育参与的决定取决于个体继承的环境，以及她所期望的教育回报。如果任何一个社会经济劣势群体中的个人继承了以家庭背景衡量的不良环境，那么她的能力集限制了，拥有的选择最佳方案的自由也较少，从教育参与中获得的潜在回报也更少。因此，可以观察到继承环境与预期教育回报之间具有互补关系。本文基于理论逻辑和实证调查来研究这种互补性，从而揭示了印度社会中以种姓和性别定义的群体之间存在的教育参与不平等的根源。
+    考虑一个由许多代理人组成的群体，他们的选择行为可以根据给定的原始排序部分进行比较。在该群体中可接受的选择函数集合确定了一个选择理论。如果与理论一致的任何集体选择行为都可以表示为可比较的可接受选择函数上的概率分布，则该选择理论是自我渐进的。 我们证明了自我渐进选择理论和（i）称为格的众所周知的代数结构；（ii）特定领域内的超模函数的最大化者之间的等价性。我们将分析扩展到普遍自我渐进的选择理论，这些选择理论独立于原始排序给出了唯一的有序代表。
 
-    Decision to participate in education depends on the circumstances individual inherits and on the returns to education she expects as well. If one person from any socio-economically disadvantaged social group inherits poor circumstances measured in terms of family background, then she is having poor opportunities vis-\`a-vis her capability set becomes confined. Accordingly, her freedom to choose the best alternative from many is also less, and she fails to expect the potential returns from educational participation. Consequently, a complementary relationship between the circumstances one inherits and the returns to education she expects can be observed. This paper is an attempt to look at this complementarity on the basis of theoretical logic and empirical investigation, which enables us to unearth the origin of inter-group disparity in educational participation, as is existed across the groups defined by taking caste and gender together in Indian society. Furthermore, in the second pie
+    Consider a population of agents whose choice behaviors are partially comparable according to given primitive orderings. The set of choice functions admissible in the population specifies a choice theory. A choice theory is self-progressive if any aggregate choice behavior consistent with the theory is uniquely representable as a probability distribution over admissible choice functions that are comparable. We establish an equivalence between self-progressive choice theories and (i) well-known algebraic structures called lattices; (ii) the maximizers of supermodular functions over a specific domain of choice functions. We extend our analysis to universally self-progressive choice theories which render unique orderly representations independent of primitive orderings.
     
-[^8]: 通过Softmax逼近实现动态最优策略的推断
+[^11]: 评估制药药品创新价值
 
-    Inference on Optimal Dynamic Policies via Softmax Approximation. (arXiv:2303.04416v2 [econ.EM] UPDATED)
+    Valuing Pharmaceutical Drug Innovations. (arXiv:2212.07384v2 [econ.GN] UPDATED)
 
-    [http://arxiv.org/abs/2303.04416](http://arxiv.org/abs/2303.04416)
+    [http://arxiv.org/abs/2212.07384](http://arxiv.org/abs/2212.07384)
 
-    本文提出了一种简单的softmax逼近方法，可用于从离线数据中估计最优的动态治疗方案并对其进行有效推断。
-
-    
-
-    从离线数据中估计最优的动态策略是动态决策制定中的一个基本问题。在因果推断的背景下，该问题被称为估计最优的动态治疗方案。即使存在大量的估计方法，构建置信区间来估计最优策略的价值及其相关的结构参数本质上更加困难，因为它涉及到未知量的非线性和非可微函数。以前的研究采用了亚样本方法，但可能会降低估计的质量。我们证明，对于一个适当增长的温度参数，最优治疗方案的简单softmax逼近可以实现对真正最优方案的有效推断。我们将我们的结果用于两期的最优动态方案，并将该方法直接推广到有限的时间段情况。我们的工作结合了半参数方法和机器学习技术。
-
-    Estimating optimal dynamic policies from offline data is a fundamental problem in dynamic decision making. In the context of causal inference, the problem is known as estimating the optimal dynamic treatment regime. Even though there exists a plethora of methods for estimation, constructing confidence intervals for the value of the optimal regime and structural parameters associated with it is inherently harder, as it involves non-linear and non-differentiable functionals of un-known quantities that need to be estimated. Prior work resorted to sub-sample approaches that can deteriorate the quality of the estimate. We show that a simple soft-max approximation to the optimal treatment regime, for an appropriately fast growing temperature parameter, can achieve valid inference on the truly optimal regime. We illustrate our result for a two-period optimal dynamic regime, though our approach should directly extend to the finite horizon case. Our work combines techniques from semi-parametric
-    
-[^9]: 在同质化商品市场中解决Bresnahan（1982）和Perloff和Shen（2012）之间关于行为参数估计的冲突
-
-    Resolving the Conflict on Conduct Parameter Estimation in Homogeneous Goods Markets between Bresnahan (1982) and Perloff and Shen (2012). (arXiv:2301.06665v4 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2301.06665](http://arxiv.org/abs/2301.06665)
-
-    本文解决了同质化商品市场中Bresnahan（1982）和Perloff和Shen（2012）之间的关于行为参数估计的冲突，通过在供应估计中适当增加需求转移和增加样本量，提高了估计的精确性。
+    通过市场价值和研发成本，估计了制药药品创新的平均价值。成功药品的平均价值为 16.2 亿美元，临床试验前阶段的平均价值为 6430 万美元，成本为 5850 万美元。
 
     
 
-    我们重新审视了同质化商品市场中的行为参数估计，以解决Bresnahan（1982）和Perloff和Shen（2012）在行为参数估计的识别和精确性方面存在的冲突。我们指出Perloff和Shen（2012）的证明是不正确的，其模拟设置也不合法。我们的模拟结果表明，在适当增加需求转移和增加样本量的情况下，估计变得精确。因此，我们支持Bresnahan（1982）的结论。
+    我们通过估计药品市场价值和研发成本来衡量制药药品创新的价值。我们依靠市场对药品研发公告的反应来确定价值和成本。利用公司公告数据和日收益率，我们估计成功药品的平均价值为16.2亿美元。平均而言，发现阶段的药品评估为6430万美元，成本为5850万美元。三个临床试验阶段的平均成本分别为600万美元、3000万美元和4100万美元。我们还研究了将这些估计应用于支持药品研发的政策的可能性。
 
-    We revisit conduct parameter estimation in homogeneous goods markets to resolve the conflict between Bresnahan (1982) and Perloff and Shen (2012) regarding the identification and the accuracy of conduct parameter estimation. We point out that the proof of Perloff and Shen (2012) is incorrect and its simulation setting is not valid. Our simulation shows that the estimation becomes accurate when properly adding demand shifters in the supply estimation and increasing the sample size. Therefore, we support Bresnahan (1982).
+    We measure the $\textit{value of pharmaceutical drug innovations}$ by estimating the market values of drugs and their development costs. We rely on market responses to drug development announcements to identify the values and costs. Using data on announcements by firms and their daily stock returns, we estimate the average value of successful drugs at \$1.62 billion. At the discovery stage, on average, drugs are valued at \$64.3 million and cost \$58.5 million. The average costs of the three phases of clinical trials are \$0.6, \$30, and \$41 million, respectively. We also investigate applying these estimates to policies supporting drug development.
     
-[^10]: 最优捆绑的简单经济学
+[^12]: 投票权分配的福利排序
 
-    The Simple Economics of Optimal Bundling. (arXiv:2212.12623v2 [econ.TH] UPDATED)
+    Welfare ordering of voting weight allocations. (arXiv:2208.05316v2 [econ.TH] UPDATED)
 
-    [http://arxiv.org/abs/2212.12623](http://arxiv.org/abs/2212.12623)
+    [http://arxiv.org/abs/2208.05316](http://arxiv.org/abs/2208.05316)
 
-    本文研究了消费者在一个维度上的差异时最优捆绑的问题，并且证明了分层定价最优，并且提出了菜单的嵌套捆绑的最优方案。此外，本文提出了三个应用例子，其中前两个将最优捆绑和质量设计与价格弹性和成本结构联系起来，最后一个建立了在主体可以使用价格和非价格筛选工具时昂贵筛选的最优条件。
-
-    
-
-    我们研究了消费者在一个维度上的差异时的最优捆绑。我们引入了捆绑集合的偏序关系，其中包括(i) 集合包含关系和(ii) 单独销售时的销售量（定价最优）。我们证明，如果在这个偏序关系下没有优于其他捆绑集合，那么分层定价是最优的。我们刻画了哪种分层菜单是最优的:如果菜单中较小的捆绑比菜单中较大的捆绑销售更多（更少），则出售特定菜单的嵌套捆绑是最优的。我们提出了三个应用例子:前两个将最优捆绑和质量设计与价格弹性和成本结构联系起来; 最后一个建立了一个必要和充分条件，表明在主体可以使用价格和非价格筛选工具时，昂贵的筛选是最优的。
-
-    We study optimal bundling when consumers differ in one dimension. We introduce a partial order on the set of bundles defined by (i) set inclusion and (ii) sales volumes (if sold alone and priced optimally). We show that if the undominated bundles with respect to this partial order are nested, then nested bundling (tiered pricing) is optimal. We characterize which nested menu is optimal: Selling a given menu of nested bundles is optimal if a smaller bundle in (out of) the menu sells more (less) than a bigger bundle in the menu. We present three applications of these insights: the first two connect optimal bundling and quality design to price elasticities and cost structures; the last one establishes a necessary and sufficient condition for costly screening to be optimal when a principal can use both price and nonprice screening instruments.
-    
-[^11]: 用多元处理方法识别边际处理效应
-
-    Identification of the Marginal Treatment Effect with Multivalued Treatments. (arXiv:2209.11444v2 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2209.11444](http://arxiv.org/abs/2209.11444)
-
-    本文通过扩展Heckman等人的局部工具变量（LIV）方法来研究具有多元处理的边际处理效应（MTE）的识别。
+    本文研究了委员会投票权的分配，并通过对社会福利的随机比较引入了一种偏序。当群体数量足够大时，这种偏序与余弦比例引起的总排序相一致，并且期望福利、平均多数亏空和反转概率等客观函数是渐近单调的。
 
     
 
-    本文通过扩展Heckman和Vytlacil(1999)的局部工具变量（LIV）方法来研究具有多元处理的边际处理效应（MTE）的识别。在上述方法的选择机制下，我们建立了改进的模型并确定了充分条件，可以识别MTE。
+    本文研究了代表不同规模群体的委员会中投票权的分配。我们通过社会福利的随机比较引入了一种权重分配的偏序。我们表明，当群体数量足够大时，这种排序渐近地与权重与群体规模之间的余弦比例引起的总排序相一致。一个推论是，在余弦比例中，包括预期福利、平均多数亏空和反转概率在内的一类期望形式客观函数是渐近单调的。
 
-    Heckman et al. (2008) examine the identification of the marginal treatment effect (MTE) with multivalued treatments by extending the local instrumental variable (LIV) approach of Heckman and Vytlacil (1999). Lee and Salani\'e (2018) study the identification of conditional expectations given unobserved heterogeneity; in Section 5.2 of their paper, they analyze the identification of MTE under the same selection mechanism as in Heckman et al. (2008). We note that the construction of their model in Section 5.2 in Lee and Salani\'e (2018) is incomplete, and we establish sufficient conditions for the identification of MTE with an improved model. While we reduce the unordered multiple-choice model to the binary treatment setting as in Heckman et al. (2008), we can identify the MTE defined as a natural extension of the MTE using the binary treatment defined in Heckman and Vytlacil (2005). Further, our results can help identify other parameters such as the marginal distribution of potential out
+    This paper studies the allocation of voting weights in a committee representing groups of different sizes. We introduce a partial ordering of weight allocations based on stochastic comparison of social welfare. We show that when the number of groups is sufficiently large, this ordering asymptotically coincides with the total ordering induced by the cosine proportionality between the weights and the group sizes. A corollary is that a class of expectation-form objective functions, including expected welfare, the mean majority deficit and the probability of inversions, are asymptotically monotone in the cosine proportionality.
     
-[^12]: 高维因子模型在制度转换下的估计和推断
+[^13]: Rawlsian Assignments（论文编号：arXiv:2207.02930v2 [econ.TH]，已更新）
 
-    Estimation and Inference for High Dimensional Factor Model with Regime Switching. (arXiv:2205.12126v2 [econ.EM] UPDATED)
+    Rawlsian Assignments. (arXiv:2207.02930v2 [econ.TH] UPDATED)
 
-    [http://arxiv.org/abs/2205.12126](http://arxiv.org/abs/2205.12126)
+    [http://arxiv.org/abs/2207.02930](http://arxiv.org/abs/2207.02930)
 
-    本文提出了一种用于高维因子模型在载荷的制度转换下的最大（准）似然估计方法。通过迭代计算制度概率和加权样本协方差矩阵的主成分，实现了模型参数的联合估计。值得注意的是，由于高维度，制度转换可以在转换点之后仅通过一个观察而一致地被识别。
-
-    
-
-    本文提出了一种用于高维因子模型在载荷的制度转换下的最大（准）似然估计方法。在当前情境下，EM（期望最大化）算法通过迭代计算制度概率和加权样本协方差矩阵的主成分来联合估计模型参数。当考虑制度动态时，使用递归算法计算平滑制度概率。在弱横向和时间相关性以及异方差性下，建立了估计载荷和估计因子的一致性、收敛速率和极限分布。值得注意的是，由于高维度，制度转换可以在转换点之后仅通过一个观察而一致地被识别。仿真结果显示出所提方法的良好性能。一份针对FRED-MD数据集的应用说明了所提方法的潜力。
-
-    This paper proposes maximum (quasi)likelihood estimation for high dimensional factor models with regime switching in the loadings. The model parameters are estimated jointly by the EM (expectation maximization) algorithm, which in the current context only requires iteratively calculating regime probabilities and principal components of the weighted sample covariance matrix. When regime dynamics are taken into account, smoothed regime probabilities are calculated using a recursive algorithm. Consistency, convergence rates and limit distributions of the estimated loadings and the estimated factors are established under weak cross-sectional and temporal dependence as well as heteroscedasticity. It is worth noting that due to high dimension, regime switching can be identified consistently after the switching point with only one observation. Simulation results show good performance of the proposed method. An application to the FRED-MD dataset illustrates the potential of the proposed method
-    
-[^13]: 《谁增加了紧急诊所的使用率？来自俄勒冈医疗保险实验的新见解》
-
-    Who Increases Emergency Department Use? New Insights from the Oregon Health Insurance Experiment. (arXiv:2201.07072v4 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2201.07072](http://arxiv.org/abs/2201.07072)
-
-    用因果机器学习方法研究发现医疗补助对急诊利用率具有异质性影响，只有少数群体驱动了整体效应，强度边际效应是其重要驱动因素，适当确定优先群体将有效控制急诊利用率。
+    本文针对转移不允许时的不可分割物品分配问题，引入了Rawlsian Assignments的概念，并且证明了存在一种独特的Rawlsian Assignments可以在保持有效和匿名性的同时满足平等主义的要求。
 
     
 
-    我们利用因果机器学习方法提供了一项新见解，针对医疗保险实验中的一个主要结果：医疗补助增加了紧急诊所的使用率。我们发现医疗保险对紧急诊所使用率的影响存在有意义的异质性。个性化的治疗效应分布包括了一系列正负值，表明平均效应掩盖了相当大的异质性。一个极小的群体（约14%的参与者）在治疗效应分布的右尾驱动了整体效应。我们根据人口统计学和以往的利用情况确定了具有经济重要性的增加急诊使用的优先群体。强度边际效应是急诊利用率增加的重要驱动因素。
+    本文研究了当转移不允许时如何分配不可分割的物品给个人。以前的文献主要关注效率（从前后两个角度）以及个体公平分配。因此，平等主义的问题常常被忽视。本文受住房合作社中公寓的分配所启发，家庭希望分配的平等性成为第一要求。特别是，他们想避免分配时有的家庭得到了自己最喜欢的公寓，而其他家庭则拥有极低的选择权。基于Rawls的公平理念，我们引入了Rawlsian Assignments的概念。我们证明，总是存在一种独特的Rawlsian Assignments，它是有效的并满足匿名性。我们用来自住房合作社的偏好数据来说明我们的分析。我们的结果表明，从平等主义的角度来看，Rawlsian Assignments可以显著改善概率效果。
 
-    We provide new insights regarding the headline result that Medicaid increased emergency department (ED) use from the Oregon experiment. We find meaningful heterogeneous impacts of Medicaid on ED use using causal machine learning methods. The individualized treatment effect distribution includes a wide range of negative and positive values, suggesting the average effect masks substantial heterogeneity. A small group-about 14% of participants-in the right tail of the distribution drives the overall effect. We identify priority groups with economically significant increases in ED usage based on demographics and previous utilization. Intensive margin effects are an important driver of increases in ED utilization.
+    We study the assignment of indivisible objects to individuals when transfers are not allowed. Previous literature has mainly focused on efficiency (from ex-ante and ex-post perspectives), and individually fair assignments. Consequently, egalitarian concerns have been overlooked. We are inspired by the assignment of apartments in housing cooperatives where families regard the egalitarianism of the assignments as a first-order requirement. In particular, they want to avoid assignments where some families get their most preferred apartment, while others get options ranked very low in their preferences. Based on Rawls' idea of fairness, we introduce the notion of Rawlsian assignments. We prove that there always exists a unique Rawlsian assignment, which is efficient, and satisfies anonymity. We illustrate our analysis with preference data from housing cooperatives. Our results show that the Rawlsian assignment substantially improves, from an egalitarian perspective, both the probabilistic 
     
-[^14]: 无穷效用：对应物和终极位置
+[^14]: 修正潜在因素面板数据模型中误差交叉相关的CD检验
 
-    Infinite utility: counterparts and ultimate locations. (arXiv:2109.01852v2 [econ.TH] UPDATED)
+    A Bias-Corrected CD Test for Error Cross-Sectional Dependence in Panel Data Models with Latent Factors. (arXiv:2109.00408v3 [econ.EM] UPDATED)
 
-    [http://arxiv.org/abs/2109.01852](http://arxiv.org/abs/2109.01852)
+    [http://arxiv.org/abs/2109.00408](http://arxiv.org/abs/2109.00408)
 
-    论文探讨了无穷伦理学中的位置问题，辩护了“时间上的人”是终极位置，可以避免不安定意义，严格排名广泛类的世界。
-
-    
-
-    无穷伦理学中的位置问题涉及价值潜在承担者的不同类别之间相对道德地位的问题，其主要例子是人和时间点。挑战在于确定哪一类价值承担者具有终极道德意义：简而言之，是终极位置。本文辩护了“时间上的人”是终极位置的观点。在特定时间点的人不是特定的人，而是在特定时间点出生的人（de dicto）。本文的主要结论是，时间和以人为中心的无穷伦理观点的不安定意义可以避免。特别是，人为中心的观点认为不可比较的广泛类的世界可以严格排名。
-
-    The locations problem in infinite ethics concerns the relative moral status of different categories of potential bearers of value, the primary examples of which are people and points in time. The challenge is to determine which category of value bearers are of ultimate moral significance: the ultimate locations, for short. This paper defends the view that the ultimate locations are 'people at times'. A person at a time is not a specific person, but the person born at a specific point in time (de dicto). The main conclusion of the paper is that the unsettling implications of the time- and person-centered approaches to infinite ethics can be avoided. Most notably, a broad class of worlds that person-centered views deem incomparable can be strictly ranked.
-    
-[^15]: 偏好档案的偏序关系
-
-    A Partial Order on Preference Profiles. (arXiv:2108.08465v2 [econ.TH] UPDATED)
-
-    [http://arxiv.org/abs/2108.08465](http://arxiv.org/abs/2108.08465)
-
-    该论文提出了一个理论框架来比较偏好档案，并定义了偏好档案的偏序关系。根据该理论框架，一种个人主义形式的社会偏好可以成为最大化偏序关系下的极大元素。
+    本文提出了一种修正CD检验的新方法CD*，适用于纯潜在因素模型以及面板回归，具有渐近正态性，相比于现有方法具有更好的性能。
 
     
 
-    我们提出了一个理论框架，可以有意义地比较偏好档案。具体来说，给定一组有限的可行分配和一个偏好档案，我们首先将分配的排序向量定义为该分配所有个体对于该分配的排名的向量。然后我们定义了一个偏好档案的偏序关系，并写作"$P \geq P^{'}$"，如果存在一个到映射$\psi$，将$P^{'}$的帕累托前沿映射到$P$的帕累托前沿上，使得在$P^{'}$下的任何帕累托高效分配$x$的排名向量都被$P$下的映像分配$\psi(x)$的排名向量弱支配。我们提供了偏序关系下极大元素和极小元素的刻画。特别地，我们说明了在特定情况下，一种个人主义形式的社会偏好可以成为最大化偏序关系下的极大元素。我们还讨论了如何进一步推广这个框架来包括更多的经济元素。
+    本文针对潜在因素面板数据模型中的误差交叉相关问题，提出了一种简单的CD*检验方法，该方法是渐近正态的，适用于纯潜在因素模型以及面板回归。通过Monte Carlo实验研究了CD*检验的小样本性质，结果表明该检验具有正确的大小和令人满意的功率。
 
-    We propose a theoretical framework under which preference profiles can be meaningfully compared. Specifically, given a finite set of feasible allocations and a preference profile, we first define a ranking vector of an allocation as the vector of all individuals' rankings of this allocation. We then define a partial order on preference profiles and write "$P \geq P^{'}$", if there exists an onto mapping $\psi$ from the Pareto frontier of $P^{'}$ onto the Pareto frontier of $P$, such that the ranking vector of any Pareto efficient allocation $x$ under $P^{'}$ is weakly dominated by the ranking vector of the image allocation $\psi(x)$ under $P$. We provide a characterization of the maximal and minimal elements under the partial order. In particular, we illustrate how an individualistic form of social preferences can be maximal in a specific setting. We also discuss how the framework can be further generalized to incorporate additional economic ingredients.
+    In a recent paper Juodis and Reese (2021) (JR) show that the application of the CD test proposed by Pesaran (2004) to residuals from panels with latent factors results in over-rejection and propose a randomized test statistic to correct for over-rejection, and add a screening component to achieve power. This paper considers the same problem but from a different perspective and shows that the standard CD test remains valid if the latent factors are weak, and proposes a simple bias-corrected CD test, labelled CD*, which is shown to be asymptotically normal, irrespective of whether the latent factors are weak or strong. This result is shown to hold for pure latent factor models as well as for panel regressions with latent factors. Small sample properties of the CD* test are investigated by Monte Carlo experiments and are shown to have the correct size and satisfactory power for both Gaussian and non-Gaussian errors. In contrast, it is found that JR's test tends to over-reject in the case 
     
-[^16]: 超越无限大：一个通用的经济理论扩展框架
+[^15]: 被误分类处理的边际处理效应
 
-    To Infinity and Beyond: A General Framework for Scaling Economic Theories. (arXiv:1906.10333v5 [cs.GT] UPDATED)
+    Marginal Treatment Effects with a Misclassified Treatment. (arXiv:2105.00358v6 [econ.EM] UPDATED)
 
-    [http://arxiv.org/abs/1906.10333](http://arxiv.org/abs/1906.10333)
+    [http://arxiv.org/abs/2105.00358](http://arxiv.org/abs/2105.00358)
 
-    该论文提供了一个通用的框架，通过去除经济学模型中的有限性假设来扩展其结果。该方法具有多用途性，可应用于启示式理论和匹配理论等领域。
+    本文研究了二元治疗变量被误分类时边际处理效应（MTE）的识别。我们证明在标准假设下，MTE可被识别为给定真实倾向得分的观察结果条件期望的导数，我们的MTE界限比局部平均处理效应的现有界限更紧。
 
     
 
-    许多经济学理论模型都包含有限性假设，虽然这些假设是出于简单性而引入的，但却在分析中发挥了实际作用。我们提供了一个有原则的框架来扩展这些模型的结果，通过去除这些有限性的假设。我们的充分条件仅适用于定理陈述方面，而不是证明。这导致了简短的证明，并且甚至允许使用相同的论证来扩展使用完全不同工具证明的类似定理。我们通过来自启示式理论和匹配理论的示例展示了我们方法的多用途性。
+    本文研究了二元治疗变量被误分类时边际处理效应（MTE）的识别。我们证明，在标准假设下，MTE可被识别为给定真实倾向得分的观察结果条件期望的导数，而倾向得分仅被部分确定。我们刻画了该倾向得分的识别集，然后是MTE的识别集，证明了在一些温和的正则条件下，MTE的符号局部被确定。我们使用我们的MTE界限推导了文献中其他常用参数的界限。我们展示了我们的界限比局部平均处理效应的现有界限更紧。我们通过一些数值和实证结果展示了我们得出的界限的实际相关性。
 
-    Many economic theory models incorporate finiteness assumptions that, while introduced for simplicity, play a real role in the analysis. We provide a principled framework for scaling results from such models by removing these finiteness assumptions. Our sufficient conditions are on the theorem statement only, and not on its proof. This results in short proofs, and even allows to use the same argument to scale similar theorems that were proven using distinctly different tools. We demonstrate the versatility of our approach via examples from both revealed-preference theory and matching theory.
+    This paper studies identification of the marginal treatment effect (MTE) when a binary treatment variable is misclassified. We show under standard assumptions that the MTE is identified as the derivative of the conditional expectation of the observed outcome given the true propensity score, which is partially identified. We characterize the identified set for this propensity score, and then for the MTE. We show under some mild regularity conditions that the sign of the MTE is locally identified. We use our MTE bounds to derive bounds on other commonly used parameters in the literature. We show that our bounds are tighter than the existing bounds for the local average treatment effect. We illustrate the practical relevance of our derived bounds through some numerical and empirical results.
+    
+[^16]: Cointegrated Functional Time Series的函数主成分分析
+
+    Functional Principal Component Analysis for Cointegrated Functional Time Series. (arXiv:2011.12781v6 [stat.ME] UPDATED)
+
+    [http://arxiv.org/abs/2011.12781](http://arxiv.org/abs/2011.12781)
+
+    本研究提出了一种改进的FPCA，可用于分析协整的函数时间序列并提供更有效的估计，以及FPCA-based的测试，以检查协整函数时间序列的重要属性。
+
+    
+
+    函数主成分分析（FPCA）在发展函数时间序列分析方面发挥了重要作用。本文研究了如何利用FPCA分析协整的函数时间序列，并提出了一种改进的FPCA作为一种新的统计工具。我们改进后的FPCA不仅提供了协整向量的渐近更有效的估计，还引导了基于FPCA的测试，以检查协整函数时间序列的重要属性。
+
+    Functional principal component analysis (FPCA) has played an important role in the development of functional time series analysis. This note investigates how FPCA can be used to analyze cointegrated functional time series and proposes a modification of FPCA as a novel statistical tool. Our modified FPCA not only provides an asymptotically more efficient estimator of the cointegrating vectors, but also leads to novel FPCA-based tests for examining essential properties of cointegrated functional time series.
+    
+[^17]: 部分观测到的网络中的计划收益溢出问题
+
+    Spillovers of Program Benefits with Missing Network Links. (arXiv:2009.09614v2 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2009.09614](http://arxiv.org/abs/2009.09614)
+
+    本文研究了在经验研究中经常被忽略的部分观测到的网络中的计划收益溢出问题，并提出了两种方法来识别处理和溢出效应，这对于减少缺失网络链接造成的偏差很有效。
+
+    
+
+    在经验研究中，部分观察到的网络中缺少网络链接的问题经常被忽略。本文旨在解决这个问题，同时研究了网络相互作用下计划收益的溢出。我们专注于一个允许灵活的异质性形式的非参数结果模型，并提出了两种方法来识别边界网络度的处理和溢出效应。当网络度无界时，这些方法可用于减轻由于缺失网络链接而造成的偏差。第一种方法利用基于传入和传出链接的两个易于构建的网络测量。第二种方法依赖于一个具有已知缺失率的单个网络测量。我们使用蒙特卡罗实验和基于真实世界学校网络数据的自然模拟演示了我们的方法提供的有效偏差减少。最后，我们在缺少网络链接的学校网络中重新研究了家庭电脑使用对儿童学业成绩的溢出。
+
+    The issue of missing network links in partially observed networks is frequently neglected in empirical studies. This paper aims to address this issue when investigating spillovers of program benefits in the presence of network interactions. We focus on a nonparametric outcome model that allows for flexible forms of heterogeneity, and we propose two methods to point identify the treatment and spillover effects in the case of bounded network degree. When the network degree is unbounded, these methods can be used to mitigate the bias caused by missing network links. The first method utilizes two easily-constructed network measures based on the incoming and outgoing links. The second method relies on a single network measure with a known rate of missing links. We demonstrate the effective bias reduction provided by our methods using Monte Carlo experiments and a naturalistic simulation on real-world school network data. Finally, we re-examine the spillovers of home computer use on children
+    
+[^18]: 无单位根的协整
+
+    Cointegration without Unit Roots. (arXiv:2002.08092v2 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2002.08092](http://arxiv.org/abs/2002.08092)
+
+    提出了一种基于脉冲响应函数的协整特征，可以在无精确单位根的情况下保持长期均衡关系的确定性，提供了一个框架使得结构性冲击可以通过长期限制继续被确定。我们还导出了一致估计的协整向量方法，即使自回归根接近1时也仍然保持一致。
+
+    
+
+    自从1998年Elliott提出，在自回归根接近但并不完全等于1的情况下，协整关系的标准推断方法完全破裂。我们在结构向量自回归模型框架中考虑这个问题，并认为这不仅仅是推断问题，而是辨识失败问题。我们基于脉冲响应函数开发了一个协整特征，即使在没有精确单位根的情况下也可以保持长期均衡关系的确定性。我们的方法还提供了一个框架，使得驱动共同持久组成部分的结构性冲击可以通过长期限制继续被确定，就像在具有精确单位根的结构向量自回归模型中那样。我们展示了协整关系的推断受到干扰参数的影响，这在预测回归中是很常见的；事实上这两个问题在渐近意义下是等价的。通过改进Elliott、Müller和Watson(2005)的方法，我们导出了一致估计的协整向量，即使自回归根接近1时也仍保持一致。
+
+    It has been known since Elliott (1998) that standard methods of inference on cointegrating relationships break down entirely when autoregressive roots are near but not exactly equal to unity. We consider this problem within the framework of a structural VAR, arguing this it is as much a problem of identification failure as it is of inference. We develop a characterisation of cointegration based on the impulse response function, which allows long-run equilibrium relationships to remain identified even in the absence of exact unit roots. Our approach also provides a framework in which the structural shocks driving the common persistent components continue to be identified via long-run restrictions, just as in an SVAR with exact unit roots. We show that inference on the cointegrating relationships is affected by nuisance parameters, in a manner familiar from predictive regression; indeed the two problems are asymptotically equivalent. By adapting the approach of Elliott, M\"uller and Wats
     
 

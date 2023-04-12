@@ -1,0 +1,11 @@
+{
+    "title": "Human-machine cooperation for semantic feature listing. (arXiv:2304.05012v1 [cs.CL])",
+    "abstract": "Semantic feature norms, lists of features that concepts do and do not possess, have played a central role in characterizing human conceptual knowledge, but require extensive human labor. Large language models (LLMs) offer a novel avenue for the automatic generation of such feature lists, but are prone to significant error. Here, we present a new method for combining a learned model of human lexical-semantics from limited data with LLM-generated data to efficiently generate high-quality feature norms.",
+    "link": "http://arxiv.org/abs/2304.05012",
+    "context": "Title: Human-machine cooperation for semantic feature listing. (arXiv:2304.05012v1 [cs.CL])\nAbstract: Semantic feature norms, lists of features that concepts do and do not possess, have played a central role in characterizing human conceptual knowledge, but require extensive human labor. Large language models (LLMs) offer a novel avenue for the automatic generation of such feature lists, but are prone to significant error. Here, we present a new method for combining a learned model of human lexical-semantics from limited data with LLM-generated data to efficiently generate high-quality feature norms.",
+    "path": "papers/23/04/2304.05012.json",
+    "total_tokens": 586,
+    "translated_title": "人机合作生成语义特征列表",
+    "translated_abstract": "语义特征规范是描述人类概念知识的重要工具，但需要大量人力。大型语言模型（LLM）为自动生成此类功能提供了新途径，但容易出现显著的错误。本文介绍了一种新方法，将来自有限数据的学习型人类词汇语义模型与LLM生成的数据相结合，以高效生成高质量的特征规范。",
+    "tldr": "本文提出了一种人机合作的方法，将有限数据的人类词汇语义模型和大型语言模型结合起来，高效生成高质量的语义特征规范。"
+}

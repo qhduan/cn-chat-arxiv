@@ -1,0 +1,12 @@
+{
+    "title": "Convolutional Neural Networks as 2-D systems. (arXiv:2303.03042v2 [math.OC] UPDATED)",
+    "abstract": "This paper introduces a novel representation of convolutional Neural Networks (CNNs) in terms of 2-D dynamical systems. To this end, the usual description of convolutional layers with convolution kernels, i.e., the impulse responses of linear filters, is realized in state space as a linear time-invariant 2-D system. The overall convolutional Neural Network composed of convolutional layers and nonlinear activation functions is then viewed as a 2-D version of a Lur'e system, i.e., a linear dynamical system interconnected with static nonlinear components. One benefit of this 2-D Lur'e system perspective on CNNs is that we can use robust control theory much more efficiently for Lipschitz constant estimation than previously possible.",
+    "link": "http://arxiv.org/abs/2303.03042",
+    "context": "Title: Convolutional Neural Networks as 2-D systems. (arXiv:2303.03042v2 [math.OC] UPDATED)\nAbstract: This paper introduces a novel representation of convolutional Neural Networks (CNNs) in terms of 2-D dynamical systems. To this end, the usual description of convolutional layers with convolution kernels, i.e., the impulse responses of linear filters, is realized in state space as a linear time-invariant 2-D system. The overall convolutional Neural Network composed of convolutional layers and nonlinear activation functions is then viewed as a 2-D version of a Lur'e system, i.e., a linear dynamical system interconnected with static nonlinear components. One benefit of this 2-D Lur'e system perspective on CNNs is that we can use robust control theory much more efficiently for Lipschitz constant estimation than previously possible.",
+    "path": "papers/23/03/2303.03042.json",
+    "total_tokens": 750,
+    "translated_title": "作为2D系统的卷积神经网络",
+    "translated_abstract": "本文介绍了一种新颖的卷积神经网络（CNN）的表示方法，即在二维动力系统方面。为此，使用卷积核的卷积层的常规描述，即线性滤波器的脉冲响应，在状态空间中表示为线性时不变的二维系统。然后将由卷积层和非线性激活函数组成的卷积神经网络视为Lur'e系统的二维版本，即与静态非线性组件相互连接的线性动力系统。这种对CNN的二维Lur'e系统视角的好处是我们可以比以前更有效地使用鲁兹常数估计的鲁棒控制理论。",
+    "tldr": "本文介绍了一种将卷积神经网络表示为二维动力系统的方法，将其视为Lur'e系统的二维版本，从而有效地使用鲁棒控制理论进行鲁兹常数估计。",
+    "en_tdlr": "This paper introduces a novel representation of CNNs as 2-D dynamical systems, viewed as a 2-D version of a Lur'e system, allowing for more efficient use of robust control theory for Lipschitz constant estimation."
+}

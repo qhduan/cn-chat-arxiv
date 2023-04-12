@@ -1,0 +1,12 @@
+{
+    "title": "What Food Do We Tweet about on a Rainy Day?. (arXiv:2304.05041v1 [cs.SI])",
+    "abstract": "Food choice is a complex phenomenon shaped by factors such as taste, ambience, culture or weather. In this paper, we explore food-related tweeting in different weather conditions. We inspect a Latvian food tweet dataset spanning the past decade in conjunction with a weather observation dataset consisting of average temperature, precipitation, and other phenomena. We find which weather conditions lead to specific food information sharing; automatically classify tweet sentiment and discuss how it changes depending on the weather. This research contributes to the growing area of large-scale social network data understanding of food consumers' choices and perceptions.",
+    "link": "http://arxiv.org/abs/2304.05041",
+    "context": "Title: What Food Do We Tweet about on a Rainy Day?. (arXiv:2304.05041v1 [cs.SI])\nAbstract: Food choice is a complex phenomenon shaped by factors such as taste, ambience, culture or weather. In this paper, we explore food-related tweeting in different weather conditions. We inspect a Latvian food tweet dataset spanning the past decade in conjunction with a weather observation dataset consisting of average temperature, precipitation, and other phenomena. We find which weather conditions lead to specific food information sharing; automatically classify tweet sentiment and discuss how it changes depending on the weather. This research contributes to the growing area of large-scale social network data understanding of food consumers' choices and perceptions.",
+    "path": "papers/23/04/2304.05041.json",
+    "total_tokens": 695,
+    "translated_title": "在雨天我们会推特哪些食物？",
+    "translated_abstract": "食品选择是一个由品味、氛围、文化或天气等因素塑造的复杂现象。本文探讨了不同天气条件下与食品相关的推特数据。我们结合了覆盖过去十年的拉脱维亚食品推特数据集和包含平均温度、降水等现象的天气观察数据集。我们发现了哪些天气条件导致了特定的食品信息共享；自动分类推特情感并讨论如何根据天气情况变化。这项研究有助于大规模社交网络数据的理解，了解食品消费者的选择和看法。",
+    "tldr": "研究发现不同的天气条件下人们在推特上谈论的食物存在差异，研究这种现象可促进对食品消费者选择和看法的理解。",
+    "en_tdlr": "The research found that there are differences in the food people discuss on Twitter under different weather conditions, and studies of this phenomenon can contribute to understanding food consumers' choices and perceptions on a large-scale social network data basis."
+}

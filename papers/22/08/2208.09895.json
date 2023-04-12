@@ -1,0 +1,12 @@
+{
+    "title": "Stability of the Epstein-Zin problem. (arXiv:2208.09895v2 [q-fin.MF] UPDATED)",
+    "abstract": "We investigate the stability of the Epstein-Zin problem with respect to small distortions in the dynamics of the traded securities. We work in incomplete market model settings, where our parametrization of perturbations allows for joint distortions in returns and volatility of the risky assets and the interest rate. Considering empirically the most relevant specifications of risk aversion and elasticity of intertemporal substitution, we provide a condition that guarantees the convexity of the domain of the underlying problem and results in the existence and uniqueness of a solution to it. Then, we prove the convergence of the optimal consumption streams, the associated wealth processes, the indirect utility processes, and the value functions in the limit when the model perturbations vanish.",
+    "link": "http://arxiv.org/abs/2208.09895",
+    "context": "Title: Stability of the Epstein-Zin problem. (arXiv:2208.09895v2 [q-fin.MF] UPDATED)\nAbstract: We investigate the stability of the Epstein-Zin problem with respect to small distortions in the dynamics of the traded securities. We work in incomplete market model settings, where our parametrization of perturbations allows for joint distortions in returns and volatility of the risky assets and the interest rate. Considering empirically the most relevant specifications of risk aversion and elasticity of intertemporal substitution, we provide a condition that guarantees the convexity of the domain of the underlying problem and results in the existence and uniqueness of a solution to it. Then, we prove the convergence of the optimal consumption streams, the associated wealth processes, the indirect utility processes, and the value functions in the limit when the model perturbations vanish.",
+    "path": "papers/22/08/2208.09895.json",
+    "total_tokens": 710,
+    "translated_title": "Epstein-Zin问题的稳定性",
+    "translated_abstract": "我们研究了在交易证券动态小扭曲的情况下，Epstein-Zin问题的稳定性。我们在不完全市场模型设置中工作，在此设置下，我们参数化扰动允许在风险资产和利率的回报和波动性中进行联合扭曲。考虑到风险厌恶和跨期代替弹性的最相关规范，我们提供了一个保证基础问题的凸性并导致其解的存在和唯一性的条件。然后，我们证明了当模型扰动消失时，最优消费流、相关财富流程、间接效用过程和价值函数的收敛。",
+    "tldr": "研究在交易证券动态小扭曲的情况下Epstein-Zin问题的稳定性，并提供了解的唯一性条件以及相关过程的收敛。",
+    "en_tdlr": "This paper investigates the stability of the Epstein-Zin problem with small distortions in the dynamics of traded securities, and provides conditions for the existence and uniqueness of a solution, as well as the convergence of associated processes."
+}

@@ -2,157 +2,217 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Adjust factor with volatility model using MAXFLAT low-pass filter and construct portfolio in China A share market.](http://arxiv.org/abs/2304.04676) | 本研究基于MAXFLAT低通波动率模型调整因子，并在中国A股市场构建投资组合，在大盘和小盘股中均表现优异，具有连续性超额回报和低贝塔值。 |
-| [^2] | [On the state-space model of unawareness.](http://arxiv.org/abs/2304.04626) | 本文研究表明非平凡的无意识状态与知识的“必然性”性质相矛盾，修订后的“必然性”解决了经典的“Dekel-Lipman-Rustichini”问题，提出了一个能适用于无限状态空间的无意识标准状态空间模型。 |
-| [^3] | [A stochastic control perspective on term structure models with roll-over risk.](http://arxiv.org/abs/2304.04453) | 本文为探索存在滚动风险的利率市场提供了一种随机控制视角的期限结构模型，并将现货/远期价差的表示形式作为相应随机最优控制问题的价值函数导出。 |
-| [^4] | [Robust optimized certainty equivalents and quantiles for loss positions with distribution uncertainty.](http://arxiv.org/abs/2304.04396) | 本文研究了基于分布不确定性的损失头寸风险度量方法，提出了鲁棒广义分位数并考虑了两种具体惩罚函数的鲁棒期望损失。带有 $\varphi_{1}$ 的鲁棒期望损失是相容的风险度量，惩罚函数对鲁棒期望损失的影响进行了数值模拟。 |
-| [^5] | [Symmetric positive semi-definite Fourier estimator of instantaneous variance-covariance matrix.](http://arxiv.org/abs/2304.04372) | 本文提出了一种估计现货协方差矩阵的方法，确保对称的半正定估计值，并在数值研究中得到了验证。 |
-| [^6] | [Who are the gatekeepers of economics? Geographic diversity, gender composition, and interlocking editorship of journal boards.](http://arxiv.org/abs/2304.04242) | 本研究分析了经济学期刊的编辑委员会成员的国家分布、所属机构和性别，发现经济学领域的学术出版环境仍然缺乏多样性和包容性。 |
-| [^7] | [Asymmetric networks, clientelism and their impacts: households' access to workfare employment in rural India.](http://arxiv.org/abs/2304.04236) | 本文研究了印度农村家庭获得公共就业机会的因素，发现非对称网络和客户主义关系会影响其获得就业机会，并提供了相应的理论模型支持。 |
-| [^8] | [OFTER: An Online Pipeline for Time Series Forecasting.](http://arxiv.org/abs/2304.03877) | 本文介绍了OFTER，一种专门针对中等规模多种时间序列的在线预测管线，能够胜过几种最先进的基准方法。OFTER是金融多元时间序列问题的理想解决方案。 |
-| [^9] | [f-Betas and Portfolio Optimization with f-Divergence induced Risk Measures.](http://arxiv.org/abs/2302.00452) | 本研究基于f-散度引导的风险度量进行投资组合优化，并提出了一种新的f-Beta度量绩效。实验结果表明，基于Hellinger-Beta的方法可以提供新的视角和比标准Beta和Drawdown Beta更好的性能评估。 |
-| [^10] | [Distributionally robust risk evaluation with a causality constraint and structural information.](http://arxiv.org/abs/2203.10571) | 本文提出了具有因果约束的分布鲁棒风险评估方法，并用神经网络逼近测试函数。在结构信息有限制时，提供了高效的优化方法。 |
+| [^1] | [The Wall Street Neophyte: A Zero-Shot Analysis of ChatGPT Over MultiModal Stock Movement Prediction Challenges.](http://arxiv.org/abs/2304.05351) | 本研究对ChatGPT在股票预测方面进行了零样本分析，结果表明其预测股票移动的表现不如最先进和传统方法，需要进一步改进。 |
+| [^2] | [Optimal Asset Allocation in a High Inflation Regime: a Leverage-feasible Neural Network Approach.](http://arxiv.org/abs/2304.05297) | 本文研究了高通胀环境下带杠杆约束的最优资产组合问题，发现等权重股票指数组成的投资组合部分随机优于基于市值加权的股票指数组成的投资组合。提出了一种新颖的可杠杆神经网络模型，用于近似最优控制策略，该模型在解决实际问题时表现良好。 |
+| [^3] | [Adapting to Disruptions: Flexibility as a Pillar of Supply Chain Resilience.](http://arxiv.org/abs/2304.05290) | 研究分析了在供应链中替代货物可以提高弹性以应对中断，通过对美国阿片类药物分配系统的详细分析，得出了增加替代灵活性的政策对减少供应短缺的作用，并可量化供应链复杂性与弹性的权衡。 |
+| [^4] | [Mapping job complexity and skills into wages.](http://arxiv.org/abs/2304.05251) | 通过算法和网络工具，本研究探究了工作的技能等级、复杂度和薪酬之间的关系，并发现一致技能要求的工作平均工资较低。工资不仅仅反映工作的价值，还可能受其他工资设定动态的影响。 |
+| [^5] | [Towards systematic intraday news screening: a liquidity-focused approach.](http://arxiv.org/abs/2304.05115) | 该论文提出了一种系统化的新闻筛选方法，以识别有影响力的新闻，基于流动性驱动的变量，并利用朴素贝叶斯方法分析相关新闻情绪。 |
+| [^6] | [Generative modeling for time series via Schr{\"o}dinger bridge.](http://arxiv.org/abs/2304.05093) | 本文提出了一种基于Schr{\"o}dinger bridge的时序生成模型，可以通过熵插值最优传输来处理参考路径空间上的参考概率分布和目标测度之间的关系，模型的解由有限时间区间内的随机微分方程和由数据估计的路径依赖漂移函数组成，通过模拟SB扩散过程产生新的合成数据样本，实验证明该方法在玩具自回归模型、GARCH模型和分形布朗运动方面具有很好的性能。 |
+| [^7] | [Five guidelines to improve context-aware process selection: an Australian banking perspective.](http://arxiv.org/abs/2304.05033) | 本研究从澳大利亚银行业的视角出发，采用设计科学方法，提出了改善上下文感知流程选择的五个实用指南。 |
+| [^8] | [On heavy-tailed risks under Gaussian copula: the effects of marginal transformation.](http://arxiv.org/abs/2304.05004) | 本文研究了边缘重尾风险呈高斯橄榄模型的多变量尾部风险概率，并发现在复杂条件下不同类型的尾部集合的概率衰减速率有所区别，而更重的尾部边缘变量下的联合尾部行为具有不同的结构。 |
+| [^9] | [Regulatory Markets: The Future of AI Governance.](http://arxiv.org/abs/2304.04914) | 提出一种监管市场的概念，即政府要求受监管对象从私人监管机构购买监管服务，以克服过度依赖行业自律和立法机构缺乏专业知识的局限性，从而逐步实现人工智能的恰当监管。 |
+| [^10] | [Financial Time Series Forecasting using CNN and Transformer.](http://arxiv.org/abs/2304.04912) | 本文提出了结合使用CNN和Transformer来预测金融时间序列的涨跌幅。 |
+| [^11] | [Linking Representations with Multimodal Contrastive Learning.](http://arxiv.org/abs/2304.03464) | 本文提出了一种名为CLIPPINGS的多模态框架，用于记录链接。该框架利用深度学习和对比学习的方法，通过端到端训练对称的视觉和语言编码器，在度量空间中学习相近或不同类别的表示方法，用于多个应用场景，如构建全面的补充专利注册表和识别不同社交媒体平台上的个人。 |
+| [^12] | [Mean-variance hybrid portfolio optimization with quantile-based risk measure.](http://arxiv.org/abs/2303.15830) | 本文提出了一种基于分位数风险度量的动态混合组合优化模型，在有利市场状态下分配更高的风险资产和在不利市场状态下分配更少的风险资产来提高投资回报并降低风险。 |
+| [^13] | [Valuing Pharmaceutical Drug Innovations.](http://arxiv.org/abs/2212.07384) | 通过市场价值和研发成本，估计了制药药品创新的平均价值。成功药品的平均价值为 16.2 亿美元，临床试验前阶段的平均价值为 6430 万美元，成本为 5850 万美元。 |
+| [^14] | [Stability of the Epstein-Zin problem.](http://arxiv.org/abs/2208.09895) | 研究在交易证券动态小扭曲的情况下Epstein-Zin问题的稳定性，并提供了解的唯一性条件以及相关过程的收敛。 |
 
 # 详细
 
-[^1]: 使用MAXFLAT低通滤波器基于波动率模型调整因子并在中国A股市场构建投资组合
+[^1]: ChatGPT在多模态股票预测挑战中的零样本分析：华尔街新手？
 
-    Adjust factor with volatility model using MAXFLAT low-pass filter and construct portfolio in China A share market. (arXiv:2304.04676v1 [q-fin.RM])
+    The Wall Street Neophyte: A Zero-Shot Analysis of ChatGPT Over MultiModal Stock Movement Prediction Challenges. (arXiv:2304.05351v1 [cs.CL])
 
-    [http://arxiv.org/abs/2304.04676](http://arxiv.org/abs/2304.04676)
+    [http://arxiv.org/abs/2304.05351](http://arxiv.org/abs/2304.05351)
 
-    本研究基于MAXFLAT低通波动率模型调整因子，并在中国A股市场构建投资组合，在大盘和小盘股中均表现优异，具有连续性超额回报和低贝塔值。
-
-    
-
-    在量化金融领域，波动率模型（如ARCH、GARCH、FIGARCH、SV、EWMA等）在风险和投资组合管理中扮演着关键角色。与此同时，自20世纪中期起，因子投资越来越受到关注和发展。CAPM、Fama French三因子模型、Fama French五因子模型、MSCI Barra因子模型等都在这一期间提出和发展。本文将展示为什么我们需要通过我们的MAXFLAT低通波动率模型调整因子组。我们的所有实验都是在中国的CSI 300和CSI 500股票池下进行的，这代表了中国的大型股票和中小型股票。我们的结果表明，通过MAXFLAT波动率模型调整因子在中国A股市场的大盘和小盘股中均表现出更好的业绩。此外，由MAXFLAT风险调整因子构建的投资组合在超额回报方面具有连续性，与基准指数相比具有更低的贝塔值。
-
-    In the field of quantitative finance, volatility models, such as ARCH, GARCH, FIGARCH, SV, EWMA, play the key role in risk and portfolio management. Meanwhile, factor investing is more and more famous since mid of 20 century. CAPM, Fama French three factor model, Fama French five-factor model, MSCI Barra factor model are mentioned and developed during this period. In this paper, we will show why we need adjust group of factors by our MAXFLAT low-pass volatility model. All of our experiments are under China's CSI 300 and CSI 500 universe which represent China's large cap stocks and mid-small cap stocks. Our result shows adjust factors by MAXFLAT volatility model have better performance in both large cap and small cap universe than original factors or other risk adjust factors in China A share. Also the portfolio constructed by MAXFLAT risk adjust factors have continuous excess return and lower beta compare with benchmark index.
-    
-[^2]: 无意识状态空间模型论析
-
-    On the state-space model of unawareness. (arXiv:2304.04626v1 [econ.GN])
-
-    [http://arxiv.org/abs/2304.04626](http://arxiv.org/abs/2304.04626)
-
-    本文研究表明非平凡的无意识状态与知识的“必然性”性质相矛盾，修订后的“必然性”解决了经典的“Dekel-Lipman-Rustichini”问题，提出了一个能适用于无限状态空间的无意识标准状态空间模型。
+    本研究对ChatGPT在股票预测方面进行了零样本分析，结果表明其预测股票移动的表现不如最先进和传统方法，需要进一步改进。
 
     
 
-    本研究表明，承载非平凡无意识的智能体知识违反了“必然性”的标准属性，因此“必然性”不能用来反驳标准的状态空间模型。经修订后的“必然性”保留了非平凡无意识，并解决了经典的 Dekel-Lipman-Rustichini 结果。我们提出了一个通用的知识操作符，与无意识的标准状态空间模型一致，包括无限状态空间模型。
+    最近，如ChatGPT这样的大型语言模型在各种自然语言处理任务中展示了惊人的性能。然而，在预测股市走势方面，它们的有效性仍然有待探索。本文通过三个推文和历史股票价格数据集的广泛零样本分析，探讨了ChatGPT在多模态股票移动预测方面的能力。我们的研究表明，ChatGPT是一个“华尔街新手”，在预测股票移动方面的成功有限，不仅不如最先进的方法，而且不如使用价格特征的线性回归这样的传统方法。尽管思维链提示策略和推文的包含具有潜在的优势，ChatGPT的表现仍然不佳。此外，我们观察到它的可解释性和稳定性存在局限性，需要更专业的训练或微调。这项研究提供了有关ChatGPT在股票预测方面的见解。
 
-    We show that the knowledge of an agent carrying non-trivial unawareness violates the standard property of 'necessitation', therefore necessitation cannot be used to refute the standard state-space model. A revised version of necessitation preserves non-trivial unawareness and solves the classical Dekel-Lipman-Rustichini result. We propose a generalised knowledge operator consistent with the standard state-space model of unawareness, including the model of infinite state-space.
+    Recently, large language models (LLMs) like ChatGPT have demonstrated remarkable performance across a variety of natural language processing tasks. However, their effectiveness in the financial domain, specifically in predicting stock market movements, remains to be explored. In this paper, we conduct an extensive zero-shot analysis of ChatGPT's capabilities in multimodal stock movement prediction, on three tweets and historical stock price datasets. Our findings indicate that ChatGPT is a "Wall Street Neophyte" with limited success in predicting stock movements, as it underperforms not only state-of-the-art methods but also traditional methods like linear regression using price features. Despite the potential of Chain-of-Thought prompting strategies and the inclusion of tweets, ChatGPT's performance remains subpar. Furthermore, we observe limitations in its explainability and stability, suggesting the need for more specialized training or fine-tuning. This research provides insights i
     
-[^3]: 一种考虑到滚动风险的随机控制视角的期限结构模型
+[^2]: 高通胀条件下的最优资产配置：可杠杆神经网络方法
 
-    A stochastic control perspective on term structure models with roll-over risk. (arXiv:2304.04453v1 [q-fin.PR])
+    Optimal Asset Allocation in a High Inflation Regime: a Leverage-feasible Neural Network Approach. (arXiv:2304.05297v1 [q-fin.PM])
 
-    [http://arxiv.org/abs/2304.04453](http://arxiv.org/abs/2304.04453)
+    [http://arxiv.org/abs/2304.05297](http://arxiv.org/abs/2304.05297)
 
-    本文为探索存在滚动风险的利率市场提供了一种随机控制视角的期限结构模型，并将现货/远期价差的表示形式作为相应随机最优控制问题的价值函数导出。
-
-    
-
-    本文研究了存在滚动风险的利率市场，滚动风险生成了现货/远期期限利率差。我们不要求无套利条件，而是依靠市场生命力最小假设来工作，在基准方法的背景下工作。在马尔可夫设置下，我们扩展了Gombani＆Runggaldier（2013年）的控制理论方法，并将现货/远期价差的表示形式作为相应随机最优控制问题的价值函数导出，该问题在实际世界概率下以及具有功率类型的目标函数进行了规定。我们通过将其与代表性投资者的风险敏感优化问题相关联来内生确定资金流动性价差。
-
-    In this paper, we consider a generic interest rate market in the presence of roll-over risk, which generates spreads in spot/forward term rates. We do not require classical absence of arbitrage and rely instead on a minimal market viability assumption, which enables us to work in the context of the benchmark approach. In a Markovian setting, we extend the control theoretic approach of Gombani & Runggaldier (2013) and derive representations of spot/forward spreads as value functions of suitable stochastic optimal control problems, formulated under the real-world probability and with power-type objective functionals. We determine endogenously the funding-liquidity spread by relating it to the risk-sensitive optimization problem of a representative investor.
-    
-[^4]: 分布不确定性下损失头寸的鲁棒优化确定等价值和分位数
-
-    Robust optimized certainty equivalents and quantiles for loss positions with distribution uncertainty. (arXiv:2304.04396v1 [q-fin.RM])
-
-    [http://arxiv.org/abs/2304.04396](http://arxiv.org/abs/2304.04396)
-
-    本文研究了基于分布不确定性的损失头寸风险度量方法，提出了鲁棒广义分位数并考虑了两种具体惩罚函数的鲁棒期望损失。带有 $\varphi_{1}$ 的鲁棒期望损失是相容的风险度量，惩罚函数对鲁棒期望损失的影响进行了数值模拟。
+    本文研究了高通胀环境下带杠杆约束的最优资产组合问题，发现等权重股票指数组成的投资组合部分随机优于基于市值加权的股票指数组成的投资组合。提出了一种新颖的可杠杆神经网络模型，用于近似最优控制策略，该模型在解决实际问题时表现良好。
 
     
 
-    本文研究了基于分布不确定性的损失头寸的鲁棒优化确定等价值，并分析了其作为风险度量的相关特性。在此基础上，提出了鲁棒广义分位数并进行了讨论。进一步分别考虑了两种具体惩罚函数 $\varphi_{1}$ 和 $\varphi_{2}$ 的鲁棒期望损失，并证明了带有 $\varphi_{1}$ 的鲁棒期望损失是相容的风险度量，并建立了对偶表示定理。此外，对惩罚函数对鲁棒期望损失的影响和与期望损失的比较进行了数值模拟。
+    本研究探讨了在持久的高通胀环境下带有杠杆约束的最优多期资产配置问题。通过分析高通胀环境，发现一个等权重股票指数组成的投资组合部分随机优于一个基于市值加权的股票指数组成的投资组合。在高通胀周期内假定资产价格遵循跳跃扩散模型，我们建立了一个闭式解来解决在累积二次跟踪差异 (CD) 目标下优化策略的最优问题。该闭式解提供了一些启示，但需要不现实的限制条件。为了得到更实际的策略，我们考虑带有有限杠杆的约束最优控制问题。
 
-    The paper investigates the robust optimized certainty equivalents and analyzes the relevant properties of them as risk measures for loss positions with distribution uncertainty. On this basis, the robust generalized quantiles are proposed and discussed. The robust expectiles with two specific penalization functions $\varphi_{1}$ and $\varphi_{2}$ are further considered respectively. The robust expectiles with $\varphi_{1}$ are proved to be coherent risk measures, and the dual representation theorems are established. In addition, the effect of penalization functions on the robust expectiles and its comparison with expectiles are examined and simulated numerically.
+    We study the optimal multi-period asset allocation problem with leverage constraints in a persistent, high-inflation environment. Based on filtered high-inflation regimes, we discover that a portfolio containing an equal-weighted stock index partially stochastically dominates a portfolio containing a capitalization-weighted stock index. Assuming the asset prices follow the jump diffusion model during high inflation periods, we establish a closed-form solution for the optimal strategy that outperforms a passive strategy under the cumulative quadratic tracking difference (CD) objective. The closed-form solution provides insights but requires unrealistic constraints. To obtain strategies under more practical considerations, we consider a constrained optimal control problem with bounded leverage. To solve this optimal control problem, we propose a novel leverage-feasible neural network (LFNN) model that approximates the optimal control directly. The LFNN model avoids high-dimensional evalu
     
-[^5]: 对瞬时方差-协方差矩阵的对称半正定傅里叶估计器
+[^3]: 适应中断：灵活性作为供应链弹性的支柱。
 
-    Symmetric positive semi-definite Fourier estimator of instantaneous variance-covariance matrix. (arXiv:2304.04372v1 [stat.ME])
+    Adapting to Disruptions: Flexibility as a Pillar of Supply Chain Resilience. (arXiv:2304.05290v1 [econ.GN])
 
-    [http://arxiv.org/abs/2304.04372](http://arxiv.org/abs/2304.04372)
+    [http://arxiv.org/abs/2304.05290](http://arxiv.org/abs/2304.05290)
 
-    本文提出了一种估计现货协方差矩阵的方法，确保对称的半正定估计值，并在数值研究中得到了验证。
-
-    
-
-    本文提出了一种估计现货协方差矩阵的方法，确保对称的半正定估计值。所提出的估计器依赖于对Malliavin和Mancino(2009)中傅里叶协方差估计器的适当修改，并在适当选择加权核的情况下保持一致性。通过与文献中的竞争方法进行比较，在广泛的数值研究中评估了估计器的准确性和产生半正定协方差矩阵的能力。在考虑问题的维度性、数据的不同步和市场微观结构噪声的多个规范下，模拟研究的结果得到了证实。
-
-    In this paper we propose an estimator of spot covariance matrix which ensure symmetric positive semi-definite estimations. The proposed estimator relies on a suitable modification of the Fourier covariance estimator in Malliavin and Mancino (2009) and it is consistent for suitable choices of the weighting kernel. The accuracy and the ability of the estimator to produce positive semi-definite covariance matrices is evaluated with an extensive numerical study, in comparison with the competitors present in the literature. The results of the simulation study are confirmed under many scenarios, that consider the dimensionality of the problem, the asynchronicity of data and the presence of several specification of market microstructure noise.
-    
-[^6]: 经济学的门户是谁？地理多样性、性别比例和杂志编辑委员会的交叉指挥。
-
-    Who are the gatekeepers of economics? Geographic diversity, gender composition, and interlocking editorship of journal boards. (arXiv:2304.04242v1 [econ.GN])
-
-    [http://arxiv.org/abs/2304.04242](http://arxiv.org/abs/2304.04242)
-
-    本研究分析了经济学期刊的编辑委员会成员的国家分布、所属机构和性别，发现经济学领域的学术出版环境仍然缺乏多样性和包容性。
+    研究分析了在供应链中替代货物可以提高弹性以应对中断，通过对美国阿片类药物分配系统的详细分析，得出了增加替代灵活性的政策对减少供应短缺的作用，并可量化供应链复杂性与弹性的权衡。
 
     
 
-    编辑委员会成员在科学门户的角色非常重要，本研究分析了经济学期刊的编辑委员会成员的国家分布、所属机构和性别。同时，它还研究了由同一人在多个期刊编辑委员会任职所产生的交叉指挥网络。分析基于一个独特的数据库，包含了2019年在EconLit数据库中具有活跃编辑委员会的所有1,516个期刊。对于每个期刊，我们手动收集了委员会成员的姓名和所属机构，得到了一个包含来自142个国家的6,000多个机构的44,000多个成员的数据库。这些数据使得我们能够在前所未有的大规模上研究当代经济学的门户现象。结果突出了有关编辑门户的一些共同问题，得出的结论是在经济学领域，学术出版环境仍然远未达到足够多样化和包容性的水平。
+    供应链中的中断会导致原材料和产品的短缺。为了增强弹性，即应对冲击的能力，替代已建立的供应链中的货物可以成为创建新的分配环节的有效替代方案。我们通过对美国阿片类药物分配系统进行详细分析，展示了其对供应短缺的影响。重构了400亿个实证分配路径，我们的数据驱动模型允许对增加替代灵活性的政策进行独特的检验。我们的方法使决策者能够量化增加灵活性的权衡，即减少供应短缺和增加供应链复杂性之间的权衡，后者可能会使其更昂贵。
 
-    Members of editorial boards play the role of gatekeepers of science because. This paper analyses the national distribution of editorial boards members of economics journal, their affiliation, and their gender. It studies also the interlocking editorship network generated by the presence of a same person on the editorial board of more than one journal. The analysis is based on a unique database comprising all the 1,516 journals indexed in the database EconLit with an active editorial board in 2019. For each journal, we manually collected the names of the board members along with their affiliation, obtaining a database containing more than 44,000 members from more than 6,000 institutions and 142 countries. These data allow to investigate the phenomenon of gatekeeping in contemporary economics on an unprecedented large scale. The obtained results highlight some common issues concerning the editorial gatekeeping, leading to the conclusion that in Economics the academic publishing environme
+    Supply chain disruptions cause shortages of raw material and products. To increase resilience, i.e., the ability to cope with shocks, substituting goods in established supply chains can become an effective alternative to creating new distribution links. We demonstrate its impact on supply deficits through a detailed analysis of the US opioid distribution system. Reconstructing 40 billion empirical distribution paths, our data-driven model allows a unique inspection of policies that increase the substitution flexibility. Our approach enables policymakers to quantify the trade-off between increasing flexibility, i.e., reduced supply deficits, and increasing complexity of the supply chain, which could make it more expensive to operate.
     
-[^7]: 非对称网络、客户主义及其影响：印度农村家庭获取公共就业岗位的途径。
+[^4]: 映射工作复杂性和技能等级与工资之间的关系
 
-    Asymmetric networks, clientelism and their impacts: households' access to workfare employment in rural India. (arXiv:2304.04236v1 [econ.GN])
+    Mapping job complexity and skills into wages. (arXiv:2304.05251v1 [econ.GN])
 
-    [http://arxiv.org/abs/2304.04236](http://arxiv.org/abs/2304.04236)
+    [http://arxiv.org/abs/2304.05251](http://arxiv.org/abs/2304.05251)
 
-    本文研究了印度农村家庭获得公共就业机会的因素，发现非对称网络和客户主义关系会影响其获得就业机会，并提供了相应的理论模型支持。
-
-    
-
-    本文探讨了两个相互关联的问题。首先，我们使用原始数据，研究了建立在多个生活领域丰富关系信息基础上的非对称网络对印度农村地区获得公共就业机会的影响。我们发现，与相互关系相比，单向关系以及这种单向关系的集中可以提高农村家庭获得公共就业机会的机会。进一步深入的探究提供证据表明，家长-客户关系是决定农村家庭获得这种就业机会的因素。作为我们实证研究的补充，我们构建并分析了一个支持我们发现的博弈理论模型。
-
-    In this paper we explore two intertwined issues. First, using primary data we examine the impact of asymmetric networks, built on rich relational information on several spheres of living, on access to workfare employment in rural India. We find that unidirectional relations, as opposed to reciprocal relations, and the concentration of such unidirectional relations increase access to workfare jobs. Further in-depth exploration provides evidence that patron-client relations are responsible for this differential access to such employment for rural households. Complementary to our empirical exercises, we construct and analyse a game-theoretical model supporting our findings.
-    
-[^8]: OFTER：一种专门针对中等规模多元时间序列的在线预测管线
-
-    OFTER: An Online Pipeline for Time Series Forecasting. (arXiv:2304.03877v1 [stat.ML])
-
-    [http://arxiv.org/abs/2304.03877](http://arxiv.org/abs/2304.03877)
-
-    本文介绍了OFTER，一种专门针对中等规模多种时间序列的在线预测管线，能够胜过几种最先进的基准方法。OFTER是金融多元时间序列问题的理想解决方案。
+    通过算法和网络工具，本研究探究了工作的技能等级、复杂度和薪酬之间的关系，并发现一致技能要求的工作平均工资较低。工资不仅仅反映工作的价值，还可能受其他工资设定动态的影响。
 
     
 
-    本文介绍了OFTER，一种专门针对中等规模多元时间序列的预测管线。OFTER利用kNN和广义回归神经网络的非参数模型，并与降维组件集成在一起。为了避免高维度的困境，我们采用基于修改后的最大相关系数的加权范数。我们介绍的管线专门针对在线任务进行设计，具有可解释性，并能够胜过几种最先进的基准方法。算法的计算效率、在线性质以及在低信噪比环境下运行的能力使OFTER成为金融多元时间序列问题的理想解决方案，例如每日股票预测。
+    我们使用算法和基于网络的工具来构建和分析将工作与所需技能相连的二分网络。我们使用经过统计验证的网络来量化和代表工作与技能之间的相关性。使用适应度和复杂度算法，我们计算出了工作的基于技能的复杂度。该数量与工作的平均工资、抽象性和非例行性水平呈正相关。此外，具有一致技能要求的工作平均工资较低。我们发现，工资并不总是反映工作的内在价值，而可能是其他工资设定动态的结果，这些动态可能与其技能组合没有直接的关系。我们的结果为决策制定者、雇主和个人提供了有价值的信息，以更好地了解劳动力市场的动态并做出关于他们职业生涯的明智决策。
 
-    We introduce OFTER, a time series forecasting pipeline tailored for mid-sized multivariate time series. OFTER utilizes the non-parametric models of k-nearest neighbors and Generalized Regression Neural Networks, integrated with a dimensionality reduction component. To circumvent the curse of dimensionality, we employ a weighted norm based on a modified version of the maximal correlation coefficient. The pipeline we introduce is specifically designed for online tasks, has an interpretable output, and is able to outperform several state-of-the art baselines. The computational efficacy of the algorithm, its online nature, and its ability to operate in low signal-to-noise regimes, render OFTER an ideal approach for financial multivariate time series problems, such as daily equity forecasting. Our work demonstrates that while deep learning models hold significant promise for time series forecasting, traditional methods carefully integrating mainstream tools remain very competitive alternati
+    We use algorithmic and network-based tools to build and analyze the bipartite network connecting jobs with the skills they require. We quantify and represent the relatedness between jobs and skills by using statistically validated networks. Using the fitness and complexity algorithm, we compute a skill-based complexity of jobs. This quantity is positively correlated with the average salary, abstraction, and non-routinarity level of jobs. Furthermore, coherent jobs - defined as the ones requiring closely related skills - have, on average, lower wages. We find that salaries may not always reflect the intrinsic value of a job, but rather other wage-setting dynamics that may not be directly related to its skill composition. Our results provide valuable information for policymakers, employers, and individuals to better understand the dynamics of the labor market and make informed decisions about their careers.
     
-[^9]: f-Betas与基于f-散度风险度量的投资组合优化
+[^5]: 目标是系统化的日内新闻筛选: 一个关注流动性的方法
 
-    f-Betas and Portfolio Optimization with f-Divergence induced Risk Measures. (arXiv:2302.00452v2 [q-fin.PM] UPDATED)
+    Towards systematic intraday news screening: a liquidity-focused approach. (arXiv:2304.05115v1 [q-fin.TR])
 
-    [http://arxiv.org/abs/2302.00452](http://arxiv.org/abs/2302.00452)
+    [http://arxiv.org/abs/2304.05115](http://arxiv.org/abs/2304.05115)
 
-    本研究基于f-散度引导的风险度量进行投资组合优化，并提出了一种新的f-Beta度量绩效。实验结果表明，基于Hellinger-Beta的方法可以提供新的视角和比标准Beta和Drawdown Beta更好的性能评估。
-
-    
-
-    本文研究了使用f-散度引导的一类相容风险度量来进行投资组合优化，并导出了在CAPM格式下的必要最佳条件。我们提出了一种新的f-Beta，类似于标准Beta和之前研究中的Drawdown Beta。f-Beta在最优扰动市场概率测度下评估投资组合绩效，并且该Beta度量家族提供了各种程度的灵活性和可解释性。我们采用DOW 30股票对比选择市场投资组合作为最优组合，以展示基于Hellinger-Beta的新视角，以及其与标准Beta和Drawdown Beta的不同之处，基于选择平方Hellinger距离作为f-散度函数的特定选择，衡量f-散度引导的风险度量和f-Betas。我们基于偏差度量计算了Hellinger-Beta度量，并进一步扩展了该方法以计算Hellinger-Betas。
-
-    In this paper, we build on using the class of f-divergence induced coherent risk measures for portfolio optimization and derive its necessary optimality conditions formulated in CAPM format. We have derived a new f-Beta similar to the Standard Betas and previous works in Drawdown Betas. The f-Beta evaluates portfolio performance under an optimally perturbed market probability measure and this family of Beta metrics gives various degrees of flexibility and interpretability. We conducted numerical experiments using DOW 30 stocks against a chosen market portfolio as the optimal portfolio to demonstrate the new perspectives provided by Hellinger-Beta as compared with Standard Beta and Drawdown Betas, based on choosing square Hellinger distance to be the particular choice of f-divergence function in the general f-divergence induced risk measures and f-Betas. We calculated Hellinger-Beta metrics based on deviation measures and further extended this approach to calculate Hellinger-Betas based
-    
-[^10]: 具有因果约束和结构信息的分布鲁棒风险评估
-
-    Distributionally robust risk evaluation with a causality constraint and structural information. (arXiv:2203.10571v3 [q-fin.MF] UPDATED)
-
-    [http://arxiv.org/abs/2203.10571](http://arxiv.org/abs/2203.10571)
-
-    本文提出了具有因果约束的分布鲁棒风险评估方法，并用神经网络逼近测试函数。在结构信息有限制时，提供了高效的优化方法。
+    该论文提出了一种系统化的新闻筛选方法，以识别有影响力的新闻，基于流动性驱动的变量，并利用朴素贝叶斯方法分析相关新闻情绪。
 
     
 
-    本文研究了基于时间数据的期望函数值的分布鲁棒评估。一组备选度量通过因果最优传输进行表征。我们证明了强对偶性，并将因果约束重构为无限维测试函数空间的最小化问题。我们通过神经网络逼近测试函数，并用Rademacher复杂度证明了样本复杂度。此外，当结构信息可用于进一步限制模糊集时，我们证明了对偶形式并提供高效的优化方法。对实现波动率和股指的经验分析表明，我们的框架为经典最优传输公式提供了一种有吸引力的替代方案。
+    新闻可以传达对金融资产看跌或看涨的观点。机构投资者需要基于文本数据自动评估隐含的新闻情绪。鉴于每天发布的大量新闻文章中，大多数都是中性的，我们提出了一种系统化的新闻筛选方法，以识别“真正”有影响力的新闻，旨在更有效地开发新闻情绪学习方法。基于几个由流动性驱动的变量，包括波动性、成交量、买卖价差和成交额，我们将每个5分钟时间段与两种特定的流动性模式之一相关联。其中一个代表市场在大部分时间停留在“平静”状态，而另一个则以相对较高的波动率和交易量为特征，描述受某些外生事件驱动的情况。然后，我们关注流动性模式从前者切换到后者的时刻，并考虑附近发布的新闻文章具有影响力。我们在这些文章上应用朴素贝叶斯方法。
 
-    This work studies distributionally robust evaluation of expected function values over temporal data. A set of alternative measures is characterized by the causal optimal transport. We prove the strong duality and recast the causality constraint as minimization over an infinite-dimensional test function space. We approximate test functions by neural networks and prove the sample complexity with Rademacher complexity. Moreover, when structural information is available to further restrict the ambiguity set, we prove the dual formulation and provide efficient optimization methods. Empirical analysis of realized volatility and stock indices demonstrates that our framework offers an attractive alternative to the classic optimal transport formulation.
+    News can convey bearish or bullish views on financial assets. Institutional investors need to evaluate automatically the implied news sentiment based on textual data. Given the huge amount of news articles published each day, most of which are neutral, we present a systematic news screening method to identify the ``true'' impactful ones, aiming for more effective development of news sentiment learning methods. Based on several liquidity-driven variables, including volatility, turnover, bid-ask spread, and book size, we associate each 5-min time bin to one of two specific liquidity modes. One represents the ``calm'' state at which the market stays for most of the time and the other, featured with relatively higher levels of volatility and trading volume, describes the regime driven by some exogenous events. Then we focus on the moments where the liquidity mode switches from the former to the latter and consider the news articles published nearby impactful. We apply naive Bayes on these 
+    
+[^6]: 基于Schr{\"o}dinger bridge的时序生成建模
+
+    Generative modeling for time series via Schr{\"o}dinger bridge. (arXiv:2304.05093v1 [math.OC])
+
+    [http://arxiv.org/abs/2304.05093](http://arxiv.org/abs/2304.05093)
+
+    本文提出了一种基于Schr{\"o}dinger bridge的时序生成模型，可以通过熵插值最优传输来处理参考路径空间上的参考概率分布和目标测度之间的关系，模型的解由有限时间区间内的随机微分方程和由数据估计的路径依赖漂移函数组成，通过模拟SB扩散过程产生新的合成数据样本，实验证明该方法在玩具自回归模型、GARCH模型和分形布朗运动方面具有很好的性能。
+
+    
+
+    本文提出了一种新的基于Schr{\"o}dinger bridge (SB)方法的时序生成模型。该方法通过熵插值最优传输来处理参考路径空间上的参考概率分布和与时间序列的联合数据分布一致的目标测度之间的关系，模型的解由有限时间区间内的随机微分方程和路径依赖漂移函数组成，因此能很好地保持时间序列分布的时域特性。我们可以通过核回归方法或LSTM神经网络从数据样本中估计漂移函数，并通过模拟SB扩散过程产生新的合成数据样本。文章通过一系列数值实验评估了我们的生成模型的性能。首先，我们用玩具自回归模型、GARCH模型和分形布朗运动来测试，用边际和时间依赖度量我们算法的准确性。
+
+    We propose a novel generative model for time series based on Schr{\"o}dinger bridge (SB) approach. This consists in the entropic interpolation via optimal transport between a reference probability measure on path space and a target measure consistent with the joint data distribution of the time series. The solution is characterized by a stochastic differential equation on finite horizon with a path-dependent drift function, hence respecting the temporal dynamics of the time series distribution. We can estimate the drift function from data samples either by kernel regression methods or with LSTM neural networks, and the simulation of the SB diffusion yields new synthetic data samples of the time series. The performance of our generative model is evaluated through a series of numerical experiments. First, we test with a toy autoregressive model, a GARCH Model, and the example of fractional Brownian motion, and measure the accuracy of our algorithm with marginal and temporal dependencies 
+    
+[^7]: 改善上下文感知流程选择的五个指南：澳大利亚银行业视角研究
+
+    Five guidelines to improve context-aware process selection: an Australian banking perspective. (arXiv:2304.05033v1 [econ.GN])
+
+    [http://arxiv.org/abs/2304.05033](http://arxiv.org/abs/2304.05033)
+
+    本研究从澳大利亚银行业的视角出发，采用设计科学方法，提出了改善上下文感知流程选择的五个实用指南。
+
+    
+
+    作为业务流程管理（BPM）生命周期的第一阶段，流程识别解决了确定需要优先改进哪些流程的问题。流程选择在这个阶段中起着至关重要的作用，但是这一步存在已知的问题。决策者经常依赖主观标准，而他们对选定的替代流程的了解常常不一致。这导致决策质量差，浪费资源。近年来，拒绝一刀切的BPM方法，转而采用更多上下文感知方法引起了重视。本研究考虑了上下文在流程选择中的作用。上下文是定性的、主观的、对决策制定偏见敏感和政治敏感的。我们采用了设计科学方法，并通过研究方法结合行业决策者的意见来评估流程输入不同配置对流程选择的影响。
+
+    As the first phase in the Business Process Management (BPM) lifecycle, process identification addresses the problem of identifying which processes to prioritize for improvement. Process selection plays a critical role in this phase, but it is a step with known pitfalls. Decision makers rely frequently on subjective criteria, and their knowledge of the alternative processes put forward for selection is often inconsistent. This leads to poor quality decision-making and wastes resources. In recent years, a rejection of a one-size-fits-all approach to BPM in favor of a more context-aware approach has gained significant academic attention. In this study, the role of context in the process selection step is considered. The context is qualitative, subjective, sensitive to decision-making bias and politically charged. We applied a design-science approach and engaged industry decision makers through a combination of research methods to assess how different configurations of process inputs influ
+    
+[^8]: 高斯橄榄模型下重尾风险的研究: 边缘转换的影响
+
+    On heavy-tailed risks under Gaussian copula: the effects of marginal transformation. (arXiv:2304.05004v1 [q-fin.RM])
+
+    [http://arxiv.org/abs/2304.05004](http://arxiv.org/abs/2304.05004)
+
+    本文研究了边缘重尾风险呈高斯橄榄模型的多变量尾部风险概率，并发现在复杂条件下不同类型的尾部集合的概率衰减速率有所区别，而更重的尾部边缘变量下的联合尾部行为具有不同的结构。
+
+    
+
+    本文研究了边缘风险呈重尾分布且依赖结构为高斯橄榄模型时的多元尾部风险概率计算。使用正则变化对边缘重尾风险进行建模，发现当阈值增加时，尾部集合的概率衰减速率会随着考虑的尾部集合类型和高斯相关矩阵的不同而变化。其次，发现虽然任何带有高斯橄榄模型的多元模型都具有所谓的渐进尾独立性质，但在更重的尾部边缘变量下的联合尾部行为与在高斯边缘变量下具有结构上的不同。本文使用示例和模拟来说明所得结果。
+
+    In this paper, we compute multivariate tail risk probabilities where the marginal risks are heavy-tailed and the dependence structure is a Gaussian copula. The marginal heavy-tailed risks are modeled using regular variation which leads to a few interesting consequences. First, as the threshold increases, we note that the rate of decay of probabilities of tail sets vary depending on the type of tail sets considered and the Gaussian correlation matrix. Second, we discover that although any multivariate model with a Gaussian copula admits the so called asymptotic tail independence property, the joint tail behavior under heavier tailed marginal variables is structurally distinct from that under Gaussian marginal variables. The results obtained are illustrated using examples and simulations.
+    
+[^9]: 监管市场：人工智能治理的未来
+
+    Regulatory Markets: The Future of AI Governance. (arXiv:2304.04914v1 [cs.AI])
+
+    [http://arxiv.org/abs/2304.04914](http://arxiv.org/abs/2304.04914)
+
+    提出一种监管市场的概念，即政府要求受监管对象从私人监管机构购买监管服务，以克服过度依赖行业自律和立法机构缺乏专业知识的局限性，从而逐步实现人工智能的恰当监管。
+
+    
+
+    恰当地监管人工智能是一个日益紧迫的政策挑战。立法机构和监管机构缺乏翻译公众需求为法律要求所需的专业知识。过度依赖行业自律未能使AI系统的生产者和使用者对民主要求负责。提出了监管市场的概念，即政府要求受监管对象从私人监管机构购买监管服务。这种方法可以克服命令和控制监管和自我监管的局限性。监管市场可以使政府为AI监管建立政策优先级，同时依靠市场力量和行业研发努力来开创最能实现政策制定者声明目标的监管方法。
+
+    Appropriately regulating artificial intelligence is an increasingly urgent policy challenge. Legislatures and regulators lack the specialized knowledge required to best translate public demands into legal requirements. Overreliance on industry self-regulation fails to hold producers and users of AI systems accountable to democratic demands. Regulatory markets, in which governments require the targets of regulation to purchase regulatory services from a private regulator, are proposed. This approach to AI regulation could overcome the limitations of both command-and-control regulation and self-regulation. Regulatory market could enable governments to establish policy priorities for the regulation of AI, whilst relying on market forces and industry R&D efforts to pioneer the methods of regulation that best achieve policymakers' stated objectives.
+    
+[^10]: 使用CNN和Transformer进行金融时间序列预测
+
+    Financial Time Series Forecasting using CNN and Transformer. (arXiv:2304.04912v1 [cs.LG])
+
+    [http://arxiv.org/abs/2304.04912](http://arxiv.org/abs/2304.04912)
+
+    本文提出了结合使用CNN和Transformer来预测金融时间序列的涨跌幅。
+
+    
+
+    时间序列预测在各个领域的决策中都是重要的。其中，金融时间序列（如股票价格）的预测往往比较困难，因为很难对数据点之间的短期和长期时间依赖性建模。卷积神经网络（CNN）对于捕捉短期依赖关系的局部模式很擅长。然而，由于有限的感受野，CNN不能学习长期依赖性。另一方面，Transformer可以学习全局上下文和长期依赖关系。在本文中，我们提出了利用CNN和Transformer的优势来建模时间序列中的短期和长期依赖关系，并预测未来价格的涨跌幅。在实验中，我们比较了所提出的方法与常用的统计和深度学习方法在预测标普500成分股盘中盘股价格变化方面的成功应用。
+
+    Time series forecasting is important across various domains for decision-making. In particular, financial time series such as stock prices can be hard to predict as it is difficult to model short-term and long-term temporal dependencies between data points. Convolutional Neural Networks (CNN) are good at capturing local patterns for modeling short-term dependencies. However, CNNs cannot learn long-term dependencies due to the limited receptive field. Transformers on the other hand are capable of learning global context and long-term dependencies. In this paper, we propose to harness the power of CNNs and Transformers to model both short-term and long-term dependencies within a time series, and forecast if the price would go up, down or remain the same (flat) in the future. In our experiments, we demonstrated the success of the proposed method in comparison to commonly adopted statistical and deep learning methods on forecasting intraday stock price change of S&P 500 constituents.
+    
+[^11]: 用多模态对比学习连接表示
+
+    Linking Representations with Multimodal Contrastive Learning. (arXiv:2304.03464v1 [cs.CV])
+
+    [http://arxiv.org/abs/2304.03464](http://arxiv.org/abs/2304.03464)
+
+    本文提出了一种名为CLIPPINGS的多模态框架，用于记录链接。该框架利用深度学习和对比学习的方法，通过端到端训练对称的视觉和语言编码器，在度量空间中学习相近或不同类别的表示方法，用于多个应用场景，如构建全面的补充专利注册表和识别不同社交媒体平台上的个人。
+
+    
+
+    许多应用需要将包含在各种文档数据集中的实例分组成类。最广泛使用的方法不使用深度学习，也不利用文档固有的多模态性质。值得注意的是，记录链接通常被概念化为字符串匹配问题。本研究开发了 CLIPPINGS，一种用于记录链接的多模态框架。CLIPPINGS 采用端到端训练对称的视觉和语言双编码器，通过对比语言-图像预训练进行对齐，学习一个度量空间，其中给定实例的汇总图像-文本表示靠近同一类中的表示，并远离不同类中的表示。在推理时，可以通过从离线示例嵌入索引中检索它们最近的邻居或聚类它们的表示来链接实例。本研究研究了两个具有挑战性的应用：通过将专利与其对应的监管文件链接来构建全面的补充专利注册表，以及在不同的社交媒体平台上识别个人。
+
+    Many applications require grouping instances contained in diverse document datasets into classes. Most widely used methods do not employ deep learning and do not exploit the inherently multimodal nature of documents. Notably, record linkage is typically conceptualized as a string-matching problem. This study develops CLIPPINGS, (Contrastively Linking Pooled Pre-trained Embeddings), a multimodal framework for record linkage. CLIPPINGS employs end-to-end training of symmetric vision and language bi-encoders, aligned through contrastive language-image pre-training, to learn a metric space where the pooled image-text representation for a given instance is close to representations in the same class and distant from representations in different classes. At inference time, instances can be linked by retrieving their nearest neighbor from an offline exemplar embedding index or by clustering their representations. The study examines two challenging applications: constructing comprehensive suppl
+    
+[^12]: 基于分位数风险度量的均值-方差混合组合优化。
+
+    Mean-variance hybrid portfolio optimization with quantile-based risk measure. (arXiv:2303.15830v1 [q-fin.PM])
+
+    [http://arxiv.org/abs/2303.15830](http://arxiv.org/abs/2303.15830)
+
+    本文提出了一种基于分位数风险度量的动态混合组合优化模型，在有利市场状态下分配更高的风险资产和在不利市场状态下分配更少的风险资产来提高投资回报并降低风险。
+
+    
+
+    本文探讨了在投资组合管理中加入风险度量的重要性，并提出了一种动态混合组合优化模型，该模型将频谱风险度量和价值风险度量结合在均值-方差公式中。通过利用分位数优化技术和鞅表示，我们为这些问题提供了一个解决框架，并在所有市场参数都是确定性的情况下，开发了一个闭式组合策略。相比于基准模型，我们的混合模型通过在有利市场状态下分配更高的风险资产和在不利市场状态下分配更少的风险资产来获得更好的表现。这种优势带来了很有前景的数值实验结果，包括改善了Sortino比率，降低了下行风险。
+
+    This paper addresses the importance of incorporating various risk measures in portfolio management and proposes a dynamic hybrid portfolio optimization model that combines the spectral risk measure and the Value-at-Risk in the mean-variance formulation. By utilizing the quantile optimization technique and martingale representation, we offer a solution framework for these issues and also develop a closed-form portfolio policy when all market parameters are deterministic. Our hybrid model outperforms the classical continuous-time mean-variance portfolio policy by allocating a higher position of the risky asset in favorable market states and a less risky asset in unfavorable market states. This desirable property leads to promising numerical experiment results, including improved Sortino ratio and reduced downside risk compared to the benchmark models.
+    
+[^13]: 评估制药药品创新价值
+
+    Valuing Pharmaceutical Drug Innovations. (arXiv:2212.07384v2 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2212.07384](http://arxiv.org/abs/2212.07384)
+
+    通过市场价值和研发成本，估计了制药药品创新的平均价值。成功药品的平均价值为 16.2 亿美元，临床试验前阶段的平均价值为 6430 万美元，成本为 5850 万美元。
+
+    
+
+    我们通过估计药品市场价值和研发成本来衡量制药药品创新的价值。我们依靠市场对药品研发公告的反应来确定价值和成本。利用公司公告数据和日收益率，我们估计成功药品的平均价值为16.2亿美元。平均而言，发现阶段的药品评估为6430万美元，成本为5850万美元。三个临床试验阶段的平均成本分别为600万美元、3000万美元和4100万美元。我们还研究了将这些估计应用于支持药品研发的政策的可能性。
+
+    We measure the $\textit{value of pharmaceutical drug innovations}$ by estimating the market values of drugs and their development costs. We rely on market responses to drug development announcements to identify the values and costs. Using data on announcements by firms and their daily stock returns, we estimate the average value of successful drugs at \$1.62 billion. At the discovery stage, on average, drugs are valued at \$64.3 million and cost \$58.5 million. The average costs of the three phases of clinical trials are \$0.6, \$30, and \$41 million, respectively. We also investigate applying these estimates to policies supporting drug development.
+    
+[^14]: Epstein-Zin问题的稳定性
+
+    Stability of the Epstein-Zin problem. (arXiv:2208.09895v2 [q-fin.MF] UPDATED)
+
+    [http://arxiv.org/abs/2208.09895](http://arxiv.org/abs/2208.09895)
+
+    研究在交易证券动态小扭曲的情况下Epstein-Zin问题的稳定性，并提供了解的唯一性条件以及相关过程的收敛。
+
+    
+
+    我们研究了在交易证券动态小扭曲的情况下，Epstein-Zin问题的稳定性。我们在不完全市场模型设置中工作，在此设置下，我们参数化扰动允许在风险资产和利率的回报和波动性中进行联合扭曲。考虑到风险厌恶和跨期代替弹性的最相关规范，我们提供了一个保证基础问题的凸性并导致其解的存在和唯一性的条件。然后，我们证明了当模型扰动消失时，最优消费流、相关财富流程、间接效用过程和价值函数的收敛。
+
+    We investigate the stability of the Epstein-Zin problem with respect to small distortions in the dynamics of the traded securities. We work in incomplete market model settings, where our parametrization of perturbations allows for joint distortions in returns and volatility of the risky assets and the interest rate. Considering empirically the most relevant specifications of risk aversion and elasticity of intertemporal substitution, we provide a condition that guarantees the convexity of the domain of the underlying problem and results in the existence and uniqueness of a solution to it. Then, we prove the convergence of the optimal consumption streams, the associated wealth processes, the indirect utility processes, and the value functions in the limit when the model perturbations vanish.
     
 

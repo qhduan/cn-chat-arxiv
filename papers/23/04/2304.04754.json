@@ -1,0 +1,12 @@
+{
+    "title": "Por\\'ownanie metod detekcji zaj\\k{e}to\\'sci widma radiowego z wykorzystaniem uczenia federacyjnego z oraz bez w\\k{e}z{\\l}a centralnego. (arXiv:2304.04754v1 [cs.NI])",
+    "abstract": "Dynamic spectrum access systems typically require information about the spectrum occupancy and thus the presence of other users in order to make a spectrum al-location decision for a new device. Simple methods of spectrum occupancy detection are often far from reliable, hence spectrum occupancy detection algorithms supported by machine learning or artificial intelligence are often and successfully used. To protect the privacy of user data and to reduce the amount of control data, an interesting approach is to use federated machine learning. This paper compares two approaches to system design using federated machine learning: with and without a central node.",
+    "link": "http://arxiv.org/abs/2304.04754",
+    "context": "Title: Por\\'ownanie metod detekcji zaj\\k{e}to\\'sci widma radiowego z wykorzystaniem uczenia federacyjnego z oraz bez w\\k{e}z{\\l}a centralnego. (arXiv:2304.04754v1 [cs.NI])\nAbstract: Dynamic spectrum access systems typically require information about the spectrum occupancy and thus the presence of other users in order to make a spectrum al-location decision for a new device. Simple methods of spectrum occupancy detection are often far from reliable, hence spectrum occupancy detection algorithms supported by machine learning or artificial intelligence are often and successfully used. To protect the privacy of user data and to reduce the amount of control data, an interesting approach is to use federated machine learning. This paper compares two approaches to system design using federated machine learning: with and without a central node.",
+    "path": "papers/23/04/2304.04754.json",
+    "total_tokens": 687,
+    "translated_title": "基于联邦学习的无线电频谱占用检测方法的比较：节点和无节点设计",
+    "translated_abstract": "动态频谱接入系统通常需要关于频谱占用情况和其他用户存在的信息，以便为新设备做出频谱分配决策。简单的频谱占用检测方法经常不够可靠，因此通常成功地采用支持机器学习或人工智能的频谱占用检测算法。为了保护用户数据的隐私和减少控制数据量，一个有趣的方法是使用联邦机器学习。本文比较了两种使用联邦机器学习的系统设计方法：带有中央节点和不带中央节点。",
+    "tldr": "本文比较了两种使用联邦机器学习的系统设计方法：带有中央节点和不带中央节点。",
+    "en_tdlr": "This paper compares two approaches to system design using federated machine learning: with and without a central node."
+}

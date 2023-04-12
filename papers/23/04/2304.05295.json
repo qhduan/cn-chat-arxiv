@@ -1,0 +1,12 @@
+{
+    "title": "A Comprehensive Study on Object Detection Techniques in Unconstrained Environments. (arXiv:2304.05295v1 [cs.CV])",
+    "abstract": "Object detection is a crucial task in computer vision that aims to identify and localize objects in images or videos. The recent advancements in deep learning and Convolutional Neural Networks (CNNs) have significantly improved the performance of object detection techniques. This paper presents a comprehensive study of object detection techniques in unconstrained environments, including various challenges, datasets, and state-of-the-art approaches. Additionally, we present a comparative analysis of the methods and highlight their strengths and weaknesses. Finally, we provide some future research directions to further improve object detection in unconstrained environments.",
+    "link": "http://arxiv.org/abs/2304.05295",
+    "context": "Title: A Comprehensive Study on Object Detection Techniques in Unconstrained Environments. (arXiv:2304.05295v1 [cs.CV])\nAbstract: Object detection is a crucial task in computer vision that aims to identify and localize objects in images or videos. The recent advancements in deep learning and Convolutional Neural Networks (CNNs) have significantly improved the performance of object detection techniques. This paper presents a comprehensive study of object detection techniques in unconstrained environments, including various challenges, datasets, and state-of-the-art approaches. Additionally, we present a comparative analysis of the methods and highlight their strengths and weaknesses. Finally, we provide some future research directions to further improve object detection in unconstrained environments.",
+    "path": "papers/23/04/2304.05295.json",
+    "total_tokens": 719,
+    "translated_title": "面向非约束环境的目标检测技术综合研究",
+    "translated_abstract": "目标检测是计算机视觉中的重要任务，旨在识别和定位图像或视频中的对象。深度学习和卷积神经网络（CNN）的最新进展显著提高了对象检测技术的性能。本文对非约束环境下的目标检测技术进行了全面研究，包括各种挑战、数据集和最先进的方法。此外，我们进行了方法的比较分析，并突出了它们的优缺点。最后，我们提供了一些未来的研究方向，以进一步提高非约束环境下的目标检测能力。",
+    "tldr": "本文全面研究了面向非约束环境的目标检测技术，包括挑战、数据集和最先进的方法，并进行了方法的比较分析，提供了未来的研究方向。",
+    "en_tdlr": "This paper presents a comprehensive study of object detection techniques in unconstrained environments, including various challenges, datasets, and state-of-the-art approaches. The methods are compared and analyzed, and some future research directions are provided to further improve object detection in unconstrained environments."
+}

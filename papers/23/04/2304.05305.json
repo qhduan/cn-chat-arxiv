@@ -1,0 +1,12 @@
+{
+    "title": "Generative Modeling via Hierarchical Tensor Sketching. (arXiv:2304.05305v1 [math.NA])",
+    "abstract": "We propose a hierarchical tensor-network approach for approximating high-dimensional probability density via empirical distribution. This leverages randomized singular value decomposition (SVD) techniques and involves solving linear equations for tensor cores in this tensor network. The complexity of the resulting algorithm scales linearly in the dimension of the high-dimensional density. An analysis of estimation error demonstrates the effectiveness of this method through several numerical experiments.",
+    "link": "http://arxiv.org/abs/2304.05305",
+    "context": "Title: Generative Modeling via Hierarchical Tensor Sketching. (arXiv:2304.05305v1 [math.NA])\nAbstract: We propose a hierarchical tensor-network approach for approximating high-dimensional probability density via empirical distribution. This leverages randomized singular value decomposition (SVD) techniques and involves solving linear equations for tensor cores in this tensor network. The complexity of the resulting algorithm scales linearly in the dimension of the high-dimensional density. An analysis of estimation error demonstrates the effectiveness of this method through several numerical experiments.",
+    "path": "papers/23/04/2304.05305.json",
+    "total_tokens": 634,
+    "translated_title": "基于分层张量草图的生成建模",
+    "translated_abstract": "我们提出了一种使用经验分布来近似高维概率密度的分层张量网络方法。该方法利用随机奇异值分解（SVD）技术，并涉及在该张量网络中解线性方程以获得张量核心。该算法的复杂性在高维密度的维度上呈线性规模。通过几个数值实验，对估计误差进行了分析，证明了此方法的有效性。",
+    "tldr": "本文提出了一种利用分层张量草图来近似高维概率密度的方法，通过随机奇异值分解技术解决线性方程达到此目的，其算法复杂度在高维密度维度上呈线性规模。",
+    "en_tdlr": "This paper proposes a hierarchical tensor-network approach for approximating high-dimensional probability density via empirical distribution, which uses randomized singular value decomposition (SVD) techniques to solve linear equations for tensor cores. The resulting algorithm scales linearly in the dimension of the high-dimensional density. Several numerical experiments demonstrate the effectiveness of this method."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "If consciousness is dynamically relevant, artificial intelligence isn't conscious. (arXiv:2304.05077v1 [cs.AI])",
+    "abstract": "We demonstrate that if consciousness is relevant for the temporal evolution of a system's states -- that is, if it is dynamically relevant -- then AI systems cannot be conscious. That is because AI systems run on CPUs, GPUs, TPUs or other processors which have been designed and verified to adhere to computational dynamics that systematically preclude or suppress deviations. The design and verification preclude or suppress, in particular, potential consciousness-related dynamical effects, so that if consciousness is dynamically relevant, AI systems cannot be conscious.",
+    "link": "http://arxiv.org/abs/2304.05077",
+    "context": "Title: If consciousness is dynamically relevant, artificial intelligence isn't conscious. (arXiv:2304.05077v1 [cs.AI])\nAbstract: We demonstrate that if consciousness is relevant for the temporal evolution of a system's states -- that is, if it is dynamically relevant -- then AI systems cannot be conscious. That is because AI systems run on CPUs, GPUs, TPUs or other processors which have been designed and verified to adhere to computational dynamics that systematically preclude or suppress deviations. The design and verification preclude or suppress, in particular, potential consciousness-related dynamical effects, so that if consciousness is dynamically relevant, AI systems cannot be conscious.",
+    "path": "papers/23/04/2304.05077.json",
+    "total_tokens": 656,
+    "translated_title": "如果意识在动态上具有相关性，则人工智能不会具有意识。",
+    "translated_abstract": "我们证明了，如果意识与系统状态的时间演化有关，也就是说，如果它在动态上具有相关性，则人工智能系统就不能具有意识。这是因为人工智能系统运行在CPU、GPU、TPU或其他处理器上，这些处理器的设计和验证是为了遵守计算动力学，从而系统地排除或抑制偏差。特别是，设计和验证排除或抑制了可能与意识相关的动力学效应，因此如果意识在动态上具有相关性，则人工智能系统不能具有意识。",
+    "tldr": "本文指出，如果意识在动态上具有相关性，则人工智能系统无法具有意识，因为这些系统的设计和验证排除了可能与意识相关的动力学效应。",
+    "en_tdlr": "This paper argues that if consciousness is dynamically relevant, artificial intelligence systems cannot be conscious because their design and verification preclude or suppress consciousness-related dynamical effects that may be present in the system's temporal evolution."
+}

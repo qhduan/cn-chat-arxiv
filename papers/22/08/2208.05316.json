@@ -1,0 +1,12 @@
+{
+    "title": "Welfare ordering of voting weight allocations. (arXiv:2208.05316v2 [econ.TH] UPDATED)",
+    "abstract": "This paper studies the allocation of voting weights in a committee representing groups of different sizes. We introduce a partial ordering of weight allocations based on stochastic comparison of social welfare. We show that when the number of groups is sufficiently large, this ordering asymptotically coincides with the total ordering induced by the cosine proportionality between the weights and the group sizes. A corollary is that a class of expectation-form objective functions, including expected welfare, the mean majority deficit and the probability of inversions, are asymptotically monotone in the cosine proportionality.",
+    "link": "http://arxiv.org/abs/2208.05316",
+    "context": "Title: Welfare ordering of voting weight allocations. (arXiv:2208.05316v2 [econ.TH] UPDATED)\nAbstract: This paper studies the allocation of voting weights in a committee representing groups of different sizes. We introduce a partial ordering of weight allocations based on stochastic comparison of social welfare. We show that when the number of groups is sufficiently large, this ordering asymptotically coincides with the total ordering induced by the cosine proportionality between the weights and the group sizes. A corollary is that a class of expectation-form objective functions, including expected welfare, the mean majority deficit and the probability of inversions, are asymptotically monotone in the cosine proportionality.",
+    "path": "papers/22/08/2208.05316.json",
+    "total_tokens": 727,
+    "translated_title": "投票权分配的福利排序",
+    "translated_abstract": "本文研究了代表不同规模群体的委员会中投票权的分配。我们通过社会福利的随机比较引入了一种权重分配的偏序。我们表明，当群体数量足够大时，这种排序渐近地与权重与群体规模之间的余弦比例引起的总排序相一致。一个推论是，在余弦比例中，包括预期福利、平均多数亏空和反转概率在内的一类期望形式客观函数是渐近单调的。",
+    "tldr": "本文研究了委员会投票权的分配，并通过对社会福利的随机比较引入了一种偏序。当群体数量足够大时，这种偏序与余弦比例引起的总排序相一致，并且期望福利、平均多数亏空和反转概率等客观函数是渐近单调的。",
+    "en_tdlr": "This paper studies the allocation of voting weights in committees representing groups of different sizes and introduces a partial ordering based on stochastic comparison of social welfare. The ordering asymptotically coincides with the total ordering induced by the cosine proportionality, and a class of objective functions is shown to be asymptotically monotone in the cosine proportionality."
+}

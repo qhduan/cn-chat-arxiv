@@ -1,0 +1,12 @@
+{
+    "title": "Criticality versus uniformity in deep neural networks. (arXiv:2304.04784v1 [cs.LG])",
+    "abstract": "Deep feedforward networks initialized along the edge of chaos exhibit exponentially superior training ability as quantified by maximum trainable depth. In this work, we explore the effect of saturation of the tanh activation function along the edge of chaos. In particular, we determine the line of uniformity in phase space along which the post-activation distribution has maximum entropy. This line intersects the edge of chaos, and indicates the regime beyond which saturation of the activation function begins to impede training efficiency. Our results suggest that initialization along the edge of chaos is a necessary but not sufficient condition for optimal trainability.",
+    "link": "http://arxiv.org/abs/2304.04784",
+    "context": "Title: Criticality versus uniformity in deep neural networks. (arXiv:2304.04784v1 [cs.LG])\nAbstract: Deep feedforward networks initialized along the edge of chaos exhibit exponentially superior training ability as quantified by maximum trainable depth. In this work, we explore the effect of saturation of the tanh activation function along the edge of chaos. In particular, we determine the line of uniformity in phase space along which the post-activation distribution has maximum entropy. This line intersects the edge of chaos, and indicates the regime beyond which saturation of the activation function begins to impede training efficiency. Our results suggest that initialization along the edge of chaos is a necessary but not sufficient condition for optimal trainability.",
+    "path": "papers/23/04/2304.04784.json",
+    "total_tokens": 760,
+    "translated_title": "深度神经网络中的临界性与均匀性比较",
+    "translated_abstract": "沿着混沌边缘初始化的深层前馈网络表现出指数级优越的训练能力，其最大可训练深度可以量化。本文探讨了沿混沌边缘饱和tanh激活函数的影响。具体而言，我们确定了相空间中最大熵的后激活分布的均匀性线。该线交叉于混沌边缘，并指示了超过激活函数饱和开始妨碍训练效率的区域。我们的结果表明，沿混沌边缘初始化是获得最佳可训练性所必需但不充分的条件。",
+    "tldr": "本文研究了深度神经网络在混沌边缘初始化时的训练能力，发现饱和的激活函数会妨碍训练效率。结果表明，沿混沌边缘初始化只是获得最佳可训练性所必需但不充分的条件。",
+    "en_tdlr": "The paper compares criticality and uniformity in deep neural networks, finding that saturation of the activation function can hinder training efficiency when initialized along the edge of chaos. The study suggests that initialization along the edge of chaos is necessary but not sufficient for optimal trainability."
+}

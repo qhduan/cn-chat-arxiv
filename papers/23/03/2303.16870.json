@@ -1,0 +1,12 @@
+{
+    "title": "Questions of science: chatting with ChatGPT about complex systems. (arXiv:2303.16870v1 [physics.soc-ph] CROSS LISTED)",
+    "abstract": "We present an overview of the complex systems field using ChatGPT as a representation of the community's understanding. ChatGPT has learned language patterns and styles from a large dataset of internet texts, allowing it to provide answers that reflect common opinions, ideas, and language patterns found in the community. Our exploration covers both teaching and learning, and research topics. We recognize the value of ChatGPT as a source for the community's ideas.",
+    "link": "http://arxiv.org/abs/2303.16870",
+    "context": "Title: Questions of science: chatting with ChatGPT about complex systems. (arXiv:2303.16870v1 [physics.soc-ph] CROSS LISTED)\nAbstract: We present an overview of the complex systems field using ChatGPT as a representation of the community's understanding. ChatGPT has learned language patterns and styles from a large dataset of internet texts, allowing it to provide answers that reflect common opinions, ideas, and language patterns found in the community. Our exploration covers both teaching and learning, and research topics. We recognize the value of ChatGPT as a source for the community's ideas.",
+    "path": "papers/23/03/2303.16870.json",
+    "total_tokens": 717,
+    "translated_title": "科学问题：与ChatGPT探讨复杂系统。",
+    "translated_abstract": "我们使用ChatGPT作为社区理解的代表，概述了复杂系统领域。ChatGPT从大量的互联网文本数据中学习语言模式和风格，使其能够提供反映社区普遍意见、观点和语言模式的答案。我们的探讨涵盖了教学、学习和研究主题。我们承认ChatGPT作为社区思想的一种来源的价值。",
+    "tldr": "该论文介绍了使用ChatGPT代表社区对复杂系统领域的理解进行概述，ChatGPT学习了大量互联网文本数据并能够提供反映社区普遍意见、观点和语言模式的答案，探讨了复杂系统领域的教学、学习和研究主题，认为ChatGPT是社区思想的一种来源的价值。",
+    "en_tdlr": "This paper presents an overview of the complex systems field using ChatGPT as a representative of the community's understanding. ChatGPT has learned language patterns and styles from internet texts, allowing it to reflect the community's common opinions, ideas and language patterns. The exploration covers teaching, learning and research topics. The value of ChatGPT as a source for community ideas is recognized."
+}

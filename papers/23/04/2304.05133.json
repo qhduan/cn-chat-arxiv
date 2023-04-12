@@ -1,0 +1,11 @@
+{
+    "title": "Neural Network Architectures. (arXiv:2304.05133v1 [cs.LG])",
+    "abstract": "These lecture notes provide an overview of Neural Network architectures from a mathematical point of view. Especially, Machine Learning with Neural Networks is seen as an optimization problem. Covered are an introduction to Neural Networks and the following architectures: Feedforward Neural Network, Convolutional Neural Network, ResNet, and Recurrent Neural Network.",
+    "link": "http://arxiv.org/abs/2304.05133",
+    "context": "Title: Neural Network Architectures. (arXiv:2304.05133v1 [cs.LG])\nAbstract: These lecture notes provide an overview of Neural Network architectures from a mathematical point of view. Especially, Machine Learning with Neural Networks is seen as an optimization problem. Covered are an introduction to Neural Networks and the following architectures: Feedforward Neural Network, Convolutional Neural Network, ResNet, and Recurrent Neural Network.",
+    "path": "papers/23/04/2304.05133.json",
+    "total_tokens": 573,
+    "translated_title": "神经网络架构",
+    "translated_abstract": "这份讲义从数学角度概述了神经网络架构。特别地，使用神经网络进行机器学习被视为一个优化问题。介绍了神经网络的基础知识以及下列几种架构：前馈神经网络，卷积神经网络，残差网络和循环神经网络。",
+    "tldr": "这份讲义概述了神经网络的数学视角，并介绍了前馈神经网络、卷积神经网络、残差网络和循环神经网络等架构，这些架构给机器学习提供了一种优化问题的思路。"
+}
