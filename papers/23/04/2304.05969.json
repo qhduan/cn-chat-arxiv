@@ -1,0 +1,12 @@
+{
+    "title": "Localizing Model Behavior with Path Patching. (arXiv:2304.05969v1 [cs.LG])",
+    "abstract": "Localizing behaviors of neural networks to a subset of the network's components or a subset of interactions between components is a natural first step towards analyzing network mechanisms and possible failure modes. Existing work is often qualitative and ad-hoc, and there is no consensus on the appropriate way to evaluate localization claims. We introduce path patching, a technique for expressing and quantitatively testing a natural class of hypotheses expressing that behaviors are localized to a set of paths. We refine an explanation of induction heads, characterize a behavior of GPT-2, and open source a framework for efficiently running similar experiments.",
+    "link": "http://arxiv.org/abs/2304.05969",
+    "context": "Title: Localizing Model Behavior with Path Patching. (arXiv:2304.05969v1 [cs.LG])\nAbstract: Localizing behaviors of neural networks to a subset of the network's components or a subset of interactions between components is a natural first step towards analyzing network mechanisms and possible failure modes. Existing work is often qualitative and ad-hoc, and there is no consensus on the appropriate way to evaluate localization claims. We introduce path patching, a technique for expressing and quantitatively testing a natural class of hypotheses expressing that behaviors are localized to a set of paths. We refine an explanation of induction heads, characterize a behavior of GPT-2, and open source a framework for efficiently running similar experiments.",
+    "path": "papers/23/04/2304.05969.json",
+    "total_tokens": 653,
+    "translated_title": "基于路径修补的模型行为定位",
+    "translated_abstract": "将神经网络的行为定位到网络组件的某个子集或组件之间的某个交互的子集是分析网络机制和可能失效模式的自然第一步。现有工作常常是定性且临时的，对于评估定位声明的适当方式没有共识。我们引入了路径修补技术，用于表达和定量测试表明行为被定位到一组路径的一类自然假设。我们改进了感应头的解释，表征了GPT-2的行为，并开源了一个框架，以便高效地运行类似的实验。",
+    "tldr": "本文介绍了一种新的技术——路径修补，用于表达和定量测试表明行为被定位到一组路径的一类自然假设。",
+    "en_tdlr": "This paper introduces a new technique - path patching, for expressing and quantitatively testing a natural class of hypotheses expressing that behaviors are localized to a set of paths."
+}

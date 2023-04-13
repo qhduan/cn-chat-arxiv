@@ -1,0 +1,12 @@
+{
+    "title": "A Novel Sparse Regularizer. (arXiv:2301.07285v2 [cs.LG] UPDATED)",
+    "abstract": "$L_{p}$-norm regularization schemes such as $L_{0}$, $L_{1}$, and $L_{2}$-norm regularization and $L_{p}$-norm-based regularization techniques such as weight decay and group LASSO compute a quantity which de pends on model weights considered in isolation from one another. This paper describes a novel regularizer which is not based on an $L_{p}$-norm. In contrast with $L_{p}$-norm-based regularization, this regularizer is concerned with the spatial arrangement of weights within a weight matrix. This regularizer is an additive term for the loss function and is differentiable, simple and fast to compute, scale-invariant, requires a trivial amount of additional memory, and can easily be parallelized. Empirically this method yields approximately a one order-of-magnitude improvement in the number of nonzero model parameters at a given level of accuracy.",
+    "link": "http://arxiv.org/abs/2301.07285",
+    "context": "Title: A Novel Sparse Regularizer. (arXiv:2301.07285v2 [cs.LG] UPDATED)\nAbstract: $L_{p}$-norm regularization schemes such as $L_{0}$, $L_{1}$, and $L_{2}$-norm regularization and $L_{p}$-norm-based regularization techniques such as weight decay and group LASSO compute a quantity which de pends on model weights considered in isolation from one another. This paper describes a novel regularizer which is not based on an $L_{p}$-norm. In contrast with $L_{p}$-norm-based regularization, this regularizer is concerned with the spatial arrangement of weights within a weight matrix. This regularizer is an additive term for the loss function and is differentiable, simple and fast to compute, scale-invariant, requires a trivial amount of additional memory, and can easily be parallelized. Empirically this method yields approximately a one order-of-magnitude improvement in the number of nonzero model parameters at a given level of accuracy.",
+    "path": "papers/23/01/2301.07285.json",
+    "total_tokens": 702,
+    "translated_title": "一种新颖的稀疏正则化方法",
+    "translated_abstract": "本文介绍了一种不基于 $L_{p}$-norm 的新颖正则化方法。与传统方法只考虑模型中各权重值的度量不同，这种正则化方法关注权重矩阵内权重的空间排列。该方法的加入项可以用于损失函数中，可微分，简单快速计算，与尺度无关，仅需要微小的额外内存，容易并行化。经实验证明，在相同精度水平下，该方法可以使模型参数的非零数量提高一个数量级。",
+    "tldr": "提出一种新颖的正则化方法，关注权重矩阵内权重的空间排列，可以显著减少模型参数的非零数量。",
+    "en_tdlr": "A novel regularization method is proposed, which focuses on the spatial arrangement of weights within a weight matrix and can significantly reduce the number of non-zero parameters in the model."
+}

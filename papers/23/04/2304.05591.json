@@ -1,0 +1,12 @@
+{
+    "title": "Semantic Feature Verification in FLAN-T5. (arXiv:2304.05591v1 [cs.CL])",
+    "abstract": "This study evaluates the potential of a large language model for aiding in generation of semantic feature norms - a critical tool for evaluating conceptual structure in cognitive science. Building from an existing human-generated dataset, we show that machine-verified norms capture aspects of conceptual structure beyond what is expressed in human norms alone, and better explain human judgments of semantic similarity amongst items that are distally related. The results suggest that LLMs can greatly enhance traditional methods of semantic feature norm verification, with implications for our understanding of conceptual representation in humans and machines.",
+    "link": "http://arxiv.org/abs/2304.05591",
+    "context": "Title: Semantic Feature Verification in FLAN-T5. (arXiv:2304.05591v1 [cs.CL])\nAbstract: This study evaluates the potential of a large language model for aiding in generation of semantic feature norms - a critical tool for evaluating conceptual structure in cognitive science. Building from an existing human-generated dataset, we show that machine-verified norms capture aspects of conceptual structure beyond what is expressed in human norms alone, and better explain human judgments of semantic similarity amongst items that are distally related. The results suggest that LLMs can greatly enhance traditional methods of semantic feature norm verification, with implications for our understanding of conceptual representation in humans and machines.",
+    "path": "papers/23/04/2304.05591.json",
+    "total_tokens": 717,
+    "translated_title": "FLAN-T5中语义特征验证的研究",
+    "translated_abstract": "本研究评估了大规模语言模型在生成语义特征规范方面的潜力——这是评价认知科学中概念结构的关键工具。我们基于现有的人工生成数据集进行构建，结果表明，机器验证的规范捕捉了概念结构的某些方面，超越了仅考虑人类规范所能涵盖的范围，并且更好地解释了在远距离相关的项目之间的语义相似度人类判断。该结果表明LLM可以极大地增强传统的语义特征规范验证方法，这对于我们理解人类和机器的概念表示具有重要意义。",
+    "tldr": "本研究表明大规模语言模型可以极大地增强传统的语义特征规范验证方法，使之能够捕捉超过人类规范范畴的信息，对于我们理解人类和机器的概念表示具有重要意义。",
+    "en_tdlr": "This study shows that large language models can greatly enhance traditional methods of semantic feature norm verification, capturing information beyond the range of human norms, with implications for our understanding of conceptual representation in humans and machines."
+}

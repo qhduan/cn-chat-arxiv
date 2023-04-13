@@ -1,0 +1,12 @@
+{
+    "title": "Vec2GC -- A Graph Based Clustering Method for Text Representations. (arXiv:2104.09439v2 [cs.IR] UPDATED)",
+    "abstract": "NLP pipelines with limited or no labeled data, rely on unsupervised methods for document processing. Unsupervised approaches typically depend on clustering of terms or documents. In this paper, we introduce a novel clustering algorithm, Vec2GC (Vector to Graph Communities), an end-to-end pipeline to cluster terms or documents for any given text corpus. Our method uses community detection on a weighted graph of the terms or documents, created using text representation learning. Vec2GC clustering algorithm is a density based approach, that supports hierarchical clustering as well.",
+    "link": "http://arxiv.org/abs/2104.09439",
+    "context": "Title: Vec2GC -- A Graph Based Clustering Method for Text Representations. (arXiv:2104.09439v2 [cs.IR] UPDATED)\nAbstract: NLP pipelines with limited or no labeled data, rely on unsupervised methods for document processing. Unsupervised approaches typically depend on clustering of terms or documents. In this paper, we introduce a novel clustering algorithm, Vec2GC (Vector to Graph Communities), an end-to-end pipeline to cluster terms or documents for any given text corpus. Our method uses community detection on a weighted graph of the terms or documents, created using text representation learning. Vec2GC clustering algorithm is a density based approach, that supports hierarchical clustering as well.",
+    "path": "papers/21/04/2104.09439.json",
+    "total_tokens": 690,
+    "translated_title": "Vec2GC -- 基于图的文本表示聚类方法",
+    "translated_abstract": "在有限或没有标签数据的NLP流水线中，需要依赖无监督方法进行文档处理。无监督方法通常依赖于术语或文档的聚类。本文介绍了一种新的聚类算法，Vec2GC (Vector to Graph Communities)，它是一个端到端的流水线，可以针对任何给定的文本语料库聚类术语或文档。我们的方法使用基于文本表示学习创建的术语或文档加权图的社区检测。Vec2GC聚类算法是一种基于密度的方法，同时支持层次聚类。",
+    "tldr": "本文介绍了一种文本表示聚类方法Vec2GC，将聚类算法与基于文本表示学习创建的术语或文档加权图的社区检测相结合，可以用于无监督的文档处理。",
+    "en_tdlr": "This paper introduces Vec2GC, a graph based clustering method for text representations using community detection on a weighted graph of terms or documents created with text representation learning. This unsupervised approach can be used for document processing with limited or no labeled data."
+}

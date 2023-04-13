@@ -1,0 +1,12 @@
+{
+    "title": "Deep neural network approximation of composite functions without the curse of dimensionality. (arXiv:2304.05790v1 [math.NA])",
+    "abstract": "In this article we identify a general class of high-dimensional continuous functions that can be approximated by deep neural networks (DNNs) with the rectified linear unit (ReLU) activation without the curse of dimensionality. In other words, the number of DNN parameters grows at most polynomially in the input dimension and the approximation error. The functions in our class can be expressed as a potentially unbounded number of compositions of special functions which include products, maxima, and certain parallelized Lipschitz continuous functions.",
+    "link": "http://arxiv.org/abs/2304.05790",
+    "context": "Title: Deep neural network approximation of composite functions without the curse of dimensionality. (arXiv:2304.05790v1 [math.NA])\nAbstract: In this article we identify a general class of high-dimensional continuous functions that can be approximated by deep neural networks (DNNs) with the rectified linear unit (ReLU) activation without the curse of dimensionality. In other words, the number of DNN parameters grows at most polynomially in the input dimension and the approximation error. The functions in our class can be expressed as a potentially unbounded number of compositions of special functions which include products, maxima, and certain parallelized Lipschitz continuous functions.",
+    "path": "papers/23/04/2304.05790.json",
+    "total_tokens": 669,
+    "translated_title": "深度神经网络在无“维度诅咒”情况下逼近复合函数",
+    "translated_abstract": "本文鉴定了一类高维连续函数，可以用带有修正线性单元（ReLU）激活的深度神经网络（DNN）逼近，无需担心“维度诅咒”。换言之，DNN参数的数量最多在输入维度和逼近误差中以多项式形式增长。我们的类别包括一些特殊函数的无限组合，包括乘积、极大值和一定范围内的Lipschitz连续函数。",
+    "tldr": "本文发现了一种高维连续函数，可以用DNN逼近而无需担心“维度诅咒”，方法是将许多特殊函数组合在一起。",
+    "en_tdlr": "A general class of high-dimensional continuous functions that can be approximated by deep neural networks with ReLU activation without the curse of dimensionality is identified, and the functions in this class can be expressed as a potentially unbounded number of compositions of special functions including products, maxima, and certain parallelized Lipschitz continuous functions."
+}

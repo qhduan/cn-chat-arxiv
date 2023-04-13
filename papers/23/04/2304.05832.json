@@ -1,0 +1,12 @@
+{
+    "title": "Few Shot Semantic Segmentation: a review of methodologies and open challenges. (arXiv:2304.05832v1 [cs.CV])",
+    "abstract": "Semantic segmentation assigns category labels to each pixel in an image, enabling breakthroughs in fields such as autonomous driving and robotics. Deep Neural Networks have achieved high accuracies in semantic segmentation but require large training datasets. Some domains have difficulties building such datasets due to rarity, privacy concerns, and the need for skilled annotators. Few-Shot Learning (FSL) has emerged as a new research stream that allows models to learn new tasks from a few samples. This contribution provides an overview of FSL in semantic segmentation (FSS), proposes a new taxonomy, and describes current limitations and outlooks.",
+    "link": "http://arxiv.org/abs/2304.05832",
+    "context": "Title: Few Shot Semantic Segmentation: a review of methodologies and open challenges. (arXiv:2304.05832v1 [cs.CV])\nAbstract: Semantic segmentation assigns category labels to each pixel in an image, enabling breakthroughs in fields such as autonomous driving and robotics. Deep Neural Networks have achieved high accuracies in semantic segmentation but require large training datasets. Some domains have difficulties building such datasets due to rarity, privacy concerns, and the need for skilled annotators. Few-Shot Learning (FSL) has emerged as a new research stream that allows models to learn new tasks from a few samples. This contribution provides an overview of FSL in semantic segmentation (FSS), proposes a new taxonomy, and describes current limitations and outlooks.",
+    "path": "papers/23/04/2304.05832.json",
+    "total_tokens": 699,
+    "translated_title": "少样本语义分割: 方法与挑战综述",
+    "translated_abstract": "语义分割可为图像中的每个像素赋予分类标签，为自动驾驶和机器人等领域的突破提供了契机。深度神经网络在语义分割方面取得了高度准确性，但需要大量训练数据集。一些领域由于数据稀缺、隐私问题和需要熟练标注人员等原因，难以构建这样的数据集。少样本学习(FSL)已作为一种允许模型从少量样本中学习新任务的新研究流派而出现。本篇论文综述了少样本学习在语义分割中的应用并提出了新的分类法，同时描述了当前的限制和展望。",
+    "tldr": "本文综述了少样本学习在语义分割中的应用，并提出了新的分类法，并讨论了当前的限制和展望。",
+    "en_tdlr": "This paper provides an overview of the application of few-shot learning in semantic segmentation, proposes a new taxonomy, and discusses current limitations and outlooks."
+}

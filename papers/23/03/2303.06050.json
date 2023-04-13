@@ -1,0 +1,12 @@
+{
+    "title": "Optimal foraging strategies can be learned and outperform L\\'evy walks. (arXiv:2303.06050v2 [cond-mat.stat-mech] UPDATED)",
+    "abstract": "L\\'evy walks and other theoretical models of optimal foraging have been successfully used to describe real-world scenarios, attracting attention in several fields such as economy, physics, ecology, and evolutionary biology. However, it remains unclear in most cases which strategies maximize foraging efficiency and whether such strategies can be learned by living organisms. To address these questions, we model foragers as reinforcement learning agents. We first prove theoretically that maximizing rewards in our reinforcement learning model is equivalent to optimizing foraging efficiency. We then show with numerical experiments that our agents learn foraging strategies which outperform the efficiency of known strategies such as L\\'evy walks.",
+    "link": "http://arxiv.org/abs/2303.06050",
+    "context": "Title: Optimal foraging strategies can be learned and outperform L\\'evy walks. (arXiv:2303.06050v2 [cond-mat.stat-mech] UPDATED)\nAbstract: L\\'evy walks and other theoretical models of optimal foraging have been successfully used to describe real-world scenarios, attracting attention in several fields such as economy, physics, ecology, and evolutionary biology. However, it remains unclear in most cases which strategies maximize foraging efficiency and whether such strategies can be learned by living organisms. To address these questions, we model foragers as reinforcement learning agents. We first prove theoretically that maximizing rewards in our reinforcement learning model is equivalent to optimizing foraging efficiency. We then show with numerical experiments that our agents learn foraging strategies which outperform the efficiency of known strategies such as L\\'evy walks.",
+    "path": "papers/23/03/2303.06050.json",
+    "total_tokens": 744,
+    "translated_title": "最优觅食策略是可学习的，并且优于 L\\'evy walks。",
+    "translated_abstract": "L\\'evy walks 和其他争议论的最优觅食模型成功地被用于描述现实世界的场景，吸引了经济学、物理学、生态学、进化生物学等多个领域的关注。然而，在大多数情况下仍不清楚哪些策略可以最大化觅食效率，这些策略是否可以被生物学习。为了回答这些问题，我们将觅食者建模为强化学习代理。我们首先理论上证明，在我们的强化学习模型中最大化奖励等同于优化觅食效率。然后，通过数值实验，我们展示了我们的代理学习了优于已知策略如 L\\'evy walks 的觅食策略。",
+    "tldr": "研究发现，通过强化学习代理，存活的生物可以学习到优于 L\\'evy walks 的觅食策略，以提高觅食效率。",
+    "en_tdlr": "It has been found that living organisms are capable of learning foraging strategies that outperform L\\'evy walks through reinforcement learning, increasing foraging efficiency."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "PD-ADSV: An Automated Diagnosing System Using Voice Signals and Hard Voting Ensemble Method for Parkinson's Disease. (arXiv:2304.06016v1 [cs.SD])",
+    "abstract": "Parkinson's disease (PD) is the most widespread movement condition and the second most common neurodegenerative disorder, following Alzheimer's. Movement symptoms and imaging techniques are the most popular ways to diagnose this disease. However, they are not accurate and fast and may only be accessible to a few people. This study provides an autonomous system, i.e., PD-ADSV, for diagnosing PD based on voice signals, which uses four machine learning classifiers and the hard voting ensemble method to achieve the highest accuracy. PD-ADSV is developed using Python and the Gradio web framework.",
+    "link": "http://arxiv.org/abs/2304.06016",
+    "context": "Title: PD-ADSV: An Automated Diagnosing System Using Voice Signals and Hard Voting Ensemble Method for Parkinson's Disease. (arXiv:2304.06016v1 [cs.SD])\nAbstract: Parkinson's disease (PD) is the most widespread movement condition and the second most common neurodegenerative disorder, following Alzheimer's. Movement symptoms and imaging techniques are the most popular ways to diagnose this disease. However, they are not accurate and fast and may only be accessible to a few people. This study provides an autonomous system, i.e., PD-ADSV, for diagnosing PD based on voice signals, which uses four machine learning classifiers and the hard voting ensemble method to achieve the highest accuracy. PD-ADSV is developed using Python and the Gradio web framework.",
+    "path": "papers/23/04/2304.06016.json",
+    "total_tokens": 731,
+    "translated_title": "PD-ADSV：一种使用语音信号和硬投票集成方法进行帕金森病自动诊断的系统(arXiv:2304.06016v1 [cs.SD])",
+    "translated_abstract": "帕金森病（PD）是最常见的运动障碍和仅次于阿尔茨海默病的第二常见神经退行性疾病。运动症状和成像技术是诊断该疾病最常用的方法。然而，它们不准确和快速，并且可能仅对少数人可用。本研究提供了一种基于语音信号进行PD诊断的自主系统PD-ADSV，该系统使用了四个机器学习分类器和硬投票集成方法以获得最高精度。PD-ADSV使用Python和Gradio web框架开发。",
+    "tldr": "PD-ADSV是一种使用语音信号自动诊断帕金森病的系统，它采用四个机器学习分类器和硬投票集成方法达到最高精度。",
+    "en_tdlr": "PD-ADSV is an autonomous system for diagnosing Parkinson's disease based on voice signals, which uses four machine learning classifiers and the hard voting ensemble method to achieve the highest accuracy."
+}

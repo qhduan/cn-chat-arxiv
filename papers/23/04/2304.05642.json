@@ -1,0 +1,12 @@
+{
+    "title": "Global Prompt Cell: A Portable Control Module for Effective Prompt. (arXiv:2304.05642v1 [cs.CL])",
+    "abstract": "As a novel approach to tuning pre-trained models, prompt tuning involves freezing the parameters in downstream tasks while inserting trainable embeddings into inputs in the first layer.However,previous methods have mainly focused on the initialization of prompt embeddings. The question of how to train and utilize prompt embeddings in a reasonable way has become aa limiting factor in the effectiveness of prompt tuning. To address this issue, we introduce the Global Prompt Cell (GPC), a portable control module for prompt tuning that selectively preserves prompt information across all encoder layers. Our experimental results demonstrate a 5.8% improvement on SuperGLUE datasets compared to vanilla prompt tuning.",
+    "link": "http://arxiv.org/abs/2304.05642",
+    "context": "Title: Global Prompt Cell: A Portable Control Module for Effective Prompt. (arXiv:2304.05642v1 [cs.CL])\nAbstract: As a novel approach to tuning pre-trained models, prompt tuning involves freezing the parameters in downstream tasks while inserting trainable embeddings into inputs in the first layer.However,previous methods have mainly focused on the initialization of prompt embeddings. The question of how to train and utilize prompt embeddings in a reasonable way has become aa limiting factor in the effectiveness of prompt tuning. To address this issue, we introduce the Global Prompt Cell (GPC), a portable control module for prompt tuning that selectively preserves prompt information across all encoder layers. Our experimental results demonstrate a 5.8% improvement on SuperGLUE datasets compared to vanilla prompt tuning.",
+    "path": "papers/23/04/2304.05642.json",
+    "total_tokens": 680,
+    "translated_title": "全局提示单元：一种有效的移植控制模块",
+    "translated_abstract": "全局提示单元(Global Prompt Cell, GPC)是一种用于调整预训练模型的可移植控制模块，可以在下游任务中冻结参数并在第一层的输入中插入可训练的嵌入向量。为了解决预训练模型的信息利用问题，GPC可以在所有编码器层中选择性地保留提示信息。实验结果表明，与普通提示调整相比，GPC 在 SuperGLUE 数据集上取得了 5.8% 的提高。",
+    "tldr": "全局提示单元(GPC)是一种用于调整预训练模型的可移植控制模块。它可以在所有编码器层中选择性地保留提示信息，从而提高了 5.8% 的 SuperGLUE 数据集的性能表现。",
+    "en_tdlr": "The Global Prompt Cell (GPC) is a portable control module for tuning pre-trained models that selectively preserves prompt information across all encoder layers, leading to a 5.8% improvement on the SuperGLUE datasets compared to vanilla prompt tuning."
+}

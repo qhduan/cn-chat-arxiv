@@ -2,172 +2,187 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Prompt Learning for News Recommendation.](http://arxiv.org/abs/2304.05263) | 本文介绍了在新闻推荐领域首次采用预训练，提示学习和预测范例来开发Prompt4NR框架的实验。该框架将预测点击候选新闻的任务转化为cloze-style填空式掩码预测任务，从而更好地利用预训练过程中的丰富语义信息和语言知识。 |
-| [^2] | [Audio Bank: A High-Level Acoustic Signal Representation for Audio Event Recognition.](http://arxiv.org/abs/2304.05067) | 本文提出了一种名为Audio Bank的音频信号表征框架，其由在时间-频率空间中表示每个音频类别的独特音频检测器组成。使用非负矩阵分解降低特征向量的维数，同时保留其可区分性和丰富的语义信息。在两个公开可用数据集上使用多个分类器进行音频识别，证明了该框架的高效性。 |
-| [^3] | [Unbiased Pairwise Learning from Implicit Feedback for Recommender Systems without Biased Variance Control.](http://arxiv.org/abs/2304.05066) | 本文提出了一种名为“无偏成对学习（NPLwVC）”的新框架，解决了推荐系统中隐式反馈数据的偏估问题，实验结果表明其在两个公共数据集上表现优于现有最先进方法。 |
-| [^4] | [A Comprehensive Survey on Deep Graph Representation Learning.](http://arxiv.org/abs/2304.05055) | 本文综述了深度图表示学习的研究现状和存在的问题，并指出利用深度学习已经显示出巨大的优势和潜力。 |
-| [^5] | [Diffusion Recommender Model.](http://arxiv.org/abs/2304.04971) | 本论文提出了一种新颖的扩散推荐模型（DiffRec）来逐步去噪地学习用户交互生成的过程，并针对推荐系统中的冷启动问题和稀疏数据等独特挑战进行了扩展，实验结果显示其在推荐准确性和稳健性方面优于现有方法。 |
-| [^6] | [AdaTT: Adaptive Task-to-Task Fusion Network for Multitask Learning in Recommendations.](http://arxiv.org/abs/2304.04959) | AdaTT是一种适用于推荐系统的自适应任务融合深度网络模型，通过利用残差机制和门控机制实现任务之间的融合，自适应地学习共享知识和任务特定知识，在多个任务上可以显著优于现有的最先进基线模型。 |
-| [^7] | [Explicit and Implicit Semantic Ranking Framework.](http://arxiv.org/abs/2304.04918) | 本文提出了一个名为sRank的通用语义学习排名框架，它使用transformer模型，能够在智能回复和环境临床智能等真实应用中，实现11.7%的离线准确度提升。 |
-| [^8] | [Similarity search in the blink of an eye with compressed indices.](http://arxiv.org/abs/2304.04759) | 本文提出一种新的向量压缩方法局部自适应量化(LVQ)，并在基于图的索引的关键优化下实现减少有效带宽同时启用随机访问友好的快速相似性计算，从而在性能和内存占用方面创造了新的最佳表现。 |
-| [^9] | [Graph Collaborative Signals Denoising and Augmentation for Recommendation.](http://arxiv.org/abs/2304.03344) | 本文提出了一种新的图邻接矩阵，它包括了用户-用户和项目-项目的相关性，以及一个经过适当设计的用户-项目交互矩阵，并通过预训练和top-K采样增强了用户-项目交互矩阵，以更好地适应所有用户的需求。 |
-| [^10] | [Manipulating Federated Recommender Systems: Poisoning with Synthetic Users and Its Countermeasures.](http://arxiv.org/abs/2304.03054) | 本文提出了一种新的攻击方法，利用合成的恶意用户上传有毒的梯度来在联邦推荐系统中有效地操纵目标物品的排名和曝光率。在两个真实世界的推荐数据集上进行了大量实验。 |
-| [^11] | [XSimGCL: Towards Extremely Simple Graph Contrastive Learning for Recommendation.](http://arxiv.org/abs/2209.02544) | 本文提出一种极简的推荐图形对比学习方法(XSimGCL)，发现有效减轻流行度偏见与促进长尾物品发现并不需要过多的图形增强。 |
+| [^1] | [HiPrompt: Few-Shot Biomedical Knowledge Fusion via Hierarchy-Oriented Prompting.](http://arxiv.org/abs/2304.05973) | HiPrompt是一个监督效率高的知识融合框架，通过层次导向提示和少样本推理能力，弥补了生物医学知识融合和神经嵌入模型之间的差距。 |
+| [^2] | [Dynamic Mixed Membership Stochastic Block Model for Weighted Labeled Networks.](http://arxiv.org/abs/2304.05894) | 本论文提出了一种扩展混合成员随机块模型来推断动态标签网络的方法，具有很好的鲁棒性和良好的性能，相对于静态标签网络，对数据的训练需求较少。 |
+| [^3] | [Edge-cloud Collaborative Learning with Federated and Centralized Features.](http://arxiv.org/abs/2304.05871) | 本文提出了一种边缘云协作知识转移框架（ECCT），使得共享特征嵌入和预测日志的双向知识传输成为可能，从而实现了个性化增强、模型的异构性、容忍训练的异步性和缓解通信负担的功能。 |
+| [^4] | [Deep Stable Multi-Interest Learning for Out-of-distribution Sequential Recommendation.](http://arxiv.org/abs/2304.05615) | 提出了DESMIL，一个新的多兴趣网络，用于序列推荐模型中解决跨领域泛化问题，通过去相关提取的多个兴趣向量，消除虚假相关性，实验结果证明其优于现有的最先进方法。 |
+| [^5] | [FALQU: Finding Answers to Legal Questions.](http://arxiv.org/abs/2304.05611) | 本文介绍了一个基于“Law Stack Exchange”网站的法律信息检索数据集 FALQU，包含真实世界用户的多领域信息需求，是当前首个使用 LawSE 数据的测试集。 |
+| [^6] | [Towards More Robust and Accurate Sequential Recommendation with Cascade-guided Adversarial Training.](http://arxiv.org/abs/2304.05492) | 本研究利用级联指导下的对抗训练方法，增强了串联推荐模型的鲁棒性和准确性，取得了比已有方法更好的结果。 |
+| [^7] | [Audience Expansion for Multi-show Release Based on an Edge-prompted Heterogeneous Graph Network.](http://arxiv.org/abs/2304.05474) | 本文提出了一种基于边缘触发的异构图网络的两阶段受众扩展方案，可以考虑不同的双面交互和特征。 |
+| [^8] | [Combat AI With AI: Counteract Machine-Generated Fake Restaurant Reviews on Social Media.](http://arxiv.org/abs/2302.07731) | 本文针对机器生成的虚假评论提出了一种用高质量餐厅评论生成虚假评论并微调GPT输出检测器的方法，该方法预测虚假评论的性能优于现有解决方案。同时，我们还探索了预测非精英评论的模型，并在几个维度上对这些评论进行分析，此类机器生成的虚假评论是社交媒体平台面临的持续挑战。 |
+| [^9] | [Multimodal Matching-aware Co-attention Networks with Mutual Knowledge Distillation for Fake News Detection.](http://arxiv.org/abs/2212.05699) | 提出了一种基于相互知识蒸馏的多模匹配感知协同注意力网络用于改进假新闻检测，通过图像-文本匹配感知协同机制捕获图像和文本的对齐以实现更好的多模态融合，同时利用两个中心分别为文本和图像的协同注意力网络进行相互知识蒸馏。 |
+| [^10] | [Tensor Completion with Provable Consistency and Fairness Guarantees for Recommender Systems.](http://arxiv.org/abs/2204.01815) | 本文介绍了一种新的一致性方法来解决矩阵和张量补全问题，在推荐系统应用中，我们证明了通过保留单位比例和一致性两个约束条件可以实现解的存在性与唯一性。 |
+| [^11] | [Review-Based Domain Disentanglement without Duplicate Users or Contexts for Cross-Domain Recommendation.](http://arxiv.org/abs/2110.12648) | 本文提出了一种使用评论文本来进行领域解缠的方法，使用三个文本分析模块，由单一领域判别器指引，并采用一种新的优化策略，提高了领域解缠的质量，并且扩展了编码网络从单个领域到多个领域。实验证明，该方法比现有方法更高效、稳健和可扩展。 |
+| [^12] | [Vec2GC -- A Graph Based Clustering Method for Text Representations.](http://arxiv.org/abs/2104.09439) | 本文介绍了一种文本表示聚类方法Vec2GC，将聚类算法与基于文本表示学习创建的术语或文档加权图的社区检测相结合，可以用于无监督的文档处理。 |
 
 # 详细
 
-[^1]: 新闻推荐中的提示学习
+[^1]: HiPrompt: 层次导向提示的少样本生物医学知识融合
 
-    Prompt Learning for News Recommendation. (arXiv:2304.05263v1 [cs.IR])
+    HiPrompt: Few-Shot Biomedical Knowledge Fusion via Hierarchy-Oriented Prompting. (arXiv:2304.05973v1 [cs.IR])
 
-    [http://arxiv.org/abs/2304.05263](http://arxiv.org/abs/2304.05263)
+    [http://arxiv.org/abs/2304.05973](http://arxiv.org/abs/2304.05973)
 
-    本文介绍了在新闻推荐领域首次采用预训练，提示学习和预测范例来开发Prompt4NR框架的实验。该框架将预测点击候选新闻的任务转化为cloze-style填空式掩码预测任务，从而更好地利用预训练过程中的丰富语义信息和语言知识。
-
-    
-
-    最近的一些新闻推荐（NR）方法通过引入预训练语言模型（PLM）来编码新闻表示，采用精心设计的推荐特定神经网络和目标函数来遵循香草预训练和微调范例。由于任务目标与PLM不一致，我们认为他们的建模范式未能充分利用预训练过程中嵌入的丰富语义信息和语言知识。最近，预训练，提示和预测范例在自然语言处理领域取得了许多成功。在本文中，我们第一次尝试使用这种新范例来开发一个新闻推荐中的Prompt Learning (Prompt4NR) 框架，将预测用户是否会点击候选新闻的任务转化为填空式掩码预测任务。具体来说，我们设计了一系列prompt模板，包括离散、连续...
-
-    Some recent \textit{news recommendation} (NR) methods introduce a Pre-trained Language Model (PLM) to encode news representation by following the vanilla pre-train and fine-tune paradigm with carefully-designed recommendation-specific neural networks and objective functions. Due to the inconsistent task objective with that of PLM, we argue that their modeling paradigm has not well exploited the abundant semantic information and linguistic knowledge embedded in the pre-training process. Recently, the pre-train, prompt, and predict paradigm, called \textit{prompt learning}, has achieved many successes in natural language processing domain. In this paper, we make the first trial of this new paradigm to develop a \textit{Prompt Learning for News Recommendation} (Prompt4NR) framework, which transforms the task of predicting whether a user would click a candidate news as a cloze-style mask-prediction task. Specifically, we design a series of prompt templates, including discrete, continuous, 
-    
-[^2]: Audio Bank：一种用于音频事件识别的高级声学信号表征。
-
-    Audio Bank: A High-Level Acoustic Signal Representation for Audio Event Recognition. (arXiv:2304.05067v1 [eess.AS])
-
-    [http://arxiv.org/abs/2304.05067](http://arxiv.org/abs/2304.05067)
-
-    本文提出了一种名为Audio Bank的音频信号表征框架，其由在时间-频率空间中表示每个音频类别的独特音频检测器组成。使用非负矩阵分解降低特征向量的维数，同时保留其可区分性和丰富的语义信息。在两个公开可用数据集上使用多个分类器进行音频识别，证明了该框架的高效性。
+    HiPrompt是一个监督效率高的知识融合框架，通过层次导向提示和少样本推理能力，弥补了生物医学知识融合和神经嵌入模型之间的差距。
 
     
 
-    自动音频事件识别在使人机交互更加紧密方面发挥着关键作用，并在工业自动化、控制和监视系统中具有广泛的适用性。音频事件由纷繁复杂的声韵模式组成，它们在谐波上纠缠在一起。音频识别主要受低级和中级特征的控制，这些特征已证明其识别能力，但计算成本高且语义意义低。本文提出了一种新的计算效率高的音频识别框架。Audio Bank是一种新的音频高级表征，由在频率时间空间中表示每个音频类别的独特音频检测器组成。通过使用非负矩阵分解减少结果特征向量的维数，同时保留其可区分性和丰富的语义信息。对两个公开可用数据集使用多个分类器（SVM、神经网络、高斯过程分类和k最近邻）进行音频识别，证明了Audio Bank框架的高效性。
+    综合的生物医学知识库可以增强医学决策过程，需要通过统一的索引系统融合来自不同来源的知识图谱。索引系统通常以层次结构组织生物医学术语，以提供细粒度的对齐实体。为了解决生物医学知识融合 (BKF) 任务中监督不足的挑战，研究人员提出了各种无监督方法。然而，这些方法严重依赖于特定的词汇和结构匹配算法，无法捕捉生物医学实体和术语所传达的丰富语义。最近，神经嵌入模型在语义丰富的任务中被证明是有效的，但它们依赖于充足标记数据进行充分训练。为了弥补稀缺标记 BKF 和神经嵌入模型之间的差距，我们提出了 HiPrompt，一个监督效率高的知识融合框架，可以引发大规模语义推理的少样本推理能力。
 
-    Automatic audio event recognition plays a pivotal role in making human robot interaction more closer and has a wide applicability in industrial automation, control and surveillance systems. Audio event is composed of intricate phonic patterns which are harmonically entangled. Audio recognition is dominated by low and mid-level features, which have demonstrated their recognition capability but they have high computational cost and low semantic meaning. In this paper, we propose a new computationally efficient framework for audio recognition. Audio Bank, a new high-level representation of audio, is comprised of distinctive audio detectors representing each audio class in frequency-temporal space. Dimensionality of the resulting feature vector is reduced using non-negative matrix factorization preserving its discriminability and rich semantic information. The high audio recognition performance using several classifiers (SVM, neural network, Gaussian process classification and k-nearest ne
+    Medical decision-making processes can be enhanced by comprehensive biomedical knowledge bases, which require fusing knowledge graphs constructed from different sources via a uniform index system. The index system often organizes biomedical terms in a hierarchy to provide the aligned entities with fine-grained granularity. To address the challenge of scarce supervision in the biomedical knowledge fusion (BKF) task, researchers have proposed various unsupervised methods. However, these methods heavily rely on ad-hoc lexical and structural matching algorithms, which fail to capture the rich semantics conveyed by biomedical entities and terms. Recently, neural embedding models have proved effective in semantic-rich tasks, but they rely on sufficient labeled data to be adequately trained. To bridge the gap between the scarce-labeled BKF and neural embedding models, we propose HiPrompt, a supervision-efficient knowledge fusion framework that elicits the few-shot reasoning ability of large la
     
-[^3]: 面向推荐系统的无偏成对学习算法
+[^2]: 带权标签网络的动态混合成员随机块模型
 
-    Unbiased Pairwise Learning from Implicit Feedback for Recommender Systems without Biased Variance Control. (arXiv:2304.05066v1 [cs.IR])
+    Dynamic Mixed Membership Stochastic Block Model for Weighted Labeled Networks. (arXiv:2304.05894v1 [cs.LG])
 
-    [http://arxiv.org/abs/2304.05066](http://arxiv.org/abs/2304.05066)
+    [http://arxiv.org/abs/2304.05894](http://arxiv.org/abs/2304.05894)
 
-    本文提出了一种名为“无偏成对学习（NPLwVC）”的新框架，解决了推荐系统中隐式反馈数据的偏估问题，实验结果表明其在两个公共数据集上表现优于现有最先进方法。
-
-    
-
-    推荐系统的模型训练一般基于显式反馈和隐式反馈两种数据。隐式反馈数据中仅包含正反馈，因此很难判断未互动项到底是负反馈还是未曝光。同时，稀有物品的相关性往往被低估。为了解决这些问题，先前提出了无偏成对学习算法，但存在偏差方差控制问题。本文提出一种名为“无偏成对学习（NPLwVC）”的新框架，不需要偏差方差控制项，从而简化算法。两个公共数据集的实验结果表明，NPLwVC在保持无偏性的同时显著优于现有最先进方法。
-
-    Generally speaking, the model training for recommender systems can be based on two types of data, namely explicit feedback and implicit feedback. Moreover, because of its general availability, we see wide adoption of implicit feedback data, such as click signal. There are mainly two challenges for the application of implicit feedback. First, implicit data just includes positive feedback. Therefore, we are not sure whether the non-interacted items are really negative or positive but not displayed to the corresponding user. Moreover, the relevance of rare items is usually underestimated since much fewer positive feedback of rare items is collected compared with popular ones. To tackle such difficulties, both pointwise and pairwise solutions are proposed before for unbiased relevance learning. As pairwise learning suits well for the ranking tasks, the previously proposed unbiased pairwise learning algorithm already achieves state-of-the-art performance. Nonetheless, the existing unbiased 
-    
-[^4]: 深度图表示学习综述
-
-    A Comprehensive Survey on Deep Graph Representation Learning. (arXiv:2304.05055v1 [cs.LG])
-
-    [http://arxiv.org/abs/2304.05055](http://arxiv.org/abs/2304.05055)
-
-    本文综述了深度图表示学习的研究现状和存在的问题，并指出利用深度学习已经显示出巨大的优势和潜力。
+    本论文提出了一种扩展混合成员随机块模型来推断动态标签网络的方法，具有很好的鲁棒性和良好的性能，相对于静态标签网络，对数据的训练需求较少。
 
     
 
-    图表示学习旨在将高维稀疏的图结构数据有效地编码成低维密集向量，这是一个基本任务，在包括机器学习和数据挖掘在内的一系列领域都得到了广泛的研究。传统图嵌入方法遵循这样一种基本思想，即图中相互连接的节点的嵌入矢量仍然能够保持相对接近的距离，从而保留了图中节点之间的结构信息。然而，这种方法存在以下问题：（i）传统方法的模型容量受限，限制了学习性能; （ii）现有技术通常依赖于无监督学习策略，无法与最新的学习范式相结合；（iii）表示学习和下游任务相互依存，应共同加强。随着深度学习的显着成功，深度图表示学习已经显示出巨大的潜力和优势。
+    大多数现实中的网络都是随时间变化的。现有的动态网络模型要么没有标签，要么假定只有一个成员结构。另一方面，一种新的混合成员随机块模型（MMSBM）家族允许在混合成员聚类的假设下模拟静态标签网络。在本文中，我们提出将这种模型扩展到在混合成员假设下推断动态标签网络的模型类。我们的方法采用模型参数的时间先验形式，并依赖于动力学不是突然的单一假设。我们展示了我们的方法与现有方法显著不同，并且可以模拟更复杂的系统——动态标记网络。我们在合成和现实数据集上进行了几个实验，证明了我们方法的鲁棒性。我们方法的一个关键优势是，它只需要很少的训练数据就能产生良好的结果。与静态标签网络相比，我们方法在动态标签网络下的性能提升显著。
 
-    Graph representation learning aims to effectively encode high-dimensional sparse graph-structured data into low-dimensional dense vectors, which is a fundamental task that has been widely studied in a range of fields, including machine learning and data mining. Classic graph embedding methods follow the basic idea that the embedding vectors of interconnected nodes in the graph can still maintain a relatively close distance, thereby preserving the structural information between the nodes in the graph. However, this is sub-optimal due to: (i) traditional methods have limited model capacity which limits the learning performance; (ii) existing techniques typically rely on unsupervised learning strategies and fail to couple with the latest learning paradigms; (iii) representation learning and downstream tasks are dependent on each other which should be jointly enhanced. With the remarkable success of deep learning, deep graph representation learning has shown great potential and advantages 
+    Most real-world networks evolve over time. Existing literature proposes models for dynamic networks that are either unlabeled or assumed to have a single membership structure. On the other hand, a new family of Mixed Membership Stochastic Block Models (MMSBM) allows to model static labeled networks under the assumption of mixed-membership clustering. In this work, we propose to extend this later class of models to infer dynamic labeled networks under a mixed membership assumption. Our approach takes the form of a temporal prior on the model's parameters. It relies on the single assumption that dynamics are not abrupt. We show that our method significantly differs from existing approaches, and allows to model more complex systems --dynamic labeled networks. We demonstrate the robustness of our method with several experiments on both synthetic and real-world datasets. A key interest of our approach is that it needs very few training data to yield good results. The performance gain under 
     
-[^5]: 扩散推荐模型
+[^3]: 带有联邦和集中特征的边缘云协作学习
 
-    Diffusion Recommender Model. (arXiv:2304.04971v1 [cs.IR])
+    Edge-cloud Collaborative Learning with Federated and Centralized Features. (arXiv:2304.05871v1 [cs.LG])
 
-    [http://arxiv.org/abs/2304.04971](http://arxiv.org/abs/2304.04971)
+    [http://arxiv.org/abs/2304.05871](http://arxiv.org/abs/2304.05871)
 
-    本论文提出了一种新颖的扩散推荐模型（DiffRec）来逐步去噪地学习用户交互生成的过程，并针对推荐系统中的冷启动问题和稀疏数据等独特挑战进行了扩展，实验结果显示其在推荐准确性和稳健性方面优于现有方法。
-
-    
-
-    生成模型（如生成对抗网络（GANs）和变分自动编码器（VAEs））被广泛应用于建模用户交互的生成过程。然而，这些生成模型存在固有的局限性，如GANs的不稳定性和VAEs的受限表征能力。这些限制妨碍了复杂用户交互生成过程的准确建模，例如由各种干扰因素导致的嘈杂交互。考虑到扩散模型（DMs）在图像合成方面相对于传统的生成模型具有显着优势，我们提出了一种新颖的扩散推荐模型（称为DiffRec），以逐步去噪的方式学习生成过程。为了保留用户交互中的个性化信息，DiffRec减少了添加的噪声，并避免将用户交互损坏为像图像合成中的纯噪声。此外，我们扩展了传统的DMs以应对实际推荐系统中的独特挑战，如冷启动问题和稀疏的用户-物品交互数据。在几个真实数据集上的实验结果表明，DiffRec在推荐准确性和稳健性方面优于现有方法。
-
-    Generative models such as Generative Adversarial Networks (GANs) and Variational Auto-Encoders (VAEs) are widely utilized to model the generative process of user interactions. However, these generative models suffer from intrinsic limitations such as the instability of GANs and the restricted representation ability of VAEs. Such limitations hinder the accurate modeling of the complex user interaction generation procedure, such as noisy interactions caused by various interference factors. In light of the impressive advantages of Diffusion Models (DMs) over traditional generative models in image synthesis, we propose a novel Diffusion Recommender Model (named DiffRec) to learn the generative process in a denoising manner. To retain personalized information in user interactions, DiffRec reduces the added noises and avoids corrupting users' interactions into pure noises like in image synthesis. In addition, we extend traditional DMs to tackle the unique challenges in practical recommender 
-    
-[^6]: AdaTT: 自适应任务融合网络用于多任务学习推荐系统
-
-    AdaTT: Adaptive Task-to-Task Fusion Network for Multitask Learning in Recommendations. (arXiv:2304.04959v1 [cs.IR])
-
-    [http://arxiv.org/abs/2304.04959](http://arxiv.org/abs/2304.04959)
-
-    AdaTT是一种适用于推荐系统的自适应任务融合深度网络模型，通过利用残差机制和门控机制实现任务之间的融合，自适应地学习共享知识和任务特定知识，在多个任务上可以显著优于现有的最先进基线模型。
+    本文提出了一种边缘云协作知识转移框架（ECCT），使得共享特征嵌入和预测日志的双向知识传输成为可能，从而实现了个性化增强、模型的异构性、容忍训练的异步性和缓解通信负担的功能。
 
     
 
-    多任务学习旨在通过同时在多个任务上训练机器学习模型来提高性能和效率。然而，多任务学习面临两个挑战：1）对任务之间的关系进行建模，以有效地共享知识；2）联合学习任务特定和共享知识。本文介绍了一种新型的自适应任务融合网络（AdaTT）来解决这两个挑战。AdaTT是一个深度融合网络，在多个级别上使用任务特定和可选共享融合单元构建。通过利用残差机制和门控机制实现任务之间的融合，这些单元自适应地学习共享知识和任务特定知识。为了评估AdaTT的性能，我们在公共基准测试集和工业级推荐数据集上使用不同的任务组进行实验。结果表明，AdaTT可以显著优于现有的最先进基线模型。
+    联邦学习（FL）是一种受欢迎的边缘计算方式，不会危及用户的隐私。目前的FL范例假定数据仅驻留在边缘，而云服务器仅执行模型平均。但是，在诸如推荐系统之类的实际情况下，云服务器具有存储历史和交互特征的能力。本文提出的Edge-Cloud Collaborative Knowledge Transfer Framework（ECCT）弥合了边缘和云之间的差距，使其能够在两者之间进行双向知识传输，共享特征嵌入和预测日志。 ECCT巩固了各种好处，包括增强个性化，实现模型异构性，容忍培训异步性和缓解通信负担。对公共和工业数据集的广泛实验表明ECCT的有效性和学术和工业使用的潜力。
 
-    Multi-task learning (MTL) aims at enhancing the performance and efficiency of machine learning models by training them on multiple tasks simultaneously. However, MTL research faces two challenges: 1) modeling the relationships between tasks to effectively share knowledge between them, and 2) jointly learning task-specific and shared knowledge. In this paper, we present a novel model Adaptive Task-to-Task Fusion Network (AdaTT) to address both challenges. AdaTT is a deep fusion network built with task specific and optional shared fusion units at multiple levels. By leveraging a residual mechanism and gating mechanism for task-to-task fusion, these units adaptively learn shared knowledge and task specific knowledge. To evaluate the performance of AdaTT, we conduct experiments on a public benchmark and an industrial recommendation dataset using various task groups. Results demonstrate AdaTT can significantly outperform existing state-of-the-art baselines.
+    Federated learning (FL) is a popular way of edge computing that doesn't compromise users' privacy. Current FL paradigms assume that data only resides on the edge, while cloud servers only perform model averaging. However, in real-life situations such as recommender systems, the cloud server has the ability to store historical and interactive features. In this paper, our proposed Edge-Cloud Collaborative Knowledge Transfer Framework (ECCT) bridges the gap between the edge and cloud, enabling bi-directional knowledge transfer between both, sharing feature embeddings and prediction logits. ECCT consolidates various benefits, including enhancing personalization, enabling model heterogeneity, tolerating training asynchronization, and relieving communication burdens. Extensive experiments on public and industrial datasets demonstrate ECCT's effectiveness and potential for use in academia and industry.
     
-[^7]: 显式和隐式语义排序框架
+[^4]: 多兴趣深度稳定学习用于跨领域序列推荐模型
 
-    Explicit and Implicit Semantic Ranking Framework. (arXiv:2304.04918v1 [cs.IR])
+    Deep Stable Multi-Interest Learning for Out-of-distribution Sequential Recommendation. (arXiv:2304.05615v1 [cs.IR])
 
-    [http://arxiv.org/abs/2304.04918](http://arxiv.org/abs/2304.04918)
+    [http://arxiv.org/abs/2304.05615](http://arxiv.org/abs/2304.05615)
 
-    本文提出了一个名为sRank的通用语义学习排名框架，它使用transformer模型，能够在智能回复和环境临床智能等真实应用中，实现11.7%的离线准确度提升。
-
-    
-
-    在许多实际应用中，核心难题是将一个查询与一个可变且有限的文档集中的最佳文档进行匹配。现有的工业解决方案，特别是延迟受限的服务，通常依赖于相似性算法，这些算法为了速度而牺牲了质量。本文介绍了一个通用的语义学习排名框架，自我训练语义交叉关注排名（sRank）。这个基于transformer的框架使用线性成对损失，具有可变的训练批量大小、实现质量提升和高效率，并已成功应用于微软公司的两个工业任务：智能回复（SR）和环境临床智能（ACI）的真实大规模数据集上。在智能回复中，$sRank$通过基于消费者和支持代理信息的预定义解决方案选择最佳答案，帮助用户实时获得技术支持。在SR任务上，$sRank$实现了11.7%的离线top-one准确度提升，比之前的系统更加优秀。
-
-    The core challenge in numerous real-world applications is to match an inquiry to the best document from a mutable and finite set of candidates. Existing industry solutions, especially latency-constrained services, often rely on similarity algorithms that sacrifice quality for speed. In this paper we introduce a generic semantic learning-to-rank framework, Self-training Semantic Cross-attention Ranking (sRank). This transformer-based framework uses linear pairwise loss with mutable training batch sizes and achieves quality gains and high efficiency, and has been applied effectively to show gains on two industry tasks at Microsoft over real-world large-scale data sets: Smart Reply (SR) and Ambient Clinical Intelligence (ACI). In Smart Reply, $sRank$ assists live customers with technical support by selecting the best reply from predefined solutions based on consumer and support agent messages. It achieves 11.7% gain in offline top-one accuracy on the SR task over the previous system, and 
-    
-[^8]: 压缩索引实现瞬间相似性搜索
-
-    Similarity search in the blink of an eye with compressed indices. (arXiv:2304.04759v1 [cs.LG])
-
-    [http://arxiv.org/abs/2304.04759](http://arxiv.org/abs/2304.04759)
-
-    本文提出一种新的向量压缩方法局部自适应量化(LVQ)，并在基于图的索引的关键优化下实现减少有效带宽同时启用随机访问友好的快速相似性计算，从而在性能和内存占用方面创造了新的最佳表现。
+    提出了DESMIL，一个新的多兴趣网络，用于序列推荐模型中解决跨领域泛化问题，通过去相关提取的多个兴趣向量，消除虚假相关性，实验结果证明其优于现有的最先进方法。
 
     
 
-    如今，数据以向量表示。在海量数据中寻找与给定查询相似的向量是一项广泛应用的问题。本文提出了创建更快、更小的索引以运行这些搜索的新技术。为此，我们介绍了一种新的向量压缩方法，局部自适应量化(LVQ)，它同时减少内存占用和改善搜索性能，对搜索准确性的影响最小。LVQ被设计为与基于图的索引一起工作以实现减少有效带宽同时启用随机访问友好的快速相似性计算。我们的实验结果表明，在现代数据中心系统中针对基于图的索引进行关键优化后，LVQ的性能和内存占用方面创造了新的最佳表现。在处理数十亿个向量时，LVQ超过第二佳方案：
+    最近，多利益模型被用作提取用户多个表示向量的兴趣， 对于序列推荐表现良好。然而，目前存在的多兴趣推荐模型都没有考虑兴趣分布可能改变带来的跨领域泛化问题。考虑到用户多个兴趣通常高度相关，模型有机会学习到嘈杂兴趣和目标项之间的虚假相关性。数据分布发生变化，兴趣之间的相关性也会发生变化，虚假相关性会误导模型进行错误预测。为了解决上述跨领域泛化问题，我们提出了一个新的多利益网络，名为DESMIL，该网络试图在模型中去相关提取的利益，从而可以消除虚假的相关性。DESMIL应用一个注意力模块来提取多个利益，一个基于Transformer的编码器来对它们进行编码，一个去相关模块来去除相关性。在两个真实世界数据集上的实验证明了DESMIL在in-distribution和out-of-distribution方面都优于现有最先进的方法。
 
-    Nowadays, data is represented by vectors. Retrieving those vectors, among millions and billions, that are similar to a given query is a ubiquitous problem of relevance for a wide range of applications. In this work, we present new techniques for creating faster and smaller indices to run these searches. To this end, we introduce a novel vector compression method, Locally-adaptive Vector Quantization (LVQ), that simultaneously reduces memory footprint and improves search performance, with minimal impact on search accuracy. LVQ is designed to work optimally in conjunction with graph-based indices, reducing their effective bandwidth while enabling random-access-friendly fast similarity computations. Our experimental results show that LVQ, combined with key optimizations for graph-based indices in modern datacenter systems, establishes the new state of the art in terms of performance and memory footprint. For billions of vectors, LVQ outcompetes the second-best alternatives: (1) in the low
+    Recently, multi-interest models, which extract interests of a user as multiple representation vectors, have shown promising performances for sequential recommendation. However, none of existing multi-interest recommendation models consider the Out-Of-Distribution (OOD) generalization problem, in which interest distribution may change. Considering multiple interests of a user are usually highly correlated, the model has chance to learn spurious correlations between noisy interests and target items. Once the data distribution changes, the correlations among interests may also change, and the spurious correlations will mislead the model to make wrong predictions. To tackle with above OOD generalization problem, we propose a novel multi-interest network, named DEep Stable Multi-Interest Learning (DESMIL), which attempts to de-correlate the extracted interests in the model, and thus spurious correlations can be eliminated. DESMIL applies an attentive module to extract multiple interests, an
     
-[^9]: 推荐系统的图协作信号去噪与增强
+[^5]: FALQU: 寻找法律问题答案
 
-    Graph Collaborative Signals Denoising and Augmentation for Recommendation. (arXiv:2304.03344v1 [cs.IR])
+    FALQU: Finding Answers to Legal Questions. (arXiv:2304.05611v1 [cs.IR])
 
-    [http://arxiv.org/abs/2304.03344](http://arxiv.org/abs/2304.03344)
+    [http://arxiv.org/abs/2304.05611](http://arxiv.org/abs/2304.05611)
 
-    本文提出了一种新的图邻接矩阵，它包括了用户-用户和项目-项目的相关性，以及一个经过适当设计的用户-项目交互矩阵，并通过预训练和top-K采样增强了用户-项目交互矩阵，以更好地适应所有用户的需求。
-
-    
-
-    图协作过滤（GCF）是捕捉推荐系统中高阶协同信号的流行技术。然而，GCF的双向邻接矩阵，其定义了基于用户-项目交互进行聚合的邻居，对于有大量交互但不足的用户/项目来说可能是嘈杂的。此外，邻接矩阵忽略了用户-用户和项目-项目之间的相关性，这可能限制了聚合的有益邻居的范围。在这项工作中，我们提出了一种新的图邻接矩阵，它包括了用户-用户和项目-项目的相关性，以及一个经过适当设计的用户-项目交互矩阵，以平衡所有用户之间的交互数量。为了实现这一点，我们预先训练了一个基于图的推荐方法来获得用户/项目嵌入，然后通过top-K采样增强了用户-项目交互矩阵。我们还增强了对称的用户-用户和项目-项目相关组件，以更好地适应所有用户的需求。
-
-    Graph collaborative filtering (GCF) is a popular technique for capturing high-order collaborative signals in recommendation systems. However, GCF's bipartite adjacency matrix, which defines the neighbors being aggregated based on user-item interactions, can be noisy for users/items with abundant interactions and insufficient for users/items with scarce interactions. Additionally, the adjacency matrix ignores user-user and item-item correlations, which can limit the scope of beneficial neighbors being aggregated.  In this work, we propose a new graph adjacency matrix that incorporates user-user and item-item correlations, as well as a properly designed user-item interaction matrix that balances the number of interactions across all users. To achieve this, we pre-train a graph-based recommendation method to obtain users/items embeddings, and then enhance the user-item interaction matrix via top-K sampling. We also augment the symmetric user-user and item-item correlation components to th
-    
-[^10]: 操纵联邦推荐系统: 用合成用户进行攻击及其对策
-
-    Manipulating Federated Recommender Systems: Poisoning with Synthetic Users and Its Countermeasures. (arXiv:2304.03054v1 [cs.IR])
-
-    [http://arxiv.org/abs/2304.03054](http://arxiv.org/abs/2304.03054)
-
-    本文提出了一种新的攻击方法，利用合成的恶意用户上传有毒的梯度来在联邦推荐系统中有效地操纵目标物品的排名和曝光率。在两个真实世界的推荐数据集上进行了大量实验。
+    本文介绍了一个基于“Law Stack Exchange”网站的法律信息检索数据集 FALQU，包含真实世界用户的多领域信息需求，是当前首个使用 LawSE 数据的测试集。
 
     
 
-    联邦推荐系统（FedRecs）被认为是一种保护隐私的技术，可以在不共享用户数据的情况下协同学习推荐模型。因为所有参与者都可以通过上传梯度直接影响系统，所以FedRecs容易受到恶意客户的攻击，尤其是利用合成用户进行的攻击更加有效。本文提出了一种新的攻击方法，可以在不依赖任何先前知识的情况下，通过一组合成的恶意用户上传有毒的梯度来有效地操纵目标物品的排名和曝光率。我们在两个真实世界的推荐数据集上对两种广泛使用的FedRecs （Fed-NCF和Fed-LightGCN）进行了大量实验。
+    本文介绍了一个新的法律信息检索数据集 - FALQU，该数据集包括了来自“Law Stack Exchange”问答网站的法律问题和答案，涉及版权、知识产权、刑法等多个领域，数据的多样性代表了真实世界用户的信息需求。
 
-    Federated Recommender Systems (FedRecs) are considered privacy-preserving techniques to collaboratively learn a recommendation model without sharing user data. Since all participants can directly influence the systems by uploading gradients, FedRecs are vulnerable to poisoning attacks of malicious clients. However, most existing poisoning attacks on FedRecs are either based on some prior knowledge or with less effectiveness. To reveal the real vulnerability of FedRecs, in this paper, we present a new poisoning attack method to manipulate target items' ranks and exposure rates effectively in the top-$K$ recommendation without relying on any prior knowledge. Specifically, our attack manipulates target items' exposure rate by a group of synthetic malicious users who upload poisoned gradients considering target items' alternative products. We conduct extensive experiments with two widely used FedRecs (Fed-NCF and Fed-LightGCN) on two real-world recommendation datasets. The experimental res
+    This paper presents a new test collection for Legal IR, FALQU: Finding Answers to Legal Questions, where questions and answers were obtained from Law Stack Exchange (LawSE), a Q&A website for legal professionals, and others with experience in law. Much in line with Stack overflow, Law Stack Exchange has a variety of questions on different topics such as copyright, intellectual property, and criminal laws, making it an interesting source for dataset construction. Questions are also not limited to one country. Often, users of different nationalities may ask questions about laws in different countries and expertise. Therefore, questions in FALQU represent real-world users' information needs thus helping to avoid lab-generated questions. Answers on the other side are given by experts in the field. FALQU is the first test collection, to the best of our knowledge, to use LawSE, considering more diverse questions than the questions from the standard legal bar and judicial exams. It contains 9
     
-[^11]: XSimGCL：面向极简推荐图形对比学习的探索
+[^6]: 改进串联推荐的鲁棒性和准确性: 伴随级联指导的对抗训练方法
 
-    XSimGCL: Towards Extremely Simple Graph Contrastive Learning for Recommendation. (arXiv:2209.02544v3 [cs.IR] UPDATED)
+    Towards More Robust and Accurate Sequential Recommendation with Cascade-guided Adversarial Training. (arXiv:2304.05492v1 [cs.IR])
 
-    [http://arxiv.org/abs/2209.02544](http://arxiv.org/abs/2209.02544)
+    [http://arxiv.org/abs/2304.05492](http://arxiv.org/abs/2304.05492)
 
-    本文提出一种极简的推荐图形对比学习方法(XSimGCL)，发现有效减轻流行度偏见与促进长尾物品发现并不需要过多的图形增强。
+    本研究利用级联指导下的对抗训练方法，增强了串联推荐模型的鲁棒性和准确性，取得了比已有方法更好的结果。
 
     
 
-    最近，对比学习(Contrastive learning, CL)在提高推荐系统性能方面扮演着重要角色。基于CL的推荐模型的原理是: 确保从用户-物品二分图的不同图形增强中派生的表示一致性。这种自监督方法可以从原始数据中提取通用特征，减轻数据稀疏性的问题。尽管这种方法很有效，但是其性能提升的因素尚未被完全理解。本文提出了对CL对推荐的影响的新见解。我们的发现表明，CL使模型学习到更均匀分布的用户和物品表示，从而减轻了盛行的流行度偏见，促进了长尾物品的发现。我们的分析还表明，之前认为必不可少的图形增强在基于CL的推荐中相对不可靠且影响有限。
+    串联推荐模型是一种通过学习用户与物品间的时间顺序互动来进行推荐的模型，其已经在许多领域中展现出了良好的表现。然而，近期串联推荐模型的鲁棒性备受质疑。这种模型的两个特性使其容易受到攻击 - 在训练中会产生级联效应，在模型过度依赖时间信息的同时会忽略其他特征。为了解决这些问题，本文提出了一种针对串联推荐模型的级联指导下的对抗训练的方法。我们的方法利用串联建模中的内在级联效应，在训练过程中产生战略性的对抗性扰动来影响物品嵌入。在使用不同的公共数据集训练四种最先进的串联模型实验中，我们的训练方法产生了比现有方法更高的模型鲁棒性，并获得了更好的性能。
 
-    Contrastive learning (CL) has recently been demonstrated critical in improving recommendation performance. The underlying principle of CL-based recommendation models is to ensure the consistency between representations derived from different graph augmentations of the user-item bipartite graph. This self-supervised approach allows for the extraction of general features from raw data, thereby mitigating the issue of data sparsity. Despite the effectiveness of this paradigm, the factors contributing to its performance gains have yet to be fully understood. This paper provides novel insights into the impact of CL on recommendation. Our findings indicate that CL enables the model to learn more evenly distributed user and item representations, which alleviates the prevalent popularity bias and promoting long-tail items. Our analysis also suggests that the graph augmentations, previously considered essential, are relatively unreliable and of limited significance in CL-based recommendation. B
+    Sequential recommendation models, models that learn from chronological user-item interactions, outperform traditional recommendation models in many settings. Despite the success of sequential recommendation models, their robustness has recently come into question. Two properties unique to the nature of sequential recommendation models may impair their robustness - the cascade effects induced during training and the model's tendency to rely too heavily on temporal information. To address these vulnerabilities, we propose Cascade-guided Adversarial training, a new adversarial training procedure that is specifically designed for sequential recommendation models. Our approach harnesses the intrinsic cascade effects present in sequential modeling to produce strategic adversarial perturbations to item embeddings during training. Experiments on training state-of-the-art sequential models on four public datasets from different domains show that our training approach produces superior model ran
+    
+[^7]: 基于边触发异构图网络的多节目发行的受众扩展
+
+    Audience Expansion for Multi-show Release Based on an Edge-prompted Heterogeneous Graph Network. (arXiv:2304.05474v1 [cs.SI])
+
+    [http://arxiv.org/abs/2304.05474](http://arxiv.org/abs/2304.05474)
+
+    本文提出了一种基于边缘触发的异构图网络的两阶段受众扩展方案，可以考虑不同的双面交互和特征。
+
+    
+
+    在视频平台上，针对新节目进行受众定位和扩展的关键在于如何生成它们的嵌入。应该从用户和节目的角度进行个性化处理。此外，为了追求即时（点击）和长期（观看时间）奖励，以及新节目的冷启动问题，带来了额外的挑战。这种问题适合通过异构图模型进行处理，因为数据具有自然的图结构。但是现实世界中的网络通常具有数十亿个节点和各种类型的边缘。很少有现有方法专注于处理大规模数据并利用不同类型的边缘，特别是后者。本文提出了一种基于边缘触发的异构图网络的两阶段受众扩展方案，可以考虑不同的双面交互和特征。在离线阶段，选择用户ID和显示器的特定边缘信息组合来构建图形。
+
+    In the user targeting and expanding of new shows on a video platform, the key point is how their embeddings are generated. It's supposed to be personalized from the perspective of both users and shows. Furthermore, the pursue of both instant (click) and long-time (view time) rewards, and the cold-start problem for new shows bring additional challenges. Such a problem is suitable for processing by heterogeneous graph models, because of the natural graph structure of data. But real-world networks usually have billions of nodes and various types of edges. Few existing methods focus on handling large-scale data and exploiting different types of edges, especially the latter. In this paper, we propose a two-stage audience expansion scheme based on an edge-prompted heterogeneous graph network which can take different double-sided interactions and features into account. In the offline stage, to construct the graph, user IDs and specific side information combinations of the shows are chosen to 
+    
+[^8]: AI对抗AI：在社交媒体上打击机器生成的虚假餐厅评论
+
+    Combat AI With AI: Counteract Machine-Generated Fake Restaurant Reviews on Social Media. (arXiv:2302.07731v2 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2302.07731](http://arxiv.org/abs/2302.07731)
+
+    本文针对机器生成的虚假评论提出了一种用高质量餐厅评论生成虚假评论并微调GPT输出检测器的方法，该方法预测虚假评论的性能优于现有解决方案。同时，我们还探索了预测非精英评论的模型，并在几个维度上对这些评论进行分析，此类机器生成的虚假评论是社交媒体平台面临的持续挑战。
+
+    
+
+    最近生成模型（如GPT）的发展使得以更低的成本制造出难以区分的虚假顾客评论，从而对社交媒体平台检测这些机器生成的虚假评论造成挑战。本文提出利用Yelp验证的高质量的精英餐厅评论来生成OpenAI GPT评论生成器的虚假评论，并最终微调GPT输出检测器来预测明显优于现有解决方案的虚假评论。我们进一步将模型应用于预测非精英评论，并在几个维度（如评论、用户和餐厅特征以及写作风格）上识别模式。我们展示了社交媒体平台正在不断面临机器生成的虚假评论的挑战，尽管他们可能实施检测系统以过滤出可疑的评论。
+
+    Recent advances in generative models such as GPT may be used to fabricate indistinguishable fake customer reviews at a much lower cost, thus posing challenges for social media platforms to detect these machine-generated fake reviews. We propose to leverage the high-quality elite restaurant reviews verified by Yelp to generate fake reviews from the OpenAI GPT review creator and ultimately fine-tune a GPT output detector to predict fake reviews that significantly outperform existing solutions. We further apply the model to predict non-elite reviews and identify the patterns across several dimensions, such as review, user and restaurant characteristics, and writing style. We show that social media platforms are continuously challenged by machine-generated fake reviews, although they may implement detection systems to filter out suspicious reviews.
+    
+[^9]: 基于相互知识蒸馏的多模匹配感知协同注意力网络用于假新闻检测
+
+    Multimodal Matching-aware Co-attention Networks with Mutual Knowledge Distillation for Fake News Detection. (arXiv:2212.05699v2 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2212.05699](http://arxiv.org/abs/2212.05699)
+
+    提出了一种基于相互知识蒸馏的多模匹配感知协同注意力网络用于改进假新闻检测，通过图像-文本匹配感知协同机制捕获图像和文本的对齐以实现更好的多模态融合，同时利用两个中心分别为文本和图像的协同注意力网络进行相互知识蒸馏。
+
+    
+
+    假新闻常常包含文本和图像等多媒体信息来误导读者，从而扩大其影响力。目前大多数的假新闻检测方法使用协同注意力机制来融合多模态特征而忽略了协同注意力中图像和文本的一致性。本文提出了一种基于相互知识蒸馏的多模匹配感知协同注意力网络来改进假新闻检测。具体而言，我们设计了一种图像-文本匹配感知协同机制，用于捕获图像和文本的对齐以实现更好的多模态融合。图像-文本匹配表示可以通过视觉语言预训练模型获得。此外，基于设计的图像-文本匹配感知协同机制，我们提出构建两个分别以文本和图像为中心的协同注意力网络以进行相互知识蒸馏，以提高假新闻检测的性能。在三个基准数据集上的广泛实验表明：
+
+    Fake news often involves multimedia information such as text and image to mislead readers, proliferating and expanding its influence. Most existing fake news detection methods apply the co-attention mechanism to fuse multimodal features while ignoring the consistency of image and text in co-attention. In this paper, we propose multimodal matching-aware co-attention networks with mutual knowledge distillation for improving fake news detection. Specifically, we design an image-text matching-aware co-attention mechanism which captures the alignment of image and text for better multimodal fusion. The image-text matching representation can be obtained via a vision-language pre-trained model. Additionally, based on the designed image-text matching-aware co-attention mechanism, we propose to build two co-attention networks respectively centered on text and image for mutual knowledge distillation to improve fake news detection. Extensive experiments on three benchmark datasets demonstrate that
+    
+[^10]: 具有可证明的一致性和公平保证的推荐系统张量补全
+
+    Tensor Completion with Provable Consistency and Fairness Guarantees for Recommender Systems. (arXiv:2204.01815v3 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2204.01815](http://arxiv.org/abs/2204.01815)
+
+    本文介绍了一种新的一致性方法来解决矩阵和张量补全问题，在推荐系统应用中，我们证明了通过保留单位比例和一致性两个约束条件可以实现解的存在性与唯一性。
+
+    
+
+    我们引入了一种新的基于一致性的方法来定义和解决非负/正矩阵和张量补全问题。该框架的新颖之处在于，我们不是人为地将问题形式化为任意优化问题，例如，最小化一个结构量，如秩或范数，而是展示了一个单一的属性/约束：保留单位比例一致性，保证了解的存在，并在相对较弱的支持假设下保证了解的唯一性。该框架和解算法也直接推广到任意维度的张量中，同时保持了固定维度 d 的问题规模的线性计算复杂性。在推荐系统应用中，我们证明了两个合理的性质，这些性质应该适用于任何 RS 问题的解，足以允许在我们的框架内建立唯一性保证。关键理论贡献是展示了这些约束下解的存在性与唯一性。
+
+    We introduce a new consistency-based approach for defining and solving nonnegative/positive matrix and tensor completion problems. The novelty of the framework is that instead of artificially making the problem well-posed in the form of an application-arbitrary optimization problem, e.g., minimizing a bulk structural measure such as rank or norm, we show that a single property/constraint: preserving unit-scale consistency, guarantees the existence of both a solution and, under relatively weak support assumptions, uniqueness. The framework and solution algorithms also generalize directly to tensors of arbitrary dimensions while maintaining computational complexity that is linear in problem size for fixed dimension d. In the context of recommender system (RS) applications, we prove that two reasonable properties that should be expected to hold for any solution to the RS problem are sufficient to permit uniqueness guarantees to be established within our framework. Key theoretical contribu
+    
+[^11]: 无重复用户或上下文的基于评论的跨领域推荐中的领域解缠方法
+
+    Review-Based Domain Disentanglement without Duplicate Users or Contexts for Cross-Domain Recommendation. (arXiv:2110.12648v3 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2110.12648](http://arxiv.org/abs/2110.12648)
+
+    本文提出了一种使用评论文本来进行领域解缠的方法，使用三个文本分析模块，由单一领域判别器指引，并采用一种新的优化策略，提高了领域解缠的质量，并且扩展了编码网络从单个领域到多个领域。实验证明，该方法比现有方法更高效、稳健和可扩展。
+
+    
+
+    跨领域推荐在解决数据稀疏性和冷启动问题方面已经取得了良好的结果。尽管如此，现有方法仅专注于领域可共享信息（重叠用户或相同的上下文）用于知识转移，并且没有这样的要求就很难进行良好的泛化。为了解决这些问题，我们建议利用对大多数电子商务系统通用的评论文本。我们的模型（名为SER）使用三个文本分析模块，由单一领域判别器指导进行解缠表示学习。在这里，我们提出了一种新的优化策略，可以提高领域解缠的质量，并削弱源领域的不良信息。此外，我们将编码网络从单个领域扩展到多个领域，这已被证明对于基于评论的推荐系统非常强大。广泛的实验和消融研究表明，与现有方法相比，我们的方法高效、稳健且可扩展。
+
+    A cross-domain recommendation has shown promising results in solving data-sparsity and cold-start problems. Despite such progress, existing methods focus on domain-shareable information (overlapped users or same contexts) for a knowledge transfer, and they fail to generalize well without such requirements. To deal with these problems, we suggest utilizing review texts that are general to most e-commerce systems. Our model (named SER) uses three text analysis modules, guided by a single domain discriminator for disentangled representation learning. Here, we suggest a novel optimization strategy that can enhance the quality of domain disentanglement, and also debilitates detrimental information of a source domain. Also, we extend the encoding network from a single to multiple domains, which has proven to be powerful for review-based recommender systems. Extensive experiments and ablation studies demonstrate that our method is efficient, robust, and scalable compared to the state-of-the-a
+    
+[^12]: Vec2GC -- 基于图的文本表示聚类方法
+
+    Vec2GC -- A Graph Based Clustering Method for Text Representations. (arXiv:2104.09439v2 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2104.09439](http://arxiv.org/abs/2104.09439)
+
+    本文介绍了一种文本表示聚类方法Vec2GC，将聚类算法与基于文本表示学习创建的术语或文档加权图的社区检测相结合，可以用于无监督的文档处理。
+
+    
+
+    在有限或没有标签数据的NLP流水线中，需要依赖无监督方法进行文档处理。无监督方法通常依赖于术语或文档的聚类。本文介绍了一种新的聚类算法，Vec2GC (Vector to Graph Communities)，它是一个端到端的流水线，可以针对任何给定的文本语料库聚类术语或文档。我们的方法使用基于文本表示学习创建的术语或文档加权图的社区检测。Vec2GC聚类算法是一种基于密度的方法，同时支持层次聚类。
+
+    NLP pipelines with limited or no labeled data, rely on unsupervised methods for document processing. Unsupervised approaches typically depend on clustering of terms or documents. In this paper, we introduce a novel clustering algorithm, Vec2GC (Vector to Graph Communities), an end-to-end pipeline to cluster terms or documents for any given text corpus. Our method uses community detection on a weighted graph of the terms or documents, created using text representation learning. Vec2GC clustering algorithm is a density based approach, that supports hierarchical clustering as well.
     
 

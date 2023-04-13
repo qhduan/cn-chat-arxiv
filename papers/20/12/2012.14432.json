@@ -1,0 +1,12 @@
+{
+    "title": "Local Dominance. (arXiv:2012.14432v5 [econ.TH] UPDATED)",
+    "abstract": "We define notions of dominance between two actions in a dynamic game. Local dominance considers players who have a blurred view of the future and compare the two actions by first focusing on the outcomes that may realize at the current stage. When considering the possibility that the game may continue, they can only check that the local comparison is not overturned under the assumption of \"continuing in the same way\" after the two actions (in a newly defined sense). Despite the lack of forward planning, local dominance solves dynamic mechanisms that were found easy to play and implements social choice functions that cannot be implemented in obviously-dominant strategies.",
+    "link": "http://arxiv.org/abs/2012.14432",
+    "context": "Title: Local Dominance. (arXiv:2012.14432v5 [econ.TH] UPDATED)\nAbstract: We define notions of dominance between two actions in a dynamic game. Local dominance considers players who have a blurred view of the future and compare the two actions by first focusing on the outcomes that may realize at the current stage. When considering the possibility that the game may continue, they can only check that the local comparison is not overturned under the assumption of \"continuing in the same way\" after the two actions (in a newly defined sense). Despite the lack of forward planning, local dominance solves dynamic mechanisms that were found easy to play and implements social choice functions that cannot be implemented in obviously-dominant strategies.",
+    "path": "papers/20/12/2012.14432.json",
+    "total_tokens": 710,
+    "translated_title": "局部占优",
+    "translated_abstract": "我们在动态博弈中定义了两个行动之间的占优概念。局部占优考虑的是有模糊未来观念的玩家，在首先关注可能在当前阶段实现的结果后，将两个行动进行比较。在考虑游戏可能继续的可能性时，他们只能在在新定义的意义下，在假设两个行动后“以同样的方式继续”（在一定程度上）的前提下检查局部比较没有被推翻。尽管缺乏前瞻性规划，局部占优解决了在明显的占优策略中容易实施的动态机制，并实施了不能用显然占优策略实现的社会选择函数。",
+    "tldr": "局部占优概念解决了在明显占优策略中难以实施的动态机制，实现了不能用显然占优策略实现的社会选择函数。",
+    "en_tdlr": "The concept of local dominance solves dynamic mechanisms that are difficult to implement in obviously-dominant strategies and implements social choice functions that cannot be implemented with obviously-dominant strategies."
+}

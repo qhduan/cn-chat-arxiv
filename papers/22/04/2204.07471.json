@@ -1,0 +1,12 @@
+{
+    "title": "The Importance of Credo in Multiagent Learning. (arXiv:2204.07471v2 [cs.AI] UPDATED)",
+    "abstract": "We propose a model for multi-objective optimization, a credo, for agents in a system that are configured into multiple groups (i.e., teams). Our model of credo regulates how agents optimize their behavior for the groups they belong to. We evaluate credo in the context of challenging social dilemmas with reinforcement learning agents. Our results indicate that the interests of teammates, or the entire system, are not required to be fully aligned for achieving globally beneficial outcomes. We identify two scenarios without full common interest that achieve high equality and significantly higher mean population rewards compared to when the interests of all agents are aligned.",
+    "link": "http://arxiv.org/abs/2204.07471",
+    "context": "Title: The Importance of Credo in Multiagent Learning. (arXiv:2204.07471v2 [cs.AI] UPDATED)\nAbstract: We propose a model for multi-objective optimization, a credo, for agents in a system that are configured into multiple groups (i.e., teams). Our model of credo regulates how agents optimize their behavior for the groups they belong to. We evaluate credo in the context of challenging social dilemmas with reinforcement learning agents. Our results indicate that the interests of teammates, or the entire system, are not required to be fully aligned for achieving globally beneficial outcomes. We identify two scenarios without full common interest that achieve high equality and significantly higher mean population rewards compared to when the interests of all agents are aligned.",
+    "path": "papers/22/04/2204.07471.json",
+    "total_tokens": 753,
+    "translated_title": "多智能体学习中信条的重要性",
+    "translated_abstract": "我们提出了一个针对多目标优化的模型，也就是叫做信条，用于系统中配置成多个小组（即团队）的智能体。信条模型规范了智能体为它所属的团队优化其行为的方式。我们使用强化学习智能体在挑战性的社会困境中评估信条。我们的结果表明，即使队友或整个系统的利益不一定完全一致，也能实现全局有益的结果。我们确定了两种没有完全共同利益的场景，这些场景实现了高平等和显著高于所有智能体利益一致的平均人口奖励。",
+    "tldr": "本论文提出了一个针对多智能体学习的信条模型，可以促使智能体为它所属的团队打造优化行为的方式。研究表明，即使队友或整个系统的利益不一定完全一致，也能实现全局有益的结果。",
+    "en_tdlr": "This paper proposes a credo model for multi-agent learning to regulate how agents optimize their behavior for the groups they belong to. The results show that globally beneficial outcomes can still be achieved even when the interests of teammates or the entire system are not fully aligned."
+}

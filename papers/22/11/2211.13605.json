@@ -1,0 +1,12 @@
+{
+    "title": "Efficient Communication in Organizations. (arXiv:2211.13605v2 [econ.TH] UPDATED)",
+    "abstract": "Organizations design their communication structures to improve decision-making while limiting wasteful influence activities. An efficient communication protocol grants complete-information payoffs to all organization members, thereby overcoming asymmetric information problems at no cost. This paper characterizes efficient protocols assuming that: (i) some agents within the organization have the knowledge required for optimal decision-making; (ii) both the organization and consulted agents incur losses proportional to the exerted influence activities; and (iii) informed agents can discuss their strategies before being consulted. Under these assumptions, \"public advocacy\" is the unique efficient communication protocol. This result provides a novel rationale for public advocacy.",
+    "link": "http://arxiv.org/abs/2211.13605",
+    "context": "Title: Efficient Communication in Organizations. (arXiv:2211.13605v2 [econ.TH] UPDATED)\nAbstract: Organizations design their communication structures to improve decision-making while limiting wasteful influence activities. An efficient communication protocol grants complete-information payoffs to all organization members, thereby overcoming asymmetric information problems at no cost. This paper characterizes efficient protocols assuming that: (i) some agents within the organization have the knowledge required for optimal decision-making; (ii) both the organization and consulted agents incur losses proportional to the exerted influence activities; and (iii) informed agents can discuss their strategies before being consulted. Under these assumptions, \"public advocacy\" is the unique efficient communication protocol. This result provides a novel rationale for public advocacy.",
+    "path": "papers/22/11/2211.13605.json",
+    "total_tokens": 707,
+    "translated_title": "组织中的有效沟通",
+    "translated_abstract": "组织设计其沟通结构以改善决策并限制浪费的影响活动。一种高效的沟通协议可以为组织中的所有成员提供完全信息报酬，从而克服不对称信息问题而不产生成本。本文假定：(i)组织内的一些代理人具有进行最优决策所需的知识; (ii)组织和被咨询的代理人都会产生与发挥影响活动成比例的损失; (iii)知情代理可以在被咨询之前讨论他们的策略 。在这些假设下，“公共倡导”是唯一的高效沟通协议。这一结果为公共倡导提供了新的理论基础。",
+    "tldr": "本文研究了一种高效的沟通协议，展示了“公共倡导”是唯一的高效沟通协议，并且提供了一个新的理论基础。",
+    "en_tdlr": "This paper studies an efficient communication protocol and shows that \"public advocacy\" is the unique efficient communication protocol, providing a novel rationale for it."
+}

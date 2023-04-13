@@ -1,0 +1,12 @@
+{
+    "title": "Behavioral Biases and Nonadditive Dynamics in Risk Taking: An Experimental Investigation. (arXiv:1908.01709v3 [econ.GN] UPDATED)",
+    "abstract": "This paper investigates the dynamics of gambling and how they can affect risk-taking behavior in regions not explored by Kahneman and Tversky's Prospect Theory. Specifically, it questions why extreme outcomes do not fit the theory and proposes alternative ways to measure prospects. The paper introduces a measure of contrast between gambles and conducts an experiment to test the hypothesis that individuals prospect gambles with nonadditive dynamics differently. The results suggest a strong bias towards certain options, which challenges the predictions of Kahneman and Tversky's theory.",
+    "link": "http://arxiv.org/abs/1908.01709",
+    "context": "Title: Behavioral Biases and Nonadditive Dynamics in Risk Taking: An Experimental Investigation. (arXiv:1908.01709v3 [econ.GN] UPDATED)\nAbstract: This paper investigates the dynamics of gambling and how they can affect risk-taking behavior in regions not explored by Kahneman and Tversky's Prospect Theory. Specifically, it questions why extreme outcomes do not fit the theory and proposes alternative ways to measure prospects. The paper introduces a measure of contrast between gambles and conducts an experiment to test the hypothesis that individuals prospect gambles with nonadditive dynamics differently. The results suggest a strong bias towards certain options, which challenges the predictions of Kahneman and Tversky's theory.",
+    "path": "papers/19/08/1908.01709.json",
+    "total_tokens": 726,
+    "translated_title": "行为偏差和非加性动力学在风险承担中的作用：一项实验研究",
+    "translated_abstract": "本文研究了赌博的动态特性以及它们如何影响到卡内曼和特沃斯基《展望理论》未探索的区域中的风险承担行为。具体来说，它质疑为什么极端结果不符合该理论，并提出了衡量前景的替代方法。本文引入了一种衡量赌博之间对比度的方法，并进行了实验来测试个体非加性动力学的前景选择是否不同。结果表明，个体存在强烈的偏见，挑选某些选项，这挑战了卡内曼和特沃斯基理论的预测。",
+    "tldr": "本文探究了赌博的动态和衡量前景的替代方法，在实验证实了个体对于博弈选择存在强烈偏见，挑选某些选项，挑战了《展望理论》的预测。",
+    "en_tdlr": "The paper investigates the dynamics of gambling and proposes alternative ways to measure prospects. The experiment reveals a strong bias towards certain options, which challenges the predictions of the Prospect Theory."
+}

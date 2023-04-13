@@ -1,0 +1,12 @@
+{
+    "title": "n-Step Temporal Difference Learning with Optimal n. (arXiv:2303.07068v2 [cs.LG] UPDATED)",
+    "abstract": "We consider the problem of finding the optimal value of n in the n-step temporal difference (TD) algorithm. We find the optimal n by resorting to the model-free optimization technique of simultaneous perturbation stochastic approximation (SPSA). We adopt a one-simulation SPSA procedure that is originally for continuous optimization to the discrete optimization framework but incorporates a cyclic perturbation sequence. We prove the convergence of our proposed algorithm, SDPSA, and show that it finds the optimal value of n in n-step TD. Through experiments, we show that the optimal value of n is achieved with SDPSA for any arbitrary initial value of the same.",
+    "link": "http://arxiv.org/abs/2303.07068",
+    "context": "Title: n-Step Temporal Difference Learning with Optimal n. (arXiv:2303.07068v2 [cs.LG] UPDATED)\nAbstract: We consider the problem of finding the optimal value of n in the n-step temporal difference (TD) algorithm. We find the optimal n by resorting to the model-free optimization technique of simultaneous perturbation stochastic approximation (SPSA). We adopt a one-simulation SPSA procedure that is originally for continuous optimization to the discrete optimization framework but incorporates a cyclic perturbation sequence. We prove the convergence of our proposed algorithm, SDPSA, and show that it finds the optimal value of n in n-step TD. Through experiments, we show that the optimal value of n is achieved with SDPSA for any arbitrary initial value of the same.",
+    "path": "papers/23/03/2303.07068.json",
+    "total_tokens": 693,
+    "translated_title": "《具有最优n的n步时序差分学习》",
+    "translated_abstract": "本文考虑了在n步时序差分算法中找到最优n值的问题。我们采用了模型自由优化技术，即同时扰动随机逼近（SPSA）方法来寻找最优n。我们采用了一个模拟SPSA程序，将其原始连续优化框架引入离散优化框架，但并结合了循环扰动序列。我们证明了我们提出的算法SDPSA的收敛性，并表明它可以在任意初始值的情况下找到n步TD中的最优n值。通过实验，我们展示了SDPSA能够实现最优n值的求解。",
+    "tldr": "本文提出了使用SPSA算法求解n步时序差分学习中的最优n值的算法SDPSA，并证明了其收敛性和有效性。",
+    "en_tdlr": "This paper proposes an algorithm SDPSA that uses the SPSA method to find the optimal value of n in n-step temporal difference learning. The algorithm is proven to be convergent and effective through experiments."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Diffusion models with location-scale noise. (arXiv:2304.05907v1 [cs.LG])",
+    "abstract": "Diffusion Models (DMs) are powerful generative models that add Gaussian noise to the data and learn to remove it. We wanted to determine which noise distribution (Gaussian or non-Gaussian) led to better generated data in DMs. Since DMs do not work by design with non-Gaussian noise, we built a framework that allows reversing a diffusion process with non-Gaussian location-scale noise. We use that framework to show that the Gaussian distribution performs the best over a wide range of other distributions (Laplace, Uniform, t, Generalized-Gaussian).",
+    "link": "http://arxiv.org/abs/2304.05907",
+    "context": "Title: Diffusion models with location-scale noise. (arXiv:2304.05907v1 [cs.LG])\nAbstract: Diffusion Models (DMs) are powerful generative models that add Gaussian noise to the data and learn to remove it. We wanted to determine which noise distribution (Gaussian or non-Gaussian) led to better generated data in DMs. Since DMs do not work by design with non-Gaussian noise, we built a framework that allows reversing a diffusion process with non-Gaussian location-scale noise. We use that framework to show that the Gaussian distribution performs the best over a wide range of other distributions (Laplace, Uniform, t, Generalized-Gaussian).",
+    "path": "papers/23/04/2304.05907.json",
+    "total_tokens": 667,
+    "translated_title": "带有定位-尺度噪声的扩散模型",
+    "translated_abstract": "扩散模型(DMs)是一种强大的生成模型，它通过添加高斯噪声到数据中，并学会去除噪声。我们想确定哪种噪声分布（高斯或非高斯）在DMs中导致更好的生成数据。由于DMs的设计不适用于非高斯噪声，因此我们构建了一个框架，允许使用非高斯定位-尺度噪声来逆转扩散过程。我们使用该框架展示高斯分布在各种其它分布（拉普拉斯、均匀、t、广义高斯）中表现最佳。",
+    "tldr": "本研究研究了用于生成模型的不同噪声分布，证明了高斯分布在扩散模型（DMs）中表现最佳。",
+    "en_tdlr": "This study investigates different noise distributions for generative models and demonstrates that Gaussian distribution performs the best in diffusion models (DMs)."
+}

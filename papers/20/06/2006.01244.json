@@ -1,0 +1,12 @@
+{
+    "title": "The Power of Factorial Powers: New Parameter settings for (Stochastic) Optimization. (arXiv:2006.01244v3 [cs.LG] UPDATED)",
+    "abstract": "The convergence rates for convex and non-convex optimization methods depend on the choice of a host of constants, including step sizes, Lyapunov function constants and momentum constants. In this work we propose the use of factorial powers as a flexible tool for defining constants that appear in convergence proofs. We list a number of remarkable properties that these sequences enjoy, and show how they can be applied to convergence proofs to simplify or improve the convergence rates of the momentum method, accelerated gradient and the stochastic variance reduced method (SVRG).",
+    "link": "http://arxiv.org/abs/2006.01244",
+    "context": "Title: The Power of Factorial Powers: New Parameter settings for (Stochastic) Optimization. (arXiv:2006.01244v3 [cs.LG] UPDATED)\nAbstract: The convergence rates for convex and non-convex optimization methods depend on the choice of a host of constants, including step sizes, Lyapunov function constants and momentum constants. In this work we propose the use of factorial powers as a flexible tool for defining constants that appear in convergence proofs. We list a number of remarkable properties that these sequences enjoy, and show how they can be applied to convergence proofs to simplify or improve the convergence rates of the momentum method, accelerated gradient and the stochastic variance reduced method (SVRG).",
+    "path": "papers/20/06/2006.01244.json",
+    "total_tokens": 645,
+    "translated_title": "阶乘幂的威力: (随机) 优化的新参数设置。",
+    "translated_abstract": "凸优化和非凸优化方法的收敛速度取决于许多常数的选择，包括步长、Lyapunov函数常数和动量常数。在本文中，我们提出使用阶乘幂作为定义出现在收敛证明中的常数的灵活工具。我们列举了这些数列具有的一些显著性质，并展示了如何将它们应用于加速梯度方法、动量法和随机方差缩减方法（SVRG）的收敛证明中，以简化或改进收敛速度。",
+    "tldr": "本研究提出使用阶乘幂作为新的参数设置工具，可以简化或提高动量法和随机优化方法的收敛速度。",
+    "en_tdlr": "This paper proposes using factorial powers as a new tool for parameter settings, which can simplify or enhance the convergence rates of momentum method and stochastic optimization methods."
+}
