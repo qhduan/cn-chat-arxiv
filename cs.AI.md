@@ -70,30 +70,33 @@
 | [^66] | [Evolutionary Reinforcement Learning: A Survey.](http://arxiv.org/abs/2303.04150) | 这篇文章系统地总结了最新的进化计算方法在解决强化学习中的关键挑战方面所取得的良好性能。 |
 | [^67] | [Combat AI With AI: Counteract Machine-Generated Fake Restaurant Reviews on Social Media.](http://arxiv.org/abs/2302.07731) | 本文针对机器生成的虚假评论提出了一种用高质量餐厅评论生成虚假评论并微调GPT输出检测器的方法，该方法预测虚假评论的性能优于现有解决方案。同时，我们还探索了预测非精英评论的模型，并在几个维度上对这些评论进行分析，此类机器生成的虚假评论是社交媒体平台面临的持续挑战。 |
 | [^68] | [Multispectral Contrastive Learning with Viewmaker Networks.](http://arxiv.org/abs/2302.05757) | 本文研究将对比学习方法应用于各种遥感数据集。通过使用Viewmaker网络，本文发现该方法可以在不耗费大量时间和领域知识的情况下成功产生视图，并在四个多光谱成像问题上实现优于基于裁剪和反射的对比学习方法的表现。 |
-| [^69] | [Dividing Good and Better Items Among Agents with Submodular Valuations.](http://arxiv.org/abs/2302.03087) | 本文研究了在具有二元子模价值的代理人之间公平分配不可分割物品的问题，并提出了一个解决方案概念的算法框架，其中包括leximin、max Nash welfare（MNW）和$p$-mean welfare最大化分配。在$ab$可整除的情况下，该算法框架可以用于求解多种解决方案概念，补充了现有结果的限制。同时，该文研究了leximin和MNW分配在无嫉妒和最大最小份额保证方面的表现。 |
-| [^70] | [LDMIC: Learning-based Distributed Multi-view Image Coding.](http://arxiv.org/abs/2301.09799) | LDMIC是一种基于学习的分布式多视图图像编码框架，通过独立编码器和联合上下文传输模块实现了全局视图间的相关性捕捉，对几何关系不敏感。 |
-| [^71] | [Extreme Image Transformations Affect Humans and Machines Differently.](http://arxiv.org/abs/2212.13967) | 本文研究了一些极端的图像变换，发现机器和人类在这些变换下的表现差异较大，机器在某些变换下比人类表现更好，但在人类容易处理的变换下表现不如人类，同时提出了一些方法来改善机器的性能。 |
-| [^72] | [Momentum Contrastive Pre-training for Question Answering.](http://arxiv.org/abs/2212.05762) | 提出了一种用于抽取式问题回答的动量对比预训练方法，通过匹配填空式和自然查询-文章样本对的答案概率，能更好地将在填空式样本中学到的知识转移到回答自然问题上。 |
-| [^73] | [Towards human-compatible autonomous car: A study of non-verbal Turing test in automated driving with affective transition modelling.](http://arxiv.org/abs/2212.02908) | 本文研究了自动驾驶汽车的人性化问题，通过非语言图灵测试，发现当前AI驾驶员不能创造类似人类的驾乘体验，需要在情感过渡模型中进行改进。 |
-| [^74] | [Query-Driven Knowledge Base Completion using Multimodal Path Fusion over Multimodal Knowledge Graph.](http://arxiv.org/abs/2212.01923) | 基于查询的多模态路径融合算法可以有效地对知识库进行补全，提高了性能，并且使用了基于查询的技术来提高系统的效率。 |
-| [^75] | [Knowledge Graph Quality Evaluation under Incomplete Information.](http://arxiv.org/abs/2212.00994) | 该论文提出一种不暴露原始数据的知识图谱质量评估框架，通过将质量评估任务转化为两个KG之间的对抗性问答游戏，解决现有方法高度依赖原始数据和更多考虑数据质量而非能力层面的缺陷。 |
-| [^76] | [Enhancing Constraint Programming via Supervised Learning for Job Shop Scheduling.](http://arxiv.org/abs/2211.14492) | 该论文提出了一种基于监督学习的变量排序策略，可根据不同问题实例的特征定制变量排序策略以提高约束编程的求解性能。实验表明，该方法具有高效性和高准确性。 |
-| [^77] | [Knowledge Base Completion using Web-Based Question Answering and Multimodal Fusion.](http://arxiv.org/abs/2211.07098) | 本文提出了一种使用基于网络问答和多模态融合的方法填补知识库中的缺失信息。通过设计一个多模态特征和问题模板的基于网络问答的系统来达到更高效的知识库补全，同时结合了知识库中的结构化信息来提高抽取质量。 |
-| [^78] | [An Interpretable Machine Learning System to Identify EEG Patterns on the Ictal-Interictal-Injury Continuum.](http://arxiv.org/abs/2211.05207) | 该论文设计了一种可解释的深度学习模型，以预测ICU脑电监测中常见的6种脑波图案的存在，并提供高质量的解释和三种解释方法，这对于建立AI的信任和临床采用至关重要。 |
-| [^79] | [Perfectly Secure Steganography Using Minimum Entropy Coupling.](http://arxiv.org/abs/2210.14889) | 本文研究了完全安全的隐写术，并发现只有最小熵耦合过程才是最高效的，提出了高可伸缩性的完美安全隐写算法，具有实际应用价值。 |
-| [^80] | [LittleBird: Efficient Faster & Longer Transformer for Question Answering.](http://arxiv.org/abs/2210.11870) | LittleBird是一个基于BigBird的问答模型，通过使用更灵活和高效的位置表示方法ALiBi和替换全局信息表示方法来提高速度和内存占用。它可以在短输入的预训练语言模型的基础上，对长输入进行工作并且在低资源的语言中表现良好。 |
-| [^81] | [Global Explainability of GNNs via Logic Combination of Learned Concepts.](http://arxiv.org/abs/2210.07147) | 本文提出了全局逻辑GNN解释器GLGExplainer，它是第一个能够以任意布尔组合的形式生成GNN学习的图形概念的解释器。GLGExplainer提供了准确可解释的全局解释，与GNN的组合性质相一致，并可应用于任何图分类或回归问题。 |
-| [^82] | [Temporal Attention Unit: Towards Efficient Spatiotemporal Predictive Learning.](http://arxiv.org/abs/2206.12126) | 本研究提出了时间注意力单元（TAU）以提高时空预测学习的计算效率，将时间注意力分解为帧内静态注意力和帧间动态注意力。同时引入差分离散正则化方法来考虑帧间变化，大量实验表明该方法能够高效地进行预测学习。 |
-| [^83] | [Unfooling Perturbation-Based Post Hoc Explainers.](http://arxiv.org/abs/2205.14772) | 本文介绍了一种检测和防御扰动基础解释器的恶意攻击的方法，并在图像分类任务上进行了实验验证。该方法提供了对人工智能系统的可靠性和信任性的保障。 |
-| [^84] | [CNNs Avoid Curse of Dimensionality by Learning on Patches.](http://arxiv.org/abs/2205.10760) | 本研究解释了卷积神经网络在图像分类上的泛化性能，认为CNN在学习图像块后避免了维数灾难，并提供了支持的定量和定性证据。 |
-| [^85] | [Interpreting Neural Min-Sum Decoders.](http://arxiv.org/abs/2205.10684) | 本文研究了在解码线性分组码中引入可学习参数到BP解码器中的方法，发现这些参数受到代码短周期分布的影响，学习权重的解码器比那些经过解析优化的权重具有更高的可靠性，并在复杂信道上有显著的帮助。 |
-| [^86] | [AutoMLBench: A Comprehensive Experimental Evaluation of Automated Machine Learning Frameworks.](http://arxiv.org/abs/2204.08358) | 本文对六种AutoML框架在100个数据集上进行了全面的实验比较，发现不同框架在不同性能指标方面各有优势和劣势，框架的选择应根据特定任务要求来进行。 |
-| [^87] | [The Importance of Credo in Multiagent Learning.](http://arxiv.org/abs/2204.07471) | 本论文提出了一个针对多智能体学习的信条模型，可以促使智能体为它所属的团队打造优化行为的方式。研究表明，即使队友或整个系统的利益不一定完全一致，也能实现全局有益的结果。 |
-| [^88] | [Analytic theory for the dynamics of wide quantum neural networks.](http://arxiv.org/abs/2203.16711) | 本研究分析了训练误差的梯度下降动态，提出了一个简单的分析公式，可以捕捉到宽量子神经网络损失函数的平均行为。我们预测并表征了随机量子电路残余训练误差作为系统参数的指数衰减。 |
-| [^89] | [Strategy Synthesis for Zero-Sum Neuro-Symbolic Concurrent Stochastic Games.](http://arxiv.org/abs/2202.06255) | 本文提出了神经符号并发随机博弈（NS-CSG）的建模形式，并针对具有 Borel 状态空间的 NS-CSG 类展示了零和折扣累积回报的价值函数的存在性和可测性。首次提出了可实施的值迭代（VI）和策略迭代（PI）算法，证明了算法的正确性，并验证了在基准 NS-CSG 中的有效性。 |
-| [^90] | [Data Augmentation through Expert-guided Symmetry Detection to Improve Performance in Offline Reinforcement Learning.](http://arxiv.org/abs/2112.09943) | 本文研究了一种通过专家引导的对称检测算法进行数据增强的方法来提高离线强化学习的性能，针对非确定性MDP提出了一种结合监督和无监督学习的检测算法，实验证明该方法在一组基准任务上明显提高了强化学习算法的性能。 |
-| [^91] | [Review-Based Domain Disentanglement without Duplicate Users or Contexts for Cross-Domain Recommendation.](http://arxiv.org/abs/2110.12648) | 本文提出了一种使用评论文本来进行领域解缠的方法，使用三个文本分析模块，由单一领域判别器指引，并采用一种新的优化策略，提高了领域解缠的质量，并且扩展了编码网络从单个领域到多个领域。实验证明，该方法比现有方法更高效、稳健和可扩展。 |
-| [^92] | [Temporal Abstraction in Reinforcement Learning with the Successor Representation.](http://arxiv.org/abs/2110.05740) | 本研究表明，基于状态访问模式对状态进行编码的继承表示（SR）可以被看作发现和使用时间抽象的自然基质，并且可以用于发现有助于进行暂时扩展探索或规划的选项。 |
+| [^69] | [Continual Pre-training of Language Models.](http://arxiv.org/abs/2302.03241) | 本文研究了语言模型的持续预训练，提出了一种新颖的持续领域自适应预训练方法，使用一系列未标记的领域语料库来逐步适应领域以提高LM在领域内的终端任务表现。该方法通过一个软掩蔽机制来直接控制LM的更新，并使用一种新颖的代理来保留LM中的整体知识，同时对比已学习领域知识和当前全网络的知识来实现知识整合。 |
+| [^70] | [Dividing Good and Better Items Among Agents with Submodular Valuations.](http://arxiv.org/abs/2302.03087) | 本文研究了在具有二元子模价值的代理人之间公平分配不可分割物品的问题，并提出了一个解决方案概念的算法框架，其中包括leximin、max Nash welfare（MNW）和$p$-mean welfare最大化分配。在$ab$可整除的情况下，该算法框架可以用于求解多种解决方案概念，补充了现有结果的限制。同时，该文研究了leximin和MNW分配在无嫉妒和最大最小份额保证方面的表现。 |
+| [^71] | [LDMIC: Learning-based Distributed Multi-view Image Coding.](http://arxiv.org/abs/2301.09799) | LDMIC是一种基于学习的分布式多视图图像编码框架，通过独立编码器和联合上下文传输模块实现了全局视图间的相关性捕捉，对几何关系不敏感。 |
+| [^72] | [Mystique: Enabling Accurate and Scalable Generation of Production AI Benchmarks.](http://arxiv.org/abs/2301.04122) | 本文介绍了Mystique，一个准确可扩展的生产AI基准测试生成框架，它利用PyTorch执行跟踪来捕获AI模型的运行时信息和元数据。该框架可以轻松地生成具有代表性和可移植性的AI基准测试，且具有低运行时负荷和仪器化工作的优点。 |
+| [^73] | [Extreme Image Transformations Affect Humans and Machines Differently.](http://arxiv.org/abs/2212.13967) | 本文研究了一些极端的图像变换，发现机器和人类在这些变换下的表现差异较大，机器在某些变换下比人类表现更好，但在人类容易处理的变换下表现不如人类，同时提出了一些方法来改善机器的性能。 |
+| [^74] | [Momentum Contrastive Pre-training for Question Answering.](http://arxiv.org/abs/2212.05762) | 提出了一种用于抽取式问题回答的动量对比预训练方法，通过匹配填空式和自然查询-文章样本对的答案概率，能更好地将在填空式样本中学到的知识转移到回答自然问题上。 |
+| [^75] | [Towards human-compatible autonomous car: A study of non-verbal Turing test in automated driving with affective transition modelling.](http://arxiv.org/abs/2212.02908) | 本文研究了自动驾驶汽车的人性化问题，通过非语言图灵测试，发现当前AI驾驶员不能创造类似人类的驾乘体验，需要在情感过渡模型中进行改进。 |
+| [^76] | [Query-Driven Knowledge Base Completion using Multimodal Path Fusion over Multimodal Knowledge Graph.](http://arxiv.org/abs/2212.01923) | 基于查询的多模态路径融合算法可以有效地对知识库进行补全，提高了性能，并且使用了基于查询的技术来提高系统的效率。 |
+| [^77] | [Knowledge Graph Quality Evaluation under Incomplete Information.](http://arxiv.org/abs/2212.00994) | 该论文提出一种不暴露原始数据的知识图谱质量评估框架，通过将质量评估任务转化为两个KG之间的对抗性问答游戏，解决现有方法高度依赖原始数据和更多考虑数据质量而非能力层面的缺陷。 |
+| [^78] | [Enhancing Constraint Programming via Supervised Learning for Job Shop Scheduling.](http://arxiv.org/abs/2211.14492) | 该论文提出了一种基于监督学习的变量排序策略，可根据不同问题实例的特征定制变量排序策略以提高约束编程的求解性能。实验表明，该方法具有高效性和高准确性。 |
+| [^79] | [Knowledge Base Completion using Web-Based Question Answering and Multimodal Fusion.](http://arxiv.org/abs/2211.07098) | 本文提出了一种使用基于网络问答和多模态融合的方法填补知识库中的缺失信息。通过设计一个多模态特征和问题模板的基于网络问答的系统来达到更高效的知识库补全，同时结合了知识库中的结构化信息来提高抽取质量。 |
+| [^80] | [Measuring Reliability of Large Language Models through Semantic Consistency.](http://arxiv.org/abs/2211.05853) | 本研究通过开发语义一致性度量来评估大型预训练语言模型的性能，以比较不同PLM的可靠性，保证其在相同或相似的提示下生成的输出一致。 |
+| [^81] | [An Interpretable Machine Learning System to Identify EEG Patterns on the Ictal-Interictal-Injury Continuum.](http://arxiv.org/abs/2211.05207) | 该论文设计了一种可解释的深度学习模型，以预测ICU脑电监测中常见的6种脑波图案的存在，并提供高质量的解释和三种解释方法，这对于建立AI的信任和临床采用至关重要。 |
+| [^82] | [Perfectly Secure Steganography Using Minimum Entropy Coupling.](http://arxiv.org/abs/2210.14889) | 本文研究了完全安全的隐写术，并发现只有最小熵耦合过程才是最高效的，提出了高可伸缩性的完美安全隐写算法，具有实际应用价值。 |
+| [^83] | [LittleBird: Efficient Faster & Longer Transformer for Question Answering.](http://arxiv.org/abs/2210.11870) | LittleBird是一个基于BigBird的问答模型，通过使用更灵活和高效的位置表示方法ALiBi和替换全局信息表示方法来提高速度和内存占用。它可以在短输入的预训练语言模型的基础上，对长输入进行工作并且在低资源的语言中表现良好。 |
+| [^84] | [Global Explainability of GNNs via Logic Combination of Learned Concepts.](http://arxiv.org/abs/2210.07147) | 本文提出了全局逻辑GNN解释器GLGExplainer，它是第一个能够以任意布尔组合的形式生成GNN学习的图形概念的解释器。GLGExplainer提供了准确可解释的全局解释，与GNN的组合性质相一致，并可应用于任何图分类或回归问题。 |
+| [^85] | [Temporal Attention Unit: Towards Efficient Spatiotemporal Predictive Learning.](http://arxiv.org/abs/2206.12126) | 本研究提出了时间注意力单元（TAU）以提高时空预测学习的计算效率，将时间注意力分解为帧内静态注意力和帧间动态注意力。同时引入差分离散正则化方法来考虑帧间变化，大量实验表明该方法能够高效地进行预测学习。 |
+| [^86] | [Unfooling Perturbation-Based Post Hoc Explainers.](http://arxiv.org/abs/2205.14772) | 本文介绍了一种检测和防御扰动基础解释器的恶意攻击的方法，并在图像分类任务上进行了实验验证。该方法提供了对人工智能系统的可靠性和信任性的保障。 |
+| [^87] | [CNNs Avoid Curse of Dimensionality by Learning on Patches.](http://arxiv.org/abs/2205.10760) | 本研究解释了卷积神经网络在图像分类上的泛化性能，认为CNN在学习图像块后避免了维数灾难，并提供了支持的定量和定性证据。 |
+| [^88] | [Interpreting Neural Min-Sum Decoders.](http://arxiv.org/abs/2205.10684) | 本文研究了在解码线性分组码中引入可学习参数到BP解码器中的方法，发现这些参数受到代码短周期分布的影响，学习权重的解码器比那些经过解析优化的权重具有更高的可靠性，并在复杂信道上有显著的帮助。 |
+| [^89] | [AutoMLBench: A Comprehensive Experimental Evaluation of Automated Machine Learning Frameworks.](http://arxiv.org/abs/2204.08358) | 本文对六种AutoML框架在100个数据集上进行了全面的实验比较，发现不同框架在不同性能指标方面各有优势和劣势，框架的选择应根据特定任务要求来进行。 |
+| [^90] | [The Importance of Credo in Multiagent Learning.](http://arxiv.org/abs/2204.07471) | 本论文提出了一个针对多智能体学习的信条模型，可以促使智能体为它所属的团队打造优化行为的方式。研究表明，即使队友或整个系统的利益不一定完全一致，也能实现全局有益的结果。 |
+| [^91] | [Analytic theory for the dynamics of wide quantum neural networks.](http://arxiv.org/abs/2203.16711) | 本研究分析了训练误差的梯度下降动态，提出了一个简单的分析公式，可以捕捉到宽量子神经网络损失函数的平均行为。我们预测并表征了随机量子电路残余训练误差作为系统参数的指数衰减。 |
+| [^92] | [Strategy Synthesis for Zero-Sum Neuro-Symbolic Concurrent Stochastic Games.](http://arxiv.org/abs/2202.06255) | 本文提出了神经符号并发随机博弈（NS-CSG）的建模形式，并针对具有 Borel 状态空间的 NS-CSG 类展示了零和折扣累积回报的价值函数的存在性和可测性。首次提出了可实施的值迭代（VI）和策略迭代（PI）算法，证明了算法的正确性，并验证了在基准 NS-CSG 中的有效性。 |
+| [^93] | [Data Augmentation through Expert-guided Symmetry Detection to Improve Performance in Offline Reinforcement Learning.](http://arxiv.org/abs/2112.09943) | 本文研究了一种通过专家引导的对称检测算法进行数据增强的方法来提高离线强化学习的性能，针对非确定性MDP提出了一种结合监督和无监督学习的检测算法，实验证明该方法在一组基准任务上明显提高了强化学习算法的性能。 |
+| [^94] | [Review-Based Domain Disentanglement without Duplicate Users or Contexts for Cross-Domain Recommendation.](http://arxiv.org/abs/2110.12648) | 本文提出了一种使用评论文本来进行领域解缠的方法，使用三个文本分析模块，由单一领域判别器指引，并采用一种新的优化策略，提高了领域解缠的质量，并且扩展了编码网络从单个领域到多个领域。实验证明，该方法比现有方法更高效、稳健和可扩展。 |
+| [^95] | [Temporal Abstraction in Reinforcement Learning with the Successor Representation.](http://arxiv.org/abs/2110.05740) | 本研究表明，基于状态访问模式对状态进行编码的继承表示（SR）可以被看作发现和使用时间抽象的自然基质，并且可以用于发现有助于进行暂时扩展探索或规划的选项。 |
 
 # 详细
 
@@ -1049,7 +1052,21 @@
 
     Contrastive learning methods have been applied to a range of domains and modalities by training models to identify similar "views" of data points. However, specialized scientific modalities pose a challenge for this paradigm, as identifying good views for each scientific instrument is complex and time-intensive. In this paper, we focus on applying contrastive learning approaches to a variety of remote sensing datasets. We show that Viewmaker networks, a recently proposed method for generating views, are promising for producing views in this setting without requiring extensive domain knowledge and trial and error. We apply Viewmaker to four multispectral imaging problems, each with a different format, finding that Viewmaker can outperform croppingand reflection-based methods for contrastive learning in every case when evaluated on downstream classification tasks. This provides additional evidence that domain-agnostic methods can empower contrastive learning to scale to real-world scie
     
-[^69]: 利用子模价值将物品分配给代理人
+[^69]: 语言模型的持续预训练
+
+    Continual Pre-training of Language Models. (arXiv:2302.03241v4 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2302.03241](http://arxiv.org/abs/2302.03241)
+
+    本文研究了语言模型的持续预训练，提出了一种新颖的持续领域自适应预训练方法，使用一系列未标记的领域语料库来逐步适应领域以提高LM在领域内的终端任务表现。该方法通过一个软掩蔽机制来直接控制LM的更新，并使用一种新颖的代理来保留LM中的整体知识，同时对比已学习领域知识和当前全网络的知识来实现知识整合。
+
+    
+
+    语言模型（LMs）是自然语言处理快速发展的关键。本文研究LMs的持续预训练，特别是持续领域自适应预训练（或持续DAP训练）。现有研究表明，使用领域语料库进一步预训练LMs以使其适应于领域，可以提高领域内的最终任务性能。本文提出了一种新颖的方法，使用一系列未标记的领域语料库来持续DAP训练LMs，以使其适应于这些领域，从而提高它们的终端任务性能。我们方法的关键创新在于一种软掩蔽机制，可直接控制LMs的更新。还提出了一种新颖的代理来保留原始LMs中的普通知识。此外，它对先前学习的领域知识（包括预先训练的LMs中的普通知识）和来自当前全网络的知识进行对比，以实现知识整合。
+
+    Language models (LMs) have been instrumental for the rapid advance of natural language processing. This paper studies continual pre-training of LMs, in particular, continual domain-adaptive pre-training (or continual DAP-training). Existing research has shown that further pre-training an LM using a domain corpus to adapt the LM to the domain can improve the end-task performance in the domain. This paper proposes a novel method to continually DAP-train an LM with a sequence of unlabeled domain corpora to adapt the LM to these domains to improve their end-task performances. The key novelty of our method is a soft-masking mechanism that directly controls the update to the LM. A novel proxy is also proposed to preserve the general knowledge in the original LM. Additionally, it contrasts the representations of the previously learned domain knowledge (including the general knowledge in the pre-trained LM) and the knowledge from the current full network to achieve knowledge integration. The m
+    
+[^70]: 利用子模价值将物品分配给代理人
 
     Dividing Good and Better Items Among Agents with Submodular Valuations. (arXiv:2302.03087v2 [cs.GT] UPDATED)
 
@@ -1063,7 +1080,7 @@
 
     We study the problem of fairly allocating a set of indivisible goods among agents with bivalued submodular valuations -- each good provides a marginal gain of either $a$ or $b$ ($a < b$) and goods have decreasing marginal gains. This is a natural generalization of two well-studied valuation classes -bivalued additive valuations and binary submodular valuations. We present a simple sequential algorithmic framework, based on the recently introduced Yankee Swap mechanism, that can be adapted to compute a variety of solution concepts, including leximin, max Nash welfare (MNW) and $p$-mean welfare maximizing allocations when $a$ divides $b$. This result is complemented by an existing result on the computational intractability of leximin and MNW allocations when $a$ does not divide $b$.  We further examine leximin and MNW allocations with respect to two well-known properties -- envy freeness and the maximin share guarantee. On envy freeness, we show that neither the leximin nor the MNW all
     
-[^70]: LDMIC：基于学习的分布式多视图图像编码
+[^71]: LDMIC：基于学习的分布式多视图图像编码
 
     LDMIC: Learning-based Distributed Multi-view Image Coding. (arXiv:2301.09799v2 [eess.IV] UPDATED)
 
@@ -1077,7 +1094,21 @@
 
     Multi-view image compression plays a critical role in 3D-related applications. Existing methods adopt a predictive coding architecture, which requires joint encoding to compress the corresponding disparity as well as residual information. This demands collaboration among cameras and enforces the epipolar geometric constraint between different views, which makes it challenging to deploy these methods in distributed camera systems with randomly overlapping fields of view. Meanwhile, distributed source coding theory indicates that efficient data compression of correlated sources can be achieved by independent encoding and joint decoding, which motivates us to design a learning-based distributed multi-view image coding (LDMIC) framework. With independent encoders, LDMIC introduces a simple yet effective joint context transfer module based on the cross-attention mechanism at the decoder to effectively capture the global inter-view correlations, which is insensitive to the geometric relation
     
-[^71]: 极端图像变换在人类和机器上产生不同影响
+[^72]: Mystique: 实现精确可扩展的生产AI基准测试生成
+
+    Mystique: Enabling Accurate and Scalable Generation of Production AI Benchmarks. (arXiv:2301.04122v3 [cs.DC] UPDATED)
+
+    [http://arxiv.org/abs/2301.04122](http://arxiv.org/abs/2301.04122)
+
+    本文介绍了Mystique，一个准确可扩展的生产AI基准测试生成框架，它利用PyTorch执行跟踪来捕获AI模型的运行时信息和元数据。该框架可以轻松地生成具有代表性和可移植性的AI基准测试，且具有低运行时负荷和仪器化工作的优点。
+
+    
+
+    为了支持快速增长的深度学习工作量，构建大型AI集群成为现代云提供商的研究热点。准确的基准测试生成在设计快节奏软件和硬件解决方案中起着至关重要的作用。本文提出了Mystique，这是一个精确可扩展的生产AI基准测试生成框架，用于克服可扩展性的两个主要难题：（i）工作负载的代表性；（ii）快速将集群变更纳入基准测试中。Mystique利用PyTorch执行跟踪（ET）功能，以运算符的形式，以图形格式捕获AI模型的运行时信息和元数据。通过来源于集群ET的构建，我们可以得到具有代表性和可移植性的AI基准测试。轻量级数据收集、低运行时负荷和仪器化工作的Mystique表示是可扩展的和适应性强的。
+
+    Building large AI fleets to support the rapidly growing DL workloads is an active research topic for modern cloud providers. Generating accurate benchmarks plays an essential role in designing the fast-paced software and hardware solutions in this space. Two fundamental challenges to make this scalable are (i) workload representativeness and (ii) the ability to quickly incorporate changes to the fleet into the benchmarks.  To overcome these issues, we propose Mystique, an accurate and scalable framework for production AI benchmark generation. It leverages the PyTorch execution trace (ET), a new feature that captures the runtime information of AI models at the granularity of operators, in a graph format, together with their metadata. By sourcing fleet ETs, we can build AI benchmarks that are portable and representative. Mystique is scalable, due to its lightweight data collection, in terms of runtime overhead and instrumentation effort. It is also adaptive because ET composability allow
+    
+[^73]: 极端图像变换在人类和机器上产生不同影响
 
     Extreme Image Transformations Affect Humans and Machines Differently. (arXiv:2212.13967v2 [cs.CV] UPDATED)
 
@@ -1091,7 +1122,7 @@
 
     Some recent artificial neural networks (ANNs) claim to model aspects of primate neural and human performance data. Their success in object recognition is, however, dependent on exploiting low-level features for solving visual tasks in a way that humans do not. As a result, out-of-distribution or adversarial input is often challenging for ANNs. Humans instead learn abstract patterns and are mostly unaffected by many extreme image distortions. We introduce a set of novel image transforms inspired by neurophysiological findings and evaluate humans and ANNs on an object recognition task. We show that machines perform better than humans for certain transforms and struggle to perform at par with humans on others that are easy for humans. We quantify the differences in accuracy for humans and machines and find a ranking of difficulty for our transforms for human data. We also suggest how certain characteristics of human visual processing can be adapted to improve the performance of ANNs for o
     
-[^72]: 用于问题回答的动量对比预训练方法
+[^74]: 用于问题回答的动量对比预训练方法
 
     Momentum Contrastive Pre-training for Question Answering. (arXiv:2212.05762v2 [cs.CL] UPDATED)
 
@@ -1105,7 +1136,7 @@
 
     Existing pre-training methods for extractive Question Answering (QA) generate cloze-like queries different from natural questions in syntax structure, which could overfit pre-trained models to simple keyword matching. In order to address this problem, we propose a novel Momentum Contrastive pRe-training fOr queStion anSwering (MCROSS) method for extractive QA. Specifically, MCROSS introduces a momentum contrastive learning framework to align the answer probability between cloze-like and natural query-passage sample pairs. Hence, the pre-trained models can better transfer the knowledge learned in cloze-like samples to answering natural questions. Experimental results on three benchmarking QA datasets show that our method achieves noticeable improvement compared with all baselines in both supervised and zero-shot scenarios.
     
-[^73]: 迈向人类兼容自动驾驶汽车：情感过渡模型中的非语言图灵测试研究
+[^75]: 迈向人类兼容自动驾驶汽车：情感过渡模型中的非语言图灵测试研究
 
     Towards human-compatible autonomous car: A study of non-verbal Turing test in automated driving with affective transition modelling. (arXiv:2212.02908v5 [cs.HC] UPDATED)
 
@@ -1119,7 +1150,7 @@
 
     Autonomous cars are indispensable when humans go further down the hands-free route. Although existing literature highlights that the acceptance of the autonomous car will increase if it drives in a human-like manner, sparse research offers the naturalistic experience from a passenger's seat perspective to examine the human likeness of current autonomous cars. The present study tested whether the AI driver could create a human-like ride experience for passengers based on 69 participants' feedback in a real-road scenario. We designed a ride experience-based version of the non-verbal Turing test for automated driving. Participants rode in autonomous cars (driven by either human or AI drivers) as a passenger and judged whether the driver was human or AI. The AI driver failed to pass our test because passengers detected the AI driver above chance. In contrast, when the human driver drove the car, the passengers' judgement was around chance. We further investigated how human passengers ascri
     
-[^74]: 基于查询的多模态路径融合知识库补全
+[^76]: 基于查询的多模态路径融合知识库补全
 
     Query-Driven Knowledge Base Completion using Multimodal Path Fusion over Multimodal Knowledge Graph. (arXiv:2212.01923v2 [cs.DB] UPDATED)
 
@@ -1133,7 +1164,7 @@
 
     Over the past few years, large knowledge bases have been constructed to store massive amounts of knowledge. However, these knowledge bases are highly incomplete, for example, over 70% of people in Freebase have no known place of birth. To solve this problem, we propose a query-driven knowledge base completion system with multimodal fusion of unstructured and structured information. To effectively fuse unstructured information from the Web and structured information in knowledge bases to achieve good performance, our system builds multimodal knowledge graphs based on question answering and rule inference. We propose a multimodal path fusion algorithm to rank candidate answers based on different paths in the multimodal knowledge graphs, achieving much better performance than question answering, rule inference and a baseline fusion algorithm. To improve system efficiency, query-driven techniques are utilized to reduce the runtime of our system, providing fast responses to user queries. Ex
     
-[^75]: 不完整信息下的知识图谱质量评估
+[^77]: 不完整信息下的知识图谱质量评估
 
     Knowledge Graph Quality Evaluation under Incomplete Information. (arXiv:2212.00994v2 [cs.AI] UPDATED)
 
@@ -1147,7 +1178,7 @@
 
     Knowledge graphs (KGs) have attracted more and more attentions because of their fundamental roles in many tasks. Quality evaluation for KGs is thus crucial and indispensable. Existing methods in this field evaluate KGs by either proposing new quality metrics from different dimensions or measuring performances at KG construction stages. However, there are two major issues with those methods. First, they highly rely on raw data in KGs, which makes KGs' internal information exposed during quality evaluation. Second, they consider more about the quality at data level instead of ability level, where the latter one is more important for downstream applications. To address these issues, we propose a knowledge graph quality evaluation framework under incomplete information (QEII). The quality evaluation task is transformed into an adversarial Q&A game between two KGs. Winner of the game is thus considered to have better qualities. During the evaluation process, no raw data is exposed, which en
     
-[^76]: 通过监督学习增强约束编程在作业车间调度中的应用
+[^78]: 通过监督学习增强约束编程在作业车间调度中的应用
 
     Enhancing Constraint Programming via Supervised Learning for Job Shop Scheduling. (arXiv:2211.14492v2 [cs.AI] UPDATED)
 
@@ -1161,7 +1192,7 @@
 
     Constraint programming (CP) is a powerful technique for solving constraint satisfaction and optimization problems. In CP solvers, the variable ordering strategy used to select which variable to explore first in the solving process has a significant impact on solver effectiveness. To address this issue, we propose a novel variable ordering strategy based on supervised learning, which we evaluate in the context of job shop scheduling problems. Our learning-based methods predict the optimal solution of a problem instance and use the predicted solution to order variables for CP solvers. \added[]{Unlike traditional variable ordering methods, our methods can learn from the characteristics of each problem instance and customize the variable ordering strategy accordingly, leading to improved solver performance.} Our experiments demonstrate that training machine learning models is highly efficient and can achieve high accuracy. Furthermore, our learned variable ordering methods perform competit
     
-[^77]: 使用基于网络问答和多模态融合完成知识库
+[^79]: 使用基于网络问答和多模态融合完成知识库
 
     Knowledge Base Completion using Web-Based Question Answering and Multimodal Fusion. (arXiv:2211.07098v3 [cs.AI] UPDATED)
 
@@ -1175,7 +1206,21 @@
 
     Over the past few years, large knowledge bases have been constructed to store massive amounts of knowledge. However, these knowledge bases are highly incomplete. To solve this problem, we propose a web-based question answering system system with multimodal fusion of unstructured and structured information, to fill in missing information for knowledge bases. To utilize unstructured information from the Web for knowledge base completion, we design a web-based question answering system using multimodal features and question templates to extract missing facts, which can achieve good performance with very few questions. To help improve extraction quality, the question answering system employs structured information from knowledge bases, such as entity types and entity-to-entity relatedness.
     
-[^78]: 一种可解释的机器学习系统来识别癫痫-间隙-损伤连续状态下的脑电图图案
+[^80]: 通过语义一致性测量大型语言模型的可靠性。
+
+    Measuring Reliability of Large Language Models through Semantic Consistency. (arXiv:2211.05853v2 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2211.05853](http://arxiv.org/abs/2211.05853)
+
+    本研究通过开发语义一致性度量来评估大型预训练语言模型的性能，以比较不同PLM的可靠性，保证其在相同或相似的提示下生成的输出一致。
+
+    
+
+    虽然大型预训练语言模型（PLMs）在许多自然语言处理任务中表现出极高的流畅性和性能，但最近的研究表明，表现良好的PLMs非常敏感，对于输入的提示非常敏感。即使提示在语义上是相同的，语言模型也可能给出非常不同的答案。当考虑PLMs的安全和可信赖部署时，我们希望它们在意思相同或表达相同意图的提示下的输出是一致的。虽然一些研究已经探讨了最先进的PLMs如何解决这个需求，但它们仅限于评估单个或多个单词答案的词汇等价性，而不涉及生成文本序列的一致性。为了理解在生成文本设置下PLMs的一致性，我们开发了一个语义一致性度量，允许比较开放式文本输出的一致性。我们实现了几个版本的一致性度量来评估多个PLM的性能。
+
+    While large pretrained language models (PLMs) demonstrate incredible fluency and performance on many natural language tasks, recent work has shown that well-performing PLMs are very sensitive to what prompts are feed into them. Even when prompts are semantically identical, language models may give very different answers. When considering safe and trustworthy deployments of PLMs we would like their outputs to be consistent under prompts that mean the same thing or convey the same intent. While some work has looked into how state-of-the-art PLMs address this need, they have been limited to only evaluating lexical equality of single- or multi-word answers and do not address consistency of generative text sequences. In order to understand consistency of PLMs under text generation settings, we develop a measure of semantic consistency that allows the comparison of open-ended text outputs. We implement several versions of this consistency metric to evaluate the performance of a number of PLM
+    
+[^81]: 一种可解释的机器学习系统来识别癫痫-间隙-损伤连续状态下的脑电图图案
 
     An Interpretable Machine Learning System to Identify EEG Patterns on the Ictal-Interictal-Injury Continuum. (arXiv:2211.05207v3 [cs.CV] UPDATED)
 
@@ -1189,7 +1234,7 @@
 
     In many medical subfields, there is a call for greater interpretability in the machine learning systems used for clinical work. In this paper, we design an interpretable deep learning model to predict the presence of 6 types of brainwave patterns (Seizure, LPD, GPD, LRDA, GRDA, other) commonly encountered in ICU EEG monitoring. Each prediction is accompanied by a high-quality explanation delivered with the assistance of a specialized user interface. This novel model architecture learns a set of prototypical examples (``prototypes'') and makes decisions by comparing a new EEG segment to these prototypes. These prototypes are either single-class (affiliated with only one class) or dual-class (affiliated with two classes).  We present three main ways of interpreting the model: 1) Using global-structure preserving methods, we map the 1275-dimensional cEEG latent features to a 2D space to visualize the ictal-interictal-injury continuum and gain insight into its high-dimensional structure. 2
     
-[^79]: 使用最小熵耦合的完美安全隐写术
+[^82]: 使用最小熵耦合的完美安全隐写术
 
     Perfectly Secure Steganography Using Minimum Entropy Coupling. (arXiv:2210.14889v3 [cs.CR] UPDATED)
 
@@ -1203,7 +1248,7 @@
 
     Steganography is the practice of encoding secret information into innocuous content in such a manner that an adversarial third party would not realize that there is hidden meaning. While this problem has classically been studied in security literature, recent advances in generative models have led to a shared interest among security and machine learning researchers in developing scalable steganography techniques. In this work, we show that a steganography procedure is perfectly secure under Cachin (1998)'s information theoretic-model of steganography if and only if it is induced by a coupling. Furthermore, we show that, among perfectly secure procedures, a procedure is maximally efficient if and only if it is induced by a minimum entropy coupling. These insights yield what are, to the best of our knowledge, the first steganography algorithms to achieve perfect security guarantees with non-trivial efficiency; additionally, these algorithms are highly scalable. To provide empirical valid
     
-[^80]: LittleBird：用于问答的更快更长Transformer
+[^83]: LittleBird：用于问答的更快更长Transformer
 
     LittleBird: Efficient Faster & Longer Transformer for Question Answering. (arXiv:2210.11870v2 [cs.CL] UPDATED)
 
@@ -1217,7 +1262,7 @@
 
     BERT has shown a lot of sucess in a wide variety of NLP tasks. But it has a limitation dealing with long inputs due to its attention mechanism. Longformer, ETC and BigBird addressed this issue and effectively solved the quadratic dependency problem. However we find that these models are not sufficient, and propose LittleBird, a novel model based on BigBird with improved speed and memory footprint while maintaining accuracy. In particular, we devise a more flexible and efficient position representation method based on Attention with Linear Biases (ALiBi). We also show that replacing the method of global information represented in the BigBird with pack and unpack attention is more effective. The proposed model can work on long inputs even after being pre-trained on short inputs, and can be trained efficiently reusing existing pre-trained language model for short inputs. This is a significant benefit for low-resource languages where large amounts of long text data are difficult to obtain.
     
-[^81]: 通过学习概念的逻辑组合，全局解释GNNs
+[^84]: 通过学习概念的逻辑组合，全局解释GNNs
 
     Global Explainability of GNNs via Logic Combination of Learned Concepts. (arXiv:2210.07147v3 [cs.LG] UPDATED)
 
@@ -1231,7 +1276,7 @@
 
     While instance-level explanation of GNN is a well-studied problem with plenty of approaches being developed, providing a global explanation for the behaviour of a GNN is much less explored, despite its potential in interpretability and debugging. Existing solutions either simply list local explanations for a given class, or generate a synthetic prototypical graph with maximal score for a given class, completely missing any combinatorial aspect that the GNN could have learned. In this work, we propose GLGExplainer (Global Logic-based GNN Explainer), the first Global Explainer capable of generating explanations as arbitrary Boolean combinations of learned graphical concepts. GLGExplainer is a fully differentiable architecture that takes local explanations as inputs and combines them into a logic formula over graphical concepts, represented as clusters of local explanations. Contrary to existing solutions, GLGExplainer provides accurate and human-interpretable global explanations that are
     
-[^82]: 时间注意力单元：面向高效时空预测学习的方法研究
+[^85]: 时间注意力单元：面向高效时空预测学习的方法研究
 
     Temporal Attention Unit: Towards Efficient Spatiotemporal Predictive Learning. (arXiv:2206.12126v2 [cs.CV] UPDATED)
 
@@ -1245,7 +1290,7 @@
 
     Spatiotemporal predictive learning aims to generate future frames by learning from historical frames. In this paper, we investigate existing methods and present a general framework of spatiotemporal predictive learning, in which the spatial encoder and decoder capture intra-frame features and the middle temporal module catches inter-frame correlations. While the mainstream methods employ recurrent units to capture long-term temporal dependencies, they suffer from low computational efficiency due to their unparallelizable architectures. To parallelize the temporal module, we propose the Temporal Attention Unit (TAU), which decomposes the temporal attention into intra-frame statical attention and inter-frame dynamical attention. Moreover, while the mean squared error loss focuses on intra-frame errors, we introduce a novel differential divergence regularization to take inter-frame variations into account. Extensive experiments demonstrate that the proposed method enables the derived mode
     
-[^83]: 无欺骗性基于扰动的事后解释器
+[^86]: 无欺骗性基于扰动的事后解释器
 
     Unfooling Perturbation-Based Post Hoc Explainers. (arXiv:2205.14772v3 [cs.AI] UPDATED)
 
@@ -1259,7 +1304,7 @@
 
     Monumental advancements in artificial intelligence (AI) have lured the interest of doctors, lenders, judges, and other professionals. While these high-stakes decision-makers are optimistic about the technology, those familiar with AI systems are wary about the lack of transparency of its decision-making processes. Perturbation-based post hoc explainers offer a model agnostic means of interpreting these systems while only requiring query-level access. However, recent work demonstrates that these explainers can be fooled adversarially. This discovery has adverse implications for auditors, regulators, and other sentinels. With this in mind, several natural questions arise - how can we audit these black box systems? And how can we ascertain that the auditee is complying with the audit in good faith? In this work, we rigorously formalize this problem and devise a defense against adversarial attacks on perturbation-based explainers. We propose algorithms for the detection (CAD-Detect) and de
     
-[^84]: CNN在学习图像块后避免了维数灾难
+[^87]: CNN在学习图像块后避免了维数灾难
 
     CNNs Avoid Curse of Dimensionality by Learning on Patches. (arXiv:2205.10760v4 [cs.CV] UPDATED)
 
@@ -1273,7 +1318,7 @@
 
     Despite the success of convolutional neural networks (CNNs) in numerous computer vision tasks and their extraordinary generalization performances, several attempts to predict the generalization errors of CNNs have only been limited to a posteriori analyses thus far. A priori theories explaining the generalization performances of deep neural networks have mostly ignored the convolutionality aspect and do not specify why CNNs are able to seemingly overcome curse of dimensionality on computer vision tasks like image classification where the image dimensions are in thousands. Our work attempts to explain the generalization performance of CNNs on image classification under the hypothesis that CNNs operate on the domain of image patches. Ours is the first work we are aware of to derive an a priori error bound for the generalization error of CNNs and we present both quantitative and qualitative evidences in the support of our theory. Our patch-based theory also offers explanation for why data
     
-[^85]: 解读神经最小总和解码器
+[^88]: 解读神经最小总和解码器
 
     Interpreting Neural Min-Sum Decoders. (arXiv:2205.10684v2 [cs.IT] UPDATED)
 
@@ -1287,7 +1332,7 @@
 
     In decoding linear block codes, it was shown that noticeable reliability gains can be achieved by introducing learnable parameters to the Belief Propagation (BP) decoder. Despite the success of these methods, there are two key open problems. The first is the lack of interpretation of the learned weights, and the other is the lack of analysis for non-AWGN channels. In this work, we aim to bridge this gap by providing insights into the weights learned and their connection to the structure of the underlying code. We show that the weights are heavily influenced by the distribution of short cycles in the code. We next look at the performance of these decoders in non-AWGN channels, both synthetic and over-the-air channels, and study the complexity vs. performance trade-offs, demonstrating that increasing the number of parameters helps significantly in complex channels. Finally, we show that the decoders with learned weights achieve higher reliability than those with weights optimized analyti
     
-[^86]: AutoMLBench：自动化机器学习框架的全面实验评估
+[^89]: AutoMLBench：自动化机器学习框架的全面实验评估
 
     AutoMLBench: A Comprehensive Experimental Evaluation of Automated Machine Learning Frameworks. (arXiv:2204.08358v2 [cs.LG] UPDATED)
 
@@ -1301,7 +1346,7 @@
 
     With the booming demand for machine learning applications, it has been recognized that the number of knowledgeable data scientists can not scale with the growing data volumes and application needs in our digital world. In response to this demand, several automated machine learning (AutoML) frameworks have been developed to fill the gap of human expertise by automating the process of building machine learning pipelines. Each framework comes with different heuristics-based design decisions. In this study, we present a comprehensive evaluation and comparison of the performance characteristics of six popular AutoML frameworks, namely, AutoWeka, AutoSKlearn, TPOT, Recipe, ATM, and SmartML, across 100 data sets from established AutoML benchmark suites. Our experimental evaluation considers different aspects for its comparison, including the performance impact of several design decisions, including time budget, size of search space, meta-learning, and ensemble construction. The results of our
     
-[^87]: 多智能体学习中信条的重要性
+[^90]: 多智能体学习中信条的重要性
 
     The Importance of Credo in Multiagent Learning. (arXiv:2204.07471v2 [cs.AI] UPDATED)
 
@@ -1315,7 +1360,7 @@
 
     We propose a model for multi-objective optimization, a credo, for agents in a system that are configured into multiple groups (i.e., teams). Our model of credo regulates how agents optimize their behavior for the groups they belong to. We evaluate credo in the context of challenging social dilemmas with reinforcement learning agents. Our results indicate that the interests of teammates, or the entire system, are not required to be fully aligned for achieving globally beneficial outcomes. We identify two scenarios without full common interest that achieve high equality and significantly higher mean population rewards compared to when the interests of all agents are aligned.
     
-[^88]: 宽量子神经网络动力学的分析理论
+[^91]: 宽量子神经网络动力学的分析理论
 
     Analytic theory for the dynamics of wide quantum neural networks. (arXiv:2203.16711v3 [quant-ph] UPDATED)
 
@@ -1329,7 +1374,7 @@
 
     Parameterized quantum circuits can be used as quantum neural networks and have the potential to outperform their classical counterparts when trained for addressing learning problems. To date, much of the results on their performance on practical problems are heuristic in nature. In particular, the convergence rate for the training of quantum neural networks is not fully understood. Here, we analyze the dynamics of gradient descent for the training error of a class of variational quantum machine learning models. We define wide quantum neural networks as parameterized quantum circuits in the limit of a large number of qubits and variational parameters. We then find a simple analytic formula that captures the average behavior of their loss function and discuss the consequences of our findings. For example, for random quantum circuits, we predict and characterize an exponential decay of the residual training error as a function of the parameters of the system. We finally validate our analy
     
-[^89]: 零和神经符号并发随机博弈的策略合成
+[^92]: 零和神经符号并发随机博弈的策略合成
 
     Strategy Synthesis for Zero-Sum Neuro-Symbolic Concurrent Stochastic Games. (arXiv:2202.06255v5 [cs.AI] UPDATED)
 
@@ -1343,7 +1388,7 @@
 
     Neuro-symbolic approaches to artificial intelligence, which combine neural networks with classical symbolic techniques, are growing in prominence, necessitating formal approaches to reason about their correctness. We propose a novel modelling formalism called neuro-symbolic concurrent stochastic games (NS-CSGs), which comprise probabilistic finite-state agents interacting in a shared continuous-state environment observed through perception mechanisms implemented as neural networks (NNs). We focus on the class of NS-CSGs with Borel state spaces and prove the existence and measurability of the value function for zero-sum discounted cumulative rewards under piecewise-constant restrictions on the components of this class of models. To compute values and synthesise strategies, we present, for the first time, implementable value iteration (VI) and policy iteration (PI) algorithms to solve a class of continuous-state CSGs. These require a finite representation of the pre-image of the environm
     
-[^90]: 通过专家引导的对称检测进行数据增强以提高离线强化学习的性能
+[^93]: 通过专家引导的对称检测进行数据增强以提高离线强化学习的性能
 
     Data Augmentation through Expert-guided Symmetry Detection to Improve Performance in Offline Reinforcement Learning. (arXiv:2112.09943v3 [cs.LG] UPDATED)
 
@@ -1357,7 +1402,7 @@
 
     Offline estimation of the dynamical model of a Markov Decision Process (MDP) is a non-trivial task that greatly depends on the data available in the learning phase. Sometimes the dynamics of the model is invariant with respect to some transformations of the current state and action. Recent works showed that an expert-guided pipeline relying on Density Estimation methods as Deep Neural Network based Normalizing Flows effectively detects this structure in deterministic environments, both categorical and continuous-valued. The acquired knowledge can be exploited to augment the original data set, leading eventually to a reduction in the distributional shift between the true and the learned model. Such data augmentation technique can be exploited as a preliminary process to be executed before adopting an Offline Reinforcement Learning architecture, increasing its performance. In this work we extend the paradigm to also tackle non-deterministic MDPs, in particular, 1) we propose a detection 
     
-[^91]: 无重复用户或上下文的基于评论的跨领域推荐中的领域解缠方法
+[^94]: 无重复用户或上下文的基于评论的跨领域推荐中的领域解缠方法
 
     Review-Based Domain Disentanglement without Duplicate Users or Contexts for Cross-Domain Recommendation. (arXiv:2110.12648v3 [cs.IR] UPDATED)
 
@@ -1371,7 +1416,7 @@
 
     A cross-domain recommendation has shown promising results in solving data-sparsity and cold-start problems. Despite such progress, existing methods focus on domain-shareable information (overlapped users or same contexts) for a knowledge transfer, and they fail to generalize well without such requirements. To deal with these problems, we suggest utilizing review texts that are general to most e-commerce systems. Our model (named SER) uses three text analysis modules, guided by a single domain discriminator for disentangled representation learning. Here, we suggest a novel optimization strategy that can enhance the quality of domain disentanglement, and also debilitates detrimental information of a source domain. Also, we extend the encoding network from a single to multiple domains, which has proven to be powerful for review-based recommender systems. Extensive experiments and ablation studies demonstrate that our method is efficient, robust, and scalable compared to the state-of-the-a
     
-[^92]: 基于继承表示的强化学习中的时间抽象
+[^95]: 基于继承表示的强化学习中的时间抽象
 
     Temporal Abstraction in Reinforcement Learning with the Successor Representation. (arXiv:2110.05740v3 [cs.LG] UPDATED)
 
