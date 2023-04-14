@@ -20,12 +20,13 @@
 | [^16] | [Reflected Diffusion Models.](http://arxiv.org/abs/2304.04740) | 该论文提出了反射扩散模型，通过学习反射随机微分方程的扰动评分函数，将数据约束原则性地整合到生成过程中，以取代之前采用的导致不自然样本的阈值处理方案。 |
 | [^17] | [PriorCVAE: scalable MCMC parameter inference with Bayesian deep generative modelling.](http://arxiv.org/abs/2304.04307) | PriorCVAE 提出了一种处理高斯过程先验 MCMC 参数推断的贝叶斯深度生成建模新方法，可通过将 VAE 建模条件化于随机过程超参数处理超参数推断与学习先验之间的信息流断裂问题。 |
 | [^18] | [Towards Inferential Reproducibility of Machine Learning Research.](http://arxiv.org/abs/2302.04054) | 本研究提出利用线性混合效应模型（LMEM）来分析机器学习性能评估分数，并考虑多个方差来源及其与数据特性相互作用，从而评估可靠性和可复制性，促进对机器学习算法行为的更全面理解。 |
-| [^19] | [KL-divergence Based Deep Learning for Discrete Time Model.](http://arxiv.org/abs/2208.05100) | 该论文提出了一种基于KL散度的深度学习程序，用于解决生存分析中短数据问题，通过将外部生存预测模型与新收集的时间至事件数据相结合来获得更好的性能和鲁棒性。 |
-| [^20] | [Generative Modelling With Inverse Heat Dissipation.](http://arxiv.org/abs/2206.13397) | 该论文提出了一种新的类似扩散的模型来生成图像，它通过随机反转热方程在2D平面上运行来生成图像，并展示了与标准扩散模型不同的新颖定性性质，包括图像中整体颜色和形状的解缠绕现象。 |
-| [^21] | [Variable importance without impossible data.](http://arxiv.org/abs/2205.15750) | 评估黑箱预测模型中变量重要性的流行方法不可信，因为使用了不可能的数据。本文提出一种名为Cohort Shapley的方法，它基于经济博弈理论，仅使用实际观测到的数据来量化变量重要性，可以解决算法公平性问题。 |
-| [^22] | [A method to integrate and classify normal distributions.](http://arxiv.org/abs/2012.14331) | 本文介绍了一种可以对任意参数维度下的任意域内正态分布进行积分的方法，提供了法向向量函数的相关概率密度和统计指标，同时还提供了可以对任意数量正态分布进行分类的方法和维度降低和可视化的技术。 |
-| [^23] | [The Role of Mutual Information in Variational Classifiers.](http://arxiv.org/abs/2010.11642) | 本文研究了基于随机编码的分类器的泛化误差，并得出了泛化误差受输入特征和潜空间表示之间互信息限制的结论。 |
-| [^24] | [Semi-supervised Hypergraph Node Classification on Hypergraph Line Expansion.](http://arxiv.org/abs/2005.04843) | 本文提出了一种新的超图学习方法，即“线扩展(LE)”，该方法通过将顶点-超边对作为“线节点”，在超图中引出同构结构，适用于各种超图扩展并达到了显著优于SOTA的效果。 |
+| [^19] | [Neural network based generation of 1-dimensional stochastic fields with turbulent velocity statistics.](http://arxiv.org/abs/2211.11580) | 该论文介绍了一个名为NN-Turb的全卷积神经网络随机模型，用于以湍流速度统计特性生成1维场，而无需接触湍流数据。生成的过程满足Kolmogorov 2/3结构函数定律，同时还表现出负偏斜度和间歇性。 |
+| [^20] | [KL-divergence Based Deep Learning for Discrete Time Model.](http://arxiv.org/abs/2208.05100) | 该论文提出了一种基于KL散度的深度学习程序，用于解决生存分析中短数据问题，通过将外部生存预测模型与新收集的时间至事件数据相结合来获得更好的性能和鲁棒性。 |
+| [^21] | [Generative Modelling With Inverse Heat Dissipation.](http://arxiv.org/abs/2206.13397) | 该论文提出了一种新的类似扩散的模型来生成图像，它通过随机反转热方程在2D平面上运行来生成图像，并展示了与标准扩散模型不同的新颖定性性质，包括图像中整体颜色和形状的解缠绕现象。 |
+| [^22] | [Variable importance without impossible data.](http://arxiv.org/abs/2205.15750) | 评估黑箱预测模型中变量重要性的流行方法不可信，因为使用了不可能的数据。本文提出一种名为Cohort Shapley的方法，它基于经济博弈理论，仅使用实际观测到的数据来量化变量重要性，可以解决算法公平性问题。 |
+| [^23] | [A method to integrate and classify normal distributions.](http://arxiv.org/abs/2012.14331) | 本文介绍了一种可以对任意参数维度下的任意域内正态分布进行积分的方法，提供了法向向量函数的相关概率密度和统计指标，同时还提供了可以对任意数量正态分布进行分类的方法和维度降低和可视化的技术。 |
+| [^24] | [The Role of Mutual Information in Variational Classifiers.](http://arxiv.org/abs/2010.11642) | 本文研究了基于随机编码的分类器的泛化误差，并得出了泛化误差受输入特征和潜空间表示之间互信息限制的结论。 |
+| [^25] | [Semi-supervised Hypergraph Node Classification on Hypergraph Line Expansion.](http://arxiv.org/abs/2005.04843) | 本文提出了一种新的超图学习方法，即“线扩展(LE)”，该方法通过将顶点-超边对作为“线节点”，在超图中引出同构结构，适用于各种超图扩展并达到了显著优于SOTA的效果。 |
 
 # 详细
 
@@ -281,7 +282,21 @@
 
     Reliability of machine learning evaluation -- the consistency of observed evaluation scores across replicated model training runs -- is affected by several sources of nondeterminism which can be regarded as measurement noise. Current tendencies to remove noise in order to enforce reproducibility of research results neglect inherent nondeterminism at the implementation level and disregard crucial interaction effects between algorithmic noise factors and data properties. This limits the scope of conclusions that can be drawn from such experiments. Instead of removing noise, we propose to incorporate several sources of variance, including their interaction with data properties, into an analysis of significance and reliability of machine learning evaluation, with the aim to draw inferences beyond particular instances of trained models. We show how to use linear mixed effects models (LMEMs) to analyze performance evaluation scores, and to conduct statistical inference with a generalized lik
     
-[^19]: 基于KL散度的离散时间模型深度学习
+[^19]: 基于神经网络的1维随机场生成，具有湍流速度统计特性
+
+    Neural network based generation of 1-dimensional stochastic fields with turbulent velocity statistics. (arXiv:2211.11580v2 [eess.SP] UPDATED)
+
+    [http://arxiv.org/abs/2211.11580](http://arxiv.org/abs/2211.11580)
+
+    该论文介绍了一个名为NN-Turb的全卷积神经网络随机模型，用于以湍流速度统计特性生成1维场，而无需接触湍流数据。生成的过程满足Kolmogorov 2/3结构函数定律，同时还表现出负偏斜度和间歇性。
+
+    
+
+    我们定义并研究了一个全卷积神经网络随机模型，名为NN-Turb，用于生成具有湍流速度统计特性的1维场。这样，生成的过程满足Kolmogorov 2/3结构函数定律。它还呈现出各个尺度上的负偏斜度（即Kolmogorov 4/5定律）和间歇性。此外，我们的模型从不接触湍流数据，只需要训练所需的结构函数在各个尺度上的统计行为。
+
+    We define and study a fully-convolutional neural network stochastic model, NN-Turb, which generates 1-dimensional fields with turbulent velocity statistics. Thus, the generated process satisfies the Kolmogorov 2/3 law for second order structure function. It also presents negative skewness across scales (i.e. Kolmogorov 4/5 law) and exhibits intermittency. Furthermore, our model is never in contact with turbulent data and only needs the desired statistical behavior of the structure functions across scales for training.
+    
+[^20]: 基于KL散度的离散时间模型深度学习
 
     KL-divergence Based Deep Learning for Discrete Time Model. (arXiv:2208.05100v2 [stat.ML] UPDATED)
 
@@ -295,7 +310,7 @@
 
     Neural Network (Deep Learning) is a modern model in Artificial Intelligence and it has been exploited in Survival Analysis. Although several improvements have been shown by previous works, training an excellent deep learning model requires a huge amount of data, which may not hold in practice. To address this challenge, we develop a Kullback-Leibler-based (KL) deep learning procedure to integrate external survival prediction models with newly collected time-to-event data. Time-dependent KL discrimination information is utilized to measure the discrepancy between the external and internal data. This is the first work considering using prior information to deal with short data problem in Survival Analysis for deep learning. Simulation and real data results show that the proposed model achieves better performance and higher robustness compared with previous works.
     
-[^20]: 带有逆热传导的生成建模
+[^21]: 带有逆热传导的生成建模
 
     Generative Modelling With Inverse Heat Dissipation. (arXiv:2206.13397v7 [cs.CV] UPDATED)
 
@@ -309,7 +324,7 @@
 
     While diffusion models have shown great success in image generation, their noise-inverting generative process does not explicitly consider the structure of images, such as their inherent multi-scale nature. Inspired by diffusion models and the empirical success of coarse-to-fine modelling, we propose a new diffusion-like model that generates images through stochastically reversing the heat equation, a PDE that locally erases fine-scale information when run over the 2D plane of the image. We interpret the solution of the forward heat equation with constant additive noise as a variational approximation in the diffusion latent variable model. Our new model shows emergent qualitative properties not seen in standard diffusion models, such as disentanglement of overall colour and shape in images. Spectral analysis on natural images highlights connections to diffusion models and reveals an implicit coarse-to-fine inductive bias in them.
     
-[^21]: 无需不可能数据的变量重要性分析方法
+[^22]: 无需不可能数据的变量重要性分析方法
 
     Variable importance without impossible data. (arXiv:2205.15750v3 [cs.LG] UPDATED)
 
@@ -323,7 +338,7 @@
 
     The most popular methods for measuring importance of the variables in a black box prediction algorithm make use of synthetic inputs that combine predictor variables from multiple subjects. These inputs can be unlikely, physically impossible, or even logically impossible. As a result, the predictions for such cases can be based on data very unlike any the black box was trained on. We think that users cannot trust an explanation of the decision of a prediction algorithm when the explanation uses such values. Instead we advocate a method called Cohort Shapley that is grounded in economic game theory and unlike most other game theoretic methods, it uses only actually observed data to quantify variable importance. Cohort Shapley works by narrowing the cohort of subjects judged to be similar to a target subject on one or more features. We illustrate it on an algorithmic fairness problem where it is essential to attribute importance to protected variables that the model was not trained on.
     
-[^22]: 一种整合和分类正态分布的方法
+[^23]: 一种整合和分类正态分布的方法
 
     A method to integrate and classify normal distributions. (arXiv:2012.14331v8 [stat.ML] UPDATED)
 
@@ -337,7 +352,7 @@
 
     Univariate and multivariate normal probability distributions are widely used when modeling decisions under uncertainty. Computing the performance of such models requires integrating these distributions over specific domains, which can vary widely across models. Besides some special cases, there exist no general analytical expressions, standard numerical methods or software for these integrals. Here we present mathematical results and open-source software that provide (i) the probability in any domain of a normal in any dimensions with any parameters, (ii) the probability density, cumulative distribution, and inverse cumulative distribution of any function of a normal vector, (iii) the classification errors among any number of normal distributions, the Bayes-optimal discriminability index and relation to the operating characteristic, (iv) dimension reduction and visualizations for such problems, and (v) tests for how reliably these methods may be used on given data. We demonstrate these
     
-[^23]: 互信息在变分分类器中的作用
+[^24]: 互信息在变分分类器中的作用
 
     The Role of Mutual Information in Variational Classifiers. (arXiv:2010.11642v3 [stat.ML] UPDATED)
 
@@ -351,7 +366,7 @@
 
     Overfitting data is a well-known phenomenon related with the generation of a model that mimics too closely (or exactly) a particular instance of data, and may therefore fail to predict future observations reliably. In practice, this behaviour is controlled by various--sometimes heuristics--regularization techniques, which are motivated by developing upper bounds to the generalization error. In this work, we study the generalization error of classifiers relying on stochastic encodings trained on the cross-entropy loss, which is often used in deep learning for classification problems. We derive bounds to the generalization error showing that there exists a regime where the generalization error is bounded by the mutual information between input features and the corresponding representations in the latent space, which are randomly generated according to the encoding distribution. Our bounds provide an information-theoretic understanding of generalization in the so-called class of variation
     
-[^24]: 基于超图线扩展的半监督超图节点分类
+[^25]: 基于超图线扩展的半监督超图节点分类
 
     Semi-supervised Hypergraph Node Classification on Hypergraph Line Expansion. (arXiv:2005.04843v6 [cs.LG] UPDATED)
 

@@ -1018,6 +1018,26 @@ http://arxiv.org/abs/2304.06106
 &lt;/p&gt;
 &lt;p&gt;
 In biomedical research and artificial intelligence, access to large, well-balanced, and representative datasets is crucial for developing trustworthy applications that can be used in real-world scenarios. However, obtaining such datasets can be challenging, as they are often restricted to hospitals and specialized facilities. To address this issue, the study proposes to generate highly realistic synthetic faces exhibiting drug abuse traits through augmentation. The proposed method, called "3DG-GA", Deep De-identified anonymous Dataset Generation, uses Genetics Algorithm as a strategy for synthetic faces generation. The algorithm includes GAN artificial face generation, forgery detection, and face recognition. Initially, a dataset of 120 images of actual facial drug abuse is used. By preserving, the drug traits, the 3DG-GA provides a dataset containing 3000 synthetic facial drug abuse images. The dataset will be open to the scientific community, which can reproduce our results and benef
+&lt;/p&gt;</description></item><item><title>&#26412;&#25991;&#30740;&#31350;&#20102;&#23454;&#26102;&#27169;&#25311;&#30340;&#20869;&#22312;&#38543;&#26426;&#24615;&#29305;&#24615;&#21450;&#20854;&#22312;&#24378;&#21270;&#23398;&#20064;&#20013;&#30340;&#24212;&#29992;&#65292;&#26088;&#22312;&#25552;&#39640;RL&#26041;&#27861;&#40065;&#26834;&#24615;&#21644;&#22495;&#38543;&#26426;&#21270;&#24615;&#33021;&#12290;</title><link>http://arxiv.org/abs/2304.06056</link><description>&lt;p&gt;
+&#21033;&#29992;&#23454;&#26102;&#27169;&#25311;&#30340;&#20869;&#22312;&#38543;&#26426;&#24615;&#20419;&#36827;&#26426;&#22120;&#20154;&#25805;&#20316;&#30340;&#24378;&#21270;&#23398;&#20064;
+&lt;/p&gt;
+&lt;p&gt;
+Exploiting Intrinsic Stochasticity of Real-Time Simulation to Facilitate Robust Reinforcement Learning for Robot Manipulation. (arXiv:2304.06056v1 [cs.RO])
+&lt;/p&gt;
+&lt;p&gt;
+http://arxiv.org/abs/2304.06056
+&lt;/p&gt;
+&lt;p&gt;
+&#26412;&#25991;&#30740;&#31350;&#20102;&#23454;&#26102;&#27169;&#25311;&#30340;&#20869;&#22312;&#38543;&#26426;&#24615;&#29305;&#24615;&#21450;&#20854;&#22312;&#24378;&#21270;&#23398;&#20064;&#20013;&#30340;&#24212;&#29992;&#65292;&#26088;&#22312;&#25552;&#39640;RL&#26041;&#27861;&#40065;&#26834;&#24615;&#21644;&#22495;&#38543;&#26426;&#21270;&#24615;&#33021;&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+&#23545;&#20110;&#20687;&#26426;&#22120;&#20154;&#25805;&#20316;&#36825;&#26679;&#30340;&#23433;&#20840;&#20851;&#38190;&#22411;&#24212;&#29992;&#65292;&#27169;&#25311;&#23545;&#20110;&#24378;&#21270;&#23398;&#20064;&#65288;RL&#65289;&#22312;&#23454;&#38469;&#23454;&#29616;&#21069;&#26159;&#24517;&#19981;&#21487;&#23569;&#30340;&#65292;&#20294;&#26159;RL&#20195;&#29702;&#24448;&#24448;&#23545;&#27169;&#25311;&#19982;&#23454;&#38469;&#19990;&#30028;&#20043;&#38388;&#30340;&#24046;&#24322;&#25935;&#24863;&#12290;&#25105;&#20204;&#30740;&#31350;&#20102;&#29616;&#25104;&#27169;&#25311;&#36719;&#20214;&#23454;&#26102;&#27169;&#25311;&#65288;RT-IS&#65289;&#30340;&#20869;&#22312;&#38543;&#26426;&#24615;&#29305;&#24615;&#21450;&#20854;&#28508;&#21147;&#65292;&#20197;&#25552;&#39640;RL&#26041;&#27861;&#30340;&#40065;&#26834;&#24615;&#21644;&#22495;&#38543;&#26426;&#21270;&#30340;&#24615;&#33021;&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+Simulation is essential to reinforcement learning (RL) before implementation in the real world, especially for safety-critical applications like robot manipulation. Conventionally, RL agents are sensitive to the discrepancies between the simulation and the real world, known as the sim-to-real gap. The application of domain randomization, a technique used to fill this gap, is limited to the imposition of heuristic-randomized models. We investigate the properties of intrinsic stochasticity of real-time simulation (RT-IS) of off-the-shelf simulation software and its potential to improve the robustness of RL methods and the performance of domain randomization. Firstly, we conduct analytical studies to measure the correlation of RT-IS with the occupation of the computer hardware and validate its comparability with the natural stochasticity of a physical robot. Then, we apply the RT-IS feature in the training of an RL agent. The simulation and physical experiment results verify the feasibili
 &lt;/p&gt;</description></item><item><title>Open-TransMind&#26159;&#26234;&#33021;&#20132;&#36890;&#39046;&#22495;&#31532;&#19968;&#20010;&#22522;&#30784;&#27169;&#22411;&#25361;&#25112;&#36187;&#30340;&#26032;&#22522;&#20934;&#65292;&#26088;&#22312;&#35299;&#20915;&#25968;&#25454;&#37327;&#23569;&#12289;&#27867;&#21270;&#33021;&#21147;&#24046;&#20197;&#21450;&#32570;&#20047;&#22810;&#27169;&#24577;&#25216;&#26415;&#31561;&#20856;&#22411;&#25361;&#25112;&#12290;</title><link>http://arxiv.org/abs/2304.06051</link><description>&lt;p&gt;
 &#24320;&#25918;&#24335;&#26234;&#33021;&#20132;&#36890;&#22522;&#30784;&#27169;&#22411;&#25361;&#25112;&#36187;&#30340;&#26032;&#22522;&#20934;&#19982;&#22522;&#20934;&#25968;&#25454;&#38598; - Open-TransMind
 &lt;/p&gt;

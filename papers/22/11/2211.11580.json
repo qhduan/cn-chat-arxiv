@@ -1,0 +1,12 @@
+{
+    "title": "Neural network based generation of 1-dimensional stochastic fields with turbulent velocity statistics. (arXiv:2211.11580v2 [eess.SP] UPDATED)",
+    "abstract": "We define and study a fully-convolutional neural network stochastic model, NN-Turb, which generates 1-dimensional fields with turbulent velocity statistics. Thus, the generated process satisfies the Kolmogorov 2/3 law for second order structure function. It also presents negative skewness across scales (i.e. Kolmogorov 4/5 law) and exhibits intermittency. Furthermore, our model is never in contact with turbulent data and only needs the desired statistical behavior of the structure functions across scales for training.",
+    "link": "http://arxiv.org/abs/2211.11580",
+    "context": "Title: Neural network based generation of 1-dimensional stochastic fields with turbulent velocity statistics. (arXiv:2211.11580v2 [eess.SP] UPDATED)\nAbstract: We define and study a fully-convolutional neural network stochastic model, NN-Turb, which generates 1-dimensional fields with turbulent velocity statistics. Thus, the generated process satisfies the Kolmogorov 2/3 law for second order structure function. It also presents negative skewness across scales (i.e. Kolmogorov 4/5 law) and exhibits intermittency. Furthermore, our model is never in contact with turbulent data and only needs the desired statistical behavior of the structure functions across scales for training.",
+    "path": "papers/22/11/2211.11580.json",
+    "total_tokens": 740,
+    "translated_title": "基于神经网络的1维随机场生成，具有湍流速度统计特性",
+    "translated_abstract": "我们定义并研究了一个全卷积神经网络随机模型，名为NN-Turb，用于生成具有湍流速度统计特性的1维场。这样，生成的过程满足Kolmogorov 2/3结构函数定律。它还呈现出各个尺度上的负偏斜度（即Kolmogorov 4/5定律）和间歇性。此外，我们的模型从不接触湍流数据，只需要训练所需的结构函数在各个尺度上的统计行为。",
+    "tldr": "该论文介绍了一个名为NN-Turb的全卷积神经网络随机模型，用于以湍流速度统计特性生成1维场，而无需接触湍流数据。生成的过程满足Kolmogorov 2/3结构函数定律，同时还表现出负偏斜度和间歇性。",
+    "en_tdlr": "This paper introduces a fully-convolutional neural network stochastic model called NN-Turb, which generates 1-dimensional fields with turbulent velocity statistics without being in contact with turbulent data. The generated process satisfies the Kolmogorov 2/3 law for second order structure function and exhibits negative skewness and intermittency."
+}
