@@ -1,0 +1,12 @@
+{
+    "title": "Variations of Squeeze and Excitation networks. (arXiv:2304.06502v1 [cs.CV])",
+    "abstract": "Convolutional neural networks learns spatial features and are heavily interlinked within kernels. The SE module have broken the traditional route of neural networks passing the entire result to next layer. Instead SE only passes important features to be learned with its squeeze and excitation (SE) module. We propose variations of the SE module which improvises the process of squeeze and excitation and enhances the performance. The proposed squeezing or exciting the layer makes it possible for having a smooth transition of layer weights. These proposed variations also retain the characteristics of SE module. The experimented results are carried out on residual networks and the results are tabulated.",
+    "link": "http://arxiv.org/abs/2304.06502",
+    "context": "Title: Variations of Squeeze and Excitation networks. (arXiv:2304.06502v1 [cs.CV])\nAbstract: Convolutional neural networks learns spatial features and are heavily interlinked within kernels. The SE module have broken the traditional route of neural networks passing the entire result to next layer. Instead SE only passes important features to be learned with its squeeze and excitation (SE) module. We propose variations of the SE module which improvises the process of squeeze and excitation and enhances the performance. The proposed squeezing or exciting the layer makes it possible for having a smooth transition of layer weights. These proposed variations also retain the characteristics of SE module. The experimented results are carried out on residual networks and the results are tabulated.",
+    "path": "papers/23/04/2304.06502.json",
+    "total_tokens": 695,
+    "translated_title": "Squeeze and Excitation网络的变体",
+    "translated_abstract": "卷积神经网络学习空间特征，并在内核中紧密相连。SE模块打破了神经网络传递整体结果至下一层的传统路线。相反，SE仅传递包含其挤压和激励模块的重要特征进行学习。本文提出了SE模块的变体，改进了挤压和激励的过程，并提高了性能。所提出的挤压或激励层使得层权重的转换变得更加平滑。这些变化还保留了SE模块的特点。实验结果在残差网络上进行，并进行了表格化的展示。",
+    "tldr": "本文提出了Squeeze and Excitation网络的变体来改进重要特征的学习过程，从而提高神经网络的性能。实验表明这些变体在残差网络上效果良好。",
+    "en_tdlr": "This paper proposes variations of the Squeeze and Excitation network to enhance the learning process of important features and improve the performance of neural networks. Experimental results show that these variations perform well on residual networks."
+}

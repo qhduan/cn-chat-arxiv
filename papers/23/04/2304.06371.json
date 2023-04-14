@@ -1,0 +1,12 @@
+{
+    "title": "Sign Language Translation from Instructional Videos. (arXiv:2304.06371v1 [cs.CL])",
+    "abstract": "The advances in automatic sign language translation (SLT) to spoken languages have been mostly benchmarked with datasets of limited size and restricted domains. Our work advances the state of the art by providing the first baseline results on How2Sign, a large and broad dataset.  We train a Transformer over I3D video features, using the reduced BLEU as a reference metric for validation, instead of the widely used BLEU score. We report a result of 8.03 on the BLEU score, and publish the first open-source implementation of its kind to promote further advances.",
+    "link": "http://arxiv.org/abs/2304.06371",
+    "context": "Title: Sign Language Translation from Instructional Videos. (arXiv:2304.06371v1 [cs.CL])\nAbstract: The advances in automatic sign language translation (SLT) to spoken languages have been mostly benchmarked with datasets of limited size and restricted domains. Our work advances the state of the art by providing the first baseline results on How2Sign, a large and broad dataset.  We train a Transformer over I3D video features, using the reduced BLEU as a reference metric for validation, instead of the widely used BLEU score. We report a result of 8.03 on the BLEU score, and publish the first open-source implementation of its kind to promote further advances.",
+    "path": "papers/23/04/2304.06371.json",
+    "total_tokens": 655,
+    "translated_title": "从指导视频中进行手语翻译",
+    "translated_abstract": "自动手语翻译（SLT）到口语语言的进展大部分都是基于规模有限、领域受限的数据集进行评估的。本论文通过提供首个基于大规模数据集\"How2Sign\"的基准结果，推动了该领域的最新研究进展。我们使用I3D视频特征对Transformer进行训练，使用降低的BLEU分数作为验证的参考指标代替广泛使用的BLEU分数。我们报告了8.03的BLEU分数，并发布了首个开源实现，以推动进一步的进展。",
+    "tldr": "本论文描述了如何使用I3D视频特征培训Transformer模型，据此对How2Sign数据集进行手语翻译。作者提供了公共代码和首个开源实现。",
+    "en_tdlr": "This paper describes how to train a Transformer model using I3D video features for sign language translation on the How2Sign dataset. The authors provide public code and the first open-source implementation."
+}

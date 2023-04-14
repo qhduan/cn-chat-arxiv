@@ -1,0 +1,12 @@
+{
+    "title": "Using large language models for (de-)formalization and natural argumentation exercises for beginner's students. (arXiv:2304.06186v1 [cs.CL])",
+    "abstract": "We describe two systems that use text-davinci-003, a large language model, for the automatized correction of (i) exercises in translating back and forth between natural language and the languages of propositional logic and first-order predicate logic and (ii) exercises in writing simple arguments in natural language in non-mathematical scenarios.",
+    "link": "http://arxiv.org/abs/2304.06186",
+    "context": "Title: Using large language models for (de-)formalization and natural argumentation exercises for beginner's students. (arXiv:2304.06186v1 [cs.CL])\nAbstract: We describe two systems that use text-davinci-003, a large language model, for the automatized correction of (i) exercises in translating back and forth between natural language and the languages of propositional logic and first-order predicate logic and (ii) exercises in writing simple arguments in natural language in non-mathematical scenarios.",
+    "path": "papers/23/04/2304.06186.json",
+    "total_tokens": 543,
+    "translated_title": "使用大型语言模型进行初学者的（非）形式化和自然论证练习",
+    "translated_abstract": "我们描述了两个系统，使用文本达芬奇-003，一个大型语言模型，自动纠正（i）自然语言与命题逻辑语言和一阶谓词逻辑语言之间转化的练习; 和（ii）在非数学场景下用自然语言编写简单论点的练习。",
+    "tldr": "本研究描述了两个系统，利用大型语言模型，自动纠正初学者在逻辑语言转化和自然语言论证方面的问题。",
+    "en_tdlr": "This study describes two systems that utilize large language models to automate the correction of beginner's exercises in logic language translation and natural language argumentation."
+}

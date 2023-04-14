@@ -1,0 +1,12 @@
+{
+    "title": "GoSafeOpt: Scalable Safe Exploration for Global Optimization of Dynamical Systems. (arXiv:2201.09562v4 [cs.LG] UPDATED)",
+    "abstract": "Learning optimal control policies directly on physical systems is challenging since even a single failure can lead to costly hardware damage. Most existing model-free learning methods that guarantee safety, i.e., no failures, during exploration are limited to local optima. A notable exception is the GoSafe algorithm, which, unfortunately, cannot handle high-dimensional systems and hence cannot be applied to most real-world dynamical systems. This work proposes GoSafeOpt as the first algorithm that can safely discover globally optimal policies for high-dimensional systems while giving safety and optimality guarantees. We demonstrate the superiority of GoSafeOpt over competing model-free safe learning methods on a robot arm that would be prohibitive for GoSafe.",
+    "link": "http://arxiv.org/abs/2201.09562",
+    "context": "Title: GoSafeOpt: Scalable Safe Exploration for Global Optimization of Dynamical Systems. (arXiv:2201.09562v4 [cs.LG] UPDATED)\nAbstract: Learning optimal control policies directly on physical systems is challenging since even a single failure can lead to costly hardware damage. Most existing model-free learning methods that guarantee safety, i.e., no failures, during exploration are limited to local optima. A notable exception is the GoSafe algorithm, which, unfortunately, cannot handle high-dimensional systems and hence cannot be applied to most real-world dynamical systems. This work proposes GoSafeOpt as the first algorithm that can safely discover globally optimal policies for high-dimensional systems while giving safety and optimality guarantees. We demonstrate the superiority of GoSafeOpt over competing model-free safe learning methods on a robot arm that would be prohibitive for GoSafe.",
+    "path": "papers/22/01/2201.09562.json",
+    "total_tokens": 724,
+    "translated_title": "GoSafeOpt: 可扩展的安全全局优化动态系统的探索",
+    "translated_abstract": "直接在物理系统上学习最优控制策略具有挑战性，因为即使一次失败也可能导致昂贵的硬件损坏。大多数现有的保证安全（即在探索过程中没有失败）的无模型学习方法仅局限于局部最优解。GoSafe算法是一个值得注意的例外，但不幸的是，它无法处理高维系统，因此无法应用于大多数实际的动态系统。这项工作提出了GoSafeOpt作为第一个能够安全地发现高维系统的全局最优策略并具有安全和最优性保证的算法。我们在机械臂上展示了GoSafeOpt比其他模型无关的安全学习方法更优秀，而GoSafe在该机械臂上将是禁止使用的。",
+    "tldr": "GoSafeOpt是第一个能够安全探索高维系统并提供全局最优保证的算法。",
+    "en_tdlr": "GoSafeOpt is the first algorithm that can safely explore high-dimensional systems and provide global optimality guarantees."
+}

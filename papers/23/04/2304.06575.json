@@ -1,0 +1,12 @@
+{
+    "title": "Adversarial Examples from Dimensional Invariance. (arXiv:2304.06575v1 [cs.LG])",
+    "abstract": "Adversarial examples have been found for various deep as well as shallow learning models, and have at various times been suggested to be either fixable model-specific bugs, or else inherent dataset feature, or both. We present theoretical and empirical results to show that adversarial examples are approximate discontinuities resulting from models that specify approximately bijective maps $f: \\Bbb R^n \\to \\Bbb R^m; n \\neq m$ over their inputs, and this discontinuity follows from the topological invariance of dimension.",
+    "link": "http://arxiv.org/abs/2304.06575",
+    "context": "Title: Adversarial Examples from Dimensional Invariance. (arXiv:2304.06575v1 [cs.LG])\nAbstract: Adversarial examples have been found for various deep as well as shallow learning models, and have at various times been suggested to be either fixable model-specific bugs, or else inherent dataset feature, or both. We present theoretical and empirical results to show that adversarial examples are approximate discontinuities resulting from models that specify approximately bijective maps $f: \\Bbb R^n \\to \\Bbb R^m; n \\neq m$ over their inputs, and this discontinuity follows from the topological invariance of dimension.",
+    "path": "papers/23/04/2304.06575.json",
+    "total_tokens": 641,
+    "translated_title": "具有维度不变性的对抗样本",
+    "translated_abstract": "对抗样本已经被发现针对各种深度和浅层学习模型，有时被建议是可修复的模型特定错误，或者是固有的数据集特征，或者两者兼备。我们提出理论和实证结果，以展示对抗样本是由于模型规定了近似双射映射$f:\\Bbb R^n \\to \\Bbb R^m; n \\neq m$，其输入的近似不连续性产生的，而这种不连续性是由于维度的拓扑不变性导致的。",
+    "tldr": "对抗样本产生的原因是对于输入数据近似双射映射所规定的维度不变性导致的近似不连续性。",
+    "en_tdlr": "Adversarial examples are caused by the approximate discontinuity resulting from models that specify approximately bijective maps over their inputs, due to the topological invariance of dimension."
+}

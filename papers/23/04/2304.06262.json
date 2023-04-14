@@ -1,0 +1,12 @@
+{
+    "title": "Canonical and Noncanonical Hamiltonian Operator Inference. (arXiv:2304.06262v1 [cs.LG])",
+    "abstract": "A method for the nonintrusive and structure-preserving model reduction of canonical and noncanonical Hamiltonian systems is presented. Based on the idea of operator inference, this technique is provably convergent and reduces to a straightforward linear solve given snapshot data and gray-box knowledge of the system Hamiltonian. Examples involving several hyperbolic partial differential equations show that the proposed method yields reduced models which, in addition to being accurate and stable with respect to the addition of basis modes, preserve conserved quantities well outside the range of their training data.",
+    "link": "http://arxiv.org/abs/2304.06262",
+    "context": "Title: Canonical and Noncanonical Hamiltonian Operator Inference. (arXiv:2304.06262v1 [cs.LG])\nAbstract: A method for the nonintrusive and structure-preserving model reduction of canonical and noncanonical Hamiltonian systems is presented. Based on the idea of operator inference, this technique is provably convergent and reduces to a straightforward linear solve given snapshot data and gray-box knowledge of the system Hamiltonian. Examples involving several hyperbolic partial differential equations show that the proposed method yields reduced models which, in addition to being accurate and stable with respect to the addition of basis modes, preserve conserved quantities well outside the range of their training data.",
+    "path": "papers/23/04/2304.06262.json",
+    "total_tokens": 725,
+    "translated_title": "规范和非规范哈密顿算子推理",
+    "translated_abstract": "本文介绍了一种用于规范和非规范哈密顿系统的非侵入式和结构保留的模型简化方法。基于算子推理的思想，这种技术是可证明收敛的，并且在给定快照数据和系统哈密顿的灰盒知识的情况下，可以简化为一个直接的线性求解问题。通过几个涉及多个双曲型偏微分方程的例子，结果表明所提出的方法产生的简化模型除了准确且稳定地处理基础模式的添加外，还可以很好地保留其训练数据范围之外的守恒量。",
+    "tldr": "介绍了一种结构保留的模型简化方法，可以用于规范和非规范哈密顿系统，具有收敛性和良好的保守性质。",
+    "en_tdlr": "A structure-preserving model reduction method is introduced for canonical and noncanonical Hamiltonian systems, based on operator inference. It is provably convergent and reduces to a straightforward linear solve with snapshot data and gray-box knowledge of the system Hamiltonian. The proposed method yields reduced models that, in addition to being accurate and stable with respect to the addition of basis modes, preserve conserved quantities well outside the range of their training data."
+}

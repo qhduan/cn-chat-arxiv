@@ -1,0 +1,12 @@
+{
+    "title": "The growclusters Package for R. (arXiv:2304.06145v1 [cs.MS])",
+    "abstract": "The growclusters package for R implements an enhanced version of k-means clustering that allows discovery of local clusterings or partitions for a collection of data sets that each draw their cluster means from a single, global partition. The package contains functions to estimate a partition structure for multivariate data. Estimation is performed under a penalized optimization derived from Bayesian non-parametric formulations. This paper describes some of the functions and capabilities of the growclusters package, including the creation of R Shiny applications designed to visually illustrate the operation and functionality of the growclusters package.",
+    "link": "http://arxiv.org/abs/2304.06145",
+    "context": "Title: The growclusters Package for R. (arXiv:2304.06145v1 [cs.MS])\nAbstract: The growclusters package for R implements an enhanced version of k-means clustering that allows discovery of local clusterings or partitions for a collection of data sets that each draw their cluster means from a single, global partition. The package contains functions to estimate a partition structure for multivariate data. Estimation is performed under a penalized optimization derived from Bayesian non-parametric formulations. This paper describes some of the functions and capabilities of the growclusters package, including the creation of R Shiny applications designed to visually illustrate the operation and functionality of the growclusters package.",
+    "path": "papers/23/04/2304.06145.json",
+    "total_tokens": 707,
+    "translated_title": "R语言的growclusters软件包",
+    "translated_abstract": "growclusters软件包实现了一个增强版k-means聚类算法，可以发现多组数据集中的局部聚类或分区，每组数据的聚类中心都来源于一个全局分区。该软件包包含一些估计多元数据分区结构的函数。估计是基于贝叶斯非参数表述推导出的一种惩罚优化方法进行的。本文介绍了growclusters软件包的一些功能和能力，包括创建R Shiny应用程序以可视化展示growclusters软件包的操作和功能。",
+    "tldr": "R语言的growclusters软件包实现了增强版的k-means聚类算法，可以发现多组数据集中的局部聚类或分区，函数包含估计多元数据分区结构的功能，使用惩罚优化方法进行。并可创建可视化应用程序展示其操作和功能。",
+    "en_tdlr": "The growclusters package in R implements an improved version of k-means clustering that can discover local clusters or partitions for multiple data sets, with each set of data drawing their cluster centers from a single global partition. The package includes functions to estimate a partition structure for multivariate data, using a penalized optimization method based on Bayesian non-parametric formulations. It also allows for the creation of visual R Shiny applications to showcase its capabilities."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Improved Naive Bayes with Mislabeled Data. (arXiv:2304.06292v1 [cs.LG])",
+    "abstract": "Labeling mistakes are frequently encountered in real-world applications. If not treated well, the labeling mistakes can deteriorate the classification performances of a model seriously. To address this issue, we propose an improved Naive Bayes method for text classification. It is analytically simple and free of subjective judgements on the correct and incorrect labels. By specifying the generating mechanism of incorrect labels, we optimize the corresponding log-likelihood function iteratively by using an EM algorithm. Our simulation and experiment results show that the improved Naive Bayes method greatly improves the performances of the Naive Bayes method with mislabeled data.",
+    "link": "http://arxiv.org/abs/2304.06292",
+    "context": "Title: Improved Naive Bayes with Mislabeled Data. (arXiv:2304.06292v1 [cs.LG])\nAbstract: Labeling mistakes are frequently encountered in real-world applications. If not treated well, the labeling mistakes can deteriorate the classification performances of a model seriously. To address this issue, we propose an improved Naive Bayes method for text classification. It is analytically simple and free of subjective judgements on the correct and incorrect labels. By specifying the generating mechanism of incorrect labels, we optimize the corresponding log-likelihood function iteratively by using an EM algorithm. Our simulation and experiment results show that the improved Naive Bayes method greatly improves the performances of the Naive Bayes method with mislabeled data.",
+    "path": "papers/23/04/2304.06292.json",
+    "total_tokens": 717,
+    "translated_title": "改进的朴素贝叶斯算法处理误标签数据",
+    "translated_abstract": "在实际应用中，标签错误是经常遇到的问题。如果未得到妥善处理，标签错误会严重影响模型的分类性能。为了解决这个问题，我们提出了一种改进的朴素贝叶斯文本分类方法。它在分析上很简单，没有任何关于正确和错误标签的主观判断。通过指定错误标签的生成机制，我们使用EM算法迭代优化相应的对数似然函数。我们的模拟和实验结果表明，改进的朴素贝叶斯方法极大地提高了处理误标签数据的朴素贝叶斯方法的性能。",
+    "tldr": "该论文提出了一种改进的朴素贝叶斯算法来处理误标签数据，通过指定误标签的生成机制，使用EM算法迭代优化对数似然函数来提高分类性能。",
+    "en_tdlr": "The paper proposes an improved Naive Bayes method to handle mislabeled data by specifying the generating mechanism of incorrect labels and optimizing the corresponding log-likelihood function iteratively through an EM algorithm, which greatly improves the classification performance of the Naive Bayes method with mislabeled data."
+}

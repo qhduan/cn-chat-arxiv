@@ -1,0 +1,12 @@
+{
+    "title": "Zip-NeRF: Anti-Aliased Grid-Based Neural Radiance Fields. (arXiv:2304.06706v1 [cs.CV])",
+    "abstract": "Neural Radiance Field training can be accelerated through the use of grid-based representations in NeRF's learned mapping from spatial coordinates to colors and volumetric density. However, these grid-based approaches lack an explicit understanding of scale and therefore often introduce aliasing, usually in the form of jaggies or missing scene content. Anti-aliasing has previously been addressed by mip-NeRF 360, which reasons about sub-volumes along a cone rather than points along a ray, but this approach is not natively compatible with current grid-based techniques. We show how ideas from rendering and signal processing can be used to construct a technique that combines mip-NeRF 360 and grid-based models such as Instant NGP to yield error rates that are 8% - 76% lower than either prior technique, and that trains 22x faster than mip-NeRF 360.",
+    "link": "http://arxiv.org/abs/2304.06706",
+    "context": "Title: Zip-NeRF: Anti-Aliased Grid-Based Neural Radiance Fields. (arXiv:2304.06706v1 [cs.CV])\nAbstract: Neural Radiance Field training can be accelerated through the use of grid-based representations in NeRF's learned mapping from spatial coordinates to colors and volumetric density. However, these grid-based approaches lack an explicit understanding of scale and therefore often introduce aliasing, usually in the form of jaggies or missing scene content. Anti-aliasing has previously been addressed by mip-NeRF 360, which reasons about sub-volumes along a cone rather than points along a ray, but this approach is not natively compatible with current grid-based techniques. We show how ideas from rendering and signal processing can be used to construct a technique that combines mip-NeRF 360 and grid-based models such as Instant NGP to yield error rates that are 8% - 76% lower than either prior technique, and that trains 22x faster than mip-NeRF 360.",
+    "path": "papers/23/04/2304.06706.json",
+    "total_tokens": 697,
+    "translated_title": "Zip-NeRF：抗锯齿网格化神经辐射场",
+    "translated_abstract": "神经辐射场（NeRF）的网格化表示可以加速训练，但缺乏对比例的明确理解，容易引入锯齿或丢失场景内容。本文提出了一种将渲染和信号处理思想用于将 mip-NeRF 360 和基于网格的模型相结合，误差率比先前的技术低8%到76%，并比 mip-NeRF 360 快22倍的方法。",
+    "tldr": "本文提出了一种 Zip-NeRF 技术，将 mip-NeRF 360 和基于网格的模型相结合，以实现抗锯齿、提高训练速度并降低误差率。",
+    "en_tdlr": "This paper proposes a Zip-NeRF technique that combines mip-NeRF 360 and grid-based models to achieve anti-aliasing, faster training speed, and lower error rates."
+}

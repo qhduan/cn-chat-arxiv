@@ -1,0 +1,12 @@
+{
+    "title": "Fairness: from the ethical principle to the practice of Machine Learning development as an ongoing agreement with stakeholders. (arXiv:2304.06031v1 [cs.CY])",
+    "abstract": "This paper clarifies why bias cannot be completely mitigated in Machine Learning (ML) and proposes an end-to-end methodology to translate the ethical principle of justice and fairness into the practice of ML development as an ongoing agreement with stakeholders. The pro-ethical iterative process presented in the paper aims to challenge asymmetric power dynamics in the fairness decision making within ML design and support ML development teams to identify, mitigate and monitor bias at each step of ML systems development. The process also provides guidance on how to explain the always imperfect trade-offs in terms of bias to users.",
+    "link": "http://arxiv.org/abs/2304.06031",
+    "context": "Title: Fairness: from the ethical principle to the practice of Machine Learning development as an ongoing agreement with stakeholders. (arXiv:2304.06031v1 [cs.CY])\nAbstract: This paper clarifies why bias cannot be completely mitigated in Machine Learning (ML) and proposes an end-to-end methodology to translate the ethical principle of justice and fairness into the practice of ML development as an ongoing agreement with stakeholders. The pro-ethical iterative process presented in the paper aims to challenge asymmetric power dynamics in the fairness decision making within ML design and support ML development teams to identify, mitigate and monitor bias at each step of ML systems development. The process also provides guidance on how to explain the always imperfect trade-offs in terms of bias to users.",
+    "path": "papers/23/04/2304.06031.json",
+    "total_tokens": 742,
+    "translated_title": "公正：从伦理原则到机器学习开发中与利益相关者的持续协议",
+    "translated_abstract": "本文阐明了为什么无法完全消除机器学习（ML）中的偏见，并提出了一种端到端的方法来将正义与公正的伦理原则转化为与利益相关者的持续协议，纳入ML开发实践中。本文提出的支持伦理的迭代过程旨在挑战ML设计中的不对称权力动态，帮助ML开发团队在ML系统开发的每个步骤中识别、减轻和监测偏见。该过程还提供了如何向用户解释偏见在权衡方面始终不完美的指导。",
+    "tldr": "本文提出了一种支持伦理的迭代过程，旨在通过机器学习设计中的持续协议挑战不对称的权力动态，并支持团队在各个步骤中识别、减轻和监测偏差。",
+    "en_tdlr": "This paper proposes a pro-ethical iterative process to challenge asymmetric power dynamics in machine learning design and support teams to identify, mitigate, and monitor biases at each step, aiming to translate the ethical principle of justice and fairness into the practice of machine learning development as an ongoing agreement with stakeholders."
+}

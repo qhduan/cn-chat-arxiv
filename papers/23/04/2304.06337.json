@@ -1,0 +1,12 @@
+{
+    "title": "Computational modeling of semantic change. (arXiv:2304.06337v1 [cs.CL])",
+    "abstract": "In this chapter we provide an overview of computational modeling for semantic change using large and semi-large textual corpora. We aim to provide a key for the interpretation of relevant methods and evaluation techniques, and also provide insights into important aspects of the computational study of semantic change. We discuss the pros and cons of different classes of models with respect to the properties of the data from which one wishes to model semantic change, and which avenues are available to evaluate the results.",
+    "link": "http://arxiv.org/abs/2304.06337",
+    "context": "Title: Computational modeling of semantic change. (arXiv:2304.06337v1 [cs.CL])\nAbstract: In this chapter we provide an overview of computational modeling for semantic change using large and semi-large textual corpora. We aim to provide a key for the interpretation of relevant methods and evaluation techniques, and also provide insights into important aspects of the computational study of semantic change. We discuss the pros and cons of different classes of models with respect to the properties of the data from which one wishes to model semantic change, and which avenues are available to evaluate the results.",
+    "path": "papers/23/04/2304.06337.json",
+    "total_tokens": 568,
+    "translated_title": "语义变化的计算建模",
+    "translated_abstract": "本章节概述了使用大规模语料库和半大规模语料库进行计算建模来研究语义变化的方法。我们旨在提供一个正确理解相关方法和评估技术的钥匙，同时也探讨了计算研究语义变化的重要方面。我们讨论了不同类别的模型在处理语义变化时的优缺点，以及可以用于评估结果的途径。",
+    "tldr": "本文概述了语义变化的计算建模方法，讨论了不同模型在处理语义变化时的优缺点以及评估结果的途径。",
+    "en_tdlr": "This article provides an overview of computational modeling for semantic change using large and semi-large textual corpora, discussing the pros and cons of different models and evaluation techniques."
+}

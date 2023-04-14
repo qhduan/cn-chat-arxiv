@@ -1,0 +1,12 @@
+{
+    "title": "Convergence rate of Tsallis entropic regularized optimal transport. (arXiv:2304.06616v1 [math.OC])",
+    "abstract": "In this paper, we consider Tsallis entropic regularized optimal transport and discuss the convergence rate as the regularization parameter $\\varepsilon$ goes to $0$. In particular, we establish the convergence rate of the Tsallis entropic regularized optimal transport using the quantization and shadow arguments developed by Eckstein--Nutz. We compare this to the convergence rate of the entropic regularized optimal transport with Kullback--Leibler (KL) divergence and show that KL is the fastest convergence rate in terms of Tsallis relative entropy.",
+    "link": "http://arxiv.org/abs/2304.06616",
+    "context": "Title: Convergence rate of Tsallis entropic regularized optimal transport. (arXiv:2304.06616v1 [math.OC])\nAbstract: In this paper, we consider Tsallis entropic regularized optimal transport and discuss the convergence rate as the regularization parameter $\\varepsilon$ goes to $0$. In particular, we establish the convergence rate of the Tsallis entropic regularized optimal transport using the quantization and shadow arguments developed by Eckstein--Nutz. We compare this to the convergence rate of the entropic regularized optimal transport with Kullback--Leibler (KL) divergence and show that KL is the fastest convergence rate in terms of Tsallis relative entropy.",
+    "path": "papers/23/04/2304.06616.json",
+    "total_tokens": 710,
+    "translated_title": "Tsallis熵正则化最优输运的收敛速率",
+    "translated_abstract": "本文考虑了Tsallis熵正则化最优输运问题，并且讨论了当正则化参数$\\varepsilon$趋近于0时的收敛速率。特别地，我们利用Eckstein-Nutz提出的量化和影子方法来确定Tsallis熵正则化最优输运的收敛速率。我们将其与使用Kullback-Leibler（KL）散度的熵正则化最优输运的收敛速率进行了比较，并证明了在Tsallis相对熵意义下KL具有最快的收敛速率。",
+    "tldr": "本论文研究了Tsallis熵正则化最优输运问题，在讨论正则化参数接近0时的收敛速率时，利用量化和影子方法确定了收敛速率，并与KL散度进行了比较，证明KL散度在Tsallis相对熵意义下具有最快的收敛速率。",
+    "en_tdlr": "This paper studies Tsallis entropic regularized optimal transport, establishes its convergence rate using quantization and shadow arguments, and compares it to the convergence rate of entropic regularized optimal transport with Kullback-Leibler divergence, showing that KL has the fastest convergence rate in terms of Tsallis relative entropy when regularization parameter approaches zero."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Are LLMs All You Need for Task-Oriented Dialogue?. (arXiv:2304.06556v1 [cs.CL])",
+    "abstract": "Instructions-tuned Large Language Models (LLMs) gained recently huge popularity thanks to their ability to interact with users through conversation. In this work we aim to evaluate their ability to complete multi-turn tasks and interact with external databases in the context of established task-oriented dialogue benchmarks. We show that for explicit belief state tracking, LLMs underperform compared to specialized task-specific models. Nevertheless, they show ability to guide the dialogue to successful ending if given correct slot values. Furthermore this ability improves with access to true belief state distribution or in-domain examples.",
+    "link": "http://arxiv.org/abs/2304.06556",
+    "context": "Title: Are LLMs All You Need for Task-Oriented Dialogue?. (arXiv:2304.06556v1 [cs.CL])\nAbstract: Instructions-tuned Large Language Models (LLMs) gained recently huge popularity thanks to their ability to interact with users through conversation. In this work we aim to evaluate their ability to complete multi-turn tasks and interact with external databases in the context of established task-oriented dialogue benchmarks. We show that for explicit belief state tracking, LLMs underperform compared to specialized task-specific models. Nevertheless, they show ability to guide the dialogue to successful ending if given correct slot values. Furthermore this ability improves with access to true belief state distribution or in-domain examples.",
+    "path": "papers/23/04/2304.06556.json",
+    "total_tokens": 709,
+    "translated_title": "LLM是否足以用于任务导向型对话？",
+    "translated_abstract": "基于指令的大型语言模型（LLM）因其通过对话与用户交互的能力而受到广泛关注。本文旨在评估它们在已建立的任务导向型对话基准测试中完成多轮任务并与外部数据库交互的能力。我们发现，对于显式信念状态跟踪，LLM表现不如专门的任务特定模型。尽管如此，如果提供正确的插槽值，它们表现出引导对话成功结束的能力。此外，如果具有真实信念状态分布或域内示例的访问权限，该能力会得到改善。",
+    "tldr": "LLM在任务导向型对话中表现不如专门的任务特定模型，但如果提供正确的槽值，仍有引导对话成功结束的能力，并且可通过真实信念状态分布或域内示例的访问获得更好的表现。",
+    "en_tdlr": "LLMs are not as good as specialized task-specific models for explicit belief state tracking in task-oriented dialogue. However, they can still guide the dialogue to successful ending if given correct slot values, and this ability improves with access to true belief state distribution or in-domain examples."
+}

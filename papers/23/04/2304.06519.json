@@ -1,0 +1,12 @@
+{
+    "title": "Secure Federated Learning for Cognitive Radio Sensing. (arXiv:2304.06519v1 [eess.SP])",
+    "abstract": "This paper considers reliable and secure Spectrum Sensing (SS) based on Federated Learning (FL) in the Cognitive Radio (CR) environment. Motivation, architectures, and algorithms of FL in SS are discussed. Security and privacy threats on these algorithms are overviewed, along with possible countermeasures to such attacks. Some illustrative examples are also provided, with design recommendations for FL-based SS in future CRs.",
+    "link": "http://arxiv.org/abs/2304.06519",
+    "context": "Title: Secure Federated Learning for Cognitive Radio Sensing. (arXiv:2304.06519v1 [eess.SP])\nAbstract: This paper considers reliable and secure Spectrum Sensing (SS) based on Federated Learning (FL) in the Cognitive Radio (CR) environment. Motivation, architectures, and algorithms of FL in SS are discussed. Security and privacy threats on these algorithms are overviewed, along with possible countermeasures to such attacks. Some illustrative examples are also provided, with design recommendations for FL-based SS in future CRs.",
+    "path": "papers/23/04/2304.06519.json",
+    "total_tokens": 640,
+    "translated_title": "在认知无线电环境下安全的联邦学习频谱感知",
+    "translated_abstract": "本文考虑在认知无线电环境中基于联邦学习实现可靠和安全的频谱感知（SS）。讨论了FL在SS中的动机、架构和算法。概述了这些算法面临的安全和隐私威胁，并提出可能的对抗措施。同时提供了一些图示例，以及针对未来CR中基于FL的SS的设计建议。",
+    "tldr": "本文探讨了在认知无线电环境下基于联邦学习实现可靠和安全的频谱感知（SS），深入分析了FL在SS中的动机、架构和算法，同时提供了安全和隐私威胁的对抗措施。",
+    "en_tdlr": "This paper discusses reliable and secure Spectrum Sensing (SS) based on Federated Learning (FL) in the Cognitive Radio (CR) environment, including the motivation, architectures, and algorithms of FL in SS. It also provides countermeasures for security and privacy threats faced in these algorithms."
+}

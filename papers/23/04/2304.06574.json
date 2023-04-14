@@ -1,0 +1,12 @@
+{
+    "title": "Bayes classifier cannot be learned from noisy responses with unknown noise rates. (arXiv:2304.06574v1 [stat.ML])",
+    "abstract": "Training a classifier with noisy labels typically requires the learner to specify the distribution of label noise, which is often unknown in practice. Although there have been some recent attempts to relax that requirement, we show that the Bayes decision rule is unidentified in most classification problems with noisy labels. This suggests it is generally not possible to bypass/relax the requirement. In the special cases in which the Bayes decision rule is identified, we develop a simple algorithm to learn the Bayes decision rule, that does not require knowledge of the noise distribution.",
+    "link": "http://arxiv.org/abs/2304.06574",
+    "context": "Title: Bayes classifier cannot be learned from noisy responses with unknown noise rates. (arXiv:2304.06574v1 [stat.ML])\nAbstract: Training a classifier with noisy labels typically requires the learner to specify the distribution of label noise, which is often unknown in practice. Although there have been some recent attempts to relax that requirement, we show that the Bayes decision rule is unidentified in most classification problems with noisy labels. This suggests it is generally not possible to bypass/relax the requirement. In the special cases in which the Bayes decision rule is identified, we develop a simple algorithm to learn the Bayes decision rule, that does not require knowledge of the noise distribution.",
+    "path": "papers/23/04/2304.06574.json",
+    "total_tokens": 760,
+    "translated_title": "贝叶斯分类器无法从具有未知噪声率的嘈杂响应中学习。(arXiv:2304.06574v1 [stat.ML])",
+    "translated_abstract": "用嘈杂的标签训练分类器通常需要学习者指定标签噪音的分布，但在实际中往往是未知的。尽管最近有一些尝试放宽该要求，但我们表明，在大多数嘈杂标签分类问题中，贝叶斯决策规则是无法识别的。这表明一般情况下无法绕过或放宽该要求。在贝叶斯决策规则被识别的特殊情况下，我们开发了一种简单的算法来学习贝叶斯决策规则，不需要知道噪声分布。",
+    "tldr": "本文研究了在有噪声标签的情况下训练分类器的问题，发现贝叶斯决策规则通常无法识别，并提出了一种简单算法来学习贝叶斯决策规则，不需要知道噪声分布。",
+    "en_tdlr": "This paper investigates the problem of training classifiers with noisy labels and finds that the Bayes decision rule is usually unidentified. A simple algorithm is proposed to learn the Bayes decision rule in the special cases where it is identified, without requiring knowledge of the noise distribution."
+}

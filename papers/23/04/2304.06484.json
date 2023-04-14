@@ -1,0 +1,12 @@
+{
+    "title": "Exploring Gender and Race Biases in the NFT Market. (arXiv:2304.06484v1 [cs.CY])",
+    "abstract": "Non-Fungible Tokens (NFTs) are non-interchangeable assets, usually digital art, which are stored on the blockchain. Preliminary studies find that female and darker-skinned NFTs are valued less than their male and lighter-skinned counterparts. However, these studies analyze only the CryptoPunks collection. We test the statistical significance of race and gender biases in the prices of CryptoPunks and present the first study of gender bias in the broader NFT market. We find evidence of racial bias but not gender bias. Our work also introduces a dataset of gender-labeled NFT collections to advance the broader study of social equity in this emerging market.",
+    "link": "http://arxiv.org/abs/2304.06484",
+    "context": "Title: Exploring Gender and Race Biases in the NFT Market. (arXiv:2304.06484v1 [cs.CY])\nAbstract: Non-Fungible Tokens (NFTs) are non-interchangeable assets, usually digital art, which are stored on the blockchain. Preliminary studies find that female and darker-skinned NFTs are valued less than their male and lighter-skinned counterparts. However, these studies analyze only the CryptoPunks collection. We test the statistical significance of race and gender biases in the prices of CryptoPunks and present the first study of gender bias in the broader NFT market. We find evidence of racial bias but not gender bias. Our work also introduces a dataset of gender-labeled NFT collections to advance the broader study of social equity in this emerging market.",
+    "path": "papers/23/04/2304.06484.json",
+    "total_tokens": 807,
+    "translated_title": "探索NFT市场中的性别和种族偏见",
+    "translated_abstract": "非同质化代币(NFTs)是指那些通常存储在区块链上的非可替代性资产，通常是数字艺术。初步研究发现，女性和较深肤色的NFTs的价值低于男性和较浅肤色的作品。然而，这些研究仅分析了CryptoPunks艺术品收藏。我们测试了CryptoPunks价格中的种族和性别偏见的统计显著性，并首次研究了NFT市场的性别偏见。我们发现证据支持存在种族偏见而非性别偏见。我们的研究还引入了一个带有性别标签的NFT艺术品数据集，以推进对于这个新兴市场的社会平等性的更广泛研究。",
+    "tldr": "本研究测试了 CryptoPunks 和 NFT市场中的种族和性别偏见。结果发现存在种族偏见而非性别偏见。同时，我们引入了一个带有性别标签的NFT艺术品数据集，以促进这个新兴市场的社会平等研究。",
+    "en_tdlr": "This study tests the racial and gender biases in the CryptoPunks and broader NFT market, finding evidence of racial bias but not gender bias. The study also introduces a dataset of gender-labeled NFT collections to advance the broader study of social equity in this emerging market."
+}
