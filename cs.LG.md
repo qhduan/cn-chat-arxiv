@@ -137,28 +137,29 @@
 | [^133] | [Self-Supervised Predictive Coding with Multimodal Fusion for Patient Deterioration Prediction in Fine-grained Time Resolution.](http://arxiv.org/abs/2210.16598) | 本研究提出了一种基于自监督预测编码和多模态融合的每小时病人恶化预测方法，以提高精细的时间分辨率下的预测准确性。在多项实验中，我们证明了该方法可以显著提高性能，尤其是针对远期预测任务。 |
 | [^134] | [Addressing contingency in algorithmic (mis)information classification: Toward a responsible machine learning agenda.](http://arxiv.org/abs/2210.09014) | 本文重点讨论了机器学习（ML）启用的分类模型处理在线虚假信息和其他可能被识别为有害的内容时，对“真相”来源的合法性、权威性和客观性所采取的立场以及ML驱动的审查系统可能在不利影响方面产生的问题，分析了算法的偶然性和可能引起的评估误差。 |
 | [^135] | [SQA3D: Situated Question Answering in 3D Scenes.](http://arxiv.org/abs/2210.07474) | 本文提出了一个新的任务，即评估具有场景理解能力的代理人在三维场景中的情境问答。基于650个场景的数据集为智能代理人的推理能力考察提供了广泛且大量的问题，这对当前的多模式，特别是3D推理模型提出了很大挑战。 |
-| [^136] | [On Distillation of Guided Diffusion Models.](http://arxiv.org/abs/2210.03142) | 本论文提出了一种将免分类器的引导式扩散模型蒸馏为易于采样的模型的方法，以降低在推断时的计算成本，并且能够在像素空间生成高质量的图像。 |
-| [^137] | [On The Relative Error of Random Fourier Features for Preserving Kernel Distance.](http://arxiv.org/abs/2210.00244) | 研究发现，对于大多数核，包括著名的拉普拉斯核，RFF不能使用低维近似核距离并保持小的相对误差。当核是解析的时候，RFF可以使用多项式维度实现$\epsilon$-相对误差，并且在特定应用中，维度边界得到了改进。 |
-| [^138] | [PiFold: Toward effective and efficient protein inverse folding.](http://arxiv.org/abs/2209.12643) | PiFold 提出了一种新的残基特征提取器和 PiGNN 层，能够一次性生成蛋白质序列并提高恢复效果，在 CATH 4.2 上达到了 51.66% 的恢复率，推理速度比自回归竞争对手快 70 倍，在 TS50 和 TS500 上分别达到了 58.72% 和 60.42% 的恢复分数。 |
-| [^139] | [KL-divergence Based Deep Learning for Discrete Time Model.](http://arxiv.org/abs/2208.05100) | 该论文提出了一种基于KL散度的深度学习程序，用于解决生存分析中短数据问题，通过将外部生存预测模型与新收集的时间至事件数据相结合来获得更好的性能和鲁棒性。 |
-| [^140] | [Recovering the Graph Underlying Networked Dynamical Systems under Partial Observability: A Deep Learning Approach.](http://arxiv.org/abs/2208.04405) | 这篇论文介绍了一种基于深度学习的方法，通过对观察到的时间序列数据进行特征向量计算，实现了部分可观察下的网络动态系统的图形恢复，因果推断机制优于最先进的同类机制，并且有很好的泛化性能。 |
-| [^141] | [Model Reduction for Nonlinear Systems by Balanced Truncation of State and Gradient Covariance.](http://arxiv.org/abs/2207.14387) | 该论文提出了协变量平衡约简方法，使用共轭选取的快照来平衡系统的状态和基于共轭的梯度协方差矩阵，以解决降阶模型中对低方差坐标敏感的问题。 |
-| [^142] | [Understanding Influence Maximization via Higher-Order Decomposition.](http://arxiv.org/abs/2207.07833) | 本文提出了一种利用Sobol指数对种子在IM中的影响和高阶相互作用进行分析的方法，通过此方法提出了一种名为SIM的IM算法，该算法通过过度选择节点来改善当前IM算法的性能。 |
-| [^143] | [LaserMix for Semi-Supervised LiDAR Semantic Segmentation.](http://arxiv.org/abs/2207.00026) | 本文提出了一种名为LaserMix的半监督学习方法，利用LiDAR点云的强空间线索更好地利用未标记数据，具有通用性、统计基础和有效性，并在SemanticKITTI上取得了最优性能。 |
-| [^144] | [Generative Modelling With Inverse Heat Dissipation.](http://arxiv.org/abs/2206.13397) | 该论文提出了一种新的类似扩散的模型来生成图像，它通过随机反转热方程在2D平面上运行来生成图像，并展示了与标准扩散模型不同的新颖定性性质，包括图像中整体颜色和形状的解缠绕现象。 |
-| [^145] | [Variable importance without impossible data.](http://arxiv.org/abs/2205.15750) | 评估黑箱预测模型中变量重要性的流行方法不可信，因为使用了不可能的数据。本文提出一种名为Cohort Shapley的方法，它基于经济博弈理论，仅使用实际观测到的数据来量化变量重要性，可以解决算法公平性问题。 |
-| [^146] | [Bongard-HOI: Benchmarking Few-Shot Visual Reasoning for Human-Object Interactions.](http://arxiv.org/abs/2205.13803) | 本文提出了一个新的视觉推理基准测试Bongard-HOI，它专注于从自然图像中学习人-物交互的组合性学习，挑战了现有最先进模型，鼓励开发更好的算法进行组合推理和泛化到新的HOI概念。 |
-| [^147] | [On the Inconsistency of Kernel Ridgeless Regression in Fixed Dimensions.](http://arxiv.org/abs/2205.13525) | 在固定维度下，平移不变核的重要预测类别，如高斯核、拉普拉斯核和柯西核，在任何非零回归函数和任何带宽选择下都不具备“良性过拟合”特性。 |
-| [^148] | [Tensor Completion with Provable Consistency and Fairness Guarantees for Recommender Systems.](http://arxiv.org/abs/2204.01815) | 本文介绍了一种新的一致性方法来解决矩阵和张量补全问题，在推荐系统应用中，我们证明了通过保留单位比例和一致性两个约束条件可以实现解的存在性与唯一性。 |
-| [^149] | [Continual Learning from Demonstration of Robotics Skills.](http://arxiv.org/abs/2202.06843) | 该论文提出了一种持续学习示教方法，使用超网络和神经常微分方程求解器，可以记住长序列轨迹学习任务，而无需存储来自过去示教的任何数据。 |
-| [^150] | [GoSafeOpt: Scalable Safe Exploration for Global Optimization of Dynamical Systems.](http://arxiv.org/abs/2201.09562) | GoSafeOpt是第一个能够安全探索高维系统并提供全局最优保证的算法。 |
-| [^151] | [ADI: Adversarial Dominating Inputs in Vertical Federated Learning Systems.](http://arxiv.org/abs/2201.02775) | 本文研究了垂直联邦学习系统中的对抗性主导输入（ADIs），并证明了其在典型VFL系统中的存在。该研究为防止ADIs的使用提供了方法。 |
-| [^152] | [When the Curious Abandon Honesty: Federated Learning Is Not Private.](http://arxiv.org/abs/2112.02918) | 联邦学习被认为是隐私保护的一种手段，然而本文研究表明，即使是一个被动的、诚实但好奇的攻击者观察到梯度，也可以重构参与协议的个人用户的数据。本文提出了一种新的数据重构攻击方法，让一个主动的、不诚实的中央方从接收到的梯度中高效地提取用户数据，并在流行的FL框架上展示了其有效性。 |
-| [^153] | [Regret-Optimal LQR Control.](http://arxiv.org/abs/2105.01244) | 本文提出了一种动态后悔，通过在所有有界干扰下找到最小化最坏情况下后悔的因果控制器，实现了后悔最小LQR控制。 |
-| [^154] | [Stochastic Optimization of Areas Under Precision-Recall Curves with Provable Convergence.](http://arxiv.org/abs/2104.08736) | 本文提出了一种用于深度学习的基于平均精度的方法来优化AUPRC，提出了一种可证收敛的SOAP算法。 |
-| [^155] | [A method to integrate and classify normal distributions.](http://arxiv.org/abs/2012.14331) | 本文介绍了一种可以对任意参数维度下的任意域内正态分布进行积分的方法，提供了法向向量函数的相关概率密度和统计指标，同时还提供了可以对任意数量正态分布进行分类的方法和维度降低和可视化的技术。 |
-| [^156] | [The Role of Mutual Information in Variational Classifiers.](http://arxiv.org/abs/2010.11642) | 本文研究了基于随机编码的分类器的泛化误差，并得出了泛化误差受输入特征和潜空间表示之间互信息限制的结论。 |
-| [^157] | [Semi-supervised Hypergraph Node Classification on Hypergraph Line Expansion.](http://arxiv.org/abs/2005.04843) | 本文提出了一种新的超图学习方法，即“线扩展(LE)”，该方法通过将顶点-超边对作为“线节点”，在超图中引出同构结构，适用于各种超图扩展并达到了显著优于SOTA的效果。 |
+| [^136] | [Pre-Training for Robots: Offline RL Enables Learning New Tasks from a Handful of Trials.](http://arxiv.org/abs/2210.05178) | 本文提出了一种基于离线RL的机器人预训练框架(PTR)，可以将现有的机器人数据集上的预训练与少量任务特定数据相结合，从而有效地学习新任务，无需表示学习或vision-based pretraining。 |
+| [^137] | [On Distillation of Guided Diffusion Models.](http://arxiv.org/abs/2210.03142) | 本论文提出了一种将免分类器的引导式扩散模型蒸馏为易于采样的模型的方法，以降低在推断时的计算成本，并且能够在像素空间生成高质量的图像。 |
+| [^138] | [On The Relative Error of Random Fourier Features for Preserving Kernel Distance.](http://arxiv.org/abs/2210.00244) | 研究发现，对于大多数核，包括著名的拉普拉斯核，RFF不能使用低维近似核距离并保持小的相对误差。当核是解析的时候，RFF可以使用多项式维度实现$\epsilon$-相对误差，并且在特定应用中，维度边界得到了改进。 |
+| [^139] | [PiFold: Toward effective and efficient protein inverse folding.](http://arxiv.org/abs/2209.12643) | PiFold 提出了一种新的残基特征提取器和 PiGNN 层，能够一次性生成蛋白质序列并提高恢复效果，在 CATH 4.2 上达到了 51.66% 的恢复率，推理速度比自回归竞争对手快 70 倍，在 TS50 和 TS500 上分别达到了 58.72% 和 60.42% 的恢复分数。 |
+| [^140] | [KL-divergence Based Deep Learning for Discrete Time Model.](http://arxiv.org/abs/2208.05100) | 该论文提出了一种基于KL散度的深度学习程序，用于解决生存分析中短数据问题，通过将外部生存预测模型与新收集的时间至事件数据相结合来获得更好的性能和鲁棒性。 |
+| [^141] | [Recovering the Graph Underlying Networked Dynamical Systems under Partial Observability: A Deep Learning Approach.](http://arxiv.org/abs/2208.04405) | 这篇论文介绍了一种基于深度学习的方法，通过对观察到的时间序列数据进行特征向量计算，实现了部分可观察下的网络动态系统的图形恢复，因果推断机制优于最先进的同类机制，并且有很好的泛化性能。 |
+| [^142] | [Model Reduction for Nonlinear Systems by Balanced Truncation of State and Gradient Covariance.](http://arxiv.org/abs/2207.14387) | 该论文提出了协变量平衡约简方法，使用共轭选取的快照来平衡系统的状态和基于共轭的梯度协方差矩阵，以解决降阶模型中对低方差坐标敏感的问题。 |
+| [^143] | [Understanding Influence Maximization via Higher-Order Decomposition.](http://arxiv.org/abs/2207.07833) | 本文提出了一种利用Sobol指数对种子在IM中的影响和高阶相互作用进行分析的方法，通过此方法提出了一种名为SIM的IM算法，该算法通过过度选择节点来改善当前IM算法的性能。 |
+| [^144] | [LaserMix for Semi-Supervised LiDAR Semantic Segmentation.](http://arxiv.org/abs/2207.00026) | 本文提出了一种名为LaserMix的半监督学习方法，利用LiDAR点云的强空间线索更好地利用未标记数据，具有通用性、统计基础和有效性，并在SemanticKITTI上取得了最优性能。 |
+| [^145] | [Generative Modelling With Inverse Heat Dissipation.](http://arxiv.org/abs/2206.13397) | 该论文提出了一种新的类似扩散的模型来生成图像，它通过随机反转热方程在2D平面上运行来生成图像，并展示了与标准扩散模型不同的新颖定性性质，包括图像中整体颜色和形状的解缠绕现象。 |
+| [^146] | [Variable importance without impossible data.](http://arxiv.org/abs/2205.15750) | 评估黑箱预测模型中变量重要性的流行方法不可信，因为使用了不可能的数据。本文提出一种名为Cohort Shapley的方法，它基于经济博弈理论，仅使用实际观测到的数据来量化变量重要性，可以解决算法公平性问题。 |
+| [^147] | [Bongard-HOI: Benchmarking Few-Shot Visual Reasoning for Human-Object Interactions.](http://arxiv.org/abs/2205.13803) | 本文提出了一个新的视觉推理基准测试Bongard-HOI，它专注于从自然图像中学习人-物交互的组合性学习，挑战了现有最先进模型，鼓励开发更好的算法进行组合推理和泛化到新的HOI概念。 |
+| [^148] | [On the Inconsistency of Kernel Ridgeless Regression in Fixed Dimensions.](http://arxiv.org/abs/2205.13525) | 在固定维度下，平移不变核的重要预测类别，如高斯核、拉普拉斯核和柯西核，在任何非零回归函数和任何带宽选择下都不具备“良性过拟合”特性。 |
+| [^149] | [Tensor Completion with Provable Consistency and Fairness Guarantees for Recommender Systems.](http://arxiv.org/abs/2204.01815) | 本文介绍了一种新的一致性方法来解决矩阵和张量补全问题，在推荐系统应用中，我们证明了通过保留单位比例和一致性两个约束条件可以实现解的存在性与唯一性。 |
+| [^150] | [Continual Learning from Demonstration of Robotics Skills.](http://arxiv.org/abs/2202.06843) | 该论文提出了一种持续学习示教方法，使用超网络和神经常微分方程求解器，可以记住长序列轨迹学习任务，而无需存储来自过去示教的任何数据。 |
+| [^151] | [GoSafeOpt: Scalable Safe Exploration for Global Optimization of Dynamical Systems.](http://arxiv.org/abs/2201.09562) | GoSafeOpt是第一个能够安全探索高维系统并提供全局最优保证的算法。 |
+| [^152] | [ADI: Adversarial Dominating Inputs in Vertical Federated Learning Systems.](http://arxiv.org/abs/2201.02775) | 本文研究了垂直联邦学习系统中的对抗性主导输入（ADIs），并证明了其在典型VFL系统中的存在。该研究为防止ADIs的使用提供了方法。 |
+| [^153] | [When the Curious Abandon Honesty: Federated Learning Is Not Private.](http://arxiv.org/abs/2112.02918) | 联邦学习被认为是隐私保护的一种手段，然而本文研究表明，即使是一个被动的、诚实但好奇的攻击者观察到梯度，也可以重构参与协议的个人用户的数据。本文提出了一种新的数据重构攻击方法，让一个主动的、不诚实的中央方从接收到的梯度中高效地提取用户数据，并在流行的FL框架上展示了其有效性。 |
+| [^154] | [Regret-Optimal LQR Control.](http://arxiv.org/abs/2105.01244) | 本文提出了一种动态后悔，通过在所有有界干扰下找到最小化最坏情况下后悔的因果控制器，实现了后悔最小LQR控制。 |
+| [^155] | [Stochastic Optimization of Areas Under Precision-Recall Curves with Provable Convergence.](http://arxiv.org/abs/2104.08736) | 本文提出了一种用于深度学习的基于平均精度的方法来优化AUPRC，提出了一种可证收敛的SOAP算法。 |
+| [^156] | [A method to integrate and classify normal distributions.](http://arxiv.org/abs/2012.14331) | 本文介绍了一种可以对任意参数维度下的任意域内正态分布进行积分的方法，提供了法向向量函数的相关概率密度和统计指标，同时还提供了可以对任意数量正态分布进行分类的方法和维度降低和可视化的技术。 |
+| [^157] | [The Role of Mutual Information in Variational Classifiers.](http://arxiv.org/abs/2010.11642) | 本文研究了基于随机编码的分类器的泛化误差，并得出了泛化误差受输入特征和潜空间表示之间互信息限制的结论。 |
+| [^158] | [Semi-supervised Hypergraph Node Classification on Hypergraph Line Expansion.](http://arxiv.org/abs/2005.04843) | 本文提出了一种新的超图学习方法，即“线扩展(LE)”，该方法通过将顶点-超边对作为“线节点”，在超图中引出同构结构，适用于各种超图扩展并达到了显著优于SOTA的效果。 |
 
 # 详细
 
@@ -2052,7 +2053,21 @@
 
     We propose a new task to benchmark scene understanding of embodied agents: Situated Question Answering in 3D Scenes (SQA3D). Given a scene context (e.g., 3D scan), SQA3D requires the tested agent to first understand its situation (position, orientation, etc.) in the 3D scene as described by text, then reason about its surrounding environment and answer a question under that situation. Based upon 650 scenes from ScanNet, we provide a dataset centered around 6.8k unique situations, along with 20.4k descriptions and 33.4k diverse reasoning questions for these situations. These questions examine a wide spectrum of reasoning capabilities for an intelligent agent, ranging from spatial relation comprehension to commonsense understanding, navigation, and multi-hop reasoning. SQA3D imposes a significant challenge to current multi-modal especially 3D reasoning models. We evaluate various state-of-the-art approaches and find that the best one only achieves an overall score of 47.20%, while amateu
     
-[^136]: 关于引导式扩散模型的蒸馏
+[^136]: 机器人的预训练：离线RL使其可以从少量试验中学习新任务
+
+    Pre-Training for Robots: Offline RL Enables Learning New Tasks from a Handful of Trials. (arXiv:2210.05178v2 [cs.RO] UPDATED)
+
+    [http://arxiv.org/abs/2210.05178](http://arxiv.org/abs/2210.05178)
+
+    本文提出了一种基于离线RL的机器人预训练框架(PTR)，可以将现有的机器人数据集上的预训练与少量任务特定数据相结合，从而有效地学习新任务，无需表示学习或vision-based pretraining。
+
+    
+
+    深度学习的进展彰显了利用多样的机器人数据集实现有效泛化的巨大潜力，这让我们有动力考虑利用广泛的数据集实现机器人学习的鲁棒泛化。但是，在实践中，我们经常希望在新的环境中学习新的技能，这可能不包含在先前的数据中。因此，我们想知道：如何将现有的多样离线数据集与少量任务特定数据结合起来，解决新任务，同时仍然享受大量数据训练的泛化优势？在本文中，我们展示了端到端离线RL可以是一种有效的方法来实现这一点，而不需要任何表示学习或基于视觉的预训练。我们提出了预训练机器人（PTR），这是一个基于离线RL的框架，试图通过将现有机器人数据集上的预训练与快速精细调整的过程相结合来有效地学习新任务。
+
+    Progress in deep learning highlights the tremendous potential of utilizing diverse robotic datasets for attaining effective generalization and makes it enticing to consider leveraging broad datasets for attaining robust generalization in robotic learning as well. However, in practice, we often want to learn a new skill in a new environment that is unlikely to be contained in the prior data. Therefore we ask: how can we leverage existing diverse offline datasets in combination with small amounts of task-specific data to solve new tasks, while still enjoying the generalization benefits of training on large amounts of data? In this paper, we demonstrate that end-to-end offline RL can be an effective approach for doing this, without the need for any representation learning or vision-based pre-training. We present pre-training for robots (PTR), a framework based on offline RL that attempts to effectively learn new tasks by combining pre-training on existing robotic datasets with rapid fine-
+    
+[^137]: 关于引导式扩散模型的蒸馏
 
     On Distillation of Guided Diffusion Models. (arXiv:2210.03142v3 [cs.CV] UPDATED)
 
@@ -2066,7 +2081,7 @@
 
     Classifier-free guided diffusion models have recently been shown to be highly effective at high-resolution image generation, and they have been widely used in large-scale diffusion frameworks including DALLE-2, Stable Diffusion and Imagen. However, a downside of classifier-free guided diffusion models is that they are computationally expensive at inference time since they require evaluating two diffusion models, a class-conditional model and an unconditional model, tens to hundreds of times. To deal with this limitation, we propose an approach to distilling classifier-free guided diffusion models into models that are fast to sample from: Given a pre-trained classifier-free guided model, we first learn a single model to match the output of the combined conditional and unconditional models, and then we progressively distill that model to a diffusion model that requires much fewer sampling steps. For standard diffusion models trained on the pixel-space, our approach is able to generate im
     
-[^137]: 关于随机傅里叶特征相对误差保持核距离的研究
+[^138]: 关于随机傅里叶特征相对误差保持核距离的研究
 
     On The Relative Error of Random Fourier Features for Preserving Kernel Distance. (arXiv:2210.00244v2 [cs.LG] UPDATED)
 
@@ -2080,7 +2095,7 @@
 
     The method of random Fourier features (RFF), proposed in a seminal paper by Rahimi and Recht (NIPS'07), is a powerful technique to find approximate low-dimensional representations of points in (high-dimensional) kernel space, for shift-invariant kernels. While RFF has been analyzed under various notions of error guarantee, the ability to preserve the kernel distance with \emph{relative} error is less understood. We show that for a significant range of kernels, including the well-known Laplacian kernels, RFF cannot approximate the kernel distance with small relative error using low dimensions. We complement this by showing as long as the shift-invariant kernel is analytic, RFF with $\mathrm{poly}(\epsilon^{-1} \log n)$ dimensions achieves $\epsilon$-relative error for pairwise kernel distance of $n$ points, and the dimension bound is improved to $\mathrm{poly}(\epsilon^{-1}\log k)$ for the specific application of kernel $k$-means. Finally, going beyond RFF, we make the first step toward
     
-[^138]: PiFold: 实现高效和有效的蛋白质逆向折叠
+[^139]: PiFold: 实现高效和有效的蛋白质逆向折叠
 
     PiFold: Toward effective and efficient protein inverse folding. (arXiv:2209.12643v4 [cs.AI] UPDATED)
 
@@ -2094,7 +2109,7 @@
 
     How can we design protein sequences folding into the desired structures effectively and efficiently? AI methods for structure-based protein design have attracted increasing attention in recent years; however, few methods can simultaneously improve the accuracy and efficiency due to the lack of expressive features and autoregressive sequence decoder. To address these issues, we propose PiFold, which contains a novel residue featurizer and PiGNN layers to generate protein sequences in a one-shot way with improved recovery. Experiments show that PiFold could achieve 51.66\% recovery on CATH 4.2, while the inference speed is 70 times faster than the autoregressive competitors. In addition, PiFold achieves 58.72\% and 60.42\% recovery scores on TS50 and TS500, respectively. We conduct comprehensive ablation studies to reveal the role of different types of protein features and model designs, inspiring further simplification and improvement. The PyTorch code is available at \href{https://gith
     
-[^139]: 基于KL散度的离散时间模型深度学习
+[^140]: 基于KL散度的离散时间模型深度学习
 
     KL-divergence Based Deep Learning for Discrete Time Model. (arXiv:2208.05100v2 [stat.ML] UPDATED)
 
@@ -2108,7 +2123,7 @@
 
     Neural Network (Deep Learning) is a modern model in Artificial Intelligence and it has been exploited in Survival Analysis. Although several improvements have been shown by previous works, training an excellent deep learning model requires a huge amount of data, which may not hold in practice. To address this challenge, we develop a Kullback-Leibler-based (KL) deep learning procedure to integrate external survival prediction models with newly collected time-to-event data. Time-dependent KL discrimination information is utilized to measure the discrepancy between the external and internal data. This is the first work considering using prior information to deal with short data problem in Survival Analysis for deep learning. Simulation and real data results show that the proposed model achieves better performance and higher robustness compared with previous works.
     
-[^140]: 基于深度学习的部分可观察下网络动态系统的图形恢复方法
+[^141]: 基于深度学习的部分可观察下网络动态系统的图形恢复方法
 
     Recovering the Graph Underlying Networked Dynamical Systems under Partial Observability: A Deep Learning Approach. (arXiv:2208.04405v3 [cs.LG] UPDATED)
 
@@ -2122,7 +2137,7 @@
 
     We study the problem of graph structure identification, i.e., of recovering the graph of dependencies among time series. We model these time series data as components of the state of linear stochastic networked dynamical systems. We assume partial observability, where the state evolution of only a subset of nodes comprising the network is observed. We devise a new feature vector computed from the observed time series and prove that these features are linearly separable, i.e., there exists a hyperplane that separates the cluster of features associated with connected pairs of nodes from those associated with disconnected pairs. This renders the features amenable to train a variety of classifiers to perform causal inference. In particular, we use these features to train Convolutional Neural Networks (CNNs). The resulting causal inference mechanism outperforms state-of-the-art counterparts w.r.t. sample-complexity. The trained CNNs generalize well over structurally distinct networks (dense
     
-[^141]: 非线性系统的模型缩减：通过平衡状态和梯度协方差的截断平衡方法
+[^142]: 非线性系统的模型缩减：通过平衡状态和梯度协方差的截断平衡方法
 
     Model Reduction for Nonlinear Systems by Balanced Truncation of State and Gradient Covariance. (arXiv:2207.14387v4 [eess.SY] UPDATED)
 
@@ -2136,7 +2151,7 @@
 
     Data-driven reduced-order models often fail to make accurate forecasts of high-dimensional nonlinear dynamical systems that are sensitive along coordinates with low-variance because such coordinates are often truncated, e.g., by proper orthogonal decomposition, kernel principal component analysis, and autoencoders. Such systems are encountered frequently in shear-dominated fluid flows where non-normality plays a significant role in the growth of disturbances. In order to address these issues, we employ ideas from active subspaces to find low-dimensional systems of coordinates for model reduction that balance adjoint-based information about the system's sensitivity with the variance of states along trajectories. The resulting method, which we refer to as covariance balancing reduction using adjoint snapshots (CoBRAS), is analogous to balanced truncation with state and adjoint-based gradient covariance matrices replacing the system Gramians and obeying the same key transformation laws. H
     
-[^142]: 通过高阶分解理解影响最大化
+[^143]: 通过高阶分解理解影响最大化
 
     Understanding Influence Maximization via Higher-Order Decomposition. (arXiv:2207.07833v4 [cs.SI] UPDATED)
 
@@ -2150,7 +2165,7 @@
 
     Given its vast application on online social networks, Influence Maximization (IM) has garnered considerable attention over the last couple of decades. Due to the intricacy of IM, most current research concentrates on estimating the first-order contribution of the nodes to select a seed set, disregarding the higher-order interplay between different seeds. Consequently, the actual influence spread frequently deviates from expectations, and it remains unclear how the seed set quantitatively contributes to this deviation. To address this deficiency, this work dissects the influence exerted on individual seeds and their higher-order interactions utilizing the Sobol index, a variance-based sensitivity analysis. To adapt to IM contexts, seed selection is phrased as binary variables and split into distributions of varying orders. Based on our analysis with various Sobol indices, an IM algorithm dubbed SIM is proposed to improve the performance of current IM algorithms by over-selecting nodes f
     
-[^143]: 半监督LiDAR语义分割的LaserMix方法
+[^144]: 半监督LiDAR语义分割的LaserMix方法
 
     LaserMix for Semi-Supervised LiDAR Semantic Segmentation. (arXiv:2207.00026v3 [cs.CV] UPDATED)
 
@@ -2164,7 +2179,7 @@
 
     Densely annotating LiDAR point clouds is costly, which restrains the scalability of fully-supervised learning methods. In this work, we study the underexplored semi-supervised learning (SSL) in LiDAR segmentation. Our core idea is to leverage the strong spatial cues of LiDAR point clouds to better exploit unlabeled data. We propose LaserMix to mix laser beams from different LiDAR scans, and then encourage the model to make consistent and confident predictions before and after mixing. Our framework has three appealing properties: 1) Generic: LaserMix is agnostic to LiDAR representations (e.g., range view and voxel), and hence our SSL framework can be universally applied. 2) Statistically grounded: We provide a detailed analysis to theoretically explain the applicability of the proposed framework. 3) Effective: Comprehensive experimental analysis on popular LiDAR segmentation datasets (nuScenes, SemanticKITTI, and ScribbleKITTI) demonstrates our effectiveness and superiority. Notably, we
     
-[^144]: 带有逆热传导的生成建模
+[^145]: 带有逆热传导的生成建模
 
     Generative Modelling With Inverse Heat Dissipation. (arXiv:2206.13397v7 [cs.CV] UPDATED)
 
@@ -2178,7 +2193,7 @@
 
     While diffusion models have shown great success in image generation, their noise-inverting generative process does not explicitly consider the structure of images, such as their inherent multi-scale nature. Inspired by diffusion models and the empirical success of coarse-to-fine modelling, we propose a new diffusion-like model that generates images through stochastically reversing the heat equation, a PDE that locally erases fine-scale information when run over the 2D plane of the image. We interpret the solution of the forward heat equation with constant additive noise as a variational approximation in the diffusion latent variable model. Our new model shows emergent qualitative properties not seen in standard diffusion models, such as disentanglement of overall colour and shape in images. Spectral analysis on natural images highlights connections to diffusion models and reveals an implicit coarse-to-fine inductive bias in them.
     
-[^145]: 无需不可能数据的变量重要性分析方法
+[^146]: 无需不可能数据的变量重要性分析方法
 
     Variable importance without impossible data. (arXiv:2205.15750v3 [cs.LG] UPDATED)
 
@@ -2192,7 +2207,7 @@
 
     The most popular methods for measuring importance of the variables in a black box prediction algorithm make use of synthetic inputs that combine predictor variables from multiple subjects. These inputs can be unlikely, physically impossible, or even logically impossible. As a result, the predictions for such cases can be based on data very unlike any the black box was trained on. We think that users cannot trust an explanation of the decision of a prediction algorithm when the explanation uses such values. Instead we advocate a method called Cohort Shapley that is grounded in economic game theory and unlike most other game theoretic methods, it uses only actually observed data to quantify variable importance. Cohort Shapley works by narrowing the cohort of subjects judged to be similar to a target subject on one or more features. We illustrate it on an algorithmic fairness problem where it is essential to attribute importance to protected variables that the model was not trained on.
     
-[^146]: Bongard-HOI：基于人-物交互的几种情况视觉推理基准测试
+[^147]: Bongard-HOI：基于人-物交互的几种情况视觉推理基准测试
 
     Bongard-HOI: Benchmarking Few-Shot Visual Reasoning for Human-Object Interactions. (arXiv:2205.13803v2 [cs.CV] UPDATED)
 
@@ -2206,7 +2221,7 @@
 
     A significant gap remains between today's visual pattern recognition models and human-level visual cognition especially when it comes to few-shot learning and compositional reasoning of novel concepts. We introduce Bongard-HOI, a new visual reasoning benchmark that focuses on compositional learning of human-object interactions (HOIs) from natural images. It is inspired by two desirable characteristics from the classical Bongard problems (BPs): 1) few-shot concept learning, and 2) context-dependent reasoning. We carefully curate the few-shot instances with hard negatives, where positive and negative images only disagree on action labels, making mere recognition of object categories insufficient to complete our benchmarks. We also design multiple test sets to systematically study the generalization of visual learning models, where we vary the overlap of the HOI concepts between the training and test sets of few-shot instances, from partial to no overlaps. Bongard-HOI presents a substanti
     
-[^147]: 关于固定维度下核岭回归的不一致性
+[^148]: 关于固定维度下核岭回归的不一致性
 
     On the Inconsistency of Kernel Ridgeless Regression in Fixed Dimensions. (arXiv:2205.13525v3 [cs.LG] UPDATED)
 
@@ -2220,7 +2235,7 @@
 
     ``Benign overfitting'', the ability of certain algorithms to interpolate noisy training data and yet perform well out-of-sample, has been a topic of considerable recent interest. We show, using a fixed design setup, that an important class of predictors, kernel machines with translation-invariant kernels, does not exhibit benign overfitting in fixed dimensions. In particular, the estimated predictor does not converge to the ground truth with increasing sample size, for any non-zero regression function and any (even adaptive) bandwidth selection. To prove these results, we give exact expressions for the generalization error, and its decomposition in terms of an approximation error and an estimation error that elicits a trade-off based on the selection of the kernel bandwidth. Our results apply to commonly used translation-invariant kernels such as Gaussian, Laplace, and Cauchy.
     
-[^148]: 具有可证明的一致性和公平保证的推荐系统张量补全
+[^149]: 具有可证明的一致性和公平保证的推荐系统张量补全
 
     Tensor Completion with Provable Consistency and Fairness Guarantees for Recommender Systems. (arXiv:2204.01815v3 [cs.IR] UPDATED)
 
@@ -2234,7 +2249,7 @@
 
     We introduce a new consistency-based approach for defining and solving nonnegative/positive matrix and tensor completion problems. The novelty of the framework is that instead of artificially making the problem well-posed in the form of an application-arbitrary optimization problem, e.g., minimizing a bulk structural measure such as rank or norm, we show that a single property/constraint: preserving unit-scale consistency, guarantees the existence of both a solution and, under relatively weak support assumptions, uniqueness. The framework and solution algorithms also generalize directly to tensors of arbitrary dimensions while maintaining computational complexity that is linear in problem size for fixed dimension d. In the context of recommender system (RS) applications, we prove that two reasonable properties that should be expected to hold for any solution to the RS problem are sufficient to permit uniqueness guarantees to be established within our framework. Key theoretical contribu
     
-[^149]: 持续学习机器人技能的示教方法
+[^150]: 持续学习机器人技能的示教方法
 
     Continual Learning from Demonstration of Robotics Skills. (arXiv:2202.06843v4 [cs.RO] UPDATED)
 
@@ -2248,7 +2263,7 @@
 
     Methods for teaching motion skills to robots focus on training for a single skill at a time. Robots capable of learning from demonstration can considerably benefit from the added ability to learn new movement skills without forgetting what was learned in the past. To this end, we propose an approach for continual learning from demonstration using hypernetworks and neural ordinary differential equation solvers. We empirically demonstrate the effectiveness of this approach in remembering long sequences of trajectory learning tasks without the need to store any data from past demonstrations. Our results show that hypernetworks outperform other state-of-the-art continual learning approaches for learning from demonstration. In our experiments, we use the popular LASA benchmark, and two new datasets of kinesthetic demonstrations collected with a real robot that we introduce in this paper called the HelloWorld and RoboTasks datasets. We evaluate our approach on a physical robot and demonstrat
     
-[^150]: GoSafeOpt: 可扩展的安全全局优化动态系统的探索
+[^151]: GoSafeOpt: 可扩展的安全全局优化动态系统的探索
 
     GoSafeOpt: Scalable Safe Exploration for Global Optimization of Dynamical Systems. (arXiv:2201.09562v4 [cs.LG] UPDATED)
 
@@ -2262,7 +2277,7 @@
 
     Learning optimal control policies directly on physical systems is challenging since even a single failure can lead to costly hardware damage. Most existing model-free learning methods that guarantee safety, i.e., no failures, during exploration are limited to local optima. A notable exception is the GoSafe algorithm, which, unfortunately, cannot handle high-dimensional systems and hence cannot be applied to most real-world dynamical systems. This work proposes GoSafeOpt as the first algorithm that can safely discover globally optimal policies for high-dimensional systems while giving safety and optimality guarantees. We demonstrate the superiority of GoSafeOpt over competing model-free safe learning methods on a robot arm that would be prohibitive for GoSafe.
     
-[^151]: ADI: 在垂直联邦学习系统中的对抗性主导输入
+[^152]: ADI: 在垂直联邦学习系统中的对抗性主导输入
 
     ADI: Adversarial Dominating Inputs in Vertical Federated Learning Systems. (arXiv:2201.02775v3 [cs.CR] UPDATED)
 
@@ -2276,7 +2291,7 @@
 
     Vertical federated learning (VFL) system has recently become prominent as a concept to process data distributed across many individual sources without the need to centralize it. Multiple participants collaboratively train models based on their local data in a privacy-aware manner. To date, VFL has become a de facto solution to securely learn a model among organizations, allowing knowledge to be shared without compromising privacy of any individuals. Despite the prosperous development of VFL systems, we find that certain inputs of a participant, named adversarial dominating inputs (ADIs), can dominate the joint inference towards the direction of the adversary's will and force other (victim) participants to make negligible contributions, losing rewards that are usually offered regarding the importance of their contributions in federated learning scenarios. We conduct a systematic study on ADIs by first proving their existence in typical VFL systems. We then propose gradient-based methods
     
-[^152]: 当好奇的人放弃诚实：联邦学习不是隐私的保护者
+[^153]: 当好奇的人放弃诚实：联邦学习不是隐私的保护者
 
     When the Curious Abandon Honesty: Federated Learning Is Not Private. (arXiv:2112.02918v2 [cs.LG] UPDATED)
 
@@ -2290,7 +2305,7 @@
 
     In federated learning (FL), data does not leave personal devices when they are jointly training a machine learning model. Instead, these devices share gradients, parameters, or other model updates, with a central party (e.g., a company) coordinating the training. Because data never "leaves" personal devices, FL is often presented as privacy-preserving. Yet, recently it was shown that this protection is but a thin facade, as even a passive, honest-but-curious attacker observing gradients can reconstruct data of individual users contributing to the protocol. In this work, we show a novel data reconstruction attack which allows an active and dishonest central party to efficiently extract user data from the received gradients. While prior work on data reconstruction in FL relies on solving computationally expensive optimization problems or on making easily detectable modifications to the shared model's architecture or parameters, in our attack the central party makes inconspicuous changes 
     
-[^153]: 后悔最小LQR控制
+[^154]: 后悔最小LQR控制
 
     Regret-Optimal LQR Control. (arXiv:2105.01244v2 [math.OC] UPDATED)
 
@@ -2304,7 +2319,7 @@
 
     We consider the infinite-horizon LQR control problem. Motivated by competitive analysis in online learning, as a criterion for controller design we introduce the dynamic regret, defined as the difference between the LQR cost of a causal controller (that has only access to past disturbances) and the LQR cost of the \emph{unique} clairvoyant one (that has also access to future disturbances) that is known to dominate all other controllers. The regret itself is a function of the disturbances, and we propose to find a causal controller that minimizes the worst-case regret over all bounded energy disturbances. The resulting controller has the interpretation of guaranteeing the smallest regret compared to the best non-causal controller that can see the future. We derive explicit formulas for the optimal regret and for the regret-optimal controller for the state-space setting. These explicit solutions are obtained by showing that the regret-optimal control problem can be reduced to a Nehari ex
     
-[^154]: 可证收敛的精确率-召回曲线下面积随机优化
+[^155]: 可证收敛的精确率-召回曲线下面积随机优化
 
     Stochastic Optimization of Areas Under Precision-Recall Curves with Provable Convergence. (arXiv:2104.08736v5 [cs.LG] UPDATED)
 
@@ -2318,7 +2333,7 @@
 
     Areas under ROC (AUROC) and precision-recall curves (AUPRC) are common metrics for evaluating classification performance for imbalanced problems. Compared with AUROC, AUPRC is a more appropriate metric for highly imbalanced datasets. While stochastic optimization of AUROC has been studied extensively, principled stochastic optimization of AUPRC has been rarely explored. In this work, we propose a principled technical method to optimize AUPRC for deep learning. Our approach is based on maximizing the averaged precision (AP), which is an unbiased point estimator of AUPRC. We cast the objective into a sum of {\it dependent compositional functions} with inner functions dependent on random variables of the outer level. We propose efficient adaptive and non-adaptive stochastic algorithms named SOAP with {\it provable convergence guarantee under mild conditions} by leveraging recent advances in stochastic compositional optimization. Extensive experimental results on image and graph datasets d
     
-[^155]: 一种整合和分类正态分布的方法
+[^156]: 一种整合和分类正态分布的方法
 
     A method to integrate and classify normal distributions. (arXiv:2012.14331v8 [stat.ML] UPDATED)
 
@@ -2332,7 +2347,7 @@
 
     Univariate and multivariate normal probability distributions are widely used when modeling decisions under uncertainty. Computing the performance of such models requires integrating these distributions over specific domains, which can vary widely across models. Besides some special cases, there exist no general analytical expressions, standard numerical methods or software for these integrals. Here we present mathematical results and open-source software that provide (i) the probability in any domain of a normal in any dimensions with any parameters, (ii) the probability density, cumulative distribution, and inverse cumulative distribution of any function of a normal vector, (iii) the classification errors among any number of normal distributions, the Bayes-optimal discriminability index and relation to the operating characteristic, (iv) dimension reduction and visualizations for such problems, and (v) tests for how reliably these methods may be used on given data. We demonstrate these
     
-[^156]: 互信息在变分分类器中的作用
+[^157]: 互信息在变分分类器中的作用
 
     The Role of Mutual Information in Variational Classifiers. (arXiv:2010.11642v3 [stat.ML] UPDATED)
 
@@ -2346,7 +2361,7 @@
 
     Overfitting data is a well-known phenomenon related with the generation of a model that mimics too closely (or exactly) a particular instance of data, and may therefore fail to predict future observations reliably. In practice, this behaviour is controlled by various--sometimes heuristics--regularization techniques, which are motivated by developing upper bounds to the generalization error. In this work, we study the generalization error of classifiers relying on stochastic encodings trained on the cross-entropy loss, which is often used in deep learning for classification problems. We derive bounds to the generalization error showing that there exists a regime where the generalization error is bounded by the mutual information between input features and the corresponding representations in the latent space, which are randomly generated according to the encoding distribution. Our bounds provide an information-theoretic understanding of generalization in the so-called class of variation
     
-[^157]: 基于超图线扩展的半监督超图节点分类
+[^158]: 基于超图线扩展的半监督超图节点分类
 
     Semi-supervised Hypergraph Node Classification on Hypergraph Line Expansion. (arXiv:2005.04843v6 [cs.LG] UPDATED)
 
