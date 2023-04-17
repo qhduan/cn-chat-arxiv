@@ -40,11 +40,12 @@
 | [^36] | [Using Active Learning Methods to Strategically Select Essays for Automated Scoring.](http://arxiv.org/abs/2301.00628) | 本研究提出了三种主动学习方法，可最小化必须由人工评分者进行评分的文章数量，同时提供训练现代自动化论文打分系统所需的数据。 |
 | [^37] | [Leveraging Natural Language Processing to Augment Structured Social Determinants of Health Data in the Electronic Health Record.](http://arxiv.org/abs/2212.07538) | 本文开发了一个SDOH信息提取器，通过将其应用于EHR中的临床叙述，捕获详细的SDOH信息，并将提取的表示与现有的结构化数据进行组合以获得信息增益。 |
 | [^38] | [AUC Maximization for Low-Resource Named Entity Recognition.](http://arxiv.org/abs/2212.04800) | 本文提出了在低资源命名实体识别中使用AUC最大化的方法，通过结合两个最大化AUC分数的二进制分类器，在低资源NER设置下实现了显着的性能提高，优于传统的损失函数。 |
-| [^39] | [End-to-End Entity Detection with Proposer and Regressor.](http://arxiv.org/abs/2210.10260) | 该论文提出了一种基于提议器和回归器的端到端实体检测方法，通过利用特征金字塔网络生成高质量的实体提议，并对提议进行精细调整以生成最终的预测结果。该模型具有查询语义丰富、实体定位精度高、模型训练容易等优点，还引入了空间调制变压器来增强内部关系的建模能力。实验结果表明，该方法显著优于现有的最先进方法。 |
-| [^40] | [Improving Semantic Matching through Dependency-Enhanced Pre-trained Model with Adaptive Fusion.](http://arxiv.org/abs/2210.08471) | 本文提出了一种依赖增强的自适应融合注意力模型，它将依赖信息与原始语义信号自适应融合，以更好地模拟复杂的语义匹配关系。 |
-| [^41] | [StyLEx: Explaining Style Using Human Lexical Annotations.](http://arxiv.org/abs/2210.07469) | StyLEx是一种可以从人工注释的语言风格特征解释中学习，提供句子级风格预测以及人类-like的风格词汇解释的模型。 |
-| [^42] | [DABERT: Dual Attention Enhanced BERT for Semantic Matching.](http://arxiv.org/abs/2210.03454) | DABERT 通过双重注意力机制和自适应融合模块增强了 BERT 在捕捉句子对之间细微差异的能力，并在实验中取得了良好的效果。 |
-| [^43] | [UniCausal: Unified Benchmark and Repository for Causal Text Mining.](http://arxiv.org/abs/2208.09163) | UniCausal是一个跨三个任务的因果关系文本挖掘统一基准，整合了六个高质量的语料库的注释。UniCausal可用于评估现有模型能力，并鼓励开发新的因果关系文本挖掘方法和框架。 |
+| [^39] | [Make More of Your Data: Minimal Effort Data Augmentation for Automatic Speech Recognition and Translation.](http://arxiv.org/abs/2210.15398) | 本文研究了一种简单、经济的数据扩充方法，即将原始数据样本串联以构建新的训练实例。使用这种方法继续训练能够改进Transformer和Conformer模型，并在多种任务中实现了长达0.9 WER的改进。 |
+| [^40] | [End-to-End Entity Detection with Proposer and Regressor.](http://arxiv.org/abs/2210.10260) | 该论文提出了一种基于提议器和回归器的端到端实体检测方法，通过利用特征金字塔网络生成高质量的实体提议，并对提议进行精细调整以生成最终的预测结果。该模型具有查询语义丰富、实体定位精度高、模型训练容易等优点，还引入了空间调制变压器来增强内部关系的建模能力。实验结果表明，该方法显著优于现有的最先进方法。 |
+| [^41] | [Improving Semantic Matching through Dependency-Enhanced Pre-trained Model with Adaptive Fusion.](http://arxiv.org/abs/2210.08471) | 本文提出了一种依赖增强的自适应融合注意力模型，它将依赖信息与原始语义信号自适应融合，以更好地模拟复杂的语义匹配关系。 |
+| [^42] | [StyLEx: Explaining Style Using Human Lexical Annotations.](http://arxiv.org/abs/2210.07469) | StyLEx是一种可以从人工注释的语言风格特征解释中学习，提供句子级风格预测以及人类-like的风格词汇解释的模型。 |
+| [^43] | [DABERT: Dual Attention Enhanced BERT for Semantic Matching.](http://arxiv.org/abs/2210.03454) | DABERT 通过双重注意力机制和自适应融合模块增强了 BERT 在捕捉句子对之间细微差异的能力，并在实验中取得了良好的效果。 |
+| [^44] | [UniCausal: Unified Benchmark and Repository for Causal Text Mining.](http://arxiv.org/abs/2208.09163) | UniCausal是一个跨三个任务的因果关系文本挖掘统一基准，整合了六个高质量的语料库的注释。UniCausal可用于评估现有模型能力，并鼓励开发新的因果关系文本挖掘方法和框架。 |
 
 # 详细
 
@@ -580,7 +581,21 @@
 
     Current work in named entity recognition (NER) uses either cross entropy (CE) or conditional random fields (CRF) as the objective/loss functions to optimize the underlying NER model. Both of these traditional objective functions for the NER problem generally produce adequate performance when the data distribution is balanced and there are sufficient annotated training examples. But since NER is inherently an imbalanced tagging problem, the model performance under the low-resource settings could suffer using these standard objective functions. Based on recent advances in area under the ROC curve (AUC) maximization, we propose to optimize the NER model by maximizing the AUC score. We give evidence that by simply combining two binary-classifiers that maximize the AUC score, significant performance improvement over traditional loss functions is achieved under low-resource NER settings. We also conduct extensive experiments to demonstrate the advantages of our method under the low-resource 
     
-[^39]: 基于提议器和回归器的端到端实体检测方法
+[^39]: 最小化增广，最大化数据：语音识别与翻译中的数据扩充方法研究
+
+    Make More of Your Data: Minimal Effort Data Augmentation for Automatic Speech Recognition and Translation. (arXiv:2210.15398v2 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2210.15398](http://arxiv.org/abs/2210.15398)
+
+    本文研究了一种简单、经济的数据扩充方法，即将原始数据样本串联以构建新的训练实例。使用这种方法继续训练能够改进Transformer和Conformer模型，并在多种任务中实现了长达0.9 WER的改进。
+
+    
+
+    数据增广是一种根据已有数据生成新的训练数据的技术。本文评估了将原始数据样本串联以构建新的训练实例的简单且经济的方法。继续使用这样的增广数据进行训练能够改进原始数据优化的Transformer和Conformer模型。我们在LibriSpeech-960h测试集上展示了显著的改进（test-clean和test-other的WER分别为2.83和6.87），这些改进也在与浅层融合相结合的模型中得以体现（WER为2.55和6.27）。我们的继续训练方法还在CoVoST-2的四种非英语语言的ASR部分中实现了长达0.9 WER的改进，并且我们观察到这些收益与原始训练数据的大小高度相关。我们比较了不同的串联策略，并发现我们的方法不需要说话人信息即可实现其改进。最后，我们在两个数据集上展示了我们的方法也可适用于翻译任务。
+
+    Data augmentation is a technique to generate new training data based on existing data. We evaluate the simple and cost-effective method of concatenating the original data examples to build new training instances. Continued training with such augmented data is able to improve off-the-shelf Transformer and Conformer models that were optimized on the original data only. We demonstrate considerable improvements on the LibriSpeech-960h test sets (WER 2.83 and 6.87 for test-clean and test-other), which carry over to models combined with shallow fusion (WER 2.55 and 6.27). Our method of continued training also leads to improvements of up to 0.9 WER on the ASR part of CoVoST-2 for four non English languages, and we observe that the gains are highly dependent on the size of the original training data. We compare different concatenation strategies and found that our method does not need speaker information to achieve its improvements. Finally, we demonstrate on two datasets that our methods also
+    
+[^40]: 基于提议器和回归器的端到端实体检测方法
 
     End-to-End Entity Detection with Proposer and Regressor. (arXiv:2210.10260v3 [cs.CL] UPDATED)
 
@@ -594,7 +609,7 @@
 
     Named entity recognition is a traditional task in natural language processing. In particular, nested entity recognition receives extensive attention for the widespread existence of the nesting scenario. The latest research migrates the well-established paradigm of set prediction in object detection to cope with entity nesting. However, the manual creation of query vectors, which fail to adapt to the rich semantic information in the context, limits these approaches. An end-to-end entity detection approach with proposer and regressor is presented in this paper to tackle the issues. First, the proposer utilizes the feature pyramid network to generate high-quality entity proposals. Then, the regressor refines the proposals for generating the final prediction. The model adopts encoder-only architecture and thus obtains the advantages of the richness of query semantics, high precision of entity localization, and easiness of model training. Moreover, we introduce the novel spatially modulated
     
-[^40]: 通过结构增强的预训练模型和自适应融合提高语义匹配
+[^41]: 通过结构增强的预训练模型和自适应融合提高语义匹配
 
     Improving Semantic Matching through Dependency-Enhanced Pre-trained Model with Adaptive Fusion. (arXiv:2210.08471v3 [cs.CL] UPDATED)
 
@@ -608,7 +623,7 @@
 
     Transformer-based pre-trained models like BERT have achieved great progress on Semantic Sentence Matching. Meanwhile, dependency prior knowledge has also shown general benefits in multiple NLP tasks. However, how to efficiently integrate dependency prior structure into pre-trained models to better model complex semantic matching relations is still unsettled. In this paper, we propose the \textbf{D}ependency-Enhanced \textbf{A}daptive \textbf{F}usion \textbf{A}ttention (\textbf{DAFA}), which explicitly introduces dependency structure into pre-trained models and adaptively fuses it with semantic information. Specifically, \textbf{\emph{(i)}} DAFA first proposes a structure-sensitive paradigm to construct a dependency matrix for calibrating attention weights. It adopts an adaptive fusion module to integrate the obtained dependency information and the original semantic signals. Moreover, DAFA reconstructs the attention calculation flow and provides better interpretability. By applying it o
     
-[^41]: StyLEx：使用人类词汇注释解释语言风格
+[^42]: StyLEx：使用人类词汇注释解释语言风格
 
     StyLEx: Explaining Style Using Human Lexical Annotations. (arXiv:2210.07469v2 [cs.CL] UPDATED)
 
@@ -622,7 +637,7 @@
 
     Large pre-trained language models have achieved impressive results on various style classification tasks, but they often learn spurious domain-specific words to make predictions (Hayati et al., 2021). While human explanation highlights stylistic tokens as important features for this task, we observe that model explanations often do not align with them. To tackle this issue, we introduce StyLEx, a model that learns from human-annotated explanations of stylistic features and jointly learns to perform the task and predict these features as model explanations. Our experiments show that StyLEx can provide human-like stylistic lexical explanations without sacrificing the performance of sentence-level style prediction on both in-domain and out-of-domain datasets. Explanations from StyLEx show significant improvements in explanation metrics (sufficiency, plausibility) and when evaluated with human annotations. They are also more understandable by human judges compared to the widely-used salien
     
-[^42]: DABERT：双重注意力增强的BERT语义匹配模型
+[^43]: DABERT：双重注意力增强的BERT语义匹配模型
 
     DABERT: Dual Attention Enhanced BERT for Semantic Matching. (arXiv:2210.03454v3 [cs.CL] UPDATED)
 
@@ -636,7 +651,7 @@
 
     Transformer-based pre-trained language models such as BERT have achieved remarkable results in Semantic Sentence Matching. However, existing models still suffer from insufficient ability to capture subtle differences. Minor noise like word addition, deletion, and modification of sentences may cause flipped predictions. To alleviate this problem, we propose a novel Dual Attention Enhanced BERT (DABERT) to enhance the ability of BERT to capture fine-grained differences in sentence pairs. DABERT comprises (1) Dual Attention module, which measures soft word matches by introducing a new dual channel alignment mechanism to model affinity and difference attention. (2) Adaptive Fusion module, this module uses attention to learn the aggregation of difference and affinity features, and generates a vector describing the matching details of sentence pairs. We conduct extensive experiments on well-studied semantic matching and robustness test datasets, and the experimental results show the effectiv
     
-[^43]: UniCausal：因果关系文本挖掘的统一基准与仓库
+[^44]: UniCausal：因果关系文本挖掘的统一基准与仓库
 
     UniCausal: Unified Benchmark and Repository for Causal Text Mining. (arXiv:2208.09163v2 [cs.CL] UPDATED)
 
