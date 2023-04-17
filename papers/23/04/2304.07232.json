@@ -1,0 +1,12 @@
+{
+    "title": "Evaluation of ChatGPT Model for Vulnerability Detection. (arXiv:2304.07232v1 [cs.CR])",
+    "abstract": "In this technical report, we evaluated the performance of the ChatGPT and GPT-3 models for the task of vulnerability detection in code. Our evaluation was conducted on our real-world dataset, using binary and multi-label classification tasks on CWE vulnerabilities. We decided to evaluate the model because it has shown good performance on other code-based tasks, such as solving programming challenges and understanding code at a high level. However, we found that the ChatGPT model performed no better than a dummy classifier for both binary and multi-label classification tasks for code vulnerability detection.",
+    "link": "http://arxiv.org/abs/2304.07232",
+    "context": "Title: Evaluation of ChatGPT Model for Vulnerability Detection. (arXiv:2304.07232v1 [cs.CR])\nAbstract: In this technical report, we evaluated the performance of the ChatGPT and GPT-3 models for the task of vulnerability detection in code. Our evaluation was conducted on our real-world dataset, using binary and multi-label classification tasks on CWE vulnerabilities. We decided to evaluate the model because it has shown good performance on other code-based tasks, such as solving programming challenges and understanding code at a high level. However, we found that the ChatGPT model performed no better than a dummy classifier for both binary and multi-label classification tasks for code vulnerability detection.",
+    "path": "papers/23/04/2304.07232.json",
+    "total_tokens": 660,
+    "translated_title": "基于ChatGPT的漏洞检测模型的评估",
+    "translated_abstract": "在这篇技术报告中，我们评估了ChatGPT和GPT-3模型在代码漏洞检测任务中的性能。我们使用二进制和多标签分类任务对CWE漏洞进行了真实世界数据集的评估。我们决定对该模型进行评估，因为它在其他基于代码的任务上表现良好，比如解决编程挑战和理解高水平的代码。然而，我们发现ChatGPT模型在代码漏洞检测的二进制和多标签分类任务中表现不如虚拟分类器。",
+    "tldr": "本文评估了ChatGPT模型在真实世界的CWE漏洞数据集上对代码漏洞检测的性能，结果发现该模型在此任务中表现不好。",
+    "en_tdlr": "This technical report evaluated the performance of ChatGPT and GPT-3 models for detecting vulnerabilities in code, but found that the ChatGPT model performed poorly on binary and multi-label classification tasks for vulnerability detection in code."
+}

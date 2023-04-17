@@ -1,0 +1,12 @@
+{
+    "title": "HuaTuo: Tuning LLaMA Model with Chinese Medical Knowledge. (arXiv:2304.06975v1 [cs.CL])",
+    "abstract": "Large Language Models (LLMs), such as the LLaMA model, have demonstrated their effectiveness in various general-domain natural language processing (NLP) tasks. Nevertheless, LLMs have not yet performed optimally in biomedical domain tasks due to the need for medical expertise in the responses. In response to this challenge, we propose HuaTuo, a LLaMA-based model that has been supervised-fine-tuned with generated QA (Question-Answer) instances. The experimental results demonstrate that HuaTuo generates responses that possess more reliable medical knowledge. Our proposed HuaTuo model is accessible at https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese.",
+    "link": "http://arxiv.org/abs/2304.06975",
+    "context": "Title: HuaTuo: Tuning LLaMA Model with Chinese Medical Knowledge. (arXiv:2304.06975v1 [cs.CL])\nAbstract: Large Language Models (LLMs), such as the LLaMA model, have demonstrated their effectiveness in various general-domain natural language processing (NLP) tasks. Nevertheless, LLMs have not yet performed optimally in biomedical domain tasks due to the need for medical expertise in the responses. In response to this challenge, we propose HuaTuo, a LLaMA-based model that has been supervised-fine-tuned with generated QA (Question-Answer) instances. The experimental results demonstrate that HuaTuo generates responses that possess more reliable medical knowledge. Our proposed HuaTuo model is accessible at https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese.",
+    "path": "papers/23/04/2304.06975.json",
+    "total_tokens": 729,
+    "translated_title": "HuaTuo: 融合中医知识优化 LLaMA 模型",
+    "translated_abstract": "大规模语言模型（LLMs），例如 LLaMA 模型，在各种通用自然语言处理（NLP）任务中已经证明了它们的有效性。然而，由于需要医学专业知识来回答问题，LLMs 在生物医学领域的任务中表现仍不理想。应对这一挑战，我们提出了 HuaTuo，这是一种基于 LLaMA 的模型，它通过生成的 QA（问题-回答）实例进行了监督微调。实验结果表明，HuaTuo 生成的响应具有更可靠的医学知识。我们提出的 HuaTuo 模型可在 https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese 上获得。",
+    "tldr": "HuaTuo 是一种融合中医知识进行监督微调的 LLaMA 模型，可以更可靠地回答生物医学领域的问题。",
+    "en_tdlr": "HuaTuo is a LLaMA-based model that has been supervised-fine-tuned with Chinese medical knowledge to generate more reliable responses for biomedical NLP tasks."
+}

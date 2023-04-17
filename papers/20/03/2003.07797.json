@@ -1,0 +1,12 @@
+{
+    "title": "Hyperplane Arrangements of Trained ConvNets Are Biased. (arXiv:2003.07797v2 [cs.CV] UPDATED)",
+    "abstract": "We investigate the geometric properties of the functions learned by trained ConvNets in the preactivation space of their convolutional layers, by performing an empirical study of hyperplane arrangements induced by a convolutional layer. We introduce statistics over the weights of a trained network to study local arrangements and relate them to the training dynamics. We observe that trained ConvNets show a significant statistical bias towards regular hyperplane configurations. Furthermore, we find that layers showing biased configurations are critical to validation performance for the architectures considered, trained on CIFAR10, CIFAR100 and ImageNet.",
+    "link": "http://arxiv.org/abs/2003.07797",
+    "context": "Title: Hyperplane Arrangements of Trained ConvNets Are Biased. (arXiv:2003.07797v2 [cs.CV] UPDATED)\nAbstract: We investigate the geometric properties of the functions learned by trained ConvNets in the preactivation space of their convolutional layers, by performing an empirical study of hyperplane arrangements induced by a convolutional layer. We introduce statistics over the weights of a trained network to study local arrangements and relate them to the training dynamics. We observe that trained ConvNets show a significant statistical bias towards regular hyperplane configurations. Furthermore, we find that layers showing biased configurations are critical to validation performance for the architectures considered, trained on CIFAR10, CIFAR100 and ImageNet.",
+    "path": "papers/20/03/2003.07797.json",
+    "total_tokens": 700,
+    "translated_title": "训练好的 ConvNets 的超平面安排存在偏差",
+    "translated_abstract": "本文通过对卷积层预激活空间中的函数进行几何属性研究，探究了经过训练的 ConvNets 所识别的超平面配置。我们介绍了一个统计学方法来研究局部配置，并将其与训练过程中的动态关联起来。研究表明，训练好的 ConvNets 面向规则超平面配置出现了显著的统计偏差。此外，我们发现对于在 CIFAR10、CIFAR100 和 ImageNet 上进行训练的结构，偏置层的配置对于验证性能至关重要。",
+    "tldr": "本文通过研究训练好的 ConvNets 的超平面配置，发现其存在统计性偏差，而且这种偏差与验证性能息息相关。",
+    "en_tdlr": "This paper investigates the geometrical properties of trained ConvNets' functions in the preactivation space of their convolutional layers, and finds a statistical bias towards regular hyperplane configurations, which are critical to validation performance for the architectures considered, trained on CIFAR10, CIFAR100, and ImageNet."
+}

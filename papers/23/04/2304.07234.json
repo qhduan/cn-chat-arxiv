@@ -1,0 +1,12 @@
+{
+    "title": "Sparsity in neural networks can increase their privacy. (arXiv:2304.07234v1 [cs.CR])",
+    "abstract": "This article measures how sparsity can make neural networks more robust to membership inference attacks. The obtained empirical results show that sparsity improves the privacy of the network, while preserving comparable performances on the task at hand. This empirical study completes and extends existing literature.",
+    "link": "http://arxiv.org/abs/2304.07234",
+    "context": "Title: Sparsity in neural networks can increase their privacy. (arXiv:2304.07234v1 [cs.CR])\nAbstract: This article measures how sparsity can make neural networks more robust to membership inference attacks. The obtained empirical results show that sparsity improves the privacy of the network, while preserving comparable performances on the task at hand. This empirical study completes and extends existing literature.",
+    "path": "papers/23/04/2304.07234.json",
+    "total_tokens": 470,
+    "translated_title": "稀疏性可提高神经网络的隐私性",
+    "translated_abstract": "本文研究了稀疏性如何使神经网络对成员推断攻击更加鲁棒。实证结果表明，稀疏性能够提高网络的隐私性，同时保持相应任务的性能表现。这项实证研究完善了并扩展了现有文献的内容。",
+    "tldr": "神经网络的稀疏性能提高隐私性并保持性能表现",
+    "en_tdlr": "Sparsity in neural networks can improve privacy and maintain performance."
+}

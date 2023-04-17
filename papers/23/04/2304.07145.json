@@ -1,0 +1,12 @@
+{
+    "title": "EvalRS 2023. Well-Rounded Recommender Systems For Real-World Deployments. (arXiv:2304.07145v1 [cs.IR])",
+    "abstract": "EvalRS aims to bring together practitioners from industry and academia to foster a debate on rounded evaluation of recommender systems, with a focus on real-world impact across a multitude of deployment scenarios. Recommender systems are often evaluated only through accuracy metrics, which fall short of fully characterizing their generalization capabilities and miss important aspects, such as fairness, bias, usefulness, informativeness. This workshop builds on the success of last year's workshop at CIKM, but with a broader scope and an interactive format.",
+    "link": "http://arxiv.org/abs/2304.07145",
+    "context": "Title: EvalRS 2023. Well-Rounded Recommender Systems For Real-World Deployments. (arXiv:2304.07145v1 [cs.IR])\nAbstract: EvalRS aims to bring together practitioners from industry and academia to foster a debate on rounded evaluation of recommender systems, with a focus on real-world impact across a multitude of deployment scenarios. Recommender systems are often evaluated only through accuracy metrics, which fall short of fully characterizing their generalization capabilities and miss important aspects, such as fairness, bias, usefulness, informativeness. This workshop builds on the success of last year's workshop at CIKM, but with a broader scope and an interactive format.",
+    "path": "papers/23/04/2304.07145.json",
+    "total_tokens": 772,
+    "translated_title": "EvalRS 2023. 面向实际应用的全面推荐系统评估",
+    "translated_abstract": "EvalRS旨在汇聚产业和学术界的从业者，促进对推荐系统的全面评估的讨论，并重点关注在各种部署场景下的实际影响。推荐系统通常只通过准确性指标进行评估，这些指标无法完全描述其泛化能力并忽视了重要的方面，如公平性、偏见、有用性、信息量等。本次研讨会在CIKM去年研讨会的成功基础上进一步扩大范围，并采取互动形式。",
+    "tldr": "EvalRS 2023旨在探讨推荐系统的全面评估，关注其在现实场景下的实际影响。过去只有准确度的测量方法可能无法全面评估其性能，公平性、偏见、有用性和信息量等方面也应该被关注。本次研讨会是去年CIKM研讨会的继承和发展，带有实际操作性和互动性。",
+    "en_tdlr": "EvalRS 2023 aims to discuss the comprehensive evaluation of recommender systems and focus on their practical impact in real-world scenarios. Accuracy metrics alone may fall short in fully assessing performance, and aspects such as fairness, bias, usefulness, and informativeness should also be considered. This workshop builds on the success of last year's CIKM workshop and features interactivity and practical applications."
+}

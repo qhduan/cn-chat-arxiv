@@ -1,0 +1,11 @@
+{
+    "title": "Semi-Equivariant Conditional Normalizing Flows. (arXiv:2304.06779v1 [cs.LG])",
+    "abstract": "We study the problem of learning conditional distributions of the form $p(G | \\hat G)$, where $G$ and $\\hat G$ are two 3D graphs, using continuous normalizing flows. We derive a semi-equivariance condition on the flow which ensures that conditional invariance to rigid motions holds. We demonstrate the effectiveness of the technique in the molecular setting of receptor-aware ligand generation.",
+    "link": "http://arxiv.org/abs/2304.06779",
+    "context": "Title: Semi-Equivariant Conditional Normalizing Flows. (arXiv:2304.06779v1 [cs.LG])\nAbstract: We study the problem of learning conditional distributions of the form $p(G | \\hat G)$, where $G$ and $\\hat G$ are two 3D graphs, using continuous normalizing flows. We derive a semi-equivariance condition on the flow which ensures that conditional invariance to rigid motions holds. We demonstrate the effectiveness of the technique in the molecular setting of receptor-aware ligand generation.",
+    "path": "papers/23/04/2304.06779.json",
+    "total_tokens": 544,
+    "translated_title": "半等变条件正则化流",
+    "translated_abstract": "本文研究了使用连续正则化流学习形如 $p(G | \\hat G)$ 的条件分布的问题，其中 $G$ 和 $\\hat G$ 是两个三维图形。我们导出了流的半等变条件，确保对刚性运动的条件不变性保持。我们在感受受体感知配体生成的分子环境中展示了这种技术的有效性。",
+    "tldr": "本文介绍了一种能够保持刚性运动条件不变性的连续正则化流，并在分子环境中展示了其有效性。"
+}

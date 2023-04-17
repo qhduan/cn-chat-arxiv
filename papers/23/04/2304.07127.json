@@ -1,0 +1,11 @@
+{
+    "title": "OPI at SemEval 2023 Task 1: Image-Text Embeddings and Multimodal Information Retrieval for Visual Word Sense Disambiguation. (arXiv:2304.07127v1 [cs.CL])",
+    "abstract": "The goal of visual word sense disambiguation is to find the image that best matches the provided description of the word's meaning. It is a challenging problem, requiring approaches that combine language and image understanding. In this paper, we present our submission to SemEval 2023 visual word sense disambiguation shared task. The proposed system integrates multimodal embeddings, learning to rank methods, and knowledge-based approaches. We build a classifier based on the CLIP model, whose results are enriched with additional information retrieved from Wikipedia and lexical databases. Our solution was ranked third in the multilingual task and won in the Persian track, one of the three language subtasks.",
+    "link": "http://arxiv.org/abs/2304.07127",
+    "context": "Title: OPI at SemEval 2023 Task 1: Image-Text Embeddings and Multimodal Information Retrieval for Visual Word Sense Disambiguation. (arXiv:2304.07127v1 [cs.CL])\nAbstract: The goal of visual word sense disambiguation is to find the image that best matches the provided description of the word's meaning. It is a challenging problem, requiring approaches that combine language and image understanding. In this paper, we present our submission to SemEval 2023 visual word sense disambiguation shared task. The proposed system integrates multimodal embeddings, learning to rank methods, and knowledge-based approaches. We build a classifier based on the CLIP model, whose results are enriched with additional information retrieved from Wikipedia and lexical databases. Our solution was ranked third in the multilingual task and won in the Persian track, one of the three language subtasks.",
+    "path": "papers/23/04/2304.07127.json",
+    "total_tokens": 813,
+    "translated_title": "SemEval 2023任务1中的OPI：基于图像-文本嵌入和多模态信息检索的视觉词义消岐",
+    "translated_abstract": "视觉词义消岐的目标是找到最符合提供的词义描述的图像，这是一个具有挑战性的问题，需要结合语言和图像理解的方法。本文介绍了我们针对SemEval 2023视觉词义消岐共享任务的提交。所提出的系统集成了多模态嵌入、学习排序方法和基于知识的方法。我们基于CLIP模型构建了一个分类器，其结果使用从维基百科和词汇数据库检索到的附加信息进行增强。我们的解决方案在多语言任务中排名第三，在波斯语跟踪中获胜，是三个语言子任务中的一个。",
+    "tldr": "本文介绍了我们用于SemEval 2023视觉词义消岐共享任务的系统，其中集成了多模态嵌入、学习排序方法和基于知识的方法。我们的解决方案在多语言任务中排名第三，在波斯语跟踪中获胜。"
+}

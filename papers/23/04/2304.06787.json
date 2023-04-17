@@ -1,0 +1,12 @@
+{
+    "title": "A Polynomial Time, Pure Differentially Private Estimator for Binary Product Distributions. (arXiv:2304.06787v1 [cs.DS])",
+    "abstract": "We present the first $\\varepsilon$-differentially private, computationally efficient algorithm that estimates the means of product distributions over $\\{0,1\\}^d$ accurately in total-variation distance, whilst attaining the optimal sample complexity to within polylogarithmic factors. The prior work had either solved this problem efficiently and optimally under weaker notions of privacy, or had solved it optimally while having exponential running times.",
+    "link": "http://arxiv.org/abs/2304.06787",
+    "context": "Title: A Polynomial Time, Pure Differentially Private Estimator for Binary Product Distributions. (arXiv:2304.06787v1 [cs.DS])\nAbstract: We present the first $\\varepsilon$-differentially private, computationally efficient algorithm that estimates the means of product distributions over $\\{0,1\\}^d$ accurately in total-variation distance, whilst attaining the optimal sample complexity to within polylogarithmic factors. The prior work had either solved this problem efficiently and optimally under weaker notions of privacy, or had solved it optimally while having exponential running times.",
+    "path": "papers/23/04/2304.06787.json",
+    "total_tokens": 630,
+    "translated_title": "二元积分布的多项式时间和纯差分隐私估计器",
+    "translated_abstract": "我们提出了第一个ε-差分隐私、计算有效的算法，可以在总变化距离下准确地估计$\\{0,1\\}^d$上的乘积分布的均值，同时在多项式对数因子内获得了最优的样本复杂度。之前的工作要么在更弱的隐私概念下有效地解决了这个问题，要么在指数级运行时间内最优地解决了这个问题。",
+    "tldr": "本论文提出了第一个多项式时间、纯差分隐私估计器，可以在$\\{0,1\\}^d$上准确估计二元积分布的均值，达到了最优的样本复杂度。",
+    "en_tdlr": "This paper proposes the first polynomial time and pure differentially private estimator, accurately estimating the means of binary product distributions on $\\{0,1\\}^d$ and achieving optimal sample complexity."
+}

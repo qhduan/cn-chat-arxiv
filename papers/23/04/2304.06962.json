@@ -1,0 +1,12 @@
+{
+    "title": "Prompt Engineering and Calibration for Zero-Shot Commonsense Reasoning. (arXiv:2304.06962v1 [cs.CL])",
+    "abstract": "Prompt engineering and calibration make large language models excel at reasoning tasks, including multiple choice commonsense reasoning. From a practical perspective, we investigate and evaluate these strategies on smaller language models. Through experiments on five commonsense reasoning benchmarks, we find that each strategy favors certain models, but their joint effects are mostly negative.",
+    "link": "http://arxiv.org/abs/2304.06962",
+    "context": "Title: Prompt Engineering and Calibration for Zero-Shot Commonsense Reasoning. (arXiv:2304.06962v1 [cs.CL])\nAbstract: Prompt engineering and calibration make large language models excel at reasoning tasks, including multiple choice commonsense reasoning. From a practical perspective, we investigate and evaluate these strategies on smaller language models. Through experiments on five commonsense reasoning benchmarks, we find that each strategy favors certain models, but their joint effects are mostly negative.",
+    "path": "papers/23/04/2304.06962.json",
+    "total_tokens": 589,
+    "translated_title": "用于零样本常识推理的提示工程和校准",
+    "translated_abstract": "提示工程和校准使得大型语言模型在推理任务，包括多项选择常识推理中表现出色。从实际角度出发，我们在较小的语言模型上研究并评估了这些策略。通过对五个常识推理基准的实验，我们发现每种策略都倾向于某些模型，但它们的联合效果大多为负。",
+    "tldr": "本文研究并评估提示工程和校准策略对于小型语言模型在五个常识推理基准上的表现，发现每种策略倾向于某些模型，但联合效果为负。",
+    "en_tdlr": "This paper investigates and evaluates the effects of prompt engineering and calibration strategies on smaller language models in five commonsense reasoning benchmarks, and finds that each strategy favors certain models, but their joint effects are mostly negative."
+}

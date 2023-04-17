@@ -1,0 +1,12 @@
+{
+    "title": "Convex Dual Theory Analysis of Two-Layer Convolutional Neural Networks with Soft-Thresholding. (arXiv:2304.06959v1 [cs.LG])",
+    "abstract": "Soft-thresholding has been widely used in neural networks. Its basic network structure is a two-layer convolution neural network with soft-thresholding. Due to the network's nature of nonlinearity and nonconvexity, the training process heavily depends on an appropriate initialization of network parameters, resulting in the difficulty of obtaining a globally optimal solution. To address this issue, a convex dual network is designed here. We theoretically analyze the network convexity and numerically confirm that the strong duality holds. This conclusion is further verified in the linear fitting and denoising experiments. This work provides a new way to convexify soft-thresholding neural networks.",
+    "link": "http://arxiv.org/abs/2304.06959",
+    "context": "Title: Convex Dual Theory Analysis of Two-Layer Convolutional Neural Networks with Soft-Thresholding. (arXiv:2304.06959v1 [cs.LG])\nAbstract: Soft-thresholding has been widely used in neural networks. Its basic network structure is a two-layer convolution neural network with soft-thresholding. Due to the network's nature of nonlinearity and nonconvexity, the training process heavily depends on an appropriate initialization of network parameters, resulting in the difficulty of obtaining a globally optimal solution. To address this issue, a convex dual network is designed here. We theoretically analyze the network convexity and numerically confirm that the strong duality holds. This conclusion is further verified in the linear fitting and denoising experiments. This work provides a new way to convexify soft-thresholding neural networks.",
+    "path": "papers/23/04/2304.06959.json",
+    "total_tokens": 716,
+    "translated_title": "使用软阈值的双层卷积神经网络的凸对偶理论分析",
+    "translated_abstract": "软阈值被广泛用于神经网络中，其基本网络结构为具有软阈值的双层卷积神经网络。由于网络的非线性和非凸性，训练过程严重依赖于网络参数的适当初始化，导致难以获得全局最优解。为了解决这个问题，本文设计了一个凸对偶网络。我们从理论上分析了网络的凸性，并在数值上证明了强对偶性。这个结论在线性拟合和去噪实验中得到了进一步验证。本文提供了一种凸化软阈值神经网络的新方法。",
+    "tldr": "本文通过设计一个凸对偶网络，从理论上分析了双层卷积神经网络中使用软阈值的凸性，并在实验中进行了验证。",
+    "en_tdlr": "This paper provides a new method to make soft-thresholding neural networks convex by designing a convex dual network and analyzing its convexity theoretically. The conclusion is further verified in linear fitting and denoising experiments."
+}

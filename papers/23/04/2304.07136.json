@@ -1,0 +1,11 @@
+{
+    "title": "One Explanation Does Not Fit XIL. (arXiv:2304.07136v1 [cs.LG])",
+    "abstract": "Current machine learning models produce outstanding results in many areas but, at the same time, suffer from shortcut learning and spurious correlations. To address such flaws, the explanatory interactive machine learning (XIL) framework has been proposed to revise a model by employing user feedback on a model's explanation. This work sheds light on the explanations used within this framework. In particular, we investigate simultaneous model revision through multiple explanation methods. To this end, we identified that \\textit{one explanation does not fit XIL} and propose considering multiple ones when revising models via XIL.",
+    "link": "http://arxiv.org/abs/2304.07136",
+    "context": "Title: One Explanation Does Not Fit XIL. (arXiv:2304.07136v1 [cs.LG])\nAbstract: Current machine learning models produce outstanding results in many areas but, at the same time, suffer from shortcut learning and spurious correlations. To address such flaws, the explanatory interactive machine learning (XIL) framework has been proposed to revise a model by employing user feedback on a model's explanation. This work sheds light on the explanations used within this framework. In particular, we investigate simultaneous model revision through multiple explanation methods. To this end, we identified that \\textit{one explanation does not fit XIL} and propose considering multiple ones when revising models via XIL.",
+    "path": "papers/23/04/2304.07136.json",
+    "total_tokens": 679,
+    "translated_title": "一种解释不能适用于XIL",
+    "translated_abstract": "当前的机器学习模型在许多领域产生出色的结果，但同时也存在着快捷学习和错误相关的缺陷。为了解决这些缺陷，提出了解释性交互式机器学习（XIL）框架，通过使用用户对模型解释的反馈来修正模型。本文重点探讨了该框架中使用的解释。特别地，我们研究了通过多个解释方法进行同时模型修正，从而发现\"一种解释不能适用于XIL\" ，并建议在通过XIL进行模型修正时考虑多种解释。",
+    "tldr": "提出了一种解释性交互式机器学习框架（XIL）来修正模型，但同时发现\"一种解释不能适用于XIL\"，建议考虑多种解释。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Making SGD Parameter-Free. (arXiv:2205.02160v2 [math.OC] UPDATED)",
+    "abstract": "We develop an algorithm for parameter-free stochastic convex optimization (SCO) whose rate of convergence is only a double-logarithmic factor larger than the optimal rate for the corresponding known-parameter setting. In contrast, the best previously known rates for parameter-free SCO are based on online parameter-free regret bounds, which contain unavoidable excess logarithmic terms compared to their known-parameter counterparts. Our algorithm is conceptually simple, has high-probability guarantees, and is also partially adaptive to unknown gradient norms, smoothness, and strong convexity. At the heart of our results is a novel parameter-free certificate for SGD step size choice, and a time-uniform concentration result that assumes no a-priori bounds on SGD iterates.",
+    "link": "http://arxiv.org/abs/2205.02160",
+    "context": "Title: Making SGD Parameter-Free. (arXiv:2205.02160v2 [math.OC] UPDATED)\nAbstract: We develop an algorithm for parameter-free stochastic convex optimization (SCO) whose rate of convergence is only a double-logarithmic factor larger than the optimal rate for the corresponding known-parameter setting. In contrast, the best previously known rates for parameter-free SCO are based on online parameter-free regret bounds, which contain unavoidable excess logarithmic terms compared to their known-parameter counterparts. Our algorithm is conceptually simple, has high-probability guarantees, and is also partially adaptive to unknown gradient norms, smoothness, and strong convexity. At the heart of our results is a novel parameter-free certificate for SGD step size choice, and a time-uniform concentration result that assumes no a-priori bounds on SGD iterates.",
+    "path": "papers/22/05/2205.02160.json",
+    "total_tokens": 741,
+    "translated_title": "使随机梯度下降法无参数化",
+    "translated_abstract": "我们开发了一种无参数随机凸优化（SCO）算法，其收敛速度仅比对应的已知参数设置的最优速度多一个双对数因子。相比之下，先前已知的无参数SCO的最佳速度是基于在线无参数后悔界的，与已知参数的对应方法相比包含不可避免的额外对数项。我们的算法具有概念上的简单性，具有高概率保证，并且部分适应未知梯度范数、平滑性和强凸性。我们的成果的核心是SGD步长选择的新型无参数证书，以及假设在SGD迭代上没有先验界限的时间一致集中结果。",
+    "tldr": "该论文提出了一种无参数化的随机梯度下降法，能够在一定程度上适应未知梯度范数、平滑性和强凸性，并在收敛速度方面具有高概率保证。",
+    "en_tdlr": "This paper proposes a parameter-free stochastic gradient descent algorithm that partially adapts to unknown gradient norms, smoothness, and strong convexity, and has high-probability guarantees in terms of convergence speed."
+}

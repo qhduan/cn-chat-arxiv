@@ -1,0 +1,12 @@
+{
+    "title": "EXIF as Language: Learning Cross-Modal Associations Between Images and Camera Metadata. (arXiv:2301.04647v2 [cs.CV] UPDATED)",
+    "abstract": "We learn a visual representation that captures information about the camera that recorded a given photo. To do this, we train a multimodal embedding between image patches and the EXIF metadata that cameras automatically insert into image files. Our model represents this metadata by simply converting it to text and then processing it with a transformer. The features that we learn significantly outperform other self-supervised and supervised features on downstream image forensics and calibration tasks. In particular, we successfully localize spliced image regions \"zero shot\" by clustering the visual embeddings for all of the patches within an image.",
+    "link": "http://arxiv.org/abs/2301.04647",
+    "context": "Title: EXIF as Language: Learning Cross-Modal Associations Between Images and Camera Metadata. (arXiv:2301.04647v2 [cs.CV] UPDATED)\nAbstract: We learn a visual representation that captures information about the camera that recorded a given photo. To do this, we train a multimodal embedding between image patches and the EXIF metadata that cameras automatically insert into image files. Our model represents this metadata by simply converting it to text and then processing it with a transformer. The features that we learn significantly outperform other self-supervised and supervised features on downstream image forensics and calibration tasks. In particular, we successfully localize spliced image regions \"zero shot\" by clustering the visual embeddings for all of the patches within an image.",
+    "path": "papers/23/01/2301.04647.json",
+    "total_tokens": 694,
+    "translated_title": "EXIF作为一种语言：学习图像与相机元数据之间的交叉模态关联",
+    "translated_abstract": "本文旨在学习一个视觉表示，从而提取与所记录的照片相关的相机信息。为此，我们在图像块和自动插入到图像文件中的EXIF元数据之间训练了一个多模态嵌入。我们的模型通过将元数据转换为文本，然后使用transformer进行处理来表示此元数据。我们学习的特征在下游图像取证和校准任务上明显优于其他自监督和有监督特征。特别地，我们成功地通过对图像内所有块的视觉嵌入进行聚类来实现\"零样本\"的拼接图像区域定位。",
+    "tldr": "本文通过学习图像和相机元数据之间的交叉模态关联提取相机信息，并使用得到的特征成功实现拼接图像区域的\"零样本\"定位。",
+    "en_tdlr": "This paper learns cross-modal associations between images and camera metadata to extract camera information, and uses the learned features to successfully perform \"zero shot\" localization of spliced image regions."
+}

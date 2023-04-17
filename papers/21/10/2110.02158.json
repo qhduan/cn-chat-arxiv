@@ -1,0 +1,12 @@
+{
+    "title": "Exploring usability of Reddit in data science and knowledge processing. (arXiv:2110.02158v3 [cs.IR] UPDATED)",
+    "abstract": "This contribution argues that Reddit, as a massive, categorized, open-access dataset, is a useful data source, for \"almost any topic\". Hence, it can be used in data science, e.g. for knowledge exploration. This statement is backed-up with presented analysis, based on 180 manually annotated papers, related to Reddit itself, and data acquired from popular databases of scientific papers. Finally, an open source tool is introduced, which provides an easy access to Reddit resources, and an exploratory data analysis of how Reddit covers selected topics. These functions can be used as a prelude analysis to a broader exploration of Reddit's applicability.",
+    "link": "http://arxiv.org/abs/2110.02158",
+    "context": "Title: Exploring usability of Reddit in data science and knowledge processing. (arXiv:2110.02158v3 [cs.IR] UPDATED)\nAbstract: This contribution argues that Reddit, as a massive, categorized, open-access dataset, is a useful data source, for \"almost any topic\". Hence, it can be used in data science, e.g. for knowledge exploration. This statement is backed-up with presented analysis, based on 180 manually annotated papers, related to Reddit itself, and data acquired from popular databases of scientific papers. Finally, an open source tool is introduced, which provides an easy access to Reddit resources, and an exploratory data analysis of how Reddit covers selected topics. These functions can be used as a prelude analysis to a broader exploration of Reddit's applicability.",
+    "path": "papers/21/10/2110.02158.json",
+    "total_tokens": 764,
+    "translated_title": "探索 Reddit 在数据科学和知识处理中的可用性",
+    "translated_abstract": "本文认为作为一个庞大、分类、开放获取的数据集，Reddit是一个有用的数据来源，几乎可以涵盖“任何主题”。因此，Reddit可以用于数据科学，比如用于知识探索。这个观点是基于180篇手动注释的Reddit相关论文和从科学论文的流行数据库中获得的数据进行分析得出的。最后，介绍了一个开源工具，提供了对Reddit资源的易于访问性，并对Reddit如何涵盖选定主题进行了探索性数据分析。这些功能可以作为更广泛探索Reddit适用性的前奏分析。",
+    "tldr": "本文认为Reddit是一个庞大、分类、开放获取的数据集，几乎可以涵盖“任何主题”，适用于数据科学和知识探索。作者提出了一个开源工具，可提供Reddit资源的易于访问性和对Reddit如何涵盖选定主题进行探索性数据分析。",
+    "en_tdlr": "This paper argues that Reddit, as a massive, categorized, open-access dataset, is a useful data source for almost any topic, and can be used in data science and knowledge exploration. The authors present an analysis backed up by 180 manually annotated papers and introduce an open source tool for easy access to Reddit resources and exploratory data analysis of how Reddit covers selected topics."
+}

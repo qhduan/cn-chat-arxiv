@@ -1,0 +1,12 @@
+{
+    "title": "OPI at SemEval 2023 Task 9: A Simple But Effective Approach to Multilingual Tweet Intimacy Analysis. (arXiv:2304.07130v1 [cs.CL])",
+    "abstract": "This paper describes our submission to the SemEval 2023 multilingual tweet intimacy analysis shared task. The goal of the task was to assess the level of intimacy of Twitter posts in ten languages. The proposed approach consists of several steps. First, we perform in-domain pre-training to create a language model adapted to Twitter data. In the next step, we train an ensemble of regression models to expand the training set with pseudo-labeled examples. The extended dataset is used to train the final solution. Our method was ranked first in five out of ten language subtasks, obtaining the highest average score across all languages.",
+    "link": "http://arxiv.org/abs/2304.07130",
+    "context": "Title: OPI at SemEval 2023 Task 9: A Simple But Effective Approach to Multilingual Tweet Intimacy Analysis. (arXiv:2304.07130v1 [cs.CL])\nAbstract: This paper describes our submission to the SemEval 2023 multilingual tweet intimacy analysis shared task. The goal of the task was to assess the level of intimacy of Twitter posts in ten languages. The proposed approach consists of several steps. First, we perform in-domain pre-training to create a language model adapted to Twitter data. In the next step, we train an ensemble of regression models to expand the training set with pseudo-labeled examples. The extended dataset is used to train the final solution. Our method was ranked first in five out of ten language subtasks, obtaining the highest average score across all languages.",
+    "path": "papers/23/04/2304.07130.json",
+    "total_tokens": 772,
+    "translated_title": "SemEval 2023任务9中针对多语言推文亲密度分析的简洁高效方法",
+    "translated_abstract": "本文讨论了我们针对SemEval 2023多语言推文亲密度分析任务的提交。任务旨在评估10种语言中Twitter帖子的亲密程度。我们提出的方法包括几个步骤。首先，我们进行领域内预训练，创建适应Twitter数据的语言模型。接下来，我们使用伪标记的示例扩展训练集，训练回归模型集合。扩展的数据集用于训练最终的解决方案。我们的方法在10种语言子任务中排名前五，并获得所有语言中最高的平均得分。",
+    "tldr": "本文提出了针对SemEval 2023任务9的高效方法，用于多语言推文亲密度分析。该方法利用领域内预训练和伪标记示例扩展训练集，以训练回归模型集合，最终在十种语言中排名前五。",
+    "en_tdlr": "This paper proposes a simple and effective method for multilingual tweet intimacy analysis in SemEval 2023 Task 9, which utilizes in-domain pre-training and pseudo-labeled examples to expand the training set for ensemble regression models. The method achieves the highest average score across all languages and ranks first in five out of ten language subtasks."
+}

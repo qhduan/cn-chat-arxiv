@@ -1,0 +1,12 @@
+{
+    "title": "A Natural Copula. (arXiv:2304.06859v1 [q-fin.RM])",
+    "abstract": "Copulas are widely used in financial economics as well as in other areas of applied mathematics. Yet, there is much arbitrariness in their choice. The author proposes \"a natural copula\" concept, which minimizes Wasserstein distance between distributions in some space, in which both these distributions are embedded. Transport properties and hydrodynamic interpretation are discussed with two examples of distributions of financial significance. A natural copula can be parsimoniously estimated by the methods of linear programming.",
+    "link": "http://arxiv.org/abs/2304.06859",
+    "context": "Title: A Natural Copula. (arXiv:2304.06859v1 [q-fin.RM])\nAbstract: Copulas are widely used in financial economics as well as in other areas of applied mathematics. Yet, there is much arbitrariness in their choice. The author proposes \"a natural copula\" concept, which minimizes Wasserstein distance between distributions in some space, in which both these distributions are embedded. Transport properties and hydrodynamic interpretation are discussed with two examples of distributions of financial significance. A natural copula can be parsimoniously estimated by the methods of linear programming.",
+    "path": "papers/23/04/2304.06859.json",
+    "total_tokens": 638,
+    "translated_title": "一种自然的联合函数",
+    "translated_abstract": "联合函数在金融经济学以及其他应用数学领域广泛使用，但选择联合函数时存在很大的武断性。本文提出了“自然联合函数”的概念，该函数将两个分布嵌入到某个空间中，使它们之间的Wasserstein距离最小化。文中对它的输运性质和流体力学解释进行了探讨，并给出了两个具有金融意义的分布实例。自然联合函数可以通过线性规划方法进行简明估计。",
+    "tldr": "本文提出了一种新的“自然联合函数”的概念，可通过线性规划方法进行简单估计，在金融经济学中具有应用潜力。",
+    "en_tdlr": "This paper proposes a new concept of \"natural copula\" which can be parsimoniously estimated by linear programming methods and has potential applications in financial economics. The natural copula minimizes the Wasserstein distance between distributions in some embedded space. Transport properties and hydrodynamic interpretation are also discussed."
+}

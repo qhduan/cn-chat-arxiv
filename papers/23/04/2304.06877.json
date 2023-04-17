@@ -1,0 +1,12 @@
+{
+    "title": "Why Topological Data Analysis Detects Financial Bubbles?. (arXiv:2304.06877v1 [q-fin.ST])",
+    "abstract": "We present a heuristic argument for the propensity of Topological Data Analysis (TDA) to detect early warning signals of critical transitions in financial time series. Our argument is based on the Log-Periodic Power Law Singularity (LPPLS) model, which characterizes financial bubbles as super-exponential growth (or decay) of an asset price superimposed with oscillations increasing in frequency and decreasing in amplitude when approaching a critical transition (tipping point). We show that whenever the LPPLS model is fitting with the data, TDA generates early warning signals. As an application, we illustrate this approach on a sample of positive and negative bubbles in the Bitcoin historical price.",
+    "link": "http://arxiv.org/abs/2304.06877",
+    "context": "Title: Why Topological Data Analysis Detects Financial Bubbles?. (arXiv:2304.06877v1 [q-fin.ST])\nAbstract: We present a heuristic argument for the propensity of Topological Data Analysis (TDA) to detect early warning signals of critical transitions in financial time series. Our argument is based on the Log-Periodic Power Law Singularity (LPPLS) model, which characterizes financial bubbles as super-exponential growth (or decay) of an asset price superimposed with oscillations increasing in frequency and decreasing in amplitude when approaching a critical transition (tipping point). We show that whenever the LPPLS model is fitting with the data, TDA generates early warning signals. As an application, we illustrate this approach on a sample of positive and negative bubbles in the Bitcoin historical price.",
+    "path": "papers/23/04/2304.06877.json",
+    "total_tokens": 774,
+    "translated_title": "为什么拓扑数据分析可以检测到金融泡沫？",
+    "translated_abstract": "我们提出了一个启发式论据，用于解释拓扑数据分析（TDA）检测金融时间序列中关键转折的倾向。我们的论据基于Log-Periodic Power Law Singularity（LPPLS）模型，该模型将金融泡沫描述为资产价格的超指数增长（或衰减），并叠加上振荡，当接近临界转折（临界点）时，振荡的频率增加而振幅减小。我们展示了每当LPPLS模型与数据拟合时，TDA会生成早期预警信号。作为应用，我们在比特币历史价格的正负泡沫样本上说明了这种方法。",
+    "tldr": "该论文基于拓扑数据分析和Log-Periodic Power Law Singularity（LPPLS）模型，建议使用拓扑数据分析来检测金融市场中的重要转折。作者在比特币历史价格的正负泡沫样本上进行了应用实证。",
+    "en_tdlr": "This paper proposes to use Topological Data Analysis (TDA) to detect critical transitions in financial markets based on the Log-Periodic Power Law Singularity (LPPLS) model. The authors demonstrate the effectiveness of TDA in detecting bubble-like behaviors in Bitcoin historical prices."
+}

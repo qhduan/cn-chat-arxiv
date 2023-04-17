@@ -1,0 +1,12 @@
+{
+    "title": "Competition in Costly Talk. (arXiv:2103.05317v2 [econ.TH] UPDATED)",
+    "abstract": "This paper studies a communication game between an uninformed decision maker and two perfectly informed senders with conflicting interests. Senders can misreport information at a cost that increases with the size of the misrepresentation. The main results show that equilibria where the decision maker obtains the complete-information payoff hinge on beliefs with undesirable properties. The imposition of a minimal and sensible belief structure is sufficient to generate a robust and essentially unique equilibrium with partial information transmission. A complete characterization of this equilibrium unveils the language senders use to communicate.",
+    "link": "http://arxiv.org/abs/2103.05317",
+    "context": "Title: Competition in Costly Talk. (arXiv:2103.05317v2 [econ.TH] UPDATED)\nAbstract: This paper studies a communication game between an uninformed decision maker and two perfectly informed senders with conflicting interests. Senders can misreport information at a cost that increases with the size of the misrepresentation. The main results show that equilibria where the decision maker obtains the complete-information payoff hinge on beliefs with undesirable properties. The imposition of a minimal and sensible belief structure is sufficient to generate a robust and essentially unique equilibrium with partial information transmission. A complete characterization of this equilibrium unveils the language senders use to communicate.",
+    "path": "papers/21/03/2103.05317.json",
+    "total_tokens": 709,
+    "translated_title": "昂贵对话中的竞争",
+    "translated_abstract": "本文研究了一种沟通博弈，其中一个不知情的决策者与两个完全知情但利益冲突的发送方进行通信。发送方可以用代价报告错误信息，代价随着错误程度的增加而增加。主要结果表明，在决策者获得完全信息回报的均衡情况下，信念通常具有不良特性。强制引入最小和合理的信念结构就足以产生一个健壮而本质上唯一的部分信息传递均衡。对这种均衡的完整表征揭示了发送方用于沟通的语言。",
+    "tldr": "本文研究了一个沟通博弈，发送方可以用一定代价报告错误信息，通过引入最小且合理的信念结构得到了健壮而本质上唯一的部分信息传递均衡，揭示了发送方用于沟通的语言。",
+    "en_tdlr": "This paper studies a communication game in which senders can misreport information at a cost, and finds a robust and essentially unique equilibrium with partial information transmission by introducing a minimal and sensible belief structure, and reveals the language senders use to communicate."
+}

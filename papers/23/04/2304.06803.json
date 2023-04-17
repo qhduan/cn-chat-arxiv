@@ -1,0 +1,12 @@
+{
+    "title": "Sample Average Approximation for Black-Box VI. (arXiv:2304.06803v1 [cs.LG])",
+    "abstract": "We present a novel approach for black-box VI that bypasses the difficulties of stochastic gradient ascent, including the task of selecting step-sizes. Our approach involves using a sequence of sample average approximation (SAA) problems. SAA approximates the solution of stochastic optimization problems by transforming them into deterministic ones. We use quasi-Newton methods and line search to solve each deterministic optimization problem and present a heuristic policy to automate hyperparameter selection. Our experiments show that our method simplifies the VI problem and achieves faster performance than existing methods.",
+    "link": "http://arxiv.org/abs/2304.06803",
+    "context": "Title: Sample Average Approximation for Black-Box VI. (arXiv:2304.06803v1 [cs.LG])\nAbstract: We present a novel approach for black-box VI that bypasses the difficulties of stochastic gradient ascent, including the task of selecting step-sizes. Our approach involves using a sequence of sample average approximation (SAA) problems. SAA approximates the solution of stochastic optimization problems by transforming them into deterministic ones. We use quasi-Newton methods and line search to solve each deterministic optimization problem and present a heuristic policy to automate hyperparameter selection. Our experiments show that our method simplifies the VI problem and achieves faster performance than existing methods.",
+    "path": "papers/23/04/2304.06803.json",
+    "total_tokens": 661,
+    "translated_title": "用于黑盒变分推断的样本平均估计方法",
+    "translated_abstract": "我们提出了一种新的方法，用于解决随机梯度上升的困难，包括选择步长的任务。我们的方法涉及使用一系列样本平均估计问题（SAA）。通过将随机优化问题转化为确定性问题，SAA逼近了随机优化问题的解。我们使用拟牛顿方法和线性搜索来解决每个确定性优化问题，并提出了一种启发式策略来自动选择超参数。我们的实验表明，我们的方法简化了变分推断问题，并实现了比现有方法更快的性能。",
+    "tldr": "该论文提出了一种用于黑盒变分推断的样本平均估计方法，有效地解决了随机梯度上升等问题，实验结果表明其比现有方法更快且性能更佳。",
+    "en_tdlr": "The paper proposes a novel sample average approximation method for black-box VI that effectively solves the difficulties of stochastic gradient ascent and achieves faster performance than existing methods according to experiments."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Near-Optimal Degree Testing for Bayes Nets. (arXiv:2304.06733v1 [cs.LG])",
+    "abstract": "This paper considers the problem of testing the maximum in-degree of the Bayes net underlying an unknown probability distribution $P$ over $\\{0,1\\}^n$, given sample access to $P$. We show that the sample complexity of the problem is $\\tilde{\\Theta}(2^{n/2}/\\varepsilon^2)$. Our algorithm relies on a testing-by-learning framework, previously used to obtain sample-optimal testers; in order to apply this framework, we develop new algorithms for ``near-proper'' learning of Bayes nets, and high-probability learning under $\\chi^2$ divergence, which are of independent interest.",
+    "link": "http://arxiv.org/abs/2304.06733",
+    "context": "Title: Near-Optimal Degree Testing for Bayes Nets. (arXiv:2304.06733v1 [cs.LG])\nAbstract: This paper considers the problem of testing the maximum in-degree of the Bayes net underlying an unknown probability distribution $P$ over $\\{0,1\\}^n$, given sample access to $P$. We show that the sample complexity of the problem is $\\tilde{\\Theta}(2^{n/2}/\\varepsilon^2)$. Our algorithm relies on a testing-by-learning framework, previously used to obtain sample-optimal testers; in order to apply this framework, we develop new algorithms for ``near-proper'' learning of Bayes nets, and high-probability learning under $\\chi^2$ divergence, which are of independent interest.",
+    "path": "papers/23/04/2304.06733.json",
+    "total_tokens": 738,
+    "translated_title": "贝叶斯网络近似最优入度检测",
+    "translated_abstract": "本文考虑在对 $P$ 的样本访问的情况下，检测潜在的贝叶斯网络的最大入度。我们证明问题的样本复杂度为 $\\tilde{\\Theta}(2^{n/2}/\\varepsilon^2)$。我们的算法依赖于测试和学习框架，该框架先前用于获得样本最优测试器。为了应用此框架，我们开发了新的算法，用于具有“近似正确性”的贝叶斯网络学习，并在 $\\chi^2$ 散度下的高概率学习，这些算法都具有独立的意义。",
+    "tldr": "本文提出了一个近似最优入度检测算法，并给出了样本复杂度的上界，同时开发了新的算法进行“近似正确性”的贝叶斯网络学习和在 $\\chi^2$ 散度下的高概率学习。",
+    "en_tdlr": "This paper proposes a near-optimal degree testing algorithm and provides an upper bound on the sample complexity, while also developing new algorithms for \"approximate proper\" learning of Bayes nets and high-probability learning under $\\chi^2$ divergence, which are of independent interest."
+}

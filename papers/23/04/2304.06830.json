@@ -1,0 +1,12 @@
+{
+    "title": "Recursive Preferences and Ambiguity Attitudes. (arXiv:2304.06830v1 [econ.TH])",
+    "abstract": "We illustrate the strong implications of recursivity, a standard assumption in dynamic environments, on attitudes toward uncertainty. In intertemporal consumption choice problems, recursivity always implies constant absolute ambiguity aversion (CAAA) when applying the standard dynamic extension of monotonicity. Our analysis also yields a functional equation called \"generalized rectangularity\", as it generalizes the standard notion of rectangularity for recursive maxmin preferences to general certainty equivalents. Our results highlight that if uncertainty aversion is modeled as a form of convexity of preferences, recursivity limits us to only recursive variational preferences.",
+    "link": "http://arxiv.org/abs/2304.06830",
+    "context": "Title: Recursive Preferences and Ambiguity Attitudes. (arXiv:2304.06830v1 [econ.TH])\nAbstract: We illustrate the strong implications of recursivity, a standard assumption in dynamic environments, on attitudes toward uncertainty. In intertemporal consumption choice problems, recursivity always implies constant absolute ambiguity aversion (CAAA) when applying the standard dynamic extension of monotonicity. Our analysis also yields a functional equation called \"generalized rectangularity\", as it generalizes the standard notion of rectangularity for recursive maxmin preferences to general certainty equivalents. Our results highlight that if uncertainty aversion is modeled as a form of convexity of preferences, recursivity limits us to only recursive variational preferences.",
+    "path": "papers/23/04/2304.06830.json",
+    "total_tokens": 761,
+    "translated_title": "递归偏好与模糊态度",
+    "translated_abstract": "本文研究了动态环境中递归的强影响，以及对不确定性态度的影响。在跨时间消费选择问题中，递归偏好总是意味着常数绝对模糊规避，同时也提出了一种称为“广义长方形”的函数方程，它将递归最小最大偏好的标准概念推广到一般的确定性等价物。研究表明，如果模糊规避被建模为偏好的凸性形式，则递归限制我们只能采用递归变化偏好。",
+    "tldr": "本文研究了递归偏好和不确定性态度，并得出结论，在跨时间消费选择问题中，递归偏好总是常数绝对模糊规避，同时提出了广义长方形的函数方程。递归限制了我们只能采用递归变化偏好。",
+    "en_tdlr": "This paper studies the implications of recursivity, a standard assumption in dynamic environments, on attitudes toward uncertainty. The study finds that in intertemporal consumption choice problems, recursivity always implies constant absolute ambiguity aversion (CAAA) and proposes a functional equation called \"generalized rectangularity\". The results suggest that recursivity limits us to only recursive variational preferences if uncertainty aversion is modeled as a form of convexity of preferences."
+}
