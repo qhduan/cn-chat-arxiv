@@ -1,0 +1,12 @@
+{
+    "title": "Buying Opinions. (arXiv:2202.05249v4 [econ.TH] UPDATED)",
+    "abstract": "A principal hires an agent to acquire soft information about an unknown state. Even though neither how the agent learns nor what the agent discovers are contractible, we show the principal is unconstrained as to what information the agent can be induced to acquire and report honestly. When the agent is risk neutral, and a) is not asked to learn too much, b) can acquire information sufficiently cheaply, or c) can face sufficiently large penalties, the principal can attain the first-best outcome. Risk aversion (on the part of the agent) ensures the first-best is unattainable.",
+    "link": "http://arxiv.org/abs/2202.05249",
+    "context": "Title: Buying Opinions. (arXiv:2202.05249v4 [econ.TH] UPDATED)\nAbstract: A principal hires an agent to acquire soft information about an unknown state. Even though neither how the agent learns nor what the agent discovers are contractible, we show the principal is unconstrained as to what information the agent can be induced to acquire and report honestly. When the agent is risk neutral, and a) is not asked to learn too much, b) can acquire information sufficiently cheaply, or c) can face sufficiently large penalties, the principal can attain the first-best outcome. Risk aversion (on the part of the agent) ensures the first-best is unattainable.",
+    "path": "papers/22/02/2202.05249.json",
+    "total_tokens": 670,
+    "translated_title": "意见购买",
+    "translated_abstract": "一个委托人雇佣一个代理人来获取关于未知状态的软信息。虽然代理人学习的方式和发现的信息都无法在合同中规定，但我们证明了在代理人是风险中性的情况下，只要代理人被诱导获得并诚实报告信息的成本不太高，或者面临足够大的惩罚，那么委托人可以胜任任何信息获取的任务。然而代理人的风险厌恶确保了最佳结果的无法实现。",
+    "tldr": "本文研究了当一个委托人雇佣一个代理人来获取信息时，如何保证代理人可以被诱导获得并诚实报告信息，以实现最优结果，但代理人的风险厌恶可能导致最优结果无法实现。",
+    "en_tdlr": "This paper studies how to ensure that an agent hired by a principal to acquire information can be induced to report honestly, but the agent's risk aversion may prevent the achievement of the optimal outcome."
+}

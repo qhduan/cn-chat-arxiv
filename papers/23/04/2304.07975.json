@@ -1,0 +1,12 @@
+{
+    "title": "Economic Origins of the Sicilian Mafia: A Simulation Feedback Model. (arXiv:2304.07975v1 [econ.GN])",
+    "abstract": "This chapter develops a feedback economic model that explains the rise of the Sicilian mafia in the 19th century. Grounded in economic theory, the model incorporates causal relationships between the mafia activities, predation, law enforcement, and the profitability of local businesses. Using computational experiments with the model, we explore how different factors and feedback effects impact the mafia activity levels. The model explains important historical observations such as the emergence of the mafia in wealthier regions and its absence in the poorer districts despite the greater levels of banditry.",
+    "link": "http://arxiv.org/abs/2304.07975",
+    "context": "Title: Economic Origins of the Sicilian Mafia: A Simulation Feedback Model. (arXiv:2304.07975v1 [econ.GN])\nAbstract: This chapter develops a feedback economic model that explains the rise of the Sicilian mafia in the 19th century. Grounded in economic theory, the model incorporates causal relationships between the mafia activities, predation, law enforcement, and the profitability of local businesses. Using computational experiments with the model, we explore how different factors and feedback effects impact the mafia activity levels. The model explains important historical observations such as the emergence of the mafia in wealthier regions and its absence in the poorer districts despite the greater levels of banditry.",
+    "path": "papers/23/04/2304.07975.json",
+    "total_tokens": 729,
+    "translated_title": "西西里黑手党的经济起源：一个模拟反馈模型",
+    "translated_abstract": "本章节开发了一个反馈经济模型，解释了19世纪西西里黑手党的崛起。该模型以经济理论为基础，将黑手党活动、掠夺、执法和当地企业的盈利能力之间的因果关系纳入考虑。通过使用这个模型进行计算实验，我们探讨了不同因素和反馈效应对黑手党活动水平的影响。该模型解释了一些重要的历史观察，比如黑手党在富裕地区的出现，以及尽管盗匪活动更加猖獗，但它们在贫困地区的缺席。",
+    "tldr": "该模型解释了19世纪西西里黑手党崛起的经济原因，以及为什么在贫困地区黑手党的存在较少，其中富裕地区的企业利润能力是一个重要因素。",
+    "en_tdlr": "The paper develops an economic model that explains the origins of the Sicilian mafia and their higher presence in wealthier regions due to a higher profitability of local businesses. The model also explains the absence of mafia in poorer districts despite higher levels of banditry."
+}

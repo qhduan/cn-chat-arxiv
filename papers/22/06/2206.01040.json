@@ -1,0 +1,12 @@
+{
+    "title": "Spatial frequency of unstable eigenfunction of the core-periphery model with transport cost of differentiated agriculture. (arXiv:2206.01040v3 [econ.TH] UPDATED)",
+    "abstract": "This paper extends the core-periphery model with differentiated agriculture with transport cost to continuously multi-regional space and investigates the stability of homogeneous stationary solution for the model on a periodic space. For eigenfunctions that compose small disturbance around the homogeneous solution, unstable area, defined as the area of parameters where each eigenfunction is unstable, is observed to generally expand in its size as the frequency increases.",
+    "link": "http://arxiv.org/abs/2206.01040",
+    "context": "Title: Spatial frequency of unstable eigenfunction of the core-periphery model with transport cost of differentiated agriculture. (arXiv:2206.01040v3 [econ.TH] UPDATED)\nAbstract: This paper extends the core-periphery model with differentiated agriculture with transport cost to continuously multi-regional space and investigates the stability of homogeneous stationary solution for the model on a periodic space. For eigenfunctions that compose small disturbance around the homogeneous solution, unstable area, defined as the area of parameters where each eigenfunction is unstable, is observed to generally expand in its size as the frequency increases.",
+    "path": "papers/22/06/2206.01040.json",
+    "total_tokens": 621,
+    "translated_title": "具有差异化农业运输成本的核心-边缘模型的不稳定特征函数的空间频率分析",
+    "translated_abstract": "本文将具有不同运输成本的差异化农业的核心-边缘模型扩展到连续的多区域空间，并研究了模型在周期性空间上的均匀稳定解的稳定性。对于构成均匀解小扰动的特征函数，观察到不稳定区域随着频率的增加增大。",
+    "tldr": "本文研究了具有不同运输成本的差异化农业的核心-边缘模型的不稳定特征函数的空间频率分析，结果发现随着频率的增加不稳定区域的大小也增加。",
+    "en_tdlr": "This paper explores the spatial frequency analysis of unstable eigenfunctions of the core-periphery model with transport cost of differentiated agriculture, and finds that the area of instability generally increases as the frequency increases."
+}

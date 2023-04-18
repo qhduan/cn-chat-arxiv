@@ -1,0 +1,12 @@
+{
+    "title": "Penalized Likelihood Inference with Survey Data. (arXiv:2304.07855v1 [econ.EM])",
+    "abstract": "This paper extends three Lasso inferential methods, Debiased Lasso, $C(\\alpha)$ and Selective Inference to a survey environment. We establish the asymptotic validity of the inference procedures in generalized linear models with survey weights and/or heteroskedasticity. Moreover, we generalize the methods to inference on nonlinear parameter functions e.g. the average marginal effect in survey logit models. We illustrate the effectiveness of the approach in simulated data and Canadian Internet Use Survey 2020 data.",
+    "link": "http://arxiv.org/abs/2304.07855",
+    "context": "Title: Penalized Likelihood Inference with Survey Data. (arXiv:2304.07855v1 [econ.EM])\nAbstract: This paper extends three Lasso inferential methods, Debiased Lasso, $C(\\alpha)$ and Selective Inference to a survey environment. We establish the asymptotic validity of the inference procedures in generalized linear models with survey weights and/or heteroskedasticity. Moreover, we generalize the methods to inference on nonlinear parameter functions e.g. the average marginal effect in survey logit models. We illustrate the effectiveness of the approach in simulated data and Canadian Internet Use Survey 2020 data.",
+    "path": "papers/23/04/2304.07855.json",
+    "total_tokens": 679,
+    "translated_title": "调查数据的惩罚似然推断方法",
+    "translated_abstract": "本文将三种Lasso推断方法，Debiased Lasso、$C(\\alpha)$和Selective Inference推广到调查数据的环境中。我们证明了在具有调查权重和/或异方差的广义线性模型中推断程序的渐近有效性。此外，我们将这些方法推广到对非线性参数函数进行推断，例如在调查logit模型中的平均边际效应。我们通过模拟数据和加拿大2020年互联网使用调查数据来说明该方法的有效性。",
+    "tldr": "本文将三种Lasso推断方法应用于调查数据的推断，证明在具有调查权重和/或异方差的广义线性模型中的推断程序渐近有效性， 并将这些方法推广到对非线性参数函数进行推断，例如在调查logit模型中的平均边际效应",
+    "en_tdlr": "This paper applies three Lasso inferential methods to survey data and establishes their asymptotic validity in generalized linear models with survey weights and/or heteroskedasticity. It also generalizes the methods to inference on nonlinear parameter functions and illustrates their effectiveness in simulated data and Canadian Internet Use Survey 2020 data."
+}

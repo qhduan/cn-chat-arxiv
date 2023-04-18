@@ -1,0 +1,12 @@
+{
+    "title": "Airborne-Sound Analysis for the Detection of Bearing Faults in Railway Vehicles with Real-World Data. (arXiv:2304.07307v1 [eess.AS])",
+    "abstract": "In this paper, we address the challenging problem of detecting bearing faults in railway vehicles by analyzing acoustic signals recorded during regular operation. For this, we introduce Mel Frequency Cepstral Coefficients (MFCCs) as features, which form the input to a simple Multi-Layer Perceptron classifier. The proposed method is evaluated with real-world data that was obtained for state-of-the-art commuter railway vehicles in a measurement campaign. The experiments show that with the chosen MFCC features bearing faults can be reliably detected even for bearing damages that were not included in training.",
+    "link": "http://arxiv.org/abs/2304.07307",
+    "context": "Title: Airborne-Sound Analysis for the Detection of Bearing Faults in Railway Vehicles with Real-World Data. (arXiv:2304.07307v1 [eess.AS])\nAbstract: In this paper, we address the challenging problem of detecting bearing faults in railway vehicles by analyzing acoustic signals recorded during regular operation. For this, we introduce Mel Frequency Cepstral Coefficients (MFCCs) as features, which form the input to a simple Multi-Layer Perceptron classifier. The proposed method is evaluated with real-world data that was obtained for state-of-the-art commuter railway vehicles in a measurement campaign. The experiments show that with the chosen MFCC features bearing faults can be reliably detected even for bearing damages that were not included in training.",
+    "path": "papers/23/04/2304.07307.json",
+    "total_tokens": 755,
+    "translated_title": "基于实际数据的铁路车辆轴承故障的声学分析检测",
+    "translated_abstract": "本文针对在车辆正常运行期间记录的声学信号分析，探讨了铁路车辆轴承故障检测这一具有挑战性的问题。为此，我们引入了Mel频率倒谱系数(MFCC)作为特征，并作为输入提供给一个简单的多层感知器分类器。所提出的方法是在针对现代通勤铁路车辆进行测量活动中获得的实际数据评估的。实验表明，使用所选择的MFCC特征可以可靠地检测轴承故障，即使出现在训练中未包括的轴承损伤。",
+    "tldr": "本文介绍了一种基于实际数据进行铁路车辆轴承故障检测的声学分析方法，使用Mel频率倒谱系数(MFCC)作为特征，实验表明该方法可以可靠地检测轴承故障。",
+    "en_tdlr": "This paper proposes an acoustic analysis method for detecting bearing faults in railway vehicles using real-world data, with Mel Frequency Cepstral Coefficients (MFCCs) as features. The experiments demonstrate that this method can reliably detect bearing faults even for damages not included in training."
+}

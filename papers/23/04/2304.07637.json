@@ -1,0 +1,12 @@
+{
+    "title": "TransDocs: Optical Character Recognition with word to word translation. (arXiv:2304.07637v1 [cs.CV])",
+    "abstract": "While OCR has been used in various applications, its output is not always accurate, leading to misfit words. This research work focuses on improving the optical character recognition (OCR) with ML techniques with integration of OCR with long short-term memory (LSTM) based sequence to sequence deep learning models to perform document translation. This work is based on ANKI dataset for English to Spanish translation. In this work, I have shown comparative study for pre-trained OCR while using deep learning model using LSTM-based seq2seq architecture with attention for machine translation. End-to-end performance of the model has been expressed in BLEU-4 score. This research paper is aimed at researchers and practitioners interested in OCR and its applications in document translation.",
+    "link": "http://arxiv.org/abs/2304.07637",
+    "context": "Title: TransDocs: Optical Character Recognition with word to word translation. (arXiv:2304.07637v1 [cs.CV])\nAbstract: While OCR has been used in various applications, its output is not always accurate, leading to misfit words. This research work focuses on improving the optical character recognition (OCR) with ML techniques with integration of OCR with long short-term memory (LSTM) based sequence to sequence deep learning models to perform document translation. This work is based on ANKI dataset for English to Spanish translation. In this work, I have shown comparative study for pre-trained OCR while using deep learning model using LSTM-based seq2seq architecture with attention for machine translation. End-to-end performance of the model has been expressed in BLEU-4 score. This research paper is aimed at researchers and practitioners interested in OCR and its applications in document translation.",
+    "path": "papers/23/04/2304.07637.json",
+    "total_tokens": 758,
+    "translated_title": "TransDocs：基于词级翻译的光学字符识别技术",
+    "translated_abstract": "虽然OCR技术已经应用于各种应用，但其输出并不总是准确的，导致错配字词。本研究旨在运用机器学习技术改善OCR技术，将OCR技术与基于LSTM的序列到序列深度学习模型整合以进行文档翻译，并基于ANKI数据集进行英语到西班牙语的翻译。本研究通过比较使用LSTM-based seq2seq架构和带有注意力机制的深度学习模型预训练OCR的性能，展示了端到端模型的性能表现。本研究面向对OCR技术及其在文档翻译中应用感兴趣的研究人员和实践者。",
+    "tldr": "本研究采用LSTM-based seq2seq架构和带有注意力机制的深度学习模型，将OCR技术与词级翻译相结合，提高了文档转换的性能。",
+    "en_tdlr": "This research improves the performance of document translation by combining OCR technology with word-level translation using LSTM-based seq2seq architecture with attention mechanism."
+}

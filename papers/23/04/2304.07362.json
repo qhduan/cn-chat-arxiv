@@ -1,0 +1,12 @@
+{
+    "title": "The END: An Equivariant Neural Decoder for Quantum Error Correction. (arXiv:2304.07362v1 [quant-ph])",
+    "abstract": "Quantum error correction is a critical component for scaling up quantum computing. Given a quantum code, an optimal decoder maps the measured code violations to the most likely error that occurred, but its cost scales exponentially with the system size. Neural network decoders are an appealing solution since they can learn from data an efficient approximation to such a mapping and can automatically adapt to the noise distribution. In this work, we introduce a data efficient neural decoder that exploits the symmetries of the problem. We characterize the symmetries of the optimal decoder for the toric code and propose a novel equivariant architecture that achieves state of the art accuracy compared to previous neural decoders.",
+    "link": "http://arxiv.org/abs/2304.07362",
+    "context": "Title: The END: An Equivariant Neural Decoder for Quantum Error Correction. (arXiv:2304.07362v1 [quant-ph])\nAbstract: Quantum error correction is a critical component for scaling up quantum computing. Given a quantum code, an optimal decoder maps the measured code violations to the most likely error that occurred, but its cost scales exponentially with the system size. Neural network decoders are an appealing solution since they can learn from data an efficient approximation to such a mapping and can automatically adapt to the noise distribution. In this work, we introduce a data efficient neural decoder that exploits the symmetries of the problem. We characterize the symmetries of the optimal decoder for the toric code and propose a novel equivariant architecture that achieves state of the art accuracy compared to previous neural decoders.",
+    "path": "papers/23/04/2304.07362.json",
+    "total_tokens": 745,
+    "translated_title": "END：一种用于量子纠错的等变神经解码器",
+    "translated_abstract": "量子纠错是扩展量子计算的关键组成部分。对于给定的量子码，最佳解码器将测量到的码违规映射到最有可能发生的错误，但其成本随系统大小呈指数级增长。神经网络解码器是一种吸引人的解决方案，因为它们可以从数据中学习到这种映射的有效近似，并可以自动适应噪声分布。在这项工作中，我们介绍了一种利用问题的对称性的数据有效型神经解码器。我们表征了扭曲码理论的最佳解码器的对称性，并提出了一种实现最先进准确性的等变体系结构，与以前的神经解码器相比。",
+    "tldr": "本文介绍了一种利用对称性的数据有效型神经解码器，用于量子纠错，通过等变体系结构达到了与先前神经解码器相比的最先进准确性。",
+    "en_tdlr": "This paper introduces a data efficient neural decoder that exploits the symmetries of the problem for quantum error correction, and achieves state of the art accuracy compared to previous neural decoders using an equivariant architecture."
+}

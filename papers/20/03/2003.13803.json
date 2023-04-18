@@ -1,0 +1,12 @@
+{
+    "title": "Specification tests for generalized propensity scores using double projections. (arXiv:2003.13803v2 [econ.EM] UPDATED)",
+    "abstract": "This paper proposes a new class of nonparametric tests for the correct specification of models based on conditional moment restrictions, paying particular attention to generalized propensity score models. The test procedure is based on two different projection arguments, leading to test statistics that are suitable to setups with many covariates, and are (asymptotically) invariant to the estimation method used to estimate the nuisance parameters. We show that our proposed tests are able to detect a broad class of local alternatives converging to the null at the usual parametric rate and illustrate its attractive power properties via simulations. We also extend our proposal to test parametric or semiparametric single-index-type models.",
+    "link": "http://arxiv.org/abs/2003.13803",
+    "context": "Title: Specification tests for generalized propensity scores using double projections. (arXiv:2003.13803v2 [econ.EM] UPDATED)\nAbstract: This paper proposes a new class of nonparametric tests for the correct specification of models based on conditional moment restrictions, paying particular attention to generalized propensity score models. The test procedure is based on two different projection arguments, leading to test statistics that are suitable to setups with many covariates, and are (asymptotically) invariant to the estimation method used to estimate the nuisance parameters. We show that our proposed tests are able to detect a broad class of local alternatives converging to the null at the usual parametric rate and illustrate its attractive power properties via simulations. We also extend our proposal to test parametric or semiparametric single-index-type models.",
+    "path": "papers/20/03/2003.13803.json",
+    "total_tokens": 697,
+    "translated_title": "使用双重投影的广义倾向得分的规范检验",
+    "translated_abstract": "本文提出了一种新的非参数检验类，用于基于条件矩限制的模型的正确规范检验，特别关注广义倾向得分模型。测试程序基于两个不同的投影论据，导致测试统计量适用于具有许多协变量的设置，并且（渐近）不变于用于估计无关参数的估计方法。我们证明了我们提出的测试能够检测到广泛类的局部替代方法，以通常的参数速率收敛到零，并通过模拟说明其有吸引力的功率属性。我们还将我们的建议扩展到测试参数化或半参数化单索引类型模型。",
+    "tldr": "本文提出了一种新的非参数检验类，用于基于条件矩限制的模型的正确规范检验，特别关注广义倾向得分模型。",
+    "en_tdlr": "This paper proposes a new class of nonparametric tests for the correct specification of models based on conditional moment restrictions, paying particular attention to generalized propensity score models."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Game theoretical models of geopolitical processes. Part I. (arXiv:2304.07568v1 [econ.GN])",
+    "abstract": "In this paper, the interaction of geopolitical actors in the production and sale of military equipment is studied. In section 2 the production of military equipment is considered as the two person zero-sum game. In such game, the strategies of the players are defined by the information state of the actors. The optimal strategy of geopolitical actors is found. In section 3, the conflict process is considered, the optimal strategy is determined for each geopolitical actor.",
+    "link": "http://arxiv.org/abs/2304.07568",
+    "context": "Title: Game theoretical models of geopolitical processes. Part I. (arXiv:2304.07568v1 [econ.GN])\nAbstract: In this paper, the interaction of geopolitical actors in the production and sale of military equipment is studied. In section 2 the production of military equipment is considered as the two person zero-sum game. In such game, the strategies of the players are defined by the information state of the actors. The optimal strategy of geopolitical actors is found. In section 3, the conflict process is considered, the optimal strategy is determined for each geopolitical actor.",
+    "path": "papers/23/04/2304.07568.json",
+    "total_tokens": 620,
+    "translated_title": "地缘政治过程的博弈论模型，第一部分",
+    "translated_abstract": "本文研究了地缘政治行为者在军事装备生产和销售方面的互动。在第二部分中，将军事装备生产视为二人零和游戏，参与者的策略由行为者的信息状态确定。找到了地缘政治行为者的最优策略。在第三部分，考虑冲突过程，确定了每个地缘政治行为者的最优策略。",
+    "tldr": "本文研究了地缘政治行为者在军事装备生产和销售方面的互动，找到了地缘政治行为者的最优策略，同时确定了每个地缘政治行为者的最优策略。",
+    "en_tdlr": "This paper studies the interaction of geopolitical actors in the production and sale of military equipment, finds the optimal strategies for these actors, and determines the optimal strategies for each of them in the conflict process."
+}

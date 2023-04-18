@@ -1,0 +1,11 @@
+{
+    "title": "Comparative Study of MPPT and Parameter Estimation of PV cells. (arXiv:2304.07817v1 [cs.LG])",
+    "abstract": "The presented work focuses on utilising machine learning techniques to accurately estimate accurate values for known and unknown parameters of the PVLIB model for solar cells and photovoltaic modules.Finding accurate model parameters of circuits for photovoltaic (PV) cells is important for a variety of tasks. An Artificial Neural Network (ANN) algorithm was employed, which outperformed other metaheuristic and machine learning algorithms in terms of computational efficiency. To validate the consistency of the data and output, the results were compared against other machine learning algorithms based on irradiance and temperature. A Bland Altman test was conducted that resulted in more than 95 percent accuracy rate. Upon validation, the ANN algorithm was utilised to estimate the parameters and their respective values.",
+    "link": "http://arxiv.org/abs/2304.07817",
+    "context": "Title: Comparative Study of MPPT and Parameter Estimation of PV cells. (arXiv:2304.07817v1 [cs.LG])\nAbstract: The presented work focuses on utilising machine learning techniques to accurately estimate accurate values for known and unknown parameters of the PVLIB model for solar cells and photovoltaic modules.Finding accurate model parameters of circuits for photovoltaic (PV) cells is important for a variety of tasks. An Artificial Neural Network (ANN) algorithm was employed, which outperformed other metaheuristic and machine learning algorithms in terms of computational efficiency. To validate the consistency of the data and output, the results were compared against other machine learning algorithms based on irradiance and temperature. A Bland Altman test was conducted that resulted in more than 95 percent accuracy rate. Upon validation, the ANN algorithm was utilised to estimate the parameters and their respective values.",
+    "path": "papers/23/04/2304.07817.json",
+    "total_tokens": 711,
+    "translated_title": "MPPT与PV电池参数估计的比较研究",
+    "translated_abstract": "本研究旨在利用机器学习技术准确估计太阳能电池和光伏模块的PVLIB模型的已知和未知参数的准确值。使用了人工神经网络（ANN）算法，该算法在计算效率方面优于其他元启发式和机器学习算法。通过辐照度和温度基于其他机器学习算法进行比较，进行了布兰德-奥尔特曼（Bland Altman）测试并得出了超过95％的准确度。验证后，使用ANN算法估计参数及其相应值。",
+    "tldr": "本研究使用机器学习技术，利用人工神经网络算法精确地估计了太阳能电池和光伏模块的PVLIB模型参数，精度超过95％。"
+}

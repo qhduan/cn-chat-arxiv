@@ -1,0 +1,12 @@
+{
+    "title": "Zero-Shot Multi-Label Topic Inference with Sentence Encoders. (arXiv:2304.07382v1 [cs.CL])",
+    "abstract": "Sentence encoders have indeed been shown to achieve superior performances for many downstream text-mining tasks and, thus, claimed to be fairly general. Inspired by this, we performed a detailed study on how to leverage these sentence encoders for the \"zero-shot topic inference\" task, where the topics are defined/provided by the users in real-time. Extensive experiments on seven different datasets demonstrate that Sentence-BERT demonstrates superior generality compared to other encoders, while Universal Sentence Encoder can be preferred when efficiency is a top priority.",
+    "link": "http://arxiv.org/abs/2304.07382",
+    "context": "Title: Zero-Shot Multi-Label Topic Inference with Sentence Encoders. (arXiv:2304.07382v1 [cs.CL])\nAbstract: Sentence encoders have indeed been shown to achieve superior performances for many downstream text-mining tasks and, thus, claimed to be fairly general. Inspired by this, we performed a detailed study on how to leverage these sentence encoders for the \"zero-shot topic inference\" task, where the topics are defined/provided by the users in real-time. Extensive experiments on seven different datasets demonstrate that Sentence-BERT demonstrates superior generality compared to other encoders, while Universal Sentence Encoder can be preferred when efficiency is a top priority.",
+    "path": "papers/23/04/2304.07382.json",
+    "total_tokens": 691,
+    "translated_title": "利用句子编码器进行零样本多标签主题推断",
+    "translated_abstract": "句子编码器在许多下游文本挖掘任务中表现优秀，因此被认为是相当通用。受到这一启发，我们进行了一项详细研究，探讨如何利用这些句子编码器进行“零样本主题推断”任务，其中主题是由用户实时定义/提供的。在七个不同的数据集上进行的大量实验表明，相比其他编码器，Sentence-BERT表现出卓越的通用性，而当效率成为首要考虑因素时，可以优先选择通用句子编码器。",
+    "tldr": "本文研究了如何利用句子编码器进行“零样本主题推断”任务，并通过实验证明了Sentence-BERT在通用性方面优于其他编码器，而在效率方面则优先选择通用句子编码器。",
+    "en_tdlr": "The paper investigates the use of sentence encoders for zero-shot topic inference task, where the topics are defined/provided by the users in real-time, and shows through experiments that Sentence-BERT exhibits superior generality compared to other encoders while Universal Sentence Encoder can be preferred for efficiency."
+}

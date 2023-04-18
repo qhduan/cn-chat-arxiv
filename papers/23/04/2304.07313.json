@@ -1,0 +1,12 @@
+{
+    "title": "M2T: Masking Transformers Twice for Faster Decoding. (arXiv:2304.07313v1 [eess.IV])",
+    "abstract": "We show how bidirectional transformers trained for masked token prediction can be applied to neural image compression to achieve state-of-the-art results. Such models were previously used for image generation by progressivly sampling groups of masked tokens according to uncertainty-adaptive schedules. Unlike these works, we demonstrate that predefined, deterministic schedules perform as well or better for image compression. This insight allows us to use masked attention during training in addition to masked inputs, and activation caching during inference, to significantly speed up our models (~4 higher inference speed) at a small increase in bitrate.",
+    "link": "http://arxiv.org/abs/2304.07313",
+    "context": "Title: M2T: Masking Transformers Twice for Faster Decoding. (arXiv:2304.07313v1 [eess.IV])\nAbstract: We show how bidirectional transformers trained for masked token prediction can be applied to neural image compression to achieve state-of-the-art results. Such models were previously used for image generation by progressivly sampling groups of masked tokens according to uncertainty-adaptive schedules. Unlike these works, we demonstrate that predefined, deterministic schedules perform as well or better for image compression. This insight allows us to use masked attention during training in addition to masked inputs, and activation caching during inference, to significantly speed up our models (~4 higher inference speed) at a small increase in bitrate.",
+    "path": "papers/23/04/2304.07313.json",
+    "total_tokens": 718,
+    "translated_title": "M2T: 两次掩蔽变换提高解码速度的方法",
+    "translated_abstract": "本文展示了双向变换器在遮挡令牌预测上的训练如何应用于神经图像压缩，从而实现了最先进的结果。此类模型以前曾被用于图像生成，采用根据不确定性自适应调度逐步采样遮蔽的令牌组。与这些作品不同，我们证明预定义的确定性调度在图像压缩方面表现良好甚至更好。这种见解使我们能够在训练期间使用遮挡注意力，除了遮挡输入之外，还使用激活缓存进行推理，从而显著提高我们的模型的速度（推理速度约高4倍），同时增加了一点码率。",
+    "tldr": "本文证明预定义的确定性调度在图像压缩方面表现良好，使用双向变换器，遮挡注意力和激活缓存可以显著提高模型的速度。",
+    "en_tdlr": "This paper demonstrates that predefined deterministic schedules perform well in image compression, and using bidirectional transformers, masked attention, and activation caching can significantly speed up the models."
+}

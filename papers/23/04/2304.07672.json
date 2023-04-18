@@ -1,0 +1,12 @@
+{
+    "title": "Optimal Investment and Consumption Strategies with General and Linear Transaction Costs under CRRA Utility. (arXiv:2304.07672v1 [q-fin.PM])",
+    "abstract": "Transaction costs play a critical role in asset allocation and consumption strategies in portfolio management. We apply the methods of dynamic programming and singular perturbation expansion to derive the closed-form leading solutions to this problem for small transaction costs with arbitrary transaction cost structure by maximizing the expected CRRA (constant relative risk aversion) utility function for this problem. We also discuss in detail the case which consists of both fixed and proportional transaction costs.",
+    "link": "http://arxiv.org/abs/2304.07672",
+    "context": "Title: Optimal Investment and Consumption Strategies with General and Linear Transaction Costs under CRRA Utility. (arXiv:2304.07672v1 [q-fin.PM])\nAbstract: Transaction costs play a critical role in asset allocation and consumption strategies in portfolio management. We apply the methods of dynamic programming and singular perturbation expansion to derive the closed-form leading solutions to this problem for small transaction costs with arbitrary transaction cost structure by maximizing the expected CRRA (constant relative risk aversion) utility function for this problem. We also discuss in detail the case which consists of both fixed and proportional transaction costs.",
+    "path": "papers/23/04/2304.07672.json",
+    "total_tokens": 625,
+    "translated_title": "CRRA效用下考虑不同交易成本的最优投资和消费策略",
+    "translated_abstract": "在资产配置和组合管理中，交易成本在投资和消费策略中发挥着至关重要的作用。我们应用动态规划和奇异摄动展开的方法，通过最大化此问题的期望CRRA（恒定相对风险厌恶）效用函数，得出了针对任意交易成本结构的小交易成本的闭合式的主导解。我们还详细讨论了固定和比例交易成本都存在的情况。",
+    "tldr": "本文针对不同交易成本结构，通过动态规划和奇异摄动展开的方法，得出了考虑CRRA效用下的最优投资与消费策略。",
+    "en_tdlr": "This paper derives optimal investment and consumption strategies under CRRA utility by applying dynamic programming and singular perturbation expansion, for small transaction costs of arbitrary structure. The paper also discusses in detail the case with both fixed and proportional transaction costs."
+}

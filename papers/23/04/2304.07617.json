@@ -1,0 +1,12 @@
+{
+    "title": "Estimation of minimum miscibility pressure (MMP) in impure/pure N2 based enhanced oil recovery process: A comparative study of statistical and machine learning algorithms. (arXiv:2304.07617v1 [cs.LG])",
+    "abstract": "Minimum miscibility pressure (MMP) prediction plays an important role in design and operation of nitrogen based enhanced oil recovery processes. In this work, a comparative study of statistical and machine learning methods used for MMP estimation is carried out. Most of the predictive models developed in this study exhibited superior performance over correlation and predictive models reported in literature.",
+    "link": "http://arxiv.org/abs/2304.07617",
+    "context": "Title: Estimation of minimum miscibility pressure (MMP) in impure/pure N2 based enhanced oil recovery process: A comparative study of statistical and machine learning algorithms. (arXiv:2304.07617v1 [cs.LG])\nAbstract: Minimum miscibility pressure (MMP) prediction plays an important role in design and operation of nitrogen based enhanced oil recovery processes. In this work, a comparative study of statistical and machine learning methods used for MMP estimation is carried out. Most of the predictive models developed in this study exhibited superior performance over correlation and predictive models reported in literature.",
+    "path": "papers/23/04/2304.07617.json",
+    "total_tokens": 638,
+    "translated_title": "基于纯净/不纯的N2增油过程中最小相溶压力（MMP）的估计：统计学和机器学习算法的比较研究。",
+    "translated_abstract": "最小相溶压力（MMP）的预测在设计和操作基于氮的增油过程中起着重要作用。本文进行了统计学和机器学习方法用于MMP估计的比较研究。本研究开发的大多数预测模型显示出比文献中报告的相关和预测模型更优越的性能。",
+    "tldr": "本研究比较了统计学和机器学习方法用于估计N2增油过程中的最小相溶压力，表明本研究开发的预测模型具有更好的性能。",
+    "en_tdlr": "This study compares the performance of statistical and machine learning methods in predicting the minimum miscibility pressure (MMP) for nitrogen-based enhanced oil recovery, and shows that the predictive models developed in this study outperformed those reported in literature."
+}

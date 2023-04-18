@@ -1,0 +1,12 @@
+{
+    "title": "The Impact of Automation on Income Inequality: A Cross-Country Analysis. (arXiv:2304.07835v1 [econ.GN])",
+    "abstract": "This study examines the relationship between automation and income inequality across different countries, taking into account the varying levels of technological adoption and labor market institutions. The research employs a panel data analysis using data from the World Bank, the International Labour Organization, and other reputable sources. The findings suggest that while automation leads to an increase in productivity, its effect on income inequality depends on the country's labor market institutions and social policies.",
+    "link": "http://arxiv.org/abs/2304.07835",
+    "context": "Title: The Impact of Automation on Income Inequality: A Cross-Country Analysis. (arXiv:2304.07835v1 [econ.GN])\nAbstract: This study examines the relationship between automation and income inequality across different countries, taking into account the varying levels of technological adoption and labor market institutions. The research employs a panel data analysis using data from the World Bank, the International Labour Organization, and other reputable sources. The findings suggest that while automation leads to an increase in productivity, its effect on income inequality depends on the country's labor market institutions and social policies.",
+    "path": "papers/23/04/2304.07835.json",
+    "total_tokens": 575,
+    "translated_title": "自动化对收入不平等的影响：跨国分析",
+    "translated_abstract": "本研究考虑了不同国家技术采纳和劳动力市场机构的变化，研究了自动化和收入不平等之间的关系。该研究使用来自世界银行、国际劳工组织和其他可靠来源的数据进行面板数据分析。研究结果表明，尽管自动化会提高生产力，但它对收入不平等的影响取决于国家的劳动力市场机构和社会政策。",
+    "tldr": "自动化的收入不平等影响因国家的政策、劳动力市场机构有所不同。",
+    "en_tdlr": "The impact of automation on income inequality varies depending on the labor market institutions and social policies of each country."
+}

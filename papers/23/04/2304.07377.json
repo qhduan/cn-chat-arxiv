@@ -1,0 +1,12 @@
+{
+    "title": "Simulating Gaussian vectors via randomized dimension reduction and PCA. (arXiv:2304.07377v1 [math.ST])",
+    "abstract": "We study the problem of estimating E(g(X)), where g is a real-valued function of d variables and X is a d-dimensional Gaussian vector with a given covariance matrix. We present a new unbiased estimator for E(g(X)) that combines the randomized dimension reduction technique with principal components analysis. Under suitable conditions, we prove that our algorithm outperforms the standard Monte Carlo method by a factor of order d.",
+    "link": "http://arxiv.org/abs/2304.07377",
+    "context": "Title: Simulating Gaussian vectors via randomized dimension reduction and PCA. (arXiv:2304.07377v1 [math.ST])\nAbstract: We study the problem of estimating E(g(X)), where g is a real-valued function of d variables and X is a d-dimensional Gaussian vector with a given covariance matrix. We present a new unbiased estimator for E(g(X)) that combines the randomized dimension reduction technique with principal components analysis. Under suitable conditions, we prove that our algorithm outperforms the standard Monte Carlo method by a factor of order d.",
+    "path": "papers/23/04/2304.07377.json",
+    "total_tokens": 631,
+    "translated_title": "通过随机降维和主成分分析模拟高斯向量",
+    "translated_abstract": "本文研究了估计具有给定协方差矩阵的d维高斯向量X的实值函数g(X)期望E(g(X))的问题。我们提出了一种新的无偏估计器，它将随机降维技术与主成分分析相结合。在适当的条件下，我们证明了这种算法的性能优于标准蒙特卡罗方法，其优势与d的数量级相同。",
+    "tldr": "本文提出一种新的估计高斯向量期望的方法，通过随机降维和主成分分析技术，能够在合适的条件下比标准蒙特卡罗方法更有效地工作。",
+    "en_tdlr": "This paper presents a new method for estimating the expectation of real-valued functions of d-dimensional Gaussian vectors with a given covariance matrix, using a combination of randomized dimension reduction and principal components analysis, outperforming the standard Monte Carlo method by a factor of order d under suitable conditions."
+}

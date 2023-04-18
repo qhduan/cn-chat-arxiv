@@ -1,0 +1,12 @@
+{
+    "title": "Prediction-Oriented Bayesian Active Learning. (arXiv:2304.08151v1 [cs.LG])",
+    "abstract": "Information-theoretic approaches to active learning have traditionally focused on maximising the information gathered about the model parameters, most commonly by optimising the BALD score. We highlight that this can be suboptimal from the perspective of predictive performance. For example, BALD lacks a notion of an input distribution and so is prone to prioritise data of limited relevance. To address this we propose the expected predictive information gain (EPIG), an acquisition function that measures information gain in the space of predictions rather than parameters. We find that using EPIG leads to stronger predictive performance compared with BALD across a range of datasets and models, and thus provides an appealing drop-in replacement.",
+    "link": "http://arxiv.org/abs/2304.08151",
+    "context": "Title: Prediction-Oriented Bayesian Active Learning. (arXiv:2304.08151v1 [cs.LG])\nAbstract: Information-theoretic approaches to active learning have traditionally focused on maximising the information gathered about the model parameters, most commonly by optimising the BALD score. We highlight that this can be suboptimal from the perspective of predictive performance. For example, BALD lacks a notion of an input distribution and so is prone to prioritise data of limited relevance. To address this we propose the expected predictive information gain (EPIG), an acquisition function that measures information gain in the space of predictions rather than parameters. We find that using EPIG leads to stronger predictive performance compared with BALD across a range of datasets and models, and thus provides an appealing drop-in replacement.",
+    "path": "papers/23/04/2304.08151.json",
+    "total_tokens": 704,
+    "translated_title": "基于预测的贝叶斯主动学习",
+    "translated_abstract": "信息论方法通常集中于最大化关于模型参数的信息，在优化 BALD 分数方面。我们强调从预测性能的角度来看，这可能是次优的。为了解决这个问题，我们提出了预期预测信息增益（EPIG），一种在预测空间而不是参数空间中测量信息增益的收集函数。我们发现，在各种数据集和模型上使用 EPIG 与 BALD 相比，可以获得更强的预测性能，因此提供了一个有吸引力的替代方案。",
+    "tldr": "本文提出了一种基于预测的贝叶斯主动学习方法，即预期预测信息增益（EPIG），这种方法在预测空间而不是参数空间中测量信息增益，可以有效提高预测性能。",
+    "en_tdlr": "This paper proposes a prediction-oriented Bayesian active learning method, called expected predictive information gain (EPIG), which measures information gain in the space of predictions rather than parameters, leading to stronger predictive performance compared to the traditional approach of maximizing information about model parameters."
+}

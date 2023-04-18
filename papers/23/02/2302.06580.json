@@ -1,0 +1,12 @@
+{
+    "title": "Comparison Shopping: Learning Before Buying From Duopolists. (arXiv:2302.06580v2 [econ.TH] UPDATED)",
+    "abstract": "We explore a model of duopolistic competition in which consumers learn about the fit of each competitor's product. In equilibrium, consumers comparison shop: they learn only about the relative values of the products. When information is cheap, increasing the cost of information decreases consumer welfare; but when information is expensive, this relationship flips. As information frictions vanish, there is a limiting equilibrium that is ex post efficient.",
+    "link": "http://arxiv.org/abs/2302.06580",
+    "context": "Title: Comparison Shopping: Learning Before Buying From Duopolists. (arXiv:2302.06580v2 [econ.TH] UPDATED)\nAbstract: We explore a model of duopolistic competition in which consumers learn about the fit of each competitor's product. In equilibrium, consumers comparison shop: they learn only about the relative values of the products. When information is cheap, increasing the cost of information decreases consumer welfare; but when information is expensive, this relationship flips. As information frictions vanish, there is a limiting equilibrium that is ex post efficient.",
+    "path": "papers/23/02/2302.06580.json",
+    "total_tokens": 675,
+    "translated_title": "比较购物：在购买双头垄断商品前的学习",
+    "translated_abstract": "我们研究了一种双头垄断竞争的模型，其中消费者了解每个竞争对手的产品的适应性。在均衡中，消费者进行比较购物：他们只学习产品的相对价值。当信息便宜时，增加信息的成本会降低消费者福利；但当信息昂贵时，这种关系会反转。当信息摩擦消失时，存在一个极限均衡，该均衡在 ex post 时是有效的。",
+    "tldr": "本研究探索了双头垄断市场中的比较购物行为，发现当信息成本较低时，增加信息成本会降低消费者福利；但当信息成本较高时，却会提高消费者福利，在信息摩擦消失时存在有效均衡。",
+    "en_tdlr": "This study explores comparison shopping behavior in a duopoly market, finds that when information costs are low, increasing information costs decreases consumer welfare; but when information costs are high, it can increase consumer welfare, and there is an efficient equilibrium when information frictions vanish."
+}

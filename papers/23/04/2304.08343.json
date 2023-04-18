@@ -1,0 +1,12 @@
+{
+    "title": "Optimism and overconfidence. (arXiv:2304.08343v1 [econ.TH])",
+    "abstract": "I revisit the standard moral-hazard model, in which an agent's preference over contracts is rooted in costly effort choice. I characterise the behavioural content of the model in terms of empirically testable axioms, and show that the model's parameters are identified. I propose general behavioural definitions of relative (over)confidence and optimism, and characterise these in terms of the parameters of the moral-hazard model. My formal results are rooted in a simple but powerful insight: that the moral-hazard model is closely related to the well-known 'variational' model of choice under uncertainty.",
+    "link": "http://arxiv.org/abs/2304.08343",
+    "context": "Title: Optimism and overconfidence. (arXiv:2304.08343v1 [econ.TH])\nAbstract: I revisit the standard moral-hazard model, in which an agent's preference over contracts is rooted in costly effort choice. I characterise the behavioural content of the model in terms of empirically testable axioms, and show that the model's parameters are identified. I propose general behavioural definitions of relative (over)confidence and optimism, and characterise these in terms of the parameters of the moral-hazard model. My formal results are rooted in a simple but powerful insight: that the moral-hazard model is closely related to the well-known 'variational' model of choice under uncertainty.",
+    "path": "papers/23/04/2304.08343.json",
+    "total_tokens": 652,
+    "translated_title": "乐观与过度自信（经济学模型方面）",
+    "translated_abstract": "本文重新审视了标准道德风险模型，其中代理人对合同的偏好源于付出昂贵的努力选择。作者通过实证检验的公理来表征模型的行为内容，并展示了该模型的参数被识别。作者提出相对（过度）自信和乐观主义的一般行为定义，并按道德风险模型的参数来表征这些定义。正式结果基于一个简单而强大的洞察力：道德风险模型与众所周知的“变分”不确定性选择模型密切相关。",
+    "tldr": "本文重新审视了标准的道德风险模型，提出了乐观和过度自信的定义，并表征这些定义与该模型参数的关系。",
+    "en_tdlr": "The paper revisits the standard moral-hazard model to propose general behavioral definitions of relative (over)confidence and optimism and characterize their relation to the model parameters."
+}

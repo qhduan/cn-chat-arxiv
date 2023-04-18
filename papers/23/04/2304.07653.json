@@ -1,0 +1,12 @@
+{
+    "title": "Data, Competition, and Digital Platforms. (arXiv:2304.07653v1 [econ.TH])",
+    "abstract": "We analyze digital markets where a monopolist platform uses data to match multiproduct sellers with heterogeneous consumers who can purchase both on and off the platform. The platform sells targeted ads to sellers that recommend their products to consumers and reveals information to consumers about their values. The revenue-optimal mechanism is a managed advertising campaign that matches products and preferences efficiently. In equilibrium, sellers offer higher qualities at lower unit prices on than off the platform. Privacy-respecting data-governance rules such as organic search results or federated learning can lead to welfare gains for consumers.",
+    "link": "http://arxiv.org/abs/2304.07653",
+    "context": "Title: Data, Competition, and Digital Platforms. (arXiv:2304.07653v1 [econ.TH])\nAbstract: We analyze digital markets where a monopolist platform uses data to match multiproduct sellers with heterogeneous consumers who can purchase both on and off the platform. The platform sells targeted ads to sellers that recommend their products to consumers and reveals information to consumers about their values. The revenue-optimal mechanism is a managed advertising campaign that matches products and preferences efficiently. In equilibrium, sellers offer higher qualities at lower unit prices on than off the platform. Privacy-respecting data-governance rules such as organic search results or federated learning can lead to welfare gains for consumers.",
+    "path": "papers/23/04/2304.07653.json",
+    "total_tokens": 776,
+    "translated_title": "数据、竞争和数字平台",
+    "translated_abstract": "我们分析了数字市场，其中垄断平台使用数据匹配具有异质化消费者的多产品销售者，这些消费者可以在平台上和平台外购买产品。该平台向销售者销售定向广告，向消费者公开其价值信息，推荐销售者的产品。收入最优机制是管理广告活动，高效地匹配产品和偏好。在均衡状态下，销售者在平台上提供更高的质量，价格较低而非在平台外。尊重隐私的数据治理规则，如有机搜索结果或联邦学习，可以为消费者带来福利收益。",
+    "tldr": "本文分析了数字市场中的竞争状况，提出了一个收入最优机制——管理广告活动，该机制通过使用数据匹配销售者和消费者，有效地匹配产品和偏好，使销售者提供更高质量、更低价格的产品，并探讨了尊重隐私的数据治理规则对于消费者福利的帮助。",
+    "en_tdlr": "This paper analyzes the competition in digital markets and proposes a revenue-optimal mechanism—managed advertising campaign that efficiently matches products and preferences by using data to match multiproduct sellers with heterogeneous consumers. It explores how this mechanism leads to higher quality goods and lower prices on the platform and examines the potential welfare gains for consumers through privacy-respecting data-governance rules such as organic search results or federated learning."
+}
