@@ -7,13 +7,14 @@
 | [^3] | [Syntactic Complexity Identification, Measurement, and Reduction Through Controlled Syntactic Simplification.](http://arxiv.org/abs/2304.07774) | 本研究提出了一种控制简化方法，可在不丢失信息的情况下，基于句子中的实际信息三元组简化句子，以进行知识图谱的创建。 |
 | [^4] | [Hierarchical and Contrastive Representation Learning for Knowledge-aware Recommendation.](http://arxiv.org/abs/2304.07506) | 本文提出了HiCON框架，运用层次化对比表示学习提高了学习到的节点表示的区分能力，同时采用分层消息聚合机制避免了邻居的指数级扩展，从而有效地解决了知识驱动推荐中的过度平滑问题。 |
 | [^5] | [Temporal Aggregation and Propagation Graph Neural Networks for Dynamic Representation.](http://arxiv.org/abs/2304.07503) | 本文提出了 TAP-GNN，通过整个邻域的时间聚合和传播来有效地建模动态图中的时间关系，从而在图流场景中支持高效的在线推理。 |
-| [^6] | [Self-supervised Auxiliary Loss for Metric Learning in Music Similarity-based Retrieval and Auto-tagging.](http://arxiv.org/abs/2304.07449) | 本论文提出了一种自监督学习方法，在自动标注方面已经证明其有效性。我们引入了自监督辅助损失的度量学习方法来解决音乐相似度检索问题，并发现同时使用自监督和监督信号训练模型的优势，而不冻结预训练模型。此外，避免在微调阶段使用数据增强可以提高性能。 |
-| [^7] | [Zero-Shot Multi-Label Topic Inference with Sentence Encoders.](http://arxiv.org/abs/2304.07382) | 本文研究了如何利用句子编码器进行“零样本主题推断”任务，并通过实验证明了Sentence-BERT在通用性方面优于其他编码器，而在效率方面则优先选择通用句子编码器。 |
-| [^8] | [Diffusion Recommender Model.](http://arxiv.org/abs/2304.04971) | 本论文提出了一种新颖的扩散推荐模型（DiffRec）来逐步去噪地学习用户交互生成的过程，并针对推荐系统中的冷启动问题和稀疏数据等独特挑战进行了扩展，实验结果显示其在推荐准确性和稳健性方面优于现有方法。 |
-| [^9] | [Delving into E-Commerce Product Retrieval with Vision-Language Pre-training.](http://arxiv.org/abs/2304.04377) | 本文提出了一种基于对比学习的视觉-语言预训练方法，用于解决淘宝搜索的检索问题。该方法采用了针对大规模检索任务的负采样策略，并在真实场景中取得了卓越的性能，目前服务数亿用户。 |
-| [^10] | [Manipulating Federated Recommender Systems: Poisoning with Synthetic Users and Its Countermeasures.](http://arxiv.org/abs/2304.03054) | 本文提出了一种新的攻击方法，利用合成的恶意用户上传有毒的梯度来在联邦推荐系统中有效地操纵目标物品的排名和曝光率。在两个真实世界的推荐数据集上进行了大量实验。 |
-| [^11] | [Schema-aware Reference as Prompt Improves Data-Efficient Knowledge Graph Construction.](http://arxiv.org/abs/2210.10709) | 提出了一种以检索增强的架构感知参考作为提示的方法，可动态利用人类注释和弱监督数据所继承的架构和知识，指导生成具有更好语义连贯性和一致性的结构化知识，从而在数据效率和知识质量方面具有优越性。 |
-| [^12] | [RL4RS: A Real-World Dataset for Reinforcement Learning based Recommender System.](http://arxiv.org/abs/2110.11073) | RL4RS是一个新的基于强化学习的推荐系统数据集，为此提供了一种替代使用人造数据集和半仿真推荐系统数据集的方法，并提出了新的系统评估框架。 |
+| [^6] | [More Is Less: When Do Recommenders Underperform for Data-rich Users?.](http://arxiv.org/abs/2304.07487) | 研究了推荐算法在数据量丰富和数据量贫乏的用户中的性能表现。发现在所有数据集中，精度在数据丰富的用户中始终更高；平均精度相当，但其方差很大；当评估过程中采用负样本抽样时，召回率产生反直觉结果，表现更好的是数据贫乏的用户；随着用户与推荐系统的互动增加，他们收到的推荐质量会降低。 |
+| [^7] | [Self-supervised Auxiliary Loss for Metric Learning in Music Similarity-based Retrieval and Auto-tagging.](http://arxiv.org/abs/2304.07449) | 本论文提出了一种自监督学习方法，在自动标注方面已经证明其有效性。我们引入了自监督辅助损失的度量学习方法来解决音乐相似度检索问题，并发现同时使用自监督和监督信号训练模型的优势，而不冻结预训练模型。此外，避免在微调阶段使用数据增强可以提高性能。 |
+| [^8] | [Zero-Shot Multi-Label Topic Inference with Sentence Encoders.](http://arxiv.org/abs/2304.07382) | 本文研究了如何利用句子编码器进行“零样本主题推断”任务，并通过实验证明了Sentence-BERT在通用性方面优于其他编码器，而在效率方面则优先选择通用句子编码器。 |
+| [^9] | [Diffusion Recommender Model.](http://arxiv.org/abs/2304.04971) | 本论文提出了一种新颖的扩散推荐模型（DiffRec）来逐步去噪地学习用户交互生成的过程，并针对推荐系统中的冷启动问题和稀疏数据等独特挑战进行了扩展，实验结果显示其在推荐准确性和稳健性方面优于现有方法。 |
+| [^10] | [Delving into E-Commerce Product Retrieval with Vision-Language Pre-training.](http://arxiv.org/abs/2304.04377) | 本文提出了一种基于对比学习的视觉-语言预训练方法，用于解决淘宝搜索的检索问题。该方法采用了针对大规模检索任务的负采样策略，并在真实场景中取得了卓越的性能，目前服务数亿用户。 |
+| [^11] | [Manipulating Federated Recommender Systems: Poisoning with Synthetic Users and Its Countermeasures.](http://arxiv.org/abs/2304.03054) | 本文提出了一种新的攻击方法，利用合成的恶意用户上传有毒的梯度来在联邦推荐系统中有效地操纵目标物品的排名和曝光率。在两个真实世界的推荐数据集上进行了大量实验。 |
+| [^12] | [Schema-aware Reference as Prompt Improves Data-Efficient Knowledge Graph Construction.](http://arxiv.org/abs/2210.10709) | 提出了一种以检索增强的架构感知参考作为提示的方法，可动态利用人类注释和弱监督数据所继承的架构和知识，指导生成具有更好语义连贯性和一致性的结构化知识，从而在数据效率和知识质量方面具有优越性。 |
+| [^13] | [RL4RS: A Real-World Dataset for Reinforcement Learning based Recommender System.](http://arxiv.org/abs/2110.11073) | RL4RS是一个新的基于强化学习的推荐系统数据集，为此提供了一种替代使用人造数据集和半仿真推荐系统数据集的方法，并提出了新的系统评估框架。 |
 
 # 详细
 
@@ -87,7 +88,21 @@
 
     Temporal graphs exhibit dynamic interactions between nodes over continuous time, whose topologies evolve with time elapsing.  The whole temporal neighborhood of nodes reveals the varying preferences of nodes.  However, previous works usually generate dynamic representation with limited neighbors for simplicity, which results in both inferior performance and high latency of online inference.  Therefore, in this paper, we propose a novel method of temporal graph convolution with the whole neighborhood, namely Temporal Aggregation and Propagation Graph Neural Networks (TAP-GNN).  Specifically, we firstly analyze the computational complexity of the dynamic representation problem by unfolding the temporal graph in a message-passing paradigm.  The expensive complexity motivates us to design the AP (aggregation and propagation) block, which significantly reduces the repeated computation of historical neighbors.  The final TAP-GNN supports online inference in the graph stream scenario, which i
     
-[^6]: 自监督辅助损失用于基于音乐相似度检索和自动标注的度量学习
+[^6]: 更多不一定就是更好：何时推荐算法在数据丰富的用户中表现不佳？
+
+    More Is Less: When Do Recommenders Underperform for Data-rich Users?. (arXiv:2304.07487v1 [cs.IR])
+
+    [http://arxiv.org/abs/2304.07487](http://arxiv.org/abs/2304.07487)
+
+    研究了推荐算法在数据量丰富和数据量贫乏的用户中的性能表现。发现在所有数据集中，精度在数据丰富的用户中始终更高；平均精度相当，但其方差很大；当评估过程中采用负样本抽样时，召回率产生反直觉结果，表现更好的是数据贫乏的用户；随着用户与推荐系统的互动增加，他们收到的推荐质量会降低。
+
+    
+
+    推荐系统的用户通常在与算法互动的水平上有所不同，这可能影响他们收到推荐的质量，并导致不可取的性能差异。本文研究了对于十个基准数据集应用的一组流行评估指标，数据丰富和数据贫乏的用户性能在什么条件下会发散。我们发现，针对所有数据集，精度在数据丰富的用户中始终更高；平均精度均等，但其方差很大；召回率产生了一个反直觉的结果，算法在数据贫乏的用户中表现更好，当在评估过程中采用负样本抽样时，这种偏差更加严重。最后一个观察结果表明，随着用户与推荐系统的互动增加，他们收到的推荐质量会降低（以召回率衡量）。我们的研究清楚地表明，在现实世界设置中，评估合理的推荐系统很重要，因为不同用户有不同的系统互作程度。
+
+    Users of recommender systems tend to differ in their level of interaction with these algorithms, which may affect the quality of recommendations they receive and lead to undesirable performance disparity. In this paper we investigate under what conditions the performance for data-rich and data-poor users diverges for a collection of popular evaluation metrics applied to ten benchmark datasets. We find that Precision is consistently higher for data-rich users across all the datasets; Mean Average Precision is comparable across user groups but its variance is large; Recall yields a counter-intuitive result where the algorithm performs better for data-poor than for data-rich users, which bias is further exacerbated when negative item sampling is employed during evaluation. The final observation suggests that as users interact more with recommender systems, the quality of recommendations they receive degrades (when measured by Recall). Our insights clearly show the importance of an evaluat
+    
+[^7]: 自监督辅助损失用于基于音乐相似度检索和自动标注的度量学习
 
     Self-supervised Auxiliary Loss for Metric Learning in Music Similarity-based Retrieval and Auto-tagging. (arXiv:2304.07449v1 [cs.SD])
 
@@ -101,7 +116,7 @@
 
     In the realm of music information retrieval, similarity-based retrieval and auto-tagging serve as essential components. Given the limitations and non-scalability of human supervision signals, it becomes crucial for models to learn from alternative sources to enhance their performance. Self-supervised learning, which exclusively relies on learning signals derived from music audio data, has demonstrated its efficacy in the context of auto-tagging. In this study, we propose a model that builds on the self-supervised learning approach to address the similarity-based retrieval challenge by introducing our method of metric learning with a self-supervised auxiliary loss. Furthermore, diverging from conventional self-supervised learning methodologies, we discovered the advantages of concurrently training the model with both self-supervision and supervision signals, without freezing pre-trained models. We also found that refraining from employing augmentation during the fine-tuning phase yields
     
-[^7]: 利用句子编码器进行零样本多标签主题推断
+[^8]: 利用句子编码器进行零样本多标签主题推断
 
     Zero-Shot Multi-Label Topic Inference with Sentence Encoders. (arXiv:2304.07382v1 [cs.CL])
 
@@ -115,7 +130,7 @@
 
     Sentence encoders have indeed been shown to achieve superior performances for many downstream text-mining tasks and, thus, claimed to be fairly general. Inspired by this, we performed a detailed study on how to leverage these sentence encoders for the "zero-shot topic inference" task, where the topics are defined/provided by the users in real-time. Extensive experiments on seven different datasets demonstrate that Sentence-BERT demonstrates superior generality compared to other encoders, while Universal Sentence Encoder can be preferred when efficiency is a top priority.
     
-[^8]: 扩散推荐模型
+[^9]: 扩散推荐模型
 
     Diffusion Recommender Model. (arXiv:2304.04971v1 [cs.IR])
 
@@ -129,7 +144,7 @@
 
     Generative models such as Generative Adversarial Networks (GANs) and Variational Auto-Encoders (VAEs) are widely utilized to model the generative process of user interactions. However, these generative models suffer from intrinsic limitations such as the instability of GANs and the restricted representation ability of VAEs. Such limitations hinder the accurate modeling of the complex user interaction generation procedure, such as noisy interactions caused by various interference factors. In light of the impressive advantages of Diffusion Models (DMs) over traditional generative models in image synthesis, we propose a novel Diffusion Recommender Model (named DiffRec) to learn the generative process in a denoising manner. To retain personalized information in user interactions, DiffRec reduces the added noises and avoids corrupting users' interactions into pure noises like in image synthesis. In addition, we extend traditional DMs to tackle the unique challenges in practical recommender 
     
-[^9]: 探究基于视觉-语言预训练的电商产品检索技术
+[^10]: 探究基于视觉-语言预训练的电商产品检索技术
 
     Delving into E-Commerce Product Retrieval with Vision-Language Pre-training. (arXiv:2304.04377v1 [cs.IR])
 
@@ -143,7 +158,7 @@
 
     E-commerce search engines comprise a retrieval phase and a ranking phase, where the first one returns a candidate product set given user queries. Recently, vision-language pre-training, combining textual information with visual clues, has been popular in the application of retrieval tasks. In this paper, we propose a novel V+L pre-training method to solve the retrieval problem in Taobao Search. We design a visual pre-training task based on contrastive learning, outperforming common regression-based visual pre-training tasks. In addition, we adopt two negative sampling schemes, tailored for the large-scale retrieval task. Besides, we introduce the details of the online deployment of our proposed method in real-world situations. Extensive offline/online experiments demonstrate the superior performance of our method on the retrieval task. Our proposed method is employed as one retrieval channel of Taobao Search and serves hundreds of millions of users in real time.
     
-[^10]: 操纵联邦推荐系统: 用合成用户进行攻击及其对策
+[^11]: 操纵联邦推荐系统: 用合成用户进行攻击及其对策
 
     Manipulating Federated Recommender Systems: Poisoning with Synthetic Users and Its Countermeasures. (arXiv:2304.03054v1 [cs.IR])
 
@@ -157,7 +172,7 @@
 
     Federated Recommender Systems (FedRecs) are considered privacy-preserving techniques to collaboratively learn a recommendation model without sharing user data. Since all participants can directly influence the systems by uploading gradients, FedRecs are vulnerable to poisoning attacks of malicious clients. However, most existing poisoning attacks on FedRecs are either based on some prior knowledge or with less effectiveness. To reveal the real vulnerability of FedRecs, in this paper, we present a new poisoning attack method to manipulate target items' ranks and exposure rates effectively in the top-$K$ recommendation without relying on any prior knowledge. Specifically, our attack manipulates target items' exposure rate by a group of synthetic malicious users who upload poisoned gradients considering target items' alternative products. We conduct extensive experiments with two widely used FedRecs (Fed-NCF and Fed-LightGCN) on two real-world recommendation datasets. The experimental res
     
-[^11]: 以架构感知参考作为提示提高了数据有效的知识图谱构建
+[^12]: 以架构感知参考作为提示提高了数据有效的知识图谱构建
 
     Schema-aware Reference as Prompt Improves Data-Efficient Knowledge Graph Construction. (arXiv:2210.10709v4 [cs.CL] UPDATED)
 
@@ -171,7 +186,7 @@
 
     With the development of pre-trained language models, many prompt-based approaches to data-efficient knowledge graph construction have been proposed and achieved impressive performance. However, existing prompt-based learning methods for knowledge graph construction are still susceptible to several potential limitations: (i) semantic gap between natural language and output structured knowledge with pre-defined schema, which means model cannot fully exploit semantic knowledge with the constrained templates; (ii) representation learning with locally individual instances limits the performance given the insufficient features, which are unable to unleash the potential analogical capability of pre-trained language models. Motivated by these observations, we propose a retrieval-augmented approach, which retrieves schema-aware Reference As Prompt (RAP), for data-efficient knowledge graph construction. It can dynamically leverage schema and knowledge inherited from human-annotated and weak-supe
     
-[^12]: RL4RS：一种基于强化学习的推荐系统的真实世界数据集
+[^13]: RL4RS：一种基于强化学习的推荐系统的真实世界数据集
 
     RL4RS: A Real-World Dataset for Reinforcement Learning based Recommender System. (arXiv:2110.11073v5 [cs.IR] UPDATED)
 

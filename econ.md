@@ -33,8 +33,9 @@
 | [^29] | [Two-way Fixed Effects Regressions with Several Treatments.](http://arxiv.org/abs/2012.10077) | 本文研究了具有多个处理变量的双向固定效应回归，发现这些估计器对异质效应不具有鲁棒性，并且可能被其他处理的效应污染。提出了一种替代的差异法估计器，对异质效应具有鲁棒性，并且不受污染问题的影响。 |
 | [^30] | [Functional Principal Component Analysis for Cointegrated Functional Time Series.](http://arxiv.org/abs/2011.12781) | 本研究提出了一种改进的FPCA，可用于分析协整的函数时间序列并提供更有效的估计，以及FPCA-based的测试，以检查协整函数时间序列的重要属性。 |
 | [^31] | [Sparse time-varying parameter VECMs with an application to modeling electricity prices.](http://arxiv.org/abs/2011.04577) | 本文提出了一种稀疏时变参数VECM模型，针对电力价格进行建模，并使用全局-局部先验和后处理参数实现了真正的稀疏解，同时限制过度拟合并减少了参数估计不确定性。 |
-| [^32] | [Specification tests for generalized propensity scores using double projections.](http://arxiv.org/abs/2003.13803) | 本文提出了一种新的非参数检验类，用于基于条件矩限制的模型的正确规范检验，特别关注广义倾向得分模型。 |
-| [^33] | [Probabilistic Verification in Mechanism Design.](http://arxiv.org/abs/1908.05556) | 该论文介绍了机制设计中的概率验证模型，通过选择统计测试来验证代理人的声明，并判断是否有最佳测试筛选所有其他类型。这个方法能够利润最大化并不断插值解决验证的问题。 |
+| [^32] | [Adaptive, Rate-Optimal Hypothesis Testing in Nonparametric IV Models.](http://arxiv.org/abs/2006.09587) | 我们提出了一种自适应检验方法，用于处理非参数仪器变量模型中的结构函数的不等式和等式限制。该方法可以适应未知的平滑度和工具强度，并达到了最小值率的自适应最优检验率。 |
+| [^33] | [Specification tests for generalized propensity scores using double projections.](http://arxiv.org/abs/2003.13803) | 本文提出了一种新的非参数检验类，用于基于条件矩限制的模型的正确规范检验，特别关注广义倾向得分模型。 |
+| [^34] | [Probabilistic Verification in Mechanism Design.](http://arxiv.org/abs/1908.05556) | 该论文介绍了机制设计中的概率验证模型，通过选择统计测试来验证代理人的声明，并判断是否有最佳测试筛选所有其他类型。这个方法能够利润最大化并不断插值解决验证的问题。 |
 
 # 详细
 
@@ -472,7 +473,21 @@
 
     In this paper we propose a time-varying parameter (TVP) vector error correction model (VECM) with heteroskedastic disturbances. We propose tools to carry out dynamic model specification in an automatic fashion. This involves using global-local priors, and postprocessing the parameters to achieve truly sparse solutions. Depending on the respective set of coefficients, we achieve this via minimizing auxiliary loss functions. Our two-step approach limits overfitting and reduces parameter estimation uncertainty. We apply this framework to modeling European electricity prices. When considering daily electricity prices for different markets jointly, our model highlights the importance of explicitly addressing cointegration and nonlinearities. In a forecast exercise focusing on hourly prices for Germany, our approach yields competitive metrics of predictive accuracy.
     
-[^32]: 使用双重投影的广义倾向得分的规范检验
+[^32]: 非参数IV模型中的自适应高效假设检验
+
+    Adaptive, Rate-Optimal Hypothesis Testing in Nonparametric IV Models. (arXiv:2006.09587v3 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2006.09587](http://arxiv.org/abs/2006.09587)
+
+    我们提出了一种自适应检验方法，用于处理非参数仪器变量模型中的结构函数的不等式和等式限制。该方法可以适应未知的平滑度和工具强度，并达到了最小值率的自适应最优检验率。
+
+    
+
+    我们提出了一种新的自适应假设检验方法，用于非参数仪器变量（NPIV）模型中结构函数的不等式（如单调性、凸性）和等式（如参数、半参数）限制。我们的检验统计量基于修改版的留一法样本模拟，计算受限和不受限筛子NPIV估计量间的二次距离。我们提供了计算简单、数据驱动的筛子调参和Bonferroni调整卡方临界值的选择。我们的检验适应未知的内生性平滑度和工具强度，达到了$L^2$最小值率的自适应最优检验率。也就是说，在复合零假设下其类型I误差的总体和其类型II误差的总体均不能被任何其他NPIV模型的假设检验所提高。我们还提出了基于数据的置信区间。
+
+    We propose a new adaptive hypothesis test for inequality (e.g., monotonicity, convexity) and equality (e.g., parametric, semiparametric) restrictions on a structural function in a nonparametric instrumental variables (NPIV) model. Our test statistic is based on a modified leave-one-out sample analog of a quadratic distance between the restricted and unrestricted sieve NPIV estimators. We provide computationally simple, data-driven choices of sieve tuning parameters and Bonferroni adjusted chi-squared critical values. Our test adapts to the unknown smoothness of alternative functions in the presence of unknown degree of endogeneity and unknown strength of the instruments. It attains the adaptive minimax rate of testing in $L^2$.  That is, the sum of its type I error uniformly over the composite null and its type II error uniformly over nonparametric alternative models cannot be improved by any other hypothesis test for NPIV models of unknown regularities. Data-driven confidence sets in 
+    
+[^33]: 使用双重投影的广义倾向得分的规范检验
 
     Specification tests for generalized propensity scores using double projections. (arXiv:2003.13803v2 [econ.EM] UPDATED)
 
@@ -486,7 +501,7 @@
 
     This paper proposes a new class of nonparametric tests for the correct specification of models based on conditional moment restrictions, paying particular attention to generalized propensity score models. The test procedure is based on two different projection arguments, leading to test statistics that are suitable to setups with many covariates, and are (asymptotically) invariant to the estimation method used to estimate the nuisance parameters. We show that our proposed tests are able to detect a broad class of local alternatives converging to the null at the usual parametric rate and illustrate its attractive power properties via simulations. We also extend our proposal to test parametric or semiparametric single-index-type models.
     
-[^33]: 机制设计中的概率验证
+[^34]: 机制设计中的概率验证
 
     Probabilistic Verification in Mechanism Design. (arXiv:1908.05556v2 [econ.TH] UPDATED)
 

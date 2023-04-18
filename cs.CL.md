@@ -17,36 +17,37 @@
 | [^13] | [Detecting Out-of-Context Multimodal Misinformation with interpretable neural-symbolic model.](http://arxiv.org/abs/2304.07633) | 本论文提出了一种可解释的神经符号模型，用于检测上下文不符的虚假多模态信息，帮助事实检查网站进行记录澄清。 |
 | [^14] | [Neural Approaches to Entity-Centric Information Extraction.](http://arxiv.org/abs/2304.07625) | 本文介绍了实体中心的信息提取方法，通过考虑实体概念，提出构建按实体概念工作的应用程序的新思路，且该方法可以有效地提高实体链接任务的效果。 |
 | [^15] | [Can ChatGPT Forecast Stock Price Movements? Return Predictability and Large Language Models.](http://arxiv.org/abs/2304.07619) | 本研究探究了使用ChatGPT及其他大型语言模型预测股市回报的潜力，发现ChatGPT的预测表现优于传统情感分析方法，而基础模型无法准确预测股票价格变化，表明复杂模型可预测能力的崛起。这表明在投资决策过程中引入先进的语言模型可以提高预测准确性并增强定量交易策略的表现。 |
-| [^16] | [Robust Educational Dialogue Act Classifiers with Low-Resource and Imbalanced Datasets.](http://arxiv.org/abs/2304.07499) | 本文提出了一种新型的教育对话行为分类器MIREX，它采用互信息最小化损失来提高对不平衡和低资源数据情景下数据的鲁棒性，并在实验中展现出较好的效果。 |
-| [^17] | [Tractable Control for Autoregressive Language Generation.](http://arxiv.org/abs/2304.07438) | 本文提出了一种在自回归文本生成中使用可操作概率模型来强制实施限制的控制方法GeLaTo，并取得了在常见的约束文本生成测试上的最先进性能。 |
-| [^18] | [Improving Patient Pre-screening for Clinical Trials: Assisting Physicians with Large Language Models.](http://arxiv.org/abs/2304.07396) | 本文研究了使用大型语言模型InstructGPT辅助医生预筛选患者是否符合临床试验资格。通过10个合成患者简况的性能评估，展示了LLMs在识别筛选资格标准、单独分类、整体分类、以及需要筛选资格标准的百分比上的表现。 |
-| [^19] | [Zero-Shot Multi-Label Topic Inference with Sentence Encoders.](http://arxiv.org/abs/2304.07382) | 本文研究了如何利用句子编码器进行“零样本主题推断”任务，并通过实验证明了Sentence-BERT在通用性方面优于其他编码器，而在效率方面则优先选择通用句子编码器。 |
-| [^20] | [The Self-Perception and Political Biases of ChatGPT.](http://arxiv.org/abs/2304.07333) | 本文针对OpenAI的语言模型ChatGPT进行自我认知和政治偏见分析，测试结果显示ChatGPT偏向进步观点。 |
-| [^21] | [OpenAssistant Conversations -- Democratizing Large Language Model Alignment.](http://arxiv.org/abs/2304.07327) | 释放了OpenAssistant Conversations，这是一个由全球超过1,000名参与者进行人工生成和人工注释的助手风格对话语料库，可以通过SFT和RLHF有效地用于LLM对齐，提高模型性能和可用性。 |
-| [^22] | [Language Instructed Reinforcement Learning for Human-AI Coordination.](http://arxiv.org/abs/2304.07297) | 本文提出了一种称之为instructRL的新的框架，它通过自然语言指令来指定对人工智能搭档的预期策略，解决在缺乏高质量人类行为数据的领域中多智能体强化学习收敛于人类不偏爱的策略的问题，从而提高了人工智能协作的性能。 |
-| [^23] | [Vax-Culture: A Dataset for Studying Vaccine Discourse on Twitter.](http://arxiv.org/abs/2304.06858) | 本文介绍了一个推特疫苗数据集Vax-Culture，它旨在找出推广疫苗错误信息的文化和政治信念的重叠部分，帮助开发机器学习模型以自动检测疫苗错误信息帖子并应对其负面影响。 |
-| [^24] | [SpectFormer: Frequency and Attention is what you need in a Vision Transformer.](http://arxiv.org/abs/2304.06446) | 本文提出了结合多头注意力和谱层的Spectformer架构，可以得到更好的性能表现，提高了top-1准确率2%。 |
-| [^25] | [DoctorGLM: Fine-tuning your Chinese Doctor is not a Herculean Task.](http://arxiv.org/abs/2304.01097) | 使用中文医学对话数据库，微调ChatGLM-6B模型，实现易于部署的以医疗为目的的LLM，从而提高医疗建议的精度和推广LLM的可行性。 |
-| [^26] | [A Survey of Large Language Models.](http://arxiv.org/abs/2303.18223) | 本文综述了大型语言模型的研究历程以及最近的预训练语言模型(PLMs)，并强调模型扩展将带来性能改进和特殊能力的发掘。 |
-| [^27] | [Large Language Models Can Be Used to Estimate the Ideologies of Politicians in a Zero-Shot Learning Setting.](http://arxiv.org/abs/2303.12057) | 本文展示了在零-shot学习环境下，大型语言模型可以用于评估政治家的意识形态，为我们更好地理解政治功能提供了有用的信息。 |
-| [^28] | [Disambiguation of Company names via Deep Recurrent Networks.](http://arxiv.org/abs/2303.05391) | 本研究提出了一种利用深度递归网络进行公司名称消歧的方法，相较于标准字符串匹配算法具有更优的表现，还采用主动学习来优化样本标记效率。 |
-| [^29] | [xCodeEval: A Large Scale Multilingual Multitask Benchmark for Code Understanding, Generation, Translation and Retrieval.](http://arxiv.org/abs/2303.03004) | xCodeEval是一个大规模多语言多任务的基准，用于评估预训练的大型语言模型生成、修复、翻译和检索代码的能力，并解决了以往仅关注特定任务和缺乏训练数据的问题。 |
-| [^30] | [E2E Spoken Entity Extraction for Virtual Agents.](http://arxiv.org/abs/2302.10186) | 本文研究了利用预训练语音编码器从语音中直接提取实体的方法，无需文本转录，且在口语实体识别任务中表现优异。 |
-| [^31] | [Semantic Uncertainty: Linguistic Invariances for Uncertainty Estimation in Natural Language Generation.](http://arxiv.org/abs/2302.09664) | 本文提出了一种测量大型语言模型中不确定性的方法，引入了语义熵以克服自然语言中的“语义等价性”，该方法是无监督的，并且对于问题回答数据集上的模型准确性具有更好的预测性能。 |
-| [^32] | [Knowledge Enhanced Semantic Communication Receiver.](http://arxiv.org/abs/2302.07727) | 提出了一个知识增强的语义通信框架，其中接收器可以更积极地利用知识库中的事实进行语义推理和解码，并通过知识提取器和基于GCN的语义解码器实现了更好的性能，不影响发射端的神经网络结构。 |
-| [^33] | [Is Multimodal Vision Supervision Beneficial to Language?.](http://arxiv.org/abs/2302.05016) | 本文探讨了使用视觉监督训练的语言表示是否比普通语言表示在自然语言理解和常识推理基准测试方面表现更好。结果表明，大多数任务中，普通的语言表示表现出更好的性能。 |
-| [^34] | [GLIGEN: Open-Set Grounded Text-to-Image Generation.](http://arxiv.org/abs/2301.07093) | GLIGEN是一种开放式基于语言关联性和预训练的文本到图像生成方法，通过门控机制注入连结信息，能够实现零样本的基于关键字和边界框的文本到图像生成，性能优于现有的监督布局到图像的基线。 |
-| [^35] | [VaxxHesitancy: A Dataset for Studying Hesitancy Towards COVID-19 Vaccination on Twitter.](http://arxiv.org/abs/2301.06660) | 该论文介绍了一份用于研究推特上 COVID-19 疫苗犹豫的数据集，疫苗犹豫一直是一个普遍的问题，了解公众对 COVID-19 疫苗犹豫的原因非常重要。 |
-| [^36] | [Efficiently Trained Low-Resource Mongolian Text-to-Speech System Based On FullConv-TTS.](http://arxiv.org/abs/2211.01948) | 该论文提出了一个基于全卷积神经网络训练的低资源蒙古语文本到语音系统，相较于传统的包含循环神经网络的TTS模型，训练时间更短且音频合成质量不降低。 |
-| [^37] | [Modeling structure-building in the brain with CCG parsing and large language models.](http://arxiv.org/abs/2210.16147) | 本研究使用CCG和大型语言模型模拟人类神经信号，发现比无上下文文法更具表达力的CCG更适合表达语法结构。 |
-| [^38] | [Schema-aware Reference as Prompt Improves Data-Efficient Knowledge Graph Construction.](http://arxiv.org/abs/2210.10709) | 提出了一种以检索增强的架构感知参考作为提示的方法，可动态利用人类注释和弱监督数据所继承的架构和知识，指导生成具有更好语义连贯性和一致性的结构化知识，从而在数据效率和知识质量方面具有优越性。 |
-| [^39] | [A New Path: Scaling Vision-and-Language Navigation with Synthetic Instructions and Imitation Learning.](http://arxiv.org/abs/2210.03112) | 该论文研究了使用合成指令的大规模扩充方法，通过构建导航轨迹并使用高质量的多语言导航指令生成器Marky生成基于图像的指令，以及使用图像到图像GAN在新的视角上合成图像观察。这些方法得到了更强的视觉语言导航模型。 |
-| [^40] | [DecAF: Joint Decoding of Answers and Logical Forms for Question Answering over Knowledge Bases.](http://arxiv.org/abs/2210.00063) | DecAF 提出了一种联合生成逻辑形式和直接答案的新型框架，结合了它们的优点以获取最终答案；同时，它还采用了简单的自由文本检索，相比以往的方法更易于适应不同的数据集。 |
-| [^41] | [LUT-GEMM: Quantized Matrix Multiplication based on LUTs for Efficient Inference in Large-Scale Generative Language Models.](http://arxiv.org/abs/2206.09557) | 本文介绍了一种基于LUT的量化矩阵乘法，用于大规模生成式语言模型的高效推理。采用仅针对权重的量化策略，并提出了LUT-GEMM内核加速量化矩阵乘法，实现压缩比和准确性之间的灵活平衡。 |
-| [^42] | [Least-to-Most Prompting Enables Complex Reasoning in Large Language Models.](http://arxiv.org/abs/2205.10625) | 本文提出最少到最多提示的策略，能够帮助大规模语言模型实现复杂推理并推广到难度更高的问题。通过这种策略结合GPT-3 code-davinci-002模型能够完美解决组合泛化基准SCAN中的所有分割。 |
-| [^43] | [TraVLR: Now You See It, Now You Don't! A Bimodal Dataset for Evaluating Visio-Linguistic Reasoning.](http://arxiv.org/abs/2111.10756) | 提出了TraVLR数据集，可以用于评估V+L模型的表现，数据集合成，包括四个V+L推理任务，同时使用双模式冗余编码来评估其泛化能力。 |
-| [^44] | [Unified Instance and Knowledge Alignment Pretraining for Aspect-based Sentiment Analysis.](http://arxiv.org/abs/2110.13398) | 本论文提出了一种统一实例和知识对齐预训练框架，能够有效解决预训练和下游ABSA数据集之间的领域偏移问题，提高了基于方面的情感分析的性能，达到了最先进水平。 |
-| [^45] | [DeliData: A dataset for deliberation in multi-party problem solving.](http://arxiv.org/abs/2108.05271) | 该文介绍了第一个公开可用的群体协商数据集，500个小组对话和14k个话语，64%的小组成员能够找到比他们单独找到的更好的解决方案。同时提出了一种新的注释模式用于捕捉协商线索，并使用该数据集评估了两种生成协商话语的方法。 |
+| [^16] | [A CTC Alignment-based Non-autoregressive Transformer for End-to-end Automatic Speech Recognition.](http://arxiv.org/abs/2304.07611) | 本文提出了一种基于CTC对齐的单步非自回归变压器（CASS-NAT），将自回归变压器中的词嵌入替换为编码器输出中提取的令牌级声学嵌入（TAE）进行端到端自动语音识别，能够并行产生输出令牌。 |
+| [^17] | [Robust Educational Dialogue Act Classifiers with Low-Resource and Imbalanced Datasets.](http://arxiv.org/abs/2304.07499) | 本文提出了一种新型的教育对话行为分类器MIREX，它采用互信息最小化损失来提高对不平衡和低资源数据情景下数据的鲁棒性，并在实验中展现出较好的效果。 |
+| [^18] | [Tractable Control for Autoregressive Language Generation.](http://arxiv.org/abs/2304.07438) | 本文提出了一种在自回归文本生成中使用可操作概率模型来强制实施限制的控制方法GeLaTo，并取得了在常见的约束文本生成测试上的最先进性能。 |
+| [^19] | [Improving Patient Pre-screening for Clinical Trials: Assisting Physicians with Large Language Models.](http://arxiv.org/abs/2304.07396) | 本文研究了使用大型语言模型InstructGPT辅助医生预筛选患者是否符合临床试验资格。通过10个合成患者简况的性能评估，展示了LLMs在识别筛选资格标准、单独分类、整体分类、以及需要筛选资格标准的百分比上的表现。 |
+| [^20] | [Zero-Shot Multi-Label Topic Inference with Sentence Encoders.](http://arxiv.org/abs/2304.07382) | 本文研究了如何利用句子编码器进行“零样本主题推断”任务，并通过实验证明了Sentence-BERT在通用性方面优于其他编码器，而在效率方面则优先选择通用句子编码器。 |
+| [^21] | [The Self-Perception and Political Biases of ChatGPT.](http://arxiv.org/abs/2304.07333) | 本文针对OpenAI的语言模型ChatGPT进行自我认知和政治偏见分析，测试结果显示ChatGPT偏向进步观点。 |
+| [^22] | [OpenAssistant Conversations -- Democratizing Large Language Model Alignment.](http://arxiv.org/abs/2304.07327) | 释放了OpenAssistant Conversations，这是一个由全球超过1,000名参与者进行人工生成和人工注释的助手风格对话语料库，可以通过SFT和RLHF有效地用于LLM对齐，提高模型性能和可用性。 |
+| [^23] | [Language Instructed Reinforcement Learning for Human-AI Coordination.](http://arxiv.org/abs/2304.07297) | 本文提出了一种称之为instructRL的新的框架，它通过自然语言指令来指定对人工智能搭档的预期策略，解决在缺乏高质量人类行为数据的领域中多智能体强化学习收敛于人类不偏爱的策略的问题，从而提高了人工智能协作的性能。 |
+| [^24] | [Vax-Culture: A Dataset for Studying Vaccine Discourse on Twitter.](http://arxiv.org/abs/2304.06858) | 本文介绍了一个推特疫苗数据集Vax-Culture，它旨在找出推广疫苗错误信息的文化和政治信念的重叠部分，帮助开发机器学习模型以自动检测疫苗错误信息帖子并应对其负面影响。 |
+| [^25] | [SpectFormer: Frequency and Attention is what you need in a Vision Transformer.](http://arxiv.org/abs/2304.06446) | 本文提出了结合多头注意力和谱层的Spectformer架构，可以得到更好的性能表现，提高了top-1准确率2%。 |
+| [^26] | [DoctorGLM: Fine-tuning your Chinese Doctor is not a Herculean Task.](http://arxiv.org/abs/2304.01097) | 使用中文医学对话数据库，微调ChatGLM-6B模型，实现易于部署的以医疗为目的的LLM，从而提高医疗建议的精度和推广LLM的可行性。 |
+| [^27] | [A Survey of Large Language Models.](http://arxiv.org/abs/2303.18223) | 本文综述了大型语言模型的研究历程以及最近的预训练语言模型(PLMs)，并强调模型扩展将带来性能改进和特殊能力的发掘。 |
+| [^28] | [Large Language Models Can Be Used to Estimate the Ideologies of Politicians in a Zero-Shot Learning Setting.](http://arxiv.org/abs/2303.12057) | 本文展示了在零-shot学习环境下，大型语言模型可以用于评估政治家的意识形态，为我们更好地理解政治功能提供了有用的信息。 |
+| [^29] | [Disambiguation of Company names via Deep Recurrent Networks.](http://arxiv.org/abs/2303.05391) | 本研究提出了一种利用深度递归网络进行公司名称消歧的方法，相较于标准字符串匹配算法具有更优的表现，还采用主动学习来优化样本标记效率。 |
+| [^30] | [xCodeEval: A Large Scale Multilingual Multitask Benchmark for Code Understanding, Generation, Translation and Retrieval.](http://arxiv.org/abs/2303.03004) | xCodeEval是一个大规模多语言多任务的基准，用于评估预训练的大型语言模型生成、修复、翻译和检索代码的能力，并解决了以往仅关注特定任务和缺乏训练数据的问题。 |
+| [^31] | [E2E Spoken Entity Extraction for Virtual Agents.](http://arxiv.org/abs/2302.10186) | 本文研究了利用预训练语音编码器从语音中直接提取实体的方法，无需文本转录，且在口语实体识别任务中表现优异。 |
+| [^32] | [Semantic Uncertainty: Linguistic Invariances for Uncertainty Estimation in Natural Language Generation.](http://arxiv.org/abs/2302.09664) | 本文提出了一种测量大型语言模型中不确定性的方法，引入了语义熵以克服自然语言中的“语义等价性”，该方法是无监督的，并且对于问题回答数据集上的模型准确性具有更好的预测性能。 |
+| [^33] | [Knowledge Enhanced Semantic Communication Receiver.](http://arxiv.org/abs/2302.07727) | 提出了一个知识增强的语义通信框架，其中接收器可以更积极地利用知识库中的事实进行语义推理和解码，并通过知识提取器和基于GCN的语义解码器实现了更好的性能，不影响发射端的神经网络结构。 |
+| [^34] | [Is Multimodal Vision Supervision Beneficial to Language?.](http://arxiv.org/abs/2302.05016) | 本文探讨了使用视觉监督训练的语言表示是否比普通语言表示在自然语言理解和常识推理基准测试方面表现更好。结果表明，大多数任务中，普通的语言表示表现出更好的性能。 |
+| [^35] | [GLIGEN: Open-Set Grounded Text-to-Image Generation.](http://arxiv.org/abs/2301.07093) | GLIGEN是一种开放式基于语言关联性和预训练的文本到图像生成方法，通过门控机制注入连结信息，能够实现零样本的基于关键字和边界框的文本到图像生成，性能优于现有的监督布局到图像的基线。 |
+| [^36] | [VaxxHesitancy: A Dataset for Studying Hesitancy Towards COVID-19 Vaccination on Twitter.](http://arxiv.org/abs/2301.06660) | 该论文介绍了一份用于研究推特上 COVID-19 疫苗犹豫的数据集，疫苗犹豫一直是一个普遍的问题，了解公众对 COVID-19 疫苗犹豫的原因非常重要。 |
+| [^37] | [Efficiently Trained Low-Resource Mongolian Text-to-Speech System Based On FullConv-TTS.](http://arxiv.org/abs/2211.01948) | 该论文提出了一个基于全卷积神经网络训练的低资源蒙古语文本到语音系统，相较于传统的包含循环神经网络的TTS模型，训练时间更短且音频合成质量不降低。 |
+| [^38] | [Modeling structure-building in the brain with CCG parsing and large language models.](http://arxiv.org/abs/2210.16147) | 本研究使用CCG和大型语言模型模拟人类神经信号，发现比无上下文文法更具表达力的CCG更适合表达语法结构。 |
+| [^39] | [Schema-aware Reference as Prompt Improves Data-Efficient Knowledge Graph Construction.](http://arxiv.org/abs/2210.10709) | 提出了一种以检索增强的架构感知参考作为提示的方法，可动态利用人类注释和弱监督数据所继承的架构和知识，指导生成具有更好语义连贯性和一致性的结构化知识，从而在数据效率和知识质量方面具有优越性。 |
+| [^40] | [A New Path: Scaling Vision-and-Language Navigation with Synthetic Instructions and Imitation Learning.](http://arxiv.org/abs/2210.03112) | 该论文研究了使用合成指令的大规模扩充方法，通过构建导航轨迹并使用高质量的多语言导航指令生成器Marky生成基于图像的指令，以及使用图像到图像GAN在新的视角上合成图像观察。这些方法得到了更强的视觉语言导航模型。 |
+| [^41] | [DecAF: Joint Decoding of Answers and Logical Forms for Question Answering over Knowledge Bases.](http://arxiv.org/abs/2210.00063) | DecAF 提出了一种联合生成逻辑形式和直接答案的新型框架，结合了它们的优点以获取最终答案；同时，它还采用了简单的自由文本检索，相比以往的方法更易于适应不同的数据集。 |
+| [^42] | [LUT-GEMM: Quantized Matrix Multiplication based on LUTs for Efficient Inference in Large-Scale Generative Language Models.](http://arxiv.org/abs/2206.09557) | 本文介绍了一种基于LUT的量化矩阵乘法，用于大规模生成式语言模型的高效推理。采用仅针对权重的量化策略，并提出了LUT-GEMM内核加速量化矩阵乘法，实现压缩比和准确性之间的灵活平衡。 |
+| [^43] | [Least-to-Most Prompting Enables Complex Reasoning in Large Language Models.](http://arxiv.org/abs/2205.10625) | 本文提出最少到最多提示的策略，能够帮助大规模语言模型实现复杂推理并推广到难度更高的问题。通过这种策略结合GPT-3 code-davinci-002模型能够完美解决组合泛化基准SCAN中的所有分割。 |
+| [^44] | [TraVLR: Now You See It, Now You Don't! A Bimodal Dataset for Evaluating Visio-Linguistic Reasoning.](http://arxiv.org/abs/2111.10756) | 提出了TraVLR数据集，可以用于评估V+L模型的表现，数据集合成，包括四个V+L推理任务，同时使用双模式冗余编码来评估其泛化能力。 |
+| [^45] | [Unified Instance and Knowledge Alignment Pretraining for Aspect-based Sentiment Analysis.](http://arxiv.org/abs/2110.13398) | 本论文提出了一种统一实例和知识对齐预训练框架，能够有效解决预训练和下游ABSA数据集之间的领域偏移问题，提高了基于方面的情感分析的性能，达到了最先进水平。 |
+| [^46] | [DeliData: A dataset for deliberation in multi-party problem solving.](http://arxiv.org/abs/2108.05271) | 该文介绍了第一个公开可用的群体协商数据集，500个小组对话和14k个话语，64%的小组成员能够找到比他们单独找到的更好的解决方案。同时提出了一种新的注释模式用于捕捉协商线索，并使用该数据集评估了两种生成协商话语的方法。 |
 
 # 详细
 
@@ -260,7 +261,21 @@
 
     We examine the potential of ChatGPT, and other large language models, in predicting stock market returns using sentiment analysis of news headlines. We use ChatGPT to indicate whether a given headline is good, bad, or irrelevant news for firms' stock prices. We then compute a numerical score and document a positive correlation between these ``ChatGPT scores'' and subsequent daily stock market returns. Further, ChatGPT outperforms traditional sentiment analysis methods. We find that more basic models such as GPT-1, GPT-2, and BERT cannot accurately forecast returns, indicating return predictability is an emerging capacity of complex models. Our results suggest that incorporating advanced language models into the investment decision-making process can yield more accurate predictions and enhance the performance of quantitative trading strategies.
     
-[^16]: 低资源和不平衡数据集下的鲁棒教育对话行为分类器
+[^16]: 基于CTC对齐的非自回归变压器用于端到端自动语音识别
+
+    A CTC Alignment-based Non-autoregressive Transformer for End-to-end Automatic Speech Recognition. (arXiv:2304.07611v1 [cs.CL])
+
+    [http://arxiv.org/abs/2304.07611](http://arxiv.org/abs/2304.07611)
+
+    本文提出了一种基于CTC对齐的单步非自回归变压器（CASS-NAT），将自回归变压器中的词嵌入替换为编码器输出中提取的令牌级声学嵌入（TAE）进行端到端自动语音识别，能够并行产生输出令牌。
+
+    
+
+    近年来，端到端模型已广泛应用于自动语音识别系统。其中最具代表性的两种方法是连接主义时间分类（CTC）和基于注意力的编码器-解码器（AED）模型。自回归变压器是AED的变体，采用自回归机制进行令牌生成，在推理期间相对较慢。在本文中，我们提出了一种基于CTC对齐的单步非自回归变压器（CASS-NAT）来进行端到端自动语音识别的全面研究。在CASS-NAT中，自回归变压器（AT）中的词嵌入被替换为通过CTC对齐提供的音韵边界信息从编码器输出中提取的令牌级声学嵌入（TAE）。TAE可以并行获取，从而产生并行的输出令牌。在训练期间，使用Viterbi对齐进行TAE生成，并进一步探索多种训练策略以提高单词错误率。
+
+    Recently, end-to-end models have been widely used in automatic speech recognition (ASR) systems. Two of the most representative approaches are connectionist temporal classification (CTC) and attention-based encoder-decoder (AED) models. Autoregressive transformers, variants of AED, adopt an autoregressive mechanism for token generation and thus are relatively slow during inference. In this paper, we present a comprehensive study of a CTC Alignment-based Single-Step Non-Autoregressive Transformer (CASS-NAT) for end-to-end ASR. In CASS-NAT, word embeddings in the autoregressive transformer (AT) are substituted with token-level acoustic embeddings (TAE) that are extracted from encoder outputs with the acoustical boundary information offered by the CTC alignment. TAE can be obtained in parallel, resulting in a parallel generation of output tokens. During training, Viterbi-alignment is used for TAE generation, and multiple training strategies are further explored to improve the word error r
+    
+[^17]: 低资源和不平衡数据集下的鲁棒教育对话行为分类器
 
     Robust Educational Dialogue Act Classifiers with Low-Resource and Imbalanced Datasets. (arXiv:2304.07499v1 [cs.CL])
 
@@ -274,7 +289,7 @@
 
     Dialogue acts (DAs) can represent conversational actions of tutors or students that take place during tutoring dialogues. Automating the identification of DAs in tutoring dialogues is significant to the design of dialogue-based intelligent tutoring systems. Many prior studies employ machine learning models to classify DAs in tutoring dialogues and invest much effort to optimize the classification accuracy by using limited amounts of training data (i.e., low-resource data scenario). However, beyond the classification accuracy, the robustness of the classifier is also important, which can reflect the capability of the classifier on learning the patterns from different class distributions. We note that many prior studies on classifying educational DAs employ cross entropy (CE) loss to optimize DA classifiers on low-resource data with imbalanced DA distribution. The DA classifiers in these studies tend to prioritize accuracy on the majority class at the expense of the minority class which 
     
-[^17]: 可操作的自回归语言生成控制方法
+[^18]: 可操作的自回归语言生成控制方法
 
     Tractable Control for Autoregressive Language Generation. (arXiv:2304.07438v1 [cs.CL])
 
@@ -288,7 +303,7 @@
 
     Despite the success of autoregressive large language models in text generation, it remains a major challenge to generate text that satisfies complex constraints: sampling from the conditional distribution $\Pr(\text{text} | \alpha)$ is intractable for even the simplest lexical constraints $\alpha$. To overcome this challenge, we propose to use tractable probabilistic models to impose lexical constraints in autoregressive text generation, which we refer to as GeLaTo. To demonstrate the effectiveness of this framework, we use distilled hidden Markov models to control autoregressive generation from GPT2. GeLaTo achieves state-of-the-art performance on CommonGen, a challenging benchmark for constrained text generation, beating a wide range of strong baselines by a large margin. Our work not only opens up new avenues for controlling large language models but also motivates the development of more expressive tractable probabilistic models.
     
-[^18]: 改善临床试验的患者预筛选：利用大型语言模型辅助医生
+[^19]: 改善临床试验的患者预筛选：利用大型语言模型辅助医生
 
     Improving Patient Pre-screening for Clinical Trials: Assisting Physicians with Large Language Models. (arXiv:2304.07396v1 [cs.LG])
 
@@ -302,7 +317,7 @@
 
     Physicians considering clinical trials for their patients are met with the laborious process of checking many text based eligibility criteria. Large Language Models (LLMs) have shown to perform well for clinical information extraction and clinical reasoning, including medical tests, but not yet in real-world scenarios. This paper investigates the use of InstructGPT to assist physicians in determining eligibility for clinical trials based on a patient's summarised medical profile. Using a prompting strategy combining one-shot, selection-inference and chain-of-thought techniques, we investigate the performance of LLMs on 10 synthetically created patient profiles. Performance is evaluated at four levels: ability to identify screenable eligibility criteria from a trial given a medical profile; ability to classify for each individual criterion whether the patient qualifies; the overall classification whether a patient is eligible for a clinical trial and the percentage of criteria to be scr
     
-[^19]: 利用句子编码器进行零样本多标签主题推断
+[^20]: 利用句子编码器进行零样本多标签主题推断
 
     Zero-Shot Multi-Label Topic Inference with Sentence Encoders. (arXiv:2304.07382v1 [cs.CL])
 
@@ -316,7 +331,7 @@
 
     Sentence encoders have indeed been shown to achieve superior performances for many downstream text-mining tasks and, thus, claimed to be fairly general. Inspired by this, we performed a detailed study on how to leverage these sentence encoders for the "zero-shot topic inference" task, where the topics are defined/provided by the users in real-time. Extensive experiments on seven different datasets demonstrate that Sentence-BERT demonstrates superior generality compared to other encoders, while Universal Sentence Encoder can be preferred when efficiency is a top priority.
     
-[^20]: ChatGPT的自我认知和政治偏见分析
+[^21]: ChatGPT的自我认知和政治偏见分析
 
     The Self-Perception and Political Biases of ChatGPT. (arXiv:2304.07333v1 [cs.CY])
 
@@ -330,7 +345,7 @@
 
     This contribution analyzes the self-perception and political biases of OpenAI's Large Language Model ChatGPT. Taking into account the first small-scale reports and studies that have emerged, claiming that ChatGPT is politically biased towards progressive and libertarian points of view, this contribution aims to provide further clarity on this subject. For this purpose, ChatGPT was asked to answer the questions posed by the political compass test as well as similar questionnaires that are specific to the respective politics of the G7 member states. These eight tests were repeated ten times each and revealed that ChatGPT seems to hold a bias towards progressive views. The political compass test revealed a bias towards progressive and libertarian views, with the average coordinates on the political compass being (-6.48, -5.99) (with (0, 0) the center of the compass, i.e., centrism and the axes ranging from -10 to 10), supporting the claims of prior research. The political questionnaires f
     
-[^21]: OpenAssistant Conversations -- 民主化大型语言模型的对齐方法
+[^22]: OpenAssistant Conversations -- 民主化大型语言模型的对齐方法
 
     OpenAssistant Conversations -- Democratizing Large Language Model Alignment. (arXiv:2304.07327v1 [cs.CL])
 
@@ -344,7 +359,7 @@
 
     Aligning large language models (LLMs) with human preferences has proven to drastically improve usability and has driven rapid adoption as demonstrated by ChatGPT. Alignment techniques such as supervised fine-tuning (SFT) and reinforcement learning from human feedback (RLHF) greatly reduce the required skill and domain knowledge to effectively harness the capabilities of LLMs, increasing their accessibility and utility across various domains. However, state-of-the-art alignment techniques like RLHF rely on high-quality human feedback data, which is expensive to create and often remains proprietary. In an effort to democratize research on large-scale alignment, we release OpenAssistant Conversations, a human-generated, human-annotated assistant-style conversation corpus consisting of 161,443 messages distributed across 66,497 conversation trees, in 35 different languages, annotated with 461,292 quality ratings. The corpus is a product of a worldwide crowd-sourcing effort involving over 1
     
-[^22]: 语言指导下的强化学习以实现人工智能协作
+[^23]: 语言指导下的强化学习以实现人工智能协作
 
     Language Instructed Reinforcement Learning for Human-AI Coordination. (arXiv:2304.07297v1 [cs.AI])
 
@@ -358,7 +373,7 @@
 
     One of the fundamental quests of AI is to produce agents that coordinate well with humans. This problem is challenging, especially in domains that lack high quality human behavioral data, because multi-agent reinforcement learning (RL) often converges to different equilibria from the ones that humans prefer. We propose a novel framework, instructRL, that enables humans to specify what kind of strategies they expect from their AI partners through natural language instructions. We use pretrained large language models to generate a prior policy conditioned on the human instruction and use the prior to regularize the RL objective. This leads to the RL agent converging to equilibria that are aligned with human preferences. We show that instructRL converges to human-like policies that satisfy the given instructions in a proof-of-concept environment as well as the challenging Hanabi benchmark. Finally, we show that knowing the language instruction significantly boosts human-AI coordination pe
     
-[^23]: Vax-Culture: 用于研究推特上疫苗讨论的数据集
+[^24]: Vax-Culture: 用于研究推特上疫苗讨论的数据集
 
     Vax-Culture: A Dataset for Studying Vaccine Discourse on Twitter. (arXiv:2304.06858v1 [cs.SI])
 
@@ -372,7 +387,7 @@
 
     Vaccine hesitancy continues to be a main challenge for public health officials during the COVID-19 pandemic. As this hesitancy undermines vaccine campaigns, many researchers have sought to identify its root causes, finding that the increasing volume of anti-vaccine misinformation on social media platforms is a key element of this problem. We explored Twitter as a source of misleading content with the goal of extracting overlapping cultural and political beliefs that motivate the spread of vaccine misinformation. To do this, we have collected a data set of vaccine-related Tweets and annotated them with the help of a team of annotators with a background in communications and journalism. Ultimately we hope this can lead to effective and targeted public health communication strategies for reaching individuals with anti-vaccine beliefs. Moreover, this information helps with developing Machine Learning models to automatically detect vaccine misinformation posts and combat their negative impa
     
-[^24]: SpectFormer: 频率和注意力是视觉Transformer所需要的。
+[^25]: SpectFormer: 频率和注意力是视觉Transformer所需要的。
 
     SpectFormer: Frequency and Attention is what you need in a Vision Transformer. (arXiv:2304.06446v1 [cs.CV])
 
@@ -386,7 +401,7 @@
 
     Vision transformers have been applied successfully for image recognition tasks. There have been either multi-headed self-attention based (ViT \cite{dosovitskiy2020image}, DeIT, \cite{touvron2021training}) similar to the original work in textual models or more recently based on spectral layers (Fnet\cite{lee2021fnet}, GFNet\cite{rao2021global}, AFNO\cite{guibas2021efficient}). We hypothesize that both spectral and multi-headed attention plays a major role. We investigate this hypothesis through this work and observe that indeed combining spectral and multi-headed attention layers provides a better transformer architecture. We thus propose the novel Spectformer architecture for transformers that combines spectral and multi-headed attention layers. We believe that the resulting representation allows the transformer to capture the feature representation appropriately and it yields improved performance over other transformer representations. For instance, it improves the top-1 accuracy by 2
     
-[^25]: DoctorGLM：让中文医生调整不再是一个艰巨的任务
+[^26]: DoctorGLM：让中文医生调整不再是一个艰巨的任务
 
     DoctorGLM: Fine-tuning your Chinese Doctor is not a Herculean Task. (arXiv:2304.01097v2 [cs.CL] UPDATED)
 
@@ -400,7 +415,7 @@
 
     The recent progress of large language models (LLMs), including ChatGPT and GPT-4, in comprehending and responding to human instructions has been remarkable. Nevertheless, these models typically perform better in English and have not been explicitly trained for the medical domain, resulting in suboptimal precision in diagnoses, drug recommendations, and other medical advice. Additionally, training and deploying a dialogue model is still believed to be impossible for hospitals, hindering the promotion of LLMs. To tackle these challenges, we have collected databases of medical dialogues in Chinese with ChatGPT's help and adopted several techniques to train an easy-deploy LLM. Remarkably, we were able to fine-tune the ChatGLM-6B on a single A100 80G in 13 hours, which means having a healthcare-purpose LLM can be very affordable. DoctorGLM is currently an early-stage engineering attempt and contain various mistakes. We are sharing it with the broader community to invite feedback and suggest
     
-[^26]: 大型语言模型综述
+[^27]: 大型语言模型综述
 
     A Survey of Large Language Models. (arXiv:2303.18223v1 [cs.CL])
 
@@ -414,7 +429,7 @@
 
     Language is essentially a complex, intricate system of human expressions governed by grammatical rules. It poses a significant challenge to develop capable AI algorithms for comprehending and grasping a language. As a major approach, language modeling has been widely studied for language understanding and generation in the past two decades, evolving from statistical language models to neural language models. Recently, pre-trained language models (PLMs) have been proposed by pre-training Transformer models over large-scale corpora, showing strong capabilities in solving various NLP tasks. Since researchers have found that model scaling can lead to performance improvement, they further study the scaling effect by increasing the model size to an even larger size. Interestingly, when the parameter scale exceeds a certain level, these enlarged language models not only achieve a significant performance improvement but also show some special abilities that are not present in small-scale langu
     
-[^27]: 大型语言模型可以在零-shot学习环境下用于评估政治家的意识形态
+[^28]: 大型语言模型可以在零-shot学习环境下用于评估政治家的意识形态
 
     Large Language Models Can Be Used to Estimate the Ideologies of Politicians in a Zero-Shot Learning Setting. (arXiv:2303.12057v1 [cs.CY])
 
@@ -428,7 +443,7 @@
 
     The mass aggregation of knowledge embedded in large language models (LLMs) holds the promise of new solutions to problems of observability and measurement in the social sciences. We examine the utility of one such model for a particularly difficult measurement task: measuring the latent ideology of lawmakers, which allows us to better understand functions that are core to democracy, such as how politics shape policy and how political actors represent their constituents. We scale the senators of the 116th United States Congress along the liberal-conservative spectrum by prompting ChatGPT to select the more liberal (or conservative) senator in pairwise comparisons. We show that the LLM produced stable answers across repeated iterations, did not hallucinate, and was not simply regurgitating information from a single source. This new scale strongly correlates with pre-existing liberal-conservative scales such as NOMINATE, but also differs in several important ways, such as correctly placin
     
-[^28]: 基于深度递归网络的公司名称消歧
+[^29]: 基于深度递归网络的公司名称消歧
 
     Disambiguation of Company names via Deep Recurrent Networks. (arXiv:2303.05391v2 [cs.CL] UPDATED)
 
@@ -442,7 +457,7 @@
 
     Name Entity Disambiguation is the Natural Language Processing task of identifying textual records corresponding to the same Named Entity, i.e. real-world entities represented as a list of attributes (names, places, organisations, etc.). In this work, we face the task of disambiguating companies on the basis of their written names. We propose a Siamese LSTM Network approach to extract -- via supervised learning -- an embedding of company name strings in a (relatively) low dimensional vector space and use this representation to identify pairs of company names that actually represent the same company (i.e. the same Entity).  Given that the manual labelling of string pairs is a rather onerous task, we analyse how an Active Learning approach to prioritise the samples to be labelled leads to a more efficient overall learning pipeline.  With empirical investigations, we show that our proposed Siamese Network outperforms several benchmark approaches based on standard string matching algorithms
     
-[^29]: xCodeEval：一个用于代码理解、生成、翻译和检索的大规模多语言多任务基准
+[^30]: xCodeEval：一个用于代码理解、生成、翻译和检索的大规模多语言多任务基准
 
     xCodeEval: A Large Scale Multilingual Multitask Benchmark for Code Understanding, Generation, Translation and Retrieval. (arXiv:2303.03004v2 [cs.CL] UPDATED)
 
@@ -456,7 +471,7 @@
 
     The ability to solve problems is a hallmark of intelligence and has been an enduring goal in AI. AI systems that can create programs as solutions to problems or assist developers in writing programs can increase productivity and make programming more accessible. Recently, pre-trained large language models have shown impressive abilities in generating new codes from natural language descriptions, repairing buggy codes, translating codes between languages, and retrieving relevant code segments. However, the evaluation of these models has often been performed in a scattered way on only one or two specific tasks, in a few languages, at a partial granularity (e.g., function) level and in many cases without proper training data. Even more concerning is that in most cases the evaluation of generated codes has been done in terms of mere lexical overlap rather than actual execution whereas semantic similarity (or equivalence) of two code segments depends only on their ``execution similarity'', 
     
-[^30]: 虚拟代理人的端到端口语化实体提取
+[^31]: 虚拟代理人的端到端口语化实体提取
 
     E2E Spoken Entity Extraction for Virtual Agents. (arXiv:2302.10186v4 [eess.AS] UPDATED)
 
@@ -470,7 +485,7 @@
 
     This paper reimagines some aspects of speech processing using speech encoders, specifically about extracting entities directly from speech, with no intermediate textual representation. In human-computer conversations, extracting entities such as names, postal addresses and email addresses from speech is a challenging task. In this paper, we study the impact of fine-tuning pre-trained speech encoders on extracting spoken entities in human-readable form directly from speech without the need for text transcription. We illustrate that such a direct approach optimizes the encoder to transcribe only the entity relevant portions of speech, ignoring the superfluous portions such as carrier phrases and spellings of entities. In the context of dialogs from an enterprise virtual agent, we demonstrate that the 1-step approach outperforms the typical 2-step cascade of first generating lexical transcriptions followed by text-based entity extraction for identifying spoken entities.
     
-[^31]: 语义不确定性：自然语言生成不确定性估计中的语言不变量
+[^32]: 语义不确定性：自然语言生成不确定性估计中的语言不变量
 
     Semantic Uncertainty: Linguistic Invariances for Uncertainty Estimation in Natural Language Generation. (arXiv:2302.09664v3 [cs.CL] UPDATED)
 
@@ -484,7 +499,7 @@
 
     We introduce a method to measure uncertainty in large language models. For tasks like question answering, it is essential to know when we can trust the natural language outputs of foundation models. We show that measuring uncertainty in natural language is challenging because of "semantic equivalence" -- different sentences can mean the same thing. To overcome these challenges we introduce semantic entropy -- an entropy which incorporates linguistic invariances created by shared meanings. Our method is unsupervised, uses only a single model, and requires no modifications to off-the-shelf language models. In comprehensive ablation studies we show that the semantic entropy is more predictive of model accuracy on question answering data sets than comparable baselines.
     
-[^32]: 知识增强的语义通信接收器
+[^33]: 知识增强的语义通信接收器
 
     Knowledge Enhanced Semantic Communication Receiver. (arXiv:2302.07727v2 [cs.CL] UPDATED)
 
@@ -498,7 +513,7 @@
 
     In recent years, with the rapid development of deep learning and natural language processing technologies, semantic communication has become a topic of great interest in the field of communication. Although existing deep learning-based semantic communication approaches have shown many advantages, they still do not make sufficient use of prior knowledge. Moreover, most existing semantic communication methods focus on the semantic encoding at the transmitter side, while we believe that the semantic decoding capability of the receiver should also be concerned. In this paper, we propose a knowledge enhanced semantic communication framework in which the receiver can more actively utilize the facts in the knowledge base for semantic reasoning and decoding, on the basis of only affecting the parameters rather than the structure of the neural networks at the transmitter side. Specifically, we design a transformer-based knowledge extractor to find relevant factual triples for the received noisy
     
-[^33]: 多模态视觉监督对语言有益吗？
+[^34]: 多模态视觉监督对语言有益吗？
 
     Is Multimodal Vision Supervision Beneficial to Language?. (arXiv:2302.05016v2 [cs.CV] UPDATED)
 
@@ -512,7 +527,7 @@
 
     Vision (image and video) - Language (VL) pre-training is the recent popular paradigm that achieved state-of-the-art results on multi-modal tasks like image-retrieval, video-retrieval, visual question answering etc. These models are trained in an unsupervised way and greatly benefit from the complementary modality supervision. In this paper, we explore if the language representations trained using vision supervision perform better than vanilla language representations on Natural Language Understanding and commonsense reasoning benchmarks. We experiment with a diverse set of image-text models such as ALBEF, BLIP, METER and video-text models like ALPRO, Frozen-in-Time (FiT), VIOLET. We compare the performance of language representations of stand-alone text encoders of these models to the language representations of text encoders learnt through vision supervision. Our experiments suggest that vanilla language representations show superior performance on most of the tasks. These results she
     
-[^34]: GLIGEN：开放式基于文本的图像生成方法
+[^35]: GLIGEN：开放式基于文本的图像生成方法
 
     GLIGEN: Open-Set Grounded Text-to-Image Generation. (arXiv:2301.07093v2 [cs.CV] UPDATED)
 
@@ -526,7 +541,7 @@
 
     Large-scale text-to-image diffusion models have made amazing advances. However, the status quo is to use text input alone, which can impede controllability. In this work, we propose GLIGEN, Grounded-Language-to-Image Generation, a novel approach that builds upon and extends the functionality of existing pre-trained text-to-image diffusion models by enabling them to also be conditioned on grounding inputs. To preserve the vast concept knowledge of the pre-trained model, we freeze all of its weights and inject the grounding information into new trainable layers via a gated mechanism. Our model achieves open-world grounded text2img generation with caption and bounding box condition inputs, and the grounding ability generalizes well to novel spatial configurations and concepts. GLIGEN's zero-shot performance on COCO and LVIS outperforms that of existing supervised layout-to-image baselines by a large margin.
     
-[^35]: VaxxHesitancy: 一份用于研究推特上对 COVID-19 疫苗犹豫的数据集。
+[^36]: VaxxHesitancy: 一份用于研究推特上对 COVID-19 疫苗犹豫的数据集。
 
     VaxxHesitancy: A Dataset for Studying Hesitancy Towards COVID-19 Vaccination on Twitter. (arXiv:2301.06660v3 [cs.CL] UPDATED)
 
@@ -540,7 +555,7 @@
 
     Vaccine hesitancy has been a common concern, probably since vaccines were created and, with the popularisation of social media, people started to express their concerns about vaccines online alongside those posting pro- and anti-vaccine content. Predictably, since the first mentions of a COVID-19 vaccine, social media users posted about their fears and concerns or about their support and belief into the effectiveness of these rapidly developing vaccines. Identifying and understanding the reasons behind public hesitancy towards COVID-19 vaccines is important for policy markers that need to develop actions to better inform the population with the aim of increasing vaccine take-up. In the case of COVID-19, where the fast development of the vaccines was mirrored closely by growth in anti-vaxx disinformation, automatic means of detecting citizen attitudes towards vaccination became necessary. This is an important computational social sciences task that requires data analysis in order to gai
     
-[^36]: 基于全卷积神经网络训练的低资源蒙古语文本到语音系统的高效实现
+[^37]: 基于全卷积神经网络训练的低资源蒙古语文本到语音系统的高效实现
 
     Efficiently Trained Low-Resource Mongolian Text-to-Speech System Based On FullConv-TTS. (arXiv:2211.01948v3 [cs.CL] UPDATED)
 
@@ -554,7 +569,7 @@
 
     Recurrent Neural Networks (RNNs) have become the standard modeling technique for sequence data, and are used in a number of novel text-to-speech models. However, training a TTS model including RNN components has certain requirements for GPU performance and takes a long time. In contrast, studies have shown that CNN-based sequence synthesis technology can greatly reduce training time in text-to-speech models while ensuring a certain performance due to its high parallelism. We propose a new text-to-speech system based on deep convolutional neural networks that does not employ any RNN components (recurrent units). At the same time, we improve the generality and robustness of our model through a series of data augmentation methods such as Time Warping, Frequency Mask, and Time Mask. The final experimental results show that the TTS model using only the CNN component can reduce the training time compared to the classic TTS models such as Tacotron while ensuring the quality of the synthesized
     
-[^37]: 用CCG解析和大型语言模型建模大脑中的结构建造
+[^38]: 用CCG解析和大型语言模型建模大脑中的结构建造
 
     Modeling structure-building in the brain with CCG parsing and large language models. (arXiv:2210.16147v3 [cs.CL] UPDATED)
 
@@ -568,7 +583,7 @@
 
     To model behavioral and neural correlates of language comprehension in naturalistic environments researchers have turned to broad-coverage tools from natural-language processing and machine learning. Where syntactic structure is explicitly modeled, prior work has relied predominantly on context-free grammars (CFG), yet such formalisms are not sufficiently expressive for human languages. Combinatory Categorial Grammars (CCGs) are sufficiently expressive directly compositional models of grammar with flexible constituency that affords incremental interpretation. In this work we evaluate whether a more expressive CCG provides a better model than a CFG for human neural signals collected with fMRI while participants listen to an audiobook story. We further test between variants of CCG that differ in how they handle optional adjuncts. These evaluations are carried out against a baseline that includes estimates of next-word predictability from a Transformer neural network language model. Such 
     
-[^38]: 以架构感知参考作为提示提高了数据有效的知识图谱构建
+[^39]: 以架构感知参考作为提示提高了数据有效的知识图谱构建
 
     Schema-aware Reference as Prompt Improves Data-Efficient Knowledge Graph Construction. (arXiv:2210.10709v4 [cs.CL] UPDATED)
 
@@ -582,7 +597,7 @@
 
     With the development of pre-trained language models, many prompt-based approaches to data-efficient knowledge graph construction have been proposed and achieved impressive performance. However, existing prompt-based learning methods for knowledge graph construction are still susceptible to several potential limitations: (i) semantic gap between natural language and output structured knowledge with pre-defined schema, which means model cannot fully exploit semantic knowledge with the constrained templates; (ii) representation learning with locally individual instances limits the performance given the insufficient features, which are unable to unleash the potential analogical capability of pre-trained language models. Motivated by these observations, we propose a retrieval-augmented approach, which retrieves schema-aware Reference As Prompt (RAP), for data-efficient knowledge graph construction. It can dynamically leverage schema and knowledge inherited from human-annotated and weak-supe
     
-[^39]: 一条新路: 用合成指令和模仿学习扩展视觉语言导航模型的规模
+[^40]: 一条新路: 用合成指令和模仿学习扩展视觉语言导航模型的规模
 
     A New Path: Scaling Vision-and-Language Navigation with Synthetic Instructions and Imitation Learning. (arXiv:2210.03112v3 [cs.LG] UPDATED)
 
@@ -596,7 +611,7 @@
 
     Recent studies in Vision-and-Language Navigation (VLN) train RL agents to execute natural-language navigation instructions in photorealistic environments, as a step towards robots that can follow human instructions. However, given the scarcity of human instruction data and limited diversity in the training environments, these agents still struggle with complex language grounding and spatial language understanding. Pretraining on large text and image-text datasets from the web has been extensively explored but the improvements are limited. We investigate large-scale augmentation with synthetic instructions. We take 500+ indoor environments captured in densely-sampled 360 degree panoramas, construct navigation trajectories through these panoramas, and generate a visually-grounded instruction for each trajectory using Marky, a high-quality multilingual navigation instruction generator. We also synthesize image observations from novel viewpoints using an image-to-image GAN. The resulting d
     
-[^40]: DecAF：针对知识库问答的答案和逻辑形式联合解码
+[^41]: DecAF：针对知识库问答的答案和逻辑形式联合解码
 
     DecAF: Joint Decoding of Answers and Logical Forms for Question Answering over Knowledge Bases. (arXiv:2210.00063v2 [cs.CL] UPDATED)
 
@@ -610,7 +625,7 @@
 
     Question answering over knowledge bases (KBs) aims to answer natural language questions with factual information such as entities and relations in KBs. Previous methods either generate logical forms that can be executed over KBs to obtain final answers or predict answers directly. Empirical results show that the former often produces more accurate answers, but it suffers from non-execution issues due to potential syntactic and semantic errors in the generated logical forms. In this work, we propose a novel framework DecAF that jointly generates both logical forms and direct answers, and then combines the merits of them to get the final answers. Moreover, different from most of the previous methods, DecAF is based on simple free-text retrieval without relying on any entity linking tools -- this simplification eases its adaptation to different datasets. DecAF achieves new state-of-the-art accuracy on WebQSP, FreebaseQA, and GrailQA benchmarks, while getting competitive results on the Com
     
-[^41]: LUT-GEMM：基于LUT的量化矩阵乘法，用于大规模生成式语言模型的高效推理
+[^42]: LUT-GEMM：基于LUT的量化矩阵乘法，用于大规模生成式语言模型的高效推理
 
     LUT-GEMM: Quantized Matrix Multiplication based on LUTs for Efficient Inference in Large-Scale Generative Language Models. (arXiv:2206.09557v3 [cs.DC] UPDATED)
 
@@ -624,7 +639,7 @@
 
     The recent advancements in self-supervised learning, combined with the Transformer architecture, have enabled natural language processing (NLP) to achieve remarkably low perplexity. However, powerful NLP models necessitate increasing model size, leading to substantial computational and memory requirements. In this paper, we introduce an efficient inference framework tailored for large-scale generative language models. To reduce the model size, we employ a weight-only quantization strategy while preserving full precision for activations. As a result, we attain sub-4-bit quantization for each weight through non-uniform or uniform quantization techniques. Our proposed kernel, called LUT-GEMM, then accelerates quantized matrix multiplications, offering a flexible balance between compression ratio and accuracy. Unlike earlier matrix multiplication kernels that accommodated weight-only quantization, LUT-GEMM efficiently eliminates the resource-demanding dequantization process for both unifor
     
-[^42]: 最少到最多提示可以使大规模语言模型实现复杂推理
+[^43]: 最少到最多提示可以使大规模语言模型实现复杂推理
 
     Least-to-Most Prompting Enables Complex Reasoning in Large Language Models. (arXiv:2205.10625v3 [cs.AI] UPDATED)
 
@@ -638,7 +653,7 @@
 
     Chain-of-thought prompting has demonstrated remarkable performance on various natural language reasoning tasks. However, it tends to perform poorly on tasks which requires solving problems harder than the exemplars shown in the prompts. To overcome this challenge of easy-to-hard generalization, we propose a novel prompting strategy, least-to-most prompting. The key idea in this strategy is to break down a complex problem into a series of simpler subproblems and then solve them in sequence. Solving each subproblem is facilitated by the answers to previously solved subproblems. Our experimental results on tasks related to symbolic manipulation, compositional generalization, and math reasoning reveal that least-to-most prompting is capable of generalizing to more difficult problems than those seen in the prompts. A notable finding is that when the GPT-3 code-davinci-002 model is used with least-to-most prompting, it can solve the compositional generalization benchmark SCAN in any split (i
     
-[^43]: TraVLR: 现在你看到它了，现在你没看到它了！一个用于评估视觉语言推理的双模数据集。
+[^44]: TraVLR: 现在你看到它了，现在你没看到它了！一个用于评估视觉语言推理的双模数据集。
 
     TraVLR: Now You See It, Now You Don't! A Bimodal Dataset for Evaluating Visio-Linguistic Reasoning. (arXiv:2111.10756v3 [cs.CL] UPDATED)
 
@@ -652,7 +667,7 @@
 
     Numerous visio-linguistic (V+L) representation learning methods have been developed, yet existing datasets do not adequately evaluate the extent to which they represent visual and linguistic concepts in a unified space. We propose several novel evaluation settings for V+L models, including cross-modal transfer. Furthermore, existing V+L benchmarks often report global accuracy scores on the entire dataset, making it difficult to pinpoint the specific reasoning tasks that models fail and succeed at. We present TraVLR, a synthetic dataset comprising four V+L reasoning tasks. TraVLR's synthetic nature allows us to constrain its training and testing distributions along task-relevant dimensions, enabling the evaluation of out-of-distribution generalisation. Each example in TraVLR redundantly encodes the scene in two modalities, allowing either to be dropped or added during training or testing without losing relevant information. We compare the performance of four state-of-the-art V+L models,
     
-[^44]: 统一实例和知识对齐预训练用于基于方面的情感分析
+[^45]: 统一实例和知识对齐预训练用于基于方面的情感分析
 
     Unified Instance and Knowledge Alignment Pretraining for Aspect-based Sentiment Analysis. (arXiv:2110.13398v2 [cs.CL] UPDATED)
 
@@ -666,7 +681,7 @@
 
     Aspect-based Sentiment Analysis (ABSA) aims to determine the sentiment polarity towards an aspect. Because of the expensive and limited labelled data, the pretraining strategy has become the de-facto standard for ABSA. However, there always exists severe domain shift between the pretraining and downstream ABSA datasets, hindering the effective knowledge transfer when directly finetuning and making the downstream task performs sub-optimal. To mitigate such domain shift, we introduce a unified alignment pretraining framework into the vanilla pretrain-finetune pipeline with both instance- and knowledge-level alignments. Specifically, we first devise a novel coarse-to-fine retrieval sampling approach to select target domain-related instances from the large-scale pretraining dataset, thus aligning the instances between pretraining and target domains (First Stage). Then, we introduce a knowledge guidance-based strategy to further bridge the domain gap at the knowledge level. In practice, we 
     
-[^45]: DeliData: 用于多方问题解决中的协商数据集
+[^46]: DeliData: 用于多方问题解决中的协商数据集
 
     DeliData: A dataset for deliberation in multi-party problem solving. (arXiv:2108.05271v3 [cs.CL] UPDATED)
 
