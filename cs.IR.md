@@ -20,15 +20,16 @@
 | [^16] | [Revisiting k-NN for Pre-trained Language Models.](http://arxiv.org/abs/2304.09058) | 本研究提出一种新方法，结合k-NN和预训练语言模型（PLMs）能够提高自然语言处理（NLP）的性能，并在多个基准数据集上得到验证。 |
 | [^17] | [CodeKGC: Code Language Model for Generative Knowledge Graph Construction.](http://arxiv.org/abs/2304.09048) | 本文提出了一种使用代码语言模型处理生成式知识图谱构建任务的方法，能够有效利用知识图谱内的语义结构，提高模型的可解释性。 |
 | [^18] | [Generalized Weak Supervision for Neural Information Retrieval.](http://arxiv.org/abs/2304.08912) | 本文提出了一种名为广义弱监督学习(GWS)的解决方案，它能够迭代地使用现有的排序模型(弱标注器)产生大量的训练数据，无需手动标注就能显著提高排序性能。 |
-| [^19] | [Dual-Ganularity Contrastive Learning for Session-based Recommendation.](http://arxiv.org/abs/2304.08873) | 本文提出一种基于双粒度对比学习的会话推荐系统，通过引入多粒度CL框架和新的CL策略，能够有效地捕捉会话之间微小的差异，并优于现有最先进的方法。 |
-| [^20] | [eTOP: Early Termination of Pipelines for Faster Training of AutoML Systems.](http://arxiv.org/abs/2304.08597) | eTOP框架可以在任何AutoML系统之上工作，并决定是否将执行管道到最后或在中间步骤终止以更快地训练模型。 |
-| [^21] | [CAM2: Conformity-Aware Multi-Task Ranking Model for Large-Scale Recommender Systems.](http://arxiv.org/abs/2304.08562) | CAM2是一个面向大规模推荐系统的一致性感知多任务排名模型，通过利用因果建模系统地解开用户对流行物品的一致性与他们真正兴趣的联系，来消除历史用户交互数据带来的一致性偏见，并在实践中得到有效的应用。 |
-| [^22] | [Quick Dense Retrievers Consume KALE: Post Training Kullback Leibler Alignment of Embeddings for Asymmetrical dual encoders.](http://arxiv.org/abs/2304.01016) | 本文提出了一种通过结构压缩和模型尺寸不对称的双编码器模型 KALE，有效提高密集信息检索的推理效率，同时允许查询编码器的有效压缩，而无需进行全部的再训练或索引生成，此方法能够生成超过DistilBERT性能的模型。 |
-| [^23] | [Order-Disorder: Imitation Adversarial Attacks for Black-box Neural Ranking Models.](http://arxiv.org/abs/2209.06506) | 本研究提出了一种模拟黑盒神经排名模型的对抗攻击，可被黑帽SEO用来打败更好防护的搜索引擎。 |
-| [^24] | [PMC-Patients: A Large-scale Dataset of Patient Summaries and Relations for Benchmarking Retrieval-based Clinical Decision Support Systems.](http://arxiv.org/abs/2202.13876) | 本文提出了一个名为“PMC-Patients”的新数据集，用于定义和测试病患到文章的检索（ReCDS-PAR）和病患到病患的检索（ReCDS-PPR），以评估基于召回的临床决策支持系统（ReCDS）的性能。PMC-Patients数据集涵盖逾10,000名病患信息和27,000篇PubMed Central文章，并展示了多种ReCDS系统的效果分析和20个案例的实用性分析。 |
-| [^25] | [Knowledge Extraction in Low-Resource Scenarios: Survey and Perspective.](http://arxiv.org/abs/2202.08063) | 低资源情境下，如何让知识抽取更好地从非结构化文本中提取信息？本文调研了三种解决范式：高资源数据、更强的模型和数据与模型的结合，提出了未来的研究方向。 |
-| [^26] | [An Optimal Algorithm for Finding Champions in Tournament Graphs.](http://arxiv.org/abs/2111.13621) | 本文提出了一种在完成最少比赛的前提下寻找锦标赛图中冠军（Copeland获胜者）的最优算法，该算法可以加速信息检索和推荐系统应用，这对于进行循环赛的机器学习模型具有重要的意义，能减少模型推理的数量。 |
-| [^27] | [Sparse Bayesian Learning Approach for Discrete Signal Reconstruction.](http://arxiv.org/abs/1906.00309) | 本研究提出了一种新的离散化先验，将其与稀疏贝叶斯学习框架和变分贝叶斯推理方法相结合，设计了一种交替优化算法，可以有效解决离散信号重建问题，并且具有显著的性能提高。 |
+| [^19] | [Discreetly Exploiting Inter-session Information for Session-based Recommendation.](http://arxiv.org/abs/2304.08894) | 本研究提出了DEISI模型，利用DRL技术在因素级别上区分会话间依赖性类型，并将稳定性作为新的衡量会话间依赖性权重的度量，同时加上相似性。在三个数据集上的实验显示DEISI优越的性能。 |
+| [^20] | [Dual-Ganularity Contrastive Learning for Session-based Recommendation.](http://arxiv.org/abs/2304.08873) | 本文提出一种基于双粒度对比学习的会话推荐系统，通过引入多粒度CL框架和新的CL策略，能够有效地捕捉会话之间微小的差异，并优于现有最先进的方法。 |
+| [^21] | [eTOP: Early Termination of Pipelines for Faster Training of AutoML Systems.](http://arxiv.org/abs/2304.08597) | eTOP框架可以在任何AutoML系统之上工作，并决定是否将执行管道到最后或在中间步骤终止以更快地训练模型。 |
+| [^22] | [CAM2: Conformity-Aware Multi-Task Ranking Model for Large-Scale Recommender Systems.](http://arxiv.org/abs/2304.08562) | CAM2是一个面向大规模推荐系统的一致性感知多任务排名模型，通过利用因果建模系统地解开用户对流行物品的一致性与他们真正兴趣的联系，来消除历史用户交互数据带来的一致性偏见，并在实践中得到有效的应用。 |
+| [^23] | [Quick Dense Retrievers Consume KALE: Post Training Kullback Leibler Alignment of Embeddings for Asymmetrical dual encoders.](http://arxiv.org/abs/2304.01016) | 本文提出了一种通过结构压缩和模型尺寸不对称的双编码器模型 KALE，有效提高密集信息检索的推理效率，同时允许查询编码器的有效压缩，而无需进行全部的再训练或索引生成，此方法能够生成超过DistilBERT性能的模型。 |
+| [^24] | [Order-Disorder: Imitation Adversarial Attacks for Black-box Neural Ranking Models.](http://arxiv.org/abs/2209.06506) | 本研究提出了一种模拟黑盒神经排名模型的对抗攻击，可被黑帽SEO用来打败更好防护的搜索引擎。 |
+| [^25] | [PMC-Patients: A Large-scale Dataset of Patient Summaries and Relations for Benchmarking Retrieval-based Clinical Decision Support Systems.](http://arxiv.org/abs/2202.13876) | 本文提出了一个名为“PMC-Patients”的新数据集，用于定义和测试病患到文章的检索（ReCDS-PAR）和病患到病患的检索（ReCDS-PPR），以评估基于召回的临床决策支持系统（ReCDS）的性能。PMC-Patients数据集涵盖逾10,000名病患信息和27,000篇PubMed Central文章，并展示了多种ReCDS系统的效果分析和20个案例的实用性分析。 |
+| [^26] | [Knowledge Extraction in Low-Resource Scenarios: Survey and Perspective.](http://arxiv.org/abs/2202.08063) | 低资源情境下，如何让知识抽取更好地从非结构化文本中提取信息？本文调研了三种解决范式：高资源数据、更强的模型和数据与模型的结合，提出了未来的研究方向。 |
+| [^27] | [An Optimal Algorithm for Finding Champions in Tournament Graphs.](http://arxiv.org/abs/2111.13621) | 本文提出了一种在完成最少比赛的前提下寻找锦标赛图中冠军（Copeland获胜者）的最优算法，该算法可以加速信息检索和推荐系统应用，这对于进行循环赛的机器学习模型具有重要的意义，能减少模型推理的数量。 |
+| [^28] | [Sparse Bayesian Learning Approach for Discrete Signal Reconstruction.](http://arxiv.org/abs/1906.00309) | 本研究提出了一种新的离散化先验，将其与稀疏贝叶斯学习框架和变分贝叶斯推理方法相结合，设计了一种交替优化算法，可以有效解决离散信号重建问题，并且具有显著的性能提高。 |
 
 # 详细
 
@@ -284,7 +285,21 @@
 
     Neural ranking models (NRMs) have demonstrated effective performance in several information retrieval (IR) tasks. However, training NRMs often requires large-scale training data, which is difficult and expensive to obtain. To address this issue, one can train NRMs via weak supervision, where a large dataset is automatically generated using an existing ranking model (called the weak labeler) for training NRMs. Weakly supervised NRMs can generalize from the observed data and significantly outperform the weak labeler. This paper generalizes this idea through an iterative re-labeling process, demonstrating that weakly supervised models can iteratively play the role of weak labeler and significantly improve ranking performance without using manually labeled data. The proposed Generalized Weak Supervision (GWS) solution is generic and orthogonal to the ranking model architecture. This paper offers four implementations of GWS: self-labeling, cross-labeling, joint cross- and self-labeling, and
     
-[^19]: 基于双粒度对比学习的会话推荐系统
+[^19]: 隐蔽地利用会话间信息进行基于Session的推荐
+
+    Discreetly Exploiting Inter-session Information for Session-based Recommendation. (arXiv:2304.08894v1 [cs.IR])
+
+    [http://arxiv.org/abs/2304.08894](http://arxiv.org/abs/2304.08894)
+
+    本研究提出了DEISI模型，利用DRL技术在因素级别上区分会话间依赖性类型，并将稳定性作为新的衡量会话间依赖性权重的度量，同时加上相似性。在三个数据集上的实验显示DEISI优越的性能。
+
+    
+
+    早期基于GNN的SBR模型的性能瓶颈是内部会话信息的限制。因此，一些基于GNN的SBR模型已经发展出引入额外的会话间信息以促进下一个项目预测的能力。然而，我们发现引入会话间信息可能会对这些模型造成干扰。可能的原因有两个。首先，会话间的依赖性在因素级别上没有区分。其次，通过相似性来衡量会话间权重是不够的。在本文中，我们提出了DEISI来解决这些问题。对于第一个问题，DEISI使用DRL技术帮助在因素级别上区分会话间依赖性的类型。对于第二个问题，DEISI引入稳定性作为衡量会话间依赖性权重的新度量，同时加上相似性。此外，CL用于提高模型的鲁棒性。在三个数据集上进行了大量实验，展示了DEISI优越的性能。
+
+    Limited intra-session information is the performance bottleneck of the early GNN based SBR models. Therefore, some GNN based SBR models have evolved to introduce additional inter-session information to facilitate the next-item prediction. However, we found that the introduction of inter-session information may bring interference to these models. The possible reasons are twofold. First, inter-session dependencies are not differentiated at the factor-level. Second, measuring inter-session weight by similarity is not enough. In this paper, we propose DEISI to solve the problems. For the first problem, DEISI differentiates the types of inter-session dependencies at the factor-level with the help of DRL technology. For the second problem, DEISI introduces stability as a new metric for weighting inter-session dependencies together with the similarity. Moreover, CL is used to improve the robustness of the model. Extensive experiments on three datasets show the superior performance of the DEIS
+    
+[^20]: 基于双粒度对比学习的会话推荐系统
 
     Dual-Ganularity Contrastive Learning for Session-based Recommendation. (arXiv:2304.08873v1 [cs.IR])
 
@@ -298,7 +313,7 @@
 
     Session-based recommendation systems(SBRS) are more suitable for the current e-commerce and streaming media recommendation scenarios and thus have become a hot topic. The data encountered by SBRS is typically highly sparse, which also serves as one of the bottlenecks limiting the accuracy of recommendations. So Contrastive Learning(CL) is applied in SBRS owing to its capability of improving embedding learning under the condition of sparse data. However, existing CL strategies are limited in their ability to enforce finer-grained (e.g., factor-level) comparisons and, as a result, are unable to capture subtle differences between instances. More than that, these strategies usually use item or segment dropout as a means of data augmentation which may result in sparser data and thus ineffective self-supervised signals. By addressing the two aforementioned limitations, we introduce a novel multi-granularity CL framework. Specifically, two extra augmented embedding convolution channels with d
     
-[^20]: eTOP：用于更快地训练AutoML系统的管道提前终止
+[^21]: eTOP：用于更快地训练AutoML系统的管道提前终止
 
     eTOP: Early Termination of Pipelines for Faster Training of AutoML Systems. (arXiv:2304.08597v1 [cs.LG])
 
@@ -312,7 +327,7 @@
 
     Recent advancements in software and hardware technologies have enabled the use of AI/ML models in everyday applications has significantly improved the quality of service rendered. However, for a given application, finding the right AI/ML model is a complex and costly process, that involves the generation, training, and evaluation of multiple interlinked steps (called pipelines), such as data pre-processing, feature engineering, selection, and model tuning. These pipelines are complex (in structure) and costly (both in compute resource and time) to execute end-to-end, with a hyper-parameter associated with each step. AutoML systems automate the search of these hyper-parameters but are slow, as they rely on optimizing the pipeline's end output. We propose the eTOP Framework which works on top of any AutoML system and decides whether or not to execute the pipeline to the end or terminate at an intermediate step. Experimental evaluation on 26 benchmark datasets and integration of eTOPwith 
     
-[^21]: CAM2: 面向大规模推荐系统的一致性感知多任务排名模型
+[^22]: CAM2: 面向大规模推荐系统的一致性感知多任务排名模型
 
     CAM2: Conformity-Aware Multi-Task Ranking Model for Large-Scale Recommender Systems. (arXiv:2304.08562v1 [cs.IR])
 
@@ -326,7 +341,7 @@
 
     Learning large-scale industrial recommender system models by fitting them to historical user interaction data makes them vulnerable to conformity bias. This may be due to a number of factors, including the fact that user interests may be difficult to determine and that many items are often interacted with based on ecosystem factors other than their relevance to the individual user. In this work, we introduce CAM2, a conformity-aware multi-task ranking model to serve relevant items to users on one of the largest industrial recommendation platforms. CAM2 addresses these challenges systematically by leveraging causal modeling to disentangle users' conformity to popular items from their true interests. This framework is generalizable and can be scaled to support multiple representations of conformity and user relevance in any large-scale recommender system. We provide deeper practical insights and demonstrate the effectiveness of the proposed model through improvements in offline evaluatio
     
-[^22]: 快速密集信息检索器利用KALE进行后置KL对齐的异形双编码器模型训练 (arXiv:2304.01016v2 [cs.CL] UPDATED)
+[^23]: 快速密集信息检索器利用KALE进行后置KL对齐的异形双编码器模型训练 (arXiv:2304.01016v2 [cs.CL] UPDATED)
 
     Quick Dense Retrievers Consume KALE: Post Training Kullback Leibler Alignment of Embeddings for Asymmetrical dual encoders. (arXiv:2304.01016v2 [cs.CL] UPDATED)
 
@@ -340,7 +355,7 @@
 
     In this paper, we consider the problem of improving the inference latency of language model-based dense retrieval systems by introducing structural compression and model size asymmetry between the context and query encoders. First, we investigate the impact of pre and post-training compression on the MSMARCO, Natural Questions, TriviaQA, SQUAD, and SCIFACT, finding that asymmetry in the dual encoders in dense retrieval can lead to improved inference efficiency. Knowing this, we introduce Kullback Leibler Alignment of Embeddings (KALE), an efficient and accurate method for increasing the inference efficiency of dense retrieval methods by pruning and aligning the query encoder after training. Specifically, KALE extends traditional Knowledge Distillation after bi-encoder training, allowing for effective query encoder compression without full retraining or index generation. Using KALE and asymmetric training, we can generate models which exceed the performance of DistilBERT despite having 
     
-[^23]: 阶-无序：黑盒神经排名模型的模拟对抗攻击
+[^24]: 阶-无序：黑盒神经排名模型的模拟对抗攻击
 
     Order-Disorder: Imitation Adversarial Attacks for Black-box Neural Ranking Models. (arXiv:2209.06506v2 [cs.IR] UPDATED)
 
@@ -354,7 +369,7 @@
 
     Neural text ranking models have witnessed significant advancement and are increasingly being deployed in practice. Unfortunately, they also inherit adversarial vulnerabilities of general neural models, which have been detected but remain underexplored by prior studies. Moreover, the inherit adversarial vulnerabilities might be leveraged by blackhat SEO to defeat better-protected search engines. In this study, we propose an imitation adversarial attack on black-box neural passage ranking models. We first show that the target passage ranking model can be transparentized and imitated by enumerating critical queries/candidates and then train a ranking imitation model. Leveraging the ranking imitation model, we can elaborately manipulate the ranking results and transfer the manipulation attack to the target ranking model. For this purpose, we propose an innovative gradient-based attack method, empowered by the pairwise objective function, to generate adversarial triggers, which causes preme
     
-[^24]: PMC-Patients: 用于评估基于召回的临床决策支持系统的大规模病患数据集
+[^25]: PMC-Patients: 用于评估基于召回的临床决策支持系统的大规模病患数据集
 
     PMC-Patients: A Large-scale Dataset of Patient Summaries and Relations for Benchmarking Retrieval-based Clinical Decision Support Systems. (arXiv:2202.13876v3 [cs.CL] UPDATED)
 
@@ -368,7 +383,7 @@
 
     Objective: Retrieval-based Clinical Decision Support (ReCDS) can aid clinical workflow by providing relevant literature and similar patients for a given patient. However, the development of ReCDS systems has been severely obstructed by the lack of diverse patient collections and publicly available large-scale patient-level annotation datasets. In this paper, we aim to define and benchmark two ReCDS tasks: Patient-to-Article Retrieval (ReCDS-PAR) and Patient-to-Patient Retrieval (ReCDS-PPR) using a novel dataset called PMC-Patients.  Methods: We extract patient summaries from PubMed Central articles using simple heuristics and utilize the PubMed citation graph to define patient-article relevance and patient-patient similarity. We also implement and evaluate several ReCDS systems on the PMC-Patients benchmarks, including sparse retrievers, dense retrievers, and nearest neighbor retrievers. We conduct several case studies to show the clinical utility of PMC-Patients.  Results: PMC-Patient
     
-[^25]: 低资源情境下的知识抽取：调研与展望
+[^26]: 低资源情境下的知识抽取：调研与展望
 
     Knowledge Extraction in Low-Resource Scenarios: Survey and Perspective. (arXiv:2202.08063v4 [cs.CL] UPDATED)
 
@@ -382,7 +397,7 @@
 
     Knowledge Extraction (KE), aiming to extract structural information from unstructured texts, often suffers from data scarcity and emerging unseen types, i.e., low-resource scenarios. Many neural approaches to low-resource KE have been widely investigated and achieved impressive performance. In this paper, we present a literature review towards KE in low-resource scenarios, and systematically categorize existing works into three paradigms: (1) exploiting higher-resource data, (2) exploiting stronger models, and (3) exploiting data and models together. In addition, we highlight promising applications and outline some potential directions for future research. We hope that our survey can help both the academic and industrial communities to better understand this field, inspire more ideas, and boost broader applications.
     
-[^26]: 寻找锦标赛图中冠军的最优算法
+[^27]: 寻找锦标赛图中冠军的最优算法
 
     An Optimal Algorithm for Finding Champions in Tournament Graphs. (arXiv:2111.13621v4 [cs.IR] UPDATED)
 
@@ -396,7 +411,7 @@
 
     A tournament graph is a complete directed graph, which can be used to model a round-robin tournament between $n$ players. In this paper, we address the problem of finding a champion of the tournament, also known as Copeland winner, which is a player that wins the highest number of matches. In detail, we aim to investigate algorithms that find the champion by playing a low number of matches. Solving this problem allows us to speed up several Information Retrieval and Recommender System applications, including question answering, conversational search, etc. Indeed, these applications often search for the champion inducing a round-robin tournament among the players by employing a machine learning model to estimate who wins each pairwise comparison. Our contribution, thus, allows finding the champion by performing a low number of model inferences. We prove that any deterministic or randomized algorithm finding a champion with constant success probability requires $\Omega(\ell n)$ compariso
     
-[^27]: 稀疏贝叶斯学习在离散信号重建中的应用
+[^28]: 稀疏贝叶斯学习在离散信号重建中的应用
 
     Sparse Bayesian Learning Approach for Discrete Signal Reconstruction. (arXiv:1906.00309v2 [eess.SP] UPDATED)
 
