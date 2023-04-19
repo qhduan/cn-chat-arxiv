@@ -5,14 +5,15 @@
 | [^1] | [Measuring the strengths of the teams in the UEFA Champions League.](http://arxiv.org/abs/2304.09078) | 本文研究了UEFA俱乐部系数在保证欧洲冠军联赛对手实力相同方面的局限性，并提出通过考虑国内联赛的比赛成绩来改进系数的建议。 |
 | [^2] | [Doubly Robust Estimators with Weak Overlap.](http://arxiv.org/abs/2304.08974) | 本文提出了适用于治疗效果估计的新的双重稳健估计器，该估计器可以处理弱协变量重叠，在修剪具有极端倾向得分的观察值的基础上，使用偏差校正装置来修剪偏差。 |
 | [^3] | [Climate uncertainty impacts on optimal mitigation pathways and social cost of carbon.](http://arxiv.org/abs/2304.08957) | 研究表明，气候不确定性是导致碳社会成本和最优CO$_2$减排量范围变化的关键因素，减少气候不确定性可以改进减排投入的成本计算，同时也指出了气候和排放之间缺失的反馈。 |
-| [^4] | [Risks and opportunities in arbitrage and market-making in blockchain-based currency markets. Part 1 : Risks.](http://arxiv.org/abs/2304.08590) | 本研究分析了区块链货币市场高频交易操作中可能存在的风险和潜在机会，提供了有用信息。 |
-| [^5] | [Credible Decentralized Exchange Design via Verifiable Sequencing Rules.](http://arxiv.org/abs/2209.15569) | 本研究提出可验证排序规则，为去中心化交易所提供了更可靠的交易执行方式，并对于现有矿工操纵市场的问题提供了解决方案。 |
-| [^6] | [Spatial frequency of unstable eigenfunction of the core-periphery model with transport cost of differentiated agriculture.](http://arxiv.org/abs/2206.01040) | 本文研究了具有不同运输成本的差异化农业的核心-边缘模型的不稳定特征函数的空间频率分析，结果发现随着频率的增加不稳定区域的大小也增加。 |
-| [^7] | [Sequential Elimination Contests with All-Pay Auctions.](http://arxiv.org/abs/2205.08104) | 本文研究了带全付拍卖的顺序淘汰比赛，在设计者无法得知所有选手类型情况下，对于有限的选手数量，我们明确定义了均衡策略和期望的最优机制，并为设计者提供了一些众包比赛的设计启示。 |
-| [^8] | [The Cost of Influence: How Gifts to Physicians Shape Prescriptions and Drug Costs.](http://arxiv.org/abs/2203.01778) | 本文研究了制药公司向医生进行的礼物或货款等赠送方式对处方和药物成本的影响。研究发现，礼品会让医生更多地开出品牌药处方，导致每收到1美元的费用增加30美元的成本。禁止礼品赠送估计可以使药品成本降低3-4%。 |
-| [^9] | [Media Slant is Contagious.](http://arxiv.org/abs/2202.07269) | 本文研究了国家有线电视新闻对美国本土报纸的影响，发现当地报纸的内容会因为当地 FNC 观众数量的增加而趋向于 FNC 的倾向，并且有线电视倾向会极化地方新闻内容。 |
-| [^10] | [Strategic Exploration for Innovation.](http://arxiv.org/abs/2108.07218) | 本文提出了一个战略探索创新的框架，研究了探索和开发之间的平衡，证明了知识溢出可以加速知识创新并鼓励创新者增加探索，从而形成积极反馈循环并缓解搭便车问题。 |
-| [^11] | [More Robust Estimators for Panel Bartik Designs, With An Application to the Effect of Imports from China on US Employment.](http://arxiv.org/abs/2103.06437) | 本研究提出了一种更稳健的工具变量相关随机系数（IV-CRC）估计器，可更好地应对异质效应，重新审视了中美进口对美国制造业就业影响的研究，结果表明，在不假设效应恒定的情况下，无法得出中国进口对美国制造业就业负面影响的结论。 |
+| [^4] | [Simple model of market structure evolution of service-providing firms.](http://arxiv.org/abs/2304.08727) | 本文提出了一种简单的模型，用于模拟服务提供企业市场结构的演变，其关注点在于每个客户只采用一个公司的市场，以及市场中存在出现和快速获得大市场份额的新公司的干扰。该模型简单易懂，只有两个参数。 |
+| [^5] | [Risks and opportunities in arbitrage and market-making in blockchain-based currency markets. Part 1 : Risks.](http://arxiv.org/abs/2304.08590) | 本研究分析了区块链货币市场高频交易操作中可能存在的风险和潜在机会，提供了有用信息。 |
+| [^6] | [Credible Decentralized Exchange Design via Verifiable Sequencing Rules.](http://arxiv.org/abs/2209.15569) | 本研究提出可验证排序规则，为去中心化交易所提供了更可靠的交易执行方式，并对于现有矿工操纵市场的问题提供了解决方案。 |
+| [^7] | [Spatial frequency of unstable eigenfunction of the core-periphery model with transport cost of differentiated agriculture.](http://arxiv.org/abs/2206.01040) | 本文研究了具有不同运输成本的差异化农业的核心-边缘模型的不稳定特征函数的空间频率分析，结果发现随着频率的增加不稳定区域的大小也增加。 |
+| [^8] | [Sequential Elimination Contests with All-Pay Auctions.](http://arxiv.org/abs/2205.08104) | 本文研究了带全付拍卖的顺序淘汰比赛，在设计者无法得知所有选手类型情况下，对于有限的选手数量，我们明确定义了均衡策略和期望的最优机制，并为设计者提供了一些众包比赛的设计启示。 |
+| [^9] | [The Cost of Influence: How Gifts to Physicians Shape Prescriptions and Drug Costs.](http://arxiv.org/abs/2203.01778) | 本文研究了制药公司向医生进行的礼物或货款等赠送方式对处方和药物成本的影响。研究发现，礼品会让医生更多地开出品牌药处方，导致每收到1美元的费用增加30美元的成本。禁止礼品赠送估计可以使药品成本降低3-4%。 |
+| [^10] | [Media Slant is Contagious.](http://arxiv.org/abs/2202.07269) | 本文研究了国家有线电视新闻对美国本土报纸的影响，发现当地报纸的内容会因为当地 FNC 观众数量的增加而趋向于 FNC 的倾向，并且有线电视倾向会极化地方新闻内容。 |
+| [^11] | [Strategic Exploration for Innovation.](http://arxiv.org/abs/2108.07218) | 本文提出了一个战略探索创新的框架，研究了探索和开发之间的平衡，证明了知识溢出可以加速知识创新并鼓励创新者增加探索，从而形成积极反馈循环并缓解搭便车问题。 |
+| [^12] | [More Robust Estimators for Panel Bartik Designs, With An Application to the Effect of Imports from China on US Employment.](http://arxiv.org/abs/2103.06437) | 本研究提出了一种更稳健的工具变量相关随机系数（IV-CRC）估计器，可更好地应对异质效应，重新审视了中美进口对美国制造业就业影响的研究，结果表明，在不假设效应恒定的情况下，无法得出中国进口对美国制造业就业负面影响的结论。 |
 
 # 详细
 
@@ -58,7 +59,21 @@
 
     Emissions pathways used in climate policy analysis are often derived from integrated assessment models (IAMs). However, such emissions pathways do not typically include climate feedbacks on socioeconomic systems and by extension do not consider climate uncertainty in their construction. Here we show that climate uncertainty alone significantly changes the cost-benefit optimal CO$_2$ emissions, varying from -14 to +12 GtCO$_2$ yr$^{-1}$ in 2050 (5-95% range) for an ensemble of scenarios that limit warming to 1.5{\deg}C with low overshoot. Climate uncertainty is also responsible for a factor of five range in the social cost of carbon (SCC) in this scenario ensemble. Equilibrium climate sensitivity (ECS) and the strength of present-day aerosol radiative forcing are strong determinants of SCC and optimal mid-century CO$_2$ emissions. This confirms that reducing climate uncertainty can refine cost-optimal emissions projections, and points to a missing feedback between climate and emissions 
     
-[^4]: 区块链货币市场套利和做市的风险和机会第一部分：风险
+[^4]: 服务提供企业市场结构演变的简单模型
+
+    Simple model of market structure evolution of service-providing firms. (arXiv:2304.08727v1 [physics.soc-ph])
+
+    [http://arxiv.org/abs/2304.08727](http://arxiv.org/abs/2304.08727)
+
+    本文提出了一种简单的模型，用于模拟服务提供企业市场结构的演变，其关注点在于每个客户只采用一个公司的市场，以及市场中存在出现和快速获得大市场份额的新公司的干扰。该模型简单易懂，只有两个参数。
+
+    
+
+    服务提供企业之间通过竞争来获取客户，创造了从少数巨头公司到许多小型公司的市场结构。这些市场结构会随时间演变，并在许多年后保持稳定，然后经历新公司出现并快速获得大市场份额的干扰。本文旨在寻找最简单的真实模型，以产生这种多样的市场结构和动态。我们重点关注的是每个客户只采用一个公司的市场，并可以不时地转向另一个公司，例如手机和互联网服务提供商市场。在该模型中，被标记为i的特定企业的规模等于其当前客户数量ni。在模拟的每一步中，随机选择一个客户，然后以pi =（beta + ni ^ alpha）/ K的概率从整个公司集合中选择一个公司，其中K是正则化因子。因此，我们的模型具有两个参数：alpha代表退化
+
+    Service-providing firms compete for clients, creating market structures ranging from domination by a few giant companies to markets in which there are many small firms. These market structures evolve in time, and may remain stable for many years before experiencing a disruption in which a new firm emerges and rapidly obtains a large market share. We seek the simplest realistic model giving rise to such diverse market structures and dynamics. We focus on markets in which every client adopts a single firm, and can, from time to time, switch to a different firm. The markets of cell phone and Internet service providers are examples. In the model, the size of a particular firm, labelled i, is equal to its current number of clients, ni. In every step of the simulation, a client is chosen at random, and then selects a firm from among the full set of firms with probability pi = (beta + ni^alpha)/K, where K is the normalization factor. Our model thus has two parameters: alpha represents the deg
+    
+[^5]: 区块链货币市场套利和做市的风险和机会第一部分：风险
 
     Risks and opportunities in arbitrage and market-making in blockchain-based currency markets. Part 1 : Risks. (arXiv:2304.08590v1 [econ.GN])
 
@@ -72,7 +87,7 @@
 
     This study provides a practical introduction to high-frequency trading in blockchain-based currency markets. These types of markets have some specific characteristics that differentiate them from the stock markets, such as a large number of trading exchanges (centralized and decentralized), relative simplicity in moving funds from one exchange to another, and the large number of new currencies that have very little liquidity. This study analyzes the possible risks that specifically characterize this type of trading operation, the potential opportunities, and the algorithms that are mostly used, providing information that can be useful for practitioners who intend to operate in these markets by providing (and risking) liquidity.
     
-[^5]: 基于可验证排序规则的可信分散式交易所设计
+[^6]: 基于可验证排序规则的可信分散式交易所设计
 
     Credible Decentralized Exchange Design via Verifiable Sequencing Rules. (arXiv:2209.15569v2 [cs.GT] UPDATED)
 
@@ -86,7 +101,7 @@
 
     Trading on decentralized exchanges has been one of the primary use cases for permissionless blockchains with daily trading volume exceeding billions of U.S.~dollars. In the status quo, users broadcast transactions and miners are responsible for composing a block of transactions and picking an execution ordering -- the order in which transactions execute in the exchange. Due to the lack of a regulatory framework, it is common to observe miners exploiting their privileged position by front-running transactions and obtaining risk-fee profits. In this work, we propose to modify the interaction between miners and users and initiate the study of {\em verifiable sequencing rules}. As in the status quo, miners can determine the content of a block; however, they commit to respecting a sequencing rule that constrains the execution ordering and is verifiable (there is a polynomial time algorithm that can verify if the execution ordering satisfies such constraints). Thus in the event a miner devia
     
-[^6]: 具有差异化农业运输成本的核心-边缘模型的不稳定特征函数的空间频率分析
+[^7]: 具有差异化农业运输成本的核心-边缘模型的不稳定特征函数的空间频率分析
 
     Spatial frequency of unstable eigenfunction of the core-periphery model with transport cost of differentiated agriculture. (arXiv:2206.01040v3 [econ.TH] UPDATED)
 
@@ -100,7 +115,7 @@
 
     This paper extends the core-periphery model with differentiated agriculture with transport cost to continuously multi-regional space and investigates the stability of homogeneous stationary solution for the model on a periodic space. For eigenfunctions that compose small disturbance around the homogeneous solution, unstable area, defined as the area of parameters where each eigenfunction is unstable, is observed to generally expand in its size as the frequency increases.
     
-[^7]: 带全付拍卖的顺序淘汰比赛研究
+[^8]: 带全付拍卖的顺序淘汰比赛研究
 
     Sequential Elimination Contests with All-Pay Auctions. (arXiv:2205.08104v2 [cs.GT] UPDATED)
 
@@ -114,7 +129,7 @@
 
     We study a sequential elimination contest where players are filtered prior to the round of competing for prizes. This is motivated by the practice that many crowdsourcing contests have very limited resources of reviewers and want to improve the overall quality of the submissions. We first consider a setting where the designer knows the ranking of the abilities (types) of all $n_1$ registered players, and admit the top $n_2$ players with $2\leq n_2 \leq n_1$ into the contest. The players admitted into the contest update their beliefs about their opponents based on the signal that their abilities are among the top $n_2$. We find that their posterior beliefs, even with IID priors, are correlated and depend on players' private abilities.  We explicitly characterize the symmetric and unique Bayesian equilibrium strategy. We find that each admitted player's equilibrium effort is increasing in $n_2$ when $n_2 \in [\lfloor{(n_1+1)/2}\rfloor+1,n_1]$, but not monotone in general when $n_2 \in [2
     
-[^8]: 影响的代价：制药公司赠送礼品如何影响处方和药品成本
+[^9]: 影响的代价：制药公司赠送礼品如何影响处方和药品成本
 
     The Cost of Influence: How Gifts to Physicians Shape Prescriptions and Drug Costs. (arXiv:2203.01778v3 [econ.GN] UPDATED)
 
@@ -128,7 +143,7 @@
 
     This paper studies how gifts - monetary or in-kind payments - from drug firms to physicians in the US affect prescriptions and drug costs. We estimate heterogeneous treatment effects by combining physician-level data on antidiabetic prescriptions and payments with causal inference and machine learning methods. We find that payments cause physicians to prescribe more brand drugs, resulting in a cost increase of $30 per dollar received. Responses differ widely across physicians, and are primarily explained by variation in patients' out-of-pocket costs. A gift ban is estimated to decrease drug costs by 3-4%. Taken together, these novel findings reveal how payments shape prescription choices and drive up costs.
     
-[^9]: 媒体倾向是具有传染性的。
+[^10]: 媒体倾向是具有传染性的。
 
     Media Slant is Contagious. (arXiv:2202.07269v2 [econ.GN] UPDATED)
 
@@ -142,7 +157,7 @@
 
     We examine the diffusion of media slant, specifically how partisan content from national cable news affects local newspapers in the U.S., 2005-2008. We use a text-based measure of cable news slant trained on content from Fox News Channel (FNC), CNN, and MSNBC to analyze how local newspapers adopt FNC's slant over CNN/MSNBC's. Our findings show that local news becomes more similar to FNC content in response to an exogenous increase in local FNC viewership. This shift is not limited to borrowing from cable news, but rather, local newspapers' own content changes. Further, cable TV slant polarizes local news content.
     
-[^10]: 战略探索引领创新
+[^11]: 战略探索引领创新
 
     Strategic Exploration for Innovation. (arXiv:2108.07218v2 [econ.TH] UPDATED)
 
@@ -156,7 +171,7 @@
 
     This paper introduces a framework to study innovation in a strategic setting, in which innovators allocate their resources between exploration and exploitation in continuous time. Exploration creates public knowledge, while exploitation delivers private benefits. Through the analysis of a class of Markov equilibria, we demonstrate that knowledge spillovers accelerate knowledge creation and expedite its availability, thereby encouraging innovators to increase exploration. The prospect of the ensuing superior long-term innovations further motivates exploration, giving rise to a positive feedback loop. This novel feedback loop can substantially mitigate the free-riding problem arising from knowledge spillovers.
     
-[^11]: 面板Bartik设计的更稳健的估计方法，及其在中美进口贸易对美国就业影响中的应用
+[^12]: 面板Bartik设计的更稳健的估计方法，及其在中美进口贸易对美国就业影响中的应用
 
     More Robust Estimators for Panel Bartik Designs, With An Application to the Effect of Imports from China on US Employment. (arXiv:2103.06437v6 [econ.EM] UPDATED)
 
