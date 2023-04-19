@@ -1,0 +1,12 @@
+{
+    "title": "Estimating the Performance of Entity Resolution Algorithms: Lessons Learned Through PatentsView.org. (arXiv:2210.01230v2 [cs.DL] UPDATED)",
+    "abstract": "This paper introduces a novel evaluation methodology for entity resolution algorithms. It is motivated by PatentsView.org, a U.S. Patents and Trademarks Office patent data exploration tool that disambiguates patent inventors using an entity resolution algorithm. We provide a data collection methodology and tailored performance estimators that account for sampling biases. Our approach is simple, practical and principled -- key characteristics that allow us to paint the first representative picture of PatentsView's disambiguation performance. This approach is used to inform PatentsView's users of the reliability of the data and to allow the comparison of competing disambiguation algorithms.",
+    "link": "http://arxiv.org/abs/2210.01230",
+    "context": "Title: Estimating the Performance of Entity Resolution Algorithms: Lessons Learned Through PatentsView.org. (arXiv:2210.01230v2 [cs.DL] UPDATED)\nAbstract: This paper introduces a novel evaluation methodology for entity resolution algorithms. It is motivated by PatentsView.org, a U.S. Patents and Trademarks Office patent data exploration tool that disambiguates patent inventors using an entity resolution algorithm. We provide a data collection methodology and tailored performance estimators that account for sampling biases. Our approach is simple, practical and principled -- key characteristics that allow us to paint the first representative picture of PatentsView's disambiguation performance. This approach is used to inform PatentsView's users of the reliability of the data and to allow the comparison of competing disambiguation algorithms.",
+    "path": "papers/22/10/2210.01230.json",
+    "total_tokens": 704,
+    "translated_title": "通过PatentsView.org学到的经验：评估实体消解算法的性能",
+    "translated_abstract": "本文介绍了一种新颖的评估实体消解算法的方法。该方法是基于PatentsView.org，一个美国专利和商标办公室的专利数据探测工具，使用实体消解算法来区分专利发明人的。我们提供了一个数据收集方法和特定的性能评估器，考虑到采样偏差。我们的方法简单、实用和原则性的，这些是使我们能够描绘PatentsView的实体消解性能的第一个代表性图像的关键特征。这种方法被用来告知PatentsView的用户数据的可靠性并允许比较竞争的消解算法。",
+    "tldr": "本文介绍了一种新的实体消解算法评估方法，它能够为PatentsView的用户提供可靠的数据和比较不同消解算法的结果。",
+    "en_tdlr": "This paper presents a novel evaluation methodology for entity resolution algorithms, which provides reliable data and facilitates comparison of competing disambiguation algorithms for PatentsView users."
+}

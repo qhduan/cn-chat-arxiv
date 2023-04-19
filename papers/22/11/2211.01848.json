@@ -1,0 +1,12 @@
+{
+    "title": "Circling Back to Recurrent Models of Language. (arXiv:2211.01848v2 [cs.CL] UPDATED)",
+    "abstract": "Just because some purely recurrent models suffer from being hard to optimize and inefficient on today's hardware, they are not necessarily bad models of language. We demonstrate this by the extent to which these models can still be improved by a combination of a slightly better recurrent cell, architecture, objective, as well as optimization. In the process, we establish a new state of the art for language modelling on small datasets and on Enwik8 with dynamic evaluation.",
+    "link": "http://arxiv.org/abs/2211.01848",
+    "context": "Title: Circling Back to Recurrent Models of Language. (arXiv:2211.01848v2 [cs.CL] UPDATED)\nAbstract: Just because some purely recurrent models suffer from being hard to optimize and inefficient on today's hardware, they are not necessarily bad models of language. We demonstrate this by the extent to which these models can still be improved by a combination of a slightly better recurrent cell, architecture, objective, as well as optimization. In the process, we establish a new state of the art for language modelling on small datasets and on Enwik8 with dynamic evaluation.",
+    "path": "papers/22/11/2211.01848.json",
+    "total_tokens": 611,
+    "translated_title": "再回归到循环模型的语言表示",
+    "translated_abstract": "仅仅因为一些纯循环模型具有难以优化和在现今硬件上效率低等缺点，并不意味着它们不是好的语言模型。作者们展示了如何通过结合更好的循环单元，架构，目标函数和优化算法来改善这些模型。在此过程中，作者们在小数据集和Enwik8动态评估上建立了新的最优性能。",
+    "tldr": "本文展示了循环模型的优越性并提出了结合更好的循环单元、架构、目标函数以及优化算法的改进方法，在小数据集和Enwik8动态评估中取得了新的最优性能。",
+    "en_tdlr": "This paper demonstrates the superiority of recurrent models and proposes improvement methods by combining better recurrent cells, architecture, objective functions, and optimization algorithms, achieving new state of the art performance on small datasets and Enwik8 dynamic evaluation."
+}

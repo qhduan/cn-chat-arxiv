@@ -1,0 +1,12 @@
+{
+    "title": "Comments on 'Fast and scalable search of whole-slide images via self-supervised deep learning'. (arXiv:2304.08297v2 [eess.IV] UPDATED)",
+    "abstract": "Chen et al. [Chen2022] recently published the article 'Fast and scalable search of whole-slide images via self-supervised deep learning' in Nature Biomedical Engineering. The authors call their method 'self-supervised image search for histology', short SISH. We express our concerns that SISH is an incremental modification of Yottixel, has used MinMax binarization but does not cite the original works, and is based on a misnomer 'self-supervised image search'. As well, we point to several other concerns regarding experiments and comparisons performed by Chen et al.",
+    "link": "http://arxiv.org/abs/2304.08297",
+    "context": "Title: Comments on 'Fast and scalable search of whole-slide images via self-supervised deep learning'. (arXiv:2304.08297v2 [eess.IV] UPDATED)\nAbstract: Chen et al. [Chen2022] recently published the article 'Fast and scalable search of whole-slide images via self-supervised deep learning' in Nature Biomedical Engineering. The authors call their method 'self-supervised image search for histology', short SISH. We express our concerns that SISH is an incremental modification of Yottixel, has used MinMax binarization but does not cite the original works, and is based on a misnomer 'self-supervised image search'. As well, we point to several other concerns regarding experiments and comparisons performed by Chen et al.",
+    "path": "papers/23/04/2304.08297.json",
+    "total_tokens": 790,
+    "translated_title": "对“通过自监督深度学习进行快速和可扩展的全幻灯片图像搜索”的评论（arXiv: 2304.08297v2 [eess.IV] UPDATED）",
+    "translated_abstract": "最近，陈等人（Chen2022）在《自然—生物医学工程》杂志上发表了题为“通过自监督深度学习进行快速和可扩展的全幻灯片图像搜索”的文章。该文章作者称其方法为“组织学自监督图像搜索，简称SISH。”我们对SISH表示了关切，因为它是Yottixel的增量修改，使用了MinMax二值化但未引用原始作品，并基于一个误称“自监督图像搜索”的概念。此外，我们还指出了陈等人进行实验和比较时存在的几个问题。",
+    "tldr": "对陈等人发表在《自然—生物医学工程》杂志上的“通过自监督深度学习进行快速和可扩展的全幻灯片图像搜索”一文的评论和关切。",
+    "en_tdlr": "A critique and concerns regarding the article \"Fast and scalable search of whole-slide images via self-supervised deep learning\" published by Chen et al. in Nature Biomedical Engineering, which presents a method called \"self-supervised image search for histology\" (SISH) that has been noted to be an incremental modification of Yottixel and to have used MinMax binarization without citing the original works, as well as being based on a misnomer of \"self-supervised image search\"."
+}

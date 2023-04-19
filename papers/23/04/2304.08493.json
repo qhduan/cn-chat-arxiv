@@ -1,0 +1,12 @@
+{
+    "title": "Coordinated Multi-Agent Reinforcement Learning for Unmanned Aerial Vehicle Swarms in Autonomous Mobile Access Applications. (arXiv:2304.08493v1 [cs.MA])",
+    "abstract": "This paper proposes a novel centralized training and distributed execution (CTDE)-based multi-agent deep reinforcement learning (MADRL) method for multiple unmanned aerial vehicles (UAVs) control in autonomous mobile access applications. For the purpose, a single neural network is utilized in centralized training for cooperation among multiple agents while maximizing the total quality of service (QoS) in mobile access applications.",
+    "link": "http://arxiv.org/abs/2304.08493",
+    "context": "Title: Coordinated Multi-Agent Reinforcement Learning for Unmanned Aerial Vehicle Swarms in Autonomous Mobile Access Applications. (arXiv:2304.08493v1 [cs.MA])\nAbstract: This paper proposes a novel centralized training and distributed execution (CTDE)-based multi-agent deep reinforcement learning (MADRL) method for multiple unmanned aerial vehicles (UAVs) control in autonomous mobile access applications. For the purpose, a single neural network is utilized in centralized training for cooperation among multiple agents while maximizing the total quality of service (QoS) in mobile access applications.",
+    "path": "papers/23/04/2304.08493.json",
+    "total_tokens": 614,
+    "translated_title": "无人机群在自主移动接入应用中的协同多智能体强化学习",
+    "translated_abstract": "本文提出了一种新颖的基于集中式训练和分布式执行 (CTDE) 的多智能体深度强化学习 (MADRL) 方法，用于控制多个无人机在自主移动接入应用中。为此，单个神经网络在集中式训练中用于协作多个智能体，同时最大化移动接入应用中的总服务质量 (QoS)。",
+    "tldr": "本论文提出了一种集中式训练和分布式执行的多智能体深度强化学习方法，用于协调控制多个无人机在自主移动接入应用中，最大化服务质量。",
+    "en_tdlr": "This paper proposes a CTDE-based MADRL method for coordinating the control of multiple UAVs in autonomous mobile access applications, which uses a single neural network in centralized training to maximize QoS."
+}

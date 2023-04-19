@@ -1,0 +1,12 @@
+{
+    "title": "Pose Constraints for Consistent Self-supervised Monocular Depth and Ego-motion. (arXiv:2304.08916v1 [cs.CV])",
+    "abstract": "Self-supervised monocular depth estimation approaches suffer not only from scale ambiguity but also infer temporally inconsistent depth maps w.r.t. scale. While disambiguating scale during training is not possible without some kind of ground truth supervision, having scale consistent depth predictions would make it possible to calculate scale once during inference as a post-processing step and use it over-time. With this as a goal, a set of temporal consistency losses that minimize pose inconsistencies over time are introduced. Evaluations show that introducing these constraints not only reduces depth inconsistencies but also improves the baseline performance of depth and ego-motion prediction.",
+    "link": "http://arxiv.org/abs/2304.08916",
+    "context": "Title: Pose Constraints for Consistent Self-supervised Monocular Depth and Ego-motion. (arXiv:2304.08916v1 [cs.CV])\nAbstract: Self-supervised monocular depth estimation approaches suffer not only from scale ambiguity but also infer temporally inconsistent depth maps w.r.t. scale. While disambiguating scale during training is not possible without some kind of ground truth supervision, having scale consistent depth predictions would make it possible to calculate scale once during inference as a post-processing step and use it over-time. With this as a goal, a set of temporal consistency losses that minimize pose inconsistencies over time are introduced. Evaluations show that introducing these constraints not only reduces depth inconsistencies but also improves the baseline performance of depth and ego-motion prediction.",
+    "path": "papers/23/04/2304.08916.json",
+    "total_tokens": 710,
+    "translated_title": "姿态约束用于一致的自监督单目深度估计和自我运动估计",
+    "translated_abstract": "自监督单目深度估计方法不仅存在尺度歧义，而且在尺度方面的深度图推断不一致。尽管在训练过程中消除尺度歧义是不可能的，但是有一致的尺度预测可以在推断期间计算一次，然后在时间内使用。为了实现这一目标，引入了一组时间一致性损失，以在时间上最小化姿态不一致性。评估结果显示，引入这些约束不仅减少了深度不一致性，而且提高了深度和自我运动预测的基线性能。",
+    "tldr": "该论文提出了一种使用姿态约束的方法来实现一致的自监督单目深度估计和自我运动估计，并成功地减少了深度不一致性和提高了预测性能。",
+    "en_tdlr": "This paper proposes a method that uses pose constraints to achieve consistent self-supervised monocular depth estimation and ego-motion prediction, and successfully reduces depth inconsistencies and improves prediction performance."
+}

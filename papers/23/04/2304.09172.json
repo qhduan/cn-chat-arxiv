@@ -1,0 +1,12 @@
+{
+    "title": "Hyperbolic Image-Text Representations. (arXiv:2304.09172v1 [cs.CV])",
+    "abstract": "Visual and linguistic concepts naturally organize themselves in a hierarchy, where a textual concept ``dog'' entails all images that contain dogs. Despite being intuitive, current large-scale vision and language models such as CLIP do not explicitly capture such hierarchy. We propose MERU, a contrastive model that yields hyperbolic representations of images and text. Hyperbolic spaces have suitable geometric properties to embed tree-like data, so MERU can better capture the underlying hierarchy in image-text data. Our results show that MERU learns a highly interpretable representation space while being competitive with CLIP's performance on multi-modal tasks like image classification and image-text retrieval.",
+    "link": "http://arxiv.org/abs/2304.09172",
+    "context": "Title: Hyperbolic Image-Text Representations. (arXiv:2304.09172v1 [cs.CV])\nAbstract: Visual and linguistic concepts naturally organize themselves in a hierarchy, where a textual concept ``dog'' entails all images that contain dogs. Despite being intuitive, current large-scale vision and language models such as CLIP do not explicitly capture such hierarchy. We propose MERU, a contrastive model that yields hyperbolic representations of images and text. Hyperbolic spaces have suitable geometric properties to embed tree-like data, so MERU can better capture the underlying hierarchy in image-text data. Our results show that MERU learns a highly interpretable representation space while being competitive with CLIP's performance on multi-modal tasks like image classification and image-text retrieval.",
+    "path": "papers/23/04/2304.09172.json",
+    "total_tokens": 720,
+    "translated_title": "双曲线图像文本表示方法",
+    "translated_abstract": "视觉和语言概念自然而然地组织成一个层次结构，其中一个文本概念“狗”包含所有包含狗的图像。尽管直觉上这是正确的，但目前的大规模视觉和语言模型（如CLIP）并没有明确地捕捉到这种层次结构。我们提出了MERU，一个对图像和文本进行双曲表示的对比模型。双曲空间具有嵌入树状数据的合适几何属性，因此MERU可以更好地捕捉图像文本数据的底层层次结构。我们的结果表明，MERU学习到了一个高度可解释的表示空间，同时在图像分类和图像文本检索等多模态任务上与CLIP的性能相当。",
+    "tldr": "本文提出了一个使用双曲表示捕捉图像和文本层次结构的对比模型MERU，并证明其在多模态任务上与CLIP相当。",
+    "en_tdlr": "This paper proposes a contrastive model MERU that uses hyperbolic representations to capture the hierarchy in image-text data, and shows that it performs competitively with CLIP on multi-modal tasks."
+}

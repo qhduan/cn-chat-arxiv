@@ -1,0 +1,12 @@
+{
+    "title": "Strategic Exploration for Innovation. (arXiv:2108.07218v2 [econ.TH] UPDATED)",
+    "abstract": "This paper introduces a framework to study innovation in a strategic setting, in which innovators allocate their resources between exploration and exploitation in continuous time. Exploration creates public knowledge, while exploitation delivers private benefits. Through the analysis of a class of Markov equilibria, we demonstrate that knowledge spillovers accelerate knowledge creation and expedite its availability, thereby encouraging innovators to increase exploration. The prospect of the ensuing superior long-term innovations further motivates exploration, giving rise to a positive feedback loop. This novel feedback loop can substantially mitigate the free-riding problem arising from knowledge spillovers.",
+    "link": "http://arxiv.org/abs/2108.07218",
+    "context": "Title: Strategic Exploration for Innovation. (arXiv:2108.07218v2 [econ.TH] UPDATED)\nAbstract: This paper introduces a framework to study innovation in a strategic setting, in which innovators allocate their resources between exploration and exploitation in continuous time. Exploration creates public knowledge, while exploitation delivers private benefits. Through the analysis of a class of Markov equilibria, we demonstrate that knowledge spillovers accelerate knowledge creation and expedite its availability, thereby encouraging innovators to increase exploration. The prospect of the ensuing superior long-term innovations further motivates exploration, giving rise to a positive feedback loop. This novel feedback loop can substantially mitigate the free-riding problem arising from knowledge spillovers.",
+    "path": "papers/21/08/2108.07218.json",
+    "total_tokens": 761,
+    "translated_title": "战略探索引领创新",
+    "translated_abstract": "本文引入了一个框架来研究创新在战略环境下的问题，其中创新者在连续的时间内将其资源分配在探索和开发之间。探索创建公共知识，而开发提供私人利益。通过分析一类马尔科夫均衡，我们证明了知识溢出加速了知识创新并加快了其可用性，从而鼓励创新者增加探索。随之而来的更好的长期创新前景进一步激励探索，形成积极反馈循环。这种新型反馈循环可以大大缓解由于知识溢出而产生的搭便车问题。",
+    "tldr": "本文提出了一个战略探索创新的框架，研究了探索和开发之间的平衡，证明了知识溢出可以加速知识创新并鼓励创新者增加探索，从而形成积极反馈循环并缓解搭便车问题。",
+    "en_tdlr": "This paper introduces a framework for strategic exploration in innovation, analyzing the balance between exploration and exploitation. The authors demonstrate that knowledge spillover can accelerate innovation and motivate innovators to increase exploration, forming a positive feedback loop that mitigates the free-riding problem."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "pgmpy: A Python Toolkit for Bayesian Networks. (arXiv:2304.08639v1 [cs.LG])",
+    "abstract": "Bayesian Networks (BNs) are used in various fields for modeling, prediction, and decision making. pgmpy is a python package that provides a collection of algorithms and tools to work with BNs and related models. It implements algorithms for structure learning, parameter estimation, approximate and exact inference, causal inference, and simulations. These implementations focus on modularity and easy extensibility to allow users to quickly modify/add to existing algorithms, or to implement new algorithms for different use cases. pgmpy is released under the MIT License; the source code is available at: https://github.com/pgmpy/pgmpy, and the documentation at: https://pgmpy.org.",
+    "link": "http://arxiv.org/abs/2304.08639",
+    "context": "Title: pgmpy: A Python Toolkit for Bayesian Networks. (arXiv:2304.08639v1 [cs.LG])\nAbstract: Bayesian Networks (BNs) are used in various fields for modeling, prediction, and decision making. pgmpy is a python package that provides a collection of algorithms and tools to work with BNs and related models. It implements algorithms for structure learning, parameter estimation, approximate and exact inference, causal inference, and simulations. These implementations focus on modularity and easy extensibility to allow users to quickly modify/add to existing algorithms, or to implement new algorithms for different use cases. pgmpy is released under the MIT License; the source code is available at: https://github.com/pgmpy/pgmpy, and the documentation at: https://pgmpy.org.",
+    "path": "papers/23/04/2304.08639.json",
+    "total_tokens": 719,
+    "translated_title": "pgmpy: 一个用于贝叶斯网络的 Python 工具包",
+    "translated_abstract": "贝叶斯网络（BN）在多个领域用于建模、预测和决策制定。pgmpy是一个Python包，提供了一系列算法和工具来处理BNs和相关模型。它实现了结构学习、参数估计、近似和精确推理、因果推理和模拟的算法。这些实现侧重于模块化和易于扩展，允许用户快速修改/添加现有算法，或为不同用例实现新算法。pgmpy在MIT许可证下发布；源代码可在https://github.com/pgmpy/pgmpy找到，文档可在https://pgmpy.org找到。",
+    "tldr": "pgmpy是一个Python工具包，它提供了用于处理贝叶斯网络和相关模型的算法和工具，并侧重于易于扩展性，使得用户能够快速地修改、添加或实现新算法。",
+    "en_tdlr": "pgmpy is a Python toolkit utilizing algorithms and tools for working with Bayesian Networks and related models, with a focus on easy extensibility for users to modify, add, or implement new algorithms quickly."
+}

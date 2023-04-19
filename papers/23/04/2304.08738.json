@@ -1,0 +1,12 @@
+{
+    "title": "Addressing Variable Dependency in GNN-based SAT Solving. (arXiv:2304.08738v1 [cs.AI])",
+    "abstract": "Boolean satisfiability problem (SAT) is fundamental to many applications. Existing works have used graph neural networks (GNNs) for (approximate) SAT solving. Typical GNN-based end-to-end SAT solvers predict SAT solutions concurrently. We show that for a group of symmetric SAT problems, the concurrent prediction is guaranteed to produce a wrong answer because it neglects the dependency among Boolean variables in SAT problems. % We propose AsymSAT, a GNN-based architecture which integrates recurrent neural networks to generate dependent predictions for variable assignments. The experiment results show that dependent variable prediction extends the solving capability of the GNN-based method as it improves the number of solved SAT instances on large test sets.",
+    "link": "http://arxiv.org/abs/2304.08738",
+    "context": "Title: Addressing Variable Dependency in GNN-based SAT Solving. (arXiv:2304.08738v1 [cs.AI])\nAbstract: Boolean satisfiability problem (SAT) is fundamental to many applications. Existing works have used graph neural networks (GNNs) for (approximate) SAT solving. Typical GNN-based end-to-end SAT solvers predict SAT solutions concurrently. We show that for a group of symmetric SAT problems, the concurrent prediction is guaranteed to produce a wrong answer because it neglects the dependency among Boolean variables in SAT problems. % We propose AsymSAT, a GNN-based architecture which integrates recurrent neural networks to generate dependent predictions for variable assignments. The experiment results show that dependent variable prediction extends the solving capability of the GNN-based method as it improves the number of solved SAT instances on large test sets.",
+    "path": "papers/23/04/2304.08738.json",
+    "total_tokens": 757,
+    "translated_title": "基于GNN的SAT求解中的变量依赖问题研究",
+    "translated_abstract": "布尔可满足性问题（SAT）在许多应用中至关重要。现有的研究使用图神经网络（GNN）进行（近似）SAT求解。典型的GNN-based SAT求解器并行预测SAT解。我们表明，在对称SAT问题组中，由于忽略了SAT问题中布尔变量之间的依赖关系，因此并行预测保证会产生错误的答案。我们提出AsymSAT，一种基于GNN的体系结构，该结构集成了递归神经网络，以生成变量分配的依赖预测。实验结果表明，依赖变量预测扩展了GNN-based方法的求解能力，因为它提高了大型测试集上解决的SAT实例数。",
+    "tldr": "该论文提出了一种名为AsymSAT的GNN-based SAT求解器，通过解决变量依赖问题，提高了该方法的求解能力，在大型测试集上解决的SAT实例数有所提高。",
+    "en_tdlr": "This paper proposes a GNN-based SAT solver called AsymSAT, which addresses the variable dependency issue and improves the solving capability of the method, leading to an increased number of solved SAT instances on large test sets."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Networked Signal and Information Processing. (arXiv:2210.13767v2 [eess.SP] UPDATED)",
+    "abstract": "The article reviews significant advances in networked signal and information processing, which have enabled in the last 25 years extending decision making and inference, optimization, control, and learning to the increasingly ubiquitous environments of distributed agents. As these interacting agents cooperate, new collective behaviors emerge from local decisions and actions. Moreover, and significantly, theory and applications show that networked agents, through cooperation and sharing, are able to match the performance of cloud or federated solutions, while offering the potential for improved privacy, increasing resilience, and saving resources.",
+    "link": "http://arxiv.org/abs/2210.13767",
+    "context": "Title: Networked Signal and Information Processing. (arXiv:2210.13767v2 [eess.SP] UPDATED)\nAbstract: The article reviews significant advances in networked signal and information processing, which have enabled in the last 25 years extending decision making and inference, optimization, control, and learning to the increasingly ubiquitous environments of distributed agents. As these interacting agents cooperate, new collective behaviors emerge from local decisions and actions. Moreover, and significantly, theory and applications show that networked agents, through cooperation and sharing, are able to match the performance of cloud or federated solutions, while offering the potential for improved privacy, increasing resilience, and saving resources.",
+    "path": "papers/22/10/2210.13767.json",
+    "total_tokens": 742,
+    "translated_title": "网络信号和信息处理",
+    "translated_abstract": "该文章回顾了网络信号和信息处理中的重大进展，在过去25年中，这些进展使得决策制定、推理、优化、控制和学习能够扩展到分布式智能体越来越普遍的环境中。当这些智能体相互合作时，新的集体行为从局部决策和行动中出现。此外，理论和应用表明，通过合作和共享，网络智能体能够匹配云或联合解决方案的性能，同时提供提高隐私、增强韧性和节约资源的潜力。",
+    "tldr": "这篇文章回顾了网络信号和信息处理方面的重大进展，这种进展使得决策、优化、控制和学习等方面能够扩展到分布式智能体越来越普遍的环境中，而且通过合作和共享，网络智能体能够匹配云或联合解决方案的性能。",
+    "en_tdlr": "This article reviews significant advances in networked signal and information processing, which have enabled extending decision making, optimization, control, and learning to the increasingly ubiquitous environments of distributed agents. Networked agents, through cooperation and sharing, are able to match the performance of cloud or federated solutions, while offering the potential for improved privacy, increasing resilience, and saving resources."
+}

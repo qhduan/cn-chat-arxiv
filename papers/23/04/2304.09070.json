@@ -1,0 +1,12 @@
+{
+    "title": "M-ENIAC: A machine learning recreation of the first successful numerical weather forecasts. (arXiv:2304.09070v1 [physics.ao-ph])",
+    "abstract": "In 1950 the first successful numerical weather forecast was obtained by solving the barotropic vorticity equation using the Electronic Numerical Integrator and Computer (ENIAC), which marked the beginning of the age of numerical weather prediction. Here, we ask the question of how these numerical forecasts would have turned out, if machine learning based solvers had been used instead of standard numerical discretizations. Specifically, we recreate these numerical forecasts using physics-informed neural networks. We show that physics-informed neural networks provide an easier and more accurate methodology for solving meteorological equations on the sphere, as compared to the ENIAC solver.",
+    "link": "http://arxiv.org/abs/2304.09070",
+    "context": "Title: M-ENIAC: A machine learning recreation of the first successful numerical weather forecasts. (arXiv:2304.09070v1 [physics.ao-ph])\nAbstract: In 1950 the first successful numerical weather forecast was obtained by solving the barotropic vorticity equation using the Electronic Numerical Integrator and Computer (ENIAC), which marked the beginning of the age of numerical weather prediction. Here, we ask the question of how these numerical forecasts would have turned out, if machine learning based solvers had been used instead of standard numerical discretizations. Specifically, we recreate these numerical forecasts using physics-informed neural networks. We show that physics-informed neural networks provide an easier and more accurate methodology for solving meteorological equations on the sphere, as compared to the ENIAC solver.",
+    "path": "papers/23/04/2304.09070.json",
+    "total_tokens": 747,
+    "translated_title": "M-ENIAC: 第一次成功的数值天气预报的机器学习再现",
+    "translated_abstract": "1950年，采用“电子数字积分器和计算机”（ENIAC）解决了涡度方程，从而获得了第一次成功的数值天气预报，标志着数值天气预报的时代的开始。在这里，我们提出一个问题：如果使用基于机器学习的求解器而不是标准的数值离散化，这些数值预报的结果会是什么？具体而言，我们使用物理学相关的神经网络来重新创建这些数值预报。我们表明，与ENIAC求解器相比，物理学相关的神经网络提供了一种更简便、更准确的在球上求解气象方程的方法。",
+    "tldr": "本研究使用基于机器学习的求解器重新创建了第一次成功的数值天气预报，并证明物理学相关的神经网络方法相较于以前的标准求解器更为准确且简便。",
+    "en_tdlr": "This study uses a machine learning based solver to recreate the first successful numerical weather forecasts and demonstrates that physics-informed neural networks are a more accurate and easier methodology for solving meteorological equations on the sphere as compared to standard numerical discretizations such as ENIAC solver."
+}

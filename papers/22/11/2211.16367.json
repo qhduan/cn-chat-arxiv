@@ -1,0 +1,11 @@
+{
+    "title": "A locally time-invariant metric for climate model ensemble predictions of extreme risk. (arXiv:2211.16367v3 [physics.ao-ph] UPDATED)",
+    "abstract": "Adaptation-relevant predictions of climate change are often derived by combining climate model simulations in a multi-model ensemble. Model evaluation methods used in performance-based ensemble weighting schemes have limitations in the context of high-impact extreme events. We introduce a locally time-invariant method for evaluating climate model simulations with a focus on assessing the simulation of extremes. We explore the behaviour of the proposed method in predicting extreme heat days in Nairobi and provide comparative results for eight additional cities.",
+    "link": "http://arxiv.org/abs/2211.16367",
+    "context": "Title: A locally time-invariant metric for climate model ensemble predictions of extreme risk. (arXiv:2211.16367v3 [physics.ao-ph] UPDATED)\nAbstract: Adaptation-relevant predictions of climate change are often derived by combining climate model simulations in a multi-model ensemble. Model evaluation methods used in performance-based ensemble weighting schemes have limitations in the context of high-impact extreme events. We introduce a locally time-invariant method for evaluating climate model simulations with a focus on assessing the simulation of extremes. We explore the behaviour of the proposed method in predicting extreme heat days in Nairobi and provide comparative results for eight additional cities.",
+    "path": "papers/22/11/2211.16367.json",
+    "total_tokens": 666,
+    "translated_title": "气候模式集合预测中的局部时间不变量度量",
+    "translated_abstract": "应对气候变化的相关预测通常是通过结合多种气候模式模拟来获得的。在高影响极端事件的背景下，基于性能的集合加权方案中使用的模型评估方法存在局限性。本文介绍了一种局部时间不变的气候模式模拟评估方法，重点是评估气候模式模拟的极端情况。我们探讨了这种方法在预测内罗毕极端高温天气方面的表现，并提供了八个额外城市的比较结果。",
+    "tldr": "该论文提出了一种局部时间不变的气候模式模拟评估方法，通过评估气候模式模拟的极端情况来预测气候变化相关预测，取得了良好的效果。"
+}

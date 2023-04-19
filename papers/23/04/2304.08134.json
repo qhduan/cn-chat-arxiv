@@ -1,0 +1,12 @@
+{
+    "title": "Tackling Face Verification Edge Cases: In-Depth Analysis and Human-Machine Fusion Approach. (arXiv:2304.08134v2 [cs.CV] UPDATED)",
+    "abstract": "Nowadays, face recognition systems surpass human performance on several datasets. However, there are still edge cases that the machine can't correctly classify. This paper investigates the effect of a combination of machine and human operators in the face verification task. First, we look closer at the edge cases for several state-of-the-art models to discover common datasets' challenging settings. Then, we conduct a study with 60 participants on these selected tasks with humans and provide an extensive analysis. Finally, we demonstrate that combining machine and human decisions can further improve the performance of state-of-the-art face verification systems on various benchmark datasets. Code and data are publicly available on GitHub.",
+    "link": "http://arxiv.org/abs/2304.08134",
+    "context": "Title: Tackling Face Verification Edge Cases: In-Depth Analysis and Human-Machine Fusion Approach. (arXiv:2304.08134v2 [cs.CV] UPDATED)\nAbstract: Nowadays, face recognition systems surpass human performance on several datasets. However, there are still edge cases that the machine can't correctly classify. This paper investigates the effect of a combination of machine and human operators in the face verification task. First, we look closer at the edge cases for several state-of-the-art models to discover common datasets' challenging settings. Then, we conduct a study with 60 participants on these selected tasks with humans and provide an extensive analysis. Finally, we demonstrate that combining machine and human decisions can further improve the performance of state-of-the-art face verification systems on various benchmark datasets. Code and data are publicly available on GitHub.",
+    "path": "papers/23/04/2304.08134.json",
+    "total_tokens": 743,
+    "translated_title": "解决面部验证边缘案例：深度分析和人机融合方法",
+    "translated_abstract": "目前，面部识别系统在几个数据集上已经超过了人类表现。然而，仍然存在一些机器无法正确分类的边缘案例。本文研究了机器和人操作员在面部验证任务中的组合效应。首先，我们仔细研究了几个最先进模型的边缘案例，以发现常见数据集的挑战性设置。然后，我们对这些选定任务中的60个参与者进行了一项人类研究，并提供了广泛的分析。最后，我们展示了将机器和人类决策结合起来，可以进一步提高最先进的面部验证系统在各种基准数据集上的性能。代码和数据可在GitHub上公开获取。",
+    "tldr": "本文研究了临近边缘案例的面部验证问题，发现结合人机决策可以进一步提高最先进的面部验证系统在各种基准数据集上的性能。",
+    "en_tdlr": "This paper investigates edge cases in face verification and finds that combining human and machine decisions can further improve the performance of state-of-the-art face verification systems on various benchmark datasets."
+}

@@ -2,217 +2,262 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Structured Multifractal Scaling of the Principal Cryptocurrencies: Examination using a Self-Explainable Machine Learning.](http://arxiv.org/abs/2304.08440) | 本文提出了一种新的结构化去趋势多重分形波动分析（S-MF-DFA）方法，用于研究加密货币的效率。该方法基于单因素模型进行外生因素的表征，从而创建了一种自解释的机器学习模型，用于加密货币价格预测。 |
-| [^2] | [Economic consequences of the spatial and temporal variability of climate change.](http://arxiv.org/abs/2304.08049) | 本文研究表明，评估气候变化对经济影响的损伤函数中未考虑时空变异性对经济损失的影响可能被严重低估。 |
-| [^3] | [Democratic Policy Decisions with Decentralized Promises Contingent on Vote Outcome.](http://arxiv.org/abs/2304.08008) | 本文研究了去中心化承诺对民主决策的影响。在投票前，委员会成员可以进行可执行的承诺。可能需要跨越阵营进行承诺，以实现改革的实施，同时需要排除最不热衷于改革的支持者被诱导推翻决定。 |
-| [^4] | [Economic Origins of the Sicilian Mafia: A Simulation Feedback Model.](http://arxiv.org/abs/2304.07975) | 该模型解释了19世纪西西里黑手党崛起的经济原因，以及为什么在贫困地区黑手党的存在较少，其中富裕地区的企业利润能力是一个重要因素。 |
-| [^5] | [Study on the tea market in India.](http://arxiv.org/abs/2304.07851) | 印度茶叶历史悠久，在世界茶叶生产中排名第二，生产有机可持续茶叶，尽管存在竞争、价格波动和劳工问题等困难，但仍然快速发展，并通过茶叶旅游鼓励旅游。 |
-| [^6] | [The Impact of Automation on Income Inequality: A Cross-Country Analysis.](http://arxiv.org/abs/2304.07835) | 自动化的收入不平等影响因国家的政策、劳动力市场机构有所不同。 |
-| [^7] | [Optimal Investment and Consumption Strategies with General and Linear Transaction Costs under CRRA Utility.](http://arxiv.org/abs/2304.07672) | 本文针对不同交易成本结构，通过动态规划和奇异摄动展开的方法，得出了考虑CRRA效用下的最优投资与消费策略。 |
-| [^8] | [Can ChatGPT Forecast Stock Price Movements? Return Predictability and Large Language Models.](http://arxiv.org/abs/2304.07619) | 本研究探究了使用ChatGPT及其他大型语言模型预测股市回报的潜力，发现ChatGPT的预测表现优于传统情感分析方法，而基础模型无法准确预测股票价格变化，表明复杂模型可预测能力的崛起。这表明在投资决策过程中引入先进的语言模型可以提高预测准确性并增强定量交易策略的表现。 |
-| [^9] | [Game theoretical models of geopolitical processes. Part I.](http://arxiv.org/abs/2304.07568) | 本文研究了地缘政治行为者在军事装备生产和销售方面的互动，找到了地缘政治行为者的最优策略，同时确定了每个地缘政治行为者的最优策略。 |
-| [^10] | [Simulating Gaussian vectors via randomized dimension reduction and PCA.](http://arxiv.org/abs/2304.07377) | 本文提出一种新的估计高斯向量期望的方法，通过随机降维和主成分分析技术，能够在合适的条件下比标准蒙特卡罗方法更有效地工作。 |
-| [^11] | [On Using Proportional Representation Methods as Alternatives to Pro-Rata Based Order Matching Algorithms in Stock Exchanges.](http://arxiv.org/abs/2303.09652) | 研究发现，选举制度中的比例代表方法可以替代股票交易所中的按比例分配顺序的匹配算法，提供更接近比例分配的订单分配。 |
-| [^12] | [An unexpected stochastic dominance: Pareto distributions, catastrophes, and risk exchange.](http://arxiv.org/abs/2208.08471) | 本文研究发现，加权平均iid极重尾Pareto损失在第一顺序随机优势意义下大于单一损失。通过均衡分析证明，多样化将增加组合风险，拥有极重尾Pareto损失的参与者在市场均衡中将不会分享风险。 |
-| [^13] | [Railroad Bailouts in the Great Depression.](http://arxiv.org/abs/2205.13025) | 大萧条时期，美国政府通过向铁路公司提供贷款来减少债券违约的可能性和增加就业，然而这些纾困计划没有帮助铁路公司增加盈利或就业，而是减少了杠杆比率。纾困对股票价格几乎没有影响，但导致其债券价格上涨并降低了评级下调的可能性。同时，这些纾困计划也没有帮助铁路公司避免债务违约，但有利于一些附近的制造业公司。 |
-| [^14] | [Fat Tails and Optimal Liability Driven Portfolios.](http://arxiv.org/abs/2201.10846) | 研究了一系列重尾风险度量下的最优负责任驱动投资组合，提出了一种比条件风险价值更加敏感的新的极值风险度量，即“极端偏差”(XD)，最优组合将优化每单位的XD回报。 |
+| [^1] | [Climate uncertainty impacts on optimal mitigation pathways and social cost of carbon.](http://arxiv.org/abs/2304.08957) | 研究表明，气候不确定性是导致碳社会成本和最优CO$_2$减排量范围变化的关键因素，减少气候不确定性可以改进减排投入的成本计算，同时也指出了气候和排放之间缺失的反馈。 |
+| [^2] | [On the Separation of Estimation and Control in Risk-Sensitive Investment Problems under Incomplete Observation.](http://arxiv.org/abs/2304.08910) | 本文研究了一类普通风险敏感性投资问题在有限维度滤波器存在条件下的可分离性，并证明了相应的分离问题与原始控制问题的严格等价。 |
+| [^3] | [Collective dynamics, diversification and optimal portfolio construction for cryptocurrencies.](http://arxiv.org/abs/2304.08902) | 本研究旨在探究加密货币市场的集体动力学和投资组合多样化，以及尝试确认先前在股票市场中建立的结果是否适用于加密货币市场。 |
+| [^4] | [Parameterized Neural Networks for Finance.](http://arxiv.org/abs/2304.08883) | 本文介绍了一种神经网络架构，可以学习一组不同数据样本的模型类，通过调整较少的参数即可为新的、特定的问题建模，该方法在资产管理和银行业有广泛的应用潜力。 |
+| [^5] | [Optimal moral-hazard-free reinsurance under extended distortion premium principles.](http://arxiv.org/abs/2304.08819) | 本文研究了扩展畸变风险模型下的最优无道德风险再保险问题，并给出了一个解决方案，以减少破产的可能性。 |
+| [^6] | [Automated Function Implementation via Conditional Parameterized Quantum Circuits with Applications to Finance.](http://arxiv.org/abs/2304.08793) | 本文提出了一种基于预训练参数化量子电路的方法，将其转换为条件变量，以实现状态相关函数并加速金融衍生品的定价问题。 |
+| [^7] | [Risks and opportunities in arbitrage and market-making in blockchain-based currency markets. Part 1 : Risks.](http://arxiv.org/abs/2304.08590) | 本研究分析了区块链货币市场高频交易操作中可能存在的风险和潜在机会，提供了有用信息。 |
+| [^8] | [Statistical properties of volume in the Bitcoin/USD market.](http://arxiv.org/abs/2304.01907) | 本文研究了比特币/美元市场中最佳买价和最佳卖价下的交易量的统计特性，发现交易量时间序列中存在长程相关性和幂律衰减的证据以及最佳买价和最佳卖价下的交易量之间存在强烈的同步性。 |
+| [^9] | [Feature Engineering Methods on Multivariate Time-Series Data for Financial Data Science Competitions.](http://arxiv.org/abs/2303.16117) | 针对金融数据科学竞赛，本研究尝试采用多元时间序列特征工程方法，利用美国市场价格数据进行测试，并验证其在Numerai-Signals目标上的预测能力。 |
+| [^10] | [Robust Risk-Aware Option Hedging.](http://arxiv.org/abs/2303.15216) | 本研究利用健壮的风险感知强化学习算法，优化期权对冲策略，特别应用于界限期权对冲，随着代理风险偏好变化，对冲策略发生扭曲，鲁棒策略优于非鲁棒策略。 |
+| [^11] | [Credible Decentralized Exchange Design via Verifiable Sequencing Rules.](http://arxiv.org/abs/2209.15569) | 本研究提出可验证排序规则，为去中心化交易所提供了更可靠的交易执行方式，并对于现有矿工操纵市场的问题提供了解决方案。 |
+| [^12] | [q-Learning in Continuous Time.](http://arxiv.org/abs/2207.00713) | 本文研究了连续时间下的q-Learning，通过引入小q函数作为一阶近似，研究了q-learning理论，应用于设计不同的演员-评论家算法。 |
+| [^13] | [Detection and Forecasting of Extreme event in Stock Price Triggered by Fundamental, Technical, and External Factors.](http://arxiv.org/abs/2206.13860) | 该研究使用HHT识别基本面、技术面及外部因素引发的股价极端事件，并使用支持向量回归预测EE期间的收盘价，具有高精度预测的优点。 |
+| [^14] | [Sequential Elimination Contests with All-Pay Auctions.](http://arxiv.org/abs/2205.08104) | 本文研究了带全付拍卖的顺序淘汰比赛，在设计者无法得知所有选手类型情况下，对于有限的选手数量，我们明确定义了均衡策略和期望的最优机制，并为设计者提供了一些众包比赛的设计启示。 |
+| [^15] | [The Cost of Influence: How Gifts to Physicians Shape Prescriptions and Drug Costs.](http://arxiv.org/abs/2203.01778) | 本文研究了制药公司向医生进行的礼物或货款等赠送方式对处方和药物成本的影响。研究发现，礼品会让医生更多地开出品牌药处方，导致每收到1美元的费用增加30美元的成本。禁止礼品赠送估计可以使药品成本降低3-4%。 |
+| [^16] | [Media Slant is Contagious.](http://arxiv.org/abs/2202.07269) | 本文研究了国家有线电视新闻对美国本土报纸的影响，发现当地报纸的内容会因为当地 FNC 观众数量的增加而趋向于 FNC 的倾向，并且有线电视倾向会极化地方新闻内容。 |
+| [^17] | [Sampling Distributions of Optimal Portfolio Weights and Characteristics in Low and Large Dimensions.](http://arxiv.org/abs/1908.04243) | 本文研究了最优投资组合问题中估计的最优组合权重及特征的抽样分布。通过导出随机表示，确定了其抽样分布的表达式，具有高效抽样和易于处理不对称性的优点。 |
 
 # 详细
 
-[^1]: 主要加密货币的结构化多重分形特性的研究：使用可自解释机器学习进行检验
+[^1]: 气候不确定性对最佳减排路径和碳社会成本的影响
 
-    Structured Multifractal Scaling of the Principal Cryptocurrencies: Examination using a Self-Explainable Machine Learning. (arXiv:2304.08440v1 [q-fin.ST])
+    Climate uncertainty impacts on optimal mitigation pathways and social cost of carbon. (arXiv:2304.08957v1 [econ.GN])
 
-    [http://arxiv.org/abs/2304.08440](http://arxiv.org/abs/2304.08440)
+    [http://arxiv.org/abs/2304.08957](http://arxiv.org/abs/2304.08957)
 
-    本文提出了一种新的结构化去趋势多重分形波动分析（S-MF-DFA）方法，用于研究加密货币的效率。该方法基于单因素模型进行外生因素的表征，从而创建了一种自解释的机器学习模型，用于加密货币价格预测。
-
-    
-
-    多重分形分析是一种用于研究金融回报的缩放规律特性、分析金融市场的长期记忆性和可预测性的预测技术。本文提出了一种新的结构化去趋势多重分形波动分析（S-MF-DFA），以研究主要加密货币的效率。新的方法通过使用变点检测测试确定不同波动区间进行推广，从而泛化了传统方法。在这个框架中，基于单因素模型进行各种影响缩放行为的外生因素的表征，从而为价格预测创建了一种自解释的机器学习模型。该模型在主要加密货币的日度数据上进行了测试，以检验数字市场在近年来是否经历过震荡，并且这是否以某种方式导致了加密货币的结构化多重分形特性。
-
-    Multifractal analysis is a forecasting technique used to study the scaling regularity properties of financial returns, to analyze the long-term memory and predictability of financial markets. In this paper, we propose a novel structural detrended multifractal fluctuation analysis (S-MF-DFA) to investigate the efficiency of the main cryptocurrencies. The new methodology generalizes the conventional approach by allowing it to proceed on the different fluctuation regimes previously determined using a change-points detection test. In this framework, the characterization of the various exogenous factors influencing the scaling behavior is performed on the basis of a single-factor model, thus creating a kind of self-explainable machine learning for price forecasting. The proposal is tested on the daily data of the three among the main cryptocurrencies in order to examine whether the digital market has experienced upheavals in recent years and whether this has in some ways led to a structured
-    
-[^2]: 气候变化的时空变异性对经济的影响
-
-    Economic consequences of the spatial and temporal variability of climate change. (arXiv:2304.08049v1 [econ.GN])
-
-    [http://arxiv.org/abs/2304.08049](http://arxiv.org/abs/2304.08049)
-
-    本文研究表明，评估气候变化对经济影响的损伤函数中未考虑时空变异性对经济损失的影响可能被严重低估。
+    研究表明，气候不确定性是导致碳社会成本和最优CO$_2$减排量范围变化的关键因素，减少气候不确定性可以改进减排投入的成本计算，同时也指出了气候和排放之间缺失的反馈。
 
     
 
-    综合评估模型中的损伤函数将气候变化与经济影响联系起来，并成为大多数社会碳成本预估的基础。但其中的一个未经证实的假设限制了气候变化的时空变异性为零，这可能会导致经济损失估计和气候政策建议存在偏差。本文在考虑了各个领域损伤的季节变化后，提出了同时考虑时空变异性的气候变化经济成本预估。结果显示，与最近研究所示的对经济损失预估影响较小的Tvar相反，忽略Svar会产生大量偏差，因为气候变暖在空间上高度分异。应用保守的损伤函数校准，我们也展示了之前的预估存在偏差。
+    气候政策分析中的排放路径通常来自综合评估模型(IAMs)。然而，这些排放路径通常不考虑气候对社会经济系统的反馈作用，因此也没有考虑气候不确定性。本文表明，仅仅气候不确定性就显著地改变了最优CO$_2$减排量成本效益，对于一组限制升温在1.5摄氏度以下低超温度控制情景，2050年的减排量变化范围在-14到+12 GtCO$_2$ yr$^{-1}$之间。此情景下，碳社会成本的范围变化达到了五倍。平衡气候敏感性(ECS)和现有气溶胶辐射强度是碳社会成本和中世纪最佳二氧化碳排放量的强烈决定因素。这表明，减少气候不确定性可以精确计算减排投入的成本，同时也指出了气候和排放之间缺失的反馈。
 
-    Damage functions in integrated assessment models (IAMs) map changes in climate to economic impacts and form the basis for most of estimates of the social cost of carbon. Implicit in these functions lies an unwarranted assumption that restricts the spatial variation (Svar) and temporal variability (Tvar) of changes in climate to be null. This could bias damage estimates and the climate policy advice from IAMs. While the effects of Tvar have been studied in the literature, those of Svar and their interactions with Tvar have not. Here we present estimates of the economic costs of climate change that account for both Tvar and Svar, as well as for the seasonality of damages across sectors. Contrary to the results of recent studies which show little effect that of Tvar on expected losses, we reveal that ignoring Svar produces large downward biases, as warming is highly heterogeneous over space. Using a conservative calibration for the damage function, we show that previous estimates are bias
+    Emissions pathways used in climate policy analysis are often derived from integrated assessment models (IAMs). However, such emissions pathways do not typically include climate feedbacks on socioeconomic systems and by extension do not consider climate uncertainty in their construction. Here we show that climate uncertainty alone significantly changes the cost-benefit optimal CO$_2$ emissions, varying from -14 to +12 GtCO$_2$ yr$^{-1}$ in 2050 (5-95% range) for an ensemble of scenarios that limit warming to 1.5{\deg}C with low overshoot. Climate uncertainty is also responsible for a factor of five range in the social cost of carbon (SCC) in this scenario ensemble. Equilibrium climate sensitivity (ECS) and the strength of present-day aerosol radiative forcing are strong determinants of SCC and optimal mid-century CO$_2$ emissions. This confirms that reducing climate uncertainty can refine cost-optimal emissions projections, and points to a missing feedback between climate and emissions 
     
-[^3]: 基于投票结果的去中心化承诺对民主决策的影响研究
+[^2]: 论不完全观测下风险敏感性投资问题中控制与估计的分离
 
-    Democratic Policy Decisions with Decentralized Promises Contingent on Vote Outcome. (arXiv:2304.08008v1 [econ.GN])
+    On the Separation of Estimation and Control in Risk-Sensitive Investment Problems under Incomplete Observation. (arXiv:2304.08910v1 [math.OC])
 
-    [http://arxiv.org/abs/2304.08008](http://arxiv.org/abs/2304.08008)
+    [http://arxiv.org/abs/2304.08910](http://arxiv.org/abs/2304.08910)
 
-    本文研究了去中心化承诺对民主决策的影响。在投票前，委员会成员可以进行可执行的承诺。可能需要跨越阵营进行承诺，以实现改革的实施，同时需要排除最不热衷于改革的支持者被诱导推翻决定。
-
-    
-
-    本文探讨了去中心化的效用转移承诺如何影响投票方式的集体决策。在投票前，支持和反对高效改革的委员会成员可以进行可执行的承诺。一个均衡需要稳定性和最小化的承诺。平衡承诺是存在且不确定的，但具有许多共同的特征。需要高强度成员向低强度成员提供转移承诺，并导致改革的实施。当改革支持者缺乏足够的投票权时，承诺必须跨越阵营。即使改革支持者的联盟是决定性的，承诺也必须排除最不热衷于改革的支持者被诱导推翻决定。在这种情况下，平衡的承诺不需要跨越阵营。我们还讨论了一系列有限的承诺，实现达到一个平衡的状态。
-
-    We study how decentralized utility transfer promises affect collective decision-making by voting. Committee members with varying levels of support and opposition for an efficient reform can make enforceable promises before voting. An equilibrium requires stability and minimal promises. Equilibrium promises exist and are indeterminate, but do share several key characteristics. Equilibria require transfer promises from high to low intensity members and result in enacting the reform. When reform supporters lack sufficient voting power, promises must reach across the aisle. Even if the coalition of reform supporters is decisive, promises must preclude the least enthusiastic supporters of the reform from being enticed to overturn the decision. In that case, equilibrium promises do not need to reach across the aisle. We also discuss a finite sequence of promises that achieve an equilibrium.
-    
-[^4]: 西西里黑手党的经济起源：一个模拟反馈模型
-
-    Economic Origins of the Sicilian Mafia: A Simulation Feedback Model. (arXiv:2304.07975v1 [econ.GN])
-
-    [http://arxiv.org/abs/2304.07975](http://arxiv.org/abs/2304.07975)
-
-    该模型解释了19世纪西西里黑手党崛起的经济原因，以及为什么在贫困地区黑手党的存在较少，其中富裕地区的企业利润能力是一个重要因素。
+    本文研究了一类普通风险敏感性投资问题在有限维度滤波器存在条件下的可分离性，并证明了相应的分离问题与原始控制问题的严格等价。
 
     
 
-    本章节开发了一个反馈经济模型，解释了19世纪西西里黑手党的崛起。该模型以经济理论为基础，将黑手党活动、掠夺、执法和当地企业的盈利能力之间的因果关系纳入考虑。通过使用这个模型进行计算实验，我们探讨了不同因素和反馈效应对黑手党活动水平的影响。该模型解释了一些重要的历史观察，比如黑手党在富裕地区的出现，以及尽管盗匪活动更加猖獗，但它们在贫困地区的缺席。
+    用于解决部分观测的随机控制问题的一种典型方法是将控制和估计任务分开。然而，众所周知，这种分离通常无法为风险敏感控制问题提供实际的最优解决方案。本文研究了一类普通风险敏感性投资管理问题的可分离性，当存在一个有限维度的滤波器时。我们证明了，相应的分离问题（其中考虑给定观测量的条件滤波器分布，而不是未观测到的量）严格等于原始控制问题。我们扩大了所谓的修改Zakai方程（MZE）在研究分离问题时的适用性，并证明了MZE在我们的方法中简化为PDE。此外，我们推导了分离性的判据。我们没有解决分离的控制问题，但指出有限维滤波器的存在会导致有限状态空间。
 
-    This chapter develops a feedback economic model that explains the rise of the Sicilian mafia in the 19th century. Grounded in economic theory, the model incorporates causal relationships between the mafia activities, predation, law enforcement, and the profitability of local businesses. Using computational experiments with the model, we explore how different factors and feedback effects impact the mafia activity levels. The model explains important historical observations such as the emergence of the mafia in wealthier regions and its absence in the poorer districts despite the greater levels of banditry.
+    A typical approach to tackle stochastic control problems with partial observation is to separate the control and estimation tasks. However, it is well known that this separation generally fails to deliver an actual optimal solution for risk-sensitive control problems. This paper investigates the separability of a general class of risk-sensitive investment management problems when a finite-dimensional filter exists. We show that the corresponding separated problem, where instead of the unobserved quantities, one considers their conditional filter distribution given the observations, is strictly equivalent to the original control problem. We widen the applicability of the so-called Modified Zakai Equation (MZE) for the study of the separated problem and prove that the MZE simplifies to a PDE in our approach. Furthermore, we derive criteria for separability. We do not solve the separated control problem but note that the existence of a finite-dimensional filter leads to a finite state spa
     
-[^5]: 印度茶叶市场研究
+[^3]: 加密货币的集体动力学、多样化和最优投资组合构建
 
-    Study on the tea market in India. (arXiv:2304.07851v1 [econ.GN])
+    Collective dynamics, diversification and optimal portfolio construction for cryptocurrencies. (arXiv:2304.08902v1 [q-fin.ST])
 
-    [http://arxiv.org/abs/2304.07851](http://arxiv.org/abs/2304.07851)
+    [http://arxiv.org/abs/2304.08902](http://arxiv.org/abs/2304.08902)
 
-    印度茶叶历史悠久，在世界茶叶生产中排名第二，生产有机可持续茶叶，尽管存在竞争、价格波动和劳工问题等困难，但仍然快速发展，并通过茶叶旅游鼓励旅游。
-
-    
-
-    印度的茶叶业有着悠久的历史，对印度经济有着重要的影响。印度是世界第二大茶叶生产国，阿萨姆和大吉岭是最知名的种茶地区。自从英国在19世纪20年代引进茶叶种植业以来，印度已经生产茶叶。今天，数百万人在茶叶行业工作，并且这个行业对于印度经济的贡献在收入方面非常显著。多年来，印度的茶叶生产方式已经发生了很大的改变，越来越倾向于采用有机和可持续的种植方式。茶叶行业还需要应对来自其他种茶国家的竞争，茶叶价格的波动和劳工相关问题等困难。尽管存在这些障碍，印度茶叶业仍在快速发展，并生产各种茶叶，如红茶、绿茶和印度奶茶。此外，茶叶行业还通过“茶叶旅游”鼓励旅游，让游客了解茶叶的制作过程和历史。
-
-    India's tea business has a long history and plays a significant role in the economics of the nation. India is the world's second-largest producer of tea, with Assam and Darjeeling being the most well-known tea-growing regions. Since the British introduced tea cultivation to India in the 1820s, the nation has produced tea. Millions of people are employed in the tea sector today, and it contributes significantly to the Indian economy in terms of revenue. The production of tea has changed significantly in India over the years, moving more and more towards organic and sustainable practices. The industry has also had to deal with difficulties like competition from other nations that produce tea, varying tea prices, and labor-related problems. Despite these obstacles, the Indian tea business is still growing and produces a wide variety of teas, such as black tea, green tea, and chai tea. Additionally, the sector encourages travel through "tea tourism," which allows tourists to see how tea is
-    
-[^6]: 自动化对收入不平等的影响：跨国分析
-
-    The Impact of Automation on Income Inequality: A Cross-Country Analysis. (arXiv:2304.07835v1 [econ.GN])
-
-    [http://arxiv.org/abs/2304.07835](http://arxiv.org/abs/2304.07835)
-
-    自动化的收入不平等影响因国家的政策、劳动力市场机构有所不同。
+    本研究旨在探究加密货币市场的集体动力学和投资组合多样化，以及尝试确认先前在股票市场中建立的结果是否适用于加密货币市场。
 
     
 
-    本研究考虑了不同国家技术采纳和劳动力市场机构的变化，研究了自动化和收入不平等之间的关系。该研究使用来自世界银行、国际劳工组织和其他可靠来源的数据进行面板数据分析。研究结果表明，尽管自动化会提高生产力，但它对收入不平等的影响取决于国家的劳动力市场机构和社会政策。
+    自发明以来，加密货币市场经常被描述为一个不成熟的市场，其波动率显著波动，并且偶尔被描述为缺乏规律。人们一直在猜测它在多样化投资组合中扮演着什么角色。例如，加密货币是否是通货膨胀对冲的工具，还是一种遵循市场情绪的投机性投资，其Beta值放大了呢？本文旨在调查加密货币市场是否展现出与更成熟的股票市场类似的复杂数学特性。我们关注加密货币市场的集体动力学和投资组合多样化，并研究在加密货币市场中先前建立的股票市场结果是否成立，以及程度如何。
 
-    This study examines the relationship between automation and income inequality across different countries, taking into account the varying levels of technological adoption and labor market institutions. The research employs a panel data analysis using data from the World Bank, the International Labour Organization, and other reputable sources. The findings suggest that while automation leads to an increase in productivity, its effect on income inequality depends on the country's labor market institutions and social policies.
+    Since its conception, the cryptocurrency market has been frequently described as an immature market, characterized by significant swings in volatility and occasionally described as lacking rhyme or reason. There has been great speculation as to what role it plays in a diversified portfolio. For instance, is cryptocurrency exposure an inflationary hedge or a speculative investment that follows broad market sentiment with amplified beta? This paper aims to investigate whether the cryptocurrency market has recently exhibited similarly nuanced mathematical properties as the much more mature equity market. Our focus is on collective dynamics and portfolio diversification in the cryptocurrency market, and examining whether previously established results in the equity market hold in the cryptocurrency market, and to what extent.
     
-[^7]: CRRA效用下考虑不同交易成本的最优投资和消费策略
+[^4]: 金融参数化神经网络
 
-    Optimal Investment and Consumption Strategies with General and Linear Transaction Costs under CRRA Utility. (arXiv:2304.07672v1 [q-fin.PM])
+    Parameterized Neural Networks for Finance. (arXiv:2304.08883v1 [q-fin.ST])
 
-    [http://arxiv.org/abs/2304.07672](http://arxiv.org/abs/2304.07672)
+    [http://arxiv.org/abs/2304.08883](http://arxiv.org/abs/2304.08883)
 
-    本文针对不同交易成本结构，通过动态规划和奇异摄动展开的方法，得出了考虑CRRA效用下的最优投资与消费策略。
-
-    
-
-    在资产配置和组合管理中，交易成本在投资和消费策略中发挥着至关重要的作用。我们应用动态规划和奇异摄动展开的方法，通过最大化此问题的期望CRRA（恒定相对风险厌恶）效用函数，得出了针对任意交易成本结构的小交易成本的闭合式的主导解。我们还详细讨论了固定和比例交易成本都存在的情况。
-
-    Transaction costs play a critical role in asset allocation and consumption strategies in portfolio management. We apply the methods of dynamic programming and singular perturbation expansion to derive the closed-form leading solutions to this problem for small transaction costs with arbitrary transaction cost structure by maximizing the expected CRRA (constant relative risk aversion) utility function for this problem. We also discuss in detail the case which consists of both fixed and proportional transaction costs.
-    
-[^8]: ChatGPT是否能够预测股票价格波动？回报可预测性与大语言模型。
-
-    Can ChatGPT Forecast Stock Price Movements? Return Predictability and Large Language Models. (arXiv:2304.07619v1 [q-fin.ST])
-
-    [http://arxiv.org/abs/2304.07619](http://arxiv.org/abs/2304.07619)
-
-    本研究探究了使用ChatGPT及其他大型语言模型预测股市回报的潜力，发现ChatGPT的预测表现优于传统情感分析方法，而基础模型无法准确预测股票价格变化，表明复杂模型可预测能力的崛起。这表明在投资决策过程中引入先进的语言模型可以提高预测准确性并增强定量交易策略的表现。
+    本文介绍了一种神经网络架构，可以学习一组不同数据样本的模型类，通过调整较少的参数即可为新的、特定的问题建模，该方法在资产管理和银行业有广泛的应用潜力。
 
     
 
-    本文研究了使用情感分析预测股市回报的潜力，探讨了使用ChatGPT以及其他大语言模型在预测股市回报方面的表现。我们使用ChatGPT判断新闻标题对公司股票价格是好消息、坏消息或无关消息。通过计算数字分数，我们发现这些"ChatGPT分数"和随后的日常股票市场回报之间存在正相关性。而且，ChatGPT的表现优于传统的情感分析方法。同时，我们发现GPT-1、GPT-2和BERT等基础模型无法准确预测回报，这表明回报可预测性是复杂模型的一种新兴能力。我们的研究结果表明，将先进的语言模型纳入投资决策过程可以产生更准确的预测，并提高定量交易策略的表现。
+    本文讨论和分析了一种神经网络架构，可以学习一组不同数据样本的模型类，而不仅仅是针对特定数据样本的单一模型。从这个意义上讲，它可以帮助减少过拟合问题，因为在学习了这种模型类之后，仅需要调整少量参数即可为新的、特定的问题建模。在理论分析和不同一维问题的回归实例之后，我们最终将此方法应用于资产管理公司和银行面临的标准问题之一：调整收益率曲线。呈现的结果清楚地展示了这种方法的潜力。此外，这种应用对金融从业人员特别感兴趣，因为几乎所有拥有解决方案的资产管理公司和银行在ESG评级方面也需要调整或甚至改变他们当前的方法。
 
-    We examine the potential of ChatGPT, and other large language models, in predicting stock market returns using sentiment analysis of news headlines. We use ChatGPT to indicate whether a given headline is good, bad, or irrelevant news for firms' stock prices. We then compute a numerical score and document a positive correlation between these ``ChatGPT scores'' and subsequent daily stock market returns. Further, ChatGPT outperforms traditional sentiment analysis methods. We find that more basic models such as GPT-1, GPT-2, and BERT cannot accurately forecast returns, indicating return predictability is an emerging capacity of complex models. Our results suggest that incorporating advanced language models into the investment decision-making process can yield more accurate predictions and enhance the performance of quantitative trading strategies.
+    We discuss and analyze a neural network architecture, that enables learning a model class for a set of different data samples rather than just learning a single model for a specific data sample. In this sense, it may help to reduce the overfitting problem, since, after learning the model class over a larger data sample consisting of such different data sets, just a few parameters need to be adjusted for modeling a new, specific problem. After analyzing the method theoretically and by regression examples for different one-dimensional problems, we finally apply the approach to one of the standard problems asset managers and banks are facing: the calibration of spread curves. The presented results clearly show the potential that lies within this method. Furthermore, this application is of particular interest to financial practitioners, since nearly all asset managers and banks which are having solutions in place may need to adapt or even change their current methodologies when ESG ratings
     
-[^9]: 地缘政治过程的博弈论模型，第一部分
+[^5]: 扩展畸变风险模型下的最优无道德风险再保险研究
 
-    Game theoretical models of geopolitical processes. Part I. (arXiv:2304.07568v1 [econ.GN])
+    Optimal moral-hazard-free reinsurance under extended distortion premium principles. (arXiv:2304.08819v1 [q-fin.MF])
 
-    [http://arxiv.org/abs/2304.07568](http://arxiv.org/abs/2304.07568)
+    [http://arxiv.org/abs/2304.08819](http://arxiv.org/abs/2304.08819)
 
-    本文研究了地缘政治行为者在军事装备生产和销售方面的互动，找到了地缘政治行为者的最优策略，同时确定了每个地缘政治行为者的最优策略。
-
-    
-
-    本文研究了地缘政治行为者在军事装备生产和销售方面的互动。在第二部分中，将军事装备生产视为二人零和游戏，参与者的策略由行为者的信息状态确定。找到了地缘政治行为者的最优策略。在第三部分，考虑冲突过程，确定了每个地缘政治行为者的最优策略。
-
-    In this paper, the interaction of geopolitical actors in the production and sale of military equipment is studied. In section 2 the production of military equipment is considered as the two person zero-sum game. In such game, the strategies of the players are defined by the information state of the actors. The optimal strategy of geopolitical actors is found. In section 3, the conflict process is considered, the optimal strategy is determined for each geopolitical actor.
-    
-[^10]: 通过随机降维和主成分分析模拟高斯向量
-
-    Simulating Gaussian vectors via randomized dimension reduction and PCA. (arXiv:2304.07377v1 [math.ST])
-
-    [http://arxiv.org/abs/2304.07377](http://arxiv.org/abs/2304.07377)
-
-    本文提出一种新的估计高斯向量期望的方法，通过随机降维和主成分分析技术，能够在合适的条件下比标准蒙特卡罗方法更有效地工作。
+    本文研究了扩展畸变风险模型下的最优无道德风险再保险问题，并给出了一个解决方案，以减少破产的可能性。
 
     
 
-    本文研究了估计具有给定协方差矩阵的d维高斯向量X的实值函数g(X)期望E(g(X))的问题。我们提出了一种新的无偏估计器，它将随机降维技术与主成分分析相结合。在适当的条件下，我们证明了这种算法的性能优于标准蒙特卡罗方法，其优势与d的数量级相同。
+    本文研究了扩散风险模型下的最优再保险问题，保险人的目标是尽量减少破产的可能性。为了避免道德风险问题，我们仅考虑无道德风险再保险合同，并在保障功能上施加激励兼容性约束。再保险保费是在扩展的畸变保费原则下计算的，其中畸变函数不一定是凸的。我们首先表明，最优再保险合同总是存在的，然后得出了两个充分必要条件来表征它。由于激励兼容性约束和畸变函数的非凸性，最优合同是通过解决双障碍问题获得的。最后，我们将所得到的一般结果应用于三个示例的研究，并以（半）封闭形式获得最优的合同。
 
-    We study the problem of estimating E(g(X)), where g is a real-valued function of d variables and X is a d-dimensional Gaussian vector with a given covariance matrix. We present a new unbiased estimator for E(g(X)) that combines the randomized dimension reduction technique with principal components analysis. Under suitable conditions, we prove that our algorithm outperforms the standard Monte Carlo method by a factor of order d.
+    We study an optimal reinsurance problem under a diffusion risk model for an insurer who aims to minimize the probability of lifetime ruin. To rule out moral hazard issues, we only consider moral-hazard-free reinsurance contracts by imposing the incentive compatibility constraint on indemnity functions. The reinsurance premium is calculated under an extended distortion premium principle, in which the distortion function is not necessarily concave. We first show that an optimal reinsurance contract always exists and then derive two sufficient and necessary conditions to characterize it. Due to the presence of the incentive compatibility constraint and the nonconcavity of the distortion, the optimal contract is obtained as a solution to a double obstacle problem. At last, we apply the general result to study three examples and obtain the optimal contract in (semi)closed form.
     
-[^11]: 使用比例代表制方法替代股票交易所中基于比例分配顺序的匹配算法的研究
+[^6]: 通过条件参数化量子电路自动实现函数，对金融学的应用
 
-    On Using Proportional Representation Methods as Alternatives to Pro-Rata Based Order Matching Algorithms in Stock Exchanges. (arXiv:2303.09652v1 [econ.GN])
+    Automated Function Implementation via Conditional Parameterized Quantum Circuits with Applications to Finance. (arXiv:2304.08793v1 [quant-ph])
 
-    [http://arxiv.org/abs/2303.09652](http://arxiv.org/abs/2303.09652)
+    [http://arxiv.org/abs/2304.08793](http://arxiv.org/abs/2304.08793)
 
-    研究发现，选举制度中的比例代表方法可以替代股票交易所中的按比例分配顺序的匹配算法，提供更接近比例分配的订单分配。
-
-    
-
-    本短文的主要观察是，用于确定选举制度中比例代表的方法可以作为替代股票交易所中使用的按比例分配订单的匹配算法的选择。我们的模拟研究强有力地证明，杰斐逊/德汉特和韦伯斯特/圣拉格比例代表方法提供的订单分配比按比例分配算法获得的订单分配更接近比例分配。
-
-    The main observation of this short note is that methods for determining proportional representation in electoral systems may be suitable as alternatives to the pro-rata order matching algorithm used in stock exchanges. Our simulation studies provide strong evidence that the Jefferson/D'Hondt and the Webster/Saint-Lagu\"{e} proportional representation methods provide order allocations which are closer to proportionality than the order allocations obtained from the pro-rata algorithm.
-    
-[^12]: 一个出乎意料的随机优势：帕累托分布、灾难和风险交换
-
-    An unexpected stochastic dominance: Pareto distributions, catastrophes, and risk exchange. (arXiv:2208.08471v2 [q-fin.RM] UPDATED)
-
-    [http://arxiv.org/abs/2208.08471](http://arxiv.org/abs/2208.08471)
-
-    本文研究发现，加权平均iid极重尾Pareto损失在第一顺序随机优势意义下大于单一损失。通过均衡分析证明，多样化将增加组合风险，拥有极重尾Pareto损失的参与者在市场均衡中将不会分享风险。
+    本文提出了一种基于预训练参数化量子电路的方法，将其转换为条件变量，以实现状态相关函数并加速金融衍生品的定价问题。
 
     
 
-    本文展示了一个或许令人惊讶的不等式：加权平均iid极重尾（即无穷大均值）的 Pareto 损失在第一顺序随机优势意义下大于单一损失。此结果被进一步推广到 Pareto 风险, 并在负相关、凸转换、随机求和和权重，以及灾难事件触发的损失背景下进行探讨。通过风险交换市场中的均衡分析，我们讨论了这些结果的几个影响。首先，极重尾 Pareto 损失的多样化增加了组合风险，因此存在多样化惩罚。其次，拥有极重尾 Pareto 损失的参与者将不会在市场均衡中分享风险。第三，将承担 Pareto 损失的参与者的损失转移到没有任何损失的外部方，可以实现使每一方都受益的均衡。我们的实证研究表明，我们的新不等式可以在实际数据中被观察到。
+    经典的蒙特卡罗算法可以在量子计算机上通过采用振幅估计（AE）理论上加速。为了实现这一点，实现状态相关函数至关重要。我们开发了一种基于预训练参数化量子电路的简单方法，并展示了如何将它们转换为它们的条件变体，使它们可以作为AE算法的子例程使用。为了识别合适的电路，我们提出了一种遗传优化方法，结合可变的ansatz和数据编码。我们将我们的算法应用于定价金融衍生品的问题上。经过昂贵的预训练过程，这将导致一个实现衍生品收益函数的量子电路比现有量子算法更有效。特别是，我们比较了欧式香草期权和篮式期权的表现。
 
-    We show the perhaps surprising inequality that the weighted average of iid extremely heavy-tailed (i.e., infinite mean) Pareto losses is larger than a standalone loss in the sense of first-order stochastic dominance. This result is further generalized to Pareto risks in the context of negative dependence, convex transformations, random summation and weights, and losses triggered by catastrophic events. We discuss several implications of these results via an equilibrium analysis in a risk exchange market. First, diversification of extremely heavy-tailed Pareto losses increases portfolio risk, and thus a diversification penalty exists. Second, agents with extremely heavy-tailed Pareto losses will not share risks in a market equilibrium. Third, transferring losses from agents bearing Pareto losses to external parties without any losses may arrive at an equilibrium which benefits every party involved. The empirical studies show that our new inequality can be observed empirically for real d
+    Classical Monte Carlo algorithms can theoretically be sped up on a quantum computer by employing amplitude estimation (AE). To realize this, an efficient implementation of state-dependent functions is crucial. We develop a straightforward approach based on pre-training parameterized quantum circuits, and show how they can be transformed into their conditional variant, making them usable as a subroutine in an AE algorithm. To identify a suitable circuit, we propose a genetic optimization approach that combines variable ansatzes and data encoding. We apply our algorithm to the problem of pricing financial derivatives. At the expense of a costly pre-training process, this results in a quantum circuit implementing the derivatives' payoff function more efficiently than previously existing quantum algorithms. In particular, we compare the performance for European vanilla and basket options.
     
-[^13]: 大萧条时期的铁路纾困计划
+[^7]: 区块链货币市场套利和做市的风险和机会第一部分：风险
 
-    Railroad Bailouts in the Great Depression. (arXiv:2205.13025v3 [econ.GN] UPDATED)
+    Risks and opportunities in arbitrage and market-making in blockchain-based currency markets. Part 1 : Risks. (arXiv:2304.08590v1 [econ.GN])
 
-    [http://arxiv.org/abs/2205.13025](http://arxiv.org/abs/2205.13025)
+    [http://arxiv.org/abs/2304.08590](http://arxiv.org/abs/2304.08590)
 
-    大萧条时期，美国政府通过向铁路公司提供贷款来减少债券违约的可能性和增加就业，然而这些纾困计划没有帮助铁路公司增加盈利或就业，而是减少了杠杆比率。纾困对股票价格几乎没有影响，但导致其债券价格上涨并降低了评级下调的可能性。同时，这些纾困计划也没有帮助铁路公司避免债务违约，但有利于一些附近的制造业公司。
-
-    
-
-    重建金融公司和公共工程管理局在1932年至1939年间向46家铁路公司发放了802多万美元的贷款，政府的目标是减少债券违约的可能性和增加就业。然而被纾困的铁路公司并没有增加盈利或就业，反而减少了杠杆比率。纾困铁路公司对其股票价格几乎没有影响，但导致其债券价格上涨并降低了评级下调的可能性。然而，纾困并没有帮助铁路公司避免债务违约。我们发现，一些位于铁路附近的制造业公司受益于这些纾困计划。
-
-    The Reconstruction Finance Corporation and Public Works Administration loaned 46 railroads over $802 million between 1932 and 1939. The government's goal was to decrease the likelihood of bond defaults and increase employment. Bailed-out railroads did not increase profitability or employment. Instead, they reduced leverage. Bailing out a railroad had little effect on its stock price, but it resulted in an increase in its bond prices and reduced the likelihood of a ratings downgrade. However, bailouts did not help railroads avoid defaulting on their debt. We find some evidence that manufacturing firms located close to railroads benefited from the bailouts.
-    
-[^14]: Fat Tails和最优负责任驱动投资组合
-
-    Fat Tails and Optimal Liability Driven Portfolios. (arXiv:2201.10846v3 [q-fin.PM] UPDATED)
-
-    [http://arxiv.org/abs/2201.10846](http://arxiv.org/abs/2201.10846)
-
-    研究了一系列重尾风险度量下的最优负责任驱动投资组合，提出了一种比条件风险价值更加敏感的新的极值风险度量，即“极端偏差”(XD)，最优组合将优化每单位的XD回报。
+    本研究分析了区块链货币市场高频交易操作中可能存在的风险和潜在机会，提供了有用信息。
 
     
 
-    我们研究了一系列重尾风险度量下的最优负责任驱动投资组合，尤其是在养老基金和保险固定现金流义务配置方面，但也包括在衍生品交易中出现的数据一交易或存在随机波动率的期权交易。在极值极限下，我们得出了一个新的尾部风险度量，即“极端偏差”(XD)，这是一个比条件风险价值更加敏感的极值风险度量。最优组合将优化每单位的XD回报，其中投资比重包括对冲义务贡献和寻求产生正的风险调整回报的风险贡献。所得到的资产分配在多种不同限制条件下进行了质量和数量分析。
+    本研究提供了一个实践性介绍，介绍了区块链货币市场中的高频交易。这些市场具有一些特定的特征，使它们与股票市场有所不同，例如许多交易所（集中式和去中心化），从一个交易所转移资金的相对简单性，以及许多新货币几乎没有流动性。本研究分析了可能在这种类型的交易操作中特别存在的风险、潜在的机会和大多数使用的算法，提供了对于有意在这些市场上提供（并承担）流动性的从业者有用的信息。
 
-    We look at optimal liability-driven portfolios in a family of fat-tailed and extremal risk measures, especially in the context of pension fund and insurance fixed cashflow liability profiles, but also those arising in derivatives books such as delta one books or options books in the presence of stochastic volatilities. In the extremal limit, we recover a new tail risk measure, Extreme Deviation (XD), an extremal risk measure significantly more sensitive to extremal returns than CVaR. Resulting optimal portfolios optimize the return per unit of XD, with portfolio weights consisting of a liability hedging contribution, and a risk contribution seeking to generate positive risk-adjusted return. The resulting allocations are analyzed qualitatively and quantitatively in a number of different limits.
+    This study provides a practical introduction to high-frequency trading in blockchain-based currency markets. These types of markets have some specific characteristics that differentiate them from the stock markets, such as a large number of trading exchanges (centralized and decentralized), relative simplicity in moving funds from one exchange to another, and the large number of new currencies that have very little liquidity. This study analyzes the possible risks that specifically characterize this type of trading operation, the potential opportunities, and the algorithms that are mostly used, providing information that can be useful for practitioners who intend to operate in these markets by providing (and risking) liquidity.
+    
+[^8]: 比特币/美元市场的交易量的统计学特性研究
+
+    Statistical properties of volume in the Bitcoin/USD market. (arXiv:2304.01907v1 [q-fin.ST])
+
+    [http://arxiv.org/abs/2304.01907](http://arxiv.org/abs/2304.01907)
+
+    本文研究了比特币/美元市场中最佳买价和最佳卖价下的交易量的统计特性，发现交易量时间序列中存在长程相关性和幂律衰减的证据以及最佳买价和最佳卖价下的交易量之间存在强烈的同步性。
+
+    
+
+    几项研究表明，金融资产回报时间序列中存在一些相当非平凡的统计特性，交易和委托薄中的交易量与委托量也显示出有趣而复杂的统计特性。本文研究了比特币/美元市场中最佳买价和最佳卖价下的交易量的统计特性。使用Bitfinex交易所的数据，我们发现交易量时间序列中存在长程相关性和幂律衰减的证据。我们还观察到最佳买价和最佳卖价下的交易量之间存在强烈的同步性，这是其他金融市场不具备的特征。我们的发现有助于更深入地了解比特币市场的动态。
+
+    Several studies have shown that just as there are some quite non-trivial statistical properties in the time series of financial asset returns, the volumes of transactions and of orders entered into the order book also display interesting and complex statistical properties. For instance, a recurring observation in the literature has been that the sizes of volumes, both of incoming orders and of realized transactions, can take on many different values across several orders of magnitude, with a marked preference for whole numbers like 5, 10, 100 and so on. Another common finding is that the time series of volumes present long lived autocorrelations, with decay rates that can be well approximated by power laws. These studies have focused their attention on the volume of incoming orders or on the volume of registered transactions, but there is another source of data relevant for a deeper understanding of market dynamics: the volume stored at the best ask and best bid. The present work is a 
+    
+[^9]: 面向金融数据科学竞赛的多元时间序列数据特征工程方法
+
+    Feature Engineering Methods on Multivariate Time-Series Data for Financial Data Science Competitions. (arXiv:2303.16117v1 [q-fin.ST])
+
+    [http://arxiv.org/abs/2303.16117](http://arxiv.org/abs/2303.16117)
+
+    针对金融数据科学竞赛，本研究尝试采用多元时间序列特征工程方法，利用美国市场价格数据进行测试，并验证其在Numerai-Signals目标上的预测能力。
+
+    
+
+    我们应用不同的时间序列特征工程方法对美国市场价格数据进行处理，并测试模型在Numerai-Signals目标上的预测能力。
+
+    We apply different feature engineering methods for time-series to US market price data. The predictive power of models are tested against Numerai-Signals targets.
+    
+[^10]: 健壮的风险感知期权对冲
+
+    Robust Risk-Aware Option Hedging. (arXiv:2303.15216v1 [q-fin.CP])
+
+    [http://arxiv.org/abs/2303.15216](http://arxiv.org/abs/2303.15216)
+
+    本研究利用健壮的风险感知强化学习算法，优化期权对冲策略，特别应用于界限期权对冲，随着代理风险偏好变化，对冲策略发生扭曲，鲁棒策略优于非鲁棒策略。
+
+    
+
+    期权对冲/交易的目标不仅仅是为了保护下行风险，还希望寻求收益，驱动策略。本研究展示了健壮的风险感知强化学习(RL)在减轻与路径相关的金融衍生品风险方面的潜力。我们利用Jaimungal、Pesenti、Wang、Tatsat(2022)的策略梯度方法，优化健壮的风险感知绩效标准，具体应用于界限期权对冲，并强调随着代理从风险规避转变为风险寻求，最优对冲策略会发生扭曲，以及代理如何强化其策略。我们进一步研究了当数据生成过程(DGP)与训练DGP不同时，对冲的表现，并证明了鲁棒策略优于非鲁棒策略。
+
+    The objectives of option hedging/trading extend beyond mere protection against downside risks, with a desire to seek gains also driving agent's strategies. In this study, we showcase the potential of robust risk-aware reinforcement learning (RL) in mitigating the risks associated with path-dependent financial derivatives. We accomplish this by leveraging the Jaimungal, Pesenti, Wang, Tatsat (2022) and their policy gradient approach, which optimises robust risk-aware performance criteria. We specifically apply this methodology to the hedging of barrier options, and highlight how the optimal hedging strategy undergoes distortions as the agent moves from being risk-averse to risk-seeking. As well as how the agent robustifies their strategy. We further investigate the performance of the hedge when the data generating process (DGP) varies from the training DGP, and demonstrate that the robust strategies outperform the non-robust ones.
+    
+[^11]: 基于可验证排序规则的可信分散式交易所设计
+
+    Credible Decentralized Exchange Design via Verifiable Sequencing Rules. (arXiv:2209.15569v2 [cs.GT] UPDATED)
+
+    [http://arxiv.org/abs/2209.15569](http://arxiv.org/abs/2209.15569)
+
+    本研究提出可验证排序规则，为去中心化交易所提供了更可靠的交易执行方式，并对于现有矿工操纵市场的问题提供了解决方案。
+
+    
+
+    在去中心化交易所上进行交易已成为使用无需许可的区块链的主要用例之一，每日的交易量超过数十亿美元。目前，用户广播交易，而矿工负责组成包含这些交易的块并选择一个执行顺序——即交易在交易所中执行的顺序。由于缺乏监管框架，很常见看到矿工利用其特权地位在前置交易和获得无风险利润。在本文中，我们提出了修改矿工和用户之间互动的建议，并开始研究“可验证排序规则”。像现状一样，矿工可以确定块的内容；然而，它们承诺遵守一个限制执行顺序的排序规则，并且该规则是可验证的（存在一种多项式时间算法可以验证执行顺序是否满足此类约束）。因此，如果矿工偏离排序规则，那么所有交易都将降级为无效状态。
+
+    Trading on decentralized exchanges has been one of the primary use cases for permissionless blockchains with daily trading volume exceeding billions of U.S.~dollars. In the status quo, users broadcast transactions and miners are responsible for composing a block of transactions and picking an execution ordering -- the order in which transactions execute in the exchange. Due to the lack of a regulatory framework, it is common to observe miners exploiting their privileged position by front-running transactions and obtaining risk-fee profits. In this work, we propose to modify the interaction between miners and users and initiate the study of {\em verifiable sequencing rules}. As in the status quo, miners can determine the content of a block; however, they commit to respecting a sequencing rule that constrains the execution ordering and is verifiable (there is a polynomial time algorithm that can verify if the execution ordering satisfies such constraints). Thus in the event a miner devia
+    
+[^12]: 连续时间下的q-Learning
+
+    q-Learning in Continuous Time. (arXiv:2207.00713v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2207.00713](http://arxiv.org/abs/2207.00713)
+
+    本文研究了连续时间下的q-Learning，通过引入小q函数作为一阶近似，研究了q-learning理论，应用于设计不同的演员-评论家算法。
+
+    
+
+    我们研究了基于熵正则化的探索性扩散过程的Q-learning在连续时间下的应用。我们引入了“小q函数”作为大Q函数的一阶近似，研究了q函数的q-learning理论，并应用于设计不同的演员-评论家算法。
+
+    We study the continuous-time counterpart of Q-learning for reinforcement learning (RL) under the entropy-regularized, exploratory diffusion process formulation introduced by Wang et al. (2020). As the conventional (big) Q-function collapses in continuous time, we consider its first-order approximation and coin the term ``(little) q-function". This function is related to the instantaneous advantage rate function as well as the Hamiltonian. We develop a ``q-learning" theory around the q-function that is independent of time discretization. Given a stochastic policy, we jointly characterize the associated q-function and value function by martingale conditions of certain stochastic processes, in both on-policy and off-policy settings. We then apply the theory to devise different actor-critic algorithms for solving underlying RL problems, depending on whether or not the density function of the Gibbs measure generated from the q-function can be computed explicitly. One of our algorithms inter
+    
+[^13]: 基本面、技术面和外部因素引发股价极端事件的检测和预测
+
+    Detection and Forecasting of Extreme event in Stock Price Triggered by Fundamental, Technical, and External Factors. (arXiv:2206.13860v2 [q-fin.ST] UPDATED)
+
+    [http://arxiv.org/abs/2206.13860](http://arxiv.org/abs/2206.13860)
+
+    该研究使用HHT识别基本面、技术面及外部因素引发的股价极端事件，并使用支持向量回归预测EE期间的收盘价，具有高精度预测的优点。
+
+    
+
+    股市中出现的不定期大幅波动是由基本参数、技术设置和外部因素的变化引起的。这些大幅波动被称为极端事件 (EE)。EE可以是积极的或消极的，具体取决于这些因素的影响。在此类事件中，股票价格时间序列被发现是非平稳的。因此，使用希尔伯特-黄变换 (HHT) 基于其高瞬时能量 ($IE$) 浓度来识别EE。分析表明，股价中的 $IE$ 浓度在积极和消极的EE中均非常高，其中 $IE>E_{\mu}+4\sigma$，其中 $E_{\mu}$ 和 $\sigma$ 分别是能量的平均值和标准差。此外，采用支持向量回归预测EE期间的股票价格，其中收盘价格比开盘-最高-最低-收盘 (OHLC) 输入更有帮助。使用收盘价和OHLC价格进行一步最大预测精度为95.98\%。
+
+    The sporadic large fluctuations are seen in the stock market due to changes in fundamental parameters, technical setups, and external factors. These large fluctuations are termed as Extreme Events (EE). The EEs may be positive or negative depending on the impact of these factors. During such events, the stock price time series is found to be nonstationary. Hence, the Hilbert-Huang transformation (HHT) is used to identify EEs based on their high instantaneous energy ($IE$) concentration. The analysis shows that the $IE$ concentration in the stock price is very high during both positive and negative EE with $IE>E_{\mu}+4\sigma,$ where $E_{\mu}$ and $\sigma$ are the mean energy and standard deviation of energy, respectively. Further, support vector regression is used to predict the stock price during an EE, with the close price being the most helpful input than the open-high-low-close (OHLC) inputs. The maximum prediction accuracy for one step using close price and OHLC prices are 95.98\%
+    
+[^14]: 带全付拍卖的顺序淘汰比赛研究
+
+    Sequential Elimination Contests with All-Pay Auctions. (arXiv:2205.08104v2 [cs.GT] UPDATED)
+
+    [http://arxiv.org/abs/2205.08104](http://arxiv.org/abs/2205.08104)
+
+    本文研究了带全付拍卖的顺序淘汰比赛，在设计者无法得知所有选手类型情况下，对于有限的选手数量，我们明确定义了均衡策略和期望的最优机制，并为设计者提供了一些众包比赛的设计启示。
+
+    
+
+    本文研究了一种顺序淘汰比赛，比赛前需要过滤选手。这一模型的构建是基于许多众包比赛只有有限的评审资源，需要提高提交物品的整体质量这一实践的考虑。在第一种情况下，我们考虑选手的能力排名的知情设计者，允许 $2\leq n_2 \leq n_1$ 的前 $n_2$ 名选手参加比赛。进入比赛的选手会根据自己的能力排名可以进入前 $n_2$ 名的信号来更新对对手能力的信念。我们发现，即使具有IID先验，他们的后验信念仍然存在相关性，并且取决于选手的个人能力。我们明确地刻画了对称的和唯一的贝叶斯均衡策略。我们发现，每个被录取选手的均衡付出随 $n_2$ 的增加而增加，当 $n_2 \in [\lfloor{(n_1+1)/2}\rfloor+1,n_1]$ 时，但在 $n_2 \in [2, \lfloor{(n_1+1)/2}\rfloor]$ 时不一定单调。然后，我们考虑了更加现实的情况，设计者只具有有关选手类型的部分信息，选手类型在 $[0,1]$ 上独立均匀分布。我们得到了关于接受选手的期望最优机制性能的尖锐界限，以及每个进入比赛的选手均衡付出的界限。我们的结果对于众包比赛的设计具有重要意义。
+
+    We study a sequential elimination contest where players are filtered prior to the round of competing for prizes. This is motivated by the practice that many crowdsourcing contests have very limited resources of reviewers and want to improve the overall quality of the submissions. We first consider a setting where the designer knows the ranking of the abilities (types) of all $n_1$ registered players, and admit the top $n_2$ players with $2\leq n_2 \leq n_1$ into the contest. The players admitted into the contest update their beliefs about their opponents based on the signal that their abilities are among the top $n_2$. We find that their posterior beliefs, even with IID priors, are correlated and depend on players' private abilities.  We explicitly characterize the symmetric and unique Bayesian equilibrium strategy. We find that each admitted player's equilibrium effort is increasing in $n_2$ when $n_2 \in [\lfloor{(n_1+1)/2}\rfloor+1,n_1]$, but not monotone in general when $n_2 \in [2
+    
+[^15]: 影响的代价：制药公司赠送礼品如何影响处方和药品成本
+
+    The Cost of Influence: How Gifts to Physicians Shape Prescriptions and Drug Costs. (arXiv:2203.01778v3 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2203.01778](http://arxiv.org/abs/2203.01778)
+
+    本文研究了制药公司向医生进行的礼物或货款等赠送方式对处方和药物成本的影响。研究发现，礼品会让医生更多地开出品牌药处方，导致每收到1美元的费用增加30美元的成本。禁止礼品赠送估计可以使药品成本降低3-4%。
+
+    
+
+    本文研究了制药公司向美国医生进行的礼物、货款等赠送方式如何影响处方和药物成本。我们利用因果推断和机器学习方法，结合针对糖尿病处方和付款的医生层面数据估计出异质性处理效应。我们发现，礼品会让医生更多地开具品牌药品处方，导致每收到1美元的费用增加30美元的成本。反应在医生身上的差异很大，且主要是由患者自费的费用变化所解释的。禁止礼品赠送估计可以使药品成本降低3-4%。这些新的发现揭示了礼品如何塑造处方选择并推高成本。
+
+    This paper studies how gifts - monetary or in-kind payments - from drug firms to physicians in the US affect prescriptions and drug costs. We estimate heterogeneous treatment effects by combining physician-level data on antidiabetic prescriptions and payments with causal inference and machine learning methods. We find that payments cause physicians to prescribe more brand drugs, resulting in a cost increase of $30 per dollar received. Responses differ widely across physicians, and are primarily explained by variation in patients' out-of-pocket costs. A gift ban is estimated to decrease drug costs by 3-4%. Taken together, these novel findings reveal how payments shape prescription choices and drive up costs.
+    
+[^16]: 媒体倾向是具有传染性的。
+
+    Media Slant is Contagious. (arXiv:2202.07269v2 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2202.07269](http://arxiv.org/abs/2202.07269)
+
+    本文研究了国家有线电视新闻对美国本土报纸的影响，发现当地报纸的内容会因为当地 FNC 观众数量的增加而趋向于 FNC 的倾向，并且有线电视倾向会极化地方新闻内容。
+
+    
+
+    本研究考察了媒体倾向的传播，具体来说是国家有线电视新闻对美国本土报纸（2005-2008）的影响。我们使用一种基于 Fox News Channel（FNC）、CNN 和 MSNBC 内容的有线电视倾向文本度量方法，分析地方报纸如何采用 FNC 的倾向而不是 CNN/MSNBC 的倾向。研究结果显示，地方新闻随着当地 FNC 观众人数的外部增长而变得更加类似于 FNC 的内容。这种转变不仅限于从有线电视借鉴，而是地方报纸自身内容的改变。此外，有线电视倾向极化了地方新闻内容。
+
+    We examine the diffusion of media slant, specifically how partisan content from national cable news affects local newspapers in the U.S., 2005-2008. We use a text-based measure of cable news slant trained on content from Fox News Channel (FNC), CNN, and MSNBC to analyze how local newspapers adopt FNC's slant over CNN/MSNBC's. Our findings show that local news becomes more similar to FNC content in response to an exogenous increase in local FNC viewership. This shift is not limited to borrowing from cable news, but rather, local newspapers' own content changes. Further, cable TV slant polarizes local news content.
+    
+[^17]: 在低维和高维情况下最优组合权重和特征的抽样分布
+
+    Sampling Distributions of Optimal Portfolio Weights and Characteristics in Low and Large Dimensions. (arXiv:1908.04243v3 [q-fin.PM] UPDATED)
+
+    [http://arxiv.org/abs/1908.04243](http://arxiv.org/abs/1908.04243)
+
+    本文研究了最优投资组合问题中估计的最优组合权重及特征的抽样分布。通过导出随机表示，确定了其抽样分布的表达式，具有高效抽样和易于处理不对称性的优点。
+
+    
+
+    最优投资组合选择问题取决于数据生成过程的（未知）参数。如果投资者想要实现最优投资组合建议的仓位，需要估计未知参数，并在决策过程中考虑参数不确定性。通常，感兴趣的参数是资产回报分布的总体均值向量和总体协方差矩阵。本文通过导出它们的随机表示来特征化估计的最优投资组合权重和它们的特征的精确抽样分布。这种方法具有几个优点，例如（i）它通过表达式确定了估计的最优投资组合权重的抽样分布，这些表达式可以有效地用于从该分布中抽取样本；（ii）应用所推导出的随机表示提供了一种简单的方法来获得不对称性。
+
+    Optimal portfolio selection problems are determined by the (unknown) parameters of the data generating process. If an investor wants to realise the position suggested by the optimal portfolios, he/she needs to estimate the unknown parameters and to account for the parameter uncertainty in the decision process. Most often, the parameters of interest are the population mean vector and the population covariance matrix of the asset return distribution. In this paper, we characterise the exact sampling distribution of the estimated optimal portfolio weights and their characteristics. This is done by deriving their sampling distribution by its stochastic representation. This approach possesses several advantages, {e.g.} (i) it determines the sampling distribution of the estimated optimal portfolio weights by expressions, which could be used to draw samples from this distribution efficiently; (ii) the application of the derived stochastic representation provides an easy way to obtain the asym
     
 

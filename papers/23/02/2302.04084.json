@@ -1,0 +1,12 @@
+{
+    "title": "Reception Reader: Exploring Text Reuse in Early Modern British Publications. (arXiv:2302.04084v2 [cs.DL] UPDATED)",
+    "abstract": "The Reception Reader is a web tool for studying text reuse in the Early English Books Online (EEBO-TCP) and Eighteenth Century Collections Online (ECCO) data. Users can: 1) explore a visual overview of the reception of a work, or its incoming connections, across time based on shared text segments, 2) interactively survey the details of connected documents, and 3) examine the context of reused text for \"close reading\". We show examples of how the tool streamlines research and exploration tasks, and discuss the utility and limitations of the user interface along with its current data sources.",
+    "link": "http://arxiv.org/abs/2302.04084",
+    "context": "Title: Reception Reader: Exploring Text Reuse in Early Modern British Publications. (arXiv:2302.04084v2 [cs.DL] UPDATED)\nAbstract: The Reception Reader is a web tool for studying text reuse in the Early English Books Online (EEBO-TCP) and Eighteenth Century Collections Online (ECCO) data. Users can: 1) explore a visual overview of the reception of a work, or its incoming connections, across time based on shared text segments, 2) interactively survey the details of connected documents, and 3) examine the context of reused text for \"close reading\". We show examples of how the tool streamlines research and exploration tasks, and discuss the utility and limitations of the user interface along with its current data sources.",
+    "path": "papers/23/02/2302.04084.json",
+    "total_tokens": 755,
+    "translated_title": "探索早期英国出版物中的文本重用情况：《Reception Reader》",
+    "translated_abstract": "The Reception Reader是一个用于研究Early English Books Online（EEBO-TCP）和Eighteenth Century Collections Online（ECCO）数据中文本重用的web工具。用户可以：1）基于共享文本片段探索某一作品的接受情况或其流入连接历史；2）交互式地浏览连接文档的详细信息；以及3）检查重用文本的上下文以进行“近距离阅读”。我们展示了该工具如何简化研究和探索任务，并讨论了用户界面的实用性和局限性以及当前数据来源。",
+    "tldr": "《Reception Reader》是一个web工具，用于探索早期英国出版物中的文本重用情况，用户可以通过共享文本片段探索某一作品的接受情况或其流入连接历史，并且可以交互式地浏览连接文档的详细信息，以及检查重用文本的上下文以进行“近距离阅读”。",
+    "en_tdlr": "The Reception Reader is a web tool that explores text reuse in early modern British publications, allowing users to visually overview the reception of a work or its incoming connections based on shared text segments. It also allows interactive survey of connected documents and closer examination of reused text."
+}

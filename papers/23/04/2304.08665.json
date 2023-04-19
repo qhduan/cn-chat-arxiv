@@ -1,0 +1,12 @@
+{
+    "title": "Insta(nt) Pet Therapy: GAN-generated Images for Therapeutic Social Media Content. (arXiv:2304.08665v1 [cs.CV])",
+    "abstract": "The positive therapeutic effect of viewing pet images online has been well-studied. However, it is difficult to obtain large-scale production of such content since it relies on pet owners to capture photographs and upload them. I use a Generative Adversarial Network-based framework for the creation of fake pet images at scale. These images are uploaded on an Instagram account where they drive user engagement at levels comparable to those seen with images from accounts with traditional pet photographs, underlining the applicability of the framework to be used for pet-therapy social media content.",
+    "link": "http://arxiv.org/abs/2304.08665",
+    "context": "Title: Insta(nt) Pet Therapy: GAN-generated Images for Therapeutic Social Media Content. (arXiv:2304.08665v1 [cs.CV])\nAbstract: The positive therapeutic effect of viewing pet images online has been well-studied. However, it is difficult to obtain large-scale production of such content since it relies on pet owners to capture photographs and upload them. I use a Generative Adversarial Network-based framework for the creation of fake pet images at scale. These images are uploaded on an Instagram account where they drive user engagement at levels comparable to those seen with images from accounts with traditional pet photographs, underlining the applicability of the framework to be used for pet-therapy social media content.",
+    "path": "papers/23/04/2304.08665.json",
+    "total_tokens": 703,
+    "translated_title": "Insta（nt）宠物疗法：GAN生成的图像用于治疗性社交媒体内容",
+    "translated_abstract": "在线查看宠物图像对人的治疗效果已得到充分研究。然而，由于依赖于宠物主人拍摄照片并上传，因此很难获得大规模的这种内容生产。本文使用基于生成对抗网络的框架创建大规模的虚假宠物图像。这些图像上传到Instagram账户，使用户参与度与传统宠物照片账户中的图片一样高，强调该框架可用于宠物疗法社交媒体内容。",
+    "tldr": "本研究使用GAN生成大量虚假宠物图像，上传到社交媒体账户达到了与传统宠物图像账户相同的用户参与度，为宠物疗法社交媒体内容的发展提供了新思路。",
+    "en_tdlr": "This paper proposes a framework based on Generative Adversarial Network to generate large amount of fake pet images for therapeutic social media content, achieving user engagement levels comparable to those of traditional pet photographs, providing new ideas for the development of pet therapy social media content."
+}

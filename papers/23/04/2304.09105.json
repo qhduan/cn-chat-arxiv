@@ -1,0 +1,12 @@
+{
+    "title": "Exploring 360-Degree View of Customers for Lookalike Modeling. (arXiv:2304.09105v1 [cs.IR])",
+    "abstract": "Lookalike models are based on the assumption that user similarity plays an important role towards product selling and enhancing the existing advertising campaigns from a very large user base. Challenges associated to these models reside on the heterogeneity of the user base and its sparsity. In this work, we propose a novel framework that unifies the customers different behaviors or features such as demographics, buying behaviors on different platforms, customer loyalty behaviors and build a lookalike model to improve customer targeting for Rakuten Group, Inc. Extensive experiments on real e-commerce and travel datasets demonstrate the effectiveness of our proposed lookalike model for user targeting task.",
+    "link": "http://arxiv.org/abs/2304.09105",
+    "context": "Title: Exploring 360-Degree View of Customers for Lookalike Modeling. (arXiv:2304.09105v1 [cs.IR])\nAbstract: Lookalike models are based on the assumption that user similarity plays an important role towards product selling and enhancing the existing advertising campaigns from a very large user base. Challenges associated to these models reside on the heterogeneity of the user base and its sparsity. In this work, we propose a novel framework that unifies the customers different behaviors or features such as demographics, buying behaviors on different platforms, customer loyalty behaviors and build a lookalike model to improve customer targeting for Rakuten Group, Inc. Extensive experiments on real e-commerce and travel datasets demonstrate the effectiveness of our proposed lookalike model for user targeting task.",
+    "path": "papers/23/04/2304.09105.json",
+    "total_tokens": 728,
+    "translated_title": "探究客户360度视角实现类似建模",
+    "translated_abstract": "类似建模是基于用户相似性对产品销售和扩展广告活动起到重要作用的假设。这项工作的挑战在于用户群体的异质性和其稀疏性。我们提出了一个新的框架，将客户的不同行为或特征（如人口统计信息、在不同平台上的购买行为、客户忠诚行为）统一起来，构建了一个类似模型，以改善乐天集团的客户定位。真实的电子商务和旅游数据集上的广泛实验表明，我们提出的类似模型对于用户定位任务非常有效。",
+    "tldr": "该论文提出了一个能将客户360度视角的不同行为或特征，在此基础上构建出类似模型以改善客户定位的框架。实验结果表明，该模型在电商和旅游领域中能够有效发挥作用。",
+    "en_tdlr": "This paper proposes a novel framework that unifies customers' different behaviors or features to build a lookalike model improving customer targeting. The experiments on real e-commerce and travel datasets demonstrate the effectiveness of the proposed model."
+}

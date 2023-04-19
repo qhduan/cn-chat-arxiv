@@ -1,0 +1,12 @@
+{
+    "title": "Assessment of hybrid machine learning models for non-linear system identification of fatigue test rigs. (arXiv:2107.03645v3 [eess.SP] UPDATED)",
+    "abstract": "The prediction of system responses for a given fatigue test bench drive signal is a challenging task, for which linear frequency response function models are commonly used. To account for non-linear phenomena, a novel hybrid model is suggested, which augments existing approaches using Long Short-Term Memory networks. Additional virtual sensing applications of this method are demonstrated. The approach is tested using non-linear experimental data from a servo-hydraulic test rig and this dataset is made publicly available. A variety of metrics in time and frequency domains, as well as fatigue strength under variable amplitudes, are employed in the evaluation.",
+    "link": "http://arxiv.org/abs/2107.03645",
+    "context": "Title: Assessment of hybrid machine learning models for non-linear system identification of fatigue test rigs. (arXiv:2107.03645v3 [eess.SP] UPDATED)\nAbstract: The prediction of system responses for a given fatigue test bench drive signal is a challenging task, for which linear frequency response function models are commonly used. To account for non-linear phenomena, a novel hybrid model is suggested, which augments existing approaches using Long Short-Term Memory networks. Additional virtual sensing applications of this method are demonstrated. The approach is tested using non-linear experimental data from a servo-hydraulic test rig and this dataset is made publicly available. A variety of metrics in time and frequency domains, as well as fatigue strength under variable amplitudes, are employed in the evaluation.",
+    "path": "papers/21/07/2107.03645.json",
+    "total_tokens": 754,
+    "translated_title": "非线性系统识别的混合机器学习模型评估：疲劳试验架的案例研究。",
+    "translated_abstract": "预测给定疲劳试验台驱动信号的系统响应是一项具有挑战性的任务，通常采用线性频率响应函数模型。为了考虑非线性现象，建议采用一种新颖的混合模型，通过增加长短期记忆（LSTM）网络对现有方法进行补充。该方法的附加虚拟传感应用得到了验证。使用来自伺服液压试验台的非线性实验数据进行测试，并公开了该数据集。在评估中采用了各种时间和频率域指标以及变幅下的疲劳强度指标。",
+    "tldr": "本文开发了一种混合模型，利用长短期记忆网络结合线性频率响应函数模型进行非线性系统识别。该方法还可以应用于虚拟传感。通过对疲劳试验数据进行测试验证了该方法的效果。",
+    "en_tdlr": "This paper proposes a novel hybrid model using Long Short-Term Memory networks to augment existing approaches for non-linear system identification, and demonstrates its effectiveness on non-linear experimental data from a servo-hydraulic test rig. The method also has applications for virtual sensing."
+}

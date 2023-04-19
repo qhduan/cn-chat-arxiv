@@ -1,0 +1,12 @@
+{
+    "title": "Computational and Exploratory Landscape Analysis of the GKLS Generator. (arXiv:2304.08913v1 [cs.NE])",
+    "abstract": "The GKLS generator is one of the most used testbeds for benchmarking global optimization algorithms. In this paper, we conduct both a computational analysis and the Exploratory Landscape Analysis (ELA) of the GKLS generator. We utilize both canonically used and newly generated classes of GKLS-generated problems and show their use in benchmarking three state-of-the-art methods (from evolutionary and deterministic communities) in dimensions 5 and 10. We show that the GKLS generator produces ``needle in a haystack'' type problems that become extremely difficult to optimize in higher dimensions. Furthermore, we conduct the ELA on the GKLS generator and then compare it to the ELA of two other widely used benchmark sets (BBOB and CEC 2014), and discuss the meaningfulness of the results.",
+    "link": "http://arxiv.org/abs/2304.08913",
+    "context": "Title: Computational and Exploratory Landscape Analysis of the GKLS Generator. (arXiv:2304.08913v1 [cs.NE])\nAbstract: The GKLS generator is one of the most used testbeds for benchmarking global optimization algorithms. In this paper, we conduct both a computational analysis and the Exploratory Landscape Analysis (ELA) of the GKLS generator. We utilize both canonically used and newly generated classes of GKLS-generated problems and show their use in benchmarking three state-of-the-art methods (from evolutionary and deterministic communities) in dimensions 5 and 10. We show that the GKLS generator produces ``needle in a haystack'' type problems that become extremely difficult to optimize in higher dimensions. Furthermore, we conduct the ELA on the GKLS generator and then compare it to the ELA of two other widely used benchmark sets (BBOB and CEC 2014), and discuss the meaningfulness of the results.",
+    "path": "papers/23/04/2304.08913.json",
+    "total_tokens": 748,
+    "translated_title": "GKLS发生器的计算和探索性景观分析",
+    "translated_abstract": "GKLS发生器是用于测试全局优化算法的最常用测试平台之一。在本文中，我们对GKLS发生器进行了计算分析和探索性景观分析(ELA)。我们使用GKLS生成的经典类和新生成的类问题进行基准测试，比较了三种最先进的方法（来自进化和确定性社区）在5维和10维中的表现。我们发现GKLS生成器产生了“大海捞针”类型的问题，在更高的维度中优化变得极其困难。此外，我们对GKLS发生器进行了ELA，然后将其与另外两个广泛使用的基准测试集(BBOB和CEC 2014)进行了比较，并讨论了结果的意义。",
+    "tldr": "本文对GKLS发生器进行了计算和探索性景观分析，发现GKLS发生器生成的问题在更高维度优化变得极其困难。",
+    "en_tdlr": "This paper conducts computational and exploratory landscape analysis of the GKLS generator, showing that the generated problems become extremely challenging to optimize in higher dimensions."
+}

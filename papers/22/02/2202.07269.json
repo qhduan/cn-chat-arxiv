@@ -1,0 +1,12 @@
+{
+    "title": "Media Slant is Contagious. (arXiv:2202.07269v2 [econ.GN] UPDATED)",
+    "abstract": "We examine the diffusion of media slant, specifically how partisan content from national cable news affects local newspapers in the U.S., 2005-2008. We use a text-based measure of cable news slant trained on content from Fox News Channel (FNC), CNN, and MSNBC to analyze how local newspapers adopt FNC's slant over CNN/MSNBC's. Our findings show that local news becomes more similar to FNC content in response to an exogenous increase in local FNC viewership. This shift is not limited to borrowing from cable news, but rather, local newspapers' own content changes. Further, cable TV slant polarizes local news content.",
+    "link": "http://arxiv.org/abs/2202.07269",
+    "context": "Title: Media Slant is Contagious. (arXiv:2202.07269v2 [econ.GN] UPDATED)\nAbstract: We examine the diffusion of media slant, specifically how partisan content from national cable news affects local newspapers in the U.S., 2005-2008. We use a text-based measure of cable news slant trained on content from Fox News Channel (FNC), CNN, and MSNBC to analyze how local newspapers adopt FNC's slant over CNN/MSNBC's. Our findings show that local news becomes more similar to FNC content in response to an exogenous increase in local FNC viewership. This shift is not limited to borrowing from cable news, but rather, local newspapers' own content changes. Further, cable TV slant polarizes local news content.",
+    "path": "papers/22/02/2202.07269.json",
+    "total_tokens": 785,
+    "translated_title": "媒体倾向是具有传染性的。",
+    "translated_abstract": "本研究考察了媒体倾向的传播，具体来说是国家有线电视新闻对美国本土报纸（2005-2008）的影响。我们使用一种基于 Fox News Channel（FNC）、CNN 和 MSNBC 内容的有线电视倾向文本度量方法，分析地方报纸如何采用 FNC 的倾向而不是 CNN/MSNBC 的倾向。研究结果显示，地方新闻随着当地 FNC 观众人数的外部增长而变得更加类似于 FNC 的内容。这种转变不仅限于从有线电视借鉴，而是地方报纸自身内容的改变。此外，有线电视倾向极化了地方新闻内容。",
+    "tldr": "本文研究了国家有线电视新闻对美国本土报纸的影响，发现当地报纸的内容会因为当地 FNC 观众数量的增加而趋向于 FNC 的倾向，并且有线电视倾向会极化地方新闻内容。",
+    "en_tdlr": "This study examines the impact of national cable news on local newspapers in the United States, finding that local newspapers tend to adopt the slant of Fox News Channel (FNC) rather than CNN/MSNBC's slant when local FNC viewership increases. Furthermore, the cable TV slant polarizes local news content."
+}

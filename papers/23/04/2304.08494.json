@@ -1,0 +1,12 @@
+{
+    "title": "Smart Home Environment Modelled with a Multi-Agent System. (arXiv:2304.08494v1 [cs.MA])",
+    "abstract": "A smart home can be considered a place of residence that enables the management of appliances and systems to help with day-to-day life by automated technology. In the current paper is described a prototype that simulates a context-aware environment, developed in a designed smart home. The smart home environment has been simulated using three agents and five locations in a house. The context-aware agents behave based on predefined rules designed for daily activities. Our proposal aims to reduce operational cost of running devices. In the future, monitors of health aspects belonging to home residents will sustain their healthy life daily.",
+    "link": "http://arxiv.org/abs/2304.08494",
+    "context": "Title: Smart Home Environment Modelled with a Multi-Agent System. (arXiv:2304.08494v1 [cs.MA])\nAbstract: A smart home can be considered a place of residence that enables the management of appliances and systems to help with day-to-day life by automated technology. In the current paper is described a prototype that simulates a context-aware environment, developed in a designed smart home. The smart home environment has been simulated using three agents and five locations in a house. The context-aware agents behave based on predefined rules designed for daily activities. Our proposal aims to reduce operational cost of running devices. In the future, monitors of health aspects belonging to home residents will sustain their healthy life daily.",
+    "path": "papers/23/04/2304.08494.json",
+    "total_tokens": 702,
+    "translated_title": "基于多智能体系统模型的智能家居环境",
+    "translated_abstract": "智能家居是指通过自动化技术管理家用电器和系统，以帮助日常生活的居住地。本文描述了一个原型，该原型模拟了一个上下文感知环境，在设计的智能家居中进行了开发。智能家居环境使用三个智能体和五个位置在房子里进行了模拟。上下文感知智能体基于为日常活动设计的预定义规则进行行为。我们的建议旨在降低设备运行的操作成本。未来，居住在智能家居内的居民健康方面的监控将维持他们的日常健康生活。",
+    "tldr": "本文描述了一个智能家居上下文感知环境的原型，使用多智能体系统模拟，目的是通过预定义规则降低设备运行的操作成本，并监控居民的健康。",
+    "en_tdlr": "This paper describes a prototype of a context-aware environment for a smart home, simulated using a multi-agent system to reduce operational cost of devices and monitor residents' health through predefined rules."
+}

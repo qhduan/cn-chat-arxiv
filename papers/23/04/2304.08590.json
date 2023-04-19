@@ -1,0 +1,12 @@
+{
+    "title": "Risks and opportunities in arbitrage and market-making in blockchain-based currency markets. Part 1 : Risks. (arXiv:2304.08590v1 [econ.GN])",
+    "abstract": "This study provides a practical introduction to high-frequency trading in blockchain-based currency markets. These types of markets have some specific characteristics that differentiate them from the stock markets, such as a large number of trading exchanges (centralized and decentralized), relative simplicity in moving funds from one exchange to another, and the large number of new currencies that have very little liquidity. This study analyzes the possible risks that specifically characterize this type of trading operation, the potential opportunities, and the algorithms that are mostly used, providing information that can be useful for practitioners who intend to operate in these markets by providing (and risking) liquidity.",
+    "link": "http://arxiv.org/abs/2304.08590",
+    "context": "Title: Risks and opportunities in arbitrage and market-making in blockchain-based currency markets. Part 1 : Risks. (arXiv:2304.08590v1 [econ.GN])\nAbstract: This study provides a practical introduction to high-frequency trading in blockchain-based currency markets. These types of markets have some specific characteristics that differentiate them from the stock markets, such as a large number of trading exchanges (centralized and decentralized), relative simplicity in moving funds from one exchange to another, and the large number of new currencies that have very little liquidity. This study analyzes the possible risks that specifically characterize this type of trading operation, the potential opportunities, and the algorithms that are mostly used, providing information that can be useful for practitioners who intend to operate in these markets by providing (and risking) liquidity.",
+    "path": "papers/23/04/2304.08590.json",
+    "total_tokens": 698,
+    "translated_title": "区块链货币市场套利和做市的风险和机会第一部分：风险",
+    "translated_abstract": "本研究提供了一个实践性介绍，介绍了区块链货币市场中的高频交易。这些市场具有一些特定的特征，使它们与股票市场有所不同，例如许多交易所（集中式和去中心化），从一个交易所转移资金的相对简单性，以及许多新货币几乎没有流动性。本研究分析了可能在这种类型的交易操作中特别存在的风险、潜在的机会和大多数使用的算法，提供了对于有意在这些市场上提供（并承担）流动性的从业者有用的信息。",
+    "tldr": "本研究分析了区块链货币市场高频交易操作中可能存在的风险和潜在机会，提供了有用信息。",
+    "en_tdlr": "This study analyzes the potential risks and opportunities in high-frequency trading in blockchain-based currency markets, providing useful information for practitioners."
+}

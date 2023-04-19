@@ -1,0 +1,12 @@
+{
+    "title": "A first-order augmented Lagrangian method for constrained minimax optimization. (arXiv:2301.02060v2 [math.OC] UPDATED)",
+    "abstract": "In this paper we study a class of constrained minimax problems. In particular, we propose a first-order augmented Lagrangian method for solving them, whose subproblems turn out to be a much simpler structured minimax problem and are suitably solved by a first-order method recently developed in [26] by the authors. Under some suitable assumptions, an \\emph{operation complexity} of ${\\cal O}(\\varepsilon^{-4}\\log\\varepsilon^{-1})$, measured by its fundamental operations, is established for the first-order augmented Lagrangian method for finding an $\\varepsilon$-KKT solution of the constrained minimax problems.",
+    "link": "http://arxiv.org/abs/2301.02060",
+    "context": "Title: A first-order augmented Lagrangian method for constrained minimax optimization. (arXiv:2301.02060v2 [math.OC] UPDATED)\nAbstract: In this paper we study a class of constrained minimax problems. In particular, we propose a first-order augmented Lagrangian method for solving them, whose subproblems turn out to be a much simpler structured minimax problem and are suitably solved by a first-order method recently developed in [26] by the authors. Under some suitable assumptions, an \\emph{operation complexity} of ${\\cal O}(\\varepsilon^{-4}\\log\\varepsilon^{-1})$, measured by its fundamental operations, is established for the first-order augmented Lagrangian method for finding an $\\varepsilon$-KKT solution of the constrained minimax problems.",
+    "path": "papers/23/01/2301.02060.json",
+    "total_tokens": 736,
+    "translated_title": "一种用于约束极小极大优化问题的一阶增广拉格朗日方法",
+    "translated_abstract": "本文研究了一类约束极小极大问题。特别地，我们提出了一种一阶增广拉格朗日方法来解决这些问题，其子问题被发现是一个更简单的结构化极小极大问题，并且可以通过作者在 [26] 中最近开发的一阶方法来适当地解决。在一些适当的假设下，为了找到约束极小极大问题的一个 $\\varepsilon$-KKT 解，该方法的操作复杂度为 ${\\cal O}(\\varepsilon^{-4}\\log\\varepsilon^{-1})$，该复杂度是由基本操作测量得到的。",
+    "tldr": "本文提出了一种一阶增广拉格朗日方法来解决约束极小极大问题，其操作复杂度为 ${\\cal O}(\\varepsilon^{-4}\\log\\varepsilon^{-1})$。",
+    "en_tdlr": "This paper proposes a first-order augmented Lagrangian method for solving constrained minimax problems with an operation complexity of ${\\cal O}(\\varepsilon^{-4}\\log\\varepsilon^{-1})$, and the subproblems are solved by a first-order method recently developed by the authors."
+}
