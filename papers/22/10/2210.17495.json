@@ -1,0 +1,12 @@
+{
+    "title": "Automated Code Extraction from Discussion Board Text Dataset. (arXiv:2210.17495v2 [cs.LG] UPDATED)",
+    "abstract": "This study introduces and investigates the capabilities of three different text mining approaches, namely Latent Semantic Analysis, Latent Dirichlet Analysis, and Clustering Word Vectors, for automating code extraction from a relatively small discussion board dataset. We compare the outputs of each algorithm with a previous dataset that was manually coded by two human raters. The results show that even with a relatively small dataset, automated approaches can be an asset to course instructors by extracting some of the discussion codes, which can be used in Epistemic Network Analysis.",
+    "link": "http://arxiv.org/abs/2210.17495",
+    "context": "Title: Automated Code Extraction from Discussion Board Text Dataset. (arXiv:2210.17495v2 [cs.LG] UPDATED)\nAbstract: This study introduces and investigates the capabilities of three different text mining approaches, namely Latent Semantic Analysis, Latent Dirichlet Analysis, and Clustering Word Vectors, for automating code extraction from a relatively small discussion board dataset. We compare the outputs of each algorithm with a previous dataset that was manually coded by two human raters. The results show that even with a relatively small dataset, automated approaches can be an asset to course instructors by extracting some of the discussion codes, which can be used in Epistemic Network Analysis.",
+    "path": "papers/22/10/2210.17495.json",
+    "total_tokens": 734,
+    "translated_title": "讨论版文本数据集中的自动化代码提取",
+    "translated_abstract": "本研究介绍并探究了三种不同的文本挖掘方法，即潜在语义分析、潜在狄利克雷分配和聚类词向量，用于自动提取相对较小的讨论版数据集中的代码。我们将每种算法的输出与先前由两个人手动编码的数据集进行比较。结果表明，即使是相对较小的数据集，自动化方法也可以成为课程教师的有益工具，通过提取一些讨论代码，可用于认识网络分析。",
+    "tldr": "本研究探究了用潜在语义分析、潜在狄利克雷分配和聚类词向量三种不同的文本挖掘方法自动提取讨论版数据集中的代码的能力。结果表明，即使是较小的数据集，自动化方法也有助于提取讨论代码，并用于认识网络分析。",
+    "en_tdlr": "This study investigated the capabilities of three different text mining approaches, namely Latent Semantic Analysis, Latent Dirichlet Allocation, and Clustering Word Vectors, for automated code extraction from a relatively small discussion board dataset. The results indicate that even with a small dataset, automated methods can extract discussion codes that are usable in Epistemic Network Analysis."
+}

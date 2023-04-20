@@ -1,0 +1,12 @@
+{
+    "title": "Information Geometrically Generalized Covariate Shift Adaptation. (arXiv:2304.09387v1 [cs.LG])",
+    "abstract": "Many machine learning methods assume that the training and test data follow the same distribution. However, in the real world, this assumption is very often violated. In particular, the phenomenon that the marginal distribution of the data changes is called covariate shift, one of the most important research topics in machine learning. We show that the well-known family of covariate shift adaptation methods is unified in the framework of information geometry. Furthermore, we show that parameter search for geometrically generalized covariate shift adaptation method can be achieved efficiently. Numerical experiments show that our generalization can achieve better performance than the existing methods it encompasses.",
+    "link": "http://arxiv.org/abs/2304.09387",
+    "context": "Title: Information Geometrically Generalized Covariate Shift Adaptation. (arXiv:2304.09387v1 [cs.LG])\nAbstract: Many machine learning methods assume that the training and test data follow the same distribution. However, in the real world, this assumption is very often violated. In particular, the phenomenon that the marginal distribution of the data changes is called covariate shift, one of the most important research topics in machine learning. We show that the well-known family of covariate shift adaptation methods is unified in the framework of information geometry. Furthermore, we show that parameter search for geometrically generalized covariate shift adaptation method can be achieved efficiently. Numerical experiments show that our generalization can achieve better performance than the existing methods it encompasses.",
+    "path": "papers/23/04/2304.09387.json",
+    "total_tokens": 708,
+    "translated_title": "信息几何广义协变量漂移适应",
+    "translated_abstract": "许多机器学习方法假设训练和测试数据遵循相同的分布。然而，在现实世界中，这个假设经常被违反。特别地，数据的边缘分布发生变化的现象称为协变量漂移，是机器学习中最重要的研究主题之一。我们表明，众所周知的协变量漂移适应方法家族在信息几何框架下是统一的。此外，我们表明，可以有效地实现几何广义协变量漂移适应方法的参数搜索。数值实验表明，我们的广义方法可以比现有的方法实现更好的性能。",
+    "tldr": "该论文基于信息几何框架统一了协变量漂移适应家族，提出了一种有效的几何广义协变量漂移适应方法，并在数值实验中展示了其优越性能。",
+    "en_tdlr": "This paper unifies the family of covariate shift adaptation methods using information geometry framework, proposes an efficient geometrically generalized covariate shift adaptation method, and demonstrates its superior performance in numerical experiments."
+}

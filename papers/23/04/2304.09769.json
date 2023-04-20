@@ -1,0 +1,12 @@
+{
+    "title": "End-to-End Policy Gradient Method for POMDPs and Explainable Agents. (arXiv:2304.09769v1 [cs.AI])",
+    "abstract": "Real-world decision-making problems are often partially observable, and many can be formulated as a Partially Observable Markov Decision Process (POMDP). When we apply reinforcement learning (RL) algorithms to the POMDP, reasonable estimation of the hidden states can help solve the problems. Furthermore, explainable decision-making is preferable, considering their application to real-world tasks such as autonomous driving cars. We proposed an RL algorithm that estimates the hidden states by end-to-end training, and visualize the estimation as a state-transition graph. Experimental results demonstrated that the proposed algorithm can solve simple POMDP problems and that the visualization makes the agent's behavior interpretable to humans.",
+    "link": "http://arxiv.org/abs/2304.09769",
+    "context": "Title: End-to-End Policy Gradient Method for POMDPs and Explainable Agents. (arXiv:2304.09769v1 [cs.AI])\nAbstract: Real-world decision-making problems are often partially observable, and many can be formulated as a Partially Observable Markov Decision Process (POMDP). When we apply reinforcement learning (RL) algorithms to the POMDP, reasonable estimation of the hidden states can help solve the problems. Furthermore, explainable decision-making is preferable, considering their application to real-world tasks such as autonomous driving cars. We proposed an RL algorithm that estimates the hidden states by end-to-end training, and visualize the estimation as a state-transition graph. Experimental results demonstrated that the proposed algorithm can solve simple POMDP problems and that the visualization makes the agent's behavior interpretable to humans.",
+    "path": "papers/23/04/2304.09769.json",
+    "total_tokens": 757,
+    "translated_title": "POMDPs和可解释智能体的端到端策略梯度方法",
+    "translated_abstract": "真实世界的决策问题通常是部分可观测的，并且有许多可以被归结为部分可观测马尔可夫决策过程（POMDP）。当我们将强化学习算法应用于POMDP时，合理的隐藏状态估计可以帮助解决问题。此外，可解释的决策是首选，考虑到它们在自主驾驶汽车等真实世界任务中的应用。我们提出了一种通过端到端训练估计隐藏状态并将估计可视化为状态转移图的RL算法。实验结果表明，所提出的算法可以解决简单的POMDP问题，并且可视化使代理的行为对人类具有可解释性。",
+    "tldr": "本文提出了一种使用端到端训练估计POMDP中隐藏状态并可视化为状态转移图的RL算法，实验结果表明该算法可以解决简单问题并且代理的行为可解释。",
+    "en_tdlr": "This paper proposes an RL algorithm that estimates hidden states in POMDP through end-to-end training and visualizes them as a state-transition graph, which can solve simple problems and make the agent's behavior interpretable."
+}

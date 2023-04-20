@@ -1,0 +1,12 @@
+{
+    "title": "Searching for ribbons with machine learning. (arXiv:2304.09304v1 [math.GT])",
+    "abstract": "We apply Bayesian optimization and reinforcement learning to a problem in topology: the question of when a knot bounds a ribbon disk. This question is relevant in an approach to disproving the four-dimensional smooth Poincar\\'e conjecture; using our programs, we rule out many potential counterexamples to the conjecture. We also show that the programs are successful in detecting many ribbon knots in the range of up to 70 crossings.",
+    "link": "http://arxiv.org/abs/2304.09304",
+    "context": "Title: Searching for ribbons with machine learning. (arXiv:2304.09304v1 [math.GT])\nAbstract: We apply Bayesian optimization and reinforcement learning to a problem in topology: the question of when a knot bounds a ribbon disk. This question is relevant in an approach to disproving the four-dimensional smooth Poincar\\'e conjecture; using our programs, we rule out many potential counterexamples to the conjecture. We also show that the programs are successful in detecting many ribbon knots in the range of up to 70 crossings.",
+    "path": "papers/23/04/2304.09304.json",
+    "total_tokens": 540,
+    "translated_title": "用机器学习搜索带状物",
+    "translated_abstract": "我们将贝叶斯优化和强化学习应用于拓扑学中的一个问题：如何确定一个结不能限定一个带状物。该问题在反驳四维平凡 Poincaré 猜想的方法中是相关的；利用我们的程序，我们排除了许多猜想的反例。我们还展示了这些程序成功检测了范围在70节点内的许多带状物。",
+    "tldr": "用机器学习发现带状物，反驳四维平凡 Poincaré 猜想。",
+    "en_tdlr": "Discovering ribbons using machine learning to disprove the four-dimensional smooth Poincaré conjecture."
+}

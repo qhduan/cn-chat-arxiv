@@ -1,0 +1,12 @@
+{
+    "title": "Quantum deep Q learning with distributed prioritized experience replay. (arXiv:2304.09648v1 [quant-ph])",
+    "abstract": "This paper introduces the QDQN-DPER framework to enhance the efficiency of quantum reinforcement learning (QRL) in solving sequential decision tasks. The framework incorporates prioritized experience replay and asynchronous training into the training algorithm to reduce the high sampling complexities. Numerical simulations demonstrate that QDQN-DPER outperforms the baseline distributed quantum Q learning with the same model architecture. The proposed framework holds potential for more complex tasks while maintaining training efficiency.",
+    "link": "http://arxiv.org/abs/2304.09648",
+    "context": "Title: Quantum deep Q learning with distributed prioritized experience replay. (arXiv:2304.09648v1 [quant-ph])\nAbstract: This paper introduces the QDQN-DPER framework to enhance the efficiency of quantum reinforcement learning (QRL) in solving sequential decision tasks. The framework incorporates prioritized experience replay and asynchronous training into the training algorithm to reduce the high sampling complexities. Numerical simulations demonstrate that QDQN-DPER outperforms the baseline distributed quantum Q learning with the same model architecture. The proposed framework holds potential for more complex tasks while maintaining training efficiency.",
+    "path": "papers/23/04/2304.09648.json",
+    "total_tokens": 646,
+    "translated_title": "基于分布式优先经验回放的量子深度 Q 学习",
+    "translated_abstract": "本研究介绍了 QDQN-DPER 框架，以提高量子强化学习 (QRL) 在解决顺序决策任务中的效率。该框架将优先经验回放和异步训练纳入训练算法，以减少高采样复杂性。数值模拟表明，QDQN-DPER 在具有相同模型架构的分布式量子 Q 学习的基础上表现更好。该框架可以在保持训练效率的同时适用于更复杂的任务。",
+    "tldr": "本论文提出了 QDQN-DPER 框架，它将分布式优先经验回放和异步训练纳入算法，以提高量子强化学习在解决顺序决策任务中的效率。",
+    "en_tdlr": "This paper proposes the QDQN-DPER framework which incorporates distributed prioritized experience replay and asynchronous training for enhancing the efficiency of quantum reinforcement learning in solving sequential decision tasks."
+}

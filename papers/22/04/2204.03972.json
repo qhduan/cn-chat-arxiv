@@ -1,0 +1,12 @@
+{
+    "title": "Contrastive language and vision learning of general fashion concepts. (arXiv:2204.03972v4 [cs.IR] UPDATED)",
+    "abstract": "The steady rise of online shopping goes hand in hand with the development of increasingly complex ML and NLP models. While most use cases are cast as specialized supervised learning problems, we argue that practitioners would greatly benefit from more transferable representations of products. In this work, we build on recent developments in contrastive learning to train FashionCLIP, a CLIP-like model for the fashion industry. We showcase its capabilities for retrieval, classification and grounding, and release our model and code to the community.",
+    "link": "http://arxiv.org/abs/2204.03972",
+    "context": "Title: Contrastive language and vision learning of general fashion concepts. (arXiv:2204.03972v4 [cs.IR] UPDATED)\nAbstract: The steady rise of online shopping goes hand in hand with the development of increasingly complex ML and NLP models. While most use cases are cast as specialized supervised learning problems, we argue that practitioners would greatly benefit from more transferable representations of products. In this work, we build on recent developments in contrastive learning to train FashionCLIP, a CLIP-like model for the fashion industry. We showcase its capabilities for retrieval, classification and grounding, and release our model and code to the community.",
+    "path": "papers/22/04/2204.03972.json",
+    "total_tokens": 694,
+    "translated_title": "对于普遍时尚概念的视觉与语言对比学习",
+    "translated_abstract": "随着在线购物不断崛起，越来越复杂的机器学习（ML）和自然语言处理（NLP）模型的发展紧随其后。虽然大多数用例都被视为专业的监督学习问题，但我们认为从更具可转移性的产品表征中受益。在这项工作中，我们借鉴了对比学习的最新进展，训练出了FashionCLIP，一种适用于时尚行业的CLIP-like模型。我们展示了它在检索、分类和定位方面的能力，并将我们的模型和代码发布给社区。",
+    "tldr": "本文提出了一种对于时尚行业的CLIP-like模型—— FashionCLIP，它可以通过对视觉和语言的对比学习实现产品的检索、分类和定位，能够提供更具可转移性的产品表征。",
+    "en_tdlr": "This paper proposes a CLIP-like model for the fashion industry, called FashionCLIP, which is trained through contrastive learning of vision and language, and demonstrates its capabilities for retrieval, classification and grounding, providing more transferable representations of products."
+}

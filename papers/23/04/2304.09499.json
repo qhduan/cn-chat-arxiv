@@ -1,0 +1,12 @@
+{
+    "title": "The Responsibility Problem in Neural Networks with Unordered Targets. (arXiv:2304.09499v1 [cs.LG])",
+    "abstract": "We discuss the discontinuities that arise when mapping unordered objects to neural network outputs of fixed permutation, referred to as the responsibility problem. Prior work has proved the existence of the issue by identifying a single discontinuity. Here, we show that discontinuities under such models are uncountably infinite, motivating further research into neural networks for unordered data.",
+    "link": "http://arxiv.org/abs/2304.09499",
+    "context": "Title: The Responsibility Problem in Neural Networks with Unordered Targets. (arXiv:2304.09499v1 [cs.LG])\nAbstract: We discuss the discontinuities that arise when mapping unordered objects to neural network outputs of fixed permutation, referred to as the responsibility problem. Prior work has proved the existence of the issue by identifying a single discontinuity. Here, we show that discontinuities under such models are uncountably infinite, motivating further research into neural networks for unordered data.",
+    "path": "papers/23/04/2304.09499.json",
+    "total_tokens": 522,
+    "translated_title": "无序目标下神经网络的责任问题",
+    "translated_abstract": "本文讨论将无序对象映射到固定排列神经网络输出时出现的不连续性，称之为责任问题。以前的工作已经通过识别单个不连续性证明了该问题的存在。本文证明，在这种模型下不连续性是不可数无限的，鼓励进一步研究适用于无序数据的神经网络。",
+    "tldr": "本文解决了无序目标下神经网络的不连续性问题，并鼓励进一步研究。",
+    "en_tdlr": "This paper addresses the discontinuity problem in neural networks with unordered targets and encourages further research in this area."
+}

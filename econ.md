@@ -2,118 +2,117 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Measuring the strengths of the teams in the UEFA Champions League.](http://arxiv.org/abs/2304.09078) | 本文研究了UEFA俱乐部系数在保证欧洲冠军联赛对手实力相同方面的局限性，并提出通过考虑国内联赛的比赛成绩来改进系数的建议。 |
-| [^2] | [Doubly Robust Estimators with Weak Overlap.](http://arxiv.org/abs/2304.08974) | 本文提出了适用于治疗效果估计的新的双重稳健估计器，该估计器可以处理弱协变量重叠，在修剪具有极端倾向得分的观察值的基础上，使用偏差校正装置来修剪偏差。 |
-| [^3] | [Climate uncertainty impacts on optimal mitigation pathways and social cost of carbon.](http://arxiv.org/abs/2304.08957) | 研究表明，气候不确定性是导致碳社会成本和最优CO$_2$减排量范围变化的关键因素，减少气候不确定性可以改进减排投入的成本计算，同时也指出了气候和排放之间缺失的反馈。 |
-| [^4] | [Simple model of market structure evolution of service-providing firms.](http://arxiv.org/abs/2304.08727) | 本文提出了一种简单的模型，用于模拟服务提供企业市场结构的演变，其关注点在于每个客户只采用一个公司的市场，以及市场中存在出现和快速获得大市场份额的新公司的干扰。该模型简单易懂，只有两个参数。 |
-| [^5] | [Risks and opportunities in arbitrage and market-making in blockchain-based currency markets. Part 1 : Risks.](http://arxiv.org/abs/2304.08590) | 本研究分析了区块链货币市场高频交易操作中可能存在的风险和潜在机会，提供了有用信息。 |
-| [^6] | [Credible Decentralized Exchange Design via Verifiable Sequencing Rules.](http://arxiv.org/abs/2209.15569) | 本研究提出可验证排序规则，为去中心化交易所提供了更可靠的交易执行方式，并对于现有矿工操纵市场的问题提供了解决方案。 |
-| [^7] | [Spatial frequency of unstable eigenfunction of the core-periphery model with transport cost of differentiated agriculture.](http://arxiv.org/abs/2206.01040) | 本文研究了具有不同运输成本的差异化农业的核心-边缘模型的不稳定特征函数的空间频率分析，结果发现随着频率的增加不稳定区域的大小也增加。 |
+| [^1] | [The Impact of Industrial Zone:Evidence from China's National High-tech Zone Policy.](http://arxiv.org/abs/2304.09775) | 本研究基于中国国家高新区政策视为准自然实验，探究了该政策对经济的影响机制，包括财务支持、产业集聚和溢出效应，并展示了溢出效应的分布情况。 |
+| [^2] | [Consistent Linear Orders for Supermajority Rules.](http://arxiv.org/abs/2304.09419) | 论文考虑了通过个体偏好的聚合来构建超过半数规则的一致性线性排序，使用传递闭包和铃木村一致性闭包两种程序进行排序修改，得出两组线性排序满足扩展的Condorcet原则、Pareto原则、克隆的独立性和翻转对称性属性。 |
+| [^3] | [The Economics of Partisan Gerrymandering.](http://arxiv.org/abs/2304.09381) | 本文研究了党派瓜分者如何将选民分配到同样多的选区中来最大化他的党派的预期席位份额。瓜分者通常使用打包和配对划分来优化结果，最佳的划分方式取决于总体和个别不确定性的相对量。 |
+| [^4] | [The Unintended Consequences of Censoring Digital Technology -- Evidence from Italy's ChatGPT Ban.](http://arxiv.org/abs/2304.09339) | 意大利禁止ChatGPT产生了短期的生产力干扰，但也导致了审查绕过工具的显著增加。 |
+| [^5] | [A hybrid model for day-ahead electricity price forecasting: Combining fundamental and stochastic modelling.](http://arxiv.org/abs/2304.09336) | 该论文提出了一种混合模型，将技术经济能源系统模型与随机模型相结合，以准确预测电力市场中的价格，并生成传统的点预测和概率预测，从而提供了对市场全面的理解和帮助交易员和系统操作员优化决策的价值。 |
+| [^6] | [With a Grain of Salt: Uncertain Relevance of External Information and Firm Disclosures.](http://arxiv.org/abs/2304.09262) | 本文研究了外部信息和公司披露的不确定相关性对投资者信念和市场价格的影响，结果表明投资者更倾向于误解有利于公司的外部信号，公司的自愿披露可能会导致价格下跌。 |
+| [^7] | [A Theory of Rational Housing Bubbles with Phase Transitions.](http://arxiv.org/abs/2303.11365) | 本研究针对观察到的租售价格比存在断层现象，通过交叉世代模型证明，在购房者收入增加时，经济体呈现出从基本面到基本面和泡沫平衡的相变，当购房者收入更高时，泡沫变得不可避免，存在基于预期推动的房地产繁荣和崩溃，并且固有基本面均衡是低效的。 |
 | [^8] | [Sequential Elimination Contests with All-Pay Auctions.](http://arxiv.org/abs/2205.08104) | 本文研究了带全付拍卖的顺序淘汰比赛，在设计者无法得知所有选手类型情况下，对于有限的选手数量，我们明确定义了均衡策略和期望的最优机制，并为设计者提供了一些众包比赛的设计启示。 |
-| [^9] | [The Cost of Influence: How Gifts to Physicians Shape Prescriptions and Drug Costs.](http://arxiv.org/abs/2203.01778) | 本文研究了制药公司向医生进行的礼物或货款等赠送方式对处方和药物成本的影响。研究发现，礼品会让医生更多地开出品牌药处方，导致每收到1美元的费用增加30美元的成本。禁止礼品赠送估计可以使药品成本降低3-4%。 |
-| [^10] | [Media Slant is Contagious.](http://arxiv.org/abs/2202.07269) | 本文研究了国家有线电视新闻对美国本土报纸的影响，发现当地报纸的内容会因为当地 FNC 观众数量的增加而趋向于 FNC 的倾向，并且有线电视倾向会极化地方新闻内容。 |
-| [^11] | [Strategic Exploration for Innovation.](http://arxiv.org/abs/2108.07218) | 本文提出了一个战略探索创新的框架，研究了探索和开发之间的平衡，证明了知识溢出可以加速知识创新并鼓励创新者增加探索，从而形成积极反馈循环并缓解搭便车问题。 |
-| [^12] | [More Robust Estimators for Panel Bartik Designs, With An Application to the Effect of Imports from China on US Employment.](http://arxiv.org/abs/2103.06437) | 本研究提出了一种更稳健的工具变量相关随机系数（IV-CRC）估计器，可更好地应对异质效应，重新审视了中美进口对美国制造业就业影响的研究，结果表明，在不假设效应恒定的情况下，无法得出中国进口对美国制造业就业负面影响的结论。 |
+| [^9] | [Incentives for Collective Innovation.](http://arxiv.org/abs/2109.01885) | 本论文研究了代理商在共享技术中的集体创新问题，发现允许代理商丢弃创新可以增加均衡努力和福利。 |
+| [^10] | [The Rising Entropy of English in the Attention Economy.](http://arxiv.org/abs/2107.12848) | 美式英语的熵值自1900年左右持续上升并且不同媒体之间存在着熵值上的差异，作者认为这是由于注意力经济的生态系统导致的。 |
+| [^11] | [Peace through bribing.](http://arxiv.org/abs/2107.11575) | 本文研究了一种贿赂带来和平的模型。作者发现在该模型中和平是不可能的，并表征了实现和平的必要和充分条件。作者还考虑了一个请求模型，在该模型中可以实现和平安全。 |
 
 # 详细
 
-[^1]: 测量欧洲冠军联赛球队实力的方法
+[^1]: 工业区对经济的影响：基于中国国家高新区政策的证据
 
-    Measuring the strengths of the teams in the UEFA Champions League. (arXiv:2304.09078v1 [stat.AP])
+    The Impact of Industrial Zone:Evidence from China's National High-tech Zone Policy. (arXiv:2304.09775v1 [econ.EM])
 
-    [http://arxiv.org/abs/2304.09078](http://arxiv.org/abs/2304.09078)
+    [http://arxiv.org/abs/2304.09775](http://arxiv.org/abs/2304.09775)
 
-    本文研究了UEFA俱乐部系数在保证欧洲冠军联赛对手实力相同方面的局限性，并提出通过考虑国内联赛的比赛成绩来改进系数的建议。
-
-    
-
-    从2024/25赛季开始，《欧洲冠军联赛》将进行一个重大改革：传统的小组赛阶段将被一个联赛阶段所取代，其中的36个球队中每个队将参加8场比赛。由于排名仍然基于这些比赛的结果，公平需要确保每个俱乐部的对手实力相同。本文研究了当前使用的球队排名方法——UEFA俱乐部系数能否通过考虑国内联赛的比赛结果进行改进。根据我们的逻辑回归模型，Elo方法的一种变体在预测欧洲冠军联赛比赛方面具有更高的准确性。因此，我们建议欧洲足球协会（UEFA）仿效国际足球联合会世界排名的做法，改革系数的计算方式，以避免欧洲冠军联赛的新赛制中出现不平衡的赛程安排。
-
-    One of the most popular club football tournaments, the UEFA Champions League, will see a fundamental reform from the 2024/25 season: the traditional group stage will be replaced by one league where each of the 36 teams plays eight matches. Since the ranking is still based on the results of these matches, fairness requires guaranteeing that the opponents of the clubs are of the same strength. This paper investigates whether the currently used rating of the teams, the UEFA club coefficient, can be improved by taking the games played in the national leagues into account. According to our logistic regression models, a variant of the Elo method provides a higher accuracy in forecasting Champions League matches. Therefore, the Union of European Football Associations (UEFA) is encouraged to follow the example of the FIFA World Ranking and reform the calculation of the coefficients in order to avoid unbalanced schedules in the novel tournament format of the Champions League.
-    
-[^2]: 适用于弱重叠的双重稳健估计器
-
-    Doubly Robust Estimators with Weak Overlap. (arXiv:2304.08974v1 [econ.EM])
-
-    [http://arxiv.org/abs/2304.08974](http://arxiv.org/abs/2304.08974)
-
-    本文提出了适用于治疗效果估计的新的双重稳健估计器，该估计器可以处理弱协变量重叠，在修剪具有极端倾向得分的观察值的基础上，使用偏差校正装置来修剪偏差。
+    本研究基于中国国家高新区政策视为准自然实验，探究了该政策对经济的影响机制，包括财务支持、产业集聚和溢出效应，并展示了溢出效应的分布情况。
 
     
 
-    本文提出了一种新的双重稳健估计器的类别，可用于治疗效果估计，并且还可以对弱协变量重叠进行稳健性分析。我们的估计器依赖于修剪具有极端倾向得分的观察值，并使用偏差校正装置来修剪偏差。我们的框架适用于许多研究设计，例如非混淆性，局部治疗效应和差异法。模拟实验表明，我们提出的工具确实具有令人满意的有限样本性质，这与我们的理论渐近结果一致。
+    本研究基于中国287个城市从2000年至2020年的统计年鉴数据和相关专利数据，将建立国家高新区政策视为准自然实验。首先通过该实验估计了政策的治疗效应并检验了估计的稳健性。然后本研究考察了中国不同地理划分和不同城市层级之间的异质性。之后，本研究探讨了该政策的可能影响机制，结果表明可能机制有财务支持、二级产业的产业集聚以及溢出效应。最后，研究对溢出效应进行了深入探究，并展示了溢出效应的分布情况。
 
-    In this paper, we derive a new class of doubly robust estimators for treatment effect estimands that is also robust against weak covariate overlap. Our proposed estimator relies on trimming observations with extreme propensity scores and uses a bias correction device for trimming bias. Our framework accommodates many research designs, such as unconfoundedness, local treatment effects, and difference-in-differences. Simulation exercises illustrate that our proposed tools indeed have attractive finite sample properties, which are aligned with our theoretical asymptotic results.
+    Based on the statistical yearbook data and related patent data of 287 cities in China from 2000 to 2020, this study regards the policy of establishing the national high-tech zones as a quasi-natural experiment. Using this experiment, this study firstly estimated the treatment effect of the policy and checked the robustness of the estimation. Then the study examined the heterogeneity in different geographic demarcation of China and in different city level of China. After that, this study explored the possible influence mechanism of the policy. It shows that the possible mechanism of the policy is financial support, industrial agglomeration of secondary industry and the spillovers. In the end, this study examined the spillovers deeply and showed the distribution of spillover effect.
     
-[^3]: 气候不确定性对最佳减排路径和碳社会成本的影响
+[^2]: 超过半数规则的一致性线性排序
 
-    Climate uncertainty impacts on optimal mitigation pathways and social cost of carbon. (arXiv:2304.08957v1 [econ.GN])
+    Consistent Linear Orders for Supermajority Rules. (arXiv:2304.09419v1 [econ.TH])
 
-    [http://arxiv.org/abs/2304.08957](http://arxiv.org/abs/2304.08957)
+    [http://arxiv.org/abs/2304.09419](http://arxiv.org/abs/2304.09419)
 
-    研究表明，气候不确定性是导致碳社会成本和最优CO$_2$减排量范围变化的关键因素，减少气候不确定性可以改进减排投入的成本计算，同时也指出了气候和排放之间缺失的反馈。
-
-    
-
-    气候政策分析中的排放路径通常来自综合评估模型(IAMs)。然而，这些排放路径通常不考虑气候对社会经济系统的反馈作用，因此也没有考虑气候不确定性。本文表明，仅仅气候不确定性就显著地改变了最优CO$_2$减排量成本效益，对于一组限制升温在1.5摄氏度以下低超温度控制情景，2050年的减排量变化范围在-14到+12 GtCO$_2$ yr$^{-1}$之间。此情景下，碳社会成本的范围变化达到了五倍。平衡气候敏感性(ECS)和现有气溶胶辐射强度是碳社会成本和中世纪最佳二氧化碳排放量的强烈决定因素。这表明，减少气候不确定性可以精确计算减排投入的成本，同时也指出了气候和排放之间缺失的反馈。
-
-    Emissions pathways used in climate policy analysis are often derived from integrated assessment models (IAMs). However, such emissions pathways do not typically include climate feedbacks on socioeconomic systems and by extension do not consider climate uncertainty in their construction. Here we show that climate uncertainty alone significantly changes the cost-benefit optimal CO$_2$ emissions, varying from -14 to +12 GtCO$_2$ yr$^{-1}$ in 2050 (5-95% range) for an ensemble of scenarios that limit warming to 1.5{\deg}C with low overshoot. Climate uncertainty is also responsible for a factor of five range in the social cost of carbon (SCC) in this scenario ensemble. Equilibrium climate sensitivity (ECS) and the strength of present-day aerosol radiative forcing are strong determinants of SCC and optimal mid-century CO$_2$ emissions. This confirms that reducing climate uncertainty can refine cost-optimal emissions projections, and points to a missing feedback between climate and emissions 
-    
-[^4]: 服务提供企业市场结构演变的简单模型
-
-    Simple model of market structure evolution of service-providing firms. (arXiv:2304.08727v1 [physics.soc-ph])
-
-    [http://arxiv.org/abs/2304.08727](http://arxiv.org/abs/2304.08727)
-
-    本文提出了一种简单的模型，用于模拟服务提供企业市场结构的演变，其关注点在于每个客户只采用一个公司的市场，以及市场中存在出现和快速获得大市场份额的新公司的干扰。该模型简单易懂，只有两个参数。
+    论文考虑了通过个体偏好的聚合来构建超过半数规则的一致性线性排序，使用传递闭包和铃木村一致性闭包两种程序进行排序修改，得出两组线性排序满足扩展的Condorcet原则、Pareto原则、克隆的独立性和翻转对称性属性。
 
     
 
-    服务提供企业之间通过竞争来获取客户，创造了从少数巨头公司到许多小型公司的市场结构。这些市场结构会随时间演变，并在许多年后保持稳定，然后经历新公司出现并快速获得大市场份额的干扰。本文旨在寻找最简单的真实模型，以产生这种多样的市场结构和动态。我们重点关注的是每个客户只采用一个公司的市场，并可以不时地转向另一个公司，例如手机和互联网服务提供商市场。在该模型中，被标记为i的特定企业的规模等于其当前客户数量ni。在模拟的每一步中，随机选择一个客户，然后以pi =（beta + ni ^ alpha）/ K的概率从整个公司集合中选择一个公司，其中K是正则化因子。因此，我们的模型具有两个参数：alpha代表退化
+    我们考虑通过个体偏好的聚合来构建有限选项的线性排序。我们关注的是与集体偏好关系一致的线性排序，该线性排序是由超过半数规则之一构建的，并在存在循环时使用两种程序进行修改。一种修改程序使用传递闭包，另一种使用铃木村一致性闭包。我们得出两组线性排序，这些线性排序与通过Tideman的排名对方法和Schulze方法获得的排序密切相关。最后，我们考虑了两个社会决策对应，其输出是上述引入的一个集合，并表明这些对应满足四个属性：扩展的Condorcet原则，Pareto原则，克隆的独立性和翻转对称性。
 
-    Service-providing firms compete for clients, creating market structures ranging from domination by a few giant companies to markets in which there are many small firms. These market structures evolve in time, and may remain stable for many years before experiencing a disruption in which a new firm emerges and rapidly obtains a large market share. We seek the simplest realistic model giving rise to such diverse market structures and dynamics. We focus on markets in which every client adopts a single firm, and can, from time to time, switch to a different firm. The markets of cell phone and Internet service providers are examples. In the model, the size of a particular firm, labelled i, is equal to its current number of clients, ni. In every step of the simulation, a client is chosen at random, and then selects a firm from among the full set of firms with probability pi = (beta + ni^alpha)/K, where K is the normalization factor. Our model thus has two parameters: alpha represents the deg
+    We consider linear orders of finite alternatives that are constructed by aggregating the preferences of individuals. We focus on a linear order that is consistent with the collective preference relation, which is constructed by one of the supermajority rules and modified using two procedures if there exist some cycles. One modification procedure uses the transitive closure, and the other uses the Suzumura consistent closure. We derive two sets of linear orders that are consistent with the (modified) collective preference relations formed by any of the supermajority rules. These sets of linear orders are closely related to those obtained through Tideman's ranked pairs method and the Schulze method. Finally, we consider two social choice correspondences whose output is one of the sets introduced above, and show that the correspondences satisfy the four properties: the extended Condorcet principle, the Pareto principle, the independence of clones, and the reversal symmetry.
     
-[^5]: 区块链货币市场套利和做市的风险和机会第一部分：风险
+[^3]: 党派瓜分的经济学
 
-    Risks and opportunities in arbitrage and market-making in blockchain-based currency markets. Part 1 : Risks. (arXiv:2304.08590v1 [econ.GN])
+    The Economics of Partisan Gerrymandering. (arXiv:2304.09381v1 [econ.TH])
 
-    [http://arxiv.org/abs/2304.08590](http://arxiv.org/abs/2304.08590)
+    [http://arxiv.org/abs/2304.09381](http://arxiv.org/abs/2304.09381)
 
-    本研究分析了区块链货币市场高频交易操作中可能存在的风险和潜在机会，提供了有用信息。
-
-    
-
-    本研究提供了一个实践性介绍，介绍了区块链货币市场中的高频交易。这些市场具有一些特定的特征，使它们与股票市场有所不同，例如许多交易所（集中式和去中心化），从一个交易所转移资金的相对简单性，以及许多新货币几乎没有流动性。本研究分析了可能在这种类型的交易操作中特别存在的风险、潜在的机会和大多数使用的算法，提供了对于有意在这些市场上提供（并承担）流动性的从业者有用的信息。
-
-    This study provides a practical introduction to high-frequency trading in blockchain-based currency markets. These types of markets have some specific characteristics that differentiate them from the stock markets, such as a large number of trading exchanges (centralized and decentralized), relative simplicity in moving funds from one exchange to another, and the large number of new currencies that have very little liquidity. This study analyzes the possible risks that specifically characterize this type of trading operation, the potential opportunities, and the algorithms that are mostly used, providing information that can be useful for practitioners who intend to operate in these markets by providing (and risking) liquidity.
-    
-[^6]: 基于可验证排序规则的可信分散式交易所设计
-
-    Credible Decentralized Exchange Design via Verifiable Sequencing Rules. (arXiv:2209.15569v2 [cs.GT] UPDATED)
-
-    [http://arxiv.org/abs/2209.15569](http://arxiv.org/abs/2209.15569)
-
-    本研究提出可验证排序规则，为去中心化交易所提供了更可靠的交易执行方式，并对于现有矿工操纵市场的问题提供了解决方案。
+    本文研究了党派瓜分者如何将选民分配到同样多的选区中来最大化他的党派的预期席位份额。瓜分者通常使用打包和配对划分来优化结果，最佳的划分方式取决于总体和个别不确定性的相对量。
 
     
 
-    在去中心化交易所上进行交易已成为使用无需许可的区块链的主要用例之一，每日的交易量超过数十亿美元。目前，用户广播交易，而矿工负责组成包含这些交易的块并选择一个执行顺序——即交易在交易所中执行的顺序。由于缺乏监管框架，很常见看到矿工利用其特权地位在前置交易和获得无风险利润。在本文中，我们提出了修改矿工和用户之间互动的建议，并开始研究“可验证排序规则”。像现状一样，矿工可以确定块的内容；然而，它们承诺遵守一个限制执行顺序的排序规则，并且该规则是可验证的（存在一种多项式时间算法可以验证执行顺序是否满足此类约束）。因此，如果矿工偏离排序规则，那么所有交易都将降级为无效状态。
+    我们研究了一个党派瓜分者如何将选民分配到同样多的选区中来最大化他的党派的预期席位份额。设计师面临着两种不确定性:总体不确定性(他的党派将获得多少选票)和个别不确定性(哪些选民将投票给他的党派)。我们认为，打包和配对划分，即将较弱的选区“打包”成一个类型的选民，而强度更大的选区则包含两种选民类型，通常是对瓜分者最优的。打包和配对划分的最佳形式取决于总体和个别不确定性的相对量。当个别不确定性占主导地位时，最优的策略是将对立的选民“打包”在一起，并配对更有利的选民；这个策略类似于传统的“打包与分化”。当总体的不确定性占据主导地位时，最优策略是将温和的选民“打包”在一起，并配对极端的选民；这个“匹配切片”的计划得到了一些文献的关注。
 
-    Trading on decentralized exchanges has been one of the primary use cases for permissionless blockchains with daily trading volume exceeding billions of U.S.~dollars. In the status quo, users broadcast transactions and miners are responsible for composing a block of transactions and picking an execution ordering -- the order in which transactions execute in the exchange. Due to the lack of a regulatory framework, it is common to observe miners exploiting their privileged position by front-running transactions and obtaining risk-fee profits. In this work, we propose to modify the interaction between miners and users and initiate the study of {\em verifiable sequencing rules}. As in the status quo, miners can determine the content of a block; however, they commit to respecting a sequencing rule that constrains the execution ordering and is verifiable (there is a polynomial time algorithm that can verify if the execution ordering satisfies such constraints). Thus in the event a miner devia
+    We study the problem of a partisan gerrymanderer who assigns voters to equipopulous districts so as to maximize his party's expected seat share. The designer faces both aggregate uncertainty (how many votes his party will receive) and idiosyncratic, voter-level uncertainty (which voters will vote for his party). We argue that pack-and-pair districting, where weaker districts are ``packed'' with a single type of voter, while stronger districts contain two voter types, is typically optimal for the gerrymanderer. The optimal form of pack-and-pair districting depends on the relative amounts of aggregate and idiosyncratic uncertainty. When idiosyncratic uncertainty dominates, it is optimal to pack opposing voters and pair more favorable voters; this plan resembles traditional ``packing-and-cracking.'' When aggregate uncertainty dominates, it is optimal to pack moderate voters and pair extreme voters; this ``matching slices'' plan has received some attention in the literature. Estimating the
     
-[^7]: 具有差异化农业运输成本的核心-边缘模型的不稳定特征函数的空间频率分析
+[^4]: 禁止数字技术的意外后果——以意大利ChatGPT禁令为例的证据
 
-    Spatial frequency of unstable eigenfunction of the core-periphery model with transport cost of differentiated agriculture. (arXiv:2206.01040v3 [econ.TH] UPDATED)
+    The Unintended Consequences of Censoring Digital Technology -- Evidence from Italy's ChatGPT Ban. (arXiv:2304.09339v1 [econ.GN])
 
-    [http://arxiv.org/abs/2206.01040](http://arxiv.org/abs/2206.01040)
+    [http://arxiv.org/abs/2304.09339](http://arxiv.org/abs/2304.09339)
 
-    本文研究了具有不同运输成本的差异化农业的核心-边缘模型的不稳定特征函数的空间频率分析，结果发现随着频率的增加不稳定区域的大小也增加。
+    意大利禁止ChatGPT产生了短期的生产力干扰，但也导致了审查绕过工具的显著增加。
 
     
 
-    本文将具有不同运输成本的差异化农业的核心-边缘模型扩展到连续的多区域空间，并研究了模型在周期性空间上的均匀稳定解的稳定性。对于构成均匀解小扰动的特征函数，观察到不稳定区域随着频率的增加增大。
+    本文分析了ChatGPT，一种生成式预训练变压器聊天机器人被禁止对个人生产率的影响。我们首先收集了超过8,000名专业GitHub用户在意大利和其他欧洲国家的每小时编码产出数据，以分析禁令对个人生产力的影响。将高频率数据与禁令的突然宣布结合在一起，运用差异法，我们发现在禁令后的前两个工作日，意大利开发者的产出减少了约50％，之后逐渐恢复。运用合成控制方法来分析每日Google搜索和Tor使用数据，结果显示，该禁令导致了绕过审查的工具的使用量显著增加。我们的研究结果表明，用户很快采取绕过互联网限制的策略，但这种适应活动会造成短期的干扰和影响生产力。
 
-    This paper extends the core-periphery model with differentiated agriculture with transport cost to continuously multi-regional space and investigates the stability of homogeneous stationary solution for the model on a periodic space. For eigenfunctions that compose small disturbance around the homogeneous solution, unstable area, defined as the area of parameters where each eigenfunction is unstable, is observed to generally expand in its size as the frequency increases.
+    We analyse the effects of the ban of ChatGPT, a generative pre-trained transformer chatbot, on individual productivity. We first compile data on the hourly coding output of over 8,000 professional GitHub users in Italy and other European countries to analyse the impact of the ban on individual productivity. Combining the high-frequency data with the sudden announcement of the ban in a difference-in-differences framework, we find that the output of Italian developers decreased by around 50% in the first two business days after the ban and recovered after that. Applying a synthetic control approach to daily Google search and Tor usage data shows that the ban led to a significant increase in the use of censorship bypassing tools. Our findings show that users swiftly implement strategies to bypass Internet restrictions but this adaptation activity creates short-term disruptions and hampers productivity.
+    
+[^5]: 一种结合基本模型和随机模型的日前电力价格预测混合模型
+
+    A hybrid model for day-ahead electricity price forecasting: Combining fundamental and stochastic modelling. (arXiv:2304.09336v1 [econ.EM])
+
+    [http://arxiv.org/abs/2304.09336](http://arxiv.org/abs/2304.09336)
+
+    该论文提出了一种混合模型，将技术经济能源系统模型与随机模型相结合，以准确预测电力市场中的价格，并生成传统的点预测和概率预测，从而提供了对市场全面的理解和帮助交易员和系统操作员优化决策的价值。
+
+    
+
+    准确预测短期电力价格对于制定有效的交易策略、电厂调度、利润最大化和高效系统运营至关重要。然而，供需不确定性使得这样的预测具有挑战性。为了应对这一挑战，我们提出了一种混合模型，该模型将技术经济能源系统模型与随机模型相结合。我们混合方法中的技术经济模型能够深入了解市场。它捕捉了潜在因素及其对电力价格的影响，这是仅仅依靠统计模型无法实现的。统计模型通过价格的解释来包含非技术经济因素，如市场参与者的预期和投机行为。混合模型可以生成传统的点预测和概率预测，从而为了解市场景观提供全面的理解。概率预测尤其有价值，因为它们可以使交易员和系统操作员在不确定性下优化他们的决策。
+
+    The accurate prediction of short-term electricity prices is vital for effective trading strategies, power plant scheduling, profit maximisation and efficient system operation. However, uncertainties in supply and demand make such predictions challenging. We propose a hybrid model that combines a techno-economic energy system model with stochastic models to address this challenge. The techno-economic model in our hybrid approach provides a deep understanding of the market. It captures the underlying factors and their impacts on electricity prices, which is impossible with statistical models alone. The statistical models incorporate non-techno-economic aspects, such as the expectations and speculative behaviour of market participants, through the interpretation of prices. The hybrid model generates both conventional point predictions and probabilistic forecasts, providing a comprehensive understanding of the market landscape. Probabilistic forecasts are particularly valuable because they
+    
+[^6]: 带着一块盐：外部信息与公司披露的不确定相关性
+
+    With a Grain of Salt: Uncertain Relevance of External Information and Firm Disclosures. (arXiv:2304.09262v1 [econ.TH])
+
+    [http://arxiv.org/abs/2304.09262](http://arxiv.org/abs/2304.09262)
+
+    本文研究了外部信息和公司披露的不确定相关性对投资者信念和市场价格的影响，结果表明投资者更倾向于误解有利于公司的外部信号，公司的自愿披露可能会导致价格下跌。
+
+    
+
+    本文研究了外部信号（例如有关竞争对手或宏观经济因素变化的新闻）相关性的不确定性如何影响投资者信念、市场价格和公司自愿披露。尽管假设信号相关性与公司经理信息拥有相互独立，我们的结果表明：（i）有利的外部信号被认为不那么重要；（ii）因为这些信号被“带着一块盐”接受，投资者信念经理拥有不利信息被加强。因此，投资者信念中的不连续性和股票价格的非单调性可能会导致更有利的外部信号出现矛盾地导致市场估值下降。与这一领域不断增长的实证证据一致，我们的模型预测了对有利和不利新闻的不对称价格反应以及公司披露后可能出现的价格下降。
+
+    This paper examines how uncertainty about the relevance of external signals (such as news about a competitor or about changes in macroeconomic factors) influences investor beliefs, market prices and voluntary disclosures by companies. Despite assuming independence between the signal relevance and the endowment with information of a firm manager, our results show that: (i) favorable external signals are perceived to be less relevant; (ii) because such signals are taken ``with a grain of salt," the investor beliefs that the manager is endowed with unfavorable information are reinforced. As a consequence, a discontinuity in investor beliefs and non-monotonicity in stock prices may occur, such that more favorable external signals could paradoxically lead to a decrease in market valuation. In line with the growing empirical evidence in this area, our model predicts asymmetric price reactions to favorable and unfavorable news as well as potential price declines following firm disclosures.
+    
+[^7]: 有关具有相变的理性房地产泡沫的理论
+
+    A Theory of Rational Housing Bubbles with Phase Transitions. (arXiv:2303.11365v1 [econ.TH])
+
+    [http://arxiv.org/abs/2303.11365](http://arxiv.org/abs/2303.11365)
+
+    本研究针对观察到的租售价格比存在断层现象，通过交叉世代模型证明，在购房者收入增加时，经济体呈现出从基本面到基本面和泡沫平衡的相变，当购房者收入更高时，泡沫变得不可避免，存在基于预期推动的房地产繁荣和崩溃，并且固有基本面均衡是低效的。
+
+    
+
+    根据实证观察到的租售价格比，表明基本面与房价存在断层。本文在一个存在完美住房和租赁市场的交叉世代模型中分析平衡的房价。我们证明经济体呈现出二阶段相变：随着购房者收入的增加，平衡制度从仅基本面到基本面和泡沫平衡共存发生了转变。当购房者收入更高时，基本面均衡消失，房地产泡沫变得不可避免。包含泡沫的预期推动房地产繁荣以及它们的崩溃可能会发生。与广为人知的相反，尽管房产是一种生产性的不可再生资产，但固有基本面均衡是低效的。
+
+    Empirically observed rent-price ratios suggest a disconnection between fundamentals and prices. We analyze equilibrium housing prices in an overlapping generations model with perfect housing and rental markets. We prove that the economy exhibits a two-stage phase transition: as the income of home buyers rises, the equilibrium regime changes from fundamental only to coexistence of fundamental and bubbly equilibria. With even higher incomes, fundamental equilibria disappear and housing bubbles become inevitable. Expectation-driven housing booms containing a bubble and their collapse can occur. Contrary to widely-held beliefs, fundamental equilibria in the coexistence region are inefficient despite housing being a productive non-reproducible asset.
     
 [^8]: 带全付拍卖的顺序淘汰比赛研究
 
@@ -129,60 +128,46 @@
 
     We study a sequential elimination contest where players are filtered prior to the round of competing for prizes. This is motivated by the practice that many crowdsourcing contests have very limited resources of reviewers and want to improve the overall quality of the submissions. We first consider a setting where the designer knows the ranking of the abilities (types) of all $n_1$ registered players, and admit the top $n_2$ players with $2\leq n_2 \leq n_1$ into the contest. The players admitted into the contest update their beliefs about their opponents based on the signal that their abilities are among the top $n_2$. We find that their posterior beliefs, even with IID priors, are correlated and depend on players' private abilities.  We explicitly characterize the symmetric and unique Bayesian equilibrium strategy. We find that each admitted player's equilibrium effort is increasing in $n_2$ when $n_2 \in [\lfloor{(n_1+1)/2}\rfloor+1,n_1]$, but not monotone in general when $n_2 \in [2
     
-[^9]: 影响的代价：制药公司赠送礼品如何影响处方和药品成本
+[^9]: 集体创新的激励方式
 
-    The Cost of Influence: How Gifts to Physicians Shape Prescriptions and Drug Costs. (arXiv:2203.01778v3 [econ.GN] UPDATED)
+    Incentives for Collective Innovation. (arXiv:2109.01885v6 [econ.TH] UPDATED)
 
-    [http://arxiv.org/abs/2203.01778](http://arxiv.org/abs/2203.01778)
+    [http://arxiv.org/abs/2109.01885](http://arxiv.org/abs/2109.01885)
 
-    本文研究了制药公司向医生进行的礼物或货款等赠送方式对处方和药物成本的影响。研究发现，礼品会让医生更多地开出品牌药处方，导致每收到1美元的费用增加30美元的成本。禁止礼品赠送估计可以使药品成本降低3-4%。
-
-    
-
-    本文研究了制药公司向美国医生进行的礼物、货款等赠送方式如何影响处方和药物成本。我们利用因果推断和机器学习方法，结合针对糖尿病处方和付款的医生层面数据估计出异质性处理效应。我们发现，礼品会让医生更多地开具品牌药品处方，导致每收到1美元的费用增加30美元的成本。反应在医生身上的差异很大，且主要是由患者自费的费用变化所解释的。禁止礼品赠送估计可以使药品成本降低3-4%。这些新的发现揭示了礼品如何塑造处方选择并推高成本。
-
-    This paper studies how gifts - monetary or in-kind payments - from drug firms to physicians in the US affect prescriptions and drug costs. We estimate heterogeneous treatment effects by combining physician-level data on antidiabetic prescriptions and payments with causal inference and machine learning methods. We find that payments cause physicians to prescribe more brand drugs, resulting in a cost increase of $30 per dollar received. Responses differ widely across physicians, and are primarily explained by variation in patients' out-of-pocket costs. A gift ban is estimated to decrease drug costs by 3-4%. Taken together, these novel findings reveal how payments shape prescription choices and drive up costs.
-    
-[^10]: 媒体倾向是具有传染性的。
-
-    Media Slant is Contagious. (arXiv:2202.07269v2 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2202.07269](http://arxiv.org/abs/2202.07269)
-
-    本文研究了国家有线电视新闻对美国本土报纸的影响，发现当地报纸的内容会因为当地 FNC 观众数量的增加而趋向于 FNC 的倾向，并且有线电视倾向会极化地方新闻内容。
+    本论文研究了代理商在共享技术中的集体创新问题，发现允许代理商丢弃创新可以增加均衡努力和福利。
 
     
 
-    本研究考察了媒体倾向的传播，具体来说是国家有线电视新闻对美国本土报纸（2005-2008）的影响。我们使用一种基于 Fox News Channel（FNC）、CNN 和 MSNBC 内容的有线电视倾向文本度量方法，分析地方报纸如何采用 FNC 的倾向而不是 CNN/MSNBC 的倾向。研究结果显示，地方新闻随着当地 FNC 观众人数的外部增长而变得更加类似于 FNC 的内容。这种转变不仅限于从有线电视借鉴，而是地方报纸自身内容的改变。此外，有线电视倾向极化了地方新闻内容。
+    代理商们为共享的技术付出隐藏的努力，以产生随机大小的创新。随着技术的发展，使用技术的回报也随之增长，但由于“探索-利用”权衡，努力的机会成本也随之增加。由于监测是不完美的，存在一个（强）对称均衡，任何均衡中的努力均不晚于单一代理商问题中的努力。小的创新可能会严重降低所有代理商在对称均衡中的努力。允许代理商丢弃创新可以增加均衡努力和福利。如果代理商可以隐瞒创新，那么存在完美的贝叶斯均衡，其中改进会被秘密地完善，直到足够大。在自然条件下，该均衡优于所有强制公开的均衡。
 
-    We examine the diffusion of media slant, specifically how partisan content from national cable news affects local newspapers in the U.S., 2005-2008. We use a text-based measure of cable news slant trained on content from Fox News Channel (FNC), CNN, and MSNBC to analyze how local newspapers adopt FNC's slant over CNN/MSNBC's. Our findings show that local news becomes more similar to FNC content in response to an exogenous increase in local FNC viewership. This shift is not limited to borrowing from cable news, but rather, local newspapers' own content changes. Further, cable TV slant polarizes local news content.
+    Agents exert hidden effort to produce randomly-sized innovations in a technology they share. Returns from using the technology grow as it develops, but so does the opportunity cost of effort, due to an 'exploration-exploitation' trade-off. As monitoring is imperfect, there exists a unique (strongly) symmetric equilibrium, and effort in any equilibrium ceases no later than in the single-agent problem. Small innovations may hurt all agents in the symmetric equilibrium, as they severely reduce effort. Allowing agents to discard innovations increases equilibrium effort and welfare. If agents can instead conceal innovations, there exists a perfect Bayesian equilibrium in which improvements are refined in secret until they are sufficiently large. Under natural conditions, this equilibrium improves on all equilibria with forced disclosure.
     
-[^11]: 战略探索引领创新
+[^10]: 注意力经济中英语熵值的不断上升
 
-    Strategic Exploration for Innovation. (arXiv:2108.07218v2 [econ.TH] UPDATED)
+    The Rising Entropy of English in the Attention Economy. (arXiv:2107.12848v4 [econ.GN] UPDATED)
 
-    [http://arxiv.org/abs/2108.07218](http://arxiv.org/abs/2108.07218)
+    [http://arxiv.org/abs/2107.12848](http://arxiv.org/abs/2107.12848)
 
-    本文提出了一个战略探索创新的框架，研究了探索和开发之间的平衡，证明了知识溢出可以加速知识创新并鼓励创新者增加探索，从而形成积极反馈循环并缓解搭便车问题。
-
-    
-
-    本文引入了一个框架来研究创新在战略环境下的问题，其中创新者在连续的时间内将其资源分配在探索和开发之间。探索创建公共知识，而开发提供私人利益。通过分析一类马尔科夫均衡，我们证明了知识溢出加速了知识创新并加快了其可用性，从而鼓励创新者增加探索。随之而来的更好的长期创新前景进一步激励探索，形成积极反馈循环。这种新型反馈循环可以大大缓解由于知识溢出而产生的搭便车问题。
-
-    This paper introduces a framework to study innovation in a strategic setting, in which innovators allocate their resources between exploration and exploitation in continuous time. Exploration creates public knowledge, while exploitation delivers private benefits. Through the analysis of a class of Markov equilibria, we demonstrate that knowledge spillovers accelerate knowledge creation and expedite its availability, thereby encouraging innovators to increase exploration. The prospect of the ensuing superior long-term innovations further motivates exploration, giving rise to a positive feedback loop. This novel feedback loop can substantially mitigate the free-riding problem arising from knowledge spillovers.
-    
-[^12]: 面板Bartik设计的更稳健的估计方法，及其在中美进口贸易对美国就业影响中的应用
-
-    More Robust Estimators for Panel Bartik Designs, With An Application to the Effect of Imports from China on US Employment. (arXiv:2103.06437v6 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2103.06437](http://arxiv.org/abs/2103.06437)
-
-    本研究提出了一种更稳健的工具变量相关随机系数（IV-CRC）估计器，可更好地应对异质效应，重新审视了中美进口对美国制造业就业影响的研究，结果表明，在不假设效应恒定的情况下，无法得出中国进口对美国制造业就业负面影响的结论。
+    美式英语的熵值自1900年左右持续上升并且不同媒体之间存在着熵值上的差异，作者认为这是由于注意力经济的生态系统导致的。
 
     
 
-    我们证明，面板Bartik回归可以确定位置和时间特定的治疗效应的非凸组合。因此，在存在异质效应的情况下，这些回归可能存在偏差。我们提出了一种替代的工具变量相关随机系数（IV-CRC）估计器，可更好地应对异质效应。我们重新审视了Autor等人（2013）的研究，他们使用面板Bartik回归估计中美进口对美国制造业就业的影响。他们的回归估计了高度非凸的效应组合，我们的IV-CRC估计器很小且不显著：在不假设效应恒定的情况下，无法得出中国进口对美国制造业就业负面影响的结论。
+    我们提供了证据表明自1900年左右起，美式英语的词汇熵值一直在稳步上升，这与现有社会语言学理论的预测相反。我们还发现，不同媒体之间存在着词汇熵值上的差异，短格式媒体如新闻和杂志的熵值比长格式媒体更高，而社交媒体的熵值则更高。为了解释这些结果，我们提出了一种注意力经济生态模型，结合了Zipf定律和信息搜寻的思想。在该模型中，媒体消费者在考虑信息检索成本的同时，最大化信息效用率，而媒体生产者则适应减少检索成本的技术，推动他们生成越来越短的更高熵值的内容。
 
-    We show that panel Bartik regressions identify non-convex combinations of location-and-period-specific treatment effects. Thus, those regressions could be biased in the presence of heterogeneous effects. We propose an alternative instrumental-variable correlated-random-coefficient (IV-CRC) estimator, that is more robust to heterogeneous effects. We revisit Autor et al. (2013), who use a panel Bartik regression to estimate the effect of imports from China on US manufacturing employment. Their regression estimates a highly non-convex combination of effects, and our IV-CRC estimator is small and insignificant: without assuming constant effects, one cannot conclude that imports from China negatively affected US manufacturing employment.
+    We present evidence that the word entropy of American English has been rising steadily since around 1900, contrary to predictions from existing sociolinguistic theories. We also find differences in word entropy between media categories, with short-form media such as news and magazines having higher entropy than long-form media, and social media feeds having higher entropy still. To explain these results we develop an ecological model of the attention economy that combines ideas from Zipf's law and information foraging. In this model, media consumers maximize information utility rate taking into account the costs of information search, while media producers adapt to technologies that reduce search costs, driving them to generate higher entropy content in increasingly shorter formats.
+    
+[^11]: 贿赂带来的和平
+
+    Peace through bribing. (arXiv:2107.11575v3 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2107.11575](http://arxiv.org/abs/2107.11575)
+
+    本文研究了一种贿赂带来和平的模型。作者发现在该模型中和平是不可能的，并表征了实现和平的必要和充分条件。作者还考虑了一个请求模型，在该模型中可以实现和平安全。
+
+    
+
+    本文研究了一个模型，在这个模型中，冲突双方在升级为“全付出拍卖”之前，一方可以向另一方提供一个“接受或离开”的贿赂，以达成和平解决。与现有文献不同的是，我们发现在我们的模型中和平是不可能的。我们表征了和平实施的必要和充分条件。此外，我们发现分离均衡不存在，在任何非和平均衡中的(路径上的)贿赂数量最多为两个。我们还考虑了一个请求模型，并表征了稳健和平均衡的必要和充分条件，所有这些均由相同的(路径上的)请求维持。与贿赂模型相反，在请求模型中可以实现和平安全。
+
+    We study a model in which before a conflict between two parties escalates into a war (in the form of an all-pay auction), a party can offer a take-it-or-leave-it bribe to the other for a peaceful settlement. In contrast to the received literature, we find that peace security is impossible in our model. We characterize the necessary and sufficient conditions for peace implementability. Furthermore, we find that separating equilibria do not exist and the number of (on-path) bribes in any non-peaceful equilibria is at most two. We also consider a requesting model and characterize the necessary and sufficient conditions for the existence of robust peaceful equilibria, all of which are sustained by the identical (on-path) request. Contrary to the bribing model, peace security is possible in the requesting model.
     
 

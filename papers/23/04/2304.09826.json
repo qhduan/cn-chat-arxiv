@@ -1,0 +1,11 @@
+{
+    "title": "Fairness in AI and Its Long-Term Implications on Society. (arXiv:2304.09826v1 [cs.CY])",
+    "abstract": "Successful deployment of artificial intelligence (AI) in various settings has led to numerous positive outcomes for individuals and society. However, AI systems have also been shown to harm parts of the population due to biased predictions. We take a closer look at AI fairness and analyse how lack of AI fairness can lead to deepening of biases over time and act as a social stressor. If the issues persist, it could have undesirable long-term implications on society, reinforced by interactions with other risks. We examine current strategies for improving AI fairness, assess their limitations in terms of real-world deployment, and explore potential paths forward to ensure we reap AI's benefits without harming significant parts of the society.",
+    "link": "http://arxiv.org/abs/2304.09826",
+    "context": "Title: Fairness in AI and Its Long-Term Implications on Society. (arXiv:2304.09826v1 [cs.CY])\nAbstract: Successful deployment of artificial intelligence (AI) in various settings has led to numerous positive outcomes for individuals and society. However, AI systems have also been shown to harm parts of the population due to biased predictions. We take a closer look at AI fairness and analyse how lack of AI fairness can lead to deepening of biases over time and act as a social stressor. If the issues persist, it could have undesirable long-term implications on society, reinforced by interactions with other risks. We examine current strategies for improving AI fairness, assess their limitations in terms of real-world deployment, and explore potential paths forward to ensure we reap AI's benefits without harming significant parts of the society.",
+    "path": "papers/23/04/2304.09826.json",
+    "total_tokens": 773,
+    "translated_title": "AI的公平性及其对社会的长期影响",
+    "translated_abstract": "人工智能（AI）在各种设置中的成功部署已经为个人和社会带来了许多积极的成果。然而，由于预测的偏见，AI系统也被证明对部分人口造成了伤害。我们着眼于AI的公平性，分析了缺乏AI公平性时如何导致偏见随着时间的加深而成为社会压力因素。如果问题持续存在，可能会对社会产生不良的长期影响，并通过与其他风险的交互来加强。我们检查了提高AI公平性的当前策略，并评估它们在实际部署方面的限制，并探讨了确保我们在不损害社会重要部分的情况下获得AI的好处的潜在路径。",
+    "tldr": "本文探讨了AI的公平性问题，指出缺乏AI公平性会加深偏见成为社会压力因素，可能对社会产生长期影响，因此需要寻求潜在解决方案。"
+}

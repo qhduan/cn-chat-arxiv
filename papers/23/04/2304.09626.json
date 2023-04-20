@@ -1,0 +1,12 @@
+{
+    "title": "StyleDEM: a Versatile Model for Authoring Terrains. (arXiv:2304.09626v1 [cs.GR])",
+    "abstract": "Many terrain modelling methods have been proposed for the past decades, providing efficient and often interactive authoring tools. However, they generally do not include any notion of style, which is a critical aspect for designers in the entertainment industry. We introduce StyleDEM, a new generative adversarial network method for terrain synthesis and authoring, with a versatile toolbox of authoring methods with style. This method starts from an input sketch or an existing terrain. It outputs a terrain with features that can be authored using interactive brushes and enhanced with additional tools such as style manipulation or super-resolution. The strength of our approach resides in the versatility and interoperability of the toolbox.",
+    "link": "http://arxiv.org/abs/2304.09626",
+    "context": "Title: StyleDEM: a Versatile Model for Authoring Terrains. (arXiv:2304.09626v1 [cs.GR])\nAbstract: Many terrain modelling methods have been proposed for the past decades, providing efficient and often interactive authoring tools. However, they generally do not include any notion of style, which is a critical aspect for designers in the entertainment industry. We introduce StyleDEM, a new generative adversarial network method for terrain synthesis and authoring, with a versatile toolbox of authoring methods with style. This method starts from an input sketch or an existing terrain. It outputs a terrain with features that can be authored using interactive brushes and enhanced with additional tools such as style manipulation or super-resolution. The strength of our approach resides in the versatility and interoperability of the toolbox.",
+    "path": "papers/23/04/2304.09626.json",
+    "total_tokens": 739,
+    "translated_title": "StyleDEM：一种通用的地形创作模型",
+    "translated_abstract": "在过去的几十年里，已经提出了许多地形建模方法，提供高效且通常是交互式的创作工具。然而，它们通常不包括任何风格的概念，而这对于娱乐行业的设计师来说是一个至关重要的方面。我们介绍了一种名为StyleDEM的新型生成对抗网络方法，用于地形合成和创作，并具有风格的多功能工具箱。这种方法可以从输入的草图或现有地形开始。它输出的地形具有通过交互式笔刷进行创作并通过其他工具进行增强的特征，如风格操作或超分辨率。我们方法的优点在于工具箱的多功能性和互操作性。",
+    "tldr": "StyleDEM是一种通用的地形创作模型，它具有多种风格的工具箱，可以通过交互式笔刷进行创作和增强，使其非常适合娱乐行业的设计师。",
+    "en_tdlr": "StyleDEM is a versatile model for authoring terrains, with a toolbox of various styles that can be used for interactive brush-based creation and enhancement, making it ideal for designers in the entertainment industry."
+}

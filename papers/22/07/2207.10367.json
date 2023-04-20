@@ -1,0 +1,12 @@
+{
+    "title": "EC-KitY: Evolutionary Computation Tool Kit in Python with Seamless Machine Learning Integration. (arXiv:2207.10367v2 [cs.NE] UPDATED)",
+    "abstract": "EC-KitY is a comprehensive Python library for doing evolutionary computation (EC), licensed under the BSD 3-Clause License, and compatible with scikit-learn. Designed with modern software engineering and machine learning integration in mind, EC-KitY can support all popular EC paradigms, including genetic algorithms, genetic programming, coevolution, evolutionary multi-objective optimization, and more. This paper provides an overview of the package, including the ease of setting up an EC experiment, the architecture, the main features, and a comparison with other libraries.",
+    "link": "http://arxiv.org/abs/2207.10367",
+    "context": "Title: EC-KitY: Evolutionary Computation Tool Kit in Python with Seamless Machine Learning Integration. (arXiv:2207.10367v2 [cs.NE] UPDATED)\nAbstract: EC-KitY is a comprehensive Python library for doing evolutionary computation (EC), licensed under the BSD 3-Clause License, and compatible with scikit-learn. Designed with modern software engineering and machine learning integration in mind, EC-KitY can support all popular EC paradigms, including genetic algorithms, genetic programming, coevolution, evolutionary multi-objective optimization, and more. This paper provides an overview of the package, including the ease of setting up an EC experiment, the architecture, the main features, and a comparison with other libraries.",
+    "path": "papers/22/07/2207.10367.json",
+    "total_tokens": 710,
+    "translated_title": "EC-KitY：无缝机器学习集成的Python进化计算工具包",
+    "translated_abstract": "EC-KitY是一个全面的Python库，用于进行进化计算(EC)，采用BSD 3-Clause许可证，并兼容scikit-learn。设计时考虑了现代软件工程和机器学习集成，EC-KitY可以支持所有流行的EC范例，包括遗传算法，遗传编程，协同进化，进化多目标优化等。本文概述了该软件包的概况，包括设置EC实验的简便性、架构、主要特点以及与其他库的比较。",
+    "tldr": "EC-KitY是一款基于Python的全面进化计算工具包，采用BSD 3-Clause许可证，兼容scikit-learn，支持多种流行的EC范例，能够无缝集成机器学习，并提供简便的EC实验设置和具有竞争力的模型性能。",
+    "en_tdlr": "EC-KitY is a comprehensive evolutionary computation toolkit in Python, licensed under the BSD 3-Clause License and compatible with scikit-learn. It supports various popular EC paradigms, seamlessly integrates with machine learning, and provides ease of setup for EC experiments with competitive model performance."
+}

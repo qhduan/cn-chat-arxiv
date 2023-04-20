@@ -1,0 +1,12 @@
+{
+    "title": "Is ChatGPT Equipped with Emotional Dialogue Capabilities?. (arXiv:2304.09582v1 [cs.CL])",
+    "abstract": "This report presents a study on the emotional dialogue capability of ChatGPT, an advanced language model developed by OpenAI. The study evaluates the performance of ChatGPT on emotional dialogue understanding and generation through a series of experiments on several downstream tasks. Our findings indicate that while ChatGPT's performance on emotional dialogue understanding may still lag behind that of supervised models, it exhibits promising results in generating emotional responses. Furthermore, the study suggests potential avenues for future research directions.",
+    "link": "http://arxiv.org/abs/2304.09582",
+    "context": "Title: Is ChatGPT Equipped with Emotional Dialogue Capabilities?. (arXiv:2304.09582v1 [cs.CL])\nAbstract: This report presents a study on the emotional dialogue capability of ChatGPT, an advanced language model developed by OpenAI. The study evaluates the performance of ChatGPT on emotional dialogue understanding and generation through a series of experiments on several downstream tasks. Our findings indicate that while ChatGPT's performance on emotional dialogue understanding may still lag behind that of supervised models, it exhibits promising results in generating emotional responses. Furthermore, the study suggests potential avenues for future research directions.",
+    "path": "papers/23/04/2304.09582.json",
+    "total_tokens": 637,
+    "translated_title": "ChatGPT是否具备情感对话能力？",
+    "translated_abstract": "本文介绍了对OpenAI开发的先进语言模型ChatGPT的情感对话能力的研究。该研究通过一系列下游任务的实验评估了ChatGPT在情感对话理解和生成方面的表现。我们的发现表明，虽然ChatGPT在情感对话理解方面的表现仍然落后于监督模型，但在生成情感回复方面表现出有希望的结果。此外，该研究提出了未来研究方向的潜在途径。",
+    "tldr": "本文研究了开发者OpenAI的ChatGPT情感对话能力，发现在情感回复生成方面表现良好，但在情感对话理解方面落后于监督模型。",
+    "en_tdlr": "This paper investigates the emotional dialogue capability of OpenAI's ChatGPT and finds that it exhibits promising results in generating emotional responses but lags behind supervised models in emotional dialogue understanding. The study also suggests potential avenues for future research directions."
+}

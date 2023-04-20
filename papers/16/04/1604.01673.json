@@ -1,0 +1,12 @@
+{
+    "title": "On the uniform one-dimensional fragment. (arXiv:1604.01673v3 [cs.LO] UPDATED)",
+    "abstract": "The uniform one-dimensional fragment of first-order logic, U1, is a formalism that extends two-variable logic in a natural way to contexts with relations of all arities. We survey properties of U1 and investigate its relationship to description logics designed to accommodate higher arity relations, with particular attention given to DLR_reg. We also define a description logic version of a variant of U1 and prove a range of new results concerning the expressivity of U1 and related logics.",
+    "link": "http://arxiv.org/abs/1604.01673",
+    "context": "Title: On the uniform one-dimensional fragment. (arXiv:1604.01673v3 [cs.LO] UPDATED)\nAbstract: The uniform one-dimensional fragment of first-order logic, U1, is a formalism that extends two-variable logic in a natural way to contexts with relations of all arities. We survey properties of U1 and investigate its relationship to description logics designed to accommodate higher arity relations, with particular attention given to DLR_reg. We also define a description logic version of a variant of U1 and prove a range of new results concerning the expressivity of U1 and related logics.",
+    "path": "papers/16/04/1604.01673.json",
+    "total_tokens": 652,
+    "translated_title": "关于统一一维分片",
+    "translated_abstract": "统一一维分片（U1）是一种形式化语言，以一种自然的方式将二元逻辑扩展到具有任意元数关系的上下文中。我们调查了U1的属性并研究了它与旨在容纳更高元数关系的描述逻辑的关系，特别关注DLR_reg。我们还定义了U1的一个变体的描述逻辑版本，并证明了有关U1及其相关逻辑的表达能力的一系列新结果。",
+    "tldr": "统一一维分片是一种形式化语言，可将二元逻辑扩展到具有任意元数关系的上下文中。其描述逻辑版本具有表达能力的新结果，与能够容纳更高元数关系的描述逻辑紧密相关。",
+    "en_tdlr": "The uniform one-dimensional fragment (U1) is a formal language that extends two-variable logic to contexts with relations of all arities. A new, expressive variant of its description logic version is presented, with a thorough investigation into U1's relationship with description logics designed for higher arity relations, including DLR_reg."
+}
