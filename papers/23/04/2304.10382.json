@@ -1,0 +1,12 @@
+{
+    "title": "Conditional Generative Models for Learning Stochastic Processes. (arXiv:2304.10382v1 [quant-ph])",
+    "abstract": "A framework to learn a multi-modal distribution is proposed, denoted as the Conditional Quantum Generative Adversarial Network (C-qGAN). The neural network structure is strictly within a quantum circuit and, as a consequence, is shown to represents a more efficient state preparation procedure than current methods. This methodology has the potential to speed-up algorithms, such as Monte Carlo analysis. In particular, after demonstrating the effectiveness of the network in the learning task, the technique is applied to price Asian option derivatives, providing the foundation for further research on other path-dependent options.",
+    "link": "http://arxiv.org/abs/2304.10382",
+    "context": "Title: Conditional Generative Models for Learning Stochastic Processes. (arXiv:2304.10382v1 [quant-ph])\nAbstract: A framework to learn a multi-modal distribution is proposed, denoted as the Conditional Quantum Generative Adversarial Network (C-qGAN). The neural network structure is strictly within a quantum circuit and, as a consequence, is shown to represents a more efficient state preparation procedure than current methods. This methodology has the potential to speed-up algorithms, such as Monte Carlo analysis. In particular, after demonstrating the effectiveness of the network in the learning task, the technique is applied to price Asian option derivatives, providing the foundation for further research on other path-dependent options.",
+    "path": "papers/23/04/2304.10382.json",
+    "total_tokens": 660,
+    "translated_title": "学习随机过程的有条件生成模型",
+    "translated_abstract": "提出了一种学习多模态分布的框架，称为条件量子生成对抗网络（C-qGAN）。神经网络结构严格采用量子电路，因此被证明能够比当前的方法更有效地表示状态准备过程。这种方法有潜力加速蒙特卡罗分析等算法。特别地，在展示了网络在学习任务中的有效性后，将该技术应用于定价亚式期权衍生品，为未来研究其他路径相关期权打下基础。",
+    "tldr": "提出了一种称为 C-qGAN 的框架，利用量子电路结构实现了有效的状态准备过程，可以利用该方法加速蒙特卡罗分析等算法，并将其应用于亚式期权衍生品定价的任务中。",
+    "en_tdlr": "This paper proposes a framework called C-qGAN for learning multi-modal distribution using a strictly quantum circuit structure. The technique has the potential to accelerate algorithms and has been applied to price Asian option derivatives."
+}

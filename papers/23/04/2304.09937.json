@@ -1,0 +1,12 @@
+{
+    "title": "Stock Price Predictability and the Business Cycle via Machine Learning. (arXiv:2304.09937v1 [q-fin.ST])",
+    "abstract": "We study the impacts of business cycles on machine learning (ML) predictions. Using the S&P 500 index, we find that ML models perform worse during most recessions, and the inclusion of recession history or the risk-free rate does not necessarily improve their performance. Investigating recessions where models perform well, we find that they exhibit lower market volatility than other recessions. This implies that the improved performance is not due to the merit of ML methods but rather factors such as effective monetary policies that stabilized the market. We recommend that ML practitioners evaluate their models during both recessions and expansions.",
+    "link": "http://arxiv.org/abs/2304.09937",
+    "context": "Title: Stock Price Predictability and the Business Cycle via Machine Learning. (arXiv:2304.09937v1 [q-fin.ST])\nAbstract: We study the impacts of business cycles on machine learning (ML) predictions. Using the S&P 500 index, we find that ML models perform worse during most recessions, and the inclusion of recession history or the risk-free rate does not necessarily improve their performance. Investigating recessions where models perform well, we find that they exhibit lower market volatility than other recessions. This implies that the improved performance is not due to the merit of ML methods but rather factors such as effective monetary policies that stabilized the market. We recommend that ML practitioners evaluate their models during both recessions and expansions.",
+    "path": "papers/23/04/2304.09937.json",
+    "total_tokens": 727,
+    "translated_title": "通过机器学习预测股票价格和商业周期",
+    "translated_abstract": "本研究探讨了商业周期对机器学习（ML）预测的影响。使用标普500指数，我们发现在大多数衰退期间，ML模型的表现较差，而衰退历史或无风险利率的包含并不能 necessarily 提高其性能。在调查模型表现良好的衰退时，我们发现它们的市场波动性较其他衰退期较低。这意味着表现提高不是由于ML方法的优点，而是因为有效的货币政策稳定了市场。我们建议ML从业者在衰退和复苏期间评估其模型。",
+    "tldr": "研究发现，机器学习模型在大多数衰退期间的表现较差，与稳定市场有关的因素可能是其表现优异的原因。因此，我们建议ML从业者在衰退和复苏期间评估其模型。",
+    "en_tdlr": "The study finds that machine learning models perform worse during most recessions, and the improved performance observed during some recessions may be due to factors related to the stabilization of the market. It is recommended that ML practitioners evaluate their models during both recessions and expansions."
+}

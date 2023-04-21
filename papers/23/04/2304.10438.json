@@ -1,0 +1,12 @@
+{
+    "title": "Gauge-equivariant pooling layers for preconditioners in lattice QCD. (arXiv:2304.10438v1 [hep-lat])",
+    "abstract": "We demonstrate that gauge-equivariant pooling and unpooling layers can perform as well as traditional restriction and prolongation layers in multigrid preconditioner models for lattice QCD. These layers introduce a gauge degree of freedom on the coarse grid, allowing for the use of explicitly gauge-equivariant layers on the coarse grid. We investigate the construction of coarse-grid gauge fields and study their efficiency in the preconditioner model. We show that a combined multigrid neural network using a Galerkin construction for the coarse-grid gauge field eliminates critical slowing down.",
+    "link": "http://arxiv.org/abs/2304.10438",
+    "context": "Title: Gauge-equivariant pooling layers for preconditioners in lattice QCD. (arXiv:2304.10438v1 [hep-lat])\nAbstract: We demonstrate that gauge-equivariant pooling and unpooling layers can perform as well as traditional restriction and prolongation layers in multigrid preconditioner models for lattice QCD. These layers introduce a gauge degree of freedom on the coarse grid, allowing for the use of explicitly gauge-equivariant layers on the coarse grid. We investigate the construction of coarse-grid gauge fields and study their efficiency in the preconditioner model. We show that a combined multigrid neural network using a Galerkin construction for the coarse-grid gauge field eliminates critical slowing down.",
+    "path": "papers/23/04/2304.10438.json",
+    "total_tokens": 677,
+    "translated_title": "格点量子色动力学预条件算子中的规范等变池化层",
+    "translated_abstract": "我们证明，规范等变的池化和反池化层在格点量子色动力学的多重网格预条件模型中可以与传统的限制和延拓层一样有效。这些层在粗网格上引入了规范自由度，允许在粗网格上使用明确的规范等变层。我们研究了粗粒度规范场的构造，并研究了它们在预条件器模型中的效率。我们展示了使用伽辽金构造粗网格规范场的组合多重网格神经网络消除了临界减慢现象。",
+    "tldr": "本论文展示了在格点量子色动力学中使用规范等变池化层可以通过伽辽金构造粗网格规范场消除临界减慢现象。",
+    "en_tdlr": "This paper demonstrates that gauge-equivariant pooling and unpooling layers can eliminate critical slowing down in lattice QCD using a Galerkin construction for the coarse-grid gauge field."
+}

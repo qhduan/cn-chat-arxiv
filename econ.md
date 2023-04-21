@@ -2,172 +2,202 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [The Impact of Industrial Zone:Evidence from China's National High-tech Zone Policy.](http://arxiv.org/abs/2304.09775) | 本研究基于中国国家高新区政策视为准自然实验，探究了该政策对经济的影响机制，包括财务支持、产业集聚和溢出效应，并展示了溢出效应的分布情况。 |
-| [^2] | [Consistent Linear Orders for Supermajority Rules.](http://arxiv.org/abs/2304.09419) | 论文考虑了通过个体偏好的聚合来构建超过半数规则的一致性线性排序，使用传递闭包和铃木村一致性闭包两种程序进行排序修改，得出两组线性排序满足扩展的Condorcet原则、Pareto原则、克隆的独立性和翻转对称性属性。 |
-| [^3] | [The Economics of Partisan Gerrymandering.](http://arxiv.org/abs/2304.09381) | 本文研究了党派瓜分者如何将选民分配到同样多的选区中来最大化他的党派的预期席位份额。瓜分者通常使用打包和配对划分来优化结果，最佳的划分方式取决于总体和个别不确定性的相对量。 |
-| [^4] | [The Unintended Consequences of Censoring Digital Technology -- Evidence from Italy's ChatGPT Ban.](http://arxiv.org/abs/2304.09339) | 意大利禁止ChatGPT产生了短期的生产力干扰，但也导致了审查绕过工具的显著增加。 |
-| [^5] | [A hybrid model for day-ahead electricity price forecasting: Combining fundamental and stochastic modelling.](http://arxiv.org/abs/2304.09336) | 该论文提出了一种混合模型，将技术经济能源系统模型与随机模型相结合，以准确预测电力市场中的价格，并生成传统的点预测和概率预测，从而提供了对市场全面的理解和帮助交易员和系统操作员优化决策的价值。 |
-| [^6] | [With a Grain of Salt: Uncertain Relevance of External Information and Firm Disclosures.](http://arxiv.org/abs/2304.09262) | 本文研究了外部信息和公司披露的不确定相关性对投资者信念和市场价格的影响，结果表明投资者更倾向于误解有利于公司的外部信号，公司的自愿披露可能会导致价格下跌。 |
-| [^7] | [A Theory of Rational Housing Bubbles with Phase Transitions.](http://arxiv.org/abs/2303.11365) | 本研究针对观察到的租售价格比存在断层现象，通过交叉世代模型证明，在购房者收入增加时，经济体呈现出从基本面到基本面和泡沫平衡的相变，当购房者收入更高时，泡沫变得不可避免，存在基于预期推动的房地产繁荣和崩溃，并且固有基本面均衡是低效的。 |
-| [^8] | [Sequential Elimination Contests with All-Pay Auctions.](http://arxiv.org/abs/2205.08104) | 本文研究了带全付拍卖的顺序淘汰比赛，在设计者无法得知所有选手类型情况下，对于有限的选手数量，我们明确定义了均衡策略和期望的最优机制，并为设计者提供了一些众包比赛的设计启示。 |
-| [^9] | [Incentives for Collective Innovation.](http://arxiv.org/abs/2109.01885) | 本论文研究了代理商在共享技术中的集体创新问题，发现允许代理商丢弃创新可以增加均衡努力和福利。 |
-| [^10] | [The Rising Entropy of English in the Attention Economy.](http://arxiv.org/abs/2107.12848) | 美式英语的熵值自1900年左右持续上升并且不同媒体之间存在着熵值上的差异，作者认为这是由于注意力经济的生态系统导致的。 |
-| [^11] | [Peace through bribing.](http://arxiv.org/abs/2107.11575) | 本文研究了一种贿赂带来和平的模型。作者发现在该模型中和平是不可能的，并表征了实现和平的必要和充分条件。作者还考虑了一个请求模型，在该模型中可以实现和平安全。 |
+| [^1] | [Uncertainty over Uncertainty in Environmental Policy Adoption: Bayesian Learning of Unpredictable Socioeconomic Costs.](http://arxiv.org/abs/2304.10344) | 本文开发了一个类似于实物期权的模型，以捕捉环境政策采用中的两层不确定性。决策者能够通过跟踪成本的实际演变来学习未知的漂移，并形成后验动态信念其真正价值。 |
+| [^2] | [Agricultural Shocks and Social Conflict in Southeast Asia.](http://arxiv.org/abs/2304.10027) | 该研究分析了东南亚农业与社会冲突的关联性，发现在稻谷收获季节中，政治暴力增加而社会动荡减少。研究揭示了政策制定者在农业经济中管理社会冲突的必要性。 |
+| [^3] | [Equilibrium-Invariant Embedding, Metric Space, and Fundamental Set of $2\times2$ Normal-Form Games.](http://arxiv.org/abs/2304.09978) | 该研究提出了均衡启示的距离度量和更好反应性不变的距离度量，为正则形博弈空间定义了嵌入，并研究了 $2\times2$ 游戏的均衡不变嵌入，具有高效的二元参数化。 |
+| [^4] | [Utilitarian Theorems and Equivalence of Utility Theories.](http://arxiv.org/abs/2304.09973) | 本文研究了NM效用函数的实用主义定理和Alt效用函数的实用主义定理，发现二者同时成立时，NM效用函数与Alt效用函数重合，这一结果表明其中至少一个实用主义定理包含了一个强假设。 |
+| [^5] | [The Pie: How Has Human Evolution Distributed Non-Financial Wealth?.](http://arxiv.org/abs/2304.09971) | 本研究探讨了在金融系统存在之前，自然资产如何分配的问题。通过研究人类学数据并应用经济理论，发现史前社会对非金融财富的基尼系数有一个首选范围，随着人类社会的演变和发展更为复杂的政治结构，这个范围发生了变化。 |
+| [^6] | [Recursive Preferences and Ambiguity Attitudes.](http://arxiv.org/abs/2304.06830) | 本文研究了递归偏好和不确定性态度，并得出结论，在跨时间消费选择问题中，递归偏好总是常数绝对模糊规避，同时提出了广义长方形的函数方程。递归限制了我们只能采用递归变化偏好。 |
+| [^7] | [Machine Learning for Economics Research: When What and How?.](http://arxiv.org/abs/2304.00086) | 本文精选综述了使用机器学习工具进行经济学研究和政策分析的文章，强调了机器学习在处理非传统和非结构化数据、捕捉强非线性性和提高预测准确性方面的应用优势，成为计量经济学家工具箱中不可或缺的一部分。 |
+| [^8] | [Factor Exposure Heterogeneity in Green and Brown Stocks.](http://arxiv.org/abs/2302.11729) | 研究发现，相较于褐色股票，绿色股票在大多数股票因子上表现出较少的因子暴露异质性，因此投资经理将投资从褐色股票转向绿色股票时，差异空间较小。此外，与较早时期相比，绿色股票的因子暴露异质性增加了。 |
+| [^9] | [A Conditional Linear Combination Test with Many Weak Instruments.](http://arxiv.org/abs/2207.11137) | 本文研究了具有多个弱工具和异方差性的IV回归推论的条件线性组合检验，并根据自适应到识别强度的决策理论规则选择了线性组合中的权重。该方法在弱识别和强识别情况下均可有效控制渐近规模，并且在某些测试类别中可接受。在强识别下，该方法具有最佳功率。 |
+| [^10] | [Subgeometrically ergodic autoregressions with autoregressive conditional heteroskedasticity.](http://arxiv.org/abs/2205.11953) | 本文研究了具有条件异方差的高阶非线性自回归，证明了在适当条件下它们是次几何遍历的。这个结果极大地扩展了其潜在应用范围。 |
+| [^11] | [2SLS with Multiple Treatments.](http://arxiv.org/abs/2205.07836) | 本研究研究了在存在治疗效应异质性的模型中，二阶段最小二乘法可以确定每种治疗方案的代理人特定效应的正权重和的必要且充分条件，其适用于任意数量的治疗方案、任意数量的连续或离散工具以及包括协变量在内的情况。 |
+| [^12] | [Media Slant is Contagious.](http://arxiv.org/abs/2202.07269) | 本文研究了国家有线电视新闻对美国本土报纸的影响，发现当地报纸的内容会因为当地 FNC 观众数量的增加而趋向于 FNC 的倾向，并且有线电视倾向会极化地方新闻内容。 |
+| [^13] | [Policy design in experiments with unknown interference.](http://arxiv.org/abs/2011.08174) | 本文研究了如何在有限数量的大簇中进行实验设计，估计和推断最大福利政策，并提出单波实验和多波实验的方法来解决溢出效应问题。 |
 
 # 详细
 
-[^1]: 工业区对经济的影响：基于中国国家高新区政策的证据
+[^1]: 环境政策采用中的不确定性：对不可预测的社会经济成本的贝叶斯学习(arXiv:2304.10344v1 [math.OC])
 
-    The Impact of Industrial Zone:Evidence from China's National High-tech Zone Policy. (arXiv:2304.09775v1 [econ.EM])
+    Uncertainty over Uncertainty in Environmental Policy Adoption: Bayesian Learning of Unpredictable Socioeconomic Costs. (arXiv:2304.10344v1 [math.OC])
 
-    [http://arxiv.org/abs/2304.09775](http://arxiv.org/abs/2304.09775)
+    [http://arxiv.org/abs/2304.10344](http://arxiv.org/abs/2304.10344)
 
-    本研究基于中国国家高新区政策视为准自然实验，探究了该政策对经济的影响机制，包括财务支持、产业集聚和溢出效应，并展示了溢出效应的分布情况。
-
-    
-
-    本研究基于中国287个城市从2000年至2020年的统计年鉴数据和相关专利数据，将建立国家高新区政策视为准自然实验。首先通过该实验估计了政策的治疗效应并检验了估计的稳健性。然后本研究考察了中国不同地理划分和不同城市层级之间的异质性。之后，本研究探讨了该政策的可能影响机制，结果表明可能机制有财务支持、二级产业的产业集聚以及溢出效应。最后，研究对溢出效应进行了深入探究，并展示了溢出效应的分布情况。
-
-    Based on the statistical yearbook data and related patent data of 287 cities in China from 2000 to 2020, this study regards the policy of establishing the national high-tech zones as a quasi-natural experiment. Using this experiment, this study firstly estimated the treatment effect of the policy and checked the robustness of the estimation. Then the study examined the heterogeneity in different geographic demarcation of China and in different city level of China. After that, this study explored the possible influence mechanism of the policy. It shows that the possible mechanism of the policy is financial support, industrial agglomeration of secondary industry and the spillovers. In the end, this study examined the spillovers deeply and showed the distribution of spillover effect.
-    
-[^2]: 超过半数规则的一致性线性排序
-
-    Consistent Linear Orders for Supermajority Rules. (arXiv:2304.09419v1 [econ.TH])
-
-    [http://arxiv.org/abs/2304.09419](http://arxiv.org/abs/2304.09419)
-
-    论文考虑了通过个体偏好的聚合来构建超过半数规则的一致性线性排序，使用传递闭包和铃木村一致性闭包两种程序进行排序修改，得出两组线性排序满足扩展的Condorcet原则、Pareto原则、克隆的独立性和翻转对称性属性。
+    本文开发了一个类似于实物期权的模型，以捕捉环境政策采用中的两层不确定性。决策者能够通过跟踪成本的实际演变来学习未知的漂移，并形成后验动态信念其真正价值。
 
     
 
-    我们考虑通过个体偏好的聚合来构建有限选项的线性排序。我们关注的是与集体偏好关系一致的线性排序，该线性排序是由超过半数规则之一构建的，并在存在循环时使用两种程序进行修改。一种修改程序使用传递闭包，另一种使用铃木村一致性闭包。我们得出两组线性排序，这些线性排序与通过Tideman的排名对方法和Schulze方法获得的排序密切相关。最后，我们考虑了两个社会决策对应，其输出是上述引入的一个集合，并表明这些对应满足四个属性：扩展的Condorcet原则，Pareto原则，克隆的独立性和翻转对称性。
+    污染的社会经济影响自然而然地伴随着不确定性，例如，排放减少的新技术发展或人口变化。此外，环境破坏未来成本的趋势是未知的：全球变暖是否占主导地位，还是技术进步会占据主导地位？事实上，我们不知道哪种情况会实现，科学界的辩论仍然存在。本文通过开发一个类似于实物期权的模型，捕捉这两层不确定性。在该模型中，决策者的目标是在当前的排放率中采取一次性昂贵的减少，当污染的社会经济成本的随机动态受到布朗运动的冲击时，漂移是不可观察的随机变量。通过跟踪成本的实际演变，决策者能够学习未知的漂移，并形成后验动态信念其真正价值。由此产生的决策时机问题公司
 
-    We consider linear orders of finite alternatives that are constructed by aggregating the preferences of individuals. We focus on a linear order that is consistent with the collective preference relation, which is constructed by one of the supermajority rules and modified using two procedures if there exist some cycles. One modification procedure uses the transitive closure, and the other uses the Suzumura consistent closure. We derive two sets of linear orders that are consistent with the (modified) collective preference relations formed by any of the supermajority rules. These sets of linear orders are closely related to those obtained through Tideman's ranked pairs method and the Schulze method. Finally, we consider two social choice correspondences whose output is one of the sets introduced above, and show that the correspondences satisfy the four properties: the extended Condorcet principle, the Pareto principle, the independence of clones, and the reversal symmetry.
+    The socioeconomic impact of pollution naturally comes with uncertainty due to, e.g., current new technological developments in emissions' abatement or demographic changes. On top of that, the trend of the future costs of the environmental damage is unknown: Will global warming dominate or technological advancements prevail? The truth is that we do not know which scenario will be realised and the scientific debate is still open. This paper captures those two layers of uncertainty by developing a real-options-like model in which a decision maker aims at adopting a once-and-for-all costly reduction in the current emissions rate, when the stochastic dynamics of the socioeconomic costs of pollution are subject to Brownian shocks and the drift is an unobservable random variable. By keeping track of the actual evolution of the costs, the decision maker is able to learn the unknown drift and to form a posterior dynamic belief of its true value. The resulting decision maker's timing problem boi
     
-[^3]: 党派瓜分的经济学
+[^2]: 东南亚农业冲击与社会冲突
 
-    The Economics of Partisan Gerrymandering. (arXiv:2304.09381v1 [econ.TH])
+    Agricultural Shocks and Social Conflict in Southeast Asia. (arXiv:2304.10027v1 [econ.GN])
 
-    [http://arxiv.org/abs/2304.09381](http://arxiv.org/abs/2304.09381)
+    [http://arxiv.org/abs/2304.10027](http://arxiv.org/abs/2304.10027)
 
-    本文研究了党派瓜分者如何将选民分配到同样多的选区中来最大化他的党派的预期席位份额。瓜分者通常使用打包和配对划分来优化结果，最佳的划分方式取决于总体和个别不确定性的相对量。
-
-    
-
-    我们研究了一个党派瓜分者如何将选民分配到同样多的选区中来最大化他的党派的预期席位份额。设计师面临着两种不确定性:总体不确定性(他的党派将获得多少选票)和个别不确定性(哪些选民将投票给他的党派)。我们认为，打包和配对划分，即将较弱的选区“打包”成一个类型的选民，而强度更大的选区则包含两种选民类型，通常是对瓜分者最优的。打包和配对划分的最佳形式取决于总体和个别不确定性的相对量。当个别不确定性占主导地位时，最优的策略是将对立的选民“打包”在一起，并配对更有利的选民；这个策略类似于传统的“打包与分化”。当总体的不确定性占据主导地位时，最优策略是将温和的选民“打包”在一起，并配对极端的选民；这个“匹配切片”的计划得到了一些文献的关注。
-
-    We study the problem of a partisan gerrymanderer who assigns voters to equipopulous districts so as to maximize his party's expected seat share. The designer faces both aggregate uncertainty (how many votes his party will receive) and idiosyncratic, voter-level uncertainty (which voters will vote for his party). We argue that pack-and-pair districting, where weaker districts are ``packed'' with a single type of voter, while stronger districts contain two voter types, is typically optimal for the gerrymanderer. The optimal form of pack-and-pair districting depends on the relative amounts of aggregate and idiosyncratic uncertainty. When idiosyncratic uncertainty dominates, it is optimal to pack opposing voters and pair more favorable voters; this plan resembles traditional ``packing-and-cracking.'' When aggregate uncertainty dominates, it is optimal to pack moderate voters and pair extreme voters; this ``matching slices'' plan has received some attention in the literature. Estimating the
-    
-[^4]: 禁止数字技术的意外后果——以意大利ChatGPT禁令为例的证据
-
-    The Unintended Consequences of Censoring Digital Technology -- Evidence from Italy's ChatGPT Ban. (arXiv:2304.09339v1 [econ.GN])
-
-    [http://arxiv.org/abs/2304.09339](http://arxiv.org/abs/2304.09339)
-
-    意大利禁止ChatGPT产生了短期的生产力干扰，但也导致了审查绕过工具的显著增加。
+    该研究分析了东南亚农业与社会冲突的关联性，发现在稻谷收获季节中，政治暴力增加而社会动荡减少。研究揭示了政策制定者在农业经济中管理社会冲突的必要性。
 
     
 
-    本文分析了ChatGPT，一种生成式预训练变压器聊天机器人被禁止对个人生产率的影响。我们首先收集了超过8,000名专业GitHub用户在意大利和其他欧洲国家的每小时编码产出数据，以分析禁令对个人生产力的影响。将高频率数据与禁令的突然宣布结合在一起，运用差异法，我们发现在禁令后的前两个工作日，意大利开发者的产出减少了约50％，之后逐渐恢复。运用合成控制方法来分析每日Google搜索和Tor使用数据，结果显示，该禁令导致了绕过审查的工具的使用量显著增加。我们的研究结果表明，用户很快采取绕过互联网限制的策略，但这种适应活动会造成短期的干扰和影响生产力。
+    社会冲突是不可避免的，但其发生和强度随时间和地点的不同而异。在低收入经济体中，农业就业和收入的重要性较大，政治暴力和社会冲突可能与该行业相关。我们使用涵盖七个东南亚国家13年期间的冲突数据来研究这种联系。我们重点关注稻谷收获季节中冲突事件的变化，这是该地区生产和消费最多的谷物作物。我们观察到在收获季节的稻米生产地区，政治暴力增加而社会动荡减少。通过考虑与稻谷价格和生长季节降雨相关的冲击，并比较主要是灌溉与主要是雨养稻生产实践的地区，我们研究了可能导致这种效果的不同机制。这些发现为政策制定者提供了重要的见解。
 
-    We analyse the effects of the ban of ChatGPT, a generative pre-trained transformer chatbot, on individual productivity. We first compile data on the hourly coding output of over 8,000 professional GitHub users in Italy and other European countries to analyse the impact of the ban on individual productivity. Combining the high-frequency data with the sudden announcement of the ban in a difference-in-differences framework, we find that the output of Italian developers decreased by around 50% in the first two business days after the ban and recovered after that. Applying a synthetic control approach to daily Google search and Tor usage data shows that the ban led to a significant increase in the use of censorship bypassing tools. Our findings show that users swiftly implement strategies to bypass Internet restrictions but this adaptation activity creates short-term disruptions and hampers productivity.
+    Social conflicts are inevitable, but their occurrence and intensity have varied over time and across locations. In lower-income economies, where employment and income from agriculture are substantial, forms of political violence and social conflict may be linked with this sector. We investigate this linkage using granular conflict data covering a 13-year period across seven Southeast Asian countries. We focus on changes in conflict incidents during the rice harvest season, which is the most produced and consumed cereal crop in the region. We observe an increase in political violence but a decrease in social unrest in rice-producing areas during the harvest season. We investigate different plausible mechanisms that may lead to such effects, by incorporating shocks associated with rice prices and growing season rainfall, and by comparing regions with predominantly irrigated vs predominantly rainfed rice production practices. These findings offer important insights to policymakers as they
     
-[^5]: 一种结合基本模型和随机模型的日前电力价格预测混合模型
+[^3]: 均衡不变嵌入、度量空间和$2\times2$正则型博弈的基础集合
 
-    A hybrid model for day-ahead electricity price forecasting: Combining fundamental and stochastic modelling. (arXiv:2304.09336v1 [econ.EM])
+    Equilibrium-Invariant Embedding, Metric Space, and Fundamental Set of $2\times2$ Normal-Form Games. (arXiv:2304.09978v1 [cs.GT])
 
-    [http://arxiv.org/abs/2304.09336](http://arxiv.org/abs/2304.09336)
+    [http://arxiv.org/abs/2304.09978](http://arxiv.org/abs/2304.09978)
 
-    该论文提出了一种混合模型，将技术经济能源系统模型与随机模型相结合，以准确预测电力市场中的价格，并生成传统的点预测和概率预测，从而提供了对市场全面的理解和帮助交易员和系统操作员优化决策的价值。
-
-    
-
-    准确预测短期电力价格对于制定有效的交易策略、电厂调度、利润最大化和高效系统运营至关重要。然而，供需不确定性使得这样的预测具有挑战性。为了应对这一挑战，我们提出了一种混合模型，该模型将技术经济能源系统模型与随机模型相结合。我们混合方法中的技术经济模型能够深入了解市场。它捕捉了潜在因素及其对电力价格的影响，这是仅仅依靠统计模型无法实现的。统计模型通过价格的解释来包含非技术经济因素，如市场参与者的预期和投机行为。混合模型可以生成传统的点预测和概率预测，从而为了解市场景观提供全面的理解。概率预测尤其有价值，因为它们可以使交易员和系统操作员在不确定性下优化他们的决策。
-
-    The accurate prediction of short-term electricity prices is vital for effective trading strategies, power plant scheduling, profit maximisation and efficient system operation. However, uncertainties in supply and demand make such predictions challenging. We propose a hybrid model that combines a techno-economic energy system model with stochastic models to address this challenge. The techno-economic model in our hybrid approach provides a deep understanding of the market. It captures the underlying factors and their impacts on electricity prices, which is impossible with statistical models alone. The statistical models incorporate non-techno-economic aspects, such as the expectations and speculative behaviour of market participants, through the interpretation of prices. The hybrid model generates both conventional point predictions and probabilistic forecasts, providing a comprehensive understanding of the market landscape. Probabilistic forecasts are particularly valuable because they
-    
-[^6]: 带着一块盐：外部信息与公司披露的不确定相关性
-
-    With a Grain of Salt: Uncertain Relevance of External Information and Firm Disclosures. (arXiv:2304.09262v1 [econ.TH])
-
-    [http://arxiv.org/abs/2304.09262](http://arxiv.org/abs/2304.09262)
-
-    本文研究了外部信息和公司披露的不确定相关性对投资者信念和市场价格的影响，结果表明投资者更倾向于误解有利于公司的外部信号，公司的自愿披露可能会导致价格下跌。
+    该研究提出了均衡启示的距离度量和更好反应性不变的距离度量，为正则形博弈空间定义了嵌入，并研究了 $2\times2$ 游戏的均衡不变嵌入，具有高效的二元参数化。
 
     
 
-    本文研究了外部信号（例如有关竞争对手或宏观经济因素变化的新闻）相关性的不确定性如何影响投资者信念、市场价格和公司自愿披露。尽管假设信号相关性与公司经理信息拥有相互独立，我们的结果表明：（i）有利的外部信号被认为不那么重要；（ii）因为这些信号被“带着一块盐”接受，投资者信念经理拥有不利信息被加强。因此，投资者信念中的不连续性和股票价格的非单调性可能会导致更有利的外部信号出现矛盾地导致市场估值下降。与这一领域不断增长的实证证据一致，我们的模型预测了对有利和不利新闻的不对称价格反应以及公司披露后可能出现的价格下降。
+    正则形博弈的均衡解概念，如Nash均衡、相关均衡和粗糙相关均衡，描述了从中没有任何一位玩家有动机单方面背叛的联合策略。它们在博弈论、经济学和多代理系统中广泛研究。均衡概念在某些收益变换下是不变的。我们为所有正则形博弈空间定义了一个均衡启示的距离度量，揭示了一个距离保持均衡不变的嵌入方式。此外，我们提出了一种额外的变换，定义了更好反应性不变的距离度量和嵌入。为了演示这些度量空间，我们研究了$2\times2$游戏。$2\times2$ 游戏的均衡不变嵌入具有高效的二元参数化（从八个），每个变量在一个单位圆的角度上几何地描述了一个角度。可以从嵌入中推断出有趣的空间性质，包括：
 
-    This paper examines how uncertainty about the relevance of external signals (such as news about a competitor or about changes in macroeconomic factors) influences investor beliefs, market prices and voluntary disclosures by companies. Despite assuming independence between the signal relevance and the endowment with information of a firm manager, our results show that: (i) favorable external signals are perceived to be less relevant; (ii) because such signals are taken ``with a grain of salt," the investor beliefs that the manager is endowed with unfavorable information are reinforced. As a consequence, a discontinuity in investor beliefs and non-monotonicity in stock prices may occur, such that more favorable external signals could paradoxically lead to a decrease in market valuation. In line with the growing empirical evidence in this area, our model predicts asymmetric price reactions to favorable and unfavorable news as well as potential price declines following firm disclosures.
+    Equilibrium solution concepts of normal-form games, such as Nash equilibria, correlated equilibria, and coarse correlated equilibria, describe the joint strategy profiles from which no player has incentive to unilaterally deviate. They are widely studied in game theory, economics, and multiagent systems. Equilibrium concepts are invariant under certain transforms of the payoffs. We define an equilibrium-inspired distance metric for the space of all normal-form games and uncover a distance-preserving equilibrium-invariant embedding. Furthermore, we propose an additional transform which defines a better-response-invariant distance metric and embedding. To demonstrate these metric spaces we study $2\times2$ games. The equilibrium-invariant embedding of $2\times2$ games has an efficient two variable parameterization (a reduction from eight), where each variable geometrically describes an angle on a unit circle. Interesting properties can be spatially inferred from the embedding, including:
     
-[^7]: 有关具有相变的理性房地产泡沫的理论
+[^4]: 实用主义定理与效用理论的等价性
 
-    A Theory of Rational Housing Bubbles with Phase Transitions. (arXiv:2303.11365v1 [econ.TH])
+    Utilitarian Theorems and Equivalence of Utility Theories. (arXiv:2304.09973v1 [econ.TH])
 
-    [http://arxiv.org/abs/2303.11365](http://arxiv.org/abs/2303.11365)
+    [http://arxiv.org/abs/2304.09973](http://arxiv.org/abs/2304.09973)
 
-    本研究针对观察到的租售价格比存在断层现象，通过交叉世代模型证明，在购房者收入增加时，经济体呈现出从基本面到基本面和泡沫平衡的相变，当购房者收入更高时，泡沫变得不可避免，存在基于预期推动的房地产繁荣和崩溃，并且固有基本面均衡是低效的。
-
-    
-
-    根据实证观察到的租售价格比，表明基本面与房价存在断层。本文在一个存在完美住房和租赁市场的交叉世代模型中分析平衡的房价。我们证明经济体呈现出二阶段相变：随着购房者收入的增加，平衡制度从仅基本面到基本面和泡沫平衡共存发生了转变。当购房者收入更高时，基本面均衡消失，房地产泡沫变得不可避免。包含泡沫的预期推动房地产繁荣以及它们的崩溃可能会发生。与广为人知的相反，尽管房产是一种生产性的不可再生资产，但固有基本面均衡是低效的。
-
-    Empirically observed rent-price ratios suggest a disconnection between fundamentals and prices. We analyze equilibrium housing prices in an overlapping generations model with perfect housing and rental markets. We prove that the economy exhibits a two-stage phase transition: as the income of home buyers rises, the equilibrium regime changes from fundamental only to coexistence of fundamental and bubbly equilibria. With even higher incomes, fundamental equilibria disappear and housing bubbles become inevitable. Expectation-driven housing booms containing a bubble and their collapse can occur. Contrary to widely-held beliefs, fundamental equilibria in the coexistence region are inefficient despite housing being a productive non-reproducible asset.
-    
-[^8]: 带全付拍卖的顺序淘汰比赛研究
-
-    Sequential Elimination Contests with All-Pay Auctions. (arXiv:2205.08104v2 [cs.GT] UPDATED)
-
-    [http://arxiv.org/abs/2205.08104](http://arxiv.org/abs/2205.08104)
-
-    本文研究了带全付拍卖的顺序淘汰比赛，在设计者无法得知所有选手类型情况下，对于有限的选手数量，我们明确定义了均衡策略和期望的最优机制，并为设计者提供了一些众包比赛的设计启示。
+    本文研究了NM效用函数的实用主义定理和Alt效用函数的实用主义定理，发现二者同时成立时，NM效用函数与Alt效用函数重合，这一结果表明其中至少一个实用主义定理包含了一个强假设。
 
     
 
-    本文研究了一种顺序淘汰比赛，比赛前需要过滤选手。这一模型的构建是基于许多众包比赛只有有限的评审资源，需要提高提交物品的整体质量这一实践的考虑。在第一种情况下，我们考虑选手的能力排名的知情设计者，允许 $2\leq n_2 \leq n_1$ 的前 $n_2$ 名选手参加比赛。进入比赛的选手会根据自己的能力排名可以进入前 $n_2$ 名的信号来更新对对手能力的信念。我们发现，即使具有IID先验，他们的后验信念仍然存在相关性，并且取决于选手的个人能力。我们明确地刻画了对称的和唯一的贝叶斯均衡策略。我们发现，每个被录取选手的均衡付出随 $n_2$ 的增加而增加，当 $n_2 \in [\lfloor{(n_1+1)/2}\rfloor+1,n_1]$ 时，但在 $n_2 \in [2, \lfloor{(n_1+1)/2}\rfloor]$ 时不一定单调。然后，我们考虑了更加现实的情况，设计者只具有有关选手类型的部分信息，选手类型在 $[0,1]$ 上独立均匀分布。我们得到了关于接受选手的期望最优机制性能的尖锐界限，以及每个进入比赛的选手均衡付出的界限。我们的结果对于众包比赛的设计具有重要意义。
+    本文研究了一个环境，在该环境下，Harsanyi提出的NM效用函数的实用主义定理与Harvey提出的Alt效用函数的实用主义定理同时成立，并证明了在这种情况下，NM效用函数与Alt效用函数重合。这一结果具有悖论性，我们必须假定至少一个实用主义定理包含了一个强假设。我们逐一检查各个假设，并得出结论：Harsanyi的公理之一是强假设。
 
-    We study a sequential elimination contest where players are filtered prior to the round of competing for prizes. This is motivated by the practice that many crowdsourcing contests have very limited resources of reviewers and want to improve the overall quality of the submissions. We first consider a setting where the designer knows the ranking of the abilities (types) of all $n_1$ registered players, and admit the top $n_2$ players with $2\leq n_2 \leq n_1$ into the contest. The players admitted into the contest update their beliefs about their opponents based on the signal that their abilities are among the top $n_2$. We find that their posterior beliefs, even with IID priors, are correlated and depend on players' private abilities.  We explicitly characterize the symmetric and unique Bayesian equilibrium strategy. We find that each admitted player's equilibrium effort is increasing in $n_2$ when $n_2 \in [\lfloor{(n_1+1)/2}\rfloor+1,n_1]$, but not monotone in general when $n_2 \in [2
+    In this paper, we consider an environment in which the utilitarian theorem for the NM utility function derived by Harsanyi and the utilitarian theorem for Alt's utility function derived by Harvey hold simultaneously, and prove that the NM utility function coincides with Alt's utility function under this setup. This result is so paradoxical that we must presume that at least one of the utilitarian theorems contains a strong assumption. We examine the assumptions one by one and conclude that one of Harsanyi's axioms is strong.
     
-[^9]: 集体创新的激励方式
+[^5]: 蛋糕：人类进化如何分配非金融财富？
 
-    Incentives for Collective Innovation. (arXiv:2109.01885v6 [econ.TH] UPDATED)
+    The Pie: How Has Human Evolution Distributed Non-Financial Wealth?. (arXiv:2304.09971v1 [econ.GN])
 
-    [http://arxiv.org/abs/2109.01885](http://arxiv.org/abs/2109.01885)
+    [http://arxiv.org/abs/2304.09971](http://arxiv.org/abs/2304.09971)
 
-    本论文研究了代理商在共享技术中的集体创新问题，发现允许代理商丢弃创新可以增加均衡努力和福利。
-
-    
-
-    代理商们为共享的技术付出隐藏的努力，以产生随机大小的创新。随着技术的发展，使用技术的回报也随之增长，但由于“探索-利用”权衡，努力的机会成本也随之增加。由于监测是不完美的，存在一个（强）对称均衡，任何均衡中的努力均不晚于单一代理商问题中的努力。小的创新可能会严重降低所有代理商在对称均衡中的努力。允许代理商丢弃创新可以增加均衡努力和福利。如果代理商可以隐瞒创新，那么存在完美的贝叶斯均衡，其中改进会被秘密地完善，直到足够大。在自然条件下，该均衡优于所有强制公开的均衡。
-
-    Agents exert hidden effort to produce randomly-sized innovations in a technology they share. Returns from using the technology grow as it develops, but so does the opportunity cost of effort, due to an 'exploration-exploitation' trade-off. As monitoring is imperfect, there exists a unique (strongly) symmetric equilibrium, and effort in any equilibrium ceases no later than in the single-agent problem. Small innovations may hurt all agents in the symmetric equilibrium, as they severely reduce effort. Allowing agents to discard innovations increases equilibrium effort and welfare. If agents can instead conceal innovations, there exists a perfect Bayesian equilibrium in which improvements are refined in secret until they are sufficiently large. Under natural conditions, this equilibrium improves on all equilibria with forced disclosure.
-    
-[^10]: 注意力经济中英语熵值的不断上升
-
-    The Rising Entropy of English in the Attention Economy. (arXiv:2107.12848v4 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2107.12848](http://arxiv.org/abs/2107.12848)
-
-    美式英语的熵值自1900年左右持续上升并且不同媒体之间存在着熵值上的差异，作者认为这是由于注意力经济的生态系统导致的。
+    本研究探讨了在金融系统存在之前，自然资产如何分配的问题。通过研究人类学数据并应用经济理论，发现史前社会对非金融财富的基尼系数有一个首选范围，随着人类社会的演变和发展更为复杂的政治结构，这个范围发生了变化。
 
     
 
-    我们提供了证据表明自1900年左右起，美式英语的词汇熵值一直在稳步上升，这与现有社会语言学理论的预测相反。我们还发现，不同媒体之间存在着词汇熵值上的差异，短格式媒体如新闻和杂志的熵值比长格式媒体更高，而社交媒体的熵值则更高。为了解释这些结果，我们提出了一种注意力经济生态模型，结合了Zipf定律和信息搜寻的思想。在该模型中，媒体消费者在考虑信息检索成本的同时，最大化信息效用率，而媒体生产者则适应减少检索成本的技术，推动他们生成越来越短的更高熵值的内容。
+    收入和财富分配是经济运作的基础组成部分。这些是复杂的分布，使用平均值或中位数等简化方法很难真正感受到它们的动态。一个更好地描述该分布的指标是基尼系数，在一个极端是0，一个完全公平的分布，在另一个极端是1，最不公平的是一个人拥有所有资源。大多数专家认为，在任一极端都不存在可行的经济，但确定首选范围历来是有争议的政治哲学和情感诉求问题。本研究探讨的是是否存在一个理论和实证基础支持一个首选基尼系数。具体而言，我探讨了一个简单的问题：在金融系统存在之前，自然资产如何分配？高度，力量和美丽等内在人类属性是人类社会互动的原始价值衡量标准。通过研究人类学数据并应用经济理论，我发现史前社会对非金融财富的基尼系数有一个首选范围。随着人类社会的演变和发展更为复杂的政治结构，这个范围发生了变化。了解这个范围对于如何塑造现代经济系统具有影响。
 
-    We present evidence that the word entropy of American English has been rising steadily since around 1900, contrary to predictions from existing sociolinguistic theories. We also find differences in word entropy between media categories, with short-form media such as news and magazines having higher entropy than long-form media, and social media feeds having higher entropy still. To explain these results we develop an ecological model of the attention economy that combines ideas from Zipf's law and information foraging. In this model, media consumers maximize information utility rate taking into account the costs of information search, while media producers adapt to technologies that reduce search costs, driving them to generate higher entropy content in increasingly shorter formats.
+    Income and wealth allocation are foundational components of how economies operate. These are complex distributions, and it is hard to get a real sense for their dynamics using simplifications like average or median. One metric that characterizes such distributions better is the Gini Index, which on one extreme is 0, a completely equitable distribution, and on the other extreme is 1, the most inequitable, where a single individual has all the resources. Most experts agree that viable economies cannot exist at either extreme, but identifying a preferred range has historically been a matter of conflicting political philosophies and emotional appeals. This research explores instead whether there might be a theoretical and empirical basis for a preferred Gini Index. Specifically, I explore a simple question: Before financial systems existed, how were natural assets allocated? Intrinsic human attributes such as height, strength, & beauty were the original measures of value in which human soc
     
-[^11]: 贿赂带来的和平
+[^6]: 递归偏好与模糊态度
 
-    Peace through bribing. (arXiv:2107.11575v3 [econ.TH] UPDATED)
+    Recursive Preferences and Ambiguity Attitudes. (arXiv:2304.06830v1 [econ.TH])
 
-    [http://arxiv.org/abs/2107.11575](http://arxiv.org/abs/2107.11575)
+    [http://arxiv.org/abs/2304.06830](http://arxiv.org/abs/2304.06830)
 
-    本文研究了一种贿赂带来和平的模型。作者发现在该模型中和平是不可能的，并表征了实现和平的必要和充分条件。作者还考虑了一个请求模型，在该模型中可以实现和平安全。
+    本文研究了递归偏好和不确定性态度，并得出结论，在跨时间消费选择问题中，递归偏好总是常数绝对模糊规避，同时提出了广义长方形的函数方程。递归限制了我们只能采用递归变化偏好。
 
     
 
-    本文研究了一个模型，在这个模型中，冲突双方在升级为“全付出拍卖”之前，一方可以向另一方提供一个“接受或离开”的贿赂，以达成和平解决。与现有文献不同的是，我们发现在我们的模型中和平是不可能的。我们表征了和平实施的必要和充分条件。此外，我们发现分离均衡不存在，在任何非和平均衡中的(路径上的)贿赂数量最多为两个。我们还考虑了一个请求模型，并表征了稳健和平均衡的必要和充分条件，所有这些均由相同的(路径上的)请求维持。与贿赂模型相反，在请求模型中可以实现和平安全。
+    本文研究了动态环境中递归的强影响，以及对不确定性态度的影响。在跨时间消费选择问题中，递归偏好总是意味着常数绝对模糊规避，同时也提出了一种称为“广义长方形”的函数方程，它将递归最小最大偏好的标准概念推广到一般的确定性等价物。研究表明，如果模糊规避被建模为偏好的凸性形式，则递归限制我们只能采用递归变化偏好。
 
-    We study a model in which before a conflict between two parties escalates into a war (in the form of an all-pay auction), a party can offer a take-it-or-leave-it bribe to the other for a peaceful settlement. In contrast to the received literature, we find that peace security is impossible in our model. We characterize the necessary and sufficient conditions for peace implementability. Furthermore, we find that separating equilibria do not exist and the number of (on-path) bribes in any non-peaceful equilibria is at most two. We also consider a requesting model and characterize the necessary and sufficient conditions for the existence of robust peaceful equilibria, all of which are sustained by the identical (on-path) request. Contrary to the bribing model, peace security is possible in the requesting model.
+    We illustrate the strong implications of recursivity, a standard assumption in dynamic environments, on attitudes toward uncertainty. In intertemporal consumption choice problems, recursivity always implies constant absolute ambiguity aversion (CAAA) when applying the standard dynamic extension of monotonicity. Our analysis also yields a functional equation called "generalized rectangularity", as it generalizes the standard notion of rectangularity for recursive maxmin preferences to general certainty equivalents. Our results highlight that if uncertainty aversion is modeled as a form of convexity of preferences, recursivity limits us to only recursive variational preferences.
+    
+[^7]: 机器学习在经济研究中的应用：何时、什么和如何运用？
+
+    Machine Learning for Economics Research: When What and How?. (arXiv:2304.00086v1 [econ.GN])
+
+    [http://arxiv.org/abs/2304.00086](http://arxiv.org/abs/2304.00086)
+
+    本文精选综述了使用机器学习工具进行经济学研究和政策分析的文章，强调了机器学习在处理非传统和非结构化数据、捕捉强非线性性和提高预测准确性方面的应用优势，成为计量经济学家工具箱中不可或缺的一部分。
+
+    
+
+    本文对使用机器学习工具进行经济学研究和政策分析的重要经济期刊上发表的文章进行了精选综述。综述回答了三个关键问题：（1）何时在经济学中使用机器学习，（2）常用的机器学习模型是什么，以及（3）如何将它们用于经济应用。综述强调了机器学习特别适用于处理非传统和非结构化数据、捕捉强非线性性和提高预测准确性。深度学习模型适用于非传统数据，而集成学习模型适用于传统数据集。尽管传统的计量经济学模型在分析低复杂性数据时可能足够，但由于快速数字化和不断增长的文献，经济数据的复杂性增加，机器学习正成为计量经济学家工具箱中不可或缺的一部分。
+
+    This article provides a curated review of selected papers published in prominent economics journals that use machine learning (ML) tools for research and policy analysis. The review focuses on three key questions: (1) when ML is used in economics, (2) what ML models are commonly preferred, and (3) how they are used for economic applications. The review highlights that ML is particularly used in processing nontraditional and unstructured data, capturing strong nonlinearity, and improving prediction accuracy. Deep learning models are suitable for nontraditional data, whereas ensemble learning models are preferred for traditional datasets. While traditional econometric models may suffice for analyzing low-complexity data, the increasing complexity of economic data due to rapid digitalization and the growing literature suggest that ML is becoming an essential addition to the econometrician's toolbox.
+    
+[^8]: 绿色股票和褐色股票中的因子暴露异质性
+
+    Factor Exposure Heterogeneity in Green and Brown Stocks. (arXiv:2302.11729v2 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2302.11729](http://arxiv.org/abs/2302.11729)
+
+    研究发现，相较于褐色股票，绿色股票在大多数股票因子上表现出较少的因子暴露异质性，因此投资经理将投资从褐色股票转向绿色股票时，差异空间较小。此外，与较早时期相比，绿色股票的因子暴露异质性增加了。
+
+    
+
+    本文使用同行暴露比率，探讨了绿色股票和褐色股票中的因子暴露异质性。通过观察基于温室气体排放水平对S&P 500指数公司的同行群体，我们发现，平均而言，绿色股票在大多数传统股票因子（价值风格除外）上比褐色股票表现出更少的因子暴露异质性。因此，投资经理将投资从褐色股票转为绿色股票时，关于他们的因子暴露，他们的差异空间较小。最后，我们发现，与较早时期相比，绿色股票的因子暴露异质性增加了。
+
+    Using the peer-exposure ratio, we explore the factor exposure heterogeneity in green and brown stocks. By looking at peer groups of S&P 500 index firms over 2014-2020 based on their greenhouse gas emission levels, we find that, on average, green stocks exhibit less factor exposure heterogeneity than brown stocks for most of the traditional equity factors but the value factor. Hence, investment managers shifting their investments from brown stocks to green stocks have less room to differentiate themselves regarding their factor exposures. Finally, we find that factor exposure heterogeneity has increased for green stocks compared to earlier periods.
+    
+[^9]: 多个弱工具的条件线性组合检验
+
+    A Conditional Linear Combination Test with Many Weak Instruments. (arXiv:2207.11137v3 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2207.11137](http://arxiv.org/abs/2207.11137)
+
+    本文研究了具有多个弱工具和异方差性的IV回归推论的条件线性组合检验，并根据自适应到识别强度的决策理论规则选择了线性组合中的权重。该方法在弱识别和强识别情况下均可有效控制渐近规模，并且在某些测试类别中可接受。在强识别下，该方法具有最佳功率。
+
+    
+
+    本文探讨了针对具有多个弱工具和异方差性的IV回归推论的杰克纳尔-安德森-鲁宾（AR）、杰克纳尔-拉格朗日乘数（LM）和正交杰克纳尔-LM测试的线性组合。我们根据自适应到识别强度的决策理论规则来选择组合中的权重。在弱识别和强识别下，所提出的检验控制渐近规模并且在某些测试类别中可接受。在强识别下，我们的线性组合检验在基于杰克纳尔AR和LM测试构建的不变或无偏测试类别中，对局部替代方案具有最佳功率。模拟和对Angrist和Krueger（1991）数据集的实证应用验证了我们的检验的良好功效。
+
+    We consider a linear combination of jackknife Anderson-Rubin (AR), jackknife Lagrangian multiplier (LM), and orthogonalized jackknife LM tests for inference in IV regressions with many weak instruments and heteroskedasticity. Following I.Andrews (2016), we choose the weights in the linear combination based on a decision-theoretic rule that is adaptive to the identification strength. Under both weak and strong identifications, the proposed test controls asymptotic size and is admissible among certain class of tests. Under strong identification, our linear combination test has optimal power against local alternatives among the class of invariant or unbiased tests which are constructed based on jackknife AR and LM tests. Simulations and an empirical application to Angrist and Krueger's (1991) dataset confirm the good power properties of our test.
+    
+[^10]: 考虑自回归条件异方差的次几何遍历自回归
+
+    Subgeometrically ergodic autoregressions with autoregressive conditional heteroskedasticity. (arXiv:2205.11953v2 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2205.11953](http://arxiv.org/abs/2205.11953)
+
+    本文研究了具有条件异方差的高阶非线性自回归，证明了在适当条件下它们是次几何遍历的。这个结果极大地扩展了其潜在应用范围。
+
+    
+
+    本文研究具有自回归条件异方差(ARCH)的非线性单变量自回归的次几何（具体而言是多项式几何）遍历性。次几何遍历性是1980年代在马尔科夫链文献中引入的概念，它意味着转移概率测度以比几何级数更慢的速率收敛于稳态测度；而这个速率也与$\beta$混合系数的收敛速率密切相关。现有次几何遍历自回归文献假设误差项是同方差的，本文提供了一个扩展，涵盖了有条件异方差ARCH类型误差的情况，从而极大地扩展了潜在应用的范围。具体而言，我们考虑适当定义的高阶非线性自回归，可能具有非线性的ARCH误差，并表明在适当条件下，它们是次几何遍历的，且速率是多项式的。并且我们利用能源数据提供了一个实证例子。
+
+    In this paper, we consider subgeometric (specifically, polynomial) ergodicity of univariate nonlinear autoregressions with autoregressive conditional heteroskedasticity (ARCH). The notion of subgeometric ergodicity was introduced in the Markov chain literature in 1980s and it means that the transition probability measures converge to the stationary measure at a rate slower than geometric; this rate is also closely related to the convergence rate of $\beta$-mixing coefficients. While the existing literature on subgeometrically ergodic autoregressions assumes a homoskedastic error term, this paper provides an extension to the case of conditionally heteroskedastic ARCH-type errors, considerably widening the scope of potential applications. Specifically, we consider suitably defined higher-order nonlinear autoregressions with possibly nonlinear ARCH errors and show that they are, under appropriate conditions, subgeometrically ergodic at a polynomial rate. An empirical example using energy 
+    
+[^11]: 有多个治疗方案的二阶段最小二乘法
+
+    2SLS with Multiple Treatments. (arXiv:2205.07836v4 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2205.07836](http://arxiv.org/abs/2205.07836)
+
+    本研究研究了在存在治疗效应异质性的模型中，二阶段最小二乘法可以确定每种治疗方案的代理人特定效应的正权重和的必要且充分条件，其适用于任意数量的治疗方案、任意数量的连续或离散工具以及包括协变量在内的情况。
+
+    
+
+    我们研究了在存在治疗效应异质性的模型中，二阶段最小二乘法 (2SLS) 在多个治疗方案中所能确定的内容。我们证明了两个必要且充分的条件，即平均条件单调性和无交叉效应，可以确定每种治疗方案的代理人特定效应的正权重和。我们的鉴定分析可以适用于任意数量的治疗方案、任意数量的连续或离散工具以及包括协变量在内的情况。我们提供了由我们的鉴定条件所暗示的选择行为的特征，并讨论了这些条件如何在实证研究中进行测试。
+
+    We study what two-stage least squares (2SLS) identifies in models with multiple treatments under treatment effect heterogeneity. Two conditions are shown to be necessary and sufficient for the 2SLS to identify positively weighted sums of agent-specific effects of each treatment: average conditional monotonicity and no cross effects. Our identification analysis allows for any number of treatments, any number of continuous or discrete instruments, and the inclusion of covariates. We provide characterizations of choice behavior implied by our identification conditions and discuss how the conditions can be tested empirically.
+    
+[^12]: 媒体倾向是具有传染性的。
+
+    Media Slant is Contagious. (arXiv:2202.07269v2 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2202.07269](http://arxiv.org/abs/2202.07269)
+
+    本文研究了国家有线电视新闻对美国本土报纸的影响，发现当地报纸的内容会因为当地 FNC 观众数量的增加而趋向于 FNC 的倾向，并且有线电视倾向会极化地方新闻内容。
+
+    
+
+    本研究考察了媒体倾向的传播，具体来说是国家有线电视新闻对美国本土报纸（2005-2008）的影响。我们使用一种基于 Fox News Channel（FNC）、CNN 和 MSNBC 内容的有线电视倾向文本度量方法，分析地方报纸如何采用 FNC 的倾向而不是 CNN/MSNBC 的倾向。研究结果显示，地方新闻随着当地 FNC 观众人数的外部增长而变得更加类似于 FNC 的内容。这种转变不仅限于从有线电视借鉴，而是地方报纸自身内容的改变。此外，有线电视倾向极化了地方新闻内容。
+
+    We examine the diffusion of media slant, specifically how partisan content from national cable news affects local newspapers in the U.S., 2005-2008. We use a text-based measure of cable news slant trained on content from Fox News Channel (FNC), CNN, and MSNBC to analyze how local newspapers adopt FNC's slant over CNN/MSNBC's. Our findings show that local news becomes more similar to FNC content in response to an exogenous increase in local FNC viewership. This shift is not limited to borrowing from cable news, but rather, local newspapers' own content changes. Further, cable TV slant polarizes local news content.
+    
+[^13]: 未知干扰实验中的政策设计
+
+    Policy design in experiments with unknown interference. (arXiv:2011.08174v7 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2011.08174](http://arxiv.org/abs/2011.08174)
+
+    本文研究了如何在有限数量的大簇中进行实验设计，估计和推断最大福利政策，并提出单波实验和多波实验的方法来解决溢出效应问题。
+
+    
+
+    本文研究了在溢出效应存在的情况下估计和推断最大福利政策的实验设计。将单元组织成有限数量的大簇，并在每个簇内以未知的方式相互作用。作为第一项贡献，本文提出了一种单波实验，通过在簇对间仔细变化随机化，考虑溢出效应估计治疗概率变化的边际效应。利用这个边际效应，文章提出了一个检验政策最优性的测试。作为第二项贡献，本文设计了一个多波实验，估计治疗规则并最大化福利。本文对最大可达福利于所估计政策评估下福利之间的差异给出了强有力的小样本保证。作者在根据现有关于信息传播和现金转移计划的实验模拟和大规模现场实验中提供了这种方法的特性。
+
+    This paper studies experimental designs for estimation and inference on welfare-maximizing policies in the presence of spillover effects. Units are organized into a finite number of large clusters and interact in unknown ways within each cluster. As a first contribution, I introduce a single-wave experiment that, by carefully varying the randomization across cluster pairs, estimates the marginal effect of a change in treatment probabilities, taking spillover effects into account. Using the marginal effect, I propose a test for policy optimality. As a second contribution, I design a multiple-wave experiment to estimate treatment rules and maximize welfare. I derive strong small-sample guarantees on the difference between the maximum attainable welfare and the welfare evaluated at the estimated policy. I illustrate the method's properties in simulations calibrated to existing experiments on information diffusion and cash-transfer programs, and in a large scale field experiment implemente
     
 

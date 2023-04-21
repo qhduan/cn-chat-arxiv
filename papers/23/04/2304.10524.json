@@ -1,0 +1,12 @@
+{
+    "title": "Learning Narrow One-Hidden-Layer ReLU Networks. (arXiv:2304.10524v1 [cs.LG])",
+    "abstract": "We consider the well-studied problem of learning a linear combination of $k$ ReLU activations with respect to a Gaussian distribution on inputs in $d$ dimensions. We give the first polynomial-time algorithm that succeeds whenever $k$ is a constant. All prior polynomial-time learners require additional assumptions on the network, such as positive combining coefficients or the matrix of hidden weight vectors being well-conditioned.  Our approach is based on analyzing random contractions of higher-order moment tensors. We use a multi-scale analysis to argue that sufficiently close neurons can be collapsed together, sidestepping the conditioning issues present in prior work. This allows us to design an iterative procedure to discover individual neurons.",
+    "link": "http://arxiv.org/abs/2304.10524",
+    "context": "Title: Learning Narrow One-Hidden-Layer ReLU Networks. (arXiv:2304.10524v1 [cs.LG])\nAbstract: We consider the well-studied problem of learning a linear combination of $k$ ReLU activations with respect to a Gaussian distribution on inputs in $d$ dimensions. We give the first polynomial-time algorithm that succeeds whenever $k$ is a constant. All prior polynomial-time learners require additional assumptions on the network, such as positive combining coefficients or the matrix of hidden weight vectors being well-conditioned.  Our approach is based on analyzing random contractions of higher-order moment tensors. We use a multi-scale analysis to argue that sufficiently close neurons can be collapsed together, sidestepping the conditioning issues present in prior work. This allows us to design an iterative procedure to discover individual neurons.",
+    "path": "papers/23/04/2304.10524.json",
+    "total_tokens": 751,
+    "translated_title": "学习窄的单隐藏层ReLU网络",
+    "translated_abstract": "本文考虑了一个经过充分研究的问题——关于在$d$维输入上的高斯分布中，学习$k$个ReLU激活的线性组合。我们提出了第一个在$k$为常数时成功的多项式时间算法。所有之前多项式时间的学习器都需要对网络进行额外的假设，比如正系数系合或隐藏权重向量的矩阵良好定义。我们的方法基于分析高阶矩张量的随机收缩。我们采用多尺度分析来证明足够接近的神经元可以被合并在一起，从而规避了以前工作中存在的定性问题。这使我们能够设计一个迭代过程来发现单个神经元。",
+    "tldr": "本文提出了一个在多项式时间内成功的学习Narrow One-Hidden-Layer ReLU网络的算法，而不需要额外的假设，并使用了分析高阶矩张量的随机收缩的方法，使得可以发现单个神经元。",
+    "en_tdlr": "This paper proposes a polynomial-time algorithm for learning Narrow One-Hidden-Layer ReLU Networks without additional assumptions, through analyzing random contractions of higher-order moment tensors and designing an iterative procedure to discover individual neurons."
+}

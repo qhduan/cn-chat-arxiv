@@ -1,0 +1,12 @@
+{
+    "title": "Bandit Algorithm Driven by a Classical Random Walk and a Quantum Walk. (arXiv:2304.10118v1 [quant-ph])",
+    "abstract": "Quantum walks (QWs) have the property that classical random walks (RWs) do not possess -- coexistence of linear spreading and localization -- and this property is utilized to implement various kinds of applications. This paper proposes a quantum-walk-based algorithm for multi-armed-bandit (MAB) problems by associating the two operations that make MAB problems difficult -exploration and exploitation -- with these two behaviors of QWs. We show that this new policy based on the QWs realizes high performance compared with the corresponding RW-based one.",
+    "link": "http://arxiv.org/abs/2304.10118",
+    "context": "Title: Bandit Algorithm Driven by a Classical Random Walk and a Quantum Walk. (arXiv:2304.10118v1 [quant-ph])\nAbstract: Quantum walks (QWs) have the property that classical random walks (RWs) do not possess -- coexistence of linear spreading and localization -- and this property is utilized to implement various kinds of applications. This paper proposes a quantum-walk-based algorithm for multi-armed-bandit (MAB) problems by associating the two operations that make MAB problems difficult -exploration and exploitation -- with these two behaviors of QWs. We show that this new policy based on the QWs realizes high performance compared with the corresponding RW-based one.",
+    "path": "papers/23/04/2304.10118.json",
+    "total_tokens": 681,
+    "translated_title": "一个由经典随机游走和量子游走驱动的赌博算法",
+    "translated_abstract": "量子游走具有经典随机游走所不具备的属性——线性传播和局部化共存——并且这种属性被用于实现各种应用。本文提出了一种基于量子游走的多臂赌博问题算法，将使赌博问题困难的两种操作——探索和利用——与这两种量子游走行为联系起来。我们展示了这种基于量子游走的新策略相比于相应的随机游走策略实现了高性能。",
+    "tldr": "本文提出了一个基于量子游走的算法解决多臂赌博问题，将探索和利用与量子游走行为联系起来，相比于经典随机游走策略实现了高性能。",
+    "en_tdlr": "This paper proposes a quantum-walk-based algorithm for the multi-armed-bandit (MAB) problems by associating the exploration and exploitation with the behaviors of quantum walks, which achieves high performance compared with the corresponding classical random walk-based strategy."
+}

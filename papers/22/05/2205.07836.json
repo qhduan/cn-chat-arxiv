@@ -1,0 +1,12 @@
+{
+    "title": "2SLS with Multiple Treatments. (arXiv:2205.07836v4 [econ.EM] UPDATED)",
+    "abstract": "We study what two-stage least squares (2SLS) identifies in models with multiple treatments under treatment effect heterogeneity. Two conditions are shown to be necessary and sufficient for the 2SLS to identify positively weighted sums of agent-specific effects of each treatment: average conditional monotonicity and no cross effects. Our identification analysis allows for any number of treatments, any number of continuous or discrete instruments, and the inclusion of covariates. We provide characterizations of choice behavior implied by our identification conditions and discuss how the conditions can be tested empirically.",
+    "link": "http://arxiv.org/abs/2205.07836",
+    "context": "Title: 2SLS with Multiple Treatments. (arXiv:2205.07836v4 [econ.EM] UPDATED)\nAbstract: We study what two-stage least squares (2SLS) identifies in models with multiple treatments under treatment effect heterogeneity. Two conditions are shown to be necessary and sufficient for the 2SLS to identify positively weighted sums of agent-specific effects of each treatment: average conditional monotonicity and no cross effects. Our identification analysis allows for any number of treatments, any number of continuous or discrete instruments, and the inclusion of covariates. We provide characterizations of choice behavior implied by our identification conditions and discuss how the conditions can be tested empirically.",
+    "path": "papers/22/05/2205.07836.json",
+    "total_tokens": 808,
+    "translated_title": "有多个治疗方案的二阶段最小二乘法",
+    "translated_abstract": "我们研究了在存在治疗效应异质性的模型中，二阶段最小二乘法 (2SLS) 在多个治疗方案中所能确定的内容。我们证明了两个必要且充分的条件，即平均条件单调性和无交叉效应，可以确定每种治疗方案的代理人特定效应的正权重和。我们的鉴定分析可以适用于任意数量的治疗方案、任意数量的连续或离散工具以及包括协变量在内的情况。我们提供了由我们的鉴定条件所暗示的选择行为的特征，并讨论了这些条件如何在实证研究中进行测试。",
+    "tldr": "本研究研究了在存在治疗效应异质性的模型中，二阶段最小二乘法可以确定每种治疗方案的代理人特定效应的正权重和的必要且充分条件，其适用于任意数量的治疗方案、任意数量的连续或离散工具以及包括协变量在内的情况。",
+    "en_tdlr": "This study examines the necessary and sufficient conditions under which 2SLS can identify positively weighted sums of agent-specific effects of each treatment in models with treatment effect heterogeneity, allowing for any number of treatments, any number of continuous or discrete instruments, and the inclusion of covariates. We also provide characterizations of choice behavior implied by our identification conditions and discuss how these conditions can be tested empirically."
+}

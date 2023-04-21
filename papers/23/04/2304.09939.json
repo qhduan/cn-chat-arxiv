@@ -1,0 +1,12 @@
+{
+    "title": "Bitcoin: A life in crises. (arXiv:2304.09939v1 [q-fin.ST])",
+    "abstract": "In this study, we investigate the BTC price time-series (17 August 2010-27 June 2021) and show that the 2017 pricing episode is not unique. We describe at least ten new events, which occurred since 2010-2011 and span more than five orders of price magnitudes ($US 1-$US 60k). We find that those events have a similar duration of approx. 50-100 days. Although we are not able to predict times of a price peak, we however succeed to approximate the BTC price evolution using a function that is similar to a Fibonacci sequence. Finally, we complete a comparison with other types of financial instruments (equities, currencies, gold) which suggests that BTC may be classified as an illiquid asset.",
+    "link": "http://arxiv.org/abs/2304.09939",
+    "context": "Title: Bitcoin: A life in crises. (arXiv:2304.09939v1 [q-fin.ST])\nAbstract: In this study, we investigate the BTC price time-series (17 August 2010-27 June 2021) and show that the 2017 pricing episode is not unique. We describe at least ten new events, which occurred since 2010-2011 and span more than five orders of price magnitudes ($US 1-$US 60k). We find that those events have a similar duration of approx. 50-100 days. Although we are not able to predict times of a price peak, we however succeed to approximate the BTC price evolution using a function that is similar to a Fibonacci sequence. Finally, we complete a comparison with other types of financial instruments (equities, currencies, gold) which suggests that BTC may be classified as an illiquid asset.",
+    "path": "papers/23/04/2304.09939.json",
+    "total_tokens": 827,
+    "translated_title": "比特币：危机时刻的历程",
+    "translated_abstract": "本文研究比特币价格时间序列（2010年8月17日至2021年6月27日），并表明2017年的价格波动不是唯一的。自2010-2011年以来发生了至少十起新事件，跨越了五个订单的价格巨幅（1美元-60,000美元）。我们发现这些事件的持续时间大致相同，约为50-100天。尽管我们无法预测价格峰值的时间，但我们成功地通过一种类似于斐波那契数列的函数来逼近BTC价格演变。最后，我们将BTC与其他类型的金融工具（股票、货币、黄金）进行了比较，表明BTC可能被归类为非流动资产。",
+    "tldr": "本文研究比特币价格时间序列，发现自2010-2011年以来已发生至少十起新的价格波动。尽管无法预测价格峰值，但成功使用类斐波那契数列的函数逼近了BTC价格演变。和其他金融工具相比，BTC可能被归类为非流动资产。",
+    "en_tdlr": "This study examines the BTC price time-series and finds at least ten new pricing events since 2010-2011, with similar duration and spanning five orders of magnitude. Although unable to predict price peaks, a Fibonacci-like function is used to approximate BTC price evolution. BTC may be classified as an illiquid asset compared to other financial instruments."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Separability, Contextuality, and the Quantum Frame Problem. (arXiv:2304.10010v1 [quant-ph])",
+    "abstract": "We study the relationship between assumptions of state separability and both preparation and measurement contextuality, and the relationship of both of these to the frame problem, the problem of predicting what does not change in consequence of an action. We state a quantum analog of the latter and prove its undecidability. We show how contextuality is generically induced in state preparation and measurement by basis choice, thermodynamic exchange, and the imposition of a priori causal models, and how fine-tuning assumptions appear ubiquitously in settings characterized as non-contextual.",
+    "link": "http://arxiv.org/abs/2304.10010",
+    "context": "Title: Separability, Contextuality, and the Quantum Frame Problem. (arXiv:2304.10010v1 [quant-ph])\nAbstract: We study the relationship between assumptions of state separability and both preparation and measurement contextuality, and the relationship of both of these to the frame problem, the problem of predicting what does not change in consequence of an action. We state a quantum analog of the latter and prove its undecidability. We show how contextuality is generically induced in state preparation and measurement by basis choice, thermodynamic exchange, and the imposition of a priori causal models, and how fine-tuning assumptions appear ubiquitously in settings characterized as non-contextual.",
+    "path": "papers/23/04/2304.10010.json",
+    "total_tokens": 766,
+    "translated_title": "可分性、上下文性及量子框架问题",
+    "translated_abstract": "我们研究了状态可分离性假设与准备和测量上下文性之间的关系，以及它们与框架问题——预测由于动作不会改变的内容的问题之间的关系。我们提出了后者的量子模拟，并证明了它的不可判定性。我们展示了状态准备和测量中上下文性是如何通过基选择、热力学交换和先验因果模型的强制实施普遍引导的，并且如何调整假设在被描述为无环境上下文的情况下出现普遍性。",
+    "tldr": "本文研究了可分离性假设和上下文性的关系以及它们与框架问题的关系，并提出了后者的量子模拟和不可判定性证明，同时表明上下文性在状态准备和测量中如何被引导，并指出细微的调整假设在非上下文环境中普遍存在。",
+    "en_tdlr": "This paper studies the relationship between separability assumptions and contextualism in state preparation and measurement, and their connection to the frame problem. It presents a quantum simulation of the frame problem and proves its undecidability. The authors demonstrate how contextualism arises in these processes due to basis choice, thermodynamic exchange, and a priori causal models, and how fine-tuned assumptions are ubiquitous in supposedly non-contextual situations."
+}

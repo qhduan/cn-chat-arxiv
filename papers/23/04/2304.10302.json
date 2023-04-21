@@ -1,0 +1,12 @@
+{
+    "title": "Optimal Activation of Halting Multi-Armed Bandit Models. (arXiv:2304.10302v1 [stat.ML])",
+    "abstract": "We study new types of dynamic allocation problems the {\\sl Halting Bandit} models. As an application, we obtain new proofs for the classic Gittins index decomposition result and recent results of the authors in `Multi-armed bandits under general depreciation and commitment.'",
+    "link": "http://arxiv.org/abs/2304.10302",
+    "context": "Title: Optimal Activation of Halting Multi-Armed Bandit Models. (arXiv:2304.10302v1 [stat.ML])\nAbstract: We study new types of dynamic allocation problems the {\\sl Halting Bandit} models. As an application, we obtain new proofs for the classic Gittins index decomposition result and recent results of the authors in `Multi-armed bandits under general depreciation and commitment.'",
+    "path": "papers/23/04/2304.10302.json",
+    "total_tokens": 534,
+    "translated_title": "停止多臂赌博机模型的最优激活。",
+    "translated_abstract": "本文研究了一种新型的动态分配问题——停止赌博机模型。作为应用，我们获得了对于经典的Gittins指数分解结果和作者在“普遍折旧和承诺下的多臂赌博机”的最新结果的新证明。",
+    "tldr": "本文研究了新型的动态分配问题——停止赌博机模型，提出了对于经典的Gittins指数分解结果和最新结果的新证明。",
+    "en_tdlr": "The paper studies a new type of dynamic allocation problem, the Halting Bandit models, and provides new proofs for the classic Gittins index decomposition result and recent results of the authors in \"Multi-armed bandits under general depreciation and commitment.\""
+}

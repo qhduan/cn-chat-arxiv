@@ -1,0 +1,12 @@
+{
+    "title": "Asynchronous SGD Beats Minibatch SGD Under Arbitrary Delays. (arXiv:2206.07638v2 [math.OC] UPDATED)",
+    "abstract": "The existing analysis of asynchronous stochastic gradient descent (SGD) degrades dramatically when any delay is large, giving the impression that performance depends primarily on the delay. On the contrary, we prove much better guarantees for the same asynchronous SGD algorithm regardless of the delays in the gradients, depending instead just on the number of parallel devices used to implement the algorithm. Our guarantees are strictly better than the existing analyses, and we also argue that asynchronous SGD outperforms synchronous minibatch SGD in the settings we consider. For our analysis, we introduce a novel recursion based on \"virtual iterates\" and delay-adaptive stepsizes, which allow us to derive state-of-the-art guarantees for both convex and non-convex objectives.",
+    "link": "http://arxiv.org/abs/2206.07638",
+    "context": "Title: Asynchronous SGD Beats Minibatch SGD Under Arbitrary Delays. (arXiv:2206.07638v2 [math.OC] UPDATED)\nAbstract: The existing analysis of asynchronous stochastic gradient descent (SGD) degrades dramatically when any delay is large, giving the impression that performance depends primarily on the delay. On the contrary, we prove much better guarantees for the same asynchronous SGD algorithm regardless of the delays in the gradients, depending instead just on the number of parallel devices used to implement the algorithm. Our guarantees are strictly better than the existing analyses, and we also argue that asynchronous SGD outperforms synchronous minibatch SGD in the settings we consider. For our analysis, we introduce a novel recursion based on \"virtual iterates\" and delay-adaptive stepsizes, which allow us to derive state-of-the-art guarantees for both convex and non-convex objectives.",
+    "path": "papers/22/06/2206.07638.json",
+    "total_tokens": 766,
+    "translated_title": "异步SGD在任意延迟下均优于Minibatch SGD",
+    "translated_abstract": "异步随机梯度下降（SGD）的现有分析在任何延迟较大时会急剧恶化，给人们留下了性能主要取决于延迟的印象。相反，我们证明，对于相同的异步 SGD 算法，无论渐变的延迟如何，性能保证都要好得多，这只取决于用于实施算法的并行设备数量。我们的保证比现有分析严格更好，同时我们还论证异步 SGD 在我们考虑的情景下优于同步小批量 SGD。为了进行我们的分析，我们引入了一种基于“虚拟迭代”和延迟自适应步长的新递归，这使我们能够得出针对凸和非凸目标的最先进的保证。",
+    "tldr": "这篇论文证明了用虚拟迭代和延迟自适应步长可以在任意延迟下提高异步SGD算法性能，优于同步小批量SGD。",
+    "en_tdlr": "This paper proves that using virtual iterates and delay-adaptive stepsizes can improve the performance of asynchronous SGD algorithm under arbitrary delays, and it outperforms synchronous minibatch SGD."
+}

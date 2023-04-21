@@ -1,0 +1,12 @@
+{
+    "title": "Optimal Kernel for Kernel-Based Modal Statistical Methods. (arXiv:2304.10046v1 [stat.ML])",
+    "abstract": "Kernel-based modal statistical methods include mode estimation, regression, and clustering. Estimation accuracy of these methods depends on the kernel used as well as the bandwidth. We study effect of the selection of the kernel function to the estimation accuracy of these methods. In particular, we theoretically show a (multivariate) optimal kernel that minimizes its analytically-obtained asymptotic error criterion when using an optimal bandwidth, among a certain kernel class defined via the number of its sign changes.",
+    "link": "http://arxiv.org/abs/2304.10046",
+    "context": "Title: Optimal Kernel for Kernel-Based Modal Statistical Methods. (arXiv:2304.10046v1 [stat.ML])\nAbstract: Kernel-based modal statistical methods include mode estimation, regression, and clustering. Estimation accuracy of these methods depends on the kernel used as well as the bandwidth. We study effect of the selection of the kernel function to the estimation accuracy of these methods. In particular, we theoretically show a (multivariate) optimal kernel that minimizes its analytically-obtained asymptotic error criterion when using an optimal bandwidth, among a certain kernel class defined via the number of its sign changes.",
+    "path": "papers/23/04/2304.10046.json",
+    "total_tokens": 650,
+    "translated_title": "基于核的模态统计方法的最优核函数",
+    "translated_abstract": "基于核函数的模态统计方法包括模态估计、回归和聚类。这些方法的估计准确性取决于所使用的核函数和带宽。本文研究了核函数选择对这些方法估计准确性的影响。特别地，当使用最优带宽时，本文理论上展示了一种（多元）最优核函数，其在定义为其符号变化数量的某个核函数类别中，使得其解析得到的渐近误差准则最小化。",
+    "tldr": "本文研究基于核函数的模态统计方法的最优核函数的选择问题，提出了一种（多元）最优核函数，在某个核函数类别中使得其解析得到的渐近误差准则最小化。",
+    "en_tdlr": "This paper studies the optimal kernel selection problem of kernel-based modal statistical methods and proposes a (multivariate) optimal kernel that minimizes its analytically-obtained asymptotic error criterion among a certain kernel class defined via the number of its sign changes."
+}

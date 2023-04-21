@@ -1,0 +1,12 @@
+{
+    "title": "Evolving Flying Machines in Minecraft Using Quality Diversity. (arXiv:2302.00782v2 [cs.NE] UPDATED)",
+    "abstract": "Minecraft is a great testbed for human creativity that has inspired the design of various structures and even functioning machines, including flying machines. EvoCraft is an API for programmatically generating structures in Minecraft, but the initial work in this domain was not capable of evolving flying machines. This paper applies fitness-based evolution and quality diversity search in order to evolve flying machines. Although fitness alone can occasionally produce flying machines, thanks in part to a more sophisticated fitness function than was used previously, the quality diversity algorithm MAP-Elites is capable of discovering flying machines much more reliably, at least when an appropriate behavior characterization is used to guide the search for diverse solutions.",
+    "link": "http://arxiv.org/abs/2302.00782",
+    "context": "Title: Evolving Flying Machines in Minecraft Using Quality Diversity. (arXiv:2302.00782v2 [cs.NE] UPDATED)\nAbstract: Minecraft is a great testbed for human creativity that has inspired the design of various structures and even functioning machines, including flying machines. EvoCraft is an API for programmatically generating structures in Minecraft, but the initial work in this domain was not capable of evolving flying machines. This paper applies fitness-based evolution and quality diversity search in order to evolve flying machines. Although fitness alone can occasionally produce flying machines, thanks in part to a more sophisticated fitness function than was used previously, the quality diversity algorithm MAP-Elites is capable of discovering flying machines much more reliably, at least when an appropriate behavior characterization is used to guide the search for diverse solutions.",
+    "path": "papers/23/02/2302.00782.json",
+    "total_tokens": 681,
+    "translated_title": "在Minecraft中使用优质多样性进化飞行器",
+    "translated_abstract": "Minecraft是一个极好的人类创造力测试平台，启发了各种结构甚至包括飞行器的设计。EvoCraft是一个可编程生成Minecraft结构的API，但是该领域的初步工作并不能生成飞行器。本文应用基于适应度的进化和优质多样性搜索，以进化飞行器。虽然仅仅应用适应度有时可以产生飞行器，但由于使用了比以前更复杂的适应度函数，优质多样性算法MAP-Elites能够更可靠地发现飞行器，至少在使用适当的行为表征来指导多样化解决方案的搜索时是可以的。",
+    "tldr": "本文使用优质多样性算法进化Minecraft游戏中的飞行器，比传统适应度算法更可靠地工作。",
+    "en_tdlr": "This paper applies quality diversity search to evolve flying machines in Minecraft, which is more reliable than traditional fitness-based evolution algorithm."
+}

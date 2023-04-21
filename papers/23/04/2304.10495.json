@@ -1,0 +1,12 @@
+{
+    "title": "A primer on getting neologisms from foreign languages to under-resourced languages. (arXiv:2304.10495v1 [cs.CL])",
+    "abstract": "Mainly due to lack of support, most under-resourced languages have a reduced lexicon in most realms and domains of increasing importance, then their speakers need to significantly augment it. Although neologisms should arise from the languages themselves, external sources are widely accepted. However, we dispute the \"common sense\" of using the imposed official languages, which are highly probably a legacy of colonialism, as the only source, and we propose to introduce neologisms from any language as long as these neologisms \"sound like\" native words of the target languages.",
+    "link": "http://arxiv.org/abs/2304.10495",
+    "context": "Title: A primer on getting neologisms from foreign languages to under-resourced languages. (arXiv:2304.10495v1 [cs.CL])\nAbstract: Mainly due to lack of support, most under-resourced languages have a reduced lexicon in most realms and domains of increasing importance, then their speakers need to significantly augment it. Although neologisms should arise from the languages themselves, external sources are widely accepted. However, we dispute the \"common sense\" of using the imposed official languages, which are highly probably a legacy of colonialism, as the only source, and we propose to introduce neologisms from any language as long as these neologisms \"sound like\" native words of the target languages.",
+    "path": "papers/23/04/2304.10495.json",
+    "total_tokens": 709,
+    "translated_title": "从外语到欠发达语言中获取新词的初步指南",
+    "translated_abstract": "由于缺乏支持，大多数欠发达语言在大多数领域和领域中的词汇量都很少，而其使用者需要大量增加词汇量。虽然新词应该从语言本身产生，但外部来源被广泛接受。然而，我们对使用被强加的官方语言的“常识”提出了质疑，这些语言很可能是殖民主义的遗产，作为唯一的来源，我们提出了引入任何语言的新词，只要这些新词“听起来像”目标语言的本地单词。",
+    "tldr": "本文介绍了一种从外语到欠发达语言获取新词的初步指南，提出可以引入任何语言的新词，只要这些词语“听起来像”目标语言的本地单词。",
+    "en_tdlr": "This article introduces a primer on getting neologisms from foreign languages to under-resourced languages and proposes to introduce neologisms from any language as long as these neologisms \"sound like\" native words of the target languages, disputing the common sense of using imposed official languages."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Phoenix: Democratizing ChatGPT across Languages. (arXiv:2304.10453v1 [cs.CL])",
+    "abstract": "This paper presents our efforts to democratize ChatGPT across language. We release a large language model \"Phoenix\", achieving competitive performance among open-source English and Chinese models while excelling in languages with limited resources (covering both Latin and non-Latin languages). We believe this work will be beneficial to make ChatGPT more accessible, especially in countries where people cannot use ChatGPT due to restrictions from OpenAI or local goverments. Our data, code, and models are available at https://github.com/FreedomIntelligence/LLMZoo.",
+    "link": "http://arxiv.org/abs/2304.10453",
+    "context": "Title: Phoenix: Democratizing ChatGPT across Languages. (arXiv:2304.10453v1 [cs.CL])\nAbstract: This paper presents our efforts to democratize ChatGPT across language. We release a large language model \"Phoenix\", achieving competitive performance among open-source English and Chinese models while excelling in languages with limited resources (covering both Latin and non-Latin languages). We believe this work will be beneficial to make ChatGPT more accessible, especially in countries where people cannot use ChatGPT due to restrictions from OpenAI or local goverments. Our data, code, and models are available at https://github.com/FreedomIntelligence/LLMZoo.",
+    "path": "papers/23/04/2304.10453.json",
+    "total_tokens": 666,
+    "translated_title": "Phoenix: 实现 ChatGPT 的跨语言民主化",
+    "translated_abstract": "本文介绍了我们努力实现 ChatGPT 跨语言民主化的工作。我们发布了一款大型语言模型“Phoenix”，在开源的英文和中文模型中实现了有竞争力的性能，并在资源有限的语言（包括拉丁和非拉丁语言）中表现出色。我们相信这项工作将有利于让 ChatGPT 在更多的国家和地区变得更加可用，特别是在由于OpenAI或当地政府的限制而无法使用ChatGPT的国家。",
+    "tldr": "Phoenix 是一款大型语言模型，实现了跨语言民主化，不仅在英文和中文中表现良好，也在资源有限的语言中表现出色，使得 ChatGPT 在更多的国家和地区变得更加可用。",
+    "en_tdlr": "Phoenix is a large language model that democratises ChatGPT across languages, achieving competitive performance in both English and Chinese as well as excelling in limited resource languages. This work makes ChatGPT more accessible in countries with restrictions from OpenAI or local governments."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "On the Potential of Artificial Intelligence Chatbots for Data Exploration of Federated Bioinformatics Knowledge Graphs. (arXiv:2304.10427v1 [cs.AI])",
+    "abstract": "In this paper, we present work in progress on the role of artificial intelligence (AI) chatbots, such as ChatGPT, in facilitating data access to federated knowledge graphs. In particular, we provide examples from the field of bioinformatics, to illustrate the potential use of Conversational AI to describe datasets, as well as generate and explain (federated) queries across datasets for the benefit of domain experts.",
+    "link": "http://arxiv.org/abs/2304.10427",
+    "context": "Title: On the Potential of Artificial Intelligence Chatbots for Data Exploration of Federated Bioinformatics Knowledge Graphs. (arXiv:2304.10427v1 [cs.AI])\nAbstract: In this paper, we present work in progress on the role of artificial intelligence (AI) chatbots, such as ChatGPT, in facilitating data access to federated knowledge graphs. In particular, we provide examples from the field of bioinformatics, to illustrate the potential use of Conversational AI to describe datasets, as well as generate and explain (federated) queries across datasets for the benefit of domain experts.",
+    "path": "papers/23/04/2304.10427.json",
+    "total_tokens": 637,
+    "translated_title": "人工智能聊天机器人在联邦生物信息学知识图谱数据挖掘中的潜力论文翻译",
+    "translated_abstract": "本文展示了目前关于人工智能聊天机器人（例如ChatGPT）在联邦化知识图谱数据访问中的作用研究。特别是提供了生物信息学领域的示例，说明了对话式人工智能用于描述数据集以及生成和解释（联邦化）跨数据集查询的潜在用途，以便为领域专家提供帮助。",
+    "tldr": "本文研究了人工智能聊天机器人在联邦生物信息学知识图谱数据挖掘中的潜力，通过与领域专家对话的方式，实现了对跨数据集的查询和解释。",
+    "en_tdlr": "This paper investigates the potential of using artificial intelligence chatbots for data exploration of federated bioinformatics knowledge graphs, enabling domain experts to generate and explain (federated) queries through conversation."
+}

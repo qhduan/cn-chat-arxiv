@@ -1,0 +1,11 @@
+{
+    "title": "Byzantine-Robust Decentralized Learning via ClippedGossip. (arXiv:2202.01545v2 [cs.LG] UPDATED)",
+    "abstract": "In this paper, we study the challenging task of Byzantine-robust decentralized training on arbitrary communication graphs. Unlike federated learning where workers communicate through a server, workers in the decentralized environment can only talk to their neighbors, making it harder to reach consensus and benefit from collaborative training. To address these issues, we propose a ClippedGossip algorithm for Byzantine-robust consensus and optimization, which is the first to provably converge to a $O(\\delta_{\\max}\\zeta^2/\\gamma^2)$ neighborhood of the stationary point for non-convex objectives under standard assumptions. Finally, we demonstrate the encouraging empirical performance of ClippedGossip under a large number of attacks.",
+    "link": "http://arxiv.org/abs/2202.01545",
+    "context": "Title: Byzantine-Robust Decentralized Learning via ClippedGossip. (arXiv:2202.01545v2 [cs.LG] UPDATED)\nAbstract: In this paper, we study the challenging task of Byzantine-robust decentralized training on arbitrary communication graphs. Unlike federated learning where workers communicate through a server, workers in the decentralized environment can only talk to their neighbors, making it harder to reach consensus and benefit from collaborative training. To address these issues, we propose a ClippedGossip algorithm for Byzantine-robust consensus and optimization, which is the first to provably converge to a $O(\\delta_{\\max}\\zeta^2/\\gamma^2)$ neighborhood of the stationary point for non-convex objectives under standard assumptions. Finally, we demonstrate the encouraging empirical performance of ClippedGossip under a large number of attacks.",
+    "path": "papers/22/02/2202.01545.json",
+    "total_tokens": 821,
+    "translated_title": "剪切Gossip在拜占庭鲁棒的分散式学习中的应用",
+    "translated_abstract": "本文研究了在任意通信图上进行拜占庭鲁棒的分散式训练的艰巨任务。与联邦学习通过服务器进行通信的方式不同，分散式环境中的workers只能与它们的邻居交流，这使得达成共识和协作训练更加困难。为了解决这些问题，我们提出了一种用于拜占庭鲁棒共识和优化的剪切Gossip算法，它是第一个在标准假设下可以证明收敛到非凸目标的$O(\\delta_{max} \\zeta^2 /\\gamma^2)$邻域的算法。最后，我们在大量攻击下证明了剪切Gossip的鼓舞人心的实证表现。",
+    "tldr": "本文提出的剪切Gossip算法是第一个能够在标准假设下证明收敛到非凸目标的$O(\\delta_{max} \\zeta^2 /\\gamma^2)$邻域的算法，并在大量攻击下表现良好。"
+}

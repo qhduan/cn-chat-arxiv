@@ -1,0 +1,12 @@
+{
+    "title": "HOUDINI: Escaping from Moderately Constrained Saddles. (arXiv:2205.13753v2 [cs.LG] UPDATED)",
+    "abstract": "We give the first polynomial time algorithms for escaping from high-dimensional saddle points under a moderate number of constraints. Given gradient access to a smooth function $f \\colon \\mathbb R^d \\to \\mathbb R$ we show that (noisy) gradient descent methods can escape from saddle points under a logarithmic number of inequality constraints. This constitutes the first tangible progress (without reliance on NP-oracles or altering the definitions to only account for certain constraints) on the main open question of the breakthrough work of Ge et al. who showed an analogous result for unconstrained and equality-constrained problems. Our results hold for both regular and stochastic gradient descent.",
+    "link": "http://arxiv.org/abs/2205.13753",
+    "context": "Title: HOUDINI: Escaping from Moderately Constrained Saddles. (arXiv:2205.13753v2 [cs.LG] UPDATED)\nAbstract: We give the first polynomial time algorithms for escaping from high-dimensional saddle points under a moderate number of constraints. Given gradient access to a smooth function $f \\colon \\mathbb R^d \\to \\mathbb R$ we show that (noisy) gradient descent methods can escape from saddle points under a logarithmic number of inequality constraints. This constitutes the first tangible progress (without reliance on NP-oracles or altering the definitions to only account for certain constraints) on the main open question of the breakthrough work of Ge et al. who showed an analogous result for unconstrained and equality-constrained problems. Our results hold for both regular and stochastic gradient descent.",
+    "path": "papers/22/05/2205.13753.json",
+    "total_tokens": 714,
+    "translated_title": "HOUDINI: 从适度约束的马鞍点中逃脱",
+    "translated_abstract": "我们给出了第一个在适度数量的约束下从高维马鞍点中逃脱的多项式时间算法。给定光滑函数$f \\colon \\mathbb R^d \\to \\mathbb R$的梯度访问权限，我们展示了（带噪声的）梯度下降方法可以在对数个不等式约束下逃脱马鞍点。这是对 Ge 等人的突破性工作的主要开放问题的首次有形进展（无需依赖 NP-Oracle 或改变定义来仅考虑特定约束）。我们的结果适用于正则梯度下降和随机梯度下降。",
+    "tldr": "本文给出了第一个多项式时间算法，能在适度数量的约束下使梯度下降方法逃脱高维马鞍点。",
+    "en_tdlr": "The paper presents the first polynomial time algorithms for escaping from high-dimensional saddle points under a moderate number of constraints, through gradient descent methods that can escape from saddle points under a logarithmic number of inequality constraints."
+}

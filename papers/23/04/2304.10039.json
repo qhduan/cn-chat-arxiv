@@ -1,0 +1,12 @@
+{
+    "title": "Brain tumor multi classification and segmentation in MRO images using deep learning. (arXiv:2304.10039v1 [eess.IV])",
+    "abstract": "This study proposes a deep learning model for the classification and segmentation of brain tumors from magnetic resonance imaging (MRI) scans. The classification model is based on the EfficientNetB1 architecture and is trained to classify images into four classes: meningioma, glioma, pituitary adenoma, and no tumor. The segmentation model is based on the U-Net architecture and is trained to accurately segment the tumor from the MRI images. The models are evaluated on a publicly available dataset and achieve high accuracy and segmentation metrics, indicating their potential for clinical use in the diagnosis and treatment of brain tumors.",
+    "link": "http://arxiv.org/abs/2304.10039",
+    "context": "Title: Brain tumor multi classification and segmentation in MRO images using deep learning. (arXiv:2304.10039v1 [eess.IV])\nAbstract: This study proposes a deep learning model for the classification and segmentation of brain tumors from magnetic resonance imaging (MRI) scans. The classification model is based on the EfficientNetB1 architecture and is trained to classify images into four classes: meningioma, glioma, pituitary adenoma, and no tumor. The segmentation model is based on the U-Net architecture and is trained to accurately segment the tumor from the MRI images. The models are evaluated on a publicly available dataset and achieve high accuracy and segmentation metrics, indicating their potential for clinical use in the diagnosis and treatment of brain tumors.",
+    "path": "papers/23/04/2304.10039.json",
+    "total_tokens": 791,
+    "translated_title": "基于深度学习的脑肿瘤多分类和分割在MRO图像中的应用",
+    "translated_abstract": "本研究提出了一种基于深度学习的模型，用于从磁共振成像（MRI）扫描中对脑肿瘤进行分类和分割。分类模型基于EfficientNetB1架构，经过训练，将图像分为四类：脑膜瘤，胶质瘤，垂体腺瘤和无肿瘤。分割模型基于U-Net架构，经过训练，能够准确地从MRI图像中分割出肿瘤。该模型在一个公开可用的数据集上进行评估，并实现了高精度和分割指标，表明其在脑肿瘤的诊断和治疗中具有潜在的临床应用价值。",
+    "tldr": "本研究提出了基于深度学习的脑肿瘤分类和分割模型，能够准确地将MRI图像中的肿瘤分为四类，并将肿瘤从图像中精确地分割出来，具有潜在的临床应用价值。",
+    "en_tdlr": "This study proposes a deep learning model for the classification and segmentation of brain tumors from MRI scans, achieving high accuracy and segmentation metrics. The models have potential clinical applications for the diagnosis and treatment of brain tumors."
+}

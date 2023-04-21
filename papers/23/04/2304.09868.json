@@ -1,0 +1,12 @@
+{
+    "title": "Accelerate Support Vector Clustering via Spectrum-Preserving Data Compression?. (arXiv:2304.09868v1 [cs.LG])",
+    "abstract": "Support vector clustering is an important clustering method. However, it suffers from a scalability issue due to its computational expensive cluster assignment step. In this paper we accelertate the support vector clustering via spectrum-preserving data compression. Specifically, we first compress the original data set into a small amount of spectrally representative aggregated data points. Then, we perform standard support vector clustering on the compressed data set. Finally, we map the clustering results of the compressed data set back to discover the clusters in the original data set. Our extensive experimental results on real-world data set demonstrate dramatically speedups over standard support vector clustering without sacrificing clustering quality.",
+    "link": "http://arxiv.org/abs/2304.09868",
+    "context": "Title: Accelerate Support Vector Clustering via Spectrum-Preserving Data Compression?. (arXiv:2304.09868v1 [cs.LG])\nAbstract: Support vector clustering is an important clustering method. However, it suffers from a scalability issue due to its computational expensive cluster assignment step. In this paper we accelertate the support vector clustering via spectrum-preserving data compression. Specifically, we first compress the original data set into a small amount of spectrally representative aggregated data points. Then, we perform standard support vector clustering on the compressed data set. Finally, we map the clustering results of the compressed data set back to discover the clusters in the original data set. Our extensive experimental results on real-world data set demonstrate dramatically speedups over standard support vector clustering without sacrificing clustering quality.",
+    "path": "papers/23/04/2304.09868.json",
+    "total_tokens": 724,
+    "translated_title": "通过保留谱的数据压缩加速支持向量聚类",
+    "translated_abstract": "支持向量聚类是一种重要的聚类方法，但是由于其计算昂贵的簇分配步骤，它面临着可伸缩性问题。在本文中，我们通过保留谱的数据压缩来加速支持向量聚类。具体而言，我们将原始数据集压缩成少量谱表示的聚合数据点，然后在压缩后的数据集上执行标准的支持向量聚类，最后将压缩数据集的聚类结果映射回原始数据集以发现簇。我们在真实数据集上的大量实验结果表明，相较于标准支持向量聚类，我们的方法大大提高了速度，而不会损失聚类质量。",
+    "tldr": "本文介绍了一种通过保留谱的数据压缩来加速支持向量聚类的方法，可以显著提高聚类速度而不牺牲聚类质量。",
+    "en_tdlr": "This paper introduces a method to accelerate support vector clustering via spectrum-preserving data compression, which can dramatically improve clustering speed without sacrificing clustering quality."
+}

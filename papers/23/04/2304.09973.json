@@ -1,0 +1,12 @@
+{
+    "title": "Utilitarian Theorems and Equivalence of Utility Theories. (arXiv:2304.09973v1 [econ.TH])",
+    "abstract": "In this paper, we consider an environment in which the utilitarian theorem for the NM utility function derived by Harsanyi and the utilitarian theorem for Alt's utility function derived by Harvey hold simultaneously, and prove that the NM utility function coincides with Alt's utility function under this setup. This result is so paradoxical that we must presume that at least one of the utilitarian theorems contains a strong assumption. We examine the assumptions one by one and conclude that one of Harsanyi's axioms is strong.",
+    "link": "http://arxiv.org/abs/2304.09973",
+    "context": "Title: Utilitarian Theorems and Equivalence of Utility Theories. (arXiv:2304.09973v1 [econ.TH])\nAbstract: In this paper, we consider an environment in which the utilitarian theorem for the NM utility function derived by Harsanyi and the utilitarian theorem for Alt's utility function derived by Harvey hold simultaneously, and prove that the NM utility function coincides with Alt's utility function under this setup. This result is so paradoxical that we must presume that at least one of the utilitarian theorems contains a strong assumption. We examine the assumptions one by one and conclude that one of Harsanyi's axioms is strong.",
+    "path": "papers/23/04/2304.09973.json",
+    "total_tokens": 662,
+    "translated_title": "实用主义定理与效用理论的等价性",
+    "translated_abstract": "本文研究了一个环境，在该环境下，Harsanyi提出的NM效用函数的实用主义定理与Harvey提出的Alt效用函数的实用主义定理同时成立，并证明了在这种情况下，NM效用函数与Alt效用函数重合。这一结果具有悖论性，我们必须假定至少一个实用主义定理包含了一个强假设。我们逐一检查各个假设，并得出结论：Harsanyi的公理之一是强假设。",
+    "tldr": "本文研究了NM效用函数的实用主义定理和Alt效用函数的实用主义定理，发现二者同时成立时，NM效用函数与Alt效用函数重合，这一结果表明其中至少一个实用主义定理包含了一个强假设。",
+    "en_tdlr": "This paper examines the utilitarian theorem for NM utility function and Alt's utility function, and finds that they coincide when both hold simultaneously, indicating that at least one of the utilitarian theorems contains a strong assumption."
+}

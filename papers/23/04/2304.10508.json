@@ -1,0 +1,12 @@
+{
+    "title": "Wasserstein Loss for Semantic Editing in the Latent Space of GANs. (arXiv:2304.10508v1 [cs.CV])",
+    "abstract": "The latent space of GANs contains rich semantics reflecting the training data. Different methods propose to learn edits in latent space corresponding to semantic attributes, thus allowing to modify generated images. Most supervised methods rely on the guidance of classifiers to produce such edits. However, classifiers can lead to out-of-distribution regions and be fooled by adversarial samples. We propose an alternative formulation based on the Wasserstein loss that avoids such problems, while maintaining performance on-par with classifier-based approaches. We demonstrate the effectiveness of our method on two datasets (digits and faces) using StyleGAN2.",
+    "link": "http://arxiv.org/abs/2304.10508",
+    "context": "Title: Wasserstein Loss for Semantic Editing in the Latent Space of GANs. (arXiv:2304.10508v1 [cs.CV])\nAbstract: The latent space of GANs contains rich semantics reflecting the training data. Different methods propose to learn edits in latent space corresponding to semantic attributes, thus allowing to modify generated images. Most supervised methods rely on the guidance of classifiers to produce such edits. However, classifiers can lead to out-of-distribution regions and be fooled by adversarial samples. We propose an alternative formulation based on the Wasserstein loss that avoids such problems, while maintaining performance on-par with classifier-based approaches. We demonstrate the effectiveness of our method on two datasets (digits and faces) using StyleGAN2.",
+    "path": "papers/23/04/2304.10508.json",
+    "total_tokens": 672,
+    "translated_title": "GAN潜空间语义编辑中的Wasserstein Loss",
+    "translated_abstract": "GAN的潜在空间包含了训练数据的丰富语义信息。不同的方法提出在潜空间中学习与语义属性相对应的编辑方法，从而可以修改生成的图像。大多数监督方法依赖于分类器的指导来产生编辑。然而，分类器可能会导致超出分布区域，同时被对抗样本欺骗。我们提出了一种基于Wasserstein损失的替代公式，避免了这些问题，同时在性能上与基于分类器的方法相当。我们使用StyleGAN2在两个数据集（数字和人脸）上展示了我们方法的有效性。",
+    "tldr": "本论文提出了一种基于Wasserstein损失的GAN潜空间语义编辑方法，避免了对分类器的依赖，并在两个数据集上证明了其有效性。",
+    "en_tdlr": "This paper proposes a Wasserstein loss-based GAN latent space semantic editing method, which avoids the dependence on classifiers and demonstrates its effectiveness on two datasets."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "CKmeans and FCKmeans : Two Deterministic Initialization Procedures For Kmeans Algorithm Using Crowding Distance. (arXiv:2304.09989v1 [cs.LG])",
+    "abstract": "This paper presents two novel deterministic initialization procedures for K-means clustering based on a modified crowding distance. The procedures, named CKmeans and FCKmeans, use more crowded points as initial centroids. Experimental studies on multiple datasets demonstrate that the proposed approach outperforms Kmeans and Kmeans++ in terms of clustering accuracy. The effectiveness of CKmeans and FCKmeans is attributed to their ability to select better initial centroids based on the modified crowding distance. Overall, the proposed approach provides a promising alternative for improving K-means clustering.",
+    "link": "http://arxiv.org/abs/2304.09989",
+    "context": "Title: CKmeans and FCKmeans : Two Deterministic Initialization Procedures For Kmeans Algorithm Using Crowding Distance. (arXiv:2304.09989v1 [cs.LG])\nAbstract: This paper presents two novel deterministic initialization procedures for K-means clustering based on a modified crowding distance. The procedures, named CKmeans and FCKmeans, use more crowded points as initial centroids. Experimental studies on multiple datasets demonstrate that the proposed approach outperforms Kmeans and Kmeans++ in terms of clustering accuracy. The effectiveness of CKmeans and FCKmeans is attributed to their ability to select better initial centroids based on the modified crowding distance. Overall, the proposed approach provides a promising alternative for improving K-means clustering.",
+    "path": "papers/23/04/2304.09989.json",
+    "total_tokens": 720,
+    "translated_title": "CKmeans和FCKmeans：使用拥挤距离的Kmeans算法的两种确定性初始化过程 （arXiv：2304.09989v1 [cs.LG]）",
+    "translated_abstract": "本文提出了两种基于修改后的拥挤距离的K-means聚类的新型确定性初始化过程，分别称为CKmeans和FCKmeans。这些过程利用更密集的点作为初始质心。在多个数据集上进行的实验研究表明，所提出的方法在聚类准确度方面优于Kmeans和Kmeans ++。CKmeans和FCKmeans的有效性归因于它们基于修改后的拥挤距离选择更好的初始质心的能力。总的来说，所提出的方法为改进K-means聚类提供了一种有希望的替代方案。",
+    "tldr": "本论文提出了两种新型的确定性初始化过程（CKmeans和FCKmeans）以改进Kmeans聚类，并且实验证明这些过程在聚类准确度方面优于传统的Kmeans和Kmeans++。"
+}

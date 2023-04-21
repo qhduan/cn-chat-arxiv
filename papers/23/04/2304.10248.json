@@ -1,0 +1,12 @@
+{
+    "title": "Hotelling Deflation on Large Symmetric Spiked Tensors. (arXiv:2304.10248v1 [stat.ML])",
+    "abstract": "This paper studies the deflation algorithm when applied to estimate a low-rank symmetric spike contained in a large tensor corrupted by additive Gaussian noise. Specifically, we provide a precise characterization of the large-dimensional performance of deflation in terms of the alignments of the vectors obtained by successive rank-1 approximation and of their estimated weights, assuming non-trivial (fixed) correlations among spike components. Our analysis allows an understanding of the deflation mechanism in the presence of noise and can be exploited for designing more efficient signal estimation methods.",
+    "link": "http://arxiv.org/abs/2304.10248",
+    "context": "Title: Hotelling Deflation on Large Symmetric Spiked Tensors. (arXiv:2304.10248v1 [stat.ML])\nAbstract: This paper studies the deflation algorithm when applied to estimate a low-rank symmetric spike contained in a large tensor corrupted by additive Gaussian noise. Specifically, we provide a precise characterization of the large-dimensional performance of deflation in terms of the alignments of the vectors obtained by successive rank-1 approximation and of their estimated weights, assuming non-trivial (fixed) correlations among spike components. Our analysis allows an understanding of the deflation mechanism in the presence of noise and can be exploited for designing more efficient signal estimation methods.",
+    "path": "papers/23/04/2304.10248.json",
+    "total_tokens": 710,
+    "translated_title": "大规模对称尖峰张量上的Hotelling缩减算法",
+    "translated_abstract": "本文研究了当应用于估计受加性高斯噪声污染的大张量中包含的低秩对称尖峰时的缩减算法。具体而言，我们在假定尖峰分量存在非平凡（固定）相关性的情况下，提供了对缩减算法在大维情况下表现的精确刻画，其中包括通过连续的秩-1逼近获得的向量的对齐情况及其估计的权重。我们的分析可让人们理解噪声干扰下的缩减机制，并可用于设计更有效的信号估计方法。",
+    "tldr": "本文研究了缩减算法在大规模对称尖峰张量上的应用，提供了在存在非平凡相关性情况下的精确表现，可用于设计更有效的信号估计方法。",
+    "en_tdlr": "This paper studies the deflation algorithm applied to estimate a low-rank symmetric spike in a large tensor corrupted by Gaussian noise, providing a precise characterization of its performance with non-trivial correlations and can serve for designing more efficient signal estimation methods."
+}

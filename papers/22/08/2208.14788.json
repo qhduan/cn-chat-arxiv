@@ -1,0 +1,12 @@
+{
+    "title": "Negative Human Rights as a Basis for Long-term AI Safety and Regulation. (arXiv:2208.14788v2 [cs.CY] UPDATED)",
+    "abstract": "If autonomous AI systems are to be reliably safe in novel situations, they will need to incorporate general principles guiding them to recognize and avoid harmful behaviours. Such principles may need to be supported by a binding system of regulation, which would need the underlying principles to be widely accepted. They should also be specific enough for technical implementation. Drawing inspiration from law, this article explains how negative human rights could fulfil the role of such principles and serve as a foundation both for an international regulatory system and for building technical safety constraints for future AI systems.",
+    "link": "http://arxiv.org/abs/2208.14788",
+    "context": "Title: Negative Human Rights as a Basis for Long-term AI Safety and Regulation. (arXiv:2208.14788v2 [cs.CY] UPDATED)\nAbstract: If autonomous AI systems are to be reliably safe in novel situations, they will need to incorporate general principles guiding them to recognize and avoid harmful behaviours. Such principles may need to be supported by a binding system of regulation, which would need the underlying principles to be widely accepted. They should also be specific enough for technical implementation. Drawing inspiration from law, this article explains how negative human rights could fulfil the role of such principles and serve as a foundation both for an international regulatory system and for building technical safety constraints for future AI systems.",
+    "path": "papers/22/08/2208.14788.json",
+    "total_tokens": 678,
+    "translated_title": "以负面人权为基础的长期AI安全和监管",
+    "translated_abstract": "如果自主的AI系统要在新领域内保持可靠的安全性，它们需要融入一些通用原则来指导其识别和避免有害行为。这些原则可能需要由一套有约束力的监管体系支持，而监管体系需要具备被广泛接受的基础性原则。同时，这些原则也需要具体到可技术实现的层面。本文从法律的角度阐述了负面人权如何胜任这些原则的角色，不仅能够作为国际监管体系的基础，而且能构建为未来AI系统的技术安全约束。",
+    "tldr": "本文探讨了负面人权如何作为一种通用原则，为未来AI系统的技术安全约束提供基础，并支持国际监管体系的制定。",
+    "en_tdlr": "This article discusses how negative human rights can serve as a general principle to provide a foundation for technical safety constraints for future AI systems and support the development of an international regulatory system."
+}
