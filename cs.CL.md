@@ -29,32 +29,34 @@
 | [^25] | [DIN-SQL: Decomposed In-Context Learning of Text-to-SQL with Self-Correction.](http://arxiv.org/abs/2304.11015) | DIN-SQL通过将复杂的文本到SQL任务分解为子问题，并将这些子问题的解决方案馈入到大型语言模型中，显著提高了它们的表现，使准确性超过了当前最先进的技术。 |
 | [^26] | [BERT Based Clinical Knowledge Extraction for Biomedical Knowledge Graph Construction and Analysis.](http://arxiv.org/abs/2304.10996) | 本文提出了一种基于BERT和CRF技术的生物医学临床笔记知识提取和分析的端到端方法，用于构建和分析生物医学知识图谱。 |
 | [^27] | [Information Extraction from Documents: Question Answering vs Token Classification in real-world setups.](http://arxiv.org/abs/2304.10994) | 本研究比较了传统标记分类和新兴问答方法在文献信息提取方面的表现，并发现问答方法在处理复杂信息的文档时更加有效。 |
-| [^28] | [LEIA: Linguistic Embeddings for the Identification of Affect.](http://arxiv.org/abs/2304.10973) | 该论文提出了一种名为LEIA的情感识别模型，使用了由超过6百万个自注释文本帖子组成的数据集进行训练，利用掩蔽单词的方法增强模型预训练过程中对情感单词的学习，并在三个测试数据集上实现了约73的宏F1值，优于其他方法。 |
-| [^29] | [CancerGPT: Few-shot Drug Pair Synergy Prediction using Large Pre-trained Language Models.](http://arxiv.org/abs/2304.10946) | CancerGPT 是一种基于LLMs的少样本学习技术，可在生物学推断中预测罕见组织中的药物对协同作用。实验表明该技术准确性高，即使在样本数据非常有限的情况下仍可进行预测。 |
-| [^30] | [Text2Time: Transformer-based article time period predictor.](http://arxiv.org/abs/2304.10859) | 本文提出了一个基于Transformer模型的文章时间段预测器，使用预训练的BERT模型对新闻文章进行分类的结果表现优于先前尝试的模型，具有很高的准确性。 |
-| [^31] | [Better Sign Language Translation with Monolingual Data.](http://arxiv.org/abs/2304.10844) | 本文提出了一种规则转换方法，可以自动将大规模单语数据转录为其伪手语编码以提高手语翻译的翻译质量。该方法在两个基准数据集上实现了最新的技术能力。 |
-| [^32] | [Tokenization Tractability for Human and Machine Learning Model: An Annotation Study.](http://arxiv.org/abs/2304.10813) | 研究比较了六种分词方法，并发现人类可追溯的分词与机器学习模型中的分词不一定相同。 |
-| [^33] | [Downstream Task-Oriented Neural Tokenizer Optimization with Vocabulary Restriction as Post Processing.](http://arxiv.org/abs/2304.10808) | 本文提出了一种针对预先训练的下游模型优化 tokenization 的方法，通过限制词汇的方式可以生成更低损失值的 tokenization 结果，并训练一个复现 tokenization 结果的分词器。实验证明该方法可以提高 tokenization 的性能。 |
-| [^34] | [Which Factors Predict the Chat Experience of a Natural Language Generation Dialogue Service?.](http://arxiv.org/abs/2304.10785) | 本文研究了自然语言生成对话系统中影响聊天体验的多种因素，包括提示、连贯性、情感、相似性和用户对话代理的好感度，发现用户的好感度和连贯性、情感、相似性是聊天体验的正向预测因素。此外，用户可能更喜欢具有外向性、开放性、责任心、宜人性和非神经质特征的对话代理。 |
-| [^35] | [Eyettention: An Attention-based Dual-Sequence Model for Predicting Human Scanpaths during Reading.](http://arxiv.org/abs/2304.10784) | Eyettention是第一个同时处理语言序列和时间序列的阅读模型，可以更准确地模拟阅读者的扫视路径，对机器学习的自然语言处理模型具有借鉴意义。 |
-| [^36] | [Improving Grounded Language Understanding in a Collaborative Environment by Interacting with Agents Through Help Feedback.](http://arxiv.org/abs/2304.10750) | 研究通过互动反馈与代理交互来提高协作环境下基于实地理解的能力。 |
-| [^37] | [KitchenScale: Learning to predict ingredient quantities from recipe contexts.](http://arxiv.org/abs/2304.10739) | KitchenScale是一个经过Fine-tuned的预训练语言模型（PLM），可根据食谱上下文预测目标成分的数量和测量单位。该模型采用离散潜在指数（DExp）方法处理食谱语料库中数字尺度的高方差，尝试从食谱文本到PLMs的转移学习。在新构建的数据集和推荐示例上进行实验，证明了KitchenScale具有泛化性并可以理解各种食谱语境，同时提供了一个Web应用程序来为用户提供所需的食品量的配方特定的测量单位。 |
-| [^38] | [ReCEval: Evaluating Reasoning Chains via Correctness and Informativeness.](http://arxiv.org/abs/2304.10703) | 本文提出了一种基于推导链正确性和信息量的推理链评估框架ReCEval，用以评估多步推理能力。该框架能够客观、系统和准确地评估推理链，并在多个数据集上实现了良好的效果。 |
-| [^39] | [Meta Semantics: Towards better natural language understanding and reasoning.](http://arxiv.org/abs/2304.10663) | 该论文提出了解决词汇外问题的两种策略以及一个用于更好的自然语言理解和推理的语义模型，旨在克服深度神经网络方法和基于规则方法的不足。 |
-| [^40] | [Word Sense Induction with Knowledge Distillation from BERT.](http://arxiv.org/abs/2304.10642) | 本文提出了一种从BERT中蒸馏知识进行多词义识别的方法，可有效地利用词的多个语义感知，在资源限制的情况下获得与最先进的多词义嵌入相当的结果。 |
-| [^41] | [IXA/Cogcomp at SemEval-2023 Task 2: Context-enriched Multilingual Named Entity Recognition using Knowledge Bases.](http://arxiv.org/abs/2304.10637) | 本文提出了一种基于知识库的上下文增强的多语言命名实体识别方法，通过识别、链接和预测实体类别，能够准确地分类细粒度和新兴实体。 |
-| [^42] | ["HOT" ChatGPT: The promise of ChatGPT in detecting and discriminating hateful, offensive, and toxic comments on social media.](http://arxiv.org/abs/2304.10619) | 本研究使用ChatGPT探究了生成式AI模型检测社交媒体上有害评论的可行性，结果显示ChatGPT可以达到约80%的准确性。 |
-| [^43] | [Multi-aspect Repetition Suppression and Content Moderation of Large Language Models.](http://arxiv.org/abs/2304.10611) | 本文介绍了一种使用标记和序列级别的不可能性损失，以及在培训期间的重复惩罚、推理和后处理等多层面方法来抑制大型语言模型中的重复，并避免生成攻击性内容的能力。 |
-| [^44] | [Supporting Qualitative Analysis with Large Language Models: Combining Codebook with GPT-3 for Deductive Coding.](http://arxiv.org/abs/2304.10548) | 本研究探讨了使用大型语言模型来支持定性分析中的演绎编码。通过结合GPT-3和专家编写的编码本，研究人员成功地实现了与专家编码结果相近的标记结果，并且还允许进行高效和有效的编码本优化。 |
-| [^45] | [Towards a Benchmark for Scientific Understanding in Humans and Machines.](http://arxiv.org/abs/2304.10327) | 该论文提出了一个框架来创建衡量人类和人工智能科学理解的基准。他们使用了行为观念，提出了一组问题以衡量不同水平的科学理解。这个框架可以帮助评估和比较不同水平和方法的科学理解。 |
-| [^46] | [Chinese Open Instruction Generalist: A Preliminary Release.](http://arxiv.org/abs/2304.07987) | 本论文旨在通过适应不同子任务的固有特性，创建一个中文指令数据集，以填补指令调整技术在中文语言领域的空白。 |
-| [^47] | [An investigation of speaker independent phrase break models in End-to-End TTS systems.](http://arxiv.org/abs/2304.04157) | 本文研究了在端到端TTS系统中，加入语调断点预测模型是否有用以及如何衡量其有效性。经过实验验证，使用训练好的语调模型预测断点的故事比未使用预测断点的故事更受欢迎。 |
-| [^48] | [Unleashing the Power of ChatGPT for Translation: An Empirical Study.](http://arxiv.org/abs/2304.02182) | 本文实证研究了在机器翻译中采用ChatGPT辅助的效果。实验结果表明，ChatGPT具有与专业翻译系统相当甚至更好的性能，并且在特定领域的翻译上表现优异。 |
-| [^49] | [Combat AI With AI: Counteract Machine-Generated Fake Restaurant Reviews on Social Media.](http://arxiv.org/abs/2302.07731) | 本文针对机器生成的虚假评论提出了一种用高质量餐厅评论生成虚假评论并微调GPT输出检测器的方法，该方法预测虚假评论的性能优于现有解决方案。同时，我们还探索了预测非精英评论的模型，并在几个维度上对这些评论进行分析，此类机器生成的虚假评论是社交媒体平台面临的持续挑战。 |
-| [^50] | [Large Language Models are Versatile Decomposers: Decompose Evidence and Questions for Table-based Reasoning.](http://arxiv.org/abs/2301.13808) | 这篇论文介绍了利用大型语言模型作为分解器，解决基于表格推理中的性能下降和复杂问题的问题，并在多个基准数据集上显著优于现有方法。 |
-| [^51] | [tieval: An Evaluation Framework for Temporal Information Extraction Systems.](http://arxiv.org/abs/2301.04643) | 本文提出了tieval，一种用于时间信息抽取系统的评估框架，它提供了标准的接口和评估指标，以克服不同数据集注释体系的差异、解析不同语料库的格式和不同的评估指标等限制。本文通过分析几个TIE系统在不同数据集上的结果，证明了tieval的有效性。 |
-| [^52] | [Distill the Image to Nowhere: Inversion Knowledge Distillation for Multimodal Machine Translation.](http://arxiv.org/abs/2210.04468) | 本文提出 IKD-MMT 框架来支持无图像推断的多模式机器翻译，并通过在源文本中生成多模式特征来实现。该框架在多个基准数据集上表现出优异的性能，为实际应用场景中缺乏对齐图像的机器翻译提供了可行的解决方案。 |
-| [^53] | [Large scale analysis of gender bias and sexism in song lyrics.](http://arxiv.org/abs/2208.02052) | 本文对377808首英文歌曲歌词进行大规模的自然语言处理分析，揭示了及时的性别歧视的增加以及不同性别表演者的语言偏见。 |
+| [^28] | [Evaluating Transformer Language Models on Arithmetic Operations Using Number Decomposition.](http://arxiv.org/abs/2304.10977) | 本文评估了使用数字分解技术进行微调后的变形金刚语言模型在执行算术运算时的表现。结果显示，这种方法在五位数字加法任务中的准确度提高了63%。 |
+| [^29] | [LEIA: Linguistic Embeddings for the Identification of Affect.](http://arxiv.org/abs/2304.10973) | 该论文提出了一种名为LEIA的情感识别模型，使用了由超过6百万个自注释文本帖子组成的数据集进行训练，利用掩蔽单词的方法增强模型预训练过程中对情感单词的学习，并在三个测试数据集上实现了约73的宏F1值，优于其他方法。 |
+| [^30] | [CancerGPT: Few-shot Drug Pair Synergy Prediction using Large Pre-trained Language Models.](http://arxiv.org/abs/2304.10946) | CancerGPT 是一种基于LLMs的少样本学习技术，可在生物学推断中预测罕见组织中的药物对协同作用。实验表明该技术准确性高，即使在样本数据非常有限的情况下仍可进行预测。 |
+| [^31] | [Text2Time: Transformer-based article time period predictor.](http://arxiv.org/abs/2304.10859) | 本文提出了一个基于Transformer模型的文章时间段预测器，使用预训练的BERT模型对新闻文章进行分类的结果表现优于先前尝试的模型，具有很高的准确性。 |
+| [^32] | [Better Sign Language Translation with Monolingual Data.](http://arxiv.org/abs/2304.10844) | 本文提出了一种规则转换方法，可以自动将大规模单语数据转录为其伪手语编码以提高手语翻译的翻译质量。该方法在两个基准数据集上实现了最新的技术能力。 |
+| [^33] | [Tokenization Tractability for Human and Machine Learning Model: An Annotation Study.](http://arxiv.org/abs/2304.10813) | 研究比较了六种分词方法，并发现人类可追溯的分词与机器学习模型中的分词不一定相同。 |
+| [^34] | [Downstream Task-Oriented Neural Tokenizer Optimization with Vocabulary Restriction as Post Processing.](http://arxiv.org/abs/2304.10808) | 本文提出了一种针对预先训练的下游模型优化 tokenization 的方法，通过限制词汇的方式可以生成更低损失值的 tokenization 结果，并训练一个复现 tokenization 结果的分词器。实验证明该方法可以提高 tokenization 的性能。 |
+| [^35] | [Which Factors Predict the Chat Experience of a Natural Language Generation Dialogue Service?.](http://arxiv.org/abs/2304.10785) | 本文研究了自然语言生成对话系统中影响聊天体验的多种因素，包括提示、连贯性、情感、相似性和用户对话代理的好感度，发现用户的好感度和连贯性、情感、相似性是聊天体验的正向预测因素。此外，用户可能更喜欢具有外向性、开放性、责任心、宜人性和非神经质特征的对话代理。 |
+| [^36] | [Eyettention: An Attention-based Dual-Sequence Model for Predicting Human Scanpaths during Reading.](http://arxiv.org/abs/2304.10784) | Eyettention是第一个同时处理语言序列和时间序列的阅读模型，可以更准确地模拟阅读者的扫视路径，对机器学习的自然语言处理模型具有借鉴意义。 |
+| [^37] | [GeoLayoutLM: Geometric Pre-training for Visual Information Extraction.](http://arxiv.org/abs/2304.10759) | 本文提出了一个名为GeoLayoutLM的预训练模型，能够显式地建模预训练的几何关系，在关系提取任务中取得了最优结果。 |
+| [^38] | [Improving Grounded Language Understanding in a Collaborative Environment by Interacting with Agents Through Help Feedback.](http://arxiv.org/abs/2304.10750) | 研究通过互动反馈与代理交互来提高协作环境下基于实地理解的能力。 |
+| [^39] | [KitchenScale: Learning to predict ingredient quantities from recipe contexts.](http://arxiv.org/abs/2304.10739) | KitchenScale是一个经过Fine-tuned的预训练语言模型（PLM），可根据食谱上下文预测目标成分的数量和测量单位。该模型采用离散潜在指数（DExp）方法处理食谱语料库中数字尺度的高方差，尝试从食谱文本到PLMs的转移学习。在新构建的数据集和推荐示例上进行实验，证明了KitchenScale具有泛化性并可以理解各种食谱语境，同时提供了一个Web应用程序来为用户提供所需的食品量的配方特定的测量单位。 |
+| [^40] | [ReCEval: Evaluating Reasoning Chains via Correctness and Informativeness.](http://arxiv.org/abs/2304.10703) | 本文提出了一种基于推导链正确性和信息量的推理链评估框架ReCEval，用以评估多步推理能力。该框架能够客观、系统和准确地评估推理链，并在多个数据集上实现了良好的效果。 |
+| [^41] | [Meta Semantics: Towards better natural language understanding and reasoning.](http://arxiv.org/abs/2304.10663) | 该论文提出了解决词汇外问题的两种策略以及一个用于更好的自然语言理解和推理的语义模型，旨在克服深度神经网络方法和基于规则方法的不足。 |
+| [^42] | [Word Sense Induction with Knowledge Distillation from BERT.](http://arxiv.org/abs/2304.10642) | 本文提出了一种从BERT中蒸馏知识进行多词义识别的方法，可有效地利用词的多个语义感知，在资源限制的情况下获得与最先进的多词义嵌入相当的结果。 |
+| [^43] | [IXA/Cogcomp at SemEval-2023 Task 2: Context-enriched Multilingual Named Entity Recognition using Knowledge Bases.](http://arxiv.org/abs/2304.10637) | 本文提出了一种基于知识库的上下文增强的多语言命名实体识别方法，通过识别、链接和预测实体类别，能够准确地分类细粒度和新兴实体。 |
+| [^44] | ["HOT" ChatGPT: The promise of ChatGPT in detecting and discriminating hateful, offensive, and toxic comments on social media.](http://arxiv.org/abs/2304.10619) | 本研究使用ChatGPT探究了生成式AI模型检测社交媒体上有害评论的可行性，结果显示ChatGPT可以达到约80%的准确性。 |
+| [^45] | [Multi-aspect Repetition Suppression and Content Moderation of Large Language Models.](http://arxiv.org/abs/2304.10611) | 本文介绍了一种使用标记和序列级别的不可能性损失，以及在培训期间的重复惩罚、推理和后处理等多层面方法来抑制大型语言模型中的重复，并避免生成攻击性内容的能力。 |
+| [^46] | [Supporting Qualitative Analysis with Large Language Models: Combining Codebook with GPT-3 for Deductive Coding.](http://arxiv.org/abs/2304.10548) | 本研究探讨了使用大型语言模型来支持定性分析中的演绎编码。通过结合GPT-3和专家编写的编码本，研究人员成功地实现了与专家编码结果相近的标记结果，并且还允许进行高效和有效的编码本优化。 |
+| [^47] | [Towards a Benchmark for Scientific Understanding in Humans and Machines.](http://arxiv.org/abs/2304.10327) | 该论文提出了一个框架来创建衡量人类和人工智能科学理解的基准。他们使用了行为观念，提出了一组问题以衡量不同水平的科学理解。这个框架可以帮助评估和比较不同水平和方法的科学理解。 |
+| [^48] | [Chinese Open Instruction Generalist: A Preliminary Release.](http://arxiv.org/abs/2304.07987) | 本论文旨在通过适应不同子任务的固有特性，创建一个中文指令数据集，以填补指令调整技术在中文语言领域的空白。 |
+| [^49] | [An investigation of speaker independent phrase break models in End-to-End TTS systems.](http://arxiv.org/abs/2304.04157) | 本文研究了在端到端TTS系统中，加入语调断点预测模型是否有用以及如何衡量其有效性。经过实验验证，使用训练好的语调模型预测断点的故事比未使用预测断点的故事更受欢迎。 |
+| [^50] | [Unleashing the Power of ChatGPT for Translation: An Empirical Study.](http://arxiv.org/abs/2304.02182) | 本文实证研究了在机器翻译中采用ChatGPT辅助的效果。实验结果表明，ChatGPT具有与专业翻译系统相当甚至更好的性能，并且在特定领域的翻译上表现优异。 |
+| [^51] | [Combat AI With AI: Counteract Machine-Generated Fake Restaurant Reviews on Social Media.](http://arxiv.org/abs/2302.07731) | 本文针对机器生成的虚假评论提出了一种用高质量餐厅评论生成虚假评论并微调GPT输出检测器的方法，该方法预测虚假评论的性能优于现有解决方案。同时，我们还探索了预测非精英评论的模型，并在几个维度上对这些评论进行分析，此类机器生成的虚假评论是社交媒体平台面临的持续挑战。 |
+| [^52] | [Large Language Models are Versatile Decomposers: Decompose Evidence and Questions for Table-based Reasoning.](http://arxiv.org/abs/2301.13808) | 这篇论文介绍了利用大型语言模型作为分解器，解决基于表格推理中的性能下降和复杂问题的问题，并在多个基准数据集上显著优于现有方法。 |
+| [^53] | [tieval: An Evaluation Framework for Temporal Information Extraction Systems.](http://arxiv.org/abs/2301.04643) | 本文提出了tieval，一种用于时间信息抽取系统的评估框架，它提供了标准的接口和评估指标，以克服不同数据集注释体系的差异、解析不同语料库的格式和不同的评估指标等限制。本文通过分析几个TIE系统在不同数据集上的结果，证明了tieval的有效性。 |
+| [^54] | [Distill the Image to Nowhere: Inversion Knowledge Distillation for Multimodal Machine Translation.](http://arxiv.org/abs/2210.04468) | 本文提出 IKD-MMT 框架来支持无图像推断的多模式机器翻译，并通过在源文本中生成多模式特征来实现。该框架在多个基准数据集上表现出优异的性能，为实际应用场景中缺乏对齐图像的机器翻译提供了可行的解决方案。 |
+| [^55] | [Large scale analysis of gender bias and sexism in song lyrics.](http://arxiv.org/abs/2208.02052) | 本文对377808首英文歌曲歌词进行大规模的自然语言处理分析，揭示了及时的性别歧视的增加以及不同性别表演者的语言偏见。 |
 
 # 详细
 
@@ -436,7 +438,21 @@
 
     Research in Document Intelligence and especially in Document Key Information Extraction (DocKIE) has been mainly solved as Token Classification problem. Recent breakthroughs in both natural language processing (NLP) and computer vision helped building document-focused pre-training methods, leveraging a multimodal understanding of the document text, layout and image modalities. However, these breakthroughs also led to the emergence of a new DocKIE subtask of extractive document Question Answering (DocQA), as part of the Machine Reading Comprehension (MRC) research field. In this work, we compare the Question Answering approach with the classical token classification approach for document key information extraction. We designed experiments to benchmark five different experimental setups : raw performances, robustness to noisy environment, capacity to extract long entities, fine-tuning speed on Few-Shot Learning and finally Zero-Shot Learning. Our research showed that when dealing with cl
     
-[^28]: LEIA：语言嵌入用于情感识别
+[^28]: 使用数字分解评估变形金刚语言模型在算术运算上的表现
+
+    Evaluating Transformer Language Models on Arithmetic Operations Using Number Decomposition. (arXiv:2304.10977v1 [cs.CL])
+
+    [http://arxiv.org/abs/2304.10977](http://arxiv.org/abs/2304.10977)
+
+    本文评估了使用数字分解技术进行微调后的变形金刚语言模型在执行算术运算时的表现。结果显示，这种方法在五位数字加法任务中的准确度提高了63%。
+
+    
+
+    近年来，像GPT-3这样的大型语言模型在零和少量样本的NLP任务中展现出了非凡的能力。然而，实验突显出GPT-3在需要一定推理能力的任务，如算术运算中的困难。本文通过一个流程来评估变形金刚语言模型在执行算术运算时的能力，在这个流程中，数字会在计算之前被分解为个位、十位等。我们称使用这个流程微调后的模型为Calculon，并在GPT-3的同一测试数据集上测试了它们在执行加、减和乘法任务时的表现。结果显示，在五位数字加法任务中，准确度提高了63%。此外，我们还展示了引入分解流程的重要性，因为将相同的语言模型进行微调，但没有进行数字分解，其在五位数字加法任务中的准确度为0%。
+
+    In recent years, Large Language Models such as GPT-3 showed remarkable capabilities in performing NLP tasks in the zero and few shot settings. On the other hand, the experiments highlighted the difficulty of GPT-3 in carrying out tasks that require a certain degree of reasoning, such as arithmetic operations. In this paper we evaluate the ability of Transformer Language Models to perform arithmetic operations following a pipeline that, before performing computations, decomposes numbers in units, tens, and so on. We denote the models fine-tuned with this pipeline with the name Calculon and we test them in the task of performing additions, subtractions and multiplications on the same test sets of GPT-3. Results show an increase of accuracy of 63% in the five-digit addition task. Moreover, we demonstrate the importance of the decomposition pipeline introduced, since fine-tuning the same Language Model without decomposing numbers results in 0% accuracy in the five-digit addition task.
+    
+[^29]: LEIA：语言嵌入用于情感识别
 
     LEIA: Linguistic Embeddings for the Identification of Affect. (arXiv:2304.10973v1 [cs.CL])
 
@@ -450,7 +466,7 @@
 
     The wealth of text data generated by social media has enabled new kinds of analysis of emotions with language models. These models are often trained on small and costly datasets of text annotations produced by readers who guess the emotions expressed by others in social media posts. This affects the quality of emotion identification methods due to training data size limitations and noise in the production of labels used in model development. We present LEIA, a model for emotion identification in text that has been trained on a dataset of more than 6 million posts with self-annotated emotion labels for happiness, affection, sadness, anger, and fear. LEIA is based on a word masking method that enhances the learning of emotion words during model pre-training. LEIA achieves macro-F1 values of approximately 73 on three in-domain test datasets, outperforming other supervised and unsupervised methods in a strong benchmark that shows that LEIA generalizes across posts, users, and time periods.
     
-[^29]: CancerGPT: 基于LLMs的极少样本药物对协同作用预测技术
+[^30]: CancerGPT: 基于LLMs的极少样本药物对协同作用预测技术
 
     CancerGPT: Few-shot Drug Pair Synergy Prediction using Large Pre-trained Language Models. (arXiv:2304.10946v1 [cs.CL])
 
@@ -464,7 +480,7 @@
 
     Large pre-trained language models (LLMs) have been shown to have significant potential in few-shot learning across various fields, even with minimal training data. However, their ability to generalize to unseen tasks in more complex fields, such as biology, has yet to be fully evaluated. LLMs can offer a promising alternative approach for biological inference, particularly in cases where structured data and sample size are limited, by extracting prior knowledge from text corpora. Our proposed few-shot learning approach uses LLMs to predict the synergy of drug pairs in rare tissues that lack structured data and features. Our experiments, which involved seven rare tissues from different cancer types, demonstrated that the LLM-based prediction model achieved significant accuracy with very few or zero samples. Our proposed model, the CancerGPT (with $\sim$ 124M parameters), was even comparable to the larger fine-tuned GPT-3 model (with $\sim$ 175B parameters). Our research is the first to 
     
-[^30]: Text2Time: 基于Transformer的文章时间段预测器
+[^31]: Text2Time: 基于Transformer的文章时间段预测器
 
     Text2Time: Transformer-based article time period predictor. (arXiv:2304.10859v1 [cs.CL])
 
@@ -478,7 +494,7 @@
 
     We explore the problem of predicting the publication period of text document, such as a news article, using the text from that document. In order to do so, we created our own extensive labeled dataset of over 350,000 news articles published by The New York Times over six decades. We then provide an implementation of a simple Naive Bayes baseline model, which surprisingly achieves decent performance in terms of accuracy.Finally, for our approach, we use a pretrained BERT model fine-tuned for the task of text classification. This model exceeds our expectations and provides some very impressive results in terms of accurately classifying news articles into their respective publication decades. The results beat the performance of the few previously tried models for this relatively unexplored task of time prediction from text.
     
-[^31]: 利用单语数据实现更好的手语翻译
+[^32]: 利用单语数据实现更好的手语翻译
 
     Better Sign Language Translation with Monolingual Data. (arXiv:2304.10844v1 [cs.CL])
 
@@ -492,7 +508,7 @@
 
     Sign language translation (SLT) systems, which are often decomposed into video-to-gloss (V2G) recognition and gloss-to-text (G2T) translation through the pivot gloss, heavily relies on the availability of large-scale parallel G2T pairs. However, the manual annotation of pivot gloss, which is a sequence of transcribed written-language words in the order in which they are signed, further exacerbates the scarcity of data for SLT. To address this issue, this paper proposes a simple and efficient rule transformation method to transcribe the large-scale target monolingual data into its pseudo glosses automatically for enhancing the SLT translation. Empirical results show that the proposed approach can significantly improve the performance of SLT, especially achieving state-of-the-art results on two SLT benchmark datasets PHEONIX-WEATHER 2014T and ASLG-PC12. Our code has been released at: https://github.com/pengr/Mono\_SLT.
     
-[^32]: 人类和机器学习模型的分词可追溯性：一个注释研究
+[^33]: 人类和机器学习模型的分词可追溯性：一个注释研究
 
     Tokenization Tractability for Human and Machine Learning Model: An Annotation Study. (arXiv:2304.10813v1 [cs.CL])
 
@@ -506,7 +522,7 @@
 
     Is tractable tokenization for humans also tractable for machine learning models? This study investigates relations between tractable tokenization for humans (e.g., appropriateness and readability) and one for models of machine learning (e.g., performance on an NLP task). We compared six tokenization methods on the Japanese commonsense question-answering dataset (JCommmonsenseQA in JGLUE). We tokenized question texts of the QA dataset with different tokenizers and compared the performance of human annotators and machine-learning models. Besides,we analyze relationships among the performance, appropriateness of tokenization, and response time to questions. This paper provides a quantitative investigation result that shows the tractable tokenizations for humans and machine learning models are not necessarily the same as each other.
     
-[^33]: 限制词汇的神经网络分词器优化方法
+[^34]: 限制词汇的神经网络分词器优化方法
 
     Downstream Task-Oriented Neural Tokenizer Optimization with Vocabulary Restriction as Post Processing. (arXiv:2304.10808v1 [cs.CL])
 
@@ -520,7 +536,7 @@
 
     This paper proposes a method to optimize tokenization for the performance improvement of already trained downstream models. Our method generates tokenization results attaining lower loss values of a given downstream model on the training data for restricting vocabularies and trains a tokenizer reproducing the tokenization results. Therefore, our method can be applied to variety of tokenization methods, while existing work cannot due to the simultaneous learning of the tokenizer and the downstream model. This paper proposes an example of the BiLSTM-based tokenizer with vocabulary restriction, which can capture wider contextual information for the tokenization process than non-neural-based tokenization methods used in existing work. Experimental results on text classification in Japanese, Chinese, and English text classification tasks show that the proposed method improves performance compared to the existing methods for tokenization optimization.
     
-[^34]: 自然语言生成对话服务的聊天体验预测因素研究
+[^35]: 自然语言生成对话服务的聊天体验预测因素研究
 
     Which Factors Predict the Chat Experience of a Natural Language Generation Dialogue Service?. (arXiv:2304.10785v1 [cs.CL])
 
@@ -534,7 +550,7 @@
 
     In this paper, we proposed a conceptual model to predict the chat experience in a natural language generation dialog system. We evaluated the model with 120 participants with Partial Least Squares Structural Equation Modeling (PLS-SEM) and obtained an R-square (R2) with 0.541. The model considers various factors, including the prompts used for generation; coherence, sentiment, and similarity in the conversation; and users' perceived dialog agents' favorability. We then further explore the effectiveness of the subset of our proposed model. The results showed that users' favorability and coherence, sentiment, and similarity in the dialogue are positive predictors of users' chat experience. Moreover, we found users may prefer dialog agents with characteristics of Extroversion, Openness, Conscientiousness, Agreeableness, and Non-Neuroticism. Through our research, an adaptive dialog system might use collected data to infer factors in our model, predict the chat experience for users through 
     
-[^35]: Eyettention：基于注意力机制的双序列模型以预测人类阅读时的扫视路径
+[^36]: Eyettention：基于注意力机制的双序列模型以预测人类阅读时的扫视路径
 
     Eyettention: An Attention-based Dual-Sequence Model for Predicting Human Scanpaths during Reading. (arXiv:2304.10784v1 [cs.CL])
 
@@ -548,7 +564,21 @@
 
     Eye movements during reading offer insights into both the reader's cognitive processes and the characteristics of the text that is being read. Hence, the analysis of scanpaths in reading have attracted increasing attention across fields, ranging from cognitive science over linguistics to computer science. In particular, eye-tracking-while-reading data has been argued to bear the potential to make machine-learning-based language models exhibit a more human-like linguistic behavior. However, one of the main challenges in modeling human scanpaths in reading is their dual-sequence nature: the words are ordered following the grammatical rules of the language, whereas the fixations are chronologically ordered. As humans do not strictly read from left-to-right, but rather skip or refixate words and regress to previous words, the alignment of the linguistic and the temporal sequence is non-trivial. In this paper, we develop Eyettention, the first dual-sequence model that simultaneously process
     
-[^36]: 通过互动反馈与代理交互来提高协作环境下基于实地理解（Grounded Language Understanding）的能力
+[^37]: GeoLayoutLM: 基于几何形态的视觉信息抽取预训练模型
+
+    GeoLayoutLM: Geometric Pre-training for Visual Information Extraction. (arXiv:2304.10759v1 [cs.CV])
+
+    [http://arxiv.org/abs/2304.10759](http://arxiv.org/abs/2304.10759)
+
+    本文提出了一个名为GeoLayoutLM的预训练模型，能够显式地建模预训练的几何关系，在关系提取任务中取得了最优结果。
+
+    
+
+    视觉信息抽取（VIE）在文档智能领域扮演着重要角色，通常被划分为语义实体识别（SER）和关系提取（RE）两个任务。尽管文档的预训练模型在SER方面已经取得了实质性进展，但是现有模型大都采用隐式方式学习几何形态信息，这种方式对于RE任务不够有效，因为对于RE而言几何形态信息尤其重要。此外，我们发现对于RE而言，预训练阶段和微调阶段之间的目标间隙也影响了RE性能的提升。因此，本文提出了一个多模型框架GeoLayoutLM，能够显式地建模预训练的几何关系，我们称之为几何预训练。GeoLayoutLM通过三个特别设计的几何相关预训练任务实现了几何预训练。此外，为了弥补目标间隙，新颖的关系头检测任务也在RE的微调阶段引入。GeoLayoutLM在几个基准数据集上都取得了SER和RE任务的最优结果，证明了本方法的有效性和通用性。
+
+    Visual information extraction (VIE) plays an important role in Document Intelligence. Generally, it is divided into two tasks: semantic entity recognition (SER) and relation extraction (RE). Recently, pre-trained models for documents have achieved substantial progress in VIE, particularly in SER. However, most of the existing models learn the geometric representation in an implicit way, which has been found insufficient for the RE task since geometric information is especially crucial for RE. Moreover, we reveal another factor that limits the performance of RE lies in the objective gap between the pre-training phase and the fine-tuning phase for RE. To tackle these issues, we propose in this paper a multi-modal framework, named GeoLayoutLM, for VIE. GeoLayoutLM explicitly models the geometric relations in pre-training, which we call geometric pre-training. Geometric pre-training is achieved by three specially designed geometry-related pre-training tasks. Additionally, novel relation he
+    
+[^38]: 通过互动反馈与代理交互来提高协作环境下基于实地理解（Grounded Language Understanding）的能力
 
     Improving Grounded Language Understanding in a Collaborative Environment by Interacting with Agents Through Help Feedback. (arXiv:2304.10750v1 [cs.CL])
 
@@ -562,7 +592,7 @@
 
     Many approaches to Natural Language Processing (NLP) tasks often treat them as single-step problems, where an agent receives an instruction, executes it, and is evaluated based on the final outcome. However, human language is inherently interactive, as evidenced by the back-and-forth nature of human conversations. In light of this, we posit that human-AI collaboration should also be interactive, with humans monitoring the work of AI agents and providing feedback that the agent can understand and utilize. Further, the AI agent should be able to detect when it needs additional information and proactively ask for help. Enabling this scenario would lead to more natural, efficient, and engaging human-AI collaborations.  In this work, we explore these directions using the challenging task defined by the IGLU competition, an interactive grounded language understanding task in a MineCraft-like world. We explore multiple types of help players can give to the AI to guide it and analyze the impac
     
-[^37]: KitchenScale: 从食谱上下文中学习预测成分量。
+[^39]: KitchenScale: 从食谱上下文中学习预测成分量。
 
     KitchenScale: Learning to predict ingredient quantities from recipe contexts. (arXiv:2304.10739v1 [cs.CL])
 
@@ -576,7 +606,7 @@
 
     Determining proper quantities for ingredients is an essential part of cooking practice from the perspective of enriching tastiness and promoting healthiness. We introduce KitchenScale, a fine-tuned Pre-trained Language Model (PLM) that predicts a target ingredient's quantity and measurement unit given its recipe context. To effectively train our KitchenScale model, we formulate an ingredient quantity prediction task that consists of three sub-tasks which are ingredient measurement type classification, unit classification, and quantity regression task. Furthermore, we utilized transfer learning of cooking knowledge from recipe texts to PLMs. We adopted the Discrete Latent Exponent (DExp) method to cope with high variance of numerical scales in recipe corpora. Experiments with our newly constructed dataset and recommendation examples demonstrate KitchenScale's understanding of various recipe contexts and generalizability in predicting ingredient quantities. We implemented a web applicati
     
-[^38]: 通过正确性和信息量评估推理链的ReCEval
+[^40]: 通过正确性和信息量评估推理链的ReCEval
 
     ReCEval: Evaluating Reasoning Chains via Correctness and Informativeness. (arXiv:2304.10703v1 [cs.CL])
 
@@ -590,7 +620,7 @@
 
     Multi-step reasoning ability is fundamental to many natural language tasks, yet it is unclear what constitutes a good reasoning chain and how to evaluate them. Most existing methods focus solely on whether the reasoning chain leads to the correct conclusion, but this answer-oriented view may confound the quality of reasoning with other spurious shortcuts to predict the answer. To bridge this gap, we evaluate reasoning chains by viewing them as informal proofs that derive the final answer. Specifically, we propose ReCEval (Reasoning Chain Evaluation), a framework that evaluates reasoning chains through two key properties: (1) correctness, i.e., each step makes a valid inference based on the information contained within the step, preceding steps, and input context, and (2) informativeness, i.e., each step provides new information that is helpful towards deriving the generated answer. We implement ReCEval using natural language inference models and information-theoretic measures. On multi
     
-[^39]: 元语义学：迈向更好的自然语言理解和推理
+[^41]: 元语义学：迈向更好的自然语言理解和推理
 
     Meta Semantics: Towards better natural language understanding and reasoning. (arXiv:2304.10663v1 [cs.CL])
 
@@ -604,7 +634,7 @@
 
     Natural language understanding is one of the most challenging topics in artificial intelligence. Deep neural network methods, particularly large language module (LLM) methods such as ChatGPT and GPT-3, have powerful flexibility to adopt informal text but are weak on logical deduction and suffer from the out-of-vocabulary (OOV) problem. On the other hand, rule-based methods such as Mathematica, Semantic web, and Lean, are excellent in reasoning but cannot handle the complex and changeable informal text. Inspired by pragmatics and structuralism, we propose two strategies to solve the OOV problem and a semantic model for better natural language understanding and reasoning.
     
-[^40]: 从BERT中蒸馏知识进行词义识别
+[^42]: 从BERT中蒸馏知识进行词义识别
 
     Word Sense Induction with Knowledge Distillation from BERT. (arXiv:2304.10642v1 [cs.CL])
 
@@ -618,7 +648,7 @@
 
     Pre-trained contextual language models are ubiquitously employed for language understanding tasks, but are unsuitable for resource-constrained systems. Noncontextual word embeddings are an efficient alternative in these settings. Such methods typically use one vector to encode multiple different meanings of a word, and incur errors due to polysemy. This paper proposes a two-stage method to distill multiple word senses from a pre-trained language model (BERT) by using attention over the senses of a word in a context and transferring this sense information to fit multi-sense embeddings in a skip-gram-like framework. We demonstrate an effective approach to training the sense disambiguation mechanism in our model with a distribution over word senses extracted from the output layer embeddings of BERT. Experiments on the contextual word similarity and sense induction tasks show that this method is superior to or competitive with state-of-the-art multi-sense embeddings on multiple benchmark d
     
-[^41]: IXA/Cogcomp在SemEval-2023任务2中的表现：基于知识库的上下文增强多语言命名实体识别。
+[^43]: IXA/Cogcomp在SemEval-2023任务2中的表现：基于知识库的上下文增强多语言命名实体识别。
 
     IXA/Cogcomp at SemEval-2023 Task 2: Context-enriched Multilingual Named Entity Recognition using Knowledge Bases. (arXiv:2304.10637v1 [cs.CL])
 
@@ -632,7 +662,7 @@
 
     Named Entity Recognition (NER) is a core natural language processing task in which pre-trained language models have shown remarkable performance. However, standard benchmarks like CoNLL 2003 \cite{conll03} do not address many of the challenges that deployed NER systems face, such as having to classify emerging or complex entities in a fine-grained way. In this paper we present a novel NER cascade approach comprising three steps: first, identifying candidate entities in the input sentence; second, linking the each candidate to an existing knowledge base; third, predicting the fine-grained category for each entity candidate. We empirically demonstrate the significance of external knowledge bases in accurately classifying fine-grained and emerging entities. Our system exhibits robust performance in the MultiCoNER2 \cite{multiconer2-data} shared task, even in the low-resource language setting where we leverage knowledge bases of high-resource languages.
     
-[^42]: “HOT” ChatGPT：ChatGPT在社交媒体上检测和识别令人讨厌、令人不悦和有害评论的潜力
+[^44]: “HOT” ChatGPT：ChatGPT在社交媒体上检测和识别令人讨厌、令人不悦和有害评论的潜力
 
     "HOT" ChatGPT: The promise of ChatGPT in detecting and discriminating hateful, offensive, and toxic comments on social media. (arXiv:2304.10619v1 [cs.CL])
 
@@ -646,7 +676,7 @@
 
     Harmful content is pervasive on social media, poisoning online communities and negatively impacting participation. A common approach to address this issue is to develop detection models that rely on human annotations. However, the tasks required to build such models expose annotators to harmful and offensive content and may require significant time and cost to complete. Generative AI models have the potential to understand and detect harmful content. To investigate this potential, we used ChatGPT and compared its performance with MTurker annotations for three frequently discussed concepts related to harmful content: Hateful, Offensive, and Toxic (HOT). We designed five prompts to interact with ChatGPT and conducted four experiments eliciting HOT classifications. Our results show that ChatGPT can achieve an accuracy of approximately 80% when compared to MTurker annotations. Specifically, the model displays a more consistent classification for non-HOT comments than HOT comments compared 
     
-[^43]: 大型语言模型的多方面重复抑制和内容调控
+[^45]: 大型语言模型的多方面重复抑制和内容调控
 
     Multi-aspect Repetition Suppression and Content Moderation of Large Language Models. (arXiv:2304.10611v1 [cs.CL])
 
@@ -660,7 +690,7 @@
 
     Natural language generation is one of the most impactful fields in NLP, and recent years have witnessed its evolution brought about by large language models (LLMs). As the key instrument for writing assistance applications, they are generally prone to replicating or extending offensive content provided in the input. In low-resource data regime, they can also lead to repetitive outputs (Holtzman et al., 2019) [1]. Usually, offensive content and repetitions are mitigated with post-hoc methods, including n-gram level blocklists, top-k and nucleus sampling. In this paper, we introduce a combination of exact and non-exact repetition suppression using token and sequence level unlikelihood loss, repetition penalty during training, inference, and post-processing respectively. We further explore multi-level unlikelihood loss to the extent that it endows the model with abilities to avoid generating offensive words and phrases from the beginning. Finally, with comprehensive experiments, we demons
     
-[^44]: 结合编码本和GPT-3支持定性分析的大语言模型
+[^46]: 结合编码本和GPT-3支持定性分析的大语言模型
 
     Supporting Qualitative Analysis with Large Language Models: Combining Codebook with GPT-3 for Deductive Coding. (arXiv:2304.10548v1 [cs.CL])
 
@@ -674,7 +704,7 @@
 
     Qualitative analysis of textual contents unpacks rich and valuable information by assigning labels to the data. However, this process is often labor-intensive, particularly when working with large datasets. While recent AI-based tools demonstrate utility, researchers may not have readily available AI resources and expertise, let alone be challenged by the limited generalizability of those task-specific models. In this study, we explored the use of large language models (LLMs) in supporting deductive coding, a major category of qualitative analysis where researchers use pre-determined codebooks to label the data into a fixed set of codes. Instead of training task-specific models, a pre-trained LLM could be used directly for various tasks without fine-tuning through prompt learning. Using a curiosity-driven questions coding task as a case study, we found, by combining GPT-3 with expert-drafted codebooks, our proposed approach achieved fair to substantial agreements with expert-coded resu
     
-[^45]: 向着人类和机器科学理解的基准迈进
+[^47]: 向着人类和机器科学理解的基准迈进
 
     Towards a Benchmark for Scientific Understanding in Humans and Machines. (arXiv:2304.10327v1 [cs.AI])
 
@@ -688,7 +718,7 @@
 
     Scientific understanding is a fundamental goal of science, allowing us to explain the world. There is currently no good way to measure the scientific understanding of agents, whether these be humans or Artificial Intelligence systems. Without a clear benchmark, it is challenging to evaluate and compare different levels of and approaches to scientific understanding. In this Roadmap, we propose a framework to create a benchmark for scientific understanding, utilizing tools from philosophy of science. We adopt a behavioral notion according to which genuine understanding should be recognized as an ability to perform certain tasks. We extend this notion by considering a set of questions that can gauge different levels of scientific understanding, covering information retrieval, the capability to arrange information to produce an explanation, and the ability to infer how things would be different under different circumstances. The Scientific Understanding Benchmark (SUB), which is formed by 
     
-[^46]: 中文开放式指令广义语言模型：初步发布
+[^48]: 中文开放式指令广义语言模型：初步发布
 
     Chinese Open Instruction Generalist: A Preliminary Release. (arXiv:2304.07987v2 [cs.CL] UPDATED)
 
@@ -702,7 +732,7 @@
 
     Instruction tuning is widely recognized as a key technique for building generalist language models, which has attracted the attention of researchers and the public with the release of InstructGPT~\citep{ouyang2022training} and ChatGPT\footnote{\url{https://chat.openai.com/}}. Despite impressive progress in English-oriented large-scale language models (LLMs), it is still under-explored whether English-based foundation LLMs can perform similarly on multilingual tasks compared to English tasks with well-designed instruction tuning and how we can construct the corpora needed for the tuning.  To remedy this gap, we propose the project as an attempt to create a Chinese instruction dataset by various methods adapted to the intrinsic characteristics of 4 sub-tasks. We collect around 200k Chinese instruction tuning samples, which have been manually checked to guarantee high quality. We also summarize the existing English and Chinese instruction corpora and briefly describe some potential applic
     
-[^47]: 在端到端的TTS系统中，说话人独立语调断点模型的研究
+[^49]: 在端到端的TTS系统中，说话人独立语调断点模型的研究
 
     An investigation of speaker independent phrase break models in End-to-End TTS systems. (arXiv:2304.04157v1 [eess.AS])
 
@@ -716,7 +746,7 @@
 
     This paper presents our work on phrase break prediction in the context of end-to-end TTS systems, motivated by the following questions: (i) Is there any utility in incorporating an explicit phrasing model in an end-to-end TTS system?, and (ii) How do you evaluate the effectiveness of a phrasing model in an end-to-end TTS system? In particular, the utility and effectiveness of phrase break prediction models are evaluated in in the context of childrens story synthesis, using listener comprehension. We show by means of perceptual listening evaluations that there is a clear preference for stories synthesized after predicting the location of phrase breaks using a trained phrasing model, over stories directly synthesized without predicting the location of phrase breaks.
     
-[^48]: 发掘ChatGPT翻译的能力：一项实证研究
+[^50]: 发掘ChatGPT翻译的能力：一项实证研究
 
     Unleashing the Power of ChatGPT for Translation: An Empirical Study. (arXiv:2304.02182v1 [cs.CL])
 
@@ -730,7 +760,7 @@
 
     The recently released ChatGPT has demonstrated surprising abilities in natural language understanding and natural language generation. Machine translation is an important and extensively studied task in the field of natural language processing, which heavily relies on the abilities of language understanding and generation. Thus, in this paper, we explore how to assist machine translation with ChatGPT. We adopt several translation prompts on a wide range of translations. Our experimental results show that ChatGPT with designed translation prompts can achieve comparable or better performance over professional translation systems for high-resource language translations but lags behind significantly on low-resource translations. We further evaluate the translation quality using multiple references, and ChatGPT achieves superior performance compared to the professional systems. We also conduct experiments on domain-specific translations, the final results show that ChatGPT is able to compre
     
-[^49]: AI对抗AI：在社交媒体上打击机器生成的虚假餐厅评论
+[^51]: AI对抗AI：在社交媒体上打击机器生成的虚假餐厅评论
 
     Combat AI With AI: Counteract Machine-Generated Fake Restaurant Reviews on Social Media. (arXiv:2302.07731v2 [cs.CL] UPDATED)
 
@@ -744,7 +774,7 @@
 
     Recent advances in generative models such as GPT may be used to fabricate indistinguishable fake customer reviews at a much lower cost, thus posing challenges for social media platforms to detect these machine-generated fake reviews. We propose to leverage the high-quality elite restaurant reviews verified by Yelp to generate fake reviews from the OpenAI GPT review creator and ultimately fine-tune a GPT output detector to predict fake reviews that significantly outperform existing solutions. We further apply the model to predict non-elite reviews and identify the patterns across several dimensions, such as review, user and restaurant characteristics, and writing style. We show that social media platforms are continuously challenged by machine-generated fake reviews, although they may implement detection systems to filter out suspicious reviews.
     
-[^50]: 大型语言模型是多才多艺的分解器：将证据和问题分解为表格推理
+[^52]: 大型语言模型是多才多艺的分解器：将证据和问题分解为表格推理
 
     Large Language Models are Versatile Decomposers: Decompose Evidence and Questions for Table-based Reasoning. (arXiv:2301.13808v2 [cs.CL] UPDATED)
 
@@ -758,7 +788,7 @@
 
     Table-based reasoning has shown remarkable progress in combining deep models with discrete reasoning, which requires reasoning over both free-form natural language (NL) questions and structured tabular data. However, previous table-based reasoning solutions usually suffer from significant performance degradation on huge evidence (tables). In addition, most existing methods struggle to reason over complex questions since the required information is scattered in different places. To alleviate the above challenges, we exploit large language models (LLMs) as decomposers for effective table-based reasoning, which (i) decompose huge evidence (a huge table) into sub-evidence (a small table) to mitigate the interference of useless information for table reasoning; and (ii) decompose complex questions into simpler sub-questions for text reasoning. Specifically, we first use the LLMs to break down the evidence (tables) involved in the current question, retaining the relevant evidence and excludin
     
-[^51]: tieval：一种用于时间信息抽取系统评估的评估框架
+[^53]: tieval：一种用于时间信息抽取系统评估的评估框架
 
     tieval: An Evaluation Framework for Temporal Information Extraction Systems. (arXiv:2301.04643v2 [cs.CL] UPDATED)
 
@@ -772,7 +802,7 @@
 
     Temporal information extraction (TIE) has attracted a great deal of interest over the last two decades, leading to the development of a significant number of datasets. Despite its benefits, having access to a large volume of corpora makes it difficult when it comes to benchmark TIE systems. On the one hand, different datasets have different annotation schemes, thus hindering the comparison between competitors across different corpora. On the other hand, the fact that each corpus is commonly disseminated in a different format requires a considerable engineering effort for a researcher/practitioner to develop parsers for all of them. This constraint forces researchers to select a limited amount of datasets to evaluate their systems which consequently limits the comparability of the systems. Yet another obstacle that hinders the comparability of the TIE systems is the evaluation metric employed. While most research works adopt traditional metrics such as precision, recall, and $F_1$, a fe
     
-[^52]: 失去目标的图像压缩：用反演知识蒸馏支持多模式机器翻译的无图像推断
+[^54]: 失去目标的图像压缩：用反演知识蒸馏支持多模式机器翻译的无图像推断
 
     Distill the Image to Nowhere: Inversion Knowledge Distillation for Multimodal Machine Translation. (arXiv:2210.04468v2 [cs.CL] UPDATED)
 
@@ -786,7 +816,7 @@
 
     Past works on multimodal machine translation (MMT) elevate bilingual setup by incorporating additional aligned vision information. However, an image-must requirement of the multimodal dataset largely hinders MMT's development -namely that it demands an aligned form of [image, source text, target text]. This limitation is generally troublesome during the inference phase especially when the aligned image is not provided as in the normal NMT setup. Thus, in this work, we introduce IKD-MMT, a novel MMT framework to support the image-free inference phase via an inversion knowledge distillation scheme. In particular, a multimodal feature generator is executed with a knowledge distillation module, which directly generates the multimodal feature from (only) source texts as the input. While there have been a few prior works entertaining the possibility to support image-free inference for machine translation, their performances have yet to rival the image-must translation. In our experiments, 
     
-[^53]: 歌词中的性别歧视和性别偏见的大规模分析
+[^55]: 歌词中的性别歧视和性别偏见的大规模分析
 
     Large scale analysis of gender bias and sexism in song lyrics. (arXiv:2208.02052v3 [cs.CY] UPDATED)
 
