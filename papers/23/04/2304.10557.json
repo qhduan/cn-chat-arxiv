@@ -1,0 +1,12 @@
+{
+    "title": "An Introduction to Transformers. (arXiv:2304.10557v1 [cs.LG])",
+    "abstract": "The transformer is a neural network component that can be used to learn useful representations of sequences or sets of datapoints. The transformer has driven recent advances in natural language processing, computer vision, and spatio-temporal modelling. There are many introductions to transformers, but most do not contain precise mathematical descriptions of the architecture and the intuitions behind the design choices are often also missing. Moreover, as research takes a winding path, the explanations for the components of the transformer can be idiosyncratic. In this note we aim for a mathematically precise, intuitive, and clean description of the transformer architecture.",
+    "link": "http://arxiv.org/abs/2304.10557",
+    "context": "Title: An Introduction to Transformers. (arXiv:2304.10557v1 [cs.LG])\nAbstract: The transformer is a neural network component that can be used to learn useful representations of sequences or sets of datapoints. The transformer has driven recent advances in natural language processing, computer vision, and spatio-temporal modelling. There are many introductions to transformers, but most do not contain precise mathematical descriptions of the architecture and the intuitions behind the design choices are often also missing. Moreover, as research takes a winding path, the explanations for the components of the transformer can be idiosyncratic. In this note we aim for a mathematically precise, intuitive, and clean description of the transformer architecture.",
+    "path": "papers/23/04/2304.10557.json",
+    "total_tokens": 677,
+    "translated_title": "Transformer介绍",
+    "translated_abstract": "Transformer是一种可以学习序列或数据集表示的神经网络组件。Transformer在自然语言处理、计算机视觉和时空建模方面取得了重大进展。虽然有很多Transformer的介绍，但大多数都缺少对其架构的精确数学描述，其设计选择的直觉也常常缺失。此外，随着研究路径的曲折，Transformer部件的解释可能是异质的。在这篇论文中，我们旨在提供一个数学精确、直观、简洁的Transformer架构描述。",
+    "tldr": "Transformer是一种神经网络组件，可以学习序列或数据集表示，在自然语言处理、计算机视觉和时空建模方面取得了重大进展。本论文提供了一个数学精确、直观、简洁的Transformer架构描述。",
+    "en_tdlr": "Transformer is a neural network component that can learn representations of sequences or datasets, driving advances in natural language processing, computer vision, and spatio-temporal modeling. This paper provides a mathematically precise, intuitive, and concise description of the transformer architecture."
+}

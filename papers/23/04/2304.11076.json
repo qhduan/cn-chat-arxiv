@@ -1,0 +1,12 @@
+{
+    "title": "Can ChatGPT-like Generative Models Guarantee Factual Accuracy? On the Mistakes of New Generation Search Engines. (arXiv:2304.11076v1 [cs.CL])",
+    "abstract": "Although large conversational AI models such as OpenAI's ChatGPT have demonstrated great potential, we question whether such models can guarantee factual accuracy. Recently, technology companies such as Microsoft and Google have announced new services which aim to combine search engines with conversational AI. However, we have found numerous mistakes in the public demonstrations that suggest we should not easily trust the factual claims of the AI models. Rather than criticizing specific models or companies, we hope to call on researchers and developers to improve AI models' transparency and factual correctness.",
+    "link": "http://arxiv.org/abs/2304.11076",
+    "context": "Title: Can ChatGPT-like Generative Models Guarantee Factual Accuracy? On the Mistakes of New Generation Search Engines. (arXiv:2304.11076v1 [cs.CL])\nAbstract: Although large conversational AI models such as OpenAI's ChatGPT have demonstrated great potential, we question whether such models can guarantee factual accuracy. Recently, technology companies such as Microsoft and Google have announced new services which aim to combine search engines with conversational AI. However, we have found numerous mistakes in the public demonstrations that suggest we should not easily trust the factual claims of the AI models. Rather than criticizing specific models or companies, we hope to call on researchers and developers to improve AI models' transparency and factual correctness.",
+    "path": "papers/23/04/2304.11076.json",
+    "total_tokens": 712,
+    "translated_title": "“类ChatGPT生成模型能否保证事实准确性？新一代搜索引擎的失误”",
+    "translated_abstract": "尽管像OpenAI的ChatGPT这样的大型对话型AI模型展现出了巨大的潜力，但我们质疑这些模型能否保证事实准确性。最近，微软和谷歌等科技公司宣布了旨在将搜索引擎与对话型AI相结合的新服务。然而，我们发现公开演示中存在许多错误，这表明我们不应轻易相信AI模型的事实主张。我们希望呼吁研究人员和开发人员改善AI模型的透明度和事实正确性，而不是批评特定的模型或公司。",
+    "tldr": "论文质疑类ChatGPT生成模型是否能保证事实准确性，很多新一代搜索引擎的公开演示中存在事实错误，呼吁科研人员和开发人员提高透明度和事实正确性。",
+    "en_tdlr": "The paper questions whether ChatGPT-like generative models can guarantee factual accuracy and highlights numerous mistakes in public demonstrations of the new generation search engines, urging researchers and developers to improve transparency and factual correctness of AI models."
+}

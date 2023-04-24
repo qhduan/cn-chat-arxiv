@@ -1,0 +1,12 @@
+{
+    "title": "Anti-unification and Generalization: A Survey. (arXiv:2302.00277v3 [cs.LO] UPDATED)",
+    "abstract": "Anti-unification (AU), also known as generalization, is a fundamental operation used for inductive inference and is the dual operation to unification, an operation at the foundation of theorem proving. Interest in AU from the AI and related communities is growing, but without a systematic study of the concept, nor surveys of existing work, investigations7 often resort to developing application-specific methods that may be covered by existing approaches. We provide the first survey of AU research and its applications, together with a general framework for categorizing existing and future developments.",
+    "link": "http://arxiv.org/abs/2302.00277",
+    "context": "Title: Anti-unification and Generalization: A Survey. (arXiv:2302.00277v3 [cs.LO] UPDATED)\nAbstract: Anti-unification (AU), also known as generalization, is a fundamental operation used for inductive inference and is the dual operation to unification, an operation at the foundation of theorem proving. Interest in AU from the AI and related communities is growing, but without a systematic study of the concept, nor surveys of existing work, investigations7 often resort to developing application-specific methods that may be covered by existing approaches. We provide the first survey of AU research and its applications, together with a general framework for categorizing existing and future developments.",
+    "path": "papers/23/02/2302.00277.json",
+    "total_tokens": 673,
+    "translated_title": "反升级与概括：一份调查报告",
+    "translated_abstract": "反升级（AU）又称概括，是归纳推理中使用的基本操作，是定理证明基础上的双重操作之一。 AI和相关社区对AU的兴趣日益增长，但没有系统研究该概念，也没有现有工作的调查，调查往往会采用特定于应用的方法，而这些方法可能已经被现有方法覆盖。我们提供了第一份有关AU研究及其应用的调查报告，以及一种将现有和未来发展分类的通用框架。",
+    "tldr": "反升级或概括是归纳推理中使用的基本操作，是定理证明的双重操作之一。该调查报告对反升级的研究和应用进行了系统归纳和总结。",
+    "en_tdlr": "Anti-unification or generalization is a fundamental operation in inductive inference, and is one of the dual operations to unification, a basic operation in theorem proving. This survey provides a systematic summary of research and applications of anti-unification."
+}

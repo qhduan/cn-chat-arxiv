@@ -1,0 +1,12 @@
+{
+    "title": "Stochastic Online Convex Optimization. Application to probabilistic time series forecasting. (arXiv:2102.00729v3 [cs.LG] UPDATED)",
+    "abstract": "We introduce a general framework of stochastic online convex optimization to obtain fast-rate stochastic regret bounds. We prove that algorithms such as online newton steps and a scale-free 10 version of Bernstein online aggregation achieve best-known rates in unbounded stochastic settings. We apply our approach to calibrate parametric probabilistic forecasters of non-stationary sub-gaussian time series. Our fast-rate stochastic regret bounds are any-time valid. Our proofs combine self-bounded and Poissonnian inequalities for martingales and sub-gaussian random variables, respectively, under a stochastic exp-concavity assumption.",
+    "link": "http://arxiv.org/abs/2102.00729",
+    "context": "Title: Stochastic Online Convex Optimization. Application to probabilistic time series forecasting. (arXiv:2102.00729v3 [cs.LG] UPDATED)\nAbstract: We introduce a general framework of stochastic online convex optimization to obtain fast-rate stochastic regret bounds. We prove that algorithms such as online newton steps and a scale-free 10 version of Bernstein online aggregation achieve best-known rates in unbounded stochastic settings. We apply our approach to calibrate parametric probabilistic forecasters of non-stationary sub-gaussian time series. Our fast-rate stochastic regret bounds are any-time valid. Our proofs combine self-bounded and Poissonnian inequalities for martingales and sub-gaussian random variables, respectively, under a stochastic exp-concavity assumption.",
+    "path": "papers/21/02/2102.00729.json",
+    "total_tokens": 724,
+    "translated_title": "随机在线凸优化。应用于概率时间序列预测。",
+    "translated_abstract": "我们介绍了一种通用的随机在线凸优化框架，以获得快速速率的随机遗憾度边界。我们证明在线牛顿步和一个缩放自由的伯恩斯坦在线聚合等算法在无界随机环境下实现了最佳已知速率。我们将我们的方法应用于校准非平稳亚高斯时间序列的参数概率预测器。我们的快速率随机遗憾度边界是任意时间有效的。我们的证明结合了自限定和泊松不等式，用于零增长和次高斯随机变量，分别在随机exp-凸性假设下。",
+    "tldr": "该论文介绍了一种随机在线凸优化框架，并将其应用于非平稳亚高斯时间序列的预测，取得了快速速率的随机遗憾度边界。",
+    "en_tdlr": "This paper introduces a general framework of stochastic online convex optimization and applies it to probabilistic forecasters of non-stationary sub-gaussian time series, achieving fast-rate stochastic regret bounds."
+}

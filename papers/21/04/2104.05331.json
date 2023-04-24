@@ -1,0 +1,12 @@
+{
+    "title": "MeToo Tweets Sentiment Analysis Using Multi Modal frameworks. (arXiv:2104.05331v2 [cs.AI] UPDATED)",
+    "abstract": "In this paper, We present our approach for IEEEBigMM 2020, Grand Challenge (BMGC), Identifying senti-ments from tweets related to the MeToo movement. The modelis based on an ensemble of Convolutional Neural Network,Bidirectional LSTM and a DNN for final classification. Thispaper is aimed at providing a detailed analysis of the modeland the results obtained. We have ranked 5th out of 10 teamswith a score of 0.51491",
+    "link": "http://arxiv.org/abs/2104.05331",
+    "context": "Title: MeToo Tweets Sentiment Analysis Using Multi Modal frameworks. (arXiv:2104.05331v2 [cs.AI] UPDATED)\nAbstract: In this paper, We present our approach for IEEEBigMM 2020, Grand Challenge (BMGC), Identifying senti-ments from tweets related to the MeToo movement. The modelis based on an ensemble of Convolutional Neural Network,Bidirectional LSTM and a DNN for final classification. Thispaper is aimed at providing a detailed analysis of the modeland the results obtained. We have ranked 5th out of 10 teamswith a score of 0.51491",
+    "path": "papers/21/04/2104.05331.json",
+    "total_tokens": 609,
+    "translated_title": "基于多模态框架的MeToo推文情感分析",
+    "translated_abstract": "本文介绍了我们针对IEEEMBigMM 2020大挑战赛（BMGC）的方法，用于识别与MeToo运动相关的推文的情感。该模型基于卷积神经网络、双向LSTM和DNN的集成，以进行最终分类。本文旨在提供模型和结果的详细分析。我们的成绩为0.51491，在10个团队中排名第5。",
+    "tldr": "本文使用多个模型，在MeToo运动相关的推文中进行情感分类，并在IEEEMBigMM 2020大赛中获得了第5名的好成绩。",
+    "en_tdlr": "This paper achieves sentiment analysis on MeToo-related tweets using a combination of models, and obtained a good score of 0.51491 ranking 5th out of 10 teams in the IEEEMBigMM 2020 Grand Challenge (BMGC)."
+}

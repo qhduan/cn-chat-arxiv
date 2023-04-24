@@ -1,0 +1,12 @@
+{
+    "title": "Forecast Ergodicity: Prediction Modeling Using Algorithmic Information Theory. (arXiv:2304.10752v1 [cs.IT])",
+    "abstract": "The capabilities of machine intelligence are bounded by the potential of data from the past to forecast the future. Deep learning tools are used to find structures in the available data to make predictions about the future. Such structures have to be present in the available data in the first place and they have to be applicable in the future. Forecast ergodicity is a measure of the ability to forecast future events from data in the past. We model this bound by the algorithmic complexity of the available data.",
+    "link": "http://arxiv.org/abs/2304.10752",
+    "context": "Title: Forecast Ergodicity: Prediction Modeling Using Algorithmic Information Theory. (arXiv:2304.10752v1 [cs.IT])\nAbstract: The capabilities of machine intelligence are bounded by the potential of data from the past to forecast the future. Deep learning tools are used to find structures in the available data to make predictions about the future. Such structures have to be present in the available data in the first place and they have to be applicable in the future. Forecast ergodicity is a measure of the ability to forecast future events from data in the past. We model this bound by the algorithmic complexity of the available data.",
+    "path": "papers/23/04/2304.10752.json",
+    "total_tokens": 620,
+    "translated_title": "预测遍历性：使用算法信息论进行预测建模",
+    "translated_abstract": "计算机智能的能力受到过去数据预测未来的潜力的限制。深度学习工具用于发现可用数据中的结构，以便预测未来。但这些结构必须首先存在于可用数据中，并且在未来也必须适用。预测遍历性是从过去数据中预测未来事件的能力的度量。我们通过可用数据的算法复杂性来模拟这个限制。",
+    "tldr": "本论文讨论了预测遍历性（forecast ergodicity）的概念，即从过去数据中预测未来事件的能力的度量。文章使用算法复杂性模拟这个能力的限制。",
+    "en_tdlr": "This paper discusses the concept of forecast ergodicity, which is a measure of the ability to predict future events from past data. The article models this ability's limitation using algorithmic complexity."
+}

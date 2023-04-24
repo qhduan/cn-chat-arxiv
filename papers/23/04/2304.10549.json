@@ -1,0 +1,12 @@
+{
+    "title": "A note on the connectedness property of union-free generic sets of partial orders. (arXiv:2304.10549v1 [cs.LG])",
+    "abstract": "This short note describes and proves a connectedness property which was introduced in Blocher et al. [2023] in the context of data depth functions for partial orders. The connectedness property gives a structural insight into union-free generic sets. These sets, presented in Blocher et al. [2023], are defined by using a closure operator on the set of all partial orders which naturally appears within the theory of formal concept analysis. In the language of formal concept analysis, the property of connectedness can be vividly proven. However, since within Blocher et al. [2023] we did not discuss formal concept analysis, we outsourced the proof to this note.",
+    "link": "http://arxiv.org/abs/2304.10549",
+    "context": "Title: A note on the connectedness property of union-free generic sets of partial orders. (arXiv:2304.10549v1 [cs.LG])\nAbstract: This short note describes and proves a connectedness property which was introduced in Blocher et al. [2023] in the context of data depth functions for partial orders. The connectedness property gives a structural insight into union-free generic sets. These sets, presented in Blocher et al. [2023], are defined by using a closure operator on the set of all partial orders which naturally appears within the theory of formal concept analysis. In the language of formal concept analysis, the property of connectedness can be vividly proven. However, since within Blocher et al. [2023] we did not discuss formal concept analysis, we outsourced the proof to this note.",
+    "path": "papers/23/04/2304.10549.json",
+    "total_tokens": 724,
+    "translated_title": "关于无交集偏序通用集合的连通性属性的注记",
+    "translated_abstract": "本短文描述并证明了在偏序数据深度函数的背景下Blocher等人[2023]引入的连通性属性。 连通性属性为无交通用集合提供了结构性的深入认识。这些集合是在Blocher等人[2023]中介绍的，它们使用在形式概念分析理论中自然出现的所有偏序集合上的闭包运算进行定义。在形式概念分析的语言中，连通性的属性可以生动地被证明。但是，由于在Blocher等人[2023]中我们没有讨论形式概念分析,因此我们把证明放到了这里。",
+    "tldr": "本文证明了偏序数据深度函数的背景下Blocher等人[2023]中介绍的无交通用集合具有连通性属性。",
+    "en_tdlr": "This note proves the connectedness property of union-free generic sets introduced in Blocher et al. [2023] in the context of data depth functions for partial orders. The property gives a structural insight into these sets defined by a closure operator on the set of all partial orders within the theory of formal concept analysis."
+}

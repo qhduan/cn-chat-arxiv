@@ -1,0 +1,12 @@
+{
+    "title": "On the Importance of Exploration for Real Life Learned Algorithms. (arXiv:2304.10860v1 [cs.LG])",
+    "abstract": "The quality of data driven learning algorithms scales significantly with the quality of data available. One of the most straight-forward ways to generate good data is to sample or explore the data source intelligently. Smart sampling can reduce the cost of gaining samples, reduce computation cost in learning, and enable the learning algorithm to adapt to unforeseen events. In this paper, we teach three Deep Q-Networks (DQN) with different exploration strategies to solve a problem of puncturing ongoing transmissions for URLLC messages. We demonstrate the efficiency of two adaptive exploration candidates, variance-based and Maximum Entropy-based exploration, compared to the standard, simple epsilon-greedy exploration approach.",
+    "link": "http://arxiv.org/abs/2304.10860",
+    "context": "Title: On the Importance of Exploration for Real Life Learned Algorithms. (arXiv:2304.10860v1 [cs.LG])\nAbstract: The quality of data driven learning algorithms scales significantly with the quality of data available. One of the most straight-forward ways to generate good data is to sample or explore the data source intelligently. Smart sampling can reduce the cost of gaining samples, reduce computation cost in learning, and enable the learning algorithm to adapt to unforeseen events. In this paper, we teach three Deep Q-Networks (DQN) with different exploration strategies to solve a problem of puncturing ongoing transmissions for URLLC messages. We demonstrate the efficiency of two adaptive exploration candidates, variance-based and Maximum Entropy-based exploration, compared to the standard, simple epsilon-greedy exploration approach.",
+    "path": "papers/23/04/2304.10860.json",
+    "total_tokens": 753,
+    "translated_title": "论探索对实际学习算法的重要性",
+    "translated_abstract": "数据驱动的学习算法的质量与可用数据的质量显著相关。生成好的数据的最简单方式之一是智能地对数据源进行采样或探索。智能采样可以降低获取样本的成本，减少学习过程中的计算成本，并使学习算法能够适应未预料到的事件。在本文中，我们使用不同探索策略教授了三个深度Q网络（DQN）来解决URLLC信息的打孔传输问题。我们证明了两种自适应探索候选方法（基于方差和基于最大熵的探索）相对于标准的简单epsilon-greedy探索方法的效率。",
+    "tldr": "本文研究探索对实际学习算法的重要性并使用不同策略的深度Q网络解决了URLLC信息的传输问题，证明了自适应探索方法的有效性。",
+    "en_tdlr": "This paper discusses the importance of exploration for real-life learned algorithms, and uses different strategies of Deep Q-Networks (DQN) to solve a problem of puncturing ongoing transmissions for URLLC messages. The efficiency of adaptive exploration methods is demonstrated in comparison to the standard epsilon-greedy approach."
+}

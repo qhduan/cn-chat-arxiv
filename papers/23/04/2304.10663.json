@@ -1,0 +1,12 @@
+{
+    "title": "Meta Semantics: Towards better natural language understanding and reasoning. (arXiv:2304.10663v1 [cs.CL])",
+    "abstract": "Natural language understanding is one of the most challenging topics in artificial intelligence. Deep neural network methods, particularly large language module (LLM) methods such as ChatGPT and GPT-3, have powerful flexibility to adopt informal text but are weak on logical deduction and suffer from the out-of-vocabulary (OOV) problem. On the other hand, rule-based methods such as Mathematica, Semantic web, and Lean, are excellent in reasoning but cannot handle the complex and changeable informal text. Inspired by pragmatics and structuralism, we propose two strategies to solve the OOV problem and a semantic model for better natural language understanding and reasoning.",
+    "link": "http://arxiv.org/abs/2304.10663",
+    "context": "Title: Meta Semantics: Towards better natural language understanding and reasoning. (arXiv:2304.10663v1 [cs.CL])\nAbstract: Natural language understanding is one of the most challenging topics in artificial intelligence. Deep neural network methods, particularly large language module (LLM) methods such as ChatGPT and GPT-3, have powerful flexibility to adopt informal text but are weak on logical deduction and suffer from the out-of-vocabulary (OOV) problem. On the other hand, rule-based methods such as Mathematica, Semantic web, and Lean, are excellent in reasoning but cannot handle the complex and changeable informal text. Inspired by pragmatics and structuralism, we propose two strategies to solve the OOV problem and a semantic model for better natural language understanding and reasoning.",
+    "path": "papers/23/04/2304.10663.json",
+    "total_tokens": 744,
+    "translated_title": "元语义学：迈向更好的自然语言理解和推理",
+    "translated_abstract": "自然语言理解是人工智能中最具挑战性的问题之一。深度神经网络方法，特别是大型语言模块（LLM）方法，如ChatGPT和GPT-3，具有采用非正式文本的强大灵活性，但在逻辑推导上较弱，并且受到词汇外（OOV）问题的影响。另一方面，基于规则的方法，如Mathematica、语义网络和Lean，在推理方面表现出色，但无法处理复杂和易变的非正式文本。受到语用学和结构主义的启发，我们提出了两种策略来解决OOV问题，并提出了一个语义模型，用于更好的自然语言理解和推理。",
+    "tldr": "该论文提出了解决词汇外问题的两种策略以及一个用于更好的自然语言理解和推理的语义模型，旨在克服深度神经网络方法和基于规则方法的不足。",
+    "en_tdlr": "This paper proposes two strategies to address the out-of-vocabulary problem and a semantic model for better natural language understanding and reasoning, aiming to overcome the shortcomings of deep neural network methods and rule-based methods."
+}

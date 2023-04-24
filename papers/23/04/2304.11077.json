@@ -1,0 +1,12 @@
+{
+    "title": "HeRo: RoBERTa and Longformer Hebrew Language Models. (arXiv:2304.11077v1 [cs.CL])",
+    "abstract": "In this paper, we fill in an existing gap in resources available to the Hebrew NLP community by providing it with the largest so far pre-train dataset HeDC4, a state-of-the-art pre-trained language model HeRo for standard length inputs and an efficient transformer LongHeRo for long input sequences. The HeRo model was evaluated on the sentiment analysis, the named entity recognition, and the question answering tasks while the LongHeRo model was evaluated on the document classification task with a dataset composed of long documents. Both HeRo and LongHeRo presented state-of-the-art performance. The dataset and model checkpoints used in this work are publicly available.",
+    "link": "http://arxiv.org/abs/2304.11077",
+    "context": "Title: HeRo: RoBERTa and Longformer Hebrew Language Models. (arXiv:2304.11077v1 [cs.CL])\nAbstract: In this paper, we fill in an existing gap in resources available to the Hebrew NLP community by providing it with the largest so far pre-train dataset HeDC4, a state-of-the-art pre-trained language model HeRo for standard length inputs and an efficient transformer LongHeRo for long input sequences. The HeRo model was evaluated on the sentiment analysis, the named entity recognition, and the question answering tasks while the LongHeRo model was evaluated on the document classification task with a dataset composed of long documents. Both HeRo and LongHeRo presented state-of-the-art performance. The dataset and model checkpoints used in this work are publicly available.",
+    "path": "papers/23/04/2304.11077.json",
+    "total_tokens": 758,
+    "translated_title": "HeRo: RoBERTa和 Longformer的希伯来语言模型",
+    "translated_abstract": "本文填补了希伯来语自然语言处理（NLP）社区现有资源的空白，提供迄今最大的预训练数据集HeDC4、用于标准长度输入的最先进的预训练语言模型HeRo以及用于长输入序列的高效transformer LongHeRo. HeRo 模型在情感分析、命名实体识别和问答任务中进行了评估，而 LongHeRo 模型在由长文档组成的文档分类任务中进行了评估。 这两个模型均呈现出最先进的性能。本文使用的数据集和模型检查点是公开可用的。",
+    "tldr": "本论文提供了希伯来语言处理社区所需的最大预训练数据集HeDC4，以及两种表现最先进的预训练语言模型：用于标准长度输入的HeRo和用于长输入序列的LongHeRo。两个模型在多项任务中实现了最先进的性能。",
+    "en_tdlr": "This paper provides the largest pre-train dataset HeDC4 and two state-of-the-art pre-trained language models: HeRo for standard length inputs and LongHeRo for long input sequences to fill the existing gap in resources available to the Hebrew NLP community. Both models demonstrated state-of-the-art performance in various tasks."
+}

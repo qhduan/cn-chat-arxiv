@@ -1,0 +1,12 @@
+{
+    "title": "Efficient and Accurate Calibration to FX Market Skew with Fully Parameterized Local Volatility Model. (arXiv:2211.14431v2 [q-fin.PR] UPDATED)",
+    "abstract": "When trading American and Asian options in the FX derivatives market, banks must calculate prices using a complex mathematical model. It is often observed that different models produce varying prices for the same exotic option, which violates the non-arbitrage requirement of derivative risk management. To address this issue, we have studied a fully parameterized local volatility model for pricing American/Asian options. This model, when implemented using a grid or Monte-Carlo numerical method, can be efficiently and accurately calibrated to FX market skew volatilities. As a result, the model can provide reliable prices for exotic options during daily trading activities.",
+    "link": "http://arxiv.org/abs/2211.14431",
+    "context": "Title: Efficient and Accurate Calibration to FX Market Skew with Fully Parameterized Local Volatility Model. (arXiv:2211.14431v2 [q-fin.PR] UPDATED)\nAbstract: When trading American and Asian options in the FX derivatives market, banks must calculate prices using a complex mathematical model. It is often observed that different models produce varying prices for the same exotic option, which violates the non-arbitrage requirement of derivative risk management. To address this issue, we have studied a fully parameterized local volatility model for pricing American/Asian options. This model, when implemented using a grid or Monte-Carlo numerical method, can be efficiently and accurately calibrated to FX market skew volatilities. As a result, the model can provide reliable prices for exotic options during daily trading activities.",
+    "path": "papers/22/11/2211.14431.json",
+    "total_tokens": 747,
+    "translated_title": "高效准确的全参数本地波动率模型对外汇市场偏斜率的校准",
+    "translated_abstract": "在外汇衍生品市场上交易美式和亚式期权时，银行必须使用复杂的数学模型来计算价格。常常观察到不同的模型对于同一个异型期权会产生不同的价格，这违反了衍生品风险管理的无套利要求。为了解决这个问题，我们研究了一种全参数化本地波动率模型，用于定价美式/亚式期权。当采用网格或蒙特卡罗数值方法实现该模型的时候，可以高效且准确地校准到外汇市场的偏斜波动率。因此，在日常交易活动中，该模型可以提供可靠的异型期权价格。",
+    "tldr": "研究了一种全参数化的本地波动率模型，可高效准确地校准到外汇市场的偏斜波动率，提供可靠的异型期权价格。",
+    "en_tdlr": "A fully parameterized local volatility model was studied for pricing American/Asian options, which can be efficiently and accurately calibrated to FX market skew volatilities to provide reliable prices for exotic options during daily trading activities."
+}

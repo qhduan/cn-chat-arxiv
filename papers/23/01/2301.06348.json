@@ -1,0 +1,12 @@
+{
+    "title": "PyExperimenter: Easily distribute experiments and track results. (arXiv:2301.06348v2 [cs.DC] UPDATED)",
+    "abstract": "PyExperimenter is a tool to facilitate the setup, documentation, execution, and subsequent evaluation of results from an empirical study of algorithms and in particular is designed to reduce the involved manual effort significantly. It is intended to be used by researchers in the field of artificial intelligence, but is not limited to those.",
+    "link": "http://arxiv.org/abs/2301.06348",
+    "context": "Title: PyExperimenter: Easily distribute experiments and track results. (arXiv:2301.06348v2 [cs.DC] UPDATED)\nAbstract: PyExperimenter is a tool to facilitate the setup, documentation, execution, and subsequent evaluation of results from an empirical study of algorithms and in particular is designed to reduce the involved manual effort significantly. It is intended to be used by researchers in the field of artificial intelligence, but is not limited to those.",
+    "path": "papers/23/01/2301.06348.json",
+    "total_tokens": 541,
+    "translated_title": "PyExperimenter：简单地分发实验并跟踪结果。",
+    "translated_abstract": "PyExperimenter是一个工具，旨在简化算法实证研究的设置、文档编写、执行和随后的结果评估，并特别设计为显著减少所涉及的手动工作。它旨在被人工智能领域的研究人员使用，但并不仅限于此领域。",
+    "tldr": "PyExperimenter是一个专门为算法实证研究设计的工具，能够简化实验设置、执行、文档编写与结果评估，节省大量手动工作。",
+    "en_tdlr": "PyExperimenter is a tool designed for empirical studies of algorithms, which simplifies experiment setup, execution, documentation and result evaluation, minimizing manual effort."
+}

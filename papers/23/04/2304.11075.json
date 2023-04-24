@@ -1,0 +1,12 @@
+{
+    "title": "Spaiche: Extending State-of-the-Art ASR Models to Swiss German Dialects. (arXiv:2304.11075v1 [cs.CL])",
+    "abstract": "Recent breakthroughs in NLP largely increased the presence of ASR systems in our daily lives. However, for many low-resource languages, ASR models still need to be improved due in part to the difficulty of acquiring pertinent data. This project aims to help advance research in ASR models for Swiss German dialects, by providing insights about the performance of state-of-the-art ASR models on recently published Swiss German speech datasets. We propose a novel loss that takes into account the semantic distance between the predicted and the ground-truth labels. We outperform current state-of-the-art results by fine-tuning OpenAI's Whisper model on Swiss-German datasets.",
+    "link": "http://arxiv.org/abs/2304.11075",
+    "context": "Title: Spaiche: Extending State-of-the-Art ASR Models to Swiss German Dialects. (arXiv:2304.11075v1 [cs.CL])\nAbstract: Recent breakthroughs in NLP largely increased the presence of ASR systems in our daily lives. However, for many low-resource languages, ASR models still need to be improved due in part to the difficulty of acquiring pertinent data. This project aims to help advance research in ASR models for Swiss German dialects, by providing insights about the performance of state-of-the-art ASR models on recently published Swiss German speech datasets. We propose a novel loss that takes into account the semantic distance between the predicted and the ground-truth labels. We outperform current state-of-the-art results by fine-tuning OpenAI's Whisper model on Swiss-German datasets.",
+    "path": "papers/23/04/2304.11075.json",
+    "total_tokens": 782,
+    "translated_title": "Spaiche: 将最先进的ASR模型扩展到瑞士德语方言",
+    "translated_abstract": "最近自然语言处理方面的突破大大增加了ASR系统在我们日常生活中的存在。然而，对于许多低资源语言，由于难以获取相关数据，ASR模型仍需要改进。本项目旨在通过提供关于最近发布的瑞士德语语音数据集上最先进的ASR模型性能的见解，帮助推进瑞士德语方言ASR模型的研究。我们提出了一种新颖的损失函数，考虑了预测和基准标签之间的语义距离。通过对瑞士德语数据集对OpenAI的Whisper模型进行微调，我们超越了当前先进的成果。",
+    "tldr": "本项目在瑞士德语方言ASR模型的研究中提供了有价值的思路，通过提出考虑语义距离的新颖损失函数，对OpenAI的Whisper模型进行微调，取得了优于当前先进成果的效果。",
+    "en_tdlr": "This project provides valuable insights into ASR models for Swiss German dialects and proposes a novel loss that takes into account the semantic distance between the predicted and the ground-truth labels. By fine-tuning OpenAI's Whisper model on Swiss-German datasets, the proposed approach outperforms current state-of-the-art results."
+}

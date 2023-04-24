@@ -1,0 +1,12 @@
+{
+    "title": "The Design Space of Generative Models. (arXiv:2304.10547v1 [cs.AI])",
+    "abstract": "Card et al.'s classic paper \"The Design Space of Input Devices\" established the value of design spaces as a tool for HCI analysis and invention. We posit that developing design spaces for emerging pre-trained, generative AI models is necessary for supporting their integration into human-centered systems and practices. We explore what it means to develop an AI model design space by proposing two design spaces relating to generative AI models: the first considers how HCI can impact generative models (i.e., interfaces for models) and the second considers how generative models can impact HCI (i.e., models as an HCI prototyping material).",
+    "link": "http://arxiv.org/abs/2304.10547",
+    "context": "Title: The Design Space of Generative Models. (arXiv:2304.10547v1 [cs.AI])\nAbstract: Card et al.'s classic paper \"The Design Space of Input Devices\" established the value of design spaces as a tool for HCI analysis and invention. We posit that developing design spaces for emerging pre-trained, generative AI models is necessary for supporting their integration into human-centered systems and practices. We explore what it means to develop an AI model design space by proposing two design spaces relating to generative AI models: the first considers how HCI can impact generative models (i.e., interfaces for models) and the second considers how generative models can impact HCI (i.e., models as an HCI prototyping material).",
+    "path": "papers/23/04/2304.10547.json",
+    "total_tokens": 671,
+    "translated_title": "生成模型的设计空间",
+    "translated_abstract": "Card等人的经典论文\"输入设备的设计空间\"建立了设计空间作为HCI分析和发明工具的价值。我们认为，为新兴的预训练生成AI模型开发设计空间是支持它们融入以人为中心的系统和实践所必需的。我们通过提出与生成AI模型相关的两个设计空间来探讨开发AI模型设计空间的含义：第一个考虑HCI如何影响生成模型（即模型的界面），第二个考虑生成模型如何影响HCI（即模型作为HCI原型材料）。",
+    "tldr": "本文探索开发一个AI模型设计空间的含义，提出两个设计空间与生成AI模型相关：第一个考虑HCI如何影响生成模型;第二个考虑生成模型如何影响HCI。",
+    "en_tdlr": "This paper explores the meaning of developing an AI model design space, proposing two design spaces related to generative AI models: the first considers how HCI can impact generative models, and the second considers how generative models can impact HCI."
+}

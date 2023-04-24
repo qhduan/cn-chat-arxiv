@@ -1,0 +1,12 @@
+{
+    "title": "Gradient Derivation for Learnable Parameters in Graph Attention Networks. (arXiv:2304.10939v1 [cs.LG])",
+    "abstract": "This work provides a comprehensive derivation of the parameter gradients for GATv2 [4], a widely used implementation of Graph Attention Networks (GATs). GATs have proven to be powerful frameworks for processing graph-structured data and, hence, have been used in a range of applications. However, the achieved performance by these attempts has been found to be inconsistent across different datasets and the reasons for this remains an open research question. As the gradient flow provides valuable insights into the training dynamics of statistically learning models, this work obtains the gradients for the trainable model parameters of GATv2. The gradient derivations supplement the efforts of [2], where potential pitfalls of GATv2 are investigated.",
+    "link": "http://arxiv.org/abs/2304.10939",
+    "context": "Title: Gradient Derivation for Learnable Parameters in Graph Attention Networks. (arXiv:2304.10939v1 [cs.LG])\nAbstract: This work provides a comprehensive derivation of the parameter gradients for GATv2 [4], a widely used implementation of Graph Attention Networks (GATs). GATs have proven to be powerful frameworks for processing graph-structured data and, hence, have been used in a range of applications. However, the achieved performance by these attempts has been found to be inconsistent across different datasets and the reasons for this remains an open research question. As the gradient flow provides valuable insights into the training dynamics of statistically learning models, this work obtains the gradients for the trainable model parameters of GATv2. The gradient derivations supplement the efforts of [2], where potential pitfalls of GATv2 are investigated.",
+    "path": "papers/23/04/2304.10939.json",
+    "total_tokens": 736,
+    "translated_title": "图注意力网络中可学习参数的梯度推导",
+    "translated_abstract": "本文对图注意力网络（GAT）的广泛实现之一——GATv2的可训练模型参数的梯度进行了全面的推导。虽然GAT已被证明是处理图结构数据的强大框架，但是在不同数据集上实现的性能表现不一致，其原因仍然是一个开放的研究问题。由于梯度流为统计学习模型的训练动态提供了有价值的洞见，因此本文推导了GATv2的可训练模型参数的梯度。这些梯度推导补充了[2]的工作，后者调查了GATv2的潜在陷阱。",
+    "tldr": "本文对GATv2的可训练模型参数的梯度进行了全面推导，在不同的数据集上实现的性能表现不一致的原因仍然是一个开放的研究问题。",
+    "en_tdlr": "This paper provides a comprehensive derivation of the gradients for the trainable model parameters of GATv2, a widely used implementation of Graph Attention Networks. The reasons for inconsistent performance across different datasets remains an open research question."
+}

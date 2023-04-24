@@ -1,0 +1,12 @@
+{
+    "title": "Can SAM Count Anything? An Empirical Study on SAM Counting. (arXiv:2304.10817v1 [cs.CV])",
+    "abstract": "Meta AI recently released the Segment Anything model (SAM), which has garnered attention due to its impressive performance in class-agnostic segmenting. In this study, we explore the use of SAM for the challenging task of few-shot object counting, which involves counting objects of an unseen category by providing a few bounding boxes of examples. We compare SAM's performance with other few-shot counting methods and find that it is currently unsatisfactory without further fine-tuning, particularly for small and crowded objects. Code can be found at \\url{https://github.com/Vision-Intelligence-and-Robots-Group/count-anything}.",
+    "link": "http://arxiv.org/abs/2304.10817",
+    "context": "Title: Can SAM Count Anything? An Empirical Study on SAM Counting. (arXiv:2304.10817v1 [cs.CV])\nAbstract: Meta AI recently released the Segment Anything model (SAM), which has garnered attention due to its impressive performance in class-agnostic segmenting. In this study, we explore the use of SAM for the challenging task of few-shot object counting, which involves counting objects of an unseen category by providing a few bounding boxes of examples. We compare SAM's performance with other few-shot counting methods and find that it is currently unsatisfactory without further fine-tuning, particularly for small and crowded objects. Code can be found at \\url{https://github.com/Vision-Intelligence-and-Robots-Group/count-anything}.",
+    "path": "papers/23/04/2304.10817.json",
+    "total_tokens": 734,
+    "translated_title": "SAM能够计数所有物体吗？对SAM计数的实证研究",
+    "translated_abstract": "Meta AI最近发布了Segment Anything模型(SAM)，由于在类无关分割中表现出色，该模型引起了人们的关注。本研究探讨了将SAM用于少样本物体计数的挑战性任务，该任务涉及通过提供几个示例的边界框来计数未见过类别的物体。我们将SAM的性能与其他少样本计数方法进行比较，并发现在没有进一步微调的情况下，它的表现仍然不令人满意，特别是对于小型和拥挤的物体。代码可在\\url{https://github.com/Vision-Intelligence-and-Robots-Group/count-anything}上找到。",
+    "tldr": "本文探讨了将Segment Anything模型用于少样本物体计数的挑战性任务，并与其他计数方法进行了比较。我们发现SAM的表现仍需进一步微调，特别是对于小型和拥挤的物体。",
+    "en_tdlr": "This study explores the use of the Segment Anything model (SAM) for the challenging task of few-shot object counting, and compares its performance with other counting methods. It is found that SAM's performance still needs further fine-tuning, especially for small and crowded objects."
+}

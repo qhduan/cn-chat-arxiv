@@ -1,0 +1,12 @@
+{
+    "title": "Balancing Simulation-based Inference for Conservative Posteriors. (arXiv:2304.10978v1 [stat.ML])",
+    "abstract": "Conservative inference is a major concern in simulation-based inference. It has been shown that commonly used algorithms can produce overconfident posterior approximations. Balancing has empirically proven to be an effective way to mitigate this issue. However, its application remains limited to neural ratio estimation. In this work, we extend balancing to any algorithm that provides a posterior density. In particular, we introduce a balanced version of both neural posterior estimation and contrastive neural ratio estimation. We show empirically that the balanced versions tend to produce conservative posterior approximations on a wide variety of benchmarks. In addition, we provide an alternative interpretation of the balancing condition in terms of the $\\chi^2$ divergence.",
+    "link": "http://arxiv.org/abs/2304.10978",
+    "context": "Title: Balancing Simulation-based Inference for Conservative Posteriors. (arXiv:2304.10978v1 [stat.ML])\nAbstract: Conservative inference is a major concern in simulation-based inference. It has been shown that commonly used algorithms can produce overconfident posterior approximations. Balancing has empirically proven to be an effective way to mitigate this issue. However, its application remains limited to neural ratio estimation. In this work, we extend balancing to any algorithm that provides a posterior density. In particular, we introduce a balanced version of both neural posterior estimation and contrastive neural ratio estimation. We show empirically that the balanced versions tend to produce conservative posterior approximations on a wide variety of benchmarks. In addition, we provide an alternative interpretation of the balancing condition in terms of the $\\chi^2$ divergence.",
+    "path": "papers/23/04/2304.10978.json",
+    "total_tokens": 724,
+    "translated_title": "平衡模拟推断，得到保守的后验分布",
+    "translated_abstract": "保守推断是模拟推断中的一个重要问题。已经证明常用算法可能会产生过于自信的后验分布。实验证明，平衡可以有效缓解这个问题，但其应用仍限于神经比率估计。在这项工作中，我们将平衡扩展到提供后验密度的任何算法。特别地，我们引入了神经后验估计和对比神经比率估计的平衡版本。实验表明，平衡版本倾向于在广泛的基准测试上产生保守的后验分布逼近。此外，我们提供了平衡条件的另一种解释，即$ \\chi^2$ 隔离度。",
+    "tldr": "本研究将平衡技术扩展到后验密度算法，提出了神经后验估计和对比神经比率估计的平衡版本，可有效缓解保守推断问题。",
+    "en_tdlr": "This study extends the balancing technique to any algorithm that provides a posterior density, proposes balanced versions of neural posterior estimation and contrastive neural ratio estimation, and solves conservative inference problems effectively."
+}

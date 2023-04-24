@@ -1,0 +1,12 @@
+{
+    "title": "Effectiveness of Debiasing Techniques: An Indigenous Qualitative Analysis. (arXiv:2304.11094v1 [cs.CL])",
+    "abstract": "An indigenous perspective on the effectiveness of debiasing techniques for pre-trained language models (PLMs) is presented in this paper. The current techniques used to measure and debias PLMs are skewed towards the US racial biases and rely on pre-defined bias attributes (e.g. \"black\" vs \"white\"). Some require large datasets and further pre-training. Such techniques are not designed to capture the underrepresented indigenous populations in other countries, such as M\\=aori in New Zealand. Local knowledge and understanding must be incorporated to ensure unbiased algorithms, especially when addressing a resource-restricted society.",
+    "link": "http://arxiv.org/abs/2304.11094",
+    "context": "Title: Effectiveness of Debiasing Techniques: An Indigenous Qualitative Analysis. (arXiv:2304.11094v1 [cs.CL])\nAbstract: An indigenous perspective on the effectiveness of debiasing techniques for pre-trained language models (PLMs) is presented in this paper. The current techniques used to measure and debias PLMs are skewed towards the US racial biases and rely on pre-defined bias attributes (e.g. \"black\" vs \"white\"). Some require large datasets and further pre-training. Such techniques are not designed to capture the underrepresented indigenous populations in other countries, such as M\\=aori in New Zealand. Local knowledge and understanding must be incorporated to ensure unbiased algorithms, especially when addressing a resource-restricted society.",
+    "path": "papers/23/04/2304.11094.json",
+    "total_tokens": 725,
+    "translated_title": "去偏见技术的有效性：一个本土的定性分析",
+    "translated_abstract": "本文以本土的视角，探讨了针对预训练语言模型（PLMs）去偏见技术的有效性。目前衡量与去偏见PLMs使用的技术存在美国种族偏见的倾向，并且依赖于预定义的偏见属性（例如“黑人”与“白人”）。有些技术需要大量数据集和进一步的预训练。这样的技术并不能捕捉其他国家中被较少代表的土著人口，例如新西兰的毛利人。必须纳入本地的知识和理解，以确保公正的算法，特别是在面对资源受限的社会时。",
+    "tldr": "本文以本土的视角探讨了针对预训练语言模型去偏见技术的有效性，呼吁在算法中纳入本地知识和理解以确保公正，特别是在面对资源受限的社会时。",
+    "en_tdlr": "This paper presents an indigenous perspective on the effectiveness of debiasing techniques for pre-trained language models and highlights the need to incorporate local knowledge and understanding in algorithms to ensure fairness, especially in resource-restricted societies."
+}

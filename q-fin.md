@@ -2,40 +2,104 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Patents and intellectual property assets as non-fungible tokens: key technologies and challenges.](http://arxiv.org/abs/2304.10490) | 本文探讨了将专利和知识产权资产作为NFT的关键技术和挑战，NFT在知识产权领域具有较大潜力。 |
-| [^2] | [Conditional Generative Models for Learning Stochastic Processes.](http://arxiv.org/abs/2304.10382) | 提出了一种称为 C-qGAN 的框架，利用量子电路结构实现了有效的状态准备过程，可以利用该方法加速蒙特卡罗分析等算法，并将其应用于亚式期权衍生品定价的任务中。 |
-| [^3] | [The Estimation Risk in Extreme Systemic Risk Forecasts.](http://arxiv.org/abs/2304.10349) | 本文提出了一种基于极值理论的估计器的系统性风险预测方法，并通过建立MES预测的渐近正态性展示了其有效性。 |
-| [^4] | [Uncertainty over Uncertainty in Environmental Policy Adoption: Bayesian Learning of Unpredictable Socioeconomic Costs.](http://arxiv.org/abs/2304.10344) | 本文开发了一个类似于实物期权的模型，以捕捉环境政策采用中的两层不确定性。决策者能够通过跟踪成本的实际演变来学习未知的漂移，并形成后验动态信念其真正价值。 |
-| [^5] | [The impact of the AI revolution on asset management.](http://arxiv.org/abs/2304.10212) | 本论文分享了作者关于人工智能可能对资产管理产生影响的观点，同时提供了一个衡量特定基金是否真正开发了AI的简单标准。 |
-| [^6] | [Agricultural Shocks and Social Conflict in Southeast Asia.](http://arxiv.org/abs/2304.10027) | 该研究分析了东南亚农业与社会冲突的关联性，发现在稻谷收获季节中，政治暴力增加而社会动荡减少。研究揭示了政策制定者在农业经济中管理社会冲突的必要性。 |
-| [^7] | [The Pie: How Has Human Evolution Distributed Non-Financial Wealth?.](http://arxiv.org/abs/2304.09971) | 本研究探讨了在金融系统存在之前，自然资产如何分配的问题。通过研究人类学数据并应用经济理论，发现史前社会对非金融财富的基尼系数有一个首选范围，随着人类社会的演变和发展更为复杂的政治结构，这个范围发生了变化。 |
-| [^8] | [Online Ensemble of Models for Optimal Predictive Performance with Applications to Sector Rotation Strategy.](http://arxiv.org/abs/2304.09947) | 通过机器学习模型和资产特定因素在预测行业回报和测量行业特定风险溢价方面获得更大经济收益，开发了一种新型在线集成算法来学习优化预测性能，特别适用于时间序列问题和可能的黑盒模型系统。 |
-| [^9] | [Bitcoin: A life in crises.](http://arxiv.org/abs/2304.09939) | 本文研究比特币价格时间序列，发现自2010-2011年以来已发生至少十起新的价格波动。尽管无法预测价格峰值，但成功使用类斐波那契数列的函数逼近了BTC价格演变。和其他金融工具相比，BTC可能被归类为非流动资产。 |
-| [^10] | [Stock Price Predictability and the Business Cycle via Machine Learning.](http://arxiv.org/abs/2304.09937) | 研究发现，机器学习模型在大多数衰退期间的表现较差，与稳定市场有关的因素可能是其表现优异的原因。因此，我们建议ML从业者在衰退和复苏期间评估其模型。 |
-| [^11] | [Identifying Trades Using Technical Analysis and ML/DL Models.](http://arxiv.org/abs/2304.09936) | 本文讲述了如何使用ML/DL模型预测股票价格，以帮助投资者和金融机构做出明智的决策和制定有效的风险管理政策。 |
-| [^12] | [Machine Learning for Economics Research: When What and How?.](http://arxiv.org/abs/2304.00086) | 本文精选综述了使用机器学习工具进行经济学研究和政策分析的文章，强调了机器学习在处理非传统和非结构化数据、捕捉强非线性性和提高预测准确性方面的应用优势，成为计量经济学家工具箱中不可或缺的一部分。 |
-| [^13] | [Factor Exposure Heterogeneity in Green and Brown Stocks.](http://arxiv.org/abs/2302.11729) | 研究发现，相较于褐色股票，绿色股票在大多数股票因子上表现出较少的因子暴露异质性，因此投资经理将投资从褐色股票转向绿色股票时，差异空间较小。此外，与较早时期相比，绿色股票的因子暴露异质性增加了。 |
-| [^14] | [Complexity-Approximation Trade-offs in Exchange Mechanisms: AMMs vs. LOBs.](http://arxiv.org/abs/2302.11652) | 本文提出了一个框架，比较了常函数市场制造商和限价订单簿两种主流交易范式。 本文的主要目标是形式化一种贯穿交易机制设计的近似复杂度权衡。 |
-| [^15] | [Media Slant is Contagious.](http://arxiv.org/abs/2202.07269) | 本文研究了国家有线电视新闻对美国本土报纸的影响，发现当地报纸的内容会因为当地 FNC 观众数量的增加而趋向于 FNC 的倾向，并且有线电视倾向会极化地方新闻内容。 |
-| [^16] | [A transformer-based model for default prediction in mid-cap corporate markets.](http://arxiv.org/abs/2111.09902) | 本文利用Transformer模型，将违约预测问题作为多标签时间序列分类问题，并通过注意力热图解释模型预测。同时，提出了一种自定义损失函数和一个新颖的多通道架构，以优化模型。 |
+| [^1] | [Can Perturbations Help Reduce Investment Risks? Risk-Aware Stock Recommendation via Split Variational Adversarial Training.](http://arxiv.org/abs/2304.11043) | 本文提出了一种基于分离变分对抗训练的风险感知型股票推荐方法，通过对抗性扰动提高模型对于风险的感知能力，通过变分扰动生成器模拟不同的风险因素并生成代表性的风险指标对抗样本。在真实股票数据上进行的实验表明该方法有效降低了投资风险同时保持高预期收益。 |
+| [^2] | [Invariance properties of maximal extractable value.](http://arxiv.org/abs/2304.11010) | 本文研究了在基于区块链的去中心化交易中的最大可提取价值（MEV），并证明了当区块排序机制和区块时间分布发生变化时，该MEV是不变的，这能为设计区块链协议提供指导。 |
+| [^3] | [An extended Merton problem with relaxed benchmark tracking.](http://arxiv.org/abs/2304.10802) | 本文在Merton问题中增加基准跟踪，提出了一种放松的跟踪公式，并采用反射辅助状态过程，通过双重转换和概率表示，得到了等效的随机控制问题，并且可以明确地解决。通过这种方法，我们可以清晰地了解资产的组成和绩效。 |
+| [^4] | [How 'one-size-fits-all' public works contract does it better? An assessment of infrastructure provision in Italy.](http://arxiv.org/abs/2304.10776) | “一刀切”的公共工程承包策略并不能取得很好的效果，而选择“设计和建造合同”则能够显著提高公共工程执行的绩效并降低交易成本，这对政策有很大的启示。 |
+| [^5] | [Multi-Modal Deep Learning for Credit Rating Prediction Using Text and Numerical Data Streams.](http://arxiv.org/abs/2304.10740) | 本文研究了基于多模态的深度学习融合技术在信用评级预测中的应用，通过比较不同融合策略和深度学习模型的组合，证明了一个基于CNN的多模态模型通过两种融合策略优于其他多模态技术，同时在比较简单和复杂的模型中发现，更复杂的模型并不一定表现更好。 |
+| [^6] | [The quality of school track assignment decisions by teachers.](http://arxiv.org/abs/2304.10636) | 本文研究了荷兰中学阶段分班决策的质量，发现教师的初始分班决策对于大多数学生来说太低了。 |
+| [^7] | [Conditional Generative Models for Learning Stochastic Processes.](http://arxiv.org/abs/2304.10382) | 提出了一种称为 C-qGAN 的框架，利用量子电路结构实现了有效的状态准备过程，可以利用该方法加速蒙特卡罗分析等算法，并将其应用于亚式期权衍生品定价的任务中。 |
+| [^8] | [The Economic Effect of Gaining a New Qualification Later in Life.](http://arxiv.org/abs/2304.01490) | 本研究通过机器学习方法分析晚年完成学位与经济回报之间的因果效应，发现获得新资格将带来每年超过3000澳元的经济回报。 |
+| [^9] | [Efficient and Accurate Calibration to FX Market Skew with Fully Parameterized Local Volatility Model.](http://arxiv.org/abs/2211.14431) | 研究了一种全参数化的本地波动率模型，可高效准确地校准到外汇市场的偏斜波动率，提供可靠的异型期权价格。 |
+| [^10] | [Multidimensional Economic Complexity and Inclusive Green Growth.](http://arxiv.org/abs/2209.08382) | 论文研究结合贸易数据、专利申请和研究出版物的数据，建立了能够解释国际包容性绿色增长差异的经济复杂度模型，并发现高综合评分国家更容易实现低排放强度的绿色增长。 |
 
 # 详细
 
-[^1]: 专利和知识产权资产非同质化代币化：关键技术与挑战
+[^1]: 扰动有助于降低投资风险吗？ 基于分离变分对抗训练的风险感知型股票推荐方法
 
-    Patents and intellectual property assets as non-fungible tokens: key technologies and challenges. (arXiv:2304.10490v1 [q-fin.GN])
+    Can Perturbations Help Reduce Investment Risks? Risk-Aware Stock Recommendation via Split Variational Adversarial Training. (arXiv:2304.11043v1 [q-fin.RM])
 
-    [http://arxiv.org/abs/2304.10490](http://arxiv.org/abs/2304.10490)
+    [http://arxiv.org/abs/2304.11043](http://arxiv.org/abs/2304.11043)
 
-    本文探讨了将专利和知识产权资产作为NFT的关键技术和挑战，NFT在知识产权领域具有较大潜力。
+    本文提出了一种基于分离变分对抗训练的风险感知型股票推荐方法，通过对抗性扰动提高模型对于风险的感知能力，通过变分扰动生成器模拟不同的风险因素并生成代表性的风险指标对抗样本。在真实股票数据上进行的实验表明该方法有效降低了投资风险同时保持高预期收益。
 
     
 
-    随着去中心化金融的爆发式发展，我们目睹了各种资产的代币化，包括股权、基金、债务和房地产等。利用区块链技术，数字资产被广泛分为可互换和非可互换代币（NFT）。在这里，非同质化代币是指具有独特且不可替代属性的代币。 NFT已广受关注，其协议、标准和应用正在呈指数级发展。它已成功应用于数字幻想艺术品、游戏、藏品等。然而，在诸如知识产权等问题上，利用NFT的研究尚不足够。申请专利和商标不仅是一个耗时费力的过程，而且成本高昂。 NFT在知识产权领域具有 considerable（大小可观） 的潜力。它可以促进透明度和流动性，并向旨在高效商业化他们的发明的创新者开放市场。本文的主要目的是探讨以专利和知识产权资产的非同质化代币化作为NFT的关键技术和挑战。
+    在股票市场，成功的投资需要在利润和风险之间取得良好的平衡。最近，在量化投资中广泛研究了股票推荐，以为投资者选择具有更高收益率的股票。尽管在获利方面取得了成功，但大多数现有的推荐方法仍然在风险控制方面较弱，这可能导致实际股票投资中难以承受的亏损。为了有效降低风险，我们从对抗性扰动中获得启示，并提出了一种新的基于分离变分对抗训练（SVAT）框架的风险感知型股票推荐方法。本质上，SVAT鼓励模型对风险股票样本的对抗性扰动敏感，并通过学习扰动来增强模型的风险意识。为了生成代表性的风险指标对抗样本，我们设计了一个变分扰动生成器来模拟不同的风险因素。特别地，变分结构使我们的方法能够捕捉难以明确量化和建模的各种风险因素。在真实股票数据上的综合实验表明，SVAT在降低投资风险的同时保持高预期收益上非常有效。
 
-    With the explosive development of decentralized finance, we witness a phenomenal growth in tokenization of all kinds of assets, including equity, funds, debt, and real estate. By taking advantage of blockchain technology, digital assets are broadly grouped into fungible and non-fungible tokens (NFT). Here non-fungible tokens refer to those with unique and non-substitutable properties. NFT has widely attracted attention, and its protocols, standards, and applications are developing exponentially. It has been successfully applied to digital fantasy artwork, games, collectibles, etc. However, there is a lack of research in utilizing NFT in issues such as Intellectual Property. Applying for a patent and trademark is not only a time-consuming and lengthy process but also costly. NFT has considerable potential in the intellectual property domain. It can promote transparency and liquidity and open the market to innovators who aim to commercialize their inventions efficiently. The main objecti
+    In the stock market, a successful investment requires a good balance between profits and risks. Recently, stock recommendation has been widely studied in quantitative investment to select stocks with higher return ratios for investors. Despite the success in making profits, most existing recommendation approaches are still weak in risk control, which may lead to intolerable paper losses in practical stock investing. To effectively reduce risks, we draw inspiration from adversarial perturbations and propose a novel Split Variational Adversarial Training (SVAT) framework for risk-aware stock recommendation. Essentially, SVAT encourages the model to be sensitive to adversarial perturbations of risky stock examples and enhances the model's risk awareness by learning from perturbations. To generate representative adversarial examples as risk indicators, we devise a variational perturbation generator to model diverse risk factors. Particularly, the variational architecture enables our method
     
-[^2]: 学习随机过程的有条件生成模型
+[^2]: 最大可提取价值的不变性质
+
+    Invariance properties of maximal extractable value. (arXiv:2304.11010v1 [q-fin.MF])
+
+    [http://arxiv.org/abs/2304.11010](http://arxiv.org/abs/2304.11010)
+
+    本文研究了在基于区块链的去中心化交易中的最大可提取价值（MEV），并证明了当区块排序机制和区块时间分布发生变化时，该MEV是不变的，这能为设计区块链协议提供指导。
+
+    
+
+    我们提出了一种形式化推理去研究基于区块链的去中心化交易，并给出了一种特定形式的最大可提取价值（MEV）的表达式，该表达式代表从链上流动性中可提取的总套利机会。我们使用这种形式化推理来证明，在具有确定性区块时间且其流动性池满足实践中满足的一些自然特性的区块链中，这种MEV在区块排序机制和区块时间分布发生变化时是不变的。我们通过将MEV表征为一种特别简单的套利策略获得的利润，证明了这一结果当无人竞争时的结果可以为设计区块链协议提供指导，防止设计会改变排序机制或缩短区块时间以增加交易机会。
+
+    We develop a formalism for reasoning about trading on decentralized exchanges on blockchains and a formulation of a particular form of maximal extractable value (MEV) that represents the total arbitrage opportunity extractable from on-chain liquidity. We use this formalism to prove that for blockchains with deterministic block times whose liquidity pools satisfy some natural properties that are satisfied by pools in practice, this form of MEV is invariant under changes to the ordering mechanism of the blockchain and distribution of block times. We do this by characterizing the MEV as the profit of a particularly simple arbitrage strategy when left uncontested. These results can inform design of blockchain protocols by ruling out designs aiming to increase trading opportunity by changing the ordering mechanism or shortening block times.
+    
+[^3]: 一种拓展的Merton问题解决了放宽基准跟踪的难题
+
+    An extended Merton problem with relaxed benchmark tracking. (arXiv:2304.10802v1 [math.OC])
+
+    [http://arxiv.org/abs/2304.10802](http://arxiv.org/abs/2304.10802)
+
+    本文在Merton问题中增加基准跟踪，提出了一种放松的跟踪公式，并采用反射辅助状态过程，通过双重转换和概率表示，得到了等效的随机控制问题，并且可以明确地解决。通过这种方法，我们可以清晰地了解资产的组成和绩效。
+
+    
+
+    本文研究了Merton的最优投资组合和消费问题，其扩展形式包括跟踪由几何布朗运动描述的基准过程。我们考虑一种放松的跟踪公式，即资产过程通过虚拟资本注入表现优于外部基准。基金经理旨在最大化消费的预期效用，减去资本注入成本，后者也可以视为相对于基准的预期最大缺口。通过引入一个具有反射的辅助状态过程，我们通过双重转换和概率表示制定和解决了等效的随机控制问题，其中对偶PDE可以明确地解决。凭借闭式结果的力量，我们可以导出并验证原始控制问题的半解析形式的反馈最优控制，从而使我们能够清晰地了解资产的组成和绩效。
+
+    This paper studies a Merton's optimal portfolio and consumption problem in an extended formulation incorporating the tracking of a benchmark process described by a geometric Brownian motion. We consider a relaxed tracking formulation such that that the wealth process compensated by a fictitious capital injection outperforms the external benchmark at all times. The fund manager aims to maximize the expected utility of consumption deducted by the cost of the capital injection, where the latter term can also be regarded as the expected largest shortfall with reference to the benchmark. By introducing an auxiliary state process with reflection, we formulate and tackle an equivalent stochastic control problem by means of the dual transform and probabilistic representation, where the dual PDE can be solved explicitly. On the strength of the closed-form results, we can derive and verify the feedback optimal control in the semi-analytical form for the primal control problem, allowing us to obs
+    
+[^4]: “一刀切”的公共工程承包是如何做到更好的？意大利基础设施供应的评估。
+
+    How 'one-size-fits-all' public works contract does it better? An assessment of infrastructure provision in Italy. (arXiv:2304.10776v1 [econ.GN])
+
+    [http://arxiv.org/abs/2304.10776](http://arxiv.org/abs/2304.10776)
+
+    “一刀切”的公共工程承包策略并不能取得很好的效果，而选择“设计和建造合同”则能够显著提高公共工程执行的绩效并降低交易成本，这对政策有很大的启示。
+
+    
+
+    公共基础设施采购是公共和私人投资以及经济和社会资本增长的先决条件。然而，执行低效严重阻碍了基础设施提供和利益交付。公共基础设施采购最敏感的阶段之一是设计，因为它潜在地在执行阶段创建采购人和承包商之间的战略关系，影响合同的成本和持续时间。在本文中，利用非参数前沿和倾向性得分匹配的最新发展，我们评估了意大利公共工程执行的表现。分析提供了有力的证据，表明采购人选择设计和建造合同可以显著提高执行绩效，从而降低交易成本，使承包商可以更好地适应项目的执行。我们的发现具有相当大的政策含义。
+
+    Public infrastructure procurement is crucial as a prerequisite for public and private investments and for economic and social capital growth. However, low performance in execution severely hinders infrastructure provision and benefits delivery. One of the most sensitive phases in public infrastructure procurement is the design because of the strategic relationship that it potentially creates between procurers and contractors in the execution stage, affecting the costs and the duration of the contract. In this paper, using recent developments in non-parametric frontiers and propensity score matching, we evaluate the performance in the execution of public works in Italy. The analysis provides robust evidence of significant improvement of performance where procurers opt for a design and build contracts, which lead to lower transaction costs, allowing contractors to better accommodate the project in the execution. Our findings bear considerable policy implications.
+    
+[^5]: 基于多模态深度学习的信用评级预测方法研究——以文本和数字数据流为例
+
+    Multi-Modal Deep Learning for Credit Rating Prediction Using Text and Numerical Data Streams. (arXiv:2304.10740v1 [q-fin.GN])
+
+    [http://arxiv.org/abs/2304.10740](http://arxiv.org/abs/2304.10740)
+
+    本文研究了基于多模态的深度学习融合技术在信用评级预测中的应用，通过比较不同融合策略和深度学习模型的组合，证明了一个基于CNN的多模态模型通过两种融合策略优于其他多模态技术，同时在比较简单和复杂的模型中发现，更复杂的模型并不一定表现更好。
+
+    
+
+    了解信用评级分配中哪些因素是重要的可以帮助做出更好的决策。然而，目前文献的重点大多集中在结构化数据上，较少研究非结构化或多模态数据集。本文提出了一种分析结构化和非结构化不同类型数据集的深度学习模型融合的有效架构，以预测公司信用评级标准。在模型中，我们测试了不同的深度学习模型及融合策略的组合，包括CNN，LSTM，GRU和BERT。我们研究了数据融合策略（包括早期和中间融合）以及技术（包括串联和交叉注意）等方面。结果表明，一个基于CNN的多模态模型通过两种融合策略优于其他多模态技术。此外，通过比较简单的架构与更复杂的架构，我们发现，更复杂的模型并不一定能在信用评级预测中发挥更好的性能。
+
+    Knowing which factors are significant in credit rating assignment leads to better decision-making. However, the focus of the literature thus far has been mostly on structured data, and fewer studies have addressed unstructured or multi-modal datasets. In this paper, we present an analysis of the most effective architectures for the fusion of deep learning models for the prediction of company credit rating classes, by using structured and unstructured datasets of different types. In these models, we tested different combinations of fusion strategies with different deep learning models, including CNN, LSTM, GRU, and BERT. We studied data fusion strategies in terms of level (including early and intermediate fusion) and techniques (including concatenation and cross-attention). Our results show that a CNN-based multi-modal model with two fusion strategies outperformed other multi-modal techniques. In addition, by comparing simple architectures with more complex ones, we found that more soph
+    
+[^6]: 教师作出学校分班决策的质量研究——以荷兰为例
+
+    The quality of school track assignment decisions by teachers. (arXiv:2304.10636v1 [econ.GN])
+
+    [http://arxiv.org/abs/2304.10636](http://arxiv.org/abs/2304.10636)
+
+    本文研究了荷兰中学阶段分班决策的质量，发现教师的初始分班决策对于大多数学生来说太低了。
+
+    
+
+    本文使用回归不连续设计研究了荷兰中学阶段分班决策的质量。在小学六年级，小学教师将每个学生分配到中学阶段的一个学习轨迹上。如果学生在小学教育的标准化结束测试中的得分高于特定的轨迹分数线，教师可以向上修改这个分配决策。通过比较这些分数线两侧的学生，发现在四年后，有50-90％的学生“被困在轨迹中”，意味着他们只有在第一年就开始在高轨迹上的情况下，才能在四年后在高轨迹上。其他（少数）学生则“始终处于低水平”，无论他们最初位于哪个水平，四年后都会一直在低水平上。这些比例适用于在第一年通过得分超过分数线而从低轨迹转到高轨迹的接近分数线的学生。因此，对于大多数这些学生来说，最初（未修改的）分班决策太低了。研究结果表明，教师作出的分班决策质量值得关注。
+
+    We study the quality of secondary school track assignment decisions in the Netherlands, using a regression discontinuity design. In 6th grade, primary school teachers assign each student to a secondary school track. If a student scores above a track-specific cutoff on the standardized end-of-primary education test, the teacher can upwardly revise this assignment. By comparing students just left and right of these cutoffs, we find that between 50-90% of the students are "trapped in track": these students are on the high track after four years, only if they started on the high track in first year. The remaining (minority of) students are "always low": they are always on the low track after four years, independently of where they started. These proportions hold for students near the cutoffs that shift from the low to the high track in first year by scoring above the cutoff. Hence, for a majority of these students the initial (unrevised) track assignment decision is too low. The results re
+    
+[^7]: 学习随机过程的有条件生成模型
 
     Conditional Generative Models for Learning Stochastic Processes. (arXiv:2304.10382v1 [quant-ph])
 
@@ -49,200 +113,46 @@
 
     A framework to learn a multi-modal distribution is proposed, denoted as the Conditional Quantum Generative Adversarial Network (C-qGAN). The neural network structure is strictly within a quantum circuit and, as a consequence, is shown to represents a more efficient state preparation procedure than current methods. This methodology has the potential to speed-up algorithms, such as Monte Carlo analysis. In particular, after demonstrating the effectiveness of the network in the learning task, the technique is applied to price Asian option derivatives, providing the foundation for further research on other path-dependent options.
     
-[^3]: 极端系统性风险预测中的估值风险
+[^8]: 后期获得新资格的经济效应
 
-    The Estimation Risk in Extreme Systemic Risk Forecasts. (arXiv:2304.10349v1 [stat.ME])
+    The Economic Effect of Gaining a New Qualification Later in Life. (arXiv:2304.01490v1 [econ.GN])
 
-    [http://arxiv.org/abs/2304.10349](http://arxiv.org/abs/2304.10349)
+    [http://arxiv.org/abs/2304.01490](http://arxiv.org/abs/2304.01490)
 
-    本文提出了一种基于极值理论的估计器的系统性风险预测方法，并通过建立MES预测的渐近正态性展示了其有效性。
-
-    
-
-    系统性风险度量已被证明对金融危机和实际活动下降具有预测作用。因此，在金融和经济学中进行预测是至关重要的。本文提出了一种基于极值理论的估计器，针对残差计算系统风险的一种新的系统性风险预测方法，即测度为边际预期损失的系统风险。我们通过建立MES预测的渐近正态性来展示该方法的有效性。通过模拟实验，我们确认了隐含的MES预测区间在有限样本中的覆盖率良好。 美国主要银行的实证应用说明了MES预测精度在时间上的显著变化，并从监管的角度探讨了这一事实的影响。
-
-    Systemic risk measures have been shown to be predictive of financial crises and declines in real activity. Thus, forecasting them is of major importance in finance and economics. In this paper, we propose a new forecasting method for systemic risk as measured by the marginal expected shortfall (MES). It is based on first de-volatilizing the observations and, then, calculating systemic risk for the residuals using an estimator based on extreme value theory. We show the validity of the method by establishing the asymptotic normality of the MES forecasts. The good finite-sample coverage of the implied MES forecast intervals is confirmed in simulations. An empirical application to major US banks illustrates the significant time variation in the precision of MES forecasts, and explores the implications of this fact from a regulatory perspective.
-    
-[^4]: 环境政策采用中的不确定性：对不可预测的社会经济成本的贝叶斯学习(arXiv:2304.10344v1 [math.OC])
-
-    Uncertainty over Uncertainty in Environmental Policy Adoption: Bayesian Learning of Unpredictable Socioeconomic Costs. (arXiv:2304.10344v1 [math.OC])
-
-    [http://arxiv.org/abs/2304.10344](http://arxiv.org/abs/2304.10344)
-
-    本文开发了一个类似于实物期权的模型，以捕捉环境政策采用中的两层不确定性。决策者能够通过跟踪成本的实际演变来学习未知的漂移，并形成后验动态信念其真正价值。
+    本研究通过机器学习方法分析晚年完成学位与经济回报之间的因果效应，发现获得新资格将带来每年超过3000澳元的经济回报。
 
     
 
-    污染的社会经济影响自然而然地伴随着不确定性，例如，排放减少的新技术发展或人口变化。此外，环境破坏未来成本的趋势是未知的：全球变暖是否占主导地位，还是技术进步会占据主导地位？事实上，我们不知道哪种情况会实现，科学界的辩论仍然存在。本文通过开发一个类似于实物期权的模型，捕捉这两层不确定性。在该模型中，决策者的目标是在当前的排放率中采取一次性昂贵的减少，当污染的社会经济成本的随机动态受到布朗运动的冲击时，漂移是不可观察的随机变量。通过跟踪成本的实际演变，决策者能够学习未知的漂移，并形成后验动态信念其真正价值。由此产生的决策时机问题公司
+    在OECD国家中，追求晚年教育资格是一个越来越普遍的现象，因为技术变革和自动化继续推动许多职业所需的技能的演变。本文着重考虑晚年完成学位对经济回报的因果影响，其中获取额外教育的动机和能力可能与早年教育不同。我们发现，与那些没有完成额外学习的人相比，完成额外学位将带来每年超过3000澳元（2019年）的经济回报。对于结果，我们使用《澳大利亚家庭收入和劳动力动态调查》的极其丰富且具有代表性的纵向数据。为了充分利用这些数据的复杂性和丰富性，我们使用基于机器学习（ML）的方法来估算因果效应。我们也能够使用ML来发现晚年获得新资格对经济回报的影响来源的异质性。
 
-    The socioeconomic impact of pollution naturally comes with uncertainty due to, e.g., current new technological developments in emissions' abatement or demographic changes. On top of that, the trend of the future costs of the environmental damage is unknown: Will global warming dominate or technological advancements prevail? The truth is that we do not know which scenario will be realised and the scientific debate is still open. This paper captures those two layers of uncertainty by developing a real-options-like model in which a decision maker aims at adopting a once-and-for-all costly reduction in the current emissions rate, when the stochastic dynamics of the socioeconomic costs of pollution are subject to Brownian shocks and the drift is an unobservable random variable. By keeping track of the actual evolution of the costs, the decision maker is able to learn the unknown drift and to form a posterior dynamic belief of its true value. The resulting decision maker's timing problem boi
+    Pursuing educational qualifications later in life is an increasingly common phenomenon within OECD countries since technological change and automation continues to drive the evolution of skills needed in many professions. We focus on the causal impacts to economic returns of degrees completed later in life, where motivations and capabilities to acquire additional education may be distinct from education in early years. We find that completing and additional degree leads to more than \$3000 (AUD, 2019) per year compared to those who do not complete additional study. For outcomes, treatment and controls we use the extremely rich and nationally representative longitudinal data from the Household Income and Labour Dynamics Australia survey is used for this work. To take full advantage of the complexity and richness of this data we use a Machine Learning (ML) based methodology to estimate the causal effect. We are also able to use ML to discover sources of heterogeneity in the effects of ga
     
-[^5]: 人工智能革命对资产管理的影响
+[^9]: 高效准确的全参数本地波动率模型对外汇市场偏斜率的校准
 
-    The impact of the AI revolution on asset management. (arXiv:2304.10212v1 [q-fin.GN])
+    Efficient and Accurate Calibration to FX Market Skew with Fully Parameterized Local Volatility Model. (arXiv:2211.14431v2 [q-fin.PR] UPDATED)
 
-    [http://arxiv.org/abs/2304.10212](http://arxiv.org/abs/2304.10212)
+    [http://arxiv.org/abs/2211.14431](http://arxiv.org/abs/2211.14431)
 
-    本论文分享了作者关于人工智能可能对资产管理产生影响的观点，同时提供了一个衡量特定基金是否真正开发了AI的简单标准。
-
-    
-
-    深度学习的最新进展使得机器具备了杰出的能力：它们可以阅读和理解自由流动的文本，与人类进行推理和交涉，翻译不同语言的文本，学习如何做出最优决策等等。如今，机器已经在癌症检测、蛋白质结构预测、药物设计、核聚变反应堆控制等方面实现了革命性突破。虽然这些能力仍处于萌芽阶段，但它们在持续完善和应用中的技术影响几乎将在人类活动的几乎所有社会和经济领域中发挥作用，这是我们以前从未见过的。本文将分享我的观点，即人工智能如何影响资产管理，我将提供一个思维框架，使读者可以用一个简单的标准来评估一个特定基金是否真正开发
-
-    Recent progress in deep learning, a special form of machine learning, has led to remarkable capabilities machines can now be endowed with: they can read and understand free flowing text, reason and bargain with human counterparts, translate texts between languages, learn how to take decisions to maximize certain outcomes, etc. Today, machines have revolutionized the detection of cancer, the prediction of protein structures, the design of drugs, the control of nuclear fusion reactors etc. Although these capabilities are still in their infancy, it seems clear that their continued refinement and application will result in a technological impact on nearly all social and economic areas of human activity, the likes of which we have not seen before. In this article, I will share my view as to how AI will likely impact asset management in general and I will provide a mental framework that will equip readers with a simple criterion to assess whether and to what degree a given fund really exploi
-    
-[^6]: 东南亚农业冲击与社会冲突
-
-    Agricultural Shocks and Social Conflict in Southeast Asia. (arXiv:2304.10027v1 [econ.GN])
-
-    [http://arxiv.org/abs/2304.10027](http://arxiv.org/abs/2304.10027)
-
-    该研究分析了东南亚农业与社会冲突的关联性，发现在稻谷收获季节中，政治暴力增加而社会动荡减少。研究揭示了政策制定者在农业经济中管理社会冲突的必要性。
+    研究了一种全参数化的本地波动率模型，可高效准确地校准到外汇市场的偏斜波动率，提供可靠的异型期权价格。
 
     
 
-    社会冲突是不可避免的，但其发生和强度随时间和地点的不同而异。在低收入经济体中，农业就业和收入的重要性较大，政治暴力和社会冲突可能与该行业相关。我们使用涵盖七个东南亚国家13年期间的冲突数据来研究这种联系。我们重点关注稻谷收获季节中冲突事件的变化，这是该地区生产和消费最多的谷物作物。我们观察到在收获季节的稻米生产地区，政治暴力增加而社会动荡减少。通过考虑与稻谷价格和生长季节降雨相关的冲击，并比较主要是灌溉与主要是雨养稻生产实践的地区，我们研究了可能导致这种效果的不同机制。这些发现为政策制定者提供了重要的见解。
+    在外汇衍生品市场上交易美式和亚式期权时，银行必须使用复杂的数学模型来计算价格。常常观察到不同的模型对于同一个异型期权会产生不同的价格，这违反了衍生品风险管理的无套利要求。为了解决这个问题，我们研究了一种全参数化本地波动率模型，用于定价美式/亚式期权。当采用网格或蒙特卡罗数值方法实现该模型的时候，可以高效且准确地校准到外汇市场的偏斜波动率。因此，在日常交易活动中，该模型可以提供可靠的异型期权价格。
 
-    Social conflicts are inevitable, but their occurrence and intensity have varied over time and across locations. In lower-income economies, where employment and income from agriculture are substantial, forms of political violence and social conflict may be linked with this sector. We investigate this linkage using granular conflict data covering a 13-year period across seven Southeast Asian countries. We focus on changes in conflict incidents during the rice harvest season, which is the most produced and consumed cereal crop in the region. We observe an increase in political violence but a decrease in social unrest in rice-producing areas during the harvest season. We investigate different plausible mechanisms that may lead to such effects, by incorporating shocks associated with rice prices and growing season rainfall, and by comparing regions with predominantly irrigated vs predominantly rainfed rice production practices. These findings offer important insights to policymakers as they
+    When trading American and Asian options in the FX derivatives market, banks must calculate prices using a complex mathematical model. It is often observed that different models produce varying prices for the same exotic option, which violates the non-arbitrage requirement of derivative risk management. To address this issue, we have studied a fully parameterized local volatility model for pricing American/Asian options. This model, when implemented using a grid or Monte-Carlo numerical method, can be efficiently and accurately calibrated to FX market skew volatilities. As a result, the model can provide reliable prices for exotic options during daily trading activities.
     
-[^7]: 蛋糕：人类进化如何分配非金融财富？
+[^10]: 多维经济复杂度与包容性绿色增长
 
-    The Pie: How Has Human Evolution Distributed Non-Financial Wealth?. (arXiv:2304.09971v1 [econ.GN])
+    Multidimensional Economic Complexity and Inclusive Green Growth. (arXiv:2209.08382v2 [econ.GN] UPDATED)
 
-    [http://arxiv.org/abs/2304.09971](http://arxiv.org/abs/2304.09971)
+    [http://arxiv.org/abs/2209.08382](http://arxiv.org/abs/2209.08382)
 
-    本研究探讨了在金融系统存在之前，自然资产如何分配的问题。通过研究人类学数据并应用经济理论，发现史前社会对非金融财富的基尼系数有一个首选范围，随着人类社会的演变和发展更为复杂的政治结构，这个范围发生了变化。
-
-    
-
-    收入和财富分配是经济运作的基础组成部分。这些是复杂的分布，使用平均值或中位数等简化方法很难真正感受到它们的动态。一个更好地描述该分布的指标是基尼系数，在一个极端是0，一个完全公平的分布，在另一个极端是1，最不公平的是一个人拥有所有资源。大多数专家认为，在任一极端都不存在可行的经济，但确定首选范围历来是有争议的政治哲学和情感诉求问题。本研究探讨的是是否存在一个理论和实证基础支持一个首选基尼系数。具体而言，我探讨了一个简单的问题：在金融系统存在之前，自然资产如何分配？高度，力量和美丽等内在人类属性是人类社会互动的原始价值衡量标准。通过研究人类学数据并应用经济理论，我发现史前社会对非金融财富的基尼系数有一个首选范围。随着人类社会的演变和发展更为复杂的政治结构，这个范围发生了变化。了解这个范围对于如何塑造现代经济系统具有影响。
-
-    Income and wealth allocation are foundational components of how economies operate. These are complex distributions, and it is hard to get a real sense for their dynamics using simplifications like average or median. One metric that characterizes such distributions better is the Gini Index, which on one extreme is 0, a completely equitable distribution, and on the other extreme is 1, the most inequitable, where a single individual has all the resources. Most experts agree that viable economies cannot exist at either extreme, but identifying a preferred range has historically been a matter of conflicting political philosophies and emotional appeals. This research explores instead whether there might be a theoretical and empirical basis for a preferred Gini Index. Specifically, I explore a simple question: Before financial systems existed, how were natural assets allocated? Intrinsic human attributes such as height, strength, & beauty were the original measures of value in which human soc
-    
-[^8]: 在线模型集成对最优预测性能的应用和行业轮换策略
-
-    Online Ensemble of Models for Optimal Predictive Performance with Applications to Sector Rotation Strategy. (arXiv:2304.09947v1 [q-fin.ST])
-
-    [http://arxiv.org/abs/2304.09947](http://arxiv.org/abs/2304.09947)
-
-    通过机器学习模型和资产特定因素在预测行业回报和测量行业特定风险溢价方面获得更大经济收益，开发了一种新型在线集成算法来学习优化预测性能，特别适用于时间序列问题和可能的黑盒模型系统。
+    论文研究结合贸易数据、专利申请和研究出版物的数据，建立了能够解释国际包容性绿色增长差异的经济复杂度模型，并发现高综合评分国家更容易实现低排放强度的绿色增长。
 
     
 
-    资产特定因素通常用于预测金融回报并量化资产特定风险溢价。我们使用各种机器学习模型证明，这些因素包含的信息可以在预测行业回报和测量行业特定风险溢价方面带来更大的经济收益。为了利用不同行业表现的单个模型的强预测结果，我们开发了一种新型在线集成算法，该算法学习优化预测性能。该算法随着时间的推移不断适应，通过分析它们最近的预测性能来确定个体模型的最佳组合。这使它特别适用于时间序列问题，滚动窗口回测程序和可能的黑盒模型系统。我们推导出最优增益函数，用样本外R平方度量表达相应的遗憾界，并推导出最优解。
+    要实现包容性的绿色增长，国家需要考虑多种经济、社会和环境因素。这些因素通常由从贸易地理中导出的经济复杂度的度量所捕捉，因此缺少创新活动的关键信息。为填补这一差距，我们将贸易数据与专利申请和研究出版物的数据相结合，建立模型，显著且稳健地改善了经济复杂度度量解释国际包容性绿色增长差异的能力。我们发现，基于贸易和专利数据建立的复杂度度量结合在一起能够解释未来的经济增长和收入不平等性，并且在所有三个指标得分高的国家往往表现出更低的排放强度。这些发现说明了贸易、技术和研究的地理位置如何结合起来解释包容性绿色增长。
 
-    Asset-specific factors are commonly used to forecast financial returns and quantify asset-specific risk premia. Using various machine learning models, we demonstrate that the information contained in these factors leads to even larger economic gains in terms of forecasts of sector returns and the measurement of sector-specific risk premia. To capitalize on the strong predictive results of individual models for the performance of different sectors, we develop a novel online ensemble algorithm that learns to optimize predictive performance. The algorithm continuously adapts over time to determine the optimal combination of individual models by solely analyzing their most recent prediction performance. This makes it particularly suited for time series problems, rolling window backtesting procedures, and systems of potentially black-box models. We derive the optimal gain function, express the corresponding regret bounds in terms of the out-of-sample R-squared measure, and derive optimal le
-    
-[^9]: 比特币：危机时刻的历程
-
-    Bitcoin: A life in crises. (arXiv:2304.09939v1 [q-fin.ST])
-
-    [http://arxiv.org/abs/2304.09939](http://arxiv.org/abs/2304.09939)
-
-    本文研究比特币价格时间序列，发现自2010-2011年以来已发生至少十起新的价格波动。尽管无法预测价格峰值，但成功使用类斐波那契数列的函数逼近了BTC价格演变。和其他金融工具相比，BTC可能被归类为非流动资产。
-
-    
-
-    本文研究比特币价格时间序列（2010年8月17日至2021年6月27日），并表明2017年的价格波动不是唯一的。自2010-2011年以来发生了至少十起新事件，跨越了五个订单的价格巨幅（1美元-60,000美元）。我们发现这些事件的持续时间大致相同，约为50-100天。尽管我们无法预测价格峰值的时间，但我们成功地通过一种类似于斐波那契数列的函数来逼近BTC价格演变。最后，我们将BTC与其他类型的金融工具（股票、货币、黄金）进行了比较，表明BTC可能被归类为非流动资产。
-
-    In this study, we investigate the BTC price time-series (17 August 2010-27 June 2021) and show that the 2017 pricing episode is not unique. We describe at least ten new events, which occurred since 2010-2011 and span more than five orders of price magnitudes ($US 1-$US 60k). We find that those events have a similar duration of approx. 50-100 days. Although we are not able to predict times of a price peak, we however succeed to approximate the BTC price evolution using a function that is similar to a Fibonacci sequence. Finally, we complete a comparison with other types of financial instruments (equities, currencies, gold) which suggests that BTC may be classified as an illiquid asset.
-    
-[^10]: 通过机器学习预测股票价格和商业周期
-
-    Stock Price Predictability and the Business Cycle via Machine Learning. (arXiv:2304.09937v1 [q-fin.ST])
-
-    [http://arxiv.org/abs/2304.09937](http://arxiv.org/abs/2304.09937)
-
-    研究发现，机器学习模型在大多数衰退期间的表现较差，与稳定市场有关的因素可能是其表现优异的原因。因此，我们建议ML从业者在衰退和复苏期间评估其模型。
-
-    
-
-    本研究探讨了商业周期对机器学习（ML）预测的影响。使用标普500指数，我们发现在大多数衰退期间，ML模型的表现较差，而衰退历史或无风险利率的包含并不能 necessarily 提高其性能。在调查模型表现良好的衰退时，我们发现它们的市场波动性较其他衰退期较低。这意味着表现提高不是由于ML方法的优点，而是因为有效的货币政策稳定了市场。我们建议ML从业者在衰退和复苏期间评估其模型。
-
-    We study the impacts of business cycles on machine learning (ML) predictions. Using the S&P 500 index, we find that ML models perform worse during most recessions, and the inclusion of recession history or the risk-free rate does not necessarily improve their performance. Investigating recessions where models perform well, we find that they exhibit lower market volatility than other recessions. This implies that the improved performance is not due to the merit of ML methods but rather factors such as effective monetary policies that stabilized the market. We recommend that ML practitioners evaluate their models during both recessions and expansions.
-    
-[^11]: 使用技术分析和ML/DL模型识别交易
-
-    Identifying Trades Using Technical Analysis and ML/DL Models. (arXiv:2304.09936v1 [q-fin.ST])
-
-    [http://arxiv.org/abs/2304.09936](http://arxiv.org/abs/2304.09936)
-
-    本文讲述了如何使用ML/DL模型预测股票价格，以帮助投资者和金融机构做出明智的决策和制定有效的风险管理政策。
-
-    
-
-    预测股市价格的重要性不言而喻。对于投资者和金融机构来说，这是一个关键任务，因为它使他们能够做出明智的投资决策，管理风险并确保金融系统的稳定。准确的股市预测可以帮助投资者最大化收益并尽量减少损失，而金融机构可以利用这些信息制定有效的风险管理政策。然而，由于股市的复杂性和影响股票价格的诸多因素，股市预测是一项具有挑战性的任务。因此，越来越多的先进技术，如深度学习，被用于分析海量数据并洞察股市运行行为。虽然深度学习在准确预测股票价格方面表现出了很大的潜力，但在这个领域仍有许多研究需要进行。
-
-    The importance of predicting stock market prices cannot be overstated. It is a pivotal task for investors and financial institutions as it enables them to make informed investment decisions, manage risks, and ensure the stability of the financial system. Accurate stock market predictions can help investors maximize their returns and minimize their losses, while financial institutions can use this information to develop effective risk management policies. However, stock market prediction is a challenging task due to the complex nature of the stock market and the multitude of factors that can affect stock prices. As a result, advanced technologies such as deep learning are being increasingly utilized to analyze vast amounts of data and provide valuable insights into the behavior of the stock market. While deep learning has shown promise in accurately predicting stock prices, there is still much research to be done in this area.
-    
-[^12]: 机器学习在经济研究中的应用：何时、什么和如何运用？
-
-    Machine Learning for Economics Research: When What and How?. (arXiv:2304.00086v1 [econ.GN])
-
-    [http://arxiv.org/abs/2304.00086](http://arxiv.org/abs/2304.00086)
-
-    本文精选综述了使用机器学习工具进行经济学研究和政策分析的文章，强调了机器学习在处理非传统和非结构化数据、捕捉强非线性性和提高预测准确性方面的应用优势，成为计量经济学家工具箱中不可或缺的一部分。
-
-    
-
-    本文对使用机器学习工具进行经济学研究和政策分析的重要经济期刊上发表的文章进行了精选综述。综述回答了三个关键问题：（1）何时在经济学中使用机器学习，（2）常用的机器学习模型是什么，以及（3）如何将它们用于经济应用。综述强调了机器学习特别适用于处理非传统和非结构化数据、捕捉强非线性性和提高预测准确性。深度学习模型适用于非传统数据，而集成学习模型适用于传统数据集。尽管传统的计量经济学模型在分析低复杂性数据时可能足够，但由于快速数字化和不断增长的文献，经济数据的复杂性增加，机器学习正成为计量经济学家工具箱中不可或缺的一部分。
-
-    This article provides a curated review of selected papers published in prominent economics journals that use machine learning (ML) tools for research and policy analysis. The review focuses on three key questions: (1) when ML is used in economics, (2) what ML models are commonly preferred, and (3) how they are used for economic applications. The review highlights that ML is particularly used in processing nontraditional and unstructured data, capturing strong nonlinearity, and improving prediction accuracy. Deep learning models are suitable for nontraditional data, whereas ensemble learning models are preferred for traditional datasets. While traditional econometric models may suffice for analyzing low-complexity data, the increasing complexity of economic data due to rapid digitalization and the growing literature suggest that ML is becoming an essential addition to the econometrician's toolbox.
-    
-[^13]: 绿色股票和褐色股票中的因子暴露异质性
-
-    Factor Exposure Heterogeneity in Green and Brown Stocks. (arXiv:2302.11729v2 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2302.11729](http://arxiv.org/abs/2302.11729)
-
-    研究发现，相较于褐色股票，绿色股票在大多数股票因子上表现出较少的因子暴露异质性，因此投资经理将投资从褐色股票转向绿色股票时，差异空间较小。此外，与较早时期相比，绿色股票的因子暴露异质性增加了。
-
-    
-
-    本文使用同行暴露比率，探讨了绿色股票和褐色股票中的因子暴露异质性。通过观察基于温室气体排放水平对S&P 500指数公司的同行群体，我们发现，平均而言，绿色股票在大多数传统股票因子（价值风格除外）上比褐色股票表现出更少的因子暴露异质性。因此，投资经理将投资从褐色股票转为绿色股票时，关于他们的因子暴露，他们的差异空间较小。最后，我们发现，与较早时期相比，绿色股票的因子暴露异质性增加了。
-
-    Using the peer-exposure ratio, we explore the factor exposure heterogeneity in green and brown stocks. By looking at peer groups of S&P 500 index firms over 2014-2020 based on their greenhouse gas emission levels, we find that, on average, green stocks exhibit less factor exposure heterogeneity than brown stocks for most of the traditional equity factors but the value factor. Hence, investment managers shifting their investments from brown stocks to green stocks have less room to differentiate themselves regarding their factor exposures. Finally, we find that factor exposure heterogeneity has increased for green stocks compared to earlier periods.
-    
-[^14]: 交易机制中的复杂性和近似性权衡：AMMs与LOBs之比较
-
-    Complexity-Approximation Trade-offs in Exchange Mechanisms: AMMs vs. LOBs. (arXiv:2302.11652v3 [math.FA] UPDATED)
-
-    [http://arxiv.org/abs/2302.11652](http://arxiv.org/abs/2302.11652)
-
-    本文提出了一个框架，比较了常函数市场制造商和限价订单簿两种主流交易范式。 本文的主要目标是形式化一种贯穿交易机制设计的近似复杂度权衡。
-
-    
-
-    本文提出了一个通用的框架，设计和分析了两种资产之间的交易机制，统一并比较了常函数市场制造商（CFMMs）和限价订单簿（LOBs）两种主流交易范式。在我们的框架中，每个流动性提供者（LP）向交易所提交一个向下倾斜的需求曲线，指定其希望在每个价格上持有的风险资产数量; 交易所买卖风险资产以满足提交的需求的总量。通常，这种机制是预算平衡的，并能实现价格发现。不同的交易机制对应于对可接受需求曲线集的不同限制。本文的主要目标是形式化一种贯穿交易机制设计的近似复杂度权衡。例如，CFMMs在表达力方面做出了妥协，以简洁为优：LPs的聚合需求曲线可以用常数空间描述，
-
-    This paper presents a general framework for the design and analysis of exchange mechanisms between two assets that unifies and enables comparisons between the two dominant paradigms for exchange, constant function market markers (CFMMs) and limit order books (LOBs). In our framework, each liquidity provider (LP) submits to the exchange a downward-sloping demand curve, specifying the quantity of the risky asset it wishes to hold at each price; the exchange buys and sells the risky asset so as to satisfy the aggregate submitted demand. In general, such a mechanism is budget-balanced and enables price discovery. Different exchange mechanisms correspond to different restrictions on the set of acceptable demand curves. The primary goal of this paper is to formalize an approximation-complexity trade-off that pervades the design of exchange mechanisms. For example, CFMMs give up expressiveness in favor of simplicity: the aggregate demand curve of the LPs can be described using constant space,
-    
-[^15]: 媒体倾向是具有传染性的。
-
-    Media Slant is Contagious. (arXiv:2202.07269v2 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2202.07269](http://arxiv.org/abs/2202.07269)
-
-    本文研究了国家有线电视新闻对美国本土报纸的影响，发现当地报纸的内容会因为当地 FNC 观众数量的增加而趋向于 FNC 的倾向，并且有线电视倾向会极化地方新闻内容。
-
-    
-
-    本研究考察了媒体倾向的传播，具体来说是国家有线电视新闻对美国本土报纸（2005-2008）的影响。我们使用一种基于 Fox News Channel（FNC）、CNN 和 MSNBC 内容的有线电视倾向文本度量方法，分析地方报纸如何采用 FNC 的倾向而不是 CNN/MSNBC 的倾向。研究结果显示，地方新闻随着当地 FNC 观众人数的外部增长而变得更加类似于 FNC 的内容。这种转变不仅限于从有线电视借鉴，而是地方报纸自身内容的改变。此外，有线电视倾向极化了地方新闻内容。
-
-    We examine the diffusion of media slant, specifically how partisan content from national cable news affects local newspapers in the U.S., 2005-2008. We use a text-based measure of cable news slant trained on content from Fox News Channel (FNC), CNN, and MSNBC to analyze how local newspapers adopt FNC's slant over CNN/MSNBC's. Our findings show that local news becomes more similar to FNC content in response to an exogenous increase in local FNC viewership. This shift is not limited to borrowing from cable news, but rather, local newspapers' own content changes. Further, cable TV slant polarizes local news content.
-    
-[^16]: 用基于Transformer的模型预测中等市值公司违约概率
-
-    A transformer-based model for default prediction in mid-cap corporate markets. (arXiv:2111.09902v4 [q-fin.GN] UPDATED)
-
-    [http://arxiv.org/abs/2111.09902](http://arxiv.org/abs/2111.09902)
-
-    本文利用Transformer模型，将违约预测问题作为多标签时间序列分类问题，并通过注意力热图解释模型预测。同时，提出了一种自定义损失函数和一个新颖的多通道架构，以优化模型。
-
-    
-
-    本文研究了市值低于100亿美元的上市公司，利用30年的美国中等市值公司数据集，预测其中期内的违约概率，并确定贡献违约风险的数据来源（基本面、市场或定价数据）。我们将该问题作为多标签时间序列分类问题，并使用Transformer模型进行预测和注意力热图的解释。为了进一步优化模型，我们提出了一种用于多标签分类的自定义损失函数和一个新颖的多通道架构。
-
-    In this paper, we study mid-cap companies, i.e. publicly traded companies with less than US $10 billion in market capitalisation. Using a large dataset of US mid-cap companies observed over 30 years, we look to predict the default probability term structure over the medium term and understand which data sources (i.e. fundamental, market or pricing data) contribute most to the default risk. Whereas existing methods typically require that data from different time periods are first aggregated and turned into cross-sectional features, we frame the problem as a multi-label time-series classification problem. We adapt transformer models, a state-of-the-art deep learning model emanating from the natural language processing domain, to the credit risk modelling setting. We also interpret the predictions of these models using attention heat maps. To optimise the model further, we present a custom loss function for multi-label classification and a novel multi-channel architecture with differentia
+    To achieve inclusive green growth, countries need to consider a multiplicity of economic, social, and environmental factors. These are often captured by metrics of economic complexity derived from the geography of trade, thus missing key information on innovative activities. To bridge this gap, we combine trade data with data on patent applications and research publications to build models that significantly and robustly improve the ability of economic complexity metrics to explain international variations in inclusive green growth. We show that measures of complexity built on trade and patent data combine to explain future economic growth and income inequality and that countries that score high in all three metrics tend to exhibit lower emission intensities. These findings illustrate how the geography of trade, technology, and research combine to explain inclusive green growth.
     
 

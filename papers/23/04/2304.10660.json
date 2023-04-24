@@ -1,0 +1,12 @@
+{
+    "title": "Scaling ML Products At Startups: A Practitioner's Guide. (arXiv:2304.10660v1 [cs.LG])",
+    "abstract": "How do you scale a machine learning product at a startup? In particular, how do you serve a greater volume, velocity, and variety of queries cost-effectively? We break down costs into variable costs-the cost of serving the model and performant-and fixed costs-the cost of developing and training new models. We propose a framework for conceptualizing these costs, breaking them into finer categories, and limn ways to reduce costs. Lastly, since in our experience, the most expensive fixed cost of a machine learning system is the cost of identifying the root causes of failures and driving continuous improvement, we present a way to conceptualize the issues and share our methodology for the same.",
+    "link": "http://arxiv.org/abs/2304.10660",
+    "context": "Title: Scaling ML Products At Startups: A Practitioner's Guide. (arXiv:2304.10660v1 [cs.LG])\nAbstract: How do you scale a machine learning product at a startup? In particular, how do you serve a greater volume, velocity, and variety of queries cost-effectively? We break down costs into variable costs-the cost of serving the model and performant-and fixed costs-the cost of developing and training new models. We propose a framework for conceptualizing these costs, breaking them into finer categories, and limn ways to reduce costs. Lastly, since in our experience, the most expensive fixed cost of a machine learning system is the cost of identifying the root causes of failures and driving continuous improvement, we present a way to conceptualize the issues and share our methodology for the same.",
+    "path": "papers/23/04/2304.10660.json",
+    "total_tokens": 759,
+    "translated_title": "初创企业如何扩展机器学习产品：从实践者角度的指南",
+    "translated_abstract": "在初创企业如何扩展机器学习产品？特别是如何成本有效地处理更大量，更多样化和更快速的查询？我们将成本分为可变成本-提供模型和性能的成本-和固定成本-开发和训练新模型的成本。我们提出了一个框架来概念化这些成本，将它们细分为更细的类别，并阐述减少成本的方法。最后，由于从我们的经验来看，机器学习系统中最昂贵的固定成本是确定失败根本原因并推动持续改进的成本，我们介绍了一种概念化问题并分享我们的方法。",
+    "tldr": "本文介绍了一种从实践者角度出发，针对初创企业如何成本有效地扩展机器学习产品的框架和方法，并强调了减少固定成本的重要性。",
+    "en_tdlr": "This paper introduces a framework and method for cost-effectively scaling machine learning products in startups from a practitioner's perspective, emphasizing the importance of reducing fixed costs. It also presents a way to conceptualize and address the most expensive fixed cost of a machine learning system - identifying the root causes of failures and driving continuous improvement."
+}

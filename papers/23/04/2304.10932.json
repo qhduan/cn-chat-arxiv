@@ -1,0 +1,12 @@
+{
+    "title": "Learning Dictionaries from Physical-Based Interpolation for Water Network Leak Localization. (arXiv:2304.10932v1 [eess.SY])",
+    "abstract": "This article presents a leak localization methodology based on state estimation and learning. The first is handled by an interpolation scheme, whereas dictionary learning is considered for the second stage. The novel proposed interpolation technique exploits the physics of the interconnections between hydraulic heads of neighboring nodes in water distribution networks. Additionally, residuals are directly interpolated instead of hydraulic head values. The results of applying the proposed method to a well-known case study (Modena) demonstrated the improvements of the new interpolation method with respect to a state-of-the-art approach, both in terms of interpolation error (considering state and residual estimation) and posterior localization.",
+    "link": "http://arxiv.org/abs/2304.10932",
+    "context": "Title: Learning Dictionaries from Physical-Based Interpolation for Water Network Leak Localization. (arXiv:2304.10932v1 [eess.SY])\nAbstract: This article presents a leak localization methodology based on state estimation and learning. The first is handled by an interpolation scheme, whereas dictionary learning is considered for the second stage. The novel proposed interpolation technique exploits the physics of the interconnections between hydraulic heads of neighboring nodes in water distribution networks. Additionally, residuals are directly interpolated instead of hydraulic head values. The results of applying the proposed method to a well-known case study (Modena) demonstrated the improvements of the new interpolation method with respect to a state-of-the-art approach, both in terms of interpolation error (considering state and residual estimation) and posterior localization.",
+    "path": "papers/23/04/2304.10932.json",
+    "total_tokens": 680,
+    "translated_title": "基于物理插值的水网泄漏定位中的字典学习",
+    "translated_abstract": "本文介绍了一种基于状态估计和学习的泄漏定位方法。第一个阶段由插值方案处理，第二个阶段考虑字典学习。新提出的插值技术利用了水力连接的物理学原理，连接相邻节点的液压头。另外，残差直接被插值而不是液压头值。将所提出的方法应用于一个著名案例(Modena)，结果表明，新的插值方法在插值误差(考虑状态和残差估计)和后验定位方面都优于现有技术。",
+    "tldr": "本文提出一种基于物理插值和字典学习的泄漏定位方法，应用于Modena案例得到了优于现有技术的结果。",
+    "en_tdlr": "This article proposes a leak localization method based on physical-based interpolation and dictionary learning, and demonstrates its superiority over state-of-the-art approaches using the Modena case study."
+}

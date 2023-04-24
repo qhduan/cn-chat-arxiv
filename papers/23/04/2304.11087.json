@@ -1,0 +1,12 @@
+{
+    "title": "AI Product Security: A Primer for Developers. (arXiv:2304.11087v1 [cs.CR])",
+    "abstract": "Not too long ago, AI security used to mean the research and practice of how AI can empower cybersecurity, that is, AI for security. Ever since Ian Goodfellow and his team popularized adversarial attacks on machine learning, security for AI became an important concern and also part of AI security. It is imperative to understand the threats to machine learning products and avoid common pitfalls in AI product development. This article is addressed to developers, designers, managers and researchers of AI software products.",
+    "link": "http://arxiv.org/abs/2304.11087",
+    "context": "Title: AI Product Security: A Primer for Developers. (arXiv:2304.11087v1 [cs.CR])\nAbstract: Not too long ago, AI security used to mean the research and practice of how AI can empower cybersecurity, that is, AI for security. Ever since Ian Goodfellow and his team popularized adversarial attacks on machine learning, security for AI became an important concern and also part of AI security. It is imperative to understand the threats to machine learning products and avoid common pitfalls in AI product development. This article is addressed to developers, designers, managers and researchers of AI software products.",
+    "path": "papers/23/04/2304.11087.json",
+    "total_tokens": 642,
+    "translated_title": "AI产品安全：开发者入门指南",
+    "translated_abstract": "不久以前，AI安全就意味着如何利用AI增强网络安全的研究和实践，即安全的AI。自从Ian Goodfellow及其团队广泛应用对抗性攻击于机器学习之后，AI安全成为一个重要的问题，也是AI安全的一部分。了解机器学习产品的威胁并避免AI产品开发中的常见陷阱至关重要。本文面向AI软件产品的开发人员、设计师、管理者和研究人员。",
+    "tldr": "本文旨在为AI软件产品的开发人员、设计师、管理者和研究人员介绍AI产品安全的基础，让他们了解机器学习产品的威胁并避免常见陷阱。",
+    "en_tdlr": "This article aims to introduce the basics of AI product security for developers, designers, managers, and researchers of AI software products, enabling them to understand the threats to machine learning products and avoid common pitfalls."
+}
