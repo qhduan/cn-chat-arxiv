@@ -1,0 +1,12 @@
+{
+    "title": "Choice Structures in Games. (arXiv:2304.11575v1 [econ.TH])",
+    "abstract": "Following the decision-theoretic approach to game theory, we extend the analysis of Epstein & Wang and of Di Tillio from hierarchies of preference relations to hierarchies of choice functions. We then construct the universal choice structure containing all these choice hierarchies, and show how the universal preference structure of Di Tillio is embedded in it.",
+    "link": "http://arxiv.org/abs/2304.11575",
+    "context": "Title: Choice Structures in Games. (arXiv:2304.11575v1 [econ.TH])\nAbstract: Following the decision-theoretic approach to game theory, we extend the analysis of Epstein & Wang and of Di Tillio from hierarchies of preference relations to hierarchies of choice functions. We then construct the universal choice structure containing all these choice hierarchies, and show how the universal preference structure of Di Tillio is embedded in it.",
+    "path": "papers/23/04/2304.11575.json",
+    "total_tokens": 554,
+    "translated_title": "游戏中的选择结构",
+    "translated_abstract": "遵循决策理论的博弈论方法，我们将Epstein＆Wang和Di Tillio的分析从偏好关系的层次扩展到选择函数的层次。然后，我们构建了包含所有这些选择层次的通用选择结构，并展示了Di Tillio的通用偏好结构是如何嵌入其中的。",
+    "tldr": "该论文研究了游戏中的选择结构，从偏好关系到选择函数的层次，构建了包含所有选择层次的通用选择结构，并嵌入Di Tillio的通用偏好结构。",
+    "en_tdlr": "This paper studies the choice structures in games by extending the analysis from hierarchies of preference relations to hierarchies of choice functions, constructing the universal choice structure containing all these hierarchies and embedding the universal preference structure of Di Tillio in it."
+}

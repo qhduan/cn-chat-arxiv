@@ -1,0 +1,12 @@
+{
+    "title": "Machine Learning and the Future of Bayesian Computation. (arXiv:2304.11251v1 [stat.ML])",
+    "abstract": "Bayesian models are a powerful tool for studying complex data, allowing the analyst to encode rich hierarchical dependencies and leverage prior information. Most importantly, they facilitate a complete characterization of uncertainty through the posterior distribution. Practical posterior computation is commonly performed via MCMC, which can be computationally infeasible for high dimensional models with many observations. In this article we discuss the potential to improve posterior computation using ideas from machine learning. Concrete future directions are explored in vignettes on normalizing flows, Bayesian coresets, distributed Bayesian inference, and variational inference.",
+    "link": "http://arxiv.org/abs/2304.11251",
+    "context": "Title: Machine Learning and the Future of Bayesian Computation. (arXiv:2304.11251v1 [stat.ML])\nAbstract: Bayesian models are a powerful tool for studying complex data, allowing the analyst to encode rich hierarchical dependencies and leverage prior information. Most importantly, they facilitate a complete characterization of uncertainty through the posterior distribution. Practical posterior computation is commonly performed via MCMC, which can be computationally infeasible for high dimensional models with many observations. In this article we discuss the potential to improve posterior computation using ideas from machine learning. Concrete future directions are explored in vignettes on normalizing flows, Bayesian coresets, distributed Bayesian inference, and variational inference.",
+    "path": "papers/23/04/2304.11251.json",
+    "total_tokens": 693,
+    "translated_title": "机器学习与贝叶斯计算的未来",
+    "translated_abstract": "贝叶斯模型是研究复杂数据的强大工具，允许分析人员编码丰富的层次依赖关系并利用先验信息。最重要的是，它们通过后验分布促进了对不确定性的完整表征。实用的后验计算通常通过MCMC进行，但对于具有许多观测值的高维模型而言，这可能计算上不可行。在本文中，我们讨论利用机器学习思想来改进后验计算的潜力。具体的未来方向在正态流、贝叶斯核心集、分布式贝叶斯推断和变分推断的vignettes中得到探讨。",
+    "tldr": "本文讨论了利用机器学习的思想来改进贝叶斯计算的潜力，并探讨了几个具体的未来方向。",
+    "en_tdlr": "This article discusses the potential to improve Bayesian computation using ideas from machine learning, and explores several concrete future directions, including normalizing flows, Bayesian coresets, distributed Bayesian inference, and variational inference."
+}

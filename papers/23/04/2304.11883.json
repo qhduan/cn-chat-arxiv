@@ -1,0 +1,12 @@
+{
+    "title": "Recurrent neural network based parameter estimation of Hawkes model on high-frequency financial data. (arXiv:2304.11883v1 [q-fin.ST])",
+    "abstract": "This study examines the use of a recurrent neural network for estimating the parameters of a Hawkes model based on high-frequency financial data, and subsequently, for computing volatility. Neural networks have shown promising results in various fields, and interest in finance is also growing. Our approach demonstrates significantly faster computational performance compared to traditional maximum likelihood estimation methods while yielding comparable accuracy in both simulation and empirical studies. Furthermore, we demonstrate the application of this method for real-time volatility measurement, enabling the continuous estimation of financial volatility as new price data keeps coming from the market.",
+    "link": "http://arxiv.org/abs/2304.11883",
+    "context": "Title: Recurrent neural network based parameter estimation of Hawkes model on high-frequency financial data. (arXiv:2304.11883v1 [q-fin.ST])\nAbstract: This study examines the use of a recurrent neural network for estimating the parameters of a Hawkes model based on high-frequency financial data, and subsequently, for computing volatility. Neural networks have shown promising results in various fields, and interest in finance is also growing. Our approach demonstrates significantly faster computational performance compared to traditional maximum likelihood estimation methods while yielding comparable accuracy in both simulation and empirical studies. Furthermore, we demonstrate the application of this method for real-time volatility measurement, enabling the continuous estimation of financial volatility as new price data keeps coming from the market.",
+    "path": "papers/23/04/2304.11883.json",
+    "total_tokens": 741,
+    "translated_title": "基于循环神经网络的高频金融数据Hawkes模型参数估计",
+    "translated_abstract": "本研究探讨了利用循环神经网络对基于高频金融数据的Hawkes模型参数进行估计，并通过计算波动性来进行分析。神经网络在各个领域都展现出了良好的效果，在金融领域中的应用也正在增长。与传统最大似然估计方法相比，我们的方法在模拟和实证研究中表现出了可比较的准确性，同时具有显着更快的计算性能。此外，我们演示了该方法在实时波动率测量中的应用，可以持续地估计金融波动性，随着市场上出现新的价格数据。",
+    "tldr": "本研究利用循环神经网络对高频金融数据的Hawkes模型参数进行估计，并通过实时波动率测量进行应用。相较于传统方法，本方法具有更快的计算性能和可比较的准确性。",
+    "en_tdlr": "This study proposes a recurrent neural network approach for parameter estimation of a Hawkes model based on high-frequency financial data and real-time volatility measurement. The method exhibits significantly faster computational performance and comparable accuracy with traditional methods."
+}

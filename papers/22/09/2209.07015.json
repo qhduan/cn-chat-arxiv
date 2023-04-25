@@ -1,0 +1,12 @@
+{
+    "title": "Upper bounds on the Natarajan dimensions of some function classes. (arXiv:2209.07015v2 [stat.ML] UPDATED)",
+    "abstract": "The Natarajan dimension is a fundamental tool for characterizing multi-class PAC learnability, generalizing the Vapnik-Chervonenkis (VC) dimension from binary to multi-class classification problems. This work establishes upper bounds on Natarajan dimensions for certain function classes, including (i) multi-class decision tree and random forests, and (ii) multi-class neural networks with binary, linear and ReLU activations. These results may be relevant for describing the performance of certain multi-class learning algorithms.",
+    "link": "http://arxiv.org/abs/2209.07015",
+    "context": "Title: Upper bounds on the Natarajan dimensions of some function classes. (arXiv:2209.07015v2 [stat.ML] UPDATED)\nAbstract: The Natarajan dimension is a fundamental tool for characterizing multi-class PAC learnability, generalizing the Vapnik-Chervonenkis (VC) dimension from binary to multi-class classification problems. This work establishes upper bounds on Natarajan dimensions for certain function classes, including (i) multi-class decision tree and random forests, and (ii) multi-class neural networks with binary, linear and ReLU activations. These results may be relevant for describing the performance of certain multi-class learning algorithms.",
+    "path": "papers/22/09/2209.07015.json",
+    "total_tokens": 606,
+    "translated_title": "某些函数类的Natarajan维数的上界",
+    "translated_abstract": "Natarajan维度是表征多类PAC可学习性的基本工具，将Vapnik-Chervonenkis（VC）维从二进制分类问题推广到多类分类问题。本研究建立了一些函数类的Natarajan维度上界，包括（i）多类决策树和随机森林，以及（ii）二进制、线性和ReLU激活的多类神经网络。这些结果可能对描述某些多类学习算法的性能有相关性。",
+    "tldr": "本研究建立了一些函数类的Natarajan维度上界，这些结果可以用于描述某些多类学习算法的性能。",
+    "en_tdlr": "This study establishes upper bounds on the Natarajan dimensions for certain function classes, which may be relevant for describing the performance of certain multi-class learning algorithms."
+}

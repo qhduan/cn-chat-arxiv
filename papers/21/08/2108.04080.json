@@ -1,0 +1,12 @@
+{
+    "title": "Aspect-based Sentiment Analysis in Document -- FOMC Meeting Minutes on Economic Projection. (arXiv:2108.04080v2 [cs.CL] UPDATED)",
+    "abstract": "The Federal Open Market Committee within the Federal Reserve System is responsible for managing inflation, maximizing employment, and stabilizing interest rates. Meeting minutes play an important role for market movements because they provide the birds eye view of how this economic complexity is constantly re-weighed. Therefore, There has been growing interest in analyzing and extracting sentiments on various aspects from large financial texts for economic projection. However, Aspect-based Sentiment Analysis is not widely used on financial data due to the lack of large labeled dataset. In this paper, I propose a model to train ABSA on financial documents under weak supervision and analyze its predictive power on various macroeconomic indicators.",
+    "link": "http://arxiv.org/abs/2108.04080",
+    "context": "Title: Aspect-based Sentiment Analysis in Document -- FOMC Meeting Minutes on Economic Projection. (arXiv:2108.04080v2 [cs.CL] UPDATED)\nAbstract: The Federal Open Market Committee within the Federal Reserve System is responsible for managing inflation, maximizing employment, and stabilizing interest rates. Meeting minutes play an important role for market movements because they provide the birds eye view of how this economic complexity is constantly re-weighed. Therefore, There has been growing interest in analyzing and extracting sentiments on various aspects from large financial texts for economic projection. However, Aspect-based Sentiment Analysis is not widely used on financial data due to the lack of large labeled dataset. In this paper, I propose a model to train ABSA on financial documents under weak supervision and analyze its predictive power on various macroeconomic indicators.",
+    "path": "papers/21/08/2108.04080.json",
+    "total_tokens": 752,
+    "translated_title": "基于方面的情感分析在文件中的应用--以经济预测FOMC会议记录为例",
+    "translated_abstract": "美联储内的联邦公开市场委员会负责管理通胀、最大化就业和稳定利率。会议记录在市场波动中发挥着重要作用，因为它们提供了这种经济复杂性不断重新权衡的鸟瞰图。因此，越来越多的人对从大型金融文本中分析和提取各种方面的情感以进行经济预测感兴趣。然而，由于缺乏大型标记数据集，基于方面的情感分析在金融数据中并不常见。在本文中，作者提出了一种方法，利用弱监督训练金融文件上的ABSA，并分析其对各种宏观经济指标的预测能力。",
+    "tldr": "本文提出了一种用于训练金融文档上基于方面的情感分析的模型，并研究了其对宏观经济指标的预测能力。",
+    "en_tdlr": "This paper proposes a model for training aspect-based sentiment analysis on financial documents under weak supervision, and examines its predictive power on various macroeconomic indicators."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Matching markets with farsighted couples. (arXiv:2304.12276v1 [econ.TH])",
+    "abstract": "We adopt the notion of the farsighted stable set to determine which matchings are stable when agents are farsighted in matching markets with couples. We show that a singleton matching is a farsighted stable set if and only if the matching is stable. Thus, matchings that are stable with myopic agents remain stable when agents become farsighted. Examples of farsighted stable sets containing multiple non-stable matchings are provided for markets with and without stable matchings. For couples markets where the farsighted stable set does not exist, we propose the DEM farsighted stable set to predict the matchings that are stable when agents are farsighted.",
+    "link": "http://arxiv.org/abs/2304.12276",
+    "context": "Title: Matching markets with farsighted couples. (arXiv:2304.12276v1 [econ.TH])\nAbstract: We adopt the notion of the farsighted stable set to determine which matchings are stable when agents are farsighted in matching markets with couples. We show that a singleton matching is a farsighted stable set if and only if the matching is stable. Thus, matchings that are stable with myopic agents remain stable when agents become farsighted. Examples of farsighted stable sets containing multiple non-stable matchings are provided for markets with and without stable matchings. For couples markets where the farsighted stable set does not exist, we propose the DEM farsighted stable set to predict the matchings that are stable when agents are farsighted.",
+    "path": "papers/23/04/2304.12276.json",
+    "total_tokens": 811,
+    "translated_title": "有远见的情侣匹配市场",
+    "translated_abstract": "我们采用有远见的稳定集的概念，在有情侣的匹配市场中确定哪些匹配是稳定的。我们证明，如果匹配是稳定的，那么独身匹配就是有远见的稳定集。因此，在有远见的市场中，那些对近视代理人稳定的匹配在有远见的代理人时仍然是稳定的。我们提供了包含多个非稳定匹配的有远见的稳定集的例子，这些匹配既可以是有稳定匹配的市场，也可以是没有稳定匹配的市场。对于没有有远见的稳定集的情侣市场，我们提出了 DEM 有远见的稳定集，以预测代理人有远见时稳定的匹配。",
+    "tldr": "本文研究了有远见的情侣匹配市场，提出了有远见的稳定集和 DEM 有远见的稳定集，并说明对于有稳定匹配和没有稳定匹配的市场，对近视代理人稳定的匹配在有远见代理人时仍然是稳定的。",
+    "en_tdlr": "This article studies the matching markets with farsighted couples, proposes the farsighted stable set and the DEM farsighted stable set, and shows that matchings stable with myopic agents remain stable when agents become farsighted, for markets with and without stable matchings."
+}

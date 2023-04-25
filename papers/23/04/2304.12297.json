@@ -1,0 +1,12 @@
+{
+    "title": "Communication in the Infinitely Repeated Prisoner's Dilemma: Theory and Experiments. (arXiv:2304.12297v1 [econ.TH])",
+    "abstract": "So far, the theory of equilibrium selection in the infinitely repeated prisoner's dilemma is insensitive to communication possibilities. To address this issue, we incorporate the assumption that communication reduces -- but does not entirely eliminate -- an agent's uncertainty that the other agent follows a cooperative strategy into the theory. Because of this, agents still worry about the payoff from cooperating when the other one defects, i.e. the sucker's payoff S, and, games with communication are more conducive to cooperation than games without communication. This theory is supported by data from laboratory experiments, and by machine learning based evaluation of the communication content.",
+    "link": "http://arxiv.org/abs/2304.12297",
+    "context": "Title: Communication in the Infinitely Repeated Prisoner's Dilemma: Theory and Experiments. (arXiv:2304.12297v1 [econ.TH])\nAbstract: So far, the theory of equilibrium selection in the infinitely repeated prisoner's dilemma is insensitive to communication possibilities. To address this issue, we incorporate the assumption that communication reduces -- but does not entirely eliminate -- an agent's uncertainty that the other agent follows a cooperative strategy into the theory. Because of this, agents still worry about the payoff from cooperating when the other one defects, i.e. the sucker's payoff S, and, games with communication are more conducive to cooperation than games without communication. This theory is supported by data from laboratory experiments, and by machine learning based evaluation of the communication content.",
+    "path": "papers/23/04/2304.12297.json",
+    "total_tokens": 726,
+    "translated_title": "无限重复囚徒困境中的沟通：理论与实验",
+    "translated_abstract": "目前，无限重复囚徒困境中博弈均衡选择的理论对沟通可能性不敏感。为了解决这个问题，我们将一个假设引入到理论中，即沟通降低了一个参与者对另一个参与者遵循合作策略的不确定性，但并没有完全消除。因此，当另一个参与者出现叛变时，参与者仍然担心合作的收益S，并且带有沟通的游戏比没有沟通的游戏更有助于合作。实验数据和基于机器学习的沟通内容评估支持了这一理论。",
+    "tldr": "该论文研究了无限重复囚徒困境中沟通对博弈均衡选择的影响，发现有沟通的游戏更有助于合作，这对沟通的内容也进行了评估。",
+    "en_tdlr": "This paper investigates the effect of communication on equilibrium selection in the infinitely repeated prisoner's dilemma and finds that games with communication are more conducive to cooperation, which is supported by experimental data and machine learning-based evaluation of the communication content."
+}

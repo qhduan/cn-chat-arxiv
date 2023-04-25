@@ -1,0 +1,12 @@
+{
+    "title": "Universal hidden monotonic trend estimation with contrastive learning. (arXiv:2210.09817v2 [cs.LG] UPDATED)",
+    "abstract": "In this paper, we describe a universal method for extracting the underlying monotonic trend factor from time series data. We propose an approach related to the Mann-Kendall test, a standard monotonic trend detection method and call it contrastive trend estimation (CTE). We show that the CTE method identifies any hidden trend underlying temporal data while avoiding the standard assumptions used for monotonic trend identification. In particular, CTE can take any type of temporal data (vector, images, graphs, time series, etc.) as input. We finally illustrate the interest of our CTE method through several experiments on different types of data and problems.",
+    "link": "http://arxiv.org/abs/2210.09817",
+    "context": "Title: Universal hidden monotonic trend estimation with contrastive learning. (arXiv:2210.09817v2 [cs.LG] UPDATED)\nAbstract: In this paper, we describe a universal method for extracting the underlying monotonic trend factor from time series data. We propose an approach related to the Mann-Kendall test, a standard monotonic trend detection method and call it contrastive trend estimation (CTE). We show that the CTE method identifies any hidden trend underlying temporal data while avoiding the standard assumptions used for monotonic trend identification. In particular, CTE can take any type of temporal data (vector, images, graphs, time series, etc.) as input. We finally illustrate the interest of our CTE method through several experiments on different types of data and problems.",
+    "path": "papers/22/10/2210.09817.json",
+    "total_tokens": 731,
+    "translated_title": "对比学习的通用隐含单调趋势估计",
+    "translated_abstract": "本文介绍了一种从时间序列数据中提取潜在单调趋势因素的通用方法。我们提出了一种与 Mann-Kendall 测试相关的方法，称为对比趋势估计 (CTE)。我们展示了 CTE 方法能够识别任何隐藏在时间数据中的趋势，同时避免了用于单调趋势识别的标准假设。特别地，CTE 可以将任何类型的时间数据 (向量、图像、图、时间序列等) 作为输入。最后，我们通过对不同类型的数据和问题进行多个实验，展示了我们提出的 CTE 方法的实用性。",
+    "tldr": "本文提出了一种称为对比趋势估计 (CTE) 的方法，它是一种通用隐含单调趋势估计方法，可适用于任何类型的时间数据，并避免了用于单调趋势识别的标准假设。",
+    "en_tdlr": "This paper proposes a universal method called Contrastive Trend Estimation (CTE) for extracting the underlying monotonic trend factor from time series data, which avoids standard assumptions used for monotonic trend identification and can take any type of temporal data as input."
+}

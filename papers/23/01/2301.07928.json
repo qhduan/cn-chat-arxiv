@@ -1,0 +1,12 @@
+{
+    "title": "Hamiltonian Neural Networks with Automatic Symmetry Detection. (arXiv:2301.07928v2 [cs.LG] UPDATED)",
+    "abstract": "Recently, Hamiltonian neural networks (HNN) have been introduced to incorporate prior physical knowledge when learning the dynamical equations of Hamiltonian systems. Hereby, the symplectic system structure is preserved despite the data-driven modeling approach. However, preserving symmetries requires additional attention. In this research, we enhance HNN with a Lie algebra framework to detect and embed symmetries in the neural network. This approach allows to simultaneously learn the symmetry group action and the total energy of the system. As illustrating examples, a pendulum on a cart and a two-body problem from astrodynamics are considered.",
+    "link": "http://arxiv.org/abs/2301.07928",
+    "context": "Title: Hamiltonian Neural Networks with Automatic Symmetry Detection. (arXiv:2301.07928v2 [cs.LG] UPDATED)\nAbstract: Recently, Hamiltonian neural networks (HNN) have been introduced to incorporate prior physical knowledge when learning the dynamical equations of Hamiltonian systems. Hereby, the symplectic system structure is preserved despite the data-driven modeling approach. However, preserving symmetries requires additional attention. In this research, we enhance HNN with a Lie algebra framework to detect and embed symmetries in the neural network. This approach allows to simultaneously learn the symmetry group action and the total energy of the system. As illustrating examples, a pendulum on a cart and a two-body problem from astrodynamics are considered.",
+    "path": "papers/23/01/2301.07928.json",
+    "total_tokens": 738,
+    "translated_title": "具有自动对称性检测的哈密顿神经网络",
+    "translated_abstract": "最近，引入了哈密顿神经网络（HNN），以在学习哈密顿系统的动力学方程时纳入先前的物理知识。通过这种数据驱动的建模方法，保留了辛系统结构。然而，保留对称性需要额外关注。在这项研究中，我们用李代数框架增强了HNN，以检测和嵌入神经网络中的对称性。该方法允许同时学习对称性群的作用和系统的总能量。以摆在小车上和天体动力学中的二体问题为例说明了这种方法的有效性。",
+    "tldr": "本研究提出了一种哈密顿神经网络模型，采用李代数框架检测和嵌入对称性，以保留辛系统结构。考虑摆在小车上和天体动力学中的二体问题作为案例，结果表明这种方法是有效的。",
+    "en_tdlr": "This paper proposes a Hamiltonian neural network model that uses a Lie algebra framework to detect and embed symmetries, thus preserving the symplectic system structure. The effectiveness of this approach is demonstrated with examples of a pendulum on a cart and a two-body problem from astrodynamics."
+}

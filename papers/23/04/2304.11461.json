@@ -1,0 +1,12 @@
+{
+    "title": "Recurrent Neural Networks and Long Short-Term Memory Networks: Tutorial and Survey. (arXiv:2304.11461v1 [cs.LG])",
+    "abstract": "This is a tutorial paper on Recurrent Neural Network (RNN), Long Short-Term Memory Network (LSTM), and their variants. We start with a dynamical system and backpropagation through time for RNN. Then, we discuss the problems of gradient vanishing and explosion in long-term dependencies. We explain close-to-identity weight matrix, long delays, leaky units, and echo state networks for solving this problem. Then, we introduce LSTM gates and cells, history and variants of LSTM, and Gated Recurrent Units (GRU). Finally, we introduce bidirectional RNN, bidirectional LSTM, and the Embeddings from Language Model (ELMo) network, for processing a sequence in both directions.",
+    "link": "http://arxiv.org/abs/2304.11461",
+    "context": "Title: Recurrent Neural Networks and Long Short-Term Memory Networks: Tutorial and Survey. (arXiv:2304.11461v1 [cs.LG])\nAbstract: This is a tutorial paper on Recurrent Neural Network (RNN), Long Short-Term Memory Network (LSTM), and their variants. We start with a dynamical system and backpropagation through time for RNN. Then, we discuss the problems of gradient vanishing and explosion in long-term dependencies. We explain close-to-identity weight matrix, long delays, leaky units, and echo state networks for solving this problem. Then, we introduce LSTM gates and cells, history and variants of LSTM, and Gated Recurrent Units (GRU). Finally, we introduce bidirectional RNN, bidirectional LSTM, and the Embeddings from Language Model (ELMo) network, for processing a sequence in both directions.",
+    "path": "papers/23/04/2304.11461.json",
+    "total_tokens": 824,
+    "translated_title": "循环神经网络和长短期记忆网络：教程和调研",
+    "translated_abstract": "本文是一篇关于循环神经网络（RNN）、长短期记忆网络（LSTM）及其变体的教程。我们首先从动态系统和RNN的时间反向传播开始讲述，然后讨论长期依赖问题中的梯度消失和梯度爆炸。接着，我们介绍了解决此类问题的方法，包括接近单位权重矩阵、长延迟、泄漏单元和回音状态网络。接着，我们介绍了LSTM门和单元、LSTM的历史和变体以及门控循环单元（GRU）。最后，我们介绍双向RNN、双向LSTM和来自语言模型（ELMo）网络，以在两个方向上处理序列。",
+    "tldr": "本文是一篇关于循环神经网络（RNN）、长短期记忆网络（LSTM）及其变体的教程和调研，介绍了解决长期依赖问题的方法，以及双向RNN、双向LSTM和ELMo网络等进一步的应用。",
+    "en_tdlr": "This tutorial paper discusses Recurrent Neural Network (RNN), Long Short-Term Memory Network (LSTM), and their variants. It introduces solutions to the problem of gradient vanishing and explosion in long-term dependencies, as well as bidirectional RNN, bidirectional LSTM, and the Embeddings from Language Model (ELMo) network for further applications."
+}

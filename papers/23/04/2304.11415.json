@@ -1,0 +1,12 @@
+{
+    "title": "Strategic Responses to Personalized Pricing and Demand for Privacy: An Experiment. (arXiv:2304.11415v1 [econ.GN])",
+    "abstract": "We consider situations where consumers are aware that a statistical model determines the price of a product based on their observed behavior. Using a novel experiment varying the context similarity between participant data and a product, we find that participants manipulate their responses to a survey about personal characteristics, and manipulation is more successful when the contexts are similar. Moreover, participants demand less privacy, and make less optimal privacy choices when the contexts are less similar. Our findings highlight the importance of data privacy policies in the age of big data, where behavior in seemingly unrelated contexts might affect prices.",
+    "link": "http://arxiv.org/abs/2304.11415",
+    "context": "Title: Strategic Responses to Personalized Pricing and Demand for Privacy: An Experiment. (arXiv:2304.11415v1 [econ.GN])\nAbstract: We consider situations where consumers are aware that a statistical model determines the price of a product based on their observed behavior. Using a novel experiment varying the context similarity between participant data and a product, we find that participants manipulate their responses to a survey about personal characteristics, and manipulation is more successful when the contexts are similar. Moreover, participants demand less privacy, and make less optimal privacy choices when the contexts are less similar. Our findings highlight the importance of data privacy policies in the age of big data, where behavior in seemingly unrelated contexts might affect prices.",
+    "path": "papers/23/04/2304.11415.json",
+    "total_tokens": 764,
+    "translated_title": "个性化定价和隐私需求的战略回应：一项实验。",
+    "translated_abstract": "我们考虑顾客意识到一个统计模型基于他们的行为来决定产品价格的情况。使用一项新的实验来变化参与者数据和产品之间的上下文相似度，我们发现参与者操纵他们对个人特征的调查回答，并且在上下文更相似时操纵更成功。此外，当上下文不太相似时，参与者会要求更少的隐私，并做出不太优化的隐私选择。我们的发现强调了在大数据时代，看似不相关的情境中的行为可能会影响价格，数据隐私政策的重要性。",
+    "tldr": "本研究通过实验发现，对于顾客而言，当个人数据所处环境和某个产品更相似时，他们更容易通过操纵自己的个人特征来获得更优惠的价格，并且会更少地关注隐私保护，这表明在大数据时代应该更加重视数据隐私政策的制定。",
+    "en_tdlr": "This study finds through experiments that consumers are more likely to manipulate their personal characteristics to get a better price when the environment of their personal data is more similar to a specific product, and they pay less attention to privacy protection, highlighting the importance of formulating data privacy policies in the age of big data."
+}

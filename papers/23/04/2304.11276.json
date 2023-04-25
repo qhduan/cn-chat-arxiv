@@ -1,0 +1,12 @@
+{
+    "title": "The Role of AI in Human-AI Creative Writing for Hong Kong Secondary Students. (arXiv:2304.11276v1 [cs.CL])",
+    "abstract": "The recent advancement in Natural Language Processing (NLP) capability has led to the development of language models (e.g., ChatGPT) that is capable of generating human-like language. In this study, we explore how language models can be utilized to help the ideation aspect of creative writing. Our empirical findings show that language models play different roles in helping student writers to be more creative, such as the role of a collaborator, a provocateur, etc",
+    "link": "http://arxiv.org/abs/2304.11276",
+    "context": "Title: The Role of AI in Human-AI Creative Writing for Hong Kong Secondary Students. (arXiv:2304.11276v1 [cs.CL])\nAbstract: The recent advancement in Natural Language Processing (NLP) capability has led to the development of language models (e.g., ChatGPT) that is capable of generating human-like language. In this study, we explore how language models can be utilized to help the ideation aspect of creative writing. Our empirical findings show that language models play different roles in helping student writers to be more creative, such as the role of a collaborator, a provocateur, etc",
+    "path": "papers/23/04/2304.11276.json",
+    "total_tokens": 663,
+    "translated_title": "人工智能在香港中学生创意写作中的角色",
+    "translated_abstract": "最近自然语言处理能力的进步导致了语言模型（例如ChatGPT）的开发，它能够生成类似于人的语言。在本研究中，我们探讨了如何利用语言模型来帮助创意写作的构思方面。我们的实证结果表明，语言模型在帮助学生作家更有创造力方面发挥着不同的作用，例如作为合作者、挑衅者等。",
+    "tldr": "本研究探讨了如何利用语言模型帮助香港中学生在创意写作方面，实证结果表明，语言模型在帮助学生作家更有创造力方面发挥着不同的作用，例如作为合作者、挑衅者等。",
+    "en_tdlr": "This study explores how language models can be utilized to help Hong Kong secondary students in creative writing, and the empirical findings show that language models play different roles in helping student writers to be more creative, such as the role of a collaborator, a provocateur, etc."
+}

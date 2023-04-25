@@ -1,0 +1,12 @@
+{
+    "title": "Edge Impulse: An MLOps Platform for Tiny Machine Learning. (arXiv:2212.03332v2 [cs.DC] UPDATED)",
+    "abstract": "Edge Impulse is a cloud-based machine learning operations (MLOps) platform for developing embedded and edge ML (TinyML) systems that can be deployed to a wide range of hardware targets. Current TinyML workflows are plagued by fragmented software stacks and heterogeneous deployment hardware, making ML model optimizations difficult and unportable. We present Edge Impulse, a practical MLOps platform for developing TinyML systems at scale. Edge Impulse addresses these challenges and streamlines the TinyML design cycle by supporting various software and hardware optimizations to create an extensible and portable software stack for a multitude of embedded systems. As of Oct. 2022, Edge Impulse hosts 118,185 projects from 50,953 developers.",
+    "link": "http://arxiv.org/abs/2212.03332",
+    "context": "Title: Edge Impulse: An MLOps Platform for Tiny Machine Learning. (arXiv:2212.03332v2 [cs.DC] UPDATED)\nAbstract: Edge Impulse is a cloud-based machine learning operations (MLOps) platform for developing embedded and edge ML (TinyML) systems that can be deployed to a wide range of hardware targets. Current TinyML workflows are plagued by fragmented software stacks and heterogeneous deployment hardware, making ML model optimizations difficult and unportable. We present Edge Impulse, a practical MLOps platform for developing TinyML systems at scale. Edge Impulse addresses these challenges and streamlines the TinyML design cycle by supporting various software and hardware optimizations to create an extensible and portable software stack for a multitude of embedded systems. As of Oct. 2022, Edge Impulse hosts 118,185 projects from 50,953 developers.",
+    "path": "papers/22/12/2212.03332.json",
+    "total_tokens": 781,
+    "translated_title": "Edge Impulse: 面向微型机器学习的MLOps平台。",
+    "translated_abstract": "Edge Impulse是一个基于云的机器学习运营(MLOps)平台，用于开发可以部署到各种硬件目标的嵌入式和边缘ML(微型ML)系统。当前的TinyML工作流程存在着软件堆栈碎片化和异构部署硬件等问题，使得ML模型优化困难且不具备可移植性。我们提出了Edge Impulse，这是一个实用的MLOps平台，可实现大规模开发TinyML系统。Edge Impulse通过支持各种软件和硬件优化来解决这些挑战，并创建可扩展且可移植的软件堆栈，以适应各种嵌入式系统。 截至2022年10月，Edge Impulse托管了来自50,953名开发人员的118,185个项目。",
+    "tldr": "Edge Impulse是一个面向微型机器学习的MLOps平台，旨在为开发人员提供嵌入式和边缘ML系统的软硬件优化支持，解决TinyML的可移植性和优化问题。",
+    "en_tdlr": "Edge Impulse is an MLOps platform for Tiny Machine Learning that provides software and hardware optimization support for developers to address the portability and optimization issues of TinyML."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Price & Choose. (arXiv:2212.05650v2 [econ.TH] UPDATED)",
+    "abstract": "We describe a two-stage mechanism that fully implements the set of efficient outcomes in two-agent environments with quasi-linear utilities. The mechanism asks one agent to set prices for each outcome, and the other agent to make a choice, paying the corresponding price: Price \\& Choose. We extend our implementation result in three main directions: an arbitrary number of players, non-quasi linear utilities, and robustness to max-min behavior. Finally, we discuss how to reduce the payoff inequality between players while still achieving efficiency.",
+    "link": "http://arxiv.org/abs/2212.05650",
+    "context": "Title: Price & Choose. (arXiv:2212.05650v2 [econ.TH] UPDATED)\nAbstract: We describe a two-stage mechanism that fully implements the set of efficient outcomes in two-agent environments with quasi-linear utilities. The mechanism asks one agent to set prices for each outcome, and the other agent to make a choice, paying the corresponding price: Price \\& Choose. We extend our implementation result in three main directions: an arbitrary number of players, non-quasi linear utilities, and robustness to max-min behavior. Finally, we discuss how to reduce the payoff inequality between players while still achieving efficiency.",
+    "path": "papers/22/12/2212.05650.json",
+    "total_tokens": 729,
+    "translated_title": "价格与选择",
+    "translated_abstract": "我们描述了一个二阶段机制，该机制在准线性效用的两个代理环境中完全实现了有效结果集。该机制要求一个代理为每个结果设置价格，另一个代理做出选择，支付相应的价格：价格与选择。我们将我们的实现结果在三个主要方面进行了扩展：任意数量的玩家，非准线性效用，以及对最大最小行为具有鲁棒性。最后，我们讨论了如何在仍然实现效率的情况下减少玩家之间的收益不平等。",
+    "tldr": "本文提出了一个名为“价格与选择”的两阶段机制，可以在准线性效用的两个代理环境中实现有效结果集，并可以扩展到任意数量的玩家和非准线性效用。同时，机制还具有克服最大最小行为的鲁棒性。最后，文章探讨了在保持效率的情况下减少玩家收益差距的方法。",
+    "en_tdlr": "This paper proposes a two-stage mechanism called \"Price & Choose\" that can fully implement the set of efficient outcomes in two-agent environments with quasi-linear utilities, and can be extended to an arbitrary number of players and non-quasi-linear utilities. The mechanism is also robust to max-min behavior. The paper also discusses methods to reduce the payoff inequality between players while maintaining efficiency."
+}

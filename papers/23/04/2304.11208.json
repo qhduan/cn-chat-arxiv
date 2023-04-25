@@ -1,0 +1,12 @@
+{
+    "title": "DP-Adam: Correcting DP Bias in Adam's Second Moment Estimation. (arXiv:2304.11208v1 [cs.LG])",
+    "abstract": "We observe that the traditional use of DP with the Adam optimizer introduces a bias in the second moment estimation, due to the addition of independent noise in the gradient computation. This bias leads to a different scaling for low variance parameter updates, that is inconsistent with the behavior of non-private Adam, and Adam's sign descent interpretation. Empirically, correcting the bias introduced by DP noise significantly improves the optimization performance of DP-Adam.",
+    "link": "http://arxiv.org/abs/2304.11208",
+    "context": "Title: DP-Adam: Correcting DP Bias in Adam's Second Moment Estimation. (arXiv:2304.11208v1 [cs.LG])\nAbstract: We observe that the traditional use of DP with the Adam optimizer introduces a bias in the second moment estimation, due to the addition of independent noise in the gradient computation. This bias leads to a different scaling for low variance parameter updates, that is inconsistent with the behavior of non-private Adam, and Adam's sign descent interpretation. Empirically, correcting the bias introduced by DP noise significantly improves the optimization performance of DP-Adam.",
+    "path": "papers/23/04/2304.11208.json",
+    "total_tokens": 603,
+    "translated_title": "DP-Adam: 改正Adam二阶动量估计中的DP偏差",
+    "translated_abstract": "我们观察到在Adam优化器中传统DP的使用引入了偏差到二阶动量估计中，因为梯度计算中加入了独立噪声。这个偏差导致了对于低方差参数更新的不同缩放，这与非私有Adam和Adam的符号下降解释的行为不一致。实验结果表明，纠正DP噪声引入的偏差显着提高了DP-Adam的优化性能。",
+    "tldr": "该论文提出了DP-Adam，解决了在Adam优化器中传统DP的使用引入的偏差导致的问题。",
+    "en_tdlr": "DP-Adam is proposed to correct the bias introduced by the traditional use of DP in Adam, which leads to inconsistent scaling for low variance parameter updates, and significantly improves the optimization performance of DP-Adam according to experiments."
+}

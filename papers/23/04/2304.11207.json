@@ -1,0 +1,12 @@
+{
+    "title": "SSS3D: Fast Neural Architecture Search For Efficient Three-Dimensional Semantic Segmentation. (arXiv:2304.11207v1 [cs.CV])",
+    "abstract": "We present SSS3D, a fast multi-objective NAS framework designed to find computationally efficient 3D semantic scene segmentation networks. It uses RandLA-Net, an off-the-shelf point-based network, as a super-network to enable weight sharing and reduce search time by 99.67% for single-stage searches. SSS3D has a complex search space composed of sampling and architectural parameters that can form 2.88 * 10^17 possible networks. To further reduce search time, SSS3D splits the complete search space and introduces a two-stage search that finds optimal subnetworks in 54% of the time required by single-stage searches.",
+    "link": "http://arxiv.org/abs/2304.11207",
+    "context": "Title: SSS3D: Fast Neural Architecture Search For Efficient Three-Dimensional Semantic Segmentation. (arXiv:2304.11207v1 [cs.CV])\nAbstract: We present SSS3D, a fast multi-objective NAS framework designed to find computationally efficient 3D semantic scene segmentation networks. It uses RandLA-Net, an off-the-shelf point-based network, as a super-network to enable weight sharing and reduce search time by 99.67% for single-stage searches. SSS3D has a complex search space composed of sampling and architectural parameters that can form 2.88 * 10^17 possible networks. To further reduce search time, SSS3D splits the complete search space and introduces a two-stage search that finds optimal subnetworks in 54% of the time required by single-stage searches.",
+    "path": "papers/23/04/2304.11207.json",
+    "total_tokens": 789,
+    "translated_title": "SSS3D：快速的神经体系结构搜索，用于高效三维语义分割。",
+    "translated_abstract": "我们提出了SSS3D，这是一个快速的多目标NAS框架，专为查找计算效率高的三维语义场景分割网络而设计。它使用RandLA-Net作为超级网络，以实现权重共享，并通过单阶段搜索将搜索时间减少99.67％。SSS3D具有复杂的搜索空间，由采样和架构参数组成，可以形成2.88*10^17种可能的网络。为了进一步减少搜索时间，SSS3D将完整的搜索空间分成两个阶段，以单阶段搜索所需时间的54％找到最佳子网络。",
+    "tldr": "SSS3D是为了高效三维语义场景分割而设计的快速多目标神经体系结构搜索框架，它使用超级网络RandLA-Net实现权重共享并显著减少搜索时间，通过两个阶段搜索在更短的时间内找到最佳子网络。",
+    "en_tdlr": "SSS3D is a fast and multi-objective NAS framework designed for efficient 3D semantic scene segmentation, which uses the off-the-shelf point-based network RandLA-Net as a super-network to enable weight sharing and significantly reduce search time, and it further reduces search time by splitting the complete search space and introducing a two-stage search to find optimal subnetworks in a shorter time."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Reinforcement Learning with an Abrupt Model Change. (arXiv:2304.11460v1 [eess.SY])",
+    "abstract": "The problem of reinforcement learning is considered where the environment or the model undergoes a change. An algorithm is proposed that an agent can apply in such a problem to achieve the optimal long-time discounted reward. The algorithm is model-free and learns the optimal policy by interacting with the environment. It is shown that the proposed algorithm has strong optimality properties. The effectiveness of the algorithm is also demonstrated using simulation results. The proposed algorithm exploits a fundamental reward-detection trade-off present in these problems and uses a quickest change detection algorithm to detect the model change. Recommendations are provided for faster detection of model changes and for smart initialization strategies.",
+    "link": "http://arxiv.org/abs/2304.11460",
+    "context": "Title: Reinforcement Learning with an Abrupt Model Change. (arXiv:2304.11460v1 [eess.SY])\nAbstract: The problem of reinforcement learning is considered where the environment or the model undergoes a change. An algorithm is proposed that an agent can apply in such a problem to achieve the optimal long-time discounted reward. The algorithm is model-free and learns the optimal policy by interacting with the environment. It is shown that the proposed algorithm has strong optimality properties. The effectiveness of the algorithm is also demonstrated using simulation results. The proposed algorithm exploits a fundamental reward-detection trade-off present in these problems and uses a quickest change detection algorithm to detect the model change. Recommendations are provided for faster detection of model changes and for smart initialization strategies.",
+    "path": "papers/23/04/2304.11460.json",
+    "total_tokens": 742,
+    "translated_title": "模型突变下的强化学习",
+    "translated_abstract": "本文探讨了环境或者模型发生变化时的强化学习问题。本文提出了一种算法，能够让智能体应对这类问题，获得最优的长期折扣回报。该算法是无模型的，通过与环境交互来学习最优策略。并且已经证明了该算法具有强优化性能，在仿真实验中也展示了该算法的有效性。该算法利用了问题中一个基本的回报-检测平衡，并使用了最快的变化检测算法来检测模型变化。本文还提供了更快的检测模型变化和智能初始化策略的建议。",
+    "tldr": "本文提出了一种模型突变下的强化学习算法，能够让智能体获得最优的长期折扣回报。该算法利用了回报-检测平衡，并使用最快的变化检测算法来检测模型变化。",
+    "en_tdlr": "This paper proposes a reinforcement learning algorithm for environment or model changes, which enables the agent to obtain the optimal long-term discounted reward. The algorithm takes advantage of the reward-detection trade-off and uses the quickest change detection algorithm to detect model changes."
+}

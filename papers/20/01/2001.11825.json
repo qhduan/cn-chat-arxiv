@@ -1,0 +1,11 @@
+{
+    "title": "Recursion, evolution and conscious self. (arXiv:2001.11825v4 [cs.LO] UPDATED)",
+    "abstract": "We introduce and study a learning theory which is roughly automatic, that is, it does not require but a minimum of initial programming, and is based on the potential computational phenomenon of self-reference, (i.e. the potential ability of an algorithm to have its program as an input).  The conclusions agree with scientific findings in both biology and neuroscience and provide a plethora of explanations both (in conjunction with Darwinism) about evolution, as well as for the functionality and learning capabilities of human brain, (most importantly), as we perceive them in ourselves.",
+    "link": "http://arxiv.org/abs/2001.11825",
+    "context": "Title: Recursion, evolution and conscious self. (arXiv:2001.11825v4 [cs.LO] UPDATED)\nAbstract: We introduce and study a learning theory which is roughly automatic, that is, it does not require but a minimum of initial programming, and is based on the potential computational phenomenon of self-reference, (i.e. the potential ability of an algorithm to have its program as an input).  The conclusions agree with scientific findings in both biology and neuroscience and provide a plethora of explanations both (in conjunction with Darwinism) about evolution, as well as for the functionality and learning capabilities of human brain, (most importantly), as we perceive them in ourselves.",
+    "path": "papers/20/01/2001.11825.json",
+    "total_tokens": 663,
+    "translated_title": "递归、演化和自我意识",
+    "translated_abstract": "我们引入并研究了一种学习理论，它大致是自动的，即仅需要最少量的初始编程，并且基于自我参照的潜在计算现象（即算法具有其程序作为输入的潜在能力）。结论与生物学和神经科学的科学发现一致，并提供了大量解释，包括演化（与达尔文主义相结合）以及人脑的功能和学习能力（最重要的是），正如我们在自己身上感知到的。",
+    "tldr": "本文介绍并研究了一种基于自我参照的学习理论，结论与生物学、神经科学的科学发现一致，并提供了大量解释，包括演化和人脑的功能和学习能力。"
+}

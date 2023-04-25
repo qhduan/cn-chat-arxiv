@@ -1,0 +1,12 @@
+{
+    "title": "Stochastic Cell Transmission Models of Traffic Networks. (arXiv:2304.11654v1 [cs.LG])",
+    "abstract": "We introduce a rigorous framework for stochastic cell transmission models for general traffic networks. The performance of traffic systems is evaluated based on preference functionals and acceptable designs. The numerical implementation combines simulation, Gaussian process regression, and a stochastic exploration procedure. The approach is illustrated in two case studies.",
+    "link": "http://arxiv.org/abs/2304.11654",
+    "context": "Title: Stochastic Cell Transmission Models of Traffic Networks. (arXiv:2304.11654v1 [cs.LG])\nAbstract: We introduce a rigorous framework for stochastic cell transmission models for general traffic networks. The performance of traffic systems is evaluated based on preference functionals and acceptable designs. The numerical implementation combines simulation, Gaussian process regression, and a stochastic exploration procedure. The approach is illustrated in two case studies.",
+    "path": "papers/23/04/2304.11654.json",
+    "total_tokens": 559,
+    "translated_title": "交通网络的随机单元传输模型",
+    "translated_abstract": "我们为一般交通网络引入了随机单元传输模型的严格框架。通过偏好函数和可接受设计评估交通系统的性能。数值实现结合了模拟、高斯过程回归和随机探索过程。该方法在两个案例研究中得到了说明。",
+    "tldr": "本文介绍了一个适用于交通网络的随机单元传输模型，通过偏好函数和可接受设计来评估交通系统的性能。数值实现结合了模拟、高斯过程回归和随机探索过程。",
+    "en_tdlr": "This paper presents a rigorous framework for stochastic cell transmission models in general traffic networks, evaluating the performance of traffic systems based on preference functionals and acceptable designs. The numerical implementation combines simulation, Gaussian process regression, and a stochastic exploration procedure, demonstrated in two case studies."
+}

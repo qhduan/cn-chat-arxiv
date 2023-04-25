@@ -1,0 +1,12 @@
+{
+    "title": "Incorporating Task-specific Concept Knowledge into Script Learning. (arXiv:2209.00068v3 [cs.CL] UPDATED)",
+    "abstract": "In this paper, we present Tetris, a new task of Goal-Oriented Script Completion. Unlike previous work, it considers a more realistic and general setting, where the input includes not only the goal but also additional user context, including preferences and history. To address this problem, we propose a novel approach, which uses two techniques to improve performance: (1) concept prompting, and (2) script-oriented contrastive learning that addresses step repetition and hallucination problems. On our WikiHow-based dataset, we find that both methods improve performance. The dataset, repository, and models will be publicly available to facilitate further research on this new task.",
+    "link": "http://arxiv.org/abs/2209.00068",
+    "context": "Title: Incorporating Task-specific Concept Knowledge into Script Learning. (arXiv:2209.00068v3 [cs.CL] UPDATED)\nAbstract: In this paper, we present Tetris, a new task of Goal-Oriented Script Completion. Unlike previous work, it considers a more realistic and general setting, where the input includes not only the goal but also additional user context, including preferences and history. To address this problem, we propose a novel approach, which uses two techniques to improve performance: (1) concept prompting, and (2) script-oriented contrastive learning that addresses step repetition and hallucination problems. On our WikiHow-based dataset, we find that both methods improve performance. The dataset, repository, and models will be publicly available to facilitate further research on this new task.",
+    "path": "papers/22/09/2209.00068.json",
+    "total_tokens": 758,
+    "translated_title": "将任务特定的概念知识纳入脚本学习中",
+    "translated_abstract": "本文提出了一个名为Tetris的新任务，名为目标导向脚本完成。与之前的工作不同的是，它考虑了一个更为现实和普遍的场景，输入不仅包括目标，还包括用户的额外上下文，包括喜好和历史。为了解决这个问题，我们提出了一个新颖的方法，它使用两种技术来提高性能：概念提示和面向脚本的对比学习，以解决步骤重复和幻觉问题。在基于WikiHow的数据集上，我们发现两种方法都可以提高性能。该数据集、仓库和模型将公开提供，以促进对这个新任务的进一步研究。",
+    "tldr": "本文提出了一个新任务Tetris，并提出了概念提示和面向脚本的对比学习来解决输入包括用户上下文时的问题，两种方法均能提高任务完成性能。",
+    "en_tdlr": "This paper proposes a new task of Goal-Oriented Script Completion named Tetris, and presents novel approaches to deal with the additional user context, including concept prompting and script-oriented contrastive learning. The experiments on a WikiHow-based dataset show that both methods can improve the performance of the task."
+}

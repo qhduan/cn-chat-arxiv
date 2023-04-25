@@ -1,0 +1,12 @@
+{
+    "title": "Bagging Provides Assumption-free Stability. (arXiv:2301.12600v2 [stat.ML] UPDATED)",
+    "abstract": "Bagging is an important technique for stabilizing machine learning models. In this paper, we derive a finite-sample guarantee on the stability of bagging for any model. Our result places no assumptions on the distribution of the data, on the properties of the base algorithm, or on the dimensionality of the covariates. Our guarantee applies to many variants of bagging and is optimal up to a constant. Empirical results validate our findings, showing that bagging successfully stabilizes even highly unstable base algorithms.",
+    "link": "http://arxiv.org/abs/2301.12600",
+    "context": "Title: Bagging Provides Assumption-free Stability. (arXiv:2301.12600v2 [stat.ML] UPDATED)\nAbstract: Bagging is an important technique for stabilizing machine learning models. In this paper, we derive a finite-sample guarantee on the stability of bagging for any model. Our result places no assumptions on the distribution of the data, on the properties of the base algorithm, or on the dimensionality of the covariates. Our guarantee applies to many variants of bagging and is optimal up to a constant. Empirical results validate our findings, showing that bagging successfully stabilizes even highly unstable base algorithms.",
+    "path": "papers/23/01/2301.12600.json",
+    "total_tokens": 587,
+    "translated_title": "Bagging提供无偏差稳定性。",
+    "translated_abstract": "Bagging是稳定机器学习模型的一个重要技术。在本文中，我们针对任何模型的稳定性推导了一个有限样本保证。我们的结果不对数据分布、基本算法的属性或协变量的维数进行任何假设。我们的保证适用于多种变体的Bagging，并且是最优的常数。实证结果验证了我们的发现，表明Bagging成功稳定了即使是高度不稳定的基本算法。",
+    "tldr": "本文证明了Bagging技术可提供无偏差稳定性，适用于各种数据分布和算法，具有良好的实证效果。",
+    "en_tdlr": "This paper demonstrates that Bagging technique provides unbiased stability for various data distributions and algorithms, and has good empirical performance."
+}

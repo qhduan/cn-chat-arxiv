@@ -1,0 +1,12 @@
+{
+    "title": "Identification of Auction Models Using Order Statistics. (arXiv:2205.12917v2 [econ.EM] UPDATED)",
+    "abstract": "Auction data often contain information on only the most competitive bids as opposed to all bids. The usual measurement error approaches to unobserved heterogeneity are inapplicable due to dependence among order statistics. We bridge this gap by providing a set of positive identification results. First, we show that symmetric auctions with discrete unobserved heterogeneity are identifiable using two consecutive order statistics and an instrument. Second, we extend the results to ascending auctions with unknown competition and unobserved heterogeneity.",
+    "link": "http://arxiv.org/abs/2205.12917",
+    "context": "Title: Identification of Auction Models Using Order Statistics. (arXiv:2205.12917v2 [econ.EM] UPDATED)\nAbstract: Auction data often contain information on only the most competitive bids as opposed to all bids. The usual measurement error approaches to unobserved heterogeneity are inapplicable due to dependence among order statistics. We bridge this gap by providing a set of positive identification results. First, we show that symmetric auctions with discrete unobserved heterogeneity are identifiable using two consecutive order statistics and an instrument. Second, we extend the results to ascending auctions with unknown competition and unobserved heterogeneity.",
+    "path": "papers/22/05/2205.12917.json",
+    "total_tokens": 678,
+    "translated_title": "利用序统计量识别拍卖模型",
+    "translated_abstract": "拍卖数据通常只包含最有竞争力的出价信息，而不是所有出价。由于序统计量之间存在依赖关系，通常的测量误差方法在面对未观测到的异质性时是不适用的。本研究提供了一组正面识别的结果，将对称拍卖与离散未观测异质性使用两个连续序统计量和一个工具识别；并将结果扩展到带有未知竞争和未观测异质性的升价拍卖。",
+    "tldr": "本研究提供了一种利用两个连续序统计量和一个工具识别对称拍卖模型与离散未观测异质性，并将此结果扩展到带有未知竞争和未观测异质性的升价拍卖的方法。",
+    "en_tdlr": "This study provides a method to identify symmetric auction models with discrete unobserved heterogeneity using two consecutive order statistics and an instrument, and extends the results to ascending auctions with unknown competition and unobserved heterogeneity."
+}

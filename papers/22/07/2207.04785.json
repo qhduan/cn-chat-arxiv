@@ -1,0 +1,12 @@
+{
+    "title": "SALSA: Attacking Lattice Cryptography with Transformers. (arXiv:2207.04785v2 [cs.CR] UPDATED)",
+    "abstract": "Currently deployed public-key cryptosystems will be vulnerable to attacks by full-scale quantum computers. Consequently, \"quantum resistant\" cryptosystems are in high demand, and lattice-based cryptosystems, based on a hard problem known as Learning With Errors (LWE), have emerged as strong contenders for standardization. In this work, we train transformers to perform modular arithmetic and combine half-trained models with statistical cryptanalysis techniques to propose SALSA: a machine learning attack on LWE-based cryptographic schemes. SALSA can fully recover secrets for small-to-mid size LWE instances with sparse binary secrets, and may scale to attack real-world LWE-based cryptosystems.",
+    "link": "http://arxiv.org/abs/2207.04785",
+    "context": "Title: SALSA: Attacking Lattice Cryptography with Transformers. (arXiv:2207.04785v2 [cs.CR] UPDATED)\nAbstract: Currently deployed public-key cryptosystems will be vulnerable to attacks by full-scale quantum computers. Consequently, \"quantum resistant\" cryptosystems are in high demand, and lattice-based cryptosystems, based on a hard problem known as Learning With Errors (LWE), have emerged as strong contenders for standardization. In this work, we train transformers to perform modular arithmetic and combine half-trained models with statistical cryptanalysis techniques to propose SALSA: a machine learning attack on LWE-based cryptographic schemes. SALSA can fully recover secrets for small-to-mid size LWE instances with sparse binary secrets, and may scale to attack real-world LWE-based cryptosystems.",
+    "path": "papers/22/07/2207.04785.json",
+    "total_tokens": 733,
+    "translated_title": "SALSA：用Transformers攻击格密码",
+    "translated_abstract": "当前的公钥密码系统将会面临全规模量子计算机的攻击。因此，“量子抗性”密码系统需求极高，基于Learn With Errors（LWE）问题的格密码系统已成为标准化的强有力竞争者。在本研究中，我们训练Transformer执行模数算术，并结合统计密码分析技术将半训练模型组合在一起，提出SALSA：一种用于攻击基于LWE的密码方案的机器学习攻击。SALSA可以完全恢复小到中等大小的具有稀疏二进制秘密的LWE实例的密钥，并可能扩展到攻击实际的基于LWE的密码系统。",
+    "tldr": "SALSA是一种使用Transformer和统计密码分析技术的机器学习攻击，可以攻击小到中等大小、具有稀疏二进制秘密的LWE实例，可能会扩展到实际的LWE密码系统。",
+    "en_tdlr": "SALSA is a machine learning attack using Transformers and statistical cryptanalysis techniques, which can attack small-to-mid size LWE instances with sparse binary secrets and may scale to real-world LWE-based cryptosystems."
+}
