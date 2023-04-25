@@ -7,28 +7,29 @@
 | [^3] | [Inferring comparative advantage via entropy maximization.](http://arxiv.org/abs/2304.12245) | 该论文提出了一种利用熵最大化框架推断比较优势的方法来分析国家、地区等专业化，并克服了使用Balassa方法时产生的偏差和统计验证方面的不足。 |
 | [^4] | [From Misalignment to Synergy: Analysis of Patents from Indian Universities & Research Institutions.](http://arxiv.org/abs/2304.12176) | 该研究分析了印度大学和研究机构的专利申请情况，发现其专利申请强度较低、合作程度不高，并且研究领域与市场不匹配。为了解决这些问题，提出了一组建议以使其研究和创新努力与社会和市场需求相一致。 |
 | [^5] | [Monotone comparative statics for submodular functions, with an application to aggregated deferred acceptance.](http://arxiv.org/abs/2304.12171) | 该论文提出了针对子模函数的单调比较静态学结果，并引入了一种新的自然结构matrons，它可以推广到组合优化和离散凸分析中。文章提出了一种聚合延迟接受算法，并研究了其收敛性质。 |
-| [^6] | [Homophily and infections: static and dynamic effects.](http://arxiv.org/abs/2304.11934) | 本研究分析了同质性对疫情传播的影响，发现同质性对感染率和爆发期间感染人数呈现不同曲线形状的影响，并且结果受到接种率、接种动机等因素的影响。 |
-| [^7] | [On suspicious tracks: machine-learning based approaches to detect cartels in railway-infrastructure procurement.](http://arxiv.org/abs/2304.11888) | 该研究针对铁路基础设施采购中可能的卡特尔勾结问题，开发了两种检测方法：一是应用机器学习技术筛选标书数据库的可疑模式，二是建立了一种新型的类别经理工具，可用于顺序和分散式筛选。据我们所知，这是第一项应用机器学习价格筛选方法来解决铁路基础设施采购卡特尔勾结问题的研究。 |
-| [^8] | [Generative AI at Work.](http://arxiv.org/abs/2304.11771) | 该论文研究了基于生成式人工智能的对话助手在客户支持中心使用的情况，发现该工具平均增加了14%的生产力。AI模型有助于更好的传播知识、帮助新工人学习并提高员工满意度。 |
-| [^9] | [Policy Learning under Biased Sample Selection.](http://arxiv.org/abs/2304.11735) | 本文讨论了在学习治疗分配政策时，如何应对由于样本选择偏差带来的目标群体不可预测的性质，通过提出最大限度减少抽样偏差的策略来优化最坏情况福利。 |
-| [^10] | [Time-Inconsistency in Linear Quadratic Stochastic Differential Games.](http://arxiv.org/abs/2304.11577) | 本文研究了一个线性二次随机零和博弈，玩家由于折扣率的非常数性而存在时不一致性，旨在识别一种意识到自己时不一致性的一致规划均衡，分析了单个玩家和双玩家情况下的均衡行为，并对均衡进行了数值分析。 |
-| [^11] | [Choice Structures in Games.](http://arxiv.org/abs/2304.11575) | 该论文研究了游戏中的选择结构，从偏好关系到选择函数的层次，构建了包含所有选择层次的通用选择结构，并嵌入Di Tillio的通用偏好结构。 |
-| [^12] | [An optimal control problem with state constraints in a spatio-temporal economic growth model on networks.](http://arxiv.org/abs/2304.11568) | 该论文研究了一个以互连地理位置网络描述空间的经济增长模型，探讨了带有状态限制的有限维最优控制问题。数值模拟结果表明这种方法非常适用于公共资源的区域分配和研究不同地区的收入不平等。 |
-| [^13] | [Child Care, Time Allocation, and Life Cycle.](http://arxiv.org/abs/2304.11531) | 本研究使用日本聚合数据，探究有子女夫妇的时间和经济成本对育儿惩罚的影响。资产增加会导致女性工作时间减少，儿童抚养时间增加。父母休假的收入替代率增加25%会使休假比例增加20%，而工资永久增加10%会导致儿童抚养和休闲时间略微增加。 |
-| [^14] | [Breaking the general election effect. The impact of the 2020 US presidential election on Chinese economy and counter strategies.](http://arxiv.org/abs/2304.11518) | 研究探究了2020年美国总统大选对中国经济的影响，并提供了应对策略。使用分层分析法对美国总统政策实施进行评估，计算了美国经济在高风险期的加权总分，评估了其对中国经济的影响。 |
-| [^15] | [Preference Evolution under Stable Matching.](http://arxiv.org/abs/2304.11504) | 该研究提出了一个模型，结合稳定匹配和均衡概念，研究了内生匹配与偏好演变。研究表明，在偏见主义的影响下，适度的偏见高效型在演化中能够强制实现正向择偶和高效互动，在信息不完全的情况下，排他性高效偏好型成为稳定的均衡结果。 |
-| [^16] | [Compatibility between stability and strategy-proofness with single-peaked preferences on trees.](http://arxiv.org/abs/2304.11494) | 本文在树形结构中研究了双边一对一匹配市场的稳定性和策略无谋性。当代理人对树形对象具有单峰偏好时，所有丰富的匿名的树形单峰域中都存在稳定和（弱团体）策略无谋匹配规则。对于大小至少为五的市场，不存在丰富的匿名域，其中存在稳定且非bossy匹配规则。 |
-| [^17] | [Strategic Responses to Personalized Pricing and Demand for Privacy: An Experiment.](http://arxiv.org/abs/2304.11415) | 本研究通过实验发现，对于顾客而言，当个人数据所处环境和某个产品更相似时，他们更容易通过操纵自己的个人特征来获得更优惠的价格，并且会更少地关注隐私保护，这表明在大数据时代应该更加重视数据隐私政策的制定。 |
-| [^18] | [A bounded rationality account of dependency length minimization in Hindi.](http://arxiv.org/abs/2304.11410) | 本研究测试了在华语中追求依赖长度极小化的做法，发现仅将最短的前置成分放置在主谓动词旁边可以解释词序偏好，普及该方法可视为一种最小化努力策略，符合有限理性的观点。 |
-| [^19] | [Doubly Robust Estimators with Weak Overlap.](http://arxiv.org/abs/2304.08974) | 本文提出了适用于治疗效果估计的新的双重稳健估计器，该估计器可以处理弱协变量重叠，在修剪具有极端倾向得分的观察值的基础上，使用偏差校正装置来修剪偏差。 |
-| [^20] | [Commitment Against Front Running Attacks.](http://arxiv.org/abs/2301.13785) | 研究者提供了一个能够区分前向交易攻击与合法竞争的博弈论分析，并提出一种提交-揭示协议解决了最严重的前向交易攻击，同时保持了合法用户之间的交易竞争，也减少了攻击者之间的竞争。 |
-| [^21] | [Price & Choose.](http://arxiv.org/abs/2212.05650) | 本文提出了一个名为“价格与选择”的两阶段机制，可以在准线性效用的两个代理环境中实现有效结果集，并可以扩展到任意数量的玩家和非准线性效用。同时，机制还具有克服最大最小行为的鲁棒性。最后，文章探讨了在保持效率的情况下减少玩家收益差距的方法。 |
-| [^22] | [Origin of power laws and their spatial fractal structure for city-size distributions.](http://arxiv.org/abs/2207.05346) | 该论文研究了各国城市规模分布所遵循的幂律定律，揭示了其源于城市的空间分形结构，该结构由于不同工业领域的位置协调而形成，其中更局部的工业只在更大的城市中发现。这种空间组织呈分层结构，为周围的小城市提供中心，从而产生递归模式。 |
-| [^23] | [Identification of Auction Models Using Order Statistics.](http://arxiv.org/abs/2205.12917) | 本研究提供了一种利用两个连续序统计量和一个工具识别对称拍卖模型与离散未观测异质性，并将此结果扩展到带有未知竞争和未观测异质性的升价拍卖的方法。 |
-| [^24] | [Reputation, Learning and Project Choice in Frictional Economies.](http://arxiv.org/abs/2201.01813) | 该论文提出了一个动态学习模型，研究了智力未知的代理者与不同质量项目之间的匹配。研究发现增加会面率会扩大高质量项目的选择，而对于低质量项目在某些区域会先扩大再缩小。 |
-| [^25] | [Inefficient Peace or Preventive War?.](http://arxiv.org/abs/2111.15598) | 本文研究了一种预防性贸易战阴影下的两国谈判博弈模型，发现适度的贸易壁垒可以降低国家间从战争中预期获得的回报，维持国家之间低效但和平的经济合作。 |
-| [^26] | [Persuasion and Welfare.](http://arxiv.org/abs/2109.03061) | 信息政策对个体群体福利的影响进行了研究，发现存在某些信息政策优于无信息政策，但限制信息政策可用的数据会降低福利。 |
-| [^27] | [Multimodal agglomeration in economic geography.](http://arxiv.org/abs/1912.05113) | 论文讨论了经济地理中多模态聚集的实现机制和分类，发现全局分散力量是多峰模式出现的关键因素，而本地分散力量则会导致平坦化。 |
+| [^6] | [Determination of the effective cointegration rank in high-dimensional time-series predictive regressions.](http://arxiv.org/abs/2304.12134) | 本文提出了一种新方法，使用降秩回归从预测的角度确定高维时间序列中的有效共整合秩。算法采用主成分分析识别所有共整合向量，再使用共整合的平稳序列和 $\mathbf{y}_t$ 的滞后变量进行预测，并定义降秩为有效共整合秩。 |
+| [^7] | [Homophily and infections: static and dynamic effects.](http://arxiv.org/abs/2304.11934) | 本研究分析了同质性对疫情传播的影响，发现同质性对感染率和爆发期间感染人数呈现不同曲线形状的影响，并且结果受到接种率、接种动机等因素的影响。 |
+| [^8] | [On suspicious tracks: machine-learning based approaches to detect cartels in railway-infrastructure procurement.](http://arxiv.org/abs/2304.11888) | 该研究针对铁路基础设施采购中可能的卡特尔勾结问题，开发了两种检测方法：一是应用机器学习技术筛选标书数据库的可疑模式，二是建立了一种新型的类别经理工具，可用于顺序和分散式筛选。据我们所知，这是第一项应用机器学习价格筛选方法来解决铁路基础设施采购卡特尔勾结问题的研究。 |
+| [^9] | [Generative AI at Work.](http://arxiv.org/abs/2304.11771) | 该论文研究了基于生成式人工智能的对话助手在客户支持中心使用的情况，发现该工具平均增加了14%的生产力。AI模型有助于更好的传播知识、帮助新工人学习并提高员工满意度。 |
+| [^10] | [Policy Learning under Biased Sample Selection.](http://arxiv.org/abs/2304.11735) | 本文讨论了在学习治疗分配政策时，如何应对由于样本选择偏差带来的目标群体不可预测的性质，通过提出最大限度减少抽样偏差的策略来优化最坏情况福利。 |
+| [^11] | [Time-Inconsistency in Linear Quadratic Stochastic Differential Games.](http://arxiv.org/abs/2304.11577) | 本文研究了一个线性二次随机零和博弈，玩家由于折扣率的非常数性而存在时不一致性，旨在识别一种意识到自己时不一致性的一致规划均衡，分析了单个玩家和双玩家情况下的均衡行为，并对均衡进行了数值分析。 |
+| [^12] | [Choice Structures in Games.](http://arxiv.org/abs/2304.11575) | 该论文研究了游戏中的选择结构，从偏好关系到选择函数的层次，构建了包含所有选择层次的通用选择结构，并嵌入Di Tillio的通用偏好结构。 |
+| [^13] | [An optimal control problem with state constraints in a spatio-temporal economic growth model on networks.](http://arxiv.org/abs/2304.11568) | 该论文研究了一个以互连地理位置网络描述空间的经济增长模型，探讨了带有状态限制的有限维最优控制问题。数值模拟结果表明这种方法非常适用于公共资源的区域分配和研究不同地区的收入不平等。 |
+| [^14] | [Child Care, Time Allocation, and Life Cycle.](http://arxiv.org/abs/2304.11531) | 本研究使用日本聚合数据，探究有子女夫妇的时间和经济成本对育儿惩罚的影响。资产增加会导致女性工作时间减少，儿童抚养时间增加。父母休假的收入替代率增加25%会使休假比例增加20%，而工资永久增加10%会导致儿童抚养和休闲时间略微增加。 |
+| [^15] | [Breaking the general election effect. The impact of the 2020 US presidential election on Chinese economy and counter strategies.](http://arxiv.org/abs/2304.11518) | 研究探究了2020年美国总统大选对中国经济的影响，并提供了应对策略。使用分层分析法对美国总统政策实施进行评估，计算了美国经济在高风险期的加权总分，评估了其对中国经济的影响。 |
+| [^16] | [Preference Evolution under Stable Matching.](http://arxiv.org/abs/2304.11504) | 该研究提出了一个模型，结合稳定匹配和均衡概念，研究了内生匹配与偏好演变。研究表明，在偏见主义的影响下，适度的偏见高效型在演化中能够强制实现正向择偶和高效互动，在信息不完全的情况下，排他性高效偏好型成为稳定的均衡结果。 |
+| [^17] | [Compatibility between stability and strategy-proofness with single-peaked preferences on trees.](http://arxiv.org/abs/2304.11494) | 本文在树形结构中研究了双边一对一匹配市场的稳定性和策略无谋性。当代理人对树形对象具有单峰偏好时，所有丰富的匿名的树形单峰域中都存在稳定和（弱团体）策略无谋匹配规则。对于大小至少为五的市场，不存在丰富的匿名域，其中存在稳定且非bossy匹配规则。 |
+| [^18] | [Strategic Responses to Personalized Pricing and Demand for Privacy: An Experiment.](http://arxiv.org/abs/2304.11415) | 本研究通过实验发现，对于顾客而言，当个人数据所处环境和某个产品更相似时，他们更容易通过操纵自己的个人特征来获得更优惠的价格，并且会更少地关注隐私保护，这表明在大数据时代应该更加重视数据隐私政策的制定。 |
+| [^19] | [A bounded rationality account of dependency length minimization in Hindi.](http://arxiv.org/abs/2304.11410) | 本研究测试了在华语中追求依赖长度极小化的做法，发现仅将最短的前置成分放置在主谓动词旁边可以解释词序偏好，普及该方法可视为一种最小化努力策略，符合有限理性的观点。 |
+| [^20] | [Doubly Robust Estimators with Weak Overlap.](http://arxiv.org/abs/2304.08974) | 本文提出了适用于治疗效果估计的新的双重稳健估计器，该估计器可以处理弱协变量重叠，在修剪具有极端倾向得分的观察值的基础上，使用偏差校正装置来修剪偏差。 |
+| [^21] | [Commitment Against Front Running Attacks.](http://arxiv.org/abs/2301.13785) | 研究者提供了一个能够区分前向交易攻击与合法竞争的博弈论分析，并提出一种提交-揭示协议解决了最严重的前向交易攻击，同时保持了合法用户之间的交易竞争，也减少了攻击者之间的竞争。 |
+| [^22] | [Price & Choose.](http://arxiv.org/abs/2212.05650) | 本文提出了一个名为“价格与选择”的两阶段机制，可以在准线性效用的两个代理环境中实现有效结果集，并可以扩展到任意数量的玩家和非准线性效用。同时，机制还具有克服最大最小行为的鲁棒性。最后，文章探讨了在保持效率的情况下减少玩家收益差距的方法。 |
+| [^23] | [Origin of power laws and their spatial fractal structure for city-size distributions.](http://arxiv.org/abs/2207.05346) | 该论文研究了各国城市规模分布所遵循的幂律定律，揭示了其源于城市的空间分形结构，该结构由于不同工业领域的位置协调而形成，其中更局部的工业只在更大的城市中发现。这种空间组织呈分层结构，为周围的小城市提供中心，从而产生递归模式。 |
+| [^24] | [Identification of Auction Models Using Order Statistics.](http://arxiv.org/abs/2205.12917) | 本研究提供了一种利用两个连续序统计量和一个工具识别对称拍卖模型与离散未观测异质性，并将此结果扩展到带有未知竞争和未观测异质性的升价拍卖的方法。 |
+| [^25] | [Reputation, Learning and Project Choice in Frictional Economies.](http://arxiv.org/abs/2201.01813) | 该论文提出了一个动态学习模型，研究了智力未知的代理者与不同质量项目之间的匹配。研究发现增加会面率会扩大高质量项目的选择，而对于低质量项目在某些区域会先扩大再缩小。 |
+| [^26] | [Inefficient Peace or Preventive War?.](http://arxiv.org/abs/2111.15598) | 本文研究了一种预防性贸易战阴影下的两国谈判博弈模型，发现适度的贸易壁垒可以降低国家间从战争中预期获得的回报，维持国家之间低效但和平的经济合作。 |
+| [^27] | [Persuasion and Welfare.](http://arxiv.org/abs/2109.03061) | 信息政策对个体群体福利的影响进行了研究，发现存在某些信息政策优于无信息政策，但限制信息政策可用的数据会降低福利。 |
+| [^28] | [Multimodal agglomeration in economic geography.](http://arxiv.org/abs/1912.05113) | 论文讨论了经济地理中多模态聚集的实现机制和分类，发现全局分散力量是多峰模式出现的关键因素，而本地分散力量则会导致平坦化。 |
 
 # 详细
 
@@ -102,7 +103,21 @@
 
     We propose monotone comparative statics results for maximizers of submodular functions, as opposed to maximizers of supermodular functions as in the classical theory put forth by Veinott, Topkis, Milgrom, and Shannon among others. We introduce matrons, a natural structure that is dual to sublattices that generalizes existing structures such as matroids and polymatroids in combinatorial optimization and M-sets in discrete convex analysis. Our monotone comparative statics result is based on a natural order on matrons, which is dual in some sense to Veinott's strong set order on sublattices. As an application, we propose a deferred acceptance algorithm that operates in the case of divisible goods, and we study its convergence properties.
     
-[^6]: 同质性和感染：静态和动态影响。
+[^6]: 高维时间序列预测回归中有效共整合秩的确定
+
+    Determination of the effective cointegration rank in high-dimensional time-series predictive regressions. (arXiv:2304.12134v1 [econ.EM])
+
+    [http://arxiv.org/abs/2304.12134](http://arxiv.org/abs/2304.12134)
+
+    本文提出了一种新方法，使用降秩回归从预测的角度确定高维时间序列中的有效共整合秩。算法采用主成分分析识别所有共整合向量，再使用共整合的平稳序列和 $\mathbf{y}_t$ 的滞后变量进行预测，并定义降秩为有效共整合秩。
+
+    
+
+    本文提出了一种新方法，采用降秩回归从预测的角度确定高维单位根（HDUR）时间序列中的有效共整合秩。对于一个 HDUR 过程 $\mathbf{x}_t\in \mathbb{R}^N$ 和一个感兴趣的平稳序列 $\mathbf{y}_t\in \mathbb{R}^p$，我们的目标是使用 $\mathbf{x}_t$ 和 $\mathbf{y}_t$ 的滞后值来预测 $\mathbf{y}_t$ 的未来值。所提出的框架包括两个步骤的估计过程。首先，使用主成分分析识别 $\mathbf{x}_t$ 的所有共整合向量。其次，使用共整合的平稳序列以及 $\mathbf{y}_t$ 的某些滞后变量来预测 $\mathbf{y}_t$。估计的降秩被定义为 $\mathbf{x}_t$ 的有效共整合秩。在自回归系数矩阵稀疏（或低秩）的情况下，我们应用最小绝对收缩和选择算子 (Lasso)。
+
+    This paper proposes a new approach to identifying the effective cointegration rank in high-dimensional unit-root (HDUR) time series from a prediction perspective using reduced-rank regression. For a HDUR process $\mathbf{x}_t\in \mathbb{R}^N$ and a stationary series $\mathbf{y}_t\in \mathbb{R}^p$ of interest, our goal is to predict future values of $\mathbf{y}_t$ using $\mathbf{x}_t$ and lagged values of $\mathbf{y}_t$. The proposed framework consists of a two-step estimation procedure. First, the Principal Component Analysis is used to identify all cointegrating vectors of $\mathbf{x}_t$. Second, the co-integrated stationary series are used as regressors, together with some lagged variables of $\mathbf{y}_t$, to predict $\mathbf{y}_t$. The estimated reduced rank is then defined as the effective coitegration rank of $\mathbf{x}_t$. Under the scenario that the autoregressive coefficient matrices are sparse (or of low-rank), we apply the Least Absolute Shrinkage and Selection Operator (o
+    
+[^7]: 同质性和感染：静态和动态影响。
 
     Homophily and infections: static and dynamic effects. (arXiv:2304.11934v1 [econ.TH])
 
@@ -116,7 +131,7 @@
 
     We analyze the effect of homophily in an epidemics between two groups of agents that differ in vaccination (rates vaxxers and anti--vaxxers). The steady state infection rate is hump-shaped in homophily, whereas the cumulative number of agents infected during an outbreak is u-shaped. If vaccination rates are endogenous, homophily has the opposite impact on the two groups, but the qualitative behavior of the aggregate is unchanged. However, the sign of the group-level impact is the opposite if vaccination is motivated by infection risk or by peer pressure. If motivations are group-specific, homophily can be harmful for both groups.
     
-[^7]: 怀疑足迹：基于机器学习的方法在铁路基础设施采购中检测卡特尔
+[^8]: 怀疑足迹：基于机器学习的方法在铁路基础设施采购中检测卡特尔
 
     On suspicious tracks: machine-learning based approaches to detect cartels in railway-infrastructure procurement. (arXiv:2304.11888v1 [econ.GN])
 
@@ -130,7 +145,7 @@
 
     In railway infrastructure, construction and maintenance is typically procured using competitive procedures such as auctions. However, these procedures only fulfill their purpose - using (taxpayers') money efficiently - if bidders do not collude. Employing a unique dataset of the Swiss Federal Railways, we present two methods in order to detect potential collusion: First, we apply machine learning to screen tender databases for suspicious patterns. Second, we establish a novel category-managers' tool, which allows for sequential and decentralized screening. To the best of our knowledge, we pioneer illustrating the adaption and application of machine-learning based price screens to a railway-infrastructure market.
     
-[^8]: 工作中的生成式人工智能
+[^9]: 工作中的生成式人工智能
 
     Generative AI at Work. (arXiv:2304.11771v1 [econ.GN])
 
@@ -144,7 +159,7 @@
 
     We study the staggered introduction of a generative AI-based conversational assistant using data from 5,000 customer support agents. Access to the tool increases productivity, as measured by issues resolved per hour, by 14 percent on average, with the greatest impact on novice and low-skilled workers, and minimal impact on experienced and highly skilled workers. We provide suggestive evidence that the AI model disseminates the potentially tacit knowledge of more able workers and helps newer workers move down the experience curve. In addition, we show that AI assistance improves customer sentiment, reduces requests for managerial intervention, and improves employee retention.
     
-[^9]: 具有偏倚样本选择的政策学习
+[^10]: 具有偏倚样本选择的政策学习
 
     Policy Learning under Biased Sample Selection. (arXiv:2304.11735v1 [econ.EM])
 
@@ -158,7 +173,7 @@
 
     Practitioners often use data from a randomized controlled trial to learn a treatment assignment policy that can be deployed on a target population. A recurring concern in doing so is that, even if the randomized trial was well-executed (i.e., internal validity holds), the study participants may not represent a random sample of the target population (i.e., external validity fails)--and this may lead to policies that perform suboptimally on the target population. We consider a model where observable attributes can impact sample selection probabilities arbitrarily but the effect of unobservable attributes is bounded by a constant, and we aim to learn policies with the best possible performance guarantees that hold under any sampling bias of this type. In particular, we derive the partial identification result for the worst-case welfare in the presence of sampling bias and show that the optimal max-min, max-min gain, and minimax regret policies depend on both the conditional average treatm
     
-[^10]: 线性二次随机微分博弈中的时不一致性
+[^11]: 线性二次随机微分博弈中的时不一致性
 
     Time-Inconsistency in Linear Quadratic Stochastic Differential Games. (arXiv:2304.11577v1 [econ.GN])
 
@@ -172,7 +187,7 @@
 
     We investigate a linear quadratic stochastic zero-sum game where two players lobby a political representative to invest in a wind turbine farm. Players are time-inconsistent because they discount performance with a non-constant rate. Our objective is to identify a consistent planning equilibrium in which the players are aware of their inconsistency and cannot commit to a lobbying policy. We analyze the equilibrium behavior in both single-player and two-player cases and compare the behavior of the game under constant and non-constant discount rates. The equilibrium behavior is provided in closed-loop form, either analytically or via numerical approximation. Our numerical analysis of the equilibrium reveals that strategic behavior leads to more intense lobbying without resulting in overshooting.
     
-[^11]: 游戏中的选择结构
+[^12]: 游戏中的选择结构
 
     Choice Structures in Games. (arXiv:2304.11575v1 [econ.TH])
 
@@ -186,7 +201,7 @@
 
     Following the decision-theoretic approach to game theory, we extend the analysis of Epstein & Wang and of Di Tillio from hierarchies of preference relations to hierarchies of choice functions. We then construct the universal choice structure containing all these choice hierarchies, and show how the universal preference structure of Di Tillio is embedded in it.
     
-[^12]: 具有状态限制的时空经济增长模型的最优控制问题在网络中的研究
+[^13]: 具有状态限制的时空经济增长模型的最优控制问题在网络中的研究
 
     An optimal control problem with state constraints in a spatio-temporal economic growth model on networks. (arXiv:2304.11568v1 [math.OC])
 
@@ -200,7 +215,7 @@
 
     We introduce a spatial economic growth model where space is described as a network of interconnected geographic locations and we study a corresponding finite-dimensional optimal control problem on a graph with state constraints. Economic growth models on networks are motivated by the nature of spatial economic data, which naturally possess a graph-like structure: this fact makes these models well-suited for numerical implementation and calibration. The network setting is different from the one adopted in the related literature, where space is modeled as a subset of a Euclidean space, which gives rise to infinite dimensional optimal control problems. After introducing the model and the related control problem, we prove existence and uniqueness of an optimal control and a regularity result for the value function, which sets up the basis for a deeper study of the optimal strategies. Then, we focus on specific cases where it is possible to find, under suitable assumptions, an explicit solu
     
-[^13]: 儿童抚养、时间分配和人生周期
+[^14]: 儿童抚养、时间分配和人生周期
 
     Child Care, Time Allocation, and Life Cycle. (arXiv:2304.11531v1 [econ.GN])
 
@@ -214,7 +229,7 @@
 
     This study examines the impact of the time and financial costs of parenting on the lifespan of married couples to explore the origins of the child penalty. Using Japanese aggregate data from the "Basic Survey of Social Life," which includes a sample of over two hundred thousand Japanese people, the study extends the family model introduced by Blundell et al.(2018) to a life cycle model of heterogeneous married couples with idiosyncratic labor productivity shocks. We then quantitatively analyze the time allocation preferences, including child care. After fitting the model's calculated values to the data, we conduct policy simulations for married couples based on their educational background. The calculations demonstrate that an increase in assets leads to a decrease in female work hours and an increase in childcare hours. Additionally, a 25 % increase in the income replacement rate for parental leave increases the take-up of parental leave by 20 %, while a permanent 10 % increase in wag
     
-[^14]: 突破普选效应：2020年美国总统大选对中国经济的影响和应对策略
+[^15]: 突破普选效应：2020年美国总统大选对中国经济的影响和应对策略
 
     Breaking the general election effect. The impact of the 2020 US presidential election on Chinese economy and counter strategies. (arXiv:2304.11518v1 [econ.GN])
 
@@ -228,7 +243,7 @@
 
     The study of US-China relations has always been a crucial topic in our economic development [4][5][7], and the US presidential election plays an integral role in shaping these relations. The presidential election is held every four years, and it is crucial to assess the impact of the 2020 election on China to prepare for the potential effects of the 2024 US presidential election on the Chinese economy [8][16][20]. To achieve this, we have gathered statistical data from nearly 70 years and analyzed data related to the US economy. We have classified the collected data and utilized the analytic hierarchy process [1][2][3] to evaluate the President's policy implementation.This approach allowed us to obtain a comprehensive ranking of the indicators [6][9][11][33]. We then quantified the index data and employed the entropy weight method to calculate the weight of each index data. Finally, we used the weighted total score calculation to evaluate the economic status of the United States in a h
     
-[^15]: 稳定匹配下的偏好演变模型
+[^16]: 稳定匹配下的偏好演变模型
 
     Preference Evolution under Stable Matching. (arXiv:2304.11504v1 [econ.TH])
 
@@ -242,7 +257,7 @@
 
     We present a model that investigates preference evolution with endogenous matching. In the short run, individuals' subjective preferences simultaneously determine who they are matched with and how they behave in the social interactions with their matched partners, which results in material payoffs for them. Material payoffs in turn affect how preferences evolve in the long run. To properly model the "match-to-interact" process, we combine stable matching and equilibrium concepts. Our findings emphasize the importance of parochialism, a preference for matching with one's own kind, in shaping our results. Under complete information, the parochial efficient preference type -characterized by a weak form of parochialism and a preference for efficiency -stands out in the evolutionary process, because it is able to force positive assortative matching and efficient play among individuals carrying this preference type. Under incomplete information, the exclusionary efficient preference type
     
-[^16]: 树形结构中单峰偏好对稳定性和战略无谋的兼容性
+[^17]: 树形结构中单峰偏好对稳定性和战略无谋的兼容性
 
     Compatibility between stability and strategy-proofness with single-peaked preferences on trees. (arXiv:2304.11494v1 [econ.TH])
 
@@ -256,7 +271,7 @@
 
     This paper studies the stability and strategy-proofness aspect of the two-sided one-to-one matching market. Agents have single-peaked preferences on trees. In this setting, we characterize all rich anonymous tree-single-peaked domains where a stable and (weakly group) strategy-proof matching rule exists. We also show that whenever there exists a stable and strategy-proof matching rule on a rich anonymous tree-single-peaked domain, one or both of the deferred acceptance rules (Gale and Shapley, 1962) satisfy stability and weak group strategy-proofness on that domain. Finally, we show that for markets with a size of at least five, there is no rich anonymous domain where a stable and non-bossy matching rule exists. As a corollary, we show incompatibility between stability and group strategy-proofness on rich anonymous tree-single-peaked domains for markets with a size of at least five.
     
-[^17]: 个性化定价和隐私需求的战略回应：一项实验。
+[^18]: 个性化定价和隐私需求的战略回应：一项实验。
 
     Strategic Responses to Personalized Pricing and Demand for Privacy: An Experiment. (arXiv:2304.11415v1 [econ.GN])
 
@@ -270,7 +285,7 @@
 
     We consider situations where consumers are aware that a statistical model determines the price of a product based on their observed behavior. Using a novel experiment varying the context similarity between participant data and a product, we find that participants manipulate their responses to a survey about personal characteristics, and manipulation is more successful when the contexts are similar. Moreover, participants demand less privacy, and make less optimal privacy choices when the contexts are less similar. Our findings highlight the importance of data privacy policies in the age of big data, where behavior in seemingly unrelated contexts might affect prices.
     
-[^18]: 华语中依赖长度极小化的有限理性解析
+[^19]: 华语中依赖长度极小化的有限理性解析
 
     A bounded rationality account of dependency length minimization in Hindi. (arXiv:2304.11410v1 [cs.CL])
 
@@ -284,7 +299,7 @@
 
     The principle of DEPENDENCY LENGTH MINIMIZATION, which seeks to keep syntactically related words close in a sentence, is thought to universally shape the structure of human languages for effective communication. However, the extent to which dependency length minimization is applied in human language systems is not yet fully understood. Preverbally, the placement of long-before-short constituents and postverbally, short-before-long constituents are known to minimize overall dependency length of a sentence. In this study, we test the hypothesis that placing only the shortest preverbal constituent next to the main-verb explains word order preferences in Hindi (a SOV language) as opposed to the global minimization of dependency length. We characterize this approach as a least-effort strategy because it is a cost-effective way to shorten all dependencies between the verb and its preverbal dependencies. As such, this approach is consistent with the bounded-rationality perspective according t
     
-[^19]: 适用于弱重叠的双重稳健估计器
+[^20]: 适用于弱重叠的双重稳健估计器
 
     Doubly Robust Estimators with Weak Overlap. (arXiv:2304.08974v1 [econ.EM])
 
@@ -298,7 +313,7 @@
 
     In this paper, we derive a new class of doubly robust estimators for treatment effect estimands that is also robust against weak covariate overlap. Our proposed estimator relies on trimming observations with extreme propensity scores and uses a bias correction device for trimming bias. Our framework accommodates many research designs, such as unconfoundedness, local treatment effects, and difference-in-differences. Simulation exercises illustrate that our proposed tools indeed have attractive finite sample properties, which are aligned with our theoretical asymptotic results.
     
-[^20]: “反前向交易攻击”问题的解决方案
+[^21]: “反前向交易攻击”问题的解决方案
 
     Commitment Against Front Running Attacks. (arXiv:2301.13785v2 [econ.TH] UPDATED)
 
@@ -312,7 +327,7 @@
 
     We provide a game-theoretic analysis of the problem of front-running attacks. We use it to distinguish attacks from legitimate competition among honest users for having their transactions included earlier in the block. We also use it to introduce an intuitive notion of the severity of front-running attacks. We then study a simple commit-reveal protocol and discuss its properties. This protocol has costs because it requires two messages and imposes a delay. However, we show that it prevents the most severe front-running attacks while preserving legitimate competition between users, guaranteeing that the earliest transaction in a block belongs to the honest user who values it the most. Furthermore, it reduces competition among attackers, which also benefits honest users.
     
-[^21]: 价格与选择
+[^22]: 价格与选择
 
     Price & Choose. (arXiv:2212.05650v2 [econ.TH] UPDATED)
 
@@ -326,7 +341,7 @@
 
     We describe a two-stage mechanism that fully implements the set of efficient outcomes in two-agent environments with quasi-linear utilities. The mechanism asks one agent to set prices for each outcome, and the other agent to make a choice, paying the corresponding price: Price \& Choose. We extend our implementation result in three main directions: an arbitrary number of players, non-quasi linear utilities, and robustness to max-min behavior. Finally, we discuss how to reduce the payoff inequality between players while still achieving efficiency.
     
-[^22]: 城市规模分布的幂律定律及其空间分形结构的起源
+[^23]: 城市规模分布的幂律定律及其空间分形结构的起源
 
     Origin of power laws and their spatial fractal structure for city-size distributions. (arXiv:2207.05346v5 [econ.GN] UPDATED)
 
@@ -340,7 +355,7 @@
 
     City-size distributions follow an approximate power law in various countries despite high volatility in relative city sizes over time. Our empirical evidence for the United States and Japan indicates that the scaling law stems from a spatial fractal structure owing to the coordination of industrial locations. While the locations of individual industries change considerably over time, there is a persistent pattern in that more localized industries at a given time are found only in larger cities. The spatial organization of cities exhibits a hierarchical structure in which larger cities are spaced apart to serve as centers for surrounding smaller cities, generating a recursive pattern across different spatial scales. In our theoretical replication of the observed regularities, diversity in scale economy among industries induces diversity in their location pattern, which translates into diversity in city size via spatial coordination of industries and population. The city-size power law i
     
-[^23]: 利用序统计量识别拍卖模型
+[^24]: 利用序统计量识别拍卖模型
 
     Identification of Auction Models Using Order Statistics. (arXiv:2205.12917v2 [econ.EM] UPDATED)
 
@@ -354,7 +369,7 @@
 
     Auction data often contain information on only the most competitive bids as opposed to all bids. The usual measurement error approaches to unobserved heterogeneity are inapplicable due to dependence among order statistics. We bridge this gap by providing a set of positive identification results. First, we show that symmetric auctions with discrete unobserved heterogeneity are identifiable using two consecutive order statistics and an instrument. Second, we extend the results to ascending auctions with unknown competition and unobserved heterogeneity.
     
-[^24]: 声誉、学习和摩擦经济中的项目选择
+[^25]: 声誉、学习和摩擦经济中的项目选择
 
     Reputation, Learning and Project Choice in Frictional Economies. (arXiv:2201.01813v3 [econ.TH] UPDATED)
 
@@ -368,7 +383,7 @@
 
     I introduce a dynamic model of learning and random meetings between a long-lived agent with unknown ability and heterogeneous projects with observable qualities. The outcomes of the agent's matches with the projects determine her posterior belief about her ability (i.e., her reputation). In a self-type learning framework with endogenous outside option, I find the optimal project selection strategy of the agent, that determines what types of projects the agent with a certain level of reputation will accept. Sections of the optimal matching set become increasing intervals, with different cutoffs across different types of the projects. Increasing the meeting rate has asymmetric effects on the sections of the matching sets: it unambiguously expands the section for the high type projects, while on some regions, it initially expands and then shrinks the section of the low type projects.
     
-[^25]: 低效的和平还是预防性战争？——从贸易战到贸易制裁的两国谈判博弈模型
+[^26]: 低效的和平还是预防性战争？——从贸易战到贸易制裁的两国谈判博弈模型
 
     Inefficient Peace or Preventive War?. (arXiv:2111.15598v2 [econ.GN] UPDATED)
 
@@ -382,7 +397,7 @@
 
     We study a model of two-player bargaining game in the shadow of a preventive trade war that examines why states deliberately maintain trade barriers in the age of globalization. Globalization can induce substantial power shifts between states, which makes the threat of a preventive trade war salient. In this situation, there may exist "healthy" levels of trade barriers that dampen the war incentives by reducing states' expected payoffs from such a war. Thus, we demonstrate that trade barriers can sometimes serve as breaks and cushions necessary to sustain inefficient yet peaceful economic cooperation between states. We assess the theoretical implications by examining the US-China trade relations since 1972.
     
-[^26]: 说服力和福利
+[^27]: 说服力和福利
 
     Persuasion and Welfare. (arXiv:2109.03061v3 [econ.TH] UPDATED)
 
@@ -396,7 +411,7 @@
 
     Information policies such as scores, ratings, and recommendations are increasingly shaping society's choices in high-stakes domains. We provide a framework to study the welfare implications of information policies on a population of heterogeneous individuals. We define and characterize the Bayes welfare set, consisting of the population's utility profiles that are feasible under some information policy. The Pareto frontier of this set can be recovered by a series of standard Bayesian persuasion problems, in which a utilitarian planner takes the role of the information designer. We provide necessary and sufficient conditions under which an information policy exists that Pareto dominates the no-information policy. We extend our results to the case in which information policies are restricted in the data they can use and show that "blinding" algorithms to sensitive inputs is welfare decreasing. We illustrate our results with applications to privacy, recommender systems, and credit ratings
     
-[^27]: 经济地理中的多模态聚集
+[^28]: 经济地理中的多模态聚集
 
     Multimodal agglomeration in economic geography. (arXiv:1912.05113v5 [econ.GN] UPDATED)
 

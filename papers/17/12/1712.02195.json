@@ -1,0 +1,12 @@
+{
+    "title": "Fast approximations in the homogeneous Ising model for use in scene analysis. (arXiv:1712.02195v3 [stat.ME] UPDATED)",
+    "abstract": "The Ising model is important in statistical modeling and inference in many applications, however its normalizing constant, mean number of active vertices and mean spin interaction are intractable to compute. We provide accurate approximations that make it possible to numerically calculate these quantities in the homogeneous case. Simulation studies indicate good performance when compared to Markov Chain Monte Carlo methods and at a tiny fraction of the time taken by those stochastic approaches. The value of our approximations is illustrated in performing Bayesian inference in a functional Magnetic Resonance Imaging activation detection experiment, and also in likelihood ratio testing for anisotropy in the spatial patterns of yearly increases in pistachio tree yields.",
+    "link": "http://arxiv.org/abs/1712.02195",
+    "context": "Title: Fast approximations in the homogeneous Ising model for use in scene analysis. (arXiv:1712.02195v3 [stat.ME] UPDATED)\nAbstract: The Ising model is important in statistical modeling and inference in many applications, however its normalizing constant, mean number of active vertices and mean spin interaction are intractable to compute. We provide accurate approximations that make it possible to numerically calculate these quantities in the homogeneous case. Simulation studies indicate good performance when compared to Markov Chain Monte Carlo methods and at a tiny fraction of the time taken by those stochastic approaches. The value of our approximations is illustrated in performing Bayesian inference in a functional Magnetic Resonance Imaging activation detection experiment, and also in likelihood ratio testing for anisotropy in the spatial patterns of yearly increases in pistachio tree yields.",
+    "path": "papers/17/12/1712.02195.json",
+    "total_tokens": 739,
+    "translated_title": "用于场景分析的同质 Ising 模型的快速近似计算方法",
+    "translated_abstract": "Ising 模型在许多应用中都很重要，但其归一化常数、活动顶点数的平均值和自旋相互作用的均值难以计算。我们提供了准确的近似值，使得在同质情况下可以数值计算这些量。模拟研究表明，与马尔可夫链蒙特卡洛方法相比，我们的方法性能良好，且所需时间只是那些随机方法的一小部分。我们的近似值在执行功能磁共振激活检测实验的贝叶斯推断以及植物生产中年增量空间图案的各向异性的似然比检验中得到了体现。",
+    "tldr": "本文提供了一种快速近似计算同质 Ising 模型中重要量的方法，该方法的表现在模拟研究中表现良好，可用于场景分析。",
+    "en_tdlr": "This paper provides a fast approximation method for computing important quantities in the homogeneous Ising model, which has good performance in simulation studies and can be used in scene analysis."
+}

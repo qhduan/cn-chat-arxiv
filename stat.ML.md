@@ -38,7 +38,8 @@
 | [^34] | [Robust Model Selection and Nearly-Proper Learning for GMMs.](http://arxiv.org/abs/2106.02774) | 本文研究了一元高斯混合模型（GMMs）鲁棒模型选择的问题，提出了一个鲁棒算法，可以在对抗性扰动下近似正确地学习GMMs，实现了最佳样本复杂度，能够近似确定拟合分布所需的最少组件数。 |
 | [^35] | [Conformalized Survival Analysis.](http://arxiv.org/abs/2103.09763) | 本文提出了一种基于拟合预测思想的推论方法，可以产生校准、基于协变量的生存时间的下界预测，不依赖强大的建模假设，可有效避免模型错误。 |
 | [^36] | [IMAE for Noise-Robust Learning: Mean Absolute Error Does Not Treat Examples Equally and Gradient Magnitude's Variance Matters.](http://arxiv.org/abs/1903.12141) | 本文提出IMAE模型用于畸形训练数据的鲁棒深度学习，通过实践证实平均绝对误差（MAE）在处理示例时存在欠拟合问题，利用加权方差调整提高了拟合能力，同时保持了鲁棒性。 |
-| [^37] | [The Simulator: Understanding Adaptive Sampling in the Moderate-Confidence Regime.](http://arxiv.org/abs/1702.05186) | 提出一种名为模拟器的新技术用于分析自适应采样。将重点放在了区分好的采样策略和坏采样策略的难度上。在纯探索场景的结构化多臂赌博问题中应用了该技术，展示了有中等置信度的样本复杂度和文献中在 $\delta \to 0$ 时得到的渐近复杂度之间存在着实质性差异，并且还证明了作为顶部-k问题的第一个基于实例的下界。 |
+| [^37] | [Fast approximations in the homogeneous Ising model for use in scene analysis.](http://arxiv.org/abs/1712.02195) | 本文提供了一种快速近似计算同质 Ising 模型中重要量的方法，该方法的表现在模拟研究中表现良好，可用于场景分析。 |
+| [^38] | [The Simulator: Understanding Adaptive Sampling in the Moderate-Confidence Regime.](http://arxiv.org/abs/1702.05186) | 提出一种名为模拟器的新技术用于分析自适应采样。将重点放在了区分好的采样策略和坏采样策略的难度上。在纯探索场景的结构化多臂赌博问题中应用了该技术，展示了有中等置信度的样本复杂度和文献中在 $\delta \to 0$ 时得到的渐近复杂度之间存在着实质性差异，并且还证明了作为顶部-k问题的第一个基于实例的下界。 |
 
 # 详细
 
@@ -546,7 +547,21 @@
 
     In this work, we study robust deep learning against abnormal training data from the perspective of example weighting built in empirical loss functions, i.e., gradient magnitude with respect to logits, an angle that is not thoroughly studied so far. Consequently, we have two key findings: (1) Mean Absolute Error (MAE) Does Not Treat Examples Equally. We present new observations and insightful analysis about MAE, which is theoretically proved to be noise-robust. First, we reveal its underfitting problem in practice. Second, we analyse that MAE's noise-robustness is from emphasising on uncertain examples instead of treating training samples equally, as claimed in prior work. (2) The Variance of Gradient Magnitude Matters. We propose an effective and simple solution to enhance MAE's fitting ability while preserving its noise-robustness. Without changing MAE's overall weighting scheme, i.e., what examples get higher weights, we simply change its weighting variance non-linearly so that the i
     
-[^37]: 模拟器：理解在中等置信度条件下的自适应采样
+[^37]: 用于场景分析的同质 Ising 模型的快速近似计算方法
+
+    Fast approximations in the homogeneous Ising model for use in scene analysis. (arXiv:1712.02195v3 [stat.ME] UPDATED)
+
+    [http://arxiv.org/abs/1712.02195](http://arxiv.org/abs/1712.02195)
+
+    本文提供了一种快速近似计算同质 Ising 模型中重要量的方法，该方法的表现在模拟研究中表现良好，可用于场景分析。
+
+    
+
+    Ising 模型在许多应用中都很重要，但其归一化常数、活动顶点数的平均值和自旋相互作用的均值难以计算。我们提供了准确的近似值，使得在同质情况下可以数值计算这些量。模拟研究表明，与马尔可夫链蒙特卡洛方法相比，我们的方法性能良好，且所需时间只是那些随机方法的一小部分。我们的近似值在执行功能磁共振激活检测实验的贝叶斯推断以及植物生产中年增量空间图案的各向异性的似然比检验中得到了体现。
+
+    The Ising model is important in statistical modeling and inference in many applications, however its normalizing constant, mean number of active vertices and mean spin interaction are intractable to compute. We provide accurate approximations that make it possible to numerically calculate these quantities in the homogeneous case. Simulation studies indicate good performance when compared to Markov Chain Monte Carlo methods and at a tiny fraction of the time taken by those stochastic approaches. The value of our approximations is illustrated in performing Bayesian inference in a functional Magnetic Resonance Imaging activation detection experiment, and also in likelihood ratio testing for anisotropy in the spatial patterns of yearly increases in pistachio tree yields.
+    
+[^38]: 模拟器：理解在中等置信度条件下的自适应采样
 
     The Simulator: Understanding Adaptive Sampling in the Moderate-Confidence Regime. (arXiv:1702.05186v2 [cs.LG] UPDATED)
 
