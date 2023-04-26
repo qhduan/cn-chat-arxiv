@@ -1,0 +1,12 @@
+{
+    "title": "Ensemble Sampling. (arXiv:1705.07347v4 [stat.ML] UPDATED)",
+    "abstract": "Thompson sampling has emerged as an effective heuristic for a broad range of online decision problems. In its basic form, the algorithm requires computing and sampling from a posterior distribution over models, which is tractable only for simple special cases. This paper develops ensemble sampling, which aims to approximate Thompson sampling while maintaining tractability even in the face of complex models such as neural networks. Ensemble sampling dramatically expands on the range of applications for which Thompson sampling is viable. We establish a theoretical basis that supports the approach and present computational results that offer further insight.",
+    "link": "http://arxiv.org/abs/1705.07347",
+    "context": "Title: Ensemble Sampling. (arXiv:1705.07347v4 [stat.ML] UPDATED)\nAbstract: Thompson sampling has emerged as an effective heuristic for a broad range of online decision problems. In its basic form, the algorithm requires computing and sampling from a posterior distribution over models, which is tractable only for simple special cases. This paper develops ensemble sampling, which aims to approximate Thompson sampling while maintaining tractability even in the face of complex models such as neural networks. Ensemble sampling dramatically expands on the range of applications for which Thompson sampling is viable. We establish a theoretical basis that supports the approach and present computational results that offer further insight.",
+    "path": "papers/17/05/1705.07347.json",
+    "total_tokens": 647,
+    "translated_title": "集成采样",
+    "translated_abstract": "Thompson采样已经成为一种解决多种在线决策问题的有效启发式算法。在其基本形式中，该算法需要计算并从模型的后验分布中采样，仅在简单特殊情况下才可行。本文介绍了集成采样，旨在近似Thompson采样，同时在复杂模型（如神经网络）的面前保持可行性。集成采样大大扩展了适用Thompson采样的应用范围。我们建立了支持该方法的理论基础，并提供了进一步的计算结果来提供更多见解。",
+    "tldr": "本文介绍了集成采样，以近似Thompson采样并在复杂模型下保持可行性，将大大扩展Thompson采样的应用范围。",
+    "en_tdlr": "This paper introduces ensemble sampling, which aims to approximate Thompson sampling while maintaining tractability even in the face of complex models such as neural networks, dramatically expanding the range of applications for which Thompson sampling is viable."
+}

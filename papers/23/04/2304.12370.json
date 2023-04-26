@@ -1,0 +1,12 @@
+{
+    "title": "Better Question-Answering Models on a Budget. (arXiv:2304.12370v1 [cs.CL])",
+    "abstract": "Low-rank adaptation (LoRA) and question-answer datasets from large language models have made it much easier for much smaller models to be finetuned to the point where they display sophisticated conversational abilities. In this paper, we present Eluwa, a family of LoRA models that use the Stanford Alpaca dataset and massively improve the capabilities of Facebook's OPT 1.3B, 2.7B and 6.7B models. We benchmark these models in multiple ways, including letting GPT-4 judge their answers to prompts that span general knowledge, writing, programming and other tasks. We show that smaller models here can be fine-tuned to be as performant as models 3x larger - all for as little as 40 USD in compute.",
+    "link": "http://arxiv.org/abs/2304.12370",
+    "context": "Title: Better Question-Answering Models on a Budget. (arXiv:2304.12370v1 [cs.CL])\nAbstract: Low-rank adaptation (LoRA) and question-answer datasets from large language models have made it much easier for much smaller models to be finetuned to the point where they display sophisticated conversational abilities. In this paper, we present Eluwa, a family of LoRA models that use the Stanford Alpaca dataset and massively improve the capabilities of Facebook's OPT 1.3B, 2.7B and 6.7B models. We benchmark these models in multiple ways, including letting GPT-4 judge their answers to prompts that span general knowledge, writing, programming and other tasks. We show that smaller models here can be fine-tuned to be as performant as models 3x larger - all for as little as 40 USD in compute.",
+    "path": "papers/23/04/2304.12370.json",
+    "total_tokens": 834,
+    "translated_title": "低成本下更好的问答模型",
+    "translated_abstract": "低秩适应（LoRA）和来自大型语言模型的问题-答案数据集使得更小的模型可以轻松地微调到具有复杂对话能力的程度。本文提出了Eluwa，一种使用Stanford Alpaca数据集的LoRA模型系列，可以大幅提升Facebook的OPT 1.3B、2.7B和6.7B模型的能力。我们通过多种方式进行了基准测试，包括让GPT-4评估它们对涵盖基础知识、写作、编程和其他任务的提示的回答。我们展示了在低成本下，较小的模型可以微调到和大3倍模型一样的性能表现，仅需40美元的计算成本。",
+    "tldr": "本文针对低成本下，提出了基于LoRA和Stanford Alpaca数据集的Eluwa模型系列，可大幅提高Facebook的OPT 1.3B、2.7B和6.7B模型的表现，40美元的计算成本即可让较小的模型具有和大3倍模型一样的性能表现。",
+    "en_tdlr": "This paper proposes the Eluwa model series based on LoRA and the Stanford Alpaca dataset, which significantly improves the performance of Facebook's OPT 1.3B, 2.7B, and 6.7B models at a lower cost. The results show that smaller models can be fine-tuned to perform as well as models three times larger, for as little as 40 USD in compute."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Is deep learning a useful tool for the pure mathematician?. (arXiv:2304.12602v1 [math.RT])",
+    "abstract": "A personal and informal account of what a pure mathematician might expect when using tools from deep learning in their research.",
+    "link": "http://arxiv.org/abs/2304.12602",
+    "context": "Title: Is deep learning a useful tool for the pure mathematician?. (arXiv:2304.12602v1 [math.RT])\nAbstract: A personal and informal account of what a pure mathematician might expect when using tools from deep learning in their research.",
+    "path": "papers/23/04/2304.12602.json",
+    "total_tokens": 415,
+    "translated_title": "深度学习对于纯数学家来说是一个有用的工具吗？",
+    "translated_abstract": "一篇关于纯数学家使用深度学习工具进行研究的个人和非正式叙述。",
+    "tldr": "本文是一篇介绍纯数学家使用深度学习工具进行研究的个人和非正式叙述。",
+    "en_tdlr": "This paper is a personal and informal account of what a pure mathematician might expect when using tools from deep learning in their research."
+}

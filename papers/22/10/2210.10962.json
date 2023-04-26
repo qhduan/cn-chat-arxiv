@@ -1,0 +1,12 @@
+{
+    "title": "Optimization on Manifolds via Graph Gaussian Processes. (arXiv:2210.10962v2 [stat.ML] UPDATED)",
+    "abstract": "This paper integrates manifold learning techniques within a \\emph{Gaussian process upper confidence bound} algorithm to optimize an objective function on a manifold. Our approach is motivated by applications where a full representation of the manifold is not available and querying the objective is expensive. We rely on a point cloud of manifold samples to define a graph Gaussian process surrogate model for the objective. Query points are sequentially chosen using the posterior distribution of the surrogate model given all previous queries. We establish regret bounds in terms of the number of queries and the size of the point cloud. Several numerical examples complement the theory and illustrate the performance of our method.",
+    "link": "http://arxiv.org/abs/2210.10962",
+    "context": "Title: Optimization on Manifolds via Graph Gaussian Processes. (arXiv:2210.10962v2 [stat.ML] UPDATED)\nAbstract: This paper integrates manifold learning techniques within a \\emph{Gaussian process upper confidence bound} algorithm to optimize an objective function on a manifold. Our approach is motivated by applications where a full representation of the manifold is not available and querying the objective is expensive. We rely on a point cloud of manifold samples to define a graph Gaussian process surrogate model for the objective. Query points are sequentially chosen using the posterior distribution of the surrogate model given all previous queries. We establish regret bounds in terms of the number of queries and the size of the point cloud. Several numerical examples complement the theory and illustrate the performance of our method.",
+    "path": "papers/22/10/2210.10962.json",
+    "total_tokens": 674,
+    "translated_title": "基于图高斯过程的流形优化",
+    "translated_abstract": "本文将流形学习技术与高斯过程上限置信度算法相结合，以优化流形上的目标函数。我们的方法是针对在无法获得完整流形表示且查询目标昂贵的应用场景而设计的。我们依靠流形样本点云来定义用于目标函数的图高斯过程代理模型。使用先前所有查询的后验分布逐步选择查询点。我们在查询次数和点云大小方面建立了遗憾上限。数值实验补充了理论，并说明了我们的方法的性能。",
+    "tldr": "本论文结合流形学习和高斯过程，利用流形样本点云定义图高斯过程代理模型，通过选择查询点在流形上优化目标函数，具有良好性能。",
+    "en_tdlr": "This paper combines manifold learning and Gaussian processes, defines a graph Gaussian process surrogate model using point cloud of the manifold samples, and optimizes the objective on the manifold by sequentially choosing query points, which has good performance."
+}

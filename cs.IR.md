@@ -2,217 +2,277 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Bi-Level Attention Graph Neural Networks.](http://arxiv.org/abs/2304.11533) | 提出了一种双层注意力图神经网络，用于处理多关系和多实体的大规模异构图。通过基于两个重要性级别的层次图关注机制，以个性化的方式模拟节点-节点和关系-关系的相互作用。 |
-| [^2] | [Triple Structural Information Modelling for Accurate, Explainable and Interactive Recommendation.](http://arxiv.org/abs/2304.11528) | 该论文提出了TriSIM4Rec算法，它基于动态交互图，同时利用用户-物品共现、用户交互时序信息和物品对的转移概率三种结构信息，进而实现了更准确、可解释和交互式的推荐。 |
-| [^3] | [(Vector) Space is Not the Final Frontier: Product Search as Program Synthesis.](http://arxiv.org/abs/2304.11473) | 本文主张将产品搜索看作程序合成，相比向量空间模型有着重大优势。 |
-| [^4] | [Conditional Denoising Diffusion for Sequential Recommendation.](http://arxiv.org/abs/2304.11433) | 提出了一种条件去噪扩散模型，通过条件自回归的方式将优化和生成过程分解为更容易和可处理的步骤，并引入了一种新的优化模式，结合交叉熵损失和对抗性损失稳定训练过程。在多个数据集上的实验表明，该模型在顺序推荐方面具有较优的性能。 |
-| [^5] | [SAILER: Structure-aware Pre-trained Language Model for Legal Case Retrieval.](http://arxiv.org/abs/2304.11370) | 本文提出了一种结构感知预训练语言模型SAILER，针对法律案例检索中的长文本序列和关键法律要素敏感问题，采用遮蔽语言建模任务和结构感知连贯性预测任务相结合的多任务预训练策略，在两个法律案例检索数据集上实现了显著优于强基线模型的性能表现。 |
-| [^6] | [Enabling knowledge discovery in natural hazard engineering datasets on DesignSafe.](http://arxiv.org/abs/2304.11273) | 本论文提出了一种混合方法，能够从原始数据中合成新数据集以构建知识图谱，实现自然灾害工程数据集的知识发现。该方法能够打破传统DesignSafe词汇搜索的局限性，有效地进行复杂查询，促进新的科学见解。 |
-| [^7] | [CLaMP: Contrastive Language-Music Pre-training for Cross-Modal Symbolic Music Information Retrieval.](http://arxiv.org/abs/2304.11029) | CLaMP是一种对比语言-音乐预训练技术，能够学习符号音乐和自然语言之间的跨模态表示。通过数据增强和分块处理，它将符号音乐表示成长度不到10％的序列，并使用掩蔽音乐模型预训练目标来增强音乐编码器对音乐上下文和结构的理解。这种技术超越了现有模型的能力，可以实现符号音乐的语义搜索和零样本分类。 |
-| [^8] | [Unsupervised Story Discovery from Continuous News Streams via Scalable Thematic Embedding.](http://arxiv.org/abs/2304.04099) | 本研究提出了一种新颖的主题嵌入方法和一个可扩展的无监督在线故事发现框架USTORY，可以动态表示文章和故事，并考虑它们共享的时间主题和新颖性，以帮助人们消化大量的新闻流。 |
-| [^9] | [Recall, Robustness, and Lexicographic Evaluation.](http://arxiv.org/abs/2302.11370) | 该论文从正式的角度反思了排名中召回率的测量问题，提出召回方向的概念和词典式方法，并分析了其鲁棒性。 |
-| [^10] | [A Thorough Examination on Zero-shot Dense Retrieval.](http://arxiv.org/abs/2204.12755) | 本文第一次全面探讨了 DR 模型在零-shot检索能力上的表现，并分析了影响表现的关键因素，为开发更好的零-shot DR 模型提供了重要的证据。 |
-| [^11] | [CIRS: Bursting Filter Bubbles by Counterfactual Interactive Recommender System.](http://arxiv.org/abs/2204.01266) | 本文提出了一个反事实交互式推荐系统(CIRS)，以消除过滤气泡问题，通过将离线强化学习(offline RL)与因果推断相结合。 |
-| [^12] | [A Unified Review of Deep Learning for Automated Medical Coding.](http://arxiv.org/abs/2201.02797) | 本文综述了深度学习在自动医疗编码领域的发展，提出了一个统一框架，总结了最新的高级模型，并讨论了未来发展的挑战和方向。 |
-| [^13] | [PAIR: Leveraging Passage-Centric Similarity Relation for Improving Dense Passage Retrieval.](http://arxiv.org/abs/2108.06027) | PAIR算法是一种新方法，在密集型段落检索中同时考虑查询中心和段落中心相似关系，通过正式公式、知识蒸馏和两阶段训练实现。实验证明，该方法优于先前方法。 |
-| [^14] | [The hypergeometric test performs comparably to a common TF-IDF variant on standard information retrieval tasks.](http://arxiv.org/abs/2002.11844) | 本文实证研究表明，超几何检验在选定的真实数据文档检索和摘要任务中表现与常用的TF-IDF变体相当，这提供了TF-IDF长期有效性的统计显著性解释的第一步。 |
+| [^1] | [The tale of two MS MARCO -- and their unfair comparisons.](http://arxiv.org/abs/2304.12904) | 论文介绍了MS MARCO-passage数据集中包含公正性和可重复性的重要性，并指出了文献中使用了两个不同版本的数据集以及版本之间的差异，这可能导致不公平的比较和领域不可靠的进展。 |
+| [^2] | [A New Information Theory of Certainty for Machine Learning.](http://arxiv.org/abs/2304.12833) | 该论文提出了一种新的信息理论概念 troenpy 来量化底层分布的确定性，用于机器学习中文档分类和序列数据权重方案，并定义了量子 troenpy 量化量子系统确定性。 |
+| [^3] | [A Novel Dual of Shannon Information and Weighting Scheme.](http://arxiv.org/abs/2304.12814) | 本文通过发掘信息熵自然对偶，提出了一种新的量troenpy，并应用于提出了基于troenpy的文档加权方案，即正类别频率（PCF），以及一种新的类别信息偏差特征ECIB，在监督学习中具有互信息的泛化性质。 |
+| [^4] | [A Static Pruning Study on Sparse Neural Retrievers.](http://arxiv.org/abs/2304.12702) | 本论文研究了稀疏神经信息检索器的静态修剪方法，结果表明在不同数据集上，采用面向文档、面向术语和不可知三种策略的静态修剪仍然适用于稀疏神经信息检索器，能够实现2倍速度提升，且效果损失极小（≤ 2%）。 |
+| [^5] | [THUIR at WSDM Cup 2023 Task 1: Unbiased Learning to Rank.](http://arxiv.org/abs/2304.12650) | THUIR在WSDM Cup 2023“无偏学习排序”任务中获得第二名，使用了传统IR模型和Transformer-based cross-encoder architecture的组合，以及一系列特征来提高排序性能。 |
+| [^6] | [MG-ShopDial: A Multi-Goal Conversational Dataset for e-Commerce.](http://arxiv.org/abs/2304.12636) | MG-ShopDial是一个用于电子商务的多目标对话数据集，包含超过17k个涉及搜索、推荐及商品相关问题的对话，具有很高的复杂性和多样性。 |
+| [^7] | [PUNR: Pre-training with User Behavior Modeling for News Recommendation.](http://arxiv.org/abs/2304.12633) | 本论文提出了一种无监督的预训练方法，它可以通过两个任务实现有效的用户行为建模，以提高新闻推荐系统的准确性和性能表现。 |
+| [^8] | [Explain like I am BM25: Interpreting a Dense Model's Ranked-List with a Sparse Approximation.](http://arxiv.org/abs/2304.12631) | 本论文提出了一种解释NRM的新方法——基于等价查询的局部解释方法。通过最大化NRM结果与具有等价查询的稀疏检索系统的结果集之间的相似性来生成等价查询。该方法与现有方法进行比较，并对检索效果和每种方法生成的词项进行了对比。 |
+| [^9] | [OFAR: A Multimodal Evidence Retrieval Framework for Illegal Live-streaming Identification.](http://arxiv.org/abs/2304.12608) | OFAR是一种用于非法直播识别的证据检索框架，能够帮助直播平台立即识别直播中的非法行为。 |
+| [^10] | [Learnable Pillar-based Re-ranking for Image-Text Retrieval.](http://arxiv.org/abs/2304.12570) | 本文提出了一种新颖的可学习的基于支柱的图文检索重排方法，通过选择等级最高的内部和跨模态邻居作为支柱，并使用它们之间的邻居关系重构数据样本，将每个样本映射到多模态支柱空间中。 |
+| [^11] | [COUPA: An Industrial Recommender System for Online to Offline Service Platforms.](http://arxiv.org/abs/2304.12549) | COUPA是一个面向O2O服务平台的工业级推荐系统，通过时间感知偏好和位置感知偏好来提高推荐效果。 |
+| [^12] | [GARCIA: Powering Representations of Long-tail Query with Multi-granularity Contrastive Learning.](http://arxiv.org/abs/2304.12537) | GARCIA利用多粒度对比学习，基于图的知识转移和基于意图的表示，提高了长尾查询表示能力。 |
+| [^13] | [Rank Flow Embedding for Unsupervised and Semi-Supervised Manifold Learning.](http://arxiv.org/abs/2304.12448) | 本文提出了Rank Flow Embedding算法用于无监督和半监督场景的流形学习。 |
+| [^14] | [Extreme Classification for Answer Type Prediction in Question Answering.](http://arxiv.org/abs/2304.12395) | 本文提出了使用Transformer模型（XBERT）进行极端多标签分类，通过将KG类型基于问题文本使用结构和语义特征进行聚类，以提高问题回答（QA）系统中语义答案类型预测（SMART）任务的性能，并获得最先进的结果。 |
+| [^15] | [Overview of the TREC 2022 NeuCLIR Track.](http://arxiv.org/abs/2304.12367) | TREC NeuCLIR轨道的第一年，研究神经方法对跨语言信息检索的影响，通过英语查询来ad hoc排名检索中文、波斯语或俄语新闻文档，共有12个团队提交了172次运行。 |
+| [^16] | [USTEP: Structuration des logs en flux gr{\^a}ce {\`a} un arbre de recherche {\'e}volutif.](http://arxiv.org/abs/2304.12331) | 本论文提出了一种基于演化树结构的在线日志解析方法USTEP，该方法在有效性和鲁棒性方面优越。 |
+| [^17] | [Continuous Input Embedding Size Search For Recommender Systems.](http://arxiv.org/abs/2304.03501) | 提出了一种新的方法CONTINUOUS，可以对潜在因子模型进行连续嵌入大小搜索，它通过将嵌入大小选择建模为连续变量解决了先前工作中的挑战，并在三个基准数据集上的实验中证实了它的有效性和高效性。 |
+| [^18] | [Code Recommendation for Open Source Software Developers.](http://arxiv.org/abs/2210.08332) | CODER 是一个基于图的代码推荐框架，通过建模微观用户-代码交互和宏观用户-项目交互，预测开发者未来的贡献行为，以缩短开发时间并提高开发效率。 |
 
 # 详细
 
-[^1]: 双层注意力图神经网络
+[^1]: 两个MS MARCO的故事--他们不公平的比较
 
-    Bi-Level Attention Graph Neural Networks. (arXiv:2304.11533v1 [cs.LG])
+    The tale of two MS MARCO -- and their unfair comparisons. (arXiv:2304.12904v1 [cs.IR])
 
-    [http://arxiv.org/abs/2304.11533](http://arxiv.org/abs/2304.11533)
+    [http://arxiv.org/abs/2304.12904](http://arxiv.org/abs/2304.12904)
 
-    提出了一种双层注意力图神经网络，用于处理多关系和多实体的大规模异构图。通过基于两个重要性级别的层次图关注机制，以个性化的方式模拟节点-节点和关系-关系的相互作用。
-
-    
-
-    最近，具有注意力机制的图神经网络(GNNs)在历史上一直局限于小规模同质图(HoGs)。然而，处理异构图(HeGs)的GNNs，在处理注意力方面存在缺陷。大多数处理HeGs的GNNs只学习节点级别或关系级别的注意力，而不是两者兼备，限制了它们在预测HeGs中的重要实体和关系方面的能力。即使是现有学习两种级别注意力的最佳方法，也存在假定图关系是独立的，并且其学习的注意力忽略了这种依赖关联的限制。为了有效地模拟多关系和多实体的大规模HeGs，我们提出了双层注意力图神经网络(BA-GNN)，这是一种可扩展的神经网络(NNs)，通过基于两个重要性级别的层次图关注机制，以个性化的方式模拟了节点-节点和关系-关系的相互作用，并学会了考虑图关系之间的依赖关联。
-
-    Recent graph neural networks (GNNs) with the attention mechanism have historically been limited to small-scale homogeneous graphs (HoGs). However, GNNs handling heterogeneous graphs (HeGs), which contain several entity and relation types, all have shortcomings in handling attention. Most GNNs that learn graph attention for HeGs learn either node-level or relation-level attention, but not both, limiting their ability to predict both important entities and relations in the HeG. Even the best existing method that learns both levels of attention has the limitation of assuming graph relations are independent and that its learned attention disregards this dependency association. To effectively model both multi-relational and multi-entity large-scale HeGs, we present Bi-Level Attention Graph Neural Networks (BA-GNN), scalable neural networks (NNs) that use a novel bi-level graph attention mechanism. BA-GNN models both node-node and relation-relation interactions in a personalized way, by hier
-    
-[^2]: 三元结构信息建模用于准确、可解释和交互式推荐
-
-    Triple Structural Information Modelling for Accurate, Explainable and Interactive Recommendation. (arXiv:2304.11528v1 [cs.IR])
-
-    [http://arxiv.org/abs/2304.11528](http://arxiv.org/abs/2304.11528)
-
-    该论文提出了TriSIM4Rec算法，它基于动态交互图，同时利用用户-物品共现、用户交互时序信息和物品对的转移概率三种结构信息，进而实现了更准确、可解释和交互式的推荐。
+    论文介绍了MS MARCO-passage数据集中包含公正性和可重复性的重要性，并指出了文献中使用了两个不同版本的数据集以及版本之间的差异，这可能导致不公平的比较和领域不可靠的进展。
 
     
 
-    在动态交互图中，用户与物品的交互通常遵循异构模式，表示为不同的结构信息，如用户-物品共现、用户交互的时序信息和物品对的转移概率。然而，现有方法不能同时利用这三种结构信息，导致表现不佳。为此，我们提出了TriSIM4Rec，一种基于三元结构信息建模的动态交互图准确、可解释和交互式推荐方法。具体地，TriSIM4Rec包括1)一个动态理想低通图滤波器，通过增量奇异值分解（SVD）动态地挖掘用户-物品交互中的共现信息；2)一个无需参数的注意力模块，以有效、高效地捕获用户交互的时序信息；和3)一个物品转移矩阵以存储物品对的转移概率。
+    MS MARCO-passage 数据集是IR社区主要的大规模数据集，多年来它成功地推动了新型神经检索模型的发展。但是，事实证明文献中使用了两个不同的MS MARCO语料库，一个是官方版本，一个是加入了标题的第二个版本，主要是由于引入了Tevatron代码库。然而，添加标题实际上泄漏了相关信息，而且违反了MS MARCO-passage数据集的原始指南。在这项工作中，我们研究了两个版本之间的差异，并且通过实验证明，当评估新方法时，它们会产生显著的差异。换句话说，我们展示了如果一个论文没有恰当地报告所使用的版本，那么就基本上不可能公平地复现其结果。此外，鉴于当前审查的状态，监测最新进展是非常重要的，拥有两个不同版本的MS MARCO数据集可能会导致不公平的比较和信息检索领域不可靠的进展。
 
-    In dynamic interaction graphs, user-item interactions usually follow heterogeneous patterns, represented by different structural information, such as user-item co-occurrence, sequential information of user interactions and the transition probabilities of item pairs. However, the existing methods cannot simultaneously leverage all three structural information, resulting in suboptimal performance. To this end, we propose TriSIM4Rec, a triple structural information modeling method for accurate, explainable and interactive recommendation on dynamic interaction graphs. Specifically, TriSIM4Rec consists of 1) a dynamic ideal low-pass graph filter to dynamically mine co-occurrence information in user-item interactions, which is implemented by incremental singular value decomposition (SVD); 2) a parameter-free attention module to capture sequential information of user interactions effectively and efficiently; and 3) an item transition matrix to store the transition probabilities of item pairs.
+    The MS MARCO-passage dataset has been the main large-scale dataset open to the IR community and it has fostered successfully the development of novel neural retrieval models over the years. But, it turns out that two different corpora of MS MARCO are used in the literature, the official one and a second one where passages were augmented with titles, mostly due to the introduction of the Tevatron code base. However, the addition of titles actually leaks relevance information, while breaking the original guidelines of the MS MARCO-passage dataset. In this work, we investigate the differences between the two corpora and demonstrate empirically that they make a significant difference when evaluating a new method. In other words, we show that if a paper does not properly report which version is used, reproducing fairly its results is basically impossible. Furthermore, given the current status of reviewing, where monitoring state-of-the-art results is of great importance, having two differen
     
-[^3]: (向量)空间不是最后的疆域：将产品搜索看作程序合成
+[^2]: 一种新的用于机器学习的确定性信息理论
 
-    (Vector) Space is Not the Final Frontier: Product Search as Program Synthesis. (arXiv:2304.11473v1 [cs.IR])
+    A New Information Theory of Certainty for Machine Learning. (arXiv:2304.12833v1 [cs.IT])
 
-    [http://arxiv.org/abs/2304.11473](http://arxiv.org/abs/2304.11473)
+    [http://arxiv.org/abs/2304.12833](http://arxiv.org/abs/2304.12833)
 
-    本文主张将产品搜索看作程序合成，相比向量空间模型有着重大优势。
-
-    
-
-    随着电子商务的不断增长，巨额投资用于信息检索的机器学习和自然语言处理也随之而来。虽然向量空间模型主宰了产品搜索中的检索模型，但随着深度学习的出现，向量化本身也发生了巨大变化。我们的立场论文以相反的方式主张，即程序合成对许多查询和市场中的大量参与者提供了重大优势。我们详细说明了所提出方法的行业重要性，概述了具体实现细节，并基于我们在Tooso构建类似系统的经验，回答了一些常见的反对意见。
-
-    As ecommerce continues growing, huge investments in ML and NLP for Information Retrieval are following. While the vector space model dominated retrieval modelling in product search - even as vectorization itself greatly changed with the advent of deep learning -, our position paper argues in a contrarian fashion that program synthesis provides significant advantages for many queries and a significant number of players in the market. We detail the industry significance of the proposed approach, sketch implementation details, and address common objections drawing from our experience building a similar system at Tooso.
-    
-[^4]: 条件去噪扩散用于顺序推荐
-
-    Conditional Denoising Diffusion for Sequential Recommendation. (arXiv:2304.11433v1 [cs.LG])
-
-    [http://arxiv.org/abs/2304.11433](http://arxiv.org/abs/2304.11433)
-
-    提出了一种条件去噪扩散模型，通过条件自回归的方式将优化和生成过程分解为更容易和可处理的步骤，并引入了一种新的优化模式，结合交叉熵损失和对抗性损失稳定训练过程。在多个数据集上的实验表明，该模型在顺序推荐方面具有较优的性能。
+    该论文提出了一种新的信息理论概念 troenpy 来量化底层分布的确定性，用于机器学习中文档分类和序列数据权重方案，并定义了量子 troenpy 量化量子系统确定性。
 
     
 
-    由于能够学习内在的数据分布并处理不确定性，生成模型受到了广泛的关注。然而，两种主要的生成模型——生成对抗网络（GANs）和变分自编码器（VAEs）在顺序推荐任务中的表现存在挑战，GANs存在不稳定的优化，而VAEs则容易发生后验崩塌和过度平滑的生成。顺序推荐的稀疏和嘈杂的特性进一步加剧了这些问题。为了解决这些限制，我们提出了一个条件去噪扩散模型，包括序列编码器，交叉注意去噪解码器和逐步扩散器。这种方法以条件自回归的方式将优化和生成过程分解为更容易和可处理的步骤。此外，我们引入了一种新的优化模式，结合交叉熵损失和对抗性损失稳定训练过程。在多个数据集上的大量实验表明，我们的模型在顺序推荐方面优于几种最先进的方法，无论是在定量指标上还是在定性指标上。
+    克劳德·香农提出了熵的概念来量化通信编码理论中随机分布的不确定性。我们观察到熵的这种不确定性特性也限制了其在数学建模中的直接使用。因此，我们提出了一个新概念 troenpy，作为熵的规范对偶，来量化底层分布的确定性。我们展示了在机器学习中的两个应用。第一个是用于传统的文档分类，我们开发了一个基于 troenpy 权重方案来利用文档分类标签。第二个是针对序列数据的自我 troenpy 权重方案，并表明它可以轻松地包含在基于神经网络的语言模型中，并实现显著的困惑度降低。我们还定义了量子 troenpy 作为 Von Neumann 熵的对偶，以量化量子系统的确定性。
 
-    Generative models have attracted significant interest due to their ability to handle uncertainty by learning the inherent data distributions. However, two prominent generative models, namely Generative Adversarial Networks (GANs) and Variational AutoEncoders (VAEs), exhibit challenges that impede achieving optimal performance in sequential recommendation tasks. Specifically, GANs suffer from unstable optimization, while VAEs are prone to posterior collapse and over-smoothed generations. The sparse and noisy nature of sequential recommendation further exacerbates these issues. In response to these limitations, we present a conditional denoising diffusion model, which includes a sequence encoder, a cross-attentive denoising decoder, and a step-wise diffuser. This approach streamlines the optimization and generation process by dividing it into easier and tractable steps in a conditional autoregressive manner. Furthermore, we introduce a novel optimization schema that incorporates both cro
+    Claude Shannon coined entropy to quantify the uncertainty of a random distribution for communication coding theory. We observe that the uncertainty nature of entropy also limits its direct usage in mathematical modeling. Therefore we propose a new concept troenpy,as the canonical dual of entropy, to quantify the certainty of the underlying distribution. We demonstrate two applications in machine learning. The first is for the classical document classification, we develop a troenpy based weighting scheme to leverage the document class label. The second is a self-troenpy weighting scheme for sequential data and show that it can be easily included in neural network based language models and achieve dramatic perplexity reduction. We also define quantum troenpy as the dual of the Von Neumann entropy to quantify the certainty of quantum systems.
     
-[^5]: SAILER: 面向法律案例检索的结构感知预训练语言模型
+[^3]: 一种新型的Shannon信息及加权方案的对偶
 
-    SAILER: Structure-aware Pre-trained Language Model for Legal Case Retrieval. (arXiv:2304.11370v1 [cs.IR])
+    A Novel Dual of Shannon Information and Weighting Scheme. (arXiv:2304.12814v1 [cs.CL])
 
-    [http://arxiv.org/abs/2304.11370](http://arxiv.org/abs/2304.11370)
+    [http://arxiv.org/abs/2304.12814](http://arxiv.org/abs/2304.12814)
 
-    本文提出了一种结构感知预训练语言模型SAILER，针对法律案例检索中的长文本序列和关键法律要素敏感问题，采用遮蔽语言建模任务和结构感知连贯性预测任务相结合的多任务预训练策略，在两个法律案例检索数据集上实现了显著优于强基线模型的性能表现。
-
-    
-
-    针对智能法律系统中的核心工作——法律案例检索，本文提出了一种新的结构感知预训练语言模型SAILER。与通用文档相比，法律案例文件通常具有固有的逻辑结构，并包含关键的法律要素。SAILER采用多任务预训练策略，包括遮蔽语言建模任务和适用于法律文档的结构感知连贯性预测任务。实验结果表明，SAILER在两个法律案例检索数据集上显著优于几个强基线模型。
-
-    Legal case retrieval, which aims to find relevant cases for a query case, plays a core role in the intelligent legal system. Despite the success that pre-training has achieved in ad-hoc retrieval tasks, effective pre-training strategies for legal case retrieval remain to be explored. Compared with general documents, legal case documents are typically long text sequences with intrinsic logical structures. However, most existing language models have difficulty understanding the long-distance dependencies between different structures. Moreover, in contrast to the general retrieval, the relevance in the legal domain is sensitive to key legal elements. Even subtle differences in key legal elements can significantly affect the judgement of relevance. However, existing pre-trained language models designed for general purposes have not been equipped to handle legal elements.  To address these issues, in this paper, we propose SAILER, a new Structure-Aware pre-traIned language model for LEgal c
-    
-[^6]: 在DesignSafe上实现自然灾害工程数据的知识发现
-
-    Enabling knowledge discovery in natural hazard engineering datasets on DesignSafe. (arXiv:2304.11273v1 [physics.geo-ph])
-
-    [http://arxiv.org/abs/2304.11273](http://arxiv.org/abs/2304.11273)
-
-    本论文提出了一种混合方法，能够从原始数据中合成新数据集以构建知识图谱，实现自然灾害工程数据集的知识发现。该方法能够打破传统DesignSafe词汇搜索的局限性，有效地进行复杂查询，促进新的科学见解。
+    本文通过发掘信息熵自然对偶，提出了一种新的量troenpy，并应用于提出了基于troenpy的文档加权方案，即正类别频率（PCF），以及一种新的类别信息偏差特征ECIB，在监督学习中具有互信息的泛化性质。
 
     
 
-    数据驱动的发现需要从复杂、非结构化和异构的科学数据中识别相关的数据关系。我们提出了一种混合方法，提取元数据并利用科学领域知识从原始数据中合成新数据集以构建知识图谱。我们通过对DesignSafe上的“LEAP液化”自然灾害工程数据集进行案例研究来证明我们方法的有效性。传统的DesignSafe词汇搜索在揭示数据内部隐藏关系方面存在局限性。我们的知识图谱能够进行复杂查询，并通过准确识别相关实体并建立数据集内的关系，促进新的科学见解。这种创新性的实现可以在各种科学领域中改变数据驱动发现的格局。
+    Shannon信息理论不仅在通信技术领域，其应用还拓展至机器学习和人工智能领域。本文发掘信息熵存在自然对偶，并引入了一种新的量troenpy，用于衡量底层分布的确定性、普遍性和相似性。我们提出了基于troenpy的文档加权方案，即正类别频率（PCF），并证明其在公共数据集上的优越性。此外，我们还开发了一种新的类别信息偏差特征ECIB，在监督学习中具有互信息的泛化性质。
 
-    Data-driven discoveries require identifying relevant data relationships from a sea of complex, unstructured, and heterogeneous scientific data. We propose a hybrid methodology that extracts metadata and leverages scientific domain knowledge to synthesize a new dataset from the original to construct knowledge graphs. We demonstrate our approach's effectiveness through a case study on the natural hazard engineering dataset on ``LEAP Liquefaction'' hosted on DesignSafe. Traditional lexical search on DesignSafe is limited in uncovering hidden relationships within the data. Our knowledge graph enables complex queries and fosters new scientific insights by accurately identifying relevant entities and establishing their relationships within the dataset. This innovative implementation can transform the landscape of data-driven discoveries across various scientific domains.
+    Shannon Information theory has achieved great success in not only communication technology where it was originally developed for but also many other science and engineering fields such as machine learning and artificial intelligence. Inspired by the famous weighting scheme TF-IDF, we discovered that information entropy has a natural dual. We complement the classical Shannon information theory by proposing a novel quantity, namely troenpy. Troenpy measures the certainty, commonness and similarity of the underlying distribution. To demonstrate its usefulness, we propose a troenpy based weighting scheme for document with class labels, namely positive class frequency (PCF). On a collection of public datasets we show the PCF based weighting scheme outperforms the classical TF-IDF and a popular Optimal Transportation based word moving distance algorithm in a kNN setting. We further developed a new odds-ratio type feature, namely Expected Class Information Bias(ECIB), which can be regarded as
     
-[^7]: CLaMP：用于跨模态符号音乐信息检索的对比语言-音乐预训练
+[^4]: 稀疏神经信息检索器的静态修剪研究
 
-    CLaMP: Contrastive Language-Music Pre-training for Cross-Modal Symbolic Music Information Retrieval. (arXiv:2304.11029v1 [cs.SD])
+    A Static Pruning Study on Sparse Neural Retrievers. (arXiv:2304.12702v1 [cs.IR])
 
-    [http://arxiv.org/abs/2304.11029](http://arxiv.org/abs/2304.11029)
+    [http://arxiv.org/abs/2304.12702](http://arxiv.org/abs/2304.12702)
 
-    CLaMP是一种对比语言-音乐预训练技术，能够学习符号音乐和自然语言之间的跨模态表示。通过数据增强和分块处理，它将符号音乐表示成长度不到10％的序列，并使用掩蔽音乐模型预训练目标来增强音乐编码器对音乐上下文和结构的理解。这种技术超越了现有模型的能力，可以实现符号音乐的语义搜索和零样本分类。
-
-    
-
-    我们介绍了CLaMP：对比语言-音乐预训练，它使用音乐编码器和文本编码器通过对比损失函数联合训练来学习自然语言和符号音乐之间的跨模态表示。为了预训练CLaMP，我们收集了140万个音乐-文本对的大型数据集。它使用了文本随机失活来进行数据增强和分块处理以高效地表示音乐数据，从而将序列长度缩短到不到10％。此外，我们开发了一个掩蔽音乐模型预训练目标，以增强音乐编码器对音乐上下文和结构的理解。CLaMP集成了文本信息，以实现符号音乐的语义搜索和零样本分类，超越了先前模型的能力。为支持语义搜索和音乐分类的评估，我们公开发布了WikiMusicText（WikiMT），这是一个包含1010个ABC符号谱的数据集，每个谱都附带有标题、艺术家、流派和描述信息。
-
-    We introduce CLaMP: Contrastive Language-Music Pre-training, which learns cross-modal representations between natural language and symbolic music using a music encoder and a text encoder trained jointly with a contrastive loss. To pre-train CLaMP, we collected a large dataset of 1.4 million music-text pairs. It employed text dropout as a data augmentation technique and bar patching to efficiently represent music data which reduces sequence length to less than 10%. In addition, we developed a masked music model pre-training objective to enhance the music encoder's comprehension of musical context and structure. CLaMP integrates textual information to enable semantic search and zero-shot classification for symbolic music, surpassing the capabilities of previous models. To support the evaluation of semantic search and music classification, we publicly release WikiMusicText (WikiMT), a dataset of 1010 lead sheets in ABC notation, each accompanied by a title, artist, genre, and description.
-    
-[^8]: 通过可扩展的主题嵌入从连续新闻流中无监督地发现故事
-
-    Unsupervised Story Discovery from Continuous News Streams via Scalable Thematic Embedding. (arXiv:2304.04099v1 [cs.IR])
-
-    [http://arxiv.org/abs/2304.04099](http://arxiv.org/abs/2304.04099)
-
-    本研究提出了一种新颖的主题嵌入方法和一个可扩展的无监督在线故事发现框架USTORY，可以动态表示文章和故事，并考虑它们共享的时间主题和新颖性，以帮助人们消化大量的新闻流。
+    本论文研究了稀疏神经信息检索器的静态修剪方法，结果表明在不同数据集上，采用面向文档、面向术语和不可知三种策略的静态修剪仍然适用于稀疏神经信息检索器，能够实现2倍速度提升，且效果损失极小（≤ 2%）。
 
     
 
-    无监督地发现实时相关新闻文章故事，有助于人们在不需要昂贵人工注释的情况下消化大量的新闻流。现有的无监督在线故事发现研究的普遍方法是用符号或基于图的嵌入来表示新闻文章，并将它们逐步聚类成故事。最近的大型语言模型有望进一步改善嵌入，但是通过无差别地编码文章中的所有信息来直接采用这些模型无法有效处理富含文本且不断发展的新闻流。在这项工作中，我们提出了一种新颖的主题嵌入方法，使用现成的预训练句子编码器来动态表示文章和故事，并考虑它们共享的时间主题。为了实现无监督在线故事发现的想法，引入了一个可扩展框架USTORY，包括两个主要技术，即主题和时间感知的动态嵌入和新颖性感知的自适应聚类。
+    近期提出了一种称为DeepImpact、uniCOIL和SPLADE的稀疏神经信息检索器，它们是一种有效且高效的通过倒排索引进行信息检索的方法，旨在通过学习术语重要性和文档扩展来提供比传统的基于词袋的信息检索模型（例如BM25）更为有效的文档排名。然而，与传统的信息检索器相比，这些稀疏神经信息检索器已被证明会增加计算成本和查询处理的延迟。为了缓解这一问题，我们应用了一种旨在提高倒排索引查询处理效率的著名技术家族：静态修剪。我们尝试了三种静态修剪策略，即面向文档、面向术语和不可知修剪，并在不同数据集上进行了评估，结果表明这些技术仍然适用于稀疏神经信息检索器。特别地，静态修剪实现了2倍的速度提升，且效果损失极小（≤ 2%）。
 
-    Unsupervised discovery of stories with correlated news articles in real-time helps people digest massive news streams without expensive human annotations. A common approach of the existing studies for unsupervised online story discovery is to represent news articles with symbolic- or graph-based embedding and incrementally cluster them into stories. Recent large language models are expected to improve the embedding further, but a straightforward adoption of the models by indiscriminately encoding all information in articles is ineffective to deal with text-rich and evolving news streams. In this work, we propose a novel thematic embedding with an off-the-shelf pretrained sentence encoder to dynamically represent articles and stories by considering their shared temporal themes. To realize the idea for unsupervised online story discovery, a scalable framework USTORY is introduced with two main techniques, theme- and time-aware dynamic embedding and novelty-aware adaptive clustering, fuel
+    Sparse neural retrievers, such as DeepImpact, uniCOIL and SPLADE, have been introduced recently as an efficient and effective way to perform retrieval with inverted indexes. They aim to learn term importance and, in some cases, document expansions, to provide a more effective document ranking compared to traditional bag-of-words retrieval models such as BM25. However, these sparse neural retrievers have been shown to increase the computational costs and latency of query processing compared to their classical counterparts. To mitigate this, we apply a well-known family of techniques for boosting the efficiency of query processing over inverted indexes: static pruning. We experiment with three static pruning strategies, namely document-centric, term-centric and agnostic pruning, and we assess, over diverse datasets, that these techniques still work with sparse neural retrievers. In particular, static pruning achieves $2\times$ speedup with negligible effectiveness loss ($\leq 2\%$ drop) 
     
-[^9]: 召回率、鲁棒性和词典式评估
+[^5]: THUIR在WSDM Cup 2023任务1中的表现：无偏学习排序的尝试
 
-    Recall, Robustness, and Lexicographic Evaluation. (arXiv:2302.11370v3 [cs.IR] UPDATED)
+    THUIR at WSDM Cup 2023 Task 1: Unbiased Learning to Rank. (arXiv:2304.12650v1 [cs.IR])
 
-    [http://arxiv.org/abs/2302.11370](http://arxiv.org/abs/2302.11370)
+    [http://arxiv.org/abs/2304.12650](http://arxiv.org/abs/2304.12650)
 
-    该论文从正式的角度反思了排名中召回率的测量问题，提出召回方向的概念和词典式方法，并分析了其鲁棒性。
-
-    
-
-    研究人员使用召回率来评估各种检索、推荐和机器学习任务中的排名。尽管在集合评估中有关召回率的俗语解释，但研究社区远未理解排名召回率的原理。对召回率缺乏原理理解或动机导致信息检索社区批评召回率是否有用作为一个指标。在这个背景下，我们从正式的角度反思排名中召回率的测量问题。我们的分析由三个原则组成：召回率、鲁棒性和词典式评估。首先，我们正式定义“召回方向”为敏感于底部排名相关条目移动的度量。其次，我们从可能的搜索者和内容提供者的鲁棒性角度分析了我们的召回方向概念。最后，我们通过开发一个实用的词典式方法来扩展对召回的概念和理论处理。
-
-    Researchers use recall to evaluate rankings across a variety of retrieval, recommendation, and machine learning tasks. While there is a colloquial interpretation of recall in set-based evaluation, the research community is far from a principled understanding of recall metrics for rankings. The lack of principled understanding of or motivation for recall has resulted in criticism amongst the retrieval community that recall is useful as a measure at all. In this light, we reflect on the measurement of recall in rankings from a formal perspective. Our analysis is composed of three tenets: recall, robustness, and lexicographic evaluation. First, we formally define `recall-orientation' as sensitivity to movement of the bottom-ranked relevant item. Second, we analyze our concept of recall orientation from the perspective of robustness with respect to possible searchers and content providers. Finally, we extend this conceptual and theoretical treatment of recall by developing a practical pref
-    
-[^10]: 零-shot 密集检索的全面探讨
-
-    A Thorough Examination on Zero-shot Dense Retrieval. (arXiv:2204.12755v2 [cs.CL] UPDATED)
-
-    [http://arxiv.org/abs/2204.12755](http://arxiv.org/abs/2204.12755)
-
-    本文第一次全面探讨了 DR 模型在零-shot检索能力上的表现，并分析了影响表现的关键因素，为开发更好的零-shot DR 模型提供了重要的证据。
+    THUIR在WSDM Cup 2023“无偏学习排序”任务中获得第二名，使用了传统IR模型和Transformer-based cross-encoder architecture的组合，以及一系列特征来提高排序性能。
 
     
 
-    近年来，基于强大的预训练语言模型（PLM）的密集检索（DR）取得了显著进展。DR 模型在几个基准数据集上取得了出色的性能，但在零-shot检索设置下，它们显示出的竞争力不如传统的稀疏检索模型（例如BM25）。然而，在相关文献中，仍缺乏对零-shot检索的详细和全面的研究。在本文中，我们首次对 DR 模型的零-shot能力进行了全面的研究。我们旨在确定关键因素并分析它们如何影响零-shot检索性能。特别地，我们讨论了与源训练集相关的几个关键因素的影响，分析了目标数据集的潜在偏差，并回顾和比较现有的零-shot DR 模型。我们的发现为更好地理解和开发零-shot DR 模型提供了重要的证据。
+    本文介绍了我们在WSDM Cup 2023任务1：“无偏学习排序”中所用的方法。我们尝试使用传统信息检索模型和基于Transformer的交叉编码器架构相结合的方法。为了进一步提高排序性能，我们还考虑了一系列的排序学习特征。结果表明，我们在最终排行榜上获得第二名。
 
-    Recent years have witnessed the significant advance in dense retrieval (DR) based on powerful pre-trained language models (PLM). DR models have achieved excellent performance in several benchmark datasets, while they are shown to be not as competitive as traditional sparse retrieval models (e.g., BM25) in a zero-shot retrieval setting. However, in the related literature, there still lacks a detailed and comprehensive study on zero-shot retrieval. In this paper, we present the first thorough examination of the zero-shot capability of DR models. We aim to identify the key factors and analyze how they affect zero-shot retrieval performance. In particular, we discuss the effect of several key factors related to source training set, analyze the potential bias from the target dataset, and review and compare existing zero-shot DR models. Our findings provide important evidence to better understand and develop zero-shot DR models.
+    This paper introduces the approaches we have used to participate in the WSDM Cup 2023 Task 1: Unbiased Learning to Rank. In brief, we have attempted a combination of both traditional IR models and transformer-based cross-encoder architectures. To further enhance the ranking performance, we also considered a series of features for learning to rank. As a result, we won 2nd place on the final leaderboard.
     
-[^11]: 通过反事实交互式推荐系统消除过滤气泡的影响
+[^6]: MG-ShopDial：一种用于电子商务的多目标对话数据集
 
-    CIRS: Bursting Filter Bubbles by Counterfactual Interactive Recommender System. (arXiv:2204.01266v2 [cs.IR] UPDATED)
+    MG-ShopDial: A Multi-Goal Conversational Dataset for e-Commerce. (arXiv:2304.12636v1 [cs.IR])
 
-    [http://arxiv.org/abs/2204.01266](http://arxiv.org/abs/2204.01266)
+    [http://arxiv.org/abs/2304.12636](http://arxiv.org/abs/2304.12636)
 
-    本文提出了一个反事实交互式推荐系统(CIRS)，以消除过滤气泡问题，通过将离线强化学习(offline RL)与因果推断相结合。
-
-    
-
-    推荐系统的个性化使得其变得非常有用，但同时也带来了过滤气泡的问题。既然系统一直在推荐用户感兴趣的物品，那么可能会让用户感到乏味并减少满意度。现有的研究主要集中在静态推荐中的过滤气泡问题，很难捕捉到过度曝光的影响。相反，我们认为研究过滤气泡问题在交互推荐中更加有意义，并且优化长期的用户满意度。然而，由于代价高，因此在线训练模型并不现实。因此，我们必须利用离线训练数据，并分离用户满意度的因果效应。为了达到这个目的，我们提出了一个反事实交互式推荐系统(CIRS)，它将离线强化学习(offline RL)与因果推断相结合。基本思想是：首先学习一个因果用户模型，以捕捉物品对用户满意度的过度曝光效应。
-
-    While personalization increases the utility of recommender systems, it also brings the issue of filter bubbles. E.g., if the system keeps exposing and recommending the items that the user is interested in, it may also make the user feel bored and less satisfied. Existing work studies filter bubbles in static recommendation, where the effect of overexposure is hard to capture. In contrast, we believe it is more meaningful to study the issue in interactive recommendation and optimize long-term user satisfaction. Nevertheless, it is unrealistic to train the model online due to the high cost. As such, we have to leverage offline training data and disentangle the causal effect on user satisfaction.  To achieve this goal, we propose a counterfactual interactive recommender system (CIRS) that augments offline reinforcement learning (offline RL) with causal inference. The basic idea is to first learn a causal user model on historical data to capture the overexposure effect of items on user sat
-    
-[^12]: 深度学习在自动医疗编码中的应用综述
-
-    A Unified Review of Deep Learning for Automated Medical Coding. (arXiv:2201.02797v3 [cs.CL] UPDATED)
-
-    [http://arxiv.org/abs/2201.02797](http://arxiv.org/abs/2201.02797)
-
-    本文综述了深度学习在自动医疗编码领域的发展，提出了一个统一框架，总结了最新的高级模型，并讨论了未来发展的挑战和方向。
+    MG-ShopDial是一个用于电子商务的多目标对话数据集，包含超过17k个涉及搜索、推荐及商品相关问题的对话，具有很高的复杂性和多样性。
 
     
 
-    自动医疗编码是医疗运营和服务的基本任务，通过从临床文档中预测医疗编码来管理非结构化数据。近年来，深度学习和自然语言处理的进步已广泛应用于该任务。但基于深度学习的自动医疗编码缺乏对神经网络架构设计的统一视图。本综述提出了一个统一框架，以提供对医疗编码模型组件的一般理解，并总结了在此框架下最近的高级模型。我们的统一框架将医疗编码分解为四个主要组件，即用于文本特征提取的编码器模块、构建深度编码器架构的机制、用于将隐藏表示转换成医疗代码的解码器模块以及辅助信息的使用。最后，我们介绍了基准和真实世界中的使用情况，讨论了关键的研究挑战和未来方向。
+    在电子商务平台上寻找合适的产品需要一个能够提供搜索功能、理解用户偏好、提供推荐及回答与商品有关的各种问题的交互式对话系统。然而，已有的对话数据集并没有充分支持混合不同的对话目标（例如搜索、推荐和问答），而是聚焦于单一目标。因此，我们推出了MG-ShopDial：一种电子商务领域混合不同目标对话的数据集。
 
-    Automated medical coding, an essential task for healthcare operation and delivery, makes unstructured data manageable by predicting medical codes from clinical documents. Recent advances in deep learning and natural language processing have been widely applied to this task. However, deep learning-based medical coding lacks a unified view of the design of neural network architectures. This review proposes a unified framework to provide a general understanding of the building blocks of medical coding models and summarizes recent advanced models under the proposed framework. Our unified framework decomposes medical coding into four main components, i.e., encoder modules for text feature extraction, mechanisms for building deep encoder architectures, decoder modules for transforming hidden representations into medical codes, and the usage of auxiliary information. Finally, we introduce the benchmarks and real-world usage and discuss key research challenges and future directions.
+    Conversational systems can be particularly effective in supporting complex information seeking scenarios with evolving information needs. Finding the right products on an e-commerce platform is one such scenario, where a conversational agent would need to be able to provide search capabilities over the item catalog, understand and make recommendations based on the user's preferences, and answer a range of questions related to items and their usage. Yet, existing conversational datasets do not fully support the idea of mixing different conversational goals (i.e., search, recommendation, and question answering) and instead focus on a single goal. To address this, we introduce MG-ShopDial: a dataset of conversations mixing different goals in the domain of e-commerce. Specifically, we make the following contributions. First, we develop a coached human-human data collection protocol where each dialogue participant is given a set of instructions, instead of a specific script or answers to ch
     
-[^13]: PAIR：利用段落中心的相似关系改进密集型段落检索
+[^7]: PUNR: 用户行为建模的新闻推荐预训练
 
-    PAIR: Leveraging Passage-Centric Similarity Relation for Improving Dense Passage Retrieval. (arXiv:2108.06027v2 [cs.IR] UPDATED)
+    PUNR: Pre-training with User Behavior Modeling for News Recommendation. (arXiv:2304.12633v1 [cs.IR])
 
-    [http://arxiv.org/abs/2108.06027](http://arxiv.org/abs/2108.06027)
+    [http://arxiv.org/abs/2304.12633](http://arxiv.org/abs/2304.12633)
 
-    PAIR算法是一种新方法，在密集型段落检索中同时考虑查询中心和段落中心相似关系，通过正式公式、知识蒸馏和两阶段训练实现。实验证明，该方法优于先前方法。
-
-    
-
-    最近，密集型段落检索已成为在各种自然语言处理任务中找到相关信息的一种主流方法。许多研究致力于改进广泛采用的双编码器架构。但是，大多数以前的研究在学习双编码器检索器时仅考虑了查询中心的相似关系。为了捕捉更全面的相似关系，我们提出了一种新方法，利用查询中心和段落中心的相似关系（称为PAIR）进行密集型段落检索。为了实现我们的方法，我们提出了两种相似关系的正式公式，通过知识蒸馏生成高质量的伪标记数据，并设计了一种有效的两阶段训练过程，其中包括段落中心相似关系约束。广泛的实验表明，我们的方法显著优于先前的方法。
-
-    Recently, dense passage retrieval has become a mainstream approach to finding relevant information in various natural language processing tasks. A number of studies have been devoted to improving the widely adopted dual-encoder architecture. However, most of the previous studies only consider query-centric similarity relation when learning the dual-encoder retriever. In order to capture more comprehensive similarity relations, we propose a novel approach that leverages both query-centric and PAssage-centric sImilarity Relations (called PAIR) for dense passage retrieval. To implement our approach, we make three major technical contributions by introducing formal formulations of the two kinds of similarity relations, generating high-quality pseudo labeled data via knowledge distillation, and designing an effective two-stage training procedure that incorporates passage-centric similarity relation constraint. Extensive experiments show that our approach significantly outperforms previous s
-    
-[^14]: 超几何检验在标准信息检索任务中表现与TF-IDF变体相当
-
-    The hypergeometric test performs comparably to a common TF-IDF variant on standard information retrieval tasks. (arXiv:2002.11844v3 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2002.11844](http://arxiv.org/abs/2002.11844)
-
-    本文实证研究表明，超几何检验在选定的真实数据文档检索和摘要任务中表现与常用的TF-IDF变体相当，这提供了TF-IDF长期有效性的统计显著性解释的第一步。
+    本论文提出了一种无监督的预训练方法，它可以通过两个任务实现有效的用户行为建模，以提高新闻推荐系统的准确性和性能表现。
 
     
 
-    词频-逆文档频率（TF-IDF）及其许多变体形成了一类常用的术语加权函数，在信息检索应用中被广泛使用。虽然TF-IDF最初是一种启发式方法，但已经提出了基于信息理论、概率和与随机性背离的范式的理论证明。在本文中，我们展示了一项实证研究，表明在选定的真实数据文档检索和摘要任务中，超几何检验的统计显著性与常用的TF-IDF变体非常接近。这些发现表明TF-IDF变体与超几何检验P值的负对数（即超几何分布尾概率）之间存在根本的数学连结有待阐明。我们在此提供实证案例研究，作为从统计显著性角度解释TF-IDF长期有效性的第一步。
+    新闻推荐旨在基于用户行为预测点击行为。如何有效地建模用户表示是推荐首选新闻的关键。现有方法大多集中在监督微调阶段的改进上。然而，还缺乏针对用户表示优化的基于PLM的无监督预训练方法。在本文中，我们提出了一种具有两个任务的无监督预训练范例，即用户行为掩蔽和用户行为生成，均致力于有效的用户行为建模。首先，我们引入了用户行为掩蔽预训练任务，以恢复基于上下文行为的掩蔽用户行为。通过这种方式，模型可以捕捉到更强大、更全面的用户新闻阅读模式。此外，我们还结合了一种新颖的辅助用户行为生成预训练任务，以增强从用户编码器派生出的用户表示向量。我们使用上述预训练的用户建模来进行新闻推荐，实验结果表明，我们的模型在多个数据集上取得了显著的性能提升。
 
-    Term frequency-inverse document frequency, or tf-idf for short, and its many variants form a class of term weighting functions the members of which are widely used in information retrieval applications. While tf-idf was originally proposed as a heuristic, theoretical justifications grounded in information theory, probability, and the divergence from randomness paradigm have been advanced. In this work, we present an empirical study showing that the hypergeometric test of statistical significance corresponds very nearly with a common tf-idf variant on selected real-data document retrieval and summarization tasks. These findings suggest that a fundamental mathematical connection between the tf-idf variant and the negative logarithm of the hypergeometric test P-value (i.e., a hypergeometric distribution tail probability) remains to be elucidated. We offer the empirical case study herein as a first step toward explaining the long-standing effectiveness of tf-idf from a statistical signific
+    News recommendation aims to predict click behaviors based on user behaviors. How to effectively model the user representations is the key to recommending preferred news. Existing works are mostly focused on improvements in the supervised fine-tuning stage. However, there is still a lack of PLM-based unsupervised pre-training methods optimized for user representations. In this work, we propose an unsupervised pre-training paradigm with two tasks, i.e. user behavior masking and user behavior generation, both towards effective user behavior modeling. Firstly, we introduce the user behavior masking pre-training task to recover the masked user behaviors based on their contextual behaviors. In this way, the model could capture a much stronger and more comprehensive user news reading pattern. Besides, we incorporate a novel auxiliary user behavior generation pre-training task to enhance the user representation vector derived from the user encoder. We use the above pre-trained user modeling en
+    
+[^8]: BM25简单易懂：用稀疏逼近解释密集模型的排名列表
+
+    Explain like I am BM25: Interpreting a Dense Model's Ranked-List with a Sparse Approximation. (arXiv:2304.12631v1 [cs.IR])
+
+    [http://arxiv.org/abs/2304.12631](http://arxiv.org/abs/2304.12631)
+
+    本论文提出了一种解释NRM的新方法——基于等价查询的局部解释方法。通过最大化NRM结果与具有等价查询的稀疏检索系统的结果集之间的相似性来生成等价查询。该方法与现有方法进行比较，并对检索效果和每种方法生成的词项进行了对比。
+
+    
+
+    相比于传统统计模型，神经检索模型(NRMs)因为可以通过稠密文档表示来捕捉语义意义而显示出更好的检索性能。然而，由于其不依赖于明确的词项匹配，这些模型往往可读性差。为了生成一种基于局部查询解释的新方法，我们引入了“等价查询”的概念，通过最大化NRM结果与具有等价查询的稀疏检索系统的结果集之间的相似性来生成等价查询。我们将这种方法与现有方法(如基于RM3的查询扩展)进行了比较，并对检索效果和每种方法生成的词项进行了对比。
+
+    Neural retrieval models (NRMs) have been shown to outperform their statistical counterparts owing to their ability to capture semantic meaning via dense document representations. These models, however, suffer from poor interpretability as they do not rely on explicit term matching. As a form of local per-query explanations, we introduce the notion of equivalent queries that are generated by maximizing the similarity between the NRM's results and the result set of a sparse retrieval system with the equivalent query. We then compare this approach with existing methods such as RM3-based query expansion and contrast differences in retrieval effectiveness and in the terms generated by each approach.
+    
+[^9]: OFAR: 一种用于非法直播识别的多模式证据检索框架
+
+    OFAR: A Multimodal Evidence Retrieval Framework for Illegal Live-streaming Identification. (arXiv:2304.12608v1 [cs.IR])
+
+    [http://arxiv.org/abs/2304.12608](http://arxiv.org/abs/2304.12608)
+
+    OFAR是一种用于非法直播识别的证据检索框架，能够帮助直播平台立即识别直播中的非法行为。
+
+    
+
+    非法直播识别是为了帮助直播平台立即识别直播中的非法行为，例如售卖珍贵和濒危动物，对净化网络环境起着至关重要的作用。本文提出了一种名为OFAR的多模式证据检索框架，以利于非法直播识别。OFAR包括三个模块：查询编码器、文档编码器和基于MaxSim的对比晚交集。查询编码器和文档编码器都采用了先进的OFA。
+
+    Illegal live-streaming identification, which aims to help live-streaming platforms immediately recognize the illegal behaviors in the live-streaming, such as selling precious and endangered animals, plays a crucial role in purifying the network environment. Traditionally, the live-streaming platform needs to employ some professionals to manually identify the potential illegal live-streaming. Specifically, the professional needs to search for related evidence from a large-scale knowledge database for evaluating whether a given live-streaming clip contains illegal behavior, which is time-consuming and laborious. To address this issue, in this work, we propose a multimodal evidence retrieval system, named OFAR, to facilitate the illegal live-streaming identification. OFAR consists of three modules: \textit{Query Encoder}, \textit{Document Encoder}, and \textit{MaxSim-based Contrastive Late Intersection}. Both query encoder and document encoder are implemented with the advanced \mbox{OFA} 
+    
+[^10]: 可学习的基于支柱的图文检索重排
+
+    Learnable Pillar-based Re-ranking for Image-Text Retrieval. (arXiv:2304.12570v1 [cs.CV])
+
+    [http://arxiv.org/abs/2304.12570](http://arxiv.org/abs/2304.12570)
+
+    本文提出了一种新颖的可学习的基于支柱的图文检索重排方法，通过选择等级最高的内部和跨模态邻居作为支柱，并使用它们之间的邻居关系重构数据样本，将每个样本映射到多模态支柱空间中。
+
+    
+
+    图文检索旨在通过语义相似性跨模态检索内容。先前的工作通常关注二元关系（即数据样本是否匹配），而忽略了高阶邻居关系（即多个数据样本之间的匹配结构）。重排是一种流行的后处理实践，已经证明在单模态检索任务中捕捉邻居关系的优越性。然而，将现有的重排算法直接扩展到图文检索是无效的。在此论文中，我们从一般化、灵活性、稀疏性和不对称性四个方面分析了原因，并提出了一种新颖的可学习的基于支柱的图文检索重排。具体而言，我们首先选择等级最高的内部和跨模态邻居作为支柱，然后使用它们之间和支柱之间的邻居关系重构数据样本。通过这种方式，每个样本可以映射到多模态支柱空间中。
+
+    Image-text retrieval aims to bridge the modality gap and retrieve cross-modal content based on semantic similarities. Prior work usually focuses on the pairwise relations (i.e., whether a data sample matches another) but ignores the higher-order neighbor relations (i.e., a matching structure among multiple data samples). Re-ranking, a popular post-processing practice, has revealed the superiority of capturing neighbor relations in single-modality retrieval tasks. However, it is ineffective to directly extend existing re-ranking algorithms to image-text retrieval. In this paper, we analyze the reason from four perspectives, i.e., generalization, flexibility, sparsity, and asymmetry, and propose a novel learnable pillar-based re-ranking paradigm. Concretely, we first select top-ranked intra- and inter-modal neighbors as pillars, and then reconstruct data samples with the neighbor relations between them and the pillars. In this way, each sample can be mapped into a multimodal pillar space
+    
+[^11]: COUPA: 一种面向在线到线下服务平台的工业级推荐系统
+
+    COUPA: An Industrial Recommender System for Online to Offline Service Platforms. (arXiv:2304.12549v1 [cs.IR])
+
+    [http://arxiv.org/abs/2304.12549](http://arxiv.org/abs/2304.12549)
+
+    COUPA是一个面向O2O服务平台的工业级推荐系统，通过时间感知偏好和位置感知偏好来提高推荐效果。
+
+    
+
+    在线到线下（O2O）服务平台旨在帮助用户在本地发现零售服务（例如娱乐和餐饮），近年来变得越来越流行，这极大地挑战了现有的推荐系统。本文基于支付宝平台的真实数据，针对O2O服务的特殊情景发现了递归基础上的时间模式和位置偏置普遍存在，严重影响了推荐效果。基于此，我们提出了COUPA，这是一个工业级系统，旨在通过考虑以下两个方面来表征用户偏好：(1)时间感知偏好：我们采用了具有注意机制的连续时间感知点过程，以完全捕捉推荐的时间模式。(2)位置感知偏好：一个配备了位置个性化模块的位置选择器组件被精心设计，以以个性化的方式减轻位置偏差。最后，我们仔细实现并部署COUPA在支付宝平台上。
+
+    Aiming at helping users locally discovery retail services (e.g., entertainment and dinning), Online to Offline (O2O) service platforms have become popular in recent years, which greatly challenge current recommender systems. With the real data in Alipay, a feeds-like scenario for O2O services, we find that recurrence based temporal patterns and position biases commonly exist in our scenarios, which seriously threaten the recommendation effectiveness. To this end, we propose COUPA, an industrial system targeting for characterizing user preference with following two considerations: (1) Time aware preference: we employ the continuous time aware point process equipped with an attention mechanism to fully capture temporal patterns for recommendation. (2) Position aware preference: a position selector component equipped with a position personalization module is elaborately designed to mitigate position bias in a personalized manner. Finally, we carefully implement and deploy COUPA on Alipay 
+    
+[^12]: GARCIA：利用多粒度对比学习提高长尾查询表示能力
+
+    GARCIA: Powering Representations of Long-tail Query with Multi-granularity Contrastive Learning. (arXiv:2304.12537v1 [cs.LG])
+
+    [http://arxiv.org/abs/2304.12537](http://arxiv.org/abs/2304.12537)
+
+    GARCIA利用多粒度对比学习，基于图的知识转移和基于意图的表示，提高了长尾查询表示能力。
+
+    
+
+    最近，服务平台的发展为用户和商家带来了巨大的便利，服务搜索引擎通过文本查询在改善用户体验方面发挥着重要作用。然而，用户的不可控制的搜索习惯通常带来大量的长尾查询，这严重威胁到搜索模型的能力。针对这个问题，我们开发了一个新的框架GARCIA，利用基于图的知识转移和基于意图的表示来提高长尾查询表示能力。
+
+    Recently, the growth of service platforms brings great convenience to both users and merchants, where the service search engine plays a vital role in improving the user experience by quickly obtaining desirable results via textual queries. Unfortunately, users' uncontrollable search customs usually bring vast amounts of long-tail queries, which severely threaten the capability of search models. Inspired by recently emerging graph neural networks (GNNs) and contrastive learning (CL), several efforts have been made in alleviating the long-tail issue and achieve considerable performance. Nevertheless, they still face a few major weaknesses. Most importantly, they do not explicitly utilize the contextual structure between heads and tails for effective knowledge transfer, and intention-level information is commonly ignored for more generalized representations.  To this end, we develop a novel framework GARCIA, which exploits the graph based knowledge transfer and intention based representat
+    
+[^13]: 无监督和半监督流形学习的Rank Flow Embedding
+
+    Rank Flow Embedding for Unsupervised and Semi-Supervised Manifold Learning. (arXiv:2304.12448v1 [cs.CV])
+
+    [http://arxiv.org/abs/2304.12448](http://arxiv.org/abs/2304.12448)
+
+    本文提出了Rank Flow Embedding算法用于无监督和半监督场景的流形学习。
+
+    
+
+    先进的获取和共享技术使得多媒体集合及其应用的增长几乎无限，然而，由于标注数据往往昂贵而费时，因此有监督的训练所需的标注数据可用性相反。我们提出了一种名为Rank Flow Embedding（RFE）的新型流形学习算法用于无监督和半监督场景。该算法基于最近流形学习方法利用的想法，包括超图、笛卡尔积和连通成分。
+
+    Impressive advances in acquisition and sharing technologies have made the growth of multimedia collections and their applications almost unlimited. However, the opposite is true for the availability of labeled data, which is needed for supervised training, since such data is often expensive and time-consuming to obtain. While there is a pressing need for the development of effective retrieval and classification methods, the difficulties faced by supervised approaches highlight the relevance of methods capable of operating with few or no labeled data. In this work, we propose a novel manifold learning algorithm named Rank Flow Embedding (RFE) for unsupervised and semi-supervised scenarios. The proposed method is based on ideas recently exploited by manifold learning approaches, which include hypergraphs, Cartesian products, and connected components. The algorithm computes context-sensitive embeddings, which are refined following a rank-based processing flow, while complementary contextu
+    
+[^14]: 问题回答中的答案类型预测的极限分类
+
+    Extreme Classification for Answer Type Prediction in Question Answering. (arXiv:2304.12395v1 [cs.CL])
+
+    [http://arxiv.org/abs/2304.12395](http://arxiv.org/abs/2304.12395)
+
+    本文提出了使用Transformer模型（XBERT）进行极端多标签分类，通过将KG类型基于问题文本使用结构和语义特征进行聚类，以提高问题回答（QA）系统中语义答案类型预测（SMART）任务的性能，并获得最先进的结果。
+
+    
+
+    语义答案类型预测（SMART）已被证明是有效的问题回答（QA）系统的有用步骤。 SMART任务涉及预测给定自然语言问题的前k个知识图（KG）类型。由于KG中存在大量类型，这是具有挑战性的。在本文中，我们提出使用Transformer模型（XBERT）进行极端多标签分类，通过将KG类型基于问题文本使用结构和语义特征进行聚类。我们具体地改善了XBERT流程的聚类阶段，利用从KG中派生的文本和结构特征。我们表明，这些特征可以提高SMART任务的端到端性能，并产生最先进的结果。
+
+    Semantic answer type prediction (SMART) is known to be a useful step towards effective question answering (QA) systems. The SMART task involves predicting the top-$k$ knowledge graph (KG) types for a given natural language question. This is challenging due to the large number of types in KGs. In this paper, we propose use of extreme multi-label classification using Transformer models (XBERT) by clustering KG types using structural and semantic features based on question text. We specifically improve the clustering stage of the XBERT pipeline using textual and structural features derived from KGs. We show that these features can improve end-to-end performance for the SMART task, and yield state-of-the-art results.
+    
+[^15]: TREC 2022 NeuCLIR轨道综述
+
+    Overview of the TREC 2022 NeuCLIR Track. (arXiv:2304.12367v1 [cs.IR])
+
+    [http://arxiv.org/abs/2304.12367](http://arxiv.org/abs/2304.12367)
+
+    TREC NeuCLIR轨道的第一年，研究神经方法对跨语言信息检索的影响，通过英语查询来ad hoc排名检索中文、波斯语或俄语新闻文档，共有12个团队提交了172次运行。
+
+    
+
+    这是TREC神经CLIR（NeuCLIR）轨道的第一年，旨在研究神经方法对跨语言信息检索的影响。今年轨道的主要任务是使用用英语表达的查询，对中文、波斯语或俄语新闻文档进行ad hoc排名检索。话题是使用标准的TREC流程开发的，除了在评估该话题的不同语言上评估一个注释器开发的话题时，由另一个注释器开发的话题。共有12个团队提交了172次运行。
+
+    This is the first year of the TREC Neural CLIR (NeuCLIR) track, which aims to study the impact of neural approaches to cross-language information retrieval. The main task in this year's track was ad hoc ranked retrieval of Chinese, Persian, or Russian newswire documents using queries expressed in English. Topics were developed using standard TREC processes, except that topics developed by an annotator for one language were assessed by a different annotator when evaluating that topic on a different language. There were 172 total runs submitted by twelve teams.
+    
+[^16]: USTEP: 基于演化树结构的在线日志解析方法
+
+    USTEP: Structuration des logs en flux gr{\^a}ce {\`a} un arbre de recherche {\'e}volutif. (arXiv:2304.12331v1 [cs.CL])
+
+    [http://arxiv.org/abs/2304.12331](http://arxiv.org/abs/2304.12331)
+
+    本论文提出了一种基于演化树结构的在线日志解析方法USTEP，该方法在有效性和鲁棒性方面优越。
+
+    
+
+    运行时日志记录了有价值的系统信息。它们被广泛用于数据驱动的开发和监控目的。解析日志消息以结构化其格式是日志挖掘任务的经典预备步骤。由于它们出现在上游，解析操作可能成为下游应用程序的处理时间瓶颈。解析质量也直接影响其效率。本文提出了一种基于演化树结构的在线日志解析方法USTEP。对来自不同实际系统的广泛数据集的评估结果表明，与其他在线方法相比，USTEP在有效性和鲁棒性方面优越。
+
+    Logs record valuable system information at runtime. They are widely used by data-driven approaches for development and monitoring purposes. Parsing log messages to structure their format is a classic preliminary step for log-mining tasks. As they appear upstream, parsing operations can become a processing time bottleneck for downstream applications. The quality of parsing also has a direct influence on their efficiency. Here, we propose USTEP, an online log parsing method based on an evolving tree structure. Evaluation results on a wide panel of datasets coming from different real-world systems demonstrate USTEP superiority in terms of both effectiveness and robustness when compared to other online methods.
+    
+[^17]: 推荐系统的连续输入嵌入大小搜索
+
+    Continuous Input Embedding Size Search For Recommender Systems. (arXiv:2304.03501v1 [cs.IR])
+
+    [http://arxiv.org/abs/2304.03501](http://arxiv.org/abs/2304.03501)
+
+    提出了一种新的方法CONTINUOUS，可以对潜在因子模型进行连续嵌入大小搜索，它通过将嵌入大小选择建模为连续变量解决了先前工作中的挑战，并在三个基准数据集上的实验中证实了它的有效性和高效性。
+
+    
+
+    潜在因子模型是现今推荐系统最流行的基础，其性能卓越。潜在因子模型通过对用户和项目进行表示，用于对成对相似度的计算。所有嵌入向量传统上都被限制在一个相对较大的统一大小（例如256维）。随着当代电子商务中用户和项目目录指数级增长，这种设计显然变得效率低下。为了促进轻量级推荐，强化学习（RL）最近开辟了一些机会，用于识别不同用户/项目的不同嵌入大小。然而，受到搜索效率和学习最优RL策略的限制，现有的基于RL的方法被限制为高度离散的预定义嵌入大小选项。这导致了一个被广泛忽视的潜力，可以在给定计算预算下引入更细的粒度来获得更好的推荐效果。在本文中，我们提出了一种新方法，称为CONTINUOUS，可以对潜在因子模型进行连续嵌入大小搜索。CONTINUOUS通过将嵌入大小选择建模为连续变量和制定可微优化问题的形式来解决之前工作的挑战。在三个基准数据集上的实验证实了CONTINUOUS优于基线的优越性，验证了动态优化嵌入大小的有效性和高效性。
+
+    Latent factor models are the most popular backbones for today's recommender systems owing to their prominent performance. Latent factor models represent users and items as real-valued embedding vectors for pairwise similarity computation, and all embeddings are traditionally restricted to a uniform size that is relatively large (e.g., 256-dimensional). With the exponentially expanding user base and item catalog in contemporary e-commerce, this design is admittedly becoming memory-inefficient. To facilitate lightweight recommendation, reinforcement learning (RL) has recently opened up opportunities for identifying varying embedding sizes for different users/items. However, challenged by search efficiency and learning an optimal RL policy, existing RL-based methods are restricted to highly discrete, predefined embedding size choices. This leads to a largely overlooked potential of introducing finer granularity into embedding sizes to obtain better recommendation effectiveness under a giv
+    
+[^18]: 开源软件开发者的代码推荐
+
+    Code Recommendation for Open Source Software Developers. (arXiv:2210.08332v3 [cs.SE] UPDATED)
+
+    [http://arxiv.org/abs/2210.08332](http://arxiv.org/abs/2210.08332)
+
+    CODER 是一个基于图的代码推荐框架，通过建模微观用户-代码交互和宏观用户-项目交互，预测开发者未来的贡献行为，以缩短开发时间并提高开发效率。
+
+    
+
+    开源软件是技术基础设施的支柱，吸引数百万人才做出贡献。考虑到开发人员的兴趣和项目代码的语义特征，向开源软件开发者推荐适当的开发任务具有挑战性和重要性。在本文中，我们提出了一个新颖的代码推荐问题，其目的是根据开发者的交互历史、源代码的语义特征和项目的分层文件结构来预测开发者未来的贡献行为。考虑到系统中多方之间的复杂交互，我们提出了CODER，这是一个新颖的基于图的开源软件开发者代码推荐框架。CODER通过异构图共同建模微观用户-代码交互和宏观用户-项目交互，并通过在反映文件结构的文件结构图上的聚合进一步连接两个级别的信息。
+
+    Open Source Software (OSS) is forming the spines of technology infrastructures, attracting millions of talents to contribute. Notably, it is challenging and critical to consider both the developers' interests and the semantic features of the project code to recommend appropriate development tasks to OSS developers. In this paper, we formulate the novel problem of code recommendation, whose purpose is to predict the future contribution behaviors of developers given their interaction history, the semantic features of source code, and the hierarchical file structures of projects. Considering the complex interactions among multiple parties within the system, we propose CODER, a novel graph-based code recommendation framework for open source software developers. CODER jointly models microscopic user-code interactions and macroscopic user-project interactions via a heterogeneous graph and further bridges the two levels of information through aggregation on file-structure graphs that reflect 
     
 

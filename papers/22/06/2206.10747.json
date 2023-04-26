@@ -1,0 +1,12 @@
+{
+    "title": "BiometricBlender: Ultra-high dimensional, multi-class synthetic data generator to imitate biometric feature space. (arXiv:2206.10747v2 [cs.LG] UPDATED)",
+    "abstract": "The lack of freely available (real-life or synthetic) high or ultra-high dimensional, multi-class datasets may hamper the rapidly growing research on feature screening, especially in the field of biometrics, where the usage of such datasets is common. This paper reports a Python package called BiometricBlender, which is an ultra-high dimensional, multi-class synthetic data generator to benchmark a wide range of feature screening methods. During the data generation process, the overall usefulness and the intercorrelations of blended features can be controlled by the user, thus the synthetic feature space is able to imitate the key properties of a real biometric dataset.",
+    "link": "http://arxiv.org/abs/2206.10747",
+    "context": "Title: BiometricBlender: Ultra-high dimensional, multi-class synthetic data generator to imitate biometric feature space. (arXiv:2206.10747v2 [cs.LG] UPDATED)\nAbstract: The lack of freely available (real-life or synthetic) high or ultra-high dimensional, multi-class datasets may hamper the rapidly growing research on feature screening, especially in the field of biometrics, where the usage of such datasets is common. This paper reports a Python package called BiometricBlender, which is an ultra-high dimensional, multi-class synthetic data generator to benchmark a wide range of feature screening methods. During the data generation process, the overall usefulness and the intercorrelations of blended features can be controlled by the user, thus the synthetic feature space is able to imitate the key properties of a real biometric dataset.",
+    "path": "papers/22/06/2206.10747.json",
+    "total_tokens": 686,
+    "translated_title": "BiometricBlender：高维度多类合成数据生成工具",
+    "translated_abstract": "缺乏自由可得的高维度多类真实或合成数据集常常限制了特征筛选领域的快速发展，尤其是在生物特征识别领域。本文介绍了一个名为BiometricBlender的Python包，它是一个超高维度多类合成数据生成工具，用于测试各种特征筛选方法。在数据生成过程中，用户可以控制特征混合的总体有用性和互相关系数，因此合成特征空间能够模拟真实生物特征数据集的关键属性。",
+    "tldr": "BiometricBlender是一个高维度多类合成数据生成工具，可以模拟真实生物特征数据集的关键属性，有助于在特征筛选领域进行快速发展。",
+    "en_tdlr": "BiometricBlender is an ultra-high dimensional, multi-class synthetic data generator that can simulate the key properties of a real biometric dataset, facilitating rapid development in the field of feature screening."
+}

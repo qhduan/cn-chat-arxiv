@@ -1,0 +1,11 @@
+{
+    "title": "On Dynamic Program Decompositions of Static Risk Measures. (arXiv:2304.12477v1 [math.OC])",
+    "abstract": "Optimizing static risk-averse objectives in Markov decision processes is challenging because they do not readily admit dynamic programming decompositions. Prior work has proposed to use a dynamic decomposition of risk measures that help to formulate dynamic programs on an augmented state space. This paper shows that several existing decompositions are inherently inexact, contradicting several claims in the literature. In particular, we give examples that show that popular decompositions for CVaR and EVaR risk measures are strict overestimates of the true risk values. However, an exact decomposition is possible for VaR, and we give a simple proof that illustrates the fundamental difference between VaR and CVaR dynamic programming properties.",
+    "link": "http://arxiv.org/abs/2304.12477",
+    "context": "Title: On Dynamic Program Decompositions of Static Risk Measures. (arXiv:2304.12477v1 [math.OC])\nAbstract: Optimizing static risk-averse objectives in Markov decision processes is challenging because they do not readily admit dynamic programming decompositions. Prior work has proposed to use a dynamic decomposition of risk measures that help to formulate dynamic programs on an augmented state space. This paper shows that several existing decompositions are inherently inexact, contradicting several claims in the literature. In particular, we give examples that show that popular decompositions for CVaR and EVaR risk measures are strict overestimates of the true risk values. However, an exact decomposition is possible for VaR, and we give a simple proof that illustrates the fundamental difference between VaR and CVaR dynamic programming properties.",
+    "path": "papers/23/04/2304.12477.json",
+    "total_tokens": 751,
+    "translated_title": "关于静态风险度量的动态规划分解",
+    "translated_abstract": "在马尔科夫决策过程中优化静态风险规避目标具有一定挑战性，因为它们不容易接受动态规划分解。先前的研究建议使用风险度量的动态分解来制定扩展状态空间上的动态规划。本文表明几种现有的分解本质上是不精确的，这与文献中的几个声明相矛盾。特别地，我们举出了一些例子，证明了CVaR和EVaR风险度量的流行分解是真实风险值的严格高估计。然而，VaR确实存在精确的分解，我们提供一个简单的证明，阐明了VaR和CVaR动态规划属性之间的基本差异。",
+    "tldr": "本文证明了现有的CVaR和EVaR风险度量动态分解是真实风险值的严格高估计，然而VaR存在精确的动态分解。"
+}

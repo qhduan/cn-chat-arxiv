@@ -1,0 +1,12 @@
+{
+    "title": "Overview of the TREC 2022 NeuCLIR Track. (arXiv:2304.12367v1 [cs.IR])",
+    "abstract": "This is the first year of the TREC Neural CLIR (NeuCLIR) track, which aims to study the impact of neural approaches to cross-language information retrieval. The main task in this year's track was ad hoc ranked retrieval of Chinese, Persian, or Russian newswire documents using queries expressed in English. Topics were developed using standard TREC processes, except that topics developed by an annotator for one language were assessed by a different annotator when evaluating that topic on a different language. There were 172 total runs submitted by twelve teams.",
+    "link": "http://arxiv.org/abs/2304.12367",
+    "context": "Title: Overview of the TREC 2022 NeuCLIR Track. (arXiv:2304.12367v1 [cs.IR])\nAbstract: This is the first year of the TREC Neural CLIR (NeuCLIR) track, which aims to study the impact of neural approaches to cross-language information retrieval. The main task in this year's track was ad hoc ranked retrieval of Chinese, Persian, or Russian newswire documents using queries expressed in English. Topics were developed using standard TREC processes, except that topics developed by an annotator for one language were assessed by a different annotator when evaluating that topic on a different language. There were 172 total runs submitted by twelve teams.",
+    "path": "papers/23/04/2304.12367.json",
+    "total_tokens": 690,
+    "translated_title": "TREC 2022 NeuCLIR轨道综述",
+    "translated_abstract": "这是TREC神经CLIR（NeuCLIR）轨道的第一年，旨在研究神经方法对跨语言信息检索的影响。今年轨道的主要任务是使用用英语表达的查询，对中文、波斯语或俄语新闻文档进行ad hoc排名检索。话题是使用标准的TREC流程开发的，除了在评估该话题的不同语言上评估一个注释器开发的话题时，由另一个注释器开发的话题。共有12个团队提交了172次运行。",
+    "tldr": "TREC NeuCLIR轨道的第一年，研究神经方法对跨语言信息检索的影响，通过英语查询来ad hoc排名检索中文、波斯语或俄语新闻文档，共有12个团队提交了172次运行。",
+    "en_tdlr": "The TREC NeuCLIR track aims to study the impact of neural approaches to cross-language information retrieval, operating for the first year with 172 total runs submitted by twelve teams for ad hoc ranked retrieval of Chinese, Persian, or Russian newswire documents using queries expressed in English."
+}

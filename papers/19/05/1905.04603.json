@@ -1,0 +1,12 @@
+{
+    "title": "A New Stock Market Valuation Measure with Applications to Equity-Linked Annuities. (arXiv:1905.04603v13 [q-fin.ST] UPDATED)",
+    "abstract": "We generalize the classic Shiller cyclically adjusted price-earnings ratio (CAPE) used for prediction of future total returns of the stock market. We treat earnings growth as exogenous. The difference between log wealth and log earnings is modeled as an autoregression of order 1 with linear trend 4.5% and Gaussian innovations. Detrending gives us a new valuation measure. This autoregression is significantly different from the random walk. Therefore, our results disprove the Efficient Market Hypothesis. Therefore, long-run total returns equal long-run earnings growth plus 4.5%. We apply results to retirement planning.",
+    "link": "http://arxiv.org/abs/1905.04603",
+    "context": "Title: A New Stock Market Valuation Measure with Applications to Equity-Linked Annuities. (arXiv:1905.04603v13 [q-fin.ST] UPDATED)\nAbstract: We generalize the classic Shiller cyclically adjusted price-earnings ratio (CAPE) used for prediction of future total returns of the stock market. We treat earnings growth as exogenous. The difference between log wealth and log earnings is modeled as an autoregression of order 1 with linear trend 4.5% and Gaussian innovations. Detrending gives us a new valuation measure. This autoregression is significantly different from the random walk. Therefore, our results disprove the Efficient Market Hypothesis. Therefore, long-run total returns equal long-run earnings growth plus 4.5%. We apply results to retirement planning.",
+    "path": "papers/19/05/1905.04603.json",
+    "total_tokens": 760,
+    "translated_title": "一种新的股票市场估值方法及其在股票相关养老金中的应用",
+    "translated_abstract": "本文对用于预测股票市场未来总回报的经典席勒循环调整市盈率（CAPE）进行了概括和推广。在本文中，收益增长被视为外生变量。通过将对数财富与对数收益之间的差建模为具有线性趋势4.5％和高斯创新的一阶自回归，我们得到了一种新的估值方法。这个自回归与随机漫步有很大的区别。因此，我们的结果否定了有效市场假说。长期总回报等于长期收益增长加上4.5％。我们将这些结果应用于退休计划中。",
+    "tldr": "本文提出了一种新的股票市场估值方法，采用对数财富与对数收益之间的一阶自回归，可以用于预测股票市场的未来总回报，结果否定了有效市场假说。",
+    "en_tdlr": "This paper proposes a new stock market valuation method by using a first-order autoregression between logarithmic wealth and logarithmic earnings, which can be used to predict the future total returns of the stock market, and the results disprove the Efficient Market Hypothesis."
+}

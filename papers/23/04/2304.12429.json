@@ -1,0 +1,12 @@
+{
+    "title": "Sparse Private LASSO Logistic Regression. (arXiv:2304.12429v1 [cs.LG])",
+    "abstract": "LASSO regularized logistic regression is particularly useful for its built-in feature selection, allowing coefficients to be removed from deployment and producing sparse solutions. Differentially private versions of LASSO logistic regression have been developed, but generally produce dense solutions, reducing the intrinsic utility of the LASSO penalty. In this paper, we present a differentially private method for sparse logistic regression that maintains hard zeros. Our key insight is to first train a non-private LASSO logistic regression model to determine an appropriate privatized number of non-zero coefficients to use in final model selection. To demonstrate our method's performance, we run experiments on synthetic and real-world datasets.",
+    "link": "http://arxiv.org/abs/2304.12429",
+    "context": "Title: Sparse Private LASSO Logistic Regression. (arXiv:2304.12429v1 [cs.LG])\nAbstract: LASSO regularized logistic regression is particularly useful for its built-in feature selection, allowing coefficients to be removed from deployment and producing sparse solutions. Differentially private versions of LASSO logistic regression have been developed, but generally produce dense solutions, reducing the intrinsic utility of the LASSO penalty. In this paper, we present a differentially private method for sparse logistic regression that maintains hard zeros. Our key insight is to first train a non-private LASSO logistic regression model to determine an appropriate privatized number of non-zero coefficients to use in final model selection. To demonstrate our method's performance, we run experiments on synthetic and real-world datasets.",
+    "path": "papers/23/04/2304.12429.json",
+    "total_tokens": 763,
+    "translated_title": "稀疏私有LASSO逻辑回归",
+    "translated_abstract": "LASSO正则化的逻辑回归因其内置特征选择功能而非常有用，允许从部署中删除系数并产生稀疏解。虽然已经开发了LASSO逻辑回归的差分隐私版本，但通常会产生密集解，从而降低了LASSO惩罚的内在实用性。在本文中，我们提出了一种用于稀疏逻辑回归的差分隐私方法，该方法保持硬零。我们的关键见解是首先训练一个非私有的LASSO逻辑回归模型来确定在最终模型选择中使用的恰当私有化非零系数的数量。为了证明我们方法的性能，我们对合成和真实数据集进行了实验。",
+    "tldr": "本文提出了一种稀疏逻辑回归的差分隐私方法，保持硬零，通过训练一个非私有的LASSO逻辑回归模型决定最后的模型选择中恰当的私有化非零系数的数量。",
+    "en_tdlr": "This paper proposes a differentially private method for sparse logistic regression that maintains hard zeros by first training a non-private LASSO logistic regression model to determine an appropriate privatized number of non-zero coefficients to use in final model selection."
+}

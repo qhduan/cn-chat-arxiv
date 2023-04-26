@@ -1,0 +1,12 @@
+{
+    "title": "Understanding and Predicting Human Label Variation in Natural Language Inference through Explanation. (arXiv:2304.12443v1 [cs.CL])",
+    "abstract": "Human label variation (Plank 2022), or annotation disagreement, exists in many natural language processing (NLP) tasks. To be robust and trusted, NLP models need to identify such variation and be able to explain it. To this end, we created the first ecologically valid explanation dataset with diverse reasoning, LiveNLI. LiveNLI contains annotators' highlights and free-text explanations for the label(s) of their choice for 122 English Natural Language Inference items, each with at least 10 annotations. We used its explanations for chain-of-thought prompting, and found there is still room for improvement in GPT-3's ability to predict label distribution with in-context learning.",
+    "link": "http://arxiv.org/abs/2304.12443",
+    "context": "Title: Understanding and Predicting Human Label Variation in Natural Language Inference through Explanation. (arXiv:2304.12443v1 [cs.CL])\nAbstract: Human label variation (Plank 2022), or annotation disagreement, exists in many natural language processing (NLP) tasks. To be robust and trusted, NLP models need to identify such variation and be able to explain it. To this end, we created the first ecologically valid explanation dataset with diverse reasoning, LiveNLI. LiveNLI contains annotators' highlights and free-text explanations for the label(s) of their choice for 122 English Natural Language Inference items, each with at least 10 annotations. We used its explanations for chain-of-thought prompting, and found there is still room for improvement in GPT-3's ability to predict label distribution with in-context learning.",
+    "path": "papers/23/04/2304.12443.json",
+    "total_tokens": 756,
+    "translated_title": "通过解释理解和预测自然语言推理中人工标注的变异",
+    "translated_abstract": "许多自然语言处理任务中存在人工标注的差异或注释不一致现象。为了使自然语言处理模型更加鲁棒且可信，需要识别这种差异并能够进行解释。为此，我们创建了第一个生态有效的解释数据集（LiveNLI），其中包括122个英文自然语言推理项目的注释和自由文本解释，每个项目至少有10个注释。我们使用该数据集的解释进行思维链提示，并发现仍有改进GPT-3的能力来预测在上下文中学习后的标签分布的空间。",
+    "tldr": "这篇论文介绍了一个包含注释标记和自由文本解释的自然语言推理解释数据集，称为LiveNLI，通过该数据集可以帮助自然语言处理模型识别人工标注的差异，同时还发现了GPT-3在标签预测方面仍有改进的空间。",
+    "en_tdlr": "This paper introduces a natural language inference explanation dataset called LiveNLI, which includes annotation labels and free-text explanations, to help NLP models identify human label variation. The study also finds room for improvement in GPT-3's ability to predict labels in context."
+}

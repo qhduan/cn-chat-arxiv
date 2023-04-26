@@ -1,0 +1,12 @@
+{
+    "title": "Abstractive Meeting Summarization: A Survey. (arXiv:2208.04163v2 [cs.CL] UPDATED)",
+    "abstract": "A system that could reliably identify and sum up the most important points of a conversation would be valuable in a wide variety of real-world contexts, from business meetings to medical consultations to customer service calls. Recent advances in deep learning, and especially the invention of encoder-decoder architectures, has significantly improved language generation systems, opening the door to improved forms of abstractive summarization, a form of summarization particularly well-suited for multi-party conversation. In this paper, we provide an overview of the challenges raised by the task of abstractive meeting summarization and of the data sets, models and evaluation metrics that have been used to tackle the problems.",
+    "link": "http://arxiv.org/abs/2208.04163",
+    "context": "Title: Abstractive Meeting Summarization: A Survey. (arXiv:2208.04163v2 [cs.CL] UPDATED)\nAbstract: A system that could reliably identify and sum up the most important points of a conversation would be valuable in a wide variety of real-world contexts, from business meetings to medical consultations to customer service calls. Recent advances in deep learning, and especially the invention of encoder-decoder architectures, has significantly improved language generation systems, opening the door to improved forms of abstractive summarization, a form of summarization particularly well-suited for multi-party conversation. In this paper, we provide an overview of the challenges raised by the task of abstractive meeting summarization and of the data sets, models and evaluation metrics that have been used to tackle the problems.",
+    "path": "papers/22/08/2208.04163.json",
+    "total_tokens": 704,
+    "translated_title": "抽象会议摘要：一项调查",
+    "translated_abstract": "一种可靠地识别和总结谈话中最重要的要点的系统将在广泛的现实世界背景下具有价值，从商业会议到医疗咨询到客户服务呼叫。最近深度学习方面的进展，特别是编码器-解码器架构的发明，显著改善了语言生成系统，为提高抽象概括的形式开了一扇门，这种形式的概括尤其适合多方谈话。本文提供了抽象会议摘要任务所引起的挑战的概述，以及用于解决这些问题的数据集、模型和评估指标。",
+    "tldr": "本文提供了对抽象会议摘要的调查，介绍了数据集、模型和评估指标，并表明这种摘要形式在多方谈话中尤其有用。",
+    "en_tdlr": "This paper provides a survey on abstractive meeting summarization, introducing datasets, models, and evaluation metrics, and highlighting the usefulness of this summarization form for multi-party conversations."
+}

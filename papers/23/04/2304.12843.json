@@ -1,0 +1,12 @@
+{
+    "title": "The structure of strategy-proof rules. (arXiv:2304.12843v1 [econ.TH])",
+    "abstract": "We establish that all strategy-proof social choice rules in strict preference domains follow necessarily a two-step procedure. In the first step, agents are asked to reveal some specific information about their preferences. Afterwards, a subrule that is dictatorial or strategy-proof of range 2 must be applied, and the selected subrule may differ depending on the answers of the first step. As a consequence, the strategy-proof rules that have been identified in the literature for some domains can be reinterpreted in terms of our procedure and, more importantly, this procedure serves as a guide for determining the structure of the strategy-proof rules in domains that have not been explored yet.",
+    "link": "http://arxiv.org/abs/2304.12843",
+    "context": "Title: The structure of strategy-proof rules. (arXiv:2304.12843v1 [econ.TH])\nAbstract: We establish that all strategy-proof social choice rules in strict preference domains follow necessarily a two-step procedure. In the first step, agents are asked to reveal some specific information about their preferences. Afterwards, a subrule that is dictatorial or strategy-proof of range 2 must be applied, and the selected subrule may differ depending on the answers of the first step. As a consequence, the strategy-proof rules that have been identified in the literature for some domains can be reinterpreted in terms of our procedure and, more importantly, this procedure serves as a guide for determining the structure of the strategy-proof rules in domains that have not been explored yet.",
+    "path": "papers/23/04/2304.12843.json",
+    "total_tokens": 731,
+    "translated_title": "策略无效规则的结构",
+    "translated_abstract": "我们发现在严格优先领域中，所有的策略无效社会选择规则都必须遵循一个两步的过程。在第一步中，要求代理披露有关其偏好的特定信息。然后，必须应用一个是独裁的或可行动的范围2的子规则。所选的子规则可能因第一步的答案而不同。因此，已经确定在某些领域中的策略无效规则可以在我们的过程方面重新解释，更重要的是，该过程可用于确定尚未探索的领域中策略无效规则的结构。",
+    "tldr": "策略无效社会选择规则在严格优先领域中都必须遵循一个两步的过程，该过程包括代理披露信息和应用特定子规则，该过程可用于确定尚未探索的领域中的策略无效规则的结构。",
+    "en_tdlr": "All strategy-proof social choice rules in strict preference domains follow necessarily a two-step procedure, including agents revealing information and applying specific subrules, which serves as a guide for determining the structure of the strategy-proof rules in unexplored domains."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "A New Inexact Proximal Linear Algorithm with Adaptive Stopping Criteria for Robust Phase Retrieval. (arXiv:2304.12522v1 [math.OC])",
+    "abstract": "This paper considers the robust phase retrieval problem, which can be cast as a nonsmooth and nonconvex optimization problem. We propose a new inexact proximal linear algorithm with the subproblem being solved inexactly. Our contributions are two adaptive stopping criteria for the subproblem. The convergence behavior of the proposed methods is analyzed. Through experiments on both synthetic and real datasets, we demonstrate that our methods are much more efficient than existing methods, such as the original proximal linear algorithm and the subgradient method.",
+    "link": "http://arxiv.org/abs/2304.12522",
+    "context": "Title: A New Inexact Proximal Linear Algorithm with Adaptive Stopping Criteria for Robust Phase Retrieval. (arXiv:2304.12522v1 [math.OC])\nAbstract: This paper considers the robust phase retrieval problem, which can be cast as a nonsmooth and nonconvex optimization problem. We propose a new inexact proximal linear algorithm with the subproblem being solved inexactly. Our contributions are two adaptive stopping criteria for the subproblem. The convergence behavior of the proposed methods is analyzed. Through experiments on both synthetic and real datasets, we demonstrate that our methods are much more efficient than existing methods, such as the original proximal linear algorithm and the subgradient method.",
+    "path": "papers/23/04/2304.12522.json",
+    "total_tokens": 668,
+    "translated_title": "一种新的具有自适应停止准则的非精确近端线性算法，用于鲁棒相位恢复问题。",
+    "translated_abstract": "本文考虑了鲁棒相位恢复问题，该问题可视为一个非光滑和非凸优化问题。我们提出了一种新的非精确近端线性算法，其中子问题被不精确求解。我们的贡献是为子问题提出了两种自适应停止准则。我们分析了所提出方法的收敛性能。通过对合成和实际数据集的实验，我们证明了我们的方法比现有方法更高效，例如原始近端线性算法和次梯度方法。",
+    "tldr": "本文提出了一种新的鲁棒相位恢复算法，通过使用自适应停止准则的非精确近端线性算法，该方法在实验中证明比现有方法更高效。",
+    "en_tdlr": "This paper proposes a new robust phase retrieval algorithm, which is more efficient than existing methods by using an inexact proximal linear algorithm with adaptive stopping criteria for the subproblem."
+}

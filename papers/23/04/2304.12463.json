@@ -1,0 +1,12 @@
+{
+    "title": "A Study on Improving Realism of Synthetic Data for Machine Learning. (arXiv:2304.12463v1 [cs.CV])",
+    "abstract": "Synthetic-to-real data translation using generative adversarial learning has achieved significant success to improve synthetic data. Yet, there are limited studies focusing on deep evaluation and comparison of adversarial training on general-purpose synthetic data for machine learning. This work aims to train and evaluate a synthetic-to-real generative model that transforms the synthetic renderings into more realistic styles on general-purpose datasets conditioned with unlabeled real-world data. Extensive performance evaluation and comparison have been conducted through qualitative and quantitative metrics, and a defined downstream perception task.",
+    "link": "http://arxiv.org/abs/2304.12463",
+    "context": "Title: A Study on Improving Realism of Synthetic Data for Machine Learning. (arXiv:2304.12463v1 [cs.CV])\nAbstract: Synthetic-to-real data translation using generative adversarial learning has achieved significant success to improve synthetic data. Yet, there are limited studies focusing on deep evaluation and comparison of adversarial training on general-purpose synthetic data for machine learning. This work aims to train and evaluate a synthetic-to-real generative model that transforms the synthetic renderings into more realistic styles on general-purpose datasets conditioned with unlabeled real-world data. Extensive performance evaluation and comparison have been conducted through qualitative and quantitative metrics, and a defined downstream perception task.",
+    "path": "papers/23/04/2304.12463.json",
+    "total_tokens": 707,
+    "translated_title": "提高机器学习合成数据的真实性研究",
+    "translated_abstract": "利用生成对抗性学习的合成到真实数据转换已经取得了重大的成功，以改进合成数据。然而，目前仍有限的研究专注于深度评估和比较通用机器学习用途的对抗性训练的合成数据。本文旨在训练和评估将合成渲染转化为更真实风格的合成到真实生成模型，并利用未标记的真实世界数据进行普通目的数据集的条件操作，通过定量和定性的评估指标以及定义下游的感知任务进行广泛的性能评估和比较。",
+    "tldr": "本文研究并评估了一个合成到真实的生成模型，将合成渲染转换为更真实的风格以适用于通用数据集，并通过下游感知任务来量化和定性地评估其性能。",
+    "en_tdlr": "This paper studies and evaluates a synthetic-to-real generative model for improving the realism of synthetic data, which transforms synthetic renderings into more realistic styles on general-purpose datasets conditioned with unlabeled real-world data, and extensively evaluates and compares its performance through qualitative and quantitative metrics as well as a defined downstream perception task."
+}

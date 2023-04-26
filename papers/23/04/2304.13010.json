@@ -1,0 +1,12 @@
+{
+    "title": "Unstructured and structured data: Can we have the best of both worlds with large language models?. (arXiv:2304.13010v1 [cs.DB])",
+    "abstract": "This paper presents an opinion on the potential of using large language models to query on both unstructured and structured data. It also outlines some research challenges related to the topic of building question-answering systems for both types of data.",
+    "link": "http://arxiv.org/abs/2304.13010",
+    "context": "Title: Unstructured and structured data: Can we have the best of both worlds with large language models?. (arXiv:2304.13010v1 [cs.DB])\nAbstract: This paper presents an opinion on the potential of using large language models to query on both unstructured and structured data. It also outlines some research challenges related to the topic of building question-answering systems for both types of data.",
+    "path": "papers/23/04/2304.13010.json",
+    "total_tokens": 466,
+    "translated_title": "无结构数据和结构化数据：我们能否使用大型语言模型获得最佳结果？",
+    "translated_abstract": "本文讨论了使用大型语言模型查询无结构数据和结构化数据的潜力，并概述了构建适用于两种数据类型的问答系统所涉及的一些研究挑战。",
+    "tldr": "本文探讨使用大型语言模型查询无结构数据和结构化数据的潜力及挑战。",
+    "en_tdlr": "This paper explores the potential and challenges of using large language models to query both unstructured and structured data."
+}

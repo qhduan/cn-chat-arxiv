@@ -1,0 +1,12 @@
+{
+    "title": "THUIR at WSDM Cup 2023 Task 1: Unbiased Learning to Rank. (arXiv:2304.12650v1 [cs.IR])",
+    "abstract": "This paper introduces the approaches we have used to participate in the WSDM Cup 2023 Task 1: Unbiased Learning to Rank. In brief, we have attempted a combination of both traditional IR models and transformer-based cross-encoder architectures. To further enhance the ranking performance, we also considered a series of features for learning to rank. As a result, we won 2nd place on the final leaderboard.",
+    "link": "http://arxiv.org/abs/2304.12650",
+    "context": "Title: THUIR at WSDM Cup 2023 Task 1: Unbiased Learning to Rank. (arXiv:2304.12650v1 [cs.IR])\nAbstract: This paper introduces the approaches we have used to participate in the WSDM Cup 2023 Task 1: Unbiased Learning to Rank. In brief, we have attempted a combination of both traditional IR models and transformer-based cross-encoder architectures. To further enhance the ranking performance, we also considered a series of features for learning to rank. As a result, we won 2nd place on the final leaderboard.",
+    "path": "papers/23/04/2304.12650.json",
+    "total_tokens": 614,
+    "translated_title": "THUIR在WSDM Cup 2023任务1中的表现：无偏学习排序的尝试",
+    "translated_abstract": "本文介绍了我们在WSDM Cup 2023任务1：“无偏学习排序”中所用的方法。我们尝试使用传统信息检索模型和基于Transformer的交叉编码器架构相结合的方法。为了进一步提高排序性能，我们还考虑了一系列的排序学习特征。结果表明，我们在最终排行榜上获得第二名。",
+    "tldr": "THUIR在WSDM Cup 2023“无偏学习排序”任务中获得第二名，使用了传统IR模型和Transformer-based cross-encoder architecture的组合，以及一系列特征来提高排序性能。",
+    "en_tdlr": "THUIR achieved 2nd place in the WSDM Cup 2023 Task 1: Unbiased Learning to Rank by combining traditional IR models and transformer-based cross-encoder architectures, and including a series of features to improve the ranking performance."
+}

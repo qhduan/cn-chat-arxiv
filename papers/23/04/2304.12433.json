@@ -1,0 +1,12 @@
+{
+    "title": "Long memory, fractional integration and cointegration analysis of real convergence in Spain. (arXiv:2304.12433v1 [econ.GN])",
+    "abstract": "This paper investigates economic convergence in terms of real income per capita among the autonomous regions of Spain. In order to converge, the series should cointegrate. This necessary condition is checked using two testing strategies recently proposed for fractional cointegration, finding no evidence of cointegration, which rules out the possibility of convergence between all or some of the Spanish regions. As an additional contribution, an extension of the critical values of one of the tests of fractional cointegration is provided for a different number of variables and sample sizes from those originally provided by the author, fitting those considered in this paper.",
+    "link": "http://arxiv.org/abs/2304.12433",
+    "context": "Title: Long memory, fractional integration and cointegration analysis of real convergence in Spain. (arXiv:2304.12433v1 [econ.GN])\nAbstract: This paper investigates economic convergence in terms of real income per capita among the autonomous regions of Spain. In order to converge, the series should cointegrate. This necessary condition is checked using two testing strategies recently proposed for fractional cointegration, finding no evidence of cointegration, which rules out the possibility of convergence between all or some of the Spanish regions. As an additional contribution, an extension of the critical values of one of the tests of fractional cointegration is provided for a different number of variables and sample sizes from those originally provided by the author, fitting those considered in this paper.",
+    "path": "papers/23/04/2304.12433.json",
+    "total_tokens": 735,
+    "translated_title": "西班牙实际收入趋同的长记忆、分数阶积分和协整分析",
+    "translated_abstract": "本文研究了西班牙自治区人均实际收入方面的经济趋同。为了实现趋同，这些系列应该是协整的。本文使用最近提出的两种分数阶协整检验策略来检查这个必要条件，发现没有协整的证据，这排除了所有或一些西班牙地区之间趋同的可能性。作为额外的贡献，对于一个不同的变量数量和样本大小，本文提供了一个分数阶协整检验的一个测试的临界值扩展，这个测试最初的值由作者提供，适合本文考虑的值。",
+    "tldr": "本文研究了西班牙自治区实际收入方面的趋同，使用分数阶协整检验发现没有协整的证据，从而排除了所有或一些西班牙地区之间趋同的可能性。",
+    "en_tdlr": "This paper investigates the convergence of real income per capita among the autonomous regions of Spain using fractional cointegration tests, finding no evidence of cointegration, which rules out the possibility of convergence between all or some of the Spanish regions."
+}

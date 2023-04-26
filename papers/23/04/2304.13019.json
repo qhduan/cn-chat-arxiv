@@ -1,0 +1,12 @@
+{
+    "title": "Certifying Ensembles: A General Certification Theory with S-Lipschitzness. (arXiv:2304.13019v1 [cs.LG])",
+    "abstract": "Improving and guaranteeing the robustness of deep learning models has been a topic of intense research. Ensembling, which combines several classifiers to provide a better model, has shown to be beneficial for generalisation, uncertainty estimation, calibration, and mitigating the effects of concept drift. However, the impact of ensembling on certified robustness is less well understood. In this work, we generalise Lipschitz continuity by introducing S-Lipschitz classifiers, which we use to analyse the theoretical robustness of ensembles. Our results are precise conditions when ensembles of robust classifiers are more robust than any constituent classifier, as well as conditions when they are less robust.",
+    "link": "http://arxiv.org/abs/2304.13019",
+    "context": "Title: Certifying Ensembles: A General Certification Theory with S-Lipschitzness. (arXiv:2304.13019v1 [cs.LG])\nAbstract: Improving and guaranteeing the robustness of deep learning models has been a topic of intense research. Ensembling, which combines several classifiers to provide a better model, has shown to be beneficial for generalisation, uncertainty estimation, calibration, and mitigating the effects of concept drift. However, the impact of ensembling on certified robustness is less well understood. In this work, we generalise Lipschitz continuity by introducing S-Lipschitz classifiers, which we use to analyse the theoretical robustness of ensembles. Our results are precise conditions when ensembles of robust classifiers are more robust than any constituent classifier, as well as conditions when they are less robust.",
+    "path": "papers/23/04/2304.13019.json",
+    "total_tokens": 764,
+    "translated_title": "认证集成：一种具有S-Lipschitz特性的通用认证理论",
+    "translated_abstract": "提高和保证深度学习模型的鲁棒性一直是一个研究的热点。集成是将几个分类器组合以提供更好模型的方法。它已经证明对泛化、不确定性评估、校准以及缓解概念漂移的影响是有益的。然而，对认证鲁棒性的集成影响认识不足。在这项工作中，我们通过引入S-Lipschitz分类器来推广Lipschitz连续性，用于分析集成理论鲁棒性。我们的结果是精确条件，在这些条件下，鲁棒分类器的集成比任何组成部分分类器更可靠，同时在什么条件下它们不是鲁棒的。",
+    "tldr": "本文研究了深度学习模型集成的认证鲁棒性问题，提出了S-Lipschitz分类器概念并给出了集成理论鲁棒性的准确条件。",
+    "en_tdlr": "This paper studies the certified robustness of ensembles in deep learning models, introduces the concept of S-Lipschitz classifiers, and provides precise conditions for when ensembles of robust classifiers are more or less robust than any constituent classifier."
+}

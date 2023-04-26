@@ -1,0 +1,12 @@
+{
+    "title": "Inference in Difference-in-Differences with Few Treated Units and Spatial Correlation. (arXiv:2006.16997v7 [econ.EM] UPDATED)",
+    "abstract": "We consider the problem of inference in Difference-in-Differences (DID) when there are few treated units and errors are spatially correlated. We first show that, when there is a single treated unit, some existing inference methods designed for settings with few treated and many control units remain asymptotically valid when errors are weakly dependent. However, these methods may be invalid with more than one treated unit. We propose alternatives that are asymptotically valid in this setting, even when the relevant distance metric across units is unavailable.",
+    "link": "http://arxiv.org/abs/2006.16997",
+    "context": "Title: Inference in Difference-in-Differences with Few Treated Units and Spatial Correlation. (arXiv:2006.16997v7 [econ.EM] UPDATED)\nAbstract: We consider the problem of inference in Difference-in-Differences (DID) when there are few treated units and errors are spatially correlated. We first show that, when there is a single treated unit, some existing inference methods designed for settings with few treated and many control units remain asymptotically valid when errors are weakly dependent. However, these methods may be invalid with more than one treated unit. We propose alternatives that are asymptotically valid in this setting, even when the relevant distance metric across units is unavailable.",
+    "path": "papers/20/06/2006.16997.json",
+    "total_tokens": 661,
+    "translated_title": "少量处理单元和空间相关性下差分中的推理问题",
+    "translated_abstract": "我们考虑在处理单元较少且误差在空间上相关的情况下进行差分中的推理问题。我们首先表明，在只有一个处理单元时，一些现有的为处理单元较少但有许多控制单元的设置设计的推理方法在误差较弱时仍然是渐近有效的。然而，当处理单元超过一个时，这些方法可能无效。我们提出了替代方案，在这种情况下即使跨单元的相关距离度量不可用，也可以渐近有效。",
+    "tldr": "在处理单元较少且误差在空间上相关的情况下，差分中的推理问题存在一些挑战，我们提出了相应的替代方案来解决这些挑战。",
+    "en_tdlr": "Inference in Difference-in-Differences (DID) poses challenges when there are few treated units and spatially correlated errors. We propose alternative methods to address these challenges even when the distance metric across units is unavailable."
+}

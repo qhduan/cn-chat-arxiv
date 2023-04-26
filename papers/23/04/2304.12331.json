@@ -1,0 +1,12 @@
+{
+    "title": "USTEP: Structuration des logs en flux gr{\\^a}ce {\\`a} un arbre de recherche {\\'e}volutif. (arXiv:2304.12331v1 [cs.CL])",
+    "abstract": "Logs record valuable system information at runtime. They are widely used by data-driven approaches for development and monitoring purposes. Parsing log messages to structure their format is a classic preliminary step for log-mining tasks. As they appear upstream, parsing operations can become a processing time bottleneck for downstream applications. The quality of parsing also has a direct influence on their efficiency. Here, we propose USTEP, an online log parsing method based on an evolving tree structure. Evaluation results on a wide panel of datasets coming from different real-world systems demonstrate USTEP superiority in terms of both effectiveness and robustness when compared to other online methods.",
+    "link": "http://arxiv.org/abs/2304.12331",
+    "context": "Title: USTEP: Structuration des logs en flux gr{\\^a}ce {\\`a} un arbre de recherche {\\'e}volutif. (arXiv:2304.12331v1 [cs.CL])\nAbstract: Logs record valuable system information at runtime. They are widely used by data-driven approaches for development and monitoring purposes. Parsing log messages to structure their format is a classic preliminary step for log-mining tasks. As they appear upstream, parsing operations can become a processing time bottleneck for downstream applications. The quality of parsing also has a direct influence on their efficiency. Here, we propose USTEP, an online log parsing method based on an evolving tree structure. Evaluation results on a wide panel of datasets coming from different real-world systems demonstrate USTEP superiority in terms of both effectiveness and robustness when compared to other online methods.",
+    "path": "papers/23/04/2304.12331.json",
+    "total_tokens": 704,
+    "translated_title": "USTEP: 基于演化树结构的在线日志解析方法",
+    "translated_abstract": "运行时日志记录了有价值的系统信息。它们被广泛用于数据驱动的开发和监控目的。解析日志消息以结构化其格式是日志挖掘任务的经典预备步骤。由于它们出现在上游，解析操作可能成为下游应用程序的处理时间瓶颈。解析质量也直接影响其效率。本文提出了一种基于演化树结构的在线日志解析方法USTEP。对来自不同实际系统的广泛数据集的评估结果表明，与其他在线方法相比，USTEP在有效性和鲁棒性方面优越。",
+    "tldr": "本论文提出了一种基于演化树结构的在线日志解析方法USTEP，该方法在有效性和鲁棒性方面优越。",
+    "en_tdlr": "This paper proposes an online log-parsing method called USTEP based on an evolving tree structure, which outperforms other online methods in terms of both effectiveness and robustness according to evaluation results on various real-world datasets."
+}

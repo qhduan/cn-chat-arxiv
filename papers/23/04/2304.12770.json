@@ -1,0 +1,12 @@
+{
+    "title": "Controlling Posterior Collapse by an Inverse Lipschitz Constraint on the Decoder Network. (arXiv:2304.12770v1 [cs.LG])",
+    "abstract": "Variational autoencoders (VAEs) are one of the deep generative models that have experienced enormous success over the past decades. However, in practice, they suffer from a problem called posterior collapse, which occurs when the encoder coincides, or collapses, with the prior taking no information from the latent structure of the input data into consideration. In this work, we introduce an inverse Lipschitz neural network into the decoder and, based on this architecture, provide a new method that can control in a simple and clear manner the degree of posterior collapse for a wide range of VAE models equipped with a concrete theoretical guarantee. We also illustrate the effectiveness of our method through several numerical experiments.",
+    "link": "http://arxiv.org/abs/2304.12770",
+    "context": "Title: Controlling Posterior Collapse by an Inverse Lipschitz Constraint on the Decoder Network. (arXiv:2304.12770v1 [cs.LG])\nAbstract: Variational autoencoders (VAEs) are one of the deep generative models that have experienced enormous success over the past decades. However, in practice, they suffer from a problem called posterior collapse, which occurs when the encoder coincides, or collapses, with the prior taking no information from the latent structure of the input data into consideration. In this work, we introduce an inverse Lipschitz neural network into the decoder and, based on this architecture, provide a new method that can control in a simple and clear manner the degree of posterior collapse for a wide range of VAE models equipped with a concrete theoretical guarantee. We also illustrate the effectiveness of our method through several numerical experiments.",
+    "path": "papers/23/04/2304.12770.json",
+    "total_tokens": 725,
+    "translated_title": "基于反Lipschitz约束的解码器网络控制后验坍塌",
+    "translated_abstract": "变分自编码器（VAE）是深度生成模型中取得巨大成功的一种。然而，在实践中，它们存在一个称为后验坍塌的问题，当编码器与没有考虑输入数据的潜在结构的先验重合或坍塌时就会发生。本文介绍了一种基于反Lipschitz神经网络的解码器，基于这个架构，提供了一种新方法，可以简单明了地控制广泛的VAE模型的后验坍塌程度，并带有具体的理论保证。我们还通过几个数值实验证明了我们方法的有效性。",
+    "tldr": "本文提出了一种基于反Lipschitz约束的解码器网络，可以简单明了地控制广泛的VAE模型的后验坍塌程度，并带有具体的理论保证。",
+    "en_tdlr": "The paper proposes a new method to control the degree of posterior collapse for a wide range of VAE models by introducing an inverse Lipschitz neural network into the decoder, which has a concrete theoretical guarantee and is demonstrated effective through numerical experiments."
+}
