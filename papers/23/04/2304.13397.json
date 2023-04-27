@@ -1,0 +1,12 @@
+{
+    "title": "Filter Pruning via Filters Similarity in Consecutive Layers. (arXiv:2304.13397v1 [cs.CV])",
+    "abstract": "Filter pruning is widely adopted to compress and accelerate the Convolutional Neural Networks (CNNs), but most previous works ignore the relationship between filters and channels in different layers. Processing each layer independently fails to utilize the collaborative relationship across layers. In this paper, we intuitively propose a novel pruning method by explicitly leveraging the Filters Similarity in Consecutive Layers (FSCL). FSCL compresses models by pruning filters whose corresponding features are more worthless in the model. The extensive experiments demonstrate the effectiveness of FSCL, and it yields remarkable improvement over state-of-the-art on accuracy, FLOPs and parameter reduction on several benchmark models and datasets.",
+    "link": "http://arxiv.org/abs/2304.13397",
+    "context": "Title: Filter Pruning via Filters Similarity in Consecutive Layers. (arXiv:2304.13397v1 [cs.CV])\nAbstract: Filter pruning is widely adopted to compress and accelerate the Convolutional Neural Networks (CNNs), but most previous works ignore the relationship between filters and channels in different layers. Processing each layer independently fails to utilize the collaborative relationship across layers. In this paper, we intuitively propose a novel pruning method by explicitly leveraging the Filters Similarity in Consecutive Layers (FSCL). FSCL compresses models by pruning filters whose corresponding features are more worthless in the model. The extensive experiments demonstrate the effectiveness of FSCL, and it yields remarkable improvement over state-of-the-art on accuracy, FLOPs and parameter reduction on several benchmark models and datasets.",
+    "path": "papers/23/04/2304.13397.json",
+    "total_tokens": 778,
+    "translated_title": "通过连续层中的滤波器相似度进行滤波器剪枝",
+    "translated_abstract": "滤波器剪枝是压缩和加速卷积神经网络（CNN）的广泛采用方法，但大多数先前的工作忽略了不同层中滤波器和通道之间的关系。独立处理每层未能利用跨层之间的协作关系。在本文中，我们直观地提出了一种新颖的剪枝方法，通过明确利用连续层中的滤波器相似性（FSCL）来压缩模型。FSCL通过剪枝那些在模型中对应特征更加不重要的滤波器。广泛的实验表明了FSCL的有效性，它在几个基准模型和数据集上在准确性，FLOPs和参数减少方面产生了显着的改进，优于现有技术。",
+    "tldr": "本论文提出通过连续层中的滤波器相似度进行滤波器剪枝的方法（FSCL），并取得了在准确性、模型大小和运算量等方面显着的改进。",
+    "en_tdlr": "This paper proposes a novel pruning method, Filter Pruning via Filters Similarity in Consecutive Layers (FSCL), and achieves remarkable improvement in accuracy, model size, and computational complexity on several benchmark models and datasets."
+}

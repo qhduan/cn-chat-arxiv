@@ -1,0 +1,12 @@
+{
+    "title": "Sequential decomposition of propositional logic programs. (arXiv:2304.13522v1 [cs.LO])",
+    "abstract": "The sequential composition of propositional logic programs has been recently introduced. This paper studies the sequential {\\em decomposition} of programs by studying Green's relations $\\mathcal{L,R,J}$ -- well-known in semigroup theory -- between programs. In a broader sense, this paper is a further step towards an algebraic theory of logic programming.",
+    "link": "http://arxiv.org/abs/2304.13522",
+    "context": "Title: Sequential decomposition of propositional logic programs. (arXiv:2304.13522v1 [cs.LO])\nAbstract: The sequential composition of propositional logic programs has been recently introduced. This paper studies the sequential {\\em decomposition} of programs by studying Green's relations $\\mathcal{L,R,J}$ -- well-known in semigroup theory -- between programs. In a broader sense, this paper is a further step towards an algebraic theory of logic programming.",
+    "path": "papers/23/04/2304.13522.json",
+    "total_tokens": 519,
+    "translated_title": "命题逻辑程序的序列分解研究",
+    "translated_abstract": "最近引入了命题逻辑程序的序列组合。本文通过研究程序之间的 Green 关系 $\\mathcal{L,R,J}$，从而研究程序的序列分解。在更广泛的意义上，本文是逻辑编程代数理论的进一步研究。",
+    "tldr": "研究命题逻辑程序的序列分解，通过分析程序之间的Green关系，为逻辑编程代数理论进一步发展作出了贡献。",
+    "en_tdlr": "This paper studies the sequential decomposition of propositional logic programs by analyzing Green's relations between programs, making a contribution to the further development of the algebraic theory of logic programming."
+}

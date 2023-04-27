@@ -1,0 +1,12 @@
+{
+    "title": "Nominal Topology for Data Languages. (arXiv:2304.13337v1 [cs.CL])",
+    "abstract": "We propose a novel topological perspective on data languages recognizable by orbit-finite nominal monoids. For this purpose, we introduce pro-orbit-finite nominal topological spaces. Assuming globally bounded support sizes, they coincide with nominal Stone spaces and are shown to be dually equivalent to a subcategory of nominal boolean algebras. Recognizable data languages are characterized as topologically clopen sets of pro-orbit-finite words. In addition, we explore the expressive power of pro-orbit-finite equations by establishing a nominal version of Reiterman's pseudovariety theorem.",
+    "link": "http://arxiv.org/abs/2304.13337",
+    "context": "Title: Nominal Topology for Data Languages. (arXiv:2304.13337v1 [cs.CL])\nAbstract: We propose a novel topological perspective on data languages recognizable by orbit-finite nominal monoids. For this purpose, we introduce pro-orbit-finite nominal topological spaces. Assuming globally bounded support sizes, they coincide with nominal Stone spaces and are shown to be dually equivalent to a subcategory of nominal boolean algebras. Recognizable data languages are characterized as topologically clopen sets of pro-orbit-finite words. In addition, we explore the expressive power of pro-orbit-finite equations by establishing a nominal version of Reiterman's pseudovariety theorem.",
+    "path": "papers/23/04/2304.13337.json",
+    "total_tokens": 679,
+    "translated_title": "数据语言的名义拓扑",
+    "translated_abstract": "我们提出了一种新的拓扑视角，用于描述可以被轨道有限的名义单子群识别的数据语言。为此，我们引入了 pro- 轨道有限的名义拓扑空间。在全局有界支持大小的前提下，它们与名义 Stone 空间重合，并且被证明与名义布尔代数的一个子范畴双重等价。可识别的数据语言被表征为 pro-轨道有限单词的拓扑闭开集。此外，我们通过建立 Reiterman 的伪变种定理的名义版本，探讨了 pro-轨道有限方程的表现能力。",
+    "tldr": "该论文提出了一种新的拓扑视角，用于描述可以被轨道有限的名义单子群识别的数据语言，并探讨了 pro-轨道有限方程的表现能力。",
+    "en_tdlr": "This paper proposes a novel topological perspective for describing data languages recognizable by orbit-finite nominal monoids, and explores the expressive power of pro-orbit-finite equations."
+}

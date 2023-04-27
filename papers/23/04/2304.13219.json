@@ -1,0 +1,12 @@
+{
+    "title": "ZRG: A High Resolution 3D Residential Rooftop Geometry Dataset for Machine Learning. (arXiv:2304.13219v1 [cs.CV])",
+    "abstract": "In this paper we present the Zeitview Rooftop Geometry (ZRG) dataset. ZRG contains thousands of samples of high resolution orthomosaics of aerial imagery of residential rooftops with corresponding digital surface models (DSM), 3D rooftop wireframes, and multiview imagery generated point clouds for the purpose of residential rooftop geometry and scene understanding. We perform thorough benchmarks to illustrate the numerous applications unlocked by this dataset and provide baselines for the tasks of roof outline extraction, monocular height estimation, and planar roof structure extraction.",
+    "link": "http://arxiv.org/abs/2304.13219",
+    "context": "Title: ZRG: A High Resolution 3D Residential Rooftop Geometry Dataset for Machine Learning. (arXiv:2304.13219v1 [cs.CV])\nAbstract: In this paper we present the Zeitview Rooftop Geometry (ZRG) dataset. ZRG contains thousands of samples of high resolution orthomosaics of aerial imagery of residential rooftops with corresponding digital surface models (DSM), 3D rooftop wireframes, and multiview imagery generated point clouds for the purpose of residential rooftop geometry and scene understanding. We perform thorough benchmarks to illustrate the numerous applications unlocked by this dataset and provide baselines for the tasks of roof outline extraction, monocular height estimation, and planar roof structure extraction.",
+    "path": "papers/23/04/2304.13219.json",
+    "total_tokens": 783,
+    "translated_title": "ZRG: 一个用于机器学习的高分辨率住宅屋顶三维几何数据集",
+    "translated_abstract": "本文介绍了 Zeitview Rooftop Geometry (ZRG) 数据集，其中包含成千上万个高分辨率住宅屋顶正交图像拼接、对应数字表面模型 (DSM)、3D 屋顶框架和多视图图像生成的点云用于住宅屋顶几何和场景理解。我们进行了详细的基准测试，展示了此数据集解锁的众多应用，并为屋顶轮廓提取、单目高度估计和平面屋顶结构提取等任务提供了基线。",
+    "tldr": "该论文介绍了 ZRG 数据集，其中包含成千上万个样本的高分辨率住宅屋顶正交图像拼接、对应 DSM、3D 屋顶框架和多视图图像生成的点云。该数据集可以用于住宅屋顶结构的几何建模和场景理解，如屋顶轮廓提取、单目高度估计和平面屋顶结构提取等任务。",
+    "en_tdlr": "This paper introduces the ZRG dataset, which contains thousands of high-resolution samples of orthomosaics, DSMs, 3D rooftop wireframes, and point clouds, for the purpose of residential rooftop geometry and scene understanding. The dataset enables various applications such as roof outline extraction, monocular height estimation, and planar roof structure extraction."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Identification of multi-valued treatment effects with unobserved heterogeneity. (arXiv:2010.04385v5 [econ.EM] UPDATED)",
+    "abstract": "In this paper, we establish sufficient conditions for identifying treatment effects on continuous outcomes in endogenous and multi-valued discrete treatment settings with unobserved heterogeneity. We employ the monotonicity assumption for multi-valued discrete treatments and instruments, and our identification condition has a clear economic interpretation. In addition, we identify the local treatment effects in multi-valued treatment settings and derive closed-form expressions of the identified treatment effects. We provide examples to illustrate the usefulness of our result.",
+    "link": "http://arxiv.org/abs/2010.04385",
+    "context": "Title: Identification of multi-valued treatment effects with unobserved heterogeneity. (arXiv:2010.04385v5 [econ.EM] UPDATED)\nAbstract: In this paper, we establish sufficient conditions for identifying treatment effects on continuous outcomes in endogenous and multi-valued discrete treatment settings with unobserved heterogeneity. We employ the monotonicity assumption for multi-valued discrete treatments and instruments, and our identification condition has a clear economic interpretation. In addition, we identify the local treatment effects in multi-valued treatment settings and derive closed-form expressions of the identified treatment effects. We provide examples to illustrate the usefulness of our result.",
+    "path": "papers/20/10/2010.04385.json",
+    "total_tokens": 629,
+    "translated_title": "未观测到异质性的多值处理效果辨识",
+    "translated_abstract": "本文在考虑未观测到异质性的内生和多值离散处理设置中，建立了识别连续结果的处理效果的充分条件。我们采用多值离散处理和工具的单调性假设，我们的标识条件有明确的经济解释。此外，我们确定了多值处理设置下的局部处理效应，并推导出已识别处理效应的闭合形式表达式。我们提供示例以说明我们结果的有用性。",
+    "tldr": "本文研究了未观测到异质性的内生和多值离散处理设置中，识别连续结果的处理效果的充分条件，并确定了多值处理设置下的局部处理效应。",
+    "en_tdlr": "This paper establishes sufficient conditions for identifying treatment effects on continuous outcomes in endogenous and multi-valued discrete treatment settings with unobserved heterogeneity, and identifies local treatment effects in multi-valued treatment settings."
+}

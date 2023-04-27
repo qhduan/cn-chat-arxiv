@@ -1,0 +1,12 @@
+{
+    "title": "Towards clinical AI fairness: A translational perspective. (arXiv:2304.13493v1 [cs.CY])",
+    "abstract": "Artificial intelligence (AI) has demonstrated the ability to extract insights from data, but the issue of fairness remains a concern in high-stakes fields such as healthcare. Despite extensive discussion and efforts in algorithm development, AI fairness and clinical concerns have not been adequately addressed. In this paper, we discuss the misalignment between technical and clinical perspectives of AI fairness, highlight the barriers to AI fairness' translation to healthcare, advocate multidisciplinary collaboration to bridge the knowledge gap, and provide possible solutions to address the clinical concerns pertaining to AI fairness.",
+    "link": "http://arxiv.org/abs/2304.13493",
+    "context": "Title: Towards clinical AI fairness: A translational perspective. (arXiv:2304.13493v1 [cs.CY])\nAbstract: Artificial intelligence (AI) has demonstrated the ability to extract insights from data, but the issue of fairness remains a concern in high-stakes fields such as healthcare. Despite extensive discussion and efforts in algorithm development, AI fairness and clinical concerns have not been adequately addressed. In this paper, we discuss the misalignment between technical and clinical perspectives of AI fairness, highlight the barriers to AI fairness' translation to healthcare, advocate multidisciplinary collaboration to bridge the knowledge gap, and provide possible solutions to address the clinical concerns pertaining to AI fairness.",
+    "path": "papers/23/04/2304.13493.json",
+    "total_tokens": 719,
+    "translated_title": "实现临床AI公平性: 一个翻译的视角",
+    "translated_abstract": "人工智能（AI）已经展示了从数据中提取洞见的能力，但是在诸如医疗保健等高利益领域，公平性仍然是一个问题。尽管在算法开发方面进行了广泛的讨论和努力，但AI公平性和临床问题还没有得到充分解决。在本文中，我们讨论了AI公平性的技术和临床视角之间的不匹配，强调了AI公平性在转化为医疗保健方面所面临的障碍，主张跨学科合作以弥补知识差距，并提供了解决关于AI公平性的临床问题的可能解决方案。",
+    "tldr": "研究讨论了AI在医疗保健领域中公平性问题，指出了技术和临床视角之间的不匹配，并提出了跨学科合作以解决这一问题的可能性。",
+    "en_tdlr": "This paper discusses the issue of fairness in the use of AI in high-stakes fields like healthcare, highlighting the misalignment between technical and clinical perspectives and advocating for interdisciplinary collaboration as a way forward to addressing the problem."
+}

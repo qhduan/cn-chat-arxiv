@@ -1,0 +1,12 @@
+{
+    "title": "Mutual information of spin systems from autoregressive neural networks. (arXiv:2304.13412v1 [cond-mat.stat-mech])",
+    "abstract": "We describe a direct approach to estimate bipartite mutual information of a classical spin system based on Monte Carlo sampling enhanced by autoregressive neural networks. It allows studying arbitrary geometries of subsystems and can be generalized to classical field theories. We demonstrate it on the Ising model for four partitionings, including a multiply-connected even-odd division. We show that the area law is satisfied for temperatures away from the critical temperature: the constant term is universal, whereas the proportionality coefficient is different for the even-odd partitioning.",
+    "link": "http://arxiv.org/abs/2304.13412",
+    "context": "Title: Mutual information of spin systems from autoregressive neural networks. (arXiv:2304.13412v1 [cond-mat.stat-mech])\nAbstract: We describe a direct approach to estimate bipartite mutual information of a classical spin system based on Monte Carlo sampling enhanced by autoregressive neural networks. It allows studying arbitrary geometries of subsystems and can be generalized to classical field theories. We demonstrate it on the Ising model for four partitionings, including a multiply-connected even-odd division. We show that the area law is satisfied for temperatures away from the critical temperature: the constant term is universal, whereas the proportionality coefficient is different for the even-odd partitioning.",
+    "path": "papers/23/04/2304.13412.json",
+    "total_tokens": 739,
+    "translated_title": "基于自回归神经网络的自旋系统互信息的估算",
+    "translated_abstract": "我们描述了一种基于Monte Carlo采样和自回归神经网络的直接方法来估算经典自旋系统的双部分互信息。它允许研究任意子系统的几何形状，并且可推广到经典场理论。我们用Ising模型的四个分区演示了它的效果，包括多重连接的偶奇分割。我们表明，当远离临界温度时，面积规律得到了满足：常数项是通用的，而比例系数对于偶奇分割是不同的。",
+    "tldr": "本论文介绍了一种基于自回归神经网络和Monte Carlo采样的直接方法来估算自旋系统的双部分互信息，可以研究任意子系统的几何形状，并且在Ising模型上演示了此方法的效果。",
+    "en_tdlr": "This paper presents a direct method based on autoregressive neural networks and Monte Carlo sampling to estimate the bipartite mutual information of spin systems, which allows studying arbitrary geometries of subsystems and was demonstrated on the Ising model with four partitionings. The method satisfies the area law away from the critical temperature, with a universal constant term and different proportionality coefficients for even-odd partitioning."
+}

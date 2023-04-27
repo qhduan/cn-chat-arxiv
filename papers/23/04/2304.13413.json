@@ -1,0 +1,12 @@
+{
+    "title": "Secure Communication Model For Quantum Federated Learning: A Post Quantum Cryptography (PQC) Framework. (arXiv:2304.13413v1 [cs.CR])",
+    "abstract": "We design a model of Post Quantum Cryptography (PQC) Quantum Federated Learning (QFL). We develop a framework with a dynamic server selection and study convergence and security conditions. The implementation and results are publicly available1.",
+    "link": "http://arxiv.org/abs/2304.13413",
+    "context": "Title: Secure Communication Model For Quantum Federated Learning: A Post Quantum Cryptography (PQC) Framework. (arXiv:2304.13413v1 [cs.CR])\nAbstract: We design a model of Post Quantum Cryptography (PQC) Quantum Federated Learning (QFL). We develop a framework with a dynamic server selection and study convergence and security conditions. The implementation and results are publicly available1.",
+    "path": "papers/23/04/2304.13413.json",
+    "total_tokens": 477,
+    "translated_title": "量子联邦学习的安全通信模型：一种后量子密码（PQC）框架",
+    "translated_abstract": "我们设计了一种后量子密码（PQC）量子联邦学习（QFL）模型。我们开发了一个具有动态服务器选择的框架，并研究了收敛和安全条件。实现和结果可公开获得。",
+    "tldr": "本论文提出了一种后量子密码的量子联邦学习模型，并研究了其收敛和安全条件。",
+    "en_tdlr": "This paper proposes a PQC-based QFL model and studies its convergence and security conditions."
+}

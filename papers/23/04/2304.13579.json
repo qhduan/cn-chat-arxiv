@@ -1,0 +1,12 @@
+{
+    "title": "Improvements on Recommender System based on Mathematical Principles. (arXiv:2304.13579v1 [cs.IR])",
+    "abstract": "In this article, we will research the Recommender System's implementation about how it works and the algorithms used. We will explain the Recommender System's algorithms based on mathematical principles, and find feasible methods for improvements. The algorithms based on probability have its significance in Recommender System, we will describe how they help to increase the accuracy and speed of the algorithms. Both the weakness and the strength of two different mathematical distance used to describe the similarity will be detailed illustrated in this article.",
+    "link": "http://arxiv.org/abs/2304.13579",
+    "context": "Title: Improvements on Recommender System based on Mathematical Principles. (arXiv:2304.13579v1 [cs.IR])\nAbstract: In this article, we will research the Recommender System's implementation about how it works and the algorithms used. We will explain the Recommender System's algorithms based on mathematical principles, and find feasible methods for improvements. The algorithms based on probability have its significance in Recommender System, we will describe how they help to increase the accuracy and speed of the algorithms. Both the weakness and the strength of two different mathematical distance used to describe the similarity will be detailed illustrated in this article.",
+    "path": "papers/23/04/2304.13579.json",
+    "total_tokens": 615,
+    "translated_title": "基于数学原理的推荐系统改进",
+    "translated_abstract": "本文将研究推荐系统的实现原理和算法。我们将基于数学原理解释推荐算法，并寻找可行的改进方法。概率算法在推荐系统中具有重要意义，我们将描述它们如何帮助提高算法的准确性和速度。本文还将详细阐述两种不同数学距离描述相似度的优缺点。",
+    "tldr": "本文基于数学原理研究推荐系统算法的实现和改进方法，重要的概率算法是提高算法准确性和速度的关键，同时介绍两种不同数学距离的优缺点。",
+    "en_tdlr": "This paper studies the implementation and improvement methods of recommender system algorithms based on mathematical principles, highlighting the significance of probability algorithms in increasing accuracy and speed. The strengths and weaknesses of two different mathematical distance descriptions of similarity are also discussed in detail."
+}

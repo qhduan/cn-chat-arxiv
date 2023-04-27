@@ -1,0 +1,12 @@
+{
+    "title": "FingerFlex: Inferring Finger Trajectories from ECoG signals. (arXiv:2211.01960v2 [q-bio.NC] UPDATED)",
+    "abstract": "Motor brain-computer interface (BCI) development relies critically on neural time series decoding algorithms. Recent advances in deep learning architectures allow for automatic feature selection to approximate higher-order dependencies in data. This article presents the FingerFlex model - a convolutional encoder-decoder architecture adapted for finger movement regression on electrocorticographic (ECoG) brain data. State-of-the-art performance was achieved on a publicly available BCI competition IV dataset 4 with a correlation coefficient between true and predicted trajectories up to 0.74. The presented method provides the opportunity for developing fully-functional high-precision cortical motor brain-computer interfaces.",
+    "link": "http://arxiv.org/abs/2211.01960",
+    "context": "Title: FingerFlex: Inferring Finger Trajectories from ECoG signals. (arXiv:2211.01960v2 [q-bio.NC] UPDATED)\nAbstract: Motor brain-computer interface (BCI) development relies critically on neural time series decoding algorithms. Recent advances in deep learning architectures allow for automatic feature selection to approximate higher-order dependencies in data. This article presents the FingerFlex model - a convolutional encoder-decoder architecture adapted for finger movement regression on electrocorticographic (ECoG) brain data. State-of-the-art performance was achieved on a publicly available BCI competition IV dataset 4 with a correlation coefficient between true and predicted trajectories up to 0.74. The presented method provides the opportunity for developing fully-functional high-precision cortical motor brain-computer interfaces.",
+    "path": "papers/22/11/2211.01960.json",
+    "total_tokens": 738,
+    "translated_title": "FingerFlex：从ECoG信号推断手指轨迹",
+    "translated_abstract": "运动脑机接口（BCI）的发展关键在于神经时间序列解码算法。深度学习结构的最新进展允许自动选择特征以逼近数据中的高阶依赖关系。本文提出了FingerFlex模型——一种卷积编码器-解码器架构，用于在电导层图（ECoG）脑数据上进行手指运动回归。在公开可用的BCI竞赛IV数据集4上实现了最先进的表现，真实和预测轨迹之间的相关系数高达0.74。该方法为开发完全功能的高精度皮层运动脑机接口提供了机会。",
+    "tldr": "本文介绍了FingerFlex模型，该模型通过深度学习算法在ECoG信号上实现手指运动回归，取得了最先进的表现，为开发高精度皮层运动脑机接口提供了机会。",
+    "en_tdlr": "This article introduces FingerFlex model, which achieved state-of-the-art performance in finger movement regression on ECoG brain data through deep learning algorithm, providing the opportunity for developing high-precision cortical motor brain-computer interfaces."
+}

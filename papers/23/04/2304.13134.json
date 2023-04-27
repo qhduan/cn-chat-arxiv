@@ -1,0 +1,12 @@
+{
+    "title": "LAST: Scalable Lattice-Based Speech Modelling in JAX. (arXiv:2304.13134v1 [cs.CL])",
+    "abstract": "We introduce LAST, a LAttice-based Speech Transducer library in JAX. With an emphasis on flexibility, ease-of-use, and scalability, LAST implements differentiable weighted finite state automaton (WFSA) algorithms needed for training \\& inference that scale to a large WFSA such as a recognition lattice over the entire utterance. Despite these WFSA algorithms being well-known in the literature, new challenges arise from performance characteristics of modern architectures, and from nuances in automatic differentiation. We describe a suite of generally applicable techniques employed in LAST to address these challenges, and demonstrate their effectiveness with benchmarks on TPUv3 and V100 GPU.",
+    "link": "http://arxiv.org/abs/2304.13134",
+    "context": "Title: LAST: Scalable Lattice-Based Speech Modelling in JAX. (arXiv:2304.13134v1 [cs.CL])\nAbstract: We introduce LAST, a LAttice-based Speech Transducer library in JAX. With an emphasis on flexibility, ease-of-use, and scalability, LAST implements differentiable weighted finite state automaton (WFSA) algorithms needed for training \\& inference that scale to a large WFSA such as a recognition lattice over the entire utterance. Despite these WFSA algorithms being well-known in the literature, new challenges arise from performance characteristics of modern architectures, and from nuances in automatic differentiation. We describe a suite of generally applicable techniques employed in LAST to address these challenges, and demonstrate their effectiveness with benchmarks on TPUv3 and V100 GPU.",
+    "path": "papers/23/04/2304.13134.json",
+    "total_tokens": 773,
+    "translated_title": "LAST: 基于JAX的可扩展格模型语音建模",
+    "translated_abstract": "我们引入了一个名为LAST的库，它是基于格模型的语音转录器。LAST强调了灵活性、易用性和可扩展性，并实现了训练和推断所需的可微加权有限状态自动机（WFSA）算法，这些算法可以扩展到整个话语的识别格上。尽管这些WFSA算法在文献中已经被广泛应用，但是现代架构的性能特征和自动微分中的细微差别新的挑战已经出现。我们描述了用于解决这些挑战的一系列通用技术，并通过TPUv3和V100 GPU上的基准测试展示了它们的有效性。",
+    "tldr": "LAST是一个基于JAX的库，用于实现灵活易用的格模型语音转录器。它采用了一系列适用于解决现代架构性能特征和自动微分中的细微差别新挑战的通用技术，并在TPUv3和V100 GPU上得到了验证。",
+    "en_tdlr": "LAST is a JAX-based library for scalable lattice-based speech transcribing. By implementing a suite of generally applicable techniques and addressing new challenges arising from performance characteristics of modern architectures and nuances in automatic differentiation, LAST demonstrates its effectiveness with benchmarks on TPUv3 and V100 GPU."
+}

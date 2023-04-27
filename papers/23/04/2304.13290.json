@@ -1,0 +1,12 @@
+{
+    "title": "Improving Conversational Passage Re-ranking with View Ensemble. (arXiv:2304.13290v1 [cs.IR])",
+    "abstract": "This paper presents ConvRerank, a conversational passage re-ranker that employs a newly developed pseudo-labeling approach. Our proposed view-ensemble method enhances the quality of pseudo-labeled data, thus improving the fine-tuning of ConvRerank. Our experimental evaluation on benchmark datasets shows that combining ConvRerank with a conversational dense retriever in a cascaded manner achieves a good balance between effectiveness and efficiency. Compared to baseline methods, our cascaded pipeline demonstrates lower latency and higher top-ranking effectiveness. Furthermore, the in-depth analysis confirms the potential of our approach to improving the effectiveness of conversational search.",
+    "link": "http://arxiv.org/abs/2304.13290",
+    "context": "Title: Improving Conversational Passage Re-ranking with View Ensemble. (arXiv:2304.13290v1 [cs.IR])\nAbstract: This paper presents ConvRerank, a conversational passage re-ranker that employs a newly developed pseudo-labeling approach. Our proposed view-ensemble method enhances the quality of pseudo-labeled data, thus improving the fine-tuning of ConvRerank. Our experimental evaluation on benchmark datasets shows that combining ConvRerank with a conversational dense retriever in a cascaded manner achieves a good balance between effectiveness and efficiency. Compared to baseline methods, our cascaded pipeline demonstrates lower latency and higher top-ranking effectiveness. Furthermore, the in-depth analysis confirms the potential of our approach to improving the effectiveness of conversational search.",
+    "path": "papers/23/04/2304.13290.json",
+    "total_tokens": 666,
+    "translated_title": "利用视图集成提高会话段落重新排序的效果",
+    "translated_abstract": "本文介绍了ConvRerank，一种采用新开发的伪标签方法的会话段落重新排序器。我们提出的视图集成方法增强了伪标记数据的质量，从而提高了ConvRerank的微调效果。我们在基准数据集上的实验评估表明，将ConvRerank与会话密集检索器级联使用可以在效率和效果之间取得良好的平衡。与基线方法相比，我们的级联流水线表现出更低的延迟和更高的排名效果。此外，深入分析证实了我们的方法提高会话搜索效果的潜力。",
+    "tldr": "本文提出了ConvRerank，一种采用视图集成的会话段落重新排序方法，提高了会话搜索的效率和效果。",
+    "en_tdlr": "This paper proposes ConvRerank, a conversational passage re-ranker that employs view ensemble and improves the efficiency and effectiveness of conversational search."
+}

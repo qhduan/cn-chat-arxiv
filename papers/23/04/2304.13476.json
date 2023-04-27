@@ -1,0 +1,12 @@
+{
+    "title": "Effect of latent space distribution on the segmentation of images with multiple annotations. (arXiv:2304.13476v1 [cs.CV])",
+    "abstract": "We propose the Generalized Probabilistic U-Net, which extends the Probabilistic U-Net by allowing more general forms of the Gaussian distribution as the latent space distribution that can better approximate the uncertainty in the reference segmentations. We study the effect the choice of latent space distribution has on capturing the variation in the reference segmentations for lung tumors and white matter hyperintensities in the brain. We show that the choice of distribution affects the sample diversity of the predictions and their overlap with respect to the reference segmentations. We have made our implementation available at https://github.com/ishaanb92/GeneralizedProbabilisticUNet",
+    "link": "http://arxiv.org/abs/2304.13476",
+    "context": "Title: Effect of latent space distribution on the segmentation of images with multiple annotations. (arXiv:2304.13476v1 [cs.CV])\nAbstract: We propose the Generalized Probabilistic U-Net, which extends the Probabilistic U-Net by allowing more general forms of the Gaussian distribution as the latent space distribution that can better approximate the uncertainty in the reference segmentations. We study the effect the choice of latent space distribution has on capturing the variation in the reference segmentations for lung tumors and white matter hyperintensities in the brain. We show that the choice of distribution affects the sample diversity of the predictions and their overlap with respect to the reference segmentations. We have made our implementation available at https://github.com/ishaanb92/GeneralizedProbabilisticUNet",
+    "path": "papers/23/04/2304.13476.json",
+    "total_tokens": 732,
+    "translated_title": "多次标注图像分割中潜在空间分布对效果的影响",
+    "translated_abstract": "我们提出了广义概率U-Net，其通过允许更一般形式的高斯分布作为潜在空间分布来扩展概率U-Net，这可以更好地近似于参考分割的不确定性。我们研究了潜在空间分布的选择对肺肿瘤和脑白质高信号灶参考分割变化捕捉的影响。我们表明，分布的选择会影响预测的样本多样性以及与参考分割的重叠度。我们在https://github.com/ishaanb92/GeneralizedProbabilisticUNet上发布了我们的实现。",
+    "tldr": "本文研究了多次标注图像的分割问题，提出了广义概率U-Net。研究表明，选择合适的潜在空间分布可以提高预测结果的多样性和参考分割的重叠度。",
+    "en_tdlr": "This paper studies the segmentation of images with multiple annotations and proposes the Generalized Probabilistic U-Net. The research shows that choosing an appropriate latent space distribution can improve the diversity of predictions and the overlap with reference segmentations."
+}

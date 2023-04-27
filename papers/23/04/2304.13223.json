@@ -1,0 +1,12 @@
+{
+    "title": "Reinforcement Learning with Partial Parametric Model Knowledge. (arXiv:2304.13223v1 [eess.SY])",
+    "abstract": "We adapt reinforcement learning (RL) methods for continuous control to bridge the gap between complete ignorance and perfect knowledge of the environment. Our method, Partial Knowledge Least Squares Policy Iteration (PLSPI), takes inspiration from both model-free RL and model-based control. It uses incomplete information from a partial model and retains RL's data-driven adaption towards optimal performance. The linear quadratic regulator provides a case study; numerical experiments demonstrate the effectiveness and resulting benefits of the proposed method.",
+    "link": "http://arxiv.org/abs/2304.13223",
+    "context": "Title: Reinforcement Learning with Partial Parametric Model Knowledge. (arXiv:2304.13223v1 [eess.SY])\nAbstract: We adapt reinforcement learning (RL) methods for continuous control to bridge the gap between complete ignorance and perfect knowledge of the environment. Our method, Partial Knowledge Least Squares Policy Iteration (PLSPI), takes inspiration from both model-free RL and model-based control. It uses incomplete information from a partial model and retains RL's data-driven adaption towards optimal performance. The linear quadratic regulator provides a case study; numerical experiments demonstrate the effectiveness and resulting benefits of the proposed method.",
+    "path": "papers/23/04/2304.13223.json",
+    "total_tokens": 667,
+    "translated_title": "具有局部参数模型知识的强化学习",
+    "translated_abstract": "我们将强化学习方法应用于连续控制，以填补在环境完全无知和完美知识之间的差距。我们的方法，Partial Knowledge Least Squares Policy Iteration(PLSPI)，既借鉴了模型无关的强化学习，也借鉴了模型基础控制。它利用局部模型的不完全信息，并保留强化学习朝向最优性能的数据驱动调整。我们以线性二次调节器为案例研究；数值实验证明了所提方法的有效性和带来的好处。",
+    "tldr": "该论文研究了在环境完全无知和完美知识之间的机遇，提出了一种利用局部模型和保持数据驱动调整的强化学习方法，已在线性二次调节器上得到验证。",
+    "en_tdlr": "This paper investigates the opportunity between complete ignorance and perfect knowledge of the environment, proposes a reinforcement learning method that uses partial model and retains data-driven adaptation, and demonstrates its effectiveness on a linear quadratic regulator through numerical experiments."
+}

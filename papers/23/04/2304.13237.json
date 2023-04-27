@@ -1,0 +1,11 @@
+{
+    "title": "An Efficient Doubly-Robust Test for the Kernel Treatment Effect. (arXiv:2304.13237v1 [stat.ME])",
+    "abstract": "The average treatment effect, which is the difference in expectation of the counterfactuals, is probably the most popular target effect in causal inference with binary treatments. However, treatments may have effects beyond the mean, for instance decreasing or increasing the variance. We propose a new kernel-based test for distributional effects of the treatment. It is, to the best of our knowledge, the first kernel-based, doubly-robust test with provably valid type-I error. Furthermore, our proposed algorithm is efficient, avoiding the use of permutations.",
+    "link": "http://arxiv.org/abs/2304.13237",
+    "context": "Title: An Efficient Doubly-Robust Test for the Kernel Treatment Effect. (arXiv:2304.13237v1 [stat.ME])\nAbstract: The average treatment effect, which is the difference in expectation of the counterfactuals, is probably the most popular target effect in causal inference with binary treatments. However, treatments may have effects beyond the mean, for instance decreasing or increasing the variance. We propose a new kernel-based test for distributional effects of the treatment. It is, to the best of our knowledge, the first kernel-based, doubly-robust test with provably valid type-I error. Furthermore, our proposed algorithm is efficient, avoiding the use of permutations.",
+    "path": "papers/23/04/2304.13237.json",
+    "total_tokens": 648,
+    "translated_title": "一种有效的双重稳健核处理效应检验方法",
+    "translated_abstract": "二分治疗下的预期反事实差异是因果推断中最受欢迎的目标效应之一。然而，治疗可能具有超出平均值的效应，例如降低或提高方差。本文提出了一种新的基于核的治疗效应分布检验方法。本文的方法是基于核的、稳健的，保证了一类错误的有效性。此外，我们提出的算法是高效的，避免了置换的使用。",
+    "tldr": "本文提出了一种高效的基于核的双重稳健检验方法，用于检验治疗的分布效应，保证了一类错误有效性。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Maximum Implied Variance Slope -- Practical Aspects. (arXiv:2304.13610v1 [q-fin.PR])",
+    "abstract": "In the Black-Scholes model, the absence of arbitrages imposes necessary constraints on the slope of the implied variance in terms of log-moneyness, asymptotically for large log-moneyness. The constraints are used for example in the SVI implied volatility parameterization to ensure the resulting smile has no arbitrages. This note shows that those no-arbitrage contraints are very mild, and that arbitrage is almost always guaranteed in a large range of slopes where the contraints are enforced.",
+    "link": "http://arxiv.org/abs/2304.13610",
+    "context": "Title: Maximum Implied Variance Slope -- Practical Aspects. (arXiv:2304.13610v1 [q-fin.PR])\nAbstract: In the Black-Scholes model, the absence of arbitrages imposes necessary constraints on the slope of the implied variance in terms of log-moneyness, asymptotically for large log-moneyness. The constraints are used for example in the SVI implied volatility parameterization to ensure the resulting smile has no arbitrages. This note shows that those no-arbitrage contraints are very mild, and that arbitrage is almost always guaranteed in a large range of slopes where the contraints are enforced.",
+    "path": "papers/23/04/2304.13610.json",
+    "total_tokens": 634,
+    "translated_title": "最大隐含方差斜率——实际应用方面的考虑。",
+    "translated_abstract": "在Black-Scholes模型中，无套利的存在对隐含方差斜率在对数货币性方面施加了必要的约束，对于大的对数货币性，渐进地成立。这些约束例如被用于SVI隐含波动率参数化中，以确保所得到的笑曲线没有套利。本文表明，这些无套利约束是非常温和的，而在大范围 enforced这些约束的斜率范围内，套利几乎总是能够保证。",
+    "tldr": "本文发现 Black-Scholes 模型中的无套利约束很宽松，在斜率的大范围内几乎总是会出现套利。",
+    "en_tdlr": "This paper finds that the no-arbitrage constraints in the Black-Scholes model are very mild and arbitrage is almost always guaranteed in a large range of enforced slopes."
+}

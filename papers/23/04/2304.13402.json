@@ -1,0 +1,12 @@
+{
+    "title": "Convexity adjustments \\`a la Malliavin. (arXiv:2304.13402v1 [q-fin.MF])",
+    "abstract": "In this paper, we develop a novel method based on Malliavin calculus to find an approximation for the convexity adjustment for various classical interest rate products. Malliavin calculus provides a simple way to get a template for the convexity adjustment. We find the approximation for Futures, OIS Futures, FRAs, and CMSs under a general family of the one-factor Cheyette model. We have also seen the excellent quality of the numerical accuracy of the formulas obtained.",
+    "link": "http://arxiv.org/abs/2304.13402",
+    "context": "Title: Convexity adjustments \\`a la Malliavin. (arXiv:2304.13402v1 [q-fin.MF])\nAbstract: In this paper, we develop a novel method based on Malliavin calculus to find an approximation for the convexity adjustment for various classical interest rate products. Malliavin calculus provides a simple way to get a template for the convexity adjustment. We find the approximation for Futures, OIS Futures, FRAs, and CMSs under a general family of the one-factor Cheyette model. We have also seen the excellent quality of the numerical accuracy of the formulas obtained.",
+    "path": "papers/23/04/2304.13402.json",
+    "total_tokens": 655,
+    "translated_title": "Malliavin变换下的凸性调整方法",
+    "translated_abstract": "本文研究利用Malliavin演算法寻找各种传统利率产品的凸性调整近似值的新方法。Malliavin演算为得到凸性调整模板提供了简单的途径。我们在一个通用的一因子Cheyette模型族下找到了期货、OIS期货、FRAs和CMS的近似值，并且发现所获得的公式具有极高的数值精度。",
+    "tldr": "本文提出了一种基于Malliavin calculus的新方法，用于寻找各种传统利率产品的凸性调整近似值。在通用的一因子Cheyette模型族下，我们成功找到了期货、OIS期货、FRAs和CMS的近似值，并表现出了精确度极高的特点。",
+    "en_tdlr": "This paper proposes a new method based on Malliavin calculus to approximate the convexity adjustment for various classical interest rate products, and successfully finds the approximations for Futures, OIS Futures, FRAs, and CMSs under a general family of the one-factor Cheyette model with excellent numerical accuracy."
+}

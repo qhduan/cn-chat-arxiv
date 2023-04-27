@@ -1,0 +1,12 @@
+{
+    "title": "Polynomial-Time Solvers for the Discrete $\\infty$-Optimal Transport Problems. (arXiv:2304.13467v1 [math.OC])",
+    "abstract": "In this note, we propose polynomial-time algorithms solving the Monge and Kantorovich formulations of the $\\infty$-optimal transport problem in the discrete and finite setting. It is the first time, to the best of our knowledge, that efficient numerical methods for these problems have been proposed.",
+    "link": "http://arxiv.org/abs/2304.13467",
+    "context": "Title: Polynomial-Time Solvers for the Discrete $\\infty$-Optimal Transport Problems. (arXiv:2304.13467v1 [math.OC])\nAbstract: In this note, we propose polynomial-time algorithms solving the Monge and Kantorovich formulations of the $\\infty$-optimal transport problem in the discrete and finite setting. It is the first time, to the best of our knowledge, that efficient numerical methods for these problems have been proposed.",
+    "path": "papers/23/04/2304.13467.json",
+    "total_tokens": 479,
+    "translated_title": "离散无穷范最优输运问题的多项式时间求解器",
+    "translated_abstract": "本文提出了求解离散有限的$\\infty$-最优输运问题中的Monge和Kantorovich表述的多项式时间算法。据我们所知，这是第一次提出这些问题的有效数值方法。",
+    "tldr": "本文提出了离散无穷范最优输运问题的多项式时间求解器。",
+    "en_tdlr": "This paper proposes polynomial-time solvers for the discrete $\\infty$-optimal transport problems, which is the first proposal of efficient numerical methods for these problems."
+}
