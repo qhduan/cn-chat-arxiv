@@ -37,6 +37,7 @@
 | [^33] | [Derivative-free Alternating Projection Algorithms for General Nonconvex-Concave Minimax Problems.](http://arxiv.org/abs/2108.00473) | 本文提出针对非凸-凹极小极大问题的无导数交替投影算法，包括光滑问题的交替随机梯度投影算法（ZO-AGP），以及块状非光滑问题的分块交替随机近端梯度算法（ZO-BAPG）。这些算法具有较少的函数值估计和较高的迭代复杂度。 |
 | [^34] | [Incompatibility Clustering as a Defense Against Backdoor Poisoning Attacks.](http://arxiv.org/abs/2105.03692) | 本文提出了一种基于不兼容性的聚类机制，该机制可以将数据集划分为由训练过程的目标所定义且具有意义的聚类，并有效减轻后门攻击的影响。 |
 | [^35] | [A diffusion approach to Stein's method on Riemannian manifolds.](http://arxiv.org/abs/2003.11497) | 该论文介绍了一种用于Riemann流形上积分度量限制的Stein方法的扩散方法，并通过分析一对具有不同起始点的扩散之间的距离过程，导出了曲率相关的Stein因子。 |
+| [^36] | [Misspecification-robust likelihood-free inference in high dimensions.](http://arxiv.org/abs/2002.09377) | 通过基于贝叶斯优化的扩展方法和差异函数，我们实现了高维参数空间的鲁棒性强的误差分布自由推断。 |
 
 # 详细
 
@@ -529,5 +530,19 @@
     我们详细阐述了一种用于边界概率流形上积分度量限制的Stein方法的方法。我们的方法利用了扩散在$\mathbf M$上生成器与其表征Stein算子之间的关系。我们考虑了一对具有不同起始点的此类扩散，并通过分析它们之间的距离过程，导出了Stein因子，这些因子限制了Stein方程及其导数。Stein因子包含曲率相关的项，并缩减到目前适用于$\mathbb R^m$的因子，并且意味着当$\mathbf M$是平坦流形时，对于$\mathbb R ^m$的限制仍然有效。
 
     We detail an approach to develop Stein's method for bounding integral metrics on probability measures defined on a Riemannian manifold $\mathbf M$. Our approach exploits the relationship between the generator of a diffusion on $\mathbf M$ with target invariant measure and its characterising Stein operator. We consider a pair of such diffusions with different starting points, and through analysis of the distance process between the pair, derive Stein factors, which bound the solution to the Stein equation and its derivatives. The Stein factors contain curvature-dependent terms and reduce to those currently available for $\mathbb R^m$, and moreover imply that the bounds for $\mathbb R^m$ remain valid when $\mathbf M$ is a flat manifold
+    
+[^36]: 高维情形下鲁棒性强的误差分布自由推断方法
+
+    Misspecification-robust likelihood-free inference in high dimensions. (arXiv:2002.09377v3 [stat.CO] UPDATED)
+
+    [http://arxiv.org/abs/2002.09377](http://arxiv.org/abs/2002.09377)
+
+    通过基于贝叶斯优化的扩展方法和差异函数，我们实现了高维参数空间的鲁棒性强的误差分布自由推断。
+
+    
+
+    基于模拟器的统计模型的误差分布自由推断已经发展成为实践中有用的工具。然而，具有多个参数的模型仍然是逼近贝叶斯计算（ABC）推断的挑战。为了在高维参数空间中进行误差分布自由推断，我们引入了一种基于贝叶斯优化的扩展方法来概率化地逼近差异函数，这种方法适合于对参数空间的高效探索。我们的方法通过为每个参数使用单独的采集函数和差异函数来实现高维参数空间的计算可扩展性。有效的加性采集结构与指数损失-似然相结合，提供了一个对模型参数的误差模型说明的鲁棒性强的边际后验分布。
+
+    Likelihood-free inference for simulator-based statistical models has developed rapidly from its infancy to a useful tool for practitioners. However, models with more than a handful of parameters still generally remain a challenge for the Approximate Bayesian Computation (ABC) based inference. To advance the possibilities for performing likelihood-free inference in higher dimensional parameter spaces, we introduce an extension of the popular Bayesian optimisation based approach to approximate discrepancy functions in a probabilistic manner which lends itself to an efficient exploration of the parameter space. Our approach achieves computational scalability for higher dimensional parameter spaces by using separate acquisition functions and discrepancies for each parameter. The efficient additive acquisition structure is combined with exponentiated loss -likelihood to provide a misspecification-robust characterisation of the marginal posterior distribution for all model parameters. The me
     
 

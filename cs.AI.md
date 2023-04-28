@@ -92,17 +92,18 @@
 | [^88] | [A Systematic Survey of Chemical Pre-trained Models.](http://arxiv.org/abs/2210.16484) | 本文是对化学预训练模型领域的第一次系统回顾，提出了从头训练分子表示模型的局限性，总结了最新的进展和几个关键角度，包括分子描述符和编码器架构。 |
 | [^89] | [Beyond calibration: estimating the grouping loss of modern neural networks.](http://arxiv.org/abs/2210.16315) | 本文提出了一个估计器来近似神经网络的分组损失，并表明现代神经网络在视觉和NLP中展示出显著的分组损失。 |
 | [^90] | [Break The Spell Of Total Correlation In betaTCVAE.](http://arxiv.org/abs/2210.08794) | 本文提出一种新的迭代分解路径来打破betaTCVAE中的全相关性，从而使得VAE能够更加灵活地划分数据特征。实验结果表明模型容量和潜变量分组之间存在有趣的相关性。 |
-| [^91] | [Cell-Free Latent Go-Explore.](http://arxiv.org/abs/2208.14928) | 本文提出了无细胞Latent Go-Explore方法用于强化学习探索，通过学习潜在表示泛化到任何环境，实验结果表明其表现优异。 |
-| [^92] | [DORA: Exploring outlier representations in Deep Neural Networks.](http://arxiv.org/abs/2206.04530) | 本文提出了一种名为DORA的数据不可知框架，用于分析深度神经网络中的表征空间，并可以识别不符合人类直观认知的表征。 |
-| [^93] | [Multi-Source Transfer Learning for Deep Model-Based Reinforcement Learning.](http://arxiv.org/abs/2205.14410) | 本文提出了一种基于多源迁移学习的模块化技术，可以自动学习如何从先前学习的任务中提取有用信息，从而减少智能体在学习新任务时需要与环境互动的次数。 |
-| [^94] | [SIBILA: A novel interpretable ensemble of general-purpose machine learning models applied to medical contexts.](http://arxiv.org/abs/2205.06234) | SIBILA是一种集成了机器学习和深度学习模型以及可解释性算法，并能够在医疗领域中实现个性化治疗预测的方法，具有较高的准确性和可解释性。 |
-| [^95] | [PREME: Preference-based Meeting Exploration through an Interactive Questionnaire.](http://arxiv.org/abs/2205.02370) | 本论文提出了一个新的端到端框架，通过生成交互式问卷，实现基于偏好的会议探索，帮助用户快速探索会议内容。 |
-| [^96] | [GrIPS: Gradient-free, Edit-based Instruction Search for Prompting Large Language Models.](http://arxiv.org/abs/2203.07281) | GrIPS是一种基于编辑的无梯度搜索方法，用于改进大型语言模型的任务指令，显著提高性能。 |
-| [^97] | [PEg TRAnsfer Workflow recognition challenge report: Does multi-modal data improve recognition?.](http://arxiv.org/abs/2202.05821) | 本文介绍了PETRAW挑战，探讨基于视频、运动学和分割数据进行手术工作流程识别的方法，结果显示多模态数据可以提高识别准确度。 |
-| [^98] | [From SLAM to Situational Awareness: Challenges and Survey.](http://arxiv.org/abs/2110.00273) | 本文研究旨在连接广泛的多学科现有知识，为移动机器人构建完整的情境感知（SA）系统，以提升其自主能力。 |
-| [^99] | [Quantization Backdoors to Deep Learning Commercial Frameworks.](http://arxiv.org/abs/2108.09187) | 本文揭示了商业框架中潜在的深度学习模型后门安全漏洞，可以通过量化攻击实现后门触发并逃避检测，从而危及已部署的模型安全，可能导致未经授权的数据访问。 |
-| [^100] | [SQN: Weakly-Supervised Semantic Segmentation of Large-Scale 3D Point Clouds.](http://arxiv.org/abs/2104.04891) | 本文提出一种新的弱监督方法SQN，通过利用点云局部邻域内强烈的语义相似性来隐式增强高度稀疏的监督信号，使得仅需要0.1％的随机注释点进行训练即可在七个大规模开放数据集上取得良好的性能，大大降低了完整点云注释的时间和成本。 |
-| [^101] | [A Review on Deep Learning in UAV Remote Sensing.](http://arxiv.org/abs/2101.10861) | 该综述总结了近年来应用于UAV遥感中的深度学习算法，主要关注分类和回归技术。 |
+| [^91] | [Context Generation Improves Open Domain Question Answering.](http://arxiv.org/abs/2210.06349) | 该论文提出了一个两阶段的闭式问答框架，首先通过生成上下文来提取相关知识，然后使用这个知识回答问题，实验证明该方法在三个问答基准测试上明显优于以往的封闭式问答方法，并且与开放式方法持平。 |
+| [^92] | [Cell-Free Latent Go-Explore.](http://arxiv.org/abs/2208.14928) | 本文提出了无细胞Latent Go-Explore方法用于强化学习探索，通过学习潜在表示泛化到任何环境，实验结果表明其表现优异。 |
+| [^93] | [DORA: Exploring outlier representations in Deep Neural Networks.](http://arxiv.org/abs/2206.04530) | 本文提出了一种名为DORA的数据不可知框架，用于分析深度神经网络中的表征空间，并可以识别不符合人类直观认知的表征。 |
+| [^94] | [Multi-Source Transfer Learning for Deep Model-Based Reinforcement Learning.](http://arxiv.org/abs/2205.14410) | 本文提出了一种基于多源迁移学习的模块化技术，可以自动学习如何从先前学习的任务中提取有用信息，从而减少智能体在学习新任务时需要与环境互动的次数。 |
+| [^95] | [SIBILA: A novel interpretable ensemble of general-purpose machine learning models applied to medical contexts.](http://arxiv.org/abs/2205.06234) | SIBILA是一种集成了机器学习和深度学习模型以及可解释性算法，并能够在医疗领域中实现个性化治疗预测的方法，具有较高的准确性和可解释性。 |
+| [^96] | [PREME: Preference-based Meeting Exploration through an Interactive Questionnaire.](http://arxiv.org/abs/2205.02370) | 本论文提出了一个新的端到端框架，通过生成交互式问卷，实现基于偏好的会议探索，帮助用户快速探索会议内容。 |
+| [^97] | [GrIPS: Gradient-free, Edit-based Instruction Search for Prompting Large Language Models.](http://arxiv.org/abs/2203.07281) | GrIPS是一种基于编辑的无梯度搜索方法，用于改进大型语言模型的任务指令，显著提高性能。 |
+| [^98] | [PEg TRAnsfer Workflow recognition challenge report: Does multi-modal data improve recognition?.](http://arxiv.org/abs/2202.05821) | 本文介绍了PETRAW挑战，探讨基于视频、运动学和分割数据进行手术工作流程识别的方法，结果显示多模态数据可以提高识别准确度。 |
+| [^99] | [From SLAM to Situational Awareness: Challenges and Survey.](http://arxiv.org/abs/2110.00273) | 本文研究旨在连接广泛的多学科现有知识，为移动机器人构建完整的情境感知（SA）系统，以提升其自主能力。 |
+| [^100] | [Quantization Backdoors to Deep Learning Commercial Frameworks.](http://arxiv.org/abs/2108.09187) | 本文揭示了商业框架中潜在的深度学习模型后门安全漏洞，可以通过量化攻击实现后门触发并逃避检测，从而危及已部署的模型安全，可能导致未经授权的数据访问。 |
+| [^101] | [SQN: Weakly-Supervised Semantic Segmentation of Large-Scale 3D Point Clouds.](http://arxiv.org/abs/2104.04891) | 本文提出一种新的弱监督方法SQN，通过利用点云局部邻域内强烈的语义相似性来隐式增强高度稀疏的监督信号，使得仅需要0.1％的随机注释点进行训练即可在七个大规模开放数据集上取得良好的性能，大大降低了完整点云注释的时间和成本。 |
+| [^102] | [A Review on Deep Learning in UAV Remote Sensing.](http://arxiv.org/abs/2101.10861) | 该综述总结了近年来应用于UAV遥感中的深度学习算法，主要关注分类和回归技术。 |
 
 # 详细
 
@@ -1366,7 +1367,21 @@
 
     In the absence of artificial labels, the independent and dependent features in the data are cluttered. How to construct the inductive biases of the model to flexibly divide and effectively contain features with different complexity is the main focal point of unsupervised disentangled representation learning. This paper proposes a new iterative decomposition path of total correlation and explains the disentangled representation ability of VAE from the perspective of model capacity allocation. The newly developed objective function combines latent variable dimensions into joint distribution while relieving the independence constraints of marginal distributions in combination, leading to latent variables with a more manipulable prior distribution. The novel model enables VAE to adjust the parameter capacity to divide dependent and independent data features flexibly. Experimental results on various datasets show an interesting relevance between model capacity and the latent variable groupi
     
-[^91]: 无细胞Latent Go-Explore
+[^91]: 上下文生成提高开放领域问答的效果
+
+    Context Generation Improves Open Domain Question Answering. (arXiv:2210.06349v2 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2210.06349](http://arxiv.org/abs/2210.06349)
+
+    该论文提出了一个两阶段的闭式问答框架，首先通过生成上下文来提取相关知识，然后使用这个知识回答问题，实验证明该方法在三个问答基准测试上明显优于以往的封闭式问答方法，并且与开放式方法持平。
+
+    
+
+    封闭式问答需要模型在没有任何外部知识的情况下直接回答开放式领域的问题。以往的封闭式问答工作要么将预训练语言模型（LM）直接微调，要么通过提示信息来利用存储的知识。但它们没有充分利用参数化知识。为解决这个问题，我们提出了一个两阶段的闭式问答框架，它采用粗略到精细的方法来提取相关知识和回答问题。我们的方法首先通过提示预先训练的LM生成针对给定问题的相关上下文。然后，我们再使用这个LM通过生成的上下文和问题提示答案预测。此外，为了消除上下文不确定性带来的错误，我们还对生成的上下文进行了边际化处理。在三个问答基准测试上的实验结果表明，我们的方法明显优于以前的封闭式问答方法（如精确匹配 68.6% 对 55.3%），且与开放式方法持平。
+
+    Closed-book question answering (QA) requires a model to directly answer an open-domain question without access to any external knowledge. Prior work on closed-book QA either directly finetunes or prompts a pretrained language model (LM) to leverage the stored knowledge. However, they do not fully exploit the parameterized knowledge. To address this issue, we propose a two-stage, closed-book QA framework which employs a coarse-to-fine approach to extract relevant knowledge and answer a question. Our approach first generates a related context for a given question by prompting a pretrained LM. We then prompt the same LM for answer prediction using the generated context and the question. Additionally, to eliminate failure caused by context uncertainty, we marginalize over generated contexts. Experimental results on three QA benchmarks show that our method significantly outperforms previous closed-book QA methods (e.g. exact matching 68.6% vs. 55.3%), and is on par with open-book methods th
+    
+[^92]: 无细胞Latent Go-Explore
 
     Cell-Free Latent Go-Explore. (arXiv:2208.14928v3 [cs.LG] UPDATED)
 
@@ -1380,7 +1395,7 @@
 
     In this paper, we introduce Latent Go-Explore (LGE), a simple and general approach based on the Go-Explore paradigm for exploration in reinforcement learning (RL). Go-Explore was initially introduced with a strong domain knowledge constraint for partitioning the state space into cells. However, in most real-world scenarios, drawing domain knowledge from raw observations is complex and tedious. If the cell partitioning is not informative enough, Go-Explore can completely fail to explore the environment. We argue that the Go-Explore approach can be generalized to any environment without domain knowledge and without cells by exploiting a learned latent representation. Thus, we show that LGE can be flexibly combined with any strategy for learning a latent representation. Our results indicate that LGE, although simpler than Go-Explore, is more robust and outperforms state-of-the-art algorithms in terms of pure exploration on multiple hard-exploration environments including Montezuma's Reven
     
-[^92]: DORA：探索深度神经网络中的异常值表示
+[^93]: DORA：探索深度神经网络中的异常值表示
 
     DORA: Exploring outlier representations in Deep Neural Networks. (arXiv:2206.04530v3 [cs.LG] UPDATED)
 
@@ -1394,7 +1409,7 @@
 
     Although Deep Neural Networks (DNNs) are incredibly effective in learning complex abstractions, they are susceptible to unintentionally learning spurious artifacts from the training data. To ensure model transparency, it is crucial to examine the relationships between learned representations, as unintended concepts often manifest themselves to be anomalous to the desired task. In this work, we introduce DORA (Data-agnOstic Representation Analysis): the first data-agnostic framework for the analysis of the representation space of DNNs. Our framework employs the proposed Extreme-Activation (EA) distance measure between representations that utilizes self-explaining capabilities within the network without accessing any data. We quantitatively validate the metric's correctness and alignment with human-defined semantic distances. The coherence between the EA distance and human judgment enables us to identify representations whose underlying concepts would be considered unnatural by humans by
     
-[^93]: 基于多源迁移学习的深度模型强化学习
+[^94]: 基于多源迁移学习的深度模型强化学习
 
     Multi-Source Transfer Learning for Deep Model-Based Reinforcement Learning. (arXiv:2205.14410v3 [cs.LG] UPDATED)
 
@@ -1408,7 +1423,7 @@
 
     A crucial challenge in reinforcement learning is to reduce the number of interactions with the environment that an agent requires to master a given task. Transfer learning proposes to address this issue by re-using knowledge from previously learned tasks. However, determining which source task qualifies as the most appropriate for knowledge extraction, as well as the choice regarding which algorithm components to transfer, represent severe obstacles to its application in reinforcement learning. The goal of this paper is to address these issues with modular multi-source transfer learning techniques. The proposed techniques automatically learn how to extract useful information from source tasks, regardless of the difference in state-action space and reward function. We support our claims with extensive and challenging cross-domain experiments for visual control.
     
-[^94]: SIBILA: 一种新的可解释通用机器学习模型集成方法在医学方面的应用
+[^95]: SIBILA: 一种新的可解释通用机器学习模型集成方法在医学方面的应用
 
     SIBILA: A novel interpretable ensemble of general-purpose machine learning models applied to medical contexts. (arXiv:2205.06234v2 [cs.LG] UPDATED)
 
@@ -1422,7 +1437,7 @@
 
     Personalized medicine remains a major challenge for scientists. The rapid growth of Machine learning and Deep learning has made them a feasible alternative for predicting the most appropriate therapy for individual patients. However, the need to develop a custom model for every dataset, the lack of interpretation of their results and high computational requirements make many reluctant to use these methods. Aiming to save time and bring light to the way models work internally, SIBILA has been developed. SIBILA is an ensemble of machine learning and deep learning models that applies a range of interpretability algorithms to identify the most relevant input features. Since the interpretability algo- rithms may not be in line with each other, a consensus stage has been imple- mented to estimate the global attribution of each variable to the predictions. SIBILA is containerized to be run on any high-performance computing plat- form. Although conceived as a command-line tool, it is also av
     
-[^95]: 通过交互式问卷进行基于偏好的会议探索的PREME
+[^96]: 通过交互式问卷进行基于偏好的会议探索的PREME
 
     PREME: Preference-based Meeting Exploration through an Interactive Questionnaire. (arXiv:2205.02370v2 [cs.CL] UPDATED)
 
@@ -1436,7 +1451,7 @@
 
     The recent increase in the volume of online meetings necessitates automated tools for managing and organizing the material, especially when an attendee has missed the discussion and needs assistance in quickly exploring it. In this work, we propose a novel end-to-end framework for generating interactive questionnaires for preference-based meeting exploration. As a result, users are supplied with a list of suggested questions reflecting their preferences. Since the task is new, we introduce an automatic evaluation strategy. Namely, it measures how much the generated questions via questionnaire are answerable to ensure factual correctness and covers the source meeting for the depth of possible exploration.
     
-[^96]: GrIPS：基于编辑的无梯度指令搜索，用于辅助大型语言模型
+[^97]: GrIPS：基于编辑的无梯度指令搜索，用于辅助大型语言模型
 
     GrIPS: Gradient-free, Edit-based Instruction Search for Prompting Large Language Models. (arXiv:2203.07281v2 [cs.CL] UPDATED)
 
@@ -1450,7 +1465,7 @@
 
     Providing natural language instructions in prompts is a useful new paradigm for improving task performance of large language models in a zero-shot setting. Recent work has aimed to improve such prompts via manual rewriting or gradient-based tuning. However, manual rewriting is time-consuming and requires subjective interpretation, while gradient-based tuning can be extremely computationally demanding for large models and may not be feasible for API-based models. In this work, we introduce Gradient-free Instructional Prompt Search (GrIPS), a gradient-free, edit-based search approach for improving task instructions for large language models. GrIPS takes in instructions designed for humans and automatically returns an improved, edited prompt, while allowing for API-based tuning. With InstructGPT models, GrIPS improves the average task performance by up to 4.30 percentage points on eight classification tasks from the Natural Instructions dataset (with similar improvements for OPT, BLOOM, a
     
-[^97]: PEg TRAnsfer Workflow recognition challenge报告：多模态数据是否有助于提高识别准确度？
+[^98]: PEg TRAnsfer Workflow recognition challenge报告：多模态数据是否有助于提高识别准确度？
 
     PEg TRAnsfer Workflow recognition challenge report: Does multi-modal data improve recognition?. (arXiv:2202.05821v3 [cs.LG] UPDATED)
 
@@ -1464,7 +1479,7 @@
 
     This paper presents the design and results of the "PEg TRAnsfert Workflow recognition" (PETRAW) challenge whose objective was to develop surgical workflow recognition methods based on one or several modalities, among video, kinematic, and segmentation data, in order to study their added value. The PETRAW challenge provided a data set of 150 peg transfer sequences performed on a virtual simulator. This data set was composed of videos, kinematics, semantic segmentation, and workflow annotations which described the sequences at three different granularity levels: phase, step, and activity. Five tasks were proposed to the participants: three of them were related to the recognition of all granularities with one of the available modalities, while the others addressed the recognition with a combination of modalities. Average application-dependent balanced accuracy (AD-Accuracy) was used as evaluation metric to take unbalanced classes into account and because it is more clinically relevant tha
     
-[^98]: 从SLAM到情境感知：挑战与综述
+[^99]: 从SLAM到情境感知：挑战与综述
 
     From SLAM to Situational Awareness: Challenges and Survey. (arXiv:2110.00273v3 [cs.RO] UPDATED)
 
@@ -1478,7 +1493,7 @@
 
     The capability of a mobile robot to efficiently and safely perform complex missions is limited by its knowledge of the environment, namely the situation. Advanced reasoning, decision-making, and execution skills enable an intelligent agent to act autonomously in unknown environments. Situational Awareness (SA) is a fundamental capability of humans that has been deeply studied in various fields, such as psychology, military, aerospace, and education. Nevertheless, it has yet to be considered in robotics, which has focused on single compartmentalized concepts such as sensing, spatial perception, sensor fusion, state estimation, and Simultaneous Localization and Mapping (SLAM). Hence, the present research aims to connect the broad multidisciplinary existing knowledge to pave the way for a complete SA system for mobile robotics that we deem paramount for autonomy. To this aim, we define the principal components to structure a robotic SA and their area of competence. Accordingly, this paper
     
-[^99]: 深度学习商业框架的量化后门
+[^100]: 深度学习商业框架的量化后门
 
     Quantization Backdoors to Deep Learning Commercial Frameworks. (arXiv:2108.09187v3 [cs.CR] UPDATED)
 
@@ -1492,7 +1507,7 @@
 
     Currently, there is a burgeoning demand for deploying deep learning (DL) models on ubiquitous edge Internet of Things (IoT) devices attributed to their low latency and high privacy preservation. However, DL models are often large in size and require large-scale computation, which prevents them from being placed directly onto IoT devices, where resources are constrained and 32-bit floating-point (float-32) operations are unavailable. Commercial framework (i.e., a set of toolkits) empowered model quantization is a pragmatic solution that enables DL deployment on mobile devices and embedded systems by effortlessly post-quantizing a large high-precision model (e.g., float-32) into a small low-precision model (e.g., int-8) while retaining the model inference accuracy. However, their usability might be threatened by security vulnerabilities.  This work reveals that the standard quantization toolkits can be abused to activate a backdoor. We demonstrate that a full-precision backdoored model w
     
-[^100]: SQN: 大规模三维点云弱监督语义分割
+[^101]: SQN: 大规模三维点云弱监督语义分割
 
     SQN: Weakly-Supervised Semantic Segmentation of Large-Scale 3D Point Clouds. (arXiv:2104.04891v3 [cs.CV] UPDATED)
 
@@ -1506,7 +1521,7 @@
 
     Labelling point clouds fully is highly time-consuming and costly. As larger point cloud datasets with billions of points become more common, we ask whether the full annotation is even necessary, demonstrating that existing baselines designed under a fully annotated assumption only degrade slightly even when faced with 1% random point annotations. However, beyond this point, e.g., at 0.1% annotations, segmentation accuracy is unacceptably low. We observe that, as point clouds are samples of the 3D world, the distribution of points in a local neighborhood is relatively homogeneous, exhibiting strong semantic similarity. Motivated by this, we propose a new weak supervision method to implicitly augment highly sparse supervision signals. Extensive experiments demonstrate the proposed Semantic Query Network (SQN) achieves promising performance on seven large-scale open datasets under weak supervision schemes, while requiring only 0.1% randomly annotated points for training, greatly reducing 
     
-[^101]: 《UAV遥感中深度学习的综述》
+[^102]: 《UAV遥感中深度学习的综述》
 
     A Review on Deep Learning in UAV Remote Sensing. (arXiv:2101.10861v3 [cs.CV] UPDATED)
 
