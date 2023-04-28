@@ -1,0 +1,12 @@
+{
+    "title": "Categorification of Group Equivariant Neural Networks. (arXiv:2304.14144v1 [cs.LG])",
+    "abstract": "We present a novel application of category theory for deep learning. We show how category theory can be used to understand and work with the linear layer functions of group equivariant neural networks whose layers are some tensor power space of $\\mathbb{R}^{n}$ for the groups $S_n$, $O(n)$, $Sp(n)$, and $SO(n)$. By using category theoretic constructions, we build a richer structure that is not seen in the original formulation of these neural networks, leading to new insights. In particular, we outline the development of an algorithm for quickly computing the result of a vector that is passed through an equivariant, linear layer for each group in question. The success of our approach suggests that category theory could be beneficial for other areas of deep learning.",
+    "link": "http://arxiv.org/abs/2304.14144",
+    "context": "Title: Categorification of Group Equivariant Neural Networks. (arXiv:2304.14144v1 [cs.LG])\nAbstract: We present a novel application of category theory for deep learning. We show how category theory can be used to understand and work with the linear layer functions of group equivariant neural networks whose layers are some tensor power space of $\\mathbb{R}^{n}$ for the groups $S_n$, $O(n)$, $Sp(n)$, and $SO(n)$. By using category theoretic constructions, we build a richer structure that is not seen in the original formulation of these neural networks, leading to new insights. In particular, we outline the development of an algorithm for quickly computing the result of a vector that is passed through an equivariant, linear layer for each group in question. The success of our approach suggests that category theory could be beneficial for other areas of deep learning.",
+    "path": "papers/23/04/2304.14144.json",
+    "total_tokens": 771,
+    "translated_title": "分类化群等变神经网络",
+    "translated_abstract": "我们提出了范畴论在深度学习中的一种新应用。我们展示了如何利用范畴论来理解和处理群等变神经网络的线性层函数，其中层是$\\mathbb{R}^{n}$的某些张量幂空间，对应于群$S_n$、$O(n)$、$Sp(n)$和$SO(n)$。通过使用范畴论构建，我们建立了比这些神经网络的原始公式更丰富的结构，得出了新的见解。特别是，我们概述了一种算法的开发，该算法可以快速计算通过每个问题中的群等变线性层传递的向量的结果。我们的方法的成功表明，范畴论可以对深度学习的其他领域有益。",
+    "tldr": "本文利用范畴论构建的算法，成功快速计算了群等变神经网络的线性层函数。这种方法为深度学习的其他领域做出了有益的探索。",
+    "en_tdlr": "This paper applies category theory to develop an algorithm that computes the result of a vector passed through a linear layer for group equivariant neural networks. The success of this approach suggests potential benefits for other areas of deep learning."
+}

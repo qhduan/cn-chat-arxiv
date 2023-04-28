@@ -1,0 +1,12 @@
+{
+    "title": "Dependent Latent Class Models. (arXiv:2205.08677v2 [stat.ML] UPDATED)",
+    "abstract": "Latent Class Models (LCMs) are used to cluster multivariate categorical data (e.g. group participants based on survey responses). Traditional LCMs assume a property called conditional independence. This assumption can be restrictive, leading to model misspecification and overparameterization. To combat this problem, we developed a novel Bayesian model called a Dependent Latent Class Model (DLCM), which permits conditional dependence. We verify identifiability of DLCMs. We also demonstrate the effectiveness of DLCMs in both simulations and real-world applications. Compared to traditional LCMs, DLCMs are effective in applications with time series, overlapping items, and structural zeroes.",
+    "link": "http://arxiv.org/abs/2205.08677",
+    "context": "Title: Dependent Latent Class Models. (arXiv:2205.08677v2 [stat.ML] UPDATED)\nAbstract: Latent Class Models (LCMs) are used to cluster multivariate categorical data (e.g. group participants based on survey responses). Traditional LCMs assume a property called conditional independence. This assumption can be restrictive, leading to model misspecification and overparameterization. To combat this problem, we developed a novel Bayesian model called a Dependent Latent Class Model (DLCM), which permits conditional dependence. We verify identifiability of DLCMs. We also demonstrate the effectiveness of DLCMs in both simulations and real-world applications. Compared to traditional LCMs, DLCMs are effective in applications with time series, overlapping items, and structural zeroes.",
+    "path": "papers/22/05/2205.08677.json",
+    "total_tokens": 748,
+    "translated_title": "依赖隐变量类模型",
+    "translated_abstract": "隐变量类模型（LCMs）用于聚类多元分类数据（例如基于调查回答的群组参与者）。传统的LCMs假设一个称为条件独立性的属性。这种假设可能过于严格，导致模型错误规定和过度参数化。为了解决这个问题，我们开发了一种新的贝叶斯模型，称为依赖隐变量类模型（DLCM），它允许条件依赖性。我们验证了DLCMs的可辨识性。我们还展示了DLCMs在模拟和真实应用中的有效性。与传统的LCMs相比，DLCMs在时间序列，重叠项和结构零方面的应用更有效。",
+    "tldr": "本文介绍了一种新的贝叶斯模型依赖隐变量类模型（DLCM），相比传统的隐变量类模型（LCMs），DLCMs更适用于具有时间序列、重叠项和结构零等特点的应用。",
+    "en_tdlr": "A novel Bayesian model called Dependent Latent Class Model (DLCM) is proposed, which allows for conditional dependence and is more effective in applications with time series, overlapping items, and structural zeroes compared to traditional Latent Class Models (LCMs)."
+}

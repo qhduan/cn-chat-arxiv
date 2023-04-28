@@ -1,0 +1,12 @@
+{
+    "title": "JaxPruner: A concise library for sparsity research. (arXiv:2304.14082v1 [cs.LG])",
+    "abstract": "This paper introduces JaxPruner, an open-source JAX-based pruning and sparse training library for machine learning research. JaxPruner aims to accelerate research on sparse neural networks by providing concise implementations of popular pruning and sparse training algorithms with minimal memory and latency overhead. Algorithms implemented in JaxPruner use a common API and work seamlessly with the popular optimization library Optax, which, in turn, enables easy integration with existing JAX based libraries. We demonstrate this ease of integration by providing examples in four different codebases: Scenic, t5x, Dopamine and FedJAX and provide baseline experiments on popular benchmarks.",
+    "link": "http://arxiv.org/abs/2304.14082",
+    "context": "Title: JaxPruner: A concise library for sparsity research. (arXiv:2304.14082v1 [cs.LG])\nAbstract: This paper introduces JaxPruner, an open-source JAX-based pruning and sparse training library for machine learning research. JaxPruner aims to accelerate research on sparse neural networks by providing concise implementations of popular pruning and sparse training algorithms with minimal memory and latency overhead. Algorithms implemented in JaxPruner use a common API and work seamlessly with the popular optimization library Optax, which, in turn, enables easy integration with existing JAX based libraries. We demonstrate this ease of integration by providing examples in four different codebases: Scenic, t5x, Dopamine and FedJAX and provide baseline experiments on popular benchmarks.",
+    "path": "papers/23/04/2304.14082.json",
+    "total_tokens": 756,
+    "translated_title": "JaxPruner：一个用于稀疏性研究的简明库",
+    "translated_abstract": "本文介绍了JaxPruner，这是一个基于JAX的开源剪枝和稀疏训练库，旨在通过提供流行的剪枝和稀疏训练算法的简明实现，最小化内存和延迟开销，加速稀疏神经网络的研究。JaxPruner实现的算法使用通用API，并与流行的优化库Optax无缝协作，从而使其能轻松集成到现有的JAX库中。我们通过在四个不同的代码库中提供示例并在流行的基准测试中提供基准实验来展示这种集成的便捷性。",
+    "tldr": "本文介绍了JaxPruner，一款用于研究稀疏神经网络的开源库。JaxPruner提供了流行的剪枝和稀疏训练算法的简明实现，最小化内存和延迟开销，并可轻松集成到现有的JAX库中。",
+    "en_tdlr": "This paper introduces JaxPruner, an open-source library for researching sparse neural networks. JaxPruner provides concise implementations of popular pruning and sparse training algorithms to minimize memory and latency overhead, and can be easily integrated into existing JAX libraries."
+}

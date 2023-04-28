@@ -1,0 +1,12 @@
+{
+    "title": "LSTM based IoT Device Identification. (arXiv:2304.13905v1 [cs.CR])",
+    "abstract": "While the use of the Internet of Things is becoming more and more popular, many security vulnerabilities are emerging with the large number of devices being introduced to the market. In this environment, IoT device identification methods provide a preventive security measure as an important factor in identifying these devices and detecting the vulnerabilities they suffer from. In this study, we present a method that identifies devices in the Aalto dataset using Long short-term memory (LSTM)",
+    "link": "http://arxiv.org/abs/2304.13905",
+    "context": "Title: LSTM based IoT Device Identification. (arXiv:2304.13905v1 [cs.CR])\nAbstract: While the use of the Internet of Things is becoming more and more popular, many security vulnerabilities are emerging with the large number of devices being introduced to the market. In this environment, IoT device identification methods provide a preventive security measure as an important factor in identifying these devices and detecting the vulnerabilities they suffer from. In this study, we present a method that identifies devices in the Aalto dataset using Long short-term memory (LSTM)",
+    "path": "papers/23/04/2304.13905.json",
+    "total_tokens": 564,
+    "translated_title": "基于LSTM的物联网设备识别",
+    "translated_abstract": "随着物联网的使用越来越普遍，随之而来的是大量设备造成的安全漏洞。在这样的环境下，物联网设备识别方法成为重要的预防性安全措施，可以识别这些设备并检测它们所面临的漏洞。本研究提出了一种使用长短时记忆（LSTM）的方法，在Aalto数据集中识别设备。",
+    "tldr": "本研究提出了一种使用LSTM进行物联网设备识别的方法，以预防安全威胁和检测漏洞为目标。",
+    "en_tdlr": "This study proposes an LSTM-based method for identifying IoT devices to prevent security threats and detect vulnerabilities."
+}

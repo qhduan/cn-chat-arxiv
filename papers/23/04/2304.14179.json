@@ -1,0 +1,12 @@
+{
+    "title": "NAP at SemEval-2023 Task 3: Is Less Really More? (Back-)Translation as Data Augmentation Strategies for Detecting Persuasion Techniques. (arXiv:2304.14179v1 [cs.CL])",
+    "abstract": "Persuasion techniques detection in news in a multi-lingual setup is non-trivial and comes with challenges, including little training data. Our system successfully leverages (back-)translation as data augmentation strategies with multi-lingual transformer models for the task of detecting persuasion techniques. The automatic and human evaluation of our augmented data allows us to explore whether (back-)translation aid or hinder performance. Our in-depth analyses indicate that both data augmentation strategies boost performance; however, balancing human-produced and machine-generated data seems to be crucial.",
+    "link": "http://arxiv.org/abs/2304.14179",
+    "context": "Title: NAP at SemEval-2023 Task 3: Is Less Really More? (Back-)Translation as Data Augmentation Strategies for Detecting Persuasion Techniques. (arXiv:2304.14179v1 [cs.CL])\nAbstract: Persuasion techniques detection in news in a multi-lingual setup is non-trivial and comes with challenges, including little training data. Our system successfully leverages (back-)translation as data augmentation strategies with multi-lingual transformer models for the task of detecting persuasion techniques. The automatic and human evaluation of our augmented data allows us to explore whether (back-)translation aid or hinder performance. Our in-depth analyses indicate that both data augmentation strategies boost performance; however, balancing human-produced and machine-generated data seems to be crucial.",
+    "path": "papers/23/04/2304.14179.json",
+    "total_tokens": 751,
+    "translated_title": "NAP在SemEval-2023任务3中：少是否真的更多？（回）翻译作为检测说服技巧的数据增强策略。",
+    "translated_abstract": "在多语言环境下检测新闻中的说服技巧是非常困难和具有挑战性的，其中包括很少的训练数据。我们的系统成功地利用多语言变压器模型的（回）翻译作为数据增强策略，用于检测说服技巧的任务。我们的自动化和人工评估允许我们探索（回）翻译是否有助于或阻碍性能。我们的深入分析表明，两种数据增强策略都可以提高性能；然而，平衡人工生产和机器生成的数据似乎至关重要。",
+    "tldr": "本文旨在探讨用少量数据在多语言环境下检测说服技巧的挑战，提出利用（回）翻译作为数据增强的策略，并证实平衡人工和机器生成数据的重要性。",
+    "en_tdlr": "This paper investigates the challenges of detecting persuasion techniques with limited training data in a multilingual environment, proposes the strategy of using (back-)translation as data augmentation, and verifies the importance of balancing human-produced and machine-generated data."
+}

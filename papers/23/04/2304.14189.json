@@ -1,0 +1,12 @@
+{
+    "title": "UIO at SemEval-2023 Task 12: Multilingual fine-tuning for sentiment classification in low-resource languages. (arXiv:2304.14189v1 [cs.CL])",
+    "abstract": "Our contribution to the 2023 AfriSenti-SemEval shared task 12: Sentiment Analysis for African Languages, provides insight into how a multilingual large language model can be a resource for sentiment analysis in languages not seen during pretraining. The shared task provides datasets of a variety of African languages from different language families. The languages are to various degrees related to languages used during pretraining, and the language data contain various degrees of code-switching. We experiment with both monolingual and multilingual datasets for the final fine-tuning, and find that with the provided datasets that contain samples in the thousands, monolingual fine-tuning yields the best results.",
+    "link": "http://arxiv.org/abs/2304.14189",
+    "context": "Title: UIO at SemEval-2023 Task 12: Multilingual fine-tuning for sentiment classification in low-resource languages. (arXiv:2304.14189v1 [cs.CL])\nAbstract: Our contribution to the 2023 AfriSenti-SemEval shared task 12: Sentiment Analysis for African Languages, provides insight into how a multilingual large language model can be a resource for sentiment analysis in languages not seen during pretraining. The shared task provides datasets of a variety of African languages from different language families. The languages are to various degrees related to languages used during pretraining, and the language data contain various degrees of code-switching. We experiment with both monolingual and multilingual datasets for the final fine-tuning, and find that with the provided datasets that contain samples in the thousands, monolingual fine-tuning yields the best results.",
+    "path": "papers/23/04/2304.14189.json",
+    "total_tokens": 736,
+    "translated_title": "SemEval-2023 任务12：用于低资源语言情感分类的多语言微调的UIO方法(arXiv:2304.14189v1 [cs.CL])",
+    "translated_abstract": "我们在2023年AfriSenti-SemEval分享任务12:非洲语言情感分析中的贡献，提供了一个多语言大语言模型如何成为在非预训练语言上进行情感分析的资源的见解。该任务提供了不同语系的各种非洲语言的数据集。这些语言在不同程度上与预训练所使用的语言有关，并且语言数据具有不同程度的代码切换。我们试验了单语和多语语料库进行最终微调，并发现对于包含成千上万个样本的提供数据集，单语微调产生最佳结果。",
+    "tldr": "本文介绍了通过使用多语言大语言模型进行非洲低资源语言情感分类的方法，并发现在提供的数据集中，使用单语微调的方法可以达到最佳结果。",
+    "en_tdlr": "This article introduces a method for sentiment classification in low-resource African languages by using a multilingual language model, and finds that using monolingual fine-tuning achieves the best results on the provided dataset."
+}

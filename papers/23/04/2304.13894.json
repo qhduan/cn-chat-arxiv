@@ -1,0 +1,12 @@
+{
+    "title": "CNN based IoT Device Identification. (arXiv:2304.13894v1 [cs.CR])",
+    "abstract": "While the use of the Internet of Things is becoming more and more popular, many security vulnerabilities are emerging with the large number of devices being introduced to the market. In this environment, IoT device identification methods provide a preventive security measure as an important factor in identifying these devices and detecting the vulnerabilities they suffer from. In this study, we present a method that identifies devices in the Aalto dataset using the convolutional neural network (CNN).",
+    "link": "http://arxiv.org/abs/2304.13894",
+    "context": "Title: CNN based IoT Device Identification. (arXiv:2304.13894v1 [cs.CR])\nAbstract: While the use of the Internet of Things is becoming more and more popular, many security vulnerabilities are emerging with the large number of devices being introduced to the market. In this environment, IoT device identification methods provide a preventive security measure as an important factor in identifying these devices and detecting the vulnerabilities they suffer from. In this study, we present a method that identifies devices in the Aalto dataset using the convolutional neural network (CNN).",
+    "path": "papers/23/04/2304.13894.json",
+    "total_tokens": 569,
+    "translated_title": "基于CNN的物联网设备识别",
+    "translated_abstract": "随着物联网的使用越来越普及，市场上引入了大量设备，导致许多安全漏洞的产生。在这种环境中，物联网设备识别方法作为识别这些设备并检测它们所受漏洞的重要因素，提供了一项预防性的安全措施。本研究提出了一种通过卷积神经网络（CNN）识别Aalto数据集中设备的方法。",
+    "tldr": "本研究提出了一种基于CNN的物联网设备识别方法，可对设备进行识别并检测其安全漏洞。",
+    "en_tdlr": "This study proposes a CNN based method for identifying IoT devices, which can identify devices and detect their security vulnerabilities."
+}

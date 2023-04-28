@@ -1,0 +1,12 @@
+{
+    "title": "Variational Bayes Made Easy. (arXiv:2304.14251v1 [cs.LG])",
+    "abstract": "Variational Bayes is a popular method for approximate inference but its derivation can be cumbersome. To simplify the process, we give a 3-step recipe to identify the posterior form by explicitly looking for linearity with respect to expectations of well-known distributions. We can then directly write the update by simply ``reading-off'' the terms in front of those expectations. The recipe makes the derivation easier, faster, shorter, and more general.",
+    "link": "http://arxiv.org/abs/2304.14251",
+    "context": "Title: Variational Bayes Made Easy. (arXiv:2304.14251v1 [cs.LG])\nAbstract: Variational Bayes is a popular method for approximate inference but its derivation can be cumbersome. To simplify the process, we give a 3-step recipe to identify the posterior form by explicitly looking for linearity with respect to expectations of well-known distributions. We can then directly write the update by simply ``reading-off'' the terms in front of those expectations. The recipe makes the derivation easier, faster, shorter, and more general.",
+    "path": "papers/23/04/2304.14251.json",
+    "total_tokens": 571,
+    "translated_title": "简化变分贝叶斯方法的推导过程",
+    "translated_abstract": "变分贝叶斯方法是一种流行的近似推断方法，但其推导过程可能很繁琐。为了简化这个过程，我们给出了一个三步骤的方法，通过显式寻找关于已知分布期望的线性性，来确定后验分布形式。然后我们可以直接通过“读取”这些期望前的项，写出更新。这个方法使得推导更加简单，快速，简短和通用。",
+    "tldr": "该论文提出了一个三步骤方法，简化了变分贝叶斯近似推断方法的推导过程。",
+    "en_tdlr": "The paper proposes a 3-step recipe to simplify the derivation of variational Bayes method for approximate inference, making it easier, faster, shorter and more general."
+}

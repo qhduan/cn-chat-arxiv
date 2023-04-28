@@ -1,0 +1,12 @@
+{
+    "title": "Consistency of MLE for partially observed diffusions, with application in market microstructure modeling. (arXiv:2201.07656v2 [math.ST] UPDATED)",
+    "abstract": "This paper presents a tractable sufficient condition for the consistency of maximum likelihood estimators (MLEs) in partially observed diffusion models, stated in terms of stationary distribution of the associated fully observed diffusion, under the assumption that the set of unknown parameter values is finite. This sufficient condition is then verified in the context of a latent price model of market microstructure, yielding consistency of maximum likelihood estimators of the unknown parameters in this model. Finally, we compute the latter estimators using historical financial data taken from the NASDAQ exchange.",
+    "link": "http://arxiv.org/abs/2201.07656",
+    "context": "Title: Consistency of MLE for partially observed diffusions, with application in market microstructure modeling. (arXiv:2201.07656v2 [math.ST] UPDATED)\nAbstract: This paper presents a tractable sufficient condition for the consistency of maximum likelihood estimators (MLEs) in partially observed diffusion models, stated in terms of stationary distribution of the associated fully observed diffusion, under the assumption that the set of unknown parameter values is finite. This sufficient condition is then verified in the context of a latent price model of market microstructure, yielding consistency of maximum likelihood estimators of the unknown parameters in this model. Finally, we compute the latter estimators using historical financial data taken from the NASDAQ exchange.",
+    "path": "papers/22/01/2201.07656.json",
+    "total_tokens": 711,
+    "translated_title": "部分观测扩散过程的极大似然估计一致性及在市场微观结构建模中的应用",
+    "translated_abstract": "本文提出了一个易于处理的足够条件，用于描述与完全观测的扩散过程相关的稳态分布，从而得出在未知参数值有限的情况下，极大似然估计量的一致性条件。我们将该足够条件应用于市场微观结构的潜在价格模型中，并验证了该模型下未知参数的极大似然估计量的一致性。最后，我们利用纳斯达克交易所的历史金融数据计算了这些估计值。",
+    "tldr": "本文提出了部分观测扩散过程的极大似然估计一致性的足够条件，并在市场微观结构建模中实现了该模型的未知参数的极大似然估计量的一致性。",
+    "en_tdlr": "This paper presents a tractable sufficient condition for the consistency of maximum likelihood estimators in partially observed diffusion models, and verifies it in the context of a latent price model of market microstructure, yielding consistency of maximum likelihood estimators of the unknown parameters."
+}

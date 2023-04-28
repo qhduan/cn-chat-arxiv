@@ -1,0 +1,11 @@
+{
+    "title": "ZeroShotDataAug: Generating and Augmenting Training Data with ChatGPT. (arXiv:2304.14334v1 [cs.AI])",
+    "abstract": "In this paper, we investigate the use of data obtained from prompting a large generative language model, ChatGPT, to generate synthetic training data with the aim of augmenting data in low resource scenarios. We show that with appropriate task-specific ChatGPT prompts, we outperform the most popular existing approaches for such data augmentation. Furthermore, we investigate methodologies for evaluating the similarity of the augmented data generated from ChatGPT with the aim of validating and assessing the quality of the data generated.",
+    "link": "http://arxiv.org/abs/2304.14334",
+    "context": "Title: ZeroShotDataAug: Generating and Augmenting Training Data with ChatGPT. (arXiv:2304.14334v1 [cs.AI])\nAbstract: In this paper, we investigate the use of data obtained from prompting a large generative language model, ChatGPT, to generate synthetic training data with the aim of augmenting data in low resource scenarios. We show that with appropriate task-specific ChatGPT prompts, we outperform the most popular existing approaches for such data augmentation. Furthermore, we investigate methodologies for evaluating the similarity of the augmented data generated from ChatGPT with the aim of validating and assessing the quality of the data generated.",
+    "path": "papers/23/04/2304.14334.json",
+    "total_tokens": 632,
+    "translated_title": "使用ChatGPT生成和增强的训练数据的ZeroShotDataAug",
+    "translated_abstract": "本文研究了利用大型生成语言模型ChatGPT生成合成训练数据的数据，以增强低资源情况下的数据。我们展示了，通过适当的面向特定任务的ChatGPT提示，我们优于现有的此类数据增强方法。此外，本文还研究了评估ChatGPT生成的增强数据相似度的方法，以验证和评估生成数据的质量。",
+    "tldr": "本论文研究了使用ChatGPT生成和增强训练数据的方法，证明在适当的特定任务的提示下，其效果优于现有方法，并提出了评估生成数据质量的方法。"
+}

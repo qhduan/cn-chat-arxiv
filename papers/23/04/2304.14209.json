@@ -1,0 +1,12 @@
+{
+    "title": "A transparent approach to data representation. (arXiv:2304.14209v1 [cs.LG])",
+    "abstract": "We use a binary attribute representation (BAR) model to describe a data set of Netflix viewers' ratings of movies. We classify the viewers with discrete bits rather than continuous parameters, which makes the representation compact and transparent. The attributes are easy to interpret, and we need far fewer attributes than similar methods do to achieve the same level of error. We also take advantage of the nonuniform distribution of ratings among the movies in the data set to train on a small selection of movies without compromising performance on the rest of the movies.",
+    "link": "http://arxiv.org/abs/2304.14209",
+    "context": "Title: A transparent approach to data representation. (arXiv:2304.14209v1 [cs.LG])\nAbstract: We use a binary attribute representation (BAR) model to describe a data set of Netflix viewers' ratings of movies. We classify the viewers with discrete bits rather than continuous parameters, which makes the representation compact and transparent. The attributes are easy to interpret, and we need far fewer attributes than similar methods do to achieve the same level of error. We also take advantage of the nonuniform distribution of ratings among the movies in the data set to train on a small selection of movies without compromising performance on the rest of the movies.",
+    "path": "papers/23/04/2304.14209.json",
+    "total_tokens": 647,
+    "translated_title": "一种透明化数据表示的方法",
+    "translated_abstract": "我们使用二元属性表示（BAR）模型来描述Netflix观众对电影的评分数据集。我们使用离散的二进制位而不是连续的参数对观众进行分类，这使得表示紧凑而透明。这些属性易于解释，我们需要比类似方法少得多的属性才能达到相同水平的误差。我们还利用数据集中电影评分的非均匀分布，在不影响其余电影性能的情况下，选择少量电影进行训练。",
+    "tldr": "使用二元属性表示模型对Netflix观众对电影的评分数据集进行数据表示，属性易于解释，且需要较少属性即可达到相同水平的误差。",
+    "en_tdlr": "A binary attribute representation (BAR) model is used to describe a dataset of Netflix viewers' movie ratings, with discrete bit classification for compact and transparent representation, resulting in fewer attributes required to achieve the same level of error. The non-uniform rating distribution among movies in the dataset is leveraged to train on a small selection of movies without sacrificing performance on the rest."
+}

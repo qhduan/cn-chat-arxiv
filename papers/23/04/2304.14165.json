@@ -1,0 +1,12 @@
+{
+    "title": "An Algorithm for Computing with Brauer's Group Equivariant Neural Network Layers. (arXiv:2304.14165v1 [cs.LG])",
+    "abstract": "The learnable, linear neural network layers between tensor power spaces of $\\mathbb{R}^{n}$ that are equivariant to the orthogonal group, $O(n)$, the special orthogonal group, $SO(n)$, and the symplectic group, $Sp(n)$, were characterised in arXiv:2212.08630. We present an algorithm for multiplying a vector by any weight matrix for each of these groups, using category theoretic constructions to implement the procedure. We achieve a significant reduction in computational cost compared with a naive implementation by making use of Kronecker product matrices to perform the multiplication. We show that our approach extends to the symmetric group, $S_n$, recovering the algorithm of arXiv:2303.06208 in the process.",
+    "link": "http://arxiv.org/abs/2304.14165",
+    "context": "Title: An Algorithm for Computing with Brauer's Group Equivariant Neural Network Layers. (arXiv:2304.14165v1 [cs.LG])\nAbstract: The learnable, linear neural network layers between tensor power spaces of $\\mathbb{R}^{n}$ that are equivariant to the orthogonal group, $O(n)$, the special orthogonal group, $SO(n)$, and the symplectic group, $Sp(n)$, were characterised in arXiv:2212.08630. We present an algorithm for multiplying a vector by any weight matrix for each of these groups, using category theoretic constructions to implement the procedure. We achieve a significant reduction in computational cost compared with a naive implementation by making use of Kronecker product matrices to perform the multiplication. We show that our approach extends to the symmetric group, $S_n$, recovering the algorithm of arXiv:2303.06208 in the process.",
+    "path": "papers/23/04/2304.14165.json",
+    "total_tokens": 768,
+    "translated_title": "一种计算Brauer群等变神经网络层的算法",
+    "translated_abstract": "在arXiv：2212.08630中，对介于$\\mathbb{R}^{n}$的张量幂空间之间的可等变于正交群，$O(n)$，特殊正交群，$SO(n)$，和辛群，$Sp(n)$的线性神经网络层进行了表征。本文提出了一种算法，使用范畴论构造来实现过程，通过利用Kronecker积矩阵来执行乘法，与简单的实现相比，实现了显著的计算成本减少。我们展示了我们的方法扩展到对称组，$S_n$，在此过程中恢复了arXiv：2303.06208的算法。",
+    "tldr": "本文提出一种算法，使用范畴论构造来实现的Brauer群等变神经网络层的乘积，同时采用Kronecker积矩阵，实现了显著的计算成本减少。",
+    "en_tdlr": "This paper presents an algorithm for multiplication of Brauer group equivariant neural network layers using Kronecker product matrices and category theoretic constructions, achieving a significant reduction in computational cost compared to a naive implementation. The method is also extended to the symmetric group."
+}

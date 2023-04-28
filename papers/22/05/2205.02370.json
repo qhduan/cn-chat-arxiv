@@ -1,0 +1,12 @@
+{
+    "title": "PREME: Preference-based Meeting Exploration through an Interactive Questionnaire. (arXiv:2205.02370v2 [cs.CL] UPDATED)",
+    "abstract": "The recent increase in the volume of online meetings necessitates automated tools for managing and organizing the material, especially when an attendee has missed the discussion and needs assistance in quickly exploring it. In this work, we propose a novel end-to-end framework for generating interactive questionnaires for preference-based meeting exploration. As a result, users are supplied with a list of suggested questions reflecting their preferences. Since the task is new, we introduce an automatic evaluation strategy. Namely, it measures how much the generated questions via questionnaire are answerable to ensure factual correctness and covers the source meeting for the depth of possible exploration.",
+    "link": "http://arxiv.org/abs/2205.02370",
+    "context": "Title: PREME: Preference-based Meeting Exploration through an Interactive Questionnaire. (arXiv:2205.02370v2 [cs.CL] UPDATED)\nAbstract: The recent increase in the volume of online meetings necessitates automated tools for managing and organizing the material, especially when an attendee has missed the discussion and needs assistance in quickly exploring it. In this work, we propose a novel end-to-end framework for generating interactive questionnaires for preference-based meeting exploration. As a result, users are supplied with a list of suggested questions reflecting their preferences. Since the task is new, we introduce an automatic evaluation strategy. Namely, it measures how much the generated questions via questionnaire are answerable to ensure factual correctness and covers the source meeting for the depth of possible exploration.",
+    "path": "papers/22/05/2205.02370.json",
+    "total_tokens": 705,
+    "translated_title": "通过交互式问卷进行基于偏好的会议探索的PREME",
+    "translated_abstract": "在线会议的数量不断增加，需要自动化工具来管理和组织材料，特别是当参与者错过讨论并需要帮助快速探索时。本文提出了一种新的端到端框架，用于生成基于偏好的会议探索的交互式问卷。结果，用户会获得一个推荐问题列表，以反映他们的偏好。由于这项任务是新的，我们引入了一种自动评估策略。即，它通过度量通过问卷生成的问题有多少可回答来确保事实的正确性，并为探索源会议的深度提供了覆盖。",
+    "tldr": "本论文提出了一个新的端到端框架，通过生成交互式问卷，实现基于偏好的会议探索，帮助用户快速探索会议内容。",
+    "en_tdlr": "This paper proposes a novel end-to-end framework for preference-based meeting exploration through generating interactive questionnaires, providing users with suggested questions reflecting their preferences. An automatic evaluation strategy is introduced to ensure factual correctness and depth coverage of the source meeting."
+}

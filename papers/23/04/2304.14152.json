@@ -1,0 +1,12 @@
+{
+    "title": "Spiking Neural Network Decision Feedback Equalization for IM/DD Systems. (arXiv:2304.14152v1 [cs.NE])",
+    "abstract": "A spiking neural network (SNN) equalizer with a decision feedback structure is applied to an IM/DD link with various parameters. The SNN outperforms linear and artificial neural network (ANN) based equalizers.",
+    "link": "http://arxiv.org/abs/2304.14152",
+    "context": "Title: Spiking Neural Network Decision Feedback Equalization for IM/DD Systems. (arXiv:2304.14152v1 [cs.NE])\nAbstract: A spiking neural network (SNN) equalizer with a decision feedback structure is applied to an IM/DD link with various parameters. The SNN outperforms linear and artificial neural network (ANN) based equalizers.",
+    "path": "papers/23/04/2304.14152.json",
+    "total_tokens": 551,
+    "translated_title": "基于脉冲神经网络的决策反馈均衡器用于IM/DD系统",
+    "translated_abstract": "本文研究了一种基于脉冲神经网络的决策反馈均衡器，并将其应用于IM/DD链路的各种参数。结果表明，与线性和人工神经网络（ANN）均衡器相比，脉冲神经网络均衡器具有更好的性能。",
+    "tldr": "本论文介绍了一种基于脉冲神经网络的决策反馈均衡器，用于IM/DD系统。实验表明，该均衡器的性能优于传统的线性均衡器和人工神经网络均衡器。",
+    "en_tdlr": "This paper proposes a spiking neural network equalizer with a decision feedback structure for IM/DD systems, which outperforms linear and artificial neural network based equalizers."
+}

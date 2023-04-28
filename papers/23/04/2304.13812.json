@@ -1,0 +1,12 @@
+{
+    "title": "Guaranteed Quantization Error Computation for Neural Network Model Compression. (arXiv:2304.13812v1 [cs.LG])",
+    "abstract": "Neural network model compression techniques can address the computation issue of deep neural networks on embedded devices in industrial systems. The guaranteed output error computation problem for neural network compression with quantization is addressed in this paper. A merged neural network is built from a feedforward neural network and its quantized version to produce the exact output difference between two neural networks. Then, optimization-based methods and reachability analysis methods are applied to the merged neural network to compute the guaranteed quantization error. Finally, a numerical example is proposed to validate the applicability and effectiveness of the proposed approach.",
+    "link": "http://arxiv.org/abs/2304.13812",
+    "context": "Title: Guaranteed Quantization Error Computation for Neural Network Model Compression. (arXiv:2304.13812v1 [cs.LG])\nAbstract: Neural network model compression techniques can address the computation issue of deep neural networks on embedded devices in industrial systems. The guaranteed output error computation problem for neural network compression with quantization is addressed in this paper. A merged neural network is built from a feedforward neural network and its quantized version to produce the exact output difference between two neural networks. Then, optimization-based methods and reachability analysis methods are applied to the merged neural network to compute the guaranteed quantization error. Finally, a numerical example is proposed to validate the applicability and effectiveness of the proposed approach.",
+    "path": "papers/23/04/2304.13812.json",
+    "total_tokens": 710,
+    "translated_title": "神经网络模型压缩的量化误差计算保证",
+    "translated_abstract": "神经网络模型压缩技术可以解决工业系统中嵌入式设备上的深度神经网络计算问题。本文解决了带有量化的神经网络压缩的保证输出误差计算问题。通过建立一个合并的神经网络，将前向神经网络和其量化版本合并，以产生两个神经网络之间的精确输出差异。然后，应用基于优化的方法和可达性分析方法到合并的神经网络中，计算保证的量化误差。最后，提出了一个数值例子来验证所提出方法的适用性和有效性。",
+    "tldr": "本文提出了一种通过建立合并的神经网络，应用优化方法和可达性分析方法来计算保证的量化误差的方法，解决了神经网络压缩的保证输出误差计算问题。",
+    "en_tdlr": "This paper proposes an approach that builds a merged neural network to produce the exact output difference between a feedforward neural network and its quantized version, and applies optimization-based methods and reachability analysis methods to compute the guaranteed quantization error, addressing the output error computation problem for neural network compression with quantization."
+}

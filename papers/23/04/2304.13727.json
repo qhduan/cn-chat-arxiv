@@ -1,0 +1,12 @@
+{
+    "title": "Ensemble CNNs for Breast Tumor Classification. (arXiv:2304.13727v1 [eess.IV])",
+    "abstract": "To improve the recognition ability of computer-aided breast mass classification among mammographic images, in this work we explore the state-of-the-art classification networks to develop an ensemble mechanism. First, the regions of interest (ROIs) are obtained from the original dataset, and then three models, i.e., XceptionNet, DenseNet, and EfficientNet, are trained individually. After training, we ensemble the mechanism by summing the probabilities outputted from each network which enhances the performance up to 5%. The scheme has been validated on a public dataset and we achieved accuracy, precision, and recall 88%, 85%, and 76% respectively.",
+    "link": "http://arxiv.org/abs/2304.13727",
+    "context": "Title: Ensemble CNNs for Breast Tumor Classification. (arXiv:2304.13727v1 [eess.IV])\nAbstract: To improve the recognition ability of computer-aided breast mass classification among mammographic images, in this work we explore the state-of-the-art classification networks to develop an ensemble mechanism. First, the regions of interest (ROIs) are obtained from the original dataset, and then three models, i.e., XceptionNet, DenseNet, and EfficientNet, are trained individually. After training, we ensemble the mechanism by summing the probabilities outputted from each network which enhances the performance up to 5%. The scheme has been validated on a public dataset and we achieved accuracy, precision, and recall 88%, 85%, and 76% respectively.",
+    "path": "papers/23/04/2304.13727.json",
+    "total_tokens": 679,
+    "translated_title": "集成CNN用于乳腺肿瘤分类",
+    "translated_abstract": "为了提高计算机辅助乳腺肿块分类的识别能力，本文探索了最先进的分类网络，并使用集成机制来提高分类性能。首先，从原始数据集中获取感兴趣区域（ROI），然后分别训练三个模型，即XceptionNet、DenseNet和EfficientNet。训练完成后，通过将每个网络输出的概率相加来集成机制，从而将性能提高了5%。该方案已在公共数据集上验证，并实现了88%的准确率、85%的精度和76%的召回率。",
+    "tldr": "本文使用集成CNN的方法对乳腺肿瘤进行分类，提高了分类性能5%以上，并在公共数据集上实现了高准确率、精度和召回率。",
+    "en_tdlr": "This paper proposes an ensemble CNN approach to classify breast tumors, which improves the classification performance by over 5% and achieves high accuracy, precision, and recall on a public dataset."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Categorising Products in an Online Marketplace: An Ensemble Approach. (arXiv:2304.13852v1 [cs.LG])",
+    "abstract": "In recent years, product categorisation has been a common issue for E-commerce companies who have utilised machine learning to categorise their products automatically. In this study, we propose an ensemble approach, using a combination of different models to separately predict each product's category, subcategory, and colour before ultimately combining the resultant predictions for each product. With the aforementioned approach, we show that an average F1-score of 0.82 can be achieved using a combination of XGBoost and k-nearest neighbours to predict said features.",
+    "link": "http://arxiv.org/abs/2304.13852",
+    "context": "Title: Categorising Products in an Online Marketplace: An Ensemble Approach. (arXiv:2304.13852v1 [cs.LG])\nAbstract: In recent years, product categorisation has been a common issue for E-commerce companies who have utilised machine learning to categorise their products automatically. In this study, we propose an ensemble approach, using a combination of different models to separately predict each product's category, subcategory, and colour before ultimately combining the resultant predictions for each product. With the aforementioned approach, we show that an average F1-score of 0.82 can be achieved using a combination of XGBoost and k-nearest neighbours to predict said features.",
+    "path": "papers/23/04/2304.13852.json",
+    "total_tokens": 636,
+    "translated_title": "在在线市场上对商品进行分类：一种集成方法",
+    "translated_abstract": "近年来，商品分类一直是电子商务公司面临的共同问题，他们利用机器学习来实现自动分类。在本研究中，我们提出了一种集成方法，使用不同模型的组合来单独预测每个产品的类别、子类别和颜色，最后将每个产品的结果预测汇总。通过上述方法，我们证明了使用XGBoost和k近邻结合来预测这些特征可以实现平均F1得分为0.82。",
+    "tldr": "本研究提出了一种使用集成方法将不同模型组合来自动分类商品的方法，并证明了该方法可以取得不错的分类效果，平均F1得分为0.82。",
+    "en_tdlr": "This study proposes an ensemble approach to automatically categorize products in an online marketplace using a combination of different models, and demonstrates that the approach can achieve a good classification performance with an average F1 score of 0.82."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Idioms, Probing and Dangerous Things: Towards Structural Probing for Idiomaticity in Vector Space. (arXiv:2304.14333v1 [cs.CL])",
+    "abstract": "The goal of this paper is to learn more about how idiomatic information is structurally encoded in embeddings, using a structural probing method. We repurpose an existing English verbal multi-word expression (MWE) dataset to suit the probing framework and perform a comparative probing study of static (GloVe) and contextual (BERT) embeddings. Our experiments indicate that both encode some idiomatic information to varying degrees, but yield conflicting evidence as to whether idiomaticity is encoded in the vector norm, leaving this an open question. We also identify some limitations of the used dataset and highlight important directions for future work in improving its suitability for a probing analysis.",
+    "link": "http://arxiv.org/abs/2304.14333",
+    "context": "Title: Idioms, Probing and Dangerous Things: Towards Structural Probing for Idiomaticity in Vector Space. (arXiv:2304.14333v1 [cs.CL])\nAbstract: The goal of this paper is to learn more about how idiomatic information is structurally encoded in embeddings, using a structural probing method. We repurpose an existing English verbal multi-word expression (MWE) dataset to suit the probing framework and perform a comparative probing study of static (GloVe) and contextual (BERT) embeddings. Our experiments indicate that both encode some idiomatic information to varying degrees, but yield conflicting evidence as to whether idiomaticity is encoded in the vector norm, leaving this an open question. We also identify some limitations of the used dataset and highlight important directions for future work in improving its suitability for a probing analysis.",
+    "path": "papers/23/04/2304.14333.json",
+    "total_tokens": 783,
+    "translated_title": "成语、探测和危险的事物：基于结构探测的词向量成语性研究。",
+    "translated_abstract": "本文旨在通过一种结构探测方法更深入地了解成语信息如何被嵌入到词嵌入中。我们重新利用了现有的英语动词复合词语（MWE）数据集来适应探测框架，并对静态（GloVe）和上下文（BERT）嵌入进行了比较探测研究。我们的实验表明，这两种方法都以不同程度编码了一些成语信息，但对于成语性是否在向量范数中编码给出了冲突的证据，这仍然是个未解之谜。我们还确定了所使用数据集的一些局限性，并强调了改进其适用性进行探测分析的重要方向。",
+    "tldr": "本文利用结构探测方法研究了成语在静态和上下文嵌入中的编码情况，并发现仍未确定成语性是否在向量范数中编码，提出了改进数据集以进行探测分析的方向。",
+    "en_tdlr": "This paper uses structural probing method to investigate the encoding of idiomatic information in static and contextual embeddings, and finds conflicting evidence as to whether idiomaticity is encoded in the vector norm, suggesting directions for improving the dataset for probing analysis."
+}

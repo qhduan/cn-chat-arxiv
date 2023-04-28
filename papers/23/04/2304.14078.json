@@ -1,0 +1,12 @@
+{
+    "title": "ganX -- generate artificially new XRF a python library to generate MA-XRF raw data out of RGB images. (arXiv:2304.14078v1 [physics.app-ph])",
+    "abstract": "In this paper we present the first version of ganX -- generate artificially new XRF, a Python library to generate X-ray fluorescence Macro maps (MA-XRF) from a coloured RGB image. To do that, a Monte Carlo method is used, where each MA-XRF pixel signal is sampled out of an XRF signal probability function. Such probability function is computed using a database of couples (pigment characteristic XRF signal, RGB), by a weighted sum of such pigment XRF signal by proximity of the image RGB to the pigment characteristic RGB. The library is released to PyPi and the code is available open source on GitHub.",
+    "link": "http://arxiv.org/abs/2304.14078",
+    "context": "Title: ganX -- generate artificially new XRF a python library to generate MA-XRF raw data out of RGB images. (arXiv:2304.14078v1 [physics.app-ph])\nAbstract: In this paper we present the first version of ganX -- generate artificially new XRF, a Python library to generate X-ray fluorescence Macro maps (MA-XRF) from a coloured RGB image. To do that, a Monte Carlo method is used, where each MA-XRF pixel signal is sampled out of an XRF signal probability function. Such probability function is computed using a database of couples (pigment characteristic XRF signal, RGB), by a weighted sum of such pigment XRF signal by proximity of the image RGB to the pigment characteristic RGB. The library is released to PyPi and the code is available open source on GitHub.",
+    "path": "papers/23/04/2304.14078.json",
+    "total_tokens": 728,
+    "translated_title": "ganX -- 一个生成MA-XRF原始数据的Python库，可以从RGB图像中生成X射线荧光宏观图谱",
+    "translated_abstract": "本文介绍了ganX -- generate artificially new XRF的第一个版本，这是一个Python库，可以从彩色RGB图像中生成X射线荧光宏观图谱(MA-XRF)。为了实现这一功能，使用了蒙特卡洛方法，其中每个MA-XRF像素信号都是从XRF信号概率函数中采样得到的。这个概率函数是通过使用(颜料特征XRF信号，RGB)的数据库，通过计算颜料XRF信号的加权和，以及图像RGB与颜料特征RGB的接近程度来计算的。该库已在PyPi上发布，并在GitHub上以开源的方式提供代码。",
+    "tldr": "ganX是一个Python库，可以从RGB图像中生成X射线荧光宏观图谱(MA-XRF)，使用了蒙特卡洛方法和颜料特征XRF信号的数据库实现。",
+    "en_tdlr": "ganX is a Python library that generates X-ray fluorescence macro maps (MA-XRF) from colored RGB images using a Monte Carlo method and a database of pigment characteristic XRF signals."
+}

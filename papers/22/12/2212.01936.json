@@ -1,0 +1,12 @@
+{
+    "title": "Democratizing Neural Machine Translation with OPUS-MT. (arXiv:2212.01936v2 [cs.CL] UPDATED)",
+    "abstract": "This paper presents the OPUS ecosystem with a focus on the development of open machine translation models and tools, and their integration into end-user applications, development platforms and professional workflows. We discuss our on-going mission of increasing language coverage and translation quality, and also describe on-going work on the development of modular translation models and speed-optimized compact solutions for real-time translation on regular desktops and small devices.",
+    "link": "http://arxiv.org/abs/2212.01936",
+    "context": "Title: Democratizing Neural Machine Translation with OPUS-MT. (arXiv:2212.01936v2 [cs.CL] UPDATED)\nAbstract: This paper presents the OPUS ecosystem with a focus on the development of open machine translation models and tools, and their integration into end-user applications, development platforms and professional workflows. We discuss our on-going mission of increasing language coverage and translation quality, and also describe on-going work on the development of modular translation models and speed-optimized compact solutions for real-time translation on regular desktops and small devices.",
+    "path": "papers/22/12/2212.01936.json",
+    "total_tokens": 693,
+    "translated_title": "用OPUS-MT实现神经机器翻译民主化",
+    "translated_abstract": "本文介绍了OPUS生态系统，重点介绍开放式机器翻译模型和工具的开发，以及它们与最终用户应用程序、开发平台和专业工作流程的整合。我们讨论了我们正在进行的增加语言覆盖范围和翻译质量的任务，还描述了正在进行的工作，包括模块化翻译模型的开发和面向常规桌面和小型设备实现实时翻译的速度优化紧凑解决方案。",
+    "tldr": "本文介绍了OPUS-MT生态系统的发展，包括开放式机器翻译模型和工具的开发，以及它们与最终用户应用程序、开发平台和专业工作流程的整合。通过增加语言覆盖范围和翻译质量，实现了神经机器翻译的民主化。",
+    "en_tdlr": "This paper presents the development of the OPUS-MT ecosystem which includes the development of open machine translation models and tools, and their integration into end-user applications, development platforms and professional workflows. By increasing language coverage and translation quality, the paper shows the democratization of neural machine translation."
+}

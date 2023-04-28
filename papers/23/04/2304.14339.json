@@ -1,0 +1,12 @@
+{
+    "title": "MarsEclipse at SemEval-2023 Task 3: Multi-Lingual and Multi-Label Framing Detection with Contrastive Learning. (arXiv:2304.14339v1 [cs.CL])",
+    "abstract": "This paper describes our system for SemEval-2023 Task 3 Subtask 2 on Framing Detection. We used a multi-label contrastive loss for fine-tuning large pre-trained language models in a multi-lingual setting, achieving very competitive results: our system was ranked first on the official test set and on the official shared task leaderboard for five of the six languages for which we had training data and for which we could perform fine-tuning. Here, we describe our experimental setup, as well as various ablation studies. The code of our system is available at https://github.com/QishengL/SemEval2023",
+    "link": "http://arxiv.org/abs/2304.14339",
+    "context": "Title: MarsEclipse at SemEval-2023 Task 3: Multi-Lingual and Multi-Label Framing Detection with Contrastive Learning. (arXiv:2304.14339v1 [cs.CL])\nAbstract: This paper describes our system for SemEval-2023 Task 3 Subtask 2 on Framing Detection. We used a multi-label contrastive loss for fine-tuning large pre-trained language models in a multi-lingual setting, achieving very competitive results: our system was ranked first on the official test set and on the official shared task leaderboard for five of the six languages for which we had training data and for which we could perform fine-tuning. Here, we describe our experimental setup, as well as various ablation studies. The code of our system is available at https://github.com/QishengL/SemEval2023",
+    "path": "papers/23/04/2304.14339.json",
+    "total_tokens": 716,
+    "translated_title": "MarsEclipse在SemEval-2023任务3中的多语言和多标签框架检测及对比学习方法",
+    "translated_abstract": "本文描述了我们在SemEval-2023任务3的子任务2上进行框架检测的系统。我们使用了多标签对比损失来微调大型预训练语言模型的多语言设置，取得了非常有竞争力的结果：我们的系统在官方测试集和官方排行榜上排名第一，对于我们有训练数据并能进行微调的六种语言中的五种语言。在这里，我们描述了我们的实验设置以及各种消融研究。我们的系统代码可在https://github.com/QishengL/SemEval2023上获得。",
+    "tldr": "本文描述了一种在多语言设置下使用多标签对比损失来微调大型预训练语言模型的方法，取得了在五种语言上最好的结果。",
+    "en_tdlr": "This paper presents a method of fine-tuning large pre-trained language models with multi-label contrastive loss in a multi-lingual setting for framing detection, achieving top results in five out of six languages with training data."
+}
