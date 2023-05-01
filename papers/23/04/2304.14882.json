@@ -1,0 +1,12 @@
+{
+    "title": "The ACM Multimedia 2023 Computational Paralinguistics Challenge: Emotion Share & Requests. (arXiv:2304.14882v1 [cs.SD])",
+    "abstract": "The ACM Multimedia 2023 Computational Paralinguistics Challenge addresses two different problems for the first time in a research competition under well-defined conditions: In the Emotion Share Sub-Challenge, a regression on speech has to be made; and in the Requests Sub-Challenges, requests and complaints need to be detected. We describe the Sub-Challenges, baseline feature extraction, and classifiers based on the usual ComPaRE features, the auDeep toolkit, and deep feature extraction from pre-trained CNNs using the DeepSpectRum toolkit; in addition, wav2vec2 models are used.",
+    "link": "http://arxiv.org/abs/2304.14882",
+    "context": "Title: The ACM Multimedia 2023 Computational Paralinguistics Challenge: Emotion Share & Requests. (arXiv:2304.14882v1 [cs.SD])\nAbstract: The ACM Multimedia 2023 Computational Paralinguistics Challenge addresses two different problems for the first time in a research competition under well-defined conditions: In the Emotion Share Sub-Challenge, a regression on speech has to be made; and in the Requests Sub-Challenges, requests and complaints need to be detected. We describe the Sub-Challenges, baseline feature extraction, and classifiers based on the usual ComPaRE features, the auDeep toolkit, and deep feature extraction from pre-trained CNNs using the DeepSpectRum toolkit; in addition, wav2vec2 models are used.",
+    "path": "papers/23/04/2304.14882.json",
+    "total_tokens": 654,
+    "translated_title": "ACM Multimedia 2023 计算语言学挑战赛：情感共享与请求",
+    "translated_abstract": "ACM Multimedia 2023 计算语言学挑战赛首次在明确定义的条件下解决了两个不同的问题：在情感共享子挑战中需要对语音进行回归，而在请求子挑战中需要检测请求和抱怨。我们描述了子挑战、基线特征提取和分类器，其中包括通常的 ComPaRE 特征、auDeep 工具包和使用预训练 CNN 的深度特征提取以及 wav2vec2 模型的使用。",
+    "tldr": "ACM Multimedia 2023 计算语言学挑战赛涉及情感共享和请求检测，提供了基线特征提取和分类器方法。",
+    "en_tdlr": "The ACM Multimedia 2023 Computational Paralinguistics Challenge addresses both emotion share and request detection, and provides baseline feature extraction and classifiers utilizing ComPaRE features, auDeep toolkit, pre-trained CNNs, and wav2vec2 models."
+}

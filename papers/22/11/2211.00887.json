@@ -1,0 +1,12 @@
+{
+    "title": "Certified Robustness of Quantum Classifiers against Adversarial Examples through Quantum Noise. (arXiv:2211.00887v2 [quant-ph] UPDATED)",
+    "abstract": "Recently, quantum classifiers have been found to be vulnerable to adversarial attacks, in which quantum classifiers are deceived by imperceptible noises, leading to misclassification. In this paper, we propose the first theoretical study demonstrating that adding quantum random rotation noise can improve robustness in quantum classifiers against adversarial attacks. We link the definition of differential privacy and show that the quantum classifier trained with the natural presence of additive noise is differentially private. Finally, we derive a certified robustness bound to enable quantum classifiers to defend against adversarial examples, supported by experimental results simulated with noises from IBM's 7-qubits device.",
+    "link": "http://arxiv.org/abs/2211.00887",
+    "context": "Title: Certified Robustness of Quantum Classifiers against Adversarial Examples through Quantum Noise. (arXiv:2211.00887v2 [quant-ph] UPDATED)\nAbstract: Recently, quantum classifiers have been found to be vulnerable to adversarial attacks, in which quantum classifiers are deceived by imperceptible noises, leading to misclassification. In this paper, we propose the first theoretical study demonstrating that adding quantum random rotation noise can improve robustness in quantum classifiers against adversarial attacks. We link the definition of differential privacy and show that the quantum classifier trained with the natural presence of additive noise is differentially private. Finally, we derive a certified robustness bound to enable quantum classifiers to defend against adversarial examples, supported by experimental results simulated with noises from IBM's 7-qubits device.",
+    "path": "papers/22/11/2211.00887.json",
+    "total_tokens": 714,
+    "translated_title": "通过量子噪声实现量子分类器对抗样本的可靠性认证",
+    "translated_abstract": "最近发现量子分类器容易受到对抗攻击，导致被不能察觉的噪声欺骗，从而造成分类错误。本文提出了第一个理论研究，证明添加量子随机旋转噪声可以提高量子分类器对抗攻击的鲁棒性。我们建立了差分私密性的定义，并展示了在自然存在加性噪声的情况下训练的量子分类器的差分私密性。最后，我们得出了一种证明性的鲁棒性边界，用IBM 7量子位设备产生的噪声进行了实验模拟支持。",
+    "tldr": "本文首次提出添加量子随机旋转噪声可以提高量子分类器对抗攻击的鲁棒性，并通过实验支持了一种证明性的鲁棒性边界。",
+    "en_tdlr": "This paper proposes adding quantum random rotation noise to improve the robustness of quantum classifiers against adversarial attacks, and derives a certified robustness bound supported by experimental results for the first time."
+}

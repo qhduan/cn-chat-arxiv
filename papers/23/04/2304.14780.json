@@ -1,0 +1,11 @@
+{
+    "title": "Training and Evaluation of a Multilingual Tokenizer for GPT-SW3. (arXiv:2304.14780v1 [cs.CL])",
+    "abstract": "This paper provides a detailed discussion of the multilingual tokenizer used for GPT-SW3. It was trained on the Nordic Pile using the SentencePiece library and the BPE algorithm. We outline the tokenizer's most important features and share details on its learned vocabulary. In addition, we systematically analyze the properties and evaluate the performance of the tokenizer with regard to the different languages present in the data.",
+    "link": "http://arxiv.org/abs/2304.14780",
+    "context": "Title: Training and Evaluation of a Multilingual Tokenizer for GPT-SW3. (arXiv:2304.14780v1 [cs.CL])\nAbstract: This paper provides a detailed discussion of the multilingual tokenizer used for GPT-SW3. It was trained on the Nordic Pile using the SentencePiece library and the BPE algorithm. We outline the tokenizer's most important features and share details on its learned vocabulary. In addition, we systematically analyze the properties and evaluate the performance of the tokenizer with regard to the different languages present in the data.",
+    "path": "papers/23/04/2304.14780.json",
+    "total_tokens": 586,
+    "translated_title": "GPT-SW3多语言分词器的训练与评估",
+    "translated_abstract": "本篇论文详细介绍了GPT-SW3所使用的多语言分词器。该分词器使用SentencePiece库和BPE算法在Nordic Pile上进行训练。我们概述了分词器的最重要特点，并分享了其学习词汇的细节。此外，我们系统地分析了分词器在数据中不同语言方面的性能，并进行了评估。",
+    "tldr": "本文介绍了GPT-SW3的多语言分词器，通过使用SentencePiece库和BPE算法在Nordic Pile上训练，评估了其对于不同语言的表现和性能。"
+}

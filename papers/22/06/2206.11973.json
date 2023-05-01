@@ -1,0 +1,12 @@
+{
+    "title": "Liquidity Risks in Lending Protocols: Evidence from Aave Protocol. (arXiv:2206.11973v4 [q-fin.RM] UPDATED)",
+    "abstract": "Lending Protocols (LPs), as blockchain-based lending systems, allow any agents to borrow and lend cryptocurrencies. However, liquidity risks could occur, especially when salient loans are initiated by a particular group of borrowers. This paper proposes measurements of liquidity risks, focusing on both available liquidity and market concentration in LPs. By using Aave as a case study, we find that liquidity risks are highly volatile and show complex effects on Aave, and liquidity in Aave may affect across on-chain lending market. Compared to new users, regular users that repeatedly borrow cryptocurrencies may negatively affect Aave protocol, implying that user loyalty is a double-edged sword for LPs.",
+    "link": "http://arxiv.org/abs/2206.11973",
+    "context": "Title: Liquidity Risks in Lending Protocols: Evidence from Aave Protocol. (arXiv:2206.11973v4 [q-fin.RM] UPDATED)\nAbstract: Lending Protocols (LPs), as blockchain-based lending systems, allow any agents to borrow and lend cryptocurrencies. However, liquidity risks could occur, especially when salient loans are initiated by a particular group of borrowers. This paper proposes measurements of liquidity risks, focusing on both available liquidity and market concentration in LPs. By using Aave as a case study, we find that liquidity risks are highly volatile and show complex effects on Aave, and liquidity in Aave may affect across on-chain lending market. Compared to new users, regular users that repeatedly borrow cryptocurrencies may negatively affect Aave protocol, implying that user loyalty is a double-edged sword for LPs.",
+    "path": "papers/22/06/2206.11973.json",
+    "total_tokens": 807,
+    "translated_title": "基于区块链的借贷协议中的流动性风险：以Aave协议为例",
+    "translated_abstract": "借贷协议（LPs）作为基于区块链的借贷系统，允许任何人借贷加密货币。然而，当一组特定的借款人启动显眼的贷款时，流动性风险可能会发生。本文提出了衡量LPs中流动性风险的方法，重点关注可用流动性和市场集中度。通过以Aave为案例研究，我们发现流动性风险非常不稳定，并对Aave产生复杂的影响，而Aave的流动性可能会影响链上借贷市场。与新用户相比，反复借入加密货币的定期用户可能会对Aave协议产生负面影响，这意味着用户忠诚度对LPs来说是一把双刃剑。",
+    "tldr": "本文研究了以Aave为例的基于区块链的借贷协议中的流动性风险，并提出了衡量方法。对于LPs来说，用户忠诚度是一把双刃剑。",
+    "en_tdlr": "This paper proposes measurements of liquidity risks in blockchain-based lending systems, focusing on Aave protocol as a case study. Loyalty of users is a double-edged sword for LPs, as repeated borrowing of cryptocurrencies by regular users may negatively affect the protocol."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Nontransitive Preferences and Stochastic Rationalizability: A Behavioral Equivalence. (arXiv:2304.14631v1 [econ.TH])",
+    "abstract": "Nontransitive choices have long been an area of curiosity within economics. However, determining whether nontransitive choices represent an individual's preference is a difficult task since choice data is inherently stochastic. This paper shows that behavior from nontransitive preferences under a monotonicity assumption is equivalent to a transitive stochastic choice model. In particular, nontransitive preferences are regularly interpreted as a strength of preference, so we assume alternatives are chosen proportionally to the nontransitive preference. One implication of this result is that one cannot distinguish ``complementarity in attention\" and ``complementarity in demand.\"",
+    "link": "http://arxiv.org/abs/2304.14631",
+    "context": "Title: Nontransitive Preferences and Stochastic Rationalizability: A Behavioral Equivalence. (arXiv:2304.14631v1 [econ.TH])\nAbstract: Nontransitive choices have long been an area of curiosity within economics. However, determining whether nontransitive choices represent an individual's preference is a difficult task since choice data is inherently stochastic. This paper shows that behavior from nontransitive preferences under a monotonicity assumption is equivalent to a transitive stochastic choice model. In particular, nontransitive preferences are regularly interpreted as a strength of preference, so we assume alternatives are chosen proportionally to the nontransitive preference. One implication of this result is that one cannot distinguish ``complementarity in attention\" and ``complementarity in demand.\"",
+    "path": "papers/23/04/2304.14631.json",
+    "total_tokens": 690,
+    "translated_title": "非传递偏好和随机合理性：一种行为等价性。",
+    "translated_abstract": "长期以来，非传递选择一直是经济学中一个引人注目的领域。然而，确定非传递选择是否代表个体的偏好是一项困难的任务，因为选择数据本质上是随机的。本文表明，在单调性假设下，非传递偏好的行为等同于一个传递的随机选择模型。特别地，非传递偏好通常被解释为偏好的强度，因此我们假设选择替代品是按照非传递偏好的比例选择的。这一结果的一个含义是，人们无法区分“注意力互补性”和“需求互补性”。",
+    "tldr": "本文揭示出在单调性假设下，非传递偏好的行为等价于一个传递的随机选择模型。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Unified Container Shipping Industry Data From 1966: Freight Rate, Shipping Quantity, Newbuilding, Secondhand, and Scrap Price. (arXiv:2211.16292v3 [econ.GN] UPDATED)",
+    "abstract": "We construct a new unified panel dataset that combines route-year-level freight rates with shipping quantities for the six major routes and industry-year-level newbuilding, secondhand, and scrap prices from 1966 (the beginning of the industry) to 2009. We offer detailed instructions on how to merge various datasets and validate the data's consistency by industry experts and former executives who have historical knowledge and experience. Using this dataset, we provide a quantitative and descriptive analysis of the industry dynamics known as the container crisis. Finally, we identify structural breaks for each variable to demonstrate the impact of the shipping cartels' collapse.",
+    "link": "http://arxiv.org/abs/2211.16292",
+    "context": "Title: Unified Container Shipping Industry Data From 1966: Freight Rate, Shipping Quantity, Newbuilding, Secondhand, and Scrap Price. (arXiv:2211.16292v3 [econ.GN] UPDATED)\nAbstract: We construct a new unified panel dataset that combines route-year-level freight rates with shipping quantities for the six major routes and industry-year-level newbuilding, secondhand, and scrap prices from 1966 (the beginning of the industry) to 2009. We offer detailed instructions on how to merge various datasets and validate the data's consistency by industry experts and former executives who have historical knowledge and experience. Using this dataset, we provide a quantitative and descriptive analysis of the industry dynamics known as the container crisis. Finally, we identify structural breaks for each variable to demonstrate the impact of the shipping cartels' collapse.",
+    "path": "papers/22/11/2211.16292.json",
+    "total_tokens": 715,
+    "translated_title": "从1966年开始的统一集装箱运输行业数据：货运率、运输量、新建、二手和报废价格。",
+    "translated_abstract": "我们构建了一个新的统一面板数据集，将六个主要航线的路线-年级货运率与运输量以及1966年至2009年的行业-年级新建、二手和报废价格相结合。我们提供了详细的数据合并说明，并由行业专家和有历史知识和经验的前高管验证了数据的一致性。利用这个数据集，我们提供了一个被称为集装箱危机的行业动态的定量和描述性分析。最后，我们确定了每个变量的结构性转折点，以展示运输联盟崩溃的影响。",
+    "tldr": "本文构建了一个统一的集装箱运输行业数据集，利用该数据集分析了行业动态和集装箱危机，并揭示了运输联盟崩溃的影响。",
+    "en_tdlr": "This paper constructs a unified dataset for the container shipping industry from 1966, analyzes industry dynamics and the container crisis, and identifies the impact of the collapse of shipping cartels."
+}

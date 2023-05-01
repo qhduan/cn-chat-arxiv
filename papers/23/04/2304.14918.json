@@ -1,0 +1,12 @@
+{
+    "title": "Representation Matters: The Game of Chess Poses a Challenge to Vision Transformers. (arXiv:2304.14918v1 [cs.AI])",
+    "abstract": "While transformers have gained the reputation as the \"Swiss army knife of AI\", no one has challenged them to master the game of chess, one of the classical AI benchmarks. Simply using vision transformers (ViTs) within AlphaZero does not master the game of chess, mainly because ViTs are too slow. Even making them more efficient using a combination of MobileNet and NextViT does not beat what actually matters: a simple change of the input representation and value loss, resulting in a greater boost of up to 180 Elo points over AlphaZero.",
+    "link": "http://arxiv.org/abs/2304.14918",
+    "context": "Title: Representation Matters: The Game of Chess Poses a Challenge to Vision Transformers. (arXiv:2304.14918v1 [cs.AI])\nAbstract: While transformers have gained the reputation as the \"Swiss army knife of AI\", no one has challenged them to master the game of chess, one of the classical AI benchmarks. Simply using vision transformers (ViTs) within AlphaZero does not master the game of chess, mainly because ViTs are too slow. Even making them more efficient using a combination of MobileNet and NextViT does not beat what actually matters: a simple change of the input representation and value loss, resulting in a greater boost of up to 180 Elo points over AlphaZero.",
+    "path": "papers/23/04/2304.14918.json",
+    "total_tokens": 658,
+    "translated_title": "表示很重要：棋盘游戏对视觉Transformer提出了挑战",
+    "translated_abstract": "虽然Transformer已经成为了“AI的瑞士军刀”，但没有人挑战它们去掌握象棋这个经典的AI基准。但仅仅使用视觉Transformer（ViT）在AlphaZero中无法掌握象棋，主要是因为ViT太慢了。即使使用MobileNet和NextViT的组合使它们更有效，也无法击败实际上更重要的东西：简单改变输入表示和价值损失，从而获得高达180 Elo点的增强。",
+    "tldr": "这篇论文通过改变输入表示和价值损失，使棋盘游戏性能获得了高达180 Elo点的增强",
+    "en_tdlr": "This paper improves the performance of chess games by up to 180 Elo points through a simple change in input representation and value loss. It challenges the reputation of vision transformers as the \"Swiss army knife of AI\" by showing that they are too slow for this classical AI benchmark."
+}

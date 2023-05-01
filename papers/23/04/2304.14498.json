@@ -1,0 +1,12 @@
+{
+    "title": "MWaste: A Deep Learning Approach to Manage Household Waste. (arXiv:2304.14498v1 [cs.CV])",
+    "abstract": "Computer vision methods have shown to be effective in classifying garbage into recycling categories for waste processing, existing methods are costly, imprecise, and unclear. To tackle this issue, we introduce MWaste, a mobile application that uses computer vision and deep learning techniques to classify waste materials as trash, plastic, paper, metal, glass or cardboard. Its effectiveness was tested on various neural network architectures and real-world images, achieving an average precision of 92\\% on the test set. This app can help combat climate change by enabling efficient waste processing and reducing the generation of greenhouse gases caused by incorrect waste disposal.",
+    "link": "http://arxiv.org/abs/2304.14498",
+    "context": "Title: MWaste: A Deep Learning Approach to Manage Household Waste. (arXiv:2304.14498v1 [cs.CV])\nAbstract: Computer vision methods have shown to be effective in classifying garbage into recycling categories for waste processing, existing methods are costly, imprecise, and unclear. To tackle this issue, we introduce MWaste, a mobile application that uses computer vision and deep learning techniques to classify waste materials as trash, plastic, paper, metal, glass or cardboard. Its effectiveness was tested on various neural network architectures and real-world images, achieving an average precision of 92\\% on the test set. This app can help combat climate change by enabling efficient waste processing and reducing the generation of greenhouse gases caused by incorrect waste disposal.",
+    "path": "papers/23/04/2304.14498.json",
+    "total_tokens": 759,
+    "translated_title": "MWaste：管理家庭垃圾的深度学习方法",
+    "translated_abstract": "计算机视觉方法已被证明在分类垃圾处理的回收分类方面很有效，但现有方法成本高、不精确且不清晰。为解决这个问题，我们介绍MWaste，一款移动应用程序，利用计算机视觉和深度学习技术将垃圾材料分类为垃圾、塑料、纸张、金属、玻璃或硬纸板。其有效性已在各种神经网络架构和真实世界图像上进行了测试，在测试集上达到了92％的平均精度。该应用程序可以通过使垃圾处理更有效并减少因不正确的垃圾处理而引起的温室气体排放来帮助应对气候变化。",
+    "tldr": "MWaste是一款基于深度学习的移动应用，能够有效地将垃圾材料分类为垃圾、塑料、纸张、金属、玻璃或硬纸板，可帮助应对气候变化。",
+    "en_tdlr": "MWaste is a mobile application based on deep learning, which can effectively classify waste materials as trash, plastic, paper, metal, glass, or cardboard, and can help combat climate change by enabling efficient waste processing."
+}

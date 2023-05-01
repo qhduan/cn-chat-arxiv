@@ -1,0 +1,12 @@
+{
+    "title": "Learning a Diffusion Prior for NeRFs. (arXiv:2304.14473v1 [cs.CV])",
+    "abstract": "Neural Radiance Fields (NeRFs) have emerged as a powerful neural 3D representation for objects and scenes derived from 2D data. Generating NeRFs, however, remains difficult in many scenarios. For instance, training a NeRF with only a small number of views as supervision remains challenging since it is an under-constrained problem. In such settings, it calls for some inductive prior to filter out bad local minima. One way to introduce such inductive priors is to learn a generative model for NeRFs modeling a certain class of scenes. In this paper, we propose to use a diffusion model to generate NeRFs encoded on a regularized grid. We show that our model can sample realistic NeRFs, while at the same time allowing conditional generations, given a certain observation as guidance.",
+    "link": "http://arxiv.org/abs/2304.14473",
+    "context": "Title: Learning a Diffusion Prior for NeRFs. (arXiv:2304.14473v1 [cs.CV])\nAbstract: Neural Radiance Fields (NeRFs) have emerged as a powerful neural 3D representation for objects and scenes derived from 2D data. Generating NeRFs, however, remains difficult in many scenarios. For instance, training a NeRF with only a small number of views as supervision remains challenging since it is an under-constrained problem. In such settings, it calls for some inductive prior to filter out bad local minima. One way to introduce such inductive priors is to learn a generative model for NeRFs modeling a certain class of scenes. In this paper, we propose to use a diffusion model to generate NeRFs encoded on a regularized grid. We show that our model can sample realistic NeRFs, while at the same time allowing conditional generations, given a certain observation as guidance.",
+    "path": "papers/23/04/2304.14473.json",
+    "total_tokens": 802,
+    "translated_title": "学习扩散先验用于NeRFs",
+    "translated_abstract": "神经辐射场（NeRFs）已成为从2D数据派生出的物体和场景的强大神经3D表示。然而，在许多情况下，生成NeRFs仍然是困难的。例如，只使用少量视图作为监督训练NeRFs仍然具有挑战性，因为它是一个欠参数问题。在这种情况下，需要一些归纳先验来过滤不良局部最小值。引入这样的归纳先验的一种方法是学习NeRFs的生成模型，该模型建模某类场景。在本文中，我们提出使用扩散模型生成编码在规则网格上的NeRFs。我们表明，我们的模型可以采样出逼真的NeRFs，并同时允许有条件的生成，给定某个观察作为指导。",
+    "tldr": "本文提出了一种使用扩散模型生成编码在规则网格上的NeRFs的方法，该方法可以采样出逼真的NeRFs，并允许有条件的生成，给定某个观察作为指导。",
+    "en_tdlr": "This paper proposes a method of using a diffusion model to generate NeRFs encoded on a regularized grid, which can sample realistic NeRFs and allow conditional generations given a certain observation as guidance."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "A New Quantum Dempster Rule of Combination. (arXiv:2304.14966v1 [quant-ph])",
+    "abstract": "Dempster rule of combination (DRC) is widely used for uncertainty reasoning in intelligent information system, which is generalized to complex domain recently. However, as the increase of identification framework elements, the computational complexity of Dempster Rule of Combination increases exponentially. To address this issue, we propose a novel quantum Dempster rule of combination (QDRC) by means of Toffoli gate. The QDRC combination process is completely implemented using quantum circuits.",
+    "link": "http://arxiv.org/abs/2304.14966",
+    "context": "Title: A New Quantum Dempster Rule of Combination. (arXiv:2304.14966v1 [quant-ph])\nAbstract: Dempster rule of combination (DRC) is widely used for uncertainty reasoning in intelligent information system, which is generalized to complex domain recently. However, as the increase of identification framework elements, the computational complexity of Dempster Rule of Combination increases exponentially. To address this issue, we propose a novel quantum Dempster rule of combination (QDRC) by means of Toffoli gate. The QDRC combination process is completely implemented using quantum circuits.",
+    "path": "papers/23/04/2304.14966.json",
+    "total_tokens": 605,
+    "translated_title": "一种新的量子Dempster组合规则",
+    "translated_abstract": "Dempster组合规则（DRC）被广泛用于智能信息系统中的不确定性推理，最近也被推广到了复杂领域。然而，随着识别框架元素数量的增加，Dempster组合规则的计算复杂度会呈指数级增长。为了解决这个问题，我们通过Toffoli门提出了一种新的量子Dempster组合规则（QDRC）。QDRC组合过程完全使用量子电路实现。",
+    "tldr": "该论文提出了一种新的量子Dempster组合规则（QDRC），利用Toffoli门实现，能够应对Dempster组合规则计算复杂度指数级增长的问题。",
+    "en_tdlr": "The paper proposes a novel quantum Dempster rule of combination (QDRC) using Toffoli gate to address the exponential increase of computational complexity in the Dempster rule of combination."
+}

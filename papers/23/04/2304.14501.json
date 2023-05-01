@@ -1,0 +1,12 @@
+{
+    "title": "Read My Mind: A Multi-Modal Dataset for Human Belief Prediction. (arXiv:2304.14501v1 [cs.CV])",
+    "abstract": "Understanding human intentions is key to enabling effective and efficient human-robot interaction (HRI) in collaborative settings. To enable developments and evaluation of the ability of artificial intelligence (AI) systems to infer human beliefs, we introduce a large-scale multi-modal video dataset for intent prediction based on object-context relations.",
+    "link": "http://arxiv.org/abs/2304.14501",
+    "context": "Title: Read My Mind: A Multi-Modal Dataset for Human Belief Prediction. (arXiv:2304.14501v1 [cs.CV])\nAbstract: Understanding human intentions is key to enabling effective and efficient human-robot interaction (HRI) in collaborative settings. To enable developments and evaluation of the ability of artificial intelligence (AI) systems to infer human beliefs, we introduce a large-scale multi-modal video dataset for intent prediction based on object-context relations.",
+    "path": "papers/23/04/2304.14501.json",
+    "total_tokens": 530,
+    "translated_title": "读懂我的想法：一个用于人类信念预测的多模态数据集",
+    "translated_abstract": "理解人类意图对于实现有效和高效的人机交互至关重要。为了使人工智能系统推断人类信念的能力得到发展和评估，我们介绍了一个基于物体环境关系的大规模多模态视频数据集，用于意图预测。",
+    "tldr": "该论文提出了一个大规模多模态视频数据集，用于人类信念预测，以促进人工智能系统推断人类信念的发展和评估。",
+    "en_tdlr": "This paper introduces a large-scale multi-modal video dataset for intent prediction based on object-context relations to enable the development and evaluation of artificial intelligence systems' ability to infer human beliefs."
+}

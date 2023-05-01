@@ -1,0 +1,12 @@
+{
+    "title": "A logical word embedding for learning grammar. (arXiv:2304.14590v1 [cs.CL])",
+    "abstract": "We introduce the logical grammar emdebbing (LGE), a model inspired by pregroup grammars and categorial grammars to enable unsupervised inference of lexical categories and syntactic rules from a corpus of text. LGE produces comprehensible output summarizing its inferences, has a completely transparent process for producing novel sentences, and can learn from as few as a hundred sentences.",
+    "link": "http://arxiv.org/abs/2304.14590",
+    "context": "Title: A logical word embedding for learning grammar. (arXiv:2304.14590v1 [cs.CL])\nAbstract: We introduce the logical grammar emdebbing (LGE), a model inspired by pregroup grammars and categorial grammars to enable unsupervised inference of lexical categories and syntactic rules from a corpus of text. LGE produces comprehensible output summarizing its inferences, has a completely transparent process for producing novel sentences, and can learn from as few as a hundred sentences.",
+    "path": "papers/23/04/2304.14590.json",
+    "total_tokens": 625,
+    "translated_title": "一种用于学习语法的逻辑词嵌入模型",
+    "translated_abstract": "我们介绍了一种逻辑语法嵌入(LGE)模型，该模型受到了组合语法和类别语法的启发，可以从文本语料库中对词汇类别和句法规则进行无监督推理。 LGE产生了简明易懂的输出，能够透明地生成新句子，并且可以从仅有一百句话的语料中进行学习。",
+    "tldr": "这篇论文介绍了一种逻辑语法嵌入模型(LGE)，它可以从文本语料库中无监督进行推理，产生简明易懂的输出，能够透明地生成新句子，并且可以从仅有一百句话的语料中进行学习。",
+    "en_tdlr": "This paper introduces a logical grammar embedding (LGE) model, which can perform unsupervised inference of lexical categories and syntactic rules from text corpus, produces comprehensible output, has a transparent process for generating new sentences, and can learn from as few as a hundred sentences."
+}

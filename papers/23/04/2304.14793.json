@@ -1,0 +1,12 @@
+{
+    "title": "Learning Graph Neural Networks using Exact Compression. (arXiv:2304.14793v1 [cs.LG])",
+    "abstract": "Graph Neural Networks (GNNs) are a form of deep learning that enable a wide range of machine learning applications on graph-structured data. The learning of GNNs, however, is known to pose challenges for memory-constrained devices such as GPUs. In this paper, we study exact compression as a way to reduce the memory requirements of learning GNNs on large graphs. In particular, we adopt a formal approach to compression and propose a methodology that transforms GNN learning problems into provably equivalent compressed GNN learning problems. In a preliminary experimental evaluation, we give insights into the compression ratios that can be obtained on real-world graphs and apply our methodology to an existing GNN benchmark.",
+    "link": "http://arxiv.org/abs/2304.14793",
+    "context": "Title: Learning Graph Neural Networks using Exact Compression. (arXiv:2304.14793v1 [cs.LG])\nAbstract: Graph Neural Networks (GNNs) are a form of deep learning that enable a wide range of machine learning applications on graph-structured data. The learning of GNNs, however, is known to pose challenges for memory-constrained devices such as GPUs. In this paper, we study exact compression as a way to reduce the memory requirements of learning GNNs on large graphs. In particular, we adopt a formal approach to compression and propose a methodology that transforms GNN learning problems into provably equivalent compressed GNN learning problems. In a preliminary experimental evaluation, we give insights into the compression ratios that can be obtained on real-world graphs and apply our methodology to an existing GNN benchmark.",
+    "path": "papers/23/04/2304.14793.json",
+    "total_tokens": 751,
+    "translated_title": "利用精确压缩学习图神经网络",
+    "translated_abstract": "图神经网络是一种深度学习技术，可以对图结构数据进行广泛的机器学习应用。学习这种网络，然而，对于内存受限的设备（如GPU）来说是一大挑战。本文研究了利用精确压缩来减少在大型图上学习图神经网络的内存需求。具体而言，我们采用了一种形式化压缩方法，并提出了一种方法，将图神经网络学习问题转化为证明等效的压缩图神经网络学习问题。在初步的实验评估中，我们洞察了真实世界图上可以获得的压缩比，并将我们的方法应用于现有的一个图神经网络基准测试。",
+    "tldr": "本文研究了利用精确压缩来减少在大型图上学习图神经网络的内存需求，并提出了一种证明等效的压缩图神经网络学习问题的方法。",
+    "en_tdlr": "This paper studies the use of exact compression to reduce memory requirements for learning Graph Neural Networks on large graphs, and proposes a methodology that transforms GNN learning problems into provably equivalent compressed GNN learning problems."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "A Chain Rule for the Expected Suprema of Bernoulli Processes. (arXiv:2304.14474v1 [math.PR])",
+    "abstract": "We obtain an upper bound on the expected supremum of a Bernoulli process indexed by the image of an index set under a uniformly Lipschitz function class in terms of properties of the index set and the function class, extending an earlier result of Maurer for Gaussian processes. The proof makes essential use of recent results of Bednorz and Latala on the boundedness of Bernoulli processes.",
+    "link": "http://arxiv.org/abs/2304.14474",
+    "context": "Title: A Chain Rule for the Expected Suprema of Bernoulli Processes. (arXiv:2304.14474v1 [math.PR])\nAbstract: We obtain an upper bound on the expected supremum of a Bernoulli process indexed by the image of an index set under a uniformly Lipschitz function class in terms of properties of the index set and the function class, extending an earlier result of Maurer for Gaussian processes. The proof makes essential use of recent results of Bednorz and Latala on the boundedness of Bernoulli processes.",
+    "path": "papers/23/04/2304.14474.json",
+    "total_tokens": 597,
+    "translated_title": "一项针对伯努利过程期望最大值的链式规则",
+    "translated_abstract": "我们得出了一个关于伯努利过程期望最大值的上限界限，该界限由指数集在均匀利普希茨函数类下的属性和函数类得出，拓展了Maurer针对高斯过程的早期结果。证明必须基于Bednorz和Latala针对伯努利过程有界性的最近结果。",
+    "tldr": "该论文得出了一个关于伯努利过程期望最大值的上限界限，该界限由指数集在均匀利普希茨函数类下的属性和函数类得出。",
+    "en_tdlr": "This paper obtains an upper bound on the expected supremum of a Bernoulli process indexed by the image of an index set under a uniformly Lipschitz function class in terms of properties of the index set and the function class, extending an earlier result of Maurer for Gaussian processes."
+}

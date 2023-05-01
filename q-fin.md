@@ -2,32 +2,61 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Monetary policy and the joint distribution of income and wealth: The heterogeneous case of the euro area.](http://arxiv.org/abs/2304.14264) | 本文研究了欧元区不同国家中收入与净财富之间的依赖程度和不平等性，并探讨了货币政策措施对其的影响。 |
-| [^2] | [Optimal Covariance Cleaning for Heavy-Tailed Distributions: Insights from Information Theory.](http://arxiv.org/abs/2304.14098) | 本文从信息论的角度探讨了最优协方差清除理论在重尾分布下的问题。 |
-| [^3] | [STraM: a framework for strategic national freight transport modeling.](http://arxiv.org/abs/2304.14001) | STraM为长期规划提供了更具动态性的国家货运运输建模框架，可以评估政策和投资措施对环境、能源和经济的影响。 |
-| [^4] | [High-frequency Anticipatory Trading and Its Influences: Small Informed Trader vs. Front-runner.](http://arxiv.org/abs/2304.13985) | 本文研究了大内幕交易者与能够预测其订单的高频交易者之间的互动，发现高频交易者的策略与库存厌恶、预测准确性和市场活跃度有关，而其行为对大交易者有不同的影响。 |
-| [^5] | [Racial and income-based affirmative action in higher education admissions: lessons from the Brazilian experience.](http://arxiv.org/abs/2304.13936) | 本文分析了巴西高等教育系统中平衡配额制的实施方法和实证证据，发现基于种族的平衡配额制度可提高黑人学生在联邦大学的比例，同时对劳动力市场产生正面影响，对受益者带来长期福利，没有负面后果。 |
-| [^6] | [Selecting Sustainable Optimal Stock by Using Multi-Criteria Fuzzy Decision-Making Approaches Based on the Development of the Gordon Model: A case study of the Toronto Stock Exchange.](http://arxiv.org/abs/2304.13818) | 本文采用基于Gordon模型的综合评估与多指标模糊决策方法，在多伦多证券交易所选取高效率最优股票组合的标准。 |
-| [^7] | [The effect of ambient air pollution on birth outcomes in Norway.](http://arxiv.org/abs/2208.06271) | 本研究发现孕期暴露于环境中的氮氧化物会对出生结果产生负面影响，而其他的大气污染物则在挪威的胎儿处于安全水平。不仅如此，孕期暴露于氮氧化物的负面效应对处于劣势家长的新生儿更为严重。 |
-| [^8] | [Consistency of MLE for partially observed diffusions, with application in market microstructure modeling.](http://arxiv.org/abs/2201.07656) | 本文提出了部分观测扩散过程的极大似然估计一致性的足够条件，并在市场微观结构建模中实现了该模型的未知参数的极大似然估计量的一致性。 |
+| [^1] | [Political Strategies to Overcome Climate Policy Obstructionism.](http://arxiv.org/abs/2304.14960) | 本文提出了克服气候政策阻挠主义的五种策略：安抚、共同发起变革、制度主义、对抗和抵消。 |
+| [^2] | [Greening our Laws: Revising Land Acquisition Law for Coal Mining in India.](http://arxiv.org/abs/2304.14941) | 本文研究印度的CBAA法律，该法律没有充分考虑社会和环境成本，给煤炭开发带来不当优势。作者建议更新土地收购法律以提高透明度和保护环境。 |
+| [^3] | [Deep Stock: training and trading scheme using deep learning.](http://arxiv.org/abs/2304.14870) | 本文提出了一种使用深度学习进行训练和交易的方案，DeepStock通过查看股票价格的过去数据，并使用Resnet和logits来预测股票价格在未来D天内是否会升降一定百分比，并在韩国和美国市场上取得了超过市场回报的利润。 |
+| [^4] | [Optimal Covariance Cleaning for Heavy-Tailed Distributions: Insights from Information Theory.](http://arxiv.org/abs/2304.14098) | 本文从信息论的角度探讨了最优协方差清除理论在重尾分布下的问题。 |
+| [^5] | [Climate uncertainty impacts on optimal mitigation pathways and social cost of carbon.](http://arxiv.org/abs/2304.08957) | 研究表明，气候不确定性是导致碳社会成本和最优CO$_2$减排量范围变化的关键因素，减少气候不确定性可以改进减排投入的成本计算，同时也指出了气候和排放之间缺失的反馈。 |
+| [^6] | [The Wall Street Neophyte: A Zero-Shot Analysis of ChatGPT Over MultiModal Stock Movement Prediction Challenges.](http://arxiv.org/abs/2304.05351) | 本研究对ChatGPT在股票预测方面进行了零样本分析，结果表明其预测股票移动的表现不如最先进和传统方法，需要进一步改进。 |
+| [^7] | [Bipolar Theorems for Sets of Non-negative Random Variables.](http://arxiv.org/abs/2212.14259) | 本文提出了非负随机变量集合的双极定理的必要和充分条件，扩展和统一了现有的在强健框架上证明的双极定理。 |
+| [^8] | [Unified Container Shipping Industry Data From 1966: Freight Rate, Shipping Quantity, Newbuilding, Secondhand, and Scrap Price.](http://arxiv.org/abs/2211.16292) | 本文构建了一个统一的集装箱运输行业数据集，利用该数据集分析了行业动态和集装箱危机，并揭示了运输联盟崩溃的影响。 |
+| [^9] | [Liquidity Risks in Lending Protocols: Evidence from Aave Protocol.](http://arxiv.org/abs/2206.11973) | 本文研究了以Aave为例的基于区块链的借贷协议中的流动性风险，并提出了衡量方法。对于LPs来说，用户忠诚度是一把双刃剑。 |
 
 # 详细
 
-[^1]: 货币政策与收入财富联合分布：欧元区异质性情况研究
+[^1]: 克服气候政策阻挠的政治策略
 
-    Monetary policy and the joint distribution of income and wealth: The heterogeneous case of the euro area. (arXiv:2304.14264v1 [econ.GN])
+    Political Strategies to Overcome Climate Policy Obstructionism. (arXiv:2304.14960v1 [econ.GN])
 
-    [http://arxiv.org/abs/2304.14264](http://arxiv.org/abs/2304.14264)
+    [http://arxiv.org/abs/2304.14960](http://arxiv.org/abs/2304.14960)
 
-    本文研究了欧元区不同国家中收入与净财富之间的依赖程度和不平等性，并探讨了货币政策措施对其的影响。
+    本文提出了克服气候政策阻挠主义的五种策略：安抚、共同发起变革、制度主义、对抗和抵消。
 
     
 
-    本文旨在确定欧元区某些国家中收入、净财富及其联合分布之间的经验关系。作者使用半参数估计Copula方法估算了收入和净财富之间的依赖程度并计算了双变量基尼系数。通过将来自宏观水平向量自回归的结构性推断与使用微观经济数据的模拟相结合，作者研究了传统和非传统货币政策措施对联合分布的影响。结果表明，货币政策的影响在不同国家之间高度异质性，在收入和净财富的依赖性以及不平等方面都是如此。
+    伴随着大型社会经济转型，某些行业的衰落和其他行业的崛起是不可避免的。输掉这场转型的一方往往会采取各种策略来阻挠变革。我们提出了一个政治经济模型来分析利益集团的竞争，并验证了在全球气候运动中采用的策略。我们归纳出克服阻挠主义的五种策略：（1）安抚，即对输家进行补偿；（2）共同发起变革，与现有企业合作实现变革；（3）制度主义，通过改变公共机构来支持脱碳；（4）对抗，即通过声誉或诉讼成本来制衡不作为；（5）抵消，即使低碳替代品更具竞争力。我们认为每种策略从不同的角度解决了阻挠问题，反映了多样化的行动。
 
-    This papers aims to establish the empirical relationship between income, net wealth and their joint distribution in a selected group of euro area countries. I estimate measures of dependence between income and net wealth using a semiparametric copula approach and calculate a bivariate Gini coefficient. By combining structural inference from vector autoregressions on the macroeconomic level with a simulation using microeconomic data, I investigate how conventional and unconventional monetary policy measures affect the joint distribution. Results indicate that effects of monetary policy are highly heterogeneous across different countries, both in terms of the dependence of income and net wealth on each other, and in terms of inequality in both income and net wealth.
+    Great socio-economic transitions see the demise of certain industries and the rise of others. The losers of the transition tend to deploy a variety of tactics to obstruct change. We develop a political-economy model of interest group competition and garner evidence of tactics deployed in the global climate movement. From this we deduce a set of strategies for how the climate movement competes against entrenched hydrocarbon interests. Five strategies for overcoming obstructionism emerge: (1) Appeasement, which involves compensating the losers; (2) Co-optation, which seeks to instigate change by working with incumbents; (3) Institutionalism, which involves changes to public institutions to support decarbonization; (4) Antagonism, which creates reputational or litigation costs to inaction; and (5) Countervailance, which makes low-carbon alternatives more competitive. We argue that each strategy addresses the problem of obstructionism through a different lens, reflecting a diversity of act
     
-[^2]: 从信息理论的角度探讨重尾分布下的最优协方差清除
+[^2]: 绿色法律：修订印度煤矿土地收购法律
+
+    Greening our Laws: Revising Land Acquisition Law for Coal Mining in India. (arXiv:2304.14941v1 [econ.GN])
+
+    [http://arxiv.org/abs/2304.14941](http://arxiv.org/abs/2304.14941)
+
+    本文研究印度的CBAA法律，该法律没有充分考虑社会和环境成本，给煤炭开发带来不当优势。作者建议更新土地收购法律以提高透明度和保护环境。
+
+    
+
+    管理土地收购的法律可能会锁定旧的范例。我们研究了一个这样的例子，即1957年的煤炭领域法案（CBAA），它提供了最少的社会和环境保护，与2013年公平补偿和土地收购透明度法（LARR）存在重要差异。CBAA缺乏尽职调查协议，使得煤炭开发具有不当的比较优势，这与印度主张逐步减少煤炭使用、降低空气污染、推进现代能源的立场不一致。我们认为，历史上CBAA被证明是合理的前提已不再有效，因为当地环境和社会成本更加显著，市场上有更为清洁的能源替代品，成本具有竞争力。我们建议更新土地收购法律，将煤炭纳入LARR的总体监管范围，或至少修改CBAA以便建立更透明的程序来保证社会和环境保护。
+
+    Laws that govern land acquisition can lock in old paradigms. We study one such case, the Coal Bearing Areas Act of 1957 (CBAA) which provides minimal social and environmental safegaurds, and deviates in important ways from the Right to Fair Compensation and Transparency in Land Acquisition, Rehabilitation and Resettlement Act 2013 (LARR). The lack of due diligence protocol in the CBAA confers an undue comparative advantage to coal development, which is inconsistent with India's stance to phase down coal use, reduce air pollution, and advance modern sources of energy. We argue that the premise under which the CBAA was historically justified is no longer valid due to a significant change in the local context. Namely, the environmental and social costs of coal energy are far more salient and the market has cleaner energy alternatives that are cost competitive. We recommend updating land acquisition laws to bring coal under the general purview of LARR or, at minimum, amending the CBAA to e
+    
+[^3]: Deep Stock: 使用深度学习进行训练和交易的方案
+
+    Deep Stock: training and trading scheme using deep learning. (arXiv:2304.14870v1 [q-fin.ST])
+
+    [http://arxiv.org/abs/2304.14870](http://arxiv.org/abs/2304.14870)
+
+    本文提出了一种使用深度学习进行训练和交易的方案，DeepStock通过查看股票价格的过去数据，并使用Resnet和logits来预测股票价格在未来D天内是否会升降一定百分比，并在韩国和美国市场上取得了超过市场回报的利润。
+
+    
+
+    尽管有效市场假说存在，但许多研究表明股票市场存在失灵现象，导致出现了一些能够获得超过市场回报的技术，即alpha。近几十年来，系统性交易已经取得了重大进展，深度学习作为分析和预测市场行为的强大工具已经开始崭露头角。本文中，我们提出了一种受专业交易员启发的模型，该模型查看先前的600天的股票价格，并预测股票价格在接下来D天内是否会升降一定百分比。我们的模型称为DeepStock，使用Resnet的跳跃连接和logits来增加模型在交易方案中的概率。我们在韩国和美国股票市场上测试了我们的模型，并在韩国市场上获得了N％的利润，超过市场回报M％，并在美国市场上获得了A％的利润，超过市场回报B％。
+
+    Despite the efficient market hypothesis, many studies suggest the existence of inefficiencies in the stock market, leading to the development of techniques to gain above-market returns, known as alpha. Systematic trading has undergone significant advances in recent decades, with deep learning emerging as a powerful tool for analyzing and predicting market behavior. In this paper, we propose a model inspired by professional traders that look at stock prices of the previous 600 days and predicts whether the stock price rises or falls by a certain percentage within the next D days. Our model, called DeepStock, uses Resnet's skip connections and logits to increase the probability of a model in a trading scheme. We test our model on both the Korean and US stock markets and achieve a profit of N\% on Korea market, which is M\% above the market return, and profit of A\% on US market, which is B\% above the market return.
+    
+[^4]: 从信息理论的角度探讨重尾分布下的最优协方差清除
 
     Optimal Covariance Cleaning for Heavy-Tailed Distributions: Insights from Information Theory. (arXiv:2304.14098v1 [cs.IT])
 
@@ -41,88 +70,74 @@
 
     In optimal covariance cleaning theory, minimizing the Frobenius norm between the true population covariance matrix and a rotational invariant estimator is a key step. This estimator can be obtained asymptotically for large covariance matrices, without knowledge of the true covariance matrix. In this study, we demonstrate that this minimization problem is equivalent to minimizing the loss of information between the true population covariance and the rotational invariant estimator for normal multivariate variables. However, for Student's t distributions, the minimal Frobenius norm does not necessarily minimize the information loss in finite-sized matrices. Nevertheless, such deviations vanish in the asymptotic regime of large matrices, which might extend the applicability of random matrix theory results to Student's t distributions. These distributions are characterized by heavy tails and are frequently encountered in real-world applications such as finance, turbulence, or nuclear physic
     
-[^3]: STraM: 一个战略性国家货运运输建模框架
+[^5]: 气候不确定性对最佳减排路径和碳社会成本的影响
 
-    STraM: a framework for strategic national freight transport modeling. (arXiv:2304.14001v1 [econ.GN])
+    Climate uncertainty impacts on optimal mitigation pathways and social cost of carbon. (arXiv:2304.08957v1 [econ.GN])
 
-    [http://arxiv.org/abs/2304.14001](http://arxiv.org/abs/2304.14001)
+    [http://arxiv.org/abs/2304.08957](http://arxiv.org/abs/2304.08957)
 
-    STraM为长期规划提供了更具动态性的国家货运运输建模框架，可以评估政策和投资措施对环境、能源和经济的影响。
-
-    
-
-    为了实现全球碳排放目标，货运运输部门的脱碳将是一个重要因素。为此，各国政府必须制定计划以促进这一转变。国家货运运输模型是评估各种政策和投资可能产生的影响的有用工具。现有技术水平包括非常详细的静态模型。虽然对于短期政策评估有用，但这些模型不太适合为促进未来数十年的低碳交通转型所必需的长期规划。在本文中，我们通过开发一个名为STraM的战略性国家货运运输建模框架来填补这一差距，其可被描述为基于多模式货运运输公式的多期随机网络设计模型。在STraM中，我们明确包含了几个现有国家货运运输模型缺乏的方面：货物流的动态性和它对环境、能源和经济的影响。
-
-    To achieve carbon emission targets worldwide, decarbonization of the freight transport sector will be an important factor. To this end, national governments must make plans that facilitate this transition. National freight transport models are a useful tool to assess what the effects of various policies and investments may be. The state of the art consists of very detailed, static models. While useful for short-term policy assessment, these models are less suitable for the long-term planning necessary to facilitate the transition to low-carbon transportation in the upcoming decades.  In this paper, we fill this gap by developing a framework for strategic national freight transport modeling, which we call STraM, and which can be characterized as a multi-period stochastic network design model, based on a multimodal freight transport formulation. In STraM, we explicitly include several aspects that are lacking in state-of-the art national freight transport models: the dynamic nature of lo
-    
-[^4]: 高频预测交易及其影响：小内幕交易者对压轴者的影响
-
-    High-frequency Anticipatory Trading and Its Influences: Small Informed Trader vs. Front-runner. (arXiv:2304.13985v1 [q-fin.TR])
-
-    [http://arxiv.org/abs/2304.13985](http://arxiv.org/abs/2304.13985)
-
-    本文研究了大内幕交易者与能够预测其订单的高频交易者之间的互动，发现高频交易者的策略与库存厌恶、预测准确性和市场活跃度有关，而其行为对大交易者有不同的影响。
+    研究表明，气候不确定性是导致碳社会成本和最优CO$_2$减排量范围变化的关键因素，减少气候不确定性可以改进减排投入的成本计算，同时也指出了气候和排放之间缺失的反馈。
 
     
 
-    本文研究了大内幕交易者(IT)与能够预测前者即将到来订单的高频交易者(HFT)在扩展的Kyle(1985)模型下的互动。讨论了不同情况下的均衡。依靠速度优势，HFT总是提前和大单交易同向。然而，她是否提供流动性取决于她的库存厌恶、预测准确性和市场活跃度。她可能会回馈流动性(充当压轴者)或继续带走流动性(此时我们称她为小IT)。小IT总是伤害大交易者，而压轴者可能使她受益。此外，我们惊奇地发现(1)增加HFT信号中的噪声实际上可能会降低IT的利润;(2)尽管提供流动性，压轴者可能比小内幕交易者更加伤害IT。
+    气候政策分析中的排放路径通常来自综合评估模型(IAMs)。然而，这些排放路径通常不考虑气候对社会经济系统的反馈作用，因此也没有考虑气候不确定性。本文表明，仅仅气候不确定性就显著地改变了最优CO$_2$减排量成本效益，对于一组限制升温在1.5摄氏度以下低超温度控制情景，2050年的减排量变化范围在-14到+12 GtCO$_2$ yr$^{-1}$之间。此情景下，碳社会成本的范围变化达到了五倍。平衡气候敏感性(ECS)和现有气溶胶辐射强度是碳社会成本和中世纪最佳二氧化碳排放量的强烈决定因素。这表明，减少气候不确定性可以精确计算减排投入的成本，同时也指出了气候和排放之间缺失的反馈。
 
-    In this paper, the interactions between a large informed trader (IT, for short) and a high-frequency trader (HFT, for short) who can anticipate the former's incoming order are studied in an extended Kyle's (1985) model. Equilibria under various specific situations are discussed. Relying on the speed advantage, HFT always trades in the same direction as the large order in advance. However, whether or not she provides liquidity depends on her inventory aversion, the prediction accuracy, and the market activeness. She may supply liquidity back (act as a front-runner) or continue to take it away (in this case we call her a small IT). Small IT always harms the large trader while front-runner may benefit her. Besides, we find surprisingly that (1) increasing the noise in HFT's signal may in fact decrease IT's profit; (2) although providing liquidity, a front-runner may harm IT more than a small IT.
+    Emissions pathways used in climate policy analysis are often derived from integrated assessment models (IAMs). However, such emissions pathways do not typically include climate feedbacks on socioeconomic systems and by extension do not consider climate uncertainty in their construction. Here we show that climate uncertainty alone significantly changes the cost-benefit optimal CO$_2$ emissions, varying from -14 to +12 GtCO$_2$ yr$^{-1}$ in 2050 (5-95% range) for an ensemble of scenarios that limit warming to 1.5{\deg}C with low overshoot. Climate uncertainty is also responsible for a factor of five range in the social cost of carbon (SCC) in this scenario ensemble. Equilibrium climate sensitivity (ECS) and the strength of present-day aerosol radiative forcing are strong determinants of SCC and optimal mid-century CO$_2$ emissions. This confirms that reducing climate uncertainty can refine cost-optimal emissions projections, and points to a missing feedback between climate and emissions 
     
-[^5]: 巴西高等教育招生中的种族和收入倾斜平衡：经验教训。
+[^6]: ChatGPT在多模态股票预测挑战中的零样本分析：华尔街新手？
 
-    Racial and income-based affirmative action in higher education admissions: lessons from the Brazilian experience. (arXiv:2304.13936v1 [econ.GN])
+    The Wall Street Neophyte: A Zero-Shot Analysis of ChatGPT Over MultiModal Stock Movement Prediction Challenges. (arXiv:2304.05351v1 [cs.CL])
 
-    [http://arxiv.org/abs/2304.13936](http://arxiv.org/abs/2304.13936)
+    [http://arxiv.org/abs/2304.05351](http://arxiv.org/abs/2304.05351)
 
-    本文分析了巴西高等教育系统中平衡配额制的实施方法和实证证据，发现基于种族的平衡配额制度可提高黑人学生在联邦大学的比例，同时对劳动力市场产生正面影响，对受益者带来长期福利，没有负面后果。
-
-    
-
-    该文章通过分析巴西高等教育系统中实现方法和实证证据的使用情况，提供了有关平衡配额制未来的深入见解。自2012年以来，巴西所有联邦大学都要求收入和种族配额。在巴西，联邦大学的平衡配额制度是全国统一的，这使其效果评估尤其有价值。平衡配额制改善了目标学生的成果。具体而言，基于种族的配额制提高了在联邦大学就读的黑人学生比例，这种效果无法仅通过基于收入的平衡配额实现。平衡配额制对劳动力市场产生正面影响，并为效益受益者带来了长期福利。没有证据表明对目标学生的同龄人有误匹配或负面后果。
-
-    This survey article provides insights regarding the future of affirmative action by analyzing the implementation methods and the empirical evidence on the use of placement quotas in the Brazilian higher education system. All federal universities have required income and racial-based quotas in Brazil since 2012. Affirmative action in federal universities is uniformly applied across the country, which makes evaluating its effects particularly valuable. Affirmative action improves the outcomes of targeted students. Specifically, race-based quotas raise the share of black students in federal universities, an effect not observed with income-based quotas alone. Affirmative action has downstream positive consequences for labor market outcomes. The results suggest that income and race-based quotas beneficiaries experience substantial long-term welfare benefits. There is no evidence of mismatching or negative consequences for targeted students' peers.
-    
-[^6]: 基于Gordon模型择优选择可持续股票的多指标模糊决策方法：以多伦多证券交易所为例
-
-    Selecting Sustainable Optimal Stock by Using Multi-Criteria Fuzzy Decision-Making Approaches Based on the Development of the Gordon Model: A case study of the Toronto Stock Exchange. (arXiv:2304.13818v1 [econ.GN])
-
-    [http://arxiv.org/abs/2304.13818](http://arxiv.org/abs/2304.13818)
-
-    本文采用基于Gordon模型的综合评估与多指标模糊决策方法，在多伦多证券交易所选取高效率最优股票组合的标准。
+    本研究对ChatGPT在股票预测方面进行了零样本分析，结果表明其预测股票移动的表现不如最先进和传统方法，需要进一步改进。
 
     
 
-    选择具有最高效率的正确股票组合一直是精准和合法投资者关注的问题。因此，本文旨在利用DEMATEL模型和基于Gordon模型发展的多指标模糊决策方法，确定选取具有高效率率的最佳股票组合的标准，以在多伦多证券交易所展开研究。
+    最近，如ChatGPT这样的大型语言模型在各种自然语言处理任务中展示了惊人的性能。然而，在预测股市走势方面，它们的有效性仍然有待探索。本文通过三个推文和历史股票价格数据集的广泛零样本分析，探讨了ChatGPT在多模态股票移动预测方面的能力。我们的研究表明，ChatGPT是一个“华尔街新手”，在预测股票移动方面的成功有限，不仅不如最先进的方法，而且不如使用价格特征的线性回归这样的传统方法。尽管思维链提示策略和推文的包含具有潜在的优势，ChatGPT的表现仍然不佳。此外，我们观察到它的可解释性和稳定性存在局限性，需要更专业的训练或微调。这项研究提供了有关ChatGPT在股票预测方面的见解。
 
-    Choosing the right stock portfolio with the highest efficiencies has always concerned accurate and legal investors. Investors have always been concerned about the accuracy and legitimacy of choosing the right stock portfolio with high efficiency. Therefore, this paper aims to determine the criteria for selecting an optimal stock portfolio with a high-efficiency ratio in the Toronto Stock Exchange using the integrated evaluation and decision-making trial laboratory (DEMATEL) model and Multi-Criteria Fuzzy decision-making approaches regarding the development of the Gordon model. In the current study, results obtained using combined multi-criteria fuzzy decision-making approaches, the practical factors, the relative weight of dividends, discount rate, and dividend growth rate have been comprehensively illustrated using combined multi-criteria fuzzy decision-making approaches. A group of 10 experts with at least a ten-year of experience in the stock exchange field was formed to review the 
+    Recently, large language models (LLMs) like ChatGPT have demonstrated remarkable performance across a variety of natural language processing tasks. However, their effectiveness in the financial domain, specifically in predicting stock market movements, remains to be explored. In this paper, we conduct an extensive zero-shot analysis of ChatGPT's capabilities in multimodal stock movement prediction, on three tweets and historical stock price datasets. Our findings indicate that ChatGPT is a "Wall Street Neophyte" with limited success in predicting stock movements, as it underperforms not only state-of-the-art methods but also traditional methods like linear regression using price features. Despite the potential of Chain-of-Thought prompting strategies and the inclusion of tweets, ChatGPT's performance remains subpar. Furthermore, we observe limitations in its explainability and stability, suggesting the need for more specialized training or fine-tuning. This research provides insights i
     
-[^7]: 挪威大气污染对出生结果的影响
+[^7]: 非负随机变量集合的双极定理
 
-    The effect of ambient air pollution on birth outcomes in Norway. (arXiv:2208.06271v5 [econ.GN] UPDATED)
+    Bipolar Theorems for Sets of Non-negative Random Variables. (arXiv:2212.14259v2 [math.PR] UPDATED)
 
-    [http://arxiv.org/abs/2208.06271](http://arxiv.org/abs/2208.06271)
+    [http://arxiv.org/abs/2212.14259](http://arxiv.org/abs/2212.14259)
 
-    本研究发现孕期暴露于环境中的氮氧化物会对出生结果产生负面影响，而其他的大气污染物则在挪威的胎儿处于安全水平。不仅如此，孕期暴露于氮氧化物的负面效应对处于劣势家长的新生儿更为严重。
-
-    
-
-    大气污染即使在污染较低的国家也对胎儿有害。本文研究了大气污染对挪威出生结果的影响。研究发现，孕期暴露于氮氧化物会导致显著的出生体重和出生长度缺失，而其他的大气污染物如二氧化氮和二氧化硫则似乎在挪威的胎儿处于安全水平。不仅如此，孕期暴露于氮氧化物的负面效应对处于劣势家长的新生儿更为严重。平均浓度和偶发高浓度事件都会对出生结果产生不利影响。
-
-    Ambient air pollution is harmful to the fetus even in countries with relatively low levels of pollution. In this paper, I examine the effects of ambient air pollution on birth outcomes in Norway. I find that prenatal exposure to ambient nitric oxide in the last trimester causes significant birth weight and birth length loss under the same sub-postcode fixed effects and calendar month fixed effects, whereas other ambient air pollutants such as nitrogen dioxide and sulfur dioxide appear to be at safe levels for the fetus in Norway. In addition, the marginal adverse effect of ambient nitric oxide is larger for newborns with disadvantaged parents. Both average concentrations of nitric oxide and occasional high concentration events can adversely affect birth outcomes. The contributions of my work include: first, my finding that prenatal exposure to environmental nitric oxide has an adverse effect on birth outcomes fills a long-standing knowledge gap. Second, with the large sample size and g
-    
-[^8]: 部分观测扩散过程的极大似然估计一致性及在市场微观结构建模中的应用
-
-    Consistency of MLE for partially observed diffusions, with application in market microstructure modeling. (arXiv:2201.07656v2 [math.ST] UPDATED)
-
-    [http://arxiv.org/abs/2201.07656](http://arxiv.org/abs/2201.07656)
-
-    本文提出了部分观测扩散过程的极大似然估计一致性的足够条件，并在市场微观结构建模中实现了该模型的未知参数的极大似然估计量的一致性。
+    本文提出了非负随机变量集合的双极定理的必要和充分条件，扩展和统一了现有的在强健框架上证明的双极定理。
 
     
 
-    本文提出了一个易于处理的足够条件，用于描述与完全观测的扩散过程相关的稳态分布，从而得出在未知参数值有限的情况下，极大似然估计量的一致性条件。我们将该足够条件应用于市场微观结构的潜在价格模型中，并验证了该模型下未知参数的极大似然估计量的一致性。最后，我们利用纳斯达克交易所的历史金融数据计算了这些估计值。
+    本文假设一个强健的、一般不被支配的概率框架，并为非负随机变量的所有准确等价类的子集提供双极表示的必要和充分条件，而不需要对基础测度空间做进一步的限制。这扩展和统一了现有的在强健框架上证明的双极定理。此外，我们概述了在数学金融和运输问题中的应用。
 
-    This paper presents a tractable sufficient condition for the consistency of maximum likelihood estimators (MLEs) in partially observed diffusion models, stated in terms of stationary distribution of the associated fully observed diffusion, under the assumption that the set of unknown parameter values is finite. This sufficient condition is then verified in the context of a latent price model of market microstructure, yielding consistency of maximum likelihood estimators of the unknown parameters in this model. Finally, we compute the latter estimators using historical financial data taken from the NASDAQ exchange.
+    This paper assumes a robust, in general not dominated, probabilistic framework and provides necessary and sufficient conditions for a bipolar representation of subsets of the set of all quasi-sure equivalence classes of non-negative random variables without any further conditions on the underlying measure space. This generalises and unifies existing bipolar theorems proved under stronger assumptions on the robust framework. Moreover, we sketch applications to issues in mathematical finance and a mass transport type duality.
+    
+[^8]: 从1966年开始的统一集装箱运输行业数据：货运率、运输量、新建、二手和报废价格。
+
+    Unified Container Shipping Industry Data From 1966: Freight Rate, Shipping Quantity, Newbuilding, Secondhand, and Scrap Price. (arXiv:2211.16292v3 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2211.16292](http://arxiv.org/abs/2211.16292)
+
+    本文构建了一个统一的集装箱运输行业数据集，利用该数据集分析了行业动态和集装箱危机，并揭示了运输联盟崩溃的影响。
+
+    
+
+    我们构建了一个新的统一面板数据集，将六个主要航线的路线-年级货运率与运输量以及1966年至2009年的行业-年级新建、二手和报废价格相结合。我们提供了详细的数据合并说明，并由行业专家和有历史知识和经验的前高管验证了数据的一致性。利用这个数据集，我们提供了一个被称为集装箱危机的行业动态的定量和描述性分析。最后，我们确定了每个变量的结构性转折点，以展示运输联盟崩溃的影响。
+
+    We construct a new unified panel dataset that combines route-year-level freight rates with shipping quantities for the six major routes and industry-year-level newbuilding, secondhand, and scrap prices from 1966 (the beginning of the industry) to 2009. We offer detailed instructions on how to merge various datasets and validate the data's consistency by industry experts and former executives who have historical knowledge and experience. Using this dataset, we provide a quantitative and descriptive analysis of the industry dynamics known as the container crisis. Finally, we identify structural breaks for each variable to demonstrate the impact of the shipping cartels' collapse.
+    
+[^9]: 基于区块链的借贷协议中的流动性风险：以Aave协议为例
+
+    Liquidity Risks in Lending Protocols: Evidence from Aave Protocol. (arXiv:2206.11973v4 [q-fin.RM] UPDATED)
+
+    [http://arxiv.org/abs/2206.11973](http://arxiv.org/abs/2206.11973)
+
+    本文研究了以Aave为例的基于区块链的借贷协议中的流动性风险，并提出了衡量方法。对于LPs来说，用户忠诚度是一把双刃剑。
+
+    
+
+    借贷协议（LPs）作为基于区块链的借贷系统，允许任何人借贷加密货币。然而，当一组特定的借款人启动显眼的贷款时，流动性风险可能会发生。本文提出了衡量LPs中流动性风险的方法，重点关注可用流动性和市场集中度。通过以Aave为案例研究，我们发现流动性风险非常不稳定，并对Aave产生复杂的影响，而Aave的流动性可能会影响链上借贷市场。与新用户相比，反复借入加密货币的定期用户可能会对Aave协议产生负面影响，这意味着用户忠诚度对LPs来说是一把双刃剑。
+
+    Lending Protocols (LPs), as blockchain-based lending systems, allow any agents to borrow and lend cryptocurrencies. However, liquidity risks could occur, especially when salient loans are initiated by a particular group of borrowers. This paper proposes measurements of liquidity risks, focusing on both available liquidity and market concentration in LPs. By using Aave as a case study, we find that liquidity risks are highly volatile and show complex effects on Aave, and liquidity in Aave may affect across on-chain lending market. Compared to new users, regular users that repeatedly borrow cryptocurrencies may negatively affect Aave protocol, implying that user loyalty is a double-edged sword for LPs.
     
 

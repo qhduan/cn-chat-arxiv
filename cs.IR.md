@@ -2,202 +2,112 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Person Re-ID through Unsupervised Hypergraph Rank Selection and Fusion.](http://arxiv.org/abs/2304.14321) | 本研究提出了一种完全无监督的方法，通过流形排名聚合来选择和融合不同鲁棒的人员再识别排名器，以填补使用标记数据困难的空白。 |
-| [^2] | [Large Language Models are Strong Zero-Shot Retriever.](http://arxiv.org/abs/2304.14233) | 本文提出了一种在零-shot场景下利用大型语言模型（LLM）进行大规模检索的方法。该方法通过使用查询和查询的候选答案的组合作为提示，使LLM生成更精确的答案。由于自监督检索器在零-shot场景中性能较差，因此LameR优于自监督检索器。 |
-| [^3] | [Deeply-Coupled Convolution-Transformer with Spatial-temporal Complementary Learning for Video-based Person Re-identification.](http://arxiv.org/abs/2304.14122) | 本论文结合卷积神经网络和Transformer，提出了一种名为Deeply-Coupled Convolution-Transformer的新型空时互补学习框架，用于高性能的基于视频的人员再识别，并通过互补内容注意和分层时间聚合，实验验证了其优越性能。 |
-| [^4] | [Prediction then Correction: An Abductive Prediction Correction Method for Sequential Recommendation.](http://arxiv.org/abs/2304.14050) | 一种用于顺序推荐的归纳预测修正方法，通过模拟归纳推理来校正预测，从而提高推荐的准确性。 |
-| [^5] | [Boosting Big Brother: Attacking Search Engines with Encodings.](http://arxiv.org/abs/2304.14031) | 通过编码方式攻击搜索引擎，以微不可见的方式扭曲文本，攻击者可以控制搜索结果。该攻击成功地影响了Google、Bing和Elasticsearch等多个搜索引擎。此外，还可以将该攻击针对搜索相关的任务如文本摘要和抄袭检测模型。需要提供一套有效的防御措施来应对这些技术带来的潜在威胁。 |
-| [^6] | [Towards Explainable Collaborative Filtering with Taste Clusters Learning.](http://arxiv.org/abs/2304.13937) | 本文提出了一种利用品味聚类学习实现可解释性协同过滤的模型，在保证高准确性的同时为用户和项目提供可解释的聚类解释。 |
-| [^7] | [Neural Keyphrase Generation: Analysis and Evaluation.](http://arxiv.org/abs/2304.13883) | 本文分析了三种神经网络模型（T5、CatSeq-Transformer、ExHiRD）在关键词生成任务中的性能和行为，并提出了一个新的评估框架SoftKeyScore来衡量两组关键词的相似度。 |
-| [^8] | [Exploiting Simulated User Feedback for Conversational Search: Ranking, Rewriting, and Beyond.](http://arxiv.org/abs/2304.13874) | 本研究利用一个名为ConvSim的用户模拟器来评估用户反馈，从而提高会话式搜索的性能，实验结果显示有效利用用户反馈可以大幅提高检索性能。 |
-| [^9] | [Extracting Structured Seed-Mediated Gold Nanorod Growth Procedures from Literature with GPT-3.](http://arxiv.org/abs/2304.13846) | 该论文提出了一种通过利用GPT-3语言模型从科学文献中自动化地提取金纳米棒合成信息的方法。这种方法可以实现高通量的探索金纳米棒的种子介导生长过程以及结果。 |
-| [^10] | [STIR: Siamese Transformer for Image Retrieval Postprocessing.](http://arxiv.org/abs/2304.13393) | 这项工作提出了两部分内容。首先，他们构建了一个基于三元组损失的简单模型，性能达到了最先进水平，但没有复杂模型的缩放问题。其次，他们提出了一种新颖的后处理方法STIR，可在单个前向传递中重新排列多个顶部输出，而不依赖于全局/局部特征提取。 |
-| [^11] | [Extreme Classification for Answer Type Prediction in Question Answering.](http://arxiv.org/abs/2304.12395) | 本文提出了使用Transformer模型（XBERT）进行极端多标签分类，通过将KG类型基于问题文本使用结构和语义特征进行聚类，以提高问题回答（QA）系统中语义答案类型预测（SMART）任务的性能，并获得最先进的结果。 |
-| [^12] | [LongEval-Retrieval: French-English Dynamic Test Collection for Continuous Web Search Evaluation.](http://arxiv.org/abs/2303.03229) | LongEval-Retrieval是一个面向持续Web搜索评估的动态测试集合，旨在研究信息检索系统的时间持久性。每个子集合包含一组查询、文档和基于点击模型构建的软关联性评估，数据来自Qwant，一个隐私保护的Web搜索引擎。 |
-| [^13] | [Local Policy Improvement for Recommender Systems.](http://arxiv.org/abs/2212.11431) | 该论文介绍了一种针对推荐系统的本地策略改进方法，不需要现场校正，易于从数据中估计，适用于以前的策略质量较高但数量较少的情况。 |
+| [^1] | [Knowledge-refined Denoising Network for Robust Recommendation.](http://arxiv.org/abs/2304.14987) | 本文提出了一个名为知识精炼去噪网络（KRDN）的强健知识感知推荐框架，可以同时修剪任务无关的知识关联和噪声隐式反馈。 |
+| [^2] | [Topic-oriented Adversarial Attacks against Black-box Neural Ranking Models.](http://arxiv.org/abs/2304.14867) | 本文提出了面向主题的对抗排名攻击任务，以提高同一主题的一组查询中的特定文档排名，并提出了基于替代排名模型的新框架来改善攻击性能。 |
+| [^3] | [A Unified Generative Retriever for Knowledge-Intensive Language Tasks via Prompt Learning.](http://arxiv.org/abs/2304.14856) | 本文提出了一种统一的生成检索器(UGR)，它将任务特定的效果与在KILTs中不同检索任务的强健性能相结合。UGR采用基于Prompt的学习方法，使其能够适应各种检索任务，并通过实验在五个KILTs基准测试上显著优于最先进的基线。 |
+| [^4] | [Made of Steel? Learning Plausible Materials for Components in the Vehicle Repair Domain.](http://arxiv.org/abs/2304.14745) | 本文提出了一种新方法，通过探索预训练语言模型（PLM）学习车辆维修领域组件的特定材料，成功克服了数据稀疏性问题和缺乏注释数据集的问题。 |
+| [^5] | [Ensemble Modeling with Contrastive Knowledge Distillation for Sequential Recommendation.](http://arxiv.org/abs/2304.14668) | 本研究提出了一种基于对比知识蒸馏的集成建模方法EMKD，它采用多个并行网络作为序列编码器，在序列推荐中根据所有网络的输出分布推荐物品。实验证明，EMKD在两个真实世界数据集上的表现显著优于最先进的方法。 |
+| [^6] | [Multivariate Representation Learning for Information Retrieval.](http://arxiv.org/abs/2304.14522) | 本论文提出一种多元分布模型的信息检索表示学习框架，可无缝集成到现有近似最近邻算法中以实现高效检索。 |
+| [^7] | [Evaluation of GPT-3.5 and GPT-4 for supporting real-world information needs in healthcare delivery.](http://arxiv.org/abs/2304.13714) | 本研究评估了在临床环境中使用GPT-3.5和GPT-4解决医学问题的安全性以及与信息技术咨询服务报告的一致性。研究结果表明，两个LLMs都可以以安全和一致的方式满足医生的信息需求。 |
 
 # 详细
 
-[^1]: 通过无监督超图排名选择和融合进行人员再识别
+[^1]: 知识精炼去噪网络用于强健推荐
 
-    Person Re-ID through Unsupervised Hypergraph Rank Selection and Fusion. (arXiv:2304.14321v1 [cs.CV])
+    Knowledge-refined Denoising Network for Robust Recommendation. (arXiv:2304.14987v1 [cs.IR])
 
-    [http://arxiv.org/abs/2304.14321](http://arxiv.org/abs/2304.14321)
+    [http://arxiv.org/abs/2304.14987](http://arxiv.org/abs/2304.14987)
 
-    本研究提出了一种完全无监督的方法，通过流形排名聚合来选择和融合不同鲁棒的人员再识别排名器，以填补使用标记数据困难的空白。
-
-    
-
-    人员再识别已经引起了广泛的关注，现在在许多监控应用中具有基本重要性。该任务包括在没有重叠视图的多个摄像头之间识别个人。大多数方法都需要标记数据，但由于需求量庞大且手动为每个人指定类别的难度较大，标记数据并不总是可用的。最近的研究表明，重新排名方法能够实现显著的收益，特别是在没有标记数据的情况下。此外，特征提取器的融合和多源训练也是另一个非常有前景的研究方向，但并未被广泛利用。我们旨在通过一种流形排名聚合方法，利用不同的人员再识别排名器的互补性填补这一空白。在本工作中，我们对从多个和多样化的特征提取器获得的不同排名列表进行了完全无监督的选择和融合。
-
-    Person Re-ID has been gaining a lot of attention and nowadays is of fundamental importance in many camera surveillance applications. The task consists of identifying individuals across multiple cameras that have no overlapping views. Most of the approaches require labeled data, which is not always available, given the huge amount of demanded data and the difficulty of manually assigning a class for each individual. Recently, studies have shown that re-ranking methods are capable of achieving significant gains, especially in the absence of labeled data. Besides that, the fusion of feature extractors and multiple-source training is another promising research direction not extensively exploited. We aim to fill this gap through a manifold rank aggregation approach capable of exploiting the complementarity of different person Re-ID rankers. In this work, we perform a completely unsupervised selection and fusion of diverse ranked lists obtained from multiple and diverse feature extractors. A
-    
-[^2]: 大型语言模型在零-shot检索中具有较强的表现力。
-
-    Large Language Models are Strong Zero-Shot Retriever. (arXiv:2304.14233v1 [cs.CL])
-
-    [http://arxiv.org/abs/2304.14233](http://arxiv.org/abs/2304.14233)
-
-    本文提出了一种在零-shot场景下利用大型语言模型（LLM）进行大规模检索的方法。该方法通过使用查询和查询的候选答案的组合作为提示，使LLM生成更精确的答案。由于自监督检索器在零-shot场景中性能较差，因此LameR优于自监督检索器。
+    本文提出了一个名为知识精炼去噪网络（KRDN）的强健知识感知推荐框架，可以同时修剪任务无关的知识关联和噪声隐式反馈。
 
     
 
-    本文提出了一种简单的方法，在零-shot场景下应用大型语言模型（LLM）进行大规模检索。我们的方法，Language Model作为检索器（LameR）仅基于大语言模型而不是其他神经模型，通过将LLM与检索器的暴力组合进行分解，将零-shot检索的性能提高到在基准数据集上具有很强的竞争力。本文主要提出通过使用查询和查询的候选答案的组合作为提示，使LLM生成更精确的答案。无论候选答案是否正确，都可以通过模式模仿或候选摘要来帮助LLM产生更精确的答案。此外，由于自监督检索器在零-shot场景中性能较差，因此通过利用LLM对文本模式的强大表现能力，LameR可以优于自监督检索器。
+    知识图谱作为丰富的辅助信息，成为了提升推荐性能和改善可解释性的重要组成部分。然而，现有的知识感知推荐方法直接在知识图谱和用户-物品二分图上执行信息传递，忽略了任务无关知识传播和交互噪声的影响，限制了其性能。为了解决这些问题，我们提出了一个强健的知识感知推荐框架，称为知识精炼去噪网络（KRDN），以同时修剪任务无关的知识关联和噪声隐式反馈。KRDN包括自适应知识精炼策略和对比去噪机制，能够自动收集高质量的知识图谱三元组，并裁剪噪声隐式反馈。此外，我们还设计了自适应损失函数和梯度估计器，用于模型训练。
 
-    In this work, we propose a simple method that applies a large language model (LLM) to large-scale retrieval in zero-shot scenarios. Our method, Language language model as Retriever (LameR) is built upon no other neural models but an LLM, while breaking up brute-force combinations of retrievers with LLMs and lifting the performance of zero-shot retrieval to be very competitive on benchmark datasets. Essentially, we propose to augment a query with its potential answers by prompting LLMs with a composition of the query and the query's in-domain candidates. The candidates, regardless of correct or wrong, are obtained by a vanilla retrieval procedure on the target collection. Such candidates, as a part of prompts, are likely to help LLM generate more precise answers by pattern imitation or candidate summarization. Even if all the candidates are wrong, the prompts at least make LLM aware of in-collection patterns and genres. Moreover, due to the low performance of a self-supervised retriever
+    Knowledge graph (KG), which contains rich side information, becomes an essential part to boost the recommendation performance and improve its explainability. However, existing knowledge-aware recommendation methods directly perform information propagation on KG and user-item bipartite graph, ignoring the impacts of \textit{task-irrelevant knowledge propagation} and \textit{vulnerability to interaction noise}, which limits their performance. To solve these issues, we propose a robust knowledge-aware recommendation framework, called \textit{Knowledge-refined Denoising Network} (KRDN), to prune the task-irrelevant knowledge associations and noisy implicit feedback simultaneously. KRDN consists of an adaptive knowledge refining strategy and a contrastive denoising mechanism, which are able to automatically distill high-quality KG triplets for aggregation and prune noisy implicit feedback respectively. Besides, we also design the self-adapted loss function and the gradient estimator for mod
     
-[^3]: 带有空时互补学习的深度耦合卷积Transformer用于基于视频的人员再识别
+[^2]: 面向主题的黑盒神经排名模型对抗攻击
 
-    Deeply-Coupled Convolution-Transformer with Spatial-temporal Complementary Learning for Video-based Person Re-identification. (arXiv:2304.14122v1 [cs.CV])
+    Topic-oriented Adversarial Attacks against Black-box Neural Ranking Models. (arXiv:2304.14867v1 [cs.IR])
 
-    [http://arxiv.org/abs/2304.14122](http://arxiv.org/abs/2304.14122)
+    [http://arxiv.org/abs/2304.14867](http://arxiv.org/abs/2304.14867)
 
-    本论文结合卷积神经网络和Transformer，提出了一种名为Deeply-Coupled Convolution-Transformer的新型空时互补学习框架，用于高性能的基于视频的人员再识别，并通过互补内容注意和分层时间聚合，实验验证了其优越性能。
-
-    
-
-    先进的深度卷积神经网络在基于视频的人员再识别中取得了巨大成功。然而，它们通常专注于人员的最明显的区域，具有有限的全局表示能力。最近，Transformer探索了全局观察下的补丁间关系以提高性能。在这项工作中，我们结合了卷积神经网络和Transformer，提出了一种名为Deeply-Coupled Convolution-Transformer (DCCT)的新型空时互补学习框架，用于高性能的基于视频的人员再识别。首先，我们将CNN和Transformer组合起来提取两种视觉特征，并通过实验证明了它们的互补性。进一步在空间上，我们提出了互补内容注意(CCA)来利用耦合结构，并指导独立特征进行空间互补学习。在时间上，我们提出了分层时间聚合(HTA)来逐步捕捉帧间的依赖性。
-
-    Advanced deep Convolutional Neural Networks (CNNs) have shown great success in video-based person Re-Identification (Re-ID). However, they usually focus on the most obvious regions of persons with a limited global representation ability. Recently, it witnesses that Transformers explore the inter-patch relations with global observations for performance improvements. In this work, we take both sides and propose a novel spatial-temporal complementary learning framework named Deeply-Coupled Convolution-Transformer (DCCT) for high-performance video-based person Re-ID. Firstly, we couple CNNs and Transformers to extract two kinds of visual features and experimentally verify their complementarity. Further, in spatial, we propose a Complementary Content Attention (CCA) to take advantages of the coupled structure and guide independent features for spatial complementary learning. In temporal, a Hierarchical Temporal Aggregation (HTA) is proposed to progressively capture the inter-frame dependenc
-    
-[^4]: 预测再修正：一种用于顺序推荐的归纳预测修正方法
-
-    Prediction then Correction: An Abductive Prediction Correction Method for Sequential Recommendation. (arXiv:2304.14050v1 [cs.IR])
-
-    [http://arxiv.org/abs/2304.14050](http://arxiv.org/abs/2304.14050)
-
-    一种用于顺序推荐的归纳预测修正方法，通过模拟归纳推理来校正预测，从而提高推荐的准确性。
+    本文提出了面向主题的对抗排名攻击任务，以提高同一主题的一组查询中的特定文档排名，并提出了基于替代排名模型的新框架来改善攻击性能。
 
     
 
-    顺序推荐模型通常会在测试过程中一步生成预测，而不考虑额外的预测修正以提高性能，这影响了模型的准确性。为了解决这个问题，我们提出了一种称为“Abductive Prediction Correction”（APC）的框架，该框架通过归纳推理校正预测，从而提高推荐的准确性。
+    神经排名模型（NRMs）在信息检索中受到了极大的关注。但不幸的是，NRMs可能继承了一般神经网络的对抗性漏洞，这可能被黑帽搜索引擎优化从业者利用。最近，人们在配对攻击设置中探索了对NRMs的对抗攻击，为特定查询的目标文档生成对抗扰动。本文关注更通用类型的扰动，引入了针对NRMs的面向主题的对抗排名攻击任务，旨在找到一种无法察觉的扰动，可以在同一主题的一组查询中提高目标文档的排名。我们为任务定义了静态和动态设置，并专注于基于决策的黑盒攻击。我们提出了一种新的框架来改进基于主题的攻击性能，基于替代排名模型。攻击问题被形式化为马尔可夫决策过程（MDP）。
 
-    Sequential recommender models typically generate predictions in a single step during testing, without considering additional prediction correction to enhance performance as humans would. To improve the accuracy of these models, some researchers have attempted to simulate human analogical reasoning to correct predictions for testing data by drawing analogies with the prediction errors of similar training data. However, there are inherent gaps between testing and training data, which can make this approach unreliable. To address this issue, we propose an \textit{Abductive Prediction Correction} (APC) framework for sequential recommendation. Our approach simulates abductive reasoning to correct predictions. Specifically, we design an abductive reasoning task that infers the most probable historical interactions from the future interactions predicted by a recommender, and minimizes the discrepancy between the inferred and true historical interactions to adjust the predictions.We perform th
+    Neural ranking models (NRMs) have attracted considerable attention in information retrieval. Unfortunately, NRMs may inherit the adversarial vulnerabilities of general neural networks, which might be leveraged by black-hat search engine optimization practitioners. Recently, adversarial attacks against NRMs have been explored in the paired attack setting, generating an adversarial perturbation to a target document for a specific query. In this paper, we focus on a more general type of perturbation and introduce the topic-oriented adversarial ranking attack task against NRMs, which aims to find an imperceptible perturbation that can promote a target document in ranking for a group of queries with the same topic. We define both static and dynamic settings for the task and focus on decision-based black-box attacks. We propose a novel framework to improve topic-oriented attack performance based on a surrogate ranking model. The attack problem is formalized as a Markov decision process (MDP)
     
-[^5]: 提升老大哥：采用编码方式攻击搜索引擎
+[^3]: 通过Prompt学习的知识密集语言任务的统一生成检索器
 
-    Boosting Big Brother: Attacking Search Engines with Encodings. (arXiv:2304.14031v1 [cs.CR])
+    A Unified Generative Retriever for Knowledge-Intensive Language Tasks via Prompt Learning. (arXiv:2304.14856v1 [cs.IR])
 
-    [http://arxiv.org/abs/2304.14031](http://arxiv.org/abs/2304.14031)
+    [http://arxiv.org/abs/2304.14856](http://arxiv.org/abs/2304.14856)
 
-    通过编码方式攻击搜索引擎，以微不可见的方式扭曲文本，攻击者可以控制搜索结果。该攻击成功地影响了Google、Bing和Elasticsearch等多个搜索引擎。此外，还可以将该攻击针对搜索相关的任务如文本摘要和抄袭检测模型。需要提供一套有效的防御措施来应对这些技术带来的潜在威胁。
-
-    
-
-    搜索引擎对于文本编码操纵的索引和搜索存在漏洞。通过以不常见的编码表示形式微不可见地扭曲文本，攻击者可以控制特定搜索查询在多个搜索引擎上的结果。我们演示了这种攻击成功地针对了两个主要的商业搜索引擎——Google和Bing——以及一个开源搜索引擎——Elasticsearch。我们进一步展示了这种攻击成功地针对了包括Bing的GPT-4聊天机器人和Google的Bard聊天机器人在内的LLM聊天搜索。我们还提出了一种变体攻击，针对与搜索密切相关的两个ML任务——文本摘要和抄袭检测模型。我们提供了一套针对这些技术的防御措施，并警告攻击者可以利用这些攻击启动反信息争夺战。这促使搜索引擎维护人员修补已部署的系统。
-
-    Search engines are vulnerable to attacks against indexing and searching via text encoding manipulation. By imperceptibly perturbing text using uncommon encoded representations, adversaries can control results across search engines for specific search queries. We demonstrate that this attack is successful against two major commercial search engines - Google and Bing - and one open source search engine - Elasticsearch. We further demonstrate that this attack is successful against LLM chat search including Bing's GPT-4 chatbot and Google's Bard chatbot. We also present a variant of the attack targeting text summarization and plagiarism detection models, two ML tasks closely tied to search. We provide a set of defenses against these techniques and warn that adversaries can leverage these attacks to launch disinformation campaigns against unsuspecting users, motivating the need for search engine maintainers to patch deployed systems.
-    
-[^6]: 用品味聚类学习实现可解释性协同过滤
-
-    Towards Explainable Collaborative Filtering with Taste Clusters Learning. (arXiv:2304.13937v1 [cs.IR])
-
-    [http://arxiv.org/abs/2304.13937](http://arxiv.org/abs/2304.13937)
-
-    本文提出了一种利用品味聚类学习实现可解释性协同过滤的模型，在保证高准确性的同时为用户和项目提供可解释的聚类解释。
+    本文提出了一种统一的生成检索器(UGR)，它将任务特定的效果与在KILTs中不同检索任务的强健性能相结合。UGR采用基于Prompt的学习方法，使其能够适应各种检索任务，并通过实验在五个KILTs基准测试上显著优于最先进的基线。
 
     
 
-    协同过滤是推荐系统中广泛使用且有效的技术。近年来，基于潜在嵌入的协同过滤方法（如矩阵分解、神经协同过滤和LightGCN）已经有了显著的进展，以提高准确性。但是，这些模型的可解释性尚未得到充分探索。给推荐模型添加解释性，不仅可以增加人们对决策过程的信任，而且还有多个好处，如为项目推荐提供有说服力的解释、为用户和项目创建明确的文件、为项目制造商提供设计改进的协助。在本文中，我们提出了一种清晰有效的可解释性协同过滤模型，利用可解释的聚类学习来实现两个最苛刻的目标：（1）精确——模型在追求可解释性时不应妥协准确性；（2）自我解释——模型的解释应易于人们理解。引入品味聚类学习来构成用户和项目的解释，并在四个真实数据集上进行实验，结果证实了我们提出的方法在提供人类可理解的解释的同时保证了高准确性。
+    知识密集语言任务(KILTs)受益于从大型外部知识语料库中检索高质量的相关内容。学习任务特定的检索器，返回恰当语义粒度的相关内容(如文档检索器、段落检索器、句子检索器和实例检索器)有助于在端到端任务上获得更好的性能。但是任务特定的检索器通常对新领域和任务具有较差的泛化能力，在实践中部署多种专门的检索器可能成本过高。我们提出了一种统一的生成检索器(UGR)，它将任务特定的效果与在KILTs中不同检索任务的强健性能相结合。为了实现这个目标，我们做出了两个主要贡献:(i)为了将不同的检索任务统一成单一的生成形式，我们介绍了一个基于n-gram的标识符，用于在KILTs中不同粒度级别上识别相关内容。(ii)为了解决不同任务的不同检索需求，我们提出了一种基于Prompt的学习方法，使UGR能够通过从任务特定的Prompts中学习来适应各种检索任务。在五个KILTs基准测试上的实验结果表明，我们的UGR在所有任务上只用一个模型就显著优于最先进的基线。
 
-    Collaborative Filtering (CF) is a widely used and effective technique for recommender systems. In recent decades, there have been significant advancements in latent embedding-based CF methods for improved accuracy, such as matrix factorization, neural collaborative filtering, and LightGCN. However, the explainability of these models has not been fully explored. Adding explainability to recommendation models can not only increase trust in the decisionmaking process, but also have multiple benefits such as providing persuasive explanations for item recommendations, creating explicit profiles for users and items, and assisting item producers in design improvements.  In this paper, we propose a neat and effective Explainable Collaborative Filtering (ECF) model that leverages interpretable cluster learning to achieve the two most demanding objectives: (1) Precise - the model should not compromise accuracy in the pursuit of explainability; and (2) Self-explainable - the model's explanations 
+    Knowledge-intensive language tasks (KILTs) benefit from retrieving high-quality relevant contexts from large external knowledge corpora. Learning task-specific retrievers that return relevant contexts at an appropriate level of semantic granularity, such as a document retriever, passage retriever, sentence retriever, and entity retriever, may help to achieve better performance on the end-to-end task. But a task-specific retriever usually has poor generalization ability to new domains and tasks, and it may be costly to deploy a variety of specialised retrievers in practice. We propose a unified generative retriever (UGR) that combines task-specific effectiveness with robust performance over different retrieval tasks in KILTs. To achieve this goal, we make two major contributions: (i) To unify different retrieval tasks into a single generative form, we introduce an n-gram-based identifier for relevant contexts at different levels of granularity in KILTs. And (ii) to address different ret
     
-[^7]: 神经关键词生成：分析与评估
+[^4]: 由什么构成？学习修车领域组件的可信材料
 
-    Neural Keyphrase Generation: Analysis and Evaluation. (arXiv:2304.13883v1 [cs.CL])
+    Made of Steel? Learning Plausible Materials for Components in the Vehicle Repair Domain. (arXiv:2304.14745v1 [cs.CL])
 
-    [http://arxiv.org/abs/2304.13883](http://arxiv.org/abs/2304.13883)
+    [http://arxiv.org/abs/2304.14745](http://arxiv.org/abs/2304.14745)
 
-    本文分析了三种神经网络模型（T5、CatSeq-Transformer、ExHiRD）在关键词生成任务中的性能和行为，并提出了一个新的评估框架SoftKeyScore来衡量两组关键词的相似度。
-
-    
-
-    关键词生成旨在通过从原始文本中复制（现有关键词）或生成捕捉文本语义意义的新关键词（缺失关键词）来生成话题短语。编码器-解码器模型在此任务中最广泛使用，因为它们具有生成缺失关键词的能力。然而，目前几乎没有对此类模型在关键词生成中的性能和行为进行分析。本文研究了三种强劲模型 T5（基于预训练变压器）、CatSeq-Transformer（非预训练变压器）和 ExHiRD（基于循环神经网络）所展示的各种趋势。我们分析了预测置信度分数、模型校准以及词元位置对关键词生成的影响。此外，我们提出并推动一个新的度量框架SoftKeyScore，通过使用 softscores 来计算部分匹配的相似度来评估两组关键词的相似性。
-
-    Keyphrase generation aims at generating topical phrases from a given text either by copying from the original text (present keyphrases) or by producing new keyphrases (absent keyphrases) that capture the semantic meaning of the text. Encoder-decoder models are most widely used for this task because of their capabilities for absent keyphrase generation. However, there has been little to no analysis on the performance and behavior of such models for keyphrase generation. In this paper, we study various tendencies exhibited by three strong models: T5 (based on a pre-trained transformer), CatSeq-Transformer (a non-pretrained Transformer), and ExHiRD (based on a recurrent neural network). We analyze prediction confidence scores, model calibration, and the effect of token position on keyphrases generation. Moreover, we motivate and propose a novel metric framework, SoftKeyScore, to evaluate the similarity between two sets of keyphrases by using softscores to account for partial matching and 
-    
-[^8]: 利用模拟用户反馈的方式来优化会话式搜索
-
-    Exploiting Simulated User Feedback for Conversational Search: Ranking, Rewriting, and Beyond. (arXiv:2304.13874v1 [cs.IR])
-
-    [http://arxiv.org/abs/2304.13874](http://arxiv.org/abs/2304.13874)
-
-    本研究利用一个名为ConvSim的用户模拟器来评估用户反馈，从而提高会话式搜索的性能，实验结果显示有效利用用户反馈可以大幅提高检索性能。
+    本文提出了一种新方法，通过探索预训练语言模型（PLM）学习车辆维修领域组件的特定材料，成功克服了数据稀疏性问题和缺乏注释数据集的问题。
 
     
 
-    本研究旨在探索评估用户反馈在混合倡议的会话式搜索系统中的各种方法。虽然会话式搜索系统在多个方面都取得了重大进展，但最近的研究未能成功地将用户反馈纳入系统中。其中一个主要原因是缺乏系统-用户对话交互数据。为此，我们提出了一种基于用户模拟器的框架，可用于与各种混合倡议的会话式搜索系统进行多轮交互。具体来说，我们开发了一个名为ConvSim的用户模拟器，一旦初始化了信息需求描述，就能够对系统的响应提供反馈，并回答潜在的澄清问题。我们对各种最先进的段落检索和神经重新排序模型进行的实验表明，有效利用用户反馈可以导致在nDCG@3方面16%的检索性能提高。此外，我们观察到随着n的增加，一致的改进。
+    我们提出了一种新的方法，通过探索预训练语言模型（PLM）中的cloze任务样式设置来学习车辆维修领域组件的特定材料，以克服缺乏注释数据集的问题。我们设计了一种新方法，聚合了一组cloze查询模板的显著预测，并表明使用小型高质量或定制的维基百科语料库的领域自适应可以提高性能。当探索资源紧缺的替代方案时，我们发现精简的PLM明显优于经典的基于模式的算法。此外，考虑到我们领域特定组件的98％都是多词表达式，我们成功地利用组成性假设来解决数据稀疏性问题。
 
-    This research aims to explore various methods for assessing user feedback in mixed-initiative conversational search (CS) systems. While CS systems enjoy profuse advancements across multiple aspects, recent research fails to successfully incorporate feedback from the users. One of the main reasons for that is the lack of system-user conversational interaction data. To this end, we propose a user simulator-based framework for multi-turn interactions with a variety of mixed-initiative CS systems. Specifically, we develop a user simulator, dubbed ConvSim, that, once initialized with an information need description, is capable of providing feedback to a system's responses, as well as answering potential clarifying questions. Our experiments on a wide variety of state-of-the-art passage retrieval and neural re-ranking models show that effective utilization of user feedback can lead to 16% retrieval performance increase in terms of nDCG@3. Moreover, we observe consistent improvements as the n
+    We propose a novel approach to learn domain-specific plausible materials for components in the vehicle repair domain by probing Pretrained Language Models (PLMs) in a cloze task style setting to overcome the lack of annotated datasets. We devise a new method to aggregate salient predictions from a set of cloze query templates and show that domain-adaptation using either a small, high-quality or a customized Wikipedia corpus boosts performance. When exploring resource-lean alternatives, we find a distilled PLM clearly outperforming a classic pattern-based algorithm. Further, given that 98% of our domain-specific components are multiword expressions, we successfully exploit the compositionality assumption as a way to address data sparsity.
     
-[^9]: 从文献中提取结构化的种子介导金纳米棒生长方法：基于GPT-3的研究
+[^5]: 基于对比知识蒸馏的集成建模在序列推荐中的应用
 
-    Extracting Structured Seed-Mediated Gold Nanorod Growth Procedures from Literature with GPT-3. (arXiv:2304.13846v1 [physics.app-ph])
+    Ensemble Modeling with Contrastive Knowledge Distillation for Sequential Recommendation. (arXiv:2304.14668v1 [cs.IR])
 
-    [http://arxiv.org/abs/2304.13846](http://arxiv.org/abs/2304.13846)
+    [http://arxiv.org/abs/2304.14668](http://arxiv.org/abs/2304.14668)
 
-    该论文提出了一种通过利用GPT-3语言模型从科学文献中自动化地提取金纳米棒合成信息的方法。这种方法可以实现高通量的探索金纳米棒的种子介导生长过程以及结果。
-
-    
-
-    尽管金纳米棒已经成为研究的热点，但控制它们的形状，从而控制它们的光学特性的途径仍然很大程度上是基于经验的。尽管合成过程中不同试剂物之间的共存和相互作用控制着这些特性，但在实践中，探索合成空间的计算和实验方法可能会极其繁琐或耗费过多时间。因此，我们提出了一种利用科学文献中已经包含的大量合成信息来自动化提取相关结构化数据的方法，以高通量方式探寻金纳米棒种子介导生长过程以及结果。为此，我们使用强大的GPT-3语言模型提出了一种方法，来从非结构化科学文本中提取金纳米棒的结构化多步种子介导生长过程和结果。将GPT-3的提示完成进行微调，以预测JSON文档形式的合成模板。
-
-    Although gold nanorods have been the subject of much research, the pathways for controlling their shape and thereby their optical properties remain largely heuristically understood. Although it is apparent that the simultaneous presence of and interaction between various reagents during synthesis control these properties, computational and experimental approaches for exploring the synthesis space can be either intractable or too time-consuming in practice. This motivates an alternative approach leveraging the wealth of synthesis information already embedded in the body of scientific literature by developing tools to extract relevant structured data in an automated, high-throughput manner. To that end, we present an approach using the powerful GPT-3 language model to extract structured multi-step seed-mediated growth procedures and outcomes for gold nanorods from unstructured scientific text. GPT-3 prompt completions are fine-tuned to predict synthesis templates in the form of JSON docu
-    
-[^10]: STIR：用于图像检索后处理的Siamese Transformer（arXiv：2304.13393v1 [cs.IR]）
-
-    STIR: Siamese Transformer for Image Retrieval Postprocessing. (arXiv:2304.13393v1 [cs.IR])
-
-    [http://arxiv.org/abs/2304.13393](http://arxiv.org/abs/2304.13393)
-
-    这项工作提出了两部分内容。首先，他们构建了一个基于三元组损失的简单模型，性能达到了最先进水平，但没有复杂模型的缩放问题。其次，他们提出了一种新颖的后处理方法STIR，可在单个前向传递中重新排列多个顶部输出，而不依赖于全局/局部特征提取。
+    本研究提出了一种基于对比知识蒸馏的集成建模方法EMKD，它采用多个并行网络作为序列编码器，在序列推荐中根据所有网络的输出分布推荐物品。实验证明，EMKD在两个真实世界数据集上的表现显著优于最先进的方法。
 
     
 
-    当前，图像检索的度量学习方法通常基于学习具有信息的潜在表示空间，其中简单的方法如余弦距离将表现良好。最近的最先进方法（如HypViT）转向更复杂的嵌入空间，可能会产生更好的结果，但更难以扩展到生产环境中。在这项工作中，我们首先构建了一个基于三元组损失的简单模型，具有硬负例挖掘，性能达到了最先进水平，但没有这些缺点。其次，我们引入了一种新颖的图像检索后处理方法，称为用于图像检索的Siamese Transformer（STIR），可在单个前向传递中重新排列多个顶部输出。与先前提出的重排变压器不同，STIR不依赖于全局/局部特征提取，而是借助注意机制直接在像素级别比较查询图像和检索到的候选图像。由此得出的方法定义了一个新的最先进水平。
+    序列推荐旨在捕捉用户的动态兴趣，预测用户下一次的偏好物品。多数方法使用深度神经网络作为序列编码器生成用户和物品表示。现有工作主要侧重于设计更强的序列编码器。然而，很少有尝试使用训练一组网络作为序列编码器的方法，这比单个网络更强大，因为一组并行网络可以产生多样化的预测结果，从而获得更好的准确性。本文提出了一种基于对比知识蒸馏的集成建模方法，即EMKD，在序列推荐中使用多个并行网络作为序列编码器，并根据所有这些网络的输出分布推荐物品。为了促进并行网络之间的知识转移，我们提出了一种新颖的对比知识蒸馏方法，它将知识从教师网络转移到多个学生网络中。在两个真实世界数据集上的实验表明，我们提出的EMKD显著优于最先进的序列推荐方法和集成基线。
 
-    Current metric learning approaches for image retrieval are usually based on learning a space of informative latent representations where simple approaches such as the cosine distance will work well. Recent state of the art methods such as HypViT move to more complex embedding spaces that may yield better results but are harder to scale to production environments. In this work, we first construct a simpler model based on triplet loss with hard negatives mining that performs at the state of the art level but does not have these drawbacks. Second, we introduce a novel approach for image retrieval postprocessing called Siamese Transformer for Image Retrieval (STIR) that reranks several top outputs in a single forward pass. Unlike previously proposed Reranking Transformers, STIR does not rely on global/local feature extraction and directly compares a query image and a retrieved candidate on pixel level with the usage of attention mechanism. The resulting approach defines a new state of the 
+    Sequential recommendation aims to capture users' dynamic interest and predicts the next item of users' preference. Most sequential recommendation methods use a deep neural network as sequence encoder to generate user and item representations. Existing works mainly center upon designing a stronger sequence encoder. However, few attempts have been made with training an ensemble of networks as sequence encoders, which is more powerful than a single network because an ensemble of parallel networks can yield diverse prediction results and hence better accuracy. In this paper, we present Ensemble Modeling with contrastive Knowledge Distillation for sequential recommendation (EMKD). Our framework adopts multiple parallel networks as an ensemble of sequence encoders and recommends items based on the output distributions of all these networks. To facilitate knowledge transfer between parallel networks, we propose a novel contrastive knowledge distillation approach, which performs knowledge tran
     
-[^11]: 问题回答中的答案类型预测的极限分类
+[^6]: 信息检索的多元表示学习
 
-    Extreme Classification for Answer Type Prediction in Question Answering. (arXiv:2304.12395v1 [cs.CL])
+    Multivariate Representation Learning for Information Retrieval. (arXiv:2304.14522v1 [cs.IR])
 
-    [http://arxiv.org/abs/2304.12395](http://arxiv.org/abs/2304.12395)
+    [http://arxiv.org/abs/2304.14522](http://arxiv.org/abs/2304.14522)
 
-    本文提出了使用Transformer模型（XBERT）进行极端多标签分类，通过将KG类型基于问题文本使用结构和语义特征进行聚类，以提高问题回答（QA）系统中语义答案类型预测（SMART）任务的性能，并获得最先进的结果。
-
-    
-
-    语义答案类型预测（SMART）已被证明是有效的问题回答（QA）系统的有用步骤。 SMART任务涉及预测给定自然语言问题的前k个知识图（KG）类型。由于KG中存在大量类型，这是具有挑战性的。在本文中，我们提出使用Transformer模型（XBERT）进行极端多标签分类，通过将KG类型基于问题文本使用结构和语义特征进行聚类。我们具体地改善了XBERT流程的聚类阶段，利用从KG中派生的文本和结构特征。我们表明，这些特征可以提高SMART任务的端到端性能，并产生最先进的结果。
-
-    Semantic answer type prediction (SMART) is known to be a useful step towards effective question answering (QA) systems. The SMART task involves predicting the top-$k$ knowledge graph (KG) types for a given natural language question. This is challenging due to the large number of types in KGs. In this paper, we propose use of extreme multi-label classification using Transformer models (XBERT) by clustering KG types using structural and semantic features based on question text. We specifically improve the clustering stage of the XBERT pipeline using textual and structural features derived from KGs. We show that these features can improve end-to-end performance for the SMART task, and yield state-of-the-art results.
-    
-[^12]: LongEval-Retrieval: 面向持续Web搜索评估的法英动态测试集合
-
-    LongEval-Retrieval: French-English Dynamic Test Collection for Continuous Web Search Evaluation. (arXiv:2303.03229v2 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2303.03229](http://arxiv.org/abs/2303.03229)
-
-    LongEval-Retrieval是一个面向持续Web搜索评估的动态测试集合，旨在研究信息检索系统的时间持久性。每个子集合包含一组查询、文档和基于点击模型构建的软关联性评估，数据来自Qwant，一个隐私保护的Web搜索引擎。
+    本论文提出一种多元分布模型的信息检索表示学习框架，可无缝集成到现有近似最近邻算法中以实现高效检索。
 
     
 
-    LongEval-Retrieval是一个Web文档检索基准，专注于持续检索评估。该测试集合旨在用于研究信息检索系统的时间持久性，并将用作CLEF 2023的Longitudinal Evaluation of Model Performance Track (LongEval)的测试集合。该基准模拟了一个不断演变的信息系统环境，例如Web搜索引擎所处的环境，在遵循离线评估的Cranfield范例的同时，文档集合、查询分布和相关性都在不断移动。为此，我们引入了动态测试集合的概念，由连续的子集合组成，每个子集合表示信息系统在给定时间步骤的状态。在LongEval-Retrieval中，每个子集合包含一组查询、文档和基于点击模型构建的软关联性评估。这些数据来自Qwant，一个隐私保护的Web搜索引擎。
+    稠密检索模型使用双编码器网络架构来学习查询和文档的表示形式，这些表示形式通常采用向量表示，它们的相似性通常使用点积函数计算。本文提出一种新的稠密检索表示学习框架。我们的框架不是学习每个查询和文档的向量，而是学习多元分布，并使用负多元KL散度计算分布之间的相似性。为了简化和提高效率，我们假设这些分布是多维正态分布，然后训练大型语言模型来生成这些分布的均值和方差向量。我们为所提出的框架提供了理论基础，并展示了它可以无缝地集成到现有的近似最近邻算法中以实现高效检索。我们进行了广泛的实验，覆盖了各种不同的基准数据集和评估指标。
 
-    LongEval-Retrieval is a Web document retrieval benchmark that focuses on continuous retrieval evaluation. This test collection is intended to be used to study the temporal persistence of Information Retrieval systems and will be used as the test collection in the Longitudinal Evaluation of Model Performance Track (LongEval) at CLEF 2023. This benchmark simulates an evolving information system environment - such as the one a Web search engine operates in - where the document collection, the query distribution, and relevance all move continuously, while following the Cranfield paradigm for offline evaluation. To do that, we introduce the concept of a dynamic test collection that is composed of successive sub-collections each representing the state of an information system at a given time step. In LongEval-Retrieval, each sub-collection contains a set of queries, documents, and soft relevance assessments built from click models. The data comes from Qwant, a privacy-preserving Web search e
+    Dense retrieval models use bi-encoder network architectures for learning query and document representations. These representations are often in the form of a vector representation and their similarities are often computed using the dot product function. In this paper, we propose a new representation learning framework for dense retrieval. Instead of learning a vector for each query and document, our framework learns a multivariate distribution and uses negative multivariate KL divergence to compute the similarity between distributions. For simplicity and efficiency reasons, we assume that the distributions are multivariate normals and then train large language models to produce mean and variance vectors for these distributions. We provide a theoretical foundation for the proposed framework and show that it can be seamlessly integrated into the existing approximate nearest neighbor algorithms to perform retrieval efficiently. We conduct an extensive suite of experiments on a wide range 
     
-[^13]: 推荐系统的本地策略改进
+[^7]: 评估GPT-3.5和GPT-4在支持医疗保健信息需求方面的实际作用
 
-    Local Policy Improvement for Recommender Systems. (arXiv:2212.11431v2 [cs.LG] UPDATED)
+    Evaluation of GPT-3.5 and GPT-4 for supporting real-world information needs in healthcare delivery. (arXiv:2304.13714v1 [cs.AI])
 
-    [http://arxiv.org/abs/2212.11431](http://arxiv.org/abs/2212.11431)
+    [http://arxiv.org/abs/2304.13714](http://arxiv.org/abs/2304.13714)
 
-    该论文介绍了一种针对推荐系统的本地策略改进方法，不需要现场校正，易于从数据中估计，适用于以前的策略质量较高但数量较少的情况。
+    本研究评估了在临床环境中使用GPT-3.5和GPT-4解决医学问题的安全性以及与信息技术咨询服务报告的一致性。研究结果表明，两个LLMs都可以以安全和一致的方式满足医生的信息需求。
 
     
 
-    推荐系统基于用户过去的互动行为而预测他们可能会与哪些项目交互。解决该问题的常用方法是通过监督学习，但最近的进展转向了基于奖励（例如用户参与度）的策略优化。后者面临的挑战之一是策略不匹配：我们只能基于以前部署策略收集到的数据来训练新的策略。传统的方法是通过重要性采样校正来解决这个问题，但这种方法存在实际限制。我们建议一种不需要现场校正的本地策略改进方法。我们的方法计算和优化目标策略预期奖励的下限，这易于从数据中估计并且不涉及密度比（例如在重要性采样校正中出现的比率）。这种本地策略改进范例非常适用于推荐系统，因为以前的策略通常质量较高，策略的数量也很少。
+    尽管在医疗保健领域使用大型语言模型(LLMs)越来越受关注，但当前的探索并未评估LLMs在临床环境中的实用性和安全性。我们的目标是确定两个LLM是否可以以安全和一致的方式满足由医生提交的信息需求问题。我们将66个来自信息技术咨询服务的问题通过简单的提示提交给GPT-3.5和GPT-4。12名医生评估了LLM响应对患者造成伤害的可能性以及与信息技术咨询服务的现有报告的一致性。医生的评估基于多数票汇总。对于没有任何问题，大多数医生认为任何一个LLM响应都不会造成伤害。对于GPT-3.5，8个问题的响应与信息技术咨询报告一致，20个不一致，9个无法评估。有29个响应没有多数票表示“同意”、“不同意”和“无法评估”。
 
-    Recommender systems predict what items a user will interact with next, based on their past interactions. The problem is often approached through supervised learning, but recent advancements have shifted towards policy optimization of rewards (e.g., user engagement). One challenge with the latter is policy mismatch: we are only able to train a new policy given data collected from a previously-deployed policy. The conventional way to address this problem is through importance sampling correction, but this comes with practical limitations. We suggest an alternative approach of local policy improvement without off-policy correction. Our method computes and optimizes a lower bound of expected reward of the target policy, which is easy to estimate from data and does not involve density ratios (such as those appearing in importance sampling correction). This local policy improvement paradigm is ideal for recommender systems, as previous policies are typically of decent quality and policies ar
+    Despite growing interest in using large language models (LLMs) in healthcare, current explorations do not assess the real-world utility and safety of LLMs in clinical settings. Our objective was to determine whether two LLMs can serve information needs submitted by physicians as questions to an informatics consultation service in a safe and concordant manner. Sixty six questions from an informatics consult service were submitted to GPT-3.5 and GPT-4 via simple prompts. 12 physicians assessed the LLM responses' possibility of patient harm and concordance with existing reports from an informatics consultation service. Physician assessments were summarized based on majority vote. For no questions did a majority of physicians deem either LLM response as harmful. For GPT-3.5, responses to 8 questions were concordant with the informatics consult report, 20 discordant, and 9 were unable to be assessed. There were 29 responses with no majority on "Agree", "Disagree", and "Unable to assess". Fo
     
 
