@@ -6,15 +6,16 @@
 | [^2] | [Social Preferences and Deliberately Stochastic Behavior.](http://arxiv.org/abs/2304.14977) | 本研究提出了一个随机选择模型，可以识别促进互惠行为的动机，并探索刻意随机化的替代动机，可以表示社会偏好，区分随机不平等厌恶行为和随机羞愧缓解行为。 |
 | [^3] | [Political Strategies to Overcome Climate Policy Obstructionism.](http://arxiv.org/abs/2304.14960) | 本文提出了克服气候政策阻挠主义的五种策略：安抚、共同发起变革、制度主义、对抗和抵消。 |
 | [^4] | [Greening our Laws: Revising Land Acquisition Law for Coal Mining in India.](http://arxiv.org/abs/2304.14941) | 本文研究印度的CBAA法律，该法律没有充分考虑社会和环境成本，给煤炭开发带来不当优势。作者建议更新土地收购法律以提高透明度和保护环境。 |
-| [^5] | [Nontransitive Preferences and Stochastic Rationalizability: A Behavioral Equivalence.](http://arxiv.org/abs/2304.14631) | 本文揭示出在单调性假设下，非传递偏好的行为等价于一个传递的随机选择模型。 |
-| [^6] | [Augmented balancing weights as linear regression.](http://arxiv.org/abs/2304.14545) | 本文探索了自动去偏重重配的新颖特征描述，并将其等同于基于内核岭回归的单个欠平滑岭回归，进一步将这种方法推广到特定的结果和重配模型选择上。 |
-| [^7] | [Assessing Text Mining and Technical Analyses on Forecasting Financial Time Series.](http://arxiv.org/abs/2304.14544) | 本文评估了文本挖掘和技术分析在预测金融时间序列中的准确性，比较了这两种方法预测S&P500未来价格的优缺点，并表明FinBERT模型表现较好，有潜力革新金融分析和预测。 |
-| [^8] | [Climate uncertainty impacts on optimal mitigation pathways and social cost of carbon.](http://arxiv.org/abs/2304.08957) | 研究表明，气候不确定性是导致碳社会成本和最优CO$_2$减排量范围变化的关键因素，减少气候不确定性可以改进减排投入的成本计算，同时也指出了气候和排放之间缺失的反馈。 |
-| [^9] | [Robust Social Welfare Maximization via Information Design in Linear-Quadratic-Gaussian Games.](http://arxiv.org/abs/2303.05489) | 该论文研究了一个设计者具有部分对代理人效用的知识的情况下，如何通过信息设计来实现线性二次高斯博弈中的稳健社会福利最大化。 |
-| [^10] | [Unified Container Shipping Industry Data From 1966: Freight Rate, Shipping Quantity, Newbuilding, Secondhand, and Scrap Price.](http://arxiv.org/abs/2211.16292) | 本文构建了一个统一的集装箱运输行业数据集，利用该数据集分析了行业动态和集装箱危机，并揭示了运输联盟崩溃的影响。 |
-| [^11] | [An Axiomatic Characterization of Draft Rules.](http://arxiv.org/abs/2204.08300) | 该论文研究了选秀规则，提供了一个简单的选秀规则描述，该规则是满足优先级尊重、一物无嫉妒、非浪费和资源单调性的唯一分配规则。同时，该文还证明了三个不可能定理，并且选秀规则满足竞争平衡属性 RP 和 EF1，以及效率。 |
-| [^12] | [Homophily in preferences or meetings? Identifying and estimating an iterative network formation model.](http://arxiv.org/abs/2201.06694) | 本文讨论同质性在社交和经济网络中产生的机制，提出了一种区分偏好和机会的迭代网络游戏的方法，并且进行了应用研究，发现偏好的同质性比机会的同质性更强，追踪学生可能会提高福利，但是效益随着时间推移而减弱。 |
-| [^13] | [A Natural Adaptive Process for Collective Decision-Making.](http://arxiv.org/abs/2103.14351) | 提出了一种灵活的集体决策过程，类似于自然过程和机器学习中的算法，其产生的集体决策经验分布近似于极大抽签，且在时间推移中使用极大抽签作为集体决策的概率呈指数增长。 |
+| [^5] | [Gain-Loss Hedging and Cumulative Prospect Theory.](http://arxiv.org/abs/2304.14843) | 通过获益损失对冲概念，本文阐述了累积前景理论与Choquet期望效用的不同之处。 |
+| [^6] | [Nontransitive Preferences and Stochastic Rationalizability: A Behavioral Equivalence.](http://arxiv.org/abs/2304.14631) | 本文揭示出在单调性假设下，非传递偏好的行为等价于一个传递的随机选择模型。 |
+| [^7] | [Augmented balancing weights as linear regression.](http://arxiv.org/abs/2304.14545) | 本文探索了自动去偏重重配的新颖特征描述，并将其等同于基于内核岭回归的单个欠平滑岭回归，进一步将这种方法推广到特定的结果和重配模型选择上。 |
+| [^8] | [Assessing Text Mining and Technical Analyses on Forecasting Financial Time Series.](http://arxiv.org/abs/2304.14544) | 本文评估了文本挖掘和技术分析在预测金融时间序列中的准确性，比较了这两种方法预测S&P500未来价格的优缺点，并表明FinBERT模型表现较好，有潜力革新金融分析和预测。 |
+| [^9] | [Climate uncertainty impacts on optimal mitigation pathways and social cost of carbon.](http://arxiv.org/abs/2304.08957) | 研究表明，气候不确定性是导致碳社会成本和最优CO$_2$减排量范围变化的关键因素，减少气候不确定性可以改进减排投入的成本计算，同时也指出了气候和排放之间缺失的反馈。 |
+| [^10] | [Robust Social Welfare Maximization via Information Design in Linear-Quadratic-Gaussian Games.](http://arxiv.org/abs/2303.05489) | 该论文研究了一个设计者具有部分对代理人效用的知识的情况下，如何通过信息设计来实现线性二次高斯博弈中的稳健社会福利最大化。 |
+| [^11] | [Unified Container Shipping Industry Data From 1966: Freight Rate, Shipping Quantity, Newbuilding, Secondhand, and Scrap Price.](http://arxiv.org/abs/2211.16292) | 本文构建了一个统一的集装箱运输行业数据集，利用该数据集分析了行业动态和集装箱危机，并揭示了运输联盟崩溃的影响。 |
+| [^12] | [An Axiomatic Characterization of Draft Rules.](http://arxiv.org/abs/2204.08300) | 该论文研究了选秀规则，提供了一个简单的选秀规则描述，该规则是满足优先级尊重、一物无嫉妒、非浪费和资源单调性的唯一分配规则。同时，该文还证明了三个不可能定理，并且选秀规则满足竞争平衡属性 RP 和 EF1，以及效率。 |
+| [^13] | [Homophily in preferences or meetings? Identifying and estimating an iterative network formation model.](http://arxiv.org/abs/2201.06694) | 本文讨论同质性在社交和经济网络中产生的机制，提出了一种区分偏好和机会的迭代网络游戏的方法，并且进行了应用研究，发现偏好的同质性比机会的同质性更强，追踪学生可能会提高福利，但是效益随着时间推移而减弱。 |
+| [^14] | [A Natural Adaptive Process for Collective Decision-Making.](http://arxiv.org/abs/2103.14351) | 提出了一种灵活的集体决策过程，类似于自然过程和机器学习中的算法，其产生的集体决策经验分布近似于极大抽签，且在时间推移中使用极大抽签作为集体决策的概率呈指数增长。 |
 
 # 详细
 
@@ -74,7 +75,21 @@
 
     Laws that govern land acquisition can lock in old paradigms. We study one such case, the Coal Bearing Areas Act of 1957 (CBAA) which provides minimal social and environmental safegaurds, and deviates in important ways from the Right to Fair Compensation and Transparency in Land Acquisition, Rehabilitation and Resettlement Act 2013 (LARR). The lack of due diligence protocol in the CBAA confers an undue comparative advantage to coal development, which is inconsistent with India's stance to phase down coal use, reduce air pollution, and advance modern sources of energy. We argue that the premise under which the CBAA was historically justified is no longer valid due to a significant change in the local context. Namely, the environmental and social costs of coal energy are far more salient and the market has cleaner energy alternatives that are cost competitive. We recommend updating land acquisition laws to bring coal under the general purview of LARR or, at minimum, amending the CBAA to e
     
-[^5]: 非传递偏好和随机合理性：一种行为等价性。
+[^5]: 获益损失对冲及累积前景理论
+
+    Gain-Loss Hedging and Cumulative Prospect Theory. (arXiv:2304.14843v1 [econ.TH])
+
+    [http://arxiv.org/abs/2304.14843](http://arxiv.org/abs/2304.14843)
+
+    通过获益损失对冲概念，本文阐述了累积前景理论与Choquet期望效用的不同之处。
+
+    
+
+    如果两个行为在同样的自然状态下产生高收益，则这两个行为是共同单调的。此论文的主要目的是通过涉及共同单调性的简单性质来推导累积前景理论（CPT）的新特征。主要的创新是引入了称为获益损失对冲的概念：即通过混合正面和负面行为，即使这些行为是共同单调的，也可以创建对冲机会。这使我们能够澄清CPT与Choquet期望效用的区别。我们的分析是在较简单的情况下进行的（即分段常数边际效用），这使我们能够清楚地将不确定性感知与结果评估分开。
+
+    Two acts are comonotonic if they yield high payoffs in the same states of nature. The main purpose of this paper is to derive a new characterization of Cumulative Prospect Theory (CPT) through simple properties involving comonotonicity. The main novelty is a concept dubbed gain-loss hedging: mixing positive and negative acts creates hedging possibilities even when acts are comonotonic. This allows us to clarify in which sense CPT differs from Choquet expected utility. Our analysis is performed under the simpler case of (piece-wise) constant marginal utility which allows us to clearly separate the perception of uncertainty from the evaluation of outcomes.
+    
+[^6]: 非传递偏好和随机合理性：一种行为等价性。
 
     Nontransitive Preferences and Stochastic Rationalizability: A Behavioral Equivalence. (arXiv:2304.14631v1 [econ.TH])
 
@@ -88,7 +103,7 @@
 
     Nontransitive choices have long been an area of curiosity within economics. However, determining whether nontransitive choices represent an individual's preference is a difficult task since choice data is inherently stochastic. This paper shows that behavior from nontransitive preferences under a monotonicity assumption is equivalent to a transitive stochastic choice model. In particular, nontransitive preferences are regularly interpreted as a strength of preference, so we assume alternatives are chosen proportionally to the nontransitive preference. One implication of this result is that one cannot distinguish ``complementarity in attention" and ``complementarity in demand."
     
-[^6]: 自动去偏重重配作为线性回归
+[^7]: 自动去偏重重配作为线性回归
 
     Augmented balancing weights as linear regression. (arXiv:2304.14545v1 [stat.ME])
 
@@ -102,7 +117,7 @@
 
     We provide a novel characterization of augmented balancing weights, also known as Automatic Debiased Machine Learning (AutoDML). These estimators combine outcome modeling with balancing weights, which estimate inverse propensity score weights directly. When the outcome and weighting models are both linear in some (possibly infinite) basis, we show that the augmented estimator is equivalent to a single linear model with coefficients that combine the original outcome model coefficients and OLS; in many settings, the augmented estimator collapses to OLS alone. We then extend these results to specific choices of outcome and weighting models. We first show that the combined estimator that uses (kernel) ridge regression for both outcome and weighting models is equivalent to a single, undersmoothed (kernel) ridge regression; this also holds when considering asymptotic rates. When the weighting model is instead lasso regression, we give closed-form expressions for special cases and demonstrate
     
-[^7]: 评估文本挖掘和技术分析对金融时间序列预测的影响
+[^8]: 评估文本挖掘和技术分析对金融时间序列预测的影响
 
     Assessing Text Mining and Technical Analyses on Forecasting Financial Time Series. (arXiv:2304.14544v1 [econ.EM])
 
@@ -116,7 +131,7 @@
 
     Forecasting financial time series (FTS) is an essential field in finance and economics that anticipates market movements in financial markets. This paper investigates the accuracy of text mining and technical analyses in forecasting financial time series. It focuses on the S&P500 stock market index during the pandemic, which tracks the performance of the largest publicly traded companies in the US. The study compares two methods of forecasting the future price of the S&P500: text mining, which uses NLP techniques to extract meaningful insights from financial news, and technical analysis, which uses historical price and volume data to make predictions. The study examines the advantages and limitations of both methods and analyze their performance in predicting the S&P500. The FinBERT model outperforms other models in terms of S&P500 price prediction, as evidenced by its lower RMSE value, and has the potential to revolutionize financial analysis and prediction using financial news data. 
     
-[^8]: 气候不确定性对最佳减排路径和碳社会成本的影响
+[^9]: 气候不确定性对最佳减排路径和碳社会成本的影响
 
     Climate uncertainty impacts on optimal mitigation pathways and social cost of carbon. (arXiv:2304.08957v1 [econ.GN])
 
@@ -130,7 +145,7 @@
 
     Emissions pathways used in climate policy analysis are often derived from integrated assessment models (IAMs). However, such emissions pathways do not typically include climate feedbacks on socioeconomic systems and by extension do not consider climate uncertainty in their construction. Here we show that climate uncertainty alone significantly changes the cost-benefit optimal CO$_2$ emissions, varying from -14 to +12 GtCO$_2$ yr$^{-1}$ in 2050 (5-95% range) for an ensemble of scenarios that limit warming to 1.5{\deg}C with low overshoot. Climate uncertainty is also responsible for a factor of five range in the social cost of carbon (SCC) in this scenario ensemble. Equilibrium climate sensitivity (ECS) and the strength of present-day aerosol radiative forcing are strong determinants of SCC and optimal mid-century CO$_2$ emissions. This confirms that reducing climate uncertainty can refine cost-optimal emissions projections, and points to a missing feedback between climate and emissions 
     
-[^9]: 通过信息设计实现线性二次高斯博弈中的稳健社会福利最大化
+[^10]: 通过信息设计实现线性二次高斯博弈中的稳健社会福利最大化
 
     Robust Social Welfare Maximization via Information Design in Linear-Quadratic-Gaussian Games. (arXiv:2303.05489v2 [math.OC] UPDATED)
 
@@ -144,7 +159,7 @@
 
     Information design in an incomplete information game includes a designer with the goal of influencing players' actions through signals generated from a designed probability distribution so that its objective function is optimized. We consider a setting in which the designer has partial knowledge on agents' utilities. We address the uncertainty about players' preferences by formulating a robust information design problem against worst case payoffs. If the players have quadratic payoffs that depend on the players' actions and an unknown payoff-relevant state, and signals on the state that follow a Gaussian distribution conditional on the state realization, then the information design problem under quadratic design objectives is a semidefinite program (SDP). Specifically, we consider ellipsoid perturbations over payoff coefficients in linear-quadratic-Gaussian (LQG) games. We show that this leads to a tractable robust SDP formulation. Numerical studies are carried out to identify the rela
     
-[^10]: 从1966年开始的统一集装箱运输行业数据：货运率、运输量、新建、二手和报废价格。
+[^11]: 从1966年开始的统一集装箱运输行业数据：货运率、运输量、新建、二手和报废价格。
 
     Unified Container Shipping Industry Data From 1966: Freight Rate, Shipping Quantity, Newbuilding, Secondhand, and Scrap Price. (arXiv:2211.16292v3 [econ.GN] UPDATED)
 
@@ -158,7 +173,7 @@
 
     We construct a new unified panel dataset that combines route-year-level freight rates with shipping quantities for the six major routes and industry-year-level newbuilding, secondhand, and scrap prices from 1966 (the beginning of the industry) to 2009. We offer detailed instructions on how to merge various datasets and validate the data's consistency by industry experts and former executives who have historical knowledge and experience. Using this dataset, we provide a quantitative and descriptive analysis of the industry dynamics known as the container crisis. Finally, we identify structural breaks for each variable to demonstrate the impact of the shipping cartels' collapse.
     
-[^11]: 一种关于选秀规则的公理化描述
+[^12]: 一种关于选秀规则的公理化描述
 
     An Axiomatic Characterization of Draft Rules. (arXiv:2204.08300v4 [econ.TH] UPDATED)
 
@@ -172,7 +187,7 @@
 
     Drafts are sequential allocation procedures for distributing heterogeneous and indivisible objects among agents subject to some priority order (e.g., allocating players' contract rights to teams in professional sports leagues). Agents reveal ordinal preferences over objects and bundles are partially ordered by pairwise comparison. We provide a simple characterization of draft rules: they are the only allocation rules satisfying respectfulness of a priority (RP), envy-freeness up to one object (EF1), non-wastefulness (NW) and resource-monotonicity (RM). RP and EF1 are crucial for competitive balance in sports leagues. We also prove three related impossibility theorems: (i) weak strategy-proofness (WSP) is incompatible with RP, EF1, and NW; (ii) WSP is incompatible with EF1 and (Pareto) efficiency (EFF); and (iii) when there are two agents, strategy-proofness (SP) is incompatible with EF1 and NW. However, draft rules satisfy the competitive-balance properties, RP and EF1, together with E
     
-[^12]: 偏好或相遇中的同质性？识别并估计一种迭代网络形成模型。
+[^13]: 偏好或相遇中的同质性？识别并估计一种迭代网络形成模型。
 
     Homophily in preferences or meetings? Identifying and estimating an iterative network formation model. (arXiv:2201.06694v3 [econ.EM] UPDATED)
 
@@ -186,7 +201,7 @@
 
     Is homophily in social and economic networks driven by a taste for homogeneity (preferences) or by a higher probability of meeting individuals with similar attributes (opportunity)? This paper studies identification and estimation of an iterative network game that distinguishes between these two mechanisms. Our approach enables us to assess the counterfactual effects of changing the meeting protocol between agents. As an application, we study the role of preferences and meetings in shaping classroom friendship networks in Brazil. In a network structure in which homophily due to preferences is stronger than homophily due to meeting opportunities, tracking students may improve welfare. Still, the relative benefit of this policy diminishes over the school year.
     
-[^13]: 一种自然适应性的集体决策过程
+[^14]: 一种自然适应性的集体决策过程
 
     A Natural Adaptive Process for Collective Decision-Making. (arXiv:2103.14351v4 [econ.TH] UPDATED)
 

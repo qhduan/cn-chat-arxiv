@@ -39,9 +39,10 @@
 | [^35] | [LLM as A Robotic Brain: Unifying Egocentric Memory and Control.](http://arxiv.org/abs/2304.09349) | 本文提出了一个统一自我中心记忆和控制的框架LLM-Brain，使用大规模语言模型作为机器人大脑进行零-shot学习。该框架包括封闭式多轮对话，覆盖了感知、规划、控制和记忆，具有很好的泛化性能，适用于多个机器人任务。 |
 | [^36] | [chatIPCC: Grounding Conversational AI in Climate Science.](http://arxiv.org/abs/2304.05510) | chatIPCC是一个基于气候科学的对话型人工智能系统，通过整合IPCC AR6中的信息来增强GPT-4模型，并提供可靠、科学准确的答案。 |
 | [^37] | [The Wall Street Neophyte: A Zero-Shot Analysis of ChatGPT Over MultiModal Stock Movement Prediction Challenges.](http://arxiv.org/abs/2304.05351) | 本研究对ChatGPT在股票预测方面进行了零样本分析，结果表明其预测股票移动的表现不如最先进和传统方法，需要进一步改进。 |
-| [^38] | [Convolution-enhanced Evolving Attention Networks.](http://arxiv.org/abs/2212.08330) | 本文提出了一种新颖且通用的卷积增强进化注意力机制，通过一系列残差卷积模块直接模拟标记间关系的演变，在不同层次之间促进信息流动。 |
-| [^39] | [Automatic Severity Assessment of Dysarthric speech by using Self-supervised Model with Multi-task Learning.](http://arxiv.org/abs/2210.15387) | 该论文提出了一种使用自监督模型和多任务学习相结合的自动评估发音障碍严重程度的方法，在较少数据的情况下实现了向传统方法的优化，并且相对提高了1.25%的F1-score。 |
-| [^40] | [Using Both Demonstrations and Language Instructions to Efficiently Learn Robotic Tasks.](http://arxiv.org/abs/2210.04476) | 本论文提出了一种使用演示和自然语言指令相结合的机器人任务学习方法，其基于两种模式相互消除歧义来有效地指定和教授机器人复杂任务。此方法可以减少教师工作量并实现更好的泛化性能。 |
+| [^38] | [Generating High-Precision Feedback for Programming Syntax Errors using Large Language Models.](http://arxiv.org/abs/2302.04662) | 本文介绍了使用LLMs生成高精度反馈的技术，可用于固定Python程序中的语法错误。使用PyFiXV生成的反馈准确性高达92％，错误覆盖率高达72％，在编程教育中有潜在的应用价值。 |
+| [^39] | [Convolution-enhanced Evolving Attention Networks.](http://arxiv.org/abs/2212.08330) | 本文提出了一种新颖且通用的卷积增强进化注意力机制，通过一系列残差卷积模块直接模拟标记间关系的演变，在不同层次之间促进信息流动。 |
+| [^40] | [Automatic Severity Assessment of Dysarthric speech by using Self-supervised Model with Multi-task Learning.](http://arxiv.org/abs/2210.15387) | 该论文提出了一种使用自监督模型和多任务学习相结合的自动评估发音障碍严重程度的方法，在较少数据的情况下实现了向传统方法的优化，并且相对提高了1.25%的F1-score。 |
+| [^41] | [Using Both Demonstrations and Language Instructions to Efficiently Learn Robotic Tasks.](http://arxiv.org/abs/2210.04476) | 本论文提出了一种使用演示和自然语言指令相结合的机器人任务学习方法，其基于两种模式相互消除歧义来有效地指定和教授机器人复杂任务。此方法可以减少教师工作量并实现更好的泛化性能。 |
 
 # 详细
 
@@ -563,7 +564,21 @@
 
     Recently, large language models (LLMs) like ChatGPT have demonstrated remarkable performance across a variety of natural language processing tasks. However, their effectiveness in the financial domain, specifically in predicting stock market movements, remains to be explored. In this paper, we conduct an extensive zero-shot analysis of ChatGPT's capabilities in multimodal stock movement prediction, on three tweets and historical stock price datasets. Our findings indicate that ChatGPT is a "Wall Street Neophyte" with limited success in predicting stock movements, as it underperforms not only state-of-the-art methods but also traditional methods like linear regression using price features. Despite the potential of Chain-of-Thought prompting strategies and the inclusion of tweets, ChatGPT's performance remains subpar. Furthermore, we observe limitations in its explainability and stability, suggesting the need for more specialized training or fine-tuning. This research provides insights i
     
-[^38]: 卷积增强的不断进化的注意力网络
+[^38]: 利用大型语言模型为编程语法错误生成高精度反馈
+
+    Generating High-Precision Feedback for Programming Syntax Errors using Large Language Models. (arXiv:2302.04662v2 [cs.PL] UPDATED)
+
+    [http://arxiv.org/abs/2302.04662](http://arxiv.org/abs/2302.04662)
+
+    本文介绍了使用LLMs生成高精度反馈的技术，可用于固定Python程序中的语法错误。使用PyFiXV生成的反馈准确性高达92％，错误覆盖率高达72％，在编程教育中有潜在的应用价值。
+
+    
+
+    大型语言模型（LLM）比如Codex有望通过自动生成反馈为编程教育提供帮助。本文研究使用LLM为Python程序中的语法错误生成反馈，这是入门编程中的关键场景之一。具体来说，目标是生成包含固定程序和自然语言解释的反馈，以描述错误修复，就像人类导师一样。虽然使用LLM很有前途，但关键挑战在于确保反馈的高精度，这在将此类技术应用于教室之前是至关重要的。我们研究的主要问题是：我们是否可以开发基于LLM的反馈生成技术，具有可调节的精度参数，以便教育工作者控制学生接收到的反馈质量？为此，我们介绍了PyFiXV，我们的技术，它由Codex提供支持，用于生成高精度反馈。
+
+    Large language models (LLMs), such as Codex, hold great promise in enhancing programming education by automatically generating feedback for students. We investigate using LLMs to generate feedback for fixing syntax errors in Python programs, a key scenario in introductory programming. More concretely, given a student's buggy program, our goal is to generate feedback comprising a fixed program along with a natural language explanation describing the errors/fixes, inspired by how a human tutor would give feedback. While using LLMs is promising, the critical challenge is to ensure high precision in the generated feedback, which is imperative before deploying such technology in classrooms. The main research question we study is: Can we develop LLMs-based feedback generation techniques with a tunable precision parameter, giving educators quality control over the feedback that students receive? To this end, we introduce PyFiXV, our technique to generate high-precision feedback powered by Cod
+    
+[^39]: 卷积增强的不断进化的注意力网络
 
     Convolution-enhanced Evolving Attention Networks. (arXiv:2212.08330v2 [cs.LG] UPDATED)
 
@@ -577,7 +592,7 @@
 
     Attention-based neural networks, such as Transformers, have become ubiquitous in numerous applications, including computer vision, natural language processing, and time-series analysis. In all kinds of attention networks, the attention maps are crucial as they encode semantic dependencies between input tokens. However, most existing attention networks perform modeling or reasoning based on representations , wherein the attention maps of different layers are learned separately without explicit interactions. In this paper, we propose a novel and generic evolving attention mechanism, which directly models the evolution of inter-token relationships through a chain of residual convolutional modules. The major motivations are twofold. On the one hand, the attention maps in different layers share transferable knowledge, thus adding a residual connection can facilitate the information flow of inter-token relationships across layers. On the other hand, there is naturally an evolutionary trend a
     
-[^39]: 自监督模型与多任务学习相结合的发音障碍自动严重程度评估方法
+[^40]: 自监督模型与多任务学习相结合的发音障碍自动严重程度评估方法
 
     Automatic Severity Assessment of Dysarthric speech by using Self-supervised Model with Multi-task Learning. (arXiv:2210.15387v2 [cs.CL] UPDATED)
 
@@ -591,7 +606,7 @@
 
     Automatic assessment of dysarthric speech is essential for sustained treatments and rehabilitation. However, obtaining atypical speech is challenging, often leading to data scarcity issues. To tackle the problem, we propose a novel automatic severity assessment method for dysarthric speech, using the self-supervised model in conjunction with multi-task learning. Wav2vec 2.0 XLS-R is jointly trained for two different tasks: severity classification and auxiliary automatic speech recognition (ASR). For the baseline experiments, we employ hand-crafted acoustic features and machine learning classifiers such as SVM, MLP, and XGBoost. Explored on the Korean dysarthric speech QoLT database, our model outperforms the traditional baseline methods, with a relative percentage increase of 1.25% for F1-score. In addition, the proposed model surpasses the model trained without ASR head, achieving 10.61% relative percentage improvements. Furthermore, we present how multi-task learning affects the seve
     
-[^40]: 使用演示和自然语言指令高效学习机器人任务
+[^41]: 使用演示和自然语言指令高效学习机器人任务
 
     Using Both Demonstrations and Language Instructions to Efficiently Learn Robotic Tasks. (arXiv:2210.04476v2 [cs.RO] UPDATED)
 

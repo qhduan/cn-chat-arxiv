@@ -1,0 +1,12 @@
+{
+    "title": "Gain-Loss Hedging and Cumulative Prospect Theory. (arXiv:2304.14843v1 [econ.TH])",
+    "abstract": "Two acts are comonotonic if they yield high payoffs in the same states of nature. The main purpose of this paper is to derive a new characterization of Cumulative Prospect Theory (CPT) through simple properties involving comonotonicity. The main novelty is a concept dubbed gain-loss hedging: mixing positive and negative acts creates hedging possibilities even when acts are comonotonic. This allows us to clarify in which sense CPT differs from Choquet expected utility. Our analysis is performed under the simpler case of (piece-wise) constant marginal utility which allows us to clearly separate the perception of uncertainty from the evaluation of outcomes.",
+    "link": "http://arxiv.org/abs/2304.14843",
+    "context": "Title: Gain-Loss Hedging and Cumulative Prospect Theory. (arXiv:2304.14843v1 [econ.TH])\nAbstract: Two acts are comonotonic if they yield high payoffs in the same states of nature. The main purpose of this paper is to derive a new characterization of Cumulative Prospect Theory (CPT) through simple properties involving comonotonicity. The main novelty is a concept dubbed gain-loss hedging: mixing positive and negative acts creates hedging possibilities even when acts are comonotonic. This allows us to clarify in which sense CPT differs from Choquet expected utility. Our analysis is performed under the simpler case of (piece-wise) constant marginal utility which allows us to clearly separate the perception of uncertainty from the evaluation of outcomes.",
+    "path": "papers/23/04/2304.14843.json",
+    "total_tokens": 709,
+    "translated_title": "获益损失对冲及累积前景理论",
+    "translated_abstract": "如果两个行为在同样的自然状态下产生高收益，则这两个行为是共同单调的。此论文的主要目的是通过涉及共同单调性的简单性质来推导累积前景理论（CPT）的新特征。主要的创新是引入了称为获益损失对冲的概念：即通过混合正面和负面行为，即使这些行为是共同单调的，也可以创建对冲机会。这使我们能够澄清CPT与Choquet期望效用的区别。我们的分析是在较简单的情况下进行的（即分段常数边际效用），这使我们能够清楚地将不确定性感知与结果评估分开。",
+    "tldr": "通过获益损失对冲概念，本文阐述了累积前景理论与Choquet期望效用的不同之处。",
+    "en_tdlr": "This paper introduces a new concept called gain-loss hedging, and clarifies the difference between Cumulative Prospect Theory (CPT) and Choquet expected utility using it."
+}
