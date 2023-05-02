@@ -1,0 +1,12 @@
+{
+    "title": "Benchmarking Energy-Conserving Neural Networks for Learning Dynamics from Data. (arXiv:2012.02334v6 [cs.LG] UPDATED)",
+    "abstract": "The last few years have witnessed an increased interest in incorporating physics-informed inductive bias in deep learning frameworks. In particular, a growing volume of literature has been exploring ways to enforce energy conservation while using neural networks for learning dynamics from observed time-series data. In this work, we survey ten recently proposed energy-conserving neural network models, including HNN, LNN, DeLaN, SymODEN, CHNN, CLNN and their variants. We provide a compact derivation of the theory behind these models and explain their similarities and differences. Their performance are compared in 4 physical systems. We point out the possibility of leveraging some of these energy-conserving models to design energy-based controllers.",
+    "link": "http://arxiv.org/abs/2012.02334",
+    "context": "Title: Benchmarking Energy-Conserving Neural Networks for Learning Dynamics from Data. (arXiv:2012.02334v6 [cs.LG] UPDATED)\nAbstract: The last few years have witnessed an increased interest in incorporating physics-informed inductive bias in deep learning frameworks. In particular, a growing volume of literature has been exploring ways to enforce energy conservation while using neural networks for learning dynamics from observed time-series data. In this work, we survey ten recently proposed energy-conserving neural network models, including HNN, LNN, DeLaN, SymODEN, CHNN, CLNN and their variants. We provide a compact derivation of the theory behind these models and explain their similarities and differences. Their performance are compared in 4 physical systems. We point out the possibility of leveraging some of these energy-conserving models to design energy-based controllers.",
+    "path": "papers/20/12/2012.02334.json",
+    "total_tokens": 759,
+    "translated_title": "基准能量守恒神经网络用于学习动力学数据的研究",
+    "translated_abstract": "近年来，将物理知识作为归纳偏置引入深度学习框架，特别是在利用神经网络从观测到的时间序列数据中学习动力学方程方面引起了越来越多的关注。在本文中，我们调查了包括HNN、LNN、DeLaN、SymODEN、CHNN、CLNN及其变体在内的10个最近提出的能量守恒神经网络模型。我们提供了这些模型的理论简洁演绎，并解释了它们的相似之处和差异。我们比较了这些模型在4个物理系统中的表现。我们指出了利用这些能量守恒模型设计基于能量的控制器的可能性。",
+    "tldr": "本文调查了10个最近提出的能量守恒神经网络模型，并比较了它们在4个物理系统中的表现，说明了利用这些模型设计基于能量的控制器的可能性。",
+    "en_tdlr": "This paper surveys ten recently proposed energy-conserving neural network models and compares their performance in four physical systems, pointing out the possibility of using these models to design energy-based controllers."
+}

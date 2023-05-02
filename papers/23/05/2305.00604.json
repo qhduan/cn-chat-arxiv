@@ -1,0 +1,12 @@
+{
+    "title": "ISAAC Newton: Input-based Approximate Curvature for Newton's Method. (arXiv:2305.00604v1 [cs.LG])",
+    "abstract": "We present ISAAC (Input-baSed ApproximAte Curvature), a novel method that conditions the gradient using selected second-order information and has an asymptotically vanishing computational overhead, assuming a batch size smaller than the number of neurons. We show that it is possible to compute a good conditioner based on only the input to a respective layer without a substantial computational overhead. The proposed method allows effective training even in small-batch stochastic regimes, which makes it competitive to first-order as well as second-order methods.",
+    "link": "http://arxiv.org/abs/2305.00604",
+    "context": "Title: ISAAC Newton: Input-based Approximate Curvature for Newton's Method. (arXiv:2305.00604v1 [cs.LG])\nAbstract: We present ISAAC (Input-baSed ApproximAte Curvature), a novel method that conditions the gradient using selected second-order information and has an asymptotically vanishing computational overhead, assuming a batch size smaller than the number of neurons. We show that it is possible to compute a good conditioner based on only the input to a respective layer without a substantial computational overhead. The proposed method allows effective training even in small-batch stochastic regimes, which makes it competitive to first-order as well as second-order methods.",
+    "path": "papers/23/05/2305.00604.json",
+    "total_tokens": 696,
+    "translated_title": "ISAAC Newton：牛顿法的基于输入的近似曲率",
+    "translated_abstract": "我们提出了ISAAC（Input-baSed ApproximAte Curvature），该方法使用选择的二阶信息来调整梯度，并且在批量大小小于神经元数量的情况下具有渐近消失的计算开销。我们展示了在仅基于相应层的输入而不需要实质性计算开销的情况下，计算出一个良好的调节器是可能的。所提出的方法允许在小批量随机情况下有效训练，这使它与一阶以及二阶方法具有竞争力。",
+    "tldr": "ISAAC Newton方法提出了一种使用选择的二阶信息调整梯度的方法，并且在选择批量大小小于神经元数量的情况下，计算开销消失，能够在小批量随机情况下有效训练。",
+    "en_tdlr": "ISAAC Newton presents a novel method called ISAAC that conditions the gradient using selected second-order information, and has asymptotically vanishing computational overhead assuming a batch size smaller than the number of neurons. It allows effective training even in small-batch stochastic regimes, making it competitive to first-order as well as second-order methods."
+}

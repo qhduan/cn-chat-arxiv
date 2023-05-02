@@ -1,0 +1,12 @@
+{
+    "title": "Predictability of Machine Learning Algorithms and Related Feature Extraction Techniques. (arXiv:2305.00449v1 [cs.LG])",
+    "abstract": "This thesis designs a prediction system based on matrix factorization to predict the classification accuracy of a specific model on a particular dataset. In this thesis, we conduct comprehensive empirical research on more than fifty datasets that we collected from the openml website. We study the performance prediction of three fundamental machine learning algorithms, namely, random forest, XGBoost, and MultiLayer Perceptron(MLP). In particular, we obtain the following results: 1. Predictability of fine-tuned models using coarse-tuned variants. 2. Predictability of MLP using feature extraction techniques. 3. Predict model performance using implicit feedback.",
+    "link": "http://arxiv.org/abs/2305.00449",
+    "context": "Title: Predictability of Machine Learning Algorithms and Related Feature Extraction Techniques. (arXiv:2305.00449v1 [cs.LG])\nAbstract: This thesis designs a prediction system based on matrix factorization to predict the classification accuracy of a specific model on a particular dataset. In this thesis, we conduct comprehensive empirical research on more than fifty datasets that we collected from the openml website. We study the performance prediction of three fundamental machine learning algorithms, namely, random forest, XGBoost, and MultiLayer Perceptron(MLP). In particular, we obtain the following results: 1. Predictability of fine-tuned models using coarse-tuned variants. 2. Predictability of MLP using feature extraction techniques. 3. Predict model performance using implicit feedback.",
+    "path": "papers/23/05/2305.00449.json",
+    "total_tokens": 753,
+    "translated_title": "机器学习算法及特征提取技术的可预测性研究",
+    "translated_abstract": "本论文基于矩阵因式分解设计了一个预测系统，可以预测特定数据集上特定模型的分类准确度。我们收集了50多个数据集，并对三个基本的机器学习算法——随机森林、XGBoost和多层感知器（MLP）的性能预测进行了全面的实证研究。具体来说，我们得出了以下结论：1.使用粗调模型可以预测优化模型的性能。2.使用特征提取技术可以预测MLP的性能。3. 使用隐式反馈可预测模型的性能。",
+    "tldr": "本论文通过矩阵因式分解设计了一个预测系统来预测特定数据集上特定模型的分类准确度，同时研究了随机森林、XGBoost和MLP等三种机器学习算法的性能预测，并得出了三个结论。",
+    "en_tdlr": "This thesis presents a prediction system based on matrix factorization to predict the classification accuracy of a specific model on a particular dataset. The paper conducted comprehensive empirical research on over fifty datasets and studied the performance prediction of three fundamental machine learning algorithms, including random forest, XGBoost, and MultiLayer Perceptron, and obtained three main conclusions."
+}

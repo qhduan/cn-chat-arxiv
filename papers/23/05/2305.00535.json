@@ -1,0 +1,12 @@
+{
+    "title": "Nearly Optimal Steiner Trees using Graph Neural Network Assisted Monte Carlo Tree Search. (arXiv:2305.00535v1 [cs.LG])",
+    "abstract": "Graph neural networks are useful for learning problems, as well as for combinatorial and graph problems such as the Subgraph Isomorphism Problem and the Traveling Salesman Problem. We describe an approach for computing Steiner Trees by combining a graph neural network and Monte Carlo Tree Search. We first train a graph neural network that takes as input a partial solution and proposes a new node to be added as output. This neural network is then used in a Monte Carlo search to compute a Steiner tree. The proposed method consistently outperforms the standard 2-approximation algorithm on many different types of graphs and often finds the optimal solution.",
+    "link": "http://arxiv.org/abs/2305.00535",
+    "context": "Title: Nearly Optimal Steiner Trees using Graph Neural Network Assisted Monte Carlo Tree Search. (arXiv:2305.00535v1 [cs.LG])\nAbstract: Graph neural networks are useful for learning problems, as well as for combinatorial and graph problems such as the Subgraph Isomorphism Problem and the Traveling Salesman Problem. We describe an approach for computing Steiner Trees by combining a graph neural network and Monte Carlo Tree Search. We first train a graph neural network that takes as input a partial solution and proposes a new node to be added as output. This neural network is then used in a Monte Carlo search to compute a Steiner tree. The proposed method consistently outperforms the standard 2-approximation algorithm on many different types of graphs and often finds the optimal solution.",
+    "path": "papers/23/05/2305.00535.json",
+    "total_tokens": 739,
+    "translated_title": "利用图神经网络辅助蒙特卡罗树搜索获得近似最优的斯坦纳树",
+    "translated_abstract": "图神经网络在学习问题、组合问题和图问题中十分有效，例如子图同构问题和旅行商问题。本文提出了一种计算斯坦纳树的方法，该方法将图神经网络和蒙特卡罗树搜索相结合。首先我们训练一个图神经网络，该网络以部分解决方案为输入，输出一个新节点作为建议。然后在蒙特卡罗搜索中使用该神经网络来计算斯坦纳树。该方法在许多不同类型的图中一直表现优于标准的2近似算法，并且通常可以找到最优解。",
+    "tldr": "本文提出了一种利用图神经网络和蒙特卡罗树搜索计算斯坦纳树的方法，它在各种类型的图上优于标准的2近似算法，常常找到最优解。",
+    "en_tdlr": "This paper proposes an approach for computing Steiner Trees by combining a graph neural network and Monte Carlo Tree Search, consistently outperforming the standard 2-approximation algorithm and often finding the optimal solution on many types of graphs."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Automated reasoning support for Standpoint-OWL 2. (arXiv:2305.00559v1 [cs.AI])",
+    "abstract": "We present a tool for modelling and reasoning with knowledge from various diverse (and possibly conflicting) viewpoints. The theoretical underpinnings are provided by enhancing base logics by standpoints according to a recently introduced formalism that we also recall. The tool works by translating the standpoint-enhanced version of the description logic SROIQ to its plain (i.e. classical) version. Existing reasoners can then be directly used to provide automated support for reasoning about diverse standpoints.",
+    "link": "http://arxiv.org/abs/2305.00559",
+    "context": "Title: Automated reasoning support for Standpoint-OWL 2. (arXiv:2305.00559v1 [cs.AI])\nAbstract: We present a tool for modelling and reasoning with knowledge from various diverse (and possibly conflicting) viewpoints. The theoretical underpinnings are provided by enhancing base logics by standpoints according to a recently introduced formalism that we also recall. The tool works by translating the standpoint-enhanced version of the description logic SROIQ to its plain (i.e. classical) version. Existing reasoners can then be directly used to provide automated support for reasoning about diverse standpoints.",
+    "path": "papers/23/05/2305.00559.json",
+    "total_tokens": 625,
+    "translated_title": "Standpoint-OWL 2的自动推理支持",
+    "translated_abstract": "我们提出了一个工具，用于模拟和处理来自不同的立场（可能存在冲突）的知识。理论基础是通过增强基本逻辑来实现的，该逻辑是根据最近引入的形式化方法加入立场的。该工具通过将立场增强版本的描述逻辑SROIQ转换为其普通（即经典）版本来工作。现有的推理器可以直接用于提供处理不同立场的自动化支持。",
+    "tldr": "该论文提出了一个用于模拟和处理来自不同立场的知识的工具，通过增强基本逻辑来实现，可以直接用于处理多元立场并提供自动推理支持。"
+}

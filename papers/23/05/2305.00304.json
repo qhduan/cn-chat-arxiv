@@ -1,0 +1,12 @@
+{
+    "title": "A preferential interpretation of MultiLayer Perceptrons in a conditional logic with typicality. (arXiv:2305.00304v1 [cs.AI])",
+    "abstract": "In this paper we investigate the relationships between a multipreferential semantics for defeasible reasoning in knowledge representation and a multilayer neural network model. Weighted knowledge bases for a simple description logic with typicality are considered under a (many-valued) ``concept-wise\" multipreference semantics. The semantics is used to provide a preferential interpretation of MultiLayer Perceptrons (MLPs). A model checking and an entailment based approach are exploited in the verification of conditional properties of MLPs.",
+    "link": "http://arxiv.org/abs/2305.00304",
+    "context": "Title: A preferential interpretation of MultiLayer Perceptrons in a conditional logic with typicality. (arXiv:2305.00304v1 [cs.AI])\nAbstract: In this paper we investigate the relationships between a multipreferential semantics for defeasible reasoning in knowledge representation and a multilayer neural network model. Weighted knowledge bases for a simple description logic with typicality are considered under a (many-valued) ``concept-wise\" multipreference semantics. The semantics is used to provide a preferential interpretation of MultiLayer Perceptrons (MLPs). A model checking and an entailment based approach are exploited in the verification of conditional properties of MLPs.",
+    "path": "papers/23/05/2305.00304.json",
+    "total_tokens": 677,
+    "translated_title": "一种具有典型性的条件逻辑中多层感知器的优先解释",
+    "translated_abstract": "本文研究了知识表示中缺陷推理的多优选语义与多层神经网络模型之间的关系。考虑了一种具有典型性的简单描述逻辑的加权知识库，在“概念层面”的多优先语义下进行。该语义被用来提供多层感知器(MLPs)的优先解释。利用模型检查和蕴含关系的方法验证MLPs的条件属性。",
+    "tldr": "本文探究了缺陷推理的多优选语义和多层神经网络模型之间的关系，并利用提出的多优先语义，对多层感知器(MLPs)进行了优先解释，并验证了其条件属性。",
+    "en_tdlr": "This paper investigates the relationship between multi-preferential semantics for defeasible reasoning in knowledge representation and a multilayer neural network model. The proposed semantics is utilized to provide a preferential interpretation of MultiLayer Perceptrons (MLPs) in a simple description logic with typicality, and conditional properties of MLPs are verified using model checking and an entailment-based approach."
+}

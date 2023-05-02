@@ -1,0 +1,11 @@
+{
+    "title": "Iterative Document-level Information Extraction via Imitation Learning. (arXiv:2210.06600v3 [cs.CL] UPDATED)",
+    "abstract": "We present a novel iterative extraction model, IterX, for extracting complex relations, or templates (i.e., N-tuples representing a mapping from named slots to spans of text) within a document. Documents may feature zero or more instances of a template of any given type, and the task of template extraction entails identifying the templates in a document and extracting each template's slot values. Our imitation learning approach casts the problem as a Markov decision process (MDP), and relieves the need to use predefined template orders to train an extractor. It leads to state-of-the-art results on two established benchmarks -- 4-ary relation extraction on SciREX and template extraction on MUC-4 -- as well as a strong baseline on the new BETTER Granular task.",
+    "link": "http://arxiv.org/abs/2210.06600",
+    "context": "Title: Iterative Document-level Information Extraction via Imitation Learning. (arXiv:2210.06600v3 [cs.CL] UPDATED)\nAbstract: We present a novel iterative extraction model, IterX, for extracting complex relations, or templates (i.e., N-tuples representing a mapping from named slots to spans of text) within a document. Documents may feature zero or more instances of a template of any given type, and the task of template extraction entails identifying the templates in a document and extracting each template's slot values. Our imitation learning approach casts the problem as a Markov decision process (MDP), and relieves the need to use predefined template orders to train an extractor. It leads to state-of-the-art results on two established benchmarks -- 4-ary relation extraction on SciREX and template extraction on MUC-4 -- as well as a strong baseline on the new BETTER Granular task.",
+    "path": "papers/22/10/2210.06600.json",
+    "total_tokens": 743,
+    "translated_title": "通过模仿学习进行迭代式文档级信息抽取",
+    "translated_abstract": "我们提出了一种新颖的迭代抽取模型IterX，用于在文档中提取复杂的关系或模板（即将命名槽与文本跨度进行映射的N元组）。模板抽取任务包括识别文档中的模板并提取每个模板的槽值。我们的模仿学习方法将问题作为马尔可夫决策过程（MDP），并消除了使用预定义模板顺序来训练提取器的需要。它在两个已建立的基准测试（SciREX的4元关系抽取和MUC-4的模板抽取）以及新的BETTER Granular任务中取得了最先进的结果。",
+    "tldr": "本论文提出了一种迭代式信息抽取模型IterX，通过模仿学习的方式解决了模板顺序问题，并取得了在多个基准测试中的最先进结果。"
+}

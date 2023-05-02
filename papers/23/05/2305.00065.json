@@ -1,0 +1,12 @@
+{
+    "title": "Logic-based similarity. (arXiv:2305.00065v1 [cs.LO])",
+    "abstract": "This paper develops a {\\em qualitative} and logic-based notion of similarity from the ground up using only elementary concepts of first-order logic centered around the fundamental model-theoretic notion of type.",
+    "link": "http://arxiv.org/abs/2305.00065",
+    "context": "Title: Logic-based similarity. (arXiv:2305.00065v1 [cs.LO])\nAbstract: This paper develops a {\\em qualitative} and logic-based notion of similarity from the ground up using only elementary concepts of first-order logic centered around the fundamental model-theoretic notion of type.",
+    "path": "papers/23/05/2305.00065.json",
+    "total_tokens": 457,
+    "translated_title": "基于逻辑的相似性",
+    "translated_abstract": "本文从一阶逻辑的基本概念出发，以类型理论为中心，从零开始发展了一种基于逻辑的“定性”相似性概念。",
+    "tldr": "本文提出了一种基于逻辑的“定性”相似性概念，通过类型理论作为中心思想和一阶逻辑的基本概念进行了构建。",
+    "en_tdlr": "This paper presents a logic-based and qualitative notion of similarity, which is developed from the ground up using only elementary concepts of first-order logic centered around the fundamental model-theoretic notion of type."
+}

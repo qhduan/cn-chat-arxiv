@@ -1,0 +1,12 @@
+{
+    "title": "Signaling With Commitment. (arXiv:2305.00777v1 [econ.TH])",
+    "abstract": "We study the canonical signaling game, endowing the sender with commitment power. We provide a geometric characterization of the sender's attainable payoffs, described by the topological join of the graphs of the sender's interim payoff functions associated with different sender actions. We compare the sender's payoffs in this setting with two benchmarks. In the first, in addition to committing to her actions, the sender can commit to provide the receiver with additional information. In the second, the sender can only commit to release information, but cannot commit to her actions. We illustrate our results with applications to job market signaling, communication with lying costs, and disclosure.",
+    "link": "http://arxiv.org/abs/2305.00777",
+    "context": "Title: Signaling With Commitment. (arXiv:2305.00777v1 [econ.TH])\nAbstract: We study the canonical signaling game, endowing the sender with commitment power. We provide a geometric characterization of the sender's attainable payoffs, described by the topological join of the graphs of the sender's interim payoff functions associated with different sender actions. We compare the sender's payoffs in this setting with two benchmarks. In the first, in addition to committing to her actions, the sender can commit to provide the receiver with additional information. In the second, the sender can only commit to release information, but cannot commit to her actions. We illustrate our results with applications to job market signaling, communication with lying costs, and disclosure.",
+    "path": "papers/23/05/2305.00777.json",
+    "total_tokens": 731,
+    "translated_title": "承诺下的信号传递",
+    "translated_abstract": "我们研究了具有承诺力量的信号传递博弈。我们提供了发件人可达到的收益的几何描述，由与不同发件人行动相关的发件人临时支付函数的图的拓扑联合描述。我们将这种情况下的发件人收益与两个基准进行比较。在第一个基准中，除了承诺自己的行动外，发件人还可以承诺向接收者提供额外的信息。在第二个基准中，发件人只能承诺发布信息，但不能保证自己的行动。我们还将我们的结果应用于作业市场信号传递，具有虚假成本的通信和披露。",
+    "tldr": "该论文研究了具有承诺力量的信号传递博弈，并提出了发件人可达到的收益的几何描述。研究者将其应用于不同领域，如作业市场信号传递、通信和披露。",
+    "en_tdlr": "This paper studies signaling games with commitment power and provides a geometric characterization of the sender's attainable payoffs. Applications include job market signaling, communication with lying costs, and disclosure."
+}

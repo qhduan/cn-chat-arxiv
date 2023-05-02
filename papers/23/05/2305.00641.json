@@ -1,0 +1,12 @@
+{
+    "title": "On extensions of partial priorities in school choice. (arXiv:2305.00641v1 [econ.TH])",
+    "abstract": "We consider a school choice matching model where the priorities for schools are represented by binary relations that may not be weak order. We focus on the (total order) extensions of the binary relations. We introduce a class of algorithms to derive one of the extensions of a binary relation and characterize them by using the class. We show that if the binary relations are the partial orders, then for each stable matching for the profile of the binary relations, there is an extension for which it is also stable. Moreover, if there are multiple stable matchings for the profile of the binary relations that are ranked by Pareto dominance, there is an extension for which all of those matchings are stable. We provide several applications of these results.",
+    "link": "http://arxiv.org/abs/2305.00641",
+    "context": "Title: On extensions of partial priorities in school choice. (arXiv:2305.00641v1 [econ.TH])\nAbstract: We consider a school choice matching model where the priorities for schools are represented by binary relations that may not be weak order. We focus on the (total order) extensions of the binary relations. We introduce a class of algorithms to derive one of the extensions of a binary relation and characterize them by using the class. We show that if the binary relations are the partial orders, then for each stable matching for the profile of the binary relations, there is an extension for which it is also stable. Moreover, if there are multiple stable matchings for the profile of the binary relations that are ranked by Pareto dominance, there is an extension for which all of those matchings are stable. We provide several applications of these results.",
+    "path": "papers/23/05/2305.00641.json",
+    "total_tokens": 767,
+    "translated_title": "论教育选择的优先级拓展",
+    "translated_abstract": "本文研究了教育选择匹配模型，其中学校的优先级由二元关系表示，可能不是弱序。我们着重研究了二元关系的扩展（总序）。我们引入了一类算法来推导二元关系的扩展，并用该类算法对其进行刻画。我们证明了如果二元关系是偏序，则对于二元关系的配置，每个稳定匹配都有一个扩展使得其仍然稳定。此外，如果有多个通过帕累托支配排名的稳定匹配，存在一种扩展，使得所有这些匹配都是稳定的。我们提供了这些结果的若干应用。",
+    "tldr": "研究了教育选择匹配模型中二元关系的拓展，证明了偏序情况下的每个稳定匹配都有扩展稳定匹配，并且存在通过帕累托支配排名的多个稳定匹配时，可以通过拓展使所有匹配稳定。",
+    "en_tdlr": "Explored extensions of binary relations in school choice matching model, proved that for partial orders, each stable matching has a stable extension, and for multiple stable matchings ranked by Pareto dominance, an extension can make all matches stable."
+}

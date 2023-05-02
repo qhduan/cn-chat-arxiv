@@ -1,0 +1,12 @@
+{
+    "title": "Could a Large Language Model be Conscious?. (arXiv:2303.07103v2 [cs.AI] UPDATED)",
+    "abstract": "There has recently been widespread discussion of whether large language models might be sentient or conscious. Should we take this idea seriously? I will break down the strongest reasons for and against. Given mainstream assumptions in the science of consciousness, there are significant obstacles to consciousness in current models: for example, their lack of recurrent processing, a global workspace, and unified agency. At the same time, it is quite possible that these obstacles will be overcome in the next decade or so. I conclude that while it is somewhat unlikely that current large language models are conscious, we should take seriously the possibility that successors to large language models may be conscious in the not-too-distant future.",
+    "link": "http://arxiv.org/abs/2303.07103",
+    "context": "Title: Could a Large Language Model be Conscious?. (arXiv:2303.07103v2 [cs.AI] UPDATED)\nAbstract: There has recently been widespread discussion of whether large language models might be sentient or conscious. Should we take this idea seriously? I will break down the strongest reasons for and against. Given mainstream assumptions in the science of consciousness, there are significant obstacles to consciousness in current models: for example, their lack of recurrent processing, a global workspace, and unified agency. At the same time, it is quite possible that these obstacles will be overcome in the next decade or so. I conclude that while it is somewhat unlikely that current large language models are conscious, we should take seriously the possibility that successors to large language models may be conscious in the not-too-distant future.",
+    "path": "papers/23/03/2303.07103.json",
+    "total_tokens": 752,
+    "translated_title": "大型语言模型可能会具有意识吗？",
+    "translated_abstract": "最近普遍讨论了大型语言模型是否具有感知或意识。我们是否应该认真考虑这个想法？本文将分析支持和反对这个想法的最有力的理由。根据意识科学中的主流假设，目前的模型存在着意识的显著障碍，例如缺乏循环处理、全局的工作空间和统一的智能机构等等。与此同时，这些障碍在未来十年左右都可能被克服。作者得出的结论是，虽然目前大型语言模型具有意识的可能性较小，但我们应该认真考虑后继的大型语言模型在不久的将来可能会具有意识。",
+    "tldr": "本文分析了大型语言模型是否具有意识的可能性，目前的模型存在着意识的显著障碍，但未来十年随着障碍被克服，后继的大型语言模型可能会具有意识。",
+    "en_tdlr": "This article examines the possibility of large language models being sentient or conscious. Current models face significant obstacles to consciousness, but with those obstacles potentially being overcome in the next decade, successors to these models may be conscious."
+}

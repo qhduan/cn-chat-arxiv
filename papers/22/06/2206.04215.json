@@ -1,0 +1,12 @@
+{
+    "title": "It's a super deal -- train recurrent network on noisy data and get smooth prediction free. (arXiv:2206.04215v2 [cs.LG] UPDATED)",
+    "abstract": "Recent research demonstrate that prediction of time series by predictive recurrent neural networks based on the noisy input generates a smooth anticipated trajectory. We examine influence of the noise component in both the training data sets and the input sequences on network prediction quality. We propose and discuss an explanation of the observed noise compression in the predictive process. We also discuss importance of this property of recurrent networks in the neuroscience context for the evolution of living organisms.",
+    "link": "http://arxiv.org/abs/2206.04215",
+    "context": "Title: It's a super deal -- train recurrent network on noisy data and get smooth prediction free. (arXiv:2206.04215v2 [cs.LG] UPDATED)\nAbstract: Recent research demonstrate that prediction of time series by predictive recurrent neural networks based on the noisy input generates a smooth anticipated trajectory. We examine influence of the noise component in both the training data sets and the input sequences on network prediction quality. We propose and discuss an explanation of the observed noise compression in the predictive process. We also discuss importance of this property of recurrent networks in the neuroscience context for the evolution of living organisms.",
+    "path": "papers/22/06/2206.04215.json",
+    "total_tokens": 690,
+    "translated_title": "利用嘈杂数据进行递归网络训练，实现免费平滑预测",
+    "translated_abstract": "最近的研究表明，基于嘈杂数据的预测递归神经网络可以生成平滑的预期轨迹。我们检验了训练数据集和输入序列中噪声成分对网络预测质量的影响。我们提出并讨论了预测过程中观察到的噪声压缩的解释。我们还讨论了递归网络在神经科学中对生物进化的重要性。",
+    "tldr": "本研究探究了使用嘈杂数据训练递归神经网络进行时间序列预测的效果，并发现该方法能够实现免费平滑预测。在实现方法的基础上，我们还通过解释为何存在噪声压缩，探讨了递归网络在神经科学中的重要性。",
+    "en_tdlr": "This study explores the effectiveness of using noisy data to train recurrent neural networks for time series prediction, and finds that this method can achieve smooth and accurate prediction for free. In addition, the study explains why there is noise compression and discusses the significance of recurrent networks in neuroscience for biological evolution."
+}

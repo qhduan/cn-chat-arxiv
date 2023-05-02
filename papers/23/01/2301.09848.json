@@ -1,0 +1,12 @@
+{
+    "title": "Gossiped and Quantized Online Multi-Kernel Learning. (arXiv:2301.09848v2 [cs.LG] UPDATED)",
+    "abstract": "In instances of online kernel learning where little prior information is available and centralized learning is unfeasible, past research has shown that distributed and online multi-kernel learning provides sub-linear regret as long as every pair of nodes in the network can communicate (i.e., the communications network is a complete graph). In addition, to manage the communication load, which is often a performance bottleneck, communications between nodes can be quantized. This letter expands on these results to non-fully connected graphs, which is often the case in wireless sensor networks. To address this challenge, we propose a gossip algorithm and provide a proof that it achieves sub-linear regret. Experiments with real datasets confirm our findings.",
+    "link": "http://arxiv.org/abs/2301.09848",
+    "context": "Title: Gossiped and Quantized Online Multi-Kernel Learning. (arXiv:2301.09848v2 [cs.LG] UPDATED)\nAbstract: In instances of online kernel learning where little prior information is available and centralized learning is unfeasible, past research has shown that distributed and online multi-kernel learning provides sub-linear regret as long as every pair of nodes in the network can communicate (i.e., the communications network is a complete graph). In addition, to manage the communication load, which is often a performance bottleneck, communications between nodes can be quantized. This letter expands on these results to non-fully connected graphs, which is often the case in wireless sensor networks. To address this challenge, we propose a gossip algorithm and provide a proof that it achieves sub-linear regret. Experiments with real datasets confirm our findings.",
+    "path": "papers/23/01/2301.09848.json",
+    "total_tokens": 738,
+    "translated_title": "多核在线学习的八卦与量化",
+    "translated_abstract": "在很少有先验信息可用且无法进行集中学习的在线核学习中，过去的研究表明，只要网络中的每对节点都可以通信（即通信网络是完全图），分布式和在线多核学习就会提供亚线性后悔。此外，为了管理通信负载（通常是性能瓶颈），节点之间的通信可以量化。该文将这些结果扩展到非完全连接的图上，这在无线传感器网络中经常发生。为了解决这个挑战，我们提出了一种八卦算法，并提供了它达到亚线性后悔的证明。使用真实数据集的实验证实了我们的发现。",
+    "tldr": "本文扩展了在线多核学习的研究，提出了一种八卦算法，证明了其在非完全连接的网络环境下可以达到亚线性后悔，具有较好的性能表现。",
+    "en_tdlr": "This paper extends the research on online multi-kernel learning, proposes a gossip algorithm, proves that it can achieve sub-linear regret in non-fully connected networks, and demonstrates good performance through experiments with real datasets."
+}

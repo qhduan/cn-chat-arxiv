@@ -1,0 +1,12 @@
+{
+    "title": "Constructing a Knowledge Graph from Textual Descriptions of Software Vulnerabilities in the National Vulnerability Database. (arXiv:2305.00382v1 [cs.CR])",
+    "abstract": "Knowledge graphs have shown promise for several cybersecurity tasks, such as vulnerability assessment and threat analysis. In this work, we present a new method for constructing a vulnerability knowledge graph from information in the National Vulnerability Database (NVD). Our approach combines named entity recognition (NER), relation extraction (RE), and entity prediction using a combination of neural models, heuristic rules, and knowledge graph embeddings. We demonstrate how our method helps to fix missing entities in knowledge graphs used for cybersecurity and evaluate the performance.",
+    "link": "http://arxiv.org/abs/2305.00382",
+    "context": "Title: Constructing a Knowledge Graph from Textual Descriptions of Software Vulnerabilities in the National Vulnerability Database. (arXiv:2305.00382v1 [cs.CR])\nAbstract: Knowledge graphs have shown promise for several cybersecurity tasks, such as vulnerability assessment and threat analysis. In this work, we present a new method for constructing a vulnerability knowledge graph from information in the National Vulnerability Database (NVD). Our approach combines named entity recognition (NER), relation extraction (RE), and entity prediction using a combination of neural models, heuristic rules, and knowledge graph embeddings. We demonstrate how our method helps to fix missing entities in knowledge graphs used for cybersecurity and evaluate the performance.",
+    "path": "papers/23/05/2305.00382.json",
+    "total_tokens": 707,
+    "translated_title": "从国家漏洞数据库的文本描述中构建知识图谱",
+    "translated_abstract": "知识图谱已经显示出了在多个网络安全领域，例如漏洞评估和威胁分析方面的潜力。在本文中，我们提出了一种从国家漏洞数据库的信息中构建漏洞知识图谱的新方法。我们的方法结合了命名实体识别（NER）、关系提取（RE）、以及使用神经模型、启发式规则和知识图谱嵌入的实体预测。我们演示了我们的方法如何有助于解决网络安全知识图谱中缺失实体的问题，并对其性能进行了评估。",
+    "tldr": "本文提出了一种从国家漏洞数据库信息中构建漏洞知识图谱的新方法，结合了命名实体识别、关系提取和实体预测。该方法有助于解决网络安全知识图谱中缺失实体的问题。",
+    "en_tdlr": "This paper presents a new method for constructing a vulnerability knowledge graph from information in the National Vulnerability Database, which combines named entity recognition, relation extraction, and entity prediction. The method helps to fix missing entities in knowledge graphs used for cybersecurity."
+}

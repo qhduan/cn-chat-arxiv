@@ -1,0 +1,12 @@
+{
+    "title": "Multilingual Representation Distillation with Contrastive Learning. (arXiv:2210.05033v2 [cs.CL] UPDATED)",
+    "abstract": "Multilingual sentence representations from large models encode semantic information from two or more languages and can be used for different cross-lingual information retrieval and matching tasks. In this paper, we integrate contrastive learning into multilingual representation distillation and use it for quality estimation of parallel sentences (i.e., find semantically similar sentences that can be used as translations of each other). We validate our approach with multilingual similarity search and corpus filtering tasks. Experiments across different low-resource languages show that our method greatly outperforms previous sentence encoders such as LASER, LASER3, and LaBSE.",
+    "link": "http://arxiv.org/abs/2210.05033",
+    "context": "Title: Multilingual Representation Distillation with Contrastive Learning. (arXiv:2210.05033v2 [cs.CL] UPDATED)\nAbstract: Multilingual sentence representations from large models encode semantic information from two or more languages and can be used for different cross-lingual information retrieval and matching tasks. In this paper, we integrate contrastive learning into multilingual representation distillation and use it for quality estimation of parallel sentences (i.e., find semantically similar sentences that can be used as translations of each other). We validate our approach with multilingual similarity search and corpus filtering tasks. Experiments across different low-resource languages show that our method greatly outperforms previous sentence encoders such as LASER, LASER3, and LaBSE.",
+    "path": "papers/22/10/2210.05033.json",
+    "total_tokens": 706,
+    "translated_title": "多语言对比学习下的多语言表示蒸馏",
+    "translated_abstract": "大型模型从多种语言中编码语义信息的多语言句子表示可用于不同的跨语言信息检索和匹配任务。本文将对比学习融入到多语言表示蒸馏中，并将其用于平行语句的质量估计（即查找语义上相似的句子，可用作相互之间的翻译）。我们通过多语言相似性搜索和语料库过滤任务验证了我们的方法。在不同低资源语言的实验中，我们的方法大大优于之前的句子编码器，例如 LASER，LASER3 和 LaBSE。",
+    "tldr": "本文将对比学习融入到多语言表示蒸馏中，用于平行语句的质量估计，实验证明在不同低资源语言中方法优于之前的句子编码器，例如 LASER，LASER3 和 LaBSE。",
+    "en_tdlr": "This paper integrates contrastive learning into multilingual representation distillation for quality estimation of parallel sentences and outperforms previous sentence encoders such as LASER, LASER3, and LaBSE in experiments across different low-resource languages."
+}

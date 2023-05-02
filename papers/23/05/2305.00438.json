@@ -1,0 +1,12 @@
+{
+    "title": "META-SMGO-$\\Delta$: similarity as a prior in black-box optimization. (arXiv:2305.00438v1 [math.OC])",
+    "abstract": "When solving global optimization problems in practice, one often ends up repeatedly solving problems that are similar to each others. By providing a rigorous definition of similarity, in this work we propose to incorporate the META-learning rationale into SMGO-$\\Delta$, a global optimization approach recently proposed in the literature, to exploit priors obtained from similar past experience to efficiently solve new (similar) problems. Through a benchmark numerical example we show the practical benefits of our META-extension of the baseline algorithm, while providing theoretical bounds on its performance.",
+    "link": "http://arxiv.org/abs/2305.00438",
+    "context": "Title: META-SMGO-$\\Delta$: similarity as a prior in black-box optimization. (arXiv:2305.00438v1 [math.OC])\nAbstract: When solving global optimization problems in practice, one often ends up repeatedly solving problems that are similar to each others. By providing a rigorous definition of similarity, in this work we propose to incorporate the META-learning rationale into SMGO-$\\Delta$, a global optimization approach recently proposed in the literature, to exploit priors obtained from similar past experience to efficiently solve new (similar) problems. Through a benchmark numerical example we show the practical benefits of our META-extension of the baseline algorithm, while providing theoretical bounds on its performance.",
+    "path": "papers/23/05/2305.00438.json",
+    "total_tokens": 609,
+    "translated_title": "META-SMGO-$\\Delta$: 相似性作为黑箱优化先验知识的应用",
+    "translated_abstract": "实际中全局优化问题常涉及相似问题重复求解。本文通过提供严格的相似性定义，将 META-learning 理论应用到 SMGO-$\\Delta`$，一个近期提出的全局优化方法中，从类似过去经验中获取先验知识，以高效求解新的（相似）问题。通过基准数值实验，我们展示了基准算法 META-extension 的实际好处，同时提供其性能的理论界限。",
+    "tldr": "META-SMGO-$\\Delta$ 通过将相似问题的先验知识应用到优化过程中来提高求解相似问题的效率。",
+    "en_tdlr": "META-SMGO-$\\Delta$ improves the efficiency of solving similar problems in global optimization by incorporating prior knowledge obtained from similar past experiences into the optimization process."
+}

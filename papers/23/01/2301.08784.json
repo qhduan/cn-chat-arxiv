@@ -1,0 +1,12 @@
+{
+    "title": "Visual Semantic Relatedness Dataset for Image Captioning. (arXiv:2301.08784v2 [cs.CL] UPDATED)",
+    "abstract": "Modern image captioning system relies heavily on extracting knowledge from images to capture the concept of a static story. In this paper, we propose a textual visual context dataset for captioning, in which the publicly available dataset COCO Captions (Lin et al., 2014) has been extended with information about the scene (such as objects in the image). Since this information has a textual form, it can be used to leverage any NLP task, such as text similarity or semantic relation methods, into captioning systems, either as an end-to-end training strategy or a post-processing based approach.",
+    "link": "http://arxiv.org/abs/2301.08784",
+    "context": "Title: Visual Semantic Relatedness Dataset for Image Captioning. (arXiv:2301.08784v2 [cs.CL] UPDATED)\nAbstract: Modern image captioning system relies heavily on extracting knowledge from images to capture the concept of a static story. In this paper, we propose a textual visual context dataset for captioning, in which the publicly available dataset COCO Captions (Lin et al., 2014) has been extended with information about the scene (such as objects in the image). Since this information has a textual form, it can be used to leverage any NLP task, such as text similarity or semantic relation methods, into captioning systems, either as an end-to-end training strategy or a post-processing based approach.",
+    "path": "papers/23/01/2301.08784.json",
+    "total_tokens": 690,
+    "translated_title": "图像字幕的视觉语义相关性数据集",
+    "translated_abstract": "现代图像字幕系统严重依赖于从图像中提取知识以捕获静态故事的概念。本文提出了一个用于字幕的文本视觉上下文数据集，其中公开可用的COCO字幕数据集(Lin等人，2014)已经扩展了场景信息（例如图像中的对象）。由于这些信息具有文本形式，因此可以将它们用于将任何NLP任务（例如文本相似度或语义关系方法）纳入字幕系统，无论是作为端到端培训策略还是基于后处理的方法。",
+    "tldr": "本文提出了一个新的数据集，扩展了COCO字幕数据集，向其中添加了包括场景信息等更多文本内容，可以帮助图像字幕系统更好地理解场景和物体，提高其性能。",
+    "en_tdlr": "The paper proposes a novel dataset for captioning that extends the COCO Captions dataset with textual visual context information, which can be used to improve image captioning systems by enhancing their ability to understand scenes and objects."
+}

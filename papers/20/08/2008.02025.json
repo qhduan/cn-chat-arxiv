@@ -1,0 +1,12 @@
+{
+    "title": "Verifying Tight Logic Programs with anthem and Vampire. (arXiv:2008.02025v6 [cs.LO] UPDATED)",
+    "abstract": "This paper continues the line of research aimed at investigating the relationship between logic programs and first-order theories. We extend the definition of program completion to programs with input and output in a subset of the input language of the ASP grounder gringo, study the relationship between stable models and completion in this context, and describe preliminary experiments with the use of two software tools, anthem and vampire, for verifying the correctness of programs with input and output. Proofs of theorems are based on a lemma that relates the semantics of programs studied in this paper to stable models of first-order formulas. Under consideration for acceptance in TPLP.",
+    "link": "http://arxiv.org/abs/2008.02025",
+    "context": "Title: Verifying Tight Logic Programs with anthem and Vampire. (arXiv:2008.02025v6 [cs.LO] UPDATED)\nAbstract: This paper continues the line of research aimed at investigating the relationship between logic programs and first-order theories. We extend the definition of program completion to programs with input and output in a subset of the input language of the ASP grounder gringo, study the relationship between stable models and completion in this context, and describe preliminary experiments with the use of two software tools, anthem and vampire, for verifying the correctness of programs with input and output. Proofs of theorems are based on a lemma that relates the semantics of programs studied in this paper to stable models of first-order formulas. Under consideration for acceptance in TPLP.",
+    "path": "papers/20/08/2008.02025.json",
+    "total_tokens": 670,
+    "translated_title": "使用Anthem和Vampire验证紧凑逻辑程序",
+    "translated_abstract": "本文继续研究逻辑程序和一阶理论之间关系的一系列研究。我们将程序补完的定义扩展到输入和输出在ASP grounding 工具gringo的输入语言子集中的程序，并研究了该上下文中稳定模型和补完之间的关系，描述了使用两个软件工具Anthem和Vampire验证具有输入和输出的程序的正确性的初步实验。该定理的证明基于引理，该引理将本文研究的程序语义与一阶公式的稳定模型相关联。正在TLP接受考虑。",
+    "tldr": "本文通过使用Anthem和Vampire两个软件工具，验证了具有输入和输出的程序的正确性，并研究了该上下文中稳定模型和补完之间的关系。",
+    "en_tdlr": "This paper verifies the correctness of logic programs with input and output using two software tools, Anthem and Vampire, and studies the relationship between stable models and completion in this context."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "EBLIME: Enhanced Bayesian Local Interpretable Model-agnostic Explanations. (arXiv:2305.00213v1 [stat.ML])",
+    "abstract": "We propose EBLIME to explain black-box machine learning models and obtain the distribution of feature importance using Bayesian ridge regression models. We provide mathematical expressions of the Bayesian framework and theoretical outcomes including the significance of ridge parameter. Case studies were conducted on benchmark datasets and a real-world industrial application of locating internal defects in manufactured products. Compared to the state-of-the-art methods, EBLIME yields more intuitive and accurate results, with better uncertainty quantification in terms of deriving the posterior distribution, credible intervals, and rankings of the feature importance.",
+    "link": "http://arxiv.org/abs/2305.00213",
+    "context": "Title: EBLIME: Enhanced Bayesian Local Interpretable Model-agnostic Explanations. (arXiv:2305.00213v1 [stat.ML])\nAbstract: We propose EBLIME to explain black-box machine learning models and obtain the distribution of feature importance using Bayesian ridge regression models. We provide mathematical expressions of the Bayesian framework and theoretical outcomes including the significance of ridge parameter. Case studies were conducted on benchmark datasets and a real-world industrial application of locating internal defects in manufactured products. Compared to the state-of-the-art methods, EBLIME yields more intuitive and accurate results, with better uncertainty quantification in terms of deriving the posterior distribution, credible intervals, and rankings of the feature importance.",
+    "path": "papers/23/05/2305.00213.json",
+    "total_tokens": 727,
+    "translated_title": "EBLIME: 增强的贝叶斯本地可解释模型无关解释方法",
+    "translated_abstract": "本文提出了EBLIME来解释黑盒机器学习模型，并使用贝叶斯岭回归模型获得特征重要性的分布。我们提供了贝叶斯框架的数学表达式和理论结果，包括岭参数的显著性。我们对基准数据集和实际工业应用案例进行了案例研究，涉及定位制造产品内部缺陷。与现有最先进方法相比，EBLIME产生更直观和准确的结果，具有更好的不确定性量化能力，包括生成后验分布、可信区间和特征重要性排名。",
+    "tldr": "本文提出了EBLIME方法，使用贝叶斯岭回归模型从黑盒机器学习模型中解释特征重要性的分布，实验结果表明该方法比现有最先进方法具有更好的解释能力和不确定性量化能力。",
+    "en_tdlr": "This paper proposes EBLIME, which uses Bayesian ridge regression models to explain the distribution of feature importance in black-box machine learning models. Compared to state-of-the-art methods, EBLIME yields more intuitive and accurate results, with better uncertainty quantification."
+}
