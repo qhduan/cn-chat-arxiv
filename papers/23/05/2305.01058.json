@@ -1,0 +1,12 @@
+{
+    "title": "semantic neural model approach for face recognition from sketch. (arXiv:2305.01058v1 [cs.CV])",
+    "abstract": "Face sketch synthesis and reputation have wide range of packages in law enforcement. Despite the amazing progresses had been made in faces cartoon and reputation, maximum current researches regard them as separate responsibilities. On this paper, we propose a semantic neural version approach so that you can address face caricature synthesis and recognition concurrently. We anticipate that faces to be studied are in a frontal pose, with regular lighting and neutral expression, and have no occlusions. To synthesize caricature/image photos, the face vicinity is divided into overlapping patches for gaining knowledge of. The size of the patches decides the scale of local face systems to be found out.",
+    "link": "http://arxiv.org/abs/2305.01058",
+    "context": "Title: semantic neural model approach for face recognition from sketch. (arXiv:2305.01058v1 [cs.CV])\nAbstract: Face sketch synthesis and reputation have wide range of packages in law enforcement. Despite the amazing progresses had been made in faces cartoon and reputation, maximum current researches regard them as separate responsibilities. On this paper, we propose a semantic neural version approach so that you can address face caricature synthesis and recognition concurrently. We anticipate that faces to be studied are in a frontal pose, with regular lighting and neutral expression, and have no occlusions. To synthesize caricature/image photos, the face vicinity is divided into overlapping patches for gaining knowledge of. The size of the patches decides the scale of local face systems to be found out.",
+    "path": "papers/23/05/2305.01058.json",
+    "total_tokens": 756,
+    "translated_title": "基于语义神经模型的草图人脸识别方法",
+    "translated_abstract": "在法律执法中，人脸草图合成和识别有着广泛的应用，但当前的研究往往将其视为独立的任务。为了同时解决草图合成和识别问题，本文提出了一种基于语义神经网络模型的方法。我们假设待识别的人脸处于正面姿态，有着正常的光照和中性的表情，并且没有遮挡。为了合成草图/图像，将人脸区域划分为重叠的补丁进行学习，补丁的大小决定要学习的局部人脸结构的尺度。",
+    "tldr": "本文提出了一种基于语义神经网络模型的方法，可同时解决草图合成和识别问题。对待识别的人脸进行正面姿态、正常光照、中性表情和无遮挡的要求。",
+    "en_tdlr": "This paper proposes a semantic neural model approach for addressing face sketch synthesis and recognition concurrently. The approach requires the face under a frontal pose, with regular lighting and neutral expression, and no occlusions for recognition. The face region is divided into overlapping patches to synthesize caricature/image photos, with the patch size determining the scale of local face structures to be learned."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Computing Expected Motif Counts for Exchangeable Graph Generative Models. (arXiv:2305.01089v1 [cs.LG])",
+    "abstract": "Estimating the expected value of a graph statistic is an important inference task for using and learning graph models. This note presents a scalable estimation procedure for expected motif counts, a widely used type of graph statistic. The procedure applies for generative mixture models of the type used in neural and Bayesian approaches to graph data.",
+    "link": "http://arxiv.org/abs/2305.01089",
+    "context": "Title: Computing Expected Motif Counts for Exchangeable Graph Generative Models. (arXiv:2305.01089v1 [cs.LG])\nAbstract: Estimating the expected value of a graph statistic is an important inference task for using and learning graph models. This note presents a scalable estimation procedure for expected motif counts, a widely used type of graph statistic. The procedure applies for generative mixture models of the type used in neural and Bayesian approaches to graph data.",
+    "path": "papers/23/05/2305.01089.json",
+    "total_tokens": 520,
+    "translated_title": "计算可交换图生成模型的期望模体计数",
+    "translated_abstract": "估计图形统计量的期望值是使用和学习图模型的重要推断任务。本文介绍了一种可扩展的估计过程，用于期望模体计数，这是一种广泛使用的图统计量类型。该程序适用于生成混合模型，这种模型常用于神经网络和贝叶斯方法中的图数据。",
+    "tldr": "本文提出了一种可扩展的估计过程，用于生成混合模型中期望的模体计数。",
+    "en_tdlr": "This paper proposes a scalable estimation procedure for expected motif counts in generative mixture models and is applicable to neural and Bayesian approaches to graph data."
+}

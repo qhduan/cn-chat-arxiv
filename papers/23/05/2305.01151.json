@@ -1,0 +1,12 @@
+{
+    "title": "Early Classifying Multimodal Sequences. (arXiv:2305.01151v1 [cs.LG])",
+    "abstract": "Often pieces of information are received sequentially over time. When did one collect enough such pieces to classify? Trading wait time for decision certainty leads to early classification problems that have recently gained attention as a means of adapting classification to more dynamic environments. However, so far results have been limited to unimodal sequences. In this pilot study, we expand into early classifying multimodal sequences by combining existing methods. We show our new method yields experimental AUC advantages of up to 8.7%.",
+    "link": "http://arxiv.org/abs/2305.01151",
+    "context": "Title: Early Classifying Multimodal Sequences. (arXiv:2305.01151v1 [cs.LG])\nAbstract: Often pieces of information are received sequentially over time. When did one collect enough such pieces to classify? Trading wait time for decision certainty leads to early classification problems that have recently gained attention as a means of adapting classification to more dynamic environments. However, so far results have been limited to unimodal sequences. In this pilot study, we expand into early classifying multimodal sequences by combining existing methods. We show our new method yields experimental AUC advantages of up to 8.7%.",
+    "path": "papers/23/05/2305.01151.json",
+    "total_tokens": 622,
+    "translated_title": "早期分类多模态数据序列研究",
+    "translated_abstract": "通常，人们会随着时间的推移逐步收集信息。什么时候收集到足够的信息来进行分类？为了在决策的确定性和等待时间之间取得平衡，早期分类问题已成为适应更动态环境的分类方法的关键所在。然而，迄今为止的结果仅限于单一模态序列。在这项初步研究中，我们通过结合现有方法，扩展了早期分类多模态序列的研究。我们的新方法的实验AUC优势高达8.7%。",
+    "tldr": "本项研究针对多模态数据序列扩展了早期分类方法，实验证明其在AUC方面有高达8.7%的优势。",
+    "en_tdlr": "This pilot study expands early classification method to multimodal sequences and demonstrates an experimental AUC advantage of up to 8.7% compared to existing methods."
+}

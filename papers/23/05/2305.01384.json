@@ -1,0 +1,12 @@
+{
+    "title": "Class based Influence Functions for Error Detection. (arXiv:2305.01384v1 [cs.CL])",
+    "abstract": "Influence functions (IFs) are a powerful tool for detecting anomalous examples in large scale datasets. However, they are unstable when applied to deep networks. In this paper, we provide an explanation for the instability of IFs and develop a solution to this problem. We show that IFs are unreliable when the two data points belong to two different classes. Our solution leverages class information to improve the stability of IFs. Extensive experiments show that our modification significantly improves the performance and stability of IFs while incurring no additional computational cost.",
+    "link": "http://arxiv.org/abs/2305.01384",
+    "context": "Title: Class based Influence Functions for Error Detection. (arXiv:2305.01384v1 [cs.CL])\nAbstract: Influence functions (IFs) are a powerful tool for detecting anomalous examples in large scale datasets. However, they are unstable when applied to deep networks. In this paper, we provide an explanation for the instability of IFs and develop a solution to this problem. We show that IFs are unreliable when the two data points belong to two different classes. Our solution leverages class information to improve the stability of IFs. Extensive experiments show that our modification significantly improves the performance and stability of IFs while incurring no additional computational cost.",
+    "path": "papers/23/05/2305.01384.json",
+    "total_tokens": 619,
+    "translated_title": "基于类的影响函数用于误差检测",
+    "translated_abstract": "影响函数(IFs)是在大规模数据集中检测异常样本的强大工具。然而，当应用于深度网络时，它们不稳定。本文解释了IFs不稳定的原因，并提出了解决这个问题的方法。我们表明，在两个数据点属于两个不同类别时，IFs是不可靠的。我们的解决方法利用类别信息来改进IFs的稳定性。大量实验证明，我们的修改显著提高了IFs的性能和稳定性，同时不增加任何计算成本。",
+    "tldr": "该论文提出了基于类别信息的影响函数来提高异常检测的稳定性和性能。",
+    "en_tdlr": "This paper proposes class-based influence functions to improve the stability and performance of anomaly detection, by leveraging class information to overcome the instability of traditional influence functions when applied to deep networks."
+}

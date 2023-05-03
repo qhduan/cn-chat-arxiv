@@ -1,0 +1,12 @@
+{
+    "title": "The Role of Summarization in Generative Agents: A Preliminary Perspective. (arXiv:2305.01253v1 [cs.CL])",
+    "abstract": "Generative agents that simulate human society show tremendous potential for further research and practical applications. Specifically, the generative agent architecture comprising several meticulously designed modules constitutes the most critical component. To facilitate progress in this research, this report presents our integrated perspective on comprehending generative agents through summarization, since we believe summarization is the most fundamental and indispensable capacity of generative agents manifested across diverse scenarios. We hope this report can provide insight into understanding the importance of summarization capacity in generative agents and motivate future research.",
+    "link": "http://arxiv.org/abs/2305.01253",
+    "context": "Title: The Role of Summarization in Generative Agents: A Preliminary Perspective. (arXiv:2305.01253v1 [cs.CL])\nAbstract: Generative agents that simulate human society show tremendous potential for further research and practical applications. Specifically, the generative agent architecture comprising several meticulously designed modules constitutes the most critical component. To facilitate progress in this research, this report presents our integrated perspective on comprehending generative agents through summarization, since we believe summarization is the most fundamental and indispensable capacity of generative agents manifested across diverse scenarios. We hope this report can provide insight into understanding the importance of summarization capacity in generative agents and motivate future research.",
+    "path": "papers/23/05/2305.01253.json",
+    "total_tokens": 682,
+    "translated_title": "总结在生成智能体中的作用:初步观点",
+    "translated_abstract": "模拟人类社会的生成智能体展现出更进一步研究和实际应用的巨大潜力。其中，由多个细致设计的模块构成的生成智能体架构是最关键的组成部分。为了推进这一研究，本报告提出了我们的综合观点，认为通过总结理解生成智能体是至关重要和不可或缺的能力，这种能力会在各种场景下表现出来。我们希望这份报告能够提供洞见，帮助人们理解总结能力在生成智能体中的重要性，并激发未来的研究。",
+    "tldr": "总结是生成智能体最基本、最不可或缺的能力。本报告通过综合观点，尝试理解生成智能体，并推进研究。",
+    "en_tdlr": "Summarization is the most fundamental and indispensable capacity of generative agents. This report presents an integrated perspective on comprehending generative agents through summarization, aiming to promote research in this field."
+}

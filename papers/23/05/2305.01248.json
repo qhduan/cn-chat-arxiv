@@ -1,0 +1,12 @@
+{
+    "title": "Reverse Engineering of Temporal Queries Mediated by LTL Ontologies. (arXiv:2305.01248v1 [cs.LO])",
+    "abstract": "In reverse engineering of database queries, we aim to construct a query from a given set of answers and non-answers; it can then be used to explore the data further or as an explanation of the answers and non-answers. We investigate this query-by-example problem for queries formulated in positive fragments of linear temporal logic LTL over timestamped data, focusing on the design of suitable query languages and the combined and data complexity of deciding whether there exists a query in the given language that separates the given answers from non-answers. We consider both plain LTL queries and those mediated by LTL-ontologies.",
+    "link": "http://arxiv.org/abs/2305.01248",
+    "context": "Title: Reverse Engineering of Temporal Queries Mediated by LTL Ontologies. (arXiv:2305.01248v1 [cs.LO])\nAbstract: In reverse engineering of database queries, we aim to construct a query from a given set of answers and non-answers; it can then be used to explore the data further or as an explanation of the answers and non-answers. We investigate this query-by-example problem for queries formulated in positive fragments of linear temporal logic LTL over timestamped data, focusing on the design of suitable query languages and the combined and data complexity of deciding whether there exists a query in the given language that separates the given answers from non-answers. We consider both plain LTL queries and those mediated by LTL-ontologies.",
+    "path": "papers/23/05/2305.01248.json",
+    "total_tokens": 725,
+    "translated_title": "LTL本体中的时间查询反向工程",
+    "translated_abstract": "在数据库查询的反向工程中，我们旨在从给定的答案和非答案集合构建一个查询; 然后可以将其用于进一步探索数据或作为答案和非答案的解释。我们研究了基于时间戳数据的线性时态逻辑LTL的正片段制定的查询的这个查询-by-example问题，重点是设计合适的查询语言和决定是否存在一个查询在给定的语言中可以将给定的答案与非答案分开的组合和数据复杂性。我们同时考虑了普通的LTL查询和那些通过LTL本体介导的查询。",
+    "tldr": "本文研究了基于时间戳数据的LTL正片段制定的查询反向工程问题，旨在构建一个将给定答案与非答案分开的查询语言，并考虑了LTL本体介导的情况。",
+    "en_tdlr": "This paper investigates the reverse engineering problem for queries defined in the positive fragments of linear temporal logic LTL over timestamped data, aiming to construct a query that separates the given answers from non-answers. The study focuses on the design of query languages and the complexity of deciding the existence of such queries, considering both plain LTL queries and those mediated by LTL ontologies."
+}

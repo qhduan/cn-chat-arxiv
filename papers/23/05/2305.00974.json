@@ -1,0 +1,12 @@
+{
+    "title": "On the use of Deep Generative Models for Perfect Prognosis Climate Downscaling. (arXiv:2305.00974v1 [cs.LG])",
+    "abstract": "Deep Learning has recently emerged as a perfect prognosis downscaling technique to compute high-resolution fields from large-scale coarse atmospheric data. Despite their promising results to reproduce the observed local variability, they are based on the estimation of independent distributions at each location, which leads to deficient spatial structures, especially when downscaling precipitation. This study proposes the use of generative models to improve the spatial consistency of the high-resolution fields, very demanded by some sectoral applications (e.g., hydrology) to tackle climate change.",
+    "link": "http://arxiv.org/abs/2305.00974",
+    "context": "Title: On the use of Deep Generative Models for Perfect Prognosis Climate Downscaling. (arXiv:2305.00974v1 [cs.LG])\nAbstract: Deep Learning has recently emerged as a perfect prognosis downscaling technique to compute high-resolution fields from large-scale coarse atmospheric data. Despite their promising results to reproduce the observed local variability, they are based on the estimation of independent distributions at each location, which leads to deficient spatial structures, especially when downscaling precipitation. This study proposes the use of generative models to improve the spatial consistency of the high-resolution fields, very demanded by some sectoral applications (e.g., hydrology) to tackle climate change.",
+    "path": "papers/23/05/2305.00974.json",
+    "total_tokens": 665,
+    "translated_title": "关于使用深度生成模型进行完美预测气候降尺度的研究",
+    "translated_abstract": "深度学习最近已经成为一种完美的预测降尺度技术，可以从大规模粗粒度的大气数据中计算出高分辨率的场。尽管这些技术有望复制观测到的局部变异，但它们是基于在每个位置估计独立分布，这导致空间结构不足，特别是在下降雨量时。本研究建议使用生成模型来改善高分辨率场的空间一致性，这在一些部门应用（例如水文学）中对应对气候变化非常必需。",
+    "tldr": "研究提出了使用生成模型以改善气候降尺度的空间一致性问题，从而更好地应对气候变化。",
+    "en_tdlr": "The study proposes the use of generative models to improve the spatial consistency of high-resolution fields for better addressing climate change in some sectoral applications, such as hydrology."
+}

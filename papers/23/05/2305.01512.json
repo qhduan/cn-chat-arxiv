@@ -1,0 +1,12 @@
+{
+    "title": "A More Informed Sender Benefits the Receiver When the Sender Has Transparent Motives. (arXiv:2305.01512v1 [econ.TH])",
+    "abstract": "A sender with state-independent preferences (i.e., transparent motives) privately observes a signal about the state of the world before sending a message to a receiver, who subsequently takes an action. Regardless of whether the receiver can mediate--and commit to a garbling of the sender's message--or delegate--commit to a stochastic decision rule as a function of the message--and understanding the statement ``the receiver is better off as a result of an improvement of the sender's information'' to mean that her maximal and minimal equilibrium payoffs (weakly) increase as the sender's signal improves (in a Blackwell sense), we find that if the sender is more informed, the receiver is better off.",
+    "link": "http://arxiv.org/abs/2305.01512",
+    "context": "Title: A More Informed Sender Benefits the Receiver When the Sender Has Transparent Motives. (arXiv:2305.01512v1 [econ.TH])\nAbstract: A sender with state-independent preferences (i.e., transparent motives) privately observes a signal about the state of the world before sending a message to a receiver, who subsequently takes an action. Regardless of whether the receiver can mediate--and commit to a garbling of the sender's message--or delegate--commit to a stochastic decision rule as a function of the message--and understanding the statement ``the receiver is better off as a result of an improvement of the sender's information'' to mean that her maximal and minimal equilibrium payoffs (weakly) increase as the sender's signal improves (in a Blackwell sense), we find that if the sender is more informed, the receiver is better off.",
+    "path": "papers/23/05/2305.01512.json",
+    "total_tokens": 796,
+    "translated_title": "当发送方透明动机时，更知情的发送方有利于接收方 (arXiv:2305.01512v1 [经济学.TH])",
+    "translated_abstract": "发送方具有状态无关偏好(即透明动机)，在向接收方发送信息之前私下观察世界状态的信号，接收者随后采取行动。无论接收者是否能够中介 - 并承诺对发送者的消息进行混淆 - 或者委派 - 承诺将消息作为决策规则进行随机决策 - 并理解“接收者由于发送者信息的改善而受益”这一陈述的意思是说, 无论在哪个最优均衡下接收方的最大和最小均衡收益都会（弱地）随着发送者信号的改进而增加（在Blackwell意义上），我们发现，如果发送方更加知情，则接收方更受益。",
+    "tldr": "当发送方具有透明动机时，更知情的发送方有利于接收方，无论接收者是否有能力保护自己的信息，接收者在最优均衡下的最大和最小收益都会随着发送者信息的改进而增加。",
+    "en_tdlr": "A sender with transparent motives who is more informed benefits the receiver, regardless of whether the receiver can protect their information, resulting in an increase in the receiver's maximum and minimum equilibrium payoffs in a Blackwell sense."
+}

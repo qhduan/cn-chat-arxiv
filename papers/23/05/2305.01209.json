@@ -1,0 +1,12 @@
+{
+    "title": "Cooperation and Cognition in Social Networks. (arXiv:2305.01209v1 [econ.GN])",
+    "abstract": "Social networks can sustain cooperation by amplifying the consequences of a single defection through a cascade of relationship losses. Building on Jackson et al. (2012), we introduce a novel robustness notion to characterize low cognitive complexity (LCC) networks - a subset of equilibrium networks that imposes a minimal cognitive burden to calculate and comprehend the consequences of defection. We test our theory in a laboratory experiment and find that cooperation is higher in equilibrium than in non-equilibrium networks. Within equilibrium networks, LCC networks exhibit higher levels of cooperation than non-LCC networks. Learning is essential for the emergence of equilibrium play.",
+    "link": "http://arxiv.org/abs/2305.01209",
+    "context": "Title: Cooperation and Cognition in Social Networks. (arXiv:2305.01209v1 [econ.GN])\nAbstract: Social networks can sustain cooperation by amplifying the consequences of a single defection through a cascade of relationship losses. Building on Jackson et al. (2012), we introduce a novel robustness notion to characterize low cognitive complexity (LCC) networks - a subset of equilibrium networks that imposes a minimal cognitive burden to calculate and comprehend the consequences of defection. We test our theory in a laboratory experiment and find that cooperation is higher in equilibrium than in non-equilibrium networks. Within equilibrium networks, LCC networks exhibit higher levels of cooperation than non-LCC networks. Learning is essential for the emergence of equilibrium play.",
+    "path": "papers/23/05/2305.01209.json",
+    "total_tokens": 674,
+    "translated_title": "社交网络中的合作与认知",
+    "translated_abstract": "社交网络可以通过关系损失的连锁反应来维持合作。本文基于Jackson等人(2012)的研究，引入了一个新的鲁棒性概念，来描述低认知复杂度（LCC）网络，即一种计算和理解受到最小认知负担的均衡网络子集，我们在实验室实验证明，相对于非均衡网络，均衡网络中的合作更高。在均衡网络中，LCC网络比非LCC网络更具合作性。学习对于均衡博弈的出现至关重要。",
+    "tldr": "本文研究了社交网络中的合作问题，并引入了低认知复杂度网络概念，实验证明均衡网络中LCC网络比非LCC网络合作性更高。",
+    "en_tdlr": "This paper investigates the issue of cooperation in social networks and introduces the concept of low cognitive complexity networks. The experimental results show that within equilibrium networks, low cognitive complexity networks exhibit higher levels of cooperation than non-low cognitive complexity networks."
+}

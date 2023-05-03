@@ -1,0 +1,12 @@
+{
+    "title": "Word Embeddings: A Survey. (arXiv:1901.09069v2 [cs.CL] UPDATED)",
+    "abstract": "This work lists and describes the main recent strategies for building fixed-length, dense and distributed representations for words, based on the distributional hypothesis. These representations are now commonly called word embeddings and, in addition to encoding surprisingly good syntactic and semantic information, have been proven useful as extra features in many downstream NLP tasks.",
+    "link": "http://arxiv.org/abs/1901.09069",
+    "context": "Title: Word Embeddings: A Survey. (arXiv:1901.09069v2 [cs.CL] UPDATED)\nAbstract: This work lists and describes the main recent strategies for building fixed-length, dense and distributed representations for words, based on the distributional hypothesis. These representations are now commonly called word embeddings and, in addition to encoding surprisingly good syntactic and semantic information, have been proven useful as extra features in many downstream NLP tasks.",
+    "path": "papers/19/01/1901.09069.json",
+    "total_tokens": 565,
+    "translated_title": "词向量：一项综述",
+    "translated_abstract": "这项工作列出并描述了近期主要的策略，基于分布假设，用于构建单词的固定长度、密集和分布式表示。 这些表示现在通常被称为词向量，并且除了编码出令人惊讶的语法和语义信息外，在许多下游NLP任务中已被证明是有用的额外特征。",
+    "tldr": "这篇综述介绍了一些主要的词向量构建策略，称为word embeddings，这些策略基于分布假设，编码了语法和语义信息，并被证明在很多NLP任务中是有用的额外特征。",
+    "en_tdlr": "This survey introduces some main strategies for building word embeddings, which encode syntactic and semantic information based on the distributional hypothesis and have been proven to be useful as extra features in many NLP tasks."
+}

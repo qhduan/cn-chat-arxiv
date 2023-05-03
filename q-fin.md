@@ -2,247 +2,202 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Disturbance Effects on Financial Timberland Returns in Austria.](http://arxiv.org/abs/2305.00887) | 该论文研究了在奥地利金融林地中不同管理制度下干扰效应对资本回报率的影响，并发现连续覆盖林业在经济效益上不如轮作林业，同时指出碳租金收入有利于管理制度的选择。 |
-| [^2] | [How to address monotonicity for model risk management?.](http://arxiv.org/abs/2305.00799) | 本文提出了使用神经加性模型的单调的树丛来实现单调性和透明性的结合，以确立透明机器学习模型的问责和公平性。通过实证示例，证明该方法透明、有问责性和公平，尤其对于避免单调性问题具有优势。 |
-| [^3] | [Three candidate election strategy.](http://arxiv.org/abs/2305.00693) | 本研究考虑了三个或更多候选人参加选举的情况下，获胜的概率如何随时间变化，发现对于控制信息的最佳策略可能是错综复杂的。 |
-| [^4] | [Prospects of BRICS currency dominance in international trade.](http://arxiv.org/abs/2305.00585) | 该研究使用联合国Comtrade数据库建立数学模型，探讨了美元、欧元和BRICS货币的影响力竞争，并研究了BRICS国家在国际贸易中的主导前景。 |
-| [^5] | [Non-decreasing martingale couplings.](http://arxiv.org/abs/2305.00565) | 该论文研究了实数集上的概率测度对$(\mu, \nu)$的非降鞅耦合问题，提出了一些充分条件，并证明了最大化$|y-x|^\rho$积分值的非降性质得以保留，但存在不同的非降鞅耦合。 |
-| [^6] | [Optimal multi-action treatment allocation: A two-phase field experiment to boost immigrant naturalization.](http://arxiv.org/abs/2305.00545) | 该论文采用政策树评估多行动策略学习的益处，利用个性化治疗分配的潜力，在移民入籍背景下实现最优治疗政策的分配，提高移民入籍率。 |
-| [^7] | [A Stationary Mean-Field Equilibrium Model of Irreversible Investment in a Two-Regime Economy.](http://arxiv.org/abs/2305.00541) | 本文提出了一个基于均场的定态模型，其中考虑了两重状态经济中的不可逆投资和博弈。结果表明，平衡投资策略是由内生确定的投资门槛触发的。 |
-| [^8] | [The optimal reinsurance strategy with price-competition between two reinsurers.](http://arxiv.org/abs/2305.00509) | 论文研究了一个保险商和两家再保险商之间利润最大化的非合作关系，提出将价格竞争建模为纳什博弈，模型的解决有助于解决保险市场中时间不一致性的控制问题。 |
-| [^9] | [Industry Classification Using a Novel Financial Time-Series Case Representation.](http://arxiv.org/abs/2305.00245) | 本论文提出一种新型金融时间序列案例表示法，可用于行业部门分类任务，通过对股票收益嵌入的表示，显着提高了模型性能。 |
-| [^10] | [Historical trend of homophily: U-shaped or not U-shaped? Or, how would you set a criterion to decide which criterion is better to choose a criterion?.](http://arxiv.org/abs/2305.00231) | 本文提出了一组评估同类偏好测量指标的标准，并发现Liu-Lu顺序指标和Naszodi-Mendonca方法构建的基数指标符合所有标准，而大多数文献中常用的指标不符合标准。 |
-| [^11] | [Calibration of Local Volatility Models with Stochastic Interest Rates using Optimal Transport.](http://arxiv.org/abs/2305.00200) | 本文提出了一种使用最优传输法实现校准的随机利率下的局部波动率模型的非参数方法，适用于校准股票价格的局部波动率模型。 |
-| [^12] | [Hedonic Prices and Quality Adjusted Price Indices Powered by AI.](http://arxiv.org/abs/2305.00044) | 本研究提出了一种基于深度神经网络和转换器的经验享乐模型，能够处理大量未结构化的产品数据，准确地估计产品的享乐价格和派生指数。 |
-| [^13] | [How to handle the COS method for option pricing.](http://arxiv.org/abs/2303.16012) | 介绍了用于欧式期权定价的 Fourier余弦展开 (COS) 方法，通过指定截断范围和项数N进行逼近，文章提出明确的N的上界，对密度平滑并指数衰减的情况，COS方法的收敛阶数至少是指数收敛阶数。 |
-| [^14] | [Towards a Theory of Maximal Extractable Value I: Constant Function Market Makers.](http://arxiv.org/abs/2207.11835) | 本文研究了加密货币网络中最大可提取价值的博弈论特性，对恒函数市场生成器上的“路由”和“排序” MEV 进行了分析，提出了存在 MEV 可以降低并改善路由质量的案例，同时构建了一个无序坍塌价格的类比，并证明了如果夹击攻击的影响在适当的意义下是局部化的，则纳什均衡价格将是常数。 |
-| [^15] | [Conditionally Elicitable Dynamic Risk Measures for Deep Reinforcement Learning.](http://arxiv.org/abs/2206.14666) | 本文提出一种可解决风险敏感型强化学习问题的新框架，使用动态谱风险度量进行优化，设计了一种可以逼近这些度量的深度神经网络算法，并开发了一种不需要额外嵌套转换的风险敏感演员-评论家算法。 |
-| [^16] | [A New Stock Market Valuation Measure with Applications to Equity-Linked Annuities.](http://arxiv.org/abs/1905.04603) | 本文提出了一种新的股票市场估值方法，采用对数财富与对数收益之间的一阶自回归，可以用于预测股票市场的未来总回报，结果否定了有效市场假说。 |
+| [^1] | [Non-refunding of VAT to soybean exporters or economic impact of Soybean amendments.](http://arxiv.org/abs/2305.01559) | 免除豆粕出口商的增值税导致经济损失4450-6050万美元，其中大豆种植户损失最大。 |
+| [^2] | [Carbon Emission Reduction Effect of RMB Appreciation: Empirical Evidence from 283 Prefecture-Level Cities of China.](http://arxiv.org/abs/2305.01558) | 本文实证证据表明，人民币升值可以通过多种途径来降低碳排放强度，特别是在东部地区、沿海地区、城市化水平高的地区和信息开放的地区。每升值1%碳排放强度平均降低0.463吨/万元。 |
+| [^3] | [NFT Wash Trading Detection.](http://arxiv.org/abs/2305.01543) | 该论文介绍了一种检测NFT洗钱交易的算法，帮助监测在NFT交易市场中的非法交易和欺诈行为，发现了不少洗钱交易，并揭示了其涉及的交易、钱包和代币数量，以及其带来的总利润。 |
+| [^4] | [Optimal control problems for stochastic processes with absorbing regime.](http://arxiv.org/abs/2305.01490) | 本文研究了具有吸收状态的随机过程的最优控制问题，并通过偏微分方程组得到了解，其中具有违约概率的Merton组合问题得到了显式解。 |
+| [^5] | [A Heat-Jarrow-Morton framework for energy markets: a pragmatic approach.](http://arxiv.org/abs/2305.01485) | 本文介绍了一种应用于能源市场的Heat-Jarrow-Morton框架，重点放在实践方面。作为应用，我们重点关注欧洲电力和天然气市场。 |
+| [^6] | [Agricultural Policy in Ukraine.](http://arxiv.org/abs/2305.01478) | 该论文分析和评估了苏联解体后至今乌克兰的农业政策制定，探讨了农业食品部门在国民经济以及全球粮食安全中的作用。 |
+| [^7] | [Cooperation and Cognition in Social Networks.](http://arxiv.org/abs/2305.01209) | 本文研究了社交网络中的合作问题，并引入了低认知复杂度网络概念，实验证明均衡网络中LCC网络比非LCC网络合作性更高。 |
+| [^8] | [Random neural networks for rough volatility.](http://arxiv.org/abs/2305.01035) | 本论文介绍了一种基于随机神经网络的深度学习数值算法，用于解决与粗波动相关的路径相关偏微分方程，并证明了该方法具有理论收敛性质。 |
+| [^9] | [On Using Proportional Representation Methods as Alternatives to Pro-Rata Based Order Matching Algorithms in Stock Exchanges.](http://arxiv.org/abs/2303.09652) | 研究发现，选举制度中的比例代表方法可以替代股票交易所中的按比例分配顺序的匹配算法，提供更接近比例分配的订单分配。 |
+| [^10] | [A Mean-Field Control Problem of Optimal Portfolio Liquidation with Semimartingale Strategies.](http://arxiv.org/abs/2207.00446) | 本文研究了具有半鞅策略的最优组合清算问题，证明了价值函数采用线性-二次形式，且最优策略仅在交易期的开始和结束时进行跳跃。 |
+| [^11] | [Estimating the Currency Composition of Foreign Exchange Reserves.](http://arxiv.org/abs/2206.13751) | 该论文提出了一种隐马尔可夫模型，用于评估央行外汇储备的货币组成。作者将该模型应用于中国和新加坡，发现中国的储备组成可能类似于全球平均水平，而新加坡可能持有更少的美元。 |
+| [^12] | [Railroad Bailouts in the Great Depression.](http://arxiv.org/abs/2205.13025) | 大萧条时期，美国政府通过向铁路公司提供贷款来减少债券违约的可能性和增加就业，然而这些纾困计划没有帮助铁路公司增加盈利或就业，而是减少了杠杆比率。纾困对股票价格几乎没有影响，但导致其债券价格上涨并降低了评级下调的可能性。同时，这些纾困计划也没有帮助铁路公司避免债务违约，但有利于一些附近的制造业公司。 |
+| [^13] | [A C\`adl\`ag Rough Path Foundation for Robust Finance.](http://arxiv.org/abs/2109.04225) | 本文利用粗路径理论为随机Ito积分提供了一种逐路径的基础，可以覆盖大多数金融市场模型，包括骑士不确定性。通过引入属性（RIE）来确保路径和二次变差的存在，并证明了相应的粗略积分存在于沿着合适的分区序列的左端点黎曼和的极限中。 |
 
 # 详细
 
-[^1]: 奥地利金融林地的干扰效应对回报的影响
+[^1]: 豆粕出口商增值税不退税或者豆粕修正案的经济影响
 
-    Disturbance Effects on Financial Timberland Returns in Austria. (arXiv:2305.00887v1 [econ.GN])
+    Non-refunding of VAT to soybean exporters or economic impact of Soybean amendments. (arXiv:2305.01559v1 [econ.GN])
 
-    [http://arxiv.org/abs/2305.00887](http://arxiv.org/abs/2305.00887)
+    [http://arxiv.org/abs/2305.01559](http://arxiv.org/abs/2305.01559)
 
-    该论文研究了在奥地利金融林地中不同管理制度下干扰效应对资本回报率的影响，并发现连续覆盖林业在经济效益上不如轮作林业，同时指出碳租金收入有利于管理制度的选择。
-
-    
-
-    该论文运用概率论研究了林木长期种植中干扰效应对资本回报率的影响，讨论了两种管理制度，即均龄植物轮作和不均龄半稳态，任何干扰的影响都会对收益和资本化产生影响。研究结果利用奥地利云杉(Picea abies)森林的数据进行说明，在经济效益方面，数据显示与纸面相比，连续覆盖林业在财务上不如轮作林业。任何严重的干扰可能会导致从连续覆盖林业到均龄林业的制度变化。如果不接受这种制度变化，则干扰损失将降低利润但不影响资本化，使连续覆盖林业在财务效益上更容易受到干扰的影响。碳租金的收入有利于管理制度的选择。
-
-    Probability theory is applied for the effect of severe disturbances on the return rate on capital within multiannual stands growing crops. Two management regimes are discussed, rotations of even-aged plants on the one hand, and uneven-aged semi-stationary state on the other. The effect of any disturbance appears two-fold, contributing to both earnings and capitalization. Results are illustrated using data from a recently published study, regarding spruce (Picea abies) forests in Austria. The economic results differ from those of the paper where the data is presented, here indicating continuous-cover forestry is financially inferior to rotation forestry. Any severe disturbance may induce a regime shift from continuous-cover to even-aged forestry. If such a regime shift is not accepted, the disturbance losses reduce profits but do not affect capitalization, making continuous-cover forestry financially more sensitive to disturbances. Revenue from carbon rent favors the management regime w
-    
-[^2]: 如何解决模型风险管理中的单调性问题？
-
-    How to address monotonicity for model risk management?. (arXiv:2305.00799v1 [cs.LG])
-
-    [http://arxiv.org/abs/2305.00799](http://arxiv.org/abs/2305.00799)
-
-    本文提出了使用神经加性模型的单调的树丛来实现单调性和透明性的结合，以确立透明机器学习模型的问责和公平性。通过实证示例，证明该方法透明、有问责性和公平，尤其对于避免单调性问题具有优势。
+    免除豆粕出口商的增值税导致经济损失4450-6050万美元，其中大豆种植户损失最大。
 
     
 
-    本文研究通过单调性确立透明机器学习模型的问责和公平性的问题。尽管已有大量研究关注个体单调性，但是现有文献经常忽略了成对单调性。本文研究了透明神经网络在存在三种单调性的情况下：个体单调性、弱成对单调性和强成对单调性。我们提出使用神经加性模型的单调的树丛来实现单调性和透明性的结合。通过实证示例，我们证明单调性通常在实践中被违反，而神经加性模型的单调树丛是透明、有问责性和公平的。
+    免除大豆和菜籽油出口商的增值税对经济造成负面影响，每年损失为4450-6050万美元。所实施的政策旨在增加乌克兰工厂对大豆和菜籽油的加工，因此加工商收到2600万美元，国家预算获得2-1800万美元。然而，大豆种植户，大多数为中小型，损失了8850万美元，远远超过加工商和国家预算的利益。
 
-    In this paper, we study the problem of establishing the accountability and fairness of transparent machine learning models through monotonicity. Although there have been numerous studies on individual monotonicity, pairwise monotonicity is often overlooked in the existing literature. This paper studies transparent neural networks in the presence of three types of monotonicity: individual monotonicity, weak pairwise monotonicity, and strong pairwise monotonicity. As a means of achieving monotonicity while maintaining transparency, we propose the monotonic groves of neural additive models. As a result of empirical examples, we demonstrate that monotonicity is often violated in practice and that monotonic groves of neural additive models are transparent, accountable, and fair.
+    Exempting soybean and rapeseed exporters from VAT has a negative effect on the economy of $\$$44.5-60.5 million per year. The implemented policy aimed to increase the processing of soybeans and rapeseed by Ukrainian plants. As a result, the processors received $\$$26 million and the state budget gained $\$$2-18 million. However, soybean farmers, mostly small and medium-sized, received $ 88.5 million in losses, far outweighing the benefits of processors and the state budget.
     
-[^3]: 三个候选人选举策略
+[^2]: 人民币升值的碳减排效应：基于中国283个地级市的实证证据
 
-    Three candidate election strategy. (arXiv:2305.00693v1 [math.PR])
+    Carbon Emission Reduction Effect of RMB Appreciation: Empirical Evidence from 283 Prefecture-Level Cities of China. (arXiv:2305.01558v1 [econ.GN])
 
-    [http://arxiv.org/abs/2305.00693](http://arxiv.org/abs/2305.00693)
+    [http://arxiv.org/abs/2305.01558](http://arxiv.org/abs/2305.01558)
 
-    本研究考虑了三个或更多候选人参加选举的情况下，获胜的概率如何随时间变化，发现对于控制信息的最佳策略可能是错综复杂的。
-
-    
-
-    本研究考虑了三个或更多候选人参加选举的情况下，候选人获胜的概率如何随时间变化。该概率的变化与当前每个候选人的支持率、候选人在政治光谱中的相对位置、距离选举日剩余的时间以及直到选举日公众获得有噪声的信息的速率有关。特别是，本研究发现对于控制信息的最佳策略可能是错综复杂的，并非两个候选人场景下的简单直觉。有趣的是，在存在两个极端的选民的选举竞争中，如果候选人处于中间位置，某些策略将使得该候选人的获胜概率完全消失。
-
-    The probability of a given candidate winning a future election is worked out in closed form as a function of (i) the current support rates for each candidate, (ii) the relative positioning of the candidates within the political spectrum, (iii) the time left to the election, and (iv) the rate at which noisy information is revealed to the electorate from now to the election day, when there are three or more candidates. It is shown, in particular, that the optimal strategy for controlling information can be intricate and nontrivial, in contrast to a two-candidate race. A surprising finding is that for a candidate taking the centre ground in an electoral competition among a polarised electorate, certain strategies are fatal in that the resulting winning probability for that candidate vanishes identically.
-    
-[^4]: BRICS货币在国际贸易中的主导前景
-
-    Prospects of BRICS currency dominance in international trade. (arXiv:2305.00585v1 [q-fin.TR])
-
-    [http://arxiv.org/abs/2305.00585](http://arxiv.org/abs/2305.00585)
-
-    该研究使用联合国Comtrade数据库建立数学模型，探讨了美元、欧元和BRICS货币的影响力竞争，并研究了BRICS国家在国际贸易中的主导前景。
+    本文实证证据表明，人民币升值可以通过多种途径来降低碳排放强度，特别是在东部地区、沿海地区、城市化水平高的地区和信息开放的地区。每升值1%碳排放强度平均降低0.463吨/万元。
 
     
 
-    2023年4月，巴西总统卢拉在访问中国期间提议建立由BRICS国家支持的贸易货币。本研究利用联合国Comtrade数据库，提供2010-2020年期间与194个联合国国家有关的世界贸易网络框架，研究了三种货币——美元、欧元和BRICS货币——的影响力竞争的数学模型。在该模型中，一个国家对三种货币的偏好由一个基于国家间贸易流量和其在全球国际贸易中的相对权重的乘法因子决定。三种货币的种子组分别由9个欧元区国家、5个盎格鲁撒克逊国家和5个BRICS国家组成。属于这三个货币种子组的国家只使用其对应货币进行贸易，而其他国家则选择其首选的贸易货币进行贸易。
+    本文基于2006年至2019年中国283个地级市的面板数据，测量了人民币实际有效汇率波动对碳排放强度的影响程度和机制。研究发现：（1）人民币实际有效汇率每升值1%，碳排放强度平均降低0.463吨/万元；（2）人民币实际有效汇率“碳减排效应”在东部地区、沿海地区、城市化水平高的地区和信息开放的地区更为明显；（3）人民币实际有效汇率的升值可以通过促进区域研发和创新能力、抑制外贸和外资、促进产业结构优化升级和改善收入不平等等多种途径，减少二氧化碳排放强度。
 
-    During his state visit to China in April 2023, Brazilian President Lula proposed the creation of a trade currency supported by the BRICS countries. Using the United Nations Comtrade database, providing the frame of the world trade network associated to 194 UN countries during the decade 2010 - 2020, we study a mathematical model of influence battle of three currencies, namely, the US dollar, the euro, and such a hypothetical BRICS currency. In this model, a country trade preference for one of the three currencies is determined by a multiplicative factor based on trade flows between countries and their relative weights in the global international trade. The three currency seed groups are formed by 9 eurozone countries for the euro, 5 Anglo-Saxon countries for the US dollar and the 5 BRICS countries for the new proposed currency. The countries belonging to these 3 currency seed groups trade only with their own associated currency whereas the other countries choose their preferred trade c
+    Based on the panel data of 283 prefecture-level cities in China from 2006 to 2019, this paper measures the extent and mechanism of the impact of RMB real effective exchange rate fluctuations on carbon emission intensity. The results show that: (1) For every 1% appreciation of the real effective exchange rate of RMB, the carbon emission intensity decreases by an average of 0.463 tons/10000 yuan; (2) The "carbon emission reduction effect" of RMB real effective exchange rate appreciation is more obvious in the eastern regions, coastal areas, regions with high urbanization levels, and areas with open information; (3) The appreciation of RMB real effective exchange rate can reduce carbon dioxide emission intensity by improving regional R&D and innovation ability, restraining foreign trade and foreign investment, promoting industrial structure optimization and upgrading, and improving income inequality.
     
-[^5]: 非降鞅耦合
+[^3]: NFT洗钱交易识别
 
-    Non-decreasing martingale couplings. (arXiv:2305.00565v1 [math.PR])
+    NFT Wash Trading Detection. (arXiv:2305.01543v1 [q-fin.GN])
 
-    [http://arxiv.org/abs/2305.00565](http://arxiv.org/abs/2305.00565)
+    [http://arxiv.org/abs/2305.01543](http://arxiv.org/abs/2305.01543)
 
-    该论文研究了实数集上的概率测度对$(\mu, \nu)$的非降鞅耦合问题，提出了一些充分条件，并证明了最大化$|y-x|^\rho$积分值的非降性质得以保留，但存在不同的非降鞅耦合。
-
-    
-
-    对于许多实数集上的概率测度对$(\mu, \nu)$而言，在凸序中，我们从数字实验中发现最大化由任何$\mu$和$\nu $之间的鞅耦合的$|y-x|^\rho$积分而得到$\rho=1$时Hobson和Neuberger鞅耦合仍然是$\rho\in(0,2)$的最大化值和$\rho>2$的最小化值。我们研究了这个数字观察到的理论有效性并提出了相当具有限制性的充分条件。我们还展示了一些这个性质不成立的$(\mu, \nu)$，已知Hobson和Neuberger耦合的支持满足某种称为非降的单调性质。我们检查了当$\rho\in(0,1]$时，最大化这个积分值的非降性质得以保留。总的来说，存在不同的非降鞅耦合，并且我们发现$\nu $的某些分解与特定的非降鞅耦合一一对应。
-
-    For many examples of couples $(\mu,\nu)$ of probability measures on the real line in the convex order, we observe numerically that the Hobson and Neuberger martingale coupling, which maximizes for $\rho=1$ the integral of $|y-x|^\rho$ with respect to any martingale coupling between $\mu$ and $\nu$, is still a maximizer for $\rho\in(0,2)$ and a minimizer for $\rho>2$. We investigate the theoretical validity of this numerical observation and give rather restrictive sufficient conditions for the property to hold. We also exhibit couples $(\mu,\nu)$ such that it does not hold. The support of the Hobson and Neuberger coupling is known to satisfy some monotonicity property which we call non-decreasing. We check that the non-decreasing property is preserved for maximizers when $\rho\in(0,1]$. In general, there exist distinct non-decreasing martingale couplings, and we find some decomposition of $\nu$ which is in one-to-one correspondence with martingale couplings non-decreasing in a generaliz
-    
-[^6]: 最优多行动治疗分配：提高移民入籍的双阶段现场实验（arXiv：2305.00545v1 [econ.GN]）
-
-    Optimal multi-action treatment allocation: A two-phase field experiment to boost immigrant naturalization. (arXiv:2305.00545v1 [econ.GN])
-
-    [http://arxiv.org/abs/2305.00545](http://arxiv.org/abs/2305.00545)
-
-    该论文采用政策树评估多行动策略学习的益处，利用个性化治疗分配的潜力，在移民入籍背景下实现最优治疗政策的分配，提高移民入籍率。
+    该论文介绍了一种检测NFT洗钱交易的算法，帮助监测在NFT交易市场中的非法交易和欺诈行为，发现了不少洗钱交易，并揭示了其涉及的交易、钱包和代币数量，以及其带来的总利润。
 
     
 
-    在公共经济学中，分配最优治疗政策的挑战是无处不在的。尽管在处理效应异质性的因果效应估计方面有广泛的实证文献，但个性化治疗分配的潜力尚未得到充分利用，尽管政策学习领域最近取得了进展。我们在移民入籍背景下使用政策树评估多行动策略学习的益处。我们使用定制的双阶段随机实验来估计并实施一个信息宣传政策规则，鼓励苏黎世市符合条件的移民申请瑞士公民身份。政策规则采用决策树的形式，根据链接的行政数据中的个人特征分配治疗。在探索阶段，我们将5,145名具有资格的入籍移民样本的60％随机分配给三封不同信件之一。
+    洗钱交易是一种市场操纵形式，指同一实体通过向自己销售资产来推高市场价格、在合法交易的掩护下洗钱，或声称进行资产损失税收减免而不失去资产所有权。传统资产市场对此加以监管，但非同质化代币市场监督缺失，使犯罪分子能够进行洗钱交易并欺骗毫无戒心的买家而逃脱监管。AnChain.AI设计了一种算法，当钱包在30天内重新购买先前卖出的代币时，标记NFT收藏历史中的交易为洗钱交易。该算法还识别了洗钱交易周期内的中间交易。针对7个热门NFT收藏品进行测试后发现，每个收藏品中平均有0.14%的交易、0.11%的钱包和0.16%的代币涉及洗钱交易。这些洗钱交易带来了总体价格操纵、销售和回购利润达到了90万美元和110万美元。
 
-    The challenge of assigning optimal treatment policies is ubiquitous in public economics. While a vast empirical literature is concerned with the estimation of causal effects under treatment effect heterogeneity, the potentials of individualized treatment assignments are under-explored, despite recent advances in the field of policy learning. We evaluate the benefits of multi-action policy learning using policy trees in the context of immigration naturalization. We use a tailored two-phase randomized field experiment to estimate and field a policy rule for an information campaign encouraging eligible immigrants in the City of Z\"urich to apply for Swiss citizenship. The policy rule takes the form of a decision tree assigning treatments based on individual-level characteristics drawn from linked administrative data. In the exploration phase, we randomly allocate 60% of our sample of 5,145 citizenship-eligible immigrants to receive one of three different letters addressing specific natura
+    Wash trading is a form of market manipulation where the same entity sells an asset to themselves to drive up market prices, launder money under the cover of a legitimate transaction, or claim a tax loss without losing ownership of an asset. Although the practice is illegal with traditional assets, lack of supervision in the non-fungible token market enables criminals to wash trade and scam unsuspecting buyers while operating under regulators radar. AnChain.AI designed an algorithm that flags transactions within an NFT collection history as wash trades when a wallet repurchases a token within 30 days of previously selling it. The algorithm also identifies intermediate transactions within a wash trade cycle. Testing on 7 popular NFT collections reveals that on average, 0.14% of transactions, 0.11% of wallets, and 0.16% of tokens in each collection are involved in wash trading. These wash trades generate an overall total price manipulation, sales, and repurchase profit of \$900K, \$1.1M, 
     
-[^7]: 一个两重状态经济中不可逆投资的定态平均场均衡模型
+[^4]: 具有吸收状态的随机过程的最优控制问题
 
-    A Stationary Mean-Field Equilibrium Model of Irreversible Investment in a Two-Regime Economy. (arXiv:2305.00541v1 [math.OC])
+    Optimal control problems for stochastic processes with absorbing regime. (arXiv:2305.01490v1 [math.OC])
 
-    [http://arxiv.org/abs/2305.00541](http://arxiv.org/abs/2305.00541)
+    [http://arxiv.org/abs/2305.01490](http://arxiv.org/abs/2305.01490)
 
-    本文提出了一个基于均场的定态模型，其中考虑了两重状态经济中的不可逆投资和博弈。结果表明，平衡投资策略是由内生确定的投资门槛触发的。
-
-    
-
-    本文考虑了一个均场模型，其中公司在商品市场上像Cournot一样竞争，其中商品价格是以行业总产量的幂反需求函数表示的。投资是不可逆的，生产能力以恒定速率折旧。生产受高斯生产率震荡的影响，而由两态连续时间马尔可夫链驱动的大型非预期宏观经济事件可以改变这些震荡的波动率以及价格函数。公司希望最大化预期的生产收益，减去投资和运营成本。投资决策基于商品的长期定态价格。我们证明了模型的定态均衡的存在、唯一性和特征。平衡投资策略是屏障型的，它由一对内生确定的投资门槛触发，每种状态一个。
-
-    We consider a mean-field model of firms competing \`a la Cournot on a commodity market, where the commodity price is given in terms of a power inverse demand function of the industry-aggregate production. Investment is irreversible and production capacity depreciates at a constant rate. Production is subject to Gaussian productivity shocks, while large non-anticipated macroeconomic events driven by a two-state continuous-time Markov chain can change the volatility of the shocks, as well as the price function. Firms wish to maximize expected discounted revenues of production, net of investment and operational costs. Investment decisions are based on the long-run stationary price of the commodity. We prove existence, uniqueness and characterization of the stationary mean-field equilibrium of the model. The equilibrium investment strategy is of barrier-type and it is triggered by a couple of endogenously determined investment thresholds, one per state of the economy. We provide a quasi-cl
-    
-[^8]: 带有两家再保险商价格竞争的最优再保险策略研究
-
-    The optimal reinsurance strategy with price-competition between two reinsurers. (arXiv:2305.00509v1 [q-fin.MF])
-
-    [http://arxiv.org/abs/2305.00509](http://arxiv.org/abs/2305.00509)
-
-    论文研究了一个保险商和两家再保险商之间利润最大化的非合作关系，提出将价格竞争建模为纳什博弈，模型的解决有助于解决保险市场中时间不一致性的控制问题。
+    本文研究了具有吸收状态的随机过程的最优控制问题，并通过偏微分方程组得到了解，其中具有违约概率的Merton组合问题得到了显式解。
 
     
 
-    本文利用随机博弈模型研究了一个包括一个保险商和两家再保险商的最优再保险问题。建立了Stackelberg模型分析保险商和两家再保险商之间的非合作关系，其中保险商被视为追随者，两家再保险商被视为领导者。保险商决定再保险需求，再保险商可以制定再保险协议价格。本研究的贡献在于使用纳什博弈描述两家再保险商的价格竞争。一家再保险商采用方差保费原则，另一家采用期望值保费原则。保险商和再保险商的目标是分别最大化各自的均值-方差成本函数，从而导致时间不一致的控制问题。为了克服游戏中的时间不一致性问题，将每个玩家的优化问题作为一个嵌入式游戏进行了建模解决。
+    本文针对具有吸收状态的随机过程提出并求解了最优控制问题。通过一个偏微分方程组，得到了此问题的解。该方法被应用于在log效用情形下，当一个资产具有违约概率时，获得了Merton组合问题的显式解。
 
-    We study optimal reinsurance in the framework of stochastic game theory, in which there is an insurer and two reinsurers. A Stackelberg model is established to analyze the non-cooperative relationship between the insurer and reinsurers, where the insurer is considered as the follower and the reinsurers are considered as the leaders. The insurer is a price taker who determines reinsurance demand in the reinsurance market, while the reinsurers can price the reinsurance treaties. Our contribution is to use a Nash game to describe the price-competition between two reinsurers. We assume that one of the reinsurers adopts the variance premium principle and the other adopts the expected value premium principle. The insurer and the reinsurers aim to maximize their respective mean-variance cost functions which lead to a time-inconsistency control problem. To overcome the time-inconsistency issue in the game, we formulate the optimization problem of each player as an embedded game and solve it vi
+    In this paper we formulate and solve an optimal problem for Stochastic process with a regime absorbing state. The solution for this problem is obtained through a system of partial differential equations. The method is applied to obtain an explicit solution for the Merton portfolio problem when an asset has a default probability in case of a log utility.
     
-[^9]: 一种新型金融时间序列案例表示法在行业分类中的应用
+[^5]: 一种应用于能源市场的Heat-Jarrow-Morton框架：实用方法
 
-    Industry Classification Using a Novel Financial Time-Series Case Representation. (arXiv:2305.00245v1 [cs.LG])
+    A Heat-Jarrow-Morton framework for energy markets: a pragmatic approach. (arXiv:2305.01485v1 [q-fin.MF])
 
-    [http://arxiv.org/abs/2305.00245](http://arxiv.org/abs/2305.00245)
+    [http://arxiv.org/abs/2305.01485](http://arxiv.org/abs/2305.01485)
 
-    本论文提出一种新型金融时间序列案例表示法，可用于行业部门分类任务，通过对股票收益嵌入的表示，显着提高了模型性能。
-
-    
-
-    金融领域已被证明是各种机器学习问题的丰富源泉，包括预测、聚类和分类。研究人员可以访问大量的时间序列数据，即使有较小的性能改进也可以转化为显著的附加价值。在本文中，我们考虑使用基于案例的推理来解决这个领域中的一个重要任务，即使用历史股票收益时间序列数据进行行业部门分类。我们讨论了为什么时间序列数据对于传统的基于案例的推理方法可能具有一些重要的表示挑战，并提出了一种基于股票收益嵌入的新型表示，可以从原始股票收益数据中轻松计算。我们认为这种表示法非常适合于基于案例的推理，并使用一个大规模的公共数据集对我们的方法进行评估，用于行业部门分类任务，展示了实质性的性能提升。
-
-    The financial domain has proven to be a fertile source of challenging machine learning problems across a variety of tasks including prediction, clustering, and classification. Researchers can access an abundance of time-series data and even modest performance improvements can be translated into significant additional value. In this work, we consider the use of case-based reasoning for an important task in this domain, by using historical stock returns time-series data for industry sector classification. We discuss why time-series data can present some significant representational challenges for conventional case-based reasoning approaches, and in response, we propose a novel representation based on stock returns embeddings, which can be readily calculated from raw stock returns data. We argue that this representation is well suited to case-based reasoning and evaluate our approach using a large-scale public dataset for the industry sector classification task, demonstrating substantial 
-    
-[^10]: 同类偏爱的历史趋势：U型还是非U型？或者说，如何选择最佳标准来衡量同类偏爱的变化趋势？
-
-    Historical trend of homophily: U-shaped or not U-shaped? Or, how would you set a criterion to decide which criterion is better to choose a criterion?. (arXiv:2305.00231v1 [econ.GN])
-
-    [http://arxiv.org/abs/2305.00231](http://arxiv.org/abs/2305.00231)
-
-    本文提出了一组评估同类偏好测量指标的标准，并发现Liu-Lu顺序指标和Naszodi-Mendonca方法构建的基数指标符合所有标准，而大多数文献中常用的指标不符合标准。
+    本文介绍了一种应用于能源市场的Heat-Jarrow-Morton框架，重点放在实践方面。作为应用，我们重点关注欧洲电力和天然气市场。
 
     
 
-    当可婚男女的受教育分布也是世代特定时，测量教育婚姻同类偏好在两代人之间的差异是具有挑战性的。我们提出了一组评估同类偏好测量指标是否适用的标准。其中一个分析标准是对不同教育类别数量的鲁棒性要求。我们定义的另一个分析标准涉及代际流动性和同类偏好之间的关系。第三个标准是实证的，关注了同类偏好在1960年至2015之间在美国的历史趋势。尽管Liu-Lu顺序指标和Naszodi-Mendonca方法构建的基数指标符合所有三个标准，但大多数文献中常用的指标都不符合标准。我们的分析揭示了违反某些标准与历史趋势敏感性之间的关系。
+    本文讨论了将Heat-Jarrow-Morton框架应用于能源市场的方法。本文的目的是详细介绍该主题，重点放在实践方面而非已有大量文献探讨的理论方面。本文旨在成为从业人员以及所有从事这种方法的能源市场实际问题处理的人的指南。具体而言，我们关注市场结构、利用主成分分析（PCA）进行模型校准、蒙特卡罗模拟和衍生品定价。作为应用，我们重点关注欧洲电力和天然气市场：我们将模型校准为历史期货报价，进行期货和现货模拟并分析结果。
 
-    Measuring the extent to which educational marital homophily differs in two consecutive generations is challenging when the educational distributions of marriageable men and women are also generation-specific. We propose a set of criteria that indicators may have to satisfy to be considered as suitable measures of homophily. One of our analytical criteria is on the robustness to the number of educational categories. Another analytical criterion defined by us is on the association between intergenerational mobility and homophily. A third criterion is empirical and concerns the identified historical trend of homophily, a comprehensive aspect of inequality, in the US between 1960 and 2015. While the ordinal Liu--Lu-indicator and the cardinal indicator constructed with the Naszodi--Mendonca method satisfy all three criteria, most indices commonly applied in the literature do not. Our analysis sheds light on the link between the violation of certain criteria and the sensitivity of the histor
+    In this article we discuss the application of the Heat-Jarrow-Morton framework Heath et al. [26] to energy markets. The goal of the article is to give a detailed overview of the topic, focusing on practical aspects rather than on theory, which has been widely studied in literature. This work aims to be a guide for practitioners and for all those who deal with the practical issues of this approach to energy market. In particular, we focus on the markets' structure, model calibration by dimension reduction with Principal Component Analysis (PCA), Monte Carlo simulations and derivatives pricing. As application, we focus on European power and gas markets: we calibrate the model on historical futures quotations, we perform futures and spot simulations and we analyze the results.
     
-[^11]: 使用最优传输法校准随机利率下的局部波动率模型。（arXiv：2305.00200v1 [q-fin.MF]）
+[^6]: 乌克兰的农业政策
 
-    Calibration of Local Volatility Models with Stochastic Interest Rates using Optimal Transport. (arXiv:2305.00200v1 [q-fin.MF])
+    Agricultural Policy in Ukraine. (arXiv:2305.01478v1 [econ.GN])
 
-    [http://arxiv.org/abs/2305.00200](http://arxiv.org/abs/2305.00200)
+    [http://arxiv.org/abs/2305.01478](http://arxiv.org/abs/2305.01478)
 
-    本文提出了一种使用最优传输法实现校准的随机利率下的局部波动率模型的非参数方法，适用于校准股票价格的局部波动率模型。
-
-    
-
-    我们发展了一种非参数、最优传输驱动的随机利率下局部波动率模型的校准方法。该方法找到一个完全校准的模型，该模型与给定的参考模型最接近。我们建立了一个通用的对偶性结果，可以通过优化非线性HJB方程的解来解决问题。然后，我们将该方法应用于顺序校准设置：我们假设给定了一个利率模型，并对观察到的市场期限结构进行了校准。然后，我们寻求校准股票价格局部波动率模型，波动率系数取决于时间、基础资产和短期利率过程，并由可以与利率过程的随机性相关的布朗运动驱动。局部波动率模型通过从半鞅最优传输的PDE表述中导出的凸优化问题对有限数量的欧式期权价格进行校准。我们的方法是一个
-
-    We develop a non-parametric, optimal transport driven, calibration methodology for local volatility models with stochastic interest rate. The method finds a fully calibrated model which is the closest to a given reference model. We establish a general duality result which allows to solve the problem via optimising over solutions to a non-linear HJB equation. We then apply the method to a sequential calibration setup: we assume that an interest rate model is given and is calibrated to the observed term structure in the market. We then seek to calibrate a stock price local volatility model with volatility coefficient depending on time, the underlying and the short rate process, and driven by a Brownian motion which can be correlated with the randomness driving the rates process. The local volatility model is calibrated to a finite number of European options prices via a convex optimisation problem derived from the PDE formulation of semimartingale optimal transport. Our methodology is an
-    
-[^12]: 由人工智能驱动的享乐价格和质量调整价格指数
-
-    Hedonic Prices and Quality Adjusted Price Indices Powered by AI. (arXiv:2305.00044v1 [econ.GN])
-
-    [http://arxiv.org/abs/2305.00044](http://arxiv.org/abs/2305.00044)
-
-    本研究提出了一种基于深度神经网络和转换器的经验享乐模型，能够处理大量未结构化的产品数据，准确地估计产品的享乐价格和派生指数。
+    该论文分析和评估了苏联解体后至今乌克兰的农业政策制定，探讨了农业食品部门在国民经济以及全球粮食安全中的作用。
 
     
 
-    在当今的经济环境下，使用电子记录准确地实时测量价格指数的变化对于跟踪通胀和生产率至关重要。本文开发了经验享乐模型，能够处理大量未结构化的产品数据（文本、图像、价格和数量），并输出精确的享乐价格估计和派生指数。为实现这一目标，我们使用深度神经网络从文本描述和图像中生成抽象的产品属性或”特征“，然后使用这些属性来估算享乐价格函数。具体地，我们使用基于transformers的大型语言模型将有关产品的文本信息转换为数字特征，使用训练或微调过的产品描述信息，使用残差网络模型将产品图像转换为数字特征。为了产生估计的享乐价格函数，我们再次使用多任务神经网络，训练以在所有时间段同时预测产品的价格。
+    在基于上一章节发展起来的农业政策理论和方法的基础上，第2章我们分析和评估了苏联解体至今乌克兰的农业政策制定。从上至下，我们首先描述了农业政策在独立后的重要里程碑，铺平了现代农业政策的政治经济学道路。接着，我们描述了农业食品部门对国民经济以及全球粮食安全的作用。之后，我们深入挖掘，并通过研究农场结构、土地利用、整体和行业未开发的生产潜力来重点关注农业部门的详细绩效。现代农业政策和制度设置在第2.4节中被详细解析。涵盖农业上下游部门的审查以及总结。
 
-    Accurate, real-time measurements of price index changes using electronic records are essential for tracking inflation and productivity in today's economic environment. We develop empirical hedonic models that can process large amounts of unstructured product data (text, images, prices, quantities) and output accurate hedonic price estimates and derived indices. To accomplish this, we generate abstract product attributes, or ``features,'' from text descriptions and images using deep neural networks, and then use these attributes to estimate the hedonic price function. Specifically, we convert textual information about the product to numeric features using large language models based on transformers, trained or fine-tuned using product descriptions, and convert the product image to numeric features using a residual network model. To produce the estimated hedonic price function, we again use a multi-task neural network trained to predict a product's price in all time periods simultaneousl
+    Building upon the theory and methodology of agricultural policy developed in the previous chapter, in Chapter 2 we analyse and assess agricultural policy making in Ukraine since the breakup of Soviet Union till today. Going from top down to the bottom, we begin by describing the evolution of state policy in the agri-food sector. In the beginning, we describe the major milestones of agricultural policy making since independence, paving the way to the political economy of the modern agricultural policy in Ukraine. Then we describe the role of agri-food sector in the national economy as well as globally in ensuring food security in the world. After, we dig deeper and focus on a detailed performance of agricultural sector by looking at farm structures, their land use, overall and sector-wise untapped productivity potential. Modern agricultural policy and institutional set-up is contained and analyzed in details in the section 2.4. A review of the agricultural up- and downstream sectors wra
     
-[^13]: 如何处理用于期权定价的 COS 方法
+[^7]: 社交网络中的合作与认知
 
-    How to handle the COS method for option pricing. (arXiv:2303.16012v1 [q-fin.CP])
+    Cooperation and Cognition in Social Networks. (arXiv:2305.01209v1 [econ.GN])
 
-    [http://arxiv.org/abs/2303.16012](http://arxiv.org/abs/2303.16012)
+    [http://arxiv.org/abs/2305.01209](http://arxiv.org/abs/2305.01209)
 
-    介绍了用于欧式期权定价的 Fourier余弦展开 (COS) 方法，通过指定截断范围和项数N进行逼近，文章提出明确的N的上界，对密度平滑并指数衰减的情况，COS方法的收敛阶数至少是指数收敛阶数。
-
-    
-
-    Fourier余弦展开（COS）方法用于高效地计算欧式期权价格。要应用COS方法，必须指定两个参数：对数收益率密度的截断范围和用余弦级数逼近截断密度的项数N。如何选择截断范围已经为人所知。在这里，我们还能找到一个明确的并且有用的项数N的界限。我们还进一步表明，如果密度是平滑的并且呈指数衰减，则COS方法至少具有指数收敛阶数。但是，如果密度平滑但有重尾巴，就像在有限矩阵log稳定模型中一样，则COS方法没有指数收敛阶数。数值实验确认了理论发现。
-
-    The Fourier cosine expansion (COS) method is used for pricing European options numerically very efficiently. To apply the COS method, one has to specify two parameters: a truncation range for the density of the log-returns and a number of terms N to approximate the truncated density by a cosine series. How to choose the truncation range is already known. Here, we are able to find an explicit and useful bound for N as well. We further show that the COS method has at least an exponential order of convergence if the density is smooth and decays exponentially. But, if the density is smooth and has heavy tails like in the Finite Moment Log Stable model, the COS method has not an exponential order of convergence. Numerical experiments confirm the theoretical findings.
-    
-[^14]: 关于最大可提取价值理论的初步研究 I：恒函数市场生成器
-
-    Towards a Theory of Maximal Extractable Value I: Constant Function Market Makers. (arXiv:2207.11835v2 [cs.GT] UPDATED)
-
-    [http://arxiv.org/abs/2207.11835](http://arxiv.org/abs/2207.11835)
-
-    本文研究了加密货币网络中最大可提取价值的博弈论特性，对恒函数市场生成器上的“路由”和“排序” MEV 进行了分析，提出了存在 MEV 可以降低并改善路由质量的案例，同时构建了一个无序坍塌价格的类比，并证明了如果夹击攻击的影响在适当的意义下是局部化的，则纳什均衡价格将是常数。
+    本文研究了社交网络中的合作问题，并引入了低认知复杂度网络概念，实验证明均衡网络中LCC网络比非LCC网络合作性更高。
 
     
 
-    最大可提取价值（MEV）指的是矿工（或验证器）从加密货币网络的用户处获得的超额价值。这种超额价值常常来自于重新排列用户交易以最大化手续费，或者插入抢先用户交易的新交易。其中最常见的 MEV 类型之一涉及对恒函数市场生成器（CFMM）上进行交易的用户进行“夹击攻击”，而 CFMM 是一种常见的自动化市场生成器。本文分析了 CFMM 中 MEV 的博弈论特性，其中包括我们所称的“路由”和“排序” MEV。在路由的情况下，我们提出了存在 MEV 会降低，并且令人意外的，会“改善”路由质量的案例。我们构建了一个类似于这种情况下的无序坍塌价格，并证明如果夹击攻击的影响在适当的意义下是局部化的，则纳什均衡价格将是常数。在排序的情况下，我们展示了当最大价值被提取时的条件
+    社交网络可以通过关系损失的连锁反应来维持合作。本文基于Jackson等人(2012)的研究，引入了一个新的鲁棒性概念，来描述低认知复杂度（LCC）网络，即一种计算和理解受到最小认知负担的均衡网络子集，我们在实验室实验证明，相对于非均衡网络，均衡网络中的合作更高。在均衡网络中，LCC网络比非LCC网络更具合作性。学习对于均衡博弈的出现至关重要。
 
-    Maximal Extractable Value (MEV) refers to excess value captured by miners (or validators) from users in a cryptocurrency network. This excess value often comes from reordering users' transactions to maximize fees or from inserting new transactions that front-run users' transactions. One of the most common types of MEV involves a `sandwich attack' against a user trading on a constant function market maker (CFMM), which is a popular class of automated market maker. We analyze game theoretic properties of MEV in CFMMs that we call \textit{routing} and \textit{reordering} MEV. In the case of routing, we present examples where the existence of MEV both degrades and, counterintuitively, \emph{improves} the quality of routing. We construct an analogue of the price of anarchy for this setting and demonstrate that if the impact of a sandwich attack is localized in a suitable sense, then the price of anarchy is constant. In the case of reordering, we show conditions when the maximum price impact
+    Social networks can sustain cooperation by amplifying the consequences of a single defection through a cascade of relationship losses. Building on Jackson et al. (2012), we introduce a novel robustness notion to characterize low cognitive complexity (LCC) networks - a subset of equilibrium networks that imposes a minimal cognitive burden to calculate and comprehend the consequences of defection. We test our theory in a laboratory experiment and find that cooperation is higher in equilibrium than in non-equilibrium networks. Within equilibrium networks, LCC networks exhibit higher levels of cooperation than non-LCC networks. Learning is essential for the emergence of equilibrium play.
     
-[^15]: 条件可引出的深度强化学习动态风险度量
+[^8]: 用于粗波动的随机神经网络
 
-    Conditionally Elicitable Dynamic Risk Measures for Deep Reinforcement Learning. (arXiv:2206.14666v3 [cs.LG] UPDATED)
+    Random neural networks for rough volatility. (arXiv:2305.01035v1 [q-fin.PR])
 
-    [http://arxiv.org/abs/2206.14666](http://arxiv.org/abs/2206.14666)
+    [http://arxiv.org/abs/2305.01035](http://arxiv.org/abs/2305.01035)
 
-    本文提出一种可解决风险敏感型强化学习问题的新框架，使用动态谱风险度量进行优化，设计了一种可以逼近这些度量的深度神经网络算法，并开发了一种不需要额外嵌套转换的风险敏感演员-评论家算法。
-
-    
-
-    我们提出了一种解决风险敏感型强化学习问题的新框架，其中代理通过优化时间一致的动态谱风险度量来实现。基于条件可引出性的概念，我们的方法构建了（严格一致的）评分函数，用作估计过程中的处罚项。我们的贡献有三个方面：（i）设计了一种利用深度神经网络估计一类动态谱风险度量的有效方法，（ii）证明了这些动态谱风险度量可以使用深度神经网络进行任意精度的逼近，以及（iii）开发了一种风险敏感的演员-评论家算法，该算法使用完整的剧集，不需要任何额外的嵌套转换。我们将概念上改进的强化学习算法与嵌套模拟方法进行了比较，并在两个设置中说明了其在统计套利和组合分配方面的性能，包括模拟和真实数据。
-
-    We propose a novel framework to solve risk-sensitive reinforcement learning (RL) problems where the agent optimises time-consistent dynamic spectral risk measures. Based on the notion of conditional elicitability, our methodology constructs (strictly consistent) scoring functions that are used as penalizers in the estimation procedure. Our contribution is threefold: we (i) devise an efficient approach to estimate a class of dynamic spectral risk measures with deep neural networks, (ii) prove that these dynamic spectral risk measures may be approximated to any arbitrary accuracy using deep neural networks, and (iii) develop a risk-sensitive actor-critic algorithm that uses full episodes and does not require any additional nested transitions. We compare our conceptually improved reinforcement learning algorithm with the nested simulation approach and illustrate its performance in two settings: statistical arbitrage and portfolio allocation on both simulated and real data.
-    
-[^16]: 一种新的股票市场估值方法及其在股票相关养老金中的应用
-
-    A New Stock Market Valuation Measure with Applications to Equity-Linked Annuities. (arXiv:1905.04603v13 [q-fin.ST] UPDATED)
-
-    [http://arxiv.org/abs/1905.04603](http://arxiv.org/abs/1905.04603)
-
-    本文提出了一种新的股票市场估值方法，采用对数财富与对数收益之间的一阶自回归，可以用于预测股票市场的未来总回报，结果否定了有效市场假说。
+    本论文介绍了一种基于随机神经网络的深度学习数值算法，用于解决与粗波动相关的路径相关偏微分方程，并证明了该方法具有理论收敛性质。
 
     
 
-    本文对用于预测股票市场未来总回报的经典席勒循环调整市盈率（CAPE）进行了概括和推广。在本文中，收益增长被视为外生变量。通过将对数财富与对数收益之间的差建模为具有线性趋势4.5％和高斯创新的一阶自回归，我们得到了一种新的估值方法。这个自回归与随机漫步有很大的区别。因此，我们的结果否定了有效市场假说。长期总回报等于长期收益增长加上4.5％。我们将这些结果应用于退休计划中。
+    我们构建了一个基于深度学习的数值算法，用于求解与粗波动相关的路径相关偏微分方程。我们的方法基于将PDE解释为SPDE的解决方案，建立在由Bayer、Qiu和Yao最近得出的见解之上，并构建了一个像Gonon、Grigoryeva、Ortega最初开发的储层类型的神经网络。储层方法使我们能够将优化问题制定为简单的最小二乘回归，我们证明了其理论收敛性质。
 
-    We generalize the classic Shiller cyclically adjusted price-earnings ratio (CAPE) used for prediction of future total returns of the stock market. We treat earnings growth as exogenous. The difference between log wealth and log earnings is modeled as an autoregression of order 1 with linear trend 4.5% and Gaussian innovations. Detrending gives us a new valuation measure. This autoregression is significantly different from the random walk. Therefore, our results disprove the Efficient Market Hypothesis. Therefore, long-run total returns equal long-run earnings growth plus 4.5%. We apply results to retirement planning.
+    We construct a deep learning-based numerical algorithm to solve path-dependent partial differential equations arising in the context of rough volatility. Our approach is based on interpreting the PDE as a solution to an SPDE, building upon recent insights by Bayer, Qiu and Yao, and on constructing a neural network of reservoir type as originally developed by Gonon, Grigoryeva, Ortega. The reservoir approach allows us to formulate the optimisation problem as a simple least-square regression for which we prove theoretical convergence properties.
+    
+[^9]: 使用比例代表制方法替代股票交易所中基于比例分配顺序的匹配算法的研究
+
+    On Using Proportional Representation Methods as Alternatives to Pro-Rata Based Order Matching Algorithms in Stock Exchanges. (arXiv:2303.09652v1 [econ.GN])
+
+    [http://arxiv.org/abs/2303.09652](http://arxiv.org/abs/2303.09652)
+
+    研究发现，选举制度中的比例代表方法可以替代股票交易所中的按比例分配顺序的匹配算法，提供更接近比例分配的订单分配。
+
+    
+
+    本短文的主要观察是，用于确定选举制度中比例代表的方法可以作为替代股票交易所中使用的按比例分配订单的匹配算法的选择。我们的模拟研究强有力地证明，杰斐逊/德汉特和韦伯斯特/圣拉格比例代表方法提供的订单分配比按比例分配算法获得的订单分配更接近比例分配。
+
+    The main observation of this short note is that methods for determining proportional representation in electoral systems may be suitable as alternatives to the pro-rata order matching algorithm used in stock exchanges. Our simulation studies provide strong evidence that the Jefferson/D'Hondt and the Webster/Saint-Lagu\"{e} proportional representation methods provide order allocations which are closer to proportionality than the order allocations obtained from the pro-rata algorithm.
+    
+[^10]: 具有半鞅策略的最优组合清算均值场控制问题
+
+    A Mean-Field Control Problem of Optimal Portfolio Liquidation with Semimartingale Strategies. (arXiv:2207.00446v2 [q-fin.MF] UPDATED)
+
+    [http://arxiv.org/abs/2207.00446](http://arxiv.org/abs/2207.00446)
+
+    本文研究了具有半鞅策略的最优组合清算问题，证明了价值函数采用线性-二次形式，且最优策略仅在交易期的开始和结束时进行跳跃。
+
+    
+
+    我们考虑了一个具有瞬态市场影响和自激励订单流的组合清算模型，其中涉及到 c\`adl\`ag 半鞅策略的均值场控制问题。我们证明了价值函数仅通过其分布依赖于状态过程，并且它采用线性-二次形式，其系数满足非标准 Riccati 类型方程的耦合系统。通过由离散时间模型转换到连续时间极限来启发式地获得 Riccati 方程。通过复杂的变换，我们可以将系统带入标准 Riccati 形式，从而推断出全局解的存在性。我们的分析表明，最优策略仅在交易期的开始和结束时进行跳跃。
+
+    We consider a mean-field control problem with c\`adl\`ag semimartingale strategies arising in portfolio liquidation models with transient market impact and self-exciting order flow. We show that the value function depends on the state process only through its law, and that it is of linear-quadratic form and that its coefficients satisfy a coupled system of non-standard Riccati-type equations. The Riccati equations are obtained heuristically by passing to the continuous-time limit from a sequence of discrete-time models. A sophisticated transformation shows that the system can be brought into standard Riccati form from which we deduce the existence of a global solution. Our analysis shows that the optimal strategy jumps only at the beginning and the end of the trading period.
+    
+[^11]: 评估外汇储备的货币组成
+
+    Estimating the Currency Composition of Foreign Exchange Reserves. (arXiv:2206.13751v3 [q-fin.ST] UPDATED)
+
+    [http://arxiv.org/abs/2206.13751](http://arxiv.org/abs/2206.13751)
+
+    该论文提出了一种隐马尔可夫模型，用于评估央行外汇储备的货币组成。作者将该模型应用于中国和新加坡，发现中国的储备组成可能类似于全球平均水平，而新加坡可能持有更少的美元。
+
+    
+
+    央行管理着大约12万亿美元的外汇储备，影响全球汇率和资产价值。然而，一些最大的储备保有者报告的货币组合信息很少，阻碍了实证分析。本文提出了一种隐马尔可夫模型，通过将组合价值的波动与主要储备货币的汇率相关联，来估计央行的储备组成。我将该模型应用于中国和新加坡，这两个国家共持有约3.4万亿美元的储备并隐瞒其组成。我发现，中国的储备组成可能类似于全球平均水平，而新加坡可能持有更少的美元。
+
+    Central banks manage about \$12 trillion in foreign exchange reserves, influencing global exchange rates and asset prices. However, some of the largest holders of reserves report minimal information about their currency composition, hindering empirical analysis. I describe a Hidden Markov Model to estimate the composition of a central bank's reserves by relating the fluctuation in the portfolio's valuation to the exchange rates of major reserve currencies. I apply the model to China and Singapore, two countries that collectively hold about \$3.4 trillion in reserves and conceal their composition. I find that both China's reserve composition likely resembles the global average, while Singapore probably holds fewer US dollars.
+    
+[^12]: 大萧条时期的铁路纾困计划
+
+    Railroad Bailouts in the Great Depression. (arXiv:2205.13025v3 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2205.13025](http://arxiv.org/abs/2205.13025)
+
+    大萧条时期，美国政府通过向铁路公司提供贷款来减少债券违约的可能性和增加就业，然而这些纾困计划没有帮助铁路公司增加盈利或就业，而是减少了杠杆比率。纾困对股票价格几乎没有影响，但导致其债券价格上涨并降低了评级下调的可能性。同时，这些纾困计划也没有帮助铁路公司避免债务违约，但有利于一些附近的制造业公司。
+
+    
+
+    重建金融公司和公共工程管理局在1932年至1939年间向46家铁路公司发放了802多万美元的贷款，政府的目标是减少债券违约的可能性和增加就业。然而被纾困的铁路公司并没有增加盈利或就业，反而减少了杠杆比率。纾困铁路公司对其股票价格几乎没有影响，但导致其债券价格上涨并降低了评级下调的可能性。然而，纾困并没有帮助铁路公司避免债务违约。我们发现，一些位于铁路附近的制造业公司受益于这些纾困计划。
+
+    The Reconstruction Finance Corporation and Public Works Administration loaned 46 railroads over $802 million between 1932 and 1939. The government's goal was to decrease the likelihood of bond defaults and increase employment. Bailed-out railroads did not increase profitability or employment. Instead, they reduced leverage. Bailing out a railroad had little effect on its stock price, but it resulted in an increase in its bond prices and reduced the likelihood of a ratings downgrade. However, bailouts did not help railroads avoid defaulting on their debt. We find some evidence that manufacturing firms located close to railroads benefited from the bailouts.
+    
+[^13]: 基于C\`adl\`ag粗路径理论的金融学基础
+
+    A C\`adl\`ag Rough Path Foundation for Robust Finance. (arXiv:2109.04225v3 [math.PR] UPDATED)
+
+    [http://arxiv.org/abs/2109.04225](http://arxiv.org/abs/2109.04225)
+
+    本文利用粗路径理论为随机Ito积分提供了一种逐路径的基础，可以覆盖大多数金融市场模型，包括骑士不确定性。通过引入属性（RIE）来确保路径和二次变差的存在，并证明了相应的粗略积分存在于沿着合适的分区序列的左端点黎曼和的极限中。
+
+    
+
+    本文应用粗路径理论为随机Ito积分提供了一种逐路径的基础，覆盖了大多数常用的交易策略和金融市场数学模型，包括骑士不确定性下的模型。为此，引入了所谓的c\`adl\`ag路径属性（RIE），表明存在一个“粗”的c\`adl\`ag路径以及F\"ollmer意义下的二次变差。证明了相应的粗略积分存在于沿着合适的分区序列的左端点黎曼和的极限中。这允许处理非梯度型的被积函数，并获得粗路径理论的强大稳定性估计。此外，验证了函数生成的交易策略和Cover的通用组合都是可靠的被积函数，而（Young）半鞅和典型价格路径都满足属性（RIE）。
+
+    Using rough path theory, we provide a pathwise foundation for stochastic It\^o integration, which covers most commonly applied trading strategies and mathematical models of financial markets, including those under Knightian uncertainty. To this end, we introduce the so-called Property (RIE) for c\`adl\`ag paths, which is shown to imply the existence of a c\`adl\`ag rough path and of quadratic variation in the sense of F\"ollmer. We prove that the corresponding rough integrals exist as limits of left-point Riemann sums along a suitable sequence of partitions. This allows one to treat integrands of non-gradient type, and gives access to the powerful stability estimates of rough path theory. Additionally, we verify that (path-dependent) functionally generated trading strategies and Cover's universal portfolio are admissible integrands, and that Property (RIE) is satisfied by both (Young) semimartingales and typical price paths.
     
 

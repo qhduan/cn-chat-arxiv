@@ -1,0 +1,12 @@
+{
+    "title": "On the properties of Gaussian Copula Mixture Models. (arXiv:2305.01479v1 [cs.LG])",
+    "abstract": "Gaussian copula mixture models (GCMM) are the generalization of Gaussian Mixture models using the concept of copula. Its mathematical definition is given and the properties of likelihood function are studied in this paper. Based on these properties, extended Expectation Maximum algorithms are developed for estimating parameters for the mixture of copulas while marginal distributions corresponding to each component is estimated using separate nonparametric statistical methods. In the experiment, GCMM can achieve better goodness-of-fitting given the same number of clusters as GMM; furthermore, GCMM can utilize unsynchronized data on each dimension to achieve deeper mining of data.",
+    "link": "http://arxiv.org/abs/2305.01479",
+    "context": "Title: On the properties of Gaussian Copula Mixture Models. (arXiv:2305.01479v1 [cs.LG])\nAbstract: Gaussian copula mixture models (GCMM) are the generalization of Gaussian Mixture models using the concept of copula. Its mathematical definition is given and the properties of likelihood function are studied in this paper. Based on these properties, extended Expectation Maximum algorithms are developed for estimating parameters for the mixture of copulas while marginal distributions corresponding to each component is estimated using separate nonparametric statistical methods. In the experiment, GCMM can achieve better goodness-of-fitting given the same number of clusters as GMM; furthermore, GCMM can utilize unsynchronized data on each dimension to achieve deeper mining of data.",
+    "path": "papers/23/05/2305.01479.json",
+    "total_tokens": 724,
+    "translated_title": "高斯Copula混合模型的性质研究",
+    "translated_abstract": "高斯Copula混合模型（GCMM）是使用Copula概念的高斯混合模型的推广。本文给出了其数学定义，并研究了似然函数的性质。基于这些属性，我们开发了扩展期望最大算法，用于估计混合Copula的参数，而每个组件对应的边际分布则使用单独的非参数统计方法进行估计。实验表明，相比于GMM，GCMM在相同数量的聚类情况下可以实现更好的拟合；此外，GCMM可以利用每个维度上的不同步数据实现更深入的数据挖掘。",
+    "tldr": "本文研究了高斯Copula混合模型（GCMM）的性质，开发了基于扩展期望最大算法的参数估计方法，并表明GCMM相比于GMM可以更好地拟合数据并实现更深入的数据挖掘。",
+    "en_tdlr": "This paper studies the properties of Gaussian Copula Mixture Models (GCMM), develops an extended Expectation Maximum algorithm for parameter estimation, and shows that GCMM can achieve better fitting and deeper mining of data compared to GMM."
+}

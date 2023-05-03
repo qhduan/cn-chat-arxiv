@@ -1,0 +1,12 @@
+{
+    "title": "Attention-based Spatial-Temporal Graph Neural ODE for Traffic Prediction. (arXiv:2305.00985v1 [cs.LG])",
+    "abstract": "Traffic forecasting is an important issue in intelligent traffic systems (ITS). Graph neural networks (GNNs) are effective deep learning models to capture the complex spatio-temporal dependency of traffic data, achieving ideal prediction performance. In this paper, we propose attention-based graph neural ODE (ASTGODE) that explicitly learns the dynamics of the traffic system, which makes the prediction of our machine learning model more explainable. Our model aggregates traffic patterns of different periods and has satisfactory performance on two real-world traffic data sets. The results show that our model achieves the highest accuracy of the root mean square error metric among all the existing GNN models in our experiments.",
+    "link": "http://arxiv.org/abs/2305.00985",
+    "context": "Title: Attention-based Spatial-Temporal Graph Neural ODE for Traffic Prediction. (arXiv:2305.00985v1 [cs.LG])\nAbstract: Traffic forecasting is an important issue in intelligent traffic systems (ITS). Graph neural networks (GNNs) are effective deep learning models to capture the complex spatio-temporal dependency of traffic data, achieving ideal prediction performance. In this paper, we propose attention-based graph neural ODE (ASTGODE) that explicitly learns the dynamics of the traffic system, which makes the prediction of our machine learning model more explainable. Our model aggregates traffic patterns of different periods and has satisfactory performance on two real-world traffic data sets. The results show that our model achieves the highest accuracy of the root mean square error metric among all the existing GNN models in our experiments.",
+    "path": "papers/23/05/2305.00985.json",
+    "total_tokens": 754,
+    "translated_title": "基于注意力机制的时空图神经ODE用于交通预测",
+    "translated_abstract": "交通预测是智能交通系统中的一个重要问题。图神经网络（GNN）是一种有效的深度学习模型，可以捕捉交通数据的复杂时空依赖性，并实现理想的预测性能。在本文中，我们提出了基于注意力机制的图神经ODE（ASTGODE），明确学习交通系统的动态，使我们的机器学习模型的预测更加可解释。我们的模型聚合了不同周期的交通模式，并在两个真实世界的交通数据集上表现出令人满意的性能。实验结果表明，我们的模型在均方根误差度量的准确性上，是所有现有GNN模型中表现最好的。",
+    "tldr": "这篇论文提出了一个基于注意力机制的图神经ODE模型（ASTGODE），该模型可以解决交通预测问题。实验结果表明，ASTGODE模型在准确性方面优于现有的GNN模型。",
+    "en_tdlr": "This paper proposes an attention-based graph neural ODE (ASTGODE) model to solve traffic prediction problems. Experimental results show that the ASTGODE model outperforms existing GNN models in terms of accuracy."
+}

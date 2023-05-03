@@ -1,0 +1,12 @@
+{
+    "title": "Optimal control problems for stochastic processes with absorbing regime. (arXiv:2305.01490v1 [math.OC])",
+    "abstract": "In this paper we formulate and solve an optimal problem for Stochastic process with a regime absorbing state. The solution for this problem is obtained through a system of partial differential equations. The method is applied to obtain an explicit solution for the Merton portfolio problem when an asset has a default probability in case of a log utility.",
+    "link": "http://arxiv.org/abs/2305.01490",
+    "context": "Title: Optimal control problems for stochastic processes with absorbing regime. (arXiv:2305.01490v1 [math.OC])\nAbstract: In this paper we formulate and solve an optimal problem for Stochastic process with a regime absorbing state. The solution for this problem is obtained through a system of partial differential equations. The method is applied to obtain an explicit solution for the Merton portfolio problem when an asset has a default probability in case of a log utility.",
+    "path": "papers/23/05/2305.01490.json",
+    "total_tokens": 552,
+    "translated_title": "具有吸收状态的随机过程的最优控制问题",
+    "translated_abstract": "本文针对具有吸收状态的随机过程提出并求解了最优控制问题。通过一个偏微分方程组，得到了此问题的解。该方法被应用于在log效用情形下，当一个资产具有违约概率时，获得了Merton组合问题的显式解。",
+    "tldr": "本文研究了具有吸收状态的随机过程的最优控制问题，并通过偏微分方程组得到了解，其中具有违约概率的Merton组合问题得到了显式解。",
+    "en_tdlr": "This paper investigates the optimal control problem for stochastic processes with an absorbing state, and obtains the solution through a system of partial differential equations. It also applies this method to explicitly solve the Merton portfolio problem with default probability in log utility case."
+}

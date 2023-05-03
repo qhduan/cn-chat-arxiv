@@ -1,0 +1,12 @@
+{
+    "title": "Going In Style: Audio Backdoors Through Stylistic Transformations. (arXiv:2211.03117v3 [cs.CR] UPDATED)",
+    "abstract": "This work explores stylistic triggers for backdoor attacks in the audio domain: dynamic transformations of malicious samples through guitar effects. We first formalize stylistic triggers - currently missing in the literature. Second, we explore how to develop stylistic triggers in the audio domain by proposing JingleBack. Our experiments confirm the effectiveness of the attack, achieving a 96% attack success rate. Our code is available in https://github.com/skoffas/going-in-style.",
+    "link": "http://arxiv.org/abs/2211.03117",
+    "context": "Title: Going In Style: Audio Backdoors Through Stylistic Transformations. (arXiv:2211.03117v3 [cs.CR] UPDATED)\nAbstract: This work explores stylistic triggers for backdoor attacks in the audio domain: dynamic transformations of malicious samples through guitar effects. We first formalize stylistic triggers - currently missing in the literature. Second, we explore how to develop stylistic triggers in the audio domain by proposing JingleBack. Our experiments confirm the effectiveness of the attack, achieving a 96% attack success rate. Our code is available in https://github.com/skoffas/going-in-style.",
+    "path": "papers/22/11/2211.03117.json",
+    "total_tokens": 675,
+    "translated_title": "Going In Style：通过风格转换进行音频后门攻击",
+    "translated_abstract": "本文探讨了音频领域中通过吉他效果动态转换恶意样本来进行后门攻击的风格触发器。首先，我们规范化了风格触发器——这是当前文献中缺失的。其次，我们探讨了如何通过提出 JingleBack 来在音频领域开发风格触发器。我们的实验证实了攻击的有效性，达到了 96% 的攻击成功率。我们的代码可在 https://github.com/skoffas/going-in-style 中找到。",
+    "tldr": "本文探讨了音频领域中通过吉他效果动态转换恶意样本来进行后门攻击的风格触发器。JingleBack 的提出使得风格触发器在音频领域得以应用，并取得了极高的攻击成功率。",
+    "en_tdlr": "This paper explores stylistic triggers for backdoor attacks in the audio domain through dynamic transformations of malicious samples by guitar effects. JingleBack proposed in this work makes it possible to develop stylistic triggers in the audio domain and achieves a high attack success rate."
+}

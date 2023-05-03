@@ -1,0 +1,12 @@
+{
+    "title": "SafeWebUH at SemEval-2023 Task 11: Learning Annotator Disagreement in Derogatory Text: Comparison of Direct Training vs Aggregation. (arXiv:2305.01050v1 [cs.CL])",
+    "abstract": "Subjectivity and difference of opinion are key social phenomena, and it is crucial to take these into account in the annotation and detection process of derogatory textual content. In this paper, we use four datasets provided by SemEval-2023 Task 11 and fine-tune a BERT model to capture the disagreement in the annotation. We find individual annotator modeling and aggregation lowers the Cross-Entropy score by an average of 0.21, compared to the direct training on the soft labels. Our findings further demonstrate that annotator metadata contributes to the average 0.029 reduction in the Cross-Entropy score.",
+    "link": "http://arxiv.org/abs/2305.01050",
+    "context": "Title: SafeWebUH at SemEval-2023 Task 11: Learning Annotator Disagreement in Derogatory Text: Comparison of Direct Training vs Aggregation. (arXiv:2305.01050v1 [cs.CL])\nAbstract: Subjectivity and difference of opinion are key social phenomena, and it is crucial to take these into account in the annotation and detection process of derogatory textual content. In this paper, we use four datasets provided by SemEval-2023 Task 11 and fine-tune a BERT model to capture the disagreement in the annotation. We find individual annotator modeling and aggregation lowers the Cross-Entropy score by an average of 0.21, compared to the direct training on the soft labels. Our findings further demonstrate that annotator metadata contributes to the average 0.029 reduction in the Cross-Entropy score.",
+    "path": "papers/23/05/2305.01050.json",
+    "total_tokens": 748,
+    "translated_title": "SemEval-2023 任务11中的SafeWebUH：学习侮辱性文本的注释者不一致性： 直接训练与聚合的比较。",
+    "translated_abstract": "主观性和不同意见是关键的社会现象，考虑到这一点在注释和检测侮辱性文本内容的过程中至关重要。本文使用SemEval-2023任务11提供的四个数据集，对BERT模型进行微调，以捕捉注释中的不一致性。我们发现个体注释者建模和聚合将交叉熵得分平均降低了0.21，而与直接训练软标签相比。我们的研究进一步证明了注释者元数据对平均交叉熵分数的0.029降低有所贡献。",
+    "tldr": "本文研究使用BERT模型来标注侮辱性文本中的注释者不一致性，并比较直接训练和聚合两种方法，结果发现聚合方法比直接训练有更好的效果。",
+    "en_tdlr": "This paper investigates using a BERT model to capture annotator disagreement in derogatory textual content and compares direct training to aggregation, with results showing that aggregation outperforms direct training."
+}

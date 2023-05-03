@@ -1,0 +1,12 @@
+{
+    "title": "Differentially Private In-Context Learning. (arXiv:2305.01639v1 [cs.LG])",
+    "abstract": "An important question in deploying large language models (LLMs) is how to augment LLMs with private data. We propose Differentially Private In-context Learning (DP-ICL) to enable LLMs to adapt to new tasks while maintaining privacy guarantees. DP-ICL performs private inference by establishing noisy consensus over an ensemble of exemplars using the Report-Noisy-Max mechanism. We evaluate DP-ICL on four benchmarks and find that it achieves comparable performance (<2\\% degradation) with non-private ICL.",
+    "link": "http://arxiv.org/abs/2305.01639",
+    "context": "Title: Differentially Private In-Context Learning. (arXiv:2305.01639v1 [cs.LG])\nAbstract: An important question in deploying large language models (LLMs) is how to augment LLMs with private data. We propose Differentially Private In-context Learning (DP-ICL) to enable LLMs to adapt to new tasks while maintaining privacy guarantees. DP-ICL performs private inference by establishing noisy consensus over an ensemble of exemplars using the Report-Noisy-Max mechanism. We evaluate DP-ICL on four benchmarks and find that it achieves comparable performance (<2\\% degradation) with non-private ICL.",
+    "path": "papers/23/05/2305.01639.json",
+    "total_tokens": 620,
+    "translated_title": "差分隐私下的上下文学习",
+    "translated_abstract": "在部署大型语言模型（LLM）时，一个重要的问题是如何使用私有数据增强LLM。我们提出了\"DP-ICL\"来实现对新任务的适应性，同时保持隐私保证。DP-ICL通过使用\"report-noisy-max\"机制在示例集合上建立嘈杂一致性来进行私有推断。我们在四个基准测试上评估了DP-ICL，发现其与非私有ICL相比具有可比性的性能(<2%降级)。",
+    "tldr": "本文提出了DP-ICL，实现了在隐私保证下对新任务的适应性。经过四个基准测试，发现其性能与非私有ICL相当。",
+    "en_tdlr": "This paper proposes DP-ICL, which achieves adaptability to new tasks under privacy guarantees. After evaluation on four benchmarks, it is found to perform comparably with non-private ICL."
+}

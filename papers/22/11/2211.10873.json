@@ -1,0 +1,12 @@
+{
+    "title": "Interpretable Scientific Discovery with Symbolic Regression: A Review. (arXiv:2211.10873v2 [cs.LG] UPDATED)",
+    "abstract": "Symbolic regression is emerging as a promising machine learning method for learning succinct underlying interpretable mathematical expressions directly from data. Whereas it has been traditionally tackled with genetic programming, it has recently gained a growing interest in deep learning as a data-driven model discovery method, achieving significant advances in various application domains ranging from fundamental to applied sciences. This survey presents a structured and comprehensive overview of symbolic regression methods and discusses their strengths and limitations.",
+    "link": "http://arxiv.org/abs/2211.10873",
+    "context": "Title: Interpretable Scientific Discovery with Symbolic Regression: A Review. (arXiv:2211.10873v2 [cs.LG] UPDATED)\nAbstract: Symbolic regression is emerging as a promising machine learning method for learning succinct underlying interpretable mathematical expressions directly from data. Whereas it has been traditionally tackled with genetic programming, it has recently gained a growing interest in deep learning as a data-driven model discovery method, achieving significant advances in various application domains ranging from fundamental to applied sciences. This survey presents a structured and comprehensive overview of symbolic regression methods and discusses their strengths and limitations.",
+    "path": "papers/22/11/2211.10873.json",
+    "total_tokens": 673,
+    "translated_title": "用符号回归实现可解释的科学发现：综述（arXiv:2211.10873v2 [cs.LG] UPDATED）",
+    "translated_abstract": "符号回归作为从数据中学习简洁且可解释的数学表达式的一种机器学习方法日益流行。虽然传统上采用遗传编程的方式解决这个问题，但近年来，它在深度学习中引起了越来越多的关注，作为一种数据驱动的模型发现方法，在从基础科学到应用科学的各个领域取得了重大进展。本文综述了符号回归方法的结构和全面的概述，并讨论了它们的优点和局限性。",
+    "tldr": "符号回归作为一种机器学习方法日益流行，可以从数据中学习简洁且可解释的数学表达式，本综述全面概述了该方法并讨论了其优点和局限性。",
+    "en_tdlr": "Symbolic regression, as an increasingly popular machine learning method, can learn concise and interpretable mathematical expressions directly from data. This survey provides a comprehensive overview of symbolic regression methods and discusses their strengths and limitations."
+}

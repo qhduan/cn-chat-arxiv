@@ -2,202 +2,187 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Disturbance Effects on Financial Timberland Returns in Austria.](http://arxiv.org/abs/2305.00887) | 该论文研究了在奥地利金融林地中不同管理制度下干扰效应对资本回报率的影响，并发现连续覆盖林业在经济效益上不如轮作林业，同时指出碳租金收入有利于管理制度的选择。 |
-| [^2] | [Inference in Threshold Predictive Regression Models with Hybrid Stochastic Local Unit Roots.](http://arxiv.org/abs/2305.00860) | 本研究探讨了带有混合随机局部单位根预测变量的门槛预测回归模型中的估计方法，并通过实证应用表明我们的框架在揭示特定时期的可预测性方面具有实用性，并突出了经济政策不确定性的影响。 |
-| [^3] | [Signaling With Commitment.](http://arxiv.org/abs/2305.00777) | 该论文研究了具有承诺力量的信号传递博弈，并提出了发件人可达到的收益的几何描述。研究者将其应用于不同领域，如作业市场信号传递、通信和披露。 |
-| [^4] | [Double and Single Descent in Causal Inference with an Application to High-Dimensional Synthetic Control.](http://arxiv.org/abs/2305.00700) | 本文考虑了高度过参数化的因果推断模型，探讨了多个控制单元的高维合成控制估计性能，发现增加控制单元可以帮助提高填充性能，甚至超过了预处理拟合完美的点。 |
-| [^5] | [On extensions of partial priorities in school choice.](http://arxiv.org/abs/2305.00641) | 研究了教育选择匹配模型中二元关系的拓展，证明了偏序情况下的每个稳定匹配都有扩展稳定匹配，并且存在通过帕累托支配排名的多个稳定匹配时，可以通过拓展使所有匹配稳定。 |
-| [^6] | [Optimal multi-action treatment allocation: A two-phase field experiment to boost immigrant naturalization.](http://arxiv.org/abs/2305.00545) | 该论文采用政策树评估多行动策略学习的益处，利用个性化治疗分配的潜力，在移民入籍背景下实现最优治疗政策的分配，提高移民入籍率。 |
-| [^7] | [Learning, Diversity and Adaptation in Changing Environments: The Role of Weak Links.](http://arxiv.org/abs/2305.00474) | 当前行动可能会延缓对基础状态改变的适应，强连接网络在基础环境发生变化时不如结合强连接和弱连接的网络获得更高的长期回报。 |
-| [^8] | [Optimal tests following sequential experiments.](http://arxiv.org/abs/2305.00403) | 本文分析了基于顺序实验的最优检验方法，重要发现是任何检验的渐近功率函数都可以与一种极限实验中匹配的检验相匹配，这个结果有重要的意义，包括一个强大的充分性结果。 |
-| [^9] | [Historical trend of homophily: U-shaped or not U-shaped? Or, how would you set a criterion to decide which criterion is better to choose a criterion?.](http://arxiv.org/abs/2305.00231) | 本文提出了一组评估同类偏好测量指标的标准，并发现Liu-Lu顺序指标和Naszodi-Mendonca方法构建的基数指标符合所有标准，而大多数文献中常用的指标不符合标准。 |
-| [^10] | [Hedonic Prices and Quality Adjusted Price Indices Powered by AI.](http://arxiv.org/abs/2305.00044) | 本研究提出了一种基于深度神经网络和转换器的经验享乐模型，能够处理大量未结构化的产品数据，准确地估计产品的享乐价格和派生指数。 |
-| [^11] | [Fair Division with Two-Sided Preferences.](http://arxiv.org/abs/2206.05879) | 本文研究公平分配问题中，考虑了玩家对团队的偏好，提出了两侧稳定、EF1和交换稳定的分配方式，并证明了其存在性和多项式时间计算复杂度，同时探讨了EF1和激励无嫉妒的相容性。 |
-| [^12] | [Bidding in Multi-Unit Auctions under Limited Information.](http://arxiv.org/abs/2112.11320) | 论文研究了有限信息下的多物品拍卖中的最优竞标策略，提出了最优先验无关的竞标方式可以最小化因对手行为不确定性导致的期望效用最大损失，并比较了不同拍卖格式下的最小化最大损失出价和拍卖结果。 |
-| [^13] | [A Design-Based Perspective on Synthetic Control Methods.](http://arxiv.org/abs/2101.09398) | 本文从设计角度研究了合成控制（SC）方法，提出了一个修改的无偏合成控制（MUSC）估计量，在随机分配下保证无偏，并且其均方根误差低于其他常见估计器。 |
+| [^1] | [Non-refunding of VAT to soybean exporters or economic impact of Soybean amendments.](http://arxiv.org/abs/2305.01559) | 免除豆粕出口商的增值税导致经济损失4450-6050万美元，其中大豆种植户损失最大。 |
+| [^2] | [Carbon Emission Reduction Effect of RMB Appreciation: Empirical Evidence from 283 Prefecture-Level Cities of China.](http://arxiv.org/abs/2305.01558) | 本文实证证据表明，人民币升值可以通过多种途径来降低碳排放强度，特别是在东部地区、沿海地区、城市化水平高的地区和信息开放的地区。每升值1%碳排放强度平均降低0.463吨/万元。 |
+| [^3] | [A More Informed Sender Benefits the Receiver When the Sender Has Transparent Motives.](http://arxiv.org/abs/2305.01512) | 当发送方具有透明动机时，更知情的发送方有利于接收方，无论接收者是否有能力保护自己的信息，接收者在最优均衡下的最大和最小收益都会随着发送者信息的改进而增加。 |
+| [^4] | [Agricultural Policy in Ukraine.](http://arxiv.org/abs/2305.01478) | 该论文分析和评估了苏联解体后至今乌克兰的农业政策制定，探讨了农业食品部门在国民经济以及全球粮食安全中的作用。 |
+| [^5] | [An Assignment Problem with Interdependent Valuations and Externalities.](http://arxiv.org/abs/2305.01477) | 对称信息买家的最优分配问题中，买家知道自己的估值和外部性成本，但不知道其他买家的相同信息，该论文提出了一种具有相互依赖估值和外部性的分配问题的两个阶段机制解决方案。 |
+| [^6] | [Large Global Volatility Matrix Analysis Based on Structural Information.](http://arxiv.org/abs/2305.01464) | 本文提出了一种名为Structured-POET的方法，它可以合并全球和国家因子模型的结构信息。该方法可以用于估计大波动矩阵，并应用于国际股票市场数据的样本外组合分配的研究。 |
+| [^7] | [Cooperation and Cognition in Social Networks.](http://arxiv.org/abs/2305.01209) | 本文研究了社交网络中的合作问题，并引入了低认知复杂度网络概念，实验证明均衡网络中LCC网络比非LCC网络合作性更高。 |
+| [^8] | [Estimating Input Coefficients for Regional Input-Output Tables Using Deep Learning with Mixup.](http://arxiv.org/abs/2305.01201) | 本文提出使用混合深度学习方法来估算区域投入产出表的输入系数。结果表明，该方法可以比非调查方法更准确地估算输入系数。 |
+| [^9] | [On Using Proportional Representation Methods as Alternatives to Pro-Rata Based Order Matching Algorithms in Stock Exchanges.](http://arxiv.org/abs/2303.09652) | 研究发现，选举制度中的比例代表方法可以替代股票交易所中的按比例分配顺序的匹配算法，提供更接近比例分配的订单分配。 |
+| [^10] | [Macroeconomic Forecasting using Dynamic Factor Models: The Case of Morocco.](http://arxiv.org/abs/2302.14180) | 本文探讨了应用动态因子模型进行宏观经济预测的方法，重点介绍了因子扩展误差纠正模型（FECM）的优势，FECM将协整和动态因子模型的优势结合起来，能比传统计量经济模型更好地捕捉经济动态和提高预测准确性和鲁棒性，是在摩洛哥等类似经济体宏观经济预测中有价值的工具。 |
+| [^11] | [Estimating the Currency Composition of Foreign Exchange Reserves.](http://arxiv.org/abs/2206.13751) | 该论文提出了一种隐马尔可夫模型，用于评估央行外汇储备的货币组成。作者将该模型应用于中国和新加坡，发现中国的储备组成可能类似于全球平均水平，而新加坡可能持有更少的美元。 |
+| [^12] | [Railroad Bailouts in the Great Depression.](http://arxiv.org/abs/2205.13025) | 大萧条时期，美国政府通过向铁路公司提供贷款来减少债券违约的可能性和增加就业，然而这些纾困计划没有帮助铁路公司增加盈利或就业，而是减少了杠杆比率。纾困对股票价格几乎没有影响，但导致其债券价格上涨并降低了评级下调的可能性。同时，这些纾困计划也没有帮助铁路公司避免债务违约，但有利于一些附近的制造业公司。 |
 
 # 详细
 
-[^1]: 奥地利金融林地的干扰效应对回报的影响
+[^1]: 豆粕出口商增值税不退税或者豆粕修正案的经济影响
 
-    Disturbance Effects on Financial Timberland Returns in Austria. (arXiv:2305.00887v1 [econ.GN])
+    Non-refunding of VAT to soybean exporters or economic impact of Soybean amendments. (arXiv:2305.01559v1 [econ.GN])
 
-    [http://arxiv.org/abs/2305.00887](http://arxiv.org/abs/2305.00887)
+    [http://arxiv.org/abs/2305.01559](http://arxiv.org/abs/2305.01559)
 
-    该论文研究了在奥地利金融林地中不同管理制度下干扰效应对资本回报率的影响，并发现连续覆盖林业在经济效益上不如轮作林业，同时指出碳租金收入有利于管理制度的选择。
-
-    
-
-    该论文运用概率论研究了林木长期种植中干扰效应对资本回报率的影响，讨论了两种管理制度，即均龄植物轮作和不均龄半稳态，任何干扰的影响都会对收益和资本化产生影响。研究结果利用奥地利云杉(Picea abies)森林的数据进行说明，在经济效益方面，数据显示与纸面相比，连续覆盖林业在财务上不如轮作林业。任何严重的干扰可能会导致从连续覆盖林业到均龄林业的制度变化。如果不接受这种制度变化，则干扰损失将降低利润但不影响资本化，使连续覆盖林业在财务效益上更容易受到干扰的影响。碳租金的收入有利于管理制度的选择。
-
-    Probability theory is applied for the effect of severe disturbances on the return rate on capital within multiannual stands growing crops. Two management regimes are discussed, rotations of even-aged plants on the one hand, and uneven-aged semi-stationary state on the other. The effect of any disturbance appears two-fold, contributing to both earnings and capitalization. Results are illustrated using data from a recently published study, regarding spruce (Picea abies) forests in Austria. The economic results differ from those of the paper where the data is presented, here indicating continuous-cover forestry is financially inferior to rotation forestry. Any severe disturbance may induce a regime shift from continuous-cover to even-aged forestry. If such a regime shift is not accepted, the disturbance losses reduce profits but do not affect capitalization, making continuous-cover forestry financially more sensitive to disturbances. Revenue from carbon rent favors the management regime w
-    
-[^2]: 门槛预测回归模型中带混合随机局部单位根的推断
-
-    Inference in Threshold Predictive Regression Models with Hybrid Stochastic Local Unit Roots. (arXiv:2305.00860v1 [econ.EM])
-
-    [http://arxiv.org/abs/2305.00860](http://arxiv.org/abs/2305.00860)
-
-    本研究探讨了带有混合随机局部单位根预测变量的门槛预测回归模型中的估计方法，并通过实证应用表明我们的框架在揭示特定时期的可预测性方面具有实用性，并突出了经济政策不确定性的影响。
+    免除豆粕出口商的增值税导致经济损失4450-6050万美元，其中大豆种植户损失最大。
 
     
 
-    本文研究了在带有混合随机局部单位根预测变量的门槛预测回归模型中的估计方法。我们演示了估计过程，并推导出了最小二乘估计量和文献中提到的基于工具变量的估计量在零门槛效应的原假设下的渐近分布。在模拟实验中，我们主要关注了我们所提出的估计器以及对应的可预测性检验在带有随机局部单位根的门槛效应存在时的有限样本性能。对股票回报股票指数的实证应用说明了我们的框架在揭示特定时期的可预测性区域方面的实用性。特别地，我们关注了可预测性文献中以前未曾考虑的一个方面，即经济政策不确定性的影响。
+    免除大豆和菜籽油出口商的增值税对经济造成负面影响，每年损失为4450-6050万美元。所实施的政策旨在增加乌克兰工厂对大豆和菜籽油的加工，因此加工商收到2600万美元，国家预算获得2-1800万美元。然而，大豆种植户，大多数为中小型，损失了8850万美元，远远超过加工商和国家预算的利益。
 
-    In this paper, we study the estimation of the threshold predictive regression model with hybrid stochastic local unit root predictors. We demonstrate the estimation procedure and derive the asymptotic distribution of the least square estimator and the IV based estimator proposed by \cite{magdalinos2009limit}, under the null hypothesis of a diminishing threshold effect. Simulation experiments focus on the finite sample performance of our proposed estimators and the corresponding predictability tests as in \cite{gonzalo2012regime}, under the presence of threshold effects with stochastic local unit roots. An empirical application to stock return equity indices, illustrate the usefulness of our framework in uncovering regimes of predictability during certain periods. In particular, we focus on an aspect not previously examined in the predictability literature, that is, the effect of economic policy uncertainty.
+    Exempting soybean and rapeseed exporters from VAT has a negative effect on the economy of $\$$44.5-60.5 million per year. The implemented policy aimed to increase the processing of soybeans and rapeseed by Ukrainian plants. As a result, the processors received $\$$26 million and the state budget gained $\$$2-18 million. However, soybean farmers, mostly small and medium-sized, received $ 88.5 million in losses, far outweighing the benefits of processors and the state budget.
     
-[^3]: 承诺下的信号传递
+[^2]: 人民币升值的碳减排效应：基于中国283个地级市的实证证据
 
-    Signaling With Commitment. (arXiv:2305.00777v1 [econ.TH])
+    Carbon Emission Reduction Effect of RMB Appreciation: Empirical Evidence from 283 Prefecture-Level Cities of China. (arXiv:2305.01558v1 [econ.GN])
 
-    [http://arxiv.org/abs/2305.00777](http://arxiv.org/abs/2305.00777)
+    [http://arxiv.org/abs/2305.01558](http://arxiv.org/abs/2305.01558)
 
-    该论文研究了具有承诺力量的信号传递博弈，并提出了发件人可达到的收益的几何描述。研究者将其应用于不同领域，如作业市场信号传递、通信和披露。
-
-    
-
-    我们研究了具有承诺力量的信号传递博弈。我们提供了发件人可达到的收益的几何描述，由与不同发件人行动相关的发件人临时支付函数的图的拓扑联合描述。我们将这种情况下的发件人收益与两个基准进行比较。在第一个基准中，除了承诺自己的行动外，发件人还可以承诺向接收者提供额外的信息。在第二个基准中，发件人只能承诺发布信息，但不能保证自己的行动。我们还将我们的结果应用于作业市场信号传递，具有虚假成本的通信和披露。
-
-    We study the canonical signaling game, endowing the sender with commitment power. We provide a geometric characterization of the sender's attainable payoffs, described by the topological join of the graphs of the sender's interim payoff functions associated with different sender actions. We compare the sender's payoffs in this setting with two benchmarks. In the first, in addition to committing to her actions, the sender can commit to provide the receiver with additional information. In the second, the sender can only commit to release information, but cannot commit to her actions. We illustrate our results with applications to job market signaling, communication with lying costs, and disclosure.
-    
-[^4]: 因果推断中的双重和单一下降现象，及其在高维合成控制中的应用。
-
-    Double and Single Descent in Causal Inference with an Application to High-Dimensional Synthetic Control. (arXiv:2305.00700v1 [econ.EM])
-
-    [http://arxiv.org/abs/2305.00700](http://arxiv.org/abs/2305.00700)
-
-    本文考虑了高度过参数化的因果推断模型，探讨了多个控制单元的高维合成控制估计性能，发现增加控制单元可以帮助提高填充性能，甚至超过了预处理拟合完美的点。
+    本文实证证据表明，人民币升值可以通过多种途径来降低碳排放强度，特别是在东部地区、沿海地区、城市化水平高的地区和信息开放的地区。每升值1%碳排放强度平均降低0.463吨/万元。
 
     
 
-    本文针对机器学习中的双重下降现象，考虑了高度过参数化的因果推断模型，包括多个控制单元的合成控制。在这种模型中，可能存在太多的自由参数，以至于模型可以完美地拟合训练数据。本文首先以高维线性回归模型为例，研究薪资数据的填充，发现比简单模型更多的协变量对于模型性能的提升很有效。本文的主要贡献在于探讨了多个控制单元的高维合成控制估计性能，发现增加控制单元可以帮助提高填充性能，甚至超过了预处理拟合完美的点。此外，本文提出一种统一的理论视角来解释这些高维模型的性能，即将更复杂的模型视为对简单模型的模型平均估计。
+    本文基于2006年至2019年中国283个地级市的面板数据，测量了人民币实际有效汇率波动对碳排放强度的影响程度和机制。研究发现：（1）人民币实际有效汇率每升值1%，碳排放强度平均降低0.463吨/万元；（2）人民币实际有效汇率“碳减排效应”在东部地区、沿海地区、城市化水平高的地区和信息开放的地区更为明显；（3）人民币实际有效汇率的升值可以通过促进区域研发和创新能力、抑制外贸和外资、促进产业结构优化升级和改善收入不平等等多种途径，减少二氧化碳排放强度。
 
-    Motivated by a recent literature on the double-descent phenomenon in machine learning, we consider highly over-parametrized models in causal inference, including synthetic control with many control units. In such models, there may be so many free parameters that the model fits the training data perfectly. As a motivating example, we first investigate high-dimensional linear regression for imputing wage data, where we find that models with many more covariates than sample size can outperform simple ones. As our main contribution, we document the performance of high-dimensional synthetic control estimators with many control units. We find that adding control units can help improve imputation performance even beyond the point where the pre-treatment fit is perfect. We then provide a unified theoretical perspective on the performance of these high-dimensional models. Specifically, we show that more complex models can be interpreted as model-averaging estimators over simpler ones, which we 
+    Based on the panel data of 283 prefecture-level cities in China from 2006 to 2019, this paper measures the extent and mechanism of the impact of RMB real effective exchange rate fluctuations on carbon emission intensity. The results show that: (1) For every 1% appreciation of the real effective exchange rate of RMB, the carbon emission intensity decreases by an average of 0.463 tons/10000 yuan; (2) The "carbon emission reduction effect" of RMB real effective exchange rate appreciation is more obvious in the eastern regions, coastal areas, regions with high urbanization levels, and areas with open information; (3) The appreciation of RMB real effective exchange rate can reduce carbon dioxide emission intensity by improving regional R&D and innovation ability, restraining foreign trade and foreign investment, promoting industrial structure optimization and upgrading, and improving income inequality.
     
-[^5]: 论教育选择的优先级拓展
+[^3]: 当发送方透明动机时，更知情的发送方有利于接收方 (arXiv:2305.01512v1 [经济学.TH])
 
-    On extensions of partial priorities in school choice. (arXiv:2305.00641v1 [econ.TH])
+    A More Informed Sender Benefits the Receiver When the Sender Has Transparent Motives. (arXiv:2305.01512v1 [econ.TH])
 
-    [http://arxiv.org/abs/2305.00641](http://arxiv.org/abs/2305.00641)
+    [http://arxiv.org/abs/2305.01512](http://arxiv.org/abs/2305.01512)
 
-    研究了教育选择匹配模型中二元关系的拓展，证明了偏序情况下的每个稳定匹配都有扩展稳定匹配，并且存在通过帕累托支配排名的多个稳定匹配时，可以通过拓展使所有匹配稳定。
-
-    
-
-    本文研究了教育选择匹配模型，其中学校的优先级由二元关系表示，可能不是弱序。我们着重研究了二元关系的扩展（总序）。我们引入了一类算法来推导二元关系的扩展，并用该类算法对其进行刻画。我们证明了如果二元关系是偏序，则对于二元关系的配置，每个稳定匹配都有一个扩展使得其仍然稳定。此外，如果有多个通过帕累托支配排名的稳定匹配，存在一种扩展，使得所有这些匹配都是稳定的。我们提供了这些结果的若干应用。
-
-    We consider a school choice matching model where the priorities for schools are represented by binary relations that may not be weak order. We focus on the (total order) extensions of the binary relations. We introduce a class of algorithms to derive one of the extensions of a binary relation and characterize them by using the class. We show that if the binary relations are the partial orders, then for each stable matching for the profile of the binary relations, there is an extension for which it is also stable. Moreover, if there are multiple stable matchings for the profile of the binary relations that are ranked by Pareto dominance, there is an extension for which all of those matchings are stable. We provide several applications of these results.
-    
-[^6]: 最优多行动治疗分配：提高移民入籍的双阶段现场实验（arXiv：2305.00545v1 [econ.GN]）
-
-    Optimal multi-action treatment allocation: A two-phase field experiment to boost immigrant naturalization. (arXiv:2305.00545v1 [econ.GN])
-
-    [http://arxiv.org/abs/2305.00545](http://arxiv.org/abs/2305.00545)
-
-    该论文采用政策树评估多行动策略学习的益处，利用个性化治疗分配的潜力，在移民入籍背景下实现最优治疗政策的分配，提高移民入籍率。
+    当发送方具有透明动机时，更知情的发送方有利于接收方，无论接收者是否有能力保护自己的信息，接收者在最优均衡下的最大和最小收益都会随着发送者信息的改进而增加。
 
     
 
-    在公共经济学中，分配最优治疗政策的挑战是无处不在的。尽管在处理效应异质性的因果效应估计方面有广泛的实证文献，但个性化治疗分配的潜力尚未得到充分利用，尽管政策学习领域最近取得了进展。我们在移民入籍背景下使用政策树评估多行动策略学习的益处。我们使用定制的双阶段随机实验来估计并实施一个信息宣传政策规则，鼓励苏黎世市符合条件的移民申请瑞士公民身份。政策规则采用决策树的形式，根据链接的行政数据中的个人特征分配治疗。在探索阶段，我们将5,145名具有资格的入籍移民样本的60％随机分配给三封不同信件之一。
+    发送方具有状态无关偏好(即透明动机)，在向接收方发送信息之前私下观察世界状态的信号，接收者随后采取行动。无论接收者是否能够中介 - 并承诺对发送者的消息进行混淆 - 或者委派 - 承诺将消息作为决策规则进行随机决策 - 并理解“接收者由于发送者信息的改善而受益”这一陈述的意思是说, 无论在哪个最优均衡下接收方的最大和最小均衡收益都会（弱地）随着发送者信号的改进而增加（在Blackwell意义上），我们发现，如果发送方更加知情，则接收方更受益。
 
-    The challenge of assigning optimal treatment policies is ubiquitous in public economics. While a vast empirical literature is concerned with the estimation of causal effects under treatment effect heterogeneity, the potentials of individualized treatment assignments are under-explored, despite recent advances in the field of policy learning. We evaluate the benefits of multi-action policy learning using policy trees in the context of immigration naturalization. We use a tailored two-phase randomized field experiment to estimate and field a policy rule for an information campaign encouraging eligible immigrants in the City of Z\"urich to apply for Swiss citizenship. The policy rule takes the form of a decision tree assigning treatments based on individual-level characteristics drawn from linked administrative data. In the exploration phase, we randomly allocate 60% of our sample of 5,145 citizenship-eligible immigrants to receive one of three different letters addressing specific natura
+    A sender with state-independent preferences (i.e., transparent motives) privately observes a signal about the state of the world before sending a message to a receiver, who subsequently takes an action. Regardless of whether the receiver can mediate--and commit to a garbling of the sender's message--or delegate--commit to a stochastic decision rule as a function of the message--and understanding the statement ``the receiver is better off as a result of an improvement of the sender's information'' to mean that her maximal and minimal equilibrium payoffs (weakly) increase as the sender's signal improves (in a Blackwell sense), we find that if the sender is more informed, the receiver is better off.
     
-[^7]: 变化环境下的学习、多样性和适应性：弱连接的作用。
+[^4]: 乌克兰的农业政策
 
-    Learning, Diversity and Adaptation in Changing Environments: The Role of Weak Links. (arXiv:2305.00474v1 [cs.SI])
+    Agricultural Policy in Ukraine. (arXiv:2305.01478v1 [econ.GN])
 
-    [http://arxiv.org/abs/2305.00474](http://arxiv.org/abs/2305.00474)
+    [http://arxiv.org/abs/2305.01478](http://arxiv.org/abs/2305.01478)
 
-    当前行动可能会延缓对基础状态改变的适应，强连接网络在基础环境发生变化时不如结合强连接和弱连接的网络获得更高的长期回报。
-
-    
-
-    适应动态条件需要一定程度的多样性。如果所有代理人都采取最佳当前的行动，那么学习基础状态已经改变，行为应该适应将会更慢。当代理人之间有快速的沟通时，多样性更难以维持，因为他们倾向于快速发现并追求最佳行动。我们使用一个社交网络上的（贝叶斯）学习模型来探索这些问题。代理人从那些通过强联系连接的其他代理人中快速学习，并且还可能有激励与他们协调。然而，我们的研究表明，当基础环境发生足够快的变化时，任何只包含强连接的网络在长期内只能做得比随机选择稍微好一些。相反，结合强和弱连接的网络（后者仅缓慢传输信息）可以实现更高的长期平均回报。最佳的社交网络是那些结合了大量的...（缺失）
-
-    Adaptation to dynamic conditions requires a certain degree of diversity. If all agents take the best current action, learning that the underlying state has changed and behavior should adapt will be slower. Diversity is harder to maintain when there is fast communication between agents, because they tend to find out and pursue the best action rapidly. We explore these issues using a model of (Bayesian) learning over a social network. Agents learn rapidly from and may also have incentives to coordinate with others to whom they are connected via strong links. We show, however, that when the underlying environment changes sufficiently rapidly, any network consisting of just strong links will do only a little better than random choice in the long run. In contrast, networks combining strong and weak links, whereby the latter type of links transmit information only slowly, can achieve much higher long-run average payoffs. The best social networks are those that combine a large fraction of age
-    
-[^8]: 基于顺序实验的最优检验方法
-
-    Optimal tests following sequential experiments. (arXiv:2305.00403v1 [econ.EM])
-
-    [http://arxiv.org/abs/2305.00403](http://arxiv.org/abs/2305.00403)
-
-    本文分析了基于顺序实验的最优检验方法，重要发现是任何检验的渐近功率函数都可以与一种极限实验中匹配的检验相匹配，这个结果有重要的意义，包括一个强大的充分性结果。
+    该论文分析和评估了苏联解体后至今乌克兰的农业政策制定，探讨了农业食品部门在国民经济以及全球粮食安全中的作用。
 
     
 
-    近年来，顺序实验的理论和应用取得了巨大进展。虽然这些实验不一定是为了进行假设检验而设计的，但研究人员仍然可能对实验完成后的检验感兴趣。本文的目的是通过分析它们的渐近性质来帮助发展顺序实验的最优检验方法。我们的关键发现是，任何检验的渐近功率函数都可以与极限实验中匹配的检验相匹配，在这个极限实验中，对于每种处理，观察产生一个高斯过程，并对这些过程的漂移进行推断。这个结果有重要的意义，包括一个强大的充分性结果：任何候选检验方法只需要依赖于一组固定的统计量，而不是顺序实验的类型。这些统计量是每种处理在实验结束时被采样的次数，以及得分的最终值（对于参数模型）
+    在基于上一章节发展起来的农业政策理论和方法的基础上，第2章我们分析和评估了苏联解体至今乌克兰的农业政策制定。从上至下，我们首先描述了农业政策在独立后的重要里程碑，铺平了现代农业政策的政治经济学道路。接着，我们描述了农业食品部门对国民经济以及全球粮食安全的作用。之后，我们深入挖掘，并通过研究农场结构、土地利用、整体和行业未开发的生产潜力来重点关注农业部门的详细绩效。现代农业政策和制度设置在第2.4节中被详细解析。涵盖农业上下游部门的审查以及总结。
 
-    Recent years have seen tremendous advances in the theory and application of sequential experiments. While these experiments are not always designed with hypothesis testing in mind, researchers may still be interested in performing tests after the experiment is completed. The purpose of this paper is to aid in the development of optimal tests for sequential experiments by analyzing their asymptotic properties. Our key finding is that the asymptotic power function of any test can be matched by a test in a limit experiment where a Gaussian process is observed for each treatment, and inference is made for the drifts of these processes. This result has important implications, including a powerful sufficiency result: any candidate test only needs to rely on a fixed set of statistics, regardless of the type of sequential experiment. These statistics are the number of times each treatment has been sampled by the end of the experiment, along with final value of the score (for parametric models)
+    Building upon the theory and methodology of agricultural policy developed in the previous chapter, in Chapter 2 we analyse and assess agricultural policy making in Ukraine since the breakup of Soviet Union till today. Going from top down to the bottom, we begin by describing the evolution of state policy in the agri-food sector. In the beginning, we describe the major milestones of agricultural policy making since independence, paving the way to the political economy of the modern agricultural policy in Ukraine. Then we describe the role of agri-food sector in the national economy as well as globally in ensuring food security in the world. After, we dig deeper and focus on a detailed performance of agricultural sector by looking at farm structures, their land use, overall and sector-wise untapped productivity potential. Modern agricultural policy and institutional set-up is contained and analyzed in details in the section 2.4. A review of the agricultural up- and downstream sectors wra
     
-[^9]: 同类偏爱的历史趋势：U型还是非U型？或者说，如何选择最佳标准来衡量同类偏爱的变化趋势？
+[^5]: 具有相互独立估值和外部性的分配问题
 
-    Historical trend of homophily: U-shaped or not U-shaped? Or, how would you set a criterion to decide which criterion is better to choose a criterion?. (arXiv:2305.00231v1 [econ.GN])
+    An Assignment Problem with Interdependent Valuations and Externalities. (arXiv:2305.01477v1 [econ.TH])
 
-    [http://arxiv.org/abs/2305.00231](http://arxiv.org/abs/2305.00231)
+    [http://arxiv.org/abs/2305.01477](http://arxiv.org/abs/2305.01477)
 
-    本文提出了一组评估同类偏好测量指标的标准，并发现Liu-Lu顺序指标和Naszodi-Mendonca方法构建的基数指标符合所有标准，而大多数文献中常用的指标不符合标准。
-
-    
-
-    当可婚男女的受教育分布也是世代特定时，测量教育婚姻同类偏好在两代人之间的差异是具有挑战性的。我们提出了一组评估同类偏好测量指标是否适用的标准。其中一个分析标准是对不同教育类别数量的鲁棒性要求。我们定义的另一个分析标准涉及代际流动性和同类偏好之间的关系。第三个标准是实证的，关注了同类偏好在1960年至2015之间在美国的历史趋势。尽管Liu-Lu顺序指标和Naszodi-Mendonca方法构建的基数指标符合所有三个标准，但大多数文献中常用的指标都不符合标准。我们的分析揭示了违反某些标准与历史趋势敏感性之间的关系。
-
-    Measuring the extent to which educational marital homophily differs in two consecutive generations is challenging when the educational distributions of marriageable men and women are also generation-specific. We propose a set of criteria that indicators may have to satisfy to be considered as suitable measures of homophily. One of our analytical criteria is on the robustness to the number of educational categories. Another analytical criterion defined by us is on the association between intergenerational mobility and homophily. A third criterion is empirical and concerns the identified historical trend of homophily, a comprehensive aspect of inequality, in the US between 1960 and 2015. While the ordinal Liu--Lu-indicator and the cardinal indicator constructed with the Naszodi--Mendonca method satisfy all three criteria, most indices commonly applied in the literature do not. Our analysis sheds light on the link between the violation of certain criteria and the sensitivity of the histor
-    
-[^10]: 由人工智能驱动的享乐价格和质量调整价格指数
-
-    Hedonic Prices and Quality Adjusted Price Indices Powered by AI. (arXiv:2305.00044v1 [econ.GN])
-
-    [http://arxiv.org/abs/2305.00044](http://arxiv.org/abs/2305.00044)
-
-    本研究提出了一种基于深度神经网络和转换器的经验享乐模型，能够处理大量未结构化的产品数据，准确地估计产品的享乐价格和派生指数。
+    对称信息买家的最优分配问题中，买家知道自己的估值和外部性成本，但不知道其他买家的相同信息，该论文提出了一种具有相互依赖估值和外部性的分配问题的两个阶段机制解决方案。
 
     
 
-    在当今的经济环境下，使用电子记录准确地实时测量价格指数的变化对于跟踪通胀和生产率至关重要。本文开发了经验享乐模型，能够处理大量未结构化的产品数据（文本、图像、价格和数量），并输出精确的享乐价格估计和派生指数。为实现这一目标，我们使用深度神经网络从文本描述和图像中生成抽象的产品属性或”特征“，然后使用这些属性来估算享乐价格函数。具体地，我们使用基于transformers的大型语言模型将有关产品的文本信息转换为数字特征，使用训练或微调过的产品描述信息，使用残差网络模型将产品图像转换为数字特征。为了产生估计的享乐价格函数，我们再次使用多任务神经网络，训练以在所有时间段同时预测产品的价格。
+    本文采用机制设计方法，研究了对称信息买家的最优分配问题。此外，一个买家被分配给一个卖家所产生的剩余价值可能会受到由其他分配产生的外部性的不利影响。这个问题还受到几个因素的影响。买家知道自己的估值和外部性成本，但不知道其他买家的相同信息。买家还接收与状态相关的私人信号，因此实施问题表现出了相互依赖的估值。这阻止了对VCG机制的简单应用，为了克服这个相互依赖问题，我们构建了一个两阶段机制。在第一阶段，我们利用公司对状态的信号的相关性来诱导观察信号的真实报告。鉴于买家在阶段1中诚实，我们在阶段2中使用类似于VCG机制的机制，诱导估值和外部性函数的诚实报告。
 
-    Accurate, real-time measurements of price index changes using electronic records are essential for tracking inflation and productivity in today's economic environment. We develop empirical hedonic models that can process large amounts of unstructured product data (text, images, prices, quantities) and output accurate hedonic price estimates and derived indices. To accomplish this, we generate abstract product attributes, or ``features,'' from text descriptions and images using deep neural networks, and then use these attributes to estimate the hedonic price function. Specifically, we convert textual information about the product to numeric features using large language models based on transformers, trained or fine-tuned using product descriptions, and convert the product image to numeric features using a residual network model. To produce the estimated hedonic price function, we again use a multi-task neural network trained to predict a product's price in all time periods simultaneousl
+    In this paper, we take a mechanism design approach to optimal assignment problems with asymmetrically informed buyers. In addition, the surplus generated by an assignment of a buyer to a seller may be adversely affected by externalities generated by other assignments. The problem is complicated by several factors. Buyers know their own valuations and externality costs but do not know this same information for other buyers. Buyers also receive private signals correlated with the state and, consequently, the implementation problem exhibits interdependent valuations. This precludes a naive application of the VCG mechanism and to overcome this interdependency problem, we construct a two-stage mechanism. In the first stage, we exploit correlation in the firms signals about the state to induce truthful reporting of observed signals. Given that buyers are honest in stage 1, we then use a VCG-like mechanism in stage 2 that induces honest reporting of valuation and externality functions.
     
-[^11]: 两侧偏好的公平分配
+[^6]: 基于结构信息的大规模全局波动矩阵分析
 
-    Fair Division with Two-Sided Preferences. (arXiv:2206.05879v2 [cs.GT] UPDATED)
+    Large Global Volatility Matrix Analysis Based on Structural Information. (arXiv:2305.01464v1 [econ.EM])
 
-    [http://arxiv.org/abs/2206.05879](http://arxiv.org/abs/2206.05879)
+    [http://arxiv.org/abs/2305.01464](http://arxiv.org/abs/2305.01464)
 
-    本文研究公平分配问题中，考虑了玩家对团队的偏好，提出了两侧稳定、EF1和交换稳定的分配方式，并证明了其存在性和多项式时间计算复杂度，同时探讨了EF1和激励无嫉妒的相容性。
-
-    
-
-    本文研究了一个公平分配的设置，在这个设置中，一些玩家需要在一组团队之间公平地分配。在我们的模型中，不仅团队像经典公平分配一样对玩家有偏好，而且玩家也对团队有偏好。我们的研究重点是保证团队能获得最多一个人的不满（EF1），同时两侧能保持稳定。我们展示出，一种满足EF1、交换稳定和个人稳定的分配总是存在的，并且可以在多项式时间内计算出来，即便团队对玩家有正值或负值的情况下也是如此。同样，一个满足EF1松弛条件并且平衡及交换稳定的分配可以有效地计算。当团队对玩家的价值非负时，我们证明了可以存在EF1和Pareto最优分配，如果估价是二元的，那么可在多项式时间内找到。我们还研究了EF1和激励无嫉妒的相容性。
-
-    We study a fair division setting in which a number of players are to be fairly distributed among a set of teams. In our model, not only do the teams have preferences over the players as in the canonical fair division setting, but the players also have preferences over the teams. We focus on guaranteeing envy-freeness up to one player (EF1) for the teams together with a stability condition for both sides. We show that an allocation satisfying EF1, swap stability, and individual stability always exists and can be computed in polynomial time, even when teams may have positive or negative values for players. Similarly, a balanced and swap stable allocation that satisfies a relaxation of EF1 can be computed efficiently. When teams have nonnegative values for players, we prove that an EF1 and Pareto optimal allocation exists and, if the valuations are binary, can be found in polynomial time. We also examine the compatibility between EF1 and justified envy-freeness.
-    
-[^12]: 有限信息下的多物品拍卖竞标
-
-    Bidding in Multi-Unit Auctions under Limited Information. (arXiv:2112.11320v2 [econ.TH] UPDATED)
-
-    [http://arxiv.org/abs/2112.11320](http://arxiv.org/abs/2112.11320)
-
-    论文研究了有限信息下的多物品拍卖中的最优竞标策略，提出了最优先验无关的竞标方式可以最小化因对手行为不确定性导致的期望效用最大损失，并比较了不同拍卖格式下的最小化最大损失出价和拍卖结果。
+    本文提出了一种名为Structured-POET的方法，它可以合并全球和国家因子模型的结构信息。该方法可以用于估计大波动矩阵，并应用于国际股票市场数据的样本外组合分配的研究。
 
     
 
-    我们研究了拍卖参与者对竞争对手策略和价值有限了解的多物品拍卖。我们描述了最优先验无关的竞标方式；这些竞标方式可以最小化因对手行为不确定性导致的期望效用最大损失。尽管竞标者具有多维私人信息，在某些情况下，最优竞标是可以很容易计算的，并且可以得到闭式解。在以出价付款的拍卖中，最小化最大损失的出价是唯一的；在统一价格拍卖中，如果竞标者被允许确定他们所竞标的数量，像许多实际应用中那样，最小化最大损失的出价是唯一的。我们比较了不同拍卖格式下的最小化最大损失出价和拍卖结果，并推导出可测试的预测。
+    本文针对全球金融市场开发了一种新的大波动矩阵估计程序。实践证明，从每周或每月的回报等较低频的数据入手是解决国际金融市场交易时间差异问题的一种方法，但这种方法会由于信息损失导致低效。为了缓解这个问题，我们提出了一种名为结构主正交补阈值(Structured-POET)的方法，该方法可以合并全球和国家因子模型的结构信息。我们建立了Structured-POET估计的渐近性质，并证明了在使用低频数据时传统协方差矩阵估计程序的缺点。最后，我们应用Structured-POET估计器到一个使用国际股票市场数据的样本外组合配置研究中。
 
-    We study multi-unit auctions in which bidders have limited knowledge of opponent strategies and values. We characterize optimal prior-free bids; these bids minimize the maximal loss in expected utility resulting from uncertainty surrounding opponent behavior. Optimal bids are readily computable despite bidders having multi-dimensional private information, and in certain cases admit closed-form solutions. In the pay-as-bid auction the minimax-loss bid is unique; in the uniform-price auction the minimax-loss bid is unique if the bidder is allowed to determine the quantities for which they bid, as in many practical applications. We compare minimax-loss bids and auction outcomes across auction formats, and derive testable predictions.
+    In this paper, we develop a novel large volatility matrix estimation procedure for analyzing global financial markets. Practitioners often use lower-frequency data, such as weekly or monthly returns, to address the issue of different trading hours in the international financial market. However, this approach can lead to inefficiency due to information loss. To mitigate this problem, our proposed method, called Structured Principal Orthogonal complEment Thresholding (Structured-POET), incorporates structural information for both global and national factor models. We establish the asymptotic properties of the Structured-POET estimator, and also demonstrate the drawbacks of conventional covariance matrix estimation procedures when using lower-frequency data. Finally, we apply the Structured-POET estimator to an out-of-sample portfolio allocation study using international stock market data.
     
-[^13]: 设计角度下的合成控制方法研究
+[^7]: 社交网络中的合作与认知
 
-    A Design-Based Perspective on Synthetic Control Methods. (arXiv:2101.09398v3 [econ.EM] UPDATED)
+    Cooperation and Cognition in Social Networks. (arXiv:2305.01209v1 [econ.GN])
 
-    [http://arxiv.org/abs/2101.09398](http://arxiv.org/abs/2101.09398)
+    [http://arxiv.org/abs/2305.01209](http://arxiv.org/abs/2305.01209)
 
-    本文从设计角度研究了合成控制（SC）方法，提出了一个修改的无偏合成控制（MUSC）估计量，在随机分配下保证无偏，并且其均方根误差低于其他常见估计器。
+    本文研究了社交网络中的合作问题，并引入了低认知复杂度网络概念，实验证明均衡网络中LCC网络比非LCC网络合作性更高。
 
     
 
-    自从Abadie和Gardeazabal（2003）提出以来，合成控制（SC）方法已经迅速成为面板数据观测研究中估计因果效应的主要方法之一。正式的讨论通常通过假设潜在结果由一个因子模型生成来激励SC方法。本文从设计角度研究了SC方法，假设选取受试单元和周期的模型。我们表明，在随机分配下，标准的SC估计量通常是有偏的。我们提出了一个修改的无偏合成控制（MUSC）估计量，在随机分配下保证无偏，推导了它的确切、基于随机性的有限样本方差。我们还提出了一个这个方差的无偏估计量。我们在真实数据的设置中记录，随机分配下，SC类估计器的均方根误差可以大大降低，低于其他常见估计器。
+    社交网络可以通过关系损失的连锁反应来维持合作。本文基于Jackson等人(2012)的研究，引入了一个新的鲁棒性概念，来描述低认知复杂度（LCC）网络，即一种计算和理解受到最小认知负担的均衡网络子集，我们在实验室实验证明，相对于非均衡网络，均衡网络中的合作更高。在均衡网络中，LCC网络比非LCC网络更具合作性。学习对于均衡博弈的出现至关重要。
 
-    Since their introduction in Abadie and Gardeazabal (2003), Synthetic Control (SC) methods have quickly become one of the leading methods for estimating causal effects in observational studies in settings with panel data. Formal discussions often motivate SC methods by the assumption that the potential outcomes were generated by a factor model. Here we study SC methods from a design-based perspective, assuming a model for the selection of the treated unit(s) and period(s). We show that the standard SC estimator is generally biased under random assignment. We propose a Modified Unbiased Synthetic Control (MUSC) estimator that guarantees unbiasedness under random assignment and derive its exact, randomization-based, finite-sample variance. We also propose an unbiased estimator for this variance. We document in settings with real data that under random assignment, SC-type estimators can have root mean-squared errors that are substantially lower than that of other common estimators. We show
+    Social networks can sustain cooperation by amplifying the consequences of a single defection through a cascade of relationship losses. Building on Jackson et al. (2012), we introduce a novel robustness notion to characterize low cognitive complexity (LCC) networks - a subset of equilibrium networks that imposes a minimal cognitive burden to calculate and comprehend the consequences of defection. We test our theory in a laboratory experiment and find that cooperation is higher in equilibrium than in non-equilibrium networks. Within equilibrium networks, LCC networks exhibit higher levels of cooperation than non-LCC networks. Learning is essential for the emergence of equilibrium play.
+    
+[^8]: 使用混合深度学习方法估算区域投入产出表的输入系数
+
+    Estimating Input Coefficients for Regional Input-Output Tables Using Deep Learning with Mixup. (arXiv:2305.01201v1 [econ.EM])
+
+    [http://arxiv.org/abs/2305.01201](http://arxiv.org/abs/2305.01201)
+
+    本文提出使用混合深度学习方法来估算区域投入产出表的输入系数。结果表明，该方法可以比非调查方法更准确地估算输入系数。
+
+    
+
+    投入产出表是分析区域经济状况的重要数据。但是，日本每个地区的投入产出表并非总是公开的，需要进行估算。为了提高估算精度，本研究提出了一种利用人工神经网络逼近生成过程以估算输入系数的方法，并引入了数据增强技术mixup来增加数据量。该方法被应用于日本地区投入产出表的输入系数估算中，结果表明该方法可以比非调查方法更准确地估算输入系数。
+
+    An input-output table is an important data for analyzing the economic situation of a region. Generally, the input-output table for each region (regional input-output table) in Japan is not always publicly available, so it is necessary to estimate the table. In particular, various methods have been developed for estimating input coefficients, which are an important part of the input-output table. Currently, non-survey methods are often used to estimate input coefficients because they require less data and computation, but these methods have some problems, such as discarding information and requiring additional data for estimation.  In this study, the input coefficients are estimated by approximating the generation process with an artificial neural network (ANN) to mitigate the problems of the non-survey methods and to estimate the input coefficients with higher precision. To avoid over-fitting due to the small data used, data augmentation, called mixup, is introduced to increase the dat
+    
+[^9]: 使用比例代表制方法替代股票交易所中基于比例分配顺序的匹配算法的研究
+
+    On Using Proportional Representation Methods as Alternatives to Pro-Rata Based Order Matching Algorithms in Stock Exchanges. (arXiv:2303.09652v1 [econ.GN])
+
+    [http://arxiv.org/abs/2303.09652](http://arxiv.org/abs/2303.09652)
+
+    研究发现，选举制度中的比例代表方法可以替代股票交易所中的按比例分配顺序的匹配算法，提供更接近比例分配的订单分配。
+
+    
+
+    本短文的主要观察是，用于确定选举制度中比例代表的方法可以作为替代股票交易所中使用的按比例分配订单的匹配算法的选择。我们的模拟研究强有力地证明，杰斐逊/德汉特和韦伯斯特/圣拉格比例代表方法提供的订单分配比按比例分配算法获得的订单分配更接近比例分配。
+
+    The main observation of this short note is that methods for determining proportional representation in electoral systems may be suitable as alternatives to the pro-rata order matching algorithm used in stock exchanges. Our simulation studies provide strong evidence that the Jefferson/D'Hondt and the Webster/Saint-Lagu\"{e} proportional representation methods provide order allocations which are closer to proportionality than the order allocations obtained from the pro-rata algorithm.
+    
+[^10]: 应用动态因子模型进行宏观经济预测：以摩洛哥为例
+
+    Macroeconomic Forecasting using Dynamic Factor Models: The Case of Morocco. (arXiv:2302.14180v3 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2302.14180](http://arxiv.org/abs/2302.14180)
+
+    本文探讨了应用动态因子模型进行宏观经济预测的方法，重点介绍了因子扩展误差纠正模型（FECM）的优势，FECM将协整和动态因子模型的优势结合起来，能比传统计量经济模型更好地捕捉经济动态和提高预测准确性和鲁棒性，是在摩洛哥等类似经济体宏观经济预测中有价值的工具。
+
+    
+
+    本文讨论了在宏观经济预测中应用动态因子模型的方法，重点介绍了因子扩展误差纠正模型（FECM）。FECM将协整和动态因子模型的优势结合起来，为宏观经济预测提供了一种灵活可靠的方法，特别适合处理非平稳变量。本文在117个摩洛哥经济系列的大型数据集上评估了FECM模型的预测性能，研究表明FECM在预测准确性和鲁棒性方面优于传统计量经济模型。FECM在长期信息和共同因素的包括下，增强了其捕捉经济动态的能力，并导致比其他竞争模型更好的预测性能。我们的结果表明，FECM可以成为摩洛哥和其他类似经济体宏观经济预测中有价值的工具。
+
+    This article discusses the use of dynamic factor models in macroeconomic forecasting, with a focus on the Factor-Augmented Error Correction Model (FECM). The FECM combines the advantages of cointegration and dynamic factor models, providing a flexible and reliable approach to macroeconomic forecasting, especially for non-stationary variables. We evaluate the forecasting performance of the FECM model on a large dataset of 117 Moroccan economic series with quarterly frequency. Our study shows that FECM outperforms traditional econometric models in terms of forecasting accuracy and robustness. The inclusion of long-term information and common factors in FECM enhances its ability to capture economic dynamics and leads to better forecasting performance than other competing models. Our results suggest that FECM can be a valuable tool for macroeconomic forecasting in Morocco and other similar economies.
+    
+[^11]: 评估外汇储备的货币组成
+
+    Estimating the Currency Composition of Foreign Exchange Reserves. (arXiv:2206.13751v3 [q-fin.ST] UPDATED)
+
+    [http://arxiv.org/abs/2206.13751](http://arxiv.org/abs/2206.13751)
+
+    该论文提出了一种隐马尔可夫模型，用于评估央行外汇储备的货币组成。作者将该模型应用于中国和新加坡，发现中国的储备组成可能类似于全球平均水平，而新加坡可能持有更少的美元。
+
+    
+
+    央行管理着大约12万亿美元的外汇储备，影响全球汇率和资产价值。然而，一些最大的储备保有者报告的货币组合信息很少，阻碍了实证分析。本文提出了一种隐马尔可夫模型，通过将组合价值的波动与主要储备货币的汇率相关联，来估计央行的储备组成。我将该模型应用于中国和新加坡，这两个国家共持有约3.4万亿美元的储备并隐瞒其组成。我发现，中国的储备组成可能类似于全球平均水平，而新加坡可能持有更少的美元。
+
+    Central banks manage about \$12 trillion in foreign exchange reserves, influencing global exchange rates and asset prices. However, some of the largest holders of reserves report minimal information about their currency composition, hindering empirical analysis. I describe a Hidden Markov Model to estimate the composition of a central bank's reserves by relating the fluctuation in the portfolio's valuation to the exchange rates of major reserve currencies. I apply the model to China and Singapore, two countries that collectively hold about \$3.4 trillion in reserves and conceal their composition. I find that both China's reserve composition likely resembles the global average, while Singapore probably holds fewer US dollars.
+    
+[^12]: 大萧条时期的铁路纾困计划
+
+    Railroad Bailouts in the Great Depression. (arXiv:2205.13025v3 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2205.13025](http://arxiv.org/abs/2205.13025)
+
+    大萧条时期，美国政府通过向铁路公司提供贷款来减少债券违约的可能性和增加就业，然而这些纾困计划没有帮助铁路公司增加盈利或就业，而是减少了杠杆比率。纾困对股票价格几乎没有影响，但导致其债券价格上涨并降低了评级下调的可能性。同时，这些纾困计划也没有帮助铁路公司避免债务违约，但有利于一些附近的制造业公司。
+
+    
+
+    重建金融公司和公共工程管理局在1932年至1939年间向46家铁路公司发放了802多万美元的贷款，政府的目标是减少债券违约的可能性和增加就业。然而被纾困的铁路公司并没有增加盈利或就业，反而减少了杠杆比率。纾困铁路公司对其股票价格几乎没有影响，但导致其债券价格上涨并降低了评级下调的可能性。然而，纾困并没有帮助铁路公司避免债务违约。我们发现，一些位于铁路附近的制造业公司受益于这些纾困计划。
+
+    The Reconstruction Finance Corporation and Public Works Administration loaned 46 railroads over $802 million between 1932 and 1939. The government's goal was to decrease the likelihood of bond defaults and increase employment. Bailed-out railroads did not increase profitability or employment. Instead, they reduced leverage. Bailing out a railroad had little effect on its stock price, but it resulted in an increase in its bond prices and reduced the likelihood of a ratings downgrade. However, bailouts did not help railroads avoid defaulting on their debt. We find some evidence that manufacturing firms located close to railroads benefited from the bailouts.
     
 

@@ -1,0 +1,12 @@
+{
+    "title": "Estimating the Currency Composition of Foreign Exchange Reserves. (arXiv:2206.13751v3 [q-fin.ST] UPDATED)",
+    "abstract": "Central banks manage about \\$12 trillion in foreign exchange reserves, influencing global exchange rates and asset prices. However, some of the largest holders of reserves report minimal information about their currency composition, hindering empirical analysis. I describe a Hidden Markov Model to estimate the composition of a central bank's reserves by relating the fluctuation in the portfolio's valuation to the exchange rates of major reserve currencies. I apply the model to China and Singapore, two countries that collectively hold about \\$3.4 trillion in reserves and conceal their composition. I find that both China's reserve composition likely resembles the global average, while Singapore probably holds fewer US dollars.",
+    "link": "http://arxiv.org/abs/2206.13751",
+    "context": "Title: Estimating the Currency Composition of Foreign Exchange Reserves. (arXiv:2206.13751v3 [q-fin.ST] UPDATED)\nAbstract: Central banks manage about \\$12 trillion in foreign exchange reserves, influencing global exchange rates and asset prices. However, some of the largest holders of reserves report minimal information about their currency composition, hindering empirical analysis. I describe a Hidden Markov Model to estimate the composition of a central bank's reserves by relating the fluctuation in the portfolio's valuation to the exchange rates of major reserve currencies. I apply the model to China and Singapore, two countries that collectively hold about \\$3.4 trillion in reserves and conceal their composition. I find that both China's reserve composition likely resembles the global average, while Singapore probably holds fewer US dollars.",
+    "path": "papers/22/06/2206.13751.json",
+    "total_tokens": 756,
+    "translated_title": "评估外汇储备的货币组成",
+    "translated_abstract": "央行管理着大约12万亿美元的外汇储备，影响全球汇率和资产价值。然而，一些最大的储备保有者报告的货币组合信息很少，阻碍了实证分析。本文提出了一种隐马尔可夫模型，通过将组合价值的波动与主要储备货币的汇率相关联，来估计央行的储备组成。我将该模型应用于中国和新加坡，这两个国家共持有约3.4万亿美元的储备并隐瞒其组成。我发现，中国的储备组成可能类似于全球平均水平，而新加坡可能持有更少的美元。",
+    "tldr": "该论文提出了一种隐马尔可夫模型，用于评估央行外汇储备的货币组成。作者将该模型应用于中国和新加坡，发现中国的储备组成可能类似于全球平均水平，而新加坡可能持有更少的美元。",
+    "en_tdlr": "This paper proposes a Hidden Markov Model to estimate the currency composition of central bank reserves, and applies it to China and Singapore, finding that China's composition likely resembles the global average while Singapore probably holds fewer US dollars."
+}

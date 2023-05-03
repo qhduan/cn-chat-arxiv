@@ -1,0 +1,11 @@
+{
+    "title": "Technical Report of Mixing Local Patterns. (arXiv:2212.03654v2 [cs.LG] UPDATED)",
+    "abstract": "Graph neural networks (GNNs) have shown remarkable performance on homophilic graph data while being far less impressive when handling non-homophilic graph data due to the inherent low-pass filtering property of GNNs. In the face of analyzing complex real-world graphs with different homophily properties, the latent mixed local structural patterns in graphs should not be neglected. Therefore, the two questions, i.e., (\\textbf{Q1}) and (\\textbf{Q2}) as motioned above, should be well considered on the way to implementing a more generic GNN. For this purpose, we attempt to get deeper insights into them from two points, respectively, \\textbf{(A1): Randomness of local patterns}, and \\textbf{(A2): Aggregability of near-neighbors}.",
+    "link": "http://arxiv.org/abs/2212.03654",
+    "context": "Title: Technical Report of Mixing Local Patterns. (arXiv:2212.03654v2 [cs.LG] UPDATED)\nAbstract: Graph neural networks (GNNs) have shown remarkable performance on homophilic graph data while being far less impressive when handling non-homophilic graph data due to the inherent low-pass filtering property of GNNs. In the face of analyzing complex real-world graphs with different homophily properties, the latent mixed local structural patterns in graphs should not be neglected. Therefore, the two questions, i.e., (\\textbf{Q1}) and (\\textbf{Q2}) as motioned above, should be well considered on the way to implementing a more generic GNN. For this purpose, we attempt to get deeper insights into them from two points, respectively, \\textbf{(A1): Randomness of local patterns}, and \\textbf{(A2): Aggregability of near-neighbors}.",
+    "path": "papers/22/12/2212.03654.json",
+    "total_tokens": 820,
+    "translated_title": "混合局部模式技术报告",
+    "translated_abstract": "图神经网络（GNN）在同质图数据上表现出卓越的性能，但在处理非同质图数据时却远远不如同质图数据，这是由于GNN的固有低通滤波特性所致。在面对分析具有不同同质性属性的复杂现实世界图表时，不应忽略图中潜在的混合局部结构模式。因此，必须充分考虑上述两个问题，即（\\textbf{Q1}）和（\\textbf{Q2}），以实现更通用的GNN。为此，我们尝试从两个方面深入了解它们，分别是\\textbf{（A1）：局部模式的随机性}和\\textbf{（A2）：近邻可聚合性}。",
+    "tldr": "本文旨在解决GNN在处理非同质图数据时性能不佳的问题，提出混合局部结构模式的概念，并从局部模式的随机性和近邻可聚合性两个方面深入研究，以实现更通用的GNN。"
+}
