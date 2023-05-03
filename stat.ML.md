@@ -25,14 +25,15 @@
 | [^21] | [Conditional Feature Importance for Mixed Data.](http://arxiv.org/abs/2210.03047) | 本研究提出了一种针对混合数据的条件特征重要性框架，使用条件预测影响和顺序knockoff抽样结合，以解决很少讨论的条件和边缘度量之间的重要区别，并揭示出为测试条件FI，目前只有少数方法可用且过去从业者由于数据要求不匹配而受到严重限制。 |
 | [^22] | [A physics-based domain adaptation framework for modelling and forecasting building energy systems.](http://arxiv.org/abs/2208.09456) | 本文提出了一种基于物理学的领域自适应框架，将线性时不变状态空间模型与基于子空间的无监督降阶建模相结合，通过最小化模型在共享子空间中的表示差异，将在一个领域上训练过的模型适应到另一个领域，用于建筑能量系统的建模和预测，并在实验中表现出优异的预测性能。 |
 | [^23] | [Boosted Off-Policy Learning.](http://arxiv.org/abs/2208.01148) | 我们提出了一种基于Boosting的离线策略学习算法，将基础学习器简化为监督学习，获得了广泛的实际效益；实验结果表明其应用能力优于深度神经网络的离线策略学习和简单回归方法。 |
-| [^24] | [LogGENE: A smooth alternative to check loss for Deep Healthcare Inference Tasks.](http://arxiv.org/abs/2206.09333) | LogGENE采用分位数回归框架预测基因表达水平的完整条件分位数，从而为高通量基因组学提供了一种能提供解释和报告不确定性估计、鲁棒性强的推断方法。 |
-| [^25] | [Learning Physics between Digital Twins with Low-Fidelity Models and Physics-Informed Gaussian Processes.](http://arxiv.org/abs/2206.08201) | 本文提出了一种新方法，通过低保真模型和物理知识驱动高斯过程进行数字孪生之间的学习， 并开发了贝叶斯分层建模框架允许多个数字孪生之间共享信息。 |
-| [^26] | [Improving adversarial robustness by putting more regularizations on less robust samples.](http://arxiv.org/abs/2206.03353) | 本文提出了一种新的对抗训练算法，通过在容易受到对抗攻击的数据上施加更多正则化以提高对抗性鲁棒性，得到了在准确性和鲁棒性方面均为最优的表现。 |
-| [^27] | [Bayesian Model Selection, the Marginal Likelihood, and Generalization.](http://arxiv.org/abs/2202.11678) | 本文回顾和探讨了边缘似然在构造约束和假设测试方面的有用性，强调了使用边缘似然作为泛化的代理的问题，并展示了其如何与神经架构搜索相关，可能导致超参数学习中的欠拟合和过拟合。 |
-| [^28] | [CD-ROM: Complemented Deep-Reduced Order Model.](http://arxiv.org/abs/2202.10746) | 本文介绍了一种基于深度学习的闭合建模方法CD-ROM，用于经典的POD-Galerkin降阶模型，该方法可以显著提高降阶模型的准确性和稳定性。 |
-| [^29] | [Non-asymptotic estimates for TUSLA algorithm for non-convex learning with applications to neural networks with ReLU activation function.](http://arxiv.org/abs/2107.08649) | 本文研究了非凸随机优化问题，提出了TUSLA算法在Wasserstein-1和Wasserstein-2距离上的非渐进误差界限，进而推导了期望过量风险的非渐进估计值。在ReLU神经网络中，理论和数值实验表明TUSLA算法能够高效且精确地解决此类优化问题。 |
-| [^30] | [Word Embeddings: A Survey.](http://arxiv.org/abs/1901.09069) | 这篇综述介绍了一些主要的词向量构建策略，称为word embeddings，这些策略基于分布假设，编码了语法和语义信息，并被证明在很多NLP任务中是有用的额外特征。 |
-| [^31] | [Pairwise Covariates-adjusted Block Model for Community Detection.](http://arxiv.org/abs/1807.03469) | 基于SBM模型，双重协变量调整的PCABM模型添加了关于节点间关系的附加信息。SCWA算法对PCABM模型进行了高效求解。模拟实验和实际数据分析表明PCABM模型具有优异的性能和预测能力。 |
+| [^24] | [Neural Stein critics with staged $L^2$-regularization.](http://arxiv.org/abs/2207.03406) | 本论文研究了使用$L^2$正则化训练神经网络Stein评价器的方法，通过阶段性的权重调整训练过程，可以在高维统计测试中实现对未知概率分布与名义模型分布的区分。 |
+| [^25] | [LogGENE: A smooth alternative to check loss for Deep Healthcare Inference Tasks.](http://arxiv.org/abs/2206.09333) | LogGENE采用分位数回归框架预测基因表达水平的完整条件分位数，从而为高通量基因组学提供了一种能提供解释和报告不确定性估计、鲁棒性强的推断方法。 |
+| [^26] | [Learning Physics between Digital Twins with Low-Fidelity Models and Physics-Informed Gaussian Processes.](http://arxiv.org/abs/2206.08201) | 本文提出了一种新方法，通过低保真模型和物理知识驱动高斯过程进行数字孪生之间的学习， 并开发了贝叶斯分层建模框架允许多个数字孪生之间共享信息。 |
+| [^27] | [Improving adversarial robustness by putting more regularizations on less robust samples.](http://arxiv.org/abs/2206.03353) | 本文提出了一种新的对抗训练算法，通过在容易受到对抗攻击的数据上施加更多正则化以提高对抗性鲁棒性，得到了在准确性和鲁棒性方面均为最优的表现。 |
+| [^28] | [Bayesian Model Selection, the Marginal Likelihood, and Generalization.](http://arxiv.org/abs/2202.11678) | 本文回顾和探讨了边缘似然在构造约束和假设测试方面的有用性，强调了使用边缘似然作为泛化的代理的问题，并展示了其如何与神经架构搜索相关，可能导致超参数学习中的欠拟合和过拟合。 |
+| [^29] | [CD-ROM: Complemented Deep-Reduced Order Model.](http://arxiv.org/abs/2202.10746) | 本文介绍了一种基于深度学习的闭合建模方法CD-ROM，用于经典的POD-Galerkin降阶模型，该方法可以显著提高降阶模型的准确性和稳定性。 |
+| [^30] | [Non-asymptotic estimates for TUSLA algorithm for non-convex learning with applications to neural networks with ReLU activation function.](http://arxiv.org/abs/2107.08649) | 本文研究了非凸随机优化问题，提出了TUSLA算法在Wasserstein-1和Wasserstein-2距离上的非渐进误差界限，进而推导了期望过量风险的非渐进估计值。在ReLU神经网络中，理论和数值实验表明TUSLA算法能够高效且精确地解决此类优化问题。 |
+| [^31] | [Word Embeddings: A Survey.](http://arxiv.org/abs/1901.09069) | 这篇综述介绍了一些主要的词向量构建策略，称为word embeddings，这些策略基于分布假设，编码了语法和语义信息，并被证明在很多NLP任务中是有用的额外特征。 |
+| [^32] | [Pairwise Covariates-adjusted Block Model for Community Detection.](http://arxiv.org/abs/1807.03469) | 基于SBM模型，双重协变量调整的PCABM模型添加了关于节点间关系的附加信息。SCWA算法对PCABM模型进行了高效求解。模拟实验和实际数据分析表明PCABM模型具有优异的性能和预测能力。 |
 
 # 详细
 
@@ -358,7 +359,21 @@
 
     We propose the first boosting algorithm for off-policy learning from logged bandit feedback. Unlike existing boosting methods for supervised learning, our algorithm directly optimizes an estimate of the policy's expected reward. We analyze this algorithm and prove that the excess empirical risk decreases (possibly exponentially fast) with each round of boosting, provided a ''weak'' learning condition is satisfied by the base learner. We further show how to reduce the base learner to supervised learning, which opens up a broad range of readily available base learners with practical benefits, such as decision trees. Experiments indicate that our algorithm inherits many desirable properties of tree-based boosting algorithms (e.g., robustness to feature scaling and hyperparameter tuning), and that it can outperform off-policy learning with deep neural networks as well as methods that simply regress on the observed rewards.
     
-[^24]: LogGENE: 一种用于深度医疗推理任务的平滑检查损失替代方法
+[^24]: 采用阶段$L^2$正则化的神经Stein评价器
+
+    Neural Stein critics with staged $L^2$-regularization. (arXiv:2207.03406v3 [stat.ML] UPDATED)
+
+    [http://arxiv.org/abs/2207.03406](http://arxiv.org/abs/2207.03406)
+
+    本论文研究了使用$L^2$正则化训练神经网络Stein评价器的方法，通过阶段性的权重调整训练过程，可以在高维统计测试中实现对未知概率分布与名义模型分布的区分。
+
+    
+
+    学习区分模型分布和观测数据的分布是统计学和机器学习中的一个基本问题，高维数据对这些问题仍然是一个具有挑战性的场景。量化概率分布差异的度量，例如Stein差异，在高维统计测试中扮演着重要角色。本文研究了在训练神经网络Stein评价器时采用$L^2$正则化的作用，以区分从未知概率分布中采样的数据和名义模型分布。通过与神经切向核(NTK)理论的联系，我们开发了一种新的权重正则化的阶段过程，利用了在早期时期高度正则化训练的优势。从理论上证明，当$L^2$正则化权重较大时，训练动态的近似性质通过核优化即实现了懒惰(“lazy training”)的训练。
+
+    Learning to differentiate model distributions from observed data is a fundamental problem in statistics and machine learning, and high-dimensional data remains a challenging setting for such problems. Metrics that quantify the disparity in probability distributions, such as the Stein discrepancy, play an important role in high-dimensional statistical testing. In this paper, we investigate the role of $L^2$ regularization in training a neural network Stein critic so as to distinguish between data sampled from an unknown probability distribution and a nominal model distribution. Making a connection to the Neural Tangent Kernel (NTK) theory, we develop a novel staging procedure for the weight of regularization over training time, which leverages the advantages of highly-regularized training at early times. Theoretically, we prove the approximation of the training dynamic by the kernel optimization, namely the ``lazy training'', when the $L^2$ regularization weight is large, and training o
+    
+[^25]: LogGENE: 一种用于深度医疗推理任务的平滑检查损失替代方法
 
     LogGENE: A smooth alternative to check loss for Deep Healthcare Inference Tasks. (arXiv:2206.09333v2 [cs.LG] UPDATED)
 
@@ -372,7 +387,7 @@
 
     Mining large datasets and obtaining calibrated predictions from tem is of immediate relevance and utility in reliable deep learning. In our work, we develop methods for Deep neural networks based inferences in such datasets like the Gene Expression. However, unlike typical Deep learning methods, our inferential technique, while achieving state-of-the-art performance in terms of accuracy, can also provide explanations, and report uncertainty estimates. We adopt the Quantile Regression framework to predict full conditional quantiles for a given set of housekeeping gene expressions. Conditional quantiles, in addition to being useful in providing rich interpretations of the predictions, are also robust to measurement noise. Our technique is particularly consequential in High-throughput Genomics, an area which is ushering a new era in personalized health care, and targeted drug design and delivery. However, check loss, used in quantile regression to drive the estimation process is not diffe
     
-[^25]: 通过低保真模型和物理知识驱动高斯过程学习数字孪生之间的物理关系
+[^26]: 通过低保真模型和物理知识驱动高斯过程学习数字孪生之间的物理关系
 
     Learning Physics between Digital Twins with Low-Fidelity Models and Physics-Informed Gaussian Processes. (arXiv:2206.08201v2 [stat.ML] UPDATED)
 
@@ -386,7 +401,7 @@
 
     A digital twin is a computer model that represents an individual, for example, a component, a patient or a process. In many situations, we want to gain knowledge about an individual from its data while incorporating imperfect physical knowledge and also learn from data from other individuals. In this paper, we introduce a fully Bayesian methodology for learning between digital twins in a setting where the physical parameters of each individual are of interest. A model discrepancy term is incorporated in the model formulation of each personalized model to account for the missing physics of the low-fidelity model. To allow sharing of information between individuals, we introduce a Bayesian Hierarchical modelling framework where the individual models are connected through a new level in the hierarchy. Our methodology is demonstrated in two case studies, a toy example previously used in the literature extended to more individuals and a cardiovascular model relevant for the treatment of Hyp
     
-[^26]: 在不稳健样本上施加更多正则化以提高对抗性鲁棒性
+[^27]: 在不稳健样本上施加更多正则化以提高对抗性鲁棒性
 
     Improving adversarial robustness by putting more regularizations on less robust samples. (arXiv:2206.03353v2 [stat.ML] UPDATED)
 
@@ -400,7 +415,7 @@
 
     Adversarial training, which is to enhance robustness against adversarial attacks, has received much attention because it is easy to generate human-imperceptible perturbations of data to deceive a given deep neural network. In this paper, we propose a new adversarial training algorithm that is theoretically well motivated and empirically superior to other existing algorithms. A novel feature of the proposed algorithm is to apply more regularization to data vulnerable to adversarial attacks than other existing regularization algorithms do. Theoretically, we show that our algorithm can be understood as an algorithm of minimizing the regularized empirical risk motivated from a newly derived upper bound of the robust risk. Numerical experiments illustrate that our proposed algorithm improves the generalization (accuracy on examples) and robustness (accuracy on adversarial attacks) simultaneously to achieve the state-of-the-art performance.
     
-[^27]: 贝叶斯模型选择、边际似然和泛化
+[^28]: 贝叶斯模型选择、边际似然和泛化
 
     Bayesian Model Selection, the Marginal Likelihood, and Generalization. (arXiv:2202.11678v3 [cs.LG] UPDATED)
 
@@ -414,7 +429,7 @@
 
     How do we compare between hypotheses that are entirely consistent with observations? The marginal likelihood (aka Bayesian evidence), which represents the probability of generating our observations from a prior, provides a distinctive approach to this foundational question, automatically encoding Occam's razor. Although it has been observed that the marginal likelihood can overfit and is sensitive to prior assumptions, its limitations for hyperparameter learning and discrete model comparison have not been thoroughly investigated. We first revisit the appealing properties of the marginal likelihood for learning constraints and hypothesis testing. We then highlight the conceptual and practical issues in using the marginal likelihood as a proxy for generalization. Namely, we show how marginal likelihood can be negatively correlated with generalization, with implications for neural architecture search, and can lead to both underfitting and overfitting in hyperparameter learning. We also re
     
-[^28]: CD-ROM：补充深度减少阶模型
+[^29]: CD-ROM：补充深度减少阶模型
 
     CD-ROM: Complemented Deep-Reduced Order Model. (arXiv:2202.10746v4 [physics.flu-dyn] UPDATED)
 
@@ -428,7 +443,7 @@
 
     Model order reduction through the POD-Galerkin method can lead to dramatic gains in terms of computational efficiency in solving physical problems. However, the applicability of the method to non linear high-dimensional dynamical systems such as the Navier-Stokes equations has been shown to be limited, producing inaccurate and sometimes unstable models. This paper proposes a deep learning based closure modeling approach for classical POD-Galerkin reduced order models (ROM). The proposed approach is theoretically grounded, using neural networks to approximate well studied operators. In contrast with most previous works, the present CD-ROM approach is based on an interpretable continuous memory formulation, derived from simple hypotheses on the behavior of partially observed dynamical systems. The final corrected models can hence be simulated using most classical time stepping schemes. The capabilities of the CD-ROM approach are demonstrated on two classical examples from Computational F
     
-[^29]: 非凸学习中TUSLA算法的非渐进估计及其在ReLU神经网络中的应用
+[^30]: 非凸学习中TUSLA算法的非渐进估计及其在ReLU神经网络中的应用
 
     Non-asymptotic estimates for TUSLA algorithm for non-convex learning with applications to neural networks with ReLU activation function. (arXiv:2107.08649v2 [math.OC] UPDATED)
 
@@ -442,7 +457,7 @@
 
     We consider non-convex stochastic optimization problems where the objective functions have super-linearly growing and discontinuous stochastic gradients. In such a setting, we provide a non-asymptotic analysis for the tamed unadjusted stochastic Langevin algorithm (TUSLA) introduced in Lovas et al. (2020). In particular, we establish non-asymptotic error bounds for the TUSLA algorithm in Wasserstein-1 and Wasserstein-2 distances. The latter result enables us to further derive non-asymptotic estimates for the expected excess risk. To illustrate the applicability of the main results, we consider an example from transfer learning with ReLU neural networks, which represents a key paradigm in machine learning. Numerical experiments are presented for the aforementioned example which support our theoretical findings. Hence, in this setting, we demonstrate both theoretically and numerically that the TUSLA algorithm can solve the optimization problem involving neural networks with ReLU activati
     
-[^30]: 词向量：一项综述
+[^31]: 词向量：一项综述
 
     Word Embeddings: A Survey. (arXiv:1901.09069v2 [cs.CL] UPDATED)
 
@@ -456,7 +471,7 @@
 
     This work lists and describes the main recent strategies for building fixed-length, dense and distributed representations for words, based on the distributional hypothesis. These representations are now commonly called word embeddings and, in addition to encoding surprisingly good syntactic and semantic information, have been proven useful as extra features in many downstream NLP tasks.
     
-[^31]: 基于双重协变量调整的块模型用于社区检测
+[^32]: 基于双重协变量调整的块模型用于社区检测
 
     Pairwise Covariates-adjusted Block Model for Community Detection. (arXiv:1807.03469v4 [stat.ME] UPDATED)
 

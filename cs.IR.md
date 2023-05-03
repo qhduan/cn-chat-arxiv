@@ -17,11 +17,12 @@
 | [^13] | [Complex Logical Reasoning over Knowledge Graphs using Large Language Models.](http://arxiv.org/abs/2305.01157) | 本文提出了一种使用大型语言模型的解耦方法，将复杂的知识图谱推理形式化为上下文知识图搜索和抽象逻辑查询推理的组合，与现有方法相比，它在多个逻辑查询结构的标准基准数据集上都表现出更好的性能，并且在更高复杂性的查询中获得了显着的性能提升。 |
 | [^14] | [Ripple Knowledge Graph Convolutional Networks For Recommendation Systems.](http://arxiv.org/abs/2305.01147) | 本文介绍了一种基于知识图谱的深度学习模型RKGCN，它能够动态分析用户的偏好并推荐出合适的物品。该模型在包括电影、书籍和音乐在内的三个真实世界的数据集上比5个基准模型表现更好。 |
 | [^15] | [Multidimensional Fairness in Paper Recommendation.](http://arxiv.org/abs/2305.01141) | 本文提出了三种公平方法，考虑到作者多样性，以解决论文推荐中的潜在偏见，这些方法可以同时提供跨多个受保护变量的公正结果。 |
-| [^16] | [CHIC: Corporate Document for Visual question Answering.](http://arxiv.org/abs/2305.01054) | CHIC提供了一个公共企业文档问答数据库，以满足不同类型企业文件的需求。 |
-| [^17] | [LooPy: A Research-Friendly Mix Framework for Music Information Retrieval on Electronic Dance Music.](http://arxiv.org/abs/2305.01051) | LooPy是一种Python软件包，为MIR提供了一种面向电子舞曲的基础设施，可用于自动生成EDM音频，并提供了框架来构建专业级的模板，使用户可以从指定的旋律和和弦中呈现出制作精良的歌曲轨道或仅通过使用符号性的旋律生成器，提供具有多种风格的音轨。 |
-| [^18] | [RecD: Deduplication for End-to-End Deep Learning Recommendation Model Training Infrastructure.](http://arxiv.org/abs/2211.05239) | RecD 是一种为 DLRM 训练提供去重功能的端到端基础设施优化，解决了由于特征重复造成的海量存储、预处理和训练开销，引入了新的张量格式 InverseKeyedJaggedTensors (IKJTs) 来去除特征值的重复，使 DLRM 模型架构能够更好地利用数据的重复性提高训练吞吐量。 |
-| [^19] | [Graph Neural Networks for Link Prediction with Subgraph Sketching.](http://arxiv.org/abs/2209.15486) | 本研究提出了一种名为ELPH的全图GNN模型，它使用子图草图作为消息传递，以缓解LP任务中子图之间的冗余问题，并在多个基准数据集上取得了最先进的结果。 |
-| [^20] | [Boosted Off-Policy Learning.](http://arxiv.org/abs/2208.01148) | 我们提出了一种基于Boosting的离线策略学习算法，将基础学习器简化为监督学习，获得了广泛的实际效益；实验结果表明其应用能力优于深度神经网络的离线策略学习和简单回归方法。 |
+| [^16] | [Contextual Multilingual Spellchecker for User Queries.](http://arxiv.org/abs/2305.01082) | 本文提出了一个上下文多语种用户查询拼写检查器，它非常快速、可扩展，并根据特定产品的需求调整其词汇表和拼写输出，以满足用户的需求。 |
+| [^17] | [CHIC: Corporate Document for Visual question Answering.](http://arxiv.org/abs/2305.01054) | CHIC提供了一个公共企业文档问答数据库，以满足不同类型企业文件的需求。 |
+| [^18] | [LooPy: A Research-Friendly Mix Framework for Music Information Retrieval on Electronic Dance Music.](http://arxiv.org/abs/2305.01051) | LooPy是一种Python软件包，为MIR提供了一种面向电子舞曲的基础设施，可用于自动生成EDM音频，并提供了框架来构建专业级的模板，使用户可以从指定的旋律和和弦中呈现出制作精良的歌曲轨道或仅通过使用符号性的旋律生成器，提供具有多种风格的音轨。 |
+| [^19] | [RecD: Deduplication for End-to-End Deep Learning Recommendation Model Training Infrastructure.](http://arxiv.org/abs/2211.05239) | RecD 是一种为 DLRM 训练提供去重功能的端到端基础设施优化，解决了由于特征重复造成的海量存储、预处理和训练开销，引入了新的张量格式 InverseKeyedJaggedTensors (IKJTs) 来去除特征值的重复，使 DLRM 模型架构能够更好地利用数据的重复性提高训练吞吐量。 |
+| [^20] | [Graph Neural Networks for Link Prediction with Subgraph Sketching.](http://arxiv.org/abs/2209.15486) | 本研究提出了一种名为ELPH的全图GNN模型，它使用子图草图作为消息传递，以缓解LP任务中子图之间的冗余问题，并在多个基准数据集上取得了最先进的结果。 |
+| [^21] | [Boosted Off-Policy Learning.](http://arxiv.org/abs/2208.01148) | 我们提出了一种基于Boosting的离线策略学习算法，将基础学习器简化为监督学习，获得了广泛的实际效益；实验结果表明其应用能力优于深度神经网络的离线策略学习和简单回归方法。 |
 
 # 详细
 
@@ -235,7 +236,21 @@
 
     To prevent potential bias in the paper review and selection process for conferences and journals, most include double blind review. Despite this, studies show that bias still exists. Recommendation algorithms for paper review also may have implicit bias. We offer three fair methods that specifically take into account author diversity in paper recommendation to address this. Our methods provide fair outcomes across many protected variables concurrently, in contrast to typical fair algorithms that only use one protected variable. Five demographic characteristics-gender, ethnicity, career stage, university rank, and geolocation-are included in our multidimensional author profiles. The Overall Diversity approach uses a score for overall diversity to rank publications. The Round Robin Diversity technique chooses papers from authors who are members of each protected group in turn, whereas the Multifaceted Diversity method chooses papers that initially fill the demographic feature with the hi
     
-[^16]: CHIC: 企业文档可视化问答
+[^16]: 上下文多语种用户查询拼写检查器
+
+    Contextual Multilingual Spellchecker for User Queries. (arXiv:2305.01082v1 [cs.CL])
+
+    [http://arxiv.org/abs/2305.01082](http://arxiv.org/abs/2305.01082)
+
+    本文提出了一个上下文多语种用户查询拼写检查器，它非常快速、可扩展，并根据特定产品的需求调整其词汇表和拼写输出，以满足用户的需求。
+
+    
+
+    拼写检查是最基本和广泛使用的搜索功能之一。纠正拼写错误的用户查询不仅增强了用户体验，而且用户也期望能够实现。然而，大多数广泛可用的拼写检查解决方案要么比最新的解决方案精度低，要么速度太慢，无法用于延迟是关键要求的搜索用例。此外，大多数最新的创新架构集中在英语上，并且没有以多语言方式进行培训，并且是针对较长文本的拼写纠正进行培训，这是与对用户查询的拼写纠正不同的范式，其中上下文很少(大多数查询只有1-2个单词)。最后，由于大多数企业有独特的词汇，例如产品名称，现成的拼写解决方案无法满足用户的需求。在这项工作中，我们构建了一个多语言拼写检查器，它非常快速和可扩展，并根据特定产品的需求调整其词汇表和拼写输出。
+
+    Spellchecking is one of the most fundamental and widely used search features. Correcting incorrectly spelled user queries not only enhances the user experience but is expected by the user. However, most widely available spellchecking solutions are either lower accuracy than state-of-the-art solutions or too slow to be used for search use cases where latency is a key requirement. Furthermore, most innovative recent architectures focus on English and are not trained in a multilingual fashion and are trained for spell correction in longer text, which is a different paradigm from spell correction for user queries, where context is sparse (most queries are 1-2 words long). Finally, since most enterprises have unique vocabularies such as product names, off-the-shelf spelling solutions fall short of users' needs. In this work, we build a multilingual spellchecker that is extremely fast and scalable and that adapts its vocabulary and hence speller output based on a specific product's needs. Fu
+    
+[^17]: CHIC: 企业文档可视化问答
 
     CHIC: Corporate Document for Visual question Answering. (arXiv:2305.01054v1 [cs.DB])
 
@@ -249,7 +264,7 @@
 
     The massive use of digital documents due to the substantial trend of paperless initiatives confronted some companies to find ways to process thousands of documents per day automatically. To achieve this, they use automatic information retrieval (IR) allowing them to extract useful information from large datasets quickly. In order to have effective IR methods, it is first necessary to have an adequate dataset. Although companies have enough data to take into account their needs, there is also a need for a public database to compare contributions between state-of-the-art methods. Public data on the document exists as DocVQA[2] and XFUND [10], but these do not fully satisfy the needs of companies. XFUND contains only form documents while the company uses several types of documents (i.e. structured documents like forms but also semi-structured as invoices, and unstructured as emails). Compared to XFUND, DocVQA has several types of documents but only 4.5% of them are corporate documents (i.
     
-[^17]: LooPy: 一种针对电子舞曲的研究友好型混合框架的音乐信息检索
+[^18]: LooPy: 一种针对电子舞曲的研究友好型混合框架的音乐信息检索
 
     LooPy: A Research-Friendly Mix Framework for Music Information Retrieval on Electronic Dance Music. (arXiv:2305.01051v1 [cs.SD])
 
@@ -263,7 +278,7 @@
 
     Music information retrieval (MIR) has gone through an explosive development with the advancement of deep learning in recent years. However, music genres like electronic dance music (EDM) has always been relatively less investigated compared to others. Considering its wide range of applications, we present a Python package for automated EDM audio generation as an infrastructure for MIR for EDM songs, to mitigate the difficulty of acquiring labelled data. It is a convenient tool that could be easily concatenated to the end of many symbolic music generation pipelines. Inside this package, we provide a framework to build professional-level templates that could render a well-produced track from specified melody and chords, or produce massive tracks given only a specific key by our probabilistic symbolic melody generator. Experiments show that our mixes could achieve the same quality of the original reference songs produced by world-famous artists, with respect to both subjective and objecti
     
-[^18]: RecD：为端到端深度学习推荐模型训练基础设施提供去重功能
+[^19]: RecD：为端到端深度学习推荐模型训练基础设施提供去重功能
 
     RecD: Deduplication for End-to-End Deep Learning Recommendation Model Training Infrastructure. (arXiv:2211.05239v3 [cs.LG] UPDATED)
 
@@ -277,7 +292,7 @@
 
     We present RecD (Recommendation Deduplication), a suite of end-to-end infrastructure optimizations across the Deep Learning Recommendation Model (DLRM) training pipeline. RecD addresses immense storage, preprocessing, and training overheads caused by feature duplication inherent in industry-scale DLRM training datasets. Feature duplication arises because DLRM datasets are generated from interactions. While each user session can generate multiple training samples, many features' values do not change across these samples. We demonstrate how RecD exploits this property, end-to-end, across a deployed training pipeline. RecD optimizes data generation pipelines to decrease dataset storage and preprocessing resource demands and to maximize duplication within a training batch. RecD introduces a new tensor format, InverseKeyedJaggedTensors (IKJTs), to deduplicate feature values in each batch. We show how DLRM model architectures can leverage IKJTs to drastically increase training throughput. Re
     
-[^19]: 基于子图草图的图神经网络用于链路预测
+[^20]: 基于子图草图的图神经网络用于链路预测
 
     Graph Neural Networks for Link Prediction with Subgraph Sketching. (arXiv:2209.15486v3 [cs.LG] UPDATED)
 
@@ -291,7 +306,7 @@
 
     Many Graph Neural Networks (GNNs) perform poorly compared to simple heuristics on Link Prediction (LP) tasks. This is due to limitations in expressive power such as the inability to count triangles (the backbone of most LP heuristics) and because they can not distinguish automorphic nodes (those having identical structural roles). Both expressiveness issues can be alleviated by learning link (rather than node) representations and incorporating structural features such as triangle counts. Since explicit link representations are often prohibitively expensive, recent works resorted to subgraph-based methods, which have achieved state-of-the-art performance for LP, but suffer from poor efficiency due to high levels of redundancy between subgraphs. We analyze the components of subgraph GNN (SGNN) methods for link prediction. Based on our analysis, we propose a novel full-graph GNN called ELPH (Efficient Link Prediction with Hashing) that passes subgraph sketches as messages to approximate t
     
-[^20]: 基于Boosting的离线策略学习算法
+[^21]: 基于Boosting的离线策略学习算法
 
     Boosted Off-Policy Learning. (arXiv:2208.01148v2 [cs.LG] UPDATED)
 
