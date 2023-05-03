@@ -2,23 +2,38 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Non-refunding of VAT to soybean exporters or economic impact of Soybean amendments.](http://arxiv.org/abs/2305.01559) | 免除豆粕出口商的增值税导致经济损失4450-6050万美元，其中大豆种植户损失最大。 |
-| [^2] | [Carbon Emission Reduction Effect of RMB Appreciation: Empirical Evidence from 283 Prefecture-Level Cities of China.](http://arxiv.org/abs/2305.01558) | 本文实证证据表明，人民币升值可以通过多种途径来降低碳排放强度，特别是在东部地区、沿海地区、城市化水平高的地区和信息开放的地区。每升值1%碳排放强度平均降低0.463吨/万元。 |
-| [^3] | [NFT Wash Trading Detection.](http://arxiv.org/abs/2305.01543) | 该论文介绍了一种检测NFT洗钱交易的算法，帮助监测在NFT交易市场中的非法交易和欺诈行为，发现了不少洗钱交易，并揭示了其涉及的交易、钱包和代币数量，以及其带来的总利润。 |
-| [^4] | [Optimal control problems for stochastic processes with absorbing regime.](http://arxiv.org/abs/2305.01490) | 本文研究了具有吸收状态的随机过程的最优控制问题，并通过偏微分方程组得到了解，其中具有违约概率的Merton组合问题得到了显式解。 |
-| [^5] | [A Heat-Jarrow-Morton framework for energy markets: a pragmatic approach.](http://arxiv.org/abs/2305.01485) | 本文介绍了一种应用于能源市场的Heat-Jarrow-Morton框架，重点放在实践方面。作为应用，我们重点关注欧洲电力和天然气市场。 |
-| [^6] | [Agricultural Policy in Ukraine.](http://arxiv.org/abs/2305.01478) | 该论文分析和评估了苏联解体后至今乌克兰的农业政策制定，探讨了农业食品部门在国民经济以及全球粮食安全中的作用。 |
-| [^7] | [Cooperation and Cognition in Social Networks.](http://arxiv.org/abs/2305.01209) | 本文研究了社交网络中的合作问题，并引入了低认知复杂度网络概念，实验证明均衡网络中LCC网络比非LCC网络合作性更高。 |
-| [^8] | [Random neural networks for rough volatility.](http://arxiv.org/abs/2305.01035) | 本论文介绍了一种基于随机神经网络的深度学习数值算法，用于解决与粗波动相关的路径相关偏微分方程，并证明了该方法具有理论收敛性质。 |
-| [^9] | [On Using Proportional Representation Methods as Alternatives to Pro-Rata Based Order Matching Algorithms in Stock Exchanges.](http://arxiv.org/abs/2303.09652) | 研究发现，选举制度中的比例代表方法可以替代股票交易所中的按比例分配顺序的匹配算法，提供更接近比例分配的订单分配。 |
-| [^10] | [A Mean-Field Control Problem of Optimal Portfolio Liquidation with Semimartingale Strategies.](http://arxiv.org/abs/2207.00446) | 本文研究了具有半鞅策略的最优组合清算问题，证明了价值函数采用线性-二次形式，且最优策略仅在交易期的开始和结束时进行跳跃。 |
-| [^11] | [Estimating the Currency Composition of Foreign Exchange Reserves.](http://arxiv.org/abs/2206.13751) | 该论文提出了一种隐马尔可夫模型，用于评估央行外汇储备的货币组成。作者将该模型应用于中国和新加坡，发现中国的储备组成可能类似于全球平均水平，而新加坡可能持有更少的美元。 |
-| [^12] | [Railroad Bailouts in the Great Depression.](http://arxiv.org/abs/2205.13025) | 大萧条时期，美国政府通过向铁路公司提供贷款来减少债券违约的可能性和增加就业，然而这些纾困计划没有帮助铁路公司增加盈利或就业，而是减少了杠杆比率。纾困对股票价格几乎没有影响，但导致其债券价格上涨并降低了评级下调的可能性。同时，这些纾困计划也没有帮助铁路公司避免债务违约，但有利于一些附近的制造业公司。 |
-| [^13] | [A C\`adl\`ag Rough Path Foundation for Robust Finance.](http://arxiv.org/abs/2109.04225) | 本文利用粗路径理论为随机Ito积分提供了一种逐路径的基础，可以覆盖大多数金融市场模型，包括骑士不确定性。通过引入属性（RIE）来确保路径和二次变差的存在，并证明了相应的粗略积分存在于沿着合适的分区序列的左端点黎曼和的极限中。 |
+| [^1] | [Construct sparse portfolio with mutual fund's favourite stocks in China A share market.](http://arxiv.org/abs/2305.01642) | 该论文介绍了如何使用中国A股市场共同基金偏爱的股票，构建出稀疏投资组合以获取超额收益。 |
+| [^2] | [Non-refunding of VAT to soybean exporters or economic impact of Soybean amendments.](http://arxiv.org/abs/2305.01559) | 免除豆粕出口商的增值税导致经济损失4450-6050万美元，其中大豆种植户损失最大。 |
+| [^3] | [Carbon Emission Reduction Effect of RMB Appreciation: Empirical Evidence from 283 Prefecture-Level Cities of China.](http://arxiv.org/abs/2305.01558) | 本文实证证据表明，人民币升值可以通过多种途径来降低碳排放强度，特别是在东部地区、沿海地区、城市化水平高的地区和信息开放的地区。每升值1%碳排放强度平均降低0.463吨/万元。 |
+| [^4] | [NFT Wash Trading Detection.](http://arxiv.org/abs/2305.01543) | 该论文介绍了一种检测NFT洗钱交易的算法，帮助监测在NFT交易市场中的非法交易和欺诈行为，发现了不少洗钱交易，并揭示了其涉及的交易、钱包和代币数量，以及其带来的总利润。 |
+| [^5] | [Optimal control problems for stochastic processes with absorbing regime.](http://arxiv.org/abs/2305.01490) | 本文研究了具有吸收状态的随机过程的最优控制问题，并通过偏微分方程组得到了解，其中具有违约概率的Merton组合问题得到了显式解。 |
+| [^6] | [A Heat-Jarrow-Morton framework for energy markets: a pragmatic approach.](http://arxiv.org/abs/2305.01485) | 本文介绍了一种应用于能源市场的Heat-Jarrow-Morton框架，重点放在实践方面。作为应用，我们重点关注欧洲电力和天然气市场。 |
+| [^7] | [Agricultural Policy in Ukraine.](http://arxiv.org/abs/2305.01478) | 该论文分析和评估了苏联解体后至今乌克兰的农业政策制定，探讨了农业食品部门在国民经济以及全球粮食安全中的作用。 |
+| [^8] | [Cooperation and Cognition in Social Networks.](http://arxiv.org/abs/2305.01209) | 本文研究了社交网络中的合作问题，并引入了低认知复杂度网络概念，实验证明均衡网络中LCC网络比非LCC网络合作性更高。 |
+| [^9] | [Random neural networks for rough volatility.](http://arxiv.org/abs/2305.01035) | 本论文介绍了一种基于随机神经网络的深度学习数值算法，用于解决与粗波动相关的路径相关偏微分方程，并证明了该方法具有理论收敛性质。 |
+| [^10] | [On Using Proportional Representation Methods as Alternatives to Pro-Rata Based Order Matching Algorithms in Stock Exchanges.](http://arxiv.org/abs/2303.09652) | 研究发现，选举制度中的比例代表方法可以替代股票交易所中的按比例分配顺序的匹配算法，提供更接近比例分配的订单分配。 |
+| [^11] | [A Mean-Field Control Problem of Optimal Portfolio Liquidation with Semimartingale Strategies.](http://arxiv.org/abs/2207.00446) | 本文研究了具有半鞅策略的最优组合清算问题，证明了价值函数采用线性-二次形式，且最优策略仅在交易期的开始和结束时进行跳跃。 |
+| [^12] | [Estimating the Currency Composition of Foreign Exchange Reserves.](http://arxiv.org/abs/2206.13751) | 该论文提出了一种隐马尔可夫模型，用于评估央行外汇储备的货币组成。作者将该模型应用于中国和新加坡，发现中国的储备组成可能类似于全球平均水平，而新加坡可能持有更少的美元。 |
+| [^13] | [Railroad Bailouts in the Great Depression.](http://arxiv.org/abs/2205.13025) | 大萧条时期，美国政府通过向铁路公司提供贷款来减少债券违约的可能性和增加就业，然而这些纾困计划没有帮助铁路公司增加盈利或就业，而是减少了杠杆比率。纾困对股票价格几乎没有影响，但导致其债券价格上涨并降低了评级下调的可能性。同时，这些纾困计划也没有帮助铁路公司避免债务违约，但有利于一些附近的制造业公司。 |
+| [^14] | [A C\`adl\`ag Rough Path Foundation for Robust Finance.](http://arxiv.org/abs/2109.04225) | 本文利用粗路径理论为随机Ito积分提供了一种逐路径的基础，可以覆盖大多数金融市场模型，包括骑士不确定性。通过引入属性（RIE）来确保路径和二次变差的存在，并证明了相应的粗略积分存在于沿着合适的分区序列的左端点黎曼和的极限中。 |
 
 # 详细
 
-[^1]: 豆粕出口商增值税不退税或者豆粕修正案的经济影响
+[^1]: 在中国A股市场构建以基金偏爱股票为主的稀疏投资组合
+
+    Construct sparse portfolio with mutual fund's favourite stocks in China A share market. (arXiv:2305.01642v1 [q-fin.PM])
+
+    [http://arxiv.org/abs/2305.01642](http://arxiv.org/abs/2305.01642)
+
+    该论文介绍了如何使用中国A股市场共同基金偏爱的股票，构建出稀疏投资组合以获取超额收益。
+
+    
+
+    与发达市场不同，某些新兴市场由零售和非专业交易主导。过去20年中，中国A股市场是一个很好的典型。同时，许多研究表明，在中国A股市场中，专业投资者不断取得超过总市场指数的收益。具体而言，这种超额收益主要来自于股票选择能力而不是市场定时。然而，由于基金规模限制、基金经理变更或市场区域切换等原因，很难找到一个能够持续击败市场的基金。因此，为了从共同基金行业获得超额收益，我们使用量化的方法建立了以基金喜爱的股票为主的稀疏投资组合。首先，我们对共同基金喜爱的股票进行分析，并比较不同方法来构建我们的投资组合。然后，我们制定了一个具有约束的稀疏股票组合，其中包括个别股票和行业曝光的限制。
+
+    Unlike developed market, some emerging markets are dominated by retail and unprofessional trading. China A share market is a good and fitting example in last 20 years. Meanwhile, lots of research show professional investor in China A share market continuously generate excess return compare with total market index. Specifically, this excess return mostly come from stock selectivity ability instead of market timing. However for some reason such as fund capacity limit, fund manager change or market regional switch, it is very hard to find a fund could continuously beat market. Therefore, in order to get excess return from mutual fund industry, we use quantitative way to build the sparse portfolio that take advantage of favorite stocks by mutual fund in China A market. Firstly we do the analysis about favourite stocks by mutual fund and compare the different method to construct our portfolio. Then we build a sparse stock portfolio with constraint on both individual stock and industry expos
+    
+[^2]: 豆粕出口商增值税不退税或者豆粕修正案的经济影响
 
     Non-refunding of VAT to soybean exporters or economic impact of Soybean amendments. (arXiv:2305.01559v1 [econ.GN])
 
@@ -32,7 +47,7 @@
 
     Exempting soybean and rapeseed exporters from VAT has a negative effect on the economy of $\$$44.5-60.5 million per year. The implemented policy aimed to increase the processing of soybeans and rapeseed by Ukrainian plants. As a result, the processors received $\$$26 million and the state budget gained $\$$2-18 million. However, soybean farmers, mostly small and medium-sized, received $ 88.5 million in losses, far outweighing the benefits of processors and the state budget.
     
-[^2]: 人民币升值的碳减排效应：基于中国283个地级市的实证证据
+[^3]: 人民币升值的碳减排效应：基于中国283个地级市的实证证据
 
     Carbon Emission Reduction Effect of RMB Appreciation: Empirical Evidence from 283 Prefecture-Level Cities of China. (arXiv:2305.01558v1 [econ.GN])
 
@@ -46,7 +61,7 @@
 
     Based on the panel data of 283 prefecture-level cities in China from 2006 to 2019, this paper measures the extent and mechanism of the impact of RMB real effective exchange rate fluctuations on carbon emission intensity. The results show that: (1) For every 1% appreciation of the real effective exchange rate of RMB, the carbon emission intensity decreases by an average of 0.463 tons/10000 yuan; (2) The "carbon emission reduction effect" of RMB real effective exchange rate appreciation is more obvious in the eastern regions, coastal areas, regions with high urbanization levels, and areas with open information; (3) The appreciation of RMB real effective exchange rate can reduce carbon dioxide emission intensity by improving regional R&D and innovation ability, restraining foreign trade and foreign investment, promoting industrial structure optimization and upgrading, and improving income inequality.
     
-[^3]: NFT洗钱交易识别
+[^4]: NFT洗钱交易识别
 
     NFT Wash Trading Detection. (arXiv:2305.01543v1 [q-fin.GN])
 
@@ -60,7 +75,7 @@
 
     Wash trading is a form of market manipulation where the same entity sells an asset to themselves to drive up market prices, launder money under the cover of a legitimate transaction, or claim a tax loss without losing ownership of an asset. Although the practice is illegal with traditional assets, lack of supervision in the non-fungible token market enables criminals to wash trade and scam unsuspecting buyers while operating under regulators radar. AnChain.AI designed an algorithm that flags transactions within an NFT collection history as wash trades when a wallet repurchases a token within 30 days of previously selling it. The algorithm also identifies intermediate transactions within a wash trade cycle. Testing on 7 popular NFT collections reveals that on average, 0.14% of transactions, 0.11% of wallets, and 0.16% of tokens in each collection are involved in wash trading. These wash trades generate an overall total price manipulation, sales, and repurchase profit of \$900K, \$1.1M, 
     
-[^4]: 具有吸收状态的随机过程的最优控制问题
+[^5]: 具有吸收状态的随机过程的最优控制问题
 
     Optimal control problems for stochastic processes with absorbing regime. (arXiv:2305.01490v1 [math.OC])
 
@@ -74,7 +89,7 @@
 
     In this paper we formulate and solve an optimal problem for Stochastic process with a regime absorbing state. The solution for this problem is obtained through a system of partial differential equations. The method is applied to obtain an explicit solution for the Merton portfolio problem when an asset has a default probability in case of a log utility.
     
-[^5]: 一种应用于能源市场的Heat-Jarrow-Morton框架：实用方法
+[^6]: 一种应用于能源市场的Heat-Jarrow-Morton框架：实用方法
 
     A Heat-Jarrow-Morton framework for energy markets: a pragmatic approach. (arXiv:2305.01485v1 [q-fin.MF])
 
@@ -88,7 +103,7 @@
 
     In this article we discuss the application of the Heat-Jarrow-Morton framework Heath et al. [26] to energy markets. The goal of the article is to give a detailed overview of the topic, focusing on practical aspects rather than on theory, which has been widely studied in literature. This work aims to be a guide for practitioners and for all those who deal with the practical issues of this approach to energy market. In particular, we focus on the markets' structure, model calibration by dimension reduction with Principal Component Analysis (PCA), Monte Carlo simulations and derivatives pricing. As application, we focus on European power and gas markets: we calibrate the model on historical futures quotations, we perform futures and spot simulations and we analyze the results.
     
-[^6]: 乌克兰的农业政策
+[^7]: 乌克兰的农业政策
 
     Agricultural Policy in Ukraine. (arXiv:2305.01478v1 [econ.GN])
 
@@ -102,7 +117,7 @@
 
     Building upon the theory and methodology of agricultural policy developed in the previous chapter, in Chapter 2 we analyse and assess agricultural policy making in Ukraine since the breakup of Soviet Union till today. Going from top down to the bottom, we begin by describing the evolution of state policy in the agri-food sector. In the beginning, we describe the major milestones of agricultural policy making since independence, paving the way to the political economy of the modern agricultural policy in Ukraine. Then we describe the role of agri-food sector in the national economy as well as globally in ensuring food security in the world. After, we dig deeper and focus on a detailed performance of agricultural sector by looking at farm structures, their land use, overall and sector-wise untapped productivity potential. Modern agricultural policy and institutional set-up is contained and analyzed in details in the section 2.4. A review of the agricultural up- and downstream sectors wra
     
-[^7]: 社交网络中的合作与认知
+[^8]: 社交网络中的合作与认知
 
     Cooperation and Cognition in Social Networks. (arXiv:2305.01209v1 [econ.GN])
 
@@ -116,7 +131,7 @@
 
     Social networks can sustain cooperation by amplifying the consequences of a single defection through a cascade of relationship losses. Building on Jackson et al. (2012), we introduce a novel robustness notion to characterize low cognitive complexity (LCC) networks - a subset of equilibrium networks that imposes a minimal cognitive burden to calculate and comprehend the consequences of defection. We test our theory in a laboratory experiment and find that cooperation is higher in equilibrium than in non-equilibrium networks. Within equilibrium networks, LCC networks exhibit higher levels of cooperation than non-LCC networks. Learning is essential for the emergence of equilibrium play.
     
-[^8]: 用于粗波动的随机神经网络
+[^9]: 用于粗波动的随机神经网络
 
     Random neural networks for rough volatility. (arXiv:2305.01035v1 [q-fin.PR])
 
@@ -130,7 +145,7 @@
 
     We construct a deep learning-based numerical algorithm to solve path-dependent partial differential equations arising in the context of rough volatility. Our approach is based on interpreting the PDE as a solution to an SPDE, building upon recent insights by Bayer, Qiu and Yao, and on constructing a neural network of reservoir type as originally developed by Gonon, Grigoryeva, Ortega. The reservoir approach allows us to formulate the optimisation problem as a simple least-square regression for which we prove theoretical convergence properties.
     
-[^9]: 使用比例代表制方法替代股票交易所中基于比例分配顺序的匹配算法的研究
+[^10]: 使用比例代表制方法替代股票交易所中基于比例分配顺序的匹配算法的研究
 
     On Using Proportional Representation Methods as Alternatives to Pro-Rata Based Order Matching Algorithms in Stock Exchanges. (arXiv:2303.09652v1 [econ.GN])
 
@@ -144,7 +159,7 @@
 
     The main observation of this short note is that methods for determining proportional representation in electoral systems may be suitable as alternatives to the pro-rata order matching algorithm used in stock exchanges. Our simulation studies provide strong evidence that the Jefferson/D'Hondt and the Webster/Saint-Lagu\"{e} proportional representation methods provide order allocations which are closer to proportionality than the order allocations obtained from the pro-rata algorithm.
     
-[^10]: 具有半鞅策略的最优组合清算均值场控制问题
+[^11]: 具有半鞅策略的最优组合清算均值场控制问题
 
     A Mean-Field Control Problem of Optimal Portfolio Liquidation with Semimartingale Strategies. (arXiv:2207.00446v2 [q-fin.MF] UPDATED)
 
@@ -158,7 +173,7 @@
 
     We consider a mean-field control problem with c\`adl\`ag semimartingale strategies arising in portfolio liquidation models with transient market impact and self-exciting order flow. We show that the value function depends on the state process only through its law, and that it is of linear-quadratic form and that its coefficients satisfy a coupled system of non-standard Riccati-type equations. The Riccati equations are obtained heuristically by passing to the continuous-time limit from a sequence of discrete-time models. A sophisticated transformation shows that the system can be brought into standard Riccati form from which we deduce the existence of a global solution. Our analysis shows that the optimal strategy jumps only at the beginning and the end of the trading period.
     
-[^11]: 评估外汇储备的货币组成
+[^12]: 评估外汇储备的货币组成
 
     Estimating the Currency Composition of Foreign Exchange Reserves. (arXiv:2206.13751v3 [q-fin.ST] UPDATED)
 
@@ -172,7 +187,7 @@
 
     Central banks manage about \$12 trillion in foreign exchange reserves, influencing global exchange rates and asset prices. However, some of the largest holders of reserves report minimal information about their currency composition, hindering empirical analysis. I describe a Hidden Markov Model to estimate the composition of a central bank's reserves by relating the fluctuation in the portfolio's valuation to the exchange rates of major reserve currencies. I apply the model to China and Singapore, two countries that collectively hold about \$3.4 trillion in reserves and conceal their composition. I find that both China's reserve composition likely resembles the global average, while Singapore probably holds fewer US dollars.
     
-[^12]: 大萧条时期的铁路纾困计划
+[^13]: 大萧条时期的铁路纾困计划
 
     Railroad Bailouts in the Great Depression. (arXiv:2205.13025v3 [econ.GN] UPDATED)
 
@@ -186,7 +201,7 @@
 
     The Reconstruction Finance Corporation and Public Works Administration loaned 46 railroads over $802 million between 1932 and 1939. The government's goal was to decrease the likelihood of bond defaults and increase employment. Bailed-out railroads did not increase profitability or employment. Instead, they reduced leverage. Bailing out a railroad had little effect on its stock price, but it resulted in an increase in its bond prices and reduced the likelihood of a ratings downgrade. However, bailouts did not help railroads avoid defaulting on their debt. We find some evidence that manufacturing firms located close to railroads benefited from the bailouts.
     
-[^13]: 基于C\`adl\`ag粗路径理论的金融学基础
+[^14]: 基于C\`adl\`ag粗路径理论的金融学基础
 
     A C\`adl\`ag Rough Path Foundation for Robust Finance. (arXiv:2109.04225v3 [math.PR] UPDATED)
 
