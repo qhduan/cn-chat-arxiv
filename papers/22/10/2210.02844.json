@@ -1,0 +1,12 @@
+{
+    "title": "How Far Are We from Real Synonym Substitution Attacks?. (arXiv:2210.02844v2 [cs.CL] UPDATED)",
+    "abstract": "In this paper, we explore the following question: how far are we from real synonym substitution attacks (SSAs). We approach this question by examining how SSAs replace words in the original sentence and show that there are still unresolved obstacles that make current SSAs generate invalid adversarial samples. We reveal that four widely used word substitution methods generate a large fraction of invalid substitution words that are ungrammatical or do not preserve the original sentence's semantics. Next, we show that the semantic and grammatical constraints used in SSAs for detecting invalid word replacements are highly insufficient in detecting invalid adversarial samples. Our work is an important stepping stone to constructing better SSAs in the future.",
+    "link": "http://arxiv.org/abs/2210.02844",
+    "context": "Title: How Far Are We from Real Synonym Substitution Attacks?. (arXiv:2210.02844v2 [cs.CL] UPDATED)\nAbstract: In this paper, we explore the following question: how far are we from real synonym substitution attacks (SSAs). We approach this question by examining how SSAs replace words in the original sentence and show that there are still unresolved obstacles that make current SSAs generate invalid adversarial samples. We reveal that four widely used word substitution methods generate a large fraction of invalid substitution words that are ungrammatical or do not preserve the original sentence's semantics. Next, we show that the semantic and grammatical constraints used in SSAs for detecting invalid word replacements are highly insufficient in detecting invalid adversarial samples. Our work is an important stepping stone to constructing better SSAs in the future.",
+    "path": "papers/22/10/2210.02844.json",
+    "total_tokens": 734,
+    "translated_title": "离真正的同义词替换攻击还有多远？",
+    "translated_abstract": "本文探讨一个问题：我们距离真正的同义词替换攻击有多远？我们通过研究同义词替换攻击如何替换原始句子来探讨这个问题，并显示当前同义词替换攻击仍存在未解决的障碍使得生成的敌对样本是无效的。我们揭示了四种广泛使用的单词替换方法生成大量无效替换词，这些词是不合语法的或不符合原始句子的语义。接下来，我们展示了在检测无效敌对样本方面，SSA所使用的语义和语法约束是高度不足的。我们的工作是未来构建更好的SSA的重要基石。",
+    "tldr": "本文探讨同义词替换攻击的现状，发现当前方法存在无解决的障碍，生成的敌对样本效果不佳，需要在未来改进。",
+    "en_tdlr": "This paper explores the current state of synonym substitution attacks and finds unresolved obstacles that lead to ineffective adversarial samples. Improvements are necessary for better attacks in the future."
+}

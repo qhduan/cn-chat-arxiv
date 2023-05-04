@@ -1,0 +1,12 @@
+{
+    "title": "Natural language processing on customer note data. (arXiv:2305.02029v1 [cs.CL])",
+    "abstract": "Automatic analysis of customer data for businesses is an area that is of interest to companies. Business to business data is studied rarely in academia due to the sensitive nature of such information. Applying natural language processing can speed up the analysis of prohibitively large sets of data. This paper addresses this subject and applies sentiment analysis, topic modelling and keyword extraction to a B2B data set. We show that accurate sentiment can be extracted from the notes automatically and the notes can be sorted by relevance into different topics. We see that without clear separation topics can lack relevance to a business context.",
+    "link": "http://arxiv.org/abs/2305.02029",
+    "context": "Title: Natural language processing on customer note data. (arXiv:2305.02029v1 [cs.CL])\nAbstract: Automatic analysis of customer data for businesses is an area that is of interest to companies. Business to business data is studied rarely in academia due to the sensitive nature of such information. Applying natural language processing can speed up the analysis of prohibitively large sets of data. This paper addresses this subject and applies sentiment analysis, topic modelling and keyword extraction to a B2B data set. We show that accurate sentiment can be extracted from the notes automatically and the notes can be sorted by relevance into different topics. We see that without clear separation topics can lack relevance to a business context.",
+    "path": "papers/23/05/2305.02029.json",
+    "total_tokens": 647,
+    "translated_title": "客户备注数据的自然语言处理",
+    "translated_abstract": "自动分析客户数据对业务公司是一个有趣的领域。由于这些敏感信息的特殊性质，业务对业务数据很少被研究。应用自然语言处理可以加速分析大规模数据集的过程。本文将情感分析、主题建模和关键词提取应用于一份B2B数据集。我们展示了可以从备注中自动提取准确的情感信息，并将备注按照相关性分成不同的主题。我们发现在没有明确的主题分类的情况下，主题可能缺乏业务上的相关性。",
+    "tldr": "本文将情感分析、主题建模和关键词提取应用于客户的B2B数据集，展示了能够自动提取出正确情感信息并分成不同的主题。",
+    "en_tdlr": "This paper applies sentiment analysis, topic modeling, and keyword extraction to a B2B dataset and demonstrates the ability to automatically extract accurate sentiment information and categorize it into relevant topics."
+}

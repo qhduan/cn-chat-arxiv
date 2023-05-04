@@ -1,0 +1,12 @@
+{
+    "title": "Representation Learning via Manifold Flattening and Reconstruction. (arXiv:2305.01777v1 [cs.LG])",
+    "abstract": "This work proposes an algorithm for explicitly constructing a pair of neural networks that linearize and reconstruct an embedded submanifold, from finite samples of this manifold. Our such-generated neural networks, called flattening networks (FlatNet), are theoretically interpretable, computationally feasible at scale, and generalize well to test data, a balance not typically found in manifold-based learning methods. We present empirical results and comparisons to other models on synthetic high-dimensional manifold data and 2D image data. Our code is publicly available.",
+    "link": "http://arxiv.org/abs/2305.01777",
+    "context": "Title: Representation Learning via Manifold Flattening and Reconstruction. (arXiv:2305.01777v1 [cs.LG])\nAbstract: This work proposes an algorithm for explicitly constructing a pair of neural networks that linearize and reconstruct an embedded submanifold, from finite samples of this manifold. Our such-generated neural networks, called flattening networks (FlatNet), are theoretically interpretable, computationally feasible at scale, and generalize well to test data, a balance not typically found in manifold-based learning methods. We present empirical results and comparisons to other models on synthetic high-dimensional manifold data and 2D image data. Our code is publicly available.",
+    "path": "papers/23/05/2305.01777.json",
+    "total_tokens": 648,
+    "translated_title": "通过流形展平和重构进行表示学习",
+    "translated_abstract": "本文提出了一种算法，可以从流形的有限样本中显式构建一对神经网络，用于线性化和重构嵌入子流形。我们所生成的神经网络称为展平网络（FlatNet），在理论上具有可解释性，在计算上可扩展性强，并且在测试数据上具有良好的泛化性能，这种平衡通常在基于流形的学习方法中难以实现。我们基于合成的高维流形数据和2D图像数据进行了实证实验，并与其他模型进行了比较。我们的代码是公开的。",
+    "tldr": "本文提出了一种通过神经网络构建展平流形的算法FlatNet，具有可解释性和可扩展性，同时在测试数据上具有良好的泛化性能。",
+    "en_tdlr": "This paper proposes an algorithm called FlatNet for constructing a pair of neural networks that linearize and reconstruct an embedded submanifold, which has interpretability, scalability, and good generalization performance to test data."
+}

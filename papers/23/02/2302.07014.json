@@ -1,0 +1,12 @@
+{
+    "title": "A Data Mining Approach for Detecting Collusion in Unproctored Online Exams. (arXiv:2302.07014v2 [cs.CY] UPDATED)",
+    "abstract": "Due to the precautionary measures during the COVID-19 pandemic many universities offered unproctored take-home exams. We propose methods to detect potential collusion between students and apply our approach on event log data from take-home exams during the pandemic. We find groups of students with suspiciously similar exams. In addition, we compare our findings to a proctored control group. By this, we establish a rule of thumb for evaluating which cases are \"outstandingly similar\", i.e., suspicious cases.",
+    "link": "http://arxiv.org/abs/2302.07014",
+    "context": "Title: A Data Mining Approach for Detecting Collusion in Unproctored Online Exams. (arXiv:2302.07014v2 [cs.CY] UPDATED)\nAbstract: Due to the precautionary measures during the COVID-19 pandemic many universities offered unproctored take-home exams. We propose methods to detect potential collusion between students and apply our approach on event log data from take-home exams during the pandemic. We find groups of students with suspiciously similar exams. In addition, we compare our findings to a proctored control group. By this, we establish a rule of thumb for evaluating which cases are \"outstandingly similar\", i.e., suspicious cases.",
+    "path": "papers/23/02/2302.07014.json",
+    "total_tokens": 695,
+    "translated_title": "在网络考试中检测串通的数据挖掘方法",
+    "translated_abstract": "由于COVID-19疫情期间的预防性措施，许多大学提供了无监考的远程考试。我们提出了检测学生间可能的串通的方法，并将其应用于疫情期间远程考试的事件日志数据中。我们发现了一些有着明显相似考试的学生群体，同时将我们的发现与被监考控制组的结果进行了比较。基于这些，我们建立了一个评估“极其相似”的异常案例的经验规则。",
+    "tldr": "提出了一个在疫情期间检测学生是否串通作弊的数据挖掘方法，并通过对远程考试事件日志数据的分析发现了群体作弊行为或者异常，同时建立了一个评估异常案例的经验规则。",
+    "en_tdlr": "A data mining approach was proposed to detect collusion among students during unproctored online exams in response to COVID-19 precautions. The approach was applied on event log data from take-home exams during the pandemic, resulting in the discovery of groups of students with suspiciously similar exams. A rule of thumb was established for evaluating outstandingly similar, i.e. suspicious cases."
+}

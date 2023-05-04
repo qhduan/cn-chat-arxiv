@@ -1,0 +1,12 @@
+{
+    "title": "Construction of Decision Trees and Acyclic Decision Graphs from Decision Rule Systems. (arXiv:2305.01721v1 [cs.AI])",
+    "abstract": "Decision trees and systems of decision rules are widely used as classifiers, as a means for knowledge representation, and as algorithms. They are among the most interpretable models for data analysis. The study of the relationships between these two models can be seen as an important task of computer science. Methods for transforming decision trees into systems of decision rules are simple and well-known. In this paper, we consider the inverse transformation problem, which is not trivial. We study the complexity of constructing decision trees and acyclic decision graphs representing decision trees from decision rule systems, and we discuss the possibility of not building the entire decision tree, but describing the computation path in this tree for the given input.",
+    "link": "http://arxiv.org/abs/2305.01721",
+    "context": "Title: Construction of Decision Trees and Acyclic Decision Graphs from Decision Rule Systems. (arXiv:2305.01721v1 [cs.AI])\nAbstract: Decision trees and systems of decision rules are widely used as classifiers, as a means for knowledge representation, and as algorithms. They are among the most interpretable models for data analysis. The study of the relationships between these two models can be seen as an important task of computer science. Methods for transforming decision trees into systems of decision rules are simple and well-known. In this paper, we consider the inverse transformation problem, which is not trivial. We study the complexity of constructing decision trees and acyclic decision graphs representing decision trees from decision rule systems, and we discuss the possibility of not building the entire decision tree, but describing the computation path in this tree for the given input.",
+    "path": "papers/23/05/2305.01721.json",
+    "total_tokens": 692,
+    "translated_title": "从决策规则系统构建决策树和无环决策图",
+    "translated_abstract": "决策树和决策规则系统被广泛用作分类器、知识表示和运算法。它们是最易于解释的数据分析模型之一。研究这两种模型之间的关系可以看作是计算机科学的一个重要任务。该文研究了从决策规则系统构建决策树和无环决策图的复杂性，并讨论了在给定输入时不构建整个决策树，而是描述在该树中的计算路径的可能性。",
+    "tldr": "该论文探讨了从决策规则系统构建决策树和无环决策图的复杂性，并讨论了不必构建完整决策树而只需描述给定输入的计算路径的可能性。",
+    "en_tdlr": "This paper discusses the complexity of constructing decision trees and acyclic decision graphs from decision rule systems, and the possibility of describing the computation path in the tree for the given input without building the entire decision tree."
+}

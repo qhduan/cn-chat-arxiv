@@ -1,0 +1,12 @@
+{
+    "title": "Semi-Supervised Segmentation of Functional Tissue Units at the Cellular Level. (arXiv:2305.02148v1 [eess.IV])",
+    "abstract": "We present a new method for functional tissue unit segmentation at the cellular level, which utilizes the latest deep learning semantic segmentation approaches together with domain adaptation and semi-supervised learning techniques. This approach allows for minimizing the domain gap, class imbalance, and captures settings influence between HPA and HubMAP datasets. The presented approach achieves comparable with state-of-the-art-result in functional tissue unit segmentation at the cellular level. The source code is available at https://github.com/VSydorskyy/hubmap_2022_htt_solution",
+    "link": "http://arxiv.org/abs/2305.02148",
+    "context": "Title: Semi-Supervised Segmentation of Functional Tissue Units at the Cellular Level. (arXiv:2305.02148v1 [eess.IV])\nAbstract: We present a new method for functional tissue unit segmentation at the cellular level, which utilizes the latest deep learning semantic segmentation approaches together with domain adaptation and semi-supervised learning techniques. This approach allows for minimizing the domain gap, class imbalance, and captures settings influence between HPA and HubMAP datasets. The presented approach achieves comparable with state-of-the-art-result in functional tissue unit segmentation at the cellular level. The source code is available at https://github.com/VSydorskyy/hubmap_2022_htt_solution",
+    "path": "papers/23/05/2305.02148.json",
+    "total_tokens": 742,
+    "translated_title": "细胞水平的功能性组织单元半监督分割方法",
+    "translated_abstract": "我们提出了一种新的半监督学习技术与领域自适应的深度学习语义分割方法，用于细胞水平的功能性组织单元分割。该方法利用深度学习语义分割方法、领域自适应和半监督学习技术，可最小化HPA和HubMAP数据集之间的领域差异、类别不平衡和捕获设置影响。所提出的方法在功能性组织单元在细胞水平的分割方面，达到了与现有先进方法可比拟的结果。源代码可在 https://github.com/VSydorskyy/hubmap_2022_htt_solution 上获取。",
+    "tldr": "通过利用最新的深度学习语义分割、领域适配和半监督学习技术，该研究提出了一种半监督分割方法，可在细胞水平上对功能性组织单元进行分割，并取得了先进水平的结果。",
+    "en_tdlr": "A new semi-supervised segmentation method for functional tissue unit segmentation at the cellular level, utilizing deep learning semantic segmentation, domain adaptation, and semi-supervised learning techniques, achieves state-of-the-art results by minimizing domain gap and class imbalance."
+}

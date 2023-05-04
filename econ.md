@@ -2,187 +2,172 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Non-refunding of VAT to soybean exporters or economic impact of Soybean amendments.](http://arxiv.org/abs/2305.01559) | 免除豆粕出口商的增值税导致经济损失4450-6050万美元，其中大豆种植户损失最大。 |
-| [^2] | [Carbon Emission Reduction Effect of RMB Appreciation: Empirical Evidence from 283 Prefecture-Level Cities of China.](http://arxiv.org/abs/2305.01558) | 本文实证证据表明，人民币升值可以通过多种途径来降低碳排放强度，特别是在东部地区、沿海地区、城市化水平高的地区和信息开放的地区。每升值1%碳排放强度平均降低0.463吨/万元。 |
-| [^3] | [A More Informed Sender Benefits the Receiver When the Sender Has Transparent Motives.](http://arxiv.org/abs/2305.01512) | 当发送方具有透明动机时，更知情的发送方有利于接收方，无论接收者是否有能力保护自己的信息，接收者在最优均衡下的最大和最小收益都会随着发送者信息的改进而增加。 |
-| [^4] | [Agricultural Policy in Ukraine.](http://arxiv.org/abs/2305.01478) | 该论文分析和评估了苏联解体后至今乌克兰的农业政策制定，探讨了农业食品部门在国民经济以及全球粮食安全中的作用。 |
-| [^5] | [An Assignment Problem with Interdependent Valuations and Externalities.](http://arxiv.org/abs/2305.01477) | 对称信息买家的最优分配问题中，买家知道自己的估值和外部性成本，但不知道其他买家的相同信息，该论文提出了一种具有相互依赖估值和外部性的分配问题的两个阶段机制解决方案。 |
-| [^6] | [Large Global Volatility Matrix Analysis Based on Structural Information.](http://arxiv.org/abs/2305.01464) | 本文提出了一种名为Structured-POET的方法，它可以合并全球和国家因子模型的结构信息。该方法可以用于估计大波动矩阵，并应用于国际股票市场数据的样本外组合分配的研究。 |
-| [^7] | [Cooperation and Cognition in Social Networks.](http://arxiv.org/abs/2305.01209) | 本文研究了社交网络中的合作问题，并引入了低认知复杂度网络概念，实验证明均衡网络中LCC网络比非LCC网络合作性更高。 |
-| [^8] | [Estimating Input Coefficients for Regional Input-Output Tables Using Deep Learning with Mixup.](http://arxiv.org/abs/2305.01201) | 本文提出使用混合深度学习方法来估算区域投入产出表的输入系数。结果表明，该方法可以比非调查方法更准确地估算输入系数。 |
-| [^9] | [On Using Proportional Representation Methods as Alternatives to Pro-Rata Based Order Matching Algorithms in Stock Exchanges.](http://arxiv.org/abs/2303.09652) | 研究发现，选举制度中的比例代表方法可以替代股票交易所中的按比例分配顺序的匹配算法，提供更接近比例分配的订单分配。 |
-| [^10] | [Macroeconomic Forecasting using Dynamic Factor Models: The Case of Morocco.](http://arxiv.org/abs/2302.14180) | 本文探讨了应用动态因子模型进行宏观经济预测的方法，重点介绍了因子扩展误差纠正模型（FECM）的优势，FECM将协整和动态因子模型的优势结合起来，能比传统计量经济模型更好地捕捉经济动态和提高预测准确性和鲁棒性，是在摩洛哥等类似经济体宏观经济预测中有价值的工具。 |
-| [^11] | [Estimating the Currency Composition of Foreign Exchange Reserves.](http://arxiv.org/abs/2206.13751) | 该论文提出了一种隐马尔可夫模型，用于评估央行外汇储备的货币组成。作者将该模型应用于中国和新加坡，发现中国的储备组成可能类似于全球平均水平，而新加坡可能持有更少的美元。 |
-| [^12] | [Railroad Bailouts in the Great Depression.](http://arxiv.org/abs/2205.13025) | 大萧条时期，美国政府通过向铁路公司提供贷款来减少债券违约的可能性和增加就业，然而这些纾困计划没有帮助铁路公司增加盈利或就业，而是减少了杠杆比率。纾困对股票价格几乎没有影响，但导致其债券价格上涨并降低了评级下调的可能性。同时，这些纾困计划也没有帮助铁路公司避免债务违约，但有利于一些附近的制造业公司。 |
+| [^1] | [Macroeconomic factors and Stock exchange return: A Statistical Analysis.](http://arxiv.org/abs/2305.02229) | 本研究分析了达卡股票交易所股票价格与宏观经济变量之间的长期关系，结果表明消费价格指数、货币供应和汇率与股票回报密切相关，而市场资本化与股票回报呈负相关。 |
+| [^2] | [Doubly Robust Uniform Confidence Bands for Group-Time Conditional Average Treatment Effects in Difference-in-Differences.](http://arxiv.org/abs/2305.02185) | 本研究提出了一种双重稳健推断方法，该方法可用于构建在差分中的组时间条件平均处理效应函数的一致置信带。 |
+| [^3] | [A Mediation Analysis of the Relationship Between Land Use Regulation Stringency and Employment Dynamics.](http://arxiv.org/abs/2305.02159) | 本文研究了美国878个地方辖区在2010-2020年间土地利用管制严格程度对零售、专业和信息三个行业就业增长的影响，结果表明过度的土地利用管制严格程度使得住房成本负担增加，住房成本负担成为了阻碍就业增长的中介变量，信息行业的效应最为明显。 |
+| [^4] | [The Relationship between Consumption and Economic Growth of Chinese Urban and Rural Residents since Reform and Opening-up -- An Empirical Analysis Based on Econometrics Models.](http://arxiv.org/abs/2305.02138) | 本文分析改革开放以来中国城乡居民消费与经济增长的关系，得出城市消费和农村消费的增加可以促进经济增长并且城市消费更有利于经济增长的结论，提出相关政策建议。 |
+| [^5] | [Don't Trust, Verify: Towards a Framework for the Greening of Bitcoin.](http://arxiv.org/abs/2305.01815) | 随着比特币的发展，它面临着高碳排放的问题，而目前有很多可持续比特币会计系统，但缺乏一个统一标准认证标准。本文提出了一个可行的解决方案，并详细分析了不同系统的优缺点和挑战。 |
+| [^6] | [Identifying an Earnings Process With Dependent Contemporaneous Income Shocks.](http://arxiv.org/abs/2303.08460) | 本文提出了一种新的方法，用于识别具有任意相关同期收入冲击的盈利动态模型中的系数。 |
+| [^7] | [The Evolution Of Centralisation on Cryptocurrency Platforms.](http://arxiv.org/abs/2206.05081) | 本文研究了加密货币平台的中心化演化，使用复杂系统文献中广泛的方法对比了一系列区块链，质疑了当前加密货币是否真正去中心化。 |
+| [^8] | [MicroVelocity: rethinking the Velocity of Money for digital currencies.](http://arxiv.org/abs/2201.13416) | 本文提出了MicroVelocity框架来分析数字货币的货币流通速度，揭示了个体代理贡献的分布特点，记录了高速中介的出现，为数字货币的发展和分析提供政策洞见。 |
+| [^9] | [Incentives for Collective Innovation.](http://arxiv.org/abs/2109.01885) | 本论文研究了代理商在共享技术中的集体创新问题，发现允许代理商丢弃创新可以增加均衡努力和福利。 |
+| [^10] | [Flexible Covariate Adjustments in Regression Discontinuity Designs.](http://arxiv.org/abs/2107.07942) | 本研究提出了一种在回归不连续设计中更有效地利用协变量信息的估计器类，可以容纳大量的离散或连续协变量，并经由机器学习、非参数回归或经典参数方法来估计。通过对结果变量适当修改，这种估计器易于实现，可以选择类似于传统RD分析的调整参数。 |
+| [^11] | [Testing homogeneity in dynamic discrete games in finite samples.](http://arxiv.org/abs/2010.02297) | 本文提出了一个检验动态离散博弈中关键假定“同质性假设”的方法，该方法能通过随机化检验来验证该假设是否成立。 |
 
 # 详细
 
-[^1]: 豆粕出口商增值税不退税或者豆粕修正案的经济影响
+[^1]: 宏观经济因素与股票市场回报：一项统计分析
 
-    Non-refunding of VAT to soybean exporters or economic impact of Soybean amendments. (arXiv:2305.01559v1 [econ.GN])
+    Macroeconomic factors and Stock exchange return: A Statistical Analysis. (arXiv:2305.02229v1 [econ.GN])
 
-    [http://arxiv.org/abs/2305.01559](http://arxiv.org/abs/2305.01559)
+    [http://arxiv.org/abs/2305.02229](http://arxiv.org/abs/2305.02229)
 
-    免除豆粕出口商的增值税导致经济损失4450-6050万美元，其中大豆种植户损失最大。
-
-    
-
-    免除大豆和菜籽油出口商的增值税对经济造成负面影响，每年损失为4450-6050万美元。所实施的政策旨在增加乌克兰工厂对大豆和菜籽油的加工，因此加工商收到2600万美元，国家预算获得2-1800万美元。然而，大豆种植户，大多数为中小型，损失了8850万美元，远远超过加工商和国家预算的利益。
-
-    Exempting soybean and rapeseed exporters from VAT has a negative effect on the economy of $\$$44.5-60.5 million per year. The implemented policy aimed to increase the processing of soybeans and rapeseed by Ukrainian plants. As a result, the processors received $\$$26 million and the state budget gained $\$$2-18 million. However, soybean farmers, mostly small and medium-sized, received $ 88.5 million in losses, far outweighing the benefits of processors and the state budget.
-    
-[^2]: 人民币升值的碳减排效应：基于中国283个地级市的实证证据
-
-    Carbon Emission Reduction Effect of RMB Appreciation: Empirical Evidence from 283 Prefecture-Level Cities of China. (arXiv:2305.01558v1 [econ.GN])
-
-    [http://arxiv.org/abs/2305.01558](http://arxiv.org/abs/2305.01558)
-
-    本文实证证据表明，人民币升值可以通过多种途径来降低碳排放强度，特别是在东部地区、沿海地区、城市化水平高的地区和信息开放的地区。每升值1%碳排放强度平均降低0.463吨/万元。
+    本研究分析了达卡股票交易所股票价格与宏观经济变量之间的长期关系，结果表明消费价格指数、货币供应和汇率与股票回报密切相关，而市场资本化与股票回报呈负相关。
 
     
 
-    本文基于2006年至2019年中国283个地级市的面板数据，测量了人民币实际有效汇率波动对碳排放强度的影响程度和机制。研究发现：（1）人民币实际有效汇率每升值1%，碳排放强度平均降低0.463吨/万元；（2）人民币实际有效汇率“碳减排效应”在东部地区、沿海地区、城市化水平高的地区和信息开放的地区更为明显；（3）人民币实际有效汇率的升值可以通过促进区域研发和创新能力、抑制外贸和外资、促进产业结构优化升级和改善收入不平等等多种途径，减少二氧化碳排放强度。
+    本研究旨在研究达卡股票交易所指数回报与汇率、通货膨胀、货币供应等宏观经济变量之间的关系。通过使用约翰逊共整合检验、增广迪基-福勒（ADF）和菲利普·佩隆（PP）检验分析了宏观经济变量与股票市场回报之间的长期关系。结果表明，达卡股票交易所股票价格与宏观经济变量之间存在协整关系。消费价格指数、货币供应和汇率与股票回报密切相关，而市场资本化与股票回报呈负相关。研究结果表明，长期来看，达卡股票交易所对宏观经济指标具有反应能力。
 
-    Based on the panel data of 283 prefecture-level cities in China from 2006 to 2019, this paper measures the extent and mechanism of the impact of RMB real effective exchange rate fluctuations on carbon emission intensity. The results show that: (1) For every 1% appreciation of the real effective exchange rate of RMB, the carbon emission intensity decreases by an average of 0.463 tons/10000 yuan; (2) The "carbon emission reduction effect" of RMB real effective exchange rate appreciation is more obvious in the eastern regions, coastal areas, regions with high urbanization levels, and areas with open information; (3) The appreciation of RMB real effective exchange rate can reduce carbon dioxide emission intensity by improving regional R&D and innovation ability, restraining foreign trade and foreign investment, promoting industrial structure optimization and upgrading, and improving income inequality.
+    The purpose of this research is to examine the relationship between the Dhaka Stock exchange index return and macroeconomic variables such as exchange rate, inflation, money supply etc. The long-term relationship between macroeconomic variables and stock market returns has been analyzed by using the Johnson Cointegration test, Augmented Dicky Fuller (ADF) and Phillip Perron (PP) tests. The results revealed the existence of cointegrating relationship between stock prices and the macroeconomic variables in the Dhaka stock exchange. The consumer price index, money supply, and exchange rates proved to be strongly associated with stock returns, while market capitalization was found to be negatively associated with stock returns. The findings suggest that in the long run, the Dhaka stock exchange is reactive to macroeconomic indicators.
     
-[^3]: 当发送方透明动机时，更知情的发送方有利于接收方 (arXiv:2305.01512v1 [经济学.TH])
+[^2]: 双重稳健一致置信带在差分中的组时间条件平均处理效应中的应用
 
-    A More Informed Sender Benefits the Receiver When the Sender Has Transparent Motives. (arXiv:2305.01512v1 [econ.TH])
+    Doubly Robust Uniform Confidence Bands for Group-Time Conditional Average Treatment Effects in Difference-in-Differences. (arXiv:2305.02185v1 [econ.EM])
 
-    [http://arxiv.org/abs/2305.01512](http://arxiv.org/abs/2305.01512)
+    [http://arxiv.org/abs/2305.02185](http://arxiv.org/abs/2305.02185)
 
-    当发送方具有透明动机时，更知情的发送方有利于接收方，无论接收者是否有能力保护自己的信息，接收者在最优均衡下的最大和最小收益都会随着发送者信息的改进而增加。
-
-    
-
-    发送方具有状态无关偏好(即透明动机)，在向接收方发送信息之前私下观察世界状态的信号，接收者随后采取行动。无论接收者是否能够中介 - 并承诺对发送者的消息进行混淆 - 或者委派 - 承诺将消息作为决策规则进行随机决策 - 并理解“接收者由于发送者信息的改善而受益”这一陈述的意思是说, 无论在哪个最优均衡下接收方的最大和最小均衡收益都会（弱地）随着发送者信号的改进而增加（在Blackwell意义上），我们发现，如果发送方更加知情，则接收方更受益。
-
-    A sender with state-independent preferences (i.e., transparent motives) privately observes a signal about the state of the world before sending a message to a receiver, who subsequently takes an action. Regardless of whether the receiver can mediate--and commit to a garbling of the sender's message--or delegate--commit to a stochastic decision rule as a function of the message--and understanding the statement ``the receiver is better off as a result of an improvement of the sender's information'' to mean that her maximal and minimal equilibrium payoffs (weakly) increase as the sender's signal improves (in a Blackwell sense), we find that if the sender is more informed, the receiver is better off.
-    
-[^4]: 乌克兰的农业政策
-
-    Agricultural Policy in Ukraine. (arXiv:2305.01478v1 [econ.GN])
-
-    [http://arxiv.org/abs/2305.01478](http://arxiv.org/abs/2305.01478)
-
-    该论文分析和评估了苏联解体后至今乌克兰的农业政策制定，探讨了农业食品部门在国民经济以及全球粮食安全中的作用。
+    本研究提出了一种双重稳健推断方法，该方法可用于构建在差分中的组时间条件平均处理效应函数的一致置信带。
 
     
 
-    在基于上一章节发展起来的农业政策理论和方法的基础上，第2章我们分析和评估了苏联解体至今乌克兰的农业政策制定。从上至下，我们首先描述了农业政策在独立后的重要里程碑，铺平了现代农业政策的政治经济学道路。接着，我们描述了农业食品部门对国民经济以及全球粮食安全的作用。之后，我们深入挖掘，并通过研究农场结构、土地利用、整体和行业未开发的生产潜力来重点关注农业部门的详细绩效。现代农业政策和制度设置在第2.4节中被详细解析。涵盖农业上下游部门的审查以及总结。
+    本研究考虑了对面板数据进行分析，以研究在Callaway和Sant'Anna（2021）的错位差分设置中，针对感兴趣的预处理协变量的治疗效应异质性。在一组标准识别条件下，一个基于协变量的双重稳健估计值识别了给定协变量的组时间条件平均处理效应。鉴于这个识别结果，我们提出了一个基于非参数局部线性回归和参数估计方法的三步估计程序，并开发了一个双重稳健推断方法来构建组时间条件平均处理效应函数的一致置信带。
 
-    Building upon the theory and methodology of agricultural policy developed in the previous chapter, in Chapter 2 we analyse and assess agricultural policy making in Ukraine since the breakup of Soviet Union till today. Going from top down to the bottom, we begin by describing the evolution of state policy in the agri-food sector. In the beginning, we describe the major milestones of agricultural policy making since independence, paving the way to the political economy of the modern agricultural policy in Ukraine. Then we describe the role of agri-food sector in the national economy as well as globally in ensuring food security in the world. After, we dig deeper and focus on a detailed performance of agricultural sector by looking at farm structures, their land use, overall and sector-wise untapped productivity potential. Modern agricultural policy and institutional set-up is contained and analyzed in details in the section 2.4. A review of the agricultural up- and downstream sectors wra
+    This study considers a panel data analysis to examine the heterogeneity in treatment effects with respect to a pre-treatment covariate of interest in the staggered difference-in-differences setting in Callaway and Sant'Anna (2021). Under a set of standard identification conditions, a doubly robust estimand conditional on the covariate identifies the group-time conditional average treatment effect given the covariate. Given this identification result, we propose a three-step estimation procedure based on nonparametric local linear regressions and parametric estimation methods, and develop a doubly robust inference method to construct a uniform confidence band of the group-time conditional average treatment effect function.
     
-[^5]: 具有相互独立估值和外部性的分配问题
+[^3]: 土地利用管制严格程度与就业动态关系的中介分析
 
-    An Assignment Problem with Interdependent Valuations and Externalities. (arXiv:2305.01477v1 [econ.TH])
+    A Mediation Analysis of the Relationship Between Land Use Regulation Stringency and Employment Dynamics. (arXiv:2305.02159v1 [econ.GN])
 
-    [http://arxiv.org/abs/2305.01477](http://arxiv.org/abs/2305.01477)
+    [http://arxiv.org/abs/2305.02159](http://arxiv.org/abs/2305.02159)
 
-    对称信息买家的最优分配问题中，买家知道自己的估值和外部性成本，但不知道其他买家的相同信息，该论文提出了一种具有相互依赖估值和外部性的分配问题的两个阶段机制解决方案。
-
-    
-
-    本文采用机制设计方法，研究了对称信息买家的最优分配问题。此外，一个买家被分配给一个卖家所产生的剩余价值可能会受到由其他分配产生的外部性的不利影响。这个问题还受到几个因素的影响。买家知道自己的估值和外部性成本，但不知道其他买家的相同信息。买家还接收与状态相关的私人信号，因此实施问题表现出了相互依赖的估值。这阻止了对VCG机制的简单应用，为了克服这个相互依赖问题，我们构建了一个两阶段机制。在第一阶段，我们利用公司对状态的信号的相关性来诱导观察信号的真实报告。鉴于买家在阶段1中诚实，我们在阶段2中使用类似于VCG机制的机制，诱导估值和外部性函数的诚实报告。
-
-    In this paper, we take a mechanism design approach to optimal assignment problems with asymmetrically informed buyers. In addition, the surplus generated by an assignment of a buyer to a seller may be adversely affected by externalities generated by other assignments. The problem is complicated by several factors. Buyers know their own valuations and externality costs but do not know this same information for other buyers. Buyers also receive private signals correlated with the state and, consequently, the implementation problem exhibits interdependent valuations. This precludes a naive application of the VCG mechanism and to overcome this interdependency problem, we construct a two-stage mechanism. In the first stage, we exploit correlation in the firms signals about the state to induce truthful reporting of observed signals. Given that buyers are honest in stage 1, we then use a VCG-like mechanism in stage 2 that induces honest reporting of valuation and externality functions.
-    
-[^6]: 基于结构信息的大规模全局波动矩阵分析
-
-    Large Global Volatility Matrix Analysis Based on Structural Information. (arXiv:2305.01464v1 [econ.EM])
-
-    [http://arxiv.org/abs/2305.01464](http://arxiv.org/abs/2305.01464)
-
-    本文提出了一种名为Structured-POET的方法，它可以合并全球和国家因子模型的结构信息。该方法可以用于估计大波动矩阵，并应用于国际股票市场数据的样本外组合分配的研究。
+    本文研究了美国878个地方辖区在2010-2020年间土地利用管制严格程度对零售、专业和信息三个行业就业增长的影响，结果表明过度的土地利用管制严格程度使得住房成本负担增加，住房成本负担成为了阻碍就业增长的中介变量，信息行业的效应最为明显。
 
     
 
-    本文针对全球金融市场开发了一种新的大波动矩阵估计程序。实践证明，从每周或每月的回报等较低频的数据入手是解决国际金融市场交易时间差异问题的一种方法，但这种方法会由于信息损失导致低效。为了缓解这个问题，我们提出了一种名为结构主正交补阈值(Structured-POET)的方法，该方法可以合并全球和国家因子模型的结构信息。我们建立了Structured-POET估计的渐近性质，并证明了在使用低频数据时传统协方差矩阵估计程序的缺点。最后，我们应用Structured-POET估计器到一个使用国际股票市场数据的样本外组合配置研究中。
+    本文旨在研究美国878个地方辖区（2010-2020年）关于居住用途管制指数（WRLURI）严格程度对零售、专业和信息三个行业就业增长的影响。本文采用中介分析框架，研究土地利用管制严格程度对行业就业增长和专业化的直接影响和间接影响。分析结果表明，过度的土地利用管制严格程度与住房成本负担之间存在完全中介的关系，并且住房成本负担是中介变量，这阻碍了就业增长，信息行业的效应最为明显。
 
-    In this paper, we develop a novel large volatility matrix estimation procedure for analyzing global financial markets. Practitioners often use lower-frequency data, such as weekly or monthly returns, to address the issue of different trading hours in the international financial market. However, this approach can lead to inefficiency due to information loss. To mitigate this problem, our proposed method, called Structured Principal Orthogonal complEment Thresholding (Structured-POET), incorporates structural information for both global and national factor models. We establish the asymptotic properties of the Structured-POET estimator, and also demonstrate the drawbacks of conventional covariance matrix estimation procedures when using lower-frequency data. Finally, we apply the Structured-POET estimator to an out-of-sample portfolio allocation study using international stock market data.
+    The paper examines the effects of stringent land use regulations, measured using the Wharton Residential Land Use Regulatory Index (WRLURI), on employment growth during the period 2010-2020 in the Retail, Professional, and Information sectors across 878 local jurisdictions in the United States. All the local jurisdictions exist in both (2006 and 2018) waves of the WRLURI surveys and hence constitute a unique panel data. We apply a mediation analytical framework to decompose the direct and indirect effects of land use regulation stringency on sectoral employment growth and specialization. Our analysis suggests a fully mediated pattern in the relationship between excessive land use regulations and employment growth, with housing cost burden as the mediator. Specifically, a one standard deviation increase in the WRLURI index is associated with an approximate increase of 0.8 percentage point in the proportion of cost burdened renters. Relatedly, higher prevalence of cost-burdened renters h
     
-[^7]: 社交网络中的合作与认知
+[^4]: 改革开放以来中国城乡居民消费与经济增长的关系——基于计量经济学模型的实证分析
 
-    Cooperation and Cognition in Social Networks. (arXiv:2305.01209v1 [econ.GN])
+    The Relationship between Consumption and Economic Growth of Chinese Urban and Rural Residents since Reform and Opening-up -- An Empirical Analysis Based on Econometrics Models. (arXiv:2305.02138v1 [econ.GN])
 
-    [http://arxiv.org/abs/2305.01209](http://arxiv.org/abs/2305.01209)
+    [http://arxiv.org/abs/2305.02138](http://arxiv.org/abs/2305.02138)
 
-    本文研究了社交网络中的合作问题，并引入了低认知复杂度网络概念，实验证明均衡网络中LCC网络比非LCC网络合作性更高。
-
-    
-
-    社交网络可以通过关系损失的连锁反应来维持合作。本文基于Jackson等人(2012)的研究，引入了一个新的鲁棒性概念，来描述低认知复杂度（LCC）网络，即一种计算和理解受到最小认知负担的均衡网络子集，我们在实验室实验证明，相对于非均衡网络，均衡网络中的合作更高。在均衡网络中，LCC网络比非LCC网络更具合作性。学习对于均衡博弈的出现至关重要。
-
-    Social networks can sustain cooperation by amplifying the consequences of a single defection through a cascade of relationship losses. Building on Jackson et al. (2012), we introduce a novel robustness notion to characterize low cognitive complexity (LCC) networks - a subset of equilibrium networks that imposes a minimal cognitive burden to calculate and comprehend the consequences of defection. We test our theory in a laboratory experiment and find that cooperation is higher in equilibrium than in non-equilibrium networks. Within equilibrium networks, LCC networks exhibit higher levels of cooperation than non-LCC networks. Learning is essential for the emergence of equilibrium play.
-    
-[^8]: 使用混合深度学习方法估算区域投入产出表的输入系数
-
-    Estimating Input Coefficients for Regional Input-Output Tables Using Deep Learning with Mixup. (arXiv:2305.01201v1 [econ.EM])
-
-    [http://arxiv.org/abs/2305.01201](http://arxiv.org/abs/2305.01201)
-
-    本文提出使用混合深度学习方法来估算区域投入产出表的输入系数。结果表明，该方法可以比非调查方法更准确地估算输入系数。
+    本文分析改革开放以来中国城乡居民消费与经济增长的关系，得出城市消费和农村消费的增加可以促进经济增长并且城市消费更有利于经济增长的结论，提出相关政策建议。
 
     
 
-    投入产出表是分析区域经济状况的重要数据。但是，日本每个地区的投入产出表并非总是公开的，需要进行估算。为了提高估算精度，本研究提出了一种利用人工神经网络逼近生成过程以估算输入系数的方法，并引入了数据增强技术mixup来增加数据量。该方法被应用于日本地区投入产出表的输入系数估算中，结果表明该方法可以比非调查方法更准确地估算输入系数。
+    改革开放四十年来，中国在经济领域取得了显著的成就，而其中消费活动，包括家庭消费在内，发挥了重要作用。消费活动是经济活动的终点，因为其他经济活动的最终目的是满足消费需求；消费活动是经济活动的起点，因为消费可以推动经济和社会发展。本文选择了改革开放以来40多年的经济数据，建立了向量自回归（VAR）模型和向量误差纠正（VEC）模型，分析了城乡居民消费水平和总消费对经济增长的影响。结论是城市消费和农村消费的增加可以导致GDP的增长，在长期内，城市消费可以比农村消费更能促进经济增长。据此，我们分析了原因并提出了相关政策建议。
 
-    An input-output table is an important data for analyzing the economic situation of a region. Generally, the input-output table for each region (regional input-output table) in Japan is not always publicly available, so it is necessary to estimate the table. In particular, various methods have been developed for estimating input coefficients, which are an important part of the input-output table. Currently, non-survey methods are often used to estimate input coefficients because they require less data and computation, but these methods have some problems, such as discarding information and requiring additional data for estimation.  In this study, the input coefficients are estimated by approximating the generation process with an artificial neural network (ANN) to mitigate the problems of the non-survey methods and to estimate the input coefficients with higher precision. To avoid over-fitting due to the small data used, data augmentation, called mixup, is introduced to increase the dat
+    Since Reform and Opening-up 40 years ago, China has made remarkable achievements in economic fields. And consumption activities, including household consumption, have played an important role in it. Consumer activity is the end of economic activity, because the ultimate aim of other economic activities is to meet consumer demand; consumer activity is the starting point of economic activity, because consumption can drive economic and social development. This paper selects the economic data of more than 40 years since Reform and Opening-up, and establishes the Vector Autoregressive (VAR) model and Vector Error Correction (VEC) model, analyzing the influence of consumption level and total consumption of urban and rural residents on economic growth. The conclusion is that the increase of urban consumption and rural consumption can lead to the increase of GDP, and in the long run, urban consumption can promote economic growth more than rural consumption. According to this conclusion, we ana
     
-[^9]: 使用比例代表制方法替代股票交易所中基于比例分配顺序的匹配算法的研究
+[^5]: 不要信任，要验证：迈向比特币绿色化框架
 
-    On Using Proportional Representation Methods as Alternatives to Pro-Rata Based Order Matching Algorithms in Stock Exchanges. (arXiv:2303.09652v1 [econ.GN])
+    Don't Trust, Verify: Towards a Framework for the Greening of Bitcoin. (arXiv:2305.01815v1 [econ.GN])
 
-    [http://arxiv.org/abs/2303.09652](http://arxiv.org/abs/2303.09652)
+    [http://arxiv.org/abs/2305.01815](http://arxiv.org/abs/2305.01815)
 
-    研究发现，选举制度中的比例代表方法可以替代股票交易所中的按比例分配顺序的匹配算法，提供更接近比例分配的订单分配。
-
-    
-
-    本短文的主要观察是，用于确定选举制度中比例代表的方法可以作为替代股票交易所中使用的按比例分配订单的匹配算法的选择。我们的模拟研究强有力地证明，杰斐逊/德汉特和韦伯斯特/圣拉格比例代表方法提供的订单分配比按比例分配算法获得的订单分配更接近比例分配。
-
-    The main observation of this short note is that methods for determining proportional representation in electoral systems may be suitable as alternatives to the pro-rata order matching algorithm used in stock exchanges. Our simulation studies provide strong evidence that the Jefferson/D'Hondt and the Webster/Saint-Lagu\"{e} proportional representation methods provide order allocations which are closer to proportionality than the order allocations obtained from the pro-rata algorithm.
-    
-[^10]: 应用动态因子模型进行宏观经济预测：以摩洛哥为例
-
-    Macroeconomic Forecasting using Dynamic Factor Models: The Case of Morocco. (arXiv:2302.14180v3 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2302.14180](http://arxiv.org/abs/2302.14180)
-
-    本文探讨了应用动态因子模型进行宏观经济预测的方法，重点介绍了因子扩展误差纠正模型（FECM）的优势，FECM将协整和动态因子模型的优势结合起来，能比传统计量经济模型更好地捕捉经济动态和提高预测准确性和鲁棒性，是在摩洛哥等类似经济体宏观经济预测中有价值的工具。
+    随着比特币的发展，它面临着高碳排放的问题，而目前有很多可持续比特币会计系统，但缺乏一个统一标准认证标准。本文提出了一个可行的解决方案，并详细分析了不同系统的优缺点和挑战。
 
     
 
-    本文讨论了在宏观经济预测中应用动态因子模型的方法，重点介绍了因子扩展误差纠正模型（FECM）。FECM将协整和动态因子模型的优势结合起来，为宏观经济预测提供了一种灵活可靠的方法，特别适合处理非平稳变量。本文在117个摩洛哥经济系列的大型数据集上评估了FECM模型的预测性能，研究表明FECM在预测准确性和鲁棒性方面优于传统计量经济模型。FECM在长期信息和共同因素的包括下，增强了其捕捉经济动态的能力，并导致比其他竞争模型更好的预测性能。我们的结果表明，FECM可以成为摩洛哥和其他类似经济体宏观经济预测中有价值的工具。
+    在过去的十多年中，比特币既得到了越来越多的认可，也受到了很多批评。基本上，比特币因其高能耗的工作量证明（PoW）共识算法所导致的高碳排放量而备受争议。然而，有一个趋势是，比特币挖掘正朝着实现碳负担的方向发展，这主要是由于采用了基于甲烷的挖掘和支持可变可再生能源（VRE）发电的挖掘灵活负荷响应（FLR）。矿工和电力销售商不仅可以利用过剩能源来增加他们的盈利能力，还可以向那些有兴趣绿化自己投资组合的买家出售绿色代币。然而，一个合适的“绿色比特币”会计系统需要一个可持续比特币持有的认证标准框架。建立这样的框架的正确方法仍有争议。本文调查了不同的可持续比特币会计系统，分析了它们的优缺点及其挑战。
 
-    This article discusses the use of dynamic factor models in macroeconomic forecasting, with a focus on the Factor-Augmented Error Correction Model (FECM). The FECM combines the advantages of cointegration and dynamic factor models, providing a flexible and reliable approach to macroeconomic forecasting, especially for non-stationary variables. We evaluate the forecasting performance of the FECM model on a large dataset of 117 Moroccan economic series with quarterly frequency. Our study shows that FECM outperforms traditional econometric models in terms of forecasting accuracy and robustness. The inclusion of long-term information and common factors in FECM enhances its ability to capture economic dynamics and leads to better forecasting performance than other competing models. Our results suggest that FECM can be a valuable tool for macroeconomic forecasting in Morocco and other similar economies.
+    For more than a decade, Bitcoin has gained as much adoption as it has received criticism. Fundamentally, Bitcoin is under fire for the high carbon footprint that results from the energy-intensive proof-of-work (PoW) consensus algorithm. There is a trend however for Bitcoin mining to adopt a trajectory toward achieving carbon-negative status, notably due to the adoption of methane-based mining and mining-based flexible load response (FLR) to complement variable renewable energy (VRE) generation. Miners and electricity sellers may increase their profitability not only by taking advantage of excess energy, but also by selling green tokens to buyers interested in greening their portfolios. Nevertheless, a proper ''green Bitcoin'' accounting system requires a standard framework for the accreditation of sustainable bitcoin holdings. The proper way to build such a framework remains contested. In this paper, we survey the different sustainable Bitcoin accounting systems. Analyzing the various 
     
-[^11]: 评估外汇储备的货币组成
+[^6]: 识别具有相关同期收入冲击的盈利过程
 
-    Estimating the Currency Composition of Foreign Exchange Reserves. (arXiv:2206.13751v3 [q-fin.ST] UPDATED)
+    Identifying an Earnings Process With Dependent Contemporaneous Income Shocks. (arXiv:2303.08460v1 [econ.EM])
 
-    [http://arxiv.org/abs/2206.13751](http://arxiv.org/abs/2206.13751)
+    [http://arxiv.org/abs/2303.08460](http://arxiv.org/abs/2303.08460)
 
-    该论文提出了一种隐马尔可夫模型，用于评估央行外汇储备的货币组成。作者将该模型应用于中国和新加坡，发现中国的储备组成可能类似于全球平均水平，而新加坡可能持有更少的美元。
-
-    
-
-    央行管理着大约12万亿美元的外汇储备，影响全球汇率和资产价值。然而，一些最大的储备保有者报告的货币组合信息很少，阻碍了实证分析。本文提出了一种隐马尔可夫模型，通过将组合价值的波动与主要储备货币的汇率相关联，来估计央行的储备组成。我将该模型应用于中国和新加坡，这两个国家共持有约3.4万亿美元的储备并隐瞒其组成。我发现，中国的储备组成可能类似于全球平均水平，而新加坡可能持有更少的美元。
-
-    Central banks manage about \$12 trillion in foreign exchange reserves, influencing global exchange rates and asset prices. However, some of the largest holders of reserves report minimal information about their currency composition, hindering empirical analysis. I describe a Hidden Markov Model to estimate the composition of a central bank's reserves by relating the fluctuation in the portfolio's valuation to the exchange rates of major reserve currencies. I apply the model to China and Singapore, two countries that collectively hold about \$3.4 trillion in reserves and conceal their composition. I find that both China's reserve composition likely resembles the global average, while Singapore probably holds fewer US dollars.
-    
-[^12]: 大萧条时期的铁路纾困计划
-
-    Railroad Bailouts in the Great Depression. (arXiv:2205.13025v3 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2205.13025](http://arxiv.org/abs/2205.13025)
-
-    大萧条时期，美国政府通过向铁路公司提供贷款来减少债券违约的可能性和增加就业，然而这些纾困计划没有帮助铁路公司增加盈利或就业，而是减少了杠杆比率。纾困对股票价格几乎没有影响，但导致其债券价格上涨并降低了评级下调的可能性。同时，这些纾困计划也没有帮助铁路公司避免债务违约，但有利于一些附近的制造业公司。
+    本文提出了一种新的方法，用于识别具有任意相关同期收入冲击的盈利动态模型中的系数。
 
     
 
-    重建金融公司和公共工程管理局在1932年至1939年间向46家铁路公司发放了802多万美元的贷款，政府的目标是减少债券违约的可能性和增加就业。然而被纾困的铁路公司并没有增加盈利或就业，反而减少了杠杆比率。纾困铁路公司对其股票价格几乎没有影响，但导致其债券价格上涨并降低了评级下调的可能性。然而，纾困并没有帮助铁路公司避免债务违约。我们发现，一些位于铁路附近的制造业公司受益于这些纾困计划。
+    本文提出了一种新的方法，用于识别具有任意相关同期收入冲击的盈利动态模型中的系数。传统方法依赖于二阶矩无法识别这些系数，强调了需要捕捉高阶矩信息的非高斯假设的必要性。例如，我们的结果有助于盈利动态文献，允许盈利模型具有工作变动的永久收入冲击与同期短暂收入冲击的关联性。
 
-    The Reconstruction Finance Corporation and Public Works Administration loaned 46 railroads over $802 million between 1932 and 1939. The government's goal was to decrease the likelihood of bond defaults and increase employment. Bailed-out railroads did not increase profitability or employment. Instead, they reduced leverage. Bailing out a railroad had little effect on its stock price, but it resulted in an increase in its bond prices and reduced the likelihood of a ratings downgrade. However, bailouts did not help railroads avoid defaulting on their debt. We find some evidence that manufacturing firms located close to railroads benefited from the bailouts.
+    This paper proposes a novel approach for identifying coefficients in an earnings dynamics model with arbitrarily dependent contemporaneous income shocks. Traditional methods relying on second moments fail to identify these coefficients, emphasizing the need for nongaussianity assumptions that capture information from higher moments. Our results contribute to the literature on earnings dynamics by allowing models of earnings to have, for example, the permanent income shock of a job change to be linked to the contemporaneous transitory income shock of a relocation bonus.
+    
+[^7]: 加密货币平台的中心化演化
+
+    The Evolution Of Centralisation on Cryptocurrency Platforms. (arXiv:2206.05081v2 [physics.soc-ph] UPDATED)
+
+    [http://arxiv.org/abs/2206.05081](http://arxiv.org/abs/2206.05081)
+
+    本文研究了加密货币平台的中心化演化，使用复杂系统文献中广泛的方法对比了一系列区块链，质疑了当前加密货币是否真正去中心化。
+
+    
+
+    十多年前，区块链被誉为克服在线支付中心化信任第三方的解决方案。随着时间的推移，加密货币运动发生了改变和发展，尽管去中心化仍然是核心意识形态和每个新的加密项目应该提供的必要功能。本文使用复杂系统文献中广泛的方法研究了加密货币中心化的概念，对比了一系列区块链系统，以定义区块链系统可能展示的许多不同级别的（去）中心化，并质疑当前加密货币在技术和经济意义上是否真正去中心化。
+
+    More than ten years ago the blockchain was acclaimed as the solution to overcome centralised trusted third parties for online payments. Through the years the crypto-movement changed and evolved, although decentralisation remained the core ideology and the necessary feature every new crypto-project should provide. In this paper we study the concept of centralisation in cryptocurrencies using a wide array of methodologies from the complex systems literature, on a comparative collection of blockchains, in order to define the many different levels a blockchain system may display (de-)centralisation and to question whether the present state of cryptocurrencies is, in a technological and economical sense, actually decentralised.
+    
+[^8]: 《MicroVelocity: 重新思考数字货币的货币速度》
+
+    MicroVelocity: rethinking the Velocity of Money for digital currencies. (arXiv:2201.13416v2 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2201.13416](http://arxiv.org/abs/2201.13416)
+
+    本文提出了MicroVelocity框架来分析数字货币的货币流通速度，揭示了个体代理贡献的分布特点，记录了高速中介的出现，为数字货币的发展和分析提供政策洞见。
+
+    
+
+    我们提出了一个新的框架来分析货币流通速度，即每个个体代理的贡献（MicroVelocity），并揭示总体货币速度的分布决定因素。通过利用存储在四种加密货币区块链中的完整公开交易数据，我们实证发现MicroVelocity i)非常异质分布，ii)与代理的财富强相关。我们进一步记录高速中介的出现，从而挑战了这些系统完全去中心化的想法。此外，我们提出的框架和结果为数字货币的发展和分析提供了政策洞见。
+
+    We propose a novel framework to analyse the velocity of money in terms of the contribution (MicroVelocity) of each individual agent, and to uncover the distributional determinants of aggregate velocity. Leveraging on complete publicly available transactions data stored in blockchains from four cryptocurrencies, we empirically find that MicroVelocity i) is very heterogeneously distributed and ii) strongly correlates with agents' wealth. We further document the emergence of high-velocity intermediaries, thereby challenging the idea that these systems are fully decentralised. Further, our framework and results provide policy insights for the development and analysis of digital currencies.
+    
+[^9]: 集体创新的激励方式
+
+    Incentives for Collective Innovation. (arXiv:2109.01885v6 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2109.01885](http://arxiv.org/abs/2109.01885)
+
+    本论文研究了代理商在共享技术中的集体创新问题，发现允许代理商丢弃创新可以增加均衡努力和福利。
+
+    
+
+    代理商们为共享的技术付出隐藏的努力，以产生随机大小的创新。随着技术的发展，使用技术的回报也随之增长，但由于“探索-利用”权衡，努力的机会成本也随之增加。由于监测是不完美的，存在一个（强）对称均衡，任何均衡中的努力均不晚于单一代理商问题中的努力。小的创新可能会严重降低所有代理商在对称均衡中的努力。允许代理商丢弃创新可以增加均衡努力和福利。如果代理商可以隐瞒创新，那么存在完美的贝叶斯均衡，其中改进会被秘密地完善，直到足够大。在自然条件下，该均衡优于所有强制公开的均衡。
+
+    Agents exert hidden effort to produce randomly-sized innovations in a technology they share. Returns from using the technology grow as it develops, but so does the opportunity cost of effort, due to an 'exploration-exploitation' trade-off. As monitoring is imperfect, there exists a unique (strongly) symmetric equilibrium, and effort in any equilibrium ceases no later than in the single-agent problem. Small innovations may hurt all agents in the symmetric equilibrium, as they severely reduce effort. Allowing agents to discard innovations increases equilibrium effort and welfare. If agents can instead conceal innovations, there exists a perfect Bayesian equilibrium in which improvements are refined in secret until they are sufficiently large. Under natural conditions, this equilibrium improves on all equilibria with forced disclosure.
+    
+[^10]: 回归不连续设计中的灵活协变量调整
+
+    Flexible Covariate Adjustments in Regression Discontinuity Designs. (arXiv:2107.07942v2 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2107.07942](http://arxiv.org/abs/2107.07942)
+
+    本研究提出了一种在回归不连续设计中更有效地利用协变量信息的估计器类，可以容纳大量的离散或连续协变量，并经由机器学习、非参数回归或经典参数方法来估计。通过对结果变量适当修改，这种估计器易于实现，可以选择类似于传统RD分析的调整参数。
+
+    
+
+    实证回归不连续（RD）研究通常使用协变量来增加其估计结果的精度。本文提出了一种新颖的估计器类，比目前实践中广泛使用的线性调整估计器更有效地利用这些协变量信息。我们的方法可以容纳可能大量的离散或连续协变量。它涉及使用适当修改了的结果变量运行标准RD分析，该变量的形式为原始结果与协变量函数的差异。我们表征了导致渐近方差最小的估计器的函数，并展示了如何通过现代机器学习、非参数回归或经典参数方法来估计它。由此产生的估计器易于实现，因为可以选择类似于传统RD分析的调整参数。广泛的模拟研究说明了我们的方法在有限样本中的性能，另外，一个案例研究突出了它的实证相关性。
+
+    Empirical regression discontinuity (RD) studies often use covariates to increase the precision of their estimates. In this paper, we propose a novel class of estimators that use such covariate information more efficiently than the linear adjustment estimators that are currently used widely in practice. Our approach can accommodate a possibly large number of either discrete or continuous covariates. It involves running a standard RD analysis with an appropriately modified outcome variable, which takes the form of the difference between the original outcome and a function of the covariates. We characterize the function that leads to the estimator with the smallest asymptotic variance, and show how it can be estimated via modern machine learning, nonparametric regression, or classical parametric methods. The resulting estimator is easy to implement, as tuning parameters can be chosen as in a conventional RD analysis. An extensive simulation study illustrates the performance of our approac
+    
+[^11]: 有限样本中动态离散博弈的同质性检验
+
+    Testing homogeneity in dynamic discrete games in finite samples. (arXiv:2010.02297v2 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2010.02297](http://arxiv.org/abs/2010.02297)
+
+    本文提出了一个检验动态离散博弈中关键假定“同质性假设”的方法，该方法能通过随机化检验来验证该假设是否成立。
+
+    
+
+    动态离散博弈的文献经常假定条件选择概率和状态转移概率在不同市场和时间上是同质的。我们称之为“动态离散博弈中的同质性假设”。该假设使得经验研究可以通过汇总多个市场和多个时间段的数据来估计游戏的结构参数。本文提出了一个假设检验来评估数据是否符合同质性假设。我们的假设检验是通过马尔可夫链蒙特卡罗（MCMC）算法实现近似随机化检验的结果。我们证明了当（用户定义的）MCMC抽样次数趋于无穷大时，我们的假设检验就是有效的，对于任何固定的市场、时间段和玩家数量。我们将我们的检验应用于瑞安（2012）对美国波特兰水泥工业的经验研究中。
+
+    The literature on dynamic discrete games often assumes that the conditional choice probabilities and the state transition probabilities are homogeneous across markets and over time. We refer to this as the "homogeneity assumption" in dynamic discrete games. This assumption enables empirical studies to estimate the game's structural parameters by pooling data from multiple markets and from many time periods. In this paper, we propose a hypothesis test to evaluate whether the homogeneity assumption holds in the data. Our hypothesis test is the result of an approximate randomization test, implemented via a Markov chain Monte Carlo (MCMC) algorithm. We show that our hypothesis test becomes valid as the (user-defined) number of MCMC draws diverges, for any fixed number of markets, time periods, and players. We apply our test to the empirical study of the U.S.\ Portland cement industry in Ryan (2012).
     
 

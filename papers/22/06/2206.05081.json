@@ -1,0 +1,12 @@
+{
+    "title": "The Evolution Of Centralisation on Cryptocurrency Platforms. (arXiv:2206.05081v2 [physics.soc-ph] UPDATED)",
+    "abstract": "More than ten years ago the blockchain was acclaimed as the solution to overcome centralised trusted third parties for online payments. Through the years the crypto-movement changed and evolved, although decentralisation remained the core ideology and the necessary feature every new crypto-project should provide. In this paper we study the concept of centralisation in cryptocurrencies using a wide array of methodologies from the complex systems literature, on a comparative collection of blockchains, in order to define the many different levels a blockchain system may display (de-)centralisation and to question whether the present state of cryptocurrencies is, in a technological and economical sense, actually decentralised.",
+    "link": "http://arxiv.org/abs/2206.05081",
+    "context": "Title: The Evolution Of Centralisation on Cryptocurrency Platforms. (arXiv:2206.05081v2 [physics.soc-ph] UPDATED)\nAbstract: More than ten years ago the blockchain was acclaimed as the solution to overcome centralised trusted third parties for online payments. Through the years the crypto-movement changed and evolved, although decentralisation remained the core ideology and the necessary feature every new crypto-project should provide. In this paper we study the concept of centralisation in cryptocurrencies using a wide array of methodologies from the complex systems literature, on a comparative collection of blockchains, in order to define the many different levels a blockchain system may display (de-)centralisation and to question whether the present state of cryptocurrencies is, in a technological and economical sense, actually decentralised.",
+    "path": "papers/22/06/2206.05081.json",
+    "total_tokens": 715,
+    "translated_title": "加密货币平台的中心化演化",
+    "translated_abstract": "十多年前，区块链被誉为克服在线支付中心化信任第三方的解决方案。随着时间的推移，加密货币运动发生了改变和发展，尽管去中心化仍然是核心意识形态和每个新的加密项目应该提供的必要功能。本文使用复杂系统文献中广泛的方法研究了加密货币中心化的概念，对比了一系列区块链系统，以定义区块链系统可能展示的许多不同级别的（去）中心化，并质疑当前加密货币在技术和经济意义上是否真正去中心化。",
+    "tldr": "本文研究了加密货币平台的中心化演化，使用复杂系统文献中广泛的方法对比了一系列区块链，质疑了当前加密货币是否真正去中心化。",
+    "en_tdlr": "This paper studies the evolution of centralisation on cryptocurrency platforms and questions whether the current state of cryptocurrencies is truly decentralised, using a wide range of methodologies from the complex systems literature and comparing a collection of blockchains."
+}

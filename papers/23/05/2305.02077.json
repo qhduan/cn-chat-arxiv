@@ -1,0 +1,12 @@
+{
+    "title": "An Ontology Design Pattern for Role-Dependent Names. (arXiv:2305.02077v1 [cs.AI])",
+    "abstract": "We present an ontology design pattern for modeling Names as part of Roles, to capture scenarios where an Agent performs different Roles using different Names associated with the different Roles. Examples of an Agent performing a Role using different Names are rather ubiquitous, e.g., authors who write under different pseudonyms, or different legal names for citizens of more than one country. The proposed pattern is a modified merger of a standard Agent Role and a standard Name pattern stub.",
+    "link": "http://arxiv.org/abs/2305.02077",
+    "context": "Title: An Ontology Design Pattern for Role-Dependent Names. (arXiv:2305.02077v1 [cs.AI])\nAbstract: We present an ontology design pattern for modeling Names as part of Roles, to capture scenarios where an Agent performs different Roles using different Names associated with the different Roles. Examples of an Agent performing a Role using different Names are rather ubiquitous, e.g., authors who write under different pseudonyms, or different legal names for citizens of more than one country. The proposed pattern is a modified merger of a standard Agent Role and a standard Name pattern stub.",
+    "path": "papers/23/05/2305.02077.json",
+    "total_tokens": 580,
+    "translated_title": "一个基于角色依赖的名称本体设计模式",
+    "translated_abstract": "我们提出了一个本体设计模式，用于对名称作为角色的一部分进行建模，以捕捉代理人使用与不同角色相关联的不同名称执行不同角色的情况。代理人使用不同名称执行角色的示例是相当广泛的，例如以不同笔名写作的作者，或者具有一个以上国家公民身份的不同法定名称。提出的模式是标准代理人角色和标准名称模式存根的修改合并。",
+    "tldr": "本文提出了一个用于建模名称与角色相关联的设计模式，能够捕捉代理人在不同角色中使用不同名称的情况。",
+    "en_tdlr": "This paper proposes a design pattern for modeling names associated with roles, which can capture situations where agents use different names in different roles."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Do you MIND? Reflections on the MIND dataset for research on diversity in news recommendations. (arXiv:2304.08253v2 [cs.IR] UPDATED)",
+    "abstract": "The MIND dataset is at the moment of writing the most extensive dataset available for the research and development of news recommender systems. This work analyzes the suitability of the dataset for research on diverse news recommendations. On the one hand we analyze the effect the different steps in the recommendation pipeline have on the distribution of article categories, and on the other hand we check whether the supplied data would be sufficient for more sophisticated diversity analysis. We conclude that while MIND is a great step forward, there is still a lot of room for improvement.",
+    "link": "http://arxiv.org/abs/2304.08253",
+    "context": "Title: Do you MIND? Reflections on the MIND dataset for research on diversity in news recommendations. (arXiv:2304.08253v2 [cs.IR] UPDATED)\nAbstract: The MIND dataset is at the moment of writing the most extensive dataset available for the research and development of news recommender systems. This work analyzes the suitability of the dataset for research on diverse news recommendations. On the one hand we analyze the effect the different steps in the recommendation pipeline have on the distribution of article categories, and on the other hand we check whether the supplied data would be sufficient for more sophisticated diversity analysis. We conclude that while MIND is a great step forward, there is still a lot of room for improvement.",
+    "path": "papers/23/04/2304.08253.json",
+    "total_tokens": 670,
+    "translated_title": "你在意吗？对于MIND数据集在新闻推荐多样性研究中的反思",
+    "translated_abstract": "MIND数据集是目前可用于新闻推荐系统研究和开发的最广泛的数据集。本研究分析了该数据集在多样化新闻推荐研究中的适用性。一方面，我们分析了推荐流程中不同步骤对文章类别分布的影响，另一方面，我们检查所提供的数据是否足以进行更复杂的多样性分析。我们得出结论，虽然MIND是一个很好的进步，但仍有很大的改进空间。",
+    "tldr": "该研究分析了MIND数据集在新闻推荐多样性研究中的适用性，发现虽然是一个很好的进步，但仍有很大的改进空间。",
+    "en_tdlr": "This study analyzed the suitability of the MIND dataset for research on diverse news recommendations and found that while it is a great step forward, there is still room for improvement."
+}

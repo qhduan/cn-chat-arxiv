@@ -1,0 +1,12 @@
+{
+    "title": "Experimental Design for Any $p$-Norm. (arXiv:2305.01942v1 [cs.DS])",
+    "abstract": "We consider a general $p$-norm objective for experimental design problems that captures some well-studied objectives (D/A/E-design) as special cases. We prove that a randomized local search approach provides a unified algorithm to solve this problem for all $p$. This provides the first approximation algorithm for the general $p$-norm objective, and a nice interpolation of the best known bounds of the special cases.",
+    "link": "http://arxiv.org/abs/2305.01942",
+    "context": "Title: Experimental Design for Any $p$-Norm. (arXiv:2305.01942v1 [cs.DS])\nAbstract: We consider a general $p$-norm objective for experimental design problems that captures some well-studied objectives (D/A/E-design) as special cases. We prove that a randomized local search approach provides a unified algorithm to solve this problem for all $p$. This provides the first approximation algorithm for the general $p$-norm objective, and a nice interpolation of the best known bounds of the special cases.",
+    "path": "papers/23/05/2305.01942.json",
+    "total_tokens": 631,
+    "translated_title": "任意$p$-范数的实验设计",
+    "translated_abstract": "我们考虑了一个通用的$p$-范数目标，用于实验设计问题，并将一些经典目标（D/A/E-设计）作为特殊情况进行了概括。我们证明了一种随机局部搜索方法提供了一个统一的算法来解决所有的$p$-范数问题。这提供了第一个适用于普遍$p$-范数目标的近似算法，并且是特殊情况下已知最优界的一个很好的插值。",
+    "tldr": "该论文提出了一种通用的$p$-范数目标实验设计问题的解决算法，可适用于各种特殊情况，并且是已知最好的界的插值。",
+    "en_tdlr": "This paper proposes a unified algorithm for solving experimental design problems with a general $p$-norm objective, which includes well-studied objectives as special cases. By using a randomized local search approach, it becomes the first approximation algorithm for the general $p$-norm objective and interpolates the best known bounds of the special cases."
+}

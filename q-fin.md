@@ -2,217 +2,127 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Construct sparse portfolio with mutual fund's favourite stocks in China A share market.](http://arxiv.org/abs/2305.01642) | 该论文介绍了如何使用中国A股市场共同基金偏爱的股票，构建出稀疏投资组合以获取超额收益。 |
-| [^2] | [Non-refunding of VAT to soybean exporters or economic impact of Soybean amendments.](http://arxiv.org/abs/2305.01559) | 免除豆粕出口商的增值税导致经济损失4450-6050万美元，其中大豆种植户损失最大。 |
-| [^3] | [Carbon Emission Reduction Effect of RMB Appreciation: Empirical Evidence from 283 Prefecture-Level Cities of China.](http://arxiv.org/abs/2305.01558) | 本文实证证据表明，人民币升值可以通过多种途径来降低碳排放强度，特别是在东部地区、沿海地区、城市化水平高的地区和信息开放的地区。每升值1%碳排放强度平均降低0.463吨/万元。 |
-| [^4] | [NFT Wash Trading Detection.](http://arxiv.org/abs/2305.01543) | 该论文介绍了一种检测NFT洗钱交易的算法，帮助监测在NFT交易市场中的非法交易和欺诈行为，发现了不少洗钱交易，并揭示了其涉及的交易、钱包和代币数量，以及其带来的总利润。 |
-| [^5] | [Optimal control problems for stochastic processes with absorbing regime.](http://arxiv.org/abs/2305.01490) | 本文研究了具有吸收状态的随机过程的最优控制问题，并通过偏微分方程组得到了解，其中具有违约概率的Merton组合问题得到了显式解。 |
-| [^6] | [A Heat-Jarrow-Morton framework for energy markets: a pragmatic approach.](http://arxiv.org/abs/2305.01485) | 本文介绍了一种应用于能源市场的Heat-Jarrow-Morton框架，重点放在实践方面。作为应用，我们重点关注欧洲电力和天然气市场。 |
-| [^7] | [Agricultural Policy in Ukraine.](http://arxiv.org/abs/2305.01478) | 该论文分析和评估了苏联解体后至今乌克兰的农业政策制定，探讨了农业食品部门在国民经济以及全球粮食安全中的作用。 |
-| [^8] | [Cooperation and Cognition in Social Networks.](http://arxiv.org/abs/2305.01209) | 本文研究了社交网络中的合作问题，并引入了低认知复杂度网络概念，实验证明均衡网络中LCC网络比非LCC网络合作性更高。 |
-| [^9] | [Random neural networks for rough volatility.](http://arxiv.org/abs/2305.01035) | 本论文介绍了一种基于随机神经网络的深度学习数值算法，用于解决与粗波动相关的路径相关偏微分方程，并证明了该方法具有理论收敛性质。 |
-| [^10] | [On Using Proportional Representation Methods as Alternatives to Pro-Rata Based Order Matching Algorithms in Stock Exchanges.](http://arxiv.org/abs/2303.09652) | 研究发现，选举制度中的比例代表方法可以替代股票交易所中的按比例分配顺序的匹配算法，提供更接近比例分配的订单分配。 |
-| [^11] | [A Mean-Field Control Problem of Optimal Portfolio Liquidation with Semimartingale Strategies.](http://arxiv.org/abs/2207.00446) | 本文研究了具有半鞅策略的最优组合清算问题，证明了价值函数采用线性-二次形式，且最优策略仅在交易期的开始和结束时进行跳跃。 |
-| [^12] | [Estimating the Currency Composition of Foreign Exchange Reserves.](http://arxiv.org/abs/2206.13751) | 该论文提出了一种隐马尔可夫模型，用于评估央行外汇储备的货币组成。作者将该模型应用于中国和新加坡，发现中国的储备组成可能类似于全球平均水平，而新加坡可能持有更少的美元。 |
-| [^13] | [Railroad Bailouts in the Great Depression.](http://arxiv.org/abs/2205.13025) | 大萧条时期，美国政府通过向铁路公司提供贷款来减少债券违约的可能性和增加就业，然而这些纾困计划没有帮助铁路公司增加盈利或就业，而是减少了杠杆比率。纾困对股票价格几乎没有影响，但导致其债券价格上涨并降低了评级下调的可能性。同时，这些纾困计划也没有帮助铁路公司避免债务违约，但有利于一些附近的制造业公司。 |
-| [^14] | [A C\`adl\`ag Rough Path Foundation for Robust Finance.](http://arxiv.org/abs/2109.04225) | 本文利用粗路径理论为随机Ito积分提供了一种逐路径的基础，可以覆盖大多数金融市场模型，包括骑士不确定性。通过引入属性（RIE）来确保路径和二次变差的存在，并证明了相应的粗略积分存在于沿着合适的分区序列的左端点黎曼和的极限中。 |
+| [^1] | [Macroeconomic factors and Stock exchange return: A Statistical Analysis.](http://arxiv.org/abs/2305.02229) | 本研究分析了达卡股票交易所股票价格与宏观经济变量之间的长期关系，结果表明消费价格指数、货币供应和汇率与股票回报密切相关，而市场资本化与股票回报呈负相关。 |
+| [^2] | [A Mediation Analysis of the Relationship Between Land Use Regulation Stringency and Employment Dynamics.](http://arxiv.org/abs/2305.02159) | 本文研究了美国878个地方辖区在2010-2020年间土地利用管制严格程度对零售、专业和信息三个行业就业增长的影响，结果表明过度的土地利用管制严格程度使得住房成本负担增加，住房成本负担成为了阻碍就业增长的中介变量，信息行业的效应最为明显。 |
+| [^3] | [The Relationship between Consumption and Economic Growth of Chinese Urban and Rural Residents since Reform and Opening-up -- An Empirical Analysis Based on Econometrics Models.](http://arxiv.org/abs/2305.02138) | 本文分析改革开放以来中国城乡居民消费与经济增长的关系，得出城市消费和农村消费的增加可以促进经济增长并且城市消费更有利于经济增长的结论，提出相关政策建议。 |
+| [^4] | [Don't Trust, Verify: Towards a Framework for the Greening of Bitcoin.](http://arxiv.org/abs/2305.01815) | 随着比特币的发展，它面临着高碳排放的问题，而目前有很多可持续比特币会计系统，但缺乏一个统一标准认证标准。本文提出了一个可行的解决方案，并详细分析了不同系统的优缺点和挑战。 |
+| [^5] | [Understanding Model Complexity for temporal tabular and multi-variate time series, case study with Numerai data science tournament.](http://arxiv.org/abs/2303.07925) | 本文采用 Numerai 数据科学竞赛的数据，探究了多变量时间序列建模中不同特征工程和降维方法的应用；提出了一种新的集成方法，用于高维时间序列建模，该方法在通用性、鲁棒性和效率上优于一些深度学习模型。 |
+| [^6] | [Quantum Analysis of Continuous Time Stochastic Process.](http://arxiv.org/abs/2208.02364) | 本文提出了一种通用框架，用于在量子计算机上高效地准备连续时间随机过程路径。基于压缩状态准备方法，可以高效地提取重要的路径相关和历史敏感信息，并实现二次加速。 |
+| [^7] | [The Evolution Of Centralisation on Cryptocurrency Platforms.](http://arxiv.org/abs/2206.05081) | 本文研究了加密货币平台的中心化演化，使用复杂系统文献中广泛的方法对比了一系列区块链，质疑了当前加密货币是否真正去中心化。 |
+| [^8] | [MicroVelocity: rethinking the Velocity of Money for digital currencies.](http://arxiv.org/abs/2201.13416) | 本文提出了MicroVelocity框架来分析数字货币的货币流通速度，揭示了个体代理贡献的分布特点，记录了高速中介的出现，为数字货币的发展和分析提供政策洞见。 |
 
 # 详细
 
-[^1]: 在中国A股市场构建以基金偏爱股票为主的稀疏投资组合
+[^1]: 宏观经济因素与股票市场回报：一项统计分析
 
-    Construct sparse portfolio with mutual fund's favourite stocks in China A share market. (arXiv:2305.01642v1 [q-fin.PM])
+    Macroeconomic factors and Stock exchange return: A Statistical Analysis. (arXiv:2305.02229v1 [econ.GN])
 
-    [http://arxiv.org/abs/2305.01642](http://arxiv.org/abs/2305.01642)
+    [http://arxiv.org/abs/2305.02229](http://arxiv.org/abs/2305.02229)
 
-    该论文介绍了如何使用中国A股市场共同基金偏爱的股票，构建出稀疏投资组合以获取超额收益。
-
-    
-
-    与发达市场不同，某些新兴市场由零售和非专业交易主导。过去20年中，中国A股市场是一个很好的典型。同时，许多研究表明，在中国A股市场中，专业投资者不断取得超过总市场指数的收益。具体而言，这种超额收益主要来自于股票选择能力而不是市场定时。然而，由于基金规模限制、基金经理变更或市场区域切换等原因，很难找到一个能够持续击败市场的基金。因此，为了从共同基金行业获得超额收益，我们使用量化的方法建立了以基金喜爱的股票为主的稀疏投资组合。首先，我们对共同基金喜爱的股票进行分析，并比较不同方法来构建我们的投资组合。然后，我们制定了一个具有约束的稀疏股票组合，其中包括个别股票和行业曝光的限制。
-
-    Unlike developed market, some emerging markets are dominated by retail and unprofessional trading. China A share market is a good and fitting example in last 20 years. Meanwhile, lots of research show professional investor in China A share market continuously generate excess return compare with total market index. Specifically, this excess return mostly come from stock selectivity ability instead of market timing. However for some reason such as fund capacity limit, fund manager change or market regional switch, it is very hard to find a fund could continuously beat market. Therefore, in order to get excess return from mutual fund industry, we use quantitative way to build the sparse portfolio that take advantage of favorite stocks by mutual fund in China A market. Firstly we do the analysis about favourite stocks by mutual fund and compare the different method to construct our portfolio. Then we build a sparse stock portfolio with constraint on both individual stock and industry expos
-    
-[^2]: 豆粕出口商增值税不退税或者豆粕修正案的经济影响
-
-    Non-refunding of VAT to soybean exporters or economic impact of Soybean amendments. (arXiv:2305.01559v1 [econ.GN])
-
-    [http://arxiv.org/abs/2305.01559](http://arxiv.org/abs/2305.01559)
-
-    免除豆粕出口商的增值税导致经济损失4450-6050万美元，其中大豆种植户损失最大。
+    本研究分析了达卡股票交易所股票价格与宏观经济变量之间的长期关系，结果表明消费价格指数、货币供应和汇率与股票回报密切相关，而市场资本化与股票回报呈负相关。
 
     
 
-    免除大豆和菜籽油出口商的增值税对经济造成负面影响，每年损失为4450-6050万美元。所实施的政策旨在增加乌克兰工厂对大豆和菜籽油的加工，因此加工商收到2600万美元，国家预算获得2-1800万美元。然而，大豆种植户，大多数为中小型，损失了8850万美元，远远超过加工商和国家预算的利益。
+    本研究旨在研究达卡股票交易所指数回报与汇率、通货膨胀、货币供应等宏观经济变量之间的关系。通过使用约翰逊共整合检验、增广迪基-福勒（ADF）和菲利普·佩隆（PP）检验分析了宏观经济变量与股票市场回报之间的长期关系。结果表明，达卡股票交易所股票价格与宏观经济变量之间存在协整关系。消费价格指数、货币供应和汇率与股票回报密切相关，而市场资本化与股票回报呈负相关。研究结果表明，长期来看，达卡股票交易所对宏观经济指标具有反应能力。
 
-    Exempting soybean and rapeseed exporters from VAT has a negative effect on the economy of $\$$44.5-60.5 million per year. The implemented policy aimed to increase the processing of soybeans and rapeseed by Ukrainian plants. As a result, the processors received $\$$26 million and the state budget gained $\$$2-18 million. However, soybean farmers, mostly small and medium-sized, received $ 88.5 million in losses, far outweighing the benefits of processors and the state budget.
+    The purpose of this research is to examine the relationship between the Dhaka Stock exchange index return and macroeconomic variables such as exchange rate, inflation, money supply etc. The long-term relationship between macroeconomic variables and stock market returns has been analyzed by using the Johnson Cointegration test, Augmented Dicky Fuller (ADF) and Phillip Perron (PP) tests. The results revealed the existence of cointegrating relationship between stock prices and the macroeconomic variables in the Dhaka stock exchange. The consumer price index, money supply, and exchange rates proved to be strongly associated with stock returns, while market capitalization was found to be negatively associated with stock returns. The findings suggest that in the long run, the Dhaka stock exchange is reactive to macroeconomic indicators.
     
-[^3]: 人民币升值的碳减排效应：基于中国283个地级市的实证证据
+[^2]: 土地利用管制严格程度与就业动态关系的中介分析
 
-    Carbon Emission Reduction Effect of RMB Appreciation: Empirical Evidence from 283 Prefecture-Level Cities of China. (arXiv:2305.01558v1 [econ.GN])
+    A Mediation Analysis of the Relationship Between Land Use Regulation Stringency and Employment Dynamics. (arXiv:2305.02159v1 [econ.GN])
 
-    [http://arxiv.org/abs/2305.01558](http://arxiv.org/abs/2305.01558)
+    [http://arxiv.org/abs/2305.02159](http://arxiv.org/abs/2305.02159)
 
-    本文实证证据表明，人民币升值可以通过多种途径来降低碳排放强度，特别是在东部地区、沿海地区、城市化水平高的地区和信息开放的地区。每升值1%碳排放强度平均降低0.463吨/万元。
-
-    
-
-    本文基于2006年至2019年中国283个地级市的面板数据，测量了人民币实际有效汇率波动对碳排放强度的影响程度和机制。研究发现：（1）人民币实际有效汇率每升值1%，碳排放强度平均降低0.463吨/万元；（2）人民币实际有效汇率“碳减排效应”在东部地区、沿海地区、城市化水平高的地区和信息开放的地区更为明显；（3）人民币实际有效汇率的升值可以通过促进区域研发和创新能力、抑制外贸和外资、促进产业结构优化升级和改善收入不平等等多种途径，减少二氧化碳排放强度。
-
-    Based on the panel data of 283 prefecture-level cities in China from 2006 to 2019, this paper measures the extent and mechanism of the impact of RMB real effective exchange rate fluctuations on carbon emission intensity. The results show that: (1) For every 1% appreciation of the real effective exchange rate of RMB, the carbon emission intensity decreases by an average of 0.463 tons/10000 yuan; (2) The "carbon emission reduction effect" of RMB real effective exchange rate appreciation is more obvious in the eastern regions, coastal areas, regions with high urbanization levels, and areas with open information; (3) The appreciation of RMB real effective exchange rate can reduce carbon dioxide emission intensity by improving regional R&D and innovation ability, restraining foreign trade and foreign investment, promoting industrial structure optimization and upgrading, and improving income inequality.
-    
-[^4]: NFT洗钱交易识别
-
-    NFT Wash Trading Detection. (arXiv:2305.01543v1 [q-fin.GN])
-
-    [http://arxiv.org/abs/2305.01543](http://arxiv.org/abs/2305.01543)
-
-    该论文介绍了一种检测NFT洗钱交易的算法，帮助监测在NFT交易市场中的非法交易和欺诈行为，发现了不少洗钱交易，并揭示了其涉及的交易、钱包和代币数量，以及其带来的总利润。
+    本文研究了美国878个地方辖区在2010-2020年间土地利用管制严格程度对零售、专业和信息三个行业就业增长的影响，结果表明过度的土地利用管制严格程度使得住房成本负担增加，住房成本负担成为了阻碍就业增长的中介变量，信息行业的效应最为明显。
 
     
 
-    洗钱交易是一种市场操纵形式，指同一实体通过向自己销售资产来推高市场价格、在合法交易的掩护下洗钱，或声称进行资产损失税收减免而不失去资产所有权。传统资产市场对此加以监管，但非同质化代币市场监督缺失，使犯罪分子能够进行洗钱交易并欺骗毫无戒心的买家而逃脱监管。AnChain.AI设计了一种算法，当钱包在30天内重新购买先前卖出的代币时，标记NFT收藏历史中的交易为洗钱交易。该算法还识别了洗钱交易周期内的中间交易。针对7个热门NFT收藏品进行测试后发现，每个收藏品中平均有0.14%的交易、0.11%的钱包和0.16%的代币涉及洗钱交易。这些洗钱交易带来了总体价格操纵、销售和回购利润达到了90万美元和110万美元。
+    本文旨在研究美国878个地方辖区（2010-2020年）关于居住用途管制指数（WRLURI）严格程度对零售、专业和信息三个行业就业增长的影响。本文采用中介分析框架，研究土地利用管制严格程度对行业就业增长和专业化的直接影响和间接影响。分析结果表明，过度的土地利用管制严格程度与住房成本负担之间存在完全中介的关系，并且住房成本负担是中介变量，这阻碍了就业增长，信息行业的效应最为明显。
 
-    Wash trading is a form of market manipulation where the same entity sells an asset to themselves to drive up market prices, launder money under the cover of a legitimate transaction, or claim a tax loss without losing ownership of an asset. Although the practice is illegal with traditional assets, lack of supervision in the non-fungible token market enables criminals to wash trade and scam unsuspecting buyers while operating under regulators radar. AnChain.AI designed an algorithm that flags transactions within an NFT collection history as wash trades when a wallet repurchases a token within 30 days of previously selling it. The algorithm also identifies intermediate transactions within a wash trade cycle. Testing on 7 popular NFT collections reveals that on average, 0.14% of transactions, 0.11% of wallets, and 0.16% of tokens in each collection are involved in wash trading. These wash trades generate an overall total price manipulation, sales, and repurchase profit of \$900K, \$1.1M, 
+    The paper examines the effects of stringent land use regulations, measured using the Wharton Residential Land Use Regulatory Index (WRLURI), on employment growth during the period 2010-2020 in the Retail, Professional, and Information sectors across 878 local jurisdictions in the United States. All the local jurisdictions exist in both (2006 and 2018) waves of the WRLURI surveys and hence constitute a unique panel data. We apply a mediation analytical framework to decompose the direct and indirect effects of land use regulation stringency on sectoral employment growth and specialization. Our analysis suggests a fully mediated pattern in the relationship between excessive land use regulations and employment growth, with housing cost burden as the mediator. Specifically, a one standard deviation increase in the WRLURI index is associated with an approximate increase of 0.8 percentage point in the proportion of cost burdened renters. Relatedly, higher prevalence of cost-burdened renters h
     
-[^5]: 具有吸收状态的随机过程的最优控制问题
+[^3]: 改革开放以来中国城乡居民消费与经济增长的关系——基于计量经济学模型的实证分析
 
-    Optimal control problems for stochastic processes with absorbing regime. (arXiv:2305.01490v1 [math.OC])
+    The Relationship between Consumption and Economic Growth of Chinese Urban and Rural Residents since Reform and Opening-up -- An Empirical Analysis Based on Econometrics Models. (arXiv:2305.02138v1 [econ.GN])
 
-    [http://arxiv.org/abs/2305.01490](http://arxiv.org/abs/2305.01490)
+    [http://arxiv.org/abs/2305.02138](http://arxiv.org/abs/2305.02138)
 
-    本文研究了具有吸收状态的随机过程的最优控制问题，并通过偏微分方程组得到了解，其中具有违约概率的Merton组合问题得到了显式解。
-
-    
-
-    本文针对具有吸收状态的随机过程提出并求解了最优控制问题。通过一个偏微分方程组，得到了此问题的解。该方法被应用于在log效用情形下，当一个资产具有违约概率时，获得了Merton组合问题的显式解。
-
-    In this paper we formulate and solve an optimal problem for Stochastic process with a regime absorbing state. The solution for this problem is obtained through a system of partial differential equations. The method is applied to obtain an explicit solution for the Merton portfolio problem when an asset has a default probability in case of a log utility.
-    
-[^6]: 一种应用于能源市场的Heat-Jarrow-Morton框架：实用方法
-
-    A Heat-Jarrow-Morton framework for energy markets: a pragmatic approach. (arXiv:2305.01485v1 [q-fin.MF])
-
-    [http://arxiv.org/abs/2305.01485](http://arxiv.org/abs/2305.01485)
-
-    本文介绍了一种应用于能源市场的Heat-Jarrow-Morton框架，重点放在实践方面。作为应用，我们重点关注欧洲电力和天然气市场。
+    本文分析改革开放以来中国城乡居民消费与经济增长的关系，得出城市消费和农村消费的增加可以促进经济增长并且城市消费更有利于经济增长的结论，提出相关政策建议。
 
     
 
-    本文讨论了将Heat-Jarrow-Morton框架应用于能源市场的方法。本文的目的是详细介绍该主题，重点放在实践方面而非已有大量文献探讨的理论方面。本文旨在成为从业人员以及所有从事这种方法的能源市场实际问题处理的人的指南。具体而言，我们关注市场结构、利用主成分分析（PCA）进行模型校准、蒙特卡罗模拟和衍生品定价。作为应用，我们重点关注欧洲电力和天然气市场：我们将模型校准为历史期货报价，进行期货和现货模拟并分析结果。
+    改革开放四十年来，中国在经济领域取得了显著的成就，而其中消费活动，包括家庭消费在内，发挥了重要作用。消费活动是经济活动的终点，因为其他经济活动的最终目的是满足消费需求；消费活动是经济活动的起点，因为消费可以推动经济和社会发展。本文选择了改革开放以来40多年的经济数据，建立了向量自回归（VAR）模型和向量误差纠正（VEC）模型，分析了城乡居民消费水平和总消费对经济增长的影响。结论是城市消费和农村消费的增加可以导致GDP的增长，在长期内，城市消费可以比农村消费更能促进经济增长。据此，我们分析了原因并提出了相关政策建议。
 
-    In this article we discuss the application of the Heat-Jarrow-Morton framework Heath et al. [26] to energy markets. The goal of the article is to give a detailed overview of the topic, focusing on practical aspects rather than on theory, which has been widely studied in literature. This work aims to be a guide for practitioners and for all those who deal with the practical issues of this approach to energy market. In particular, we focus on the markets' structure, model calibration by dimension reduction with Principal Component Analysis (PCA), Monte Carlo simulations and derivatives pricing. As application, we focus on European power and gas markets: we calibrate the model on historical futures quotations, we perform futures and spot simulations and we analyze the results.
+    Since Reform and Opening-up 40 years ago, China has made remarkable achievements in economic fields. And consumption activities, including household consumption, have played an important role in it. Consumer activity is the end of economic activity, because the ultimate aim of other economic activities is to meet consumer demand; consumer activity is the starting point of economic activity, because consumption can drive economic and social development. This paper selects the economic data of more than 40 years since Reform and Opening-up, and establishes the Vector Autoregressive (VAR) model and Vector Error Correction (VEC) model, analyzing the influence of consumption level and total consumption of urban and rural residents on economic growth. The conclusion is that the increase of urban consumption and rural consumption can lead to the increase of GDP, and in the long run, urban consumption can promote economic growth more than rural consumption. According to this conclusion, we ana
     
-[^7]: 乌克兰的农业政策
+[^4]: 不要信任，要验证：迈向比特币绿色化框架
 
-    Agricultural Policy in Ukraine. (arXiv:2305.01478v1 [econ.GN])
+    Don't Trust, Verify: Towards a Framework for the Greening of Bitcoin. (arXiv:2305.01815v1 [econ.GN])
 
-    [http://arxiv.org/abs/2305.01478](http://arxiv.org/abs/2305.01478)
+    [http://arxiv.org/abs/2305.01815](http://arxiv.org/abs/2305.01815)
 
-    该论文分析和评估了苏联解体后至今乌克兰的农业政策制定，探讨了农业食品部门在国民经济以及全球粮食安全中的作用。
-
-    
-
-    在基于上一章节发展起来的农业政策理论和方法的基础上，第2章我们分析和评估了苏联解体至今乌克兰的农业政策制定。从上至下，我们首先描述了农业政策在独立后的重要里程碑，铺平了现代农业政策的政治经济学道路。接着，我们描述了农业食品部门对国民经济以及全球粮食安全的作用。之后，我们深入挖掘，并通过研究农场结构、土地利用、整体和行业未开发的生产潜力来重点关注农业部门的详细绩效。现代农业政策和制度设置在第2.4节中被详细解析。涵盖农业上下游部门的审查以及总结。
-
-    Building upon the theory and methodology of agricultural policy developed in the previous chapter, in Chapter 2 we analyse and assess agricultural policy making in Ukraine since the breakup of Soviet Union till today. Going from top down to the bottom, we begin by describing the evolution of state policy in the agri-food sector. In the beginning, we describe the major milestones of agricultural policy making since independence, paving the way to the political economy of the modern agricultural policy in Ukraine. Then we describe the role of agri-food sector in the national economy as well as globally in ensuring food security in the world. After, we dig deeper and focus on a detailed performance of agricultural sector by looking at farm structures, their land use, overall and sector-wise untapped productivity potential. Modern agricultural policy and institutional set-up is contained and analyzed in details in the section 2.4. A review of the agricultural up- and downstream sectors wra
-    
-[^8]: 社交网络中的合作与认知
-
-    Cooperation and Cognition in Social Networks. (arXiv:2305.01209v1 [econ.GN])
-
-    [http://arxiv.org/abs/2305.01209](http://arxiv.org/abs/2305.01209)
-
-    本文研究了社交网络中的合作问题，并引入了低认知复杂度网络概念，实验证明均衡网络中LCC网络比非LCC网络合作性更高。
+    随着比特币的发展，它面临着高碳排放的问题，而目前有很多可持续比特币会计系统，但缺乏一个统一标准认证标准。本文提出了一个可行的解决方案，并详细分析了不同系统的优缺点和挑战。
 
     
 
-    社交网络可以通过关系损失的连锁反应来维持合作。本文基于Jackson等人(2012)的研究，引入了一个新的鲁棒性概念，来描述低认知复杂度（LCC）网络，即一种计算和理解受到最小认知负担的均衡网络子集，我们在实验室实验证明，相对于非均衡网络，均衡网络中的合作更高。在均衡网络中，LCC网络比非LCC网络更具合作性。学习对于均衡博弈的出现至关重要。
+    在过去的十多年中，比特币既得到了越来越多的认可，也受到了很多批评。基本上，比特币因其高能耗的工作量证明（PoW）共识算法所导致的高碳排放量而备受争议。然而，有一个趋势是，比特币挖掘正朝着实现碳负担的方向发展，这主要是由于采用了基于甲烷的挖掘和支持可变可再生能源（VRE）发电的挖掘灵活负荷响应（FLR）。矿工和电力销售商不仅可以利用过剩能源来增加他们的盈利能力，还可以向那些有兴趣绿化自己投资组合的买家出售绿色代币。然而，一个合适的“绿色比特币”会计系统需要一个可持续比特币持有的认证标准框架。建立这样的框架的正确方法仍有争议。本文调查了不同的可持续比特币会计系统，分析了它们的优缺点及其挑战。
 
-    Social networks can sustain cooperation by amplifying the consequences of a single defection through a cascade of relationship losses. Building on Jackson et al. (2012), we introduce a novel robustness notion to characterize low cognitive complexity (LCC) networks - a subset of equilibrium networks that imposes a minimal cognitive burden to calculate and comprehend the consequences of defection. We test our theory in a laboratory experiment and find that cooperation is higher in equilibrium than in non-equilibrium networks. Within equilibrium networks, LCC networks exhibit higher levels of cooperation than non-LCC networks. Learning is essential for the emergence of equilibrium play.
+    For more than a decade, Bitcoin has gained as much adoption as it has received criticism. Fundamentally, Bitcoin is under fire for the high carbon footprint that results from the energy-intensive proof-of-work (PoW) consensus algorithm. There is a trend however for Bitcoin mining to adopt a trajectory toward achieving carbon-negative status, notably due to the adoption of methane-based mining and mining-based flexible load response (FLR) to complement variable renewable energy (VRE) generation. Miners and electricity sellers may increase their profitability not only by taking advantage of excess energy, but also by selling green tokens to buyers interested in greening their portfolios. Nevertheless, a proper ''green Bitcoin'' accounting system requires a standard framework for the accreditation of sustainable bitcoin holdings. The proper way to build such a framework remains contested. In this paper, we survey the different sustainable Bitcoin accounting systems. Analyzing the various 
     
-[^9]: 用于粗波动的随机神经网络
+[^5]: 通过 Numerai 数据科学竞赛案例，理解时间表格和多变量时间序列的模型复杂度
 
-    Random neural networks for rough volatility. (arXiv:2305.01035v1 [q-fin.PR])
+    Understanding Model Complexity for temporal tabular and multi-variate time series, case study with Numerai data science tournament. (arXiv:2303.07925v1 [cs.LG])
 
-    [http://arxiv.org/abs/2305.01035](http://arxiv.org/abs/2305.01035)
+    [http://arxiv.org/abs/2303.07925](http://arxiv.org/abs/2303.07925)
 
-    本论文介绍了一种基于随机神经网络的深度学习数值算法，用于解决与粗波动相关的路径相关偏微分方程，并证明了该方法具有理论收敛性质。
-
-    
-
-    我们构建了一个基于深度学习的数值算法，用于求解与粗波动相关的路径相关偏微分方程。我们的方法基于将PDE解释为SPDE的解决方案，建立在由Bayer、Qiu和Yao最近得出的见解之上，并构建了一个像Gonon、Grigoryeva、Ortega最初开发的储层类型的神经网络。储层方法使我们能够将优化问题制定为简单的最小二乘回归，我们证明了其理论收敛性质。
-
-    We construct a deep learning-based numerical algorithm to solve path-dependent partial differential equations arising in the context of rough volatility. Our approach is based on interpreting the PDE as a solution to an SPDE, building upon recent insights by Bayer, Qiu and Yao, and on constructing a neural network of reservoir type as originally developed by Gonon, Grigoryeva, Ortega. The reservoir approach allows us to formulate the optimisation problem as a simple least-square regression for which we prove theoretical convergence properties.
-    
-[^10]: 使用比例代表制方法替代股票交易所中基于比例分配顺序的匹配算法的研究
-
-    On Using Proportional Representation Methods as Alternatives to Pro-Rata Based Order Matching Algorithms in Stock Exchanges. (arXiv:2303.09652v1 [econ.GN])
-
-    [http://arxiv.org/abs/2303.09652](http://arxiv.org/abs/2303.09652)
-
-    研究发现，选举制度中的比例代表方法可以替代股票交易所中的按比例分配顺序的匹配算法，提供更接近比例分配的订单分配。
+    本文采用 Numerai 数据科学竞赛的数据，探究了多变量时间序列建模中不同特征工程和降维方法的应用；提出了一种新的集成方法，用于高维时间序列建模，该方法在通用性、鲁棒性和效率上优于一些深度学习模型。
 
     
 
-    本短文的主要观察是，用于确定选举制度中比例代表的方法可以作为替代股票交易所中使用的按比例分配订单的匹配算法的选择。我们的模拟研究强有力地证明，杰斐逊/德汉特和韦伯斯特/圣拉格比例代表方法提供的订单分配比按比例分配算法获得的订单分配更接近比例分配。
+    本文探究了在多变量时间序列建模中使用不同特征工程和降维方法的应用。利用从 Numerai 数据竞赛创建的特征目标交叉相关时间序列数据集，我们证明在过度参数化的情况下，不同特征工程方法的性能与预测会收敛到可由再生核希尔伯特空间刻画的相同平衡态。我们提出了一种新的集成方法，该方法结合了不同的随机非线性变换，随后采用岭回归模型进行高维时间序列建模。与一些常用的用于序列建模的深度学习模型（如 LSTM 和 transformer）相比，我们的方法更加鲁棒（在不同的随机种子下具有较低的模型方差，且对架构的选择不太敏感），并且更有效率。我们方法的另一个优势在于模型的简单性，因为没有必要使用复杂的深度学习框架。
 
-    The main observation of this short note is that methods for determining proportional representation in electoral systems may be suitable as alternatives to the pro-rata order matching algorithm used in stock exchanges. Our simulation studies provide strong evidence that the Jefferson/D'Hondt and the Webster/Saint-Lagu\"{e} proportional representation methods provide order allocations which are closer to proportionality than the order allocations obtained from the pro-rata algorithm.
+    In this paper, we explore the use of different feature engineering and dimensionality reduction methods in multi-variate time-series modelling. Using a feature-target cross correlation time series dataset created from Numerai tournament, we demonstrate under over-parameterised regime, both the performance and predictions from different feature engineering methods converge to the same equilibrium, which can be characterised by the reproducing kernel Hilbert space. We suggest a new Ensemble method, which combines different random non-linear transforms followed by ridge regression for modelling high dimensional time-series. Compared to some commonly used deep learning models for sequence modelling, such as LSTM and transformers, our method is more robust (lower model variance over different random seeds and less sensitive to the choice of architecture) and more efficient. An additional advantage of our method is model simplicity as there is no need to use sophisticated deep learning frame
     
-[^11]: 具有半鞅策略的最优组合清算均值场控制问题
+[^6]: 连续时间随机过程的量子分析
 
-    A Mean-Field Control Problem of Optimal Portfolio Liquidation with Semimartingale Strategies. (arXiv:2207.00446v2 [q-fin.MF] UPDATED)
+    Quantum Analysis of Continuous Time Stochastic Process. (arXiv:2208.02364v3 [quant-ph] UPDATED)
 
-    [http://arxiv.org/abs/2207.00446](http://arxiv.org/abs/2207.00446)
+    [http://arxiv.org/abs/2208.02364](http://arxiv.org/abs/2208.02364)
 
-    本文研究了具有半鞅策略的最优组合清算问题，证明了价值函数采用线性-二次形式，且最优策略仅在交易期的开始和结束时进行跳跃。
-
-    
-
-    我们考虑了一个具有瞬态市场影响和自激励订单流的组合清算模型，其中涉及到 c\`adl\`ag 半鞅策略的均值场控制问题。我们证明了价值函数仅通过其分布依赖于状态过程，并且它采用线性-二次形式，其系数满足非标准 Riccati 类型方程的耦合系统。通过由离散时间模型转换到连续时间极限来启发式地获得 Riccati 方程。通过复杂的变换，我们可以将系统带入标准 Riccati 形式，从而推断出全局解的存在性。我们的分析表明，最优策略仅在交易期的开始和结束时进行跳跃。
-
-    We consider a mean-field control problem with c\`adl\`ag semimartingale strategies arising in portfolio liquidation models with transient market impact and self-exciting order flow. We show that the value function depends on the state process only through its law, and that it is of linear-quadratic form and that its coefficients satisfy a coupled system of non-standard Riccati-type equations. The Riccati equations are obtained heuristically by passing to the continuous-time limit from a sequence of discrete-time models. A sophisticated transformation shows that the system can be brought into standard Riccati form from which we deduce the existence of a global solution. Our analysis shows that the optimal strategy jumps only at the beginning and the end of the trading period.
-    
-[^12]: 评估外汇储备的货币组成
-
-    Estimating the Currency Composition of Foreign Exchange Reserves. (arXiv:2206.13751v3 [q-fin.ST] UPDATED)
-
-    [http://arxiv.org/abs/2206.13751](http://arxiv.org/abs/2206.13751)
-
-    该论文提出了一种隐马尔可夫模型，用于评估央行外汇储备的货币组成。作者将该模型应用于中国和新加坡，发现中国的储备组成可能类似于全球平均水平，而新加坡可能持有更少的美元。
+    本文提出了一种通用框架，用于在量子计算机上高效地准备连续时间随机过程路径。基于压缩状态准备方法，可以高效地提取重要的路径相关和历史敏感信息，并实现二次加速。
 
     
 
-    央行管理着大约12万亿美元的外汇储备，影响全球汇率和资产价值。然而，一些最大的储备保有者报告的货币组合信息很少，阻碍了实证分析。本文提出了一种隐马尔可夫模型，通过将组合价值的波动与主要储备货币的汇率相关联，来估计央行的储备组成。我将该模型应用于中国和新加坡，这两个国家共持有约3.4万亿美元的储备并隐瞒其组成。我发现，中国的储备组成可能类似于全球平均水平，而新加坡可能持有更少的美元。
+    连续时间随机过程是一种主流的数学工具，用于模拟具有广泛应用的金融、统计、物理和时间序列分析中的随机世界，然而，连续时间随机过程的模拟和分析对于经典计算机来说是一个具有挑战性的问题。本文建立了一个通用框架，可以在量子计算机上高效地准备连续时间随机过程的路径。通过我们的压缩状态准备方法，关键参数存留时间的量子比特数和电路深度都得到了优化，存储和计算资源指数级降低。所需的信息，包括对金融问题至关重要的路径相关和历史敏感信息，可以从压缩取样路径中高效地提取，并且进一步实现了二次加速。此外，这种提取方法对于那些不连续的跳跃更加敏感。
 
-    Central banks manage about \$12 trillion in foreign exchange reserves, influencing global exchange rates and asset prices. However, some of the largest holders of reserves report minimal information about their currency composition, hindering empirical analysis. I describe a Hidden Markov Model to estimate the composition of a central bank's reserves by relating the fluctuation in the portfolio's valuation to the exchange rates of major reserve currencies. I apply the model to China and Singapore, two countries that collectively hold about \$3.4 trillion in reserves and conceal their composition. I find that both China's reserve composition likely resembles the global average, while Singapore probably holds fewer US dollars.
+    The continuous time stochastic process is a mainstream mathematical instrument modeling the random world with a wide range of applications involving finance, statistics, physics, and time series analysis, while the simulation and analysis of the continuous time stochastic process is a challenging problem for classical computers. In this work, a general framework is established to prepare the path of a continuous time stochastic process in a quantum computer efficiently. The storage and computation resource is exponentially reduced on the key parameter of holding time, as the qubit number and the circuit depth are both optimized via our compressed state preparation method. The desired information, including the path-dependent and history-sensitive information that is essential for financial problems, can be extracted efficiently from the compressed sampling path, and admits a further quadratic speed-up. Moreover, this extraction method is more sensitive to those discontinuous jumps capt
     
-[^13]: 大萧条时期的铁路纾困计划
+[^7]: 加密货币平台的中心化演化
 
-    Railroad Bailouts in the Great Depression. (arXiv:2205.13025v3 [econ.GN] UPDATED)
+    The Evolution Of Centralisation on Cryptocurrency Platforms. (arXiv:2206.05081v2 [physics.soc-ph] UPDATED)
 
-    [http://arxiv.org/abs/2205.13025](http://arxiv.org/abs/2205.13025)
+    [http://arxiv.org/abs/2206.05081](http://arxiv.org/abs/2206.05081)
 
-    大萧条时期，美国政府通过向铁路公司提供贷款来减少债券违约的可能性和增加就业，然而这些纾困计划没有帮助铁路公司增加盈利或就业，而是减少了杠杆比率。纾困对股票价格几乎没有影响，但导致其债券价格上涨并降低了评级下调的可能性。同时，这些纾困计划也没有帮助铁路公司避免债务违约，但有利于一些附近的制造业公司。
-
-    
-
-    重建金融公司和公共工程管理局在1932年至1939年间向46家铁路公司发放了802多万美元的贷款，政府的目标是减少债券违约的可能性和增加就业。然而被纾困的铁路公司并没有增加盈利或就业，反而减少了杠杆比率。纾困铁路公司对其股票价格几乎没有影响，但导致其债券价格上涨并降低了评级下调的可能性。然而，纾困并没有帮助铁路公司避免债务违约。我们发现，一些位于铁路附近的制造业公司受益于这些纾困计划。
-
-    The Reconstruction Finance Corporation and Public Works Administration loaned 46 railroads over $802 million between 1932 and 1939. The government's goal was to decrease the likelihood of bond defaults and increase employment. Bailed-out railroads did not increase profitability or employment. Instead, they reduced leverage. Bailing out a railroad had little effect on its stock price, but it resulted in an increase in its bond prices and reduced the likelihood of a ratings downgrade. However, bailouts did not help railroads avoid defaulting on their debt. We find some evidence that manufacturing firms located close to railroads benefited from the bailouts.
-    
-[^14]: 基于C\`adl\`ag粗路径理论的金融学基础
-
-    A C\`adl\`ag Rough Path Foundation for Robust Finance. (arXiv:2109.04225v3 [math.PR] UPDATED)
-
-    [http://arxiv.org/abs/2109.04225](http://arxiv.org/abs/2109.04225)
-
-    本文利用粗路径理论为随机Ito积分提供了一种逐路径的基础，可以覆盖大多数金融市场模型，包括骑士不确定性。通过引入属性（RIE）来确保路径和二次变差的存在，并证明了相应的粗略积分存在于沿着合适的分区序列的左端点黎曼和的极限中。
+    本文研究了加密货币平台的中心化演化，使用复杂系统文献中广泛的方法对比了一系列区块链，质疑了当前加密货币是否真正去中心化。
 
     
 
-    本文应用粗路径理论为随机Ito积分提供了一种逐路径的基础，覆盖了大多数常用的交易策略和金融市场数学模型，包括骑士不确定性下的模型。为此，引入了所谓的c\`adl\`ag路径属性（RIE），表明存在一个“粗”的c\`adl\`ag路径以及F\"ollmer意义下的二次变差。证明了相应的粗略积分存在于沿着合适的分区序列的左端点黎曼和的极限中。这允许处理非梯度型的被积函数，并获得粗路径理论的强大稳定性估计。此外，验证了函数生成的交易策略和Cover的通用组合都是可靠的被积函数，而（Young）半鞅和典型价格路径都满足属性（RIE）。
+    十多年前，区块链被誉为克服在线支付中心化信任第三方的解决方案。随着时间的推移，加密货币运动发生了改变和发展，尽管去中心化仍然是核心意识形态和每个新的加密项目应该提供的必要功能。本文使用复杂系统文献中广泛的方法研究了加密货币中心化的概念，对比了一系列区块链系统，以定义区块链系统可能展示的许多不同级别的（去）中心化，并质疑当前加密货币在技术和经济意义上是否真正去中心化。
 
-    Using rough path theory, we provide a pathwise foundation for stochastic It\^o integration, which covers most commonly applied trading strategies and mathematical models of financial markets, including those under Knightian uncertainty. To this end, we introduce the so-called Property (RIE) for c\`adl\`ag paths, which is shown to imply the existence of a c\`adl\`ag rough path and of quadratic variation in the sense of F\"ollmer. We prove that the corresponding rough integrals exist as limits of left-point Riemann sums along a suitable sequence of partitions. This allows one to treat integrands of non-gradient type, and gives access to the powerful stability estimates of rough path theory. Additionally, we verify that (path-dependent) functionally generated trading strategies and Cover's universal portfolio are admissible integrands, and that Property (RIE) is satisfied by both (Young) semimartingales and typical price paths.
+    More than ten years ago the blockchain was acclaimed as the solution to overcome centralised trusted third parties for online payments. Through the years the crypto-movement changed and evolved, although decentralisation remained the core ideology and the necessary feature every new crypto-project should provide. In this paper we study the concept of centralisation in cryptocurrencies using a wide array of methodologies from the complex systems literature, on a comparative collection of blockchains, in order to define the many different levels a blockchain system may display (de-)centralisation and to question whether the present state of cryptocurrencies is, in a technological and economical sense, actually decentralised.
+    
+[^8]: 《MicroVelocity: 重新思考数字货币的货币速度》
+
+    MicroVelocity: rethinking the Velocity of Money for digital currencies. (arXiv:2201.13416v2 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2201.13416](http://arxiv.org/abs/2201.13416)
+
+    本文提出了MicroVelocity框架来分析数字货币的货币流通速度，揭示了个体代理贡献的分布特点，记录了高速中介的出现，为数字货币的发展和分析提供政策洞见。
+
+    
+
+    我们提出了一个新的框架来分析货币流通速度，即每个个体代理的贡献（MicroVelocity），并揭示总体货币速度的分布决定因素。通过利用存储在四种加密货币区块链中的完整公开交易数据，我们实证发现MicroVelocity i)非常异质分布，ii)与代理的财富强相关。我们进一步记录高速中介的出现，从而挑战了这些系统完全去中心化的想法。此外，我们提出的框架和结果为数字货币的发展和分析提供了政策洞见。
+
+    We propose a novel framework to analyse the velocity of money in terms of the contribution (MicroVelocity) of each individual agent, and to uncover the distributional determinants of aggregate velocity. Leveraging on complete publicly available transactions data stored in blockchains from four cryptocurrencies, we empirically find that MicroVelocity i) is very heterogeneously distributed and ii) strongly correlates with agents' wealth. We further document the emergence of high-velocity intermediaries, thereby challenging the idea that these systems are fully decentralised. Further, our framework and results provide policy insights for the development and analysis of digital currencies.
     
 

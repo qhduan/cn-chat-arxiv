@@ -1,0 +1,12 @@
+{
+    "title": "CryCeleb: A Speaker Verification Dataset Based on Infant Cry Sounds. (arXiv:2305.00969v2 [cs.SD] UPDATED)",
+    "abstract": "This paper describes the Ubenwa CryCeleb dataset - a labeled collection of infant cries, and the accompanying CryCeleb 2023 task - a public speaker verification challenge based on infant cry sounds. We release for academic usage more than 6 hours of manually segmented cry sounds from 786 newborns to encourage research in infant cry analysis.",
+    "link": "http://arxiv.org/abs/2305.00969",
+    "context": "Title: CryCeleb: A Speaker Verification Dataset Based on Infant Cry Sounds. (arXiv:2305.00969v2 [cs.SD] UPDATED)\nAbstract: This paper describes the Ubenwa CryCeleb dataset - a labeled collection of infant cries, and the accompanying CryCeleb 2023 task - a public speaker verification challenge based on infant cry sounds. We release for academic usage more than 6 hours of manually segmented cry sounds from 786 newborns to encourage research in infant cry analysis.",
+    "path": "papers/23/05/2305.00969.json",
+    "total_tokens": 585,
+    "translated_title": "CryCeleb: 基于婴儿哭声的说话人认证数据集",
+    "translated_abstract": "本文描述了Ubenwa CryCeleb数据集——一个标记的婴儿哭声收集，以及附带的CryCeleb 2023任务——一个基于婴儿哭声的公共说话人验证挑战。我们释放出786名新生儿超过6小时的手动分割哭声，以鼓励婴儿哭声分析方面的研究。",
+    "tldr": "CryCeleb是一个基于婴儿哭声的说话人认证数据集，包括超过6小时的手动分割哭声，可用于研究婴儿哭声分析。",
+    "en_tdlr": "CryCeleb is a speaker verification dataset based on infant cry sounds, which includes over 6 hours of manually segmented cry sounds from 786 newborns and can be used for research in infant cry analysis."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "MicroVelocity: rethinking the Velocity of Money for digital currencies. (arXiv:2201.13416v2 [econ.GN] UPDATED)",
+    "abstract": "We propose a novel framework to analyse the velocity of money in terms of the contribution (MicroVelocity) of each individual agent, and to uncover the distributional determinants of aggregate velocity. Leveraging on complete publicly available transactions data stored in blockchains from four cryptocurrencies, we empirically find that MicroVelocity i) is very heterogeneously distributed and ii) strongly correlates with agents' wealth. We further document the emergence of high-velocity intermediaries, thereby challenging the idea that these systems are fully decentralised. Further, our framework and results provide policy insights for the development and analysis of digital currencies.",
+    "link": "http://arxiv.org/abs/2201.13416",
+    "context": "Title: MicroVelocity: rethinking the Velocity of Money for digital currencies. (arXiv:2201.13416v2 [econ.GN] UPDATED)\nAbstract: We propose a novel framework to analyse the velocity of money in terms of the contribution (MicroVelocity) of each individual agent, and to uncover the distributional determinants of aggregate velocity. Leveraging on complete publicly available transactions data stored in blockchains from four cryptocurrencies, we empirically find that MicroVelocity i) is very heterogeneously distributed and ii) strongly correlates with agents' wealth. We further document the emergence of high-velocity intermediaries, thereby challenging the idea that these systems are fully decentralised. Further, our framework and results provide policy insights for the development and analysis of digital currencies.",
+    "path": "papers/22/01/2201.13416.json",
+    "total_tokens": 724,
+    "translated_title": "《MicroVelocity: 重新思考数字货币的货币速度》",
+    "translated_abstract": "我们提出了一个新的框架来分析货币流通速度，即每个个体代理的贡献（MicroVelocity），并揭示总体货币速度的分布决定因素。通过利用存储在四种加密货币区块链中的完整公开交易数据，我们实证发现MicroVelocity i)非常异质分布，ii)与代理的财富强相关。我们进一步记录高速中介的出现，从而挑战了这些系统完全去中心化的想法。此外，我们提出的框架和结果为数字货币的发展和分析提供了政策洞见。",
+    "tldr": "本文提出了MicroVelocity框架来分析数字货币的货币流通速度，揭示了个体代理贡献的分布特点，记录了高速中介的出现，为数字货币的发展和分析提供政策洞见。",
+    "en_tdlr": "This paper proposes a MicroVelocity framework to analyze the velocity of money in digital currencies, uncovering the distributional determinants of individual agent contribution, documenting the emergence of high-velocity intermediaries, and providing policy insights for the development and analysis of digital currencies."
+}

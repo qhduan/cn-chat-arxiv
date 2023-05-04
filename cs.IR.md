@@ -2,31 +2,137 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [How to Unleash the Power of Large Language Models for Few-shot Relation Extraction?.](http://arxiv.org/abs/2305.01555) | 本文通过使用GPT-3.5模型在少样本关系抽取中，实现在四个不同数据集上的新的最优性能，并提出了与任务相关的指导说明和约束模式下的数据生成方法。 |
-| [^2] | [The Family Tree Graph as a Predictor of the Family Members' Satisfaction with One Another.](http://arxiv.org/abs/2305.01552) | 该研究发现家庭成员满意度与家族树图，家庭规模，孩子是否为同父母，以及家庭收入有关。 |
-| [^3] | [Explainable Conversational Question Answering over Heterogeneous Sources via Iterative Graph Neural Networks.](http://arxiv.org/abs/2305.01548) | 本论文提出 EXPLAIGNN 方法，使用图神经网络构建异构图，从多个数据源中提取信息，达到更全面准确的问答效果，并提供了用户可理解的答案解释。 |
-| [^4] | [Safe Deployment for Counterfactual Learning to Rank with Exposure-Based Risk Minimization.](http://arxiv.org/abs/2305.01522) | 该论文提出了一种新的反事实学习排序方法，通过基于曝光的风险正则化对IPS估计进行调整，以确保学习排名模型与给定的安全模型接近，从而在部署过程中降低风险。 |
-| [^5] | [MTrainS: Improving DLRM training efficiency using heterogeneous memories.](http://arxiv.org/abs/2305.01515) | 本文旨在研究现实中部署的深度学习推荐模型中嵌入表的带宽需求和局部性，并通过使用异构内存提出MTrainS来提高DLRM训练效率。 |
-| [^6] | [Retrieving Comparative Arguments using Ensemble Methods and Neural Information Retrieval.](http://arxiv.org/abs/2305.01513) | 本文针对Touche实验室任务提出了一个方案，该方案使用决策树集成算法和大型上下文化语言模型，能够按照相关性和论证支持排序比较文档。该方法在竞赛中表现优异，可用于改进信息检索和对话系统中处理比较查询的性能。 |
-| [^7] | [Report from Dagstuhl Seminar 23031: Frontiers of Information Access Experimentation for Research and Education.](http://arxiv.org/abs/2305.01509) | 本篇文章是Dagstuhl研讨会23031“前沿信息获取实验研究和教育”的报告，主要讨论了通过更负责任的实验实践来提高信息获取技术的有效性和科学教育，会议召集了各领域专家，提出了进一步改善我们的研究方法和研究教育的方向。 |
-| [^8] | [NewsPanda: Media Monitoring for Timely Conservation Action.](http://arxiv.org/abs/2305.01503) | NewsPanda是一个可以自动检测和分析与环保和基础建设相关的网上文章的工具。该工具使用主动学习方法和噪声校正算法对BERT模型进行微调以识别相关文章，并提取关键字和找到相关来源。已被世界自然基金会团队在英国、印度和尼泊尔成功部署。 |
-| [^9] | [Multimodal Neural Databases.](http://arxiv.org/abs/2305.01447) | 本文提出了多模态神经数据库框架（MMNDBs），可以回答涉及文本和图像等不同输入模态的复杂查询，具有类似数据库的功能。 |
-| [^10] | [An experimental framework for designing document structure for users' decision making - An empirical study of recipes.](http://arxiv.org/abs/2305.01359) | 本研究提出了实验框架，通过汇集非专业读者的见解来确定文档的有用内容，以提高非专业读者的决策能力。研究结果表明，在食谱中为每个烹饪步骤的末尾安排副标题的适当成分或注释可以显著增加食谱的可读性。 |
-| [^11] | [Optimizing Guided Traversal for Fast Learned Sparse Retrieval.](http://arxiv.org/abs/2305.01203) | 本文通过优化BM25引导的索引遍历，提出了一个使用稀疏表示进行快速学习稀疏检索的解决方案。这种方案比原始MaxScore方法快得多，同时保留相关性的有效性。 |
-| [^12] | [Exploration of Unranked Items in Safe Online Learning to Re-Rank.](http://arxiv.org/abs/2305.01202) | 本文提出了一种安全的在线学习排序算法，通过将当前排名中的一个项目与排名外的项目高效地交换来执行探索，并基于Kullback-Leibler上置信度界限（KL-UCB）对未排序项目进行乐观选择和安全的排序，以提高长期收益。 |
-| [^13] | [Complex Logical Reasoning over Knowledge Graphs using Large Language Models.](http://arxiv.org/abs/2305.01157) | 本文提出了一种使用大型语言模型的解耦方法，将复杂的知识图谱推理形式化为上下文知识图搜索和抽象逻辑查询推理的组合，与现有方法相比，它在多个逻辑查询结构的标准基准数据集上都表现出更好的性能，并且在更高复杂性的查询中获得了显着的性能提升。 |
-| [^14] | [Ripple Knowledge Graph Convolutional Networks For Recommendation Systems.](http://arxiv.org/abs/2305.01147) | 本文介绍了一种基于知识图谱的深度学习模型RKGCN，它能够动态分析用户的偏好并推荐出合适的物品。该模型在包括电影、书籍和音乐在内的三个真实世界的数据集上比5个基准模型表现更好。 |
-| [^15] | [Multidimensional Fairness in Paper Recommendation.](http://arxiv.org/abs/2305.01141) | 本文提出了三种公平方法，考虑到作者多样性，以解决论文推荐中的潜在偏见，这些方法可以同时提供跨多个受保护变量的公正结果。 |
-| [^16] | [Contextual Multilingual Spellchecker for User Queries.](http://arxiv.org/abs/2305.01082) | 本文提出了一个上下文多语种用户查询拼写检查器，它非常快速、可扩展，并根据特定产品的需求调整其词汇表和拼写输出，以满足用户的需求。 |
-| [^17] | [CHIC: Corporate Document for Visual question Answering.](http://arxiv.org/abs/2305.01054) | CHIC提供了一个公共企业文档问答数据库，以满足不同类型企业文件的需求。 |
-| [^18] | [LooPy: A Research-Friendly Mix Framework for Music Information Retrieval on Electronic Dance Music.](http://arxiv.org/abs/2305.01051) | LooPy是一种Python软件包，为MIR提供了一种面向电子舞曲的基础设施，可用于自动生成EDM音频，并提供了框架来构建专业级的模板，使用户可以从指定的旋律和和弦中呈现出制作精良的歌曲轨道或仅通过使用符号性的旋律生成器，提供具有多种风格的音轨。 |
-| [^19] | [RecD: Deduplication for End-to-End Deep Learning Recommendation Model Training Infrastructure.](http://arxiv.org/abs/2211.05239) | RecD 是一种为 DLRM 训练提供去重功能的端到端基础设施优化，解决了由于特征重复造成的海量存储、预处理和训练开销，引入了新的张量格式 InverseKeyedJaggedTensors (IKJTs) 来去除特征值的重复，使 DLRM 模型架构能够更好地利用数据的重复性提高训练吞吐量。 |
-| [^20] | [Graph Neural Networks for Link Prediction with Subgraph Sketching.](http://arxiv.org/abs/2209.15486) | 本研究提出了一种名为ELPH的全图GNN模型，它使用子图草图作为消息传递，以缓解LP任务中子图之间的冗余问题，并在多个基准数据集上取得了最先进的结果。 |
-| [^21] | [Boosted Off-Policy Learning.](http://arxiv.org/abs/2208.01148) | 我们提出了一种基于Boosting的离线策略学习算法，将基础学习器简化为监督学习，获得了广泛的实际效益；实验结果表明其应用能力优于深度神经网络的离线策略学习和简单回归方法。 |
+| [^1] | [Generating Synthetic Documents for Cross-Encoder Re-Rankers: A Comparative Study of ChatGPT and Human Experts.](http://arxiv.org/abs/2305.02320) | 本研究探讨了使用大型语言模型生成合成文档，作为交叉编码器重新排序的训练数据的有效性。并引入了一个新的数据集ChatGPT-RetrievalQA，最终发现ChatGPT反应训练的交叉编码器重排模型比使用人类生成数据的模型更有效。 |
+| [^2] | [Uncovering ChatGPT's Capabilities in Recommender Systems.](http://arxiv.org/abs/2305.02182) | 本研究从信息检索（IR）的角度出发，对ChatGPT在点、对、列表三种排名策略下的推荐能力进行了实证分析，在四个不同领域的数据集上进行大量实验并发现ChatGPT在三种排名策略下的表现均优于其他大型语言模型，在列表排名中能够达到成本和性能最佳平衡。 |
+| [^3] | [Zero-Shot Listwise Document Reranking with a Large Language Model.](http://arxiv.org/abs/2305.02156) | 本文提出了一种基于大型语言模型的列表式重新排序器，可以在没有特定任务训练数据的情况下实现强大的重新排序效果，并在实验中取得了令人满意的结果。 |
+| [^4] | [Understanding Differential Search Index for Text Retrieval.](http://arxiv.org/abs/2305.02073) | DSI是一种可微分搜索指数信息检索框架，虽然其能够生成文件标识符的排序列表，但在区分相关文档和随机文档方面表现不佳，研究人员提出了一种多任务蒸馏方法以提高其检索质量。 |
+| [^5] | [Denoising Multi-modal Sequential Recommenders with Contrastive Learning.](http://arxiv.org/abs/2305.01915) | 本文提出一种名为Demure的系统，采用对比学习来去除多模态推荐系统中的潜在噪音，以此提高模型效果。 |
+| [^6] | [Pre-train and Search: Efficient Embedding Table Sharding with Pre-trained Neural Cost Models.](http://arxiv.org/abs/2305.01868) | 本文探索了一种基于预训练成本模型的高效分片方法，通过神经网络预测成本，并使用在线搜索确定最佳分片计划，实验结果表明其在嵌入表分片任务中表现很好。 |
+| [^7] | [Towards Imperceptible Document Manipulations against Neural Ranking Models.](http://arxiv.org/abs/2305.01860) | 该论文提出了一种针对神经排序模型的不易被检测到的对抗性攻击框架，称为“几乎不可察觉文档操作”（IDEM）。IDEM使用生成语言模型生成连结句，无法引入易于检测的错误，并且使用单独的位置合并策略来平衡扰动文本的相关性和连贯性，实验结果表明，IDEM可以在保持高人类评估得分的同时优于强基线。 |
+| [^8] | [When Newer is Not Better: Does Deep Learning Really Benefit Recommendation From Implicit Feedback?.](http://arxiv.org/abs/2305.01801) | 本研究对多个神经推荐模型与传统模型进行比较，提出了一组评估策略来衡量其记忆性能、泛化性能和子群特定性能，揭示了在IMDB和Yelp数据集上，神经推荐模型与传统模型的差异性。 |
+| [^9] | [How to Unleash the Power of Large Language Models for Few-shot Relation Extraction?.](http://arxiv.org/abs/2305.01555) | 本文通过使用GPT-3.5模型在少样本关系抽取中，实现在四个不同数据集上的新的最优性能，并提出了与任务相关的指导说明和约束模式下的数据生成方法。 |
+| [^10] | [Exploiting Simulated User Feedback for Conversational Search: Ranking, Rewriting, and Beyond.](http://arxiv.org/abs/2304.13874) | 本研究利用一个名为ConvSim的用户模拟器来评估用户反馈，从而提高会话式搜索的性能，实验结果显示有效利用用户反馈可以大幅提高检索性能。 |
+| [^11] | [Do you MIND? Reflections on the MIND dataset for research on diversity in news recommendations.](http://arxiv.org/abs/2304.08253) | 该研究分析了MIND数据集在新闻推荐多样性研究中的适用性，发现虽然是一个很好的进步，但仍有很大的改进空间。 |
+| [^12] | [Where to Go Next for Recommender Systems? ID- vs. Modality-based recommender models revisited.](http://arxiv.org/abs/2303.13835) | 推荐系统中，使用唯一标识的IDRec模型相比使用模态的MoRec模型在推荐准确性和效率上表现更好，然而，需要根据具体情况选择适合的推荐模型。 |
+| [^13] | [Product Question Answering in E-Commerce: A Survey.](http://arxiv.org/abs/2302.08092) | 电商PQA的研究面临着问题多、数据难收集、答案不确定等特殊挑战。本文系统地综述了PQA研究的现状与未来方向。 |
+| [^14] | [How Bad is Top-$K$ Recommendation under Competing Content Creators?.](http://arxiv.org/abs/2302.01971) | 本文基于随机效用模型，研究了内容创作者在Top-K推荐下的竞争影响，证明了用户福利损失受小常数上界影响。 |
+| [^15] | [Pivotal Role of Language Modeling in Recommender Systems: Enriching Task-specific and Task-agnostic Representation Learning.](http://arxiv.org/abs/2212.03760) | 本文研究发现，用户历史语言建模可以在不同推荐任务中取得优异结果，并且利用任务无关的用户历史还可以提供显著的性能优势。该方法具有广泛的现实世界迁移学习能力。 |
 
 # 详细
 
-[^1]: 如何发挥大语言模型在少样本关系抽取中的能力？
+[^1]: 产生用于交叉编码器的合成文档: ChatGPT和人类专家的比较研究。
+
+    Generating Synthetic Documents for Cross-Encoder Re-Rankers: A Comparative Study of ChatGPT and Human Experts. (arXiv:2305.02320v1 [cs.IR])
+
+    [http://arxiv.org/abs/2305.02320](http://arxiv.org/abs/2305.02320)
+
+    本研究探讨了使用大型语言模型生成合成文档，作为交叉编码器重新排序的训练数据的有效性。并引入了一个新的数据集ChatGPT-RetrievalQA，最终发现ChatGPT反应训练的交叉编码器重排模型比使用人类生成数据的模型更有效。
+
+    
+
+    我们探讨了生成大型语言模型（LLMs）在产生训练数据方面的有用性，以供交叉编码器的重新排序进行对比研究，从而产生了合成文档而不是合成查询的新方向。我们引入了一个新的数据集，ChatGPT-RetrievalQA，并比较了在LLM-generated和human-generated数据上进行微调的模型的有效性。使用生成的LLMs数据可以用于增加训练数据，特别是在标记数据较少的领域中。我们基于现有数据集，即由公共问题集和ChatGPT的人类回答和答案组成的人类ChatGPT比较语料库（HC3）构建了ChatGPT-RetrievalQA。我们在MS MARCO DEV，TREC DL'19和TREC DL'20上进行评估，结果表明在ChatGPT响应方面受过训练的交叉编码器重新排序模型是零-shot重新排序器比那些接受了人类生成数据的有效性显著更高的。
+
+    We investigate the usefulness of generative Large Language Models (LLMs) in generating training data for cross-encoder re-rankers in a novel direction: generating synthetic documents instead of synthetic queries. We introduce a new dataset, ChatGPT-RetrievalQA, and compare the effectiveness of models fine-tuned on LLM-generated and human-generated data. Data generated with generative LLMs can be used to augment training data, especially in domains with smaller amounts of labeled data. We build ChatGPT-RetrievalQA based on an existing dataset, human ChatGPT Comparison Corpus (HC3), consisting of public question collections with human responses and answers from ChatGPT. We fine-tune a range of cross-encoder re-rankers on either human-generated or ChatGPT-generated data. Our evaluation on MS MARCO DEV, TREC DL'19, and TREC DL'20 demonstrates that cross-encoder re-ranking models trained on ChatGPT responses are statistically significantly more effective zero-shot re-rankers than those trai
+    
+[^2]: 揭示ChatGPT在推荐系统中的能力
+
+    Uncovering ChatGPT's Capabilities in Recommender Systems. (arXiv:2305.02182v1 [cs.IR])
+
+    [http://arxiv.org/abs/2305.02182](http://arxiv.org/abs/2305.02182)
+
+    本研究从信息检索（IR）的角度出发，对ChatGPT在点、对、列表三种排名策略下的推荐能力进行了实证分析，在四个不同领域的数据集上进行大量实验并发现ChatGPT在三种排名策略下的表现均优于其他大型语言模型，在列表排名中能够达到成本和性能最佳平衡。
+
+    
+
+    ChatGPT的问答功能吸引了自然语言处理（NLP）界及外界的关注。为了测试ChatGPT在推荐方面的表现，本研究从信息检索（IR）的角度出发，对ChatGPT在点、对、列表三种排名策略下的推荐能力进行了实证分析。通过在不同领域的四个数据集上进行大量实验，我们发现ChatGPT在三种排名策略下的表现均优于其他大型语言模型。基于单位成本改进的分析，我们确定ChatGPT在列表排名中能够在成本和性能之间实现最佳平衡，而在对和点排名中表现相对较弱。
+
+    The debut of ChatGPT has recently attracted the attention of the natural language processing (NLP) community and beyond. Existing studies have demonstrated that ChatGPT shows significant improvement in a range of downstream NLP tasks, but the capabilities and limitations of ChatGPT in terms of recommendations remain unclear. In this study, we aim to conduct an empirical analysis of ChatGPT's recommendation ability from an Information Retrieval (IR) perspective, including point-wise, pair-wise, and list-wise ranking. To achieve this goal, we re-formulate the above three recommendation policies into a domain-specific prompt format. Through extensive experiments on four datasets from different domains, we demonstrate that ChatGPT outperforms other large language models across all three ranking policies. Based on the analysis of unit cost improvements, we identify that ChatGPT with list-wise ranking achieves the best trade-off between cost and performance compared to point-wise and pair-wi
+    
+[^3]: 基于大型语言模型的零样本列表式文档重新排序
+
+    Zero-Shot Listwise Document Reranking with a Large Language Model. (arXiv:2305.02156v1 [cs.IR])
+
+    [http://arxiv.org/abs/2305.02156](http://arxiv.org/abs/2305.02156)
+
+    本文提出了一种基于大型语言模型的列表式重新排序器，可以在没有特定任务训练数据的情况下实现强大的重新排序效果，并在实验中取得了令人满意的结果。
+
+    
+
+    基于双编码器或交叉编码器结构的监督排序方法已经在多阶段文本排序任务中取得了成功，但是它们需要大量相关性判断作为训练数据。在本文中，我们提出了一种使用大型语言模型的列表式重新排序器(LRL)，它可以在不使用任何特定任务训练数据的情况下实现强大的重新排序效果。LRL与现有的点式排名方法不同，在点式排名方法中，文档是独立得分并按分数排名，而LRL直接生成给定候选文档的重新排序文档标识符列表。在三个TREC网络搜索数据集上的实验表明，LRL不仅可以在重新排序第一阶段检索结果时优于零样本点式方法，还可以作为点式方法的最终阶段重新排序器，以提高效率并提高前几名的结果。此外，我们将我们的方法应用于MIRACL的子集，这是最近的一个多语言检索数据集，获得了令人满意的结果。
+
+    Supervised ranking methods based on bi-encoder or cross-encoder architectures have shown success in multi-stage text ranking tasks, but they require large amounts of relevance judgments as training data. In this work, we propose Listwise Reranker with a Large Language Model (LRL), which achieves strong reranking effectiveness without using any task-specific training data. Different from the existing pointwise ranking methods, where documents are scored independently and ranked according to the scores, LRL directly generates a reordered list of document identifiers given the candidate documents. Experiments on three TREC web search datasets demonstrate that LRL not only outperforms zero-shot pointwise methods when reranking first-stage retrieval results, but can also act as a final-stage reranker to improve the top-ranked results of a pointwise method for improved efficiency. Additionally, we apply our approach to subsets of MIRACL, a recent multilingual retrieval dataset, with results 
+    
+[^4]: 了解文本检索的可微分搜索指数
+
+    Understanding Differential Search Index for Text Retrieval. (arXiv:2305.02073v1 [cs.IR])
+
+    [http://arxiv.org/abs/2305.02073](http://arxiv.org/abs/2305.02073)
+
+    DSI是一种可微分搜索指数信息检索框架，虽然其能够生成文件标识符的排序列表，但在区分相关文档和随机文档方面表现不佳，研究人员提出了一种多任务蒸馏方法以提高其检索质量。
+
+    
+
+    可微分搜索指数（DSI）是一种新颖的信息检索框架，利用可微分函数对给定查询生成一个文件标识符的排序列表。然而，由于端到端神经架构的黑盒特性，仍需了解DSI具备基本索引和检索能力的程度。为了弥补这一差距，在本研究中，我们定义并检验了一个有效的IR框架应具备的三个重要能力，即排他性、完整性和相关性排序。我们的分析实验证明，虽然DSI在记忆从伪查询到文档标识符的单向映射方面表现出熟练程度，但在区分相关文档和随机文档方面效果不佳，从而对其检索效果产生负面影响。为了解决这个问题，我们提出了一种多任务蒸馏方法，以提高检索质量而不改变结构。
+
+    The Differentiable Search Index (DSI) is a novel information retrieval (IR) framework that utilizes a differentiable function to generate a sorted list of document identifiers in response to a given query. However, due to the black-box nature of the end-to-end neural architecture, it remains to be understood to what extent DSI possesses the basic indexing and retrieval abilities. To mitigate this gap, in this study, we define and examine three important abilities that a functioning IR framework should possess, namely, exclusivity, completeness, and relevance ordering. Our analytical experimentation shows that while DSI demonstrates proficiency in memorizing the unidirectional mapping from pseudo queries to document identifiers, it falls short in distinguishing relevant documents from random ones, thereby negatively impacting its retrieval effectiveness. To address this issue, we propose a multi-task distillation approach to enhance the retrieval quality without altering the structure o
+    
+[^5]: 基于对比学习的去噪多模态推荐系统
+
+    Denoising Multi-modal Sequential Recommenders with Contrastive Learning. (arXiv:2305.01915v1 [cs.IR])
+
+    [http://arxiv.org/abs/2305.01915](http://arxiv.org/abs/2305.01915)
+
+    本文提出一种名为Demure的系统，采用对比学习来去除多模态推荐系统中的潜在噪音，以此提高模型效果。
+
+    
+
+    目前，将多模态数据用于推荐系统中的用户建模已成为一个快速增长的研究领域。现有的多媒体推荐器通过整合各种模态并设计精细的模块，取得了显著的改进。但是，当用户决定与物品进行交互时，他们大多数并没有完全阅读所有模态的内容。我们称直接导致用户行为的模态为兴趣点，这些点是捕捉用户兴趣的重要方面。与之相反，不直接导致用户行为的模态则可能是潜在的噪音，并可能误导推荐模型的学习。由于无法访问用户显式反馈其兴趣点，因此文献中很少有研究致力于去除这些潜在的噪音。为了填补这一空白，我们提出一种基于对比学习的弱监督框架，用于去噪多模态推荐系统（称为Demure）。
+
+    There is a rapidly-growing research interest in engaging users with multi-modal data for accurate user modeling on recommender systems. Existing multimedia recommenders have achieved substantial improvements by incorporating various modalities and devising delicate modules. However, when users decide to interact with items, most of them do not fully read the content of all modalities. We refer to modalities that directly cause users' behaviors as point-of-interests, which are important aspects to capture users' interests. In contrast, modalities that do not cause users' behaviors are potential noises and might mislead the learning of a recommendation model. Not surprisingly, little research in the literature has been devoted to denoising such potential noises due to the inaccessibility of users' explicit feedback on their point-of-interests. To bridge the gap, we propose a weakly-supervised framework based on contrastive learning for denoising multi-modal recommenders (dubbed Demure). 
+    
+[^6]: 预训练和搜索：基于预训练神经成本模型的高效嵌入表分片方法
+
+    Pre-train and Search: Efficient Embedding Table Sharding with Pre-trained Neural Cost Models. (arXiv:2305.01868v1 [cs.LG])
+
+    [http://arxiv.org/abs/2305.01868](http://arxiv.org/abs/2305.01868)
+
+    本文探索了一种基于预训练成本模型的高效分片方法，通过神经网络预测成本，并使用在线搜索确定最佳分片计划，实验结果表明其在嵌入表分片任务中表现很好。
+
+    
+
+    在分布式训练中，将大型机器学习模型分片到多个设备上以平衡成本非常重要。由于分区是NP难问题且准确和高效地估算成本很困难，因此这是具有挑战性的。本文探索了一种“预训练和搜索”范式，用于实现高效的分片。该方法是预先训练一个通用的、永久存在的神经网络，来预测所有可能的分片的成本，这个网络就是一个高效的分片模拟器。在此预训练成本模型的基础上，我们进行在线搜索，以确定给定任何特定分片任务的最佳分片计划。在深度学习推荐模型（DLRMs）中，我们将此思想实例化，并提议了NeuroShard用于嵌入表分片。NeuroShard在扩展表上预先训练神经成本模型，以涵盖各种分片场景。然后，使用波束搜索和贪心网格搜索，分别确定最佳的列和表分片计划。实验结果表明
+
+    Sharding a large machine learning model across multiple devices to balance the costs is important in distributed training. This is challenging because partitioning is NP-hard, and estimating the costs accurately and efficiently is difficult. In this work, we explore a "pre-train, and search" paradigm for efficient sharding. The idea is to pre-train a universal and once-for-all neural network to predict the costs of all the possible shards, which serves as an efficient sharding simulator. Built upon this pre-trained cost model, we then perform an online search to identify the best sharding plans given any specific sharding task. We instantiate this idea in deep learning recommendation models (DLRMs) and propose NeuroShard for embedding table sharding. NeuroShard pre-trains neural cost models on augmented tables to cover various sharding scenarios. Then it identifies the best column-wise and table-wise sharding plans with beam search and greedy grid search, respectively. Experiments show
+    
+[^7]: 针对神经排序模型的几乎不可察觉的文档篡改
+
+    Towards Imperceptible Document Manipulations against Neural Ranking Models. (arXiv:2305.01860v1 [cs.IR])
+
+    [http://arxiv.org/abs/2305.01860](http://arxiv.org/abs/2305.01860)
+
+    该论文提出了一种针对神经排序模型的不易被检测到的对抗性攻击框架，称为“几乎不可察觉文档操作”（IDEM）。IDEM使用生成语言模型生成连结句，无法引入易于检测的错误，并且使用单独的位置合并策略来平衡扰动文本的相关性和连贯性，实验结果表明，IDEM可以在保持高人类评估得分的同时优于强基线。
+
+    
+
+    对抗性攻击已经开始应用于发现神经排序模型（NRMs）中的潜在漏洞，但是当前攻击方法常常会引入语法错误，无意义的表达，或不连贯的文本片段，这些都很容易被检测到。此外，当前方法严重依赖于使用与真实的NRM相似的模拟NRM来保证攻击效果，这使得它们在实践中难以使用。为了解决这些问题，我们提出了一个称为“几乎不可察觉文档操作”（IDEM）的框架，用于生成对算法和人类来说都不太明显的对抗文档。IDEM指示一个经过良好建立的生成语言模型（例如BART）生成连接句，而不会引入易于检测的错误，并采用单独的逐位置合并策略来平衡扰动文本的相关性和连贯性。在流行的MS MARCO基准上的实验结果表明，IDEM可以在保持高人类评估得分的同时，优于强基线。
+
+    Adversarial attacks have gained traction in order to identify potential vulnerabilities in neural ranking models (NRMs), but current attack methods often introduce grammatical errors, nonsensical expressions, or incoherent text fragments, which can be easily detected. Additionally, current methods rely heavily on the use of a well-imitated surrogate NRM to guarantee the attack effect, which makes them difficult to use in practice. To address these issues, we propose a framework called Imperceptible DocumEnt Manipulation (IDEM) to produce adversarial documents that are less noticeable to both algorithms and humans. IDEM instructs a well-established generative language model, such as BART, to generate connection sentences without introducing easy-to-detect errors, and employs a separate position-wise merging strategy to balance relevance and coherence of the perturbed text. Experimental results on the popular MS MARCO benchmark demonstrate that IDEM can outperform strong baselines while 
+    
+[^8]: 当新的不一定是更好的：深度学习是否真正受益于基于隐式反馈的推荐？
+
+    When Newer is Not Better: Does Deep Learning Really Benefit Recommendation From Implicit Feedback?. (arXiv:2305.01801v1 [cs.IR])
+
+    [http://arxiv.org/abs/2305.01801](http://arxiv.org/abs/2305.01801)
+
+    本研究对多个神经推荐模型与传统模型进行比较，提出了一组评估策略来衡量其记忆性能、泛化性能和子群特定性能，揭示了在IMDB和Yelp数据集上，神经推荐模型与传统模型的差异性。
+
+    
+
+    最近几年，神经模型被多次宣传为推荐领域的最先进技术，但是多个研究表明，许多神经推荐模型的最新结果并不能可靠地复现。一个主要原因是现有的评估是在不一致的协议下进行的。因此，这些可重复性问题使人们难以了解实际上可以从这些神经模型中获得多少益处。因此，需要一个公平而全面的绩效比较来比较传统模型和神经模型。为此，我们进行了一项大规模、系统性的研究，比较了基于隐式数据的顶部推荐的最新神经推荐模型和传统模型。我们提出了一组评估策略，用于衡量推荐模型的记忆性能、泛化性能和子群特定性能。
+
+    In recent years, neural models have been repeatedly touted to exhibit state-of-the-art performance in recommendation. Nevertheless, multiple recent studies have revealed that the reported state-of-the-art results of many neural recommendation models cannot be reliably replicated. A primary reason is that existing evaluations are performed under various inconsistent protocols. Correspondingly, these replicability issues make it difficult to understand how much benefit we can actually gain from these neural models. It then becomes clear that a fair and comprehensive performance comparison between traditional and neural models is needed.  Motivated by these issues, we perform a large-scale, systematic study to compare recent neural recommendation models against traditional ones in top-n recommendation from implicit data. We propose a set of evaluation strategies for measuring memorization performance, generalization performance, and subgroup-specific performance of recommendation models. 
+    
+[^9]: 如何发挥大语言模型在少样本关系抽取中的能力？
 
     How to Unleash the Power of Large Language Models for Few-shot Relation Extraction?. (arXiv:2305.01555v1 [cs.CL])
 
@@ -40,284 +146,88 @@
 
     Scaling language models have revolutionized widespread NLP tasks, yet little comprehensively explored few-shot relation extraction with large language models. In this paper, we investigate principal methodologies, in-context learning and data generation, for few-shot relation extraction via GPT-3.5 through exhaustive experiments. To enhance few-shot performance, we further propose task-related instructions and schema-constrained data generation. We observe that in-context learning can achieve performance on par with previous prompt learning approaches, and data generation with the large language model can boost previous solutions to obtain new state-of-the-art few-shot results on four widely-studied relation extraction datasets. We hope our work can inspire future research for the capabilities of large language models in few-shot relation extraction. Code is available in \url{https://github.com/zjunlp/DeepKE/tree/main/example/llm.
     
-[^2]: 家族树图与家庭成员满意度之间的关系研究
+[^10]: 利用模拟用户反馈的方式来优化会话式搜索
 
-    The Family Tree Graph as a Predictor of the Family Members' Satisfaction with One Another. (arXiv:2305.01552v1 [physics.soc-ph])
+    Exploiting Simulated User Feedback for Conversational Search: Ranking, Rewriting, and Beyond. (arXiv:2304.13874v1 [cs.IR])
 
-    [http://arxiv.org/abs/2305.01552](http://arxiv.org/abs/2305.01552)
+    [http://arxiv.org/abs/2304.13874](http://arxiv.org/abs/2304.13874)
 
-    该研究发现家庭成员满意度与家族树图，家庭规模，孩子是否为同父母，以及家庭收入有关。
-
-    
-
-    个人对核心家庭和扩展家庭的满意度在一个人的日常生活中扮演着至关重要的角色。因此，更好地了解决定一个人对家庭满意度的特征可以为更好的社会政策设计打开大门。为此，该研究考察了家族树图与家庭成员对核心家庭和扩展家庭的满意度之间的关系。我们收集了来自486个家庭的数据，其中包括家族树图和家庭成员之间的满意度。我们得到了一个能够解释75%家庭成员对彼此满意度的模型。我们发现了让家庭成员更加满意的三个指标。首先，平均而言，较大的家庭有更满意的成员。此外，没有继兄弟姐妹的同父母家庭-即成年子女已经成家的家庭，在兄弟姐妹和父母方面也更满意。最后，家庭成员的平均满意度和家庭的收入水平息息相关。
-
-    Individuals' satisfaction with their nuclear and extended family plays a critical role in individuals everyday life. Thus, a better understanding of the features that determine one's satisfaction with her family can open the door to the design of better sociological policies. To this end, this study examines the relationship between the family tree graph and family members' satisfaction with their nuclear and extended family. We collected data from 486 families which included a family tree graph and family members' satisfaction with each other. We obtain a model that is able to explain 75\% of the family members' satisfaction with one another. We found three indicators for more satisfied families. First, larger families, on average, have more satisfied members. Moreover, families with kids from the same parents - i.e., without step-siblings also express more satisfaction from both their siblings and parents when the children are already adults. Lastly, the average satisfaction of the f
-    
-[^3]: 迭代图神经网络实现异构数据可解释对话问答
-
-    Explainable Conversational Question Answering over Heterogeneous Sources via Iterative Graph Neural Networks. (arXiv:2305.01548v1 [cs.IR])
-
-    [http://arxiv.org/abs/2305.01548](http://arxiv.org/abs/2305.01548)
-
-    本论文提出 EXPLAIGNN 方法，使用图神经网络构建异构图，从多个数据源中提取信息，达到更全面准确的问答效果，并提供了用户可理解的答案解释。
+    本研究利用一个名为ConvSim的用户模拟器来评估用户反馈，从而提高会话式搜索的性能，实验结果显示有效利用用户反馈可以大幅提高检索性能。
 
     
 
-    在对话问答中，用户通过一系列上下文不完整的表达来表达他们的信息需求。典型的 ConvQA 方法依赖于单一数据源(知识库、文本语料库或一组表格)，因此无法从多个数据源的覆盖范围和冗余性中获益。我们的 EXPLAIGNN 方法通过混合数据源并提供用户可理解的答案解释来克服这些限制。它从知识库、文本语料库、网络表格和信息框中检索实体和证据片段，并构建一个异构图。然后通过图神经网络进行迭代缩减，直到最佳答案及其解释被提炼出来。实验证明，EXPLAIGNN 提高了现有基线方式的性能。用户研究表明，导出的答案被终端用户理解。
+    本研究旨在探索评估用户反馈在混合倡议的会话式搜索系统中的各种方法。虽然会话式搜索系统在多个方面都取得了重大进展，但最近的研究未能成功地将用户反馈纳入系统中。其中一个主要原因是缺乏系统-用户对话交互数据。为此，我们提出了一种基于用户模拟器的框架，可用于与各种混合倡议的会话式搜索系统进行多轮交互。具体来说，我们开发了一个名为ConvSim的用户模拟器，一旦初始化了信息需求描述，就能够对系统的响应提供反馈，并回答潜在的澄清问题。我们对各种最先进的段落检索和神经重新排序模型进行的实验表明，有效利用用户反馈可以导致在nDCG@3方面16%的检索性能提高。此外，我们观察到随着n的增加，一致的改进。
 
-    In conversational question answering, users express their information needs through a series of utterances with incomplete context. Typical ConvQA methods rely on a single source (a knowledge base (KB), or a text corpus, or a set of tables), thus being unable to benefit from increased answer coverage and redundancy of multiple sources. Our method EXPLAIGNN overcomes these limitations by integrating information from a mixture of sources with user-comprehensible explanations for answers. It constructs a heterogeneous graph from entities and evidence snippets retrieved from a KB, a text corpus, web tables, and infoboxes. This large graph is then iteratively reduced via graph neural networks that incorporate question-level attention, until the best answers and their explanations are distilled. Experiments show that EXPLAIGNN improves performance over state-of-the-art baselines. A user study demonstrates that derived answers are understandable by end users.
+    This research aims to explore various methods for assessing user feedback in mixed-initiative conversational search (CS) systems. While CS systems enjoy profuse advancements across multiple aspects, recent research fails to successfully incorporate feedback from the users. One of the main reasons for that is the lack of system-user conversational interaction data. To this end, we propose a user simulator-based framework for multi-turn interactions with a variety of mixed-initiative CS systems. Specifically, we develop a user simulator, dubbed ConvSim, that, once initialized with an information need description, is capable of providing feedback to a system's responses, as well as answering potential clarifying questions. Our experiments on a wide variety of state-of-the-art passage retrieval and neural re-ranking models show that effective utilization of user feedback can lead to 16% retrieval performance increase in terms of nDCG@3. Moreover, we observe consistent improvements as the n
     
-[^4]: 带有基于曝光的风险最小化的反事实学习排序安全部署
+[^11]: 你在意吗？对于MIND数据集在新闻推荐多样性研究中的反思
 
-    Safe Deployment for Counterfactual Learning to Rank with Exposure-Based Risk Minimization. (arXiv:2305.01522v1 [cs.IR])
+    Do you MIND? Reflections on the MIND dataset for research on diversity in news recommendations. (arXiv:2304.08253v2 [cs.IR] UPDATED)
 
-    [http://arxiv.org/abs/2305.01522](http://arxiv.org/abs/2305.01522)
+    [http://arxiv.org/abs/2304.08253](http://arxiv.org/abs/2304.08253)
 
-    该论文提出了一种新的反事实学习排序方法，通过基于曝光的风险正则化对IPS估计进行调整，以确保学习排名模型与给定的安全模型接近，从而在部署过程中降低风险。
-
-    
-
-    反事实学习排序（CLTR）依赖于基于曝光的倒数概率评分（IPS），一种LTR特定的自适应IPS来纠正位置偏差。虽然IPS可以提供无偏和一致的估计，但通常会受到高方差的影响。尤其是当可用点击数据很少时，这种方差可能会导致CLTR学习次优的排名行为。因此，现有的CLTR方法带来了重大风险，因为简单地部署它们的模型可能会导致用户体验非常差。我们引入了一种新的风险感知CLTR方法，具有安全部署的理论保证。我们对LTR的IPS估计应用了一种新的基于曝光的风险正则化概念。我们的风险正则化惩罚学习模型的排名行为与给定安全模型的不匹配。因此，在IPS估计存在高度不确定性时，它确保学习排名模型与可信模型保持接近，从而大大降低了部署过程中的风险。
-
-    Counterfactual learning to rank (CLTR) relies on exposure-based inverse propensity scoring (IPS), a LTR-specific adaptation of IPS to correct for position bias. While IPS can provide unbiased and consistent estimates, it often suffers from high variance. Especially when little click data is available, this variance can cause CLTR to learn sub-optimal ranking behavior. Consequently, existing CLTR methods bring significant risks with them, as naively deploying their models can result in very negative user experiences. We introduce a novel risk-aware CLTR method with theoretical guarantees for safe deployment. We apply a novel exposure-based concept of risk regularization to IPS estimation for LTR. Our risk regularization penalizes the mismatch between the ranking behavior of a learned model and a given safe model. Thereby, it ensures that learned ranking models stay close to a trusted model, when there is high uncertainty in IPS estimation, which greatly reduces the risks during deployme
-    
-[^5]: MTrainS: 使用异构内存提高DLRM训练效率
-
-    MTrainS: Improving DLRM training efficiency using heterogeneous memories. (arXiv:2305.01515v1 [cs.IR])
-
-    [http://arxiv.org/abs/2305.01515](http://arxiv.org/abs/2305.01515)
-
-    本文旨在研究现实中部署的深度学习推荐模型中嵌入表的带宽需求和局部性，并通过使用异构内存提出MTrainS来提高DLRM训练效率。
+    该研究分析了MIND数据集在新闻推荐多样性研究中的适用性，发现虽然是一个很好的进步，但仍有很大的改进空间。
 
     
 
-    推荐模型非常庞大，在训练时需要使用几TB的内存。为了获得更好的质量，模型的大小和复杂度随着时间的推移而增长，这需要更多的训练数据以避免过拟合。这种模型增长要求数据中心大量资源。因此，训练效率变得越来越重要，以保持数据中心的功率需求可控。在深度学习推荐模型(DLRM)中，通过嵌入表捕捉分类输入的稀疏特征是模型大小的主要贡献者，并且需要高内存带宽。在本文中，我们研究了现实中部署模型中嵌入表的带宽需求和局部性。我们观察到，不同表的带宽要求不均匀，并且嵌入表显示出高时序局部性。然后，我们设计了MTrainS，利用异构内存，包括字节和块可寻址存储类内存，用于DLRM的分层训练。
+    MIND数据集是目前可用于新闻推荐系统研究和开发的最广泛的数据集。本研究分析了该数据集在多样化新闻推荐研究中的适用性。一方面，我们分析了推荐流程中不同步骤对文章类别分布的影响，另一方面，我们检查所提供的数据是否足以进行更复杂的多样性分析。我们得出结论，虽然MIND是一个很好的进步，但仍有很大的改进空间。
 
-    Recommendation models are very large, requiring terabytes (TB) of memory during training. In pursuit of better quality, the model size and complexity grow over time, which requires additional training data to avoid overfitting. This model growth demands a large number of resources in data centers. Hence, training efficiency is becoming considerably more important to keep the data center power demand manageable. In Deep Learning Recommendation Models (DLRM), sparse features capturing categorical inputs through embedding tables are the major contributors to model size and require high memory bandwidth. In this paper, we study the bandwidth requirement and locality of embedding tables in real-world deployed models. We observe that the bandwidth requirement is not uniform across different tables and that embedding tables show high temporal locality. We then design MTrainS, which leverages heterogeneous memory, including byte and block addressable Storage Class Memory for DLRM hierarchicall
+    The MIND dataset is at the moment of writing the most extensive dataset available for the research and development of news recommender systems. This work analyzes the suitability of the dataset for research on diverse news recommendations. On the one hand we analyze the effect the different steps in the recommendation pipeline have on the distribution of article categories, and on the other hand we check whether the supplied data would be sufficient for more sophisticated diversity analysis. We conclude that while MIND is a great step forward, there is still a lot of room for improvement.
     
-[^6]: 利用集成方法和神经信息检索检索比较论点
+[^12]: 推荐系统何去何从？ID- vs. 基于模态的推荐模型再探讨
 
-    Retrieving Comparative Arguments using Ensemble Methods and Neural Information Retrieval. (arXiv:2305.01513v1 [cs.IR])
+    Where to Go Next for Recommender Systems? ID- vs. Modality-based recommender models revisited. (arXiv:2303.13835v1 [cs.IR])
 
-    [http://arxiv.org/abs/2305.01513](http://arxiv.org/abs/2305.01513)
+    [http://arxiv.org/abs/2303.13835](http://arxiv.org/abs/2303.13835)
 
-    本文针对Touche实验室任务提出了一个方案，该方案使用决策树集成算法和大型上下文化语言模型，能够按照相关性和论证支持排序比较文档。该方法在竞赛中表现优异，可用于改进信息检索和对话系统中处理比较查询的性能。
-
-    
-
-    本文针对Touche实验室“比较问题下的论证检索”任务提出了一个方案。我们的团队Katana提供了基于决策树集成算法的多种方法来按照相关性和论证支持排序比较文档。我们使用PyTerrier库将集成模型应用于排序问题，并考虑基于统计文本特征和基于比较结构的特征。我们还采用了大型上下文化语言建模技术，例如BERT，来解决所提出的排名任务。为了将这种技术与排序建模相结合，我们利用了神经排名库OpenNIR。我们的系统明显优于提议的基准，并在竞赛的官方指标（对于NDCG@5得分）中在相关性上排名第一，质量上排名第二。提出的模型可以帮助改进信息检索和对话系统中处理比较查询的性能。
-
-    In this paper, we present a submission to the Touche lab's Task 2 on Argument Retrieval for Comparative Questions. Our team Katana supplies several approaches based on decision tree ensembles algorithms to rank comparative documents in accordance with their relevance and argumentative support. We use PyTerrier library to apply ensembles models to a ranking problem, considering statistical text features and features based on comparative structures. We also employ large contextualized language modelling techniques, such as BERT, to solve the proposed ranking task. To merge this technique with ranking modelling, we leverage neural ranking library OpenNIR.  Our systems substantially outperforming the proposed baseline and scored first in relevance and second in quality according to the official metrics of the competition (for measure NDCG@5 score). Presented models could help to improve the performance of processing comparative queries in information retrieval and dialogue systems.
-    
-[^7]: Dagstuhl研讨会23031：“前沿信息获取实验研究和教育”。报告。
-
-    Report from Dagstuhl Seminar 23031: Frontiers of Information Access Experimentation for Research and Education. (arXiv:2305.01509v1 [cs.IR])
-
-    [http://arxiv.org/abs/2305.01509](http://arxiv.org/abs/2305.01509)
-
-    本篇文章是Dagstuhl研讨会23031“前沿信息获取实验研究和教育”的报告，主要讨论了通过更负责任的实验实践来提高信息获取技术的有效性和科学教育，会议召集了各领域专家，提出了进一步改善我们的研究方法和研究教育的方向。
+    推荐系统中，使用唯一标识的IDRec模型相比使用模态的MoRec模型在推荐准确性和效率上表现更好，然而，需要根据具体情况选择适合的推荐模型。
 
     
 
-    本文记录了Dagstuhl研讨会23031“前沿信息获取实验研究和教育”的计划和成果，会议汇聚了来自12个国家的37名参与者。研讨会涉及技术增强型信息访问（信息检索、推荐系统、自然语言处理）并特别聚焦于对其进行更负责任的实验实践以获得更有效的结果，既适用于研究，也适用于科学教育。会议召集了信息访问各子领域的专家，即信息检索、推荐系统、自然语言处理、信息科学和人机交互，以共同理解下一代信息访问系统面临的问题和挑战，并从研究和实验的角度讨论现有的解决方案和障碍，并提出未来需要追求的方向，以期改善我们的研究方法和研究教育。
+    过去十年，利用唯一标识（ID）来表示不同用户和物品的推荐模型一直是最先进的，并且在推荐系统文献中占主导地位。与此同时，预训练模态编码器（如BERT和ViT）在对物品的原始模态特征（如文本和图像）进行建模方面变得越来越强大。因此，自然而然的问题是：通过用最先进的模态编码器替换物品ID嵌入向量，一个纯粹的基于模态的推荐模型（MoRec）能否胜过或与纯ID基础模型（IDRec）相匹配？实际上，早在十年前，这个问题就被回答了，IDRec在推荐准确性和效率方面都远远胜过MoRec。我们旨在重新审视这个“老问题”，从多个方面对MoRec进行系统研究。具体而言，我们研究了几个子问题：（i）在实际场景中，MoRec或IDRec哪个推荐模式表现更好，特别是在一般情况和......
 
-    This report documents the program and the outcomes of Dagstuhl Seminar 23031 ``Frontiers of Information Access Experimentation for Research and Education'', which brought together 37 participants from 12 countries.  The seminar addressed technology-enhanced information access (information retrieval, recommender systems, natural language processing) and specifically focused on developing more responsible experimental practices leading to more valid results, both for research as well as for scientific education.  The seminar brought together experts from various sub-fields of information access, namely IR, RS, NLP, information science, and human-computer interaction to create a joint understanding of the problems and challenges presented by next generation information access systems, from both the research and the experimentation point of views, to discuss existing solutions and impediments, and to propose next steps to be pursued in the area in order to improve not also our research met
+    Recommendation models that utilize unique identities (IDs) to represent distinct users and items have been state-of-the-art (SOTA) and dominated the recommender systems (RS) literature for over a decade. Meanwhile, the pre-trained modality encoders, such as BERT and ViT, have become increasingly powerful in modeling the raw modality features of an item, such as text and images. Given this, a natural question arises: can a purely modality-based recommendation model (MoRec) outperforms or matches a pure ID-based model (IDRec) by replacing the itemID embedding with a SOTA modality encoder? In fact, this question was answered ten years ago when IDRec beats MoRec by a strong margin in both recommendation accuracy and efficiency. We aim to revisit this `old' question and systematically study MoRec from several aspects. Specifically, we study several sub-questions: (i) which recommendation paradigm, MoRec or IDRec, performs better in practical scenarios, especially in the general setting and 
     
-[^8]: NewsPanda: 用于及时保护行动的媒体监控工具
+[^13]: 电商产品问答：一项综述调查
 
-    NewsPanda: Media Monitoring for Timely Conservation Action. (arXiv:2305.01503v1 [cs.IR])
+    Product Question Answering in E-Commerce: A Survey. (arXiv:2302.08092v2 [cs.CL] UPDATED)
 
-    [http://arxiv.org/abs/2305.01503](http://arxiv.org/abs/2305.01503)
+    [http://arxiv.org/abs/2302.08092](http://arxiv.org/abs/2302.08092)
 
-    NewsPanda是一个可以自动检测和分析与环保和基础建设相关的网上文章的工具。该工具使用主动学习方法和噪声校正算法对BERT模型进行微调以识别相关文章，并提取关键字和找到相关来源。已被世界自然基金会团队在英国、印度和尼泊尔成功部署。
-
-    
-
-    环保非政府组织对监测相关媒体并及时了解基础建设项目的更新具有重要兴趣，因为这些项目可能会对重要的保护区域产生巨大影响。然而，这种监测很难且需要耗费时间。我们介绍了一个名为NewsPanda的工具包，它可以自动检测和分析与环保和基础建设相关的网上文章。我们使用主动学习方法和噪声校正算法对BERT模型进行微调，以识别与保护和基础建设相关的文章。对已识别出的文章，我们进行进一步的分析，提取关键字并找到可能相关的来源。NewsPanda自2022年2月以来已被世界自然基金会团队在英国、印度和尼泊尔成功部署。它目前监测了印度80,000个网站和1,074个保护地点。
-
-    Non-governmental organizations for environmental conservation have a significant interest in monitoring conservation-related media and getting timely updates about infrastructure construction projects as they may cause massive impact to key conservation areas. Such monitoring, however, is difficult and time-consuming. We introduce NewsPanda, a toolkit which automatically detects and analyzes online articles related to environmental conservation and infrastructure construction. We fine-tune a BERT-based model using active learning methods and noise correction algorithms to identify articles that are relevant to conservation and infrastructure construction. For the identified articles, we perform further analysis, extracting keywords and finding potentially related sources. NewsPanda has been successfully deployed by the World Wide Fund for Nature teams in the UK, India, and Nepal since February 2022. It currently monitors over 80,000 websites and 1,074 conservation sites across India an
-    
-[^9]: 多模态神经数据库
-
-    Multimodal Neural Databases. (arXiv:2305.01447v1 [cs.MM])
-
-    [http://arxiv.org/abs/2305.01447](http://arxiv.org/abs/2305.01447)
-
-    本文提出了多模态神经数据库框架（MMNDBs），可以回答涉及文本和图像等不同输入模态的复杂查询，具有类似数据库的功能。
+    电商PQA的研究面临着问题多、数据难收集、答案不确定等特殊挑战。本文系统地综述了PQA研究的现状与未来方向。
 
     
 
-    近年来，文本、图像和其他模态的松散结构数据的增加呼吁新的查询方法。多媒体信息检索填补了这个空白并在最近几年取得了令人兴奋的进展。检索大规模多媒体档案的任务已经经历了巨大的性能提升，这在很大程度上是由于多模态深度学习的最近发展所推动的。然而，这个领域的方法在它们所支持的查询类型上仍然受到限制，尤其是它们无法回答类似数据库的查询。因此，受神经数据库的最新工作启发，我们提出了一个新框架，命名为多模态神经数据库（MMNDBs）。MMNDBs可以回答涉及不同输入模态（例如文本和图像）的推理的复杂类似数据库的查询。在本文中，我们提出了第一个能够满足这一系列要求的架构，并通过几个基线测试了它的性能。
+    产品问答（PQA）致力于在电商平台上自动快速回复客户问题，近年来受到越来越多的关注。与典型的问答问题相比，PQA表现出了独特的挑战，例如电商平台上用户生成内容的主观性和可靠性。因此，各种问题设置和新方法已被提出来捕捉这些特殊特征。本文旨在系统地审查现有关于PQA的研究工作。具体而言，我们将PQA研究按提供的答案形式将其分类为四个问题设置。我们分析了每个设置的优缺点，并介绍了现有的数据集和评估协议。我们进一步总结了表征PQA与一般QA应用的最显著的挑战，并讨论了相应的解决方案。最后，我们通过提供几个未来方向来结束本文。
 
-    The rise in loosely-structured data available through text, images, and other modalities has called for new ways of querying them. Multimedia Information Retrieval has filled this gap and has witnessed exciting progress in recent years. Tasks such as search and retrieval of extensive multimedia archives have undergone massive performance improvements, driven to a large extent by recent developments in multimodal deep learning. However, methods in this field remain limited in the kinds of queries they support and, in particular, their inability to answer database-like queries. For this reason, inspired by recent work on neural databases, we propose a new framework, which we name Multimodal Neural Databases (MMNDBs). MMNDBs can answer complex database-like queries that involve reasoning over different input modalities, such as text and images, at scale. In this paper, we present the first architecture able to fulfill this set of requirements and test it with several baselines, showing th
+    Product question answering (PQA), aiming to automatically provide instant responses to customer's questions in E-Commerce platforms, has drawn increasing attention in recent years. Compared with typical QA problems, PQA exhibits unique challenges such as the subjectivity and reliability of user-generated contents in E-commerce platforms. Therefore, various problem settings and novel methods have been proposed to capture these special characteristics. In this paper, we aim to systematically review existing research efforts on PQA. Specifically, we categorize PQA studies into four problem settings in terms of the form of provided answers. We analyze the pros and cons, as well as present existing datasets and evaluation protocols for each setting. We further summarize the most significant challenges that characterize PQA from general QA applications and discuss their corresponding solutions. Finally, we conclude this paper by providing the prospect on several future directions.
     
-[^10]: 设计用户决策文档结构的实验框架 - 以食谱为例的实证研究
+[^14]: 竞争性内容创作者下的Top-K推荐有多糟糕？
 
-    An experimental framework for designing document structure for users' decision making - An empirical study of recipes. (arXiv:2305.01359v1 [cs.DL])
+    How Bad is Top-$K$ Recommendation under Competing Content Creators?. (arXiv:2302.01971v2 [cs.GT] UPDATED)
 
-    [http://arxiv.org/abs/2305.01359](http://arxiv.org/abs/2305.01359)
+    [http://arxiv.org/abs/2302.01971](http://arxiv.org/abs/2302.01971)
 
-    本研究提出了实验框架，通过汇集非专业读者的见解来确定文档的有用内容，以提高非专业读者的决策能力。研究结果表明，在食谱中为每个烹饪步骤的末尾安排副标题的适当成分或注释可以显著增加食谱的可读性。
-
-    
-
-    在远程区域进行有效的异步通信需要优质的文本文档，特别是在COVID-19大流行期间。然而，为了改善非专业读者的决策能力而定义首选的文档结构（内容和布局）具有挑战性。因为一方面，无法仅通过收集专业知识来确定各种读者有用的内容类型。而另一方面，还没有建立起从用户角度评估文档有用性的方法。本研究提出了实验性框架，通过汇集非专业读者的见解来确定文档的有用内容。本研究以200个在线食谱为研究对象，招募了1,340名业余厨师作为非专业读者。提出的框架确定了六个食谱的有用内容。多层次建模结果显示，在确认的六个内容中，每个烹饪步骤的末尾安排副标题的适当成分或注释可以显著增加食谱的可读性。
-
-    Textual documents need to be of good quality to ensure effective asynchronous communication in remote areas, especially during the COVID-19 pandemic. However, defining a preferred document structure (content and arrangement) for improving lay readers' decision-making is challenging. First, the types of useful content for various readers cannot be determined simply by gathering expert knowledge. Second, methodologies to evaluate the document's usefulness from the user's perspective have not been established. This study proposed the experimental framework to identify useful contents of documents by aggregating lay readers' insights. This study used 200 online recipes as research subjects and recruited 1,340 amateur cooks as lay readers. The proposed framework identified six useful contents of recipes. Multi-level modeling then showed that among the six identified contents, suitable ingredients or notes arranged with a subheading at the end of each cooking step significantly increased rec
-    
-[^11]: 优化引导遍历以实现快速学习稀疏检索
-
-    Optimizing Guided Traversal for Fast Learned Sparse Retrieval. (arXiv:2305.01203v1 [cs.IR])
-
-    [http://arxiv.org/abs/2305.01203](http://arxiv.org/abs/2305.01203)
-
-    本文通过优化BM25引导的索引遍历，提出了一个使用稀疏表示进行快速学习稀疏检索的解决方案。这种方案比原始MaxScore方法快得多，同时保留相关性的有效性。
+    本文基于随机效用模型，研究了内容创作者在Top-K推荐下的竞争影响，证明了用户福利损失受小常数上界影响。
 
     
 
-    最近的研究表明，基于由DeepImpact生成的学习稀疏表示的MaxScore文档检索可以通过BM25驱动的动态索引跳过大大加快。本文研究了在使用其他模型（如SPLADE和uniCOIL）进行top k检索时使用这种遍历引导策略的有效性，并发现当BM25模型与学习权重模型不完全对齐或检索深度k很小时，无约束的BM25 driven跳过可能会导致显著的相关性降低。本文通过二级剪枝控制方案和模型对齐优化了BM25引导的索引遍历，以使用稀疏表示快速检索。虽然可能会增加延迟成本，但拟议的方案比没有BM25引导的原始MaxScore方法快得多，同时保留相关性的有效性。本文分析了这个两级剪枝方案的竞争力，并评估了其在几个现实数据集上的有效性。
+    内容创作者在推荐平台上竞争曝光率，这种战略行为导致了内容分布的动态转移。然而，创作者的竞争如何影响用户福利，以及相关推荐如何影响长期动态仍然大部分未知。本文提出了这些研究问题的理论见解。我们在以下假设下建模创作者的竞争：1）平台采用无害的top-K推荐策略；2）用户决策遵循随机效用模型；3）内容创作者竞争用户互动，不知道事先他们的效用函数，因此应用任意的无悔学习算法来更新他们的策略。我们通过洛城价格的角度研究用户福利的保证，并展示了由于创作者竞争导致的用户福利损失份额始终受到$K$和用户决策随机性影响的小常数的上界约束。
 
-    Recent studies show that BM25-driven dynamic index skipping can greatly accelerate MaxScore-based document retrieval based on the learned sparse representation derived by DeepImpact. This paper investigates the effectiveness of such a traversal guidance strategy during top k retrieval when using other models such as SPLADE and uniCOIL, and finds that unconstrained BM25-driven skipping could have a visible relevance degradation when the BM25 model is not well aligned with a learned weight model or when retrieval depth k is small. This paper generalizes the previous work and optimizes the BM25 guided index traversal with a two-level pruning control scheme and model alignment for fast retrieval using a sparse representation. Although there can be a cost of increased latency, the proposed scheme is much faster than the original MaxScore method without BM25 guidance while retaining the relevance effectiveness. This paper analyzes the competitiveness of this two-level pruning scheme, and eva
+    Content creators compete for exposure on recommendation platforms, and such strategic behavior leads to a dynamic shift over the content distribution. However, how the creators' competition impacts user welfare and how the relevance-driven recommendation influences the dynamics in the long run are still largely unknown.  This work provides theoretical insights into these research questions. We model the creators' competition under the assumptions that: 1) the platform employs an innocuous top-$K$ recommendation policy; 2) user decisions follow the Random Utility model; 3) content creators compete for user engagement and, without knowing their utility function in hindsight, apply arbitrary no-regret learning algorithms to update their strategies. We study the user welfare guarantee through the lens of Price of Anarchy and show that the fraction of user welfare loss due to creator competition is always upper bounded by a small constant depending on $K$ and randomness in user decisions; w
     
-[^12]: 安全在线学习中未排序项目的探索与重新排序
+[^15]: 语言建模在推荐系统中的关键作用：丰富任务特定和任务无关的表示学习
 
-    Exploration of Unranked Items in Safe Online Learning to Re-Rank. (arXiv:2305.01202v1 [cs.IR])
+    Pivotal Role of Language Modeling in Recommender Systems: Enriching Task-specific and Task-agnostic Representation Learning. (arXiv:2212.03760v3 [cs.IR] UPDATED)
 
-    [http://arxiv.org/abs/2305.01202](http://arxiv.org/abs/2305.01202)
+    [http://arxiv.org/abs/2212.03760](http://arxiv.org/abs/2212.03760)
 
-    本文提出了一种安全的在线学习排序算法，通过将当前排名中的一个项目与排名外的项目高效地交换来执行探索，并基于Kullback-Leibler上置信度界限（KL-UCB）对未排序项目进行乐观选择和安全的排序，以提高长期收益。
-
-    
-
-    在线学习排序问题的贝叶斯算法经常试图利用用户反馈最大化长期收益。然而，从实际角度考虑，这种算法由于过于激进的探索而具有损害用户体验的高风险。因此，近年来，对安全探索的需求不断增加。本文提出了一种安全的在线学习排序算法，它通过将当前排名中的一个项目与排名外的项目（即未排序项目）高效地交换来执行探索并逐步提高原始排名的质量。我们基于Kullback-Leibler上置信度界限（KL-UCB）乐观地选择一个未排名项目进行探索，并安全地对包括所选项目在内的项目进行重新排序。通过实验，我们证明了所提出的算法可以在没有任何安全违规的情况下提高长期悔恨。
-
-    Bandit algorithms for online learning to rank (OLTR) problems often aim to maximize long-term revenue by utilizing user feedback. From a practical point of view, however, such algorithms have a high risk of hurting user experience due to their aggressive exploration. Thus, there has been a rising demand for safe exploration in recent years. One approach to safe exploration is to gradually enhance the quality of an original ranking that is already guaranteed acceptable quality. In this paper, we propose a safe OLTR algorithm that efficiently exchanges one of the items in the current ranking with an item outside the ranking (i.e., an unranked item) to perform exploration. We select an unranked item optimistically to explore based on Kullback-Leibler upper confidence bounds (KL-UCB) and safely re-rank the items including the selected one. Through experiments, we demonstrate that the proposed algorithm improves long-term regret from baselines without any safety violation.
-    
-[^13]: 使用大型语言模型在知识图谱上进行复杂逻辑推理
-
-    Complex Logical Reasoning over Knowledge Graphs using Large Language Models. (arXiv:2305.01157v1 [cs.LO])
-
-    [http://arxiv.org/abs/2305.01157](http://arxiv.org/abs/2305.01157)
-
-    本文提出了一种使用大型语言模型的解耦方法，将复杂的知识图谱推理形式化为上下文知识图搜索和抽象逻辑查询推理的组合，与现有方法相比，它在多个逻辑查询结构的标准基准数据集上都表现出更好的性能，并且在更高复杂性的查询中获得了显着的性能提升。
+    本文研究发现，用户历史语言建模可以在不同推荐任务中取得优异结果，并且利用任务无关的用户历史还可以提供显著的性能优势。该方法具有广泛的现实世界迁移学习能力。
 
     
 
-    在知识图谱上进行推理是一项具有挑战性的任务，它需要对实体之间的复杂关系以及它们之间的基础逻辑进行深入理解。当前的方法依赖于学习几何来嵌入实体的向量空间进行逻辑查询操作，但是它们在复杂查询和特定数据集表示方面表现不佳。本文提出了一种新颖的解耦方法，称为基于语言引导的知识图谱抽象推理（LARK），将复杂的知识图谱推理形式化为上下文知识图搜索和抽象逻辑查询推理的组合，以分别利用图形提取算法和大型语言模型的优势。我们的实验表明，所提出的方法在多个逻辑查询结构的标准基准数据集上优于现有的知识图谱推理方法，在更高复杂性的查询中获得了显着的性能提升。
+    最近的研究提出了利用来自各种应用程序的用户行为数据的统一用户建模框架。其中许多受益于将用户行为序列作为纯文本使用，代表着任何领域或系统中的丰富信息而不失通用性。因此，一个问题产生了：用户历史语言建模能否帮助改善推荐系统？虽然语言建模的多功能性已在许多领域广泛研究，但其在推荐系统中的应用仍未深入探讨。我们展示了直接应用于任务特定用户历史的语言建模在不同的推荐任务上可以取得优异的结果。此外，利用任务无关的用户历史还可以提供显著的性能优势。我们进一步证明了我们的方法可以为广泛的现实世界推荐系统提供有前途的迁移学习能力，甚至在未知域和服务上也可以实现。
 
-    Reasoning over knowledge graphs (KGs) is a challenging task that requires a deep understanding of the complex relationships between entities and the underlying logic of their relations. Current approaches rely on learning geometries to embed entities in vector space for logical query operations, but they suffer from subpar performance on complex queries and dataset-specific representations. In this paper, we propose a novel decoupled approach, Language-guided Abstract Reasoning over Knowledge graphs (LARK), that formulates complex KG reasoning as a combination of contextual KG search and abstract logical query reasoning, to leverage the strengths of graph extraction algorithms and large language models (LLM), respectively. Our experiments demonstrate that the proposed approach outperforms state-of-the-art KG reasoning methods on standard benchmark datasets across several logical query constructs, with significant performance gain for queries of higher complexity. Furthermore, we show t
-    
-[^14]: 基于知识图谱的卷积神经网络在推荐系统中的应用
-
-    Ripple Knowledge Graph Convolutional Networks For Recommendation Systems. (arXiv:2305.01147v1 [cs.IR])
-
-    [http://arxiv.org/abs/2305.01147](http://arxiv.org/abs/2305.01147)
-
-    本文介绍了一种基于知识图谱的深度学习模型RKGCN，它能够动态分析用户的偏好并推荐出合适的物品。该模型在包括电影、书籍和音乐在内的三个真实世界的数据集上比5个基准模型表现更好。
-
-    
-
-    最近已经证明，使用知识图谱来辅助深度学习模型进行推荐决策能有效提高模型的可解释性和准确性。本文介绍了一种端到端的深度学习模型，命名为RKGCN，它动态分析每个用户的偏好，并推荐出合适的物品。它在物品和用户双方面利用知识图谱来丰富它们的表示，最大化知识图谱中丰富的信息的利用。 RKGCN能够在三种不同的场景下提供更个性化和相关的推荐。实验结果表明，在包括电影、书籍和音乐在内的三个真实世界的数据集上，我们的模型比5个基准模型更有效。
-
-    Using knowledge graphs to assist deep learning models in making recommendation decisions has recently been proven to effectively improve the model's interpretability and accuracy. This paper introduces an end-to-end deep learning model, named RKGCN, which dynamically analyses each user's preferences and makes a recommendation of suitable items. It combines knowledge graphs on both the item side and user side to enrich their representations to maximize the utilization of the abundant information in knowledge graphs. RKGCN is able to offer more personalized and relevant recommendations in three different scenarios. The experimental results show the superior effectiveness of our model over 5 baseline models on three real-world datasets including movies, books, and music.
-    
-[^15]: 论文推荐中的多维公正性
-
-    Multidimensional Fairness in Paper Recommendation. (arXiv:2305.01141v1 [cs.IR])
-
-    [http://arxiv.org/abs/2305.01141](http://arxiv.org/abs/2305.01141)
-
-    本文提出了三种公平方法，考虑到作者多样性，以解决论文推荐中的潜在偏见，这些方法可以同时提供跨多个受保护变量的公正结果。
-
-    
-
-    为了防止会议和期刊的论文审核和选择过程中出现偏见，大多数会采用双盲审查。尽管如此，研究表明偏见仍然存在。论文审核的推荐算法也可能存在内在的偏差。我们提出了三种公平方法，特别考虑到作者多样性在论文推荐中的作用。与典型的公平算法只使用一个保护变量不同，我们的方法同时提供跨多个受保护变量的公正结果。五个人口统计特征-性别、种族、职业阶段、大学排名和地理位置-被包括在我们的多维作者资料中。总体多样性方法使用整体多样性得分来排名出版物，轮流多样性技术选择依次属于每个受保护团体的作者的论文，而多方面多样性方法选择最初填写族裔特征的论文。
-
-    To prevent potential bias in the paper review and selection process for conferences and journals, most include double blind review. Despite this, studies show that bias still exists. Recommendation algorithms for paper review also may have implicit bias. We offer three fair methods that specifically take into account author diversity in paper recommendation to address this. Our methods provide fair outcomes across many protected variables concurrently, in contrast to typical fair algorithms that only use one protected variable. Five demographic characteristics-gender, ethnicity, career stage, university rank, and geolocation-are included in our multidimensional author profiles. The Overall Diversity approach uses a score for overall diversity to rank publications. The Round Robin Diversity technique chooses papers from authors who are members of each protected group in turn, whereas the Multifaceted Diversity method chooses papers that initially fill the demographic feature with the hi
-    
-[^16]: 上下文多语种用户查询拼写检查器
-
-    Contextual Multilingual Spellchecker for User Queries. (arXiv:2305.01082v1 [cs.CL])
-
-    [http://arxiv.org/abs/2305.01082](http://arxiv.org/abs/2305.01082)
-
-    本文提出了一个上下文多语种用户查询拼写检查器，它非常快速、可扩展，并根据特定产品的需求调整其词汇表和拼写输出，以满足用户的需求。
-
-    
-
-    拼写检查是最基本和广泛使用的搜索功能之一。纠正拼写错误的用户查询不仅增强了用户体验，而且用户也期望能够实现。然而，大多数广泛可用的拼写检查解决方案要么比最新的解决方案精度低，要么速度太慢，无法用于延迟是关键要求的搜索用例。此外，大多数最新的创新架构集中在英语上，并且没有以多语言方式进行培训，并且是针对较长文本的拼写纠正进行培训，这是与对用户查询的拼写纠正不同的范式，其中上下文很少(大多数查询只有1-2个单词)。最后，由于大多数企业有独特的词汇，例如产品名称，现成的拼写解决方案无法满足用户的需求。在这项工作中，我们构建了一个多语言拼写检查器，它非常快速和可扩展，并根据特定产品的需求调整其词汇表和拼写输出。
-
-    Spellchecking is one of the most fundamental and widely used search features. Correcting incorrectly spelled user queries not only enhances the user experience but is expected by the user. However, most widely available spellchecking solutions are either lower accuracy than state-of-the-art solutions or too slow to be used for search use cases where latency is a key requirement. Furthermore, most innovative recent architectures focus on English and are not trained in a multilingual fashion and are trained for spell correction in longer text, which is a different paradigm from spell correction for user queries, where context is sparse (most queries are 1-2 words long). Finally, since most enterprises have unique vocabularies such as product names, off-the-shelf spelling solutions fall short of users' needs. In this work, we build a multilingual spellchecker that is extremely fast and scalable and that adapts its vocabulary and hence speller output based on a specific product's needs. Fu
-    
-[^17]: CHIC: 企业文档可视化问答
-
-    CHIC: Corporate Document for Visual question Answering. (arXiv:2305.01054v1 [cs.DB])
-
-    [http://arxiv.org/abs/2305.01054](http://arxiv.org/abs/2305.01054)
-
-    CHIC提供了一个公共企业文档问答数据库，以满足不同类型企业文件的需求。
-
-    
-
-    数字化文件的广泛使用，由于无纸化倡议的显著趋势，迫使一些公司寻找自动处理每天数以千计文档的方法。为了实现这一点，它们使用自动信息检索（IR），使它们能够快速从庞大的数据集中提取有用信息。然而，在实现有效的IR方法之前，首先需要有一个足够的数据集。尽管公司有足够的数据以满足其需求，但还需要一个公共数据库来比较最先进的方法。文档的公共数据存在于DocVQA[2]和XFUND [10]中，但这些都不能完全满足公司的需求。与XFUND相比，DocVQA有几种类型的文件，但只有4.5％的文件是企业文件（即结构化文件，如表格、半结构化文件，如发票，以及非结构化文件，如电子邮件）。
-
-    The massive use of digital documents due to the substantial trend of paperless initiatives confronted some companies to find ways to process thousands of documents per day automatically. To achieve this, they use automatic information retrieval (IR) allowing them to extract useful information from large datasets quickly. In order to have effective IR methods, it is first necessary to have an adequate dataset. Although companies have enough data to take into account their needs, there is also a need for a public database to compare contributions between state-of-the-art methods. Public data on the document exists as DocVQA[2] and XFUND [10], but these do not fully satisfy the needs of companies. XFUND contains only form documents while the company uses several types of documents (i.e. structured documents like forms but also semi-structured as invoices, and unstructured as emails). Compared to XFUND, DocVQA has several types of documents but only 4.5% of them are corporate documents (i.
-    
-[^18]: LooPy: 一种针对电子舞曲的研究友好型混合框架的音乐信息检索
-
-    LooPy: A Research-Friendly Mix Framework for Music Information Retrieval on Electronic Dance Music. (arXiv:2305.01051v1 [cs.SD])
-
-    [http://arxiv.org/abs/2305.01051](http://arxiv.org/abs/2305.01051)
-
-    LooPy是一种Python软件包，为MIR提供了一种面向电子舞曲的基础设施，可用于自动生成EDM音频，并提供了框架来构建专业级的模板，使用户可以从指定的旋律和和弦中呈现出制作精良的歌曲轨道或仅通过使用符号性的旋律生成器，提供具有多种风格的音轨。
-
-    
-
-    近年来，随着深度学习技术的发展，音乐信息检索(MIR)得到了爆炸性的发展。然而，诸如电子舞曲等音乐类型相对于其他类型一直较少研究。考虑到其广泛的应用，我们提出了一种Python软件包，用于自动化EDM音频生成，并作为EDM歌曲MIR的基础设施，以缓解获取标注数据的难度。它是一个方便的工具，可以轻松连接到许多符号音乐生成管道的末端。在这个软件包中，我们提供了一个框架来构建专业水平的模板，可以从指定的旋律和和弦中呈现出一个制作精良的轨道，或者仅通过我们的概率符号旋律生成器，提供具有各种风格的音轨。实验证明，我们的混音在主观和客观评估方面与由世界著名艺术家制作的原始参考歌曲具有相同的质量。
-
-    Music information retrieval (MIR) has gone through an explosive development with the advancement of deep learning in recent years. However, music genres like electronic dance music (EDM) has always been relatively less investigated compared to others. Considering its wide range of applications, we present a Python package for automated EDM audio generation as an infrastructure for MIR for EDM songs, to mitigate the difficulty of acquiring labelled data. It is a convenient tool that could be easily concatenated to the end of many symbolic music generation pipelines. Inside this package, we provide a framework to build professional-level templates that could render a well-produced track from specified melody and chords, or produce massive tracks given only a specific key by our probabilistic symbolic melody generator. Experiments show that our mixes could achieve the same quality of the original reference songs produced by world-famous artists, with respect to both subjective and objecti
-    
-[^19]: RecD：为端到端深度学习推荐模型训练基础设施提供去重功能
-
-    RecD: Deduplication for End-to-End Deep Learning Recommendation Model Training Infrastructure. (arXiv:2211.05239v3 [cs.LG] UPDATED)
-
-    [http://arxiv.org/abs/2211.05239](http://arxiv.org/abs/2211.05239)
-
-    RecD 是一种为 DLRM 训练提供去重功能的端到端基础设施优化，解决了由于特征重复造成的海量存储、预处理和训练开销，引入了新的张量格式 InverseKeyedJaggedTensors (IKJTs) 来去除特征值的重复，使 DLRM 模型架构能够更好地利用数据的重复性提高训练吞吐量。
-
-    
-
-    我们提出了 RecD（推荐去重），它是一组针对深度学习推荐模型 (DLRM) 训练流程的端到端基础设施优化。RecD解决了由于特征重复造成的海量存储、预处理和训练开销，这是大规模 DLRM 训练数据集内在的问题，因为 DLRM 数据集是从交互中生成的。我们展示了 RecD 如何利用此属性来优化生产数据的流程，减少数据集存储和预处理需求，并最大限度地在训练批次中重复。RecD 引入了一种新的张量格式 InverseKeyedJaggedTensors (IKJTs)，以在每个批次中去除特征值的重复。我们展示了 DLRM 模型架构如何利用 IKJTs 来显著提高训练吞吐量。
-
-    We present RecD (Recommendation Deduplication), a suite of end-to-end infrastructure optimizations across the Deep Learning Recommendation Model (DLRM) training pipeline. RecD addresses immense storage, preprocessing, and training overheads caused by feature duplication inherent in industry-scale DLRM training datasets. Feature duplication arises because DLRM datasets are generated from interactions. While each user session can generate multiple training samples, many features' values do not change across these samples. We demonstrate how RecD exploits this property, end-to-end, across a deployed training pipeline. RecD optimizes data generation pipelines to decrease dataset storage and preprocessing resource demands and to maximize duplication within a training batch. RecD introduces a new tensor format, InverseKeyedJaggedTensors (IKJTs), to deduplicate feature values in each batch. We show how DLRM model architectures can leverage IKJTs to drastically increase training throughput. Re
-    
-[^20]: 基于子图草图的图神经网络用于链路预测
-
-    Graph Neural Networks for Link Prediction with Subgraph Sketching. (arXiv:2209.15486v3 [cs.LG] UPDATED)
-
-    [http://arxiv.org/abs/2209.15486](http://arxiv.org/abs/2209.15486)
-
-    本研究提出了一种名为ELPH的全图GNN模型，它使用子图草图作为消息传递，以缓解LP任务中子图之间的冗余问题，并在多个基准数据集上取得了最先进的结果。
-
-    
-
-    许多图神经网络在链路预测任务中表现不佳，这是由于表达能力的限制，例如无法计算三角形（大多数LP启发式算法的骨干），以及不能区分同构节点（具有相同结构角色的节点）。这两种表达问题可以通过学习链路（而不是节点）表示，并结合三角形计数等结构特征来缓解。由于显式链路表示通常代价高昂，因此最近的研究采用了基于子图的方法，这些方法在LP方面取得了最先进的性能，但由于子图之间存在高度冗余，效率较低。我们分析了子图GNN（SGNN）方法的组件，基于我们的分析，提出了一种名为ELPH（高效哈希链路预测）的新型全图GNN，将子图草图作为消息传递以近似全图上的转换。ELPH在多个基准数据集上实现了最先进的结果，同时需要比现有基于子图的方法更少的计算资源。
-
-    Many Graph Neural Networks (GNNs) perform poorly compared to simple heuristics on Link Prediction (LP) tasks. This is due to limitations in expressive power such as the inability to count triangles (the backbone of most LP heuristics) and because they can not distinguish automorphic nodes (those having identical structural roles). Both expressiveness issues can be alleviated by learning link (rather than node) representations and incorporating structural features such as triangle counts. Since explicit link representations are often prohibitively expensive, recent works resorted to subgraph-based methods, which have achieved state-of-the-art performance for LP, but suffer from poor efficiency due to high levels of redundancy between subgraphs. We analyze the components of subgraph GNN (SGNN) methods for link prediction. Based on our analysis, we propose a novel full-graph GNN called ELPH (Efficient Link Prediction with Hashing) that passes subgraph sketches as messages to approximate t
-    
-[^21]: 基于Boosting的离线策略学习算法
-
-    Boosted Off-Policy Learning. (arXiv:2208.01148v2 [cs.LG] UPDATED)
-
-    [http://arxiv.org/abs/2208.01148](http://arxiv.org/abs/2208.01148)
-
-    我们提出了一种基于Boosting的离线策略学习算法，将基础学习器简化为监督学习，获得了广泛的实际效益；实验结果表明其应用能力优于深度神经网络的离线策略学习和简单回归方法。
-
-    
-
-    我们提出了一种针对来自记录式赌博反馈的离线策略学习的Boosting算法。与现有的监督学习的Boosting方法不同，我们的算法直接优化了策略预期收益的估计。我们对该算法进行了分析，并证明如果基础学习器满足“弱”学习条件，那么每一轮Boosting都会减小过量经验风险（可能是指数级）。我们进一步展示了如何将基础学习器简化为监督学习，从而打开了广泛的基础学习器源，如决策树等，具有实际益处。实验结果表明，我们的算法继承了许多基于决策树的Boosting算法的优良性质（例如对特征缩放和超参数调整的鲁棒性），并且可以胜过基于深度神经网络的离线策略学习和只是回归观察到的奖励的方法。
-
-    We propose the first boosting algorithm for off-policy learning from logged bandit feedback. Unlike existing boosting methods for supervised learning, our algorithm directly optimizes an estimate of the policy's expected reward. We analyze this algorithm and prove that the excess empirical risk decreases (possibly exponentially fast) with each round of boosting, provided a ''weak'' learning condition is satisfied by the base learner. We further show how to reduce the base learner to supervised learning, which opens up a broad range of readily available base learners with practical benefits, such as decision trees. Experiments indicate that our algorithm inherits many desirable properties of tree-based boosting algorithms (e.g., robustness to feature scaling and hyperparameter tuning), and that it can outperform off-policy learning with deep neural networks as well as methods that simply regress on the observed rewards.
+    Recent studies have proposed unified user modeling frameworks that leverage user behavior data from various applications. Many of them benefit from utilizing users' behavior sequences as plain texts, representing rich information in any domain or system without losing generality. Hence, a question arises: Can language modeling for user history corpus help improve recommender systems? While its versatile usability has been widely investigated in many domains, its applications to recommender systems still remain underexplored. We show that language modeling applied directly to task-specific user histories achieves excellent results on diverse recommendation tasks. Also, leveraging additional task-agnostic user histories delivers significant performance benefits. We further demonstrate that our approach can provide promising transfer learning capabilities for a broad spectrum of real-world recommender systems, even on unseen domains and services.
     
 

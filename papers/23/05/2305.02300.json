@@ -1,0 +1,12 @@
+{
+    "title": "Evaluating the Efficacy of Length-Controllable Machine Translation. (arXiv:2305.02300v1 [cs.CL])",
+    "abstract": "Length-controllable machine translation is a type of constrained translation. It aims to contain the original meaning as much as possible while controlling the length of the translation. We can use automatic summarization or machine translation evaluation metrics for length-controllable machine translation, but this is not necessarily suitable and accurate. This work is the first attempt to evaluate the automatic metrics for length-controllable machine translation tasks systematically. We conduct a rigorous human evaluation on two translation directions and evaluate 18 summarization or translation evaluation metrics. We find that BLEURT and COMET have the highest correlation with human evaluation and are most suitable as evaluation metrics for length-controllable machine translation.",
+    "link": "http://arxiv.org/abs/2305.02300",
+    "context": "Title: Evaluating the Efficacy of Length-Controllable Machine Translation. (arXiv:2305.02300v1 [cs.CL])\nAbstract: Length-controllable machine translation is a type of constrained translation. It aims to contain the original meaning as much as possible while controlling the length of the translation. We can use automatic summarization or machine translation evaluation metrics for length-controllable machine translation, but this is not necessarily suitable and accurate. This work is the first attempt to evaluate the automatic metrics for length-controllable machine translation tasks systematically. We conduct a rigorous human evaluation on two translation directions and evaluate 18 summarization or translation evaluation metrics. We find that BLEURT and COMET have the highest correlation with human evaluation and are most suitable as evaluation metrics for length-controllable machine translation.",
+    "path": "papers/23/05/2305.02300.json",
+    "total_tokens": 707,
+    "translated_title": "评估长度可控机器翻译的有效性",
+    "translated_abstract": "长度可控机器翻译是一种约束翻译，旨在在控制翻译长度的同时尽可能保留原始含义。我们可以使用自动摘要或机器翻译评估指标进行长度可控机器翻译，但这并不一定适用和准确。这项工作是第一次系统评估长度可控机器翻译任务的自动评估指标。我们在两个翻译方向上进行了严格的人工评估，并评估了18个摘要或翻译评估指标。我们发现BLEURT和COMET与人工评估的相关性最高，最适合作为长度可控机器翻译的评估指标。",
+    "tldr": "本文评估了长度可控机器翻译的自动评估指标，发现BLEURT和COMET是最适合作为其评估指标的。",
+    "en_tdlr": "This work evaluates the automatic metrics for length-controllable machine translation and finds that BLEURT and COMET are the most suitable evaluation metrics."
+}
