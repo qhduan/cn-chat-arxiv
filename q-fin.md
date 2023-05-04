@@ -5,11 +5,12 @@
 | [^1] | [Macroeconomic factors and Stock exchange return: A Statistical Analysis.](http://arxiv.org/abs/2305.02229) | 本研究分析了达卡股票交易所股票价格与宏观经济变量之间的长期关系，结果表明消费价格指数、货币供应和汇率与股票回报密切相关，而市场资本化与股票回报呈负相关。 |
 | [^2] | [A Mediation Analysis of the Relationship Between Land Use Regulation Stringency and Employment Dynamics.](http://arxiv.org/abs/2305.02159) | 本文研究了美国878个地方辖区在2010-2020年间土地利用管制严格程度对零售、专业和信息三个行业就业增长的影响，结果表明过度的土地利用管制严格程度使得住房成本负担增加，住房成本负担成为了阻碍就业增长的中介变量，信息行业的效应最为明显。 |
 | [^3] | [The Relationship between Consumption and Economic Growth of Chinese Urban and Rural Residents since Reform and Opening-up -- An Empirical Analysis Based on Econometrics Models.](http://arxiv.org/abs/2305.02138) | 本文分析改革开放以来中国城乡居民消费与经济增长的关系，得出城市消费和农村消费的增加可以促进经济增长并且城市消费更有利于经济增长的结论，提出相关政策建议。 |
-| [^4] | [Don't Trust, Verify: Towards a Framework for the Greening of Bitcoin.](http://arxiv.org/abs/2305.01815) | 随着比特币的发展，它面临着高碳排放的问题，而目前有很多可持续比特币会计系统，但缺乏一个统一标准认证标准。本文提出了一个可行的解决方案，并详细分析了不同系统的优缺点和挑战。 |
-| [^5] | [Understanding Model Complexity for temporal tabular and multi-variate time series, case study with Numerai data science tournament.](http://arxiv.org/abs/2303.07925) | 本文采用 Numerai 数据科学竞赛的数据，探究了多变量时间序列建模中不同特征工程和降维方法的应用；提出了一种新的集成方法，用于高维时间序列建模，该方法在通用性、鲁棒性和效率上优于一些深度学习模型。 |
-| [^6] | [Quantum Analysis of Continuous Time Stochastic Process.](http://arxiv.org/abs/2208.02364) | 本文提出了一种通用框架，用于在量子计算机上高效地准备连续时间随机过程路径。基于压缩状态准备方法，可以高效地提取重要的路径相关和历史敏感信息，并实现二次加速。 |
-| [^7] | [The Evolution Of Centralisation on Cryptocurrency Platforms.](http://arxiv.org/abs/2206.05081) | 本文研究了加密货币平台的中心化演化，使用复杂系统文献中广泛的方法对比了一系列区块链，质疑了当前加密货币是否真正去中心化。 |
-| [^8] | [MicroVelocity: rethinking the Velocity of Money for digital currencies.](http://arxiv.org/abs/2201.13416) | 本文提出了MicroVelocity框架来分析数字货币的货币流通速度，揭示了个体代理贡献的分布特点，记录了高速中介的出现，为数字货币的发展和分析提供政策洞见。 |
+| [^4] | [Black-box Optimizers vs Taste Shocks.](http://arxiv.org/abs/2305.02027) | 本文比较了味道冲击和黑箱优化器两种方法解决动态规划问题的优缺点，发现味道冲击在多维问题中无法实现收敛。对于无法轻松计算导数的情况，我们推荐使用Nelder-Mead下山单纯形算法、 Powell方向集算法和共轭梯度方法BOBYQA等优化算法。 |
+| [^5] | [Don't Trust, Verify: Towards a Framework for the Greening of Bitcoin.](http://arxiv.org/abs/2305.01815) | 随着比特币的发展，它面临着高碳排放的问题，而目前有很多可持续比特币会计系统，但缺乏一个统一标准认证标准。本文提出了一个可行的解决方案，并详细分析了不同系统的优缺点和挑战。 |
+| [^6] | [Understanding Model Complexity for temporal tabular and multi-variate time series, case study with Numerai data science tournament.](http://arxiv.org/abs/2303.07925) | 本文采用 Numerai 数据科学竞赛的数据，探究了多变量时间序列建模中不同特征工程和降维方法的应用；提出了一种新的集成方法，用于高维时间序列建模，该方法在通用性、鲁棒性和效率上优于一些深度学习模型。 |
+| [^7] | [Quantum Analysis of Continuous Time Stochastic Process.](http://arxiv.org/abs/2208.02364) | 本文提出了一种通用框架，用于在量子计算机上高效地准备连续时间随机过程路径。基于压缩状态准备方法，可以高效地提取重要的路径相关和历史敏感信息，并实现二次加速。 |
+| [^8] | [The Evolution Of Centralisation on Cryptocurrency Platforms.](http://arxiv.org/abs/2206.05081) | 本文研究了加密货币平台的中心化演化，使用复杂系统文献中广泛的方法对比了一系列区块链，质疑了当前加密货币是否真正去中心化。 |
+| [^9] | [MicroVelocity: rethinking the Velocity of Money for digital currencies.](http://arxiv.org/abs/2201.13416) | 本文提出了MicroVelocity框架来分析数字货币的货币流通速度，揭示了个体代理贡献的分布特点，记录了高速中介的出现，为数字货币的发展和分析提供政策洞见。 |
 
 # 详细
 
@@ -55,7 +56,21 @@
 
     Since Reform and Opening-up 40 years ago, China has made remarkable achievements in economic fields. And consumption activities, including household consumption, have played an important role in it. Consumer activity is the end of economic activity, because the ultimate aim of other economic activities is to meet consumer demand; consumer activity is the starting point of economic activity, because consumption can drive economic and social development. This paper selects the economic data of more than 40 years since Reform and Opening-up, and establishes the Vector Autoregressive (VAR) model and Vector Error Correction (VEC) model, analyzing the influence of consumption level and total consumption of urban and rural residents on economic growth. The conclusion is that the increase of urban consumption and rural consumption can lead to the increase of GDP, and in the long run, urban consumption can promote economic growth more than rural consumption. According to this conclusion, we ana
     
-[^4]: 不要信任，要验证：迈向比特币绿色化框架
+[^4]: 黑箱优化器 vs 味道冲击
+
+    Black-box Optimizers vs Taste Shocks. (arXiv:2305.02027v1 [econ.GN])
+
+    [http://arxiv.org/abs/2305.02027](http://arxiv.org/abs/2305.02027)
+
+    本文比较了味道冲击和黑箱优化器两种方法解决动态规划问题的优缺点，发现味道冲击在多维问题中无法实现收敛。对于无法轻松计算导数的情况，我们推荐使用Nelder-Mead下山单纯形算法、 Powell方向集算法和共轭梯度方法BOBYQA等优化算法。
+
+    
+
+    我们评估和扩展了动态规划中具有二元和多连续选择变量的模型的解决方法，特别是在离散状态空间解决方法不可行的情况下。因此，我们使用应用数学家用于基准测试算法的味道冲击或黑盒优化器来近似解决方案。我们将这些方法应用于一个默认框架，其中代理必须解决具有长期债务的投资组合问题。我们表明，解决方案方法的选择很重要，因为味道震荡在多维问题中无法实现收敛。我们比较了使用四个优化算法的相对优势：Nelder-Mead下山单纯形算法，带LINMIN的Powell方向集算法，共轭梯度方法BOBYQA和拟牛顿Davidon-Fletcher-Powell（DFPMIN）算法。所有这些方法除了最后一种方法外，在不能轻松计算导数时都很优选。最终，我们发现Po
+
+    We evaluate and extend the solution methods for models with binary and multiple continuous choice variables in dynamic programming, particularly in cases where a discrete state space solution method is not viable. Therefore, we approximate the solution using taste shocks or black-box optimizers that applied mathematicians use to benchmark their algorithms. We apply these methods to a default framework in which agents have to solve a portfolio problem with long-term debt. We show that the choice of solution method matters, as taste shocks fail to attain convergence in multidimensional problems. We compare the relative advantages of using four optimization algorithms: the Nelder-Mead downhill simplex algorithm, Powell's direction-set algorithm with LINMIN, the conjugate gradient method BOBYQA, and the quasi-Newton Davidon-Fletcher-Powell (DFPMIN) algorithm. All of these methods, except for the last one, are preferred when derivatives cannot be easily computed. Ultimately, we find that Po
+    
+[^5]: 不要信任，要验证：迈向比特币绿色化框架
 
     Don't Trust, Verify: Towards a Framework for the Greening of Bitcoin. (arXiv:2305.01815v1 [econ.GN])
 
@@ -69,7 +84,7 @@
 
     For more than a decade, Bitcoin has gained as much adoption as it has received criticism. Fundamentally, Bitcoin is under fire for the high carbon footprint that results from the energy-intensive proof-of-work (PoW) consensus algorithm. There is a trend however for Bitcoin mining to adopt a trajectory toward achieving carbon-negative status, notably due to the adoption of methane-based mining and mining-based flexible load response (FLR) to complement variable renewable energy (VRE) generation. Miners and electricity sellers may increase their profitability not only by taking advantage of excess energy, but also by selling green tokens to buyers interested in greening their portfolios. Nevertheless, a proper ''green Bitcoin'' accounting system requires a standard framework for the accreditation of sustainable bitcoin holdings. The proper way to build such a framework remains contested. In this paper, we survey the different sustainable Bitcoin accounting systems. Analyzing the various 
     
-[^5]: 通过 Numerai 数据科学竞赛案例，理解时间表格和多变量时间序列的模型复杂度
+[^6]: 通过 Numerai 数据科学竞赛案例，理解时间表格和多变量时间序列的模型复杂度
 
     Understanding Model Complexity for temporal tabular and multi-variate time series, case study with Numerai data science tournament. (arXiv:2303.07925v1 [cs.LG])
 
@@ -83,7 +98,7 @@
 
     In this paper, we explore the use of different feature engineering and dimensionality reduction methods in multi-variate time-series modelling. Using a feature-target cross correlation time series dataset created from Numerai tournament, we demonstrate under over-parameterised regime, both the performance and predictions from different feature engineering methods converge to the same equilibrium, which can be characterised by the reproducing kernel Hilbert space. We suggest a new Ensemble method, which combines different random non-linear transforms followed by ridge regression for modelling high dimensional time-series. Compared to some commonly used deep learning models for sequence modelling, such as LSTM and transformers, our method is more robust (lower model variance over different random seeds and less sensitive to the choice of architecture) and more efficient. An additional advantage of our method is model simplicity as there is no need to use sophisticated deep learning frame
     
-[^6]: 连续时间随机过程的量子分析
+[^7]: 连续时间随机过程的量子分析
 
     Quantum Analysis of Continuous Time Stochastic Process. (arXiv:2208.02364v3 [quant-ph] UPDATED)
 
@@ -97,7 +112,7 @@
 
     The continuous time stochastic process is a mainstream mathematical instrument modeling the random world with a wide range of applications involving finance, statistics, physics, and time series analysis, while the simulation and analysis of the continuous time stochastic process is a challenging problem for classical computers. In this work, a general framework is established to prepare the path of a continuous time stochastic process in a quantum computer efficiently. The storage and computation resource is exponentially reduced on the key parameter of holding time, as the qubit number and the circuit depth are both optimized via our compressed state preparation method. The desired information, including the path-dependent and history-sensitive information that is essential for financial problems, can be extracted efficiently from the compressed sampling path, and admits a further quadratic speed-up. Moreover, this extraction method is more sensitive to those discontinuous jumps capt
     
-[^7]: 加密货币平台的中心化演化
+[^8]: 加密货币平台的中心化演化
 
     The Evolution Of Centralisation on Cryptocurrency Platforms. (arXiv:2206.05081v2 [physics.soc-ph] UPDATED)
 
@@ -111,7 +126,7 @@
 
     More than ten years ago the blockchain was acclaimed as the solution to overcome centralised trusted third parties for online payments. Through the years the crypto-movement changed and evolved, although decentralisation remained the core ideology and the necessary feature every new crypto-project should provide. In this paper we study the concept of centralisation in cryptocurrencies using a wide array of methodologies from the complex systems literature, on a comparative collection of blockchains, in order to define the many different levels a blockchain system may display (de-)centralisation and to question whether the present state of cryptocurrencies is, in a technological and economical sense, actually decentralised.
     
-[^8]: 《MicroVelocity: 重新思考数字货币的货币速度》
+[^9]: 《MicroVelocity: 重新思考数字货币的货币速度》
 
     MicroVelocity: rethinking the Velocity of Money for digital currencies. (arXiv:2201.13416v2 [econ.GN] UPDATED)
 
