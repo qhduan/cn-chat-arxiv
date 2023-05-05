@@ -1,0 +1,12 @@
+{
+    "title": "Majorizing Measures, Codes, and Information. (arXiv:2305.02960v1 [cs.IT])",
+    "abstract": "The majorizing measure theorem of Fernique and Talagrand is a fundamental result in the theory of random processes. It relates the boundedness of random processes indexed by elements of a metric space to complexity measures arising from certain multiscale combinatorial structures, such as packing and covering trees. This paper builds on the ideas first outlined in a little-noticed preprint of Andreas Maurer to present an information-theoretic perspective on the majorizing measure theorem, according to which the boundedness of random processes is phrased in terms of the existence of efficient variable-length codes for the elements of the indexing metric space.",
+    "link": "http://arxiv.org/abs/2305.02960",
+    "context": "Title: Majorizing Measures, Codes, and Information. (arXiv:2305.02960v1 [cs.IT])\nAbstract: The majorizing measure theorem of Fernique and Talagrand is a fundamental result in the theory of random processes. It relates the boundedness of random processes indexed by elements of a metric space to complexity measures arising from certain multiscale combinatorial structures, such as packing and covering trees. This paper builds on the ideas first outlined in a little-noticed preprint of Andreas Maurer to present an information-theoretic perspective on the majorizing measure theorem, according to which the boundedness of random processes is phrased in terms of the existence of efficient variable-length codes for the elements of the indexing metric space.",
+    "path": "papers/23/05/2305.02960.json",
+    "total_tokens": 688,
+    "translated_title": "Majorizing Measures, Codes, and Information（测度主导、码和信息）",
+    "translated_abstract": "Fernique和Talagrand的趋势测度定理是随机过程理论中的一个基本结果。它将度量空间中元素索引的随机过程的有限性与来自某些多尺度组合结构（如填充和覆盖树）的复杂性度量相关联。本文在Andreas Maurer的一份鲜为人知的预印本中首次概述的思路上构建一种基于信息论的趋势测度定理视角，根据该视角，随机过程的有限性是用索引度量空间元素的有效可变长度编码的存在性来表述的。",
+    "tldr": "本文介绍了一种基于信息论的趋势测度定理视角，该视角将随机过程的有限性与索引度量空间元素的有效可变长度编码的存在性相关联。",
+    "en_tdlr": "This paper presents an information-theoretic perspective on the majorizing measure theorem, which relates the boundedness of random processes to the existence of efficient variable-length codes for the elements of the indexing metric space."
+}

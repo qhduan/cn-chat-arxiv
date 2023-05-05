@@ -1,0 +1,12 @@
+{
+    "title": "Secure Embedding Aggregation for Federated Representation Learning. (arXiv:2206.09097v2 [cs.LG] UPDATED)",
+    "abstract": "We consider a federated representation learning framework, where with the assistance of a central server, a group of $N$ distributed clients train collaboratively over their private data, for the representations (or embeddings) of a set of entities (e.g., users in a social network). Under this framework, for the key step of aggregating local embeddings trained privately at the clients, we develop a secure embedding aggregation protocol named \\scheme, which leverages all potential aggregation opportunities among all the clients, while providing privacy guarantees for the set of local entities and corresponding embeddings \\emph{simultaneously} at each client, against a curious server and up to $T < N/2$ colluding clients.",
+    "link": "http://arxiv.org/abs/2206.09097",
+    "context": "Title: Secure Embedding Aggregation for Federated Representation Learning. (arXiv:2206.09097v2 [cs.LG] UPDATED)\nAbstract: We consider a federated representation learning framework, where with the assistance of a central server, a group of $N$ distributed clients train collaboratively over their private data, for the representations (or embeddings) of a set of entities (e.g., users in a social network). Under this framework, for the key step of aggregating local embeddings trained privately at the clients, we develop a secure embedding aggregation protocol named \\scheme, which leverages all potential aggregation opportunities among all the clients, while providing privacy guarantees for the set of local entities and corresponding embeddings \\emph{simultaneously} at each client, against a curious server and up to $T < N/2$ colluding clients.",
+    "path": "papers/22/06/2206.09097.json",
+    "total_tokens": 762,
+    "translated_title": "安全嵌入聚合用于联合表示学习",
+    "translated_abstract": "本论文考虑联合表示学习框架，在中央服务器的协助下，一组$N$个分布式客户端共同训练它们的私有数据，用于表示（或嵌入）一组实体（例如社交网络中的用户）。在这个框架下，为了聚合客户端私有训练的本地嵌入表示，我们开发了一种名为\\scheme 的安全嵌入聚合协议，它利用所有客户端之间的潜在聚合机会，同时提供对每个客户端的本地实体和相应嵌入表示的隐私保护，防止好奇的服务器和多达 $T<N/2$的串通客户端的攻击。",
+    "tldr": "本论文提出了一种安全嵌入聚合协议\\scheme，该协议在联合表示学习框架下，能够在保护客户端隐私的前提下，实现多个客户端的嵌入表示聚合。",
+    "en_tdlr": "This paper proposes a secure embedding aggregation protocol \\scheme, which can aggregate embedding representations from multiple clients in a federated representation learning framework while preserving client privacy and being robust against attacks from a curious server and up to T<N/2 colluding clients."
+}

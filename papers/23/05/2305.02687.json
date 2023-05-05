@@ -1,0 +1,12 @@
+{
+    "title": "Big Data and Large Numbers. Interpreting Zipf's Law. (arXiv:2305.02687v1 [physics.soc-ph])",
+    "abstract": "It turns out that some empirical facts in Big Data are the effects of properties of large numbers. Zipf's law noise is an example of such an artefact. We expose several properties of the power law distributions and of similar distribution that occur when the population is finite and the rank and counts of elements in the population are natural numbers. Consequences in the interpretation of Zipf's law are discussed.",
+    "link": "http://arxiv.org/abs/2305.02687",
+    "context": "Title: Big Data and Large Numbers. Interpreting Zipf's Law. (arXiv:2305.02687v1 [physics.soc-ph])\nAbstract: It turns out that some empirical facts in Big Data are the effects of properties of large numbers. Zipf's law noise is an example of such an artefact. We expose several properties of the power law distributions and of similar distribution that occur when the population is finite and the rank and counts of elements in the population are natural numbers. Consequences in the interpretation of Zipf's law are discussed.",
+    "path": "papers/23/05/2305.02687.json",
+    "total_tokens": 652,
+    "translated_title": "大数据和大数的解释：解读齐普夫定律",
+    "translated_abstract": "一些大数据领域的实证事实属于大数性质的影响。齐普夫定律噪音就是这种现象的例子。我们揭示了权力分布和类似分布的几个特性，这些分布发生在种群是有限的、排名和元素计数是自然数的情况下。讨论了这些特性对解释齐普夫定律的影响。",
+    "tldr": "该论文揭示了大数性质对于解释齐普夫定律的影响，指出齐普夫定律噪音是这种影响的例子，并分析了权力分布和类似分布在种群是有限的、排名和元素计数是自然数的情况下的特性。",
+    "en_tdlr": "This paper reveals the effects of large numbers on interpreting Zipf's law, discusses the example of Zipf's law noise, and analyzes the properties of power law distributions and similar distributions when the population has finite size and the rank and counts of elements are natural numbers."
+}

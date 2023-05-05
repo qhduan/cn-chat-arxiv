@@ -1,0 +1,12 @@
+{
+    "title": "Panda LLM: Training Data and Evaluation for Open-Sourced Chinese Instruction-Following Large Language Models. (arXiv:2305.03025v1 [cs.CL])",
+    "abstract": "This project focuses on enhancing open-source large language models through instruction-tuning and providing comprehensive evaluations of their performance. We explore how various training data factors, such as quantity, quality, and linguistic distribution, influence the performance of instruction-tuned models trained on publicly accessible high-quality instruction datasets for both English and Chinese languages. Our goal is to supplement evaluation with quantitative analyses, providing valuable insights for the continued advancement of open-source chat models. Our model, data, and code are publicly available for others to use and build upon.",
+    "link": "http://arxiv.org/abs/2305.03025",
+    "context": "Title: Panda LLM: Training Data and Evaluation for Open-Sourced Chinese Instruction-Following Large Language Models. (arXiv:2305.03025v1 [cs.CL])\nAbstract: This project focuses on enhancing open-source large language models through instruction-tuning and providing comprehensive evaluations of their performance. We explore how various training data factors, such as quantity, quality, and linguistic distribution, influence the performance of instruction-tuned models trained on publicly accessible high-quality instruction datasets for both English and Chinese languages. Our goal is to supplement evaluation with quantitative analyses, providing valuable insights for the continued advancement of open-source chat models. Our model, data, and code are publicly available for others to use and build upon.",
+    "path": "papers/23/05/2305.03025.json",
+    "total_tokens": 711,
+    "translated_title": "Panda LLM：训练数据和评估针对开源汉语指令跟随大语言模型的性能",
+    "translated_abstract": "该项目着重于通过指令调整来增强开源大型语言模型，并对其性能进行全面评估。我们探讨了各种训练数据因素，如数量、质量和语言分布，对在公开高质量指令数据集上训练的中英双语指令调整模型性能的影响。我们的目标是通过定量分析来补充评估，为开源聊天模型的持续发展提供有价值的洞察力。我们的模型、数据和代码都是公开的，供其他人使用和建立。",
+    "tldr": "该项目研究了如何通过指令调整来提升开源大型语言模型的性能，探讨了训练数据的因素对指令调整模型性能的影响，并通过量化分析来为聊天模型的持续发展提供有价值的洞察力。",
+    "en_tdlr": "This project explores how to enhance open-source large language models through instruction-tuning, evaluates the impact of training data factors, and provides valuable insights for the continued advancement of open-source chat models."
+}

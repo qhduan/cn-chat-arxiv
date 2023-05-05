@@ -2,187 +2,247 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Macroeconomic factors and Stock exchange return: A Statistical Analysis.](http://arxiv.org/abs/2305.02229) | 本研究分析了达卡股票交易所股票价格与宏观经济变量之间的长期关系，结果表明消费价格指数、货币供应和汇率与股票回报密切相关，而市场资本化与股票回报呈负相关。 |
-| [^2] | [Doubly Robust Uniform Confidence Bands for Group-Time Conditional Average Treatment Effects in Difference-in-Differences.](http://arxiv.org/abs/2305.02185) | 本研究提出了一种双重稳健推断方法，该方法可用于构建在差分中的组时间条件平均处理效应函数的一致置信带。 |
-| [^3] | [A Mediation Analysis of the Relationship Between Land Use Regulation Stringency and Employment Dynamics.](http://arxiv.org/abs/2305.02159) | 本文研究了美国878个地方辖区在2010-2020年间土地利用管制严格程度对零售、专业和信息三个行业就业增长的影响，结果表明过度的土地利用管制严格程度使得住房成本负担增加，住房成本负担成为了阻碍就业增长的中介变量，信息行业的效应最为明显。 |
-| [^4] | [The Relationship between Consumption and Economic Growth of Chinese Urban and Rural Residents since Reform and Opening-up -- An Empirical Analysis Based on Econometrics Models.](http://arxiv.org/abs/2305.02138) | 本文分析改革开放以来中国城乡居民消费与经济增长的关系，得出城市消费和农村消费的增加可以促进经济增长并且城市消费更有利于经济增长的结论，提出相关政策建议。 |
-| [^5] | [Black-box Optimizers vs Taste Shocks.](http://arxiv.org/abs/2305.02027) | 本文比较了味道冲击和黑箱优化器两种方法解决动态规划问题的优缺点，发现味道冲击在多维问题中无法实现收敛。对于无法轻松计算导数的情况，我们推荐使用Nelder-Mead下山单纯形算法、 Powell方向集算法和共轭梯度方法BOBYQA等优化算法。 |
-| [^6] | [Don't Trust, Verify: Towards a Framework for the Greening of Bitcoin.](http://arxiv.org/abs/2305.01815) | 随着比特币的发展，它面临着高碳排放的问题，而目前有很多可持续比特币会计系统，但缺乏一个统一标准认证标准。本文提出了一个可行的解决方案，并详细分析了不同系统的优缺点和挑战。 |
-| [^7] | [Identifying an Earnings Process With Dependent Contemporaneous Income Shocks.](http://arxiv.org/abs/2303.08460) | 本文提出了一种新的方法，用于识别具有任意相关同期收入冲击的盈利动态模型中的系数。 |
-| [^8] | [The Evolution Of Centralisation on Cryptocurrency Platforms.](http://arxiv.org/abs/2206.05081) | 本文研究了加密货币平台的中心化演化，使用复杂系统文献中广泛的方法对比了一系列区块链，质疑了当前加密货币是否真正去中心化。 |
-| [^9] | [MicroVelocity: rethinking the Velocity of Money for digital currencies.](http://arxiv.org/abs/2201.13416) | 本文提出了MicroVelocity框架来分析数字货币的货币流通速度，揭示了个体代理贡献的分布特点，记录了高速中介的出现，为数字货币的发展和分析提供政策洞见。 |
-| [^10] | [Incentives for Collective Innovation.](http://arxiv.org/abs/2109.01885) | 本论文研究了代理商在共享技术中的集体创新问题，发现允许代理商丢弃创新可以增加均衡努力和福利。 |
-| [^11] | [Flexible Covariate Adjustments in Regression Discontinuity Designs.](http://arxiv.org/abs/2107.07942) | 本研究提出了一种在回归不连续设计中更有效地利用协变量信息的估计器类，可以容纳大量的离散或连续协变量，并经由机器学习、非参数回归或经典参数方法来估计。通过对结果变量适当修改，这种估计器易于实现，可以选择类似于传统RD分析的调整参数。 |
-| [^12] | [Testing homogeneity in dynamic discrete games in finite samples.](http://arxiv.org/abs/2010.02297) | 本文提出了一个检验动态离散博弈中关键假定“同质性假设”的方法，该方法能通过随机化检验来验证该假设是否成立。 |
+| [^1] | [Lemonade from Lemons: Information Design and Adverse Selection.](http://arxiv.org/abs/2305.02994) | 本研究探究了卖家与买家的价值相互依赖的情况下，通过信息设计和逆向选择机制实现收益的问题，当出现完全崩溃和柠檬市场等特殊情况时，买家可以得到整个剩余价值。 |
+| [^2] | [Strategic flip-flopping in political competition.](http://arxiv.org/abs/2305.02834) | 本文研究了政治竞争中竞选者对选民偏好信息做出战略调整的情况，发现在新信息有利时，竞选者会采取战略“翻盘”以获得无成本的胜利。 |
+| [^3] | [Surveying Generative AI's Economic Expectations.](http://arxiv.org/abs/2305.02823) | 该论文介绍了一项经济预期调查，使用大型语言模型对各种金融和宏观经济变量的预期进行查询，发现LLM预期与现有调查相似，但也显示出许多偏离理性预期的特点，该调查方法为衡量经济预期提供了一种新方法。 |
+| [^4] | [The Indoctrination Game.](http://arxiv.org/abs/2305.02604) | 研究证明在公共舆论中，中间派的意见在沉默中变得无声无息，而极端派则掌控了讨论；并发现接触到他人意见的增多会加剧个体之间的极化现象。 |
+| [^5] | [Employer Reputation and the Labor Market: Evidence from Glassdoor.com and Dice.com.](http://arxiv.org/abs/2305.02587) | 本研究使用Glassdoor.com和Dice.com的数据研究了雇主声誉对劳动市场的影响，发现雇主声誉的提高将影响其吸引工人的能力，尤其是当显示评分为“持续”时，这种影响对于私人、较小和不那么知名的企业最为突出。 |
+| [^6] | [Beneficence Signaling in AI Development Dynamics.](http://arxiv.org/abs/2305.02561) | 本文介绍了一个框架来理解AI开发中的社会技术系统和社会福利的相互作用，并引入了“信号传递”的概念以增强对AI系统评估和治理的理论和实践。 |
+| [^7] | [Understand Waiting Time in Transaction Fee Mechanism: An Interdisciplinary Perspective.](http://arxiv.org/abs/2305.02552) | 本文通过整合以太坊区块链和内存池数据，探究了TFMs中等待时间的确定因素，研究表明回归断点设计对于分析因果推理很有效，交易低估会产生垃圾邮件攻击，这些对于提高区块链系统安全和经济性能有所帮助。 |
+| [^8] | [Why Not Borrow, Invest, and Escape Poverty?.](http://arxiv.org/abs/2305.02546) | 该论文针对穷人利用小额信贷投资于企业或人力资本的现状进行研究，认为风险规避是原因之一，因为投资旨在提高成功可能性，所以需要采取不同的策略。 |
+| [^9] | [Language, Time Preferences, and Consumer Behavior: Evidence from Large Language Models.](http://arxiv.org/abs/2305.02531) | 本研究分析了大型语言模型在不同语言提示下的奖励时间偏好，并发现GPT在具有较弱未来时态的语言下表现出更大的耐心，这与使用该语言的人类的偏好相似。 |
+| [^10] | [Market Making and Pricing of Financial Derivatives based on Road Travel Times.](http://arxiv.org/abs/2305.02523) | 本文提出了一种基于道路行驶时间的金融衍生品，可以作为一种创新的对冲工具，在交通领域和金融市场中都有潜在的市场和需求。 |
+| [^11] | [The Direct and Spillover Effects of Large-scale Affirmative Action at an Elite Brazilian University.](http://arxiv.org/abs/2305.02513) | 巴西一所精英大学实施的大规模平权政策既对于黑人和低收入学生具有正向效应（使得其就业收入增长），又对于该校排名最高的学生具有重大负面影响（导致他们就业收入大幅下降）。 |
+| [^12] | [Informing Innovation Management: Linking Leading R&D Firms and Emerging Technologies.](http://arxiv.org/abs/2305.02476) | 本文构建了一个新的模型，将新兴技术与全球领先的研发支出公司相连接，从而获得了一个新的地图，可以分析公司与新兴技术之间的最密切联系，并得到了显著的正相关性验证。此模型可用于特定技术主题、公司竞争格局和国家利益等领域的研究。 |
+| [^13] | [Approximate Functional Differencing.](http://arxiv.org/abs/2301.13736) | 这篇论文提出了一种近似函数差分的方法，旨在解决面板数据模型中推断公共参数时的附带参数问题，适用于许多面板数据模型，即使时间期数较小。 |
+| [^14] | [Uncertainty Quantification in Synthetic Controls with Staggered Treatment Adoption.](http://arxiv.org/abs/2210.05026) | 该论文提出了一种基于原则的预测区间方法，用于量化合成对照预测或估计在错位处理采用的情况下的不确定性。 |
+| [^15] | [Direct Implementation with Evidence.](http://arxiv.org/abs/2105.12298) | 该论文研究了在效用有限的环境中带有证据的全面实现问题，提出了一种基于新的证据分类的可以在两个代理人下实现Nash均衡的直接真相机制，并给出了关于重订合法的双边合同的必要充分条件。 |
+| [^16] | [Causal Inference under Outcome-Based Sampling with Monotonicity Assumptions.](http://arxiv.org/abs/2004.08318) | 本文研究了基于结果抽样的因果推断，发现强无偏性不总是像随机抽样下那样强大，并且某些单调性假设在锐利识别间隔方面产生可比较的结果。 通过算法推断出参数并用实证例子证明了方法的贡献。 |
 
 # 详细
 
-[^1]: 宏观经济因素与股票市场回报：一项统计分析
+[^1]: 柠檬制成柠檬水：信息设计与逆向选择
 
-    Macroeconomic factors and Stock exchange return: A Statistical Analysis. (arXiv:2305.02229v1 [econ.GN])
+    Lemonade from Lemons: Information Design and Adverse Selection. (arXiv:2305.02994v1 [econ.TH])
 
-    [http://arxiv.org/abs/2305.02229](http://arxiv.org/abs/2305.02229)
+    [http://arxiv.org/abs/2305.02994](http://arxiv.org/abs/2305.02994)
 
-    本研究分析了达卡股票交易所股票价格与宏观经济变量之间的长期关系，结果表明消费价格指数、货币供应和汇率与股票回报密切相关，而市场资本化与股票回报呈负相关。
-
-    
-
-    本研究旨在研究达卡股票交易所指数回报与汇率、通货膨胀、货币供应等宏观经济变量之间的关系。通过使用约翰逊共整合检验、增广迪基-福勒（ADF）和菲利普·佩隆（PP）检验分析了宏观经济变量与股票市场回报之间的长期关系。结果表明，达卡股票交易所股票价格与宏观经济变量之间存在协整关系。消费价格指数、货币供应和汇率与股票回报密切相关，而市场资本化与股票回报呈负相关。研究结果表明，长期来看，达卡股票交易所对宏观经济指标具有反应能力。
-
-    The purpose of this research is to examine the relationship between the Dhaka Stock exchange index return and macroeconomic variables such as exchange rate, inflation, money supply etc. The long-term relationship between macroeconomic variables and stock market returns has been analyzed by using the Johnson Cointegration test, Augmented Dicky Fuller (ADF) and Phillip Perron (PP) tests. The results revealed the existence of cointegrating relationship between stock prices and the macroeconomic variables in the Dhaka stock exchange. The consumer price index, money supply, and exchange rates proved to be strongly associated with stock returns, while market capitalization was found to be negatively associated with stock returns. The findings suggest that in the long run, the Dhaka stock exchange is reactive to macroeconomic indicators.
-    
-[^2]: 双重稳健一致置信带在差分中的组时间条件平均处理效应中的应用
-
-    Doubly Robust Uniform Confidence Bands for Group-Time Conditional Average Treatment Effects in Difference-in-Differences. (arXiv:2305.02185v1 [econ.EM])
-
-    [http://arxiv.org/abs/2305.02185](http://arxiv.org/abs/2305.02185)
-
-    本研究提出了一种双重稳健推断方法，该方法可用于构建在差分中的组时间条件平均处理效应函数的一致置信带。
+    本研究探究了卖家与买家的价值相互依赖的情况下，通过信息设计和逆向选择机制实现收益的问题，当出现完全崩溃和柠檬市场等特殊情况时，买家可以得到整个剩余价值。
 
     
 
-    本研究考虑了对面板数据进行分析，以研究在Callaway和Sant'Anna（2021）的错位差分设置中，针对感兴趣的预处理协变量的治疗效应异质性。在一组标准识别条件下，一个基于协变量的双重稳健估计值识别了给定协变量的组时间条件平均处理效应。鉴于这个识别结果，我们提出了一个基于非参数局部线性回归和参数估计方法的三步估计程序，并开发了一个双重稳健推断方法来构建组时间条件平均处理效应函数的一致置信带。
+    一个卖家对于一件物品公布一个价格。卖家与买家的价值可能相互依赖。我们刻画了所有信息结构中收益向量的集合。简单的可行性和个人合理性限制识别了收益集。买家可以获得整个剩余价值。通常情况下，其他机制不能扩大收益集。我们还研究了在买家比卖家更知情的情况下以及在买家完全知晓的情况下的收益，所有三个收益集只有在特殊情况下才一致，特别是在一个“柠檬市场”中出现完全崩溃的情况下，其卖家未知，买家完全知情。
 
-    This study considers a panel data analysis to examine the heterogeneity in treatment effects with respect to a pre-treatment covariate of interest in the staggered difference-in-differences setting in Callaway and Sant'Anna (2021). Under a set of standard identification conditions, a doubly robust estimand conditional on the covariate identifies the group-time conditional average treatment effect given the covariate. Given this identification result, we propose a three-step estimation procedure based on nonparametric local linear regressions and parametric estimation methods, and develop a doubly robust inference method to construct a uniform confidence band of the group-time conditional average treatment effect function.
+    A seller posts a price for a single object. The seller's and buyer's values may be interdependent. We characterize the set of payoff vectors across all information structures. Simple feasibility and individual-rationality constraints identify the payoff set. The buyer can obtain the entire surplus; often, other mechanisms cannot enlarge the payoff set. We also study payoffs when the buyer is more informed than the seller, and when the buyer is fully informed. All three payoff sets coincide (only) in notable special cases -- in particular, when there is complete breakdown in a ``lemons market'' with an uninformed seller and fully-informed buyer.
     
-[^3]: 土地利用管制严格程度与就业动态关系的中介分析
+[^2]: 政治竞争中的战略“翻盘”
 
-    A Mediation Analysis of the Relationship Between Land Use Regulation Stringency and Employment Dynamics. (arXiv:2305.02159v1 [econ.GN])
+    Strategic flip-flopping in political competition. (arXiv:2305.02834v1 [cs.GT])
 
-    [http://arxiv.org/abs/2305.02159](http://arxiv.org/abs/2305.02159)
+    [http://arxiv.org/abs/2305.02834](http://arxiv.org/abs/2305.02834)
 
-    本文研究了美国878个地方辖区在2010-2020年间土地利用管制严格程度对零售、专业和信息三个行业就业增长的影响，结果表明过度的土地利用管制严格程度使得住房成本负担增加，住房成本负担成为了阻碍就业增长的中介变量，信息行业的效应最为明显。
-
-    
-
-    本文旨在研究美国878个地方辖区（2010-2020年）关于居住用途管制指数（WRLURI）严格程度对零售、专业和信息三个行业就业增长的影响。本文采用中介分析框架，研究土地利用管制严格程度对行业就业增长和专业化的直接影响和间接影响。分析结果表明，过度的土地利用管制严格程度与住房成本负担之间存在完全中介的关系，并且住房成本负担是中介变量，这阻碍了就业增长，信息行业的效应最为明显。
-
-    The paper examines the effects of stringent land use regulations, measured using the Wharton Residential Land Use Regulatory Index (WRLURI), on employment growth during the period 2010-2020 in the Retail, Professional, and Information sectors across 878 local jurisdictions in the United States. All the local jurisdictions exist in both (2006 and 2018) waves of the WRLURI surveys and hence constitute a unique panel data. We apply a mediation analytical framework to decompose the direct and indirect effects of land use regulation stringency on sectoral employment growth and specialization. Our analysis suggests a fully mediated pattern in the relationship between excessive land use regulations and employment growth, with housing cost burden as the mediator. Specifically, a one standard deviation increase in the WRLURI index is associated with an approximate increase of 0.8 percentage point in the proportion of cost burdened renters. Relatedly, higher prevalence of cost-burdened renters h
-    
-[^4]: 改革开放以来中国城乡居民消费与经济增长的关系——基于计量经济学模型的实证分析
-
-    The Relationship between Consumption and Economic Growth of Chinese Urban and Rural Residents since Reform and Opening-up -- An Empirical Analysis Based on Econometrics Models. (arXiv:2305.02138v1 [econ.GN])
-
-    [http://arxiv.org/abs/2305.02138](http://arxiv.org/abs/2305.02138)
-
-    本文分析改革开放以来中国城乡居民消费与经济增长的关系，得出城市消费和农村消费的增加可以促进经济增长并且城市消费更有利于经济增长的结论，提出相关政策建议。
+    本文研究了政治竞争中竞选者对选民偏好信息做出战略调整的情况，发现在新信息有利时，竞选者会采取战略“翻盘”以获得无成本的胜利。
 
     
 
-    改革开放四十年来，中国在经济领域取得了显著的成就，而其中消费活动，包括家庭消费在内，发挥了重要作用。消费活动是经济活动的终点，因为其他经济活动的最终目的是满足消费需求；消费活动是经济活动的起点，因为消费可以推动经济和社会发展。本文选择了改革开放以来40多年的经济数据，建立了向量自回归（VAR）模型和向量误差纠正（VEC）模型，分析了城乡居民消费水平和总消费对经济增长的影响。结论是城市消费和农村消费的增加可以导致GDP的增长，在长期内，城市消费可以比农村消费更能促进经济增长。据此，我们分析了原因并提出了相关政策建议。
+    本文研究了竞选者如何针对选民偏好的新信息做出调整。重新定位可使竞选者更接近中间选民，但会在财务和选举方面产生成本。我们研究了调整发生的时机和方向，这取决于竞选者的先前立场和新信息。我们发现，在唯一的子博弈完美均衡中，竞选者预测到可能会根据未来的信息做出调整，并在先前分歧，以在新信息有利时确保无成本的胜利。
 
-    Since Reform and Opening-up 40 years ago, China has made remarkable achievements in economic fields. And consumption activities, including household consumption, have played an important role in it. Consumer activity is the end of economic activity, because the ultimate aim of other economic activities is to meet consumer demand; consumer activity is the starting point of economic activity, because consumption can drive economic and social development. This paper selects the economic data of more than 40 years since Reform and Opening-up, and establishes the Vector Autoregressive (VAR) model and Vector Error Correction (VEC) model, analyzing the influence of consumption level and total consumption of urban and rural residents on economic growth. The conclusion is that the increase of urban consumption and rural consumption can lead to the increase of GDP, and in the long run, urban consumption can promote economic growth more than rural consumption. According to this conclusion, we ana
+    We study candidates' positioning when adjustments are possible in response to new information about voters' preferences. Re-positioning allows candidates to get closer to the median voter but is costly both financially and electorally. We examine the occurrence and the direction of the adjustments depending on the ex-ante positions and the new information. In the unique subgame perfect equilibrium, candidates anticipate the possibility to adjust in response to future information and diverge ex-ante in order to secure a cost-less victory when the new information is favorable.
     
-[^5]: 黑箱优化器 vs 味道冲击
+[^3]: 调查生成AI对经济预期的期望
 
-    Black-box Optimizers vs Taste Shocks. (arXiv:2305.02027v1 [econ.GN])
+    Surveying Generative AI's Economic Expectations. (arXiv:2305.02823v1 [econ.GN])
 
-    [http://arxiv.org/abs/2305.02027](http://arxiv.org/abs/2305.02027)
+    [http://arxiv.org/abs/2305.02823](http://arxiv.org/abs/2305.02823)
 
-    本文比较了味道冲击和黑箱优化器两种方法解决动态规划问题的优缺点，发现味道冲击在多维问题中无法实现收敛。对于无法轻松计算导数的情况，我们推荐使用Nelder-Mead下山单纯形算法、 Powell方向集算法和共轭梯度方法BOBYQA等优化算法。
-
-    
-
-    我们评估和扩展了动态规划中具有二元和多连续选择变量的模型的解决方法，特别是在离散状态空间解决方法不可行的情况下。因此，我们使用应用数学家用于基准测试算法的味道冲击或黑盒优化器来近似解决方案。我们将这些方法应用于一个默认框架，其中代理必须解决具有长期债务的投资组合问题。我们表明，解决方案方法的选择很重要，因为味道震荡在多维问题中无法实现收敛。我们比较了使用四个优化算法的相对优势：Nelder-Mead下山单纯形算法，带LINMIN的Powell方向集算法，共轭梯度方法BOBYQA和拟牛顿Davidon-Fletcher-Powell（DFPMIN）算法。所有这些方法除了最后一种方法外，在不能轻松计算导数时都很优选。最终，我们发现Po
-
-    We evaluate and extend the solution methods for models with binary and multiple continuous choice variables in dynamic programming, particularly in cases where a discrete state space solution method is not viable. Therefore, we approximate the solution using taste shocks or black-box optimizers that applied mathematicians use to benchmark their algorithms. We apply these methods to a default framework in which agents have to solve a portfolio problem with long-term debt. We show that the choice of solution method matters, as taste shocks fail to attain convergence in multidimensional problems. We compare the relative advantages of using four optimization algorithms: the Nelder-Mead downhill simplex algorithm, Powell's direction-set algorithm with LINMIN, the conjugate gradient method BOBYQA, and the quasi-Newton Davidon-Fletcher-Powell (DFPMIN) algorithm. All of these methods, except for the last one, are preferred when derivatives cannot be easily computed. Ultimately, we find that Po
-    
-[^6]: 不要信任，要验证：迈向比特币绿色化框架
-
-    Don't Trust, Verify: Towards a Framework for the Greening of Bitcoin. (arXiv:2305.01815v1 [econ.GN])
-
-    [http://arxiv.org/abs/2305.01815](http://arxiv.org/abs/2305.01815)
-
-    随着比特币的发展，它面临着高碳排放的问题，而目前有很多可持续比特币会计系统，但缺乏一个统一标准认证标准。本文提出了一个可行的解决方案，并详细分析了不同系统的优缺点和挑战。
+    该论文介绍了一项经济预期调查，使用大型语言模型对各种金融和宏观经济变量的预期进行查询，发现LLM预期与现有调查相似，但也显示出许多偏离理性预期的特点，该调查方法为衡量经济预期提供了一种新方法。
 
     
 
-    在过去的十多年中，比特币既得到了越来越多的认可，也受到了很多批评。基本上，比特币因其高能耗的工作量证明（PoW）共识算法所导致的高碳排放量而备受争议。然而，有一个趋势是，比特币挖掘正朝着实现碳负担的方向发展，这主要是由于采用了基于甲烷的挖掘和支持可变可再生能源（VRE）发电的挖掘灵活负荷响应（FLR）。矿工和电力销售商不仅可以利用过剩能源来增加他们的盈利能力，还可以向那些有兴趣绿化自己投资组合的买家出售绿色代币。然而，一个合适的“绿色比特币”会计系统需要一个可持续比特币持有的认证标准框架。建立这样的框架的正确方法仍有争议。本文调查了不同的可持续比特币会计系统，分析了它们的优缺点及其挑战。
+    我通过查询1984年至2021年华尔街日报的新闻文章样本，介绍了一个经济预期调查，该调查查询了一个大型语言模型（LLM）对各种金融和宏观经济变量的预期。 我发现，由此产生的预期与现有调查（包括专业预测者调查（SPF）、美国个人投资者协会和杜克首席财务官调查）非常相似。重要的是，我记录了LLM基于模型的预期与现有调查系列中表现出的许多全信息理性预期偏差匹配。LLM的宏观经济预期表现出共识SPF预测中常见的低反应性。此外，其回报预期是外推的，脱离了预期回报的客观测量，与未来实现的回报呈负相关。最后，利用LLM培训期以外的文章样本，我发现与现有调查预期的相关性仍然强，这表明LLM模型的基础框架提供了一种有用的新方法来测量经济预期。
 
-    For more than a decade, Bitcoin has gained as much adoption as it has received criticism. Fundamentally, Bitcoin is under fire for the high carbon footprint that results from the energy-intensive proof-of-work (PoW) consensus algorithm. There is a trend however for Bitcoin mining to adopt a trajectory toward achieving carbon-negative status, notably due to the adoption of methane-based mining and mining-based flexible load response (FLR) to complement variable renewable energy (VRE) generation. Miners and electricity sellers may increase their profitability not only by taking advantage of excess energy, but also by selling green tokens to buyers interested in greening their portfolios. Nevertheless, a proper ''green Bitcoin'' accounting system requires a standard framework for the accreditation of sustainable bitcoin holdings. The proper way to build such a framework remains contested. In this paper, we survey the different sustainable Bitcoin accounting systems. Analyzing the various 
+    I introduce a survey of economic expectations formed by querying a large language model (LLM)'s expectations of various financial and macroeconomic variables based on a sample of news articles from the Wall Street Journal between 1984 and 2021. I find the resulting expectations closely match existing surveys including the Survey of Professional Forecasters (SPF), the American Association of Individual Investors, and the Duke CFO Survey. Importantly, I document that LLM based expectations match many of the deviations from full-information rational expectations exhibited in these existing survey series. The LLM's macroeconomic expectations exhibit under-reaction commonly found in consensus SPF forecasts. Additionally, its return expectations are extrapolative, disconnected from objective measures of expected returns, and negatively correlated with future realized returns. Finally, using a sample of articles outside of the LLM's training period I find that the correlation with existing su
     
-[^7]: 识别具有相关同期收入冲击的盈利过程
+[^4]: 《灌输游戏》
 
-    Identifying an Earnings Process With Dependent Contemporaneous Income Shocks. (arXiv:2303.08460v1 [econ.EM])
+    The Indoctrination Game. (arXiv:2305.02604v1 [econ.TH])
 
-    [http://arxiv.org/abs/2303.08460](http://arxiv.org/abs/2303.08460)
+    [http://arxiv.org/abs/2305.02604](http://arxiv.org/abs/2305.02604)
 
-    本文提出了一种新的方法，用于识别具有任意相关同期收入冲击的盈利动态模型中的系数。
-
-    
-
-    本文提出了一种新的方法，用于识别具有任意相关同期收入冲击的盈利动态模型中的系数。传统方法依赖于二阶矩无法识别这些系数，强调了需要捕捉高阶矩信息的非高斯假设的必要性。例如，我们的结果有助于盈利动态文献，允许盈利模型具有工作变动的永久收入冲击与同期短暂收入冲击的关联性。
-
-    This paper proposes a novel approach for identifying coefficients in an earnings dynamics model with arbitrarily dependent contemporaneous income shocks. Traditional methods relying on second moments fail to identify these coefficients, emphasizing the need for nongaussianity assumptions that capture information from higher moments. Our results contribute to the literature on earnings dynamics by allowing models of earnings to have, for example, the permanent income shock of a job change to be linked to the contemporaneous transitory income shock of a relocation bonus.
-    
-[^8]: 加密货币平台的中心化演化
-
-    The Evolution Of Centralisation on Cryptocurrency Platforms. (arXiv:2206.05081v2 [physics.soc-ph] UPDATED)
-
-    [http://arxiv.org/abs/2206.05081](http://arxiv.org/abs/2206.05081)
-
-    本文研究了加密货币平台的中心化演化，使用复杂系统文献中广泛的方法对比了一系列区块链，质疑了当前加密货币是否真正去中心化。
+    研究证明在公共舆论中，中间派的意见在沉默中变得无声无息，而极端派则掌控了讨论；并发现接触到他人意见的增多会加剧个体之间的极化现象。
 
     
 
-    十多年前，区块链被誉为克服在线支付中心化信任第三方的解决方案。随着时间的推移，加密货币运动发生了改变和发展，尽管去中心化仍然是核心意识形态和每个新的加密项目应该提供的必要功能。本文使用复杂系统文献中广泛的方法研究了加密货币中心化的概念，对比了一系列区块链系统，以定义区块链系统可能展示的许多不同级别的（去）中心化，并质疑当前加密货币在技术和经济意义上是否真正去中心化。
+    《灌输游戏》是一场关于公众舆论的完全信息竞赛。参赛者为了掌控讨论，会付出昂贵的努力将其隐私意见公之于众。我们的分析为沉默的大多数和响亮的少数现象提供了理论基础，即在平衡状态下，所有中间派的意见会保持沉默，而极端派则完全掌控了讨论。此外，我们还证明，接触到他人意见的频率会增加个体之间的极化现象。基于这些结果，我们提出了一个新的社会学习框架，称为灌输过程。
 
-    More than ten years ago the blockchain was acclaimed as the solution to overcome centralised trusted third parties for online payments. Through the years the crypto-movement changed and evolved, although decentralisation remained the core ideology and the necessary feature every new crypto-project should provide. In this paper we study the concept of centralisation in cryptocurrencies using a wide array of methodologies from the complex systems literature, on a comparative collection of blockchains, in order to define the many different levels a blockchain system may display (de-)centralisation and to question whether the present state of cryptocurrencies is, in a technological and economical sense, actually decentralised.
+    The indoctrination game is a complete-information contest over public opinion. The players exert costly effort to manifest their private opinions in public in order to control the discussion, so that the governing opinion is similar to theirs. Our analysis provides a theoretical foundation for the silent majority and vocal minority phenomena, i.e., we show that all moderate opinions remain mute in equilibrium while allowing extremists full control of the discussion. Moreover, we prove that elevated exposure to others' opinions increases the observed polarization among individuals. Using these results, we formulate a new social-learning framework, referred to as an indoctrination process.
     
-[^9]: 《MicroVelocity: 重新思考数字货币的货币速度》
+[^5]: 《雇主声誉与劳动市场:来自Glassdoor.com和Dice.com的证据》
 
-    MicroVelocity: rethinking the Velocity of Money for digital currencies. (arXiv:2201.13416v2 [econ.GN] UPDATED)
+    Employer Reputation and the Labor Market: Evidence from Glassdoor.com and Dice.com. (arXiv:2305.02587v1 [econ.GN])
 
-    [http://arxiv.org/abs/2201.13416](http://arxiv.org/abs/2201.13416)
+    [http://arxiv.org/abs/2305.02587](http://arxiv.org/abs/2305.02587)
 
-    本文提出了MicroVelocity框架来分析数字货币的货币流通速度，揭示了个体代理贡献的分布特点，记录了高速中介的出现，为数字货币的发展和分析提供政策洞见。
-
-    
-
-    我们提出了一个新的框架来分析货币流通速度，即每个个体代理的贡献（MicroVelocity），并揭示总体货币速度的分布决定因素。通过利用存储在四种加密货币区块链中的完整公开交易数据，我们实证发现MicroVelocity i)非常异质分布，ii)与代理的财富强相关。我们进一步记录高速中介的出现，从而挑战了这些系统完全去中心化的想法。此外，我们提出的框架和结果为数字货币的发展和分析提供了政策洞见。
-
-    We propose a novel framework to analyse the velocity of money in terms of the contribution (MicroVelocity) of each individual agent, and to uncover the distributional determinants of aggregate velocity. Leveraging on complete publicly available transactions data stored in blockchains from four cryptocurrencies, we empirically find that MicroVelocity i) is very heterogeneously distributed and ii) strongly correlates with agents' wealth. We further document the emergence of high-velocity intermediaries, thereby challenging the idea that these systems are fully decentralised. Further, our framework and results provide policy insights for the development and analysis of digital currencies.
-    
-[^10]: 集体创新的激励方式
-
-    Incentives for Collective Innovation. (arXiv:2109.01885v6 [econ.TH] UPDATED)
-
-    [http://arxiv.org/abs/2109.01885](http://arxiv.org/abs/2109.01885)
-
-    本论文研究了代理商在共享技术中的集体创新问题，发现允许代理商丢弃创新可以增加均衡努力和福利。
+    本研究使用Glassdoor.com和Dice.com的数据研究了雇主声誉对劳动市场的影响，发现雇主声誉的提高将影响其吸引工人的能力，尤其是当显示评分为“持续”时，这种影响对于私人、较小和不那么知名的企业最为突出。
 
     
 
-    代理商们为共享的技术付出隐藏的努力，以产生随机大小的创新。随着技术的发展，使用技术的回报也随之增长，但由于“探索-利用”权衡，努力的机会成本也随之增加。由于监测是不完美的，存在一个（强）对称均衡，任何均衡中的努力均不晚于单一代理商问题中的努力。小的创新可能会严重降低所有代理商在对称均衡中的努力。允许代理商丢弃创新可以增加均衡努力和福利。如果代理商可以隐瞒创新，那么存在完美的贝叶斯均衡，其中改进会被秘密地完善，直到足够大。在自然条件下，该均衡优于所有强制公开的均衡。
+    雇主声誉对劳动市场有何影响？我们使用从Glassdoor.com中收集的评论和Dice.com中的求职数据来研究这个问题。Glassdoor.com等劳动市场的机构通过众包来收集雇主信息，以解决工人在选择雇主时面临的信息问题。为了避免过多偏差，原始的众包雇主评级是在显示给求职者时进行了精加工后的。通过利用精加工的阈值，我们使用回归不连续性框架确定了Glassdoor评级的因果影响。我们记录了这种评级对劳动力市场需求和供给方面的影响。我们发现，雇主声誉对于雇主吸引工人的能力有影响，特别是当显示评分为“持续”时。雇主对评分超过精加工阈值的回应是发布更多的新职位和重新激活更多的工作职位。这种影响对私人、较小和不那么知名的企业最为突出。
 
-    Agents exert hidden effort to produce randomly-sized innovations in a technology they share. Returns from using the technology grow as it develops, but so does the opportunity cost of effort, due to an 'exploration-exploitation' trade-off. As monitoring is imperfect, there exists a unique (strongly) symmetric equilibrium, and effort in any equilibrium ceases no later than in the single-agent problem. Small innovations may hurt all agents in the symmetric equilibrium, as they severely reduce effort. Allowing agents to discard innovations increases equilibrium effort and welfare. If agents can instead conceal innovations, there exists a perfect Bayesian equilibrium in which improvements are refined in secret until they are sufficiently large. Under natural conditions, this equilibrium improves on all equilibria with forced disclosure.
+    How does employer reputation affect the labor market? We investigate this question using a novel dataset combining reviews from Glassdoor.com and job applications data from Dice.com. Labor market institutions such as Glassdoor.com crowd-sources information about employers to alleviate information problems faced by workers when choosing an employer. Raw crowd-sourced employer ratings are rounded when displayed to job seekers. By exploiting the rounding threshold, we identify the causal impact of Glassdoor ratings using a regression discontinuity framework. We document the effects of such ratings on both the demand and supply sides of the labor market. We find that displayed employer reputation affects an employer's ability to attract workers, especially when the displayed rating is "sticky." Employers respond to having a rating above the rounding threshold by posting more new positions and re-activating more job postings. The effects are the strongest for private, smaller, and less esta
     
-[^11]: 回归不连续设计中的灵活协变量调整
+[^6]: AI开发动态中的公益信号
 
-    Flexible Covariate Adjustments in Regression Discontinuity Designs. (arXiv:2107.07942v2 [econ.EM] UPDATED)
+    Beneficence Signaling in AI Development Dynamics. (arXiv:2305.02561v1 [cs.CY])
 
-    [http://arxiv.org/abs/2107.07942](http://arxiv.org/abs/2107.07942)
+    [http://arxiv.org/abs/2305.02561](http://arxiv.org/abs/2305.02561)
 
-    本研究提出了一种在回归不连续设计中更有效地利用协变量信息的估计器类，可以容纳大量的离散或连续协变量，并经由机器学习、非参数回归或经典参数方法来估计。通过对结果变量适当修改，这种估计器易于实现，可以选择类似于传统RD分析的调整参数。
-
-    
-
-    实证回归不连续（RD）研究通常使用协变量来增加其估计结果的精度。本文提出了一种新颖的估计器类，比目前实践中广泛使用的线性调整估计器更有效地利用这些协变量信息。我们的方法可以容纳可能大量的离散或连续协变量。它涉及使用适当修改了的结果变量运行标准RD分析，该变量的形式为原始结果与协变量函数的差异。我们表征了导致渐近方差最小的估计器的函数，并展示了如何通过现代机器学习、非参数回归或经典参数方法来估计它。由此产生的估计器易于实现，因为可以选择类似于传统RD分析的调整参数。广泛的模拟研究说明了我们的方法在有限样本中的性能，另外，一个案例研究突出了它的实证相关性。
-
-    Empirical regression discontinuity (RD) studies often use covariates to increase the precision of their estimates. In this paper, we propose a novel class of estimators that use such covariate information more efficiently than the linear adjustment estimators that are currently used widely in practice. Our approach can accommodate a possibly large number of either discrete or continuous covariates. It involves running a standard RD analysis with an appropriately modified outcome variable, which takes the form of the difference between the original outcome and a function of the covariates. We characterize the function that leads to the estimator with the smallest asymptotic variance, and show how it can be estimated via modern machine learning, nonparametric regression, or classical parametric methods. The resulting estimator is easy to implement, as tuning parameters can be chosen as in a conventional RD analysis. An extensive simulation study illustrates the performance of our approac
-    
-[^12]: 有限样本中动态离散博弈的同质性检验
-
-    Testing homogeneity in dynamic discrete games in finite samples. (arXiv:2010.02297v2 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2010.02297](http://arxiv.org/abs/2010.02297)
-
-    本文提出了一个检验动态离散博弈中关键假定“同质性假设”的方法，该方法能通过随机化检验来验证该假设是否成立。
+    本文介绍了一个框架来理解AI开发中的社会技术系统和社会福利的相互作用，并引入了“信号传递”的概念以增强对AI系统评估和治理的理论和实践。
 
     
 
-    动态离散博弈的文献经常假定条件选择概率和状态转移概率在不同市场和时间上是同质的。我们称之为“动态离散博弈中的同质性假设”。该假设使得经验研究可以通过汇总多个市场和多个时间段的数据来估计游戏的结构参数。本文提出了一个假设检验来评估数据是否符合同质性假设。我们的假设检验是通过马尔可夫链蒙特卡罗（MCMC）算法实现近似随机化检验的结果。我们证明了当（用户定义的）MCMC抽样次数趋于无穷大时，我们的假设检验就是有效的，对于任何固定的市场、时间段和玩家数量。我们将我们的检验应用于瑞安（2012）对美国波特兰水泥工业的经验研究中。
+    本文提出并发展了一个框架，用于理解围绕人工智能开发的社会技术系统如何与社会福利相互作用。它引入了进化博弈论中的“信号传递”概念，并演示了它如何增强现有的人工智能系统评估和治理理论和实践。
 
-    The literature on dynamic discrete games often assumes that the conditional choice probabilities and the state transition probabilities are homogeneous across markets and over time. We refer to this as the "homogeneity assumption" in dynamic discrete games. This assumption enables empirical studies to estimate the game's structural parameters by pooling data from multiple markets and from many time periods. In this paper, we propose a hypothesis test to evaluate whether the homogeneity assumption holds in the data. Our hypothesis test is the result of an approximate randomization test, implemented via a Markov chain Monte Carlo (MCMC) algorithm. We show that our hypothesis test becomes valid as the (user-defined) number of MCMC draws diverges, for any fixed number of markets, time periods, and players. We apply our test to the empirical study of the U.S.\ Portland cement industry in Ryan (2012).
+    This paper motivates and develops a framework for understanding how the socio-technical systems surrounding AI development interact with social welfare. It introduces the concept of ``signaling'' from evolutionary game theory and demonstrates how it can enhance existing theory and practice surrounding the evaluation and governance of AI systems.
+    
+[^7]: 《理解交易费机制中的等待时间：跨学科视角》
+
+    Understand Waiting Time in Transaction Fee Mechanism: An Interdisciplinary Perspective. (arXiv:2305.02552v1 [econ.GN])
+
+    [http://arxiv.org/abs/2305.02552](http://arxiv.org/abs/2305.02552)
+
+    本文通过整合以太坊区块链和内存池数据，探究了TFMs中等待时间的确定因素，研究表明回归断点设计对于分析因果推理很有效，交易低估会产生垃圾邮件攻击，这些对于提高区块链系统安全和经济性能有所帮助。
+
+    
+
+    区块链技术使得无需信任第三方即可进行点对点交易。以太坊和智能合约区块链的快速发展需要有良好设计的交易费机制(TFMs)，以分配有限的存储和计算资源。然而，现有的TFM研究必须考虑交易的等待时间，这对计算机安全和经济效率至关重要。本文将以太坊区块链和内存池的数据整合起来，探讨两种事件如何影响交易延迟。首先，我们应用回归断点设计(RDD)来研究Ethereum的最新重大升级——Merge的因果推理。我们的结果表明，Merge显著降低了长时间等待时间、网络负载和市场拥堵。此外，我们通过检查其他复合因素（例如审查和私人更改后的未观察到的延迟事务）来验证结果的稳健性。其次，我们通过使用二次数学模型来描述交易费竞标过程，研究了交易低估对等待时间和可能的垃圾邮件攻击的影响。我们的跨学科方法将计算机科学和经济学融合在一起，提供了TFMs等待时间决定因素的全面视角。我们的研究对于提高区块链系统的安全性和经济性能具有实际意义。
+
+    Blockchain enables peer-to-peer transactions in cyberspace without a trusted third party. The rapid growth of Ethereum and smart contract blockchains generally calls for well-designed Transaction Fee Mechanisms (TFMs) to allocate limited storage and computation resources. However, existing research on TFMs must consider the waiting time for transactions, which is essential for computer security and economic efficiency. Integrating data from the Ethereum blockchain and memory pool (mempool), we explore how two types of events affect transaction latency. First, we apply regression discontinuity design (RDD) to study the causal inference of the Merge, the most recent significant upgrade of Ethereum. Our results show that the Merge significantly reduces the long waiting time, network loads, and market congestion. In addition, we verify our results' robustness by inspecting other compounding factors, such as censorship and unobserved delays of transactions via private changes. Second, exami
+    
+[^8]: 为什么不借款、投资和摆脱贫困？
+
+    Why Not Borrow, Invest, and Escape Poverty?. (arXiv:2305.02546v1 [econ.GN])
+
+    [http://arxiv.org/abs/2305.02546](http://arxiv.org/abs/2305.02546)
+
+    该论文针对穷人利用小额信贷投资于企业或人力资本的现状进行研究，认为风险规避是原因之一，因为投资旨在提高成功可能性，所以需要采取不同的策略。
+
+    
+
+    穷人利用小额信贷投资于企业或人力资本的情况非常少。我们表明，如果这种投资旨在提高成功的可能性，则可以解释风险规避的情况，而无需依赖于固定成本或技术上的其他非凸性。在这种框架下，理性的风险规避者选择边角解，不同于具有外生成功概率的风险投资的情况。我们的在线实验验证了我们的理论预测，即当面临这两种类型类型的投资时，代理商选择不同的方案。
+
+    Take up of microcredit by the poor for investment in businesses or human capital turned out to be very low. We show that this could be explained by risk aversion, without relying on fixed costs or other forms of non-convexity in the technology, if the investment is aimed at increasing the probability of success. Under this framework, rational risk-averse agents choose corner solutions, unlike in the case of a risky investment with an exogenous probability of success. Our online experiment confirms our theoretical predictions about how agents' choices differ when facing the two types of investments.
+    
+[^9]: 语言、时间偏好和消费行为：大型语言模型的证据
+
+    Language, Time Preferences, and Consumer Behavior: Evidence from Large Language Models. (arXiv:2305.02531v1 [econ.GN])
+
+    [http://arxiv.org/abs/2305.02531](http://arxiv.org/abs/2305.02531)
+
+    本研究分析了大型语言模型在不同语言提示下的奖励时间偏好，并发现GPT在具有较弱未来时态的语言下表现出更大的耐心，这与使用该语言的人类的偏好相似。
+
+    
+
+    语言对我们对时间和奖励的感知有很大的影响。这引发了一个问题，即当以不同的语言询问大型语言模型时，它们是否显示出不同的奖励时间偏好，并且它们的选择是否类似于人类的选择。本研究分析了GPT-3.5（以下简称GPT）在多种语言提示下的响应，探索了较小、较早的奖励和较大、较晚的奖励之间的偏好。我们的结果显示，当以语义含义较弱的未来时态参考（FTR），如德语和汉语，为提示语时，GPT表现出更大的耐心，相比英语和法语等具有强大FTR的语言。这些发现与现有文献一致，并表明了GPT的选择与这些语言的使用者的偏好之间的关联。然而，进一步的分析揭示了较早或较晚奖励的偏好并没有随着奖励差异系统地改变，这表明了一种词典序优先的选择。
+
+    Language has a strong influence on our perceptions of time and rewards. This raises the question of whether large language models, when asked in different languages, show different preferences for rewards over time and if their choices are similar to those of humans. In this study, we analyze the responses of GPT-3.5 (hereafter referred to as GPT) to prompts in multiple languages, exploring preferences between smaller, sooner rewards and larger, later rewards. Our results show that GPT displays greater patience when prompted in languages with weak future tense references (FTR), such as German and Mandarin, compared to languages with strong FTR, like English and French. These findings are consistent with existing literature and suggest a correlation between GPT's choices and the preferences of speakers of these languages. However, further analysis reveals that the preference for earlier or later rewards does not systematically change with reward gaps, indicating a lexicographic preferen
+    
+[^10]: 基于道路行驶时间的金融衍生品的做市和定价
+
+    Market Making and Pricing of Financial Derivatives based on Road Travel Times. (arXiv:2305.02523v1 [stat.AP])
+
+    [http://arxiv.org/abs/2305.02523](http://arxiv.org/abs/2305.02523)
+
+    本文提出了一种基于道路行驶时间的金融衍生品，可以作为一种创新的对冲工具，在交通领域和金融市场中都有潜在的市场和需求。
+
+    
+
+    本文提出了交通时间衍生品，这是一种基于道路行驶时间的非交易基础资产的金融衍生品。在交通领域，交通时间衍生品被提出作为一种更加基本的定价方法，因为它不仅考虑了交通状况的水平，而且考虑了其波动性。在金融市场中，交通时间衍生品被提出作为一种创新的对冲工具，可以对冲市场风险，特别是在加密市场和传统银行业经历了最近的压力后。本文涉及到了（a）引入此类衍生品的动机（即对对冲的要求），（b）潜在的市场，以及（c）产品设计和定价方案。定价方案是基于实时传感器捕获的行驶时间数据设计的，这些数据被建模为奥恩斯坦-乌伦贝克（Ornstein-Uhlenbeck）过程，更普遍地，是连续时间自回归移动平均（CARMA）模型。这种模型的校准是通过隐藏因子模型进行的，该模型描述了交通时间动态。
+
+    Travel time derivatives are introduced as financial derivatives based on road travel times - a non-tradable underlying asset. In the transportation area, it is proposed as a more fundamental approach to value pricing because it conduct road pricing based on not only level but also volatility of travel time; in the financial market, it is propose as an innovative hedging instrument against market risk, especially after the recent stress of crypto market and traditional banking sector. The paper addresses (a) the motivation for introducing such derivatives (that is, the demand for hedging), (b) the potential market, and (c) the product design and pricing schemes. Pricing schemes are designed based on the travel time data captured by real time sensors, which are modeled as Ornstein - Uhlenbeck processes and more generally, continuous time auto regression moving average (CARMA) models. The calibration of such model is conducted via a hidden factor model, which described the dynamics of tra
+    
+[^11]: 巴西一所精英大学的大规模平权政策的直接和外溢效应
+
+    The Direct and Spillover Effects of Large-scale Affirmative Action at an Elite Brazilian University. (arXiv:2305.02513v1 [econ.GN])
+
+    [http://arxiv.org/abs/2305.02513](http://arxiv.org/abs/2305.02513)
+
+    巴西一所精英大学实施的大规模平权政策既对于黑人和低收入学生具有正向效应（使得其就业收入增长），又对于该校排名最高的学生具有重大负面影响（导致他们就业收入大幅下降）。
+
+    
+
+    我们研究了一项针对巴西一所精英大学45%招收黑人和低收入学生的平权政策的效应。我们发现，通过平权招生通道入学的边缘录取学生的早期职业收入增加了14%。但是，平权政策的实施也导致了该大学排名最高的学生收入大幅下降。我们提供证据表明，高排名学生收入的负面溢出效应既是由于人力资本积累的减少，也是由于社交网络价值的下降所导致的。
+
+    We examine the effects of an affirmative action policy at an elite Brazilian university that reserved 45 percent of admission slots for Black and low-income students. We find that marginally-admitted students who enrolled through the affirmative action tracks experienced a 14 percent increase in early-career earnings. But the adoption of affirmative action also caused a large decrease in earnings for the university's most highly-ranked students. We present evidence that the negative spillover effects on highly-ranked students' earnings were driven by both a reduction in human capital accumulation and a decline in the value of networking.
+    
+[^12]: 信息化创新管理：将领先的研发公司与新兴技术相连接
+
+    Informing Innovation Management: Linking Leading R&D Firms and Emerging Technologies. (arXiv:2305.02476v1 [econ.GN])
+
+    [http://arxiv.org/abs/2305.02476](http://arxiv.org/abs/2305.02476)
+
+    本文构建了一个新的模型，将新兴技术与全球领先的研发支出公司相连接，从而获得了一个新的地图，可以分析公司与新兴技术之间的最密切联系，并得到了显著的正相关性验证。此模型可用于特定技术主题、公司竞争格局和国家利益等领域的研究。
+
+    
+
+    理解新兴技术和研发之间的关系一直是公司、政策制定者和研究人员关注的焦点。本文将新型数据来源和工具与一种新颖的技术相结合，构建一个将一组新兴技术与全球领先的研发支出公司相连接的模型。结果是画出了这个领域的新地图。这张地图展示了不同技术和公司在它们对应的维基百科资料中所包含的知识的相似程度，可以分析公司与新兴技术之间的最密切联系。与相关的一组专利数据的显著正相关验证了该方法的有效性。最后，一组循环经济新兴技术被匹配到了它们最接近的领先研发支出公司，这促进了未来针对特定技术主题、公司竞争格局和国家利益等更广泛或更狭窄应用模型的研究想法。
+
+    Understanding the relationship between emerging technology and research and development has long been of interest to companies, policy makers and researchers. In this paper new sources of data and tools are combined with a novel technique to construct a model linking a defined set of emerging technologies with the global leading R&D spending companies. The result is a new map of this landscape. This map reveals the proximity of technologies and companies in the knowledge embedded in their corresponding Wikipedia profiles, enabling analysis of the closest associations between the companies and emerging technologies. A significant positive correlation for a related set of patent data validates the approach. Finally, a set of Circular Economy Emerging Technologies are matched to their closest leading R&D spending company, prompting future research ideas in broader or narrower application of the model to specific technology themes, company competitor landscapes and national interest concer
+    
+[^13]: 近似函数差分
+
+    Approximate Functional Differencing. (arXiv:2301.13736v2 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2301.13736](http://arxiv.org/abs/2301.13736)
+
+    这篇论文提出了一种近似函数差分的方法，旨在解决面板数据模型中推断公共参数时的附带参数问题，适用于许多面板数据模型，即使时间期数较小。
+
+    
+
+    面板数据模型中关于公共参数的推断是 Neyman 和 Scott（1948）所称的附带参数问题（IPP）的典型例子。这个问题的一种解决方法是函数差分（Bonhomme 2012），它适用于时间期数 T 固定（可能很小）的情况，但这种解决方法并不适用于所有有兴趣的面板数据模型。另一种解决 IPP 的方法是“大 T”偏差校正（由 Hahn 和 Kuersteiner 2002 以及 Hahn 和 Newey 2004 开创），但只有当 T 足够大时才能保证其有效。本文提出了一种统一的方法，将这两种看似不相关的 IPP 解决方法联系起来。在此基础上，我们提供了一个近似函数差分的版本，即一种近似 IPP 解决方案，适用于大类面板数据模型，即使 T 相对较小。
+
+    Inference on common parameters in panel data models with individual-specific fixed effects is a classic example of Neyman and Scott's (1948) incidental parameter problem (IPP). One solution to this IPP is functional differencing (Bonhomme 2012), which works when the number of time periods T is fixed (and may be small), but this solution is not applicable to all panel data models of interest. Another solution, which applies to a larger class of models, is "large-T" bias correction (pioneered by Hahn and Kuersteiner 2002 and Hahn and Newey 2004), but this is only guaranteed to work well when T is sufficiently large. This paper provides a unified approach that connects those two seemingly disparate solutions to the IPP. In doing so, we provide an approximate version of functional differencing, that is, an approximate solution to the IPP that is applicable to a large class of panel data models even when T is relatively small.
+    
+[^14]: 带有错位处理采用的合成对照中的不确定性量化
+
+    Uncertainty Quantification in Synthetic Controls with Staggered Treatment Adoption. (arXiv:2210.05026v2 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2210.05026](http://arxiv.org/abs/2210.05026)
+
+    该论文提出了一种基于原则的预测区间方法，用于量化合成对照预测或估计在错位处理采用的情况下的不确定性。
+
+    
+
+    我们提出了基于原则的预测区间，用于量化在错位处理采用的情况下大类合成对照预测或估计的不确定性，提供精确的非渐近覆盖概率保证。从方法论的角度来看，我们提供了对需要预测的不同因果量进行详细讨论，我们称其为“因果预测量”，允许在可能不同时刻进行多个处理单元的处理采用。从理论的角度来看，我们的不确定性量化方法提高了之前文献的水平，具体表现在：（i）覆盖了错位采用设置中的大类因果预测量，（ii）允许具有可能非线性约束的合成对照方法，（iii）提出可扩展的鲁棒锥优化方法和基于原则的数据驱动调参选择，（iv）提供了在后处理期间进行有效均匀推断。我们通过实证应用展示了我们的方法。
+
+    We propose principled prediction intervals to quantify the uncertainty of a large class of synthetic control predictions or estimators in settings with staggered treatment adoption, offering precise non-asymptotic coverage probability guarantees. From a methodological perspective, we provide a detailed discussion of different causal quantities to be predicted, which we call `causal predictands', allowing for multiple treated units with treatment adoption at possibly different points in time. From a theoretical perspective, our uncertainty quantification methods improve on prior literature by (i) covering a large class of causal predictands in staggered adoption settings, (ii) allowing for synthetic control methods with possibly nonlinear constraints, (iii) proposing scalable robust conic optimization methods and principled data-driven tuning parameter selection, and (iv) offering valid uniform inference across post-treatment periods. We illustrate our methodology with an empirical appl
+    
+[^15]: 直接证据实现
+
+    Direct Implementation with Evidence. (arXiv:2105.12298v5 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2105.12298](http://arxiv.org/abs/2105.12298)
+
+    该论文研究了在效用有限的环境中带有证据的全面实现问题，提出了一种基于新的证据分类的可以在两个代理人下实现Nash均衡的直接真相机制，并给出了关于重订合法的双边合同的必要充分条件。
+
+    
+
+    我们研究了在效用有限的环境中，带有证据的全面实现。我们证明，如果社会选择函数满足由BL2012提出的可测性条件，则在直接真相机制下，社会选择函数是Nash可实现的。该机制基于对谎言根据其证据可反驳性的新分类，只需要两个代理人，考虑到混合策略均衡和证据费用。虽然使用货币转移，但它们不在均衡下且可以在三个或更多代理人中平衡。在KT2012提出的证据更丰富的模型中，我们建立了在直接真相机制下实现两个或更多代理人的纯策略。我们还根据谎言的分类获得了证据结构对重订合法的双边合同的必要充分条件。
+
+    We study full implementation with evidence in an environment with bounded utilities. We show that a social choice function is Nash implementable in a direct revelation mechanism if and only if it satisfies the measurability condition proposed by <cite>BL2012</cite>. Building on a novel classification of lies according to their refutability with evidence, the mechanism requires only two agents, accounts for mixed-strategy equilibria and accommodates evidentiary costs. While monetary transfers are used, they are off the equilibrium and can be balanced with three or more agents. In a richer model of evidence due to <cite>KT2012</cite>, we establish pure-strategy implementation with two or more agents in a direct revelation mechanism. We also obtain a necessary and sufficient condition on the evidence structure for renegotiation-proof bilateral contracts, based on the classification of lies.
+    
+[^16]: 基于结果抽样的因果推断和单调性假设
+
+    Causal Inference under Outcome-Based Sampling with Monotonicity Assumptions. (arXiv:2004.08318v5 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2004.08318](http://arxiv.org/abs/2004.08318)
+
+    本文研究了基于结果抽样的因果推断，发现强无偏性不总是像随机抽样下那样强大，并且某些单调性假设在锐利识别间隔方面产生可比较的结果。 通过算法推断出参数并用实证例子证明了方法的贡献。
+
+    
+
+    本文研究了根据案例控制和案例群体取样进行因果推断的方法。具体而言，我们关注二元结果和二元治疗的情况，其中感兴趣的参数是通过潜在结果框架定义的因果相对和可归因风险。我们发现强无偏性不总是像随机抽样下那样强大，并且某些单调性假设在锐利识别间隔方面产生可比较的结果。具体而言，通常的比值比在单调治疗反应和单调治疗选择假设下被证明是因果相对风险的锐利识别上界。我们提供了聚合在协变量的真实人口分布上的因果参数推断算法。我们通过研究三个实证例子展示了我们方法的有用性：在巴基斯坦进入著名大学的私立学校受益问题上；在留在学校和放弃学校早期的关系问题上；在预测岗位培训效果问题上。
+
+    We study causal inference under case-control and case-population sampling. Specifically, we focus on the binary-outcome and binary-treatment case, where the parameters of interest are causal relative and attributable risks defined via the potential outcome framework. It is shown that strong ignorability is not always as powerful as it is under random sampling and that certain monotonicity assumptions yield comparable results in terms of sharp identified intervals. Specifically, the usual odds ratio is shown to be a sharp identified upper bound on causal relative risk under the monotone treatment response and monotone treatment selection assumptions. We offer algorithms for inference on the causal parameters that are aggregated over the true population distribution of the covariates. We show the usefulness of our approach by studying three empirical examples: the benefit of attending private school for entering a prestigious university in Pakistan; the relationship between staying in sc
     
 

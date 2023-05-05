@@ -1,0 +1,12 @@
+{
+    "title": "Representing and Implementing Matrices Using Algebraic ZX-calculus. (arXiv:2110.06898v4 [quant-ph] UPDATED)",
+    "abstract": "In linear algebra applications, elementary matrices hold a significant role. This paper presents a diagrammatic representation of all $2^m\\times 2^n$-sized elementary matrices in algebraic ZX-calculus, showcasing their properties on inverses and transpose through diagrammatic rewriting. Additionally, the paper uses this representation to depict the Jozsa-style matchgate in algebraic ZX-calculus. To further enhance practical use, we have implemented this representation in \\texttt{discopy}. Overall, this work sets the groundwork for more applications of ZX-calculus such as synthesising controlled matrices [arXiv:2212.04462] in quantum computing.",
+    "link": "http://arxiv.org/abs/2110.06898",
+    "context": "Title: Representing and Implementing Matrices Using Algebraic ZX-calculus. (arXiv:2110.06898v4 [quant-ph] UPDATED)\nAbstract: In linear algebra applications, elementary matrices hold a significant role. This paper presents a diagrammatic representation of all $2^m\\times 2^n$-sized elementary matrices in algebraic ZX-calculus, showcasing their properties on inverses and transpose through diagrammatic rewriting. Additionally, the paper uses this representation to depict the Jozsa-style matchgate in algebraic ZX-calculus. To further enhance practical use, we have implemented this representation in \\texttt{discopy}. Overall, this work sets the groundwork for more applications of ZX-calculus such as synthesising controlled matrices [arXiv:2212.04462] in quantum computing.",
+    "path": "papers/21/10/2110.06898.json",
+    "total_tokens": 748,
+    "translated_title": "用代数ZX演算表示和实现矩阵",
+    "translated_abstract": "在线性代数应用中，基本矩阵扮演着重要的角色。本文提出了一个在代数ZX演算中对所有 $2^m\\times 2^n$ 大小的基本矩阵进行图示表示的方法，展示了它们的逆和转置等特性。此外，本文利用这种表示方法在代数ZX演算中展示了Jozsa-style matchgate。为了进一步提高实际应用，我们在\\texttt{discopy}中实现了这种表示方法。总的来说，这项工作为如在量子计算中合成受控矩阵[arXiv:2212.04462]等更多应用领域中的ZX演算奠定了基础。",
+    "tldr": "本文提出了一种方法，在代数ZX演算中对所有 $2^m\\times 2^n$ 大小的基本矩阵进行图示表示，为量子计算等领域中的ZX演算应用奠定了基础。",
+    "en_tdlr": "This paper presents a method to diagrammatically represent all $2^m\\times 2^n$-sized elementary matrices in algebraic ZX-calculus, setting the groundwork for ZX-calculus applications such as synthesizing controlled matrices in quantum computing."
+}

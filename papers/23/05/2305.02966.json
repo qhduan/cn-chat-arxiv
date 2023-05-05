@@ -1,0 +1,12 @@
+{
+    "title": "ExeKGLib: Knowledge Graphs-Empowered Machine Learning Analytics. (arXiv:2305.02966v1 [cs.LG])",
+    "abstract": "Many machine learning (ML) libraries are accessible online for ML practitioners. Typical ML pipelines are complex and consist of a series of steps, each of them invoking several ML libraries. In this demo paper, we present ExeKGLib, a Python library that allows users with coding skills and minimal ML knowledge to build ML pipelines. ExeKGLib relies on knowledge graphs to improve the transparency and reusability of the built ML workflows, and to ensure that they are executable. We demonstrate the usage of ExeKGLib and compare it with conventional ML code to show its benefits.",
+    "link": "http://arxiv.org/abs/2305.02966",
+    "context": "Title: ExeKGLib: Knowledge Graphs-Empowered Machine Learning Analytics. (arXiv:2305.02966v1 [cs.LG])\nAbstract: Many machine learning (ML) libraries are accessible online for ML practitioners. Typical ML pipelines are complex and consist of a series of steps, each of them invoking several ML libraries. In this demo paper, we present ExeKGLib, a Python library that allows users with coding skills and minimal ML knowledge to build ML pipelines. ExeKGLib relies on knowledge graphs to improve the transparency and reusability of the built ML workflows, and to ensure that they are executable. We demonstrate the usage of ExeKGLib and compare it with conventional ML code to show its benefits.",
+    "path": "papers/23/05/2305.02966.json",
+    "total_tokens": 698,
+    "translated_title": "ExeKGLib：基于知识图谱的机器学习分析库",
+    "translated_abstract": "许多机器学习（ML）库对ML从业者开放。典型的ML流程是复杂的，由一系列步骤组成，每个步骤都调用了几个ML库。在这篇论文中，我们介绍了ExeKGLib，这是一个Python库，允许具有编码技能和最小ML知识的用户构建ML流水线。ExeKGLib依赖于知识图谱，以改善构建的ML工作流的透明度和可重用性，并确保其可执行性。我们演示了ExeKGLib的用法，并将其与传统的ML代码进行比较，以展示其优势。",
+    "tldr": "ExeKGLib是一个基于知识图谱的Python机器学习库，可帮助不具备深入ML知识的用户构建可执行的ML工作流，并提高透明度和可重用性。",
+    "en_tdlr": "ExeKGLib is a Python machine learning library based on knowledge graphs, which helps non-experts to build executable ML workflows with improved transparency and reusability."
+}

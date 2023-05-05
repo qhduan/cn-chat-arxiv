@@ -1,0 +1,12 @@
+{
+    "title": "Conformal Nucleus Sampling. (arXiv:2305.02633v1 [cs.CL])",
+    "abstract": "Language models generate text based on successively sampling the next word. A decoding procedure based on nucleus (top-$p$) sampling chooses from the smallest possible set of words whose cumulative probability exceeds the probability $p$. In this work, we assess whether a top-$p$ set is indeed aligned with its probabilistic meaning in various linguistic contexts. We employ conformal prediction, a calibration procedure that focuses on the construction of minimal prediction sets according to a desired confidence level, to calibrate the parameter $p$ as a function of the entropy of the next word distribution. We find that OPT models are overconfident, and that calibration shows a moderate inverse scaling with model size.",
+    "link": "http://arxiv.org/abs/2305.02633",
+    "context": "Title: Conformal Nucleus Sampling. (arXiv:2305.02633v1 [cs.CL])\nAbstract: Language models generate text based on successively sampling the next word. A decoding procedure based on nucleus (top-$p$) sampling chooses from the smallest possible set of words whose cumulative probability exceeds the probability $p$. In this work, we assess whether a top-$p$ set is indeed aligned with its probabilistic meaning in various linguistic contexts. We employ conformal prediction, a calibration procedure that focuses on the construction of minimal prediction sets according to a desired confidence level, to calibrate the parameter $p$ as a function of the entropy of the next word distribution. We find that OPT models are overconfident, and that calibration shows a moderate inverse scaling with model size.",
+    "path": "papers/23/05/2305.02633.json",
+    "total_tokens": 736,
+    "translated_title": "符合语言模型的核心抽样",
+    "translated_abstract": "语言模型生成文本的过程是基于依次抽样下一个单词。基于核心（top-p）抽样的解码过程会从最小可能的单词集中选择，这些单词的累计概率超过概率p。在本研究中，我们评估了在各种语言环境下，top-p集是否真正与其概率含义对齐。我们采用了符合性预测，这是一种校准程序，根据所需的置信水平，专注于构建最小预测集，以校准参数p作为下一个单词分布熵的函数。我们发现OPT模型过于自信，校准显示出中度的逆比例缩放与模型大小。",
+    "tldr": "本研究探讨了符合语言模型的核心抽样，并采用符合性预测进行校准。结果表明，OPT模型过于自信，并且校准显示出中度的逆比例缩放与模型大小。",
+    "en_tdlr": "This study explores conformal nucleus sampling, and calibrates it with conformal prediction. The results show that OPT models are overconfident, and calibration exhibits moderate inverse scaling with model size."
+}

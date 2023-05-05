@@ -1,0 +1,12 @@
+{
+    "title": "A Survey on Efficient Training of Transformers. (arXiv:2302.01107v3 [cs.LG] UPDATED)",
+    "abstract": "Recent advances in Transformers have come with a huge requirement on computing resources, highlighting the importance of developing efficient training techniques to make Transformer training faster, at lower cost, and to higher accuracy by the efficient use of computation and memory resources. This survey provides the first systematic overview of the efficient training of Transformers, covering the recent progress in acceleration arithmetic and hardware, with a focus on the former. We analyze and compare methods that save computation and memory costs for intermediate tensors during training, together with techniques on hardware/algorithm co-design. We finally discuss challenges and promising areas for future research.",
+    "link": "http://arxiv.org/abs/2302.01107",
+    "context": "Title: A Survey on Efficient Training of Transformers. (arXiv:2302.01107v3 [cs.LG] UPDATED)\nAbstract: Recent advances in Transformers have come with a huge requirement on computing resources, highlighting the importance of developing efficient training techniques to make Transformer training faster, at lower cost, and to higher accuracy by the efficient use of computation and memory resources. This survey provides the first systematic overview of the efficient training of Transformers, covering the recent progress in acceleration arithmetic and hardware, with a focus on the former. We analyze and compare methods that save computation and memory costs for intermediate tensors during training, together with techniques on hardware/algorithm co-design. We finally discuss challenges and promising areas for future research.",
+    "path": "papers/23/02/2302.01107.json",
+    "total_tokens": 735,
+    "translated_title": "Transformers训练的高效方法综述",
+    "translated_abstract": "近年来，Transformers的发展为计算资源提出了巨大要求，强调了开发高效训练技术以通过有效利用计算和内存资源使Transformer的训练更快、更低成本且更高精度的重要性。本研究提供了高效训练Transformer的首个系统综述，覆盖了加速算术和硬件领域的最新进展，重点关注前者。我们分析和比较了在训练期间为中间张量节省计算和内存成本的方法，以及硬件/算法共同设计的技术。最后，我们讨论了未来研究的挑战和有前途的领域。",
+    "tldr": "本文是对高效训练Transformer领域的系统综述，分析和比较了在训练中为中间张量节省计算和内存成本的方法与硬件/算法共同设计的技术，并探讨了未来研究的挑战和前景。",
+    "en_tdlr": "This article is a systematic survey of efficient training of Transformers, analyzing and comparing methods that save computation and memory costs for intermediate tensors during training, along with techniques on hardware/algorithm co-design, and discussing the challenges and promising areas for future research."
+}

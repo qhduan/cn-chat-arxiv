@@ -1,0 +1,12 @@
+{
+    "title": "The Indoctrination Game. (arXiv:2305.02604v1 [econ.TH])",
+    "abstract": "The indoctrination game is a complete-information contest over public opinion. The players exert costly effort to manifest their private opinions in public in order to control the discussion, so that the governing opinion is similar to theirs. Our analysis provides a theoretical foundation for the silent majority and vocal minority phenomena, i.e., we show that all moderate opinions remain mute in equilibrium while allowing extremists full control of the discussion. Moreover, we prove that elevated exposure to others' opinions increases the observed polarization among individuals. Using these results, we formulate a new social-learning framework, referred to as an indoctrination process.",
+    "link": "http://arxiv.org/abs/2305.02604",
+    "context": "Title: The Indoctrination Game. (arXiv:2305.02604v1 [econ.TH])\nAbstract: The indoctrination game is a complete-information contest over public opinion. The players exert costly effort to manifest their private opinions in public in order to control the discussion, so that the governing opinion is similar to theirs. Our analysis provides a theoretical foundation for the silent majority and vocal minority phenomena, i.e., we show that all moderate opinions remain mute in equilibrium while allowing extremists full control of the discussion. Moreover, we prove that elevated exposure to others' opinions increases the observed polarization among individuals. Using these results, we formulate a new social-learning framework, referred to as an indoctrination process.",
+    "path": "papers/23/05/2305.02604.json",
+    "total_tokens": 699,
+    "translated_title": "《灌输游戏》",
+    "translated_abstract": "《灌输游戏》是一场关于公众舆论的完全信息竞赛。参赛者为了掌控讨论，会付出昂贵的努力将其隐私意见公之于众。我们的分析为沉默的大多数和响亮的少数现象提供了理论基础，即在平衡状态下，所有中间派的意见会保持沉默，而极端派则完全掌控了讨论。此外，我们还证明，接触到他人意见的频率会增加个体之间的极化现象。基于这些结果，我们提出了一个新的社会学习框架，称为灌输过程。",
+    "tldr": "研究证明在公共舆论中，中间派的意见在沉默中变得无声无息，而极端派则掌控了讨论；并发现接触到他人意见的增多会加剧个体之间的极化现象。",
+    "en_tdlr": "The study shows that in public opinion, moderate opinions become silent and extremists control the discussion, and increased exposure to others' opinions exacerbates polarization among individuals."
+}

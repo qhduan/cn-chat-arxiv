@@ -1,0 +1,12 @@
+{
+    "title": "Lemonade from Lemons: Information Design and Adverse Selection. (arXiv:2305.02994v1 [econ.TH])",
+    "abstract": "A seller posts a price for a single object. The seller's and buyer's values may be interdependent. We characterize the set of payoff vectors across all information structures. Simple feasibility and individual-rationality constraints identify the payoff set. The buyer can obtain the entire surplus; often, other mechanisms cannot enlarge the payoff set. We also study payoffs when the buyer is more informed than the seller, and when the buyer is fully informed. All three payoff sets coincide (only) in notable special cases -- in particular, when there is complete breakdown in a ``lemons market'' with an uninformed seller and fully-informed buyer.",
+    "link": "http://arxiv.org/abs/2305.02994",
+    "context": "Title: Lemonade from Lemons: Information Design and Adverse Selection. (arXiv:2305.02994v1 [econ.TH])\nAbstract: A seller posts a price for a single object. The seller's and buyer's values may be interdependent. We characterize the set of payoff vectors across all information structures. Simple feasibility and individual-rationality constraints identify the payoff set. The buyer can obtain the entire surplus; often, other mechanisms cannot enlarge the payoff set. We also study payoffs when the buyer is more informed than the seller, and when the buyer is fully informed. All three payoff sets coincide (only) in notable special cases -- in particular, when there is complete breakdown in a ``lemons market'' with an uninformed seller and fully-informed buyer.",
+    "path": "papers/23/05/2305.02994.json",
+    "total_tokens": 795,
+    "translated_title": "柠檬制成柠檬水：信息设计与逆向选择",
+    "translated_abstract": "一个卖家对于一件物品公布一个价格。卖家与买家的价值可能相互依赖。我们刻画了所有信息结构中收益向量的集合。简单的可行性和个人合理性限制识别了收益集。买家可以获得整个剩余价值。通常情况下，其他机制不能扩大收益集。我们还研究了在买家比卖家更知情的情况下以及在买家完全知晓的情况下的收益，所有三个收益集只有在特殊情况下才一致，特别是在一个“柠檬市场”中出现完全崩溃的情况下，其卖家未知，买家完全知情。",
+    "tldr": "本研究探究了卖家与买家的价值相互依赖的情况下，通过信息设计和逆向选择机制实现收益的问题，当出现完全崩溃和柠檬市场等特殊情况时，买家可以得到整个剩余价值。",
+    "en_tdlr": "This paper investigates the problem of achieving profits through information design and adverse selection mechanisms when the seller's and buyer's values may be interdependent. The study shows that when there is a complete breakdown and a \"lemons market\" with an uninformed seller and fully-informed buyer, the buyer can obtain the entire surplus."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Simplified TinyBERT: Knowledge Distillation for Document Retrieval. (arXiv:2009.07531v2 [cs.IR] CROSS LISTED)",
+    "abstract": "Despite the effectiveness of utilizing the BERT model for document ranking, the high computational cost of such approaches limits their uses. To this end, this paper first empirically investigates the effectiveness of two knowledge distillation models on the document ranking task. In addition, on top of the recently proposed TinyBERT model, two simplifications are proposed. Evaluations on two different and widely-used benchmarks demonstrate that Simplified TinyBERT with the proposed simplifications not only boosts TinyBERT, but also significantly outperforms BERT-Base when providing 15$\\times$ speedup.",
+    "link": "http://arxiv.org/abs/2009.07531",
+    "context": "Title: Simplified TinyBERT: Knowledge Distillation for Document Retrieval. (arXiv:2009.07531v2 [cs.IR] CROSS LISTED)\nAbstract: Despite the effectiveness of utilizing the BERT model for document ranking, the high computational cost of such approaches limits their uses. To this end, this paper first empirically investigates the effectiveness of two knowledge distillation models on the document ranking task. In addition, on top of the recently proposed TinyBERT model, two simplifications are proposed. Evaluations on two different and widely-used benchmarks demonstrate that Simplified TinyBERT with the proposed simplifications not only boosts TinyBERT, but also significantly outperforms BERT-Base when providing 15$\\times$ speedup.",
+    "path": "papers/20/09/2009.07531.json",
+    "total_tokens": 675,
+    "translated_title": "简化版TinyBERT: 用于文档检索的知识蒸馏",
+    "translated_abstract": "尽管利用BERT模型进行文档排序十分有效，但这种方法的高计算成本限制了其使用。因此，本文首先在文档排序任务上实证研究了两个知识蒸馏模型的有效性。此外，在最近提出的TinyBERT模型基础上，提出了两种简化方案。两个不同并且广泛使用的基准测试的评估表明，具有所提出简化方案的Simplified TinyBERT不仅提升了TinyBERT，而且在提供15倍速度提升的情况下也明显优于BERT-Base。",
+    "tldr": "本文提出了一种基于知识蒸馏的文档检索模型Simplified TinyBERT，它在提供15倍速度提升的情况下比BERT-Base表现更好。",
+    "en_tdlr": "This paper proposes a knowledge distillation-based document retrieval model called Simplified TinyBERT, which significantly outperforms BERT-Base in two widely-used benchmarks while providing 15 times speedup."
+}

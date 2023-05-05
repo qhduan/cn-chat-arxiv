@@ -1,0 +1,11 @@
+{
+    "title": "Development of an Immersive Virtual Colonoscopy Viewer for Colon Growths Diagnosis. (arXiv:2302.02946v2 [cs.HC] UPDATED)",
+    "abstract": "Desktop-based virtual colonoscopy has been proven to be an asset in the identification of colon anomalies. The process is accurate, although time-consuming. The use of immersive interfaces for virtual colonoscopy is incipient and not yet understood. In this work, we present a new design exploring elements of the VR paradigm to make the immersive analysis more efficient while still effective. We also plan the conduction of experiments with experts to assess the multi-factor influences of coverage, duration, and diagnostic accuracy.",
+    "link": "http://arxiv.org/abs/2302.02946",
+    "context": "Title: Development of an Immersive Virtual Colonoscopy Viewer for Colon Growths Diagnosis. (arXiv:2302.02946v2 [cs.HC] UPDATED)\nAbstract: Desktop-based virtual colonoscopy has been proven to be an asset in the identification of colon anomalies. The process is accurate, although time-consuming. The use of immersive interfaces for virtual colonoscopy is incipient and not yet understood. In this work, we present a new design exploring elements of the VR paradigm to make the immersive analysis more efficient while still effective. We also plan the conduction of experiments with experts to assess the multi-factor influences of coverage, duration, and diagnostic accuracy.",
+    "path": "papers/23/02/2302.02946.json",
+    "total_tokens": 685,
+    "translated_title": "开发用于结肠生长诊断的沉浸式虚拟结肠镜查看器",
+    "translated_abstract": "桌面虚拟结肠镜已被证明在发现结肠异常方面是一种有用的工具。虽然这一过程准确，但耗时较长。沉浸式界面在虚拟结肠镜中的应用尚处于初步阶段，尚未被充分理解。本文提出了一个新的设计，探索虚拟现实范式元素，以使沉浸式分析更加高效而仍然有效。我们还计划进行专家实验，评估覆盖范围、持续时间和诊断准确性等多个因素的影响。",
+    "tldr": "本文开发了一种用于结肠生长诊断的沉浸式虚拟结肠镜查看器，并通过实验确定了其覆盖范围、持续时间和诊断准确性等方面的影响。"
+}

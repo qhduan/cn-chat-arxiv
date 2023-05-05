@@ -1,0 +1,11 @@
+{
+    "title": "Normalizing flows for lattice gauge theory in arbitrary space-time dimension. (arXiv:2305.02402v1 [hep-lat])",
+    "abstract": "Applications of normalizing flows to the sampling of field configurations in lattice gauge theory have so far been explored almost exclusively in two space-time dimensions. We report new algorithmic developments of gauge-equivariant flow architectures facilitating the generalization to higher-dimensional lattice geometries. Specifically, we discuss masked autoregressive transformations with tractable and unbiased Jacobian determinants, a key ingredient for scalable and asymptotically exact flow-based sampling algorithms. For concreteness, results from a proof-of-principle application to SU(3) lattice gauge theory in four space-time dimensions are reported.",
+    "link": "http://arxiv.org/abs/2305.02402",
+    "context": "Title: Normalizing flows for lattice gauge theory in arbitrary space-time dimension. (arXiv:2305.02402v1 [hep-lat])\nAbstract: Applications of normalizing flows to the sampling of field configurations in lattice gauge theory have so far been explored almost exclusively in two space-time dimensions. We report new algorithmic developments of gauge-equivariant flow architectures facilitating the generalization to higher-dimensional lattice geometries. Specifically, we discuss masked autoregressive transformations with tractable and unbiased Jacobian determinants, a key ingredient for scalable and asymptotically exact flow-based sampling algorithms. For concreteness, results from a proof-of-principle application to SU(3) lattice gauge theory in four space-time dimensions are reported.",
+    "path": "papers/23/05/2305.02402.json",
+    "total_tokens": 710,
+    "translated_title": "正则流在任意空时维度规范场理论中的应用",
+    "translated_abstract": "正则流已经被成功地应用于二维规范场理论中的场态采样，但在更高维空时中的应用仍然面临挑战。本文提出了新的算法发展，使用规范等变流体系结构，推广到更高维的规则结构。特别地，我们讨论具有可追溯和无偏雅可比行列式的蒙皮自回归转换，这是可伸缩和近似精确的流体态采样算法的关键。为了确保可行性，我们在四维时空中进行了SU(3)规范场理论的原理证明实验，并展示了结果。",
+    "tldr": "本文提出了新的正则流算法来推广到更高维度的规范场理论中，成功地应用于SU(3)规范场理论的原理证明实验，并显示出可行性。"
+}

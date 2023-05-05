@@ -1,0 +1,12 @@
+{
+    "title": "Structures of Neural Network Effective Theories. (arXiv:2305.02334v1 [hep-th])",
+    "abstract": "We develop a diagrammatic approach to effective field theories (EFTs) corresponding to deep neural networks at initialization, which dramatically simplifies computations of finite-width corrections to neuron statistics. The structures of EFT calculations make it transparent that a single condition governs criticality of all connected correlators of neuron preactivations. Understanding of such EFTs may facilitate progress in both deep learning and field theory simulations.",
+    "link": "http://arxiv.org/abs/2305.02334",
+    "context": "Title: Structures of Neural Network Effective Theories. (arXiv:2305.02334v1 [hep-th])\nAbstract: We develop a diagrammatic approach to effective field theories (EFTs) corresponding to deep neural networks at initialization, which dramatically simplifies computations of finite-width corrections to neuron statistics. The structures of EFT calculations make it transparent that a single condition governs criticality of all connected correlators of neuron preactivations. Understanding of such EFTs may facilitate progress in both deep learning and field theory simulations.",
+    "path": "papers/23/05/2305.02334.json",
+    "total_tokens": 623,
+    "translated_title": "神经网络有效理论的结构",
+    "translated_abstract": "我们提出了一种图解方法，用于研究深度神经网络初始状态下的有效场论（EFT），这种方法可以极大地简化计算有限宽度修正神经元统计量的过程。EFT计算的结构使得所有神经元预激活的关联函数的临界性都受到单一条件的控制。理解这样的EFT可能有助于进展深度学习和场论模拟。",
+    "tldr": "该论文提出了一种简化深度神经网络有效场论计算的图解方法，并指出单一条件决定了所有神经元预激活的关联函数的临界性，这可能有助于推动深度学习和场论模拟的进展。",
+    "en_tdlr": "This paper presents a diagrammatic approach to simplify the effective field theory computation for deep neural networks at initialization, and shows that a single condition governs criticality of all connected correlators of neuron preactivations, which may facilitate progress in both deep learning and field theory simulations."
+}

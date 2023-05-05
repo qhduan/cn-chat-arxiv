@@ -1,0 +1,12 @@
+{
+    "title": "Using Language Models on Low-end Hardware. (arXiv:2305.02350v1 [cs.CL])",
+    "abstract": "This paper evaluates the viability of using fixed language models for training text classification networks on low-end hardware. We combine language models with a CNN architecture and put together a comprehensive benchmark with 8 datasets covering single-label and multi-label classification of topic, sentiment, and genre. Our observations are distilled into a list of trade-offs, concluding that there are scenarios, where not fine-tuning a language model yields competitive effectiveness at faster training, requiring only a quarter of the memory compared to fine-tuning.",
+    "link": "http://arxiv.org/abs/2305.02350",
+    "context": "Title: Using Language Models on Low-end Hardware. (arXiv:2305.02350v1 [cs.CL])\nAbstract: This paper evaluates the viability of using fixed language models for training text classification networks on low-end hardware. We combine language models with a CNN architecture and put together a comprehensive benchmark with 8 datasets covering single-label and multi-label classification of topic, sentiment, and genre. Our observations are distilled into a list of trade-offs, concluding that there are scenarios, where not fine-tuning a language model yields competitive effectiveness at faster training, requiring only a quarter of the memory compared to fine-tuning.",
+    "path": "papers/23/05/2305.02350.json",
+    "total_tokens": 683,
+    "translated_title": "在低端硬件上使用语言模型",
+    "translated_abstract": "本文评估了在低端硬件上使用固定语言模型来训练文本分类网络的可行性。我们将语言模型与CNN架构相结合，并组成了包括单标签和多标签分类的话题、情感和风格的8组数据集的综合基准。我们的观察总结成一个权衡列表，并得出结论，即在某些情况下，不对语言模型进行微调可以在更快的训练中产生竞争性的效果，仅需要原先内存的四分之一即可。",
+    "tldr": "本论文评估了在低端硬件上使用固定语言模型来训练文本分类网络的可行性，并发现在某些情况下，不对语言模型进行微调可以在更快的训练中产生竞争性的效果，仅需要原先内存的四分之一即可。",
+    "en_tdlr": "This paper evaluates the feasibility of using fixed language models for training text classification networks on low-end hardware and finds that in some cases, not fine-tuning a language model can yield competitive effectiveness at faster training, requiring only a quarter of the memory compared to fine-tuning."
+}

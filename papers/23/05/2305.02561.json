@@ -1,0 +1,12 @@
+{
+    "title": "Beneficence Signaling in AI Development Dynamics. (arXiv:2305.02561v1 [cs.CY])",
+    "abstract": "This paper motivates and develops a framework for understanding how the socio-technical systems surrounding AI development interact with social welfare. It introduces the concept of ``signaling'' from evolutionary game theory and demonstrates how it can enhance existing theory and practice surrounding the evaluation and governance of AI systems.",
+    "link": "http://arxiv.org/abs/2305.02561",
+    "context": "Title: Beneficence Signaling in AI Development Dynamics. (arXiv:2305.02561v1 [cs.CY])\nAbstract: This paper motivates and develops a framework for understanding how the socio-technical systems surrounding AI development interact with social welfare. It introduces the concept of ``signaling'' from evolutionary game theory and demonstrates how it can enhance existing theory and practice surrounding the evaluation and governance of AI systems.",
+    "path": "papers/23/05/2305.02561.json",
+    "total_tokens": 560,
+    "translated_title": "AI开发动态中的公益信号",
+    "translated_abstract": "本文提出并发展了一个框架，用于理解围绕人工智能开发的社会技术系统如何与社会福利相互作用。它引入了进化博弈论中的“信号传递”概念，并演示了它如何增强现有的人工智能系统评估和治理理论和实践。",
+    "tldr": "本文介绍了一个框架来理解AI开发中的社会技术系统和社会福利的相互作用，并引入了“信号传递”的概念以增强对AI系统评估和治理的理论和实践。",
+    "en_tdlr": "This paper presents a framework for understanding the interaction between socio-technical systems surrounding AI development and social welfare, and introduces the concept of \"signaling\" from evolutionary game theory to enhance the theory and practice of AI system evaluation and governance."
+}

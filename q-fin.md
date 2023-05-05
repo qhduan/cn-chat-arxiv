@@ -2,103 +2,131 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Macroeconomic factors and Stock exchange return: A Statistical Analysis.](http://arxiv.org/abs/2305.02229) | 本研究分析了达卡股票交易所股票价格与宏观经济变量之间的长期关系，结果表明消费价格指数、货币供应和汇率与股票回报密切相关，而市场资本化与股票回报呈负相关。 |
-| [^2] | [A Mediation Analysis of the Relationship Between Land Use Regulation Stringency and Employment Dynamics.](http://arxiv.org/abs/2305.02159) | 本文研究了美国878个地方辖区在2010-2020年间土地利用管制严格程度对零售、专业和信息三个行业就业增长的影响，结果表明过度的土地利用管制严格程度使得住房成本负担增加，住房成本负担成为了阻碍就业增长的中介变量，信息行业的效应最为明显。 |
-| [^3] | [The Relationship between Consumption and Economic Growth of Chinese Urban and Rural Residents since Reform and Opening-up -- An Empirical Analysis Based on Econometrics Models.](http://arxiv.org/abs/2305.02138) | 本文分析改革开放以来中国城乡居民消费与经济增长的关系，得出城市消费和农村消费的增加可以促进经济增长并且城市消费更有利于经济增长的结论，提出相关政策建议。 |
-| [^4] | [Black-box Optimizers vs Taste Shocks.](http://arxiv.org/abs/2305.02027) | 本文比较了味道冲击和黑箱优化器两种方法解决动态规划问题的优缺点，发现味道冲击在多维问题中无法实现收敛。对于无法轻松计算导数的情况，我们推荐使用Nelder-Mead下山单纯形算法、 Powell方向集算法和共轭梯度方法BOBYQA等优化算法。 |
-| [^5] | [Don't Trust, Verify: Towards a Framework for the Greening of Bitcoin.](http://arxiv.org/abs/2305.01815) | 随着比特币的发展，它面临着高碳排放的问题，而目前有很多可持续比特币会计系统，但缺乏一个统一标准认证标准。本文提出了一个可行的解决方案，并详细分析了不同系统的优缺点和挑战。 |
-| [^6] | [Understanding Model Complexity for temporal tabular and multi-variate time series, case study with Numerai data science tournament.](http://arxiv.org/abs/2303.07925) | 本文采用 Numerai 数据科学竞赛的数据，探究了多变量时间序列建模中不同特征工程和降维方法的应用；提出了一种新的集成方法，用于高维时间序列建模，该方法在通用性、鲁棒性和效率上优于一些深度学习模型。 |
-| [^7] | [Quantum Analysis of Continuous Time Stochastic Process.](http://arxiv.org/abs/2208.02364) | 本文提出了一种通用框架，用于在量子计算机上高效地准备连续时间随机过程路径。基于压缩状态准备方法，可以高效地提取重要的路径相关和历史敏感信息，并实现二次加速。 |
-| [^8] | [The Evolution Of Centralisation on Cryptocurrency Platforms.](http://arxiv.org/abs/2206.05081) | 本文研究了加密货币平台的中心化演化，使用复杂系统文献中广泛的方法对比了一系列区块链，质疑了当前加密货币是否真正去中心化。 |
-| [^9] | [MicroVelocity: rethinking the Velocity of Money for digital currencies.](http://arxiv.org/abs/2201.13416) | 本文提出了MicroVelocity框架来分析数字货币的货币流通速度，揭示了个体代理贡献的分布特点，记录了高速中介的出现，为数字货币的发展和分析提供政策洞见。 |
+| [^1] | [Surveying Generative AI's Economic Expectations.](http://arxiv.org/abs/2305.02823) | 该论文介绍了一项经济预期调查，使用大型语言模型对各种金融和宏观经济变量的预期进行查询，发现LLM预期与现有调查相似，但也显示出许多偏离理性预期的特点，该调查方法为衡量经济预期提供了一种新方法。 |
+| [^2] | [Employer Reputation and the Labor Market: Evidence from Glassdoor.com and Dice.com.](http://arxiv.org/abs/2305.02587) | 本研究使用Glassdoor.com和Dice.com的数据研究了雇主声誉对劳动市场的影响，发现雇主声誉的提高将影响其吸引工人的能力，尤其是当显示评分为“持续”时，这种影响对于私人、较小和不那么知名的企业最为突出。 |
+| [^3] | [Understand Waiting Time in Transaction Fee Mechanism: An Interdisciplinary Perspective.](http://arxiv.org/abs/2305.02552) | 本文通过整合以太坊区块链和内存池数据，探究了TFMs中等待时间的确定因素，研究表明回归断点设计对于分析因果推理很有效，交易低估会产生垃圾邮件攻击，这些对于提高区块链系统安全和经济性能有所帮助。 |
+| [^4] | [Why Not Borrow, Invest, and Escape Poverty?.](http://arxiv.org/abs/2305.02546) | 该论文针对穷人利用小额信贷投资于企业或人力资本的现状进行研究，认为风险规避是原因之一，因为投资旨在提高成功可能性，所以需要采取不同的策略。 |
+| [^5] | [Language, Time Preferences, and Consumer Behavior: Evidence from Large Language Models.](http://arxiv.org/abs/2305.02531) | 本研究分析了大型语言模型在不同语言提示下的奖励时间偏好，并发现GPT在具有较弱未来时态的语言下表现出更大的耐心，这与使用该语言的人类的偏好相似。 |
+| [^6] | [Market Making and Pricing of Financial Derivatives based on Road Travel Times.](http://arxiv.org/abs/2305.02523) | 本文提出了一种基于道路行驶时间的金融衍生品，可以作为一种创新的对冲工具，在交通领域和金融市场中都有潜在的市场和需求。 |
+| [^7] | [The Direct and Spillover Effects of Large-scale Affirmative Action at an Elite Brazilian University.](http://arxiv.org/abs/2305.02513) | 巴西一所精英大学实施的大规模平权政策既对于黑人和低收入学生具有正向效应（使得其就业收入增长），又对于该校排名最高的学生具有重大负面影响（导致他们就业收入大幅下降）。 |
+| [^8] | [Informing Innovation Management: Linking Leading R&D Firms and Emerging Technologies.](http://arxiv.org/abs/2305.02476) | 本文构建了一个新的模型，将新兴技术与全球领先的研发支出公司相连接，从而获得了一个新的地图，可以分析公司与新兴技术之间的最密切联系，并得到了显著的正相关性验证。此模型可用于特定技术主题、公司竞争格局和国家利益等领域的研究。 |
+| [^9] | [Quantum Analysis of Continuous Time Stochastic Process.](http://arxiv.org/abs/2208.02364) | 本文提出了一种通用框架，用于在量子计算机上高效地准备连续时间随机过程路径。基于压缩状态准备方法，可以高效地提取重要的路径相关和历史敏感信息，并实现二次加速。 |
 
 # 详细
 
-[^1]: 宏观经济因素与股票市场回报：一项统计分析
+[^1]: 调查生成AI对经济预期的期望
 
-    Macroeconomic factors and Stock exchange return: A Statistical Analysis. (arXiv:2305.02229v1 [econ.GN])
+    Surveying Generative AI's Economic Expectations. (arXiv:2305.02823v1 [econ.GN])
 
-    [http://arxiv.org/abs/2305.02229](http://arxiv.org/abs/2305.02229)
+    [http://arxiv.org/abs/2305.02823](http://arxiv.org/abs/2305.02823)
 
-    本研究分析了达卡股票交易所股票价格与宏观经济变量之间的长期关系，结果表明消费价格指数、货币供应和汇率与股票回报密切相关，而市场资本化与股票回报呈负相关。
-
-    
-
-    本研究旨在研究达卡股票交易所指数回报与汇率、通货膨胀、货币供应等宏观经济变量之间的关系。通过使用约翰逊共整合检验、增广迪基-福勒（ADF）和菲利普·佩隆（PP）检验分析了宏观经济变量与股票市场回报之间的长期关系。结果表明，达卡股票交易所股票价格与宏观经济变量之间存在协整关系。消费价格指数、货币供应和汇率与股票回报密切相关，而市场资本化与股票回报呈负相关。研究结果表明，长期来看，达卡股票交易所对宏观经济指标具有反应能力。
-
-    The purpose of this research is to examine the relationship between the Dhaka Stock exchange index return and macroeconomic variables such as exchange rate, inflation, money supply etc. The long-term relationship between macroeconomic variables and stock market returns has been analyzed by using the Johnson Cointegration test, Augmented Dicky Fuller (ADF) and Phillip Perron (PP) tests. The results revealed the existence of cointegrating relationship between stock prices and the macroeconomic variables in the Dhaka stock exchange. The consumer price index, money supply, and exchange rates proved to be strongly associated with stock returns, while market capitalization was found to be negatively associated with stock returns. The findings suggest that in the long run, the Dhaka stock exchange is reactive to macroeconomic indicators.
-    
-[^2]: 土地利用管制严格程度与就业动态关系的中介分析
-
-    A Mediation Analysis of the Relationship Between Land Use Regulation Stringency and Employment Dynamics. (arXiv:2305.02159v1 [econ.GN])
-
-    [http://arxiv.org/abs/2305.02159](http://arxiv.org/abs/2305.02159)
-
-    本文研究了美国878个地方辖区在2010-2020年间土地利用管制严格程度对零售、专业和信息三个行业就业增长的影响，结果表明过度的土地利用管制严格程度使得住房成本负担增加，住房成本负担成为了阻碍就业增长的中介变量，信息行业的效应最为明显。
+    该论文介绍了一项经济预期调查，使用大型语言模型对各种金融和宏观经济变量的预期进行查询，发现LLM预期与现有调查相似，但也显示出许多偏离理性预期的特点，该调查方法为衡量经济预期提供了一种新方法。
 
     
 
-    本文旨在研究美国878个地方辖区（2010-2020年）关于居住用途管制指数（WRLURI）严格程度对零售、专业和信息三个行业就业增长的影响。本文采用中介分析框架，研究土地利用管制严格程度对行业就业增长和专业化的直接影响和间接影响。分析结果表明，过度的土地利用管制严格程度与住房成本负担之间存在完全中介的关系，并且住房成本负担是中介变量，这阻碍了就业增长，信息行业的效应最为明显。
+    我通过查询1984年至2021年华尔街日报的新闻文章样本，介绍了一个经济预期调查，该调查查询了一个大型语言模型（LLM）对各种金融和宏观经济变量的预期。 我发现，由此产生的预期与现有调查（包括专业预测者调查（SPF）、美国个人投资者协会和杜克首席财务官调查）非常相似。重要的是，我记录了LLM基于模型的预期与现有调查系列中表现出的许多全信息理性预期偏差匹配。LLM的宏观经济预期表现出共识SPF预测中常见的低反应性。此外，其回报预期是外推的，脱离了预期回报的客观测量，与未来实现的回报呈负相关。最后，利用LLM培训期以外的文章样本，我发现与现有调查预期的相关性仍然强，这表明LLM模型的基础框架提供了一种有用的新方法来测量经济预期。
 
-    The paper examines the effects of stringent land use regulations, measured using the Wharton Residential Land Use Regulatory Index (WRLURI), on employment growth during the period 2010-2020 in the Retail, Professional, and Information sectors across 878 local jurisdictions in the United States. All the local jurisdictions exist in both (2006 and 2018) waves of the WRLURI surveys and hence constitute a unique panel data. We apply a mediation analytical framework to decompose the direct and indirect effects of land use regulation stringency on sectoral employment growth and specialization. Our analysis suggests a fully mediated pattern in the relationship between excessive land use regulations and employment growth, with housing cost burden as the mediator. Specifically, a one standard deviation increase in the WRLURI index is associated with an approximate increase of 0.8 percentage point in the proportion of cost burdened renters. Relatedly, higher prevalence of cost-burdened renters h
+    I introduce a survey of economic expectations formed by querying a large language model (LLM)'s expectations of various financial and macroeconomic variables based on a sample of news articles from the Wall Street Journal between 1984 and 2021. I find the resulting expectations closely match existing surveys including the Survey of Professional Forecasters (SPF), the American Association of Individual Investors, and the Duke CFO Survey. Importantly, I document that LLM based expectations match many of the deviations from full-information rational expectations exhibited in these existing survey series. The LLM's macroeconomic expectations exhibit under-reaction commonly found in consensus SPF forecasts. Additionally, its return expectations are extrapolative, disconnected from objective measures of expected returns, and negatively correlated with future realized returns. Finally, using a sample of articles outside of the LLM's training period I find that the correlation with existing su
     
-[^3]: 改革开放以来中国城乡居民消费与经济增长的关系——基于计量经济学模型的实证分析
+[^2]: 《雇主声誉与劳动市场:来自Glassdoor.com和Dice.com的证据》
 
-    The Relationship between Consumption and Economic Growth of Chinese Urban and Rural Residents since Reform and Opening-up -- An Empirical Analysis Based on Econometrics Models. (arXiv:2305.02138v1 [econ.GN])
+    Employer Reputation and the Labor Market: Evidence from Glassdoor.com and Dice.com. (arXiv:2305.02587v1 [econ.GN])
 
-    [http://arxiv.org/abs/2305.02138](http://arxiv.org/abs/2305.02138)
+    [http://arxiv.org/abs/2305.02587](http://arxiv.org/abs/2305.02587)
 
-    本文分析改革开放以来中国城乡居民消费与经济增长的关系，得出城市消费和农村消费的增加可以促进经济增长并且城市消费更有利于经济增长的结论，提出相关政策建议。
-
-    
-
-    改革开放四十年来，中国在经济领域取得了显著的成就，而其中消费活动，包括家庭消费在内，发挥了重要作用。消费活动是经济活动的终点，因为其他经济活动的最终目的是满足消费需求；消费活动是经济活动的起点，因为消费可以推动经济和社会发展。本文选择了改革开放以来40多年的经济数据，建立了向量自回归（VAR）模型和向量误差纠正（VEC）模型，分析了城乡居民消费水平和总消费对经济增长的影响。结论是城市消费和农村消费的增加可以导致GDP的增长，在长期内，城市消费可以比农村消费更能促进经济增长。据此，我们分析了原因并提出了相关政策建议。
-
-    Since Reform and Opening-up 40 years ago, China has made remarkable achievements in economic fields. And consumption activities, including household consumption, have played an important role in it. Consumer activity is the end of economic activity, because the ultimate aim of other economic activities is to meet consumer demand; consumer activity is the starting point of economic activity, because consumption can drive economic and social development. This paper selects the economic data of more than 40 years since Reform and Opening-up, and establishes the Vector Autoregressive (VAR) model and Vector Error Correction (VEC) model, analyzing the influence of consumption level and total consumption of urban and rural residents on economic growth. The conclusion is that the increase of urban consumption and rural consumption can lead to the increase of GDP, and in the long run, urban consumption can promote economic growth more than rural consumption. According to this conclusion, we ana
-    
-[^4]: 黑箱优化器 vs 味道冲击
-
-    Black-box Optimizers vs Taste Shocks. (arXiv:2305.02027v1 [econ.GN])
-
-    [http://arxiv.org/abs/2305.02027](http://arxiv.org/abs/2305.02027)
-
-    本文比较了味道冲击和黑箱优化器两种方法解决动态规划问题的优缺点，发现味道冲击在多维问题中无法实现收敛。对于无法轻松计算导数的情况，我们推荐使用Nelder-Mead下山单纯形算法、 Powell方向集算法和共轭梯度方法BOBYQA等优化算法。
+    本研究使用Glassdoor.com和Dice.com的数据研究了雇主声誉对劳动市场的影响，发现雇主声誉的提高将影响其吸引工人的能力，尤其是当显示评分为“持续”时，这种影响对于私人、较小和不那么知名的企业最为突出。
 
     
 
-    我们评估和扩展了动态规划中具有二元和多连续选择变量的模型的解决方法，特别是在离散状态空间解决方法不可行的情况下。因此，我们使用应用数学家用于基准测试算法的味道冲击或黑盒优化器来近似解决方案。我们将这些方法应用于一个默认框架，其中代理必须解决具有长期债务的投资组合问题。我们表明，解决方案方法的选择很重要，因为味道震荡在多维问题中无法实现收敛。我们比较了使用四个优化算法的相对优势：Nelder-Mead下山单纯形算法，带LINMIN的Powell方向集算法，共轭梯度方法BOBYQA和拟牛顿Davidon-Fletcher-Powell（DFPMIN）算法。所有这些方法除了最后一种方法外，在不能轻松计算导数时都很优选。最终，我们发现Po
+    雇主声誉对劳动市场有何影响？我们使用从Glassdoor.com中收集的评论和Dice.com中的求职数据来研究这个问题。Glassdoor.com等劳动市场的机构通过众包来收集雇主信息，以解决工人在选择雇主时面临的信息问题。为了避免过多偏差，原始的众包雇主评级是在显示给求职者时进行了精加工后的。通过利用精加工的阈值，我们使用回归不连续性框架确定了Glassdoor评级的因果影响。我们记录了这种评级对劳动力市场需求和供给方面的影响。我们发现，雇主声誉对于雇主吸引工人的能力有影响，特别是当显示评分为“持续”时。雇主对评分超过精加工阈值的回应是发布更多的新职位和重新激活更多的工作职位。这种影响对私人、较小和不那么知名的企业最为突出。
 
-    We evaluate and extend the solution methods for models with binary and multiple continuous choice variables in dynamic programming, particularly in cases where a discrete state space solution method is not viable. Therefore, we approximate the solution using taste shocks or black-box optimizers that applied mathematicians use to benchmark their algorithms. We apply these methods to a default framework in which agents have to solve a portfolio problem with long-term debt. We show that the choice of solution method matters, as taste shocks fail to attain convergence in multidimensional problems. We compare the relative advantages of using four optimization algorithms: the Nelder-Mead downhill simplex algorithm, Powell's direction-set algorithm with LINMIN, the conjugate gradient method BOBYQA, and the quasi-Newton Davidon-Fletcher-Powell (DFPMIN) algorithm. All of these methods, except for the last one, are preferred when derivatives cannot be easily computed. Ultimately, we find that Po
+    How does employer reputation affect the labor market? We investigate this question using a novel dataset combining reviews from Glassdoor.com and job applications data from Dice.com. Labor market institutions such as Glassdoor.com crowd-sources information about employers to alleviate information problems faced by workers when choosing an employer. Raw crowd-sourced employer ratings are rounded when displayed to job seekers. By exploiting the rounding threshold, we identify the causal impact of Glassdoor ratings using a regression discontinuity framework. We document the effects of such ratings on both the demand and supply sides of the labor market. We find that displayed employer reputation affects an employer's ability to attract workers, especially when the displayed rating is "sticky." Employers respond to having a rating above the rounding threshold by posting more new positions and re-activating more job postings. The effects are the strongest for private, smaller, and less esta
     
-[^5]: 不要信任，要验证：迈向比特币绿色化框架
+[^3]: 《理解交易费机制中的等待时间：跨学科视角》
 
-    Don't Trust, Verify: Towards a Framework for the Greening of Bitcoin. (arXiv:2305.01815v1 [econ.GN])
+    Understand Waiting Time in Transaction Fee Mechanism: An Interdisciplinary Perspective. (arXiv:2305.02552v1 [econ.GN])
 
-    [http://arxiv.org/abs/2305.01815](http://arxiv.org/abs/2305.01815)
+    [http://arxiv.org/abs/2305.02552](http://arxiv.org/abs/2305.02552)
 
-    随着比特币的发展，它面临着高碳排放的问题，而目前有很多可持续比特币会计系统，但缺乏一个统一标准认证标准。本文提出了一个可行的解决方案，并详细分析了不同系统的优缺点和挑战。
-
-    
-
-    在过去的十多年中，比特币既得到了越来越多的认可，也受到了很多批评。基本上，比特币因其高能耗的工作量证明（PoW）共识算法所导致的高碳排放量而备受争议。然而，有一个趋势是，比特币挖掘正朝着实现碳负担的方向发展，这主要是由于采用了基于甲烷的挖掘和支持可变可再生能源（VRE）发电的挖掘灵活负荷响应（FLR）。矿工和电力销售商不仅可以利用过剩能源来增加他们的盈利能力，还可以向那些有兴趣绿化自己投资组合的买家出售绿色代币。然而，一个合适的“绿色比特币”会计系统需要一个可持续比特币持有的认证标准框架。建立这样的框架的正确方法仍有争议。本文调查了不同的可持续比特币会计系统，分析了它们的优缺点及其挑战。
-
-    For more than a decade, Bitcoin has gained as much adoption as it has received criticism. Fundamentally, Bitcoin is under fire for the high carbon footprint that results from the energy-intensive proof-of-work (PoW) consensus algorithm. There is a trend however for Bitcoin mining to adopt a trajectory toward achieving carbon-negative status, notably due to the adoption of methane-based mining and mining-based flexible load response (FLR) to complement variable renewable energy (VRE) generation. Miners and electricity sellers may increase their profitability not only by taking advantage of excess energy, but also by selling green tokens to buyers interested in greening their portfolios. Nevertheless, a proper ''green Bitcoin'' accounting system requires a standard framework for the accreditation of sustainable bitcoin holdings. The proper way to build such a framework remains contested. In this paper, we survey the different sustainable Bitcoin accounting systems. Analyzing the various 
-    
-[^6]: 通过 Numerai 数据科学竞赛案例，理解时间表格和多变量时间序列的模型复杂度
-
-    Understanding Model Complexity for temporal tabular and multi-variate time series, case study with Numerai data science tournament. (arXiv:2303.07925v1 [cs.LG])
-
-    [http://arxiv.org/abs/2303.07925](http://arxiv.org/abs/2303.07925)
-
-    本文采用 Numerai 数据科学竞赛的数据，探究了多变量时间序列建模中不同特征工程和降维方法的应用；提出了一种新的集成方法，用于高维时间序列建模，该方法在通用性、鲁棒性和效率上优于一些深度学习模型。
+    本文通过整合以太坊区块链和内存池数据，探究了TFMs中等待时间的确定因素，研究表明回归断点设计对于分析因果推理很有效，交易低估会产生垃圾邮件攻击，这些对于提高区块链系统安全和经济性能有所帮助。
 
     
 
-    本文探究了在多变量时间序列建模中使用不同特征工程和降维方法的应用。利用从 Numerai 数据竞赛创建的特征目标交叉相关时间序列数据集，我们证明在过度参数化的情况下，不同特征工程方法的性能与预测会收敛到可由再生核希尔伯特空间刻画的相同平衡态。我们提出了一种新的集成方法，该方法结合了不同的随机非线性变换，随后采用岭回归模型进行高维时间序列建模。与一些常用的用于序列建模的深度学习模型（如 LSTM 和 transformer）相比，我们的方法更加鲁棒（在不同的随机种子下具有较低的模型方差，且对架构的选择不太敏感），并且更有效率。我们方法的另一个优势在于模型的简单性，因为没有必要使用复杂的深度学习框架。
+    区块链技术使得无需信任第三方即可进行点对点交易。以太坊和智能合约区块链的快速发展需要有良好设计的交易费机制(TFMs)，以分配有限的存储和计算资源。然而，现有的TFM研究必须考虑交易的等待时间，这对计算机安全和经济效率至关重要。本文将以太坊区块链和内存池的数据整合起来，探讨两种事件如何影响交易延迟。首先，我们应用回归断点设计(RDD)来研究Ethereum的最新重大升级——Merge的因果推理。我们的结果表明，Merge显著降低了长时间等待时间、网络负载和市场拥堵。此外，我们通过检查其他复合因素（例如审查和私人更改后的未观察到的延迟事务）来验证结果的稳健性。其次，我们通过使用二次数学模型来描述交易费竞标过程，研究了交易低估对等待时间和可能的垃圾邮件攻击的影响。我们的跨学科方法将计算机科学和经济学融合在一起，提供了TFMs等待时间决定因素的全面视角。我们的研究对于提高区块链系统的安全性和经济性能具有实际意义。
 
-    In this paper, we explore the use of different feature engineering and dimensionality reduction methods in multi-variate time-series modelling. Using a feature-target cross correlation time series dataset created from Numerai tournament, we demonstrate under over-parameterised regime, both the performance and predictions from different feature engineering methods converge to the same equilibrium, which can be characterised by the reproducing kernel Hilbert space. We suggest a new Ensemble method, which combines different random non-linear transforms followed by ridge regression for modelling high dimensional time-series. Compared to some commonly used deep learning models for sequence modelling, such as LSTM and transformers, our method is more robust (lower model variance over different random seeds and less sensitive to the choice of architecture) and more efficient. An additional advantage of our method is model simplicity as there is no need to use sophisticated deep learning frame
+    Blockchain enables peer-to-peer transactions in cyberspace without a trusted third party. The rapid growth of Ethereum and smart contract blockchains generally calls for well-designed Transaction Fee Mechanisms (TFMs) to allocate limited storage and computation resources. However, existing research on TFMs must consider the waiting time for transactions, which is essential for computer security and economic efficiency. Integrating data from the Ethereum blockchain and memory pool (mempool), we explore how two types of events affect transaction latency. First, we apply regression discontinuity design (RDD) to study the causal inference of the Merge, the most recent significant upgrade of Ethereum. Our results show that the Merge significantly reduces the long waiting time, network loads, and market congestion. In addition, we verify our results' robustness by inspecting other compounding factors, such as censorship and unobserved delays of transactions via private changes. Second, exami
     
-[^7]: 连续时间随机过程的量子分析
+[^4]: 为什么不借款、投资和摆脱贫困？
+
+    Why Not Borrow, Invest, and Escape Poverty?. (arXiv:2305.02546v1 [econ.GN])
+
+    [http://arxiv.org/abs/2305.02546](http://arxiv.org/abs/2305.02546)
+
+    该论文针对穷人利用小额信贷投资于企业或人力资本的现状进行研究，认为风险规避是原因之一，因为投资旨在提高成功可能性，所以需要采取不同的策略。
+
+    
+
+    穷人利用小额信贷投资于企业或人力资本的情况非常少。我们表明，如果这种投资旨在提高成功的可能性，则可以解释风险规避的情况，而无需依赖于固定成本或技术上的其他非凸性。在这种框架下，理性的风险规避者选择边角解，不同于具有外生成功概率的风险投资的情况。我们的在线实验验证了我们的理论预测，即当面临这两种类型类型的投资时，代理商选择不同的方案。
+
+    Take up of microcredit by the poor for investment in businesses or human capital turned out to be very low. We show that this could be explained by risk aversion, without relying on fixed costs or other forms of non-convexity in the technology, if the investment is aimed at increasing the probability of success. Under this framework, rational risk-averse agents choose corner solutions, unlike in the case of a risky investment with an exogenous probability of success. Our online experiment confirms our theoretical predictions about how agents' choices differ when facing the two types of investments.
+    
+[^5]: 语言、时间偏好和消费行为：大型语言模型的证据
+
+    Language, Time Preferences, and Consumer Behavior: Evidence from Large Language Models. (arXiv:2305.02531v1 [econ.GN])
+
+    [http://arxiv.org/abs/2305.02531](http://arxiv.org/abs/2305.02531)
+
+    本研究分析了大型语言模型在不同语言提示下的奖励时间偏好，并发现GPT在具有较弱未来时态的语言下表现出更大的耐心，这与使用该语言的人类的偏好相似。
+
+    
+
+    语言对我们对时间和奖励的感知有很大的影响。这引发了一个问题，即当以不同的语言询问大型语言模型时，它们是否显示出不同的奖励时间偏好，并且它们的选择是否类似于人类的选择。本研究分析了GPT-3.5（以下简称GPT）在多种语言提示下的响应，探索了较小、较早的奖励和较大、较晚的奖励之间的偏好。我们的结果显示，当以语义含义较弱的未来时态参考（FTR），如德语和汉语，为提示语时，GPT表现出更大的耐心，相比英语和法语等具有强大FTR的语言。这些发现与现有文献一致，并表明了GPT的选择与这些语言的使用者的偏好之间的关联。然而，进一步的分析揭示了较早或较晚奖励的偏好并没有随着奖励差异系统地改变，这表明了一种词典序优先的选择。
+
+    Language has a strong influence on our perceptions of time and rewards. This raises the question of whether large language models, when asked in different languages, show different preferences for rewards over time and if their choices are similar to those of humans. In this study, we analyze the responses of GPT-3.5 (hereafter referred to as GPT) to prompts in multiple languages, exploring preferences between smaller, sooner rewards and larger, later rewards. Our results show that GPT displays greater patience when prompted in languages with weak future tense references (FTR), such as German and Mandarin, compared to languages with strong FTR, like English and French. These findings are consistent with existing literature and suggest a correlation between GPT's choices and the preferences of speakers of these languages. However, further analysis reveals that the preference for earlier or later rewards does not systematically change with reward gaps, indicating a lexicographic preferen
+    
+[^6]: 基于道路行驶时间的金融衍生品的做市和定价
+
+    Market Making and Pricing of Financial Derivatives based on Road Travel Times. (arXiv:2305.02523v1 [stat.AP])
+
+    [http://arxiv.org/abs/2305.02523](http://arxiv.org/abs/2305.02523)
+
+    本文提出了一种基于道路行驶时间的金融衍生品，可以作为一种创新的对冲工具，在交通领域和金融市场中都有潜在的市场和需求。
+
+    
+
+    本文提出了交通时间衍生品，这是一种基于道路行驶时间的非交易基础资产的金融衍生品。在交通领域，交通时间衍生品被提出作为一种更加基本的定价方法，因为它不仅考虑了交通状况的水平，而且考虑了其波动性。在金融市场中，交通时间衍生品被提出作为一种创新的对冲工具，可以对冲市场风险，特别是在加密市场和传统银行业经历了最近的压力后。本文涉及到了（a）引入此类衍生品的动机（即对对冲的要求），（b）潜在的市场，以及（c）产品设计和定价方案。定价方案是基于实时传感器捕获的行驶时间数据设计的，这些数据被建模为奥恩斯坦-乌伦贝克（Ornstein-Uhlenbeck）过程，更普遍地，是连续时间自回归移动平均（CARMA）模型。这种模型的校准是通过隐藏因子模型进行的，该模型描述了交通时间动态。
+
+    Travel time derivatives are introduced as financial derivatives based on road travel times - a non-tradable underlying asset. In the transportation area, it is proposed as a more fundamental approach to value pricing because it conduct road pricing based on not only level but also volatility of travel time; in the financial market, it is propose as an innovative hedging instrument against market risk, especially after the recent stress of crypto market and traditional banking sector. The paper addresses (a) the motivation for introducing such derivatives (that is, the demand for hedging), (b) the potential market, and (c) the product design and pricing schemes. Pricing schemes are designed based on the travel time data captured by real time sensors, which are modeled as Ornstein - Uhlenbeck processes and more generally, continuous time auto regression moving average (CARMA) models. The calibration of such model is conducted via a hidden factor model, which described the dynamics of tra
+    
+[^7]: 巴西一所精英大学的大规模平权政策的直接和外溢效应
+
+    The Direct and Spillover Effects of Large-scale Affirmative Action at an Elite Brazilian University. (arXiv:2305.02513v1 [econ.GN])
+
+    [http://arxiv.org/abs/2305.02513](http://arxiv.org/abs/2305.02513)
+
+    巴西一所精英大学实施的大规模平权政策既对于黑人和低收入学生具有正向效应（使得其就业收入增长），又对于该校排名最高的学生具有重大负面影响（导致他们就业收入大幅下降）。
+
+    
+
+    我们研究了一项针对巴西一所精英大学45%招收黑人和低收入学生的平权政策的效应。我们发现，通过平权招生通道入学的边缘录取学生的早期职业收入增加了14%。但是，平权政策的实施也导致了该大学排名最高的学生收入大幅下降。我们提供证据表明，高排名学生收入的负面溢出效应既是由于人力资本积累的减少，也是由于社交网络价值的下降所导致的。
+
+    We examine the effects of an affirmative action policy at an elite Brazilian university that reserved 45 percent of admission slots for Black and low-income students. We find that marginally-admitted students who enrolled through the affirmative action tracks experienced a 14 percent increase in early-career earnings. But the adoption of affirmative action also caused a large decrease in earnings for the university's most highly-ranked students. We present evidence that the negative spillover effects on highly-ranked students' earnings were driven by both a reduction in human capital accumulation and a decline in the value of networking.
+    
+[^8]: 信息化创新管理：将领先的研发公司与新兴技术相连接
+
+    Informing Innovation Management: Linking Leading R&D Firms and Emerging Technologies. (arXiv:2305.02476v1 [econ.GN])
+
+    [http://arxiv.org/abs/2305.02476](http://arxiv.org/abs/2305.02476)
+
+    本文构建了一个新的模型，将新兴技术与全球领先的研发支出公司相连接，从而获得了一个新的地图，可以分析公司与新兴技术之间的最密切联系，并得到了显著的正相关性验证。此模型可用于特定技术主题、公司竞争格局和国家利益等领域的研究。
+
+    
+
+    理解新兴技术和研发之间的关系一直是公司、政策制定者和研究人员关注的焦点。本文将新型数据来源和工具与一种新颖的技术相结合，构建一个将一组新兴技术与全球领先的研发支出公司相连接的模型。结果是画出了这个领域的新地图。这张地图展示了不同技术和公司在它们对应的维基百科资料中所包含的知识的相似程度，可以分析公司与新兴技术之间的最密切联系。与相关的一组专利数据的显著正相关验证了该方法的有效性。最后，一组循环经济新兴技术被匹配到了它们最接近的领先研发支出公司，这促进了未来针对特定技术主题、公司竞争格局和国家利益等更广泛或更狭窄应用模型的研究想法。
+
+    Understanding the relationship between emerging technology and research and development has long been of interest to companies, policy makers and researchers. In this paper new sources of data and tools are combined with a novel technique to construct a model linking a defined set of emerging technologies with the global leading R&D spending companies. The result is a new map of this landscape. This map reveals the proximity of technologies and companies in the knowledge embedded in their corresponding Wikipedia profiles, enabling analysis of the closest associations between the companies and emerging technologies. A significant positive correlation for a related set of patent data validates the approach. Finally, a set of Circular Economy Emerging Technologies are matched to their closest leading R&D spending company, prompting future research ideas in broader or narrower application of the model to specific technology themes, company competitor landscapes and national interest concer
+    
+[^9]: 连续时间随机过程的量子分析
 
     Quantum Analysis of Continuous Time Stochastic Process. (arXiv:2208.02364v3 [quant-ph] UPDATED)
 
@@ -111,33 +139,5 @@
     连续时间随机过程是一种主流的数学工具，用于模拟具有广泛应用的金融、统计、物理和时间序列分析中的随机世界，然而，连续时间随机过程的模拟和分析对于经典计算机来说是一个具有挑战性的问题。本文建立了一个通用框架，可以在量子计算机上高效地准备连续时间随机过程的路径。通过我们的压缩状态准备方法，关键参数存留时间的量子比特数和电路深度都得到了优化，存储和计算资源指数级降低。所需的信息，包括对金融问题至关重要的路径相关和历史敏感信息，可以从压缩取样路径中高效地提取，并且进一步实现了二次加速。此外，这种提取方法对于那些不连续的跳跃更加敏感。
 
     The continuous time stochastic process is a mainstream mathematical instrument modeling the random world with a wide range of applications involving finance, statistics, physics, and time series analysis, while the simulation and analysis of the continuous time stochastic process is a challenging problem for classical computers. In this work, a general framework is established to prepare the path of a continuous time stochastic process in a quantum computer efficiently. The storage and computation resource is exponentially reduced on the key parameter of holding time, as the qubit number and the circuit depth are both optimized via our compressed state preparation method. The desired information, including the path-dependent and history-sensitive information that is essential for financial problems, can be extracted efficiently from the compressed sampling path, and admits a further quadratic speed-up. Moreover, this extraction method is more sensitive to those discontinuous jumps capt
-    
-[^8]: 加密货币平台的中心化演化
-
-    The Evolution Of Centralisation on Cryptocurrency Platforms. (arXiv:2206.05081v2 [physics.soc-ph] UPDATED)
-
-    [http://arxiv.org/abs/2206.05081](http://arxiv.org/abs/2206.05081)
-
-    本文研究了加密货币平台的中心化演化，使用复杂系统文献中广泛的方法对比了一系列区块链，质疑了当前加密货币是否真正去中心化。
-
-    
-
-    十多年前，区块链被誉为克服在线支付中心化信任第三方的解决方案。随着时间的推移，加密货币运动发生了改变和发展，尽管去中心化仍然是核心意识形态和每个新的加密项目应该提供的必要功能。本文使用复杂系统文献中广泛的方法研究了加密货币中心化的概念，对比了一系列区块链系统，以定义区块链系统可能展示的许多不同级别的（去）中心化，并质疑当前加密货币在技术和经济意义上是否真正去中心化。
-
-    More than ten years ago the blockchain was acclaimed as the solution to overcome centralised trusted third parties for online payments. Through the years the crypto-movement changed and evolved, although decentralisation remained the core ideology and the necessary feature every new crypto-project should provide. In this paper we study the concept of centralisation in cryptocurrencies using a wide array of methodologies from the complex systems literature, on a comparative collection of blockchains, in order to define the many different levels a blockchain system may display (de-)centralisation and to question whether the present state of cryptocurrencies is, in a technological and economical sense, actually decentralised.
-    
-[^9]: 《MicroVelocity: 重新思考数字货币的货币速度》
-
-    MicroVelocity: rethinking the Velocity of Money for digital currencies. (arXiv:2201.13416v2 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2201.13416](http://arxiv.org/abs/2201.13416)
-
-    本文提出了MicroVelocity框架来分析数字货币的货币流通速度，揭示了个体代理贡献的分布特点，记录了高速中介的出现，为数字货币的发展和分析提供政策洞见。
-
-    
-
-    我们提出了一个新的框架来分析货币流通速度，即每个个体代理的贡献（MicroVelocity），并揭示总体货币速度的分布决定因素。通过利用存储在四种加密货币区块链中的完整公开交易数据，我们实证发现MicroVelocity i)非常异质分布，ii)与代理的财富强相关。我们进一步记录高速中介的出现，从而挑战了这些系统完全去中心化的想法。此外，我们提出的框架和结果为数字货币的发展和分析提供了政策洞见。
-
-    We propose a novel framework to analyse the velocity of money in terms of the contribution (MicroVelocity) of each individual agent, and to uncover the distributional determinants of aggregate velocity. Leveraging on complete publicly available transactions data stored in blockchains from four cryptocurrencies, we empirically find that MicroVelocity i) is very heterogeneously distributed and ii) strongly correlates with agents' wealth. We further document the emergence of high-velocity intermediaries, thereby challenging the idea that these systems are fully decentralised. Further, our framework and results provide policy insights for the development and analysis of digital currencies.
     
 

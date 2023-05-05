@@ -1,0 +1,12 @@
+{
+    "title": "Strategic flip-flopping in political competition. (arXiv:2305.02834v1 [cs.GT])",
+    "abstract": "We study candidates' positioning when adjustments are possible in response to new information about voters' preferences. Re-positioning allows candidates to get closer to the median voter but is costly both financially and electorally. We examine the occurrence and the direction of the adjustments depending on the ex-ante positions and the new information. In the unique subgame perfect equilibrium, candidates anticipate the possibility to adjust in response to future information and diverge ex-ante in order to secure a cost-less victory when the new information is favorable.",
+    "link": "http://arxiv.org/abs/2305.02834",
+    "context": "Title: Strategic flip-flopping in political competition. (arXiv:2305.02834v1 [cs.GT])\nAbstract: We study candidates' positioning when adjustments are possible in response to new information about voters' preferences. Re-positioning allows candidates to get closer to the median voter but is costly both financially and electorally. We examine the occurrence and the direction of the adjustments depending on the ex-ante positions and the new information. In the unique subgame perfect equilibrium, candidates anticipate the possibility to adjust in response to future information and diverge ex-ante in order to secure a cost-less victory when the new information is favorable.",
+    "path": "papers/23/05/2305.02834.json",
+    "total_tokens": 679,
+    "translated_title": "政治竞争中的战略“翻盘”",
+    "translated_abstract": "本文研究了竞选者如何针对选民偏好的新信息做出调整。重新定位可使竞选者更接近中间选民，但会在财务和选举方面产生成本。我们研究了调整发生的时机和方向，这取决于竞选者的先前立场和新信息。我们发现，在唯一的子博弈完美均衡中，竞选者预测到可能会根据未来的信息做出调整，并在先前分歧，以在新信息有利时确保无成本的胜利。",
+    "tldr": "本文研究了政治竞争中竞选者对选民偏好信息做出战略调整的情况，发现在新信息有利时，竞选者会采取战略“翻盘”以获得无成本的胜利。",
+    "en_tdlr": "This paper studies the strategic adjustments of candidates in political competition in response to new information about voters' preferences. The findings suggest that candidates may strategically \"flip-flop\" to secure a cost-less victory when the new information is favorable."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "A Novel Evolutionary Algorithm for Hierarchical Neural Architecture Search. (arXiv:2107.08484v2 [cs.NE] UPDATED)",
+    "abstract": "In this work, we propose a novel evolutionary algorithm for neural architecture search, applicable to global search spaces. The algorithm's architectural representation organizes the topology in multiple hierarchical modules, while the design process exploits this representation, in order to explore the search space. We also employ a curation system, which promotes the utilization of well performing sub-structures to subsequent generations. We apply our method to Fashion-MNIST and NAS-Bench101, achieving accuracies of $93.2\\%$ and $94.8\\%$ respectively in a relatively small number of generations.",
+    "link": "http://arxiv.org/abs/2107.08484",
+    "context": "Title: A Novel Evolutionary Algorithm for Hierarchical Neural Architecture Search. (arXiv:2107.08484v2 [cs.NE] UPDATED)\nAbstract: In this work, we propose a novel evolutionary algorithm for neural architecture search, applicable to global search spaces. The algorithm's architectural representation organizes the topology in multiple hierarchical modules, while the design process exploits this representation, in order to explore the search space. We also employ a curation system, which promotes the utilization of well performing sub-structures to subsequent generations. We apply our method to Fashion-MNIST and NAS-Bench101, achieving accuracies of $93.2\\%$ and $94.8\\%$ respectively in a relatively small number of generations.",
+    "path": "papers/21/07/2107.08484.json",
+    "total_tokens": 718,
+    "translated_title": "一种新的用于层级神经结构搜索的进化算法",
+    "translated_abstract": "本文提出了一种新的进化算法用于神经结构搜索，适用于全局搜索空间。该算法的架构表示将拓扑结构组织为多个层级模块，设计过程利用该表示来探索搜索空间。我们还采用了一种策略系统，推广表现良好的子结构到后续世代。我们将该方法应用于Fashion-MNIST和NAS-Bench101，相对较少的世代即可实现分别达到$93.2\\%$和$94.8\\%$的准确率。",
+    "tldr": "本文提出了一种新的进化算法用于神经结构搜索，采用层级模块组织拓扑结构，应用于全局搜索空间，结合策略系统来推广表现良好的子结构，通过Fashion-MNIST和NAS-Bench101的实验得出了较好的结果。",
+    "en_tdlr": "A novel evolutionary algorithm for neural architecture search is proposed, utilizing hierarchical modules to organize topology in global search spaces and employing a curation system to promote well-performing sub-structures. The method achieves relatively high accuracy on Fashion-MNIST and NAS-Bench101 with a small number of generations."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Human Values in Multiagent Systems. (arXiv:2305.02739v1 [cs.AI])",
+    "abstract": "One of the major challenges we face with ethical AI today is developing computational systems whose reasoning and behaviour are provably aligned with human values. Human values, however, are notorious for being ambiguous, contradictory and ever-changing. In order to bridge this gap, and get us closer to the situation where we can formally reason about implementing values into AI, this paper presents a formal representation of values, grounded in the social sciences. We use this formal representation to articulate the key challenges for achieving value-aligned behaviour in multiagent systems (MAS) and a research roadmap for addressing them.",
+    "link": "http://arxiv.org/abs/2305.02739",
+    "context": "Title: Human Values in Multiagent Systems. (arXiv:2305.02739v1 [cs.AI])\nAbstract: One of the major challenges we face with ethical AI today is developing computational systems whose reasoning and behaviour are provably aligned with human values. Human values, however, are notorious for being ambiguous, contradictory and ever-changing. In order to bridge this gap, and get us closer to the situation where we can formally reason about implementing values into AI, this paper presents a formal representation of values, grounded in the social sciences. We use this formal representation to articulate the key challenges for achieving value-aligned behaviour in multiagent systems (MAS) and a research roadmap for addressing them.",
+    "path": "papers/23/05/2305.02739.json",
+    "total_tokens": 699,
+    "translated_title": "多智能体系统中的人类价值观",
+    "translated_abstract": "当今伦理人工智能面临的主要挑战之一是开发计算系统，其推理和行为可证明与人类价值观一致。然而，“人类价值观”以其歧义、矛盾和多变而著称。为了弥合这种差距，拉近我们可以正式推断将价值观实施于人工智能的情况，本文提出了一种基于社会科学的价值观的正式表征。我们使用这种正式呈现方式来阐明在多智能体系统中实现与价值观一致的行为的关键挑战，以及解决这些挑战的研究路线图。",
+    "tldr": "本文提出了一种基于社会科学的形式化价值观表征，并阐明了多智能体系统中实现与价值观一致的行为的关键挑战和相应的研究路线图。",
+    "en_tdlr": "This paper presents a formal representation of values grounded in social sciences and articulates the key challenges for achieving value-aligned behavior in multiagent systems, along with a research roadmap for addressing them."
+}
