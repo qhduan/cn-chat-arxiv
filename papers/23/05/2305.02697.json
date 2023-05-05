@@ -1,0 +1,12 @@
+{
+    "title": "DECICE: Device-Edge-Cloud Intelligent Collaboration Framework. (arXiv:2305.02697v1 [cs.DC])",
+    "abstract": "DECICE is a Horizon Europe project that is developing an AI-enabled open and portable management framework for automatic and adaptive optimization and deployment of applications in computing continuum encompassing from IoT sensors on the Edge to large-scale Cloud / HPC computing infrastructures. In this paper, we describe the DECICE framework and architecture. Furthermore, we highlight use-cases for framework evaluation: intelligent traffic intersection, magnetic resonance imaging, and emergency response.",
+    "link": "http://arxiv.org/abs/2305.02697",
+    "context": "Title: DECICE: Device-Edge-Cloud Intelligent Collaboration Framework. (arXiv:2305.02697v1 [cs.DC])\nAbstract: DECICE is a Horizon Europe project that is developing an AI-enabled open and portable management framework for automatic and adaptive optimization and deployment of applications in computing continuum encompassing from IoT sensors on the Edge to large-scale Cloud / HPC computing infrastructures. In this paper, we describe the DECICE framework and architecture. Furthermore, we highlight use-cases for framework evaluation: intelligent traffic intersection, magnetic resonance imaging, and emergency response.",
+    "path": "papers/23/05/2305.02697.json",
+    "total_tokens": 668,
+    "translated_title": "DECICE: 设备-边缘-云智能协作框架(arXiv:2305.02697v1 [cs.DC])",
+    "translated_abstract": "DECICE是一个Horizon Europe项目，正在开发一种AI-enabled的开放式和可移植式管理框架，用于计算连续体中应用程序的自动和自适应优化和部署，该连续体涵盖了从边缘IoT传感器到大规模云/HPC计算基础设施的范围。在本文中，我们描述了DECICE框架和架构。此外，我们还突出了用于框架评估的用例：智能交通路口，磁共振成像和紧急响应。",
+    "tldr": "DECICE是一个跨设备-边缘和云的智能协作框架，具有自适应优化和部署应用的能力，能够应用于智能交通、医学成像和紧急响应等方面。",
+    "en_tdlr": "DECICE is an intelligent collaboration framework across devices, edge and cloud, with the ability to automatically optimize and deploy applications adaptively, applicable to intelligent traffic, medical imaging, and emergency response."
+}

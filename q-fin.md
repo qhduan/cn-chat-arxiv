@@ -9,8 +9,9 @@
 | [^5] | [Language, Time Preferences, and Consumer Behavior: Evidence from Large Language Models.](http://arxiv.org/abs/2305.02531) | 本研究分析了大型语言模型在不同语言提示下的奖励时间偏好，并发现GPT在具有较弱未来时态的语言下表现出更大的耐心，这与使用该语言的人类的偏好相似。 |
 | [^6] | [Market Making and Pricing of Financial Derivatives based on Road Travel Times.](http://arxiv.org/abs/2305.02523) | 本文提出了一种基于道路行驶时间的金融衍生品，可以作为一种创新的对冲工具，在交通领域和金融市场中都有潜在的市场和需求。 |
 | [^7] | [The Direct and Spillover Effects of Large-scale Affirmative Action at an Elite Brazilian University.](http://arxiv.org/abs/2305.02513) | 巴西一所精英大学实施的大规模平权政策既对于黑人和低收入学生具有正向效应（使得其就业收入增长），又对于该校排名最高的学生具有重大负面影响（导致他们就业收入大幅下降）。 |
-| [^8] | [Informing Innovation Management: Linking Leading R&D Firms and Emerging Technologies.](http://arxiv.org/abs/2305.02476) | 本文构建了一个新的模型，将新兴技术与全球领先的研发支出公司相连接，从而获得了一个新的地图，可以分析公司与新兴技术之间的最密切联系，并得到了显著的正相关性验证。此模型可用于特定技术主题、公司竞争格局和国家利益等领域的研究。 |
-| [^9] | [Quantum Analysis of Continuous Time Stochastic Process.](http://arxiv.org/abs/2208.02364) | 本文提出了一种通用框架，用于在量子计算机上高效地准备连续时间随机过程路径。基于压缩状态准备方法，可以高效地提取重要的路径相关和历史敏感信息，并实现二次加速。 |
+| [^8] | [Dynamic star-shaped risk measures and $g$-expectations.](http://arxiv.org/abs/2305.02481) | 本文探讨了动态框架下的动态货币风险度量和规范化动态星形风险度量与动态凸风险度量之间的关系，并研究了其敏感性和时间一致性问题。介绍了一种具有规范化的时间一致性的动态星形风险度量，它是由$g$-期望引出的。 |
+| [^9] | [Informing Innovation Management: Linking Leading R&D Firms and Emerging Technologies.](http://arxiv.org/abs/2305.02476) | 本文构建了一个新的模型，将新兴技术与全球领先的研发支出公司相连接，从而获得了一个新的地图，可以分析公司与新兴技术之间的最密切联系，并得到了显著的正相关性验证。此模型可用于特定技术主题、公司竞争格局和国家利益等领域的研究。 |
+| [^10] | [Quantum Analysis of Continuous Time Stochastic Process.](http://arxiv.org/abs/2208.02364) | 本文提出了一种通用框架，用于在量子计算机上高效地准备连续时间随机过程路径。基于压缩状态准备方法，可以高效地提取重要的路径相关和历史敏感信息，并实现二次加速。 |
 
 # 详细
 
@@ -112,7 +113,21 @@
 
     We examine the effects of an affirmative action policy at an elite Brazilian university that reserved 45 percent of admission slots for Black and low-income students. We find that marginally-admitted students who enrolled through the affirmative action tracks experienced a 14 percent increase in early-career earnings. But the adoption of affirmative action also caused a large decrease in earnings for the university's most highly-ranked students. We present evidence that the negative spillover effects on highly-ranked students' earnings were driven by both a reduction in human capital accumulation and a decline in the value of networking.
     
-[^8]: 信息化创新管理：将领先的研发公司与新兴技术相连接
+[^8]: 动态星形风险度量与$ g $-期望
+
+    Dynamic star-shaped risk measures and $g$-expectations. (arXiv:2305.02481v1 [q-fin.RM])
+
+    [http://arxiv.org/abs/2305.02481](http://arxiv.org/abs/2305.02481)
+
+    本文探讨了动态框架下的动态货币风险度量和规范化动态星形风险度量与动态凸风险度量之间的关系，并研究了其敏感性和时间一致性问题。介绍了一种具有规范化的时间一致性的动态星形风险度量，它是由$g$-期望引出的。
+
+    
+
+    在静态货币或星形风险度量结果的启发下，本文探讨了动态框架下的表示定理。 我们展示了动态货币风险度量可以表示为一族动态凸风险度量的下包络，而规范化的动态星形风险度量可以表示为一族规范化的动态凸风险度量的下包络。 连接动态货币风险度量和动态星形风险度量之间的关系。 另外，我们还研究了敏感性和时间一致性问题。 我们详细说明并讨论了一种由$g$-期望引出的具有规范化的时间一致性的动态星形风险度量。
+
+    Motivated by the results of static monetary or star-shaped risk measures, the paper investigates the representation theorems in the dynamic framework. We show that dynamic monetary risk measures can be represented as the lower envelope of a family of dynamic convex risk measures, and normalized dynamic star-shaped risk measures can be represented as the lower envelope of a family of normalized dynamic convex risk measures. The link between dynamic monetary risk measures and dynamic star-shaped risk measures are established. Besides, the sensitivity and time consistency problems are also studied. A specific normalized time consistent dynamic star-shaped risk measures induced by $ g $-expectations are illustrated and discussed in detail.
+    
+[^9]: 信息化创新管理：将领先的研发公司与新兴技术相连接
 
     Informing Innovation Management: Linking Leading R&D Firms and Emerging Technologies. (arXiv:2305.02476v1 [econ.GN])
 
@@ -126,7 +141,7 @@
 
     Understanding the relationship between emerging technology and research and development has long been of interest to companies, policy makers and researchers. In this paper new sources of data and tools are combined with a novel technique to construct a model linking a defined set of emerging technologies with the global leading R&D spending companies. The result is a new map of this landscape. This map reveals the proximity of technologies and companies in the knowledge embedded in their corresponding Wikipedia profiles, enabling analysis of the closest associations between the companies and emerging technologies. A significant positive correlation for a related set of patent data validates the approach. Finally, a set of Circular Economy Emerging Technologies are matched to their closest leading R&D spending company, prompting future research ideas in broader or narrower application of the model to specific technology themes, company competitor landscapes and national interest concer
     
-[^9]: 连续时间随机过程的量子分析
+[^10]: 连续时间随机过程的量子分析
 
     Quantum Analysis of Continuous Time Stochastic Process. (arXiv:2208.02364v3 [quant-ph] UPDATED)
 
