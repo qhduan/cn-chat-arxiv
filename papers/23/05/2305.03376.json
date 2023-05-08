@@ -1,0 +1,12 @@
+{
+    "title": "Explaining the ghosts: Feminist intersectional XAI and cartography as methods to account for invisible labour. (arXiv:2305.03376v1 [cs.HC])",
+    "abstract": "Contemporary automation through AI entails a substantial amount of behind-the-scenes human labour, which is often both invisibilised and underpaid. Since invisible labour, including labelling and maintenance work, is an integral part of contemporary AI systems, it remains important to sensitise users to its role. We suggest that this could be done through explainable AI (XAI) design, particularly feminist intersectional XAI. We propose the method of cartography, which stems from feminist intersectional research, to draw out a systemic perspective of AI and include dimensions of AI that pertain to invisible labour.",
+    "link": "http://arxiv.org/abs/2305.03376",
+    "context": "Title: Explaining the ghosts: Feminist intersectional XAI and cartography as methods to account for invisible labour. (arXiv:2305.03376v1 [cs.HC])\nAbstract: Contemporary automation through AI entails a substantial amount of behind-the-scenes human labour, which is often both invisibilised and underpaid. Since invisible labour, including labelling and maintenance work, is an integral part of contemporary AI systems, it remains important to sensitise users to its role. We suggest that this could be done through explainable AI (XAI) design, particularly feminist intersectional XAI. We propose the method of cartography, which stems from feminist intersectional research, to draw out a systemic perspective of AI and include dimensions of AI that pertain to invisible labour.",
+    "path": "papers/23/05/2305.03376.json",
+    "total_tokens": 689,
+    "translated_title": "解读\"幽灵\"：女性主义交叉XAI和制图作为解释隐形劳动的方法",
+    "translated_abstract": "当代人工智能通过自动化需要大量的幕后人力劳动，这种劳动往往被隐瞒和低估。由于包括标记和维护工作在内的隐形劳动是当代人工智能系统的一个重要部分，因此让用户意识到这种劳动的作用依然很重要。我们建议可以通过可解释的AI（XAI）设计，特别是女性主义交叉XAI来实现这一点。我们提出了一种制图的方法，它来自女性主义交叉研究，以绘制AI的系统性视角，并包括与隐形劳动相关的AI维度。",
+    "tldr": "AI需要大量的“无形劳动”，女性主义交叉XAI和制图是解释隐形劳动的方法。",
+    "en_tdlr": "AI systems require a substantial amount of invisible labor, and feminist intersectional XAI and cartography can be used to account for this invisible labor."
+}

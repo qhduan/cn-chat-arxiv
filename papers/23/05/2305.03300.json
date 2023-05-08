@@ -1,0 +1,12 @@
+{
+    "title": "LLM-RM at SemEval-2023 Task 2: Multilingual Complex NER using XLM-RoBERTa. (arXiv:2305.03300v1 [cs.CL])",
+    "abstract": "Named Entity Recognition(NER) is a task of recognizing entities at a token level in a sentence. This paper focuses on solving NER tasks in a multilingual setting for complex named entities. Our team, LLM-RM participated in the recently organized SemEval 2023 task, Task 2: MultiCoNER II,Multilingual Complex Named Entity Recognition. We approach the problem by leveraging cross-lingual representation provided by fine-tuning XLM-Roberta base model on datasets of all of the 12 languages provided -- Bangla, Chinese, English, Farsi, French, German, Hindi, Italian, Portuguese, Spanish, Swedish and Ukrainian",
+    "link": "http://arxiv.org/abs/2305.03300",
+    "context": "Title: LLM-RM at SemEval-2023 Task 2: Multilingual Complex NER using XLM-RoBERTa. (arXiv:2305.03300v1 [cs.CL])\nAbstract: Named Entity Recognition(NER) is a task of recognizing entities at a token level in a sentence. This paper focuses on solving NER tasks in a multilingual setting for complex named entities. Our team, LLM-RM participated in the recently organized SemEval 2023 task, Task 2: MultiCoNER II,Multilingual Complex Named Entity Recognition. We approach the problem by leveraging cross-lingual representation provided by fine-tuning XLM-Roberta base model on datasets of all of the 12 languages provided -- Bangla, Chinese, English, Farsi, French, German, Hindi, Italian, Portuguese, Spanish, Swedish and Ukrainian",
+    "path": "papers/23/05/2305.03300.json",
+    "total_tokens": 772,
+    "translated_title": "使用XLM-RoBERTa进行跨语言多复杂命名实体识别的LLM-RM参加SemEval-2023任务2",
+    "translated_abstract": "命名实体识别（NER）是识别句子中标记级别实体的任务。本文专注于解决多语言设置下的复杂命名实体的NER任务。我们的团队LLM-RM参加了最近举办的SemEval 2023任务2：MultiCoNER II，多语言复杂命名实体识别。我们通过利用对所有12种提供的语言（孟加拉语、中文、英语、波斯语、法语、德语、印地语、意大利语、葡萄牙语、西班牙语、瑞典语和乌克兰语）的数据集进行的XLM-Roberta基础模型的交叉语言表示来解决问题。",
+    "tldr": "本文介绍了LLM-RM团队参加SemEval2023任务2的成果，在跨语言多复杂命名实体识别方面，通过fine-tuning XLM-Roberta的交叉语言表示，得到了良好的效果。",
+    "en_tdlr": "This paper presents the participation of LLM-RM team in SemEval 2023 Task 2, achieving good performance in multilingual complex named entity recognition through fine-tuning XLM-Roberta with cross-lingual representation."
+}

@@ -2,54 +2,136 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Lemonade from Lemons: Information Design and Adverse Selection.](http://arxiv.org/abs/2305.02994) | 本研究探究了卖家与买家的价值相互依赖的情况下，通过信息设计和逆向选择机制实现收益的问题，当出现完全崩溃和柠檬市场等特殊情况时，买家可以得到整个剩余价值。 |
-| [^2] | [Strategic flip-flopping in political competition.](http://arxiv.org/abs/2305.02834) | 本文研究了政治竞争中竞选者对选民偏好信息做出战略调整的情况，发现在新信息有利时，竞选者会采取战略“翻盘”以获得无成本的胜利。 |
-| [^3] | [Surveying Generative AI's Economic Expectations.](http://arxiv.org/abs/2305.02823) | 该论文介绍了一项经济预期调查，使用大型语言模型对各种金融和宏观经济变量的预期进行查询，发现LLM预期与现有调查相似，但也显示出许多偏离理性预期的特点，该调查方法为衡量经济预期提供了一种新方法。 |
-| [^4] | [The Indoctrination Game.](http://arxiv.org/abs/2305.02604) | 研究证明在公共舆论中，中间派的意见在沉默中变得无声无息，而极端派则掌控了讨论；并发现接触到他人意见的增多会加剧个体之间的极化现象。 |
-| [^5] | [Employer Reputation and the Labor Market: Evidence from Glassdoor.com and Dice.com.](http://arxiv.org/abs/2305.02587) | 本研究使用Glassdoor.com和Dice.com的数据研究了雇主声誉对劳动市场的影响，发现雇主声誉的提高将影响其吸引工人的能力，尤其是当显示评分为“持续”时，这种影响对于私人、较小和不那么知名的企业最为突出。 |
-| [^6] | [Beneficence Signaling in AI Development Dynamics.](http://arxiv.org/abs/2305.02561) | 本文介绍了一个框架来理解AI开发中的社会技术系统和社会福利的相互作用，并引入了“信号传递”的概念以增强对AI系统评估和治理的理论和实践。 |
-| [^7] | [Understand Waiting Time in Transaction Fee Mechanism: An Interdisciplinary Perspective.](http://arxiv.org/abs/2305.02552) | 本文通过整合以太坊区块链和内存池数据，探究了TFMs中等待时间的确定因素，研究表明回归断点设计对于分析因果推理很有效，交易低估会产生垃圾邮件攻击，这些对于提高区块链系统安全和经济性能有所帮助。 |
-| [^8] | [Why Not Borrow, Invest, and Escape Poverty?.](http://arxiv.org/abs/2305.02546) | 该论文针对穷人利用小额信贷投资于企业或人力资本的现状进行研究，认为风险规避是原因之一，因为投资旨在提高成功可能性，所以需要采取不同的策略。 |
-| [^9] | [Language, Time Preferences, and Consumer Behavior: Evidence from Large Language Models.](http://arxiv.org/abs/2305.02531) | 本研究分析了大型语言模型在不同语言提示下的奖励时间偏好，并发现GPT在具有较弱未来时态的语言下表现出更大的耐心，这与使用该语言的人类的偏好相似。 |
-| [^10] | [Market Making and Pricing of Financial Derivatives based on Road Travel Times.](http://arxiv.org/abs/2305.02523) | 本文提出了一种基于道路行驶时间的金融衍生品，可以作为一种创新的对冲工具，在交通领域和金融市场中都有潜在的市场和需求。 |
-| [^11] | [The Direct and Spillover Effects of Large-scale Affirmative Action at an Elite Brazilian University.](http://arxiv.org/abs/2305.02513) | 巴西一所精英大学实施的大规模平权政策既对于黑人和低收入学生具有正向效应（使得其就业收入增长），又对于该校排名最高的学生具有重大负面影响（导致他们就业收入大幅下降）。 |
-| [^12] | [Informing Innovation Management: Linking Leading R&D Firms and Emerging Technologies.](http://arxiv.org/abs/2305.02476) | 本文构建了一个新的模型，将新兴技术与全球领先的研发支出公司相连接，从而获得了一个新的地图，可以分析公司与新兴技术之间的最密切联系，并得到了显著的正相关性验证。此模型可用于特定技术主题、公司竞争格局和国家利益等领域的研究。 |
-| [^13] | [Approximate Functional Differencing.](http://arxiv.org/abs/2301.13736) | 这篇论文提出了一种近似函数差分的方法，旨在解决面板数据模型中推断公共参数时的附带参数问题，适用于许多面板数据模型，即使时间期数较小。 |
-| [^14] | [Uncertainty Quantification in Synthetic Controls with Staggered Treatment Adoption.](http://arxiv.org/abs/2210.05026) | 该论文提出了一种基于原则的预测区间方法，用于量化合成对照预测或估计在错位处理采用的情况下的不确定性。 |
-| [^15] | [Direct Implementation with Evidence.](http://arxiv.org/abs/2105.12298) | 该论文研究了在效用有限的环境中带有证据的全面实现问题，提出了一种基于新的证据分类的可以在两个代理人下实现Nash均衡的直接真相机制，并给出了关于重订合法的双边合同的必要充分条件。 |
-| [^16] | [Causal Inference under Outcome-Based Sampling with Monotonicity Assumptions.](http://arxiv.org/abs/2004.08318) | 本文研究了基于结果抽样的因果推断，发现强无偏性不总是像随机抽样下那样强大，并且某些单调性假设在锐利识别间隔方面产生可比较的结果。 通过算法推断出参数并用实证例子证明了方法的贡献。 |
+| [^1] | [Algorithmic Decision Processes.](http://arxiv.org/abs/2305.03645) | 该论文介绍了一种算法决策过程，可以产生多选问题中的选择概率和预期决策时间。 |
+| [^2] | [Rankings-Dependent Preferences: A Real Goods Matching Experiment.](http://arxiv.org/abs/2305.03644) | 研究探讨了代理人通过匹配机制获得对象的偏好是否受到其在排名列表中排名的影响，结果发现更高的排名可以带来更大的效用。研究发现真实偏好交换机制可能不是一种占优策略，且能够提供给更多的代理人报告为更高排名的对象的非占优机制可能会增加市场福利。 |
+| [^3] | [Disclosure and Incentives in Teams.](http://arxiv.org/abs/2305.03633) | 讨论了团队生产过程中的信息披露与激励机制问题，研究发现团队中的信息披露通常涉及部分披露，并且团队成果的部分披露可能会提高个体为团队做贡献的激励，设计了不同的决策协议用于最大化努力激励。 |
+| [^4] | [Empirical Evidence for the New Definitions in Financial Markets.](http://arxiv.org/abs/2305.03468) | 研究证实了新的金融市场定义准确反映了投资者行为，并提供了投资策略方面的建议。 |
+| [^5] | [Risk management in the use of published statistical results for policy decisions.](http://arxiv.org/abs/2305.03205) | 在政策决策中，发表统计结果的研究人员可能会夸大其可靠性，而实施机构也很难确定这种可靠性的事实，可能导致政策实施风险增加，最坏的情况是政策无法实施。 |
+| [^6] | [Multi-agent Delegated Search.](http://arxiv.org/abs/2305.03203) | 本文研究了多智能体委托搜索问题，提出了高效的先验独立机制，并证明了智能体之间的竞争环境能够产生信息和绩效增益。通过该模型，可以涵盖各种现实世界的情况。 |
+| [^7] | [Debiased inference for dynamic nonlinear models with two-way fixed effects.](http://arxiv.org/abs/2305.03134) | 本文提出了一种针对具有双向固定效应的动态非线性模型的分析偏差校正方法，通过校正后的似然函数得出的检验统计量可以得到标准渐近分布，同时也可以得到结构参数的偏差校正估计器。 |
+| [^8] | [Games Under Network Uncertainty.](http://arxiv.org/abs/2305.03124) | 本文研究了一种信息不完全的网络博弈，证明了Bayesian-Nash均衡在纯策略下的唯一性和存在性，并揭示了基于网络位置和代理人身份的不对称信息如何影响这种网络博弈中的战略行为。 |
+| [^9] | [Surveying Generative AI's Economic Expectations.](http://arxiv.org/abs/2305.02823) | 该论文介绍了一项经济预期调查，使用大型语言模型对各种金融和宏观经济变量的预期进行查询，发现LLM预期与现有调查相似，但也显示出许多偏离理性预期的特点，该调查方法为衡量经济预期提供了一种新方法。 |
+| [^10] | [Bayesian Modeling of TVP-VARs Using Regression Trees.](http://arxiv.org/abs/2209.11970) | 本文提出了一种非参数TVP-VAR模型，使用贝叶斯加法回归树（BART）对驱动参数的运动进行非参数建模，从而实现更大的参数改变灵活性，并通过采用非参数因子结构和缩小先验以实现简洁性。 |
+| [^11] | [The effect of conference presentations on the diffusion of ideas.](http://arxiv.org/abs/2209.01175) | 研究利用 Confer 数据分析了学术会议演讲直接和意外对未来引用的影响，结果发现与有冲突的时间段相比，无冲突时间段中用户引用的论文数量明显增加。 |
+| [^12] | [On the Distributional Robustness of Finite Rational Inattention Models.](http://arxiv.org/abs/2208.03370) | 本文研究了有限理性忽视模型的分布稳健性，提出了一种对先验分布模糊性稳健的随机选择规则的构建方法，并通过“最坏情况敏感度”概念量化了先验不确定性对模型的影响。 |
+| [^13] | [Political Power and Market Power.](http://arxiv.org/abs/2106.13612) | 本文研究政治影响和产业垄断之间的联系，提出了兼并增加游说的条件，并通过数据发现兼并和游说、竞选捐款之间存在正向关联。 |
+| [^14] | [Advisors with Hidden Motives.](http://arxiv.org/abs/2103.07446) | 本文研究了顾问隐藏动机的问题，确定了卖家用来将销售从低盈利物品转向高盈利物品的最优披露规则，并探讨了透明度政策的影响。 |
 
 # 详细
 
-[^1]: 柠檬制成柠檬水：信息设计与逆向选择
+[^1]: 算法决策过程
 
-    Lemonade from Lemons: Information Design and Adverse Selection. (arXiv:2305.02994v1 [econ.TH])
+    Algorithmic Decision Processes. (arXiv:2305.03645v1 [econ.TH])
 
-    [http://arxiv.org/abs/2305.02994](http://arxiv.org/abs/2305.02994)
+    [http://arxiv.org/abs/2305.03645](http://arxiv.org/abs/2305.03645)
 
-    本研究探究了卖家与买家的价值相互依赖的情况下，通过信息设计和逆向选择机制实现收益的问题，当出现完全崩溃和柠檬市场等特殊情况时，买家可以得到整个剩余价值。
-
-    
-
-    一个卖家对于一件物品公布一个价格。卖家与买家的价值可能相互依赖。我们刻画了所有信息结构中收益向量的集合。简单的可行性和个人合理性限制识别了收益集。买家可以获得整个剩余价值。通常情况下，其他机制不能扩大收益集。我们还研究了在买家比卖家更知情的情况下以及在买家完全知晓的情况下的收益，所有三个收益集只有在特殊情况下才一致，特别是在一个“柠檬市场”中出现完全崩溃的情况下，其卖家未知，买家完全知情。
-
-    A seller posts a price for a single object. The seller's and buyer's values may be interdependent. We characterize the set of payoff vectors across all information structures. Simple feasibility and individual-rationality constraints identify the payoff set. The buyer can obtain the entire surplus; often, other mechanisms cannot enlarge the payoff set. We also study payoffs when the buyer is more informed than the seller, and when the buyer is fully informed. All three payoff sets coincide (only) in notable special cases -- in particular, when there is complete breakdown in a ``lemons market'' with an uninformed seller and fully-informed buyer.
-    
-[^2]: 政治竞争中的战略“翻盘”
-
-    Strategic flip-flopping in political competition. (arXiv:2305.02834v1 [cs.GT])
-
-    [http://arxiv.org/abs/2305.02834](http://arxiv.org/abs/2305.02834)
-
-    本文研究了政治竞争中竞选者对选民偏好信息做出战略调整的情况，发现在新信息有利时，竞选者会采取战略“翻盘”以获得无成本的胜利。
+    该论文介绍了一种算法决策过程，可以产生多选问题中的选择概率和预期决策时间。
 
     
 
-    本文研究了竞选者如何针对选民偏好的新信息做出调整。重新定位可使竞选者更接近中间选民，但会在财务和选举方面产生成本。我们研究了调整发生的时机和方向，这取决于竞选者的先前立场和新信息。我们发现，在唯一的子博弈完美均衡中，竞选者预测到可能会根据未来的信息做出调整，并在先前分歧，以在新信息有利时确保无成本的胜利。
+    我们开发了一个完整的算法决策过程分析，该过程在多选问题中产生可计算的选择概率和预期决策时间。
 
-    We study candidates' positioning when adjustments are possible in response to new information about voters' preferences. Re-positioning allows candidates to get closer to the median voter but is costly both financially and electorally. We examine the occurrence and the direction of the adjustments depending on the ex-ante positions and the new information. In the unique subgame perfect equilibrium, candidates anticipate the possibility to adjust in response to future information and diverge ex-ante in order to secure a cost-less victory when the new information is favorable.
+    We develop a full-fledged analysis of an algorithmic decision process that, in a multialternative choice problem, produces computable choice probabilities and expected decision times.
     
-[^3]: 调查生成AI对经济预期的期望
+[^2]: 排序依赖偏好：一项真实货物匹配实验
+
+    Rankings-Dependent Preferences: A Real Goods Matching Experiment. (arXiv:2305.03644v1 [econ.GN])
+
+    [http://arxiv.org/abs/2305.03644](http://arxiv.org/abs/2305.03644)
+
+    研究探讨了代理人通过匹配机制获得对象的偏好是否受到其在排名列表中排名的影响，结果发现更高的排名可以带来更大的效用。研究发现真实偏好交换机制可能不是一种占优策略，且能够提供给更多的代理人报告为更高排名的对象的非占优机制可能会增加市场福利。
+
+    
+
+    本研究探讨通过匹配机制获得对象的偏好是否受到代理人在其报告的排名列表中对其排名的影响。我们假设其他条件相同，代理人对同一对象在其排名更高时会获得更大的效用。排序依赖的效用的引入意味着向真实偏好交换机制提交真实偏好可能不是一种占优策略，并且能够提供给更多的代理人报告为更高排名的对象的非占优机制可能会增加市场福利。我们通过在一个占优策略机制——随机串行独裁——和一个非占优机制——波士顿机制中进行匹配实验来测试这些假设。我们实验设计的一个新特点是在匹配市场分配的对象是真实物品，这使我们能够通过征集内外机制中物品的价值来直接测量排序依赖性。我们的实验结果证实了我们的假设。
+
+    We investigate whether preferences for objects received via a matching mechanism are influenced by how highly agents rank them in their reported rank order list. We hypothesize that all else equal, agents receive greater utility for the same object when they rank it higher. The addition of rankings-dependent utility implies that it may not be a dominant strategy to submit truthful preferences to a strategyproof mechanism, and that non-strategyproof mechanisms that give more agents objects they report as higher ranked may increase market welfare. We test these hypotheses with a matching experiment in a strategyproof mechanism, the random serial dictatorship, and a non-strategyproof mechanism, the Boston mechanism. A novel feature of our experimental design is that the objects allocated in the matching markets are real goods, which allows us to directly measure rankings-dependence by eliciting values for goods both inside and outside of the mechanism. Our experimental results confirm tha
+    
+[^3]: 团队中的信息披露与激励机制
+
+    Disclosure and Incentives in Teams. (arXiv:2305.03633v1 [econ.TH])
+
+    [http://arxiv.org/abs/2305.03633](http://arxiv.org/abs/2305.03633)
+
+    讨论了团队生产过程中的信息披露与激励机制问题，研究发现团队中的信息披露通常涉及部分披露，并且团队成果的部分披露可能会提高个体为团队做贡献的激励，设计了不同的决策协议用于最大化努力激励。
+
+    
+
+    本文考虑了一个由职业动机驱动的团队生产环境，在这种环境下，团队共同生产的结果可能对不同团队成员具有不同的声誉影响。在此背景下，我们描述了团队成果披露的均衡策略，其中团队披露选择通过某些协商方案来整合个体决策。与个人信息披露问题不同的是，我们展示了均衡通常涉及部分披露。此外，我们研究了不同协商方案所隐含的均衡披露策略的努力激励性质；并且表明，团队成果的部分披露可能会提高个体为团队做贡献的激励。最后，我们研究了协商方案的设计，并对生产环境进行了描述，这些环境通过单方面决策协议或更加共识性的协商程序来最大化努力激励。
+
+    We consider a team-production environment where all participants are motivated by career concerns, and where a team's joint productive outcome may have different reputational implications for different team members. In this context, we characterize equilibrium disclosure of team-outcomes when team-disclosure choices aggregate individual decisions through some deliberation protocol. In contrast with individual disclosure problems, we show that equilibria often involve partial disclosure. Furthermore, we study the effort-incentive properties of equilibrium disclosure strategies implied by different deliberation protocols; and show that the partial disclosure of team outcomes may improve individuals' incentives to contribute to the team. Finally, we study the design of deliberation protocols, and characterize productive environments where effort-incentives are maximized by unilateral decision protocols or more consensual deliberation procedures.
+    
+[^4]: 金融市场新定义的经验证据
+
+    Empirical Evidence for the New Definitions in Financial Markets. (arXiv:2305.03468v1 [q-fin.GN])
+
+    [http://arxiv.org/abs/2305.03468](http://arxiv.org/abs/2305.03468)
+
+    研究证实了新的金融市场定义准确反映了投资者行为，并提供了投资策略方面的建议。
+
+    
+
+    本研究给出了支持金融市场新定义的经验证据。分析了1889-1978年美国金融市场投资者的风险态度，结果表明，1977年在投资综合S＆P 500指数的股票投资者是风险规避者。相反，投资美国国债的无风险资产投资者则表现出不足的风险偏爱，这可以被认为是一种风险规避行为。这些发现表明，金融市场新定义准确反映了投资者的行为，应考虑在投资策略中。
+
+    This study presents empirical evidence to support the validity of new definitions in financial markets. The risk attitudes of investors in US financial markets from 1889-1978 are analyzed and the results indicate that equity investors who invested in the composite S&P 500 index were risk-averse in 1977. Conversely, risk-free asset investors who invested in US Treasury bills were found to exhibit not enough risk-loving behavior, which can be considered a type of risk-averse behavior. These findings suggest that the new definitions in financial markets accurately reflect the behavior of investors and should be considered in investment strategies.
+    
+[^5]: 发表统计结果在政策决策中的风险管理
+
+    Risk management in the use of published statistical results for policy decisions. (arXiv:2305.03205v1 [stat.OT])
+
+    [http://arxiv.org/abs/2305.03205](http://arxiv.org/abs/2305.03205)
+
+    在政策决策中，发表统计结果的研究人员可能会夸大其可靠性，而实施机构也很难确定这种可靠性的事实，可能导致政策实施风险增加，最坏的情况是政策无法实施。
+
+    
+
+    统计推断结果通常会随着一种决策的目的而附带一个可靠性度量。对于政策实施机构来说，在实施已发表的政策研究时，依赖此可靠性度量尤为关键。对于政策研究人员来说，政策实施的价值可能弱化、甚至不会依赖于政策的结果。一些研究人员可能会发现夸大统计结果的可靠性有利可图。实施机构可能无法确定研究人员是否夸大了可靠性。研究人员和实施机构之间的这种信息不对称可能会导致逆向选择问题，最好的情况是政策的全部益处无法得到实现，最坏的情况是政策被认为在任何规模上实施都太冒险了。
+
+    Statistical inferential results generally come with a measure of reliability for decision-making purposes. For a policy implementer, the value of implementing published policy research depends critically upon this reliability. For a policy researcher, the value of policy implementation may depend weakly or not at all upon the policy's outcome. Some researchers might find it advantageous to overstate the reliability of statistical results. Implementers may find it difficult or impossible to determine whether researchers are overstating reliability. This information asymmetry between researchers and implementers can lead to an adverse selection problem where, at best, the full benefits of a policy are not realized or, at worst, a policy is deemed too risky to implement at any scale. Researchers can remedy this by guaranteeing the policy outcome. Researchers can overcome their own risk aversion and wealth constraints by exchanging risks with other researchers or offering only partial insu
+    
+[^6]: 多智能体委托搜索
+
+    Multi-agent Delegated Search. (arXiv:2305.03203v1 [cs.GT])
+
+    [http://arxiv.org/abs/2305.03203](http://arxiv.org/abs/2305.03203)
+
+    本文研究了多智能体委托搜索问题，提出了高效的先验独立机制，并证明了智能体之间的竞争环境能够产生信息和绩效增益。通过该模型，可以涵盖各种现实世界的情况。
+
+    
+
+    本文研究了没有货币的多智能体委托搜索的问题，是第一个研究Kleinberg和Kleinberg（EC'18）的多智能体扩展的。在我们的模型中，给定一组智能体，每个智能体采样一定数量的解决方案，并私下发送信号，例如，解决方案的子集，给参与者。然后，根据智能体的信号，参与者选择最终解决方案。我们的模型涵盖了各种现实世界的情景，从经典的经济应用到现代智能系统。与Kleinberg和Kleinberg（EC'18）的单智能体设置形成鲜明对比的是，在我们的模型中，有一些高效的先验独立机制存在信息和绩效增益，并且由于智能体之间的竞争环境，存在某种程度上令人信服的优势。但是，有趣的是，此类竞争环境的强度在很大程度上取决于智能体可获得的信息以及参与者与智能体之间的相关程度。
+
+    We consider a multi-agent delegated search without money, which is the first to study the multi-agent extension of Kleinberg and Kleinberg (EC'18). In our model, given a set of agents, each agent samples a fixed number of solutions, and privately sends a signal, e.g., a subset of solutions, to the principal. Then, the principal selects a final solution based on the agents' signals. Our model captures a variety of real-world scenarios, spanning classical economical applications to modern intelligent system. In stark contrast to single-agent setting by Kleinberg and Kleinberg (EC'18) with an approximate Bayesian mechanism, we show that there exist efficient approximate prior-independent mechanisms with both information and performance gain, thanks to the competitive tension between the agents. Interestingly, however, the amount of such a compelling power significantly varies with respect to the information available to the agents, and the degree of correlation between the principal's and
+    
+[^7]: 具有双向固定效应的动态非线性模型的无偏推断
+
+    Debiased inference for dynamic nonlinear models with two-way fixed effects. (arXiv:2305.03134v1 [econ.EM])
+
+    [http://arxiv.org/abs/2305.03134](http://arxiv.org/abs/2305.03134)
+
+    本文提出了一种针对具有双向固定效应的动态非线性模型的分析偏差校正方法，通过校正后的似然函数得出的检验统计量可以得到标准渐近分布，同时也可以得到结构参数的偏差校正估计器。
+
+    
+
+    面板数据模型通常使用固定效应来解释未观测到的异质性。这些固定效应通常是偶然参数，它们的估计器相对于样本大小的平方根收敛缓慢。在最大似然的上下文中，这会导致似然函数的渐近偏差。因此，从渐近有偏的似然函数得出的检验统计量不再遵循其标准极限分布。这会导致检验大小的严重偏差。我们考虑一类具有双向固定效应的动态非线性模型，并提出了一种似然函数的分析偏差校正方法。我们正式证明了从校正后的似然函数得出的似然比、拉格朗日乘数、和 Wald 检验统计量遵循它们的标准渐近分布。作为副产品，校正后的似然函数还可以得出结构参数的偏差校正估计器。我们评估了该方法在 Monte Carlo 模拟中的性能。
+
+    Panel data models often use fixed effects to account for unobserved heterogeneities. These fixed effects are typically incidental parameters and their estimators converge slowly relative to the square root of the sample size. In the maximum likelihood context, this induces an asymptotic bias of the likelihood function. Test statistics derived from the asymptotically biased likelihood, therefore, no longer follow their standard limiting distributions. This causes severe distortions in test sizes. We consider a generic class of dynamic nonlinear models with two-way fixed effects and propose an analytical bias correction method for the likelihood function. We formally show that the likelihood ratio, the Lagrange-multiplier, and the Wald test statistics derived from the corrected likelihood follow their standard asymptotic distributions. As a by-product, a bias-corrected estimator of the structural parameter can also be derived from the corrected likelihood function. We evaluate the perfor
+    
+[^8]: 网络不确定性下的博弈论研究
+
+    Games Under Network Uncertainty. (arXiv:2305.03124v1 [econ.TH])
+
+    [http://arxiv.org/abs/2305.03124](http://arxiv.org/abs/2305.03124)
+
+    本文研究了一种信息不完全的网络博弈，证明了Bayesian-Nash均衡在纯策略下的唯一性和存在性，并揭示了基于网络位置和代理人身份的不对称信息如何影响这种网络博弈中的战略行为。
+
+    
+
+    本文研究了一种信息不完全的网络博弈，其中代理人的信息仅限于其直接邻居的身份。代理人对其他人的邻接模式形成信念，并进行线性二次努力博弈以最大化插值回报。我们证明了纯策略下Bayesian-Nash均衡的存在性和唯一性。在这个均衡下，代理人使用本地信息，即他们的直接连接的知识来推断他们的行动与其他代理人的互补强度，这是通过他们对网络中步长数量的更新信仰所给出的。我们的模型清晰展示了基于网络位置和代理人身份的不对称信息如何影响这种网络博弈中的战略行为。我们还表征了不同形式的先验信仰下的均衡代理行为，例如对所有网络的均匀先验，Erdos-Reyni网络生成以及对网络的所有子图的同质和异质先验。
+
+    We consider an incomplete information network game in which agents' information is restricted only to the identity of their immediate neighbors. Agents form beliefs about the adjacency pattern of others and play a linear-quadratic effort game to maximize interim payoffs. We establish the existence and uniqueness of Bayesian-Nash equilibria in pure strategies. In this equilibrium agents use local information, i.e., knowledge of their direct connections to make inferences about the complementarity strength of their actions with those of other agents which is given by their updated beliefs regarding the number of walks they have in the network. Our model clearly demonstrates how asymmetric information based on network position and the identity of agents affect strategic behavior in such network games. We also characterize agent behavior in equilibria under different forms of ex-ante prior beliefs such as uniform priors over the set of all networks, Erdos-Reyni network generation, and homo
+    
+[^9]: 调查生成AI对经济预期的期望
 
     Surveying Generative AI's Economic Expectations. (arXiv:2305.02823v1 [econ.GN])
 
@@ -63,186 +145,74 @@
 
     I introduce a survey of economic expectations formed by querying a large language model (LLM)'s expectations of various financial and macroeconomic variables based on a sample of news articles from the Wall Street Journal between 1984 and 2021. I find the resulting expectations closely match existing surveys including the Survey of Professional Forecasters (SPF), the American Association of Individual Investors, and the Duke CFO Survey. Importantly, I document that LLM based expectations match many of the deviations from full-information rational expectations exhibited in these existing survey series. The LLM's macroeconomic expectations exhibit under-reaction commonly found in consensus SPF forecasts. Additionally, its return expectations are extrapolative, disconnected from objective measures of expected returns, and negatively correlated with future realized returns. Finally, using a sample of articles outside of the LLM's training period I find that the correlation with existing su
     
-[^4]: 《灌输游戏》
+[^10]: 基于回归树的贝叶斯TVP-VAR模型建模
 
-    The Indoctrination Game. (arXiv:2305.02604v1 [econ.TH])
+    Bayesian Modeling of TVP-VARs Using Regression Trees. (arXiv:2209.11970v3 [econ.EM] UPDATED)
 
-    [http://arxiv.org/abs/2305.02604](http://arxiv.org/abs/2305.02604)
+    [http://arxiv.org/abs/2209.11970](http://arxiv.org/abs/2209.11970)
 
-    研究证明在公共舆论中，中间派的意见在沉默中变得无声无息，而极端派则掌控了讨论；并发现接触到他人意见的增多会加剧个体之间的极化现象。
-
-    
-
-    《灌输游戏》是一场关于公众舆论的完全信息竞赛。参赛者为了掌控讨论，会付出昂贵的努力将其隐私意见公之于众。我们的分析为沉默的大多数和响亮的少数现象提供了理论基础，即在平衡状态下，所有中间派的意见会保持沉默，而极端派则完全掌控了讨论。此外，我们还证明，接触到他人意见的频率会增加个体之间的极化现象。基于这些结果，我们提出了一个新的社会学习框架，称为灌输过程。
-
-    The indoctrination game is a complete-information contest over public opinion. The players exert costly effort to manifest their private opinions in public in order to control the discussion, so that the governing opinion is similar to theirs. Our analysis provides a theoretical foundation for the silent majority and vocal minority phenomena, i.e., we show that all moderate opinions remain mute in equilibrium while allowing extremists full control of the discussion. Moreover, we prove that elevated exposure to others' opinions increases the observed polarization among individuals. Using these results, we formulate a new social-learning framework, referred to as an indoctrination process.
-    
-[^5]: 《雇主声誉与劳动市场:来自Glassdoor.com和Dice.com的证据》
-
-    Employer Reputation and the Labor Market: Evidence from Glassdoor.com and Dice.com. (arXiv:2305.02587v1 [econ.GN])
-
-    [http://arxiv.org/abs/2305.02587](http://arxiv.org/abs/2305.02587)
-
-    本研究使用Glassdoor.com和Dice.com的数据研究了雇主声誉对劳动市场的影响，发现雇主声誉的提高将影响其吸引工人的能力，尤其是当显示评分为“持续”时，这种影响对于私人、较小和不那么知名的企业最为突出。
+    本文提出了一种非参数TVP-VAR模型，使用贝叶斯加法回归树（BART）对驱动参数的运动进行非参数建模，从而实现更大的参数改变灵活性，并通过采用非参数因子结构和缩小先验以实现简洁性。
 
     
 
-    雇主声誉对劳动市场有何影响？我们使用从Glassdoor.com中收集的评论和Dice.com中的求职数据来研究这个问题。Glassdoor.com等劳动市场的机构通过众包来收集雇主信息，以解决工人在选择雇主时面临的信息问题。为了避免过多偏差，原始的众包雇主评级是在显示给求职者时进行了精加工后的。通过利用精加工的阈值，我们使用回归不连续性框架确定了Glassdoor评级的因果影响。我们记录了这种评级对劳动力市场需求和供给方面的影响。我们发现，雇主声誉对于雇主吸引工人的能力有影响，特别是当显示评分为“持续”时。雇主对评分超过精加工阈值的回应是发布更多的新职位和重新激活更多的工作职位。这种影响对私人、较小和不那么知名的企业最为突出。
+    鉴于宏观经济模型中参数不稳定的广泛证据，许多时变参数（TVP）模型已被提出。本文提出了一种非参数TVP-VAR模型，使用贝叶斯加法回归树（BART）将TVP模拟为未知的效应修正函数。该模型的新颖之处在于将驱动参数的运动定为非参数方式处理。这在条件均值和条件方差中都能达到更大的参数改变灵活性。通过采用非参数因子结构和缩小先验，实现简洁性。在美国宏观经济数据的应用中，我们演示了我们的模型如何跟踪菲利普斯曲线的演变特征以及商业周期冲击对通胀测量的影响如何与效应变量的变化呈非线性变化。
 
-    How does employer reputation affect the labor market? We investigate this question using a novel dataset combining reviews from Glassdoor.com and job applications data from Dice.com. Labor market institutions such as Glassdoor.com crowd-sources information about employers to alleviate information problems faced by workers when choosing an employer. Raw crowd-sourced employer ratings are rounded when displayed to job seekers. By exploiting the rounding threshold, we identify the causal impact of Glassdoor ratings using a regression discontinuity framework. We document the effects of such ratings on both the demand and supply sides of the labor market. We find that displayed employer reputation affects an employer's ability to attract workers, especially when the displayed rating is "sticky." Employers respond to having a rating above the rounding threshold by posting more new positions and re-activating more job postings. The effects are the strongest for private, smaller, and less esta
+    In light of widespread evidence of parameter instability in macroeconomic models, many time-varying parameter (TVP) models have been proposed. This paper proposes a nonparametric TVP-VAR model using Bayesian additive regression trees (BART) that models the TVPs as an unknown function of effect modifiers. The novelty of this model arises from the fact that the law of motion driving the parameters is treated nonparametrically. This leads to great flexibility in the nature and extent of parameter change, both in the conditional mean and in the conditional variance. Parsimony is achieved through adopting nonparametric factor structures and use of shrinkage priors. In an application to US macroeconomic data, we illustrate the use of our model in tracking both the evolving nature of the Phillips curve and how the effects of business cycle shocks on inflation measures vary nonlinearly with changes in the effect modifiers.
     
-[^6]: AI开发动态中的公益信号
+[^11]: 论文发表对于想法传播的影响
 
-    Beneficence Signaling in AI Development Dynamics. (arXiv:2305.02561v1 [cs.CY])
+    The effect of conference presentations on the diffusion of ideas. (arXiv:2209.01175v2 [cs.DL] UPDATED)
 
-    [http://arxiv.org/abs/2305.02561](http://arxiv.org/abs/2305.02561)
+    [http://arxiv.org/abs/2209.01175](http://arxiv.org/abs/2209.01175)
 
-    本文介绍了一个框架来理解AI开发中的社会技术系统和社会福利的相互作用，并引入了“信号传递”的概念以增强对AI系统评估和治理的理论和实践。
-
-    
-
-    本文提出并发展了一个框架，用于理解围绕人工智能开发的社会技术系统如何与社会福利相互作用。它引入了进化博弈论中的“信号传递”概念，并演示了它如何增强现有的人工智能系统评估和治理理论和实践。
-
-    This paper motivates and develops a framework for understanding how the socio-technical systems surrounding AI development interact with social welfare. It introduces the concept of ``signaling'' from evolutionary game theory and demonstrates how it can enhance existing theory and practice surrounding the evaluation and governance of AI systems.
-    
-[^7]: 《理解交易费机制中的等待时间：跨学科视角》
-
-    Understand Waiting Time in Transaction Fee Mechanism: An Interdisciplinary Perspective. (arXiv:2305.02552v1 [econ.GN])
-
-    [http://arxiv.org/abs/2305.02552](http://arxiv.org/abs/2305.02552)
-
-    本文通过整合以太坊区块链和内存池数据，探究了TFMs中等待时间的确定因素，研究表明回归断点设计对于分析因果推理很有效，交易低估会产生垃圾邮件攻击，这些对于提高区块链系统安全和经济性能有所帮助。
+    研究利用 Confer 数据分析了学术会议演讲直接和意外对未来引用的影响，结果发现与有冲突的时间段相比，无冲突时间段中用户引用的论文数量明显增加。
 
     
 
-    区块链技术使得无需信任第三方即可进行点对点交易。以太坊和智能合约区块链的快速发展需要有良好设计的交易费机制(TFMs)，以分配有限的存储和计算资源。然而，现有的TFM研究必须考虑交易的等待时间，这对计算机安全和经济效率至关重要。本文将以太坊区块链和内存池的数据整合起来，探讨两种事件如何影响交易延迟。首先，我们应用回归断点设计(RDD)来研究Ethereum的最新重大升级——Merge的因果推理。我们的结果表明，Merge显著降低了长时间等待时间、网络负载和市场拥堵。此外，我们通过检查其他复合因素（例如审查和私人更改后的未观察到的延迟事务）来验证结果的稳健性。其次，我们通过使用二次数学模型来描述交易费竞标过程，研究了交易低估对等待时间和可能的垃圾邮件攻击的影响。我们的跨学科方法将计算机科学和经济学融合在一起，提供了TFMs等待时间决定因素的全面视角。我们的研究对于提高区块链系统的安全性和经济性能具有实际意义。
+    会议在许多行业中很普遍，但它们如何有效地传播想法一直存在争议，传播机制也不清楚。会议参与者可以从他们选择观看（直接影响）或偶然看到（意外影响）的演讲中采纳想法。本文通过利用准随机调度冲突量化学术会议演讲直接和意外对未来引用的影响。当参会者同时有兴趣的多篇论文同一时间演讲时，平均来说，该人将无法全部观看，如果演讲很重要，则会较少引用相关论文。我们使用 Confer 数据，它是一款部署在 25 个现场计算机科学会议中的调度应用程序，允许用户喜欢论文并接收个性化日程安排。相比于有许多冲突的时间段，用户在无调度冲突的时间段中引用喜欢的论文增加了52％。用户在没有冲突的会话中也引用非喜欢的论文增加了51％，这是一种意外的扩散现象。
 
-    Blockchain enables peer-to-peer transactions in cyberspace without a trusted third party. The rapid growth of Ethereum and smart contract blockchains generally calls for well-designed Transaction Fee Mechanisms (TFMs) to allocate limited storage and computation resources. However, existing research on TFMs must consider the waiting time for transactions, which is essential for computer security and economic efficiency. Integrating data from the Ethereum blockchain and memory pool (mempool), we explore how two types of events affect transaction latency. First, we apply regression discontinuity design (RDD) to study the causal inference of the Merge, the most recent significant upgrade of Ethereum. Our results show that the Merge significantly reduces the long waiting time, network loads, and market congestion. In addition, we verify our results' robustness by inspecting other compounding factors, such as censorship and unobserved delays of transactions via private changes. Second, exami
+    Conferences are ubiquitous in many industries, but how effectively they diffuse ideas has been debated and the mechanisms of diffusion unclear. Conference attendees can adopt ideas from presentations they choose to see (direct effect) or see incidentally (serendipity effect). We quantify these direct and serendipitous effects of academic conference presentations on future citations by exploiting quasi-random scheduling conflicts. When multiple papers of interest to an attendee are presented at the same time, the person is less able to see them on average and, if seeing presentations is important, cites them less. We use data from Confer, a scheduling application deployed at 25 in-person computer science conferences that lets users Like papers and receive personalized schedules. Compared to timeslots with many conflicts, users cited Liked papers with no scheduling conflicts 52% more. Users also cited non-Liked papers in sessions with no conflicts 51% more, and this serendipitous diffusi
     
-[^8]: 为什么不借款、投资和摆脱贫困？
+[^12]: 有限理性忽视模型的分布稳健性研究
 
-    Why Not Borrow, Invest, and Escape Poverty?. (arXiv:2305.02546v1 [econ.GN])
+    On the Distributional Robustness of Finite Rational Inattention Models. (arXiv:2208.03370v2 [econ.TH] UPDATED)
 
-    [http://arxiv.org/abs/2305.02546](http://arxiv.org/abs/2305.02546)
+    [http://arxiv.org/abs/2208.03370](http://arxiv.org/abs/2208.03370)
 
-    该论文针对穷人利用小额信贷投资于企业或人力资本的现状进行研究，认为风险规避是原因之一，因为投资旨在提高成功可能性，所以需要采取不同的策略。
-
-    
-
-    穷人利用小额信贷投资于企业或人力资本的情况非常少。我们表明，如果这种投资旨在提高成功的可能性，则可以解释风险规避的情况，而无需依赖于固定成本或技术上的其他非凸性。在这种框架下，理性的风险规避者选择边角解，不同于具有外生成功概率的风险投资的情况。我们的在线实验验证了我们的理论预测，即当面临这两种类型类型的投资时，代理商选择不同的方案。
-
-    Take up of microcredit by the poor for investment in businesses or human capital turned out to be very low. We show that this could be explained by risk aversion, without relying on fixed costs or other forms of non-convexity in the technology, if the investment is aimed at increasing the probability of success. Under this framework, rational risk-averse agents choose corner solutions, unlike in the case of a risky investment with an exogenous probability of success. Our online experiment confirms our theoretical predictions about how agents' choices differ when facing the two types of investments.
-    
-[^9]: 语言、时间偏好和消费行为：大型语言模型的证据
-
-    Language, Time Preferences, and Consumer Behavior: Evidence from Large Language Models. (arXiv:2305.02531v1 [econ.GN])
-
-    [http://arxiv.org/abs/2305.02531](http://arxiv.org/abs/2305.02531)
-
-    本研究分析了大型语言模型在不同语言提示下的奖励时间偏好，并发现GPT在具有较弱未来时态的语言下表现出更大的耐心，这与使用该语言的人类的偏好相似。
+    本文研究了有限理性忽视模型的分布稳健性，提出了一种对先验分布模糊性稳健的随机选择规则的构建方法，并通过“最坏情况敏感度”概念量化了先验不确定性对模型的影响。
 
     
 
-    语言对我们对时间和奖励的感知有很大的影响。这引发了一个问题，即当以不同的语言询问大型语言模型时，它们是否显示出不同的奖励时间偏好，并且它们的选择是否类似于人类的选择。本研究分析了GPT-3.5（以下简称GPT）在多种语言提示下的响应，探索了较小、较早的奖励和较大、较晚的奖励之间的偏好。我们的结果显示，当以语义含义较弱的未来时态参考（FTR），如德语和汉语，为提示语时，GPT表现出更大的耐心，相比英语和法语等具有强大FTR的语言。这些发现与现有文献一致，并表明了GPT的选择与这些语言的使用者的偏好之间的关联。然而，进一步的分析揭示了较早或较晚奖励的偏好并没有随着奖励差异系统地改变，这表明了一种词典序优先的选择。
+    本文研究了一个有限理性忽视模型，其中决策者面临着对状态真实先验分布的不确定性。决策者试图选择一种对先验分布模糊性稳健的随机选择规则。我们通过可计算的凸规划完全表征了有限理性忽视模型的分布稳健性。我们建立了构建稳健考虑集的必要和充分条件。最后，我们通过引入“最坏情况敏感度”概念来量化先验不确定性的影响。
 
-    Language has a strong influence on our perceptions of time and rewards. This raises the question of whether large language models, when asked in different languages, show different preferences for rewards over time and if their choices are similar to those of humans. In this study, we analyze the responses of GPT-3.5 (hereafter referred to as GPT) to prompts in multiple languages, exploring preferences between smaller, sooner rewards and larger, later rewards. Our results show that GPT displays greater patience when prompted in languages with weak future tense references (FTR), such as German and Mandarin, compared to languages with strong FTR, like English and French. These findings are consistent with existing literature and suggest a correlation between GPT's choices and the preferences of speakers of these languages. However, further analysis reveals that the preference for earlier or later rewards does not systematically change with reward gaps, indicating a lexicographic preferen
+    In this paper we study a rational inattention model in environments where the decision maker faces uncertainty about the true prior distribution over states. The decision maker seeks to select a stochastic choice rule over a finite set of alternatives that is robust to prior ambiguity. We fully characterize the distributional robustness of the rational inattention model in terms of a tractable concave program. We establish necessary and sufficient conditions to construct robust consideration sets. Finally, we quantify the impact of prior uncertainty, by introducing the notion of \emph{Worst-Case Sensitivity}.
     
-[^10]: 基于道路行驶时间的金融衍生品的做市和定价
+[^13]: 政治权力与市场垄断
 
-    Market Making and Pricing of Financial Derivatives based on Road Travel Times. (arXiv:2305.02523v1 [stat.AP])
+    Political Power and Market Power. (arXiv:2106.13612v7 [econ.GN] UPDATED)
 
-    [http://arxiv.org/abs/2305.02523](http://arxiv.org/abs/2305.02523)
+    [http://arxiv.org/abs/2106.13612](http://arxiv.org/abs/2106.13612)
 
-    本文提出了一种基于道路行驶时间的金融衍生品，可以作为一种创新的对冲工具，在交通领域和金融市场中都有潜在的市场和需求。
-
-    
-
-    本文提出了交通时间衍生品，这是一种基于道路行驶时间的非交易基础资产的金融衍生品。在交通领域，交通时间衍生品被提出作为一种更加基本的定价方法，因为它不仅考虑了交通状况的水平，而且考虑了其波动性。在金融市场中，交通时间衍生品被提出作为一种创新的对冲工具，可以对冲市场风险，特别是在加密市场和传统银行业经历了最近的压力后。本文涉及到了（a）引入此类衍生品的动机（即对对冲的要求），（b）潜在的市场，以及（c）产品设计和定价方案。定价方案是基于实时传感器捕获的行驶时间数据设计的，这些数据被建模为奥恩斯坦-乌伦贝克（Ornstein-Uhlenbeck）过程，更普遍地，是连续时间自回归移动平均（CARMA）模型。这种模型的校准是通过隐藏因子模型进行的，该模型描述了交通时间动态。
-
-    Travel time derivatives are introduced as financial derivatives based on road travel times - a non-tradable underlying asset. In the transportation area, it is proposed as a more fundamental approach to value pricing because it conduct road pricing based on not only level but also volatility of travel time; in the financial market, it is propose as an innovative hedging instrument against market risk, especially after the recent stress of crypto market and traditional banking sector. The paper addresses (a) the motivation for introducing such derivatives (that is, the demand for hedging), (b) the potential market, and (c) the product design and pricing schemes. Pricing schemes are designed based on the travel time data captured by real time sensors, which are modeled as Ornstein - Uhlenbeck processes and more generally, continuous time auto regression moving average (CARMA) models. The calibration of such model is conducted via a hidden factor model, which described the dynamics of tra
-    
-[^11]: 巴西一所精英大学的大规模平权政策的直接和外溢效应
-
-    The Direct and Spillover Effects of Large-scale Affirmative Action at an Elite Brazilian University. (arXiv:2305.02513v1 [econ.GN])
-
-    [http://arxiv.org/abs/2305.02513](http://arxiv.org/abs/2305.02513)
-
-    巴西一所精英大学实施的大规模平权政策既对于黑人和低收入学生具有正向效应（使得其就业收入增长），又对于该校排名最高的学生具有重大负面影响（导致他们就业收入大幅下降）。
+    本文研究政治影响和产业垄断之间的联系，提出了兼并增加游说的条件，并通过数据发现兼并和游说、竞选捐款之间存在正向关联。
 
     
 
-    我们研究了一项针对巴西一所精英大学45%招收黑人和低收入学生的平权政策的效应。我们发现，通过平权招生通道入学的边缘录取学生的早期职业收入增加了14%。但是，平权政策的实施也导致了该大学排名最高的学生收入大幅下降。我们提供证据表明，高排名学生收入的负面溢出效应既是由于人力资本积累的减少，也是由于社交网络价值的下降所导致的。
+    我们研究政治影响和产业垄断之间的联系。我们提出了一个关于政治影响和市场竞争的联合模型：寡头垄断游说政府进行监管，并在这种影响下的产品市场竞争。我们展示了兼并增加游说的广泛条件，既在密集边际上又在广泛边际上。我们结合了1999年至2017年美国兼并数据和游说开支、竞选捐款数据。我们记录兼并和游说之间的正向关联，无论是个人公司还是行业贸易协会。并且兼并还与类似设立内部游说团队和公司政治行动委员会等广泛边际变化相关。我们发现兼并和更高的竞选捐款之间存在一定的正向关联的证据。
 
-    We examine the effects of an affirmative action policy at an elite Brazilian university that reserved 45 percent of admission slots for Black and low-income students. We find that marginally-admitted students who enrolled through the affirmative action tracks experienced a 14 percent increase in early-career earnings. But the adoption of affirmative action also caused a large decrease in earnings for the university's most highly-ranked students. We present evidence that the negative spillover effects on highly-ranked students' earnings were driven by both a reduction in human capital accumulation and a decline in the value of networking.
+    We study the link between political influence and industrial concentration. We present a joint model of political influence and market competition: an oligopoly lobbies the government over regulation, and competes in the product market shaped by this influence. We show broad conditions for mergers to increase lobbying, both on the intensive margin and the extensive margin. We combine data on mergers with data on lobbying expenditures and campaign contributions in the US from 1999 to 2017. We document a positive association between mergers and lobbying, both by individual firms and by industry trade associations. Mergers are also associated with extensive margin changes such as the formation of in-house lobbying teams and corporate PACs. We find some evidence for a positive association between mergers and higher campaign contributions.
     
-[^12]: 信息化创新管理：将领先的研发公司与新兴技术相连接
+[^14]: 隐藏动机的顾问
 
-    Informing Innovation Management: Linking Leading R&D Firms and Emerging Technologies. (arXiv:2305.02476v1 [econ.GN])
+    Advisors with Hidden Motives. (arXiv:2103.07446v4 [econ.TH] UPDATED)
 
-    [http://arxiv.org/abs/2305.02476](http://arxiv.org/abs/2305.02476)
+    [http://arxiv.org/abs/2103.07446](http://arxiv.org/abs/2103.07446)
 
-    本文构建了一个新的模型，将新兴技术与全球领先的研发支出公司相连接，从而获得了一个新的地图，可以分析公司与新兴技术之间的最密切联系，并得到了显著的正相关性验证。此模型可用于特定技术主题、公司竞争格局和国家利益等领域的研究。
-
-    
-
-    理解新兴技术和研发之间的关系一直是公司、政策制定者和研究人员关注的焦点。本文将新型数据来源和工具与一种新颖的技术相结合，构建一个将一组新兴技术与全球领先的研发支出公司相连接的模型。结果是画出了这个领域的新地图。这张地图展示了不同技术和公司在它们对应的维基百科资料中所包含的知识的相似程度，可以分析公司与新兴技术之间的最密切联系。与相关的一组专利数据的显著正相关验证了该方法的有效性。最后，一组循环经济新兴技术被匹配到了它们最接近的领先研发支出公司，这促进了未来针对特定技术主题、公司竞争格局和国家利益等更广泛或更狭窄应用模型的研究想法。
-
-    Understanding the relationship between emerging technology and research and development has long been of interest to companies, policy makers and researchers. In this paper new sources of data and tools are combined with a novel technique to construct a model linking a defined set of emerging technologies with the global leading R&D spending companies. The result is a new map of this landscape. This map reveals the proximity of technologies and companies in the knowledge embedded in their corresponding Wikipedia profiles, enabling analysis of the closest associations between the companies and emerging technologies. A significant positive correlation for a related set of patent data validates the approach. Finally, a set of Circular Economy Emerging Technologies are matched to their closest leading R&D spending company, prompting future research ideas in broader or narrower application of the model to specific technology themes, company competitor landscapes and national interest concer
-    
-[^13]: 近似函数差分
-
-    Approximate Functional Differencing. (arXiv:2301.13736v2 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2301.13736](http://arxiv.org/abs/2301.13736)
-
-    这篇论文提出了一种近似函数差分的方法，旨在解决面板数据模型中推断公共参数时的附带参数问题，适用于许多面板数据模型，即使时间期数较小。
+    本文研究了顾问隐藏动机的问题，确定了卖家用来将销售从低盈利物品转向高盈利物品的最优披露规则，并探讨了透明度政策的影响。
 
     
 
-    面板数据模型中关于公共参数的推断是 Neyman 和 Scott（1948）所称的附带参数问题（IPP）的典型例子。这个问题的一种解决方法是函数差分（Bonhomme 2012），它适用于时间期数 T 固定（可能很小）的情况，但这种解决方法并不适用于所有有兴趣的面板数据模型。另一种解决 IPP 的方法是“大 T”偏差校正（由 Hahn 和 Kuersteiner 2002 以及 Hahn 和 Newey 2004 开创），但只有当 T 足够大时才能保证其有效。本文提出了一种统一的方法，将这两种看似不相关的 IPP 解决方法联系起来。在此基础上，我们提供了一个近似函数差分的版本，即一种近似 IPP 解决方案，适用于大类面板数据模型，即使 T 相对较小。
+    本文研究了一种顾问隐藏动机的模型：卖家向潜在买家披露关于物品价值的信息，买家不知道物品的价值或者卖家销售该物品的盈利能力（卖家的动机）。本文确定了最优的披露规则，即卖家用来将销售从低盈利物品转向高盈利物品的规则。本文探讨了一个强制透明政策的影响，该政策揭示了卖家对买家的动机。结果表明，透明度可以消除卖家的操纵动机，但也可能导致卖家不披露物品价值的信息，并从一开始就不去获取这些信息。这一结果可以提高我们在顾问市场中实施的有效监管和承诺协议，以及顾问与顾问关系中的联系的理解。
 
-    Inference on common parameters in panel data models with individual-specific fixed effects is a classic example of Neyman and Scott's (1948) incidental parameter problem (IPP). One solution to this IPP is functional differencing (Bonhomme 2012), which works when the number of time periods T is fixed (and may be small), but this solution is not applicable to all panel data models of interest. Another solution, which applies to a larger class of models, is "large-T" bias correction (pioneered by Hahn and Kuersteiner 2002 and Hahn and Newey 2004), but this is only guaranteed to work well when T is sufficiently large. This paper provides a unified approach that connects those two seemingly disparate solutions to the IPP. In doing so, we provide an approximate version of functional differencing, that is, an approximate solution to the IPP that is applicable to a large class of panel data models even when T is relatively small.
-    
-[^14]: 带有错位处理采用的合成对照中的不确定性量化
-
-    Uncertainty Quantification in Synthetic Controls with Staggered Treatment Adoption. (arXiv:2210.05026v2 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2210.05026](http://arxiv.org/abs/2210.05026)
-
-    该论文提出了一种基于原则的预测区间方法，用于量化合成对照预测或估计在错位处理采用的情况下的不确定性。
-
-    
-
-    我们提出了基于原则的预测区间，用于量化在错位处理采用的情况下大类合成对照预测或估计的不确定性，提供精确的非渐近覆盖概率保证。从方法论的角度来看，我们提供了对需要预测的不同因果量进行详细讨论，我们称其为“因果预测量”，允许在可能不同时刻进行多个处理单元的处理采用。从理论的角度来看，我们的不确定性量化方法提高了之前文献的水平，具体表现在：（i）覆盖了错位采用设置中的大类因果预测量，（ii）允许具有可能非线性约束的合成对照方法，（iii）提出可扩展的鲁棒锥优化方法和基于原则的数据驱动调参选择，（iv）提供了在后处理期间进行有效均匀推断。我们通过实证应用展示了我们的方法。
-
-    We propose principled prediction intervals to quantify the uncertainty of a large class of synthetic control predictions or estimators in settings with staggered treatment adoption, offering precise non-asymptotic coverage probability guarantees. From a methodological perspective, we provide a detailed discussion of different causal quantities to be predicted, which we call `causal predictands', allowing for multiple treated units with treatment adoption at possibly different points in time. From a theoretical perspective, our uncertainty quantification methods improve on prior literature by (i) covering a large class of causal predictands in staggered adoption settings, (ii) allowing for synthetic control methods with possibly nonlinear constraints, (iii) proposing scalable robust conic optimization methods and principled data-driven tuning parameter selection, and (iv) offering valid uniform inference across post-treatment periods. We illustrate our methodology with an empirical appl
-    
-[^15]: 直接证据实现
-
-    Direct Implementation with Evidence. (arXiv:2105.12298v5 [econ.TH] UPDATED)
-
-    [http://arxiv.org/abs/2105.12298](http://arxiv.org/abs/2105.12298)
-
-    该论文研究了在效用有限的环境中带有证据的全面实现问题，提出了一种基于新的证据分类的可以在两个代理人下实现Nash均衡的直接真相机制，并给出了关于重订合法的双边合同的必要充分条件。
-
-    
-
-    我们研究了在效用有限的环境中，带有证据的全面实现。我们证明，如果社会选择函数满足由BL2012提出的可测性条件，则在直接真相机制下，社会选择函数是Nash可实现的。该机制基于对谎言根据其证据可反驳性的新分类，只需要两个代理人，考虑到混合策略均衡和证据费用。虽然使用货币转移，但它们不在均衡下且可以在三个或更多代理人中平衡。在KT2012提出的证据更丰富的模型中，我们建立了在直接真相机制下实现两个或更多代理人的纯策略。我们还根据谎言的分类获得了证据结构对重订合法的双边合同的必要充分条件。
-
-    We study full implementation with evidence in an environment with bounded utilities. We show that a social choice function is Nash implementable in a direct revelation mechanism if and only if it satisfies the measurability condition proposed by <cite>BL2012</cite>. Building on a novel classification of lies according to their refutability with evidence, the mechanism requires only two agents, accounts for mixed-strategy equilibria and accommodates evidentiary costs. While monetary transfers are used, they are off the equilibrium and can be balanced with three or more agents. In a richer model of evidence due to <cite>KT2012</cite>, we establish pure-strategy implementation with two or more agents in a direct revelation mechanism. We also obtain a necessary and sufficient condition on the evidence structure for renegotiation-proof bilateral contracts, based on the classification of lies.
-    
-[^16]: 基于结果抽样的因果推断和单调性假设
-
-    Causal Inference under Outcome-Based Sampling with Monotonicity Assumptions. (arXiv:2004.08318v5 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2004.08318](http://arxiv.org/abs/2004.08318)
-
-    本文研究了基于结果抽样的因果推断，发现强无偏性不总是像随机抽样下那样强大，并且某些单调性假设在锐利识别间隔方面产生可比较的结果。 通过算法推断出参数并用实证例子证明了方法的贡献。
-
-    
-
-    本文研究了根据案例控制和案例群体取样进行因果推断的方法。具体而言，我们关注二元结果和二元治疗的情况，其中感兴趣的参数是通过潜在结果框架定义的因果相对和可归因风险。我们发现强无偏性不总是像随机抽样下那样强大，并且某些单调性假设在锐利识别间隔方面产生可比较的结果。具体而言，通常的比值比在单调治疗反应和单调治疗选择假设下被证明是因果相对风险的锐利识别上界。我们提供了聚合在协变量的真实人口分布上的因果参数推断算法。我们通过研究三个实证例子展示了我们方法的有用性：在巴基斯坦进入著名大学的私立学校受益问题上；在留在学校和放弃学校早期的关系问题上；在预测岗位培训效果问题上。
-
-    We study causal inference under case-control and case-population sampling. Specifically, we focus on the binary-outcome and binary-treatment case, where the parameters of interest are causal relative and attributable risks defined via the potential outcome framework. It is shown that strong ignorability is not always as powerful as it is under random sampling and that certain monotonicity assumptions yield comparable results in terms of sharp identified intervals. Specifically, the usual odds ratio is shown to be a sharp identified upper bound on causal relative risk under the monotone treatment response and monotone treatment selection assumptions. We offer algorithms for inference on the causal parameters that are aggregated over the true population distribution of the covariates. We show the usefulness of our approach by studying three empirical examples: the benefit of attending private school for entering a prestigious university in Pakistan; the relationship between staying in sc
+    I study a model of advisors with hidden motives: a seller discloses information about an object's value to a potential buyer, who doesn't know the object's value or how profitable the object's sale is to the seller (the seller's motives). I characterize optimal disclosure rules, used by the seller to steer sales from lower- to higher-profitability objects. I investigate the effects of a mandated transparency policy, which reveals the seller's motives to the buyer. I show that, by removing the seller's steering incentive, transparency can dissuade the seller from disclosing information about the object's value, and from acquiring that information in the first place. This result refines our understanding of effective regulation in advice markets, and links it to the commitment protocol in the advisor-advisee relation.
     
 

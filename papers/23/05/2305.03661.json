@@ -1,0 +1,12 @@
+{
+    "title": "Predicting COVID-19 and pneumonia complications from admission texts. (arXiv:2305.03661v1 [cs.CL])",
+    "abstract": "In this paper we present a novel approach to risk assessment for patients hospitalized with pneumonia or COVID-19 based on their admission reports. We applied a Longformer neural network to admission reports and other textual data available shortly after admission to compute risk scores for the patients. We used patient data of multiple European hospitals to demonstrate that our approach outperforms the Transformer baselines. Our experiments show that the proposed model generalises across institutions and diagnoses. Also, our method has several other advantages described in the paper.",
+    "link": "http://arxiv.org/abs/2305.03661",
+    "context": "Title: Predicting COVID-19 and pneumonia complications from admission texts. (arXiv:2305.03661v1 [cs.CL])\nAbstract: In this paper we present a novel approach to risk assessment for patients hospitalized with pneumonia or COVID-19 based on their admission reports. We applied a Longformer neural network to admission reports and other textual data available shortly after admission to compute risk scores for the patients. We used patient data of multiple European hospitals to demonstrate that our approach outperforms the Transformer baselines. Our experiments show that the proposed model generalises across institutions and diagnoses. Also, our method has several other advantages described in the paper.",
+    "path": "papers/23/05/2305.03661.json",
+    "total_tokens": 726,
+    "translated_title": "从入院记录预测COVID-19和肺炎并发症",
+    "translated_abstract": "本文提出了一种基于入院报告的风险评估新方法，用于预测因肺炎或COVID-19而住院的患者的并发症风险。我们将Longformer神经网络应用于入院记录和其他可用的文本数据，计算出患者的风险评分。我们使用多个欧洲医院的患者数据证明了我们的方法优于Transformer基线模型。我们的实验表明，该模型在多个机构和诊断中具有泛化能力。此外，本文还介绍了我们的方法具有的其他优势。",
+    "tldr": "本文提出一种基于入院记录进行患者并发症风险评估的新方法，并使用Longformer神经网络计算患者的风险评分。该方法在多个欧洲医院的患者数据中表现出优异的性能，具有泛化能力和其他优势。",
+    "en_tdlr": "This paper presents a novel approach based on admission reports for risk assessment of patients hospitalized with pneumonia or COVID-19 to predict complications risk. The authors applied a Longformer neural network to compute risk scores for the patients using available text data, and demonstrated that the proposed model outperforms Transformer baselines across different institutions and diagnoses while having other advantages."
+}

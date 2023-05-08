@@ -1,0 +1,11 @@
+{
+    "title": "On the Distributional Robustness of Finite Rational Inattention Models. (arXiv:2208.03370v2 [econ.TH] UPDATED)",
+    "abstract": "In this paper we study a rational inattention model in environments where the decision maker faces uncertainty about the true prior distribution over states. The decision maker seeks to select a stochastic choice rule over a finite set of alternatives that is robust to prior ambiguity. We fully characterize the distributional robustness of the rational inattention model in terms of a tractable concave program. We establish necessary and sufficient conditions to construct robust consideration sets. Finally, we quantify the impact of prior uncertainty, by introducing the notion of \\emph{Worst-Case Sensitivity}.",
+    "link": "http://arxiv.org/abs/2208.03370",
+    "context": "Title: On the Distributional Robustness of Finite Rational Inattention Models. (arXiv:2208.03370v2 [econ.TH] UPDATED)\nAbstract: In this paper we study a rational inattention model in environments where the decision maker faces uncertainty about the true prior distribution over states. The decision maker seeks to select a stochastic choice rule over a finite set of alternatives that is robust to prior ambiguity. We fully characterize the distributional robustness of the rational inattention model in terms of a tractable concave program. We establish necessary and sufficient conditions to construct robust consideration sets. Finally, we quantify the impact of prior uncertainty, by introducing the notion of \\emph{Worst-Case Sensitivity}.",
+    "path": "papers/22/08/2208.03370.json",
+    "total_tokens": 712,
+    "translated_title": "有限理性忽视模型的分布稳健性研究",
+    "translated_abstract": "本文研究了一个有限理性忽视模型，其中决策者面临着对状态真实先验分布的不确定性。决策者试图选择一种对先验分布模糊性稳健的随机选择规则。我们通过可计算的凸规划完全表征了有限理性忽视模型的分布稳健性。我们建立了构建稳健考虑集的必要和充分条件。最后，我们通过引入“最坏情况敏感度”概念来量化先验不确定性的影响。",
+    "tldr": "本文研究了有限理性忽视模型的分布稳健性，提出了一种对先验分布模糊性稳健的随机选择规则的构建方法，并通过“最坏情况敏感度”概念量化了先验不确定性对模型的影响。"
+}

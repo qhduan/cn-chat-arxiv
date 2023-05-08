@@ -1,0 +1,12 @@
+{
+    "title": "Explaining dark matter halo density profiles with neural networks. (arXiv:2305.03077v1 [astro-ph.CO])",
+    "abstract": "We use explainable neural networks to connect the evolutionary history of dark matter halos with their density profiles. The network captures independent factors of variation in the density profiles within a low-dimensional representation, which we physically interpret using mutual information. Without any prior knowledge of the halos' evolution, the network recovers the known relation between the early time assembly and the inner profile, and discovers that the profile beyond the virial radius is described by a single parameter capturing the most recent mass accretion rate. The results illustrate the potential for machine-assisted scientific discovery in complicated astrophysical datasets.",
+    "link": "http://arxiv.org/abs/2305.03077",
+    "context": "Title: Explaining dark matter halo density profiles with neural networks. (arXiv:2305.03077v1 [astro-ph.CO])\nAbstract: We use explainable neural networks to connect the evolutionary history of dark matter halos with their density profiles. The network captures independent factors of variation in the density profiles within a low-dimensional representation, which we physically interpret using mutual information. Without any prior knowledge of the halos' evolution, the network recovers the known relation between the early time assembly and the inner profile, and discovers that the profile beyond the virial radius is described by a single parameter capturing the most recent mass accretion rate. The results illustrate the potential for machine-assisted scientific discovery in complicated astrophysical datasets.",
+    "path": "papers/23/05/2305.03077.json",
+    "total_tokens": 736,
+    "translated_title": "用神经网络解释暗物质晕的密度分布",
+    "translated_abstract": "我们使用可解释的神经网络将暗物质晕的演化历史与其密度分布相连接。该网络捕获密度分布中独立的变化因素，在低维表示中物理地解释了它们，使用了互信息。不需要先验知识，网络恢复了早期组装与内部轮廓之间的已知关系，并发现超过渗透半径的轮廓由一个单一参数描述，该参数表示最近的质量吸积率。结果展示了在复杂的天体物理数据集中机器协助科学发现的潜力。",
+    "tldr": "使用可解释的神经网络将暗物质晕的演化历史与其密度分布相连接，网络发现超过渗透半径的轮廓由一个单一参数描述，这展示了在复杂的天体物理数据集中机器协助科学发现的潜力。",
+    "en_tdlr": "Using explainable neural networks, this paper connects the evolutionary history of dark matter halos with their density profiles, finding that the profile beyond the virial radius is described by a single parameter capturing the most recent mass accretion rate. It highlights the potential for machine-assisted scientific discovery in complicated astrophysical datasets."
+}

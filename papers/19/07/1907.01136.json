@@ -1,0 +1,12 @@
+{
+    "title": "Finding Outliers in Gaussian Model-Based Clustering. (arXiv:1907.01136v4 [stat.ME] UPDATED)",
+    "abstract": "Unsupervised classification, or clustering, is a problem often plagued by outliers, yet there is a paucity of work on handling outliers in unsupervised classification. Outlier algorithms tend to fall into two broad categories: outlier inclusion methods and trimming methods, which often require pre-specification of the number of points to remove. The fact that sample Mahalanobis distance is beta-distributed is used to derive an approximate distribution for the log-likelihoods of subset finite Gaussian mixture models. An algorithm is proposed that removes the least likely points, which are deemed outliers, until the log-likelihoods adhere to the reference distribution. This results in a trimming method which inherently estimates the number of outliers present.",
+    "link": "http://arxiv.org/abs/1907.01136",
+    "context": "Title: Finding Outliers in Gaussian Model-Based Clustering. (arXiv:1907.01136v4 [stat.ME] UPDATED)\nAbstract: Unsupervised classification, or clustering, is a problem often plagued by outliers, yet there is a paucity of work on handling outliers in unsupervised classification. Outlier algorithms tend to fall into two broad categories: outlier inclusion methods and trimming methods, which often require pre-specification of the number of points to remove. The fact that sample Mahalanobis distance is beta-distributed is used to derive an approximate distribution for the log-likelihoods of subset finite Gaussian mixture models. An algorithm is proposed that removes the least likely points, which are deemed outliers, until the log-likelihoods adhere to the reference distribution. This results in a trimming method which inherently estimates the number of outliers present.",
+    "path": "papers/19/07/1907.01136.json",
+    "total_tokens": 731,
+    "translated_title": "基于高斯模型的聚类中异常值的发现",
+    "translated_abstract": "无监督分类或聚类常常受到异常值的影响。然而，在无监督分类中处理异常值的研究较少。目前，异常值算法可分为两大类：异常点包含方法和修剪方法，这些方法通常需要预先指定要删除的数据点的数量。本文利用样本马氏距离的贝塔分布导出了一个近似分布，用于有限高斯混合模型子集的对数似然度。提出了一种算法，该算法删除最不可能出现的数据点，即判定为异常值，直到对数似然度符合参考分布。这导致了一种固有估计异常值数量的修剪方法。",
+    "tldr": "研究提出了一种修剪异常值的算法，该算法删除最不可能出现的数据点，然后用符合参考分布的对数似然度进行修剪，从而固有估计异常值的数量。",
+    "en_tdlr": "The paper proposes an algorithm that trims outliers by removing the least likely points until the log-likelihoods adhere to the reference distribution, inherently estimating the number of outliers present."
+}

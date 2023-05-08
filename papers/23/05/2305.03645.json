@@ -1,0 +1,12 @@
+{
+    "title": "Algorithmic Decision Processes. (arXiv:2305.03645v1 [econ.TH])",
+    "abstract": "We develop a full-fledged analysis of an algorithmic decision process that, in a multialternative choice problem, produces computable choice probabilities and expected decision times.",
+    "link": "http://arxiv.org/abs/2305.03645",
+    "context": "Title: Algorithmic Decision Processes. (arXiv:2305.03645v1 [econ.TH])\nAbstract: We develop a full-fledged analysis of an algorithmic decision process that, in a multialternative choice problem, produces computable choice probabilities and expected decision times.",
+    "path": "papers/23/05/2305.03645.json",
+    "total_tokens": 414,
+    "translated_title": "算法决策过程",
+    "translated_abstract": "我们开发了一个完整的算法决策过程分析，该过程在多选问题中产生可计算的选择概率和预期决策时间。",
+    "tldr": "该论文介绍了一种算法决策过程，可以产生多选问题中的选择概率和预期决策时间。",
+    "en_tdlr": "This paper presents an algorithmic decision process that generates computable choice probabilities and expected decision times for multi-alternative choice problems."
+}

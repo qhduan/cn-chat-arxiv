@@ -1,0 +1,12 @@
+{
+    "title": "On the Implicit Bias of Linear Equivariant Steerable Networks. (arXiv:2303.04198v2 [cs.LG] UPDATED)",
+    "abstract": "We study the implicit bias of gradient flow on linear equivariant steerable networks in group-invariant binary classification. Our findings reveal that the parameterized predictor converges in direction to the unique group-invariant classifier with a maximum margin defined by the input group action. Under a unitary assumption on the input representation, we establish the equivalence between steerable networks and data augmentation. Furthermore, we demonstrate the improved margin and generalization bound of steerable networks over their non-invariant counterparts.",
+    "link": "http://arxiv.org/abs/2303.04198",
+    "context": "Title: On the Implicit Bias of Linear Equivariant Steerable Networks. (arXiv:2303.04198v2 [cs.LG] UPDATED)\nAbstract: We study the implicit bias of gradient flow on linear equivariant steerable networks in group-invariant binary classification. Our findings reveal that the parameterized predictor converges in direction to the unique group-invariant classifier with a maximum margin defined by the input group action. Under a unitary assumption on the input representation, we establish the equivalence between steerable networks and data augmentation. Furthermore, we demonstrate the improved margin and generalization bound of steerable networks over their non-invariant counterparts.",
+    "path": "papers/23/03/2303.04198.json",
+    "total_tokens": 708,
+    "translated_title": "关于线性等变可旋神经网络的隐式偏差",
+    "translated_abstract": "本论文研究了群不变二进制分类中的线性等变可旋神经网络隐式偏差。我们的研究发现，基于参数化预测器的梯度流收敛于最大余量定义的唯一群不变分类器的方向，该方向由输入群操作定义。在输入表示的酉假设下，我们建立了可旋网络和数据增广之间的等效性。此外，我们证明了可旋网络在较少变情况下相对于不变网络的改善余量与广义界的优势。",
+    "tldr": "本文的研究发现了基于参数化预测器的梯度流收敛于最大余量定义的唯一群不变分类器的方向, 同时，我们还发现了可旋网络在较少变情况下相对于不变网络的改善余量与广义界的优势。",
+    "en_tdlr": "This paper reveals that the gradient flow of linear equivariant steerable networks in group-invariant binary classification converges in the direction of the unique group-invariant classifier with a maximum margin defined by the input group action. The authors also demonstrate the improved margin and generalization bound of steerable networks over their non-invariant counterparts."
+}

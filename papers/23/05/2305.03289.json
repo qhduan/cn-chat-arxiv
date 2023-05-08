@@ -1,0 +1,12 @@
+{
+    "title": "BadSAM: Exploring Security Vulnerabilities of SAM via Backdoor Attacks. (arXiv:2305.03289v1 [cs.CV])",
+    "abstract": "Recently, the Segment Anything Model (SAM) has gained significant attention as an image segmentation foundation model due to its strong performance on various downstream tasks. However, it has been found that SAM does not always perform satisfactorily when faced with challenging downstream tasks. This has led downstream users to demand a customized SAM model that can be adapted to these downstream tasks. In this paper, we present BadSAM, the first backdoor attack on the image segmentation foundation model. Our preliminary experiments on the CAMO dataset demonstrate the effectiveness of BadSAM.",
+    "link": "http://arxiv.org/abs/2305.03289",
+    "context": "Title: BadSAM: Exploring Security Vulnerabilities of SAM via Backdoor Attacks. (arXiv:2305.03289v1 [cs.CV])\nAbstract: Recently, the Segment Anything Model (SAM) has gained significant attention as an image segmentation foundation model due to its strong performance on various downstream tasks. However, it has been found that SAM does not always perform satisfactorily when faced with challenging downstream tasks. This has led downstream users to demand a customized SAM model that can be adapted to these downstream tasks. In this paper, we present BadSAM, the first backdoor attack on the image segmentation foundation model. Our preliminary experiments on the CAMO dataset demonstrate the effectiveness of BadSAM.",
+    "path": "papers/23/05/2305.03289.json",
+    "total_tokens": 648,
+    "translated_title": "BadSAM：通过后门攻击探索SAM的安全漏洞",
+    "translated_abstract": "最近，由于其在各种下游任务中的强大性能，分割任何模型（SAM）以图像分割基础模型而备受关注。然而，已经发现当面对具有挑战性的下游任务时，SAM并不总是表现出色。这导致下游用户要求定制的SAM模型，以适应这些下游任务。在本文中，我们提出BadSAM，这是对图像分割基础模型的首次后门攻击。我们在CAMO数据集上的初步实验展示了BadSAM的有效性。",
+    "tldr": "本文介绍了BadSAM，这是对图像分割基础模型的首次后门攻击，该攻击将导致定制化SAM模型面临更加严峻的安全挑战。",
+    "en_tdlr": "This paper presents BadSAM, the first backdoor attack on the image segmentation foundation model, which will lead to more severe security challenges for customized SAM models."
+}

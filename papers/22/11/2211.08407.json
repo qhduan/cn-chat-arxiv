@@ -1,0 +1,12 @@
+{
+    "title": "Trust-Awareness to Secure Swarm Intelligence from Data Injection Attack. (arXiv:2211.08407v3 [cs.NE] UPDATED)",
+    "abstract": "Enabled by the emerging industrial agent (IA) technology, swarm intelligence (SI) is envisaged to play an important role in future industrial Internet of Things (IIoT) that is shaped by Sixth Generation (6G) mobile communications and digital twin (DT). However, its fragility against data injection attack may halt it from practical deployment. In this paper we propose an efficient trust approach to address this security concern for SI.",
+    "link": "http://arxiv.org/abs/2211.08407",
+    "context": "Title: Trust-Awareness to Secure Swarm Intelligence from Data Injection Attack. (arXiv:2211.08407v3 [cs.NE] UPDATED)\nAbstract: Enabled by the emerging industrial agent (IA) technology, swarm intelligence (SI) is envisaged to play an important role in future industrial Internet of Things (IIoT) that is shaped by Sixth Generation (6G) mobile communications and digital twin (DT). However, its fragility against data injection attack may halt it from practical deployment. In this paper we propose an efficient trust approach to address this security concern for SI.",
+    "path": "papers/22/11/2211.08407.json",
+    "total_tokens": 568,
+    "translated_title": "基于信任感知的群体智能数据注入攻击防御",
+    "translated_abstract": "群体智能（SI）借助新兴的工业智能体（IA）技术得以实现，被预计在由第六代移动通信和数字孪生（DT）构成的未来工业物联网（IIoT）中扮演重要角色。然而，SI 对于数据注入攻击的脆弱性可能会使其无法实际部署。本文提出了一种有效的信任方法，以应对 SI 的这一安全问题。",
+    "tldr": "本文提出一种基于信任感知的方法，以应对群体智能的数据注入攻击。",
+    "en_tdlr": "This paper proposes an efficient trust approach to address the security concern of swarm intelligence against data injection attacks."
+}

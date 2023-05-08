@@ -1,0 +1,11 @@
+{
+    "title": "Posterior Regularization on Bayesian Hierarchical Mixture Clustering. (arXiv:2105.06903v7 [stat.ML] UPDATED)",
+    "abstract": "Bayesian hierarchical mixture clustering (BHMC) improves traditionalBayesian hierarchical clustering by replacing conventional Gaussian-to-Gaussian kernels with a Hierarchical Dirichlet Process Mixture Model(HDPMM) for parent-to-child diffusion in the generative process. However,BHMC may produce trees with high nodal variance, indicating weak separation between nodes at higher levels. To address this issue, we employ Posterior Regularization, which imposes max-margin constraints on nodes at every level to enhance cluster separation. We illustrate how to apply PR toBHMC and demonstrate its effectiveness in improving the BHMC model.",
+    "link": "http://arxiv.org/abs/2105.06903",
+    "context": "Title: Posterior Regularization on Bayesian Hierarchical Mixture Clustering. (arXiv:2105.06903v7 [stat.ML] UPDATED)\nAbstract: Bayesian hierarchical mixture clustering (BHMC) improves traditionalBayesian hierarchical clustering by replacing conventional Gaussian-to-Gaussian kernels with a Hierarchical Dirichlet Process Mixture Model(HDPMM) for parent-to-child diffusion in the generative process. However,BHMC may produce trees with high nodal variance, indicating weak separation between nodes at higher levels. To address this issue, we employ Posterior Regularization, which imposes max-margin constraints on nodes at every level to enhance cluster separation. We illustrate how to apply PR toBHMC and demonstrate its effectiveness in improving the BHMC model.",
+    "path": "papers/21/05/2105.06903.json",
+    "total_tokens": 729,
+    "translated_title": "贝叶斯分层混合聚类中的后验正则化",
+    "translated_abstract": "贝叶斯分层混合聚类通过在生成过程中用层级狄利克雷过程混合模型(HDPMM)替换传统的高斯-高斯核来实现从父节点到子节点的扩散，从而改进了传统的贝叶斯分层聚类。然而，BHMC可能会产生具有高节点方差的树，表明在较高层级之间的节点之间存在较弱的分离。为了解决这个问题，我们采用了后验正则化(Posterior Regularization)，它对每个层级的节点实施最大间隔约束以增强集群的分离。我们阐述了如何将PR应用于BHMC，并证明了它在改进BHMC模型方面的有效性。",
+    "tldr": "本文提出了一种后验正则化方法来改进贝叶斯分层混合聚类模型，在每个层级对节点实施最大间隔约束以增强集群的分离。"
+}

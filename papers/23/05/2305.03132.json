@@ -1,0 +1,12 @@
+{
+    "title": "The Role of Global and Local Context in Named Entity Recognition. (arXiv:2305.03132v1 [cs.CL])",
+    "abstract": "Pre-trained transformer-based models have recently shown great performance when applied to Named Entity Recognition (NER). As the complexity of their self-attention mechanism prevents them from processing long documents at once, these models are usually applied in a sequential fashion. Such an approach unfortunately only incorporates local context and prevents leveraging global document context in long documents such as novels, which might hinder performance. In this article, we explore the impact of global document context, and its relationships with local context. We find that correctly retrieving global document context has a greater impact on performance than only leveraging local context, prompting for further research on how to better retrieve that context.",
+    "link": "http://arxiv.org/abs/2305.03132",
+    "context": "Title: The Role of Global and Local Context in Named Entity Recognition. (arXiv:2305.03132v1 [cs.CL])\nAbstract: Pre-trained transformer-based models have recently shown great performance when applied to Named Entity Recognition (NER). As the complexity of their self-attention mechanism prevents them from processing long documents at once, these models are usually applied in a sequential fashion. Such an approach unfortunately only incorporates local context and prevents leveraging global document context in long documents such as novels, which might hinder performance. In this article, we explore the impact of global document context, and its relationships with local context. We find that correctly retrieving global document context has a greater impact on performance than only leveraging local context, prompting for further research on how to better retrieve that context.",
+    "path": "papers/23/05/2305.03132.json",
+    "total_tokens": 716,
+    "translated_title": "全局和局部文脉在命名实体识别中的作用。",
+    "translated_abstract": "最近，预训练的基于转换器的模型在命名实体识别方面表现出色。由于其自我注意力机制的复杂性，它们不能一次处理长文档，因此这些模型通常是按顺序应用的。这种方法不幸地只包含局部上下文，并阻碍了利用全局文档上下文的可能性，这可能会妨碍性能。在本文中，我们探讨了全局文档上下文的影响及其与局部上下文的关系。我们发现，正确检索全局文档上下文对性能的影响大于仅利用局部文本。这促使进一步研究如何更好地检索上下文。",
+    "tldr": "研究者探讨了全局文档上下文与局部上下文在命名实体识别中的作用，发现正确检索全局文档上下文对提高性能至关重要。",
+    "en_tdlr": "The article explores the impact of global and local context in named entity recognition, finding that correctly retrieving global context is more important for performance than solely relying on local context."
+}

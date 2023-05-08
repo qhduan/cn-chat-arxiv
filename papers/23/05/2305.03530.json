@@ -1,0 +1,11 @@
+{
+    "title": "Exploring Softly Masked Language Modelling for Controllable Symbolic Music Generation. (arXiv:2305.03530v1 [cs.SD])",
+    "abstract": "This document presents some early explorations of applying Softly Masked Language Modelling (SMLM) to symbolic music generation. SMLM can be seen as a generalisation of masked language modelling (MLM), where instead of each element of the input set being either known or unknown, elements can be partly known. We demonstrate some results of applying SMLM to constrained symbolic music generation using a transformer encoder architecture. Several audio examples are available at https://erl-j.github.io/smlm-web-supplement/",
+    "link": "http://arxiv.org/abs/2305.03530",
+    "context": "Title: Exploring Softly Masked Language Modelling for Controllable Symbolic Music Generation. (arXiv:2305.03530v1 [cs.SD])\nAbstract: This document presents some early explorations of applying Softly Masked Language Modelling (SMLM) to symbolic music generation. SMLM can be seen as a generalisation of masked language modelling (MLM), where instead of each element of the input set being either known or unknown, elements can be partly known. We demonstrate some results of applying SMLM to constrained symbolic music generation using a transformer encoder architecture. Several audio examples are available at https://erl-j.github.io/smlm-web-supplement/",
+    "path": "papers/23/05/2305.03530.json",
+    "total_tokens": 637,
+    "translated_title": "探索软掩模语言建模在可控符号音乐生成中的应用",
+    "translated_abstract": "本文介绍了将软掩模语言建模（SMLM）应用于符号音乐生成的早期探索。SMLM可视为掩模语言建模（MLM）的一种推广，其中输入集合的每个元素可以是部分已知的，而不是已知或未知的。我们使用变压器编码器架构展示了将SMLM应用于受限符号音乐生成的结果。可在https://erl-j.github.io/smlm-web-supplement/上找到若干音频示例。",
+    "tldr": "本文探索了软掩模语言建模在符号音乐生成中的应用。使用变压器编码器架构，成功将SMLM应用于受限符号音乐生成。"
+}

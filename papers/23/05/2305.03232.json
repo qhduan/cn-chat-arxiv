@@ -1,0 +1,12 @@
+{
+    "title": "Neuromodulation Gated Transformer. (arXiv:2305.03232v1 [cs.CL])",
+    "abstract": "We introduce a novel architecture, the Neuromodulation Gated Transformer (NGT), which is a simple implementation of neuromodulation in transformers via a multiplicative effect. We compare it to baselines and show that it results in the best average performance on the SuperGLUE benchmark validation sets.",
+    "link": "http://arxiv.org/abs/2305.03232",
+    "context": "Title: Neuromodulation Gated Transformer. (arXiv:2305.03232v1 [cs.CL])\nAbstract: We introduce a novel architecture, the Neuromodulation Gated Transformer (NGT), which is a simple implementation of neuromodulation in transformers via a multiplicative effect. We compare it to baselines and show that it results in the best average performance on the SuperGLUE benchmark validation sets.",
+    "path": "papers/23/05/2305.03232.json",
+    "total_tokens": 523,
+    "translated_title": "神经调节门控Transformer",
+    "translated_abstract": "我们引入了一种新颖的架构，即神经调节门控Transformer（NGT），它通过一种乘法效应，实现了Transformer中的神经调节的简单实现。我们将其与基准模型进行比较，并展示其在SuperGLUE基准验证集上达到最佳平均性能。",
+    "tldr": "本文介绍了一种新型的神经调节门控Transformer架构，通过乘法效应实现了神经调节，在SuperGLUE基准验证集上表现最优。",
+    "en_tdlr": "The paper introduces a novel Neuromodulation Gated Transformer architecture, which implements neuromodulation through a multiplicative effect, and shows that it outperforms baselines on the SuperGLUE benchmark validation sets."
+}

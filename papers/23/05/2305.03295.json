@@ -1,0 +1,12 @@
+{
+    "title": "Decentralized diffusion-based learning under non-parametric limited prior knowledge. (arXiv:2305.03295v1 [stat.ML])",
+    "abstract": "We study the problem of diffusion-based network learning of a nonlinear phenomenon, $m$, from local agents' measurements collected in a noisy environment. For a decentralized network and information spreading merely between directly neighboring nodes, we propose a non-parametric learning algorithm, that avoids raw data exchange and requires only mild \\textit{a priori} knowledge about $m$. Non-asymptotic estimation error bounds are derived for the proposed method. Its potential applications are illustrated through simulation experiments.",
+    "link": "http://arxiv.org/abs/2305.03295",
+    "context": "Title: Decentralized diffusion-based learning under non-parametric limited prior knowledge. (arXiv:2305.03295v1 [stat.ML])\nAbstract: We study the problem of diffusion-based network learning of a nonlinear phenomenon, $m$, from local agents' measurements collected in a noisy environment. For a decentralized network and information spreading merely between directly neighboring nodes, we propose a non-parametric learning algorithm, that avoids raw data exchange and requires only mild \\textit{a priori} knowledge about $m$. Non-asymptotic estimation error bounds are derived for the proposed method. Its potential applications are illustrated through simulation experiments.",
+    "path": "papers/23/05/2305.03295.json",
+    "total_tokens": 640,
+    "translated_title": "非参数有限先验知识下的分散扩散学习",
+    "translated_abstract": "我们研究在噪声环境中，从局部代理的测量结果中学习非线性现象 m 的扩散网络学习问题。对于分散的网络，仅在直接相邻节点之间传播信息，我们提出了一种非参数学习算法，避免了原始数据交换，仅需要对 m 有轻微的先验知识。对所提出的方法进行了非渐近估计误差界的导出，并通过模拟实验说明了它的潜在应用。",
+    "tldr": "本文提出在非参数情况下，仅通过相邻节点之间的信息传播，避免数据交换的分散扩散学习算法。",
+    "en_tdlr": "This paper proposes a decentralized diffusion-based learning algorithm that avoids raw data exchange, requiring only mild prior knowledge and information spreading between directly neighboring nodes for learning a nonlinear phenomenon in a noisy environment. Non-asymptotic estimation error bounds are derived and illustrated through simulation experiments."
+}

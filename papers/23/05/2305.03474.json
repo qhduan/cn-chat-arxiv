@@ -1,0 +1,12 @@
+{
+    "title": "Zoo Guide to Network Embedding. (arXiv:2305.03474v1 [cs.SI])",
+    "abstract": "Networks have provided extremely successful models of data and complex systems. Yet, as combinatorial objects, networks do not have in general intrinsic coordinates and do not typically lie in an ambient space. The process of assigning an embedding space to a network has attracted lots of interest in the past few decades, and has been efficiently applied to fundamental problems in network inference, such as link prediction, node classification, and community detection. In this review, we provide a user-friendly guide to the network embedding literature and current trends in this field which will allow the reader to navigate through the complex landscape of methods and approaches emerging from the vibrant research activity on these subjects.",
+    "link": "http://arxiv.org/abs/2305.03474",
+    "context": "Title: Zoo Guide to Network Embedding. (arXiv:2305.03474v1 [cs.SI])\nAbstract: Networks have provided extremely successful models of data and complex systems. Yet, as combinatorial objects, networks do not have in general intrinsic coordinates and do not typically lie in an ambient space. The process of assigning an embedding space to a network has attracted lots of interest in the past few decades, and has been efficiently applied to fundamental problems in network inference, such as link prediction, node classification, and community detection. In this review, we provide a user-friendly guide to the network embedding literature and current trends in this field which will allow the reader to navigate through the complex landscape of methods and approaches emerging from the vibrant research activity on these subjects.",
+    "path": "papers/23/05/2305.03474.json",
+    "total_tokens": 705,
+    "translated_title": "Zoo Guide to Network Embedding.（网络嵌入动物园指南）",
+    "translated_abstract": "网络已经成为了数据和复杂系统的极为成功的建模方式。然而，作为组合对象，网络通常没有固有的坐标，也不典型地位于一个环境空间中。为网络分配嵌入空间的过程在过去几十年中引起了广泛关注，并且已被有效地应用于网络推理的基本问题，例如链接预测、节点分类和社区检测。本文回顾了网络嵌入文献和当前趋势的用户友好指南，使读者能够在这些主题的充满活力的研究活动中浏览方法和方法的复杂领域。",
+    "tldr": "本文章综述了网络嵌入文献和当前趋势的用户友好指南，为网络推理的基本问题提供了有效的应用，例如链接预测、节点分类和社区检测。",
+    "en_tdlr": "This paper provides a user-friendly guide to the network embedding literature and current trends in this field, which have been effectively applied to fundamental problems in network inference, such as link prediction, node classification, and community detection."
+}

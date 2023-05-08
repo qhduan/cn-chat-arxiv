@@ -2,187 +2,157 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Adaptive Selection of Anchor Items for CUR-based k-NN search with Cross-Encoders.](http://arxiv.org/abs/2305.02996) | 本文提出了一种自适应锚点选择方法，可以在保持较小的计算成本的同时，实现与随机抽样锚点相当或者更好的k-NN召回性能。 |
-| [^2] | [Recent Advances in the Foundations and Applications of Unbiased Learning to Rank.](http://arxiv.org/abs/2305.02914) | 本文介绍了无偏学习排序（ULTR）的基础概念和最新进展，以及几种实际应用的方法。教程分为四个部分：偏差的概述，ULTR的最新估计技术，ULTR在实际应用中的表现，以及ULTR与排名公平性的联系。 |
-| [^3] | [Maximizing Submodular Functions for Recommendation in the Presence of Biases.](http://arxiv.org/abs/2305.02806) | 该论文研究了如何在存在偏见的情况下，通过最大化子模函数来优化推荐系统。先前研究指出，基于公平性约束的干预可以确保比例代表性，并在存在偏见时获得接近最优的效用。而本文则探讨了一组能够捕捉这种目的的子模函数。 |
-| [^4] | [Towards Hierarchical Policy Learning for Conversational Recommendation with Hypergraph-based Reinforcement Learning.](http://arxiv.org/abs/2305.02575) | 本文提出了一种新颖的基于超图强化学习的分层对话推荐模型，其中导演通过超图算法进行选择，帮助演员减少行动空间和指导对话朝着最具信息性的属性方向进行，并根据用户在对话中的偏好选择物品。 |
-| [^5] | [Analyzing Hong Kong's Legal Judgments from a Computational Linguistics point-of-view.](http://arxiv.org/abs/2305.02558) | 本文提供了多种基于统计、机器学习和深度学习等方法来有效地分析香港的法律判决，并从中提取关键信息，解决了价格高和资源缺乏的问题。 |
-| [^6] | [Inference at Scale Significance Testing for Large Search and Recommendation Experiments.](http://arxiv.org/abs/2305.02461) | 本文研究了大规模搜索和推荐实验的显著性检验行为，结果发现在大样本下Wilcoxon和Sign测试的1型错误率显著更高，建议在这种情况下使用bootstrap、随机化和t测试。 |
-| [^7] | [Towards Imperceptible Document Manipulations against Neural Ranking Models.](http://arxiv.org/abs/2305.01860) | 该论文提出了一种针对神经排序模型的不易被检测到的对抗性攻击框架，称为“几乎不可察觉文档操作”（IDEM）。IDEM使用生成语言模型生成连结句，无法引入易于检测的错误，并且使用单独的位置合并策略来平衡扰动文本的相关性和连贯性，实验结果表明，IDEM可以在保持高人类评估得分的同时优于强基线。 |
-| [^8] | [Ensemble Modeling with Contrastive Knowledge Distillation for Sequential Recommendation.](http://arxiv.org/abs/2304.14668) | 本研究提出了一种基于对比知识蒸馏的集成建模方法EMKD，它采用多个并行网络作为序列编码器，在序列推荐中根据所有网络的输出分布推荐物品。实验证明，EMKD在两个真实世界数据集上的表现显著优于最先进的方法。 |
-| [^9] | [Unsupervised Story Discovery from Continuous News Streams via Scalable Thematic Embedding.](http://arxiv.org/abs/2304.04099) | 本研究提出了一种新颖的主题嵌入方法和一个可扩展的无监督在线故事发现框架USTORY，可以动态表示文章和故事，并考虑它们共享的时间主题和新颖性，以帮助人们消化大量的新闻流。 |
-| [^10] | [Reasoning with Language Model Prompting: A Survey.](http://arxiv.org/abs/2212.09597) | 本文提供了使用语言模型提示进行推理的前沿研究综合调查。讨论了新兴推理能力出现的潜在原因，并提供系统资源帮助初学者。 |
-| [^11] | [Simplified TinyBERT: Knowledge Distillation for Document Retrieval.](http://arxiv.org/abs/2009.07531) | 本文提出了一种基于知识蒸馏的文档检索模型Simplified TinyBERT，它在提供15倍速度提升的情况下比BERT-Base表现更好。 |
-| [^12] | [Vertex Nomination in Richly Attributed Networks.](http://arxiv.org/abs/2005.02151) | 本文探讨了富有属性网络中顶点提名的双重作用，并提出了一种新颖的基于内容感知的网络嵌入方法，证明该方法优于现有的不利用内容和上下文的顶点提名方法。 |
+| [^1] | [Retrieval Augmented Chest X-Ray Report Generation using OpenAI GPT models.](http://arxiv.org/abs/2305.03660) | 该研究提出了一种检索增强的方法，利用对比预训练的视觉语言模型的多模态对齐嵌入来检索相应的候选放射学文本，并使用通用领域生成模型来生成报告，可抑制虚构的生成，实现更好的临床指标。 |
+| [^2] | [Query Expansion by Prompting Large Language Models.](http://arxiv.org/abs/2305.03653) | 本文提出了一种利用大型语言模型进行查询扩展的方法，相比传统方法具有更好的表现，特别是Chain-of-Thought提示对于查询扩展有着重要的作用。 |
+| [^3] | [Retraining A Graph-based Recommender with Interests Disentanglement.](http://arxiv.org/abs/2305.03624) | 本文提出了Disentangled Incremental Learning (DIL)框架，可以通过兴趣解耦的方式重新训练基于图的推荐系统，具有较高的准确性和效率。 |
+| [^4] | [Read it Twice: Towards Faithfully Interpretable Fact Verification by Revisiting Evidence.](http://arxiv.org/abs/2305.03507) | 本研究提出了一种名为“ ReRead”的事实验证模型，其以两个阶段（证据检索和声明验证）实现准确且可解释的事实验证，并在FEVER数据集上实现了最先进的结果。 |
+| [^5] | [Think Rationally about What You See: Continuous Rationale Extraction for Relation Extraction.](http://arxiv.org/abs/2305.03503) | 本研究提出了一种新颖的关系提取的理据抽取框架RE2，利用两个连续性和稀疏性因素从句子中获取相关而连贯的理据，解决了如何保留相关内容并从句子中去掉噪音段落的问题。实验结果显示我们的模型优于现有的最先进方法，并且提取出的理据对于推理和解释是有用的。 |
+| [^6] | [Augmenting Low-Resource Text Classification with Graph-Grounded Pre-training and Prompting.](http://arxiv.org/abs/2305.03324) | 本文提出一种名为G2P2的模型，使用图谱预训练和提示的方式增强低资源文本分类，实验证明该模型优于现有的最先进方法。 |
+| [^7] | [Influence of various text embeddings on clustering performance in NLP.](http://arxiv.org/abs/2305.03144) | 研究探索了不同文本嵌入对聚类算法（KMeans、单链接聚合等级、DBSCAN和HDBSCAN）性能的影响，并应用于评论聚类领域。 |
+| [^8] | [Optimizing SMS Reminder Campaigns for Pre- and Post-Diagnosis Cancer Check-Ups using Socio-Demographics: An In-Silco Investigation Into Bladder Cancer.](http://arxiv.org/abs/2305.03126) | 本研究提出一个框架，基于社会人口学的特点，对癌症检查的短信提醒活动进行了优化，研究结果表明，光基于这些特征进行短信提醒活动可以将死亡率的统计数量降低5.8％。 |
+| [^9] | [An Analysis of Fusion Functions for Hybrid Retrieval.](http://arxiv.org/abs/2210.11934) | 本文研究了混合搜索的方法，将词汇和语义搜索融合在一起，在此基础上分析了利用凸组合和互惠排名融合两种方法的优缺点。我们发现凸组合比互惠排名融合更加优秀，具有样本效率，并且只需要少量训练集即可调整参数以适应目标领域。 |
+| [^10] | [LOGEN: Few-shot Logical Knowledge-Conditioned Text Generation with Self-training.](http://arxiv.org/abs/2112.01404) | 本文提出了一种基于少样本的逻辑知识条件下文本生成的统一框架LOGEN，通过自训练和基于内容和结构一致性抽样伪逻辑形式，实现了在少量样本下的文本生成。 |
 
 # 详细
 
-[^1]: 带有交叉编码器的CUR k-NN搜索的自适应锚定项选择
+[^1]: 利用OpenAI GPT模型的检索增强的胸部X射线报告生成
 
-    Adaptive Selection of Anchor Items for CUR-based k-NN search with Cross-Encoders. (arXiv:2305.02996v1 [cs.IR])
+    Retrieval Augmented Chest X-Ray Report Generation using OpenAI GPT models. (arXiv:2305.03660v1 [cs.CL])
 
-    [http://arxiv.org/abs/2305.02996](http://arxiv.org/abs/2305.02996)
+    [http://arxiv.org/abs/2305.03660](http://arxiv.org/abs/2305.03660)
 
-    本文提出了一种自适应锚点选择方法，可以在保持较小的计算成本的同时，实现与随机抽样锚点相当或者更好的k-NN召回性能。
-
-    
-
-    本文提出了一种自适应锚点选择方法，以改善ANNCUR模型中高前k项的逼近误差和召回率。该方法可以在保持较小的计算成本的同时，实现与随机抽样锚点相当或者更好的k-NN召回性能。
-
-    Cross-encoder models, which jointly encode and score a query-item pair, are typically prohibitively expensive for k-nearest neighbor search. Consequently, k-NN search is performed not with a cross-encoder, but with a heuristic retrieve (e.g., using BM25 or dual-encoder) and re-rank approach. Recent work proposes ANNCUR (Yadav et al., 2022) which uses CUR matrix factorization to produce an embedding space for efficient vector-based search that directly approximates the cross-encoder without the need for dual-encoders. ANNCUR defines this shared query-item embedding space by scoring the test query against anchor items which are sampled uniformly at random. While this minimizes average approximation error over all items, unsuitably high approximation error on top-k items remains and leads to poor recall of top-k (and especially top-1) items. Increasing the number of anchor items is a straightforward way of improving the approximation error and hence k-NN recall of ANNCUR but at the cost o
-    
-[^2]: 无偏学习排序的基础和应用的最新进展
-
-    Recent Advances in the Foundations and Applications of Unbiased Learning to Rank. (arXiv:2305.02914v1 [cs.IR])
-
-    [http://arxiv.org/abs/2305.02914](http://arxiv.org/abs/2305.02914)
-
-    本文介绍了无偏学习排序（ULTR）的基础概念和最新进展，以及几种实际应用的方法。教程分为四个部分：偏差的概述，ULTR的最新估计技术，ULTR在实际应用中的表现，以及ULTR与排名公平性的联系。
+    该研究提出了一种检索增强的方法，利用对比预训练的视觉语言模型的多模态对齐嵌入来检索相应的候选放射学文本，并使用通用领域生成模型来生成报告，可抑制虚构的生成，实现更好的临床指标。
 
     
 
-    无偏学习排序（ULTR）领域自诞生以来一直处于非常活跃的状态，并在近年来取得了几项有影响力的进展。本教程既介绍了该领域的核心概念，又概述了其基础的最新进展以及其方法的几种应用。本教程分为四部分：首先，我们概述了可以用ULTR方法解决的不同形式的偏差。其次，我们全面讨论了ULTR领域的最新估计技术。第三，我们调查了ULTR在实际应用中的发布结果。第四，我们讨论了ULTR与排名公平性之间的联系。最后，我们简要反思了ULTR研究及其应用的未来。本教程旨在使对开发新的ULTR解决方案或在实际应用中利用它们的研究人员和工业实践者受益。
+    我们提出了一种名为Retrieval Augmented Generation (RAG) 的方法来自动生成放射学报告，该方法利用对比预训练的视觉语言模型的多模态对齐嵌入来检索相应的候选放射学文本，并使用像OpenAI text-davinci-003、gpt-3.5-turbo和gpt-4这样的通用领域生成模型来生成报告。该方法可以抑制虚构的生成并提供指令跟随能力，以我们所需的格式生成报告内容。我们的方法实现了更好的临床指标，BERTScore为0.2865（Δ+25.88%），Semb Score为0.4026（Δ+6.31%）。我们的方法可以广泛应用于不同的临床设置，因为它允许增强自动生成的放射学报告过程，同时具备适合该设置的相关内容的能力。
 
-    Since its inception, the field of unbiased learning to rank (ULTR) has remained very active and has seen several impactful advancements in recent years. This tutorial provides both an introduction to the core concepts of the field and an overview of recent advancements in its foundations along with several applications of its methods. The tutorial is divided into four parts: Firstly, we give an overview of the different forms of bias that can be addressed with ULTR methods. Secondly, we present a comprehensive discussion of the latest estimation techniques in the ULTR field. Thirdly, we survey published results of ULTR in real-world applications. Fourthly, we discuss the connection between ULTR and fairness in ranking. We end by briefly reflecting on the future of ULTR research and its applications. This tutorial is intended to benefit both researchers and industry practitioners who are interested in developing new ULTR solutions or utilizing them in real-world applications.
+    We propose Retrieval Augmented Generation (RAG) as an approach for automated radiology report writing that leverages multimodally aligned embeddings from a contrastively pretrained vision language model for retrieval of relevant candidate radiology text for an input radiology image and a general domain generative model like OpenAI text-davinci-003, gpt-3.5-turbo and gpt-4 for report generation using the relevant radiology text retrieved. This approach keeps hallucinated generations under check and provides capabilities to generate report content in the format we desire leveraging the instruction following capabilities of these generative models. Our approach achieves better clinical metrics with a BERTScore of 0.2865 ({\Delta}+ 25.88%) and Semb score of 0.4026 ({\Delta}+ 6.31%). Our approach can be broadly relevant for different clinical settings as it allows to augment the automated radiology report generation process with content relevant for that setting while also having the abilit
     
-[^3]: 在存在偏见的情况下，最大化子模函数用于推荐系统
+[^2]: 利用大语言模型促进查询扩展
 
-    Maximizing Submodular Functions for Recommendation in the Presence of Biases. (arXiv:2305.02806v1 [cs.LG])
+    Query Expansion by Prompting Large Language Models. (arXiv:2305.03653v1 [cs.IR])
 
-    [http://arxiv.org/abs/2305.02806](http://arxiv.org/abs/2305.02806)
+    [http://arxiv.org/abs/2305.03653](http://arxiv.org/abs/2305.03653)
 
-    该论文研究了如何在存在偏见的情况下，通过最大化子模函数来优化推荐系统。先前研究指出，基于公平性约束的干预可以确保比例代表性，并在存在偏见时获得接近最优的效用。而本文则探讨了一组能够捕捉这种目的的子模函数。
-
-    
-
-    子集选择任务在推荐系统和搜索引擎中经常出现，要求选择一些最大化用户价值的物品子集。子集的价值往往呈现出递减的回报，因此，使用子模函数来建模。然而，在许多应用中，发现输入具有社会偏见，会降低输出子集的效用，因此需要干预以提高其效用。本文研究了一组子模函数的最大化，这些函数涵盖了上述应用中出现的函数。
-
-    Subset selection tasks, arise in recommendation systems and search engines and ask to select a subset of items that maximize the value for the user. The values of subsets often display diminishing returns, and hence, submodular functions have been used to model them. If the inputs defining the submodular function are known, then existing algorithms can be used. In many applications, however, inputs have been observed to have social biases that reduce the utility of the output subset. Hence, interventions to improve the utility are desired. Prior works focus on maximizing linear functions -- a special case of submodular functions -- and show that fairness constraint-based interventions can not only ensure proportional representation but also achieve near-optimal utility in the presence of biases. We study the maximization of a family of submodular functions that capture functions arising in the aforementioned applications. Our first result is that, unlike linear functions, constraint-ba
-    
-[^4]: 基于超图强化学习的分层对话推荐中的策略学习
-
-    Towards Hierarchical Policy Learning for Conversational Recommendation with Hypergraph-based Reinforcement Learning. (arXiv:2305.02575v1 [cs.IR])
-
-    [http://arxiv.org/abs/2305.02575](http://arxiv.org/abs/2305.02575)
-
-    本文提出了一种新颖的基于超图强化学习的分层对话推荐模型，其中导演通过超图算法进行选择，帮助演员减少行动空间和指导对话朝着最具信息性的属性方向进行，并根据用户在对话中的偏好选择物品。
+    本文提出了一种利用大型语言模型进行查询扩展的方法，相比传统方法具有更好的表现，特别是Chain-of-Thought提示对于查询扩展有着重要的作用。
 
     
 
-    对话推荐系统旨在通过对话及时主动地获取用户的偏好，并推荐相应的物品。然而，现有的方法往往使用统一的决策模块或启发式规则，而忽略了不同决策过程的角色差异和相互作用。为此，本文提出了一种新颖的基于超图强化学习的分层对话推荐模型，其中导演通过超图算法进行选择，帮助演员减少行动空间，指导对话朝着最具信息性的属性方向进行，并根据用户在对话中的偏好选择物品。实验结果表明，与现有方法相比，本文方法在真实数据集上表现出更高的效果和优越性。
+    查询扩展是提高搜索系统召回率的常用技术。本文提出了一种利用大型语言模型（LLM）的生成能力进行查询扩展的方法。与传统的查询扩展方法如“伪相关反馈”（PRF）依赖于检索一组好的伪相关文档来扩展查询相比，我们依赖LLM的生成和创造能力，并利用模型固有的知识。我们研究了各种不同的提示，包括零-shot、few-shot和Chain-of-Thought（CoT）。我们发现CoT提示对于查询扩展特别有用，因为这些提示指示模型逐步分解查询，并可以提供与原始查询相关的大量术语。在MS-MARCO和BEIR上的实验结果表明，LLM生成的查询扩展可以比传统的查询扩展方法更具优势。
 
-    Conversational recommendation systems (CRS) aim to timely and proactively acquire user dynamic preferred attributes through conversations for item recommendation. In each turn of CRS, there naturally have two decision-making processes with different roles that influence each other: 1) director, which is to select the follow-up option (i.e., ask or recommend) that is more effective for reducing the action space and acquiring user preferences; and 2) actor, which is to accordingly choose primitive actions (i.e., asked attribute or recommended item) that satisfy user preferences and give feedback to estimate the effectiveness of the director's option. However, existing methods heavily rely on a unified decision-making module or heuristic rules, while neglecting to distinguish the roles of different decision procedures, as well as the mutual influences between them. To address this, we propose a novel Director-Actor Hierarchical Conversational Recommender (DAHCR), where the director select
+    Query expansion is a widely used technique to improve the recall of search systems. In this paper, we propose an approach to query expansion that leverages the generative abilities of Large Language Models (LLMs). Unlike traditional query expansion approaches such as Pseudo-Relevance Feedback (PRF) that relies on retrieving a good set of pseudo-relevant documents to expand queries, we rely on the generative and creative abilities of an LLM and leverage the knowledge inherent in the model. We study a variety of different prompts, including zero-shot, few-shot and Chain-of-Thought (CoT). We find that CoT prompts are especially useful for query expansion as these prompts instruct the model to break queries down step-by-step and can provide a large number of terms related to the original query. Experimental results on MS-MARCO and BEIR demonstrate that query expansions generated by LLMs can be more powerful than traditional query expansion methods.
     
-[^5]: 以计算语言学视角分析香港的法律判决
+[^3]: 通过兴趣解耦重新训练基于图的推荐系统
 
-    Analyzing Hong Kong's Legal Judgments from a Computational Linguistics point-of-view. (arXiv:2305.02558v1 [cs.CL])
+    Retraining A Graph-based Recommender with Interests Disentanglement. (arXiv:2305.03624v1 [cs.IR])
 
-    [http://arxiv.org/abs/2305.02558](http://arxiv.org/abs/2305.02558)
+    [http://arxiv.org/abs/2305.03624](http://arxiv.org/abs/2305.03624)
 
-    本文提供了多种基于统计、机器学习和深度学习等方法来有效地分析香港的法律判决，并从中提取关键信息，解决了价格高和资源缺乏的问题。
-
-    
-
-    利用计算语言学从法律判决中提取有用信息是信息检索领域早期提出的问题之一。目前，存在多个商业供应商自动化执行这些任务。然而，在分析香港法院系统的判决时，存在价格过高和缺乏资源的关键瓶颈。本文提供了几种基于统计学、机器学习、深度学习和零样本学习的方法，以有效地分析香港法院系统的法律判决。所提出的方法包括：（1）引文网络图生成，（2）PageRank算法，（3）关键词分析和摘要，（4）情感极性，以及（5）段落分类，以便能够提取单个判决以及群体判决的关键见解。这将使对香港判决的整体分析变得不那么繁琐。
-
-    Analysis and extraction of useful information from legal judgments using computational linguistics was one of the earliest problems posed in the domain of information retrieval. Presently, several commercial vendors exist who automate such tasks. However, a crucial bottleneck arises in the form of exorbitant pricing and lack of resources available in analysis of judgements mete out by Hong Kong's Legal System. This paper attempts to bridge this gap by providing several statistical, machine learning, deep learning and zero-shot learning based methods to effectively analyze legal judgments from Hong Kong's Court System. The methods proposed consists of: (1) Citation Network Graph Generation, (2) PageRank Algorithm, (3) Keyword Analysis and Summarization, (4) Sentiment Polarity, and (5) Paragrah Classification, in order to be able to extract key insights from individual as well a group of judgments together. This would make the overall analysis of judgments in Hong Kong less tedious and m
-    
-[^6]: 大规模搜索和推荐实验的显著性检验
-
-    Inference at Scale Significance Testing for Large Search and Recommendation Experiments. (arXiv:2305.02461v1 [cs.IR])
-
-    [http://arxiv.org/abs/2305.02461](http://arxiv.org/abs/2305.02461)
-
-    本文研究了大规模搜索和推荐实验的显著性检验行为，结果发现在大样本下Wilcoxon和Sign测试的1型错误率显著更高，建议在这种情况下使用bootstrap、随机化和t测试。
+    本文提出了Disentangled Incremental Learning (DIL)框架，可以通过兴趣解耦的方式重新训练基于图的推荐系统，具有较高的准确性和效率。
 
     
 
-    许多信息检索研究已经进行了评估，以确定哪种统计技术适用于比较系统。然而，这些研究集中于TREC样式的实验，通常少于100个主题。没有类似的研究适用于大规模搜索和推荐实验；这些研究通常涉及数千个主题或用户以及更稀疏的相关性判断，因此不清楚分析传统TREC实验的建议是否适用于这些情况。在本文中，我们实证研究了大规模搜索和推荐评估数据的显著性检验行为。我们的结果显示，Wilcoxon和Sign测试显示出显著更高的1型错误率，而不是更一致符合预期错误率的bootstrap、随机化和t测试。虽然统计测试在样本较小时显示出功率差异，但在功率相同时显示出没有区别。
+    在实际的推荐系统中，会不断观察到新的交互。一些交互是预期的，因为它们大部分遵循用户的长期偏好。其他一些交互则表明用户偏好的最新趋势或新物品的营销立场。因此，推荐算法需要周期性地重新训练或更新，以捕捉新的趋势，同时不要忘记长期偏好。本文提出了一种称为Disentangled Incremental Learning（DIL）的新型通用重新训练框架，用于基于图的推荐系统。假设长期偏好已经以学习自过去交互的模型参数的形式在现有模型中得到良好捕捉。新偏好可以通过使用新观察到的交互构建的用户-物品二分图来学习。在Disentangled Incremental Learning（DIL）中，设计了信息提取模块来从现有模型中提取历史偏好。然后，我们通过基于新设计的正则化项的Disentangled Information Embedding（解耦信息嵌入）来混合历史和新偏好。解耦的嵌入可以直接用于推荐或下游任务。我们在三个基准数据集上进行了广泛的实验。实验结果表明，DIL在推荐准确性和效率方面均优于多个最新的方法。
 
-    A number of information retrieval studies have been done to assess which statistical techniques are appropriate for comparing systems. However, these studies are focused on TREC-style experiments, which typically have fewer than 100 topics. There is no similar line of work for large search and recommendation experiments; such studies typically have thousands of topics or users and much sparser relevance judgements, so it is not clear if recommendations for analyzing traditional TREC experiments apply to these settings. In this paper, we empirically study the behavior of significance tests with large search and recommendation evaluation data. Our results show that the Wilcoxon and Sign tests show significantly higher Type-1 error rates for large sample sizes than the bootstrap, randomization and t-tests, which were more consistent with the expected error rate. While the statistical tests displayed differences in their power for smaller sample sizes, they showed no difference in their po
+    In a practical recommender system, new interactions are continuously observed. Some interactions are expected, because they largely follow users' long-term preferences. Some other interactions are indications of recent trends in user preference changes or marketing positions of new items. Accordingly, the recommender needs to be periodically retrained or updated to capture the new trends, and yet not to forget the long-term preferences. In this paper, we propose a novel and generic retraining framework called Disentangled Incremental Learning (DIL) for graph-based recommenders. We assume that long-term preferences are well captured in the existing model, in the form of model parameters learned from past interactions. New preferences can be learned from the user-item bipartite graph constructed using the newly observed interactions. In DIL, we design an Information Extraction Module to extract historical preferences from the existing model. Then we blend the historical and new preferenc
     
-[^7]: 针对神经排序模型的几乎不可察觉的文档篡改
+[^4]: 读两遍：通过重新审视证据实现准确且可解释的事实验证
 
-    Towards Imperceptible Document Manipulations against Neural Ranking Models. (arXiv:2305.01860v1 [cs.IR])
+    Read it Twice: Towards Faithfully Interpretable Fact Verification by Revisiting Evidence. (arXiv:2305.03507v1 [cs.CL])
 
-    [http://arxiv.org/abs/2305.01860](http://arxiv.org/abs/2305.01860)
+    [http://arxiv.org/abs/2305.03507](http://arxiv.org/abs/2305.03507)
 
-    该论文提出了一种针对神经排序模型的不易被检测到的对抗性攻击框架，称为“几乎不可察觉文档操作”（IDEM）。IDEM使用生成语言模型生成连结句，无法引入易于检测的错误，并且使用单独的位置合并策略来平衡扰动文本的相关性和连贯性，实验结果表明，IDEM可以在保持高人类评估得分的同时优于强基线。
-
-    
-
-    对抗性攻击已经开始应用于发现神经排序模型（NRMs）中的潜在漏洞，但是当前攻击方法常常会引入语法错误，无意义的表达，或不连贯的文本片段，这些都很容易被检测到。此外，当前方法严重依赖于使用与真实的NRM相似的模拟NRM来保证攻击效果，这使得它们在实践中难以使用。为了解决这些问题，我们提出了一个称为“几乎不可察觉文档操作”（IDEM）的框架，用于生成对算法和人类来说都不太明显的对抗文档。IDEM指示一个经过良好建立的生成语言模型（例如BART）生成连接句，而不会引入易于检测的错误，并采用单独的逐位置合并策略来平衡扰动文本的相关性和连贯性。在流行的MS MARCO基准上的实验结果表明，IDEM可以在保持高人类评估得分的同时，优于强基线。
-
-    Adversarial attacks have gained traction in order to identify potential vulnerabilities in neural ranking models (NRMs), but current attack methods often introduce grammatical errors, nonsensical expressions, or incoherent text fragments, which can be easily detected. Additionally, current methods rely heavily on the use of a well-imitated surrogate NRM to guarantee the attack effect, which makes them difficult to use in practice. To address these issues, we propose a framework called Imperceptible DocumEnt Manipulation (IDEM) to produce adversarial documents that are less noticeable to both algorithms and humans. IDEM instructs a well-established generative language model, such as BART, to generate connection sentences without introducing easy-to-detect errors, and employs a separate position-wise merging strategy to balance relevance and coherence of the perturbed text. Experimental results on the popular MS MARCO benchmark demonstrate that IDEM can outperform strong baselines while 
-    
-[^8]: 基于对比知识蒸馏的集成建模在序列推荐中的应用
-
-    Ensemble Modeling with Contrastive Knowledge Distillation for Sequential Recommendation. (arXiv:2304.14668v1 [cs.IR])
-
-    [http://arxiv.org/abs/2304.14668](http://arxiv.org/abs/2304.14668)
-
-    本研究提出了一种基于对比知识蒸馏的集成建模方法EMKD，它采用多个并行网络作为序列编码器，在序列推荐中根据所有网络的输出分布推荐物品。实验证明，EMKD在两个真实世界数据集上的表现显著优于最先进的方法。
+    本研究提出了一种名为“ ReRead”的事实验证模型，其以两个阶段（证据检索和声明验证）实现准确且可解释的事实验证，并在FEVER数据集上实现了最先进的结果。
 
     
 
-    序列推荐旨在捕捉用户的动态兴趣，预测用户下一次的偏好物品。多数方法使用深度神经网络作为序列编码器生成用户和物品表示。现有工作主要侧重于设计更强的序列编码器。然而，很少有尝试使用训练一组网络作为序列编码器的方法，这比单个网络更强大，因为一组并行网络可以产生多样化的预测结果，从而获得更好的准确性。本文提出了一种基于对比知识蒸馏的集成建模方法，即EMKD，在序列推荐中使用多个并行网络作为序列编码器，并根据所有这些网络的输出分布推荐物品。为了促进并行网络之间的知识转移，我们提出了一种新颖的对比知识蒸馏方法，它将知识从教师网络转移到多个学生网络中。在两个真实世界数据集上的实验表明，我们提出的EMKD显著优于最先进的序列推荐方法和集成基线。
+    现实世界中的事实验证任务旨在通过从原始文档中检索证据来验证声明的事实性。 检索到的证据的质量在该任务中起着重要作用。 理想情况下，检索到的证据应该是可信的（反映了模型在声明验证中的决策过程）且合理的（对人类有说服力），并能提高验证任务的准确性。 尽管现有的方法利用声明和文档之间的语义或表面形式的相似性度量来检索证据，但它们都依赖于某些启发式方法，这些方法会阻止它们满足所有三个要求。 鉴于此，我们提出了一种名为“ ReRead”的事实验证模型，以检索证据并验证声明，该模型具有以下两个阶段：1）证据检索阶段，该阶段通过使用忠实且合理的证据取回器来获取可解释的证据；2）声明验证阶段，该阶段重新审视检索到的证据以验证声明。 我们在广泛使用的FEVER数据集上验证了所提出的模型，实验结果表明，我们的模型取得了最先进的结果。
 
-    Sequential recommendation aims to capture users' dynamic interest and predicts the next item of users' preference. Most sequential recommendation methods use a deep neural network as sequence encoder to generate user and item representations. Existing works mainly center upon designing a stronger sequence encoder. However, few attempts have been made with training an ensemble of networks as sequence encoders, which is more powerful than a single network because an ensemble of parallel networks can yield diverse prediction results and hence better accuracy. In this paper, we present Ensemble Modeling with contrastive Knowledge Distillation for sequential recommendation (EMKD). Our framework adopts multiple parallel networks as an ensemble of sequence encoders and recommends items based on the output distributions of all these networks. To facilitate knowledge transfer between parallel networks, we propose a novel contrastive knowledge distillation approach, which performs knowledge tran
+    Real-world fact verification task aims to verify the factuality of a claim by retrieving evidence from the source document. The quality of the retrieved evidence plays an important role in claim verification. Ideally, the retrieved evidence should be faithful (reflecting the model's decision-making process in claim verification) and plausible (convincing to humans), and can improve the accuracy of verification task. Although existing approaches leverage the similarity measure of semantic or surface form between claims and documents to retrieve evidence, they all rely on certain heuristics that prevent them from satisfying all three requirements. In light of this, we propose a fact verification model named ReRead to retrieve evidence and verify claim that: (1) Train the evidence retriever to obtain interpretable evidence (i.e., faithfulness and plausibility criteria); (2) Train the claim verifier to revisit the evidence retrieved by the optimized evidence retriever to improve the accura
     
-[^9]: 通过可扩展的主题嵌入从连续新闻流中无监督地发现故事
+[^5]: 合理看待所看到的：关系提取的连续理据抽取
 
-    Unsupervised Story Discovery from Continuous News Streams via Scalable Thematic Embedding. (arXiv:2304.04099v1 [cs.IR])
+    Think Rationally about What You See: Continuous Rationale Extraction for Relation Extraction. (arXiv:2305.03503v1 [cs.CL])
 
-    [http://arxiv.org/abs/2304.04099](http://arxiv.org/abs/2304.04099)
+    [http://arxiv.org/abs/2305.03503](http://arxiv.org/abs/2305.03503)
 
-    本研究提出了一种新颖的主题嵌入方法和一个可扩展的无监督在线故事发现框架USTORY，可以动态表示文章和故事，并考虑它们共享的时间主题和新颖性，以帮助人们消化大量的新闻流。
-
-    
-
-    无监督地发现实时相关新闻文章故事，有助于人们在不需要昂贵人工注释的情况下消化大量的新闻流。现有的无监督在线故事发现研究的普遍方法是用符号或基于图的嵌入来表示新闻文章，并将它们逐步聚类成故事。最近的大型语言模型有望进一步改善嵌入，但是通过无差别地编码文章中的所有信息来直接采用这些模型无法有效处理富含文本且不断发展的新闻流。在这项工作中，我们提出了一种新颖的主题嵌入方法，使用现成的预训练句子编码器来动态表示文章和故事，并考虑它们共享的时间主题。为了实现无监督在线故事发现的想法，引入了一个可扩展框架USTORY，包括两个主要技术，即主题和时间感知的动态嵌入和新颖性感知的自适应聚类。
-
-    Unsupervised discovery of stories with correlated news articles in real-time helps people digest massive news streams without expensive human annotations. A common approach of the existing studies for unsupervised online story discovery is to represent news articles with symbolic- or graph-based embedding and incrementally cluster them into stories. Recent large language models are expected to improve the embedding further, but a straightforward adoption of the models by indiscriminately encoding all information in articles is ineffective to deal with text-rich and evolving news streams. In this work, we propose a novel thematic embedding with an off-the-shelf pretrained sentence encoder to dynamically represent articles and stories by considering their shared temporal themes. To realize the idea for unsupervised online story discovery, a scalable framework USTORY is introduced with two main techniques, theme- and time-aware dynamic embedding and novelty-aware adaptive clustering, fuel
-    
-[^10]: 使用语言模型提示进行推理：一项调查
-
-    Reasoning with Language Model Prompting: A Survey. (arXiv:2212.09597v2 [cs.CL] UPDATED)
-
-    [http://arxiv.org/abs/2212.09597](http://arxiv.org/abs/2212.09597)
-
-    本文提供了使用语言模型提示进行推理的前沿研究综合调查。讨论了新兴推理能力出现的潜在原因，并提供系统资源帮助初学者。
+    本研究提出了一种新颖的关系提取的理据抽取框架RE2，利用两个连续性和稀疏性因素从句子中获取相关而连贯的理据，解决了如何保留相关内容并从句子中去掉噪音段落的问题。实验结果显示我们的模型优于现有的最先进方法，并且提取出的理据对于推理和解释是有用的。
 
     
 
-    推理作为复杂问题解决的重要能力，可以为医疗诊断、谈判等各种实际应用提供后端支持。本文对使用语言模型提示进行推理的前沿研究进行了综合调查。我们介绍了研究成果的比较和总结，并提供了系统资源以帮助初学者。我们还讨论了新兴推理能力出现的潜在原因，并突出了未来的研究方向。资源可在 https://github.com/zjunlp/Prompt4ReasoningPapers 上获取（定期更新）。
+    关系提取旨在根据两个实体的语境提取潜在关系，因此，从句子中推导出合理的语境非常重要。以往的研究要么专注于如何利用实体信息（例如，实体类型，实体用语）来推断关系，但忽略了以语境为重点的内容，要么使用反事实思维来消除模型对实体潜在关系的偏见，但关系推理过程仍会受到无关内容的干扰。因此，如何保留有关内容并从句子中去掉噪音段落是一项关键任务。此外，保留的内容需要足够流畅，以保持语义的连贯性和可解释性。在这项工作中，我们提出了一种新颖的理据抽取框架RE2，它利用两个连续性和稀疏性因素从句子中获取相关而连贯的理据。为了解决黄金理据未标记的问题，RE2应用一种无监督方法生成候选理据，并选择最相关和连贯的理据来指导RE模型。两个基准数据集上的实验结果表明，我们的模型优于现有的最先进方法，并且提取出的理据对于推理和解释是有用的。
 
-    Reasoning, as an essential ability for complex problem-solving, can provide back-end support for various real-world applications, such as medical diagnosis, negotiation, etc. This paper provides a comprehensive survey of cutting-edge research on reasoning with language model prompting. We introduce research works with comparisons and summaries and provide systematic resources to help beginners. We also discuss the potential reasons for emerging such reasoning abilities and highlight future research directions. Resources are available at https://github.com/zjunlp/Prompt4ReasoningPapers (updated periodically).
+    Relation extraction (RE) aims to extract potential relations according to the context of two entities, thus, deriving rational contexts from sentences plays an important role. Previous works either focus on how to leverage the entity information (e.g., entity types, entity verbalization) to inference relations, but ignore context-focused content, or use counterfactual thinking to remove the model's bias of potential relations in entities, but the relation reasoning process will still be hindered by irrelevant content. Therefore, how to preserve relevant content and remove noisy segments from sentences is a crucial task. In addition, retained content needs to be fluent enough to maintain semantic coherence and interpretability. In this work, we propose a novel rationale extraction framework named RE2, which leverages two continuity and sparsity factors to obtain relevant and coherent rationales from sentences. To solve the problem that the gold rationales are not labeled, RE2 applies an
     
-[^11]: 简化版TinyBERT: 用于文档检索的知识蒸馏
+[^6]: 用图谱预训练和提示增强低资源文本分类
 
-    Simplified TinyBERT: Knowledge Distillation for Document Retrieval. (arXiv:2009.07531v2 [cs.IR] CROSS LISTED)
+    Augmenting Low-Resource Text Classification with Graph-Grounded Pre-training and Prompting. (arXiv:2305.03324v1 [cs.IR])
 
-    [http://arxiv.org/abs/2009.07531](http://arxiv.org/abs/2009.07531)
+    [http://arxiv.org/abs/2305.03324](http://arxiv.org/abs/2305.03324)
 
-    本文提出了一种基于知识蒸馏的文档检索模型Simplified TinyBERT，它在提供15倍速度提升的情况下比BERT-Base表现更好。
-
-    
-
-    尽管利用BERT模型进行文档排序十分有效，但这种方法的高计算成本限制了其使用。因此，本文首先在文档排序任务上实证研究了两个知识蒸馏模型的有效性。此外，在最近提出的TinyBERT模型基础上，提出了两种简化方案。两个不同并且广泛使用的基准测试的评估表明，具有所提出简化方案的Simplified TinyBERT不仅提升了TinyBERT，而且在提供15倍速度提升的情况下也明显优于BERT-Base。
-
-    Despite the effectiveness of utilizing the BERT model for document ranking, the high computational cost of such approaches limits their uses. To this end, this paper first empirically investigates the effectiveness of two knowledge distillation models on the document ranking task. In addition, on top of the recently proposed TinyBERT model, two simplifications are proposed. Evaluations on two different and widely-used benchmarks demonstrate that Simplified TinyBERT with the proposed simplifications not only boosts TinyBERT, but also significantly outperforms BERT-Base when providing 15$\times$ speedup.
-    
-[^12]: 富有属性网络中的顶点提名
-
-    Vertex Nomination in Richly Attributed Networks. (arXiv:2005.02151v3 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2005.02151](http://arxiv.org/abs/2005.02151)
-
-    本文探讨了富有属性网络中顶点提名的双重作用，并提出了一种新颖的基于内容感知的网络嵌入方法，证明该方法优于现有的不利用内容和上下文的顶点提名方法。
+    本文提出一种名为G2P2的模型，使用图谱预训练和提示的方式增强低资源文本分类，实验证明该模型优于现有的最先进方法。
 
     
 
-    顶点提名是一项轻度监督的网络信息检索任务，在这个任务中，感兴趣的一张图的顶点被用来查询第二张图以发现感兴趣的第二张图的顶点。与其他信息检索任务类似，顶点提名方案的输出是第二张图中顶点的排序列表，理想情况下，未知的感兴趣的顶点应该集中在列表的顶部。顶点提名方案为高效地挖掘复杂网络中的相关信息提供了有用的工具。在本文中，我们从理论和实践两方面探讨了内容（即边缘和顶点属性）和上下文（即网络拓扑结构）在顶点提名中的双重作用。我们提供了必要和充分的条件，证明了利用内容和上下文的顶点提名方案能够超越仅利用内容或上下文的方案。虽然内容和上下文的联合效用在其他网络分析任务中已经得到证实，但我们证明在顶点提名的背景下，这种联合效用也是成立的。此外，我们提出了一种新颖的基于内容感知的网络嵌入方法，用于顶点提名，可以有效地结合局部和全局网络属性信息。我们在真实的社交和引用网络上进行了实验，证明了我们提出的方法优于不利用内容和上下文的现有的顶点提名方法。
+    文本分类是信息检索中的一个基本问题，具有许多实际应用，例如预测在线文章的主题和电子商务产品描述的类别。然而，低资源文本分类，没有或只有很少标记样本，对于监督学习来说是一个严重的问题。同时，许多文本数据本质上基于网络结构，例如在线文章的超链接/引用网络和电子商务产品的用户-项目购买网络。这些图形结构捕捉了丰富的语义关系，可以潜在地增强低资源文本分类。本文提出了一种新颖的模型，称为图形基础预训练和提示（G2P2），以两个方面解决低资源文本分类。在预训练期间，我们提出了三种基于图形交互的对比策略，以联合预训练图形-文本模型；在下游分类过程中，我们探索提示进行从高资源到低资源任务的迁移学习。在四个低资源基准测试上的实验表明，G2P2显着优于先前的最先进方法，我们的分析表明，图形接地和提示策略对于利用辅助知识进行低资源文本分类是有效的。
 
-    Vertex nomination is a lightly-supervised network information retrieval task in which vertices of interest in one graph are used to query a second graph to discover vertices of interest in the second graph. Similar to other information retrieval tasks, the output of a vertex nomination scheme is a ranked list of the vertices in the second graph, with the heretofore unknown vertices of interest ideally concentrating at the top of the list. Vertex nomination schemes provide a useful suite of tools for efficiently mining complex networks for pertinent information. In this paper, we explore, both theoretically and practically, the dual roles of content (i.e., edge and vertex attributes) and context (i.e., network topology) in vertex nomination. We provide necessary and sufficient conditions under which vertex nomination schemes that leverage both content and context outperform schemes that leverage only content or context separately. While the joint utility of both content and context has 
+    Text classification is a fundamental problem in information retrieval with many real-world applications, such as predicting the topics of online articles and the categories of e-commerce product descriptions. However, low-resource text classification, with few or no labeled samples, poses a serious concern for supervised learning. Meanwhile, many text data are inherently grounded on a network structure, such as a hyperlink/citation network for online articles, and a user-item purchase network for e-commerce products. These graph structures capture rich semantic relationships, which can potentially augment low-resource text classification. In this paper, we propose a novel model called Graph-Grounded Pre-training and Prompting (G2P2) to address low-resource text classification in a two-pronged approach. During pre-training, we propose three graph interaction-based contrastive strategies to jointly pre-train a graph-text model; during downstream classification, we explore prompting for t
+    
+[^7]: 文本嵌入对NLP聚类性能的影响。
+
+    Influence of various text embeddings on clustering performance in NLP. (arXiv:2305.03144v1 [cs.LG])
+
+    [http://arxiv.org/abs/2305.03144](http://arxiv.org/abs/2305.03144)
+
+    研究探索了不同文本嵌入对聚类算法（KMeans、单链接聚合等级、DBSCAN和HDBSCAN）性能的影响，并应用于评论聚类领域。
+
+    
+
+    随着电子商务平台的出现，评论对于顾客评估产品的可信度至关重要。但是，星级评分并不总是与顾客编写的评论文本相匹配。在本研究中，我们探索了选择不同文本嵌入来表示这些评论的任务，并探究了嵌入选择对各种类型聚类算法性能的影响。我们使用上下文（BERT）和非上下文（Word2Vec）文本嵌入来表示文本，并测量它们对三种聚类算法（基于分区的KMeans、单链接聚合等级和密度基础的DBSCAN和HDBSCAN）在不同实验设置下的影响。
+
+    With the advent of e-commerce platforms, reviews are crucial for customers to assess the credibility of a product. The star ratings do not always match the review text written by the customer. For example, a three star rating (out of five) may be incongruous with the review text, which may be more suitable for a five star review. A clustering approach can be used to relabel the correct star ratings by grouping the text reviews into individual groups. In this work, we explore the task of choosing different text embeddings to represent these reviews and also explore the impact the embedding choice has on the performance of various classes of clustering algorithms. We use contextual (BERT) and non-contextual (Word2Vec) text embeddings to represent the text and measure their impact of three classes on clustering algorithms - partitioning based (KMeans), single linkage agglomerative hierarchical, and density based (DBSCAN and HDBSCAN), each with various experimental settings. We use the sil
+    
+[^8]: 利用社会人口学优化前后癌症检查的短信提醒活动：对膀胱癌的计算机模拟研究
+
+    Optimizing SMS Reminder Campaigns for Pre- and Post-Diagnosis Cancer Check-Ups using Socio-Demographics: An In-Silco Investigation Into Bladder Cancer. (arXiv:2305.03126v1 [stat.AP])
+
+    [http://arxiv.org/abs/2305.03126](http://arxiv.org/abs/2305.03126)
+
+    本研究提出一个框架，基于社会人口学的特点，对癌症检查的短信提醒活动进行了优化，研究结果表明，光基于这些特征进行短信提醒活动可以将死亡率的统计数量降低5.8％。
+
+    
+
+    及时进行癌症的预后和诊断检查对于各类型的癌症患者来说都至关重要，这通常会带来更好的治疗效果。不幸的是，现有的检查政策只考虑与癌症的临床动力学密切相关的属性。本研究提出了一种新的框架和高分辨率计算机模拟，以调查和优化基于社会人口学的癌症检查短信提醒活动。我们利用大量的真实数据对膀胱癌进行了框架和模拟实例化。研究结果表明，仅基于简单的社会人口学特征优化短信提醒活动可以将死亡率的统计显著降低5.8％，与其他活动相比。
+
+    Timely pre- and post-diagnosis check-ups are critical for cancer patients, across all cancer types, as these often lead to better outcomes. Several socio-demographic properties have been identified as strongly connected with both cancer's clinical dynamics and (indirectly) with different individual check-up behaviors. Unfortunately, existing check-up policies typically consider only the former association explicitly. In this work, we propose a novel framework, accompanied by a high-resolution computer simulation, to investigate and optimize socio-demographic-based SMS reminder campaigns for cancer check-ups. We instantiate our framework and simulation for the case of bladder cancer, the 10th most prevalent cancer today, using extensive real-world data. Our results indicate that optimizing an SMS reminder campaign based solely on simple socio-demographic features can bring about a statistically significant reduction in mortality rate compared to alternative campaigns by up to 5.8%.
+    
+[^9]: 混合检索中的融合函数分析
+
+    An Analysis of Fusion Functions for Hybrid Retrieval. (arXiv:2210.11934v2 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2210.11934](http://arxiv.org/abs/2210.11934)
+
+    本文研究了混合搜索的方法，将词汇和语义搜索融合在一起，在此基础上分析了利用凸组合和互惠排名融合两种方法的优缺点。我们发现凸组合比互惠排名融合更加优秀，具有样本效率，并且只需要少量训练集即可调整参数以适应目标领域。
+
+    
+
+    本文研究文本检索中混合搜索的方法，将词汇和语义搜索融合在一起，因为它们对于模型相关性的建模具有互补性。特别地，我们研究了通过词汇和语义评分的凸组合（CC）进行融合，以及互惠排名融合（RRF）方法，并确定它们的优点和潜在缺陷。与现有研究相反，我们发现RRF对其参数很敏感；CC融合的学习通常不关心评分规范的选择；CC在域内和域外设置中优于RRF；最后，CC具有样本效率，只需要少量训练示例即可调整其唯一参数以适应目标领域。
+
+    We study hybrid search in text retrieval where lexical and semantic search are fused together with the intuition that the two are complementary in how they model relevance. In particular, we examine fusion by a convex combination (CC) of lexical and semantic scores, as well as the Reciprocal Rank Fusion (RRF) method, and identify their advantages and potential pitfalls. Contrary to existing studies, we find RRF to be sensitive to its parameters; that the learning of a CC fusion is generally agnostic to the choice of score normalization; that CC outperforms RRF in in-domain and out-of-domain settings; and finally, that CC is sample efficient, requiring only a small set of training examples to tune its only parameter to a target domain.
+    
+[^10]: LOGEN：基于逻辑知识条件的自训练文本生成在少样本下的应用
+
+    LOGEN: Few-shot Logical Knowledge-Conditioned Text Generation with Self-training. (arXiv:2112.01404v3 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2112.01404](http://arxiv.org/abs/2112.01404)
+
+    本文提出了一种基于少样本的逻辑知识条件下文本生成的统一框架LOGEN，通过自训练和基于内容和结构一致性抽样伪逻辑形式，实现了在少量样本下的文本生成。
+
+    
+
+    结构化数据的自然语言生成主要集中在表面层面描述，其存在控制内容选择困难和低保真度的问题。先前的研究利用逻辑形式来促进逻辑知识条件下的文本生成。虽然取得了显著进展，但是它们对数据的需求量较大，这使得在有限数据情况下应用于现实世界应用变得具有挑战性。为此，本文提出了一种基于少样本的逻辑知识条件下文本生成的统一框架。我们的方法只使用少量种子逻辑形式（如20/100种子） ，并利用自训练和基于内容和结构一致性抽样伪逻辑形式。实验结果表明，我们的方法可以比基准方法获得更好的少样本性能。
+
+    Natural language generation from structured data mainly focuses on surface-level descriptions, suffering from uncontrollable content selection and low fidelity. Previous works leverage logical forms to facilitate logical knowledge-conditioned text generation. Though achieving remarkable progress, they are data-hungry, which makes the adoption for real-world applications challenging with limited data. To this end, this paper proposes a unified framework for logical knowledge-conditioned text generation in the few-shot setting. With only a few seeds logical forms (e.g., 20/100 shot), our approach leverages self-training and samples pseudo logical forms based on content and structure consistency. Experimental results demonstrate that our approach can obtain better few-shot performance than baselines.
     
 

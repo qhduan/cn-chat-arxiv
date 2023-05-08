@@ -1,0 +1,12 @@
+{
+    "title": "Towards Feminist Intersectional XAI: From Explainability to Response-Ability. (arXiv:2305.03375v1 [cs.HC])",
+    "abstract": "This paper follows calls for critical approaches to computing and conceptualisations of intersectional, feminist, decolonial HCI and AI design and asks what a feminist intersectional perspective in HCXAI research and design might look like. Sketching out initial research directions and implications for explainable AI design, it suggests that explainability from a feminist perspective would include the fostering of response-ability - the capacity to critically evaluate and respond to AI systems - and would centre marginalised perspectives.",
+    "link": "http://arxiv.org/abs/2305.03375",
+    "context": "Title: Towards Feminist Intersectional XAI: From Explainability to Response-Ability. (arXiv:2305.03375v1 [cs.HC])\nAbstract: This paper follows calls for critical approaches to computing and conceptualisations of intersectional, feminist, decolonial HCI and AI design and asks what a feminist intersectional perspective in HCXAI research and design might look like. Sketching out initial research directions and implications for explainable AI design, it suggests that explainability from a feminist perspective would include the fostering of response-ability - the capacity to critically evaluate and respond to AI systems - and would centre marginalised perspectives.",
+    "path": "papers/23/05/2305.03375.json",
+    "total_tokens": 701,
+    "translated_title": "走向女性主义交叉XAI：从可解释性到响应能力",
+    "translated_abstract": "本文呼应对计算和概念化的临床方法的呼吁，关注交叉的女性主义，去殖民化的人机交互和人工智能设计方面，并询问女性主义交叉视角在HCXAI研究和设计方面的可能性。勾画初步的研究方向和对可解释AI设计的影响，建议从女性主义的角度来看，可解释性应包括培养响应能力——批判评估和应对AI系统的能力——并将边缘化的视角置于中心位置。",
+    "tldr": "本文呼吁在计算和概念化方法中采用批判性方法，关注交叉的女性主义视角，并探讨在HCXAI研究和设计中实现女性主义交叉视角所需的响应能力和关注边缘化视角。",
+    "en_tdlr": "This paper advocates for critical approaches to computing and conceptualisations of intersectional, feminist, decolonial HCI and AI design, and explores the necessary response-ability and focus on marginalised perspectives to achieve a feminist intersectional perspective in HCXAI research and design."
+}
