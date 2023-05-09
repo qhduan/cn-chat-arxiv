@@ -102,17 +102,18 @@
 | [^98] | [Learning-Augmented Private Algorithms for Multiple Quantile Release.](http://arxiv.org/abs/2210.11222) | 本文提出一种新的隐私保护方法：使用学习增强算法框架，为多分位数发布任务提供可扩展的预测质量误差保证。 |
 | [^99] | [Contact2Grasp: 3D Grasp Synthesis via Hand-Object Contact Constraint.](http://arxiv.org/abs/2210.09245) | 本论文提出了一种基于中间变量的接触约束方法，将映射分解为两个顺序阶段，以生成用于抓取的潜在接触地图，并学习接触地图到抓取姿势的映射，实现高效且高通用性的三维抓取合成。 |
 | [^100] | [CLIP-PAE: Projection-Augmentation Embedding to Extract Relevant Features for a Disentangled, Interpretable, and Controllable Text-Guided Face Manipulation.](http://arxiv.org/abs/2210.03919) | 提出了一种为了解决文本引导图像操纵中的可分离性、可解释性和可控性问题，通过定义基于相关提示的语料库子空间来获取特定图像特征并引入CLIP投影增强嵌入（PAE）作为优化目标处理的新方法。 |
-| [^101] | [Music-to-Text Synaesthesia: Generating Descriptive Text from Music Recordings.](http://arxiv.org/abs/2210.00434) | 本文提出了音乐文本视觉交感问题，收集了对齐的数据集，构建了一个计算模型来生成描述音乐录音内容的句子，并设计了群拓扑保持损失来解决高非判别性的古典音乐。 |
-| [^102] | [Gradual Drift Detection in Process Models Using Conformance Metrics.](http://arxiv.org/abs/2207.11007) | 本文提出一种使用符合度量检测逐渐漂移的算法，相较于主流算法获得更好的结果。 |
-| [^103] | [Composition of Relational Features with an Application to Explaining Black-Box Predictors.](http://arxiv.org/abs/2206.00738) | 本文提出了一种将关系特征视为函数，并使用通用函数组合的概念从简单函数推导出复杂函数的方法，将其应用于解释黑盒预测器的预测。 |
-| [^104] | [Helpfulness and Fairness of Task-Oriented Dialogue Systems.](http://arxiv.org/abs/2205.12554) | 本文研究任务导向对话系统的帮助性和公平性。作者定义了对话系统的帮助性，使用分类器自动确定帮助性，并提出使用帮助级别来衡量对话系统的公平性。实验结果表明，现有系统更容易为来自发达国家概念的问题提供帮助。 |
-| [^105] | [What Is Fairness? Philosophical Considerations and Implications For FairML.](http://arxiv.org/abs/2205.09622) | 本文探讨了公平性的哲学概念，提出了公平性和预测性能不是不可调和的对立面，并强调从数据收集到最终模型评估都需纳入伦理考虑。 |
-| [^106] | [DPMS: An ADD-Based Symbolic Approach for Generalized MaxSAT Solving.](http://arxiv.org/abs/2205.03747) | 该研究提出了DPMS算法，一种基于ADD符号化方法的广义MaxSAT求解算法，可以处理非CNF混合约束的广义MaxSAT问题，并在实验中表现优秀。 |
-| [^107] | [Multi-Label Classification of Thoracic Diseases using Dense Convolutional Network on Chest Radiographs.](http://arxiv.org/abs/2202.03583) | 本研究提出了一种基于密集卷积神经网络和GRADCAM的胸部X光疾病多标签诊断模型，获得了在Cardiomegaly条件下最高的AUC得分0.896，并使用热图提高了模型的可解释性。 |
-| [^108] | [A Large and Diverse Arabic Corpus for Language Modeling.](http://arxiv.org/abs/2201.09227) | 该论文介绍了一个大规模的阿拉伯语语料库，旨在提高大规模语言模型的跨领域知识和推理能力。 |
-| [^109] | [CausalSim: A Causal Framework for Unbiased Trace-Driven Simulation.](http://arxiv.org/abs/2201.01811) | CausalSim提出了一种因果框架，通过学习系统动态和潜在因素的因果模型，消除追踪数据中的偏差，解决了当前追踪驱动仿真器的缺陷。 |
-| [^110] | [Reinforcement Learning, Bit by Bit.](http://arxiv.org/abs/2103.04047) | 该论文讨论了强化学习代理在实际环境中的数据效率问题，并提供了原则性指导和计算结果。 |
-| [^111] | [Personalized Recommender System for Children's Book Recommendation with A Realtime Interactive Robot.](http://arxiv.org/abs/1710.00310) | 本文研究了儿童和机器人交互环境下的个性化图书推荐系统，在搜索算法、用户兴趣预测和同义词关联方面进行了创新，提高了性能，适用于嵌入式消费设备。 |
+| [^101] | [Enhancing Interpretability and Interactivity in Robot Manipulation: A Neurosymbolic Approach.](http://arxiv.org/abs/2210.00858) | 本文介绍了一种机器人操作的神经符号架构，可以通过自然语言指引机器人完成各种任务，利用共享的原始技能库以任务无关的方式解决所有情况。这将离散符号方法的可解释性和系统化泛化优势与可扩展性和代表性权力相结合。 |
+| [^102] | [Music-to-Text Synaesthesia: Generating Descriptive Text from Music Recordings.](http://arxiv.org/abs/2210.00434) | 本文提出了音乐文本视觉交感问题，收集了对齐的数据集，构建了一个计算模型来生成描述音乐录音内容的句子，并设计了群拓扑保持损失来解决高非判别性的古典音乐。 |
+| [^103] | [Gradual Drift Detection in Process Models Using Conformance Metrics.](http://arxiv.org/abs/2207.11007) | 本文提出一种使用符合度量检测逐渐漂移的算法，相较于主流算法获得更好的结果。 |
+| [^104] | [Composition of Relational Features with an Application to Explaining Black-Box Predictors.](http://arxiv.org/abs/2206.00738) | 本文提出了一种将关系特征视为函数，并使用通用函数组合的概念从简单函数推导出复杂函数的方法，将其应用于解释黑盒预测器的预测。 |
+| [^105] | [Helpfulness and Fairness of Task-Oriented Dialogue Systems.](http://arxiv.org/abs/2205.12554) | 本文研究任务导向对话系统的帮助性和公平性。作者定义了对话系统的帮助性，使用分类器自动确定帮助性，并提出使用帮助级别来衡量对话系统的公平性。实验结果表明，现有系统更容易为来自发达国家概念的问题提供帮助。 |
+| [^106] | [What Is Fairness? Philosophical Considerations and Implications For FairML.](http://arxiv.org/abs/2205.09622) | 本文探讨了公平性的哲学概念，提出了公平性和预测性能不是不可调和的对立面，并强调从数据收集到最终模型评估都需纳入伦理考虑。 |
+| [^107] | [DPMS: An ADD-Based Symbolic Approach for Generalized MaxSAT Solving.](http://arxiv.org/abs/2205.03747) | 该研究提出了DPMS算法，一种基于ADD符号化方法的广义MaxSAT求解算法，可以处理非CNF混合约束的广义MaxSAT问题，并在实验中表现优秀。 |
+| [^108] | [Multi-Label Classification of Thoracic Diseases using Dense Convolutional Network on Chest Radiographs.](http://arxiv.org/abs/2202.03583) | 本研究提出了一种基于密集卷积神经网络和GRADCAM的胸部X光疾病多标签诊断模型，获得了在Cardiomegaly条件下最高的AUC得分0.896，并使用热图提高了模型的可解释性。 |
+| [^109] | [A Large and Diverse Arabic Corpus for Language Modeling.](http://arxiv.org/abs/2201.09227) | 该论文介绍了一个大规模的阿拉伯语语料库，旨在提高大规模语言模型的跨领域知识和推理能力。 |
+| [^110] | [CausalSim: A Causal Framework for Unbiased Trace-Driven Simulation.](http://arxiv.org/abs/2201.01811) | CausalSim提出了一种因果框架，通过学习系统动态和潜在因素的因果模型，消除追踪数据中的偏差，解决了当前追踪驱动仿真器的缺陷。 |
+| [^111] | [Reinforcement Learning, Bit by Bit.](http://arxiv.org/abs/2103.04047) | 该论文讨论了强化学习代理在实际环境中的数据效率问题，并提供了原则性指导和计算结果。 |
+| [^112] | [Personalized Recommender System for Children's Book Recommendation with A Realtime Interactive Robot.](http://arxiv.org/abs/1710.00310) | 本文研究了儿童和机器人交互环境下的个性化图书推荐系统，在搜索算法、用户兴趣预测和同义词关联方面进行了创新，提高了性能，适用于嵌入式消费设备。 |
 
 # 详细
 
@@ -1516,7 +1517,21 @@
 
     Recently introduced Contrastive Language-Image Pre-Training (CLIP) bridges images and text by embedding them into a joint latent space. This opens the door to ample literature that aims to manipulate an input image by providing a textual explanation. However, due to the discrepancy between image and text embeddings in the joint space, using text embeddings as the optimization target often introduces undesired artifacts in the resulting images. Disentanglement, interpretability, and controllability are also hard to guarantee for manipulation. To alleviate these problems, we propose to define corpus subspaces spanned by relevant prompts to capture specific image characteristics. We introduce CLIP Projection-Augmentation Embedding (PAE) as an optimization target to improve the performance of text-guided image manipulation. Our method is a simple and general paradigm that can be easily computed and adapted, and smoothly incorporated into any CLIP-based image manipulation algorithm. To demo
     
-[^101]: 音乐文本视觉交感：从音乐录音中生成描述性文本
+[^101]: 增强机器人操作的可解释性和互动性：一种神经符号方法
+
+    Enhancing Interpretability and Interactivity in Robot Manipulation: A Neurosymbolic Approach. (arXiv:2210.00858v3 [cs.RO] UPDATED)
+
+    [http://arxiv.org/abs/2210.00858](http://arxiv.org/abs/2210.00858)
+
+    本文介绍了一种机器人操作的神经符号架构，可以通过自然语言指引机器人完成各种任务，利用共享的原始技能库以任务无关的方式解决所有情况。这将离散符号方法的可解释性和系统化泛化优势与可扩展性和代表性权力相结合。
+
+    
+
+    本文提出了一种神经符号架构，用于将语言引导的视觉推理与机器人操作相结合。非专业人士可以使用自然语言引导机器人，提供指代表达式（REF）、问题（VQA）或抓握动作指令。该系统通过利用共享的原始技能库以任务无关的方式解决所有情况。每个原始技能都处理一个独立的子任务，例如推理视觉属性、空间关系理解、逻辑和枚举以及手臂控制。语言解析器将输入查询映射到由这些原语组成的可执行程序上，具体取决于上下文。尽管有些原语是纯符号操作（例如计数），但另一些是可训练的神经函数（例如视觉接地），因此融合了离散符号方法的可解释性和系统化泛化优势与可扩展性和再现性的代表性权力。
+
+    In this paper we present a neurosymbolic architecture for coupling language-guided visual reasoning with robot manipulation. A non-expert human user can prompt the robot using unconstrained natural language, providing a referring expression (REF), a question (VQA), or a grasp action instruction. The system tackles all cases in a task-agnostic fashion through the utilization of a shared library of primitive skills. Each primitive handles an independent sub-task, such as reasoning about visual attributes, spatial relation comprehension, logic and enumeration, as well as arm control. A language parser maps the input query to an executable program composed of such primitives, depending on the context. While some primitives are purely symbolic operations (e.g. counting), others are trainable neural functions (e.g. visual grounding), therefore marrying the interpretability and systematic generalization benefits of discrete symbolic approaches with the scalability and representational power o
+    
+[^102]: 音乐文本视觉交感：从音乐录音中生成描述性文本
 
     Music-to-Text Synaesthesia: Generating Descriptive Text from Music Recordings. (arXiv:2210.00434v2 [eess.AS] UPDATED)
 
@@ -1530,7 +1545,7 @@
 
     In this paper, we consider a novel research problem: music-to-text synaesthesia. Different from the classical music tagging problem that classifies a music recording into pre-defined categories, music-to-text synaesthesia aims to generate descriptive texts from music recordings with the same sentiment for further understanding. As existing music-related datasets do not contain the semantic descriptions on music recordings, we collect a new dataset that contains 1,955 aligned pairs of classical music recordings and text descriptions. Based on this, we build a computational model to generate sentences that can describe the content of the music recording. To tackle the highly non-discriminative classical music, we design a group topology-preservation loss, which considers more samples as a group reference and preserves the relative topology among different samples. Extensive experimental results qualitatively and quantitatively demonstrate the effectiveness of our proposed model over five
     
-[^102]: 利用符合度量检测过程模型中的逐渐漂移
+[^103]: 利用符合度量检测过程模型中的逐渐漂移
 
     Gradual Drift Detection in Process Models Using Conformance Metrics. (arXiv:2207.11007v2 [cs.AI] UPDATED)
 
@@ -1544,7 +1559,7 @@
 
     Changes, planned or unexpected, are common during the execution of real-life processes. Detecting these changes is a must for optimizing the performance of organizations running such processes. Most of the algorithms present in the state-of-the-art focus on the detection of sudden changes, leaving aside other types of changes. In this paper, we will focus on the automatic detection of gradual drifts, a special type of change, in which the cases of two models overlap during a period of time. The proposed algorithm relies on conformance checking metrics to carry out the automatic detection of the changes, performing also a fully automatic classification of these changes into sudden or gradual. The approach has been validated with a synthetic dataset consisting of 120 logs with different distributions of changes, getting better results in terms of detection and classification accuracy, delay and change region overlapping than the main state-of-the-art algorithms.
     
-[^103]: 关于关系特征的构成及其在解释黑盒预测器中的应用
+[^104]: 关于关系特征的构成及其在解释黑盒预测器中的应用
 
     Composition of Relational Features with an Application to Explaining Black-Box Predictors. (arXiv:2206.00738v2 [cs.LG] UPDATED)
 
@@ -1558,7 +1573,7 @@
 
     Relational machine learning programs like those developed in Inductive Logic Programming (ILP) offer several advantages: (1) The ability to model complex relationships amongst data instances; (2) The use of domain-specific relations during model construction; and (3) The models constructed are human-readable, which is often one step closer to being human-understandable. However, these ILP-like methods have not been able to capitalise fully on the rapid hardware, software and algorithmic developments fuelling current developments in deep neural networks. In this paper, we treat relational features as functions and use the notion of generalised composition of functions to derive complex functions from simpler ones. We formulate the notion of a set of $\text{M}$-simple features in a mode language $\text{M}$ and identify two composition operators ($\rho_1$ and $\rho_2$) from which all possible complex features can be derived. We use these results to implement a form of "explainable neural 
     
-[^104]: 任务导向对话系统的帮助性和公平性研究
+[^105]: 任务导向对话系统的帮助性和公平性研究
 
     Helpfulness and Fairness of Task-Oriented Dialogue Systems. (arXiv:2205.12554v3 [cs.CL] UPDATED)
 
@@ -1572,7 +1587,7 @@
 
     Goal-oriented dialogue systems aim to help users achieve certain goals. Therefore, how humans perceive their helpfulness is important. However, neither the human-perceived helpfulness of goal-oriented dialogue systems nor its fairness implication has been well studied. In this paper, we study computational measurements of helpfulness. We first formally define a dialogue response as helpful if it is relevant & coherent, useful, and informative to a query. Then, we collect human annotations for the helpfulness of dialogue responses based on our definition and build a classifier to automatically determine the helpfulness of a response. We further propose to use the helpfulness level of a dialogue system towards different user queries to measure the fairness of a dialogue system. Experiments with state-of-the-art dialogue systems under three information-seeking scenarios reveal that existing systems tend to be more helpful for questions regarding concepts from highly-developed countries th
     
-[^105]: 什么是公平性？哲学的思考与对fairML的影响
+[^106]: 什么是公平性？哲学的思考与对fairML的影响
 
     What Is Fairness? Philosophical Considerations and Implications For FairML. (arXiv:2205.09622v3 [cs.LG] UPDATED)
 
@@ -1586,7 +1601,7 @@
 
     A growing body of literature in fairness-aware ML (fairML) aspires to mitigate machine learning (ML)-related unfairness in automated decision making (ADM) by defining metrics that measure fairness of an ML model and by proposing methods that ensure that trained ML models achieve low values in those measures. However, the underlying concept of fairness, i.e., the question of what fairness is, is rarely discussed, leaving a considerable gap between centuries of philosophical discussion and recent adoption of the concept in the ML community. In this work, we try to bridge this gap by formalizing a consistent concept of fairness and by translating the philosophical considerations into a formal framework for the training and evaluation of ML models in ADM systems. We derive that fairness problems can already arise without the presence of protected attributes, pointing out that fairness and predictive performance are not irreconcilable counterparts, but rather that the latter is necessary to
     
-[^106]: DPMS: 一种基于ADD符号化方法的广义MaxSAT求解算法
+[^107]: DPMS: 一种基于ADD符号化方法的广义MaxSAT求解算法
 
     DPMS: An ADD-Based Symbolic Approach for Generalized MaxSAT Solving. (arXiv:2205.03747v2 [cs.AI] UPDATED)
 
@@ -1600,7 +1615,7 @@
 
     Boolean MaxSAT, as well as generalized formulations such as Min-MaxSAT and Max-hybrid-SAT, are fundamental optimization problems in Boolean reasoning. Existing methods for MaxSAT have been successful in solving benchmarks in CNF format. They lack, however, the ability to handle 1) (non-CNF) hybrid constraints, such as XORs and 2) generalized MaxSAT problems natively. To address this issue, we propose a novel dynamic-programming approach for solving generalized MaxSAT problems with hybrid constraints -- called \emph{Dynamic-Programming-MaxSAT} or DPMS for short -- based on Algebraic Decision Diagrams (ADDs). With the power of ADDs and the (graded) project-join-tree builder, our versatile framework admits many generalizations of CNF-MaxSAT, such as MaxSAT, Min-MaxSAT, and MinSAT with hybrid constraints. Moreover, DPMS scales provably well on instances with low width. Empirical results indicate that DPMS is able to solve certain problems quickly, where other algorithms based on various te
     
-[^107]: 基于密集卷积神经网络的胸部疾病多标签分类方法
+[^108]: 基于密集卷积神经网络的胸部疾病多标签分类方法
 
     Multi-Label Classification of Thoracic Diseases using Dense Convolutional Network on Chest Radiographs. (arXiv:2202.03583v2 [eess.IV] UPDATED)
 
@@ -1614,7 +1629,7 @@
 
     Traditional methods of identifying pathologies in X-ray images rely heavily on skilled human interpretation and are often time-consuming. The advent of deep learning techniques has enabled the development of automated disease diagnosis systems, but the performance of such systems is dependent on the quality of the model and the level of interpretability it provides. In this paper, we propose a multi-label disease diagnosis model for chest X-rays using a dense convolutional neural network (DenseNet) and model interpretability using GRADCAM. We trained our model using frontal X-rays and evaluated its performance using various quantitative metrics, including the area under the receiver operating characteristic curve (AUC). Our proposed model achieved the highest AUC score of 0.896 for the condition Cardiomegaly with an accuracy of 0.826, while the lowest AUC score was obtained for Nodule, at 0.655 with an accuracy of 0.66. To promote model interpretability and build trust in decision maki
     
-[^108]: 一个大规模多元化的阿拉伯语语料库用于语言建模
+[^109]: 一个大规模多元化的阿拉伯语语料库用于语言建模
 
     A Large and Diverse Arabic Corpus for Language Modeling. (arXiv:2201.09227v2 [cs.CL] UPDATED)
 
@@ -1628,7 +1643,7 @@
 
     Language models (LMs) have introduced a major paradigm shift in Natural Language Processing (NLP) modeling where large pre-trained LMs became integral to most of the NLP tasks. The LMs are intelligent enough to find useful and relevant representations of the language without any supervision. Perhaps, these models are used to fine-tune typical NLP tasks with significantly high accuracy as compared to the traditional approaches. Conversely, the training of these models requires a massively large corpus that is a good representation of the language. English LMs generally perform better than their other language counterparts, due to the availability of massive English corpora. This work elaborates on the design and development of a large Arabic corpus. It consists of over 500 GB of Arabic cleaned text targeted at improving cross-domain knowledge and downstream generalization capability of large-scale language models. Moreover, the corpus is utilized in the training of a large Arabic LM. In
     
-[^109]: CausalSim: 一种用于无偏差追踪驱动仿真的因果框架
+[^110]: CausalSim: 一种用于无偏差追踪驱动仿真的因果框架
 
     CausalSim: A Causal Framework for Unbiased Trace-Driven Simulation. (arXiv:2201.01811v4 [cs.LG] UPDATED)
 
@@ -1642,7 +1657,7 @@
 
     We present CausalSim, a causal framework for unbiased trace-driven simulation. Current trace-driven simulators assume that the interventions being simulated (e.g., a new algorithm) would not affect the validity of the traces. However, real-world traces are often biased by the choices algorithms make during trace collection, and hence replaying traces under an intervention may lead to incorrect results. CausalSim addresses this challenge by learning a causal model of the system dynamics and latent factors capturing the underlying system conditions during trace collection. It learns these models using an initial randomized control trial (RCT) under a fixed set of algorithms, and then applies them to remove biases from trace data when simulating new algorithms.  Key to CausalSim is mapping unbiased trace-driven simulation to a tensor completion problem with extremely sparse observations. By exploiting a basic distributional invariance property present in RCT data, CausalSim enables a nove
     
-[^110]: 逐步分析强化学习
+[^111]: 逐步分析强化学习
 
     Reinforcement Learning, Bit by Bit. (arXiv:2103.04047v8 [cs.LG] UPDATED)
 
@@ -1656,7 +1671,7 @@
 
     Reinforcement learning agents have demonstrated remarkable achievements in simulated environments. Data efficiency poses an impediment to carrying this success over to real environments. The design of data-efficient agents calls for a deeper understanding of information acquisition and representation. We discuss concepts and regret analysis that together offer principled guidance. This line of thinking sheds light on questions of what information to seek, how to seek that information, and what information to retain. To illustrate concepts, we design simple agents that build on them and present computational results that highlight data efficiency.
     
-[^111]: 面向儿童图书推荐的个性化推荐系统及其与实时交互机器人集成
+[^112]: 面向儿童图书推荐的个性化推荐系统及其与实时交互机器人集成
 
     Personalized Recommender System for Children's Book Recommendation with A Realtime Interactive Robot. (arXiv:1710.00310v3 [cs.IR] UPDATED)
 
