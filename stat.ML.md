@@ -47,9 +47,10 @@
 | [^43] | [CausalSim: A Causal Framework for Unbiased Trace-Driven Simulation.](http://arxiv.org/abs/2201.01811) | CausalSim提出了一种因果框架，通过学习系统动态和潜在因素的因果模型，消除追踪数据中的偏差，解决了当前追踪驱动仿真器的缺陷。 |
 | [^44] | [A Unified and Constructive Framework for the Universality of Neural Networks.](http://arxiv.org/abs/2112.14877) | 本论文提出了神经网络普适性的建构框架，任何nAI激活函数都是普适的，该框架具有统一、构造性和新视角的优势。 |
 | [^45] | [Learning Safety Filters for Unknown Discrete-Time Linear Systems.](http://arxiv.org/abs/2111.00631) | 本论文提出了一种基于学习的安全滤波器，针对带有未知模型和未知协方差的高斯噪声的离散时间线性时不变系统，通过收紧安全约束和构建鲁棒优化问题，以最小程度地修改名义控制动作，以高概率确保安全性。 |
-| [^46] | [Weighting-Based Treatment Effect Estimation via Distribution Learning.](http://arxiv.org/abs/2012.13805) | 本文提出了一种基于分布学习的加权方法，通过学习协变量在治疗组和对照组的分布并利用比率作为权重来估计治疗效果，以缓解现有加权方法中模型错误设置的问题。 |
-| [^47] | [Survival Modeling of Suicide Risk with Rare and Uncertain Diagnoses.](http://arxiv.org/abs/2009.02597) | 该研究针对罕见和不确定诊断的自杀风险进行生存建模，采用医疗索赔数据研究了自杀未遂的患者随后的自杀未遂风险，通过开发一种综合的Cox淘汰模型来完成生存回归。 |
-| [^48] | [Sequential Gaussian Processes for Online Learning of Nonstationary Functions.](http://arxiv.org/abs/1905.10003) | 本文提出了一种基于顺序蒙特卡罗算法的连续高斯过程模型，以解决高斯过程模型的计算复杂度高，难以在线顺序更新的问题，同时允许拟合具有非平稳性质的函数。方法优于现有最先进方法的性能。 |
+| [^46] | [Encoding-dependent generalization bounds for parametrized quantum circuits.](http://arxiv.org/abs/2106.03880) | 本论文推导了基于PQC的模型的泛化界限，这些界限明确地取决于用于数据编码的策略，从而限制了训练过的PQC模型在未知数据上的性能。 |
+| [^47] | [Weighting-Based Treatment Effect Estimation via Distribution Learning.](http://arxiv.org/abs/2012.13805) | 本文提出了一种基于分布学习的加权方法，通过学习协变量在治疗组和对照组的分布并利用比率作为权重来估计治疗效果，以缓解现有加权方法中模型错误设置的问题。 |
+| [^48] | [Survival Modeling of Suicide Risk with Rare and Uncertain Diagnoses.](http://arxiv.org/abs/2009.02597) | 该研究针对罕见和不确定诊断的自杀风险进行生存建模，采用医疗索赔数据研究了自杀未遂的患者随后的自杀未遂风险，通过开发一种综合的Cox淘汰模型来完成生存回归。 |
+| [^49] | [Sequential Gaussian Processes for Online Learning of Nonstationary Functions.](http://arxiv.org/abs/1905.10003) | 本文提出了一种基于顺序蒙特卡罗算法的连续高斯过程模型，以解决高斯过程模型的计算复杂度高，难以在线顺序更新的问题，同时允许拟合具有非平稳性质的函数。方法优于现有最先进方法的性能。 |
 
 # 详细
 
@@ -683,7 +684,21 @@
 
     A learning-based safety filter is developed for discrete-time linear time-invariant systems with unknown models subject to Gaussian noises with unknown covariance. Safety is characterized using polytopic constraints on the states and control inputs. The empirically learned model and process noise covariance with their confidence bounds are used to construct a robust optimization problem for minimally modifying nominal control actions to ensure safety with high probability. The optimization problem relies on tightening the original safety constraints. The magnitude of the tightening is larger at the beginning since there is little information to construct reliable models, but shrinks with time as more data becomes available.
     
-[^46]: 基于分布学习的加权治疗效果估计
+[^46]: 基于编码方式的参数化量子电路的泛化界限
+
+    Encoding-dependent generalization bounds for parametrized quantum circuits. (arXiv:2106.03880v3 [quant-ph] UPDATED)
+
+    [http://arxiv.org/abs/2106.03880](http://arxiv.org/abs/2106.03880)
+
+    本论文推导了基于PQC的模型的泛化界限，这些界限明确地取决于用于数据编码的策略，从而限制了训练过的PQC模型在未知数据上的性能。
+
+    
+
+    最近的很多研究开始探索参数化量子电路（PQC）作为机器学习模型，在混合量子经典优化框架下的潜力。特别地，关于这些模型的样本外性能的理论保证，即泛化界限，已经出现。然而，这些泛化界限中没有一个明确地取决于用于将经典输入数据编码到PQC中的策略。我们推导了基于PQC的模型的泛化界限，这些界限明确地取决于用于数据编码的策略。这些界限是对训练过的PQC模型在未知数据上性能的限制。此外，我们的结果通过结构风险最小化，即一种数学严格的模型选择框架，促进了最佳数据编码策略的选择。我们通过限制PQC-based模型的复杂度来获得我们的泛化界限，该复杂度由Rademacher复杂度和度量熵两个复杂度度量组成。
+
+    A large body of recent work has begun to explore the potential of parametrized quantum circuits (PQCs) as machine learning models, within the framework of hybrid quantum-classical optimization. In particular, theoretical guarantees on the out-of-sample performance of such models, in terms of generalization bounds, have emerged. However, none of these generalization bounds depend explicitly on how the classical input data is encoded into the PQC. We derive generalization bounds for PQC-based models that depend explicitly on the strategy used for data-encoding. These imply bounds on the performance of trained PQC-based models on unseen data. Moreover, our results facilitate the selection of optimal data-encoding strategies via structural risk minimization, a mathematically rigorous framework for model selection. We obtain our generalization bounds by bounding the complexity of PQC-based models as measured by the Rademacher complexity and the metric entropy, two complexity measures from s
+    
+[^47]: 基于分布学习的加权治疗效果估计
 
     Weighting-Based Treatment Effect Estimation via Distribution Learning. (arXiv:2012.13805v4 [cs.LG] UPDATED)
 
@@ -697,7 +712,7 @@
 
     Existing weighting methods for treatment effect estimation are often built upon the idea of propensity scores or covariate balance. They usually impose strong assumptions on treatment assignment or outcome model to obtain unbiased estimation, such as linearity or specific functional forms, which easily leads to the major drawback of model mis-specification. In this paper, we aim to alleviate these issues by developing a distribution learning-based weighting method. We first learn the true underlying distribution of covariates conditioned on treatment assignment, then leverage the ratio of covariates' density in the treatment group to that of the control group as the weight for estimating treatment effects. Specifically, we propose to approximate the distribution of covariates in both treatment and control groups through invertible transformations via change of variables. To demonstrate the superiority, robustness, and generalizability of our method, we conduct extensive experiments usi
     
-[^47]: 自杀风险的罕见和不确定诊断的生存建模研究
+[^48]: 自杀风险的罕见和不确定诊断的生存建模研究
 
     Survival Modeling of Suicide Risk with Rare and Uncertain Diagnoses. (arXiv:2009.02597v2 [stat.AP] UPDATED)
 
@@ -711,7 +726,7 @@
 
     Motivated by the pressing need for suicide prevention through improving behavioral healthcare, we use medical claims data to study the risk of subsequent suicide attempts for patients who were hospitalized due to suicide attempts and later discharged. Understanding the risk behaviors of such patients at elevated suicide risk is an important step toward the goal of "Zero Suicide." An immediate and unconventional challenge is that the identification of suicide attempts from medical claims contains substantial uncertainty: almost 20% of "suspected" suicide attempts are identified from diagnosis codes indicating external causes of injury and poisoning with undermined intent. It is thus of great interest to learn which of these undetermined events are more likely actual suicide attempts and how to properly utilize them in survival analysis with severe censoring. To tackle these interrelated problems, we develop an integrative Cox cure model with regularization to perform survival regression
     
-[^48]: 用于在线学习非平稳函数的连续高斯过程
+[^49]: 用于在线学习非平稳函数的连续高斯过程
 
     Sequential Gaussian Processes for Online Learning of Nonstationary Functions. (arXiv:1905.10003v4 [stat.ML] UPDATED)
 
