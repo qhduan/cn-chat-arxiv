@@ -1,0 +1,11 @@
+{
+    "title": "ALCAP: Alignment-Augmented Music Captioner. (arXiv:2212.10901v2 [cs.SD] UPDATED)",
+    "abstract": "Growing popularity of streaming media platforms for music search and recommendations has led to a need for novel methods for interpreting music that take into account both lyrics and audio. However, many previous works focus on refining individual components of encoder-decoder architecture that maps music to caption tokens, ignoring the potential benefits of correspondence between audio and lyrics. In this paper, we propose to explicitly learn the multimodal alignment through contrastive learning. By learning audio-lyrics correspondence, the model is guided to learn better cross-modal consistency, thus generating high-quality captions. We provide both theoretical and empirical results demonstrating the advantage of the proposed method, and achieve new state-of-the-art on two music captioning datasets.",
+    "link": "http://arxiv.org/abs/2212.10901",
+    "context": "Title: ALCAP: Alignment-Augmented Music Captioner. (arXiv:2212.10901v2 [cs.SD] UPDATED)\nAbstract: Growing popularity of streaming media platforms for music search and recommendations has led to a need for novel methods for interpreting music that take into account both lyrics and audio. However, many previous works focus on refining individual components of encoder-decoder architecture that maps music to caption tokens, ignoring the potential benefits of correspondence between audio and lyrics. In this paper, we propose to explicitly learn the multimodal alignment through contrastive learning. By learning audio-lyrics correspondence, the model is guided to learn better cross-modal consistency, thus generating high-quality captions. We provide both theoretical and empirical results demonstrating the advantage of the proposed method, and achieve new state-of-the-art on two music captioning datasets.",
+    "path": "papers/22/12/2212.10901.json",
+    "total_tokens": 807,
+    "translated_title": "ALCAP: 基于对齐的音乐字幕生成器",
+    "translated_abstract": "随着音乐流媒体平台用于音乐搜索和推荐的日益普及，需要新方法来解释音乐，同时考虑歌词和音频。然而，许多先前的研究关注于精细调整将音乐映射到字幕记号的编码器-解码器架构的各个组件，忽略了音频和歌词之间对应的潜在益处。本文提出了一种通过对比学习来显式学习多模态对齐的方法。通过学习音频-歌词的对应关系，使模型指导学习更好的跨模态一致性，从而生成高质量的字幕。我们提供了理论和经验结果，证明了所提出方法的优势，并在两个音乐字幕数据集上达到了新的状态-最先进水平。",
+    "tldr": "本文提出了一种基于对齐的音乐字幕生成器，通过对比学习显式学习音频和歌词的对应关系，并生成高质量的字幕，取得了两个音乐字幕数据集上的最新领先水平。"
+}

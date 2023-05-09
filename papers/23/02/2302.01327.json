@@ -1,0 +1,12 @@
+{
+    "title": "Dual PatchNorm. (arXiv:2302.01327v3 [cs.CV] UPDATED)",
+    "abstract": "We propose Dual PatchNorm: two Layer Normalization layers (LayerNorms), before and after the patch embedding layer in Vision Transformers. We demonstrate that Dual PatchNorm outperforms the result of exhaustive search for alternative LayerNorm placement strategies in the Transformer block itself. In our experiments, incorporating this trivial modification, often leads to improved accuracy over well-tuned Vision Transformers and never hurts.",
+    "link": "http://arxiv.org/abs/2302.01327",
+    "context": "Title: Dual PatchNorm. (arXiv:2302.01327v3 [cs.CV] UPDATED)\nAbstract: We propose Dual PatchNorm: two Layer Normalization layers (LayerNorms), before and after the patch embedding layer in Vision Transformers. We demonstrate that Dual PatchNorm outperforms the result of exhaustive search for alternative LayerNorm placement strategies in the Transformer block itself. In our experiments, incorporating this trivial modification, often leads to improved accuracy over well-tuned Vision Transformers and never hurts.",
+    "path": "papers/23/02/2302.01327.json",
+    "total_tokens": 533,
+    "translated_title": "双重 PatchNorm",
+    "translated_abstract": "我们提出了双重 PatchNorm：在 Vision Transformers 的 patch 嵌入层之前和之后采用了两个 Layer Normalization 层（LayerNorms）。我们证明了，双重 PatchNorm 表现比在 Transformer 块本身中进行替代 LayerNorm 放置策略的详尽搜索的结果更优。在我们的实验中，采用这种微小的改进通常会导致比精调 Vision Transformers 更高的准确性，而且从不损害性能。",
+    "tldr": "双重 PatchNorm 在 Vision Transformers 中的应用有助于提高准确性。",
+    "en_tdlr": "Dual PatchNorm improves accuracy in Vision Transformers by applying two Layer Normalization layers before and after the patch embedding layer, outperforming alternative strategies in the Transformer block itself."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Decentralised Semi-supervised Onboard Learning for Scene Classification in Low-Earth Orbit. (arXiv:2305.04059v1 [cs.LG])",
+    "abstract": "Onboard machine learning on the latest satellite hardware offers the potential for significant savings in communication and operational costs. We showcase the training of a machine learning model on a satellite constellation for scene classification using semi-supervised learning while accounting for operational constraints such as temperature and limited power budgets based on satellite processor benchmarks of the neural network. We evaluate mission scenarios employing both decentralised and federated learning approaches. All scenarios achieve convergence to high accuracy (around 91% on EuroSAT RGB dataset) within a one-day mission timeframe.",
+    "link": "http://arxiv.org/abs/2305.04059",
+    "context": "Title: Decentralised Semi-supervised Onboard Learning for Scene Classification in Low-Earth Orbit. (arXiv:2305.04059v1 [cs.LG])\nAbstract: Onboard machine learning on the latest satellite hardware offers the potential for significant savings in communication and operational costs. We showcase the training of a machine learning model on a satellite constellation for scene classification using semi-supervised learning while accounting for operational constraints such as temperature and limited power budgets based on satellite processor benchmarks of the neural network. We evaluate mission scenarios employing both decentralised and federated learning approaches. All scenarios achieve convergence to high accuracy (around 91% on EuroSAT RGB dataset) within a one-day mission timeframe.",
+    "path": "papers/23/05/2305.04059.json",
+    "total_tokens": 680,
+    "translated_title": "低轨场景分类的分布式半监督在线学习",
+    "translated_abstract": "最新卫星硬件上的机器学习为通信和运营成本的节约提供了可能。我们展示了在卫星星座上使用半监督学习进行场景分类的机器学习模型的训练，考虑到卫星处理器基准的温度和有限功率预算等操作约束。我们评估了采用分布式和联邦式学习方法的任务方案。所有方案在一天的任务时间内都能达到高精度（欧洲卫星RGB数据集约91%）的收敛。",
+    "tldr": "该论文展示了在最新卫星硬件上，使用分布式半监督学习进行场景分类的机器学习模型，并考虑卫星操作约束，达到了高精度，为航天通信和运营成本节约提供了可能。",
+    "en_tdlr": "This paper showcases the training of a machine learning model for scene classification on the latest satellite hardware using decentralised semi-supervised learning and accounting for operational constraints, achieving high accuracy and offering potential cost savings for aerospace communication and operations."
+}

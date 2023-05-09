@@ -1,0 +1,12 @@
+{
+    "title": "Bauer's Maximum Principle for Quasiconvex Functions. (arXiv:2305.04893v1 [econ.TH])",
+    "abstract": "This note shows that in Bauer's maximum principle, the assumed convexity of the objective function can be relaxed to quasiconvexity.",
+    "link": "http://arxiv.org/abs/2305.04893",
+    "context": "Title: Bauer's Maximum Principle for Quasiconvex Functions. (arXiv:2305.04893v1 [econ.TH])\nAbstract: This note shows that in Bauer's maximum principle, the assumed convexity of the objective function can be relaxed to quasiconvexity.",
+    "path": "papers/23/05/2305.04893.json",
+    "total_tokens": 380,
+    "translated_title": "Bauer极值原理在拟凸函数中的应用",
+    "translated_abstract": "本文证明了在Bauer极值原理中，可以将目标函数的凸性假设放宽为拟凸性。",
+    "tldr": "Bauer极值原理在拟凸函数中同样适用。",
+    "en_tdlr": "Bauer's maximum principle can be applied to quasiconvex functions."
+}

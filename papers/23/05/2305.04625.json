@@ -1,0 +1,12 @@
+{
+    "title": "The Signature Kernel. (arXiv:2305.04625v1 [math.PR])",
+    "abstract": "The signature kernel is a positive definite kernel for sequential data. It inherits theoretical guarantees from stochastic analysis, has efficient algorithms for computation, and shows strong empirical performance. In this short survey paper for a forthcoming Springer handbook, we give an elementary introduction to the signature kernel and highlight these theoretical and computational properties.",
+    "link": "http://arxiv.org/abs/2305.04625",
+    "context": "Title: The Signature Kernel. (arXiv:2305.04625v1 [math.PR])\nAbstract: The signature kernel is a positive definite kernel for sequential data. It inherits theoretical guarantees from stochastic analysis, has efficient algorithms for computation, and shows strong empirical performance. In this short survey paper for a forthcoming Springer handbook, we give an elementary introduction to the signature kernel and highlight these theoretical and computational properties.",
+    "path": "papers/23/05/2305.04625.json",
+    "total_tokens": 481,
+    "translated_title": "《Signature Kernel》",
+    "translated_abstract": "Signature核函数是用于顺序数据的正定核函数。它继承了随机分析的理论保证，具有高效的计算算法，并且表现出强大的实证性能。在即将出版的Springer手册的这篇简短调查论文中，我们介绍了Signature核函数并强调了这些理论和计算性质。",
+    "tldr": "Signature核函数是一种正定的顺序数据核函数，具有高效的计算算法和强大的实证性能。",
+    "en_tdlr": "The Signature kernel is a positive definite kernel for sequential data that has efficient computation algorithms and strong empirical performance."
+}

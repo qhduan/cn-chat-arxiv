@@ -2,217 +2,262 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Algorithmic Decision Processes.](http://arxiv.org/abs/2305.03645) | 该论文介绍了一种算法决策过程，可以产生多选问题中的选择概率和预期决策时间。 |
-| [^2] | [Rankings-Dependent Preferences: A Real Goods Matching Experiment.](http://arxiv.org/abs/2305.03644) | 研究探讨了代理人通过匹配机制获得对象的偏好是否受到其在排名列表中排名的影响，结果发现更高的排名可以带来更大的效用。研究发现真实偏好交换机制可能不是一种占优策略，且能够提供给更多的代理人报告为更高排名的对象的非占优机制可能会增加市场福利。 |
-| [^3] | [Disclosure and Incentives in Teams.](http://arxiv.org/abs/2305.03633) | 讨论了团队生产过程中的信息披露与激励机制问题，研究发现团队中的信息披露通常涉及部分披露，并且团队成果的部分披露可能会提高个体为团队做贡献的激励，设计了不同的决策协议用于最大化努力激励。 |
-| [^4] | [Empirical Evidence for the New Definitions in Financial Markets.](http://arxiv.org/abs/2305.03468) | 研究证实了新的金融市场定义准确反映了投资者行为，并提供了投资策略方面的建议。 |
-| [^5] | [Risk management in the use of published statistical results for policy decisions.](http://arxiv.org/abs/2305.03205) | 在政策决策中，发表统计结果的研究人员可能会夸大其可靠性，而实施机构也很难确定这种可靠性的事实，可能导致政策实施风险增加，最坏的情况是政策无法实施。 |
-| [^6] | [Multi-agent Delegated Search.](http://arxiv.org/abs/2305.03203) | 本文研究了多智能体委托搜索问题，提出了高效的先验独立机制，并证明了智能体之间的竞争环境能够产生信息和绩效增益。通过该模型，可以涵盖各种现实世界的情况。 |
-| [^7] | [Debiased inference for dynamic nonlinear models with two-way fixed effects.](http://arxiv.org/abs/2305.03134) | 本文提出了一种针对具有双向固定效应的动态非线性模型的分析偏差校正方法，通过校正后的似然函数得出的检验统计量可以得到标准渐近分布，同时也可以得到结构参数的偏差校正估计器。 |
-| [^8] | [Games Under Network Uncertainty.](http://arxiv.org/abs/2305.03124) | 本文研究了一种信息不完全的网络博弈，证明了Bayesian-Nash均衡在纯策略下的唯一性和存在性，并揭示了基于网络位置和代理人身份的不对称信息如何影响这种网络博弈中的战略行为。 |
-| [^9] | [Surveying Generative AI's Economic Expectations.](http://arxiv.org/abs/2305.02823) | 该论文介绍了一项经济预期调查，使用大型语言模型对各种金融和宏观经济变量的预期进行查询，发现LLM预期与现有调查相似，但也显示出许多偏离理性预期的特点，该调查方法为衡量经济预期提供了一种新方法。 |
-| [^10] | [Bayesian Modeling of TVP-VARs Using Regression Trees.](http://arxiv.org/abs/2209.11970) | 本文提出了一种非参数TVP-VAR模型，使用贝叶斯加法回归树（BART）对驱动参数的运动进行非参数建模，从而实现更大的参数改变灵活性，并通过采用非参数因子结构和缩小先验以实现简洁性。 |
-| [^11] | [The effect of conference presentations on the diffusion of ideas.](http://arxiv.org/abs/2209.01175) | 研究利用 Confer 数据分析了学术会议演讲直接和意外对未来引用的影响，结果发现与有冲突的时间段相比，无冲突时间段中用户引用的论文数量明显增加。 |
-| [^12] | [On the Distributional Robustness of Finite Rational Inattention Models.](http://arxiv.org/abs/2208.03370) | 本文研究了有限理性忽视模型的分布稳健性，提出了一种对先验分布模糊性稳健的随机选择规则的构建方法，并通过“最坏情况敏感度”概念量化了先验不确定性对模型的影响。 |
-| [^13] | [Political Power and Market Power.](http://arxiv.org/abs/2106.13612) | 本文研究政治影响和产业垄断之间的联系，提出了兼并增加游说的条件，并通过数据发现兼并和游说、竞选捐款之间存在正向关联。 |
-| [^14] | [Advisors with Hidden Motives.](http://arxiv.org/abs/2103.07446) | 本文研究了顾问隐藏动机的问题，确定了卖家用来将销售从低盈利物品转向高盈利物品的最优披露规则，并探讨了透明度政策的影响。 |
+| [^1] | [Bauer's Maximum Principle for Quasiconvex Functions.](http://arxiv.org/abs/2305.04893) | Bauer极值原理在拟凸函数中同样适用。 |
+| [^2] | [Well-being policy evaluation methodology based on WE pluralism.](http://arxiv.org/abs/2305.04500) | 本研究提出了一种基于WE多元论的幸福政策评估方法，通过联合事实查明评估政策的多元性，评估其对福祉的影响。 |
+| [^3] | [A Scoping Review of Internal Migration and Left-behind Children's Wellbeing in China.](http://arxiv.org/abs/2305.04348) | 在中国，由于户口登记制度的限制，约有900万留守儿童在父母内部移民出去工作时缺乏照顾和监督。父母移民对留守儿童身体、心理和教育结果产生负面影响，而移民的汇款和更多的家庭层面和社会支持可以缓解这种影响。 |
+| [^4] | [Private Experimentation, Data Truncation, and Verifiable Disclosure.](http://arxiv.org/abs/2305.04231) | 发送方通过一系列私人实验获得证据，该问题可转化为一个静态实验问题，其选择一个信号来了解状态并进行连续披露。最优信号通过规定的下凸函数进行约束。 |
+| [^5] | [Volatility of Volatility and Leverage Effect from Options.](http://arxiv.org/abs/2305.04137) | 该论文提出了无模型方法，利用短期期权的高频观察来估计波动率波动性和杠杆效应，估计量的收敛速度取决于潜在波动率过程中扩散创新的速度以及选项观察误差与当前现货价格附近的行权价之间的观察误差。 |
+| [^6] | [Estimating Input Coefficients for Regional Input-Output Tables Using Deep Learning with Mixup.](http://arxiv.org/abs/2305.01201) | 本文提出使用混合深度学习方法来估算区域投入产出表的输入系数。结果表明，该方法可以比非调查方法更准确地估算输入系数。 |
+| [^7] | [Inference in Threshold Predictive Regression Models with Hybrid Stochastic Local Unit Roots.](http://arxiv.org/abs/2305.00860) | 本研究探讨了带有混合随机局部单位根预测变量的门槛预测回归模型中的估计方法，并通过实证应用表明我们的框架在揭示特定时期的可预测性方面具有实用性，并突出了经济政策不确定性的影响。 |
+| [^8] | [Endogenous Linear Regressions with Included Instrumental Variables.](http://arxiv.org/abs/2304.00626) | 该论文提出了两种半参数估计器和一种基于离散化的估计器，可以在不需要排除工具变量的情况下鉴别内生线性回归模型，并且这些估计方法在有限样本中表现良好。 |
+| [^9] | [Shock propagation from the Russia-Ukraine conflict on international multilayer food production network determines global food availability.](http://arxiv.org/abs/2210.01846) | 俄乌冲突在全球食品生产网络中引起的局部冲击传播影响到多个国家和地区的粮食供应，乌克兰完全失去农业生产会对全球甚至是家禽肉类和葵花籽油的市场造成重大影响。 |
+| [^10] | [Chi-Square Goodness-of-Fit Tests for Conditional Distributions.](http://arxiv.org/abs/2210.00624) | 本文提出了一种用于检查条件分布模型规范的 $\chi^2$ 拟合优度检验方法。通过对样本进行交叉分类，得到一个列联表，并使用分组数据的似然来计算检验统计量，从而检验期望频率是否符合模型限制。本文的创新点在于提出了可以控制每个单元格的观测次数的算法，实验表明该方法有效且准确。 |
+| [^11] | [Correlates of repeat abortions and their spacing: Evidence from registry data in Spain.](http://arxiv.org/abs/2208.05567) | 本研究利用西班牙2019年记录的人工流产数据，发现进行反复堕胎的妇女往往具有较低的教育水平、有抚养子女、单身或外来人口。同时，未受教育、无业、有抚养子女或外来出生等因素也与反复堕胎次数增加和堕胎时间间隔较短密切相关。 |
+| [^12] | [A self-contained karma economy for the dynamic allocation of common resources.](http://arxiv.org/abs/2207.00495) | 本文提出了一种自给自足的功德机制，能够在有限资源的重复分配中实现高效率水平。 |
+| [^13] | [Estimating the Currency Composition of Foreign Exchange Reserves.](http://arxiv.org/abs/2206.13751) | 该论文提出了一种隐马尔可夫模型，用于评估央行外汇储备的货币组成。作者将该模型应用于中国和新加坡，发现中国的储备组成可能类似于全球平均水平，而新加坡可能持有更少的美元。 |
+| [^14] | [Technology, Institution, and Regional Growth: Evidence from Mineral Mining Industry in Industrializing Japan.](http://arxiv.org/abs/2112.14514) | 该论文研究了煤炭开采对日本区域增长的影响，发现劳动法规的变革加速了当地人口的增长。 |
+| [^15] | [A Unified Frequency Domain Cross-Validatory Approach to HAC Standard Error Estimation.](http://arxiv.org/abs/2108.06093) | 提出一种统一的频域交叉验证方法，用于估计异方差性和自相关一致的标准误差。该方法同时选择参数化和非参数化谱估计器的模型/调整参数，通过模拟得到了良好的效果。 |
+| [^16] | [Weighting-Based Treatment Effect Estimation via Distribution Learning.](http://arxiv.org/abs/2012.13805) | 本文提出了一种基于分布学习的加权方法，通过学习协变量在治疗组和对照组的分布并利用比率作为权重来估计治疗效果，以缓解现有加权方法中模型错误设置的问题。 |
+| [^17] | [Simple Inference on Functionals of Set-Identified Parameters Defined by Linear Moments.](http://arxiv.org/abs/1810.03180) | 本文提出一种简单的方法来获得线性矩不等式定义的部分识别参数的一致有效推断，该方法不需要研究人员对参数空间进行网格划分，因而具有较强的可操作性。 |
 
 # 详细
 
-[^1]: 算法决策过程
+[^1]: Bauer极值原理在拟凸函数中的应用
 
-    Algorithmic Decision Processes. (arXiv:2305.03645v1 [econ.TH])
+    Bauer's Maximum Principle for Quasiconvex Functions. (arXiv:2305.04893v1 [econ.TH])
 
-    [http://arxiv.org/abs/2305.03645](http://arxiv.org/abs/2305.03645)
+    [http://arxiv.org/abs/2305.04893](http://arxiv.org/abs/2305.04893)
 
-    该论文介绍了一种算法决策过程，可以产生多选问题中的选择概率和预期决策时间。
-
-    
-
-    我们开发了一个完整的算法决策过程分析，该过程在多选问题中产生可计算的选择概率和预期决策时间。
-
-    We develop a full-fledged analysis of an algorithmic decision process that, in a multialternative choice problem, produces computable choice probabilities and expected decision times.
-    
-[^2]: 排序依赖偏好：一项真实货物匹配实验
-
-    Rankings-Dependent Preferences: A Real Goods Matching Experiment. (arXiv:2305.03644v1 [econ.GN])
-
-    [http://arxiv.org/abs/2305.03644](http://arxiv.org/abs/2305.03644)
-
-    研究探讨了代理人通过匹配机制获得对象的偏好是否受到其在排名列表中排名的影响，结果发现更高的排名可以带来更大的效用。研究发现真实偏好交换机制可能不是一种占优策略，且能够提供给更多的代理人报告为更高排名的对象的非占优机制可能会增加市场福利。
+    Bauer极值原理在拟凸函数中同样适用。
 
     
 
-    本研究探讨通过匹配机制获得对象的偏好是否受到代理人在其报告的排名列表中对其排名的影响。我们假设其他条件相同，代理人对同一对象在其排名更高时会获得更大的效用。排序依赖的效用的引入意味着向真实偏好交换机制提交真实偏好可能不是一种占优策略，并且能够提供给更多的代理人报告为更高排名的对象的非占优机制可能会增加市场福利。我们通过在一个占优策略机制——随机串行独裁——和一个非占优机制——波士顿机制中进行匹配实验来测试这些假设。我们实验设计的一个新特点是在匹配市场分配的对象是真实物品，这使我们能够通过征集内外机制中物品的价值来直接测量排序依赖性。我们的实验结果证实了我们的假设。
+    本文证明了在Bauer极值原理中，可以将目标函数的凸性假设放宽为拟凸性。
 
-    We investigate whether preferences for objects received via a matching mechanism are influenced by how highly agents rank them in their reported rank order list. We hypothesize that all else equal, agents receive greater utility for the same object when they rank it higher. The addition of rankings-dependent utility implies that it may not be a dominant strategy to submit truthful preferences to a strategyproof mechanism, and that non-strategyproof mechanisms that give more agents objects they report as higher ranked may increase market welfare. We test these hypotheses with a matching experiment in a strategyproof mechanism, the random serial dictatorship, and a non-strategyproof mechanism, the Boston mechanism. A novel feature of our experimental design is that the objects allocated in the matching markets are real goods, which allows us to directly measure rankings-dependence by eliciting values for goods both inside and outside of the mechanism. Our experimental results confirm tha
+    This note shows that in Bauer's maximum principle, the assumed convexity of the objective function can be relaxed to quasiconvexity.
     
-[^3]: 团队中的信息披露与激励机制
+[^2]: 基于WE多元论的幸福政策评估方法学
 
-    Disclosure and Incentives in Teams. (arXiv:2305.03633v1 [econ.TH])
+    Well-being policy evaluation methodology based on WE pluralism. (arXiv:2305.04500v1 [econ.GN])
 
-    [http://arxiv.org/abs/2305.03633](http://arxiv.org/abs/2305.03633)
+    [http://arxiv.org/abs/2305.04500](http://arxiv.org/abs/2305.04500)
 
-    讨论了团队生产过程中的信息披露与激励机制问题，研究发现团队中的信息披露通常涉及部分披露，并且团队成果的部分披露可能会提高个体为团队做贡献的激励，设计了不同的决策协议用于最大化努力激励。
-
-    
-
-    本文考虑了一个由职业动机驱动的团队生产环境，在这种环境下，团队共同生产的结果可能对不同团队成员具有不同的声誉影响。在此背景下，我们描述了团队成果披露的均衡策略，其中团队披露选择通过某些协商方案来整合个体决策。与个人信息披露问题不同的是，我们展示了均衡通常涉及部分披露。此外，我们研究了不同协商方案所隐含的均衡披露策略的努力激励性质；并且表明，团队成果的部分披露可能会提高个体为团队做贡献的激励。最后，我们研究了协商方案的设计，并对生产环境进行了描述，这些环境通过单方面决策协议或更加共识性的协商程序来最大化努力激励。
-
-    We consider a team-production environment where all participants are motivated by career concerns, and where a team's joint productive outcome may have different reputational implications for different team members. In this context, we characterize equilibrium disclosure of team-outcomes when team-disclosure choices aggregate individual decisions through some deliberation protocol. In contrast with individual disclosure problems, we show that equilibria often involve partial disclosure. Furthermore, we study the effort-incentive properties of equilibrium disclosure strategies implied by different deliberation protocols; and show that the partial disclosure of team outcomes may improve individuals' incentives to contribute to the team. Finally, we study the design of deliberation protocols, and characterize productive environments where effort-incentives are maximized by unilateral decision protocols or more consensual deliberation procedures.
-    
-[^4]: 金融市场新定义的经验证据
-
-    Empirical Evidence for the New Definitions in Financial Markets. (arXiv:2305.03468v1 [q-fin.GN])
-
-    [http://arxiv.org/abs/2305.03468](http://arxiv.org/abs/2305.03468)
-
-    研究证实了新的金融市场定义准确反映了投资者行为，并提供了投资策略方面的建议。
+    本研究提出了一种基于WE多元论的幸福政策评估方法，通过联合事实查明评估政策的多元性，评估其对福祉的影响。
 
     
 
-    本研究给出了支持金融市场新定义的经验证据。分析了1889-1978年美国金融市场投资者的风险态度，结果表明，1977年在投资综合S＆P 500指数的股票投资者是风险规避者。相反，投资美国国债的无风险资产投资者则表现出不足的风险偏爱，这可以被认为是一种风险规避行为。这些发现表明，金融市场新定义准确反映了投资者的行为，应考虑在投资策略中。
+    评估和选择有助于不同人群福祉的政策的方法需要澄清。为了缩小客观指标和与福祉相关的政策之间的差距，本研究从基于客观指标的组成多元论转向强调主观背景的概念多元论，并由主客体多元论发展到个体-群体多元论，最终达到了WE多元论，并提出了一种结合基于政策多元性的联合事实查明的新的政策评估方法。其次，为了评估涉及多方利益相关者的政策，我从个体主客性到个体主观性和群体互为客体性进行了深入发掘，然后在个体-家庭-社区-市政府-国家-世界的层次上进行了窄范围和广范围的WE多元论分析。此外，参考了一些关于福祉的功能形式，我还提出了福祉依赖于窄范围和广范围的WE。最后，考虑到政策本身具有多元性，本研究使用联合事实查明来评估政策的多元性并评估其对福祉的影响。
 
-    This study presents empirical evidence to support the validity of new definitions in financial markets. The risk attitudes of investors in US financial markets from 1889-1978 are analyzed and the results indicate that equity investors who invested in the composite S&P 500 index were risk-averse in 1977. Conversely, risk-free asset investors who invested in US Treasury bills were found to exhibit not enough risk-loving behavior, which can be considered a type of risk-averse behavior. These findings suggest that the new definitions in financial markets accurately reflect the behavior of investors and should be considered in investment strategies.
+    Methodologies for evaluating and selecting policies that contribute to the well-being of diverse populations need clarification. To bridge the gap between objective indicators and policies related to well-being, this study shifts from constitutive pluralism based on objective indicators to conceptual pluralism that emphasizes subjective context, develops from subject-object pluralism through individual-group pluralism to WE pluralism, and presents a new policy evaluation method that combines joint fact-finding based on policy plurality. First, to evaluate policies involving diverse stakeholders, I develop from individual subjectivity-objectivity to individual subjectivity and group intersubjectivity, and then move to a narrow-wide WE pluralism in the gradation of I-family-community-municipality-nation-world. Additionally, by referring to some functional forms of well-being, I formulate the dependence of well-being on narrow-wide WE. Finally, given that policies themselves have a plural
     
-[^5]: 发表统计结果在政策决策中的风险管理
+[^3]: 中国内部移民与留守儿童福祉的综述研究
 
-    Risk management in the use of published statistical results for policy decisions. (arXiv:2305.03205v1 [stat.OT])
+    A Scoping Review of Internal Migration and Left-behind Children's Wellbeing in China. (arXiv:2305.04348v1 [econ.GN])
 
-    [http://arxiv.org/abs/2305.03205](http://arxiv.org/abs/2305.03205)
+    [http://arxiv.org/abs/2305.04348](http://arxiv.org/abs/2305.04348)
 
-    在政策决策中，发表统计结果的研究人员可能会夸大其可靠性，而实施机构也很难确定这种可靠性的事实，可能导致政策实施风险增加，最坏的情况是政策无法实施。
-
-    
-
-    统计推断结果通常会随着一种决策的目的而附带一个可靠性度量。对于政策实施机构来说，在实施已发表的政策研究时，依赖此可靠性度量尤为关键。对于政策研究人员来说，政策实施的价值可能弱化、甚至不会依赖于政策的结果。一些研究人员可能会发现夸大统计结果的可靠性有利可图。实施机构可能无法确定研究人员是否夸大了可靠性。研究人员和实施机构之间的这种信息不对称可能会导致逆向选择问题，最好的情况是政策的全部益处无法得到实现，最坏的情况是政策被认为在任何规模上实施都太冒险了。
-
-    Statistical inferential results generally come with a measure of reliability for decision-making purposes. For a policy implementer, the value of implementing published policy research depends critically upon this reliability. For a policy researcher, the value of policy implementation may depend weakly or not at all upon the policy's outcome. Some researchers might find it advantageous to overstate the reliability of statistical results. Implementers may find it difficult or impossible to determine whether researchers are overstating reliability. This information asymmetry between researchers and implementers can lead to an adverse selection problem where, at best, the full benefits of a policy are not realized or, at worst, a policy is deemed too risky to implement at any scale. Researchers can remedy this by guaranteeing the policy outcome. Researchers can overcome their own risk aversion and wealth constraints by exchanging risks with other researchers or offering only partial insu
-    
-[^6]: 多智能体委托搜索
-
-    Multi-agent Delegated Search. (arXiv:2305.03203v1 [cs.GT])
-
-    [http://arxiv.org/abs/2305.03203](http://arxiv.org/abs/2305.03203)
-
-    本文研究了多智能体委托搜索问题，提出了高效的先验独立机制，并证明了智能体之间的竞争环境能够产生信息和绩效增益。通过该模型，可以涵盖各种现实世界的情况。
+    在中国，由于户口登记制度的限制，约有900万留守儿童在父母内部移民出去工作时缺乏照顾和监督。父母移民对留守儿童身体、心理和教育结果产生负面影响，而移民的汇款和更多的家庭层面和社会支持可以缓解这种影响。
 
     
 
-    本文研究了没有货币的多智能体委托搜索的问题，是第一个研究Kleinberg和Kleinberg（EC'18）的多智能体扩展的。在我们的模型中，给定一组智能体，每个智能体采样一定数量的解决方案，并私下发送信号，例如，解决方案的子集，给参与者。然后，根据智能体的信号，参与者选择最终解决方案。我们的模型涵盖了各种现实世界的情景，从经典的经济应用到现代智能系统。与Kleinberg和Kleinberg（EC'18）的单智能体设置形成鲜明对比的是，在我们的模型中，有一些高效的先验独立机制存在信息和绩效增益，并且由于智能体之间的竞争环境，存在某种程度上令人信服的优势。但是，有趣的是，此类竞争环境的强度在很大程度上取决于智能体可获得的信息以及参与者与智能体之间的相关程度。
+    移民子女的福祉面临着与身体、心理和教育风险有关的多重挑战，这可能会妨碍人力资本的积累和进一步发展。在中国农村，由于户口登记制度的限制，2020年约有900万留守儿童在父母内部移民出去工作时缺乏父母的照顾和监督。通过系统的范围性综述，本研究提供了全面的文献综述，并得出了父母移民对留守儿童身体、心理（尤其是留守女童）和教育结果（尤其是留守男童）的总体负面影响。值得注意的是，父母和母亲的移民都可能加剧留守儿童的劣势。此外，移民的汇款和更多的家庭层面和社会支持可能有助于缓解负面影响。最后，我们提出了理论和实际意义，这可能为潜在的研究提供启示。
 
-    We consider a multi-agent delegated search without money, which is the first to study the multi-agent extension of Kleinberg and Kleinberg (EC'18). In our model, given a set of agents, each agent samples a fixed number of solutions, and privately sends a signal, e.g., a subset of solutions, to the principal. Then, the principal selects a final solution based on the agents' signals. Our model captures a variety of real-world scenarios, spanning classical economical applications to modern intelligent system. In stark contrast to single-agent setting by Kleinberg and Kleinberg (EC'18) with an approximate Bayesian mechanism, we show that there exist efficient approximate prior-independent mechanisms with both information and performance gain, thanks to the competitive tension between the agents. Interestingly, however, the amount of such a compelling power significantly varies with respect to the information available to the agents, and the degree of correlation between the principal's and
+    Children's well-being of immigrants is facing several challenges related to physical, mental, and educational risks, which may obstacle human capital accumulation and further development. In rural China, due to the restriction of Hukou registration system, nearly 9 million left-behind children (LBC) are in lack of parental care and supervision in 2020 when their parents internally migrate out for work. Through the systematic scoping review, this study provides a comprehensive literature summary and concludes the overall negative effects of parental migration on LBC's physical, mental (especially for left-behind girls), and educational outcomes (especially for left-behind boys). Noticeably, both parents' and mother's migration may exacerbate LBC's disadvantages. Furthermore, remittance from migrants and more family-level and social support may help mitigate the negative influence. Finally, we put forward theoretical and realistic implications which may shed light on potential research d
     
-[^7]: 具有双向固定效应的动态非线性模型的无偏推断
+[^4]: 私人实验、数据截断和可验证披露
 
-    Debiased inference for dynamic nonlinear models with two-way fixed effects. (arXiv:2305.03134v1 [econ.EM])
+    Private Experimentation, Data Truncation, and Verifiable Disclosure. (arXiv:2305.04231v1 [econ.TH])
 
-    [http://arxiv.org/abs/2305.03134](http://arxiv.org/abs/2305.03134)
+    [http://arxiv.org/abs/2305.04231](http://arxiv.org/abs/2305.04231)
 
-    本文提出了一种针对具有双向固定效应的动态非线性模型的分析偏差校正方法，通过校正后的似然函数得出的检验统计量可以得到标准渐近分布，同时也可以得到结构参数的偏差校正估计器。
-
-    
-
-    面板数据模型通常使用固定效应来解释未观测到的异质性。这些固定效应通常是偶然参数，它们的估计器相对于样本大小的平方根收敛缓慢。在最大似然的上下文中，这会导致似然函数的渐近偏差。因此，从渐近有偏的似然函数得出的检验统计量不再遵循其标准极限分布。这会导致检验大小的严重偏差。我们考虑一类具有双向固定效应的动态非线性模型，并提出了一种似然函数的分析偏差校正方法。我们正式证明了从校正后的似然函数得出的似然比、拉格朗日乘数、和 Wald 检验统计量遵循它们的标准渐近分布。作为副产品，校正后的似然函数还可以得出结构参数的偏差校正估计器。我们评估了该方法在 Monte Carlo 模拟中的性能。
-
-    Panel data models often use fixed effects to account for unobserved heterogeneities. These fixed effects are typically incidental parameters and their estimators converge slowly relative to the square root of the sample size. In the maximum likelihood context, this induces an asymptotic bias of the likelihood function. Test statistics derived from the asymptotically biased likelihood, therefore, no longer follow their standard limiting distributions. This causes severe distortions in test sizes. We consider a generic class of dynamic nonlinear models with two-way fixed effects and propose an analytical bias correction method for the likelihood function. We formally show that the likelihood ratio, the Lagrange-multiplier, and the Wald test statistics derived from the corrected likelihood follow their standard asymptotic distributions. As a by-product, a bias-corrected estimator of the structural parameter can also be derived from the corrected likelihood function. We evaluate the perfor
-    
-[^8]: 网络不确定性下的博弈论研究
-
-    Games Under Network Uncertainty. (arXiv:2305.03124v1 [econ.TH])
-
-    [http://arxiv.org/abs/2305.03124](http://arxiv.org/abs/2305.03124)
-
-    本文研究了一种信息不完全的网络博弈，证明了Bayesian-Nash均衡在纯策略下的唯一性和存在性，并揭示了基于网络位置和代理人身份的不对称信息如何影响这种网络博弈中的战略行为。
+    发送方通过一系列私人实验获得证据，该问题可转化为一个静态实验问题，其选择一个信号来了解状态并进行连续披露。最优信号通过规定的下凸函数进行约束。
 
     
 
-    本文研究了一种信息不完全的网络博弈，其中代理人的信息仅限于其直接邻居的身份。代理人对其他人的邻接模式形成信念，并进行线性二次努力博弈以最大化插值回报。我们证明了纯策略下Bayesian-Nash均衡的存在性和唯一性。在这个均衡下，代理人使用本地信息，即他们的直接连接的知识来推断他们的行动与其他代理人的互补强度，这是通过他们对网络中步长数量的更新信仰所给出的。我们的模型清晰展示了基于网络位置和代理人身份的不对称信息如何影响这种网络博弈中的战略行为。我们还表征了不同形式的先验信仰下的均衡代理行为，例如对所有网络的均匀先验，Erdos-Reyni网络生成以及对网络的所有子图的同质和异质先验。
+    发送方通过展示通过一系列私人实验获得的证据来说服接收方。发送方在选择实验时具有完全的灵活性，取决于私人实验历史。发送方可以可靠地披露每个实验结果，但无法证明是否已经披露了所有内容。通过要求“连续披露”，我首先展示了私人顺序实验问题可以重构为静态实验问题，其中发送方选择单个信号来了解状态。利用这一观察，我推导出在均衡中选择信号的必要条件，然后确定这些信号所诱导的信念集。最后，我通过在这个集合上约束他的价值函数的下凸化来表征发送方最优信号。
 
-    We consider an incomplete information network game in which agents' information is restricted only to the identity of their immediate neighbors. Agents form beliefs about the adjacency pattern of others and play a linear-quadratic effort game to maximize interim payoffs. We establish the existence and uniqueness of Bayesian-Nash equilibria in pure strategies. In this equilibrium agents use local information, i.e., knowledge of their direct connections to make inferences about the complementarity strength of their actions with those of other agents which is given by their updated beliefs regarding the number of walks they have in the network. Our model clearly demonstrates how asymmetric information based on network position and the identity of agents affect strategic behavior in such network games. We also characterize agent behavior in equilibria under different forms of ex-ante prior beliefs such as uniform priors over the set of all networks, Erdos-Reyni network generation, and homo
+    A sender seeks to persuade a receiver by presenting evidence obtained through a sequence of private experiments. The sender has complete flexibility in his choice of experiments, contingent on the private experimentation history. The sender can disclose each experiment outcome credibly, but cannot prove whether he has disclosed everything. By requiring `continuous disclosure', I first show that the private sequential experimentation problem can be reformulated into a static one, in which the sender chooses a single signal to learn about the state. Using this observation, I derive necessary conditions for a signal to be chosen in equilibrium, and then identify the set of beliefs induced by such signals. Finally, I characterize sender-optimal signals from the concavification of his value function constrained to this set.
     
-[^9]: 调查生成AI对经济预期的期望
+[^5]: 来自期权的波动率波动性和杠杆效应
 
-    Surveying Generative AI's Economic Expectations. (arXiv:2305.02823v1 [econ.GN])
+    Volatility of Volatility and Leverage Effect from Options. (arXiv:2305.04137v1 [econ.EM])
 
-    [http://arxiv.org/abs/2305.02823](http://arxiv.org/abs/2305.02823)
+    [http://arxiv.org/abs/2305.04137](http://arxiv.org/abs/2305.04137)
 
-    该论文介绍了一项经济预期调查，使用大型语言模型对各种金融和宏观经济变量的预期进行查询，发现LLM预期与现有调查相似，但也显示出许多偏离理性预期的特点，该调查方法为衡量经济预期提供了一种新方法。
-
-    
-
-    我通过查询1984年至2021年华尔街日报的新闻文章样本，介绍了一个经济预期调查，该调查查询了一个大型语言模型（LLM）对各种金融和宏观经济变量的预期。 我发现，由此产生的预期与现有调查（包括专业预测者调查（SPF）、美国个人投资者协会和杜克首席财务官调查）非常相似。重要的是，我记录了LLM基于模型的预期与现有调查系列中表现出的许多全信息理性预期偏差匹配。LLM的宏观经济预期表现出共识SPF预测中常见的低反应性。此外，其回报预期是外推的，脱离了预期回报的客观测量，与未来实现的回报呈负相关。最后，利用LLM培训期以外的文章样本，我发现与现有调查预期的相关性仍然强，这表明LLM模型的基础框架提供了一种有用的新方法来测量经济预期。
-
-    I introduce a survey of economic expectations formed by querying a large language model (LLM)'s expectations of various financial and macroeconomic variables based on a sample of news articles from the Wall Street Journal between 1984 and 2021. I find the resulting expectations closely match existing surveys including the Survey of Professional Forecasters (SPF), the American Association of Individual Investors, and the Duke CFO Survey. Importantly, I document that LLM based expectations match many of the deviations from full-information rational expectations exhibited in these existing survey series. The LLM's macroeconomic expectations exhibit under-reaction commonly found in consensus SPF forecasts. Additionally, its return expectations are extrapolative, disconnected from objective measures of expected returns, and negatively correlated with future realized returns. Finally, using a sample of articles outside of the LLM's training period I find that the correlation with existing su
-    
-[^10]: 基于回归树的贝叶斯TVP-VAR模型建模
-
-    Bayesian Modeling of TVP-VARs Using Regression Trees. (arXiv:2209.11970v3 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2209.11970](http://arxiv.org/abs/2209.11970)
-
-    本文提出了一种非参数TVP-VAR模型，使用贝叶斯加法回归树（BART）对驱动参数的运动进行非参数建模，从而实现更大的参数改变灵活性，并通过采用非参数因子结构和缩小先验以实现简洁性。
+    该论文提出了无模型方法，利用短期期权的高频观察来估计波动率波动性和杠杆效应，估计量的收敛速度取决于潜在波动率过程中扩散创新的速度以及选项观察误差与当前现货价格附近的行权价之间的观察误差。
 
     
 
-    鉴于宏观经济模型中参数不稳定的广泛证据，许多时变参数（TVP）模型已被提出。本文提出了一种非参数TVP-VAR模型，使用贝叶斯加法回归树（BART）将TVP模拟为未知的效应修正函数。该模型的新颖之处在于将驱动参数的运动定为非参数方式处理。这在条件均值和条件方差中都能达到更大的参数改变灵活性。通过采用非参数因子结构和缩小先验，实现简洁性。在美国宏观经济数据的应用中，我们演示了我们的模型如何跟踪菲利普斯曲线的演变特征以及商业周期冲击对通胀测量的影响如何与效应变量的变化呈非线性变化。
+    我们提出了使用短期期权的高频观察来估计波动率波动性和杠杆效应的无模型（非参数）估计方法。在每个时间点上，我们将可用的期权整合进价格增量的条件特征函数的估计中，直到期权到期，然后我们使用这些估计来恢复现货波动率。然后，我们的波动率波动性估计来自于现货波动率增量的样本方差和一阶自协方差，后者校正了前者的偏差，因为期权观察误差。杠杆效应估计是价格增量和估计波动率增量之间的样本协方差。估计量的收敛速度取决于潜在波动率过程中扩散创新的速度以及选项观察误差与当前现货价格附近的行权价之间的观察误差。可行的推断方法不需要任何资产定价模型的知识。
 
-    In light of widespread evidence of parameter instability in macroeconomic models, many time-varying parameter (TVP) models have been proposed. This paper proposes a nonparametric TVP-VAR model using Bayesian additive regression trees (BART) that models the TVPs as an unknown function of effect modifiers. The novelty of this model arises from the fact that the law of motion driving the parameters is treated nonparametrically. This leads to great flexibility in the nature and extent of parameter change, both in the conditional mean and in the conditional variance. Parsimony is achieved through adopting nonparametric factor structures and use of shrinkage priors. In an application to US macroeconomic data, we illustrate the use of our model in tracking both the evolving nature of the Phillips curve and how the effects of business cycle shocks on inflation measures vary nonlinearly with changes in the effect modifiers.
+    We propose model-free (nonparametric) estimators of the volatility of volatility and leverage effect using high-frequency observations of short-dated options. At each point in time, we integrate available options into estimates of the conditional characteristic function of the price increment until the options' expiration and we use these estimates to recover spot volatility. Our volatility of volatility estimator is then formed from the sample variance and first-order autocovariance of the spot volatility increments, with the latter correcting for the bias in the former due to option observation errors. The leverage effect estimator is the sample covariance between price increments and the estimated volatility increments. The rate of convergence of the estimators depends on the diffusive innovations in the latent volatility process as well as on the observation error in the options with strikes in the vicinity of the current spot price. Feasible inference is developed in a way that do
     
-[^11]: 论文发表对于想法传播的影响
+[^6]: 使用混合深度学习方法估算区域投入产出表的输入系数
 
-    The effect of conference presentations on the diffusion of ideas. (arXiv:2209.01175v2 [cs.DL] UPDATED)
+    Estimating Input Coefficients for Regional Input-Output Tables Using Deep Learning with Mixup. (arXiv:2305.01201v1 [econ.EM])
 
-    [http://arxiv.org/abs/2209.01175](http://arxiv.org/abs/2209.01175)
+    [http://arxiv.org/abs/2305.01201](http://arxiv.org/abs/2305.01201)
 
-    研究利用 Confer 数据分析了学术会议演讲直接和意外对未来引用的影响，结果发现与有冲突的时间段相比，无冲突时间段中用户引用的论文数量明显增加。
-
-    
-
-    会议在许多行业中很普遍，但它们如何有效地传播想法一直存在争议，传播机制也不清楚。会议参与者可以从他们选择观看（直接影响）或偶然看到（意外影响）的演讲中采纳想法。本文通过利用准随机调度冲突量化学术会议演讲直接和意外对未来引用的影响。当参会者同时有兴趣的多篇论文同一时间演讲时，平均来说，该人将无法全部观看，如果演讲很重要，则会较少引用相关论文。我们使用 Confer 数据，它是一款部署在 25 个现场计算机科学会议中的调度应用程序，允许用户喜欢论文并接收个性化日程安排。相比于有许多冲突的时间段，用户在无调度冲突的时间段中引用喜欢的论文增加了52％。用户在没有冲突的会话中也引用非喜欢的论文增加了51％，这是一种意外的扩散现象。
-
-    Conferences are ubiquitous in many industries, but how effectively they diffuse ideas has been debated and the mechanisms of diffusion unclear. Conference attendees can adopt ideas from presentations they choose to see (direct effect) or see incidentally (serendipity effect). We quantify these direct and serendipitous effects of academic conference presentations on future citations by exploiting quasi-random scheduling conflicts. When multiple papers of interest to an attendee are presented at the same time, the person is less able to see them on average and, if seeing presentations is important, cites them less. We use data from Confer, a scheduling application deployed at 25 in-person computer science conferences that lets users Like papers and receive personalized schedules. Compared to timeslots with many conflicts, users cited Liked papers with no scheduling conflicts 52% more. Users also cited non-Liked papers in sessions with no conflicts 51% more, and this serendipitous diffusi
-    
-[^12]: 有限理性忽视模型的分布稳健性研究
-
-    On the Distributional Robustness of Finite Rational Inattention Models. (arXiv:2208.03370v2 [econ.TH] UPDATED)
-
-    [http://arxiv.org/abs/2208.03370](http://arxiv.org/abs/2208.03370)
-
-    本文研究了有限理性忽视模型的分布稳健性，提出了一种对先验分布模糊性稳健的随机选择规则的构建方法，并通过“最坏情况敏感度”概念量化了先验不确定性对模型的影响。
+    本文提出使用混合深度学习方法来估算区域投入产出表的输入系数。结果表明，该方法可以比非调查方法更准确地估算输入系数。
 
     
 
-    本文研究了一个有限理性忽视模型，其中决策者面临着对状态真实先验分布的不确定性。决策者试图选择一种对先验分布模糊性稳健的随机选择规则。我们通过可计算的凸规划完全表征了有限理性忽视模型的分布稳健性。我们建立了构建稳健考虑集的必要和充分条件。最后，我们通过引入“最坏情况敏感度”概念来量化先验不确定性的影响。
+    投入产出表是分析区域经济状况的重要数据。但是，日本每个地区的投入产出表并非总是公开的，需要进行估算。为了提高估算精度，本研究提出了一种利用人工神经网络逼近生成过程以估算输入系数的方法，并引入了数据增强技术mixup来增加数据量。该方法被应用于日本地区投入产出表的输入系数估算中，结果表明该方法可以比非调查方法更准确地估算输入系数。
 
-    In this paper we study a rational inattention model in environments where the decision maker faces uncertainty about the true prior distribution over states. The decision maker seeks to select a stochastic choice rule over a finite set of alternatives that is robust to prior ambiguity. We fully characterize the distributional robustness of the rational inattention model in terms of a tractable concave program. We establish necessary and sufficient conditions to construct robust consideration sets. Finally, we quantify the impact of prior uncertainty, by introducing the notion of \emph{Worst-Case Sensitivity}.
+    An input-output table is an important data for analyzing the economic situation of a region. Generally, the input-output table for each region (regional input-output table) in Japan is not always publicly available, so it is necessary to estimate the table. In particular, various methods have been developed for estimating input coefficients, which are an important part of the input-output table. Currently, non-survey methods are often used to estimate input coefficients because they require less data and computation, but these methods have some problems, such as discarding information and requiring additional data for estimation.  In this study, the input coefficients are estimated by approximating the generation process with an artificial neural network (ANN) to mitigate the problems of the non-survey methods and to estimate the input coefficients with higher precision. To avoid over-fitting due to the small data used, data augmentation, called mixup, is introduced to increase the dat
     
-[^13]: 政治权力与市场垄断
+[^7]: 门槛预测回归模型中带混合随机局部单位根的推断
 
-    Political Power and Market Power. (arXiv:2106.13612v7 [econ.GN] UPDATED)
+    Inference in Threshold Predictive Regression Models with Hybrid Stochastic Local Unit Roots. (arXiv:2305.00860v1 [econ.EM])
 
-    [http://arxiv.org/abs/2106.13612](http://arxiv.org/abs/2106.13612)
+    [http://arxiv.org/abs/2305.00860](http://arxiv.org/abs/2305.00860)
 
-    本文研究政治影响和产业垄断之间的联系，提出了兼并增加游说的条件，并通过数据发现兼并和游说、竞选捐款之间存在正向关联。
-
-    
-
-    我们研究政治影响和产业垄断之间的联系。我们提出了一个关于政治影响和市场竞争的联合模型：寡头垄断游说政府进行监管，并在这种影响下的产品市场竞争。我们展示了兼并增加游说的广泛条件，既在密集边际上又在广泛边际上。我们结合了1999年至2017年美国兼并数据和游说开支、竞选捐款数据。我们记录兼并和游说之间的正向关联，无论是个人公司还是行业贸易协会。并且兼并还与类似设立内部游说团队和公司政治行动委员会等广泛边际变化相关。我们发现兼并和更高的竞选捐款之间存在一定的正向关联的证据。
-
-    We study the link between political influence and industrial concentration. We present a joint model of political influence and market competition: an oligopoly lobbies the government over regulation, and competes in the product market shaped by this influence. We show broad conditions for mergers to increase lobbying, both on the intensive margin and the extensive margin. We combine data on mergers with data on lobbying expenditures and campaign contributions in the US from 1999 to 2017. We document a positive association between mergers and lobbying, both by individual firms and by industry trade associations. Mergers are also associated with extensive margin changes such as the formation of in-house lobbying teams and corporate PACs. We find some evidence for a positive association between mergers and higher campaign contributions.
-    
-[^14]: 隐藏动机的顾问
-
-    Advisors with Hidden Motives. (arXiv:2103.07446v4 [econ.TH] UPDATED)
-
-    [http://arxiv.org/abs/2103.07446](http://arxiv.org/abs/2103.07446)
-
-    本文研究了顾问隐藏动机的问题，确定了卖家用来将销售从低盈利物品转向高盈利物品的最优披露规则，并探讨了透明度政策的影响。
+    本研究探讨了带有混合随机局部单位根预测变量的门槛预测回归模型中的估计方法，并通过实证应用表明我们的框架在揭示特定时期的可预测性方面具有实用性，并突出了经济政策不确定性的影响。
 
     
 
-    本文研究了一种顾问隐藏动机的模型：卖家向潜在买家披露关于物品价值的信息，买家不知道物品的价值或者卖家销售该物品的盈利能力（卖家的动机）。本文确定了最优的披露规则，即卖家用来将销售从低盈利物品转向高盈利物品的规则。本文探讨了一个强制透明政策的影响，该政策揭示了卖家对买家的动机。结果表明，透明度可以消除卖家的操纵动机，但也可能导致卖家不披露物品价值的信息，并从一开始就不去获取这些信息。这一结果可以提高我们在顾问市场中实施的有效监管和承诺协议，以及顾问与顾问关系中的联系的理解。
+    本文研究了在带有混合随机局部单位根预测变量的门槛预测回归模型中的估计方法。我们演示了估计过程，并推导出了最小二乘估计量和文献中提到的基于工具变量的估计量在零门槛效应的原假设下的渐近分布。在模拟实验中，我们主要关注了我们所提出的估计器以及对应的可预测性检验在带有随机局部单位根的门槛效应存在时的有限样本性能。对股票回报股票指数的实证应用说明了我们的框架在揭示特定时期的可预测性区域方面的实用性。特别地，我们关注了可预测性文献中以前未曾考虑的一个方面，即经济政策不确定性的影响。
 
-    I study a model of advisors with hidden motives: a seller discloses information about an object's value to a potential buyer, who doesn't know the object's value or how profitable the object's sale is to the seller (the seller's motives). I characterize optimal disclosure rules, used by the seller to steer sales from lower- to higher-profitability objects. I investigate the effects of a mandated transparency policy, which reveals the seller's motives to the buyer. I show that, by removing the seller's steering incentive, transparency can dissuade the seller from disclosing information about the object's value, and from acquiring that information in the first place. This result refines our understanding of effective regulation in advice markets, and links it to the commitment protocol in the advisor-advisee relation.
+    In this paper, we study the estimation of the threshold predictive regression model with hybrid stochastic local unit root predictors. We demonstrate the estimation procedure and derive the asymptotic distribution of the least square estimator and the IV based estimator proposed by \cite{magdalinos2009limit}, under the null hypothesis of a diminishing threshold effect. Simulation experiments focus on the finite sample performance of our proposed estimators and the corresponding predictability tests as in \cite{gonzalo2012regime}, under the presence of threshold effects with stochastic local unit roots. An empirical application to stock return equity indices, illustrate the usefulness of our framework in uncovering regimes of predictability during certain periods. In particular, we focus on an aspect not previously examined in the predictability literature, that is, the effect of economic policy uncertainty.
+    
+[^8]: 包含工具变量的内生线性回归
+
+    Endogenous Linear Regressions with Included Instrumental Variables. (arXiv:2304.00626v1 [econ.EM])
+
+    [http://arxiv.org/abs/2304.00626](http://arxiv.org/abs/2304.00626)
+
+    该论文提出了两种半参数估计器和一种基于离散化的估计器，可以在不需要排除工具变量的情况下鉴别内生线性回归模型，并且这些估计方法在有限样本中表现良好。
+
+    
+
+    我们展示了在标准均值独立条件和给定包含外生协变量的条件下内生线性回归模型可以在不需要排除工具变量的情况下被鉴别。基于鉴别结果，我们提出了两个半参数估计器，以及一种不需要非参数回归的基于离散化的估计器。我们建立了它们的渐进正态性，提供了相应的方差估计器，并通过模拟演示了我们提出的估计和推断程序的良好有限样本表现。特别地，我们发现基于离散化的估计器在有限样本中表现非常好，同时计算非常简单和快速。
+
+    We show that endogenous linear regression models can be identified without excluded instrumental variables, based on the standard mean independence condition and a no-multicollinearity condition on the conditional expectations of endogenous covariates given the included exogenous covariates. Based on the identification results, we propose two semiparametric estimators as well as a discretization-based estimator that does not require any nonparametric regressions. We establish their asymptotic normality, provide corresponding variance estimators, and demonstrate via simulations the good finite-sample performances of our proposed estimation and inference procedures. In particular, we find that the discretization-based estimator performs remarkably well in finite samples, while being very simple and fast to compute.
+    
+[^9]: 从俄乌冲突到全球粮食供应的冲击传播：基于多层次食品生产网络的研究
+
+    Shock propagation from the Russia-Ukraine conflict on international multilayer food production network determines global food availability. (arXiv:2210.01846v2 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2210.01846](http://arxiv.org/abs/2210.01846)
+
+    俄乌冲突在全球食品生产网络中引起的局部冲击传播影响到多个国家和地区的粮食供应，乌克兰完全失去农业生产会对全球甚至是家禽肉类和葵花籽油的市场造成重大影响。
+
+    
+
+    全球食品生产网络中的依赖关系可能导致多个地区的短缺，这在俄乌冲突对全球粮食供应的影响中得到了证实。本文使用一个多层次的贸易(直接)和食品产品转化(间接)的网络模型，揭示了在192个国家和地区的农业生产发生局部冲击后125种食品产品的损失情况，从而量化了1亿次 冲击传播。我们发现，在乌克兰出现完全农业生产损失的情况下，对其他国家造成的影响是异质的，通过直接效应，导致葵花籽油和玉米相对损失高达89%和85%，通过间接影响，家禽肉类的损失高达25%。尽管先前的研究通常将食品产品孤立地处理，并没有考虑生产过程中的产品转化，但我们的模型研究了当地供应冲击的全球传播，沿着生产和贸易关系进行比较。
+
+    Dependencies in the global food production network can lead to shortages in numerous regions, as demonstrated by the impacts of the Russia-Ukraine conflict on global food supplies. Here, we reveal the losses of $125$ food products after a localized shock to agricultural production in $192$ countries and territories using a multilayer network model of trade (direct) and conversion of food products (indirect), thereby quantifying $10^8$ shock transmissions. We find that a complete agricultural production loss in Ukraine has heterogeneous impacts on other countries, causing relative losses of up to $89\%$ in sunflower oil and $85\%$ in maize via direct effects, and up to $25\%$ in poultry meat via indirect impacts. Whilst previous studies often treated products in isolation and did not account for product conversion during production, our model studies the global propagation of local supply shocks along both production and trade relations, allowing comparison of different response strateg
+    
+[^10]: 条件分布的卡方拟合检验
+
+    Chi-Square Goodness-of-Fit Tests for Conditional Distributions. (arXiv:2210.00624v3 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2210.00624](http://arxiv.org/abs/2210.00624)
+
+    本文提出了一种用于检查条件分布模型规范的 $\chi^2$ 拟合优度检验方法。通过对样本进行交叉分类，得到一个列联表，并使用分组数据的似然来计算检验统计量，从而检验期望频率是否符合模型限制。本文的创新点在于提出了可以控制每个单元格的观测次数的算法，实验表明该方法有效且准确。
+
+    
+
+    本文提出了一种用于检查条件分布模型规范的 $\chi^2$ 拟合优度检验方法。该方法涉及将样本基于因变量和自变量的交叉分类划分为不同类别，得到一个列联表。该表的期望频率独立于模型中的参数，并且等于边际的乘积。使用分组数据的似然来计算检验统计量，以检验期望频率是否符合模型限制。还介绍了一个 Chernoff-Lehman 结果，使我们能够使用高效原始数据估计器导出 Wald 统计量的渐近分布。即使分区依赖于样本，检验统计量的渐近分布仍然保持不变。还开发了一个算法来控制每个单元格的观测次数。蒙特卡罗实验证明了该方法的优良性能。
+
+    This paper proposes $\chi^2$ goodness-of-fit tests for checking conditional distribution model's specifications. The method involves partitioning the sample into classes based on a cross-classification of the dependent and explanatory variables, resulting in a contingency table with expected frequencies that are independent of the parameters in the model and equal to the product of the marginals. Test statistics are computed using the trinity of tests, based on the likelihood of grouped data, to test whether the expected frequencies satisfy the model's restrictions. We also present a Chernoff-Lehman result that enables us to derive the asymptotic distribution of a Wald statistic using the efficient raw data estimator. The asymptotic distribution of the test statistics remains the same even when partitions are sample-dependent. An algorithm is developed to control the number of observations per cell. Monte Carlo experiments demonstrate the proposed tests' excellent size accuracy and goo
+    
+[^11]: 西班牙登记数据中反复堕胎及其间隔的相关因素
+
+    Correlates of repeat abortions and their spacing: Evidence from registry data in Spain. (arXiv:2208.05567v2 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2208.05567](http://arxiv.org/abs/2208.05567)
+
+    本研究利用西班牙2019年记录的人工流产数据，发现进行反复堕胎的妇女往往具有较低的教育水平、有抚养子女、单身或外来人口。同时，未受教育、无业、有抚养子女或外来出生等因素也与反复堕胎次数增加和堕胎时间间隔较短密切相关。
+
+    
+
+    本文利用西班牙2019年记录的所有人工流产的行政数据，分析了进行反复堕胎的妇女特征和这些手术之间的间隔。我们的发现表明，与首次堕胎的妇女相比，进行反复堕胎的妇女更可能具有较低的教育水平、有抚养子女、单身或外来人口，并且与年龄呈非单调关系。我们还报告了未受教育、无业、有抚养子女或外来出生等因素都与反复堕胎次数增加密切相关。最后，我们发现未受教育、外来出生或无业与最后两次堕胎之间的时间间隔较短相关。
+
+    Using administrative data on all induced abortions recorded in Spain in 2019, we analyze the characteristics of women undergoing repeat abortions and the spacing between these procedures. Our findings indicate that compared to women experiencing their first abortion, those who undergo repeat abortions are more likely to have lower education levels, have dependent children, live alone, or be foreign-born, with a non-monotonic relationship with age. We also report that being less educated, not employed, having dependent children, or being foreign-born are all strongly related to a higher number of repeat abortions. Lastly, we find that being less educated, foreign-born, or not employed is correlated with a shorter time interval between the last two abortions.
+    
+[^12]: 基于自给自足的功德经济体系的共享资源动态分配研究
+
+    A self-contained karma economy for the dynamic allocation of common resources. (arXiv:2207.00495v2 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2207.00495](http://arxiv.org/abs/2207.00495)
+
+    本文提出了一种自给自足的功德机制，能够在有限资源的重复分配中实现高效率水平。
+
+    
+
+    本文提出了一种新颖的方法——功德机制来解决资源分配问题。该机制适用于重复分配有限资源的场景，如顶峰时段顺风车接单，路口让行或提供快速互联网服务等。我们研究了这些问题的简化版本，用每个时间段内随机匹配的两个个体来竞争有限资源。功德机制的直观解释是：“如果我现在妥协，我将来会得到回报。”在类似于拍卖的竞争中，参与者竞标功德单位，交易的功德在系统内流通并自我滋生。我们的研究表明，这种机制使自利的群体能够实现高效率水平，而无需引入可能存在问题的货币手段。
+
+    This paper presents karma mechanisms, a novel approach to the repeated allocation of a scarce resource among competing agents over an infinite time. Examples of such resource allocation problems include deciding which trip requests to serve in a ride-hailing platform during peak demand, granting the right of way in intersections, or admitting internet content to a fast channel for improved quality of service. We study a simplified yet insightful formulation of these problems where at every time two agents from a large population get randomly matched to compete over the resource. The intuitive interpretation of a karma mechanism is "If I give in now, I will be rewarded in the future." Agents compete in an auction-like setting where they bid units of karma, which circulates directly among them and is self-contained in the system. We demonstrate that this allows a society of self-interested agents to achieve high levels of efficiency without resorting to a (possibly problematic) monetary 
+    
+[^13]: 评估外汇储备的货币组成
+
+    Estimating the Currency Composition of Foreign Exchange Reserves. (arXiv:2206.13751v3 [q-fin.ST] UPDATED)
+
+    [http://arxiv.org/abs/2206.13751](http://arxiv.org/abs/2206.13751)
+
+    该论文提出了一种隐马尔可夫模型，用于评估央行外汇储备的货币组成。作者将该模型应用于中国和新加坡，发现中国的储备组成可能类似于全球平均水平，而新加坡可能持有更少的美元。
+
+    
+
+    央行管理着大约12万亿美元的外汇储备，影响全球汇率和资产价值。然而，一些最大的储备保有者报告的货币组合信息很少，阻碍了实证分析。本文提出了一种隐马尔可夫模型，通过将组合价值的波动与主要储备货币的汇率相关联，来估计央行的储备组成。我将该模型应用于中国和新加坡，这两个国家共持有约3.4万亿美元的储备并隐瞒其组成。我发现，中国的储备组成可能类似于全球平均水平，而新加坡可能持有更少的美元。
+
+    Central banks manage about \$12 trillion in foreign exchange reserves, influencing global exchange rates and asset prices. However, some of the largest holders of reserves report minimal information about their currency composition, hindering empirical analysis. I describe a Hidden Markov Model to estimate the composition of a central bank's reserves by relating the fluctuation in the portfolio's valuation to the exchange rates of major reserve currencies. I apply the model to China and Singapore, two countries that collectively hold about \$3.4 trillion in reserves and conceal their composition. I find that both China's reserve composition likely resembles the global average, while Singapore probably holds fewer US dollars.
+    
+[^14]: 技术、制度与区域增长: 日本工业化时期矿业的证据
+
+    Technology, Institution, and Regional Growth: Evidence from Mineral Mining Industry in Industrializing Japan. (arXiv:2112.14514v9 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2112.14514](http://arxiv.org/abs/2112.14514)
+
+    该论文研究了煤炭开采对日本区域增长的影响，发现劳动法规的变革加速了当地人口的增长。
+
+    
+
+    煤炭开采是日本战间期一个有影响力的经济活动。初期，煤矿不仅雇用男性，还雇用女性作为在矿井里工作的矿工。然而，劳动节约技术的创新和传统的开采方法的更新，促成了早期1930年代通过对女矿工劳动法规的修订而引起的制度性变革。这从根本上改变了煤矿的面貌，成为熟练男性是从事地下工作的主要矿工的地方。我研究了煤矿对区域增长的影响，并评估了劳动法规引发制度性变革对过程的影响。通过将矿山的位置信息与基于登记和人口普查的统计数据进行链接，我发现煤矿导致了人口显着增长。劳动法规没有使局面停滞不前，反而加速了当地人口的增长，因为它迫使女性矿工离开劳动力市场，从而大量增加了当地人口。
+
+    Coal extraction was an influential economic activity in interwar Japan. At the initial stage, coal mines had used not only males but also females as the miners worked in the pits. The innovation of labor-saving technologies and the renewal of traditional extraction methodology, however, induced the institutional change through the revision of labor regulations on the female miners in the early 1930s. This dramatically changed the mines as the place where skilled males were the principal miners engaged in the underground works. I investigate the impact of coal mining on the regional growth and assess how the institutional change induced by the labor regulations affected its process. By linking the location information of mines with registration- and census-based statistics, I found that coal mines led to the remarkable population growths. The labor regulations did not stagnate but accelerated the local population growth as it had forced female miners to exist from labor market and to fo
+    
+[^15]: 一种统一的频域交叉验证方法用于HAC标准误差估计
+
+    A Unified Frequency Domain Cross-Validatory Approach to HAC Standard Error Estimation. (arXiv:2108.06093v2 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2108.06093](http://arxiv.org/abs/2108.06093)
+
+    提出一种统一的频域交叉验证方法，用于估计异方差性和自相关一致的标准误差。该方法同时选择参数化和非参数化谱估计器的模型/调整参数，通过模拟得到了良好的效果。
+
+    
+
+    提出了一种统一的频域交叉验证（FDCV）方法，以获得异方差性和自相关一致的（HAC）标准误差。该方法可以同时选择参数化和非参数化谱估计器的模型/调整参数。该方法的候选类包括基于限制最大似然的自回归谱估计器和具有Parzen内核的滞后权重估计器。此外，还提供了一种计算自回归模型的REML估计器的高效技术。通过模拟，证明了FDCV方法的可靠性，与流行的HAC估计器（如Andrews-Monahan和Newey-West）相比具有更好的效果。
+
+    A unified frequency domain cross-validation (FDCV) method is proposed to obtain a heteroskedasticity and autocorrelation consistent (HAC) standard error. This method enables model/tuning parameter selection across both parametric and nonparametric spectral estimators simultaneously. The candidate class for this approach consists of restricted maximum likelihood-based (REML) autoregressive spectral estimators and lag-weights estimators with the Parzen kernel. Additionally, an efficient technique for computing the REML estimators of autoregressive models is provided. Through simulations, the reliability of the FDCV method is demonstrated, comparing favorably with popular HAC estimators such as Andrews-Monahan and Newey-West.
+    
+[^16]: 基于分布学习的加权治疗效果估计
+
+    Weighting-Based Treatment Effect Estimation via Distribution Learning. (arXiv:2012.13805v4 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2012.13805](http://arxiv.org/abs/2012.13805)
+
+    本文提出了一种基于分布学习的加权方法，通过学习协变量在治疗组和对照组的分布并利用比率作为权重来估计治疗效果，以缓解现有加权方法中模型错误设置的问题。
+
+    
+
+    现有的治疗效果估计加权方法通常建立在倾向得分或协变量平衡的基础上。它们通常对治疗分配或结果模型施加强制性假设，以获得无偏估计，如线性或特定的函数形式，这很容易导致模型错误设置的主要缺点。本文旨在通过开发基于分布学习的加权方法来缓解这些问题。我们首先学习以治疗分配为条件的协变量真实潜在分布，然后利用治疗组协变量密度与对照组协变量密度之比作为估计治疗效果的权重。具体而言，我们提出通过变量间的可逆变换来近似治疗组和对照组中的协变量分布。为了证明我们方法的优越性、鲁棒性和泛化性，我们进行了大量实验。
+
+    Existing weighting methods for treatment effect estimation are often built upon the idea of propensity scores or covariate balance. They usually impose strong assumptions on treatment assignment or outcome model to obtain unbiased estimation, such as linearity or specific functional forms, which easily leads to the major drawback of model mis-specification. In this paper, we aim to alleviate these issues by developing a distribution learning-based weighting method. We first learn the true underlying distribution of covariates conditioned on treatment assignment, then leverage the ratio of covariates' density in the treatment group to that of the control group as the weight for estimating treatment effects. Specifically, we propose to approximate the distribution of covariates in both treatment and control groups through invertible transformations via change of variables. To demonstrate the superiority, robustness, and generalizability of our method, we conduct extensive experiments usi
+    
+[^17]: 线性矩构成的集合标识参数的函数推断的简单方法
+
+    Simple Inference on Functionals of Set-Identified Parameters Defined by Linear Moments. (arXiv:1810.03180v10 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/1810.03180](http://arxiv.org/abs/1810.03180)
+
+    本文提出一种简单的方法来获得线性矩不等式定义的部分识别参数的一致有效推断，该方法不需要研究人员对参数空间进行网格划分，因而具有较强的可操作性。
+
+    
+
+    本文提出了一种新的方法来获得线性矩不等式定义的部分识别参数的线性函数或标量子向量的一致有效推断。该过程等同于对随机扰动的线性规划问题的价值函数进行自举，不需要研究人员对参数空间进行网格划分。一致有效的低级条件依赖于线性规划的一般性结果。非传统的扰动方法产生了一个置信集，覆盖概率在已识别集上为1，但在外部集上获得精确覆盖，符合弱假设，计算实施非常简单。
+
+    This paper proposes a new approach to obtain uniformly valid inference for linear functionals or scalar subvectors of a partially identified parameter defined by linear moment inequalities. The procedure amounts to bootstrapping the value functions of randomly perturbed linear programming problems, and does not require the researcher to grid over the parameter space. The low-level conditions for uniform validity rely on genericity results for linear programs. The unconventional perturbation approach produces a confidence set with a coverage probability of 1 over the identified set, but obtains exact coverage on an outer set, is valid under weak assumptions, and is computationally simple to implement.
     
 

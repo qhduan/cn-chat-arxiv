@@ -1,0 +1,12 @@
+{
+    "title": "The Re-Label Method For Data-Centric Machine Learning. (arXiv:2302.04391v2 [cs.LG] UPDATED)",
+    "abstract": "In industry deep learning application, our manually labeled data has a certain number of noisy data. To solve this problem and achieve more than 90 score in dev dataset, we present a simple method to find the noisy data and re-label the noisy data by human, given the model predictions as references in human labeling. In this paper, we illustrate our idea for a broad set of deep learning tasks, includes classification, sequence tagging, object detection, sequence generation, click-through rate prediction. The experimental results and human evaluation results verify our idea.",
+    "link": "http://arxiv.org/abs/2302.04391",
+    "context": "Title: The Re-Label Method For Data-Centric Machine Learning. (arXiv:2302.04391v2 [cs.LG] UPDATED)\nAbstract: In industry deep learning application, our manually labeled data has a certain number of noisy data. To solve this problem and achieve more than 90 score in dev dataset, we present a simple method to find the noisy data and re-label the noisy data by human, given the model predictions as references in human labeling. In this paper, we illustrate our idea for a broad set of deep learning tasks, includes classification, sequence tagging, object detection, sequence generation, click-through rate prediction. The experimental results and human evaluation results verify our idea.",
+    "path": "papers/23/02/2302.04391.json",
+    "total_tokens": 681,
+    "translated_title": "数据中心机器学习的重新标签法",
+    "translated_abstract": "在深度学习应用中，手动标记的数据在一定程度上存在噪声。为了解决这个问题，并在开发数据集上获得90分以上的成绩，本文提出了一种简单的方法来找出噪声数据，并通过采用模型预测作为人类标记的参考来重新标记噪声数据。本文阐述了我们在广泛的深度学习任务中的想法，包括分类、序列标记、物体检测、序列生成、点击率预测。实验结果和人类评估结果验证了我们的想法。",
+    "tldr": "本文提出了一种重新标签的方法来解决手动标记的数据中存在噪声的问题，并通过模型预测来辅助人类标记噪声数据。实验证明此方法适用于多类深度学习任务。",
+    "en_tdlr": "This paper proposes a re-labeling method to solve the problem of noise in manually labeled data, and uses model predictions as references for human labeling. The method is applied to a wide range of deep learning tasks and proven to be effective through experiments and human evaluation."
+}

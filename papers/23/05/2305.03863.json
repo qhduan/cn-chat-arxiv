@@ -1,0 +1,12 @@
+{
+    "title": "Software-based Automatic Differentiation is Flawed. (arXiv:2305.03863v1 [cs.LG])",
+    "abstract": "Various software efforts embrace the idea that object oriented programming enables a convenient implementation of the chain rule, facilitating so-called automatic differentiation via backpropagation. Such frameworks have no mechanism for simplifying the expressions (obtained via the chain rule) before evaluating them. As we illustrate below, the resulting errors tend to be unbounded.",
+    "link": "http://arxiv.org/abs/2305.03863",
+    "context": "Title: Software-based Automatic Differentiation is Flawed. (arXiv:2305.03863v1 [cs.LG])\nAbstract: Various software efforts embrace the idea that object oriented programming enables a convenient implementation of the chain rule, facilitating so-called automatic differentiation via backpropagation. Such frameworks have no mechanism for simplifying the expressions (obtained via the chain rule) before evaluating them. As we illustrate below, the resulting errors tend to be unbounded.",
+    "path": "papers/23/05/2305.03863.json",
+    "total_tokens": 487,
+    "translated_title": "基于软件的自动微分存在缺陷",
+    "translated_abstract": "各种软件尝试采用面向对象编程的思想，实现链式规则，并通过反向传播来实现所谓的自动微分。这样的框架在求值之前无法简化表达式（通过链式规则获得的），导致计算结果的误差往往无限大。",
+    "tldr": "软件实现的自动微分存在不可控的计算误差。",
+    "en_tdlr": "The software-based automatic differentiation suffers from unbounded errors due to the lack of mechanism for simplifying expressions obtained via the chain rule before evaluation."
+}

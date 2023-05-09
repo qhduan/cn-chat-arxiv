@@ -1,0 +1,12 @@
+{
+    "title": "Rhetorical Role Labeling of Legal Documents using Transformers and Graph Neural Networks. (arXiv:2305.04100v1 [cs.CL])",
+    "abstract": "A legal document is usually long and dense requiring human effort to parse it. It also contains significant amounts of jargon which make deriving insights from it using existing models a poor approach. This paper presents the approaches undertaken to perform the task of rhetorical role labelling on Indian Court Judgements as part of SemEval Task 6: understanding legal texts, shared subtask A. We experiment with graph based approaches like Graph Convolutional Networks and Label Propagation Algorithm, and transformer-based approaches including variants of BERT to improve accuracy scores on text classification of complex legal documents.",
+    "link": "http://arxiv.org/abs/2305.04100",
+    "context": "Title: Rhetorical Role Labeling of Legal Documents using Transformers and Graph Neural Networks. (arXiv:2305.04100v1 [cs.CL])\nAbstract: A legal document is usually long and dense requiring human effort to parse it. It also contains significant amounts of jargon which make deriving insights from it using existing models a poor approach. This paper presents the approaches undertaken to perform the task of rhetorical role labelling on Indian Court Judgements as part of SemEval Task 6: understanding legal texts, shared subtask A. We experiment with graph based approaches like Graph Convolutional Networks and Label Propagation Algorithm, and transformer-based approaches including variants of BERT to improve accuracy scores on text classification of complex legal documents.",
+    "path": "papers/23/05/2305.04100.json",
+    "total_tokens": 684,
+    "translated_title": "基于Transformer和图神经网络的法律文件修辞角色标注",
+    "translated_abstract": "通常，法律文件冗长而密集，需要人力成本来解析。此外，法律文件还包含大量行话术语，使用现有模型来从中获得洞察的方法表现不佳。本文介绍了在 SemEval Task 6: understanding legal texts, shared subtask A 的印度法院判决中进行修辞角色标注任务所采用的方法。我们尝试了基于图的方法，如图卷积网络和标签传播算法，以及基于Transformer的方法，包括BERT的变体，以提高针对复杂法律文件的文本分类的准确性分数。",
+    "tldr": "本文尝试使用图神经网络和Transformer改进法律文件的文本分类准确性，以解决长、密集、包含行话术语的法律文件的修辞角色标注问题。",
+    "en_tdlr": "This paper attempts to improve the text classification accuracy of legal documents using graph neural networks and transformers. It aims to solve the task of rhetorical role labeling on legal documents which are long, dense and contain jargon."
+}

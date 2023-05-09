@@ -1,0 +1,12 @@
+{
+    "title": "NorBench -- A Benchmark for Norwegian Language Models. (arXiv:2305.03880v1 [cs.CL])",
+    "abstract": "We present NorBench: a streamlined suite of NLP tasks and probes for evaluating Norwegian language models (LMs) on standardized data splits and evaluation metrics. We also introduce a range of new Norwegian language models (both encoder and encoder-decoder based). Finally, we compare and analyze their performance, along with other existing LMs, across the different benchmark tests of NorBench.",
+    "link": "http://arxiv.org/abs/2305.03880",
+    "context": "Title: NorBench -- A Benchmark for Norwegian Language Models. (arXiv:2305.03880v1 [cs.CL])\nAbstract: We present NorBench: a streamlined suite of NLP tasks and probes for evaluating Norwegian language models (LMs) on standardized data splits and evaluation metrics. We also introduce a range of new Norwegian language models (both encoder and encoder-decoder based). Finally, we compare and analyze their performance, along with other existing LMs, across the different benchmark tests of NorBench.",
+    "path": "papers/23/05/2305.03880.json",
+    "total_tokens": 613,
+    "translated_title": "NorBench--挪威语言模型基准测试。",
+    "translated_abstract": "我们提出了NorBench：一个简化的NLP任务和探测套件，用于在标准数据划分和评估指标上评估挪威语言模型（LMs）。 我们还引入了一系列新的挪威语言模型（基于编码器和编码器-解码器）。 最后，我们比较和分析它们的表现，以及其他现有的LMs，在NorBench的不同基准测试中。",
+    "tldr": "NorBench是用来评估挪威语言模型的基准测试，其中包括简化的自然语言处理任务和探测套件，可以用于评估各种挪威语言模型的标准数据和评估指标。",
+    "en_tdlr": "NorBench is a benchmark for evaluating Norwegian language models, consisting of streamlined NLP tasks and probes for standardized data and evaluation metrics. The suite includes a range of new Norwegian language models and comparison analysis of their performance with existing LMs."
+}

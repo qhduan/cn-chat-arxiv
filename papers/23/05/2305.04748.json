@@ -1,0 +1,12 @@
+{
+    "title": "A greedy algorithm for habit formation under multiplicative utility. (arXiv:2305.04748v1 [q-fin.PM])",
+    "abstract": "We consider the problem of optimizing lifetime consumption under a habit formation model, both with and without an exogenous pension. Unlike much of the existing literature, we apply a power utility to the ratio of consumption to habit, rather than to their difference. The martingale/duality method becomes intractable in this setting, so we develop a greedy version of this method that is solvable using Monte Carlo simulation. We investigate the behaviour of the greedy solution, and explore what parameter values make the greedy solution a good approximation to the optimal one.",
+    "link": "http://arxiv.org/abs/2305.04748",
+    "context": "Title: A greedy algorithm for habit formation under multiplicative utility. (arXiv:2305.04748v1 [q-fin.PM])\nAbstract: We consider the problem of optimizing lifetime consumption under a habit formation model, both with and without an exogenous pension. Unlike much of the existing literature, we apply a power utility to the ratio of consumption to habit, rather than to their difference. The martingale/duality method becomes intractable in this setting, so we develop a greedy version of this method that is solvable using Monte Carlo simulation. We investigate the behaviour of the greedy solution, and explore what parameter values make the greedy solution a good approximation to the optimal one.",
+    "path": "papers/23/05/2305.04748.json",
+    "total_tokens": 693,
+    "translated_title": "一种在乘法效用下用于习惯形成的贪心算法",
+    "translated_abstract": "本文研究了在习惯形成模型下，带或不带外部养老金情况下优化终身消费的问题。与大部分现有文献不同的是，我们将功用函数应用于消费和习惯的比率，而非它们的差异。在这种情况下，马丁格尔/对偶方法变得复杂，于是我们开发了贪心算法的版本，通过蒙特卡罗模拟可以解决。我们研究了贪心解的行为，并探讨了哪些参数值使贪心解成为最优解的良好近似。",
+    "tldr": "本文提出了一种在乘法效用下用于习惯形成的贪心算法，并研究了该算法的行为特征，探讨了使其成为最优解的良好近似的参数值。",
+    "en_tdlr": "This paper proposes a greedy algorithm for habit formation under multiplicative utility and investigates the behavior of the greedy solution. The authors explore what parameter values make the greedy solution a good approximation to the optimal one."
+}

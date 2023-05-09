@@ -1,0 +1,11 @@
+{
+    "title": "Nonlinear Isometric Manifold Learning for Injective Normalizing Flows. (arXiv:2203.03934v2 [cs.LG] UPDATED)",
+    "abstract": "To model manifold data using normalizing flows, we employ isometric autoencoders to design embeddings with explicit inverses that do not distort the probability distribution. Using isometries separates manifold learning and density estimation and enables training of both parts to high accuracy. Thus, model selection and tuning are simplified compared to existing injective normalizing flows. Applied to data sets on (approximately) flat manifolds, the combined approach generates high-quality data.",
+    "link": "http://arxiv.org/abs/2203.03934",
+    "context": "Title: Nonlinear Isometric Manifold Learning for Injective Normalizing Flows. (arXiv:2203.03934v2 [cs.LG] UPDATED)\nAbstract: To model manifold data using normalizing flows, we employ isometric autoencoders to design embeddings with explicit inverses that do not distort the probability distribution. Using isometries separates manifold learning and density estimation and enables training of both parts to high accuracy. Thus, model selection and tuning are simplified compared to existing injective normalizing flows. Applied to data sets on (approximately) flat manifolds, the combined approach generates high-quality data.",
+    "path": "papers/22/03/2203.03934.json",
+    "total_tokens": 610,
+    "translated_title": "非线性等距流形学习用于单射归一化流",
+    "translated_abstract": "为了利用归一化流建模流形数据，我们采用等距自编码器来设计具有显式逆的嵌入，以不改变概率分布。使用等距映射将流形学习和密度估计分离，并使两部分的训练达到高精度。因此，与现有单射归一化流相比，模型选择和调整更为简化。应用于（近似）平坦流形的数据集，该组合方法可生成高质量的数据。",
+    "tldr": "使用等距自编码器的非线性等距流形学习模型可以简化模型选择和调整，并生成高质量的数据。"
+}

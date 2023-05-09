@@ -1,0 +1,12 @@
+{
+    "title": "Reinforcement Learning, Bit by Bit. (arXiv:2103.04047v8 [cs.LG] UPDATED)",
+    "abstract": "Reinforcement learning agents have demonstrated remarkable achievements in simulated environments. Data efficiency poses an impediment to carrying this success over to real environments. The design of data-efficient agents calls for a deeper understanding of information acquisition and representation. We discuss concepts and regret analysis that together offer principled guidance. This line of thinking sheds light on questions of what information to seek, how to seek that information, and what information to retain. To illustrate concepts, we design simple agents that build on them and present computational results that highlight data efficiency.",
+    "link": "http://arxiv.org/abs/2103.04047",
+    "context": "Title: Reinforcement Learning, Bit by Bit. (arXiv:2103.04047v8 [cs.LG] UPDATED)\nAbstract: Reinforcement learning agents have demonstrated remarkable achievements in simulated environments. Data efficiency poses an impediment to carrying this success over to real environments. The design of data-efficient agents calls for a deeper understanding of information acquisition and representation. We discuss concepts and regret analysis that together offer principled guidance. This line of thinking sheds light on questions of what information to seek, how to seek that information, and what information to retain. To illustrate concepts, we design simple agents that build on them and present computational results that highlight data efficiency.",
+    "path": "papers/21/03/2103.04047.json",
+    "total_tokens": 614,
+    "translated_title": "逐步分析强化学习",
+    "translated_abstract": "强化学习代理在模拟环境中取得了惊人的成就。数据效率是将这种成功应用于实际环境的障碍。数据高效代理的设计需要更深入地了解信息获取和表示。我们讨论了概念和遗憾分析，共同提供了原则性指导。这种思路揭示了关于寻求什么信息、如何寻求该信息以及保留哪些信息的问题。为了阐明这些概念，我们设计了简单的代理，并展示了突出的数据效率的计算结果。",
+    "tldr": "该论文讨论了强化学习代理在实际环境中的数据效率问题，并提供了原则性指导和计算结果。",
+    "en_tdlr": "This paper discusses the data efficiency issue of reinforcement learning agents in real environments and provides principled guidance and computational results."
+}

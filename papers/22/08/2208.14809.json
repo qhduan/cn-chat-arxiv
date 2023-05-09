@@ -1,0 +1,12 @@
+{
+    "title": "A risk measurement approach from risk-averse stochastic optimization of score functions. (arXiv:2208.14809v2 [q-fin.RM] UPDATED)",
+    "abstract": "We propose a risk measurement approach for a risk-averse stochastic problem. We provide results that guarantee that our problem has a solution. We characterize and explore the properties of the argmin as a risk measure and the minimum as a deviation measure. We provide a connection between linear regression models and our framework. Based on this conception, we consider conditional risk and provide a connection between the minimum deviation portfolio and linear regression. Moreover, we also link the optimal replication hedging to our framework.",
+    "link": "http://arxiv.org/abs/2208.14809",
+    "context": "Title: A risk measurement approach from risk-averse stochastic optimization of score functions. (arXiv:2208.14809v2 [q-fin.RM] UPDATED)\nAbstract: We propose a risk measurement approach for a risk-averse stochastic problem. We provide results that guarantee that our problem has a solution. We characterize and explore the properties of the argmin as a risk measure and the minimum as a deviation measure. We provide a connection between linear regression models and our framework. Based on this conception, we consider conditional risk and provide a connection between the minimum deviation portfolio and linear regression. Moreover, we also link the optimal replication hedging to our framework.",
+    "path": "papers/22/08/2208.14809.json",
+    "total_tokens": 660,
+    "translated_title": "从风险规避的随机优化评分函数中测量风险",
+    "translated_abstract": "我们提出了一种针对风险规避的随机问题的风险测量方法。我们提供了保证问题具有解的结果。我们表征和探索了 argmin 作为风险度量和最小值作为偏差度量的属性。我们提供了线性回归模型与我们框架之间的联系。基于这个概念，我们考虑条件风险，提供了最小偏差组合和线性回归之间的联系。此外，我们还将最优复制避险与我们的框架联系起来。",
+    "tldr": "该论文提出了一种新的风险测量方法，可以解决风险规避的随机问题，并且与线性回归模型、最小偏差组合和最优复制避险有关。",
+    "en_tdlr": "This paper proposes a novel risk measurement approach to address risk-averse stochastic problems and establishes connections with linear regression models, minimum deviation portfolios, and optimal replication hedging."
+}

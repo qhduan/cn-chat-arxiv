@@ -1,0 +1,12 @@
+{
+    "title": "An improved regret analysis for UCB-N and TS-N. (arXiv:2305.04093v1 [cs.LG])",
+    "abstract": "In the setting of stochastic online learning with undirected feedback graphs, Lykouris et al. (2020) previously analyzed the pseudo-regret of the upper confidence bound-based algorithm UCB-N and the Thompson Sampling-based algorithm TS-N. In this note, we show how to improve their pseudo-regret analysis. Our improvement involves refining a key lemma of the previous analysis, allowing a $\\log(T)$ factor to be replaced by a factor $\\log_2(\\alpha) + 3$ for $\\alpha$ the independence number of the feedback graph.",
+    "link": "http://arxiv.org/abs/2305.04093",
+    "context": "Title: An improved regret analysis for UCB-N and TS-N. (arXiv:2305.04093v1 [cs.LG])\nAbstract: In the setting of stochastic online learning with undirected feedback graphs, Lykouris et al. (2020) previously analyzed the pseudo-regret of the upper confidence bound-based algorithm UCB-N and the Thompson Sampling-based algorithm TS-N. In this note, we show how to improve their pseudo-regret analysis. Our improvement involves refining a key lemma of the previous analysis, allowing a $\\log(T)$ factor to be replaced by a factor $\\log_2(\\alpha) + 3$ for $\\alpha$ the independence number of the feedback graph.",
+    "path": "papers/23/05/2305.04093.json",
+    "total_tokens": 686,
+    "translated_title": "UCB-N和TS-N的改进后的后悔分析",
+    "translated_abstract": "在具有无向反馈图的随机在线学习环境下，Lykouris等人（2020）先前分析了基于上置信界算法UCB-N和基于汤普森抽样算法TS-N的伪后悔。在本文中，我们展示了如何改进他们的伪后悔分析。我们的改进涉及到上一个分析的一个关键引理的细化，允许将$\\log(T)$因子替换为$\\log_2(\\alpha)+3$因子，其中$\\alpha$是反馈图的独立数。",
+    "tldr": "本文提出了对UCB-N和TS-N算法的改进后的伪后悔分析方法，并将$\\log(T)$因子替换为$\\log_2(\\alpha)+3$因子，其中$\\alpha$是反馈图的独立数。",
+    "en_tdlr": "This paper presents an improved pseudo-regret analysis for UCB-N and TS-N algorithms in stochastic online learning with undirected feedback graphs, replacing the $\\log(T)$ factor with a factor of $\\log_2(\\alpha) + 3$ where $\\alpha$ is the independence number of the feedback graph."
+}

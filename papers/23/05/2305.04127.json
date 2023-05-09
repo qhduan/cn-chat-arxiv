@@ -1,0 +1,12 @@
+{
+    "title": "Learning Mixtures of Gaussians with Censored Data. (arXiv:2305.04127v1 [cs.LG])",
+    "abstract": "We study the problem of learning mixtures of Gaussians with censored data. Statistical learning with censored data is a classical problem, with numerous practical applications, however, finite-sample guarantees for even simple latent variable models such as Gaussian mixtures are missing. Formally, we are given censored data from a mixture of univariate Gaussians $$\\sum_{i=1}^k w_i \\mathcal{N}(\\mu_i,\\sigma^2),$$ i.e. the sample is observed only if it lies inside a set $S$. The goal is to learn the weights $w_i$ and the means $\\mu_i$. We propose an algorithm that takes only $\\frac{1}{\\varepsilon^{O(k)}}$ samples to estimate the weights $w_i$ and the means $\\mu_i$ within $\\varepsilon$ error.",
+    "link": "http://arxiv.org/abs/2305.04127",
+    "context": "Title: Learning Mixtures of Gaussians with Censored Data. (arXiv:2305.04127v1 [cs.LG])\nAbstract: We study the problem of learning mixtures of Gaussians with censored data. Statistical learning with censored data is a classical problem, with numerous practical applications, however, finite-sample guarantees for even simple latent variable models such as Gaussian mixtures are missing. Formally, we are given censored data from a mixture of univariate Gaussians $$\\sum_{i=1}^k w_i \\mathcal{N}(\\mu_i,\\sigma^2),$$ i.e. the sample is observed only if it lies inside a set $S$. The goal is to learn the weights $w_i$ and the means $\\mu_i$. We propose an algorithm that takes only $\\frac{1}{\\varepsilon^{O(k)}}$ samples to estimate the weights $w_i$ and the means $\\mu_i$ within $\\varepsilon$ error.",
+    "path": "papers/23/05/2305.04127.json",
+    "total_tokens": 706,
+    "translated_title": "使用截断数据学习高斯混合模型",
+    "translated_abstract": "本文研究了在具有截断数据的情况下，学习高斯混合模型的问题。即从一个混合单变量高斯分布$\\sum_{i=1}^k w_i \\mathcal{N}(\\mu_i,\\sigma^2)$中观测到的样本只有当其位于$S$集合内时才会被观察到。我们提出了一种算法，仅需要$\\frac{1}{\\varepsilon^{O(k)}}$个样本即可在$\\varepsilon$误差内估计权重$w_i$和均值$\\mu_i$。",
+    "tldr": "本文提出了一种学习高斯混合模型的算法，该算法仅需要很少的样本且能够对权重和均值进行准确估计。",
+    "en_tdlr": "This paper proposes an algorithm for learning mixtures of Gaussians with censored data, which can estimate the weights and means accurately with only a few samples."
+}
