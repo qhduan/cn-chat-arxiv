@@ -1,0 +1,12 @@
+{
+    "title": "Vector Space Semantics for Lambek Calculus with Soft Subexponentials. (arXiv:2111.11331v2 [cs.LO] UPDATED)",
+    "abstract": "We develop a vector space semantics for Lambek Calculus with Soft Subexponentials, apply the calculus to construct compositional vector interpretations for parasitic gap noun phrases and discourse units with anaphora and ellipsis, and experiment with the constructions in a distributional sentence similarity task. As opposed to previous work, which used Lambek Calculus with a Relevant Modality the calculus used in this paper uses a bounded version of the modality and is decidable. The vector space semantics of this new modality allows us to meaningfully define contraction as projection and provide a linear theory behind what we could previously only achieve via nonlinear maps.",
+    "link": "http://arxiv.org/abs/2111.11331",
+    "context": "Title: Vector Space Semantics for Lambek Calculus with Soft Subexponentials. (arXiv:2111.11331v2 [cs.LO] UPDATED)\nAbstract: We develop a vector space semantics for Lambek Calculus with Soft Subexponentials, apply the calculus to construct compositional vector interpretations for parasitic gap noun phrases and discourse units with anaphora and ellipsis, and experiment with the constructions in a distributional sentence similarity task. As opposed to previous work, which used Lambek Calculus with a Relevant Modality the calculus used in this paper uses a bounded version of the modality and is decidable. The vector space semantics of this new modality allows us to meaningfully define contraction as projection and provide a linear theory behind what we could previously only achieve via nonlinear maps.",
+    "path": "papers/21/11/2111.11331.json",
+    "total_tokens": 745,
+    "translated_title": "软子指数Lambek演算的向量空间语义",
+    "translated_abstract": "我们为软子指数Lambek演算开发了一个向量空间语义，将演算应用于构建委托语缺位名词短语和带有回指和省略的话语单元的组合向量解释，并在分布式句子相似性任务中实验证明。与以往使用相关模态的Lambek演算不同，本文中使用的演算采用了一个有界版本的模态，且可判定。这种新的模态的向量空间语义允许我们有意义地定义收缩为投影，并提供了一个线性理论，使我们能够通过非线性映射来实现的内容变得可以实现。",
+    "tldr": "本论文介绍了一种软子指数Lambek演算的向量空间语义，应用于构建委托语缺位名词短语和带有回指和省略的话语单元的组合向量解释，具有很好的应用前景。",
+    "en_tdlr": "This paper introduces a vector space semantics for Lambek Calculus with Soft Subexponentials, which is applied to construct compositional vector interpretations for parasitic gap noun phrases and discourse units with anaphora and ellipsis, and has good application prospects."
+}

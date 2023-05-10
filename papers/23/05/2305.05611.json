@@ -1,0 +1,11 @@
+{
+    "title": "Metric Space Magnitude and Generalisation in Neural Networks. (arXiv:2305.05611v1 [cs.LG])",
+    "abstract": "Deep learning models have seen significant successes in numerous applications, but their inner workings remain elusive. The purpose of this work is to quantify the learning process of deep neural networks through the lens of a novel topological invariant called magnitude. Magnitude is an isometry invariant; its properties are an active area of research as it encodes many known invariants of a metric space. We use magnitude to study the internal representations of neural networks and propose a new method for determining their generalisation capabilities. Moreover, we theoretically connect magnitude dimension and the generalisation error, and demonstrate experimentally that the proposed framework can be a good indicator of the latter.",
+    "link": "http://arxiv.org/abs/2305.05611",
+    "context": "Title: Metric Space Magnitude and Generalisation in Neural Networks. (arXiv:2305.05611v1 [cs.LG])\nAbstract: Deep learning models have seen significant successes in numerous applications, but their inner workings remain elusive. The purpose of this work is to quantify the learning process of deep neural networks through the lens of a novel topological invariant called magnitude. Magnitude is an isometry invariant; its properties are an active area of research as it encodes many known invariants of a metric space. We use magnitude to study the internal representations of neural networks and propose a new method for determining their generalisation capabilities. Moreover, we theoretically connect magnitude dimension and the generalisation error, and demonstrate experimentally that the proposed framework can be a good indicator of the latter.",
+    "path": "papers/23/05/2305.05611.json",
+    "total_tokens": 775,
+    "translated_title": "度量空间大小和神经网络中的泛化性能",
+    "translated_abstract": "深度学习模型在许多应用中取得了重大成功，但它们的内部工作过程仍然是难以捉摸的。本文的目的是通过一种称为“大小”的新拓扑不变量的视角来量化深度神经网络的学习过程。大小是一种等距不变量；它的属性是研究的一个活跃领域，因为它编码了度量空间中许多已知的不变量。我们使用大小来研究神经网络的内部表示，并提出了一种确定它们泛化能力的新方法。此外，我们在理论上将大小维度和泛化错误连接起来，并实验性地证明，所提出的框架可以成为泛化错误的一个良好指标。",
+    "tldr": "本研究使用一种新的拓扑不变量——大小，来量化深度神经网络的学习过程，研究其内部表示并提出一个新方法来确定其泛化能力，实验证明此框架可作为泛化错误的指标。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "The logic behind desirable sets of things, and its filter representation. (arXiv:2302.08176v2 [math.LO] UPDATED)",
+    "abstract": "We identify the logic behind the recent theory of coherent sets of desirable (sets of) things, which generalise desirable (sets of) gambles and coherent choice functions, and show that this identification allows us to establish various representation results for such coherent models in terms of simpler ones.",
+    "link": "http://arxiv.org/abs/2302.08176",
+    "context": "Title: The logic behind desirable sets of things, and its filter representation. (arXiv:2302.08176v2 [math.LO] UPDATED)\nAbstract: We identify the logic behind the recent theory of coherent sets of desirable (sets of) things, which generalise desirable (sets of) gambles and coherent choice functions, and show that this identification allows us to establish various representation results for such coherent models in terms of simpler ones.",
+    "path": "papers/23/02/2302.08176.json",
+    "total_tokens": 489,
+    "translated_title": "合理物品集合背后的逻辑及其过滤器表示",
+    "translated_abstract": "我们确定了最近一组合理且令人向往的物品集合理论的逻辑，这个理论推广了令人向往的赌注和一致的选择函数，我们证明这种识别允许我们建立各种表示结果，用更简单的方法来描述这种一致性模型。",
+    "tldr": "本研究确定了合理物品集合的基本逻辑，并提出了一些简单表述方法。",
+    "en_tdlr": "This paper identifies the logic behind coherent sets of desirable things and provides representation results in simpler terms."
+}

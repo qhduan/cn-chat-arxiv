@@ -1,0 +1,11 @@
+{
+    "title": "Mirror descent of Hopfield model. (arXiv:2211.15880v2 [cs.LG] UPDATED)",
+    "abstract": "Mirror descent is an elegant optimization technique that leverages a dual space of parametric models to perform gradient descent. While originally developed for convex optimization, it has increasingly been applied in the field of machine learning. In this study, we propose a novel approach for utilizing mirror descent to initialize the parameters of neural networks. Specifically, we demonstrate that by using the Hopfield model as a prototype for neural networks, mirror descent can effectively train the model with significantly improved performance compared to traditional gradient descent methods that rely on random parameter initialization. Our findings highlight the potential of mirror descent as a promising initialization technique for enhancing the optimization of machine learning models.",
+    "link": "http://arxiv.org/abs/2211.15880",
+    "context": "Title: Mirror descent of Hopfield model. (arXiv:2211.15880v2 [cs.LG] UPDATED)\nAbstract: Mirror descent is an elegant optimization technique that leverages a dual space of parametric models to perform gradient descent. While originally developed for convex optimization, it has increasingly been applied in the field of machine learning. In this study, we propose a novel approach for utilizing mirror descent to initialize the parameters of neural networks. Specifically, we demonstrate that by using the Hopfield model as a prototype for neural networks, mirror descent can effectively train the model with significantly improved performance compared to traditional gradient descent methods that rely on random parameter initialization. Our findings highlight the potential of mirror descent as a promising initialization technique for enhancing the optimization of machine learning models.",
+    "path": "papers/22/11/2211.15880.json",
+    "total_tokens": 788,
+    "translated_title": "Hopfield模型的镜像下降优化技术",
+    "translated_abstract": "镜像下降是一种优雅的优化技术，它利用参数模型的对偶空间来进行梯度下降。虽然最初是为凸优化而开发的，但它越来越多地应用于机器学习领域。本研究提出了一种新方法，利用镜像下降来初始化神经网络的参数。具体来说，我们证明了通过使用Hopfield模型作为神经网络的原型，镜像下降可以有效地训练模型，并比依赖于随机参数初始化的传统梯度下降方法表现出更好的性能。我们的发现突显了镜像下降作为一种有前途的初始化技术，可以增强机器学习模型的优化能力。",
+    "tldr": "本研究提出利用镜像下降技术来初始化神经网络参数，通过Hopfield模型作为原型，成功训练模型，相较于传统随机参数初始化的梯度下降方法，有明显的性能提升，可以增强机器学习模型的优化能力。"
+}

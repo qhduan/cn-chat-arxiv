@@ -1,0 +1,12 @@
+{
+    "title": "Summarization with Precise Length Control. (arXiv:2305.05171v1 [cs.CL])",
+    "abstract": "Many applications of text generation such as summarization benefit from accurately controlling the text length. Existing approaches on length-controlled summarization either result in degraded performance or can only control the length approximately. In this work, we present a framework to generate summaries with precisely the specified number of tokens or sentences, while maintaining or even improving the text quality. In addition, we jointly train the models to predict the lengths, so our model can generate summaries with optimal length. We evaluate the proposed framework on the CNNDM dataset and show improved performance compared to existing methods.",
+    "link": "http://arxiv.org/abs/2305.05171",
+    "context": "Title: Summarization with Precise Length Control. (arXiv:2305.05171v1 [cs.CL])\nAbstract: Many applications of text generation such as summarization benefit from accurately controlling the text length. Existing approaches on length-controlled summarization either result in degraded performance or can only control the length approximately. In this work, we present a framework to generate summaries with precisely the specified number of tokens or sentences, while maintaining or even improving the text quality. In addition, we jointly train the models to predict the lengths, so our model can generate summaries with optimal length. We evaluate the proposed framework on the CNNDM dataset and show improved performance compared to existing methods.",
+    "path": "papers/23/05/2305.05171.json",
+    "total_tokens": 672,
+    "translated_title": "精确控制长度的摘要生成",
+    "translated_abstract": "许多文本生成应用，如摘要，需要精确控制文本长度。现有的控制长度的摘要方法要么表现下降，要么只能近似控制长度。在本文中，我们提出了一个框架，用于生成具有指定标记或句子数量的摘要，同时保持或甚至提高文本质量。此外，我们联合训练模型来预测长度，因此我们的模型可以生成长度最佳的摘要。我们在CNNDM数据集上评估了所提出的框架，并展示了与现有方法相比的改进性能。",
+    "tldr": "本文提出了一种精确控制长度的摘要生成框架，通过联合训练模型预测长度并生成长度最佳的摘要，在保持文本质量的同时提高了性能。",
+    "en_tdlr": "This paper proposes a summarization framework with precise length control, which jointly trains models to predict lengths and generate summaries with optimal length, while maintaining or even improving text quality. The proposed method outperforms existing approaches on the CNNDM dataset."
+}

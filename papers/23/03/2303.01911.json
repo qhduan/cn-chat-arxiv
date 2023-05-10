@@ -1,0 +1,12 @@
+{
+    "title": "Investigating the Translation Performance of a Large Multilingual Language Model: the Case of BLOOM. (arXiv:2303.01911v2 [cs.CL] UPDATED)",
+    "abstract": "The NLP community recently saw the release of a new large open-access multilingual language model, BLOOM (BigScience et al., 2022) covering 46 languages. We focus on BLOOM's multilingual ability by evaluating its machine translation performance across several datasets (WMT, Flores-101 and DiaBLa) and language pairs (high- and low-resourced). Our results show that 0-shot performance suffers from overgeneration and generating in the wrong language, but this is greatly improved in the few-shot setting, with very good results for a number of language pairs. We study several aspects including prompt design, model sizes, cross-lingual transfer and the use of discursive context.",
+    "link": "http://arxiv.org/abs/2303.01911",
+    "context": "Title: Investigating the Translation Performance of a Large Multilingual Language Model: the Case of BLOOM. (arXiv:2303.01911v2 [cs.CL] UPDATED)\nAbstract: The NLP community recently saw the release of a new large open-access multilingual language model, BLOOM (BigScience et al., 2022) covering 46 languages. We focus on BLOOM's multilingual ability by evaluating its machine translation performance across several datasets (WMT, Flores-101 and DiaBLa) and language pairs (high- and low-resourced). Our results show that 0-shot performance suffers from overgeneration and generating in the wrong language, but this is greatly improved in the few-shot setting, with very good results for a number of language pairs. We study several aspects including prompt design, model sizes, cross-lingual transfer and the use of discursive context.",
+    "path": "papers/23/03/2303.01911.json",
+    "total_tokens": 774,
+    "translated_title": "对一种大型多语言语言模型（BLOOM）的翻译表现进行研究：WMT、Flores-101和DiaBLa数据集的评估",
+    "translated_abstract": "最近，NLP社区见证了新的大型开放式多语言语言模型BLOOM的发布，覆盖了46种语言。本文通过评估BLOOM在多个数据集中（WMT、Flores-101和DiaBLa）和语言对（高资源和低资源）的机器翻译表现，重点关注BLOOM的多语言能力。我们的研究结果显示，0-shot性能存在过度生成和生成错误语言的问题，但在几个shot的情况下，这得到了极大的改善，在某些语言对中获得了非常好的结果。我们研究了多个方面，包括提示设计、模型大小、跨语言转移和使用话语背景。",
+    "tldr": "研究发现，多语言语言模型BLOOM的0-shot性能存在问题，但在几个shot的情况下，表现得到极大的改善，特别是在某些语言对中表现非常好。",
+    "en_tdlr": "The study finds that the multilingual language model BLOOM has issues with 0-shot performance but greatly improves in the few-shot setting, especially with certain language pairs."
+}

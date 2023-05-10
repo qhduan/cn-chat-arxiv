@@ -1,0 +1,12 @@
+{
+    "title": "WikiWeb2M: A Page-Level Multimodal Wikipedia Dataset. (arXiv:2305.05432v1 [cs.CL])",
+    "abstract": "Webpages have been a rich resource for language and vision-language tasks. Yet only pieces of webpages are kept: image-caption pairs, long text articles, or raw HTML, never all in one place. Webpage tasks have resultingly received little attention and structured image-text data underused. To study multimodal webpage understanding, we introduce the Wikipedia Webpage 2M (WikiWeb2M) suite; the first to retain the full set of images, text, and structure data available in a page. WikiWeb2M can be used for tasks like page description generation, section summarization, and contextual image captioning.",
+    "link": "http://arxiv.org/abs/2305.05432",
+    "context": "Title: WikiWeb2M: A Page-Level Multimodal Wikipedia Dataset. (arXiv:2305.05432v1 [cs.CL])\nAbstract: Webpages have been a rich resource for language and vision-language tasks. Yet only pieces of webpages are kept: image-caption pairs, long text articles, or raw HTML, never all in one place. Webpage tasks have resultingly received little attention and structured image-text data underused. To study multimodal webpage understanding, we introduce the Wikipedia Webpage 2M (WikiWeb2M) suite; the first to retain the full set of images, text, and structure data available in a page. WikiWeb2M can be used for tasks like page description generation, section summarization, and contextual image captioning.",
+    "path": "papers/23/05/2305.05432.json",
+    "total_tokens": 714,
+    "translated_title": "WikiWeb2M: 一个基于页面的多模态维基百科数据集",
+    "translated_abstract": "网页一直是语言和视觉语言任务的丰富资源。然而，只有网页的某些部分被保留下来：图像 - 标题对、长文本文章或原始 HTML，从未集成到一个地方。因此，网页任务受到的关注很少，结构化的图像 - 文本数据被低估了。为了研究多模态网页理解，我们介绍了维基百科网页 2M（WikiWeb2M）套件；它是第一个保留网页中全部图像、文本和结构数据的数据集。WikiWeb2M可以用于诸如页面描述生成、章节摘要和上下文图像字幕等任务。",
+    "tldr": "WikiWeb2M是一个保留完整网页图像、文本和结构数据的多模态数据集，可用于网页描述生成、章节摘要和上下文图像字幕等任务。",
+    "en_tdlr": "WikiWeb2M is a multimodal dataset that retains full set of images, text, and structure data available in a webpage, and can be used for tasks like page description generation, section summarization, and contextual image captioning."
+}

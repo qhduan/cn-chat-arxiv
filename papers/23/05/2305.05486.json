@@ -1,0 +1,12 @@
+{
+    "title": "MAUPQA: Massive Automatically-created Polish Question Answering Dataset. (arXiv:2305.05486v1 [cs.CL])",
+    "abstract": "Recently, open-domain question answering systems have begun to rely heavily on annotated datasets to train neural passage retrievers. However, manually annotating such datasets is both difficult and time-consuming, which limits their availability for less popular languages. In this work, we experiment with several methods for automatically collecting weakly labeled datasets and show how they affect the performance of the neural passage retrieval models. As a result of our work, we publish the MAUPQA dataset, consisting of nearly 400,000 question-passage pairs for Polish, as well as the HerBERT-QA neural retriever.",
+    "link": "http://arxiv.org/abs/2305.05486",
+    "context": "Title: MAUPQA: Massive Automatically-created Polish Question Answering Dataset. (arXiv:2305.05486v1 [cs.CL])\nAbstract: Recently, open-domain question answering systems have begun to rely heavily on annotated datasets to train neural passage retrievers. However, manually annotating such datasets is both difficult and time-consuming, which limits their availability for less popular languages. In this work, we experiment with several methods for automatically collecting weakly labeled datasets and show how they affect the performance of the neural passage retrieval models. As a result of our work, we publish the MAUPQA dataset, consisting of nearly 400,000 question-passage pairs for Polish, as well as the HerBERT-QA neural retriever.",
+    "path": "papers/23/05/2305.05486.json",
+    "total_tokens": 711,
+    "translated_title": "MAUPQA：自动创建的海量波兰问答数据集。",
+    "translated_abstract": "最近，开放领域问答系统开始 heavily 依赖标注数据集以训练神经 passage 检索器。然而，手动标注这些数据集既困难又耗时，从而限制了对不太流行的语言的可用性。在这项工作中，我们尝试了几种自动收集弱标记数据集的方法，并展示了它们如何影响神经 passage 检索模型的性能。作为我们工作的结果，我们发布了 MAUPQA 数据集，其中包括将近 400,000 个波兰问答对，以及 HerBERT-QA 神经检索器。",
+    "tldr": "本文介绍了如何自动收集弱标记数据集以帮助训练神经 passage 检索器，并通过发布 MAUPQA 数据集和 HerBERT-QA 神经 retriever，解决了手动标注数据集的困难，缺乏数据集的问题。",
+    "en_tdlr": "This paper introduces how to automatically collect weakly labeled datasets to help train neural passage retrievers and solves the problem of manual annotation and lack of datasets by publishing the MAUPQA dataset and HerBERT-QA neural retriever."
+}

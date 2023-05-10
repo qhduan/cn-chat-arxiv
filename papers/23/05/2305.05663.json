@@ -1,0 +1,12 @@
+{
+    "title": "Proofs that the Gerber Statistic is Positive Semidefinite. (arXiv:2305.05663v1 [q-fin.PM])",
+    "abstract": "In this brief note, we prove that both forms of the Gerber statistic introduced in Gerber et al. (2022) are positive semi-definite.",
+    "link": "http://arxiv.org/abs/2305.05663",
+    "context": "Title: Proofs that the Gerber Statistic is Positive Semidefinite. (arXiv:2305.05663v1 [q-fin.PM])\nAbstract: In this brief note, we prove that both forms of the Gerber statistic introduced in Gerber et al. (2022) are positive semi-definite.",
+    "path": "papers/23/05/2305.05663.json",
+    "total_tokens": 390,
+    "translated_title": "证明Gerber统计量是正半定的",
+    "translated_abstract": "在这篇简短的文章中，我们证明了Gerber统计量在Gerber等人（2022）中引入的两种形式都是正半定的。",
+    "tldr": "本文证明了Gerber统计量是正半定的。",
+    "en_tdlr": "This paper proves that the Gerber statistic is positive semi-definite."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "PreCog: Exploring the Relation between Memorization and Performance in Pre-trained Language Models. (arXiv:2305.04673v2 [cs.CL] UPDATED)",
+    "abstract": "Pre-trained Language Models such as BERT are impressive machines with the ability to memorize, possibly generalized learning examples. We present here a small, focused contribution to the analysis of the interplay between memorization and performance of BERT in downstream tasks. We propose PreCog, a measure for evaluating memorization from pre-training, and we analyze its correlation with the BERT's performance. Our experiments show that highly memorized examples are better classified, suggesting memorization is an essential key to success for BERT.",
+    "link": "http://arxiv.org/abs/2305.04673",
+    "context": "Title: PreCog: Exploring the Relation between Memorization and Performance in Pre-trained Language Models. (arXiv:2305.04673v2 [cs.CL] UPDATED)\nAbstract: Pre-trained Language Models such as BERT are impressive machines with the ability to memorize, possibly generalized learning examples. We present here a small, focused contribution to the analysis of the interplay between memorization and performance of BERT in downstream tasks. We propose PreCog, a measure for evaluating memorization from pre-training, and we analyze its correlation with the BERT's performance. Our experiments show that highly memorized examples are better classified, suggesting memorization is an essential key to success for BERT.",
+    "path": "papers/23/05/2305.04673.json",
+    "total_tokens": 688,
+    "translated_title": "PreCog：探究预训练语言模型中记忆与性能之间的关系",
+    "translated_abstract": "BERT等预训练语言模型具有惊人的记忆能力，能够记住一些泛化的学习例子。本文旨在针对BERT在下游任务中的记忆与性能之间的相互影响进行分析，提出了PreCog——一种评估预训练记忆的指标，并分析了它与BERT性能之间的关联。实验表明，高度记忆的例子分类效果更好，说明记忆对BERT的成功至关重要。",
+    "tldr": "本文分析了预训练语言模型BERT在下游任务中记忆与性能之间的关系，提出了评估预训练记忆的指标PreCog，并发现高度记忆的例子分类效果更好，说明记忆对BERT的成功至关重要。",
+    "en_tdlr": "This paper analyzes the relation between memorization and performance of pre-trained language model BERT in downstream tasks, proposes a measure for evaluating pre-training memorization called PreCog, and finds that highly memorized examples are better classified, indicating that memorization is a crucial key to the success of BERT."
+}

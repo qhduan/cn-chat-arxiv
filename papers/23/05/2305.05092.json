@@ -1,0 +1,12 @@
+{
+    "title": "Artificial Intelligence in 3GPP 5G-Advanced: A Survey. (arXiv:2305.05092v1 [cs.NI])",
+    "abstract": "Industries worldwide are being transformed by artificial intelligence (AI), and the telecom industry is no different. Standardization is critical for industry alignment to achieve widespread adoption of AI in telecom. The 3rd generation partnership project (3GPP) Release 18 is the first release of 5G-Advanced, which includes a diverse set of study and work items dedicated to AI. This article provides a holistic overview of the state of the art in the 3GPP work on AI in 5G-Advanced, by presenting the various 3GPP Release-18 activities on AI as an organic whole, explaining in detail the design aspects, and sharing various design rationales influencing standardization.",
+    "link": "http://arxiv.org/abs/2305.05092",
+    "context": "Title: Artificial Intelligence in 3GPP 5G-Advanced: A Survey. (arXiv:2305.05092v1 [cs.NI])\nAbstract: Industries worldwide are being transformed by artificial intelligence (AI), and the telecom industry is no different. Standardization is critical for industry alignment to achieve widespread adoption of AI in telecom. The 3rd generation partnership project (3GPP) Release 18 is the first release of 5G-Advanced, which includes a diverse set of study and work items dedicated to AI. This article provides a holistic overview of the state of the art in the 3GPP work on AI in 5G-Advanced, by presenting the various 3GPP Release-18 activities on AI as an organic whole, explaining in detail the design aspects, and sharing various design rationales influencing standardization.",
+    "path": "papers/23/05/2305.05092.json",
+    "total_tokens": 739,
+    "translated_title": "3GPP 5G-Advanced中的人工智能：一项调查",
+    "translated_abstract": "人工智能正在改变全球各行各业，电信行业也不例外。标准化对于实现电信领域中人工智能的广泛应用至关重要。第三代合作伙伴计划（3GPP）Release 18是包括专门处理人工智能多样化研究和工作项的5G-Advanced的第一个版本。本文综合概述了3GPP在5G-Advanced中关于人工智能的最新发展情况，将各种3GPP Release-18人工智能活动作为有机整体呈现，详细解释设计方面的各个方面，并分享影响标准化的各种设计原理。",
+    "tldr": "本文综合介绍了3GPP Release 18在5G-Advanced中关于人工智能的最新发展情况，包括多样化研究和工作项以及设计方面的各个方面。",
+    "en_tdlr": "This article provides an overview of the latest developments in AI in 3GPP Release 18 in 5G-Advanced, including diverse study and work items, as well as various design aspects influencing standardization."
+}

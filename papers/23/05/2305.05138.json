@@ -1,0 +1,12 @@
+{
+    "title": "Read, Diagnose and Chat: Towards Explainable and Interactive LLMs-Augmented Depression Detection in Social Media. (arXiv:2305.05138v1 [cs.CL])",
+    "abstract": "This paper proposes a new depression detection system based on LLMs that is both interpretable and interactive. It not only provides a diagnosis, but also diagnostic evidence and personalized recommendations based on natural language dialogue with the user. We address challenges such as the processing of large amounts of text and integrate professional diagnostic criteria. Our system outperforms traditional methods across various settings and is demonstrated through case studies.",
+    "link": "http://arxiv.org/abs/2305.05138",
+    "context": "Title: Read, Diagnose and Chat: Towards Explainable and Interactive LLMs-Augmented Depression Detection in Social Media. (arXiv:2305.05138v1 [cs.CL])\nAbstract: This paper proposes a new depression detection system based on LLMs that is both interpretable and interactive. It not only provides a diagnosis, but also diagnostic evidence and personalized recommendations based on natural language dialogue with the user. We address challenges such as the processing of large amounts of text and integrate professional diagnostic criteria. Our system outperforms traditional methods across various settings and is demonstrated through case studies.",
+    "path": "papers/23/05/2305.05138.json",
+    "total_tokens": 634,
+    "translated_title": "读取、诊断和聊天：面向社交媒体中可解释和交互的LLMs增强抑郁症检测。",
+    "translated_abstract": "本文提出了一种基于LLMs的新型抑郁症检测系统，既具有可解释性又具有互动性。它不仅提供诊断结果，还根据与用户的自然语言对话，提供诊断证据和个性化建议。我们解决了大量文本处理和集成专业诊断标准等方面的挑战。我们的系统在各种设置下优于传统方法，并通过案例研究进行了演示。",
+    "tldr": "本文提出一种基于LLMs的新型抑郁症检测系统，它通过自然语言对话提供了诊断证据和个性化建议，相较于传统方法性能更好。",
+    "en_tdlr": "This paper proposes a new depression detection system based on LLMs, which provides diagnostic evidence and personalized recommendations through natural language dialogue and outperforms traditional methods."
+}

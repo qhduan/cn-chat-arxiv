@@ -1,0 +1,12 @@
+{
+    "title": "The emergence of clusters in self-attention dynamics. (arXiv:2305.05465v1 [cs.LG])",
+    "abstract": "Viewing Transformers as interacting particle systems, we describe the geometry of learned representations when the weights are not time dependent. We show that particles, representing tokens, tend to cluster toward particular limiting objects as time tends to infinity. The type of limiting object that emerges depends on the spectrum of the value matrix. Additionally, in the one-dimensional case we prove that the self-attention matrix converges to a low-rank Boolean matrix. The combination of these results mathematically confirms the empirical observation made by Vaswani et al. \\cite{vaswani2017attention} that \\emph{leaders} appear in a sequence of tokens when processed by Transformers.",
+    "link": "http://arxiv.org/abs/2305.05465",
+    "context": "Title: The emergence of clusters in self-attention dynamics. (arXiv:2305.05465v1 [cs.LG])\nAbstract: Viewing Transformers as interacting particle systems, we describe the geometry of learned representations when the weights are not time dependent. We show that particles, representing tokens, tend to cluster toward particular limiting objects as time tends to infinity. The type of limiting object that emerges depends on the spectrum of the value matrix. Additionally, in the one-dimensional case we prove that the self-attention matrix converges to a low-rank Boolean matrix. The combination of these results mathematically confirms the empirical observation made by Vaswani et al. \\cite{vaswani2017attention} that \\emph{leaders} appear in a sequence of tokens when processed by Transformers.",
+    "path": "papers/23/05/2305.05465.json",
+    "total_tokens": 748,
+    "translated_title": "自注意力动态中的聚类现象",
+    "translated_abstract": "将Transformer视为相互作用的粒子系统，当权重不随时间变化时，本文描述了学习表示的几何形状。我们展示了代表token的粒子随着时间趋于无穷大而趋向于特定的极限对象。出现的极限对象类型取决于价值矩阵的谱。此外，在一维情况下，我们证明了自我注意力矩阵收敛于低秩布尔矩阵。这些结果的组合在数学上证实了Vaswani等人的经验观察，即Transformer处理一系列token时会出现“领导者”。",
+    "tldr": "本文证实了当Transformer处理一系列token时，出现“领导者”的经验观察，即随着时间趋于无穷大，代表token的粒子会聚集在特定的极限对象附近，这取决于价值矩阵的谱。",
+    "en_tdlr": "This paper confirms the empirical observation that \"leaders\" appear in a sequence of tokens when processed by Transformers. It shows that particles representing tokens cluster toward particular limiting objects as time tends to infinity, depending on the spectrum of the value matrix. Additionally, in the one-dimensional case, it proves that the self-attention matrix converges to a low-rank Boolean matrix."
+}

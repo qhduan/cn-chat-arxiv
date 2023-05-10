@@ -2,84 +2,225 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Efficient information recovery from Pauli noise via classical shadow.](http://arxiv.org/abs/2305.04148) | 本文提出了一种有效的算法，可以在Pauli噪声下从量子状态中恢复信息。通过后处理通道的经典阴影，学习未知Pauli通道的必要信息，并只需要通道的部分信息而不是其完整的经典描述就可以恢复理想的信息，产生一个多项式时间算法。 |
-| [^2] | [Keyword-Based Diverse Image Retrieval by Semantics-aware Contrastive Learning and Transformer.](http://arxiv.org/abs/2305.04072) | 本文提出了一种基于语义感知对比学习和Transformer的方法，实现了关键词多样图像检索，能够平衡相关性和多样性。 |
-| [^3] | [Attacking Pre-trained Recommendation.](http://arxiv.org/abs/2305.03995) | 本文提出了一种新的后门攻击预训练推荐模型的框架，并通过实验证明预训练模型的提供者可以很容易地将后门插入其中。这可能加剧了目标用户群对目标物品的曝光率。 |
-| [^4] | [Mixer: Image to Multi-Modal Retrieval Learning for Industrial Application.](http://arxiv.org/abs/2305.03972) | 提出了一种新的可伸缩高效的图像到跨模态检索范式Mixer，解决了领域差距、跨模态数据对齐和融合、繁杂的数据训练标签以及海量查询和及时响应等问题。 |
-| [^5] | [Cross-domain Augmentation Networks for Click-Through Rate Prediction.](http://arxiv.org/abs/2305.03953) | 本文中提出了一个跨领域增强网络（CDAnet），能够进行异构输入下的知识转移和生成增强样本减轻数据稀疏问题，实验证明其优于现有的基线方法。 |
-| [^6] | [Augmenting Passage Representations with Query Generation for Enhanced Cross-Lingual Dense Retrieval.](http://arxiv.org/abs/2305.03950) | 本文提出了一种跨语言稠密检索方法，通过使用跨语言查询生成方法来增强通道表示，以应对跨语言数据较少的问题。在推断过程中使用生成器不会增加额外的计算成本。 |
-| [^7] | [Fairness in Image Search: A Study of Occupational Stereotyping in Image Retrieval and its Debiasing.](http://arxiv.org/abs/2305.03881) | 本文针对职业模式刻板印象问题，研究了网络搜索中的偏见和公平性问题。实验表明当前的图像搜索引擎存在相当严重的职业模式刻板印象，提出了一种去偏见方法以减轻此类偏见并提高图像搜索引擎的公平性。 |
-| [^8] | [Exploiting Simulated User Feedback for Conversational Search: Ranking, Rewriting, and Beyond.](http://arxiv.org/abs/2304.13874) | 本研究利用一个名为ConvSim的用户模拟器来评估用户反馈，从而提高会话式搜索的性能，实验结果显示有效利用用户反馈可以大幅提高检索性能。 |
-| [^9] | [Frequency Enhanced Hybrid Attention Network for Sequential Recommendation.](http://arxiv.org/abs/2304.09184) | 本文提出了一种新的序列推荐算法——频率增强的混合注意力网络（FEARec）。该算法通过一个斜坡结构将原有的自注意力从时间域转换到频率域，使得低频和高频信息可以被明确地学习。同时，通过自相关的设计，该算法还可以捕捉到用户行为的固有周期性。在四个真实世界的基准测试中，该算法表现优于现有最先进的方法。 |
-| [^10] | [Beyond Single Items: Exploring User Preferences in Item Sets with the Conversational Playlist Curation Dataset.](http://arxiv.org/abs/2303.06791) | 该论文提出了一种有效收集用户对项目集偏好数据的方法，用于构建对话式播放列表构建数据集。该数据集能够超越单项偏好，更加全面有效地了解用户需求。 |
-| [^11] | [A Counterfactual Collaborative Session-based Recommender System.](http://arxiv.org/abs/2301.13364) | 该论文提出了一种基于反事实因果推断框架的基于协同会话推荐系统（COCO-SBRS），以解决外部会话原因（OSCs）导致的混淆因素和数据相关性问题。 |
-| [^12] | [ALCAP: Alignment-Augmented Music Captioner.](http://arxiv.org/abs/2212.10901) | 本文提出了一种基于对齐的音乐字幕生成器，通过对比学习显式学习音频和歌词的对应关系，并生成高质量的字幕，取得了两个音乐字幕数据集上的最新领先水平。 |
-| [^13] | [Reasoning with Language Model Prompting: A Survey.](http://arxiv.org/abs/2212.09597) | 本文提供了使用语言模型提示进行推理的前沿研究综合调查。讨论了新兴推理能力出现的潜在原因，并提供系统资源帮助初学者。 |
-| [^14] | [Pivotal Role of Language Modeling in Recommender Systems: Enriching Task-specific and Task-agnostic Representation Learning.](http://arxiv.org/abs/2212.03760) | 本文研究发现，用户历史语言建模可以在不同推荐任务中取得优异结果，并且利用任务无关的用户历史还可以提供显著的性能优势。该方法具有广泛的现实世界迁移学习能力。 |
-| [^15] | [CPS-MEBR: Click Feedback-Aware Web Page Summarization for Multi-Embedding-Based Retrieval.](http://arxiv.org/abs/2210.09787) | CPS-MEBR框架利用用户的点击数据训练一个摘要模型，提取那些被用户频繁点击的句子，并为网页生成多个嵌入以匹配不同的潜在查询。 |
-| [^16] | [Sapling Similarity: a performing and interpretable memory-based tool for recommendation.](http://arxiv.org/abs/2210.07039) | Sapling Similarity是一种计算相似性的方法，可以允许负值，基于用户的相互连接信息来估计概率。这种方法比传统基于共同邻居的方法更加可解释和高效。 |
-| [^17] | [Recent Advances in Reliable Deep Graph Learning: Inherent Noise, Distribution Shift, and Adversarial Attack.](http://arxiv.org/abs/2202.07114) | 本文综合评述了深度图学习（DGL）的最新可靠性进展，其中涵盖了内在噪声和分布偏移等方面的相关内容，同时指出未来研究需要关注的问题。 |
-| [^18] | [Personalized Recommender System for Children's Book Recommendation with A Realtime Interactive Robot.](http://arxiv.org/abs/1710.00310) | 本文研究了儿童和机器人交互环境下的个性化图书推荐系统，在搜索算法、用户兴趣预测和同义词关联方面进行了创新，提高了性能，适用于嵌入式消费设备。 |
+| [^1] | [The Role of Relevance in Fair Ranking.](http://arxiv.org/abs/2305.05608) | 本文结合社会学、信息检索和机器学习公平性的角度和工具，着眼于相关性在公平排序中的应用和作用，并推导出相关性评分应满足的一组期望标准以实现有意义地指导公平干预措施。 |
+| [^2] | [Improving Implicit Feedback-Based Recommendation through Multi-Behavior Alignment.](http://arxiv.org/abs/2305.05585) | 提出了一种基于多种用户行为数据学习的推荐框架，名为MBA，解决了学习通用且准确用户偏好和克服观察到的隐式用户反馈中的噪声和偏差的问题。 |
+| [^3] | [Consistent Text Categorization using Data Augmentation in e-Commerce.](http://arxiv.org/abs/2305.05402) | 本文提出了一种在电子商务中使用数据增强实现一致的文本分类的新框架，该框架旨在改进产品分类模型的一致性，同时保持其生产水平的性能。 |
+| [^4] | [CaseEncoder: A Knowledge-enhanced Pre-trained Model for Legal Case Encoding.](http://arxiv.org/abs/2305.05393) | 本文提出了一种融合法律知识的预训练模型CaseEncoder，针对法律案例的特殊领域需求，CaseEncoder在数据采样和预训练阶段中都使用了法律知识，其中包括利用细粒度的法律条款信息引导正负样本的选择，以及设计了与相关法律案例的评判标准相一致的法律特定预训练任务，该模型在法律案例检索和法律问答任务上优于最先进的PLMs。 |
+| [^5] | [Explainable Recommender with Geometric Information Bottleneck.](http://arxiv.org/abs/2305.05331) | 该论文提出了一种新的可解释推荐系统模型，将从用户-商品交互中学得的几何先验知识与变分网络相结合，可以为用户提供既具备推荐性能又具有解释性能的解释推荐服务。 |
+| [^6] | [Boosting Zero-shot Cross-lingual Retrieval by Training on Artificially Code-Switched Data.](http://arxiv.org/abs/2305.05295) | 研究者提出训练排名模型的方法来提高跨语言检索的效率，该模型使用了人工代码切换的数据，并且实验表明在跨语言检索和多语言检索中会带来显著改进，在不影响单语检索的基础上，特别是对于远程语言之间的检索。 |
+| [^7] | [Learning to Personalize Recommendation based on Customers' Shopping Intents.](http://arxiv.org/abs/2305.05279) | 本文介绍了亚马逊的新系统，利用深度学习模型将顾客的在线行为映射成为高级别购物意图，以便个性化推荐，提供更相关、可解释和多样化的购物体验。 |
+| [^8] | [Learning Personalized Page Content Ranking Using Customer Representation.](http://arxiv.org/abs/2305.05267) | 本论文提出了一种基于深度学习的蒙特卡罗策略，该算法主要利用聚合的顾客行为特征，忽略单个购物者级别的过去活动。该模型通过整合历史购物行为、顾客潜在购物目标以及顾客和内容分类之间的相关性，产生更个性化的内容排名，测量值为12.08%的nDCG提升。 |
+| [^9] | [Popularity Debiasing from Exposure to Interaction in Collaborative Filtering.](http://arxiv.org/abs/2305.05204) | 本文提出了一种新的流行度鉴别准则，即在公平的推荐系统中，受欢迎和不受欢迎的物品应该得到与喜欢它的用户数量成比例的交互，针对这个准则提出了一种新的去流行度偏差框架，并在多个真实数据集上的实验中展示了其在去偏差和推荐准确性方面的显着改进。 |
+| [^10] | [Autumn: A Scalable Read Optimized LSM-tree based Key-Value Stores with Fast Point and Range Read Speed.](http://arxiv.org/abs/2305.05074) | Autumn是一个可扩展的、面向读操作优化的LSM-tree键值存储引擎，其创新之处在于通过动态调整相邻两层之间的容量比来不断提高读性能，使得点读和区间读成本从之前最优的$O(logN)$复杂度优化到了$O(\sqrt{logN})$。 |
+| [^11] | [Recommender Systems with Generative Retrieval.](http://arxiv.org/abs/2305.05065) | 本文提出了一种新型的生成式检索模型，将检索和生成组合在一起以产生推荐。 |
+| [^12] | [Web Content Filtering through knowledge distillation of Large Language Models.](http://arxiv.org/abs/2305.05027) | 本文提出了一种基于大语言模型知识蒸馏的 URL 分类方法，可用于网络内容过滤，其学生模型在参数数量减少 175 倍的情况下，精度提升了 9%，超过了当前最先进方法。 |
+| [^13] | [Autoencoder-based prediction of ICU clinical codes.](http://arxiv.org/abs/2305.04992) | 本文研究了基于自编码器的 ICU 临床代码预测，针对不完整的临床代码清单，使用了各种自编码器方法以及两个强基准。结果表明，基于共现的方法表现略微更好，对抗自编码器实现了最佳性能。 |
+| [^14] | [Graph Masked Autoencoder for Sequential Recommendation.](http://arxiv.org/abs/2305.04619) | 提出了一种简单而有效的基于图遮盖自编码器的序列推荐系统，它使用基于图的注意力机制暴露出带有遮盖的项目序列，自适应动态提取全局项目转换信息进行自监督增强，在具有较少标记样本的情况下始终比最先进的序列推荐方法表现出更好的性能，而且对数据损坏和缺失情况具有鲁棒性。 |
+| [^15] | [Cross-domain Augmentation Networks for Click-Through Rate Prediction.](http://arxiv.org/abs/2305.03953) | 本文中提出了一个跨领域增强网络（CDAnet），能够进行异构输入下的知识转移和生成增强样本减轻数据稀疏问题，实验证明其优于现有的基线方法。 |
+| [^16] | [SLIM: Sparsified Late Interaction for Multi-Vector Retrieval with Inverted Indexes.](http://arxiv.org/abs/2302.06587) | SLIM是一种带倒排索引的多向量检索方法，通过对上下文化令牌嵌入进行稀疏化处理和晚期交互实现有效检索，且可与现成词库搜索库完全兼容。 |
+| [^17] | [Language Agnostic Multilingual Information Retrieval with Contrastive Learning.](http://arxiv.org/abs/2210.06633) | 该论文提出一种使用对比学习的技术，利用平行和非平行语料库来提高多语种信息检索的效果，仅使用英语IR训练数据和一些平行语料库即可在非英语数据上实现显著的检索性能改进。 |
+| [^18] | [Fairness in Recommender Systems: Research Landscape and Future Directions.](http://arxiv.org/abs/2205.11127) | 本文讨论了推荐系统的公平性问题，通过对160多篇学术出版物的综述总结了该领域目前的研究现状，强调了一些有前途的未来方向，例如需要超越统计平衡的新公平性衡量方法。 |
+| [^19] | [Reinforced MOOCs Concept Recommendation in Heterogeneous Information Networks.](http://arxiv.org/abs/2203.11011) | 本文提出了一种强化学习框架下基于异构信息网络的概念推荐方法，可以更好地向不同专业水平的用户精细推荐知识。 |
 
 # 详细
 
-[^1]: 通过经典shadow高效恢复Pauli噪声中的信息
+[^1]: 相关性在公平排序中的作用
 
-    Efficient information recovery from Pauli noise via classical shadow. (arXiv:2305.04148v1 [quant-ph])
+    The Role of Relevance in Fair Ranking. (arXiv:2305.05608v1 [cs.IR])
 
-    [http://arxiv.org/abs/2305.04148](http://arxiv.org/abs/2305.04148)
+    [http://arxiv.org/abs/2305.05608](http://arxiv.org/abs/2305.05608)
 
-    本文提出了一种有效的算法，可以在Pauli噪声下从量子状态中恢复信息。通过后处理通道的经典阴影，学习未知Pauli通道的必要信息，并只需要通道的部分信息而不是其完整的经典描述就可以恢复理想的信息，产生一个多项式时间算法。
-
-    
-
-    量子计算的迅猛发展导致了对从量子系统中提取经典信息的有效技术的广泛需求，尤其是在量子机器学习和量子化学等领域。然而，量子系统本质上容易受到噪声的影响，从而损坏量子系统中编码的信息。在这项工作中，我们介绍了一种有效的算法，可以在Pauli噪声下从量子状态中恢复信息。其核心思想是通过后处理通道的经典阴影来学习未知Pauli通道的必要信息。对于局部和有界度数的可观察量，只需要通道的部分信息而不是其完整的经典描述就可以恢复理想的信息，从而产生一个多项式时间算法。这与常规方法（如概率误差消除）形成对比，后者需要通道的完整信息并展示指数级扩展。
-
-    The rapid advancement of quantum computing has led to an extensive demand for effective techniques to extract classical information from quantum systems, particularly in fields like quantum machine learning and quantum chemistry. However, quantum systems are inherently susceptible to noises, which adversely corrupt the information encoded in quantum systems. In this work, we introduce an efficient algorithm that can recover information from quantum states under Pauli noise. The core idea is to learn the necessary information of the unknown Pauli channel by post-processing the classical shadows of the channel. For a local and bounded-degree observable, only partial knowledge of the channel is required rather than its complete classical description to recover the ideal information, resulting in a polynomial-time algorithm. This contrasts with conventional methods such as probabilistic error cancellation, which requires the full information of the channel and exhibits exponential scaling 
-    
-[^2]: 基于关键词的多样图像检索：基于语义感知对比学习和Transformer的方法
-
-    Keyword-Based Diverse Image Retrieval by Semantics-aware Contrastive Learning and Transformer. (arXiv:2305.04072v1 [cs.IR])
-
-    [http://arxiv.org/abs/2305.04072](http://arxiv.org/abs/2305.04072)
-
-    本文提出了一种基于语义感知对比学习和Transformer的方法，实现了关键词多样图像检索，能够平衡相关性和多样性。
+    本文结合社会学、信息检索和机器学习公平性的角度和工具，着眼于相关性在公平排序中的应用和作用，并推导出相关性评分应满足的一组期望标准以实现有意义地指导公平干预措施。
 
     
 
-    除了相关性外，多样性是跨模态图像检索系统的另一个重要但较少研究的性能指标，对用户体验至关重要。现有的解决方案要么明确地对来自标准检索系统的原始检索结果进行后处理，要么尝试学习多向量表示图像以表示其多样的语义。然而，它们都不能很好地平衡相关性和多样性。
+    在线平台在机会获取中起着重要作用：基于相关性的排名通过在招聘平台的工作职位、求职者或在线市场的卖家中分配曝光机会来创建和限制选项。为了负责任地这样做，这些社会相关系统采用各种公平措施和干预措施，其中许多措施试图根据价值分配曝光机会。但是，因为这些构造通常不是直接可观察的，所以平台必须使用代理评分，如相关性，并从搜索者的行为信号中推断出它们。然而，关键问题仍然存在，即相关性在高风险的公平排序中是否履行其作为价值评分这样的作用。本文结合社会学、信息检索和机器学习公平性的角度和工具，推导出相关性评分应满足的一组期望标准，以便有意义地指导公平干预措施。
 
-    In addition to relevance, diversity is an important yet less studied performance metric of cross-modal image retrieval systems, which is critical to user experience. Existing solutions for diversity-aware image retrieval either explicitly post-process the raw retrieval results from standard retrieval systems or try to learn multi-vector representations of images to represent their diverse semantics. However, neither of them is good enough to balance relevance and diversity. On the one hand, standard retrieval systems are usually biased to common semantics and seldom exploit diversity-aware regularization in training, which makes it difficult to promote diversity by post-processing. On the other hand, multi-vector representation methods are not guaranteed to learn robust multiple projections. As a result, irrelevant images and images of rare or unique semantics may be projected inappropriately, which degrades the relevance and diversity of the results generated by some typical algorithm
+    Online platforms mediate access to opportunity: relevance-based rankings create and constrain options by allocating exposure to job openings and job candidates in hiring platforms, or sellers in a marketplace. In order to do so responsibly, these socially consequential systems employ various fairness measures and interventions, many of which seek to allocate exposure based on worthiness. Because these constructs are typically not directly observable, platforms must instead resort to using proxy scores such as relevance and infer them from behavioral signals such as searcher clicks. Yet, it remains an open question whether relevance fulfills its role as such a worthiness score in high-stakes fair rankings.  In this paper, we combine perspectives and tools from the social sciences, information retrieval, and fairness in machine learning to derive a set of desired criteria that relevance scores should satisfy in order to meaningfully guide fairness interventions. We then empirically show 
     
-[^3]: 针对预训练推荐模型的攻击
+[^2]: 通过多行为匹配方式提高基于隐式反馈的推荐系统
 
-    Attacking Pre-trained Recommendation. (arXiv:2305.03995v1 [cs.IR])
+    Improving Implicit Feedback-Based Recommendation through Multi-Behavior Alignment. (arXiv:2305.05585v1 [cs.IR])
 
-    [http://arxiv.org/abs/2305.03995](http://arxiv.org/abs/2305.03995)
+    [http://arxiv.org/abs/2305.05585](http://arxiv.org/abs/2305.05585)
 
-    本文提出了一种新的后门攻击预训练推荐模型的框架，并通过实验证明预训练模型的提供者可以很容易地将后门插入其中。这可能加剧了目标用户群对目标物品的曝光率。
-
-    
-
-    最近的一系列研究表明了预训练模型在序列推荐中的有效性，为建立适用于不同下游推荐任务的智能统一预训练推荐模型铺平了道路。尽管取得了这些进展，但是经典推荐系统的漏洞也以一种新形式存在于预训练推荐中，同时预训练推荐模型的安全性仍未被开发，这可能会威胁其广泛的实际应用。在本研究中，我们提出了一种针对预训练推荐的后门攻击新框架。我们证明了预训练模型的提供者可以很容易地在预训练中插入后门，从而增加目标物品面向目标用户群体的曝光率。具体地，我们设计了两种新颖有效的后门攻击：基本替换和提示增强，在各种推荐预训练使用情况下。在实际数据集上的实验结果表明，
-
-    Recently, a series of pioneer studies have shown the potency of pre-trained models in sequential recommendation, illuminating the path of building an omniscient unified pre-trained recommendation model for different downstream recommendation tasks. Despite these advancements, the vulnerabilities of classical recommender systems also exist in pre-trained recommendation in a new form, while the security of pre-trained recommendation model is still unexplored, which may threaten its widely practical applications. In this study, we propose a novel framework for backdoor attacking in pre-trained recommendation. We demonstrate the provider of the pre-trained model can easily insert a backdoor in pre-training, thereby increasing the exposure rates of target items to target user groups. Specifically, we design two novel and effective backdoor attacks: basic replacement and prompt-enhanced, under various recommendation pre-training usage scenarios. Experimental results on real-world datasets sh
-    
-[^4]: Mixer: 应用于工业应用的图像到跨模态检索学习
-
-    Mixer: Image to Multi-Modal Retrieval Learning for Industrial Application. (arXiv:2305.03972v1 [cs.IR])
-
-    [http://arxiv.org/abs/2305.03972](http://arxiv.org/abs/2305.03972)
-
-    提出了一种新的可伸缩高效的图像到跨模态检索范式Mixer，解决了领域差距、跨模态数据对齐和融合、繁杂的数据训练标签以及海量查询和及时响应等问题。
+    提出了一种基于多种用户行为数据学习的推荐框架，名为MBA，解决了学习通用且准确用户偏好和克服观察到的隐式用户反馈中的噪声和偏差的问题。
 
     
 
-    跨模态检索一直是电子商务平台和内容分享社交媒体中普遍存在的需求，其中查询是一张图片，文档是具有图片和文本描述的项目。然而，目前这种检索任务仍面临诸多挑战，包括领域差距、跨模态数据对齐和融合、繁杂的数据训练标签以及海量查询和及时响应等问题。为此，我们提出了一种名为Mixer的新型可伸缩和高效的图像查询到跨模态检索学习范式。Mixer通过自适应地整合多模态数据、更高效地挖掘偏斜和嘈杂的数据，并可扩展到高负载量，解决了这些问题。
+    学习隐性反馈的推荐系统往往使用大量单一类型的隐式用户反馈，例如点击，以增强对稀有目标行为，如购买的预测。针对此类目标行为预测，使用多种类型的隐式用户反馈仍然是一个开放性问题。现有的学习多种用户行为的研究往往未能解决以下问题：（i）从不同的行为数据分布中学习通用和准确的用户偏好；（ii）克服观察到的隐式用户反馈中的噪声和偏差。为解决这些问题，我们提出了多行为匹配（MBA），这是一种新的基于多种行为数据学习的推荐框架。我们假设来自同一用户的多种行为（例如点击和购买）应反映该用户类似的偏好。为此，我们将潜在的通用用户偏好视为潜在的变量。
 
-    Cross-modal retrieval, where the query is an image and the doc is an item with both image and text description, is ubiquitous in e-commerce platforms and content-sharing social media. However, little research attention has been paid to this important application. This type of retrieval task is challenging due to the facts: 1)~domain gap exists between query and doc. 2)~multi-modality alignment and fusion. 3)~skewed training data and noisy labels collected from user behaviors. 4)~huge number of queries and timely responses while the large-scale candidate docs exist. To this end, we propose a novel scalable and efficient image query to multi-modal retrieval learning paradigm called Mixer, which adaptively integrates multi-modality data, mines skewed and noisy data more efficiently and scalable to high traffic. The Mixer consists of three key ingredients: First, for query and doc image, a shared encoder network followed by separate transformation networks are utilized to account for their
+    Recommender systems that learn from implicit feedback often use large volumes of a single type of implicit user feedback, such as clicks, to enhance the prediction of sparse target behavior such as purchases. Using multiple types of implicit user feedback for such target behavior prediction purposes is still an open question. Existing studies that attempted to learn from multiple types of user behavior often fail to: (i) learn universal and accurate user preferences from different behavioral data distributions, and (ii) overcome the noise and bias in observed implicit user feedback. To address the above problems, we propose multi-behavior alignment (MBA), a novel recommendation framework that learns from implicit feedback by using multiple types of behavioral data. We conjecture that multiple types of behavior from the same user (e.g., clicks and purchases) should reflect similar preferences of that user. To this end, we regard the underlying universal user preferences as a latent vari
     
-[^5]: 跨领域增强网络用于点击率预测
+[^3]: 在电子商务中使用数据增强实现一致的文本分类
+
+    Consistent Text Categorization using Data Augmentation in e-Commerce. (arXiv:2305.05402v1 [cs.LG])
+
+    [http://arxiv.org/abs/2305.05402](http://arxiv.org/abs/2305.05402)
+
+    本文提出了一种在电子商务中使用数据增强实现一致的文本分类的新框架，该框架旨在改进产品分类模型的一致性，同时保持其生产水平的性能。
+
+    
+
+    大规模电子商务数据分类是一项关键的、广泛应用于工业领域的任务。本文旨在改进一家主要网络公司已经在使用的产品分类模型，该模型用于多种应用。在该模型核心中，产品分类模型是一个文本分类模型，接受产品标题作为输入，并从数千个可用候选项中输出最合适的类别。经过进一步观察，我们发现了类似物品标签上的不一致性。例如，标题中关于颜色或尺寸的小变化，会对模型产生较大影响。这种现象可能会对下游的推荐或搜索应用造成负面影响，导致用户体验下降。为了解决这个问题，我们提出了一个新的框架，实现一致的文本分类。我们的目标是提高模型的一致性，并保持其生产水平的性能。
+
+    The categorization of massive e-Commerce data is a crucial, well-studied task, which is prevalent in industrial settings. In this work, we aim to improve an existing product categorization model that is already in use by a major web company, serving multiple applications. At its core, the product categorization model is a text classification model that takes a product title as an input and outputs the most suitable category out of thousands of available candidates. Upon a closer inspection, we found inconsistencies in the labeling of similar items. For example, minor modifications of the product title pertaining to colors or measurements majorly impacted the model's output. This phenomenon can negatively affect downstream recommendation or search applications, leading to a sub-optimal user experience.  To address this issue, we propose a new framework for consistent text categorization. Our goal is to improve the model's consistency while maintaining its production-level performance. W
+    
+[^4]: CaseEncoder：一种融合法律知识的预训练模型用于法律案例编码
+
+    CaseEncoder: A Knowledge-enhanced Pre-trained Model for Legal Case Encoding. (arXiv:2305.05393v1 [cs.IR])
+
+    [http://arxiv.org/abs/2305.05393](http://arxiv.org/abs/2305.05393)
+
+    本文提出了一种融合法律知识的预训练模型CaseEncoder，针对法律案例的特殊领域需求，CaseEncoder在数据采样和预训练阶段中都使用了法律知识，其中包括利用细粒度的法律条款信息引导正负样本的选择，以及设计了与相关法律案例的评判标准相一致的法律特定预训练任务，该模型在法律案例检索和法律问答任务上优于最先进的PLMs。
+
+    
+
+    现代法律信息系统中，法律案例检索是关键的流程。尽管近期的研究利用了基于通用领域自监督预训练范式的预训练语言模型(PLMs)构建了用于法律案例检索的模型，但是使用通用领域的PLMs作为骨干模型有其局限性。具体来说，这些模型可能无法完全捕捉法律案例文档中的潜在法律特征。为了解决这个问题，我们提出了CaseEncoder，一种法律文档编码器，它在数据采样和预训练阶段利用细粒度的法律知识。在数据采样阶段，我们利用细粒度的法律条款信息引导正负样本的选择，从而提高了训练数据的质量。在预训练阶段，我们设计了与相关法律案例的评判标准相一致的法律特定预训练任务。根据这些任务，我们引入了一种创新的损失函数——偏置圆形损失(Biased Circle Loss)来处理法律案例数据集中正负样本之间的不平衡。实验结果表明，我们的CaseEncoder在法律案例检索和法律问答任务上优于最先进的PLMs。
+
+    Legal case retrieval is a critical process for modern legal information systems. While recent studies have utilized pre-trained language models (PLMs) based on the general domain self-supervised pre-training paradigm to build models for legal case retrieval, there are limitations in using general domain PLMs as backbones. Specifically, these models may not fully capture the underlying legal features in legal case documents. To address this issue, we propose CaseEncoder, a legal document encoder that leverages fine-grained legal knowledge in both the data sampling and pre-training phases. In the data sampling phase, we enhance the quality of the training data by utilizing fine-grained law article information to guide the selection of positive and negative examples. In the pre-training phase, we design legal-specific pre-training tasks that align with the judging criteria of relevant legal cases. Based on these tasks, we introduce an innovative loss function called Biased Circle Loss to 
+    
+[^5]: 具有几何信息瓶颈的可解释推荐系统
+
+    Explainable Recommender with Geometric Information Bottleneck. (arXiv:2305.05331v1 [cs.IR])
+
+    [http://arxiv.org/abs/2305.05331](http://arxiv.org/abs/2305.05331)
+
+    该论文提出了一种新的可解释推荐系统模型，将从用户-商品交互中学得的几何先验知识与变分网络相结合，可以为用户提供既具备推荐性能又具有解释性能的解释推荐服务。
+
+    
+
+    可解释的推荐系统能够解释其推荐决策，增强用户对系统的信任。大多数可解释的推荐系统要么依赖于人工标注的原理来训练模型以生成解释，要么利用注意机制从评论中提取重要的文本段落作为解释。提取的原理往往局限于单个评论，可能无法识别评论文本之外的隐含特征。为了避免昂贵的人工注释过程并生成超出单个评论的解释，我们建议将从用户-商品交互中学得的几何先验知识与变分网络相结合，该网络从用户-商品评论中推断潜在因子。单个用户-商品对的潜在因子可用于推荐和解释生成，自然地继承了编码在先验知识中的全局特征。三个电子商务数据集上的实验结果表明，我们的模型在推荐性能和可解释性方面都具有竞争力。
+
+    Explainable recommender systems can explain their recommendation decisions, enhancing user trust in the systems. Most explainable recommender systems either rely on human-annotated rationales to train models for explanation generation or leverage the attention mechanism to extract important text spans from reviews as explanations. The extracted rationales are often confined to an individual review and may fail to identify the implicit features beyond the review text. To avoid the expensive human annotation process and to generate explanations beyond individual reviews, we propose to incorporate a geometric prior learnt from user-item interactions into a variational network which infers latent factors from user-item reviews. The latent factors from an individual user-item pair can be used for both recommendation and explanation generation, which naturally inherit the global characteristics encoded in the prior knowledge. Experimental results on three e-commerce datasets show that our mo
+    
+[^6]: 通过训练人工代码切换数据来提升零样本跨语言检索
+
+    Boosting Zero-shot Cross-lingual Retrieval by Training on Artificially Code-Switched Data. (arXiv:2305.05295v1 [cs.CL])
+
+    [http://arxiv.org/abs/2305.05295](http://arxiv.org/abs/2305.05295)
+
+    研究者提出训练排名模型的方法来提高跨语言检索的效率，该模型使用了人工代码切换的数据，并且实验表明在跨语言检索和多语言检索中会带来显著改进，在不影响单语检索的基础上，特别是对于远程语言之间的检索。
+
+    
+
+    将以英语为代表的高资源语言的信息检索（IR）模型以零样本方式迁移到其他语言已成为被广泛采用的方法。在本研究中，我们表明当查询和文档以不同语言存在时，零样本排名器的有效性会降低。出于这个原因，我们建议使用人工代码切换数据来训练排名模型，而我们生成这些数据是通过利用双语词表。为此，我们尝试了从（1）跨语言词嵌入和（2）平行维基百科页面标题得出的词表。我们使用mMARCO数据集对涵盖单语IR（MoIR）、跨语言IR（CLIR）和多语言IR（MLIR）的36种语言对的重排模型进行了广泛评估。我们的结果表明，代码切换可以在保持MoIR性能稳定的同时，在CLIR中产生5.1 MRR@10的一致和显著增益，以及在MLIR中产生3.9 MRR@10的增益。令人鼓舞的是，远程语言之间的增益特别显著。
+
+    Transferring information retrieval (IR) models from a high-resource language (typically English) to other languages in a zero-shot fashion has become a widely adopted approach. In this work, we show that the effectiveness of zero-shot rankers diminishes when queries and documents are present in different languages. Motivated by this, we propose to train ranking models on artificially code-switched data instead, which we generate by utilizing bilingual lexicons. To this end, we experiment with lexicons induced from (1) cross-lingual word embeddings and (2) parallel Wikipedia page titles. We use the mMARCO dataset to extensively evaluate reranking models on 36 language pairs spanning Monolingual IR (MoIR), Cross-lingual IR (CLIR), and Multilingual IR (MLIR). Our results show that code-switching can yield consistent and substantial gains of 5.1 MRR@10 in CLIR and 3.9 MRR@10 in MLIR, while maintaining stable performance in MoIR. Encouragingly, the gains are especially pronounced for distan
+    
+[^7]: 学习个性化推荐以基于客户购物意图
+
+    Learning to Personalize Recommendation based on Customers' Shopping Intents. (arXiv:2305.05279v1 [cs.IR])
+
+    [http://arxiv.org/abs/2305.05279](http://arxiv.org/abs/2305.05279)
+
+    本文介绍了亚马逊的新系统，利用深度学习模型将顾客的在线行为映射成为高级别购物意图，以便个性化推荐，提供更相关、可解释和多样化的购物体验。
+
+    
+
+    理解顾客的高级别购物意图，如他们去露营或举办生日派对的愿望，对于电商平台非常重要；它可以通过提供更相关、可解释和多样化的推荐来提高购物体验的质量。然而，由于实际挑战，这种高级别的购物意图在行业中被忽视。在这项工作中，我们介绍了亚马逊的新系统，明确地识别和利用每个客户的高级别购物意图来个性化推荐。我们开发了一种新技术，自动识别亚马逊客户正在追求的各种高级别目标，如“去露营”和“准备海滩派对”。我们的解决方案进行了扩展（跨越21个国家的14种语言）。然后，一个深度学习模型将每个客户的在线行为，如产品搜索和个体项目参与，映射成一组高级别的购物意图。
+
+    Understanding the customers' high level shopping intent, such as their desire to go camping or hold a birthday party, is critically important for an E-commerce platform; it can help boost the quality of shopping experience by enabling provision of more relevant, explainable, and diversified recommendations. However, such high level shopping intent has been overlooked in the industry due to practical challenges. In this work, we introduce Amazon's new system that explicitly identifies and utilizes each customer's high level shopping intents for personalizing recommendations. We develop a novel technique that automatically identifies various high level goals being pursued by the Amazon customers, such as "go camping", and "preparing for a beach party". Our solution is in a scalable fashion (in 14 languages across 21 countries). Then a deep learning model maps each customer's online behavior, e.g. product search and individual item engagements, into a subset of high level shopping intents
+    
+[^8]: 使用顾客表示学习个性化页面内容排名
+
+    Learning Personalized Page Content Ranking Using Customer Representation. (arXiv:2305.05267v1 [cs.IR])
+
+    [http://arxiv.org/abs/2305.05267](http://arxiv.org/abs/2305.05267)
+
+    本论文提出了一种基于深度学习的蒙特卡罗策略，该算法主要利用聚合的顾客行为特征，忽略单个购物者级别的过去活动。该模型通过整合历史购物行为、顾客潜在购物目标以及顾客和内容分类之间的相关性，产生更个性化的内容排名，测量值为12.08%的nDCG提升。
+
+    
+
+    在电子商务网站上（例如亚马逊、eBay等），有丰富的推荐内容，可以帮助购物者更有效地购物。然而，鉴于产品众多，选择最相关的内容以减少信息过载的负担至关重要。我们引入了一种由线性因果赌博算法驱动的内容排名服务，以在每个上下文下为每个购物者排名和选择内容。该算法主要利用聚合的顾客行为特征，忽略单个购物者级别的过去活动。我们研究了从历史活动中推断购物者兴趣的问题。我们提出了一种基于深度学习的赌博算法，该算法整合了历史购物行为、顾客潜在购物目标以及顾客和内容分类之间的相关性。该模型产生了更个性化的内容排名，测量值为12.08%的nDCG提升。在在线A/B测试环境中，该模型提高了0.02%的商业度量年化影响，验证了其有效性。
+
+    On E-commerce stores (Amazon, eBay etc.) there are rich recommendation content to help shoppers shopping more efficiently. However given numerous products, it's crucial to select most relevant content to reduce the burden of information overload. We introduced a content ranking service powered by a linear causal bandit algorithm to rank and select content for each shopper under each context. The algorithm mainly leverages aggregated customer behavior features, and ignores single shopper level past activities. We study the problem of inferring shoppers interest from historical activities. We propose a deep learning based bandit algorithm that incorporates historical shopping behavior, customer latent shopping goals, and the correlation between customers and content categories. This model produces more personalized content ranking measured by 12.08% nDCG lift. In the online A/B test setting, the model improved 0.02% annualized commercial impact measured by our business metric, validating
+    
+[^9]: 从交互行为中消除协同过滤推荐的流行度偏差
+
+    Popularity Debiasing from Exposure to Interaction in Collaborative Filtering. (arXiv:2305.05204v1 [cs.IR])
+
+    [http://arxiv.org/abs/2305.05204](http://arxiv.org/abs/2305.05204)
+
+    本文提出了一种新的流行度鉴别准则，即在公平的推荐系统中，受欢迎和不受欢迎的物品应该得到与喜欢它的用户数量成比例的交互，针对这个准则提出了一种新的去流行度偏差框架，并在多个真实数据集上的实验中展示了其在去偏差和推荐准确性方面的显着改进。
+
+    
+
+    推荐系统往往受到流行度偏见的影响，过度推荐热门物品，而牺牲不受欢迎的物品。现有的研究通常关注如何确保每个物品的推荐次数暴露在相等或成比例的情况下,使用反向偏差加权、因果干预或对抗训练等方法。然而，增加不受欢迎物品的曝光率可能不会带来更多的点击或交互，导致利益分配不平衡，无法真正实现合理的流行度鉴别。在本文中，我们提出了一种新的流行度鉴别准则，即在一个公平的推荐系统中，受欢迎和不受欢迎的物品应该得到与喜欢它的用户数量成比例的交互。在该准则的指导下，我们提出了一种带有IPL正则化项的去偏差框架，该框架在理论上可以实现流行度去偏差和推荐性能的双赢局面。在几个真实世界数据集上的实验表明，我们的方法优于几个最先进的基线模型，并在去偏差性能和推荐准确性方面取得了显着的改进。
+
+    Recommender systems often suffer from popularity bias, where popular items are overly recommended while sacrificing unpopular items. Existing researches generally focus on ensuring the number of recommendations exposure of each item is equal or proportional, using inverse propensity weighting, causal intervention, or adversarial training. However, increasing the exposure of unpopular items may not bring more clicks or interactions, resulting in skewed benefits and failing in achieving real reasonable popularity debiasing. In this paper, we propose a new criterion for popularity debiasing, i.e., in an unbiased recommender system, both popular and unpopular items should receive Interactions Proportional to the number of users who Like it, namely IPL criterion. Under the guidance of the criterion, we then propose a debiasing framework with IPL regularization term which is theoretically shown to achieve a win-win situation of both popularity debiasing and recommendation performance. Experi
+    
+[^10]: Autumn：基于LSM-tree的可扩展的面向读操作优化的键值存储引擎
+
+    Autumn: A Scalable Read Optimized LSM-tree based Key-Value Stores with Fast Point and Range Read Speed. (arXiv:2305.05074v1 [cs.DB])
+
+    [http://arxiv.org/abs/2305.05074](http://arxiv.org/abs/2305.05074)
+
+    Autumn是一个可扩展的、面向读操作优化的LSM-tree键值存储引擎，其创新之处在于通过动态调整相邻两层之间的容量比来不断提高读性能，使得点读和区间读成本从之前最优的$O(logN)$复杂度优化到了$O(\sqrt{logN})$。
+
+    
+
+    基于Log Structured Merge Trees (LSM-tree)的键值存储引擎被广泛应用于许多存储系统中，以支持更新、点读和区间读等各种操作。本文中，我们提出了一个名为Autumn的可扩展的、面向读操作优化的基于LSM-tree的键值存储引擎，它具有最少的点读和区间读成本。通过动态调整相邻两层之间的容量比来不断提高读性能，点读和区间读成本从之前最优的$O(logN)$复杂度优化到了$O(\sqrt{logN})$，并应用了新的Garnering合并策略。Autumn是一个可扩展的、面向读操作优化的LSM-tree键值存储引擎。
+
+    The Log Structured Merge Trees (LSM-tree) based key-value stores are widely used in many storage systems to support a variety of operations such as updates, point reads, and range reads. Traditionally, LSM-tree's merge policy organizes data into multiple levels of exponentially increasing capacity to support high-speed writes. However, we contend that the traditional merge policies are not optimized for reads. In this work, we present Autumn, a scalable and read optimized LSM-tree based key-value stores with minimal point and range read cost. The key idea in improving the read performance is to dynamically adjust the capacity ratio between two adjacent levels as more data are stored. As a result, smaller levels gradually increase their capacities and merge more often. In particular, the point and range read cost improves from the previous best known $O(logN)$ complexity to $O(\sqrt{logN})$ in Autumn by applying the new novel Garnering merge policy. While Garnering merge policy optimize
+    
+[^11]: 生成式检索推荐系统
+
+    Recommender Systems with Generative Retrieval. (arXiv:2305.05065v1 [cs.IR])
+
+    [http://arxiv.org/abs/2305.05065](http://arxiv.org/abs/2305.05065)
+
+    本文提出了一种新型的生成式检索模型，将检索和生成组合在一起以产生推荐。
+
+    
+
+    现代推荐系统使用大规模检索模型进行推荐，包括两个阶段：训练双编码模型将查询和候选项嵌入到相同的空间中，然后使用近似最近邻搜索来选择给定查询嵌入的顶部候选项。本文提出了一种新的单阶段范例：生成式检索模型，该模型通过自回归方式在一个阶段中解码目标候选项的标识符。为此，我们不是为每个项目分配随机生成的原子ID，而是生成语义ID：每个项目的语义有意义的元组编码词，它作为其唯一标识符。我们使用称为RQ-VAE的分层方法生成这些编码词。一旦我们对所有项目都有了语义ID，就会训练基于Transformer的序列到序列模型来预测下一个项目的语义ID。由于这个模型以自回归的方式直接预测标识下一个项的编码词元组，因此它可以将检索和生成组合在一起以产生推荐。
+
+    Modern recommender systems leverage large-scale retrieval models consisting of two stages: training a dual-encoder model to embed queries and candidates in the same space, followed by an Approximate Nearest Neighbor (ANN) search to select top candidates given a query's embedding. In this paper, we propose a new single-stage paradigm: a generative retrieval model which autoregressively decodes the identifiers for the target candidates in one phase. To do this, instead of assigning randomly generated atomic IDs to each item, we generate Semantic IDs: a semantically meaningful tuple of codewords for each item that serves as its unique identifier. We use a hierarchical method called RQ-VAE to generate these codewords. Once we have the Semantic IDs for all the items, a Transformer based sequence-to-sequence model is trained to predict the Semantic ID of the next item. Since this model predicts the tuple of codewords identifying the next item directly in an autoregressive manner, it can be c
+    
+[^12]: 基于大语言模型知识蒸馏的网络内容过滤方法
+
+    Web Content Filtering through knowledge distillation of Large Language Models. (arXiv:2305.05027v1 [cs.LG])
+
+    [http://arxiv.org/abs/2305.05027](http://arxiv.org/abs/2305.05027)
+
+    本文提出了一种基于大语言模型知识蒸馏的 URL 分类方法，可用于网络内容过滤，其学生模型在参数数量减少 175 倍的情况下，精度提升了 9%，超过了当前最先进方法。
+
+    
+
+    本文提出了一种基于大语言模型的 URL 分类方法，旨在实现网络内容过滤的主要目标：保障组织免受法律和伦理风险，限制访问高风险或可疑网站，以及促进安全的专业工作环境。我们的方法利用大语言模型生成准确的分类，并利用已有的知识蒸馏技术创建更小、更专业的学生模型，以用于网络内容过滤。在将通过大型安全供应商收集的客户遥测数据的 30 个不同内容类别的网站进行分类的任务中，我们的学生模型通过蒸馏结果实现了 9% 的分类精度提升，超过了当前最先进方法。我们的学生模型在参数数量上与原始的大语言模型相比减少了 175 倍，从而达到了与老师模型相匹配的性能，可以用于大规模的在线扫描。
+
+    We introduce a state-of-the-art approach for URL categorization that leverages the power of Large Language Models (LLMs) to address the primary objectives of web content filtering: safeguarding organizations from legal and ethical risks, limiting access to high-risk or suspicious websites, and fostering a secure and professional work environment. Our method utilizes LLMs to generate accurate classifications and then employs established knowledge distillation techniques to create smaller, more specialized student models tailored for web content filtering. Distillation results in a student model with a 9\% accuracy rate improvement in classifying websites, sourced from customer telemetry data collected by a large security vendor, into 30 distinct content categories based on their URLs, surpassing the current state-of-the-art approach. Our student model matches the performance of the teacher LLM with 175 times less parameters, allowing the model to be used for in-line scanning of large vo
+    
+[^13]: 基于自编码器的 ICU 临床代码预测
+
+    Autoencoder-based prediction of ICU clinical codes. (arXiv:2305.04992v1 [cs.LG])
+
+    [http://arxiv.org/abs/2305.04992](http://arxiv.org/abs/2305.04992)
+
+    本文研究了基于自编码器的 ICU 临床代码预测，针对不完整的临床代码清单，使用了各种自编码器方法以及两个强基准。结果表明，基于共现的方法表现略微更好，对抗自编码器实现了最佳性能。
+
+    
+
+    电子病历中诊断代码的可用性对于患者护理以及报销目的至关重要。然而，将其输入到电子病历中非常繁琐，而且一些临床代码可能会被忽略。针对不完整的临床代码清单，我们研究了机器学习方法在预测完整临床代码方面的性能，并评估了在这项任务中包含其他临床患者数据的增加预测价值。我们使用了 MIMIC-III 数据集，并将完整临床代码的任务框架定为推荐问题。我们考虑了各种自编码器方法以及两个强基准；项共现和奇异值分解（SVD）。输入包括 1）记录的已知临床代码，2）代码加变量。基于共现的方法略微表现更好（F1 分数=0.26，均值平均准确度[MAP]=0.19），而 SVD（F1=0.24，MAP=0.18）表现较差。然而，当代码加变量时，对抗自编码器实现了最佳性能。
+
+    Availability of diagnostic codes in Electronic Health Records (EHRs) is crucial for patient care as well as reimbursement purposes. However, entering them in the EHR is tedious, and some clinical codes may be overlooked. Given an in-complete list of clinical codes, we investigate the performance of ML methods on predicting the complete ones, and assess the added predictive value of including other clinical patient data in this task. We used the MIMIC-III dataset and frame the task of completing the clinical codes as a recommendation problem. We con-sider various autoencoder approaches plus two strong baselines; item co-occurrence and Singular Value Decomposition (SVD). Inputs are 1) a record's known clinical codes, 2) the codes plus variables. The co-occurrence-based ap-proach performed slightly better (F1 score=0.26, Mean Average Precision [MAP]=0.19) than the SVD (F1=0.24, MAP=0.18). However, the adversarial autoencoder achieved the best performance when using the codes plus variable
+    
+[^14]: 基于图形遮盖自编码器的序列推荐系统
+
+    Graph Masked Autoencoder for Sequential Recommendation. (arXiv:2305.04619v2 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2305.04619](http://arxiv.org/abs/2305.04619)
+
+    提出了一种简单而有效的基于图遮盖自编码器的序列推荐系统，它使用基于图的注意力机制暴露出带有遮盖的项目序列，自适应动态提取全局项目转换信息进行自监督增强，在具有较少标记样本的情况下始终比最先进的序列推荐方法表现出更好的性能，而且对数据损坏和缺失情况具有鲁棒性。
+
+    
+
+    虽然一些强大的神经网络架构（例如Transformer、图神经网络）通过高阶项依赖建模在序列推荐中实现了改进的性能，但它们可能在标签稀缺情况下表现出较差的表征能力。为了解决标签不足的问题，对比学习（CL）已经引起了近期的关注，通过嵌入对比来进行自我监督的数据增强。然而，由于其对比视图生成策略的手工制定特性，现有的CL增强模型不仅难以在不同的序列推荐任务中产生一致的性能，还可能对用户行为数据噪声不具有鲁棒性。鉴于这一点，我们提出了一种简单而有效的自适应全局信息提取的图遮盖自编码器增强的序列推荐系统（MAERec）来解决这个问题。它自然地避免了上述问题，得益于其独特的数据重构机制。具体而言，我们的模型使用基于图的注意力机制，暴露出带有遮盖的项目序列，使表示不仅利用本地顺序信息，还利用项目之间的全局相关性。我们在四个基准数据集上对我们的方法进行了广泛评估。实验结果表明，我们的模型在具有较少标记样本的情况下始终比最先进的序列推荐方法表现出更好的性能，而且对数据损坏和缺失情况具有鲁棒性。
+
+    While some powerful neural network architectures (e.g., Transformer, Graph Neural Networks) have achieved improved performance in sequential recommendation with high-order item dependency modeling, they may suffer from poor representation capability in label scarcity scenarios. To address the issue of insufficient labels, Contrastive Learning (CL) has attracted much attention in recent methods to perform data augmentation through embedding contrasting for self-supervision. However, due to the hand-crafted property of their contrastive view generation strategies, existing CL-enhanced models i) can hardly yield consistent performance on diverse sequential recommendation tasks; ii) may not be immune to user behavior data noise. In light of this, we propose a simple yet effective Graph Masked AutoEncoder-enhanced sequential Recommender system (MAERec) that adaptively and dynamically distills global item transitional information for self-supervised augmentation. It naturally avoids the abov
+    
+[^15]: 跨领域增强网络用于点击率预测
 
     Cross-domain Augmentation Networks for Click-Through Rate Prediction. (arXiv:2305.03953v1 [cs.IR])
 
@@ -93,186 +234,60 @@
 
     Data sparsity is an important issue for click-through rate (CTR) prediction, particularly when user-item interactions is too sparse to learn a reliable model. Recently, many works on cross-domain CTR (CDCTR) prediction have been developed in an effort to leverage meaningful data from a related domain. However, most existing CDCTR works have an impractical limitation that requires homogeneous inputs (\textit{i.e.} shared feature fields) across domains, and CDCTR with heterogeneous inputs (\textit{i.e.} varying feature fields) across domains has not been widely explored but is an urgent and important research problem. In this work, we propose a cross-domain augmentation network (CDAnet) being able to perform knowledge transfer between two domains with \textit{heterogeneous inputs}. Specifically, CDAnet contains a designed translation network and an augmentation network which are trained sequentially. The translation network is able to compute features from two domains with heterogeneous 
     
-[^6]: 通过查询生成增强通道表示以实现增强跨语言稠密检索
+[^16]: SLIM: 带倒排索引的多向量检索中的稀疏化晚互动
 
-    Augmenting Passage Representations with Query Generation for Enhanced Cross-Lingual Dense Retrieval. (arXiv:2305.03950v1 [cs.IR])
+    SLIM: Sparsified Late Interaction for Multi-Vector Retrieval with Inverted Indexes. (arXiv:2302.06587v2 [cs.IR] UPDATED)
 
-    [http://arxiv.org/abs/2305.03950](http://arxiv.org/abs/2305.03950)
+    [http://arxiv.org/abs/2302.06587](http://arxiv.org/abs/2302.06587)
 
-    本文提出了一种跨语言稠密检索方法，通过使用跨语言查询生成方法来增强通道表示，以应对跨语言数据较少的问题。在推断过程中使用生成器不会增加额外的计算成本。
-
-    
-
-    有效的跨语言稠密检索方法需要依赖多语言预训练语言模型(PLMs)，同时涵盖相关性匹配和跨语言对齐任务的训练也往往面临数据匮乏的问题。本文提出了一种通过使用跨语言查询生成来增强通道表示的方法，以应对跨语言数据匮乏的问题。通过在原始通道语言之外使用其他语言的查询来增强表示，这些增强表示在推断过程中使用，以便表示可以跨越不同目标语言编码更多信息。跨语言查询生成器的训练不需要额外的训练数据，生成器的预训练任务也非常类似于微调任务(生成查询)。在推断过程中使用生成器不会增加任何计算成本。
-
-    Effective cross-lingual dense retrieval methods that rely on multilingual pre-trained language models (PLMs) need to be trained to encompass both the relevance matching task and the cross-language alignment task. However, cross-lingual data for training is often scarcely available. In this paper, rather than using more cross-lingual data for training, we propose to use cross-lingual query generation to augment passage representations with queries in languages other than the original passage language. These augmented representations are used at inference time so that the representation can encode more information across the different target languages. Training of a cross-lingual query generator does not require additional training data to that used for the dense retriever. The query generator training is also effective because the pre-training task for the generator (T5 text-to-text training) is very similar to the fine-tuning task (generation of a query). The use of the generator does 
-    
-[^7]: 图像搜索中的公平性：关于从图像检索与去偏见角度探究职业模式刻板印象的研究。
-
-    Fairness in Image Search: A Study of Occupational Stereotyping in Image Retrieval and its Debiasing. (arXiv:2305.03881v1 [cs.IR])
-
-    [http://arxiv.org/abs/2305.03881](http://arxiv.org/abs/2305.03881)
-
-    本文针对职业模式刻板印象问题，研究了网络搜索中的偏见和公平性问题。实验表明当前的图像搜索引擎存在相当严重的职业模式刻板印象，提出了一种去偏见方法以减轻此类偏见并提高图像搜索引擎的公平性。
+    SLIM是一种带倒排索引的多向量检索方法，通过对上下文化令牌嵌入进行稀疏化处理和晚期交互实现有效检索，且可与现成词库搜索库完全兼容。
 
     
 
-    多模式搜索引擎近年来经历了显著的增长和广泛的使用，成为继信息检索之后第二常见的互联网使用方式。尽管搜索引擎系统提供了一系列服务，但图像搜索领域最近成为信息检索社区的焦点，因为常言道“一图胜千言”。虽然像谷歌这样的流行搜索引擎在图像搜索精度和敏捷性方面表现出色，但人们对它们的搜索结果是否会存在性别、语言、人口统计、社会文化方面的偏见存在争议。这种潜在的偏见可能会对个人的认知产生重要影响，并影响他们的视角。本文主要研究网络搜索中的偏见和公平性问题，重点关注基于关键字的图像搜索方面。我们首先讨论了搜索系统中存在的几种偏见类型以及为什么有必要加以缓解。我们将研究重点缩小到评估和缓解图像检索中的职业模式刻板印象。我们的实验表明，当前的图像搜索引擎存在相当严重的职业模式刻板印象，这可能对个人和整个社会产生不利影响。我们提出了一种去偏见方法，以减轻此类偏见并提高图像搜索引擎的公平性。
+    本文提出了一种带倒排索引的多向量( SLIM ) 检索方法。在多向量检索方法中，ColBERT是基于预训练语言模型的上下文化令牌嵌入的后期交互最成熟的方法。然而，有效实现ColBERT需要复杂的工程，不利于实际应用。为解决这个问题，SLIM首先将每个上下文化的令牌向量映射到一个稀疏的高维词汇空间，然后在这些稀疏的令牌嵌入之间执行晚期交互。然后，我们介绍了一种高效的两阶段检索体系结构，包括倒排索引检索和分数细化模块，以近似稀疏化的晚期交互，并与诸如Lucene这样的现成词库搜索库完全兼容。SLIM在各种检索数据集上实现了与ColBERT相当的性能，但具有更高的实用性和可扩展性。
 
-    Multi-modal search engines have experienced significant growth and widespread use in recent years, making them the second most common internet use. While search engine systems offer a range of services, the image search field has recently become a focal point in the information retrieval community, as the adage goes, "a picture is worth a thousand words". Although popular search engines like Google excel at image search accuracy and agility, there is an ongoing debate over whether their search results can be biased in terms of gender, language, demographics, socio-cultural aspects, and stereotypes. This potential for bias can have a significant impact on individuals' perceptions and influence their perspectives.  In this paper, we present our study on bias and fairness in web search, with a focus on keyword-based image search. We first discuss several kinds of biases that exist in search systems and why it is important to mitigate them. We narrow down our study to assessing and mitigat
+    This paper introduces Sparsified Late Interaction for Multi-vector (SLIM) retrieval with inverted indexes. Multi-vector retrieval methods have demonstrated their effectiveness on various retrieval datasets, and among them, ColBERT is the most established method based on the late interaction of contextualized token embeddings of pre-trained language models. However, efficient ColBERT implementations require complex engineering and cannot take advantage of off-the-shelf search libraries, impeding their practical use. To address this issue, SLIM first maps each contextualized token vector to a sparse, high-dimensional lexical space before performing late interaction between these sparse token embeddings. We then introduce an efficient two-stage retrieval architecture that includes inverted index retrieval followed by a score refinement module to approximate the sparsified late interaction, which is fully compatible with off-the-shelf lexical search libraries such as Lucene. SLIM achieves 
     
-[^8]: 利用模拟用户反馈的方式来优化会话式搜索
+[^17]: 无关语言的多语种信息检索与对比学习
 
-    Exploiting Simulated User Feedback for Conversational Search: Ranking, Rewriting, and Beyond. (arXiv:2304.13874v1 [cs.IR])
+    Language Agnostic Multilingual Information Retrieval with Contrastive Learning. (arXiv:2210.06633v2 [cs.IR] UPDATED)
 
-    [http://arxiv.org/abs/2304.13874](http://arxiv.org/abs/2304.13874)
+    [http://arxiv.org/abs/2210.06633](http://arxiv.org/abs/2210.06633)
 
-    本研究利用一个名为ConvSim的用户模拟器来评估用户反馈，从而提高会话式搜索的性能，实验结果显示有效利用用户反馈可以大幅提高检索性能。
-
-    
-
-    本研究旨在探索评估用户反馈在混合倡议的会话式搜索系统中的各种方法。虽然会话式搜索系统在多个方面都取得了重大进展，但最近的研究未能成功地将用户反馈纳入系统中。其中一个主要原因是缺乏系统-用户对话交互数据。为此，我们提出了一种基于用户模拟器的框架，可用于与各种混合倡议的会话式搜索系统进行多轮交互。具体来说，我们开发了一个名为ConvSim的用户模拟器，一旦初始化了信息需求描述，就能够对系统的响应提供反馈，并回答潜在的澄清问题。我们对各种最先进的段落检索和神经重新排序模型进行的实验表明，有效利用用户反馈可以导致在nDCG@3方面16%的检索性能提高。此外，我们观察到随着n的增加，一致的改进。
-
-    This research aims to explore various methods for assessing user feedback in mixed-initiative conversational search (CS) systems. While CS systems enjoy profuse advancements across multiple aspects, recent research fails to successfully incorporate feedback from the users. One of the main reasons for that is the lack of system-user conversational interaction data. To this end, we propose a user simulator-based framework for multi-turn interactions with a variety of mixed-initiative CS systems. Specifically, we develop a user simulator, dubbed ConvSim, that, once initialized with an information need description, is capable of providing feedback to a system's responses, as well as answering potential clarifying questions. Our experiments on a wide variety of state-of-the-art passage retrieval and neural re-ranking models show that effective utilization of user feedback can lead to 16% retrieval performance increase in terms of nDCG@3. Moreover, we observe consistent improvements as the n
-    
-[^9]: 频率增强的混合注意力网络用于序列推荐
-
-    Frequency Enhanced Hybrid Attention Network for Sequential Recommendation. (arXiv:2304.09184v1 [cs.IR])
-
-    [http://arxiv.org/abs/2304.09184](http://arxiv.org/abs/2304.09184)
-
-    本文提出了一种新的序列推荐算法——频率增强的混合注意力网络（FEARec）。该算法通过一个斜坡结构将原有的自注意力从时间域转换到频率域，使得低频和高频信息可以被明确地学习。同时，通过自相关的设计，该算法还可以捕捉到用户行为的固有周期性。在四个真实世界的基准测试中，该算法表现优于现有最先进的方法。
+    该论文提出一种使用对比学习的技术，利用平行和非平行语料库来提高多语种信息检索的效果，仅使用英语IR训练数据和一些平行语料库即可在非英语数据上实现显著的检索性能改进。
 
     
 
-    自注意机制是序列推荐领域广泛使用的技术之一，具有建模长程依赖性的强大能力。然而，许多最近的研究表明，目前基于自注意力的模型是低通滤波器，不能捕捉高频信息。此外，由于用户行为中的项目相互交织，这些模型无法区分时间域中模糊的固有周期性。在这项工作中，我们将视角转移到频率域，并提出了一种新颖的序列推荐算法——频率增强的混合注意力网络，即FEARec。在这个模型中，我们首先通过一个斜坡结构将原始时间域自注意力改进到频率域中，使得我们的方法可以明确地学习低频和高频信息。此外，我们还通过自相关设计了类似的注意力机制来捕捉用户行为的固有周期性。在四个真实世界的基准测试中进行了大量实验，结果表明我们提出的方法比现有最先进的方法表现更优秀。
+    多语种信息检索具有挑战性，因为在许多语言中获取经过注释的训练数据成本很高。我们提出了一种有效的方法，在只有英语IR训练数据和英语与其他语言之间的一些平行语料库可用时训练多语种IR系统。我们利用平行和非平行语料库来提高预训练多语种语言模型的跨语言传递能力，并设计了一个语义对比损失，以对齐在不同语言中具有相同语义的平行句子的表示，以及一种新的语言对比损失，利用平行句子对从非平行语料库中的句子表示中删除语言特定信息。在使用这些损失对英语IR数据进行训练并在非英语数据上进行零-shot评估时，我们的模型表现出明显的改进，同时需要较少的计算资源。我们还证明了该方法的实用价值。
 
-    The self-attention mechanism, which equips with a strong capability of modeling long-range dependencies, is one of the extensively used techniques in the sequential recommendation field. However, many recent studies represent that current self-attention based models are low-pass filters and are inadequate to capture high-frequency information. Furthermore, since the items in the user behaviors are intertwined with each other, these models are incomplete to distinguish the inherent periodicity obscured in the time domain. In this work, we shift the perspective to the frequency domain, and propose a novel Frequency Enhanced Hybrid Attention Network for Sequential Recommendation, namely FEARec. In this model, we firstly improve the original time domain self-attention in the frequency domain with a ramp structure to make both low-frequency and high-frequency information could be explicitly learned in our approach. Moreover, we additionally design a similar attention mechanism via auto-corr
+    Multilingual information retrieval (IR) is challenging since annotated training data is costly to obtain in many languages. We present an effective method to train multilingual IR systems when only English IR training data and some parallel corpora between English and other languages are available. We leverage parallel and non-parallel corpora to improve the pretrained multilingual language models' cross-lingual transfer ability. We design a semantic contrastive loss to align representations of parallel sentences that share the same semantics in different languages, and a new language contrastive loss to leverage parallel sentence pairs to remove language-specific information in sentence representations from non-parallel corpora. When trained on English IR data with these losses and evaluated zero-shot on non-English data, our model demonstrates significant improvement to prior work on retrieval performance, while it requires much less computational effort. We also demonstrate the valu
     
-[^10]: 超越单项：使用对话式音乐播放列表构建数据探索用户对项目集的偏好
+[^18]: 推荐系统中的公平性：研究现状与未来方向
 
-    Beyond Single Items: Exploring User Preferences in Item Sets with the Conversational Playlist Curation Dataset. (arXiv:2303.06791v2 [cs.IR] UPDATED)
+    Fairness in Recommender Systems: Research Landscape and Future Directions. (arXiv:2205.11127v4 [cs.IR] UPDATED)
 
-    [http://arxiv.org/abs/2303.06791](http://arxiv.org/abs/2303.06791)
+    [http://arxiv.org/abs/2205.11127](http://arxiv.org/abs/2205.11127)
 
-    该论文提出了一种有效收集用户对项目集偏好数据的方法，用于构建对话式播放列表构建数据集。该数据集能够超越单项偏好，更加全面有效地了解用户需求。
-
-    
-
-    在音乐等消费领域，用户通常能够更有效地提供对一组项目（例如播放列表或广播）的偏好而不是对单个项目（例如歌曲）。不幸的是，这是一个未被充分研究的领域，大多数现有的推荐系统仅限于了解单个项目的偏好。我们提出了一种新的数据收集方法，通过观察项目级和集合级反馈，有效地在会话环境中收集关于项目集的真实偏好信息。我们将这项任务称为对话式项目集合作，并将其应用于音乐推荐，构建了对话式播放列表构建数据集（CPC）。
-
-    Users in consumption domains, like music, are often able to more efficiently provide preferences over a set of items (e.g. a playlist or radio) than over single items (e.g. songs). Unfortunately, this is an underexplored area of research, with most existing recommendation systems limited to understanding preferences over single items. Curating an item set exponentiates the search space that recommender systems must consider (all subsets of items!): this motivates conversational approaches-where users explicitly state or refine their preferences and systems elicit preferences in natural language-as an efficient way to understand user needs. We call this task conversational item set curation and present a novel data collection methodology that efficiently collects realistic preferences about item sets in a conversational setting by observing both item-level and set-level feedback. We apply this methodology to music recommendation to build the Conversational Playlist Curation Dataset (CPC
-    
-[^11]: 一种反事实协同会话推荐系统
-
-    A Counterfactual Collaborative Session-based Recommender System. (arXiv:2301.13364v3 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2301.13364](http://arxiv.org/abs/2301.13364)
-
-    该论文提出了一种基于反事实因果推断框架的基于协同会话推荐系统（COCO-SBRS），以解决外部会话原因（OSCs）导致的混淆因素和数据相关性问题。
+    本文讨论了推荐系统的公平性问题，通过对160多篇学术出版物的综述总结了该领域目前的研究现状，强调了一些有前途的未来方向，例如需要超越统计平衡的新公平性衡量方法。
 
     
 
-    大多数基于会话的推荐系统（SBRS）专注于从用户当前会话中观察到的项目中提取信息以预测下一个项目，忽略了影响用户选择项目的会话外原因（称为“外部会话原因”，OSCs）。 然而，这些原因在现实世界中广泛存在，很少有研究探讨它们在SBRS中的作用。 在此工作中，我们从因果推断的角度分析了SBRS中OSCs的因果关系和相关性。 我们发现OSCs本质上是SBRS中的混淆因素，这导致用于训练SBRS模型的数据中存在虚假的相关性。 为了解决这个问题，我们提出了一种新的SBRS框架，称为COCO-SBRS（COunterfactual COllaborative Session-Based Recommender Systems），以学习SBRS中OSCs和用户-项目交互之间的因果关系。 COCO-SBRS首先采用自我监督方法通过设计每个用户原因的伪标签来预训练推荐模型。
+    推荐系统可以极大地影响我们在线上看到的信息，例如在社交媒体上，从而影响我们的信仰、决策和行动。同时，这些系统可以为不同的利益相关者创造巨大的商业价值。鉴于这种基于人工智能的系统对个人、组织和社会的潜在影响越来越大，公平性问题在近年来得到了越来越多的关注。然而，推荐系统公平性的研究仍然是一个正在发展的领域。在本次调查中，我们首先回顾了近年来在该领域提出的公平性基本概念和观念。随后，通过对160多篇学术出版物的综述，我们总结了这一领域目前的研究现状，例如一般研究方法、公平性措施和算法方法。总的来说，我们对最近研究的分析指出了某些研究空白。特别是，我们发现在许多研究中，对提出的模型的公平性提升属性缺乏实质性的评估。此外，该调查还强调了一些有前途的未来方向，例如需要超越统计平衡的新公平性衡量方法。
 
-    Most session-based recommender systems (SBRSs) focus on extracting information from the observed items in the current session of a user to predict a next item, ignoring the causes outside the session (called outer-session causes, OSCs) that influence the user's selection of items. However, these causes widely exist in the real world, and few studies have investigated their role in SBRSs. In this work, we analyze the causalities and correlations of the OSCs in SBRSs from the perspective of causal inference. We find that the OSCs are essentially the confounders in SBRSs, which leads to spurious correlations in the data used to train SBRS models. To address this problem, we propose a novel SBRS framework named COCO-SBRS (COunterfactual COllaborative Session-Based Recommender Systems) to learn the causality between OSCs and user-item interactions in SBRSs. COCO-SBRS first adopts a self-supervised approach to pre-train a recommendation model by designing pseudo-labels of causes for each use
+    Recommender systems can strongly influence which information we see online, e.g., on social media, and thus impact our beliefs, decisions, and actions. At the same time, these systems can create substantial business value for different stakeholders. Given the growing potential impact of such AI-based systems on individuals, organizations, and society, questions of fairness have gained increased attention in recent years. However, research on fairness in recommender systems is still a developing area. In this survey, we first review the fundamental concepts and notions of fairness that were put forward in the area in the recent past. Afterward, through a review of more than 160 scholarly publications, we present an overview of how research in this field is currently operationalized, e.g., in terms of general research methodology, fairness measures, and algorithmic approaches. Overall, our analysis of recent works points to certain research gaps. In particular, we find that in many resea
     
-[^12]: ALCAP: 基于对齐的音乐字幕生成器
+[^19]: 强化型异构信息网络下MOOC概念推荐研究
 
-    ALCAP: Alignment-Augmented Music Captioner. (arXiv:2212.10901v2 [cs.SD] UPDATED)
+    Reinforced MOOCs Concept Recommendation in Heterogeneous Information Networks. (arXiv:2203.11011v3 [cs.IR] UPDATED)
 
-    [http://arxiv.org/abs/2212.10901](http://arxiv.org/abs/2212.10901)
+    [http://arxiv.org/abs/2203.11011](http://arxiv.org/abs/2203.11011)
 
-    本文提出了一种基于对齐的音乐字幕生成器，通过对比学习显式学习音频和歌词的对应关系，并生成高质量的字幕，取得了两个音乐字幕数据集上的最新领先水平。
-
-    
-
-    随着音乐流媒体平台用于音乐搜索和推荐的日益普及，需要新方法来解释音乐，同时考虑歌词和音频。然而，许多先前的研究关注于精细调整将音乐映射到字幕记号的编码器-解码器架构的各个组件，忽略了音频和歌词之间对应的潜在益处。本文提出了一种通过对比学习来显式学习多模态对齐的方法。通过学习音频-歌词的对应关系，使模型指导学习更好的跨模态一致性，从而生成高质量的字幕。我们提供了理论和经验结果，证明了所提出方法的优势，并在两个音乐字幕数据集上达到了新的状态-最先进水平。
-
-    Growing popularity of streaming media platforms for music search and recommendations has led to a need for novel methods for interpreting music that take into account both lyrics and audio. However, many previous works focus on refining individual components of encoder-decoder architecture that maps music to caption tokens, ignoring the potential benefits of correspondence between audio and lyrics. In this paper, we propose to explicitly learn the multimodal alignment through contrastive learning. By learning audio-lyrics correspondence, the model is guided to learn better cross-modal consistency, thus generating high-quality captions. We provide both theoretical and empirical results demonstrating the advantage of the proposed method, and achieve new state-of-the-art on two music captioning datasets.
-    
-[^13]: 使用语言模型提示进行推理：一项调查
-
-    Reasoning with Language Model Prompting: A Survey. (arXiv:2212.09597v2 [cs.CL] UPDATED)
-
-    [http://arxiv.org/abs/2212.09597](http://arxiv.org/abs/2212.09597)
-
-    本文提供了使用语言模型提示进行推理的前沿研究综合调查。讨论了新兴推理能力出现的潜在原因，并提供系统资源帮助初学者。
+    本文提出了一种强化学习框架下基于异构信息网络的概念推荐方法，可以更好地向不同专业水平的用户精细推荐知识。
 
     
 
-    推理作为复杂问题解决的重要能力，可以为医疗诊断、谈判等各种实际应用提供后端支持。本文对使用语言模型提示进行推理的前沿研究进行了综合调查。我们介绍了研究成果的比较和总结，并提供了系统资源以帮助初学者。我们还讨论了新兴推理能力出现的潜在原因，并突出了未来的研究方向。资源可在 https://github.com/zjunlp/Prompt4ReasoningPapers 上获取（定期更新）。
+    大规模在线开放课程（MOOCs）通过互联网提供开放访问和广泛的互动参与，正在迅速成为在线和远程学习的首选方式。许多MOOC平台为用户提供课程推荐服务，以提高用户的学习体验。尽管这项服务很有用，但如果直接向用户推荐课程可能会忽视他们不同的专业水平，因此本文考虑了概念推荐这个问题，可以精细地向用户推荐知识。我们提出了一种新颖的方法——HinCRec-RL来解决MOOC中的概念推荐问题，该方法基于异构信息网络和强化学习。具体而言，我们提出将概念推荐问题塑造在强化学习框架内，以表征用户和知识概念之间的动态交互。
 
-    Reasoning, as an essential ability for complex problem-solving, can provide back-end support for various real-world applications, such as medical diagnosis, negotiation, etc. This paper provides a comprehensive survey of cutting-edge research on reasoning with language model prompting. We introduce research works with comparisons and summaries and provide systematic resources to help beginners. We also discuss the potential reasons for emerging such reasoning abilities and highlight future research directions. Resources are available at https://github.com/zjunlp/Prompt4ReasoningPapers (updated periodically).
-    
-[^14]: 语言建模在推荐系统中的关键作用：丰富任务特定和任务无关的表示学习
-
-    Pivotal Role of Language Modeling in Recommender Systems: Enriching Task-specific and Task-agnostic Representation Learning. (arXiv:2212.03760v3 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2212.03760](http://arxiv.org/abs/2212.03760)
-
-    本文研究发现，用户历史语言建模可以在不同推荐任务中取得优异结果，并且利用任务无关的用户历史还可以提供显著的性能优势。该方法具有广泛的现实世界迁移学习能力。
-
-    
-
-    最近的研究提出了利用来自各种应用程序的用户行为数据的统一用户建模框架。其中许多受益于将用户行为序列作为纯文本使用，代表着任何领域或系统中的丰富信息而不失通用性。因此，一个问题产生了：用户历史语言建模能否帮助改善推荐系统？虽然语言建模的多功能性已在许多领域广泛研究，但其在推荐系统中的应用仍未深入探讨。我们展示了直接应用于任务特定用户历史的语言建模在不同的推荐任务上可以取得优异的结果。此外，利用任务无关的用户历史还可以提供显著的性能优势。我们进一步证明了我们的方法可以为广泛的现实世界推荐系统提供有前途的迁移学习能力，甚至在未知域和服务上也可以实现。
-
-    Recent studies have proposed unified user modeling frameworks that leverage user behavior data from various applications. Many of them benefit from utilizing users' behavior sequences as plain texts, representing rich information in any domain or system without losing generality. Hence, a question arises: Can language modeling for user history corpus help improve recommender systems? While its versatile usability has been widely investigated in many domains, its applications to recommender systems still remain underexplored. We show that language modeling applied directly to task-specific user histories achieves excellent results on diverse recommendation tasks. Also, leveraging additional task-agnostic user histories delivers significant performance benefits. We further demonstrate that our approach can provide promising transfer learning capabilities for a broad spectrum of real-world recommender systems, even on unseen domains and services.
-    
-[^15]: CPS-MEBR: 基于点击反馈的多嵌入式检索的网页摘要
-
-    CPS-MEBR: Click Feedback-Aware Web Page Summarization for Multi-Embedding-Based Retrieval. (arXiv:2210.09787v3 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2210.09787](http://arxiv.org/abs/2210.09787)
-
-    CPS-MEBR框架利用用户的点击数据训练一个摘要模型，提取那些被用户频繁点击的句子，并为网页生成多个嵌入以匹配不同的潜在查询。
-
-    
-
-    嵌入式检索是将嵌入用于表示查询和文档，然后将检索问题转换为嵌入空间中的最近邻搜索问题的技术。本文提出了一种基于点击反馈的适用于多嵌入式检索（CPS-MEBR）的网页摘要框架，以解决在真实网络搜索场景中难以将长且结构复杂的网页的所有信息表示为单个嵌入的问题。
-
-    Embedding-based retrieval (EBR) is a technique to use embeddings to represent query and document, and then convert the retrieval problem into a nearest neighbor search problem in the embedding space. Some previous works have mainly focused on representing the web page with a single embedding, but in real web search scenarios, it is difficult to represent all the information of a long and complex structured web page as a single embedding. To address this issue, we design a click feedback-aware web page summarization for multi-embedding-based retrieval (CPS-MEBR) framework which is able to generate multiple embeddings for web pages to match different potential queries. Specifically, we use the click data of users in search logs to train a summary model to extract those sentences in web pages that are frequently clicked by users, which are more likely to answer those potential queries. Meanwhile, we introduce sentence-level semantic interaction to design a multi-embedding-based retrieval 
-    
-[^16]: Sapling Similarity: 一种高性能可解释的基于内存的推荐工具
-
-    Sapling Similarity: a performing and interpretable memory-based tool for recommendation. (arXiv:2210.07039v2 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2210.07039](http://arxiv.org/abs/2210.07039)
-
-    Sapling Similarity是一种计算相似性的方法，可以允许负值，基于用户的相互连接信息来估计概率。这种方法比传统基于共同邻居的方法更加可解释和高效。
-
-    
-
-    许多二分网络描述了一个边缘表示用户和物品之间的关系的系统。衡量用户或物品之间的相似度是基于内存的协同过滤的基础，这是一种广泛用于构建推荐系统的方法，目的是向用户推荐物品。当网络的边缘是非加权的时，流行的基于共同邻居的方法只允许正相似度值，忽略了两个用户(或两个物品)非常不相似的可能性和影响。此外，它们在模型为基础的(机器学习)方法方面表现不佳，尽管提供更高的可解释性。受决策树的运行方式的启发，我们提出了一种计算相似性的方法，也允许负值，称为 Sapling Similarity。关键思想是看看连接用户和项目的信息如何影响我们对另一个用户连接到相同项目的概率的先前估计：如果……
-
-    Many bipartite networks describe systems where an edge represents a relation between a user and an item. Measuring the similarity between either users or items is the basis of memory-based collaborative filtering, a widely used method to build a recommender system with the purpose of proposing items to users. When the edges of the network are unweighted, the popular common neighbors-based approaches, allowing only positive similarity values, neglect the possibility and the effect of two users (or two items) being very dissimilar. Moreover, they underperform with respect to model-based (machine learning) approaches, although providing higher interpretability. Inspired by the functioning of Decision Trees, we propose a method to compute similarity that allows also negative values, the Sapling Similarity. The key idea is to look at how the information that a user is connected to an item influences our prior estimation of the probability that another user is connected to the same item: if 
-    
-[^17]: 深度图学习的可靠性近期进展: 内在噪声、分布偏移和对抗攻击
-
-    Recent Advances in Reliable Deep Graph Learning: Inherent Noise, Distribution Shift, and Adversarial Attack. (arXiv:2202.07114v2 [cs.LG] UPDATED)
-
-    [http://arxiv.org/abs/2202.07114](http://arxiv.org/abs/2202.07114)
-
-    本文综合评述了深度图学习（DGL）的最新可靠性进展，其中涵盖了内在噪声和分布偏移等方面的相关内容，同时指出未来研究需要关注的问题。
-
-    
-
-    深度图学习 (DGL) 在金融、电子商务、药物和先进材料发现等商业和科学领域取得了显著进展。尽管取得了进展，但将 DGL 应用于实际应用面临一系列可靠性威胁，包括内在噪声、分布偏移和对抗攻击。本文综述了近期针对上述威胁改进 DGL 算法可靠性的全面进展。与之前主要集中在对抗攻击和防御的相关综述不同，我们的综述涵盖了更多关于 DGL 可靠性相关的方面，即内在噪声和分布偏移。此外，我们讨论了以上方面之间的关系，并强调了未来研究中需要探索的一些重要问题。
-
-    Deep graph learning (DGL) has achieved remarkable progress in both business and scientific areas ranging from finance and e-commerce to drug and advanced material discovery. Despite the progress, applying DGL to real-world applications faces a series of reliability threats including inherent noise, distribution shift, and adversarial attacks. This survey aims to provide a comprehensive review of recent advances for improving the reliability of DGL algorithms against the above threats. In contrast to prior related surveys which mainly focus on adversarial attacks and defense, our survey covers more reliability-related aspects of DGL, i.e., inherent noise and distribution shift. Additionally, we discuss the relationships among above aspects and highlight some important issues to be explored in future research.
-    
-[^18]: 面向儿童图书推荐的个性化推荐系统及其与实时交互机器人集成
-
-    Personalized Recommender System for Children's Book Recommendation with A Realtime Interactive Robot. (arXiv:1710.00310v3 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/1710.00310](http://arxiv.org/abs/1710.00310)
-
-    本文研究了儿童和机器人交互环境下的个性化图书推荐系统，在搜索算法、用户兴趣预测和同义词关联方面进行了创新，提高了性能，适用于嵌入式消费设备。
-
-    
-
-    本文研究了在儿童和机器人交互环境中的个性化图书推荐系统。首先，我们提出了一种新的文本搜索算法，使用反向过滤机制来提高效率。其次，我们提出了一种基于贝叶斯网络和新型反馈机制的用户兴趣预测方法。根据儿童模糊的语言输入，该方法给出了预测的兴趣。第三，基于词向量化，提出了领域特定的同义词关联，以提高理解用户意图。实验结果表明，该推荐系统性能得到了改进，并且可以在有限的计算资源下运行在嵌入式消费设备上。
-
-    In this paper we study the personalized book recommender system in a child-robot interactive environment. Firstly, we propose a novel text search algorithm using an inverse filtering mechanism that improves the efficiency. Secondly, we propose a user interest prediction method based on the Bayesian network and a novel feedback mechanism. According to children's fuzzy language input, the proposed method gives the predicted interests. Thirdly, the domain specific synonym association is proposed based on word vectorization, in order to improve the understanding of user intention. Experimental results show that the proposed recommender system has an improved performance and it can operate on embedded consumer devices with limited computational resources.
+    Massive open online courses (MOOCs), which offer open access and widespread interactive participation through the internet, are quickly becoming the preferred method for online and remote learning. Several MOOC platforms offer the service of course recommendation to users, to improve the learning experience of users. Despite the usefulness of this service, we consider that recommending courses to users directly may neglect their varying degrees of expertise. To mitigate this gap, we examine an interesting problem of concept recommendation in this paper, which can be viewed as recommending knowledge to users in a fine-grained way. We put forward a novel approach, termed HinCRec-RL, for Concept Recommendation in MOOCs, which is based on Heterogeneous Information Networks and Reinforcement Learning. In particular, we propose to shape the problem of concept recommendation within a reinforcement learning framework to characterize the dynamic interaction between users and knowledge concepts 
     
 

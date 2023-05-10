@@ -1,0 +1,12 @@
+{
+    "title": "Larger Offspring Populations Help the $(1 + (\\lambda, \\lambda))$ Genetic Algorithm to Overcome the Noise. (arXiv:2305.04553v1 [cs.NE] CROSS LISTED)",
+    "abstract": "Evolutionary algorithms are known to be robust to noise in the evaluation of the fitness. In particular, larger offspring population sizes often lead to strong robustness. We analyze to what extent the $(1+(\\lambda,\\lambda))$ genetic algorithm is robust to noise. This algorithm also works with larger offspring population sizes, but an intermediate selection step and a non-standard use of crossover as repair mechanism could render this algorithm less robust than, e.g., the simple $(1+\\lambda)$ evolutionary algorithm. Our experimental analysis on several classic benchmark problems shows that this difficulty does not arise. Surprisingly, in many situations this algorithm is even more robust to noise than the $(1+\\lambda)$~EA.",
+    "link": "http://arxiv.org/abs/2305.04553",
+    "context": "Title: Larger Offspring Populations Help the $(1 + (\\lambda, \\lambda))$ Genetic Algorithm to Overcome the Noise. (arXiv:2305.04553v1 [cs.NE] CROSS LISTED)\nAbstract: Evolutionary algorithms are known to be robust to noise in the evaluation of the fitness. In particular, larger offspring population sizes often lead to strong robustness. We analyze to what extent the $(1+(\\lambda,\\lambda))$ genetic algorithm is robust to noise. This algorithm also works with larger offspring population sizes, but an intermediate selection step and a non-standard use of crossover as repair mechanism could render this algorithm less robust than, e.g., the simple $(1+\\lambda)$ evolutionary algorithm. Our experimental analysis on several classic benchmark problems shows that this difficulty does not arise. Surprisingly, in many situations this algorithm is even more robust to noise than the $(1+\\lambda)$~EA.",
+    "path": "papers/23/05/2305.04553.json",
+    "total_tokens": 745,
+    "translated_title": "更多的后代数量有助于$(1 + (\\lambda, \\lambda))$遗传算法克服噪声",
+    "translated_abstract": "进化算法已知对于适应度的评估噪声具有鲁棒性，尤其是更多的后代数量通常会导致更强的鲁棒性。我们分析了$(1 + (\\lambda, \\lambda))$遗传算法对噪声的鲁棒性程度。该算法也使用了更多的后代数量，但中间的选择步骤和对交叉方式的非标准使用作为修复机制可能使该算法不如简单的$(1+\\lambda)$进化算法鲁棒。我们对几个经典基准问题的实验分析表明，这个难点并不会出现。令人惊讶的是，在许多情况下，该算法甚至比$(1+\\lambda)$ EA更鲁棒。",
+    "tldr": "更多的后代数量有助于$(1 + (\\lambda, \\lambda))$遗传算法在噪声环境下表现更鲁棒。",
+    "en_tdlr": "Larger offspring population sizes help the $(1 + (\\lambda, \\lambda))$ genetic algorithm to perform more robustly in noisy environments."
+}

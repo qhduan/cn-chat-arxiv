@@ -1,0 +1,12 @@
+{
+    "title": "Binary response model with many weak instruments. (arXiv:2201.04811v3 [econ.EM] UPDATED)",
+    "abstract": "This paper considers an endogenous binary response model with many weak instruments. We in the current paper employ a control function approach and a regularization scheme to obtain better estimation results for the endogenous binary response model in the presence of many weak instruments. Two consistent and asymptotically normally distributed estimators are provided, each of which is called a regularized conditional maximum likelihood estimator (RCMLE) and a regularized nonlinear least square estimator (RNLSE) respectively. Monte Carlo simulations show that the proposed estimators outperform the existing estimators when many weak instruments are present. We apply our estimation method to study the effect of family income on college completion.",
+    "link": "http://arxiv.org/abs/2201.04811",
+    "context": "Title: Binary response model with many weak instruments. (arXiv:2201.04811v3 [econ.EM] UPDATED)\nAbstract: This paper considers an endogenous binary response model with many weak instruments. We in the current paper employ a control function approach and a regularization scheme to obtain better estimation results for the endogenous binary response model in the presence of many weak instruments. Two consistent and asymptotically normally distributed estimators are provided, each of which is called a regularized conditional maximum likelihood estimator (RCMLE) and a regularized nonlinear least square estimator (RNLSE) respectively. Monte Carlo simulations show that the proposed estimators outperform the existing estimators when many weak instruments are present. We apply our estimation method to study the effect of family income on college completion.",
+    "path": "papers/22/01/2201.04811.json",
+    "total_tokens": 721,
+    "translated_title": "多个弱工具的二进制响应模型",
+    "translated_abstract": "本文考虑了具有许多弱工具的内生二进制响应模型。我们采用控制函数方法和正则化方案，在存在许多弱工具的情况下获得更好的内生二进制响应模型估计结果。提供了两个一致且渐近正态分布的估计器，分别称为正则化条件最大似然估计器（RCMLE）和正则化非线性最小二乘估计器（RNLSE）。Monte Carlo模拟表明，所提出的估计量在存在许多弱工具时优于现有的估计量。我们应用估计方法研究家庭收入对大学完成的影响。",
+    "tldr": "本文提供了一种使用控制函数方法和正则化方案来获得更好内生二进制响应模型估计结果的方法，并应用于研究家庭收入对大学完成的影响。",
+    "en_tdlr": "This paper proposes a method using control function approach and regularization scheme to obtain better estimation results for endogenous binary response model with many weak instruments, which is applied to study the effect of family income on college completion."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Provably Convergent Plug-and-Play Quasi-Newton Methods. (arXiv:2303.07271v2 [math.OC] UPDATED)",
+    "abstract": "Plug-and-Play (PnP) methods are a class of efficient iterative methods that aim to combine data fidelity terms and deep denoisers using classical optimization algorithms, such as ISTA or ADMM. Existing provable PnP methods impose heavy restrictions on the denoiser or fidelity function, such as nonexpansiveness or strict convexity. In this work, we propose a provable PnP method that imposes relatively light conditions based on proximal denoisers, and introduce a quasi-Newton step to greatly accelerate convergence. By specially parameterizing the deep denoiser as a gradient step, we further characterize the fixed-points of the quasi-Newton PnP algorithm as critical points of a possibly non-convex function.",
+    "link": "http://arxiv.org/abs/2303.07271",
+    "context": "Title: Provably Convergent Plug-and-Play Quasi-Newton Methods. (arXiv:2303.07271v2 [math.OC] UPDATED)\nAbstract: Plug-and-Play (PnP) methods are a class of efficient iterative methods that aim to combine data fidelity terms and deep denoisers using classical optimization algorithms, such as ISTA or ADMM. Existing provable PnP methods impose heavy restrictions on the denoiser or fidelity function, such as nonexpansiveness or strict convexity. In this work, we propose a provable PnP method that imposes relatively light conditions based on proximal denoisers, and introduce a quasi-Newton step to greatly accelerate convergence. By specially parameterizing the deep denoiser as a gradient step, we further characterize the fixed-points of the quasi-Newton PnP algorithm as critical points of a possibly non-convex function.",
+    "path": "papers/23/03/2303.07271.json",
+    "total_tokens": 775,
+    "translated_title": "可证收敛的即插即用拟牛顿方法",
+    "translated_abstract": "即插即用（PnP）方法是一类高效的迭代算法，旨在利用经典优化算法（如ISTA或ADMM），将数据保真度项和深度去噪器相结合。现有的可证明的PnP方法对去噪器或保真度函数施加了严格的限制，如非扩张性或严格凸性。本文提出了一种可证明的PnP方法，该方法基于近端去噪器施加相对较轻的条件，并引入了拟牛顿步骤以大大加速收敛。通过将深度去噪器特别参数化为梯度步骤，我们进一步将拟牛顿PnP算法的固定点表征为可能非凸函数的临界点。",
+    "tldr": "本文提出了一种可证明收敛的PnP方法，使用拟牛顿步骤以加速收敛，相对于现有的PnP方法对去噪器或保真度函数施加了较轻的限制。"
+}

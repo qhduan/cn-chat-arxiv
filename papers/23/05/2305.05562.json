@@ -1,0 +1,12 @@
+{
+    "title": "SkelEx and BoundEx: Natural Visualization of ReLU Neural Networks. (arXiv:2305.05562v1 [cs.LG])",
+    "abstract": "Despite their limited interpretability, weights and biases are still the most popular encoding of the functions learned by ReLU Neural Networks (ReLU NNs). That is why we introduce SkelEx, an algorithm to extract a skeleton of the membership functions learned by ReLU NNs, making those functions easier to interpret and analyze. To the best of our knowledge, this is the first work that considers linear regions from the perspective of critical points. As a natural follow-up, we also introduce BoundEx, which is the first analytical method known to us to extract the decision boundary from the realization of a ReLU NN. Both of those methods introduce very natural visualization tool for ReLU NNs trained on low-dimensional data.",
+    "link": "http://arxiv.org/abs/2305.05562",
+    "context": "Title: SkelEx and BoundEx: Natural Visualization of ReLU Neural Networks. (arXiv:2305.05562v1 [cs.LG])\nAbstract: Despite their limited interpretability, weights and biases are still the most popular encoding of the functions learned by ReLU Neural Networks (ReLU NNs). That is why we introduce SkelEx, an algorithm to extract a skeleton of the membership functions learned by ReLU NNs, making those functions easier to interpret and analyze. To the best of our knowledge, this is the first work that considers linear regions from the perspective of critical points. As a natural follow-up, we also introduce BoundEx, which is the first analytical method known to us to extract the decision boundary from the realization of a ReLU NN. Both of those methods introduce very natural visualization tool for ReLU NNs trained on low-dimensional data.",
+    "path": "papers/23/05/2305.05562.json",
+    "total_tokens": 744,
+    "translated_title": "SkelEx和BoundEx：ReLU神经网络的自然可视化",
+    "translated_abstract": "尽管权重和偏差的可解释性有限，但仍然是编码ReLU神经网络学习函数最流行的方式。这就是为什么我们引入SkelEx算法，以提取ReLU NN学习的成员函数的骨架，使这些函数更易于解释和分析。据我们所知，这是第一个从关键点的角度考虑线性区域的工作。作为自然的后续工作，我们还介绍了BoundEx，这是我们所知道的第一个从ReLU NN的实现中提取决策边界的分析方法。这两种方法都为在低维数据上训练的ReLU NN引入了非常自然的可视化工具。",
+    "tldr": "SkelEx和BoundEx是第一批自然可视化的方法，可以提取ReLU神经网络的关键点和决策边界。这两种方法为在低维数据上训练的ReLU NN引入了非常自然的可视化工具。",
+    "en_tdlr": "SkelEx and BoundEx are the first set of natural visualization methods to extract critical points and decision boundaries from ReLU neural networks. Both methods introduce very natural visualization tool for ReLU NNs trained on low-dimensional data."
+}

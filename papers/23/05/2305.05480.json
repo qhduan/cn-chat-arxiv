@@ -1,0 +1,12 @@
+{
+    "title": "Investigating the effect of sub-word segmentation on the performance of transformer language models. (arXiv:2305.05480v1 [cs.CL])",
+    "abstract": "We would like to explore how morphemes can affect the performance of a language model. We trained GPT-2 and Bert model with StateMorph for both Finnish and Russian, which is a morpheme segmenting algorithm. As a comparison, we also trained a model with BPE and Morfessor. Our preliminary result shows that StateMorph can help the model to converge more efficiently and achieve a better validation score.",
+    "link": "http://arxiv.org/abs/2305.05480",
+    "context": "Title: Investigating the effect of sub-word segmentation on the performance of transformer language models. (arXiv:2305.05480v1 [cs.CL])\nAbstract: We would like to explore how morphemes can affect the performance of a language model. We trained GPT-2 and Bert model with StateMorph for both Finnish and Russian, which is a morpheme segmenting algorithm. As a comparison, we also trained a model with BPE and Morfessor. Our preliminary result shows that StateMorph can help the model to converge more efficiently and achieve a better validation score.",
+    "path": "papers/23/05/2305.05480.json",
+    "total_tokens": 604,
+    "translated_title": "探究子词分割对transformer语言模型性能的影响",
+    "translated_abstract": "我们想研究词段如何影响语言模型的性能。我们使用了一种单语词段算法StateMorph，在芬兰语和俄语中训练了GPT-2和BERT模型。作为比较，我们还训练了一个使用BPE和Morfessor分割算法的模型。我们的初步结果表明，StateMorph可以帮助模型更有效地收敛并获得更好的验证分数。",
+    "tldr": "本文研究使用单语词段算法StateMorph训练语言模型时，可以使模型更高效地收敛并获得更好的验证分数。",
+    "en_tdlr": "This paper investigates the effect of using a monolingual morpheme segmentation algorithm, StateMorph, on the performance of language models. The authors found that StateMorph can help the model to converge more efficiently and achieve better validation scores."
+}
