@@ -39,40 +39,43 @@
 | [^35] | [Interpretable Multimodal Misinformation Detection with Logic Reasoning.](http://arxiv.org/abs/2305.05964) | 本文提出了一种新的基于逻辑的多模态虚假信息检测神经模型，通过集成可解释性逻辑子句表达目标任务的推理过程，并使用神经表征参数化符号逻辑元素，从而便于自动生成和评估有意义的逻辑子句。此外，引入了五个元预测器来捕获虚假信息的基本模式。实验结果表明，该模型不仅性能显著优于当前方法，而且提供了透明且可解释的逻辑推理过程。 |
 | [^36] | [Multi-Path Transformer is Better: A Case Study on Neural Machine Translation.](http://arxiv.org/abs/2305.05948) | 本文研究了多路径结构对Transformer模型的影响，通过在每个子层中添加归一化、产生更多特征的廉价操作和可学习的加权机制来融合从不同路径提取的特征，实验发现相同参数下浅层多路径模型可以实现与深层模型相似甚至更好的性能。 |
 | [^37] | [Multilingual LLMs are Better Cross-lingual In-context Learners with Alignment.](http://arxiv.org/abs/2305.05940) | 针对跨语言ICL中无法对准输入输出空间的问题，我们提出了一种新的提示构建策略X-InSTA，可以同时对源语言和目标语言的语境进行编码和对齐，从而提高跨语言ICL的效率。 |
-| [^38] | [WikiSQE: A Large-Scale Dataset for Sentence Quality Estimation in Wikipedia.](http://arxiv.org/abs/2305.05928) | WikiSQE是第一个用于维基百科中句子质量估计的大规模数据集，其中包含约3.4M个句子和153个质量标签。在这个数据集上进行的实验表明，具有引文、语法/语义或命题问题的句子更难以检测。 |
-| [^39] | [Decker: Double Check with Heterogeneous Knowledge for Commonsense Fact Verification.](http://arxiv.org/abs/2305.05921) | Decker是一种能够利用结构化和非结构化知识之间的潜在关系来桥接异构知识的常识事实验证模型，具有良好的验证效果和获取珍贵信息的能力。 |
-| [^40] | [Address Matching Based On Hierarchical Information.](http://arxiv.org/abs/2305.05874) | 本文提出了一种基于层级信息的地址匹配方法，通过利用深度学习方法中的层级信息，提高了现有方法处理不规则地址的能力，并可以更加关注地址的特殊部分，实验结果表明性能提高了3.2个百分点。 |
-| [^41] | [Are ChatGPT and GPT-4 General-Purpose Solvers for Financial Text Analytics? An Examination on Several Typical Tasks.](http://arxiv.org/abs/2305.05862) | 本研究探讨了ChatGPT和GPT-4在金融文本分析任务中的潜力，结果显示它们在数值推理上表现出色但在需要领域特定知识的任务上表现不佳。 |
-| [^42] | [V\=arta: A Large-Scale Headline-Generation Dataset for Indic Languages.](http://arxiv.org/abs/2305.05858) | 本文介绍了一个用于印度语言头条生成的大规模多语言数据集 V\=arta，包含来自14种不同印度语言（和英语）的4180万条新闻文章，可用于预训练强语言模型，并可用于回答与印度语言处理和多语言研究相关的重要问题。 |
-| [^43] | [Context-dependent communication under environmental constraints.](http://arxiv.org/abs/2305.05821) | 本文研究了在压缩词汇量的情况下，如何利用环境压力促进情境依赖性沟通的出现，并研究了在接收者无法处理歧义的情况下，发送者如何利用环境的制约因素实现沟通。 |
-| [^44] | [Ranking & Reweighting Improves Group Distributional Robustness.](http://arxiv.org/abs/2305.05759) | 本文提出了一种利用折扣累积增益（DCG）排序并加权处理训练数据以提高模型对低代表性组的鲁棒性的方法，实验证明其优于先前方法。 |
-| [^45] | [When and What to Ask Through World States and Text Instructions: IGLU NLP Challenge Solution.](http://arxiv.org/abs/2305.05754) | 论文解决了在协作建筑任务中如何解决模棱两可的情况，从而提出了何时寻求澄清以及应该询问什么澄清问题这两个关键问题的解答方法。 |
-| [^46] | [Multilevel Sentence Embeddings for Personality Prediction.](http://arxiv.org/abs/2305.05748) | 本文提出了一种可将文本表示为多维空间的方法，可映射具有复杂的多层结构的句子，并应用于人格预测。 |
-| [^47] | [CodeIE: Large Code Generation Models are Better Few-Shot Information Extractors.](http://arxiv.org/abs/2305.05711) | CodeIE提出了使用代码生成模型（Code-LLMs）代替自然语言生成模型（NL-LLMs）对命名实体识别和关系抽取这类信息提取任务进行少样本学习，取得优于几个强基准高达4.5%的绝对精度改进。 |
-| [^48] | [$2 * n$ is better than $n^2$: Decomposing Event Coreference Resolution into Two Tractable Problems.](http://arxiv.org/abs/2305.05672) | 为了解决事件指称共指消解中的计算问题，我们将其分成两个部分：一种启发式过滤方法和基于均衡数据集的训练方法。该方法在两个数据集上获得了良好的结果。 |
-| [^49] | [Representation Learning for Person or Entity-centric Knowledge Graphs: an application in Healthcare.](http://arxiv.org/abs/2305.05640) | 本研究提出了一种在医疗保健领域构建面向实体的知识图谱的端到端表示学习方法 HEER，通过将领域特定的约束和特征纳入到图嵌入算法中，有效地改善了下游预测任务。 |
-| [^50] | [Large Language Models Need Holistically Thought in Medical Conversational QA.](http://arxiv.org/abs/2305.05410) | 本研究提出了一种Holistically Thought（HoT）方法，用于引导大型语言模型进行综合性思考，以在医疗对话问答中生成高质量的医学响应。 |
-| [^51] | [Distilling Script Knowledge from Large Language Models for Constrained Language Planning.](http://arxiv.org/abs/2305.05252) | 本文首次定义了受限语言规划任务，提出了一种方法来提高大型语言模型在这个任务中的表现，并提取了一个新颖的受限语言规划数据集。实验证明该方法显著提高了其在约束忠实度方面的能力，并对赋予较小的语言模型受限语言规划能力非常有效。 |
-| [^52] | [Multi-Teacher Knowledge Distillation For Text Image Machine Translation.](http://arxiv.org/abs/2305.05226) | 本文提出了一种多教师知识蒸馏方法，可以将知识有效地蒸馏到管道模型中并传递给端到端TIMT模型，从而提高性能。 |
-| [^53] | [E2TIMT: Efficient and Effective Modal Adapter for Text Image Machine Translation.](http://arxiv.org/abs/2305.05166) | 本文提出了一种高效有效的文图机器翻译模态适配器，利用现有OCR和MT数据库和新型模态适配器将OCR编码器和MT解码器连接，使得端到端TIMT模型在翻译质量和效率方面优于现有的两阶段级联模型和其他最先进的一级端到端模型。 |
-| [^54] | [Web Content Filtering through knowledge distillation of Large Language Models.](http://arxiv.org/abs/2305.05027) | 本文提出了一种基于大语言模型知识蒸馏的 URL 分类方法，可用于网络内容过滤，其学生模型在参数数量减少 175 倍的情况下，精度提升了 9%，超过了当前最先进方法。 |
-| [^55] | [CAT: A Contextualized Conceptualization and Instantiation Framework for Commonsense Reasoning.](http://arxiv.org/abs/2305.04808) | CAT提出了一种情景化常识推理的概念化和实例化框架，通过该框架，可以在大规模场景下概念化常识知识库，并在两个基准测试数据集上达到最先进的性能。 |
-| [^56] | [X-LLM: Bootstrapping Advanced Large Language Models by Treating Multi-Modalities as Foreign Languages.](http://arxiv.org/abs/2305.04160) | 本论文提出了一种名为X-LLM的方法，将多模态信息转换为外语并输入到大型语言模型中，从而赋予LLM多模态能力，对于LLM加入多模态信息的能力进行了探究和拓展。 |
-| [^57] | [Curating corpora with classifiers: A case study of clean energy sentiment online.](http://arxiv.org/abs/2305.03092) | 本文介绍了利用分类器来快速选择最佳的相关文档语料库进行分析的方法，探索了过滤掉不相关的推文的方法，以进行在线清洁能源情感分析。 |
-| [^58] | [Causality-aware Concept Extraction based on Knowledge-guided Prompting.](http://arxiv.org/abs/2305.01876) | 该论文提出了一种基于因果感知的知识引导提示方法，将其作为干预器装备到基于预训练语言模型的句子提取器中，以缓解概念偏差。在代表性的多语言KG数据集上进行广泛实验，获得了最先进的结果。 |
-| [^59] | [Turning Flowchart into Dialog: Plan-based Data Augmentation for Low-Resource Flowchart-grounded Troubleshooting Dialogs.](http://arxiv.org/abs/2305.01323) | 本文提出了一个基于计划的数据增强方法，能够将简洁的流程图转化成对话，以生成足够的数据来训练以流程图为基础的故障排除对话系统，实验结果表明该方法有效地提高了系统性能。 |
-| [^60] | [Nominal Topology for Data Languages.](http://arxiv.org/abs/2304.13337) | 该论文提出了一种新的拓扑视角，用于描述可以被轨道有限的名义单子群识别的数据语言，并探讨了 pro-轨道有限方程的表现能力。 |
-| [^61] | [Better Language Models of Code through Self-Improvement.](http://arxiv.org/abs/2304.01228) | 本文提出了一个简单的数据增强框架来改善预训练语言模型为代码生成和代码摘要等任务微调的瓶颈问题，提高了模型性能。 |
-| [^62] | [Rediscovery of CNN's Versatility for Text-based Encoding of Raw Electronic Health Records.](http://arxiv.org/abs/2303.08290) | 本文发现，CNN在健康记录文本编码方面的多功能性和隐含层次结构可以提高其性能，提出了一种基于CNN的编码器来处理不同类型的EHR特征，并在临床任务中展示了其有效性。 |
-| [^63] | [Distinguishability Calibration to In-Context Learning.](http://arxiv.org/abs/2302.06198) | 本文提出了一种旋转和缩放的特征变换校准方法，可用于基于提示的学习进行文本分类，从而解决了在转换器中进行上下文学习时遇到的信息扩散问题。 |
-| [^64] | [What's happening in your neighborhood? A Weakly Supervised Approach to Detect Local News.](http://arxiv.org/abs/2301.08146) | 该论文介绍了一种自动化的本地新闻检测和基于内容的本地新闻推荐方法，通过弱监督框架和自动化数据处理，与传统方法相比具有更高的准确性和覆盖率。 |
-| [^65] | [QuaLA-MiniLM: a Quantized Length Adaptive MiniLM.](http://arxiv.org/abs/2210.17114) | QuaLA-MiniLM 是一种量化长度自适应的 MiniLM 模型，通过应用低比特化技术和 LAT 方法，实现了在各种 NLP 任务上的最新成果，同时保持较小的模型尺寸和高效率。 |
-| [^66] | [Extracting Cultural Commonsense Knowledge at Scale.](http://arxiv.org/abs/2210.07763) | 本篇论文提出了一种名为CANDLE的方法，用于从网络语料库中提取文化常识知识，其优于之前的工作。这些知识对于情境化人工智能和GPT-3语言模型都有好处。 |
-| [^67] | [C2KD: Cross-Lingual Cross-Modal Knowledge Distillation for Multilingual Text-Video Retrieval.](http://arxiv.org/abs/2210.03625) | 本文提出了一种跨语言跨模态知识蒸馏方法，使用不同语言的输入文本训练一个学生模型，与使用英语输入文本的教师模型的跨模态预测相匹配，以提升多语言文本-视频检索。我们引入了一个新的多语言视频数据集，Multi-YouCook2，以及在多个数据集上验证了我们方法的性能提升。 |
-| [^68] | [Modeling Paragraph-Level Vision-Language Semantic Alignment for Multi-Modal Summarization.](http://arxiv.org/abs/2208.11303) | 本文提出了ViL-Sum，用于建模段落级别的视觉-语言语义对齐和多模态摘要生成。实验结果表明，ViL-Sum在两个基准数据集上优于现有方法，表明该方法的有效性和优越性。 |
-| [^69] | [QAMPARI: An Open-domain Question Answering Benchmark for Questions with Many Answers from Multiple Paragraphs.](http://arxiv.org/abs/2205.12665) | 本论文提出了一个针对多段落多答案问题的开放域问答基准测试QAMPARI，并训练了ODQA模型。研究结果表明QAMPARI在段落检索和答案生成方面具有挑战性，强调了需要发展能够处理此类问题的ODQA模型。 |
-| [^70] | [Representation Projection Invariance Mitigates Representation Collapse.](http://arxiv.org/abs/2205.11603) | 本文提出了一种新的正则化方法 REPINA，旨在减少表示崩溃问题，结果在 13 个语言理解任务上表现出良好的效果。 |
-| [^71] | [An Efficient Transformer Decoder with Compressed Sub-layers.](http://arxiv.org/abs/2101.00542) | 该论文提出了一种使用压缩子层的高效Transformer解码器，通过减少子层并提高并行性能够达到1.42倍的速度提升，同时确保性能与基线相当。 |
+| [^38] | [Multi-hop Commonsense Knowledge Injection Framework for Zero-Shot Commonsense Question Answering.](http://arxiv.org/abs/2305.05936) | 本文提出了一个多跳公共常识知识注入框架用于零样本常识问答，使用符合语言逻辑的多跳推理范式，提高了对多跳关系的识别能力，并在两个基准数据集上表现出了更好的效果。 |
+| [^39] | [WikiSQE: A Large-Scale Dataset for Sentence Quality Estimation in Wikipedia.](http://arxiv.org/abs/2305.05928) | WikiSQE是第一个用于维基百科中句子质量估计的大规模数据集，其中包含约3.4M个句子和153个质量标签。在这个数据集上进行的实验表明，具有引文、语法/语义或命题问题的句子更难以检测。 |
+| [^40] | [Decker: Double Check with Heterogeneous Knowledge for Commonsense Fact Verification.](http://arxiv.org/abs/2305.05921) | Decker是一种能够利用结构化和非结构化知识之间的潜在关系来桥接异构知识的常识事实验证模型，具有良好的验证效果和获取珍贵信息的能力。 |
+| [^41] | [Address Matching Based On Hierarchical Information.](http://arxiv.org/abs/2305.05874) | 本文提出了一种基于层级信息的地址匹配方法，通过利用深度学习方法中的层级信息，提高了现有方法处理不规则地址的能力，并可以更加关注地址的特殊部分，实验结果表明性能提高了3.2个百分点。 |
+| [^42] | [Are ChatGPT and GPT-4 General-Purpose Solvers for Financial Text Analytics? An Examination on Several Typical Tasks.](http://arxiv.org/abs/2305.05862) | 本研究探讨了ChatGPT和GPT-4在金融文本分析任务中的潜力，结果显示它们在数值推理上表现出色但在需要领域特定知识的任务上表现不佳。 |
+| [^43] | [V\=arta: A Large-Scale Headline-Generation Dataset for Indic Languages.](http://arxiv.org/abs/2305.05858) | 本文介绍了一个用于印度语言头条生成的大规模多语言数据集 V\=arta，包含来自14种不同印度语言（和英语）的4180万条新闻文章，可用于预训练强语言模型，并可用于回答与印度语言处理和多语言研究相关的重要问题。 |
+| [^44] | [Context-dependent communication under environmental constraints.](http://arxiv.org/abs/2305.05821) | 本文研究了在压缩词汇量的情况下，如何利用环境压力促进情境依赖性沟通的出现，并研究了在接收者无法处理歧义的情况下，发送者如何利用环境的制约因素实现沟通。 |
+| [^45] | [Ranking & Reweighting Improves Group Distributional Robustness.](http://arxiv.org/abs/2305.05759) | 本文提出了一种利用折扣累积增益（DCG）排序并加权处理训练数据以提高模型对低代表性组的鲁棒性的方法，实验证明其优于先前方法。 |
+| [^46] | [When and What to Ask Through World States and Text Instructions: IGLU NLP Challenge Solution.](http://arxiv.org/abs/2305.05754) | 论文解决了在协作建筑任务中如何解决模棱两可的情况，从而提出了何时寻求澄清以及应该询问什么澄清问题这两个关键问题的解答方法。 |
+| [^47] | [Multilevel Sentence Embeddings for Personality Prediction.](http://arxiv.org/abs/2305.05748) | 本文提出了一种可将文本表示为多维空间的方法，可映射具有复杂的多层结构的句子，并应用于人格预测。 |
+| [^48] | [CodeIE: Large Code Generation Models are Better Few-Shot Information Extractors.](http://arxiv.org/abs/2305.05711) | CodeIE提出了使用代码生成模型（Code-LLMs）代替自然语言生成模型（NL-LLMs）对命名实体识别和关系抽取这类信息提取任务进行少样本学习，取得优于几个强基准高达4.5%的绝对精度改进。 |
+| [^49] | [$2 * n$ is better than $n^2$: Decomposing Event Coreference Resolution into Two Tractable Problems.](http://arxiv.org/abs/2305.05672) | 为了解决事件指称共指消解中的计算问题，我们将其分成两个部分：一种启发式过滤方法和基于均衡数据集的训练方法。该方法在两个数据集上获得了良好的结果。 |
+| [^50] | [Representation Learning for Person or Entity-centric Knowledge Graphs: an application in Healthcare.](http://arxiv.org/abs/2305.05640) | 本研究提出了一种在医疗保健领域构建面向实体的知识图谱的端到端表示学习方法 HEER，通过将领域特定的约束和特征纳入到图嵌入算法中，有效地改善了下游预测任务。 |
+| [^51] | [Large Language Models Need Holistically Thought in Medical Conversational QA.](http://arxiv.org/abs/2305.05410) | 本研究提出了一种Holistically Thought（HoT）方法，用于引导大型语言模型进行综合性思考，以在医疗对话问答中生成高质量的医学响应。 |
+| [^52] | [Distilling Script Knowledge from Large Language Models for Constrained Language Planning.](http://arxiv.org/abs/2305.05252) | 本文首次定义了受限语言规划任务，提出了一种方法来提高大型语言模型在这个任务中的表现，并提取了一个新颖的受限语言规划数据集。实验证明该方法显著提高了其在约束忠实度方面的能力，并对赋予较小的语言模型受限语言规划能力非常有效。 |
+| [^53] | [Multi-Teacher Knowledge Distillation For Text Image Machine Translation.](http://arxiv.org/abs/2305.05226) | 本文提出了一种多教师知识蒸馏方法，可以将知识有效地蒸馏到管道模型中并传递给端到端TIMT模型，从而提高性能。 |
+| [^54] | [E2TIMT: Efficient and Effective Modal Adapter for Text Image Machine Translation.](http://arxiv.org/abs/2305.05166) | 本文提出了一种高效有效的文图机器翻译模态适配器，利用现有OCR和MT数据库和新型模态适配器将OCR编码器和MT解码器连接，使得端到端TIMT模型在翻译质量和效率方面优于现有的两阶段级联模型和其他最先进的一级端到端模型。 |
+| [^55] | [Web Content Filtering through knowledge distillation of Large Language Models.](http://arxiv.org/abs/2305.05027) | 本文提出了一种基于大语言模型知识蒸馏的 URL 分类方法，可用于网络内容过滤，其学生模型在参数数量减少 175 倍的情况下，精度提升了 9%，超过了当前最先进方法。 |
+| [^56] | [CAT: A Contextualized Conceptualization and Instantiation Framework for Commonsense Reasoning.](http://arxiv.org/abs/2305.04808) | CAT提出了一种情景化常识推理的概念化和实例化框架，通过该框架，可以在大规模场景下概念化常识知识库，并在两个基准测试数据集上达到最先进的性能。 |
+| [^57] | [X-LLM: Bootstrapping Advanced Large Language Models by Treating Multi-Modalities as Foreign Languages.](http://arxiv.org/abs/2305.04160) | 本论文提出了一种名为X-LLM的方法，将多模态信息转换为外语并输入到大型语言模型中，从而赋予LLM多模态能力，对于LLM加入多模态信息的能力进行了探究和拓展。 |
+| [^58] | [Curating corpora with classifiers: A case study of clean energy sentiment online.](http://arxiv.org/abs/2305.03092) | 本文介绍了利用分类器来快速选择最佳的相关文档语料库进行分析的方法，探索了过滤掉不相关的推文的方法，以进行在线清洁能源情感分析。 |
+| [^59] | [Causality-aware Concept Extraction based on Knowledge-guided Prompting.](http://arxiv.org/abs/2305.01876) | 该论文提出了一种基于因果感知的知识引导提示方法，将其作为干预器装备到基于预训练语言模型的句子提取器中，以缓解概念偏差。在代表性的多语言KG数据集上进行广泛实验，获得了最先进的结果。 |
+| [^60] | [Turning Flowchart into Dialog: Plan-based Data Augmentation for Low-Resource Flowchart-grounded Troubleshooting Dialogs.](http://arxiv.org/abs/2305.01323) | 本文提出了一个基于计划的数据增强方法，能够将简洁的流程图转化成对话，以生成足够的数据来训练以流程图为基础的故障排除对话系统，实验结果表明该方法有效地提高了系统性能。 |
+| [^61] | [Nominal Topology for Data Languages.](http://arxiv.org/abs/2304.13337) | 该论文提出了一种新的拓扑视角，用于描述可以被轨道有限的名义单子群识别的数据语言，并探讨了 pro-轨道有限方程的表现能力。 |
+| [^62] | [Better Language Models of Code through Self-Improvement.](http://arxiv.org/abs/2304.01228) | 本文提出了一个简单的数据增强框架来改善预训练语言模型为代码生成和代码摘要等任务微调的瓶颈问题，提高了模型性能。 |
+| [^63] | [Rediscovery of CNN's Versatility for Text-based Encoding of Raw Electronic Health Records.](http://arxiv.org/abs/2303.08290) | 本文发现，CNN在健康记录文本编码方面的多功能性和隐含层次结构可以提高其性能，提出了一种基于CNN的编码器来处理不同类型的EHR特征，并在临床任务中展示了其有效性。 |
+| [^64] | [Distinguishability Calibration to In-Context Learning.](http://arxiv.org/abs/2302.06198) | 本文提出了一种旋转和缩放的特征变换校准方法，可用于基于提示的学习进行文本分类，从而解决了在转换器中进行上下文学习时遇到的信息扩散问题。 |
+| [^65] | [What's happening in your neighborhood? A Weakly Supervised Approach to Detect Local News.](http://arxiv.org/abs/2301.08146) | 该论文介绍了一种自动化的本地新闻检测和基于内容的本地新闻推荐方法，通过弱监督框架和自动化数据处理，与传统方法相比具有更高的准确性和覆盖率。 |
+| [^66] | [SMAuC -- The Scientific Multi-Authorship Corpus.](http://arxiv.org/abs/2211.02477) | SMAuC是一个包含300万篇科学文本，且元数据丰富的语料库，涵盖各个学科的500万作者，并旨在推进科学文本中的作者身份分析领域。 |
+| [^67] | [QuaLA-MiniLM: a Quantized Length Adaptive MiniLM.](http://arxiv.org/abs/2210.17114) | QuaLA-MiniLM 是一种量化长度自适应的 MiniLM 模型，通过应用低比特化技术和 LAT 方法，实现了在各种 NLP 任务上的最新成果，同时保持较小的模型尺寸和高效率。 |
+| [^68] | [Extracting Cultural Commonsense Knowledge at Scale.](http://arxiv.org/abs/2210.07763) | 本篇论文提出了一种名为CANDLE的方法，用于从网络语料库中提取文化常识知识，其优于之前的工作。这些知识对于情境化人工智能和GPT-3语言模型都有好处。 |
+| [^69] | [C2KD: Cross-Lingual Cross-Modal Knowledge Distillation for Multilingual Text-Video Retrieval.](http://arxiv.org/abs/2210.03625) | 本文提出了一种跨语言跨模态知识蒸馏方法，使用不同语言的输入文本训练一个学生模型，与使用英语输入文本的教师模型的跨模态预测相匹配，以提升多语言文本-视频检索。我们引入了一个新的多语言视频数据集，Multi-YouCook2，以及在多个数据集上验证了我们方法的性能提升。 |
+| [^70] | [Modeling Paragraph-Level Vision-Language Semantic Alignment for Multi-Modal Summarization.](http://arxiv.org/abs/2208.11303) | 本文提出了ViL-Sum，用于建模段落级别的视觉-语言语义对齐和多模态摘要生成。实验结果表明，ViL-Sum在两个基准数据集上优于现有方法，表明该方法的有效性和优越性。 |
+| [^71] | [QAMPARI: An Open-domain Question Answering Benchmark for Questions with Many Answers from Multiple Paragraphs.](http://arxiv.org/abs/2205.12665) | 本论文提出了一个针对多段落多答案问题的开放域问答基准测试QAMPARI，并训练了ODQA模型。研究结果表明QAMPARI在段落检索和答案生成方面具有挑战性，强调了需要发展能够处理此类问题的ODQA模型。 |
+| [^72] | [Representation Projection Invariance Mitigates Representation Collapse.](http://arxiv.org/abs/2205.11603) | 本文提出了一种新的正则化方法 REPINA，旨在减少表示崩溃问题，结果在 13 个语言理解任务上表现出良好的效果。 |
+| [^73] | [GAP-Gen: Guided Automatic Python Code Generation.](http://arxiv.org/abs/2201.08810) | 本文介绍了一种基于 Python 语法约束和语义约束的引导自动生成 Python 代码的方法 GAP-Gen，通过微调 T5 和 CodeT5 这两种语言模型，在自动生成 Python 代码任务上保持了高生成性能。 |
+| [^74] | [An Efficient Transformer Decoder with Compressed Sub-layers.](http://arxiv.org/abs/2101.00542) | 该论文提出了一种使用压缩子层的高效Transformer解码器，通过减少子层并提高并行性能够达到1.42倍的速度提升，同时确保性能与基线相当。 |
 
 # 详细
 
@@ -594,7 +597,21 @@
 
     In-context learning (ICL) unfolds as large language models become capable of inferring test labels conditioned on a few labeled samples without any gradient update. ICL-enabled large language models provide a promising step forward toward bypassing recurrent annotation costs in a low-resource setting. Yet, only a handful of past studies have explored ICL in a cross-lingual setting, in which the need for transferring label-knowledge from a high-resource language to a low-resource one is immensely crucial. To bridge the gap, we provide the first in-depth analysis of ICL for cross-lingual text classification. We find that the prevalent mode of selecting random input-label pairs to construct the prompt-context is severely limited in the case of cross-lingual ICL, primarily due to the lack of alignment in the input as well as the output spaces. To mitigate this, we propose a novel prompt construction strategy -- Cross-lingual In-context Source-Target Alignment (X-InSTA). With an injected co
     
-[^38]: WikiSQE：维基百科中句子质量估计的大规模数据集
+[^38]: 多跳公共常识知识注入框架用于零样本常识问答
+
+    Multi-hop Commonsense Knowledge Injection Framework for Zero-Shot Commonsense Question Answering. (arXiv:2305.05936v1 [cs.CL])
+
+    [http://arxiv.org/abs/2305.05936](http://arxiv.org/abs/2305.05936)
+
+    本文提出了一个多跳公共常识知识注入框架用于零样本常识问答，使用符合语言逻辑的多跳推理范式，提高了对多跳关系的识别能力，并在两个基准数据集上表现出了更好的效果。
+
+    
+
+    公共常识问答研究需要机器基于常识知识回答问题。然而，这种研究需要昂贵的劳动力成本来注释数据作为研究基础，依赖fine-tuning范式的模型只适用于特定任务，无法学习一般的常识推理能力。作为一种更强大的方法，零样本常识问答显示出良好的前景。当前的零样本框架试图将常识知识图中的三元组转化为QA形式的样本，作为预训练数据源，将常识知识融入模型中。然而，此方法忽略了KG中的多跳关系，这也是常识推理中的一个重要问题。在本文中，我们提出了一种新的多跳公共常识知识注入框架。具体来说，它探索符合语言逻辑的KG中的多跳推理范式，并进一步提出了两种基于所提出的框架的多跳QA生成模式。实验表明，所提出的框架在两个零样本常识QA基准数据集上的表现优于以前的最先进模型。
+
+    Commonsense question answering (QA) research requires machines to answer questions based on commonsense knowledge. However, this research requires expensive labor costs to annotate data as the basis of research, and models that rely on fine-tuning paradigms only apply to specific tasks, rather than learn a general commonsense reasoning ability. As a more robust method, zero-shot commonsense question answering shows a good prospect. The current zero-shot framework tries to convert triples in commonsense knowledge graphs (KGs) into QA-form samples as the pre-trained data source to incorporate commonsense knowledge into the model. However, this method ignores the multi-hop relationship in the KG, which is also an important central problem in commonsense reasoning. In this paper, we propose a novel multi-hop commonsense knowledge injection framework. Specifically, it explores multi-hop reasoning paradigm in KGs that conform to linguistic logic, and we further propose two multi-hop QA gener
+    
+[^39]: WikiSQE：维基百科中句子质量估计的大规模数据集
 
     WikiSQE: A Large-Scale Dataset for Sentence Quality Estimation in Wikipedia. (arXiv:2305.05928v1 [cs.CL])
 
@@ -608,7 +625,7 @@
 
     Wikipedia can be edited by anyone and thus contains various quality sentences. Therefore, Wikipedia includes some poor-quality edits, which are often marked up by other editors. While editors' reviews enhance the credibility of Wikipedia, it is hard to check all edited text. Assisting in this process is very important, but a large and comprehensive dataset for studying it does not currently exist. Here, we propose WikiSQE, the first large-scale dataset for sentence quality estimation in Wikipedia. Each sentence is extracted from the entire revision history of Wikipedia, and the target quality labels were carefully investigated and selected. WikiSQE has about 3.4 M sentences with 153 quality labels. In the experiment with automatic classification using competitive machine learning models, sentences that had problems with citation, syntax/semantics, or propositions were found to be more difficult to detect. In addition, we conducted automated essay scoring experiments to evaluate the gen
     
-[^39]: Decker: 双重检查与异构知识用于常识事实验证
+[^40]: Decker: 双重检查与异构知识用于常识事实验证
 
     Decker: Double Check with Heterogeneous Knowledge for Commonsense Fact Verification. (arXiv:2305.05921v1 [cs.CL])
 
@@ -622,7 +639,7 @@
 
     Commonsense fact verification, as a challenging branch of commonsense question-answering (QA), aims to verify through facts whether a given commonsense claim is correct or not. Answering commonsense questions necessitates a combination of knowledge from various levels. However, existing studies primarily rest on grasping either unstructured evidence or potential reasoning paths from structured knowledge bases, yet failing to exploit the benefits of heterogeneous knowledge simultaneously. In light of this, we propose Decker, a commonsense fact verification model that is capable of bridging heterogeneous knowledge by uncovering latent relationships between structured and unstructured knowledge. Experimental results on two commonsense fact verification benchmark datasets, CSQA2.0 and CREAK demonstrate the effectiveness of our Decker and further analysis verifies its capability to seize more precious information through reasoning.
     
-[^40]: 基于层级信息的地址匹配
+[^41]: 基于层级信息的地址匹配
 
     Address Matching Based On Hierarchical Information. (arXiv:2305.05874v1 [cs.CL])
 
@@ -636,7 +653,7 @@
 
     There is evidence that address matching plays a crucial role in many areas such as express delivery, online shopping and so on. Address has a hierarchical structure, in contrast to unstructured texts, which can contribute valuable information for address matching. Based on this idea, this paper proposes a novel method to leverage the hierarchical information in deep learning method that not only improves the ability of existing methods to handle irregular address, but also can pay closer attention to the special part of address. Experimental findings demonstrate that the proposed method improves the current approach by 3.2% points.
     
-[^41]: ChatGPT和GPT-4是否是金融文本分析的通用求解器？对几种典型任务进行检验。
+[^42]: ChatGPT和GPT-4是否是金融文本分析的通用求解器？对几种典型任务进行检验。
 
     Are ChatGPT and GPT-4 General-Purpose Solvers for Financial Text Analytics? An Examination on Several Typical Tasks. (arXiv:2305.05862v1 [cs.CL])
 
@@ -650,7 +667,7 @@
 
     The most recent large language models such as ChatGPT and GPT-4 have garnered significant attention, as they are capable of generating high-quality responses to human input. Despite the extensive testing of ChatGPT and GPT-4 on generic text corpora, showcasing their impressive capabilities, a study focusing on financial corpora has not been conducted. In this study, we aim to bridge this gap by examining the potential of ChatGPT and GPT-4 as a solver for typical financial text analytic problems in the zero-shot or few-shot setting. Specifically, we assess their capabilities on four representative tasks over five distinct financial textual datasets. The preliminary study shows that ChatGPT and GPT-4 struggle on tasks such as financial named entity recognition (NER) and sentiment analysis, where domain-specific knowledge is required, while they excel in numerical reasoning tasks. We report both the strengths and limitations of the current versions of ChatGPT and GPT-4, comparing them to 
     
-[^42]: V\=arta：一个用于印度语言头条生成的大规模数据集
+[^43]: V\=arta：一个用于印度语言头条生成的大规模数据集
 
     V\=arta: A Large-Scale Headline-Generation Dataset for Indic Languages. (arXiv:2305.05858v1 [cs.CL])
 
@@ -664,7 +681,7 @@
 
     We present V\=arta, a large-scale multilingual dataset for headline generation in Indic languages. This dataset includes 41.8 million news articles in 14 different Indic languages (and English), which come from a variety of high-quality sources. To the best of our knowledge, this is the largest collection of curated articles for Indic languages currently available. We use the data collected in a series of experiments to answer important questions related to Indic NLP and multilinguality research in general. We show that the dataset is challenging even for state-of-the-art abstractive models and that they perform only slightly better than extractive baselines. Owing to its size, we also show that the dataset can be used to pretrain strong language models that outperform competitive baselines in both NLU and NLG benchmarks.
     
-[^43]: 环境约束下的情境依赖性沟通
+[^44]: 环境约束下的情境依赖性沟通
 
     Context-dependent communication under environmental constraints. (arXiv:2305.05821v1 [cs.AI])
 
@@ -678,7 +695,7 @@
 
     There is significant evidence that real-world communication cannot be reduced to sending signals with context-independent meaning. In this work, based on a variant of the classical Lewis (1969) signaling model, we explore the conditions for the emergence of context-dependent communication in a situated scenario. In particular, we demonstrate that pressure to minimise the vocabulary size is sufficient for such emergence. At the same time, we study the environmental conditions and cognitive capabilities that enable contextual disambiguation of symbol meanings. We show that environmental constraints on the receiver's referent choice can be unilaterally exploited by the sender, without disambiguation capabilities on the receiver's end. Consistent with common assumptions, the sender's awareness of the context appears to be required for contextual communication. We suggest that context-dependent communication is a situated multilayered phenomenon, crucially influenced by environment properti
     
-[^44]: 排名和重新加权提高了组的分布鲁棒性
+[^45]: 排名和重新加权提高了组的分布鲁棒性
 
     Ranking & Reweighting Improves Group Distributional Robustness. (arXiv:2305.05759v1 [cs.LG])
 
@@ -692,7 +709,7 @@
 
     Recent work has shown that standard training via empirical risk minimization (ERM) can produce models that achieve high accuracy on average but low accuracy on underrepresented groups due to the prevalence of spurious features. A predominant approach to tackle this group robustness problem minimizes the worst group error (akin to a minimax strategy) on the training data, hoping it will generalize well on the testing data. However, this is often suboptimal, especially when the out-of-distribution (OOD) test data contains previously unseen groups. Inspired by ideas from the information retrieval and learning-to-rank literature, this paper first proposes to use Discounted Cumulative Gain (DCG) as a metric of model quality for facilitating better hyperparameter tuning and model selection. Being a ranking-based metric, DCG weights multiple poorly-performing groups (instead of considering just the group with the worst performance). As a natural next step, we build on our results to propose a
     
-[^45]: 通过世界状态和文本指令提问的时间和问题：IGLU NLP挑战解决方案
+[^46]: 通过世界状态和文本指令提问的时间和问题：IGLU NLP挑战解决方案
 
     When and What to Ask Through World States and Text Instructions: IGLU NLP Challenge Solution. (arXiv:2305.05754v1 [cs.CL])
 
@@ -706,7 +723,7 @@
 
     In collaborative tasks, effective communication is crucial for achieving joint goals. One such task is collaborative building where builders must communicate with each other to construct desired structures in a simulated environment such as Minecraft. We aim to develop an intelligent builder agent to build structures based on user input through dialogue. However, in collaborative building, builders may encounter situations that are difficult to interpret based on the available information and instructions, leading to ambiguity. In the NeurIPS 2022 Competition NLP Task, we address two key research questions, with the goal of filling this gap: when should the agent ask for clarification, and what clarification questions should it ask? We move towards this target with two sub-tasks, a classification task and a ranking task. For the classification task, the goal is to determine whether the agent should ask for clarification based on the current world state and dialogue history. For the ran
     
-[^46]: 多层句子嵌入用于人格预测
+[^47]: 多层句子嵌入用于人格预测
 
     Multilevel Sentence Embeddings for Personality Prediction. (arXiv:2305.05748v1 [cs.CL])
 
@@ -720,7 +737,7 @@
 
     Representing text into a multidimensional space can be done with sentence embedding models such as Sentence-BERT (SBERT). However, training these models when the data has a complex multilevel structure requires individually trained class-specific models, which increases time and computing costs. We propose a two step approach which enables us to map sentences according to their hierarchical memberships and polarity. At first we teach the upper level sentence space through an AdaCos loss function and then finetune with a novel loss function mainly based on the cosine similarity of intra-level pairs. We apply this method to three different datasets: two weakly supervised Big Five personality dataset obtained from English and Japanese Twitter data and the benchmark MNLI dataset. We show that our single model approach performs better than multiple class-specific classification models.
     
-[^47]: CodeIE: 大型代码生成模型优于少样本信息提取器
+[^48]: CodeIE: 大型代码生成模型优于少样本信息提取器
 
     CodeIE: Large Code Generation Models are Better Few-Shot Information Extractors. (arXiv:2305.05711v1 [cs.CL])
 
@@ -734,7 +751,7 @@
 
     Large language models (LLMs) pre-trained on massive corpora have demonstrated impressive few-shot learning ability on many NLP tasks. A common practice is to recast the task into a text-to-text format such that generative LLMs of natural language (NL-LLMs) like GPT-3 can be prompted to solve it. However, it is nontrivial to perform information extraction (IE) tasks with NL-LLMs since the output of the IE task is usually structured and therefore is hard to be converted into plain text. In this paper, we propose to recast the structured output in the form of code instead of natural language and utilize generative LLMs of code (Code-LLMs) such as Codex to perform IE tasks, in particular, named entity recognition and relation extraction. In contrast to NL-LLMs, we show that Code-LLMs can be well-aligned with these IE tasks by designing code-style prompts and formulating these IE tasks as code generation tasks. Experiment results on seven benchmarks show that our method consistently outperf
     
-[^48]: $2n$比$n^2$更好：将事件指称共指消解拆分成两个易于处理的问题
+[^49]: $2n$比$n^2$更好：将事件指称共指消解拆分成两个易于处理的问题
 
     $2 * n$ is better than $n^2$: Decomposing Event Coreference Resolution into Two Tractable Problems. (arXiv:2305.05672v1 [cs.CL])
 
@@ -748,7 +765,7 @@
 
     Event Coreference Resolution (ECR) is the task of linking mentions of the same event either within or across documents. Most mention pairs are not coreferent, yet many that are coreferent can be identified through simple techniques such as lemma matching of the event triggers or the sentences in which they appear. Existing methods for training coreference systems sample from a largely skewed distribution, making it difficult for the algorithm to learn coreference beyond surface matching. Additionally, these methods are intractable because of the quadratic operations needed. To address these challenges, we break the problem of ECR into two parts: a) a heuristic to efficiently filter out a large number of non-coreferent pairs, and b) a training approach on a balanced set of coreferent and non-coreferent mention pairs. By following this approach, we show that we get comparable results to the state of the art on two popular ECR datasets while significantly reducing compute requirements. We
     
-[^49]: 面向个人或实体的知识图谱表示学习：在医疗保健领域应用的研究
+[^50]: 面向个人或实体的知识图谱表示学习：在医疗保健领域应用的研究
 
     Representation Learning for Person or Entity-centric Knowledge Graphs: an application in Healthcare. (arXiv:2305.05640v1 [cs.AI])
 
@@ -762,7 +779,7 @@
 
     Knowledge graphs (KGs) are a popular way to organise information based on ontologies or schemas and have been used across a variety of scenarios from search to recommendation. Despite advances in KGs, representing knowledge remains a non-trivial task across industries and it is especially challenging in the biomedical and healthcare domains due to complex interdependent relations between entities, heterogeneity, lack of standardization, and sparseness of data. KGs are used to discover diagnoses or prioritize genes relevant to disease, but they often rely on schemas that are not centred around a node or entity of interest, such as a person. Entity-centric KGs are relatively unexplored but hold promise in representing important facets connected to a central node and unlocking downstream tasks beyond graph traversal and reasoning, such as generating graph embeddings and training graph neural networks for a wide range of predictive tasks. This paper presents an end-to-end representation le
     
-[^50]: 大型语言模型在医疗对话问答中需要进行整体性思考
+[^51]: 大型语言模型在医疗对话问答中需要进行整体性思考
 
     Large Language Models Need Holistically Thought in Medical Conversational QA. (arXiv:2305.05410v1 [cs.CL])
 
@@ -776,7 +793,7 @@
 
     The medical conversational question answering (CQA) system aims at providing a series of professional medical services to improve the efficiency of medical care. Despite the success of large language models (LLMs) in complex reasoning tasks in various fields, such as mathematics, logic, and commonsense QA, they still need to improve with the increased complexity and specialization of the medical field. This is because medical CQA tasks require not only strong medical reasoning, but also the ability to think broadly and deeply. In this paper, to address these challenges in medical CQA tasks that need to be considered and understood in many aspects, we propose the Holistically Thought (HoT) method, which is designed to guide the LLMs to perform the diffused and focused thinking for generating high-quality medical responses. The proposed HoT method has been evaluated through automated and manual assessments in three different medical CQA datasets containing the English and Chinese languag
     
-[^51]: 从大型语言模型中提取脚本知识以进行受限语言规划
+[^52]: 从大型语言模型中提取脚本知识以进行受限语言规划
 
     Distilling Script Knowledge from Large Language Models for Constrained Language Planning. (arXiv:2305.05252v1 [cs.CL])
 
@@ -790,7 +807,7 @@
 
     In everyday life, humans often plan their actions by following step-by-step instructions in the form of goal-oriented scripts. Previous work has exploited language models (LMs) to plan for abstract goals of stereotypical activities (e.g., "make a cake"), but leaves more specific goals with multi-facet constraints understudied (e.g., "make a cake for diabetics"). In this paper, we define the task of constrained language planning for the first time. We propose an overgenerate-then-filter approach to improve large language models (LLMs) on this task, and use it to distill a novel constrained language planning dataset, CoScript, which consists of 55,000 scripts. Empirical results demonstrate that our method significantly improves the constrained language planning ability of LLMs, especially on constraint faithfulness. Furthermore, CoScript is demonstrated to be quite effective in endowing smaller LMs with constrained language planning ability.
     
-[^52]: 文本图像机器翻译多教师知识蒸馏
+[^53]: 文本图像机器翻译多教师知识蒸馏
 
     Multi-Teacher Knowledge Distillation For Text Image Machine Translation. (arXiv:2305.05226v1 [cs.CL])
 
@@ -804,7 +821,7 @@
 
     Text image machine translation (TIMT) has been widely used in various real-world applications, which translates source language texts in images into another target language sentence. Existing methods on TIMT are mainly divided into two categories: the recognition-then-translation pipeline model and the end-to-end model. However, how to transfer knowledge from the pipeline model into the end-to-end model remains an unsolved problem. In this paper, we propose a novel Multi-Teacher Knowledge Distillation (MTKD) method to effectively distillate knowledge into the end-to-end TIMT model from the pipeline model. Specifically, three teachers are utilized to improve the performance of the end-to-end TIMT model. The image encoder in the end-to-end TIMT model is optimized with the knowledge distillation guidance from the recognition teacher encoder, while the sequential encoder and decoder are improved by transferring knowledge from the translation sequential and decoder teacher models. Furthermo
     
-[^53]: E2TIMT: 高效有效的文图机器翻译模态适配器
+[^54]: E2TIMT: 高效有效的文图机器翻译模态适配器
 
     E2TIMT: Efficient and Effective Modal Adapter for Text Image Machine Translation. (arXiv:2305.05166v1 [cs.CL])
 
@@ -818,7 +835,7 @@
 
     Text image machine translation (TIMT) aims to translate texts embedded in images from one source language to another target language. Existing methods, both two-stage cascade and one-stage end-to-end architectures, suffer from different issues. The cascade models can benefit from the large-scale optical character recognition (OCR) and MT datasets but the two-stage architecture is redundant. The end-to-end models are efficient but suffer from training data deficiency. To this end, in our paper, we propose an end-to-end TIMT model fully making use of the knowledge from existing OCR and MT datasets to pursue both an effective and efficient framework. More specifically, we build a novel modal adapter effectively bridging the OCR encoder and MT decoder. End-to-end TIMT loss and cross-modal contrastive loss are utilized jointly to align the feature distribution of the OCR and MT tasks. Extensive experiments show that the proposed method outperforms the existing two-stage cascade models and o
     
-[^54]: 基于大语言模型知识蒸馏的网络内容过滤方法
+[^55]: 基于大语言模型知识蒸馏的网络内容过滤方法
 
     Web Content Filtering through knowledge distillation of Large Language Models. (arXiv:2305.05027v1 [cs.LG])
 
@@ -832,7 +849,7 @@
 
     We introduce a state-of-the-art approach for URL categorization that leverages the power of Large Language Models (LLMs) to address the primary objectives of web content filtering: safeguarding organizations from legal and ethical risks, limiting access to high-risk or suspicious websites, and fostering a secure and professional work environment. Our method utilizes LLMs to generate accurate classifications and then employs established knowledge distillation techniques to create smaller, more specialized student models tailored for web content filtering. Distillation results in a student model with a 9\% accuracy rate improvement in classifying websites, sourced from customer telemetry data collected by a large security vendor, into 30 distinct content categories based on their URLs, surpassing the current state-of-the-art approach. Our student model matches the performance of the teacher LLM with 175 times less parameters, allowing the model to be used for in-line scanning of large vo
     
-[^55]: CAT: 一种情景化常识推理的概念化和实例化框架
+[^56]: CAT: 一种情景化常识推理的概念化和实例化框架
 
     CAT: A Contextualized Conceptualization and Instantiation Framework for Commonsense Reasoning. (arXiv:2305.04808v2 [cs.CL] UPDATED)
 
@@ -846,7 +863,7 @@
 
     Commonsense reasoning, aiming at endowing machines with a human-like ability to make situational presumptions, is extremely challenging to generalize. For someone who barely knows about "meditation," while is knowledgeable about "singing," he can still infer that "meditation makes people relaxed" from the existing knowledge that "singing makes people relaxed" by first conceptualizing "singing" as a "relaxing event" and then instantiating that event to "meditation." This process, known as conceptual induction and deduction, is fundamental to commonsense reasoning while lacking both labeled data and methodologies to enhance commonsense modeling. To fill such a research gap, we propose CAT (Contextualized ConceptuAlization and InsTantiation), a semi-supervised learning framework that integrates event conceptualization and instantiation to conceptualize commonsense knowledge bases at scale. Extensive experiments show that our framework achieves state-of-the-art performances on two conceptu
     
-[^56]: X-LLM: 通过将多模态视为外语引入大型语言模型来启动高级大型语言模型
+[^57]: X-LLM: 通过将多模态视为外语引入大型语言模型来启动高级大型语言模型
 
     X-LLM: Bootstrapping Advanced Large Language Models by Treating Multi-Modalities as Foreign Languages. (arXiv:2305.04160v1 [cs.CL])
 
@@ -860,7 +877,7 @@
 
     Large language models (LLMs) have demonstrated remarkable language abilities. GPT-4, based on advanced LLMs, exhibits extraordinary multimodal capabilities beyond previous visual language models. We attribute this to the use of more advanced LLMs compared with previous multimodal models. Unfortunately, the model architecture and training strategies of GPT-4 are unknown. To endow LLMs with multimodal capabilities, we propose X-LLM, which converts Multi-modalities (images, speech, videos) into foreign languages using X2L interfaces and inputs them into a large Language model (ChatGLM). Specifically, X-LLM aligns multiple frozen single-modal encoders and a frozen LLM using X2L interfaces, where ``X'' denotes multi-modalities such as image, speech, and videos, and ``L'' denotes languages. X-LLM's training consists of three stages: (1) Converting Multimodal Information: The first stage trains each X2L interface to align with its respective single-modal encoder separately to convert multimod
     
-[^57]: 利用分类器来筛选语料库：以在线清洁能源情感分析为例
+[^58]: 利用分类器来筛选语料库：以在线清洁能源情感分析为例
 
     Curating corpora with classifiers: A case study of clean energy sentiment online. (arXiv:2305.03092v1 [cs.CL])
 
@@ -874,7 +891,7 @@
 
     Well curated, large-scale corpora of social media posts containing broad public opinion offer an alternative data source to complement traditional surveys. While surveys are effective at collecting representative samples and are capable of achieving high accuracy, they can be both expensive to run and lag public opinion by days or weeks. Both of these drawbacks could be overcome with a real-time, high volume data stream and fast analysis pipeline. A central challenge in orchestrating such a data pipeline is devising an effective method for rapidly selecting the best corpus of relevant documents for analysis. Querying with keywords alone often includes irrelevant documents that are not easily disambiguated with bag-of-words natural language processing methods. Here, we explore methods of corpus curation to filter irrelevant tweets using pre-trained transformer-based models, fine-tuned for our binary classification task on hand-labeled tweets. We are able to achieve F1 scores of up to 0.
     
-[^58]: 基于因果感知的知识引导句子提取
+[^59]: 基于因果感知的知识引导句子提取
 
     Causality-aware Concept Extraction based on Knowledge-guided Prompting. (arXiv:2305.01876v1 [cs.CL])
 
@@ -888,7 +905,7 @@
 
     Concepts benefit natural language understanding but are far from complete in existing knowledge graphs (KGs). Recently, pre-trained language models (PLMs) have been widely used in text-based concept extraction (CE). However, PLMs tend to mine the co-occurrence associations from massive corpus as pre-trained knowledge rather than the real causal effect between tokens.As a result, the pre-trained knowledge confounds PLMs to extract biased concepts based on spurious co-occurrence correlations, inevitably resulting in low precision. In this paper, through the lens of a Structural Causal Model (SCM), we propose equipping the PLM-based extractor with a knowledge-guided prompt as an intervention to alleviate concept bias. The prompt adopts the topic of the given entity from the existing knowledge in KGs to mitigate the spurious co-occurrence correlations between entities and biased concepts. Our extensive experiments on representative multilingual KG datasets justify that our proposed prompt 
     
-[^59]: 将流程图转化为对话：基于计划的数据增强方法，用于低资源流程图相关故障排除对话
+[^60]: 将流程图转化为对话：基于计划的数据增强方法，用于低资源流程图相关故障排除对话
 
     Turning Flowchart into Dialog: Plan-based Data Augmentation for Low-Resource Flowchart-grounded Troubleshooting Dialogs. (arXiv:2305.01323v1 [cs.CL])
 
@@ -902,7 +919,7 @@
 
     Flowchart-grounded troubleshooting dialogue (FTD) systems, which follow the instructions of a flowchart to diagnose users' problems in specific domains (eg., vehicle, laptop), have been gaining research interest in recent years. However, collecting sufficient dialogues that are naturally grounded on flowcharts is costly, thus FTD systems are impeded by scarce training data. To mitigate the data sparsity issue, we propose a plan-based data augmentation (PlanDA) approach that generates diverse synthetic dialog data at scale by transforming concise flowchart into dialogues. Specifically, its generative model employs a variational-base framework with a hierarchical planning strategy that includes global and local latent planning variables. Experiments on the FloDial dataset show that synthetic dialogue produced by PlanDA improves the performance of downstream tasks, including flowchart path retrieval and response generation, in particular on the Out-of-Flowchart settings. In addition, furt
     
-[^60]: 数据语言的名义拓扑
+[^61]: 数据语言的名义拓扑
 
     Nominal Topology for Data Languages. (arXiv:2304.13337v1 [cs.CL])
 
@@ -916,7 +933,7 @@
 
     We propose a novel topological perspective on data languages recognizable by orbit-finite nominal monoids. For this purpose, we introduce pro-orbit-finite nominal topological spaces. Assuming globally bounded support sizes, they coincide with nominal Stone spaces and are shown to be dually equivalent to a subcategory of nominal boolean algebras. Recognizable data languages are characterized as topologically clopen sets of pro-orbit-finite words. In addition, we explore the expressive power of pro-orbit-finite equations by establishing a nominal version of Reiterman's pseudovariety theorem.
     
-[^61]: 通过自我改进的方式实现更好的代码语言模型
+[^62]: 通过自我改进的方式实现更好的代码语言模型
 
     Better Language Models of Code through Self-Improvement. (arXiv:2304.01228v1 [cs.CL])
 
@@ -930,7 +947,7 @@
 
     Pre-trained language models for code (PLMCs) have gained attention in recent research. These models are pre-trained on large-scale datasets using multi-modal objectives. However, fine-tuning them requires extensive supervision and is limited by the size of the dataset provided. We aim to improve this issue by proposing a simple data augmentation framework. Our framework utilizes knowledge gained during the pre-training and fine-tuning stage to generate pseudo data, which is then used as training data for the next step. We incorporate this framework into the state-of-the-art language models, such as CodeT5, CodeBERT, and UnixCoder. The results show that our framework significantly improves PLMCs' performance in code-related sequence generation tasks, such as code summarization and code generation in the CodeXGLUE benchmark.
     
-[^62]: 重新发现CNN在原始电子健康记录文本编码中的多功能性
+[^63]: 重新发现CNN在原始电子健康记录文本编码中的多功能性
 
     Rediscovery of CNN's Versatility for Text-based Encoding of Raw Electronic Health Records. (arXiv:2303.08290v1 [cs.LG])
 
@@ -944,7 +961,7 @@
 
     Making the most use of abundant information in electronic health records (EHR) is rapidly becoming an important topic in the medical domain. Recent work presented a promising framework that embeds entire features in raw EHR data regardless of its form and medical code standards. The framework, however, only focuses on encoding EHR with minimal preprocessing and fails to consider how to learn efficient EHR representation in terms of computation and memory usage. In this paper, we search for a versatile encoder not only reducing the large data into a manageable size but also well preserving the core information of patients to perform diverse clinical tasks. We found that hierarchically structured Convolutional Neural Network (CNN) often outperforms the state-of-the-art model on diverse tasks such as reconstruction, prediction, and generation, even with fewer parameters and less training time. Moreover, it turns out that making use of the inherent hierarchy of EHR data can boost the perfo
     
-[^63]: 区分度校准到上下文学习中的应用
+[^64]: 区分度校准到上下文学习中的应用
 
     Distinguishability Calibration to In-Context Learning. (arXiv:2302.06198v2 [cs.CL] UPDATED)
 
@@ -958,7 +975,7 @@
 
     Recent years have witnessed increasing interests in prompt-based learning in which models can be trained on only a few annotated instances, making them suitable in low-resource settings. When using prompt-based learning for text classification, the goal is to use a pre-trained language model (PLM) to predict a missing token in a pre-defined template given an input text, which can be mapped to a class label. However, PLMs built on the transformer architecture tend to generate similar output embeddings, making it difficult to discriminate between different class labels. The problem is further exacerbated when dealing with classification tasks involving many fine-grained class labels. In this work, we alleviate this information diffusion issue, i.e., different tokens share a large proportion of similar information after going through stacked multiple self-attention layers in a transformer, by proposing a calibration method built on feature transformations through rotation and scaling to m
     
-[^64]: 你所在社区发生了什么？一种弱监督方法用于发现本地新闻。
+[^65]: 你所在社区发生了什么？一种弱监督方法用于发现本地新闻。
 
     What's happening in your neighborhood? A Weakly Supervised Approach to Detect Local News. (arXiv:2301.08146v2 [cs.IR] UPDATED)
 
@@ -972,7 +989,21 @@
 
     Local news articles are a subset of news that impact users in a geographical area, such as a city, county, or state. Detecting local news (Step 1) and subsequently deciding its geographical location as well as radius of impact (Step 2) are two important steps towards accurate local news recommendation. Naive rule-based methods, such as detecting city names from the news title, tend to give erroneous results due to lack of understanding of the news content. Empowered by the latest development in natural language processing, we develop an integrated pipeline that enables automatic local news detection and content-based local news recommendations. In this paper, we focus on Step 1 of the pipeline, which highlights: (1) a weakly supervised framework incorporated with domain knowledge and auto data processing, and (2) scalability to multi-lingual settings. Compared with Stanford CoreNLP NER model, our pipeline has higher precision and recall evaluated on a real-world and human-labeled datas
     
-[^65]: QuaLA-MiniLM: 一种量化长度自适应的 MiniLM
+[^66]: SMAuC -- 科学多作者语料库
+
+    SMAuC -- The Scientific Multi-Authorship Corpus. (arXiv:2211.02477v2 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2211.02477](http://arxiv.org/abs/2211.02477)
+
+    SMAuC是一个包含300万篇科学文本，且元数据丰富的语料库，涵盖各个学科的500万作者，并旨在推进科学文本中的作者身份分析领域。
+
+    
+
+    快速增长的科学文献数量为研究分析单个或多个作者的文档方法提供了有趣的挑战。然而，大多数现有数据集缺乏科学文档或构建新实验和测试用例所必需的元数据。本文介绍了SMAuC，这是一个专为科学作者分析量身定制的全面的元数据丰富的语料库。SMAuC是最大的公开可访问的语料库，包括来自各个学科的超过500万作者的300多万篇科学文本，其中还包括明确的作者ID等广泛策划的元数据。SMAuC旨在显著推进科学文本中的作者身份分析领域。
+
+    The rapidly growing volume of scientific publications offers an interesting challenge for research on methods for analyzing the authorship of documents with one or more authors. However, most existing datasets lack scientific documents or the necessary metadata for constructing new experiments and test cases. We introduce SMAuC, a comprehensive, metadata-rich corpus tailored to scientific authorship analysis. Comprising over 3 million publications across various disciplines from over 5 million authors, SMAuC is the largest openly accessible corpus for this purpose. It encompasses scientific texts from humanities and natural sciences, accompanied by extensive, curated metadata, including unambiguous author IDs. SMAuC aims to significantly advance the domain of authorship analysis in scientific texts.
+    
+[^67]: QuaLA-MiniLM: 一种量化长度自适应的 MiniLM
 
     QuaLA-MiniLM: a Quantized Length Adaptive MiniLM. (arXiv:2210.17114v3 [cs.CL] UPDATED)
 
@@ -986,7 +1017,7 @@
 
     Limited computational budgets often prevent transformers from being used in production and from having their high accuracy utilized. A knowledge distillation approach addresses the computational efficiency by self-distilling BERT into a smaller transformer representation having fewer layers and smaller internal embedding. However, the performance of these models drops as we reduce the number of layers, notably in advanced NLP tasks such as span question answering. In addition, a separate model must be trained for each inference scenario with its distinct computational budget. Dynamic-TinyBERT tackles both limitations by partially implementing the Length Adaptive Transformer (LAT) technique onto TinyBERT, achieving x3 speedup over BERT-base with minimal accuracy loss. In this work, we expand the Dynamic-TinyBERT approach to generate a much more highly efficient model. We use MiniLM distillation jointly with the LAT method, and we further enhance the efficiency by applying low-bit quanti
     
-[^66]: 大规模提取文化常识知识
+[^68]: 大规模提取文化常识知识
 
     Extracting Cultural Commonsense Knowledge at Scale. (arXiv:2210.07763v3 [cs.CL] UPDATED)
 
@@ -1000,7 +1031,7 @@
 
     Structured knowledge is important for many AI applications. Commonsense knowledge, which is crucial for robust human-centric AI, is covered by a small number of structured knowledge projects. However, they lack knowledge about human traits and behaviors conditioned on socio-cultural contexts, which is crucial for situative AI. This paper presents CANDLE, an end-to-end methodology for extracting high-quality cultural commonsense knowledge (CCSK) at scale. CANDLE extracts CCSK assertions from a huge web corpus and organizes them into coherent clusters, for 3 domains of subjects (geography, religion, occupation) and several cultural facets (food, drinks, clothing, traditions, rituals, behaviors). CANDLE includes judicious techniques for classification-based filtering and scoring of interestingness. Experimental evaluations show the superiority of the CANDLE CCSK collection over prior works, and an extrinsic use case demonstrates the benefits of CCSK for the GPT-3 language model. Code and 
     
-[^67]: C2KD: 跨语言跨模态知识蒸馏以提升多语言文本-视频检索
+[^69]: C2KD: 跨语言跨模态知识蒸馏以提升多语言文本-视频检索
 
     C2KD: Cross-Lingual Cross-Modal Knowledge Distillation for Multilingual Text-Video Retrieval. (arXiv:2210.03625v2 [cs.CL] UPDATED)
 
@@ -1014,7 +1045,7 @@
 
     Multilingual text-video retrieval methods have improved significantly in recent years, but the performance for other languages lags behind English. We propose a Cross-Lingual Cross-Modal Knowledge Distillation method to improve multilingual text-video retrieval. Inspired by the fact that English text-video retrieval outperforms other languages, we train a student model using input text in different languages to match the cross-modal predictions from teacher models using input text in English. We propose a cross entropy based objective which forces the distribution over the student's text-video similarity scores to be similar to those of the teacher models. We introduce a new multilingual video dataset, Multi-YouCook2, by translating the English captions in the YouCook2 video dataset to 8 other languages. Our method improves multilingual text-video retrieval performance on Multi-YouCook2 and several other datasets such as Multi-MSRVTT and VATEX. We also conducted an analysis on the effe
     
-[^68]: 建模段落级别的视觉-语言语义对齐用于多模态摘要生成
+[^70]: 建模段落级别的视觉-语言语义对齐用于多模态摘要生成
 
     Modeling Paragraph-Level Vision-Language Semantic Alignment for Multi-Modal Summarization. (arXiv:2208.11303v2 [cs.CL] UPDATED)
 
@@ -1028,7 +1059,7 @@
 
     Most current multi-modal summarization methods follow a cascaded manner, where an off-the-shelf object detector is first used to extract visual features, then these features are fused with language representations to generate the summary with an encoder-decoder model. The cascaded way cannot capture the semantic alignments between images and paragraphs, which are crucial to a precise summary. In this paper, we propose ViL-Sum to jointly model paragraph-level \textbf{Vi}sion-\textbf{L}anguage Semantic Alignment and Multi-Modal \textbf{Sum}marization. The core of ViL-Sum is a joint multi-modal encoder with two well-designed tasks, image reordering and image selection. The joint multi-modal encoder captures the interactions between modalities, where the reordering task guides the model to learn paragraph-level semantic alignment and the selection task guides the model to selected summary-related images in the final summary. Experimental results show that our proposed ViL-Sum significantly
     
-[^69]: QAMPARI: 一个多段落多答案的开放域问答挑战
+[^71]: QAMPARI: 一个多段落多答案的开放域问答挑战
 
     QAMPARI: An Open-domain Question Answering Benchmark for Questions with Many Answers from Multiple Paragraphs. (arXiv:2205.12665v3 [cs.CL] UPDATED)
 
@@ -1042,7 +1073,7 @@
 
     Existing benchmarks for open-domain question answering (ODQA) typically focus on questions whose answers can be extracted from a single paragraph. By contrast, many natural questions, such as "What players were drafted by the Brooklyn Nets?" have a list of answers. Answering such questions requires retrieving and reading from many passages, in a large corpus. We introduce QAMPARI, an ODQA benchmark, where question answers are lists of entities, spread across many paragraphs. We created QAMPARI by (a) generating questions with multiple answers from Wikipedia's knowledge graph and tables, (b) automatically pairing answers with supporting evidence in Wikipedia paragraphs, and (c) manually paraphrasing questions and validating each answer. We train ODQA models from the retrieve-and-read family and find that QAMPARI is challenging in terms of both passage retrieval and answer generation, reaching an F1 score of 32.8 at best. Our results highlight the need for developing ODQA models that han
     
-[^70]: 表示投影不变性缓解表示崩溃问题
+[^72]: 表示投影不变性缓解表示崩溃问题
 
     Representation Projection Invariance Mitigates Representation Collapse. (arXiv:2205.11603v2 [cs.CL] UPDATED)
 
@@ -1056,7 +1087,21 @@
 
     Fine-tuning contextualized representations learned by pre-trained language models remains a prevalent practice in NLP. However, fine-tuning can lead to representation degradation (also known as representation collapse), which may result in instability, sub-optimal performance, and weak generalization.  In this paper, we propose Representation Projection Invariance (REPINA), a novel regularization method to maintain the information content of representation and reduce representation collapse during fine-tuning by discouraging undesirable changes in the representations. We study the empirical behavior of the proposed regularization in comparison to 5 comparable baselines across 13 language understanding tasks (GLUE benchmark and six additional datasets). When evaluating in-domain performance, REPINA consistently outperforms other baselines on most tasks (10 out of 13). We also demonstrate its effectiveness in few-shot settings and robustness to label perturbation. As a by-product, we ext
     
-[^71]: 一种具有压缩子层的高效Transformer解码器
+[^73]: GAP-Gen: 引导自动生成 Python 代码的方法
+
+    GAP-Gen: Guided Automatic Python Code Generation. (arXiv:2201.08810v2 [cs.PL] UPDATED)
+
+    [http://arxiv.org/abs/2201.08810](http://arxiv.org/abs/2201.08810)
+
+    本文介绍了一种基于 Python 语法约束和语义约束的引导自动生成 Python 代码的方法 GAP-Gen，通过微调 T5 和 CodeT5 这两种语言模型，在自动生成 Python 代码任务上保持了高生成性能。
+
+    
+
+    自然语言描述自动生成代码在软件开发过程中非常有助于提高效率。本文提出了一种基于 Python 语法约束和语义约束的引导自动生成 Python 代码的方法 GAP-Gen。我们首先介绍了 Syntax-Flow，这是一种简化的抽象语法树（AST）形式的 Python 语法约束，并且在代码中保留了关键的语法信息，从而减小了抽象语法树的规模和复杂性。除了 Syntax-Flow，我们还介绍了 Variable-Flow，它能够在整个代码中一致地抽象变量和函数名。我们的工作重点不是在预训练上，而是在修改微调过程，从而减少计算需求，但在自动生成 Python 代码任务上保持高生成性能。 GAP-Gen 使用 T5 和 CodeT5 这两种基于 transformer 的语言模型，通过 CodeSearchNet 数据集进行微调。
+
+    Automatic code generation from natural language descriptions can be highly beneficial during the process of software development. In this work, we propose GAP-Gen, a Guided Automatic Python Code Generation method based on Python syntactic constraints and semantic constraints. We first introduce Python syntactic constraints in the form of Syntax-Flow, which is a simplified version of Abstract Syntax Tree (AST) reducing the size and high complexity of Abstract Syntax Tree but maintaining crucial syntactic information of Python code. In addition to Syntax-Flow, we introduce Variable-Flow which abstracts variable and function names consistently through out the code. In our work, rather than pretraining, we focus on modifying the finetuning process which reduces computational requirements but retains high generation performance on automatic Python code generation task. GAP-Gen fine-tunes the transformer based language models T5 and CodeT5 using the Code-to-Docstring datasets CodeSearchNet, 
+    
+[^74]: 一种具有压缩子层的高效Transformer解码器
 
     An Efficient Transformer Decoder with Compressed Sub-layers. (arXiv:2101.00542v3 [cs.CL] UPDATED)
 

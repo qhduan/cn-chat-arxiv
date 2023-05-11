@@ -1,0 +1,12 @@
+{
+    "title": "Graph Neural Networks and 3-Dimensional Topology. (arXiv:2305.05966v1 [math.GT])",
+    "abstract": "We test the efficiency of applying Geometric Deep Learning to the problems in low-dimensional topology in a certain simple setting. Specifically, we consider the class of 3-manifolds described by plumbing graphs and use Graph Neural Networks (GNN) for the problem of deciding whether a pair of graphs give homeomorphic 3-manifolds. We use supervised learning to train a GNN that provides the answer to such a question with high accuracy. Moreover, we consider reinforcement learning by a GNN to find a sequence of Neumann moves that relates the pair of graphs if the answer is positive. The setting can be understood as a toy model of the problem of deciding whether a pair of Kirby diagrams give diffeomorphic 3- or 4-manifolds.",
+    "link": "http://arxiv.org/abs/2305.05966",
+    "context": "Title: Graph Neural Networks and 3-Dimensional Topology. (arXiv:2305.05966v1 [math.GT])\nAbstract: We test the efficiency of applying Geometric Deep Learning to the problems in low-dimensional topology in a certain simple setting. Specifically, we consider the class of 3-manifolds described by plumbing graphs and use Graph Neural Networks (GNN) for the problem of deciding whether a pair of graphs give homeomorphic 3-manifolds. We use supervised learning to train a GNN that provides the answer to such a question with high accuracy. Moreover, we consider reinforcement learning by a GNN to find a sequence of Neumann moves that relates the pair of graphs if the answer is positive. The setting can be understood as a toy model of the problem of deciding whether a pair of Kirby diagrams give diffeomorphic 3- or 4-manifolds.",
+    "path": "papers/23/05/2305.05966.json",
+    "total_tokens": 751,
+    "translated_title": "图神经网络和三维拓扑",
+    "translated_abstract": "本论文在某些简单情境中测试了将几何深度学习应用到低维拓扑问题的有效性。具体来说，我们考虑由管道图描述的三维流形类别，并使用图神经网络（GNN）解决判断一对图是否提供同胚三维流形问题。我们使用监督学习训练GNN，以高准确性提供这种问题的答案。此外，如果答案为肯定，我们考虑通过GNN进行增强学习，找到将一对图相关联的Neumann移动序列。这个情境可以作为解决一对Kirby图是否提供同构三维或四维流形问题的玩具模型理解。",
+    "tldr": "本研究利用图神经网络解决了一类由管道图描述的三维流形分类问题，并训练了一个高准确性的GNN模型，同时介绍了GNN在增强学习中的应用。",
+    "en_tdlr": "This paper uses Graph Neural Networks to solve a class of 3-manifold classification problems described by plumbing graphs and presents a highly accurate GNN model, with an introduction of the application of GNN in reinforcement learning."
+}
