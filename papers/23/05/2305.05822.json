@@ -1,0 +1,12 @@
+{
+    "title": "Robust Data Regulation. (arXiv:2305.05822v1 [econ.TH])",
+    "abstract": "I study how to regulate firms' access to consumer data when it is used for price discrimination and the regulator possesses non-Bayesian uncertainty about the correlation structure between data and willingness to pay. Therefore, it is unclear how the monopolist will segment the market. I characterize all policies that maximize worst-case consumer surplus: the regulator allows the monopolist to access data, if the database does not reveal a minority group of consumers.",
+    "link": "http://arxiv.org/abs/2305.05822",
+    "context": "Title: Robust Data Regulation. (arXiv:2305.05822v1 [econ.TH])\nAbstract: I study how to regulate firms' access to consumer data when it is used for price discrimination and the regulator possesses non-Bayesian uncertainty about the correlation structure between data and willingness to pay. Therefore, it is unclear how the monopolist will segment the market. I characterize all policies that maximize worst-case consumer surplus: the regulator allows the monopolist to access data, if the database does not reveal a minority group of consumers.",
+    "path": "papers/23/05/2305.05822.json",
+    "total_tokens": 642,
+    "translated_title": "强健的数据监管",
+    "translated_abstract": "本文研究了关于监管公司访问消费者数据以用于价格歧视的问题，特别是当监管机构对数据和支付意愿之间的相关结构存在非贝叶斯不确定性时。因此，垄断者如何细分市场还不清楚。本文描述了可以最大化最劣消费者剩余价值的所有政策：如果数据库不表明某一消费群体，则监管机构允许垄断者访问数据。",
+    "tldr": "本文研究了监管公司访问消费者数据以用于价格歧视的问题，提出了一种可以最大化最劣消费者剩余价值的所有政策，即如果数据库不表明某一消费群体，则监管机构允许垄断者访问数据。",
+    "en_tdlr": "This paper studies how to regulate firms' access to consumer data for price discrimination and proposes policies that maximize worst-case consumer surplus, allowing access to the data only if it does not reveal a minority group of consumers, when the regulator possesses non-Bayesian uncertainty about the correlation structure between data and willingness to pay."
+}

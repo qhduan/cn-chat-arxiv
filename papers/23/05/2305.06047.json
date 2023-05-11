@@ -1,0 +1,12 @@
+{
+    "title": "Piloting topic-aware research impact assessment features in BIP! Services. (arXiv:2305.06047v1 [cs.IR])",
+    "abstract": "Various research activities rely on citation-based impact indicators. However these indicators are usually globally computed, hindering their proper interpretation in applications like research assessment and knowledge discovery. In this work, we advocate for the use of topic-aware categorical impact indicators, to alleviate the aforementioned problem. In addition, we extend BIP! Services to support those indicators and showcase their benefits in real-world research activities.",
+    "link": "http://arxiv.org/abs/2305.06047",
+    "context": "Title: Piloting topic-aware research impact assessment features in BIP! Services. (arXiv:2305.06047v1 [cs.IR])\nAbstract: Various research activities rely on citation-based impact indicators. However these indicators are usually globally computed, hindering their proper interpretation in applications like research assessment and knowledge discovery. In this work, we advocate for the use of topic-aware categorical impact indicators, to alleviate the aforementioned problem. In addition, we extend BIP! Services to support those indicators and showcase their benefits in real-world research activities.",
+    "path": "papers/23/05/2305.06047.json",
+    "total_tokens": 662,
+    "translated_title": "在BIP!服务中试点主题感知研究影响评估功能",
+    "translated_abstract": "多种研究活动依赖于基于引用的影响指标。然而，这些指标通常是全局计算的，阻碍了它们在研究评估和知识发现等应用中的正确解释。在本研究中，我们倡导使用主题感知的分类影响指标，以缓解上述问题。此外，我们扩展了BIP!服务以支持这些指标，并展示它们在实际研究活动中的好处。",
+    "tldr": "本研究提出采用主题感知的分类影响指标来解决全局计算的引用影响指标在研究评估和知识发现等应用中难以正确解释的问题，并在BIP!服务中试点展示了这些指标的好处。",
+    "en_tdlr": "This study proposes the use of topic-aware categorical impact indicators to address the problem of globally computed citation-based impact indicators being difficult to interpret correctly in applications such as research assessment and knowledge discovery. The study also showcases the benefits of these indicators in real-world research activities by extending BIP! Services to support them."
+}

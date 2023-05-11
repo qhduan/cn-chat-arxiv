@@ -1,0 +1,12 @@
+{
+    "title": "A proof of convergence of inverse reinforcement learning for multi-objective optimization. (arXiv:2305.06137v1 [cs.LG])",
+    "abstract": "We show the convergence of Wasserstein inverse reinforcement learning (WIRL) for multi-objective optimizations with the projective subgradient method by formulating an inverse problem of the optimization problem that is equivalent to WIRL for multi-objective optimizations.  In addition, we prove convergence of inverse reinforcement learning (maximum entropy inverse reinforcement learning, guid cost learning) for multi-objective optimization with the projective subgradient method.",
+    "link": "http://arxiv.org/abs/2305.06137",
+    "context": "Title: A proof of convergence of inverse reinforcement learning for multi-objective optimization. (arXiv:2305.06137v1 [cs.LG])\nAbstract: We show the convergence of Wasserstein inverse reinforcement learning (WIRL) for multi-objective optimizations with the projective subgradient method by formulating an inverse problem of the optimization problem that is equivalent to WIRL for multi-objective optimizations.  In addition, we prove convergence of inverse reinforcement learning (maximum entropy inverse reinforcement learning, guid cost learning) for multi-objective optimization with the projective subgradient method.",
+    "path": "papers/23/05/2305.06137.json",
+    "total_tokens": 587,
+    "translated_title": "多目标优化的逆强化学习的收敛性证明研究",
+    "translated_abstract": "本文通过将等效于多目标优化的WIRL问题的逆问题与投影次梯度法相结合，证明了Wasserstein逆强化学习（WIRL）在多目标优化中的收敛性。此外，我们还证明了逆强化学习（最大熵逆强化学习，导引成本学习）在多目标优化中的收敛性。",
+    "tldr": "本论文证明了多目标优化的逆强化学习方法在理论层面上的收敛性，包括Wasserstein逆强化学习和常规逆强化学习方法。",
+    "en_tdlr": "This paper proves the theoretical convergence of inverse reinforcement learning methods for multi-objective optimization, including Wasserstein inverse reinforcement learning and conventional inverse reinforcement learning methods."
+}

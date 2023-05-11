@@ -1,0 +1,12 @@
+{
+    "title": "Faster Exact MPE and Constrained Optimization with Deterministic Finite State Automata. (arXiv:2108.03899v3 [cs.AI] UPDATED)",
+    "abstract": "We propose a concise function representation based on deterministic finite state automata for exact most probable explanation and constrained optimization tasks in graphical models. We then exploit our concise representation within Bucket Elimination (BE). We denote our version of BE as FABE. FABE significantly improves the performance of BE in terms of runtime and memory requirements by minimizing redundancy. Results on most probable explanation and weighted constraint satisfaction benchmarks show that FABE often outperforms the state of the art, leading to significant runtime improvements (up to 5 orders of magnitude in our tests).",
+    "link": "http://arxiv.org/abs/2108.03899",
+    "context": "Title: Faster Exact MPE and Constrained Optimization with Deterministic Finite State Automata. (arXiv:2108.03899v3 [cs.AI] UPDATED)\nAbstract: We propose a concise function representation based on deterministic finite state automata for exact most probable explanation and constrained optimization tasks in graphical models. We then exploit our concise representation within Bucket Elimination (BE). We denote our version of BE as FABE. FABE significantly improves the performance of BE in terms of runtime and memory requirements by minimizing redundancy. Results on most probable explanation and weighted constraint satisfaction benchmarks show that FABE often outperforms the state of the art, leading to significant runtime improvements (up to 5 orders of magnitude in our tests).",
+    "path": "papers/21/08/2108.03899.json",
+    "total_tokens": 753,
+    "translated_title": "基于确定性有限状态自动机的精确最可能解和约束优化的更快方法",
+    "translated_abstract": "我们提出了一种基于确定性有限状态自动机的简洁函数表示，用于解决图模型中的精确最可能解和约束优化任务。然后我们在Bucket消除（BE）中利用我们简洁的表示方法，我们将我们的BE版本称为FABE。通过最小化冗余，FABE显著改善了BE在运行时间和内存需求方面的性能。在最可能解和加权约束满足基准测试中的结果表明，FABE通常优于现有技术，导致显着的运行时间改进（在我们的测试中高达5个数量级）。",
+    "tldr": "本文提出了一种基于确定性有限状态自动机的简洁函数表示方法FABE，可以更快地处理图模型中的精确最可能解和约束优化任务。在基准测试中，FABE通常优于现有技术，导致显着的运行时间改进（高达5个数量级）。",
+    "en_tdlr": "This paper proposes a concise function representation method, FABE, based on deterministic finite state automata, which can handle exact most probable explanation and constrained optimization tasks in graphical models faster. FABE usually outperforms state of the art in benchmark tests, leading to significant runtime improvements (up to 5 orders of magnitude in their tests)."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "The Compositional Structure of Bayesian Inference. (arXiv:2305.06112v1 [math.CT])",
+    "abstract": "Bayes' rule tells us how to invert a causal process in order to update our beliefs in light of new evidence. If the process is believed to have a complex compositional structure, we may observe that the inversion of the whole can be computed piecewise in terms of the component processes. We study the structure of this compositional rule, noting that it relates to the lens pattern in functional programming. Working in a suitably general axiomatic presentation of a category of Markov kernels, we see how we can think of Bayesian inversion as a particular instance of a state-dependent morphism in a fibred category. We discuss the compositional nature of this, formulated as a functor on the underlying category and explore how this can used for a more type-driven approach to statistical inference.",
+    "link": "http://arxiv.org/abs/2305.06112",
+    "context": "Title: The Compositional Structure of Bayesian Inference. (arXiv:2305.06112v1 [math.CT])\nAbstract: Bayes' rule tells us how to invert a causal process in order to update our beliefs in light of new evidence. If the process is believed to have a complex compositional structure, we may observe that the inversion of the whole can be computed piecewise in terms of the component processes. We study the structure of this compositional rule, noting that it relates to the lens pattern in functional programming. Working in a suitably general axiomatic presentation of a category of Markov kernels, we see how we can think of Bayesian inversion as a particular instance of a state-dependent morphism in a fibred category. We discuss the compositional nature of this, formulated as a functor on the underlying category and explore how this can used for a more type-driven approach to statistical inference.",
+    "path": "papers/23/05/2305.06112.json",
+    "total_tokens": 738,
+    "translated_title": "贝叶斯推断的组合结构",
+    "translated_abstract": "贝叶斯规则告诉我们如何反转因果过程以根据新证据更新我们的信念。如果认为该过程具有复杂的组合结构，我们可以观察到整个过程的反转可以按部件过程计算。我们研究了这种组成规则的结构，注意到它与函数式编程中的凸透镜模式相关。在适当的Markov核范畴的公理化表述中工作，我们看到了如何将贝叶斯反演看作是纤维范畴中状态依赖态射的特定实例。我们讨论了其组合性质，以底层类别上的函子表述，并探讨了如何将其用于更加类型驱动的统计推断方法。",
+    "tldr": "该论文研究了贝叶斯反演在复杂组合结构中的计算方法，并探讨了将其用作统计推断的类型驱动方法。"
+}

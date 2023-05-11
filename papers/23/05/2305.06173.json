@@ -1,0 +1,12 @@
+{
+    "title": "QICHWABASE: A Quechua Language and Knowledge Base for Quechua Communities. (arXiv:2305.06173v1 [cs.CL])",
+    "abstract": "Over the last decade, the Web has increasingly become a space of language and knowledge representation. However, it is only true for well-spread languages and well-established communities, while minority communities and their resources received less attention. In this paper, we propose QICHWABASE to support the harmonization process of the Quechua language and knowledge, and its community. For doing it, we adopt methods and tools that could become a game changer in favour of Quechua communities around the world. We conclude that the methodology and tools adopted on building QICHWABASE, which is a Wikibase instance, could enhance the presence of minorities on the Web.",
+    "link": "http://arxiv.org/abs/2305.06173",
+    "context": "Title: QICHWABASE: A Quechua Language and Knowledge Base for Quechua Communities. (arXiv:2305.06173v1 [cs.CL])\nAbstract: Over the last decade, the Web has increasingly become a space of language and knowledge representation. However, it is only true for well-spread languages and well-established communities, while minority communities and their resources received less attention. In this paper, we propose QICHWABASE to support the harmonization process of the Quechua language and knowledge, and its community. For doing it, we adopt methods and tools that could become a game changer in favour of Quechua communities around the world. We conclude that the methodology and tools adopted on building QICHWABASE, which is a Wikibase instance, could enhance the presence of minorities on the Web.",
+    "path": "papers/23/05/2305.06173.json",
+    "total_tokens": 718,
+    "translated_title": "QICHWABASE: 一个面向凯楚亚社区的凯楚亚语言和知识库",
+    "translated_abstract": "近十年来，网络越来越成为语言和知识表示的空间。然而，这只针对广泛流行的语言和社区，在少数民族社区和其资源方面却受到较少关注。本文提出了QICHWABASE以支持凯楚亚语言和知识及其社区的和谐进程。为此，我们采用了一些方法和工具，能够成为全球凯楚亚社区的助推器。我们得出的结论是，在构建QICHWABASE，即一个Wikibase实例时采用的方法和工具能够增强少数民族在网络上的存在感。",
+    "tldr": "QICHWABASE为少数民族语言和知识构建Wikibase实例，支持凯楚亚社区和谐进程，能增强少数民族在网络上的存在感。",
+    "en_tdlr": "QICHWABASE is a Wikibase instance constructed for minority languages and knowledge, supporting the harmonization process of the Quechua language and knowledge, which enhances the presence of minority communities on the Web."
+}

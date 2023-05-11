@@ -1,0 +1,12 @@
+{
+    "title": "Social distancing in networks: A web-based interactive experiment. (arXiv:2012.12118v4 [econ.GN] UPDATED)",
+    "abstract": "Governments have used social distancing to stem the spread of COVID-19, but lack evidence on the most effective policy to ensure compliance. We examine the effectiveness of fines and informational messages (nudges) in promoting social distancing in a web-based interactive experiment conducted during the first wave of the pandemic on a near-representative sample of the US population. Fines promote distancing, but nudges only have a marginal impact. Individuals do more social distancing when they are aware they are a superspreader. Using an instrumental variable approach, we argue progressives are more likely to practice distancing, and they are marginally more responsive to fines.",
+    "link": "http://arxiv.org/abs/2012.12118",
+    "context": "Title: Social distancing in networks: A web-based interactive experiment. (arXiv:2012.12118v4 [econ.GN] UPDATED)\nAbstract: Governments have used social distancing to stem the spread of COVID-19, but lack evidence on the most effective policy to ensure compliance. We examine the effectiveness of fines and informational messages (nudges) in promoting social distancing in a web-based interactive experiment conducted during the first wave of the pandemic on a near-representative sample of the US population. Fines promote distancing, but nudges only have a marginal impact. Individuals do more social distancing when they are aware they are a superspreader. Using an instrumental variable approach, we argue progressives are more likely to practice distancing, and they are marginally more responsive to fines.",
+    "path": "papers/20/12/2012.12118.json",
+    "total_tokens": 805,
+    "translated_title": "社交网络中的社交距离：一个基于Web的互动实验",
+    "translated_abstract": "政府使用社交距离来遏制新冠病毒的传播，但是缺乏关于最有效的政策以确保遵守的证据。我们在流行病第一波期间在美国人口的近似代表样本上进行了一个基于Web的交互式实验，研究了罚款和信息提示（nudges）在促进社交距离方面的有效性。罚款可以促进社交距离，但提示仅有微弱的影响。当人们意识到自己是超级传播者时，他们会进行更多的社交距离。使用工具变量方法，我们认为进步派更有可能实行社交距离，并且他们对罚款的反应更强。",
+    "tldr": "本文通过一个基于Web的交互实验，发现罚款可以促进社交距离，但信息提示却只有微弱影响。人们意识到自己是超级传播者时，会进行更多的社交距离，进步派更有可能实行社交距离，并且对罚款的反应更强。",
+    "en_tdlr": "This paper finds that fines can promote social distancing, but nudges have only a marginal impact. Individuals do more social distancing when they are aware they are a superspreader. Progressives are more likely to practice distancing, and they are marginally more responsive to fines, according to the instrumental variable approach."
+}

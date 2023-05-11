@@ -1,0 +1,12 @@
+{
+    "title": "Address Matching Based On Hierarchical Information. (arXiv:2305.05874v1 [cs.CL])",
+    "abstract": "There is evidence that address matching plays a crucial role in many areas such as express delivery, online shopping and so on. Address has a hierarchical structure, in contrast to unstructured texts, which can contribute valuable information for address matching. Based on this idea, this paper proposes a novel method to leverage the hierarchical information in deep learning method that not only improves the ability of existing methods to handle irregular address, but also can pay closer attention to the special part of address. Experimental findings demonstrate that the proposed method improves the current approach by 3.2% points.",
+    "link": "http://arxiv.org/abs/2305.05874",
+    "context": "Title: Address Matching Based On Hierarchical Information. (arXiv:2305.05874v1 [cs.CL])\nAbstract: There is evidence that address matching plays a crucial role in many areas such as express delivery, online shopping and so on. Address has a hierarchical structure, in contrast to unstructured texts, which can contribute valuable information for address matching. Based on this idea, this paper proposes a novel method to leverage the hierarchical information in deep learning method that not only improves the ability of existing methods to handle irregular address, but also can pay closer attention to the special part of address. Experimental findings demonstrate that the proposed method improves the current approach by 3.2% points.",
+    "path": "papers/23/05/2305.05874.json",
+    "total_tokens": 697,
+    "translated_title": "基于层级信息的地址匹配",
+    "translated_abstract": "有证据显示，地址匹配在许多领域中发挥着至关重要的作用，比如快递、在线购物等。地址具有分层结构，与非结构化文本形成对比，这可以为地址匹配提供有价值的信息。基于这种想法，本文提出了一种新的方法，利用深度学习方法中的层级信息，不仅提高了现有方法处理不规则地址的能力，还可以更密切地关注地址的特殊部分。实验结果表明，所提出的方法将现有方法的性能提高了3.2个百分点。",
+    "tldr": "本文提出了一种基于层级信息的地址匹配方法，通过利用深度学习方法中的层级信息，提高了现有方法处理不规则地址的能力，并可以更加关注地址的特殊部分，实验结果表明性能提高了3.2个百分点。",
+    "en_tdlr": "This paper proposes a novel method for address matching based on hierarchical information, which leverages deep learning to improve the ability of existing methods to handle irregular address and focus on the special part of address, achieving a 3.2% performance improvement."
+}

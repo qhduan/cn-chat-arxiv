@@ -1,0 +1,12 @@
+{
+    "title": "Learning Robust Self-attention Features for Speech Emotion Recognition with Label-adaptive Mixup. (arXiv:2305.06273v1 [cs.CL])",
+    "abstract": "Speech Emotion Recognition (SER) is to recognize human emotions in a natural verbal interaction scenario with machines, which is considered as a challenging problem due to the ambiguous human emotions. Despite the recent progress in SER, state-of-the-art models struggle to achieve a satisfactory performance. We propose a self-attention based method with combined use of label-adaptive mixup and center loss. By adapting label probabilities in mixup and fitting center loss to the mixup training scheme, our proposed method achieves a superior performance to the state-of-the-art methods.",
+    "link": "http://arxiv.org/abs/2305.06273",
+    "context": "Title: Learning Robust Self-attention Features for Speech Emotion Recognition with Label-adaptive Mixup. (arXiv:2305.06273v1 [cs.CL])\nAbstract: Speech Emotion Recognition (SER) is to recognize human emotions in a natural verbal interaction scenario with machines, which is considered as a challenging problem due to the ambiguous human emotions. Despite the recent progress in SER, state-of-the-art models struggle to achieve a satisfactory performance. We propose a self-attention based method with combined use of label-adaptive mixup and center loss. By adapting label probabilities in mixup and fitting center loss to the mixup training scheme, our proposed method achieves a superior performance to the state-of-the-art methods.",
+    "path": "papers/23/05/2305.06273.json",
+    "total_tokens": 738,
+    "translated_title": "学习鲁棒性的自注意力特征和标签自适应Mixup在语音情感识别中的应用",
+    "translated_abstract": "语音情感识别(SER)在与机器进行自然语言交互的情境下，旨在识别人类的情感，由于人类情感的不确定性，这被认为是一个具有挑战性的问题。尽管近年来在SER的研究中取得了一些进展，但最先进的模型仍然难以达到令人满意的性能。我们提出了一种基于自注意力的方法，该方法结合了标签自适应Mixup和中心损失。通过将混合数据中的标签概率进行适应性调整并将中心损失适应于该混合训练策略，我们的方法在性能上优于最先进的方法。",
+    "tldr": "本文提出了一种基于自注意力和标签自适应Mixup技术的方法，在语音情感识别中取得了优越的性能，能够有效地应对人类情感的不确定性。",
+    "en_tdlr": "This paper proposes a self-attention based method with the combined use of label-adaptive mixup and center loss for speech emotion recognition, achieving superior performance to state-of-the-art methods by adapting label probabilities and fitting center loss to the mixup training scheme."
+}

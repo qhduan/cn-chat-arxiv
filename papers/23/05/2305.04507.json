@@ -1,0 +1,12 @@
+{
+    "title": "FedZKP: Federated Model Ownership Verification with Zero-knowledge Proof. (arXiv:2305.04507v2 [cs.CR] UPDATED)",
+    "abstract": "Federated learning (FL) allows multiple parties to cooperatively learn a federated model without sharing private data with each other. The need of protecting such federated models from being plagiarized or misused, therefore, motivates us to propose a provable secure model ownership verification scheme using zero-knowledge proof, named FedZKP. It is shown that the FedZKP scheme without disclosing credentials is guaranteed to defeat a variety of existing and potential attacks. Both theoretical analysis and empirical studies demonstrate the security of FedZKP in the sense that the probability for attackers to breach the proposed FedZKP is negligible. Moreover, extensive experimental results confirm the fidelity and robustness of our scheme.",
+    "link": "http://arxiv.org/abs/2305.04507",
+    "context": "Title: FedZKP: Federated Model Ownership Verification with Zero-knowledge Proof. (arXiv:2305.04507v2 [cs.CR] UPDATED)\nAbstract: Federated learning (FL) allows multiple parties to cooperatively learn a federated model without sharing private data with each other. The need of protecting such federated models from being plagiarized or misused, therefore, motivates us to propose a provable secure model ownership verification scheme using zero-knowledge proof, named FedZKP. It is shown that the FedZKP scheme without disclosing credentials is guaranteed to defeat a variety of existing and potential attacks. Both theoretical analysis and empirical studies demonstrate the security of FedZKP in the sense that the probability for attackers to breach the proposed FedZKP is negligible. Moreover, extensive experimental results confirm the fidelity and robustness of our scheme.",
+    "path": "papers/23/05/2305.04507.json",
+    "total_tokens": 772,
+    "translated_title": "FedZKP：使用零知识证明的联邦模型所有权验证",
+    "translated_abstract": "联邦学习允许多个参与方在不共享私有数据的情况下合作学习联邦模型。为了保护这种联邦模型免受抄袭或滥用的侵害，我们提出了一种可证明安全的模型所有权验证方案，称为FedZKP。研究表明，FedZKP方案在不公开凭据的情况下，能够抵御各种现有和潜在的攻击。理论分析和实证研究均证明了FedZKP的安全性，攻击者破解该方案的概率可以忽略不计。此外，广泛的实验结果证实了我们方案的准确性和鲁棒性。",
+    "tldr": "提出了一种名为FedZKP的联邦模型所有权验证方案，使用零知识证明，可在不公开凭据的情况下抵御各种攻击，并在理论分析和实证研究中证明了其安全性和准确性。",
+    "en_tdlr": "Proposed FedZKP, a secure model ownership verification scheme for federated learning using zero-knowledge proof, which can resist a variety of attacks without disclosing credentials. Theoretical and empirical studies have shown its security and fidelity."
+}

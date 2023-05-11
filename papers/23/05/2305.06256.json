@@ -1,0 +1,12 @@
+{
+    "title": "Yquilibrium: A Theory for (Non-) Convex Economies. (arXiv:2305.06256v1 [econ.TH])",
+    "abstract": "General equilibrium, the cornerstone of modern economics and finance, rests on assumptions many markets do not meet. Spectrum auctions, electricity markets, and cap-and-trade programs for resource rights often feature non-convexities in preferences or production that can cause non-existence of Walrasian equilibrium and render general equilibrium vacuous. Yquilibrium complements general equilibrium with an optimization approach to (non-) convex economies that does not require perfect competition. Yquilibrium coincides with Walrasian equilibrium when the latter exists. Yquilibrium exists even if Walrasian equilibrium ceases to and produces optimal allocations subject to linear, anonymous, and (approximately) utility-clearing prices.",
+    "link": "http://arxiv.org/abs/2305.06256",
+    "context": "Title: Yquilibrium: A Theory for (Non-) Convex Economies. (arXiv:2305.06256v1 [econ.TH])\nAbstract: General equilibrium, the cornerstone of modern economics and finance, rests on assumptions many markets do not meet. Spectrum auctions, electricity markets, and cap-and-trade programs for resource rights often feature non-convexities in preferences or production that can cause non-existence of Walrasian equilibrium and render general equilibrium vacuous. Yquilibrium complements general equilibrium with an optimization approach to (non-) convex economies that does not require perfect competition. Yquilibrium coincides with Walrasian equilibrium when the latter exists. Yquilibrium exists even if Walrasian equilibrium ceases to and produces optimal allocations subject to linear, anonymous, and (approximately) utility-clearing prices.",
+    "path": "papers/23/05/2305.06256.json",
+    "total_tokens": 812,
+    "translated_title": "Yquilibrium: (非)凸经济的一种理论",
+    "translated_abstract": "现代经济学和金融学的基石——一般均衡，是建立在许多市场并不符合的假设之上的。频谱拍卖、电力市场以及有关资源权利的配额交易计划通常包含偏好或生产上的非凸性，这可能导致沃尔拉斯均衡不存在，从而使一般均衡没有意义。Yquilibrium是一种跟通用均衡理论相辅相成的优化方法，适用于(非)凸的经济市场，它不需要完全竞争的条件。当沃尔拉斯均衡存在时，Yquilibrium与之完全一致。即使沃尔拉斯均衡不存在，Yquilibrium 仍然存在，并提供了在线性、匿名和(近似) 出清效用价格的约束下的最优分配方案。",
+    "tldr": "Yquilibrium是一种适用于(非)凸经济市场的理论，与一般均衡理论相辅相成，不需要完全竞争的条件。它可以在沃尔拉斯均衡不存在时发挥作用，并产生最优分配方案。",
+    "en_tdlr": "Yquilibrium is a theory for (non-)convex economies that complements general equilibrium, requiring no perfect competition. It provides optimal allocations subject to linear, anonymous, and (approximately) utility-clearing prices, even in the absence of Walrasian equilibrium."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Fine-tuning Language Models with Generative Adversarial Feedback. (arXiv:2305.06176v1 [cs.CL])",
+    "abstract": "Reinforcement Learning with Human Feedback (RLHF) has been demonstrated to significantly enhance the performance of large language models (LLMs) by aligning their outputs with desired human values. However, RLHF is constrained by the expertise and productivity limitations of human evaluators. In this study, we investigate an alternative approach: Reinforcement Learning with Generative Adversarial Feedback (RLGAF) to RLHF. Our preliminary findings indicate that RLGAF can help align LLMs outputs while not suffering from the inherent restrictions of RLHF, suggesting promising avenues for further research on automating AI alignment.",
+    "link": "http://arxiv.org/abs/2305.06176",
+    "context": "Title: Fine-tuning Language Models with Generative Adversarial Feedback. (arXiv:2305.06176v1 [cs.CL])\nAbstract: Reinforcement Learning with Human Feedback (RLHF) has been demonstrated to significantly enhance the performance of large language models (LLMs) by aligning their outputs with desired human values. However, RLHF is constrained by the expertise and productivity limitations of human evaluators. In this study, we investigate an alternative approach: Reinforcement Learning with Generative Adversarial Feedback (RLGAF) to RLHF. Our preliminary findings indicate that RLGAF can help align LLMs outputs while not suffering from the inherent restrictions of RLHF, suggesting promising avenues for further research on automating AI alignment.",
+    "path": "papers/23/05/2305.06176.json",
+    "total_tokens": 750,
+    "translated_title": "通过生成对抗反馈对语言模型进行微调",
+    "translated_abstract": "通过人类反馈的强化学习已经显著提高了大型语言模型(LLMs)的性能，使其输出与人类期望的价值观保持一致。然而，RLHF受到人类评估者的专业知识和生产力限制。在本研究中，我们研究了一种替代方法: 使用生成对抗反馈的强化学习(RLGAF)代替RLHF。我们的初步发现表明，RLGAF可以帮助对齐LLM的输出，同时不会受到RLHF固有的限制，为进一步自动化AI对齐的研究提供了有希望的途径。",
+    "tldr": "本研究探讨了一种新的方法，使用生成对抗反馈的强化学习(RLGAF)对大型语言模型进行微调，以取代仅受人类反馈的强化学习(RLHF)，从而消除评估者的专业限制并提高性能。",
+    "en_tdlr": "This study investigates a new method, Reinforcement Learning with Generative Adversarial Feedback (RLGAF), to fine-tune large language models (LLMs) by replacing Reinforcement Learning with Human Feedback (RLHF), thus eliminating evaluator's expertise limitations and potentially improving performance."
+}

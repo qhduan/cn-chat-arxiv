@@ -1,0 +1,12 @@
+{
+    "title": "ComputeGPT: A computational chat model for numerical problems. (arXiv:2305.06223v1 [cs.PL])",
+    "abstract": "Language models are not accurate in numerical problems. Their architecture does not allow for anything less than a probabilistic next word. This paper introduces ComputeGPT: an approach of creating a chat model able to answer computational problems through running on-demand code. ComputeGPT converts each question to relevant code, runs the code, and returns the computed answer as part of the chat. We combine this approach with a local browser-based Python interpretation and fine-tuned prompts in order to achieve state-of-the-art efficiency on numerical problems and provide a suitable front-end and safe environment for the code to be executed in.",
+    "link": "http://arxiv.org/abs/2305.06223",
+    "context": "Title: ComputeGPT: A computational chat model for numerical problems. (arXiv:2305.06223v1 [cs.PL])\nAbstract: Language models are not accurate in numerical problems. Their architecture does not allow for anything less than a probabilistic next word. This paper introduces ComputeGPT: an approach of creating a chat model able to answer computational problems through running on-demand code. ComputeGPT converts each question to relevant code, runs the code, and returns the computed answer as part of the chat. We combine this approach with a local browser-based Python interpretation and fine-tuned prompts in order to achieve state-of-the-art efficiency on numerical problems and provide a suitable front-end and safe environment for the code to be executed in.",
+    "path": "papers/23/05/2305.06223.json",
+    "total_tokens": 696,
+    "translated_title": "ComputeGPT：适用于数值问题的计算型聊天模型",
+    "translated_abstract": "语言模型在解决数值问题上不够精确，其结构要求的是概率性的下一个单词。本文提出了ComputeGPT：一种通过按需运行代码来解决计算问题的聊天模型。ComputeGPT将每个问题转换为相关的代码，运行代码并将计算结果作为聊天的一部分返回。我们将这种方法与基于本地浏览器的Python解释器和优化的提示相结合，以实现最先进的数值问题效率，并为代码提供合适的前端和安全环境。",
+    "tldr": "ComputeGPT是一种计算型聊天模型，可以通过运行代码解决数值问题，结合本地浏览器的Python解释器和优化的提示，实现最先进的数值问题效率并为代码提供合适的前端和安全环境。",
+    "en_tdlr": "ComputeGPT is a computational chat model that can solve numerical problems through running on-demand code. By combining with a local browser-based Python interpreter and fine-tuned prompts, it achieves state-of-the-art efficiency and provides a suitable front-end and safe environment for the code to be executed in."
+}

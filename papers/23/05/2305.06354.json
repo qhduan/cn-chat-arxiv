@@ -1,0 +1,12 @@
+{
+    "title": "Multiple Adjusted Quantiles. (arXiv:2305.06354v1 [econ.TH])",
+    "abstract": "We cardinally and ordinally rank distribution functions (CDFs). We present a new class of statistics, maximal adjusted quantiles, and show that a statistic is invariant with respect to cardinal shifts, preserves least upper bounds with respect to the first order stochastic dominance relation, and is lower semicontinuous if and only if it is a maximal adjusted quantile. A dual result is provided, as are ordinal results. Preservation of least upper bounds is given several interpretations, including one that relates to changes in tax brackets, and one that relates to valuing options composed of two assets.",
+    "link": "http://arxiv.org/abs/2305.06354",
+    "context": "Title: Multiple Adjusted Quantiles. (arXiv:2305.06354v1 [econ.TH])\nAbstract: We cardinally and ordinally rank distribution functions (CDFs). We present a new class of statistics, maximal adjusted quantiles, and show that a statistic is invariant with respect to cardinal shifts, preserves least upper bounds with respect to the first order stochastic dominance relation, and is lower semicontinuous if and only if it is a maximal adjusted quantile. A dual result is provided, as are ordinal results. Preservation of least upper bounds is given several interpretations, including one that relates to changes in tax brackets, and one that relates to valuing options composed of two assets.",
+    "path": "papers/23/05/2305.06354.json",
+    "total_tokens": 655,
+    "translated_title": "多重调整分位数。",
+    "translated_abstract": "我们通过基数和序数排列分布函数（CDFs）。 我们提出了一种新的统计量类别——最大调整分位数，并证明一个统计量在基数位移方面具有不变性，在第一阶随机优势关系方面保留上确界，如果且仅如果它是最大调整分位数，则是下半连续的。我们提供了一个双重结果，以及有序结果。保留上确界具有多种解释，包括与税档变化有关，以及与由两个资产组成的期权的估值有关。",
+    "tldr": "本文介绍了一种新的最大调整分位数统计量，具有不变性和上确界保留性，可以用于多种应用场景。",
+    "en_tdlr": "This paper introduces a new class of statistics, maximal adjusted quantiles, which are invariant with respect to cardinal shifts and preserve least upper bounds with respect to the first-order stochastic dominance relation. It has multiple interpretations, including applications to changes in tax brackets and valuing options composed of two assets."
+}

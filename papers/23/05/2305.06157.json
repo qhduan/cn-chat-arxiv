@@ -1,0 +1,12 @@
+{
+    "title": "Implications of Multi-Word Expressions on English to Bharti Braille Machine Translation. (arXiv:2305.06157v1 [cs.CL])",
+    "abstract": "In this paper, we have shown the improvement of English to Bharti Braille machine translation system. We have shown how we can improve a baseline NMT model by adding some linguistic knowledge to it. This was done for five language pairs where English sentences were translated into five Indian languages and then subsequently to corresponding Bharti Braille. This has been demonstrated by adding a sub-module for translating multi-word expressions. The approach shows promising results as across language pairs, we could see improvement in the quality of NMT outputs. The least improvement was observed in English-Nepali language pair with 22.08% and the most improvement was observed in the English-Hindi language pair with 23.30%.",
+    "link": "http://arxiv.org/abs/2305.06157",
+    "context": "Title: Implications of Multi-Word Expressions on English to Bharti Braille Machine Translation. (arXiv:2305.06157v1 [cs.CL])\nAbstract: In this paper, we have shown the improvement of English to Bharti Braille machine translation system. We have shown how we can improve a baseline NMT model by adding some linguistic knowledge to it. This was done for five language pairs where English sentences were translated into five Indian languages and then subsequently to corresponding Bharti Braille. This has been demonstrated by adding a sub-module for translating multi-word expressions. The approach shows promising results as across language pairs, we could see improvement in the quality of NMT outputs. The least improvement was observed in English-Nepali language pair with 22.08% and the most improvement was observed in the English-Hindi language pair with 23.30%.",
+    "path": "papers/23/05/2305.06157.json",
+    "total_tokens": 740,
+    "translated_title": "多词语对于英语到巴提盲文机器翻译的影响",
+    "translated_abstract": "本文研究了如何提高英语到巴提盲文机器翻译系统，通过在基线神经机器翻译模型中加入语言知识，对五种语言对进行实验，即将英语句子翻译成五种印度语言，并随后翻译成相应的巴提盲文。通过添加子模块翻译多词语，本研究显示了可行的方法，跨语言对 NMT 输出质量有所提高。最小的改进出现在英语-尼泊尔语对中，为 22.08%，最大的改进出现在英语-印地语对中，为 23.30%。",
+    "tldr": "本文通过给基线神经机器翻译模型添加语言知识及多词语翻译子模块，在英语到巴提盲文机器翻译中取得了显著的改进。",
+    "en_tdlr": "This paper demonstrates significant improvement in English to Bharti Braille machine translation by adding linguistic knowledge and a sub-module for translating multi-word expressions to the baseline NMT model."
+}

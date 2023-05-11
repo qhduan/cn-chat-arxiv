@@ -1,0 +1,12 @@
+{
+    "title": "ChatGPT as a Text Simplification Tool to Remove Bias. (arXiv:2305.06166v1 [cs.CL])",
+    "abstract": "The presence of specific linguistic signals particular to a certain sub-group of people can be picked up by language models during training. This may lead to discrimination if the model has learnt to pick up on a certain group's language. If the model begins to associate specific language with a distinct group, any decisions made based upon this language would hold a strong correlation to a decision based on their protected characteristic. We explore a possible technique for bias mitigation in the form of simplification of text. The driving force of this idea is that simplifying text should standardise language to one way of speaking while keeping the same meaning. The experiment shows promising results as the classifier accuracy for predicting the sensitive attribute drops by up to 17% for the simplified data.",
+    "link": "http://arxiv.org/abs/2305.06166",
+    "context": "Title: ChatGPT as a Text Simplification Tool to Remove Bias. (arXiv:2305.06166v1 [cs.CL])\nAbstract: The presence of specific linguistic signals particular to a certain sub-group of people can be picked up by language models during training. This may lead to discrimination if the model has learnt to pick up on a certain group's language. If the model begins to associate specific language with a distinct group, any decisions made based upon this language would hold a strong correlation to a decision based on their protected characteristic. We explore a possible technique for bias mitigation in the form of simplification of text. The driving force of this idea is that simplifying text should standardise language to one way of speaking while keeping the same meaning. The experiment shows promising results as the classifier accuracy for predicting the sensitive attribute drops by up to 17% for the simplified data.",
+    "path": "papers/23/05/2305.06166.json",
+    "total_tokens": 750,
+    "translated_title": "ChatGPT作为去除偏见的文本简化工具",
+    "translated_abstract": "在训练期间，语言模型可以捕捉到特定子群体的特定语言信号，如果模型学习了捕捉某个群体的语言，可能会导致歧视。如果模型开始将特定语言与某个特定群体联系起来，基于此语言做出的任何决策都将与其受保护特征有着强烈的相关性。我们探索了一种可能的偏见缓解技术，即文本简化。这个想法的驱动力是简化文本应该标准化语言，使其以一种方式说话，同时保持相同的含义。实验显示，针对敏感属性预测的分类器精度会因使用简化数据而下降高达17%。",
+    "tldr": "ChatGPT作为文本简化工具可以去除语言模型在训练过程中对某些特定群体的偏见，减少模型的歧视性。（注：ChatGPT是一种基于Transformer的自然语言处理模型）",
+    "en_tdlr": "ChatGPT as a text simplification tool can remove bias in language models during training, reducing their potential for discrimination towards particular groups."
+}

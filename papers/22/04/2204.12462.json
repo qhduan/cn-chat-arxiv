@@ -1,0 +1,12 @@
+{
+    "title": "GMM is Inadmissible Under Weak Identification. (arXiv:2204.12462v3 [econ.EM] UPDATED)",
+    "abstract": "We consider estimation in moment condition models and show that under any bound on identification strength, asymptotically admissible (i.e. undominated) estimators in a wide class of estimation problems must be uniformly continuous in the sample moment function. GMM estimators are in general discontinuous in the sample moments, and are thus inadmissible. We show, by contrast, that bagged, or bootstrap aggregated, GMM estimators as well as quasi-Bayes posterior means have superior continuity properties, while results in the literature imply that they are equivalent to GMM when identification is strong. In simulations calibrated to published instrumental variables specifications, we find that these alternatives often outperform GMM.",
+    "link": "http://arxiv.org/abs/2204.12462",
+    "context": "Title: GMM is Inadmissible Under Weak Identification. (arXiv:2204.12462v3 [econ.EM] UPDATED)\nAbstract: We consider estimation in moment condition models and show that under any bound on identification strength, asymptotically admissible (i.e. undominated) estimators in a wide class of estimation problems must be uniformly continuous in the sample moment function. GMM estimators are in general discontinuous in the sample moments, and are thus inadmissible. We show, by contrast, that bagged, or bootstrap aggregated, GMM estimators as well as quasi-Bayes posterior means have superior continuity properties, while results in the literature imply that they are equivalent to GMM when identification is strong. In simulations calibrated to published instrumental variables specifications, we find that these alternatives often outperform GMM.",
+    "path": "papers/22/04/2204.12462.json",
+    "total_tokens": 819,
+    "translated_title": "GMM在弱识别下是不可接受的",
+    "translated_abstract": "我们考虑了矩条件模型的估计问题，并且证明了在任何识别强度的限制下，一类广泛的估计问题中，渐近无偏（即无支配）估计量必须在样本矩函数上是一致连续的。 GMM估计量在样本矩上通常是不连续的，因此是不可接受的。相比之下，我们展示了袋装或自举聚合的GMM估计量，以及准贝叶斯后验均值具有更好的连续性质，文献中的结果表明当收敛性强时，它们相当于GMM。在以已发表的工具变量规范为基础的模拟中，我们发现这些替代方法通常优于GMM。",
+    "tldr": "本文研究了矩条件模型的估计问题，证明了在弱识别条件下， GMM估计量是不可接受的，而袋装或自举聚合的GMM估计量及准贝叶斯后验均值具有更好的连续性质，模拟结果表明它们比GMM更优。",
+    "en_tdlr": "This paper investigates the estimation problem of moment condition models, and proves that under weak identification conditions, GMM estimators are inadmissible, while bagged or bootstrap aggregated GMM estimators and quasi-Bayes posterior means have superior continuity properties and usually outperform GMM."
+}
