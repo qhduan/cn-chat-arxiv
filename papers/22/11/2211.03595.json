@@ -1,0 +1,12 @@
+{
+    "title": "From Denoising Diffusions to Denoising Markov Models. (arXiv:2211.03595v2 [stat.ML] UPDATED)",
+    "abstract": "Denoising diffusions are state-of-the-art generative models exhibiting remarkable empirical performance. They work by diffusing the data distribution into a Gaussian distribution and then learning to reverse this noising process to obtain synthetic datapoints. The denoising diffusion relies on approximations of the logarithmic derivatives of the noised data densities using score matching. Such models can also be used to perform approximate posterior simulation when one can only sample from the prior and likelihood. We propose a unifying framework generalising this approach to a wide class of spaces and leading to an original extension of score matching. We illustrate the resulting models on various applications.",
+    "link": "http://arxiv.org/abs/2211.03595",
+    "context": "Title: From Denoising Diffusions to Denoising Markov Models. (arXiv:2211.03595v2 [stat.ML] UPDATED)\nAbstract: Denoising diffusions are state-of-the-art generative models exhibiting remarkable empirical performance. They work by diffusing the data distribution into a Gaussian distribution and then learning to reverse this noising process to obtain synthetic datapoints. The denoising diffusion relies on approximations of the logarithmic derivatives of the noised data densities using score matching. Such models can also be used to perform approximate posterior simulation when one can only sample from the prior and likelihood. We propose a unifying framework generalising this approach to a wide class of spaces and leading to an original extension of score matching. We illustrate the resulting models on various applications.",
+    "path": "papers/22/11/2211.03595.json",
+    "total_tokens": 722,
+    "translated_title": "从去噪扩散到去噪马尔科夫模型",
+    "translated_abstract": "去噪扩散是展现出卓越实验性能的最先进的生成模型。他们通过将数据分布扩散到高斯分布，然后学习逆转这个噪声过程以获取合成数据点。去噪扩散依赖于使用分数匹配对噪声数据密度的对数导数的逼近。当只能从先验分布和似然函数中进行抽样时，这种模型也可用于执行近似后验模拟。我们提出了一个统一框架，将此方法推广到一类广泛的空间，并导致分数匹配的原始扩展。我们通过各种应用程序说明了所得模型。",
+    "tldr": "本论文提出了一个统一的框架，将去噪扩散模型推广到广泛的空间中，并导致分数匹配的原始扩展，适用于各种应用程序。",
+    "en_tdlr": "This paper proposes a unified framework that generalizes the denoising diffusion model to a wide class of spaces, leading to an original extension of score matching, and is applicable to various applications."
+}

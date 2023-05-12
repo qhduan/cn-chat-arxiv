@@ -1,0 +1,12 @@
+{
+    "title": "Inflexible Multi-Asset Hedging of incomplete market. (arXiv:2211.00948v2 [q-fin.ST] UPDATED)",
+    "abstract": "Models trained under assumptions in the complete market usually don't take effect in the incomplete market. This paper solves the hedging problem in incomplete market with three sources of incompleteness: risk factor, illiquidity, and discrete transaction dates. A new jump-diffusion model is proposed to describe stochastic asset prices. Three neutral networks, including RNN, LSTM, Mogrifier-LSTM are used to attain hedging strategies with MSE Loss and Huber Loss implemented and compared.As a result, Mogrifier-LSTM is the fastest model with the best results under MSE and Huber Loss.",
+    "link": "http://arxiv.org/abs/2211.00948",
+    "context": "Title: Inflexible Multi-Asset Hedging of incomplete market. (arXiv:2211.00948v2 [q-fin.ST] UPDATED)\nAbstract: Models trained under assumptions in the complete market usually don't take effect in the incomplete market. This paper solves the hedging problem in incomplete market with three sources of incompleteness: risk factor, illiquidity, and discrete transaction dates. A new jump-diffusion model is proposed to describe stochastic asset prices. Three neutral networks, including RNN, LSTM, Mogrifier-LSTM are used to attain hedging strategies with MSE Loss and Huber Loss implemented and compared.As a result, Mogrifier-LSTM is the fastest model with the best results under MSE and Huber Loss.",
+    "path": "papers/22/11/2211.00948.json",
+    "total_tokens": 691,
+    "translated_title": "不灵活的多资产对冲不完全市场",
+    "translated_abstract": "通常情况下，基于完全市场的假设训练出的模型在不完全市场中不起作用。本文解决了存在风险因素、无流动性和离散交易日期三种不完整性的不完全市场对冲问题。提出了一种新的跳跃扩散模型描述了随机资产价格。采用了包括RNN、LSTM和Mogrifier-LSTM在内的三种神经网络来实现对冲策略，并实施和比较了MSE Loss和Huber Loss。结果表明，Mogrifier-LSTM是速度最快、在MSE和Huber Loss下结果最好的模型。",
+    "tldr": "本文提出了一种在不完全市场下对冲的方法，使用新的跳跃扩散模型和三种神经网络获得了较好的结果。",
+    "en_tdlr": "This paper proposes a method for hedging under incomplete market using a new jump-diffusion model and three neural networks, which achieved good results with Mogrifier-LSTM being the fastest and best model under both MSE and Huber Loss."
+}

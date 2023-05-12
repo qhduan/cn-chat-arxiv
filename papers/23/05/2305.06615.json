@@ -1,0 +1,12 @@
+{
+    "title": "Autocorrelations Decay in Texts and Applicability Limits of Language Models. (arXiv:2305.06615v1 [cs.CL])",
+    "abstract": "We show that the laws of autocorrelations decay in texts are closely related to applicability limits of language models. Using distributional semantics we empirically demonstrate that autocorrelations of words in texts decay according to a power law. We show that distributional semantics provides coherent autocorrelations decay exponents for texts translated to multiple languages. The autocorrelations decay in generated texts is quantitatively and often qualitatively different from the literary texts. We conclude that language models exhibiting Markov behavior, including large autoregressive language models, may have limitations when applied to long texts, whether analysis or generation.",
+    "link": "http://arxiv.org/abs/2305.06615",
+    "context": "Title: Autocorrelations Decay in Texts and Applicability Limits of Language Models. (arXiv:2305.06615v1 [cs.CL])\nAbstract: We show that the laws of autocorrelations decay in texts are closely related to applicability limits of language models. Using distributional semantics we empirically demonstrate that autocorrelations of words in texts decay according to a power law. We show that distributional semantics provides coherent autocorrelations decay exponents for texts translated to multiple languages. The autocorrelations decay in generated texts is quantitatively and often qualitatively different from the literary texts. We conclude that language models exhibiting Markov behavior, including large autoregressive language models, may have limitations when applied to long texts, whether analysis or generation.",
+    "path": "papers/23/05/2305.06615.json",
+    "total_tokens": 731,
+    "translated_title": "文本中的自相关衰减及语言模型的适用限制",
+    "translated_abstract": "我们展示了文本中自相关衰减定律与语言模型的适用限制密切相关。使用分布语义学，我们经验性地展示了文本中单词的自相关性按照幂律衰减。我们发现，分布语义学为翻译成多种语言的文本提供了一致的自相关衰减指数。生成文本中的自相关衰减在数量上和质量上通常与文学文本有所不同。我们得出结论，表现出马尔科夫行为的语言模型，包括大型自回归语言模型，在分析或生成长文本时可能存在局限性。",
+    "tldr": "文本中的自相关衰减与语言模型的适用限制密切相关，生成文本的自相关衰减与文学文本的不同，表现出马尔科夫行为的语言模型可能存在在处理长文本时的局限性。",
+    "en_tdlr": "Autocorrelations decay in texts are closely related to applicability limits of language models in handling long texts, showing quantitatively and qualitatively different results in generated texts from literary texts. Language models exhibiting Markov behavior may have limitations when analyzing or generating long texts."
+}

@@ -2,247 +2,202 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Evaluating Embedding APIs for Information Retrieval.](http://arxiv.org/abs/2305.06300) | 本篇论文旨在通过对语义嵌入API在实际检索场景中的分析,为从业者和研究人员找到适当的服务。结果表明，在英语上使用API重新排名BM25的结果是一种预算友好的最优做法。 |
-| [^2] | [FedPDD: A Privacy-preserving Double Distillation Framework for Cross-silo Federated Recommendation.](http://arxiv.org/abs/2305.06272) | 本文提出了一个名为FedPDD的隐私保护双重蒸馏框架，用于跨平台联邦推荐。该框架包括教师蒸馏和学生蒸馏两个阶段，在不传输模型信息的情况下，通过有效地转移知识和使用一种新的蒸馏损失函数来构建全局模型，实现了最先进的性能。 |
-| [^3] | [Multi-Task End-to-End Training Improves Conversational Recommendation.](http://arxiv.org/abs/2305.06218) | 本文表明，采用多任务端到端Transformer模型可以提高对话式推荐的性能，可竞争于先前采用复杂多组件方法的模型，通过微调我们的模型和额外的多任务学习设置，实现了知识在领域间的转移。 |
-| [^4] | [Searching Mobile App Screens via Text + Doodle.](http://arxiv.org/abs/2305.06165) | TpD为迭代搜索移动应用屏幕提供了交互式草图和关键字搜索技术的结合方法，使用户能够更快地查找所需屏幕。 |
-| [^5] | [EdgeNet : Encoder-decoder generative Network for Auction Design in E-commerce Online Advertising.](http://arxiv.org/abs/2305.06158) | EdgeNet是一种编码器-解码器生成网络，可用于在线电商广告拍卖中的数据驱动竞价设计。与传统模型相比，EdgeNet 可以更好地捕捉广告间的相互影响，并利用丰富的上下文信息，提高广告竞拍的效率。 |
-| [^6] | [CrudeBERT: Applying Economic Theory towards fine-tuning Transformer-based Sentiment Analysis Models to the Crude Oil Market.](http://arxiv.org/abs/2305.06140) | 本研究提出了一种识别及分类影响原油市场供需的新闻事件的方法，并据此设计了CrudeBERT情感分析模型，该模型优于其他专有和开源方案，为原油期货市场相关标题提供情感分类的改进表现。 |
-| [^7] | [Few-shot Link Prediction on N-ary Facts.](http://arxiv.org/abs/2305.06104) | 本文提出了一个新任务——少样本N-元事实链接预测，并提出了一个名为FLEN的模型来实现。FLEN由三个模块组成，可以从有限的标记实例中预测N-元事实中的缺失实体。 |
-| [^8] | [Piloting topic-aware research impact assessment features in BIP! Services.](http://arxiv.org/abs/2305.06047) | 本研究提出采用主题感知的分类影响指标来解决全局计算的引用影响指标在研究评估和知识发现等应用中难以正确解释的问题，并在BIP!服务中试点展示了这些指标的好处。 |
-| [^9] | [Privacy-Preserving Recommender Systems with Synthetic Query Generation using Differentially Private Large Language Models.](http://arxiv.org/abs/2305.05973) | 提出使用差分隐私大语言模型合成查询的隐私保护推荐系统，可以安全有效地训练深度检索模型并提高检索质量。 |
-| [^10] | [Auditing Cross-Cultural Consistency of Human-Annotated Labels for Recommendation Systems.](http://arxiv.org/abs/2305.05917) | 本文研究了基于人工注释标签的推荐系统中的跨文化一致性问题，提出了一组不一致概念化的游戏标签子集，并对跨国标注的文化和语言差异的原因进行了分析。作者还提供了一个通用框架，供从业人员审核自己的数据集。 |
-| [^11] | [Dual Intent Enhanced Graph Neural Network for Session-based New Item Recommendation.](http://arxiv.org/abs/2305.05848) | 本文提出了一种基于双意图增强的图神经网络，用于解决基于历史会话的推荐系统中无法推荐新产品的问题，并在实验中证明其有效性。 |
-| [^12] | [Extracting Complex Named Entities in Legal Documents via Weakly Supervised Object Detection.](http://arxiv.org/abs/2305.05836) | 本论文提出了一种新的方法，通过弱监督目标检测与文档布局分析相结合，可以有效地在法律文件中提取不连续的复杂命名实体，且模型在金标准数据有限时仍有优异表现。 |
-| [^13] | [Learning to Personalize Recommendation based on Customers' Shopping Intents.](http://arxiv.org/abs/2305.05279) | 本文介绍了亚马逊的新系统，利用深度学习模型将顾客的在线行为映射成为高级别购物意图，以便个性化推荐，提供更相关、可解释和多样化的购物体验。 |
-| [^14] | [Web Content Filtering through knowledge distillation of Large Language Models.](http://arxiv.org/abs/2305.05027) | 本文提出了一种基于大语言模型知识蒸馏的 URL 分类方法，可用于网络内容过滤，其学生模型在参数数量减少 175 倍的情况下，精度提升了 9%，超过了当前最先进方法。 |
-| [^15] | [What's happening in your neighborhood? A Weakly Supervised Approach to Detect Local News.](http://arxiv.org/abs/2301.08146) | 该论文介绍了一种自动化的本地新闻检测和基于内容的本地新闻推荐方法，通过弱监督框架和自动化数据处理，与传统方法相比具有更高的准确性和覆盖率。 |
-| [^16] | [An Empirical Study on How the Developers Discussed about Pandas Topics.](http://arxiv.org/abs/2210.03519) | 本研究通过收集Stack Overflow中与Pandas主题讨论相关的帖子，进行主题建模，发现了Pandas数据操作、数据分析和数据可视化等主题非常受欢迎，而数据清洗和数据挖掘等主题相对较难。 |
+| [^1] | [Recommendation as Instruction Following: A Large Language Model Empowered Recommendation Approach.](http://arxiv.org/abs/2305.07001) | 采用大型语言模型以指令遵循为方法的推荐系统，可以将用户偏好或需求进行自然语言描述，进而提高推荐精度。 |
+| [^2] | [AfriQA: Cross-lingual Open-Retrieval Question Answering for African Languages.](http://arxiv.org/abs/2305.06897) | AfriQA是第一个专注于非洲语言的跨语言QA数据集，弥补了非洲语言数字化内容不足的问题。实验结果表明自动翻译和多语言检索模型的性能较差，需要支持跨语言推理和转移学习的模型。 |
+| [^3] | [THUIR@COLIEE 2023: More Parameters and Legal Knowledge for Legal Case Entailment.](http://arxiv.org/abs/2305.06817) | 本文描述了THUIR团队在COLIEE 2023法律案例蕴涵任务中的方法，尝试了传统的词汇匹配方法和预训练语言模型，并采用学习排序方法进一步提高性能，结果表明更多的参数和法律知识对法律案例蕴涵任务有所贡献。 |
+| [^4] | [THUIR@COLIEE 2023: Incorporating Structural Knowledge into Pre-trained Language Models for Legal Case Retrieval.](http://arxiv.org/abs/2305.06812) | 本文总结了THUIR在COLIEE 2023比赛中的冠军方案，其将结构化知识融入预训练语言模型，提出启发式预处理和后处理方法，采用学习排序方法进行特征合并，实验结果显示其具有卓越的优势。 |
+| [^5] | [PerFedRec++: Enhancing Personalized Federated Recommendation with Self-Supervised Pre-Training.](http://arxiv.org/abs/2305.06622) | PerFedRec++采用自监督预训练技术，提高联邦推荐系统的个性化和推荐准确度。 |
+| [^6] | [Backdoor to the Hidden Ground State: Planted Vertex Cover Example.](http://arxiv.org/abs/2305.06610) | 本论文发现了在正则随机图中存在一种新类型的自由能重构，称为eureka点，通过eureka点可以轻易访问具有消失自由能屏障的隐藏基态。 |
+| [^7] | [How to Index Item IDs for Recommendation Foundation Models.](http://arxiv.org/abs/2305.06569) | 本研究对推荐基础模型的项目索引问题进行了系统检查，提出了一种新的上下文感知索引方法，该方法在项目推荐准确性和文本生成质量方面具有优势。 |
+| [^8] | [A First Look at LLM-Powered Generative News Recommendation.](http://arxiv.org/abs/2305.06566) | 本文介绍了一种LLM驱动的生成式新闻推荐框架GENRE，它利用预训练语义知识丰富新闻数据，通过从模型设计转移到提示设计提供灵活而统一的解决方案，实现了个性化新闻生成、用户画像和新闻摘要。 |
+| [^9] | [Do LLMs Understand User Preferences? Evaluating LLMs On User Rating Prediction.](http://arxiv.org/abs/2305.06474) | 本文研究了大型语言模型（LLMs）在用户评分预测任务中的表现，与传统的协同过滤方法进行对比。结果发现LLMs能够在较少数据的情况下保持优秀的性能，并且在零样本和少样本情况下表现很好。 |
+| [^10] | [Dynamic Graph Representation Learning for Depression Screening with Transformer.](http://arxiv.org/abs/2305.06447) | 利用Transformer进行抑郁症筛查，克服了传统方法的特征工程依赖和忽略时变因素的缺点。 |
+| [^11] | [Uncovering ChatGPT's Capabilities in Recommender Systems.](http://arxiv.org/abs/2305.02182) | 本研究从信息检索（IR）的角度出发，对ChatGPT在点、对、列表三种排名策略下的推荐能力进行了实证分析，在四个不同领域的数据集上进行大量实验并发现ChatGPT在三种排名策略下的表现均优于其他大型语言模型，在列表排名中能够达到成本和性能最佳平衡。 |
+| [^12] | [An Offline Metric for the Debiasedness of Click Models.](http://arxiv.org/abs/2304.09560) | 该论文介绍了一种离线评估点击模型去协变偏移的鲁棒性的方法，并提出了去偏差性这一概念和测量方法，这是恢复无偏一致相关性评分和点击模型对排名分布变化不变性的必要条件。 |
+| [^13] | [Learning to Rank under Multinomial Logit Choice.](http://arxiv.org/abs/2009.03207) | 该论文提出了一个基于多项Logit选择模型的学习排序框架，能够更准确地捕捉用户在整个项目列表中的选择行为，为网站设计提供了更好的排序方案。 |
 
 # 详细
 
-[^1]: 评估信息检索的嵌入式API
+[^1]: 推荐系统作为指令遵循的方法：大型语言模型增强的推荐方法
 
-    Evaluating Embedding APIs for Information Retrieval. (arXiv:2305.06300v1 [cs.IR])
+    Recommendation as Instruction Following: A Large Language Model Empowered Recommendation Approach. (arXiv:2305.07001v1 [cs.IR])
 
-    [http://arxiv.org/abs/2305.06300](http://arxiv.org/abs/2305.06300)
+    [http://arxiv.org/abs/2305.07001](http://arxiv.org/abs/2305.07001)
 
-    本篇论文旨在通过对语义嵌入API在实际检索场景中的分析,为从业者和研究人员找到适当的服务。结果表明，在英语上使用API重新排名BM25的结果是一种预算友好的最优做法。
-
-    
-
-    语言模型不断增大使得其普及化成为了一项挑战，因此许多公司和初创企业通过API向社区提供大型语言模型的访问权限。其中一个适用于密集检索的特定API是语义嵌入式API，其可构建给定文本的向量表示。在拥有越来越多API的情况下，本文旨在分析在实际检索场景中语义嵌入式API以帮助从业者和研究人员根据他们的需求找到适当的服务。具体而言，我们希望调查现有API在领域泛化和多语言检索方面的能力。为此，我们在两个标准基准BEIR和MIRACL上评估了嵌入式API。我们发现，使用API重新排名BM25结果是一种预算友好的方法，并且在英语上最有效，与标准做法即作为第一阶段检索器不同。
-
-    The ever-increasing size of language models curtails their widespread access to the community, thereby galvanizing many companies and startups into offering access to large language models through APIs. One particular API, suitable for dense retrieval, is the semantic embedding API that builds vector representations of a given text. With a growing number of APIs at our disposal, in this paper, our goal is to analyze semantic embedding APIs in realistic retrieval scenarios in order to assist practitioners and researchers in finding suitable services according to their needs. Specifically, we wish to investigate the capabilities of existing APIs on domain generalization and multilingual retrieval. For this purpose, we evaluate the embedding APIs on two standard benchmarks, BEIR, and MIRACL. We find that re-ranking BM25 results using the APIs is a budget-friendly approach and is most effective on English, in contrast to the standard practice, i.e., employing them as first-stage retrievers
-    
-[^2]: FedPDD：用于跨平台联邦推荐的隐私保护双重蒸馏框架
-
-    FedPDD: A Privacy-preserving Double Distillation Framework for Cross-silo Federated Recommendation. (arXiv:2305.06272v1 [cs.IR])
-
-    [http://arxiv.org/abs/2305.06272](http://arxiv.org/abs/2305.06272)
-
-    本文提出了一个名为FedPDD的隐私保护双重蒸馏框架，用于跨平台联邦推荐。该框架包括教师蒸馏和学生蒸馏两个阶段，在不传输模型信息的情况下，通过有效地转移知识和使用一种新的蒸馏损失函数来构建全局模型，实现了最先进的性能。
+    采用大型语言模型以指令遵循为方法的推荐系统，可以将用户偏好或需求进行自然语言描述，进而提高推荐精度。
 
     
 
-    跨平台推荐旨在通过从不同平台收集异构特征来提高推荐准确性。然而，越来越严格的隐私保护法规限制了这种平台间的跨界协作，因此不能聚合数据用于训练。联邦学习（FL）是推荐场景中处理数据孤岛问题的实用解决方案。现有的跨平台FL方法通过利用重叠用户的数据协同构建全局模型，传输模型信息。然而，在现实中，重叠用户的数量往往非常小，从而大大限制了此类方法的性能。此外，训练期间传输模型信息需要高通信成本，可能会造成严重的隐私泄露。本文提出了一种新的隐私保护双重蒸馏框架 FedPDD 用于跨平台联邦推荐，该框架通过有效地转移知识来保护隐私。FedPDD 包括两个阶段：教师蒸馏和学生蒸馏。在教师蒸馏阶段，每个平台在自己的数据上训练本地模型，并将来自这些模型的知识蒸馏到一个小的、带有噪声的教师模型中。然后，在学生蒸馏阶段，每个平台通过一种新的蒸馏损失函数，同时从教师模型和本地数据中学习，训练自己的学生模型。FedPDD 在两个真实世界的跨平台联邦推荐数据集上实现了最先进的性能，同时保护隐私。
+    在过去几十年中，推荐系统在研究和产业社区中引起了广泛关注，并且许多研究致力于开发有效的推荐模型。这些模型主要从历史行为数据中学习潜在的用户偏好，进而估计用户-项目匹配关系以进行推荐。受到大型语言模型（LLMs）近期进展的启发，我们采用了一种不同的方法来开发推荐模型，将推荐视为LLMs的指令遵循。关键思想是用户的偏好或需求可以用自然语言描述（称为指令）来表达，从而LLMs可以理解并进一步执行指令以达到推荐任务的目的。我们通过指令微调开源LLM（3B Flan-T5-XL）来开发推荐方法，以更好地使LLMs适应推荐系统。为此，我们首先提出了一种转换方法，将用户行为数据转化为指令，并在大规模电子商务数据集上评估了提出的方法。实验结果表明，我们的方法优于几种最先进的推荐方法，在推荐准确性方面取得了显着的改进。
 
-    Cross-platform recommendation aims to improve recommendation accuracy by gathering heterogeneous features from different platforms. However, such cross-silo collaborations between platforms are restricted by increasingly stringent privacy protection regulations, thus data cannot be aggregated for training. Federated learning (FL) is a practical solution to deal with the data silo problem in recommendation scenarios. Existing cross-silo FL methods transmit model information to collaboratively build a global model by leveraging the data of overlapped users. However, in reality, the number of overlapped users is often very small, thus largely limiting the performance of such approaches. Moreover, transmitting model information during training requires high communication costs and may cause serious privacy leakage. In this paper, we propose a novel privacy-preserving double distillation framework named FedPDD for cross-silo federated recommendation, which efficiently transfers knowledge wh
+    In the past decades, recommender systems have attracted much attention in both research and industry communities, and a large number of studies have been devoted to developing effective recommendation models. Basically speaking, these models mainly learn the underlying user preference from historical behavior data, and then estimate the user-item matching relationships for recommendations. Inspired by the recent progress on large language models (LLMs), we take a different approach to developing the recommendation models, considering recommendation as instruction following by LLMs. The key idea is that the preferences or needs of a user can be expressed in natural language descriptions (called instructions), so that LLMs can understand and further execute the instruction for fulfilling the recommendation task. Instead of using public APIs of LLMs, we instruction tune an open-source LLM (3B Flan-T5-XL), in order to better adapt LLMs to recommender systems. For this purpose, we first des
     
-[^3]: 多任务端到端训练改进了对话式推荐
+[^2]: AfriQA：针对非洲语言的跨语言开放检索问答
 
-    Multi-Task End-to-End Training Improves Conversational Recommendation. (arXiv:2305.06218v1 [cs.CL])
+    AfriQA: Cross-lingual Open-Retrieval Question Answering for African Languages. (arXiv:2305.06897v1 [cs.CL])
 
-    [http://arxiv.org/abs/2305.06218](http://arxiv.org/abs/2305.06218)
+    [http://arxiv.org/abs/2305.06897](http://arxiv.org/abs/2305.06897)
 
-    本文表明，采用多任务端到端Transformer模型可以提高对话式推荐的性能，可竞争于先前采用复杂多组件方法的模型，通过微调我们的模型和额外的多任务学习设置，实现了知识在领域间的转移。
-
-    
-
-    本文分析了一个多任务端到端Transformer模型在对话式推荐任务上的性能，该任务旨在基于用户在对话中明确表示的偏好提供推荐。虽然先前的研究在此领域采用了复杂的多组件方法，其中对话管理和实体推荐任务由单独的组件处理，但我们表明，基于T5文本-文本Transformer模型的统一Transformer模型在推荐相关项目和生成对话方面都可以竞争。我们在ReDIAL对话式电影推荐数据集上微调我们的模型，并在多任务学习设置中创建了衍生自MovieLens的额外训练任务（例如基于输入电影预测电影属性和相关电影）。使用一系列探针研究，我们证明了在额外任务中学习到的知识被转移到了对话式推荐领域中。
-
-    In this paper, we analyze the performance of a multitask end-to-end transformer model on the task of conversational recommendations, which aim to provide recommendations based on a user's explicit preferences expressed in dialogue. While previous works in this area adopt complex multi-component approaches where the dialogue management and entity recommendation tasks are handled by separate components, we show that a unified transformer model, based on the T5 text-to-text transformer model, can perform competitively in both recommending relevant items and generating conversation dialogue. We fine-tune our model on the ReDIAL conversational movie recommendation dataset, and create additional training tasks derived from MovieLens (such as the prediction of movie attributes and related movies based on an input movie), in a multitask learning setting. Using a series of probe studies, we demonstrate that the learned knowledge in the additional tasks is transferred to the conversational setti
-    
-[^4]: 通过文本和涂鸦搜索移动应用屏幕
-
-    Searching Mobile App Screens via Text + Doodle. (arXiv:2305.06165v1 [cs.IR])
-
-    [http://arxiv.org/abs/2305.06165](http://arxiv.org/abs/2305.06165)
-
-    TpD为迭代搜索移动应用屏幕提供了交互式草图和关键字搜索技术的结合方法，使用户能够更快地查找所需屏幕。
+    AfriQA是第一个专注于非洲语言的跨语言QA数据集，弥补了非洲语言数字化内容不足的问题。实验结果表明自动翻译和多语言检索模型的性能较差，需要支持跨语言推理和转移学习的模型。
 
     
 
-    现有资源中要找到特定的移动应用程序屏幕局限于基本的关键词搜索，如Google图像搜索，或需要完整的查询屏幕图像，如Swire的情况。然而，类似PSDoodle的交互式部分基于草图的解决方案存在精度不准确和无法考虑屏幕上出现文本等局限性。一种潜在有效的解决方案涉及实施一个系统，为有效构建用户界面元素提供交互式部分草图功能。此外，该系统应结合文本查询以进一步增强其能力。我们的方法TpD代表了通过结合交互式草图和关键字搜索技术进行屏幕迭代搜索的开创性工作。TpD建立在大约58k个Android应用程序屏幕的Rico存储库和PSDoodle的组合基础上。我们与第三方软件开发人员的评估表明，PSDoodle提供了高精度、高召回的结果，并且TpD使用户能够更快地查找所需屏幕。
+    数字化的非洲语言内容远远不足，这使得问答系统难以满足用户的信息需求。跨语言开放检索问答（XOR QA）系统--这些系统可以在为人们提供本地语言服务的同时从其他语言中获取答案内容--提供了一种填补这一差距的手段。为此，我们创建了AfriQA，这是第一个专注于非洲语言的跨语言QA数据集。AfriQA包括10种非洲语言的12,000多个XOR QA示例。尽管先前的数据集主要关注交叉语言QA增强目标语言覆盖范围的语言，但AfriQA侧重于交叉语言答案内容是唯一高覆盖范围答案内容的语言。因此，我们认为非洲语言是XOR QA中最重要和最现实的用例之一。我们的实验证明了自动翻译和多语言检索系统在我们的数据集上表现不佳，突显了需要支持跨语言推理和转移学习的模型。
 
-    Locating a specific mobile application screen from existing repositories is restricted to basic keyword searches, such as Google Image Search, or necessitates a complete query screen image, as in the case of Swire. However, interactive partial sketch-based solutions like PSDoodle have limitations, including inaccuracy and an inability to consider text appearing on the screen. A potentially effective solution involves implementing a system that provides interactive partial sketching functionality for efficiently structuring user interface elements. Additionally, the system should incorporate text queries to enhance its capabilities further. Our approach, TpD, represents the pioneering effort to enable an iterative search of screens by combining interactive sketching and keyword search techniques. TpD is built on a combination of the Rico repository of approximately 58k Android app screens and the PSDoodle. Our evaluation with third-party software developers showed that PSDoodle provided
+    African languages have far less in-language content available digitally, making it challenging for question answering systems to satisfy the information needs of users. Cross-lingual open-retrieval question answering (XOR QA) systems -- those that retrieve answer content from other languages while serving people in their native language -- offer a means of filling this gap. To this end, we create AfriQA, the first cross-lingual QA dataset with a focus on African languages. AfriQA includes 12,000+ XOR QA examples across 10 African languages. While previous datasets have focused primarily on languages where cross-lingual QA augments coverage from the target language, AfriQA focuses on languages where cross-lingual answer content is the only high-coverage source of answer content. Because of this, we argue that African languages are one of the most important and realistic use cases for XOR QA. Our experiments demonstrate the poor performance of automatic translation and multilingual retri
     
-[^5]: EdgeNet：电子商务在线广告竞价设计的编码器-解码器生成网络
+[^3]: THUIR@COLIEE 2023：更多参数和法律知识用于法律案例蕴含问题
 
-    EdgeNet : Encoder-decoder generative Network for Auction Design in E-commerce Online Advertising. (arXiv:2305.06158v1 [cs.IR])
+    THUIR@COLIEE 2023: More Parameters and Legal Knowledge for Legal Case Entailment. (arXiv:2305.06817v1 [cs.CL])
 
-    [http://arxiv.org/abs/2305.06158](http://arxiv.org/abs/2305.06158)
+    [http://arxiv.org/abs/2305.06817](http://arxiv.org/abs/2305.06817)
 
-    EdgeNet是一种编码器-解码器生成网络，可用于在线电商广告拍卖中的数据驱动竞价设计。与传统模型相比，EdgeNet 可以更好地捕捉广告间的相互影响，并利用丰富的上下文信息，提高广告竞拍的效率。
-
-    
-
-    我们提出了一种新的编码器-解码器生成网络EdgeNet，引入了一种新颖的编码器-解码器框架，用于在线电子商务广告中数据驱动的拍卖设计。我们打破了广义次高价（GSP）的神经拍卖范式，提高了数据利用效率，同时确保了拍卖机制的经济特征。具体而言，EdgeNet引入了基于transformer的编码器来更好地捕捉不同广告间的相互作用。与基于GSP的神经拍卖模型相比，我们设计了一个自回归解码器，以更好地利用在线广告竞拍中的丰富上下文信息。EdgeNet在概念上简单易懂，并易于扩展到现有的端到端神经拍卖框架中。我们在广泛的电子商务广告竞拍中验证了EdgeNet的有效性，展示了其在提高用户体验和平台收入方面的潜力。
-
-    We present a new encoder-decoder generative network dubbed EdgeNet, which introduces a novel encoder-decoder framework for data-driven auction design in online e-commerce advertising. We break the neural auction paradigm of Generalized-Second-Price(GSP), and improve the utilization efficiency of data while ensuring the economic characteristics of the auction mechanism. Specifically, EdgeNet introduces a transformer-based encoder to better capture the mutual influence among different candidate advertisements. In contrast to GSP based neural auction model, we design an autoregressive decoder to better utilize the rich context information in online advertising auctions. EdgeNet is conceptually simple and easy to extend to the existing end-to-end neural auction framework. We validate the efficiency of EdgeNet on a wide range of e-commercial advertising auction, demonstrating its potential in improving user experience and platform revenue.
-    
-[^6]: CrudeBERT：应用经济学理论改进基于Transformer的情感分析模型在原油市场中的应用
-
-    CrudeBERT: Applying Economic Theory towards fine-tuning Transformer-based Sentiment Analysis Models to the Crude Oil Market. (arXiv:2305.06140v1 [cs.IR])
-
-    [http://arxiv.org/abs/2305.06140](http://arxiv.org/abs/2305.06140)
-
-    本研究提出了一种识别及分类影响原油市场供需的新闻事件的方法，并据此设计了CrudeBERT情感分析模型，该模型优于其他专有和开源方案，为原油期货市场相关标题提供情感分类的改进表现。
+    本文描述了THUIR团队在COLIEE 2023法律案例蕴涵任务中的方法，尝试了传统的词汇匹配方法和预训练语言模型，并采用学习排序方法进一步提高性能，结果表明更多的参数和法律知识对法律案例蕴涵任务有所贡献。
 
     
 
-    基于新闻媒体情感来预测市场走向在数据分析中已有悠久传统。随着自然语言处理的进步，出现了可进行上下文感知情感分类的Transformer架构。然而，当前为金融市场制定的方法，如FinBERT，无法区分影响特定资产价值驱动因素。本文通过在大量相关新闻头条中识别和分类影响原油市场供需的事件，介绍了一种解决此问题的方法。我们随后提出了CrudeBERT，这是一个依据这些事件来上下文化并优化FinBERT的情感分析模型，从而提供与原油期货市场相关的标题的情感分类的改进表现。一项广泛的评估展示了CrudeBERT在原油领域胜过专有和开源解决方案。
+    本文描述了THUIR团队在COLIEE 2023法律案例蕴涵任务中的方法。该任务要求参与者从给定的支持案例中识别一个特定段落，该段落蕴含了查询案例的决定。我们尝试了传统的词汇匹配方法和具有不同大小的预训练语言模型，进一步采用学习排序方法提高性能。然而，学习排序方法在这个任务中并不是很健壮，这表明答案段落不能简单地通过信息检索技术确定。实验结果表明，更多的参数和法律知识对法律案例的蕴涵任务有所贡献。最后，我们在COLIEE 2023比赛中获得第三名。我们的方法的实现可以在https://github.com/CSHaitao/THUIR-COLIEE2023找到。
 
-    Predicting market movements based on the sentiment of news media has a long tradition in data analysis. With advances in natural language processing, transformer architectures have emerged that enable contextually aware sentiment classification. Nevertheless, current methods built for the general financial market such as FinBERT cannot distinguish asset-specific value-driving factors. This paper addresses this shortcoming by presenting a method that identifies and classifies events that impact supply and demand in the crude oil markets within a large corpus of relevant news headlines. We then introduce CrudeBERT, a new sentiment analysis model that draws upon these events to contextualize and fine-tune FinBERT, thereby yielding improved sentiment classifications for headlines related to the crude oil futures market. An extensive evaluation demonstrates that CrudeBERT outperforms proprietary and open-source solutions in the domain of crude oil.
+    This paper describes the approach of the THUIR team at the COLIEE 2023 Legal Case Entailment task. This task requires the participant to identify a specific paragraph from a given supporting case that entails the decision for the query case. We try traditional lexical matching methods and pre-trained language models with different sizes. Furthermore, learning-to-rank methods are employed to further improve performance. However, learning-to-rank is not very robust on this task. which suggests that answer passages cannot simply be determined with information retrieval techniques. Experimental results show that more parameters and legal knowledge contribute to the legal case entailment task. Finally, we get the third place in COLIEE 2023. The implementation of our method can be found at https://github.com/CSHaitao/THUIR-COLIEE2023.
     
-[^7]: N-元事实的少样本链接预测
+[^4]: THUIR@COLIEE 2023: 将结构化知识融入预训练语言模型中用于法律案例检索
 
-    Few-shot Link Prediction on N-ary Facts. (arXiv:2305.06104v1 [cs.AI])
+    THUIR@COLIEE 2023: Incorporating Structural Knowledge into Pre-trained Language Models for Legal Case Retrieval. (arXiv:2305.06812v1 [cs.IR])
 
-    [http://arxiv.org/abs/2305.06104](http://arxiv.org/abs/2305.06104)
+    [http://arxiv.org/abs/2305.06812](http://arxiv.org/abs/2305.06812)
 
-    本文提出了一个新任务——少样本N-元事实链接预测，并提出了一个名为FLEN的模型来实现。FLEN由三个模块组成，可以从有限的标记实例中预测N-元事实中的缺失实体。
-
-    
-
-    N-元事实由主要三元组（头实体、关系、尾实体）和任意数量的辅助属性值对组成，这在现实世界的知识图谱中很常见。对于N-元事实的链接预测是预测其中一个元素的缺失，填补缺失元素有助于丰富知识图谱并促进许多下游应用程序。以往的研究通常需要大量高质量的数据来理解N-元事实中的元素，但这些研究忽视了少样本关系，在现实世界的场景中却很常见。因此，本文引入一个新任务——少样本N-元事实链接预测，旨在使用有限的标记实例来预测N-元事实中的缺失实体。我们也提出了一个针对N-元事实的少样本链接预测模型FLEN，它由三个模块组成：关系学习模块、支持特定调整模块和查询推理模块。
-
-    N-ary facts composed of a primary triple (head entity, relation, tail entity) and an arbitrary number of auxiliary attribute-value pairs, are prevalent in real-world knowledge graphs (KGs). Link prediction on n-ary facts is to predict a missing element in an n-ary fact. This helps populate and enrich KGs and further promotes numerous downstream applications. Previous studies usually require a substantial amount of high-quality data to understand the elements in n-ary facts. However, these studies overlook few-shot relations, which have limited labeled instances, yet are common in real-world scenarios. Thus, this paper introduces a new task, few-shot link prediction on n-ary facts. It aims to predict a missing entity in an n-ary fact with limited labeled instances. We further propose a model for Few-shot Link prEdict on N-ary facts, thus called FLEN, which consists of three modules: the relation learning, support-specific adjusting, and query inference modules. FLEN captures relation me
-    
-[^8]: 在BIP!服务中试点主题感知研究影响评估功能
-
-    Piloting topic-aware research impact assessment features in BIP! Services. (arXiv:2305.06047v1 [cs.IR])
-
-    [http://arxiv.org/abs/2305.06047](http://arxiv.org/abs/2305.06047)
-
-    本研究提出采用主题感知的分类影响指标来解决全局计算的引用影响指标在研究评估和知识发现等应用中难以正确解释的问题，并在BIP!服务中试点展示了这些指标的好处。
+    本文总结了THUIR在COLIEE 2023比赛中的冠军方案，其将结构化知识融入预训练语言模型，提出启发式预处理和后处理方法，采用学习排序方法进行特征合并，实验结果显示其具有卓越的优势。
 
     
 
-    多种研究活动依赖于基于引用的影响指标。然而，这些指标通常是全局计算的，阻碍了它们在研究评估和知识发现等应用中的正确解释。在本研究中，我们倡导使用主题感知的分类影响指标，以缓解上述问题。此外，我们扩展了BIP!服务以支持这些指标，并展示它们在实际研究活动中的好处。
+    法律案例检索技术在现代智能法律系统中起着重要作用，而作为一项年度知名国际比赛，COLIEE旨在实现针对法律文本的最先进检索模型。本文总结了冠军团队THUIR在COLIEE 2023的方法，具体而言，我们设计了结构感知的预训练语言模型以增强对法律案例的理解。此外，我们还提出了启发式预处理和后处理方法以减少无关信息的影响。最后，我们采用学习排序方法将具有不同维度的特征合并。实验结果表明我们的方案具有卓越的优势，官方结果显示我们的运行效果在所有提交中表现最佳。我们的方法实现可在https://github.com/CSHaitao/THUIR-COLIEE2023找到。
 
-    Various research activities rely on citation-based impact indicators. However these indicators are usually globally computed, hindering their proper interpretation in applications like research assessment and knowledge discovery. In this work, we advocate for the use of topic-aware categorical impact indicators, to alleviate the aforementioned problem. In addition, we extend BIP! Services to support those indicators and showcase their benefits in real-world research activities.
+    Legal case retrieval techniques play an essential role in modern intelligent legal systems. As an annually well-known international competition, COLIEE is aiming to achieve the state-of-the-art retrieval model for legal texts. This paper summarizes the approach of the championship team THUIR in COLIEE 2023. To be specific, we design structure-aware pre-trained language models to enhance the understanding of legal cases. Furthermore, we propose heuristic pre-processing and post-processing approaches to reduce the influence of irrelevant messages. In the end, learning-to-rank methods are employed to merge features with different dimensions. Experimental results demonstrate the superiority of our proposal. Official results show that our run has the best performance among all submissions. The implementation of our method can be found at https://github.com/CSHaitao/THUIR-COLIEE2023.
     
-[^9]: 使用差分隐私大语言模型合成查询的隐私保护推荐系统.
+[^5]: PerFedRec++：采用自监督预训练提高个性化联邦推荐
 
-    Privacy-Preserving Recommender Systems with Synthetic Query Generation using Differentially Private Large Language Models. (arXiv:2305.05973v1 [cs.CL])
+    PerFedRec++: Enhancing Personalized Federated Recommendation with Self-Supervised Pre-Training. (arXiv:2305.06622v1 [cs.IR])
 
-    [http://arxiv.org/abs/2305.05973](http://arxiv.org/abs/2305.05973)
+    [http://arxiv.org/abs/2305.06622](http://arxiv.org/abs/2305.06622)
 
-    提出使用差分隐私大语言模型合成查询的隐私保护推荐系统，可以安全有效地训练深度检索模型并提高检索质量。
-
-    
-
-    我们提出了一种新颖的方法，使用差分隐私大语言模型（LLMs）开发隐私保护的大规模推荐系统，克服了在训练这些复杂系统时的某些挑战和限制。我们的方法特别适用于基于LLM的推荐系统的新兴领域，但也可以轻松地用于处理自然语言输入表示的任何推荐系统。我们的方法涉及使用DP训练方法，对公开预训练的LLM在查询生成任务上进行微调。生成的模型可以生成私有合成查询，代表原始查询，可以在任何下游非私有推荐训练过程中自由共享，而不会产生任何额外的隐私成本。我们评估了我们的方法对安全训练有效的深度检索模型的能力，我们观察到它们的检索质量有显着的提高，而不会损害查询级别的隐私。
-
-    We propose a novel approach for developing privacy-preserving large-scale recommender systems using differentially private (DP) large language models (LLMs) which overcomes certain challenges and limitations in DP training these complex systems. Our method is particularly well suited for the emerging area of LLM-based recommender systems, but can be readily employed for any recommender systems that process representations of natural language inputs. Our approach involves using DP training methods to fine-tune a publicly pre-trained LLM on a query generation task. The resulting model can generate private synthetic queries representative of the original queries which can be freely shared for any downstream non-private recommendation training procedures without incurring any additional privacy cost. We evaluate our method on its ability to securely train effective deep retrieval models, and we observe significant improvements in their retrieval quality without compromising query-level pri
-    
-[^10]: 评估基于人工注释标签的推荐系统跨文化一致性
-
-    Auditing Cross-Cultural Consistency of Human-Annotated Labels for Recommendation Systems. (arXiv:2305.05917v1 [cs.IR])
-
-    [http://arxiv.org/abs/2305.05917](http://arxiv.org/abs/2305.05917)
-
-    本文研究了基于人工注释标签的推荐系统中的跨文化一致性问题，提出了一组不一致概念化的游戏标签子集，并对跨国标注的文化和语言差异的原因进行了分析。作者还提供了一个通用框架，供从业人员审核自己的数据集。
+    PerFedRec++采用自监督预训练技术，提高联邦推荐系统的个性化和推荐准确度。
 
     
 
-    推荐系统越来越依赖于大规模的人工标记数据集；然而，生成这些标记的人类注释者越来越来自同质化的背景。这在将基于这些标签的下游预测模型应用于异构用户群时会带来问题。我们研究了这种断裂与标签本身的关系，询问是否跨不同人口统计学注释者“一致概念化”。在视频游戏标签的案例研究中，我们对5174名游戏玩家进行了一项调查，确定了一组不一致概念化的游戏标签子集，进行因果分析，并提出了跨国标注的文化和语言差异的原因。我们进一步证明，与同质化（单个国家）训练集相比，游戏标注的预测模型在全球训练集上表现更好。最后，我们提供了一个通用框架，供从业人员审核自己的数据集。
+    联邦推荐系统通过采用联邦学习技术，在用户设备和中央服务器之间传输模型参数而非原始用户数据来保护用户隐私。然而，当前的联邦推荐系统面临着异构性和个性化、模型性能下降和通信瓶颈等挑战。先前的研究尝试解决这些问题，但均未能同时解决。我们在本文中提出了一个名为PerFedRec++的新框架，通过自监督预训练来增强个性化联邦推荐。具体而言，我们利用联邦推荐系统的隐私保护机制生成了两个增强图视图，并将其作为对比任务用于自监督图学习中的预训练。预训练通过提高表示学习的一致性来增强联邦模型的性能。
 
-    Recommendation systems increasingly depend on massive human-labeled datasets; however, the human annotators hired to generate these labels increasingly come from homogeneous backgrounds. This poses an issue when downstream predictive models -- based on these labels -- are applied globally to a heterogeneous set of users. We study this disconnect with respect to the labels themselves, asking whether they are ``consistently conceptualized'' across annotators of different demographics. In a case study of video game labels, we conduct a survey on 5,174 gamers, identify a subset of inconsistently conceptualized game labels, perform causal analyses, and suggest both cultural and linguistic reasons for cross-country differences in label annotation. We further demonstrate that predictive models of game annotations perform better on global train sets as opposed to homogeneous (single-country) train sets. Finally, we provide a generalizable framework for practitioners to audit their own data ann
+    Federated recommendation systems employ federated learning techniques to safeguard user privacy by transmitting model parameters instead of raw user data between user devices and the central server. Nevertheless, the current federated recommender system faces challenges such as heterogeneity and personalization, model performance degradation, and communication bottleneck. Previous studies have attempted to address these issues, but none have been able to solve them simultaneously.  In this paper, we propose a novel framework, named PerFedRec++, to enhance the personalized federated recommendation with self-supervised pre-training. Specifically, we utilize the privacy-preserving mechanism of federated recommender systems to generate two augmented graph views, which are used as contrastive tasks in self-supervised graph learning to pre-train the model. Pre-training enhances the performance of federated models by improving the uniformity of representation learning. Also, by providing a be
     
-[^11]: 基于双意图增强图神经网络的会话新品推荐
+[^6]: 针对正则随机图的种植顶点覆盖问题及其发现的自由能重构
 
-    Dual Intent Enhanced Graph Neural Network for Session-based New Item Recommendation. (arXiv:2305.05848v1 [cs.IR])
+    Backdoor to the Hidden Ground State: Planted Vertex Cover Example. (arXiv:2305.06610v1 [cond-mat.stat-mech])
 
-    [http://arxiv.org/abs/2305.05848](http://arxiv.org/abs/2305.05848)
+    [http://arxiv.org/abs/2305.06610](http://arxiv.org/abs/2305.06610)
 
-    本文提出了一种基于双意图增强的图神经网络，用于解决基于历史会话的推荐系统中无法推荐新产品的问题，并在实验中证明其有效性。
-
-    
-
-    推荐系统是各个领域，例如电子商务、电子学习和流媒体等中不可或缺的部分。目前，用于会话推荐的图神经网络通常只能推荐用户历史会话中已存在的项目。因此这些图神经网络在推荐用户从未与之交互的项目（新产品）时面临信息封闭的问题。因此，有必要向用户推荐新的产品。由于新产品与用户之间没有交互，因此在构建基于图神经网络的会话推荐系统时，我们不能将新产品包括在会话图中。因此，使用基于GNN（图神经网络）的方法向用户推荐新产品具有挑战性。为了解决这个问题，我们提出了一种双意图增强图神经网络。由于新的产品与历史会话没有绑定关系，模型学习如何捕捉用户和项目的意图。具体而言，我们的模型引入了双意图图神经网络，一张图来捕获项目意图的表示，另一张图来捕获用户意图的表示。该模型将历史会话与用户和项目双重意图表示相结合，用于推荐。两个真实数据集上的实验结果证明了我们提出的方法的有效性。
-
-    Recommender systems are essential to various fields, e.g., e-commerce, e-learning, and streaming media. At present, graph neural networks (GNNs) for session-based recommendations normally can only recommend items existing in users' historical sessions. As a result, these GNNs have difficulty recommending items that users have never interacted with (new items), which leads to a phenomenon of information cocoon. Therefore, it is necessary to recommend new items to users. As there is no interaction between new items and users, we cannot include new items when building session graphs for GNN session-based recommender systems. Thus, it is challenging to recommend new items for users when using GNN-based methods. We regard this challenge as '\textbf{G}NN \textbf{S}ession-based \textbf{N}ew \textbf{I}tem \textbf{R}ecommendation (GSNIR)'. To solve this problem, we propose a dual-intent enhanced graph neural network for it. Due to the fact that new items are not tied to historical sessions, the
-    
-[^12]: 通过弱监督目标检测在法律文档中提取复杂命名实体
-
-    Extracting Complex Named Entities in Legal Documents via Weakly Supervised Object Detection. (arXiv:2305.05836v1 [cs.IR])
-
-    [http://arxiv.org/abs/2305.05836](http://arxiv.org/abs/2305.05836)
-
-    本论文提出了一种新的方法，通过弱监督目标检测与文档布局分析相结合，可以有效地在法律文件中提取不连续的复杂命名实体，且模型在金标准数据有限时仍有优异表现。
+    本论文发现了在正则随机图中存在一种新类型的自由能重构，称为eureka点，通过eureka点可以轻易访问具有消失自由能屏障的隐藏基态。
 
     
 
-    准确的命名实体识别（NER）对于工业界的各种信息检索任务至关重要。然而，尽管传统NER方法取得了显着进展，但复杂命名实体的提取仍然是一个相对未被开发的领域。在本文中，我们提出了一种新颖的系统，它将文档布局分析（DLA）中的目标检测与弱监督学习相结合，以解决在法律文件中提取不连续的复杂命名实体的挑战。值得注意的是，据我们所知，这是第一个将弱监督应用于DLA的工作。我们的实验证明，仅基于伪标签训练的模型在金标准数据受限时优于有监督的基线，彰显了我们提出的方法在减少对注释数据依赖的有效性。
+    我们引入了一个针对正则随机图的种植顶点覆盖问题，并通过空穴方法对其进行研究。此二元自旋交互作用系统的平衡序相变具有不连续的性质，不同于常规的类似伊辛模型的连续相变，并且在广泛的自由能屏障的动态阻塞下。我们发现，该系统的无序对称相在除了唯一的eureka点$\beta_b$之外的所有逆温度下都可以在有序相的情况下局部稳定。 eureka点$\beta_b$为访问具有消失自由能屏障的隐藏基态提供了一个便道。它存在于无限系列的种植随机图集合中，并且我们通过分析确定了它们的结构参数。揭示出的新类型的自由能景观也可能存在于统计物理学和统计学界面的其他种植随机图优化问题中。
 
-    Accurate Named Entity Recognition (NER) is crucial for various information retrieval tasks in industry. However, despite significant progress in traditional NER methods, the extraction of Complex Named Entities remains a relatively unexplored area. In this paper, we propose a novel system that combines object detection for Document Layout Analysis (DLA) with weakly supervised learning to address the challenge of extracting discontinuous complex named entities in legal documents. Notably, to the best of our knowledge, this is the first work to apply weak supervision to DLA. Our experimental results show that the model trained solely on pseudo labels outperforms the supervised baseline when gold-standard data is limited, highlighting the effectiveness of our proposed approach in reducing the dependency on annotated data.
+    We introduce a planted vertex cover problem on regular random graphs and study it by the cavity method. The equilibrium ordering phase transition of this binary-spin two-body interaction system is discontinuous in nature distinct from the continuous one of conventional Ising-like models, and it is dynamically blocked by an extensive free energy barrier. We discover that the disordered symmetric phase of this system may be locally stable with respect to the ordered phase at all inverse temperatures except for a unique eureka point $\beta_b$ at which it is only marginally stable. The eureka point $\beta_b$ serves as a backdoor to access the hidden ground state with vanishing free energy barrier. It exists in an infinite series of planted random graph ensembles and we determine their structural parameters analytically. The revealed new type of free energy landscape may also exist in other planted random-graph optimization problems at the interface of statistical physics and statistical in
     
-[^13]: 学习个性化推荐以基于客户购物意图
+[^7]: 如何为推荐基础模型索引项目ID
 
-    Learning to Personalize Recommendation based on Customers' Shopping Intents. (arXiv:2305.05279v1 [cs.IR])
+    How to Index Item IDs for Recommendation Foundation Models. (arXiv:2305.06569v1 [cs.IR])
 
-    [http://arxiv.org/abs/2305.05279](http://arxiv.org/abs/2305.05279)
+    [http://arxiv.org/abs/2305.06569](http://arxiv.org/abs/2305.06569)
 
-    本文介绍了亚马逊的新系统，利用深度学习模型将顾客的在线行为映射成为高级别购物意图，以便个性化推荐，提供更相关、可解释和多样化的购物体验。
-
-    
-
-    理解顾客的高级别购物意图，如他们去露营或举办生日派对的愿望，对于电商平台非常重要；它可以通过提供更相关、可解释和多样化的推荐来提高购物体验的质量。然而，由于实际挑战，这种高级别的购物意图在行业中被忽视。在这项工作中，我们介绍了亚马逊的新系统，明确地识别和利用每个客户的高级别购物意图来个性化推荐。我们开发了一种新技术，自动识别亚马逊客户正在追求的各种高级别目标，如“去露营”和“准备海滩派对”。我们的解决方案进行了扩展（跨越21个国家的14种语言）。然后，一个深度学习模型将每个客户的在线行为，如产品搜索和个体项目参与，映射成一组高级别的购物意图。
-
-    Understanding the customers' high level shopping intent, such as their desire to go camping or hold a birthday party, is critically important for an E-commerce platform; it can help boost the quality of shopping experience by enabling provision of more relevant, explainable, and diversified recommendations. However, such high level shopping intent has been overlooked in the industry due to practical challenges. In this work, we introduce Amazon's new system that explicitly identifies and utilizes each customer's high level shopping intents for personalizing recommendations. We develop a novel technique that automatically identifies various high level goals being pursued by the Amazon customers, such as "go camping", and "preparing for a beach party". Our solution is in a scalable fashion (in 14 languages across 21 countries). Then a deep learning model maps each customer's online behavior, e.g. product search and individual item engagements, into a subset of high level shopping intents
-    
-[^14]: 基于大语言模型知识蒸馏的网络内容过滤方法
-
-    Web Content Filtering through knowledge distillation of Large Language Models. (arXiv:2305.05027v1 [cs.LG])
-
-    [http://arxiv.org/abs/2305.05027](http://arxiv.org/abs/2305.05027)
-
-    本文提出了一种基于大语言模型知识蒸馏的 URL 分类方法，可用于网络内容过滤，其学生模型在参数数量减少 175 倍的情况下，精度提升了 9%，超过了当前最先进方法。
+    本研究对推荐基础模型的项目索引问题进行了系统检查，提出了一种新的上下文感知索引方法，该方法在项目推荐准确性和文本生成质量方面具有优势。
 
     
 
-    本文提出了一种基于大语言模型的 URL 分类方法，旨在实现网络内容过滤的主要目标：保障组织免受法律和伦理风险，限制访问高风险或可疑网站，以及促进安全的专业工作环境。我们的方法利用大语言模型生成准确的分类，并利用已有的知识蒸馏技术创建更小、更专业的学生模型，以用于网络内容过滤。在将通过大型安全供应商收集的客户遥测数据的 30 个不同内容类别的网站进行分类的任务中，我们的学生模型通过蒸馏结果实现了 9% 的分类精度提升，超过了当前最先进方法。我们的学生模型在参数数量上与原始的大语言模型相比减少了 175 倍，从而达到了与老师模型相匹配的性能，可以用于大规模的在线扫描。
+    推荐基础模型将推荐任务转换为自然语言任务，利用大型语言模型（LLM）进行推荐。它通过直接生成建议的项目而不是计算传统推荐模型中每个候选项目的排名得分，简化了推荐管道，避免了多段过滤的问题。为了避免在决定要推荐哪些项目时生成过长的文本，为推荐基础模型创建LLM兼容的项目ID是必要的。本研究系统地研究了推荐基础模型的项目索引问题，以P5为代表的主干模型，并使用各种索引方法复制其结果。我们首先讨论了几种微不足道的项目索引方法（如独立索引、标题索引和随机索引）的问题，并表明它们不适用于推荐基础模型，然后提出了一种新的索引方法，称为上下文感知索引。我们表明，这种索引方法在项目推荐准确性和文本生成质量方面优于其他索引方法。
 
-    We introduce a state-of-the-art approach for URL categorization that leverages the power of Large Language Models (LLMs) to address the primary objectives of web content filtering: safeguarding organizations from legal and ethical risks, limiting access to high-risk or suspicious websites, and fostering a secure and professional work environment. Our method utilizes LLMs to generate accurate classifications and then employs established knowledge distillation techniques to create smaller, more specialized student models tailored for web content filtering. Distillation results in a student model with a 9\% accuracy rate improvement in classifying websites, sourced from customer telemetry data collected by a large security vendor, into 30 distinct content categories based on their URLs, surpassing the current state-of-the-art approach. Our student model matches the performance of the teacher LLM with 175 times less parameters, allowing the model to be used for in-line scanning of large vo
+    Recommendation foundation model utilizes large language models (LLM) for recommendation by converting recommendation tasks into natural language tasks. It enables generative recommendation which directly generates the item(s) to recommend rather than calculating a ranking score for each and every candidate item in traditional recommendation models, simplifying the recommendation pipeline from multi-stage filtering to single-stage filtering. To avoid generating excessively long text when deciding which item(s) to recommend, creating LLM-compatible item IDs is essential for recommendation foundation models. In this study, we systematically examine the item indexing problem for recommendation foundation models, using P5 as the representative backbone model and replicating its results with various indexing methods. To emphasize the importance of item indexing, we first discuss the issues of several trivial item indexing methods, such as independent indexing, title indexing, and random inde
     
-[^15]: 你所在社区发生了什么？一种弱监督方法用于发现本地新闻。
+[^8]: LLM驱动的生成式新闻推荐初探
 
-    What's happening in your neighborhood? A Weakly Supervised Approach to Detect Local News. (arXiv:2301.08146v2 [cs.IR] UPDATED)
+    A First Look at LLM-Powered Generative News Recommendation. (arXiv:2305.06566v1 [cs.IR])
 
-    [http://arxiv.org/abs/2301.08146](http://arxiv.org/abs/2301.08146)
+    [http://arxiv.org/abs/2305.06566](http://arxiv.org/abs/2305.06566)
 
-    该论文介绍了一种自动化的本地新闻检测和基于内容的本地新闻推荐方法，通过弱监督框架和自动化数据处理，与传统方法相比具有更高的准确性和覆盖率。
-
-    
-
-    本地新闻是影响特定地理区域（如城市、县和州）用户的新闻子集。检测本地新闻是准确地推荐本地新闻的关键步骤。基于最新的自然语言处理技术，我们开发了一种集成化的流程，实现了自动化本地新闻检测和基于内容的本地新闻推荐。本文着重介绍了管道的第一步骤：（1）结合领域知识和自动数据处理的弱监督框架，（2）可扩展到多语言设置。与斯坦福CoreNLP NER模型相比，我们的流程在经过真实世界和人工标记数据的评估时具有更高的精度和召回率。
-
-    Local news articles are a subset of news that impact users in a geographical area, such as a city, county, or state. Detecting local news (Step 1) and subsequently deciding its geographical location as well as radius of impact (Step 2) are two important steps towards accurate local news recommendation. Naive rule-based methods, such as detecting city names from the news title, tend to give erroneous results due to lack of understanding of the news content. Empowered by the latest development in natural language processing, we develop an integrated pipeline that enables automatic local news detection and content-based local news recommendations. In this paper, we focus on Step 1 of the pipeline, which highlights: (1) a weakly supervised framework incorporated with domain knowledge and auto data processing, and (2) scalability to multi-lingual settings. Compared with Stanford CoreNLP NER model, our pipeline has higher precision and recall evaluated on a real-world and human-labeled datas
-    
-[^16]: 开发者如何讨论Pandas主题的实证研究
-
-    An Empirical Study on How the Developers Discussed about Pandas Topics. (arXiv:2210.03519v2 [cs.SE] UPDATED)
-
-    [http://arxiv.org/abs/2210.03519](http://arxiv.org/abs/2210.03519)
-
-    本研究通过收集Stack Overflow中与Pandas主题讨论相关的帖子，进行主题建模，发现了Pandas数据操作、数据分析和数据可视化等主题非常受欢迎，而数据清洗和数据挖掘等主题相对较难。
+    本文介绍了一种LLM驱动的生成式新闻推荐框架GENRE，它利用预训练语义知识丰富新闻数据，通过从模型设计转移到提示设计提供灵活而统一的解决方案，实现了个性化新闻生成、用户画像和新闻摘要。
 
     
 
-    Pandas是Python编程语言中用于数据分析的软件库。由于Pandas是一种快速、易于使用且开源的数据分析工具，因此它在软件工程项目（如软件开发、机器学习、计算机视觉、自然语言处理、机器人技术等）中被广泛使用。因此，软件开发者对Pandas表现出了巨大的兴趣，并且现在在线开发者论坛（如Stack Overflow）中的讨论数量也越来越多。这些讨论可以帮助了解Pandas库的受欢迎程度，也可以帮助了解Pandas主题的重要性、普及率和困难程度。本研究的主要目的是找到Pandas主题的受欢迎程度和困难程度。为此，我们收集了与Pandas主题讨论相关的Stack Overflow帖子，对帖子的文本内容进行了主题建模。我们发现了26个主题，进一步将其分类为5个广泛的类别。结果显示，最受欢迎的主题是与数据操作、数据分析和数据可视化相关的主题，而最困难的主题与数据清洗和数据挖掘相关。
+    个性化的新闻推荐系统已成为用户浏览海量在线新闻内容所必需的工具，然而现有的新闻推荐系统面临着冷启动问题、用户画像建模和新闻内容理解等重大挑战。先前的研究通常通过模型设计遵循一种不灵活的例行程序来解决特定的挑战，但在理解新闻内容和捕捉用户兴趣方面存在局限性。在本文中，我们介绍了GENRE，一种LLM驱动的生成式新闻推荐框架，它利用来自大型语言模型的预训练语义知识来丰富新闻数据。我们的目标是通过从模型设计转移到提示设计来提供一种灵活而统一的新闻推荐解决方案。我们展示了GENRE在个性化新闻生成、用户画像和新闻摘要中的应用。使用各种流行的推荐模型进行的大量实验证明了GENRE的有效性。
 
-    Pandas is defined as a software library which is used for data analysis in Python programming language. As pandas is a fast, easy and open source data analysis tool, it is rapidly used in different software engineering projects like software development, machine learning, computer vision, natural language processing, robotics, and others. So a huge interests are shown in software developers regarding pandas and a huge number of discussions are now becoming dominant in online developer forums, like Stack Overflow (SO). Such discussions can help to understand the popularity of pandas library and also can help to understand the importance, prevalence, difficulties of pandas topics. The main aim of this research paper is to find the popularity and difficulty of pandas topics. For this regard, SO posts are collected which are related to pandas topic discussions. Topic modeling are done on the textual contents of the posts. We found 26 topics which we further categorized into 5 board categor
+    Personalized news recommendation systems have become essential tools for users to navigate the vast amount of online news content, yet existing news recommenders face significant challenges such as the cold-start problem, user profile modeling, and news content understanding. Previous works have typically followed an inflexible routine to address a particular challenge through model design, but are limited in their ability to understand news content and capture user interests. In this paper, we introduce GENRE, an LLM-powered generative news recommendation framework, which leverages pretrained semantic knowledge from large language models to enrich news data. Our aim is to provide a flexible and unified solution for news recommendation by moving from model design to prompt design. We showcase the use of GENRE for personalized news generation, user profiling, and news summarization. Extensive experiments with various popular recommendation models demonstrate the effectiveness of GENRE. 
+    
+[^9]: LLM是否能理解用户偏好？在用户评分预测任务中对LLM进行评估。
+
+    Do LLMs Understand User Preferences? Evaluating LLMs On User Rating Prediction. (arXiv:2305.06474v1 [cs.IR])
+
+    [http://arxiv.org/abs/2305.06474](http://arxiv.org/abs/2305.06474)
+
+    本文研究了大型语言模型（LLMs）在用户评分预测任务中的表现，与传统的协同过滤方法进行对比。结果发现LLMs能够在较少数据的情况下保持优秀的性能，并且在零样本和少样本情况下表现很好。
+
+    
+
+    大型语言模型(LLMs)在零样本或少样本情况下展现出了杰出的泛化能力。然而，LLMs在基于用户以前的行为推断用户偏好方面能力的程度还是一个尚不清楚的问题。传统上，协同过滤(CF)是这些任务中最有效的方法，主要依赖于大量的评分数据。相比之下，LLMs通常需要更少的数据，同时又保持了每个项目(如电影或产品)的详尽的世界知识。在本文中，我们对用户评分预测这一经典任务中的CF和LLMs进行了全面的比较。这一任务涉及基于用户过去的评分预测候选项目的评分。我们研究了不同大小的LLMs，从250M到540B个参数，并评估了它们在零样本、少样本和微调场景下的性能。
+
+    Large Language Models (LLMs) have demonstrated exceptional capabilities in generalizing to new tasks in a zero-shot or few-shot manner. However, the extent to which LLMs can comprehend user preferences based on their previous behavior remains an emerging and still unclear research question. Traditionally, Collaborative Filtering (CF) has been the most effective method for these tasks, predominantly relying on the extensive volume of rating data. In contrast, LLMs typically demand considerably less data while maintaining an exhaustive world knowledge about each item, such as movies or products. In this paper, we conduct a thorough examination of both CF and LLMs within the classic task of user rating prediction, which involves predicting a user's rating for a candidate item based on their past ratings. We investigate various LLMs in different sizes, ranging from 250M to 540B parameters and evaluate their performance in zero-shot, few-shot, and fine-tuning scenarios. We conduct comprehen
+    
+[^10]: 利用Transformer进行抑郁症筛查的动态图表示学习
+
+    Dynamic Graph Representation Learning for Depression Screening with Transformer. (arXiv:2305.06447v1 [cs.LG])
+
+    [http://arxiv.org/abs/2305.06447](http://arxiv.org/abs/2305.06447)
+
+    利用Transformer进行抑郁症筛查，克服了传统方法的特征工程依赖和忽略时变因素的缺点。
+
+    
+
+    快速发现心理障碍至关重要，因为这样可以及时干预和治疗，从而大大改善患有严重心理疾病的个体的预后。社交媒体平台上最近出现的心理健康讨论的激增为研究心理健康提供了机会，并有可能检测到心理疾病的发生。然而，现有的抑郁症检测方法由于两个主要限制而受到限制：(1)依赖于特征工程，(2)没有考虑时变因素。具体而言，这些方法需要大量的特征工程和领域知识，其中严重依赖于用户生成内容的数量、质量和类型。此外，这些方法忽视了时变因素对抑郁症检测的重要影响，例如社交媒体上随时间推移而产生的语言模式和人际互动行为的动态变化(例如回复、提及和引用推文)。
+
+    Early detection of mental disorder is crucial as it enables prompt intervention and treatment, which can greatly improve outcomes for individuals suffering from debilitating mental affliction. The recent proliferation of mental health discussions on social media platforms presents research opportunities to investigate mental health and potentially detect instances of mental illness. However, existing depression detection methods are constrained due to two major limitations: (1) the reliance on feature engineering and (2) the lack of consideration for time-varying factors. Specifically, these methods require extensive feature engineering and domain knowledge, which heavily rely on the amount, quality, and type of user-generated content. Moreover, these methods ignore the important impact of time-varying factors on depression detection, such as the dynamics of linguistic patterns and interpersonal interactive behaviors over time on social media (e.g., replies, mentions, and quote-tweets)
+    
+[^11]: 揭示ChatGPT在推荐系统中的能力
+
+    Uncovering ChatGPT's Capabilities in Recommender Systems. (arXiv:2305.02182v1 [cs.IR])
+
+    [http://arxiv.org/abs/2305.02182](http://arxiv.org/abs/2305.02182)
+
+    本研究从信息检索（IR）的角度出发，对ChatGPT在点、对、列表三种排名策略下的推荐能力进行了实证分析，在四个不同领域的数据集上进行大量实验并发现ChatGPT在三种排名策略下的表现均优于其他大型语言模型，在列表排名中能够达到成本和性能最佳平衡。
+
+    
+
+    ChatGPT的问答功能吸引了自然语言处理（NLP）界及外界的关注。为了测试ChatGPT在推荐方面的表现，本研究从信息检索（IR）的角度出发，对ChatGPT在点、对、列表三种排名策略下的推荐能力进行了实证分析。通过在不同领域的四个数据集上进行大量实验，我们发现ChatGPT在三种排名策略下的表现均优于其他大型语言模型。基于单位成本改进的分析，我们确定ChatGPT在列表排名中能够在成本和性能之间实现最佳平衡，而在对和点排名中表现相对较弱。
+
+    The debut of ChatGPT has recently attracted the attention of the natural language processing (NLP) community and beyond. Existing studies have demonstrated that ChatGPT shows significant improvement in a range of downstream NLP tasks, but the capabilities and limitations of ChatGPT in terms of recommendations remain unclear. In this study, we aim to conduct an empirical analysis of ChatGPT's recommendation ability from an Information Retrieval (IR) perspective, including point-wise, pair-wise, and list-wise ranking. To achieve this goal, we re-formulate the above three recommendation policies into a domain-specific prompt format. Through extensive experiments on four datasets from different domains, we demonstrate that ChatGPT outperforms other large language models across all three ranking policies. Based on the analysis of unit cost improvements, we identify that ChatGPT with list-wise ranking achieves the best trade-off between cost and performance compared to point-wise and pair-wi
+    
+[^12]: 离线度量点击模型的去偏差性
+
+    An Offline Metric for the Debiasedness of Click Models. (arXiv:2304.09560v1 [cs.IR])
+
+    [http://arxiv.org/abs/2304.09560](http://arxiv.org/abs/2304.09560)
+
+    该论文介绍了一种离线评估点击模型去协变偏移的鲁棒性的方法，并提出了去偏差性这一概念和测量方法，这是恢复无偏一致相关性评分和点击模型对排名分布变化不变性的必要条件。
+
+    
+
+    在学习用户点击时，固有偏见是数据中普遍存在的一个问题，例如位置偏见或信任偏见。点击模型是从用户点击中提取信息的常用方法，例如在Web搜索中提取文档相关性，或者估计点击偏差以用于下游应用，例如反事实的学习排序、广告位置和公平排序。最近的研究表明，社区中的当前评估实践不能保证性能良好的点击模型对于下游任务的泛化能力，其中排名分布与训练分布不同，即在协变偏移下。在这项工作中，我们提出了一个基于条件独立性测试的评估度量，以检测点击模型对协变偏移的缺乏鲁棒性。我们引入了去偏差性的概念和一种测量方法。我们证明，去偏差性是恢复无偏的一致相关性评分以及使点击模型对排名分布变化的不变性的必要条件。
+
+    A well-known problem when learning from user clicks are inherent biases prevalent in the data, such as position or trust bias. Click models are a common method for extracting information from user clicks, such as document relevance in web search, or to estimate click biases for downstream applications such as counterfactual learning-to-rank, ad placement, or fair ranking. Recent work shows that the current evaluation practices in the community fail to guarantee that a well-performing click model generalizes well to downstream tasks in which the ranking distribution differs from the training distribution, i.e., under covariate shift. In this work, we propose an evaluation metric based on conditional independence testing to detect a lack of robustness to covariate shift in click models. We introduce the concept of debiasedness and a metric for measuring it. We prove that debiasedness is a necessary condition for recovering unbiased and consistent relevance scores and for the invariance o
+    
+[^13]: 学习在多项Logit选择下进行排序
+
+    Learning to Rank under Multinomial Logit Choice. (arXiv:2009.03207v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2009.03207](http://arxiv.org/abs/2009.03207)
+
+    该论文提出了一个基于多项Logit选择模型的学习排序框架，能够更准确地捕捉用户在整个项目列表中的选择行为，为网站设计提供了更好的排序方案。
+
+    
+
+    在网站设计中，学习最佳内容排序是一个重要的挑战。学习排序（LTR）框架将这个问题建模为选择内容列表并观察用户决定点击的顺序问题。大多数以前的LTR工作假设用户在列表中独立考虑每个项目，并对每个项目进行二选一的选择。我们引入了多项式Logit（MNL）选择模型到LTR框架中，它捕捉到用户将有序的项目列表作为一个整体，从所有项目和没有点击选项中做出一个选择的行为。在MNL模型下，用户更喜欢本质上更有吸引力的项目，或者处于列表中更可取的位置的项目。我们提出了上置信界（UCB）算法，以在已知和未知的位置依赖参数的两种设置中最小化遗憾。我们提出了理论分析，导致了对问题的$\Omega（\sqrt{JT}）$下限。
+
+    Learning the optimal ordering of content is an important challenge in website design. The learning to rank (LTR) framework models this problem as a sequential problem of selecting lists of content and observing where users decide to click. Most previous work on LTR assumes that the user considers each item in the list in isolation, and makes binary choices to click or not on each. We introduce a multinomial logit (MNL) choice model to the LTR framework, which captures the behaviour of users who consider the ordered list of items as a whole and make a single choice among all the items and a no-click option. Under the MNL model, the user favours items which are either inherently more attractive, or placed in a preferable position within the list. We propose upper confidence bound (UCB) algorithms to minimise regret in two settings where the position dependent parameters are known, and unknown. We present theoretical analysis leading to an $\Omega(\sqrt{JT})$ lower bound for the problem
     
 

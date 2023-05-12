@@ -2,139 +2,64 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Multiple Adjusted Quantiles.](http://arxiv.org/abs/2305.06354) | 本文介绍了一种新的最大调整分位数统计量，具有不变性和上确界保留性，可以用于多种应用场景。 |
-| [^2] | [Cost-benefit of green infrastructures for water management: A sustainability assessment of full-scale constructed wetlands in Northern and Southern Italy.](http://arxiv.org/abs/2305.06284) | 本研究评估了两个不同地理区域的人工湿地的可持续性，结果表明西西里岛的垂直地下流人工湿地在经济和社会效益方面更高，是该地区水资源管理更可持续的选择。 |
-| [^3] | [Yquilibrium: A Theory for (Non-) Convex Economies.](http://arxiv.org/abs/2305.06256) | Yquilibrium是一种适用于(非)凸经济市场的理论，与一般均衡理论相辅相成，不需要完全竞争的条件。它可以在沃尔拉斯均衡不存在时发挥作用，并产生最优分配方案。 |
-| [^4] | [The price elasticity of Gleevec in patients with Chronic Myeloid Leukemia enrolled in Medicare Part D: Evidence from a regression discontinuity design.](http://arxiv.org/abs/2305.06076) | 本研究通过模糊回归不连续性设计，评估了Medicare Part D中CML患者对于格列卫的价格弹性，并发现高额的自费支出会显著影响患者的依从性。 |
-| [^5] | [On the Time-Varying Structure of the Arbitrage Pricing Theory using the Japanese Sector Indices.](http://arxiv.org/abs/2305.05998) | 本文研究了日本股票市场中APT的时间不稳定性，发现APT作为解释日本股票市场的适当模型的有效性随时间变化不稳定，风险因素的变化、货币政策和商业周期等因素都可能影响其有效性。 |
-| [^6] | [Does Principal Component Analysis Preserve the Sparsity in Sparse Weak Factor Models?.](http://arxiv.org/abs/2305.05934) | 本文研究基于主成分法的稀疏弱因子模型负载估计，揭示了主成分估计量固有的近似稀疏性保持性质，暗示了因子之间的不对称关系，提出了一种简单的筛选方法恢复稀疏性并构建估计器。 |
-| [^7] | [Robust Data Regulation.](http://arxiv.org/abs/2305.05822) | 本文研究了监管公司访问消费者数据以用于价格歧视的问题，提出了一种可以最大化最劣消费者剩余价值的所有政策，即如果数据库不表明某一消费群体，则监管机构允许垄断者访问数据。 |
-| [^8] | [A spectral approach to stock market performance.](http://arxiv.org/abs/2305.05762) | 该研究提出了一种对股票市场表现进行评估和预测的频谱方法，并揭示了相关的隐藏周期性，能够近似股票价值的波动，此方法可以在一定程度上预测股票市场价值的下跌。 |
-| [^9] | [Measuring the strengths of the teams in the UEFA Champions League.](http://arxiv.org/abs/2304.09078) | 本文研究了UEFA俱乐部系数在保证欧洲冠军联赛对手实力相同方面的局限性，并提出通过考虑国内联赛的比赛成绩来改进系数的建议。 |
-| [^10] | [Rather First in a Village than Second in Rome? The Effect of Students' Class Rank in Primary School on Subsequent Academic Achievements.](http://arxiv.org/abs/2302.10026) | 本文研究了小学时学生的班级排名和班级质量对后续学业成果的影响，结果表明，排名对学生成绩的影响很大；与班级质量相比，班级排名的影响较小。 |
-| [^11] | [Security Issuance, Institutional Investors and Quid Pro Quo: Insights from SPACs.](http://arxiv.org/abs/2211.16643) | SPAC中的优质投资者参与可以创造价值，非优质投资者则仅参与交换条件安排，这不仅仅是代理成本还能使更多公司上市。 |
-| [^12] | [Double Robust Bayesian Inference on Average Treatment Effects.](http://arxiv.org/abs/2211.16298) | 本文研究了双重鲁棒贝叶斯推断程序，实现了平均处理效应的偏差校正并形成了可信区间。 |
-| [^13] | [An axiomatic theory for anonymized risk sharing.](http://arxiv.org/abs/2208.07533) | 本文研究了匿名风险分享的公理框架，提出和讨论了四个公理，并发现这四个公理特征化了条件平均风险分享规则，在相关应用中具有独特而重要的地位。 |
-| [^14] | [GMM is Inadmissible Under Weak Identification.](http://arxiv.org/abs/2204.12462) | 本文研究了矩条件模型的估计问题，证明了在弱识别条件下， GMM估计量是不可接受的，而袋装或自举聚合的GMM估计量及准贝叶斯后验均值具有更好的连续性质，模拟结果表明它们比GMM更优。 |
-| [^15] | [Distance Functions and Generalized Means: Duality and Taxonomy.](http://arxiv.org/abs/2112.09443) | 本文介绍了一类可以从效用函数中导出的效率度量，在此基础上，推广了多种已有效率度量，并得出了一种新的距离函数。通过证明广义对偶定理和将新的距离函数与利润函数联系起来的对偶结果，进一步建立了多个对偶对应关系。 |
-| [^16] | [Mind the Income Gap: Bias Correction of Inequality Estimators in Small-Sized Samples.](http://arxiv.org/abs/2107.08950) | 本论文提出了一种不需要对收入分布进行任何参数假设的偏差校正框架，可用于校正小样本中的不平等性测量偏差，并在小区域估计中取得了较好的效果。 |
-| [^17] | [Social distancing in networks: A web-based interactive experiment.](http://arxiv.org/abs/2012.12118) | 本文通过一个基于Web的交互实验，发现罚款可以促进社交距离，但信息提示却只有微弱影响。人们意识到自己是超级传播者时，会进行更多的社交距离，进步派更有可能实行社交距离，并且对罚款的反应更强。 |
+| [^1] | [Fair Price Discrimination.](http://arxiv.org/abs/2305.07006) | 本文研究公平的价格歧视模型，通过最大化奖励更平衡的剩余分配的福利函数实现消费者剩余的公平分配。 |
+| [^2] | [Socioeconomic disparities in mobility behavior during the COVID-19 pandemic in developing countries.](http://arxiv.org/abs/2305.06888) | 本研究通过手机数据发现，在COVID-19大流行期间，生活在低财富社区的城市用户更不可能采取自我隔离的行动，贫穷用户中那些曾经通勤上班到高财富社区的人则特别容易受到影响。 |
+| [^3] | [Band-Pass Filtering with High-Dimensional Time Series.](http://arxiv.org/abs/2305.06618) | 本文提出了一种基于高维时间序列的带通滤波方法，旨在构建月度的GDP增长中长期组成部分的综合指标，并且经过实验证明其可靠性和预测效度。 |
+| [^4] | [Measuring the strengths of the teams in the UEFA Champions League.](http://arxiv.org/abs/2304.09078) | 本文研究了UEFA俱乐部系数在保证欧洲冠军联赛对手实力相同方面的局限性，并提出通过考虑国内联赛的比赛成绩来改进系数的建议。 |
+| [^5] | [Non-diversified portfolios with subjective expected utility.](http://arxiv.org/abs/2304.08059) | 研究表明，即使风险厌恶的投资者通常采用的策略是多样化投资组合，分配所有资金到单一的资产或世界状态的极端投资组合也很常见。这种行为与风险厌恶的主观期望效用最大化相容。当有限个极端资产需求在此种信念下是合理化的时候，它们可以同时通过一些效用指数的方式合理化。 |
+| [^6] | [Quasi Maximum Likelihood Estimation of High-Dimensional Factor Models.](http://arxiv.org/abs/2303.11777) | 本文回顾了高维时间序列面板的因子模型的拟极大似然估计，特别是当允许偏离截面和时间上相关时，细微的异质成分的相关，我们展示了因子模型具有维度的优势属性。 |
+| [^7] | [Reinforcement Learning for Combining Search Methods in the Calibration of Economic ABMs.](http://arxiv.org/abs/2302.11835) | 本文提出了一种通过强化学习自动选择和组合搜索方法的方案，用于经济代理模型的参数校准，实验结果表明该方案在提高效率的同时不需要专业领域知识或手动调整参数。 |
+| [^8] | [Structural Complexities of Matching Mechanisms.](http://arxiv.org/abs/2212.08709) | 本论文研究了两种经典策略证明匹配机制的复杂性，并提出四个常见问题来规范我们的研究。DA和TTC的复杂度在某些问题上是可比较的，这为我们提供了新的严格界限。 |
+| [^9] | [Inference in Cluster Randomized Trials with Matched Pairs.](http://arxiv.org/abs/2211.14903) | 本文研究了在匹配对簇随机试验中进行统计推断的问题，提出了加权均值差估计量和方差估计量，建立了基于这些估计量的渐近精确性，并探讨了常用的两种测试程序的特性。 |
+| [^10] | [Observable Perfect Equilibrium.](http://arxiv.org/abs/2210.16506) | 本文提出一种新的博弈均衡概念——可观测完美均衡，在顺序不完全信息博弈中可以帮助创建真正的策略代理。这种均衡概念在公开观察的行动概率方面具有鲁棒性。 |
+| [^11] | [Auctions and Peer Prediction for Academic Peer Review.](http://arxiv.org/abs/2109.00923) | 本论文提出了一种机制设计方法，通过拍卖和同伴预测机制，同时激励高质量的提交和评审，来改善同行评审流程。 |
+| [^12] | [Efficient Discovery of Heterogeneous Quantile Treatment Effects in Randomized Experiments via Anomalous Pattern Detection.](http://arxiv.org/abs/1803.09159) | 提出了一种名为TESS的新方法，通过将该挑战作为一种模式检测问题来解决，可以高效地从随机实验数据中找到受治疗影响最大的子群体，同时假设最少且具有正确性保证。 |
 
 # 详细
 
-[^1]: 多重调整分位数。
+[^1]: 公平的价格歧视
 
-    Multiple Adjusted Quantiles. (arXiv:2305.06354v1 [econ.TH])
+    Fair Price Discrimination. (arXiv:2305.07006v1 [cs.GT])
 
-    [http://arxiv.org/abs/2305.06354](http://arxiv.org/abs/2305.06354)
+    [http://arxiv.org/abs/2305.07006](http://arxiv.org/abs/2305.07006)
 
-    本文介绍了一种新的最大调整分位数统计量，具有不变性和上确界保留性，可以用于多种应用场景。
-
-    
-
-    我们通过基数和序数排列分布函数（CDFs）。 我们提出了一种新的统计量类别——最大调整分位数，并证明一个统计量在基数位移方面具有不变性，在第一阶随机优势关系方面保留上确界，如果且仅如果它是最大调整分位数，则是下半连续的。我们提供了一个双重结果，以及有序结果。保留上确界具有多种解释，包括与税档变化有关，以及与由两个资产组成的期权的估值有关。
-
-    We cardinally and ordinally rank distribution functions (CDFs). We present a new class of statistics, maximal adjusted quantiles, and show that a statistic is invariant with respect to cardinal shifts, preserves least upper bounds with respect to the first order stochastic dominance relation, and is lower semicontinuous if and only if it is a maximal adjusted quantile. A dual result is provided, as are ordinal results. Preservation of least upper bounds is given several interpretations, including one that relates to changes in tax brackets, and one that relates to valuing options composed of two assets.
-    
-[^2]: 绿色基础设施在水资源管理上的成本与效益：意大利南北部全尺寸人工湿地的可持续性评估
-
-    Cost-benefit of green infrastructures for water management: A sustainability assessment of full-scale constructed wetlands in Northern and Southern Italy. (arXiv:2305.06284v1 [econ.GN])
-
-    [http://arxiv.org/abs/2305.06284](http://arxiv.org/abs/2305.06284)
-
-    本研究评估了两个不同地理区域的人工湿地的可持续性，结果表明西西里岛的垂直地下流人工湿地在经济和社会效益方面更高，是该地区水资源管理更可持续的选择。
+    本文研究公平的价格歧视模型，通过最大化奖励更平衡的剩余分配的福利函数实现消费者剩余的公平分配。
 
     
 
-    由于水资源供应不稳定和水质问题，可持续水资源管理已成为紧迫的挑战。气候变化的影响加剧了地中海地区等水资源匮乏地区的这一现象，刺激了旨在减轻或改善环境、社会和经济状况的解决方案的实施。一种灵感来自自然界、以技术为导向的新型解决方案是人工湿地。由于其低成本和简单的维护，常被应用于不同类型的废水处理，并被认为是除去污染物的有前途的解决方案，同时通过增加周围的生物多样性而创造了改进的生态系统。本研究旨在通过对意大利两个地区的两种类型的人工湿地（西西里岛的垂直地下流人工湿地和艾米利亚·罗马涅区的地表流人工湿地）进行可持续性评估，应用成本效益分析来比较这两种系统的经济、社会和环境影响。我们的研究结果表明，虽然两种系统都有积极的影响，但西西里岛的垂直地下流人工湿地具有更高的经济和社会效益，使其成为该地区水资源管理更可持续的选择。
+    一位卖家正在向一系列独立需求的买家定价相同的商品。每个买家都有对商品的价值作为私有信息。卖家只知道买家人口的经验价值分布，并选择收益最优价格。我们考虑了一种广泛研究的第三程度价格歧视模型，其中一个信息中介具有完全了解到到达的买家价值的信息并向卖家发送信号，从而改变了卖家的后验概率，并诱导卖家设置个性化的标价。Bergemann、Brooks和Morris的先前工作（美国经济评论，2015）已经证明了存在一个保持卖家收益的信号方案，同时始终出售物品，从而最大化消费者剩余。与以前的工作不同，我们问的是所生成的消费者剩余是否公平地分配给拥有不同价值的买家。为此，我们旨在最大化奖励更平衡的剩余分配的福利函数。
 
-    Sustainable water management has become an urgent challenge due to irregular water availability patterns and water quality issues. The effect of climate change exacerbates this phenomenon in water-scarce areas, such as the Mediterranean region, stimulating the implementation of solutions aiming to mitigate or improve environmental, social, and economic conditions. A novel solution inspired by nature, technology-oriented, explored in the past years, is constructed wetlands. Commonly applied for different types of wastewater due to its low cost and simple maintenance, they are considered a promising solution to remove pollutants while creating an improved ecosystem by increasing biodiversity around them. This research aims to assess the sustainability of two typologies of constructed wetlands in two Italian areas: Sicily, with a vertical subsurface flow constructed wetland, and Emilia Romagna, with a surface flow constructed wetland. The assessment is performed by applying a cost-benefit
+    A seller is pricing identical copies of a good to a stream of unit-demand buyers. Each buyer has a value on the good as his private information. The seller only knows the empirical value distribution of the buyer population and chooses the revenue-optimal price. We consider a widely studied third-degree price discrimination model where an information intermediary with perfect knowledge of the arriving buyer's value sends a signal to the seller, hence changing the seller's posterior and inducing the seller to set a personalized posted price. Prior work of Bergemann, Brooks, and Morris (American Economic Review, 2015) has shown the existence of a signaling scheme that preserves seller revenue, while always selling the item, hence maximizing consumer surplus. In a departure from prior work, we ask whether the consumer surplus generated is fairly distributed among buyers with different values. To this end, we aim to maximize welfare functions that reward more balanced surplus allocations. 
     
-[^3]: Yquilibrium: (非)凸经济的一种理论
+[^2]: 发展中国家COVID-19疫情期间的社会经济差异与出行行为
 
-    Yquilibrium: A Theory for (Non-) Convex Economies. (arXiv:2305.06256v1 [econ.TH])
+    Socioeconomic disparities in mobility behavior during the COVID-19 pandemic in developing countries. (arXiv:2305.06888v1 [physics.soc-ph])
 
-    [http://arxiv.org/abs/2305.06256](http://arxiv.org/abs/2305.06256)
+    [http://arxiv.org/abs/2305.06888](http://arxiv.org/abs/2305.06888)
 
-    Yquilibrium是一种适用于(非)凸经济市场的理论，与一般均衡理论相辅相成，不需要完全竞争的条件。它可以在沃尔拉斯均衡不存在时发挥作用，并产生最优分配方案。
-
-    
-
-    现代经济学和金融学的基石——一般均衡，是建立在许多市场并不符合的假设之上的。频谱拍卖、电力市场以及有关资源权利的配额交易计划通常包含偏好或生产上的非凸性，这可能导致沃尔拉斯均衡不存在，从而使一般均衡没有意义。Yquilibrium是一种跟通用均衡理论相辅相成的优化方法，适用于(非)凸的经济市场，它不需要完全竞争的条件。当沃尔拉斯均衡存在时，Yquilibrium与之完全一致。即使沃尔拉斯均衡不存在，Yquilibrium 仍然存在，并提供了在线性、匿名和(近似) 出清效用价格的约束下的最优分配方案。
-
-    General equilibrium, the cornerstone of modern economics and finance, rests on assumptions many markets do not meet. Spectrum auctions, electricity markets, and cap-and-trade programs for resource rights often feature non-convexities in preferences or production that can cause non-existence of Walrasian equilibrium and render general equilibrium vacuous. Yquilibrium complements general equilibrium with an optimization approach to (non-) convex economies that does not require perfect competition. Yquilibrium coincides with Walrasian equilibrium when the latter exists. Yquilibrium exists even if Walrasian equilibrium ceases to and produces optimal allocations subject to linear, anonymous, and (approximately) utility-clearing prices.
-    
-[^4]: Medicare Part D慢性髓系白血病患者格列卫（Gleevec）的价格弹性：基于回归不连续性设计所获证据
-
-    The price elasticity of Gleevec in patients with Chronic Myeloid Leukemia enrolled in Medicare Part D: Evidence from a regression discontinuity design. (arXiv:2305.06076v1 [econ.EM])
-
-    [http://arxiv.org/abs/2305.06076](http://arxiv.org/abs/2305.06076)
-
-    本研究通过模糊回归不连续性设计，评估了Medicare Part D中CML患者对于格列卫的价格弹性，并发现高额的自费支出会显著影响患者的依从性。
+    本研究通过手机数据发现，在COVID-19大流行期间，生活在低财富社区的城市用户更不可能采取自我隔离的行动，贫穷用户中那些曾经通勤上班到高财富社区的人则特别容易受到影响。
 
     
 
-    目的为评估Medicare Part D中CML患者中品牌伊马替尼（imatinib）的价格弹性，以确定高额的自费支出是否推动该人群明显的非依从性。数据源和研究设置使用TriNetX Diamond Network (TDN)美国数据库中2011年首次可用至在2016年初引入通用伊马替尼的专利过期结束期间的数据。研究设计我们实施了模糊回归不连续性设计，分别估计在 65 岁时 Medicare Part D 的入选对新诊断 CML 患者使用品牌伊马替尼的依从性和自费支出的影响。通过各种规格和稳健性检查来估计相应的需求价格弹性（PED）并评估结果。数据收集/提取方法在应用包含和排除标准后使用符合资格的患者数据。
+    手机数据在量化COVID-19疫情期间的人类流动中发挥了关键作用。现有研究主要关注高收入国家的地区总体情况，掩盖了疫情对最脆弱群体的强烈影响。我们结合来自移动电话和人口普查的地理位置数据，研究了2020年3月至12月期间3个大洲的6个中等收入国家，揭示了不同社会经济群体应对疫情的行为差异。当疫情爆发时，生活在低财富社区中的城市用户更不可能通过自我隔离在家中、搬迁到农村地区或者停止通勤工作来应对。贫穷用户中，那些在疫情之前曾通勤上班到高财富社区的人则面临着重大风险。
 
-    Objective To assess the price elasticity of branded imatinib in chronic myeloid leukemia (CML) patients on Medicare Part D to determine if high out-of-pocket payments (OOP) are driving the substantial levels of non-adherence observed in this population.  Data sources and study setting We use data from the TriNetX Diamond Network (TDN) United States database for the period from first availability in 2011 through the end of patent exclusivity following the introduction of generic imatinib in early 2016.  Study design We implement a fuzzy regression discontinuity design to separately estimate the effect of Medicare Part D enrollment at age 65 on adherence and OOP in newly-diagnosed CML patients initiating branded imatinib. The corresponding price elasticity of demand (PED) is estimated and results are assessed across a variety of specifications and robustness checks.  Data collection/extraction methods Data from eligible patients following the application of inclusion and exclusion criter
+    Mobile phone data have played a key role in quantifying human mobility during the COVID-19 pandemic. Existing studies on mobility patterns have primarily focused on regional aggregates in high-income countries, obfuscating the accentuated impact of the pandemic on the most vulnerable populations. By combining geolocation data from mobile phones and population census for 6 middle-income countries across 3 continents between March and December 2020, we uncovered common disparities in the behavioral response to the pandemic across socioeconomic groups. When the pandemic hit, urban users living in low-wealth neighborhoods were less likely to respond by self-isolating at home, relocating to rural areas, or refraining from commuting to work. The gap in the behavioral responses between socioeconomic groups persisted during the entire observation period. Among low-wealth users, those who used to commute to work in high-wealth neighborhoods pre-pandemic were particularly at risk, facing both th
     
-[^5]: 关于APT的时变结构及其在日本股票市场的应用研究
+[^3]: 高维时间序列的带通滤波
 
-    On the Time-Varying Structure of the Arbitrage Pricing Theory using the Japanese Sector Indices. (arXiv:2305.05998v1 [q-fin.ST])
+    Band-Pass Filtering with High-Dimensional Time Series. (arXiv:2305.06618v1 [econ.EM])
 
-    [http://arxiv.org/abs/2305.05998](http://arxiv.org/abs/2305.05998)
+    [http://arxiv.org/abs/2305.06618](http://arxiv.org/abs/2305.06618)
 
-    本文研究了日本股票市场中APT的时间不稳定性，发现APT作为解释日本股票市场的适当模型的有效性随时间变化不稳定，风险因素的变化、货币政策和商业周期等因素都可能影响其有效性。
-
-    
-
-    本文是第一篇研究在日本股票市场中考察APT时间不稳定性的论文。具体而言，我们采用Fama和MacBeth（1973）的两步回归和Kamstra和Shi（2023）的广义GRS测试方法，衡量每个风险因子变化对股票风险溢价的影响，以考察APT的有效性随时间的变化。我们总结我们的实证结果如下：（1）APT在整个样本期间得到支持，但并不总是有效的；（2）货币政策的变化在日本影响APT的有效性；（3）每个因子的风险溢价的时变估计也不稳定，受到商业周期和经济危机的影响。因此，我们得出结论，APT作为解释日本股票市场的适当模型的有效性随时间的变化并不稳定。
-
-    This paper is the first study to examine the time instability of the APT in the Japanese stock market. In particular, we measure how changes in each risk factor affect the stock risk premiums to investigate the validity of the APT over time, applying the rolling window method to Fama and MacBeth's (1973) two-step regression and Kamstra and Shi's (2023) generalized GRS test. We summarize our empirical results as follows: (1) the APT is supported over the entire sample period but not at all times, (2) the changes in monetary policy greatly affect the validity of the APT in Japan, and (3) the time-varying estimates of the risk premiums for each factor are also unstable over time, and they are affected by the business cycle and economic crises. Therefore, we conclude that the validity of the APT as an appropriate model to explain the Japanese sector index is not stable over time.
-    
-[^6]: 主成分分析方法是否保留了稀疏弱因子模型中的稀疏性？
-
-    Does Principal Component Analysis Preserve the Sparsity in Sparse Weak Factor Models?. (arXiv:2305.05934v1 [econ.EM])
-
-    [http://arxiv.org/abs/2305.05934](http://arxiv.org/abs/2305.05934)
-
-    本文研究基于主成分法的稀疏弱因子模型负载估计，揭示了主成分估计量固有的近似稀疏性保持性质，暗示了因子之间的不对称关系，提出了一种简单的筛选方法恢复稀疏性并构建估计器。
+    本文提出了一种基于高维时间序列的带通滤波方法，旨在构建月度的GDP增长中长期组成部分的综合指标，并且经过实验证明其可靠性和预测效度。
 
     
 
-    本文研究基于主成分法的稀疏弱因子模型负载估计。我们揭示了负载估计的主成分估计量固有的近似稀疏性保持性质，这来源于旋转矩阵的近似上三角（分块）结构。它暗示了因子之间的不对称关系：较强因子的旋转负载可以被较弱因子的负载所污染，但较弱因子的负载几乎不受较强因子的影响。更重要的是，这一发现意味着不需要使用复杂的罚函数来稀疏化负载估计量。相反，我们采用简单的筛选方法恢复稀疏性，并构建各种因子强度的估计器。此外，对于稀疏弱因子模型，我们提供了一种奇异值阈值法来确定因子数量，并建立主成分估计量的一致收敛率，这补充了现有结果并提供了新的理论证明。
+    本文研究了构建经济增长的综合指标，其利用代表中长期经济增长的平滑主成分的有限数量的空间对季度度量的总体经济活动（即国内生产总值（GDP））进行投影。平滑主成分是通过应用跨部分滤波器从实时中提取生长的低通分量得到的。投影的结果是GDP中长期增长的月度现场预测。在讨论指标的理论性质之后，我们将处理与宏观经济美国时间序列的面板相关的其可靠性和预测效度的评估。
 
-    This paper studies the principal component (PC) method-based estimation of weak factor models with sparse loadings. We uncover an intrinsic near-sparsity preservation property for the PC estimators of loadings, which comes from the approximately upper triangular (block) structure of the rotation matrix. It implies an asymmetric relationship among factors: the rotated loadings for a stronger factor can be contaminated by those from a weaker one, but the loadings for a weaker factor is almost free of the impact of those from a stronger one. More importantly, the finding implies that there is no need to use complicated penalties to sparsify the loading estimators. Instead, we adopt a simple screening method to recover the sparsity and construct estimators for various factor strengths. In addition, for sparse weak factor models, we provide a singular value thresholding-based approach to determine the number of factors and establish uniform convergence rates for PC estimators, which complem
+    The paper deals with the construction of a synthetic indicator of economic growth, obtained by projecting a quarterly measure of aggregate economic activity, namely gross domestic product (GDP), into the space spanned by a finite number of smooth principal components, representative of the medium-to-long-run component of economic growth of a high-dimensional time series, available at the monthly frequency. The smooth principal components result from applying a cross-sectional filter distilling the low-pass component of growth in real time. The outcome of the projection is a monthly nowcast of the medium-to-long-run component of GDP growth. After discussing the theoretical properties of the indicator, we deal with the assessment of its reliability and predictive validity with reference to a panel of macroeconomic U.S. time series.
     
-[^7]: 强健的数据监管
-
-    Robust Data Regulation. (arXiv:2305.05822v1 [econ.TH])
-
-    [http://arxiv.org/abs/2305.05822](http://arxiv.org/abs/2305.05822)
-
-    本文研究了监管公司访问消费者数据以用于价格歧视的问题，提出了一种可以最大化最劣消费者剩余价值的所有政策，即如果数据库不表明某一消费群体，则监管机构允许垄断者访问数据。
-
-    
-
-    本文研究了关于监管公司访问消费者数据以用于价格歧视的问题，特别是当监管机构对数据和支付意愿之间的相关结构存在非贝叶斯不确定性时。因此，垄断者如何细分市场还不清楚。本文描述了可以最大化最劣消费者剩余价值的所有政策：如果数据库不表明某一消费群体，则监管机构允许垄断者访问数据。
-
-    I study how to regulate firms' access to consumer data when it is used for price discrimination and the regulator possesses non-Bayesian uncertainty about the correlation structure between data and willingness to pay. Therefore, it is unclear how the monopolist will segment the market. I characterize all policies that maximize worst-case consumer surplus: the regulator allows the monopolist to access data, if the database does not reveal a minority group of consumers.
-    
-[^8]: 一种股票市场表现的频谱方法
-
-    A spectral approach to stock market performance. (arXiv:2305.05762v1 [econ.GN])
-
-    [http://arxiv.org/abs/2305.05762](http://arxiv.org/abs/2305.05762)
-
-    该研究提出了一种对股票市场表现进行评估和预测的频谱方法，并揭示了相关的隐藏周期性，能够近似股票价值的波动，此方法可以在一定程度上预测股票市场价值的下跌。
-
-    
-
-    我们提出了评估和预测股票市场表现的问题。我们以美国、日本、德国为例，考虑了按股票实现投资价值、价格和股息支付的价值的月度指数（OECD数据）。一旦将其除趋势和通货膨胀调整，我们将应用谐波分析。将序列采用存在外生冲击证据和无证据的情况。序列不规则而随机漫步假设合理被证伪。估计揭示了相关的隐藏周期性，近似股票价值的波动。从2008年7月开始，我们成功地分析了随后的股票价格下跌是否可预测。同样，数据不规则而分散，但前五个谐波的和趋势可预测随后的股票市场价值下跌。
-
-    We pose the estimation and predictability of stock market performance. Three cases are taken: US, Japan, Germany, the monthly index of the value of realized investment in stocks, prices plus the value of dividend payments (OECD data). Once deflated and trend removed, harmonic analysis is applied. The series are taken with and without the periods with evidence of exogenous shocks. The series are erratic and the random walk hypothesis is reasonably falsified. The estimation reveals relevant hidden periodicities, which approximate stock value movements. From July 2008 onwards, it is successfully analyzed whether the subsequent fall in share value would have been predictable. Again, the data are irregular and scattered, but the sum of the first five harmonics in relevance anticipates the fall in stock market values that followed.
-    
-[^9]: 测量欧洲冠军联赛球队实力的方法
+[^4]: 测量欧洲冠军联赛球队实力的方法
 
     Measuring the strengths of the teams in the UEFA Champions League. (arXiv:2304.09078v1 [stat.AP])
 
@@ -148,116 +73,116 @@
 
     One of the most popular club football tournaments, the UEFA Champions League, will see a fundamental reform from the 2024/25 season: the traditional group stage will be replaced by one league where each of the 36 teams plays eight matches. Since the ranking is still based on the results of these matches, fairness requires guaranteeing that the opponents of the clubs are of the same strength. This paper investigates whether the currently used rating of the teams, the UEFA club coefficient, can be improved by taking the games played in the national leagues into account. According to our logistic regression models, a variant of the Elo method provides a higher accuracy in forecasting Champions League matches. Therefore, the Union of European Football Associations (UEFA) is encouraged to follow the example of the FIFA World Ranking and reform the calculation of the coefficients in order to avoid unbalanced schedules in the novel tournament format of the Champions League.
     
-[^10]: 在村里当第一还是在罗马当第二？小学时学生的班级排名对后来的学业成就的影响。
+[^5]: 非多样化投资组合与主观期望效用
 
-    Rather First in a Village than Second in Rome? The Effect of Students' Class Rank in Primary School on Subsequent Academic Achievements. (arXiv:2302.10026v2 [econ.GN] UPDATED)
+    Non-diversified portfolios with subjective expected utility. (arXiv:2304.08059v1 [econ.TH])
 
-    [http://arxiv.org/abs/2302.10026](http://arxiv.org/abs/2302.10026)
+    [http://arxiv.org/abs/2304.08059](http://arxiv.org/abs/2304.08059)
 
-    本文研究了小学时学生的班级排名和班级质量对后续学业成果的影响，结果表明，排名对学生成绩的影响很大；与班级质量相比，班级排名的影响较小。
-
-    
-
-    本文利用2013年至2019年间意大利学生的面板数据，比较了小学阶段学生的班级排名与班级质量对后续学业成果的影响。我们提出了一种新策略来确定排名的影响，同时控制同伴影响，即利用班级考试的成绩构建排名，并利用全国标准化考试的成绩来控制学生的能力。在小学时排名第一与最后相比，会使中学的全国标准化考试成绩分布提高8.1个百分点，高中提高7.6个百分点。尽管排名的影响很大，但我们的分析还强调了，班级质量一个标准差的提高对学业的影响是排名的五倍。最后，通过一项广泛的学生调查，我们确定了排名的影响是通过进入更好的高中和心理机制来发挥作用的。
-
-    Using panel data on Italian students from 2013 to 2019, we compare the effect of a student's class rank to the effect of class quality in primary school on subsequent academic outcomes. We propose a new strategy to identify the impact of rank while controlling for peer effects, by leveraging grades on class exams to construct the rank, and grades on national standardized tests to control for students' ability. Ranking first in primary school compared to last results in an improvement of 8.1 percentiles in the national standardized test grade distribution in middle school and 7.6 percentiles in high school. Despite the sizable impact of rank, our analysis highlights that a one standard deviation increase in class quality is five-fold greater than a similar increase in rank. Finally, using an extensive student survey, we establish that the rank effect is channeled through sorting into better high schools and psychological mechanisms.
-    
-[^11]: SPAC的发行、机构投资者和交换条件：洞察力
-
-    Security Issuance, Institutional Investors and Quid Pro Quo: Insights from SPACs. (arXiv:2211.16643v3 [q-fin.GN] UPDATED)
-
-    [http://arxiv.org/abs/2211.16643](http://arxiv.org/abs/2211.16643)
-
-    SPAC中的优质投资者参与可以创造价值，非优质投资者则仅参与交换条件安排，这不仅仅是代理成本还能使更多公司上市。
+    研究表明，即使风险厌恶的投资者通常采用的策略是多样化投资组合，分配所有资金到单一的资产或世界状态的极端投资组合也很常见。这种行为与风险厌恶的主观期望效用最大化相容。当有限个极端资产需求在此种信念下是合理化的时候，它们可以同时通过一些效用指数的方式合理化。
 
     
 
-    证券发行受信息和代理成本的影响。然而，很难将它们分开考虑。我们考虑SPAC并分别评估这些影响。为此，我们确定产生价值相关信息的优质投资者：他们的参与与更高的SPAC成功和公告日回报相关。然而，非优质投资者仅参与交换条件安排。他们今天从发行人（优惠）获得高回报，这意味着他们更有可能参与由这些发行人发起的低回报未来交易（条件）。因此，交换条件不是纯代理成本，而是部分使更多的公司上市的转移。
+    虽然投资组合多样化是风险厌恶的投资者通常采用的策略，但为了单一资产/世界状态分配所有资金的极端投资组合也很常见。这种资产需求行为与风险厌恶的主观期望效用最大化相容，假设将每个状态分配一个严格正的概率。我们表明，只要有限个极端资产需求在此种信念下是合理化的，它们就可以同时在同样信念下通过：(i)绝对风险厌恶的常数；递减的绝对风险厌恶/递增的相对风险厌恶(DARA/IRRA)；风险中性；所有财富水平下的追求风险的效用指数；(ii)于某个严格正的固定初期财富水平下明显不同的DARA/IRRA效用指数类；和(iii)在有界财富下递减的相对风险厌恶效用指数。我们还表明，在这种情况下，可观察数据允许给出尖锐的限制。
 
-    Security issuance is subject to informational and agency-related frictions. However, it is difficult to separate their effects. We consider SPACs and assess those effects separately. To this end, we identify premium investors who produce value-relevant information: their participation is associated with higher SPAC success and announcement-day returns. Non-premium investors, however, engage only in quid pro quo arrangements. Their high returns today from issuers (quid) mean they are more likely to participate in low-returns future deals initiated by those issuers (quo). Thus quid pro quo is not pure agency cost but partly a transfer that enables more firms to go public.
+    Although portfolio diversification is the typical strategy followed by risk-averse investors, extreme portfolios that allocate all funds to a single asset/state of the world are common too. Such asset-demand behavior is compatible with risk-averse subjective expected utility maximization under beliefs that assign a strictly positive probability to every state. We show that whenever finitely many extreme asset demands are rationalizable in this way under such beliefs, they are simultaneously rationalizable under the same beliefs by: (i) constant absolute risk aversion; decreasing absolute risk aversion/increasing relative risk aversion (DARA/IRRA); risk-neutral; and ris-kseeking utility indices at all wealth levels; (ii) a distinct class of DARA/IRRA utility indices at some strictly positive fixed initial wealth; and (iii) decreasing relative risk aversion utility indices under bounded wealth. We also show that, in such situations, the observable data allow for sharp bounds to be given 
     
-[^12]: 平均处理效应的双重鲁棒贝叶斯推断
+[^6]: 高维因子模型的拟极大似然估计
 
-    Double Robust Bayesian Inference on Average Treatment Effects. (arXiv:2211.16298v3 [econ.EM] UPDATED)
+    Quasi Maximum Likelihood Estimation of High-Dimensional Factor Models. (arXiv:2303.11777v1 [econ.EM])
 
-    [http://arxiv.org/abs/2211.16298](http://arxiv.org/abs/2211.16298)
+    [http://arxiv.org/abs/2303.11777](http://arxiv.org/abs/2303.11777)
 
-    本文研究了双重鲁棒贝叶斯推断程序，实现了平均处理效应的偏差校正并形成了可信区间。
-
-    
-
-    我们研究了无偏性下的平均处理效应（ATE）的双重鲁棒贝叶斯推断程序。我们的鲁棒贝叶斯方法包括两个调整步骤：首先，我们对条件均值函数的先验分布进行校正；其次，我们在产生的ATE的后验分布上引入一个重新居中术语。我们通过建立双重鲁棒性下的半参数Bernstein-von Mises定理，证明了我们的贝叶斯估计量和双重鲁棒频率估计量的渐近等价性；即，条件均值函数的缺乏平滑性可以通过概率得分的高规则性进行补偿，反之亦然。因此，产生的贝叶斯点估计内在化了频率型双重鲁棒估计量的偏差校正，而贝叶斯可信集形成的置信区间具有渐近精确的覆盖概率。在模拟中，我们发现这种鲁棒的贝叶斯程序导致了显着的...
-
-    We study a double robust Bayesian inference procedure on the average treatment effect (ATE) under unconfoundedness. Our robust Bayesian approach involves two adjustment steps: first, we make a correction for prior distributions of the conditional mean function; second, we introduce a recentering term on the posterior distribution of the resulting ATE. We prove asymptotic equivalence of our Bayesian estimator and double robust frequentist estimators by establishing a new semiparametric Bernstein-von Mises theorem under double robustness; i.e., the lack of smoothness of conditional mean functions can be compensated by high regularity of the propensity score and vice versa. Consequently, the resulting Bayesian point estimator internalizes the bias correction as the frequentist-type doubly robust estimator, and the Bayesian credible sets form confidence intervals with asymptotically exact coverage probability. In simulations, we find that this robust Bayesian procedure leads to significant
-    
-[^13]: 匿名风险分享的公理理论研究
-
-    An axiomatic theory for anonymized risk sharing. (arXiv:2208.07533v4 [econ.TH] UPDATED)
-
-    [http://arxiv.org/abs/2208.07533](http://arxiv.org/abs/2208.07533)
-
-    本文研究了匿名风险分享的公理框架，提出和讨论了四个公理，并发现这四个公理特征化了条件平均风险分享规则，在相关应用中具有独特而重要的地位。
+    本文回顾了高维时间序列面板的因子模型的拟极大似然估计，特别是当允许偏离截面和时间上相关时，细微的异质成分的相关，我们展示了因子模型具有维度的优势属性。
 
     
 
-    我们研究了匿名风险分享的公理框架。与传统的风险分享设置不同，我们的框架不需要有关个体代理的偏好、身份、私人操作和已实现损失的任何信息，因此它对于建模去中心化系统的风险分享是有用的。我们提出和讨论了在这种框架下自然的四个公理——精算公平性、风险公平性、风险匿名性和操作匿名性。我们发现这四个公理特征化了条件平均风险分享规则，揭示了这种广泛使用的风险分享规则在相关的匿名风险分享应用中的独特而重要的地位。我们研究了几个其他性质及其与四个公理的关系，以及它们在合理化实践中某些分享机制的设计中的影响。
+    我们回顾了高维时间序列面板的因子模型的拟极大似然估计。我们考虑了两种情况：（1）当未指定因子的动态模型时估计（Bai和Li，2016）；（2）基于Kalman平滑器和期望最大化算法的估计，从而允许显式建模因子动态（Doz等人，2012）。我们的兴趣在于近似因子模型，即当我们允许偏离截面和时间上相关时，细微的异质成分的相关。尽管这种设置似乎使估计更加困难，但我们实际上展示了因子模型没有受到维度诅咒问题的影响，反而具有维度的优势属性。特别地，我们展示了如果数据的截面维数N增长到无穷大，则：（i）模型的确认仍然是可能的，（ii）由于使用精确因子模型对数似然而导致的误规范误差会减少。
 
-    We study an axiomatic framework for anonymized risk sharing. In contrast to traditional risk sharing settings, our framework requires no information on preferences, identities, private operations and realized losses from the individual agents, and thereby it is useful for modeling risk sharing in decentralized systems. Four axioms natural in such a framework -- actuarial fairness, risk fairness, risk anonymity, and operational anonymity -- are put forward and discussed. We establish the remarkable fact that the four axioms characterizes the conditional mean risk sharing rule, revealing the unique and prominent role of this popular risk sharing rule among all others in relevant applications of anonymized risk sharing. Several other properties and their relations to the four axioms are studied, as well as their implications in rationalizing the design of some sharing mechanisms in practice.
+    We review Quasi Maximum Likelihood estimation of factor models for high-dimensional panels of time series. We consider two cases: (1) estimation when no dynamic model for the factors is specified (Bai and Li, 2016); (2) estimation based on the Kalman smoother and the Expectation Maximization algorithm thus allowing to model explicitly the factor dynamics (Doz et al., 2012). Our interest is in approximate factor models, i.e., when we allow for the idiosyncratic components to be mildly cross-sectionally, as well as serially, correlated. Although such setting apparently makes estimation harder, we show, in fact, that factor models do not suffer of the curse of dimensionality problem, but instead they enjoy a blessing of dimensionality property. In particular, we show that if the cross-sectional dimension of the data, $N$, grows to infinity, then: (i) identification of the model is still possible, (ii) the mis-specification error due to the use of an exact factor model log-likelihood vanis
     
-[^14]: GMM在弱识别下是不可接受的
+[^7]: 强化学习用于经济代理模型参数校准的搜索方法组合
 
-    GMM is Inadmissible Under Weak Identification. (arXiv:2204.12462v3 [econ.EM] UPDATED)
+    Reinforcement Learning for Combining Search Methods in the Calibration of Economic ABMs. (arXiv:2302.11835v2 [cs.LG] UPDATED)
 
-    [http://arxiv.org/abs/2204.12462](http://arxiv.org/abs/2204.12462)
+    [http://arxiv.org/abs/2302.11835](http://arxiv.org/abs/2302.11835)
 
-    本文研究了矩条件模型的估计问题，证明了在弱识别条件下， GMM估计量是不可接受的，而袋装或自举聚合的GMM估计量及准贝叶斯后验均值具有更好的连续性质，模拟结果表明它们比GMM更优。
-
-    
-
-    我们考虑了矩条件模型的估计问题，并且证明了在任何识别强度的限制下，一类广泛的估计问题中，渐近无偏（即无支配）估计量必须在样本矩函数上是一致连续的。 GMM估计量在样本矩上通常是不连续的，因此是不可接受的。相比之下，我们展示了袋装或自举聚合的GMM估计量，以及准贝叶斯后验均值具有更好的连续性质，文献中的结果表明当收敛性强时，它们相当于GMM。在以已发表的工具变量规范为基础的模拟中，我们发现这些替代方法通常优于GMM。
-
-    We consider estimation in moment condition models and show that under any bound on identification strength, asymptotically admissible (i.e. undominated) estimators in a wide class of estimation problems must be uniformly continuous in the sample moment function. GMM estimators are in general discontinuous in the sample moments, and are thus inadmissible. We show, by contrast, that bagged, or bootstrap aggregated, GMM estimators as well as quasi-Bayes posterior means have superior continuity properties, while results in the literature imply that they are equivalent to GMM when identification is strong. In simulations calibrated to published instrumental variables specifications, we find that these alternatives often outperform GMM.
-    
-[^15]: 距离函数与广义平均数：对偶性和分类
-
-    Distance Functions and Generalized Means: Duality and Taxonomy. (arXiv:2112.09443v2 [econ.TH] UPDATED)
-
-    [http://arxiv.org/abs/2112.09443](http://arxiv.org/abs/2112.09443)
-
-    本文介绍了一类可以从效用函数中导出的效率度量，在此基础上，推广了多种已有效率度量，并得出了一种新的距离函数。通过证明广义对偶定理和将新的距离函数与利润函数联系起来的对偶结果，进一步建立了多个对偶对应关系。
+    本文提出了一种通过强化学习自动选择和组合搜索方法的方案，用于经济代理模型的参数校准，实验结果表明该方案在提高效率的同时不需要专业领域知识或手动调整参数。
 
     
 
-    本文中引入了一大类可以从效用函数中导出的效率度量，该类度量在生产理论中具有重要作用。同时，文章还建立了这些距离函数与 Stone-Geary 效用函数之间的关系。具体而言，本文关注一种新的距离函数，可以推广多种已有效率度量，并受到 Atkinson 不等式指数的启发，最大化达到有效点所需的净产出扩展之和。证明了一个广义对偶定理，并获得了一个将新的距离函数与利润函数联系起来的对偶结果。对于所有可行的生产向量，它包括先前在文献中建立的大多数对偶对应关系的特殊情况。最后，我们确定了一大类度量，可以在没有凸性的情况下获得这些对偶结果。
+    经济学和金融中的代理模型参数校准通常涉及到对非常大的参数空间进行无导数搜索。本文在真实数据上对众所周知的宏观经济代理模型的若干搜索方法进行了基准测试，进一步评估了通过组合不同方法所做出的“混合策略”的表现。研究发现，基于随机森林替代模型的方法特别高效，并且组合搜索方法通常会增加性能，因为任何单一方法的偏差都会被缓解。通过这些观察，我们提出了一种强化学习方案，在校准运行过程中自动选择和组合搜索方法。强化学习代理人只有在该方法的性能表现良好时才继续利用特定方法，但在该方法达到性能平台时探索新策略。得到的强化学习搜索方案在任何其他测试的方法或方法组合上都表现更好，并且不需要专业的领域知识或手动参数调整。
 
-    This paper introduces in production theory a large class of efficiency measures that can be derived from the notion of utility function. This article also establishes a relation between these distance functions and Stone-Geary utility functions. More specifically, the paper focusses on new distance function that generalizes several existing efficiency measures. The new distance function is inspired from the Atkinson inequality index and maximizes the sum of the netput expansions required to reach an efficient point. A generalized duality theorem is proved and a duality result linking the new distance functions and the profit function is obtained. For all feasible production vectors, it includes as special cases most of the dual correspondences previously established in the literature. Finally, we identify a large class of measures for which these duality results can be obtained without convexity.
+    Calibrating agent-based models (ABMs) in economics and finance typically involves a derivative-free search in a very large parameter space. In this work, we benchmark a number of search methods in the calibration of a well-known macroeconomic ABM on real data, and further assess the performance of "mixed strategies" made by combining different methods. We find that methods based on random-forest surrogates are particularly efficient, and that combining search methods generally increases performance since the biases of any single method are mitigated. Moving from these observations, we propose a reinforcement learning (RL) scheme to automatically select and combine search methods on-the-fly during a calibration run. The RL agent keeps exploiting a specific method only as long as this keeps performing well, but explores new strategies when the specific method reaches a performance plateau. The resulting RL search scheme outperforms any other method or method combination tested, and does 
     
-[^16]: 收入差距问题：小样本中收入不平等估计的偏差校正
+[^8]: 匹配机制的结构复杂性
 
-    Mind the Income Gap: Bias Correction of Inequality Estimators in Small-Sized Samples. (arXiv:2107.08950v3 [stat.ME] UPDATED)
+    Structural Complexities of Matching Mechanisms. (arXiv:2212.08709v2 [cs.GT] UPDATED)
 
-    [http://arxiv.org/abs/2107.08950](http://arxiv.org/abs/2107.08950)
+    [http://arxiv.org/abs/2212.08709](http://arxiv.org/abs/2212.08709)
 
-    本论文提出了一种不需要对收入分布进行任何参数假设的偏差校正框架，可用于校正小样本中的不平等性测量偏差，并在小区域估计中取得了较好的效果。
-
-    
-
-    在小样本中，收入不平等估计存在偏差，通常导致低估。当在小领域内估计不平等性并在区域水平上进行小区域估计时，这一方面值得特别关注。我们提出了一个偏差校正框架，适用于包括基尼系数、广义熵和阿特金森指数家族在内的大类不平等性测量，同时考虑复杂的抽样设计。所提出的方法不需要对收入分布进行任何参数假设，非常灵活。我们使用 EU-SILC 数据对我们的提议进行了基于设计的性能评估，结果显示所有指标的明显偏差减少。最后，一个在小区域估计中应用的说明性例子确认忽略先前的偏差校正决定了模型规范不足。
-
-    Income inequality estimators are biased in small samples, leading generally to an underestimation. This aspect deserves particular attention when estimating inequality in small domains and performing small area estimation at the area level. We propose a bias correction framework for a large class of inequality measures comprising the Gini Index, the Generalized Entropy and the Atkinson index families by accounting for complex survey designs. The proposed methodology does not require any parametric assumption on income distribution, being very flexible. Design-based performance evaluation of our proposal has been carried out using EU-SILC data, their results show a noticeable bias reduction for all the measures. Lastly, an illustrative example of application in small area estimation confirms that ignoring ex-ante bias correction determines model misspecification.
-    
-[^17]: 社交网络中的社交距离：一个基于Web的互动实验
-
-    Social distancing in networks: A web-based interactive experiment. (arXiv:2012.12118v4 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2012.12118](http://arxiv.org/abs/2012.12118)
-
-    本文通过一个基于Web的交互实验，发现罚款可以促进社交距离，但信息提示却只有微弱影响。人们意识到自己是超级传播者时，会进行更多的社交距离，进步派更有可能实行社交距离，并且对罚款的反应更强。
+    本论文研究了两种经典策略证明匹配机制的复杂性，并提出四个常见问题来规范我们的研究。DA和TTC的复杂度在某些问题上是可比较的，这为我们提供了新的严格界限。
 
     
 
-    政府使用社交距离来遏制新冠病毒的传播，但是缺乏关于最有效的政策以确保遵守的证据。我们在流行病第一波期间在美国人口的近似代表样本上进行了一个基于Web的交互式实验，研究了罚款和信息提示（nudges）在促进社交距离方面的有效性。罚款可以促进社交距离，但提示仅有微弱的影响。当人们意识到自己是超级传播者时，他们会进行更多的社交距离。使用工具变量方法，我们认为进步派更有可能实行社交距离，并且他们对罚款的反应更强。
+    我们研究了用于两个经典策略证明匹配机制（DA和TTC）的各种新的复杂度度量标准。 我们的度量标准旨在捕捉各种结构（而非计算）方面的复杂性，特别是近期在经济领域越发重要的方面。我们考虑了一个经典而灵活的方法来规范我们的问题：定义一个执行某个任务的协议或数据结构，并限制它所需的位数。我们的结果将这种方法应用于四个普遍关心的问题。对于将申请人与机构进行匹配，我们问：（1）一个申请人如何影响匹配结果？（2）一个申请人如何影响另一个申请人的选择集？（3）匹配结果如何表示/通信？ （4）如何验证匹配结果？我们证明，在问题（1）和（4）下，DA和TTC的复杂度是可比较的，提供了新的严格届。
 
-    Governments have used social distancing to stem the spread of COVID-19, but lack evidence on the most effective policy to ensure compliance. We examine the effectiveness of fines and informational messages (nudges) in promoting social distancing in a web-based interactive experiment conducted during the first wave of the pandemic on a near-representative sample of the US population. Fines promote distancing, but nudges only have a marginal impact. Individuals do more social distancing when they are aware they are a superspreader. Using an instrumental variable approach, we argue progressives are more likely to practice distancing, and they are marginally more responsive to fines.
+    We study various novel complexity measures for two-sided matching mechanisms, applied to the two canonical strategyproof matching mechanisms, Deferred Acceptance (DA) and Top Trading Cycles (TTC). Our metrics are designed to capture the complexity of various structural (rather than computational) concerns, in particular ones of recent interest from economics. We consider a canonical, flexible approach to formalizing our questions: define a protocol or data structure performing some task, and bound the number of bits that it requires. Our results apply this approach to four questions of general interest; for matching applicants to institutions, we ask:  (1) How can one applicant affect the outcome matching?  (2) How can one applicant affect another applicant's set of options?  (3) How can the outcome matching be represented / communicated?  (4) How can the outcome matching be verified?  We prove that DA and TTC are comparable in complexity under questions (1) and (4), giving new tight l
+    
+[^9]: 匹配对簇随机试验中的推断
+
+    Inference in Cluster Randomized Trials with Matched Pairs. (arXiv:2211.14903v2 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2211.14903](http://arxiv.org/abs/2211.14903)
+
+    本文研究了在匹配对簇随机试验中进行统计推断的问题，提出了加权均值差估计量和方差估计量，建立了基于这些估计量的渐近精确性，并探讨了常用的两种测试程序的特性。
+
+    
+
+    本文研究了在匹配对簇随机试验中进行推断的问题。匹配对设计意味着根据基线簇级协变量对一组簇进行匹配，然后在每对簇中随机选择一个簇进行处理。我们研究了加权均值差估计量的大样本行为，并根据匹配过程是否匹配簇大小，导出了两组不同的结果。然后，我们提出了一个方差估计量，无论匹配过程是匹配簇大小还是不匹配簇大小，都是一致的。结合这些结果，建立了基于这些估计量的检验的渐近精确性。接下来，我们考虑了基于线性回归构造的$t$测试的两种常见测试程序的特性，并声称这两种程序通常是保守的。
+
+    This paper considers the problem of inference in cluster randomized trials where treatment status is determined according to a "matched pairs'' design. Here, by a cluster randomized experiment, we mean one in which treatment is assigned at the level of the cluster; by a "matched pairs'' design we mean that a sample of clusters is paired according to baseline, cluster-level covariates and, within each pair, one cluster is selected at random for treatment. We study the large sample behavior of a weighted difference-in-means estimator and derive two distinct sets of results depending on if the matching procedure does or does not match on cluster size. We then propose a variance estimator which is consistent in either case. Combining these results establishes the asymptotic exactness of tests based on these estimators. Next, we consider the properties of two common testing procedures based on $t$-tests constructed from linear regressions, and argue that both are generally conservative in o
+    
+[^10]: 可观测完美均衡 (Observable Perfect Equilibrium)
+
+    Observable Perfect Equilibrium. (arXiv:2210.16506v5 [cs.GT] UPDATED)
+
+    [http://arxiv.org/abs/2210.16506](http://arxiv.org/abs/2210.16506)
+
+    本文提出一种新的博弈均衡概念——可观测完美均衡，在顺序不完全信息博弈中可以帮助创建真正的策略代理。这种均衡概念在公开观察的行动概率方面具有鲁棒性。
+
+    
+
+    尽管纳什均衡成为了博弈论的核心解决方案概念，许多重要的博弈包含多个纳什均衡，我们必须确定如何在其中选择，以创建真正的策略代理。为顺序不完全信息博弈提出了几个纳什均衡细化概念，其中最突出的是颤抖手完美均衡、拟完美均衡和最近提出的单侧拟完美均衡。这些概念对某些任意小的错误具有鲁棒性，并保证始终存在。但我们认为，对于发展顺序不完全信息博弈中强大的代理人，这些概念都不正确。我们为游戏树中提出了一种新的均衡概念——可观测完美均衡，在其中，解决方案在公开观察的行动概率方面具有鲁棒性（并不一定针对所有可能不可观察的行动概率具有鲁棒性）。
+
+    While Nash equilibrium has emerged as the central game-theoretic solution concept, many important games contain several Nash equilibria and we must determine how to select between them in order to create real strategic agents. Several Nash equilibrium refinement concepts have been proposed and studied for sequential imperfect-information games, the most prominent being trembling-hand perfect equilibrium, quasi-perfect equilibrium, and recently one-sided quasi-perfect equilibrium. These concepts are robust to certain arbitrarily small mistakes, and are guaranteed to always exist; however, we argue that neither of these is the correct concept for developing strong agents in sequential games of imperfect information. We define a new equilibrium refinement concept for extensive-form games called observable perfect equilibrium in which the solution is robust over trembles in publicly-observable action probabilities (not necessarily over all action probabilities that may not be observable by
+    
+[^11]: 学术同行评审中的拍卖和同伴预测
+
+    Auctions and Peer Prediction for Academic Peer Review. (arXiv:2109.00923v2 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2109.00923](http://arxiv.org/abs/2109.00923)
+
+    本论文提出了一种机制设计方法，通过拍卖和同伴预测机制，同时激励高质量的提交和评审，来改善同行评审流程。
+
+    
+
+    同行评议的发表被认为是认证和传播研究界认为有价值的思想的黄金标准。然而，当前系统存在两个主要缺点：（1）由于提交数量庞大，对审稿人的需求压倒性，（2）缺乏激励机制促使审稿人参与并付出必要的努力提供高质量的审稿意见。在这项工作中，我们采用机制设计方法提出了改进同行评审流程的方案，将文献提交和审稿流程联系在一起，并同时激励高质量的提交和评审。在提交阶段，作者通过提交其论文和代表他们期望得到审稿意见的出价参加VCG拍卖，竞价争取审核名额。对于审稿阶段，我们提出了一种新颖的同伴预测机制（H-DIPP），建立在近期信息挖掘研究成果基础上，这种机制激励审稿人提出准确的审核意见。
+
+    Peer reviewed publications are considered the gold standard in certifying and disseminating ideas that a research community considers valuable. However, we identify two major drawbacks of the current system: (1) the overwhelming demand for reviewers due to a large volume of submissions, and (2) the lack of incentives for reviewers to participate and expend the necessary effort to provide high-quality reviews. In this work, we adopt a mechanism-design approach to propose improvements to the peer review process, tying together the paper submission and review processes and simultaneously incentivizing high-quality submissions and reviews. In the submission stage, authors participate in a VCG auction for review slots by submitting their papers along with a bid that represents their expected value for having their paper reviewed. For the reviewing stage, we propose a novel peer prediction mechanism (H-DIPP) building on recent work in the information elicitation literature, which incentivize
+    
+[^12]: 异质量化处理效应的高效发现：基于异常模式检测的随机实验方法
+
+    Efficient Discovery of Heterogeneous Quantile Treatment Effects in Randomized Experiments via Anomalous Pattern Detection. (arXiv:1803.09159v3 [stat.ME] UPDATED)
+
+    [http://arxiv.org/abs/1803.09159](http://arxiv.org/abs/1803.09159)
+
+    提出了一种名为TESS的新方法，通过将该挑战作为一种模式检测问题来解决，可以高效地从随机实验数据中找到受治疗影响最大的子群体，同时假设最少且具有正确性保证。
+
+    
+
+    在对估计异质性处理效应的方法进行文献综述时，每种提出的方法都会对干预效应及要明确估计的亚群体做出一系列具有限制性的假设。此外，大部分文献没有提供确定哪些亚群体受影响最大的机制——除了手动检查——并且在确定受影响最大的亚群体时也很少能提供正确性保证。因此，我们提出了Treatment Effect Subset Scan (TESS)，一种新方法，用于发现在随机实验中哪些亚群体最明显地受到处理影响。我们将其作为一个模式检测问题来提出，通过有效地对亚群体进行非参数扫描统计量（条件量化处理效应的一种度量）的最大化来实现。此外，我们还确定了受干预影响最大的分布变化最大的亚群体，同时对于干预效应的影响也做出最小的假设。
+
+    In the recent literature on estimating heterogeneous treatment effects, each proposed method makes its own set of restrictive assumptions about the intervention's effects and which subpopulations to explicitly estimate. Moreover, the majority of the literature provides no mechanism to identify which subpopulations are the most affected--beyond manual inspection--and provides little guarantee on the correctness of the identified subpopulations. Therefore, we propose Treatment Effect Subset Scan (TESS), a new method for discovering which subpopulation in a randomized experiment is most significantly affected by a treatment. We frame this challenge as a pattern detection problem where we efficiently maximize a nonparametric scan statistic (a measure of the conditional quantile treatment effect) over subpopulations. Furthermore, we identify the subpopulation which experiences the largest distributional change as a result of the intervention, while making minimal assumptions about the inter
     
 

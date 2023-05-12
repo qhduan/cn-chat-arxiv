@@ -1,0 +1,12 @@
+{
+    "title": "Deep Linear Networks for Matrix Completion -- An Infinite Depth Limit. (arXiv:2210.12497v2 [math.DS] UPDATED)",
+    "abstract": "The deep linear network (DLN) is a model for implicit regularization in gradient based optimization of overparametrized learning architectures. Training the DLN corresponds to a Riemannian gradient flow, where the Riemannian metric is defined by the architecture of the network and the loss function is defined by the learning task. We extend this geometric framework, obtaining explicit expressions for the volume form, including the case when the network has infinite depth. We investigate the link between the Riemannian geometry and the training asymptotics for matrix completion with rigorous analysis and numerics. We propose that implicit regularization is a result of bias towards high state space volume.",
+    "link": "http://arxiv.org/abs/2210.12497",
+    "context": "Title: Deep Linear Networks for Matrix Completion -- An Infinite Depth Limit. (arXiv:2210.12497v2 [math.DS] UPDATED)\nAbstract: The deep linear network (DLN) is a model for implicit regularization in gradient based optimization of overparametrized learning architectures. Training the DLN corresponds to a Riemannian gradient flow, where the Riemannian metric is defined by the architecture of the network and the loss function is defined by the learning task. We extend this geometric framework, obtaining explicit expressions for the volume form, including the case when the network has infinite depth. We investigate the link between the Riemannian geometry and the training asymptotics for matrix completion with rigorous analysis and numerics. We propose that implicit regularization is a result of bias towards high state space volume.",
+    "path": "papers/22/10/2210.12497.json",
+    "total_tokens": 759,
+    "translated_title": "深度线性网络用于矩阵完成——无穷深度极限。",
+    "translated_abstract": "深度线性网络（DLN）是一种用于超参数学习结构的梯度下降隐式正则化模型。训练DLN对应于黎曼梯度流，其中黎曼度量由网络结构定义，损失函数由学习任务定义。我们扩展了这一几何框架，得到了卷积体积形式的显式表达式，包括网络具有无穷深度的情况。我们通过严格的分析和数值研究研究了黎曼几何和矩阵完成训练的渐近性之间的关系。我们建议，隐式正则化是高状态空间体积偏见的结果。",
+    "tldr": "本文研究了深度线性网络用于矩阵完成的训练过程，得到了黎曼几何和训练渐近性之间的关系，证明了隐式正则化是高状态空间体积偏见的结果。",
+    "en_tdlr": "This paper investigates the training process of deep linear networks for matrix completion, and reveals the relationship between Riemannian geometry and training asymptotics through rigorous analysis and numerics, proving that implicit regularization results from bias towards high state space volume."
+}

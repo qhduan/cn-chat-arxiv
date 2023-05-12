@@ -1,0 +1,12 @@
+{
+    "title": "A Model for Translation of Text from Indian Languages to Bharti Braille Characters. (arXiv:2305.06475v1 [cs.CL])",
+    "abstract": "People who are visually impaired face a lot of difficulties while studying. One of the major causes to this is lack of available text in Bharti Braille script. In this paper, we have suggested a scheme to convert text in major Indian languages into Bharti Braille. The system uses a hybrid approach where at first the text in Indian language is given to a rule based system and in case if there is any ambiguity then it is resolved by applying a LSTM based model. The developed model has also been tested and found to have produced near accurate results.",
+    "link": "http://arxiv.org/abs/2305.06475",
+    "context": "Title: A Model for Translation of Text from Indian Languages to Bharti Braille Characters. (arXiv:2305.06475v1 [cs.CL])\nAbstract: People who are visually impaired face a lot of difficulties while studying. One of the major causes to this is lack of available text in Bharti Braille script. In this paper, we have suggested a scheme to convert text in major Indian languages into Bharti Braille. The system uses a hybrid approach where at first the text in Indian language is given to a rule based system and in case if there is any ambiguity then it is resolved by applying a LSTM based model. The developed model has also been tested and found to have produced near accurate results.",
+    "path": "papers/23/05/2305.06475.json",
+    "total_tokens": 677,
+    "translated_title": "一种将印度语文本翻译成Bharti盲文字符的模型",
+    "translated_abstract": "视力受损者在学习时面临很多困难，其中一大原因是缺乏Bharti盲文脚本的可用文本。本文提出了一种将主要印度语言的文本转换为Bharti盲文的方案。该系统采用混合方法，首先将印度语文本输入到基于规则的系统中，如有任何歧义，则通过应用基于LSTM的模型解决。开发的模型也经过测试，并被发现产生了接近准确的结果。",
+    "tldr": "本文介绍了一种将主要印度语言文本转换成Bharti盲文字符的方案，其采用混合方法并通过LSTM模型解决歧义，测试表明该模型产生了接近准确的结果。",
+    "en_tdlr": "This paper presents a scheme for converting text in major Indian languages to Bharti Braille characters, which uses a hybrid approach and resolves ambiguity using an LSTM-based model. The developed model has been tested and found to produce near accurate results."
+}

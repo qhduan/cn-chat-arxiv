@@ -1,0 +1,12 @@
+{
+    "title": "Backward Hedging for American Options with Transaction Costs. (arXiv:2305.06805v1 [q-fin.CP])",
+    "abstract": "In this article, we introduce an algorithm called Backward Hedging, designed for hedging European and American options while considering transaction costs. The optimal strategy is determined by minimizing an appropriate loss function, which is based on either a risk measure or the mean squared error of the hedging strategy at maturity. By appropriately reformulating this loss function, we can address its minimization by moving backward in time. The approach avoids machine learning and instead relies on traditional optimization techniques, Monte Carlo simulations, and interpolations on a grid. Comparisons with the Deep Hedging algorithm in various numerical experiments showcase the efficiency and accuracy of the proposed method.",
+    "link": "http://arxiv.org/abs/2305.06805",
+    "context": "Title: Backward Hedging for American Options with Transaction Costs. (arXiv:2305.06805v1 [q-fin.CP])\nAbstract: In this article, we introduce an algorithm called Backward Hedging, designed for hedging European and American options while considering transaction costs. The optimal strategy is determined by minimizing an appropriate loss function, which is based on either a risk measure or the mean squared error of the hedging strategy at maturity. By appropriately reformulating this loss function, we can address its minimization by moving backward in time. The approach avoids machine learning and instead relies on traditional optimization techniques, Monte Carlo simulations, and interpolations on a grid. Comparisons with the Deep Hedging algorithm in various numerical experiments showcase the efficiency and accuracy of the proposed method.",
+    "path": "papers/23/05/2305.06805.json",
+    "total_tokens": 733,
+    "translated_title": "带交易成本的美式期权的向后对冲算法",
+    "translated_abstract": "本文介绍了一种名为“向后对冲”的算法，用于在考虑交易成本的情况下对欧式和美式期权进行对冲。通过最小化基于风险度量或对到期时对冲策略的均方误差的适当损失函数，确定最优策略。适当重构损失函数，通过向后移动来解决其最小化问题。该方法不依赖于机器学习，而是依赖于传统的优化技术、蒙特卡罗模拟和格点插值。在各种数值实验中，与深度对冲算法进行比较，展示了所提出方法的效率和准确性。",
+    "tldr": "本文介绍了一种名为“向后对冲”的算法，用于在考虑交易成本的情况下对欧式和美式期权进行对冲，相比于深度对冲算法，该方法更加高效和准确。",
+    "en_tdlr": "The paper proposes a backward hedging algorithm for hedging European and American options with transaction costs, outperforming the Deep Hedging algorithm in terms of efficiency and accuracy, without relying on machine learning."
+}
