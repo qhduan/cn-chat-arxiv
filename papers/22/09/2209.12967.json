@@ -1,0 +1,12 @@
+{
+    "title": "Best-Response dynamics in two-person random games with correlated payoffs. (arXiv:2209.12967v2 [cs.GT] CROSS LISTED)",
+    "abstract": "We consider finite two-player normal form games with random payoffs. Player A's payoffs are i.i.d. from a uniform distribution. Given p in [0, 1], for any action profile, player B's payoff coincides with player A's payoff with probability p and is i.i.d. from the same uniform distribution with probability 1-p. This model interpolates the model of i.i.d. random payoff used in most of the literature and the model of random potential games. First we study the number of pure Nash equilibria in the above class of games. Then we show that, for any positive p, asymptotically in the number of available actions, best response dynamics reaches a pure Nash equilibrium with high probability.",
+    "link": "http://arxiv.org/abs/2209.12967",
+    "context": "Title: Best-Response dynamics in two-person random games with correlated payoffs. (arXiv:2209.12967v2 [cs.GT] CROSS LISTED)\nAbstract: We consider finite two-player normal form games with random payoffs. Player A's payoffs are i.i.d. from a uniform distribution. Given p in [0, 1], for any action profile, player B's payoff coincides with player A's payoff with probability p and is i.i.d. from the same uniform distribution with probability 1-p. This model interpolates the model of i.i.d. random payoff used in most of the literature and the model of random potential games. First we study the number of pure Nash equilibria in the above class of games. Then we show that, for any positive p, asymptotically in the number of available actions, best response dynamics reaches a pure Nash equilibrium with high probability.",
+    "path": "papers/22/09/2209.12967.json",
+    "total_tokens": 871,
+    "translated_title": "具有相关收益的二人随机博弈中的最佳反应动力学",
+    "translated_abstract": "我们考虑具有随机收益的有限二人正态形式的博弈。玩家A的收益来自于均匀分布的独立同分布随机变量。给定[0,1]中的p，对于任何行动协议，玩家B的收益与概率p下与玩家A的收益一致，并在概率1-p下与相同均匀分布的随机变量独立同分布。此模型插值了大多数文献中使用的独立同分布随机收益模型和随机潜力博弈模型。首先，我们研究了上述类别的博弈中纯纳什均衡的数量。然后我们证明了，在任何正的p值下，在可用行动的数量渐近地情况下，最佳反应动力学高概率地达到纯纳什均衡。",
+    "tldr": "本文研究了具有相关收益的二人随机博弈中的纯纳什均衡数量以及最佳反应动力学的表现，证明了在该类博弈中，最佳反应动力学渐进性地达到纯纳什均衡的概率很高。",
+    "en_tdlr": "This paper examines the number of pure Nash equilibria and the performance of best response dynamics in two-player random games with correlated payoffs. The study shows that best response dynamics is highly likely to reach a pure Nash equilibrium asymptotically in the number of available actions."
+}

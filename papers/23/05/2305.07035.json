@@ -1,0 +1,12 @@
+{
+    "title": "Shhh! The Logic of Clandestine Operations. (arXiv:2305.07035v1 [cs.LO])",
+    "abstract": "An operation is called covert if it conceals the identity of the actor; it is called clandestine if the very fact that the operation is conducted is concealed. The paper proposes a formal semantics of clandestine operations and introduces a sound and complete logical system that describes the interplay between the distributed knowledge modality and a modality capturing coalition power to conduct clandestine operations.",
+    "link": "http://arxiv.org/abs/2305.07035",
+    "context": "Title: Shhh! The Logic of Clandestine Operations. (arXiv:2305.07035v1 [cs.LO])\nAbstract: An operation is called covert if it conceals the identity of the actor; it is called clandestine if the very fact that the operation is conducted is concealed. The paper proposes a formal semantics of clandestine operations and introduces a sound and complete logical system that describes the interplay between the distributed knowledge modality and a modality capturing coalition power to conduct clandestine operations.",
+    "path": "papers/23/05/2305.07035.json",
+    "total_tokens": 536,
+    "translated_title": "安静！密谋行动的逻辑。",
+    "translated_abstract": "如果操作隐藏了操作者的身份，则称其为隐蔽操作; 如果遮掩了行动事实，则称其为秘密操作。该论文提出了秘密行动的形式语义，并引入了一种描述分布式知识模态和捕获联盟行使秘密行动力量之间相互作用的声音和完整的逻辑系统。",
+    "tldr": "该论文提出了秘密行动的形式语义和逻辑系统。其强调分布式知识和联盟力量对秘密行动的相互作用。",
+    "en_tdlr": "This paper proposes a formal semantics and logical system for clandestine operations, highlighting the interaction between distributed knowledge and coalition power in such operations."
+}

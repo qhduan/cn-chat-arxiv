@@ -1,0 +1,12 @@
+{
+    "title": "Eye Tracking as a Source of Implicit Feedback in Recommender Systems: A Preliminary Analysis. (arXiv:2305.07516v1 [cs.IR])",
+    "abstract": "Eye tracking in recommender systems can provide an additional source of implicit feedback, while helping to evaluate other sources of feedback. In this study, we use eye tracking data to inform a collaborative filtering model for movie recommendation providing an improvement over the click-based implementations and additionally analyze the area of interest (AOI) duration as related to the known information of click data and movies seen previously, showing AOI information consistently coincides with these items of interest.",
+    "link": "http://arxiv.org/abs/2305.07516",
+    "context": "Title: Eye Tracking as a Source of Implicit Feedback in Recommender Systems: A Preliminary Analysis. (arXiv:2305.07516v1 [cs.IR])\nAbstract: Eye tracking in recommender systems can provide an additional source of implicit feedback, while helping to evaluate other sources of feedback. In this study, we use eye tracking data to inform a collaborative filtering model for movie recommendation providing an improvement over the click-based implementations and additionally analyze the area of interest (AOI) duration as related to the known information of click data and movies seen previously, showing AOI information consistently coincides with these items of interest.",
+    "path": "papers/23/05/2305.07516.json",
+    "total_tokens": 658,
+    "translated_title": "眼动追踪作为推荐系统中隐含反馈的来源：初步分析",
+    "translated_abstract": "在推荐系统中使用眼动追踪可以提供额外的隐含反馈来源，同时帮助评估其他反馈来源。本研究使用眼动追踪数据来指导电影推荐的协同过滤模型，相对于基于点击的实现提供了改进，并且还分析了感兴趣区域（AOI）持续时间与已知的点击数据和先前看过的电影相关性，表明AOI信息始终与这些感兴趣的事项一致。",
+    "tldr": "本研究表明，眼动追踪可以为推荐系统提供一个额外的隐含反馈来源，并且AOI持续时间与已知的点击数据和先前看过的电影相关，为推荐模型提供了更好的改进。",
+    "en_tdlr": "This study shows that eye tracking can provide an additional source of implicit feedback in recommender systems and that AOI duration is correlated with known click data and movies previously seen, providing an improved recommendation model."
+}

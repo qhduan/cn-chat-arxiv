@@ -1,0 +1,12 @@
+{
+    "title": "Robust and Scalable Bayesian Online Changepoint Detection. (arXiv:2302.04759v2 [stat.ML] UPDATED)",
+    "abstract": "This paper proposes an online, provably robust, and scalable Bayesian approach for changepoint detection. The resulting algorithm has key advantages over previous work: it provides provable robustness by leveraging the generalised Bayesian perspective, and also addresses the scalability issues of previous attempts. Specifically, the proposed generalised Bayesian formalism leads to conjugate posteriors whose parameters are available in closed form by leveraging diffusion score matching. The resulting algorithm is exact, can be updated through simple algebra, and is more than 10 times faster than its closest competitor.",
+    "link": "http://arxiv.org/abs/2302.04759",
+    "context": "Title: Robust and Scalable Bayesian Online Changepoint Detection. (arXiv:2302.04759v2 [stat.ML] UPDATED)\nAbstract: This paper proposes an online, provably robust, and scalable Bayesian approach for changepoint detection. The resulting algorithm has key advantages over previous work: it provides provable robustness by leveraging the generalised Bayesian perspective, and also addresses the scalability issues of previous attempts. Specifically, the proposed generalised Bayesian formalism leads to conjugate posteriors whose parameters are available in closed form by leveraging diffusion score matching. The resulting algorithm is exact, can be updated through simple algebra, and is more than 10 times faster than its closest competitor.",
+    "path": "papers/23/02/2302.04759.json",
+    "total_tokens": 757,
+    "translated_title": "坚固且可扩展的贝叶斯在线变点检测",
+    "translated_abstract": "本文提出了一种在线、可证明坚固且可扩展的贝叶斯方法用于变点检测。所得算法相对于之前的工作具有重要优势：通过利用广义贝叶斯视角提供了可证明的坚固性，并解决了之前尝试中的可扩展性问题。具体来说，所提出的广义贝叶斯形式主义通过利用扩散得分匹配导致共轭后验的参数可以通过封闭形式获得。所得算法是精确的，可以通过简单的代数更新，并且比其最接近的竞争对手快10倍以上。",
+    "tldr": "该论文提出了一种在线变点检测方法，具有坚固和可扩展性，通过利用广义贝叶斯视角提供了可证明的坚固性，并通过扩散得分匹配解决了可扩展性问题。所得算法是精确的，更新简单，速度较之前的算法快10倍以上。",
+    "en_tdlr": "This paper proposes an online, provably robust, and scalable Bayesian approach for changepoint detection, which leverages a generalized Bayesian perspective for provable robustness and addresses scalability issues through diffusion score matching, resulting in an exact algorithm that is more than 10 times faster than previous attempts."
+}

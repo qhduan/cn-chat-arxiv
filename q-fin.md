@@ -2,127 +2,202 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Copula-Based Trading of Cointegrated Cryptocurrency Pairs.](http://arxiv.org/abs/2305.06961) | 提出了一种基于Copula的加密货币协整交易策略，通过线性和非线性协整检验以及相关系数测量来确定最合适的交易对，采用不同的Copula家族生成交易信号，用于分析错配指数。该方法的收益和风险调整回报率均优于买入持有交易策略。 |
-| [^2] | [Socioeconomic disparities in mobility behavior during the COVID-19 pandemic in developing countries.](http://arxiv.org/abs/2305.06888) | 本研究通过手机数据发现，在COVID-19大流行期间，生活在低财富社区的城市用户更不可能采取自我隔离的行动，贫穷用户中那些曾经通勤上班到高财富社区的人则特别容易受到影响。 |
-| [^3] | [Backward Hedging for American Options with Transaction Costs.](http://arxiv.org/abs/2305.06805) | 本文介绍了一种名为“向后对冲”的算法，用于在考虑交易成本的情况下对欧式和美式期权进行对冲，相比于深度对冲算法，该方法更加高效和准确。 |
-| [^4] | [Robust Detection of Lead-Lag Relationships in Lagged Multi-Factor Models.](http://arxiv.org/abs/2305.06704) | 该论文提出了一种基于聚类的鲁棒检测滞后多因子模型中的领先滞后关系方法，并使用各种聚类技术和相似度度量方法实现了对领先滞后估计的聚合，从而强化了对原始宇宙中的一致关系的识别。 |
-| [^5] | [Reinforcement Learning for Combining Search Methods in the Calibration of Economic ABMs.](http://arxiv.org/abs/2302.11835) | 本文提出了一种通过强化学习自动选择和组合搜索方法的方案，用于经济代理模型的参数校准，实验结果表明该方案在提高效率的同时不需要专业领域知识或手动调整参数。 |
-| [^6] | [Diversification quotients based on VaR and ES.](http://arxiv.org/abs/2301.03517) | 本论文研究了基于VaR和ES构建的分散化商数，提供了椭圆和多变量正常变化模型的DQ公式，并发现DQ在理论和实践中都比基于单一风险度量的传统分散化指数更优。 |
-| [^7] | [Inflexible Multi-Asset Hedging of incomplete market.](http://arxiv.org/abs/2211.00948) | 本文提出了一种在不完全市场下对冲的方法，使用新的跳跃扩散模型和三种神经网络获得了较好的结果。 |
-| [^8] | [Auctions and Peer Prediction for Academic Peer Review.](http://arxiv.org/abs/2109.00923) | 本论文提出了一种机制设计方法，通过拍卖和同伴预测机制，同时激励高质量的提交和评审，来改善同行评审流程。 |
+| [^1] | [PRIME: A Price-Reverting Impact Model of a cryptocurrency Exchange.](http://arxiv.org/abs/2305.07559) | PRIME提出了一种新颖的多智能体市场模拟，可以在跟踪基础价格系列的同时重现市场影响，帮助用户更好地估计市场滑动以及其市场行动的连锁反应。 |
+| [^2] | [Systematic Review on Reinforcement Learning in the Field of Fintech.](http://arxiv.org/abs/2305.07466) | 本文综述了近年来强化学习在金融科技领域的应用，包括组合优化、降低信用风险、投资资本管理、利润最大化、有效的推荐系统和更好的价格策略确定。本文通过PRISMA技术筛选文献，突出了强化学习在Fintech中的预测精度、复杂性、可扩展性、风险、盈利能力和业绩，旨在探讨其在Fintech领域中的实际贡献。 |
+| [^3] | [The use of trade data in the analysis of global phosphate flows.](http://arxiv.org/abs/2305.07362) | 本文提出了一种利用贸易数据追踪磷流动的新方法，可以为环境会计的准确性做出贡献。 |
+| [^4] | [Building resilient organizations: The roles of top-down vs. bottom-up organizing.](http://arxiv.org/abs/2305.07352) | 本研究分析自上而下和自下而上组织结构在增强组织弹性方面的作用。结果表明，自下而上设计的组织更能吸收环境干扰，而自上而下或自下而上设计的组织在从冲击中恢复时也有各自的优势。 |
+| [^5] | [Evaluating congestion pricing schemes using agent-based passenger and freight microsimulation.](http://arxiv.org/abs/2305.07318) | 本文基于代理人模型采用微观模拟评估了拥堵收费方案对旅客及货运的影响，分析了方案设计和城市空间特征的影响。 |
+| [^6] | [Mortgage Securitization Dynamics in the Aftermath of Natural Disasters: A Reply.](http://arxiv.org/abs/2305.07179) | 了解气候变化对抵押贷款市场的影响十分重要。气候证券化假设认为，在自然灾害之后，贷款人会战略性地对政府支持企业的证券化规则做出反应，这种规则创造了道德风险和逆向选择效应的激励，这从GSE抵押支持证券中展现出来。 |
+| [^7] | [Robust Equilibrium Strategy for Mean-Variance Portfolio Selection.](http://arxiv.org/abs/2305.07166) | 本文提出了针对均值方差组合选股问题的稳健均衡策略的新定义，并建立了该策略与相应的PDE系统之间的严格联系，填补了文献中的空白。 |
+| [^8] | [f-Betas and Portfolio Optimization with f-Divergence induced Risk Measures.](http://arxiv.org/abs/2302.00452) | 本研究基于f-散度引导的风险度量进行投资组合优化，并提出了一种新的f-Beta度量绩效。实验结果表明，基于Hellinger-Beta的方法可以提供新的视角和比标准Beta和Drawdown Beta更好的性能评估。 |
+| [^9] | [Editing a Woman's Voice.](http://arxiv.org/abs/2212.02581) | 本文研究在学术出版中，男性和女性作者在初稿中的语言差异可以忽略，但是女性作者在出版过程中增加了使用小心谨慎语言的程度。而且，这种差异增加的程度与编辑的分配有很大关系。 |
+| [^10] | [Robust utility maximisation under proportional transaction costs for c\`adl\`ag price processes.](http://arxiv.org/abs/2211.00532) | 本文考虑了在模型不确定性下，如何通过最大化最坏期望效用来实现比例交易成本下的鲁棒效用最大化，并提供了该问题的一个积极答案与充要条件。 |
+| [^11] | [Linear Classifiers Under Infinite Imbalance.](http://arxiv.org/abs/2106.05797) | 研究了在无限不平衡情况下的线性分类器，通过权重函数指定的经验损失最小化系数。截距发散但其余系数向量有一个有限的几乎肯定的极限，极限依赖于权重函数的左尾增长速率。极限系数向量反映稳健性或保守性属性，而在亚指数情况下，极限等价于少数类的上采样分布的隐式选择。 |
+| [^12] | [A conditional version of the second fundamental theorem of asset pricing in discrete time.](http://arxiv.org/abs/2102.13574) | 该论文提出了离散时间下基于条件信息的资产定价第二基本定理的条件版本，并使用动态非线性期望的时间一致性性质来表征无套利价格的结构和可达性，扩展了现有文献中的结果。 |
+| [^13] | [Multilevel Monte Carlo with Numerical Smoothing for Robust and Efficient Computation of Probabilities and Densities.](http://arxiv.org/abs/2003.05708) | 本研究使用多层蒙特卡罗与数值平滑方法，解决了函数低正则性时的估计器不稳定和复杂度差问题，可以用于概率计算、背离奖励的期权定价和随机进程的密度估计等场景。 |
 
 # 详细
 
-[^1]: 基于Copula的协整加密货币交易策略
+[^1]: PRIME：一种加密货币交易所价格回复的影响模型。
 
-    Copula-Based Trading of Cointegrated Cryptocurrency Pairs. (arXiv:2305.06961v1 [q-fin.TR])
+    PRIME: A Price-Reverting Impact Model of a cryptocurrency Exchange. (arXiv:2305.07559v1 [q-fin.TR])
 
-    [http://arxiv.org/abs/2305.06961](http://arxiv.org/abs/2305.06961)
+    [http://arxiv.org/abs/2305.07559](http://arxiv.org/abs/2305.07559)
 
-    提出了一种基于Copula的加密货币协整交易策略，通过线性和非线性协整检验以及相关系数测量来确定最合适的交易对，采用不同的Copula家族生成交易信号，用于分析错配指数。该方法的收益和风险调整回报率均优于买入持有交易策略。
-
-    
-
-    本研究提出了一种基于Copula的新型加密货币协整交易策略。为了确定最合适的交易对，该研究采用线性和非线性协整检验以及相关系数测量，并适用不同的Copula家族来生成交易信号，该信号由参考资产组成，用于分析错配指数。然后，通过对不同开仓触发器进行回测评估其收益和风险来评估策略的表现。研究结果表明，所提出的方法在盈利能力和风险调整回报率方面优于买入持有交易策略。
-
-    This research introduces a novel pairs trading strategy based on copulas for cointegrated pairs of cryptocurrencies. To identify the most suitable pairs, the study employs linear and non-linear cointegration tests along with a correlation coefficient measure and fits different copula families to generate trading signals formulated from a reference asset for analyzing the mispricing index. The strategy's performance is then evaluated by conducting back-testing for various triggers of opening positions, assessing its returns and risks. The findings indicate that the proposed method outperforms buy-and-hold trading strategies in terms of both profitability and risk-adjusted returns.
-    
-[^2]: 发展中国家COVID-19疫情期间的社会经济差异与出行行为
-
-    Socioeconomic disparities in mobility behavior during the COVID-19 pandemic in developing countries. (arXiv:2305.06888v1 [physics.soc-ph])
-
-    [http://arxiv.org/abs/2305.06888](http://arxiv.org/abs/2305.06888)
-
-    本研究通过手机数据发现，在COVID-19大流行期间，生活在低财富社区的城市用户更不可能采取自我隔离的行动，贫穷用户中那些曾经通勤上班到高财富社区的人则特别容易受到影响。
+    PRIME提出了一种新颖的多智能体市场模拟，可以在跟踪基础价格系列的同时重现市场影响，帮助用户更好地估计市场滑动以及其市场行动的连锁反应。
 
     
 
-    手机数据在量化COVID-19疫情期间的人类流动中发挥了关键作用。现有研究主要关注高收入国家的地区总体情况，掩盖了疫情对最脆弱群体的强烈影响。我们结合来自移动电话和人口普查的地理位置数据，研究了2020年3月至12月期间3个大洲的6个中等收入国家，揭示了不同社会经济群体应对疫情的行为差异。当疫情爆发时，生活在低财富社区中的城市用户更不可能通过自我隔离在家中、搬迁到农村地区或者停止通勤工作来应对。贫穷用户中，那些在疫情之前曾通勤上班到高财富社区的人则面临着重大风险。
+    在金融交易所中，市场影响是衡量资产在交易后价格变化的一种指标。它是市场微观结构的重要组成部分，决定了交易后市场的行为。本文首先讨论了 BTC/USD 期货市场中观察到的市场影响，然后提出了一种新颖的多智能体市场模拟，可以跟踪基础价格系列，同时以可解释的方式重现市场观察到的市场影响。这种金融交易所的模拟使模型能够与市场参与者进行逼真的交互，帮助其用户更好地估计市场滑动以及其市场行动的连锁反应。反过来，它可以让各种利益相关者，如产业从业者、政府和监管机构测试其市场假设，而不需要投入资本或破坏系统。
 
-    Mobile phone data have played a key role in quantifying human mobility during the COVID-19 pandemic. Existing studies on mobility patterns have primarily focused on regional aggregates in high-income countries, obfuscating the accentuated impact of the pandemic on the most vulnerable populations. By combining geolocation data from mobile phones and population census for 6 middle-income countries across 3 continents between March and December 2020, we uncovered common disparities in the behavioral response to the pandemic across socioeconomic groups. When the pandemic hit, urban users living in low-wealth neighborhoods were less likely to respond by self-isolating at home, relocating to rural areas, or refraining from commuting to work. The gap in the behavioral responses between socioeconomic groups persisted during the entire observation period. Among low-wealth users, those who used to commute to work in high-wealth neighborhoods pre-pandemic were particularly at risk, facing both th
+    In a financial exchange, market impact is a measure of the price change of an asset following a transaction. This is an important element of market microstructure, which determines the behaviour of the market following a trade. In this paper, we first provide a discussion on the market impact observed in the BTC/USD Futures market, then we present a novel multi-agent market simulation that can follow an underlying price series, whilst maintaining the ability to reproduce the market impact observed in the market in an explainable manner. This simulation of the financial exchange allows the model to interact realistically with market participants, helping its users better estimate market slippage as well as the knock-on consequences of their market actions. In turn, it allows various stakeholders such as industrial practitioners, governments and regulators to test their market hypotheses, without deploying capital or destabilising the system.
     
-[^3]: 带交易成本的美式期权的向后对冲算法
+[^2]: 金融科技领域中强化学习的系统综述
 
-    Backward Hedging for American Options with Transaction Costs. (arXiv:2305.06805v1 [q-fin.CP])
+    Systematic Review on Reinforcement Learning in the Field of Fintech. (arXiv:2305.07466v1 [q-fin.CP])
 
-    [http://arxiv.org/abs/2305.06805](http://arxiv.org/abs/2305.06805)
+    [http://arxiv.org/abs/2305.07466](http://arxiv.org/abs/2305.07466)
 
-    本文介绍了一种名为“向后对冲”的算法，用于在考虑交易成本的情况下对欧式和美式期权进行对冲，相比于深度对冲算法，该方法更加高效和准确。
-
-    
-
-    本文介绍了一种名为“向后对冲”的算法，用于在考虑交易成本的情况下对欧式和美式期权进行对冲。通过最小化基于风险度量或对到期时对冲策略的均方误差的适当损失函数，确定最优策略。适当重构损失函数，通过向后移动来解决其最小化问题。该方法不依赖于机器学习，而是依赖于传统的优化技术、蒙特卡罗模拟和格点插值。在各种数值实验中，与深度对冲算法进行比较，展示了所提出方法的效率和准确性。
-
-    In this article, we introduce an algorithm called Backward Hedging, designed for hedging European and American options while considering transaction costs. The optimal strategy is determined by minimizing an appropriate loss function, which is based on either a risk measure or the mean squared error of the hedging strategy at maturity. By appropriately reformulating this loss function, we can address its minimization by moving backward in time. The approach avoids machine learning and instead relies on traditional optimization techniques, Monte Carlo simulations, and interpolations on a grid. Comparisons with the Deep Hedging algorithm in various numerical experiments showcase the efficiency and accuracy of the proposed method.
-    
-[^4]: 滞后多因子模型中领先滞后关系的鲁棒检测
-
-    Robust Detection of Lead-Lag Relationships in Lagged Multi-Factor Models. (arXiv:2305.06704v1 [stat.ML])
-
-    [http://arxiv.org/abs/2305.06704](http://arxiv.org/abs/2305.06704)
-
-    该论文提出了一种基于聚类的鲁棒检测滞后多因子模型中的领先滞后关系方法，并使用各种聚类技术和相似度度量方法实现了对领先滞后估计的聚合，从而强化了对原始宇宙中的一致关系的识别。
+    本文综述了近年来强化学习在金融科技领域的应用，包括组合优化、降低信用风险、投资资本管理、利润最大化、有效的推荐系统和更好的价格策略确定。本文通过PRISMA技术筛选文献，突出了强化学习在Fintech中的预测精度、复杂性、可扩展性、风险、盈利能力和业绩，旨在探讨其在Fintech领域中的实际贡献。
 
     
 
-    在多元时间序列系统中，通过发现数据中固有的领先滞后关系，可以获得关键信息，这指的是两个相对时间互移的时间序列之间的依赖关系，可以用于控制、预测或聚类。我们开发了一种基于聚类的方法，用于鲁棒检测滞后多因子模型中的领先滞后关系。在我们的框架中，所设想的管道接收一组时间序列作为输入，并使用滑动窗口方法从每个输入时间序列中提取一组子序列时间序列。然后，我们应用各种聚类技术（例如K-means++和谱聚类），采用各种成对相似性度量，包括非线性的相似性度量。一旦聚类被提取出来，跨聚类的领先滞后估计被聚合起来，以增强对原始宇宙中一致关系的识别。由于多
+    强化学习在金融科技（Fintech）领域的应用近年来备受关注。毫无疑问，通过其丰富的能力和高效性，强化学习在Fintech领域取得了卓越成果。本系统性综述的目的是开展一项探索性研究，研究强化学习与Fintech之间的相关性，以突出其预测精度、复杂性、可扩展性、风险、盈利能力和业绩。强化学习在金融或Fintech领域的主要用途包括组合优化、降低信用风险、投资资本管理、利润最大化、有效的推荐系统和更好的价格策略确定。一些研究已经探讨了强化学习对金融机构业绩的实际贡献。本综述包含了2018年以来发表的最新研究。使用PRISMA技术开展了本次综述研究，重点关注发现和筛选受纳入的研究。
 
-    In multivariate time series systems, key insights can be obtained by discovering lead-lag relationships inherent in the data, which refer to the dependence between two time series shifted in time relative to one another, and which can be leveraged for the purposes of control, forecasting or clustering. We develop a clustering-driven methodology for the robust detection of lead-lag relationships in lagged multi-factor models. Within our framework, the envisioned pipeline takes as input a set of time series, and creates an enlarged universe of extracted subsequence time series from each input time series, by using a sliding window approach. We then apply various clustering techniques (e.g, K-means++ and spectral clustering), employing a variety of pairwise similarity measures, including nonlinear ones. Once the clusters have been extracted, lead-lag estimates across clusters are aggregated to enhance the identification of the consistent relationships in the original universe. Since multi
+    Applications of Reinforcement Learning in the Finance Technology (Fintech) have acquired a lot of admiration lately. Undoubtedly Reinforcement Learning, through its vast competence and proficiency, has aided remarkable results in the field of Fintech. The objective of this systematic survey is to perform an exploratory study on a correlation between reinforcement learning and Fintech to highlight the prediction accuracy, complexity, scalability, risks, profitability and performance. Major uses of reinforcement learning in finance or Fintech include portfolio optimization, credit risk reduction, investment capital management, profit maximization, effective recommendation systems, and better price setting strategies. Several studies have addressed the actual contribution of reinforcement learning to the performance of financial institutions. The latest studies included in this survey are publications from 2018 onward. The survey is conducted using PRISMA technique which focuses on the re
     
-[^5]: 强化学习用于经济代理模型参数校准的搜索方法组合
+[^3]: 利用贸易数据分析全球磷流动的研究
 
-    Reinforcement Learning for Combining Search Methods in the Calibration of Economic ABMs. (arXiv:2302.11835v2 [cs.LG] UPDATED)
+    The use of trade data in the analysis of global phosphate flows. (arXiv:2305.07362v1 [econ.GN])
 
-    [http://arxiv.org/abs/2302.11835](http://arxiv.org/abs/2302.11835)
+    [http://arxiv.org/abs/2305.07362](http://arxiv.org/abs/2305.07362)
 
-    本文提出了一种通过强化学习自动选择和组合搜索方法的方案，用于经济代理模型的参数校准，实验结果表明该方案在提高效率的同时不需要专业领域知识或手动调整参数。
-
-    
-
-    经济学和金融中的代理模型参数校准通常涉及到对非常大的参数空间进行无导数搜索。本文在真实数据上对众所周知的宏观经济代理模型的若干搜索方法进行了基准测试，进一步评估了通过组合不同方法所做出的“混合策略”的表现。研究发现，基于随机森林替代模型的方法特别高效，并且组合搜索方法通常会增加性能，因为任何单一方法的偏差都会被缓解。通过这些观察，我们提出了一种强化学习方案，在校准运行过程中自动选择和组合搜索方法。强化学习代理人只有在该方法的性能表现良好时才继续利用特定方法，但在该方法达到性能平台时探索新策略。得到的强化学习搜索方案在任何其他测试的方法或方法组合上都表现更好，并且不需要专业的领域知识或手动参数调整。
-
-    Calibrating agent-based models (ABMs) in economics and finance typically involves a derivative-free search in a very large parameter space. In this work, we benchmark a number of search methods in the calibration of a well-known macroeconomic ABM on real data, and further assess the performance of "mixed strategies" made by combining different methods. We find that methods based on random-forest surrogates are particularly efficient, and that combining search methods generally increases performance since the biases of any single method are mitigated. Moving from these observations, we propose a reinforcement learning (RL) scheme to automatically select and combine search methods on-the-fly during a calibration run. The RL agent keeps exploiting a specific method only as long as this keeps performing well, but explores new strategies when the specific method reaches a performance plateau. The resulting RL search scheme outperforms any other method or method combination tested, and does 
-    
-[^6]: 基于VaR和ES的分散化商数
-
-    Diversification quotients based on VaR and ES. (arXiv:2301.03517v3 [q-fin.RM] UPDATED)
-
-    [http://arxiv.org/abs/2301.03517](http://arxiv.org/abs/2301.03517)
-
-    本论文研究了基于VaR和ES构建的分散化商数，提供了椭圆和多变量正常变化模型的DQ公式，并发现DQ在理论和实践中都比基于单一风险度量的传统分散化指数更优。
+    本文提出了一种利用贸易数据追踪磷流动的新方法，可以为环境会计的准确性做出贡献。
 
     
 
-    分散化商数(DQ)是近年来引入的一种用于量化随机组合模型多样性的指标，具有公理基础并可通过参数风险度量类定义。鉴于在银行和保险业中广泛使用的风险度量中最著名的是风险价值（VaR）和预期亏损（ES），本文研究了基于VaR和ES构建的DQ。特别地，对于流行的椭圆和多变量正常变化(MRV)模型，可以得到显式的公式。同时，还研究了椭圆和MRV模型的组合优化问题。与基于单一风险度量的传统分散化指数相比，我们的研究结果进一步揭示出DQ在理论和实践上具有有利特点。
+    本文介绍了一种跟踪磷从开采国到农业生产国使用的新方法。我们通过将磷岩采矿数据与化肥使用数据和磷相关产品的国际贸易数据相结合来实现目标。我们展示了通过对净出口数据进行某些调整，我们可以在很大程度上推导出国家层面上的磷流矩阵，并因此为物质流分析的准确性做出贡献，这对于改进环境会计不仅对于磷，还适用于许多其他资源至关重要。
 
-    The diversification quotient (DQ) is recently introduced for quantifying the degree of diversification of a stochastic portfolio model. It has an axiomatic foundation and can be defined through a parametric class of risk measures. Since the Value-at-Risk (VaR) and the Expected Shortfall (ES) are the most prominent risk measures widely used in both banking and insurance, we investigate DQ constructed from VaR and ES in this paper. In particular, for the popular models of elliptical and multivariate regular varying (MRV) distributions, explicit formulas are available. The portfolio optimization problems for the elliptical and MRV models are also studied. Our results further reveal favourable features of DQ, both theoretically and practically, compared to traditional diversification indices based on a single risk measure.
+    In this paper we present a new method to trace the flows of phosphate from the countries where it is mined to the counties where it is used in agricultural production. We achieve this by combining data on phosphate rock mining with data on fertilizer use and data on international trade of phosphate-related products. We show that by making certain adjustments to data on net exports we can derive the matrix of phosphate flows on the country level to a large degree and thus contribute to the accuracy of material flow analyses, a results that is important for improving environmental accounting, not only for phosphorus but for many other resources.
     
-[^7]: 不灵活的多资产对冲不完全市场
+[^4]: 建设具有弹性的组织：自上而下和自下而上组织的作用。
 
-    Inflexible Multi-Asset Hedging of incomplete market. (arXiv:2211.00948v2 [q-fin.ST] UPDATED)
+    Building resilient organizations: The roles of top-down vs. bottom-up organizing. (arXiv:2305.07352v1 [econ.GN])
 
-    [http://arxiv.org/abs/2211.00948](http://arxiv.org/abs/2211.00948)
+    [http://arxiv.org/abs/2305.07352](http://arxiv.org/abs/2305.07352)
 
-    本文提出了一种在不完全市场下对冲的方法，使用新的跳跃扩散模型和三种神经网络获得了较好的结果。
-
-    
-
-    通常情况下，基于完全市场的假设训练出的模型在不完全市场中不起作用。本文解决了存在风险因素、无流动性和离散交易日期三种不完整性的不完全市场对冲问题。提出了一种新的跳跃扩散模型描述了随机资产价格。采用了包括RNN、LSTM和Mogrifier-LSTM在内的三种神经网络来实现对冲策略，并实施和比较了MSE Loss和Huber Loss。结果表明，Mogrifier-LSTM是速度最快、在MSE和Huber Loss下结果最好的模型。
-
-    Models trained under assumptions in the complete market usually don't take effect in the incomplete market. This paper solves the hedging problem in incomplete market with three sources of incompleteness: risk factor, illiquidity, and discrete transaction dates. A new jump-diffusion model is proposed to describe stochastic asset prices. Three neutral networks, including RNN, LSTM, Mogrifier-LSTM are used to attain hedging strategies with MSE Loss and Huber Loss implemented and compared.As a result, Mogrifier-LSTM is the fastest model with the best results under MSE and Huber Loss.
-    
-[^8]: 学术同行评审中的拍卖和同伴预测
-
-    Auctions and Peer Prediction for Academic Peer Review. (arXiv:2109.00923v2 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2109.00923](http://arxiv.org/abs/2109.00923)
-
-    本论文提出了一种机制设计方法，通过拍卖和同伴预测机制，同时激励高质量的提交和评审，来改善同行评审流程。
+    本研究分析自上而下和自下而上组织结构在增强组织弹性方面的作用。结果表明，自下而上设计的组织更能吸收环境干扰，而自上而下或自下而上设计的组织在从冲击中恢复时也有各自的优势。
 
     
 
-    同行评议的发表被认为是认证和传播研究界认为有价值的思想的黄金标准。然而，当前系统存在两个主要缺点：（1）由于提交数量庞大，对审稿人的需求压倒性，（2）缺乏激励机制促使审稿人参与并付出必要的努力提供高质量的审稿意见。在这项工作中，我们采用机制设计方法提出了改进同行评审流程的方案，将文献提交和审稿流程联系在一起，并同时激励高质量的提交和评审。在提交阶段，作者通过提交其论文和代表他们期望得到审稿意见的出价参加VCG拍卖，竞价争取审核名额。对于审稿阶段，我们提出了一种新颖的同伴预测机制（H-DIPP），建立在近期信息挖掘研究成果基础上，这种机制激励审稿人提出准确的审核意见。
+    组织面临许多意想不到的挑战，例如能源价格上涨，大流行干扰，恐怖袭击和自然灾害。在应对此类干扰方面，对促进组织成功的因素的分析往往不清楚。本文分析了自上而下和自下而上组织结构在促进组织弹性方面的作用。为此，引入了一种基于代理的模型来模拟风格化的组织，其中包括学习、适应、不同的组织模式和环境干扰。结果表明，自下而上设计的组织往往具有更高的吸收环境干扰的能力，并且可以确定一些情况，其中自上而下或自下而上设计的组织在从冲击中恢复时具有优势。
 
-    Peer reviewed publications are considered the gold standard in certifying and disseminating ideas that a research community considers valuable. However, we identify two major drawbacks of the current system: (1) the overwhelming demand for reviewers due to a large volume of submissions, and (2) the lack of incentives for reviewers to participate and expend the necessary effort to provide high-quality reviews. In this work, we adopt a mechanism-design approach to propose improvements to the peer review process, tying together the paper submission and review processes and simultaneously incentivizing high-quality submissions and reviews. In the submission stage, authors participate in a VCG auction for review slots by submitting their papers along with a bid that represents their expected value for having their paper reviewed. For the reviewing stage, we propose a novel peer prediction mechanism (H-DIPP) building on recent work in the information elicitation literature, which incentivize
+    Organizations face numerous challenges posed by unexpected events such as energy price hikes, pandemic disruptions, terrorist attacks, and natural disasters, and the factors that contribute to organizational success in dealing with such disruptions often remain unclear. This paper analyzes the roles of top-down and bottom-up organizational structures in promoting organizational resilience. To do so, an agent-based model of stylized organizations is introduced that features learning, adaptation, different modes of organizing, and environmental disruptions. The results indicate that bottom-up designed organizations tend to have a higher ability to absorb the effects of environmental disruptions, and situations are identified in which either top-down or bottom-up designed organizations have an advantage in recovering from shocks.
+    
+[^5]: 基于代理人模型的客运和货运微观模拟评估拥堵收费方案
+
+    Evaluating congestion pricing schemes using agent-based passenger and freight microsimulation. (arXiv:2305.07318v1 [econ.GN])
+
+    [http://arxiv.org/abs/2305.07318](http://arxiv.org/abs/2305.07318)
+
+    本文基于代理人模型采用微观模拟评估了拥堵收费方案对旅客及货运的影响，分析了方案设计和城市空间特征的影响。
+
+    
+
+    拥堵收费的分配影响在文献中得到了广泛研究，证据各不相同。一些研究发现，定价是退步的，而其他研究则表明，它可以是渐进的或中立的，具体取决于城市地区的特定空间特征、现有活动和旅行模式以及定价方案的设计。此外，定价的福利和分配影响主要在客运方面进行研究，而货运方面得到的关注相对较少。本文采用一个大规模微模拟器（SimMobility），以人口和企业的行为决策、动态多模式网络性能及其相互作用为基础，整合考虑了几种第三最佳的拥堵收费方案对客运和货运的影响。通过对典型北美城市的模拟，分析各种因素对拥堵收费方案的影响。
+
+    The distributional impacts of congestion pricing have been widely studied in the literature and the evidence on this is mixed. Some studies find that pricing is regressive whereas others suggest that it can be progressive or neutral depending on the specific spatial characteristics of the urban region, existing activity and travel patterns, and the design of the pricing scheme. Moreover, the welfare and distributional impacts of pricing have largely been studied in the context of passenger travel whereas freight has received relatively less attention. In this paper, we examine the impacts of several third-best congestion pricing schemes on both passenger transport and freight in an integrated manner using a large-scale microsimulator (SimMobility) that explicitly simulates the behavioral decisions of the entire population of individuals and business establishments, dynamic multimodal network performance, and their interactions. Through simulations of a prototypical North American city,
+    
+[^6]: 自然灾害之后的抵押证券化动态：一份回复
+
+    Mortgage Securitization Dynamics in the Aftermath of Natural Disasters: A Reply. (arXiv:2305.07179v1 [econ.GN])
+
+    [http://arxiv.org/abs/2305.07179](http://arxiv.org/abs/2305.07179)
+
+    了解气候变化对抵押贷款市场的影响十分重要。气候证券化假设认为，在自然灾害之后，贷款人会战略性地对政府支持企业的证券化规则做出反应，这种规则创造了道德风险和逆向选择效应的激励，这从GSE抵押支持证券中展现出来。
+
+    
+
+    气候变化为房地产资产带来了新风险。考虑到大多数购房者使用贷款支付房屋，这些贷款的大多数被政府支持企业（GSE）购买，因此了解不断增加的自然灾害风险如何影响抵押贷款市场非常重要。气候证券化假设（CSH）认为，在自然灾害之后，贷款人会战略性地对GSE符合贷款证券化规则做出反应，这些规则创造了既有道德风险又有逆向选择效应的激励因素。包含在GSE抵押支持证券中的气候风险是由于复杂的证券化链条造成的，这种链条会产生监控和筛选激励不足的问题。我们调查了最近的理论文献和经验文献，探索筛选激励的影响。使用回归不连续性方法，我们测试了证券化文献中提出的关键假设，重点关注证券化动态。
+
+    Climate change poses new risks for real estate assets. Given that the majority of home buyers use a loan to pay for their homes and the majority of these loans are purchased by the Government Sponsored Enterprises (GSEs), it is important to understand how rising natural disaster risk affects the mortgage finance market. The climate securitization hypothesis (CSH) posits that, in the aftermath of natural disasters, lenders strategically react to the GSEs conforming loan securitization rules that create incentives that foster both moral hazard and adverse selection effects. The climate risks bundled into GSE mortgage-backed securities emerge because of the complex securitization chain that creates weak monitoring and screening incentives. We survey the recent theoretical literature and empirical literature exploring screening incentive effects. Using regression discontinuity methods, we test key hypotheses presented in the securitization literature with a focus on securitization dynamics
+    
+[^7]: 均值方差组合选股的稳健均衡策略
+
+    Robust Equilibrium Strategy for Mean-Variance Portfolio Selection. (arXiv:2305.07166v1 [q-fin.MF])
+
+    [http://arxiv.org/abs/2305.07166](http://arxiv.org/abs/2305.07166)
+
+    本文提出了针对均值方差组合选股问题的稳健均衡策略的新定义，并建立了该策略与相应的PDE系统之间的严格联系，填补了文献中的空白。
+
+    
+
+    传统的均值方差组合选股问题存在时间不一致策略的问题。Basak and Chabakauri (2010) 提出博弈论方法来寻找(次博弈完美纳什)均衡策略，并通过对应的偏微分方程(PDE)系统来解决。然而，在实际情况中，投资者仅对资产的漂移和波动有估计，例如95%的置信区间。在这种情况下，一些文献(e.g., Pham, Wei and Zhou (2022))推导出了在最坏参数下的最优不一致策略，即稳健控制。本文考虑了一般的动态均值方差框架，并提出了稳健均衡策略的新定义。在我们的定义下，稳健均衡策略存在且唯一。我们还建立了稳健均衡策略与相应的PDE系统之间的严格联系，填补了文献中的空白。此外，我们提供了一种数字方案来解决PDE系统，并通过数值实验证明了我们方法的有效性。
+
+    The classical mean-variance portfolio selection problem induces time-inconsistent (precommited) strategies (see Zhou and Li (2000)). To overcome this time-inconsistency, Basak and Chabakauri (2010) introduce the game theoretical approach and look for (sub-game perfect Nash) equilibrium strategies, which is solved from the corresponding partial differential equations (PDE) system. In their model, the investor perfectly knows the drift and volatility of the assets. However, in reality investors only have an estimate on them, e.g, a 95% confidence interval. In this case, some literature (e.g., Pham, Wei and Zhou (2022)) derives the optimal precommited strategy under the worst parameters, which is the robust control. The relation between the equilibrium strategy and the PDE system has not been justified when incorporating robust control. In this paper, we consider a general dynamic mean-variance framework and propose a novel definition of the robust equilibrium strategy. Under our definiti
+    
+[^8]: f-Betas与基于f-散度风险度量的投资组合优化
+
+    f-Betas and Portfolio Optimization with f-Divergence induced Risk Measures. (arXiv:2302.00452v2 [q-fin.PM] UPDATED)
+
+    [http://arxiv.org/abs/2302.00452](http://arxiv.org/abs/2302.00452)
+
+    本研究基于f-散度引导的风险度量进行投资组合优化，并提出了一种新的f-Beta度量绩效。实验结果表明，基于Hellinger-Beta的方法可以提供新的视角和比标准Beta和Drawdown Beta更好的性能评估。
+
+    
+
+    本文研究了使用f-散度引导的一类相容风险度量来进行投资组合优化，并导出了在CAPM格式下的必要最佳条件。我们提出了一种新的f-Beta，类似于标准Beta和之前研究中的Drawdown Beta。f-Beta在最优扰动市场概率测度下评估投资组合绩效，并且该Beta度量家族提供了各种程度的灵活性和可解释性。我们采用DOW 30股票对比选择市场投资组合作为最优组合，以展示基于Hellinger-Beta的新视角，以及其与标准Beta和Drawdown Beta的不同之处，基于选择平方Hellinger距离作为f-散度函数的特定选择，衡量f-散度引导的风险度量和f-Betas。我们基于偏差度量计算了Hellinger-Beta度量，并进一步扩展了该方法以计算Hellinger-Betas。
+
+    In this paper, we build on using the class of f-divergence induced coherent risk measures for portfolio optimization and derive its necessary optimality conditions formulated in CAPM format. We have derived a new f-Beta similar to the Standard Betas and previous works in Drawdown Betas. The f-Beta evaluates portfolio performance under an optimally perturbed market probability measure and this family of Beta metrics gives various degrees of flexibility and interpretability. We conducted numerical experiments using DOW 30 stocks against a chosen market portfolio as the optimal portfolio to demonstrate the new perspectives provided by Hellinger-Beta as compared with Standard Beta and Drawdown Betas, based on choosing square Hellinger distance to be the particular choice of f-divergence function in the general f-divergence induced risk measures and f-Betas. We calculated Hellinger-Beta metrics based on deviation measures and further extended this approach to calculate Hellinger-Betas based
+    
+[^9]: 性别对学术出版物语言使用的影响：编辑女性的声音
+
+    Editing a Woman's Voice. (arXiv:2212.02581v3 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2212.02581](http://arxiv.org/abs/2212.02581)
+
+    本文研究在学术出版中，男性和女性作者在初稿中的语言差异可以忽略，但是女性作者在出版过程中增加了使用小心谨慎语言的程度。而且，这种差异增加的程度与编辑的分配有很大关系。
+
+    
+
+    先前的研究表明，男性和女性在表达自信程度上存在差异，尽管通常认为这些差异是天生的或在早期童年时期学习的。本文选取学术出版作为研究对象，发现男性和女性作者在学术手稿的初稿中使用的语言差异最初可以忽略不计：男女作者在初稿中的表达不确定性的程度相似。然而，在追踪这些早期手稿到其出版版本时，就会出现相当大的性别差距。也就是说，女性在出版过程中增加了使用小心谨慎语言的程度。我们展示了这种语言性别差距的增加在很大程度上取决于编辑的分配。具体而言，我们的作者匹配到编辑的数据集允许我们估计编辑特定的固定效应，捕捉特定编辑对女性作者相对于男性作者在语言不确定性方面的影响（编辑的作者性别差距）。
+
+    Prior work shows that men and women speak with different levels of confidence, though it's often assumed that these differences are innate or are learned in early childhood. Using academic publishing as a setting, we find that language differences across male and female authors are initially negligible: in first drafts of academic manuscripts, men and women write with similar levels of uncertainty. However, when we trace those early drafts to their published versions, a substantial gender gap in linguistic uncertainty arises. That is, women increase their use of cautionary language through the publication process more than men. We show this increase in the linguistic gender gap varies substantially based on editor assignment. Specifically, our author-to-editor matched dataset allows us to estimate editor-specific fixed effects, capturing how specific editors impact the change in linguistic uncertainty for female authors relative to male authors (the editor's author-gender gap). Editors
+    
+[^10]: 连续时间下考虑比例交易成本的鲁棒效用最大化
+
+    Robust utility maximisation under proportional transaction costs for c\`adl\`ag price processes. (arXiv:2211.00532v2 [q-fin.MF] UPDATED)
+
+    [http://arxiv.org/abs/2211.00532](http://arxiv.org/abs/2211.00532)
+
+    本文考虑了在模型不确定性下，如何通过最大化最坏期望效用来实现比例交易成本下的鲁棒效用最大化，并提供了该问题的一个积极答案与充要条件。
+
+    
+
+    本文考虑了连续时间的金融市场中，模型不确定性下，比例交易成本下的鲁棒效用最大化。我们在 Chau 和 R\'asonyi（2019）的框架下工作，通过在可能不可数的模型类上最大化最坏期望效用来实现鲁棒性。在这个设置下，我们给出了存在最优交易策略的充要条件，将 Chau 和 R\'asonyi（2019）关于正半轴效用函数的结果从连续到通用的正严格的 c\`adl\`ag 价格过程得到了扩展。这使我们能够正面回答 Chau 和 R\'asonyi（2019）指出的一个开放性问题，同时也表明嵌入到可数乘积空间并不是必要的。
+
+    We consider robust utility maximisation in continuous-time financial markets with proportional transaction costs under model uncertainty. For this, we work in the framework of Chau and R\'asonyi (2019), where robustness is achieved by maximising the worst-case expected utility over a possibly uncountable class of models that are all given on the same underlying filtered probability space with incomplete filtration. In this setting, we give sufficient conditions for the existence of an optimal trading strategy extending the result for utility functions on the positive half-line of Chau and R\'asonyi (2019) from continuous to general strictly positive c\`adl\`ag price processes. This allows us to provide a positive answer to an open question pointed out in Chau and R\'asonyi (2019), and shows that the embedding into a countable product space is not essential.
+    
+[^11]: 无限不平衡下的线性分类器研究
+
+    Linear Classifiers Under Infinite Imbalance. (arXiv:2106.05797v2 [stat.ML] UPDATED)
+
+    [http://arxiv.org/abs/2106.05797](http://arxiv.org/abs/2106.05797)
+
+    研究了在无限不平衡情况下的线性分类器，通过权重函数指定的经验损失最小化系数。截距发散但其余系数向量有一个有限的几乎肯定的极限，极限依赖于权重函数的左尾增长速率。极限系数向量反映稳健性或保守性属性，而在亚指数情况下，极限等价于少数类的上采样分布的隐式选择。
+
+    
+
+    本研究探讨了在一个类别的样本数量增长到无穷大而另一个类别的样本数量保持不变的情况下，二元分类中的线性判别函数的行为。分类器的系数通过一个权重函数指定的经验损失最小化。我们展示了，对于广泛的权重函数类，截距发散但其余系数向量在无穷不平衡情况下具有一个有限的几乎肯定的极限，这扩展了之前对逻辑回归的研究。极限依赖于权重函数的左尾增长速率，对此我们区分了两种情况：亚指数和指数。极限系数向量反映了稳健性或保守性属性，因为它们优化了某些最坏情况的替代方法。在亚指数情况下，极限等价于少数类的上采样分布的隐式选择。我们在信用风险设置中应用了这些思想。
+
+    We study the behavior of linear discriminant functions for binary classification in the infinite-imbalance limit, where the sample size of one class grows without bound while the sample size of the other remains fixed. The coefficients of the classifier minimize an empirical loss specified through a weight function. We show that for a broad class of weight functions, the intercept diverges but the rest of the coefficient vector has a finite almost sure limit under infinite imbalance, extending prior work on logistic regression. The limit depends on the left-tail growth rate of the weight function, for which we distinguish two cases: subexponential and exponential. The limiting coefficient vectors reflect robustness or conservatism properties in the sense that they optimize against certain worst-case alternatives. In the subexponential case, the limit is equivalent to an implicit choice of upsampling distribution for the minority class. We apply these ideas in a credit risk setting, wit
+    
+[^12]: 离散时间下基于条件信息的资产定价第二基本定理的条件版本
+
+    A conditional version of the second fundamental theorem of asset pricing in discrete time. (arXiv:2102.13574v2 [q-fin.MF] UPDATED)
+
+    [http://arxiv.org/abs/2102.13574](http://arxiv.org/abs/2102.13574)
+
+    该论文提出了离散时间下基于条件信息的资产定价第二基本定理的条件版本，并使用动态非线性期望的时间一致性性质来表征无套利价格的结构和可达性，扩展了现有文献中的结果。
+
+    
+
+    我们考虑在离散时间下的金融市场，并研究基于任意时间点可用信息的定价和对冲。在这个条件框架内，我们确定了无套利价格的结构。此外，我们还表征了可达性和市场完备性。我们推导出资产定价第二基本定理的条件版本，令人惊讶的是，这个版本到目前为止还没有被提出过。我们使用的主要工具是动态非线性期望的时间一致性性质，我们将其应用于超级和子对冲价格。所得到的结果扩展了文献中现有的结果，在大多数情况下，文献中只考虑了有限概率空间下的条件设置。
+
+    We consider a financial market in discrete time and study pricing and hedging conditional on the information available up to an arbitrary point in time. In this conditional framework, we determine the structure of arbitrage-free prices. Moreover, we characterize attainability and market completeness. We derive a conditional version of the second fundamental theorem of asset pricing, which, surprisingly, is not available up to now. The main tool we use are time consistency properties of dynamic nonlinear expectations, which we apply to the super- and subhedging prices. The results obtained extend existing results in the literature, where the conditional setting is considered in most cases only on finite probability spaces.
+    
+[^13]: 多层蒙特卡罗方法与数值平滑用于可靠高效计算概率与密度
+
+    Multilevel Monte Carlo with Numerical Smoothing for Robust and Efficient Computation of Probabilities and Densities. (arXiv:2003.05708v3 [q-fin.CP] UPDATED)
+
+    [http://arxiv.org/abs/2003.05708](http://arxiv.org/abs/2003.05708)
+
+    本研究使用多层蒙特卡罗与数值平滑方法，解决了函数低正则性时的估计器不稳定和复杂度差问题，可以用于概率计算、背离奖励的期权定价和随机进程的密度估计等场景。
+
+    
+
+    多层蒙特卡罗（MLMC）方法在估计随机微分方程（SDE）解的函数期望时非常高效。然而，在函数低正则性的情况下，MLMC估计器可能不稳定且复杂性差（非标准复杂度）。为了解决这个问题，我们将我们先前在《量化金融》中介绍的数值平滑方法（数值平滑方法基于找根法和一维数值积分）扩展到MLMC设置中。这个研究与在概率计算、背离奖励的期权定价以及需要对底层随机进程进行离散化密度估计问题相关。分析和数值实验表明，数值平滑在上述应用中显著提高了MLMC估计器的稳定性和复杂性。
+
+    The multilevel Monte Carlo (MLMC) method is highly efficient for estimating expectations of a functional of a solution to a stochastic differential equation (SDE). However, MLMC estimators may be unstable and have a poor (noncanonical) complexity in the case of low regularity of the functional. To overcome this issue, we extend our previously introduced idea of numerical smoothing in (Quantitative Finance, 23(2), 209-227, 2023), in the context of deterministic quadrature methods to the MLMC setting. The numerical smoothing technique is based on root-finding methods combined with one-dimensional numerical integration with respect to a single well-chosen variable. This study is motivated by the computation of probabilities of events, pricing options with a discontinuous payoff, and density estimation problems for dynamics where the discretization of the underlying stochastic processes is necessary. The analysis and numerical experiments reveal that the numerical smoothing significantly i
     
 

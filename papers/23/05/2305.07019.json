@@ -1,0 +1,12 @@
+{
+    "title": "Musketeer (All for One, and One for All): A Generalist Vision-Language Model with Task Explanation Prompts. (arXiv:2305.07019v1 [cs.CV] CROSS LISTED)",
+    "abstract": "We present a sequence-to-sequence vision-language model whose parameters are jointly trained on all tasks (all for one) and fully shared among multiple tasks (one for all), resulting in a single model which we named Musketeer. The integration of knowledge across heterogeneous tasks is enabled by a novel feature called Task Explanation Prompt (TEP). TEP reduces interference among tasks, allowing the model to focus on their shared structure. With a single model, Musketeer achieves results comparable to or better than strong baselines trained on single tasks, almost uniformly across multiple tasks.",
+    "link": "http://arxiv.org/abs/2305.07019",
+    "context": "Title: Musketeer (All for One, and One for All): A Generalist Vision-Language Model with Task Explanation Prompts. (arXiv:2305.07019v1 [cs.CV] CROSS LISTED)\nAbstract: We present a sequence-to-sequence vision-language model whose parameters are jointly trained on all tasks (all for one) and fully shared among multiple tasks (one for all), resulting in a single model which we named Musketeer. The integration of knowledge across heterogeneous tasks is enabled by a novel feature called Task Explanation Prompt (TEP). TEP reduces interference among tasks, allowing the model to focus on their shared structure. With a single model, Musketeer achieves results comparable to or better than strong baselines trained on single tasks, almost uniformly across multiple tasks.",
+    "path": "papers/23/05/2305.07019.json",
+    "total_tokens": 702,
+    "translated_title": "Musketeer（一人之力，万人之力）：具有任务解释提示的通用视觉语言模型",
+    "translated_abstract": "我们提出了一种序列到序列的视觉语言模型，其参数在所有任务上进行联合训练（万人之力），并在多个任务之间完全共享（一人之力），从而产生了一个名为Musketeer的单一模型。",
+    "tldr": "Musketeer是一种通用视觉语言模型，采用任务解释提示（TEP）机制，能够有效整合异构任务的知识，并在多个任务中表现均匀",
+    "en_tdlr": "Musketeer is a generalist vision-language model that integrates knowledge across heterogeneous tasks effectively with a Task Explanation Prompt (TEP) mechanism and achieves uniform performance across multiple tasks."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "GFlowNets with Human Feedback. (arXiv:2305.07036v1 [cs.LG])",
+    "abstract": "We propose the GFlowNets with Human Feedback (GFlowHF) framework to improve the exploration ability when training AI models. For tasks where the reward is unknown, we fit the reward function through human evaluations on different trajectories. The goal of GFlowHF is to learn a policy that is strictly proportional to human ratings, instead of only focusing on human favorite ratings like RLHF. Experiments show that GFlowHF can achieve better exploration ability than RLHF.",
+    "link": "http://arxiv.org/abs/2305.07036",
+    "context": "Title: GFlowNets with Human Feedback. (arXiv:2305.07036v1 [cs.LG])\nAbstract: We propose the GFlowNets with Human Feedback (GFlowHF) framework to improve the exploration ability when training AI models. For tasks where the reward is unknown, we fit the reward function through human evaluations on different trajectories. The goal of GFlowHF is to learn a policy that is strictly proportional to human ratings, instead of only focusing on human favorite ratings like RLHF. Experiments show that GFlowHF can achieve better exploration ability than RLHF.",
+    "path": "papers/23/05/2305.07036.json",
+    "total_tokens": 653,
+    "translated_title": "带人类反馈的GFlowNets",
+    "translated_abstract": "我们提出了带有人类反馈的GFlowNets (GFlowHF) 框架来改进训练 AI 模型的探索能力。对于奖励未知的任务，我们通过不同轨迹上的人类评估来适应奖励函数。GFlowHF 的目标是学习一个严格与人类评级成比例的策略，而不仅仅关注于类似 RLHF 的人类喜好评级。实验表明，GFlowHF 比 RLHF 可以实现更好的探索能力。",
+    "tldr": "GFlowNets框架通过人类反馈来改善AI模型的探索能力，通过适应不同轨迹上的人类评估，可以学习到严格与人类评级成比例的策略，实验结果表明比RLHF更出色。"
+}

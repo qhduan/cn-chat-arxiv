@@ -1,0 +1,12 @@
+{
+    "title": "Towards Transliteration between Sindhi Scripts from Devanagari to Perso-Arabic. (arXiv:2305.07365v1 [cs.CL])",
+    "abstract": "In this paper, we have shown a script conversion (transliteration) technique that converts Sindhi text in the Devanagari script to the Perso-Arabic script. We showed this by incorporating a hybrid approach where some part of the text is converted using a rule base and in case an ambiguity arises then a probabilistic model is used to resolve the same. Using this approach, the system achieved an overall accuracy of 99.64%.",
+    "link": "http://arxiv.org/abs/2305.07365",
+    "context": "Title: Towards Transliteration between Sindhi Scripts from Devanagari to Perso-Arabic. (arXiv:2305.07365v1 [cs.CL])\nAbstract: In this paper, we have shown a script conversion (transliteration) technique that converts Sindhi text in the Devanagari script to the Perso-Arabic script. We showed this by incorporating a hybrid approach where some part of the text is converted using a rule base and in case an ambiguity arises then a probabilistic model is used to resolve the same. Using this approach, the system achieved an overall accuracy of 99.64%.",
+    "path": "papers/23/05/2305.07365.json",
+    "total_tokens": 617,
+    "translated_title": "实现从天城文辛迪到波斯-阿拉伯文辛迪的音译",
+    "translated_abstract": "本文提出一种将天城文辛迪转换为波斯-阿拉伯文辛迪的转换技术。我们采用了一种混合方法，其中部分文本使用基于规则的方法进行转换，如果有歧义，则使用概率模型进行解决。使用这种方法，系统总体准确率达到99.64％。",
+    "tldr": "本文提出了一种将天城文辛迪转换为波斯-阿拉伯文辛迪的技术，通过混合使用基于规则和概率模型，系统取得了99.64％的准确率。",
+    "en_tdlr": "This paper proposes a transliteration technique that converts Sindhi text in the Devanagari script to the Perso-Arabic script, achieving an overall accuracy of 99.64% by using a hybrid approach of rule-based and probabilistic models."
+}

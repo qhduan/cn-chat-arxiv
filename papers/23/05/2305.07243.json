@@ -1,0 +1,12 @@
+{
+    "title": "Better speech synthesis through scaling. (arXiv:2305.07243v1 [cs.SD])",
+    "abstract": "In recent years, the field of image generation has been revolutionized by the application of autoregressive transformers and DDPMs. These approaches model the process of image generation as a step-wise probabilistic processes and leverage large amounts of compute and data to learn the image distribution. This methodology of improving performance need not be confined to images. This paper describes a way to apply advances in the image generative domain to speech synthesis. The result is TorToise -- an expressive, multi-voice text-to-speech system.  All model code and trained weights have been open-sourced at https://github.com/neonbjb/tortoise-tts.",
+    "link": "http://arxiv.org/abs/2305.07243",
+    "context": "Title: Better speech synthesis through scaling. (arXiv:2305.07243v1 [cs.SD])\nAbstract: In recent years, the field of image generation has been revolutionized by the application of autoregressive transformers and DDPMs. These approaches model the process of image generation as a step-wise probabilistic processes and leverage large amounts of compute and data to learn the image distribution. This methodology of improving performance need not be confined to images. This paper describes a way to apply advances in the image generative domain to speech synthesis. The result is TorToise -- an expressive, multi-voice text-to-speech system.  All model code and trained weights have been open-sourced at https://github.com/neonbjb/tortoise-tts.",
+    "path": "papers/23/05/2305.07243.json",
+    "total_tokens": 648,
+    "translated_title": "通过缩放实现更好的语音合成",
+    "translated_abstract": "近年来，图像生成领域在自回归变换器和DDPM的应用下得到了革命性突破。这些方法将图像生成过程建模为逐步概率过程，并利用大量的计算和数据来学习图像分布。本文将这种性能提升方法运用到语音合成中，提出了一种名为TorToise的表达性、多语音的文本转语音系统。所有模型代码和训练权重均已开源，存放于https://github.com/neonbjb/tortoise-tts。",
+    "tldr": "该论文介绍了一种将图像生成方法应用于语音合成领域的方法，提出了一个表达性强、多语音的文本转语音系统TorToise。",
+    "en_tdlr": "The paper presents a method to apply advances in image generative domain to speech synthesis, introducing an expressive, multi-voice text-to-speech system called TorToise."
+}

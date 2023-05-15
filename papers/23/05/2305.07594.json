@@ -1,0 +1,12 @@
+{
+    "title": "Opti Code Pro: A Heuristic Search-based Approach to Code Refactoring. (arXiv:2305.07594v1 [cs.SE])",
+    "abstract": "This paper presents an approach that evaluates best-first search methods to code refactoring. The motivation for code refactoring could be to improve the design, structure, or implementation of an existing program without changing its functionality. To solve a very specific problem of coupling and cohesion, we propose using heuristic search-based techniques on an approximation of the full code refactoring problem, to guide the refactoring process toward solutions that have high cohesion and low coupling. We evaluated our approach by providing demonstrative examples of the effectiveness of this approach on random state problems and created a tool to implement the algorithm on Java projects.",
+    "link": "http://arxiv.org/abs/2305.07594",
+    "context": "Title: Opti Code Pro: A Heuristic Search-based Approach to Code Refactoring. (arXiv:2305.07594v1 [cs.SE])\nAbstract: This paper presents an approach that evaluates best-first search methods to code refactoring. The motivation for code refactoring could be to improve the design, structure, or implementation of an existing program without changing its functionality. To solve a very specific problem of coupling and cohesion, we propose using heuristic search-based techniques on an approximation of the full code refactoring problem, to guide the refactoring process toward solutions that have high cohesion and low coupling. We evaluated our approach by providing demonstrative examples of the effectiveness of this approach on random state problems and created a tool to implement the algorithm on Java projects.",
+    "path": "papers/23/05/2305.07594.json",
+    "total_tokens": 654,
+    "translated_title": "Opti Code Pro：一种基于启发式搜索的代码重构方法",
+    "translated_abstract": "本文介绍了一种评估最佳优先搜索方法来进行代码重构的方法。代码重构的动机可能是改善现有程序的设计、结构或实现，而不改变其功能。我们提出使用基于启发式搜索的技术来解决耦合和内聚性的问题，以引导重构过程朝着具有高内聚性和低耦合度的解决方案。我们通过提供随机状态问题的演示示例并创建一个工具来实现Java项目上的算法来评估我们的方法。",
+    "tldr": "本文提出了一种基于启发式搜索的代码重构方法，以解决耦合和内聚性的问题，并提供了具体的演示和实现工具。",
+    "en_tdlr": "This paper proposes a heuristic search-based approach to code refactoring for improving design, structure, or implementation without changing functionality. The method addresses the problems of coupling and cohesion and is evaluated with demonstrative examples and a tool for Java projects."
+}

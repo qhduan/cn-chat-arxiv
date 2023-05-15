@@ -1,0 +1,11 @@
+{
+    "title": "eXplainable Artificial Intelligence on Medical Images: A Survey. (arXiv:2305.07511v1 [cs.LG])",
+    "abstract": "Over the last few years, the number of works about deep learning applied to the medical field has increased enormously. The necessity of a rigorous assessment of these models is required to explain these results to all people involved in medical exams. A recent field in the machine learning area is explainable artificial intelligence, also known as XAI, which targets to explain the results of such black box models to permit the desired assessment. This survey analyses several recent studies in the XAI field applied to medical diagnosis research, allowing some explainability of the machine learning results in several different diseases, such as cancers and COVID-19.",
+    "link": "http://arxiv.org/abs/2305.07511",
+    "context": "Title: eXplainable Artificial Intelligence on Medical Images: A Survey. (arXiv:2305.07511v1 [cs.LG])\nAbstract: Over the last few years, the number of works about deep learning applied to the medical field has increased enormously. The necessity of a rigorous assessment of these models is required to explain these results to all people involved in medical exams. A recent field in the machine learning area is explainable artificial intelligence, also known as XAI, which targets to explain the results of such black box models to permit the desired assessment. This survey analyses several recent studies in the XAI field applied to medical diagnosis research, allowing some explainability of the machine learning results in several different diseases, such as cancers and COVID-19.",
+    "path": "papers/23/05/2305.07511.json",
+    "total_tokens": 719,
+    "translated_title": "医学图像中可解释的人工智能：一项调查",
+    "translated_abstract": "在过去的几年中，应用深度学习于医疗领域的研究数量迅速增加。为了向参与医学检查的所有人解释这些结果，需要对这些模型进行严格的评估。最近，在机器学习领域中出现了可解释的人工智能，也称为XAI，旨在解释这些黑匣子模型的结果，以便进行所需评估。这项调查分析了XAI领域中针对医学诊断研究的几项最新研究，允许有关多种不同疾病（如癌症和COVID-19）的机器学习结果的可解释性。",
+    "tldr": "这项调查分析了XAI领域中应用于医学诊断的研究，以便解释黑匣子模型的结果，针对的疾病包括癌症和COVID-19。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Improving the Quality of Neural Machine Translation Through Proper Translation of Name Entities. (arXiv:2305.07360v1 [cs.CL])",
+    "abstract": "In this paper, we have shown a method of improving the quality of neural machine translation by translating/transliterating name entities as a preprocessing step. Through experiments we have shown the performance gain of our system. For evaluation we considered three types of name entities viz person names, location names and organization names. The system was able to correctly translate mostly all the name entities. For person names the accuracy was 99.86%, for location names the accuracy was 99.63% and for organization names the accuracy was 99.05%. Overall, the accuracy of the system was 99.52%",
+    "link": "http://arxiv.org/abs/2305.07360",
+    "context": "Title: Improving the Quality of Neural Machine Translation Through Proper Translation of Name Entities. (arXiv:2305.07360v1 [cs.CL])\nAbstract: In this paper, we have shown a method of improving the quality of neural machine translation by translating/transliterating name entities as a preprocessing step. Through experiments we have shown the performance gain of our system. For evaluation we considered three types of name entities viz person names, location names and organization names. The system was able to correctly translate mostly all the name entities. For person names the accuracy was 99.86%, for location names the accuracy was 99.63% and for organization names the accuracy was 99.05%. Overall, the accuracy of the system was 99.52%",
+    "path": "papers/23/05/2305.07360.json",
+    "total_tokens": 744,
+    "translated_title": "通过适当翻译命名实体来提高神经机器翻译的质量",
+    "translated_abstract": "本文介绍了一种通过将命名实体作为预处理步骤进行翻译/音译来提高神经机器翻译质量的方法。通过实验，我们展示了我们系统的性能增益。对于评估，我们考虑了三种类型的命名实体，即人名、地名和组织名。系统能够正确地翻译大多数的命名实体。对于人名，准确率为99.86％，对于地名，准确率为99.63％，对于组织名，准确率为99.05％。总体而言，系统的准确率为99.52％。",
+    "tldr": "本文提出了一种方法，通过将命名实体作为预处理步骤进行翻译/音译，以提高神经机器翻译的质量，实验结果显示该方法能够正确翻译大多数的命名实体，准确率高达99.52％。",
+    "en_tdlr": "This paper proposes a method to improve the quality of neural machine translation by translating/transliterating name entities as a preprocessing step. Experimental results show that the proposed method achieves a high accuracy rate of 99.52% in correctly translating most name entities."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Multimodal Sentiment Analysis: A Survey. (arXiv:2305.07611v1 [cs.CL])",
+    "abstract": "Multimodal sentiment analysis has become an important research area in the field of artificial intelligence. With the latest advances in deep learning, this technology has reached new heights. It has great potential for both application and research, making it a popular research topic. This review provides an overview of the definition, background, and development of multimodal sentiment analysis. It also covers recent datasets and advanced models, emphasizing the challenges and future prospects of this technology. Finally, it looks ahead to future research directions. It should be noted that this review provides constructive suggestions for promising research directions and building better performing multimodal sentiment analysis models, which can help researchers in this field.",
+    "link": "http://arxiv.org/abs/2305.07611",
+    "context": "Title: Multimodal Sentiment Analysis: A Survey. (arXiv:2305.07611v1 [cs.CL])\nAbstract: Multimodal sentiment analysis has become an important research area in the field of artificial intelligence. With the latest advances in deep learning, this technology has reached new heights. It has great potential for both application and research, making it a popular research topic. This review provides an overview of the definition, background, and development of multimodal sentiment analysis. It also covers recent datasets and advanced models, emphasizing the challenges and future prospects of this technology. Finally, it looks ahead to future research directions. It should be noted that this review provides constructive suggestions for promising research directions and building better performing multimodal sentiment analysis models, which can help researchers in this field.",
+    "path": "papers/23/05/2305.07611.json",
+    "total_tokens": 771,
+    "translated_title": "多模态情感分析：综述",
+    "translated_abstract": "多模态情感分析已成为人工智能领域的重要研究领域。随着深度学习的最新进展，这项技术已经达到了新的高度。它在应用和研究方面具有巨大的潜力，因此成为了一个热门研究课题。本综述提供了多模态情感分析的定义、背景和发展概述。它还涵盖了最新的数据集和先进模型，强调了该技术的挑战和未来前景。最后，它展望了未来的研究方向。需要指出的是，本综述为有前途的研究方向和构建更好性能的多模态情感分析模型提供了建设性的建议，有助于该领域的研究者。",
+    "tldr": "本综述介绍了多模态情感分析的定义、发展和挑战，讨论了最新的数据集和先进模型，并提出了有前途的研究方向和构建更好性能的建议。",
+    "en_tdlr": "This survey provides an overview of multimodal sentiment analysis, discussing its definition, development, and challenges. It also covers the latest datasets and advanced models while proposing promising research directions and suggestions for building better performing models."
+}

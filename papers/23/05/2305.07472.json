@@ -1,0 +1,12 @@
+{
+    "title": "Mechanism Design without Rational Expectations. (arXiv:2305.07472v1 [econ.TH])",
+    "abstract": "Does dropping the rational expectations assumption mean the social planner can implement a larger class of social choice rules? This paper proposes a generalized model of implementation that does not assume rational expectations and characterizes the class of solution concepts requiring Bayesian Incentive Compatibility for full implementation. Surprisingly, full implementation of social choice functions turns out not to be significantly more permissive than with rational expectations. This implies some classical results, such as the impossibility of efficient bilateral trade (Myerson and Satterthwaite, 1983) hold for a broad range of non-equilibrium solution concepts, confirming their relevance even in boundedly rational setups.",
+    "link": "http://arxiv.org/abs/2305.07472",
+    "context": "Title: Mechanism Design without Rational Expectations. (arXiv:2305.07472v1 [econ.TH])\nAbstract: Does dropping the rational expectations assumption mean the social planner can implement a larger class of social choice rules? This paper proposes a generalized model of implementation that does not assume rational expectations and characterizes the class of solution concepts requiring Bayesian Incentive Compatibility for full implementation. Surprisingly, full implementation of social choice functions turns out not to be significantly more permissive than with rational expectations. This implies some classical results, such as the impossibility of efficient bilateral trade (Myerson and Satterthwaite, 1983) hold for a broad range of non-equilibrium solution concepts, confirming their relevance even in boundedly rational setups.",
+    "path": "papers/23/05/2305.07472.json",
+    "total_tokens": 708,
+    "translated_title": "没有理性预期的机制设计",
+    "translated_abstract": "如果取消理性预期假设，社会计划者是否能实施更多种类的社会选择规则？本文提出了一种广义的实施模型，不要求理性预期，并表征要求贝叶斯激励兼容性的解概念类。令人惊讶的是，社会选择函数的完全实现与理性预期并没有明显的区别。这意味着一些经典结论（如Myerson和Satterthwaite，1983年对于有效双边交易的不可能性）适用于非平衡解概念的广泛范围中，证实了它们在有限理性设置中的相关性。",
+    "tldr": "本文提出了一种广义的、不要求理性预期的实施模型，并探讨了社会选择函数的完全实现，结果表明，取消理性预期对于实现更多种类的社会选择规则并没有显著帮助。",
+    "en_tdlr": "This paper proposes a generalized model of implementation that does not assume rational expectations and shows that dropping the rational expectations assumption does not significantly increase the set of social choice rules that can be implemented."
+}

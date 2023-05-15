@@ -1,0 +1,11 @@
+{
+    "title": "Decentralized Learning over Wireless Networks: The Effect of Broadcast with Random Access. (arXiv:2305.07368v1 [cs.NI])",
+    "abstract": "In this work, we focus on the communication aspect of decentralized learning, which involves multiple agents training a shared machine learning model using decentralized stochastic gradient descent (D-SGD) over distributed data. In particular, we investigate the impact of broadcast transmission and probabilistic random access policy on the convergence performance of D-SGD, considering the broadcast nature of wireless channels and the link dynamics in the communication topology. Our results demonstrate that optimizing the access probability to maximize the expected number of successful links is a highly effective strategy for accelerating the system convergence.",
+    "link": "http://arxiv.org/abs/2305.07368",
+    "context": "Title: Decentralized Learning over Wireless Networks: The Effect of Broadcast with Random Access. (arXiv:2305.07368v1 [cs.NI])\nAbstract: In this work, we focus on the communication aspect of decentralized learning, which involves multiple agents training a shared machine learning model using decentralized stochastic gradient descent (D-SGD) over distributed data. In particular, we investigate the impact of broadcast transmission and probabilistic random access policy on the convergence performance of D-SGD, considering the broadcast nature of wireless channels and the link dynamics in the communication topology. Our results demonstrate that optimizing the access probability to maximize the expected number of successful links is a highly effective strategy for accelerating the system convergence.",
+    "path": "papers/23/05/2305.07368.json",
+    "total_tokens": 688,
+    "translated_title": "无线网络中的分散式学习: 广播与随机接入的影响",
+    "translated_abstract": "本文关注分散式学习的通信方面，涉及多个代理使用分散式随机梯度下降算法(D-SGD)在分布式数据上共同训练机器学习模型的过程。特别地，我们考虑了无线信道的广播性质以及通信拓扑中的链路动态，探究广播传输和概率性随机接入策略对D-SGD收敛性能的影响。实验结果表明，优化接入概率以最大化成功链路数的期望值是一种高效的提升系统收敛速度的策略。",
+    "tldr": "本文研究了分散式学习在无线网络中的通信问题，发现优化接入概率以最大化成功链路数的期望值是提升系统收敛速度的有效策略。"
+}

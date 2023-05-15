@@ -1,0 +1,12 @@
+{
+    "title": "Learning-Augmented Online Packet Scheduling with Deadlines. (arXiv:2305.07164v1 [cs.DS])",
+    "abstract": "The modern network aims to prioritize critical traffic over non-critical traffic and effectively manage traffic flow. This necessitates proper buffer management to prevent the loss of crucial traffic while minimizing the impact on non-critical traffic. Therefore, the algorithm's objective is to control which packets to transmit and which to discard at each step. In this study, we initiate the learning-augmented online packet scheduling with deadlines and provide a novel algorithmic framework to cope with the prediction. We show that when the prediction error is small, our algorithm improves the competitive ratio while still maintaining a bounded competitive ratio, regardless of the prediction error.",
+    "link": "http://arxiv.org/abs/2305.07164",
+    "context": "Title: Learning-Augmented Online Packet Scheduling with Deadlines. (arXiv:2305.07164v1 [cs.DS])\nAbstract: The modern network aims to prioritize critical traffic over non-critical traffic and effectively manage traffic flow. This necessitates proper buffer management to prevent the loss of crucial traffic while minimizing the impact on non-critical traffic. Therefore, the algorithm's objective is to control which packets to transmit and which to discard at each step. In this study, we initiate the learning-augmented online packet scheduling with deadlines and provide a novel algorithmic framework to cope with the prediction. We show that when the prediction error is small, our algorithm improves the competitive ratio while still maintaining a bounded competitive ratio, regardless of the prediction error.",
+    "path": "papers/23/05/2305.07164.json",
+    "total_tokens": 665,
+    "translated_title": "学习增强的在线数据包调度算法",
+    "translated_abstract": "现代网络的目标是优先处理关键流量并有效地管理流量。这需要适当的缓冲区管理以防止丢失重要流量，同时最小化对非关键流量的影响。因此，算法的目标是控制每步要传输哪些数据包、哪些数据包要丢弃。在本研究中，我们提出了一种学习增强的在线数据包调度算法，并提供了一种新的算法框架来应对预测问题。我们证明了，当预测误差很小时，我们的算法会提高竞争比率，同时仍保持有界的竞争比率。",
+    "tldr": "本研究提出了一种学习增强的在线数据包调度算法，能有效解决网络缓冲区管理问题。",
+    "en_tdlr": "This study proposes a learning-augmented online packet scheduling algorithm to efficiently manage buffer in modern networks, improving the competitive ratio while maintaining bounded competitiveness regardless of prediction error."
+}

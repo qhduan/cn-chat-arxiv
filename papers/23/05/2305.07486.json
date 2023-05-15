@@ -1,0 +1,12 @@
+{
+    "title": "Reduced Label Complexity For Tight $\\ell_2$ Regression. (arXiv:2305.07486v1 [cs.LG])",
+    "abstract": "Given data ${\\rm X}\\in\\mathbb{R}^{n\\times d}$ and labels $\\mathbf{y}\\in\\mathbb{R}^{n}$ the goal is find $\\mathbf{w}\\in\\mathbb{R}^d$ to minimize $\\Vert{\\rm X}\\mathbf{w}-\\mathbf{y}\\Vert^2$. We give a polynomial algorithm that, \\emph{oblivious to $\\mathbf{y}$}, throws out $n/(d+\\sqrt{n})$ data points and is a $(1+d/n)$-approximation to optimal in expectation. The motivation is tight approximation with reduced label complexity (number of labels revealed). We reduce label complexity by $\\Omega(\\sqrt{n})$. Open question: Can label complexity be reduced by $\\Omega(n)$ with tight $(1+d/n)$-approximation?",
+    "link": "http://arxiv.org/abs/2305.07486",
+    "context": "Title: Reduced Label Complexity For Tight $\\ell_2$ Regression. (arXiv:2305.07486v1 [cs.LG])\nAbstract: Given data ${\\rm X}\\in\\mathbb{R}^{n\\times d}$ and labels $\\mathbf{y}\\in\\mathbb{R}^{n}$ the goal is find $\\mathbf{w}\\in\\mathbb{R}^d$ to minimize $\\Vert{\\rm X}\\mathbf{w}-\\mathbf{y}\\Vert^2$. We give a polynomial algorithm that, \\emph{oblivious to $\\mathbf{y}$}, throws out $n/(d+\\sqrt{n})$ data points and is a $(1+d/n)$-approximation to optimal in expectation. The motivation is tight approximation with reduced label complexity (number of labels revealed). We reduce label complexity by $\\Omega(\\sqrt{n})$. Open question: Can label complexity be reduced by $\\Omega(n)$ with tight $(1+d/n)$-approximation?",
+    "path": "papers/23/05/2305.07486.json",
+    "total_tokens": 809,
+    "translated_title": "减少紧$\\ell_2$回归的标签复杂度",
+    "translated_abstract": "给定数据${\\rm X}\\in\\mathbb{R}^{n\\times d}$和标签$\\mathbf{y}\\in\\mathbb{R}^{n}$，目标是找到$\\mathbf{w}\\in\\mathbb{R}^d$，使$\\Vert{\\rm X}\\mathbf{w}-\\mathbf{y}\\Vert^2$最小化。我们提供了一个多项式算法，它无视$\\mathbf{y}$，舍弃$n/(d+\\sqrt{n})$个数据点，并在期望下是$(1+d/n)$最优的近似值。其动机是在减少标签复杂程度（所需揭示的标签数）的同时实现紧密的近似。我们通过$\\Omega(\\sqrt{n})$减少标签复杂度。未解决的问题：是否可以通过紧密的$(1+d/n)$-近似来降低标签复杂度$\\Omega(n)$？",
+    "tldr": "提出了一种算法，可以降低标签复杂度并实现紧密的最优近似值。",
+    "en_tdlr": "The paper proposes a polynomial algorithm that reduces label complexity by $\\Omega(\\sqrt{n})$ without considering the labels, achieving a $(1+d/n)$-approximation to optimal in expectation for tight $\\ell_2$ regression. An open question remains whether label complexity can be reduced by $\\Omega(n)$ while maintaining such tight approximation."
+}

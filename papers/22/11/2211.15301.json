@@ -1,0 +1,12 @@
+{
+    "title": "Learning Coherent Clusters in Weakly-Connected Network Systems. (arXiv:2211.15301v2 [eess.SY] UPDATED)",
+    "abstract": "We propose a structure-preserving model-reduction methodology for large-scale dynamic networks with tightly-connected components. First, the coherent groups are identified by a spectral clustering algorithm on the graph Laplacian matrix that models the network feedback. Then, a reduced network is built, where each node represents the aggregate dynamics of each coherent group, and the reduced network captures the dynamic coupling between the groups. We provide an upper bound on the approximation error when the network graph is randomly generated from a weight stochastic block model. Finally, numerical experiments align with and validate our theoretical findings.",
+    "link": "http://arxiv.org/abs/2211.15301",
+    "context": "Title: Learning Coherent Clusters in Weakly-Connected Network Systems. (arXiv:2211.15301v2 [eess.SY] UPDATED)\nAbstract: We propose a structure-preserving model-reduction methodology for large-scale dynamic networks with tightly-connected components. First, the coherent groups are identified by a spectral clustering algorithm on the graph Laplacian matrix that models the network feedback. Then, a reduced network is built, where each node represents the aggregate dynamics of each coherent group, and the reduced network captures the dynamic coupling between the groups. We provide an upper bound on the approximation error when the network graph is randomly generated from a weight stochastic block model. Finally, numerical experiments align with and validate our theoretical findings.",
+    "path": "papers/22/11/2211.15301.json",
+    "total_tokens": 689,
+    "translated_title": "弱连接网络系统中学习协同聚类方法",
+    "translated_abstract": "本文提出一种结构保持的模型简化方法，用于具有紧密连接组件的大规模动态网络。首先，使用基于图拉普拉斯矩阵的谱聚类算法识别协同群组。然后，构建减少网络，其中每个节点表示每个协同组的聚合动态，并且减少网络捕捉组之间的动态耦合。当网络图从权重随机块模型随机生成时，给出了逼近误差的上界。最后，数值实验验证了我们的理论发现。",
+    "tldr": "本文提出一种学习协同聚类方法，通过基于图拉普拉斯矩阵的谱聚类算法识别协同群组，构建减少网络，并给出逼近误差上界。",
+    "en_tdlr": "This paper proposes a learning method for coherent clustering in weakly-connected network systems. The method identifies coherent groups using a spectral clustering algorithm on the graph Laplacian matrix, builds a reduced network, and provides an upper bound on the approximation error. Numerical experiments validate the theoretical findings."
+}

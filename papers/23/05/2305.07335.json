@@ -1,0 +1,12 @@
+{
+    "title": "Methods and Tools to Advance the Retrieval of Mathematical Knowledge from Digital Libraries for Search-, Recommendation-, and Assistance-Systems. (arXiv:2305.07335v1 [cs.IR])",
+    "abstract": "This project investigated new approaches and technologies to enhance the accessibility of mathematical content and its semantic information for a broad range of information retrieval applications. To achieve this goal, the project addressed three main research challenges: (1) syntactic analysis of mathematical expressions, (2) semantic enrichment of mathematical expressions, and (3) evaluation using quality metrics and demonstrators. To make our research useful for the research community, we published tools that enable researchers to process mathematical expressions more effectively and efficiently.",
+    "link": "http://arxiv.org/abs/2305.07335",
+    "context": "Title: Methods and Tools to Advance the Retrieval of Mathematical Knowledge from Digital Libraries for Search-, Recommendation-, and Assistance-Systems. (arXiv:2305.07335v1 [cs.IR])\nAbstract: This project investigated new approaches and technologies to enhance the accessibility of mathematical content and its semantic information for a broad range of information retrieval applications. To achieve this goal, the project addressed three main research challenges: (1) syntactic analysis of mathematical expressions, (2) semantic enrichment of mathematical expressions, and (3) evaluation using quality metrics and demonstrators. To make our research useful for the research community, we published tools that enable researchers to process mathematical expressions more effectively and efficiently.",
+    "path": "papers/23/05/2305.07335.json",
+    "total_tokens": 686,
+    "translated_title": "数字图书馆中数学知识检索、推荐和辅助系统的发展方法和工具",
+    "translated_abstract": "本项目研究了提高数学内容及其语义信息在各种信息检索应用中可访问性的新方法和技术。为实现这一目标，该项目解决了三个主要研究挑战：（1）数学表达式的句法分析，（2）数学表达式的语义增强，（3）使用质量度量和演示程序进行评估。为了使我们的研究对研究社区有所用处，我们公布了能够使研究人员更有效、更高效地处理数学表达式的工具。",
+    "tldr": "该项目研究了提高数字图书馆中数学内容及语义信息的检索、推荐和辅助系统的新方法与技术，并公布了相应工具，以便研究人员更好地利用。",
+    "en_tdlr": "This project investigated new approaches and technologies to enhance the accessibility of mathematical content and its semantic information for a broad range of information retrieval applications, and published tools to enable researchers to process mathematical expressions more effectively and efficiently."
+}

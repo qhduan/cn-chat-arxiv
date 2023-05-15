@@ -1,0 +1,11 @@
+{
+    "title": "On the Optimality of Misspecified Kernel Ridge Regression. (arXiv:2305.07241v1 [cs.LG])",
+    "abstract": "In the misspecified kernel ridge regression problem, researchers usually assume the underground true function $f_{\\rho}^{*} \\in [\\mathcal{H}]^{s}$, a less-smooth interpolation space of a reproducing kernel Hilbert space (RKHS) $\\mathcal{H}$ for some $s\\in (0,1)$. The existing minimax optimal results require $\\|f_{\\rho}^{*}\\|_{L^{\\infty}}<\\infty$ which implicitly requires $s > \\alpha_{0}$ where $\\alpha_{0}\\in (0,1)$ is the embedding index, a constant depending on $\\mathcal{H}$. Whether the KRR is optimal for all $s\\in (0,1)$ is an outstanding problem lasting for years. In this paper, we show that KRR is minimax optimal for any $s\\in (0,1)$ when the $\\mathcal{H}$ is a Sobolev RKHS.",
+    "link": "http://arxiv.org/abs/2305.07241",
+    "context": "Title: On the Optimality of Misspecified Kernel Ridge Regression. (arXiv:2305.07241v1 [cs.LG])\nAbstract: In the misspecified kernel ridge regression problem, researchers usually assume the underground true function $f_{\\rho}^{*} \\in [\\mathcal{H}]^{s}$, a less-smooth interpolation space of a reproducing kernel Hilbert space (RKHS) $\\mathcal{H}$ for some $s\\in (0,1)$. The existing minimax optimal results require $\\|f_{\\rho}^{*}\\|_{L^{\\infty}}<\\infty$ which implicitly requires $s > \\alpha_{0}$ where $\\alpha_{0}\\in (0,1)$ is the embedding index, a constant depending on $\\mathcal{H}$. Whether the KRR is optimal for all $s\\in (0,1)$ is an outstanding problem lasting for years. In this paper, we show that KRR is minimax optimal for any $s\\in (0,1)$ when the $\\mathcal{H}$ is a Sobolev RKHS.",
+    "path": "papers/23/05/2305.07241.json",
+    "total_tokens": 862,
+    "translated_title": "关于误匹配核岭回归的最优性研究",
+    "translated_abstract": "在误匹配的核岭回归问题中，研究人员通常假定地下真实函数$f_{\\rho}^{*} \\in [\\mathcal{H}]^{s}$，其中$[\\mathcal{H}]^{s}$是一个再生核希尔伯特空间（RKHS）$\\mathcal{H}$的较平滑插值空间，$s\\in (0,1)$。现有的极小极大优化结果要求$\\|f_{\\rho}^{*}\\|_{L^{\\infty}}<\\infty$，这意味着需要$s > \\alpha_{0}$，其中$\\alpha_{0}\\in (0,1)$是嵌入指数，是一个依赖于$\\mathcal{H}$的常数。KRR是否对所有的$s\\in (0,1)$都是最优的，这是一个长期存在的问题。在这篇论文中，我们展示了当$\\mathcal{H}$是Sobolev RKHS的时候，KRR对于任何的$s\\in (0,1)$都是极小极大最优的。",
+    "tldr": "本文证明当使用Sobolev RKHS时，对于误匹配核岭回归问题，KRR对于任何$s\\in (0,1)$都是最优的"
+}
