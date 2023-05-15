@@ -12,9 +12,10 @@
 | [^8] | [f-Betas and Portfolio Optimization with f-Divergence induced Risk Measures.](http://arxiv.org/abs/2302.00452) | 本研究基于f-散度引导的风险度量进行投资组合优化，并提出了一种新的f-Beta度量绩效。实验结果表明，基于Hellinger-Beta的方法可以提供新的视角和比标准Beta和Drawdown Beta更好的性能评估。 |
 | [^9] | [Editing a Woman's Voice.](http://arxiv.org/abs/2212.02581) | 本文研究在学术出版中，男性和女性作者在初稿中的语言差异可以忽略，但是女性作者在出版过程中增加了使用小心谨慎语言的程度。而且，这种差异增加的程度与编辑的分配有很大关系。 |
 | [^10] | [Robust utility maximisation under proportional transaction costs for c\`adl\`ag price processes.](http://arxiv.org/abs/2211.00532) | 本文考虑了在模型不确定性下，如何通过最大化最坏期望效用来实现比例交易成本下的鲁棒效用最大化，并提供了该问题的一个积极答案与充要条件。 |
-| [^11] | [Linear Classifiers Under Infinite Imbalance.](http://arxiv.org/abs/2106.05797) | 研究了在无限不平衡情况下的线性分类器，通过权重函数指定的经验损失最小化系数。截距发散但其余系数向量有一个有限的几乎肯定的极限，极限依赖于权重函数的左尾增长速率。极限系数向量反映稳健性或保守性属性，而在亚指数情况下，极限等价于少数类的上采样分布的隐式选择。 |
-| [^12] | [A conditional version of the second fundamental theorem of asset pricing in discrete time.](http://arxiv.org/abs/2102.13574) | 该论文提出了离散时间下基于条件信息的资产定价第二基本定理的条件版本，并使用动态非线性期望的时间一致性性质来表征无套利价格的结构和可达性，扩展了现有文献中的结果。 |
-| [^13] | [Multilevel Monte Carlo with Numerical Smoothing for Robust and Efficient Computation of Probabilities and Densities.](http://arxiv.org/abs/2003.05708) | 本研究使用多层蒙特卡罗与数值平滑方法，解决了函数低正则性时的估计器不稳定和复杂度差问题，可以用于概率计算、背离奖励的期权定价和随机进程的密度估计等场景。 |
+| [^11] | [Should Bank Stress Tests Be Fair?.](http://arxiv.org/abs/2207.13319) | 本文讨论了银行压力测试中模型的公平性问题，主要解决了不同机构之间存在的差异性以及简单汇集数据可能导致的问题，提供了回归公平性的概念以解决这些缺陷。 |
+| [^12] | [Linear Classifiers Under Infinite Imbalance.](http://arxiv.org/abs/2106.05797) | 研究了在无限不平衡情况下的线性分类器，通过权重函数指定的经验损失最小化系数。截距发散但其余系数向量有一个有限的几乎肯定的极限，极限依赖于权重函数的左尾增长速率。极限系数向量反映稳健性或保守性属性，而在亚指数情况下，极限等价于少数类的上采样分布的隐式选择。 |
+| [^13] | [A conditional version of the second fundamental theorem of asset pricing in discrete time.](http://arxiv.org/abs/2102.13574) | 该论文提出了离散时间下基于条件信息的资产定价第二基本定理的条件版本，并使用动态非线性期望的时间一致性性质来表征无套利价格的结构和可达性，扩展了现有文献中的结果。 |
+| [^14] | [Multilevel Monte Carlo with Numerical Smoothing for Robust and Efficient Computation of Probabilities and Densities.](http://arxiv.org/abs/2003.05708) | 本研究使用多层蒙特卡罗与数值平滑方法，解决了函数低正则性时的估计器不稳定和复杂度差问题，可以用于概率计算、背离奖励的期权定价和随机进程的密度估计等场景。 |
 
 # 详细
 
@@ -158,7 +159,21 @@
 
     We consider robust utility maximisation in continuous-time financial markets with proportional transaction costs under model uncertainty. For this, we work in the framework of Chau and R\'asonyi (2019), where robustness is achieved by maximising the worst-case expected utility over a possibly uncountable class of models that are all given on the same underlying filtered probability space with incomplete filtration. In this setting, we give sufficient conditions for the existence of an optimal trading strategy extending the result for utility functions on the positive half-line of Chau and R\'asonyi (2019) from continuous to general strictly positive c\`adl\`ag price processes. This allows us to provide a positive answer to an open question pointed out in Chau and R\'asonyi (2019), and shows that the embedding into a countable product space is not essential.
     
-[^11]: 无限不平衡下的线性分类器研究
+[^11]: 银行压力测试是否应该公正?
+
+    Should Bank Stress Tests Be Fair?. (arXiv:2207.13319v2 [stat.ML] UPDATED)
+
+    [http://arxiv.org/abs/2207.13319](http://arxiv.org/abs/2207.13319)
+
+    本文讨论了银行压力测试中模型的公平性问题，主要解决了不同机构之间存在的差异性以及简单汇集数据可能导致的问题，提供了回归公平性的概念以解决这些缺陷。
+
+    
+
+    监管压力测试已成为设定美国最大银行资本要求的主要工具。联邦储备系统使用保密模型，在共享压力情景中评估特定银行投资组合的银行特定结果。尽管不同机构之间存在相当大的异质性，但根据政策，所有银行均使用相同的模型，而个别银行认为某些模型不适合其业务。在这场辩论的推动下，我们要问的是，如何将个性化定制模型聚合成一个共同的模型是公平的？我们认为，仅简单地将数据汇集到银行并列处理虽然对所有银行公平，但存在两个弊端:它可能歪曲合法投资组合特征的影响，且容易将合法的信息差向银行身份的推断。我们比较了各种回归公平性的概念，以解决这些缺陷，考虑到预测准确性和平等待遇。在线性模型的设置中
+
+    Regulatory stress tests have become one of the main tools for setting capital requirements at the largest U.S. banks. The Federal Reserve uses confidential models to evaluate bank-specific outcomes for bank-specific portfolios in shared stress scenarios. As a matter of policy, the same models are used for all banks, despite considerable heterogeneity across institutions; individual banks have contended that some models are not suited to their businesses. Motivated by this debate, we ask, what is a fair aggregation of individually tailored models into a common model? We argue that simply pooling data across banks treats banks equally but is subject to two deficiencies: it may distort the impact of legitimate portfolio features, and it is vulnerable to implicit misdirection of legitimate information to infer bank identity. We compare various notions of regression fairness to address these deficiencies, considering both forecast accuracy and equal treatment. In the setting of linear model
+    
+[^12]: 无限不平衡下的线性分类器研究
 
     Linear Classifiers Under Infinite Imbalance. (arXiv:2106.05797v2 [stat.ML] UPDATED)
 
@@ -172,7 +187,7 @@
 
     We study the behavior of linear discriminant functions for binary classification in the infinite-imbalance limit, where the sample size of one class grows without bound while the sample size of the other remains fixed. The coefficients of the classifier minimize an empirical loss specified through a weight function. We show that for a broad class of weight functions, the intercept diverges but the rest of the coefficient vector has a finite almost sure limit under infinite imbalance, extending prior work on logistic regression. The limit depends on the left-tail growth rate of the weight function, for which we distinguish two cases: subexponential and exponential. The limiting coefficient vectors reflect robustness or conservatism properties in the sense that they optimize against certain worst-case alternatives. In the subexponential case, the limit is equivalent to an implicit choice of upsampling distribution for the minority class. We apply these ideas in a credit risk setting, wit
     
-[^12]: 离散时间下基于条件信息的资产定价第二基本定理的条件版本
+[^13]: 离散时间下基于条件信息的资产定价第二基本定理的条件版本
 
     A conditional version of the second fundamental theorem of asset pricing in discrete time. (arXiv:2102.13574v2 [q-fin.MF] UPDATED)
 
@@ -186,7 +201,7 @@
 
     We consider a financial market in discrete time and study pricing and hedging conditional on the information available up to an arbitrary point in time. In this conditional framework, we determine the structure of arbitrage-free prices. Moreover, we characterize attainability and market completeness. We derive a conditional version of the second fundamental theorem of asset pricing, which, surprisingly, is not available up to now. The main tool we use are time consistency properties of dynamic nonlinear expectations, which we apply to the super- and subhedging prices. The results obtained extend existing results in the literature, where the conditional setting is considered in most cases only on finite probability spaces.
     
-[^13]: 多层蒙特卡罗方法与数值平滑用于可靠高效计算概率与密度
+[^14]: 多层蒙特卡罗方法与数值平滑用于可靠高效计算概率与密度
 
     Multilevel Monte Carlo with Numerical Smoothing for Robust and Efficient Computation of Probabilities and Densities. (arXiv:2003.05708v3 [q-fin.CP] UPDATED)
 

@@ -18,12 +18,13 @@
 | [^14] | [Robust and Scalable Bayesian Online Changepoint Detection.](http://arxiv.org/abs/2302.04759) | 该论文提出了一种在线变点检测方法，具有坚固和可扩展性，通过利用广义贝叶斯视角提供了可证明的坚固性，并通过扩散得分匹配解决了可扩展性问题。所得算法是精确的，更新简单，速度较之前的算法快10倍以上。 |
 | [^15] | [Sparse Bayesian Lasso via a Variable-Coefficient $\ell_1$ Penalty.](http://arxiv.org/abs/2211.05089) | 本文提出一种解决高度稀疏性的统计学习算法，即变系数$\ell_1$惩罚的稀疏贝叶斯Lasso，并通过定义可学习的惩罚权重$\lambda_p$及超先验知识来达到目的。 |
 | [^16] | [A Nonparametric Approach with Marginals for Modeling Consumer Choice.](http://arxiv.org/abs/2208.06115) | 本文提出了一种基于边缘分布的简单而有效的非参数消费者选择建模方法，在任何选择集合中会把选择概率的集合一致地描述出来。 |
-| [^17] | [Hierarchical Bayesian Modelling for Knowledge Transfer Across Engineering Fleets via Multitask Learning.](http://arxiv.org/abs/2204.12404) | 本文提出了一种分层贝叶斯建模方法，利用操作机群中的领域专业知识，在不同的子群之间自动地共享信息。该方法成功地解决了卡车机群的生存分析和风电场的功率预测问题。 |
-| [^18] | [Transformers in Time Series: A Survey.](http://arxiv.org/abs/2202.07125) | 本文针对Transformer在时间序列建模中的应用进行了系统回顾，总结了其优点及局限性，从网络结构和应用两个角度审视了其适应和改进。 |
-| [^19] | [Parameter identifiability of a deep feedforward ReLU neural network.](http://arxiv.org/abs/2112.12982) | 本文研究了一类深度前馈ReLU神经网络的参数可辨识性，给出了一组刻画条件并证明了在这些条件下，可以唯一确定网络的参数。 |
-| [^20] | [Linear Classifiers Under Infinite Imbalance.](http://arxiv.org/abs/2106.05797) | 研究了在无限不平衡情况下的线性分类器，通过权重函数指定的经验损失最小化系数。截距发散但其余系数向量有一个有限的几乎肯定的极限，极限依赖于权重函数的左尾增长速率。极限系数向量反映稳健性或保守性属性，而在亚指数情况下，极限等价于少数类的上采样分布的隐式选择。 |
-| [^21] | [Aleatoric uncertainty for Errors-in-Variables models in deep regression.](http://arxiv.org/abs/2105.09095) | 本文提出了一种基于贝叶斯深度回归的方法，利用变量误差模型考虑所使用神经网络的输入所关联的不确定性，并将预测不确定性分解为随机和认识部分。相比于不使用该模型，使用错误变量模型能够提高对已知回归函数的覆盖率，且保持预测性能。 |
-| [^22] | [The Disparate Impact of Uncertainty: Affirmative Action vs. Affirmative Information.](http://arxiv.org/abs/2102.10019) | 本文证明了不确定性对不同人群的影响是不平等的，虽然它会在所有人口群体中产生误差，但误差的类型会有系统性的变化。我们提出了一种名为平权信息的策略，可以消除这种差异并扩大机会的获取，这可以作为平权行动的替代方案。 |
+| [^17] | [Should Bank Stress Tests Be Fair?.](http://arxiv.org/abs/2207.13319) | 本文讨论了银行压力测试中模型的公平性问题，主要解决了不同机构之间存在的差异性以及简单汇集数据可能导致的问题，提供了回归公平性的概念以解决这些缺陷。 |
+| [^18] | [Hierarchical Bayesian Modelling for Knowledge Transfer Across Engineering Fleets via Multitask Learning.](http://arxiv.org/abs/2204.12404) | 本文提出了一种分层贝叶斯建模方法，利用操作机群中的领域专业知识，在不同的子群之间自动地共享信息。该方法成功地解决了卡车机群的生存分析和风电场的功率预测问题。 |
+| [^19] | [Transformers in Time Series: A Survey.](http://arxiv.org/abs/2202.07125) | 本文针对Transformer在时间序列建模中的应用进行了系统回顾，总结了其优点及局限性，从网络结构和应用两个角度审视了其适应和改进。 |
+| [^20] | [Parameter identifiability of a deep feedforward ReLU neural network.](http://arxiv.org/abs/2112.12982) | 本文研究了一类深度前馈ReLU神经网络的参数可辨识性，给出了一组刻画条件并证明了在这些条件下，可以唯一确定网络的参数。 |
+| [^21] | [Linear Classifiers Under Infinite Imbalance.](http://arxiv.org/abs/2106.05797) | 研究了在无限不平衡情况下的线性分类器，通过权重函数指定的经验损失最小化系数。截距发散但其余系数向量有一个有限的几乎肯定的极限，极限依赖于权重函数的左尾增长速率。极限系数向量反映稳健性或保守性属性，而在亚指数情况下，极限等价于少数类的上采样分布的隐式选择。 |
+| [^22] | [Aleatoric uncertainty for Errors-in-Variables models in deep regression.](http://arxiv.org/abs/2105.09095) | 本文提出了一种基于贝叶斯深度回归的方法，利用变量误差模型考虑所使用神经网络的输入所关联的不确定性，并将预测不确定性分解为随机和认识部分。相比于不使用该模型，使用错误变量模型能够提高对已知回归函数的覆盖率，且保持预测性能。 |
+| [^23] | [The Disparate Impact of Uncertainty: Affirmative Action vs. Affirmative Information.](http://arxiv.org/abs/2102.10019) | 本文证明了不确定性对不同人群的影响是不平等的，虽然它会在所有人口群体中产生误差，但误差的类型会有系统性的变化。我们提出了一种名为平权信息的策略，可以消除这种差异并扩大机会的获取，这可以作为平权行动的替代方案。 |
 
 # 详细
 
@@ -251,7 +252,21 @@
 
     Given data on choices made by consumers for different assortments, a key challenge is to develop parsimonious models that describe and predict consumer choice behavior. One such choice model is the marginal distribution model which requires only the specification of the marginal distributions of the random utilities of the alternatives to explain choice data. In this paper, we develop an exact characterisation of the set of choice probabilities which are representable by the marginal distribution model consistently across any collection of assortments. Allowing for the possibility of alternatives to be grouped based on the marginal distribution of their utilities, we show (a) verifying consistency of choice probability data with this model is possible in polynomial time and (b) finding the closest fit reduces to solving a mixed integer convex program. Our results show that the marginal distribution model provides much better representational power as compared to multinomial logit and m
     
-[^17]: 分层贝叶斯建模在工程机群间多任务学习中的知识转移应用
+[^17]: 银行压力测试是否应该公正?
+
+    Should Bank Stress Tests Be Fair?. (arXiv:2207.13319v2 [stat.ML] UPDATED)
+
+    [http://arxiv.org/abs/2207.13319](http://arxiv.org/abs/2207.13319)
+
+    本文讨论了银行压力测试中模型的公平性问题，主要解决了不同机构之间存在的差异性以及简单汇集数据可能导致的问题，提供了回归公平性的概念以解决这些缺陷。
+
+    
+
+    监管压力测试已成为设定美国最大银行资本要求的主要工具。联邦储备系统使用保密模型，在共享压力情景中评估特定银行投资组合的银行特定结果。尽管不同机构之间存在相当大的异质性，但根据政策，所有银行均使用相同的模型，而个别银行认为某些模型不适合其业务。在这场辩论的推动下，我们要问的是，如何将个性化定制模型聚合成一个共同的模型是公平的？我们认为，仅简单地将数据汇集到银行并列处理虽然对所有银行公平，但存在两个弊端:它可能歪曲合法投资组合特征的影响，且容易将合法的信息差向银行身份的推断。我们比较了各种回归公平性的概念，以解决这些缺陷，考虑到预测准确性和平等待遇。在线性模型的设置中
+
+    Regulatory stress tests have become one of the main tools for setting capital requirements at the largest U.S. banks. The Federal Reserve uses confidential models to evaluate bank-specific outcomes for bank-specific portfolios in shared stress scenarios. As a matter of policy, the same models are used for all banks, despite considerable heterogeneity across institutions; individual banks have contended that some models are not suited to their businesses. Motivated by this debate, we ask, what is a fair aggregation of individually tailored models into a common model? We argue that simply pooling data across banks treats banks equally but is subject to two deficiencies: it may distort the impact of legitimate portfolio features, and it is vulnerable to implicit misdirection of legitimate information to infer bank identity. We compare various notions of regression fairness to address these deficiencies, considering both forecast accuracy and equal treatment. In the setting of linear model
+    
+[^18]: 分层贝叶斯建模在工程机群间多任务学习中的知识转移应用
 
     Hierarchical Bayesian Modelling for Knowledge Transfer Across Engineering Fleets via Multitask Learning. (arXiv:2204.12404v4 [stat.ML] UPDATED)
 
@@ -265,7 +280,7 @@
 
     A population-level analysis is proposed to address data sparsity when building predictive models for engineering infrastructure. Utilising an interpretable hierarchical Bayesian approach and operational fleet data, domain expertise is naturally encoded (and appropriately shared) between different sub-groups, representing (i) use-type, (ii) component, or (iii) operating condition. Specifically, domain expertise is exploited to constrain the model via assumptions (and prior distributions) allowing the methodology to automatically share information between similar assets, improving the survival analysis of a truck fleet and power prediction in a wind farm. In each asset management example, a set of correlated functions is learnt over the fleet, in a combined inference, to learn a population model. Parameter estimation is improved when sub-fleets share correlated information at different levels of the hierarchy. In turn, groups with incomplete data automatically borrow statistical strength
     
-[^18]: Transformer在时间序列中的应用概述
+[^19]: Transformer在时间序列中的应用概述
 
     Transformers in Time Series: A Survey. (arXiv:2202.07125v5 [cs.LG] UPDATED)
 
@@ -279,7 +294,7 @@
 
     Transformers have achieved superior performances in many tasks in natural language processing and computer vision, which also triggered great interest in the time series community. Among multiple advantages of Transformers, the ability to capture long-range dependencies and interactions is especially attractive for time series modeling, leading to exciting progress in various time series applications. In this paper, we systematically review Transformer schemes for time series modeling by highlighting their strengths as well as limitations. In particular, we examine the development of time series Transformers in two perspectives. From the perspective of network structure, we summarize the adaptations and modifications that have been made to Transformers in order to accommodate the challenges in time series analysis. From the perspective of applications, we categorize time series Transformers based on common tasks including forecasting, anomaly detection, and classification. Empirically,
     
-[^19]: 深度前馈ReLU神经网络的参数可辨识性
+[^20]: 深度前馈ReLU神经网络的参数可辨识性
 
     Parameter identifiability of a deep feedforward ReLU neural network. (arXiv:2112.12982v2 [math.ST] UPDATED)
 
@@ -293,7 +308,7 @@
 
     The possibility for one to recover the parameters-weights and biases-of a neural network thanks to the knowledge of its function on a subset of the input space can be, depending on the situation, a curse or a blessing. On one hand, recovering the parameters allows for better adversarial attacks and could also disclose sensitive information from the dataset used to construct the network. On the other hand, if the parameters of a network can be recovered, it guarantees the user that the features in the latent spaces can be interpreted. It also provides foundations to obtain formal guarantees on the performances of the network. It is therefore important to characterize the networks whose parameters can be identified and those whose parameters cannot. In this article, we provide a set of conditions on a deep fully-connected feedforward ReLU neural network under which the parameters of the network are uniquely identified-modulo permutation and positive rescaling-from the function it impleme
     
-[^20]: 无限不平衡下的线性分类器研究
+[^21]: 无限不平衡下的线性分类器研究
 
     Linear Classifiers Under Infinite Imbalance. (arXiv:2106.05797v2 [stat.ML] UPDATED)
 
@@ -307,7 +322,7 @@
 
     We study the behavior of linear discriminant functions for binary classification in the infinite-imbalance limit, where the sample size of one class grows without bound while the sample size of the other remains fixed. The coefficients of the classifier minimize an empirical loss specified through a weight function. We show that for a broad class of weight functions, the intercept diverges but the rest of the coefficient vector has a finite almost sure limit under infinite imbalance, extending prior work on logistic regression. The limit depends on the left-tail growth rate of the weight function, for which we distinguish two cases: subexponential and exponential. The limiting coefficient vectors reflect robustness or conservatism properties in the sense that they optimize against certain worst-case alternatives. In the subexponential case, the limit is equivalent to an implicit choice of upsampling distribution for the minority class. We apply these ideas in a credit risk setting, wit
     
-[^21]: 深度回归中的变量误差模型的随机不确定性
+[^22]: 深度回归中的变量误差模型的随机不确定性
 
     Aleatoric uncertainty for Errors-in-Variables models in deep regression. (arXiv:2105.09095v3 [cs.LG] UPDATED)
 
@@ -321,7 +336,7 @@
 
     A Bayesian treatment of deep learning allows for the computation of uncertainties associated with the predictions of deep neural networks. We show how the concept of Errors-in-Variables can be used in Bayesian deep regression to also account for the uncertainty associated with the input of the employed neural network. The presented approach thereby exploits a relevant, but generally overlooked, source of uncertainty and yields a decomposition of the predictive uncertainty into an aleatoric and epistemic part that is more complete and, in many cases, more consistent from a statistical perspective. We discuss the approach along various simulated and real examples and observe that using an Errors-in-Variables model leads to an increase in the uncertainty while preserving the prediction performance of models without Errors-in-Variables. For examples with known regression function we observe that this ground truth is substantially better covered by the Errors-in-Variables model, indicating 
     
-[^22]: 不确定性的不平等影响：平权行动与平权信息
+[^23]: 不确定性的不平等影响：平权行动与平权信息
 
     The Disparate Impact of Uncertainty: Affirmative Action vs. Affirmative Information. (arXiv:2102.10019v2 [stat.ML] UPDATED)
 
