@@ -1,0 +1,12 @@
+{
+    "title": "CroSentiNews 2.0: A Sentence-Level News Sentiment Corpus. (arXiv:2305.08187v1 [cs.CL])",
+    "abstract": "This article presents a sentence-level sentiment dataset for the Croatian news domain. In addition to the 3K annotated texts already present, our dataset contains 14.5K annotated sentence occurrences that have been tagged with 5 classes. We provide baseline scores in addition to the annotation process and inter-annotator agreement.",
+    "link": "http://arxiv.org/abs/2305.08187",
+    "context": "Title: CroSentiNews 2.0: A Sentence-Level News Sentiment Corpus. (arXiv:2305.08187v1 [cs.CL])\nAbstract: This article presents a sentence-level sentiment dataset for the Croatian news domain. In addition to the 3K annotated texts already present, our dataset contains 14.5K annotated sentence occurrences that have been tagged with 5 classes. We provide baseline scores in addition to the annotation process and inter-annotator agreement.",
+    "path": "papers/23/05/2305.08187.json",
+    "total_tokens": 582,
+    "translated_title": "CroSentiNews 2.0: 一份句子级新闻情感语料库",
+    "translated_abstract": "本文介绍了一个针对克罗地亚新闻领域的句子级情感数据集。除了已有的 3 千条已标注文本外，我们的数据集还包括了 14.5 千个注释的句子出现，标记有 5 类情感。我们提供了基准分数，并介绍了注释过程和注释者之间的一致性。",
+    "tldr": "CroSentiNews 2.0 是一个句子级新闻情感语料库，包含14.5K条已标注的新闻句子，标记有5类情感，并提供了基准分数和注释者一致性。",
+    "en_tdlr": "CroSentiNews 2.0 is a sentence-level sentiment dataset for the Croatian news domain, containing 14.5K annotated sentence occurrences tagged with 5 classes, with baseline scores and inter-annotator agreement provided."
+}

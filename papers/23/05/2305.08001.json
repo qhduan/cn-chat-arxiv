@@ -1,0 +1,12 @@
+{
+    "title": "Efficient Asynchronize Stochastic Gradient Algorithm with Structured Data. (arXiv:2305.08001v1 [cs.LG])",
+    "abstract": "Deep learning has achieved impressive success in a variety of fields because of its good generalization. However, it has been a challenging problem to quickly train a neural network with a large number of layers. The existing works utilize the locality-sensitive hashing technique or some data structures on space partitioning to alleviate the training cost in each iteration. In this work, we try accelerating the computations in each iteration from the perspective of input data points. Specifically, for a two-layer fully connected neural network, when the training data have some special properties, e.g., Kronecker structure, each iteration can be completed in sublinear time in the data dimension.",
+    "link": "http://arxiv.org/abs/2305.08001",
+    "context": "Title: Efficient Asynchronize Stochastic Gradient Algorithm with Structured Data. (arXiv:2305.08001v1 [cs.LG])\nAbstract: Deep learning has achieved impressive success in a variety of fields because of its good generalization. However, it has been a challenging problem to quickly train a neural network with a large number of layers. The existing works utilize the locality-sensitive hashing technique or some data structures on space partitioning to alleviate the training cost in each iteration. In this work, we try accelerating the computations in each iteration from the perspective of input data points. Specifically, for a two-layer fully connected neural network, when the training data have some special properties, e.g., Kronecker structure, each iteration can be completed in sublinear time in the data dimension.",
+    "path": "papers/23/05/2305.08001.json",
+    "total_tokens": 719,
+    "translated_title": "具有结构化数据的高效异步随机梯度算法",
+    "translated_abstract": "深度学习因其良好的泛化而在许多领域取得了显著的成功。但是，快速训练具有大量层数的神经网络一直是一个具有挑战性的问题。现有的研究利用局部敏感哈希技术或某些数据结构的空间划分来减轻每次迭代的训练成本。在本研究中，我们尝试从输入数据点的角度加速每次迭代中的计算。具体而言，针对一个两层全连接神经网络，当训练数据具有一些特殊属性，例如 Kronecker 结构时，每次迭代可以在数据维度的次线性时间内完成。",
+    "tldr": "本论文针对具有 Kronecker 结构的训练数据，提出了一种高效的异步随机梯度算法，可以在数据维度的次线性时间内完成每次迭代。",
+    "en_tdlr": "This paper proposes an efficient asynchronous stochastic gradient algorithm for training data with Kronecker structure, which can complete each iteration in sublinear time in the data dimension."
+}
