@@ -1,0 +1,12 @@
+{
+    "title": "Multi-Task Attentive Residual Networks for Argument Mining. (arXiv:2102.12227v2 [cs.CL] UPDATED)",
+    "abstract": "We explore the use of residual networks and neural attention for multiple argument mining tasks. We propose a residual architecture that exploits attention, multi-task learning, and makes use of ensemble, without any assumption on document or argument structure. We present an extensive experimental evaluation on five different corpora of user-generated comments, scientific publications, and persuasive essays. Our results show that our approach is a strong competitor against state-of-the-art architectures with a higher computational footprint or corpus-specific design, representing an interesting compromise between generality, performance accuracy and reduced model size.",
+    "link": "http://arxiv.org/abs/2102.12227",
+    "context": "Title: Multi-Task Attentive Residual Networks for Argument Mining. (arXiv:2102.12227v2 [cs.CL] UPDATED)\nAbstract: We explore the use of residual networks and neural attention for multiple argument mining tasks. We propose a residual architecture that exploits attention, multi-task learning, and makes use of ensemble, without any assumption on document or argument structure. We present an extensive experimental evaluation on five different corpora of user-generated comments, scientific publications, and persuasive essays. Our results show that our approach is a strong competitor against state-of-the-art architectures with a higher computational footprint or corpus-specific design, representing an interesting compromise between generality, performance accuracy and reduced model size.",
+    "path": "papers/21/02/2102.12227.json",
+    "total_tokens": 744,
+    "translated_title": "多任务注意力残差网络用于论述挖掘",
+    "translated_abstract": "本文探讨了多任务注意力残差网络在多个论述挖掘任务中的应用。我们提出了一种残差架构，利用了注意力、多任务学习，并使用集成方法，不对文档或论据结构做任何假设。我们在五个不同的用户生成评论、科学出版物和劝说性论文语料库上进行了广泛的实验评估。我们的结果表明，我们的方法是针对具有更高计算印记或特定于语料库设计的最先进架构的强有力的竞争对手，代表了通用性、性能精度和减少模型大小之间的有趣折衷。",
+    "tldr": "本文提出了一种多任务注意力残差网络架构，通过利用集成方法、注意力机制和多任务学习，无需假设文档或论据结构，成功应用于多个论述挖掘任务中，成为了一种既通用又高性能的架构。",
+    "en_tdlr": "This paper proposes a multi-task attentive residual network architecture, which successfully applies to multiple argument mining tasks without any assumptions on document or argument structure by utilizing ensemble methods, attention mechanisms and multi-task learning, and represents a general and high-performance approach that competes with state-of-the-art architectures with a higher computational footprint or corpus-specific design."
+}

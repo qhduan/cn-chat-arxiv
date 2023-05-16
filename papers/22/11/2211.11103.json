@@ -1,0 +1,12 @@
+{
+    "title": "The Past Does Matter: Correlation of Subsequent States in Trajectory Predictions of Gaussian Process Models. (arXiv:2211.11103v2 [stat.ML] UPDATED)",
+    "abstract": "Computing the distribution of trajectories from a Gaussian Process model of a dynamical system is an important challenge in utilizing such models. Motivated by the computational cost of sampling-based approaches, we consider approximations of the model's output and trajectory distribution. We show that previous work on uncertainty propagation, focussed on discrete state-space models, incorrectly included an independence assumption between subsequent states of the predicted trajectories. Expanding these ideas to continuous ordinary differential equation models, we illustrate the implications of this assumption and propose a novel piecewise linear approximation of Gaussian Processes to mitigate them.",
+    "link": "http://arxiv.org/abs/2211.11103",
+    "context": "Title: The Past Does Matter: Correlation of Subsequent States in Trajectory Predictions of Gaussian Process Models. (arXiv:2211.11103v2 [stat.ML] UPDATED)\nAbstract: Computing the distribution of trajectories from a Gaussian Process model of a dynamical system is an important challenge in utilizing such models. Motivated by the computational cost of sampling-based approaches, we consider approximations of the model's output and trajectory distribution. We show that previous work on uncertainty propagation, focussed on discrete state-space models, incorrectly included an independence assumption between subsequent states of the predicted trajectories. Expanding these ideas to continuous ordinary differential equation models, we illustrate the implications of this assumption and propose a novel piecewise linear approximation of Gaussian Processes to mitigate them.",
+    "path": "papers/22/11/2211.11103.json",
+    "total_tokens": 718,
+    "translated_title": "过去的事情很重要：高斯过程模型轨迹预测中后续状态的相关性",
+    "translated_abstract": "计算高斯过程模型中动态系统的轨迹分布是一个重要的挑战。在考虑到基于采样的方法的计算成本之后，我们考虑了模型输出和轨迹分布的近似方法。我们发现之前关于不确定性传播的工作，重点放在离散状态空间模型上，错误地包含了对预测轨迹的后续状态之间独立性的假设。将这些思想扩展到连续的常微分方程模型上，我们展示了这个假设的含义，并提出了一种新的高斯过程分段线性近似方法来缓解这个问题。",
+    "tldr": "高斯过程模型中，对预测轨迹的后续状态之间独立性的假设是错误的，本文提出了一种新的高斯过程分段线性近似方法来缓解这个问题。",
+    "en_tdlr": "The assumption of independence between subsequent states of predicted trajectories in Gaussian Process models is incorrect, and this paper proposes a novel piecewise linear approximation of Gaussian Processes to mitigate this issue."
+}

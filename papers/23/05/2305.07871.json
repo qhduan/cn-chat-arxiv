@@ -1,0 +1,11 @@
+{
+    "title": "Scalable Educational Question Generation with Pre-trained Language Models. (arXiv:2305.07871v1 [cs.AI])",
+    "abstract": "The automatic generation of educational questions will play a key role in scaling online education, enabling self-assessment at scale when a global population is manoeuvring their personalised learning journeys. We develop \\textit{EduQG}, a novel educational question generation model built by adapting a large language model. Our extensive experiments demonstrate that \\textit{EduQG} can produce superior educational questions by further pre-training and fine-tuning a pre-trained language model on the scientific text and science question data.",
+    "link": "http://arxiv.org/abs/2305.07871",
+    "context": "Title: Scalable Educational Question Generation with Pre-trained Language Models. (arXiv:2305.07871v1 [cs.AI])\nAbstract: The automatic generation of educational questions will play a key role in scaling online education, enabling self-assessment at scale when a global population is manoeuvring their personalised learning journeys. We develop \\textit{EduQG}, a novel educational question generation model built by adapting a large language model. Our extensive experiments demonstrate that \\textit{EduQG} can produce superior educational questions by further pre-training and fine-tuning a pre-trained language model on the scientific text and science question data.",
+    "path": "papers/23/05/2305.07871.json",
+    "total_tokens": 651,
+    "translated_title": "基于预训练语言模型的可扩展教学题生成",
+    "translated_abstract": "在全球人口在探索个性化学习之旅时，教育问题的自动生成将在在线教育的扩展中发挥关键作用，实现大规模的自我评估。我们开发了一种新的教育问题生成模型EduQG，通过调整大型语言模型进行构建。我们广泛的实验表明，EduQG能够通过在科学文本和科学问题数据上进一步进行预训练和微调预训练语言模型，生成出更优秀的教育问题。",
+    "tldr": "这项研究开发了一种新的教育问题生成模型，能够通过在科学文本和科学问题数据上进行预训练和微调预训练语言模型，实现优秀的教育问题自动生成。"
+}

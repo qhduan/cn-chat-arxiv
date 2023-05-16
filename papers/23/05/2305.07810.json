@@ -1,0 +1,11 @@
+{
+    "title": "Depth Dependence of $\\mu$P Learning Rates in ReLU MLPs. (arXiv:2305.07810v1 [cs.LG])",
+    "abstract": "In this short note we consider random fully connected ReLU networks of width $n$ and depth $L$ equipped with a mean-field weight initialization. Our purpose is to study the dependence on $n$ and $L$ of the maximal update ($\\mu$P) learning rate, the largest learning rate for which the mean squared change in pre-activations after one step of gradient descent remains uniformly bounded at large $n,L$. As in prior work on $\\mu$P of Yang et. al., we find that this maximal update learning rate is independent of $n$ for all but the first and last layer weights. However, we find that it has a non-trivial dependence of $L$, scaling like $L^{-3/2}.$",
+    "link": "http://arxiv.org/abs/2305.07810",
+    "context": "Title: Depth Dependence of $\\mu$P Learning Rates in ReLU MLPs. (arXiv:2305.07810v1 [cs.LG])\nAbstract: In this short note we consider random fully connected ReLU networks of width $n$ and depth $L$ equipped with a mean-field weight initialization. Our purpose is to study the dependence on $n$ and $L$ of the maximal update ($\\mu$P) learning rate, the largest learning rate for which the mean squared change in pre-activations after one step of gradient descent remains uniformly bounded at large $n,L$. As in prior work on $\\mu$P of Yang et. al., we find that this maximal update learning rate is independent of $n$ for all but the first and last layer weights. However, we find that it has a non-trivial dependence of $L$, scaling like $L^{-3/2}.$",
+    "path": "papers/23/05/2305.07810.json",
+    "total_tokens": 868,
+    "translated_title": "ReLU MLPs 中 $\\mu$P 学习速率的深度依赖性。",
+    "translated_abstract": "在这篇简短的论文中，我们考虑了宽度为 $n$，深度为 $L$ 的随机全连接 ReLU 网络，并配备了平均场权重初始化。我们的目的是研究 $\\mu$P 学习率对 $n$ 和 $L$ 的依赖性——在 $n,L$ 很大时 ，经过梯度下降一步后的预激活均方差变化仍保持均匀有界的最大学习率。与 Yang 等人关于 $\\mu$P 的先前工作一样，我们发现除第一层和最后一层的权重外，这个最大更新学习率与 $n$ 无关。然而，我们发现它对 $L$ 有一个非平凡的依赖性，按 $L^{-3/2}$ 缩放。",
+    "tldr": "本文研究了宽度为 $n$，深度为 $L$ 的随机全连接 ReLU 网络中 $\\mu$P 学习率对 $n$ 和 $L$ 的依赖性，发现除第一层和最后一层以外，最大学习率与 $n$ 无关，但与 $L$ 按 $L^{-3/2}$ 缩放有关。"
+}

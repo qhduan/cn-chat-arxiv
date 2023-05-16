@@ -1,0 +1,12 @@
+{
+    "title": "Bubble Necessity Theorem. (arXiv:2305.08268v1 [econ.TH])",
+    "abstract": "Asset price bubbles are situations where asset prices exceed the fundamental values defined by the present value of dividends. This paper presents a conceptually new perspective on bubbles: the necessity of asset price bubbles. We establish the Bubble Necessity Theorem in a plausible general class of economic models: in economies with faster long run economic growth ($G$) than dividend growth ($G_d$) and long run bubbleless interest rate ($R$) below dividend growth, equilibria exist but none of them are fundamental or asymptotically bubbleless. The necessity condition $R<G_d<G$ naturally arises in models with uneven productivity growth and a sufficiently high savings motive.",
+    "link": "http://arxiv.org/abs/2305.08268",
+    "context": "Title: Bubble Necessity Theorem. (arXiv:2305.08268v1 [econ.TH])\nAbstract: Asset price bubbles are situations where asset prices exceed the fundamental values defined by the present value of dividends. This paper presents a conceptually new perspective on bubbles: the necessity of asset price bubbles. We establish the Bubble Necessity Theorem in a plausible general class of economic models: in economies with faster long run economic growth ($G$) than dividend growth ($G_d$) and long run bubbleless interest rate ($R$) below dividend growth, equilibria exist but none of them are fundamental or asymptotically bubbleless. The necessity condition $R<G_d<G$ naturally arises in models with uneven productivity growth and a sufficiently high savings motive.",
+    "path": "papers/23/05/2305.08268.json",
+    "total_tokens": 727,
+    "translated_title": "泡沫必要性定理。",
+    "translated_abstract": "资产价格泡沫是指资产价格超过以股息现值定义的基本价值的情况。本文提出了一个概念上全新的对泡沫的视角：资产价格泡沫的必要性。我们在一个比较常见的经济模型类中建立了泡沫必要性定理：在经济增长的长期增长率（$G$）比股息增长（$G_d$）快而长期无泡沫的利率（$R$）低于股息增长的情况下，存在均衡但不存在基本均衡或者渐近无泡沫均衡。$R<G_d<G$的必要条件在不均匀的生产率增长和足够高的储蓄动机的模型中自然而然地出现。",
+    "tldr": "当经济增长的长期增长率比股息增长快且长期无泡沫的利率低于股息增长时，资产价格泡沫是必要的。",
+    "en_tdlr": "Asset price bubbles are necessary in situations where long run economic growth is faster than dividend growth and long run interest rate is below dividend growth according to the Bubble Necessity Theorem proposed in this paper."
+}

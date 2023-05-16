@@ -1,0 +1,12 @@
+{
+    "title": "Using Deepfake Technologies for Word Emphasis Detection. (arXiv:2305.07791v1 [cs.LG])",
+    "abstract": "In this work, we consider the task of automated emphasis detection for spoken language. This problem is challenging in that emphasis is affected by the particularities of speech of the subject, for example the subject accent, dialect or voice. To address this task, we propose to utilize deep fake technology to produce an emphasis devoid speech for this speaker. This requires extracting the text of the spoken voice, and then using a voice sample from the same speaker to produce emphasis devoid speech for this task. By comparing the generated speech with the spoken voice, we are able to isolate patterns of emphasis which are relatively easy to detect.",
+    "link": "http://arxiv.org/abs/2305.07791",
+    "context": "Title: Using Deepfake Technologies for Word Emphasis Detection. (arXiv:2305.07791v1 [cs.LG])\nAbstract: In this work, we consider the task of automated emphasis detection for spoken language. This problem is challenging in that emphasis is affected by the particularities of speech of the subject, for example the subject accent, dialect or voice. To address this task, we propose to utilize deep fake technology to produce an emphasis devoid speech for this speaker. This requires extracting the text of the spoken voice, and then using a voice sample from the same speaker to produce emphasis devoid speech for this task. By comparing the generated speech with the spoken voice, we are able to isolate patterns of emphasis which are relatively easy to detect.",
+    "path": "papers/23/05/2305.07791.json",
+    "total_tokens": 688,
+    "translated_title": "使用Deepfake技术实现语音重音检测",
+    "translated_abstract": "本研究考虑了自动语音重音检测任务。这个任务很具挑战性，因为重音受到讲话者语音特点的影响，比如口音、方言或声音。为了解决这个问题，我们提出利用Deepfake技术为这个说话者产生一个没有重音的语音。这需要提取口述语音的文本，然后使用来自同一演讲者的语音样本来为这个任务产生没有重音的语音。通过比较生成的语音和口述语音，我们能够分离出相对容易检测到的重音模式。",
+    "tldr": "本研究利用Deepfake技术产生没有重音的语音来解决自动语音重音检测任务，通过比较生成的语音和口述语音，能够分离出相对容易检测到的重音模式。",
+    "en_tdlr": "This study proposes using Deepfake technology for producing speech without emphasis to solve automated word emphasis detection and isolating the relatively easy-to-detect patterns of emphasis by comparing the generated speech with the spoken voice."
+}

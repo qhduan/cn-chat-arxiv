@@ -1,0 +1,12 @@
+{
+    "title": "Dual Use Concerns of Generative AI and Large Language Models. (arXiv:2305.07882v1 [cs.CY])",
+    "abstract": "We suggest the implementation of the Dual Use Research of Concern (DURC) framework, originally designed for life sciences, to the domain of generative AI, with a specific focus on Large Language Models (LLMs). With its demonstrated advantages and drawbacks in biological research, we believe the DURC criteria can be effectively redefined for LLMs, potentially contributing to improved AI governance. Acknowledging the balance that must be struck when employing the DURC framework, we highlight its crucial political role in enhancing societal awareness of the impact of generative AI. As a final point, we offer a series of specific recommendations for applying the DURC approach to LLM research.",
+    "link": "http://arxiv.org/abs/2305.07882",
+    "context": "Title: Dual Use Concerns of Generative AI and Large Language Models. (arXiv:2305.07882v1 [cs.CY])\nAbstract: We suggest the implementation of the Dual Use Research of Concern (DURC) framework, originally designed for life sciences, to the domain of generative AI, with a specific focus on Large Language Models (LLMs). With its demonstrated advantages and drawbacks in biological research, we believe the DURC criteria can be effectively redefined for LLMs, potentially contributing to improved AI governance. Acknowledging the balance that must be struck when employing the DURC framework, we highlight its crucial political role in enhancing societal awareness of the impact of generative AI. As a final point, we offer a series of specific recommendations for applying the DURC approach to LLM research.",
+    "path": "papers/23/05/2305.07882.json",
+    "total_tokens": 788,
+    "translated_title": "生成式人工智能和大型语言模型的双重使用问题：实现“受关注的双重使用研究”框架的建议",
+    "translated_abstract": "我们建议将原本设计用于生命科学领域的“受关注的双重使用研究”（DURC）框架应用于生成式人工智能，具体关注大型语言模型（LLM）。通过在生物研究领域的优势和缺点的证明，我们相信DURC标准可以为LLM重新定义，可能有助于改善人工智能治理。在使用DURC框架时需要权衡的情况下，我们强调其在提高社会对生成式人工智能影响的认识方面的重要政治作用。最后，我们提供一系列具体的建议，以将DURC方法应用于LLM的研究中。",
+    "tldr": "本文建议将双重使用研究框架应用于生成式人工智能和大型语言模型，提出了具体的应用建议，以加强人工智能治理并增强社会对其影响的认识。",
+    "en_tdlr": "This article proposes to apply the Dual Use Research of Concern (DURC) framework to generative AI and large language models, provides specific recommendations for application, and highlights the political role of DURC in enhancing AI governance and societal awareness."
+}

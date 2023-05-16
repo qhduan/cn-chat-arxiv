@@ -1,0 +1,11 @@
+{
+    "title": "A Survey of Federated Evaluation in Federated Learning. (arXiv:2305.08070v1 [cs.LG])",
+    "abstract": "In traditional machine learning, it is trivial to conduct model evaluation since all data samples are managed centrally by a server. However, model evaluation becomes a challenging problem in federated learning (FL), which is called federated evaluation in this work. This is because clients do not expose their original data to preserve data privacy. Federated evaluation plays a vital role in client selection, incentive mechanism design, malicious attack detection, etc. In this paper, we provide the first comprehensive survey of existing federated evaluation methods. Moreover, we explore various applications of federated evaluation for enhancing FL performance and finally present future research directions by envisioning some challenges.",
+    "link": "http://arxiv.org/abs/2305.08070",
+    "context": "Title: A Survey of Federated Evaluation in Federated Learning. (arXiv:2305.08070v1 [cs.LG])\nAbstract: In traditional machine learning, it is trivial to conduct model evaluation since all data samples are managed centrally by a server. However, model evaluation becomes a challenging problem in federated learning (FL), which is called federated evaluation in this work. This is because clients do not expose their original data to preserve data privacy. Federated evaluation plays a vital role in client selection, incentive mechanism design, malicious attack detection, etc. In this paper, we provide the first comprehensive survey of existing federated evaluation methods. Moreover, we explore various applications of federated evaluation for enhancing FL performance and finally present future research directions by envisioning some challenges.",
+    "path": "papers/23/05/2305.08070.json",
+    "total_tokens": 799,
+    "translated_title": "联邦学习中的联邦评估综述",
+    "translated_abstract": "在传统机器学习中，由于所有数据样本都由服务器进行集中管理，因此进行模型评估非常简单。然而，在联邦学习（FL）中，模型评估变得更加具有挑战性，这被称为本文中的联邦评估。这是因为客户端不会公开其原始数据以保护数据隐私。联邦评估在客户端选择、激励机制设计、恶意攻击检测等方面发挥着重要作用。在本文中，我们首次全面调查了现有的联邦评估方法。此外，我们探讨了联邦评估在增强FL性能方面的各种应用，并最终通过展望一些挑战提出了未来的研究方向。",
+    "tldr": "本篇论文对现有联邦评估方法进行全面综述，阐述了联邦评估在客户端选择、激励机制设计、恶意攻击检测等方面的重要作用，探讨了联邦评估在增强FL性能方面的各种应用，并提出了未来的研究方向。"
+}

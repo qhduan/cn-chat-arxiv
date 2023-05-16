@@ -1,0 +1,12 @@
+{
+    "title": "Social Surplus Maximization in Sponsored Search Auctions Requires Communication. (arXiv:2305.07729v1 [cs.GT])",
+    "abstract": "We show that computing the optimal social surplus requires $\\Omega(mn)$ bits of communication between the website and the bidders in a sponsored search auction with $n$ slots on the website and with tick size of $2^{-m}$ in the discrete model, even when bidders are allowed to freely communicate with each other.",
+    "link": "http://arxiv.org/abs/2305.07729",
+    "context": "Title: Social Surplus Maximization in Sponsored Search Auctions Requires Communication. (arXiv:2305.07729v1 [cs.GT])\nAbstract: We show that computing the optimal social surplus requires $\\Omega(mn)$ bits of communication between the website and the bidders in a sponsored search auction with $n$ slots on the website and with tick size of $2^{-m}$ in the discrete model, even when bidders are allowed to freely communicate with each other.",
+    "path": "papers/23/05/2305.07729.json",
+    "total_tokens": 537,
+    "translated_title": "在赞助搜索拍卖中实现社会剩余最大化需要沟通",
+    "translated_abstract": "我们展示了在一个赞助搜索拍卖中，在离散模型中，对于一个包含$n$个广告位且tick size大小为$2^{-m}$的拍卖，即使竞标者可以自由地相互通信，计算最优社会剩余需要在网站和竞标者之间传递$\\Omega(mn)$的比特信息。",
+    "tldr": "在赞助搜索拍卖中，为了最大化社会剩余，必须进行大量的沟通，以便在拍卖结束前确定最优策略。",
+    "en_tdlr": "In sponsored search auctions, to maximize social surplus, extensive communication is required in order to determine optimal strategies before the end of the auction."
+}

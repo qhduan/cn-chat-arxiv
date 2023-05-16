@@ -1,0 +1,12 @@
+{
+    "title": "Structured Low-Rank Tensor Learning. (arXiv:2305.07967v1 [cs.LG])",
+    "abstract": "We consider the problem of learning low-rank tensors from partial observations with structural constraints, and propose a novel factorization of such tensors, which leads to a simpler optimization problem. The resulting problem is an optimization problem on manifolds. We develop first-order and second-order Riemannian optimization algorithms to solve it. The duality gap for the resulting problem is derived, and we experimentally verify the correctness of the proposed algorithm. We demonstrate the algorithm on nonnegative constraints and Hankel constraints.",
+    "link": "http://arxiv.org/abs/2305.07967",
+    "context": "Title: Structured Low-Rank Tensor Learning. (arXiv:2305.07967v1 [cs.LG])\nAbstract: We consider the problem of learning low-rank tensors from partial observations with structural constraints, and propose a novel factorization of such tensors, which leads to a simpler optimization problem. The resulting problem is an optimization problem on manifolds. We develop first-order and second-order Riemannian optimization algorithms to solve it. The duality gap for the resulting problem is derived, and we experimentally verify the correctness of the proposed algorithm. We demonstrate the algorithm on nonnegative constraints and Hankel constraints.",
+    "path": "papers/23/05/2305.07967.json",
+    "total_tokens": 637,
+    "translated_title": "结构化低秩张量学习",
+    "translated_abstract": "本文研究在具有结构约束的部分观察情况下学习低秩张量的问题，并提出了一种新颖的张量分解方法，从而导致了一个更简单的优化问题。由此产生的问题是在流形上的优化问题。我们开发了一阶和二阶黎曼优化算法来解决它。已推导出所得问题的对偶间隙，并通过实验证明了所提出算法的正确性。我们演示了在非负约束和Hankel约束条件下的算法。",
+    "tldr": "本文提出了一种结构化低秩张量学习的解决方案，并通过优化算法在流形上求解，解决了部分观测和结构约束下的学习问题。",
+    "en_tdlr": "This paper proposes a solution for structured low-rank tensor learning and solves the learning problem under partial observations and structural constraints by optimizing on manifolds with proposed first-order and second-order Riemannian optimization algorithms."
+}

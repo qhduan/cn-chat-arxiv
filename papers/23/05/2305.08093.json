@@ -1,0 +1,12 @@
+{
+    "title": "AI for Agile development: a Meta-Analysis. (arXiv:2305.08093v1 [cs.SE])",
+    "abstract": "This study explores the benefits and challenges of integrating Artificial Intelligence with Agile software development methodologies, focusing on improving continuous integration and delivery. A systematic literature review and longitudinal meta-analysis of the retrieved studies was conducted to analyse the role of Artificial Intelligence and it's future applications within Agile software development. The review helped identify critical challenges, such as the need for specialised socio-technical expertise. While Artificial Intelligence holds promise for improved software development practices, further research is needed to better understand its impact on processes and practitioners, and to address the indirect challenges associated with its implementation.",
+    "link": "http://arxiv.org/abs/2305.08093",
+    "context": "Title: AI for Agile development: a Meta-Analysis. (arXiv:2305.08093v1 [cs.SE])\nAbstract: This study explores the benefits and challenges of integrating Artificial Intelligence with Agile software development methodologies, focusing on improving continuous integration and delivery. A systematic literature review and longitudinal meta-analysis of the retrieved studies was conducted to analyse the role of Artificial Intelligence and it's future applications within Agile software development. The review helped identify critical challenges, such as the need for specialised socio-technical expertise. While Artificial Intelligence holds promise for improved software development practices, further research is needed to better understand its impact on processes and practitioners, and to address the indirect challenges associated with its implementation.",
+    "path": "papers/23/05/2305.08093.json",
+    "total_tokens": 732,
+    "translated_title": "敏捷开发中的人工智能：一项元分析研究",
+    "translated_abstract": "本研究探讨了在敏捷软件开发方法中集成人工智能以改善持续集成和交付的益处和挑战。通过系统文献综述和纵向元分析来分析人工智能的作用及其在敏捷软件开发中的未来应用。综述发现了许多关键的挑战，例如需要专业的社会技术专业知识。虽然人工智能为软件开发实践带来了希望，但还需要进一步研究来更好地了解其对过程和从业人员的影响，并解决与其实施相关的间接挑战。",
+    "tldr": "本研究从系统性文献综述和纵向元分析出发，探讨了敏捷软件开发中集成人工智能的益处和挑战，需要进一步研究以全面了解其影响和应对相关挑战。",
+    "en_tdlr": "This study examines the benefits and challenges of integrating artificial intelligence into agile software development, with a focus on improving continuous integration and delivery. While AI holds promise for improved software development practices, further research is needed to fully understand its impact and address associated challenges."
+}

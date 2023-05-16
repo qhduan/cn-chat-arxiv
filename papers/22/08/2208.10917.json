@@ -1,0 +1,11 @@
+{
+    "title": "Graph Embeddings via Tensor Products and Approximately Orthonormal Codes. (arXiv:2208.10917v4 [cs.SI] UPDATED)",
+    "abstract": "We analyze a method for embedding graphs as vectors in a structure-preserving manner, showcasing its rich representational capacity and establishing some of its theoretical properties. Our procedure falls under the bind-and-sum approach, and we show that the tensor product is the most general binding operation that respects the superposition principle. We also establish some precise results characterizing the behavior of our method, and we show that our use of spherical codes achieves a packing upper bound. We establish a link to adjacency matrices, showing that our method is, in some sense, a compression of adjacency matrices with applications towards sparse graph representations.",
+    "link": "http://arxiv.org/abs/2208.10917",
+    "context": "Title: Graph Embeddings via Tensor Products and Approximately Orthonormal Codes. (arXiv:2208.10917v4 [cs.SI] UPDATED)\nAbstract: We analyze a method for embedding graphs as vectors in a structure-preserving manner, showcasing its rich representational capacity and establishing some of its theoretical properties. Our procedure falls under the bind-and-sum approach, and we show that the tensor product is the most general binding operation that respects the superposition principle. We also establish some precise results characterizing the behavior of our method, and we show that our use of spherical codes achieves a packing upper bound. We establish a link to adjacency matrices, showing that our method is, in some sense, a compression of adjacency matrices with applications towards sparse graph representations.",
+    "path": "papers/22/08/2208.10917.json",
+    "total_tokens": 707,
+    "translated_title": "张量积与近似正交码的图嵌入方法",
+    "translated_abstract": "我们分析了一种以保持结构方式来嵌入图形的方法，展示了其丰富的表征能力并建立了一些理论性质。我们的过程属于绑定和求和方法，并且我们显示了张量积是尊重叠加原理的最一般的绑定操作。我们还建立了一些精确的结果对我们方法的行为进行了表征，并且我们证明我们使用的球形码实现了一个装箱上限。我们建立了与邻接矩阵的联系，表明我们的方法在某种意义上是一种邻接矩阵的压缩，具有稀疏图表示的应用。",
+    "tldr": "本文介绍了一种嵌入图形到向量空间的方法，使用张量积以及球形码实现高效压缩和表征，在稀疏图表示和其他应用中具有潜在技术优势。"
+}

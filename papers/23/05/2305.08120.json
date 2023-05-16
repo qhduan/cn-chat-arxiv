@@ -1,0 +1,12 @@
+{
+    "title": "Unraveling Cold Start Enigmas in Predictive Analytics for OTT Media: Synergistic Meta-Insights and Multimodal Ensemble Mastery. (arXiv:2305.08120v1 [cs.LG])",
+    "abstract": "The cold start problem is a common challenge in various domains, including media use cases such as predicting viewership for newly launched shows on Over-The-Top (OTT) platforms. In this study, we propose a generic approach to tackle cold start problems by leveraging metadata and employing multi-model ensemble techniques. Our methodology includes feature engineering, model selection, and an ensemble approach based on a weighted average of predictions. The performance of our proposed method is evaluated using various performance metrics. Our results indicate that the multi-model ensemble approach significantly improves prediction accuracy compared to individual models.",
+    "link": "http://arxiv.org/abs/2305.08120",
+    "context": "Title: Unraveling Cold Start Enigmas in Predictive Analytics for OTT Media: Synergistic Meta-Insights and Multimodal Ensemble Mastery. (arXiv:2305.08120v1 [cs.LG])\nAbstract: The cold start problem is a common challenge in various domains, including media use cases such as predicting viewership for newly launched shows on Over-The-Top (OTT) platforms. In this study, we propose a generic approach to tackle cold start problems by leveraging metadata and employing multi-model ensemble techniques. Our methodology includes feature engineering, model selection, and an ensemble approach based on a weighted average of predictions. The performance of our proposed method is evaluated using various performance metrics. Our results indicate that the multi-model ensemble approach significantly improves prediction accuracy compared to individual models.",
+    "path": "papers/23/05/2305.08120.json",
+    "total_tokens": 753,
+    "translated_title": "针对OTT媒体预测分析中的冷启动难题：元洞察和多模态集成掌握的揭示",
+    "translated_abstract": "冷启动问题是各个领域常见的挑战，包括媒体应用案例，比如预测在Over-The-Top（OTT）平台上新推出节目的收视率。本研究提出了一种通用方法，通过利用元数据和采用多模型集成技术来解决冷启动问题。我们的方法包括特征工程、模型选择和基于预测加权平均值的集成方法。我们使用各种性能度量来评估我们提出的方法的性能。我们的结果表明，与单个模型相比，多模型集成方法显著提高了预测准确性。",
+    "tldr": "本研究提出了一种通用方法，通过利用元数据和采用多模型集成技术来解决OTT媒体预测分析中的冷启动问题，结果表明多模型集成方法显著提高了预测准确性。",
+    "en_tdlr": "This study proposed a generic approach to tackle the cold start problem in predictive analytics for OTT media by leveraging metadata and using multi-model ensemble techniques, and the results showed that the approach significantly improved prediction accuracy compared to individual models."
+}

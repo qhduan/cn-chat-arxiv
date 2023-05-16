@@ -1,0 +1,12 @@
+{
+    "title": "Croatian Film Review Dataset (Cro-FiReDa): A Sentiment Annotated Dataset of Film Reviews. (arXiv:2305.08173v1 [cs.CL])",
+    "abstract": "This paper introduces Cro-FiReDa, a sentiment- annotated dataset for Croatian in the domain of movie reviews. The dataset, which contains over 10,000 sentences, has been annotated at the sentence level. In addition to presenting the overall annotation process, we also present benchmark results based on the transformer- based fine-tuning approach",
+    "link": "http://arxiv.org/abs/2305.08173",
+    "context": "Title: Croatian Film Review Dataset (Cro-FiReDa): A Sentiment Annotated Dataset of Film Reviews. (arXiv:2305.08173v1 [cs.CL])\nAbstract: This paper introduces Cro-FiReDa, a sentiment- annotated dataset for Croatian in the domain of movie reviews. The dataset, which contains over 10,000 sentences, has been annotated at the sentence level. In addition to presenting the overall annotation process, we also present benchmark results based on the transformer- based fine-tuning approach",
+    "path": "papers/23/05/2305.08173.json",
+    "total_tokens": 562,
+    "translated_title": "克罗地亚电影评论数据集（Cro-FiReDa）：一份注释了情感极性的电影评论数据集",
+    "translated_abstract": "本文介绍了Cro-FiReDa，一个在电影评论领域中对克罗地亚语进行情感极性注释的数据集。该数据集包含超过10,000个句子，并在句子级别上进行了注释。除了介绍整个注释过程外，我们还基于变压器微调方法提供了基准结果。",
+    "tldr": "介绍了一份注释了情感极性的克罗地亚电影评论数据集，并提供了基于变压器微调方法的基准结果。",
+    "en_tdlr": "This paper introduces a sentiment-annotated dataset of film reviews in Croatian, named Cro-FiReDa, which contains over 10,000 annotated sentences and benchmark results based on transformer-based fine-tuning approach."
+}

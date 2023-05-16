@@ -1,0 +1,12 @@
+{
+    "title": "Meta-DM: Applications of Diffusion Models on Few-Shot Learning. (arXiv:2305.08092v1 [cs.LG])",
+    "abstract": "In the field of few-shot learning (FSL), extensive research has focused on improving network structures and training strategies. However, the role of data processing modules has not been fully explored. Therefore, in this paper, we propose Meta-DM, a generalized data processing module for FSL problems based on diffusion models. Meta-DM is a simple yet effective module that can be easily integrated with existing FSL methods, leading to significant performance improvements in both supervised and unsupervised settings. We provide a theoretical analysis of Meta-DM and evaluate its performance on several algorithms. Our experiments show that combining Meta-DM with certain methods achieves state-of-the-art results.",
+    "link": "http://arxiv.org/abs/2305.08092",
+    "context": "Title: Meta-DM: Applications of Diffusion Models on Few-Shot Learning. (arXiv:2305.08092v1 [cs.LG])\nAbstract: In the field of few-shot learning (FSL), extensive research has focused on improving network structures and training strategies. However, the role of data processing modules has not been fully explored. Therefore, in this paper, we propose Meta-DM, a generalized data processing module for FSL problems based on diffusion models. Meta-DM is a simple yet effective module that can be easily integrated with existing FSL methods, leading to significant performance improvements in both supervised and unsupervised settings. We provide a theoretical analysis of Meta-DM and evaluate its performance on several algorithms. Our experiments show that combining Meta-DM with certain methods achieves state-of-the-art results.",
+    "path": "papers/23/05/2305.08092.json",
+    "total_tokens": 754,
+    "translated_title": "Meta-DM：扩散模型在少样本学习上的应用",
+    "translated_abstract": "在少样本学习领域，广泛的研究关注于改进网络结构和训练策略。然而，数据处理模块的作用尚未得到充分探索。因此，在本文中，我们提出了基于扩散模型的通用数据处理模块Meta-DM，用于少样本学习问题。Meta-DM是一个简单而有效的模块，可以轻松地集成到现有的少样本学习方法中，在监督和非监督设置中都能带来显著的性能提升。我们对Meta-DM进行了理论分析，并在几种算法上进行了性能评估。实验表明，将Meta-DM与某些方法相结合可以实现最先进的结果。",
+    "tldr": "本文提出了一个基于扩散模型的数据处理模块Meta-DM，可以轻松地集成到现有的少样本学习方法中，在监督和非监督设置中都能带来显著的性能提升。",
+    "en_tdlr": "This paper proposes a generalized data processing module called Meta-DM based on diffusion models for few-shot learning problems, which can be easily integrated with existing methods and significantly improve the performance in both supervised and unsupervised settings."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Quinductor: a multilingual data-driven method for generating reading-comprehension questions using Universal Dependencies. (arXiv:2103.10121v3 [cs.CL] UPDATED)",
+    "abstract": "We propose a multilingual data-driven method for generating reading comprehension questions using dependency trees. Our method provides a strong, mostly deterministic, and inexpensive-to-train baseline for less-resourced languages. While a language-specific corpus is still required, its size is nowhere near those required by modern neural question generation (QG) architectures. Our method surpasses QG baselines previously reported in the literature and shows a good performance in terms of human evaluation.",
+    "link": "http://arxiv.org/abs/2103.10121",
+    "context": "Title: Quinductor: a multilingual data-driven method for generating reading-comprehension questions using Universal Dependencies. (arXiv:2103.10121v3 [cs.CL] UPDATED)\nAbstract: We propose a multilingual data-driven method for generating reading comprehension questions using dependency trees. Our method provides a strong, mostly deterministic, and inexpensive-to-train baseline for less-resourced languages. While a language-specific corpus is still required, its size is nowhere near those required by modern neural question generation (QG) architectures. Our method surpasses QG baselines previously reported in the literature and shows a good performance in terms of human evaluation.",
+    "path": "papers/21/03/2103.10121.json",
+    "total_tokens": 662,
+    "translated_title": "Quinductor:基于通用依存语法的多语言数据驱动阅读理解问题生成方法",
+    "translated_abstract": "我们提出了一种使用依存树生成阅读理解问题的多语言数据驱动方法。我们的方法提供了一个强大、大部分确定性和训练成本低廉的基线方法，适用于资源较少的语言。虽然仍需要特定语言的语料库，但其大小远远不及现代神经问答生成（QG）体系结构所需的大小。我们的方法超过了先前文献报道的QG基线，并在人类评估方面表现良好。",
+    "tldr": "Quinductor是一种多语言数据驱动的阅读理解问题生成方法，使用依存树，适用于资源较少的语言，比之前文献报道的QG基线效果更好。",
+    "en_tdlr": "Quinductor is a multilingual data-driven method for generating reading comprehension questions using dependency trees. It provides a strong, mostly deterministic, and cost-effective baseline for less-resourced languages. The approach surpasses QG baselines previously reported in the literature and performs well in human evaluation."
+}

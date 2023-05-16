@@ -1,0 +1,12 @@
+{
+    "title": "Thompson Sampling for Parameterized Markov Decision Processes with Uninformative Actions. (arXiv:2305.07844v1 [eess.SY])",
+    "abstract": "We study parameterized MDPs (PMDPs) in which the key parameters of interest are unknown and must be learned using Bayesian inference. One key defining feature of such models is the presence of \"uninformative\" actions that provide no information about the unknown parameters. We contribute a set of assumptions for PMDPs under which Thompson sampling guarantees an asymptotically optimal expected regret bound of $O(T^{-1})$, which are easily verified for many classes of problems such as queuing, inventory control, and dynamic pricing.",
+    "link": "http://arxiv.org/abs/2305.07844",
+    "context": "Title: Thompson Sampling for Parameterized Markov Decision Processes with Uninformative Actions. (arXiv:2305.07844v1 [eess.SY])\nAbstract: We study parameterized MDPs (PMDPs) in which the key parameters of interest are unknown and must be learned using Bayesian inference. One key defining feature of such models is the presence of \"uninformative\" actions that provide no information about the unknown parameters. We contribute a set of assumptions for PMDPs under which Thompson sampling guarantees an asymptotically optimal expected regret bound of $O(T^{-1})$, which are easily verified for many classes of problems such as queuing, inventory control, and dynamic pricing.",
+    "path": "papers/23/05/2305.07844.json",
+    "total_tokens": 710,
+    "translated_title": "带有无信息动作的参数化马尔可夫决策过程的汤普森抽样",
+    "translated_abstract": "我们研究了带有未知关键参数的参数化马尔可夫决策过程（PMDP），必须使用贝叶斯推断进行学习。这些模型的一个关键定义特征是具有“无信息”动作，这些动作不提供关于未知参数的信息。我们提出了一组关于PMDP的假设，根据这些假设，汤普森抽样可保证渐近最优的期望遗憾界为$O(T^{-1})$，这些假设易于验证，适用于许多问题类别，例如排队，库存控制和动态定价。",
+    "tldr": "研究了带有未知参数和无信息动作的参数化马尔可夫决策过程，提出了关于PMDP的假设，并使用汤普森抽样保证了其渐近最优的期望遗憾界。",
+    "en_tdlr": "The paper studies parameterized MDPs with unknown parameters and \"uninformative\" actions, proposes assumptions for PMDPs, and uses Thompson sampling to guarantee asymptotically optimal expected regret bound."
+}

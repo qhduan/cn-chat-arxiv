@@ -1,0 +1,12 @@
+{
+    "title": "On the Computational Cost of Stochastic Security. (arXiv:2305.07973v1 [cs.LG])",
+    "abstract": "We investigate whether long-run persistent chain Monte Carlo simulation of Langevin dynamics improves the quality of the representations achieved by energy-based models (EBM). We consider a scheme wherein Monte Carlo simulation of a diffusion process using a trained EBM is used to improve the adversarial robustness and the calibration score of an independent classifier network. Our results show that increasing the computational budget of Gibbs sampling in persistent contrastive divergence improves the calibration and adversarial robustness of the model, elucidating the practical merit of realizing new quantum and classical hardware and software for efficient Gibbs sampling from continuous energy potentials.",
+    "link": "http://arxiv.org/abs/2305.07973",
+    "context": "Title: On the Computational Cost of Stochastic Security. (arXiv:2305.07973v1 [cs.LG])\nAbstract: We investigate whether long-run persistent chain Monte Carlo simulation of Langevin dynamics improves the quality of the representations achieved by energy-based models (EBM). We consider a scheme wherein Monte Carlo simulation of a diffusion process using a trained EBM is used to improve the adversarial robustness and the calibration score of an independent classifier network. Our results show that increasing the computational budget of Gibbs sampling in persistent contrastive divergence improves the calibration and adversarial robustness of the model, elucidating the practical merit of realizing new quantum and classical hardware and software for efficient Gibbs sampling from continuous energy potentials.",
+    "path": "papers/23/05/2305.07973.json",
+    "total_tokens": 732,
+    "translated_title": "论随机安全性的计算成本",
+    "translated_abstract": "我们探讨了使用朗之万动力学的长期持续蒙特卡罗模拟是否会提高基于能量的模型（EBM）所达到的表征质量。我们考虑一种方案，其中使用训练过的EBM的扩散过程的蒙特卡罗模拟，用于提高独立分类器网络的对抗鲁棒性和校准分数。我们的结果表明，在持续对比散度的计算预算增加吉布斯采样的情况下，改进了模型的校准性和对抗鲁棒性，澄清了实现有效从连续能量势中进行吉布斯采样的新量子和经典硬件和软件的实际价值。",
+    "tldr": "本文探究了使用长期持续蒙特卡罗模拟是否能提高能量模型的质量，并通过增加计算预算改进了模型的校准性和对抗鲁棒性。",
+    "en_tdlr": "This paper investigates whether long-term persistent Monte Carlo simulation can improve the quality of energy-based models and shows that increasing the computational budget of Gibbs sampling in persistent contrastive divergence improves the calibration and adversarial robustness of the model."
+}

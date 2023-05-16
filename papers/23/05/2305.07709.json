@@ -1,0 +1,12 @@
+{
+    "title": "Using Language Models to Detect Alarming Student Responses. (arXiv:2305.07709v1 [cs.CL])",
+    "abstract": "This article details the advances made to a system that uses artificial intelligence to identify alarming student responses. This system is built into our assessment platform to assess whether a student's response indicates they are a threat to themselves or others. Such responses may include details concerning threats of violence, severe depression, suicide risks, and descriptions of abuse. Driven by advances in natural language processing, the latest model is a fine-tuned language model trained on a large corpus consisting of student responses and supplementary texts. We demonstrate that the use of a language model delivers a substantial improvement in accuracy over the previous iterations of this system.",
+    "link": "http://arxiv.org/abs/2305.07709",
+    "context": "Title: Using Language Models to Detect Alarming Student Responses. (arXiv:2305.07709v1 [cs.CL])\nAbstract: This article details the advances made to a system that uses artificial intelligence to identify alarming student responses. This system is built into our assessment platform to assess whether a student's response indicates they are a threat to themselves or others. Such responses may include details concerning threats of violence, severe depression, suicide risks, and descriptions of abuse. Driven by advances in natural language processing, the latest model is a fine-tuned language model trained on a large corpus consisting of student responses and supplementary texts. We demonstrate that the use of a language model delivers a substantial improvement in accuracy over the previous iterations of this system.",
+    "path": "papers/23/05/2305.07709.json",
+    "total_tokens": 700,
+    "translated_title": "使用语言模型检测危险的学生回复",
+    "translated_abstract": "本文详细介绍了一种利用人工智能识别危险学生回复的系统的进展。该系统集成在我们的评估平台中，用于评估学生的回复是否表明他们对自己或他人构成威胁。这些回复可能包括关于暴力威胁、严重抑郁、自杀风险和虐待描述的细节。最新模型是一个经过微调的语言模型，它是在由学生回复和补充文本构成的大型语料库上训练而成。我们证明，使用语言模型比此前版本的系统能够大幅提高准确性。",
+    "tldr": "本文介绍了一种利用自然语言处理技术识别危险学生回复的系统，该系统采用经过微调的语言模型进行训练，能够显著提高准确性。",
+    "en_tdlr": "This article presents a system that uses natural language processing to identify alarming student responses, which is trained on a fine-tuned language model and significantly improves accuracy compared to previous versions."
+}
