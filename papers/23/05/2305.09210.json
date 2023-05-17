@@ -1,0 +1,12 @@
+{
+    "title": "Towards Speech Dialogue Translation Mediating Speakers of Different Languages. (arXiv:2305.09210v1 [cs.CL])",
+    "abstract": "We present a new task, speech dialogue translation mediating speakers of different languages. We construct the SpeechBSD dataset for the task and conduct baseline experiments. Furthermore, we consider context to be an important aspect that needs to be addressed in this task and propose two ways of utilizing context, namely monolingual context and bilingual context. We conduct cascaded speech translation experiments using Whisper and mBART, and show that bilingual context performs better in our settings.",
+    "link": "http://arxiv.org/abs/2305.09210",
+    "context": "Title: Towards Speech Dialogue Translation Mediating Speakers of Different Languages. (arXiv:2305.09210v1 [cs.CL])\nAbstract: We present a new task, speech dialogue translation mediating speakers of different languages. We construct the SpeechBSD dataset for the task and conduct baseline experiments. Furthermore, we consider context to be an important aspect that needs to be addressed in this task and propose two ways of utilizing context, namely monolingual context and bilingual context. We conduct cascaded speech translation experiments using Whisper and mBART, and show that bilingual context performs better in our settings.",
+    "path": "papers/23/05/2305.09210.json",
+    "total_tokens": 691,
+    "translated_title": "向不同语言发言人斡旋的语音对话翻译",
+    "translated_abstract": "我们提出了一项新任务，该任务是为不同语言的发言人构建语音对话翻译。我们构建了SpeechBSD数据集，并进行了基准实验。此外，我们认为上下文是这项任务中需要解决的一个重要方面，并提出了两种利用上下文的方法，即单语上下文和双语上下文。我们使用Whisper和mBART进行级联式语音翻译实验，并展示了双语上下文在我们的设置中表现更好。",
+    "tldr": "本文提出了一项新任务，即为不同语言的发言人构建语音对话翻译。作者构建了SpeechBSD数据集并进行了基准实验。作者指出上下文是该任务中需要考虑的一个重要方面，并提出了两种利用上下文的方法。最终结果表明，在该任务中双语上下文比单语上下文表现更好。",
+    "en_tdlr": "This paper proposes a new task of constructing speech dialogue translation for speakers of different languages. The authors construct the SpeechBSD dataset and conduct baseline experiments. They suggest the importance of considering context and propose two ways of utilizing it. The results show that bilingual context performs better than monolingual context in this task."
+}

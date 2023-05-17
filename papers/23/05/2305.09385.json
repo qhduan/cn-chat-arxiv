@@ -1,0 +1,12 @@
+{
+    "title": "Lp- and Risk Consistency of Localized SVMs. (arXiv:2305.09385v1 [stat.ML])",
+    "abstract": "Kernel-based regularized risk minimizers, also called support vector machines (SVMs), are known to possess many desirable properties but suffer from their super-linear computational requirements when dealing with large data sets. This problem can be tackled by using localized SVMs instead, which also offer the additional advantage of being able to apply different hyperparameters to different regions of the input space. In this paper, localized SVMs are analyzed with regards to their consistency. It is proven that they inherit $L_p$- as well as risk consistency from global SVMs under very weak conditions and even if the regions underlying the localized SVMs are allowed to change as the size of the training data set increases.",
+    "link": "http://arxiv.org/abs/2305.09385",
+    "context": "Title: Lp- and Risk Consistency of Localized SVMs. (arXiv:2305.09385v1 [stat.ML])\nAbstract: Kernel-based regularized risk minimizers, also called support vector machines (SVMs), are known to possess many desirable properties but suffer from their super-linear computational requirements when dealing with large data sets. This problem can be tackled by using localized SVMs instead, which also offer the additional advantage of being able to apply different hyperparameters to different regions of the input space. In this paper, localized SVMs are analyzed with regards to their consistency. It is proven that they inherit $L_p$- as well as risk consistency from global SVMs under very weak conditions and even if the regions underlying the localized SVMs are allowed to change as the size of the training data set increases.",
+    "path": "papers/23/05/2305.09385.json",
+    "total_tokens": 750,
+    "translated_title": "局部支持向量机的$L_p$和风险一致性",
+    "translated_abstract": "基于核的正则化风险最小化器，又称为支持向量机（SVM），已知具有许多理想的属性，但在处理大型数据集时具有超线性的计算需求。可以通过使用局部SVM来解决这个问题，这种方法还提供了能够在不同的输入空间区域应用不同超参数的额外优势。本文分析了局部SVM的一致性。证明了它们在非常弱的情况下从全局SVM继承了$L_p$-以及风险-一致性，甚至可以在训练数据集大小增加时，允许底层的区域发生变化。",
+    "tldr": "本文分析了局部支持向量机的一致性，证明了在非常弱的条件下，它们从全局SVM继承了$L_p$和风险一致性，即使底层区域随数据集大小的增加而变化。",
+    "en_tdlr": "This paper analyzes the consistency of localized SVMs and proves that they inherit both $L_p$- and risk consistency from global SVMs under very weak conditions, allowing for the underlying regions to change as the size of the training data set increases."
+}

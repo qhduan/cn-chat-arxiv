@@ -1,0 +1,12 @@
+{
+    "title": "Why Does GDP Move Before G? It's all in the Measurement. (arXiv:2212.06073v3 [econ.GN] UPDATED)",
+    "abstract": "We find that the early impact of defense news shocks on GDP is mainly due to a rise in business inventories, as contractors ramp up production for new defense contracts. These contracts do not affect government spending (G) until payment-on-delivery, which occurs 2-3 quarters later. Novel data on defense procurement obligations reveals that contract awards Granger-cause VAR-identified shocks to G, but not defense news shocks. This implies that the early GDP response relative to G is largely driven by the delayed accounting of defense contracts, while VAR-identified shocks to G miss the impact on inventories, resulting in lower multiplier estimates.",
+    "link": "http://arxiv.org/abs/2212.06073",
+    "context": "Title: Why Does GDP Move Before G? It's all in the Measurement. (arXiv:2212.06073v3 [econ.GN] UPDATED)\nAbstract: We find that the early impact of defense news shocks on GDP is mainly due to a rise in business inventories, as contractors ramp up production for new defense contracts. These contracts do not affect government spending (G) until payment-on-delivery, which occurs 2-3 quarters later. Novel data on defense procurement obligations reveals that contract awards Granger-cause VAR-identified shocks to G, but not defense news shocks. This implies that the early GDP response relative to G is largely driven by the delayed accounting of defense contracts, while VAR-identified shocks to G miss the impact on inventories, resulting in lower multiplier estimates.",
+    "path": "papers/22/12/2212.06073.json",
+    "total_tokens": 741,
+    "translated_title": "GDP在G之前为什么会动？一切在于衡量",
+    "translated_abstract": "我们发现，国防新闻冲击对GDP的早期影响主要是由于商业库存的增加，承包商加速生产新的国防合同。这些合同直到交付付款（发生在2-3个季度之后）之前不会影响政府支出G。关于国防采购义务的新数据显示，合同授予会引起Granger因果VAR标识的G冲击，但不会引起国防新闻冲击。这意味着相对于G，早期GDP响应在很大程度上受到国防合同延迟核算的驱动，而VAR标识的G冲击错过了对库存的影响，从而得出较低的乘数估计。",
+    "tldr": "由于国防合同的延迟核算，导致GDP在G之前出现波动；VAR-identified shocks对库存的影响被错过，导致战斗多重效应估计较低。",
+    "en_tdlr": "The early movement of GDP before G is due to delayed accounting of defense contracts, while shocks identified by VAR miss the impact on inventories, resulting in lower multiplier estimates."
+}

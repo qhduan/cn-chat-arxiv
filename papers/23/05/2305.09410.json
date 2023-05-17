@@ -1,0 +1,12 @@
+{
+    "title": "About Evaluation of F1 Score for RECENT Relation Extraction System. (arXiv:2305.09410v1 [cs.CL])",
+    "abstract": "This document contains a discussion of the F1 score evaluation used in the article 'Relation Classification with Entity Type Restriction' by Shengfei Lyu, Huanhuan Chen published on Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021. The authors created a system named RECENT and claim it achieves (then) a new state-of-the-art result 75.2 (previous 74.8) on the TACRED dataset, while after correcting errors and reevaluation the final result is 65.16",
+    "link": "http://arxiv.org/abs/2305.09410",
+    "context": "Title: About Evaluation of F1 Score for RECENT Relation Extraction System. (arXiv:2305.09410v1 [cs.CL])\nAbstract: This document contains a discussion of the F1 score evaluation used in the article 'Relation Classification with Entity Type Restriction' by Shengfei Lyu, Huanhuan Chen published on Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021. The authors created a system named RECENT and claim it achieves (then) a new state-of-the-art result 75.2 (previous 74.8) on the TACRED dataset, while after correcting errors and reevaluation the final result is 65.16",
+    "path": "papers/23/05/2305.09410.json",
+    "total_tokens": 657,
+    "translated_title": "关于F1分数的讨论——以最近的关系抽取系统为例",
+    "translated_abstract": "本文讨论了Shengfei Lyu和Huanhuan Chen在Findings of the Association for Computational Linguistics：ACL-IJCNLP 2021上发表的论文“Relation Classification with Entity Type Restriction”中使用的F1分数评估方法。作者创建的系统名为RECENT，声称其在TACRED数据集上取得了（当时的）最新的75.2（之前为74.8）的最新成果，但在更正错误和重新评估后最终结果为65.16。",
+    "tldr": "本文讨论了一个名为RECENT的关系抽取系统，作者在TACRED数据集上取得了之前的最新成果74.8的F1分数，但在更正错误和重新评估后其F1分数为65.16。",
+    "en_tdlr": "This article discusses an RECENT relation extraction system, where the authors claim to have achieved a new state-of-the-art F1 score of 75.2 on the TACRED dataset, but after correction of errors and reevaluation, the final F1 score was 65.16."
+}

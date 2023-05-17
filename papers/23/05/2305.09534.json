@@ -1,0 +1,12 @@
+{
+    "title": "MetaSRL++: A Uniform Scheme for Modelling Deeper Semantics. (arXiv:2305.09534v1 [cs.CL])",
+    "abstract": "Despite enormous progress in Natural Language Processing (NLP), our field is still lacking a common deep semantic representation scheme. As a result, the problem of meaning and understanding is typically sidestepped through more simple, approximative methods. This paper argues that in order to arrive at such a scheme, we also need a common modelling scheme. It therefore introduces MetaSRL++, a uniform, language- and modality-independent modelling scheme based on Semantic Graphs, as a step towards a common representation scheme; as well as a method for defining the concepts and entities that are used in these graphs. Our output is twofold. First, we illustrate MetaSRL++ through concrete examples. Secondly, we discuss how it relates to existing work in the field.",
+    "link": "http://arxiv.org/abs/2305.09534",
+    "context": "Title: MetaSRL++: A Uniform Scheme for Modelling Deeper Semantics. (arXiv:2305.09534v1 [cs.CL])\nAbstract: Despite enormous progress in Natural Language Processing (NLP), our field is still lacking a common deep semantic representation scheme. As a result, the problem of meaning and understanding is typically sidestepped through more simple, approximative methods. This paper argues that in order to arrive at such a scheme, we also need a common modelling scheme. It therefore introduces MetaSRL++, a uniform, language- and modality-independent modelling scheme based on Semantic Graphs, as a step towards a common representation scheme; as well as a method for defining the concepts and entities that are used in these graphs. Our output is twofold. First, we illustrate MetaSRL++ through concrete examples. Secondly, we discuss how it relates to existing work in the field.",
+    "path": "papers/23/05/2305.09534.json",
+    "total_tokens": 694,
+    "translated_title": "MetaSRL++：用于建模更深层语义的统一方案",
+    "translated_abstract": "自然语言处理领域虽然取得了巨大的进展，但仍缺乏一种共同的深层语义表示方案。因此，本文提出了基于语义图的统一、语言和形式无关的建模方案MetaSRL ++作为实现这样的方案的一种方法，同时还介绍了一种定义这些图中使用的概念和实体方法。本文的输出有两部分：首先，我们通过具体示例说明MetaSRL ++；其次，我们讨论了它与该领域现有工作的关系。",
+    "tldr": "本文介绍了MetaSRL ++，它是一种统一、语言和形式无关的建模方案，基于语义图，用于建模更深层的语义。",
+    "en_tdlr": "This paper proposes MetaSRL++, a uniform and language-independent modelling scheme based on Semantic Graphs for representing deeper semantics, and provides examples and discussion of its relation to existing work in the field."
+}

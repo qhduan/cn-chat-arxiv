@@ -1,0 +1,12 @@
+{
+    "title": "AAAI 2022 Fall Symposium: System-1 and System-2 realized within the Common Model of Cognition. (arXiv:2305.09091v1 [cs.AI])",
+    "abstract": "Attempts to import dual-system descriptions of System-1 and System-2 into AI have been hindered by a lack of clarity over their distinction. We address this and other issues by situating System-1 and System-2 within the Common Model of Cognition. Results show that what are thought to be distinctive characteristics of System-1 and 2 instead form a spectrum of cognitive properties. The Common Model provides a comprehensive vision of the computational units involved in System-1 and System-2, their underlying mechanisms, and the implications for learning, metacognition, and emotion.",
+    "link": "http://arxiv.org/abs/2305.09091",
+    "context": "Title: AAAI 2022 Fall Symposium: System-1 and System-2 realized within the Common Model of Cognition. (arXiv:2305.09091v1 [cs.AI])\nAbstract: Attempts to import dual-system descriptions of System-1 and System-2 into AI have been hindered by a lack of clarity over their distinction. We address this and other issues by situating System-1 and System-2 within the Common Model of Cognition. Results show that what are thought to be distinctive characteristics of System-1 and 2 instead form a spectrum of cognitive properties. The Common Model provides a comprehensive vision of the computational units involved in System-1 and System-2, their underlying mechanisms, and the implications for learning, metacognition, and emotion.",
+    "path": "papers/23/05/2305.09091.json",
+    "total_tokens": 752,
+    "translated_title": "AAAI 2022 秋季研讨会：基于认知通用模型实现的 System-1 和 System-2",
+    "translated_abstract": "AI 领域中对 System-1 和 System-2 二元模型的引入一直受到其区分不清的阻碍。我们通过将 System-1 和 System-2 置于认知通用模型中来解决此问题和其他问题。结果显示，被认为是 System-1 和 2 特征的不同之处实际上形成了一种认知属性的范围。通用模型提供了有关涉及 System-1 和 System-2 的计算单元、其基础机制以及对学习、元认知和情感的影响的全面视野。",
+    "tldr": "该论文提出了一个基于认知通用模型的 System-1 和 System-2 实现方法，解决了其区分不清的问题。通用模型提供了对涉及 System-1 和 System-2 的计算单元、基础机制和其对学习、元认知和情感的影响的全面视野。",
+    "en_tdlr": "This paper proposes a method for implementing System-1 and System-2 based on the Common Model of Cognition, and addresses the issue of their distinction. The Common Model provides a comprehensive vision of the computational units involved in System-1 and System-2, their underlying mechanisms, and the implications for learning, metacognition, and emotion."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Expressiveness Remarks for Denoising Diffusion Models and Samplers. (arXiv:2305.09605v1 [stat.ML])",
+    "abstract": "Denoising diffusion models are a class of generative models which have recently achieved state-of-the-art results across many domains. Gradual noise is added to the data using a diffusion process, which transforms the data distribution into a Gaussian. Samples from the generative model are then obtained by simulating an approximation of the time reversal of this diffusion initialized by Gaussian samples. Recent research has explored adapting diffusion models for sampling and inference tasks. In this paper, we leverage known connections to stochastic control akin to the F\\\"ollmer drift to extend established neural network approximation results for the F\\\"ollmer drift to denoising diffusion models and samplers.",
+    "link": "http://arxiv.org/abs/2305.09605",
+    "context": "Title: Expressiveness Remarks for Denoising Diffusion Models and Samplers. (arXiv:2305.09605v1 [stat.ML])\nAbstract: Denoising diffusion models are a class of generative models which have recently achieved state-of-the-art results across many domains. Gradual noise is added to the data using a diffusion process, which transforms the data distribution into a Gaussian. Samples from the generative model are then obtained by simulating an approximation of the time reversal of this diffusion initialized by Gaussian samples. Recent research has explored adapting diffusion models for sampling and inference tasks. In this paper, we leverage known connections to stochastic control akin to the F\\\"ollmer drift to extend established neural network approximation results for the F\\\"ollmer drift to denoising diffusion models and samplers.",
+    "path": "papers/23/05/2305.09605.json",
+    "total_tokens": 758,
+    "translated_title": "漫扩扩散模型和采样器的表达能力研究",
+    "translated_abstract": "漫扩扩散模型是一类生成模型，在许多领域最近已经取得了最先进的结果。通过漫扩过程逐渐向数据中添加噪声，将数据分布转化为高斯分布。然后，通过模拟该漫扩的时间反演的逼近来获取生成模型的样本，刚开始这个漫扩模拟的初始值是高斯样本。最近的研究探索了将漫扩模型适应于采样和推断任务。本文基于众所周知的与F\\\"ollmer漂移类似的随机控制联系，将针对F\\\"ollmer漂移的已知神经网络逼近结果扩展到漫扩扩散模型和采样器。",
+    "tldr": "本文在漫扩扩散模型和采样器方面进行了表达能力的研究，通过将已知的神经网络逼近结果扩展到漫扩扩散模型和采样器来实现。",
+    "en_tdlr": "This paper studies the expressiveness of denoising diffusion models and samplers, and extends established neural network approximation results to them by leveraging known connections to stochastic control akin to the F\\\"ollmer drift."
+}

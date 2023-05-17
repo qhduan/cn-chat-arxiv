@@ -1,0 +1,11 @@
+{
+    "title": "An Effective Treatment Approach to Difference-in-Differences with General Treatment Patterns. (arXiv:2212.13226v2 [econ.EM] UPDATED)",
+    "abstract": "We consider a general difference-in-differences model in which the treatment variable of interest may be non-binary and its value may change in each time period. It is generally difficult to estimate treatment parameters defined with the potential outcome given the entire path of treatment adoption, because each treatment path may be experienced by only a small number of observations. We propose an alternative approach using the concept of effective treatment, which summarizes the treatment path into an empirically tractable low-dimensional variable, and develop doubly robust identification, estimation, and inference methods. We also provide a companion R software package.",
+    "link": "http://arxiv.org/abs/2212.13226",
+    "context": "Title: An Effective Treatment Approach to Difference-in-Differences with General Treatment Patterns. (arXiv:2212.13226v2 [econ.EM] UPDATED)\nAbstract: We consider a general difference-in-differences model in which the treatment variable of interest may be non-binary and its value may change in each time period. It is generally difficult to estimate treatment parameters defined with the potential outcome given the entire path of treatment adoption, because each treatment path may be experienced by only a small number of observations. We propose an alternative approach using the concept of effective treatment, which summarizes the treatment path into an empirically tractable low-dimensional variable, and develop doubly robust identification, estimation, and inference methods. We also provide a companion R software package.",
+    "path": "papers/22/12/2212.13226.json",
+    "total_tokens": 670,
+    "translated_title": "一种适用于一般处理模式的差分差分法有效处理方法",
+    "translated_abstract": "我们考虑一般的差分差分模型，其中感兴趣的处理变量可能是非二元的，并且其值可能会在每个时间段发生变化。通常很难估计用给定整个处理路径的潜在结果定义的处理参数，因为每个处理路径可能仅由少量观测所经历。我们提出了一种替代方法，使用有效处理的概念，将处理路径总结为一个经验可追踪的低维变量，并开发了双重鲁棒识别、估计和推断方法。我们还提供了一个伴随的R软件包。",
+    "tldr": "本文提出了一种使用有效处理概念的双重鲁棒识别、估计和推断方法，适用于一般的差分差分模型。"
+}

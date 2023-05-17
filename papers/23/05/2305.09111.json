@@ -1,0 +1,12 @@
+{
+    "title": "On Optimal Strategies for Wordle and General Guessing Games. (arXiv:2305.09111v1 [cs.AI])",
+    "abstract": "The recent popularity of Wordle has revived interest in guessing games. We develop a general method for finding optimal strategies for guessing games while avoiding an exhaustive search. Our main contributions are several theorems that build towards a general theory to prove the optimality of a strategy for a guessing game. This work is developed to apply to any guessing game, but we use Wordle as an example to present concrete results.",
+    "link": "http://arxiv.org/abs/2305.09111",
+    "context": "Title: On Optimal Strategies for Wordle and General Guessing Games. (arXiv:2305.09111v1 [cs.AI])\nAbstract: The recent popularity of Wordle has revived interest in guessing games. We develop a general method for finding optimal strategies for guessing games while avoiding an exhaustive search. Our main contributions are several theorems that build towards a general theory to prove the optimality of a strategy for a guessing game. This work is developed to apply to any guessing game, but we use Wordle as an example to present concrete results.",
+    "path": "papers/23/05/2305.09111.json",
+    "total_tokens": 621,
+    "translated_title": "关于Wordle和一般猜词游戏中的最优策略",
+    "translated_abstract": "最近Wordle游戏的火爆引发了人们对猜词游戏的兴趣。我们提出了一种寻找猜词游戏最优策略的通用方法，避免了枚举搜索。我们的主要贡献是几个定理，构建一个证明猜词游戏策略最优性的通用理论。这项工作可以应用于任意猜词游戏，我们以Wordle游戏作为例子展示具体结果。",
+    "tldr": "该论文提出了一种通用的方法来寻找猜词游戏的最优策略，并且证明了该方法的有效性（快速找到最优解），以Wordle猜词游戏为例具体说明。",
+    "en_tdlr": "This paper proposes a general method for finding optimal strategies for guessing games, and proves the effectiveness of this method in quickly finding optimal solutions, using Wordle as an example."
+}

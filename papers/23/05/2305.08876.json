@@ -1,0 +1,12 @@
+{
+    "title": "Neurosymbolic AI and its Taxonomy: a survey. (arXiv:2305.08876v1 [cs.NE])",
+    "abstract": "Neurosymbolic AI deals with models that combine symbolic processing, like classic AI, and neural networks, as it's a very established area. These models are emerging as an effort toward Artificial General Intelligence (AGI) by both exploring an alternative to just increasing datasets' and models' sizes and combining Learning over the data distribution, Reasoning on prior and learned knowledge, and by symbiotically using them. This survey investigates research papers in this area during recent years and brings classification and comparison between the presented models as well as applications.",
+    "link": "http://arxiv.org/abs/2305.08876",
+    "context": "Title: Neurosymbolic AI and its Taxonomy: a survey. (arXiv:2305.08876v1 [cs.NE])\nAbstract: Neurosymbolic AI deals with models that combine symbolic processing, like classic AI, and neural networks, as it's a very established area. These models are emerging as an effort toward Artificial General Intelligence (AGI) by both exploring an alternative to just increasing datasets' and models' sizes and combining Learning over the data distribution, Reasoning on prior and learned knowledge, and by symbiotically using them. This survey investigates research papers in this area during recent years and brings classification and comparison between the presented models as well as applications.",
+    "path": "papers/23/05/2305.08876.json",
+    "total_tokens": 694,
+    "translated_title": "神经符号人工智能及其分类法：一项调查研究",
+    "translated_abstract": "神经符号人工智能涉及组合符号处理（如经典人工智能）和神经网络的模型，是一个非常成熟的领域。这些模型作为实现人工智能通用性的一种尝试，在探索除了增加数据集和模型尺寸以外的替代方案以及将学习数据分布和推理先前和学习知识相结合方面具有独特作用。本次调查研究了这一领域近年来的研究论文，并提供了这些模型的分类和比较，同时介绍了应用案例。",
+    "tldr": "本文调查研究了神经符号人工智能的研究，探索了学习数据分布和推理先前和学习知识相结合的方法，以探索实现人工智能通用性的替代方案。",
+    "en_tdlr": "This survey investigates Neurosymbolic AI research, exploring the combination of learning over the data distribution and reasoning on prior and learned knowledge, as an alternative approach towards achieving Artificial General Intelligence."
+}

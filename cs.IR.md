@@ -2,232 +2,187 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Manipulating Visually-aware Federated Recommender Systems and Its Countermeasures.](http://arxiv.org/abs/2305.08183) | 本文研究了可视化信息对联邦推荐系统的影响，发现当加入视觉信息时，现有的恶意推广攻击将变得无效。 |
-| [^2] | [Leveraging Large Language Models in Conversational Recommender Systems.](http://arxiv.org/abs/2305.07961) | 本文提出了一种使用大型语言模型构建端到端大规模对话推荐系统的路线图，解决在该系统中有效利用大型语言模型所面临的技术挑战。 |
-| [^3] | [Reviewer assignment problem: A scoping review.](http://arxiv.org/abs/2305.07887) | 审稿人分配问题是一个30年的研究课题，自动将论文与最匹配的审稿人关联已成为缓解挑战的解决方案之一，本文进行了综述研究，提供了有关该领域的概述和发现。 |
-| [^4] | [Scalable Educational Question Generation with Pre-trained Language Models.](http://arxiv.org/abs/2305.07871) | 这项研究开发了一种新的教育问题生成模型，能够通过在科学文本和科学问题数据上进行预训练和微调预训练语言模型，实现优秀的教育问题自动生成。 |
-| [^5] | [Graph-guided Personalization for Federated Recommendation.](http://arxiv.org/abs/2305.07866) | 本文提出了一种基于图引导的Federated Recommendation个性化框架（GPFedRec），通过自适应图结构来增强客户端之间的协作，可以同时使用共享和个性化的信息，提高推荐准确性，保护用户隐私。 |
-| [^6] | [aedFaCT: Scientific Fact-Checking Made Easier via Semi-Automatic Discovery of Relevant Expert Opinions.](http://arxiv.org/abs/2305.07796) | aedFaCT是一个Web浏览器扩展，可以通过自动发现关键词的相关专家意见来帮助专业人士和新闻读者执行事实核查。 |
-| [^7] | [Value of Exploration: Measurements, Findings and Algorithms.](http://arxiv.org/abs/2305.07764) | 本研究通过量化探索对内容语料库的影响，证明了探索对用户体验的长期好处，并尝试使用神经线性匀速臂算法构建基于探索的排名系统。 |
-| [^8] | [Using Language Models to Detect Alarming Student Responses.](http://arxiv.org/abs/2305.07709) | 本文介绍了一种利用自然语言处理技术识别危险学生回复的系统，该系统采用经过微调的语言模型进行训练，能够显著提高准确性。 |
-| [^9] | [How to Index Item IDs for Recommendation Foundation Models.](http://arxiv.org/abs/2305.06569) | 本研究对推荐基础模型的项目索引问题进行了系统检查，提出了一种新的上下文感知索引方法，该方法在项目推荐准确性和文本生成质量方面具有优势。 |
-| [^10] | [PromptRank: Unsupervised Keyphrase Extraction Using Prompt.](http://arxiv.org/abs/2305.04490) | 本文提出了一种基于预训练语言模型的简单有效无监督关键词提取方法PromptRank，相对于最先进的MDERank方法在三个基准测试上分别提高了34.18％，24.87％和17.57％的F1分数。 |
-| [^11] | [Fairness-aware Cross-Domain Recommendation.](http://arxiv.org/abs/2302.00158) | 本文提出了一种公平感知跨领域推荐模型FairCDR，通过学习公平感知的映射函数实现面向用户群体的公平性，并利用丰富的非重叠用户和交互来缓解数据重叠和分布偏差问题。同时，采用基于影响函数的重新加权方法来减少不公平性，保持推荐准确性。 |
-| [^12] | [Dual Personalization on Federated Recommendation.](http://arxiv.org/abs/2301.08143) | 本研究提出了一种新的个性化联邦推荐框架，可以学习轻量级模型并在智能设备上部署，同时实现对用户和物品的精细个性化。 |
-| [^13] | [Defending Against Misinformation Attacks in Open-Domain Question Answering.](http://arxiv.org/abs/2212.10002) | 本文提出了一种使用查询扩充来搜索冗余信息、并通过新颖的置信度方法将其集成到模型中的方法，可以有效防御开放域问答系统中的污染攻击，精确匹配率可提高近20%。 |
-| [^14] | [Pivotal Role of Language Modeling in Recommender Systems: Enriching Task-specific and Task-agnostic Representation Learning.](http://arxiv.org/abs/2212.03760) | 本文研究发现，用户历史语言建模可以在不同推荐任务中取得优异结果，并且利用任务无关的用户历史还可以提供显著的性能优势。该方法具有广泛的现实世界迁移学习能力。 |
-| [^15] | [Automated Audio Captioning and Language-Based Audio Retrieval.](http://arxiv.org/abs/2207.04156) | 该论文描述了在DCASE 2022比赛中参加了自动音频字幕和基于语言的音频检索两个子任务，并使用Clotho数据集进行了评估。对于这两个子任务，我们修改了基线模型，得到了良好的性能提升。 |
+| [^1] | [Large Language Models are Built-in Autoregressive Search Engines.](http://arxiv.org/abs/2305.09612) | 本篇论文指出大型语言模型可以作为内置搜索引擎，通过提供一些上下文演示直接生成Web URLs，在文档检索中表现出色。 |
+| [^2] | [Robust and lightweight audio fingerprint for Automatic Content Recognition.](http://arxiv.org/abs/2305.09559) | 本文提出了一种鲁棒且轻量级的音频指纹识别系统，可用于自动内容识别，具有高度可扩展性和低功耗，并在专有ACR数据集精度、检索速度、内存使用和鲁棒性等所有评估指标上均显著优于基于最小哈希的音频指纹。 |
+| [^3] | [Life of PII -- A PII Obfuscation Transformer.](http://arxiv.org/abs/2305.09550) | “Life of PII”是一种新颖的混淆变换器框架，用于将PII转化为人造PII同时尽可能地保留原始信息、意图和上下文，使我们能够有选择地混淆文档中的敏感信息，同时保留文档的统计和语义特性。 |
+| [^4] | [Consumer-side Fairness in Recommender Systems: A Systematic Survey of Methods and Evaluation.](http://arxiv.org/abs/2305.09330) | 推荐系统的公平性问题越来越引起人们的关注，尤其是用户公平性，已经提出了很多解决方案来减轻用户在使用推荐系统过程中体验到的歧视问题。 |
+| [^5] | [Fairness and Diversity in Information Access Systems.](http://arxiv.org/abs/2305.09319) | 本论文探讨了信息访问系统中多样性和公平性的关系。多样性和公平性是两个独立但密切相关的概念，推动多样性可以有效地实现公平。 |
+| [^6] | [Hybrid and Collaborative Passage Reranking.](http://arxiv.org/abs/2305.09313) | 该论文提出了一种名为HybRank的混合与协作的段落再排序方法，通过利用上游检索器的相似性度量实现段落协作，再利用稀疏和密集检索器的词汇和语义属性进行重新排序，该方法可以增强包括先前被重新排序的段落列表在内的任意段落列表，并在实验证明了性能稳定的提升。 |
+| [^7] | [HyHTM: Hyperbolic Geometry based Hierarchical Topic Models.](http://arxiv.org/abs/2305.09258) | HyHTM是一种基于双曲几何的层次主题模型，通过将双曲几何中的层次信息纳入主题模型中，显式地建模主题层次结构。相较于传统方法，HyHTM更好地关注主题之间的父子关系，并产生了连贯的主题层次结构。同时，HyHTM的计算速度更快，内存占用更小。 |
+| [^8] | [Text2Cohort: Democratizing the NCI Imaging Data Commons with Natural Language Cohort Discovery.](http://arxiv.org/abs/2305.07637) | Text2Cohort是一个基于大语言模型的工具箱，可以将用户输入转化为IDC数据库查询，促进自然语言队列发现，减少研究人员查询IDC数据库的学习曲线，实现了癌症成像数据的民主化。 |
+| [^9] | [Ensemble Modeling with Contrastive Knowledge Distillation for Sequential Recommendation.](http://arxiv.org/abs/2304.14668) | 本研究提出了一种基于对比知识蒸馏的集成建模方法EMKD，它采用多个并行网络作为序列编码器，在序列推荐中根据所有网络的输出分布推荐物品。实验证明，EMKD在两个真实世界数据集上的表现显著优于最先进的方法。 |
+| [^10] | [Meta-optimized Contrastive Learning for Sequential Recommendation.](http://arxiv.org/abs/2304.07763) | 本文提出了 MCLRec 模型，该模型在数据增强和可学习模型增强操作的基础上，解决了现有对比学习方法难以推广和训练数据不足的问题。 |
+| [^11] | [BERT4Loc: BERT for Location -- POI Recommender System.](http://arxiv.org/abs/2208.01375) | BERT4Loc是一种基于BERT的位置推荐系统，将地理位置信息和用户偏好相结合，提供个性化的基于位置的建议，相较于预测序列中下一个POI的模型，提供更相关的推荐，在基准数据集上实现了较好的性能。 |
+| [^12] | [UNIQORN: Unified Question Answering over RDF Knowledge Graphs and Natural Language Text.](http://arxiv.org/abs/2108.08614) | 本文提出了一个名为UNIQORN的问答系统，它能够无缝地处理RDF数据和文本，使用fine-tuned BERT模型为问题构建上下文图，并使用图算法确定与问题相关的子图来回答问题。 |
 
 # 详细
 
-[^1]: 可视化信息对联邦推荐系统的影响及其对策
+[^1]: 大型语言模型是内置的自回归搜索引擎
 
-    Manipulating Visually-aware Federated Recommender Systems and Its Countermeasures. (arXiv:2305.08183v1 [cs.IR])
+    Large Language Models are Built-in Autoregressive Search Engines. (arXiv:2305.09612v1 [cs.CL])
 
-    [http://arxiv.org/abs/2305.08183](http://arxiv.org/abs/2305.08183)
+    [http://arxiv.org/abs/2305.09612](http://arxiv.org/abs/2305.09612)
 
-    本文研究了可视化信息对联邦推荐系统的影响，发现当加入视觉信息时，现有的恶意推广攻击将变得无效。
-
-    
-
-    近年来，联邦推荐系统（FedRec）因其保护用户数据隐私的能力而受到广泛关注。在FedRec中，中央服务器通过与客户端共享模型公共参数来协同学习推荐模型，从而提供一种保护隐私的解决方案。然而，模型参数的公开性为攻击者操纵FedRec留下了后门。现有的与FedRec安全相关的研究已经表明，通过模型污染攻击，恶意用户可以轻易地推广项目，但是它们主要集中于只具有协作信息（即用户-项目交互）的FedRec。我们认为这些攻击之所以有效，是因为协作信号的数据稀疏性。在实践中，辅助信息（如产品的视觉描述）用于缓解协作过滤数据的稀疏性。因此，当在FedRec中加入视觉信息时，所有现有的模型污染攻击的有效性都将降低。
-
-    Federated recommender systems (FedRecs) have been widely explored recently due to their ability to protect user data privacy. In FedRecs, a central server collaboratively learns recommendation models by sharing model public parameters with clients, thereby offering a privacy-preserving solution. Unfortunately, the exposure of model parameters leaves a backdoor for adversaries to manipulate FedRecs. Existing works about FedRec security already reveal that items can easily be promoted by malicious users via model poisoning attacks, but all of them mainly focus on FedRecs with only collaborative information (i.e., user-item interactions). We argue that these attacks are effective because of the data sparsity of collaborative signals. In practice, auxiliary information, such as products' visual descriptions, is used to alleviate collaborative filtering data's sparsity. Therefore, when incorporating visual information in FedRecs, all existing model poisoning attacks' effectiveness becomes q
-    
-[^2]: 在对话推荐系统中利用大型语言模型
-
-    Leveraging Large Language Models in Conversational Recommender Systems. (arXiv:2305.07961v1 [cs.IR])
-
-    [http://arxiv.org/abs/2305.07961](http://arxiv.org/abs/2305.07961)
-
-    本文提出了一种使用大型语言模型构建端到端大规模对话推荐系统的路线图，解决在该系统中有效利用大型语言模型所面临的技术挑战。
+    本篇论文指出大型语言模型可以作为内置搜索引擎，通过提供一些上下文演示直接生成Web URLs，在文档检索中表现出色。
 
     
 
-    对话推荐系统通过启用实时的多轮对话使用户更加透明和掌控。最近，大型语言模型展现了与人类对话自然的能力，并将世界知识和常识推理融入到语言理解中，进一步释放了这一范式的潜力。然而，在对话推荐系统中有效利用大型语言模型引入了新的技术挑战，包括适当地理解和控制复杂的对话和从外部信息源检索。由于大而不断增长的项目语料库和缺乏对话数据进行训练，这些问题加剧了。在本文中，我们提供了使用大型语言模型构建端到端大规模对话推荐系统的路线图。特别地，我们提出了用户偏好理解、灵活的对话管理和可解释的推荐作为整个系统的一部分的新实现方式。
+    文档检索是标准网络搜索引擎的关键阶段。现有的双编码器密集检索器独立地获取问题和文档的表示，只允许它们之间的浅层交互。为了克服这个限制，最近的自回归搜索引擎通过直接生成候选池中相关文档的标识符来替换双编码器架构。然而，这种自回归搜索引擎的训练成本随着候选文档数量的增加而急剧上升。在本文中，我们发现大型语言模型（LLM）可以遵循人类指示直接生成文档检索的URL。令人惊讶的是，当提供一些{Query-URL}对作为上下文演示时，LLMs可以生成Web URL，其中近90％的相应文档包含开放域问题的正确答案。这样，LLMs可以被认为是内置搜索引擎，因为它们没有明确训练以映射问题和文档之间的相关性。
 
-    A Conversational Recommender System (CRS) offers increased transparency and control to users by enabling them to engage with the system through a real-time multi-turn dialogue. Recently, Large Language Models (LLMs) have exhibited an unprecedented ability to converse naturally and incorporate world knowledge and common-sense reasoning into language understanding, unlocking the potential of this paradigm. However, effectively leveraging LLMs within a CRS introduces new technical challenges, including properly understanding and controlling a complex conversation and retrieving from external sources of information. These issues are exacerbated by a large, evolving item corpus and a lack of conversational data for training. In this paper, we provide a roadmap for building an end-to-end large-scale CRS using LLMs. In particular, we propose new implementations for user preference understanding, flexible dialogue management and explainable recommendations as part of an integrated architecture
+    Document retrieval is a key stage of standard Web search engines. Existing dual-encoder dense retrievers obtain representations for questions and documents independently, allowing for only shallow interactions between them. To overcome this limitation, recent autoregressive search engines replace the dual-encoder architecture by directly generating identifiers for relevant documents in the candidate pool. However, the training cost of such autoregressive search engines rises sharply as the number of candidate documents increases. In this paper, we find that large language models (LLMs) can follow human instructions to directly generate URLs for document retrieval.  Surprisingly, when providing a few {Query-URL} pairs as in-context demonstrations, LLMs can generate Web URLs where nearly 90\% of the corresponding documents contain correct answers to open-domain questions. In this way, LLMs can be thought of as built-in search engines, since they have not been explicitly trained to map qu
     
-[^3]: 审稿人分配问题：综述研究
+[^2]: 自动内容识别中的鲁棒且轻量级音频指纹识别系统
 
-    Reviewer assignment problem: A scoping review. (arXiv:2305.07887v1 [cs.IR])
+    Robust and lightweight audio fingerprint for Automatic Content Recognition. (arXiv:2305.09559v1 [cs.SD])
 
-    [http://arxiv.org/abs/2305.07887](http://arxiv.org/abs/2305.07887)
+    [http://arxiv.org/abs/2305.09559](http://arxiv.org/abs/2305.09559)
 
-    审稿人分配问题是一个30年的研究课题，自动将论文与最匹配的审稿人关联已成为缓解挑战的解决方案之一，本文进行了综述研究，提供了有关该领域的概述和发现。
-
-    
-
-    同行评审是科学研究的重要组成部分。同行评审的质量，以及发表的研究质量，很大程度上取决于能否招募到适当的审稿人来评审提交的论文。然而，由于科学论文的持续增加以及学者的工作负担不断增加等多种因素，找到这样的审稿人变得越来越困难。为了缓解这些挑战，解决自动将论文与“最匹配”的审稿人关联的问题（通常称为审稿人分配问题RAP）的解决方案已经成为研究的主题三十年了。尽管已经提出了许多解决方案，但据我们所知，缺少最近的RAP相关文献的系统综合。为了填补这一空白并支持进一步的RAP相关研究，在本文中，我们介绍了解决RAP的计算方法的综述研究。根据最新的综述方法论指南，我们检查了相关领域的文献，并提供了有关RAP领域发现的概述。
-
-    Peer review is an integral component of scientific research. The quality of peer review, and consequently the published research, depends to a large extent on the ability to recruit adequate reviewers for submitted papers. However, finding such reviewers is an increasingly difficult task due to several factors, such as the continuous increase both in the production of scientific papers and the workload of scholars. To mitigate these challenges, solutions for automated association of papers with "well matching" reviewers - the task often referred to as reviewer assignment problem (RAP) - have been the subject of research for thirty years now. Even though numerous solutions have been suggested, to our knowledge, a recent systematic synthesis of the RAP-related literature is missing. To fill this gap and support further RAP-related research, in this paper, we present a scoping review of computational approaches for addressing RAP. Following the latest methodological guidance for scoping r
-    
-[^4]: 基于预训练语言模型的可扩展教学题生成
-
-    Scalable Educational Question Generation with Pre-trained Language Models. (arXiv:2305.07871v1 [cs.AI])
-
-    [http://arxiv.org/abs/2305.07871](http://arxiv.org/abs/2305.07871)
-
-    这项研究开发了一种新的教育问题生成模型，能够通过在科学文本和科学问题数据上进行预训练和微调预训练语言模型，实现优秀的教育问题自动生成。
+    本文提出了一种鲁棒且轻量级的音频指纹识别系统，可用于自动内容识别，具有高度可扩展性和低功耗，并在专有ACR数据集精度、检索速度、内存使用和鲁棒性等所有评估指标上均显著优于基于最小哈希的音频指纹。
 
     
 
-    在全球人口在探索个性化学习之旅时，教育问题的自动生成将在在线教育的扩展中发挥关键作用，实现大规模的自我评估。我们开发了一种新的教育问题生成模型EduQG，通过调整大型语言模型进行构建。我们广泛的实验表明，EduQG能够通过在科学文本和科学问题数据上进一步进行预训练和微调预训练语言模型，生成出更优秀的教育问题。
+    本研究提出了一种新的音频指纹识别系统，用于自动内容识别（ACR）。通过使用信号处理技术和统计变换，我们的方法生成音频片段的紧凑指纹，这些指纹对现实世界中存在的噪声降级具有鲁棒性。该系统具有高度可扩展性，能够使用来自数百万台电视的指纹识别数千小时的内容。指纹的高时间相关性和利用现有的GPU兼容的近似最近邻（ANN）搜索算法使这一点成为可能。此外，指纹生成可以在计算受限的低功耗设备上运行，使其可以被广泛应用。
 
-    The automatic generation of educational questions will play a key role in scaling online education, enabling self-assessment at scale when a global population is manoeuvring their personalised learning journeys. We develop \textit{EduQG}, a novel educational question generation model built by adapting a large language model. Our extensive experiments demonstrate that \textit{EduQG} can produce superior educational questions by further pre-training and fine-tuning a pre-trained language model on the scientific text and science question data.
+    This research paper presents a novel audio fingerprinting system for Automatic Content Recognition (ACR). By using signal processing techniques and statistical transformations, our proposed method generates compact fingerprints of audio segments that are robust to noise degradations present in real-world audio. The system is designed to be highly scalable, with the ability to identify thousands of hours of content using fingerprints generated from millions of TVs. The fingerprint's high temporal correlation and utilization of existing GPU-compatible Approximate Nearest Neighbour (ANN) search algorithms make this possible. Furthermore, the fingerprint generation can run on low-power devices with limited compute, making it accessible to a wide range of applications. Experimental results show improvements in our proposed system compared to a min-hash based audio fingerprint on all evaluated metrics, including accuracy on proprietary ACR datasets, retrieval speed, memory usage, and robustn
     
-[^5]: 基于图引导的Federated Recommendation个性化方法
+[^3]: PII的生命--一种PII混淆变换器
 
-    Graph-guided Personalization for Federated Recommendation. (arXiv:2305.07866v1 [cs.IR])
+    Life of PII -- A PII Obfuscation Transformer. (arXiv:2305.09550v1 [cs.CL])
 
-    [http://arxiv.org/abs/2305.07866](http://arxiv.org/abs/2305.07866)
+    [http://arxiv.org/abs/2305.09550](http://arxiv.org/abs/2305.09550)
 
-    本文提出了一种基于图引导的Federated Recommendation个性化框架（GPFedRec），通过自适应图结构来增强客户端之间的协作，可以同时使用共享和个性化的信息，提高推荐准确性，保护用户隐私。
-
-    
-
-    Federated Recommendation是一种新的服务架构，可以在不与服务器共享用户数据的情况下提供推荐。现有方法在每个客户端上部署推荐模型，并通过同步和聚合项目嵌入来协调它们的训练。然而，由于用户通常对某些项目具有多样化的偏好，这些方法会无差别地聚合来自所有客户端的项目嵌入，从而中和了底层用户特定的偏好。这种忽视将使得聚合嵌入变得不太具有区分性，并阻碍个性化推荐。本文提出了一种新颖的基于图引导的Federated Recommendation个性化框架（GPFedRec）。GPFedRec通过利用自适应图结构来捕捉用户偏好的相关性，增强了客户端之间的协作。此外，它将客户端的训练过程制定为统一的联邦优化框架，其中模型可以同时使用共享和个性化的信息。在真实世界的数据集上进行的大量实验表明，GPFedRec在保护用户隐私的同时，在推荐准确性方面显著优于现有的方法。
-
-    Federated Recommendation is a new service architecture providing recommendations without sharing user data with the server. Existing methods deploy a recommendation model on each client and coordinate their training by synchronizing and aggregating item embeddings. However, while users usually hold diverse preferences toward certain items, these methods indiscriminately aggregate item embeddings from all clients, neutralizing underlying user-specific preferences. Such neglect will leave the aggregated embedding less discriminative and hinder personalized recommendations. This paper proposes a novel Graph-guided Personalization framework (GPFedRec) for the federated recommendation. The GPFedRec enhances cross-client collaboration by leveraging an adaptive graph structure to capture the correlation of user preferences. Besides, it guides training processes on clients by formulating them into a unified federated optimization framework, where models can simultaneously use shared and person
-    
-[^6]: aedFaCT: 通过半自动化发现相关专家意见，使科学事实核查更加容易
-
-    aedFaCT: Scientific Fact-Checking Made Easier via Semi-Automatic Discovery of Relevant Expert Opinions. (arXiv:2305.07796v1 [cs.IR])
-
-    [http://arxiv.org/abs/2305.07796](http://arxiv.org/abs/2305.07796)
-
-    aedFaCT是一个Web浏览器扩展，可以通过自动发现关键词的相关专家意见来帮助专业人士和新闻读者执行事实核查。
+    “Life of PII”是一种新颖的混淆变换器框架，用于将PII转化为人造PII同时尽可能地保留原始信息、意图和上下文，使我们能够有选择地混淆文档中的敏感信息，同时保留文档的统计和语义特性。
 
     
 
-    在这个高度数字化的世界中，假新闻是一个棘手的问题，可能会给社会造成严重的伤害。考虑到假新闻传播的速度，为用户提供辅助工具和服务以进行事实核查（即假新闻检测）变得必要和有益，无论是专业人士，如记者和研究人员，还是普通的新闻读者。专家，特别是研究人员，在告知人们真实和事实方面发挥着至关重要的作用，这使他们成为非专家检测假新闻的良好代理人，通过检查相关的专家意见和评论。因此，在本文中，我们提出aedFaCT，它是一个Web浏览器扩展，可以通过共享关键词自动发现与所关注的新闻相关的专家意见，帮助专业人士和新闻读者执行事实核查。我们的初步评估与三个独立的测试人员（他们没有参与扩展的开发）一起进行，表明aedFaCT可以提供一个事实核查辅助工具，帮助用户快速轻松地找到相关的专家意见。
+    在当今大型语言模型和数据驱动服务的世界中，保护敏感信息至关重要。一种常见的方法是使用数据扰动技术来减少(敏感)个人身份识别信息(PII)数据的过度实用性，同时保持其统计和语义特性。数据扰动方法经常导致显着的信息损失，使它们难以使用。在本文中，我们提出了“PII的生命”--一种新颖的混淆变换器框架，用于将PII转化为人造PII同时尽可能地保留原始信息、意图和上下文。我们的方法包括一个API来与给定的文档进行接口，一个基于配置的混淆器和一个基于Transformer架构的模型，在自然语言处理任务和LLMs中表现出高的上下文保存性能。我们的基于Transformer的方法学习了原始PII和其转换后的人造PII对应的映射，使我们能够有选择地混淆文档中的敏感信息，同时保留文档的统计和语义特性。
 
-    In this highly digitised world, fake news is a challenging problem that can cause serious harm to society. Considering how fast fake news can spread, automated methods, tools and services for assisting users to do fact-checking (i.e., fake news detection) become necessary and helpful, for both professionals, such as journalists and researchers, and the general public such as news readers. Experts, especially researchers, play an essential role in informing people about truth and facts, which makes them a good proxy for non-experts to detect fake news by checking relevant expert opinions and comments. Therefore, in this paper, we present aedFaCT, a web browser extension that can help professionals and news readers perform fact-checking via the automatic discovery of expert opinions relevant to the news of concern via shared keywords. Our initial evaluation with three independent testers (who did not participate in the development of the extension) indicated that aedFaCT can provide a fa
+    Protecting sensitive information is crucial in today's world of Large Language Models (LLMs) and data-driven services. One common method used to preserve privacy is by using data perturbation techniques to reduce overreaching utility of (sensitive) Personal Identifiable Information (PII) data while maintaining its statistical and semantic properties. Data perturbation methods often result in significant information loss, making them impractical for use. In this paper, we propose 'Life of PII', a novel Obfuscation Transformer framework for transforming PII into faux-PII while preserving the original information, intent, and context as much as possible. Our approach includes an API to interface with the given document, a configuration-based obfuscator, and a model based on the Transformer architecture, which has shown high context preservation and performance in natural language processing tasks and LLMs.  Our Transformer-based approach learns mapping between the original PII and its tra
     
-[^7]: 探索的价值：度量、发现和算法
+[^4]: 推荐系统中的用户公平性: 方法和评估的系统调查
 
-    Value of Exploration: Measurements, Findings and Algorithms. (arXiv:2305.07764v1 [cs.IR])
+    Consumer-side Fairness in Recommender Systems: A Systematic Survey of Methods and Evaluation. (arXiv:2305.09330v1 [cs.IR])
 
-    [http://arxiv.org/abs/2305.07764](http://arxiv.org/abs/2305.07764)
+    [http://arxiv.org/abs/2305.09330](http://arxiv.org/abs/2305.09330)
 
-    本研究通过量化探索对内容语料库的影响，证明了探索对用户体验的长期好处，并尝试使用神经线性匀速臂算法构建基于探索的排名系统。
-
-    
-
-    有效的探索被认为对推荐平台上用户体验的长期影响有积极作用。然而，确定其确切的好处一直是具有挑战性的。探索的常规A/B测试通常测量中性甚至消极的参与度指标，同时未能捕捉其长期效益。为了解决这个问题，我们提出了一项系统性的研究，通过检查探索对内容语料库的影响来正式量化探索的价值，这是推荐系统中直接影响用户体验的关键实体。具体而言，我们引入了新的度量标准和相关实验设计来测量探索对语料库变化的益处，并进一步将语料库变化与长期用户体验联系起来。此外，我们研究了引入神经线性匀速臂算法构建基于探索的排名系统的可能性，并将其用作我们的案例研究的骨干算法。我们在大规模真实场景下进行了广泛的实时实验。
-
-    Effective exploration is believed to positively influence the long-term user experience on recommendation platforms. Determining its exact benefits, however, has been challenging. Regular A/B tests on exploration often measure neutral or even negative engagement metrics while failing to capture its long-term benefits. To address this, we present a systematic study to formally quantify the value of exploration by examining its effects on the content corpus, a key entity in the recommender system that directly affects user experiences. Specifically, we introduce new metrics and the associated experiment design to measure the benefit of exploration on the corpus change, and further connect the corpus change to the long-term user experience. Furthermore, we investigate the possibility of introducing the Neural Linear Bandit algorithm to build an exploration-based ranking system, and use it as the backbone algorithm for our case study. We conduct extensive live experiments on a large-scale 
-    
-[^8]: 使用语言模型检测危险的学生回复
-
-    Using Language Models to Detect Alarming Student Responses. (arXiv:2305.07709v1 [cs.CL])
-
-    [http://arxiv.org/abs/2305.07709](http://arxiv.org/abs/2305.07709)
-
-    本文介绍了一种利用自然语言处理技术识别危险学生回复的系统，该系统采用经过微调的语言模型进行训练，能够显著提高准确性。
+    推荐系统的公平性问题越来越引起人们的关注，尤其是用户公平性，已经提出了很多解决方案来减轻用户在使用推荐系统过程中体验到的歧视问题。
 
     
 
-    本文详细介绍了一种利用人工智能识别危险学生回复的系统的进展。该系统集成在我们的评估平台中，用于评估学生的回复是否表明他们对自己或他人构成威胁。这些回复可能包括关于暴力威胁、严重抑郁、自杀风险和虐待描述的细节。最新模型是一个经过微调的语言模型，它是在由学生回复和补充文本构成的大型语料库上训练而成。我们证明，使用语言模型比此前版本的系统能够大幅提高准确性。
+    在数字化水平不断提高的当前社会中，面临着可扩展性方面的巨大挑战。推荐系统已经成为帮助用户导航日益增长的数据量，以及帮助供应商向感兴趣的用户营销产品的必不可少的工具。机器学习方法中的歧视问题日益突出，这促使学术界和工业界研究如何确保推荐系统的公平性。在推荐系统中，这些问题在职业推荐中得到了很好的体现，历史数据中的偏见可能导致推荐系统将一个性别与较低的工资或刻板印象联系起来。特别地，用户公平性关注如何减轻用户在使用推荐系统过程中体验到的歧视问题，该领域已经出现了很多不同的方法来解决不同类型的歧视。所述歧视的性质取决于所处的情境。
 
-    This article details the advances made to a system that uses artificial intelligence to identify alarming student responses. This system is built into our assessment platform to assess whether a student's response indicates they are a threat to themselves or others. Such responses may include details concerning threats of violence, severe depression, suicide risks, and descriptions of abuse. Driven by advances in natural language processing, the latest model is a fine-tuned language model trained on a large corpus consisting of student responses and supplementary texts. We demonstrate that the use of a language model delivers a substantial improvement in accuracy over the previous iterations of this system.
+    In the current landscape of ever-increasing levels of digitalization, we are facing major challenges pertaining to scalability. Recommender systems have become irreplaceable both for helping users navigate the increasing amounts of data and, conversely, aiding providers in marketing products to interested users. The growing awareness of discrimination in machine learning methods has recently motivated both academia and industry to research how fairness can be ensured in recommender systems. For recommender systems, such issues are well exemplified by occupation recommendation, where biases in historical data may lead to recommender systems relating one gender to lower wages or to the propagation of stereotypes. In particular, consumer-side fairness, which focuses on mitigating discrimination experienced by users of recommender systems, has seen a vast number of diverse approaches for addressing different types of discrimination. The nature of said discrimination depends on the setting 
     
-[^9]: 如何为推荐基础模型索引项目ID
+[^5]: 信息访问系统中的公平性和多样性
 
-    How to Index Item IDs for Recommendation Foundation Models. (arXiv:2305.06569v1 [cs.IR])
+    Fairness and Diversity in Information Access Systems. (arXiv:2305.09319v1 [cs.IR])
 
-    [http://arxiv.org/abs/2305.06569](http://arxiv.org/abs/2305.06569)
+    [http://arxiv.org/abs/2305.09319](http://arxiv.org/abs/2305.09319)
 
-    本研究对推荐基础模型的项目索引问题进行了系统检查，提出了一种新的上下文感知索引方法，该方法在项目推荐准确性和文本生成质量方面具有优势。
-
-    
-
-    推荐基础模型将推荐任务转换为自然语言任务，利用大型语言模型（LLM）进行推荐。它通过直接生成建议的项目而不是计算传统推荐模型中每个候选项目的排名得分，简化了推荐管道，避免了多段过滤的问题。为了避免在决定要推荐哪些项目时生成过长的文本，为推荐基础模型创建LLM兼容的项目ID是必要的。本研究系统地研究了推荐基础模型的项目索引问题，以P5为代表的主干模型，并使用各种索引方法复制其结果。我们首先讨论了几种微不足道的项目索引方法（如独立索引、标题索引和随机索引）的问题，并表明它们不适用于推荐基础模型，然后提出了一种新的索引方法，称为上下文感知索引。我们表明，这种索引方法在项目推荐准确性和文本生成质量方面优于其他索引方法。
-
-    Recommendation foundation model utilizes large language models (LLM) for recommendation by converting recommendation tasks into natural language tasks. It enables generative recommendation which directly generates the item(s) to recommend rather than calculating a ranking score for each and every candidate item in traditional recommendation models, simplifying the recommendation pipeline from multi-stage filtering to single-stage filtering. To avoid generating excessively long text when deciding which item(s) to recommend, creating LLM-compatible item IDs is essential for recommendation foundation models. In this study, we systematically examine the item indexing problem for recommendation foundation models, using P5 as the representative backbone model and replicating its results with various indexing methods. To emphasize the importance of item indexing, we first discuss the issues of several trivial item indexing methods, such as independent indexing, title indexing, and random inde
-    
-[^10]: PromptRank: 使用prompt的无监督关键词提取
-
-    PromptRank: Unsupervised Keyphrase Extraction Using Prompt. (arXiv:2305.04490v2 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2305.04490](http://arxiv.org/abs/2305.04490)
-
-    本文提出了一种基于预训练语言模型的简单有效无监督关键词提取方法PromptRank，相对于最先进的MDERank方法在三个基准测试上分别提高了34.18％，24.87％和17.57％的F1分数。
+    本论文探讨了信息访问系统中多样性和公平性的关系。多样性和公平性是两个独立但密切相关的概念，推动多样性可以有效地实现公平。
 
     
 
-    关键词提取任务是指自动从给定文档中选择短语来总结其核心内容。最近，基于嵌入的算法取得了最先进的性能，它们根据候选短语的嵌入与文档嵌入的相似程度对其进行排序。然而，这些解决方案要么在文档和候选短语长度不一致时难以处理，要么在没有进一步微调的情况下无法充分利用预训练语言模型（PLM）。为此，在本文中，我们提出了一种简单而有效的无监督方法PromptRank，它基于具有编码器-解码器架构的PLM。具体而言，PromptRank将文档输入编码器，并通过解码器计算生成包含设计的prompt的候选短语的概率。我们在六个广泛使用的基准测试上对提出的PromptRank进行了广泛评估。PromptRank在F1分数上相对于最先进的MDERank方法分别提高了34.18％，24.87％和17.57％。
+    欧洲委员会（EC）设立的人工智能高级专家组提出了实现值得信赖的人工智能的七个重要要求之一是多样性、非歧视和公平性。本文试图通过关注信息访问系统和排名文献，阐述多样性和公平性两个独立概念的密切相关性。这两个概念不应该被互换使用，因为它们代表了两个不同的价值，但我们认为它们也不能被认为是完全不相关的。推动多样性并不意味着公平，但促进多样性确实可以有效地实现公平的结果，这是几种方法提出的直觉，旨在减少不平等问题。
 
-    The keyphrase extraction task refers to the automatic selection of phrases from a given document to summarize its core content. State-of-the-art (SOTA) performance has recently been achieved by embedding-based algorithms, which rank candidates according to how similar their embeddings are to document embeddings. However, such solutions either struggle with the document and candidate length discrepancies or fail to fully utilize the pre-trained language model (PLM) without further fine-tuning. To this end, in this paper, we propose a simple yet effective unsupervised approach, PromptRank, based on the PLM with an encoder-decoder architecture. Specifically, PromptRank feeds the document into the encoder and calculates the probability of generating the candidate with a designed prompt by the decoder. We extensively evaluate the proposed PromptRank on six widely used benchmarks. PromptRank outperforms the SOTA approach MDERank, improving the F1 score relatively by 34.18%, 24.87%, and 17.57
+    Among the seven key requirements to achieve trustworthy AI proposed by the High-Level Expert Group on Artificial Intelligence (AI-HLEG) established by the European Commission (EC), the fifth requirement ("Diversity, non-discrimination and fairness") declares: "In order to achieve Trustworthy AI, we must enable inclusion and diversity throughout the entire AI system's life cycle. [...] This requirement is closely linked with the principle of fairness". In this paper, we try to shed light on how closely these two distinct concepts, diversity and fairness, may be treated by focusing on information access systems and ranking literature. These concepts should not be used interchangeably because they do represent two different values, but what we argue is that they also cannot be considered totally unrelated or divergent. Having diversity does not imply fairness, but fostering diversity can effectively lead to fair outcomes, an intuition behind several methods proposed to mitigate the dispar
     
-[^11]: 公平感知的跨领域推荐
+[^6]: 混合与协作的段落再排序方法
 
-    Fairness-aware Cross-Domain Recommendation. (arXiv:2302.00158v2 [cs.IR] UPDATED)
+    Hybrid and Collaborative Passage Reranking. (arXiv:2305.09313v1 [cs.IR])
 
-    [http://arxiv.org/abs/2302.00158](http://arxiv.org/abs/2302.00158)
+    [http://arxiv.org/abs/2305.09313](http://arxiv.org/abs/2305.09313)
 
-    本文提出了一种公平感知跨领域推荐模型FairCDR，通过学习公平感知的映射函数实现面向用户群体的公平性，并利用丰富的非重叠用户和交互来缓解数据重叠和分布偏差问题。同时，采用基于影响函数的重新加权方法来减少不公平性，保持推荐准确性。
-
-    
-
-    跨领域推荐是缓解冷启动问题的有效方法，但以往的方法在学习映射函数时严重忽视了公平性和偏见，这会影响到目标领域中新用户的表示。为了研究这个问题，本文提出了一种名为FairCDR的公平感知跨领域推荐模型。我们的方法通过学习公平感知的映射函数实现了面向用户群体的公平性。由于重叠数据相当有限且具有分布偏差，我们利用丰富的非重叠用户和交互来帮助缓解这些问题。考虑到每个个体对模型公平性具有不同的影响，我们提出了一种基于影响函数的新的重新加权方法，以减少不公平性同时保持推荐准确性。我们进行了广泛的实验来证明我们模型的有效性。
-
-    Cross-Domain Recommendation (CDR) is an effective way to alleviate the cold-start problem. However, previous work severely ignores fairness and bias when learning the mapping function, which is used to obtain the representations for fresh users in the target domain. To study this problem, in this paper, we propose a Fairness-aware Cross-Domain Recommendation model, called FairCDR. Our method achieves user-oriented group fairness by learning the fairness-aware mapping function. Since the overlapping data are quite limited and distributionally biased, FairCDR leverages abundant non-overlapping users and interactions to help alleviate these problems. Considering that each individual has different influence on model fairness, we propose a new reweighing method based on Influence Function (IF) to reduce unfairness while maintaining recommendation accuracy. Extensive experiments are conducted to demonstrate the effectiveness of our model.
-    
-[^12]: 联邦推荐中的双重个性化
-
-    Dual Personalization on Federated Recommendation. (arXiv:2301.08143v2 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2301.08143](http://arxiv.org/abs/2301.08143)
-
-    本研究提出了一种新的个性化联邦推荐框架，可以学习轻量级模型并在智能设备上部署，同时实现对用户和物品的精细个性化。
+    该论文提出了一种名为HybRank的混合与协作的段落再排序方法，通过利用上游检索器的相似性度量实现段落协作，再利用稀疏和密集检索器的词汇和语义属性进行重新排序，该方法可以增强包括先前被重新排序的段落列表在内的任意段落列表，并在实验证明了性能稳定的提升。
 
     
 
-    联邦推荐是一种旨在在联邦环境下提供隐私保护推荐服务的新型Internet服务架构。现有解决方案用于组合分布式推荐算法和隐私保护机制，因此从根本上采用服务器上的重量级模型，阻碍了在设备上部署智能模型。本文提出了一种新颖的个性化联邦推荐（PFedRec）框架，用于学习许多用户特定的轻量级模型，以便在智能设备上部署，而不是在服务器上使用重量级模型。此外，我们提出了一种新的双重个性化机制，以有效地学习用户和项目的细粒度个性化。整个学习过程被形式化为一个统一的联邦优化框架。
+    在段落检索系统中，初始检索结果可能不尽如人意，需要通过重新排序方案进行改善。现有的段落重新排序方案主要集中于丰富查询和每个段落之间的交互，忽略了在初始检索列表中排名靠前的多个段落之间的上下文关系。为解决这个问题，我们提出了一种混合与协作的段落再排序方法（HybRank），该方法利用上游检索器的相似性度量进行段落协作，并结合稀疏和密集检索器的词汇和语义属性进行重新排序。此外，基于现成的检索器特征，HybRank是一个插件再排序器，能够增强包括先前重新排序的段落列表在内的任意段落列表。大量实验证明了比普遍的检索和再排序方法性能稳定的提升，并验证了HybRank的核心组件的有效性。
 
-    Federated recommendation is a new Internet service architecture that aims to provide privacy-preserving recommendation services in federated settings. Existing solutions are used to combine distributed recommendation algorithms and privacy-preserving mechanisms. Thus it inherently takes the form of heavyweight models at the server and hinders the deployment of on-device intelligent models to end-users. This paper proposes a novel Personalized Federated Recommendation (PFedRec) framework to learn many user-specific lightweight models to be deployed on smart devices rather than a heavyweight model on a server. Moreover, we propose a new dual personalization mechanism to effectively learn fine-grained personalization on both users and items. The overall learning process is formulated into a unified federated optimization framework. Specifically, unlike previous methods that share exactly the same item embeddings across users in a federated system, dual personalization allows mild finetuni
+    In passage retrieval system, the initial passage retrieval results may be unsatisfactory, which can be refined by a reranking scheme. Existing solutions to passage reranking focus on enriching the interaction between query and each passage separately, neglecting the context among the top-ranked passages in the initial retrieval list. To tackle this problem, we propose a Hybrid and Collaborative Passage Reranking (HybRank) method, which leverages the substantial similarity measurements of upstream retrievers for passage collaboration and incorporates the lexical and semantic properties of sparse and dense retrievers for reranking. Besides, built on off-the-shelf retriever features, HybRank is a plug-in reranker capable of enhancing arbitrary passage lists including previously reranked ones. Extensive experiments demonstrate the stable improvements of performance over prevalent retrieval and reranking methods, and verify the effectiveness of the core components of HybRank.
     
-[^13]: 在开放域问答中防御误导性攻击
+[^7]: HyHTM: 基于双曲几何的层次主题模型
 
-    Defending Against Misinformation Attacks in Open-Domain Question Answering. (arXiv:2212.10002v2 [cs.CL] UPDATED)
+    HyHTM: Hyperbolic Geometry based Hierarchical Topic Models. (arXiv:2305.09258v1 [cs.IR])
 
-    [http://arxiv.org/abs/2212.10002](http://arxiv.org/abs/2212.10002)
+    [http://arxiv.org/abs/2305.09258](http://arxiv.org/abs/2305.09258)
 
-    本文提出了一种使用查询扩充来搜索冗余信息、并通过新颖的置信度方法将其集成到模型中的方法，可以有效防御开放域问答系统中的污染攻击，精确匹配率可提高近20%。
-
-    
-
-    最近在开放域问答领域中的研究表明，对于搜索集合进行的敌对污染可能会导致生产系统的精度大幅下降。然而，几乎没有工作提出防御这些攻击的方法。为了解决这个问题，我们依赖于大型语料库中存在冗余信息的直觉。为了找到这些信息，我们引入了一种使用查询扩充来搜索可能回答原始问题的多样化段落集合的方法，但是不太可能被污染。我们通过设计一种新型的置信度方法（比较预测答案与其在检索到的上下文中出现的情况——我们称之为答案冗余置信度，即CAR）将这些新段落集成到模型中。这些方法共同构成了一种简单但有效的方式，用于防御污染攻击，可在不同水平的数据污染/知识冲突下提供近20％的精确匹配增益。
-
-    Recent work in open-domain question answering (ODQA) has shown that adversarial poisoning of the search collection can cause large drops in accuracy for production systems. However, little to no work has proposed methods to defend against these attacks. To do so, we rely on the intuition that redundant information often exists in large corpora. To find it, we introduce a method that uses query augmentation to search for a diverse set of passages that could answer the original question but are less likely to have been poisoned. We integrate these new passages into the model through the design of a novel confidence method, comparing the predicted answer to its appearance in the retrieved contexts (what we call \textit{Confidence from Answer Redundancy}, i.e. CAR). Together these methods allow for a simple but effective way to defend against poisoning attacks that provides gains of nearly 20\% exact match across varying levels of data poisoning/knowledge conflicts.
-    
-[^14]: 语言建模在推荐系统中的关键作用：丰富任务特定和任务无关的表示学习
-
-    Pivotal Role of Language Modeling in Recommender Systems: Enriching Task-specific and Task-agnostic Representation Learning. (arXiv:2212.03760v3 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2212.03760](http://arxiv.org/abs/2212.03760)
-
-    本文研究发现，用户历史语言建模可以在不同推荐任务中取得优异结果，并且利用任务无关的用户历史还可以提供显著的性能优势。该方法具有广泛的现实世界迁移学习能力。
+    HyHTM是一种基于双曲几何的层次主题模型，通过将双曲几何中的层次信息纳入主题模型中，显式地建模主题层次结构。相较于传统方法，HyHTM更好地关注主题之间的父子关系，并产生了连贯的主题层次结构。同时，HyHTM的计算速度更快，内存占用更小。
 
     
 
-    最近的研究提出了利用来自各种应用程序的用户行为数据的统一用户建模框架。其中许多受益于将用户行为序列作为纯文本使用，代表着任何领域或系统中的丰富信息而不失通用性。因此，一个问题产生了：用户历史语言建模能否帮助改善推荐系统？虽然语言建模的多功能性已在许多领域广泛研究，但其在推荐系统中的应用仍未深入探讨。我们展示了直接应用于任务特定用户历史的语言建模在不同的推荐任务上可以取得优异的结果。此外，利用任务无关的用户历史还可以提供显著的性能优势。我们进一步证明了我们的方法可以为广泛的现实世界推荐系统提供有前途的迁移学习能力，甚至在未知域和服务上也可以实现。
+    层次主题模型对于发现文档集合中的主题层次结构非常有用。然而，传统的层次主题模型常常产生低层次主题与其高层次主题无关且不够具体的层次结构。此外，这些方法计算成本较高。我们提出了一种名为 HyHTM 的双曲几何层次主题模型，通过将双曲几何中的层次信息纳入主题模型中，显式地建模主题层次结构，从而解决了这些限制。与四个基线做实验结果表明，HyHTM 可以更好地关注主题之间父子关系。HyHTM 产生连贯的主题层次结构，从通用的高层次主题到具体的低层次主题。此外，我们的模型计算速度更快，内存占用更小。我们已经公开了算法的源代码。
 
-    Recent studies have proposed unified user modeling frameworks that leverage user behavior data from various applications. Many of them benefit from utilizing users' behavior sequences as plain texts, representing rich information in any domain or system without losing generality. Hence, a question arises: Can language modeling for user history corpus help improve recommender systems? While its versatile usability has been widely investigated in many domains, its applications to recommender systems still remain underexplored. We show that language modeling applied directly to task-specific user histories achieves excellent results on diverse recommendation tasks. Also, leveraging additional task-agnostic user histories delivers significant performance benefits. We further demonstrate that our approach can provide promising transfer learning capabilities for a broad spectrum of real-world recommender systems, even on unseen domains and services.
+    Hierarchical Topic Models (HTMs) are useful for discovering topic hierarchies in a collection of documents. However, traditional HTMs often produce hierarchies where lowerlevel topics are unrelated and not specific enough to their higher-level topics. Additionally, these methods can be computationally expensive. We present HyHTM - a Hyperbolic geometry based Hierarchical Topic Models - that addresses these limitations by incorporating hierarchical information from hyperbolic geometry to explicitly model hierarchies in topic models. Experimental results with four baselines show that HyHTM can better attend to parent-child relationships among topics. HyHTM produces coherent topic hierarchies that specialise in granularity from generic higher-level topics to specific lowerlevel topics. Further, our model is significantly faster and leaves a much smaller memory footprint than our best-performing baseline.We have made the source code for our algorithm publicly accessible.
     
-[^15]: 自动音频字幕和基于语言的音频检索
+[^8]: Text2Cohort: 自然语言队列发现对癌症影像数据共享平台的民主化
 
-    Automated Audio Captioning and Language-Based Audio Retrieval. (arXiv:2207.04156v2 [cs.SD] UPDATED)
+    Text2Cohort: Democratizing the NCI Imaging Data Commons with Natural Language Cohort Discovery. (arXiv:2305.07637v1 [cs.LG])
 
-    [http://arxiv.org/abs/2207.04156](http://arxiv.org/abs/2207.04156)
+    [http://arxiv.org/abs/2305.07637](http://arxiv.org/abs/2305.07637)
 
-    该论文描述了在DCASE 2022比赛中参加了自动音频字幕和基于语言的音频检索两个子任务，并使用Clotho数据集进行了评估。对于这两个子任务，我们修改了基线模型，得到了良好的性能提升。
+    Text2Cohort是一个基于大语言模型的工具箱，可以将用户输入转化为IDC数据库查询，促进自然语言队列发现，减少研究人员查询IDC数据库的学习曲线，实现了癌症成像数据的民主化。
 
     
 
-    本项目参加了DCASE 2022竞赛（任务6），其分为两个子任务：（1）自动音频字幕和（2）基于语言的音频检索。第一个子任务涉及为音频样本生成文本描述，而第二个子任务的目标是在固定数据集中查找与给定描述相匹配的音频样本。对于这两个子任务，使用了Clotho数据集。对于音频字幕，我们评估了BLEU1，BLEU2，BLEU3，ROUGEL，METEOR，CIDEr，SPICE和SPIDEr得分，而音频检索评估了R1，R5，R10和mARP10得分。我们进行了一些修改这些任务的基线模型的实验。我们针对自动音频字幕的最终架构接近于基线性能，而我们针对基于语言的音频检索的模型已超越了其对应模型。
+    影像数据共享平台(IDC)是一个基于云的数据库，为研究人员提供开放获取的癌症成像数据和分析工具，旨在促进医学成像研究中的协作。然而，由于其复杂和技术性质，查询IDC数据库以进行队列发现和访问成像数据对研究人员来说具有显著的学习曲线。我们开发了基于大语言模型（LLM）的Text2Cohort工具箱，通过提示工程将用户输入转化为IDC数据库查询，并将查询的响应返回给用户，以促进自然语言队列发现。此外，实现了自动校正以解决查询中的语法和语义错误，通过将错误传回模型进行解释和校正。我们对50个自然语言用户输入进行了Text2Cohort评估，范围从信息提取到队列发现。结果查询和输出由两位计算机科学家进行了确认。
 
-    This project involved participation in the DCASE 2022 Competition (Task 6) which had two subtasks: (1) Automated Audio Captioning and (2) Language-Based Audio Retrieval. The first subtask involved the generation of a textual description for audio samples, while the goal of the second was to find audio samples within a fixed dataset that match a given description. For both subtasks, the Clotho dataset was used. The models were evaluated on BLEU1, BLEU2, BLEU3, ROUGEL, METEOR, CIDEr, SPICE, and SPIDEr scores for audio captioning and R1, R5, R10 and mARP10 scores for audio retrieval. We have conducted a handful of experiments that modify the baseline models for these tasks. Our final architecture for Automated Audio Captioning is close to the baseline performance, while our model for Language-Based Audio Retrieval has surpassed its counterpart.
+    The Imaging Data Commons (IDC) is a cloud-based database that provides researchers with open access to cancer imaging data and tools for analysis, with the goal of facilitating collaboration in medical imaging research. However, querying the IDC database for cohort discovery and access to imaging data has a significant learning curve for researchers due to its complex and technical nature. We developed Text2Cohort, a large language model (LLM) based toolkit to facilitate natural language cohort discovery by translating user input into IDC database queries through prompt engineering and returning the query's response to the user. Furthermore, autocorrection is implemented to resolve syntax and semantic errors in queries by passing the errors back to the model for interpretation and correction. We evaluate Text2Cohort on 50 natural language user inputs ranging from information extraction to cohort discovery. The resulting queries and outputs were verified by two computer scientists to me
+    
+[^9]: 基于对比知识蒸馏的集成建模在序列推荐中的应用
+
+    Ensemble Modeling with Contrastive Knowledge Distillation for Sequential Recommendation. (arXiv:2304.14668v1 [cs.IR])
+
+    [http://arxiv.org/abs/2304.14668](http://arxiv.org/abs/2304.14668)
+
+    本研究提出了一种基于对比知识蒸馏的集成建模方法EMKD，它采用多个并行网络作为序列编码器，在序列推荐中根据所有网络的输出分布推荐物品。实验证明，EMKD在两个真实世界数据集上的表现显著优于最先进的方法。
+
+    
+
+    序列推荐旨在捕捉用户的动态兴趣，预测用户下一次的偏好物品。多数方法使用深度神经网络作为序列编码器生成用户和物品表示。现有工作主要侧重于设计更强的序列编码器。然而，很少有尝试使用训练一组网络作为序列编码器的方法，这比单个网络更强大，因为一组并行网络可以产生多样化的预测结果，从而获得更好的准确性。本文提出了一种基于对比知识蒸馏的集成建模方法，即EMKD，在序列推荐中使用多个并行网络作为序列编码器，并根据所有这些网络的输出分布推荐物品。为了促进并行网络之间的知识转移，我们提出了一种新颖的对比知识蒸馏方法，它将知识从教师网络转移到多个学生网络中。在两个真实世界数据集上的实验表明，我们提出的EMKD显著优于最先进的序列推荐方法和集成基线。
+
+    Sequential recommendation aims to capture users' dynamic interest and predicts the next item of users' preference. Most sequential recommendation methods use a deep neural network as sequence encoder to generate user and item representations. Existing works mainly center upon designing a stronger sequence encoder. However, few attempts have been made with training an ensemble of networks as sequence encoders, which is more powerful than a single network because an ensemble of parallel networks can yield diverse prediction results and hence better accuracy. In this paper, we present Ensemble Modeling with contrastive Knowledge Distillation for sequential recommendation (EMKD). Our framework adopts multiple parallel networks as an ensemble of sequence encoders and recommends items based on the output distributions of all these networks. To facilitate knowledge transfer between parallel networks, we propose a novel contrastive knowledge distillation approach, which performs knowledge tran
+    
+[^10]: 序列推荐中的元优化对比学习
+
+    Meta-optimized Contrastive Learning for Sequential Recommendation. (arXiv:2304.07763v1 [cs.IR])
+
+    [http://arxiv.org/abs/2304.07763](http://arxiv.org/abs/2304.07763)
+
+    本文提出了 MCLRec 模型，该模型在数据增强和可学习模型增强操作的基础上，解决了现有对比学习方法难以推广和训练数据不足的问题。
+
+    
+
+    对比学习方法是解决稀疏且含噪声推荐数据的一个新兴方法。然而，现有的对比学习方法要么只针对手工制作的数据进行训练数据和模型增强，要么只使用模型增强方法，这使得模型很难推广。为了更好地训练模型，本文提出了一种称为元优化对比学习的模型。该模型结合了数据增强和可学习模型增强操作。
+
+    Contrastive Learning (CL) performances as a rising approach to address the challenge of sparse and noisy recommendation data. Although having achieved promising results, most existing CL methods only perform either hand-crafted data or model augmentation for generating contrastive pairs to find a proper augmentation operation for different datasets, which makes the model hard to generalize. Additionally, since insufficient input data may lead the encoder to learn collapsed embeddings, these CL methods expect a relatively large number of training data (e.g., large batch size or memory bank) to contrast. However, not all contrastive pairs are always informative and discriminative enough for the training processing. Therefore, a more general CL-based recommendation model called Meta-optimized Contrastive Learning for sequential Recommendation (MCLRec) is proposed in this work. By applying both data augmentation and learnable model augmentation operations, this work innovates the standard 
+    
+[^11]: BERT4Loc：基于BERT的位置推荐系统--POI推荐
+
+    BERT4Loc: BERT for Location -- POI Recommender System. (arXiv:2208.01375v2 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2208.01375](http://arxiv.org/abs/2208.01375)
+
+    BERT4Loc是一种基于BERT的位置推荐系统，将地理位置信息和用户偏好相结合，提供个性化的基于位置的建议，相较于预测序列中下一个POI的模型，提供更相关的推荐，在基准数据集上实现了较好的性能。
+
+    
+
+    推荐兴趣点（POI）是一项具有挑战性的任务，需要从基于位置的社交媒体平台中提取全面的位置数据。为了提供有效的基于位置的推荐，分析用户的历史行为和偏好是非常重要的。本研究提出了一种复杂的位置感知推荐系统，利用Transformers中的双向编码器表示（BERT）提供个性化的基于位置的建议。我们的模型将地理位置信息和用户偏好相结合，相比于预测序列中下一个POI的模型，提供更相关的推荐。在两个基准数据集上的实验表明，我们基于BERT的模型优于各种最先进的序列模型。此外，我们通过附加实验展示了所提出模型的有效性。
+
+    Recommending points of interest (POIs) is a challenging task that requires extracting comprehensive location data from location-based social media platforms. To provide effective location-based recommendations, it's important to analyze users' historical behavior and preferences. In this study, we present a sophisticated location-aware recommendation system that uses Bidirectional Encoder Representations from Transformers (BERT) to offer personalized location-based suggestions. Our model combines location information and user preferences to provide more relevant recommendations compared to models that predict the next POI in a sequence. Our experiments on two benchmark dataset show that our BERT-based model outperforms various state-of-the-art sequential models. Moreover, we see the effectiveness of the proposed model for quality through additional experiments.
+    
+[^12]: UNIQORN：统一的RDF知识图谱与自然语言文本问答系统
+
+    UNIQORN: Unified Question Answering over RDF Knowledge Graphs and Natural Language Text. (arXiv:2108.08614v5 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2108.08614](http://arxiv.org/abs/2108.08614)
+
+    本文提出了一个名为UNIQORN的问答系统，它能够无缝地处理RDF数据和文本，使用fine-tuned BERT模型为问题构建上下文图，并使用图算法确定与问题相关的子图来回答问题。
+
+    
+
+    问题回答在知识图谱和其他RDF数据上已经取得了巨大的进展，许多优秀的系统可以为自然语言问题或电报查询提供清晰的答案。其中一些系统将文本源作为附加证据纳入回答过程，但不能计算仅存在于文本中的答案。相反，IR和NLP社区的系统已经解决了有关文本的QA问题，但是这些系统几乎不利用语义数据和知识。本文提出了第一个可以无缝操作混合RDF数据集和文本语料库或单个来源的复杂问题的系统，在统一框架中进行操作。我们的方法称为UNIQORN，通过使用经过精细调整的BERT模型从RDF数据和/或文本语料库中检索与问题相关的证据来动态构建上下文图。结果图通常非常丰富但高度嘈杂。UNIQORN通过用于组Steiner树的图算法来处理这个输入，从而确定与问题相关的子图，进而回答问题。
+
+    Question answering over knowledge graphs and other RDF data has been greatly advanced, with a number of good systems providing crisp answers for natural language questions or telegraphic queries. Some of these systems incorporate textual sources as additional evidence for the answering process, but cannot compute answers that are present in text alone. Conversely, systems from the IR and NLP communities have addressed QA over text, but such systems barely utilize semantic data and knowledge. This paper presents the first system for complex questions that can seamlessly operate over a mixture of RDF datasets and text corpora, or individual sources, in a unified framework. Our method, called UNIQORN, builds a context graph on-the-fly, by retrieving question-relevant evidences from the RDF data and/or a text corpus, using fine-tuned BERT models. The resulting graph is typically rich but highly noisy. UNIQORN copes with this input by a graph algorithm for Group Steiner Trees, that identifi
     
 

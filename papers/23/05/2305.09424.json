@@ -1,0 +1,12 @@
+{
+    "title": "Unwrapping All ReLU Networks. (arXiv:2305.09424v1 [cs.LG])",
+    "abstract": "Deep ReLU Networks can be decomposed into a collection of linear models, each defined in a region of a partition of the input space. This paper provides three results extending this theory. First, we extend this linear decompositions to Graph Neural networks and tensor convolutional networks, as well as networks with multiplicative interactions. Second, we provide proofs that neural networks can be understood as interpretable models such as Multivariate Decision trees and logical theories. Finally, we show how this model leads to computing cheap and exact SHAP values. We validate the theory through experiments with on Graph Neural Networks.",
+    "link": "http://arxiv.org/abs/2305.09424",
+    "context": "Title: Unwrapping All ReLU Networks. (arXiv:2305.09424v1 [cs.LG])\nAbstract: Deep ReLU Networks can be decomposed into a collection of linear models, each defined in a region of a partition of the input space. This paper provides three results extending this theory. First, we extend this linear decompositions to Graph Neural networks and tensor convolutional networks, as well as networks with multiplicative interactions. Second, we provide proofs that neural networks can be understood as interpretable models such as Multivariate Decision trees and logical theories. Finally, we show how this model leads to computing cheap and exact SHAP values. We validate the theory through experiments with on Graph Neural Networks.",
+    "path": "papers/23/05/2305.09424.json",
+    "total_tokens": 714,
+    "translated_title": "解开所有ReLU网络的秘密",
+    "translated_abstract": "深度ReLU网络可以分解成一系列线性模型，每个模型在输入空间的一个区域内定义。本文提供了三个结果来扩展这个理论。首先，我们将这种线性分解扩展到了图神经网络和张量卷积网络，以及具有乘法交互的网络。其次，我们证明神经网络可以理解为可解释的模型，例如多元决策树和逻辑理论。最后，我们展示了如何使用这种模型来计算便宜且准确的SHAP值。我们通过图神经网络的实验验证了该理论的有效性。",
+    "tldr": "本文提出了一种解开ReLU网络的秘密的方法，通过将网络分解成线性模型，实现了对图神经网络和张量卷积网络等结构的扩展，并证明了神经网络可以理解为可解释模型。此外，还提供了计算SHAP值的方法。",
+    "en_tdlr": "This paper provides a method to unwrap the secrets of ReLU networks by decomposing them into linear models. It extends this theory to graph neural networks and tensor convolutional networks, and proves that neural networks can be understood as interpretable models. Additionally, it provides a method for computing SHAP values."
+}

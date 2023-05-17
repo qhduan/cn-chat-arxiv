@@ -1,0 +1,12 @@
+{
+    "title": "Hardware Realization of Nonlinear Activation Functions for NN-based Optical Equalizers. (arXiv:2305.09495v1 [cs.LG])",
+    "abstract": "To reduce the complexity of the hardware implementation of neural network-based optical channel equalizers, we demonstrate that the performance of the biLSTM equalizer with approximated activation functions is close to that of the original model.",
+    "link": "http://arxiv.org/abs/2305.09495",
+    "context": "Title: Hardware Realization of Nonlinear Activation Functions for NN-based Optical Equalizers. (arXiv:2305.09495v1 [cs.LG])\nAbstract: To reduce the complexity of the hardware implementation of neural network-based optical channel equalizers, we demonstrate that the performance of the biLSTM equalizer with approximated activation functions is close to that of the original model.",
+    "path": "papers/23/05/2305.09495.json",
+    "total_tokens": 514,
+    "translated_title": "基于硬件实现非线性激活函数的神经网络光学均衡器",
+    "translated_abstract": "为了降低基于神经网络的光学信道均衡器的硬件实现复杂度，我们证明了使用近似激活函数的 biLSTM 均衡器的性能接近于原模型。",
+    "tldr": "本论文证明了在基于硬件实现神经网络光学均衡器时，使用近似激活函数的 biLSTM 均衡器能够取得接近于原模型的性能。",
+    "en_tdlr": "This paper demonstrates that the performance of the biLSTM equalizer with approximated activation functions is close to that of the original model, which reduces the complexity of the hardware implementation of neural network-based optical channel equalizers."
+}

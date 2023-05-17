@@ -1,0 +1,12 @@
+{
+    "title": "Searching for the \"Holy Grail\" of sponsorship-linked marketing: A generalizable sponsorship ROI model. (arXiv:2305.09473v1 [q-fin.GN])",
+    "abstract": "Marketers routinely allocate a significant portion of their budget to sponsorship. However, isolating the return on investment from such efforts has remained a challenge. Thus, a dataset of more than 5,800 sponsorships is analyzed using survival analysis approaches that utilizes the sponsor's renewal of the sponsorship as a proxy for positive ROI. In addition to its contribution to the sponsorship-linked marketing literature, the resulting model can be utilized by managers to generate predicted values relative to the sponsor's probability of renewal and the ultimate duration of time the sponsor will remain with the property, representing a novel managerial contribution.",
+    "link": "http://arxiv.org/abs/2305.09473",
+    "context": "Title: Searching for the \"Holy Grail\" of sponsorship-linked marketing: A generalizable sponsorship ROI model. (arXiv:2305.09473v1 [q-fin.GN])\nAbstract: Marketers routinely allocate a significant portion of their budget to sponsorship. However, isolating the return on investment from such efforts has remained a challenge. Thus, a dataset of more than 5,800 sponsorships is analyzed using survival analysis approaches that utilizes the sponsor's renewal of the sponsorship as a proxy for positive ROI. In addition to its contribution to the sponsorship-linked marketing literature, the resulting model can be utilized by managers to generate predicted values relative to the sponsor's probability of renewal and the ultimate duration of time the sponsor will remain with the property, representing a novel managerial contribution.",
+    "path": "papers/23/05/2305.09473.json",
+    "total_tokens": 692,
+    "translated_title": "寻找赞助联系营销的“圣杯”: 通用的赞助回报模型",
+    "translated_abstract": "营销人员经常将预算的一部分分配给赞助活动。然而，评估这类投入的回报一直是一个挑战。因此，利用生存分析方法分析了超过5800个赞助数据集，利用赞助商是否续约作为正回报的代理。除了对赞助联系营销文献的贡献外，所得的模型可供经理使用，以生成相对于赞助商续约概率和赞助商保留时间的预测值，这是一项新的管理贡献。",
+    "tldr": "该研究开发了一个通用的赞助回报模型，该模型可预测赞助商是否续约及保留时间，有助于经理们更好地评估赞助投入的回报。",
+    "en_tdlr": "This study developed a generalizable sponsorship ROI model, which predicts sponsor's renewal and duration of stay, providing a better method for managers to evaluate the return on their sponsorship investments."
+}

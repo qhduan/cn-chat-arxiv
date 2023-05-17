@@ -1,0 +1,12 @@
+{
+    "title": "When is an SHM problem a Multi-Task-Learning problem?. (arXiv:2305.09425v1 [cs.LG])",
+    "abstract": "Multi-task neural networks learn tasks simultaneously to improve individual task performance. There are three mechanisms of multi-task learning (MTL) which are explored here for the context of structural health monitoring (SHM): (i) the natural occurrence of multiple tasks; (ii) using outputs as inputs (both linked to the recent research in population-based SHM (PBSHM)); and, (iii) additional loss functions to provide different insights. Each of these problem settings for MTL is detailed and an example is given.",
+    "link": "http://arxiv.org/abs/2305.09425",
+    "context": "Title: When is an SHM problem a Multi-Task-Learning problem?. (arXiv:2305.09425v1 [cs.LG])\nAbstract: Multi-task neural networks learn tasks simultaneously to improve individual task performance. There are three mechanisms of multi-task learning (MTL) which are explored here for the context of structural health monitoring (SHM): (i) the natural occurrence of multiple tasks; (ii) using outputs as inputs (both linked to the recent research in population-based SHM (PBSHM)); and, (iii) additional loss functions to provide different insights. Each of these problem settings for MTL is detailed and an example is given.",
+    "path": "papers/23/05/2305.09425.json",
+    "total_tokens": 640,
+    "translated_title": "结构健康监测问题何时成为多任务学习问题？",
+    "translated_abstract": "多任务神经网络同时学习多个任务以提高单个任务的性能。本文探讨在结构健康监测（SHM）领域中，多任务学习的三种机制: (i) 自然存在的多个任务；(ii) 将输出用作输入（与最新的基于群体的SHM（PBSHM）的研究相关）；以及 (iii) 使用额外的损失函数提供不同的见解。详细介绍了MTL的每个问题设置，并给出了一个示例。",
+    "tldr": "本文探讨了在结构健康监测领域中的多任务学习机制，包括自然多任务、输出作为输入和使用额外损失函数三种方法，并给出了相应例子。",
+    "en_tdlr": "This paper explores three mechanisms of multi-task learning in the field of structural health monitoring, including natural occurrence of multiple tasks, using outputs as inputs, and additional loss functions, and provides corresponding examples."
+}

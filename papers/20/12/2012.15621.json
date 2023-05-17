@@ -1,0 +1,12 @@
+{
+    "title": "Open Korean Corpora: A Practical Report. (arXiv:2012.15621v2 [cs.CL] UPDATED)",
+    "abstract": "Korean is often referred to as a low-resource language in the research community. While this claim is partially true, it is also because the availability of resources is inadequately advertised and curated. This work curates and reviews a list of Korean corpora, first describing institution-level resource development, then further iterate through a list of current open datasets for different types of tasks. We then propose a direction on how open-source dataset construction and releases should be done for less-resourced languages to promote research.",
+    "link": "http://arxiv.org/abs/2012.15621",
+    "context": "Title: Open Korean Corpora: A Practical Report. (arXiv:2012.15621v2 [cs.CL] UPDATED)\nAbstract: Korean is often referred to as a low-resource language in the research community. While this claim is partially true, it is also because the availability of resources is inadequately advertised and curated. This work curates and reviews a list of Korean corpora, first describing institution-level resource development, then further iterate through a list of current open datasets for different types of tasks. We then propose a direction on how open-source dataset construction and releases should be done for less-resourced languages to promote research.",
+    "path": "papers/20/12/2012.15621.json",
+    "total_tokens": 609,
+    "translated_title": "开放式韩语语料库: 实用报告。",
+    "translated_abstract": "韩语在研究社区中常被称为低资源语言。虽然这种说法在一定程度上是正确的，但也因为资源的可用性没有得到充分的宣传和整理。本文整理和回顾了一系列韩语语料库，首先描述了机构级别的资源开发，然后进一步列举了不同类型任务的当前开源数据集清单。然后，我们提出了如何为资源较少的语言进行开源数据集构建和发布以促进研究的方向。",
+    "tldr": "本文回顾了韩语语料库，提出了针对资源较少的语言进行开源数据集构建和发布以促进研究的方向。",
+    "en_tdlr": "This paper reviews Korean corpora, proposes a direction for constructing and releasing open-source datasets for less-resourced languages to promote research."
+}

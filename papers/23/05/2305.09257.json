@@ -1,0 +1,12 @@
+{
+    "title": "A new node-shift encoding representation for the travelling salesman problem. (arXiv:2305.09257v1 [cs.NE])",
+    "abstract": "This paper presents a new genetic algorithm encoding representation to solve the travelling salesman problem. To assess the performance of the proposed chromosome structure, we compare it with state-of-the-art encoding representations. For that purpose, we use 14 benchmarks of different sizes taken from TSPLIB. Finally, after conducting the experimental study, we report the obtained results and draw our conclusion.",
+    "link": "http://arxiv.org/abs/2305.09257",
+    "context": "Title: A new node-shift encoding representation for the travelling salesman problem. (arXiv:2305.09257v1 [cs.NE])\nAbstract: This paper presents a new genetic algorithm encoding representation to solve the travelling salesman problem. To assess the performance of the proposed chromosome structure, we compare it with state-of-the-art encoding representations. For that purpose, we use 14 benchmarks of different sizes taken from TSPLIB. Finally, after conducting the experimental study, we report the obtained results and draw our conclusion.",
+    "path": "papers/23/05/2305.09257.json",
+    "total_tokens": 558,
+    "translated_title": "一种新的节点移位编码表示来解决旅行商问题",
+    "translated_abstract": "本文提出一种新的遗传算法编码表示来解决旅行商问题。为了评价所提出的染色体结构的性能，我们将其与最先进的编码表示进行比较。为此，我们使用了来自TSPLIB的14个不同大小的基准。最终，在进行实验研究后，我们报告了所获得的结果并得出了结论。",
+    "tldr": "本文提出了一种新的遗传算法编码表示来解决旅行商问题，并通过与最先进的编码表示的比较进行了性能评价。",
+    "en_tdlr": "This paper proposes a new genetic algorithm encoding representation to solve the travelling salesman problem and evaluates its performance by comparing it with state-of-the-art encoding representations, using 14 benchmarks from TSPLIB."
+}

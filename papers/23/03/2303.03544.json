@@ -1,0 +1,12 @@
+{
+    "title": "Expressivity of Shallow and Deep Neural Networks for Polynomial Approximation. (arXiv:2303.03544v2 [cs.LG] UPDATED)",
+    "abstract": "This study explores the number of neurons required for a Rectified Linear Unit (ReLU) neural network to approximate multivariate monomials. We establish an exponential lower bound on the complexity of any shallow network approximating the product function over a general compact domain. We also demonstrate this lower bound doesn't apply to normalized Lipschitz monomials over the unit cube. These findings suggest that shallow ReLU networks experience the curse of dimensionality when expressing functions with a Lipschitz parameter scaling with the dimension of the input, and that the expressive power of neural networks is more dependent on their depth rather than overall complexity.",
+    "link": "http://arxiv.org/abs/2303.03544",
+    "context": "Title: Expressivity of Shallow and Deep Neural Networks for Polynomial Approximation. (arXiv:2303.03544v2 [cs.LG] UPDATED)\nAbstract: This study explores the number of neurons required for a Rectified Linear Unit (ReLU) neural network to approximate multivariate monomials. We establish an exponential lower bound on the complexity of any shallow network approximating the product function over a general compact domain. We also demonstrate this lower bound doesn't apply to normalized Lipschitz monomials over the unit cube. These findings suggest that shallow ReLU networks experience the curse of dimensionality when expressing functions with a Lipschitz parameter scaling with the dimension of the input, and that the expressive power of neural networks is more dependent on their depth rather than overall complexity.",
+    "path": "papers/23/03/2303.03544.json",
+    "total_tokens": 754,
+    "translated_title": "浅层神经网络和深层神经网络在多项式逼近中的表达能力。",
+    "translated_abstract": "本研究探讨了要近似多元单项式所需的修正线性单元（ReLU）神经网络中神经元的数量。我们在一般紧致域上建立了任何浅层网络逼近乘积函数的指数下界。我们还证明了这个下界不适用于在单位立方体上的规范利普希茨单项式。这些发现表明，在表达具有随着输入维度增加的Lipschitz参数的函数时，浅层ReLU网络会遭受维度灾难，神经网络的表达能力更依赖于它们的深度而不是总体复杂度。",
+    "tldr": "本研究发现，浅层ReLU网络在表达具有随着输入维度增加的Lipschitz参数的函数时会遭受维度灾难，神经网络的表达能力更依赖于它们的深度而不是总体复杂度。",
+    "en_tdlr": "This study finds that shallow ReLU networks suffer from the curse of dimensionality when expressing functions with a Lipschitz parameter scaling with the dimension of the input, and that the expressive power of neural networks is more dependent on their depth rather than overall complexity."
+}

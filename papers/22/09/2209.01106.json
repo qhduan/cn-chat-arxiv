@@ -1,0 +1,11 @@
+{
+    "title": "A New Aligned Simple German Corpus. (arXiv:2209.01106v3 [cs.CL] UPDATED)",
+    "abstract": "\"Leichte Sprache\", the German counterpart to Simple English, is a regulated language aiming to facilitate complex written language that would otherwise stay inaccessible to different groups of people. We present a new sentence-aligned monolingual corpus for Simple German -- German. It contains multiple document-aligned sources which we have aligned using automatic sentence-alignment methods. We evaluate our alignments based on a manually labelled subset of aligned documents. The quality of our sentence alignments, as measured by F1-score, surpasses previous work. We publish the dataset under CC BY-SA and the accompanying code under MIT license.",
+    "link": "http://arxiv.org/abs/2209.01106",
+    "context": "Title: A New Aligned Simple German Corpus. (arXiv:2209.01106v3 [cs.CL] UPDATED)\nAbstract: \"Leichte Sprache\", the German counterpart to Simple English, is a regulated language aiming to facilitate complex written language that would otherwise stay inaccessible to different groups of people. We present a new sentence-aligned monolingual corpus for Simple German -- German. It contains multiple document-aligned sources which we have aligned using automatic sentence-alignment methods. We evaluate our alignments based on a manually labelled subset of aligned documents. The quality of our sentence alignments, as measured by F1-score, surpasses previous work. We publish the dataset under CC BY-SA and the accompanying code under MIT license.",
+    "path": "papers/22/09/2209.01106.json",
+    "total_tokens": 761,
+    "translated_title": "一个新的对齐的简易德语语料库",
+    "translated_abstract": "\"Leichte Sprache\"是德语版的简易英语，旨在为不同人群提供复杂的书面语言，以便使这些内容易于理解。本文介绍了一个新的对齐句子的单语语料库，用于简易德语--德语。它包含多个文档对齐来源，我们使用自动句子对齐方法对其进行了对齐。我们基于手动标记的对齐文档的子集来评估我们的对齐质量。根据F1分数测量，我们的句子对齐质量超过了以前的工作。我们在CC BY-SA下发布数据集，在MIT许可下发布附带的代码。",
+    "tldr": "本文介绍了一个新的对齐的简易德语语料库，用于辅助不同人群理解复杂的德语书面语言；该语料库通过自动句子对齐方法使多个文档对齐，且质量优于之前的工作。"
+}

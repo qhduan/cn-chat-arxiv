@@ -1,0 +1,12 @@
+{
+    "title": "Non-Parametric Manifold Learning. (arXiv:2107.08089v3 [math.ST] UPDATED)",
+    "abstract": "We introduce an estimator for distances in a compact Riemannian manifold based on graph Laplacian estimates of the Laplace-Beltrami operator. We upper bound the error in the estimate of manifold distances, or more precisely an estimate of a spectrally truncated variant of manifold distance of interest in non-commutative geometry (cf. [Connes and Suijelekom, 2020]), in terms of spectral errors in the graph Laplacian estimates and, implicitly, several geometric properties of the manifold. A consequence is a proof of consistency for (untruncated) manifold distances. The estimator resembles, and in fact its convergence properties are derived from, a special case of the Kontorovic dual reformulation of Wasserstein distance known as Connes' Distance Formula.",
+    "link": "http://arxiv.org/abs/2107.08089",
+    "context": "Title: Non-Parametric Manifold Learning. (arXiv:2107.08089v3 [math.ST] UPDATED)\nAbstract: We introduce an estimator for distances in a compact Riemannian manifold based on graph Laplacian estimates of the Laplace-Beltrami operator. We upper bound the error in the estimate of manifold distances, or more precisely an estimate of a spectrally truncated variant of manifold distance of interest in non-commutative geometry (cf. [Connes and Suijelekom, 2020]), in terms of spectral errors in the graph Laplacian estimates and, implicitly, several geometric properties of the manifold. A consequence is a proof of consistency for (untruncated) manifold distances. The estimator resembles, and in fact its convergence properties are derived from, a special case of the Kontorovic dual reformulation of Wasserstein distance known as Connes' Distance Formula.",
+    "path": "papers/21/07/2107.08089.json",
+    "total_tokens": 774,
+    "translated_title": "非参数流形学习",
+    "translated_abstract": "我们介绍了一种基于图拉普拉斯估计的Laplace-Beltrami算子的估计器，用于一个紧致的Riemann流形中的距离。我们通过图拉普拉斯估计的谱误差和几何特性来上界估计流形距离的误差，或者更准确地说是近年来在非交换几何中被关注的一类流形距离。此结果推出了（未截取的）流形距离的一致性证明。该估计器与Wasserstein距离的Kontorovic对偶重构公式中的Connes距离公式是相似的，事实上是从后者的收敛性质推导出来的。",
+    "tldr": "该论文介绍了一种可求解紧致Riemann流形中距离的非参数估计器，并提出了该方法的一致性证明。该估计器是从Kontorovic对偶重构公式中的Connes距离公式推导而来。",
+    "en_tdlr": "This paper presents a non-parametric estimator for the distances in a compact Riemannian manifold, with a consistency proof. The estimator resembles Connes' Distance Formula in the Kontorovic dual reformulation of Wasserstein distance."
+}

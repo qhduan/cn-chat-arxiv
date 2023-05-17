@@ -1,0 +1,12 @@
+{
+    "title": "An Offline Time-aware Apprenticeship Learning Framework for Evolving Reward Functions. (arXiv:2305.09070v1 [cs.LG])",
+    "abstract": "Apprenticeship learning (AL) is a process of inducing effective decision-making policies via observing and imitating experts' demonstrations. Most existing AL approaches, however, are not designed to cope with the evolving reward functions commonly found in human-centric tasks such as healthcare, where offline learning is required. In this paper, we propose an offline Time-aware Hierarchical EM Energy-based Sub-trajectory (THEMES) AL framework to tackle the evolving reward functions in such tasks. The effectiveness of THEMES is evaluated via a challenging task -- sepsis treatment. The experimental results demonstrate that THEMES can significantly outperform competitive state-of-the-art baselines.",
+    "link": "http://arxiv.org/abs/2305.09070",
+    "context": "Title: An Offline Time-aware Apprenticeship Learning Framework for Evolving Reward Functions. (arXiv:2305.09070v1 [cs.LG])\nAbstract: Apprenticeship learning (AL) is a process of inducing effective decision-making policies via observing and imitating experts' demonstrations. Most existing AL approaches, however, are not designed to cope with the evolving reward functions commonly found in human-centric tasks such as healthcare, where offline learning is required. In this paper, we propose an offline Time-aware Hierarchical EM Energy-based Sub-trajectory (THEMES) AL framework to tackle the evolving reward functions in such tasks. The effectiveness of THEMES is evaluated via a challenging task -- sepsis treatment. The experimental results demonstrate that THEMES can significantly outperform competitive state-of-the-art baselines.",
+    "path": "papers/23/05/2305.09070.json",
+    "total_tokens": 760,
+    "translated_title": "一种离线时间感知的学徒式学习框架用于进化奖励函数的学习",
+    "translated_abstract": "学徒式学习是指通过观察和模仿专家的演示来诱导有效的决策策略的过程。然而，大多数现有的学徒式学习方法并不适用于应对人类中心任务中常见的进化奖励函数，例如医疗保健，这种任务需要离线学习。本文提出了一种离线时间感知的分层EM能量子轨迹 (THEMES) 学徒式学习框架，用于解决此类任务中的进化奖励函数。通过对挑战性任务（败血症治疗）的评估，证明了THEMES极大地胜过了竞争对手的最新基线模型。",
+    "tldr": "本文提出了一种THEMES学徒式学习框架来解决医疗保健等人类中心任务中的进化奖励函数问题，实验证明其显著优于其他最新基线模型。",
+    "en_tdlr": "This paper proposes an offline THEMES apprenticeship learning framework to tackle the evolving reward functions in human-centric tasks such as healthcare, and the experimental results demonstrate that THEMES significantly outperforms other state-of-the-art baselines."
+}
