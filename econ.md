@@ -7,17 +7,20 @@
 | [^3] | [Dissertation on Applied Microeconomics of Freemium Pricing Strategies in Mobile App Market.](http://arxiv.org/abs/2305.09479) | 我的论文分析了移动应用的产品市场位置如何影响其定价策略，从而影响应用的货币化过程。我创建了一个新变量来衡量应用与同行之间的差异性，研究发现对成功的应用和不成功的应用的影响不同，并根据应用的累计安装量和公司知名度将应用分为市场领先和市场后继两组。 |
 | [^4] | [Health Impacts of Public Pawnshops in Industrializing Tokyo.](http://arxiv.org/abs/2305.09352) | 该研究发现公共当铺的贷款贡献了历史性的婴儿和胎儿死亡率下降，私人当铺没有这样的影响。 |
 | [^5] | [A Theory of Auditability for Allocation and Social Choice Mechanisms.](http://arxiv.org/abs/2305.09314) | 本文为分配和社会选择问题开发了一个可审计性的通用理论，发现不同机制的审计性差异很大，立即接受机制最大可审计，而延迟接受机制最小可审计，多数表决机制也有其独特的审计性。 |
-| [^6] | [Grenander-type Density Estimation under Myerson Regularity.](http://arxiv.org/abs/2305.09052) | 本研究提出了一种 Myerson 正则下的 Grenander 型密度估计方法，该方法不需要调整参数，具有一致性和极小风险上限的优越性能。 |
-| [^7] | [Complete Conditional Type Structures.](http://arxiv.org/abs/2305.08940) | 本论文研究了满足完备性属性的类型结构，仅定义在类型结构上，而无需指定无限条件信念序列，给出了足够的条件以表示所有条件信仰层次，并对类型结构的条件信仰进行扩展进行了讨论。 |
-| [^8] | [COWPEA (Candidates Optimally Weighted in Proportional Election using Approval voting).](http://arxiv.org/abs/2305.08857) | 本文提出了一种新的比例代表方法，COWPEA，可根据候选人不同的权重进行最优选举，并可转换为分数或分级投票方法。 |
-| [^9] | [With a Grain of Salt: Uncertain Relevance of External Information and Firm Disclosures.](http://arxiv.org/abs/2304.09262) | 本文研究了外部信息和公司披露的不确定相关性对投资者信念和市场价格的影响，结果表明投资者更倾向于误解有利于公司的外部信号，公司的自愿披露可能会导致价格下跌。 |
-| [^10] | [A Guide to Regression Discontinuity Designs in Medical Applications.](http://arxiv.org/abs/2302.07413) | 本文提出了一份实践指南，介绍了在医疗背景下回归不连续性设计的分析方法，重点关注模糊的回归不连续设计和具有离散分数的回归不连续设计。 |
-| [^11] | [An Effective Treatment Approach to Difference-in-Differences with General Treatment Patterns.](http://arxiv.org/abs/2212.13226) | 本文提出了一种使用有效处理概念的双重鲁棒识别、估计和推断方法，适用于一般的差分差分模型。 |
-| [^12] | [Why Does GDP Move Before G? It's all in the Measurement.](http://arxiv.org/abs/2212.06073) | 由于国防合同的延迟核算，导致GDP在G之前出现波动；VAR-identified shocks对库存的影响被错过，导致战斗多重效应估计较低。 |
-| [^13] | [Implementing a Hierarchical Deep Learning Approach for Simulating Multi-Level Auction Data.](http://arxiv.org/abs/2207.12255) | 我们提出了一种基于深度学习的方法，能够模拟现实中复杂的多层次拍卖数据，并将其应用于代理学习和建模应用，为模拟性研究的进展做出了贡献。 |
-| [^14] | [High-dimensional Inference for Dynamic Treatment Effects.](http://arxiv.org/abs/2110.04924) | 本文提出了一种新的 DR 方法，用于中间条件结果模型的 DR 表示，能够提供更优的稳健性保证，即使在面临高维混淆变量时也能实现一致性。 |
-| [^15] | [Strength in Numbers: Robust Mechanisms for Public Goods with Many Agents.](http://arxiv.org/abs/2101.02423) | 本文研究了在拥有$n$个独立代理的大型经济中提供公共物品的机制设计问题，提出了一种简单形式的机制，即调整均值阈值(AMT)机制，并证明了当供给成本增长速度小于$\sqrt{n}$时，该机制在经过一段时间后具有预算平衡和渐近有效性。 |
-| [^16] | [Critical Values Robust to P-hacking.](http://arxiv.org/abs/2005.04141) | 本文建立了一个带有p-hacking的假设检验模型，通过该模型得出的具有抗干扰能力的临界值允许p-hacking，从而修正了传统假设检验理论在现实中的局限性。 |
+| [^6] | [Robust Auction Design with Support Information.](http://arxiv.org/abs/2305.09065) | 本文提出了一个新颖的带支持信息的拍卖设计，通过优化DSIC机制并将最坏情况与oracle进行比较，讲述了三种支持信息的区域，得出了最优机制的闭合形式。 |
+| [^7] | [Grenander-type Density Estimation under Myerson Regularity.](http://arxiv.org/abs/2305.09052) | 本研究提出了一种 Myerson 正则下的 Grenander 型密度估计方法，该方法不需要调整参数，具有一致性和极小风险上限的优越性能。 |
+| [^8] | [Kites and Quails: Monetary Policy and Communication with Strategic Financial Markets.](http://arxiv.org/abs/2305.08958) | 研究者开发了一个简单的博弈论模型，以确定系统性金融风险与货币政策目标之间的关联。当央行的政策目标包含金融部门稳定性时，市场可能会因为政策制定者的目标偏差而产生低效率。研究者提出了通过任命一位对市场稳定性重视较小的"风筝式"央行家来解决这个问题。 |
+| [^9] | [Complete Conditional Type Structures.](http://arxiv.org/abs/2305.08940) | 本论文研究了满足完备性属性的类型结构，仅定义在类型结构上，而无需指定无限条件信念序列，给出了足够的条件以表示所有条件信仰层次，并对类型结构的条件信仰进行扩展进行了讨论。 |
+| [^10] | [Semiparametrically Optimal Cointegration Test.](http://arxiv.org/abs/2305.08880) | 本文提出了半参数最优协整检验，通过基于非参数估计密度的可行测试，证明了其功率达到半参数功率包络，实验证明测试在小样本下表现良好。 |
+| [^11] | [COWPEA (Candidates Optimally Weighted in Proportional Election using Approval voting).](http://arxiv.org/abs/2305.08857) | 本文提出了一种新的比例代表方法，COWPEA，可根据候选人不同的权重进行最优选举，并可转换为分数或分级投票方法。 |
+| [^12] | [With a Grain of Salt: Uncertain Relevance of External Information and Firm Disclosures.](http://arxiv.org/abs/2304.09262) | 本文研究了外部信息和公司披露的不确定相关性对投资者信念和市场价格的影响，结果表明投资者更倾向于误解有利于公司的外部信号，公司的自愿披露可能会导致价格下跌。 |
+| [^13] | [A Guide to Regression Discontinuity Designs in Medical Applications.](http://arxiv.org/abs/2302.07413) | 本文提出了一份实践指南，介绍了在医疗背景下回归不连续性设计的分析方法，重点关注模糊的回归不连续设计和具有离散分数的回归不连续设计。 |
+| [^14] | [An Effective Treatment Approach to Difference-in-Differences with General Treatment Patterns.](http://arxiv.org/abs/2212.13226) | 本文提出了一种使用有效处理概念的双重鲁棒识别、估计和推断方法，适用于一般的差分差分模型。 |
+| [^15] | [Why Does GDP Move Before G? It's all in the Measurement.](http://arxiv.org/abs/2212.06073) | 由于国防合同的延迟核算，导致GDP在G之前出现波动；VAR-identified shocks对库存的影响被错过，导致战斗多重效应估计较低。 |
+| [^16] | [Implementing a Hierarchical Deep Learning Approach for Simulating Multi-Level Auction Data.](http://arxiv.org/abs/2207.12255) | 我们提出了一种基于深度学习的方法，能够模拟现实中复杂的多层次拍卖数据，并将其应用于代理学习和建模应用，为模拟性研究的进展做出了贡献。 |
+| [^17] | [High-dimensional Inference for Dynamic Treatment Effects.](http://arxiv.org/abs/2110.04924) | 本文提出了一种新的 DR 方法，用于中间条件结果模型的 DR 表示，能够提供更优的稳健性保证，即使在面临高维混淆变量时也能实现一致性。 |
+| [^18] | [Strength in Numbers: Robust Mechanisms for Public Goods with Many Agents.](http://arxiv.org/abs/2101.02423) | 本文研究了在拥有$n$个独立代理的大型经济中提供公共物品的机制设计问题，提出了一种简单形式的机制，即调整均值阈值(AMT)机制，并证明了当供给成本增长速度小于$\sqrt{n}$时，该机制在经过一段时间后具有预算平衡和渐近有效性。 |
+| [^19] | [Critical Values Robust to P-hacking.](http://arxiv.org/abs/2005.04141) | 本文建立了一个带有p-hacking的假设检验模型，通过该模型得出的具有抗干扰能力的临界值允许p-hacking，从而修正了传统假设检验理论在现实中的局限性。 |
 
 # 详细
 
@@ -91,7 +94,21 @@
 
     In centralized market mechanisms individuals may not fully observe other participants' type reports. Hence, the mechanism designer may deviate from the promised mechanism without the individuals being able to detect these deviations. In this paper, we develop a general theory of auditability for allocation and social choice problems. We find a stark contrast between the auditabilities of prominent mechanisms: the Immediate Acceptance mechanism is maximally auditable, in a sense that any deviation can always be detected by just two individuals, whereas, on the other extreme, the Deferred Acceptance mechanism is minimally auditable, in a sense that some deviations may go undetected unless some individuals possess full information about everyone's reports. There is a similar contrast between the first-price and the second-price auction mechanisms. Additionally, we give a simple characterization of the majority voting mechanism for social choice problems, and we evaluate the auditability o
     
-[^6]: Myerson正则下的Grenander型密度估计
+[^6]: 带支持信息的鲁棒拍卖设计
+
+    Robust Auction Design with Support Information. (arXiv:2305.09065v1 [econ.TH])
+
+    [http://arxiv.org/abs/2305.09065](http://arxiv.org/abs/2305.09065)
+
+    本文提出了一个新颖的带支持信息的拍卖设计，通过优化DSIC机制并将最坏情况与oracle进行比较，讲述了三种支持信息的区域，得出了最优机制的闭合形式。
+
+    
+
+    一个卖家想要将商品卖给$n$个买家，买家的估值是独立同分布的，但是卖家并不知道这个分布。为了抵御环境和买家行为的不确定性，卖家在DSIC机制中进行优化，并将最坏情况的表现与具有完全买家估值知识的oracle进行比较。我们的分析包括遗憾和比率两个目标。对于这些目标，我们以支持和买家数$n$的函数形式导出了一个闭合的最优机制。我们的分析揭示了三个支持信息的区域和一个新的鲁棒机制类。
+
+    A seller wants to sell an item to $n$ buyers. The buyer valuations are drawn i.i.d. from a distribution, but the seller does not know this distribution; the seller only knows the support $[a,b]$. To be robust against the lack of knowledge of the environment and buyers' behavior, the seller optimizes over DSIC mechanisms, and measures the worst-case performance relative to an oracle with complete knowledge of buyers' valuations. Our analysis encompasses both the regret and the ratio objectives.  For these objectives, we derive an optimal mechanism in closed form as a function of the support and the number of buyers $n$. Our analysis reveals three regimes of support information and a new class of robust mechanisms. i.) With "low" support information, the optimal mechanism is a second-price auction (SPA) with a random reserve, a focal class in the earlier literature. ii.) With "high" support information, we show that second-price auctions are strictly suboptimal, and an optimal mechanism 
+    
+[^7]: Myerson正则下的Grenander型密度估计
 
     Grenander-type Density Estimation under Myerson Regularity. (arXiv:2305.09052v1 [econ.EM])
 
@@ -105,7 +122,21 @@
 
     This study presents a novel approach to the density estimation of private values from second-price auctions, diverging from the conventional use of smoothing-based estimators. We introduce a Grenander-type estimator, constructed based on a shape restriction in the form of a convexity constraint. This constraint corresponds to the renowned Myerson regularity condition in auction theory, which is equivalent to the concavity of the revenue function for selling the auction item. Our estimator is nonparametric and does not require any tuning parameters. Under mild assumptions, we establish the cube-root consistency and show that the estimator asymptotically follows the scaled Chernoff's distribution. Moreover, we demonstrate that the estimator achieves the minimax optimal convergence rate.
     
-[^7]: 完备的条件类型结构
+[^8]: 风筝与鹌鹑：货币政策及其与策略性金融市场的沟通
+
+    Kites and Quails: Monetary Policy and Communication with Strategic Financial Markets. (arXiv:2305.08958v1 [econ.GN])
+
+    [http://arxiv.org/abs/2305.08958](http://arxiv.org/abs/2305.08958)
+
+    研究者开发了一个简单的博弈论模型，以确定系统性金融风险与货币政策目标之间的关联。当央行的政策目标包含金融部门稳定性时，市场可能会因为政策制定者的目标偏差而产生低效率。研究者提出了通过任命一位对市场稳定性重视较小的"风筝式"央行家来解决这个问题。
+
+    
+
+    我们开发了一个简单的博弈论模型，以确定在决策者和金融市场是策略性参与者、政策惊喜对市场稳定性产生负面影响的情况下，明确将金融市场稳定性纳入央行目标函数的后果。我们发现，在政策目标中包括金融部门稳定性可能会引起低效率，因为市场对政策制定者目标的预期会偏误投资选择。当央行拥有其政策意图的私人信息时，平衡通信是模糊的，因为完全信息的沟通是不可信的。任命一位“风筝式”央行家，他对市场稳定性的重视较小，可以减少这些低效率。如果互动是重复的，央行通过保留前瞻性指导惩罚任何滥用市场权力的行为，可以提高沟通透明度和整体效率。
+
+    We develop a simple game-theoretic model to determine the consequences of explicitly including financial market stability in the central bank objective function, when policymakers and the financial market are strategic players, and market stability is negatively affected by policy surprises. We find that the inclusion of financial sector stability among the policy objectives can induce an inefficiency, whereby market anticipation of policymakers' goals biases investment choices. When the central bank has private information about its policy intentions, the equilibrium communication is vague, because fully informative communication is not credible. The appointment of a ``kitish'' central banker, who puts little weight on market stability, reduces these inefficiencies. If interactions are repeated, communication transparency and overall efficiency can be improved if the central bank punishes any abuse of market power by withholding forward guidance. At the same time, repeated interaction
+    
+[^9]: 完备的条件类型结构
 
     Complete Conditional Type Structures. (arXiv:2305.08940v1 [econ.TH])
 
@@ -119,7 +150,21 @@
 
     Hierarchies of conditional beliefs (Battigalli and Siniscalchi 1999) play a central role for the epistemic analysis of solution concepts in sequential games. They are practically modelled by type structures, which allow the analyst to represent the players' hierarchies without specifying an infinite sequence of conditional beliefs. Here, we study type structures that satisfy a "richness" property, called completeness. This property is defined on the type structure alone, without explicit reference to hierarchies of beliefs or other type structures. We provide sufficient conditions under which a complete type structure represents all hierarchies of conditional beliefs. In particular, we present an extension of the main result in Friedenberg (2010) to type structures with conditional beliefs. KEYWORDS: Conditional probability systems, hierarchies of beliefs, type structures, completeness, terminality. JEL: C72, D80
     
-[^8]: COWPEA（候选人按比例使用赞成投票进行最优加权）：一种新的比例代表方法
+[^10]: 半参数最优协整检验
+
+    Semiparametrically Optimal Cointegration Test. (arXiv:2305.08880v1 [econ.EM])
+
+    [http://arxiv.org/abs/2305.08880](http://arxiv.org/abs/2305.08880)
+
+    本文提出了半参数最优协整检验，通过基于非参数估计密度的可行测试，证明了其功率达到半参数功率包络，实验证明测试在小样本下表现良好。
+
+    
+
+    本文旨在解决有限阶向量自回归模型中协整阶数检验的半参数效率问题。我们提出了基于非参数估计密度的可行测试，并证明它们的功率可以达到半参数功率包络，成为半参数最优测试。在大量样本模拟中，验证了理论结果，并展示了测试在小样本下的令人满意的大小控制和优异的功率表现。
+
+    This paper aims to address the issue of semiparametric efficiency for cointegration rank testing in finite-order vector autoregressive models, where the innovation distribution is considered an infinite-dimensional nuisance parameter. Our asymptotic analysis relies on Le Cam's theory of limit experiment, which in this context takes the form of Locally Asymptotically Brownian Functional (LABF). By leveraging the structural version of LABF, an Ornstein-Uhlenbeck experiment, we develop the asymptotic power envelopes of asymptotically invariant tests for both cases with and without a time trend. We propose feasible tests based on a nonparametrically estimated density and demonstrate that their power can achieve the semiparametric power envelopes, making them semiparametrically optimal. We validate the theoretical results through large-sample simulations and illustrate satisfactory size control and excellent power performance of our tests under small samples. In both cases with and without 
+    
+[^11]: COWPEA（候选人按比例使用赞成投票进行最优加权）：一种新的比例代表方法
 
     COWPEA (Candidates Optimally Weighted in Proportional Election using Approval voting). (arXiv:2305.08857v1 [econ.TH])
 
@@ -133,7 +178,7 @@
 
     This paper describes a new method of proportional representation that uses approval voting, known as COWPEA (Candidates Optimally Weighted in Proportional Election using Approval voting). COWPEA optimally elects an unlimited number of candidates with potentially different weights to a body, rather than giving a fixed number equal weight. A version that elects a fixed a number of candidates with equal weight does exist, but it is non-deterministic, and is known as COWPEA Lottery. This is the only proportional method known to pass monotonicity, Independence of Irrelevant Ballots, and the Universally Liked Candidate criterion. There are also ways to convert COWPEA and COWPEA Lottery to a score or graded voting method.
     
-[^9]: 带着一块盐：外部信息与公司披露的不确定相关性
+[^12]: 带着一块盐：外部信息与公司披露的不确定相关性
 
     With a Grain of Salt: Uncertain Relevance of External Information and Firm Disclosures. (arXiv:2304.09262v1 [econ.TH])
 
@@ -147,7 +192,7 @@
 
     This paper examines how uncertainty about the relevance of external signals (such as news about a competitor or about changes in macroeconomic factors) influences investor beliefs, market prices and voluntary disclosures by companies. Despite assuming independence between the signal relevance and the endowment with information of a firm manager, our results show that: (i) favorable external signals are perceived to be less relevant; (ii) because such signals are taken ``with a grain of salt," the investor beliefs that the manager is endowed with unfavorable information are reinforced. As a consequence, a discontinuity in investor beliefs and non-monotonicity in stock prices may occur, such that more favorable external signals could paradoxically lead to a decrease in market valuation. In line with the growing empirical evidence in this area, our model predicts asymmetric price reactions to favorable and unfavorable news as well as potential price declines following firm disclosures.
     
-[^10]: 医学应用中回归不连续性设计的指南
+[^13]: 医学应用中回归不连续性设计的指南
 
     A Guide to Regression Discontinuity Designs in Medical Applications. (arXiv:2302.07413v2 [stat.ME] UPDATED)
 
@@ -161,7 +206,7 @@
 
     We present a practical guide for the analysis of regression discontinuity (RD) designs in biomedical contexts. We begin by introducing key concepts, assumptions, and estimands within both the continuity-based framework and the local randomization framework. We then discuss modern estimation and inference methods within both frameworks, including approaches for bandwidth or local neighborhood selection, optimal treatment effect point estimation, and robust bias-corrected inference methods for uncertainty quantification. We also overview empirical falsification tests that can be used to support key assumptions. Our discussion focuses on two particular features that are relevant in biomedical research: (i) fuzzy RD designs, which often arise when therapeutic treatments are based on clinical guidelines but patients with scores near the cutoff are treated contrary to the assignment rule; and (ii) RD designs with discrete scores, which are ubiquitous in biomedical applications. We illustrate
     
-[^11]: 一种适用于一般处理模式的差分差分法有效处理方法
+[^14]: 一种适用于一般处理模式的差分差分法有效处理方法
 
     An Effective Treatment Approach to Difference-in-Differences with General Treatment Patterns. (arXiv:2212.13226v2 [econ.EM] UPDATED)
 
@@ -175,7 +220,7 @@
 
     We consider a general difference-in-differences model in which the treatment variable of interest may be non-binary and its value may change in each time period. It is generally difficult to estimate treatment parameters defined with the potential outcome given the entire path of treatment adoption, because each treatment path may be experienced by only a small number of observations. We propose an alternative approach using the concept of effective treatment, which summarizes the treatment path into an empirically tractable low-dimensional variable, and develop doubly robust identification, estimation, and inference methods. We also provide a companion R software package.
     
-[^12]: GDP在G之前为什么会动？一切在于衡量
+[^15]: GDP在G之前为什么会动？一切在于衡量
 
     Why Does GDP Move Before G? It's all in the Measurement. (arXiv:2212.06073v3 [econ.GN] UPDATED)
 
@@ -189,7 +234,7 @@
 
     We find that the early impact of defense news shocks on GDP is mainly due to a rise in business inventories, as contractors ramp up production for new defense contracts. These contracts do not affect government spending (G) until payment-on-delivery, which occurs 2-3 quarters later. Novel data on defense procurement obligations reveals that contract awards Granger-cause VAR-identified shocks to G, but not defense news shocks. This implies that the early GDP response relative to G is largely driven by the delayed accounting of defense contracts, while VAR-identified shocks to G miss the impact on inventories, resulting in lower multiplier estimates.
     
-[^13]: 实现基于分层深度学习的多层次拍卖数据模拟方法
+[^16]: 实现基于分层深度学习的多层次拍卖数据模拟方法
 
     Implementing a Hierarchical Deep Learning Approach for Simulating Multi-Level Auction Data. (arXiv:2207.12255v2 [econ.GN] UPDATED)
 
@@ -203,7 +248,7 @@
 
     We present a deep learning solution to address the challenges of simulating realistic synthetic first-price sealed-bid auction data. The complexities encountered in this type of auction data include high-cardinality discrete feature spaces and a multilevel structure arising from multiple bids associated with a single auction instance. Our methodology combines deep generative modeling (DGM) with an artificial learner that predicts the conditional bid distribution based on auction characteristics, contributing to advancements in simulation-based research. This approach lays the groundwork for creating realistic auction environments suitable for agent-based learning and modeling applications. Our contribution is twofold: we introduce a comprehensive methodology for simulating multilevel discrete auction data, and we underscore the potential of DGM as a powerful instrument for refining simulation techniques and fostering the development of economic models grounded in generative AI.
     
-[^14]: 高维推断下的动态治疗效应估计
+[^17]: 高维推断下的动态治疗效应估计
 
     High-dimensional Inference for Dynamic Treatment Effects. (arXiv:2110.04924v4 [stat.ME] UPDATED)
 
@@ -217,7 +262,7 @@
 
     Estimating dynamic treatment effects is a crucial endeavor in causal inference, particularly when confronted with high-dimensional confounders. Doubly robust (DR) approaches have emerged as promising tools for estimating treatment effects due to their flexibility. However, we showcase that the traditional DR approaches that only focus on the DR representation of the expected outcomes may fall short of delivering optimal results. In this paper, we propose a novel DR representation for intermediate conditional outcome models that leads to superior robustness guarantees. The proposed method achieves consistency even with high-dimensional confounders, as long as at least one nuisance function is appropriately parametrized for each exposure time and treatment path. Our results represent a significant step forward as they provide new robustness guarantees. The key to achieving these results is our new DR representation, which offers superior inferential performance while requiring weaker ass
     
-[^15]: 数量的力量：对具有多个代理的公共物品拥有鲁棒性的机制
+[^18]: 数量的力量：对具有多个代理的公共物品拥有鲁棒性的机制
 
     Strength in Numbers: Robust Mechanisms for Public Goods with Many Agents. (arXiv:2101.02423v4 [econ.TH] UPDATED)
 
@@ -231,7 +276,7 @@
 
     This study examines the mechanism design problem for public goods provision in a large economy with $n$ independent agents. We propose a class of dominant-strategy incentive compatible and ex-post individually rational mechanisms, which we call the adjusted mean-thresholding (AMT) mechanisms. We show that when the cost of provision grows slower than the $\sqrt{n}$-rate, the AMT mechanisms are both eventually ex-ante budget balanced and asymptotically efficient. When the cost grows faster than the $\sqrt{n}$-rate, in contrast, we show that any incentive compatible, individually rational, and eventually ex-ante budget balanced mechanism must have provision probability converging to zero and hence cannot be asymptotically efficient. The AMT mechanisms have a simple form and are more informationally robust when compared to, for example, the second-best mechanism. This is because the construction of an AMT mechanism depends only on the first moment of the valuation distribution.
     
-[^16]: 具有抗p-hacking能力的临界值
+[^19]: 具有抗p-hacking能力的临界值
 
     Critical Values Robust to P-hacking. (arXiv:2005.04141v6 [econ.EM] UPDATED)
 
