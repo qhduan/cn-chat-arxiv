@@ -8,13 +8,14 @@
 | [^4] | [Towards High-Value Datasets determination for data-driven development: a systematic literature review.](http://arxiv.org/abs/2305.10234) | 本文系统综述了面向数据驱动发展的高价值数据集的研究现状，提出了高价值数据集的定义及其在推动更成熟的开放政府数据倡议方面的重要作用。 |
 | [^5] | [Affective interdependence and welfare.](http://arxiv.org/abs/2305.10165) | 本论文研究了纯情感互动对于个体福利的影响，证明了帕累托最优以及纳什均衡的存在性和局部优越性。 |
 | [^6] | [Rational Dialogues.](http://arxiv.org/abs/2305.10164) | 论文表明了任何有限的对话都可以被合理化。 |
-| [^7] | [Emergent Growth of System Self-Organization & Self-Control.](http://arxiv.org/abs/2305.09837) | 论文探讨了自组织与自控的系统增长，这种生长遵循“S”曲线模式，首先自由构建能力，接着与其他系统和谐发展，并在其顶点环境中承担一个或多个角色，最终以衰退结束。许多小型初创企业成功，而一些强大的文明最终也会消失。 |
-| [^8] | [COWPEA (Candidates Optimally Weighted in Proportional Election using Approval voting).](http://arxiv.org/abs/2305.08857) | 本文提出了一种新的比例代表方法，COWPEA，可根据候选人不同的权重进行最优选举，并可转换为分数或分级投票方法。 |
-| [^9] | [Projecting XRP price burst by correlation tensor spectra of transaction networks.](http://arxiv.org/abs/2211.03002) | 本文提出了一种基于相关张量谱的新方法，用于研究动态XRP网络，并且可以提供XRP价格的早期指示。 |
-| [^10] | [How to sample and when to stop sampling: The generalized Wald problem and minimax policies.](http://arxiv.org/abs/2210.15841) | 本文研究了引入信息成本的实验设计技术，特别是在顺序实验中，通过自适应地分配样本和在福利最大时停止采样来确定最佳处理方法。最小极大遗憾标准下，我们描述了最优策略，最小极大优化采样规则只是Neyman分配，独立于采样成本和先前的结果。 |
-| [^11] | [Integrated storage assignment for an e-grocery fulfilment centre: Accounting for day-of-week demand patterns.](http://arxiv.org/abs/2209.03998) | 本文提出了一个综合的MILP模型，用于实现高效捡货并尊重站点负载平衡和优先级约束。在电子杂货配送中心中，该模型显著优于顺序方法。 |
-| [^12] | [Equilibria of Attacker-Defender Games.](http://arxiv.org/abs/2202.10072) | 该论文提供了攻防博弈平衡状态的理论分析，研究了不同情境中攻防双方的策略选择，发现在某些情况下攻击者会表现出特别的侵略性。 |
-| [^13] | [Efficient Estimation for Staggered Rollout Designs.](http://arxiv.org/abs/2102.01291) | 本文提出了一种在增量推出设计中最有效的因果效应估算器，使用可行的插值方法，置信区间比现有方法短八倍。 |
+| [^7] | [Improved Bounds for Single-Nomination Impartial Selection.](http://arxiv.org/abs/2305.09998) | 摘要讲述了单次提名公正选择的一个新模型，通过排列机制来实现，调研结果表明该机制是$2/3$-optimal，是最优的选择机制。 |
+| [^8] | [Emergent Growth of System Self-Organization & Self-Control.](http://arxiv.org/abs/2305.09837) | 论文探讨了自组织与自控的系统增长，这种生长遵循“S”曲线模式，首先自由构建能力，接着与其他系统和谐发展，并在其顶点环境中承担一个或多个角色，最终以衰退结束。许多小型初创企业成功，而一些强大的文明最终也会消失。 |
+| [^9] | [COWPEA (Candidates Optimally Weighted in Proportional Election using Approval voting).](http://arxiv.org/abs/2305.08857) | 本文提出了一种新的比例代表方法，COWPEA，可根据候选人不同的权重进行最优选举，并可转换为分数或分级投票方法。 |
+| [^10] | [Projecting XRP price burst by correlation tensor spectra of transaction networks.](http://arxiv.org/abs/2211.03002) | 本文提出了一种基于相关张量谱的新方法，用于研究动态XRP网络，并且可以提供XRP价格的早期指示。 |
+| [^11] | [How to sample and when to stop sampling: The generalized Wald problem and minimax policies.](http://arxiv.org/abs/2210.15841) | 本文研究了引入信息成本的实验设计技术，特别是在顺序实验中，通过自适应地分配样本和在福利最大时停止采样来确定最佳处理方法。最小极大遗憾标准下，我们描述了最优策略，最小极大优化采样规则只是Neyman分配，独立于采样成本和先前的结果。 |
+| [^12] | [Integrated storage assignment for an e-grocery fulfilment centre: Accounting for day-of-week demand patterns.](http://arxiv.org/abs/2209.03998) | 本文提出了一个综合的MILP模型，用于实现高效捡货并尊重站点负载平衡和优先级约束。在电子杂货配送中心中，该模型显著优于顺序方法。 |
+| [^13] | [Equilibria of Attacker-Defender Games.](http://arxiv.org/abs/2202.10072) | 该论文提供了攻防博弈平衡状态的理论分析，研究了不同情境中攻防双方的策略选择，发现在某些情况下攻击者会表现出特别的侵略性。 |
+| [^14] | [Efficient Estimation for Staggered Rollout Designs.](http://arxiv.org/abs/2102.01291) | 本文提出了一种在增量推出设计中最有效的因果效应估算器，使用可行的插值方法，置信区间比现有方法短八倍。 |
 
 # 详细
 
@@ -102,7 +103,21 @@
 
     Any finite conversation can be rationalized.
     
-[^7]: 系统自组织与自控的新兴增长
+[^7]: 单次提名公正选择的改进界限
+
+    Improved Bounds for Single-Nomination Impartial Selection. (arXiv:2305.09998v1 [cs.GT])
+
+    [http://arxiv.org/abs/2305.09998](http://arxiv.org/abs/2305.09998)
+
+    摘要讲述了单次提名公正选择的一个新模型，通过排列机制来实现，调研结果表明该机制是$2/3$-optimal，是最优的选择机制。
+
+    
+
+    本文提出一个单次提名的公正选择模型，其中，选择机制会从$n$个人中选出一个，并非直接由自我提名影响选择结果。我们运用排列机制来实现单次提名公正选择，证明了此机制是$2/3$-optimal的。
+
+    We give new bounds for the single-nomination model of impartial selection, a problem proposed by Holzman and Moulin (Econometrica, 2013). A selection mechanism, which may be randomized, selects one individual from a group of $n$ based on nominations among members of the group; a mechanism is impartial if the selection of an individual is independent of nominations cast by that individual, and $\alpha$-optimal if under any circumstance the expected number of nominations received by the selected individual is at least $\alpha$ times that received by any individual. In a many-nominations model, where individuals may cast an arbitrary number of nominations, the so-called permutation mechanism is $1/2$-optimal, and this is best possible. In the single-nomination model, where each individual casts exactly one nomination, the permutation mechanism does better and prior to this work was known to be $67/108$-optimal but no better than $2/3$-optimal. We show that it is in fact $2/3$-optimal for 
+    
+[^8]: 系统自组织与自控的新兴增长
 
     Emergent Growth of System Self-Organization & Self-Control. (arXiv:2305.09837v1 [physics.soc-ph])
 
@@ -116,7 +131,7 @@
 
     In physics, I noticed subjects not explained by formulas were often not studied, like how uncontrolled growth systems changed form. Weather, businesses, societies, environments, communities, cultures, groups, relationships, lives, and livelihoods all do it following some variation of an 'S' curve. It is a slow-fast-slow process of self-animated contextual energy system development. Making working systems, they seem to develop by "find and connect" in three stages, starting small to first A) freely build designs of growing power, then B) diversify, adapt, respond, and harmonize with others, then C) take on one or more roles in their climax environments. It is a life curve of tremendous syntropic success that then ends with decline. Life is particularly risky for small start-ups, but many do succeed. Many powerful civilizations have emerged, some never growing up but growing as endless startups, only to become fragile, fail, and vanish. That looks like a choice.
     
-[^8]: COWPEA（候选人按比例使用赞成投票进行最优加权）：一种新的比例代表方法
+[^9]: COWPEA（候选人按比例使用赞成投票进行最优加权）：一种新的比例代表方法
 
     COWPEA (Candidates Optimally Weighted in Proportional Election using Approval voting). (arXiv:2305.08857v1 [econ.TH])
 
@@ -130,7 +145,7 @@
 
     This paper describes a new method of proportional representation that uses approval voting, known as COWPEA (Candidates Optimally Weighted in Proportional Election using Approval voting). COWPEA optimally elects an unlimited number of candidates with potentially different weights to a body, rather than giving a fixed number equal weight. A version that elects a fixed a number of candidates with equal weight does exist, but it is non-deterministic, and is known as COWPEA Lottery. This is the only proportional method known to pass monotonicity, Independence of Irrelevant Ballots, and the Universally Liked Candidate criterion. There are also ways to convert COWPEA and COWPEA Lottery to a score or graded voting method.
     
-[^9]: 基于交易网络相关张量谱的XRP价格预测
+[^10]: 基于交易网络相关张量谱的XRP价格预测
 
     Projecting XRP price burst by correlation tensor spectra of transaction networks. (arXiv:2211.03002v2 [physics.soc-ph] UPDATED)
 
@@ -144,7 +159,7 @@
 
     Cryptoassets are becoming essential in the digital economy era. XRP is one of the large market cap cryptoassets. Here, we develop a novel method of correlation tensor spectra for the dynamical XRP networks, which can provide an early indication for XRP price. A weighed directed weekly transaction network among XRP wallets is constructed by aggregating all transactions for a week. A vector for each node is then obtained by embedding the weekly network in continuous vector space. From a set of weekly snapshots of node vectors, we construct a correlation tensor. A double singular value decomposition of the correlation tensors gives its singular values. The significance of the singular values is shown by comparing with its randomize counterpart. The evolution of singular values shows a distinctive behavior. The largest singular value shows a significant negative correlation with XRP/USD price. We observe the minimum of the largest singular values at the XRP/USD price peak during the first 
     
-[^10]: 如何进行样本采集以及何时停止采样：广义Wald问题和最小极大决策
+[^11]: 如何进行样本采集以及何时停止采样：广义Wald问题和最小极大决策
 
     How to sample and when to stop sampling: The generalized Wald problem and minimax policies. (arXiv:2210.15841v4 [econ.EM] UPDATED)
 
@@ -158,7 +173,7 @@
 
     Acquiring information is expensive. Experimenters need to carefully choose how many units of each treatment to sample and when to stop sampling. The aim of this paper is to develop techniques for incorporating the cost of information into experimental design. In particular, we study sequential experiments where sampling is costly and a decision-maker aims to determine the best treatment for full scale implementation by (1) adaptively allocating units to two possible treatments, and (2) stopping the experiment when the expected welfare (inclusive of sampling costs) from implementing the chosen treatment is maximized. Working under the diffusion limit, we describe the optimal policies under the minimax regret criterion. Under small cost asymptotics, the same policies are also optimal under parametric and non-parametric distributions of outcomes. The minimax optimal sampling rule is just the Neyman allocation; it is independent of sampling costs and does not adapt to previous outcomes. Th
     
-[^11]: 电子杂货配送中心集成储存分配：考虑日内需求模式(arXiv:2209.03998v2 [econ.GN] UPDATED)
+[^12]: 电子杂货配送中心集成储存分配：考虑日内需求模式(arXiv:2209.03998v2 [econ.GN] UPDATED)
 
     Integrated storage assignment for an e-grocery fulfilment centre: Accounting for day-of-week demand patterns. (arXiv:2209.03998v2 [econ.GN] UPDATED)
 
@@ -172,7 +187,7 @@
 
     In this paper, we deal with a storage assignment problem arising in a fulfilment centre of a major European e-grocery retailer. The centre can be characterised as a hybrid warehouse consisting of a highly efficient and partially automated fast-picking area designed as a pick-and-pass system with multiple stations, and a picker-to-parts area. The storage assignment problem considered in this paper comprises the decisions to select the products to be allocated to the fast-picking area, the assignment of the products to picking stations and the determination of a shelf within the assigned station. The objective is to achieve a high level of picking efficiency while respecting station workload balancing and precedence order constraints. We propose to solve this three-level problem using an integrated MILP model. In computational experiments with real-world data, we show that using the proposed integrated approach yields significantly better results than a sequential approach in which the s
     
-[^12]: 攻防博弈的平衡状态
+[^13]: 攻防博弈的平衡状态
 
     Equilibria of Attacker-Defender Games. (arXiv:2202.10072v2 [econ.TH] UPDATED)
 
@@ -186,7 +201,7 @@
 
     Attempts at predatory capture may provoke a defensive response that reduces the very value of the predated resource. We provide a game-theoretic analysis of simultaneous-move, two-player Attacker-Defender games that model such interactions. When initial endowments are equal, Attackers win about a third of such games in equilibrium. Under power disparities, Attackers become particularly aggressive when they are approximately one-third poorer than Defenders. With non-conflictual outside options Attackers become exceptionally aggressive when their opponent has access to high-benefit, low-cost production, and refrain from attack most when they are unilaterally provided with a high-benefit, high-cost production option.
     
-[^13]: 增量推出设计中的效率估计
+[^14]: 增量推出设计中的效率估计
 
     Efficient Estimation for Staggered Rollout Designs. (arXiv:2102.01291v7 [econ.EM] UPDATED)
 

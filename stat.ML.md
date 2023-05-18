@@ -39,6 +39,7 @@
 | [^35] | [Asymptotics of Network Embeddings Learned via Subsampling.](http://arxiv.org/abs/2107.02363) | 本研究将网络嵌入方法封装为一个统一框架，并从理论上证明了使用子采样学习的网络嵌入的渐近分布，同时提供了潜在参数的收敛速率和算法选择与统计效率之间的权衡。 |
 | [^36] | [Stratified Learning: A General-Purpose Statistical Method for Improved Learning under Covariate Shift.](http://arxiv.org/abs/2106.11211) | 该论文提出了一种用于处理训练集不具代表性的协变量漂移情况下改进监督式学习的分层学习方法，并在宇宙学领域的两个问题中证明了其有效性，大幅提升了目标预测结果。 |
 | [^37] | [Selecting the Number of Clusters $K$ with a Stability Trade-off: an Internal Validation Criterion.](http://arxiv.org/abs/2006.08530) | 提出了一种新的聚类验证标准，基于聚类稳定性的内部验证原则，在聚类稳定性和聚类质量方面胜过现有的方法。 |
+| [^38] | [Solving for multi-class using orthogonal coding matrices.](http://arxiv.org/abs/1801.09055) | 本文研究了使用正交编码矩阵进行多类分类问题的实现方法。实验结果表明，代码中不包含零元素的正交编码矩阵可以通过简单的方法解决概率问题，同时比随机编码更准确。然而与1对1相比，正交编码的准确性仍有待提高。 |
 
 # 详细
 
@@ -559,5 +560,19 @@
     模型选择是非参数聚类中的主要挑战之一。毫无疑问，没有可以作为标准答案的真实数据存在，因此评价聚类结果的通用方法尚未出现。聚类目标的不确定性导致了普遍接受的评价标准难以确定。在这方面，聚类稳定性作为一种自然且无需模型的原则而出现：聚类算法应发现数据中稳定的结构。如果数据集从相同的基础分布中重复采样，则算法应找到相似的分区。然而，单纯的稳定性并不适合确定聚类数目。例如，它无法检测聚类数目是否太小。我们提出了一个新的原则：一种好的聚类应该是稳定的，且在每个聚类内部，不存在稳定的子分区。这个原则带来了一种基于聚类稳定性的新型聚类验证标准，克服了传统基于稳定性标准的局限性。我们的框架计算效率高且易于实现。我们在合成和真实世界数据集上展示了我们的标准能够以高精度恢复真实的聚类数目，并且在聚类稳定性和聚类质量方面胜过现有的方法。
 
     Model selection is a major challenge in non-parametric clustering. There is no universally admitted way to evaluate clustering results for the obvious reason that no ground truth is available. The difficulty to find a universal evaluation criterion is a consequence of the ill-defined objective of clustering. In this perspective, clustering stability has emerged as a natural and model-agnostic principle: an algorithm should find stable structures in the data. If data sets are repeatedly sampled from the same underlying distribution, an algorithm should find similar partitions. However, stability alone is not well-suited to determine the number of clusters. For instance, it is unable to detect if the number of clusters is too small. We propose a new principle: a good clustering should be stable, and within each cluster, there should exist no stable partition. This principle leads to a novel clustering validation criterion based on between-cluster and within-cluster stability, overcoming 
+    
+[^38]: 使用正交编码矩阵解决多类分类问题
+
+    Solving for multi-class using orthogonal coding matrices. (arXiv:1801.09055v6 [stat.ML] UPDATED)
+
+    [http://arxiv.org/abs/1801.09055](http://arxiv.org/abs/1801.09055)
+
+    本文研究了使用正交编码矩阵进行多类分类问题的实现方法。实验结果表明，代码中不包含零元素的正交编码矩阵可以通过简单的方法解决概率问题，同时比随机编码更准确。然而与1对1相比，正交编码的准确性仍有待提高。
+
+    
+
+    将二元分类推广到多类分类的常用方法是误差纠正码（ECC）。ECC可以通过多种方式进行优化，例如通过使它们正交化。本文在七个不同的数据集上使用三种二元分类器测试了两种正交ECC，并将它们与其他三种多类别方法：1对1、一对其余和随机ECC进行比较。代码中不包含零元素的第一种正交ECC允许使用快速简单的方法来解决概率问题。最近的文献预测，与随机ECC相比，正交ECC始终更准确。不确定性系数（U.C.）的提高范围在0.4-17.5％（绝对值为0.004-0.139），而Brier分数的提高范围在0.7-10.7％。不幸的是，正交ECC很少比1对1更准确。当将方法与逻辑回归配对时，差异最大，正交ECC从未击败过1对1。
+
+    A common method of generalizing binary to multi-class classification is the error correcting code (ECC). ECCs may be optimized in a number of ways, for instance by making them orthogonal. Here we test two types of orthogonal ECCs on seven different datasets using three types of binary classifier and compare them with three other multi-class methods: 1 vs. 1, one-versus-the-rest and random ECCs. The first type of orthogonal ECC, in which the codes contain no zeros, admits a fast and simple method of solving for the probabilities. Orthogonal ECCs are always more accurate than random ECCs as predicted by recent literature. Improvments in uncertainty coefficient (U.C.) range between 0.4--17.5% (0.004--0.139, absolute), while improvements in Brier score between 0.7--10.7%. Unfortunately, orthogonal ECCs are rarely more accurate than 1 vs. 1. Disparities are worst when the methods are paired with logistic regression, with orthogonal ECCs never beating 1 vs. 1. When the methods are paired wit
     
 

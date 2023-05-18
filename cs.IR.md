@@ -17,6 +17,7 @@
 | [^13] | [Meta-optimized Contrastive Learning for Sequential Recommendation.](http://arxiv.org/abs/2304.07763) | 本文提出了 MCLRec 模型，该模型在数据增强和可学习模型增强操作的基础上，解决了现有对比学习方法难以推广和训练数据不足的问题。 |
 | [^14] | [Variance Tolerance Factors For Interpreting ALL Neural Networks.](http://arxiv.org/abs/2209.13858) | 本文提出一种用于解释黑盒神经网络的方差容忍因子（VTF）理论，通过排名特征的方式探索特征的重要性，同时构建一个基本模型和特征模型的新型架构，来探索所有表现良好的神经网络中特征的重要性，并且经过基准测试和应用于实际环境中的实验验证了方法的可靠性。 |
 | [^15] | [(Un)likelihood Training for Interpretable Embedding.](http://arxiv.org/abs/2207.00282) | 该论文提出了两种新的训练方法：可能性训练和不可能性训练，以解释嵌入向量背后的语义并解决标签稀疏问题。这些方法在图像和视频分类、检索和生成任务中表现出色，提高了学习嵌入的可解释性。 |
+| [^16] | [Causality and Correlation Graph Modeling for Effective and Explainable Session-based Recommendation.](http://arxiv.org/abs/2201.10782) | 本研究提出了一种联合建模因果和相关关系的方法，通过构建因果、效应和相关图实现有效和可解释的基于会话的推荐，探索物品之间的关系。 |
 
 # 详细
 
@@ -229,5 +230,19 @@
     跨模态表示学习已成为弥合文本和视觉数据语义差距的新常态。然而，在连续潜在空间中学习模态不可知表示经常被视为黑匣子数据驱动的训练过程。深度表示学习的有效性严重依赖于训练数据的质量和规模。对于视频表示学习，要完整地标注视频内容的数据集是高度困难甚至不可能的。这些问题，黑匣子训练和数据集偏差，使得解释性较差和结果难以预测，难以在视频理解方面进行实际应用。在本文中，我们提出了两种新的训练方法，可能性和不可能性函数，以展示嵌入背后的语义，并解决训练中的标签稀疏问题。可能性训练旨在通过学习数据分布来解释嵌入向量的语义，而不可能性训练则强调正负对之间的差异。我们将所提出的方法应用于各种任务，包括图像和视频分类、检索和生成，并展示了它们在提高学到的嵌入的可解释性以及在基准数据集上实现竞争性性能方面的有效性。
 
     Cross-modal representation learning has become a new normal for bridging the semantic gap between text and visual data. Learning modality agnostic representations in a continuous latent space, however, is often treated as a black-box data-driven training process. It is well-known that the effectiveness of representation learning depends heavily on the quality and scale of training data. For video representation learning, having a complete set of labels that annotate the full spectrum of video content for training is highly difficult if not impossible. These issues, black-box training and dataset bias, make representation learning practically challenging to be deployed for video understanding due to unexplainable and unpredictable results. In this paper, we propose two novel training objectives, likelihood and unlikelihood functions, to unroll semantics behind embeddings while addressing the label sparsity problem in training. The likelihood training aims to interpret semantics of embed
+    
+[^16]: 因果和相关性图建模实现有效且可解释的基于会话的推荐
+
+    Causality and Correlation Graph Modeling for Effective and Explainable Session-based Recommendation. (arXiv:2201.10782v3 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2201.10782](http://arxiv.org/abs/2201.10782)
+
+    本研究提出了一种联合建模因果和相关关系的方法，通过构建因果、效应和相关图实现有效和可解释的基于会话的推荐，探索物品之间的关系。
+
+    
+
+    最近，基于会话的推荐引起了人们的高度关注，这些推荐方法旨在根据匿名会话预测用户的下一个感兴趣的物品。大多数现有研究采用复杂的深度学习技术（例如图神经网络）来进行有效的基于会话的推荐。然而，它们仅涉及物品之间的共同发生，但未能很好地区分因果关系和相关关系。考虑到因果关系和相关关系之间的不同解释和特征，本研究提出了一种新方法，称为CGSR，通过联合建模物品之间的因果和相关关系来解决这个问题。特别地，我们通过同时考虑错误因果问题，从会话中构建了因果、效应和相关图。我们进一步设计了一种基于图神经网络的基于会话推荐方法。总之，我们努力探索特定“因果关系”的物品之间的关系。
+
+    Session-based recommendation which has been witnessed a booming interest recently, focuses on predicting a user's next interested item(s) based on an anonymous session. Most existing studies adopt complex deep learning techniques (e.g., graph neural networks) for effective session-based recommendation. However, they merely address co-occurrence between items, but fail to well distinguish causality and correlation relationship. Considering the varied interpretations and characteristics of causality and correlation relationship between items, in this study, we propose a novel method denoted as CGSR by jointly modeling causality and correlation relationship between items. In particular, we construct cause, effect and correlation graphs from sessions by simultaneously considering the false causality problem. We further design a graph neural network-based method for session-based recommendation. To conclude, we strive to explore the relationship between items from specific ``causality" (dir
     
 
