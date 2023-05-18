@@ -2,22 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Towards High-Value Datasets determination for data-driven development: a systematic literature review.](http://arxiv.org/abs/2305.10234) | 本文系统综述了面向数据驱动发展的高价值数据集的研究现状，提出了高价值数据集的定义及其在推动更成熟的开放政府数据倡议方面的重要作用。 |
-| [^2] | [Affective interdependence and welfare.](http://arxiv.org/abs/2305.10165) | 本论文研究了纯情感互动对于个体福利的影响，证明了帕累托最优以及纳什均衡的存在性和局部优越性。 |
-| [^3] | [Rational Dialogues.](http://arxiv.org/abs/2305.10164) | 论文表明了任何有限的对话都可以被合理化。 |
-| [^4] | [Embedding and correlation tensor for XRP transaction networks.](http://arxiv.org/abs/2305.09917) | 对XRP交易网络进行了嵌入和相关分析，揭示了系统的关键见解。 |
-| [^5] | [Emergent Growth of System Self-Organization & Self-Control.](http://arxiv.org/abs/2305.09837) | 论文探讨了自组织与自控的系统增长，这种生长遵循“S”曲线模式，首先自由构建能力，接着与其他系统和谐发展，并在其顶点环境中承担一个或多个角色，最终以衰退结束。许多小型初创企业成功，而一些强大的文明最终也会消失。 |
-| [^6] | [Deep Learning for Solving and Estimating Dynamic Macro-Finance Models.](http://arxiv.org/abs/2305.09783) | 该论文介绍了一种利用深度学习同时求解和估计金融经济中经典的连续时间一般均衡模型的方法，并在产业动态和带有金融摩擦的宏观经济模型两个样例中展示了其优点，具有多种用途。 |
-| [^7] | [Time-Consistent Asset Allocation for Risk Measures in a L\'evy Market.](http://arxiv.org/abs/2305.09471) | 本文研究了使用风险度量进行资产配置的问题，通过使用广义的风险度量，最大化时间一致的平均风险回报函数。作者模拟了市场，并在符合条件的情况下证明了该问题的最优解是确定性且唯一的。 |
-| [^8] | [UQ for Credit Risk Management: A deep evidence regression approach.](http://arxiv.org/abs/2305.04967) | 本文扩展了Deep Evidence Regression方法，将其应用于预测信用风险中的违约损失；我们提供了相关的学习框架，并在模拟和实际数据上进行了验证。 |
-| [^9] | [Projecting XRP price burst by correlation tensor spectra of transaction networks.](http://arxiv.org/abs/2211.03002) | 本文提出了一种基于相关张量谱的新方法，用于研究动态XRP网络，并且可以提供XRP价格的早期指示。 |
-| [^10] | [Integrated storage assignment for an e-grocery fulfilment centre: Accounting for day-of-week demand patterns.](http://arxiv.org/abs/2209.03998) | 本文提出了一个综合的MILP模型，用于实现高效捡货并尊重站点负载平衡和优先级约束。在电子杂货配送中心中，该模型显著优于顺序方法。 |
-| [^11] | [Correlation Estimation in Hybrid Systems.](http://arxiv.org/abs/2111.06042) | 本文提出一种简单快速的算法来估计混合系统中状态变量之间的瞬时相关性，使用现货利率、股票价格和隐含波动率等观测市场量之间的经验相关性，并可使用短期平价隐含波动率的平方作为不可观测随机方差的代理。估计结果相当准确，且对于错误指定的利率模型参数和短采样周期假设是鲁棒的。 |
-| [^12] | [Epstein-Zin Utility Maximization on a Random Horizon.](http://arxiv.org/abs/1903.08782) | 本文解决了基于Epstein-Zin偏好的消费-投资问题，其随机时间跨度为一个停时，并适应于所有可观测但未必可交易的状态过程所生成的市场过滤。从固定时间跨度转变为随机时间跨度会极大地改变最优投资策略。 |
+| [^1] | [Valuation of a Financial Claim Contingent on the Outcome of a Quantum Measurement.](http://arxiv.org/abs/2305.10239) | 本文提出了一种基于量子测量结果的金融索赔估值方法，证明了存在一个定价状态与物理状态在零空间上等价，并给出了相应的定价公式。 |
+| [^2] | [Towards High-Value Datasets determination for data-driven development: a systematic literature review.](http://arxiv.org/abs/2305.10234) | 本文系统综述了面向数据驱动发展的高价值数据集的研究现状，提出了高价值数据集的定义及其在推动更成熟的开放政府数据倡议方面的重要作用。 |
+| [^3] | [Affective interdependence and welfare.](http://arxiv.org/abs/2305.10165) | 本论文研究了纯情感互动对于个体福利的影响，证明了帕累托最优以及纳什均衡的存在性和局部优越性。 |
+| [^4] | [Rational Dialogues.](http://arxiv.org/abs/2305.10164) | 论文表明了任何有限的对话都可以被合理化。 |
+| [^5] | [Embedding and correlation tensor for XRP transaction networks.](http://arxiv.org/abs/2305.09917) | 对XRP交易网络进行了嵌入和相关分析，揭示了系统的关键见解。 |
+| [^6] | [Emergent Growth of System Self-Organization & Self-Control.](http://arxiv.org/abs/2305.09837) | 论文探讨了自组织与自控的系统增长，这种生长遵循“S”曲线模式，首先自由构建能力，接着与其他系统和谐发展，并在其顶点环境中承担一个或多个角色，最终以衰退结束。许多小型初创企业成功，而一些强大的文明最终也会消失。 |
+| [^7] | [Deep Learning for Solving and Estimating Dynamic Macro-Finance Models.](http://arxiv.org/abs/2305.09783) | 该论文介绍了一种利用深度学习同时求解和估计金融经济中经典的连续时间一般均衡模型的方法，并在产业动态和带有金融摩擦的宏观经济模型两个样例中展示了其优点，具有多种用途。 |
+| [^8] | [Time-Consistent Asset Allocation for Risk Measures in a L\'evy Market.](http://arxiv.org/abs/2305.09471) | 本文研究了使用风险度量进行资产配置的问题，通过使用广义的风险度量，最大化时间一致的平均风险回报函数。作者模拟了市场，并在符合条件的情况下证明了该问题的最优解是确定性且唯一的。 |
+| [^9] | [UQ for Credit Risk Management: A deep evidence regression approach.](http://arxiv.org/abs/2305.04967) | 本文扩展了Deep Evidence Regression方法，将其应用于预测信用风险中的违约损失；我们提供了相关的学习框架，并在模拟和实际数据上进行了验证。 |
+| [^10] | [Projecting XRP price burst by correlation tensor spectra of transaction networks.](http://arxiv.org/abs/2211.03002) | 本文提出了一种基于相关张量谱的新方法，用于研究动态XRP网络，并且可以提供XRP价格的早期指示。 |
+| [^11] | [Integrated storage assignment for an e-grocery fulfilment centre: Accounting for day-of-week demand patterns.](http://arxiv.org/abs/2209.03998) | 本文提出了一个综合的MILP模型，用于实现高效捡货并尊重站点负载平衡和优先级约束。在电子杂货配送中心中，该模型显著优于顺序方法。 |
+| [^12] | [Correlation Estimation in Hybrid Systems.](http://arxiv.org/abs/2111.06042) | 本文提出一种简单快速的算法来估计混合系统中状态变量之间的瞬时相关性，使用现货利率、股票价格和隐含波动率等观测市场量之间的经验相关性，并可使用短期平价隐含波动率的平方作为不可观测随机方差的代理。估计结果相当准确，且对于错误指定的利率模型参数和短采样周期假设是鲁棒的。 |
+| [^13] | [Epstein-Zin Utility Maximization on a Random Horizon.](http://arxiv.org/abs/1903.08782) | 本文解决了基于Epstein-Zin偏好的消费-投资问题，其随机时间跨度为一个停时，并适应于所有可观测但未必可交易的状态过程所生成的市场过滤。从固定时间跨度转变为随机时间跨度会极大地改变最优投资策略。 |
 
 # 详细
 
-[^1]: 面向数据驱动发展的高价值数据集确定：一项系统文献综述
+[^1]: 一种基于量子测量结果的金融索赔估值方法
+
+    Valuation of a Financial Claim Contingent on the Outcome of a Quantum Measurement. (arXiv:2305.10239v1 [quant-ph])
+
+    [http://arxiv.org/abs/2305.10239](http://arxiv.org/abs/2305.10239)
+
+    本文提出了一种基于量子测量结果的金融索赔估值方法，证明了存在一个定价状态与物理状态在零空间上等价，并给出了相应的定价公式。
+
+    
+
+    本文考虑了有理性代理人在$t=0$时参与一份金融合同的情况，该合同的支付金额取决于$t=T$时的量子测量结果。假设已知量子系统的密度算符$ \hat{p}$，那么代理人愿意在$t=0$时支付多少费用进入这样的一份合同？在有限维希尔伯特空间的情况下，每个索赔都可以用一个观测算符$\hat{X}_T$来表示，其中$\hat{X}_T$的特征值决定了测量结果，相应的支付金额与之对应。我们在合理的公理条件下证明了，存在一个定价状态$\hat{q}$与物理状态$\hat{p}$在零空间上等价，使得定价函数$\Pi_{0T}$对于任何索赔$\hat{X}_T$都采取形式$\Pi_{0T}(\hat{X}_T)=P_{0T} {\rm tr}(\hat{q}\hat{X}_T)$，其中$P_{0T}$是一期折现因子。
+
+    We consider a rational agent who at time $0$ enters into a financial contract for which the payout is determined by a quantum measurement at some time $T>0$. The state of the quantum system is given by a known density matrix $\hat p$. How much will the agent be willing to pay at time $0$ to enter into such a contract? In the case of a finite dimensional Hilbert space, each such claim is represented by an observable $\hat X_T$ where the eigenvalues of $\hat X_T$ determine the amount paid if the corresponding outcome is obtained in the measurement. We prove, under reasonable axioms, that there exists a pricing state $\hat q$ which is equivalent to the physical state $\hat p$ on null spaces such that the pricing function $\Pi_{0T}$ takes the form $\Pi_{0T}(\hat X_T) = P_{0T}\,{\rm tr} ( \hat q \hat X_T) $ for any claim $\hat X_T$, where $P_{0T}$ is the one-period discount factor. By "equivalent" we mean that $\hat p$ and $\hat q$ share the same null space: thus, for any $|\xi \rangle \in 
+    
+[^2]: 面向数据驱动发展的高价值数据集确定：一项系统文献综述
 
     Towards High-Value Datasets determination for data-driven development: a systematic literature review. (arXiv:2305.10234v1 [cs.CY])
 
@@ -31,7 +46,7 @@
 
     The OGD is seen as a political and socio-economic phenomenon that promises to promote civic engagement and stimulate public sector innovations in various areas of public life. To bring the expected benefits, data must be reused and transformed into value-added products or services. This, in turn, sets another precondition for data that are expected to not only be available and comply with open data principles, but also be of value, i.e., of interest for reuse by the end-user. This refers to the notion of 'high-value dataset' (HVD), recognized by the European Data Portal as a key trend in the OGD area in 2022. While there is a progress in this direction, e.g., the Open Data Directive, incl. identifying 6 key categories, a list of HVDs and arrangements for their publication and re-use, they can be seen as 'core' / 'base' datasets aimed at increasing interoperability of public sector data with a high priority, contributing to the development of a more mature OGD initiative. Depending on t
     
-[^2]: 情感相互依赖与福利
+[^3]: 情感相互依赖与福利
 
     Affective interdependence and welfare. (arXiv:2305.10165v1 [econ.GN])
 
@@ -45,7 +60,7 @@
 
     Purely affective interaction allows the welfare of an individual to depend on her own actions and on the profile of welfare levels of others. Under an assumption on the structure of mutual affection that we interpret as "non-explosive mutual affection," we show that equilibria of simultaneous-move affective interaction are Pareto optimal independently of whether or not an induced standard game exists. Moreover, if purely affective interaction induces a standard game, then an equilibrium profile of actions is a Nash equilibrium of the game, and this Nash equilibrium and Pareto optimal profile of strategies is locally dominant.
     
-[^3]: 合理的对话。 (arXiv:2305.10164v1 [econ.GN])
+[^4]: 合理的对话。 (arXiv:2305.10164v1 [econ.GN])
 
     Rational Dialogues. (arXiv:2305.10164v1 [econ.GN])
 
@@ -59,7 +74,7 @@
 
     Any finite conversation can be rationalized.
     
-[^4]: XRP交易网络嵌入和相关张量的研究
+[^5]: XRP交易网络嵌入和相关张量的研究
 
     Embedding and correlation tensor for XRP transaction networks. (arXiv:2305.09917v1 [physics.soc-ph])
 
@@ -73,7 +88,7 @@
 
     Cryptoassets are growing rapidly worldwide. One of the large cap cryptoassets is XRP. In this article, we focus on analyzing transaction data for the 2017-2018 period that consist one of the significant XRP market price bursts. We construct weekly weighted directed networks of XRP transactions. These weekly networks are embedded on continuous vector space using a network embedding technique that encodes structural regularities present in the network structure in terms of node vectors. Using a suitable time window we calculate a correlation tensor. A double singular value decomposition of the correlation tensor provides key insights about the system. The significance of the correlation tensor is captured using a randomized correlation tensor. We present a detailed dependence of correlation tensor on model parameters.
     
-[^5]: 系统自组织与自控的新兴增长
+[^6]: 系统自组织与自控的新兴增长
 
     Emergent Growth of System Self-Organization & Self-Control. (arXiv:2305.09837v1 [physics.soc-ph])
 
@@ -87,7 +102,7 @@
 
     In physics, I noticed subjects not explained by formulas were often not studied, like how uncontrolled growth systems changed form. Weather, businesses, societies, environments, communities, cultures, groups, relationships, lives, and livelihoods all do it following some variation of an 'S' curve. It is a slow-fast-slow process of self-animated contextual energy system development. Making working systems, they seem to develop by "find and connect" in three stages, starting small to first A) freely build designs of growing power, then B) diversify, adapt, respond, and harmonize with others, then C) take on one or more roles in their climax environments. It is a life curve of tremendous syntropic success that then ends with decline. Life is particularly risky for small start-ups, but many do succeed. Many powerful civilizations have emerged, some never growing up but growing as endless startups, only to become fragile, fail, and vanish. That looks like a choice.
     
-[^6]: 应用深度学习求解和估计宏观金融动态模型
+[^7]: 应用深度学习求解和估计宏观金融动态模型
 
     Deep Learning for Solving and Estimating Dynamic Macro-Finance Models. (arXiv:2305.09783v1 [q-fin.CP])
 
@@ -101,7 +116,7 @@
 
     We develop a methodology that utilizes deep learning to simultaneously solve and estimate canonical continuous-time general equilibrium models in financial economics. We illustrate our method in two examples: (1) industrial dynamics of firms and (2) macroeconomic models with financial frictions. Through these applications, we illustrate the advantages of our method: generality, simultaneous solution and estimation, leveraging the state-of-art machine-learning techniques, and handling large state space. The method is versatile and can be applied to a vast variety of problems.
     
-[^7]: 在 L\'evy 市场中基于风险度量的时一致资产配置
+[^8]: 在 L\'evy 市场中基于风险度量的时一致资产配置
 
     Time-Consistent Asset Allocation for Risk Measures in a L\'evy Market. (arXiv:2305.09471v1 [q-fin.MF])
 
@@ -115,7 +130,7 @@
 
     Focusing on gains instead of terminal wealth, we consider an asset allocation problem to maximize time-consistently a mean-risk reward function with a general risk measure which is i) law-invariant, ii) cash- or shift-invariant, and iii) positively homogeneous, and possibly plugged into a general function. We model the market via a generalized version of the multi-dimensional Black-Scholes model using $\alpha$-stable L\'evy processes and give supplementary results for the classical Black-Scholes model. The optimal solution to this problem is a Nash subgame equilibrium given by the solution of an extended Hamilton-Jacobi-Bellman equation. Moreover, we show that the optimal solution is deterministic and unique under appropriate assumptions.
     
-[^8]: 信用风险管理中的量化不确定性：一种深度证据回归方法
+[^9]: 信用风险管理中的量化不确定性：一种深度证据回归方法
 
     UQ for Credit Risk Management: A deep evidence regression approach. (arXiv:2305.04967v1 [q-fin.RM])
 
@@ -129,7 +144,7 @@
 
     Machine Learning has invariantly found its way into various Credit Risk applications. Due to the intrinsic nature of Credit Risk, quantifying the uncertainty of the predicted risk metrics is essential, and applying uncertainty-aware deep learning models to credit risk settings can be very helpful. In this work, we have explored the application of a scalable UQ-aware deep learning technique, Deep Evidence Regression and applied it to predicting Loss Given Default. We contribute to the literature by extending the Deep Evidence Regression methodology to learning target variables generated by a Weibull process and provide the relevant learning framework. We demonstrate the application of our approach to both simulated and real-world data.
     
-[^9]: 基于交易网络相关张量谱的XRP价格预测
+[^10]: 基于交易网络相关张量谱的XRP价格预测
 
     Projecting XRP price burst by correlation tensor spectra of transaction networks. (arXiv:2211.03002v2 [physics.soc-ph] UPDATED)
 
@@ -143,7 +158,7 @@
 
     Cryptoassets are becoming essential in the digital economy era. XRP is one of the large market cap cryptoassets. Here, we develop a novel method of correlation tensor spectra for the dynamical XRP networks, which can provide an early indication for XRP price. A weighed directed weekly transaction network among XRP wallets is constructed by aggregating all transactions for a week. A vector for each node is then obtained by embedding the weekly network in continuous vector space. From a set of weekly snapshots of node vectors, we construct a correlation tensor. A double singular value decomposition of the correlation tensors gives its singular values. The significance of the singular values is shown by comparing with its randomize counterpart. The evolution of singular values shows a distinctive behavior. The largest singular value shows a significant negative correlation with XRP/USD price. We observe the minimum of the largest singular values at the XRP/USD price peak during the first 
     
-[^10]: 电子杂货配送中心集成储存分配：考虑日内需求模式(arXiv:2209.03998v2 [econ.GN] UPDATED)
+[^11]: 电子杂货配送中心集成储存分配：考虑日内需求模式(arXiv:2209.03998v2 [econ.GN] UPDATED)
 
     Integrated storage assignment for an e-grocery fulfilment centre: Accounting for day-of-week demand patterns. (arXiv:2209.03998v2 [econ.GN] UPDATED)
 
@@ -157,7 +172,7 @@
 
     In this paper, we deal with a storage assignment problem arising in a fulfilment centre of a major European e-grocery retailer. The centre can be characterised as a hybrid warehouse consisting of a highly efficient and partially automated fast-picking area designed as a pick-and-pass system with multiple stations, and a picker-to-parts area. The storage assignment problem considered in this paper comprises the decisions to select the products to be allocated to the fast-picking area, the assignment of the products to picking stations and the determination of a shelf within the assigned station. The objective is to achieve a high level of picking efficiency while respecting station workload balancing and precedence order constraints. We propose to solve this three-level problem using an integrated MILP model. In computational experiments with real-world data, we show that using the proposed integrated approach yields significantly better results than a sequential approach in which the s
     
-[^11]: 混合系统中的相关性估计
+[^12]: 混合系统中的相关性估计
 
     Correlation Estimation in Hybrid Systems. (arXiv:2111.06042v4 [q-fin.CP] UPDATED)
 
@@ -171,7 +186,7 @@
 
     A simple method is proposed to estimate the instantaneous correlations between state variables in a hybrid system from the empirical correlations between observable market quantities such as spot rate, stock price and implied volatility. The new algorithm is extremely fast since only low-dimension linear systems are involved. If the resulting matrix from the linear systems is not positive semidefinite, the shrinking method, which requires only bisection-style iterations, is recommended to convert the matrix to positive semidefinite. The square of short-term at-the-money implied volatility is suggested as the proxy for the unobservable stochastic variance. When the implied volatility is not available, a simple trick is provided to fill in the missing correlations. Numerical study shows that the estimates are reasonably accurate, when using more than 1,000 data points. In addition, the algorithm is robust to misspecified interest rate model parameters and the short-sampling-period assump
     
-[^12]: 随机时间跨度下的Epstein-Zin效用最大化
+[^13]: 随机时间跨度下的Epstein-Zin效用最大化
 
     Epstein-Zin Utility Maximization on a Random Horizon. (arXiv:1903.08782v5 [q-fin.MF] UPDATED)
 
