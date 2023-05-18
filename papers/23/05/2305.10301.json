@@ -1,0 +1,12 @@
+{
+    "title": "Heterogeneous Noise and Stable Miscoordination. (arXiv:2305.10301v1 [econ.TH])",
+    "abstract": "Coordination games admit two types of equilibria: pure equilibria, where all players successfully coordinate their actions, and mixed equilibria, where players frequently experience miscoordination. The existing literature shows that under many evolutionary dynamics, populations converge to a pure equilibrium from almost any initial distribution of actions. By contrast, we show that under plausible learning dynamics, where agents observe the actions of a random sample of their opponents and adjust their strategies accordingly, stable miscoordination can arise when there is heterogeneity in the sample sizes. This occurs when some agents make decisions based on small samples (anecdotal evidence) while others rely on large samples. Finally, we demonstrate the empirical relevance of our results in a bargaining application.",
+    "link": "http://arxiv.org/abs/2305.10301",
+    "context": "Title: Heterogeneous Noise and Stable Miscoordination. (arXiv:2305.10301v1 [econ.TH])\nAbstract: Coordination games admit two types of equilibria: pure equilibria, where all players successfully coordinate their actions, and mixed equilibria, where players frequently experience miscoordination. The existing literature shows that under many evolutionary dynamics, populations converge to a pure equilibrium from almost any initial distribution of actions. By contrast, we show that under plausible learning dynamics, where agents observe the actions of a random sample of their opponents and adjust their strategies accordingly, stable miscoordination can arise when there is heterogeneity in the sample sizes. This occurs when some agents make decisions based on small samples (anecdotal evidence) while others rely on large samples. Finally, we demonstrate the empirical relevance of our results in a bargaining application.",
+    "path": "papers/23/05/2305.10301.json",
+    "total_tokens": 747,
+    "translated_title": "异质性噪声和稳定的错协调",
+    "translated_abstract": "协调博弈存在两种均衡：纯粹均衡，所有玩家成功协调其行动，和混合均衡，玩家经常经历错协调。现有文献表明，在许多进化动态下，人口从几乎任何初始行动分布中收敛于纯均衡。相反，我们显示，在合理的学习动态下（即代理人观察对手的随机样本并相应地调整策略），当样本大小存在异质性时，可产生稳定的错协调。这发生在一些代理人基于小样本（典型证据）做出决策，而其他代理人则依赖大样本。最后，我们在一个谈判应用中证明了我们的结果的实证相关性。",
+    "tldr": "学习动态下，样本大小的异质性可能导致博弈出现稳定的错协调，而非纯粹均衡，实证检验上有重要启示。",
+    "en_tdlr": "Learning dynamics with heterogeneous sample sizes can lead to stable miscoordination instead of pure equilibrium, which has important implications for empirical applications such as bargaining."
+}

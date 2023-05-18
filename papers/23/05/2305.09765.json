@@ -1,0 +1,12 @@
+{
+    "title": "OpenVR: Teleoperation for Manipulation. (arXiv:2305.09765v1 [cs.RO])",
+    "abstract": "Across the robotics field, quality demonstrations are an integral part of many control pipelines. However, collecting high-quality demonstration trajectories remains time-consuming and difficult, often resulting in the number of demonstrations being the performance bottleneck. To address this issue, we present a method of Virtual Reality (VR) Teleoperation that uses an Oculus VR headset to teleoperate a Franka Emika Panda robot. Although other VR teleoperation methods exist, our code is open source, designed for readily available consumer hardware, easy to modify, agnostic to experimental setup, and simple to use.",
+    "link": "http://arxiv.org/abs/2305.09765",
+    "context": "Title: OpenVR: Teleoperation for Manipulation. (arXiv:2305.09765v1 [cs.RO])\nAbstract: Across the robotics field, quality demonstrations are an integral part of many control pipelines. However, collecting high-quality demonstration trajectories remains time-consuming and difficult, often resulting in the number of demonstrations being the performance bottleneck. To address this issue, we present a method of Virtual Reality (VR) Teleoperation that uses an Oculus VR headset to teleoperate a Franka Emika Panda robot. Although other VR teleoperation methods exist, our code is open source, designed for readily available consumer hardware, easy to modify, agnostic to experimental setup, and simple to use.",
+    "path": "papers/23/05/2305.09765.json",
+    "total_tokens": 706,
+    "translated_title": "OpenVR：操作的远程控制",
+    "translated_abstract": "在机器人领域，高质量的演示文件是许多控制流程不可或缺的一部分。然而，收集高质量的演示轨迹仍然费时费力，往往导致演示的数量成为性能瓶颈。为了解决这个问题，我们提出了一种虚拟现实（VR）远程控制方法，使用Oculus VR头戴式显示设备对Franka Emika Panda机器人进行远程操控。虽然还存在其他VR远程控制方法，但我们的代码是开源的，适用于易得的消费级硬件，易于修改，对实验设备设置不具有特定的要求，简单易用。",
+    "tldr": "该论文提出了一种基于虚拟现实技术的远程控制方法，旨在解决演示文件的质量不足与收集困难的问题，并实现了代码开源、硬件易得、易于修改和使用。",
+    "en_tdlr": "This paper proposes a teleoperation method based on virtual reality technology, aiming to solve the problems of low-quality demonstrations and difficult collection, and achieves open-source code, easily accessible hardware, ease of modification and use."
+}

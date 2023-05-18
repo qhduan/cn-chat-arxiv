@@ -1,0 +1,11 @@
+{
+    "title": "Quantum Machine Learning for Malware Classification. (arXiv:2305.09674v1 [cs.CR])",
+    "abstract": "In a context of malicious software detection, machine learning (ML) is widely used to generalize to new malware. However, it has been demonstrated that ML models can be fooled or may have generalization problems on malware that has never been seen. We investigate the possible benefits of quantum algorithms for classification tasks. We implement two models of Quantum Machine Learning algorithms, and we compare them to classical models for the classification of a dataset composed of malicious and benign executable files. We try to optimize our algorithms based on methods found in the literature, and analyze our results in an exploratory way, to identify the most interesting directions to explore for the future.",
+    "link": "http://arxiv.org/abs/2305.09674",
+    "context": "Title: Quantum Machine Learning for Malware Classification. (arXiv:2305.09674v1 [cs.CR])\nAbstract: In a context of malicious software detection, machine learning (ML) is widely used to generalize to new malware. However, it has been demonstrated that ML models can be fooled or may have generalization problems on malware that has never been seen. We investigate the possible benefits of quantum algorithms for classification tasks. We implement two models of Quantum Machine Learning algorithms, and we compare them to classical models for the classification of a dataset composed of malicious and benign executable files. We try to optimize our algorithms based on methods found in the literature, and analyze our results in an exploratory way, to identify the most interesting directions to explore for the future.",
+    "path": "papers/23/05/2305.09674.json",
+    "total_tokens": 733,
+    "translated_title": "恶意软件分类的量子机器学习",
+    "tldr": "量子机器学习对于恶意软件分类具有潜在的优势，本文实现了两种量子机器学习模型并与传统模型进行比较和分析，结果表明有可能在未来的研究中发掘更有意义的方向。",
+    "en_tdlr": "Quantum machine learning has the potential for better malware classification. This paper implements and compares two quantum machine learning models with classical models on a dataset of malicious and benign executable files, and analyzes the results to identify potential directions for future research."
+}

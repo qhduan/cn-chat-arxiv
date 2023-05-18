@@ -1,0 +1,12 @@
+{
+    "title": "Unveiling the Potential of Counterfactuals Explanations in Employability. (arXiv:2305.10069v1 [cs.AI])",
+    "abstract": "In eXplainable Artificial Intelligence (XAI), counterfactual explanations are known to give simple, short, and comprehensible justifications for complex model decisions. However, we are yet to see more applied studies in which they are applied in real-world cases. To fill this gap, this study focuses on showing how counterfactuals are applied to employability-related problems which involve complex machine learning algorithms. For these use cases, we use real data obtained from a public Belgian employment institution (VDAB). The use cases presented go beyond the mere application of counterfactuals as explanations, showing how they can enhance decision support, comply with legal requirements, guide controlled changes, and analyze novel insights.",
+    "link": "http://arxiv.org/abs/2305.10069",
+    "context": "Title: Unveiling the Potential of Counterfactuals Explanations in Employability. (arXiv:2305.10069v1 [cs.AI])\nAbstract: In eXplainable Artificial Intelligence (XAI), counterfactual explanations are known to give simple, short, and comprehensible justifications for complex model decisions. However, we are yet to see more applied studies in which they are applied in real-world cases. To fill this gap, this study focuses on showing how counterfactuals are applied to employability-related problems which involve complex machine learning algorithms. For these use cases, we use real data obtained from a public Belgian employment institution (VDAB). The use cases presented go beyond the mere application of counterfactuals as explanations, showing how they can enhance decision support, comply with legal requirements, guide controlled changes, and analyze novel insights.",
+    "path": "papers/23/05/2305.10069.json",
+    "total_tokens": 775,
+    "translated_title": "揭示反事实解释在就业领域的潜力",
+    "translated_abstract": "在可解释的人工智能（XAI）中，反事实解释被认为可以为复杂的模型决策提供简单、简洁、易懂的理由。然而，我们还没有看到更多应用研究，将它们应用于真实世界情况。为了填补这一空白，本研究侧重于展示如何将反事实用于与就业相关的问题，其中涉及复杂的机器学习算法。对于这些用例，我们使用从比利时公共就业机构（VDAB）获得的真实数据。所提出的用例超越了仅将反事实用作解释的应用程序，展示了它们如何增强决策支持，遵守法律要求，引导受控变化并分析新颖见解。",
+    "tldr": "本研究展示了反事实解释在就业领域的多种应用，包括增强决策支持、遵守法律要求、引导受控变化和分析新颖见解。",
+    "en_tdlr": "This study demonstrates the various applications of counterfactual explanations in the employability field, including enhancing decision support, complying with legal requirements, guiding controlled changes, and analyzing novel insights."
+}

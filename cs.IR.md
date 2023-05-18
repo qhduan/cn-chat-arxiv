@@ -2,36 +2,123 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Large Language Models are Built-in Autoregressive Search Engines.](http://arxiv.org/abs/2305.09612) | 本篇论文指出大型语言模型可以作为内置搜索引擎，通过提供一些上下文演示直接生成Web URLs，在文档检索中表现出色。 |
-| [^2] | [Robust and lightweight audio fingerprint for Automatic Content Recognition.](http://arxiv.org/abs/2305.09559) | 本文提出了一种鲁棒且轻量级的音频指纹识别系统，可用于自动内容识别，具有高度可扩展性和低功耗，并在专有ACR数据集精度、检索速度、内存使用和鲁棒性等所有评估指标上均显著优于基于最小哈希的音频指纹。 |
-| [^3] | [Life of PII -- A PII Obfuscation Transformer.](http://arxiv.org/abs/2305.09550) | “Life of PII”是一种新颖的混淆变换器框架，用于将PII转化为人造PII同时尽可能地保留原始信息、意图和上下文，使我们能够有选择地混淆文档中的敏感信息，同时保留文档的统计和语义特性。 |
-| [^4] | [Consumer-side Fairness in Recommender Systems: A Systematic Survey of Methods and Evaluation.](http://arxiv.org/abs/2305.09330) | 推荐系统的公平性问题越来越引起人们的关注，尤其是用户公平性，已经提出了很多解决方案来减轻用户在使用推荐系统过程中体验到的歧视问题。 |
-| [^5] | [Fairness and Diversity in Information Access Systems.](http://arxiv.org/abs/2305.09319) | 本论文探讨了信息访问系统中多样性和公平性的关系。多样性和公平性是两个独立但密切相关的概念，推动多样性可以有效地实现公平。 |
-| [^6] | [Hybrid and Collaborative Passage Reranking.](http://arxiv.org/abs/2305.09313) | 该论文提出了一种名为HybRank的混合与协作的段落再排序方法，通过利用上游检索器的相似性度量实现段落协作，再利用稀疏和密集检索器的词汇和语义属性进行重新排序，该方法可以增强包括先前被重新排序的段落列表在内的任意段落列表，并在实验证明了性能稳定的提升。 |
-| [^7] | [HyHTM: Hyperbolic Geometry based Hierarchical Topic Models.](http://arxiv.org/abs/2305.09258) | HyHTM是一种基于双曲几何的层次主题模型，通过将双曲几何中的层次信息纳入主题模型中，显式地建模主题层次结构。相较于传统方法，HyHTM更好地关注主题之间的父子关系，并产生了连贯的主题层次结构。同时，HyHTM的计算速度更快，内存占用更小。 |
-| [^8] | [Text2Cohort: Democratizing the NCI Imaging Data Commons with Natural Language Cohort Discovery.](http://arxiv.org/abs/2305.07637) | Text2Cohort是一个基于大语言模型的工具箱，可以将用户输入转化为IDC数据库查询，促进自然语言队列发现，减少研究人员查询IDC数据库的学习曲线，实现了癌症成像数据的民主化。 |
-| [^9] | [Ensemble Modeling with Contrastive Knowledge Distillation for Sequential Recommendation.](http://arxiv.org/abs/2304.14668) | 本研究提出了一种基于对比知识蒸馏的集成建模方法EMKD，它采用多个并行网络作为序列编码器，在序列推荐中根据所有网络的输出分布推荐物品。实验证明，EMKD在两个真实世界数据集上的表现显著优于最先进的方法。 |
-| [^10] | [Meta-optimized Contrastive Learning for Sequential Recommendation.](http://arxiv.org/abs/2304.07763) | 本文提出了 MCLRec 模型，该模型在数据增强和可学习模型增强操作的基础上，解决了现有对比学习方法难以推广和训练数据不足的问题。 |
-| [^11] | [BERT4Loc: BERT for Location -- POI Recommender System.](http://arxiv.org/abs/2208.01375) | BERT4Loc是一种基于BERT的位置推荐系统，将地理位置信息和用户偏好相结合，提供个性化的基于位置的建议，相较于预测序列中下一个POI的模型，提供更相关的推荐，在基准数据集上实现了较好的性能。 |
-| [^12] | [UNIQORN: Unified Question Answering over RDF Knowledge Graphs and Natural Language Text.](http://arxiv.org/abs/2108.08614) | 本文提出了一个名为UNIQORN的问答系统，它能够无缝地处理RDF数据和文本，使用fine-tuned BERT模型为问题构建上下文图，并使用图算法确定与问题相关的子图来回答问题。 |
+| [^1] | [Extracting Blockchain Concepts from Text.](http://arxiv.org/abs/2305.10408) | 本研究旨在通过机器学习模型提取区块链领域的信息并组织，以帮助用户浏览该领域。 |
+| [^2] | [Large-Scale Text Analysis Using Generative Language Models: A Case Study in Discovering Public Value Expressions in AI Patents.](http://arxiv.org/abs/2305.10383) | 本文研究使用生成语言模型GPT-4进行大规模文本分析，在US AI专利中发现公共价值表达。采用高级布尔查询收集了154,934个专利文档，并与USPTO的完整专利文本合并。得出5.4百万句子的语料库，使用框架以及GPT-4提示进行标记和理性化。评估结果表明，这种方法很准确。 |
+| [^3] | [Knowledge-enhanced Mixed-initiative Dialogue System for Emotional Support Conversations.](http://arxiv.org/abs/2305.10172) | 本文针对情感支持对话系统的混合主动特点，提出了基于知识增强的混合主动对话框架，该框架从大型心理健康知识图谱中检索实际案例知识来生成混合主动响应，并在共情和问题解决能力方面显著优于几个基线模型。 |
+| [^4] | [Unconfounded Propensity Estimation for Unbiased Ranking.](http://arxiv.org/abs/2305.09918) | 该论文提出了一种新的算法PropensityNet，用于在强日志记录策略下进行无偏学习排名（ULTR）的倾向性估计，优于现有的最先进ULTR算法。 |
+| [^5] | [Semantic Similarity Measure of Natural Language Text through Machine Learning and a Keyword-Aware Cross-Encoder-Ranking Summarizer -- A Case Study Using UCGIS GIS&T Body of Knowledge.](http://arxiv.org/abs/2305.09877) | 本文提出了一种新方法，采用机器学习模型和关键词感知交叉编码器排序摘要程序，从文本内容中提取语义信息，并度量 GIS&T BoK 话题之间的语义相似度，以解决手动定义话题关系带来的不完整评估问题。该方法在准确度量话题关系方面表现良好，对 GIS&T 领域的研究和实践具有重要意义。 |
+| [^6] | [Knowledge Graph Completion Models are Few-shot Learners: An Empirical Study of Relation Labeling in E-commerce with LLMs.](http://arxiv.org/abs/2305.09858) | 本文通过对知识图谱中关系标注的实证研究，发现大型语言模型具有强大的学习能力以及在少量标记数据下预测产品类型之间关系的有效性。 |
+| [^7] | [Data Bias Management.](http://arxiv.org/abs/2305.09686) | 本文讲述了数据偏差在机器学习中的应用、影响及可能的解决方案 |
+| [^8] | [Robust and lightweight audio fingerprint for Automatic Content Recognition.](http://arxiv.org/abs/2305.09559) | 本文提出了一种鲁棒且轻量级的音频指纹识别系统，可用于自动内容识别，具有高度可扩展性和低功耗，并在专有ACR数据集精度、检索速度、内存使用和鲁棒性等所有评估指标上均显著优于基于最小哈希的音频指纹。 |
+| [^9] | [Life of PII -- A PII Obfuscation Transformer.](http://arxiv.org/abs/2305.09550) | “Life of PII”是一种新颖的混淆变换器框架，用于将PII转化为人造PII同时尽可能地保留原始信息、意图和上下文，使我们能够有选择地混淆文档中的敏感信息，同时保留文档的统计和语义特性。 |
+| [^10] | [Manipulating Visually-aware Federated Recommender Systems and Its Countermeasures.](http://arxiv.org/abs/2305.08183) | 本文研究了可视化信息对联邦推荐系统的影响，发现当加入视觉信息时，现有的恶意推广攻击将变得无效。 |
+| [^11] | [Leveraging Large Language Models in Conversational Recommender Systems.](http://arxiv.org/abs/2305.07961) | 本文提出了一种使用大型语言模型构建端到端大规模对话推荐系统的路线图，解决在该系统中有效利用大型语言模型所面临的技术挑战。 |
+| [^12] | [Frequency Enhanced Hybrid Attention Network for Sequential Recommendation.](http://arxiv.org/abs/2304.09184) | 本文提出了一种新的序列推荐算法——频率增强的混合注意力网络（FEARec）。该算法通过一个斜坡结构将原有的自注意力从时间域转换到频率域，使得低频和高频信息可以被明确地学习。同时，通过自相关的设计，该算法还可以捕捉到用户行为的固有周期性。在四个真实世界的基准测试中，该算法表现优于现有最先进的方法。 |
+| [^13] | [Meta-optimized Contrastive Learning for Sequential Recommendation.](http://arxiv.org/abs/2304.07763) | 本文提出了 MCLRec 模型，该模型在数据增强和可学习模型增强操作的基础上，解决了现有对比学习方法难以推广和训练数据不足的问题。 |
+| [^14] | [Variance Tolerance Factors For Interpreting ALL Neural Networks.](http://arxiv.org/abs/2209.13858) | 本文提出一种用于解释黑盒神经网络的方差容忍因子（VTF）理论，通过排名特征的方式探索特征的重要性，同时构建一个基本模型和特征模型的新型架构，来探索所有表现良好的神经网络中特征的重要性，并且经过基准测试和应用于实际环境中的实验验证了方法的可靠性。 |
+| [^15] | [(Un)likelihood Training for Interpretable Embedding.](http://arxiv.org/abs/2207.00282) | 该论文提出了两种新的训练方法：可能性训练和不可能性训练，以解释嵌入向量背后的语义并解决标签稀疏问题。这些方法在图像和视频分类、检索和生成任务中表现出色，提高了学习嵌入的可解释性。 |
 
 # 详细
 
-[^1]: 大型语言模型是内置的自回归搜索引擎
+[^1]: 从文本中提取区块链概念
 
-    Large Language Models are Built-in Autoregressive Search Engines. (arXiv:2305.09612v1 [cs.CL])
+    Extracting Blockchain Concepts from Text. (arXiv:2305.10408v1 [cs.IR])
 
-    [http://arxiv.org/abs/2305.09612](http://arxiv.org/abs/2305.09612)
+    [http://arxiv.org/abs/2305.10408](http://arxiv.org/abs/2305.10408)
 
-    本篇论文指出大型语言模型可以作为内置搜索引擎，通过提供一些上下文演示直接生成Web URLs，在文档检索中表现出色。
+    本研究旨在通过机器学习模型提取区块链领域的信息并组织，以帮助用户浏览该领域。
 
     
 
-    文档检索是标准网络搜索引擎的关键阶段。现有的双编码器密集检索器独立地获取问题和文档的表示，只允许它们之间的浅层交互。为了克服这个限制，最近的自回归搜索引擎通过直接生成候选池中相关文档的标识符来替换双编码器架构。然而，这种自回归搜索引擎的训练成本随着候选文档数量的增加而急剧上升。在本文中，我们发现大型语言模型（LLM）可以遵循人类指示直接生成文档检索的URL。令人惊讶的是，当提供一些{Query-URL}对作为上下文演示时，LLMs可以生成Web URL，其中近90％的相应文档包含开放域问题的正确答案。这样，LLMs可以被认为是内置搜索引擎，因为它们没有明确训练以映射问题和文档之间的相关性。
+    区块链提供了一种机制，通过该机制，相互不信任的远程方可以就信息分类账的状态达成共识。随着这个领域的快速发展，需要学习区块链的人也越来越多。由于这是一个技术性的主题，开始学习可能会感到相当不可思议。因此，该项目的主要目标是应用机器学习模型从白皮书和学术论文中提取关于区块链领域的信息，以组织这些信息并帮助用户浏览该领域。
 
-    Document retrieval is a key stage of standard Web search engines. Existing dual-encoder dense retrievers obtain representations for questions and documents independently, allowing for only shallow interactions between them. To overcome this limitation, recent autoregressive search engines replace the dual-encoder architecture by directly generating identifiers for relevant documents in the candidate pool. However, the training cost of such autoregressive search engines rises sharply as the number of candidate documents increases. In this paper, we find that large language models (LLMs) can follow human instructions to directly generate URLs for document retrieval.  Surprisingly, when providing a few {Query-URL} pairs as in-context demonstrations, LLMs can generate Web URLs where nearly 90\% of the corresponding documents contain correct answers to open-domain questions. In this way, LLMs can be thought of as built-in search engines, since they have not been explicitly trained to map qu
+    Blockchains provide a mechanism through which mutually distrustful remote parties can reach consensus on the state of a ledger of information. With the great acceleration with which this space is developed, the demand for those seeking to learn about blockchain also grows. Being a technical subject, it can be quite intimidating to start learning. For this reason, the main objective of this project was to apply machine learning models to extract information from whitepapers and academic articles focused on the blockchain area to organize this information and aid users to navigate the space.
     
-[^2]: 自动内容识别中的鲁棒且轻量级音频指纹识别系统
+[^2]: 使用生成语言模型进行大规模文本分析：在AI专利中发现公共价值表达的案例研究
+
+    Large-Scale Text Analysis Using Generative Language Models: A Case Study in Discovering Public Value Expressions in AI Patents. (arXiv:2305.10383v1 [cs.CL])
+
+    [http://arxiv.org/abs/2305.10383](http://arxiv.org/abs/2305.10383)
+
+    本文研究使用生成语言模型GPT-4进行大规模文本分析，在US AI专利中发现公共价值表达。采用高级布尔查询收集了154,934个专利文档，并与USPTO的完整专利文本合并。得出5.4百万句子的语料库，使用框架以及GPT-4提示进行标记和理性化。评估结果表明，这种方法很准确。
+
+    
+
+    标记数据对于训练文本分类器至关重要，但对于复杂和抽象的概念而言，准确标记常常很难实现。本文采用一种新颖方法，使用生成语言模型（GPT-4）进行大规模文本分析的标记和理性化。我们将这种方法应用于在美国AI专利中发现公共价值表达的任务上。我们使用在InnovationQ+上提交的高级布尔查询收集了一个包含154,934个专利文档的数据库，这些结果与来自USPTO的完整专利文本合并，总计5.4百万句子。我们设计了一个框架来识别和标记这些AI专利句子中的公共价值表达。我们开发了GPT-4的提示，其中包括文本分类的定义、指导方针、示例和理性化。我们使用BLEU分数和主题建模评估了GPT-4生成的标签和理性化的质量，并发现它们是准确的。
+
+    Labeling data is essential for training text classifiers but is often difficult to accomplish accurately, especially for complex and abstract concepts. Seeking an improved method, this paper employs a novel approach using a generative language model (GPT-4) to produce labels and rationales for large-scale text analysis. We apply this approach to the task of discovering public value expressions in US AI patents. We collect a database comprising 154,934 patent documents using an advanced Boolean query submitted to InnovationQ+. The results are merged with full patent text from the USPTO, resulting in 5.4 million sentences. We design a framework for identifying and labeling public value expressions in these AI patent sentences. A prompt for GPT-4 is developed which includes definitions, guidelines, examples, and rationales for text classification. We evaluate the quality of the labels and rationales produced by GPT-4 using BLEU scores and topic modeling and find that they are accurate, di
+    
+[^3]: 基于知识增强的混合主动对话情感支持系统
+
+    Knowledge-enhanced Mixed-initiative Dialogue System for Emotional Support Conversations. (arXiv:2305.10172v1 [cs.CL])
+
+    [http://arxiv.org/abs/2305.10172](http://arxiv.org/abs/2305.10172)
+
+    本文针对情感支持对话系统的混合主动特点，提出了基于知识增强的混合主动对话框架，该框架从大型心理健康知识图谱中检索实际案例知识来生成混合主动响应，并在共情和问题解决能力方面显著优于几个基线模型。
+
+    
+
+    与共情对话不同，情感支持对话系统需要在安慰求助者的同时主动帮助探索和解决问题。本文研究了混合主动情感支持对话的问题，其中用户和系统都可以在对话中采取主动。我们提出了一个用于评估混合主动情感支持对话的新型模式，并提出了四个情感支持指标来评价混合主动交互。分析揭示了构建混合主动情感支持对话系统的必要性和挑战。在此基础上，我们提出了基于知识增强的混合主动对话框架（KEMI），该框架从大型心理健康知识图谱中检索实际案例知识来生成混合主动响应。实验证明，KEMI在共情和问题解决能力方面显著优于几个基线模型。
+
+    Unlike empathetic dialogues, the system in emotional support conversations (ESC) is expected to not only convey empathy for comforting the help-seeker, but also proactively assist in exploring and addressing their problems during the conversation. In this work, we study the problem of mixed-initiative ESC where the user and system can both take the initiative in leading the conversation. Specifically, we conduct a novel analysis on mixed-initiative ESC systems with a tailor-designed schema that divides utterances into different types with speaker roles and initiative types. Four emotional support metrics are proposed to evaluate the mixed-initiative interactions. The analysis reveals the necessity and challenges of building mixed-initiative ESC systems. In the light of this, we propose a knowledge-enhanced mixed-initiative framework (KEMI) for ESC, which retrieves actual case knowledge from a large-scale mental health knowledge graph for generating mixed-initiative responses. Experimen
+    
+[^4]: 无偏倾向估计用于无偏排序
+
+    Unconfounded Propensity Estimation for Unbiased Ranking. (arXiv:2305.09918v1 [cs.IR])
+
+    [http://arxiv.org/abs/2305.09918](http://arxiv.org/abs/2305.09918)
+
+    该论文提出了一种新的算法PropensityNet，用于在强日志记录策略下进行无偏学习排名（ULTR）的倾向性估计，优于现有的最先进ULTR算法。
+
+    
+
+    无偏学习排名（ULTR）的目标是利用隐含的用户反馈来优化学习排序系统。在现有解决方案中，自动ULTR算法在实践中因其卓越的性能和低部署成本而受到关注，该算法同时学习用户偏差模型（即倾向性模型）和无偏排名器。尽管该算法在理论上是可靠的，但其有效性通常在弱日志记录策略下进行验证，其中排名模型几乎无法根据与查询相关性来对文档进行排名。然而，当日志记录策略很强时，例如工业部署的排名策略，所报告的有效性无法再现。在本文中，我们首先从因果角度调查ULTR，并揭示一个负面结果：现有的ULTR算法未能解决由查询-文档相关性混淆导致的倾向性高估问题。然后，我们提出了一种基于反门调整的新的学习目标，并提出了一种名为PropensityNet的算法，用于在强日志记录策略下为ULTR估计无偏的倾向性分数。多个数据集的实证结果表明，PropensityNet在强日志记录策略和弱日志记录策略下均优于现有的最先进的ULTR算法。
+
+    The goal of unbiased learning to rank~(ULTR) is to leverage implicit user feedback for optimizing learning-to-rank systems. Among existing solutions, automatic ULTR algorithms that jointly learn user bias models (\ie propensity models) with unbiased rankers have received a lot of attention due to their superior performance and low deployment cost in practice. Despite their theoretical soundness, the effectiveness is usually justified under a weak logging policy, where the ranking model can barely rank documents according to their relevance to the query. However, when the logging policy is strong, e.g., an industry-deployed ranking policy, the reported effectiveness cannot be reproduced. In this paper, we first investigate ULTR from a causal perspective and uncover a negative result: existing ULTR algorithms fail to address the issue of propensity overestimation caused by the query-document relevance confounder. Then, we propose a new learning objective based on backdoor adjustment and 
+    
+[^5]: 基于机器学习和关键词感知交叉编码器排序摘要程序的自然语言文本语义相似度度量——以UCGIS GIS&T知识体系为案例研究
+
+    Semantic Similarity Measure of Natural Language Text through Machine Learning and a Keyword-Aware Cross-Encoder-Ranking Summarizer -- A Case Study Using UCGIS GIS&T Body of Knowledge. (arXiv:2305.09877v1 [cs.CL])
+
+    [http://arxiv.org/abs/2305.09877](http://arxiv.org/abs/2305.09877)
+
+    本文提出了一种新方法，采用机器学习模型和关键词感知交叉编码器排序摘要程序，从文本内容中提取语义信息，并度量 GIS&T BoK 话题之间的语义相似度，以解决手动定义话题关系带来的不完整评估问题。该方法在准确度量话题关系方面表现良好，对 GIS&T 领域的研究和实践具有重要意义。
+
+    
+
+    GIS&T 知识体系是由地理信息科学与技术相关团体发起的一个社区项目，旨在定义、开发和记录地理信息科学与技术相关话题。本文提出了一种新方法，采用机器学习模型和关键词感知交叉编码器排序摘要程序，从文本内容中提取语义信息，并度量 BoK 话题之间的语义相似度。结果表明，我们的方法在识别 BoK 话题之间的语义相似度方面优于其他 NLP 技术。该方法能够自动且准确地度量话题之间的关系，从而使 GIS&T 领域的研究人员和实践者受益。
+
+    Initiated by the University Consortium of Geographic Information Science (UCGIS), GIS&T Body of Knowledge (BoK) is a community-driven endeavor to define, develop, and document geospatial topics related to geographic information science and technologies (GIS&T). In recent years, GIS&T BoK has undergone rigorous development in terms of its topic re-organization and content updating, resulting in a new digital version of the project. While the BoK topics provide useful materials for researchers and students to learn about GIS, the semantic relationships among the topics, such as semantic similarity, should also be identified so that a better and automated topic navigation can be achieved. Currently, the related topics are either defined manually by editors or authors, which may result in an incomplete assessment of topic relationship. To address this challenge, our research evaluates the effectiveness of multiple natural language processing (NLP) techniques in extracting semantics from te
+    
+[^6]: 知识图谱补全模型是少样本学习者：以 LLMS 在电商中的关系标注为例的经验研究
+
+    Knowledge Graph Completion Models are Few-shot Learners: An Empirical Study of Relation Labeling in E-commerce with LLMs. (arXiv:2305.09858v1 [cs.IR])
+
+    [http://arxiv.org/abs/2305.09858](http://arxiv.org/abs/2305.09858)
+
+    本文通过对知识图谱中关系标注的实证研究，发现大型语言模型具有强大的学习能力以及在少量标记数据下预测产品类型之间关系的有效性。
+
+    
+
+    知识图谱在增强电子商务系统性能方面发挥着至关重要的作用，提供了关于实体及其关系的结构化信息，例如产品或产品类型之间的互补或替代关系，这些信息可以在推荐系统中利用。然而，由于电子商务领域的动态性和人力成本相关的原因，知识图谱中的关系标注仍然是一个具有挑战性的任务。最近，大型语言模型（LLM）的突破在许多自然语言处理任务中展示了出乎意料的结果。在本文中，我们进行了一个关于 LLM 在电子商务知识图谱中进行关系标注的实证研究，研究它们在自然语言方面强大的学习能力以及在有限标记数据下预测产品类型之间关系的有效性。我们评估了各种 LLM，包括 PaLM 和 GPT-3.5，在基准数据集上，证明它们能够达到与人类相当的关系性能水平。
+
+    Knowledge Graphs (KGs) play a crucial role in enhancing e-commerce system performance by providing structured information about entities and their relationships, such as complementary or substitutable relations between products or product types, which can be utilized in recommender systems. However, relation labeling in KGs remains a challenging task due to the dynamic nature of e-commerce domains and the associated cost of human labor. Recently, breakthroughs in Large Language Models (LLMs) have shown surprising results in numerous natural language processing tasks. In this paper, we conduct an empirical study of LLMs for relation labeling in e-commerce KGs, investigating their powerful learning capabilities in natural language and effectiveness in predicting relations between product types with limited labeled data. We evaluate various LLMs, including PaLM and GPT-3.5, on benchmark datasets, demonstrating their ability to achieve competitive performance compared to humans on relation
+    
+[^7]: 数据偏差管理
+
+    Data Bias Management. (arXiv:2305.09686v1 [cs.LG])
+
+    [http://arxiv.org/abs/2305.09686](http://arxiv.org/abs/2305.09686)
+
+    本文讲述了数据偏差在机器学习中的应用、影响及可能的解决方案
+
+    
+
+    鉴于数据驱动系统在我们日常生活中的广泛应用，偏差和公平等概念在科研人员和从业人员，无论是在产业界还是学术界中，都受到了重视。这些问题通常源于用于训练机器学习系统的数据质量不同。随着这些系统被商业化和部署，有时被委托做出改变生活的决策，人们正在做出重大努力来确定和消除可能导致数据偏差的来源。本文提供了研究结果，展示数据偏见如何影响最终用户，偏差的起源以及我们应该如何解决该问题。我们认为，不必在所有情况下消除数据偏差，而是应将研究重点转向偏见的识别。
+
+    Due to the widespread use of data-powered systems in our everyday lives, concepts like bias and fairness gained significant attention among researchers and practitioners, in both industry and academia. Such issues typically emerge from the data, which comes with varying levels of quality, used to train supervised machine learning systems. With the commercialization and deployment of such systems that are sometimes delegated to make life-changing decisions, significant efforts are being made towards the identification and removal of possible sources of data bias that may resurface to the final end user or in the decisions being made. In this paper, we present research results that show how bias in data affects end users, where bias is originated, and provide a viewpoint about what we should do about it. We argue that data bias is not something that should necessarily be removed in all cases, and that research attention should instead shift from bias removal towards the identification, m
+    
+[^8]: 自动内容识别中的鲁棒且轻量级音频指纹识别系统
 
     Robust and lightweight audio fingerprint for Automatic Content Recognition. (arXiv:2305.09559v1 [cs.SD])
 
@@ -45,7 +132,7 @@
 
     This research paper presents a novel audio fingerprinting system for Automatic Content Recognition (ACR). By using signal processing techniques and statistical transformations, our proposed method generates compact fingerprints of audio segments that are robust to noise degradations present in real-world audio. The system is designed to be highly scalable, with the ability to identify thousands of hours of content using fingerprints generated from millions of TVs. The fingerprint's high temporal correlation and utilization of existing GPU-compatible Approximate Nearest Neighbour (ANN) search algorithms make this possible. Furthermore, the fingerprint generation can run on low-power devices with limited compute, making it accessible to a wide range of applications. Experimental results show improvements in our proposed system compared to a min-hash based audio fingerprint on all evaluated metrics, including accuracy on proprietary ACR datasets, retrieval speed, memory usage, and robustn
     
-[^3]: PII的生命--一种PII混淆变换器
+[^9]: PII的生命--一种PII混淆变换器
 
     Life of PII -- A PII Obfuscation Transformer. (arXiv:2305.09550v1 [cs.CL])
 
@@ -59,91 +146,49 @@
 
     Protecting sensitive information is crucial in today's world of Large Language Models (LLMs) and data-driven services. One common method used to preserve privacy is by using data perturbation techniques to reduce overreaching utility of (sensitive) Personal Identifiable Information (PII) data while maintaining its statistical and semantic properties. Data perturbation methods often result in significant information loss, making them impractical for use. In this paper, we propose 'Life of PII', a novel Obfuscation Transformer framework for transforming PII into faux-PII while preserving the original information, intent, and context as much as possible. Our approach includes an API to interface with the given document, a configuration-based obfuscator, and a model based on the Transformer architecture, which has shown high context preservation and performance in natural language processing tasks and LLMs.  Our Transformer-based approach learns mapping between the original PII and its tra
     
-[^4]: 推荐系统中的用户公平性: 方法和评估的系统调查
+[^10]: 可视化信息对联邦推荐系统的影响及其对策
 
-    Consumer-side Fairness in Recommender Systems: A Systematic Survey of Methods and Evaluation. (arXiv:2305.09330v1 [cs.IR])
+    Manipulating Visually-aware Federated Recommender Systems and Its Countermeasures. (arXiv:2305.08183v1 [cs.IR])
 
-    [http://arxiv.org/abs/2305.09330](http://arxiv.org/abs/2305.09330)
+    [http://arxiv.org/abs/2305.08183](http://arxiv.org/abs/2305.08183)
 
-    推荐系统的公平性问题越来越引起人们的关注，尤其是用户公平性，已经提出了很多解决方案来减轻用户在使用推荐系统过程中体验到的歧视问题。
-
-    
-
-    在数字化水平不断提高的当前社会中，面临着可扩展性方面的巨大挑战。推荐系统已经成为帮助用户导航日益增长的数据量，以及帮助供应商向感兴趣的用户营销产品的必不可少的工具。机器学习方法中的歧视问题日益突出，这促使学术界和工业界研究如何确保推荐系统的公平性。在推荐系统中，这些问题在职业推荐中得到了很好的体现，历史数据中的偏见可能导致推荐系统将一个性别与较低的工资或刻板印象联系起来。特别地，用户公平性关注如何减轻用户在使用推荐系统过程中体验到的歧视问题，该领域已经出现了很多不同的方法来解决不同类型的歧视。所述歧视的性质取决于所处的情境。
-
-    In the current landscape of ever-increasing levels of digitalization, we are facing major challenges pertaining to scalability. Recommender systems have become irreplaceable both for helping users navigate the increasing amounts of data and, conversely, aiding providers in marketing products to interested users. The growing awareness of discrimination in machine learning methods has recently motivated both academia and industry to research how fairness can be ensured in recommender systems. For recommender systems, such issues are well exemplified by occupation recommendation, where biases in historical data may lead to recommender systems relating one gender to lower wages or to the propagation of stereotypes. In particular, consumer-side fairness, which focuses on mitigating discrimination experienced by users of recommender systems, has seen a vast number of diverse approaches for addressing different types of discrimination. The nature of said discrimination depends on the setting 
-    
-[^5]: 信息访问系统中的公平性和多样性
-
-    Fairness and Diversity in Information Access Systems. (arXiv:2305.09319v1 [cs.IR])
-
-    [http://arxiv.org/abs/2305.09319](http://arxiv.org/abs/2305.09319)
-
-    本论文探讨了信息访问系统中多样性和公平性的关系。多样性和公平性是两个独立但密切相关的概念，推动多样性可以有效地实现公平。
+    本文研究了可视化信息对联邦推荐系统的影响，发现当加入视觉信息时，现有的恶意推广攻击将变得无效。
 
     
 
-    欧洲委员会（EC）设立的人工智能高级专家组提出了实现值得信赖的人工智能的七个重要要求之一是多样性、非歧视和公平性。本文试图通过关注信息访问系统和排名文献，阐述多样性和公平性两个独立概念的密切相关性。这两个概念不应该被互换使用，因为它们代表了两个不同的价值，但我们认为它们也不能被认为是完全不相关的。推动多样性并不意味着公平，但促进多样性确实可以有效地实现公平的结果，这是几种方法提出的直觉，旨在减少不平等问题。
+    近年来，联邦推荐系统（FedRec）因其保护用户数据隐私的能力而受到广泛关注。在FedRec中，中央服务器通过与客户端共享模型公共参数来协同学习推荐模型，从而提供一种保护隐私的解决方案。然而，模型参数的公开性为攻击者操纵FedRec留下了后门。现有的与FedRec安全相关的研究已经表明，通过模型污染攻击，恶意用户可以轻易地推广项目，但是它们主要集中于只具有协作信息（即用户-项目交互）的FedRec。我们认为这些攻击之所以有效，是因为协作信号的数据稀疏性。在实践中，辅助信息（如产品的视觉描述）用于缓解协作过滤数据的稀疏性。因此，当在FedRec中加入视觉信息时，所有现有的模型污染攻击的有效性都将降低。
 
-    Among the seven key requirements to achieve trustworthy AI proposed by the High-Level Expert Group on Artificial Intelligence (AI-HLEG) established by the European Commission (EC), the fifth requirement ("Diversity, non-discrimination and fairness") declares: "In order to achieve Trustworthy AI, we must enable inclusion and diversity throughout the entire AI system's life cycle. [...] This requirement is closely linked with the principle of fairness". In this paper, we try to shed light on how closely these two distinct concepts, diversity and fairness, may be treated by focusing on information access systems and ranking literature. These concepts should not be used interchangeably because they do represent two different values, but what we argue is that they also cannot be considered totally unrelated or divergent. Having diversity does not imply fairness, but fostering diversity can effectively lead to fair outcomes, an intuition behind several methods proposed to mitigate the dispar
+    Federated recommender systems (FedRecs) have been widely explored recently due to their ability to protect user data privacy. In FedRecs, a central server collaboratively learns recommendation models by sharing model public parameters with clients, thereby offering a privacy-preserving solution. Unfortunately, the exposure of model parameters leaves a backdoor for adversaries to manipulate FedRecs. Existing works about FedRec security already reveal that items can easily be promoted by malicious users via model poisoning attacks, but all of them mainly focus on FedRecs with only collaborative information (i.e., user-item interactions). We argue that these attacks are effective because of the data sparsity of collaborative signals. In practice, auxiliary information, such as products' visual descriptions, is used to alleviate collaborative filtering data's sparsity. Therefore, when incorporating visual information in FedRecs, all existing model poisoning attacks' effectiveness becomes q
     
-[^6]: 混合与协作的段落再排序方法
+[^11]: 在对话推荐系统中利用大型语言模型
 
-    Hybrid and Collaborative Passage Reranking. (arXiv:2305.09313v1 [cs.IR])
+    Leveraging Large Language Models in Conversational Recommender Systems. (arXiv:2305.07961v1 [cs.IR])
 
-    [http://arxiv.org/abs/2305.09313](http://arxiv.org/abs/2305.09313)
+    [http://arxiv.org/abs/2305.07961](http://arxiv.org/abs/2305.07961)
 
-    该论文提出了一种名为HybRank的混合与协作的段落再排序方法，通过利用上游检索器的相似性度量实现段落协作，再利用稀疏和密集检索器的词汇和语义属性进行重新排序，该方法可以增强包括先前被重新排序的段落列表在内的任意段落列表，并在实验证明了性能稳定的提升。
-
-    
-
-    在段落检索系统中，初始检索结果可能不尽如人意，需要通过重新排序方案进行改善。现有的段落重新排序方案主要集中于丰富查询和每个段落之间的交互，忽略了在初始检索列表中排名靠前的多个段落之间的上下文关系。为解决这个问题，我们提出了一种混合与协作的段落再排序方法（HybRank），该方法利用上游检索器的相似性度量进行段落协作，并结合稀疏和密集检索器的词汇和语义属性进行重新排序。此外，基于现成的检索器特征，HybRank是一个插件再排序器，能够增强包括先前重新排序的段落列表在内的任意段落列表。大量实验证明了比普遍的检索和再排序方法性能稳定的提升，并验证了HybRank的核心组件的有效性。
-
-    In passage retrieval system, the initial passage retrieval results may be unsatisfactory, which can be refined by a reranking scheme. Existing solutions to passage reranking focus on enriching the interaction between query and each passage separately, neglecting the context among the top-ranked passages in the initial retrieval list. To tackle this problem, we propose a Hybrid and Collaborative Passage Reranking (HybRank) method, which leverages the substantial similarity measurements of upstream retrievers for passage collaboration and incorporates the lexical and semantic properties of sparse and dense retrievers for reranking. Besides, built on off-the-shelf retriever features, HybRank is a plug-in reranker capable of enhancing arbitrary passage lists including previously reranked ones. Extensive experiments demonstrate the stable improvements of performance over prevalent retrieval and reranking methods, and verify the effectiveness of the core components of HybRank.
-    
-[^7]: HyHTM: 基于双曲几何的层次主题模型
-
-    HyHTM: Hyperbolic Geometry based Hierarchical Topic Models. (arXiv:2305.09258v1 [cs.IR])
-
-    [http://arxiv.org/abs/2305.09258](http://arxiv.org/abs/2305.09258)
-
-    HyHTM是一种基于双曲几何的层次主题模型，通过将双曲几何中的层次信息纳入主题模型中，显式地建模主题层次结构。相较于传统方法，HyHTM更好地关注主题之间的父子关系，并产生了连贯的主题层次结构。同时，HyHTM的计算速度更快，内存占用更小。
+    本文提出了一种使用大型语言模型构建端到端大规模对话推荐系统的路线图，解决在该系统中有效利用大型语言模型所面临的技术挑战。
 
     
 
-    层次主题模型对于发现文档集合中的主题层次结构非常有用。然而，传统的层次主题模型常常产生低层次主题与其高层次主题无关且不够具体的层次结构。此外，这些方法计算成本较高。我们提出了一种名为 HyHTM 的双曲几何层次主题模型，通过将双曲几何中的层次信息纳入主题模型中，显式地建模主题层次结构，从而解决了这些限制。与四个基线做实验结果表明，HyHTM 可以更好地关注主题之间父子关系。HyHTM 产生连贯的主题层次结构，从通用的高层次主题到具体的低层次主题。此外，我们的模型计算速度更快，内存占用更小。我们已经公开了算法的源代码。
+    对话推荐系统通过启用实时的多轮对话使用户更加透明和掌控。最近，大型语言模型展现了与人类对话自然的能力，并将世界知识和常识推理融入到语言理解中，进一步释放了这一范式的潜力。然而，在对话推荐系统中有效利用大型语言模型引入了新的技术挑战，包括适当地理解和控制复杂的对话和从外部信息源检索。由于大而不断增长的项目语料库和缺乏对话数据进行训练，这些问题加剧了。在本文中，我们提供了使用大型语言模型构建端到端大规模对话推荐系统的路线图。特别地，我们提出了用户偏好理解、灵活的对话管理和可解释的推荐作为整个系统的一部分的新实现方式。
 
-    Hierarchical Topic Models (HTMs) are useful for discovering topic hierarchies in a collection of documents. However, traditional HTMs often produce hierarchies where lowerlevel topics are unrelated and not specific enough to their higher-level topics. Additionally, these methods can be computationally expensive. We present HyHTM - a Hyperbolic geometry based Hierarchical Topic Models - that addresses these limitations by incorporating hierarchical information from hyperbolic geometry to explicitly model hierarchies in topic models. Experimental results with four baselines show that HyHTM can better attend to parent-child relationships among topics. HyHTM produces coherent topic hierarchies that specialise in granularity from generic higher-level topics to specific lowerlevel topics. Further, our model is significantly faster and leaves a much smaller memory footprint than our best-performing baseline.We have made the source code for our algorithm publicly accessible.
+    A Conversational Recommender System (CRS) offers increased transparency and control to users by enabling them to engage with the system through a real-time multi-turn dialogue. Recently, Large Language Models (LLMs) have exhibited an unprecedented ability to converse naturally and incorporate world knowledge and common-sense reasoning into language understanding, unlocking the potential of this paradigm. However, effectively leveraging LLMs within a CRS introduces new technical challenges, including properly understanding and controlling a complex conversation and retrieving from external sources of information. These issues are exacerbated by a large, evolving item corpus and a lack of conversational data for training. In this paper, we provide a roadmap for building an end-to-end large-scale CRS using LLMs. In particular, we propose new implementations for user preference understanding, flexible dialogue management and explainable recommendations as part of an integrated architecture
     
-[^8]: Text2Cohort: 自然语言队列发现对癌症影像数据共享平台的民主化
+[^12]: 频率增强的混合注意力网络用于序列推荐
 
-    Text2Cohort: Democratizing the NCI Imaging Data Commons with Natural Language Cohort Discovery. (arXiv:2305.07637v1 [cs.LG])
+    Frequency Enhanced Hybrid Attention Network for Sequential Recommendation. (arXiv:2304.09184v1 [cs.IR])
 
-    [http://arxiv.org/abs/2305.07637](http://arxiv.org/abs/2305.07637)
+    [http://arxiv.org/abs/2304.09184](http://arxiv.org/abs/2304.09184)
 
-    Text2Cohort是一个基于大语言模型的工具箱，可以将用户输入转化为IDC数据库查询，促进自然语言队列发现，减少研究人员查询IDC数据库的学习曲线，实现了癌症成像数据的民主化。
-
-    
-
-    影像数据共享平台(IDC)是一个基于云的数据库，为研究人员提供开放获取的癌症成像数据和分析工具，旨在促进医学成像研究中的协作。然而，由于其复杂和技术性质，查询IDC数据库以进行队列发现和访问成像数据对研究人员来说具有显著的学习曲线。我们开发了基于大语言模型（LLM）的Text2Cohort工具箱，通过提示工程将用户输入转化为IDC数据库查询，并将查询的响应返回给用户，以促进自然语言队列发现。此外，实现了自动校正以解决查询中的语法和语义错误，通过将错误传回模型进行解释和校正。我们对50个自然语言用户输入进行了Text2Cohort评估，范围从信息提取到队列发现。结果查询和输出由两位计算机科学家进行了确认。
-
-    The Imaging Data Commons (IDC) is a cloud-based database that provides researchers with open access to cancer imaging data and tools for analysis, with the goal of facilitating collaboration in medical imaging research. However, querying the IDC database for cohort discovery and access to imaging data has a significant learning curve for researchers due to its complex and technical nature. We developed Text2Cohort, a large language model (LLM) based toolkit to facilitate natural language cohort discovery by translating user input into IDC database queries through prompt engineering and returning the query's response to the user. Furthermore, autocorrection is implemented to resolve syntax and semantic errors in queries by passing the errors back to the model for interpretation and correction. We evaluate Text2Cohort on 50 natural language user inputs ranging from information extraction to cohort discovery. The resulting queries and outputs were verified by two computer scientists to me
-    
-[^9]: 基于对比知识蒸馏的集成建模在序列推荐中的应用
-
-    Ensemble Modeling with Contrastive Knowledge Distillation for Sequential Recommendation. (arXiv:2304.14668v1 [cs.IR])
-
-    [http://arxiv.org/abs/2304.14668](http://arxiv.org/abs/2304.14668)
-
-    本研究提出了一种基于对比知识蒸馏的集成建模方法EMKD，它采用多个并行网络作为序列编码器，在序列推荐中根据所有网络的输出分布推荐物品。实验证明，EMKD在两个真实世界数据集上的表现显著优于最先进的方法。
+    本文提出了一种新的序列推荐算法——频率增强的混合注意力网络（FEARec）。该算法通过一个斜坡结构将原有的自注意力从时间域转换到频率域，使得低频和高频信息可以被明确地学习。同时，通过自相关的设计，该算法还可以捕捉到用户行为的固有周期性。在四个真实世界的基准测试中，该算法表现优于现有最先进的方法。
 
     
 
-    序列推荐旨在捕捉用户的动态兴趣，预测用户下一次的偏好物品。多数方法使用深度神经网络作为序列编码器生成用户和物品表示。现有工作主要侧重于设计更强的序列编码器。然而，很少有尝试使用训练一组网络作为序列编码器的方法，这比单个网络更强大，因为一组并行网络可以产生多样化的预测结果，从而获得更好的准确性。本文提出了一种基于对比知识蒸馏的集成建模方法，即EMKD，在序列推荐中使用多个并行网络作为序列编码器，并根据所有这些网络的输出分布推荐物品。为了促进并行网络之间的知识转移，我们提出了一种新颖的对比知识蒸馏方法，它将知识从教师网络转移到多个学生网络中。在两个真实世界数据集上的实验表明，我们提出的EMKD显著优于最先进的序列推荐方法和集成基线。
+    自注意机制是序列推荐领域广泛使用的技术之一，具有建模长程依赖性的强大能力。然而，许多最近的研究表明，目前基于自注意力的模型是低通滤波器，不能捕捉高频信息。此外，由于用户行为中的项目相互交织，这些模型无法区分时间域中模糊的固有周期性。在这项工作中，我们将视角转移到频率域，并提出了一种新颖的序列推荐算法——频率增强的混合注意力网络，即FEARec。在这个模型中，我们首先通过一个斜坡结构将原始时间域自注意力改进到频率域中，使得我们的方法可以明确地学习低频和高频信息。此外，我们还通过自相关设计了类似的注意力机制来捕捉用户行为的固有周期性。在四个真实世界的基准测试中进行了大量实验，结果表明我们提出的方法比现有最先进的方法表现更优秀。
 
-    Sequential recommendation aims to capture users' dynamic interest and predicts the next item of users' preference. Most sequential recommendation methods use a deep neural network as sequence encoder to generate user and item representations. Existing works mainly center upon designing a stronger sequence encoder. However, few attempts have been made with training an ensemble of networks as sequence encoders, which is more powerful than a single network because an ensemble of parallel networks can yield diverse prediction results and hence better accuracy. In this paper, we present Ensemble Modeling with contrastive Knowledge Distillation for sequential recommendation (EMKD). Our framework adopts multiple parallel networks as an ensemble of sequence encoders and recommends items based on the output distributions of all these networks. To facilitate knowledge transfer between parallel networks, we propose a novel contrastive knowledge distillation approach, which performs knowledge tran
+    The self-attention mechanism, which equips with a strong capability of modeling long-range dependencies, is one of the extensively used techniques in the sequential recommendation field. However, many recent studies represent that current self-attention based models are low-pass filters and are inadequate to capture high-frequency information. Furthermore, since the items in the user behaviors are intertwined with each other, these models are incomplete to distinguish the inherent periodicity obscured in the time domain. In this work, we shift the perspective to the frequency domain, and propose a novel Frequency Enhanced Hybrid Attention Network for Sequential Recommendation, namely FEARec. In this model, we firstly improve the original time domain self-attention in the frequency domain with a ramp structure to make both low-frequency and high-frequency information could be explicitly learned in our approach. Moreover, we additionally design a similar attention mechanism via auto-corr
     
-[^10]: 序列推荐中的元优化对比学习
+[^13]: 序列推荐中的元优化对比学习
 
     Meta-optimized Contrastive Learning for Sequential Recommendation. (arXiv:2304.07763v1 [cs.IR])
 
@@ -157,32 +202,32 @@
 
     Contrastive Learning (CL) performances as a rising approach to address the challenge of sparse and noisy recommendation data. Although having achieved promising results, most existing CL methods only perform either hand-crafted data or model augmentation for generating contrastive pairs to find a proper augmentation operation for different datasets, which makes the model hard to generalize. Additionally, since insufficient input data may lead the encoder to learn collapsed embeddings, these CL methods expect a relatively large number of training data (e.g., large batch size or memory bank) to contrast. However, not all contrastive pairs are always informative and discriminative enough for the training processing. Therefore, a more general CL-based recommendation model called Meta-optimized Contrastive Learning for sequential Recommendation (MCLRec) is proposed in this work. By applying both data augmentation and learnable model augmentation operations, this work innovates the standard 
     
-[^11]: BERT4Loc：基于BERT的位置推荐系统--POI推荐
+[^14]: 解释所有神经网络的方差容忍因子
 
-    BERT4Loc: BERT for Location -- POI Recommender System. (arXiv:2208.01375v2 [cs.IR] UPDATED)
+    Variance Tolerance Factors For Interpreting ALL Neural Networks. (arXiv:2209.13858v2 [cs.LG] UPDATED)
 
-    [http://arxiv.org/abs/2208.01375](http://arxiv.org/abs/2208.01375)
+    [http://arxiv.org/abs/2209.13858](http://arxiv.org/abs/2209.13858)
 
-    BERT4Loc是一种基于BERT的位置推荐系统，将地理位置信息和用户偏好相结合，提供个性化的基于位置的建议，相较于预测序列中下一个POI的模型，提供更相关的推荐，在基准数据集上实现了较好的性能。
-
-    
-
-    推荐兴趣点（POI）是一项具有挑战性的任务，需要从基于位置的社交媒体平台中提取全面的位置数据。为了提供有效的基于位置的推荐，分析用户的历史行为和偏好是非常重要的。本研究提出了一种复杂的位置感知推荐系统，利用Transformers中的双向编码器表示（BERT）提供个性化的基于位置的建议。我们的模型将地理位置信息和用户偏好相结合，相比于预测序列中下一个POI的模型，提供更相关的推荐。在两个基准数据集上的实验表明，我们基于BERT的模型优于各种最先进的序列模型。此外，我们通过附加实验展示了所提出模型的有效性。
-
-    Recommending points of interest (POIs) is a challenging task that requires extracting comprehensive location data from location-based social media platforms. To provide effective location-based recommendations, it's important to analyze users' historical behavior and preferences. In this study, we present a sophisticated location-aware recommendation system that uses Bidirectional Encoder Representations from Transformers (BERT) to offer personalized location-based suggestions. Our model combines location information and user preferences to provide more relevant recommendations compared to models that predict the next POI in a sequence. Our experiments on two benchmark dataset show that our BERT-based model outperforms various state-of-the-art sequential models. Moreover, we see the effectiveness of the proposed model for quality through additional experiments.
-    
-[^12]: UNIQORN：统一的RDF知识图谱与自然语言文本问答系统
-
-    UNIQORN: Unified Question Answering over RDF Knowledge Graphs and Natural Language Text. (arXiv:2108.08614v5 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2108.08614](http://arxiv.org/abs/2108.08614)
-
-    本文提出了一个名为UNIQORN的问答系统，它能够无缝地处理RDF数据和文本，使用fine-tuned BERT模型为问题构建上下文图，并使用图算法确定与问题相关的子图来回答问题。
+    本文提出一种用于解释黑盒神经网络的方差容忍因子（VTF）理论，通过排名特征的方式探索特征的重要性，同时构建一个基本模型和特征模型的新型架构，来探索所有表现良好的神经网络中特征的重要性，并且经过基准测试和应用于实际环境中的实验验证了方法的可靠性。
 
     
 
-    问题回答在知识图谱和其他RDF数据上已经取得了巨大的进展，许多优秀的系统可以为自然语言问题或电报查询提供清晰的答案。其中一些系统将文本源作为附加证据纳入回答过程，但不能计算仅存在于文本中的答案。相反，IR和NLP社区的系统已经解决了有关文本的QA问题，但是这些系统几乎不利用语义数据和知识。本文提出了第一个可以无缝操作混合RDF数据集和文本语料库或单个来源的复杂问题的系统，在统一框架中进行操作。我们的方法称为UNIQORN，通过使用经过精细调整的BERT模型从RDF数据和/或文本语料库中检索与问题相关的证据来动态构建上下文图。结果图通常非常丰富但高度嘈杂。UNIQORN通过用于组Steiner树的图算法来处理这个输入，从而确定与问题相关的子图，进而回答问题。
+    黑匣子模型只提供深度学习任务的结果，缺乏有关如何获得这些结果的详细信息。知道输入变量与输出的关系，以及为什么它们相关，可以在将预测转化为实验或在受到审查时维护模型预测的关键时刻起到重要作用。在本文中，我们提出了一个一般性理论，通过定义一个受影响函数启发的方差容忍因子（VTF），从排名特征的角度解释黑匣子神经网络中的特征，并构建一个包含基本模型和特征模型的新型架构，以探索包含所有表现良好的神经网络的瑞士军刀集中的特征重要性。创建并探索了两种Rashomon集中的特征重要性排名方法和基于VTF的特征选择方法。我们提供了对合成数据集和基准数据集的彻底评估，并将该方法应用于基因组学和材料科学中的两个真实世界实验。
 
-    Question answering over knowledge graphs and other RDF data has been greatly advanced, with a number of good systems providing crisp answers for natural language questions or telegraphic queries. Some of these systems incorporate textual sources as additional evidence for the answering process, but cannot compute answers that are present in text alone. Conversely, systems from the IR and NLP communities have addressed QA over text, but such systems barely utilize semantic data and knowledge. This paper presents the first system for complex questions that can seamlessly operate over a mixture of RDF datasets and text corpora, or individual sources, in a unified framework. Our method, called UNIQORN, builds a context graph on-the-fly, by retrieving question-relevant evidences from the RDF data and/or a text corpus, using fine-tuned BERT models. The resulting graph is typically rich but highly noisy. UNIQORN copes with this input by a graph algorithm for Group Steiner Trees, that identifi
+    Black box models only provide results for deep learning tasks, and lack informative details about how these results were obtained. Knowing how input variables are related to outputs, in addition to why they are related, can be critical to translating predictions into laboratory experiments, or defending a model prediction under scrutiny. In this paper, we propose a general theory that defines a variance tolerance factor (VTF) inspired by influence function, to interpret features in the context of black box neural networks by ranking the importance of features, and construct a novel architecture consisting of a base model and feature model to explore the feature importance in a Rashomon set that contains all well-performing neural networks. Two feature importance ranking methods in the Rashomon set and a feature selection method based on the VTF are created and explored. A thorough evaluation on synthetic and benchmark datasets is provided, and the method is applied to two real world ex
+    
+[^15]: 可解释嵌入的(不)可能性训练
+
+    (Un)likelihood Training for Interpretable Embedding. (arXiv:2207.00282v2 [cs.CV] UPDATED)
+
+    [http://arxiv.org/abs/2207.00282](http://arxiv.org/abs/2207.00282)
+
+    该论文提出了两种新的训练方法：可能性训练和不可能性训练，以解释嵌入向量背后的语义并解决标签稀疏问题。这些方法在图像和视频分类、检索和生成任务中表现出色，提高了学习嵌入的可解释性。
+
+    
+
+    跨模态表示学习已成为弥合文本和视觉数据语义差距的新常态。然而，在连续潜在空间中学习模态不可知表示经常被视为黑匣子数据驱动的训练过程。深度表示学习的有效性严重依赖于训练数据的质量和规模。对于视频表示学习，要完整地标注视频内容的数据集是高度困难甚至不可能的。这些问题，黑匣子训练和数据集偏差，使得解释性较差和结果难以预测，难以在视频理解方面进行实际应用。在本文中，我们提出了两种新的训练方法，可能性和不可能性函数，以展示嵌入背后的语义，并解决训练中的标签稀疏问题。可能性训练旨在通过学习数据分布来解释嵌入向量的语义，而不可能性训练则强调正负对之间的差异。我们将所提出的方法应用于各种任务，包括图像和视频分类、检索和生成，并展示了它们在提高学到的嵌入的可解释性以及在基准数据集上实现竞争性性能方面的有效性。
+
+    Cross-modal representation learning has become a new normal for bridging the semantic gap between text and visual data. Learning modality agnostic representations in a continuous latent space, however, is often treated as a black-box data-driven training process. It is well-known that the effectiveness of representation learning depends heavily on the quality and scale of training data. For video representation learning, having a complete set of labels that annotate the full spectrum of video content for training is highly difficult if not impossible. These issues, black-box training and dataset bias, make representation learning practically challenging to be deployed for video understanding due to unexplainable and unpredictable results. In this paper, we propose two novel training objectives, likelihood and unlikelihood functions, to unroll semantics behind embeddings while addressing the label sparsity problem in training. The likelihood training aims to interpret semantics of embed
     
 

@@ -1,0 +1,12 @@
+{
+    "title": "Deep and Fast Approximate Order Independent Transparency. (arXiv:2305.10197v1 [cs.GR])",
+    "abstract": "We present a machine learning approach for efficiently computing order independent transparency (OIT). Our method is fast, requires a small constant amount of memory (depends only on the screen resolution and not on the number of triangles or transparent layers), is more accurate as compared to previous approximate methods, works for every scene without setup and is portable to all platforms running even with commodity GPUs. Our method requires a rendering pass to extract all features that are subsequently used to predict the overall OIT pixel color with a pre-trained neural network. We provide a comparative experimental evaluation and shader source code of all methods for reproduction of the experiments.",
+    "link": "http://arxiv.org/abs/2305.10197",
+    "context": "Title: Deep and Fast Approximate Order Independent Transparency. (arXiv:2305.10197v1 [cs.GR])\nAbstract: We present a machine learning approach for efficiently computing order independent transparency (OIT). Our method is fast, requires a small constant amount of memory (depends only on the screen resolution and not on the number of triangles or transparent layers), is more accurate as compared to previous approximate methods, works for every scene without setup and is portable to all platforms running even with commodity GPUs. Our method requires a rendering pass to extract all features that are subsequently used to predict the overall OIT pixel color with a pre-trained neural network. We provide a comparative experimental evaluation and shader source code of all methods for reproduction of the experiments.",
+    "path": "papers/23/05/2305.10197.json",
+    "total_tokens": 734,
+    "translated_title": "深度快速的近似无序透明度",
+    "translated_abstract": "我们提出了一种机器学习方法，用于有效计算无序透明度(OIT)。我们的方法快速、需要极少的内存(仅取决于屏幕分辨率而不是三角形或透明层数量)，与先前的近似方法相比更精确，适用于每个场景而无需设置，并且可在运行甚至使用商品GPU的所有平台上移植。我们需要渲染通行证来提取所有特征，随后使用预训练的神经网络预测整个OIT像素颜色。我们提供了比较性的实验评估和所有方法的着色器源代码以复制实验。",
+    "tldr": "本文提出了一种深度学习方法有效地计算无序透明度，具备快速性、占用内存少以及更为准确。该方法适用于所有场景，无需超前设置，且在运用普及GPU的所有平台上都有便捷的移植性。",
+    "en_tdlr": "This paper proposes a machine learning method for efficiently computing order independent transparency, which is fast, requires minimal memory and is more accurate than previous methods. It works for every scene without setup and is portable to all platforms running even with commodity GPUs."
+}

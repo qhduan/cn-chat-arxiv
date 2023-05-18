@@ -1,0 +1,12 @@
+{
+    "title": "Boosting Local Spectro-Temporal Features for Speech Analysis. (arXiv:2305.10270v1 [cs.CL])",
+    "abstract": "We introduce the problem of phone classification in the context of speech recognition, and explore several sets of local spectro-temporal features that can be used for phone classification. In particular, we present some preliminary results for phone classification using two sets of features that are commonly used for object detection: Haar features and SVM-classified Histograms of Gradients (HoG)",
+    "link": "http://arxiv.org/abs/2305.10270",
+    "context": "Title: Boosting Local Spectro-Temporal Features for Speech Analysis. (arXiv:2305.10270v1 [cs.CL])\nAbstract: We introduce the problem of phone classification in the context of speech recognition, and explore several sets of local spectro-temporal features that can be used for phone classification. In particular, we present some preliminary results for phone classification using two sets of features that are commonly used for object detection: Haar features and SVM-classified Histograms of Gradients (HoG)",
+    "path": "papers/23/05/2305.10270.json",
+    "total_tokens": 586,
+    "translated_title": "增强本地谱时特征用于语音分析",
+    "translated_abstract": "我们介绍了在语音识别中，电话分类的问题，并探索了几组可以用于电话分类的本地谱时特征。特别地，我们提出了使用两组常用于物体检测的特征（Haar特征和SVM分类的梯度直方图（HoG））进行电话分类的一些初步结果。",
+    "tldr": "该论文介绍了在语音识别中电话分类的问题，并探索了几组可以用于电话分类的本地谱时特征，提出了使用Haar特征和SVM分类的梯度直方图进行电话分类，并给出了一些初步结果。",
+    "en_tdlr": "The paper introduces the problem of phone classification in speech recognition and explores several sets of local spectro-temporal features that can be used for phone classification. The paper proposes using Haar features and SVM-classified Histograms of Gradients (HoG) for phone classification and provides some preliminary results."
+}

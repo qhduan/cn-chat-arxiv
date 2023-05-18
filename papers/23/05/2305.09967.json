@@ -1,0 +1,12 @@
+{
+    "title": "Variable Length Embeddings. (arXiv:2305.09967v1 [cs.CV])",
+    "abstract": "In this work, we introduce a novel deep learning architecture, Variable Length Embeddings (VLEs), an autoregressive model that can produce a latent representation composed of an arbitrary number of tokens. As a proof of concept, we demonstrate the capabilities of VLEs on tasks that involve reconstruction and image decomposition. We evaluate our experiments on a mix of the iNaturalist and ImageNet datasets and find that VLEs achieve comparable reconstruction results to a state of the art VAE, using less than a tenth of the parameters.",
+    "link": "http://arxiv.org/abs/2305.09967",
+    "context": "Title: Variable Length Embeddings. (arXiv:2305.09967v1 [cs.CV])\nAbstract: In this work, we introduce a novel deep learning architecture, Variable Length Embeddings (VLEs), an autoregressive model that can produce a latent representation composed of an arbitrary number of tokens. As a proof of concept, we demonstrate the capabilities of VLEs on tasks that involve reconstruction and image decomposition. We evaluate our experiments on a mix of the iNaturalist and ImageNet datasets and find that VLEs achieve comparable reconstruction results to a state of the art VAE, using less than a tenth of the parameters.",
+    "path": "papers/23/05/2305.09967.json",
+    "total_tokens": 697,
+    "translated_title": "可变长度嵌入",
+    "translated_abstract": "本文介绍了一种新颖的深度学习架构，即可变长度嵌入（VLEs），它是一种自回归模型，可以生成由任意数量标记组成的潜在表示。作为概念验证，我们展示了VLEs在涉及重构和图像分解的任务中的能力。我们在iNaturalist和ImageNet数据集混合使用的实验中进行了评估，并发现VLE与最先进的VAE相比，达到了可比较的重构结果，仅使用了不到十分之一的参数。",
+    "tldr": "本文介绍了可变长度嵌入（VLEs）的深度学习架构，采用自回归模型来生成由任意数量标记组成的潜在表示。VLE在涉及重构和图像分解的任务中表现出色，且比最先进的VAE使用更少的参数。",
+    "en_tdlr": "This paper introduces a deep learning architecture, Variable Length Embeddings (VLEs), that uses an autoregressive model to generate a latent representation composed of an arbitrary number of tokens. As a proof of concept, VLEs demonstrate impressive capabilities on tasks involving reconstruction and image decomposition, achieving comparable results to state of the art VAEs while using significantly less parameters."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "A proof of imitation of Wasserstein inverse reinforcement learning for multi-objective optimization. (arXiv:2305.10089v1 [cs.LG])",
+    "abstract": "We prove Wasserstein inverse reinforcement learning enables the learner's reward values to imitate the expert's reward values in a finite iteration for multi-objective optimizations. Moreover, we prove Wasserstein inverse reinforcement learning enables the learner's optimal solutions to imitate the expert's optimal solutions for multi-objective optimizations with lexicographic order.",
+    "link": "http://arxiv.org/abs/2305.10089",
+    "context": "Title: A proof of imitation of Wasserstein inverse reinforcement learning for multi-objective optimization. (arXiv:2305.10089v1 [cs.LG])\nAbstract: We prove Wasserstein inverse reinforcement learning enables the learner's reward values to imitate the expert's reward values in a finite iteration for multi-objective optimizations. Moreover, we prove Wasserstein inverse reinforcement learning enables the learner's optimal solutions to imitate the expert's optimal solutions for multi-objective optimizations with lexicographic order.",
+    "path": "papers/23/05/2305.10089.json",
+    "total_tokens": 561,
+    "translated_title": "一种多目标优化的Wasserstein反向强化学习模型的证明",
+    "translated_abstract": "本文证明了Wasserstein反向强化学习模型可以在有限次迭代中让学习者的奖励值模仿专家的奖励值，并证明了在词典序的多目标优化中，Wasserstein反向强化学习模型可以让学习者的最优解模仿专家的最优解。",
+    "tldr": "本文证明了Wasserstein反向强化学习模型适用于多目标优化问题，可让学习者的奖励值和最优解模仿专家，具有一定的实用价值。",
+    "en_tdlr": "This paper proves that Wasserstein inverse reinforcement learning is applicable to multi-objective optimization problems, enabling the learner to imitate the expert's reward values and optimal solutions, which has practical significance."
+}

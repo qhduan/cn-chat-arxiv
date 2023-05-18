@@ -1,0 +1,12 @@
+{
+    "title": "Automatic Photo Orientation Detection with Convolutional Neural Networks. (arXiv:2305.10319v1 [cs.CV])",
+    "abstract": "We apply convolutional neural networks (CNN) to the problem of image orientation detection in the context of determining the correct orientation (from 0, 90, 180, and 270 degrees) of a consumer photo. The problem is especially important for digitazing analog photographs. We substantially improve on the published state of the art in terms of the performance on one of the standard datasets, and test our system on a more difficult large dataset of consumer photos. We use Guided Backpropagation to obtain insights into how our CNN detects photo orientation, and to explain its mistakes.",
+    "link": "http://arxiv.org/abs/2305.10319",
+    "context": "Title: Automatic Photo Orientation Detection with Convolutional Neural Networks. (arXiv:2305.10319v1 [cs.CV])\nAbstract: We apply convolutional neural networks (CNN) to the problem of image orientation detection in the context of determining the correct orientation (from 0, 90, 180, and 270 degrees) of a consumer photo. The problem is especially important for digitazing analog photographs. We substantially improve on the published state of the art in terms of the performance on one of the standard datasets, and test our system on a more difficult large dataset of consumer photos. We use Guided Backpropagation to obtain insights into how our CNN detects photo orientation, and to explain its mistakes.",
+    "path": "papers/23/05/2305.10319.json",
+    "total_tokens": 644,
+    "translated_title": "基于卷积神经网络的自动照片方向检测",
+    "translated_abstract": "本文探讨了利用卷积神经网络(CNN)来解决确定消费者照片正确方向(0°, 90°, 180°和270°)的问题，特别对于模拟照片的数字化非常重要。我们在标准数据集上显著提高了性能，并在更困难的消费者照片大型数据集上进行了测试。我们使用引导反向传播(Guided Backpropagation)来获得关于CNN如何检测照片方向的见解，并解释其错误。",
+    "tldr": "本论文使用CNN解决了照片方向检测的问题，并在数据集上显著提高性能。使用Guided Backpropagation获得了CNN检测方向的见解。",
+    "en_tdlr": "This paper uses CNN to solve the problem of photo orientation detection and significantly improves performance on standard datasets. Guided Backpropagation is used to gain insights into how CNN detects orientation."
+}

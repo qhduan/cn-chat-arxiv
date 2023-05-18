@@ -1,0 +1,12 @@
+{
+    "title": "Neural networks learn to magnify areas near decision boundaries. (arXiv:2301.11375v2 [cs.LG] UPDATED)",
+    "abstract": "We study how training molds the Riemannian geometry induced by neural network feature maps. At infinite width, neural networks with random parameters induce highly symmetric metrics on input space. Feature learning in networks trained to perform classification tasks magnifies local areas along decision boundaries. These changes are consistent with previously proposed geometric approaches for hand-tuning of kernel methods to improve generalization.",
+    "link": "http://arxiv.org/abs/2301.11375",
+    "context": "Title: Neural networks learn to magnify areas near decision boundaries. (arXiv:2301.11375v2 [cs.LG] UPDATED)\nAbstract: We study how training molds the Riemannian geometry induced by neural network feature maps. At infinite width, neural networks with random parameters induce highly symmetric metrics on input space. Feature learning in networks trained to perform classification tasks magnifies local areas along decision boundaries. These changes are consistent with previously proposed geometric approaches for hand-tuning of kernel methods to improve generalization.",
+    "path": "papers/23/01/2301.11375.json",
+    "total_tokens": 576,
+    "translated_title": "神经网络学习放大决策边界附近的区域",
+    "translated_abstract": "我们研究了训练如何塑造神经网络特征图诱导的黎曼几何。在宽度为无限的情况下，具有随机参数的神经网络在输入空间上引导高度对称的度量。训练分类任务的网络中的特征学习放大了沿决策边界的局部区域。这些变化与先前提出的用于手动调整核方法以改善泛化的几何方法一致。",
+    "tldr": "神经网络训练能够放大决策边界附近的局部区域，改善整个系统的泛化能力。",
+    "en_tdlr": "Neural networks can magnify local areas near decision boundaries during training, which is consistent with prior geometric approaches for improving generalization."
+}

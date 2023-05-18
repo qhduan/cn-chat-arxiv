@@ -1,0 +1,11 @@
+{
+    "title": "Domain Generalization by Functional Regression. (arXiv:2302.04724v2 [cs.LG] UPDATED)",
+    "abstract": "The problem of domain generalization is to learn, given data from different source distributions, a model that can be expected to generalize well on new target distributions which are only seen through unlabeled samples. In this paper, we study domain generalization as a problem of functional regression. Our concept leads to a new algorithm for learning a linear operator from marginal distributions of inputs to the corresponding conditional distributions of outputs given inputs. Our algorithm allows a source distribution-dependent construction of reproducing kernel Hilbert spaces for prediction, and, satisfies finite sample error bounds for the idealized risk. Numerical implementations and source code are available.",
+    "link": "http://arxiv.org/abs/2302.04724",
+    "context": "Title: Domain Generalization by Functional Regression. (arXiv:2302.04724v2 [cs.LG] UPDATED)\nAbstract: The problem of domain generalization is to learn, given data from different source distributions, a model that can be expected to generalize well on new target distributions which are only seen through unlabeled samples. In this paper, we study domain generalization as a problem of functional regression. Our concept leads to a new algorithm for learning a linear operator from marginal distributions of inputs to the corresponding conditional distributions of outputs given inputs. Our algorithm allows a source distribution-dependent construction of reproducing kernel Hilbert spaces for prediction, and, satisfies finite sample error bounds for the idealized risk. Numerical implementations and source code are available.",
+    "path": "papers/23/02/2302.04724.json",
+    "total_tokens": 747,
+    "translated_title": "函数回归的领域泛化",
+    "translated_abstract": "领域泛化问题是学习如何在给定多种不同源分布的数据时获得良好的泛化能力，以适用于只通过未标记样本观察到的新目标分布的模型。本文以函数回归的形式研究领域泛化问题。我们提出了一种新算法来学习从输入的边缘分布到给定输入的条件下输出的条件分布的线性算子。该算法允许基于源分布依赖性构建预测的再生核希尔伯特空间，并满足理想风险的有限样本误差界。数值实现和源代码已经提供。",
+    "tldr": "通过函数回归实现领域泛化，构建了线性算子将输入边缘分布与输出条件分布联系起来，并提出了一种基于源分布依赖性的再生核希尔伯特空间预测算法。"
+}

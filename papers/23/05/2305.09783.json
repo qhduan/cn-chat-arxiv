@@ -1,0 +1,12 @@
+{
+    "title": "Deep Learning for Solving and Estimating Dynamic Macro-Finance Models. (arXiv:2305.09783v1 [q-fin.CP])",
+    "abstract": "We develop a methodology that utilizes deep learning to simultaneously solve and estimate canonical continuous-time general equilibrium models in financial economics. We illustrate our method in two examples: (1) industrial dynamics of firms and (2) macroeconomic models with financial frictions. Through these applications, we illustrate the advantages of our method: generality, simultaneous solution and estimation, leveraging the state-of-art machine-learning techniques, and handling large state space. The method is versatile and can be applied to a vast variety of problems.",
+    "link": "http://arxiv.org/abs/2305.09783",
+    "context": "Title: Deep Learning for Solving and Estimating Dynamic Macro-Finance Models. (arXiv:2305.09783v1 [q-fin.CP])\nAbstract: We develop a methodology that utilizes deep learning to simultaneously solve and estimate canonical continuous-time general equilibrium models in financial economics. We illustrate our method in two examples: (1) industrial dynamics of firms and (2) macroeconomic models with financial frictions. Through these applications, we illustrate the advantages of our method: generality, simultaneous solution and estimation, leveraging the state-of-art machine-learning techniques, and handling large state space. The method is versatile and can be applied to a vast variety of problems.",
+    "path": "papers/23/05/2305.09783.json",
+    "total_tokens": 715,
+    "translated_title": "应用深度学习求解和估计宏观金融动态模型",
+    "translated_abstract": "我们开发了一种利用深度学习同时解决和估计金融经济中经典的连续时间一般均衡模型的方法。我们在两个样例中展示了我们的方法：（1）企业的产业动态和（2）带有金融摩擦的宏观经济模型。通过这些应用，我们展示了我们的方法的优点：通用性、同时求解和估计、运用最先进的机器学习技术和处理大规模状态空间的能力。该方法具有多种用途。",
+    "tldr": "该论文介绍了一种利用深度学习同时求解和估计金融经济中经典的连续时间一般均衡模型的方法，并在产业动态和带有金融摩擦的宏观经济模型两个样例中展示了其优点，具有多种用途。",
+    "en_tdlr": "This paper introduces a methodology that uses deep learning to simultaneously solve and estimate canonical continuous-time general equilibrium models in financial economics, and demonstrates its advantages in two examples of industrial dynamics and macroeconomic models with financial frictions, showing its versatility for a wide variety of problems."
+}

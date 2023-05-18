@@ -1,0 +1,12 @@
+{
+    "title": "Active Learning in Symbolic Regression Performance with Physical Constraints. (arXiv:2305.10379v1 [cs.LG])",
+    "abstract": "Evolutionary symbolic regression (SR) fits a symbolic equation to data, which gives a concise interpretable model. We explore using SR as a method to propose which data to gather in an active learning setting with physical constraints. SR with active learning proposes which experiments to do next. Active learning is done with query by committee, where the Pareto frontier of equations is the committee. The physical constraints improve proposed equations in very low data settings. These approaches reduce the data required for SR and achieves state of the art results in data required to rediscover known equations.",
+    "link": "http://arxiv.org/abs/2305.10379",
+    "context": "Title: Active Learning in Symbolic Regression Performance with Physical Constraints. (arXiv:2305.10379v1 [cs.LG])\nAbstract: Evolutionary symbolic regression (SR) fits a symbolic equation to data, which gives a concise interpretable model. We explore using SR as a method to propose which data to gather in an active learning setting with physical constraints. SR with active learning proposes which experiments to do next. Active learning is done with query by committee, where the Pareto frontier of equations is the committee. The physical constraints improve proposed equations in very low data settings. These approaches reduce the data required for SR and achieves state of the art results in data required to rediscover known equations.",
+    "path": "papers/23/05/2305.10379.json",
+    "total_tokens": 698,
+    "translated_title": "基于物理约束的符号回归中主动学习的表现",
+    "translated_abstract": "进化符号回归（SR）是一种将符号方程拟合到数据中的方法，可以得到简洁易懂的模型。本文探讨使用SR作为主动学习中的方法来提出哪些数据应该被采集，在此过程中考虑物理约束。基于主动学习的SR通过“委员会查询”来提出下一步实验。物理约束可以在非常低的数据情况下改善所建议的方程。这些方法可以减少SR所需的数据，并在重新发现已知方程所需的数据方面实现最新的结果。",
+    "tldr": "本文探讨了利用进化符号回归作为主动学习中的方法来提出哪些数据应该被采集，通过“委员会查询”来减少所需数据，并在重新发现已知方程所需的数据方面实现最新的结果。",
+    "en_tdlr": "This paper explores using evolutionary symbolic regression as a method for active learning to propose which data to gather with consideration of physical constraints. By using query by committee, it achieves state-of-the-art results in reducing required data for SR and rediscovering known equations."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Automatic Hyperparameter Tuning in Sparse Matrix Factorization. (arXiv:2305.10114v1 [stat.ML])",
+    "abstract": "We study the problem of hyperparameter tuning in sparse matrix factorization under Bayesian framework. In the prior work, an analytical solution of sparse matrix factorization with Laplace prior was obtained by variational Bayes method under several approximations. Based on this solution, we propose a novel numerical method of hyperparameter tuning by evaluating the zero point of normalization factor in sparse matrix prior. We also verify that our method shows excellent performance for ground-truth sparse matrix reconstruction by comparing it with the widely-used algorithm of sparse principal component analysis.",
+    "link": "http://arxiv.org/abs/2305.10114",
+    "context": "Title: Automatic Hyperparameter Tuning in Sparse Matrix Factorization. (arXiv:2305.10114v1 [stat.ML])\nAbstract: We study the problem of hyperparameter tuning in sparse matrix factorization under Bayesian framework. In the prior work, an analytical solution of sparse matrix factorization with Laplace prior was obtained by variational Bayes method under several approximations. Based on this solution, we propose a novel numerical method of hyperparameter tuning by evaluating the zero point of normalization factor in sparse matrix prior. We also verify that our method shows excellent performance for ground-truth sparse matrix reconstruction by comparing it with the widely-used algorithm of sparse principal component analysis.",
+    "path": "papers/23/05/2305.10114.json",
+    "total_tokens": 748,
+    "translated_title": "稀疏矩阵分解中的自动超参数调整",
+    "translated_abstract": "我们研究了贝叶斯框架下稀疏矩阵分解中的超参数调整问题。在先前的工作中，基于几个近似，通过变分贝叶斯方法得到了具有拉普拉斯先验的稀疏矩阵分解的分析解。基于此解，我们提出了一种通过评估稀疏矩阵先验中归一化因子的零点来进行超参数调整的新型数值方法。我们还通过与广泛使用的稀疏主成分分析算法进行比较，验证了我们的方法在地面真实稀疏矩阵重建中表现出的优异性能。",
+    "tldr": "稀疏矩阵分解中使用贝叶斯框架，提出了一种通过评估稀疏矩阵先验中归一化因子的零点来进行超参数调整的新型数值方法，并在地面真实稀疏矩阵重建中表现出优异性能。",
+    "en_tdlr": "This paper proposes a novel numerical method for hyperparameter tuning in sparse matrix factorization under Bayesian framework, which evaluates the zero point of normalization factor in sparse matrix prior, and shows excellent performance for ground-truth sparse matrix reconstruction compared to the widely-used algorithm of sparse principal component analysis."
+}

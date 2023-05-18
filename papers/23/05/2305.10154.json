@@ -1,0 +1,12 @@
+{
+    "title": "Iterated learning and communication jointly explain efficient color naming systems. (arXiv:2305.10154v1 [cs.CL])",
+    "abstract": "It has been argued that semantic systems reflect pressure for efficiency, and a current debate concerns the cultural evolutionary process that produces this pattern. We consider efficiency as instantiated in the Information Bottleneck (IB) principle, and a model of cultural evolution that combines iterated learning and communication. We show that this model, instantiated in neural networks, converges to color naming systems that are efficient in the IB sense and similar to human color naming systems. We also show that iterated learning alone, and communication alone, do not yield the same outcome as clearly.",
+    "link": "http://arxiv.org/abs/2305.10154",
+    "context": "Title: Iterated learning and communication jointly explain efficient color naming systems. (arXiv:2305.10154v1 [cs.CL])\nAbstract: It has been argued that semantic systems reflect pressure for efficiency, and a current debate concerns the cultural evolutionary process that produces this pattern. We consider efficiency as instantiated in the Information Bottleneck (IB) principle, and a model of cultural evolution that combines iterated learning and communication. We show that this model, instantiated in neural networks, converges to color naming systems that are efficient in the IB sense and similar to human color naming systems. We also show that iterated learning alone, and communication alone, do not yield the same outcome as clearly.",
+    "path": "papers/23/05/2305.10154.json",
+    "total_tokens": 682,
+    "translated_title": "迭代学习与交流共同解释了有效的颜色命名系统",
+    "translated_abstract": "已经有人认为，语义系统反映了效率的压力，一个当前的争论关注于产生这种模式的文化进化过程。我们将效率实现为信息瓶颈原理，并结合迭代学习和交流的文化进化模型。我们展示了这个在神经网络中实现的模型收敛于在IB意义下高效并且类似于人类颜色命名系统的颜色命名系统。我们还表明，仅仅迭代学习或者仅仅交流并不能像这个模型那样产生相同的结果。",
+    "tldr": "本论文通过结合迭代学习和交流的文化进化模型，展示这个模型能够在神经网络中实现并收敛于高效的颜色命名系统，进一步证明了语义系统反映效率压力的观点。",
+    "en_tdlr": "This paper demonstrates that efficiency in color naming systems can be explained by combining iterated learning and communication in a cultural evolutionary model instantiated in neural networks, supporting the perspective that semantic systems reflect pressure for efficiency."
+}

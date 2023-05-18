@@ -1,0 +1,12 @@
+{
+    "title": "Codesign of Edge Intelligence and Automated Guided Vehicle Control. (arXiv:2305.09788v1 [cs.CV])",
+    "abstract": "This work presents a harmonic design of autonomous guided vehicle (AGV) control, edge intelligence, and human input to enable autonomous transportation in industrial environments. The AGV has the capability to navigate between a source and destinations and pick/place objects. The human input implicitly provides preferences of the destination and exact drop point, which are derived from an artificial intelligence (AI) module at the network edge and shared with the AGV over a wireless network. The demonstration indicates that the proposed integrated design of hardware, software, and AI design achieve a technology readiness level (TRL) of range 4-5",
+    "link": "http://arxiv.org/abs/2305.09788",
+    "context": "Title: Codesign of Edge Intelligence and Automated Guided Vehicle Control. (arXiv:2305.09788v1 [cs.CV])\nAbstract: This work presents a harmonic design of autonomous guided vehicle (AGV) control, edge intelligence, and human input to enable autonomous transportation in industrial environments. The AGV has the capability to navigate between a source and destinations and pick/place objects. The human input implicitly provides preferences of the destination and exact drop point, which are derived from an artificial intelligence (AI) module at the network edge and shared with the AGV over a wireless network. The demonstration indicates that the proposed integrated design of hardware, software, and AI design achieve a technology readiness level (TRL) of range 4-5",
+    "path": "papers/23/05/2305.09788.json",
+    "total_tokens": 740,
+    "translated_title": "边缘智能与自动引导车辆控制的协同设计",
+    "translated_abstract": "本文介绍了一种自主引导车辆（AGV）控制、边缘智能和人类输入的和谐设计，以实现工业环境中的自主运输。该AGV具有在源和目标之间导航并拾取/放置物品的能力。人类输入隐含地提供了目的地和准确的卸货点的偏好，这些偏好来自于网络边缘的人工智能（AI）模块，并通过无线网络与AGV共享。演示表明，所提出的硬件、软件和AI设计的综合设计达到了技术成熟度水平（TRL）4-5的范围。",
+    "tldr": "本文介绍了一种自主引导车辆（AGV）控制、边缘智能和人类输入的和谐设计，以实现工业环境中的自主运输，其核心技术是通过无线网络连接人工智能（AI）和AGV实现人机协同。",
+    "en_tdlr": "This work presents a harmonic design combining autonomous guided vehicle (AGV) control, edge intelligence, and human input to enable autonomous transportation in industrial environments. The core technology is the wireless connection between artificial intelligence (AI) and AGV, which allows for human-machine collaboration."
+}

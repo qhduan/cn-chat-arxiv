@@ -1,0 +1,12 @@
+{
+    "title": "Learning curves for deep structured Gaussian feature models. (arXiv:2303.00564v2 [stat.ML] UPDATED)",
+    "abstract": "In recent years, significant attention in deep learning theory has been devoted to analyzing the generalization performance of models with multiple layers of Gaussian random features. However, few works have considered the effect of feature anisotropy; most assume that features are generated using independent and identically distributed Gaussian weights. Here, we derive learning curves for models with many layers of structured Gaussian features. We show that allowing correlations between the rows of the first layer of features can aid generalization, while structure in later layers is generally detrimental. Our results shed light on how weight structure affects generalization in a simple class of solvable models.",
+    "link": "http://arxiv.org/abs/2303.00564",
+    "context": "Title: Learning curves for deep structured Gaussian feature models. (arXiv:2303.00564v2 [stat.ML] UPDATED)\nAbstract: In recent years, significant attention in deep learning theory has been devoted to analyzing the generalization performance of models with multiple layers of Gaussian random features. However, few works have considered the effect of feature anisotropy; most assume that features are generated using independent and identically distributed Gaussian weights. Here, we derive learning curves for models with many layers of structured Gaussian features. We show that allowing correlations between the rows of the first layer of features can aid generalization, while structure in later layers is generally detrimental. Our results shed light on how weight structure affects generalization in a simple class of solvable models.",
+    "path": "papers/23/03/2303.00564.json",
+    "total_tokens": 747,
+    "translated_title": "深度结构高斯特征模型的学习曲线",
+    "translated_abstract": "近年来，深度学习理论中对于多层高斯随机特征模型的泛化性能分析引起了广泛关注。然而，很少有研究考虑特征各向异性的影响；大多数模型都假设特征是使用独立同分布的高斯权重生成的。在这篇论文中，我们为具有许多层结构高斯特征的模型导出了学习曲线。我们表明，允许第一层特征的行之间存在相关性可促进泛化，而后续层的结构通常是不利的。我们的结果揭示了权重结构如何影响可解模型的泛化性能。",
+    "tldr": "该论文针对深度高斯模型的特征各向异性展开研究。研究结果表明，在第一层特征行之间允许存在相关性可以促进泛化，而后续层的结构通常是不利的。",
+    "en_tdlr": "This paper investigates the effect of feature anisotropy on deep Gaussian models and suggests that allowing correlations between the rows of the first layer of features can aid generalization, while structure in later layers is generally detrimental."
+}

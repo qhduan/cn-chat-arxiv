@@ -1,0 +1,12 @@
+{
+    "title": "Keep It Simple: Fault Tolerance Evaluation of Federated Learning with Unreliable Clients. (arXiv:2305.09856v1 [cs.LG])",
+    "abstract": "Federated learning (FL), as an emerging artificial intelligence (AI) approach, enables decentralized model training across multiple devices without exposing their local training data. FL has been increasingly gaining popularity in both academia and industry. While research works have been proposed to improve the fault tolerance of FL, the real impact of unreliable devices (e.g., dropping out, misconfiguration, poor data quality) in real-world applications is not fully investigated. We carefully chose two representative, real-world classification problems with a limited numbers of clients to better analyze FL fault tolerance. Contrary to the intuition, simple FL algorithms can perform surprisingly well in the presence of unreliable clients.",
+    "link": "http://arxiv.org/abs/2305.09856",
+    "context": "Title: Keep It Simple: Fault Tolerance Evaluation of Federated Learning with Unreliable Clients. (arXiv:2305.09856v1 [cs.LG])\nAbstract: Federated learning (FL), as an emerging artificial intelligence (AI) approach, enables decentralized model training across multiple devices without exposing their local training data. FL has been increasingly gaining popularity in both academia and industry. While research works have been proposed to improve the fault tolerance of FL, the real impact of unreliable devices (e.g., dropping out, misconfiguration, poor data quality) in real-world applications is not fully investigated. We carefully chose two representative, real-world classification problems with a limited numbers of clients to better analyze FL fault tolerance. Contrary to the intuition, simple FL algorithms can perform surprisingly well in the presence of unreliable clients.",
+    "path": "papers/23/05/2305.09856.json",
+    "total_tokens": 713,
+    "translated_title": "简单易用：具有不可靠客户端的联邦学习容错性评估",
+    "translated_abstract": "作为一种新兴的人工智能方法，联邦学习（FL）可以在多个设备上进行分散模型训练，而不泄露本地训练数据。虽然已经有研究提出了提高FL容错性的方法，但现实应用中不可靠设备（例如掉线、错误配置、差数据质量）的真实影响尚未得到充分调查。我们精心选择了两个具有有限客户端的代表性实际分类问题，以更好地分析FL容错性。与直觉相反，简单的FL算法在存在不可靠客户端的情况下可以出奇地表现良好。",
+    "tldr": "本文评估了具有不可靠客户端的联邦学习的容错性，研究表明相对较简单的FL算法在此情境下也能表现良好。",
+    "en_tdlr": "This article evaluates the fault tolerance of federated learning with unreliable clients and finds that surprisingly, relatively simple FL algorithms can perform well in this scenario."
+}

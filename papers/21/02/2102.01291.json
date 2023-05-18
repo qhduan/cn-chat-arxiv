@@ -1,0 +1,12 @@
+{
+    "title": "Efficient Estimation for Staggered Rollout Designs. (arXiv:2102.01291v7 [econ.EM] UPDATED)",
+    "abstract": "We study estimation of causal effects in staggered rollout designs, i.e. settings where there is staggered treatment adoption and the timing of treatment is as-good-as randomly assigned. We derive the most efficient estimator in a class of estimators that nests several popular generalized difference-in-differences methods. A feasible plug-in version of the efficient estimator is asymptotically unbiased with efficiency (weakly) dominating that of existing approaches. We provide both $t$-based and permutation-test-based methods for inference. In an application to a training program for police officers, confidence intervals for the proposed estimator are as much as eight times shorter than for existing approaches.",
+    "link": "http://arxiv.org/abs/2102.01291",
+    "context": "Title: Efficient Estimation for Staggered Rollout Designs. (arXiv:2102.01291v7 [econ.EM] UPDATED)\nAbstract: We study estimation of causal effects in staggered rollout designs, i.e. settings where there is staggered treatment adoption and the timing of treatment is as-good-as randomly assigned. We derive the most efficient estimator in a class of estimators that nests several popular generalized difference-in-differences methods. A feasible plug-in version of the efficient estimator is asymptotically unbiased with efficiency (weakly) dominating that of existing approaches. We provide both $t$-based and permutation-test-based methods for inference. In an application to a training program for police officers, confidence intervals for the proposed estimator are as much as eight times shorter than for existing approaches.",
+    "path": "papers/21/02/2102.01291.json",
+    "total_tokens": 726,
+    "translated_title": "增量推出设计中的效率估计",
+    "translated_abstract": "本文研究以增量方式推出干预措施的因果效应估计，即在干预采纳时存在错开和治疗时间等同于随机分配的设置中的估计问题。我们在一类嵌入了几种流行的广义差异-差异方法的估计器中得到了最有效的估计器。高效估计器的可行插值方法渐近无偏，并且其效率（微弱地）超越了现有方法。我们提供了基于$t$检验和置换检验的推论方法。在一项针对警官培训计划的应用中，所提出的估计器的置信区间比现有估计方法的置信区间短高达八倍。",
+    "tldr": "本文提出了一种在增量推出设计中最有效的因果效应估算器，使用可行的插值方法，置信区间比现有方法短八倍。",
+    "en_tdlr": "This paper proposes the most efficient causal effect estimator for staggered rollout designs using a feasible plug-in method, which has confidence intervals up to eight times shorter than existing methods in an application to a training program for police officers."
+}

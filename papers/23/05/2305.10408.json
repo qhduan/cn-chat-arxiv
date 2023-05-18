@@ -1,0 +1,12 @@
+{
+    "title": "Extracting Blockchain Concepts from Text. (arXiv:2305.10408v1 [cs.IR])",
+    "abstract": "Blockchains provide a mechanism through which mutually distrustful remote parties can reach consensus on the state of a ledger of information. With the great acceleration with which this space is developed, the demand for those seeking to learn about blockchain also grows. Being a technical subject, it can be quite intimidating to start learning. For this reason, the main objective of this project was to apply machine learning models to extract information from whitepapers and academic articles focused on the blockchain area to organize this information and aid users to navigate the space.",
+    "link": "http://arxiv.org/abs/2305.10408",
+    "context": "Title: Extracting Blockchain Concepts from Text. (arXiv:2305.10408v1 [cs.IR])\nAbstract: Blockchains provide a mechanism through which mutually distrustful remote parties can reach consensus on the state of a ledger of information. With the great acceleration with which this space is developed, the demand for those seeking to learn about blockchain also grows. Being a technical subject, it can be quite intimidating to start learning. For this reason, the main objective of this project was to apply machine learning models to extract information from whitepapers and academic articles focused on the blockchain area to organize this information and aid users to navigate the space.",
+    "path": "papers/23/05/2305.10408.json",
+    "total_tokens": 626,
+    "translated_title": "从文本中提取区块链概念",
+    "translated_abstract": "区块链提供了一种机制，通过该机制，相互不信任的远程方可以就信息分类账的状态达成共识。随着这个领域的快速发展，需要学习区块链的人也越来越多。由于这是一个技术性的主题，开始学习可能会感到相当不可思议。因此，该项目的主要目标是应用机器学习模型从白皮书和学术论文中提取关于区块链领域的信息，以组织这些信息并帮助用户浏览该领域。",
+    "tldr": "本研究旨在通过机器学习模型提取区块链领域的信息并组织，以帮助用户浏览该领域。",
+    "en_tdlr": "This research aims to extract and organize information in the blockchain area through machine learning models to help users navigate the field."
+}

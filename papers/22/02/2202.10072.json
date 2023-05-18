@@ -1,0 +1,12 @@
+{
+    "title": "Equilibria of Attacker-Defender Games. (arXiv:2202.10072v2 [econ.TH] UPDATED)",
+    "abstract": "Attempts at predatory capture may provoke a defensive response that reduces the very value of the predated resource. We provide a game-theoretic analysis of simultaneous-move, two-player Attacker-Defender games that model such interactions. When initial endowments are equal, Attackers win about a third of such games in equilibrium. Under power disparities, Attackers become particularly aggressive when they are approximately one-third poorer than Defenders. With non-conflictual outside options Attackers become exceptionally aggressive when their opponent has access to high-benefit, low-cost production, and refrain from attack most when they are unilaterally provided with a high-benefit, high-cost production option.",
+    "link": "http://arxiv.org/abs/2202.10072",
+    "context": "Title: Equilibria of Attacker-Defender Games. (arXiv:2202.10072v2 [econ.TH] UPDATED)\nAbstract: Attempts at predatory capture may provoke a defensive response that reduces the very value of the predated resource. We provide a game-theoretic analysis of simultaneous-move, two-player Attacker-Defender games that model such interactions. When initial endowments are equal, Attackers win about a third of such games in equilibrium. Under power disparities, Attackers become particularly aggressive when they are approximately one-third poorer than Defenders. With non-conflictual outside options Attackers become exceptionally aggressive when their opponent has access to high-benefit, low-cost production, and refrain from attack most when they are unilaterally provided with a high-benefit, high-cost production option.",
+    "path": "papers/22/02/2202.10072.json",
+    "total_tokens": 765,
+    "translated_title": "攻防博弈的平衡状态",
+    "translated_abstract": "活捕的尝试可能会引发防御反应，降低被掠夺资源的价值。我们提供了一种博弈论分析，对模拟此类交互的同时进行的两个玩家攻击者和防御者游戏进行建模。当初始禀赋相等时，攻击者在平衡状态下赢得约三分之一的此类游戏。在权力差异下，攻击者在约比防御者贫穷三分之一时变得特别激进。在没有冲突性的外部选项下，当对手拥有高利益、低成本的生产资源时，攻击者会变得异常激进，并在他们单方面提供高成本、高利益的生产选项时克制攻击。",
+    "tldr": "该论文提供了攻防博弈平衡状态的理论分析，研究了不同情境中攻防双方的策略选择，发现在某些情况下攻击者会表现出特别的侵略性。",
+    "en_tdlr": "The paper offers a theoretical analysis of equilibria in Attacker-Defender games and examines the strategic choices of both parties in different scenarios, revealing that attackers can exhibit particularly aggressive behavior in certain circumstances."
+}

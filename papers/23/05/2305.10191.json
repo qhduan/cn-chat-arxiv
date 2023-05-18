@@ -1,0 +1,12 @@
+{
+    "title": "Sparsifying Spiking Networks through Local Rhythms. (arXiv:2305.10191v1 [cs.NE])",
+    "abstract": "It has been well-established that within conventional neural networks, many of the values produced at each layer are zero. In this work, I demonstrate that spiking neural networks can prevent the transmission of spikes representing values close to zero using local information. This can reduce the amount of energy required for communication and computation in these networks while preserving accuracy. Additionally, this demonstrates a novel application of biologically observed spiking rhythms.",
+    "link": "http://arxiv.org/abs/2305.10191",
+    "context": "Title: Sparsifying Spiking Networks through Local Rhythms. (arXiv:2305.10191v1 [cs.NE])\nAbstract: It has been well-established that within conventional neural networks, many of the values produced at each layer are zero. In this work, I demonstrate that spiking neural networks can prevent the transmission of spikes representing values close to zero using local information. This can reduce the amount of energy required for communication and computation in these networks while preserving accuracy. Additionally, this demonstrates a novel application of biologically observed spiking rhythms.",
+    "path": "papers/23/05/2305.10191.json",
+    "total_tokens": 563,
+    "translated_title": "通过局部节律稀疏脉冲网络",
+    "translated_abstract": "已经确认，在传统神经网络中，每层产生的许多值都是零。在这项工作中，我展示了脉冲型神经网络可以通过使用局部信息防止传输代表接近零的脉冲，从而减少这些网络所需的通信和计算能量，同时保持准确性。此外，这还展示了生物观察到的脉冲节律的新颖应用。",
+    "tldr": "本文展示了如何通过使用局部节律来稀疏脉冲网络，从而减少通信和计算能量的要求。",
+    "en_tdlr": "This paper demonstrates how to sparsify spiking neural networks through local rhythms, reducing the requirements for communication and computation energy."
+}

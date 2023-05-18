@@ -1,0 +1,12 @@
+{
+    "title": "Affective interdependence and welfare. (arXiv:2305.10165v1 [econ.GN])",
+    "abstract": "Purely affective interaction allows the welfare of an individual to depend on her own actions and on the profile of welfare levels of others. Under an assumption on the structure of mutual affection that we interpret as \"non-explosive mutual affection,\" we show that equilibria of simultaneous-move affective interaction are Pareto optimal independently of whether or not an induced standard game exists. Moreover, if purely affective interaction induces a standard game, then an equilibrium profile of actions is a Nash equilibrium of the game, and this Nash equilibrium and Pareto optimal profile of strategies is locally dominant.",
+    "link": "http://arxiv.org/abs/2305.10165",
+    "context": "Title: Affective interdependence and welfare. (arXiv:2305.10165v1 [econ.GN])\nAbstract: Purely affective interaction allows the welfare of an individual to depend on her own actions and on the profile of welfare levels of others. Under an assumption on the structure of mutual affection that we interpret as \"non-explosive mutual affection,\" we show that equilibria of simultaneous-move affective interaction are Pareto optimal independently of whether or not an induced standard game exists. Moreover, if purely affective interaction induces a standard game, then an equilibrium profile of actions is a Nash equilibrium of the game, and this Nash equilibrium and Pareto optimal profile of strategies is locally dominant.",
+    "path": "papers/23/05/2305.10165.json",
+    "total_tokens": 676,
+    "translated_title": "情感相互依赖与福利",
+    "translated_abstract": "纯情感互动使得个体的福利依赖于她自己的行为以及其他人福利水平的配置。在我们解释为“非爆炸性互相情感”的互相情感结构假设下，我们证明了同时进行的情感互动的均衡是帕累托最优的，无论是否存在诱导标准博弈。此外，如果纯情感互动引起了标准博弈，则策略均衡配置是博弈的纳什均衡，并且该纳什均衡和帕累托最优策略配置是当地优越的。",
+    "tldr": "本论文研究了纯情感互动对于个体福利的影响，证明了帕累托最优以及纳什均衡的存在性和局部优越性。",
+    "en_tdlr": "This paper explores the impact of pure affective interaction on individual welfare and proves the existence and local dominance of Pareto optimality and Nash equilibria."
+}

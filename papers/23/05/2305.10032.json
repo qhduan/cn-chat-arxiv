@@ -1,0 +1,11 @@
+{
+    "title": "A Survey on Causal Discovery: Theory and Practice. (arXiv:2305.10032v1 [cs.AI])",
+    "abstract": "Understanding the laws that govern a phenomenon is the core of scientific progress. This is especially true when the goal is to model the interplay between different aspects in a causal fashion. Indeed, causal inference itself is specifically designed to quantify the underlying relationships that connect a cause to its effect. Causal discovery is a branch of the broader field of causality in which causal graphs is recovered from data (whenever possible), enabling the identification and estimation of causal effects. In this paper, we explore recent advancements in a unified manner, provide a consistent overview of existing algorithms developed under different settings, report useful tools and data, present real-world applications to understand why and how these methods can be fruitfully exploited.",
+    "link": "http://arxiv.org/abs/2305.10032",
+    "context": "Title: A Survey on Causal Discovery: Theory and Practice. (arXiv:2305.10032v1 [cs.AI])\nAbstract: Understanding the laws that govern a phenomenon is the core of scientific progress. This is especially true when the goal is to model the interplay between different aspects in a causal fashion. Indeed, causal inference itself is specifically designed to quantify the underlying relationships that connect a cause to its effect. Causal discovery is a branch of the broader field of causality in which causal graphs is recovered from data (whenever possible), enabling the identification and estimation of causal effects. In this paper, we explore recent advancements in a unified manner, provide a consistent overview of existing algorithms developed under different settings, report useful tools and data, present real-world applications to understand why and how these methods can be fruitfully exploited.",
+    "path": "papers/23/05/2305.10032.json",
+    "total_tokens": 736,
+    "translated_title": "因果探索综述：理论与实践（arXiv:2305.10032v1 [cs.AI]）",
+    "translated_abstract": "理解控制现象的规律是科学进步的核心。特别是，在以因果方式建模不同方面的相互作用为目标时，这一点更为重要。事实上，因果推断专门设计用于量化导致其效应的基本关系。因果发现是更广泛的因果关系领域的一个分支，在其中从数据中恢复因果图（在可能的情况下），从而实现了因果效应的识别和估计。在本文中，我们以统一的方式探讨了最新进展，提供了对不同设置下已开发算法的一致概述，报告了有用的工具和数据，并提供实际应用以理解这些方法为什么以及如何得到丰富的利用。",
+    "tldr": "该文综述了因果发现的理论、实践和最新进展，介绍了因果图恢复算法、实际应用及其重要性。"
+}
