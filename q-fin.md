@@ -14,6 +14,7 @@
 | [^10] | [Understanding Model Complexity for temporal tabular and multi-variate time series, case study with Numerai data science tournament.](http://arxiv.org/abs/2303.07925) | 本文采用 Numerai 数据科学竞赛的数据，探究了多变量时间序列建模中不同特征工程和降维方法的应用；提出了一种新的集成方法，用于高维时间序列建模，该方法在通用性、鲁棒性和效率上优于一些深度学习模型。 |
 | [^11] | [Effective a Posteriori Ratemaking with Large Insurance Portfolios via Surrogate Modeling.](http://arxiv.org/abs/2211.06568) | 本文针对保险中高效的后验费率制定问题，提出了使用代理模型方法来获得封闭式表达式计算保费的方案，同时引进了可信度指数作为保费计算的摘要统计信息，避免了因计算代价高昂或计算过程成为“黑盒”而带来的限制。 |
 | [^12] | [Reinforcement Learning Policy Recommendation for Interbank Network Stability.](http://arxiv.org/abs/2204.07134) | 本文基于强化学习策略推荐，分析了其对人工银行间市场的影响。根据个体信息和公共推荐，金融机构制定借贷协议。策略推荐能够合理引导金融行为者的信贷关系形成，核心-周边网络结构迅速稳定。 |
+| [^13] | [Deep Reinforcement Trading with Predictable Returns.](http://arxiv.org/abs/2104.14683) | 本论文研究了使用深度强化学习进行交易决策优化的框架的现代投资组合优化，探讨了预测回报信号的质量对真实金融交易问题表现的影响，并评估了不同算法检索有意义交易信号的限制和能力。 |
 
 # 详细
 
@@ -184,5 +185,19 @@
     本文分析了策略推荐对人工银行间市场表现的影响。金融机构根据公共推荐和个体信息制定借贷协议。前者通过强化学习的最优策略来模拟，旨在最大化系统的适应性并收集有关经济环境的信息。策略推荐直接或间接地影响金融行为者的信贷关系形成过程。通过低利率或高流动性供给的最优选择来合理引导，再根据银行代理的资产负债表信息来确认他们在市场内最适宜向客户提供的流动性和利率组合。通过将公共和私有信号相结合，金融机构能够通过逐渐建立有选择性附加的信贷连接而创建或修建他们的信贷网络，从而生成动态网络。研究结果表明，在这种情况下，核心-周边网络结构具有迅速稳定的形式。
 
     In this paper, we analyze the effect of a policy recommendation on the performance of an artificial interbank market. Financial institutions stipulate lending agreements following a public recommendation and their individual information. The former is modeled by a reinforcement learning optimal policy that maximizes the system's fitness and gathers information on the economic environment. The policy recommendation directs economic actors to create credit relationships through the optimal choice between a low interest rate or a high liquidity supply. The latter, based on the agents' balance sheet, allows determining the liquidity supply and interest rate that the banks optimally offer their clients within the market. Thanks to the combination between the public and the private signal, financial institutions create or cut their credit connections over time via a preferential attachment evolving procedure able to generate a dynamic network. Our results show that the emergence of a core-pe
+    
+[^13]: 可预测回报的深度强化交易
+
+    Deep Reinforcement Trading with Predictable Returns. (arXiv:2104.14683v3 [q-fin.PM] UPDATED)
+
+    [http://arxiv.org/abs/2104.14683](http://arxiv.org/abs/2104.14683)
+
+    本论文研究了使用深度强化学习进行交易决策优化的框架的现代投资组合优化，探讨了预测回报信号的质量对真实金融交易问题表现的影响，并评估了不同算法检索有意义交易信号的限制和能力。
+
+    
+
+    传统投资组合优化在金融市场中无法提供高信噪比的情况下，需要预测资产回报及其相应的方差。现代深度强化学习提供了一种优化序列交易决策的框架，但缺乏收敛的理论保证。然而，预测回报的信号的质量对于真实金融交易问题的表现具有很强的影响。为了分离来自回报不可预测性和来自算法不可训练性的影响，我们研究了在具有不同已知均值回归驱动动态的市场环境中，无模型深度强化学习交易者的表现。当框架允许精确的动态规划解决方案时，我们可以评估不同价值算法检索有意义的交易信号的限制和能力。我们考虑利用经典的softmax策略和Dueling DQN的DRL代理商。
+
+    Classical portfolio optimization often requires forecasting asset returns and their corresponding variances in spite of the low signal-to-noise ratio provided in the financial markets. Modern deep reinforcement learning (DRL) offers a framework for optimizing sequential trader decisions but lacks theoretical guarantees of convergence. On the other hand, the performances on real financial trading problems are strongly affected by the goodness of the signal used to predict returns. To disentangle the effects coming from return unpredictability from those coming from algorithm un-trainability, we investigate the performance of model-free DRL traders in a market environment with different known mean-reverting factors driving the dynamics. When the framework admits an exact dynamic programming solution, we can assess the limits and capabilities of different value-based algorithms to retrieve meaningful trading signals in a data-driven manner. We consider DRL agents that leverage classical s
     
 
