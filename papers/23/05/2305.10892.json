@@ -1,0 +1,12 @@
+{
+    "title": "EventNet-ITA: Italian Frame Parsing for Events. (arXiv:2305.10892v1 [cs.CL])",
+    "abstract": "This paper introduces EventNet-ITA, a large, multi-domain corpus annotated with event frames for Italian, and presents an efficient approach for multi-label Frame Parsing. The approach is then evaluated on the dataset. Covering a wide range of individual, social and historical phenomena, the main contribution of EventNet-ITA is to provide the research community with a resource for textual event mining and a novel and extensive tool for Frame Parsing in Italian.",
+    "link": "http://arxiv.org/abs/2305.10892",
+    "context": "Title: EventNet-ITA: Italian Frame Parsing for Events. (arXiv:2305.10892v1 [cs.CL])\nAbstract: This paper introduces EventNet-ITA, a large, multi-domain corpus annotated with event frames for Italian, and presents an efficient approach for multi-label Frame Parsing. The approach is then evaluated on the dataset. Covering a wide range of individual, social and historical phenomena, the main contribution of EventNet-ITA is to provide the research community with a resource for textual event mining and a novel and extensive tool for Frame Parsing in Italian.",
+    "path": "papers/23/05/2305.10892.json",
+    "total_tokens": 699,
+    "translated_title": "EventNet-ITA: 用于意大利事件的框架解析",
+    "translated_abstract": "本文介绍了EventNet-ITA，这是一个用于意大利语的大规模、多领域事件框架标注语料库，并提出了一种高效的多标签框架解析方法。然后在该数据集上进行了评估。涵盖了各种个人、社会和历史现象，EventNet-ITA的主要贡献是为研究人员提供了一个用于文本事件挖掘的资源以及意大利语框架解析的新颖而广泛的工具。",
+    "tldr": "本文介绍了一个用于意大利语的大规模、多领域事件框架标注语料库-EventNet-ITA，并提出了一种高效的多标签框架解析方法。EventNet-ITA的主要贡献是为研究人员提供了一个用于文本事件挖掘的资源和意大利语框架解析的新颖工具。",
+    "en_tdlr": "This paper introduces EventNet-ITA, a large, multi-domain corpus annotated with event frames for Italian, and presents an efficient approach for multi-label Frame Parsing. The main contribution of EventNet-ITA is to provide the research community with a resource for textual event mining and a novel and extensive tool for Frame Parsing in Italian."
+}
