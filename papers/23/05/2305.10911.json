@@ -1,0 +1,12 @@
+{
+    "title": "Non-parametric cumulants approach for outlier detection of multivariate financial data. (arXiv:2305.10911v1 [q-fin.CP])",
+    "abstract": "In this paper, we propose an outlier detection algorithm for multivariate data based on their projections on the directions that maximize the Cumulant Generating Function (CGF). We prove that CGF is a convex function, and we characterize the CGF maximization problem on the unit n-circle as a concave minimization problem. Then, we show that the CGF maximization approach can be interpreted as an extension of the standard principal component technique. Therefore, for validation and testing, we provide a thorough comparison of our methodology with two other projection-based approaches both on artificial and real-world financial data. Finally, we apply our method as an early detector for financial crises.",
+    "link": "http://arxiv.org/abs/2305.10911",
+    "context": "Title: Non-parametric cumulants approach for outlier detection of multivariate financial data. (arXiv:2305.10911v1 [q-fin.CP])\nAbstract: In this paper, we propose an outlier detection algorithm for multivariate data based on their projections on the directions that maximize the Cumulant Generating Function (CGF). We prove that CGF is a convex function, and we characterize the CGF maximization problem on the unit n-circle as a concave minimization problem. Then, we show that the CGF maximization approach can be interpreted as an extension of the standard principal component technique. Therefore, for validation and testing, we provide a thorough comparison of our methodology with two other projection-based approaches both on artificial and real-world financial data. Finally, we apply our method as an early detector for financial crises.",
+    "path": "papers/23/05/2305.10911.json",
+    "total_tokens": 711,
+    "translated_title": "一种多元金融数据异常检测的非参数累积量方法",
+    "translated_abstract": "本文提出了一种基于最大化累积量生成函数(CGf)方向上的数据投影的多元数据异常检测算法。我们证明了CGF是一个凸函数，并将在单位n-圆上最大化CGF问题的特征描述为凹性最小化问题。然后，我们展示了CGF最大化方法可以被解释为标准主成分技术的扩展。为了验证和测试，我们在人工和实际金融数据上对我们的方法进行了全面比较。最后，我们将我们的方法应用为金融危机的早期检测器。",
+    "tldr": "本文提出基于累积量生成函数方向的多元金融数据异常检测算法，并将其与其他投影方法进行比较，成功应用于早期金融危机检测。",
+    "en_tdlr": "This paper proposes a non-parametric cumulants approach for detecting outliers in multivariate financial data, and compares it with two other projection-based approaches. The method is validated using both artificial and real-world financial data and is successfully applied as an early detector for financial crises."
+}

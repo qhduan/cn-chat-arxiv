@@ -1,0 +1,12 @@
+{
+    "title": "A Counterexample in Ito Integration Theory. (arXiv:2305.10695v1 [math.PR])",
+    "abstract": "Ito's Lemma implies that if $W$ is a Wiener process and $f$ is a twice continuously differentiable function, then the process $f(W)$ is the sum of a time integral and an Ito integral. The Ito integrand is not necessarily locally square integrable. This note provides a counterexample.",
+    "link": "http://arxiv.org/abs/2305.10695",
+    "context": "Title: A Counterexample in Ito Integration Theory. (arXiv:2305.10695v1 [math.PR])\nAbstract: Ito's Lemma implies that if $W$ is a Wiener process and $f$ is a twice continuously differentiable function, then the process $f(W)$ is the sum of a time integral and an Ito integral. The Ito integrand is not necessarily locally square integrable. This note provides a counterexample.",
+    "path": "papers/23/05/2305.10695.json",
+    "total_tokens": 506,
+    "translated_title": "Ito积分理论中的反例",
+    "translated_abstract": "Ito引理表明，如果$W$是一个维纳过程，$f$是一个二次连续可微函数，则过程$f(W)$是一个时间积分和一个Ito积分之和。但是Ito积分被积函数不一定是局部平方可积的。本文提供了一个反例。",
+    "tldr": "本文提供了一个反例，证明了在Ito积分理论中，Ito积分被积函数不一定是局部平方可积的。",
+    "en_tdlr": "This paper provides a counterexample showing that the integrand of Ito integral is not necessarily locally square integrable in Ito integration theory, despite Ito's Lemma."
+}

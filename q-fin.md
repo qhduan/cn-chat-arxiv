@@ -2,202 +2,187 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Valuation of a Financial Claim Contingent on the Outcome of a Quantum Measurement.](http://arxiv.org/abs/2305.10239) | 本文提出了一种基于量子测量结果的金融索赔估值方法，证明了存在一个定价状态与物理状态在零空间上等价，并给出了相应的定价公式。 |
-| [^2] | [Towards High-Value Datasets determination for data-driven development: a systematic literature review.](http://arxiv.org/abs/2305.10234) | 本文系统综述了面向数据驱动发展的高价值数据集的研究现状，提出了高价值数据集的定义及其在推动更成熟的开放政府数据倡议方面的重要作用。 |
-| [^3] | [Affective interdependence and welfare.](http://arxiv.org/abs/2305.10165) | 本论文研究了纯情感互动对于个体福利的影响，证明了帕累托最优以及纳什均衡的存在性和局部优越性。 |
-| [^4] | [Rational Dialogues.](http://arxiv.org/abs/2305.10164) | 论文表明了任何有限的对话都可以被合理化。 |
-| [^5] | [Embedding and correlation tensor for XRP transaction networks.](http://arxiv.org/abs/2305.09917) | 对XRP交易网络进行了嵌入和相关分析，揭示了系统的关键见解。 |
-| [^6] | [Emergent Growth of System Self-Organization & Self-Control.](http://arxiv.org/abs/2305.09837) | 论文探讨了自组织与自控的系统增长，这种生长遵循“S”曲线模式，首先自由构建能力，接着与其他系统和谐发展，并在其顶点环境中承担一个或多个角色，最终以衰退结束。许多小型初创企业成功，而一些强大的文明最终也会消失。 |
-| [^7] | [Deep Learning for Solving and Estimating Dynamic Macro-Finance Models.](http://arxiv.org/abs/2305.09783) | 该论文介绍了一种利用深度学习同时求解和估计金融经济中经典的连续时间一般均衡模型的方法，并在产业动态和带有金融摩擦的宏观经济模型两个样例中展示了其优点，具有多种用途。 |
-| [^8] | [Time-Consistent Asset Allocation for Risk Measures in a L\'evy Market.](http://arxiv.org/abs/2305.09471) | 本文研究了使用风险度量进行资产配置的问题，通过使用广义的风险度量，最大化时间一致的平均风险回报函数。作者模拟了市场，并在符合条件的情况下证明了该问题的最优解是确定性且唯一的。 |
-| [^9] | [UQ for Credit Risk Management: A deep evidence regression approach.](http://arxiv.org/abs/2305.04967) | 本文扩展了Deep Evidence Regression方法，将其应用于预测信用风险中的违约损失；我们提供了相关的学习框架，并在模拟和实际数据上进行了验证。 |
-| [^10] | [Projecting XRP price burst by correlation tensor spectra of transaction networks.](http://arxiv.org/abs/2211.03002) | 本文提出了一种基于相关张量谱的新方法，用于研究动态XRP网络，并且可以提供XRP价格的早期指示。 |
-| [^11] | [Integrated storage assignment for an e-grocery fulfilment centre: Accounting for day-of-week demand patterns.](http://arxiv.org/abs/2209.03998) | 本文提出了一个综合的MILP模型，用于实现高效捡货并尊重站点负载平衡和优先级约束。在电子杂货配送中心中，该模型显著优于顺序方法。 |
-| [^12] | [Correlation Estimation in Hybrid Systems.](http://arxiv.org/abs/2111.06042) | 本文提出一种简单快速的算法来估计混合系统中状态变量之间的瞬时相关性，使用现货利率、股票价格和隐含波动率等观测市场量之间的经验相关性，并可使用短期平价隐含波动率的平方作为不可观测随机方差的代理。估计结果相当准确，且对于错误指定的利率模型参数和短采样周期假设是鲁棒的。 |
-| [^13] | [Epstein-Zin Utility Maximization on a Random Horizon.](http://arxiv.org/abs/1903.08782) | 本文解决了基于Epstein-Zin偏好的消费-投资问题，其随机时间跨度为一个停时，并适应于所有可观测但未必可交易的状态过程所生成的市场过滤。从固定时间跨度转变为随机时间跨度会极大地改变最优投资策略。 |
+| [^1] | [Non-parametric cumulants approach for outlier detection of multivariate financial data.](http://arxiv.org/abs/2305.10911) | 本文提出基于累积量生成函数方向的多元金融数据异常检测算法，并将其与其他投影方法进行比较，成功应用于早期金融危机检测。 |
+| [^2] | [Super-efficiency of Listed Banks in China and Determinants Analysis (2006-2021).](http://arxiv.org/abs/2305.10885) | 本研究采用中国42家上市银行2006至2021年的年度数据，发现国有银行和城市/农村商业银行的超效率优于股份制银行，国有银行在中介效率方面具有优势。所有类型的银行都受益于所有权集中度的降低，地方商业银行受益于客户集中度的降低和准备金的增加，在增加贷款存款比率方面，国有银行应该采取措施，股份制银行则相反。 |
+| [^3] | [Extreme ATM skew in a local volatility model with discontinuity: joint density approach.](http://arxiv.org/abs/2305.10849) | 本文研究了一种本地波动率模型，其中波动率在基础价格高于或低于某一阈值时分别取两个特定取值。通过联合分布方法，确认了该模型下当阈值位于平价处时，隐含波动率偏斜的幂律行为。 |
+| [^4] | [Efficient inverse $Z$-transform: sufficient conditions.](http://arxiv.org/abs/2305.10725) | 本篇论文推导了逆$Z$-变换新的高效实现的充分条件，并应用于欧式期权和单障碍期权的定价，开创了解决更一般期权定价问题的途径。 |
+| [^5] | [A Counterexample in Ito Integration Theory.](http://arxiv.org/abs/2305.10695) | 本文提供了一个反例，证明了在Ito积分理论中，Ito积分被积函数不一定是局部平方可积的。 |
+| [^6] | [Gated Deeper Models are Effective Factor Learners.](http://arxiv.org/abs/2305.10693) | 本文提出一种门控深度学习模型，将人工设计的因子与深度神经网络相结合，能够在2048维度空间中生成更有意义的因子，并取得了在对2,000只中国市场股票实验中良好的效果。 |
+| [^7] | [Option pricing under jump diffusion model.](http://arxiv.org/abs/2305.10678) | 本文提出了跳跃扩散模型下的欧式期权定价公式，使用双重Levy跳跃模型来驱动利率和基础价格，并通过数值实验验证了其收敛速度。 |
+| [^8] | [A Short Note on Setting Swap Parameters.](http://arxiv.org/abs/2305.10624) | 本文阐述了交易者如何通过区块链操作将财富最优地交换成目标资产的理论解决方案，并提供了解决最佳滑点参数和最佳交易规模的框架。 |
+| [^9] | [Characteristic Function of the Tsallis $q$-Gaussian and Its Applications in Measurement and Metrology.](http://arxiv.org/abs/2303.08615) | 本文介绍了Tsallis $q$-高斯函数的特征函数及其在测量与计量中的应用，提出了一种反演的数值方法，使得能够评估线性测量模型中输出量的概率分布，并进行计量的不确定度分析。 |
+| [^10] | [Understanding Model Complexity for temporal tabular and multi-variate time series, case study with Numerai data science tournament.](http://arxiv.org/abs/2303.07925) | 本文采用 Numerai 数据科学竞赛的数据，探究了多变量时间序列建模中不同特征工程和降维方法的应用；提出了一种新的集成方法，用于高维时间序列建模，该方法在通用性、鲁棒性和效率上优于一些深度学习模型。 |
+| [^11] | [Effective a Posteriori Ratemaking with Large Insurance Portfolios via Surrogate Modeling.](http://arxiv.org/abs/2211.06568) | 本文针对保险中高效的后验费率制定问题，提出了使用代理模型方法来获得封闭式表达式计算保费的方案，同时引进了可信度指数作为保费计算的摘要统计信息，避免了因计算代价高昂或计算过程成为“黑盒”而带来的限制。 |
+| [^12] | [Reinforcement Learning Policy Recommendation for Interbank Network Stability.](http://arxiv.org/abs/2204.07134) | 本文基于强化学习策略推荐，分析了其对人工银行间市场的影响。根据个体信息和公共推荐，金融机构制定借贷协议。策略推荐能够合理引导金融行为者的信贷关系形成，核心-周边网络结构迅速稳定。 |
 
 # 详细
 
-[^1]: 一种基于量子测量结果的金融索赔估值方法
+[^1]: 一种多元金融数据异常检测的非参数累积量方法
 
-    Valuation of a Financial Claim Contingent on the Outcome of a Quantum Measurement. (arXiv:2305.10239v1 [quant-ph])
+    Non-parametric cumulants approach for outlier detection of multivariate financial data. (arXiv:2305.10911v1 [q-fin.CP])
 
-    [http://arxiv.org/abs/2305.10239](http://arxiv.org/abs/2305.10239)
+    [http://arxiv.org/abs/2305.10911](http://arxiv.org/abs/2305.10911)
 
-    本文提出了一种基于量子测量结果的金融索赔估值方法，证明了存在一个定价状态与物理状态在零空间上等价，并给出了相应的定价公式。
-
-    
-
-    本文考虑了有理性代理人在$t=0$时参与一份金融合同的情况，该合同的支付金额取决于$t=T$时的量子测量结果。假设已知量子系统的密度算符$ \hat{p}$，那么代理人愿意在$t=0$时支付多少费用进入这样的一份合同？在有限维希尔伯特空间的情况下，每个索赔都可以用一个观测算符$\hat{X}_T$来表示，其中$\hat{X}_T$的特征值决定了测量结果，相应的支付金额与之对应。我们在合理的公理条件下证明了，存在一个定价状态$\hat{q}$与物理状态$\hat{p}$在零空间上等价，使得定价函数$\Pi_{0T}$对于任何索赔$\hat{X}_T$都采取形式$\Pi_{0T}(\hat{X}_T)=P_{0T} {\rm tr}(\hat{q}\hat{X}_T)$，其中$P_{0T}$是一期折现因子。
-
-    We consider a rational agent who at time $0$ enters into a financial contract for which the payout is determined by a quantum measurement at some time $T>0$. The state of the quantum system is given by a known density matrix $\hat p$. How much will the agent be willing to pay at time $0$ to enter into such a contract? In the case of a finite dimensional Hilbert space, each such claim is represented by an observable $\hat X_T$ where the eigenvalues of $\hat X_T$ determine the amount paid if the corresponding outcome is obtained in the measurement. We prove, under reasonable axioms, that there exists a pricing state $\hat q$ which is equivalent to the physical state $\hat p$ on null spaces such that the pricing function $\Pi_{0T}$ takes the form $\Pi_{0T}(\hat X_T) = P_{0T}\,{\rm tr} ( \hat q \hat X_T) $ for any claim $\hat X_T$, where $P_{0T}$ is the one-period discount factor. By "equivalent" we mean that $\hat p$ and $\hat q$ share the same null space: thus, for any $|\xi \rangle \in 
-    
-[^2]: 面向数据驱动发展的高价值数据集确定：一项系统文献综述
-
-    Towards High-Value Datasets determination for data-driven development: a systematic literature review. (arXiv:2305.10234v1 [cs.CY])
-
-    [http://arxiv.org/abs/2305.10234](http://arxiv.org/abs/2305.10234)
-
-    本文系统综述了面向数据驱动发展的高价值数据集的研究现状，提出了高价值数据集的定义及其在推动更成熟的开放政府数据倡议方面的重要作用。
+    本文提出基于累积量生成函数方向的多元金融数据异常检测算法，并将其与其他投影方法进行比较，成功应用于早期金融危机检测。
 
     
 
-    开放政府数据被看作是一种政治和社会经济现象，可以促进市民参与并刺激公共领域的创新。为了带来预期的好处，数据必须被重用和转化为增值产品或服务。这要求数据不仅需要符合开放数据原则并可用，还必须具有价值，即被终端用户重用的兴趣。这涉及到“高价值数据集”（HVD）的概念，在2022年被欧洲数据门户认可为开放政府数据领域的关键趋势。虽然在这方面已经取得了进展，例如，开放数据指令，包括确定6个关键类别、一系列HVD的列表以及其发布和重用的安排，它们可以被视为旨在提高公共部门数据互操作性的“核心” /“基础”数据集，对于推动更成熟的开放政府数据倡议起到了重要作用。
+    本文提出了一种基于最大化累积量生成函数(CGf)方向上的数据投影的多元数据异常检测算法。我们证明了CGF是一个凸函数，并将在单位n-圆上最大化CGF问题的特征描述为凹性最小化问题。然后，我们展示了CGF最大化方法可以被解释为标准主成分技术的扩展。为了验证和测试，我们在人工和实际金融数据上对我们的方法进行了全面比较。最后，我们将我们的方法应用为金融危机的早期检测器。
 
-    The OGD is seen as a political and socio-economic phenomenon that promises to promote civic engagement and stimulate public sector innovations in various areas of public life. To bring the expected benefits, data must be reused and transformed into value-added products or services. This, in turn, sets another precondition for data that are expected to not only be available and comply with open data principles, but also be of value, i.e., of interest for reuse by the end-user. This refers to the notion of 'high-value dataset' (HVD), recognized by the European Data Portal as a key trend in the OGD area in 2022. While there is a progress in this direction, e.g., the Open Data Directive, incl. identifying 6 key categories, a list of HVDs and arrangements for their publication and re-use, they can be seen as 'core' / 'base' datasets aimed at increasing interoperability of public sector data with a high priority, contributing to the development of a more mature OGD initiative. Depending on t
+    In this paper, we propose an outlier detection algorithm for multivariate data based on their projections on the directions that maximize the Cumulant Generating Function (CGF). We prove that CGF is a convex function, and we characterize the CGF maximization problem on the unit n-circle as a concave minimization problem. Then, we show that the CGF maximization approach can be interpreted as an extension of the standard principal component technique. Therefore, for validation and testing, we provide a thorough comparison of our methodology with two other projection-based approaches both on artificial and real-world financial data. Finally, we apply our method as an early detector for financial crises.
     
-[^3]: 情感相互依赖与福利
+[^2]: 中国上市银行的超效率及决定因素分析（2006-2021年）
 
-    Affective interdependence and welfare. (arXiv:2305.10165v1 [econ.GN])
+    Super-efficiency of Listed Banks in China and Determinants Analysis (2006-2021). (arXiv:2305.10885v1 [q-fin.GN])
 
-    [http://arxiv.org/abs/2305.10165](http://arxiv.org/abs/2305.10165)
+    [http://arxiv.org/abs/2305.10885](http://arxiv.org/abs/2305.10885)
 
-    本论文研究了纯情感互动对于个体福利的影响，证明了帕累托最优以及纳什均衡的存在性和局部优越性。
-
-    
-
-    纯情感互动使得个体的福利依赖于她自己的行为以及其他人福利水平的配置。在我们解释为“非爆炸性互相情感”的互相情感结构假设下，我们证明了同时进行的情感互动的均衡是帕累托最优的，无论是否存在诱导标准博弈。此外，如果纯情感互动引起了标准博弈，则策略均衡配置是博弈的纳什均衡，并且该纳什均衡和帕累托最优策略配置是当地优越的。
-
-    Purely affective interaction allows the welfare of an individual to depend on her own actions and on the profile of welfare levels of others. Under an assumption on the structure of mutual affection that we interpret as "non-explosive mutual affection," we show that equilibria of simultaneous-move affective interaction are Pareto optimal independently of whether or not an induced standard game exists. Moreover, if purely affective interaction induces a standard game, then an equilibrium profile of actions is a Nash equilibrium of the game, and this Nash equilibrium and Pareto optimal profile of strategies is locally dominant.
-    
-[^4]: 合理的对话。 (arXiv:2305.10164v1 [econ.GN])
-
-    Rational Dialogues. (arXiv:2305.10164v1 [econ.GN])
-
-    [http://arxiv.org/abs/2305.10164](http://arxiv.org/abs/2305.10164)
-
-    论文表明了任何有限的对话都可以被合理化。
+    本研究采用中国42家上市银行2006至2021年的年度数据，发现国有银行和城市/农村商业银行的超效率优于股份制银行，国有银行在中介效率方面具有优势。所有类型的银行都受益于所有权集中度的降低，地方商业银行受益于客户集中度的降低和准备金的增加，在增加贷款存款比率方面，国有银行应该采取措施，股份制银行则相反。
 
     
 
-    任何有限的对话都可以被合理化。
+    本研究采用2006至2021年42家上市银行的年度非平衡面板数据，采用考虑不良贷款为不希望产出的非径向非定向超效率数据包络分析（Super-SBM-UND-VRS based DEA）模型。结果显示，国有银行和城市/农村商业银行的盈利能力超效率优于股份制银行。就中介效率（存款和贷款）而言，国有银行具有优势。决定因素分析表明，所有类型的银行都受益于所有权集中度的降低，支持改革和IPO。地方商业银行显著受益于客户集中度的降低和准备金的增加。另一方面，国有银行应增加其贷款存款比率，而股份制银行应采取相反的措施。
 
-    Any finite conversation can be rationalized.
+    This study employs the annual unbalanced panel data of 42 listed banks in China from 2006 to 2021, adopts the non-radial and non-oriented super-efficiency Data envelopment analysis (Super-SBM-UND-VRS based DEA) model considering NPL as undesired output. Our results show that the profitability super-efficiency of State-owned banks and Rural/City Commercial Banks is better than that of Joint-stock Banks. In terms of intermediary efficiency(deposit and loan), state-owned banks have advantage on other two type of banks. The determinants analysis shows that all type of banks significantly benefits from the decrease of ownership concentration which support reformation and IPO. Regional commercial banks significantly benefit from the decrease of customer concentration and the increase of reserves. On the other hand, State-owned banks should increase its loan to deposit ratio while joint-stock banks should do the opposite.
     
-[^5]: XRP交易网络嵌入和相关张量的研究
+[^3]: 具有不连续性的本地波动率模型中的极端ATM偏斜：联合密度方法
 
-    Embedding and correlation tensor for XRP transaction networks. (arXiv:2305.09917v1 [physics.soc-ph])
+    Extreme ATM skew in a local volatility model with discontinuity: joint density approach. (arXiv:2305.10849v1 [q-fin.MF])
 
-    [http://arxiv.org/abs/2305.09917](http://arxiv.org/abs/2305.09917)
+    [http://arxiv.org/abs/2305.10849](http://arxiv.org/abs/2305.10849)
 
-    对XRP交易网络进行了嵌入和相关分析，揭示了系统的关键见解。
-
-    
-
-    加密资产在全球范围内迅速增长，其中一个市值较大的加密资产是XRP。本文针对2017年至2018年期间的交易数据进行分析，这段时间内XRP市场价格出现了显著的波动。我们构建了XRP交易的按周加权定向网络。利用网络嵌入技术将这些按周网络嵌入到连续向量空间中，将网络结构中存在的结构规律编码为节点向量。通过适当的时间窗口计算相关张量，对相关系统提供了关键见解。使用随机相关张量捕捉相关张量的显著性。我们展示了相关张量对模型参数依赖的详细情况。
-
-    Cryptoassets are growing rapidly worldwide. One of the large cap cryptoassets is XRP. In this article, we focus on analyzing transaction data for the 2017-2018 period that consist one of the significant XRP market price bursts. We construct weekly weighted directed networks of XRP transactions. These weekly networks are embedded on continuous vector space using a network embedding technique that encodes structural regularities present in the network structure in terms of node vectors. Using a suitable time window we calculate a correlation tensor. A double singular value decomposition of the correlation tensor provides key insights about the system. The significance of the correlation tensor is captured using a randomized correlation tensor. We present a detailed dependence of correlation tensor on model parameters.
-    
-[^6]: 系统自组织与自控的新兴增长
-
-    Emergent Growth of System Self-Organization & Self-Control. (arXiv:2305.09837v1 [physics.soc-ph])
-
-    [http://arxiv.org/abs/2305.09837](http://arxiv.org/abs/2305.09837)
-
-    论文探讨了自组织与自控的系统增长，这种生长遵循“S”曲线模式，首先自由构建能力，接着与其他系统和谐发展，并在其顶点环境中承担一个或多个角色，最终以衰退结束。许多小型初创企业成功，而一些强大的文明最终也会消失。
+    本文研究了一种本地波动率模型，其中波动率在基础价格高于或低于某一阈值时分别取两个特定取值。通过联合分布方法，确认了该模型下当阈值位于平价处时，隐含波动率偏斜的幂律行为。
 
     
 
-    在物理学中，我发现那些无法用公式解释的现象往往被忽略，比如不受控制的生长系统如何改变形态。天气、企业、社会、环境、社区、文化、群体、人际关系、生活和生计等，都遵循某种变体的“S”曲线生长。这是一种自我激发的上下文能量系统发展的缓慢-快速-缓慢过程。它们似乎通过“发现和连接”在三个阶段中形成工作系统，首先A）自由地构建日益增长的能力，接着B）多样化、适应、响应和与其他系统和谐发展，最后C）在其顶点环境中承担一个或多个角色。这是一个巨大的系统熵成功的生命曲线，然后以衰退结束。对于小型初创企业而言，生存特别艰难，但许多企业确实成功了。许多强大的文明已经出现，有些永远不会成长，只会成为无尽的初创企业，最终变得脆弱、失败和消失。这看起来像是一个选择。
+    本文研究了一种本地波动率模型，其中波动率取两个可能的值，具体取决于基础价格是否高于或低于给定的阈值。该模型已知，并且已经得出了许多结果。特别是，最近已经得出了欧式期权明确的定价公式，并应用于确定当阈值位于平价处时，隐含波动率偏斜的幂律行为。这些结果是基于拉普拉斯变换技术获得的。本文的目的是演示如何通过另一种方法获得相同的结果。这种替代方法基于该模型与Skew Brownian运动的自然关系，并且是通过系统地使用该随机过程及其某些函数的联合分布来实现的。
 
-    In physics, I noticed subjects not explained by formulas were often not studied, like how uncontrolled growth systems changed form. Weather, businesses, societies, environments, communities, cultures, groups, relationships, lives, and livelihoods all do it following some variation of an 'S' curve. It is a slow-fast-slow process of self-animated contextual energy system development. Making working systems, they seem to develop by "find and connect" in three stages, starting small to first A) freely build designs of growing power, then B) diversify, adapt, respond, and harmonize with others, then C) take on one or more roles in their climax environments. It is a life curve of tremendous syntropic success that then ends with decline. Life is particularly risky for small start-ups, but many do succeed. Many powerful civilizations have emerged, some never growing up but growing as endless startups, only to become fragile, fail, and vanish. That looks like a choice.
+    This paper concerns a local volatility model in which volatility takes two possible values, and the specific value depends on whether the underlying price is above or below a given threshold value. The model is known, and a number of results have been obtained for it. In particular, explicit pricing formulas for European options have been recently obtained and applied to establish a power law behaviour of the implied volatility skew in the case when the threshold is taken at the money. These results have been obtained by techniques based on the Laplace transform. The purpose of the present paper is to demonstrate how to obtain the same results by another method. This alternative approach is based on the natural relationship of the model with Skew Brownian motion and consists in the systematic use of the joint distribution of this stochastic process and some of its functionals.
     
-[^7]: 应用深度学习求解和估计宏观金融动态模型
+[^4]: 高效的逆Z变换：充分条件。
 
-    Deep Learning for Solving and Estimating Dynamic Macro-Finance Models. (arXiv:2305.09783v1 [q-fin.CP])
+    Efficient inverse $Z$-transform: sufficient conditions. (arXiv:2305.10725v1 [math.PR])
 
-    [http://arxiv.org/abs/2305.09783](http://arxiv.org/abs/2305.09783)
+    [http://arxiv.org/abs/2305.10725](http://arxiv.org/abs/2305.10725)
 
-    该论文介绍了一种利用深度学习同时求解和估计金融经济中经典的连续时间一般均衡模型的方法，并在产业动态和带有金融摩擦的宏观经济模型两个样例中展示了其优点，具有多种用途。
-
-    
-
-    我们开发了一种利用深度学习同时解决和估计金融经济中经典的连续时间一般均衡模型的方法。我们在两个样例中展示了我们的方法：（1）企业的产业动态和（2）带有金融摩擦的宏观经济模型。通过这些应用，我们展示了我们的方法的优点：通用性、同时求解和估计、运用最先进的机器学习技术和处理大规模状态空间的能力。该方法具有多种用途。
-
-    We develop a methodology that utilizes deep learning to simultaneously solve and estimate canonical continuous-time general equilibrium models in financial economics. We illustrate our method in two examples: (1) industrial dynamics of firms and (2) macroeconomic models with financial frictions. Through these applications, we illustrate the advantages of our method: generality, simultaneous solution and estimation, leveraging the state-of-art machine-learning techniques, and handling large state space. The method is versatile and can be applied to a vast variety of problems.
-    
-[^8]: 在 L\'evy 市场中基于风险度量的时一致资产配置
-
-    Time-Consistent Asset Allocation for Risk Measures in a L\'evy Market. (arXiv:2305.09471v1 [q-fin.MF])
-
-    [http://arxiv.org/abs/2305.09471](http://arxiv.org/abs/2305.09471)
-
-    本文研究了使用风险度量进行资产配置的问题，通过使用广义的风险度量，最大化时间一致的平均风险回报函数。作者模拟了市场，并在符合条件的情况下证明了该问题的最优解是确定性且唯一的。
+    本篇论文推导了逆$Z$-变换新的高效实现的充分条件，并应用于欧式期权和单障碍期权的定价，开创了解决更一般期权定价问题的途径。
 
     
 
-    本文针对增益而非终止财富，考虑了一种资产配置问题，旨在通过使用一种广义的风险度量（满足 i）具有律变性，ii）具有现金或平移不变性，及 iii）可能嵌入到一种通用函数中）最大限度地一致化时间来扩大风险收益函数。我们使用 $\alpha$ 稳定的 L\'evy 过程来模拟市场，并为经典的 Black-Scholes 模型提供了补充结果。该问题的最优解是一个 Nash 子游戏均衡，其由扩展的 Hamilton-Jacobi-Bellman 方程的解决方案给出。此外，在适当的假设下，我们证明最优解是确定性且唯一的。
+    我们推导出逆$Z$-变换新的高效数值实现适用的多组充分条件。对于大的$n$，新方案的复杂度比梯形法则的复杂度小数十倍。作为应用，我们考虑欧式期权和离散监测单障碍期权的定价；概述了在具有障碍回溯特征的更一般期权上的应用。在扇形转移算符的情况下，即对于对称Lévy模型，证明是直截了当的。对于非对称Lévy模型，我们构造了一个对偶空间的非线性变形，使得转移算符扇形化，开口角度任意小，并证明了新实现方法。我们施加的条件对于广泛类别的非对称Stieltjes-Lévy过程都成立。
 
-    Focusing on gains instead of terminal wealth, we consider an asset allocation problem to maximize time-consistently a mean-risk reward function with a general risk measure which is i) law-invariant, ii) cash- or shift-invariant, and iii) positively homogeneous, and possibly plugged into a general function. We model the market via a generalized version of the multi-dimensional Black-Scholes model using $\alpha$-stable L\'evy processes and give supplementary results for the classical Black-Scholes model. The optimal solution to this problem is a Nash subgame equilibrium given by the solution of an extended Hamilton-Jacobi-Bellman equation. Moreover, we show that the optimal solution is deterministic and unique under appropriate assumptions.
+    We derive several sets of sufficient conditions for applicability of the new efficient numerical realization of the inverse $Z$-transform. For large $n$, the complexity of the new scheme is dozens of times smaller than the complexity of the trapezoid rule. As applications, pricing of European options and single barrier options with discrete monitoring are considered; applications to more general options with barrier-lookback features are outlined. In the case of sectorial transition operators, hence, for symmetric L\'evy models, the proof is straightforward. In the case of non-symmetric L\'evy models, we construct a non-linear deformation of the dual space, which makes the transition operator sectorial, with an arbitrary small opening angle, and justify the new realization. We impose mild conditions which are satisfied for wide classes of non-symmetric Stieltjes-L\'evy processes.
     
-[^9]: 信用风险管理中的量化不确定性：一种深度证据回归方法
+[^5]: Ito积分理论中的反例
 
-    UQ for Credit Risk Management: A deep evidence regression approach. (arXiv:2305.04967v1 [q-fin.RM])
+    A Counterexample in Ito Integration Theory. (arXiv:2305.10695v1 [math.PR])
 
-    [http://arxiv.org/abs/2305.04967](http://arxiv.org/abs/2305.04967)
+    [http://arxiv.org/abs/2305.10695](http://arxiv.org/abs/2305.10695)
 
-    本文扩展了Deep Evidence Regression方法，将其应用于预测信用风险中的违约损失；我们提供了相关的学习框架，并在模拟和实际数据上进行了验证。
-
-    
-
-    机器学习已经广泛应用于各种信用风险应用程序中。由于信用风险的固有性质，量化预测风险指标的不确定性是必要的，将考虑不确定性的深度学习模型应用于信用风险设置中非常有帮助。在本项工作中，我们探索了一种可扩展的UQ感知深度学习技术，Deep Evidence Regression，并将其应用于预测违约损失。我们通过将Deep Evidence Regression方法扩展到通过Weibull过程生成的目标变量的学习来为文献做出了贡献，并提供了相关的学习框架。我们展示了我们的方法在模拟和实际数据上的应用。
-
-    Machine Learning has invariantly found its way into various Credit Risk applications. Due to the intrinsic nature of Credit Risk, quantifying the uncertainty of the predicted risk metrics is essential, and applying uncertainty-aware deep learning models to credit risk settings can be very helpful. In this work, we have explored the application of a scalable UQ-aware deep learning technique, Deep Evidence Regression and applied it to predicting Loss Given Default. We contribute to the literature by extending the Deep Evidence Regression methodology to learning target variables generated by a Weibull process and provide the relevant learning framework. We demonstrate the application of our approach to both simulated and real-world data.
-    
-[^10]: 基于交易网络相关张量谱的XRP价格预测
-
-    Projecting XRP price burst by correlation tensor spectra of transaction networks. (arXiv:2211.03002v2 [physics.soc-ph] UPDATED)
-
-    [http://arxiv.org/abs/2211.03002](http://arxiv.org/abs/2211.03002)
-
-    本文提出了一种基于相关张量谱的新方法，用于研究动态XRP网络，并且可以提供XRP价格的早期指示。
+    本文提供了一个反例，证明了在Ito积分理论中，Ito积分被积函数不一定是局部平方可积的。
 
     
 
-    在数字经济时代中，加密资产变得越来越重要，XRP是市场上一个大市值的加密资产。本文提出了一种新颖的相关张量谱方法，用于研究动态的XRP网络，该方法可以提供XRP价格的早期指示。通过聚合一周内所有交易而构建权重定向的交易网络，为每个节点获取一个向量，从一系列节点向量的快照中构造相关张量。相关张量的双奇异值分解可以得出奇异值，最大奇异值表现出与XRP/USD价格的显著负相关。通过比较其随机版本，表明奇异值的意义。
+    Ito引理表明，如果$W$是一个维纳过程，$f$是一个二次连续可微函数，则过程$f(W)$是一个时间积分和一个Ito积分之和。但是Ito积分被积函数不一定是局部平方可积的。本文提供了一个反例。
 
-    Cryptoassets are becoming essential in the digital economy era. XRP is one of the large market cap cryptoassets. Here, we develop a novel method of correlation tensor spectra for the dynamical XRP networks, which can provide an early indication for XRP price. A weighed directed weekly transaction network among XRP wallets is constructed by aggregating all transactions for a week. A vector for each node is then obtained by embedding the weekly network in continuous vector space. From a set of weekly snapshots of node vectors, we construct a correlation tensor. A double singular value decomposition of the correlation tensors gives its singular values. The significance of the singular values is shown by comparing with its randomize counterpart. The evolution of singular values shows a distinctive behavior. The largest singular value shows a significant negative correlation with XRP/USD price. We observe the minimum of the largest singular values at the XRP/USD price peak during the first 
+    Ito's Lemma implies that if $W$ is a Wiener process and $f$ is a twice continuously differentiable function, then the process $f(W)$ is the sum of a time integral and an Ito integral. The Ito integrand is not necessarily locally square integrable. This note provides a counterexample.
     
-[^11]: 电子杂货配送中心集成储存分配：考虑日内需求模式(arXiv:2209.03998v2 [econ.GN] UPDATED)
+[^6]: 门控深度模型是有效的因子学习器
 
-    Integrated storage assignment for an e-grocery fulfilment centre: Accounting for day-of-week demand patterns. (arXiv:2209.03998v2 [econ.GN] UPDATED)
+    Gated Deeper Models are Effective Factor Learners. (arXiv:2305.10693v1 [q-fin.PR])
 
-    [http://arxiv.org/abs/2209.03998](http://arxiv.org/abs/2209.03998)
+    [http://arxiv.org/abs/2305.10693](http://arxiv.org/abs/2305.10693)
 
-    本文提出了一个综合的MILP模型，用于实现高效捡货并尊重站点负载平衡和优先级约束。在电子杂货配送中心中，该模型显著优于顺序方法。
-
-    
-
-    本文研究了一家欧洲主要电子杂货零售商的配送中心中出现的储存分配问题。该中心可以被描述为一个混合仓库，包括一个高效和部分自动化的快速拣选区域和一个分拣区域。所考虑的储存分配问题包括选择要分配给快速拣选区域的产品、将产品分配给挑选站和确定分配站内的货架的决策。目标是在尊重站点负载平衡和优先级约束的情况下实现高效率的拣选。我们提出使用一个综合MILP模型解决这个三级问题。在使用真实数据的计算实验中，我们证明使用所提议的集成方法比顺序方法显著地提高了结果。
-
-    In this paper, we deal with a storage assignment problem arising in a fulfilment centre of a major European e-grocery retailer. The centre can be characterised as a hybrid warehouse consisting of a highly efficient and partially automated fast-picking area designed as a pick-and-pass system with multiple stations, and a picker-to-parts area. The storage assignment problem considered in this paper comprises the decisions to select the products to be allocated to the fast-picking area, the assignment of the products to picking stations and the determination of a shelf within the assigned station. The objective is to achieve a high level of picking efficiency while respecting station workload balancing and precedence order constraints. We propose to solve this three-level problem using an integrated MILP model. In computational experiments with real-world data, we show that using the proposed integrated approach yields significantly better results than a sequential approach in which the s
-    
-[^12]: 混合系统中的相关性估计
-
-    Correlation Estimation in Hybrid Systems. (arXiv:2111.06042v4 [q-fin.CP] UPDATED)
-
-    [http://arxiv.org/abs/2111.06042](http://arxiv.org/abs/2111.06042)
-
-    本文提出一种简单快速的算法来估计混合系统中状态变量之间的瞬时相关性，使用现货利率、股票价格和隐含波动率等观测市场量之间的经验相关性，并可使用短期平价隐含波动率的平方作为不可观测随机方差的代理。估计结果相当准确，且对于错误指定的利率模型参数和短采样周期假设是鲁棒的。
+    本文提出一种门控深度学习模型，将人工设计的因子与深度神经网络相结合，能够在2048维度空间中生成更有意义的因子，并取得了在对2,000只中国市场股票实验中良好的效果。
 
     
 
-    本文提出了一种简单的方法，通过观测市场量（如现货利率、股票价格和隐含波动率）之间的经验相关性，来估计混合系统中状态变量之间的瞬时相关性。新算法非常快速，因为只涉及低维线性系统。如果线性系统产生的矩阵不是半正定的，则建议使用收缩法将矩阵转化为半正定的，该方法只需要二分迭代。本文建议使用短期平价隐含波动率的平方作为不可观测随机方差的代理。当隐含波动率不可用时，提供了一个简单的技巧来填补缺失的相关性。数值研究表明，使用超过1,000个数据点时，估计结果相当准确。此外，该算法对于错误指定的利率模型参数和短采样周期假设是鲁棒的。
+    准确预测资产（例如特斯拉股票）的超额回报对于所有投资者都有益。然而，受到人类行为影响的市场动态的不可预测性使这成为一项具有挑战性的任务。在先前的研究中，研究者手工制定了一些因子作为信号来指导他们的投资过程。相反，本文从不同的角度看待这个问题，将深度学习模型与这些人工设计的因子相结合，预测超额回报的趋势。为此，我们提出了一个五层的深度神经网络，能够在2048维度空间中生成更有意义的因子。现代网络设计技术被用来增强鲁棒性训练并减少过拟合。此外，我们提出了一个门控网络，动态过滤噪声学习的特征，从而提高性能。我们对中国市场的近三年记录中的2,000只股票进行了模型评估。实验结果表明：
 
-    A simple method is proposed to estimate the instantaneous correlations between state variables in a hybrid system from the empirical correlations between observable market quantities such as spot rate, stock price and implied volatility. The new algorithm is extremely fast since only low-dimension linear systems are involved. If the resulting matrix from the linear systems is not positive semidefinite, the shrinking method, which requires only bisection-style iterations, is recommended to convert the matrix to positive semidefinite. The square of short-term at-the-money implied volatility is suggested as the proxy for the unobservable stochastic variance. When the implied volatility is not available, a simple trick is provided to fill in the missing correlations. Numerical study shows that the estimates are reasonably accurate, when using more than 1,000 data points. In addition, the algorithm is robust to misspecified interest rate model parameters and the short-sampling-period assump
+    Precisely forecasting the excess returns of an asset (e.g., Tesla stock) is beneficial to all investors. However, the unpredictability of market dynamics, influenced by human behaviors, makes this a challenging task. In prior research, researcher have manually crafted among of factors as signals to guide their investing process. In contrast, this paper view this problem in a different perspective that we align deep learning model to combine those human designed factors to predict the trend of excess returns. To this end, we present a 5-layer deep neural network that generates more meaningful factors in a 2048-dimensional space. Modern network design techniques are utilized to enhance robustness training and reduce overfitting. Additionally, we propose a gated network that dynamically filters out noise-learned features, resulting in improved performance. We evaluate our model over 2,000 stocks from the China market with their recent three years records. The experimental results show tha
     
-[^13]: 随机时间跨度下的Epstein-Zin效用最大化
+[^7]: 跳跃扩散模型下的期权定价
 
-    Epstein-Zin Utility Maximization on a Random Horizon. (arXiv:1903.08782v5 [q-fin.MF] UPDATED)
+    Option pricing under jump diffusion model. (arXiv:2305.10678v1 [q-fin.PR])
 
-    [http://arxiv.org/abs/1903.08782](http://arxiv.org/abs/1903.08782)
+    [http://arxiv.org/abs/2305.10678](http://arxiv.org/abs/2305.10678)
 
-    本文解决了基于Epstein-Zin偏好的消费-投资问题，其随机时间跨度为一个停时，并适应于所有可观测但未必可交易的状态过程所生成的市场过滤。从固定时间跨度转变为随机时间跨度会极大地改变最优投资策略。
+    本文提出了跳跃扩散模型下的欧式期权定价公式，使用双重Levy跳跃模型来驱动利率和基础价格，并通过数值实验验证了其收敛速度。
 
     
 
-    本文解决了基于Epstein-Zin偏好的消费-投资问题，其随机时间跨度为一个停时，并适应于所有可观测但未必可交易的状态过程所生成的市场过滤。与以往研究不同，本文没有对随机时间跨度施加任何固定的上界，允许其为真正的无界。针对风险规避和时间序列代换弹性都大于1的实证情况，本文使用具有超线性增长的反向随机微分方程来表述最优消费和投资策略。相比于经典的固定时间跨度结果，这种表述涉及一种额外的随机过程，以捕捉时间跨度的随机性。正如两个实例所示，从固定时间跨度转变为随机时间跨度会极大地改变最优投资策略。
+    我们在双重Levy跳跃模型下提供了一个欧式期权定价公式，其中利率和基础价格都由Levy过程驱动。该级数解具有收敛半径，并通过一些数值实验来展示它的收敛速度。
 
-    This paper solves the consumption-investment problem under Epstein-Zin preferences on a random horizon. In an incomplete market, we take the random horizon to be a stopping time adapted to the market filtration, generated by all observable, but not necessarily tradable, state processes. Contrary to prior studies, we do not impose any fixed upper bound for the random horizon, allowing for truly unbounded ones. Focusing on the empirically relevant case where the risk aversion and the elasticity of intertemporal substitution are both larger than one, we characterize the optimal consumption and investment strategies using backward stochastic differential equations with superlinear growth on unbounded random horizons. This characterization, compared with the classical fixed-horizon result, involves an additional stochastic process that serves to capture the randomness of the horizon. As demonstrated in two concrete examples, changing from a fixed horizon to a random one drastically alters t
+    We provide an European option pricing formula written in the form of an infinite series of Black Scholes type terms under double Levy jumps model, where both the interest rate and underlying price are driven by Levy process. The series solution converges with a radius of convergence, and it is complemented by some numerical experiments to demonstrate its speed of convergence.
+    
+[^8]: 设置Swap参数的简短说明。
+
+    A Short Note on Setting Swap Parameters. (arXiv:2305.10624v1 [q-fin.MF])
+
+    [http://arxiv.org/abs/2305.10624](http://arxiv.org/abs/2305.10624)
+
+    本文阐述了交易者如何通过区块链操作将财富最优地交换成目标资产的理论解决方案，并提供了解决最佳滑点参数和最佳交易规模的框架。
+
+    
+
+    这篇短文阐述了交易者如何通过区块链操作将其财富最优地交换成目标资产的理论解决方案。它提供了解决最佳滑点参数和最佳交易规模的框架。
+
+    This short note illustrates the theoretical solution to a trader determining how to optimally swap her wealth into a target asset through on-chain operations. It offers the framework to solve optimal slippage parameters and optimal trade size.
+    
+[^9]: Tsallis $q$-高斯函数的特征函数及其在测量与计量中的应用
+
+    Characteristic Function of the Tsallis $q$-Gaussian and Its Applications in Measurement and Metrology. (arXiv:2303.08615v1 [stat.CO])
+
+    [http://arxiv.org/abs/2303.08615](http://arxiv.org/abs/2303.08615)
+
+    本文介绍了Tsallis $q$-高斯函数的特征函数及其在测量与计量中的应用，提出了一种反演的数值方法，使得能够评估线性测量模型中输出量的概率分布，并进行计量的不确定度分析。
+
+    
+
+    Tsallis $q$-高斯分布是标准高斯分布的一个强大的推广，广泛应用于非广义统计力学、金融市场和图像处理等领域。它属于$q$-分布族，其特征是非可加熵。由于其多功能性和实用性，$q$-高斯分布是模拟测量模型中的输入量的自然选择。本文介绍了独立的$q$-高斯随机变量线性组合的特征函数，并提出了其反演的数值方法。该方法使得能够评估线性测量模型中输出量的概率分布，并进行计量的不确定度分析。
+
+    The Tsallis $q$-Gaussian distribution is a powerful generalization of the standard Gaussian distribution and is commonly used in various fields, including non-extensive statistical mechanics, financial markets, and image processing. It belongs to the $q$-distribution family, which is characterized by a non-additive entropy. Due to their versatility and practicality, $q$-Gaussians are a natural choice for modeling input quantities in measurement models. This paper presents the characteristic function of a linear combination of independent $q$-Gaussian random variables and proposes a numerical method for its inversion. The proposed technique enables the assessment of the probability distribution of output quantities in linear measurement models and the conduct of uncertainty analysis in metrology.
+    
+[^10]: 通过 Numerai 数据科学竞赛案例，理解时间表格和多变量时间序列的模型复杂度
+
+    Understanding Model Complexity for temporal tabular and multi-variate time series, case study with Numerai data science tournament. (arXiv:2303.07925v1 [cs.LG])
+
+    [http://arxiv.org/abs/2303.07925](http://arxiv.org/abs/2303.07925)
+
+    本文采用 Numerai 数据科学竞赛的数据，探究了多变量时间序列建模中不同特征工程和降维方法的应用；提出了一种新的集成方法，用于高维时间序列建模，该方法在通用性、鲁棒性和效率上优于一些深度学习模型。
+
+    
+
+    本文探究了在多变量时间序列建模中使用不同特征工程和降维方法的应用。利用从 Numerai 数据竞赛创建的特征目标交叉相关时间序列数据集，我们证明在过度参数化的情况下，不同特征工程方法的性能与预测会收敛到可由再生核希尔伯特空间刻画的相同平衡态。我们提出了一种新的集成方法，该方法结合了不同的随机非线性变换，随后采用岭回归模型进行高维时间序列建模。与一些常用的用于序列建模的深度学习模型（如 LSTM 和 transformer）相比，我们的方法更加鲁棒（在不同的随机种子下具有较低的模型方差，且对架构的选择不太敏感），并且更有效率。我们方法的另一个优势在于模型的简单性，因为没有必要使用复杂的深度学习框架。
+
+    In this paper, we explore the use of different feature engineering and dimensionality reduction methods in multi-variate time-series modelling. Using a feature-target cross correlation time series dataset created from Numerai tournament, we demonstrate under over-parameterised regime, both the performance and predictions from different feature engineering methods converge to the same equilibrium, which can be characterised by the reproducing kernel Hilbert space. We suggest a new Ensemble method, which combines different random non-linear transforms followed by ridge regression for modelling high dimensional time-series. Compared to some commonly used deep learning models for sequence modelling, such as LSTM and transformers, our method is more robust (lower model variance over different random seeds and less sensitive to the choice of architecture) and more efficient. An additional advantage of our method is model simplicity as there is no need to use sophisticated deep learning frame
+    
+[^11]: 基于代理建模的大型保险投资组合高效后验费率制定
+
+    Effective a Posteriori Ratemaking with Large Insurance Portfolios via Surrogate Modeling. (arXiv:2211.06568v2 [stat.ME] UPDATED)
+
+    [http://arxiv.org/abs/2211.06568](http://arxiv.org/abs/2211.06568)
+
+    本文针对保险中高效的后验费率制定问题，提出了使用代理模型方法来获得封闭式表达式计算保费的方案，同时引进了可信度指数作为保费计算的摘要统计信息，避免了因计算代价高昂或计算过程成为“黑盒”而带来的限制。
+
+    
+
+    保险中的后验费率制定利用贝叶斯可信度模型来升级合同的当前保费，考虑到投保人的属性和索赔记录。大多数用于此任务的数据驱动模型在数学上是难以处理的，因此必须通过数值方法如MCMC等模拟方法来获得保费。然而，这些方法在策略保持者层面上进行时，对于大型投资组合而言计算代价昂贵且具有限制性。此外，这些计算变成了“黑盒”处理，因为没有表达式显示如何使用策略保持者的索赔历史来升级其保费。为了解决这些挑战，本文提出采用代理建模方法，以便于低成本地为任何给定模型计算出贝叶斯可信度保费的封闭式表达式。作为方法的一部分，本文介绍了“可信度指数”，它是策略保持者索赔的摘要统计信息。
+
+    A posteriori ratemaking in insurance uses a Bayesian credibility model to upgrade the current premiums of a contract by taking into account policyholders' attributes and their claim history. Most data-driven models used for this task are mathematically intractable, and premiums must be then obtained through numerical methods such as simulation such MCMC. However, these methods can be computationally expensive and prohibitive for large portfolios when applied at the policyholder level. Additionally, these computations become ``black-box" procedures as there is no expression showing how the claim history of policyholders is used to upgrade their premiums. To address these challenges, this paper proposes the use of a surrogate modeling approach to inexpensively derive a closed-form expression for computing the Bayesian credibility premiums for any given model. As a part of the methodology, the paper introduces the ``credibility index", which is a summary statistic of a policyholder's clai
+    
+[^12]: 强化学习策略推荐对银行间网络稳定性的影响分析
+
+    Reinforcement Learning Policy Recommendation for Interbank Network Stability. (arXiv:2204.07134v2 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2204.07134](http://arxiv.org/abs/2204.07134)
+
+    本文基于强化学习策略推荐，分析了其对人工银行间市场的影响。根据个体信息和公共推荐，金融机构制定借贷协议。策略推荐能够合理引导金融行为者的信贷关系形成，核心-周边网络结构迅速稳定。
+
+    
+
+    本文分析了策略推荐对人工银行间市场表现的影响。金融机构根据公共推荐和个体信息制定借贷协议。前者通过强化学习的最优策略来模拟，旨在最大化系统的适应性并收集有关经济环境的信息。策略推荐直接或间接地影响金融行为者的信贷关系形成过程。通过低利率或高流动性供给的最优选择来合理引导，再根据银行代理的资产负债表信息来确认他们在市场内最适宜向客户提供的流动性和利率组合。通过将公共和私有信号相结合，金融机构能够通过逐渐建立有选择性附加的信贷连接而创建或修建他们的信贷网络，从而生成动态网络。研究结果表明，在这种情况下，核心-周边网络结构具有迅速稳定的形式。
+
+    In this paper, we analyze the effect of a policy recommendation on the performance of an artificial interbank market. Financial institutions stipulate lending agreements following a public recommendation and their individual information. The former is modeled by a reinforcement learning optimal policy that maximizes the system's fitness and gathers information on the economic environment. The policy recommendation directs economic actors to create credit relationships through the optimal choice between a low interest rate or a high liquidity supply. The latter, based on the agents' balance sheet, allows determining the liquidity supply and interest rate that the banks optimally offer their clients within the market. Thanks to the combination between the public and the private signal, financial institutions create or cut their credit connections over time via a preferential attachment evolving procedure able to generate a dynamic network. Our results show that the emergence of a core-pe
     
 

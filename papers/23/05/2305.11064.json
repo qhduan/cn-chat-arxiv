@@ -1,0 +1,12 @@
+{
+    "title": "Bits of Grass: Does GPT already know how to write like Whitman?. (arXiv:2305.11064v1 [cs.CL])",
+    "abstract": "This study examines the ability of GPT-3.5, GPT-3.5-turbo (ChatGPT) and GPT-4 models to generate poems in the style of specific authors using zero-shot and many-shot prompts (which use the maximum context length of 8192 tokens). We assess the performance of models that are not fine-tuned for generating poetry in the style of specific authors, via automated evaluation. Our findings indicate that without fine-tuning, even when provided with the maximum number of 17 poem examples (8192 tokens) in the prompt, these models do not generate poetry in the desired style.",
+    "link": "http://arxiv.org/abs/2305.11064",
+    "context": "Title: Bits of Grass: Does GPT already know how to write like Whitman?. (arXiv:2305.11064v1 [cs.CL])\nAbstract: This study examines the ability of GPT-3.5, GPT-3.5-turbo (ChatGPT) and GPT-4 models to generate poems in the style of specific authors using zero-shot and many-shot prompts (which use the maximum context length of 8192 tokens). We assess the performance of models that are not fine-tuned for generating poetry in the style of specific authors, via automated evaluation. Our findings indicate that without fine-tuning, even when provided with the maximum number of 17 poem examples (8192 tokens) in the prompt, these models do not generate poetry in the desired style.",
+    "path": "papers/23/05/2305.11064.json",
+    "total_tokens": 696,
+    "translated_title": "Bits of Grass: GPT是否已经拥有了写作惠特曼样式的能力？",
+    "translated_abstract": "本研究检验了GPT-3.5、GPT-3.5-Turbo（ChatGPT）和GPT-4模型使用零/多次提示（使用最大上下文长度8192个令牌）生成特定作者风格诗歌的能力。",
+    "tldr": "本文研究了GPT模型在生成特定作者风格诗歌方面的能力，结果表明即使提供了大量样本，未经微调的模型也不能生成所需风格的诗歌。",
+    "en_tdlr": "This paper examines the ability of GPT models to generate poetry in specific author styles, and finds that even with many examples provided, the models without fine-tuning cannot achieve the desired results."
+}

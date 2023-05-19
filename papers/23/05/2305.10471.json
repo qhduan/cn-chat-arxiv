@@ -1,0 +1,12 @@
+{
+    "title": "Bike2Vec: Vector Embedding Representations of Road Cycling Riders and Races. (arXiv:2305.10471v1 [cs.LG])",
+    "abstract": "Vector embeddings have been successfully applied in several domains to obtain effective representations of non-numeric data which can then be used in various downstream tasks. We present a novel application of vector embeddings in professional road cycling by demonstrating a method to learn representations for riders and races based on historical results. We use unsupervised learning techniques to validate that the resultant embeddings capture interesting features of riders and races. These embeddings could be used for downstream prediction tasks such as early talent identification and race outcome prediction.",
+    "link": "http://arxiv.org/abs/2305.10471",
+    "context": "Title: Bike2Vec: Vector Embedding Representations of Road Cycling Riders and Races. (arXiv:2305.10471v1 [cs.LG])\nAbstract: Vector embeddings have been successfully applied in several domains to obtain effective representations of non-numeric data which can then be used in various downstream tasks. We present a novel application of vector embeddings in professional road cycling by demonstrating a method to learn representations for riders and races based on historical results. We use unsupervised learning techniques to validate that the resultant embeddings capture interesting features of riders and races. These embeddings could be used for downstream prediction tasks such as early talent identification and race outcome prediction.",
+    "path": "papers/23/05/2305.10471.json",
+    "total_tokens": 654,
+    "translated_title": "Bike2Vec: 路上自行车车手和比赛的向量嵌入表示",
+    "translated_abstract": "向量嵌入已成功应用于多个领域，以获得非数字数据的有效表示，然后可用于各种下游任务。在职业公路自行车领域，我们提出了一种新的向量嵌入应用，通过展示一种基于历史结果学习车手和比赛表示的方法。我们使用无监督学习技术验证结果嵌入捕获了车手和比赛的有趣特征。这些嵌入可用于诸如早期人才识别和比赛结果预测等下游预测任务。",
+    "tldr": "Bike2Vec是一种通过历史比赛结果学习车手和比赛表示的方法，这些表示可以用于车手和比赛的特征提取和下游预测任务。",
+    "en_tdlr": "Bike2Vec is a method that learns representations of road cycling riders and races based on historical results, which can be used for feature extraction and downstream prediction tasks, such as early talent identification and race outcome prediction."
+}

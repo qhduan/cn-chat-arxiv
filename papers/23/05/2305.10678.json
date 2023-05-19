@@ -1,0 +1,12 @@
+{
+    "title": "Option pricing under jump diffusion model. (arXiv:2305.10678v1 [q-fin.PR])",
+    "abstract": "We provide an European option pricing formula written in the form of an infinite series of Black Scholes type terms under double Levy jumps model, where both the interest rate and underlying price are driven by Levy process. The series solution converges with a radius of convergence, and it is complemented by some numerical experiments to demonstrate its speed of convergence.",
+    "link": "http://arxiv.org/abs/2305.10678",
+    "context": "Title: Option pricing under jump diffusion model. (arXiv:2305.10678v1 [q-fin.PR])\nAbstract: We provide an European option pricing formula written in the form of an infinite series of Black Scholes type terms under double Levy jumps model, where both the interest rate and underlying price are driven by Levy process. The series solution converges with a radius of convergence, and it is complemented by some numerical experiments to demonstrate its speed of convergence.",
+    "path": "papers/23/05/2305.10678.json",
+    "total_tokens": 537,
+    "translated_title": "跳跃扩散模型下的期权定价",
+    "translated_abstract": "我们在双重Levy跳跃模型下提供了一个欧式期权定价公式，其中利率和基础价格都由Levy过程驱动。该级数解具有收敛半径，并通过一些数值实验来展示它的收敛速度。",
+    "tldr": "本文提出了跳跃扩散模型下的欧式期权定价公式，使用双重Levy跳跃模型来驱动利率和基础价格，并通过数值实验验证了其收敛速度。",
+    "en_tdlr": "This paper proposes a pricing formula for European options under jump diffusion model, driven by a double Levy jump model for both interest rate and underlying price. The series solution has a convergence radius and is complemented by numerical experiments demonstrating its convergence speed."
+}

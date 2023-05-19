@@ -1,0 +1,12 @@
+{
+    "title": "The Effectiveness of a Dynamic Loss Function in Neural Network Based Automated Essay Scoring. (arXiv:2305.10447v1 [cs.CL])",
+    "abstract": "Neural networks and in particular the attention mechanism have brought significant advances to the field of Automated Essay Scoring. Many of these systems use a regression-based model which may be prone to underfitting when the model only predicts the mean of the training data. In this paper, we present a dynamic loss function that creates an incentive for the model to predict with the correct distribution, as well as predicting the correct values. Our loss function achieves this goal without sacrificing any performance achieving a Quadratic Weighted Kappa score of 0.752 on the Automated Student Assessment Prize Automated Essay Scoring dataset.",
+    "link": "http://arxiv.org/abs/2305.10447",
+    "context": "Title: The Effectiveness of a Dynamic Loss Function in Neural Network Based Automated Essay Scoring. (arXiv:2305.10447v1 [cs.CL])\nAbstract: Neural networks and in particular the attention mechanism have brought significant advances to the field of Automated Essay Scoring. Many of these systems use a regression-based model which may be prone to underfitting when the model only predicts the mean of the training data. In this paper, we present a dynamic loss function that creates an incentive for the model to predict with the correct distribution, as well as predicting the correct values. Our loss function achieves this goal without sacrificing any performance achieving a Quadratic Weighted Kappa score of 0.752 on the Automated Student Assessment Prize Automated Essay Scoring dataset.",
+    "path": "papers/23/05/2305.10447.json",
+    "total_tokens": 693,
+    "translated_title": "神经网络自动化评分中动态损失函数的有效性",
+    "translated_abstract": "神经网络和特别是注意力机制为自动化作文评分领域带来了重大进展。许多这些系统使用基于回归的模型，当模型只预测训练数据的平均值时，可能会容易出现欠拟合。在本文中，我们介绍了一种动态损失函数，它为模型创建了一个激励，使其预测正确的分布，同时预测正确的值。我们的损失函数在不降低任何性能的情况下实现了这个目标，在Automated Student Assessment Prize Automated Essay Scoring数据集上实现了0.752的二次加权kappa得分。",
+    "tldr": "本研究提出了一种动态损失函数，帮助神经网络自动化评分系统在预测值的同时对正确的分布有更高的预测能力，而不牺牲任何性能。",
+    "en_tdlr": "This paper proposes a dynamic loss function to improve the performance of regression-based models in Automated Essay Scoring, achieving better prediction of the correct distribution without sacrificing any performance."
+}

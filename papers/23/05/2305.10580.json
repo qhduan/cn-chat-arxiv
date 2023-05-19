@@ -1,0 +1,12 @@
+{
+    "title": "Sim-MEES: Modular End-Effector System Grasping Dataset for Mobile Manipulators in Cluttered Environments. (arXiv:2305.10580v1 [cs.RO])",
+    "abstract": "In this paper, we present Sim-MEES: a large-scale synthetic dataset that contains 1,550 objects with varying difficulty levels and physics properties, as well as 11 million grasp labels for mobile manipulators to plan grasps using different gripper modalities in cluttered environments. Our dataset generation process combines analytic models and dynamic simulations of the entire cluttered environment to provide accurate grasp labels. We provide a detailed study of our proposed labeling process for both parallel jaw grippers and suction cup grippers, comparing them with state-of-the-art methods to demonstrate how Sim-MEES can provide precise grasp labels in cluttered environments.",
+    "link": "http://arxiv.org/abs/2305.10580",
+    "context": "Title: Sim-MEES: Modular End-Effector System Grasping Dataset for Mobile Manipulators in Cluttered Environments. (arXiv:2305.10580v1 [cs.RO])\nAbstract: In this paper, we present Sim-MEES: a large-scale synthetic dataset that contains 1,550 objects with varying difficulty levels and physics properties, as well as 11 million grasp labels for mobile manipulators to plan grasps using different gripper modalities in cluttered environments. Our dataset generation process combines analytic models and dynamic simulations of the entire cluttered environment to provide accurate grasp labels. We provide a detailed study of our proposed labeling process for both parallel jaw grippers and suction cup grippers, comparing them with state-of-the-art methods to demonstrate how Sim-MEES can provide precise grasp labels in cluttered environments.",
+    "path": "papers/23/05/2305.10580.json",
+    "total_tokens": 802,
+    "translated_title": "Sim-MEES: 用于移动操作机器人在杂乱环境下进行抓取的模块化末端执行器系统数据集",
+    "translated_abstract": "本文介绍了Sim-MEES：一个包含1550个物体，具有不同的难度级别和物理属性以及1100万个机器人抓取标签的大规模合成数据集，用于在杂乱环境中使用不同的夹爪模式规划机器人抓取。我们的数据集生成过程结合了分析模型和整个杂乱环境的动态模拟，以提供准确的抓取标签。我们对我们提出的用于平行夹爪夹具和吸盘夹具的标记过程进行了详细研究，并与最先进的方法进行了比较，以展示Sim-MEES如何在杂乱环境中提供精确的抓取标签。",
+    "tldr": "本文介绍了一个包含1550个物体和1100万个机器人抓取标签的大规模合成数据集Sim-MEES，它能在杂乱的环境中通过模块化末端执行器系统提供精确的抓取标签，具有广泛的应用前景。",
+    "en_tdlr": "This paper presents a large-scale synthetic dataset Sim-MEES, including 1,550 objects and 11 million grasp labels for mobile manipulators to plan precise grasps in cluttered environments using modular end-effector system, which has a wide range of potential applications."
+}

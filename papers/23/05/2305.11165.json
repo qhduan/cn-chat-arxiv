@@ -1,0 +1,12 @@
+{
+    "title": "The noise level in linear regression with dependent data. (arXiv:2305.11165v1 [cs.LG])",
+    "abstract": "We derive upper bounds for random design linear regression with dependent ($\\beta$-mixing) data absent any realizability assumptions. In contrast to the strictly realizable martingale noise regime, no sharp instance-optimal non-asymptotics are available in the literature. Up to constant factors, our analysis correctly recovers the variance term predicted by the Central Limit Theorem -- the noise level of the problem -- and thus exhibits graceful degradation as we introduce misspecification. Past a burn-in, our result is sharp in the moderate deviations regime, and in particular does not inflate the leading order term by mixing time factors.",
+    "link": "http://arxiv.org/abs/2305.11165",
+    "context": "Title: The noise level in linear regression with dependent data. (arXiv:2305.11165v1 [cs.LG])\nAbstract: We derive upper bounds for random design linear regression with dependent ($\\beta$-mixing) data absent any realizability assumptions. In contrast to the strictly realizable martingale noise regime, no sharp instance-optimal non-asymptotics are available in the literature. Up to constant factors, our analysis correctly recovers the variance term predicted by the Central Limit Theorem -- the noise level of the problem -- and thus exhibits graceful degradation as we introduce misspecification. Past a burn-in, our result is sharp in the moderate deviations regime, and in particular does not inflate the leading order term by mixing time factors.",
+    "path": "papers/23/05/2305.11165.json",
+    "total_tokens": 731,
+    "translated_title": "线性回归中依赖数据的噪声水平研究",
+    "translated_abstract": "我们从未做任何实现假设出发，对于具有依赖($\\beta$-mixing)数据的随机设计线性回归，推导了其上限界限。与仅在可实现的鞅噪声范围内不可用尖锐的实例最优非渐近性相比，文献中没有可用的上限界限。在恰当的常数因素下，我们的分析正确地回归了中心极限定理预测的方差项 - 问题的噪声水平 - 并因此在引入错误规范时表现出逐渐降低的优雅性。在预燃条件下，我们的结果在中度偏差范围内是尖锐的，特别是不会膨胀引领项期限与混合时间因素。",
+    "tldr": "本文研究了具有依赖数据的线性回归中的噪声水平，提出了上限界限，并在误差规范下表现出优雅的降低。",
+    "en_tdlr": "This paper investigates the noise level in linear regression with dependent data, proposes upper bounds and exhibits graceful degradation under misspecification."
+}

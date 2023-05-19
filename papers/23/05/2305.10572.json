@@ -1,0 +1,12 @@
+{
+    "title": "Tensor Products and Hyperdimensional Computing. (arXiv:2305.10572v1 [stat.ML])",
+    "abstract": "Following up on a previous analysis of graph embeddings, we generalize and expand some results to the general setting of vector symbolic architectures (VSA) and hyperdimensional computing (HDC). Importantly, we explore the mathematical relationship between superposition, orthogonality, and tensor product. We establish the tensor product representation as the central representation, with a suite of unique properties. These include it being the most general and expressive representation, as well as being the most compressed representation that has errorrless unbinding and detection.",
+    "link": "http://arxiv.org/abs/2305.10572",
+    "context": "Title: Tensor Products and Hyperdimensional Computing. (arXiv:2305.10572v1 [stat.ML])\nAbstract: Following up on a previous analysis of graph embeddings, we generalize and expand some results to the general setting of vector symbolic architectures (VSA) and hyperdimensional computing (HDC). Importantly, we explore the mathematical relationship between superposition, orthogonality, and tensor product. We establish the tensor product representation as the central representation, with a suite of unique properties. These include it being the most general and expressive representation, as well as being the most compressed representation that has errorrless unbinding and detection.",
+    "path": "papers/23/05/2305.10572.json",
+    "total_tokens": 648,
+    "translated_title": "张量积与超维计算",
+    "translated_abstract": "在之前对图嵌入的分析基础上，我们将一些结果推广和拓展到向量符号结构 (VSA) 和超维计算 (HDC) 的一般设置中。重要的是，我们探索超叠加、正交和张量积之间的数学关系。我们将张量积表示确定为中心表示，并具有一套独特的属性。这包括它是最通用和最具表现力的表示，也是最压缩的表示，具有无误差解绑和检测的能力。",
+    "tldr": "本文探索了张量积在超维计算中的数学关系，将其确定为中心表示，并发现它是最通用、最具表现力和最压缩的表示，同时具有无误差解绑和检测的能力。",
+    "en_tdlr": "This paper explores the mathematical relationship between tensor product and hyperdimensional computing, establishes it as the central representation with unique properties, including being the most general, expressive, and compressed representation with errorless unbinding and detection."
+}

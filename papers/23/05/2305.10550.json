@@ -1,0 +1,12 @@
+{
+    "title": "Sparsity-depth Tradeoff in Infinitely Wide Deep Neural Networks. (arXiv:2305.10550v1 [cs.LG])",
+    "abstract": "We investigate how sparse neural activity affects the generalization performance of a deep Bayesian neural network at the large width limit. To this end, we derive a neural network Gaussian Process (NNGP) kernel with rectified linear unit (ReLU) activation and a predetermined fraction of active neurons. Using the NNGP kernel, we observe that the sparser networks outperform the non-sparse networks at shallow depths on a variety of datasets. We validate this observation by extending the existing theory on the generalization error of kernel-ridge regression.",
+    "link": "http://arxiv.org/abs/2305.10550",
+    "context": "Title: Sparsity-depth Tradeoff in Infinitely Wide Deep Neural Networks. (arXiv:2305.10550v1 [cs.LG])\nAbstract: We investigate how sparse neural activity affects the generalization performance of a deep Bayesian neural network at the large width limit. To this end, we derive a neural network Gaussian Process (NNGP) kernel with rectified linear unit (ReLU) activation and a predetermined fraction of active neurons. Using the NNGP kernel, we observe that the sparser networks outperform the non-sparse networks at shallow depths on a variety of datasets. We validate this observation by extending the existing theory on the generalization error of kernel-ridge regression.",
+    "path": "papers/23/05/2305.10550.json",
+    "total_tokens": 693,
+    "translated_title": "无限宽的深度神经网络中稀疏深度的权衡",
+    "translated_abstract": "本文研究了稀疏神经活动如何影响具有深度贝叶斯神经网络的泛化性能，特别是在宽度大的情况下。为此，我们得出了一个神经网络高斯过程(NNGP)核，其具有修正线性单元(ReLU)激活和预定数量的活跃神经元。使用NNGP核，我们观察到，在各种数据集上，较稀疏的网络在浅层时优于非稀疏的网络。通过扩展现有的核岭回归的一般化误差理论，我们验证了这一观察结果。",
+    "tldr": "本文研究了神经网络中稀疏深度和泛化性能的关系，发现在宽度足够大时，较稀疏的网络在浅层时表现更好。",
+    "en_tdlr": "This paper investigates the relationship between sparsity and generalization performance in neural networks, and finds that sparser networks outperform non-sparse networks at shallow depths when the width is large enough."
+}

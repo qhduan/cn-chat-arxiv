@@ -1,0 +1,12 @@
+{
+    "title": "A Short Note on Setting Swap Parameters. (arXiv:2305.10624v1 [q-fin.MF])",
+    "abstract": "This short note illustrates the theoretical solution to a trader determining how to optimally swap her wealth into a target asset through on-chain operations. It offers the framework to solve optimal slippage parameters and optimal trade size.",
+    "link": "http://arxiv.org/abs/2305.10624",
+    "context": "Title: A Short Note on Setting Swap Parameters. (arXiv:2305.10624v1 [q-fin.MF])\nAbstract: This short note illustrates the theoretical solution to a trader determining how to optimally swap her wealth into a target asset through on-chain operations. It offers the framework to solve optimal slippage parameters and optimal trade size.",
+    "path": "papers/23/05/2305.10624.json",
+    "total_tokens": 497,
+    "translated_title": "设置Swap参数的简短说明。",
+    "translated_abstract": "这篇短文阐述了交易者如何通过区块链操作将其财富最优地交换成目标资产的理论解决方案。它提供了解决最佳滑点参数和最佳交易规模的框架。",
+    "tldr": "本文阐述了交易者如何通过区块链操作将财富最优地交换成目标资产的理论解决方案，并提供了解决最佳滑点参数和最佳交易规模的框架。",
+    "en_tdlr": "This paper illustrates the theoretical solution for a trader to optimally swap their wealth into a target asset through on-chain operations, offering a framework to solve for optimal slippage parameters and trade size."
+}

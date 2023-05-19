@@ -1,0 +1,12 @@
+{
+    "title": "Multi-CrossRE A Multi-Lingual Multi-Domain Dataset for Relation Extraction. (arXiv:2305.10985v1 [cs.CL])",
+    "abstract": "Most research in Relation Extraction (RE) involves the English language, mainly due to the lack of multi-lingual resources. We propose Multi-CrossRE, the broadest multi-lingual dataset for RE, including 26 languages in addition to English, and covering six text domains. Multi-CrossRE is a machine translated version of CrossRE (Bassignana and Plank, 2022), with a sub-portion including more than 200 sentences in seven diverse languages checked by native speakers. We run a baseline model over the 26 new datasets and--as sanity check--over the 26 back-translations to English. Results on the back-translated data are consistent with the ones on the original English CrossRE, indicating high quality of the translation and the resulting dataset.",
+    "link": "http://arxiv.org/abs/2305.10985",
+    "context": "Title: Multi-CrossRE A Multi-Lingual Multi-Domain Dataset for Relation Extraction. (arXiv:2305.10985v1 [cs.CL])\nAbstract: Most research in Relation Extraction (RE) involves the English language, mainly due to the lack of multi-lingual resources. We propose Multi-CrossRE, the broadest multi-lingual dataset for RE, including 26 languages in addition to English, and covering six text domains. Multi-CrossRE is a machine translated version of CrossRE (Bassignana and Plank, 2022), with a sub-portion including more than 200 sentences in seven diverse languages checked by native speakers. We run a baseline model over the 26 new datasets and--as sanity check--over the 26 back-translations to English. Results on the back-translated data are consistent with the ones on the original English CrossRE, indicating high quality of the translation and the resulting dataset.",
+    "path": "papers/23/05/2305.10985.json",
+    "total_tokens": 750,
+    "translated_title": "Multi-CrossRE：面向关系抽取的多语言、多领域数据集",
+    "translated_abstract": "由于缺乏多语言资源，大多数关系抽取研究都是基于英语语言的。本文提出了Multi-CrossRE，它是面向关系抽取的最广泛的多语言数据集，包括英语在内的26种语言，涵盖了六个文本域。Multi-CrossRE是CrossRE的机器翻译版本，其中一部分包含了由本地人检查的七种不同语言的200多个句子。我们在26个新数据集上运行了一个基线模型，并在26个回译到英语的数据集上进行了“理智检查”。回译数据的结果与原始英语CrossRE数据一致，表明翻译和生成的数据集质量很高。",
+    "tldr": "Multi-CrossRE是一个多领域、多语言的数据集，包括26种语言在内，提供给关系抽取研究使用。",
+    "en_tdlr": "Multi-CrossRE is the broadest multi-lingual dataset for Relation Extraction, covering 26 languages in addition to English and six text domains. It offers a valuable resource for research in the field."
+}

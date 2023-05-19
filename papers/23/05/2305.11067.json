@@ -1,0 +1,11 @@
+{
+    "title": "Generating coherent comic with rich story using ChatGPT and Stable Diffusion. (arXiv:2305.11067v1 [cs.CV])",
+    "abstract": "Past work demonstrated that using neural networks, we can extend unfinished music pieces while maintaining the music style of the musician. With recent advancements in large language models and diffusion models, we are now capable of generating comics with an interesting storyline while maintaining the art style of the artist. In this paper, we used ChatGPT to generate storylines and dialogue and then generated the comic using stable diffusion. We introduced a novel way to evaluate AI-generated stories, and we achieved SOTA performance on character fidelity and art style by fine-tuning stable diffusion using LoRA, ControlNet, etc.",
+    "link": "http://arxiv.org/abs/2305.11067",
+    "context": "Title: Generating coherent comic with rich story using ChatGPT and Stable Diffusion. (arXiv:2305.11067v1 [cs.CV])\nAbstract: Past work demonstrated that using neural networks, we can extend unfinished music pieces while maintaining the music style of the musician. With recent advancements in large language models and diffusion models, we are now capable of generating comics with an interesting storyline while maintaining the art style of the artist. In this paper, we used ChatGPT to generate storylines and dialogue and then generated the comic using stable diffusion. We introduced a novel way to evaluate AI-generated stories, and we achieved SOTA performance on character fidelity and art style by fine-tuning stable diffusion using LoRA, ControlNet, etc.",
+    "path": "papers/23/05/2305.11067.json",
+    "total_tokens": 739,
+    "translated_title": "利用ChatGPT和Stable Diffusion生成内容丰富、故事连贯的漫画",
+    "translated_abstract": "过去的研究表明，使用神经网络可以在保持音乐家音乐风格的基础上，扩展未完成的音乐作品。最近大型语言模型和扩散模型的进展使得我们能够生成有趣的漫画故事，并保持艺术家的艺术风格。在本文中，我们使用ChatGPT生成情节和对话，然后使用stable diffusion生成漫画。我们介绍了一种评估AI生成故事的新方法，并通过使用LoRA、ControlNet等方法对stable diffusion进行fine-tuning，达到了在角色忠实度和艺术风格上的SOTA表现。",
+    "tldr": "本文介绍了一种利用ChatGPT和Stable Diffusion生成连贯漫画故事的方法，通过引入新的评估AI故事的方式，并使用LoRA、ControlNet等方法进行fine-tuning，取得了在角色忠实度和艺术风格上的最先进表现。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Non-deterministic approximation operators: ultimate operators, semi-equilibrium semantics and aggregates (full version). (arXiv:2305.10846v1 [cs.AI])",
+    "abstract": "Approximation fixpoint theory (AFT) is an abstract and general algebraic framework for studying the semantics of non-monotonic logics. In recent work, AFT was generalized to non-deterministic operators, i.e.\\ operators whose range are sets of elements rather than single elements. In this paper, we make three further contributions to non-deterministic AFT: (1) we define and study ultimate approximations of non-deterministic operators, (2) we give an algebraic formulation of the semi-equilibrium semantics by Amendola, et al., and (3) we generalize the characterisations of disjunctive logic programs to disjunctive logic programs with aggregates.",
+    "link": "http://arxiv.org/abs/2305.10846",
+    "context": "Title: Non-deterministic approximation operators: ultimate operators, semi-equilibrium semantics and aggregates (full version). (arXiv:2305.10846v1 [cs.AI])\nAbstract: Approximation fixpoint theory (AFT) is an abstract and general algebraic framework for studying the semantics of non-monotonic logics. In recent work, AFT was generalized to non-deterministic operators, i.e.\\ operators whose range are sets of elements rather than single elements. In this paper, we make three further contributions to non-deterministic AFT: (1) we define and study ultimate approximations of non-deterministic operators, (2) we give an algebraic formulation of the semi-equilibrium semantics by Amendola, et al., and (3) we generalize the characterisations of disjunctive logic programs to disjunctive logic programs with aggregates.",
+    "path": "papers/23/05/2305.10846.json",
+    "total_tokens": 741,
+    "translated_title": "非确定性近似算子：极限算子、半平衡语义和聚合（完整版）",
+    "translated_abstract": "近似不动点理论（AFT）是研究非单调逻辑语义的抽象和通用代数框架。最近，AFT被推广到非确定性算子，即其范围是元素的集合而不是单个元素。在本文中，我们对非确定性AFT进行了三个进一步的贡献：（1）我们定义和研究了非确定性算子的极限近似，（2）我们给出了Amendola等人提出的半平衡语义的代数公式，（3）我们将不相交逻辑程序的特征推广到带有聚合的不相交逻辑程序。",
+    "tldr": "本文研究了非确定性近似算子的极限近似、半平衡语义的代数公式以及带有聚合的不相交逻辑程序的特征。",
+    "en_tdlr": "This paper contributes to the theory of non-deterministic approximation operators by defining and studying ultimate approximations, giving an algebraic formulation of semi-equilibrium semantics, and generalizing the characterizations of disjunctive logic programs to ones with aggregates."
+}

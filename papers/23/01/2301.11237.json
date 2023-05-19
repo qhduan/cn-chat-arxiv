@@ -1,0 +1,12 @@
+{
+    "title": "The Hazards and Benefits of Condescension in Social Learning. (arXiv:2301.11237v2 [econ.TH] UPDATED)",
+    "abstract": "In a misspecified social learning setting, agents are condescending if they perceive their peers as having private information that is of lower quality than it is in reality. Applying this to a standard sequential model, we show that outcomes improve when agents are mildly condescending. In contrast, too much condescension leads to worse outcomes, as does anti-condescension.",
+    "link": "http://arxiv.org/abs/2301.11237",
+    "context": "Title: The Hazards and Benefits of Condescension in Social Learning. (arXiv:2301.11237v2 [econ.TH] UPDATED)\nAbstract: In a misspecified social learning setting, agents are condescending if they perceive their peers as having private information that is of lower quality than it is in reality. Applying this to a standard sequential model, we show that outcomes improve when agents are mildly condescending. In contrast, too much condescension leads to worse outcomes, as does anti-condescension.",
+    "path": "papers/23/01/2301.11237.json",
+    "total_tokens": 590,
+    "translated_title": "社交学习中居高临下的危害与好处。",
+    "translated_abstract": "在一种错误的社交学习环境中，如果代理人认为同伴的私人信息质量低于实际水平，那么他们就会表现出居高临下的行为。将其应用于标准的序列模型，我们发现代理人适度表现出居高临下的行为时，结果会得到改善，相反，过度的居高临下和反居高临下都会导致结果变差。",
+    "tldr": "研究表明，代理人适度表现出居高临下的行为可以提高社交学习的效果，而过度的居高临下和反居高临下则会导致结果变差。",
+    "en_tdlr": "The study shows that agents performing mild condescension can improve social learning outcomes, while too much or too little condescension leads to worse outcomes."
+}

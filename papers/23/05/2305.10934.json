@@ -1,0 +1,12 @@
+{
+    "title": "Context-Dependent Heterogeneous Preferences: A Comment on Barseghyan and Molinari (2023). (arXiv:2305.10934v1 [econ.TH])",
+    "abstract": "Barseghyan and Molinari (2023) give sufficient conditions for semi-nonparametric point identification of parameters of interest in a mixture model of decision-making under risk, allowing for unobserved heterogeneity in utility functions and limited consideration. A key assumption in the model is that the heterogeneity of risk preferences is unobservable but context-independent. In this comment, we build on their insights and present identification results in a setting where the risk preferences are allowed to be context-dependent.",
+    "link": "http://arxiv.org/abs/2305.10934",
+    "context": "Title: Context-Dependent Heterogeneous Preferences: A Comment on Barseghyan and Molinari (2023). (arXiv:2305.10934v1 [econ.TH])\nAbstract: Barseghyan and Molinari (2023) give sufficient conditions for semi-nonparametric point identification of parameters of interest in a mixture model of decision-making under risk, allowing for unobserved heterogeneity in utility functions and limited consideration. A key assumption in the model is that the heterogeneity of risk preferences is unobservable but context-independent. In this comment, we build on their insights and present identification results in a setting where the risk preferences are allowed to be context-dependent.",
+    "path": "papers/23/05/2305.10934.json",
+    "total_tokens": 658,
+    "translated_title": "上下文相关的异质偏好：对Barseghyan和Molinari（2023）的评论",
+    "translated_abstract": "Barseghyan和Molinari（2023）在决策风险的混合模型中给出了半非参数点识别感兴趣参数的充分条件，允许效用函数中存在未被观察到的异质性和有限考虑因素。模型中的一个关键假设是风险偏好的异质性是不可观察的，但是上下文无关的。在这篇评论中，我们在这些启示的基础上，提出在风险偏好允许上下文依赖的情况下的识别结果。",
+    "tldr": "该评论介绍了一种新模型，在考虑有限因素和未知异质性下，克服了原模型假设风险偏好是上下文无关的限制。",
+    "en_tdlr": "This comment introduces a new model that overcomes the original model's assumption of context-independent risk preferences by considering limited factors and unknown heterogeneity."
+}

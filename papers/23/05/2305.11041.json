@@ -1,0 +1,12 @@
+{
+    "title": "High-dimensional Asymptotics of Denoising Autoencoders. (arXiv:2305.11041v1 [cs.LG])",
+    "abstract": "We address the problem of denoising data from a Gaussian mixture using a two-layer non-linear autoencoder with tied weights and a skip connection. We consider the high-dimensional limit where the number of training samples and the input dimension jointly tend to infinity while the number of hidden units remains bounded. We provide closed-form expressions for the denoising mean-squared test error. Building on this result, we quantitatively characterize the advantage of the considered architecture over the autoencoder without the skip connection that relates closely to principal component analysis. We further show that our results accurately capture the learning curves on a range of real data sets.",
+    "link": "http://arxiv.org/abs/2305.11041",
+    "context": "Title: High-dimensional Asymptotics of Denoising Autoencoders. (arXiv:2305.11041v1 [cs.LG])\nAbstract: We address the problem of denoising data from a Gaussian mixture using a two-layer non-linear autoencoder with tied weights and a skip connection. We consider the high-dimensional limit where the number of training samples and the input dimension jointly tend to infinity while the number of hidden units remains bounded. We provide closed-form expressions for the denoising mean-squared test error. Building on this result, we quantitatively characterize the advantage of the considered architecture over the autoencoder without the skip connection that relates closely to principal component analysis. We further show that our results accurately capture the learning curves on a range of real data sets.",
+    "path": "papers/23/05/2305.11041.json",
+    "total_tokens": 752,
+    "translated_title": "去噪自编码器的高维渐近分析",
+    "translated_abstract": "本文研究应用带有绑定权重和跳跃连接的二层非线性自编码器来去噪高斯混合数据的问题。我们在高维极限下考虑，其中训练样本数和输入维数共同趋向于无穷大，而隐藏单元数保持有限。我们提供了去噪均方测试误差的闭式表达式。基于这个结果，我们定量地表征了所考虑的架构在自编码器（没有关联到主成分分析）的跳跃连接相关性之上的优势。此外，我们进一步证明了我们的结果准确地捕捉了一系列真实数据集上的学习曲线。",
+    "tldr": "本文研究了去噪自编码器在高维极限下的性能表现，得出了去噪均方测试误差的闭式表达式，并揭示了有跳跃连接的自编码器相较于传统自编码器的优越性。",
+    "en_tdlr": "This paper studies the high-dimensional performance of denoising autoencoders and provides closed-form expressions for the denoising mean-squared test error. The advantage of the autoencoder with skip connection over traditional autoencoder is quantitatively characterized."
+}

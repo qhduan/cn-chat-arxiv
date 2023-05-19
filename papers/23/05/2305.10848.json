@@ -1,0 +1,12 @@
+{
+    "title": "Advancing Full-Text Search Lemmatization Techniques with Paradigm Retrieval from OpenCorpora. (arXiv:2305.10848v1 [cs.CL])",
+    "abstract": "In this paper, we unveil a groundbreaking method to amplify full-text search lemmatization, utilizing the OpenCorpora dataset and a bespoke paradigm retrieval algorithm. Our primary aim is to streamline the extraction of a word's primary form or lemma - a crucial factor in full-text search. Additionally, we propose a compact dictionary storage strategy, significantly boosting the speed and precision of lemma retrieval.",
+    "link": "http://arxiv.org/abs/2305.10848",
+    "context": "Title: Advancing Full-Text Search Lemmatization Techniques with Paradigm Retrieval from OpenCorpora. (arXiv:2305.10848v1 [cs.CL])\nAbstract: In this paper, we unveil a groundbreaking method to amplify full-text search lemmatization, utilizing the OpenCorpora dataset and a bespoke paradigm retrieval algorithm. Our primary aim is to streamline the extraction of a word's primary form or lemma - a crucial factor in full-text search. Additionally, we propose a compact dictionary storage strategy, significantly boosting the speed and precision of lemma retrieval.",
+    "path": "papers/23/05/2305.10848.json",
+    "total_tokens": 621,
+    "translated_title": "利用OpenCorpora的范式检索推进全文搜索词形还原技术",
+    "translated_abstract": "本文提出了一种突破性方法，利用OpenCorpora数据集和定制的范式检索算法来增强全文搜索词形还原。我们的主要目标是简化单词的主要形式或词形——这是全文搜索中的关键因素。此外，我们提出了一种紧凑的词典存储策略，大大提高了词形检索的速度和精度。",
+    "tldr": "本文介绍了一种利用OpenCorpora数据集和定制算法增强全文搜索词形还原的方法，同时提出了一种紧凑的词典存储策略，大大提高了词形检索的速度和精度。",
+    "en_tdlr": "This paper presents a groundbreaking method to enhance full-text search lemmatization using the OpenCorpora dataset and a bespoke paradigm retrieval algorithm. Additionally, a compact dictionary storage strategy is proposed, significantly boosting the speed and precision of lemma retrieval."
+}

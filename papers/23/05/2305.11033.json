@@ -1,0 +1,12 @@
+{
+    "title": "Visual Question Answering: A Survey on Techniques and Common Trends in Recent Literature. (arXiv:2305.11033v1 [cs.CV])",
+    "abstract": "Visual Question Answering (VQA) is an emerging area of interest for researches, being a recent problem in natural language processing and image prediction. In this area, an algorithm needs to answer questions about certain images. As of the writing of this survey, 25 recent studies were analyzed. Besides, 6 datasets were analyzed and provided their link to download. In this work, several recent pieces of research in this area were investigated and a deeper analysis and comparison among them were provided, including results, the state-of-the-art, common errors, and possible points of improvement for future researchers.",
+    "link": "http://arxiv.org/abs/2305.11033",
+    "context": "Title: Visual Question Answering: A Survey on Techniques and Common Trends in Recent Literature. (arXiv:2305.11033v1 [cs.CV])\nAbstract: Visual Question Answering (VQA) is an emerging area of interest for researches, being a recent problem in natural language processing and image prediction. In this area, an algorithm needs to answer questions about certain images. As of the writing of this survey, 25 recent studies were analyzed. Besides, 6 datasets were analyzed and provided their link to download. In this work, several recent pieces of research in this area were investigated and a deeper analysis and comparison among them were provided, including results, the state-of-the-art, common errors, and possible points of improvement for future researchers.",
+    "path": "papers/23/05/2305.11033.json",
+    "total_tokens": 666,
+    "translated_title": "可视化问答：最近文献中技术和常见趋势综述",
+    "translated_abstract": "可视化问答（VQA）是自然语言处理和图像预测中的一个新兴问题，需要算法回答有关特定图像的问题。在本文中，作者分析了25项最新研究和6个数据集，并提供了下载链接。作者深入调研了该领域的多项研究，并提供了分析比较，包括结果、最新技术、常见错误以及未来研究的潜在改进点。",
+    "tldr": "本文综述了最近文献中的可视化问答问题，提供了对该领域的深入分析和比较，包括结果、最新技术、常见错误以及未来研究的潜在改进点。",
+    "en_tdlr": "This survey provides a comprehensive analysis and comparison of recent literature on Visual Question Answering, including results, state-of-the-art techniques, common errors, and possible points of improvement for future researchers."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Evaluation Metrics for CNNs Compression. (arXiv:2305.10616v1 [cs.LG])",
+    "abstract": "There is a lot of research effort devoted by researcher into developing different techniques for neural networks compression, yet the community seems to lack standardised ways of evaluating and comparing between different compression techniques, which is key to identifying the most suitable compression technique for different applications. In this paper we contribute towards standardisation of neural network compression by providing a review of evaluation metrics. These metrics have been implemented into NetZIP, a standardised neural network compression bench. We showcase some of the metrics reviewed using three case studies focusing on object classification, object detection, and edge devices.",
+    "link": "http://arxiv.org/abs/2305.10616",
+    "context": "Title: Evaluation Metrics for CNNs Compression. (arXiv:2305.10616v1 [cs.LG])\nAbstract: There is a lot of research effort devoted by researcher into developing different techniques for neural networks compression, yet the community seems to lack standardised ways of evaluating and comparing between different compression techniques, which is key to identifying the most suitable compression technique for different applications. In this paper we contribute towards standardisation of neural network compression by providing a review of evaluation metrics. These metrics have been implemented into NetZIP, a standardised neural network compression bench. We showcase some of the metrics reviewed using three case studies focusing on object classification, object detection, and edge devices.",
+    "path": "papers/23/05/2305.10616.json",
+    "total_tokens": 664,
+    "translated_title": "CNN 压缩的评估度量",
+    "translated_abstract": "研究人员致力于开发不同的神经网络压缩技术，但社区似乎缺乏标准化的评估和比较不同压缩技术的方法，这是识别不同应用程序的最合适的压缩技术的关键。本文通过提出评估度量的综述来为神经网络压缩的标准化贡献。这些度量已被实现到NetZIP，一个标准化的神经网络压缩基准之中。我们通过三个案例研究展示一些被审查的度量，分别聚焦于目标分类、目标检测和边缘设备。",
+    "tldr": "本文提供了神经网络压缩的评估度量综述，从而为标准化神经网络压缩贡献力量。",
+    "en_tdlr": "This paper contributes towards standardization in neural network compression by providing a review of evaluation metrics and implementing them into NetZIP, a standardized neural network compression benchmark."
+}

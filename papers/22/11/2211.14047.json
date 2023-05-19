@@ -1,0 +1,12 @@
+{
+    "title": "On the Universal Approximation Property of Deep Fully Convolutional Neural Networks. (arXiv:2211.14047v2 [cs.LG] UPDATED)",
+    "abstract": "We study the approximation of shift-invariant or equivariant functions by deep fully convolutional networks from the dynamical systems perspective. We prove that deep residual fully convolutional networks and their continuous-layer counterpart can achieve universal approximation of these symmetric functions at constant channel width. Moreover, we show that the same can be achieved by non-residual variants with at least 2 channels in each layer and convolutional kernel size of at least 2. In addition, we show that these requirements are necessary, in the sense that networks with fewer channels or smaller kernels fail to be universal approximators.",
+    "link": "http://arxiv.org/abs/2211.14047",
+    "context": "Title: On the Universal Approximation Property of Deep Fully Convolutional Neural Networks. (arXiv:2211.14047v2 [cs.LG] UPDATED)\nAbstract: We study the approximation of shift-invariant or equivariant functions by deep fully convolutional networks from the dynamical systems perspective. We prove that deep residual fully convolutional networks and their continuous-layer counterpart can achieve universal approximation of these symmetric functions at constant channel width. Moreover, we show that the same can be achieved by non-residual variants with at least 2 channels in each layer and convolutional kernel size of at least 2. In addition, we show that these requirements are necessary, in the sense that networks with fewer channels or smaller kernels fail to be universal approximators.",
+    "path": "papers/22/11/2211.14047.json",
+    "total_tokens": 735,
+    "translated_title": "关于深度全卷积神经网络的普适逼近性质探究",
+    "translated_abstract": "本文从动力系统角度研究了深度全卷积网络对平移不变或等变函数的逼近性能。我们证明了在通道宽度为常数时，深度残差全卷积网络及其连续层对应的网络可以实现对这些对称函数的普适逼近。此外，我们还证明了至少每层具有2个通道和至少2的卷积核尺寸的非残差变体也能达到相同的逼近性能。另外，我们还表明这些要求是必要的，因为通道数量较少或卷积核尺寸较小的网络不能实现普适逼近。",
+    "tldr": "本文研究了深度全卷积神经网络对平移不变或等变函数的逼近性能，证明了残差和非残差变体在特定条件下可以实现普适逼近，同时这些条件是必要的。",
+    "en_tdlr": "This paper studies the approximation performance of deep fully convolutional neural networks for shift-invariant or equivariant functions, proving that residual and non-residual variants can achieve universal approximation under specific conditions, which are also necessary."
+}

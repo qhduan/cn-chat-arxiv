@@ -1,0 +1,12 @@
+{
+    "title": "Self-supervised Fine-tuning for Improved Content Representations by Speaker-invariant Clustering. (arXiv:2305.11072v1 [cs.CL])",
+    "abstract": "Self-supervised speech representation models have succeeded in various tasks, but improving them for content-related problems using unlabeled data is challenging. We propose speaker-invariant clustering (Spin), a novel self-supervised learning method that clusters speech representations and performs swapped prediction between the original and speaker-perturbed utterances. Spin disentangles speaker information and preserves content representations with just 45 minutes of fine-tuning on a single GPU. Spin improves pre-trained networks and outperforms prior methods in speech recognition and acoustic unit discovery.",
+    "link": "http://arxiv.org/abs/2305.11072",
+    "context": "Title: Self-supervised Fine-tuning for Improved Content Representations by Speaker-invariant Clustering. (arXiv:2305.11072v1 [cs.CL])\nAbstract: Self-supervised speech representation models have succeeded in various tasks, but improving them for content-related problems using unlabeled data is challenging. We propose speaker-invariant clustering (Spin), a novel self-supervised learning method that clusters speech representations and performs swapped prediction between the original and speaker-perturbed utterances. Spin disentangles speaker information and preserves content representations with just 45 minutes of fine-tuning on a single GPU. Spin improves pre-trained networks and outperforms prior methods in speech recognition and acoustic unit discovery.",
+    "path": "papers/23/05/2305.11072.json",
+    "total_tokens": 686,
+    "translated_title": "无监督微调：通过说话者不变聚类来改进内容表示",
+    "translated_abstract": "自监督语音表示模型已经在各种任务中取得了成功，但使用无标签数据来改进它们对内容相关问题的表示仍然具有挑战性。我们提出了一种称为说话者不变聚类(Spin)的新型自监督学习方法，通过聚类语音表示并在原始语音和说话者扰动语音之间进行交换预测来解开说话者信息并保留内容表示。使用单个GPU进行45分钟的微调即可改进预训练网络，并在语音识别和声学单元发现方面优于先前的方法。",
+    "tldr": "提出了一种自监督学习方法Spin，通过说话者不变聚类来解开说话者信息并保留内容表示，只需45分钟微调即可改进预训练网络，在语音识别和声学单元发现中优于先前的方法。",
+    "en_tdlr": "Proposed self-supervised learning method Spin disentangles speaker information and preserves content representations with just 45 minutes of fine-tuning on a single GPU, improving pre-trained networks and outperforming prior methods in speech recognition and acoustic unit discovery."
+}

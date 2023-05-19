@@ -2,217 +2,127 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Heterogeneous Noise and Stable Miscoordination.](http://arxiv.org/abs/2305.10301) | 学习动态下，样本大小的异质性可能导致博弈出现稳定的错协调，而非纯粹均衡，实证检验上有重要启示。 |
-| [^2] | [Balanced Donor Coordination.](http://arxiv.org/abs/2305.10286) | 这篇论文提出了一种既尊重个人意愿又高效的捐赠机制，通过以高效的方式分配每个捐赠者的贡献，没有任何捐助人有动机重新分配他们的捐款。 |
-| [^3] | [Nowcasting with signature methods.](http://arxiv.org/abs/2305.10256) | 该论文提出了利用路径签名进行回归建模，通过线性模型嵌入连续时间处理了混杂频率和不规则采样带来的缺失数据问题，相较于卡尔曼滤波器更为优秀。该方法已应用于金融、医学和网络安全领域达到最先进水平。 |
-| [^4] | [Towards High-Value Datasets determination for data-driven development: a systematic literature review.](http://arxiv.org/abs/2305.10234) | 本文系统综述了面向数据驱动发展的高价值数据集的研究现状，提出了高价值数据集的定义及其在推动更成熟的开放政府数据倡议方面的重要作用。 |
-| [^5] | [Affective interdependence and welfare.](http://arxiv.org/abs/2305.10165) | 本论文研究了纯情感互动对于个体福利的影响，证明了帕累托最优以及纳什均衡的存在性和局部优越性。 |
-| [^6] | [Rational Dialogues.](http://arxiv.org/abs/2305.10164) | 论文表明了任何有限的对话都可以被合理化。 |
-| [^7] | [Improved Bounds for Single-Nomination Impartial Selection.](http://arxiv.org/abs/2305.09998) | 摘要讲述了单次提名公正选择的一个新模型，通过排列机制来实现，调研结果表明该机制是$2/3$-optimal，是最优的选择机制。 |
-| [^8] | [Emergent Growth of System Self-Organization & Self-Control.](http://arxiv.org/abs/2305.09837) | 论文探讨了自组织与自控的系统增长，这种生长遵循“S”曲线模式，首先自由构建能力，接着与其他系统和谐发展，并在其顶点环境中承担一个或多个角色，最终以衰退结束。许多小型初创企业成功，而一些强大的文明最终也会消失。 |
-| [^9] | [COWPEA (Candidates Optimally Weighted in Proportional Election using Approval voting).](http://arxiv.org/abs/2305.08857) | 本文提出了一种新的比例代表方法，COWPEA，可根据候选人不同的权重进行最优选举，并可转换为分数或分级投票方法。 |
-| [^10] | [Projecting XRP price burst by correlation tensor spectra of transaction networks.](http://arxiv.org/abs/2211.03002) | 本文提出了一种基于相关张量谱的新方法，用于研究动态XRP网络，并且可以提供XRP价格的早期指示。 |
-| [^11] | [How to sample and when to stop sampling: The generalized Wald problem and minimax policies.](http://arxiv.org/abs/2210.15841) | 本文研究了引入信息成本的实验设计技术，特别是在顺序实验中，通过自适应地分配样本和在福利最大时停止采样来确定最佳处理方法。最小极大遗憾标准下，我们描述了最优策略，最小极大优化采样规则只是Neyman分配，独立于采样成本和先前的结果。 |
-| [^12] | [Integrated storage assignment for an e-grocery fulfilment centre: Accounting for day-of-week demand patterns.](http://arxiv.org/abs/2209.03998) | 本文提出了一个综合的MILP模型，用于实现高效捡货并尊重站点负载平衡和优先级约束。在电子杂货配送中心中，该模型显著优于顺序方法。 |
-| [^13] | [Equilibria of Attacker-Defender Games.](http://arxiv.org/abs/2202.10072) | 该论文提供了攻防博弈平衡状态的理论分析，研究了不同情境中攻防双方的策略选择，发现在某些情况下攻击者会表现出特别的侵略性。 |
-| [^14] | [Efficient Estimation for Staggered Rollout Designs.](http://arxiv.org/abs/2102.01291) | 本文提出了一种在增量推出设计中最有效的因果效应估算器，使用可行的插值方法，置信区间比现有方法短八倍。 |
+| [^1] | [Context-Dependent Heterogeneous Preferences: A Comment on Barseghyan and Molinari (2023).](http://arxiv.org/abs/2305.10934) | 该评论介绍了一种新模型，在考虑有限因素和未知异质性下，克服了原模型假设风险偏好是上下文无关的限制。 |
+| [^2] | [Super-efficiency of Listed Banks in China and Determinants Analysis (2006-2021).](http://arxiv.org/abs/2305.10885) | 本研究采用中国42家上市银行2006至2021年的年度数据，发现国有银行和城市/农村商业银行的超效率优于股份制银行，国有银行在中介效率方面具有优势。所有类型的银行都受益于所有权集中度的降低，地方商业银行受益于客户集中度的降低和准备金的增加，在增加贷款存款比率方面，国有银行应该采取措施，股份制银行则相反。 |
+| [^3] | [Best-Response Dynamics in Lottery Contests.](http://arxiv.org/abs/2305.10881) | 本文研究了抽奖竞赛中的最佳响应动态的收敛性，对于同质agents最佳响应动态会迅速收敛于唯一的平衡态，但可能对于非同质agents不会收敛。 在考虑代理商随机选择进行移动时，他们证明了 $n \geq 2$个代理商会 $O(\beta \log(n/(\epsilon\delta)))$ 步以概率 $1-\delta$ 收敛到一个 $\epsilon$ 近似平衡态。 |
+| [^4] | [The Hazards and Benefits of Condescension in Social Learning.](http://arxiv.org/abs/2301.11237) | 研究表明，代理人适度表现出居高临下的行为可以提高社交学习的效果，而过度的居高临下和反居高临下则会导致结果变差。 |
+| [^5] | [Reinforcement Learning Policy Recommendation for Interbank Network Stability.](http://arxiv.org/abs/2204.07134) | 本文基于强化学习策略推荐，分析了其对人工银行间市场的影响。根据个体信息和公共推荐，金融机构制定借贷协议。策略推荐能够合理引导金融行为者的信贷关系形成，核心-周边网络结构迅速稳定。 |
+| [^6] | [Tuning Parameter-Free Nonparametric Density Estimation from Tabulated Summary Data.](http://arxiv.org/abs/2204.05480) | 本文提出了一种无需调整参数的非参数密度估计方法，基于最大熵，并成功应用于美国税务数据的收入分布估计。 |
+| [^7] | [Learning in Repeated Interactions on Networks.](http://arxiv.org/abs/2112.14265) | 本文研究了社交网络上长期理性代理商的学习方式，表明无论网络规模、效用函数及代理的耐心如何，学习速度都有其上限。 |
+| [^8] | [Partial Identification and Inference for Conditional Distributions of Treatment Effects.](http://arxiv.org/abs/2108.00723) | 本文提出了一种方法，通过Makarov边界估算处理效应的条件分布的上下界，且当处理是内生的情况下提出了两种随机优势假设来进一步加强边界。 |
 
 # 详细
 
-[^1]: 异质性噪声和稳定的错协调
+[^1]: 上下文相关的异质偏好：对Barseghyan和Molinari（2023）的评论
 
-    Heterogeneous Noise and Stable Miscoordination. (arXiv:2305.10301v1 [econ.TH])
+    Context-Dependent Heterogeneous Preferences: A Comment on Barseghyan and Molinari (2023). (arXiv:2305.10934v1 [econ.TH])
 
-    [http://arxiv.org/abs/2305.10301](http://arxiv.org/abs/2305.10301)
+    [http://arxiv.org/abs/2305.10934](http://arxiv.org/abs/2305.10934)
 
-    学习动态下，样本大小的异质性可能导致博弈出现稳定的错协调，而非纯粹均衡，实证检验上有重要启示。
-
-    
-
-    协调博弈存在两种均衡：纯粹均衡，所有玩家成功协调其行动，和混合均衡，玩家经常经历错协调。现有文献表明，在许多进化动态下，人口从几乎任何初始行动分布中收敛于纯均衡。相反，我们显示，在合理的学习动态下（即代理人观察对手的随机样本并相应地调整策略），当样本大小存在异质性时，可产生稳定的错协调。这发生在一些代理人基于小样本（典型证据）做出决策，而其他代理人则依赖大样本。最后，我们在一个谈判应用中证明了我们的结果的实证相关性。
-
-    Coordination games admit two types of equilibria: pure equilibria, where all players successfully coordinate their actions, and mixed equilibria, where players frequently experience miscoordination. The existing literature shows that under many evolutionary dynamics, populations converge to a pure equilibrium from almost any initial distribution of actions. By contrast, we show that under plausible learning dynamics, where agents observe the actions of a random sample of their opponents and adjust their strategies accordingly, stable miscoordination can arise when there is heterogeneity in the sample sizes. This occurs when some agents make decisions based on small samples (anecdotal evidence) while others rely on large samples. Finally, we demonstrate the empirical relevance of our results in a bargaining application.
-    
-[^2]: 平衡捐赠者协调
-
-    Balanced Donor Coordination. (arXiv:2305.10286v1 [econ.TH])
-
-    [http://arxiv.org/abs/2305.10286](http://arxiv.org/abs/2305.10286)
-
-    这篇论文提出了一种既尊重个人意愿又高效的捐赠机制，通过以高效的方式分配每个捐赠者的贡献，没有任何捐助人有动机重新分配他们的捐款。
+    该评论介绍了一种新模型，在考虑有限因素和未知异质性下，克服了原模型假设风险偏好是上下文无关的限制。
 
     
 
-    慈善通常由个人捐赠者或中央组织（如政府或市政机构）进行，他们收集个人捐款并将它们分配给一组慈善机构。一方面，个人慈善尊重捐赠者的意愿，但由于缺乏协调而可能效率低下。另一方面，集中慈善可能更有效，但可能忽略个人捐赠者的意愿。我们提出了一种机制，它结合了两种方法的优点，通过以高效的方式分配每个捐赠者的贡献，没有任何捐助人有动机重新分配他们的捐款。在假设Leontief效用函数（即每个捐赠者均希望最大化所有慈善机构的最小贡献的个人加权之和）的情况下，我们的机制是组策略正确、偏好单调、贡献单调、最大化纳什福利并可以计算。
+    Barseghyan和Molinari（2023）在决策风险的混合模型中给出了半非参数点识别感兴趣参数的充分条件，允许效用函数中存在未被观察到的异质性和有限考虑因素。模型中的一个关键假设是风险偏好的异质性是不可观察的，但是上下文无关的。在这篇评论中，我们在这些启示的基础上，提出在风险偏好允许上下文依赖的情况下的识别结果。
 
-    Charity is typically done either by individual donors, who donate money to the charities that they support, or by centralized organizations such as governments or municipalities, which collect the individual contributions and distribute them among a set of charities. On the one hand, individual charity respects the will of the donors but may be inefficient due to a lack of coordination. On the other hand, centralized charity is potentially more efficient but may ignore the will of individual donors. We present a mechanism that combines the advantages of both methods by distributing the contribution of each donor in an efficient way such that no subset of donors has an incentive to redistribute their donations. Assuming Leontief utilities (i.e., each donor is interested in maximizing an individually weighted minimum of all contributions across the charities), our mechanism is group-strategyproof, preference-monotonic, contribution-monotonic, maximizes Nash welfare, and can be computed u
+    Barseghyan and Molinari (2023) give sufficient conditions for semi-nonparametric point identification of parameters of interest in a mixture model of decision-making under risk, allowing for unobserved heterogeneity in utility functions and limited consideration. A key assumption in the model is that the heterogeneity of risk preferences is unobservable but context-independent. In this comment, we build on their insights and present identification results in a setting where the risk preferences are allowed to be context-dependent.
     
-[^3]: 基于特征数据的实时预测方法
+[^2]: 中国上市银行的超效率及决定因素分析（2006-2021年）
 
-    Nowcasting with signature methods. (arXiv:2305.10256v1 [econ.EM])
+    Super-efficiency of Listed Banks in China and Determinants Analysis (2006-2021). (arXiv:2305.10885v1 [q-fin.GN])
 
-    [http://arxiv.org/abs/2305.10256](http://arxiv.org/abs/2305.10256)
+    [http://arxiv.org/abs/2305.10885](http://arxiv.org/abs/2305.10885)
 
-    该论文提出了利用路径签名进行回归建模，通过线性模型嵌入连续时间处理了混杂频率和不规则采样带来的缺失数据问题，相较于卡尔曼滤波器更为优秀。该方法已应用于金融、医学和网络安全领域达到最先进水平。
-
-    
-
-    许多重要的经济变量经常延迟一个月以上才能公布。当前预测方法已经在快速、可靠地估算经济滞后指标方面发挥了作用，与信号处理中的滤波方法密切相关。路径签名是一种数学对象，它捕捉序列数据的几何属性；它通过将观察到的数据嵌入连续时间，自然地处理混合频率和/或不规则采样带来的缺失数据问题，在金融、医学和网络安全等领域的应用已经达到了最先进的水平。我们通过对签名回归进行简单的线性建模来研究现在预测问题，这种方法比流行的卡尔曼滤波器更优秀。我们通过模拟实验量化了性能，并通过对美国GDP增长的预测应用进行了说明。
-
-    Key economic variables are often published with a significant delay of over a month. The nowcasting literature has arisen to provide fast, reliable estimates of delayed economic indicators and is closely related to filtering methods in signal processing. The path signature is a mathematical object which captures geometric properties of sequential data; it naturally handles missing data from mixed frequency and/or irregular sampling -- issues often encountered when merging multiple data sources -- by embedding the observed data in continuous time. Calculating path signatures and using them as features in models has achieved state-of-the-art results in fields such as finance, medicine, and cyber security. We look at the nowcasting problem by applying regression on signatures, a simple linear model on these nonlinear objects that we show subsumes the popular Kalman filter. We quantify the performance via a simulation exercise, and through application to nowcasting US GDP growth, where we 
-    
-[^4]: 面向数据驱动发展的高价值数据集确定：一项系统文献综述
-
-    Towards High-Value Datasets determination for data-driven development: a systematic literature review. (arXiv:2305.10234v1 [cs.CY])
-
-    [http://arxiv.org/abs/2305.10234](http://arxiv.org/abs/2305.10234)
-
-    本文系统综述了面向数据驱动发展的高价值数据集的研究现状，提出了高价值数据集的定义及其在推动更成熟的开放政府数据倡议方面的重要作用。
+    本研究采用中国42家上市银行2006至2021年的年度数据，发现国有银行和城市/农村商业银行的超效率优于股份制银行，国有银行在中介效率方面具有优势。所有类型的银行都受益于所有权集中度的降低，地方商业银行受益于客户集中度的降低和准备金的增加，在增加贷款存款比率方面，国有银行应该采取措施，股份制银行则相反。
 
     
 
-    开放政府数据被看作是一种政治和社会经济现象，可以促进市民参与并刺激公共领域的创新。为了带来预期的好处，数据必须被重用和转化为增值产品或服务。这要求数据不仅需要符合开放数据原则并可用，还必须具有价值，即被终端用户重用的兴趣。这涉及到“高价值数据集”（HVD）的概念，在2022年被欧洲数据门户认可为开放政府数据领域的关键趋势。虽然在这方面已经取得了进展，例如，开放数据指令，包括确定6个关键类别、一系列HVD的列表以及其发布和重用的安排，它们可以被视为旨在提高公共部门数据互操作性的“核心” /“基础”数据集，对于推动更成熟的开放政府数据倡议起到了重要作用。
+    本研究采用2006至2021年42家上市银行的年度非平衡面板数据，采用考虑不良贷款为不希望产出的非径向非定向超效率数据包络分析（Super-SBM-UND-VRS based DEA）模型。结果显示，国有银行和城市/农村商业银行的盈利能力超效率优于股份制银行。就中介效率（存款和贷款）而言，国有银行具有优势。决定因素分析表明，所有类型的银行都受益于所有权集中度的降低，支持改革和IPO。地方商业银行显著受益于客户集中度的降低和准备金的增加。另一方面，国有银行应增加其贷款存款比率，而股份制银行应采取相反的措施。
 
-    The OGD is seen as a political and socio-economic phenomenon that promises to promote civic engagement and stimulate public sector innovations in various areas of public life. To bring the expected benefits, data must be reused and transformed into value-added products or services. This, in turn, sets another precondition for data that are expected to not only be available and comply with open data principles, but also be of value, i.e., of interest for reuse by the end-user. This refers to the notion of 'high-value dataset' (HVD), recognized by the European Data Portal as a key trend in the OGD area in 2022. While there is a progress in this direction, e.g., the Open Data Directive, incl. identifying 6 key categories, a list of HVDs and arrangements for their publication and re-use, they can be seen as 'core' / 'base' datasets aimed at increasing interoperability of public sector data with a high priority, contributing to the development of a more mature OGD initiative. Depending on t
+    This study employs the annual unbalanced panel data of 42 listed banks in China from 2006 to 2021, adopts the non-radial and non-oriented super-efficiency Data envelopment analysis (Super-SBM-UND-VRS based DEA) model considering NPL as undesired output. Our results show that the profitability super-efficiency of State-owned banks and Rural/City Commercial Banks is better than that of Joint-stock Banks. In terms of intermediary efficiency(deposit and loan), state-owned banks have advantage on other two type of banks. The determinants analysis shows that all type of banks significantly benefits from the decrease of ownership concentration which support reformation and IPO. Regional commercial banks significantly benefit from the decrease of customer concentration and the increase of reserves. On the other hand, State-owned banks should increase its loan to deposit ratio while joint-stock banks should do the opposite.
     
-[^5]: 情感相互依赖与福利
+[^3]: 抽奖竞赛中的最佳响应动态
 
-    Affective interdependence and welfare. (arXiv:2305.10165v1 [econ.GN])
+    Best-Response Dynamics in Lottery Contests. (arXiv:2305.10881v1 [cs.GT])
 
-    [http://arxiv.org/abs/2305.10165](http://arxiv.org/abs/2305.10165)
+    [http://arxiv.org/abs/2305.10881](http://arxiv.org/abs/2305.10881)
 
-    本论文研究了纯情感互动对于个体福利的影响，证明了帕累托最优以及纳什均衡的存在性和局部优越性。
-
-    
-
-    纯情感互动使得个体的福利依赖于她自己的行为以及其他人福利水平的配置。在我们解释为“非爆炸性互相情感”的互相情感结构假设下，我们证明了同时进行的情感互动的均衡是帕累托最优的，无论是否存在诱导标准博弈。此外，如果纯情感互动引起了标准博弈，则策略均衡配置是博弈的纳什均衡，并且该纳什均衡和帕累托最优策略配置是当地优越的。
-
-    Purely affective interaction allows the welfare of an individual to depend on her own actions and on the profile of welfare levels of others. Under an assumption on the structure of mutual affection that we interpret as "non-explosive mutual affection," we show that equilibria of simultaneous-move affective interaction are Pareto optimal independently of whether or not an induced standard game exists. Moreover, if purely affective interaction induces a standard game, then an equilibrium profile of actions is a Nash equilibrium of the game, and this Nash equilibrium and Pareto optimal profile of strategies is locally dominant.
-    
-[^6]: 合理的对话。 (arXiv:2305.10164v1 [econ.GN])
-
-    Rational Dialogues. (arXiv:2305.10164v1 [econ.GN])
-
-    [http://arxiv.org/abs/2305.10164](http://arxiv.org/abs/2305.10164)
-
-    论文表明了任何有限的对话都可以被合理化。
+    本文研究了抽奖竞赛中的最佳响应动态的收敛性，对于同质agents最佳响应动态会迅速收敛于唯一的平衡态，但可能对于非同质agents不会收敛。 在考虑代理商随机选择进行移动时，他们证明了 $n \geq 2$个代理商会 $O(\beta \log(n/(\epsilon\delta)))$ 步以概率 $1-\delta$ 收敛到一个 $\epsilon$ 近似平衡态。
 
     
 
-    任何有限的对话都可以被合理化。
+    本文研究了抽奖竞赛中的最佳响应动态的收敛性。 我们展示了对于同质agents，最佳响应动态迅速收敛于唯一的平衡态，但可能对于非同质agents不会收敛，即使对于两个非同质agents也是如此。 对于两个同质代理商，我们证明了在 $\Theta(\log\log(1/\epsilon))$ 步骤内收敛为一个 $\epsilon$ 近似平衡态。 对于 $n \ge 3$ 个代理商，动态不是唯一的，因为在每一步 $n-1$ 个代理商可以进行非平凡的移动。 我们考虑了一个模型，其中在每个时间步骤中随机选择进行移动的代理商。 我们证明了在 $O(\beta \log(n/(\epsilon\delta)))$ 步内以概率 $1-\delta$ 收敛到一个 $\epsilon$ 近似平衡态，其中 $\beta$ 是代理选择过程的参数，例如，如果代理商在每个时间步骤中是均匀选择的，则 $\beta = n$ 。我们的模拟表明，这个界是 stric的。
 
-    Any finite conversation can be rationalized.
+    We study the convergence of best-response dynamics in lottery contests. We show that best-response dynamics rapidly converges to the (unique) equilibrium for homogeneous agents but may not converge for non-homogeneous agents, even for two non-homogeneous agents. For $2$ homogeneous agents, we show convergence to an $\epsilon$-approximate equilibrium in $\Theta(\log\log(1/\epsilon))$ steps. For $n \ge 3$ agents, the dynamics is not unique because at each step $n-1 \ge 2$ agents can make non-trivial moves. We consider a model where the agent making the move is randomly selected at each time step. We show convergence to an $\epsilon$-approximate equilibrium in $O(\beta \log(n/(\epsilon\delta)))$ steps with probability $1-\delta$, where $\beta$ is a parameter of the agent selection process, e.g., $\beta = n$ if agents are selected uniformly at random at each time step. Our simulations indicate that this bound is tight.
     
-[^7]: 单次提名公正选择的改进界限
+[^4]: 社交学习中居高临下的危害与好处。
 
-    Improved Bounds for Single-Nomination Impartial Selection. (arXiv:2305.09998v1 [cs.GT])
+    The Hazards and Benefits of Condescension in Social Learning. (arXiv:2301.11237v2 [econ.TH] UPDATED)
 
-    [http://arxiv.org/abs/2305.09998](http://arxiv.org/abs/2305.09998)
+    [http://arxiv.org/abs/2301.11237](http://arxiv.org/abs/2301.11237)
 
-    摘要讲述了单次提名公正选择的一个新模型，通过排列机制来实现，调研结果表明该机制是$2/3$-optimal，是最优的选择机制。
-
-    
-
-    本文提出一个单次提名的公正选择模型，其中，选择机制会从$n$个人中选出一个，并非直接由自我提名影响选择结果。我们运用排列机制来实现单次提名公正选择，证明了此机制是$2/3$-optimal的。
-
-    We give new bounds for the single-nomination model of impartial selection, a problem proposed by Holzman and Moulin (Econometrica, 2013). A selection mechanism, which may be randomized, selects one individual from a group of $n$ based on nominations among members of the group; a mechanism is impartial if the selection of an individual is independent of nominations cast by that individual, and $\alpha$-optimal if under any circumstance the expected number of nominations received by the selected individual is at least $\alpha$ times that received by any individual. In a many-nominations model, where individuals may cast an arbitrary number of nominations, the so-called permutation mechanism is $1/2$-optimal, and this is best possible. In the single-nomination model, where each individual casts exactly one nomination, the permutation mechanism does better and prior to this work was known to be $67/108$-optimal but no better than $2/3$-optimal. We show that it is in fact $2/3$-optimal for 
-    
-[^8]: 系统自组织与自控的新兴增长
-
-    Emergent Growth of System Self-Organization & Self-Control. (arXiv:2305.09837v1 [physics.soc-ph])
-
-    [http://arxiv.org/abs/2305.09837](http://arxiv.org/abs/2305.09837)
-
-    论文探讨了自组织与自控的系统增长，这种生长遵循“S”曲线模式，首先自由构建能力，接着与其他系统和谐发展，并在其顶点环境中承担一个或多个角色，最终以衰退结束。许多小型初创企业成功，而一些强大的文明最终也会消失。
+    研究表明，代理人适度表现出居高临下的行为可以提高社交学习的效果，而过度的居高临下和反居高临下则会导致结果变差。
 
     
 
-    在物理学中，我发现那些无法用公式解释的现象往往被忽略，比如不受控制的生长系统如何改变形态。天气、企业、社会、环境、社区、文化、群体、人际关系、生活和生计等，都遵循某种变体的“S”曲线生长。这是一种自我激发的上下文能量系统发展的缓慢-快速-缓慢过程。它们似乎通过“发现和连接”在三个阶段中形成工作系统，首先A）自由地构建日益增长的能力，接着B）多样化、适应、响应和与其他系统和谐发展，最后C）在其顶点环境中承担一个或多个角色。这是一个巨大的系统熵成功的生命曲线，然后以衰退结束。对于小型初创企业而言，生存特别艰难，但许多企业确实成功了。许多强大的文明已经出现，有些永远不会成长，只会成为无尽的初创企业，最终变得脆弱、失败和消失。这看起来像是一个选择。
+    在一种错误的社交学习环境中，如果代理人认为同伴的私人信息质量低于实际水平，那么他们就会表现出居高临下的行为。将其应用于标准的序列模型，我们发现代理人适度表现出居高临下的行为时，结果会得到改善，相反，过度的居高临下和反居高临下都会导致结果变差。
 
-    In physics, I noticed subjects not explained by formulas were often not studied, like how uncontrolled growth systems changed form. Weather, businesses, societies, environments, communities, cultures, groups, relationships, lives, and livelihoods all do it following some variation of an 'S' curve. It is a slow-fast-slow process of self-animated contextual energy system development. Making working systems, they seem to develop by "find and connect" in three stages, starting small to first A) freely build designs of growing power, then B) diversify, adapt, respond, and harmonize with others, then C) take on one or more roles in their climax environments. It is a life curve of tremendous syntropic success that then ends with decline. Life is particularly risky for small start-ups, but many do succeed. Many powerful civilizations have emerged, some never growing up but growing as endless startups, only to become fragile, fail, and vanish. That looks like a choice.
+    In a misspecified social learning setting, agents are condescending if they perceive their peers as having private information that is of lower quality than it is in reality. Applying this to a standard sequential model, we show that outcomes improve when agents are mildly condescending. In contrast, too much condescension leads to worse outcomes, as does anti-condescension.
     
-[^9]: COWPEA（候选人按比例使用赞成投票进行最优加权）：一种新的比例代表方法
+[^5]: 强化学习策略推荐对银行间网络稳定性的影响分析
 
-    COWPEA (Candidates Optimally Weighted in Proportional Election using Approval voting). (arXiv:2305.08857v1 [econ.TH])
+    Reinforcement Learning Policy Recommendation for Interbank Network Stability. (arXiv:2204.07134v2 [econ.GN] UPDATED)
 
-    [http://arxiv.org/abs/2305.08857](http://arxiv.org/abs/2305.08857)
+    [http://arxiv.org/abs/2204.07134](http://arxiv.org/abs/2204.07134)
 
-    本文提出了一种新的比例代表方法，COWPEA，可根据候选人不同的权重进行最优选举，并可转换为分数或分级投票方法。
-
-    
-
-    本文描述了一种使用赞成投票的比例代表新方法，称为COWPEA（候选人按比例使用赞成投票进行最优加权）。COWPEA在选择一定数量的候选人时，可以根据其不同的权重进行最优选举，而不是只给予固定数量相同的权重。COWPEA Lottery 是一个不确定性的版本，可以选择一定数量的候选人，并使它们拥有相等的权重。COWPEA是唯一已知通过单调性、与无关选票和普遍喜欢的候选人标准的比例方法。同时，也有方法可以将COWPEA和COWPEA Lottery转换为分数或分级投票方法。
-
-    This paper describes a new method of proportional representation that uses approval voting, known as COWPEA (Candidates Optimally Weighted in Proportional Election using Approval voting). COWPEA optimally elects an unlimited number of candidates with potentially different weights to a body, rather than giving a fixed number equal weight. A version that elects a fixed a number of candidates with equal weight does exist, but it is non-deterministic, and is known as COWPEA Lottery. This is the only proportional method known to pass monotonicity, Independence of Irrelevant Ballots, and the Universally Liked Candidate criterion. There are also ways to convert COWPEA and COWPEA Lottery to a score or graded voting method.
-    
-[^10]: 基于交易网络相关张量谱的XRP价格预测
-
-    Projecting XRP price burst by correlation tensor spectra of transaction networks. (arXiv:2211.03002v2 [physics.soc-ph] UPDATED)
-
-    [http://arxiv.org/abs/2211.03002](http://arxiv.org/abs/2211.03002)
-
-    本文提出了一种基于相关张量谱的新方法，用于研究动态XRP网络，并且可以提供XRP价格的早期指示。
+    本文基于强化学习策略推荐，分析了其对人工银行间市场的影响。根据个体信息和公共推荐，金融机构制定借贷协议。策略推荐能够合理引导金融行为者的信贷关系形成，核心-周边网络结构迅速稳定。
 
     
 
-    在数字经济时代中，加密资产变得越来越重要，XRP是市场上一个大市值的加密资产。本文提出了一种新颖的相关张量谱方法，用于研究动态的XRP网络，该方法可以提供XRP价格的早期指示。通过聚合一周内所有交易而构建权重定向的交易网络，为每个节点获取一个向量，从一系列节点向量的快照中构造相关张量。相关张量的双奇异值分解可以得出奇异值，最大奇异值表现出与XRP/USD价格的显著负相关。通过比较其随机版本，表明奇异值的意义。
+    本文分析了策略推荐对人工银行间市场表现的影响。金融机构根据公共推荐和个体信息制定借贷协议。前者通过强化学习的最优策略来模拟，旨在最大化系统的适应性并收集有关经济环境的信息。策略推荐直接或间接地影响金融行为者的信贷关系形成过程。通过低利率或高流动性供给的最优选择来合理引导，再根据银行代理的资产负债表信息来确认他们在市场内最适宜向客户提供的流动性和利率组合。通过将公共和私有信号相结合，金融机构能够通过逐渐建立有选择性附加的信贷连接而创建或修建他们的信贷网络，从而生成动态网络。研究结果表明，在这种情况下，核心-周边网络结构具有迅速稳定的形式。
 
-    Cryptoassets are becoming essential in the digital economy era. XRP is one of the large market cap cryptoassets. Here, we develop a novel method of correlation tensor spectra for the dynamical XRP networks, which can provide an early indication for XRP price. A weighed directed weekly transaction network among XRP wallets is constructed by aggregating all transactions for a week. A vector for each node is then obtained by embedding the weekly network in continuous vector space. From a set of weekly snapshots of node vectors, we construct a correlation tensor. A double singular value decomposition of the correlation tensors gives its singular values. The significance of the singular values is shown by comparing with its randomize counterpart. The evolution of singular values shows a distinctive behavior. The largest singular value shows a significant negative correlation with XRP/USD price. We observe the minimum of the largest singular values at the XRP/USD price peak during the first 
+    In this paper, we analyze the effect of a policy recommendation on the performance of an artificial interbank market. Financial institutions stipulate lending agreements following a public recommendation and their individual information. The former is modeled by a reinforcement learning optimal policy that maximizes the system's fitness and gathers information on the economic environment. The policy recommendation directs economic actors to create credit relationships through the optimal choice between a low interest rate or a high liquidity supply. The latter, based on the agents' balance sheet, allows determining the liquidity supply and interest rate that the banks optimally offer their clients within the market. Thanks to the combination between the public and the private signal, financial institutions create or cut their credit connections over time via a preferential attachment evolving procedure able to generate a dynamic network. Our results show that the emergence of a core-pe
     
-[^11]: 如何进行样本采集以及何时停止采样：广义Wald问题和最小极大决策
+[^6]: 从表格汇总数据中调整无括号非参数密度估计算法
 
-    How to sample and when to stop sampling: The generalized Wald problem and minimax policies. (arXiv:2210.15841v4 [econ.EM] UPDATED)
+    Tuning Parameter-Free Nonparametric Density Estimation from Tabulated Summary Data. (arXiv:2204.05480v3 [econ.EM] UPDATED)
 
-    [http://arxiv.org/abs/2210.15841](http://arxiv.org/abs/2210.15841)
+    [http://arxiv.org/abs/2204.05480](http://arxiv.org/abs/2204.05480)
 
-    本文研究了引入信息成本的实验设计技术，特别是在顺序实验中，通过自适应地分配样本和在福利最大时停止采样来确定最佳处理方法。最小极大遗憾标准下，我们描述了最优策略，最小极大优化采样规则只是Neyman分配，独立于采样成本和先前的结果。
-
-    
-
-    获取信息是昂贵的。实验者需要仔细选择每种处理的样本数量以及何时停止采样。本文的目的是开发将信息成本纳入实验设计的技术。特别是，我们研究了一种顺序实验，其中采样具有成本，决策者通过（1）自适应地分配单位到两种可能的处理方法，以及（2）当实施所选择的处理的预期福利（包括采样成本）达到最大时停止实验，来确定最佳处理方法以进行全面实施。在扩散极限下工作，我们在最小极大遗憾标准下描述了最优策略。在小成本渐近下，相同的策略在参数化和非参数化结果分布下也是最优的。最小极大优化采样规则只是Neyman分配；它独立于采样成本，也不适应于先前的结果。
-
-    Acquiring information is expensive. Experimenters need to carefully choose how many units of each treatment to sample and when to stop sampling. The aim of this paper is to develop techniques for incorporating the cost of information into experimental design. In particular, we study sequential experiments where sampling is costly and a decision-maker aims to determine the best treatment for full scale implementation by (1) adaptively allocating units to two possible treatments, and (2) stopping the experiment when the expected welfare (inclusive of sampling costs) from implementing the chosen treatment is maximized. Working under the diffusion limit, we describe the optimal policies under the minimax regret criterion. Under small cost asymptotics, the same policies are also optimal under parametric and non-parametric distributions of outcomes. The minimax optimal sampling rule is just the Neyman allocation; it is independent of sampling costs and does not adapt to previous outcomes. Th
-    
-[^12]: 电子杂货配送中心集成储存分配：考虑日内需求模式(arXiv:2209.03998v2 [econ.GN] UPDATED)
-
-    Integrated storage assignment for an e-grocery fulfilment centre: Accounting for day-of-week demand patterns. (arXiv:2209.03998v2 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2209.03998](http://arxiv.org/abs/2209.03998)
-
-    本文提出了一个综合的MILP模型，用于实现高效捡货并尊重站点负载平衡和优先级约束。在电子杂货配送中心中，该模型显著优于顺序方法。
+    本文提出了一种无需调整参数的非参数密度估计方法，基于最大熵，并成功应用于美国税务数据的收入分布估计。
 
     
 
-    本文研究了一家欧洲主要电子杂货零售商的配送中心中出现的储存分配问题。该中心可以被描述为一个混合仓库，包括一个高效和部分自动化的快速拣选区域和一个分拣区域。所考虑的储存分配问题包括选择要分配给快速拣选区域的产品、将产品分配给挑选站和确定分配站内的货架的决策。目标是在尊重站点负载平衡和优先级约束的情况下实现高效率的拣选。我们提出使用一个综合MILP模型解决这个三级问题。在使用真实数据的计算实验中，我们证明使用所提议的集成方法比顺序方法显著地提高了结果。
+    由于机密性问题，行政数据往往更容易以表格汇总的形式访问而不是以原始格式访问。本文提出了一种基于最大熵的新型从表格汇总数据中进行无参数密度估计的方法，并证明了其强一致性。与现有的基于核函数的估计器不同，我们的估计器不需要调整参数，可以得到一个方便进行后估计分析的闭合式密度。
 
-    In this paper, we deal with a storage assignment problem arising in a fulfilment centre of a major European e-grocery retailer. The centre can be characterised as a hybrid warehouse consisting of a highly efficient and partially automated fast-picking area designed as a pick-and-pass system with multiple stations, and a picker-to-parts area. The storage assignment problem considered in this paper comprises the decisions to select the products to be allocated to the fast-picking area, the assignment of the products to picking stations and the determination of a shelf within the assigned station. The objective is to achieve a high level of picking efficiency while respecting station workload balancing and precedence order constraints. We propose to solve this three-level problem using an integrated MILP model. In computational experiments with real-world data, we show that using the proposed integrated approach yields significantly better results than a sequential approach in which the s
+    Administrative data are often easier to access as tabulated summaries than in the original format due to confidentiality concerns. Motivated by this practical feature, we propose a novel nonparametric density estimation method from tabulated summary data based on maximum entropy and prove its strong uniform consistency. Unlike existing kernel-based estimators, our estimator is free from tuning parameters and admits a closed-form density that is convenient for post-estimation analysis. We apply the proposed method to the tabulated summary data of the U.S. tax returns to estimate the income distribution.
     
-[^13]: 攻防博弈的平衡状态
+[^7]: 社交网络上的重复互动中的学习
 
-    Equilibria of Attacker-Defender Games. (arXiv:2202.10072v2 [econ.TH] UPDATED)
+    Learning in Repeated Interactions on Networks. (arXiv:2112.14265v3 [econ.TH] UPDATED)
 
-    [http://arxiv.org/abs/2202.10072](http://arxiv.org/abs/2202.10072)
+    [http://arxiv.org/abs/2112.14265](http://arxiv.org/abs/2112.14265)
 
-    该论文提供了攻防博弈平衡状态的理论分析，研究了不同情境中攻防双方的策略选择，发现在某些情况下攻击者会表现出特别的侵略性。
-
-    
-
-    活捕的尝试可能会引发防御反应，降低被掠夺资源的价值。我们提供了一种博弈论分析，对模拟此类交互的同时进行的两个玩家攻击者和防御者游戏进行建模。当初始禀赋相等时，攻击者在平衡状态下赢得约三分之一的此类游戏。在权力差异下，攻击者在约比防御者贫穷三分之一时变得特别激进。在没有冲突性的外部选项下，当对手拥有高利益、低成本的生产资源时，攻击者会变得异常激进，并在他们单方面提供高成本、高利益的生产选项时克制攻击。
-
-    Attempts at predatory capture may provoke a defensive response that reduces the very value of the predated resource. We provide a game-theoretic analysis of simultaneous-move, two-player Attacker-Defender games that model such interactions. When initial endowments are equal, Attackers win about a third of such games in equilibrium. Under power disparities, Attackers become particularly aggressive when they are approximately one-third poorer than Defenders. With non-conflictual outside options Attackers become exceptionally aggressive when their opponent has access to high-benefit, low-cost production, and refrain from attack most when they are unilaterally provided with a high-benefit, high-cost production option.
-    
-[^14]: 增量推出设计中的效率估计
-
-    Efficient Estimation for Staggered Rollout Designs. (arXiv:2102.01291v7 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2102.01291](http://arxiv.org/abs/2102.01291)
-
-    本文提出了一种在增量推出设计中最有效的因果效应估算器，使用可行的插值方法，置信区间比现有方法短八倍。
+    本文研究了社交网络上长期理性代理商的学习方式，表明无论网络规模、效用函数及代理的耐心如何，学习速度都有其上限。
 
     
 
-    本文研究以增量方式推出干预措施的因果效应估计，即在干预采纳时存在错开和治疗时间等同于随机分配的设置中的估计问题。我们在一类嵌入了几种流行的广义差异-差异方法的估计器中得到了最有效的估计器。高效估计器的可行插值方法渐近无偏，并且其效率（微弱地）超越了现有方法。我们提供了基于$t$检验和置换检验的推论方法。在一项针对警官培训计划的应用中，所提出的估计器的置信区间比现有估计方法的置信区间短高达八倍。
+    我们研究了长期的、理性的代理商在社交网络中的学习方式。在每个时间段中，每个代理商在观察到邻居的过去行动之后，收到一个私人信号，并选择一种仅依赖于状态的行动。由于平衡行动依赖于更高层次的信念，因此很难表征行为。然而，我们表明，不论网络的大小和形状、效用函数和代理的耐心如何，任何平衡中的学习速度都有一个上界，在该上界之内限制只取决于私人信号分布。
 
-    We study estimation of causal effects in staggered rollout designs, i.e. settings where there is staggered treatment adoption and the timing of treatment is as-good-as randomly assigned. We derive the most efficient estimator in a class of estimators that nests several popular generalized difference-in-differences methods. A feasible plug-in version of the efficient estimator is asymptotically unbiased with efficiency (weakly) dominating that of existing approaches. We provide both $t$-based and permutation-test-based methods for inference. In an application to a training program for police officers, confidence intervals for the proposed estimator are as much as eight times shorter than for existing approaches.
+    We study how long-lived, rational agents learn in a social network. In every period, after observing the past actions of his neighbors, each agent receives a private signal, and chooses an action whose payoff depends only on the state. Since equilibrium actions depend on higher order beliefs, it is difficult to characterize behavior. Nevertheless, we show that regardless of the size and shape of the network, the utility function, and the patience of the agents, the speed of learning in any equilibrium is bounded from above by a constant that only depends on the private signal distribution.
+    
+[^8]: 条件处理效应的部分识别和推理
+
+    Partial Identification and Inference for Conditional Distributions of Treatment Effects. (arXiv:2108.00723v4 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2108.00723](http://arxiv.org/abs/2108.00723)
+
+    本文提出了一种方法，通过Makarov边界估算处理效应的条件分布的上下界，且当处理是内生的情况下提出了两种随机优势假设来进一步加强边界。
+
+    
+
+    本文考虑对可观测协变量条件下的处理效应分布进行识别和推理。由于处理效应的条件分布在没有强假设的情况下不能被点识别，我们使用Makarov边界来得到处理效应的条件分布的上下界。我们还考虑了处理是内生的情况，并提出了两种随机优势假设来加强边界。我们提出了一种非参数框架来估计边界，并建立了在处理效应支持的范围内一致有效的渐近理论。一个实证例子展示了方法的实用性。
+
+    This paper considers identification and inference for the distribution of treatment effects conditional on observable covariates. Since the conditional distribution of treatment effects is not point identified without strong assumptions, we obtain bounds on the conditional distribution of treatment effects by using the Makarov bounds. We also consider the case where the treatment is endogenous and propose two stochastic dominance assumptions to tighten the bounds. We develop a nonparametric framework to estimate the bounds and establish the asymptotic theory that is uniformly valid over the support of treatment effects. An empirical example illustrates the usefulness of the methods.
     
 

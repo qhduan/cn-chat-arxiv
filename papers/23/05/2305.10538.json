@@ -1,0 +1,12 @@
+{
+    "title": "Generating Bayesian Network Models from Data Using Tsetlin Machines. (arXiv:2305.10538v1 [cs.AI])",
+    "abstract": "Bayesian networks (BN) are directed acyclic graphical (DAG) models that have been adopted into many fields for their strengths in transparency, interpretability, probabilistic reasoning, and causal modeling. Given a set of data, one hurdle towards using BNs is in building the network graph from the data that properly handles dependencies, whether correlated or causal. In this paper, we propose an initial methodology for discovering network structures using Tsetlin Machines.",
+    "link": "http://arxiv.org/abs/2305.10538",
+    "context": "Title: Generating Bayesian Network Models from Data Using Tsetlin Machines. (arXiv:2305.10538v1 [cs.AI])\nAbstract: Bayesian networks (BN) are directed acyclic graphical (DAG) models that have been adopted into many fields for their strengths in transparency, interpretability, probabilistic reasoning, and causal modeling. Given a set of data, one hurdle towards using BNs is in building the network graph from the data that properly handles dependencies, whether correlated or causal. In this paper, we propose an initial methodology for discovering network structures using Tsetlin Machines.",
+    "path": "papers/23/05/2305.10538.json",
+    "total_tokens": 552,
+    "translated_title": "利用Tsetlin Machines从数据中生成贝叶斯网络模型",
+    "translated_abstract": "贝叶斯网络（BN）是一种有向无环图（DAG）模型，因其透明度、可解释性、概率推理和因果建模的优点而被广泛应用于许多领域。给定一组数据，使用BN的一个难点在于从数据构建网络图，以适当地处理相关或因果依赖关系。在本文中，我们提出了一种使用Tsetlin Machines发现网络结构的初步方法。",
+    "tldr": "本文提出一种用Tsetlin Machines从数据中发现贝叶斯网络结构的方法。",
+    "en_tdlr": "This paper proposes an initial methodology for discovering Bayesian network structures from data using Tsetlin Machines."
+}

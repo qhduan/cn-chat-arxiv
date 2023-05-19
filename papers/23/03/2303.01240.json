@@ -1,0 +1,12 @@
+{
+    "title": "The Point to Which Soft Actor-Critic Converges. (arXiv:2303.01240v3 [cs.LG] UPDATED)",
+    "abstract": "Soft actor-critic is a successful successor over soft Q-learning. While lived under maximum entropy framework, their relationship is still unclear. In this paper, we prove that in the limit they converge to the same solution. This is appealing since it translates the optimization from an arduous to an easier way. The same justification can also be applied to other regularizers such as KL divergence.",
+    "link": "http://arxiv.org/abs/2303.01240",
+    "context": "Title: The Point to Which Soft Actor-Critic Converges. (arXiv:2303.01240v3 [cs.LG] UPDATED)\nAbstract: Soft actor-critic is a successful successor over soft Q-learning. While lived under maximum entropy framework, their relationship is still unclear. In this paper, we prove that in the limit they converge to the same solution. This is appealing since it translates the optimization from an arduous to an easier way. The same justification can also be applied to other regularizers such as KL divergence.",
+    "path": "papers/23/03/2303.01240.json",
+    "total_tokens": 586,
+    "translated_title": "Soft Actor-Critic算法的收敛点",
+    "translated_abstract": "Soft Actor-Critic是Soft Q-learning的成功后继者，尽管它们都处于最大熵框架下，但它们之间的关系仍不清楚。本文证明了它们在极限情况下收敛于相同的解，这一结果非常有吸引力，因为它将优化从困难的方式转化为了简单的方式。同样的证明也适用于其他正则项，例如KL散度。",
+    "tldr": "本文证明了在极限情况下，Soft Actor-Critic算法和Soft Q-learning算法在最大熵框架下收敛于同一解，这一结论对优化算法具有较大的意义。",
+    "en_tdlr": "This paper proves that in the limit, the Soft Actor-Critic algorithm and the Soft Q-learning algorithm converge to the same solution under the framework of maximum entropy, which has significant implications for optimization algorithms."
+}

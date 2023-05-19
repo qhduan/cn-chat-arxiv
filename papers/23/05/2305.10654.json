@@ -1,0 +1,12 @@
+{
+    "title": "Clarifying System 1 & 2 through the Common Model of Cognition. (arXiv:2305.10654v1 [cs.AI])",
+    "abstract": "There have been increasing challenges to dual-system descriptions of System-1 and System-2, critiquing them as imprecise and fostering misconceptions. We address these issues here by way of Dennett's appeal to use computational thinking as an analytical tool, specifically we employ the Common Model of Cognition. Results show that the characteristics thought to be distinctive of System-1 and System-2 instead form a spectrum of cognitive properties. By grounding System-1 and System-2 in the Common Model we aim to clarify their underlying mechanisms, persisting misconceptions, and implications for metacognition.",
+    "link": "http://arxiv.org/abs/2305.10654",
+    "context": "Title: Clarifying System 1 & 2 through the Common Model of Cognition. (arXiv:2305.10654v1 [cs.AI])\nAbstract: There have been increasing challenges to dual-system descriptions of System-1 and System-2, critiquing them as imprecise and fostering misconceptions. We address these issues here by way of Dennett's appeal to use computational thinking as an analytical tool, specifically we employ the Common Model of Cognition. Results show that the characteristics thought to be distinctive of System-1 and System-2 instead form a spectrum of cognitive properties. By grounding System-1 and System-2 in the Common Model we aim to clarify their underlying mechanisms, persisting misconceptions, and implications for metacognition.",
+    "path": "papers/23/05/2305.10654.json",
+    "total_tokens": 741,
+    "translated_title": "通过认知通用模型阐明系统1和系统2",
+    "translated_abstract": "对于Systm-1和System-2的双系统描述面临着越来越多的挑战，指责它们不够精确并且容易引起误解。本文采用Dennett的计算思维方法作为分析工具，特别是采用认知通用模型，从而解决了这些问题。研究结果表明，原本被认为是System-1和System-2特有的特征实际上构成了一个认知属性的谱系。通过将System-1和System-2基于通用模型进行实现，我们的目标是阐明它们的底层机制、消除误解以及阐明它们对元认知的影响。",
+    "tldr": "本文采用计算思维的方法，特别是采用认知通用模型，阐明了Systm-1和System-2的底层机制，消除了对它们的误解并阐明了它们对元认知的影响。",
+    "en_tdlr": "This article clarifies the underlying mechanisms of System-1 and System-2 by using computational thinking, specifically employing the Common Model of Cognition, which forms a spectrum of cognitive properties. This study aims to eliminate misunderstanding, clarify implications for metacognition and to provide a better understanding of dual-system descriptions."
+}

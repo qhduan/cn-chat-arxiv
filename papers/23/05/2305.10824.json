@@ -1,0 +1,12 @@
+{
+    "title": "Integrating Item Relevance in Training Loss for Sequential Recommender Systems. (arXiv:2305.10824v1 [cs.IR])",
+    "abstract": "Sequential Recommender Systems (SRSs) are a popular type of recommender system that learns from a user's history to predict the next item they are likely to interact with. However, user interactions can be affected by noise stemming from account sharing, inconsistent preferences, or accidental clicks. To address this issue, we (i) propose a new evaluation protocol that takes multiple future items into account and (ii) introduce a novel relevance-aware loss function to train a SRS with multiple future items to make it more robust to noise. Our relevance-aware models obtain an improvement of ~1.2% of NDCG@10 and 0.88% in the traditional evaluation protocol, while in the new evaluation protocol, the improvement is ~1.63% of NDCG@10 and ~1.5% of HR w.r.t the best performing models.",
+    "link": "http://arxiv.org/abs/2305.10824",
+    "context": "Title: Integrating Item Relevance in Training Loss for Sequential Recommender Systems. (arXiv:2305.10824v1 [cs.IR])\nAbstract: Sequential Recommender Systems (SRSs) are a popular type of recommender system that learns from a user's history to predict the next item they are likely to interact with. However, user interactions can be affected by noise stemming from account sharing, inconsistent preferences, or accidental clicks. To address this issue, we (i) propose a new evaluation protocol that takes multiple future items into account and (ii) introduce a novel relevance-aware loss function to train a SRS with multiple future items to make it more robust to noise. Our relevance-aware models obtain an improvement of ~1.2% of NDCG@10 and 0.88% in the traditional evaluation protocol, while in the new evaluation protocol, the improvement is ~1.63% of NDCG@10 and ~1.5% of HR w.r.t the best performing models.",
+    "path": "papers/23/05/2305.10824.json",
+    "total_tokens": 795,
+    "translated_title": "融合项目相关性的序列推荐系统训练损失函数",
+    "translated_abstract": "序列推荐系统是一种受欢迎的推荐系统，它通过学习用户的历史数据来预测用户下一个可能与之交互的项目。然而，用户的交互可能会受到来自帐户共享、不一致的偏好或意外点击等噪声的影响。为了解决这个问题，我们（i）提出了一个考虑多个未来项目的新的评估协议，（ii）引入了一种新的关注相关性的损失函数，用于训练具有多个未来项目的序列推荐系统，以使其对噪声更加鲁棒。我们的关注相关性模型在传统评估协议中提高了NDCG@10约1.2%和HR约0.88%，而在新评估协议中，改进的NDCG@10约1.63%和HR约1.5%。",
+    "tldr": "本文提出了一种融合项目相关性的新型训练损失函数，用于提高序列推荐系统对噪声的鲁棒性和性能。",
+    "en_tdlr": "This paper proposes a novel training loss function integrating item relevance to enhance the robustness and performance of sequential recommender systems against noise."
+}

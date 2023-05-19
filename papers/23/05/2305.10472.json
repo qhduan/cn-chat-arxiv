@@ -1,0 +1,12 @@
+{
+    "title": "Nine tips for ecologists using machine learning. (arXiv:2305.10472v1 [q-bio.PE])",
+    "abstract": "Due to their high predictive performance and flexibility, machine learning models are an appropriate and efficient tool for ecologists. However, implementing a machine learning model is not yet a trivial task and may seem intimidating to ecologists with no previous experience in this area. Here we provide a series of tips to help ecologists in implementing machine learning models. We focus on classification problems as many ecological studies aim to assign data into predefined classes such as ecological states or biological entities. Each of the nine tips identifies a common error, trap or challenge in developing machine learning models and provides recommendations to facilitate their use in ecological studies.",
+    "link": "http://arxiv.org/abs/2305.10472",
+    "context": "Title: Nine tips for ecologists using machine learning. (arXiv:2305.10472v1 [q-bio.PE])\nAbstract: Due to their high predictive performance and flexibility, machine learning models are an appropriate and efficient tool for ecologists. However, implementing a machine learning model is not yet a trivial task and may seem intimidating to ecologists with no previous experience in this area. Here we provide a series of tips to help ecologists in implementing machine learning models. We focus on classification problems as many ecological studies aim to assign data into predefined classes such as ecological states or biological entities. Each of the nine tips identifies a common error, trap or challenge in developing machine learning models and provides recommendations to facilitate their use in ecological studies.",
+    "path": "papers/23/05/2305.10472.json",
+    "total_tokens": 764,
+    "translated_title": "生态学家使用机器学习的九个技巧",
+    "translated_abstract": "由于其高精度和灵活性，机器学习模型成为了生态学家合适且高效的工具。但是，实施机器学习模型并不是一项简单的任务，对于没有在这个领域有经验的生态学家来说可能会有些难以接受。在这里，我们提供了一系列技巧来帮助生态学家实施机器学习模型。我们专注于分类问题，因为许多生态学研究旨在将数据归入预定义的类别，例如生态状态或生物实体。这九个技巧中，每一个都提出了在开发机器学习模型方面的常见错误、陷阱或挑战，并提供了有助于生态学研究中使用机器学习的建议。",
+    "tldr": "本论文介绍了九个技巧来帮助生态学家实施机器学习模型，这些技巧针对分类问题，旨在识别开发机器学习模型中的常见错误、陷阱或挑战，并提供了解决方法。",
+    "en_tdlr": "This paper introduces nine tips to assist ecologists in implementing machine learning models, focusing on classification problems and identifying common errors, traps, and challenges in developing such models while providing recommendations for their use in ecological studies."
+}

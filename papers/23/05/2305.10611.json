@@ -1,0 +1,12 @@
+{
+    "title": "ACRoBat: Optimizing Auto-batching of Dynamic Deep Learning at Compile Time. (arXiv:2305.10611v1 [cs.LG])",
+    "abstract": "Dynamic control flow is an important technique often used to design expressive and efficient deep learning computations for applications such as text parsing, machine translation, exiting early out of deep models and so on. However, the resulting control flow divergence makes batching, an important performance optimization, difficult to perform manually. In this paper, we present ACRoBat, a framework that enables efficient automatic batching for dynamic deep learning computations by performing hybrid static+dynamic compiler optimizations and end-to-end tensor code generation. ACRoBat performs up to 8.5X better than DyNet, a state-of-the-art framework for automatic batching, on an Nvidia GeForce RTX 3070 GPU.",
+    "link": "http://arxiv.org/abs/2305.10611",
+    "context": "Title: ACRoBat: Optimizing Auto-batching of Dynamic Deep Learning at Compile Time. (arXiv:2305.10611v1 [cs.LG])\nAbstract: Dynamic control flow is an important technique often used to design expressive and efficient deep learning computations for applications such as text parsing, machine translation, exiting early out of deep models and so on. However, the resulting control flow divergence makes batching, an important performance optimization, difficult to perform manually. In this paper, we present ACRoBat, a framework that enables efficient automatic batching for dynamic deep learning computations by performing hybrid static+dynamic compiler optimizations and end-to-end tensor code generation. ACRoBat performs up to 8.5X better than DyNet, a state-of-the-art framework for automatic batching, on an Nvidia GeForce RTX 3070 GPU.",
+    "path": "papers/23/05/2305.10611.json",
+    "total_tokens": 769,
+    "translated_title": "ACRoBat：在编译时优化动态深度学习的自动批处理",
+    "translated_abstract": "动态控制流是一种重要的技术，常用于设计表达力强和高效的深度学习计算，例如文本解析、机器翻译、提前退出深度模型等。然而，由此产生的控制流分叉使得批处理难以手动执行，这是一种重要的性能优化。本文提出了 ACRoBat 框架，通过执行混合静态+动态编译器优化和端到端张量代码生成，实现了动态深度学习计算的高效自动批处理。在 NVIDIA GeForce RTX 3070 GPU 上，ACRoBat 的性能比现有的自动批处理框架 DyNet 提高了多达 8.5 倍。",
+    "tldr": "ACRoBat是一种动态深度学习的自动批处理框架，在编译时进行混合静态+动态编译器优化和端到端张量代码生成，可将性能提高多达8.5倍。",
+    "en_tdlr": "ACRoBat is an automatic batching framework for dynamic deep learning that performs hybrid static+dynamic compiler optimizations and end-to-end tensor code generation at compile time, achieving up to 8.5 times better performance than the state-of-the-art framework DyNet on an Nvidia GeForce RTX 3070 GPU."
+}

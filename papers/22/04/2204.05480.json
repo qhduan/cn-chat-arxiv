@@ -1,0 +1,12 @@
+{
+    "title": "Tuning Parameter-Free Nonparametric Density Estimation from Tabulated Summary Data. (arXiv:2204.05480v3 [econ.EM] UPDATED)",
+    "abstract": "Administrative data are often easier to access as tabulated summaries than in the original format due to confidentiality concerns. Motivated by this practical feature, we propose a novel nonparametric density estimation method from tabulated summary data based on maximum entropy and prove its strong uniform consistency. Unlike existing kernel-based estimators, our estimator is free from tuning parameters and admits a closed-form density that is convenient for post-estimation analysis. We apply the proposed method to the tabulated summary data of the U.S. tax returns to estimate the income distribution.",
+    "link": "http://arxiv.org/abs/2204.05480",
+    "context": "Title: Tuning Parameter-Free Nonparametric Density Estimation from Tabulated Summary Data. (arXiv:2204.05480v3 [econ.EM] UPDATED)\nAbstract: Administrative data are often easier to access as tabulated summaries than in the original format due to confidentiality concerns. Motivated by this practical feature, we propose a novel nonparametric density estimation method from tabulated summary data based on maximum entropy and prove its strong uniform consistency. Unlike existing kernel-based estimators, our estimator is free from tuning parameters and admits a closed-form density that is convenient for post-estimation analysis. We apply the proposed method to the tabulated summary data of the U.S. tax returns to estimate the income distribution.",
+    "path": "papers/22/04/2204.05480.json",
+    "total_tokens": 621,
+    "translated_title": "从表格汇总数据中调整无括号非参数密度估计算法",
+    "translated_abstract": "由于机密性问题，行政数据往往更容易以表格汇总的形式访问而不是以原始格式访问。本文提出了一种基于最大熵的新型从表格汇总数据中进行无参数密度估计的方法，并证明了其强一致性。与现有的基于核函数的估计器不同，我们的估计器不需要调整参数，可以得到一个方便进行后估计分析的闭合式密度。",
+    "tldr": "本文提出了一种无需调整参数的非参数密度估计方法，基于最大熵，并成功应用于美国税务数据的收入分布估计。",
+    "en_tdlr": "This paper proposes a parameter-free nonparametric density estimation method based on maximum entropy from tabulated summary data and successfully applies it to estimate the income distribution of US tax returns."
+}
