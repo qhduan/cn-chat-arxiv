@@ -1,0 +1,12 @@
+{
+    "title": "Information and Learning in Economic Theory. (arXiv:2212.07521v2 [econ.TH] UPDATED)",
+    "abstract": "These lecture notes accompany a one-semester graduate course on information and learning in economic theory. Topics include common knowledge, Bayesian updating, monotone-likelihood ratio properties, affiliation, the Blackwell order, cost of information, learning and merging of beliefs, model uncertainty, model misspecification, and information design.",
+    "link": "http://arxiv.org/abs/2212.07521",
+    "context": "Title: Information and Learning in Economic Theory. (arXiv:2212.07521v2 [econ.TH] UPDATED)\nAbstract: These lecture notes accompany a one-semester graduate course on information and learning in economic theory. Topics include common knowledge, Bayesian updating, monotone-likelihood ratio properties, affiliation, the Blackwell order, cost of information, learning and merging of beliefs, model uncertainty, model misspecification, and information design.",
+    "path": "papers/22/12/2212.07521.json",
+    "total_tokens": 549,
+    "translated_title": "经济学中的信息和学习理论",
+    "translated_abstract": "这篇论文陪伴一门关于经济学中信息和学习理论的研究生课程，主要内容包括共知、贝叶斯更新、单调似然比性质、隶属关系、布莱克韦尔排序、信息成本、信念的学习和合并、模型不确定性、模型错误和信息设计。",
+    "tldr": "这篇论文介绍了经济学中关于信息和学习的一些重要理论课题，包括如何进行贝叶斯更新、学习和合并信念、如何处理模型不确定性和错误等。",
+    "en_tdlr": "This paper introduces some important theoretical topics about information and learning in economics, including Bayesian updating, learning and merging of beliefs, model uncertainty and misspecification, etc."
+}

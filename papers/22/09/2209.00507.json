@@ -1,0 +1,12 @@
+{
+    "title": "Environmental Claim Detection. (arXiv:2209.00507v3 [cs.CL] UPDATED)",
+    "abstract": "To transition to a green economy, environmental claims made by companies must be reliable, comparable, and verifiable. To analyze such claims at scale, automated methods are needed to detect them in the first place. However, there exist no datasets or models for this. Thus, this paper introduces the task of environmental claim detection. To accompany the task, we release an expert-annotated dataset and models trained on this dataset. We preview one potential application of such models: We detect environmental claims made in quarterly earning calls and find that the number of environmental claims has steadily increased since the Paris Agreement in 2015.",
+    "link": "http://arxiv.org/abs/2209.00507",
+    "context": "Title: Environmental Claim Detection. (arXiv:2209.00507v3 [cs.CL] UPDATED)\nAbstract: To transition to a green economy, environmental claims made by companies must be reliable, comparable, and verifiable. To analyze such claims at scale, automated methods are needed to detect them in the first place. However, there exist no datasets or models for this. Thus, this paper introduces the task of environmental claim detection. To accompany the task, we release an expert-annotated dataset and models trained on this dataset. We preview one potential application of such models: We detect environmental claims made in quarterly earning calls and find that the number of environmental claims has steadily increased since the Paris Agreement in 2015.",
+    "path": "papers/22/09/2209.00507.json",
+    "total_tokens": 762,
+    "translated_title": "环境声明检测",
+    "translated_abstract": "要实现绿色经济，公司所作出的环境声明必须是可靠、可比较和可验证的。为了大规模分析这些声明，需要自动化的方法来首先检测它们。然而，目前还不存在此类数据集或模型。因此，本文介绍了环境声明检测任务。为了配合该任务，我们发布了一个由专家标注的数据集和在该数据集上训练的模型。我们预览了此类模型的一个潜在应用：我们检测季度电话会议中所作出的环境声明，并发现自2015年巴黎协议以来环境声明的数量逐渐增加。",
+    "tldr": "为了实现绿色经济，需要可靠、可比较和可验证的环境声明。该论文介绍了环境声明检测任务，并发布了一个专家标注的数据集和训练模型。通过这些模型，我们可以检测环境声明在季度电话会议中的使用情况并发现该使用情况自2015年以来有稳步增长的趋势。",
+    "en_tdlr": "To achieve a green economy, reliable, comparable, and verifiable environmental claims are necessary. This paper introduces the task of environmental claim detection, provides an expert-annotated dataset and trained models, and predicts an increase in environmental claims usage in quarterly earning calls since the Paris Agreement in 2015."
+}

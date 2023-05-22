@@ -1,0 +1,12 @@
+{
+    "title": "Assessing the predicting power of GPS data for aftershocks forecasting. (arXiv:2305.11183v1 [physics.geo-ph])",
+    "abstract": "We present a machine learning approach for the aftershock forecasting of Japanese earthquake catalogue from 2015 to 2019. Our method takes as sole input the ground surface deformation as measured by Global Positioning System (GPS) stations at the day of the mainshock, and processes it with a Convolutional Neural Network (CNN), thus capturing the input's spatial correlations. Despite the moderate amount of data the performance of this new approach is very promising. The accuracy of the prediction heavily relies on the density of GPS stations: the predictive power is lost when the mainshocks occur far from measurement stations, as in offshore regions.",
+    "link": "http://arxiv.org/abs/2305.11183",
+    "context": "Title: Assessing the predicting power of GPS data for aftershocks forecasting. (arXiv:2305.11183v1 [physics.geo-ph])\nAbstract: We present a machine learning approach for the aftershock forecasting of Japanese earthquake catalogue from 2015 to 2019. Our method takes as sole input the ground surface deformation as measured by Global Positioning System (GPS) stations at the day of the mainshock, and processes it with a Convolutional Neural Network (CNN), thus capturing the input's spatial correlations. Despite the moderate amount of data the performance of this new approach is very promising. The accuracy of the prediction heavily relies on the density of GPS stations: the predictive power is lost when the mainshocks occur far from measurement stations, as in offshore regions.",
+    "path": "papers/23/05/2305.11183.json",
+    "total_tokens": 693,
+    "translated_title": "利用GPS数据评估地震余震预测的准确性",
+    "translated_abstract": "我们提出了一种基于机器学习的方法，利用2015年至2019年日本地震目录中全球定位系统（GPS）站在主震发生当天测量到的地面形变作为唯一输入，并使用卷积神经网络（CNN）对其进行处理，从而捕捉输入的空间相关性，对地震余震进行预测。虽然数据量适中，但这种新方法的性能非常有前途。预测的准确性严重依赖于GPS站的密度：当主震发生在离测量站远的离岸地区时，预测能力就会丧失。",
+    "tldr": "这篇论文提出了一种基于GPS数据和机器学习的方法，可以对地震余震进行准确预测，但其预测能力依赖于GPS站的密度。",
+    "en_tdlr": "This paper proposes a machine learning approach using GPS data to accurately predict aftershocks, but the predictive power depends heavily on the density of GPS stations."
+}

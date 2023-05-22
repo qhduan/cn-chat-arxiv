@@ -1,0 +1,12 @@
+{
+    "title": "MIDI-Draw: Sketching to Control Melody Generation. (arXiv:2305.11605v1 [cs.SD])",
+    "abstract": "We describe a proof-of-principle implementation of a system for drawing melodies that abstracts away from a note-level input representation via melodic contours. The aim is to allow users to express their musical intentions without requiring prior knowledge of how notes fit together melodiously. Current approaches to controllable melody generation often require users to choose parameters that are static across a whole sequence, via buttons or sliders. In contrast, our method allows users to quickly specify how parameters should change over time by drawing a contour.",
+    "link": "http://arxiv.org/abs/2305.11605",
+    "context": "Title: MIDI-Draw: Sketching to Control Melody Generation. (arXiv:2305.11605v1 [cs.SD])\nAbstract: We describe a proof-of-principle implementation of a system for drawing melodies that abstracts away from a note-level input representation via melodic contours. The aim is to allow users to express their musical intentions without requiring prior knowledge of how notes fit together melodiously. Current approaches to controllable melody generation often require users to choose parameters that are static across a whole sequence, via buttons or sliders. In contrast, our method allows users to quickly specify how parameters should change over time by drawing a contour.",
+    "path": "papers/23/05/2305.11605.json",
+    "total_tokens": 623,
+    "translated_title": "MIDI-Draw: 用绘画控制旋律生成",
+    "translated_abstract": "我们描述了一个概念验证实现的系统，该系统通过旋律轮廓将音符级别的输入表示抽象化。其目的是允许用户表达他们的音乐意图，而无需事先知道音符如何和谐地结合在一起。目前，可控旋律生成的当前方法通常要求用户选择整个序列中静态的参数，通过按钮或滑块进行选择。相比之下，我们的方法允许用户通过绘制轮廓快速指定参数如何随时间变化。",
+    "tldr": "MIDI-Draw是一种可以通过画曲线来控制旋律生成的方法，相比于现有的方法，这种方法可以让用户更快速地表达他们的音乐意图。",
+    "en_tdlr": "MIDI-Draw is a method of controlling melody generation through drawing contours, allowing users to express their musical intentions more quickly and easily than current static parameter selection methods."
+}

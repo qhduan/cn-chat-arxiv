@@ -1,0 +1,12 @@
+{
+    "title": "What You Hear Is What You See: Audio Quality Metrics From Image Quality Metrics. (arXiv:2305.11582v1 [cs.SD])",
+    "abstract": "In this study, we investigate the feasibility of utilizing state-of-the-art image perceptual metrics for evaluating audio signals by representing them as spectrograms. The encouraging outcome of the proposed approach is based on the similarity between the neural mechanisms in the auditory and visual pathways. Furthermore, we customise one of the metrics which has a psychoacoustically plausible architecture to account for the peculiarities of sound signals. We evaluate the effectiveness of our proposed metric and several baseline metrics using a music dataset, with promising results in terms of the correlation between the metrics and the perceived quality of audio as rated by human evaluators.",
+    "link": "http://arxiv.org/abs/2305.11582",
+    "context": "Title: What You Hear Is What You See: Audio Quality Metrics From Image Quality Metrics. (arXiv:2305.11582v1 [cs.SD])\nAbstract: In this study, we investigate the feasibility of utilizing state-of-the-art image perceptual metrics for evaluating audio signals by representing them as spectrograms. The encouraging outcome of the proposed approach is based on the similarity between the neural mechanisms in the auditory and visual pathways. Furthermore, we customise one of the metrics which has a psychoacoustically plausible architecture to account for the peculiarities of sound signals. We evaluate the effectiveness of our proposed metric and several baseline metrics using a music dataset, with promising results in terms of the correlation between the metrics and the perceived quality of audio as rated by human evaluators.",
+    "path": "papers/23/05/2305.11582.json",
+    "total_tokens": 762,
+    "translated_title": "你听到的正是你看到的：从图像质量评价中获得的音频质量评价方法",
+    "translated_abstract": "本研究旨在探究利用最先进的图像感知度量方法，通过将音频信号表示成频谱图以评估音频信号的可行性。所提出的方法基于听觉和视觉通路中神经机制的相似性，取得了鼓舞人心的结果。此外，我们定制了一个具有心理声学合理结构的度量方法，以解决声音信号的特殊性。我们使用音乐数据集评估了我们提出的度量方法和几个基准度量方法的有效性，并取得了令人满意的结果，即度量方法与人类评估者所评估的音频质量之间的相关性。",
+    "tldr": "该研究探讨了利用图像感知度量方法来评估音频信号的可行性，并通过定制一个心理声学合理结构的度量方法来解决声音信号的特殊性，并在音乐数据集上展现出了令人满意的结果。",
+    "en_tdlr": "This study investigates the feasibility of using state-of-the-art image perceptual metrics to evaluate audio signals and achieves promising results in terms of correlation between the metrics and perceived audio quality, by customizing a psychoacoustically plausible metric to account for the peculiarities of sound signals."
+}

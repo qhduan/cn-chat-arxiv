@@ -1,0 +1,12 @@
+{
+    "title": "Moment Matching Denoising Gibbs Sampling. (arXiv:2305.11650v1 [stat.ML])",
+    "abstract": "Energy-Based Models (EBMs) offer a versatile framework for modeling complex data distributions. However, training and sampling from EBMs continue to pose significant challenges. The widely-used Denoising Score Matching (DSM) method for scalable EBM training suffers from inconsistency issues, causing the energy model to learn a `noisy' data distribution. In this work, we propose an efficient sampling framework: (pseudo)-Gibbs sampling with moment matching, which enables effective sampling from the underlying clean model when given a `noisy' model that has been well-trained via DSM. We explore the benefits of our approach compared to related methods and demonstrate how to scale the method to high-dimensional datasets.",
+    "link": "http://arxiv.org/abs/2305.11650",
+    "context": "Title: Moment Matching Denoising Gibbs Sampling. (arXiv:2305.11650v1 [stat.ML])\nAbstract: Energy-Based Models (EBMs) offer a versatile framework for modeling complex data distributions. However, training and sampling from EBMs continue to pose significant challenges. The widely-used Denoising Score Matching (DSM) method for scalable EBM training suffers from inconsistency issues, causing the energy model to learn a `noisy' data distribution. In this work, we propose an efficient sampling framework: (pseudo)-Gibbs sampling with moment matching, which enables effective sampling from the underlying clean model when given a `noisy' model that has been well-trained via DSM. We explore the benefits of our approach compared to related methods and demonstrate how to scale the method to high-dimensional datasets.",
+    "path": "papers/23/05/2305.11650.json",
+    "total_tokens": 766,
+    "translated_title": "动量匹配去噪Gibbs采样",
+    "translated_abstract": "能量基模型（EBMs）为建模复杂数据分布提供了一个通用的框架。然而，EBMs 的训练和采样仍然面临重大挑战。用于可扩展 EBM 训练的广泛使用的去噪分数匹配（DSM）方法存在不一致性问题，导致能量模型学习到“嘈杂”的数据分布。在本文中，我们提出了一种有效的采样框架：（伪）Gibbs采样与动量匹配，可以在给定经过DSM训练良好的“嘈杂”模型的情况下，从基础“干净”模型中有效地进行采样。我们探讨了我们的方法相对于相关方法的优势，并展示了如何将该方法扩展到高维数据集。",
+    "tldr": "本文提出了动量匹配去噪Gibbs采样方法，可以在给定‘嘈杂’的模型的情况下，从干净的模型中有效地进行采样。",
+    "en_tdlr": "The article proposes an efficient sampling framework, called Moment Matching Denoising Gibbs Sampling, which can effectively perform sampling from the underlying clean model, when given a 'noisy' model that has been well-trained via Denoising Score Matching."
+}

@@ -2,232 +2,157 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Preference or Intent? Double Disentangled Collaborative Filtering.](http://arxiv.org/abs/2305.11084) | 本文提出了一种双重解缠协同过滤（DDCF）方法，该方法能够对意图和偏好因素进行分离，并通过解缠表示建立独立的稀疏偏好表示，从而提供更准确和可解释性的个性化推荐。 |
-| [^2] | [Contrastive State Augmentations for Reinforcement Learning-Based Recommender Systems.](http://arxiv.org/abs/2305.11081) | 本论文提出了对比状态增强方法来训练基于强化学习的推荐系统，其中包括四种状态增强策略和对比状态表示学习，可以解决现有RL推荐方法的问题。实验结果表明该方法胜过其他最先进的RL推荐器。 |
-| [^3] | [BERM: Training the Balanced and Extractable Representation for Matching to Improve Generalization Ability of Dense Retrieval.](http://arxiv.org/abs/2305.11052) | BERM使用平衡的、可提取的特征表示法来捕捉匹配信号，从而提高了密集检索的泛化性能。 |
-| [^4] | [Improving Recommendation System Serendipity Through Lexicase Selection.](http://arxiv.org/abs/2305.11044) | 本文提出了一种新的机遇性度量方法来衡量推荐系统中回声室和同质化的存在，并采用词典案例选择来改善推荐技术的多样性，取得了在个性化、覆盖面和机遇性方面的优异表现。 |
-| [^5] | [Query Performance Prediction: From Ad-hoc to Conversational Search.](http://arxiv.org/abs/2305.10923) | 本文研究了针对从Ad-hoc到交互式搜索中查询性能预测(QPP)的有效方法，并探索了QPP方法在交互式搜索中是否具有推广应用的能力。 |
-| [^6] | [Adaptive Graph Contrastive Learning for Recommendation.](http://arxiv.org/abs/2305.10837) | 本文提出了一种自适应图对比学习的推荐框架，通过对比学习的方式改进用户和物品的表示，关注数据中的难以区分的负面例子的信息。 |
-| [^7] | [Integrating Item Relevance in Training Loss for Sequential Recommender Systems.](http://arxiv.org/abs/2305.10824) | 本文提出了一种融合项目相关性的新型训练损失函数，用于提高序列推荐系统对噪声的鲁棒性和性能。 |
-| [^8] | [When Search Meets Recommendation: Learning Disentangled Search Representation for Recommendation.](http://arxiv.org/abs/2305.10822) | 论文提出了一种基于搜索增强的顺序推荐（SESRec）框架，它利用用户的搜索兴趣进行推荐，通过区分S＆R行为中的相似和不相似表示，使S＆R特征能够更好地发挥其独特的优势。 |
-| [^9] | [ReGen: Zero-Shot Text Classification via Training Data Generation with Progressive Dense Retrieval.](http://arxiv.org/abs/2305.10703) | 本文提出了一种基于检索增强的框架，通过渐进式密集检索从通用领域的无标签语料库中创建训练数据，实现了零样本文本分类，相较于最强的基线模型提高了4.3%的性能，与使用大型NLG模型的基线相比节省了约70％的时间。 |
-| [^10] | [BioAug: Conditional Generation based Data Augmentation for Low-Resource Biomedical NER.](http://arxiv.org/abs/2305.10647) | 本文提出了一种基于条件生成的数据增强框架BioAug，用于低资源生物医学命名实体识别。BioAug建立在BART上，通过选择性的屏蔽和知识增强进行训练。实验展示了BioAug在5个基准BioNER数据集上的有效性，且表现优于所有基线。 |
-| [^11] | [Iteratively Learning Representations for Unseen Entities with Inter-Rule Correlations.](http://arxiv.org/abs/2305.10531) | 本文提出了一种虚拟邻居网络(VNC)，用于解决知识图谱完成中未知实体表示的问题。该方法通过规则挖掘、规则推理和嵌入三个阶段，实现对规则间相关性进行建模。 |
-| [^12] | [Large-Scale Text Analysis Using Generative Language Models: A Case Study in Discovering Public Value Expressions in AI Patents.](http://arxiv.org/abs/2305.10383) | 本文研究使用生成语言模型GPT-4进行大规模文本分析，在US AI专利中发现公共价值表达。采用高级布尔查询收集了154,934个专利文档，并与USPTO的完整专利文本合并。得出5.4百万句子的语料库，使用框架以及GPT-4提示进行标记和理性化。评估结果表明，这种方法很准确。 |
-| [^13] | [Unconfounded Propensity Estimation for Unbiased Ranking.](http://arxiv.org/abs/2305.09918) | 该论文提出了一种新的算法PropensityNet，用于在强日志记录策略下进行无偏学习排名（ULTR）的倾向性估计，优于现有的最先进ULTR算法。 |
-| [^14] | [Invariant Collaborative Filtering to Popularity Distribution Shift.](http://arxiv.org/abs/2302.05328) | 本文提出了不变的协同过滤(InvCF)学习框架，用于解决协同过滤模型易受流行度分布变化影响的问题，这一方法不需要先了解测试集的流行度分布，能够忠实地揭示用户的偏好和流行度语义。 |
-| [^15] | [AdaTask: A Task-aware Adaptive Learning Rate Approach to Multi-task Learning.](http://arxiv.org/abs/2211.15055) | 提出了一种名为AdaTask的任务感知自适应学习率方法，通过自适应地调整不同任务的学习率，以平衡不同任务的重要性，从而在各种基准测试上始终优于现有的MTL方法。 |
+| [^1] | [How Does Generative Retrieval Scale to Millions of Passages?.](http://arxiv.org/abs/2305.11841) | 本研究对不同语料规模下的生成式检索技术进行了实证研究，扩展到包含8.8M篇章的MS MARCO检索任务，并评估了高达11B个参数的模型大小，揭示出了在索引期间使用合成查询作为文档表示的重要性。 |
+| [^2] | [Visualization for Recommendation Explainability: A Survey and New Perspectives.](http://arxiv.org/abs/2305.11755) | 本文回顾了推荐系统中有关可视化解释的研究，提出了一组可能有益于设计解释性可视化推荐系统的指南。 |
+| [^3] | [Inference-time Re-ranker Relevance Feedback for Neural Information Retrieval.](http://arxiv.org/abs/2305.11744) | 本文提出了一种利用重排器提供推理时间反馈来改进检索的方法，可以显著提高低召回率@ K下的检索性能。 |
+| [^4] | [Exploring the Upper Limits of Text-Based Collaborative Filtering Using Large Language Models: Discoveries and Insights.](http://arxiv.org/abs/2305.11700) | 本论文探究了在基于文本的协同过滤中使用大型语言模型所能带来的性能提升，并揭示了TCF程序扩展的极限。研究人员比较了使用不同大小的语言模型在基于文本的协同过滤算法中的性能表现。 |
+| [^5] | [The Barriers to Online Clothing Websites for Visually Impaired People: An Interview and Observation Approach to Understanding Needs.](http://arxiv.org/abs/2305.11559) | 本研究揭示了视障人士网购服装时存在的问题和需求，需要开发提高可访问性、用户友好的服装网站。 |
+| [^6] | [InstructIE: A Chinese Instruction-based Information Extraction Dataset.](http://arxiv.org/abs/2305.11527) | 介绍了一份中文的基于指令的信息提取数据集InstructIE，其中包括了270,000个弱监督的数据和1,000个高质量注释实例。实验结果表明当前的模型表现有待改进，该任务仍存在挑战。 |
+| [^7] | [Recouple Event Field via Probabilistic Bias for Event Extraction.](http://arxiv.org/abs/2305.11498) | 提出了一种基于概率偏置的重新耦合事件场模型（ProCE），用于增强事件提取框架，以澄清来自模糊纠缠的事件字段，并重新耦合相应的澄清分布以捕获更多潜在信息字段。实验表明该方法有效且具有泛化性。 |
+| [^8] | [TELeR: A General Taxonomy of LLM Prompts for Benchmarking Complex Tasks.](http://arxiv.org/abs/2305.11430) | 本文提出了一个通用分类法，可以用来设计具有特定属性的提示来执行各种复杂任务，从而解决了LLM在执行复杂任务方面的性能变异巨大的问题。 |
+| [^9] | [Online Learning in a Creator Economy.](http://arxiv.org/abs/2305.11381) | 本文探讨了如何应用在线学习的方法优化创作者经济学中的平台收益，分析和比较了基于回报的和基于特征的两种合同类型。 |
+| [^10] | [One Model for All Domains: Collaborative Domain-Prefix Tuning for Cross-Domain NER.](http://arxiv.org/abs/2301.10410) | 本论文提出了基于协作域前缀调整的跨领域实体识别，使用文本到文本生成的支撑领域相关指导来将知识转移至新域NER任务，避免了先前的为每个领域结束一个全新的NER模型的问题。 |
 
 # 详细
 
-[^1]: 偏好还是意图？双重解缠协同过滤
+[^1]: 生成式检索如何扩展到数百万篇文章？
 
-    Preference or Intent? Double Disentangled Collaborative Filtering. (arXiv:2305.11084v1 [cs.IR])
+    How Does Generative Retrieval Scale to Millions of Passages?. (arXiv:2305.11841v1 [cs.IR])
 
-    [http://arxiv.org/abs/2305.11084](http://arxiv.org/abs/2305.11084)
+    [http://arxiv.org/abs/2305.11841](http://arxiv.org/abs/2305.11841)
 
-    本文提出了一种双重解缠协同过滤（DDCF）方法，该方法能够对意图和偏好因素进行分离，并通过解缠表示建立独立的稀疏偏好表示，从而提供更准确和可解释性的个性化推荐。
-
-    
-
-    人们选择物品时通常有不同的意图，而在相同意图下他们的偏好也可能不同。传统的协同过滤方法通常将意图和偏好因素纠缠在建模过程中，这显著限制了推荐性能的稳健性和可解释性。为了解决这一问题，本文提出了一种名为双重解缠协同过滤（DDCF）的个性化推荐方法。一级解缠是为了将意图和偏好的影响因素分开，而第二级解缠是为了构建独立的稀疏偏好表示。实验结果表明，DDCF方法在推荐精度和可解释性方面均优于现有方法。
-
-    People usually have different intents for choosing items, while their preferences under the same intent may also different. In traditional collaborative filtering approaches, both intent and preference factors are usually entangled in the modeling process, which significantly limits the robustness and interpretability of recommendation performances. For example, the low-rating items are always treated as negative feedback while they actually could provide positive information about user intent. To this end, in this paper, we propose a two-fold representation learning approach, namely Double Disentangled Collaborative Filtering (DDCF), for personalized recommendations. The first-level disentanglement is for separating the influence factors of intent and preference, while the second-level disentanglement is performed to build independent sparse preference representations under individual intent with limited computational complexity. Specifically, we employ two variational autoencoder net
-    
-[^2]: 基于强化学习的推荐系统的对比状态增强
-
-    Contrastive State Augmentations for Reinforcement Learning-Based Recommender Systems. (arXiv:2305.11081v1 [cs.IR])
-
-    [http://arxiv.org/abs/2305.11081](http://arxiv.org/abs/2305.11081)
-
-    本论文提出了对比状态增强方法来训练基于强化学习的推荐系统，其中包括四种状态增强策略和对比状态表示学习，可以解决现有RL推荐方法的问题。实验结果表明该方法胜过其他最先进的RL推荐器。
+    本研究对不同语料规模下的生成式检索技术进行了实证研究，扩展到包含8.8M篇章的MS MARCO检索任务，并评估了高达11B个参数的模型大小，揭示出了在索引期间使用合成查询作为文档表示的重要性。
 
     
 
-    从历史用户-项目交互序列中学习基于强化学习（RL）的推荐器对于生成高回报建议和改善长期累积效益至关重要。然而，现有的RL推荐方法遇到以下困难：（i）为不包含在离线训练数据中的状态估计价值函数；以及（ii）由于缺乏对比信号，从用户隐式反馈中学习有效的状态表示。在这项工作中，我们提出了对比状态增强（CSA）来训练基于RL的推荐系统。为了解决第一个问题，我们提出了四种状态增强策略来扩大离线数据的状态空间。所提出的方法通过使RL代理访问本地状态区域并确保原始和增强状态之间学习的价值函数相似，提高了推荐器的泛化能力。为了解决第二个问题，我们提出了引入对比状态表示学习，通过最大化正样本相似性和最小化负样本相似性，使代理人学习到信息丰富的状态表示。实验结果表明，我们提出的方法在两个基准数据集上优于几种最先进的RL推荐器。
+    由可微搜索索引(Differentiable Search Index)推广而来的生成式检索的新兴范式,将经典的信息检索问题重新构造为序列到序列的建模任务，放弃了外部索引，并将整个文档语料库编码在单个Transformer中。虽然已经提出了许多不同的方法来提高生成式检索的有效性，但它们仅在约100k的文档语料库上进行了评估。我们进行了第一次根据不同的语料规模进行生成式检索技术的实证研究，最终扩展到整个8.8M篇章的MS MARCO检索任务，并评估了高达11B个参数的模型大小。我们揭示了关于将生成式检索扩展到数百万篇文章的几个发现，特别是索引期间使用合成查询作为文档表示的核心重要性，以及考虑并非现有的建议架构修改时的无效性。
 
-    Learning reinforcement learning (RL)-based recommenders from historical user-item interaction sequences is vital to generate high-reward recommendations and improve long-term cumulative benefits. However, existing RL recommendation methods encounter difficulties (i) to estimate the value functions for states which are not contained in the offline training data, and (ii) to learn effective state representations from user implicit feedback due to the lack of contrastive signals. In this work, we propose contrastive state augmentations (CSA) for the training of RL-based recommender systems. To tackle the first issue, we propose four state augmentation strategies to enlarge the state space of the offline data. The proposed method improves the generalization capability of the recommender by making the RL agent visit the local state regions and ensuring the learned value functions are similar between the original and augmented states. For the second issue, we propose introducing contrastive 
+    Popularized by the Differentiable Search Index, the emerging paradigm of generative retrieval re-frames the classic information retrieval problem into a sequence-to-sequence modeling task, forgoing external indices and encoding an entire document corpus within a single Transformer. Although many different approaches have been proposed to improve the effectiveness of generative retrieval, they have only been evaluated on document corpora on the order of 100k in size. We conduct the first empirical study of generative retrieval techniques across various corpus scales, ultimately scaling up to the entire MS MARCO passage ranking task with a corpus of 8.8M passages and evaluating model sizes up to 11B parameters. We uncover several findings about scaling generative retrieval to millions of passages; notably, the central importance of using synthetic queries as document representations during indexing, the ineffectiveness of existing proposed architecture modifications when accounting for c
     
-[^3]: BERM：训练平衡可提取表示以提高密集检索的泛化能力
+[^2]: 推荐系统解释的可视化：综述和新视角
 
-    BERM: Training the Balanced and Extractable Representation for Matching to Improve Generalization Ability of Dense Retrieval. (arXiv:2305.11052v1 [cs.IR])
+    Visualization for Recommendation Explainability: A Survey and New Perspectives. (arXiv:2305.11755v1 [cs.IR])
 
-    [http://arxiv.org/abs/2305.11052](http://arxiv.org/abs/2305.11052)
+    [http://arxiv.org/abs/2305.11755](http://arxiv.org/abs/2305.11755)
 
-    BERM使用平衡的、可提取的特征表示法来捕捉匹配信号，从而提高了密集检索的泛化性能。
-
-    
-
-    密集检索已经表现出在域内标记数据集上训练的情况下在第一阶段检索过程中有所作为。然而，以前的研究发现，由于密集检索对域不变和可解释的特征的建模较弱（即两个文本之间的匹配信号，这是信息检索的本质），因此难以推广到未见过的领域。在本文中，我们通过捕捉匹配信号提出了一种提高密集检索泛化性能的新方法，称为BERM。全面的细粒度表达和查询导向的显着性是匹配信号的两个属性。因此，在BERM中，一个单一的Passage被划分为多个单元，提出了两个单元级要求作为约束进行表示以获得有效的匹配信号。一个是语义单元平衡，另一个是必需的匹配单元可提取性。单元级视图和平衡语义使表示以细粒度的方式表达文本。必需的匹配单元可提取性确保保留信息检索的本质。在各种数据集上的实验表明，BERM在保持域内数据集上有竞争力的性能的同时，提高了算法的泛化能力。
-
-    Dense retrieval has shown promise in the first-stage retrieval process when trained on in-domain labeled datasets. However, previous studies have found that dense retrieval is hard to generalize to unseen domains due to its weak modeling of domain-invariant and interpretable feature (i.e., matching signal between two texts, which is the essence of information retrieval). In this paper, we propose a novel method to improve the generalization of dense retrieval via capturing matching signal called BERM. Fully fine-grained expression and query-oriented saliency are two properties of the matching signal. Thus, in BERM, a single passage is segmented into multiple units and two unit-level requirements are proposed for representation as the constraint in training to obtain the effective matching signal. One is semantic unit balance and the other is essential matching unit extractability. Unit-level view and balanced semantics make representation express the text in a fine-grained manner. Esse
-    
-[^4]: 通过词典案例选择提高推荐系统的机遇性
-
-    Improving Recommendation System Serendipity Through Lexicase Selection. (arXiv:2305.11044v1 [cs.IR])
-
-    [http://arxiv.org/abs/2305.11044](http://arxiv.org/abs/2305.11044)
-
-    本文提出了一种新的机遇性度量方法来衡量推荐系统中回声室和同质化的存在，并采用词典案例选择来改善推荐技术的多样性，取得了在个性化、覆盖面和机遇性方面的优异表现。
+    本文回顾了推荐系统中有关可视化解释的研究，提出了一组可能有益于设计解释性可视化推荐系统的指南。
 
     
 
-    推荐系统影响着我们数字生活的方方面面。不幸的是，在努力满足我们需求的过程中，它们限制了我们的开放度。当前的推荐系统促进了回声室和同质化，使用户只看到他们想要看到的信息和与其背景相似的内容。我们提出了一种新的机遇性度量方法，使用聚类分析来衡量推荐系统中回声室和同质化的存在。然后，我们尝试采用从演化计算文献中知名的家长选择算法，即词典案例选择，来改善保留多样性的推荐技术质量。我们的结果表明，词典案例选择或词典案例选择和排名的混合在个性化、覆盖面和我们专门设计的机遇性基准方面优于仅排名的对手，而在准确性（命中率）方面仅稍有不足。
+    为推荐提供系统生成的解释是实现透明且值得信赖的推荐系统的重要步骤。可解释的推荐系统为输出提供了人类可理解的基础。在过去的20年中，可解释的推荐引起了推荐系统研究社区的广泛关注。本文旨在全面回顾推荐系统中有关可视化解释的研究工作。更具体地，我们根据解释目标、解释范围、解释样式和解释格式这四个维度系统地审查推荐系统中有关解释的文献。认识到可视化的重要性，我们从解释性视觉方式的角度途径推荐系统文献，即使用可视化作为解释的显示样式。因此，我们得出了一组可能有益于设计解释性可视化推荐系统的指南。
 
-    Recommender systems influence almost every aspect of our digital lives. Unfortunately, in striving to give us what we want, they end up restricting our open-mindedness. Current recommender systems promote echo chambers, where people only see the information they want to see, and homophily, where users of similar background see similar content. We propose a new serendipity metric to measure the presence of echo chambers and homophily in recommendation systems using cluster analysis. We then attempt to improve the diversity-preservation qualities of well known recommendation techniques by adopting a parent selection algorithm from the evolutionary computation literature known as lexicase selection. Our results show that lexicase selection, or a mixture of lexicase selection and ranking, outperforms its purely ranked counterparts in terms of personalization, coverage and our specifically designed serendipity benchmark, while only slightly under-performing in terms of accuracy (hit rate). 
+    Providing system-generated explanations for recommendations represents an important step towards transparent and trustworthy recommender systems. Explainable recommender systems provide a human-understandable rationale for their outputs. Over the last two decades, explainable recommendation has attracted much attention in the recommender systems research community. This paper aims to provide a comprehensive review of research efforts on visual explanation in recommender systems. More concretely, we systematically review the literature on explanations in recommender systems based on four dimensions, namely explanation goal, explanation scope, explanation style, and explanation format. Recognizing the importance of visualization, we approach the recommender system literature from the angle of explanatory visualizations, that is using visualizations as a display style of explanation. As a result, we derive a set of guidelines that might be constructive for designing explanatory visualizat
     
-[^5]: 查询性能预测：从Ad-hoc到交互式搜索
+[^3]: 面向神经信息检索的推理时间重排反馈
 
-    Query Performance Prediction: From Ad-hoc to Conversational Search. (arXiv:2305.10923v1 [cs.IR])
+    Inference-time Re-ranker Relevance Feedback for Neural Information Retrieval. (arXiv:2305.11744v1 [cs.IR])
 
-    [http://arxiv.org/abs/2305.10923](http://arxiv.org/abs/2305.10923)
+    [http://arxiv.org/abs/2305.11744](http://arxiv.org/abs/2305.11744)
 
-    本文研究了针对从Ad-hoc到交互式搜索中查询性能预测(QPP)的有效方法，并探索了QPP方法在交互式搜索中是否具有推广应用的能力。
-
-    
-
-    查询性能预测(QPP)是信息检索中的一个核心任务。QPP的任务是在没有相关判断的情况下预测查询的检索质量。研究表明，QPP在Ad-hoc搜索中非常有效和有用。近年来，对话式搜索(CS)取得了相当大的进展 。有效的QPP能够帮助CS系统在下一轮决定适当的行动。尽管具有潜力，但CS的QPP研究还很少。本文通过重现和研究现有的QPP方法在CS上的有效性来填补这一研究空白。虽然在两种情况下的通道检索任务相同，但CS中的用户查询取决于对话历史，引入了新的QPP挑战。我们尤其是探讨从Ad-hoc搜索中QPP方法的研究结果在三个CS设置中的推广程度:(i) 评估基于查询重写的检索方法的不同查询的检索质量
-
-    Query performance prediction (QPP) is a core task in information retrieval. The QPP task is to predict the retrieval quality of a search system for a query without relevance judgments. Research has shown the effectiveness and usefulness of QPP for ad-hoc search. Recent years have witnessed considerable progress in conversational search (CS). Effective QPP could help a CS system to decide an appropriate action to be taken at the next turn. Despite its potential, QPP for CS has been little studied. We address this research gap by reproducing and studying the effectiveness of existing QPP methods in the context of CS. While the task of passage retrieval remains the same in the two settings, a user query in CS depends on the conversational history, introducing novel QPP challenges. In particular, we seek to explore to what extent findings from QPP methods for ad-hoc search generalize to three CS settings: (i) estimating the retrieval quality of different query rewriting-based retrieval met
-    
-[^6]: 自适应图对比学习用于推荐系统
-
-    Adaptive Graph Contrastive Learning for Recommendation. (arXiv:2305.10837v1 [cs.IR])
-
-    [http://arxiv.org/abs/2305.10837](http://arxiv.org/abs/2305.10837)
-
-    本文提出了一种自适应图对比学习的推荐框架，通过对比学习的方式改进用户和物品的表示，关注数据中的难以区分的负面例子的信息。
+    本文提出了一种利用重排器提供推理时间反馈来改进检索的方法，可以显著提高低召回率@ K下的检索性能。
 
     
 
-    近年来，图神经网络已成功地应用于推荐系统，成为一种有效的协同过滤方法。基于图神经网络的推荐系统的关键思想是沿着用户-物品交互边递归地执行消息传递，以完善编码嵌入，这依赖于充足和高质量的训练数据。由于实际推荐场景中的用户行为数据通常存在噪声并呈现出倾斜分布，一些推荐方法利用自监督学习来改善用户表示，例如SGL和SimGCL。 然而，尽管它们非常有效，但它们通过创建对比视图进行自监督学习，具有数据增强探索，需要进行繁琐的试错选择增强方法。本文提出了一种新的自适应图对比学习（AdaptiveGCL）框架，通过自适应但关注数据中的难以区分的负面例子的信息，用对比学习的方式改进用户和物品的表示。
+    神经信息检索通常采用检索和重排框架：先使用双编码器网络检索K（例如100）个候选项，然后再使用更强大的交叉编码器模型对这些候选项进行重新排序，以使更好的候选项排名更高。重排器通常产生比检索器更好的候选分数，但仅限于查看前K个检索到的候选项，因此无法提高检索性能（以Recall @ K为度量）。在本文中，我们利用重排器通过提供推理时间相关反馈来改进检索。具体而言，我们利用重排器的预测对测试实例的重要信息进行了检索器查询表示的更新。我们的方法可以通过轻量级的推理时间蒸馏来实现，目的是使检索器的候选分数更接近于重排器的分数。然后使用更新后的查询向量执行第二个检索步骤。通过实验证明，我们的方法可以显著提高检索性能，特别是在低召回率@ K下。
 
-    Recently, graph neural networks (GNNs) have been successfully applied to recommender systems as an effective collaborative filtering (CF) approach. The key idea of GNN-based recommender system is to recursively perform the message passing along the user-item interaction edge for refining the encoded embeddings, relying on sufficient and high-quality training data. Since user behavior data in practical recommendation scenarios is often noisy and exhibits skewed distribution, some recommendation approaches, e.g., SGL and SimGCL, leverage self-supervised learning to improve user representations against the above issues. Despite their effectiveness, however, they conduct self-supervised learning through creating contrastvie views, depending on the exploration of data augmentations with the problem of tedious trial-and-error selection of augmentation methods. In this paper, we propose a novel Adaptive Graph Contrastive Learning (AdaptiveGCL) framework which conducts graph contrastive learni
+    Neural information retrieval often adopts a retrieve-and-rerank framework: a bi-encoder network first retrieves K (e.g., 100) candidates that are then re-ranked using a more powerful cross-encoder model to rank the better candidates higher. The re-ranker generally produces better candidate scores than the retriever, but is limited to seeing only the top K retrieved candidates, thus providing no improvements in retrieval performance as measured by Recall@K. In this work, we leverage the re-ranker to also improve retrieval by providing inference-time relevance feedback to the retriever. Concretely, we update the retriever's query representation for a test instance using a lightweight inference-time distillation of the re-ranker's prediction for that instance. The distillation loss is designed to bring the retriever's candidate scores closer to those of the re-ranker. A second retrieval step is then performed with the updated query vector. We empirically show that our approach, which can 
     
-[^7]: 融合项目相关性的序列推荐系统训练损失函数
+[^4]: 探究利用大型语言模型探索基于文本的协同过滤的极限：发现和认识
 
-    Integrating Item Relevance in Training Loss for Sequential Recommender Systems. (arXiv:2305.10824v1 [cs.IR])
+    Exploring the Upper Limits of Text-Based Collaborative Filtering Using Large Language Models: Discoveries and Insights. (arXiv:2305.11700v1 [cs.IR])
 
-    [http://arxiv.org/abs/2305.10824](http://arxiv.org/abs/2305.10824)
+    [http://arxiv.org/abs/2305.11700](http://arxiv.org/abs/2305.11700)
 
-    本文提出了一种融合项目相关性的新型训练损失函数，用于提高序列推荐系统对噪声的鲁棒性和性能。
-
-    
-
-    序列推荐系统是一种受欢迎的推荐系统，它通过学习用户的历史数据来预测用户下一个可能与之交互的项目。然而，用户的交互可能会受到来自帐户共享、不一致的偏好或意外点击等噪声的影响。为了解决这个问题，我们（i）提出了一个考虑多个未来项目的新的评估协议，（ii）引入了一种新的关注相关性的损失函数，用于训练具有多个未来项目的序列推荐系统，以使其对噪声更加鲁棒。我们的关注相关性模型在传统评估协议中提高了NDCG@10约1.2%和HR约0.88%，而在新评估协议中，改进的NDCG@10约1.63%和HR约1.5%。
-
-    Sequential Recommender Systems (SRSs) are a popular type of recommender system that learns from a user's history to predict the next item they are likely to interact with. However, user interactions can be affected by noise stemming from account sharing, inconsistent preferences, or accidental clicks. To address this issue, we (i) propose a new evaluation protocol that takes multiple future items into account and (ii) introduce a novel relevance-aware loss function to train a SRS with multiple future items to make it more robust to noise. Our relevance-aware models obtain an improvement of ~1.2% of NDCG@10 and 0.88% in the traditional evaluation protocol, while in the new evaluation protocol, the improvement is ~1.63% of NDCG@10 and ~1.5% of HR w.r.t the best performing models.
-    
-[^8]: 当搜索遇见推荐：学习区分搜索表示以用于推荐
-
-    When Search Meets Recommendation: Learning Disentangled Search Representation for Recommendation. (arXiv:2305.10822v1 [cs.IR])
-
-    [http://arxiv.org/abs/2305.10822](http://arxiv.org/abs/2305.10822)
-
-    论文提出了一种基于搜索增强的顺序推荐（SESRec）框架，它利用用户的搜索兴趣进行推荐，通过区分S＆R行为中的相似和不相似表示，使S＆R特征能够更好地发挥其独特的优势。
+    本论文探究了在基于文本的协同过滤中使用大型语言模型所能带来的性能提升，并揭示了TCF程序扩展的极限。研究人员比较了使用不同大小的语言模型在基于文本的协同过滤算法中的性能表现。
 
     
 
-    现代在线服务提供商，如在线购物平台通常提供搜索和推荐（S＆R）服务以满足不同的用户需求。很少有任何有效的手段将来自S＆R服务的用户行为数据结合起来。大多数现有的方法要么仅将S＆R行为单独处理，要么通过聚合两个服务的数据来联合优化它们，忽略了S＆R中用户意图可以有截然不同的事实。在我们的论文中，我们提出了一种基于搜索增强的顺序推荐（SESRec）框架，通过区分S＆R行为中的相似和不相似表示，利用用户的搜索兴趣进行推荐。具体而言，SESRec首先根据用户的查询-项目交互来对齐查询和项目嵌入以计算它们的相似性。然后，使用两个转换器编码器来独立地学习S＆R行为的上下文表示。最后，设计了对比学习任务以学习搜素特征表示和推荐特征表示的相似度距离，使得S＆R特征能够更好地发挥其独特的优势。
+    基于文本的协同过滤成为现今文本和新闻推荐的主流方法，利用文本编码器或语言模型(LMs)表示物品。然而，现有的文本协同过滤模型主要集中在使用中小型的LMs上，如果将物品编码器替换为最大最强大的1750亿参数的GPT-3模型，将会对推荐性能产生什么影响尚不确定。作者开展了一系列实验，探索TCF程序的性能极限。具体来说，作者将物品编码器规模从一亿扩大到一百亿以揭示TCF程序的扩展极限，同时还探究了使用超大LMs是否能实现推荐任务的通用物品表示方法。此外，作者比较了使用最强大的LMs和中等LMs实现的基于文本协同过滤的性能差异。
 
-    Modern online service providers such as online shopping platforms often provide both search and recommendation (S&R) services to meet different user needs. Rarely has there been any effective means of incorporating user behavior data from both S&R services. Most existing approaches either simply treat S&R behaviors separately, or jointly optimize them by aggregating data from both services, ignoring the fact that user intents in S&R can be distinctively different. In our paper, we propose a Search-Enhanced framework for the Sequential Recommendation (SESRec) that leverages users' search interests for recommendation, by disentangling similar and dissimilar representations within S&R behaviors. Specifically, SESRec first aligns query and item embeddings based on users' query-item interactions for the computations of their similarities. Two transformer encoders are used to learn the contextual representations of S&R behaviors independently. Then a contrastive learning task is designed to 
+    Text-based collaborative filtering (TCF) has become the mainstream approach for text and news recommendation, utilizing text encoders, also known as language models (LMs), to represent items. However, existing TCF models primarily focus on using small or medium-sized LMs. It remains uncertain what impact replacing the item encoder with one of the largest and most powerful LMs, such as the 175-billion parameter GPT-3 model, would have on recommendation performance. Can we expect unprecedented results? To this end, we conduct an extensive series of experiments aimed at exploring the performance limits of the TCF paradigm. Specifically, we increase the size of item encoders from one hundred million to one hundred billion to reveal the scaling limits of the TCF paradigm. We then examine whether these extremely large LMs could enable a universal item representation for the recommendation task. Furthermore, we compare the performance of the TCF paradigm utilizing the most powerful LMs to the
     
-[^9]: ReGen: 通过渐进式密集检索生成训练数据的零样本文本分类方法
+[^5]: 视障人士网购服装的障碍：理解需求的访谈和观察方法
 
-    ReGen: Zero-Shot Text Classification via Training Data Generation with Progressive Dense Retrieval. (arXiv:2305.10703v1 [cs.CL])
+    The Barriers to Online Clothing Websites for Visually Impaired People: An Interview and Observation Approach to Understanding Needs. (arXiv:2305.11559v1 [cs.HC])
 
-    [http://arxiv.org/abs/2305.10703](http://arxiv.org/abs/2305.10703)
+    [http://arxiv.org/abs/2305.11559](http://arxiv.org/abs/2305.11559)
 
-    本文提出了一种基于检索增强的框架，通过渐进式密集检索从通用领域的无标签语料库中创建训练数据，实现了零样本文本分类，相较于最强的基线模型提高了4.3%的性能，与使用大型NLG模型的基线相比节省了约70％的时间。
-
-    
-
-    随着大型语言模型（LLM）的发展，零样本学习在各种NLP任务中受到了许多关注。与以往使用数十亿级自然语言生成模型生成训练数据的方法不同，我们提出了一种检索增强的框架，从通用领域的无标签语料库中创建训练数据。为实现这一目标，我们首先进行对比预训练，使用类别描述性话语学习了一个无监督的密集检索器以提取最相关的文档。我们进一步提出了两种简单的策略，即展示增强的话语生成和自一致性引导过滤，以提高数据集的主题覆盖率，同时删除噪声样本。对九个数据集的实验表明，REGEN相较于最强的基线模型提高了4.3%的性能，并且与使用大型NLG模型的基线相比节省了约70％的时间。此外，REGEN可以自然地与最近提出的大型语言模型相结合。
-
-    With the development of large language models (LLMs), zero-shot learning has attracted much attention for various NLP tasks. Different from prior works that generate training data with billion-scale natural language generation (NLG) models, we propose a retrieval-enhanced framework to create training data from a general-domain unlabeled corpus. To realize this, we first conduct contrastive pretraining to learn an unsupervised dense retriever for extracting the most relevant documents using class-descriptive verbalizers. We then further propose two simple strategies, namely Verbalizer Augmentation with Demonstrations and Self-consistency Guided Filtering to improve the topic coverage of the dataset while removing noisy examples. Experiments on nine datasets demonstrate that REGEN achieves 4.3% gain over the strongest baselines and saves around 70% of the time compared to baselines using large NLG models. Besides, REGEN can be naturally integrated with recently proposed large language mo
-    
-[^10]: BioAug：基于条件生成的数据增强方法用于低资源生物医学命名实体识别
-
-    BioAug: Conditional Generation based Data Augmentation for Low-Resource Biomedical NER. (arXiv:2305.10647v1 [cs.CL])
-
-    [http://arxiv.org/abs/2305.10647](http://arxiv.org/abs/2305.10647)
-
-    本文提出了一种基于条件生成的数据增强框架BioAug，用于低资源生物医学命名实体识别。BioAug建立在BART上，通过选择性的屏蔽和知识增强进行训练。实验展示了BioAug在5个基准BioNER数据集上的有效性，且表现优于所有基线。
+    本研究揭示了视障人士网购服装时存在的问题和需求，需要开发提高可访问性、用户友好的服装网站。
 
     
 
-    生物医学命名实体识别(BioNER)是从生物医学文本中识别命名实体的基本任务。由于注释需要高度专业化和专业知识，BioNER 遭受着严重的数据稀缺和缺乏高质量标记数据的困扰。尽管数据增强在低资源命名实体识别方面已经被证明是高效的，但现有的数据增强技术不能为BioNER生成真实且多样化的增强。本文提出了一种新的数据增强框架BioAug，用于低资源BioNER。BioAug建立在BART上，通过选择性的屏蔽和知识增强进行训练，从而解决了一种新的文本重构任务。在训练后，我们进行有条件的生成并在与训练阶段类似的有选择性地损坏文本的条件下生成多样化的增强。我们在5个基准BioNER数据集上展示了BioAug的有效性，并表明BioAug比所有基线都表现更好。
+    视障人士在日常生活中面临许多挑战，其中购物是最具挑战性的。许多人选择在线购物，但网购服装也存在许多限制和障碍。本文通过观察和访谈两种方法进行了研究，以填补了解视障人士在网上选购服装时的行为的空白。研究结果显示，购物网站的服装描述存在不准确、误导和矛盾的情况；视障人士主要依靠（不可靠的）搜索工具，并通过查看客户评论来检查产品描述；此外，视障人士对网购时接受他人帮助持谨慎态度，担心侵犯隐私、丧失独立性和信任问题。因此，我们需要开发可访问、用户友好的服装网站，以解决视障人士所面临的特定挑战。
 
-    Biomedical Named Entity Recognition (BioNER) is the fundamental task of identifying named entities from biomedical text. However, BioNER suffers from severe data scarcity and lacks high-quality labeled data due to the highly specialized and expert knowledge required for annotation. Though data augmentation has shown to be highly effective for low-resource NER in general, existing data augmentation techniques fail to produce factual and diverse augmentations for BioNER. In this paper, we present BioAug, a novel data augmentation framework for low-resource BioNER. BioAug, built on BART, is trained to solve a novel text reconstruction task based on selective masking and knowledge augmentation. Post training, we perform conditional generation and generate diverse augmentations conditioning BioAug on selectively corrupted text similar to the training stage. We demonstrate the effectiveness of BioAug on 5 benchmark BioNER datasets and show that BioAug outperforms all our baselines by a signi
+    Visually impaired (VI) people often face challenges when performing everyday tasks and identify shopping for clothes as one of the most challenging. Many engage in online shopping, which eliminates some challenges of physical shopping. However, clothes shopping online suffers from many other limitations and barriers. More research is needed to address these challenges, and extant works often base their findings on interviews alone, providing only subjective, recall-biased information. We conducted two complementary studies using both observational and interview approaches to fill a gap in understanding about VI people's behaviour when selecting and purchasing clothes online. Our findings show that shopping websites suffer from inaccurate, misleading, and contradictory clothing descriptions; that VI people mainly rely on (unreliable) search tools and check product descriptions by reviewing customer comments. Our findings also indicate that VI people are hesitant to accept assistance fro
     
-[^11]: 迭代学习具有规则间相关性的未知实体表示
+[^6]: InstructIE: 一份基于指令的中文信息提取数据集
 
-    Iteratively Learning Representations for Unseen Entities with Inter-Rule Correlations. (arXiv:2305.10531v1 [cs.IR])
+    InstructIE: A Chinese Instruction-based Information Extraction Dataset. (arXiv:2305.11527v1 [cs.CL])
 
-    [http://arxiv.org/abs/2305.10531](http://arxiv.org/abs/2305.10531)
+    [http://arxiv.org/abs/2305.11527](http://arxiv.org/abs/2305.11527)
 
-    本文提出了一种虚拟邻居网络(VNC)，用于解决知识图谱完成中未知实体表示的问题。该方法通过规则挖掘、规则推理和嵌入三个阶段，实现对规则间相关性进行建模。
-
-    
-
-    知识图谱完成(KGC)的最新研究侧重于学习知识图谱中实体和关系的嵌入。这些嵌入方法要求所有测试实体在训练时被观察到，导致对超出知识图谱（OOKG）实体的耗时重新训练过程。为解决此问题，当前归纳知识嵌入方法采用图神经网络(GNN)通过聚合已知邻居的信息来表示未知实体。他们面临三个重要挑战:i)数据稀疏性，ii)知识图谱中存在复杂模式(如规则间相关性)，iii)规则挖掘、规则推理和嵌入之间存在交互。在本文中，我们提出了一个包含三个阶段的具有规则间相关性的虚拟邻居网络(VNC):i)规则挖掘，ii)规则推理，和iii)嵌入。
-
-    Recent work on knowledge graph completion (KGC) focused on learning embeddings of entities and relations in knowledge graphs. These embedding methods require that all test entities are observed at training time, resulting in a time-consuming retraining process for out-of-knowledge-graph (OOKG) entities. To address this issue, current inductive knowledge embedding methods employ graph neural networks (GNNs) to represent unseen entities by aggregating information of known neighbors. They face three important challenges: (i) data sparsity, (ii) the presence of complex patterns in knowledge graphs (e.g., inter-rule correlations), and (iii) the presence of interactions among rule mining, rule inference, and embedding. In this paper, we propose a virtual neighbor network with inter-rule correlations (VNC) that consists of three stages: (i) rule mining, (ii) rule inference, and (iii) embedding. In the rule mining process, to identify complex patterns in knowledge graphs, both logic rules and 
-    
-[^12]: 使用生成语言模型进行大规模文本分析：在AI专利中发现公共价值表达的案例研究
-
-    Large-Scale Text Analysis Using Generative Language Models: A Case Study in Discovering Public Value Expressions in AI Patents. (arXiv:2305.10383v1 [cs.CL])
-
-    [http://arxiv.org/abs/2305.10383](http://arxiv.org/abs/2305.10383)
-
-    本文研究使用生成语言模型GPT-4进行大规模文本分析，在US AI专利中发现公共价值表达。采用高级布尔查询收集了154,934个专利文档，并与USPTO的完整专利文本合并。得出5.4百万句子的语料库，使用框架以及GPT-4提示进行标记和理性化。评估结果表明，这种方法很准确。
+    介绍了一份中文的基于指令的信息提取数据集InstructIE，其中包括了270,000个弱监督的数据和1,000个高质量注释实例。实验结果表明当前的模型表现有待改进，该任务仍存在挑战。
 
     
 
-    标记数据对于训练文本分类器至关重要，但对于复杂和抽象的概念而言，准确标记常常很难实现。本文采用一种新颖方法，使用生成语言模型（GPT-4）进行大规模文本分析的标记和理性化。我们将这种方法应用于在美国AI专利中发现公共价值表达的任务上。我们使用在InnovationQ+上提交的高级布尔查询收集了一个包含154,934个专利文档的数据库，这些结果与来自USPTO的完整专利文本合并，总计5.4百万句子。我们设计了一个框架来识别和标记这些AI专利句子中的公共价值表达。我们开发了GPT-4的提示，其中包括文本分类的定义、指导方针、示例和理性化。我们使用BLEU分数和主题建模评估了GPT-4生成的标签和理性化的质量，并发现它们是准确的。
+    我们引入了一项新的信息提取任务，称为基于指令的信息提取 (Instruction-based IE)，它旨在要求系统遵循特定的指令或指南来提取信息。为了促进该领域的研究，我们构建了一个数据集，称为InstructIE，其中包括来自中文维基百科的 270,000 个弱监督数据和 1,000 个高质量众包注释实例。我们进一步评估了各种基线模型在InstructIE数据集上的表现。结果表明，尽管当前的模型表现很有希望，但仍有改进的空间。此外，我们进行了全面的案例研究分析，强调了基于指令的信息提取任务中固有的挑战。代码和数据集可在 https://github.com/zjunlp/DeepKE/tree/main/example/llm 找到。
 
-    Labeling data is essential for training text classifiers but is often difficult to accomplish accurately, especially for complex and abstract concepts. Seeking an improved method, this paper employs a novel approach using a generative language model (GPT-4) to produce labels and rationales for large-scale text analysis. We apply this approach to the task of discovering public value expressions in US AI patents. We collect a database comprising 154,934 patent documents using an advanced Boolean query submitted to InnovationQ+. The results are merged with full patent text from the USPTO, resulting in 5.4 million sentences. We design a framework for identifying and labeling public value expressions in these AI patent sentences. A prompt for GPT-4 is developed which includes definitions, guidelines, examples, and rationales for text classification. We evaluate the quality of the labels and rationales produced by GPT-4 using BLEU scores and topic modeling and find that they are accurate, di
+    We introduce a new Information Extraction (IE) task dubbed Instruction-based IE, which aims to ask the system to follow specific instructions or guidelines to extract information. To facilitate research in this area, we construct a dataset called InstructIE, consisting of 270,000 weakly supervised data from Chinese Wikipedia and 1,000 high-quality crowdsourced annotated instances. We further evaluate the performance of various baseline models on the InstructIE dataset. The results reveal that although current models exhibit promising performance, there is still room for improvement. Furthermore, we conduct a comprehensive case study analysis, underlining the challenges inherent in the Instruction-based IE task. Code and dataset are available at https://github.com/zjunlp/DeepKE/tree/main/example/llm.
     
-[^13]: 无偏倾向估计用于无偏排序
+[^7]: 基于概率偏置的事件抽取中重新耦合事件场
 
-    Unconfounded Propensity Estimation for Unbiased Ranking. (arXiv:2305.09918v1 [cs.IR])
+    Recouple Event Field via Probabilistic Bias for Event Extraction. (arXiv:2305.11498v1 [cs.CL])
 
-    [http://arxiv.org/abs/2305.09918](http://arxiv.org/abs/2305.09918)
+    [http://arxiv.org/abs/2305.11498](http://arxiv.org/abs/2305.11498)
 
-    该论文提出了一种新的算法PropensityNet，用于在强日志记录策略下进行无偏学习排名（ULTR）的倾向性估计，优于现有的最先进ULTR算法。
-
-    
-
-    无偏学习排名（ULTR）的目标是利用隐含的用户反馈来优化学习排序系统。在现有解决方案中，自动ULTR算法在实践中因其卓越的性能和低部署成本而受到关注，该算法同时学习用户偏差模型（即倾向性模型）和无偏排名器。尽管该算法在理论上是可靠的，但其有效性通常在弱日志记录策略下进行验证，其中排名模型几乎无法根据与查询相关性来对文档进行排名。然而，当日志记录策略很强时，例如工业部署的排名策略，所报告的有效性无法再现。在本文中，我们首先从因果角度调查ULTR，并揭示一个负面结果：现有的ULTR算法未能解决由查询-文档相关性混淆导致的倾向性高估问题。然后，我们提出了一种基于反门调整的新的学习目标，并提出了一种名为PropensityNet的算法，用于在强日志记录策略下为ULTR估计无偏的倾向性分数。多个数据集的实证结果表明，PropensityNet在强日志记录策略和弱日志记录策略下均优于现有的最先进的ULTR算法。
-
-    The goal of unbiased learning to rank~(ULTR) is to leverage implicit user feedback for optimizing learning-to-rank systems. Among existing solutions, automatic ULTR algorithms that jointly learn user bias models (\ie propensity models) with unbiased rankers have received a lot of attention due to their superior performance and low deployment cost in practice. Despite their theoretical soundness, the effectiveness is usually justified under a weak logging policy, where the ranking model can barely rank documents according to their relevance to the query. However, when the logging policy is strong, e.g., an industry-deployed ranking policy, the reported effectiveness cannot be reproduced. In this paper, we first investigate ULTR from a causal perspective and uncover a negative result: existing ULTR algorithms fail to address the issue of propensity overestimation caused by the query-document relevance confounder. Then, we propose a new learning objective based on backdoor adjustment and 
-    
-[^14]: 不变的协同过滤对抗流行度分布的变化
-
-    Invariant Collaborative Filtering to Popularity Distribution Shift. (arXiv:2302.05328v3 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2302.05328](http://arxiv.org/abs/2302.05328)
-
-    本文提出了不变的协同过滤(InvCF)学习框架，用于解决协同过滤模型易受流行度分布变化影响的问题，这一方法不需要先了解测试集的流行度分布，能够忠实地揭示用户的偏好和流行度语义。
+    提出了一种基于概率偏置的重新耦合事件场模型（ProCE），用于增强事件提取框架，以澄清来自模糊纠缠的事件字段，并重新耦合相应的澄清分布以捕获更多潜在信息字段。实验表明该方法有效且具有泛化性。
 
     
 
-    尽管协同过滤(collaborative filtering, CF)模型取得了巨大的成功，但由于流行度分布的变化在现实世界中普遍且不可避免，因此这些模型存在严重的性能下降问题。不幸的是，大多数主流的消除流行度偏见的策略需要事先知道测试分布，以确定偏见程度并进一步学习与流行度纠缠在一起的表示来减轻偏见。因此，这些模型在目标测试集中表现出明显的性能提升，但在不知道流行度分布的情况下，却会大大偏离用户真正的兴趣推荐。在本文中，我们提出了一种新的学习框架，不变的协同过滤(InvCF)，用于发现能够忠实地揭示潜在偏好和流行度语义的解耦表示，而不需要对测试分布做出任何假设。
+    事件抽取（EE）旨在从事件提及中识别和分类事件触发器和参数，已经受益于预训练语言模型（PLM）。然而，现有基于PLM的方法忽略了触发/参数字段的信息，这对于理解事件模式是至关重要的。为此，我们提出了一种概率重新耦合模型增强事件提取框架（ProCE）。具体来说，我们首先将语法相关的事件字段建模为概率偏置，以澄清来自模糊纠缠的事件字段。此外，考虑到EE中同一触发器/参数的多次出现，我们探索了同一触发器/参数的多个字段之间的概率交互策略，以重新耦合相应的澄清分布并捕获更多潜在信息字段。在EE数据集上的实验证明了我们提出的方法的有效性和泛化性。
 
-    Collaborative Filtering (CF) models, despite their great success, suffer from severe performance drops due to popularity distribution shifts, where these changes are ubiquitous and inevitable in real-world scenarios. Unfortunately, most leading popularity debiasing strategies, rather than tackling the vulnerability of CF models to varying popularity distributions, require prior knowledge of the test distribution to identify the degree of bias and further learn the popularity-entangled representations to mitigate the bias. Consequently, these models result in significant performance benefits in the target test set, while dramatically deviating the recommendation from users' true interests without knowing the popularity distribution in advance. In this work, we propose a novel learning framework, Invariant Collaborative Filtering (InvCF), to discover disentangled representations that faithfully reveal the latent preference and popularity semantics without making any assumption about the 
+    Event Extraction (EE), aiming to identify and classify event triggers and arguments from event mentions, has benefited from pre-trained language models (PLMs). However, existing PLM-based methods ignore the information of trigger/argument fields, which is crucial for understanding event schemas. To this end, we propose a Probabilistic reCoupling model enhanced Event extraction framework (ProCE). Specifically, we first model the syntactic-related event fields as probabilistic biases, to clarify the event fields from ambiguous entanglement. Furthermore, considering multiple occurrences of the same triggers/arguments in EE, we explore probabilistic interaction strategies among multiple fields of the same triggers/arguments, to recouple the corresponding clarified distributions and capture more latent information fields. Experiments on EE datasets demonstrate the effectiveness and generalization of our proposed approach.
     
-[^15]: AdaTask: 一种面向多任务学习的任务感知自适应学习率方法
+[^8]: TELeR：用于基准测试复杂任务的LLM提示的通用分类法
 
-    AdaTask: A Task-aware Adaptive Learning Rate Approach to Multi-task Learning. (arXiv:2211.15055v2 [cs.LG] UPDATED)
+    TELeR: A General Taxonomy of LLM Prompts for Benchmarking Complex Tasks. (arXiv:2305.11430v1 [cs.AI])
 
-    [http://arxiv.org/abs/2211.15055](http://arxiv.org/abs/2211.15055)
+    [http://arxiv.org/abs/2305.11430](http://arxiv.org/abs/2305.11430)
 
-    提出了一种名为AdaTask的任务感知自适应学习率方法，通过自适应地调整不同任务的学习率，以平衡不同任务的重要性，从而在各种基准测试上始终优于现有的MTL方法。
+    本文提出了一个通用分类法，可以用来设计具有特定属性的提示来执行各种复杂任务，从而解决了LLM在执行复杂任务方面的性能变异巨大的问题。
 
     
 
-    多任务学习（MTL）模型已在计算机视觉、自然语言处理和推荐系统等领域展现出令人瞩目的结果。尽管已经提出了许多方法，但这些方法如何在每个参数上平衡不同任务仍然不清楚。在本文中，我们提出通过每个任务对该参数进行的总更新来衡量参数的任务优势度。具体而言，我们通过指数衰减的平均更新（AU）来计算每个任务在该参数上的总更新数。基于这一新颖的度量标准，我们观察到现有MTL方法中的许多参数，尤其是在较高的共享层中的参数，仍然受到一个或几个任务的支配。AU的支配主要是由于一个或几个任务的梯度累积导致的。受此启发，我们提出了一种名为AdaTask的任务感知自适应学习率方法，以分离不同任务之间的累积梯度，从而平衡不同任务的重要性。AdaTask根据AU值自适应地调整不同任务的学习率，以平衡不同任务的重要性。我们在各种基准测试上评估了AdaTask，并证明它始终优于现有的MTL方法。
+    尽管LLM在传统对话环境中理解和生成文本时取得了巨大成功，但它们在执行不明确的复杂任务方面的潜力仍然受到很少的研究。本文提出了一种通用分类法，可以用来设计具有特定属性的提示，以执行各种复杂任务，从而解决了使用不同提示类型/风格和提示提供的不同详细程度时LLM性能变化巨大的问题。这个分类法将使未来的基准测试研究能够报告研究中使用的特定提示类别，从而实现跨不同研究的有意义的比较。
 
-    Multi-task learning (MTL) models have demonstrated impressive results in computer vision, natural language processing, and recommender systems. Even though many approaches have been proposed, how well these approaches balance different tasks on each parameter still remains unclear. In this paper, we propose to measure the task dominance degree of a parameter by the total updates of each task on this parameter. Specifically, we compute the total updates by the exponentially decaying Average of the squared Updates (AU) on a parameter from the corresponding task.Based on this novel metric, we observe that many parameters in existing MTL methods, especially those in the higher shared layers, are still dominated by one or several tasks. The dominance of AU is mainly due to the dominance of accumulative gradients from one or several tasks. Motivated by this, we propose a Task-wise Adaptive learning rate approach, AdaTask in short, to separate the \emph{accumulative gradients} and hence the l
+    While LLMs have shown great success in understanding and generating text in traditional conversational settings, their potential for performing ill-defined complex tasks is largely under-studied. Indeed, we are yet to conduct comprehensive benchmarking studies with multiple LLMs that are exclusively focused on a complex task. However, conducting such benchmarking studies is challenging because of the large variations in LLMs' performance when different prompt types/styles are used and different degrees of detail are provided in the prompts. To address this issue, the paper proposes a general taxonomy that can be used to design prompts with specific properties in order to perform a wide range of complex tasks. This taxonomy will allow future benchmarking studies to report the specific categories of prompts used as part of the study, enabling meaningful comparisons across different studies. Also, by establishing a common standard through this taxonomy, researchers will be able to draw mo
+    
+[^9]: 创作者经济学中的在线学习方法
+
+    Online Learning in a Creator Economy. (arXiv:2305.11381v1 [cs.GT])
+
+    [http://arxiv.org/abs/2305.11381](http://arxiv.org/abs/2305.11381)
+
+    本文探讨了如何应用在线学习的方法优化创作者经济学中的平台收益，分析和比较了基于回报的和基于特征的两种合同类型。
+
+    
+
+    创作者经济学革新了通过在线平台获取利润的方式。本文通过将创作者经济学建模为用户、平台和内容创作者之间的三方博弈，探讨了如何应用在线学习的方法，通过合同和推荐系统优化平台收益。该研究主要分析和比较了两种类型的合同：基于回报的合同和基于特征的合同。
+
+    The creator economy has revolutionized the way individuals can profit through online platforms. In this paper, we initiate the study of online learning in the creator economy by modeling the creator economy as a three-party game between the users, platform, and content creators, with the platform interacting with the content creator under a principal-agent model through contracts to encourage better content. Additionally, the platform interacts with the users to recommend new content, receive an evaluation, and ultimately profit from the content, which can be modeled as a recommender system.  Our study aims to explore how the platform can jointly optimize the contract and recommender system to maximize the utility in an online learning fashion. We primarily analyze and compare two families of contracts: return-based contracts and feature-based contracts. Return-based contracts pay the content creator a fraction of the reward the platform gains. In contrast, feature-based contracts pay 
+    
+[^10]: 适用于所有领域的一个模型：基于协作域前缀调整的跨领域实体识别
+
+    One Model for All Domains: Collaborative Domain-Prefix Tuning for Cross-Domain NER. (arXiv:2301.10410v3 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2301.10410](http://arxiv.org/abs/2301.10410)
+
+    本论文提出了基于协作域前缀调整的跨领域实体识别，使用文本到文本生成的支撑领域相关指导来将知识转移至新域NER任务，避免了先前的为每个领域结束一个全新的NER模型的问题。
+
+    
+
+    解决实际场景中低资源问题是跨领域实体识别的一个挑战性任务。先前典型的解决方案主要通过使用来自丰富资源领域的数据进行预训练语言模型(PLMs)获得NER模型并将其适应于目标领域。由于不同领域实体类型之间的不匹配问题，先前的方法通常调整所有PLMs的参数，从而为每个领域结束一个全新的NER模型。此外，当前的模型只关注于利用一个普通来源领域中的知识，而未能成功地将来自多个来源领域的知识转移到目标上。为了解决这些问题，我们基于文本到文本生成的PLM引入了协作域前缀调整跨领域NER(CP-NER)。具体来说，我们呈现了用于文本到文本生成的支撑领域相关指导来将知识转移至新域NER任务而无需结构修改。我们利用冻结的PLMs并进行协作域前缀调整。
+
+    Cross-domain NER is a challenging task to address the low-resource problem in practical scenarios. Previous typical solutions mainly obtain a NER model by pre-trained language models (PLMs) with data from a rich-resource domain and adapt it to the target domain. Owing to the mismatch issue among entity types in different domains, previous approaches normally tune all parameters of PLMs, ending up with an entirely new NER model for each domain. Moreover, current models only focus on leveraging knowledge in one general source domain while failing to successfully transfer knowledge from multiple sources to the target. To address these issues, we introduce Collaborative Domain-Prefix Tuning for cross-domain NER (CP-NER) based on text-to-text generative PLMs. Specifically, we present text-to-text generation grounding domain-related instructors to transfer knowledge to new domain NER tasks without structural modifications. We utilize frozen PLMs and conduct collaborative domain-prefix tuning
     
 

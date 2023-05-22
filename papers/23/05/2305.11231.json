@@ -1,0 +1,12 @@
+{
+    "title": "Recent Trends in Unsupervised Summarization. (arXiv:2305.11231v1 [cs.CL])",
+    "abstract": "Unsupervised summarization is a powerful technique that enables training summarizing models without requiring labeled datasets. This survey covers different recent techniques and models used for unsupervised summarization. We cover extractive, abstractive, and hybrid models and strategies used to achieve unsupervised summarization. While the main focus of this survey is on recent research, we also cover some of the important previous research. We additionally introduce a taxonomy, classifying different research based on their approach to unsupervised training. Finally, we discuss the current approaches and mention some datasets and evaluation methods.",
+    "link": "http://arxiv.org/abs/2305.11231",
+    "context": "Title: Recent Trends in Unsupervised Summarization. (arXiv:2305.11231v1 [cs.CL])\nAbstract: Unsupervised summarization is a powerful technique that enables training summarizing models without requiring labeled datasets. This survey covers different recent techniques and models used for unsupervised summarization. We cover extractive, abstractive, and hybrid models and strategies used to achieve unsupervised summarization. While the main focus of this survey is on recent research, we also cover some of the important previous research. We additionally introduce a taxonomy, classifying different research based on their approach to unsupervised training. Finally, we discuss the current approaches and mention some datasets and evaluation methods.",
+    "path": "papers/23/05/2305.11231.json",
+    "total_tokens": 719,
+    "translated_title": "无监督摘要的最新趋势",
+    "translated_abstract": "无监督摘要是一种强大的技术，可以在不需要标记数据集的情况下训练摘要模型。本综述涵盖了用于无监督摘要的不同技术和模型。我们涵盖了抽取式、生成式和混合模型以及用于实现无监督摘要的策略。尽管本综述的主要重点是最新研究，但我们也介绍了一些重要的以前的研究。我们还引入了一个分类法，根据研究对无监督训练的方法进行分类。最后，我们讨论了当前的方法，并提到了一些数据集和评估方法。",
+    "tldr": "本文综述了无监督摘要的最新技术和模型，包括抽取式、生成式和混合模型，并提出了一个基于方法的分类法。本文还介绍了一些数据集和评估方法。",
+    "en_tdlr": "This survey covers recent techniques and models, including extractive, abstractive, and hybrid models, for unsupervised summarization. A taxonomy is proposed to classify research based on their approach to unsupervised training. The paper also introduces datasets and evaluation methods."
+}

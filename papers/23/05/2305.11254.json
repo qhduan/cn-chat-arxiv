@@ -1,0 +1,12 @@
+{
+    "title": "Robust Quantum Controllers: Quantum Information -- Thermodynamic Hidden Force Control in Intelligent Robotics based on Quantum Soft Computing. (arXiv:2305.11254v1 [quant-ph])",
+    "abstract": "A generalized strategy for the design of intelligent robust control systems based on quantum / soft computing technologies is described. The reliability of hybrid intelligent controllers increase by providing the ability to self-organize of imperfect knowledge bases. The main attention is paid to increasing the level of robustness of intelligent control systems in unpredictable control situations with the demonstration by illustrative examples. A SW & HW platform and support tools for a supercomputer accelerator for modeling quantum algorithms on a classical computer are described.",
+    "link": "http://arxiv.org/abs/2305.11254",
+    "context": "Title: Robust Quantum Controllers: Quantum Information -- Thermodynamic Hidden Force Control in Intelligent Robotics based on Quantum Soft Computing. (arXiv:2305.11254v1 [quant-ph])\nAbstract: A generalized strategy for the design of intelligent robust control systems based on quantum / soft computing technologies is described. The reliability of hybrid intelligent controllers increase by providing the ability to self-organize of imperfect knowledge bases. The main attention is paid to increasing the level of robustness of intelligent control systems in unpredictable control situations with the demonstration by illustrative examples. A SW & HW platform and support tools for a supercomputer accelerator for modeling quantum algorithms on a classical computer are described.",
+    "path": "papers/23/05/2305.11254.json",
+    "total_tokens": 674,
+    "translated_title": "健壮的量子控制器：基于量子软计算的智能机器人量子信息--热力学潜在力控制",
+    "translated_abstract": "本文介绍了一种基于量子/软计算技术设计智能健壮控制系统的通用策略。提供自组织不完善知识库的能力可以提高混合智能控制器的可靠性。主要关注在不可预测的控制情况下增加智能控制系统的健壮性，并举例进行演示。还描述了一个用于在经典计算机上建模量子算法的SW＆HW平台和支持工具。",
+    "tldr": "本文介绍了一种基于量子/软计算技术设计智能健壮控制系统的通用策略，并着重于增加智能控制系统的健壮性。",
+    "en_tdlr": "This paper presents a general strategy for designing intelligent and robust control systems based on quantum/soft computing technologies, with a focus on increasing the level of robustness in unpredictable control situations. A platform and support tools for modeling quantum algorithms on a classical computer are also described."
+}

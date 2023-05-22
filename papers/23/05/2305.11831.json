@@ -1,0 +1,12 @@
+{
+    "title": "Regularization of Soft Actor-Critic Algorithms with Automatic Temperature Adjustment. (arXiv:2305.11831v1 [cs.LG])",
+    "abstract": "This work presents a comprehensive analysis to regularize the Soft Actor-Critic (SAC) algorithm with automatic temperature adjustment. The the policy evaluation, the policy improvement and the temperature adjustment are reformulated, addressing certain modification and enhancing the clarity of the original theory in a more explicit manner.",
+    "link": "http://arxiv.org/abs/2305.11831",
+    "context": "Title: Regularization of Soft Actor-Critic Algorithms with Automatic Temperature Adjustment. (arXiv:2305.11831v1 [cs.LG])\nAbstract: This work presents a comprehensive analysis to regularize the Soft Actor-Critic (SAC) algorithm with automatic temperature adjustment. The the policy evaluation, the policy improvement and the temperature adjustment are reformulated, addressing certain modification and enhancing the clarity of the original theory in a more explicit manner.",
+    "path": "papers/23/05/2305.11831.json",
+    "total_tokens": 492,
+    "translated_title": "自动温度调整的软性演员评论算法的正则化",
+    "translated_abstract": "本文提出了一种使用自动温度调整的软性演员评论（SAC）算法的正则化方法，并对策略评估、策略改进和温度调整进行重新定义和修改，以更加明确地阐述原理。",
+    "tldr": "本文提出了正则化自动温度调整的软性演员评论算法，增加了对原理的明确性。",
+    "en_tdlr": "This work proposes a regularization method for the Soft Actor-Critic algorithm with automatic temperature adjustment, and improves the clarity of the original theory by reformulating the policy evaluation, policy improvement, and temperature adjustment."
+}

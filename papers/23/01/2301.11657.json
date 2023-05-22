@@ -1,0 +1,12 @@
+{
+    "title": "Multilayer hypergraph clustering using the aggregate similarity matrix. (arXiv:2301.11657v2 [math.ST] UPDATED)",
+    "abstract": "We consider the community recovery problem on a multilayer variant of the hypergraph stochastic block model (HSBM). Each layer is associated with an independent realization of a d-uniform HSBM on N vertices. Given the similarity matrix containing the aggregated number of hyperedges incident to each pair of vertices, the goal is to obtain a partition of the N vertices into disjoint communities. In this work, we investigate a semidefinite programming (SDP) approach and obtain information-theoretic conditions on the model parameters that guarantee exact recovery both in the assortative and the disassortative cases.",
+    "link": "http://arxiv.org/abs/2301.11657",
+    "context": "Title: Multilayer hypergraph clustering using the aggregate similarity matrix. (arXiv:2301.11657v2 [math.ST] UPDATED)\nAbstract: We consider the community recovery problem on a multilayer variant of the hypergraph stochastic block model (HSBM). Each layer is associated with an independent realization of a d-uniform HSBM on N vertices. Given the similarity matrix containing the aggregated number of hyperedges incident to each pair of vertices, the goal is to obtain a partition of the N vertices into disjoint communities. In this work, we investigate a semidefinite programming (SDP) approach and obtain information-theoretic conditions on the model parameters that guarantee exact recovery both in the assortative and the disassortative cases.",
+    "path": "papers/23/01/2301.11657.json",
+    "total_tokens": 674,
+    "translated_title": "使用聚合相似矩阵的多层超图聚类",
+    "translated_abstract": "本文考虑在超图的多层变体上执行社区恢复问题，每个层与 N 个顶点上的 d-均匀超图随机块模型 (HSBM) 的独立实现相关。给出包含与每对顶点相交的超边数量聚合的相似矩阵，目标是将 N 个顶点划分为不相交的社区。在本文中，我们研究了半定规划 (SDP) 方法，并获得了有关模型参数的信息论条件，保证在同配和非同配情况下均能确保精确恢复。",
+    "tldr": "本文提出了一个半定规划方法来解决基于超图的多层聚类问题，同时在同配和非同配情况下保证了精确恢复。",
+    "en_tdlr": "This paper proposes a semidefinite programming method to solve the multilayer clustering problem based on hypergraphs, and guarantees exact recovery in both assortative and disassortative cases."
+}

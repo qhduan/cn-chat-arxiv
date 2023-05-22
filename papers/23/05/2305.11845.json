@@ -1,0 +1,12 @@
+{
+    "title": "RxnScribe: A Sequence Generation Model for Reaction Diagram Parsing. (arXiv:2305.11845v1 [cs.CL])",
+    "abstract": "Reaction diagram parsing is the task of extracting reaction schemes from a diagram in the chemistry literature. The reaction diagrams can be arbitrarily complex, thus robustly parsing them into structured data is an open challenge. In this paper, we present RxnScribe, a machine learning model for parsing reaction diagrams of varying styles. We formulate this structured prediction task with a sequence generation approach, which condenses the traditional pipeline into an end-to-end model. We train RxnScribe on a dataset of 1,378 diagrams and evaluate it with cross validation, achieving an 80.0% soft match F1 score, with significant improvements over previous models. Our code and data are publicly available at https://github.com/thomas0809/RxnScribe.",
+    "link": "http://arxiv.org/abs/2305.11845",
+    "context": "Title: RxnScribe: A Sequence Generation Model for Reaction Diagram Parsing. (arXiv:2305.11845v1 [cs.CL])\nAbstract: Reaction diagram parsing is the task of extracting reaction schemes from a diagram in the chemistry literature. The reaction diagrams can be arbitrarily complex, thus robustly parsing them into structured data is an open challenge. In this paper, we present RxnScribe, a machine learning model for parsing reaction diagrams of varying styles. We formulate this structured prediction task with a sequence generation approach, which condenses the traditional pipeline into an end-to-end model. We train RxnScribe on a dataset of 1,378 diagrams and evaluate it with cross validation, achieving an 80.0% soft match F1 score, with significant improvements over previous models. Our code and data are publicly available at https://github.com/thomas0809/RxnScribe.",
+    "path": "papers/23/05/2305.11845.json",
+    "total_tokens": 745,
+    "translated_title": "RxnScribe：反应图解析的序列生成模型",
+    "translated_abstract": "反应图解析是从化学文献中提取反应方案的任务。反应图可以极其复杂，因此将其稳健地解析成结构化数据是一个开放性挑战。在本文中，我们提出了RxnScribe，这是一个用于解析不同风格反应图的机器学习模型。我们采用序列生成方法来制定这个结构化预测任务，将传统的管道流程压缩为端到端的模型。我们在一个包含1,378个图的数据集上训练RxnScribe，并进行交叉验证评估，实现了80.0%的软匹配F1分数，与以前的模型相比有显著的改进。我们的代码和数据可以在https://github.com/thomas0809/RxnScribe 上公开获取。",
+    "tldr": "RxnScribe是一种端到端的机器学习模型，用于解析化学文献中复杂的反应图，并在交叉验证中取得了较高的分数。",
+    "en_tdlr": "RxnScribe is an end-to-end machine learning model for parsing complex reaction diagrams in chemistry literature, which achieves a high score in cross-validation."
+}

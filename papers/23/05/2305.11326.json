@@ -1,0 +1,11 @@
+{
+    "title": "Towards the Automatic Generation of Conversational Interfaces to Facilitate the Exploration of Tabular Data. (arXiv:2305.11326v1 [cs.CL])",
+    "abstract": "Tabular data is the most common format to publish and exchange structured data online. A clear example is the growing number of open data portals published by all types of public administrations. However, exploitation of these data sources is currently limited to technical people able to programmatically manipulate and digest such data. As an alternative, we propose the use of chatbots to offer a conversational interface to facilitate the exploration of tabular data sources. With our approach, any regular citizen can benefit and leverage them. Moreover, our chatbots are not manually created: instead, they are automatically generated from the data source itself thanks to the instantiation of a configurable collection of conversation patterns.",
+    "link": "http://arxiv.org/abs/2305.11326",
+    "context": "Title: Towards the Automatic Generation of Conversational Interfaces to Facilitate the Exploration of Tabular Data. (arXiv:2305.11326v1 [cs.CL])\nAbstract: Tabular data is the most common format to publish and exchange structured data online. A clear example is the growing number of open data portals published by all types of public administrations. However, exploitation of these data sources is currently limited to technical people able to programmatically manipulate and digest such data. As an alternative, we propose the use of chatbots to offer a conversational interface to facilitate the exploration of tabular data sources. With our approach, any regular citizen can benefit and leverage them. Moreover, our chatbots are not manually created: instead, they are automatically generated from the data source itself thanks to the instantiation of a configurable collection of conversation patterns.",
+    "path": "papers/23/05/2305.11326.json",
+    "total_tokens": 684,
+    "translated_title": "自动生成会话接口以便于探索表格数据",
+    "translated_abstract": "表格数据是在线发布和交换结构化数据的最常见格式。一个明确的例子是各种类型的公共行政机构发布的开放数据门户数量的增长。但是，这些数据源的利用目前仅限于能够以程序方式处理和消化此类数据的技术人员。作为替代方案，我们建议使用聊天机器人提供会话接口，以便于探索表格数据源。通过我们的方法，任何普通公民都可以从中受益并利用它们。此外，我们的聊天机器人不是手动创建的：相反，它们是通过实例化可配置的对话模式集从数据源本身自动生成的。",
+    "tldr": "本文提出了使用聊天机器人作为自动化创造的会话接口来方便大众探索表格数据的方法。"
+}

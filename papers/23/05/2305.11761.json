@@ -1,0 +1,12 @@
+{
+    "title": "ReSeTOX: Re-learning attention weights for toxicity mitigation in machine translation. (arXiv:2305.11761v1 [cs.CL])",
+    "abstract": "Our proposed method, ReSeTOX (REdo SEarch if TOXic), addresses the issue of Neural Machine Translation (NMT) generating translation outputs that contain toxic words not present in the input. The objective is to mitigate the introduction of toxic language without the need for re-training. In the case of identified added toxicity during the inference process, ReSeTOX dynamically adjusts the key-value self-attention weights and re-evaluates the beam search hypotheses. Experimental results demonstrate that ReSeTOX achieves a remarkable 57% reduction in added toxicity while maintaining an average translation quality of 99.5% across 164 languages.",
+    "link": "http://arxiv.org/abs/2305.11761",
+    "context": "Title: ReSeTOX: Re-learning attention weights for toxicity mitigation in machine translation. (arXiv:2305.11761v1 [cs.CL])\nAbstract: Our proposed method, ReSeTOX (REdo SEarch if TOXic), addresses the issue of Neural Machine Translation (NMT) generating translation outputs that contain toxic words not present in the input. The objective is to mitigate the introduction of toxic language without the need for re-training. In the case of identified added toxicity during the inference process, ReSeTOX dynamically adjusts the key-value self-attention weights and re-evaluates the beam search hypotheses. Experimental results demonstrate that ReSeTOX achieves a remarkable 57% reduction in added toxicity while maintaining an average translation quality of 99.5% across 164 languages.",
+    "path": "papers/23/05/2305.11761.json",
+    "total_tokens": 755,
+    "translated_title": "ReSeTOX：重新学习关注权重来减轻机器翻译中的毒性",
+    "translated_abstract": "我们提出的方法 ReSeTOX（REdo SEarch if TOXic）解决了神经机器翻译（NMT）生成包含输入中不存在的有毒单词的翻译输出的问题。其目的是通过不需要重新训练的方式缓解毒性语言的引入。在推断过程中发现有毒，ReSeTOX 会动态调整关键值自注意力权重并重新评估波束搜索假设。实验结果表明，在 164 种语言中，ReSeTOX 实现了显著的 57% 减少有毒内容的同时保持了平均 99.5% 的翻译质量。",
+    "tldr": "ReSeTOX是一种新方法，通过重新学习关注权重，能在不重新训练的情况下，有效减少机器翻译中有毒内容的产生，实验结果表明其在164种语言上成功将有毒内容压缩57%。",
+    "en_tdlr": "ReSeTOX is a novel method that effectively reduces the introduction of toxic language in machine translation without the need for re-training by re-learning attention weights and dynamically adjusting key-value self-attention weights, achieving a significant 57% reduction in added toxicity across 164 languages while maintaining high translation quality."
+}

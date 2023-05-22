@@ -1,0 +1,12 @@
+{
+    "title": "Epicurus at SemEval-2023 Task 4: Improving Prediction of Human Values behind Arguments by Leveraging Their Definitions. (arXiv:2302.13925v2 [cs.CL] UPDATED)",
+    "abstract": "We describe our experiments for SemEval-2023 Task 4 on the identification of human values behind arguments (ValueEval). Because human values are subjective concepts which require precise definitions, we hypothesize that incorporating the definitions of human values (in the form of annotation instructions and validated survey items) during model training can yield better prediction performance. We explore this idea and show that our proposed models perform better than the challenge organizers' baselines, with improvements in macro F1 scores of up to 18%.",
+    "link": "http://arxiv.org/abs/2302.13925",
+    "context": "Title: Epicurus at SemEval-2023 Task 4: Improving Prediction of Human Values behind Arguments by Leveraging Their Definitions. (arXiv:2302.13925v2 [cs.CL] UPDATED)\nAbstract: We describe our experiments for SemEval-2023 Task 4 on the identification of human values behind arguments (ValueEval). Because human values are subjective concepts which require precise definitions, we hypothesize that incorporating the definitions of human values (in the form of annotation instructions and validated survey items) during model training can yield better prediction performance. We explore this idea and show that our proposed models perform better than the challenge organizers' baselines, with improvements in macro F1 scores of up to 18%.",
+    "path": "papers/23/02/2302.13925.json",
+    "total_tokens": 710,
+    "translated_title": "Epicurus参加SemEval-2023任务4：通过利用定义来改善预测论据背后的人类价值观",
+    "translated_abstract": "我们描述了针对SemEval-2023任务4（ValueEval）进行的实验，其中涉及如何确定论据背后的人类价值观。由于人类价值观是主观概念，需要精确定义，因此我们假设在模型训练过程中加入人类价值观的定义（以注释说明和已验证的调查条目的形式）可以提高预测性能。我们探讨了这个想法，并展示了我们提出的模型比挑战组织者的基准模型表现更好，宏F1得分提高了高达18%。",
+    "tldr": "本篇论文介绍了参加SemEval-2023任务4的实验，旨在通过利用定义来提高对论据背后的人类价值观的预测，实验证明此方法可以获得更好的预测性能。",
+    "en_tdlr": "This paper presents experiments for SemEval-2023 Task 4 on identifying human values behind arguments. By incorporating definitions of human values during model training, the proposed models outperform the challenge organizer's baselines with up to 18% improvement in macro F1 scores."
+}

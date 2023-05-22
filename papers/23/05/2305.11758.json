@@ -1,0 +1,12 @@
+{
+    "title": "Affirmative Action in India via Vertical, Horizontal, and Overlapping Reservations: Comment. (arXiv:2305.11758v1 [econ.TH])",
+    "abstract": "S\\\"onmez and Yenmez (2022) suffer from a technical shortcoming. The paper claims to characterize the over-and-above-choice rule, albeit without formally defining the axioms. Given the axioms' informal description, we show that the claimed characterization is incorrect. The error stems from the statement of the ``over-and-above\" axiom. By rigorously re-formulating this axiom, we repair and prove the characterization result.",
+    "link": "http://arxiv.org/abs/2305.11758",
+    "context": "Title: Affirmative Action in India via Vertical, Horizontal, and Overlapping Reservations: Comment. (arXiv:2305.11758v1 [econ.TH])\nAbstract: S\\\"onmez and Yenmez (2022) suffer from a technical shortcoming. The paper claims to characterize the over-and-above-choice rule, albeit without formally defining the axioms. Given the axioms' informal description, we show that the claimed characterization is incorrect. The error stems from the statement of the ``over-and-above\" axiom. By rigorously re-formulating this axiom, we repair and prove the characterization result.",
+    "path": "papers/23/05/2305.11758.json",
+    "total_tokens": 600,
+    "translated_title": "印度通过垂直，水平和重叠保留实施平权行动：评论。",
+    "translated_abstract": "S\\\"onmez和Yenmez（2022）存在技术缺陷。该文章声称表征超过选择规则，但未正式定义公理。鉴于这些公理的非正式描述，我们证明了所声称的表征结果是不正确的。这一错误源于“超过”公理的陈述。通过严格重新制定该公理，我们修复并证明了表征结果。",
+    "tldr": "研究发现S\\\"onmez和Yenmez（2022）的超过选择规则表征结果是不正确的，但通过重新制定该公理，得到了正确的表征结果。",
+    "en_tdlr": "The study found that the characterization result of the over-and-above-choice rule proposed by S\\\"onmez and Yenmez (2022) is incorrect, but a correct result was obtained by re-formulating the relevant axiom rigorously."
+}

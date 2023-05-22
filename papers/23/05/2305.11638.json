@@ -1,0 +1,12 @@
+{
+    "title": "A Path to Holistic Privacy in Stream Processing Systems. (arXiv:2305.11638v1 [cs.CR])",
+    "abstract": "The massive streams of Internet of Things (IoT) data require a timely analysis to retain data usefulness. Stream processing systems (SPSs) enable this task, deriving knowledge from the IoT data in real-time. Such real-time analytics benefits many applications but can also be used to violate user privacy, as the IoT data collected from users or their vicinity is inherently sensitive. In this paper, we present our systematic look into privacy issues arising from the intersection of SPSs and IoT, identifying key research challenges towards achieving holistic privacy protection in SPSs and proposing the solutions.",
+    "link": "http://arxiv.org/abs/2305.11638",
+    "context": "Title: A Path to Holistic Privacy in Stream Processing Systems. (arXiv:2305.11638v1 [cs.CR])\nAbstract: The massive streams of Internet of Things (IoT) data require a timely analysis to retain data usefulness. Stream processing systems (SPSs) enable this task, deriving knowledge from the IoT data in real-time. Such real-time analytics benefits many applications but can also be used to violate user privacy, as the IoT data collected from users or their vicinity is inherently sensitive. In this paper, we present our systematic look into privacy issues arising from the intersection of SPSs and IoT, identifying key research challenges towards achieving holistic privacy protection in SPSs and proposing the solutions.",
+    "path": "papers/23/05/2305.11638.json",
+    "total_tokens": 672,
+    "translated_title": "流处理系统中实现全面隐私保护的路径",
+    "translated_abstract": "互联网物联网（IoT）数据的海量流需要及时分析以保留数据的价值。流处理系统（SPSs）可以完成这项任务，在实时中从IoT数据中推导知识。这样的实时分析有利于许多应用程序，但也可能用于侵犯用户的隐私，因为从用户或其附近收集的IoT数据本身就是敏感的。在本文中，我们系统地研究了SPSs和IoT的交叉所引起的隐私问题，确定了实现SPSs全面隐私保护的关键研究挑战，并提出了解决方案。",
+    "tldr": "本文系统地研究了流处理系统与物联网交叉引起的隐私问题，并提出解决方案，旨在实现全面的隐私保护。",
+    "en_tdlr": "This paper systematically explores privacy issues arising from the intersection of stream processing systems and the Internet of Things (IoT), identifies key research challenges towards achieving holistic privacy protection in SPSs, and proposes solutions."
+}

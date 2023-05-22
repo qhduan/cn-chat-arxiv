@@ -1,0 +1,11 @@
+{
+    "title": "The probability flow ODE is provably fast. (arXiv:2305.11798v1 [cs.LG])",
+    "abstract": "We provide the first polynomial-time convergence guarantees for the probability flow ODE implementation (together with a corrector step) of score-based generative modeling. Our analysis is carried out in the wake of recent results obtaining such guarantees for the SDE-based implementation (i.e., denoising diffusion probabilistic modeling or DDPM), but requires the development of novel techniques for studying deterministic dynamics without contractivity. Through the use of a specially chosen corrector step based on the underdamped Langevin diffusion, we obtain better dimension dependence than prior works on DDPM ($O(\\sqrt{d})$ vs. $O(d)$, assuming smoothness of the data distribution), highlighting potential advantages of the ODE framework.",
+    "link": "http://arxiv.org/abs/2305.11798",
+    "context": "Title: The probability flow ODE is provably fast. (arXiv:2305.11798v1 [cs.LG])\nAbstract: We provide the first polynomial-time convergence guarantees for the probability flow ODE implementation (together with a corrector step) of score-based generative modeling. Our analysis is carried out in the wake of recent results obtaining such guarantees for the SDE-based implementation (i.e., denoising diffusion probabilistic modeling or DDPM), but requires the development of novel techniques for studying deterministic dynamics without contractivity. Through the use of a specially chosen corrector step based on the underdamped Langevin diffusion, we obtain better dimension dependence than prior works on DDPM ($O(\\sqrt{d})$ vs. $O(d)$, assuming smoothness of the data distribution), highlighting potential advantages of the ODE framework.",
+    "path": "papers/23/05/2305.11798.json",
+    "total_tokens": 818,
+    "translated_title": "概率流ODE可证明速度快",
+    "translated_abstract": "我们首次提供概率流ODE实现（连同校正步骤）得到多项式时间收敛保证的证明，用于基于分数生成建模。我们的分析是在最近的结果基础上进行的，该结果获得了基于SDE的实现（即去噪扩散概率建模或DDPM）的这样的保证，但需要开发新的技术来研究无收缩的确定性动态。通过使用基于欠阻尼Langevin扩散的特殊选择的校正步骤，我们获得了比DDPM之前作品更好的维度依赖性（假设数据分布平滑，为$ O（\\sqrt {d}）$而不是$ O（d）$），凸显了ODE框架的潜在优势。",
+    "tldr": "首次提供概率流ODE实现得到多项式时间收敛保证的证明，使用欠阻尼Langevin扩散的特殊选择的校正步骤，获得了更好的维度依赖性，凸显了ODE框架的潜在优势。"
+}

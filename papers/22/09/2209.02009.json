@@ -1,0 +1,12 @@
+{
+    "title": "Online Decision Making for Trading Wind Energy. (arXiv:2209.02009v3 [cs.LG] UPDATED)",
+    "abstract": "We propose and develop a new algorithm for trading wind energy in electricity markets, within an online learning and optimization framework. In particular, we combine a component-wise adaptive variant of the gradient descent algorithm with recent advances in the feature-driven newsvendor model. This results in an online offering approach capable of leveraging data-rich environments, while adapting to the nonstationary characteristics of energy generation and electricity markets, also with a minimal computational burden. The performance of our approach is analyzed based on several numerical experiments, showing both better adaptability to nonstationary uncertain parameters and significant economic gains.",
+    "link": "http://arxiv.org/abs/2209.02009",
+    "context": "Title: Online Decision Making for Trading Wind Energy. (arXiv:2209.02009v3 [cs.LG] UPDATED)\nAbstract: We propose and develop a new algorithm for trading wind energy in electricity markets, within an online learning and optimization framework. In particular, we combine a component-wise adaptive variant of the gradient descent algorithm with recent advances in the feature-driven newsvendor model. This results in an online offering approach capable of leveraging data-rich environments, while adapting to the nonstationary characteristics of energy generation and electricity markets, also with a minimal computational burden. The performance of our approach is analyzed based on several numerical experiments, showing both better adaptability to nonstationary uncertain parameters and significant economic gains.",
+    "path": "papers/22/09/2209.02009.json",
+    "total_tokens": 684,
+    "translated_title": "风能交易的在线决策制定",
+    "translated_abstract": "我们提出并发展了一种新的算法，在在线学习和优化的框架内，用于在电力市场中交易风能。特别地，我们将梯度下降算法的逐分量自适应变体与最新进展的基于特征的新闻供应商模型相结合。这导致一种在线报价方法，能够利用数据丰富的环境，同时适应能源产生和电力市场的不稳定特征，而且计算负担最小。我们的方法的性能基于几个数值实验进行分析，显示出较好的适应能力和显著的经济收益。",
+    "tldr": "本文提出了一种在线报价方法，能够在非稳态及不确定参数下实现更好的适应性与显著的经济收益。",
+    "en_tdlr": "This paper proposes an online offering approach for trading wind energy in electricity markets, which can adapt to nonstationary characteristics of energy generation and electricity markets with minimal computational burden, and achieves better adaptability and significant economic gains under uncertain parameters."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Deterministic, quenched or annealed? Differences in the parameter estimation of heterogeneous network models. (arXiv:2303.02716v3 [physics.soc-ph] UPDATED)",
+    "abstract": "Analysing weighted networks requires modelling the binary and weighted properties simultaneously. We highlight three approaches for estimating the parameters responsible for them: econometric techniques treating topology as deterministic and statistical techniques either ensemble-averaging parameters or maximising an averaged likelihood over the topological randomness. In homogeneous models, equivalence holds; in heterogeneous network models, the local disorder breaks it, in a way reminiscent of the difference between `quenched' and `annealed' averages in the physics of disordered systems.",
+    "link": "http://arxiv.org/abs/2303.02716",
+    "context": "Title: Deterministic, quenched or annealed? Differences in the parameter estimation of heterogeneous network models. (arXiv:2303.02716v3 [physics.soc-ph] UPDATED)\nAbstract: Analysing weighted networks requires modelling the binary and weighted properties simultaneously. We highlight three approaches for estimating the parameters responsible for them: econometric techniques treating topology as deterministic and statistical techniques either ensemble-averaging parameters or maximising an averaged likelihood over the topological randomness. In homogeneous models, equivalence holds; in heterogeneous network models, the local disorder breaks it, in a way reminiscent of the difference between `quenched' and `annealed' averages in the physics of disordered systems.",
+    "path": "papers/23/03/2303.02716.json",
+    "total_tokens": 660,
+    "translated_title": "确定性、淬火或退火？异质网络模型参数估计的差异。",
+    "translated_abstract": "分析加权网络需要同时建模二进制和权重属性。我们强调了三种用于估计二者负责参数的方法：将拓扑视为确定性的计量技术，统计技术平均参数或通过对拓扑随机性的平均可能性进行最大化。在同质模型中，等价性成立；在异质网络模型中，局部失调打破了它，这与失序系统物理中“淬火”和“退火”平均值之间的差异相似。",
+    "tldr": "本论文探讨了在不同模型中用于估计异质网络模型参数的三种方法，强调了在同质模型与异质网络模型中的等价和差异。",
+    "en_tdlr": "This paper examines three approaches for estimating parameters in heterogeneous network models, highlighting their equivalence in homogeneous models and differences resulting from local disorder in heterogeneous models, analogous to the difference between 'quenched' and 'annealed' averages in disordered systems."
+}
