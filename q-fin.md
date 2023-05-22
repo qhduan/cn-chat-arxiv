@@ -9,9 +9,10 @@
 | [^5] | [Practical algorithms and experimentally validated incentives for equilibrium-based fair division (A-CEEI).](http://arxiv.org/abs/2305.11406) | 本文介绍了基于均衡概念的公平分配算法A-CEEI，开发了一种新的启发式算法，使我们第一次能够对真实世界的输入进行实验。研究发现，即使在符合EF-TB和SP-L属性的现实实施中，代理也可能有惊人而合理的不真实报告偏离。 |
 | [^6] | [Weighing Anchor on Credit Card Debt.](http://arxiv.org/abs/2305.11375) | 信用卡最低支付金额的锚定效应对于消费者的支付行为产生了显著的影响，并提出了去除锚定干预措施来改善消费者的支付习惯。 |
 | [^7] | [Risk Budgeting Allocation for Dynamic Risk Measures.](http://arxiv.org/abs/2305.11319) | 该论文提出了一种基于动态风险度量的风险分配策略，引入了动态风险贡献的概念进行递归计算，证明了该问题可以被重新表述为一系列严格凸的优化问题，并开发了一种演员-评论家方法解决问题。 |
-| [^8] | [Extreme ATM skew in a local volatility model with discontinuity: joint density approach.](http://arxiv.org/abs/2305.10849) | 本文研究了一种本地波动率模型，其中波动率在基础价格高于或低于某一阈值时分别取两个特定取值。通过联合分布方法，确认了该模型下当阈值位于平价处时，隐含波动率偏斜的幂律行为。 |
-| [^9] | [Time-Consistent Asset Allocation for Risk Measures in a L\'evy Market.](http://arxiv.org/abs/2305.09471) | 本文研究了使用风险度量进行资产配置的问题，通过使用广义的风险度量，最大化时间一致的平均风险回报函数。作者模拟了市场，并在符合条件的情况下证明了该问题的最优解是确定性且唯一的。 |
-| [^10] | [Statistical properties of volume in the Bitcoin/USD market.](http://arxiv.org/abs/2304.01907) | 本文研究了比特币/美元市场中最佳买价和最佳卖价下的交易量的统计特性，发现交易量时间序列中存在长程相关性和幂律衰减的证据以及最佳买价和最佳卖价下的交易量之间存在强烈的同步性。 |
+| [^8] | [Precision versus Shrinkage: A Comparative Analysis of Covariance Estimation Methods for Portfolio Allocation.](http://arxiv.org/abs/2305.11298) | 本文对组合配置中协方差和精度矩阵估计方法进行了广泛的研究和比较，发现GGM方法优于收缩和其他方法。 |
+| [^9] | [Extreme ATM skew in a local volatility model with discontinuity: joint density approach.](http://arxiv.org/abs/2305.10849) | 本文研究了一种本地波动率模型，其中波动率在基础价格高于或低于某一阈值时分别取两个特定取值。通过联合分布方法，确认了该模型下当阈值位于平价处时，隐含波动率偏斜的幂律行为。 |
+| [^10] | [Time-Consistent Asset Allocation for Risk Measures in a L\'evy Market.](http://arxiv.org/abs/2305.09471) | 本文研究了使用风险度量进行资产配置的问题，通过使用广义的风险度量，最大化时间一致的平均风险回报函数。作者模拟了市场，并在符合条件的情况下证明了该问题的最优解是确定性且唯一的。 |
+| [^11] | [Statistical properties of volume in the Bitcoin/USD market.](http://arxiv.org/abs/2304.01907) | 本文研究了比特币/美元市场中最佳买价和最佳卖价下的交易量的统计特性，发现交易量时间序列中存在长程相关性和幂律衰减的证据以及最佳买价和最佳卖价下的交易量之间存在强烈的同步性。 |
 
 # 详细
 
@@ -113,7 +114,21 @@
 
     We define and develop an approach for risk budgeting allocation -- a risk diversification portfolio strategy -- where risk is measured using a dynamic time-consistent risk measure. For this, we introduce a notion of dynamic risk contributions that generalise the classical Euler contributions and which allow us to obtain dynamic risk contributions in a recursive manner. We prove that, for the class of dynamic coherent distortion risk measures, the risk allocation problem may be recast as a sequence of strictly convex optimisation problems. Moreover, we show that any self-financing dynamic risk budgeting strategy with initial wealth of $1$ is a scaled version of the unique solution of the sequence of convex optimisation problems. Furthermore, we develop an actor-critic approach, leveraging the elicitability of dynamic risk measures, to solve for risk budgeting strategy using deep learning.
     
-[^8]: 具有不连续性的本地波动率模型中的极端ATM偏斜：联合密度方法
+[^8]: 精确度与收缩：组合配置中协方差估计方法的比较分析
+
+    Precision versus Shrinkage: A Comparative Analysis of Covariance Estimation Methods for Portfolio Allocation. (arXiv:2305.11298v1 [q-fin.CP])
+
+    [http://arxiv.org/abs/2305.11298](http://arxiv.org/abs/2305.11298)
+
+    本文对组合配置中协方差和精度矩阵估计方法进行了广泛的研究和比较，发现GGM方法优于收缩和其他方法。
+
+    
+
+    本文在组合配置的最小方差投资组合背景下，对不同的协方差和精度矩阵估计方法进行了综合研究。我们研究的模型集可以广泛地分为基于高斯图模型（GGM）的方法、缩小方法、阈值和随机矩阵理论（RMT）的方法等。在这些方法中，GGM方法直接估计精度矩阵，而其他方法估计协方差矩阵。我们进行了合成实验，研究了GGM方法的网络学习和样本复杂度表现。然后，我们比较了所有协方差和精度矩阵估计方法在日、周和月视角下的预测能力。我们认为投资组合风险是估计误差的指标，并将其作为比较所考虑的方法的损失函数。我们发现，GGM方法优于压缩和其他方法。我们对GGM方法在各个时间视角下的表现进行了观察。
+
+    In this paper, we perform a comprehensive study of different covariance and precision matrix estimation methods in the context of minimum variance portfolio allocation. The set of models studied by us can be broadly categorized as: Gaussian Graphical Model (GGM) based methods, Shrinkage Methods, Thresholding and Random Matrix Theory (RMT) based methods. Among these, GGM methods estimate the precision matrix directly while the other approaches estimate the covariance matrix. We perform a synthetic experiment to study the network learning and sample complexity performance of GGM methods. Thereafter, we compare all the covariance and precision matrix estimation methods in terms of their predictive ability for daily, weekly and monthly horizons. We consider portfolio risk as an indicator of estimation error and employ it as a loss function for comparison of the methods under consideration. We find that GGM methods outperform shrinkage and other approaches. Our observations for the performa
+    
+[^9]: 具有不连续性的本地波动率模型中的极端ATM偏斜：联合密度方法
 
     Extreme ATM skew in a local volatility model with discontinuity: joint density approach. (arXiv:2305.10849v1 [q-fin.MF])
 
@@ -127,7 +142,7 @@
 
     This paper concerns a local volatility model in which volatility takes two possible values, and the specific value depends on whether the underlying price is above or below a given threshold value. The model is known, and a number of results have been obtained for it. In particular, explicit pricing formulas for European options have been recently obtained and applied to establish a power law behaviour of the implied volatility skew in the case when the threshold is taken at the money. These results have been obtained by techniques based on the Laplace transform. The purpose of the present paper is to demonstrate how to obtain the same results by another method. This alternative approach is based on the natural relationship of the model with Skew Brownian motion and consists in the systematic use of the joint distribution of this stochastic process and some of its functionals.
     
-[^9]: 在 L\'evy 市场中基于风险度量的时一致资产配置
+[^10]: 在 L\'evy 市场中基于风险度量的时一致资产配置
 
     Time-Consistent Asset Allocation for Risk Measures in a L\'evy Market. (arXiv:2305.09471v1 [q-fin.MF])
 
@@ -141,7 +156,7 @@
 
     Focusing on gains instead of terminal wealth, we consider an asset allocation problem to maximize time-consistently a mean-risk reward function with a general risk measure which is i) law-invariant, ii) cash- or shift-invariant, and iii) positively homogeneous, and possibly plugged into a general function. We model the market via a generalized version of the multi-dimensional Black-Scholes model using $\alpha$-stable L\'evy processes and give supplementary results for the classical Black-Scholes model. The optimal solution to this problem is a Nash subgame equilibrium given by the solution of an extended Hamilton-Jacobi-Bellman equation. Moreover, we show that the optimal solution is deterministic and unique under appropriate assumptions.
     
-[^10]: 比特币/美元市场的交易量的统计学特性研究
+[^11]: 比特币/美元市场的交易量的统计学特性研究
 
     Statistical properties of volume in the Bitcoin/USD market. (arXiv:2304.01907v1 [q-fin.ST])
 
