@@ -4,28 +4,29 @@
 | --- | --- | --- |
 | [^1] | [Study of the problem of reducing greenhouse gas emissions in agricultural production Czech Republic.](http://arxiv.org/abs/2305.13253) | 本文研究了捷克农业生产中减少温室气体排放的问题，分析了2000-2015年各农业分支机构温室气体排放的动态变化并提出了解决方案。 |
 | [^2] | [Trustless Price Feeds of Cryptocurrencies: Pathfinder.](http://arxiv.org/abs/2305.13227) | 介绍了一种无需第三方的加密货币价格预测方法——Pathfinder，利用比特币区块链和分散式网络提供准确、防篡改的价格数据。 |
-| [^3] | [The Missing Link: Exploring the Relationship Between Transformational Leadership and Change in team members in Construction.](http://arxiv.org/abs/2305.13121) | 该研究探究了变革领导如何通过引起团队成员变化来影响团队流程，发现普通领导与团队流程、变革领导与团队成员变化、团队成员变化与团队流程之间存在显著的正向关系，并发现团队成员变化在变革领导和团队流程之间具有中介作用。 |
-| [^4] | [The Key to Organizational and construction Excellence: A Study of Total Quality Management.](http://arxiv.org/abs/2305.13104) | 本研究发现，通过实施全面质量管理的实践，如高管承诺、教育和培训、过程控制以及持续改进，可以提高组织的绩效结果。 |
-| [^5] | [Ownership Chains in Multinational Enterprises.](http://arxiv.org/abs/2305.12857) | 本文探讨了跨国企业所有权链在跨越国家边界的控制中所扮演的角色，发现大多数外国子公司都是通过所有权链被母公司控制的，论文提出了与此相关的理论模型来解释这一现象。 |
-| [^6] | [A Simulation Package in VBA to Support Finance Students for Constructing Optimal Portfolios.](http://arxiv.org/abs/2305.12826) | 本文介绍了一个使用VBA创建的仿真软件组件，可用于创建最优投资组合。这包括Markowitz的经典方法和El-Khatib和Hatemi-J开发的方法，后者将风险和回报直接结合在优化问题中。软件包在确定投资组合中资产数量方面提供了优势。 |
-| [^7] | [The Emergence of Economic Rationality of GPT.](http://arxiv.org/abs/2305.12763) | 本文研究了GPT在经济理性方面的能力，通过指示其在4个领域中做出预算决策，发现GPT决策基本上是合理的，并且比人类更具有理性。 |
-| [^8] | [The Influence of ChatGPT on Artificial Intelligence Related Crypto Assets: Evidence from a Synthetic Control Analysis.](http://arxiv.org/abs/2305.12739) | OpenAI的大型语言模型ChatGPT的推出对人工智能相关加密资产产生了显著影响，这表现为其平均回报率的提高，而谷歌搜索量则成为了这些资产定价的重要指标。 |
-| [^9] | [Deformation of Marchenko-Pastur distribution for the correlated time series.](http://arxiv.org/abs/2305.12632) | 研究了具有时间相关性的时间序列的Wishart矩阵特征值分布。发现其在双重标度极限下收敛于变形的MPD分布，具有比MPD更长的尾部和更高的峰值，并证明随时间相关性增加，其二阶矩亦随之增加。当时间相关性为幂衰减时，分布存在相变，当幂指数为$\gamma>1/2$时，分布的第二矩和最大特征值均为有限值；而当$\gamma\leq 1/2$时，分布的第二矩和最大特征值均为无限。 |
-| [^10] | [Value-at-Risk-Based Portfolio Insurance: Performance Evaluation and Benchmarking Against CPPI in a Markov-Modulated Regime-Switching Market.](http://arxiv.org/abs/2305.12539) | 该研究提出了基于VaR的投资组合保险策略，并将其与基于恒定比例投资组合保险（CPPI）的策略进行比较。在复杂市场中，VBPI表现更好，并在动荡市场中表现出更好的抗风险能力。 |
-| [^11] | [Machine Learning for Socially Responsible Portfolio Optimisation.](http://arxiv.org/abs/2305.12364) | 本研究使用机器学习实现了适用于社会责任投资者的投资组合优化，通过考虑环境、社会和管理得分来平衡投资夏普比率和社会责任因素。 |
-| [^12] | [The Federal Reserve's Response to the Global Financial Crisis and Its Long-Term Impact: An Interrupted Time-Series Natural Experimental Analysis.](http://arxiv.org/abs/2305.12318) | 本文研究了美联储在全球金融危机中实施的货币政策，在中断时间序列自然实验分析的基础上发现，美联储的定量宽松计划对美国的实际GDP产生了积极影响，但对通货膨胀没有显著的影响。具体而言，美国的人均实际GDP每个季度平均增加了231美元。 |
-| [^13] | [Efficient Learning of Nested Deep Hedging using Multiple Options.](http://arxiv.org/abs/2305.12264) | 本研究开发了一种高效学习嵌套深度对冲的方法，该方法使用多个期权对目标期权进行对冲，使用深度神经网络定价对冲工具，能够有效处理市场摩擦，避免套利机会。 |
-| [^14] | [Volatility jumps and the classification of monetary policy announcements.](http://arxiv.org/abs/2305.12192) | 本文介绍了一种新的基于模型的货币政策公告分类方法，利用不对称跳跃乘性误差模型（AJM）考虑波动率的跳跃成分，并关注公告对波动性跳跃成分的影响。 |
-| [^15] | [Commodity-specific triads in the Dutch inter-industry production network.](http://arxiv.org/abs/2305.12179) | 本文针对荷兰产业生产网络中的187个商品组，分析了其二元和加权三元模式，发现大多数单个产品层面上没有显着的模式，约80％的层只有两个或更少的模式。 |
-| [^16] | [Study on Intelligent Forecasting of Credit Bond Default Risk.](http://arxiv.org/abs/2305.12142) | 该论文提出了一种智能预测信用债违约风险的框架，可以提供精确的按天预测的违约风险预测，以维护中国债券市场的稳定和健康发展。 |
-| [^17] | [ChatGPT and the Labor Market: Unraveling the Effect of AI Discussions on Students' Earnings Expectations.](http://arxiv.org/abs/2305.11900) | 本文研究了 ChatGPT人工智能（AI）讨论对美国学生预期劳动市场结果的因果影响，结果发现学生信心会降低，对未来的收入前景保持悲观态度，这种影响广泛存在于不同学生群体中。这个研究给教育工作者、管理者和政策制定者提供了一个机会，以更好地了解学生的担忧并改进教育课程，使学生更好地准备未来，这个未来必然会被AI改变。 |
-| [^18] | [Judgments of research co-created by generative AI: experimental evidence.](http://arxiv.org/abs/2305.11873) | 本研究探讨了把研究中部分内容交由生成式AI完成，会导致人们不信任和贬低研究人员和科学输出，并可能影响到生成式AI使用的报告问题。 |
-| [^19] | [Executive Voiced Laughter and Social Approval: An Explorative Machine Learning Study.](http://arxiv.org/abs/2305.09485) | 本文探究了行政沟通中的发声笑声对于社会认可的积极影响，特别是当发生双向笑声时。结果表明，这种影响随着组织业绩的下降而增加。 |
-| [^20] | [Democratic Policy Decisions with Decentralized Promises Contingent on Vote Outcome.](http://arxiv.org/abs/2304.08008) | 本文研究了去中心化承诺对民主决策的影响。在投票前，委员会成员可以进行可执行的承诺。可能需要跨越阵营进行承诺，以实现改革的实施，同时需要排除最不热衷于改革的支持者被诱导推翻决定。 |
-| [^21] | [How to handle the COS method for option pricing.](http://arxiv.org/abs/2303.16012) | 介绍了用于欧式期权定价的 Fourier余弦展开 (COS) 方法，通过指定截断范围和项数N进行逼近，文章提出明确的N的上界，对密度平滑并指数衰减的情况，COS方法的收敛阶数至少是指数收敛阶数。 |
-| [^22] | [Pairwise counter-monotonicity.](http://arxiv.org/abs/2302.11701) | 本文系统地研究了负相关性的一种极端形式——一对一反单调性，并且在量位代理的风险共担问题中找到了它的应用价值。 |
-| [^23] | [Neural variance reduction for stochastic differential equations.](http://arxiv.org/abs/2209.12885) | 本文提出了使用神经网络参数化的控制变量的神经 SDE 方法，以减少随机微分方程模拟的方差，并在几个期权定价的数值例子中验证其效果。 |
-| [^24] | [A reverse ES (CVaR) optimization formula.](http://arxiv.org/abs/2203.02599) | 该论文提出一种反向ES优化公式，其中平均超额函数是ES曲线减去线性函数的最大值，揭示了优美的对称性。该公式将ES推广到一种流行的风险度量的类别。 |
+| [^3] | [Complexity measure, kernel density estimation, bandwidth selection, and the efficient market hypothesis.](http://arxiv.org/abs/2305.13123) | 本文使用核方法非参数地估计价格回报的概率密度，提出了一种基于信息理论和复杂系统物理的准则的备选选择方法，并追求避免过度拟合和欠拟合的目的。回顾现有的带宽选择方法，揭示它们对于价格回报的概率分布的复杂性得出了自相矛盾的结论，并在评估有效市场假说的相关性方面产生了惊人后果。 |
+| [^4] | [The Missing Link: Exploring the Relationship Between Transformational Leadership and Change in team members in Construction.](http://arxiv.org/abs/2305.13121) | 该研究探究了变革领导如何通过引起团队成员变化来影响团队流程，发现普通领导与团队流程、变革领导与团队成员变化、团队成员变化与团队流程之间存在显著的正向关系，并发现团队成员变化在变革领导和团队流程之间具有中介作用。 |
+| [^5] | [The Key to Organizational and construction Excellence: A Study of Total Quality Management.](http://arxiv.org/abs/2305.13104) | 本研究发现，通过实施全面质量管理的实践，如高管承诺、教育和培训、过程控制以及持续改进，可以提高组织的绩效结果。 |
+| [^6] | [Ownership Chains in Multinational Enterprises.](http://arxiv.org/abs/2305.12857) | 本文探讨了跨国企业所有权链在跨越国家边界的控制中所扮演的角色，发现大多数外国子公司都是通过所有权链被母公司控制的，论文提出了与此相关的理论模型来解释这一现象。 |
+| [^7] | [A Simulation Package in VBA to Support Finance Students for Constructing Optimal Portfolios.](http://arxiv.org/abs/2305.12826) | 本文介绍了一个使用VBA创建的仿真软件组件，可用于创建最优投资组合。这包括Markowitz的经典方法和El-Khatib和Hatemi-J开发的方法，后者将风险和回报直接结合在优化问题中。软件包在确定投资组合中资产数量方面提供了优势。 |
+| [^8] | [The Emergence of Economic Rationality of GPT.](http://arxiv.org/abs/2305.12763) | 本文研究了GPT在经济理性方面的能力，通过指示其在4个领域中做出预算决策，发现GPT决策基本上是合理的，并且比人类更具有理性。 |
+| [^9] | [The Influence of ChatGPT on Artificial Intelligence Related Crypto Assets: Evidence from a Synthetic Control Analysis.](http://arxiv.org/abs/2305.12739) | OpenAI的大型语言模型ChatGPT的推出对人工智能相关加密资产产生了显著影响，这表现为其平均回报率的提高，而谷歌搜索量则成为了这些资产定价的重要指标。 |
+| [^10] | [Deformation of Marchenko-Pastur distribution for the correlated time series.](http://arxiv.org/abs/2305.12632) | 研究了具有时间相关性的时间序列的Wishart矩阵特征值分布。发现其在双重标度极限下收敛于变形的MPD分布，具有比MPD更长的尾部和更高的峰值，并证明随时间相关性增加，其二阶矩亦随之增加。当时间相关性为幂衰减时，分布存在相变，当幂指数为$\gamma>1/2$时，分布的第二矩和最大特征值均为有限值；而当$\gamma\leq 1/2$时，分布的第二矩和最大特征值均为无限。 |
+| [^11] | [Value-at-Risk-Based Portfolio Insurance: Performance Evaluation and Benchmarking Against CPPI in a Markov-Modulated Regime-Switching Market.](http://arxiv.org/abs/2305.12539) | 该研究提出了基于VaR的投资组合保险策略，并将其与基于恒定比例投资组合保险（CPPI）的策略进行比较。在复杂市场中，VBPI表现更好，并在动荡市场中表现出更好的抗风险能力。 |
+| [^12] | [Machine Learning for Socially Responsible Portfolio Optimisation.](http://arxiv.org/abs/2305.12364) | 本研究使用机器学习实现了适用于社会责任投资者的投资组合优化，通过考虑环境、社会和管理得分来平衡投资夏普比率和社会责任因素。 |
+| [^13] | [The Federal Reserve's Response to the Global Financial Crisis and Its Long-Term Impact: An Interrupted Time-Series Natural Experimental Analysis.](http://arxiv.org/abs/2305.12318) | 本文研究了美联储在全球金融危机中实施的货币政策，在中断时间序列自然实验分析的基础上发现，美联储的定量宽松计划对美国的实际GDP产生了积极影响，但对通货膨胀没有显著的影响。具体而言，美国的人均实际GDP每个季度平均增加了231美元。 |
+| [^14] | [Efficient Learning of Nested Deep Hedging using Multiple Options.](http://arxiv.org/abs/2305.12264) | 本研究开发了一种高效学习嵌套深度对冲的方法，该方法使用多个期权对目标期权进行对冲，使用深度神经网络定价对冲工具，能够有效处理市场摩擦，避免套利机会。 |
+| [^15] | [Volatility jumps and the classification of monetary policy announcements.](http://arxiv.org/abs/2305.12192) | 本文介绍了一种新的基于模型的货币政策公告分类方法，利用不对称跳跃乘性误差模型（AJM）考虑波动率的跳跃成分，并关注公告对波动性跳跃成分的影响。 |
+| [^16] | [Commodity-specific triads in the Dutch inter-industry production network.](http://arxiv.org/abs/2305.12179) | 本文针对荷兰产业生产网络中的187个商品组，分析了其二元和加权三元模式，发现大多数单个产品层面上没有显着的模式，约80％的层只有两个或更少的模式。 |
+| [^17] | [Study on Intelligent Forecasting of Credit Bond Default Risk.](http://arxiv.org/abs/2305.12142) | 该论文提出了一种智能预测信用债违约风险的框架，可以提供精确的按天预测的违约风险预测，以维护中国债券市场的稳定和健康发展。 |
+| [^18] | [ChatGPT and the Labor Market: Unraveling the Effect of AI Discussions on Students' Earnings Expectations.](http://arxiv.org/abs/2305.11900) | 本文研究了 ChatGPT人工智能（AI）讨论对美国学生预期劳动市场结果的因果影响，结果发现学生信心会降低，对未来的收入前景保持悲观态度，这种影响广泛存在于不同学生群体中。这个研究给教育工作者、管理者和政策制定者提供了一个机会，以更好地了解学生的担忧并改进教育课程，使学生更好地准备未来，这个未来必然会被AI改变。 |
+| [^19] | [Judgments of research co-created by generative AI: experimental evidence.](http://arxiv.org/abs/2305.11873) | 本研究探讨了把研究中部分内容交由生成式AI完成，会导致人们不信任和贬低研究人员和科学输出，并可能影响到生成式AI使用的报告问题。 |
+| [^20] | [Executive Voiced Laughter and Social Approval: An Explorative Machine Learning Study.](http://arxiv.org/abs/2305.09485) | 本文探究了行政沟通中的发声笑声对于社会认可的积极影响，特别是当发生双向笑声时。结果表明，这种影响随着组织业绩的下降而增加。 |
+| [^21] | [Democratic Policy Decisions with Decentralized Promises Contingent on Vote Outcome.](http://arxiv.org/abs/2304.08008) | 本文研究了去中心化承诺对民主决策的影响。在投票前，委员会成员可以进行可执行的承诺。可能需要跨越阵营进行承诺，以实现改革的实施，同时需要排除最不热衷于改革的支持者被诱导推翻决定。 |
+| [^22] | [How to handle the COS method for option pricing.](http://arxiv.org/abs/2303.16012) | 介绍了用于欧式期权定价的 Fourier余弦展开 (COS) 方法，通过指定截断范围和项数N进行逼近，文章提出明确的N的上界，对密度平滑并指数衰减的情况，COS方法的收敛阶数至少是指数收敛阶数。 |
+| [^23] | [Pairwise counter-monotonicity.](http://arxiv.org/abs/2302.11701) | 本文系统地研究了负相关性的一种极端形式——一对一反单调性，并且在量位代理的风险共担问题中找到了它的应用价值。 |
+| [^24] | [Neural variance reduction for stochastic differential equations.](http://arxiv.org/abs/2209.12885) | 本文提出了使用神经网络参数化的控制变量的神经 SDE 方法，以减少随机微分方程模拟的方差，并在几个期权定价的数值例子中验证其效果。 |
+| [^25] | [A reverse ES (CVaR) optimization formula.](http://arxiv.org/abs/2203.02599) | 该论文提出一种反向ES优化公式，其中平均超额函数是ES曲线减去线性函数的最大值，揭示了优美的对称性。该公式将ES推广到一种流行的风险度量的类别。 |
 
 # 详细
 
@@ -57,7 +58,21 @@
 
     Price feeds of securities is a critical component for many financial services, allowing for collateral liquidation, margin trading, derivative pricing and more. With the advent of blockchain technology, value in reporting accurate prices without a third party has become apparent. There have been many attempts at trying to calculate prices without a third party, in which each of these attempts have resulted in being exploited by an exploiter artificially inflating the price. The industry has then shifted to a more centralized design, fetching price data from multiple centralized sources and then applying statistical methods to reach a consensus price. Even though this strategy is secure compared to reading from a single source, enough number of sources need to report to be able to apply statistical methods. As more sources participate in reporting the price, the feed gets more secure with the slowest feed becoming the bottleneck for query response time, introducing a tradeoff between se
     
-[^3]: 普通领导与变革领导之间的关系：建筑团队中变革领导与团队成员变化的探究
+[^3]: 复杂性度量、核密度估计、带宽选择和有效市场假说
+
+    Complexity measure, kernel density estimation, bandwidth selection, and the efficient market hypothesis. (arXiv:2305.13123v1 [q-fin.ST])
+
+    [http://arxiv.org/abs/2305.13123](http://arxiv.org/abs/2305.13123)
+
+    本文使用核方法非参数地估计价格回报的概率密度，提出了一种基于信息理论和复杂系统物理的准则的备选选择方法，并追求避免过度拟合和欠拟合的目的。回顾现有的带宽选择方法，揭示它们对于价格回报的概率分布的复杂性得出了自相矛盾的结论，并在评估有效市场假说的相关性方面产生了惊人后果。
+
+    
+
+    本文旨在使用核方法非参数地估计价格回报的概率密度。该方法的输出严重依赖于带宽参数的选择。统计学文献中提出了许多选择方法。我们提出了一种基于信息理论和复杂系统物理的准则的备选选择方法：所选带宽最大化了一种新的复杂性度量，旨在避免过度拟合和欠拟合。本文回顾了现有的带宽选择方法，并表明它们对于价格回报的概率分布的复杂性会得出自相矛盾的结论。这在评估有效市场假说的相关性方面也有一些惊人的后果。我们将这些方法应用于比特币等真实金融数据。
+
+    We are interested in the nonparametric estimation of the probability density of price returns, using the kernel approach. The output of the method heavily relies on the selection of a bandwidth parameter. Many selection methods have been proposed in the statistical literature. We put forward an alternative selection method based on a criterion coming from information theory and from the physics of complex systems: the bandwidth to be selected maximizes a new measure of complexity, with the aim of avoiding both overfitting and underfitting. We review existing methods of bandwidth selection and show that they lead to contradictory conclusions regarding the complexity of the probability distribution of price returns. This has also some striking consequences in the evaluation of the relevance of the efficient market hypothesis. We apply these methods to real financial data, focusing on the Bitcoin.
+    
+[^4]: 普通领导与变革领导之间的关系：建筑团队中变革领导与团队成员变化的探究
 
     The Missing Link: Exploring the Relationship Between Transformational Leadership and Change in team members in Construction. (arXiv:2305.13121v1 [econ.GN])
 
@@ -71,7 +86,7 @@
 
     This study aimed to investigate how transformational leadership affects team processes, mediated by change in team members. A self-administered questionnaire was distributed to construction project team members in Abuja and Kaduna, and statistical analysis revealed a significant positive relationship between transformational leadership and team processes, transformational leadership and change in team members, changes in team members and team processes, and changes in team members mediating the relationship between transformational leadership and team processes. Future studies should consider cultural differences.
     
-[^4]: 组织和建设卓越的关键：全面质量管理研究
+[^5]: 组织和建设卓越的关键：全面质量管理研究
 
     The Key to Organizational and construction Excellence: A Study of Total Quality Management. (arXiv:2305.13104v1 [econ.GN])
 
@@ -85,7 +100,7 @@
 
     This study examines the impact of Total Quality Management (TQM) practices on organizational outcomes. Results show a significant relationship between TQM practices such as top executive commitment, education and teaching, process control, and continuous progress, and how they can be leveraged to enhance performance outcomes.
     
-[^5]: 跨国企业中的所有权链
+[^6]: 跨国企业中的所有权链
 
     Ownership Chains in Multinational Enterprises. (arXiv:2305.12857v1 [econ.GN])
 
@@ -99,7 +114,7 @@
 
     In this contribution, we investigate the role of ownership chains developed by multinational enterprises across different national borders. First, we document that parent companies control a majority (58%) of foreign subsidiaries through indirect control relationships involving at least two countries along an ownership chain. Therefore, we hypothesize that locations along ownership chains are driven by the existence of communication costs to transmit management decisions. In line with motivating evidence, we develop a theoretical model for competition on corporate control that considers the possibility that parent companies in the origin countries can delegate their monitoring activities in final subsidiaries to middlemen subsidiaries that are located in intermediate jurisdictions. Our model returns us a two-step empirical strategy with two gravity equations: i) a triangular gravity for establishing a middleman by the parent, conditional on final investments' locations; ii) a classical
     
-[^6]: 支持金融学生构建最优投资组合的VBA仿真软件包
+[^7]: 支持金融学生构建最优投资组合的VBA仿真软件包
 
     A Simulation Package in VBA to Support Finance Students for Constructing Optimal Portfolios. (arXiv:2305.12826v1 [q-fin.PM])
 
@@ -113,7 +128,7 @@
 
     This paper introduces a software component created in Visual Basic for Applications (VBA) that can be applied for creating an optimal portfolio using two different methods. The first method is the seminal approach of Markowitz that is based on finding budget shares via the minimization of the variance of the underlying portfolio. The second method is developed by El-Khatib and Hatemi-J, which combines risk and return directly in the optimization problem and yields budget shares that lead to maximizing the risk adjusted return of the portfolio. This approach is consistent with the expectation of rational investors since these investors consider both risk and return as the fundamental basis for selection of the investment assets. Our package offers another advantage that is usually neglected in the literature, which is the number of assets that should be included in the portfolio. The common practice is to assume that the number of assets is given exogenously when the portfolio is constr
     
-[^7]: GPT的经济理性出现
+[^8]: GPT的经济理性出现
 
     The Emergence of Economic Rationality of GPT. (arXiv:2305.12763v1 [econ.GN])
 
@@ -127,7 +142,7 @@
 
     As large language models (LLMs) like GPT become increasingly prevalent, it is essential that we assess their capabilities beyond language processing. This paper examines the economic rationality of GPT by instructing it to make budgetary decisions in four domains: risk, time, social, and food preferences. We measure economic rationality by assessing the consistency of GPT decisions with utility maximization in classic revealed preference theory. We find that GPT decisions are largely rational in each domain and demonstrate higher rationality scores than those of humans reported in the literature. We also find that the rationality scores are robust to the degree of randomness and demographic settings such as age and gender, but are sensitive to contexts based on the language frames of the choice situations. These results suggest the potential of LLMs to make good decisions and the need to further understand their capabilities, limitations, and underlying mechanisms.
     
-[^8]: ChatGPT对人工智能相关加密资产的影响：基于合成控制分析的证据
+[^9]: ChatGPT对人工智能相关加密资产的影响：基于合成控制分析的证据
 
     The Influence of ChatGPT on Artificial Intelligence Related Crypto Assets: Evidence from a Synthetic Control Analysis. (arXiv:2305.12739v1 [q-fin.GN])
 
@@ -141,7 +156,7 @@
 
     The introduction of OpenAI's large language model, ChatGPT, catalyzed investor attention towards artificial intelligence (AI) technologies, including AI-related crypto assets not directly related to ChatGPT. Utilizing the synthetic difference-in-difference methodology, we identify significant 'ChatGPT effects' with returns of AI-related crypto assets experiencing average returns ranging between 10.7% and 15.6% (35.5% to 41.3%) in the one-month (two-month) period after the ChatGPT launch. Furthermore, Google search volumes, a proxy for attention to AI, emerged as critical pricing indicators for AI-related crypto post-launch. We conclude that investors perceived AI-assets as possessing heightened potential or value after the launch, resulting in higher market valuations.
     
-[^9]: 相关时间序列的Marchenko-Pastur分布的变形
+[^10]: 相关时间序列的Marchenko-Pastur分布的变形
 
     Deformation of Marchenko-Pastur distribution for the correlated time series. (arXiv:2305.12632v1 [cond-mat.stat-mech])
 
@@ -155,7 +170,7 @@
 
     We study the eigenvalue of the Wishart matrix which is created form the time series with the temporal correlation. When there is no correlation, the eigenvalue distribution of the Wishart matrix is known as the Marchenko-Pastur distribution (MPD) in the double scaling limit. When there is the temporal correlation, the eigenvalue distribution converges to the deformed MPD which has longer tail and higher peak than the MPD. We discuss the moments of the distribution and the convergence to the deformed MPD. We show the second moment increases as the temporal correlation increases. When the temporal correlation is the power decay, we can confirm the phase transition. When $\gamma>1/2$ which is the power index, the second moment of the distribution is finite and the largest eigenvalue is finite. On the other hand, when $\gamma\leq 1/2$, the second moment is infinite and the maximum eigenvalue is infinite.
     
-[^10]: 基于 Value-at-Risk（VaR）的组合保险策略与 CPPI 在马尔科夫调制的 regime-switching 市场的表现评估和基准比较
+[^11]: 基于 Value-at-Risk（VaR）的组合保险策略与 CPPI 在马尔科夫调制的 regime-switching 市场的表现评估和基准比较
 
     Value-at-Risk-Based Portfolio Insurance: Performance Evaluation and Benchmarking Against CPPI in a Markov-Modulated Regime-Switching Market. (arXiv:2305.12539v1 [q-fin.CP])
 
@@ -169,7 +184,7 @@
 
     Designing dynamic portfolio insurance strategies under market conditions switching between two or more regimes is a challenging task in financial economics. Recently, a promising approach employing the value-at-risk (VaR) measure to assign weights to risky and riskless assets has been proposed in [Jiang C., Ma Y. and An Y. "The effectiveness of the VaR-based portfolio insurance strategy: An empirical analysis" , International Review of Financial Analysis 18(4) (2009): 185-197]. In their study, the risky asset follows a geometric Brownian motion with constant drift and diffusion coefficients. In this paper, we first extend their idea to a regime-switching framework in which the expected return of the risky asset and its volatility depend on an unobservable Markovian term which describes the cyclical nature of asset returns in modern financial markets. We then analyze and compare the resulting VaR-based portfolio insurance (VBPI) strategy with the well-known constant proportion portfolio
     
-[^11]: 机器学习用于社会责任投资组合优化
+[^12]: 机器学习用于社会责任投资组合优化
 
     Machine Learning for Socially Responsible Portfolio Optimisation. (arXiv:2305.12364v1 [q-fin.PM])
 
@@ -183,7 +198,7 @@
 
     Socially responsible investors build investment portfolios intending to incite social and environmental advancement alongside a financial return. Although Mean-Variance (MV) models successfully generate the highest possible return based on an investor's risk tolerance, MV models do not make provisions for additional constraints relevant to socially responsible (SR) investors. In response to this problem, the MV model must consider Environmental, Social, and Governance (ESG) scores in optimisation. Based on the prominent MV model, this study implements portfolio optimisation for socially responsible investors. The amended MV model allows SR investors to enter markets with competitive SR portfolios despite facing a trade-off between their investment Sharpe Ratio and the average ESG score of the portfolio.
     
-[^12]: 美联储对全球金融危机的应对及其长期影响：一项中断时间序列自然实验分析
+[^13]: 美联储对全球金融危机的应对及其长期影响：一项中断时间序列自然实验分析
 
     The Federal Reserve's Response to the Global Financial Crisis and Its Long-Term Impact: An Interrupted Time-Series Natural Experimental Analysis. (arXiv:2305.12318v1 [econ.GN])
 
@@ -197,7 +212,7 @@
 
     This paper examines the monetary policies the Federal Reserve implemented in response to the Global Financial Crisis. More specifically, it analyzes the Federal Reserve's quantitative easing (QE) programs, liquidity facilities, and forward guidance operations conducted from 2007 to 2018. The essay's detailed examination of these policies culminates in an interrupted time-series (ITS) analysis of the long-term causal effects of the QE programs on U.S. inflation and real GDP. The results of this formal design-based natural experimental approach show that the QE operations positively affected U.S. real GDP but did not significantly impact U.S. inflation. Specifically, it is found that, for the 2011Q2-2018Q4 post-QE period, real GDP per capita in the U.S. increased by an average of 231 dollars per quarter relative to how it would have changed had the QE programs not been conducted. Moreover, the results show that, in 2018Q4, ten years after the beginning of the QE programs, real GDP per ca
     
-[^13]: 使用多个期权高效学习嵌套深度对冲
+[^14]: 使用多个期权高效学习嵌套深度对冲
 
     Efficient Learning of Nested Deep Hedging using Multiple Options. (arXiv:2305.12264v1 [q-fin.CP])
 
@@ -211,7 +226,7 @@
 
     Deep hedging is a framework for hedging derivatives in the presence of market frictions. In this study, we focus on the problem of hedging a given target option by using multiple options. To extend the deep hedging framework to this setting, the options used as hedging instruments also have to be priced during training. While one might use classical pricing model such as the Black-Scholes formula, ignoring frictions can offer arbitrage opportunities which are undesirable for deep hedging learning. The goal of this study is to develop a nested deep hedging method. That is, we develop a fully-deep approach of deep hedging in which the hedging instruments are also priced by deep neural networks that are aware of frictions. However, since the prices of hedging instruments have to be calculated under many different conditions, the entire learning process can be computationally intractable. To overcome this problem, we propose an efficient learning method for nested deep hedging. Our method 
     
-[^14]: 波动性跳跃和货币政策公告的分类
+[^15]: 波动性跳跃和货币政策公告的分类
 
     Volatility jumps and the classification of monetary policy announcements. (arXiv:2305.12192v1 [econ.GN])
 
@@ -225,7 +240,7 @@
 
     Central Banks interventions are frequent in response to exogenous events with direct implications on financial market volatility. In this paper, we introduce the Asymmetric Jump Multiplicative Error Model (AJM), which accounts for a specific jump component of volatility within an intradaily framework. Taking the Federal Reserve (Fed) as a reference, we propose a new model-based classification of monetary announcements based on their impact on the jump component of volatility. Focusing on a short window following each Fed's communication, we isolate the impact of monetary announcements from any contamination carried by relevant events that may occur within the same announcement day.
     
-[^15]: 荷兰产业生产网络中的商品特定三元组
+[^16]: 荷兰产业生产网络中的商品特定三元组
 
     Commodity-specific triads in the Dutch inter-industry production network. (arXiv:2305.12179v1 [physics.soc-ph])
 
@@ -239,7 +254,7 @@
 
     Triadic motifs are the smallest building blocks of higher-order interactions in complex networks and can be detected as over-occurrences with respect to null models with only pair-wise interactions. Recently, the motif structure of production networks has attracted attention in light of its possible role in the propagation of economic shocks. However, its characterization at the level of individual commodities is still poorly understood. Here we analyse both binary and weighted triadic motifs in the Dutch inter-industry production network disaggregated at the level of 187 commodity groups, using data from Statistics Netherlands. We introduce appropriate null models that filter out node heterogeneity and the strong effects of link reciprocity and find that, while the aggregate network that overlays all products is characterized by a multitude of triadic motifs, most single-product layers feature no significant motif, and roughly 80% of the layers feature only two motifs or less. This re
     
-[^16]: 关于信用债违约风险的智能预测研究
+[^17]: 关于信用债违约风险的智能预测研究
 
     Study on Intelligent Forecasting of Credit Bond Default Risk. (arXiv:2305.12142v1 [q-fin.RM])
 
@@ -253,7 +268,7 @@
 
     Credit risk in the China's bond market has become increasingly evident, creating a progressively escalating risk of default for credit bond investors. Given the current incomplete and inaccurate bond information disclosure, timely tracking and forecasting the individual credit bond default risks have become essential to maintain market stability and ensure healthy development. This paper proposes an Intelligent Forecasting Framework for Default Risk that provides precise day-by-day default risk prediction. In this framework, we first summarize the factors that impact credit bond defaults and construct a risk index system. Then, we employ a combined default probability annotation method based on the evolutionary characteristics of bond default risk. The method considers the weighted average of Variational Bayesian Gaussian Mixture estimation, Market Index estimation, and Default Trend Backward estimation for daily default risk annotation of matured or defaulted bonds according to the ri
     
-[^17]: ChatGPT与劳动力市场：揭示AI讨论对学生收入预期影响
+[^18]: ChatGPT与劳动力市场：揭示AI讨论对学生收入预期影响
 
     ChatGPT and the Labor Market: Unraveling the Effect of AI Discussions on Students' Earnings Expectations. (arXiv:2305.11900v1 [econ.GN])
 
@@ -267,7 +282,7 @@
 
     This paper investigates the causal impact of negatively and positively framed ChatGPT Artificial Intelligence (AI) discussions on US students' anticipated labor market outcomes. Our findings reveal students reduce their confidence regarding their future earnings prospects after exposure to AI debates, and this effect is more pronounced after reading discussion excerpts with a negative tone. Unlike STEM majors, students in Non-STEM fields show asymmetric and pessimistic belief changes, suggesting that they might feel more vulnerable to emerging AI technologies. Pessimistic belief updates regarding future earnings are also prevalent across gender and GPA levels, indicating widespread AI concerns among all student subgroups. Educators, administrators, and policymakers may regularly engage with students to address their concerns and enhance educational curricula to better prepare them for a future that will be inevitably shaped by AI.
     
-[^18]: 由生成式AI合作创作的研究的评价：实验证据
+[^19]: 由生成式AI合作创作的研究的评价：实验证据
 
     Judgments of research co-created by generative AI: experimental evidence. (arXiv:2305.11873v1 [cs.HC])
 
@@ -281,7 +296,7 @@
 
     The introduction of ChatGPT has fuelled a public debate on the use of generative AI (large language models; LLMs), including its use by researchers. In the current work, we test whether delegating parts of the research process to LLMs leads people to distrust and devalue researchers and scientific output. Participants (N=402) considered a researcher who delegates elements of the research process to a PhD student or LLM, and rated (1) moral acceptability, (2) trust in the scientist to oversee future projects, and (3) the accuracy and quality of the output. People judged delegating to an LLM as less acceptable than delegating to a human (d = -0.78). Delegation to an LLM also decreased trust to oversee future research projects (d = -0.80), and people thought the results would be less accurate and of lower quality (d = -0.85). We discuss how this devaluation might transfer into the underreporting of generative AI use.
     
-[^19]: 行政人员的发声笑声与社会认可：机器学习研究的探究。 (arXiv:2305.09485v1 [经济学.GN])
+[^20]: 行政人员的发声笑声与社会认可：机器学习研究的探究。 (arXiv:2305.09485v1 [经济学.GN])
 
     Executive Voiced Laughter and Social Approval: An Explorative Machine Learning Study. (arXiv:2305.09485v1 [econ.GN])
 
@@ -295,7 +310,7 @@
 
     We study voiced laughter in executive communication and its effect on social approval. Integrating research on laughter, affect-as-information, and infomediaries' social evaluations of firms, we hypothesize that voiced laughter in executive communication positively affects social approval, defined as audience perceptions of affinity towards an organization. We surmise that the effect of laughter is especially strong for joint laughter, i.e., the number of instances in a given communication venue for which the focal executive and the audience laugh simultaneously. Finally, combining the notions of affect-as-information and negativity bias in human cognition, we hypothesize that the positive effect of laughter on social approval increases with bad organizational performance. We find partial support for our ideas when testing them on panel data comprising 902 German Bundesliga soccer press conferences and media tenor, applying state-of-the-art machine learning approaches for laughter dete
     
-[^20]: 基于投票结果的去中心化承诺对民主决策的影响研究
+[^21]: 基于投票结果的去中心化承诺对民主决策的影响研究
 
     Democratic Policy Decisions with Decentralized Promises Contingent on Vote Outcome. (arXiv:2304.08008v1 [econ.GN])
 
@@ -309,7 +324,7 @@
 
     We study how decentralized utility transfer promises affect collective decision-making by voting. Committee members with varying levels of support and opposition for an efficient reform can make enforceable promises before voting. An equilibrium requires stability and minimal promises. Equilibrium promises exist and are indeterminate, but do share several key characteristics. Equilibria require transfer promises from high to low intensity members and result in enacting the reform. When reform supporters lack sufficient voting power, promises must reach across the aisle. Even if the coalition of reform supporters is decisive, promises must preclude the least enthusiastic supporters of the reform from being enticed to overturn the decision. In that case, equilibrium promises do not need to reach across the aisle. We also discuss a finite sequence of promises that achieve an equilibrium.
     
-[^21]: 如何处理用于期权定价的 COS 方法
+[^22]: 如何处理用于期权定价的 COS 方法
 
     How to handle the COS method for option pricing. (arXiv:2303.16012v1 [q-fin.CP])
 
@@ -323,7 +338,7 @@
 
     The Fourier cosine expansion (COS) method is used for pricing European options numerically very efficiently. To apply the COS method, one has to specify two parameters: a truncation range for the density of the log-returns and a number of terms N to approximate the truncated density by a cosine series. How to choose the truncation range is already known. Here, we are able to find an explicit and useful bound for N as well. We further show that the COS method has at least an exponential order of convergence if the density is smooth and decays exponentially. But, if the density is smooth and has heavy tails like in the Finite Moment Log Stable model, the COS method has not an exponential order of convergence. Numerical experiments confirm the theoretical findings.
     
-[^22]: 一对一反单调性
+[^23]: 一对一反单调性
 
     Pairwise counter-monotonicity. (arXiv:2302.11701v2 [q-fin.RM] UPDATED)
 
@@ -337,7 +352,7 @@
 
     We systemically study pairwise counter-monotonicity, an extremal notion of negative dependence. A stochastic representation and an invariance property are established for this dependence structure. We show that pairwise counter-monotonicity implies negative association, and it is equivalent to joint mix dependence if both are possible for the same marginal distributions. We find an intimate connection between pairwise counter-monotonicity and risk sharing problems for quantile agents. This result highlights the importance of this extremal negative dependence structure in optimal allocations for agents who are not risk averse in the classic sense.
     
-[^23]: 针对随机微分方程的神经方差缩减方法
+[^24]: 针对随机微分方程的神经方差缩减方法
 
     Neural variance reduction for stochastic differential equations. (arXiv:2209.12885v2 [math.NA] UPDATED)
 
@@ -351,7 +366,7 @@
 
     Variance reduction techniques are of crucial importance for the efficiency of Monte Carlo simulations in finance applications. We propose the use of neural SDEs, with control variates parameterized by neural networks, in order to learn approximately optimal control variates and hence reduce variance as trajectories of the SDEs are being simulated. We consider SDEs driven by Brownian motion and, more generally, by L\'{e}vy processes including those with infinite activity. For the latter case, we prove optimality conditions for the variance reduction. Several numerical examples from option pricing are presented.
     
-[^24]: 一种反向ES（CVaR）优化公式
+[^25]: 一种反向ES（CVaR）优化公式
 
     A reverse ES (CVaR) optimization formula. (arXiv:2203.02599v2 [q-fin.RM] UPDATED)
 
