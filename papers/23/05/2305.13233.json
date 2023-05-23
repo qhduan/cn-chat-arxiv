@@ -1,0 +1,12 @@
+{
+    "title": "Gibbs free energies via isobaric-isothermal flows. (arXiv:2305.13233v1 [physics.comp-ph])",
+    "abstract": "We present a machine-learning model based on normalizing flows that is trained to sample from the isobaric-isothermal (NPT) ensemble. In our approach, we approximate the joint distribution of a fully-flexible triclinic simulation box and particle coordinates to achieve a desired internal pressure. We test our model on monatomic water in the cubic and hexagonal ice phases and find excellent agreement of Gibbs free energies and other observables compared with established baselines.",
+    "link": "http://arxiv.org/abs/2305.13233",
+    "context": "Title: Gibbs free energies via isobaric-isothermal flows. (arXiv:2305.13233v1 [physics.comp-ph])\nAbstract: We present a machine-learning model based on normalizing flows that is trained to sample from the isobaric-isothermal (NPT) ensemble. In our approach, we approximate the joint distribution of a fully-flexible triclinic simulation box and particle coordinates to achieve a desired internal pressure. We test our model on monatomic water in the cubic and hexagonal ice phases and find excellent agreement of Gibbs free energies and other observables compared with established baselines.",
+    "path": "papers/23/05/2305.13233.json",
+    "total_tokens": 678,
+    "translated_title": "通过等压等温流获得吉布斯自由能",
+    "translated_abstract": "我们提出了一种基于归一化流的机器学习模型，该模型经过训练可从等压等温（NPT）集合中进行采样。在我们的方法中，我们采用近似方法来得到完全灵活的三斜晶系统的联合分布和粒子坐标以达到所需的内部压力。我们对单原子水在立方和六角冰相中进行测试，并发现与已建立的基线相比，吉布斯自由能和其他可观测量的结果完全一致。",
+    "tldr": "采用机器学习模型利用等压等温流得到吉布斯自由能，并在单原子水的结晶中进行了测试，表现出优秀的性能。",
+    "en_tdlr": "A machine-learning model based on normalizing flows is presented to sample from the isobaric-isothermal (NPT) ensemble and approximate the joint distribution of a fully-flexible triclinic simulation box and particle coordinates to obtain the desired internal pressure. The model was tested on monatomic water in the cubic and hexagonal ice phases, showing excellent performance in computing Gibbs free energies and other observables compared to established baselines."
+}

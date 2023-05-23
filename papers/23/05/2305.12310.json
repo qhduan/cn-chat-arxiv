@@ -1,0 +1,12 @@
+{
+    "title": "Alignment of Density Maps in Wasserstein Distance. (arXiv:2305.12310v1 [eess.IV])",
+    "abstract": "In this paper we propose an algorithm for aligning three-dimensional objects when represented as density maps, motivated by applications in cryogenic electron microscopy. The algorithm is based on minimizing the 1-Wasserstein distance between the density maps after a rigid transformation. The induced loss function enjoys a more benign landscape than its Euclidean counterpart and Bayesian optimization is employed for computation. Numerical experiments show improved accuracy and efficiency over existing algorithms on the alignment of real protein molecules. In the context of aligning heterogeneous pairs, we illustrate a potential need for new distance functions.",
+    "link": "http://arxiv.org/abs/2305.12310",
+    "context": "Title: Alignment of Density Maps in Wasserstein Distance. (arXiv:2305.12310v1 [eess.IV])\nAbstract: In this paper we propose an algorithm for aligning three-dimensional objects when represented as density maps, motivated by applications in cryogenic electron microscopy. The algorithm is based on minimizing the 1-Wasserstein distance between the density maps after a rigid transformation. The induced loss function enjoys a more benign landscape than its Euclidean counterpart and Bayesian optimization is employed for computation. Numerical experiments show improved accuracy and efficiency over existing algorithms on the alignment of real protein molecules. In the context of aligning heterogeneous pairs, we illustrate a potential need for new distance functions.",
+    "path": "papers/23/05/2305.12310.json",
+    "total_tokens": 756,
+    "translated_title": "使用Wasserstein距离对密度地图进行对齐",
+    "translated_abstract": "本文提出一种算法，用于将三维物体表示为密度地图并进行对齐，该算法的动机是在冷冻电子显微镜中的应用。该算法基于在刚性变换后密度地图之间最小化1-Wasserstein距离。引入的损失函数比欧几里得距离场具有更好的特性，并使用贝叶斯优化进行计算。数值实验表明，在真实蛋白质分子的对齐方面，该算法的准确性和效率优于现有算法。在对齐异质对的情况下，我们阐明了新距离函数的潜在需求。",
+    "tldr": "本文提出了一种使用Wasserstein距离对三维物体进行对齐的算法，并通过贝叶斯优化实现计算。在对齐真实蛋白质分子方面，该算法表现出更好的准确性和效率，并阐明了对新距离函数的需求。",
+    "en_tdlr": "This paper proposes an algorithm for aligning three-dimensional objects represented as density maps using Wasserstein distance and Bayesian optimization. The induced loss function has better properties than its Euclidean counterpart. Numerical experiments show improved accuracy and efficiency over existing algorithms in aligning real protein molecules, and a potential need for new distance functions for aligning heterogeneous pairs."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Good Time to Ask: A Learning Framework for Asking for Help in Embodied Visual Navigation. (arXiv:2206.10606v2 [cs.LG] UPDATED)",
+    "abstract": "In reality, it is often more efficient to ask for help than to search the entire space to find an object with an unknown location. We present a learning framework that enables an agent to actively ask for help in such embodied visual navigation tasks, where the feedback informs the agent of where the goal is in its view. To emulate the real-world scenario that a teacher may not always be present, we propose a training curriculum where feedback is not always available. We formulate an uncertainty measure of where the goal is and use empirical results to show that through this approach, the agent learns to ask for help effectively while remaining robust when feedback is not available.",
+    "link": "http://arxiv.org/abs/2206.10606",
+    "context": "Title: Good Time to Ask: A Learning Framework for Asking for Help in Embodied Visual Navigation. (arXiv:2206.10606v2 [cs.LG] UPDATED)\nAbstract: In reality, it is often more efficient to ask for help than to search the entire space to find an object with an unknown location. We present a learning framework that enables an agent to actively ask for help in such embodied visual navigation tasks, where the feedback informs the agent of where the goal is in its view. To emulate the real-world scenario that a teacher may not always be present, we propose a training curriculum where feedback is not always available. We formulate an uncertainty measure of where the goal is and use empirical results to show that through this approach, the agent learns to ask for help effectively while remaining robust when feedback is not available.",
+    "path": "papers/22/06/2206.10606.json",
+    "total_tokens": 770,
+    "translated_title": "好时机: 表达需求式视觉导航中启示求助的学习框架",
+    "translated_abstract": "实际上，询问求助比在未知位置的空间内搜索要更加高效。我们提出了一个学习框架，使得代理能够在这种感知视觉任务中主动地寻求帮助，其中反馈信息告知代理目标在其视野中的位置。为了模拟现实情况下老师不总是在场的场景，我们提出了一个训练课程，在这个过程中反馈信息并不总是可用的。我们制定了一个不确定性度量目标位置，在经验结果的基础上展示了该方法的有效性，即使在缺乏反馈信息的情况下代理依然保持了抗干扰能力。",
+    "tldr": "该论文提出了一种学习框架，使得机器人可以主动寻求帮助以解决表达需求式视觉导航任务中存在的难题，并展示了其在缺乏反馈信息的情况下依然稳健的抗干扰能力。",
+    "en_tdlr": "The paper proposes a learning framework that enables a robot to actively seek help to solve the problems in embodied visual navigation tasks, and demonstrates its robustness against the lack of feedback by formulating an uncertainty measure of the goal location."
+}

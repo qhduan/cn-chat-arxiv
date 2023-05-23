@@ -1,0 +1,12 @@
+{
+    "title": "Experimental results from applying GPT-4 to an unpublished formal language. (arXiv:2305.12196v1 [cs.CL])",
+    "abstract": "Can large language models be used to complete mathematical tasks that are traditionally performed either manually or with the aid of theorem provers? To answer this question, a state-of-the-art system, GPT-4, was provided with a concise natural language specification for a previously unpublished formal system and asked to complete a number of tasks, from stating function and type definitions to proving simple theorems and verifying user-supplied proofs. The system completed all tasks successfully, showed extensive domain knowledge, invented helpful new syntax and semantics, and exhibited generalization and inference abilities. So the answer seems to be: yes.",
+    "link": "http://arxiv.org/abs/2305.12196",
+    "context": "Title: Experimental results from applying GPT-4 to an unpublished formal language. (arXiv:2305.12196v1 [cs.CL])\nAbstract: Can large language models be used to complete mathematical tasks that are traditionally performed either manually or with the aid of theorem provers? To answer this question, a state-of-the-art system, GPT-4, was provided with a concise natural language specification for a previously unpublished formal system and asked to complete a number of tasks, from stating function and type definitions to proving simple theorems and verifying user-supplied proofs. The system completed all tasks successfully, showed extensive domain knowledge, invented helpful new syntax and semantics, and exhibited generalization and inference abilities. So the answer seems to be: yes.",
+    "path": "papers/23/05/2305.12196.json",
+    "total_tokens": 670,
+    "translated_title": "将GPT-4应用于未发表的形式语言的实验结果",
+    "translated_abstract": "大型语言模型能否用于完成传统手动或使用定理证明器完成的数学任务？为了回答这个问题，最先进的系统GPT-4使用简洁的自然语言规范，针对先前未发表的正式系统，完成了一些任务，包括陈述函数和类型定义、证明简单定理和验证用户提供的证明。该系统成功完成了所有任务，展示了广泛的领域知识，发明了有用的新语法和语义，并展示了泛化和推理能力。因此答案似乎是：可以。",
+    "tldr": "GPT-4在一个未发表的正式系统上成功完成了一系列任务，展示了广泛的领域知识，发明了有用的新语法和语义，并展示了泛化和推理能力。",
+    "en_tdlr": "GPT-4 successfully completed a series of tasks on an unpublished formal system, showing extensive domain knowledge, inventing helpful new syntax and semantics, and exhibiting generalization and inference abilities."
+}

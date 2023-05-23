@@ -1,0 +1,12 @@
+{
+    "title": "Gibbsian polar slice sampling. (arXiv:2302.03945v2 [stat.ME] UPDATED)",
+    "abstract": "Polar slice sampling (Roberts & Rosenthal, 2002) is a Markov chain approach for approximate sampling of distributions that is difficult, if not impossible, to implement efficiently, but behaves provably well with respect to the dimension. By updating the directional and radial components of chain iterates separately, we obtain a family of samplers that mimic polar slice sampling, and yet can be implemented efficiently. Numerical experiments in a variety of settings indicate that our proposed algorithm outperforms the two most closely related approaches, elliptical slice sampling (Murray et al., 2010) and hit-and-run uniform slice sampling (MacKay, 2003). We prove the well-definedness and convergence of our methods under suitable assumptions on the target distribution.",
+    "link": "http://arxiv.org/abs/2302.03945",
+    "context": "Title: Gibbsian polar slice sampling. (arXiv:2302.03945v2 [stat.ME] UPDATED)\nAbstract: Polar slice sampling (Roberts & Rosenthal, 2002) is a Markov chain approach for approximate sampling of distributions that is difficult, if not impossible, to implement efficiently, but behaves provably well with respect to the dimension. By updating the directional and radial components of chain iterates separately, we obtain a family of samplers that mimic polar slice sampling, and yet can be implemented efficiently. Numerical experiments in a variety of settings indicate that our proposed algorithm outperforms the two most closely related approaches, elliptical slice sampling (Murray et al., 2010) and hit-and-run uniform slice sampling (MacKay, 2003). We prove the well-definedness and convergence of our methods under suitable assumptions on the target distribution.",
+    "path": "papers/23/02/2302.03945.json",
+    "total_tokens": 725,
+    "translated_title": "Gibbsian极坐标切片采样",
+    "translated_abstract": "极坐标切片采样是一种近似采样分布的马尔科夫链方法，这种方法与维度相关性很好，但实现难度很大，甚至不可能实现。我们在更新链迭代的方向和半径分量时，获得了一系列模拟极坐标切片采样的采样器，同时可以有效地实施。在各种情况下的数值实验表明，我们提出的算法优于最相关的两种方法，即椭圆切片采样和 hit-and-run 均匀切片采样。在目标分布具有适当假设的条件下，我们证明了我们的方法的明确性和收敛性。",
+    "tldr": "本文提出了一种基于Gibbs算法的极坐标切片采样方法，该方法通过更新方向和半径分量实现采样过程，且在实验中表现优越。",
+    "en_tdlr": "This paper proposes a Gibbsian polar slice sampling method which updates the directional and radial components to achieve efficient sampling and outperforms related approaches in numerical experiments."
+}

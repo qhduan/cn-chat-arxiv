@@ -1,0 +1,11 @@
+{
+    "title": "Seeing is Believing: Brain-Inspired Modular Training for Mechanistic Interpretability. (arXiv:2305.08746v2 [cs.NE] UPDATED)",
+    "abstract": "We introduce Brain-Inspired Modular Training (BIMT), a method for making neural networks more modular and interpretable. Inspired by brains, BIMT embeds neurons in a geometric space and augments the loss function with a cost proportional to the length of each neuron connection. We demonstrate that BIMT discovers useful modular neural networks for many simple tasks, revealing compositional structures in symbolic formulas, interpretable decision boundaries and features for classification, and mathematical structure in algorithmic datasets. The ability to directly see modules with the naked eye can complement current mechanistic interpretability strategies such as probes, interventions or staring at all weights.",
+    "link": "http://arxiv.org/abs/2305.08746",
+    "context": "Title: Seeing is Believing: Brain-Inspired Modular Training for Mechanistic Interpretability. (arXiv:2305.08746v2 [cs.NE] UPDATED)\nAbstract: We introduce Brain-Inspired Modular Training (BIMT), a method for making neural networks more modular and interpretable. Inspired by brains, BIMT embeds neurons in a geometric space and augments the loss function with a cost proportional to the length of each neuron connection. We demonstrate that BIMT discovers useful modular neural networks for many simple tasks, revealing compositional structures in symbolic formulas, interpretable decision boundaries and features for classification, and mathematical structure in algorithmic datasets. The ability to directly see modules with the naked eye can complement current mechanistic interpretability strategies such as probes, interventions or staring at all weights.",
+    "path": "papers/23/05/2305.08746.json",
+    "total_tokens": 773,
+    "translated_title": "见证就是信仰：脑启发模块化训练促进机理诠释",
+    "translated_abstract": "我们提出了一种名为脑启发模块化训练（Brain-Inspired Modular Training, BIMT）的方法，旨在使神经网络更加模块化和可诠释。BIMT从大脑受启发，将神经元嵌入到几何空间中，并通过成本与神经元连接长度成正比的方式增强损失函数。我们证明了BIMT可以为许多简单任务发现有用的模块化神经网络，揭示了符号公式中的组合结构、可解释的决策边界和分类特征，以及算法数据集中的数学结构。直接眼睛看到模块的能力可以补充当前的机理解释策略，例如探针，干预或凝视所有权重。",
+    "tldr": "BIMT方法使得神经网络更加模块化和可诠释，并且能够直接展示模块化结构，为许多简单任务提供了有用的信息，并可以补充当前的机理解释策略。"
+}

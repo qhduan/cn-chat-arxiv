@@ -1,0 +1,12 @@
+{
+    "title": "Inventing painting styles through natural inspiration. (arXiv:2305.12015v1 [cs.CV])",
+    "abstract": "We propose two procedures to create painting styles using models trained only on natural images, providing objective proof that the model is not plagiarizing human art styles. In the first procedure we use the inductive bias from the artistic medium to achieve creative expression. Abstraction is achieved by using a reconstruction loss. The second procedure uses an additional natural image as inspiration to create a new style. These two procedures make it possible to invent new painting styles with no artistic training data. We believe that our approach can help pave the way for the ethical employment of generative AI in art, without infringing upon the originality of human creators.",
+    "link": "http://arxiv.org/abs/2305.12015",
+    "context": "Title: Inventing painting styles through natural inspiration. (arXiv:2305.12015v1 [cs.CV])\nAbstract: We propose two procedures to create painting styles using models trained only on natural images, providing objective proof that the model is not plagiarizing human art styles. In the first procedure we use the inductive bias from the artistic medium to achieve creative expression. Abstraction is achieved by using a reconstruction loss. The second procedure uses an additional natural image as inspiration to create a new style. These two procedures make it possible to invent new painting styles with no artistic training data. We believe that our approach can help pave the way for the ethical employment of generative AI in art, without infringing upon the originality of human creators.",
+    "path": "papers/23/05/2305.12015.json",
+    "total_tokens": 727,
+    "translated_title": "通过自然灵感发明绘画风格",
+    "translated_abstract": "我们提出了两种通过仅使用自然图像训练的模型创建绘画风格的方法，从而提供了客观证据证明模型没有剽窃人类艺术风格。在第一种方法中，我们使用艺术媒介的归纳偏置来实现创造性的表达。通过使用重建损失来实现抽象。第二种方法使用额外的自然图像作为灵感来创建新的风格。这两种方法使得可以发明新的绘画风格，而无需艺术训练数据。我们相信，我们的方法可以帮助为艺术中生成AI的合法使用铺平道路，而不侵犯人类创造者的独创性。",
+    "tldr": "本文提出了两种方法，通过仅使用自然图像训练的模型创建绘画风格，而不需要艺术训练数据，这能为艺术中的生成AI合法使用铺平道路。",
+    "en_tdlr": "This paper proposes two procedures to create painting styles using models trained only on natural images, allowing for inventing new painting styles without the need for artistic training data and paving the way for ethical employment of generative AI in art."
+}

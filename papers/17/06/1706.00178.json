@@ -1,0 +1,12 @@
+{
+    "title": "Network Capacity Bound for Personalized PageRank in Multimodal Networks. (arXiv:1706.00178v3 [cs.SI] UPDATED)",
+    "abstract": "In a former paper the concept of Bipartite PageRank was introduced and a theorem on the limit of authority flowing between nodes for personalized PageRank has been generalized. In this paper we want to extend those results to multimodal networks. In particular we deal with a hypergraph type that may be used for describing multimodal network where a hyperlink connects nodes from each of the modalities. We introduce a generalisation of PageRank for such graphs and define the respective random walk model that can be used for computations. We state and prove theorems on the limit of outflow of authority for cases where individual modalities have identical and distinct damping factors.",
+    "link": "http://arxiv.org/abs/1706.00178",
+    "context": "Title: Network Capacity Bound for Personalized PageRank in Multimodal Networks. (arXiv:1706.00178v3 [cs.SI] UPDATED)\nAbstract: In a former paper the concept of Bipartite PageRank was introduced and a theorem on the limit of authority flowing between nodes for personalized PageRank has been generalized. In this paper we want to extend those results to multimodal networks. In particular we deal with a hypergraph type that may be used for describing multimodal network where a hyperlink connects nodes from each of the modalities. We introduce a generalisation of PageRank for such graphs and define the respective random walk model that can be used for computations. We state and prove theorems on the limit of outflow of authority for cases where individual modalities have identical and distinct damping factors.",
+    "path": "papers/17/06/1706.00178.json",
+    "total_tokens": 669,
+    "translated_title": "多模网络中个性化PageRank的网络容量界限",
+    "translated_abstract": "在一篇先前的论文中，介绍了双分图PageRank的概念，并推广了个性化PageRank中节点之间授权流限制的定理。本文将这些结果推广到多模网络中。我们特别处理了一种用于描述多模网络的超图类型，其中超链接将每个模态的节点连接起来。我们引入了这种图的PageRank概率分布，并定义了相应的随机游走模型，可用于计算。我们对具有相同和不同阻尼因子的情况下授权流出量的极限情况进行了陈述和证明。",
+    "tldr": "本文推广双分图PageRank的想法，提出了一种用于多模网络的超图类型，证明了多模网络中个性化PageRank的网络容量界限。",
+    "en_tdlr": "This paper extends the concept of Bipartite PageRank and introduces a hypergraph type for multimodal networks, proving the network capacity bound for personalized PageRank in such networks."
+}

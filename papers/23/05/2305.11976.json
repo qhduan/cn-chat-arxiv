@@ -1,0 +1,12 @@
+{
+    "title": "Unsupervised Change Point Detection for heterogeneous sensor signals. (arXiv:2305.11976v1 [cs.LG])",
+    "abstract": "Change point detection is a crucial aspect of analyzing time series data, as the presence of a change point indicates an abrupt and significant change in the process generating the data. While many algorithms for the problem of change point detection have been developed over time, it can be challenging to select the appropriate algorithm for a specific problem. The choice of the algorithm heavily depends on the nature of the problem and the underlying data source. In this paper, we will exclusively examine unsupervised techniques due to their flexibility in the application to various data sources without the requirement for abundant annotated training data and the re-calibration of the model. The examined methods will be introduced and evaluated based on several criteria to compare the algorithms.",
+    "link": "http://arxiv.org/abs/2305.11976",
+    "context": "Title: Unsupervised Change Point Detection for heterogeneous sensor signals. (arXiv:2305.11976v1 [cs.LG])\nAbstract: Change point detection is a crucial aspect of analyzing time series data, as the presence of a change point indicates an abrupt and significant change in the process generating the data. While many algorithms for the problem of change point detection have been developed over time, it can be challenging to select the appropriate algorithm for a specific problem. The choice of the algorithm heavily depends on the nature of the problem and the underlying data source. In this paper, we will exclusively examine unsupervised techniques due to their flexibility in the application to various data sources without the requirement for abundant annotated training data and the re-calibration of the model. The examined methods will be introduced and evaluated based on several criteria to compare the algorithms.",
+    "path": "papers/23/05/2305.11976.json",
+    "total_tokens": 719,
+    "translated_title": "异构传感器信号的无监督变点检测",
+    "translated_abstract": "变点检测是时间序列数据分析中至关重要的一个方面，因为变点的存在表明生成数据的过程发生了突然而显著的变化。虽然随着时间的推移，许多变点检测算法已被开发出来，但在特定问题中选择合适的算法仍然具有挑战性。算法的选择严重依赖于问题的性质和底层数据源。在本文中，我们将专门考察无监督技术，因为它们适用于各种数据源，而无需大量标注的训练数据和模型的重新校准。介绍并评估了几个标准来比较算法。",
+    "tldr": "本文研究了无监督变点检测技术，该技术灵活适用于各种数据源，无需大量训练数据和重新校准模型。",
+    "en_tdlr": "This paper examines unsupervised change point detection techniques, which are flexible in their application to various data sources without the need for abundant training data or model recalibration."
+}

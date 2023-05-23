@@ -1,0 +1,12 @@
+{
+    "title": "Neural variance reduction for stochastic differential equations. (arXiv:2209.12885v2 [math.NA] UPDATED)",
+    "abstract": "Variance reduction techniques are of crucial importance for the efficiency of Monte Carlo simulations in finance applications. We propose the use of neural SDEs, with control variates parameterized by neural networks, in order to learn approximately optimal control variates and hence reduce variance as trajectories of the SDEs are being simulated. We consider SDEs driven by Brownian motion and, more generally, by L\\'{e}vy processes including those with infinite activity. For the latter case, we prove optimality conditions for the variance reduction. Several numerical examples from option pricing are presented.",
+    "link": "http://arxiv.org/abs/2209.12885",
+    "context": "Title: Neural variance reduction for stochastic differential equations. (arXiv:2209.12885v2 [math.NA] UPDATED)\nAbstract: Variance reduction techniques are of crucial importance for the efficiency of Monte Carlo simulations in finance applications. We propose the use of neural SDEs, with control variates parameterized by neural networks, in order to learn approximately optimal control variates and hence reduce variance as trajectories of the SDEs are being simulated. We consider SDEs driven by Brownian motion and, more generally, by L\\'{e}vy processes including those with infinite activity. For the latter case, we prove optimality conditions for the variance reduction. Several numerical examples from option pricing are presented.",
+    "path": "papers/22/09/2209.12885.json",
+    "total_tokens": 718,
+    "translated_title": "针对随机微分方程的神经方差缩减方法",
+    "translated_abstract": "方差缩减技术对于金融应用中蒙特卡罗模拟的效率非常重要。我们提出使用神经 SDE（随机微分方程），其中的控制变量由神经网络参数化，以学习近似最优控制变量，从而在模拟 SDE 轨迹时减少方差。我们考虑由布朗运动驱动的 SDE 和更一般的由 L\\'{e}vy 过程驱动的 SDE，包括那些具有无限活动的 SDE。对于后一种情况，我们证明了方差缩减的最优性条件。我们展示了几个关于期权定价的数值例子。",
+    "tldr": "本文提出了使用神经网络参数化的控制变量的神经 SDE 方法，以减少随机微分方程模拟的方差，并在几个期权定价的数值例子中验证其效果。",
+    "en_tdlr": "This paper proposes the use of neural SDEs with control variates parameterized by neural networks to reduce the variance of Monte Carlo simulations in finance applications. The effectiveness of this method is validated in several numerical examples of option pricing."
+}

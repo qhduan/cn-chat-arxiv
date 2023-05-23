@@ -1,0 +1,12 @@
+{
+    "title": "Accurate Knowledge Distillation with n-best Reranking. (arXiv:2305.12057v1 [cs.CL])",
+    "abstract": "We propose extending the Sequence-level Knowledge Distillation (Kim and Rush, 2016) with n-best reranking to consider not only the top-1 hypotheses but also the top n-best hypotheses of teacher models. Our approach leverages a diverse set of models, including publicly-available large pretrained models, to provide more accurate pseudo-labels for training student models. We validate our proposal on the WMT21 German-English translation task and demonstrate that our student model achieves comparable accuracy to a large translation model with 4.7 billion parameters from (Tran et al., 2021) while having two orders of magnitude fewer parameters.",
+    "link": "http://arxiv.org/abs/2305.12057",
+    "context": "Title: Accurate Knowledge Distillation with n-best Reranking. (arXiv:2305.12057v1 [cs.CL])\nAbstract: We propose extending the Sequence-level Knowledge Distillation (Kim and Rush, 2016) with n-best reranking to consider not only the top-1 hypotheses but also the top n-best hypotheses of teacher models. Our approach leverages a diverse set of models, including publicly-available large pretrained models, to provide more accurate pseudo-labels for training student models. We validate our proposal on the WMT21 German-English translation task and demonstrate that our student model achieves comparable accuracy to a large translation model with 4.7 billion parameters from (Tran et al., 2021) while having two orders of magnitude fewer parameters.",
+    "path": "papers/23/05/2305.12057.json",
+    "total_tokens": 724,
+    "translated_title": "基于n-best重排序的精准知识蒸馏",
+    "translated_abstract": "我们提出了一种带有n-best重排序的序列级别知识蒸馏方法，该方法考虑了教师模型的top-1假设以及top n-best假设。我们的方法利用包括公开可用的大型预训练模型在内的多种模型，为训练学生模型提供更准确的伪标签。我们在WMT21德英翻译任务上验证了我们的提议，并证明我们的学生模型在具有两个数量级较少的参数的情况下，实现了与Tran等人（2021年）的包含47亿参数的大型翻译模型相当的精度。",
+    "tldr": "该论文提出了一种基于n-best重排序的知识蒸馏方法，通过使用多种模型提供伪标签，训练出参数更少但精度相当的学生模型。",
+    "en_tdlr": "This paper proposes an accurate knowledge distillation method with n-best reranking, which utilizes diverse set of models to provide more accurate pseudo-labels for training student models, resulting in a student model with comparable accuracy to a large translation model with 4.7 billion parameters while having two orders of magnitude fewer parameters."
+}

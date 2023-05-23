@@ -1,0 +1,12 @@
+{
+    "title": "SepIt: Approaching a Single Channel Speech Separation Bound. (arXiv:2205.11801v4 [eess.AS] UPDATED)",
+    "abstract": "We present an upper bound for the Single Channel Speech Separation task, which is based on an assumption regarding the nature of short segments of speech. Using the bound, we are able to show that while the recent methods have made significant progress for a few speakers, there is room for improvement for five and ten speakers. We then introduce a Deep neural network, SepIt, that iteratively improves the different speakers' estimation. At test time, SpeIt has a varying number of iterations per test sample, based on a mutual information criterion that arises from our analysis. In an extensive set of experiments, SepIt outperforms the state-of-the-art neural networks for 2, 3, 5, and 10 speakers.",
+    "link": "http://arxiv.org/abs/2205.11801",
+    "context": "Title: SepIt: Approaching a Single Channel Speech Separation Bound. (arXiv:2205.11801v4 [eess.AS] UPDATED)\nAbstract: We present an upper bound for the Single Channel Speech Separation task, which is based on an assumption regarding the nature of short segments of speech. Using the bound, we are able to show that while the recent methods have made significant progress for a few speakers, there is room for improvement for five and ten speakers. We then introduce a Deep neural network, SepIt, that iteratively improves the different speakers' estimation. At test time, SpeIt has a varying number of iterations per test sample, based on a mutual information criterion that arises from our analysis. In an extensive set of experiments, SepIt outperforms the state-of-the-art neural networks for 2, 3, 5, and 10 speakers.",
+    "path": "papers/22/05/2205.11801.json",
+    "total_tokens": 777,
+    "translated_title": "SepIt: 接近单通道语音分离界限的方法",
+    "translated_abstract": "我们提出了一种单通道语音分离任务的上界，该上界基于对语音短时段性质的假设。使用该上界，我们能够展示，虽然最近的方法已经取得了在少数几个说话人的情况下显著的进展，但在5个和10个说话人的情况下还有提高的空间。接着，我们引入了深度神经网络SepIt来迭代地改进不同说话人的估计。在测试时，SepIt对于每个测试样本的迭代次数是可变的，基于我们分析中出现的互信息标准。通过广泛的实验，SepIt在2、3、5和10个说话人的情况下胜过了最先进的神经网络方法。",
+    "tldr": "该论文提出了一种接近单通道语音分离界限的方法SepIt，在实验中表现优于最先进的神经网络方法，尤其是在5个和10个说话人的情况下仍有提高空间。",
+    "en_tdlr": "The paper proposes an approach, SepIt, which approaches the upper bound for the Single Channel Speech Separation task and outperforms state-of-the-art neural networks, especially for the case of 5 and 10 speakers, according to extensive experiments."
+}

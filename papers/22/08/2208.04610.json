@@ -1,0 +1,12 @@
+{
+    "title": "LAMDA-SSL: Semi-Supervised Learning in Python. (arXiv:2208.04610v2 [cs.LG] UPDATED)",
+    "abstract": "LAMDA-SSL is open-sourced on GitHub and its detailed usage documentation is available at https://ygzwqzd.github.io/LAMDA-SSL/. This documentation introduces LAMDA-SSL in detail from various aspects and can be divided into four parts. The first part introduces the design idea, features and functions of LAMDA-SSL. The second part shows the usage of LAMDA-SSL by abundant examples in detail. The third part introduces all algorithms implemented by LAMDA-SSL to help users quickly understand and choose SSL algorithms. The fourth part shows the APIs of LAMDA-SSL. This detailed documentation greatly reduces the cost of familiarizing users with LAMDA-SSL toolkit and SSL algorithms.",
+    "link": "http://arxiv.org/abs/2208.04610",
+    "context": "Title: LAMDA-SSL: Semi-Supervised Learning in Python. (arXiv:2208.04610v2 [cs.LG] UPDATED)\nAbstract: LAMDA-SSL is open-sourced on GitHub and its detailed usage documentation is available at https://ygzwqzd.github.io/LAMDA-SSL/. This documentation introduces LAMDA-SSL in detail from various aspects and can be divided into four parts. The first part introduces the design idea, features and functions of LAMDA-SSL. The second part shows the usage of LAMDA-SSL by abundant examples in detail. The third part introduces all algorithms implemented by LAMDA-SSL to help users quickly understand and choose SSL algorithms. The fourth part shows the APIs of LAMDA-SSL. This detailed documentation greatly reduces the cost of familiarizing users with LAMDA-SSL toolkit and SSL algorithms.",
+    "path": "papers/22/08/2208.04610.json",
+    "total_tokens": 729,
+    "translated_title": "LAMDA-SSL：Python中的半监督学习工具包",
+    "translated_abstract": "LAMDA-SSL在GitHub上开源，其详细用法文档可以在https://ygzwqzd.github.io/LAMDA-SSL/上获得。该文档从不同角度详细介绍了LAMDA-SSL，并可以分为四个部分。第一部分介绍了LAMDA-SSL的设计理念、特点和功能。第二部分通过丰富的例子详细说明了LAMDA-SSL的用法。第三部分介绍了由LAMDA-SSL实现的所有算法，帮助用户快速了解和选择SSL算法。第四部分展示了LAMDA-SSL的API。这份详细的文档极大地降低了用户熟悉LAMDA-SSL工具包和SSL算法的成本。",
+    "tldr": "LAMDA-SSL是一款Python半监督学习工具包，提供了详细的用法文档和实现的所有算法，极大地方便了用户使用。",
+    "en_tdlr": "LAMDA-SSL is a Python semi-supervised learning toolkit that provides detailed usage documentation and implements all algorithms, greatly facilitating user usage."
+}

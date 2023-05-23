@@ -1,0 +1,12 @@
+{
+    "title": "Revisiting Entropy Rate Constancy in Text. (arXiv:2305.12084v1 [cs.CL])",
+    "abstract": "The uniform information density (UID) hypothesis states that humans tend to distribute information roughly evenly across an utterance or discourse. Early evidence in support of the UID hypothesis came from Genzel & Charniak (2002), which proposed an entropy rate constancy principle based on the probability of English text under n-gram language models. We re-evaluate the claims of Genzel & Charniak (2002) with neural language models, failing to find clear evidence in support of entropy rate constancy. We conduct a range of experiments across datasets, model sizes, and languages and discuss implications for the uniform information density hypothesis and linguistic theories of efficient communication more broadly.",
+    "link": "http://arxiv.org/abs/2305.12084",
+    "context": "Title: Revisiting Entropy Rate Constancy in Text. (arXiv:2305.12084v1 [cs.CL])\nAbstract: The uniform information density (UID) hypothesis states that humans tend to distribute information roughly evenly across an utterance or discourse. Early evidence in support of the UID hypothesis came from Genzel & Charniak (2002), which proposed an entropy rate constancy principle based on the probability of English text under n-gram language models. We re-evaluate the claims of Genzel & Charniak (2002) with neural language models, failing to find clear evidence in support of entropy rate constancy. We conduct a range of experiments across datasets, model sizes, and languages and discuss implications for the uniform information density hypothesis and linguistic theories of efficient communication more broadly.",
+    "path": "papers/23/05/2305.12084.json",
+    "total_tokens": 715,
+    "translated_title": "重访文本熵率恒定",
+    "translated_abstract": "统一信息密度（UID）假说表明，人类倾向于在话语或话语中大致均匀分布信息。支持UID假说的早期证据来自Genzel＆Charniak（2002），他们基于n-gram语言模型下英文文本的概率提出了熵率恒定原理。本文使用神经语言模型重新评估Genzel＆Charniak（2002）的说法，未能找到明显的支持熵率恒定的证据。我们在数据集、模型大小和语言等方面进行了一系列实验，并讨论了统一信息密度假说和更广泛的有效传播语言理论的含义。",
+    "tldr": "本论文使用神经语言模型重新评估了基于n-gram语言模型下英文文本的概率提出的熵率恒定原理，未能找到明显的支持熵率恒定的证据。",
+    "en_tdlr": "This paper re-evaluates the entropy rate constancy principle based on the probability of English text under n-gram language models, using neural language models, and fails to find clear evidence in support of it."
+}

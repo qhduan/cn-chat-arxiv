@@ -1,0 +1,12 @@
+{
+    "title": "MultiTurnCleanup: A Benchmark for Multi-Turn Spoken Conversational Transcript Cleanup. (arXiv:2305.12029v1 [cs.CL])",
+    "abstract": "Current disfluency detection models focus on individual utterances each from a single speaker. However, numerous discontinuity phenomena in spoken conversational transcripts occur across multiple turns, hampering human readability and the performance of downstream NLP tasks. This study addresses these phenomena by proposing an innovative Multi-Turn Cleanup task for spoken conversational transcripts and collecting a new dataset, MultiTurnCleanup1. We design a data labeling schema to collect the high-quality dataset and provide extensive data analysis. Furthermore, we leverage two modeling approaches for experimental evaluation as benchmarks for future research.",
+    "link": "http://arxiv.org/abs/2305.12029",
+    "context": "Title: MultiTurnCleanup: A Benchmark for Multi-Turn Spoken Conversational Transcript Cleanup. (arXiv:2305.12029v1 [cs.CL])\nAbstract: Current disfluency detection models focus on individual utterances each from a single speaker. However, numerous discontinuity phenomena in spoken conversational transcripts occur across multiple turns, hampering human readability and the performance of downstream NLP tasks. This study addresses these phenomena by proposing an innovative Multi-Turn Cleanup task for spoken conversational transcripts and collecting a new dataset, MultiTurnCleanup1. We design a data labeling schema to collect the high-quality dataset and provide extensive data analysis. Furthermore, we leverage two modeling approaches for experimental evaluation as benchmarks for future research.",
+    "path": "papers/23/05/2305.12029.json",
+    "total_tokens": 727,
+    "translated_title": "MultiTurnCleanup：用于多轮口语会话转录清理的基准测试",
+    "translated_abstract": "目前的语调不连续检测模型侧重于单个说话者的每个话语。然而，口语会话转录中的许多不连续现象都发生在多轮对话中，这影响了人类的可读性和下游 NLP 任务的性能。本研究通过提出创新的“MultiTurnCleanup”任务，针对口语会话转录中的不连续现象进行探讨，并收集了新的数据集MultiTurnCleanup1。我们设计了一种数据标注模式以收集高质量的数据集，提供了广泛的数据分析。此外，我们利用两种建模方法进行实验评估，作为未来研究的基准测试。",
+    "tldr": "本研究提出了MultiTurnCleanup任务，收集了新的数据集MultiTurnCleanup1，针对口语会话转录中的不连续现象进行探讨并提供了两个可用于未来研究的基准测试模型。",
+    "en_tdlr": "This study proposes a benchmark task, MultiTurnCleanup, and collects a new dataset, MultiTurnCleanup1, to address discontinuity phenomena in spoken conversational transcripts across multiple turns. They provide extensive data analysis and leverage two modeling approaches as benchmarks for future research."
+}

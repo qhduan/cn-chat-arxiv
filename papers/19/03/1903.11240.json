@@ -1,0 +1,12 @@
+{
+    "title": "Eigenvalue and Generalized Eigenvalue Problems: Tutorial. (arXiv:1903.11240v3 [stat.ML] UPDATED)",
+    "abstract": "This paper is a tutorial for eigenvalue and generalized eigenvalue problems. We first introduce eigenvalue problem, eigen-decomposition (spectral decomposition), and generalized eigenvalue problem. Then, we mention the optimization problems which yield to the eigenvalue and generalized eigenvalue problems. We also provide examples from machine learning, including principal component analysis, kernel supervised principal component analysis, and Fisher discriminant analysis, which result in eigenvalue and generalized eigenvalue problems. Finally, we introduce the solutions to both eigenvalue and generalized eigenvalue problems.",
+    "link": "http://arxiv.org/abs/1903.11240",
+    "context": "Title: Eigenvalue and Generalized Eigenvalue Problems: Tutorial. (arXiv:1903.11240v3 [stat.ML] UPDATED)\nAbstract: This paper is a tutorial for eigenvalue and generalized eigenvalue problems. We first introduce eigenvalue problem, eigen-decomposition (spectral decomposition), and generalized eigenvalue problem. Then, we mention the optimization problems which yield to the eigenvalue and generalized eigenvalue problems. We also provide examples from machine learning, including principal component analysis, kernel supervised principal component analysis, and Fisher discriminant analysis, which result in eigenvalue and generalized eigenvalue problems. Finally, we introduce the solutions to both eigenvalue and generalized eigenvalue problems.",
+    "path": "papers/19/03/1903.11240.json",
+    "total_tokens": 663,
+    "translated_title": "特征值和广义特征值问题：教程",
+    "translated_abstract": "本文是特征值和广义特征值问题的教程。我们首先介绍了特征值问题、特征值分解（谱分解）和广义特征值问题。然后，我们提到了导致特征值和广义特征值问题的优化问题。我们还提供了机器学习中的例子，包括主成分分析、核监督主成分分析和Fisher判别分析，这些方法都会导致特征值和广义特征值问题。最后，我们介绍了解决特征值和广义特征值问题的方法。",
+    "tldr": "本文是一篇阐述特征值和广义特征值问题的教程。特征值和广义特征值问题可用于各种机器学习算法中，如主成分分析和Fisher判别分析等。",
+    "en_tdlr": "This paper is a tutorial on eigenvalue and generalized eigenvalue problems. These problems are used in various machine learning algorithms, such as principal component analysis and Fisher discriminant analysis."
+}

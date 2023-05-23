@@ -1,0 +1,12 @@
+{
+    "title": "Survey on software ISP methods based on Deep Learning. (arXiv:2305.11994v1 [cs.LG])",
+    "abstract": "The entire Image Signal Processor (ISP) of a camera relies on several processes to transform the data from the Color Filter Array (CFA) sensor, such as demosaicing, denoising, and enhancement. These processes can be executed either by some hardware or via software. In recent years, Deep Learning has emerged as one solution for some of them or even to replace the entire ISP using a single neural network for the task. In this work, we investigated several recent pieces of research in this area and provide deeper analysis and comparison among them, including results and possible points of improvement for future researchers.",
+    "link": "http://arxiv.org/abs/2305.11994",
+    "context": "Title: Survey on software ISP methods based on Deep Learning. (arXiv:2305.11994v1 [cs.LG])\nAbstract: The entire Image Signal Processor (ISP) of a camera relies on several processes to transform the data from the Color Filter Array (CFA) sensor, such as demosaicing, denoising, and enhancement. These processes can be executed either by some hardware or via software. In recent years, Deep Learning has emerged as one solution for some of them or even to replace the entire ISP using a single neural network for the task. In this work, we investigated several recent pieces of research in this area and provide deeper analysis and comparison among them, including results and possible points of improvement for future researchers.",
+    "path": "papers/23/05/2305.11994.json",
+    "total_tokens": 734,
+    "translated_title": "基于深度学习的软件图像信号处理方法综述",
+    "translated_abstract": "相机的整个图像信号处理器（ISP）依靠多个过程将来自彩色滤波阵列（CFA）传感器的数据转换，例如去马赛克、降噪和增强。这些过程可以通过某些硬件或软件来执行。近年来，深度学习已经成为了其中一些过程的解决方案，甚至可以使用单个神经网络替代整个ISP。在本文中，我们调查了该领域内的几项最新研究，并对这些方法进行了深入的分析和比较，包括结果及未来研究的可能改进点。",
+    "tldr": "本文综述了基于深度学习的软件图像信号处理方法，包括去马赛克、降噪和增强等多个过程，研究并分析了最新的几项研究，并对方法进行了比较和改进点的探讨。",
+    "en_tdlr": "This paper provides an overview of software Image Signal Processor (ISP) methods based on Deep Learning, including demosaicing, denoising, and enhancement. Recent research in this area is analyzed and compared with possible points of improvement for future researchers."
+}

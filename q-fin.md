@@ -2,172 +2,367 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Trustworthy, responsible, ethical AI in manufacturing and supply chains: synthesis and emerging research questions.](http://arxiv.org/abs/2305.11581) | 本文探讨了在制造业背景下，可信、负责、道德的人工智能的适用性，并使用实例讨论了每一步可能导致的人工智能信任问题，同时还提出了未来的研究问题。 |
-| [^2] | [The Global Governance of Artificial Intelligence: Next Steps for Empirical and Normative Research.](http://arxiv.org/abs/2305.11528) | 本文提出了人工智能全球治理研究的议程，包括实证方法和规范方法。实证方法旨在绘制和解释全球人工智能治理；规范方法旨在开发和应用全球人工智能治理标准。同时，本文指出，探索人工智能作为监管问题是优化现有一般方法的重要机会。 |
-| [^3] | [AI Regulation in the European Union: Examining Non-State Actor Preferences.](http://arxiv.org/abs/2305.11523) | 本篇文章研究了欧洲联盟AI法案，对非国家行为者的规制偏好进行了系统分析。所有类型的非国家行为者都支持对AI进行某种形式的规制，但是在规制范围和严格性上存在显着差异，这可以解释为行业水平的竞争和法规可能带来的分配结果差异。 |
-| [^4] | [Artificial intelligence moral agent as Adam Smith's impartial spectator.](http://arxiv.org/abs/2305.11519) | 本文讨论了使用人工智能作为外部代替工具，扮演亚当·斯密的公正旁观者角色的可能性，以提供更全面的道德评估视角。 |
-| [^5] | [Practical algorithms and experimentally validated incentives for equilibrium-based fair division (A-CEEI).](http://arxiv.org/abs/2305.11406) | 本文介绍了基于均衡概念的公平分配算法A-CEEI，开发了一种新的启发式算法，使我们第一次能够对真实世界的输入进行实验。研究发现，即使在符合EF-TB和SP-L属性的现实实施中，代理也可能有惊人而合理的不真实报告偏离。 |
-| [^6] | [Weighing Anchor on Credit Card Debt.](http://arxiv.org/abs/2305.11375) | 信用卡最低支付金额的锚定效应对于消费者的支付行为产生了显著的影响，并提出了去除锚定干预措施来改善消费者的支付习惯。 |
-| [^7] | [Risk Budgeting Allocation for Dynamic Risk Measures.](http://arxiv.org/abs/2305.11319) | 该论文提出了一种基于动态风险度量的风险分配策略，引入了动态风险贡献的概念进行递归计算，证明了该问题可以被重新表述为一系列严格凸的优化问题，并开发了一种演员-评论家方法解决问题。 |
-| [^8] | [Precision versus Shrinkage: A Comparative Analysis of Covariance Estimation Methods for Portfolio Allocation.](http://arxiv.org/abs/2305.11298) | 本文对组合配置中协方差和精度矩阵估计方法进行了广泛的研究和比较，发现GGM方法优于收缩和其他方法。 |
-| [^9] | [Extreme ATM skew in a local volatility model with discontinuity: joint density approach.](http://arxiv.org/abs/2305.10849) | 本文研究了一种本地波动率模型，其中波动率在基础价格高于或低于某一阈值时分别取两个特定取值。通过联合分布方法，确认了该模型下当阈值位于平价处时，隐含波动率偏斜的幂律行为。 |
-| [^10] | [Time-Consistent Asset Allocation for Risk Measures in a L\'evy Market.](http://arxiv.org/abs/2305.09471) | 本文研究了使用风险度量进行资产配置的问题，通过使用广义的风险度量，最大化时间一致的平均风险回报函数。作者模拟了市场，并在符合条件的情况下证明了该问题的最优解是确定性且唯一的。 |
-| [^11] | [Statistical properties of volume in the Bitcoin/USD market.](http://arxiv.org/abs/2304.01907) | 本文研究了比特币/美元市场中最佳买价和最佳卖价下的交易量的统计特性，发现交易量时间序列中存在长程相关性和幂律衰减的证据以及最佳买价和最佳卖价下的交易量之间存在强烈的同步性。 |
+| [^1] | [Study of the problem of reducing greenhouse gas emissions in agricultural production Czech Republic.](http://arxiv.org/abs/2305.13253) | 本文研究了捷克农业生产中减少温室气体排放的问题，分析了2000-2015年各农业分支机构温室气体排放的动态变化并提出了解决方案。 |
+| [^2] | [Trustless Price Feeds of Cryptocurrencies: Pathfinder.](http://arxiv.org/abs/2305.13227) | 介绍了一种无需第三方的加密货币价格预测方法——Pathfinder，利用比特币区块链和分散式网络提供准确、防篡改的价格数据。 |
+| [^3] | [The Missing Link: Exploring the Relationship Between Transformational Leadership and Change in team members in Construction.](http://arxiv.org/abs/2305.13121) | 该研究探究了变革领导如何通过引起团队成员变化来影响团队流程，发现普通领导与团队流程、变革领导与团队成员变化、团队成员变化与团队流程之间存在显著的正向关系，并发现团队成员变化在变革领导和团队流程之间具有中介作用。 |
+| [^4] | [The Key to Organizational and construction Excellence: A Study of Total Quality Management.](http://arxiv.org/abs/2305.13104) | 本研究发现，通过实施全面质量管理的实践，如高管承诺、教育和培训、过程控制以及持续改进，可以提高组织的绩效结果。 |
+| [^5] | [Ownership Chains in Multinational Enterprises.](http://arxiv.org/abs/2305.12857) | 本文探讨了跨国企业所有权链在跨越国家边界的控制中所扮演的角色，发现大多数外国子公司都是通过所有权链被母公司控制的，论文提出了与此相关的理论模型来解释这一现象。 |
+| [^6] | [A Simulation Package in VBA to Support Finance Students for Constructing Optimal Portfolios.](http://arxiv.org/abs/2305.12826) | 本文介绍了一个使用VBA创建的仿真软件组件，可用于创建最优投资组合。这包括Markowitz的经典方法和El-Khatib和Hatemi-J开发的方法，后者将风险和回报直接结合在优化问题中。软件包在确定投资组合中资产数量方面提供了优势。 |
+| [^7] | [The Emergence of Economic Rationality of GPT.](http://arxiv.org/abs/2305.12763) | 本文研究了GPT在经济理性方面的能力，通过指示其在4个领域中做出预算决策，发现GPT决策基本上是合理的，并且比人类更具有理性。 |
+| [^8] | [The Influence of ChatGPT on Artificial Intelligence Related Crypto Assets: Evidence from a Synthetic Control Analysis.](http://arxiv.org/abs/2305.12739) | OpenAI的大型语言模型ChatGPT的推出对人工智能相关加密资产产生了显著影响，这表现为其平均回报率的提高，而谷歌搜索量则成为了这些资产定价的重要指标。 |
+| [^9] | [Deformation of Marchenko-Pastur distribution for the correlated time series.](http://arxiv.org/abs/2305.12632) | 研究了具有时间相关性的时间序列的Wishart矩阵特征值分布。发现其在双重标度极限下收敛于变形的MPD分布，具有比MPD更长的尾部和更高的峰值，并证明随时间相关性增加，其二阶矩亦随之增加。当时间相关性为幂衰减时，分布存在相变，当幂指数为$\gamma>1/2$时，分布的第二矩和最大特征值均为有限值；而当$\gamma\leq 1/2$时，分布的第二矩和最大特征值均为无限。 |
+| [^10] | [Value-at-Risk-Based Portfolio Insurance: Performance Evaluation and Benchmarking Against CPPI in a Markov-Modulated Regime-Switching Market.](http://arxiv.org/abs/2305.12539) | 该研究提出了基于VaR的投资组合保险策略，并将其与基于恒定比例投资组合保险（CPPI）的策略进行比较。在复杂市场中，VBPI表现更好，并在动荡市场中表现出更好的抗风险能力。 |
+| [^11] | [Machine Learning for Socially Responsible Portfolio Optimisation.](http://arxiv.org/abs/2305.12364) | 本研究使用机器学习实现了适用于社会责任投资者的投资组合优化，通过考虑环境、社会和管理得分来平衡投资夏普比率和社会责任因素。 |
+| [^12] | [The Federal Reserve's Response to the Global Financial Crisis and Its Long-Term Impact: An Interrupted Time-Series Natural Experimental Analysis.](http://arxiv.org/abs/2305.12318) | 本文研究了美联储在全球金融危机中实施的货币政策，在中断时间序列自然实验分析的基础上发现，美联储的定量宽松计划对美国的实际GDP产生了积极影响，但对通货膨胀没有显著的影响。具体而言，美国的人均实际GDP每个季度平均增加了231美元。 |
+| [^13] | [Efficient Learning of Nested Deep Hedging using Multiple Options.](http://arxiv.org/abs/2305.12264) | 本研究开发了一种高效学习嵌套深度对冲的方法，该方法使用多个期权对目标期权进行对冲，使用深度神经网络定价对冲工具，能够有效处理市场摩擦，避免套利机会。 |
+| [^14] | [Volatility jumps and the classification of monetary policy announcements.](http://arxiv.org/abs/2305.12192) | 本文介绍了一种新的基于模型的货币政策公告分类方法，利用不对称跳跃乘性误差模型（AJM）考虑波动率的跳跃成分，并关注公告对波动性跳跃成分的影响。 |
+| [^15] | [Commodity-specific triads in the Dutch inter-industry production network.](http://arxiv.org/abs/2305.12179) | 本文针对荷兰产业生产网络中的187个商品组，分析了其二元和加权三元模式，发现大多数单个产品层面上没有显着的模式，约80％的层只有两个或更少的模式。 |
+| [^16] | [Study on Intelligent Forecasting of Credit Bond Default Risk.](http://arxiv.org/abs/2305.12142) | 该论文提出了一种智能预测信用债违约风险的框架，可以提供精确的按天预测的违约风险预测，以维护中国债券市场的稳定和健康发展。 |
+| [^17] | [ChatGPT and the Labor Market: Unraveling the Effect of AI Discussions on Students' Earnings Expectations.](http://arxiv.org/abs/2305.11900) | 本文研究了 ChatGPT人工智能（AI）讨论对美国学生预期劳动市场结果的因果影响，结果发现学生信心会降低，对未来的收入前景保持悲观态度，这种影响广泛存在于不同学生群体中。这个研究给教育工作者、管理者和政策制定者提供了一个机会，以更好地了解学生的担忧并改进教育课程，使学生更好地准备未来，这个未来必然会被AI改变。 |
+| [^18] | [Judgments of research co-created by generative AI: experimental evidence.](http://arxiv.org/abs/2305.11873) | 本研究探讨了把研究中部分内容交由生成式AI完成，会导致人们不信任和贬低研究人员和科学输出，并可能影响到生成式AI使用的报告问题。 |
+| [^19] | [Executive Voiced Laughter and Social Approval: An Explorative Machine Learning Study.](http://arxiv.org/abs/2305.09485) | 本文探究了行政沟通中的发声笑声对于社会认可的积极影响，特别是当发生双向笑声时。结果表明，这种影响随着组织业绩的下降而增加。 |
+| [^20] | [Democratic Policy Decisions with Decentralized Promises Contingent on Vote Outcome.](http://arxiv.org/abs/2304.08008) | 本文研究了去中心化承诺对民主决策的影响。在投票前，委员会成员可以进行可执行的承诺。可能需要跨越阵营进行承诺，以实现改革的实施，同时需要排除最不热衷于改革的支持者被诱导推翻决定。 |
+| [^21] | [How to handle the COS method for option pricing.](http://arxiv.org/abs/2303.16012) | 介绍了用于欧式期权定价的 Fourier余弦展开 (COS) 方法，通过指定截断范围和项数N进行逼近，文章提出明确的N的上界，对密度平滑并指数衰减的情况，COS方法的收敛阶数至少是指数收敛阶数。 |
+| [^22] | [Pairwise counter-monotonicity.](http://arxiv.org/abs/2302.11701) | 本文系统地研究了负相关性的一种极端形式——一对一反单调性，并且在量位代理的风险共担问题中找到了它的应用价值。 |
+| [^23] | [Neural variance reduction for stochastic differential equations.](http://arxiv.org/abs/2209.12885) | 本文提出了使用神经网络参数化的控制变量的神经 SDE 方法，以减少随机微分方程模拟的方差，并在几个期权定价的数值例子中验证其效果。 |
+| [^24] | [A reverse ES (CVaR) optimization formula.](http://arxiv.org/abs/2203.02599) | 该论文提出一种反向ES优化公式，其中平均超额函数是ES曲线减去线性函数的最大值，揭示了优美的对称性。该公式将ES推广到一种流行的风险度量的类别。 |
 
 # 详细
 
-[^1]: 制造业和供应链中可信、负责、道德的人工智能：综述及新兴研究问题
+[^1]: 研究捷克农业生产中减少温室气体排放问题
 
-    Trustworthy, responsible, ethical AI in manufacturing and supply chains: synthesis and emerging research questions. (arXiv:2305.11581v1 [cs.AI])
+    Study of the problem of reducing greenhouse gas emissions in agricultural production Czech Republic. (arXiv:2305.13253v1 [econ.GN])
 
-    [http://arxiv.org/abs/2305.11581](http://arxiv.org/abs/2305.11581)
+    [http://arxiv.org/abs/2305.13253](http://arxiv.org/abs/2305.13253)
 
-    本文探讨了在制造业背景下，可信、负责、道德的人工智能的适用性，并使用实例讨论了每一步可能导致的人工智能信任问题，同时还提出了未来的研究问题。
-
-    
-
-    尽管制造业中人工智能的应用越来越普遍，但对于可能引发的风险仍知之甚少。虽然提出了各种高层框架和定义来巩固潜在风险，但从业者仍难以理解和实施。这种缺乏理解使得制造业面临着多种风险，包括组织、工人以及供应商和客户。在本文中，我们探讨和解释了负责、道德和可信的人工智能在制造业背景下的适用性。然后，我们使用机器学习生命周期的扩展版本，通过实例讨论了每一步可能导致的人工智能信任问题。此外，我们还提出了一些研究问题，以帮助制造业研究界引领未来的研究，以获得经济和社会的双重益处。
-
-    While the increased use of AI in the manufacturing sector has been widely noted, there is little understanding on the risks that it may raise in a manufacturing organisation. Although various high level frameworks and definitions have been proposed to consolidate potential risks, practitioners struggle with understanding and implementing them.  This lack of understanding exposes manufacturing to a multitude of risks, including the organisation, its workers, as well as suppliers and clients. In this paper, we explore and interpret the applicability of responsible, ethical, and trustworthy AI within the context of manufacturing. We then use a broadened adaptation of a machine learning lifecycle to discuss, through the use of illustrative examples, how each step may result in a given AI trustworthiness concern. We additionally propose a number of research questions to the manufacturing research community, in order to help guide future research so that the economic and societal benefits en
-    
-[^2]: 人工智能的全球治理：实证和规范研究的下一步。
-
-    The Global Governance of Artificial Intelligence: Next Steps for Empirical and Normative Research. (arXiv:2305.11528v1 [econ.GN])
-
-    [http://arxiv.org/abs/2305.11528](http://arxiv.org/abs/2305.11528)
-
-    本文提出了人工智能全球治理研究的议程，包括实证方法和规范方法。实证方法旨在绘制和解释全球人工智能治理；规范方法旨在开发和应用全球人工智能治理标准。同时，本文指出，探索人工智能作为监管问题是优化现有一般方法的重要机会。
+    本文研究了捷克农业生产中减少温室气体排放的问题，分析了2000-2015年各农业分支机构温室气体排放的动态变化并提出了解决方案。
 
     
 
-    人工智能代表了一场潜在改变人类社会的技术变革。由于其变革潜力，人工智能越来越受到全球监管举措的影响。然而，到目前为止，政治学和国际关系的学者更多地关注于人工智能应用，而不是全球人工智能监管的新兴架构。本文旨在概述人工智能全球治理研究的议程。本文区分了两种广泛的视角：一种是实证方法，旨在绘制和解释全球人工智能治理；另一种是规范方法，旨在开发和应用适当的全球人工智能治理标准。这两种方法提供了有助于理解人工智能全球治理新兴情况的问题、概念和理论。相反，探索人工智能作为监管问题提供了一个重要机会，可以优化现有的一般方法。
+    农业生产是温室气体排放的主要来源，因此对全球变暖的动态变化有很大影响。本文研究了捷克农业生产者在减少温室气体排放方面面临的问题。作者分析了2000-2015年各农业分支机构温室气体排放的动态变化。作者提出了t-协方差系数，用于确定给定表格宏观经济指标的相互依赖关系。该指标可分析不具有正态分布的宏观经济变量间的相互依赖关系。在经济全球化和各国需要应对全球变暖的背景下，首要生产最大附加值和最小温室气体排放的农产品是有意义的。
 
-    Artificial intelligence (AI) represents a technological upheaval with the potential to change human society. Because of its transformative potential, AI is increasingly becoming subject to regulatory initiatives at the global level. Yet, so far, scholarship in political science and international relations has focused more on AI applications than on the emerging architecture of global AI regulation. The purpose of this article is to outline an agenda for research into the global governance of AI. The article distinguishes between two broad perspectives: an empirical approach, aimed at mapping and explaining global AI governance; and a normative approach, aimed at developing and applying standards for appropriate global AI governance. The two approaches offer questions, concepts, and theories that are helpful in gaining an understanding of the emerging global governance of AI. Conversely, exploring AI as a regulatory issue offers a critical opportunity to refine existing general approach
+    Agricultural production is the main source of greenhouse gas emissions, and therefore it has a great influence on the dynamics of changes in global warming. The article investigated the problems faced by Czech agricultural producers on the way to reduce greenhouse gas emissions. The author analyzed the dynamics of greenhouse gas emissions by various branches of agriculture for the period 2000-2015. The author proposed the coefficient t -covariances to determine the interdependence of the given tabular macroeconomic values. This indicator allows you to analyze the interdependence of macroeconomic variables that do not have a normal distribution. In the context of the globalization of the economy and the need to combat global warming in each country, it makes sense to produce primarily agricultural products that provide maximum added value with maximum greenhouse gas emissions.
     
-[^3]: 欧洲联盟的人工智能规制: 探究非国家行为者的偏好
+[^2]: 无需信任的加密货币价格预测：Pathfinder。
 
-    AI Regulation in the European Union: Examining Non-State Actor Preferences. (arXiv:2305.11523v1 [econ.GN])
+    Trustless Price Feeds of Cryptocurrencies: Pathfinder. (arXiv:2305.13227v1 [q-fin.CP])
 
-    [http://arxiv.org/abs/2305.11523](http://arxiv.org/abs/2305.11523)
+    [http://arxiv.org/abs/2305.13227](http://arxiv.org/abs/2305.13227)
 
-    本篇文章研究了欧洲联盟AI法案，对非国家行为者的规制偏好进行了系统分析。所有类型的非国家行为者都支持对AI进行某种形式的规制，但是在规制范围和严格性上存在显着差异，这可以解释为行业水平的竞争和法规可能带来的分配结果差异。
-
-    
-
-    随着人工智能（AI）的发展和应用不断增长，政策制定者越来越在努力解决如何规制该技术的问题。最具影响力的国际倡议是欧洲联盟（EU）的AI法案，旨在建立第一个全面的AI规制框架。本文首次系统分析了非国家行为者对人工智能国际规制的偏好，重点研究了EU AI法案的情况。在理论上，我们阐述了商业行为者和其他非国家行为者在不同的AI行业竞争条件下的规制偏好的论点。在经验上，我们使用关于欧洲AI规制的公共咨询中非国家行为者偏好的数据来测试这些期望。我们的研究结果有三个方面。首先，所有类型的非国家行为者都表达了对AI的担忧，并支持以某种形式规制AI。其次，尽管如此，不同类型的非国家行为者在AI的规制严格性和范围方面存在显着差异。第三，这些差异部分可以通过规制可能带来的行业水平竞争和分配结果的差异来解释。总体而言，我们的分析揭示了AI规制的复杂和有争议的政治，不仅在欧盟内部，而且超越欧盟的背景下也是如此。
-
-    As the development and use of artificial intelligence (AI) continues to grow, policymakers are increasingly grappling with the question of how to regulate this technology. The most far-reaching international initiative is the European Union (EU) AI Act, which aims to establish the first comprehensive framework for regulating AI. In this article, we offer the first systematic analysis of non-state actor preferences toward international regulation of AI, focusing on the case of the EU AI Act. Theoretically, we develop an argument about the regulatory preferences of business actors and other non-state actors under varying conditions of AI sector competitiveness. Empirically, we test these expectations using data on non-state actor preferences from public consultations on European AI regulation. Our findings are threefold. First, all types of non-state actors express concerns about AI and support regulation in some form. Second, there are nonetheless significant differences across actor ty
-    
-[^4]: 人工智能作为亚当·斯密的公正旁观者的道德代理
-
-    Artificial intelligence moral agent as Adam Smith's impartial spectator. (arXiv:2305.11519v1 [econ.GN])
-
-    [http://arxiv.org/abs/2305.11519](http://arxiv.org/abs/2305.11519)
-
-    本文讨论了使用人工智能作为外部代替工具，扮演亚当·斯密的公正旁观者角色的可能性，以提供更全面的道德评估视角。
+    介绍了一种无需第三方的加密货币价格预测方法——Pathfinder，利用比特币区块链和分散式网络提供准确、防篡改的价格数据。
 
     
 
-    亚当·斯密发展了一种道德哲学，认为通过审问我们内在的公正旁观者做出更好的决策。我们讨论了使用一个外部的、非基于人类的代替工具的可能性，它将增强我们的内在思维过程，扮演公正旁观者的角色。这种工具将拥有更多的关于世界的知识，更公正，提供更全面的道德评估视角。
+    证券价格预测是许多金融服务的关键组成部分，它允许抵押品清算、保证金交易、衍生品定价等。随着区块链技术的出现，报道准确价格的价值变得明显，而不需要第三方。已经有许多尝试计算价格而不需要第三方的尝试，但每个尝试都被一个人为捏造价格的攻击者所利用。随着更多的数据源参与报告价格，速度和安全之间存在权衡。本文介绍了一种利用比特币区块链和一个分散式网络的预测加密货币价格的方法，该方法不需要中央机构并确保价格预测不会被操纵。我们通过实验和模拟展示了我们方法的有效性。
 
-    Adam Smith developed a version of moral philosophy where better decisions are made by interrogating an impartial spectator within us. We discuss the possibility of using an external non-human-based substitute tool that would augment our internal mental processes and play the role of the impartial spectator. Such tool would have more knowledge about the world, be more impartial, and would provide a more encompassing perspective on moral assessment.
+    Price feeds of securities is a critical component for many financial services, allowing for collateral liquidation, margin trading, derivative pricing and more. With the advent of blockchain technology, value in reporting accurate prices without a third party has become apparent. There have been many attempts at trying to calculate prices without a third party, in which each of these attempts have resulted in being exploited by an exploiter artificially inflating the price. The industry has then shifted to a more centralized design, fetching price data from multiple centralized sources and then applying statistical methods to reach a consensus price. Even though this strategy is secure compared to reading from a single source, enough number of sources need to report to be able to apply statistical methods. As more sources participate in reporting the price, the feed gets more secure with the slowest feed becoming the bottleneck for query response time, introducing a tradeoff between se
     
-[^5]: 基于均衡概念的公平分配的实用算法和实验证明（A-CEEI）
+[^3]: 普通领导与变革领导之间的关系：建筑团队中变革领导与团队成员变化的探究
 
-    Practical algorithms and experimentally validated incentives for equilibrium-based fair division (A-CEEI). (arXiv:2305.11406v1 [cs.GT])
+    The Missing Link: Exploring the Relationship Between Transformational Leadership and Change in team members in Construction. (arXiv:2305.13121v1 [econ.GN])
 
-    [http://arxiv.org/abs/2305.11406](http://arxiv.org/abs/2305.11406)
+    [http://arxiv.org/abs/2305.13121](http://arxiv.org/abs/2305.13121)
 
-    本文介绍了基于均衡概念的公平分配算法A-CEEI，开发了一种新的启发式算法，使我们第一次能够对真实世界的输入进行实验。研究发现，即使在符合EF-TB和SP-L属性的现实实施中，代理也可能有惊人而合理的不真实报告偏离。
-
-    
-
-    “等收入近似竞争均衡”（A-CEEI）是一种基于均衡概念用于将离散物品公平分配给带有组合需求的代理的解决方案概念。在理论上已经知道，在渐近大市场上，对于激励措施，A-CEEI机制是“无嫉妒可但须破坏平手”的（EF-TB），这意味着它是“大范围上的策略证明”（SP-L）。从计算的角度来看，计算均衡解是一种计算上不可行的问题（在最坏的情况下，假设 $\textsf{PPAD} \neq \textsf {FP}$）。我们开发了一种新的启发式算法，其性能比之前的最先进算法高出多个数量级。这种更快的新算法使我们第一次能够对真实世界的输入进行实验。我们发现，即使在符合EF-TB和SP-L属性的现实实施中，代理也可能有惊人而合理的不真实报告偏离。
-
-    Approximate Competitive Equilibrium from Equal Incomes (A-CEEI) is an equilibrium-based solution concept for fair division of discrete items to agents with combinatorial demands. In theory, it is known that in asymptotically large markets:  1. For incentives, the A-CEEI mechanism is Envy-Free-but-for-Tie-Breaking (EF-TB), which implies that it is Strategyproof-in-the-Large (SP-L).  2. From a computational perspective, computing the equilibrium solution is unfortunately a computationally intractable problem (in the worst-case, assuming $\textsf{PPAD}\ne \textsf{FP}$).  We develop a new heuristic algorithm that outperforms the previous state-of-the-art by multiple orders of magnitude. This new, faster algorithm lets us perform experiments on real-world inputs for the first time. We discover that with real-world preferences, even in a realistic implementation that satisfies the EF-TB and SP-L properties, agents may have surprisingly simple and plausible deviations from truthful reporting 
-    
-[^6]: 信用卡欠款的锚定效应
-
-    Weighing Anchor on Credit Card Debt. (arXiv:2305.11375v1 [econ.GN])
-
-    [http://arxiv.org/abs/2305.11375](http://arxiv.org/abs/2305.11375)
-
-    信用卡最低支付金额的锚定效应对于消费者的支付行为产生了显著的影响，并提出了去除锚定干预措施来改善消费者的支付习惯。
+    该研究探究了变革领导如何通过引起团队成员变化来影响团队流程，发现普通领导与团队流程、变革领导与团队成员变化、团队成员变化与团队流程之间存在显著的正向关系，并发现团队成员变化在变革领导和团队流程之间具有中介作用。
 
     
 
-    我们发现，许多没有财务困境的消费者会选择支付或接近支付最低金额，这种模式难以用经济因素来解释，但可以通过给消费者呈现的最低付款信息作为锚定因素来解释。在Stewart（2009）的基础上，我们进行了一个假设的信用卡支付实验，以测试去除锚定效应的干预措施。这种干预措施有效地防止消费者选择合同最低支付金额。它还提高了他们的平均付款水平，并改变了付款分布。通过去除最低支付金额的锚定，消费者日益倾向于选择全额付款-这可能成为消费者的目标付款。我们的创新在于将实验响应与调查响应和实际信用卡付款行为相链接。我们发现，这种干预措施大大提高了消费者的付款水平。
+    该研究旨在研究变革领导如何通过团队成员变化影响团队流程。研究通过向阿布贾和卡杜纳的建筑项目团队成员分发自我管理问卷，利用统计分析揭示了普通领导和团队流程、变革领导和团队成员变化、团队成员变化和团队流程之间存在明显正向关系，变革领导与团队流程之间存在中介作用的团队成员变化。未来的研究应考虑文化差异。
 
-    We find it is common for consumers who are not in financial distress to make credit card payments at or close to the minimum. This pattern is difficult to reconcile with economic factors but can be explained by minimum payment information presented to consumers acting as an anchor that weighs payments down. Building on Stewart (2009), we conduct a hypothetical credit card payment experiment to test an intervention to de-anchor payment choices. This intervention effectively stops consumers selecting payments at the contractual minimum. It also increases their average payments, as well as shifting the distribution of payments. By de-anchoring choices from the minimum, consumers increasingly choose the full payment amount - which potentially seems to act as a target payment for consumers. We innovate by linking the experimental responses to survey responses on financial distress and to actual credit card payment behaviours. We find that the intervention largely increases payments made by 
+    This study aimed to investigate how transformational leadership affects team processes, mediated by change in team members. A self-administered questionnaire was distributed to construction project team members in Abuja and Kaduna, and statistical analysis revealed a significant positive relationship between transformational leadership and team processes, transformational leadership and change in team members, changes in team members and team processes, and changes in team members mediating the relationship between transformational leadership and team processes. Future studies should consider cultural differences.
     
-[^7]: 动态风险度量的风险分配策略
+[^4]: 组织和建设卓越的关键：全面质量管理研究
 
-    Risk Budgeting Allocation for Dynamic Risk Measures. (arXiv:2305.11319v1 [q-fin.MF])
+    The Key to Organizational and construction Excellence: A Study of Total Quality Management. (arXiv:2305.13104v1 [econ.GN])
 
-    [http://arxiv.org/abs/2305.11319](http://arxiv.org/abs/2305.11319)
+    [http://arxiv.org/abs/2305.13104](http://arxiv.org/abs/2305.13104)
 
-    该论文提出了一种基于动态风险度量的风险分配策略，引入了动态风险贡献的概念进行递归计算，证明了该问题可以被重新表述为一系列严格凸的优化问题，并开发了一种演员-评论家方法解决问题。
-
-    
-
-    我们提出了一种风险分配策略，即风险多元化组合策略，在该策略中，使用动态时一致的风险度量来衡量风险。为此，我们引入了一种动态风险贡献的概念，它推广了经典的欧拉贡献，并允许我们以递归方式获得动态风险贡献。我们证明了，对于动态相干畸变风险度量的类别，风险分配问题可以被重新表述为一系列严格凸的优化问题。此外，我们还展示了任何自我融资的动态风险预算策略，其初始财富为1，都是一系列凸优化问题唯一解的缩放版本。此外，我们还开发了一种演员-评论家方法，利用动态风险度量的可激发性，使用深度学习来解决风险预算策略问题。
-
-    We define and develop an approach for risk budgeting allocation -- a risk diversification portfolio strategy -- where risk is measured using a dynamic time-consistent risk measure. For this, we introduce a notion of dynamic risk contributions that generalise the classical Euler contributions and which allow us to obtain dynamic risk contributions in a recursive manner. We prove that, for the class of dynamic coherent distortion risk measures, the risk allocation problem may be recast as a sequence of strictly convex optimisation problems. Moreover, we show that any self-financing dynamic risk budgeting strategy with initial wealth of $1$ is a scaled version of the unique solution of the sequence of convex optimisation problems. Furthermore, we develop an actor-critic approach, leveraging the elicitability of dynamic risk measures, to solve for risk budgeting strategy using deep learning.
-    
-[^8]: 精确度与收缩：组合配置中协方差估计方法的比较分析
-
-    Precision versus Shrinkage: A Comparative Analysis of Covariance Estimation Methods for Portfolio Allocation. (arXiv:2305.11298v1 [q-fin.CP])
-
-    [http://arxiv.org/abs/2305.11298](http://arxiv.org/abs/2305.11298)
-
-    本文对组合配置中协方差和精度矩阵估计方法进行了广泛的研究和比较，发现GGM方法优于收缩和其他方法。
+    本研究发现，通过实施全面质量管理的实践，如高管承诺、教育和培训、过程控制以及持续改进，可以提高组织的绩效结果。
 
     
 
-    本文在组合配置的最小方差投资组合背景下，对不同的协方差和精度矩阵估计方法进行了综合研究。我们研究的模型集可以广泛地分为基于高斯图模型（GGM）的方法、缩小方法、阈值和随机矩阵理论（RMT）的方法等。在这些方法中，GGM方法直接估计精度矩阵，而其他方法估计协方差矩阵。我们进行了合成实验，研究了GGM方法的网络学习和样本复杂度表现。然后，我们比较了所有协方差和精度矩阵估计方法在日、周和月视角下的预测能力。我们认为投资组合风险是估计误差的指标，并将其作为比较所考虑的方法的损失函数。我们发现，GGM方法优于压缩和其他方法。我们对GGM方法在各个时间视角下的表现进行了观察。
+    本研究探讨全面质量管理（TQM）实践对组织绩效的影响。研究结果表明，TQM实践如高管承诺、教育和培训、过程控制以及持续改进等与如何利用这些实践来提高绩效结果之间存在显著的关系。
 
-    In this paper, we perform a comprehensive study of different covariance and precision matrix estimation methods in the context of minimum variance portfolio allocation. The set of models studied by us can be broadly categorized as: Gaussian Graphical Model (GGM) based methods, Shrinkage Methods, Thresholding and Random Matrix Theory (RMT) based methods. Among these, GGM methods estimate the precision matrix directly while the other approaches estimate the covariance matrix. We perform a synthetic experiment to study the network learning and sample complexity performance of GGM methods. Thereafter, we compare all the covariance and precision matrix estimation methods in terms of their predictive ability for daily, weekly and monthly horizons. We consider portfolio risk as an indicator of estimation error and employ it as a loss function for comparison of the methods under consideration. We find that GGM methods outperform shrinkage and other approaches. Our observations for the performa
+    This study examines the impact of Total Quality Management (TQM) practices on organizational outcomes. Results show a significant relationship between TQM practices such as top executive commitment, education and teaching, process control, and continuous progress, and how they can be leveraged to enhance performance outcomes.
     
-[^9]: 具有不连续性的本地波动率模型中的极端ATM偏斜：联合密度方法
+[^5]: 跨国企业中的所有权链
 
-    Extreme ATM skew in a local volatility model with discontinuity: joint density approach. (arXiv:2305.10849v1 [q-fin.MF])
+    Ownership Chains in Multinational Enterprises. (arXiv:2305.12857v1 [econ.GN])
 
-    [http://arxiv.org/abs/2305.10849](http://arxiv.org/abs/2305.10849)
+    [http://arxiv.org/abs/2305.12857](http://arxiv.org/abs/2305.12857)
 
-    本文研究了一种本地波动率模型，其中波动率在基础价格高于或低于某一阈值时分别取两个特定取值。通过联合分布方法，确认了该模型下当阈值位于平价处时，隐含波动率偏斜的幂律行为。
-
-    
-
-    本文研究了一种本地波动率模型，其中波动率取两个可能的值，具体取决于基础价格是否高于或低于给定的阈值。该模型已知，并且已经得出了许多结果。特别是，最近已经得出了欧式期权明确的定价公式，并应用于确定当阈值位于平价处时，隐含波动率偏斜的幂律行为。这些结果是基于拉普拉斯变换技术获得的。本文的目的是演示如何通过另一种方法获得相同的结果。这种替代方法基于该模型与Skew Brownian运动的自然关系，并且是通过系统地使用该随机过程及其某些函数的联合分布来实现的。
-
-    This paper concerns a local volatility model in which volatility takes two possible values, and the specific value depends on whether the underlying price is above or below a given threshold value. The model is known, and a number of results have been obtained for it. In particular, explicit pricing formulas for European options have been recently obtained and applied to establish a power law behaviour of the implied volatility skew in the case when the threshold is taken at the money. These results have been obtained by techniques based on the Laplace transform. The purpose of the present paper is to demonstrate how to obtain the same results by another method. This alternative approach is based on the natural relationship of the model with Skew Brownian motion and consists in the systematic use of the joint distribution of this stochastic process and some of its functionals.
-    
-[^10]: 在 L\'evy 市场中基于风险度量的时一致资产配置
-
-    Time-Consistent Asset Allocation for Risk Measures in a L\'evy Market. (arXiv:2305.09471v1 [q-fin.MF])
-
-    [http://arxiv.org/abs/2305.09471](http://arxiv.org/abs/2305.09471)
-
-    本文研究了使用风险度量进行资产配置的问题，通过使用广义的风险度量，最大化时间一致的平均风险回报函数。作者模拟了市场，并在符合条件的情况下证明了该问题的最优解是确定性且唯一的。
+    本文探讨了跨国企业所有权链在跨越国家边界的控制中所扮演的角色，发现大多数外国子公司都是通过所有权链被母公司控制的，论文提出了与此相关的理论模型来解释这一现象。
 
     
 
-    本文针对增益而非终止财富，考虑了一种资产配置问题，旨在通过使用一种广义的风险度量（满足 i）具有律变性，ii）具有现金或平移不变性，及 iii）可能嵌入到一种通用函数中）最大限度地一致化时间来扩大风险收益函数。我们使用 $\alpha$ 稳定的 L\'evy 过程来模拟市场，并为经典的 Black-Scholes 模型提供了补充结果。该问题的最优解是一个 Nash 子游戏均衡，其由扩展的 Hamilton-Jacobi-Bellman 方程的解决方案给出。此外，在适当的假设下，我们证明最优解是确定性且唯一的。
+    本文研究了跨越不同国家边界的跨国企业所发展的所有权链的作用。首先，我们证明母公司通过涉及至少两个国家沿所有权链的间接控制关系控制了大多数（58%）的外国子公司。因此，我们假设所有权链上的位置受到传输管理决策所需的沟通成本的影响。与支持的证据一致，我们开发了一个有关公司控制竞争的理论模型，考虑到原始国家的母公司可以将其对最终子公司的监视活动委托给位于中间司法管辖区的中间公司子公司的可能性。我们的模型提供了一个两步实证策略，包括两个重力方程：i) 一个三角形的重力方程，用于确定母公司的中间公司，在确定最终投资位置的条件下；ii) 经典的重力方程，用于确定最终子公司所在的目标国家，考虑到中间公司的地理位置。
 
-    Focusing on gains instead of terminal wealth, we consider an asset allocation problem to maximize time-consistently a mean-risk reward function with a general risk measure which is i) law-invariant, ii) cash- or shift-invariant, and iii) positively homogeneous, and possibly plugged into a general function. We model the market via a generalized version of the multi-dimensional Black-Scholes model using $\alpha$-stable L\'evy processes and give supplementary results for the classical Black-Scholes model. The optimal solution to this problem is a Nash subgame equilibrium given by the solution of an extended Hamilton-Jacobi-Bellman equation. Moreover, we show that the optimal solution is deterministic and unique under appropriate assumptions.
+    In this contribution, we investigate the role of ownership chains developed by multinational enterprises across different national borders. First, we document that parent companies control a majority (58%) of foreign subsidiaries through indirect control relationships involving at least two countries along an ownership chain. Therefore, we hypothesize that locations along ownership chains are driven by the existence of communication costs to transmit management decisions. In line with motivating evidence, we develop a theoretical model for competition on corporate control that considers the possibility that parent companies in the origin countries can delegate their monitoring activities in final subsidiaries to middlemen subsidiaries that are located in intermediate jurisdictions. Our model returns us a two-step empirical strategy with two gravity equations: i) a triangular gravity for establishing a middleman by the parent, conditional on final investments' locations; ii) a classical
     
-[^11]: 比特币/美元市场的交易量的统计学特性研究
+[^6]: 支持金融学生构建最优投资组合的VBA仿真软件包
 
-    Statistical properties of volume in the Bitcoin/USD market. (arXiv:2304.01907v1 [q-fin.ST])
+    A Simulation Package in VBA to Support Finance Students for Constructing Optimal Portfolios. (arXiv:2305.12826v1 [q-fin.PM])
 
-    [http://arxiv.org/abs/2304.01907](http://arxiv.org/abs/2304.01907)
+    [http://arxiv.org/abs/2305.12826](http://arxiv.org/abs/2305.12826)
 
-    本文研究了比特币/美元市场中最佳买价和最佳卖价下的交易量的统计特性，发现交易量时间序列中存在长程相关性和幂律衰减的证据以及最佳买价和最佳卖价下的交易量之间存在强烈的同步性。
+    本文介绍了一个使用VBA创建的仿真软件组件，可用于创建最优投资组合。这包括Markowitz的经典方法和El-Khatib和Hatemi-J开发的方法，后者将风险和回报直接结合在优化问题中。软件包在确定投资组合中资产数量方面提供了优势。
 
     
 
-    几项研究表明，金融资产回报时间序列中存在一些相当非平凡的统计特性，交易和委托薄中的交易量与委托量也显示出有趣而复杂的统计特性。本文研究了比特币/美元市场中最佳买价和最佳卖价下的交易量的统计特性。使用Bitfinex交易所的数据，我们发现交易量时间序列中存在长程相关性和幂律衰减的证据。我们还观察到最佳买价和最佳卖价下的交易量之间存在强烈的同步性，这是其他金融市场不具备的特征。我们的发现有助于更深入地了解比特币市场的动态。
+    本文介绍了一个使用Visual Basic for Applications (VBA)创建的软件组件，可用于使用两种不同方法创建最优投资组合。第一种方法是Markowitz的经典方法，基于通过最小化投资组合的方差来寻求预算份额。第二种方法是由El-Khatib和Hatemi-J开发的，直接在优化问题中结合风险和回报，得出预算份额，以实现投资组合的风险调整回报最大化。该方法符合理性投资者的期望，因为这些投资者将风险和回报视为选择投资资产的基本依据。我们的软件包还提供了通常在文献中被忽略的另一个优点，即应包括在投资组合中的资产数量。
 
-    Several studies have shown that just as there are some quite non-trivial statistical properties in the time series of financial asset returns, the volumes of transactions and of orders entered into the order book also display interesting and complex statistical properties. For instance, a recurring observation in the literature has been that the sizes of volumes, both of incoming orders and of realized transactions, can take on many different values across several orders of magnitude, with a marked preference for whole numbers like 5, 10, 100 and so on. Another common finding is that the time series of volumes present long lived autocorrelations, with decay rates that can be well approximated by power laws. These studies have focused their attention on the volume of incoming orders or on the volume of registered transactions, but there is another source of data relevant for a deeper understanding of market dynamics: the volume stored at the best ask and best bid. The present work is a 
+    This paper introduces a software component created in Visual Basic for Applications (VBA) that can be applied for creating an optimal portfolio using two different methods. The first method is the seminal approach of Markowitz that is based on finding budget shares via the minimization of the variance of the underlying portfolio. The second method is developed by El-Khatib and Hatemi-J, which combines risk and return directly in the optimization problem and yields budget shares that lead to maximizing the risk adjusted return of the portfolio. This approach is consistent with the expectation of rational investors since these investors consider both risk and return as the fundamental basis for selection of the investment assets. Our package offers another advantage that is usually neglected in the literature, which is the number of assets that should be included in the portfolio. The common practice is to assume that the number of assets is given exogenously when the portfolio is constr
+    
+[^7]: GPT的经济理性出现
+
+    The Emergence of Economic Rationality of GPT. (arXiv:2305.12763v1 [econ.GN])
+
+    [http://arxiv.org/abs/2305.12763](http://arxiv.org/abs/2305.12763)
+
+    本文研究了GPT在经济理性方面的能力，通过指示其在4个领域中做出预算决策，发现GPT决策基本上是合理的，并且比人类更具有理性。
+
+    
+
+    随着像GPT这样的大型语言模型越来越普遍，评估它们在语言处理之外的能力至关重要。本文通过指示GPT在风险、时间、社交和食品偏好的四个领域中进行预算决策来研究GPT的经济理性。我们通过评估GPT决策与古典揭示偏好理论中的效用最大化一致性来衡量经济理性。我们发现GPT在每个领域的决策基本上是合理的，并且表现出比文献报道的人类更高的理性得分。我们还发现，理性得分对于随机程度和人口统计学设置（如年龄和性别）是稳健的，但对基于选择情境的语言框架的上下文敏感。这些结果表明了LLM作出良好决策的潜力，以及需要进一步了解它们的能力、局限性和基本机制。
+
+    As large language models (LLMs) like GPT become increasingly prevalent, it is essential that we assess their capabilities beyond language processing. This paper examines the economic rationality of GPT by instructing it to make budgetary decisions in four domains: risk, time, social, and food preferences. We measure economic rationality by assessing the consistency of GPT decisions with utility maximization in classic revealed preference theory. We find that GPT decisions are largely rational in each domain and demonstrate higher rationality scores than those of humans reported in the literature. We also find that the rationality scores are robust to the degree of randomness and demographic settings such as age and gender, but are sensitive to contexts based on the language frames of the choice situations. These results suggest the potential of LLMs to make good decisions and the need to further understand their capabilities, limitations, and underlying mechanisms.
+    
+[^8]: ChatGPT对人工智能相关加密资产的影响：基于合成控制分析的证据
+
+    The Influence of ChatGPT on Artificial Intelligence Related Crypto Assets: Evidence from a Synthetic Control Analysis. (arXiv:2305.12739v1 [q-fin.GN])
+
+    [http://arxiv.org/abs/2305.12739](http://arxiv.org/abs/2305.12739)
+
+    OpenAI的大型语言模型ChatGPT的推出对人工智能相关加密资产产生了显著影响，这表现为其平均回报率的提高，而谷歌搜索量则成为了这些资产定价的重要指标。
+
+    
+
+    OpenAI的大型语言模型ChatGPT的推出，激发了投资者对人工智能技术的关注，包括与ChatGPT无直接关系的人工智能相关加密资产。利用合成差异分析方法，我们发现了显著的“ChatGPT效应”，AI相关加密资产的回报率在ChatGPT推出后一个月（两个月）期间经历了10.7％至15.6％（35.5％至41.3％）的平均回报。此外，谷歌搜索量作为人工智能关注度的代理指标，成为ChatGPT推出后其加密资产定价的重要指标。我们得出结论，投资者认为在推出ChatGPT后，人工智能资产具有更高的潜力或价值，从而导致了更高的市场估值。
+
+    The introduction of OpenAI's large language model, ChatGPT, catalyzed investor attention towards artificial intelligence (AI) technologies, including AI-related crypto assets not directly related to ChatGPT. Utilizing the synthetic difference-in-difference methodology, we identify significant 'ChatGPT effects' with returns of AI-related crypto assets experiencing average returns ranging between 10.7% and 15.6% (35.5% to 41.3%) in the one-month (two-month) period after the ChatGPT launch. Furthermore, Google search volumes, a proxy for attention to AI, emerged as critical pricing indicators for AI-related crypto post-launch. We conclude that investors perceived AI-assets as possessing heightened potential or value after the launch, resulting in higher market valuations.
+    
+[^9]: 相关时间序列的Marchenko-Pastur分布的变形
+
+    Deformation of Marchenko-Pastur distribution for the correlated time series. (arXiv:2305.12632v1 [cond-mat.stat-mech])
+
+    [http://arxiv.org/abs/2305.12632](http://arxiv.org/abs/2305.12632)
+
+    研究了具有时间相关性的时间序列的Wishart矩阵特征值分布。发现其在双重标度极限下收敛于变形的MPD分布，具有比MPD更长的尾部和更高的峰值，并证明随时间相关性增加，其二阶矩亦随之增加。当时间相关性为幂衰减时，分布存在相变，当幂指数为$\gamma>1/2$时，分布的第二矩和最大特征值均为有限值；而当$\gamma\leq 1/2$时，分布的第二矩和最大特征值均为无限。
+
+    
+
+    我们研究了由具有时间相关性的时间序列创建的Wishart矩阵的特征值。当没有相关性时，Wishart矩阵的特征值分布在双重标度极限下被称为Marchenko-Pastur分布（MPD）。当存在时间相关性时，特征值分布收敛到具有比MPD更长尾和更高峰的变形MPD。我们讨论了分布的矩和收敛到变形MPD的情况。我们展示了第二矩随时间相关性增加而增加。当时间相关性是幂衰减时，我们可以确认相变。当幂指数为$\gamma>1/2$时，分布的第二矩是有限的，并且最大特征值是有限的。另一方面，当$\gamma\leq 1/2$时，第二矩是无限的，最大特征值是无限的。
+
+    We study the eigenvalue of the Wishart matrix which is created form the time series with the temporal correlation. When there is no correlation, the eigenvalue distribution of the Wishart matrix is known as the Marchenko-Pastur distribution (MPD) in the double scaling limit. When there is the temporal correlation, the eigenvalue distribution converges to the deformed MPD which has longer tail and higher peak than the MPD. We discuss the moments of the distribution and the convergence to the deformed MPD. We show the second moment increases as the temporal correlation increases. When the temporal correlation is the power decay, we can confirm the phase transition. When $\gamma>1/2$ which is the power index, the second moment of the distribution is finite and the largest eigenvalue is finite. On the other hand, when $\gamma\leq 1/2$, the second moment is infinite and the maximum eigenvalue is infinite.
+    
+[^10]: 基于 Value-at-Risk（VaR）的组合保险策略与 CPPI 在马尔科夫调制的 regime-switching 市场的表现评估和基准比较
+
+    Value-at-Risk-Based Portfolio Insurance: Performance Evaluation and Benchmarking Against CPPI in a Markov-Modulated Regime-Switching Market. (arXiv:2305.12539v1 [q-fin.CP])
+
+    [http://arxiv.org/abs/2305.12539](http://arxiv.org/abs/2305.12539)
+
+    该研究提出了基于VaR的投资组合保险策略，并将其与基于恒定比例投资组合保险（CPPI）的策略进行比较。在复杂市场中，VBPI表现更好，并在动荡市场中表现出更好的抗风险能力。
+
+    
+
+    在现代金融市场的周期性特征和市场环境转换导致预期投资回报和风险变化的情况下，本文将 Value-at-Risk（VaR）方法的思想引入组合保险策略，提出了一个考虑市场调制的 VaR 策略。与一个基于恒定比例投资组合保险（CPPI）的策略进行比较，结果表明在更为复杂的市场环境下，VBPI 能够更好地实施组合保险策略，并在动荡市场中表现出更好的抵御风险的能力。
+
+    Designing dynamic portfolio insurance strategies under market conditions switching between two or more regimes is a challenging task in financial economics. Recently, a promising approach employing the value-at-risk (VaR) measure to assign weights to risky and riskless assets has been proposed in [Jiang C., Ma Y. and An Y. "The effectiveness of the VaR-based portfolio insurance strategy: An empirical analysis" , International Review of Financial Analysis 18(4) (2009): 185-197]. In their study, the risky asset follows a geometric Brownian motion with constant drift and diffusion coefficients. In this paper, we first extend their idea to a regime-switching framework in which the expected return of the risky asset and its volatility depend on an unobservable Markovian term which describes the cyclical nature of asset returns in modern financial markets. We then analyze and compare the resulting VaR-based portfolio insurance (VBPI) strategy with the well-known constant proportion portfolio
+    
+[^11]: 机器学习用于社会责任投资组合优化
+
+    Machine Learning for Socially Responsible Portfolio Optimisation. (arXiv:2305.12364v1 [q-fin.PM])
+
+    [http://arxiv.org/abs/2305.12364](http://arxiv.org/abs/2305.12364)
+
+    本研究使用机器学习实现了适用于社会责任投资者的投资组合优化，通过考虑环境、社会和管理得分来平衡投资夏普比率和社会责任因素。
+
+    
+
+    社会责任投资者希望在获得财务回报的同时促进社会和环境进步来构建投资组合。虽然均值方差模型可以根据投资者的风险容忍度成功地生成最高可能的回报，但该模型并没有为社会责任投资者关注的附加限制提供规定。为解决这个问题，在突出均值方差模型的基础上，本研究实施了社会责任投资者的投资组合优化。改进后的均值方差模型允许社会责任投资者在市场上进入竞争性社会责任投资组合，尽管他们面临着投资夏普比率和投资组合的平均环境、社会和管治分数之间的权衡。
+
+    Socially responsible investors build investment portfolios intending to incite social and environmental advancement alongside a financial return. Although Mean-Variance (MV) models successfully generate the highest possible return based on an investor's risk tolerance, MV models do not make provisions for additional constraints relevant to socially responsible (SR) investors. In response to this problem, the MV model must consider Environmental, Social, and Governance (ESG) scores in optimisation. Based on the prominent MV model, this study implements portfolio optimisation for socially responsible investors. The amended MV model allows SR investors to enter markets with competitive SR portfolios despite facing a trade-off between their investment Sharpe Ratio and the average ESG score of the portfolio.
+    
+[^12]: 美联储对全球金融危机的应对及其长期影响：一项中断时间序列自然实验分析
+
+    The Federal Reserve's Response to the Global Financial Crisis and Its Long-Term Impact: An Interrupted Time-Series Natural Experimental Analysis. (arXiv:2305.12318v1 [econ.GN])
+
+    [http://arxiv.org/abs/2305.12318](http://arxiv.org/abs/2305.12318)
+
+    本文研究了美联储在全球金融危机中实施的货币政策，在中断时间序列自然实验分析的基础上发现，美联储的定量宽松计划对美国的实际GDP产生了积极影响，但对通货膨胀没有显著的影响。具体而言，美国的人均实际GDP每个季度平均增加了231美元。
+
+    
+
+    本文研究了美联储在应对全球金融危机时实施的货币政策。更具体地，分析了2007年至2018年美联储进行的定量宽松(QE)计划、流动性工具和前瞻性指导操作。本文对这些政策的详细审查导致了关于QE计划对美国通货膨胀和实际GDP的长期因果效应的中断时间序列(ITS)分析。这种正式的设计基础的自然实验方法的结果显示，QE操作对美国实际GDP产生了积极影响，但对美国通货膨胀没有显著影响。具体而言，对于QE后的2011Q2-2018Q4期间，相对于如果没有进行QE计划，美国的人均实际GDP每个季度平均增加了231美元。此外，结果表明，在QE计划开始十年后的2018Q4，实际人均GDP大约比2008Q3高出7.2％。
+
+    This paper examines the monetary policies the Federal Reserve implemented in response to the Global Financial Crisis. More specifically, it analyzes the Federal Reserve's quantitative easing (QE) programs, liquidity facilities, and forward guidance operations conducted from 2007 to 2018. The essay's detailed examination of these policies culminates in an interrupted time-series (ITS) analysis of the long-term causal effects of the QE programs on U.S. inflation and real GDP. The results of this formal design-based natural experimental approach show that the QE operations positively affected U.S. real GDP but did not significantly impact U.S. inflation. Specifically, it is found that, for the 2011Q2-2018Q4 post-QE period, real GDP per capita in the U.S. increased by an average of 231 dollars per quarter relative to how it would have changed had the QE programs not been conducted. Moreover, the results show that, in 2018Q4, ten years after the beginning of the QE programs, real GDP per ca
+    
+[^13]: 使用多个期权高效学习嵌套深度对冲
+
+    Efficient Learning of Nested Deep Hedging using Multiple Options. (arXiv:2305.12264v1 [q-fin.CP])
+
+    [http://arxiv.org/abs/2305.12264](http://arxiv.org/abs/2305.12264)
+
+    本研究开发了一种高效学习嵌套深度对冲的方法，该方法使用多个期权对目标期权进行对冲，使用深度神经网络定价对冲工具，能够有效处理市场摩擦，避免套利机会。
+
+    
+
+    深度对冲是一种在存在市场摩擦的情况下对冲衍生品的框架。本研究重点研究了使用多个期权对给定目标期权进行对冲的问题。为了将深度对冲框架扩展到此设置，作为对冲工具的期权也必须在培训期间定价。虽然可以使用传统的价格模型（如Black-Scholes公式），但忽略摩擦会提供不希望看到的套利机会，这对深度对冲学习是不利的。本研究的目标是开发一种嵌套深度对冲方法。也就是说，我们开发了一种深度对冲的完全深度方法，在此方法中，对冲工具的定价也由深度神经网络进行定价，该网络能了解到市场摩擦。然而，由于必须在许多不同的条件下计算对冲工具的价格，整个学习过程可能会计算上无法处理。为了克服这个问题，我们提出了一种嵌套深度对冲的高效学习方法。
+
+    Deep hedging is a framework for hedging derivatives in the presence of market frictions. In this study, we focus on the problem of hedging a given target option by using multiple options. To extend the deep hedging framework to this setting, the options used as hedging instruments also have to be priced during training. While one might use classical pricing model such as the Black-Scholes formula, ignoring frictions can offer arbitrage opportunities which are undesirable for deep hedging learning. The goal of this study is to develop a nested deep hedging method. That is, we develop a fully-deep approach of deep hedging in which the hedging instruments are also priced by deep neural networks that are aware of frictions. However, since the prices of hedging instruments have to be calculated under many different conditions, the entire learning process can be computationally intractable. To overcome this problem, we propose an efficient learning method for nested deep hedging. Our method 
+    
+[^14]: 波动性跳跃和货币政策公告的分类
+
+    Volatility jumps and the classification of monetary policy announcements. (arXiv:2305.12192v1 [econ.GN])
+
+    [http://arxiv.org/abs/2305.12192](http://arxiv.org/abs/2305.12192)
+
+    本文介绍了一种新的基于模型的货币政策公告分类方法，利用不对称跳跃乘性误差模型（AJM）考虑波动率的跳跃成分，并关注公告对波动性跳跃成分的影响。
+
+    
+
+    中央银行针对影响金融市场波动率的外部事件频繁进行干预。本文引入了不对称跳跃乘性误差模型（AJM），在日内框架内考虑了波动率的特定跳跃成分。以美联储为例，本文提出了一种基于模型的货币政策公告分类方法，该方法基于公告对波动性跳跃成分的影响。重点关注每个美联储通讯后的短暂时间窗口，我们将货币政策公告的影响与同一公告日内可能发生的任何相关事件引起的污染隔离开来。
+
+    Central Banks interventions are frequent in response to exogenous events with direct implications on financial market volatility. In this paper, we introduce the Asymmetric Jump Multiplicative Error Model (AJM), which accounts for a specific jump component of volatility within an intradaily framework. Taking the Federal Reserve (Fed) as a reference, we propose a new model-based classification of monetary announcements based on their impact on the jump component of volatility. Focusing on a short window following each Fed's communication, we isolate the impact of monetary announcements from any contamination carried by relevant events that may occur within the same announcement day.
+    
+[^15]: 荷兰产业生产网络中的商品特定三元组
+
+    Commodity-specific triads in the Dutch inter-industry production network. (arXiv:2305.12179v1 [physics.soc-ph])
+
+    [http://arxiv.org/abs/2305.12179](http://arxiv.org/abs/2305.12179)
+
+    本文针对荷兰产业生产网络中的187个商品组，分析了其二元和加权三元模式，发现大多数单个产品层面上没有显着的模式，约80％的层只有两个或更少的模式。
+
+    
+
+    三元模式是复杂网络中更高级交互的最小构建块。最近，生产网络的模式结构引起关注，因为它可能在经济震荡的传播中起到作用。然而，对于单个商品层面上的模式结构仍知之甚少。在本文中，我们使用荷兰统计局的数据，分解成187个商品组，并分析了荷兰产业生产网络中的二元和加权三元模式。我们引入了适当的空模型来过滤节点异质性和链接互惠的强效应，并发现尽管覆盖所有产品的聚合网络具有大量三元模式，但大多数单个产品层面上没有显着的模式，约80％的层只有两个或更少的模式。
+
+    Triadic motifs are the smallest building blocks of higher-order interactions in complex networks and can be detected as over-occurrences with respect to null models with only pair-wise interactions. Recently, the motif structure of production networks has attracted attention in light of its possible role in the propagation of economic shocks. However, its characterization at the level of individual commodities is still poorly understood. Here we analyse both binary and weighted triadic motifs in the Dutch inter-industry production network disaggregated at the level of 187 commodity groups, using data from Statistics Netherlands. We introduce appropriate null models that filter out node heterogeneity and the strong effects of link reciprocity and find that, while the aggregate network that overlays all products is characterized by a multitude of triadic motifs, most single-product layers feature no significant motif, and roughly 80% of the layers feature only two motifs or less. This re
+    
+[^16]: 关于信用债违约风险的智能预测研究
+
+    Study on Intelligent Forecasting of Credit Bond Default Risk. (arXiv:2305.12142v1 [q-fin.RM])
+
+    [http://arxiv.org/abs/2305.12142](http://arxiv.org/abs/2305.12142)
+
+    该论文提出了一种智能预测信用债违约风险的框架，可以提供精确的按天预测的违约风险预测，以维护中国债券市场的稳定和健康发展。
+
+    
+
+    中国债券市场中的信用风险越来越明显，这为信用债投资者带来了日益升级的违约风险。鉴于当前债券信息披露不完整和不准确的情况，及时跟踪和预测个别信用债违约风险已成为维护市场稳定和保障健康发展的必要手段。本文提出了一种智能预测违约风险的框架，可提供精确的按天预测的违约风险预测。在这个框架中，我们首先总结影响信用债违约的因素并构建了一个风险指数体系。然后，我们采用了一种基于债券违约风险演化特征的组合违约概率注释方法。该方法考虑了成熟或违约债券的每日违约风险注释的变分贝叶斯高斯混合估算、市场指数估算和违约趋势反向估算的加权平均值。
+
+    Credit risk in the China's bond market has become increasingly evident, creating a progressively escalating risk of default for credit bond investors. Given the current incomplete and inaccurate bond information disclosure, timely tracking and forecasting the individual credit bond default risks have become essential to maintain market stability and ensure healthy development. This paper proposes an Intelligent Forecasting Framework for Default Risk that provides precise day-by-day default risk prediction. In this framework, we first summarize the factors that impact credit bond defaults and construct a risk index system. Then, we employ a combined default probability annotation method based on the evolutionary characteristics of bond default risk. The method considers the weighted average of Variational Bayesian Gaussian Mixture estimation, Market Index estimation, and Default Trend Backward estimation for daily default risk annotation of matured or defaulted bonds according to the ri
+    
+[^17]: ChatGPT与劳动力市场：揭示AI讨论对学生收入预期影响
+
+    ChatGPT and the Labor Market: Unraveling the Effect of AI Discussions on Students' Earnings Expectations. (arXiv:2305.11900v1 [econ.GN])
+
+    [http://arxiv.org/abs/2305.11900](http://arxiv.org/abs/2305.11900)
+
+    本文研究了 ChatGPT人工智能（AI）讨论对美国学生预期劳动市场结果的因果影响，结果发现学生信心会降低，对未来的收入前景保持悲观态度，这种影响广泛存在于不同学生群体中。这个研究给教育工作者、管理者和政策制定者提供了一个机会，以更好地了解学生的担忧并改进教育课程，使学生更好地准备未来，这个未来必然会被AI改变。
+
+    
+
+    本文研究了负面和正面 ChatGPT人工智能（AI）讨论对美国学生预期劳动市场结果的因果影响。我们的研究发现，在接触AI讨论后，学生信心会降低，特别是在阅读负面情绪的讨论摘录时，这种影响更加明显。与STEM专业不同，非STEM领域的学生表现出不对称和悲观的信仰变化，表明他们可能感受到新兴AI技术的影响更强。对于未来收入的悲观信仰更新也普遍存在于各个性别和GPA水平之间，这表明所有学生群体都存在广泛的AI担忧。教育工作者、管理者和政策制定者可以定期与学生互动以解决他们的担忧，并改进教育课程，使他们更好地准备未来，这个未来必然会被AI改变。
+
+    This paper investigates the causal impact of negatively and positively framed ChatGPT Artificial Intelligence (AI) discussions on US students' anticipated labor market outcomes. Our findings reveal students reduce their confidence regarding their future earnings prospects after exposure to AI debates, and this effect is more pronounced after reading discussion excerpts with a negative tone. Unlike STEM majors, students in Non-STEM fields show asymmetric and pessimistic belief changes, suggesting that they might feel more vulnerable to emerging AI technologies. Pessimistic belief updates regarding future earnings are also prevalent across gender and GPA levels, indicating widespread AI concerns among all student subgroups. Educators, administrators, and policymakers may regularly engage with students to address their concerns and enhance educational curricula to better prepare them for a future that will be inevitably shaped by AI.
+    
+[^18]: 由生成式AI合作创作的研究的评价：实验证据
+
+    Judgments of research co-created by generative AI: experimental evidence. (arXiv:2305.11873v1 [cs.HC])
+
+    [http://arxiv.org/abs/2305.11873](http://arxiv.org/abs/2305.11873)
+
+    本研究探讨了把研究中部分内容交由生成式AI完成，会导致人们不信任和贬低研究人员和科学输出，并可能影响到生成式AI使用的报告问题。
+
+    
+
+    ChatGPT的引入引发了关于生成式AI（大型语言模型；LLMs）的使用的公共争论，包括研究人员的使用。在本研究中，我们测试了将研究过程的某些部分委托给LLMs是否会导致人们不信任和贬低研究人员和科学输出。参与者（N=402）考虑一个将研究过程的元素委托给博士生或LLM的研究人员，并对以下进行评分：（1）道德可接受性，（2）相信科学家监督未来项目，以及（3）输出的准确性和质量。人们认为将任务委托给LLMs比委托给人类不太可接受（d=-0.78）。委托给LLMs也会降低人们对于监督未来研究项目的信任（d=-0.80），而且人们认为结果的准确性和质量会更低（d=-0.85）。我们讨论了这种贬值如何转化为LLMs使用的低估问题。
+
+    The introduction of ChatGPT has fuelled a public debate on the use of generative AI (large language models; LLMs), including its use by researchers. In the current work, we test whether delegating parts of the research process to LLMs leads people to distrust and devalue researchers and scientific output. Participants (N=402) considered a researcher who delegates elements of the research process to a PhD student or LLM, and rated (1) moral acceptability, (2) trust in the scientist to oversee future projects, and (3) the accuracy and quality of the output. People judged delegating to an LLM as less acceptable than delegating to a human (d = -0.78). Delegation to an LLM also decreased trust to oversee future research projects (d = -0.80), and people thought the results would be less accurate and of lower quality (d = -0.85). We discuss how this devaluation might transfer into the underreporting of generative AI use.
+    
+[^19]: 行政人员的发声笑声与社会认可：机器学习研究的探究。 (arXiv:2305.09485v1 [经济学.GN])
+
+    Executive Voiced Laughter and Social Approval: An Explorative Machine Learning Study. (arXiv:2305.09485v1 [econ.GN])
+
+    [http://arxiv.org/abs/2305.09485](http://arxiv.org/abs/2305.09485)
+
+    本文探究了行政沟通中的发声笑声对于社会认可的积极影响，特别是当发生双向笑声时。结果表明，这种影响随着组织业绩的下降而增加。
+
+    
+
+    我们研究了行政人员沟通中的发声笑声以及它对社会认可的影响。我们将笑声，情感作为信息和信息媒介对公司的社会评价的研究相结合，假设行政人员沟通中的发声笑声对社会认可有积极影响，社会认可是指受众对一个组织的亲和力的感知。我们认为，与众笑的效果尤其强，即在给定的沟通场合中，聚焦的行政人员和观众同时发笑的次数。最后，结合情感作为信息和人类认知的负面偏见，我们假设笑声对社会认可的积极影响随着组织业绩的下降而增加。我们在902个德国巴林德斯利加足球新闻发布会和媒体十大数据中进行测试，应用最先进的机器学习方法进行笑声检测，并找到了部分支持我们想法的结果。
+
+    We study voiced laughter in executive communication and its effect on social approval. Integrating research on laughter, affect-as-information, and infomediaries' social evaluations of firms, we hypothesize that voiced laughter in executive communication positively affects social approval, defined as audience perceptions of affinity towards an organization. We surmise that the effect of laughter is especially strong for joint laughter, i.e., the number of instances in a given communication venue for which the focal executive and the audience laugh simultaneously. Finally, combining the notions of affect-as-information and negativity bias in human cognition, we hypothesize that the positive effect of laughter on social approval increases with bad organizational performance. We find partial support for our ideas when testing them on panel data comprising 902 German Bundesliga soccer press conferences and media tenor, applying state-of-the-art machine learning approaches for laughter dete
+    
+[^20]: 基于投票结果的去中心化承诺对民主决策的影响研究
+
+    Democratic Policy Decisions with Decentralized Promises Contingent on Vote Outcome. (arXiv:2304.08008v1 [econ.GN])
+
+    [http://arxiv.org/abs/2304.08008](http://arxiv.org/abs/2304.08008)
+
+    本文研究了去中心化承诺对民主决策的影响。在投票前，委员会成员可以进行可执行的承诺。可能需要跨越阵营进行承诺，以实现改革的实施，同时需要排除最不热衷于改革的支持者被诱导推翻决定。
+
+    
+
+    本文探讨了去中心化的效用转移承诺如何影响投票方式的集体决策。在投票前，支持和反对高效改革的委员会成员可以进行可执行的承诺。一个均衡需要稳定性和最小化的承诺。平衡承诺是存在且不确定的，但具有许多共同的特征。需要高强度成员向低强度成员提供转移承诺，并导致改革的实施。当改革支持者缺乏足够的投票权时，承诺必须跨越阵营。即使改革支持者的联盟是决定性的，承诺也必须排除最不热衷于改革的支持者被诱导推翻决定。在这种情况下，平衡的承诺不需要跨越阵营。我们还讨论了一系列有限的承诺，实现达到一个平衡的状态。
+
+    We study how decentralized utility transfer promises affect collective decision-making by voting. Committee members with varying levels of support and opposition for an efficient reform can make enforceable promises before voting. An equilibrium requires stability and minimal promises. Equilibrium promises exist and are indeterminate, but do share several key characteristics. Equilibria require transfer promises from high to low intensity members and result in enacting the reform. When reform supporters lack sufficient voting power, promises must reach across the aisle. Even if the coalition of reform supporters is decisive, promises must preclude the least enthusiastic supporters of the reform from being enticed to overturn the decision. In that case, equilibrium promises do not need to reach across the aisle. We also discuss a finite sequence of promises that achieve an equilibrium.
+    
+[^21]: 如何处理用于期权定价的 COS 方法
+
+    How to handle the COS method for option pricing. (arXiv:2303.16012v1 [q-fin.CP])
+
+    [http://arxiv.org/abs/2303.16012](http://arxiv.org/abs/2303.16012)
+
+    介绍了用于欧式期权定价的 Fourier余弦展开 (COS) 方法，通过指定截断范围和项数N进行逼近，文章提出明确的N的上界，对密度平滑并指数衰减的情况，COS方法的收敛阶数至少是指数收敛阶数。
+
+    
+
+    Fourier余弦展开（COS）方法用于高效地计算欧式期权价格。要应用COS方法，必须指定两个参数：对数收益率密度的截断范围和用余弦级数逼近截断密度的项数N。如何选择截断范围已经为人所知。在这里，我们还能找到一个明确的并且有用的项数N的界限。我们还进一步表明，如果密度是平滑的并且呈指数衰减，则COS方法至少具有指数收敛阶数。但是，如果密度平滑但有重尾巴，就像在有限矩阵log稳定模型中一样，则COS方法没有指数收敛阶数。数值实验确认了理论发现。
+
+    The Fourier cosine expansion (COS) method is used for pricing European options numerically very efficiently. To apply the COS method, one has to specify two parameters: a truncation range for the density of the log-returns and a number of terms N to approximate the truncated density by a cosine series. How to choose the truncation range is already known. Here, we are able to find an explicit and useful bound for N as well. We further show that the COS method has at least an exponential order of convergence if the density is smooth and decays exponentially. But, if the density is smooth and has heavy tails like in the Finite Moment Log Stable model, the COS method has not an exponential order of convergence. Numerical experiments confirm the theoretical findings.
+    
+[^22]: 一对一反单调性
+
+    Pairwise counter-monotonicity. (arXiv:2302.11701v2 [q-fin.RM] UPDATED)
+
+    [http://arxiv.org/abs/2302.11701](http://arxiv.org/abs/2302.11701)
+
+    本文系统地研究了负相关性的一种极端形式——一对一反单调性，并且在量位代理的风险共担问题中找到了它的应用价值。
+
+    
+
+    我们系统地研究了一对一反单调性，这是负相关性的一种极端形式。我们建立了一个随机表示和一个不变性质来描述这种依赖结构。我们表明一对一反单调性意味着负相关性，并且当相同边际分布可以实现时，和联合混合依赖性等价。我们发现一对一反单调性和量位代理的风险共担问题之间存在密切联系。这个结果强调了这种极端负相关依赖结构在不以经典方式冒险的代理人的最优配置中的重要性。
+
+    We systemically study pairwise counter-monotonicity, an extremal notion of negative dependence. A stochastic representation and an invariance property are established for this dependence structure. We show that pairwise counter-monotonicity implies negative association, and it is equivalent to joint mix dependence if both are possible for the same marginal distributions. We find an intimate connection between pairwise counter-monotonicity and risk sharing problems for quantile agents. This result highlights the importance of this extremal negative dependence structure in optimal allocations for agents who are not risk averse in the classic sense.
+    
+[^23]: 针对随机微分方程的神经方差缩减方法
+
+    Neural variance reduction for stochastic differential equations. (arXiv:2209.12885v2 [math.NA] UPDATED)
+
+    [http://arxiv.org/abs/2209.12885](http://arxiv.org/abs/2209.12885)
+
+    本文提出了使用神经网络参数化的控制变量的神经 SDE 方法，以减少随机微分方程模拟的方差，并在几个期权定价的数值例子中验证其效果。
+
+    
+
+    方差缩减技术对于金融应用中蒙特卡罗模拟的效率非常重要。我们提出使用神经 SDE（随机微分方程），其中的控制变量由神经网络参数化，以学习近似最优控制变量，从而在模拟 SDE 轨迹时减少方差。我们考虑由布朗运动驱动的 SDE 和更一般的由 L\'{e}vy 过程驱动的 SDE，包括那些具有无限活动的 SDE。对于后一种情况，我们证明了方差缩减的最优性条件。我们展示了几个关于期权定价的数值例子。
+
+    Variance reduction techniques are of crucial importance for the efficiency of Monte Carlo simulations in finance applications. We propose the use of neural SDEs, with control variates parameterized by neural networks, in order to learn approximately optimal control variates and hence reduce variance as trajectories of the SDEs are being simulated. We consider SDEs driven by Brownian motion and, more generally, by L\'{e}vy processes including those with infinite activity. For the latter case, we prove optimality conditions for the variance reduction. Several numerical examples from option pricing are presented.
+    
+[^24]: 一种反向ES（CVaR）优化公式
+
+    A reverse ES (CVaR) optimization formula. (arXiv:2203.02599v2 [q-fin.RM] UPDATED)
+
+    [http://arxiv.org/abs/2203.02599](http://arxiv.org/abs/2203.02599)
+
+    该论文提出一种反向ES优化公式，其中平均超额函数是ES曲线减去线性函数的最大值，揭示了优美的对称性。该公式将ES推广到一种流行的风险度量的类别。
+
+    
+
+    该论文提出了一种反向ES优化公式，它表明在固定概率水平下的ES是一个线性实函数加上一个缩放的平均超额函数的最小值。我们建立了一种反向ES优化公式， 它表明在任何固定阈值下的平均超额函数是ES曲线减去一个线性函数的最大值。虽然这是一个简单的结果，但该公式揭示了平均超额函数和ES曲线，以及它们的最优解之间的优美对称性。反向ES优化公式与Fenchel-Legendre变换密切相关，并且我们的公式是将ES推广到优化确定性等价物，这是一种流行的凸风险度量的类别。我们分析了两种流行的模型不确定性情况下的平均超额函数的最坏情况值，以说明反向ES优化公式的实用性，并使用保险数据集展示了它的进一步证明。
+
+    The celebrated Expected Shortfall (ES) optimization formula implies that ES at a fixed probability level is the minimum of a linear real function plus a scaled mean excess function. We establish a reverse ES optimization formula, which says that a mean excess function at any fixed threshold is the maximum of an ES curve minus a linear function. Despite being a simple result, this formula reveals elegant symmetries between the mean excess function and the ES curve, as well as their optimizers. The reverse ES optimization formula is closely related to the Fenchel-Legendre transforms, and our formulas are generalized from ES to optimized certainty equivalents, a popular class of convex risk measures. We analyze worst-case values of the mean excess function under two popular settings of model uncertainty to illustrate the usefulness of the reverse ES optimization formula, and this is further demonstrated with an application using insurance datasets.
     
 

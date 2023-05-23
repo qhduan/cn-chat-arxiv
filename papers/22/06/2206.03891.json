@@ -1,0 +1,12 @@
+{
+    "title": "PrivHAR: Recognizing Human Actions From Privacy-preserving Lens. (arXiv:2206.03891v2 [cs.CV] CROSS LISTED)",
+    "abstract": "The accelerated use of digital cameras prompts an increasing concern about privacy and security, particularly in applications such as action recognition. In this paper, we propose an optimizing framework to provide robust visual privacy protection along the human action recognition pipeline. Our framework parameterizes the camera lens to successfully degrade the quality of the videos to inhibit privacy attributes and protect against adversarial attacks while maintaining relevant features for activity recognition. We validate our approach with extensive simulations and hardware experiments.",
+    "link": "http://arxiv.org/abs/2206.03891",
+    "context": "Title: PrivHAR: Recognizing Human Actions From Privacy-preserving Lens. (arXiv:2206.03891v2 [cs.CV] CROSS LISTED)\nAbstract: The accelerated use of digital cameras prompts an increasing concern about privacy and security, particularly in applications such as action recognition. In this paper, we propose an optimizing framework to provide robust visual privacy protection along the human action recognition pipeline. Our framework parameterizes the camera lens to successfully degrade the quality of the videos to inhibit privacy attributes and protect against adversarial attacks while maintaining relevant features for activity recognition. We validate our approach with extensive simulations and hardware experiments.",
+    "path": "papers/22/06/2206.03891.json",
+    "total_tokens": 646,
+    "translated_title": "PrivHAR：从隐私保护角度识别人类活动",
+    "translated_abstract": "数字摄像机的广泛使用引发了人们对隐私和安全的日益关注，特别是在识别人类活动的应用中。本文提出了一种优化框架，通过参数化摄像头镜头，成功地降低了视频质量，以抑制隐私属性并防止敌对攻击，同时保留了活动识别相关特征，提供强大的视觉隐私保护。我们进行了大量模拟和硬件实验来验证我们的方法。",
+    "tldr": "该论文提出了一种优化框架，通过参数化摄像头镜头，对视频进行处理以保护个人隐私，并在维护活动识别特征的同时进行了模拟和硬件实验的验证。",
+    "en_tdlr": "This paper proposes an optimizing framework that parameterizes the camera lens to successfully protect privacy attributes and defend against adversarial attacks in human action recognition while maintaining relevant features. The validation of the approach is conducted through extensive simulations and hardware experiments."
+}

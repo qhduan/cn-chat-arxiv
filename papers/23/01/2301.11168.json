@@ -1,0 +1,12 @@
+{
+    "title": "Which Experiences Are Influential for Your Agent? Policy Iteration with Turn-over Dropout. (arXiv:2301.11168v2 [cs.LG] UPDATED)",
+    "abstract": "In reinforcement learning (RL) with experience replay, experiences stored in a replay buffer influence the RL agent's performance. Information about the influence is valuable for various purposes, including experience cleansing and analysis. One method for estimating the influence of individual experiences is agent comparison, but it is prohibitively expensive when there is a large number of experiences. In this paper, we present PI+ToD as a method for efficiently estimating the influence of experiences. PI+ToD is a policy iteration that efficiently estimates the influence of experiences by utilizing turn-over dropout. We demonstrate the efficiency of PI+ToD with experiments in MuJoCo environments.",
+    "link": "http://arxiv.org/abs/2301.11168",
+    "context": "Title: Which Experiences Are Influential for Your Agent? Policy Iteration with Turn-over Dropout. (arXiv:2301.11168v2 [cs.LG] UPDATED)\nAbstract: In reinforcement learning (RL) with experience replay, experiences stored in a replay buffer influence the RL agent's performance. Information about the influence is valuable for various purposes, including experience cleansing and analysis. One method for estimating the influence of individual experiences is agent comparison, but it is prohibitively expensive when there is a large number of experiences. In this paper, we present PI+ToD as a method for efficiently estimating the influence of experiences. PI+ToD is a policy iteration that efficiently estimates the influence of experiences by utilizing turn-over dropout. We demonstrate the efficiency of PI+ToD with experiments in MuJoCo environments.",
+    "path": "papers/23/01/2301.11168.json",
+    "total_tokens": 722,
+    "translated_title": "哪些经验可以影响机器人的行为？具有淘汰正则化的策略迭代方法研究",
+    "translated_abstract": "在经验回放的强化学习（RL）中，存储在回放缓冲区中的经验会影响RL代理的性能。有关经验影响的信息对于经验清理和分析等各种目的都非常有价值。一个估计单个经验影响的方法是代理比较，但当经验数量很多时，这种方法的成本是难以承受的。在本文中，我们提出了PI+ToD作为一种有效估算经验影响的方法。 PI+ToD是一种策略迭代方法，通过利用淘汰正则化来高效估算经验的影响。我们在MuJoCo环境中的实验中展示了PI + ToD的效率。",
+    "tldr": "本文提出了一种名为PI+ToD的方法，它通过淘汰正则化来高效估算经验对RL代理性能的影响。",
+    "en_tdlr": "This paper proposes a method called PI+ToD, which efficiently estimates the influence of experiences on RL agents by utilizing turn-over dropout."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Volatility jumps and the classification of monetary policy announcements. (arXiv:2305.12192v1 [econ.GN])",
+    "abstract": "Central Banks interventions are frequent in response to exogenous events with direct implications on financial market volatility. In this paper, we introduce the Asymmetric Jump Multiplicative Error Model (AJM), which accounts for a specific jump component of volatility within an intradaily framework. Taking the Federal Reserve (Fed) as a reference, we propose a new model-based classification of monetary announcements based on their impact on the jump component of volatility. Focusing on a short window following each Fed's communication, we isolate the impact of monetary announcements from any contamination carried by relevant events that may occur within the same announcement day.",
+    "link": "http://arxiv.org/abs/2305.12192",
+    "context": "Title: Volatility jumps and the classification of monetary policy announcements. (arXiv:2305.12192v1 [econ.GN])\nAbstract: Central Banks interventions are frequent in response to exogenous events with direct implications on financial market volatility. In this paper, we introduce the Asymmetric Jump Multiplicative Error Model (AJM), which accounts for a specific jump component of volatility within an intradaily framework. Taking the Federal Reserve (Fed) as a reference, we propose a new model-based classification of monetary announcements based on their impact on the jump component of volatility. Focusing on a short window following each Fed's communication, we isolate the impact of monetary announcements from any contamination carried by relevant events that may occur within the same announcement day.",
+    "path": "papers/23/05/2305.12192.json",
+    "total_tokens": 734,
+    "translated_title": "波动性跳跃和货币政策公告的分类",
+    "translated_abstract": "中央银行针对影响金融市场波动率的外部事件频繁进行干预。本文引入了不对称跳跃乘性误差模型（AJM），在日内框架内考虑了波动率的特定跳跃成分。以美联储为例，本文提出了一种基于模型的货币政策公告分类方法，该方法基于公告对波动性跳跃成分的影响。重点关注每个美联储通讯后的短暂时间窗口，我们将货币政策公告的影响与同一公告日内可能发生的任何相关事件引起的污染隔离开来。",
+    "tldr": "本文介绍了一种新的基于模型的货币政策公告分类方法，利用不对称跳跃乘性误差模型（AJM）考虑波动率的跳跃成分，并关注公告对波动性跳跃成分的影响。",
+    "en_tdlr": "This paper proposes a new model-based classification of monetary announcements using the Asymmetric Jump Multiplicative Error Model (AJM) to account for the jump component of volatility and focuses on the impact of announcements on volatility jumps."
+}

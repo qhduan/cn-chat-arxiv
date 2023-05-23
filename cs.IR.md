@@ -2,157 +2,187 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [How Does Generative Retrieval Scale to Millions of Passages?.](http://arxiv.org/abs/2305.11841) | 本研究对不同语料规模下的生成式检索技术进行了实证研究，扩展到包含8.8M篇章的MS MARCO检索任务，并评估了高达11B个参数的模型大小，揭示出了在索引期间使用合成查询作为文档表示的重要性。 |
-| [^2] | [Visualization for Recommendation Explainability: A Survey and New Perspectives.](http://arxiv.org/abs/2305.11755) | 本文回顾了推荐系统中有关可视化解释的研究，提出了一组可能有益于设计解释性可视化推荐系统的指南。 |
-| [^3] | [Inference-time Re-ranker Relevance Feedback for Neural Information Retrieval.](http://arxiv.org/abs/2305.11744) | 本文提出了一种利用重排器提供推理时间反馈来改进检索的方法，可以显著提高低召回率@ K下的检索性能。 |
-| [^4] | [Exploring the Upper Limits of Text-Based Collaborative Filtering Using Large Language Models: Discoveries and Insights.](http://arxiv.org/abs/2305.11700) | 本论文探究了在基于文本的协同过滤中使用大型语言模型所能带来的性能提升，并揭示了TCF程序扩展的极限。研究人员比较了使用不同大小的语言模型在基于文本的协同过滤算法中的性能表现。 |
-| [^5] | [The Barriers to Online Clothing Websites for Visually Impaired People: An Interview and Observation Approach to Understanding Needs.](http://arxiv.org/abs/2305.11559) | 本研究揭示了视障人士网购服装时存在的问题和需求，需要开发提高可访问性、用户友好的服装网站。 |
-| [^6] | [InstructIE: A Chinese Instruction-based Information Extraction Dataset.](http://arxiv.org/abs/2305.11527) | 介绍了一份中文的基于指令的信息提取数据集InstructIE，其中包括了270,000个弱监督的数据和1,000个高质量注释实例。实验结果表明当前的模型表现有待改进，该任务仍存在挑战。 |
-| [^7] | [Recouple Event Field via Probabilistic Bias for Event Extraction.](http://arxiv.org/abs/2305.11498) | 提出了一种基于概率偏置的重新耦合事件场模型（ProCE），用于增强事件提取框架，以澄清来自模糊纠缠的事件字段，并重新耦合相应的澄清分布以捕获更多潜在信息字段。实验表明该方法有效且具有泛化性。 |
-| [^8] | [TELeR: A General Taxonomy of LLM Prompts for Benchmarking Complex Tasks.](http://arxiv.org/abs/2305.11430) | 本文提出了一个通用分类法，可以用来设计具有特定属性的提示来执行各种复杂任务，从而解决了LLM在执行复杂任务方面的性能变异巨大的问题。 |
-| [^9] | [Online Learning in a Creator Economy.](http://arxiv.org/abs/2305.11381) | 本文探讨了如何应用在线学习的方法优化创作者经济学中的平台收益，分析和比较了基于回报的和基于特征的两种合同类型。 |
-| [^10] | [One Model for All Domains: Collaborative Domain-Prefix Tuning for Cross-Domain NER.](http://arxiv.org/abs/2301.10410) | 本论文提出了基于协作域前缀调整的跨领域实体识别，使用文本到文本生成的支撑领域相关指导来将知识转移至新域NER任务，避免了先前的为每个领域结束一个全新的NER模型的问题。 |
+| [^1] | [Paragraph-level Citation Recommendation based on Topic Sentences as Queries.](http://arxiv.org/abs/2305.12190) | 该论文提出了一种中间层级的引用建议任务——段落级引用建议，即以段落的主题句为输入，输出在段落中引用的建议，并提出了用于解决此任务的模型。 |
+| [^2] | [Unified Embedding: Battle-Tested Feature Representations for Web-Scale ML Systems.](http://arxiv.org/abs/2305.12102) | 本文介绍了一种名为“特征复用”的框架，它使用单一的表示空间 能够高效有效地学习高质量的特征嵌入，同时区分不同的分类特征。通过在多个公共数据集和新数据集“Web-Available Image Search (WAIS)”上的测试，我们展示了这种方法的优于现有技术的表现。 |
+| [^3] | [UP5: Unbiased Foundation Model for Fairness-aware Recommendation.](http://arxiv.org/abs/2305.12090) | 本研究提出了一种新颖的基础模型UP5，它采用反事实公平促进技术来消除大型语言模型中的偏见，从而实现面向公平性的推荐。 |
+| [^4] | [DADIN: Domain Adversarial Deep Interest Network for Cross Domain Recommender Systems.](http://arxiv.org/abs/2305.12058) | 论文提出了一种创新性的深度跨领域点击率预测模型——领域对抗深度兴趣网络（DADIN），该模型通过引入领域不可知层和特别设计的损失，创新地实现了两个领域的联合分布对齐，并采用对抗训练的方式与点击率预测损失一起进行优化，相比竞争基线算法提升明显。 |
+| [^5] | [Exploring the Viability of Synthetic Query Generation for Relevance Prediction.](http://arxiv.org/abs/2305.11944) | 本文研究在电子商务和医疗保健等专业领域中，利用强大的模型生成高质量特定任务和领域的合成数据，探索用于预测对文档的查询分级相关性的方法，并尝试使用无监督聚类技术进一步改进对数据中相关性模式的理解。 |
+| [^6] | [Knowledge Refinement via Interaction Between Search Engines and Large Language Models.](http://arxiv.org/abs/2305.07402) | 本文介绍了一种新的框架InteR，通过搜索引擎和大型语言模型之间的交互促进知识精炼，从而提高检索准确性。 |
+| [^7] | [UDAPDR: Unsupervised Domain Adaptation via LLM Prompting and Distillation of Rerankers.](http://arxiv.org/abs/2303.00807) | 该论文提出了一种无监督领域自适应方法，利用大型语言模型(LLMs)生成大量合成查询和reranker模型，蒸馏为高效的检索器，适用于长尾领域。 |
+| [^8] | [Improving Sequential Recommendation Models with an Enhanced Loss Function.](http://arxiv.org/abs/2301.00979) | 本文研究了顺序推荐模型常用损失函数的优劣，提出了一种改进的损失函数。实验表明，这种改进的损失函数可以显著提升多种顺序推荐模型的性能。 |
+| [^9] | [Towards Adversarially Robust Recommendation from Adaptive Fraudster Detection.](http://arxiv.org/abs/2211.11534) | 本文提出了一种针对推荐系统的MetaC恶意攻击，并设计了一种自适应欺诈者检测模块PDR，明确考虑标签的不确定性，提高了推荐系统的鲁棒性。 |
+| [^10] | [Leveraging End-to-End Speech Recognition with Neural Architecture Search.](http://arxiv.org/abs/1912.05946) | 本文研究表明，通过神经架构搜索可以在非常低的计算成本情况下显著提高深度语音模型的准确性，取得了与最先进结果相当的水平。 |
+| [^11] | [NLPExplorer: Exploring the Universe of NLP Papers.](http://arxiv.org/abs/1910.07351) | NLPExplorer是一个自动化门户网站，用于索引、搜索和可视化NLP研究文献，手动策划五类主题类别。提供了年轻热门作者、热门URL和数据集列表、不同主题的论文列表，以及最近热门的论文等。 |
+| [^12] | [Network Capacity Bound for Personalized PageRank in Multimodal Networks.](http://arxiv.org/abs/1706.00178) | 本文推广双分图PageRank的想法，提出了一种用于多模网络的超图类型，证明了多模网络中个性化PageRank的网络容量界限。 |
 
 # 详细
 
-[^1]: 生成式检索如何扩展到数百万篇文章？
+[^1]: 基于主题句作为查询的段落级引用建议
 
-    How Does Generative Retrieval Scale to Millions of Passages?. (arXiv:2305.11841v1 [cs.IR])
+    Paragraph-level Citation Recommendation based on Topic Sentences as Queries. (arXiv:2305.12190v1 [cs.IR])
 
-    [http://arxiv.org/abs/2305.11841](http://arxiv.org/abs/2305.11841)
+    [http://arxiv.org/abs/2305.12190](http://arxiv.org/abs/2305.12190)
 
-    本研究对不同语料规模下的生成式检索技术进行了实证研究，扩展到包含8.8M篇章的MS MARCO检索任务，并评估了高达11B个参数的模型大小，揭示出了在索引期间使用合成查询作为文档表示的重要性。
-
-    
-
-    由可微搜索索引(Differentiable Search Index)推广而来的生成式检索的新兴范式,将经典的信息检索问题重新构造为序列到序列的建模任务，放弃了外部索引，并将整个文档语料库编码在单个Transformer中。虽然已经提出了许多不同的方法来提高生成式检索的有效性，但它们仅在约100k的文档语料库上进行了评估。我们进行了第一次根据不同的语料规模进行生成式检索技术的实证研究，最终扩展到整个8.8M篇章的MS MARCO检索任务，并评估了高达11B个参数的模型大小。我们揭示了关于将生成式检索扩展到数百万篇文章的几个发现，特别是索引期间使用合成查询作为文档表示的核心重要性，以及考虑并非现有的建议架构修改时的无效性。
-
-    Popularized by the Differentiable Search Index, the emerging paradigm of generative retrieval re-frames the classic information retrieval problem into a sequence-to-sequence modeling task, forgoing external indices and encoding an entire document corpus within a single Transformer. Although many different approaches have been proposed to improve the effectiveness of generative retrieval, they have only been evaluated on document corpora on the order of 100k in size. We conduct the first empirical study of generative retrieval techniques across various corpus scales, ultimately scaling up to the entire MS MARCO passage ranking task with a corpus of 8.8M passages and evaluating model sizes up to 11B parameters. We uncover several findings about scaling generative retrieval to millions of passages; notably, the central importance of using synthetic queries as document representations during indexing, the ineffectiveness of existing proposed architecture modifications when accounting for c
-    
-[^2]: 推荐系统解释的可视化：综述和新视角
-
-    Visualization for Recommendation Explainability: A Survey and New Perspectives. (arXiv:2305.11755v1 [cs.IR])
-
-    [http://arxiv.org/abs/2305.11755](http://arxiv.org/abs/2305.11755)
-
-    本文回顾了推荐系统中有关可视化解释的研究，提出了一组可能有益于设计解释性可视化推荐系统的指南。
+    该论文提出了一种中间层级的引用建议任务——段落级引用建议，即以段落的主题句为输入，输出在段落中引用的建议，并提出了用于解决此任务的模型。
 
     
 
-    为推荐提供系统生成的解释是实现透明且值得信赖的推荐系统的重要步骤。可解释的推荐系统为输出提供了人类可理解的基础。在过去的20年中，可解释的推荐引起了推荐系统研究社区的广泛关注。本文旨在全面回顾推荐系统中有关可视化解释的研究工作。更具体地，我们根据解释目标、解释范围、解释样式和解释格式这四个维度系统地审查推荐系统中有关解释的文献。认识到可视化的重要性，我们从解释性视觉方式的角度途径推荐系统文献，即使用可视化作为解释的显示样式。因此，我们得出了一组可能有益于设计解释性可视化推荐系统的指南。
+    引用建议(CR)模型可帮助作者在论文写作过程中的各个阶段找到相关文章。大多数研究处理全局CR，该全局CR适用于初始写作阶段的一般建议。本研究提出了段落级CR任务，作为两种方法之间的一种中间地带，其中段落的主题句作为输入，生成段落内引用的建议作为输出。我们提出了一个模型来解决这个任务，并使用ACL论文数据集上的四元组损失进行了微调，结果显示相对于基线有所改善。
 
-    Providing system-generated explanations for recommendations represents an important step towards transparent and trustworthy recommender systems. Explainable recommender systems provide a human-understandable rationale for their outputs. Over the last two decades, explainable recommendation has attracted much attention in the recommender systems research community. This paper aims to provide a comprehensive review of research efforts on visual explanation in recommender systems. More concretely, we systematically review the literature on explanations in recommender systems based on four dimensions, namely explanation goal, explanation scope, explanation style, and explanation format. Recognizing the importance of visualization, we approach the recommender system literature from the angle of explanatory visualizations, that is using visualizations as a display style of explanation. As a result, we derive a set of guidelines that might be constructive for designing explanatory visualizat
+    Citation recommendation (CR) models may help authors find relevant articles at various stages of the paper writing process. Most research has dealt with either global CR, which produces general recommendations suitable for the initial writing stage, or local CR, which produces specific recommendations more fitting for the final writing stages. We propose the task of paragraph-level CR as a middle ground between the two approaches, where the paragraph's topic sentence is taken as input and recommendations for citing within the paragraph are produced at the output. We propose a model for this task, fine-tune it using the quadruplet loss on the dataset of ACL papers, and show improvements over the baselines.
     
-[^3]: 面向神经信息检索的推理时间重排反馈
+[^2]: 统一嵌入：面向 Web 规模 ML 系统的经过验证的特征表示
 
-    Inference-time Re-ranker Relevance Feedback for Neural Information Retrieval. (arXiv:2305.11744v1 [cs.IR])
+    Unified Embedding: Battle-Tested Feature Representations for Web-Scale ML Systems. (arXiv:2305.12102v1 [cs.LG])
 
-    [http://arxiv.org/abs/2305.11744](http://arxiv.org/abs/2305.11744)
+    [http://arxiv.org/abs/2305.12102](http://arxiv.org/abs/2305.12102)
 
-    本文提出了一种利用重排器提供推理时间反馈来改进检索的方法，可以显著提高低召回率@ K下的检索性能。
-
-    
-
-    神经信息检索通常采用检索和重排框架：先使用双编码器网络检索K（例如100）个候选项，然后再使用更强大的交叉编码器模型对这些候选项进行重新排序，以使更好的候选项排名更高。重排器通常产生比检索器更好的候选分数，但仅限于查看前K个检索到的候选项，因此无法提高检索性能（以Recall @ K为度量）。在本文中，我们利用重排器通过提供推理时间相关反馈来改进检索。具体而言，我们利用重排器的预测对测试实例的重要信息进行了检索器查询表示的更新。我们的方法可以通过轻量级的推理时间蒸馏来实现，目的是使检索器的候选分数更接近于重排器的分数。然后使用更新后的查询向量执行第二个检索步骤。通过实验证明，我们的方法可以显著提高检索性能，特别是在低召回率@ K下。
-
-    Neural information retrieval often adopts a retrieve-and-rerank framework: a bi-encoder network first retrieves K (e.g., 100) candidates that are then re-ranked using a more powerful cross-encoder model to rank the better candidates higher. The re-ranker generally produces better candidate scores than the retriever, but is limited to seeing only the top K retrieved candidates, thus providing no improvements in retrieval performance as measured by Recall@K. In this work, we leverage the re-ranker to also improve retrieval by providing inference-time relevance feedback to the retriever. Concretely, we update the retriever's query representation for a test instance using a lightweight inference-time distillation of the re-ranker's prediction for that instance. The distillation loss is designed to bring the retriever's candidate scores closer to those of the re-ranker. A second retrieval step is then performed with the updated query vector. We empirically show that our approach, which can 
-    
-[^4]: 探究利用大型语言模型探索基于文本的协同过滤的极限：发现和认识
-
-    Exploring the Upper Limits of Text-Based Collaborative Filtering Using Large Language Models: Discoveries and Insights. (arXiv:2305.11700v1 [cs.IR])
-
-    [http://arxiv.org/abs/2305.11700](http://arxiv.org/abs/2305.11700)
-
-    本论文探究了在基于文本的协同过滤中使用大型语言模型所能带来的性能提升，并揭示了TCF程序扩展的极限。研究人员比较了使用不同大小的语言模型在基于文本的协同过滤算法中的性能表现。
+    本文介绍了一种名为“特征复用”的框架，它使用单一的表示空间 能够高效有效地学习高质量的特征嵌入，同时区分不同的分类特征。通过在多个公共数据集和新数据集“Web-Available Image Search (WAIS)”上的测试，我们展示了这种方法的优于现有技术的表现。
 
     
 
-    基于文本的协同过滤成为现今文本和新闻推荐的主流方法，利用文本编码器或语言模型(LMs)表示物品。然而，现有的文本协同过滤模型主要集中在使用中小型的LMs上，如果将物品编码器替换为最大最强大的1750亿参数的GPT-3模型，将会对推荐性能产生什么影响尚不确定。作者开展了一系列实验，探索TCF程序的性能极限。具体来说，作者将物品编码器规模从一亿扩大到一百亿以揭示TCF程序的扩展极限，同时还探究了使用超大LMs是否能实现推荐任务的通用物品表示方法。此外，作者比较了使用最强大的LMs和中等LMs实现的基于文本协同过滤的性能差异。
+    高效、有效地学习高质量的特征嵌入对于 Web 规模的机器学习系统的性能至关重要。标准方法是将每个特征值表示为一个 d 维嵌入，引入数百亿个参数，而这些特征的基数非常高。这个瓶颈导致了备选嵌入算法的重大进展。本文介绍了一个简单但非常有效的框架，即“特征复用”，在许多不同的分类特征之间使用一个单一的表示空间。我们的理论和实证分析表明，复用的嵌入可以分解为每个组成特征的组件，使得模型可以区分特征。我们展示了复用的嵌入在几个公共数据集上优于现有技术。此外，我们引入了一个名为“Web-Available Image Search (WAIS)”的新数据集，以严格评估 Web 规模下的新嵌入算法。我们邀请社区通过提出可以准确、高效地将数百万张图像嵌入和分类到成千上万个类别的新模型来贡献 WAIS 挑战。
 
-    Text-based collaborative filtering (TCF) has become the mainstream approach for text and news recommendation, utilizing text encoders, also known as language models (LMs), to represent items. However, existing TCF models primarily focus on using small or medium-sized LMs. It remains uncertain what impact replacing the item encoder with one of the largest and most powerful LMs, such as the 175-billion parameter GPT-3 model, would have on recommendation performance. Can we expect unprecedented results? To this end, we conduct an extensive series of experiments aimed at exploring the performance limits of the TCF paradigm. Specifically, we increase the size of item encoders from one hundred million to one hundred billion to reveal the scaling limits of the TCF paradigm. We then examine whether these extremely large LMs could enable a universal item representation for the recommendation task. Furthermore, we compare the performance of the TCF paradigm utilizing the most powerful LMs to the
+    Learning high-quality feature embeddings efficiently and effectively is critical for the performance of web-scale machine learning systems. A typical model ingests hundreds of features with vocabularies on the order of millions to billions of tokens. The standard approach is to represent each feature value as a d-dimensional embedding, introducing hundreds of billions of parameters for extremely high-cardinality features. This bottleneck has led to substantial progress in alternative embedding algorithms. Many of these methods, however, make the assumption that each feature uses an independent embedding table. This work introduces a simple yet highly effective framework, Feature Multiplexing, where one single representation space is used across many different categorical features. Our theoretical and empirical analysis reveals that multiplexed embeddings can be decomposed into components from each constituent feature, allowing models to distinguish between features. We show that multip
     
-[^5]: 视障人士网购服装的障碍：理解需求的访谈和观察方法
+[^3]: UP5: 面向公平性推荐的无偏基础模型
 
-    The Barriers to Online Clothing Websites for Visually Impaired People: An Interview and Observation Approach to Understanding Needs. (arXiv:2305.11559v1 [cs.HC])
+    UP5: Unbiased Foundation Model for Fairness-aware Recommendation. (arXiv:2305.12090v1 [cs.IR])
 
-    [http://arxiv.org/abs/2305.11559](http://arxiv.org/abs/2305.11559)
+    [http://arxiv.org/abs/2305.12090](http://arxiv.org/abs/2305.12090)
 
-    本研究揭示了视障人士网购服装时存在的问题和需求，需要开发提高可访问性、用户友好的服装网站。
-
-    
-
-    视障人士在日常生活中面临许多挑战，其中购物是最具挑战性的。许多人选择在线购物，但网购服装也存在许多限制和障碍。本文通过观察和访谈两种方法进行了研究，以填补了解视障人士在网上选购服装时的行为的空白。研究结果显示，购物网站的服装描述存在不准确、误导和矛盾的情况；视障人士主要依靠（不可靠的）搜索工具，并通过查看客户评论来检查产品描述；此外，视障人士对网购时接受他人帮助持谨慎态度，担心侵犯隐私、丧失独立性和信任问题。因此，我们需要开发可访问、用户友好的服装网站，以解决视障人士所面临的特定挑战。
-
-    Visually impaired (VI) people often face challenges when performing everyday tasks and identify shopping for clothes as one of the most challenging. Many engage in online shopping, which eliminates some challenges of physical shopping. However, clothes shopping online suffers from many other limitations and barriers. More research is needed to address these challenges, and extant works often base their findings on interviews alone, providing only subjective, recall-biased information. We conducted two complementary studies using both observational and interview approaches to fill a gap in understanding about VI people's behaviour when selecting and purchasing clothes online. Our findings show that shopping websites suffer from inaccurate, misleading, and contradictory clothing descriptions; that VI people mainly rely on (unreliable) search tools and check product descriptions by reviewing customer comments. Our findings also indicate that VI people are hesitant to accept assistance fro
-    
-[^6]: InstructIE: 一份基于指令的中文信息提取数据集
-
-    InstructIE: A Chinese Instruction-based Information Extraction Dataset. (arXiv:2305.11527v1 [cs.CL])
-
-    [http://arxiv.org/abs/2305.11527](http://arxiv.org/abs/2305.11527)
-
-    介绍了一份中文的基于指令的信息提取数据集InstructIE，其中包括了270,000个弱监督的数据和1,000个高质量注释实例。实验结果表明当前的模型表现有待改进，该任务仍存在挑战。
+    本研究提出了一种新颖的基础模型UP5，它采用反事实公平促进技术来消除大型语言模型中的偏见，从而实现面向公平性的推荐。
 
     
 
-    我们引入了一项新的信息提取任务，称为基于指令的信息提取 (Instruction-based IE)，它旨在要求系统遵循特定的指令或指南来提取信息。为了促进该领域的研究，我们构建了一个数据集，称为InstructIE，其中包括来自中文维基百科的 270,000 个弱监督数据和 1,000 个高质量众包注释实例。我们进一步评估了各种基线模型在InstructIE数据集上的表现。结果表明，尽管当前的模型表现很有希望，但仍有改进的空间。此外，我们进行了全面的案例研究分析，强调了基于指令的信息提取任务中固有的挑战。代码和数据集可在 https://github.com/zjunlp/DeepKE/tree/main/example/llm 找到。
+    基于大型语言模型（LLM）等基础模型的最新进展，已将它们推到了推荐系统（RS）的前沿。此外，RS中的公平性很关键，因为许多用户将其用于决策和需求履行。然而，目前尚缺乏对推荐基础模型展示公平性水平和公平处理不同用户群组的适当方法的理解。本文侧重于用户方面的不公平问题，并通过彻底检查表明，LLMs中存在不公平性，导致不公平的推荐结果。为了消除LLM中的偏差以实现面向公平性的推荐，我们引入了一种基于反事实公平促进技术的新型无偏P5（UP5）基础模型。CFP包括两个子模块：个性化前缀提示和Prompt混合，从而增强了个体敏感属性的公平性。
 
-    We introduce a new Information Extraction (IE) task dubbed Instruction-based IE, which aims to ask the system to follow specific instructions or guidelines to extract information. To facilitate research in this area, we construct a dataset called InstructIE, consisting of 270,000 weakly supervised data from Chinese Wikipedia and 1,000 high-quality crowdsourced annotated instances. We further evaluate the performance of various baseline models on the InstructIE dataset. The results reveal that although current models exhibit promising performance, there is still room for improvement. Furthermore, we conduct a comprehensive case study analysis, underlining the challenges inherent in the Instruction-based IE task. Code and dataset are available at https://github.com/zjunlp/DeepKE/tree/main/example/llm.
+    Recent advancements in foundation models such as large language models (LLM) have propelled them to the forefront of recommender systems (RS). Moreover, fairness in RS is critical since many users apply it for decision-making and demand fulfillment. However, at present, there is a lack of understanding regarding the level of fairness exhibited by recommendation foundation models and the appropriate methods for equitably treating different groups of users in foundation models. In this paper, we focus on user-side unfairness problem and show through a thorough examination that there is unfairness involved in LLMs that lead to unfair recommendation results. To eliminate bias from LLM for fairness-aware recommendation, we introduce a novel Unbiased P5 (UP5) foundation model based on Counterfactually-Fair-Prompting (CFP) techniques. CFP includes two sub-modules: a personalized prefix prompt that enhances fairness with respect to individual sensitive attributes, and a Prompt Mixture that int
     
-[^7]: 基于概率偏置的事件抽取中重新耦合事件场
+[^4]: DADIN: 面向跨域推荐系统的领域对抗深度兴趣网络
 
-    Recouple Event Field via Probabilistic Bias for Event Extraction. (arXiv:2305.11498v1 [cs.CL])
+    DADIN: Domain Adversarial Deep Interest Network for Cross Domain Recommender Systems. (arXiv:2305.12058v1 [cs.IR])
 
-    [http://arxiv.org/abs/2305.11498](http://arxiv.org/abs/2305.11498)
+    [http://arxiv.org/abs/2305.12058](http://arxiv.org/abs/2305.12058)
 
-    提出了一种基于概率偏置的重新耦合事件场模型（ProCE），用于增强事件提取框架，以澄清来自模糊纠缠的事件字段，并重新耦合相应的澄清分布以捕获更多潜在信息字段。实验表明该方法有效且具有泛化性。
-
-    
-
-    事件抽取（EE）旨在从事件提及中识别和分类事件触发器和参数，已经受益于预训练语言模型（PLM）。然而，现有基于PLM的方法忽略了触发/参数字段的信息，这对于理解事件模式是至关重要的。为此，我们提出了一种概率重新耦合模型增强事件提取框架（ProCE）。具体来说，我们首先将语法相关的事件字段建模为概率偏置，以澄清来自模糊纠缠的事件字段。此外，考虑到EE中同一触发器/参数的多次出现，我们探索了同一触发器/参数的多个字段之间的概率交互策略，以重新耦合相应的澄清分布并捕获更多潜在信息字段。在EE数据集上的实验证明了我们提出的方法的有效性和泛化性。
-
-    Event Extraction (EE), aiming to identify and classify event triggers and arguments from event mentions, has benefited from pre-trained language models (PLMs). However, existing PLM-based methods ignore the information of trigger/argument fields, which is crucial for understanding event schemas. To this end, we propose a Probabilistic reCoupling model enhanced Event extraction framework (ProCE). Specifically, we first model the syntactic-related event fields as probabilistic biases, to clarify the event fields from ambiguous entanglement. Furthermore, considering multiple occurrences of the same triggers/arguments in EE, we explore probabilistic interaction strategies among multiple fields of the same triggers/arguments, to recouple the corresponding clarified distributions and capture more latent information fields. Experiments on EE datasets demonstrate the effectiveness and generalization of our proposed approach.
-    
-[^8]: TELeR：用于基准测试复杂任务的LLM提示的通用分类法
-
-    TELeR: A General Taxonomy of LLM Prompts for Benchmarking Complex Tasks. (arXiv:2305.11430v1 [cs.AI])
-
-    [http://arxiv.org/abs/2305.11430](http://arxiv.org/abs/2305.11430)
-
-    本文提出了一个通用分类法，可以用来设计具有特定属性的提示来执行各种复杂任务，从而解决了LLM在执行复杂任务方面的性能变异巨大的问题。
+    论文提出了一种创新性的深度跨领域点击率预测模型——领域对抗深度兴趣网络（DADIN），该模型通过引入领域不可知层和特别设计的损失，创新地实现了两个领域的联合分布对齐，并采用对抗训练的方式与点击率预测损失一起进行优化，相比竞争基线算法提升明显。
 
     
 
-    尽管LLM在传统对话环境中理解和生成文本时取得了巨大成功，但它们在执行不明确的复杂任务方面的潜力仍然受到很少的研究。本文提出了一种通用分类法，可以用来设计具有特定属性的提示，以执行各种复杂任务，从而解决了使用不同提示类型/风格和提示提供的不同详细程度时LLM性能变化巨大的问题。这个分类法将使未来的基准测试研究能够报告研究中使用的特定提示类别，从而实现跨不同研究的有意义的比较。
+    点击率预测是推荐系统的主要任务之一，用户针对不同项目进行点击以获取推荐结果。针对数据稀疏性、用户-项目交互的长尾分布和项目或用户的冷启动等问题，提出了跨领域点击率预测模型。为了使源域到目标域的知识转移更加顺畅，提出了创新性的深度跨领域点击率预测模型——领域对抗深度兴趣网络 (DADIN)，将跨域推荐任务转化为领域适应问题。通过引入领域不可知层和特别设计的损失，创新地实现了两个领域的联合分布对齐，并采用对抗训练的方式与点击率预测损失一起进行优化。实验结果表明，在华为数据集上，DADIN 的曲线下面积 (AUC) 比最具竞争力的基线高出0.08％，高出0.7％。
 
-    While LLMs have shown great success in understanding and generating text in traditional conversational settings, their potential for performing ill-defined complex tasks is largely under-studied. Indeed, we are yet to conduct comprehensive benchmarking studies with multiple LLMs that are exclusively focused on a complex task. However, conducting such benchmarking studies is challenging because of the large variations in LLMs' performance when different prompt types/styles are used and different degrees of detail are provided in the prompts. To address this issue, the paper proposes a general taxonomy that can be used to design prompts with specific properties in order to perform a wide range of complex tasks. This taxonomy will allow future benchmarking studies to report the specific categories of prompts used as part of the study, enabling meaningful comparisons across different studies. Also, by establishing a common standard through this taxonomy, researchers will be able to draw mo
+    Click-Through Rate (CTR) prediction is one of the main tasks of the recommendation system, which is conducted by a user for different items to give the recommendation results. Cross-domain CTR prediction models have been proposed to overcome problems of data sparsity, long tail distribution of user-item interactions, and cold start of items or users. In order to make knowledge transfer from source domain to target domain more smoothly, an innovative deep learning cross-domain CTR prediction model, Domain Adversarial Deep Interest Network (DADIN) is proposed to convert the cross-domain recommendation task into a domain adaptation problem. The joint distribution alignment of two domains is innovatively realized by introducing domain agnostic layers and specially designed loss, and optimized together with CTR prediction loss in a way of adversarial training. It is found that the Area Under Curve (AUC) of DADIN is 0.08% higher than the most competitive baseline on Huawei dataset and is 0.7
     
-[^9]: 创作者经济学中的在线学习方法
+[^5]: 探索用于相关性预测的合成查询生成的可行性
 
-    Online Learning in a Creator Economy. (arXiv:2305.11381v1 [cs.GT])
+    Exploring the Viability of Synthetic Query Generation for Relevance Prediction. (arXiv:2305.11944v1 [cs.IR])
 
-    [http://arxiv.org/abs/2305.11381](http://arxiv.org/abs/2305.11381)
+    [http://arxiv.org/abs/2305.11944](http://arxiv.org/abs/2305.11944)
 
-    本文探讨了如何应用在线学习的方法优化创作者经济学中的平台收益，分析和比较了基于回报的和基于特征的两种合同类型。
-
-    
-
-    创作者经济学革新了通过在线平台获取利润的方式。本文通过将创作者经济学建模为用户、平台和内容创作者之间的三方博弈，探讨了如何应用在线学习的方法，通过合同和推荐系统优化平台收益。该研究主要分析和比较了两种类型的合同：基于回报的合同和基于特征的合同。
-
-    The creator economy has revolutionized the way individuals can profit through online platforms. In this paper, we initiate the study of online learning in the creator economy by modeling the creator economy as a three-party game between the users, platform, and content creators, with the platform interacting with the content creator under a principal-agent model through contracts to encourage better content. Additionally, the platform interacts with the users to recommend new content, receive an evaluation, and ultimately profit from the content, which can be modeled as a recommender system.  Our study aims to explore how the platform can jointly optimize the contract and recommender system to maximize the utility in an online learning fashion. We primarily analyze and compare two families of contracts: return-based contracts and feature-based contracts. Return-based contracts pay the content creator a fraction of the reward the platform gains. In contrast, feature-based contracts pay 
-    
-[^10]: 适用于所有领域的一个模型：基于协作域前缀调整的跨领域实体识别
-
-    One Model for All Domains: Collaborative Domain-Prefix Tuning for Cross-Domain NER. (arXiv:2301.10410v3 [cs.CL] UPDATED)
-
-    [http://arxiv.org/abs/2301.10410](http://arxiv.org/abs/2301.10410)
-
-    本论文提出了基于协作域前缀调整的跨领域实体识别，使用文本到文本生成的支撑领域相关指导来将知识转移至新域NER任务，避免了先前的为每个领域结束一个全新的NER模型的问题。
+    本文研究在电子商务和医疗保健等专业领域中，利用强大的模型生成高质量特定任务和领域的合成数据，探索用于预测对文档的查询分级相关性的方法，并尝试使用无监督聚类技术进一步改进对数据中相关性模式的理解。
 
     
 
-    解决实际场景中低资源问题是跨领域实体识别的一个挑战性任务。先前典型的解决方案主要通过使用来自丰富资源领域的数据进行预训练语言模型(PLMs)获得NER模型并将其适应于目标领域。由于不同领域实体类型之间的不匹配问题，先前的方法通常调整所有PLMs的参数，从而为每个领域结束一个全新的NER模型。此外，当前的模型只关注于利用一个普通来源领域中的知识，而未能成功地将来自多个来源领域的知识转移到目标上。为了解决这些问题，我们基于文本到文本生成的PLM引入了协作域前缀调整跨领域NER(CP-NER)。具体来说，我们呈现了用于文本到文本生成的支撑领域相关指导来将知识转移至新域NER任务而无需结构修改。我们利用冻结的PLMs并进行协作域前缀调整。
+    查询-文档相关性预测是信息检索系统中的一个关键问题。这个问题越来越多地使用（预先训练的）基于转换器的模型来解决，这些模型使用大量标记数据进行微调。然而，在电子商务和医疗保健等专业领域，这种方法的可行性受到领域内大规模数据的匮乏限制。为了解决这个问题，最近的方法利用这些强大的模型生成高质量的特定任务和领域的合成数据。先前的工作主要探索了合成数据生成或用于问答和二元（是/否）相关性预测的查询生成（QGen）, 其中例如，QGen模型给出一个文档，并训练生成一个与该文档相关的查询。然而，在许多问题中，我们对相关性有一个更细粒度的概念，而不是一个简单的是/否标签。因此，在这项工作中，我们进行了详细的研究，探讨了如何利用QGen方法实现细微的相关性预测。具体而言，我们研究了使用合成查询来预测对文档的查询分级相关性的有效性，并探索使用无监督聚类技术进一步改进对数据中相关性模式的理解。
 
-    Cross-domain NER is a challenging task to address the low-resource problem in practical scenarios. Previous typical solutions mainly obtain a NER model by pre-trained language models (PLMs) with data from a rich-resource domain and adapt it to the target domain. Owing to the mismatch issue among entity types in different domains, previous approaches normally tune all parameters of PLMs, ending up with an entirely new NER model for each domain. Moreover, current models only focus on leveraging knowledge in one general source domain while failing to successfully transfer knowledge from multiple sources to the target. To address these issues, we introduce Collaborative Domain-Prefix Tuning for cross-domain NER (CP-NER) based on text-to-text generative PLMs. Specifically, we present text-to-text generation grounding domain-related instructors to transfer knowledge to new domain NER tasks without structural modifications. We utilize frozen PLMs and conduct collaborative domain-prefix tuning
+    Query-document relevance prediction is a critical problem in Information Retrieval systems. This problem has increasingly been tackled using (pretrained) transformer-based models which are finetuned using large collections of labeled data. However, in specialized domains such as e-commerce and healthcare, the viability of this approach is limited by the dearth of large in-domain data. To address this paucity, recent methods leverage these powerful models to generate high-quality task and domain-specific synthetic data. Prior work has largely explored synthetic data generation or query generation (QGen) for Question-Answering (QA) and binary (yes/no) relevance prediction, where for instance, the QGen models are given a document, and trained to generate a query relevant to that document. However in many problems, we have a more fine-grained notion of relevance than a simple yes/no label. Thus, in this work, we conduct a detailed study into how QGen approaches can be leveraged for nuanced
+    
+[^6]: 搜索引擎与大型语言模型间的交互优化知识精炼
+
+    Knowledge Refinement via Interaction Between Search Engines and Large Language Models. (arXiv:2305.07402v1 [cs.CL])
+
+    [http://arxiv.org/abs/2305.07402](http://arxiv.org/abs/2305.07402)
+
+    本文介绍了一种新的框架InteR，通过搜索引擎和大型语言模型之间的交互促进知识精炼，从而提高检索准确性。
+
+    
+
+    信息检索在从大量数据中定位相关资源方面具有重要作用，其应用已从传统知识库发展至现代搜索引擎（SEs）。大型语言模型（LLMs）的出现进一步通过使用自然语言与搜索系统交互革命性地改变了该领域。本文探索了LLMs和SEs的优缺点，强调它们在理解用户查询和检索最新信息方面的各自优势。为了利用两种范例的优势并避免其限制，我们提出了InteR，这是一个通过SEs和LLMs之间的交互促进知识精炼的新框架。 InteR使SEs能够使用LLM生成的摘要来调整查询，同时使LLMs能够使用SE检索到的文档来增强提示。这种迭代的精炼过程增强了SEs和LLMs的输入，从而导致更准确的检索结果。
+
+    Information retrieval (IR) plays a crucial role in locating relevant resources from vast amounts of data, and its applications have evolved from traditional knowledge bases to modern search engines (SEs). The emergence of large language models (LLMs) has further revolutionized the field by enabling users to interact with search systems in natural language. In this paper, we explore the advantages and disadvantages of LLMs and SEs, highlighting their respective strengths in understanding user-issued queries and retrieving up-to-date information. To leverage the benefits of both paradigms while circumventing their limitations, we propose InteR, a novel framework that facilitates knowledge refinement through interaction between SEs and LLMs. InteR allows SEs to refine knowledge in query using LLM-generated summaries and enables LLMs to enhance prompts using SE-retrieved documents. This iterative refinement process augments the inputs of SEs and LLMs, leading to more accurate retrieval. Ex
+    
+[^7]: UDAPDR: 基于LLM提示与reranker蒸馏的无监督领域自适应
+
+    UDAPDR: Unsupervised Domain Adaptation via LLM Prompting and Distillation of Rerankers. (arXiv:2303.00807v2 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2303.00807](http://arxiv.org/abs/2303.00807)
+
+    该论文提出了一种无监督领域自适应方法，利用大型语言模型(LLMs)生成大量合成查询和reranker模型，蒸馏为高效的检索器，适用于长尾领域。
+
+    
+
+    很多信息检索任务需要大型标注数据集进行微调，但这样的数据集通常不可用，且在应用于真实场景中时可能会因为领域漂移而迅速失去效用。为了解决这个问题，我们提出一种使用大型语言模型(LLMs)廉价生成大量合成查询的方法。该方法首先利用昂贵的LLM生成少量合成查询，然后再利用成本较低的LLM生成大量的合成查询以微调一组reranker模型。最后，这些reranker会被蒸 distill 成一个高效的检索器，用于目标领域中的检索。实验证明，这种技术可以提高长尾领域中的零样本准确性，即使只使用2K个合成查询进行微调，并且比标准的reranking方法具有更低的延迟。我们提供完整的端到端方案，包括合成数据集等。
+
+    Many information retrieval tasks require large labeled datasets for fine-tuning. However, such datasets are often unavailable, and their utility for real-world applications can diminish quickly due to domain shifts. To address this challenge, we develop and motivate a method for using large language models (LLMs) to generate large numbers of synthetic queries cheaply. The method begins by generating a small number of synthetic queries using an expensive LLM. After that, a much less expensive one is used to create large numbers of synthetic queries, which are used to fine-tune a family of reranker models. These rerankers are then distilled into a single efficient retriever for use in the target domain. We show that this technique boosts zero-shot accuracy in long-tail domains, even where only 2K synthetic queries are used for fine-tuning, and that it achieves substantially lower latency than standard reranking methods. We make our end-to-end approach, including our synthetic datasets an
+    
+[^8]: 一种改进的损失函数提升顺序推荐模型
+
+    Improving Sequential Recommendation Models with an Enhanced Loss Function. (arXiv:2301.00979v2 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2301.00979](http://arxiv.org/abs/2301.00979)
+
+    本文研究了顺序推荐模型常用损失函数的优劣，提出了一种改进的损失函数。实验表明，这种改进的损失函数可以显著提升多种顺序推荐模型的性能。
+
+    
+
+    最近，人们对于顺序推荐模型进行了大量的基准测试和复现/改进现有模型的工作。本文通过分析常用的顺序推荐损失函数的优劣，提出了一种改进的损失函数来充分利用它们的优点。实验结果表明，这种改进的损失函数显著提升了 GRU4Rec，SASRec，SR-GNN和 S3Rec等模型的性能。
+
+    There has been a growing interest in benchmarking sequential recommendation models and reproducing/improving existing models. For example, Rendle et al. improved matrix factorization models by tuning their parameters and hyperparameters. Petrov and Macdonald developed a more efficient and effective implementation of BERT4Rec, which resolved inconsistencies in performance comparison between BERT4Rec and SASRec in previous works. In particular, BERT4Rec and SASRec share a similar network structure, with the main difference lying in their training objective/loss function. Therefore, we analyzed the advantages and disadvantages of commonly used loss functions in sequential recommendation and proposed an improved loss function that leverages their strengths. We conduct extensive experiments on two influential open-source libraries, and the results demonstrate that our improved loss function significantly enhances the performance of GRU4Rec, SASRec, SR-GNN, and S3Rec models, improving their 
+    
+[^9]: 从自适应欺诈者检测探究对抗鲁棒的推荐系统
+
+    Towards Adversarially Robust Recommendation from Adaptive Fraudster Detection. (arXiv:2211.11534v3 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2211.11534](http://arxiv.org/abs/2211.11534)
+
+    本文提出了一种针对推荐系统的MetaC恶意攻击，并设计了一种自适应欺诈者检测模块PDR，明确考虑标签的不确定性，提高了推荐系统的鲁棒性。
+
+    
+
+    推荐系统在节点注入攻击下的鲁棒性备受关注。最近，提出了基于GNN的推荐系统GraphRfi，它有效减轻了注入的虚假用户的影响。但是，我们展示了GraphRfi仍然容易受到攻击，因为其欺诈者检测组件的监督性质，在实践中很难获得干净的标签。我们提出了一个强大的MetaC恶意攻击，针对GNN-based和MF-based推荐系统。根据我们从易受攻击性分析中得到的见解，我们设计了一种自适应欺诈者检测模块，明确考虑了标签不确定性。该模块可以作为不同推荐系统的插件，形成一个稳健的框架（PDR）。全面的实验表明，我们的防御方法在攻击下优于其他基准方法。总体而言，我们的工作强调了在构建欺诈者检测模块时考虑标签不确定性的重要性，并提供了改善推荐系统对节点注入攻击鲁棒性的实用解决方案。
+
+    The robustness of recommender systems under node injection attacks has garnered significant attention. Recently, GraphRfi, a GNN-based recommender system, was proposed and shown to effectively mitigate the impact of injected fake users. However, we demonstrate that GraphRfi remains vulnerable to attacks due to the supervised nature of its fraudster detection component, where obtaining clean labels is challenging in practice. In particular, we propose a powerful poisoning attack, MetaC, against both GNN-based and MF-based recommender systems. Furthermore, we analyze why GraphRfi fails under such an attack. Then, based on our insights obtained from vulnerability analysis, we design an adaptive fraudster detection module that explicitly considers label uncertainty. This module can serve as a plug-in for different recommender systems, resulting in a robust framework named PDR. Comprehensive experiments show that our defense approach outperforms other benchmark methods under attacks. Overal
+    
+[^10]: 利用神经架构搜索提升端到端语音识别效果
+
+    Leveraging End-to-End Speech Recognition with Neural Architecture Search. (arXiv:1912.05946v2 [eess.AS] UPDATED)
+
+    [http://arxiv.org/abs/1912.05946](http://arxiv.org/abs/1912.05946)
+
+    本文研究表明，通过神经架构搜索可以在非常低的计算成本情况下显著提高深度语音模型的准确性，取得了与最先进结果相当的水平。
+
+    
+
+    深度神经网络已经被证实在自动语音识别方面优于许多传统机器学习算法。本文研究表明，通过有效实施神经架构搜索可以在非常低的计算成本情况下显著提高深度语音模型的准确性。在使用流行的LibriSpeech和TIMIT基准测试中进行的音素识别测试证明了这一事实，该方法能够在几个小时之内（不到一天），比基于注意力机制的seq2seq模型快多次，探测和训练新的候选模型。我们的方法在LibriSpeech语料库上的测试误差率（WER）为7％，在TIMIT语料库上的音素误差率（PER）为13％，达到了与最先进结果相当的水平。
+
+    Deep neural networks (DNNs) have been demonstrated to outperform many traditional machine learning algorithms in Automatic Speech Recognition (ASR). In this paper, we show that a large improvement in the accuracy of deep speech models can be achieved with effective Neural Architecture Optimization at a very low computational cost. Phone recognition tests with the popular LibriSpeech and TIMIT benchmarks proved this fact by displaying the ability to discover and train novel candidate models within a few hours (less than a day) many times faster than the attention-based seq2seq models. Our method achieves test error of 7% Word Error Rate (WER) on the LibriSpeech corpus and 13% Phone Error Rate (PER) on the TIMIT corpus, on par with state-of-the-art results.
+    
+[^11]: NLPExplorer：探索自然语言处理论文的宇宙
+
+    NLPExplorer: Exploring the Universe of NLP Papers. (arXiv:1910.07351v2 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/1910.07351](http://arxiv.org/abs/1910.07351)
+
+    NLPExplorer是一个自动化门户网站，用于索引、搜索和可视化NLP研究文献，手动策划五类主题类别。提供了年轻热门作者、热门URL和数据集列表、不同主题的论文列表，以及最近热门的论文等。
+
+    
+
+    随着科学文章数量的不断增加，了解当前研究趋势、问题及其创新解决方案仍然是一个瓶颈。本文提出了NLPExplorer，这是一个完全自动化的门户网站，用于索引、搜索和可视化自然语言处理（NLP）研究体量。与之前基于主题建模的方法不同，NLPExplorer手动策划了五个粗略的、非排他的主题类别，即语言目标（语法、语篇等）、任务（标注、摘要等）、方法（无监督、监督等）、语言（英语、中文等）和数据集类型（新闻、临床笔记等）。其中一些新颖的功能包括年轻热门作者、热门URL和数据集列表、不同主题的论文列表以及最近热门的论文。此外，它还提供了诸如按年度热度的主题、数据集的统计信息等。
+
+    Understanding the current research trends, problems, and their innovative solutions remains a bottleneck due to the ever-increasing volume of scientific articles. In this paper, we propose NLPExplorer, a completely automatic portal for indexing, searching, and visualizing Natural Language Processing (NLP) research volume. NLPExplorer presents interesting insights from papers, authors, venues, and topics. In contrast to previous topic modelling based approaches, we manually curate five course-grained non-exclusive topical categories namely Linguistic Target (Syntax, Discourse, etc.), Tasks (Tagging, Summarization, etc.), Approaches (unsupervised, supervised, etc.), Languages (English, Chinese,etc.) and Dataset types (news, clinical notes, etc.). Some of the novel features include a list of young popular authors, popular URLs, and datasets, a list of topically diverse papers and recent popular papers. Also, it provides temporal statistics such as yearwise popularity of topics, datasets, 
+    
+[^12]: 多模网络中个性化PageRank的网络容量界限
+
+    Network Capacity Bound for Personalized PageRank in Multimodal Networks. (arXiv:1706.00178v3 [cs.SI] UPDATED)
+
+    [http://arxiv.org/abs/1706.00178](http://arxiv.org/abs/1706.00178)
+
+    本文推广双分图PageRank的想法，提出了一种用于多模网络的超图类型，证明了多模网络中个性化PageRank的网络容量界限。
+
+    
+
+    在一篇先前的论文中，介绍了双分图PageRank的概念，并推广了个性化PageRank中节点之间授权流限制的定理。本文将这些结果推广到多模网络中。我们特别处理了一种用于描述多模网络的超图类型，其中超链接将每个模态的节点连接起来。我们引入了这种图的PageRank概率分布，并定义了相应的随机游走模型，可用于计算。我们对具有相同和不同阻尼因子的情况下授权流出量的极限情况进行了陈述和证明。
+
+    In a former paper the concept of Bipartite PageRank was introduced and a theorem on the limit of authority flowing between nodes for personalized PageRank has been generalized. In this paper we want to extend those results to multimodal networks. In particular we deal with a hypergraph type that may be used for describing multimodal network where a hyperlink connects nodes from each of the modalities. We introduce a generalisation of PageRank for such graphs and define the respective random walk model that can be used for computations. We state and prove theorems on the limit of outflow of authority for cases where individual modalities have identical and distinct damping factors.
     
 

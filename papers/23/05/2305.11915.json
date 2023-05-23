@@ -1,0 +1,12 @@
+{
+    "title": "PINNs error estimates for nonlinear equations in $\\mathbb{R}$-smooth Banach spaces. (arXiv:2305.11915v1 [math.FA])",
+    "abstract": "In the paper, we describe in operator form classes of PDEs that admit PINN's error estimation. Also, for $L^p$ spaces, we obtain a Bramble-Hilbert type lemma that is a tool for PINN's residuals bounding.",
+    "link": "http://arxiv.org/abs/2305.11915",
+    "context": "Title: PINNs error estimates for nonlinear equations in $\\mathbb{R}$-smooth Banach spaces. (arXiv:2305.11915v1 [math.FA])\nAbstract: In the paper, we describe in operator form classes of PDEs that admit PINN's error estimation. Also, for $L^p$ spaces, we obtain a Bramble-Hilbert type lemma that is a tool for PINN's residuals bounding.",
+    "path": "papers/23/05/2305.11915.json",
+    "total_tokens": 543,
+    "translated_title": "在$\\mathbb{R}$-光滑Banach空间中，PINNs误差估计非线性方程的研究",
+    "translated_abstract": "本文以算子形式描述了一类支持PINN误差估计的PDE，并且对于$L^p$空间，我们得到了一个Bramble-Hilbert引理，作为与PINN残差边界的工具。",
+    "tldr": "本文研究了在$\\mathbb{R}$-光滑Banach空间中支持PINNs误差估计的非线性方程，提出了一种可用于限制残差的Bramble-Hilbert引理。",
+    "en_tdlr": "This paper studies PINNs error estimation for nonlinear equations in $\\mathbb{R}$-smooth Banach spaces, and proposes a Bramble-Hilbert lemma as a tool for bounding residuals, particularly in $L^p$ spaces."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "The Waymo Open Sim Agents Challenge. (arXiv:2305.12032v1 [cs.CV])",
+    "abstract": "In this work, we define the Waymo Open Sim Agents Challenge (WOSAC). Simulation with realistic, interactive agents represents a key task for autonomous vehicle software development. WOSAC is the first public challenge to tackle this task and propose corresponding metrics. The goal of the challenge is to stimulate the design of realistic simulators that can be used to evaluate and train a behavior model for autonomous driving. We outline our evaluation methodology and present preliminary results for a number of different baseline simulation agent methods.",
+    "link": "http://arxiv.org/abs/2305.12032",
+    "context": "Title: The Waymo Open Sim Agents Challenge. (arXiv:2305.12032v1 [cs.CV])\nAbstract: In this work, we define the Waymo Open Sim Agents Challenge (WOSAC). Simulation with realistic, interactive agents represents a key task for autonomous vehicle software development. WOSAC is the first public challenge to tackle this task and propose corresponding metrics. The goal of the challenge is to stimulate the design of realistic simulators that can be used to evaluate and train a behavior model for autonomous driving. We outline our evaluation methodology and present preliminary results for a number of different baseline simulation agent methods.",
+    "path": "papers/23/05/2305.12032.json",
+    "total_tokens": 684,
+    "translated_title": "Waymo开放模拟代理挑战赛",
+    "translated_abstract": "本文定义了Waymo开放模拟代理挑战赛(WOSAC)。通过与真实、互动的智能体进行仿真是自动驾驶软件开发的关键任务。WOSAC是第一个公开的挑战赛，旨在解决该任务并提出相应的评估指标。该挑战的目标是激发设计逼真模拟器的兴趣，以用于评估和训练自动驾驶的行为模型。我们概述了评估方法，并展示了几种基准仿真代理方法的初步结果。",
+    "tldr": "Waymo开放模拟代理挑战赛提出使用真实、互动的智能体仿真以促进自动驾驶行为模型的评估和训练，是该领域的首个公开挑战赛，旨在推动逼真模拟器的设计。",
+    "en_tdlr": "The Waymo Open Sim Agents Challenge is the first public challenge that proposes to use realistic, interactive agents simulation to encourage the evaluation and training of behavior model for autonomous driving. It aims to stimulate the design of realistic simulators to promote this task."
+}
