@@ -7,6 +7,7 @@
 | [^3] | [InProC: Industry and Product/Service Code Classification.](http://arxiv.org/abs/2305.13532) | 该论文提出了一种可以利用无监督表示学习技术建立高质量的行业和产品/服务代码分类系统的方法，同时也确保了金融领域内的高精度结果。经过评估，在超过20,000家公司的数据集上实现了超过92%的分类精度。 |
 | [^4] | [Unimodal maps perturbed by heteroscedastic noise: an application to a financial systems.](http://arxiv.org/abs/2305.13475) | 本文研究了一类受异方差噪声扰动的单峰平滑映射的数学性质，并应用于金融系统中的系统性风险和杠杆周期金融概念。通过马尔可夫链进行分析，得出了中心极限定理，大偏差原理和Berry-Ess \ 'een不等式，证明了Gumbel定律等结论。 |
 | [^5] | [E-backtesting.](http://arxiv.org/abs/2209.00991) | 本文提出了一种基于E-值和E-过程技术的ES预测无模型回测程序，可以自然地应用于许多其他风险度量和统计量。 |
+| [^6] | [Change point detection in dynamic Gaussian graphical models: the impact of COVID-19 pandemic on the US stock market.](http://arxiv.org/abs/2208.00952) | 本研究旨在捕捉在COVID-19疫情期间US行业股票组合之间相互依赖关系的突然变化，开发了一种基于贝叶斯多元随机波动模型的动态高斯图形模型变点检测方法。 |
 
 # 详细
 
@@ -79,5 +80,19 @@
     在最近的巴塞尔协议中，预期损失（ES）取代了价值损失（VaR）成为银行业市场风险的标准风险度量，使它成为金融监管中最重要的风险度量。风险建模实践中最具挑战性的任务之一是回测金融机构提供的ES预测。为了设计一种ES的无模型回测程序，我们利用了最近发展的E-值和E-过程技术。引入了无模型E-统计量来制定风险度量预测的E-过程，并利用鉴别函数的最新结果为VaR和ES的无模型E-统计量确定了独特的形式。对于给定的无模型E-统计量，研究了构建E-过程的最优方法。该方法可以自然地应用于许多其他风险度量和统计量。我们进行了大量的模拟研究和数据分析，以说明无模型方法的优势。
 
     In the recent Basel Accords, the Expected Shortfall (ES) replaces the Value-at-Risk (VaR) as the standard risk measure for market risk in the banking sector, making it the most important risk measure in financial regulation. One of the most challenging tasks in risk modeling practice is to backtest ES forecasts provided by financial institutions. To design a model-free backtesting procedure for ES, we make use of the recently developed techniques of e-values and e-processes. Model-free e-statistics are introduced to formulate e-processes for risk measure forecasts, and unique forms of model-free e-statistics for VaR and ES are characterized using recent results on identification functions. For a given model-free e-statistic, optimal ways of constructing the e-processes are studied. The proposed method can be naturally applied to many other risk measures and statistical quantities. We conduct extensive simulation studies and data analysis to illustrate the advantages of the model-free b
+    
+[^6]: 动态高斯图形模型中的变点检测：COVID-19疫情对美国股市的影响
+
+    Change point detection in dynamic Gaussian graphical models: the impact of COVID-19 pandemic on the US stock market. (arXiv:2208.00952v3 [stat.ME] UPDATED)
+
+    [http://arxiv.org/abs/2208.00952](http://arxiv.org/abs/2208.00952)
+
+    本研究旨在捕捉在COVID-19疫情期间US行业股票组合之间相互依赖关系的突然变化，开发了一种基于贝叶斯多元随机波动模型的动态高斯图形模型变点检测方法。
+
+    
+
+    可靠的波动率和关联的估计对于经济和金融领域非常重要，可以用于理解宏观经济事件对市场的影响，指导未来的投资和政策。金融收益之间的相互依赖关系可能会受到突然的结构性变化的影响，特别是在像COVID-19这样的重大全球事件发生时。本文旨在捕捉在涵盖COVID-19疫情期间的时间范围内，美国行业股票投资组合之间相互依赖关系的突然变化。所选择的股票给出了美国股市的全面画面。为此，我们开发了一种基于捕捉依赖结构演变的时变图形序列的贝叶斯多元随机波动模型。该模型建立在高斯图形模型和随机变点文献的基础上。特别地，我们将变点的数量、位置和图形视为后验对象。
+
+    Reliable estimates of volatility and correlation are fundamental in economics and finance for understanding the impact of macroeconomics events on the market and guiding future investments and policies. Dependence across financial returns is likely to be subject to sudden structural changes, especially in correspondence with major global events, such as the COVID-19 pandemic. In this work, we are interested in capturing abrupt changes over time in the dependence across US industry stock portfolios, over a time horizon that covers the COVID-19 pandemic. The selected stocks give a comprehensive picture of the US stock market. To this end, we develop a Bayesian multivariate stochastic volatility model based on a time-varying sequence of graphs capturing the evolution of the dependence structure. The model builds on the Gaussian graphical models and the random change points literature. In particular, we treat the number, the position of change points, and the graphs as object of posterior 
     
 

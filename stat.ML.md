@@ -11,37 +11,40 @@
 | [^7] | [Cost-aware learning of relevant contextual variables within Bayesian optimization.](http://arxiv.org/abs/2305.14120) | 本文提出一种基于代价感知的模型选择BO方法SADCBO，通过对后验代理模型的敏感性分析来学习关于环境的相关情境信息，并通过平均模型预测来最小化优化代价，在实验中表现出卓越的性能。 |
 | [^8] | [Sustainable Edge Intelligence Through Energy-Aware Early Exiting.](http://arxiv.org/abs/2305.14094) | 本文提出了能量自适应动态早期退出机制，通过能量感知的策略，在EH边缘设备中实现了高效准确推理。 |
 | [^9] | [Mind the spikes: Benign overfitting of kernels and neural networks in fixed dimension.](http://arxiv.org/abs/2305.14077) | 这篇论文研究了固定维度下内核和神经网络的良性过拟合，发现良性过拟合的关键在于估计器的平滑度而不是维数，并证明在固定维度下中度导数的良性过拟合是不可能的。相反，我们证明了用序列核进行回归是可能出现良性过拟合的。 |
-| [^10] | [DIVA: A Dirichlet Process Based Incremental Deep Clustering Algorithm via Variational Auto-Encoder.](http://arxiv.org/abs/2305.14067) | 本文提出了DIVA算法，一个基于狄利克雷过程的增量深度聚类框架，利用无限混合高斯作为先验，并利用一种记忆化的在线变分推理方法实现簇的动态适应移动，而不需要先知道特征的数量。该算法表现优越，特别是在增量特征的情况下。 |
-| [^11] | [Data-Dependent Bounds for Online Portfolio Selection Without Lipschitzness and Smoothness.](http://arxiv.org/abs/2305.13946) | 本文提出了在线投资组合选择的第一个数据相关上界，算法显示亚线性遗憾率，并在数据“容易”时实现对数遗憾。 |
-| [^12] | [Subsampling Error in Stochastic Gradient Langevin Diffusions.](http://arxiv.org/abs/2305.13882) | 该研究分析了随机梯度 Langevin 动力学在大型数据环境下使用子采样产生的误差。研究者提出了一种新的连续时间马尔可夫过程，该过程切换数据子集并可用于扩散子采样 MCMC 方法，并证明了该方法的收敛性。 |
-| [^13] | [On the Optimal Batch Size for Byzantine-Robust Distributed Learning.](http://arxiv.org/abs/2305.13856) | 本文研究的问题是在拜占庭容错分布式学习中，当梯度计算总数固定时，最佳的批处理大小随拜占庭工人的比例增加而增加。 |
-| [^14] | [Covariate balancing using the integral probability metric for causal inference.](http://arxiv.org/abs/2305.13715) | 本文介绍了一种利用积分概率测量进行协变量平衡的因果推断方法，无需正确规定倾向得分或结果回归模型即可保证估计器的一致性，并且在实验中表现出优异性能。 |
-| [^15] | [Deep Learning with Kernels through RKHM and the Perron-Frobenius Operator.](http://arxiv.org/abs/2305.13588) | 该论文提出了一种基于核方法的深度学习框架：深度RKHM，通过使用$C^*$代数获得更温和的界限，并提供了良性过拟合的理论解释。 |
-| [^16] | [Squared Neural Families: A New Class of Tractable Density Models.](http://arxiv.org/abs/2305.13552) | 提出一种新的可计算密度模型类——平方神经分布族，其通过对神经网络的2范数进行平方和基于某个基础度量进行归一化，严格推广了经典指数族，具有闭性条件推断和可计算的边际分布。 |
-| [^17] | [Statistical Guarantees of Group-Invariant GANs.](http://arxiv.org/abs/2305.13517) | 本研究提出了群不变GAN的统计保证，发现当学习群不变分布时，群不变GAN所需样本数会按群体大小的幂比例减少。 |
-| [^18] | [Parameter estimation from an Ornstein-Uhlenbeck process with measurement noise.](http://arxiv.org/abs/2305.13498) | 本文研究了带有测量噪声的Ornstein-Uhlenbeck过程参数估计，提出了算法和方法能够分离热噪声和乘性噪声，并改善数据分析的参数估计精度。 |
-| [^19] | [Nonparanormal Graph Quilting with Applications to Calcium Imaging.](http://arxiv.org/abs/2305.13491) | 本文研究了钙成像中的图拼接问题，提出了两种非高斯图形模型的解决方案，并在模拟和真实数据上验证了其有效性。 |
-| [^20] | [A comprehensive theoretical framework for the optimization of neural networks classification performance with respect to weighted metrics.](http://arxiv.org/abs/2305.13472) | 本论文提出了一个理论框架，可以驱使模型优化加权分类度量标准，包括成本敏感学习、加权交叉熵损失函数和值加权技能得分等已确立的方法。 |
-| [^21] | [Error-Tolerant Exact Query Learning of Finite Set Partitions with Same-Cluster Oracle.](http://arxiv.org/abs/2305.13402) | 本文提出了一个新问题：如何通过同簇预言机在存在有限对抗错误时积极学习完全恢复划分。我们建立了解析框架并证明了最坏情况下查询复杂度的上下界，并研究了适应性和查询复杂度之间的关系。 |
-| [^22] | [From Random Search to Bandit Learning in Metric Measure Spaces.](http://arxiv.org/abs/2305.11509) | 本文介绍了随机搜索及其性能，引入了“散射维度”的概念，描述了底层函数的状态，量化了随机搜索的性能，并证明了在无噪声和有界噪声情况下的输出分别以一定概率收敛到最优值。 |
-| [^23] | [Transfer Causal Learning: Causal Effect Estimation with Knowledge Transfer.](http://arxiv.org/abs/2305.09126) | 本文提出了一个名为$\ell_1$-TCL的通用框架，它使用知识迁移和Lasso回归来提高因果效应估计精度。 |
-| [^24] | [First- and Second-Order Bounds for Adversarial Linear Contextual Bandits.](http://arxiv.org/abs/2305.00832) | 本文研究了允许$k$个臂的损失函数随时间而自由变化的对抗性线性上下文赌博情境。在假设环境较为温和的情况下，我们获得了一个关于Learner's Losses $V_T$的二阶损失值量级为$\tilde O(K\sqrt{d V_T})$和关于最佳策略$L_T^*$的一阶损失值量级为$\tilde O(K\sqrt{d L_T^*})$的界。 |
-| [^25] | [A mean-field games laboratory for generative modeling.](http://arxiv.org/abs/2304.13534) | 本文提出了使用均场博弈作为实验室对生成模型进行设计和分析的方法，并建立了这种方法与主要流动和扩散型生成模型之间的关联。通过研究每个生成模型与它们相关的 MFG 的最优条件，本文提出了一个基于双人 MFG 的新的生成模型，该模型在提高样本多样性和逼真度的同时改善了解缠结和公平性。 |
-| [^26] | [Did we personalize? Assessing personalization by an online reinforcement learning algorithm using resampling.](http://arxiv.org/abs/2304.05365) | 本论文提出了一种使用重复采样的政策评估方法，以评估在线 RL 算法实现的个性化程度。该方法可用于优化数字健康的个性化干预。 |
-| [^27] | [Private Statistical Estimation of Many Quantiles.](http://arxiv.org/abs/2302.06943) | 本文主要研究如何在差分隐私条件下估计一个分布的多个分位数。它提出了两种方法：一种是通过私有地估计样本的经验分位数来估计分布的分位数，另一种是使用密度估计技术进行分位数函数估计，并且展示了两种方法之间的权衡。 |
-| [^28] | [OPORP: One Permutation + One Random Projection.](http://arxiv.org/abs/2302.03505) | OPORP使用一种"计数草图"类型的数据降维/压缩方法，可以用于嵌入式检索，在保证较少的信息损失的前提下，显著降低了计算和存储的成本 |
-| [^29] | [SE(3) diffusion model with application to protein backbone generation.](http://arxiv.org/abs/2302.02277) | 本文提出了SE（3）扩散模型及其理论基础，并使用FrameDiff框架在多个框架上学习SE（3）等变分数，成功生成可设计的长达500个氨基酸的单体背景。 |
-| [^30] | [Sample Complexity of Probability Divergences under Group Symmetry.](http://arxiv.org/abs/2302.01915) | 本文研究了具有群不变性的分布变量在变分差异估计中的样本复杂度，发现在群大小维度相关的情况下，样本复杂度会有所降低，并在实验中得到了验证。 |
-| [^31] | [Kernel Stein Discrepancy thinning: a theoretical perspective of pathologies and a practical fix with regularization.](http://arxiv.org/abs/2301.13528) | 本文针对后处理MCMC输出过程中的病态问题进行了理论分析，提出了正则化的Stein稀释算法，有效缓解了这些病态产生的影响，为提高逼近质量提供了新策略。 |
-| [^32] | [Asymptotic Inference for Multi-Stage Stationary Treatment Policy with High Dimensional Features.](http://arxiv.org/abs/2301.12553) | 本研究填补了在高维特征变量存在的情况下，对于多阶段静态治疗策略本身进行推断的工作空白，提出了一种增强的估计器以提高价值函数的准确性。 |
-| [^33] | [Sampling-based Nystr\"om Approximation and Kernel Quadrature.](http://arxiv.org/abs/2301.09517) | 本文提出了一种基于抽样的Nyström逼近方法用于核积分。同时，引入了一种非i.i.d.地标点的理论保证方法，使得提高了逼近的精度。 |
-| [^34] | [Birth-death dynamics for sampling: Global convergence, approximations and their asymptotics.](http://arxiv.org/abs/2211.00450) | 本文研究了一种连续的出生死亡动态，并提出了弱假设。通过这种动态控制的概率密度指数级地快速收敛到吉布斯平衡测度，同时提出了一种实用的基于纯出生死亡动态的数值采样器，并对其逼近品质进行了定量评估。 |
-| [^35] | [Online Convex Optimization with Unbounded Memory.](http://arxiv.org/abs/2210.09903) | 本论文提出了一种新的在线凸优化框架，可以处理决策历史的长期依赖关系，并介绍了用于量化依赖程度的$p$-有效内存容量的概念。 |
-| [^36] | [Granger Causal Chain Discovery for Sepsis-Associated Derangements via Continuous-Time Hawkes Processes.](http://arxiv.org/abs/2209.04480) | 本文提出了一个基于连续时间霍克过程的Granger因果链发现方法，可用于推断EMR数据中多个患者特征之间的时间交互作用，并确定败血症相关异常的实验室值链。 |
-| [^37] | [Faster federated optimization under second-order similarity.](http://arxiv.org/abs/2209.02257) | 提出两种新的联邦学习算法，SVRP 和 Catalyzed SVRP，它们都有较高的通信效率和性能表现，并广泛适用于分布式统计学习和差分隐私经验风险最小化等领域。 |
-| [^38] | [Masked Bayesian Neural Networks : Computation and Optimality.](http://arxiv.org/abs/2206.00853) | 本文提出了一种新颖的稀疏贝叶斯神经网络（BNN），它可以使用掩码变量在节点级别上关闭一些节点，以产生稀疏的DNN结构。我们还设计了一个先验分布，使得后验分布具有理论上的最优性，并开发了一种高效的MCMC算法。该方法在几个基准数据集上表现良好，能够发现精简的DNN结构，具有与大型DNN相似的预测准确性和不确定性量化能力。 |
-| [^39] | [A Case of Exponential Convergence Rates for SVM.](http://arxiv.org/abs/2205.10055) | 本文研究了SVM的指数级收敛速度，提出了一种简单的方法来获得快速收敛速度，并在没有假设硬Tsybakov边际条件的情况下展示了SVM的指数级收敛速度现象。 |
-| [^40] | [Externally Valid Policy Choice.](http://arxiv.org/abs/2205.05561) | 本文研究了外部有效的个性化治疗策略的学习问题。研究表明，最大化福利的治疗策略对于实验和目标人群之间的结果分布变化具有鲁棒性。通过开发新的方法，作者提出了对结果和特征变化具有鲁棒性的策略学习方法，并强调实验人群内的治疗效果异质性对策略普适性的影响。 |
+| [^10] | [Towards Understanding the Dynamics of Gaussian--Stein Variational Gradient Descent.](http://arxiv.org/abs/2305.14076) | 本文探究了高斯-斯坦变分梯度下降动态性。对于从高斯目标中采样，只要初始值是高斯的，具有双线性核的SVGD动态将保持高斯状态。当目标函数呈现出强对数凹性时，证明了均场高斯-SVGD动态会线性收敛于KL散度下最接近目标高斯分布。在有限粒子设置中，存在对均场极限的时间微步一致收敛以及线性收敛至目标高斯分布。 |
+| [^11] | [DIVA: A Dirichlet Process Based Incremental Deep Clustering Algorithm via Variational Auto-Encoder.](http://arxiv.org/abs/2305.14067) | 本文提出了DIVA算法，一个基于狄利克雷过程的增量深度聚类框架，利用无限混合高斯作为先验，并利用一种记忆化的在线变分推理方法实现簇的动态适应移动，而不需要先知道特征的数量。该算法表现优越，特别是在增量特征的情况下。 |
+| [^12] | [Expressive Losses for Verified Robustness via Convex Combinations.](http://arxiv.org/abs/2305.13991) | 通过基于凸组合的表达性损失，可以提高网络的对抗鲁棒性，最新的算法可以获得最先进的结果；这种方法通过对抗性攻击和IBP边界之间的简单凸组合进行实现。 |
+| [^13] | [Data-Dependent Bounds for Online Portfolio Selection Without Lipschitzness and Smoothness.](http://arxiv.org/abs/2305.13946) | 本文提出了在线投资组合选择的第一个数据相关上界，算法显示亚线性遗憾率，并在数据“容易”时实现对数遗憾。 |
+| [^14] | [Subsampling Error in Stochastic Gradient Langevin Diffusions.](http://arxiv.org/abs/2305.13882) | 该研究分析了随机梯度 Langevin 动力学在大型数据环境下使用子采样产生的误差。研究者提出了一种新的连续时间马尔可夫过程，该过程切换数据子集并可用于扩散子采样 MCMC 方法，并证明了该方法的收敛性。 |
+| [^15] | [Stochastic PDE representation of random fields for large-scale Gaussian process regression and statistical finite element analysis.](http://arxiv.org/abs/2305.13879) | 本文针对工程学和机器学习中的贝叶斯建模，使用随机PDE表示来开发一种可扩展的框架，从而可以在几何复杂的域上进行大规模的统计有限元分析和高斯过程回归。 |
+| [^16] | [On the Optimal Batch Size for Byzantine-Robust Distributed Learning.](http://arxiv.org/abs/2305.13856) | 本文研究的问题是在拜占庭容错分布式学习中，当梯度计算总数固定时，最佳的批处理大小随拜占庭工人的比例增加而增加。 |
+| [^17] | [Covariate balancing using the integral probability metric for causal inference.](http://arxiv.org/abs/2305.13715) | 本文介绍了一种利用积分概率测量进行协变量平衡的因果推断方法，无需正确规定倾向得分或结果回归模型即可保证估计器的一致性，并且在实验中表现出优异性能。 |
+| [^18] | [Deep Learning with Kernels through RKHM and the Perron-Frobenius Operator.](http://arxiv.org/abs/2305.13588) | 该论文提出了一种基于核方法的深度学习框架：深度RKHM，通过使用$C^*$代数获得更温和的界限，并提供了良性过拟合的理论解释。 |
+| [^19] | [Squared Neural Families: A New Class of Tractable Density Models.](http://arxiv.org/abs/2305.13552) | 提出一种新的可计算密度模型类——平方神经分布族，其通过对神经网络的2范数进行平方和基于某个基础度量进行归一化，严格推广了经典指数族，具有闭性条件推断和可计算的边际分布。 |
+| [^20] | [Statistical Guarantees of Group-Invariant GANs.](http://arxiv.org/abs/2305.13517) | 本研究提出了群不变GAN的统计保证，发现当学习群不变分布时，群不变GAN所需样本数会按群体大小的幂比例减少。 |
+| [^21] | [Parameter estimation from an Ornstein-Uhlenbeck process with measurement noise.](http://arxiv.org/abs/2305.13498) | 本文研究了带有测量噪声的Ornstein-Uhlenbeck过程参数估计，提出了算法和方法能够分离热噪声和乘性噪声，并改善数据分析的参数估计精度。 |
+| [^22] | [Nonparanormal Graph Quilting with Applications to Calcium Imaging.](http://arxiv.org/abs/2305.13491) | 本文研究了钙成像中的图拼接问题，提出了两种非高斯图形模型的解决方案，并在模拟和真实数据上验证了其有效性。 |
+| [^23] | [A comprehensive theoretical framework for the optimization of neural networks classification performance with respect to weighted metrics.](http://arxiv.org/abs/2305.13472) | 本论文提出了一个理论框架，可以驱使模型优化加权分类度量标准，包括成本敏感学习、加权交叉熵损失函数和值加权技能得分等已确立的方法。 |
+| [^24] | [Error-Tolerant Exact Query Learning of Finite Set Partitions with Same-Cluster Oracle.](http://arxiv.org/abs/2305.13402) | 本文提出了一个新问题：如何通过同簇预言机在存在有限对抗错误时积极学习完全恢复划分。我们建立了解析框架并证明了最坏情况下查询复杂度的上下界，并研究了适应性和查询复杂度之间的关系。 |
+| [^25] | [From Random Search to Bandit Learning in Metric Measure Spaces.](http://arxiv.org/abs/2305.11509) | 本文介绍了随机搜索及其性能，引入了“散射维度”的概念，描述了底层函数的状态，量化了随机搜索的性能，并证明了在无噪声和有界噪声情况下的输出分别以一定概率收敛到最优值。 |
+| [^26] | [Transfer Causal Learning: Causal Effect Estimation with Knowledge Transfer.](http://arxiv.org/abs/2305.09126) | 本文提出了一个名为$\ell_1$-TCL的通用框架，它使用知识迁移和Lasso回归来提高因果效应估计精度。 |
+| [^27] | [First- and Second-Order Bounds for Adversarial Linear Contextual Bandits.](http://arxiv.org/abs/2305.00832) | 本文研究了允许$k$个臂的损失函数随时间而自由变化的对抗性线性上下文赌博情境。在假设环境较为温和的情况下，我们获得了一个关于Learner's Losses $V_T$的二阶损失值量级为$\tilde O(K\sqrt{d V_T})$和关于最佳策略$L_T^*$的一阶损失值量级为$\tilde O(K\sqrt{d L_T^*})$的界。 |
+| [^28] | [A mean-field games laboratory for generative modeling.](http://arxiv.org/abs/2304.13534) | 本文提出了使用均场博弈作为实验室对生成模型进行设计和分析的方法，并建立了这种方法与主要流动和扩散型生成模型之间的关联。通过研究每个生成模型与它们相关的 MFG 的最优条件，本文提出了一个基于双人 MFG 的新的生成模型，该模型在提高样本多样性和逼真度的同时改善了解缠结和公平性。 |
+| [^29] | [Did we personalize? Assessing personalization by an online reinforcement learning algorithm using resampling.](http://arxiv.org/abs/2304.05365) | 本论文提出了一种使用重复采样的政策评估方法，以评估在线 RL 算法实现的个性化程度。该方法可用于优化数字健康的个性化干预。 |
+| [^30] | [Private Statistical Estimation of Many Quantiles.](http://arxiv.org/abs/2302.06943) | 本文主要研究如何在差分隐私条件下估计一个分布的多个分位数。它提出了两种方法：一种是通过私有地估计样本的经验分位数来估计分布的分位数，另一种是使用密度估计技术进行分位数函数估计，并且展示了两种方法之间的权衡。 |
+| [^31] | [OPORP: One Permutation + One Random Projection.](http://arxiv.org/abs/2302.03505) | OPORP使用一种"计数草图"类型的数据降维/压缩方法，可以用于嵌入式检索，在保证较少的信息损失的前提下，显著降低了计算和存储的成本 |
+| [^32] | [SE(3) diffusion model with application to protein backbone generation.](http://arxiv.org/abs/2302.02277) | 本文提出了SE（3）扩散模型及其理论基础，并使用FrameDiff框架在多个框架上学习SE（3）等变分数，成功生成可设计的长达500个氨基酸的单体背景。 |
+| [^33] | [Sample Complexity of Probability Divergences under Group Symmetry.](http://arxiv.org/abs/2302.01915) | 本文研究了具有群不变性的分布变量在变分差异估计中的样本复杂度，发现在群大小维度相关的情况下，样本复杂度会有所降低，并在实验中得到了验证。 |
+| [^34] | [Kernel Stein Discrepancy thinning: a theoretical perspective of pathologies and a practical fix with regularization.](http://arxiv.org/abs/2301.13528) | 本文针对后处理MCMC输出过程中的病态问题进行了理论分析，提出了正则化的Stein稀释算法，有效缓解了这些病态产生的影响，为提高逼近质量提供了新策略。 |
+| [^35] | [Asymptotic Inference for Multi-Stage Stationary Treatment Policy with High Dimensional Features.](http://arxiv.org/abs/2301.12553) | 本研究填补了在高维特征变量存在的情况下，对于多阶段静态治疗策略本身进行推断的工作空白，提出了一种增强的估计器以提高价值函数的准确性。 |
+| [^36] | [Sampling-based Nystr\"om Approximation and Kernel Quadrature.](http://arxiv.org/abs/2301.09517) | 本文提出了一种基于抽样的Nyström逼近方法用于核积分。同时，引入了一种非i.i.d.地标点的理论保证方法，使得提高了逼近的精度。 |
+| [^37] | [Birth-death dynamics for sampling: Global convergence, approximations and their asymptotics.](http://arxiv.org/abs/2211.00450) | 本文研究了一种连续的出生死亡动态，并提出了弱假设。通过这种动态控制的概率密度指数级地快速收敛到吉布斯平衡测度，同时提出了一种实用的基于纯出生死亡动态的数值采样器，并对其逼近品质进行了定量评估。 |
+| [^38] | [Online Convex Optimization with Unbounded Memory.](http://arxiv.org/abs/2210.09903) | 本论文提出了一种新的在线凸优化框架，可以处理决策历史的长期依赖关系，并介绍了用于量化依赖程度的$p$-有效内存容量的概念。 |
+| [^39] | [Granger Causal Chain Discovery for Sepsis-Associated Derangements via Continuous-Time Hawkes Processes.](http://arxiv.org/abs/2209.04480) | 本文提出了一个基于连续时间霍克过程的Granger因果链发现方法，可用于推断EMR数据中多个患者特征之间的时间交互作用，并确定败血症相关异常的实验室值链。 |
+| [^40] | [Faster federated optimization under second-order similarity.](http://arxiv.org/abs/2209.02257) | 提出两种新的联邦学习算法，SVRP 和 Catalyzed SVRP，它们都有较高的通信效率和性能表现，并广泛适用于分布式统计学习和差分隐私经验风险最小化等领域。 |
+| [^41] | [Masked Bayesian Neural Networks : Computation and Optimality.](http://arxiv.org/abs/2206.00853) | 本文提出了一种新颖的稀疏贝叶斯神经网络（BNN），它可以使用掩码变量在节点级别上关闭一些节点，以产生稀疏的DNN结构。我们还设计了一个先验分布，使得后验分布具有理论上的最优性，并开发了一种高效的MCMC算法。该方法在几个基准数据集上表现良好，能够发现精简的DNN结构，具有与大型DNN相似的预测准确性和不确定性量化能力。 |
+| [^42] | [A Case of Exponential Convergence Rates for SVM.](http://arxiv.org/abs/2205.10055) | 本文研究了SVM的指数级收敛速度，提出了一种简单的方法来获得快速收敛速度，并在没有假设硬Tsybakov边际条件的情况下展示了SVM的指数级收敛速度现象。 |
+| [^43] | [Externally Valid Policy Choice.](http://arxiv.org/abs/2205.05561) | 本文研究了外部有效的个性化治疗策略的学习问题。研究表明，最大化福利的治疗策略对于实验和目标人群之间的结果分布变化具有鲁棒性。通过开发新的方法，作者提出了对结果和特征变化具有鲁棒性的策略学习方法，并强调实验人群内的治疗效果异质性对策略普适性的影响。 |
 
 # 详细
 
@@ -171,7 +174,21 @@
 
     The success of over-parameterized neural networks trained to near-zero training error has caused great interest in the phenomenon of benign overfitting, where estimators are statistically consistent even though they interpolate noisy training data. While benign overfitting in fixed dimension has been established for some learning methods, current literature suggests that for regression with typical kernel methods and wide neural networks, benign overfitting requires a high-dimensional setting where the dimension grows with the sample size. In this paper, we show that the smoothness of the estimators, and not the dimension, is the key: benign overfitting is possible if and only if the estimator's derivatives are large enough. We generalize existing inconsistency results to non-interpolating models and more kernels to show that benign overfitting with moderate derivatives is impossible in fixed dimension. Conversely, we show that benign overfitting is possible for regression with a seque
     
-[^10]: DIVA：基于狄利克雷过程的变分自编码器的增量深度聚类算法
+[^10]: 关于高斯-斯坦变分梯度下降动态性的探究
+
+    Towards Understanding the Dynamics of Gaussian--Stein Variational Gradient Descent. (arXiv:2305.14076v1 [math.ST])
+
+    [http://arxiv.org/abs/2305.14076](http://arxiv.org/abs/2305.14076)
+
+    本文探究了高斯-斯坦变分梯度下降动态性。对于从高斯目标中采样，只要初始值是高斯的，具有双线性核的SVGD动态将保持高斯状态。当目标函数呈现出强对数凹性时，证明了均场高斯-SVGD动态会线性收敛于KL散度下最接近目标高斯分布。在有限粒子设置中，存在对均场极限的时间微步一致收敛以及线性收敛至目标高斯分布。
+
+    
+
+    Stein Variational Gradient Descent (SVGD)是一种非参数基于粒子的确定性采样算法。尽管其被广泛使用，但理解SVGD的理论属性一直是一个具有挑战性的问题。对于从高斯目标中采样，只要初始值是高斯的，具有双线性核的SVGD动态将保持高斯状态。受此事实的启发，我们通过双线性核将SVGD投影到高斯分布族中，即高斯变分推断 (GVI) 与 SVGD。我们通过考虑均场 PDE 和离散粒子系统，提供了一个完整的图像。当目标函数呈现出强对数凹性时，证明了均场高斯-SVGD动态会线性收敛于KL散度下最接近目标高斯分布。在有限粒子设置中，存在对均场极限的时间微步一致收敛以及线性收敛至目标高斯分布。我们的分析基于一个新的代数恒等式，该等式将目标高斯分布的费希尔信息矩阵与粒子均匀分布的费希尔信息矩阵相关联。这个等式为我们提供了透视 GVI with SVGD 在均场和粒子设置中的动态性的统一视角。
+
+    Stein Variational Gradient Descent (SVGD) is a nonparametric particle-based deterministic sampling algorithm. Despite its wide usage, understanding the theoretical properties of SVGD has remained a challenging problem. For sampling from a Gaussian target, the SVGD dynamics with a bilinear kernel will remain Gaussian as long as the initializer is Gaussian. Inspired by this fact, we undertake a detailed theoretical study of the Gaussian-SVGD, i.e., SVGD projected to the family of Gaussian distributions via the bilinear kernel, or equivalently Gaussian variational inference (GVI) with SVGD. We present a complete picture by considering both the mean-field PDE and discrete particle systems. When the target is strongly log-concave, the mean-field Gaussian-SVGD dynamics is proven to converge linearly to the Gaussian distribution closest to the target in KL divergence. In the finite-particle setting, there is both uniform in time convergence to the mean-field limit and linear convergence in ti
+    
+[^11]: DIVA：基于狄利克雷过程的变分自编码器的增量深度聚类算法
 
     DIVA: A Dirichlet Process Based Incremental Deep Clustering Algorithm via Variational Auto-Encoder. (arXiv:2305.14067v1 [cs.LG])
 
@@ -185,7 +202,21 @@
 
     Generative model-based deep clustering frameworks excel in classifying complex data, but are limited in handling dynamic and complex features because they require prior knowledge of the number of clusters. In this paper, we propose a nonparametric deep clustering framework that employs an infinite mixture of Gaussians as a prior. Our framework utilizes a memoized online variational inference method that enables the "birth" and "merge" moves of clusters, allowing our framework to cluster data in a "dynamic-adaptive" manner, without requiring prior knowledge of the number of features. We name the framework as DIVA, a Dirichlet Process-based Incremental deep clustering framework via Variational Auto-Encoder. Our framework, which outperforms state-of-the-art baselines, exhibits superior performance in classifying complex data with dynamically changing features, particularly in the case of incremental features.
     
-[^11]: 无需Lipschitzness和Smoothness的在线投资组合选择的数据相关上界
+[^12]: 基于凸组合的表达性损失可以提高网络的对抗鲁棒性
+
+    Expressive Losses for Verified Robustness via Convex Combinations. (arXiv:2305.13991v1 [cs.LG])
+
+    [http://arxiv.org/abs/2305.13991](http://arxiv.org/abs/2305.13991)
+
+    通过基于凸组合的表达性损失，可以提高网络的对抗鲁棒性，最新的算法可以获得最先进的结果；这种方法通过对抗性攻击和IBP边界之间的简单凸组合进行实现。
+
+    
+
+    先前的工作通常通过（扰动区域的子集）的最坏情况下限，或在对抗训练之上引入可验证性来训练具有已验证鲁棒性的网络。最先进性能的关键在于所使用的损失函数的表达能力，它应该能够匹配训练后要使用的验证器的紧密度。我们形式化定义了表达力，并表明它可以通过对抗性攻击和IBP边界之间的简单凸组合来满足。然后，我们展示了所得到的算法，命名为CC-IBP和MTL-IBP，在各种设置中均可以产生最先进的结果，尽管其概念上是简单的。特别地，在TinyImageNet和缩小的ImageNet上，对于半径为$ \frac{1} {255} $的$ \ell_ \infty $扰动，MTL-IBP可以将文献中最佳标准和验证准确性从$1.98\%$提高到$3.92\%$，同时仅依赖于单步自适应优化。
+
+    In order to train networks for verified adversarial robustness, previous work typically over-approximates the worst-case loss over (subsets of) perturbation regions or induces verifiability on top of adversarial training. The key to state-of-the-art performance lies in the expressivity of the employed loss function, which should be able to match the tightness of the verifiers to be employed post-training. We formalize a definition of expressivity, and show that it can be satisfied via simple convex combinations between adversarial attacks and IBP bounds. We then show that the resulting algorithms, named CC-IBP and MTL-IBP, yield state-of-the-art results across a variety of settings in spite of their conceptual simplicity. In particular, for $\ell_\infty$ perturbations of radius $\frac{1}{255}$ on TinyImageNet and downscaled ImageNet, MTL-IBP improves on the best standard and verified accuracies from the literature by from $1.98\%$ to $3.92\%$ points while only relying on single-step ad
+    
+[^13]: 无需Lipschitzness和Smoothness的在线投资组合选择的数据相关上界
 
     Data-Dependent Bounds for Online Portfolio Selection Without Lipschitzness and Smoothness. (arXiv:2305.13946v1 [cs.LG])
 
@@ -199,7 +230,7 @@
 
     This work introduces the first small-loss and gradual-variation regret bounds for online portfolio selection, marking the first instances of data-dependent bounds for online convex optimization with non-Lipschitz, non-smooth losses. The algorithms we propose exhibit sublinear regret rates in the worst cases and achieve logarithmic regrets when the data is "easy," with per-iteration time almost linear in the number of investment alternatives. The regret bounds are derived using novel smoothness characterizations of the logarithmic loss, a local norm-based analysis of following the regularized leader (FTRL) with self-concordant regularizers, which are not necessarily barriers, and an implicit variant of optimistic FTRL with the log-barrier.
     
-[^12]: 随机梯度 Langevin 扩散中的子采样误差
+[^14]: 随机梯度 Langevin 扩散中的子采样误差
 
     Subsampling Error in Stochastic Gradient Langevin Diffusions. (arXiv:2305.13882v1 [stat.ML])
 
@@ -213,7 +244,21 @@
 
     The Stochastic Gradient Langevin Dynamics (SGLD) are popularly used to approximate Bayesian posterior distributions in statistical learning procedures with large-scale data. As opposed to many usual Markov chain Monte Carlo (MCMC) algorithms, SGLD is not stationary with respect to the posterior distribution; two sources of error appear: The first error is introduced by an Euler--Maruyama discretisation of a Langevin diffusion process, the second error comes from the data subsampling that enables its use in large-scale data settings. In this work, we consider an idealised version of SGLD to analyse the method's pure subsampling error that we then see as a best-case error for diffusion-based subsampling MCMC methods. Indeed, we introduce and study the Stochastic Gradient Langevin Diffusion (SGLDiff), a continuous-time Markov process that follows the Langevin diffusion corresponding to a data subset and switches this data subset after exponential waiting times. There, we show that the Was
     
-[^13]: 论拜占庭容错分布式学习的最佳批处理大小
+[^15]: 针对大规模高斯过程回归和统计有限元分析的随机PDE表示随机场
+
+    Stochastic PDE representation of random fields for large-scale Gaussian process regression and statistical finite element analysis. (arXiv:2305.13879v1 [math.NA])
+
+    [http://arxiv.org/abs/2305.13879](http://arxiv.org/abs/2305.13879)
+
+    本文针对工程学和机器学习中的贝叶斯建模，使用随机PDE表示来开发一种可扩展的框架，从而可以在几何复杂的域上进行大规模的统计有限元分析和高斯过程回归。
+
+    
+
+    在工程学和机器学习的贝叶斯建模中，有效表示几何复杂域上的随机场至关重要。当前普遍使用的随机场表示仅限于无界域或在可能的场属性方面过于受限。因此，利用随机PDE与随机场之间的历史联系的新技术对于具有复杂几何形状和存在有限元离散化用于求解物理守恒方程的工程应用尤为吸引人。与随机场的密集协方差矩阵不同，其逆矩阵--精度矩阵通常是稀疏的，并等于类似Helmholtz的随机PDE的刚度矩阵。在本文中，我们使用SPDE表示来开发可扩展的框架，用于在几何复杂域上进行大规模的统计有限元分析（StatFEM）和高斯过程（GP）回归。我们使用SPDE公式
+
+    The efficient representation of random fields on geometrically complex domains is crucial for Bayesian modelling in engineering and machine learning. Today's prevalent random field representations are restricted to unbounded domains or are too restrictive in terms of possible field properties. As a result, new techniques leveraging the historically established link between stochastic PDEs (SPDEs) and random fields are especially appealing for engineering applications with complex geometries which already have a finite element discretisation for solving the physical conservation equations. Unlike the dense covariance matrix of a random field, its inverse, the precision matrix, is usually sparse and equal to the stiffness matrix of a Helmholtz-like SPDE. In this paper, we use the SPDE representation to develop a scalable framework for large-scale statistical finite element analysis (statFEM) and Gaussian process (GP) regression on geometrically complex domains. We use the SPDE formulatio
+    
+[^16]: 论拜占庭容错分布式学习的最佳批处理大小
 
     On the Optimal Batch Size for Byzantine-Robust Distributed Learning. (arXiv:2305.13856v1 [cs.LG])
 
@@ -227,7 +272,7 @@
 
     Byzantine-robust distributed learning (BRDL), in which computing devices are likely to behave abnormally due to accidental failures or malicious attacks, has recently become a hot research topic. However, even in the independent and identically distributed (i.i.d.) case, existing BRDL methods will suffer from a significant drop on model accuracy due to the large variance of stochastic gradients. Increasing batch sizes is a simple yet effective way to reduce the variance. However, when the total number of gradient computation is fixed, a too-large batch size will lead to a too-small iteration number (update number), which may also degrade the model accuracy. In view of this challenge, we mainly study the optimal batch size when the total number of gradient computation is fixed in this work. In particular, we theoretically and empirically show that when the total number of gradient computation is fixed, the optimal batch size in BRDL increases with the fraction of Byzantine workers. Ther
     
-[^14]: 利用积分概率测量进行协变量平衡的因果推断方法
+[^17]: 利用积分概率测量进行协变量平衡的因果推断方法
 
     Covariate balancing using the integral probability metric for causal inference. (arXiv:2305.13715v1 [stat.ML])
 
@@ -241,7 +286,7 @@
 
     Weighting methods in causal inference have been widely used to achieve a desirable level of covariate balancing. However, the existing weighting methods have desirable theoretical properties only when a certain model, either the propensity score or outcome regression model, is correctly specified. In addition, the corresponding estimators do not behave well for finite samples due to large variance even when the model is correctly specified. In this paper, we consider to use the integral probability metric (IPM), which is a metric between two probability measures, for covariate balancing. Optimal weights are determined so that weighted empirical distributions for the treated and control groups have the smallest IPM value for a given set of discriminators. We prove that the corresponding estimator can be consistent without correctly specifying any model (neither the propensity score nor the outcome regression model). In addition, we empirically show that our proposed method outperforms e
     
-[^15]: 通过RKHM和Perron-Frobenius算子的深度学习
+[^18]: 通过RKHM和Perron-Frobenius算子的深度学习
 
     Deep Learning with Kernels through RKHM and the Perron-Frobenius Operator. (arXiv:2305.13588v1 [stat.ML])
 
@@ -255,7 +300,7 @@
 
     Reproducing kernel Hilbert $C^*$-module (RKHM) is a generalization of reproducing kernel Hilbert space (RKHS) by means of $C^*$-algebra, and the Perron-Frobenius operator is a linear operator related to the composition of functions. Combining these two concepts, we present deep RKHM, a deep learning framework for kernel methods. We derive a new Rademacher generalization bound in this setting and provide a theoretical interpretation of benign overfitting by means of Perron-Frobenius operators. By virtue of $C^*$-algebra, the dependency of the bound on output dimension is milder than existing bounds. We show that $C^*$-algebra is a suitable tool for deep learning with kernels, enabling us to take advantage of the product structure of operators and to provide a clear connection with convolutional neural networks. Our theoretical analysis provides a new lens through which one can design and analyze deep kernel methods.
     
-[^16]: 平方神经分布族：一种新的可计算密度模型类
+[^19]: 平方神经分布族：一种新的可计算密度模型类
 
     Squared Neural Families: A New Class of Tractable Density Models. (arXiv:2305.13552v1 [cs.LG])
 
@@ -269,7 +314,7 @@
 
     Flexible models for probability distributions are an essential ingredient in many machine learning tasks. We develop and investigate a new class of probability distributions, which we call a Squared Neural Family (SNEFY), formed by squaring the 2-norm of a neural network and normalising it with respect to a base measure. Following the reasoning similar to the well established connections between infinitely wide neural networks and Gaussian processes, we show that SNEFYs admit a closed form normalising constants in many cases of interest, thereby resulting in flexible yet fully tractable density models. SNEFYs strictly generalise classical exponential families, are closed under conditioning, and have tractable marginal distributions. Their utility is illustrated on a variety of density estimation and conditional density estimation tasks. Software available at https://github.com/RussellTsuchida/snefy.
     
-[^17]: Group-Invariant GAN的统计保证
+[^20]: Group-Invariant GAN的统计保证
 
     Statistical Guarantees of Group-Invariant GANs. (arXiv:2305.13517v1 [stat.ML])
 
@@ -283,7 +328,7 @@
 
     Group-invariant generative adversarial networks (GANs) are a type of GANs in which the generators and discriminators are hardwired with group symmetries. Empirical studies have shown that these networks are capable of learning group-invariant distributions with significantly improved data efficiency. In this study, we aim to rigorously quantify this improvement by analyzing the reduction in sample complexity for group-invariant GANs. Our findings indicate that when learning group-invariant distributions, the number of samples required for group-invariant GANs decreases proportionally with a power of the group size, and this power depends on the intrinsic dimension of the distribution's support. To our knowledge, this work presents the first statistical estimation for group-invariant generative models, specifically for GANs, and it may shed light on the study of other group-invariant generative models.
     
-[^18]: 用于带测量噪声的Ornstein-Uhlenbeck过程参数估计
+[^21]: 用于带测量噪声的Ornstein-Uhlenbeck过程参数估计
 
     Parameter estimation from an Ornstein-Uhlenbeck process with measurement noise. (arXiv:2305.13498v1 [stat.ML])
 
@@ -297,7 +342,7 @@
 
     This article aims to investigate the impact of noise on parameter fitting for an Ornstein-Uhlenbeck process, focusing on the effects of multiplicative and thermal noise on the accuracy of signal separation. To address these issues, we propose algorithms and methods that can effectively distinguish between thermal and multiplicative noise and improve the precision of parameter estimation for optimal data analysis. Specifically, we explore the impact of both multiplicative and thermal noise on the obfuscation of the actual signal and propose methods to resolve them. Firstly, we present an algorithm that can effectively separate thermal noise with comparable performance to Hamilton Monte Carlo (HMC) but with significantly improved speed. Subsequently, we analyze multiplicative noise and demonstrate that HMC is insufficient for isolating thermal and multiplicative noise. However, we show that, with additional knowledge of the ratio between thermal and multiplicative noise, we can accuratel
     
-[^19]: 非参数高斯图拼接及其在钙成像中的应用
+[^22]: 非参数高斯图拼接及其在钙成像中的应用
 
     Nonparanormal Graph Quilting with Applications to Calcium Imaging. (arXiv:2305.13491v1 [stat.ME])
 
@@ -311,7 +356,7 @@
 
     Probabilistic graphical models have become an important unsupervised learning tool for detecting network structures for a variety of problems, including the estimation of functional neuronal connectivity from two-photon calcium imaging data. However, in the context of calcium imaging, technological limitations only allow for partially overlapping layers of neurons in a brain region of interest to be jointly recorded. In this case, graph estimation for the full data requires inference for edge selection when many pairs of neurons have no simultaneous observations. This leads to the Graph Quilting problem, which seeks to estimate a graph in the presence of block-missingness in the empirical covariance matrix. Solutions for the Graph Quilting problem have previously been studied for Gaussian graphical models; however, neural activity data from calcium imaging are often non-Gaussian, thereby requiring a more flexible modeling approach. Thus, in our work, we study two approaches for nonpara
     
-[^20]: 关于神经网络分类性能优化基于加权度量的综合理论框架
+[^23]: 关于神经网络分类性能优化基于加权度量的综合理论框架
 
     A comprehensive theoretical framework for the optimization of neural networks classification performance with respect to weighted metrics. (arXiv:2305.13472v1 [cs.LG])
 
@@ -325,7 +370,7 @@
 
     In many contexts, customized and weighted classification scores are designed in order to evaluate the goodness of the predictions carried out by neural networks. However, there exists a discrepancy between the maximization of such scores and the minimization of the loss function in the training phase. In this paper, we provide a complete theoretical setting that formalizes weighted classification metrics and then allows the construction of losses that drive the model to optimize these metrics of interest. After a detailed theoretical analysis, we show that our framework includes as particular instances well-established approaches such as classical cost-sensitive learning, weighted cross entropy loss functions and value-weighted skill scores.
     
-[^21]: 通过同簇预言机的容错精确查询学习有限集合划分
+[^24]: 通过同簇预言机的容错精确查询学习有限集合划分
 
     Error-Tolerant Exact Query Learning of Finite Set Partitions with Same-Cluster Oracle. (arXiv:2305.13402v1 [cs.DS])
 
@@ -339,7 +384,7 @@
 
     This paper initiates the study of active learning for exact recovery of partitions exclusively through access to a same-cluster oracle in the presence of bounded adversarial error. We first highlight a novel connection between learning partitions and correlation clustering. Then we use this connection to build a R\'enyi-Ulam style analytical framework for this problem, and prove upper and lower bounds on its worst-case query complexity. Further, we bound the expected performance of a relevant randomized algorithm. Finally, we study the relationship between adaptivity and query complexity for this problem and related variants.
     
-[^22]: 从随机搜索到度量测度空间中的赌博学习
+[^25]: 从随机搜索到度量测度空间中的赌博学习
 
     From Random Search to Bandit Learning in Metric Measure Spaces. (arXiv:2305.11509v1 [cs.LG])
 
@@ -353,7 +398,7 @@
 
     Random Search is one of the most widely-used method for Hyperparameter Optimization, and is critical to the success of deep learning models. Despite its astonishing performance, little non-heuristic theory has been developed to describe the underlying working mechanism. This paper gives a theoretical accounting of Random Search. We introduce the concept of \emph{scattering dimension} that describes the landscape of the underlying function, and quantifies the performance of random search. We show that, when the environment is noise-free, the output of random search converges to the optimal value in probability at rate $ \widetilde{\mathcal{O}} \left( \left( \frac{1}{T} \right)^{ \frac{1}{d_s} } \right) $, where $ d_s \ge 0 $ is the scattering dimension of the underlying function. When the observed function values are corrupted by bounded $iid$ noise, the output of random search converges to the optimal value in probability at rate $ \widetilde{\mathcal{O}} \left( \left( \frac{1}{T} \rig
     
-[^23]: 知识迁移下的因果效应估计: 转移因果学习
+[^26]: 知识迁移下的因果效应估计: 转移因果学习
 
     Transfer Causal Learning: Causal Effect Estimation with Knowledge Transfer. (arXiv:2305.09126v1 [cs.LG])
 
@@ -367,7 +412,7 @@
 
     A novel problem of improving causal effect estimation accuracy with the help of knowledge transfer under the same covariate (or feature) space setting, i.e., homogeneous transfer learning (TL), is studied, referred to as the Transfer Causal Learning (TCL) problem. While most recent efforts in adapting TL techniques to estimate average causal effect (ACE) have been focused on the heterogeneous covariate space setting, those methods are inadequate for tackling the TCL problem since their algorithm designs are based on the decomposition into shared and domain-specific covariate spaces. To address this issue, we propose a generic framework called \texttt{$\ell_1$-TCL}, which incorporates $\ell_1$ regularized TL for nuisance parameter estimation and downstream plug-in ACE estimators, including outcome regression, inverse probability weighted, and doubly robust estimators. Most importantly, with the help of Lasso for high-dimensional regression, we establish non-asymptotic recovery guarantee
     
-[^24]: 对抗性线性上下文赌博的一阶和二阶界限
+[^27]: 对抗性线性上下文赌博的一阶和二阶界限
 
     First- and Second-Order Bounds for Adversarial Linear Contextual Bandits. (arXiv:2305.00832v1 [cs.LG])
 
@@ -381,7 +426,7 @@
 
     We consider the adversarial linear contextual bandit setting, which allows for the loss functions associated with each of $K$ arms to change over time without restriction. Assuming the $d$-dimensional contexts are drawn from a fixed known distribution, the worst-case expected regret over the course of $T$ rounds is known to scale as $\tilde O(\sqrt{Kd T})$. Under the additional assumption that the density of the contexts is log-concave, we obtain a second-order bound of order $\tilde O(K\sqrt{d V_T})$ in terms of the cumulative second moment of the learner's losses $V_T$, and a closely related first-order bound of order $\tilde O(K\sqrt{d L_T^*})$ in terms of the cumulative loss of the best policy $L_T^*$. Since $V_T$ or $L_T^*$ may be significantly smaller than $T$, these improve over the worst-case regret whenever the environment is relatively benign. Our results are obtained using a truncated version of the continuous exponential weights algorithm over the probability simplex, which
     
-[^25]: 用均场博弈为生成模型搭建实验室
+[^28]: 用均场博弈为生成模型搭建实验室
 
     A mean-field games laboratory for generative modeling. (arXiv:2304.13534v1 [stat.ML])
 
@@ -395,7 +440,7 @@
 
     In this paper, we demonstrate the versatility of mean-field games (MFGs) as a mathematical framework for explaining, enhancing, and designing generative models. There is a pervasive sense in the generative modeling community that the various flow and diffusion-based generative models have some foundational common structure and interrelationships. We establish connections between MFGs and major classes of flow and diffusion-based generative models including continuous-time normalizing flows, score-based models, and Wasserstein gradient flows. We derive these three classes of generative models through different choices of particle dynamics and cost functions. Furthermore, we study the mathematical structure and properties of each generative model by studying their associated MFG's optimality condition, which is a set of coupled nonlinear partial differential equations (PDEs). The theory of MFGs, therefore, enables the study of generative models through the theory of nonlinear PDEs. Throu
     
-[^26]: 我们实现了个性化治疗吗？使用重复采样的在线强化学习算法进行个性化评估
+[^29]: 我们实现了个性化治疗吗？使用重复采样的在线强化学习算法进行个性化评估
 
     Did we personalize? Assessing personalization by an online reinforcement learning algorithm using resampling. (arXiv:2304.05365v1 [cs.LG])
 
@@ -409,7 +454,7 @@
 
     There is a growing interest in using reinforcement learning (RL) to personalize sequences of treatments in digital health to support users in adopting healthier behaviors. Such sequential decision-making problems involve decisions about when to treat and how to treat based on the user's context (e.g., prior activity level, location, etc.). Online RL is a promising data-driven approach for this problem as it learns based on each user's historical responses and uses that knowledge to personalize these decisions. However, to decide whether the RL algorithm should be included in an ``optimized'' intervention for real-world deployment, we must assess the data evidence indicating that the RL algorithm is actually personalizing the treatments to its users. Due to the stochasticity in the RL algorithm, one may get a false impression that it is learning in certain states and using this learning to provide specific treatments. We use a working definition of personalization and introduce a resamp
     
-[^27]: 多个分位数的私有统计估计
+[^30]: 多个分位数的私有统计估计
 
     Private Statistical Estimation of Many Quantiles. (arXiv:2302.06943v2 [stat.ML] UPDATED)
 
@@ -423,7 +468,7 @@
 
     This work studies the estimation of many statistical quantiles under differential privacy. More precisely, given a distribution and access to i.i.d. samples from it, we study the estimation of the inverse of its cumulative distribution function (the quantile function) at specific points. For instance, this task is of key importance in private data generation. We present two different approaches. The first one consists in privately estimating the empirical quantiles of the samples and using this result as an estimator of the quantiles of the distribution. In particular, we study the statistical properties of the recently published algorithm introduced by Kaplan et al. 2022 that privately estimates the quantiles recursively. The second approach is to use techniques of density estimation in order to uniformly estimate the quantile function on an interval. In particular, we show that there is a tradeoff between the two methods. When we want to estimate many quantiles, it is better to estim
     
-[^28]: OPORP：一次置换+一次随机投影
+[^31]: OPORP：一次置换+一次随机投影
 
     OPORP: One Permutation + One Random Projection. (arXiv:2302.03505v2 [stat.ML] UPDATED)
 
@@ -437,7 +482,7 @@
 
     Consider two $D$-dimensional data vectors (e.g., embeddings): $u, v$. In many embedding-based retrieval (EBR) applications where the vectors are generated from trained models, $D=256\sim 1024$ are common. In this paper, OPORP (one permutation + one random projection) uses a variant of the ``count-sketch'' type of data structures for achieving data reduction/compression. With OPORP, we first apply a permutation on the data vectors. A random vector $r$ is generated i.i.d. with moments: $E(r_i) = 0, E(r_i^2)=1, E(r_i^3) =0, E(r_i^4)=s$. We multiply (as dot product) $r$ with all permuted data vectors. Then we break the $D$ columns into $k$ equal-length bins and aggregate (i.e., sum) the values in each bin to obtain $k$ samples from each data vector. One crucial step is to normalize the $k$ samples to the unit $l_2$ norm. We show that the estimation variance is essentially: $(s-1)A + \frac{D-k}{D-1}\frac{1}{k}\left[ (1-\rho^2)^2 -2A\right]$, where $A\geq 0$ is a function of the data ($u,v$)
     
-[^29]: 应用于蛋白质主链生成的SE（3）扩散模型
+[^32]: 应用于蛋白质主链生成的SE（3）扩散模型
 
     SE(3) diffusion model with application to protein backbone generation. (arXiv:2302.02277v3 [cs.LG] UPDATED)
 
@@ -451,7 +496,7 @@
 
     The design of novel protein structures remains a challenge in protein engineering for applications across biomedicine and chemistry. In this line of work, a diffusion model over rigid bodies in 3D (referred to as frames) has shown success in generating novel, functional protein backbones that have not been observed in nature. However, there exists no principled methodological framework for diffusion on SE(3), the space of orientation preserving rigid motions in R3, that operates on frames and confers the group invariance. We address these shortcomings by developing theoretical foundations of SE(3) invariant diffusion models on multiple frames followed by a novel framework, FrameDiff, for learning the SE(3) equivariant score over multiple frames. We apply FrameDiff on monomer backbone generation and find it can generate designable monomers up to 500 amino acids without relying on a pretrained protein structure prediction network that has been integral to previous methods. We find our sa
     
-[^30]: 基于群对称性的概率差异的样本复杂度分析
+[^33]: 基于群对称性的概率差异的样本复杂度分析
 
     Sample Complexity of Probability Divergences under Group Symmetry. (arXiv:2302.01915v2 [math.ST] UPDATED)
 
@@ -465,7 +510,7 @@
 
     We rigorously quantify the improvement in the sample complexity of variational divergence estimations for group-invariant distributions. In the cases of the Wasserstein-1 metric and the Lipschitz-regularized $\alpha$-divergences, the reduction of sample complexity is proportional to an ambient-dimension-dependent power of the group size. For the maximum mean discrepancy (MMD), the improvement of sample complexity is more nuanced, as it depends on not only the group size but also the choice of kernel. Numerical simulations verify our theories.
     
-[^31]: 核斯坦距离稀释：关于病态的理论视角和正则化的实际修复（arXiv:2301.13528v2 [math.ST] 已更新）
+[^34]: 核斯坦距离稀释：关于病态的理论视角和正则化的实际修复（arXiv:2301.13528v2 [math.ST] 已更新）
 
     Kernel Stein Discrepancy thinning: a theoretical perspective of pathologies and a practical fix with regularization. (arXiv:2301.13528v2 [math.ST] UPDATED)
 
@@ -479,7 +524,7 @@
 
     Stein thinning is a promising algorithm proposed by (Riabiz et al., 2022) for post-processing outputs of Markov chain Monte Carlo (MCMC). The main principle is to greedily minimize the kernelized Stein discrepancy (KSD), which only requires the gradient of the log-target distribution, and is thus well-suited for Bayesian inference. The main advantages of Stein thinning are the automatic remove of the burn-in period, the correction of the bias introduced by recent MCMC algorithms, and the asymptotic properties of convergence towards the target distribution. Nevertheless, Stein thinning suffers from several empirical pathologies, which may result in poor approximations, as observed in the literature. In this article, we conduct a theoretical analysis of these pathologies, to clearly identify the mechanisms at stake, and suggest improved strategies. Then, we introduce the regularized Stein thinning algorithm to alleviate the identified pathologies. Finally, theoretical guarantees and exte
     
-[^32]: 多阶段静态治疗策略的高维特征渐近推断
+[^35]: 多阶段静态治疗策略的高维特征渐近推断
 
     Asymptotic Inference for Multi-Stage Stationary Treatment Policy with High Dimensional Features. (arXiv:2301.12553v2 [stat.ML] UPDATED)
 
@@ -493,7 +538,7 @@
 
     Dynamic treatment rules or policies are a sequence of decision functions over multiple stages that are tailored to individual features. One important class of treatment policies for practice, namely multi-stage stationary treatment policies, prescribe treatment assignment probabilities using the same decision function over stages, where the decision is based on the same set of features consisting of both baseline variables (e.g., demographics) and time-evolving variables (e.g., routinely collected disease biomarkers). Although there has been extensive literature to construct valid inference for the value function associated with the dynamic treatment policies, little work has been done for the policies themselves, especially in the presence of high dimensional feature variables. We aim to fill in the gap in this work. Specifically, we first estimate the multistage stationary treatment policy based on an augmented inverse probability weighted estimator for the value function to increase
     
-[^33]: 基于抽样的Nyström逼近和核积分。
+[^36]: 基于抽样的Nyström逼近和核积分。
 
     Sampling-based Nystr\"om Approximation and Kernel Quadrature. (arXiv:2301.09517v2 [math.NA] UPDATED)
 
@@ -507,7 +552,7 @@
 
     We analyze the Nystr\"om approximation of a positive definite kernel associated with a probability measure. We first prove an improved error bound for the conventional Nystr\"om approximation with i.i.d. sampling and singular-value decomposition in the continuous regime; the proof techniques are borrowed from statistical learning theory. We further introduce a refined selection of subspaces in Nystr\"om approximation with theoretical guarantees that is applicable to non-i.i.d. landmark points. Finally, we discuss their application to convex kernel quadrature and give novel theoretical guarantees as well as numerical observations.
     
-[^34]: 采样的出生死亡动态：全局收敛，逼近及其渐近性质研究
+[^37]: 采样的出生死亡动态：全局收敛，逼近及其渐近性质研究
 
     Birth-death dynamics for sampling: Global convergence, approximations and their asymptotics. (arXiv:2211.00450v2 [math.AP] UPDATED)
 
@@ -521,7 +566,7 @@
 
     Motivated by the challenge of sampling Gibbs measures with nonconvex potentials, we study a continuum birth-death dynamics. We improve results in previous works [51,57] and provide weaker hypotheses under which the probability density of the birth-death governed by Kullback-Leibler divergence or by $\chi^2$ divergence converge exponentially fast to the Gibbs equilibrium measure, with a universal rate that is independent of the potential barrier. To build a practical numerical sampler based on the pure birth-death dynamics, we consider an interacting particle system, which is inspired by the gradient flow structure and the classical Fokker-Planck equation and relies on kernel-based approximations of the measure. Using the technique of $\Gamma$-convergence of gradient flows, we show that on the torus, smooth and bounded positive solutions of the kernelized dynamics converge on finite time intervals, to the pure birth-death dynamics as the kernel bandwidth shrinks to zero. Moreover we pro
     
-[^35]: 具有无限制内存的在线凸优化
+[^38]: 具有无限制内存的在线凸优化
 
     Online Convex Optimization with Unbounded Memory. (arXiv:2210.09903v3 [cs.LG] UPDATED)
 
@@ -535,7 +580,7 @@
 
     Online convex optimization (OCO) is a widely used framework in online learning. In each round, the learner chooses a decision in a convex set and an adversary chooses a convex loss function, and then the learner suffers the loss associated with their current decision. However, in many applications the learner's loss depends not only on the current decision but on the entire history of decisions until that point. The OCO framework and its existing generalizations do not capture this, and they can only be applied to many settings of interest after a long series of approximation arguments. They also leave open the question of whether the dependence on memory is tight because there are no non-trivial lower bounds. In this work we introduce a generalization of the OCO framework, ``Online Convex Optimization with Unbounded Memory'', that captures long-term dependence on past decisions. We introduce the notion of $p$-effective memory capacity, $H_p$, that quantifies the maximum influence of p
     
-[^36]: 基于连续时间霍克过程的败血症相关异常的Granger因果链发现
+[^39]: 基于连续时间霍克过程的败血症相关异常的Granger因果链发现
 
     Granger Causal Chain Discovery for Sepsis-Associated Derangements via Continuous-Time Hawkes Processes. (arXiv:2209.04480v5 [stat.AP] UPDATED)
 
@@ -549,7 +594,7 @@
 
     Modern health care systems are conducting continuous, automated surveillance of the electronic medical record (EMR) to identify adverse events with increasing frequency; however, many events such as sepsis do not have elucidated prodromes (i.e., event chains) that can be used to identify and intercept the adverse event early in its course. Clinically relevant and interpretable results require a framework that can (i) infer temporal interactions across multiple patient features found in EMR data (e.g., Labs, vital signs, etc.) and (ii) identify patterns that precede and are specific to an impending adverse event (e.g., sepsis). In this work, we propose a linear multivariate Hawkes process model, coupled with ReLU link function, to recover a Granger Causal (GC) graph with both exciting and inhibiting effects. We develop a scalable two-phase gradient-based method to obtain a maximum surrogate-likelihood estimator, which is shown to be effective via extensive numerical simulation. Our meth
     
-[^37]: 基于二阶相似性的更快联邦优化
+[^40]: 基于二阶相似性的更快联邦优化
 
     Faster federated optimization under second-order similarity. (arXiv:2209.02257v2 [cs.LG] UPDATED)
 
@@ -563,7 +608,7 @@
 
     Federated learning (FL) is a subfield of machine learning where multiple clients try to collaboratively learn a model over a network under communication constraints. We consider finite-sum federated optimization under a second-order function similarity condition and strong convexity, and propose two new algorithms: SVRP and Catalyzed SVRP. This second-order similarity condition has grown popular recently, and is satisfied in many applications including distributed statistical learning and differentially private empirical risk minimization. The first algorithm, SVRP, combines approximate stochastic proximal point evaluations, client sampling, and variance reduction. We show that SVRP is communication efficient and achieves superior performance to many existing algorithms when function similarity is high enough. Our second algorithm, Catalyzed SVRP, is a Catalyst-accelerated variant of SVRP that achieves even better performance and uniformly improves upon existing algorithms for federate
     
-[^38]: 掩码贝叶斯神经网络: 计算与优越性
+[^41]: 掩码贝叶斯神经网络: 计算与优越性
 
     Masked Bayesian Neural Networks : Computation and Optimality. (arXiv:2206.00853v2 [stat.ML] UPDATED)
 
@@ -577,7 +622,7 @@
 
     As data size and computing power increase, the architectures of deep neural networks (DNNs) have been getting more complex and huge, and thus there is a growing need to simplify such complex and huge DNNs. In this paper, we propose a novel sparse Bayesian neural network (BNN) which searches a good DNN with an appropriate complexity. We employ the masking variables at each node which can turn off some nodes according to the posterior distribution to yield a nodewise sparse DNN. We devise a prior distribution such that the posterior distribution has theoretical optimalities (i.e. minimax optimality and adaptiveness), and develop an efficient MCMC algorithm. By analyzing several benchmark datasets, we illustrate that the proposed BNN performs well compared to other existing methods in the sense that it discovers well condensed DNN architectures with similar prediction accuracy and uncertainty quantification compared to large DNNs.
     
-[^39]: SVM指数级收敛速度的案例
+[^42]: SVM指数级收敛速度的案例
 
     A Case of Exponential Convergence Rates for SVM. (arXiv:2205.10055v2 [stat.ML] UPDATED)
 
@@ -591,7 +636,7 @@
 
     Classification is often the first problem described in introductory machine learning classes. Generalization guarantees of classification have historically been offered by Vapnik-Chervonenkis theory. Yet those guarantees are based on intractable algorithms, which has led to the theory of surrogate methods in classification. Guarantees offered by surrogate methods are based on calibration inequalities, which have been shown to be highly sub-optimal under some margin conditions, failing short to capture exponential convergence phenomena. Those "super" fast rates are becoming to be well understood for smooth surrogates, but the picture remains blurry for non-smooth losses such as the hinge loss, associated with the renowned support vector machines. In this paper, we present a simple mechanism to obtain fast convergence rates and we investigate its usage for SVM. In particular, we show that SVM can exhibit exponential convergence rates even without assuming the hard Tsybakov margin conditi
     
-[^40]: 外部有效的策略选择
+[^43]: 外部有效的策略选择
 
     Externally Valid Policy Choice. (arXiv:2205.05561v2 [econ.EM] UPDATED)
 

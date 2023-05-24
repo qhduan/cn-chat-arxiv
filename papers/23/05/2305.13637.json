@@ -1,0 +1,12 @@
+{
+    "title": "IdEALS: Idiomatic Expressions for Advancement of Language Skills. (arXiv:2305.13637v1 [cs.CL])",
+    "abstract": "Although significant progress has been made in developing methods for Grammatical Error Correction (GEC), addressing word choice improvements has been notably lacking and enhancing sentence expressivity by replacing phrases with advanced expressions is an understudied aspect. In this paper, we focus on this area and present our investigation into the task of incorporating the usage of idiomatic expressions in student writing. To facilitate our study, we curate extensive training sets and expert-annotated testing sets using real-world data and evaluate various approaches and compare their performance against human experts.",
+    "link": "http://arxiv.org/abs/2305.13637",
+    "context": "Title: IdEALS: Idiomatic Expressions for Advancement of Language Skills. (arXiv:2305.13637v1 [cs.CL])\nAbstract: Although significant progress has been made in developing methods for Grammatical Error Correction (GEC), addressing word choice improvements has been notably lacking and enhancing sentence expressivity by replacing phrases with advanced expressions is an understudied aspect. In this paper, we focus on this area and present our investigation into the task of incorporating the usage of idiomatic expressions in student writing. To facilitate our study, we curate extensive training sets and expert-annotated testing sets using real-world data and evaluate various approaches and compare their performance against human experts.",
+    "path": "papers/23/05/2305.13637.json",
+    "total_tokens": 653,
+    "translated_title": "IdEALS: 提高语言技能的惯用表达",
+    "translated_abstract": "虽然在发展语法错误纠正（GEC）方法方面有了重大进展，但关注词语选择方面的改进显著缺乏，并通过用高级表达式替换短语来增强语句表达能力是一种鲜为人知的方面。在本文中，我们关注这个领域，介绍了我们对将惯用表达式用于学生写作中的研究。为了方便我们的研究，我们使用真实数据策划了广泛的训练集和专家注释的测试集，并评估了各种方法，并将它们与人类专家的表现进行比较。",
+    "tldr": "这篇论文探索了使用惯用表达式来提高学生写作能力的方法，并评估了不同方法的性能表现。",
+    "en_tdlr": "This paper investigates the use of idiomatic expressions to enhance student writing skills and evaluates various approaches while comparing with human experts' performance."
+}
