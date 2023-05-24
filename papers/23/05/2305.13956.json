@@ -1,0 +1,12 @@
+{
+    "title": "Nash implementation in a many-to-one matching market. (arXiv:2305.13956v1 [econ.TH])",
+    "abstract": "In a many-to-one matching market with substitutable preferences, we analyze the game induced by a stable rule. When both sides of the market play strategically, we show that any stable rule implements, in Nash equilibrium, the individually rational matchings. Also, when only workers play strategically and firms' preferences satisfy the law of aggregated demand, we show that any stable rule implements, in Nash equilibrium, the stable matchings.",
+    "link": "http://arxiv.org/abs/2305.13956",
+    "context": "Title: Nash implementation in a many-to-one matching market. (arXiv:2305.13956v1 [econ.TH])\nAbstract: In a many-to-one matching market with substitutable preferences, we analyze the game induced by a stable rule. When both sides of the market play strategically, we show that any stable rule implements, in Nash equilibrium, the individually rational matchings. Also, when only workers play strategically and firms' preferences satisfy the law of aggregated demand, we show that any stable rule implements, in Nash equilibrium, the stable matchings.",
+    "path": "papers/23/05/2305.13956.json",
+    "total_tokens": 614,
+    "translated_title": "多对一匹配市场中的纳什实现",
+    "translated_abstract": "在具有可替代偏好的多对一匹配市场中，我们分析了稳定规则引起的博弈。当市场的双方都进行战略博弈时，我们表明任何稳定规则都可以在纳什均衡中实现个体理性匹配。此外，当只有工人进行战略博弈，并且企业的偏好满足需求汇总定律时，我们表明任何稳定规则都可以在纳什均衡中实现稳定匹配。",
+    "tldr": "在可替代偏好的多对一匹配市场中，任何稳定规则都可以在纳什均衡中实现个体理性或稳定匹配。",
+    "en_tdlr": "In many-to-one matching markets with substitutable preferences, any stable rule can implement individually rational or stable matchings in Nash equilibrium, when both sides or only workers play strategically and certain conditions are met."
+}

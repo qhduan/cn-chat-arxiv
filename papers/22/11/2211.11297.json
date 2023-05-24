@@ -1,0 +1,12 @@
+{
+    "title": "In-sample Curriculum Learning by Sequence Completion for Natural Language Generation. (arXiv:2211.11297v2 [cs.CL] UPDATED)",
+    "abstract": "Curriculum learning has shown promising improvements in multiple domains by training machine learning models from easy samples to hard ones. Previous works which either design rules or train models for scoring the difficulty highly rely on task-specific expertise, and cannot generalize. Inspired by the \"easy-to-hard\" intuition, we propose to do in-sample curriculum learning for natural language generation tasks. Our learning strategy starts training the model to generate the last few words, i.e., do sequence completion, and gradually extends to generate the whole output sequence. Comprehensive experiments show that it generalizes well to different tasks and achieves significant improvements over strong baselines.",
+    "link": "http://arxiv.org/abs/2211.11297",
+    "context": "Title: In-sample Curriculum Learning by Sequence Completion for Natural Language Generation. (arXiv:2211.11297v2 [cs.CL] UPDATED)\nAbstract: Curriculum learning has shown promising improvements in multiple domains by training machine learning models from easy samples to hard ones. Previous works which either design rules or train models for scoring the difficulty highly rely on task-specific expertise, and cannot generalize. Inspired by the \"easy-to-hard\" intuition, we propose to do in-sample curriculum learning for natural language generation tasks. Our learning strategy starts training the model to generate the last few words, i.e., do sequence completion, and gradually extends to generate the whole output sequence. Comprehensive experiments show that it generalizes well to different tasks and achieves significant improvements over strong baselines.",
+    "path": "papers/22/11/2211.11297.json",
+    "total_tokens": 729,
+    "translated_title": "序列补全的课程学习在自然语言生成中的应用",
+    "translated_abstract": "通过从易到难的训练样本，课程学习已经在多个领域表现出有希望的提升效果。以往的研究设计规则或训练模型来评估难度，高度依赖于任务特定的专业知识，难以推广。受“从易到难”启发，我们提出了一种在自然语言生成任务中进行课程学习的方法：我们的学习策略从训练模型生成最后几个词开始，即进行序列补全，然后逐渐扩展到生成整个输出序列。综合实验表明，该方法推广能力强，对不同的任务进行了显著的改进。",
+    "tldr": "本文提出了一种在自然语言生成任务中的课程学习方法，通过序列补全的方式逐步训练模型，该方法具有很好的推广能力且在实验中表现出显著的改进。",
+    "en_tdlr": "This paper proposes an in-sample curriculum learning method for natural language generation tasks, gradually training the model through sequence completion, with good generalizability and significant improvement in experiments."
+}

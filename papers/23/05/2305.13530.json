@@ -1,0 +1,12 @@
+{
+    "title": "The Grammar and Syntax Based Corpus Analysis Tool For The Ukrainian Language. (arXiv:2305.13530v1 [cs.CL])",
+    "abstract": "This paper provides an overview of a text mining tool the StyloMetrix developed initially for the Polish language and further extended for English and recently for Ukrainian. The StyloMetrix is built upon various metrics crafted manually by computational linguists and researchers from literary studies to analyze grammatical, stylistic, and syntactic patterns. The idea of constructing the statistical evaluation of syntactic and grammar features is straightforward and familiar for the languages like English, Spanish, German, and others; it is yet to be developed for low-resource languages like Ukrainian. We describe the StyloMetrix pipeline and provide some experiments with this tool for the text classification task. We also describe our package's main limitations and the metrics' evaluation procedure.",
+    "link": "http://arxiv.org/abs/2305.13530",
+    "context": "Title: The Grammar and Syntax Based Corpus Analysis Tool For The Ukrainian Language. (arXiv:2305.13530v1 [cs.CL])\nAbstract: This paper provides an overview of a text mining tool the StyloMetrix developed initially for the Polish language and further extended for English and recently for Ukrainian. The StyloMetrix is built upon various metrics crafted manually by computational linguists and researchers from literary studies to analyze grammatical, stylistic, and syntactic patterns. The idea of constructing the statistical evaluation of syntactic and grammar features is straightforward and familiar for the languages like English, Spanish, German, and others; it is yet to be developed for low-resource languages like Ukrainian. We describe the StyloMetrix pipeline and provide some experiments with this tool for the text classification task. We also describe our package's main limitations and the metrics' evaluation procedure.",
+    "path": "papers/23/05/2305.13530.json",
+    "total_tokens": 673,
+    "translated_title": "面向乌克兰语的基于语法和句法的语料库分析工具",
+    "translated_abstract": "本文介绍了一种文本挖掘工具StyloMetrix，最初用于波兰语，后来扩展到英语和乌克兰语。它基于计算语言学家和文学研究人员手工制作的各种指标，分析语法、文体和句法模式。我们描述了StyloMetrix管道，并针对文本分类任务进行了一些实验。我们还描述了我们软件包的主要限制和指标的评估过程。",
+    "tldr": "StyloMetrix是一种基于语法和句法的文本挖掘工具，可分析乌克兰语的语法、文体和句法模式，适用于文本分类任务。",
+    "en_tdlr": "StyloMetrix is a text mining tool based on grammar and syntax, capable of analyzing the grammar, style, and syntactic patterns of the Ukrainian language, suitable for text classification tasks."
+}

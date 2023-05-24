@@ -1,0 +1,11 @@
+{
+    "title": "A Novel Dataset Towards Extracting Virus-Host Interactions. (arXiv:2305.13317v1 [cs.CL])",
+    "abstract": "We describe a novel dataset for the automated recognition of named taxonomic and other entities relevant to the association of viruses with their hosts. We further describe some initial results using pre-trained models on the named-entity recognition (NER) task on this novel dataset. We propose that our dataset of manually annotated abstracts now offers a Gold Standard Corpus for training future NER models in the automated extraction of host-pathogen detection methods from scientific publications, and further explain how our work makes first steps towards predicting the important human health-related concept of viral spillover risk automatically from the scientific literature.",
+    "link": "http://arxiv.org/abs/2305.13317",
+    "context": "Title: A Novel Dataset Towards Extracting Virus-Host Interactions. (arXiv:2305.13317v1 [cs.CL])\nAbstract: We describe a novel dataset for the automated recognition of named taxonomic and other entities relevant to the association of viruses with their hosts. We further describe some initial results using pre-trained models on the named-entity recognition (NER) task on this novel dataset. We propose that our dataset of manually annotated abstracts now offers a Gold Standard Corpus for training future NER models in the automated extraction of host-pathogen detection methods from scientific publications, and further explain how our work makes first steps towards predicting the important human health-related concept of viral spillover risk automatically from the scientific literature.",
+    "path": "papers/23/05/2305.13317.json",
+    "total_tokens": 807,
+    "translated_title": "一份用于提取病毒和宿主相互作用的新型数据集",
+    "translated_abstract": "我们描述了一个用于自动识别与病毒与宿主相关的命名分类和其他实体的新型数据集。我们进一步描述了使用预先训练的模型在该新型数据集上进行命名实体识别（NER）任务的一些初步结果。我们建议我们手动注释的摘要数据集现在为未来的NER模型培训提供了黄金标准。自动从科学出版物中提取主机-病原体检测方法，并进一步解释了我们的工作如何迈出了自动预测与人类健康相关的“病毒跨界传播风险”这一重要概念的第一步。",
+    "tldr": "这份论文介绍了一个新的数据集，用于自动识别有关病毒与宿主相互作用的实体，提出该数据集可作为未来模型训练的黄金标准。该工作为自动从科学出版物中提取与主机-病原体检测方法相关的信息迈出了第一步，并自动预测了与人类健康相关的重要概念“病毒跨界传播风险”。"
+}

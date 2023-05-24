@@ -1,0 +1,12 @@
+{
+    "title": "Snow Mountain: Dataset of Audio Recordings of The Bible in Low Resource Languages. (arXiv:2206.01205v2 [eess.AS] UPDATED)",
+    "abstract": "Automatic Speech Recognition (ASR) has increasing utility in the modern world. There are a many ASR models available for languages with large amounts of training data like English. However, low-resource languages are poorly represented. In response we create and release an open-licensed and formatted dataset of audio recordings of the Bible in low-resource northern Indian languages. We setup multiple experimental splits and train and analyze two competitive ASR models to serve as the baseline for future research using this data.",
+    "link": "http://arxiv.org/abs/2206.01205",
+    "context": "Title: Snow Mountain: Dataset of Audio Recordings of The Bible in Low Resource Languages. (arXiv:2206.01205v2 [eess.AS] UPDATED)\nAbstract: Automatic Speech Recognition (ASR) has increasing utility in the modern world. There are a many ASR models available for languages with large amounts of training data like English. However, low-resource languages are poorly represented. In response we create and release an open-licensed and formatted dataset of audio recordings of the Bible in low-resource northern Indian languages. We setup multiple experimental splits and train and analyze two competitive ASR models to serve as the baseline for future research using this data.",
+    "path": "papers/22/06/2206.01205.json",
+    "total_tokens": 650,
+    "translated_title": "雪山：低资源语言中圣经音频记录数据集",
+    "translated_abstract": "自动语音识别（ASR）在现代世界中越来越有用。有许多针对像英语这样训练数据丰富的语言的ASR模型可用。然而，低资源语言的代表性很差。为此，我们创建和发布了一个开放许可和格式化的低资源北印度语言圣经音频记录数据集。我们设置多个实验拆分，并训练和分析两个竞争性ASR模型，为未来使用这些数据的研究提供基线。",
+    "tldr": "雪山团队发布了一份低资源北印度语言圣经音频记录数据集，旨在为使用该数据进行未来研究提供一个基线，以利于低资源语言ASR模型的发展。",
+    "en_tdlr": "Snow Mountain team released a dataset of audio recordings of the Bible in low-resource northern Indian languages, aiming to provide a baseline for future research using this data and benefit the development of low-resource language ASR models."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Acquiring Frame Element Knowledge with Deep Metric Learning for Semantic Frame Induction. (arXiv:2305.13944v1 [cs.CL])",
+    "abstract": "The semantic frame induction tasks are defined as a clustering of words into the frames that they evoke, and a clustering of their arguments according to the frame element roles that they should fill. In this paper, we address the latter task of argument clustering, which aims to acquire frame element knowledge, and propose a method that applies deep metric learning. In this method, a pre-trained language model is fine-tuned to be suitable for distinguishing frame element roles through the use of frame-annotated data, and argument clustering is performed with embeddings obtained from the fine-tuned model. Experimental results on FrameNet demonstrate that our method achieves substantially better performance than existing methods.",
+    "link": "http://arxiv.org/abs/2305.13944",
+    "context": "Title: Acquiring Frame Element Knowledge with Deep Metric Learning for Semantic Frame Induction. (arXiv:2305.13944v1 [cs.CL])\nAbstract: The semantic frame induction tasks are defined as a clustering of words into the frames that they evoke, and a clustering of their arguments according to the frame element roles that they should fill. In this paper, we address the latter task of argument clustering, which aims to acquire frame element knowledge, and propose a method that applies deep metric learning. In this method, a pre-trained language model is fine-tuned to be suitable for distinguishing frame element roles through the use of frame-annotated data, and argument clustering is performed with embeddings obtained from the fine-tuned model. Experimental results on FrameNet demonstrate that our method achieves substantially better performance than existing methods.",
+    "path": "papers/23/05/2305.13944.json",
+    "total_tokens": 729,
+    "translated_title": "基于深度度量学习的语义框架诱导中的框架元素知识获取",
+    "translated_abstract": "语义框架诱导任务将单词聚类为它们所唤起的框架，并根据它们应该填充的框架元素角色对它们的参数进行聚类。本文解决了框架聚类任务的后者，旨在获取框架元素知识，并提出了一种应用深度度量学习的方法。该方法通过使用带有框架注释数据的预训练语言模型进行微调，以适合于区分框架元素角色，并通过从微调模型获得的嵌入进行参数聚类。FrameNet上的实验结果表明，我们的方法比现有方法的性能要好得多。",
+    "tldr": "本论文提出一种方法，应用深度度量学习获取框架元素知识，以适合于区分框架元素角色，实验证明该方法比现有方法具有更好的性能。"
+}

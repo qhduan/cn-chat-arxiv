@@ -1,0 +1,12 @@
+{
+    "title": "Arukikata Travelogue Dataset with Geographic Entity Mention, Coreference, and Link Annotation. (arXiv:2305.13844v1 [cs.CL])",
+    "abstract": "Geoparsing is a fundamental technique for analyzing geo-entity information in text. We focus on document-level geoparsing, which considers geographic relatedness among geo-entity mentions, and presents a Japanese travelogue dataset designed for evaluating document-level geoparsing systems. Our dataset comprises 200 travelogue documents with rich geo-entity information: 12,171 mentions, 6,339 coreference clusters, and 2,551 geo-entities linked to geo-database entries.",
+    "link": "http://arxiv.org/abs/2305.13844",
+    "context": "Title: Arukikata Travelogue Dataset with Geographic Entity Mention, Coreference, and Link Annotation. (arXiv:2305.13844v1 [cs.CL])\nAbstract: Geoparsing is a fundamental technique for analyzing geo-entity information in text. We focus on document-level geoparsing, which considers geographic relatedness among geo-entity mentions, and presents a Japanese travelogue dataset designed for evaluating document-level geoparsing systems. Our dataset comprises 200 travelogue documents with rich geo-entity information: 12,171 mentions, 6,339 coreference clusters, and 2,551 geo-entities linked to geo-database entries.",
+    "path": "papers/23/05/2305.13844.json",
+    "total_tokens": 639,
+    "translated_title": "带有地理实体提及、指代和链接标注的Arukikata游记数据集",
+    "translated_abstract": "地理解析是分析文本中地理实体信息的基本技术。我们关注于文档级地理解析，考虑地理相关性，同时提出了一个专门用于评估文档级地理解析系统的日本旅行游记数据集。该数据集包含200篇游记文档，具有丰富的地理实体信息：12,171个提及、6,339个指代簇和2,551个链接到地理数据库条目的地理实体。",
+    "tldr": "该论文介绍了一个日本旅行游记数据集，强调文档级地理实体解析的重要性，提供丰富的地理实体信息，并为地理解析系统评估提供了基础。",
+    "en_tdlr": "The paper presents a Japanese travelogue dataset designed for evaluating document-level geoparsing systems. It emphasizes the importance of document-level geoparsing, provides rich geo-entity information, and serves as a foundation for evaluating geoparsing systems."
+}

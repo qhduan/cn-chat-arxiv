@@ -1,0 +1,12 @@
+{
+    "title": "Revealed preferences for dynamically inconsistent models. (arXiv:2305.14125v1 [econ.TH])",
+    "abstract": "We study the testable implications of models of dynamically inconsistent choices when planned choices are unobservable, and thus only \"on path\" data is available. First, we discuss the approach in Blow, Browning and Crawford (2021), who characterize first-order rationalizability of the model of quasi-hyperbolic discounting. We show that the first-order approach does not guarantee rationalizability by means of the quasi-hyperbolic model. This motivates consideration of an abstract model of intertemporal choice, under which we provide a characterization of different behavioral models -- including the naive and sophisticated paradigms of dynamically inconsistent choice.",
+    "link": "http://arxiv.org/abs/2305.14125",
+    "context": "Title: Revealed preferences for dynamically inconsistent models. (arXiv:2305.14125v1 [econ.TH])\nAbstract: We study the testable implications of models of dynamically inconsistent choices when planned choices are unobservable, and thus only \"on path\" data is available. First, we discuss the approach in Blow, Browning and Crawford (2021), who characterize first-order rationalizability of the model of quasi-hyperbolic discounting. We show that the first-order approach does not guarantee rationalizability by means of the quasi-hyperbolic model. This motivates consideration of an abstract model of intertemporal choice, under which we provide a characterization of different behavioral models -- including the naive and sophisticated paradigms of dynamically inconsistent choice.",
+    "path": "papers/23/05/2305.14125.json",
+    "total_tokens": 723,
+    "translated_title": "动态不一致模型的显性偏好",
+    "translated_abstract": "本文探讨了动态不一致选择模型的可测试预测，当计划选择不可观测时，只有“on path”数据可用。首先，我们讨论了Blow、Browning和Crawford (2021)的方法，他们表征了准拟超几何贴现模型的一阶合理性。我们表明，一阶方法不能保证通过准拟超几何模型来实现理性化。这促使我们考虑一种跨时间选择的抽象模型，我们在此模型下提供了不同行为模型的表征，包括动态不一致选择的天真和复杂范例。",
+    "tldr": "本文研究了动态不一致选择模型的可测试预测，提出了不同行为模型包括动态不一致选择，讨论了准拟超几何贴现模型的一阶合理性的局限性。",
+    "en_tdlr": "This paper discusses the testable predictions of dynamically inconsistent choice models, proposes different behavioral models including those for dynamically inconsistent choice, and discusses the limitations of Blow, Browning, and Crawford's (2021) first-order rationalizability approach for quasi-hyperbolic discounting models."
+}

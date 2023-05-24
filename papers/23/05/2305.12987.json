@@ -1,0 +1,12 @@
+{
+    "title": "GPT-SW3: An Autoregressive Language Model for the Nordic Languages. (arXiv:2305.12987v2 [cs.CL] UPDATED)",
+    "abstract": "This paper details the process of developing the first native large generative language model for the Nordic languages, GPT-SW3. We cover all parts of the development process, from data collection and processing, training configuration and instruction finetuning, to evaluation and considerations for release strategies. We hope that this paper can serve as a guide and reference for other researchers that undertake the development of large generative models for smaller languages.",
+    "link": "http://arxiv.org/abs/2305.12987",
+    "context": "Title: GPT-SW3: An Autoregressive Language Model for the Nordic Languages. (arXiv:2305.12987v2 [cs.CL] UPDATED)\nAbstract: This paper details the process of developing the first native large generative language model for the Nordic languages, GPT-SW3. We cover all parts of the development process, from data collection and processing, training configuration and instruction finetuning, to evaluation and considerations for release strategies. We hope that this paper can serve as a guide and reference for other researchers that undertake the development of large generative models for smaller languages.",
+    "path": "papers/23/05/2305.12987.json",
+    "total_tokens": 624,
+    "translated_title": "GPT-SW3：一种面向北欧语言的自回归语言模型",
+    "translated_abstract": "本文详细介绍了开发面向北欧语言的第一个本地化大型生成语言模型GPT-SW3的过程。我们涵盖了开发过程的所有部分，从数据收集和处理，训练配置和指令微调，到评估和发布策略的考虑。我们希望本文能够作为指南和参考，帮助其他研究人员开发面向较小语言的大型生成模型。",
+    "tldr": "GPT-SW3是面向北欧语言的第一个本地化大型生成语言模型，本文介绍了其开发过程，可作为其他研究人员开发面向较小语言的大型生成模型的指南和参考。",
+    "en_tdlr": "GPT-SW3 is the first native large generative language model for the Nordic languages, and this paper provides a guide and reference for researchers developing large generative models for smaller languages."
+}

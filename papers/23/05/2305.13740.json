@@ -1,0 +1,12 @@
+{
+    "title": "TeCS: A Dataset and Benchmark for Tense Consistency of Machine Translation. (arXiv:2305.13740v1 [cs.CL])",
+    "abstract": "Tense inconsistency frequently occurs in machine translation. However, there are few criteria to assess the model's mastery of tense prediction from a linguistic perspective. In this paper, we present a parallel tense test set, containing French-English 552 utterances. We also introduce a corresponding benchmark, tense prediction accuracy. With the tense test set and the benchmark, researchers are able to measure the tense consistency performance of machine translation systems for the first time.",
+    "link": "http://arxiv.org/abs/2305.13740",
+    "context": "Title: TeCS: A Dataset and Benchmark for Tense Consistency of Machine Translation. (arXiv:2305.13740v1 [cs.CL])\nAbstract: Tense inconsistency frequently occurs in machine translation. However, there are few criteria to assess the model's mastery of tense prediction from a linguistic perspective. In this paper, we present a parallel tense test set, containing French-English 552 utterances. We also introduce a corresponding benchmark, tense prediction accuracy. With the tense test set and the benchmark, researchers are able to measure the tense consistency performance of machine translation systems for the first time.",
+    "path": "papers/23/05/2305.13740.json",
+    "total_tokens": 665,
+    "translated_title": "TeCS:一个用于机器翻译时态一致性的数据集和基准",
+    "translated_abstract": "机器翻译中经常出现时态不一致的情况。然而，从语言学角度评估模型时态预测的掌握程度的标准很少。在本文中，我们提出了一个平行时态测试集，包含法语-英语552个话语。我们还引入了相应的基准，即时态预测准确率。借助时态测试集和基准，研究人员能够首次衡量机器翻译系统的时态一致性性能。",
+    "tldr": "本文提出了一个包含552个法语-英语话语的平行时态测试集和相应的时态预测准确率基准，这使得研究人员能够首次从语言学角度衡量机器翻译系统的时态一致性性能。",
+    "en_tdlr": "The paper presents a parallel tense test set containing 552 French-English utterances and a corresponding benchmark, which enables researchers to, for the first time, measure the tense consistency performance of machine translation systems from a linguistic perspective."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "A study of conceptual language similarity: comparison and evaluation. (arXiv:2305.13401v1 [cs.CL])",
+    "abstract": "An interesting line of research in natural language processing (NLP) aims to incorporate linguistic typology to bridge linguistic diversity and assist the research of low-resource languages. While most works construct linguistic similarity measures based on lexical or typological features, such as word order and verbal inflection, recent work has introduced a novel approach to defining language similarity based on how they represent basic concepts, which is complementary to existing similarity measures. In this work, we study the conceptual similarity in detail and evaluate it extensively on a binary classification task.",
+    "link": "http://arxiv.org/abs/2305.13401",
+    "context": "Title: A study of conceptual language similarity: comparison and evaluation. (arXiv:2305.13401v1 [cs.CL])\nAbstract: An interesting line of research in natural language processing (NLP) aims to incorporate linguistic typology to bridge linguistic diversity and assist the research of low-resource languages. While most works construct linguistic similarity measures based on lexical or typological features, such as word order and verbal inflection, recent work has introduced a novel approach to defining language similarity based on how they represent basic concepts, which is complementary to existing similarity measures. In this work, we study the conceptual similarity in detail and evaluate it extensively on a binary classification task.",
+    "path": "papers/23/05/2305.13401.json",
+    "total_tokens": 702,
+    "translated_title": "一项概念语言相似性的研究: 比较与评估",
+    "translated_abstract": "自然语言处理(NLP)中的一个有趣的研究方向旨在融入语言学类型学, 以桥接语言多样性并协助低资源语言的研究。虽然大多数作品是基于词汇或类型学特征(如词序和动词变化)构建语言相似度度量, 但最近的工作引入了一种新方法, 基于语言如何表示基本概念来定义语言相似度, 这是现有相似度度量的补充。本文详细研究了概念相似性, 并在二元分类任务上进行了广泛评估。",
+    "tldr": "本文研究了一种新的定义语言相似度的方法，该方法基于语言如何表示基本概念，而非常规的词汇或类型学特征。我们在二元分类任务上对其进行了评估。",
+    "en_tdlr": "This paper studies a novel approach of defining language similarity based on how they represent basic concepts, which is complementary to existing similarity measures. The authors extensively evaluate this new approach on a binary classification task."
+}

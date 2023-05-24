@@ -1,0 +1,12 @@
+{
+    "title": "Differentially Private Medians and Interior Points for Non-Pathological Data. (arXiv:2305.13440v1 [cs.DS])",
+    "abstract": "We construct differentially private estimators with low sample complexity that estimate the median of an arbitrary distribution over $\\mathbb{R}$ satisfying very mild moment conditions. Our result stands in contrast to the surprising negative result of Bun et al. (FOCS 2015) that showed there is no differentially private estimator with any finite sample complexity that returns any non-trivial approximation to the median of an arbitrary distribution.",
+    "link": "http://arxiv.org/abs/2305.13440",
+    "context": "Title: Differentially Private Medians and Interior Points for Non-Pathological Data. (arXiv:2305.13440v1 [cs.DS])\nAbstract: We construct differentially private estimators with low sample complexity that estimate the median of an arbitrary distribution over $\\mathbb{R}$ satisfying very mild moment conditions. Our result stands in contrast to the surprising negative result of Bun et al. (FOCS 2015) that showed there is no differentially private estimator with any finite sample complexity that returns any non-trivial approximation to the median of an arbitrary distribution.",
+    "path": "papers/23/05/2305.13440.json",
+    "total_tokens": 608,
+    "translated_title": "针对非病态数据的差分隐私中位数和内部点构造",
+    "translated_abstract": "我们构造了具有低样本复杂度的差分隐私估计器，用于估计满足非常温和的矩条件的任意分布在 $\\mathbb{R}$ 上的中位数。我们的结果与 Bun等人(FOCS 2015) 的惊人负面结果形成对比，该结果表明，没有具有任何有限样本复杂度的差分隐私估计器返回任何对任意分布的中位数的非平凡逼近。",
+    "tldr": "本研究提出了一种针对非病态数据，样本复杂度低的中位数差分隐私估计器，并成功解决 Bun 等人的负面结果。",
+    "en_tdlr": "This study proposed a differentially private median estimator with low sample complexity for non-pathological data, which successfully solves the negative result of Bun et al."
+}

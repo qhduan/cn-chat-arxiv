@@ -1,0 +1,12 @@
+{
+    "title": "The Quadratic Local Variance Gamma Model: an arbitrage-free interpolation of class $\\mathcal{C}^3$ for option prices. (arXiv:2305.13791v1 [q-fin.CP])",
+    "abstract": "This paper generalizes the local variance gamma model of Carr and Nadtochiy, to a piecewise quadratic local variance function. The formulation encompasses the piecewise linear Bachelier and piecewise linear Black local variance gamma models. The quadratic local variance function results in an arbitrage-free interpolation of class $\\mathcal{C}^3$. The increased smoothness over the piecewise-constant and piecewise-linear representation allows to reduce the number of knots when interpolating raw market quotes, thus providing an interesting alternative to regularization while reducing the computational cost.",
+    "link": "http://arxiv.org/abs/2305.13791",
+    "context": "Title: The Quadratic Local Variance Gamma Model: an arbitrage-free interpolation of class $\\mathcal{C}^3$ for option prices. (arXiv:2305.13791v1 [q-fin.CP])\nAbstract: This paper generalizes the local variance gamma model of Carr and Nadtochiy, to a piecewise quadratic local variance function. The formulation encompasses the piecewise linear Bachelier and piecewise linear Black local variance gamma models. The quadratic local variance function results in an arbitrage-free interpolation of class $\\mathcal{C}^3$. The increased smoothness over the piecewise-constant and piecewise-linear representation allows to reduce the number of knots when interpolating raw market quotes, thus providing an interesting alternative to regularization while reducing the computational cost.",
+    "path": "papers/23/05/2305.13791.json",
+    "total_tokens": 748,
+    "translated_title": "二次局部波动伽马模型：用于期权价格的无套利类$\\mathcal{C}^3$插值的推广",
+    "translated_abstract": "本文将Carr和Nadtochiy的局部波动伽马模型推广到分段二次局部波动函数。该公式包括分段线性Bachelier和分段线性Black局部波动伽马模型。二次局部波动函数导致了$\\mathcal{C}^3$级别的无套利类插值。相较于分段常数和分段线性表示，增加的平滑度在插值原始市场报价时允许减少节点数量，从而提供了一个有趣的正则化替代方案同时降低计算成本。",
+    "tldr": "本研究推广了局部波动伽马模型，使用分段二次局部波动函数实现了$\\mathcal{C}^3$级别的无套利类插值，并能够在插值时减少节点数量来降低计算成本。",
+    "en_tdlr": "This paper extends the local variance gamma model and achieves $\\mathcal{C}^3$ arbitrage-free interpolation using a piecewise quadratic local variance function. The increased smoothness allows for reduction of knots and thus computational cost. It encompasses the piecewise linear Bachelier and Black local variance gamma models."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Single-Pass Pivot Algorithm for Correlation Clustering. Keep it simple!. (arXiv:2305.13560v1 [cs.DS])",
+    "abstract": "We show that a simple single-pass semi-streaming variant of the Pivot algorithm for Correlation Clustering gives a (3 + {\\epsilon})-approximation using O(n/{\\epsilon}) words of memory. This is a slight improvement over the recent results of Cambus, Kuhn, Lindy, Pai, and Uitto, who gave a (3 + {\\epsilon})-approximation using O(n log n) words of memory, and Behnezhad, Charikar, Ma, and Tan, who gave a 5-approximation using O(n) words of memory. One of the main contributions of this paper is that both the algorithm and its analysis are very simple, and also the algorithm is easy to implement.",
+    "link": "http://arxiv.org/abs/2305.13560",
+    "context": "Title: Single-Pass Pivot Algorithm for Correlation Clustering. Keep it simple!. (arXiv:2305.13560v1 [cs.DS])\nAbstract: We show that a simple single-pass semi-streaming variant of the Pivot algorithm for Correlation Clustering gives a (3 + {\\epsilon})-approximation using O(n/{\\epsilon}) words of memory. This is a slight improvement over the recent results of Cambus, Kuhn, Lindy, Pai, and Uitto, who gave a (3 + {\\epsilon})-approximation using O(n log n) words of memory, and Behnezhad, Charikar, Ma, and Tan, who gave a 5-approximation using O(n) words of memory. One of the main contributions of this paper is that both the algorithm and its analysis are very simple, and also the algorithm is easy to implement.",
+    "path": "papers/23/05/2305.13560.json",
+    "total_tokens": 756,
+    "translated_title": "一种用于相关聚类的单遍Pivot算法。保持简单！",
+    "translated_abstract": "我们展示了一个简单的单遍半流Pivot算法的相关聚类，在使用O(n/{\\epsilon})字的记忆空间下，可以给出(3+{\\epsilon})的近似值。这是对Cambus, Kuhn, Lindy, Pai和Uitto最近的结果的轻微改进，他们使用O(n log n)个字的记忆空间提供了(3+{\\epsilon})的逼近度，并且对于只使用O(n)字的记忆空间的Behnezhad, Charikar, Ma和Tan给出了5-近似值。本文的主要贡献之一是，算法和其分析都非常简单，并且算法易于实现。",
+    "tldr": "这篇论文提出了一种用于相关聚类的单遍Pivot算法，使用O(n/{\\epsilon})字的记忆空间下，可以给出(3+{\\epsilon})的近似值。这个算法容易实现，并且是简单的。",
+    "en_tdlr": "The paper proposes a simple single-pass semi-streaming variant of the Pivot algorithm for Correlation Clustering, which gives a (3 + {\\epsilon})-approximation using O(n/{\\epsilon}) words of memory. The algorithm is easy to implement and the analysis is straightforward."
+}

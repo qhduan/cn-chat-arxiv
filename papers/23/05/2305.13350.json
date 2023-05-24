@@ -1,0 +1,12 @@
+{
+    "title": "A Multiple Parameter Linear Scale-Space for one dimensional Signal Classification. (arXiv:2305.13350v1 [math.ST])",
+    "abstract": "In this article we construct a maximal set of kernels for a multi-parameter linear scale-space that allow us to construct trees for classification and recognition of one-dimensional continuous signals similar the Gaussian linear scale-space approach. Fourier transform formulas are provided and used for quick and efficient computations. A number of useful properties of the maximal set of kernels are derived. We also strengthen and generalize some previous results on the classification of Gaussian kernels. Finally, a new topologically invariant method of constructing trees is introduced.",
+    "link": "http://arxiv.org/abs/2305.13350",
+    "context": "Title: A Multiple Parameter Linear Scale-Space for one dimensional Signal Classification. (arXiv:2305.13350v1 [math.ST])\nAbstract: In this article we construct a maximal set of kernels for a multi-parameter linear scale-space that allow us to construct trees for classification and recognition of one-dimensional continuous signals similar the Gaussian linear scale-space approach. Fourier transform formulas are provided and used for quick and efficient computations. A number of useful properties of the maximal set of kernels are derived. We also strengthen and generalize some previous results on the classification of Gaussian kernels. Finally, a new topologically invariant method of constructing trees is introduced.",
+    "path": "papers/23/05/2305.13350.json",
+    "total_tokens": 635,
+    "translated_title": "一维信号分类的多参数线性尺度空间",
+    "translated_abstract": "本文构建了一个多参数线性尺度空间的最大核集，允许我们构建类似于高斯线性尺度空间方法的一维连续信号分类和识别树。提供了傅里叶变换公式，用于快速和高效的计算。推导出了最大核集的一些有用性质。我们还加强和推广了一些关于高斯核分类的先前结果。最后，引入了一种新的拓扑不变量构建树的方法。",
+    "tldr": "本文介绍了一种多参数线性尺度空间，其中包含了一组有用的性质和一个新的构建树的方法，可用于一维连续信号的分类和识别。",
+    "en_tdlr": "This article proposes a multi-parameter linear scale-space with a maximal set of kernels, useful properties, and a new method for constructing trees. It can be applied to classify and recognize one-dimensional continuous signals similar to the Gaussian linear scale-space approach."
+}

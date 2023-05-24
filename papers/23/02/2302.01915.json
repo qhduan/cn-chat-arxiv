@@ -1,0 +1,11 @@
+{
+    "title": "Sample Complexity of Probability Divergences under Group Symmetry. (arXiv:2302.01915v2 [math.ST] UPDATED)",
+    "abstract": "We rigorously quantify the improvement in the sample complexity of variational divergence estimations for group-invariant distributions. In the cases of the Wasserstein-1 metric and the Lipschitz-regularized $\\alpha$-divergences, the reduction of sample complexity is proportional to an ambient-dimension-dependent power of the group size. For the maximum mean discrepancy (MMD), the improvement of sample complexity is more nuanced, as it depends on not only the group size but also the choice of kernel. Numerical simulations verify our theories.",
+    "link": "http://arxiv.org/abs/2302.01915",
+    "context": "Title: Sample Complexity of Probability Divergences under Group Symmetry. (arXiv:2302.01915v2 [math.ST] UPDATED)\nAbstract: We rigorously quantify the improvement in the sample complexity of variational divergence estimations for group-invariant distributions. In the cases of the Wasserstein-1 metric and the Lipschitz-regularized $\\alpha$-divergences, the reduction of sample complexity is proportional to an ambient-dimension-dependent power of the group size. For the maximum mean discrepancy (MMD), the improvement of sample complexity is more nuanced, as it depends on not only the group size but also the choice of kernel. Numerical simulations verify our theories.",
+    "path": "papers/23/02/2302.01915.json",
+    "total_tokens": 741,
+    "translated_title": "基于群对称性的概率差异的样本复杂度分析",
+    "translated_abstract": "我们对于具有群不变性的分布变量在变分差异估计中的样本复杂度进行了严谨的量化分析。在Wasserstein-1距离和Lipschitz正则化α差异的情况下，样本复杂度的降低与群大小的维度相关。对于最大均值差异（MMD），样本复杂度的改进更加复杂，因为它不仅取决于群大小，还取决于内核的选择。 数值模拟验证了我们的理论。",
+    "tldr": "本文研究了具有群不变性的分布变量在变分差异估计中的样本复杂度，发现在群大小维度相关的情况下，样本复杂度会有所降低，并在实验中得到了验证。"
+}

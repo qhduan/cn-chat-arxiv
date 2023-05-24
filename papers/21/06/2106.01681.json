@@ -1,0 +1,12 @@
+{
+    "title": "The Origin of Corporate Control Power. (arXiv:2106.01681v10 [econ.TH] UPDATED)",
+    "abstract": "How does the control power of corporate shareholder arise? On the fundamental principles of economics, we discover that the probability of top1 shareholder possessing optimal control power evolves in Fibonacci series pattern and emerges as the wave between 1/2 and 2/3 along with time in period of 12h (h is the time distance between the state and state of the evolution). This novel feature suggests the efficiency of the allocation of corporate shareholders' right and power. Data on the Chinese stock market support this prediction.",
+    "link": "http://arxiv.org/abs/2106.01681",
+    "context": "Title: The Origin of Corporate Control Power. (arXiv:2106.01681v10 [econ.TH] UPDATED)\nAbstract: How does the control power of corporate shareholder arise? On the fundamental principles of economics, we discover that the probability of top1 shareholder possessing optimal control power evolves in Fibonacci series pattern and emerges as the wave between 1/2 and 2/3 along with time in period of 12h (h is the time distance between the state and state of the evolution). This novel feature suggests the efficiency of the allocation of corporate shareholders' right and power. Data on the Chinese stock market support this prediction.",
+    "path": "papers/21/06/2106.01681.json",
+    "total_tokens": 672,
+    "translated_title": "《企业控制权的起源》",
+    "translated_abstract": "企业股东的控制权是如何产生的？基于经济学的基本原理，我们发现最高1号股东拥有最优控制权的概率是以斐波那契数列模式演变的，并在每12小时的时间周期内浮动在1/2至2/3之间。这一新颖特点表明了企业股东权利和权力分配的效率。中国股市的数据支持了这一预测。",
+    "tldr": "本文研究了企业股东控制权的产生机制，发现最高1号股东拥有最优控制权的概率按斐波那契数列的模式随时间演变，在12小时的时间周期内浮动在1/2至2/3之间，相关数据支持了预测。",
+    "en_tdlr": "This paper studies the mechanism of corporate shareholder control power and finds that the probability of top1 shareholder possessing optimal control power evolves in Fibonacci series pattern and fluctuates between 1/2 and 2/3 in a period of 12 hours. The efficiency of corporate shareholder rights and power allocation is supported by data from the Chinese stock market."
+}

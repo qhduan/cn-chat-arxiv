@@ -1,0 +1,12 @@
+{
+    "title": "\"Is the Pope Catholic?\" Applying Chain-of-Thought Reasoning to Understanding Conversational Implicatures. (arXiv:2305.13826v1 [cs.CL])",
+    "abstract": "Conversational implicatures are pragmatic inferences that require listeners to deduce the intended meaning conveyed by a speaker from their explicit utterances. Although such inferential reasoning is fundamental to human communication, recent research indicates that large language models struggle to comprehend these implicatures as effectively as the average human. This paper demonstrates that by incorporating Grice's Four Maxims into the model through chain-of-thought prompting, we can significantly enhance its performance, surpassing even the average human performance on this task.",
+    "link": "http://arxiv.org/abs/2305.13826",
+    "context": "Title: \"Is the Pope Catholic?\" Applying Chain-of-Thought Reasoning to Understanding Conversational Implicatures. (arXiv:2305.13826v1 [cs.CL])\nAbstract: Conversational implicatures are pragmatic inferences that require listeners to deduce the intended meaning conveyed by a speaker from their explicit utterances. Although such inferential reasoning is fundamental to human communication, recent research indicates that large language models struggle to comprehend these implicatures as effectively as the average human. This paper demonstrates that by incorporating Grice's Four Maxims into the model through chain-of-thought prompting, we can significantly enhance its performance, surpassing even the average human performance on this task.",
+    "path": "papers/23/05/2305.13826.json",
+    "total_tokens": 647,
+    "translated_title": "“教皇是天主教徒吗？”——运用思维链推理理解对话含义。",
+    "translated_abstract": "对话含义是指要求听者从说话者的明确话语中推断出其所要传达的意思的语用推断。尽管这种推理是人类交流的基础，但最近的研究表明，大型语言模型在理解这些含义方面的表现远低于普通人。本文通过运用格赖斯的四个准则，并通过思维链提示将其纳入模型中，证明了我们可以显著提高其性能，甚至超过了该任务的平均人类表现。",
+    "tldr": "本论文运用思维链推理，将格赖斯的四个准则纳入模型，证明了可以提高模型性能以有效理解对话含义。",
+    "en_tdlr": "This paper demonstrates that by using chain-of-thought reasoning and incorporating Grice's Four Maxims into the model, it is possible to improve the model's performance in understanding conversational implicatures."
+}

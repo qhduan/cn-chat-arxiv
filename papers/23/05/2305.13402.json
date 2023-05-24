@@ -1,0 +1,12 @@
+{
+    "title": "Error-Tolerant Exact Query Learning of Finite Set Partitions with Same-Cluster Oracle. (arXiv:2305.13402v1 [cs.DS])",
+    "abstract": "This paper initiates the study of active learning for exact recovery of partitions exclusively through access to a same-cluster oracle in the presence of bounded adversarial error. We first highlight a novel connection between learning partitions and correlation clustering. Then we use this connection to build a R\\'enyi-Ulam style analytical framework for this problem, and prove upper and lower bounds on its worst-case query complexity. Further, we bound the expected performance of a relevant randomized algorithm. Finally, we study the relationship between adaptivity and query complexity for this problem and related variants.",
+    "link": "http://arxiv.org/abs/2305.13402",
+    "context": "Title: Error-Tolerant Exact Query Learning of Finite Set Partitions with Same-Cluster Oracle. (arXiv:2305.13402v1 [cs.DS])\nAbstract: This paper initiates the study of active learning for exact recovery of partitions exclusively through access to a same-cluster oracle in the presence of bounded adversarial error. We first highlight a novel connection between learning partitions and correlation clustering. Then we use this connection to build a R\\'enyi-Ulam style analytical framework for this problem, and prove upper and lower bounds on its worst-case query complexity. Further, we bound the expected performance of a relevant randomized algorithm. Finally, we study the relationship between adaptivity and query complexity for this problem and related variants.",
+    "path": "papers/23/05/2305.13402.json",
+    "total_tokens": 748,
+    "translated_title": "通过同簇预言机的容错精确查询学习有限集合划分",
+    "translated_abstract": "本文研究了当存在有限的对抗错误时，仅通过同簇预言机来积极学习完全恢复划分的问题。首先突出了学习划分和相关聚类之间的新颖联系。然后利用这种联系为这个问题建立了一个Rényi-Ulam样式的解析框架，并证明了最坏情况下查询复杂度的上下界。此外，我们还限制了相关随机算法的期望性能。最后，我们研究了适应性和查询复杂度在该问题和相关变体中之间的关系。",
+    "tldr": "本文提出了一个新问题：如何通过同簇预言机在存在有限对抗错误时积极学习完全恢复划分。我们建立了解析框架并证明了最坏情况下查询复杂度的上下界，并研究了适应性和查询复杂度之间的关系。",
+    "en_tdlr": "This paper proposes a new problem of actively learning exact recovery of partitions exclusively through access to a same-cluster oracle in the presence of bounded adversarial error. The author establishes an analytical framework for the problem, proves bounds on the worst-case query complexity, and studies the relationship between adaptivity and query complexity for this problem and related variants."
+}
