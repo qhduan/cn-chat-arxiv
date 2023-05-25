@@ -1,0 +1,12 @@
+{
+    "title": "Instruction Tuning with Lexicons for Zero-Shot Style Classification. (arXiv:2305.14592v1 [cs.CL])",
+    "abstract": "Style is used to convey authors' intentions and attitudes. Despite the success of large pre-trained language models on style classification, prior work relies on fine-tuning with labeled examples. Prompting large language models to classify style without fine-tuning is challenging because language styles can be difficult to define. In this study, we investigate the effectiveness of style lexicons as a means for instructing language models how to identify new styles that are unseen during training. Our experiments show that lexicon-based instructions improve transfer zero-shot performance significantly. We will release our code and data.",
+    "link": "http://arxiv.org/abs/2305.14592",
+    "context": "Title: Instruction Tuning with Lexicons for Zero-Shot Style Classification. (arXiv:2305.14592v1 [cs.CL])\nAbstract: Style is used to convey authors' intentions and attitudes. Despite the success of large pre-trained language models on style classification, prior work relies on fine-tuning with labeled examples. Prompting large language models to classify style without fine-tuning is challenging because language styles can be difficult to define. In this study, we investigate the effectiveness of style lexicons as a means for instructing language models how to identify new styles that are unseen during training. Our experiments show that lexicon-based instructions improve transfer zero-shot performance significantly. We will release our code and data.",
+    "path": "papers/23/05/2305.14592.json",
+    "total_tokens": 673,
+    "translated_title": "带词典的指令优化用于零样式分类",
+    "translated_abstract": "风格用于传达作者的意图和态度。尽管大型预训练语言模型在风格分类上取得了成功，但先前的研究依赖于带标签的样本进行微调。启发大型语言模型在没有微调的情况下对风格进行分类具有挑战性，因为语言风格可能很难定义。在这项研究中，我们调查了风格词典作为指导语言模型如何识别在训练期间未见过的新风格的有效性。我们的实验表明，基于词典的指令显著提高了零样本性能的转移。我们将发布我们的代码和数据。",
+    "tldr": "通过使用词典指导语言模型识别训练期间未见过的新风格，可以有效地提高零样本性能的转移。",
+    "en_tdlr": "Using lexicons to instruct language models can improve zero-shot transfer performance significantly by identifying new style that are unseen during training."
+}

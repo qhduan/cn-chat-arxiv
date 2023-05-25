@@ -1,0 +1,12 @@
+{
+    "title": "Exploring Semantic Variations in GAN Latent Spaces via Matrix Factorization. (arXiv:2305.14551v1 [cs.CV])",
+    "abstract": "Controlled data generation with GANs is desirable but challenging due to the nonlinearity and high dimensionality of their latent spaces. In this work, we explore image manipulations learned by GANSpace, a state-of-the-art method based on PCA. Through quantitative and qualitative assessments we show: (a) GANSpace produces a wide range of high-quality image manipulations, but they can be highly entangled, limiting potential use cases; (b) Replacing PCA with ICA improves the quality and disentanglement of manipulations; (c) The quality of the generated images can be sensitive to the size of GANs, but regardless of their complexity, fundamental controlling directions can be observed in their latent spaces.",
+    "link": "http://arxiv.org/abs/2305.14551",
+    "context": "Title: Exploring Semantic Variations in GAN Latent Spaces via Matrix Factorization. (arXiv:2305.14551v1 [cs.CV])\nAbstract: Controlled data generation with GANs is desirable but challenging due to the nonlinearity and high dimensionality of their latent spaces. In this work, we explore image manipulations learned by GANSpace, a state-of-the-art method based on PCA. Through quantitative and qualitative assessments we show: (a) GANSpace produces a wide range of high-quality image manipulations, but they can be highly entangled, limiting potential use cases; (b) Replacing PCA with ICA improves the quality and disentanglement of manipulations; (c) The quality of the generated images can be sensitive to the size of GANs, but regardless of their complexity, fundamental controlling directions can be observed in their latent spaces.",
+    "path": "papers/23/05/2305.14551.json",
+    "total_tokens": 766,
+    "translated_title": "通过矩阵分解探索GAN潜空间中的语义变化",
+    "translated_abstract": "由于它们的非线性和高维度，使用GAN进行受控数据生成是令人渴望但具有挑战性的。在这项工作中，我们通过定量和定性评估展示了GANSpace所学习到的图像操作：（a）GANSpace生成了一系列高质量的图像操作，但它们可能高度纠缠，从而限制了其潜在的用途；（b）用ICA替换PCA可以改善操作的质量和解缠；（c）生成图像的质量可能对GAN的大小敏感，但无论它们的复杂性如何，在它们的潜空间中都可以观察到基本的控制方向。",
+    "tldr": "本文研究了GANSpace方法中潜空间的语义变化，在定量和定性分析中发现，ICA方法相比PCA方法更适合操作质量和解缠，并且无论GAN的大小如何，其控制方向都是基本的。",
+    "en_tdlr": "This paper explores semantic variations in GAN latent spaces via matrix factorization, and finds that replacing PCA with ICA improves the quality and disentanglement of manipulations. Fundamental controlling directions in latent spaces can be observed regardless of GAN complexity."
+}

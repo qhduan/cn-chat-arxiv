@@ -1,0 +1,11 @@
+{
+    "title": "Uniform-in-time propagation of chaos for mean field Langevin dynamics. (arXiv:2212.03050v2 [math.PR] UPDATED)",
+    "abstract": "We study the mean field Langevin dynamics and the associated particle system. By assuming the functional convexity of the energy, we obtain the $L^p$-convergence of the marginal distributions towards the unique invariant measure for the mean field dynamics. Furthermore, we prove the uniform-in-time propagation of chaos in both the $L^2$-Wasserstein metric and relative entropy.",
+    "link": "http://arxiv.org/abs/2212.03050",
+    "context": "Title: Uniform-in-time propagation of chaos for mean field Langevin dynamics. (arXiv:2212.03050v2 [math.PR] UPDATED)\nAbstract: We study the mean field Langevin dynamics and the associated particle system. By assuming the functional convexity of the energy, we obtain the $L^p$-convergence of the marginal distributions towards the unique invariant measure for the mean field dynamics. Furthermore, we prove the uniform-in-time propagation of chaos in both the $L^2$-Wasserstein metric and relative entropy.",
+    "path": "papers/22/12/2212.03050.json",
+    "total_tokens": 593,
+    "translated_title": "均匀时间传播混沌的平均场 Langevin 动力学",
+    "translated_abstract": "本文研究了平均场 Langevin 动力学及其相关粒子系统。通过假设能量函数的凸性，我们得出了边缘分布收敛到平均场动力学唯一不变测度的 $L^p$ 收敛性。此外，我们证明了在 $L^2$ Wasserstein 距离和相对熵两方面，混沌现象的均匀时间传播。",
+    "tldr": "研究了平均场 Langevin 动力学，证明了边缘分布 $L^p$ 收敛性和混沌现象的均匀时间传播。"
+}

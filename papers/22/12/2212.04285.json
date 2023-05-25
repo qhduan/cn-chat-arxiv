@@ -1,0 +1,12 @@
+{
+    "title": "The Impact of Socioeconomic Factors on Health Disparities. (arXiv:2212.04285v3 [cs.CY] UPDATED)",
+    "abstract": "High-quality healthcare in the US can be cost-prohibitive for certain socioeconomic groups. In this paper, we examined data from the US Census and the CDC to determine the degree to which specific socioeconomic factors correlate with both specific and general health metrics. We employed visual analysis to find broad trends and predictive modeling to identify more complex relationships between variables. Our results indicate that certain socioeconomic factors, like income and educational attainment, are highly correlated with aggregate measures of health.",
+    "link": "http://arxiv.org/abs/2212.04285",
+    "context": "Title: The Impact of Socioeconomic Factors on Health Disparities. (arXiv:2212.04285v3 [cs.CY] UPDATED)\nAbstract: High-quality healthcare in the US can be cost-prohibitive for certain socioeconomic groups. In this paper, we examined data from the US Census and the CDC to determine the degree to which specific socioeconomic factors correlate with both specific and general health metrics. We employed visual analysis to find broad trends and predictive modeling to identify more complex relationships between variables. Our results indicate that certain socioeconomic factors, like income and educational attainment, are highly correlated with aggregate measures of health.",
+    "path": "papers/22/12/2212.04285.json",
+    "total_tokens": 662,
+    "translated_title": "社会经济因素对健康差距的影响研究",
+    "translated_abstract": "美国的高质量医疗保健对于某些社会经济群体来说成本过高。本文利用美国人口普查和疾病预防控制中心的数据，确定特定社会经济因素与特定和一般健康指标之间的关联程度，并采用可视化分析和预测建模来识别变量之间更复杂的关系。结果表明，收入和教育程度等某些社会经济因素与健康的总体指标有很高的相关性。",
+    "tldr": "美国的高质量医疗保健对于某些社会经济群体来说成本过高，因此社会经济因素如收入和教育程度与健康的总体指标有很高的相关性。",
+    "en_tdlr": "High-quality healthcare in the US can be cost-prohibitive for certain socioeconomic groups, thus certain socioeconomic factors such as income and educational attainment are highly correlated with aggregate measures of health."
+}

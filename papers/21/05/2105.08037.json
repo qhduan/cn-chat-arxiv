@@ -1,0 +1,12 @@
+{
+    "title": "Adversarial Training for Gradient Descent: Analysis Through its Continuous-time Approximation. (arXiv:2105.08037v2 [cs.LG] UPDATED)",
+    "abstract": "Adversarial training has gained great popularity as one of the most effective defenses for deep neural network and more generally for gradient-based machine learning models against adversarial perturbations on data points. This paper establishes a continuous-time approximation for the mini-max game of adversarial training. This approximation approach allows for precise and analytical comparisons between stochastic gradient descent and its adversarial training counterpart; and confirms theoretically the robustness of adversarial training from a new gradient-flow viewpoint. The analysis is then corroborated through various analytical and numerical examples.",
+    "link": "http://arxiv.org/abs/2105.08037",
+    "context": "Title: Adversarial Training for Gradient Descent: Analysis Through its Continuous-time Approximation. (arXiv:2105.08037v2 [cs.LG] UPDATED)\nAbstract: Adversarial training has gained great popularity as one of the most effective defenses for deep neural network and more generally for gradient-based machine learning models against adversarial perturbations on data points. This paper establishes a continuous-time approximation for the mini-max game of adversarial training. This approximation approach allows for precise and analytical comparisons between stochastic gradient descent and its adversarial training counterpart; and confirms theoretically the robustness of adversarial training from a new gradient-flow viewpoint. The analysis is then corroborated through various analytical and numerical examples.",
+    "path": "papers/21/05/2105.08037.json",
+    "total_tokens": 681,
+    "translated_title": "梯度下降对抗训练的连续时间逼近分析",
+    "translated_abstract": "对抗训练已成为深度神经网络和梯度机器学习模型等领域中最有效的防御方法之一，可以有效对抗数据点上的对抗扰动。本文建立了对抗训练的 mini-max 游戏的连续时间逼近，该逼近方法允许在随机梯度下降和其对抗训练对应方法之间进行精确和分析性的比较，并从新的梯度流视角理论上证实了对抗训练的鲁棒性。通过多种分析和数值实验证实了上述结果。",
+    "tldr": "本文建立了梯度下降对抗训练的连续时间逼近方法，该方法从新的梯度流视角理论上证实了对抗训练的鲁棒性。",
+    "en_tdlr": "This paper establishes a continuous-time approximation for the mini-max game of adversarial training, and confirms theoretically the robustness of adversarial training from a new gradient-flow viewpoint."
+}

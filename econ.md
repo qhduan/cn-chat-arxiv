@@ -2,172 +2,187 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Adapting to Misspecification.](http://arxiv.org/abs/2305.14265) | 研究提出了一种自适应收缩估计量，通过最小化最坏风险相对于已知偏差上限的理论最优估计量的最大风险的百分比增加。研究尝试解决经验研究中的鲁棒性和效率之间的权衡问题，避免了模型检验的复杂性。 |
-| [^2] | [Revealed preferences for dynamically inconsistent models.](http://arxiv.org/abs/2305.14125) | 本文研究了动态不一致选择模型的可测试预测，提出了不同行为模型包括动态不一致选择，讨论了准拟超几何贴现模型的一阶合理性的局限性。 |
-| [^3] | [The Complexity of Corporate Culture as a Potential Source of Firm Profit Differentials.](http://arxiv.org/abs/2305.14029) | 本文使用复杂自适应系统的模型分析企业内部利润差异，通过员工的价值决策塑造企业文化，发现极端管理方式可以获得更高的利润，并且建议采取措施加强企业文化的塑造和传播，以提高企业利润。 |
-| [^4] | [Nash implementation in a many-to-one matching market.](http://arxiv.org/abs/2305.13956) | 在可替代偏好的多对一匹配市场中，任何稳定规则都可以在纳什均衡中实现个体理性或稳定匹配。 |
-| [^5] | [Monetary Policy & Stock Market.](http://arxiv.org/abs/2305.13930) | 本文通过泰勒规则，研究了1990-2020年美国和英国的货币政策与股票市场之间的关系，以及货币政策与资产价格波动之间的联系，并比较了美国和英国的政策决策可用泰勒规则解释的程度。 |
-| [^6] | [Flexible Bayesian Quantile Analysis of Residential Rental Rates.](http://arxiv.org/abs/2305.13687) | 本文提出了一种面板数据的随机效应分位数回归模型，使用了分布灵活性和时间不变协变量，并非常有效地运用了贝叶斯方法进行了模型比较，研究了全球金融危机后美国住宅租金率。 |
-| [^7] | [Rational social distancing in epidemics with uncertain vaccination timing.](http://arxiv.org/abs/2305.13618) | 本文研究了疫情期间的社交距离策略，考虑到疫苗接种时间的不确定性，发现如果疫苗预期时间越早，且接种时间知道的越准确，人们遵守社交距离的动力越强。 |
-| [^8] | [Resolving the Conflict on Conduct Parameter Estimation in Homogeneous Goods Markets between Bresnahan (1982) and Perloff and Shen (2012).](http://arxiv.org/abs/2301.06665) | 本文解决了同质化商品市场中Bresnahan（1982）和Perloff和Shen（2012）之间的关于行为参数估计的冲突，通过在供应估计中适当增加需求转移和增加样本量，提高了估计的精确性。 |
-| [^9] | [Externally Valid Policy Choice.](http://arxiv.org/abs/2205.05561) | 本文研究了外部有效的个性化治疗策略的学习问题。研究表明，最大化福利的治疗策略对于实验和目标人群之间的结果分布变化具有鲁棒性。通过开发新的方法，作者提出了对结果和特征变化具有鲁棒性的策略学习方法，并强调实验人群内的治疗效果异质性对策略普适性的影响。 |
-| [^10] | [When Will Arctic Sea Ice Disappear? Projections of Area, Extent, Thickness, and Volume.](http://arxiv.org/abs/2203.04040) | 研究预测2030s中期时北极海冰以80%的概率将完全消失，低碳路径或延迟数年。 |
-| [^11] | [The Origin of Corporate Control Power.](http://arxiv.org/abs/2106.01681) | 本文研究了企业股东控制权的产生机制，发现最高1号股东拥有最优控制权的概率按斐波那契数列的模式随时间演变，在12小时的时间周期内浮动在1/2至2/3之间，相关数据支持了预测。 |
+| [^1] | [Cautious Belief and Iterated Admissibility.](http://arxiv.org/abs/2305.15330) | 本文研究了有限博弈中迭代允许性的认知条件。在终端词典类型结构中，“谨慎理性和谨慎理性的普遍谨慎信念”的行为含义可以用迭代允许性来刻画，而在任意类型结构中则可以用自允许集的解决概念进行描述。 |
+| [^2] | [Political Conflict and Economic Growth in Post-Independence Venezuela.](http://arxiv.org/abs/2305.14698) | 委内瑞拉经历了三次经济灾难，其最具破坏性的决策不是来自富人与大众之间的阶级冲突，而是由精英之间的激烈争斗所致。此外，该国的政治制度不够包容，且缺乏调解精英内部冲突的能力。 |
+| [^3] | [Quantifying Character Similarity with Vision Transformers.](http://arxiv.org/abs/2305.14672) | 本研究使用ViT对OCR文档进行字符相似性度量，提供了一种可扩展的计算字符替换成本的方法，避免了使用常用字符串替换方法导致的数据偏差。 |
+| [^4] | [Hoarding without hoarders: unpacking the emergence of opportunity hoarding within schools.](http://arxiv.org/abs/2305.14653) | 本文提供了关于学校内机会囤积出现必要和充分条件的研究，模拟表明囤积即使在白人不扮演囤积者资源角色的情况下也会出现，其背后是结构性的不平等条件。这强调了在分析教育机会垄断时考虑结构性不平等的重要性。 |
+| [^5] | [Estimating causal effects of sanctions impacts: what role for country-level studies?.](http://arxiv.org/abs/2305.14605) | 国家层面的案例研究可以作为跨国数据的补充来评估经济制裁的影响，但需要注意可能存在的实证陷阱。因此，最好将其视为跨国研究的补充，而不是替代。 |
+| [^6] | [On the Instability of Fractional Reserve Banking.](http://arxiv.org/abs/2305.14503) | 本研究构建了一个动态货币模型来研究充分准备金银行体系的不稳定性，发现当准备金要求较低时，平衡更容易表现出内生的周期性、混沌性和随机动态，这可能是经济波动的另一个来源。 |
+| [^7] | [Reproducibility and Transparency versus Privacy and Confidentiality: Reflections from a Data Editor.](http://arxiv.org/abs/2305.14478) | 可再现性与透明度不一定会受到隐私和机密性的阻碍，因为许多保密数据是开放的。 |
+| [^8] | [Market Making and Pricing of Financial Derivatives based on Road Travel Times.](http://arxiv.org/abs/2305.02523) | 本文提出了一种基于道路行驶时间的金融衍生品，可以作为一种创新的对冲工具，在交通领域和金融市场中都有潜在的市场和需求。 |
+| [^9] | [Democratic Policy Decisions with Decentralized Promises Contingent on Vote Outcome.](http://arxiv.org/abs/2304.08008) | 本文研究了去中心化承诺对民主决策的影响。在投票前，委员会成员可以进行可执行的承诺。可能需要跨越阵营进行承诺，以实现改革的实施，同时需要排除最不热衷于改革的支持者被诱导推翻决定。 |
+| [^10] | [The presence of White students and the emergence of Black-White within-school inequalities: two interaction-based mechanisms.](http://arxiv.org/abs/2304.04849) | 本文研究了不平等访问教育资源的实证模式和黑白人之间的进阶入学差距，发现白人学生的存在可以影响黑白人之间的进阶入学差距，并可能是这一宏观模式的另一个解释。 |
+| [^11] | [Exploring the stability of solar geoengineering agreements.](http://arxiv.org/abs/2210.09145) | 本文探讨了国际合作太阳辐射管理的稳定性，发现稳定性与太阳辐射管理的风险程度相关，但不受国家偏好影响。 |
+| [^12] | [Double Machine Learning and Automated Confounder Selection -- A Cautionary Tale.](http://arxiv.org/abs/2108.11294) | 本文探讨了双机器学习在高维设置中的自动变量选择工具，指出其在包括内生变量时条件独立性会受到破坏，并警示了以数据驱动方式选择控制变量的可行性问题。 |
 
 # 详细
 
-[^1]: 适应模型错误的估计
+[^1]: 谨慎信念和迭代允许性
 
-    Adapting to Misspecification. (arXiv:2305.14265v1 [econ.EM])
+    Cautious Belief and Iterated Admissibility. (arXiv:2305.15330v1 [econ.TH])
 
-    [http://arxiv.org/abs/2305.14265](http://arxiv.org/abs/2305.14265)
+    [http://arxiv.org/abs/2305.15330](http://arxiv.org/abs/2305.15330)
 
-    研究提出了一种自适应收缩估计量，通过最小化最坏风险相对于已知偏差上限的理论最优估计量的最大风险的百分比增加。研究尝试解决经验研究中的鲁棒性和效率之间的权衡问题，避免了模型检验的复杂性。
-
-    
-
-    经验研究通常涉及到鲁棒性和效率之间的权衡。研究人员想要估计一个标量参数，可以使用强假设来设计一个精准但可能存在严重偏差的局限估计量，也可以放松一些假设并设计一个更加鲁棒但变量较大的估计量。当局限估计量的偏差上限已知时，将无限制估计量收缩到局限估计量是最优的。对于局限估计量偏差上限未知的情况，我们提出了自适应收缩估计量，该估计量最小化最坏风险相对于已知偏差上限的理论最优估计量的最大风险的百分比增加。我们证明自适应估计量是一个加权凸最小化最大问题，并提供查找表以便于快速计算。重新审视了五项存在模型规范问题的经验研究，我们研究了适应错误的模型的优势而不是检验。
-
-    Empirical research typically involves a robustness-efficiency tradeoff. A researcher seeking to estimate a scalar parameter can invoke strong assumptions to motivate a restricted estimator that is precise but may be heavily biased, or they can relax some of these assumptions to motivate a more robust, but variable, unrestricted estimator. When a bound on the bias of the restricted estimator is available, it is optimal to shrink the unrestricted estimator towards the restricted estimator. For settings where a bound on the bias of the restricted estimator is unknown, we propose adaptive shrinkage estimators that minimize the percentage increase in worst case risk relative to an oracle that knows the bound. We show that adaptive estimators solve a weighted convex minimax problem and provide lookup tables facilitating their rapid computation. Revisiting five empirical studies where questions of model specification arise, we examine the advantages of adapting to -- rather than testing for -
-    
-[^2]: 动态不一致模型的显性偏好
-
-    Revealed preferences for dynamically inconsistent models. (arXiv:2305.14125v1 [econ.TH])
-
-    [http://arxiv.org/abs/2305.14125](http://arxiv.org/abs/2305.14125)
-
-    本文研究了动态不一致选择模型的可测试预测，提出了不同行为模型包括动态不一致选择，讨论了准拟超几何贴现模型的一阶合理性的局限性。
+    本文研究了有限博弈中迭代允许性的认知条件。在终端词典类型结构中，“谨慎理性和谨慎理性的普遍谨慎信念”的行为含义可以用迭代允许性来刻画，而在任意类型结构中则可以用自允许集的解决概念进行描述。
 
     
 
-    本文探讨了动态不一致选择模型的可测试预测，当计划选择不可观测时，只有“on path”数据可用。首先，我们讨论了Blow、Browning和Crawford (2021)的方法，他们表征了准拟超几何贴现模型的一阶合理性。我们表明，一阶方法不能保证通过准拟超几何模型来实现理性化。这促使我们考虑一种跨时间选择的抽象模型，我们在此模型下提供了不同行为模型的表征，包括动态不一致选择的天真和复杂范例。
+    我们定义了谨慎和谨慎信念的概念，为有限博弈中的迭代允许性提供认识条件。我们展示了在终端词典类型结构中，“谨慎理性和谨慎理性的普遍谨慎信念”的行为含义可以用迭代允许性来刻画。对于任意类型结构，这些认知假设的行为含义可以用自允许集的解决概念（Brandenburger、Friedenberg和Keisler 2008）来描述。我们还表明，在替代认知假设下，类似的结论成立，特别地，如果对玩家而言谨慎性是“透明”的。
 
-    We study the testable implications of models of dynamically inconsistent choices when planned choices are unobservable, and thus only "on path" data is available. First, we discuss the approach in Blow, Browning and Crawford (2021), who characterize first-order rationalizability of the model of quasi-hyperbolic discounting. We show that the first-order approach does not guarantee rationalizability by means of the quasi-hyperbolic model. This motivates consideration of an abstract model of intertemporal choice, under which we provide a characterization of different behavioral models -- including the naive and sophisticated paradigms of dynamically inconsistent choice.
+    We define notions of cautiousness and cautious belief to provide epistemic conditions for iterated admissibility in finite games. We show that iterated admissibility characterizes the behavioral implications of "cautious rationality and common cautious belief in cautious rationality" in a terminal lexicographic type structure. For arbitrary type structures, the behavioral implications of these epistemic assumptions are characterized by the solution concept of self-admissible set (Brandenburger, Friedenberg and Keisler 2008). We also show that analogous conclusions hold under alternative epistemic assumptions, in particular if cautiousness is "transparent" to the players.  KEYWORDS: Epistemic game theory, iterated admissibility, weak dominance, lexicographic probability systems. JEL: C72.
     
-[^3]: 企业文化复杂性作为潜在的公司利润差异来源的复杂性研究。
+[^2]: 后独立委内瑞拉的政治冲突与经济增长
 
-    The Complexity of Corporate Culture as a Potential Source of Firm Profit Differentials. (arXiv:2305.14029v1 [econ.TH])
+    Political Conflict and Economic Growth in Post-Independence Venezuela. (arXiv:2305.14698v1 [econ.GN])
 
-    [http://arxiv.org/abs/2305.14029](http://arxiv.org/abs/2305.14029)
+    [http://arxiv.org/abs/2305.14698](http://arxiv.org/abs/2305.14698)
 
-    本文使用复杂自适应系统的模型分析企业内部利润差异，通过员工的价值决策塑造企业文化，发现极端管理方式可以获得更高的利润，并且建议采取措施加强企业文化的塑造和传播，以提高企业利润。
-
-    
-
-    本文将商业组织作为一个复杂自适应系统进行建模，提出了一个补充企业内部利润差异的基于公司的视角的观点。所提出的基于智能体的模型引入了内生的基于相似性的社交网络以及员工对由公司关键绩效指标确定的动态管理策略的反应。员工们基于价值的决策塑造了他人的行为，从中建立了一种企业文化，这些元素引发了相互交织的反馈机制，从而导致了意外的利润结果。模拟结果显示，比起较为中等的替代方案，极端的管理方式的变体在长期内获得了更高的利润。此外，我们观察到收敛于一个低强度监控的主导型管理策略以及高度货币激励合作行为的趋势。结果表明，采取措施加强企业文化的塑造和传播或将成为提高企业利润的策略。
-
-    This paper proposes an addition to the firm-based perspective on intra-industry profitability differentials by modelling a business organisation as a complex adaptive system. The presented agent-based model introduces an endogenous similarity-based social network and employees' reactions to dynamic management strategies informed by key company benchmarks. The value-based decision-making of employees shapes the behaviour of others through their perception of social norms from which a corporate culture emerges. These elements induce intertwined feedback mechanisms which lead to unforeseen profitability outcomes. The simulations reveal that variants of extreme adaptation of management style yield higher profitability in the long run than the more moderate alternatives. Furthermore, we observe convergence towards a dominant management strategy with low intensity in monitoring efforts as well as high monetary incentivisation of cooperative behaviour. The results suggest that measures increa
-    
-[^4]: 多对一匹配市场中的纳什实现
-
-    Nash implementation in a many-to-one matching market. (arXiv:2305.13956v1 [econ.TH])
-
-    [http://arxiv.org/abs/2305.13956](http://arxiv.org/abs/2305.13956)
-
-    在可替代偏好的多对一匹配市场中，任何稳定规则都可以在纳什均衡中实现个体理性或稳定匹配。
+    委内瑞拉经历了三次经济灾难，其最具破坏性的决策不是来自富人与大众之间的阶级冲突，而是由精英之间的激烈争斗所致。此外，该国的政治制度不够包容，且缺乏调解精英内部冲突的能力。
 
     
 
-    在具有可替代偏好的多对一匹配市场中，我们分析了稳定规则引起的博弈。当市场的双方都进行战略博弈时，我们表明任何稳定规则都可以在纳什均衡中实现个体理性匹配。此外，当只有工人进行战略博弈，并且企业的偏好满足需求汇总定律时，我们表明任何稳定规则都可以在纳什均衡中实现稳定匹配。
+    自独立以来，委内瑞拉经历了三次经济灾难：分别发生在19、20和21世纪。解释这一三部曲的重要因素之一是阶级冲突和资源依赖的相互作用。本文提出了一个新的观点，认为最具破坏性的政策选择并非是富人为了保护自己免受大众冲击的结果，而是由精英之间的激烈争斗导致的。此外，有人认为委内瑞拉政治制度未能保持增长，因为它们不够包容，我们认为还是缺乏调解精英内部冲突的制度。
 
-    In a many-to-one matching market with substitutable preferences, we analyze the game induced by a stable rule. When both sides of the market play strategically, we show that any stable rule implements, in Nash equilibrium, the individually rational matchings. Also, when only workers play strategically and firms' preferences satisfy the law of aggregated demand, we show that any stable rule implements, in Nash equilibrium, the stable matchings.
+    Venezuela has suffered three economic catastrophes since independence: one each in the nineteenth, twentieth, and twenty-first centuries. Prominent explanations for this trilogy point to the interaction of class conflict and resource dependence. We turn attention to intra-class conflict, arguing that the most destructive policy choices stemmed not from the rich defending themselves against the masses but rather from pitched battles among elites. Others posit that Venezuelan political institutions failed to sustain growth because they were insufficiently inclusive; we suggest in addition that they inadequately mediated intra-elite conflict.
     
-[^5]: 货币政策与股票市场
+[^3]: 基于Vision Transformers的字符相似度量化
 
-    Monetary Policy & Stock Market. (arXiv:2305.13930v1 [econ.GN])
+    Quantifying Character Similarity with Vision Transformers. (arXiv:2305.14672v1 [cs.CL])
 
-    [http://arxiv.org/abs/2305.13930](http://arxiv.org/abs/2305.13930)
+    [http://arxiv.org/abs/2305.14672](http://arxiv.org/abs/2305.14672)
 
-    本文通过泰勒规则，研究了1990-2020年美国和英国的货币政策与股票市场之间的关系，以及货币政策与资产价格波动之间的联系，并比较了美国和英国的政策决策可用泰勒规则解释的程度。
-
-    
-
-    本文通过泰勒规则公式，评估了1990年至2020年美国和英国央行政策利率、通胀率和产出缺口之间的联系。同时，使用增强的泰勒规则分析了货币政策与资产价格波动之间的关系。本文检验了方程系数的稳定性以及在不同情形下的鲁棒性。结果发现美国和英国的政策决策都可用泰勒规则解释，同时文章也探讨了资产价格用于评估央行货币政策决策的效用。
-
-    This paper assesses the link between central bank's policy rate, inflation rate and output gap through Taylor rule equation in both United States and United Kingdom from 1990 to 2020. Also, it analyses the relationship between monetary policy and asset price volatility using an augmented Taylor rule. According to the literature, there has been a discussion about the utility of using asset prices to evaluate central bank monetary policy decisions. First, I derive the equation coefficients and examine the stability of the relationship over the shocking period. Test the model with actual data to see its robustness. I add asset price to the equation in the next step, and then test the relationship by Normality, Newey-West, and GMM estimator tests. Lastly, I conduct comparison between USA and UK results to find out which country's policy decisions can be explained better through Taylor rule.
-    
-[^6]: 面板数据的灵活贝叶斯分位数分析：以住宅租金率为例
-
-    Flexible Bayesian Quantile Analysis of Residential Rental Rates. (arXiv:2305.13687v1 [econ.EM])
-
-    [http://arxiv.org/abs/2305.13687](http://arxiv.org/abs/2305.13687)
-
-    本文提出了一种面板数据的随机效应分位数回归模型，使用了分布灵活性和时间不变协变量，并非常有效地运用了贝叶斯方法进行了模型比较，研究了全球金融危机后美国住宅租金率。
+    本研究使用ViT对OCR文档进行字符相似性度量，提供了一种可扩展的计算字符替换成本的方法，避免了使用常用字符串替换方法导致的数据偏差。
 
     
 
-    本文针对面板数据开发了一种随机效应分位数回归模型，允许在均值回归不适用的情况下增加分布灵活性、多元异质性和时间不变协变量。我们的方法是贝叶斯的，并建立在广义不对称拉普拉斯分布的基础上，将偏度建模与分位数参数分离。我们推导了一种高效的基于模拟的估计算法，在有针对性的模拟研究中展示它的性质和性能，并在计算边缘似然值方面使用它以实现正式的贝叶斯模型比较。该方法应用于研究全球金融危机后美国住宅租金率。我们的实证结果提供了有趣的关于租金与经济、人口和政策变量之间相互作用的见解，权衡了关键建模特征，并在几乎所有分位数上支持额外的灵活性。
+    记录链接是定量社会科学的基石，因为分析通常需要链接来自多个嘈杂的来源的数据。现成的字符串匹配方法被广泛使用，因为它们易于实现和扩展。然而，并非所有字符替换的概率都相等，在某些情况下，有一些常用的手工制作的列表，用来表示哪些字符串替换更有可能，从而提高字符串匹配的准确性。但是，对于许多情况，这样的清单并不存在，从而使得具有链接数据集的研究向少数高资源的背景倾斜，这些背景并不代表人类社会的多样性。本研究开发了一种可扩展的方法，通过使用经过增强的数字字体进行大规模自监督训练的Vision Transformers（ViT），来测量OCR文档的字符替换成本。对于每一种使用CJK脚本编写的语言，我们对相同字符的不同增强进行对比学习度量空间，从而量化字符的相似性。
 
-    This article develops a random effects quantile regression model for panel data that allows for increased distributional flexibility, multivariate heterogeneity, and time-invariant covariates in situations where mean regression may be unsuitable. Our approach is Bayesian and builds upon the generalized asymmetric Laplace distribution to decouple the modeling of skewness from the quantile parameter. We derive an efficient simulation-based estimation algorithm, demonstrate its properties and performance in targeted simulation studies, and employ it in the computation of marginal likelihoods to enable formal Bayesian model comparisons. The methodology is applied in a study of U.S. residential rental rates following the Global Financial Crisis. Our empirical results provide interesting insights on the interaction between rents and economic, demographic and policy variables, weigh in on key modeling features, and overwhelmingly support the additional flexibility at nearly all quantiles and 
+    Record linkage is a bedrock of quantitative social science, as analyses often require linking data from multiple, noisy sources. Off-the-shelf string matching methods are widely used, as they are straightforward and cheap to implement and scale. Not all character substitutions are equally probable, and for some settings there are widely used handcrafted lists denoting which string substitutions are more likely, that improve the accuracy of string matching. However, such lists do not exist for many settings, skewing research with linked datasets towards a few high-resource contexts that are not representative of the diversity of human societies. This study develops an extensible way to measure character substitution costs for OCR'ed documents, by employing large-scale self-supervised training of vision transformers (ViT) with augmented digital fonts. For each language written with the CJK script, we contrastively learn a metric space where different augmentations of the same character a
     
-[^7]: 疫情期间不确定疫苗接种时间的合理社交距离策略
+[^4]: 无囤积者的囤积：揭开学校内机会囤积的出现过程
 
-    Rational social distancing in epidemics with uncertain vaccination timing. (arXiv:2305.13618v1 [econ.TH])
+    Hoarding without hoarders: unpacking the emergence of opportunity hoarding within schools. (arXiv:2305.14653v1 [physics.soc-ph])
 
-    [http://arxiv.org/abs/2305.13618](http://arxiv.org/abs/2305.13618)
+    [http://arxiv.org/abs/2305.14653](http://arxiv.org/abs/2305.14653)
 
-    本文研究了疫情期间的社交距离策略，考虑到疫苗接种时间的不确定性，发现如果疫苗预期时间越早，且接种时间知道的越准确，人们遵守社交距离的动力越强。
-
-    
-
-    在疫情期间，人们会减少社交和经济活动以降低感染风险。这些社交距离策略将依赖于疫情进展的信息，同时也取决于人们预计疫情何时会结束，例如由于疫苗接种。通常情况下，由于可用信息不完全且不确定，很难做出最优决策。本文展示了最优决策如何依赖于对疫苗接种时间的了解，研究了一种微分博弈，并建立了个体决策和纳什均衡。本文表明，预计接种时间越早，且接种时间知道的越准确，人们遵守社交距离的动力越强。特别需要注意的是，在疫苗接种预计早于疫情结束之前，均衡社交距离仅会与无接种策略均衡有实质性偏差。
-
-    During epidemics people reduce their social and economic activity to lower their risk of infection. Such social distancing strategies will depend on information about the course of the epidemic but also on when they expect the epidemic to end, for instance due to vaccination. Typically it is difficult to make optimal decisions, because the available information is incomplete and uncertain. Here, we show how optimal decision making depends on knowledge about vaccination timing in a differential game in which individual decision making gives rise to Nash equilibria, and the arrival of the vaccine is described by a probability distribution. We show that the earlier the vaccination is expected to happen and the more precisely the timing of the vaccination is known, the stronger is the incentive to socially distance. In particular, equilibrium social distancing only meaningfully deviates from the no-vaccination equilibrium course if the vaccine is expected to arrive before the epidemic woul
-    
-[^8]: 在同质化商品市场中解决Bresnahan（1982）和Perloff和Shen（2012）之间关于行为参数估计的冲突
-
-    Resolving the Conflict on Conduct Parameter Estimation in Homogeneous Goods Markets between Bresnahan (1982) and Perloff and Shen (2012). (arXiv:2301.06665v4 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2301.06665](http://arxiv.org/abs/2301.06665)
-
-    本文解决了同质化商品市场中Bresnahan（1982）和Perloff和Shen（2012）之间的关于行为参数估计的冲突，通过在供应估计中适当增加需求转移和增加样本量，提高了估计的精确性。
+    本文提供了关于学校内机会囤积出现必要和充分条件的研究，模拟表明囤积即使在白人不扮演囤积者资源角色的情况下也会出现，其背后是结构性的不平等条件。这强调了在分析教育机会垄断时考虑结构性不平等的重要性。
 
     
 
-    我们重新审视了同质化商品市场中的行为参数估计，以解决Bresnahan（1982）和Perloff和Shen（2012）在行为参数估计的识别和精确性方面存在的冲突。我们指出Perloff和Shen（2012）的证明是不正确的，其模拟设置也不合法。我们的模拟结果表明，在适当增加需求转移和增加样本量的情况下，估计变得精确。因此，我们支持Bresnahan（1982）的结论。
+    教育社会学家越来越强调机会垄断在黑白教育不平等形成中的作用。受此文献的启发，本文拆分了必要和充分的条件，以便在学校内产生教育资源囤积。它开发了一个信息量丰富的基于代理的模型，捕捉黑人和白人学生竞争有价值的学校资源：高级课程。与传统解释囤积是白人将有价值的资源保留在白人社群内的观点相反，模拟显示出即使白人不扮演囤积者资源的角色，囤积也会出现。这个结果背后的原因是结构性的不平等（即社会阶级的种族差异） - 而不是行动驱动的囤积 - 是囤积产生的必要条件。因此，研究结果说明了关于囤积的普遍行动驱动定义和解释可能是不充分的。此外，该模型强调了在分析教育机会垄断时考虑结构性不平等的重要性。
 
-    We revisit conduct parameter estimation in homogeneous goods markets to resolve the conflict between Bresnahan (1982) and Perloff and Shen (2012) regarding the identification and the accuracy of conduct parameter estimation. We point out that the proof of Perloff and Shen (2012) is incorrect and its simulation setting is not valid. Our simulation shows that the estimation becomes accurate when properly adding demand shifters in the supply estimation and increasing the sample size. Therefore, we support Bresnahan (1982).
+    Sociologists of education increasingly highlight the role of opportunity hoarding in the formation of Black-White educational inequalities. Informed by this literature, this article unpacks the necessary and sufficient conditions under which the hoarding of educational resources emerges within schools. It develops a qualitatively informed agent-based model which captures Black and White students' competition for a valuable school resource: advanced coursework. In contrast to traditional accounts -- which explain the emergence of hoarding through the actions of Whites that keep valuable resources within White communities -- simulations, perhaps surprisingly, show hoarding to arise even when Whites do not play the role of hoarders of resources. Behind this result is the fact that a structural inequality (i.e., racial differences in social class) -- and not action-driven hoarding -- is the necessary condition for hoarding to emerge. Findings, therefore, illustrate that common action-drive
     
-[^9]: 外部有效的策略选择
+[^5]: 估计制裁影响的因果效应: 国家层面研究的作用是什么?
 
-    Externally Valid Policy Choice. (arXiv:2205.05561v2 [econ.EM] UPDATED)
+    Estimating causal effects of sanctions impacts: what role for country-level studies?. (arXiv:2305.14605v1 [econ.GN])
 
-    [http://arxiv.org/abs/2205.05561](http://arxiv.org/abs/2205.05561)
+    [http://arxiv.org/abs/2305.14605](http://arxiv.org/abs/2305.14605)
 
-    本文研究了外部有效的个性化治疗策略的学习问题。研究表明，最大化福利的治疗策略对于实验和目标人群之间的结果分布变化具有鲁棒性。通过开发新的方法，作者提出了对结果和特征变化具有鲁棒性的策略学习方法，并强调实验人群内的治疗效果异质性对策略普适性的影响。
-
-    
-
-    我们考虑学习个性化治疗策略的问题，这些策略是外部有效或广义化的：它们在除了实验（或训练）人群外的其他目标人群中表现良好。我们首先证明，对于实验人群而言，最大化福利的策略对于实验和目标人群之间的结果（但不是特征）分布变化具有鲁棒性。然后，我们开发了新的方法来学习对结果和特征变化具有鲁棒性的策略。在这样做时，我们强调了实验人群内的治疗效果异质性如何影响策略的普适性。我们的方法可以使用实验或观察数据（其中治疗是内生的）。我们的许多方法可以使用线性规划实现。
-
-    We consider the problem of learning personalized treatment policies that are externally valid or generalizable: they perform well in other target populations besides the experimental (or training) population from which data are sampled. We first show that welfare-maximizing policies for the experimental population are robust to shifts in the distribution of outcomes (but not characteristics) between the experimental and target populations. We then develop new methods for learning policies that are robust to shifts in outcomes and characteristics. In doing so, we highlight how treatment effect heterogeneity within the experimental population affects the generalizability of policies. Our methods may be used with experimental or observational data (where treatment is endogenous). Many of our methods can be implemented with linear programming.
-    
-[^10]: 北极海冰何时消失？面积、范围、厚度和体积的预测。
-
-    When Will Arctic Sea Ice Disappear? Projections of Area, Extent, Thickness, and Volume. (arXiv:2203.04040v3 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2203.04040](http://arxiv.org/abs/2203.04040)
-
-    研究预测2030s中期时北极海冰以80%的概率将完全消失，低碳路径或延迟数年。
+    国家层面的案例研究可以作为跨国数据的补充来评估经济制裁的影响，但需要注意可能存在的实证陷阱。因此，最好将其视为跨国研究的补充，而不是替代。
 
     
 
-    快速减少的北极夏季海冰是全球气候变化速度的强烈信号。我们提供了四个北极海冰衡量指标的点、区间和密度预测：面积、范围、厚度和体积。重要的是，我们强制实施这些指标同时到达无冰北极的联合约束。我们将这个约束联合预测程序应用于将海冰与大气二氧化碳浓度相关的模型和将海冰与时间直接相关的模型。由此得出的“碳趋势”和“时间趋势”预测相互一致，并且预测到在2030年代中期，北极将以80%的概率成为一个几乎无冰的夏季海洋。此外，“碳趋势”预测显示，全球采用更低碳路径可能仅会延迟一个季节性无冰的北极到来数年。
+    本文回顾了近期在跨国和国家层面研究中解决实证鉴别问题的最新进展及其对经济制裁效果和后果鉴别的影响。作者认为，在评估跨国数据的因果关系方面存在困难的情况下，国家层面的案例研究可以作为跨国回归研究的有用和信息性补充。但作者也警告，案例研究存在一系列潜在的实证陷阱，可能让因果机制的识别变得模糊，而不是更加清晰明了。因此，阅读案例研究证据的最明智的方法是将其视为跨国研究的补充，而非替代。
 
-    Rapidly diminishing Arctic summer sea ice is a strong signal of the pace of global climate change. We provide point, interval, and density forecasts for four measures of Arctic sea ice: area, extent, thickness, and volume. Importantly, we enforce the joint constraint that these measures must simultaneously arrive at an ice-free Arctic. We apply this constrained joint forecast procedure to models relating sea ice to atmospheric carbon dioxide concentration and models relating sea ice directly to time. The resulting "carbon-trend" and "time-trend" projections are mutually consistent and predict a nearly ice-free summer Arctic Ocean by the mid-2030s with an 80% probability. Moreover, the carbon-trend projections show that global adoption of a lower carbon path would likely delay the arrival of a seasonally ice-free Arctic by only a few years.
+    This article reviews recent advances in addressing empirical identification issues in cross-country and country-level studies and their implications for the identification of the effectiveness and consequences of economic sanctions. I argue that, given the difficulties in assessing causal relationships in cross-national data, country-level case studies can serve as a useful and informative complement to cross-national regression studies. However, I also warn that case studies pose a set of additional potential empirical pitfalls which can obfuscate rather than clarify the identification of causal mechanisms at work. Therefore, the most sensible way to read case study evidence is as a complement rather than as a substitute to cross-national research.
     
-[^11]: 《企业控制权的起源》
+[^6]: 论充分准备金银行的不稳定性
 
-    The Origin of Corporate Control Power. (arXiv:2106.01681v10 [econ.TH] UPDATED)
+    On the Instability of Fractional Reserve Banking. (arXiv:2305.14503v1 [econ.TH])
 
-    [http://arxiv.org/abs/2106.01681](http://arxiv.org/abs/2106.01681)
+    [http://arxiv.org/abs/2305.14503](http://arxiv.org/abs/2305.14503)
 
-    本文研究了企业股东控制权的产生机制，发现最高1号股东拥有最优控制权的概率按斐波那契数列的模式随时间演变，在12小时的时间周期内浮动在1/2至2/3之间，相关数据支持了预测。
+    本研究构建了一个动态货币模型来研究充分准备金银行体系的不稳定性，发现当准备金要求较低时，平衡更容易表现出内生的周期性、混沌性和随机动态，这可能是经济波动的另一个来源。
 
     
 
-    企业股东的控制权是如何产生的？基于经济学的基本原理，我们发现最高1号股东拥有最优控制权的概率是以斐波那契数列模式演变的，并在每12小时的时间周期内浮动在1/2至2/3之间。这一新颖特点表明了企业股东权利和权力分配的效率。中国股市的数据支持了这一预测。
+    本文构建了一个动态货币模型来研究充分准备金银行体系的（不）稳定性。模型表明，充分准备金银行体系在较低的准备金要求下，平衡更容易表现出内生的周期性、混沌性和随机动态，尽管它能够增加稳态消费。将内生无抵押信贷引入基线模型并不改变主要结果。本文还提供了与模型预测一致的实证证据。校准的练习表明，这种渠道可能是经济波动的另一个来源。
 
-    How does the control power of corporate shareholder arise? On the fundamental principles of economics, we discover that the probability of top1 shareholder possessing optimal control power evolves in Fibonacci series pattern and emerges as the wave between 1/2 and 2/3 along with time in period of 12h (h is the time distance between the state and state of the evolution). This novel feature suggests the efficiency of the allocation of corporate shareholders' right and power. Data on the Chinese stock market support this prediction.
+    This paper develops a dynamic monetary model to study the (in)stability of the fractional reserve banking system. The model shows that the fractional reserve banking system can endanger stability in that equilibrium is more prone to exhibit endogenous cyclic, chaotic, and stochastic dynamics under lower reserve requirements, although it can increase consumption in the steady-state. Introducing endogenous unsecured credit to the baseline model does not change the main results. This paper also provides empirical evidence that is consistent with the prediction of the model. The calibrated exercise suggests that this channel could be another source of economic fluctuations.
+    
+[^7]: 可再现性和透明度与隐私和机密性的平衡：一位数据编辑的思考。
+
+    Reproducibility and Transparency versus Privacy and Confidentiality: Reflections from a Data Editor. (arXiv:2305.14478v1 [econ.GN])
+
+    [http://arxiv.org/abs/2305.14478](http://arxiv.org/abs/2305.14478)
+
+    可再现性与透明度不一定会受到隐私和机密性的阻碍，因为许多保密数据是开放的。
+
+    
+
+    往往认为透明度和可再现性与隐私和机密性相反。需要保密的数据被认为是可再现性的障碍，而隐私则似乎会抑制透明度。我提出了一个更富有细微差别的观点，并使用超过1,000项可再现性评估的例子，展示了机密数据可以很好地用于可再现和透明的研究。关键见解是，虽然无聊，但许多保密数据是开放给数百甚至数千名研究人员的。在未来少数研究人员可以考虑访问这些数据的情况下，可再现性服务，例如一些期刊提供的服务，可以为有效的可再现性提供证据，即使同样的数据未来可能无法再使用。
+
+    Transparency and reproducibility are often seen in opposition to privacy and confidentiality. Data that need to be kept confidential are seen as an impediment to reproducibility, and privacy would seem to inhibit transparency. I bring a more nuanced view to the discussion, and show, using examples from over 1,000 reproducibility assessments, that confidential data can very well be used in reproducible and transparent research. The key insight is that access to most confidential data, while tedious, is open to hundreds if not thousands of researchers. In cases where few researchers can consider accessing such data in the future, reproducibility services, such as those provided by some journals, can provide some evidence for effective reproducibility even when the same data may not be available for future research.
+    
+[^8]: 基于道路行驶时间的金融衍生品的做市和定价
+
+    Market Making and Pricing of Financial Derivatives based on Road Travel Times. (arXiv:2305.02523v1 [stat.AP])
+
+    [http://arxiv.org/abs/2305.02523](http://arxiv.org/abs/2305.02523)
+
+    本文提出了一种基于道路行驶时间的金融衍生品，可以作为一种创新的对冲工具，在交通领域和金融市场中都有潜在的市场和需求。
+
+    
+
+    本文提出了交通时间衍生品，这是一种基于道路行驶时间的非交易基础资产的金融衍生品。在交通领域，交通时间衍生品被提出作为一种更加基本的定价方法，因为它不仅考虑了交通状况的水平，而且考虑了其波动性。在金融市场中，交通时间衍生品被提出作为一种创新的对冲工具，可以对冲市场风险，特别是在加密市场和传统银行业经历了最近的压力后。本文涉及到了（a）引入此类衍生品的动机（即对对冲的要求），（b）潜在的市场，以及（c）产品设计和定价方案。定价方案是基于实时传感器捕获的行驶时间数据设计的，这些数据被建模为奥恩斯坦-乌伦贝克（Ornstein-Uhlenbeck）过程，更普遍地，是连续时间自回归移动平均（CARMA）模型。这种模型的校准是通过隐藏因子模型进行的，该模型描述了交通时间动态。
+
+    Travel time derivatives are introduced as financial derivatives based on road travel times - a non-tradable underlying asset. In the transportation area, it is proposed as a more fundamental approach to value pricing because it conduct road pricing based on not only level but also volatility of travel time; in the financial market, it is propose as an innovative hedging instrument against market risk, especially after the recent stress of crypto market and traditional banking sector. The paper addresses (a) the motivation for introducing such derivatives (that is, the demand for hedging), (b) the potential market, and (c) the product design and pricing schemes. Pricing schemes are designed based on the travel time data captured by real time sensors, which are modeled as Ornstein - Uhlenbeck processes and more generally, continuous time auto regression moving average (CARMA) models. The calibration of such model is conducted via a hidden factor model, which described the dynamics of tra
+    
+[^9]: 基于投票结果的去中心化承诺对民主决策的影响研究
+
+    Democratic Policy Decisions with Decentralized Promises Contingent on Vote Outcome. (arXiv:2304.08008v1 [econ.GN])
+
+    [http://arxiv.org/abs/2304.08008](http://arxiv.org/abs/2304.08008)
+
+    本文研究了去中心化承诺对民主决策的影响。在投票前，委员会成员可以进行可执行的承诺。可能需要跨越阵营进行承诺，以实现改革的实施，同时需要排除最不热衷于改革的支持者被诱导推翻决定。
+
+    
+
+    本文探讨了去中心化的效用转移承诺如何影响投票方式的集体决策。在投票前，支持和反对高效改革的委员会成员可以进行可执行的承诺。一个均衡需要稳定性和最小化的承诺。平衡承诺是存在且不确定的，但具有许多共同的特征。需要高强度成员向低强度成员提供转移承诺，并导致改革的实施。当改革支持者缺乏足够的投票权时，承诺必须跨越阵营。即使改革支持者的联盟是决定性的，承诺也必须排除最不热衷于改革的支持者被诱导推翻决定。在这种情况下，平衡的承诺不需要跨越阵营。我们还讨论了一系列有限的承诺，实现达到一个平衡的状态。
+
+    We study how decentralized utility transfer promises affect collective decision-making by voting. Committee members with varying levels of support and opposition for an efficient reform can make enforceable promises before voting. An equilibrium requires stability and minimal promises. Equilibrium promises exist and are indeterminate, but do share several key characteristics. Equilibria require transfer promises from high to low intensity members and result in enacting the reform. When reform supporters lack sufficient voting power, promises must reach across the aisle. Even if the coalition of reform supporters is decisive, promises must preclude the least enthusiastic supporters of the reform from being enticed to overturn the decision. In that case, equilibrium promises do not need to reach across the aisle. We also discuss a finite sequence of promises that achieve an equilibrium.
+    
+[^10]: 白人学生的存在与黑白人内校不平等的出现：两个基于互动的机制
+
+    The presence of White students and the emergence of Black-White within-school inequalities: two interaction-based mechanisms. (arXiv:2304.04849v1 [physics.soc-ph])
+
+    [http://arxiv.org/abs/2304.04849](http://arxiv.org/abs/2304.04849)
+
+    本文研究了不平等访问教育资源的实证模式和黑白人之间的进阶入学差距，发现白人学生的存在可以影响黑白人之间的进阶入学差距，并可能是这一宏观模式的另一个解释。
+
+    
+
+    本文探讨了教育社会学中一个众所周知的实证模式的机制解释，即黑白人在进阶课程等学校资源获取上的不平等在种族多样和以白人为主的学校中最为明显。通过一个经验性的校准和验证代理模型，本研究探讨了两种定性决策机制的动态，显示(1)我们有理由相信白人学生的存在对黑白人的进阶课程招生差异的出现有影响；(2)这种影响可能代表了有关宏观模式的另一个可能的解释。结果有助于目前有关内校不平等的学术研究，为政策战略提供指导，以提高黑人学生在种族交融的环境中的教育体验。
+
+    This article investigates mechanism-based explanations for a well-known empirical pattern in sociology of education, namely, that Black-White unequal access to school resources -- defined as advanced coursework -- is the highest in racially diverse and majority-White schools. Through an empirically calibrated and validated agent-based model, this study explores the dynamics of two qualitatively informed mechanisms, showing (1) that we have reason to believe that the presence of White students in school can influence the emergence of Black-White advanced enrollment disparities and (2) that such influence can represent another possible explanation for the macro-level pattern of interest. Results contribute to current scholarly accounts of within-school inequalities, shedding light into policy strategies to improve the educational experiences of Black students in racially integrated settings.
+    
+[^11]: 探索太阳辐射管理协议的稳定性
+
+    Exploring the stability of solar geoengineering agreements. (arXiv:2210.09145v3 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2210.09145](http://arxiv.org/abs/2210.09145)
+
+    本文探讨了国际合作太阳辐射管理的稳定性，发现稳定性与太阳辐射管理的风险程度相关，但不受国家偏好影响。
+
+    
+
+    本文引入了一个简单的模型，研究了国家间合作太阳辐射管理的行为。通过数值方法探索了该模型的结果。总体发现是，太阳辐射管理上的国家合作和协调受到激励。此外，太阳辐射管理协议的稳定性关键取决于太阳辐射管理的风险程度。如果太阳辐射管理被认为更为有风险，最稳定的太阳辐射管理协议的稳定性将会降低。然而，协议的稳定性与国家偏好完全无关。
+
+    A simple model is introduced to study the cooperative behavior of nations regarding solar geoengineering. The results of this model are explored through numerical methods. A general finding is that cooperation and coordination between nations on solar geoengineering is very much incentivized. Furthermore, the stability of solar geoengineering agreements between nations crucially depends on the perceived riskiness of solar geoengineering. If solar geoengineering is perceived as riskier, the stability of the most stable solar geoengineering agreements is reduced. However, the stability of agreements is completely independent of countries preferences.
+    
+[^12]: 双机器学习与自动混淆变量选择的警示故事
+
+    Double Machine Learning and Automated Confounder Selection -- A Cautionary Tale. (arXiv:2108.11294v4 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2108.11294](http://arxiv.org/abs/2108.11294)
+
+    本文探讨了双机器学习在高维设置中的自动变量选择工具，指出其在包括内生变量时条件独立性会受到破坏，并警示了以数据驱动方式选择控制变量的可行性问题。
+
+    
+
+    双机器学习已成为高维设置中自动变量选择的越来越流行的工具。虽然处理大量潜在协变量的能力可以使选择可观测变量的假设更加可信，但同时也存在日益增长的风险，即包括内生变量，这将导致条件独立性违反。本文证明DML对协变量空间中包含一些“坏控制”十分敏感。由此产生的偏差因理论因果模型的不同而异，这引发了有关以数据驱动方式选择控制变量的可行性的担忧。
+
+    Double machine learning (DML) has become an increasingly popular tool for automated variable selection in high-dimensional settings. Even though the ability to deal with a large number of potential covariates can render selection-on-observables assumptions more plausible, there is at the same time a growing risk that endogenous variables are included, which would lead to the violation of conditional independence. This paper demonstrates that DML is very sensitive to the inclusion of only a few "bad controls" in the covariate space. The resulting bias varies with the nature of the theoretical causal model, which raises concerns about the feasibility of selecting control variables in a data-driven way.
     
 

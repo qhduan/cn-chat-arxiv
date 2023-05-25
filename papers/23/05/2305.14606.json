@@ -1,0 +1,12 @@
+{
+    "title": "Taylor Learning. (arXiv:2305.14606v1 [stat.ML])",
+    "abstract": "Empirical risk minimization stands behind most optimization in supervised machine learning. Under this scheme, labeled data is used to approximate an expected cost (risk), and a learning algorithm updates model-defining parameters in search of an empirical risk minimizer, with the aim of thereby approximately minimizing expected cost. Parameter update is often done by some sort of gradient descent. In this paper, we introduce a learning algorithm to construct models for real analytic functions using neither gradient descent nor empirical risk minimization. Observing that such functions are defined by local information, we situate familiar Taylor approximation methods in the context of sampling data from a distribution, and prove a nonuniform learning result.",
+    "link": "http://arxiv.org/abs/2305.14606",
+    "context": "Title: Taylor Learning. (arXiv:2305.14606v1 [stat.ML])\nAbstract: Empirical risk minimization stands behind most optimization in supervised machine learning. Under this scheme, labeled data is used to approximate an expected cost (risk), and a learning algorithm updates model-defining parameters in search of an empirical risk minimizer, with the aim of thereby approximately minimizing expected cost. Parameter update is often done by some sort of gradient descent. In this paper, we introduce a learning algorithm to construct models for real analytic functions using neither gradient descent nor empirical risk minimization. Observing that such functions are defined by local information, we situate familiar Taylor approximation methods in the context of sampling data from a distribution, and prove a nonuniform learning result.",
+    "path": "papers/23/05/2305.14606.json",
+    "total_tokens": 773,
+    "translated_title": "Taylor学习",
+    "translated_abstract": "经验风险最小化是监督机器学习中大部分优化的基础。在这种情况下，使用标记数据来逼近期望成本（风险），学习算法通过搜寻经验风险最小化器更新模型定义参数的值，来近似地最小化期望成本。通常情况下，参数更新采用某种形式的梯度下降。本文提出了一种学习算法，用于构建实解析函数的模型，既不使用梯度下降也不使用经验风险最小化。我们观察到这类函数由局部信息定义，将熟悉的泰勒逼近方法置于从分布中抽样数据的背景中，并证明了一种非均匀学习结果。",
+    "tldr": "该论文介绍一种用于构建实解析函数模型的学习算法，它不依赖梯度下降或经验风险最小化，并且通过熟悉的泰勒逼近方法从局部信息中抽样数据，实现了一种非均匀学习结果。",
+    "en_tdlr": "This paper introduces a learning algorithm for constructing models for real analytic functions that does not rely on gradient descent or empirical risk minimization. By situating familiar Taylor approximation methods in the context of sampling data from a distribution, the algorithm achieves a non-uniform learning result."
+}

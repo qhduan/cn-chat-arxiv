@@ -1,0 +1,12 @@
+{
+    "title": "On the robust learning mixtures of linear regressions. (arXiv:2305.15317v1 [stat.ML])",
+    "abstract": "In this note, we consider the problem of robust learning mixtures of linear regressions. We connect mixtures of linear regressions and mixtures of Gaussians with a simple thresholding, so that a quasi-polynomial time algorithm can be obtained under some mild separation condition. This algorithm has significantly better robustness than the previous result.",
+    "link": "http://arxiv.org/abs/2305.15317",
+    "context": "Title: On the robust learning mixtures of linear regressions. (arXiv:2305.15317v1 [stat.ML])\nAbstract: In this note, we consider the problem of robust learning mixtures of linear regressions. We connect mixtures of linear regressions and mixtures of Gaussians with a simple thresholding, so that a quasi-polynomial time algorithm can be obtained under some mild separation condition. This algorithm has significantly better robustness than the previous result.",
+    "path": "papers/23/05/2305.15317.json",
+    "total_tokens": 547,
+    "translated_title": "关于线性回归混合模型的鲁棒学习",
+    "translated_abstract": "本文考虑了鲁棒学习线性回归混合模型的问题。我们将线性回归和高斯混合模型通过简单的阈值连接起来，因此在某些温和的分离条件下可以获得准多项式时间算法。与以前的结果相比，该算法具有更好的鲁棒性。",
+    "tldr": "本文提出了一种针对线性回归混合模型的鲁棒学习算法，相比以前的结果具有更好的鲁棒性。",
+    "en_tdlr": "This paper proposes a robust learning algorithm for mixtures of linear regressions, with significantly better robustness compared to previous results by connecting linear regressions and Gaussian mixtures through a simple thresholding."
+}

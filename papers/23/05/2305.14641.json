@@ -1,0 +1,11 @@
+{
+    "title": "Graphy Analysis Using a GPU-based Parallel Algorithm: Quantum Clustering. (arXiv:2305.14641v1 [cs.LG])",
+    "abstract": "The article introduces a new method for applying Quantum Clustering to graph structures. Quantum Clustering (QC) is a novel density-based unsupervised learning method that determines cluster centers by constructing a potential function. In this method, we use the Graph Gradient Descent algorithm to find the centers of clusters. GPU parallelization is utilized for computing potential values. We also conducted experiments on five widely used datasets and evaluated using four indicators. The results show superior performance of the method. Finally, we discuss the influence of $\\sigma$ on the experimental results.",
+    "link": "http://arxiv.org/abs/2305.14641",
+    "context": "Title: Graphy Analysis Using a GPU-based Parallel Algorithm: Quantum Clustering. (arXiv:2305.14641v1 [cs.LG])\nAbstract: The article introduces a new method for applying Quantum Clustering to graph structures. Quantum Clustering (QC) is a novel density-based unsupervised learning method that determines cluster centers by constructing a potential function. In this method, we use the Graph Gradient Descent algorithm to find the centers of clusters. GPU parallelization is utilized for computing potential values. We also conducted experiments on five widely used datasets and evaluated using four indicators. The results show superior performance of the method. Finally, we discuss the influence of $\\sigma$ on the experimental results.",
+    "path": "papers/23/05/2305.14641.json",
+    "total_tokens": 655,
+    "translated_title": "使用基于GPU的并行算法进行图分析：量子聚类",
+    "translated_abstract": "本文介绍了一种将量子聚类应用于图结构的新方法。量子聚类（QC）是一种新的基于密度的无监督学习方法，通过构建潜在函数来确定聚类中心。在该方法中，我们使用图梯度下降算法来找到聚类中心。GPU并行化用于计算潜在值。我们还对五个广泛使用的数据集进行了实验，并使用四个指标进行了评估。结果显示该方法具有优越的性能。最后，我们讨论了$\\sigma$对实验结果的影响。",
+    "tldr": "本文介绍了一种新方法将量子聚类应用于图结构中，使用基于GPU的并行算法来计算潜在值。实验结果表明该方法具有优越性能。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Double Machine Learning and Automated Confounder Selection -- A Cautionary Tale. (arXiv:2108.11294v4 [econ.EM] UPDATED)",
+    "abstract": "Double machine learning (DML) has become an increasingly popular tool for automated variable selection in high-dimensional settings. Even though the ability to deal with a large number of potential covariates can render selection-on-observables assumptions more plausible, there is at the same time a growing risk that endogenous variables are included, which would lead to the violation of conditional independence. This paper demonstrates that DML is very sensitive to the inclusion of only a few \"bad controls\" in the covariate space. The resulting bias varies with the nature of the theoretical causal model, which raises concerns about the feasibility of selecting control variables in a data-driven way.",
+    "link": "http://arxiv.org/abs/2108.11294",
+    "context": "Title: Double Machine Learning and Automated Confounder Selection -- A Cautionary Tale. (arXiv:2108.11294v4 [econ.EM] UPDATED)\nAbstract: Double machine learning (DML) has become an increasingly popular tool for automated variable selection in high-dimensional settings. Even though the ability to deal with a large number of potential covariates can render selection-on-observables assumptions more plausible, there is at the same time a growing risk that endogenous variables are included, which would lead to the violation of conditional independence. This paper demonstrates that DML is very sensitive to the inclusion of only a few \"bad controls\" in the covariate space. The resulting bias varies with the nature of the theoretical causal model, which raises concerns about the feasibility of selecting control variables in a data-driven way.",
+    "path": "papers/21/08/2108.11294.json",
+    "total_tokens": 740,
+    "translated_title": "双机器学习与自动混淆变量选择的警示故事",
+    "translated_abstract": "双机器学习已成为高维设置中自动变量选择的越来越流行的工具。虽然处理大量潜在协变量的能力可以使选择可观测变量的假设更加可信，但同时也存在日益增长的风险，即包括内生变量，这将导致条件独立性违反。本文证明DML对协变量空间中包含一些“坏控制”十分敏感。由此产生的偏差因理论因果模型的不同而异，这引发了有关以数据驱动方式选择控制变量的可行性的担忧。",
+    "tldr": "本文探讨了双机器学习在高维设置中的自动变量选择工具，指出其在包括内生变量时条件独立性会受到破坏，并警示了以数据驱动方式选择控制变量的可行性问题。",
+    "en_tdlr": "This paper discusses the automated variable selection tool of double machine learning in high-dimensional settings, pointing out that its inclusion of endogenous variables can lead to a violation of conditional independence and raises concerns about the feasibility of selecting control variables in a data-driven way."
+}

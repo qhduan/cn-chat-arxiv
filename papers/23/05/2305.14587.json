@@ -1,0 +1,12 @@
+{
+    "title": "Contextualized Topic Coherence Metrics. (arXiv:2305.14587v1 [cs.CL])",
+    "abstract": "The recent explosion in work on neural topic modeling has been criticized for optimizing automated topic evaluation metrics at the expense of actual meaningful topic identification. But human annotation remains expensive and time-consuming. We propose LLM-based methods inspired by standard human topic evaluations, in a family of metrics called Contextualized Topic Coherence (CTC). We evaluate both a fully automated version as well as a semi-automated CTC that allows human-centered evaluation of coherence while maintaining the efficiency of automated methods. We evaluate CTC relative to five other metrics on six topic models and find that it outperforms automated topic coherence methods, works well on short documents, and is not susceptible to meaningless but high-scoring topics.",
+    "link": "http://arxiv.org/abs/2305.14587",
+    "context": "Title: Contextualized Topic Coherence Metrics. (arXiv:2305.14587v1 [cs.CL])\nAbstract: The recent explosion in work on neural topic modeling has been criticized for optimizing automated topic evaluation metrics at the expense of actual meaningful topic identification. But human annotation remains expensive and time-consuming. We propose LLM-based methods inspired by standard human topic evaluations, in a family of metrics called Contextualized Topic Coherence (CTC). We evaluate both a fully automated version as well as a semi-automated CTC that allows human-centered evaluation of coherence while maintaining the efficiency of automated methods. We evaluate CTC relative to five other metrics on six topic models and find that it outperforms automated topic coherence methods, works well on short documents, and is not susceptible to meaningless but high-scoring topics.",
+    "path": "papers/23/05/2305.14587.json",
+    "total_tokens": 778,
+    "translated_title": "上下文化主题相干性评估指标",
+    "translated_abstract": "近年来，神经主题建模的大量研究被指责在优化自动化主题评估指标的同时牺牲了实质性的主题识别。但是，人工标注的成本高昂且耗时。本文提出了一种基于LLM的方法，受到人类主题评估的启发，提出了一种度量系列，称为上下文化主题相干性（CTC）。我们评估了一个全自动的版本以及一个半自动化的CTC，该版本针对人工中心的相干性评估，同时保持了自动化方法的效率。我们在六个主题模型上相对于五个其他指标评估CTC，并发现它优于自动主题一致性方法，在短文档上运作良好，并且不容易受到评分高但毫无意义的主题的影响。",
+    "tldr": "本研究提出了一种上下文化主题相干性评估指标（CTC），该指标不仅在短文档上运作良好，而且在相对于其他五个指标评估上具有更高的性能表现。",
+    "en_tdlr": "The paper proposes a contextualized topic coherence metric (CTC), which outperforms other metrics on evaluations and works well on short documents."
+}

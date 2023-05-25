@@ -1,0 +1,12 @@
+{
+    "title": "Deep Learning based Forecasting: a case study from the online fashion industry. (arXiv:2305.14406v1 [cs.LG])",
+    "abstract": "Demand forecasting in the online fashion industry is particularly amendable to global, data-driven forecasting models because of the industry's set of particular challenges. These include the volume of data, the irregularity, the high amount of turn-over in the catalog and the fixed inventory assumption. While standard deep learning forecasting approaches cater for many of these, the fixed inventory assumption requires a special treatment via controlling the relationship between price and demand closely. In this case study, we describe the data and our modelling approach for this forecasting problem in detail and present empirical results that highlight the effectiveness of our approach.",
+    "link": "http://arxiv.org/abs/2305.14406",
+    "context": "Title: Deep Learning based Forecasting: a case study from the online fashion industry. (arXiv:2305.14406v1 [cs.LG])\nAbstract: Demand forecasting in the online fashion industry is particularly amendable to global, data-driven forecasting models because of the industry's set of particular challenges. These include the volume of data, the irregularity, the high amount of turn-over in the catalog and the fixed inventory assumption. While standard deep learning forecasting approaches cater for many of these, the fixed inventory assumption requires a special treatment via controlling the relationship between price and demand closely. In this case study, we describe the data and our modelling approach for this forecasting problem in detail and present empirical results that highlight the effectiveness of our approach.",
+    "path": "papers/23/05/2305.14406.json",
+    "total_tokens": 746,
+    "translated_title": "基于深度学习的在线时尚行业销量预测：一项案例研究",
+    "translated_abstract": "在线时尚行业的销量预测由于其独特的挑战，特别适合采用全球数据驱动的预测模型。这些挑战包括数据量大、不规则性、产品目录高频率更迭以及固定库存假设。虽然标准的深度学习预测方法可以应对其中大部分问题，但固定库存假设需要通过密切控制价格与需求之间的关系进行特殊处理。在这项案例研究中，我们详细描述了这一预测问题的数据和建模方法，并介绍了我们方法的有效性的实证结果。",
+    "tldr": "本文介绍了一种在在线时尚行业中，通过基于深度学习的方法来预测销量的案例研究。研究表明，该方法可以有效地解决数据量大、不规则性、高频率更迭的产品目录和固定库存假设等挑战。",
+    "en_tdlr": "This paper presents a case study of using deep learning to forecast sales in the online fashion industry. The results demonstrate the effectiveness of this method in addressing challenges such as large data volume, irregularity, high frequency turnover of product catalog and fixed inventory assumption."
+}

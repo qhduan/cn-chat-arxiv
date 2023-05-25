@@ -1,0 +1,12 @@
+{
+    "title": "On the Instability of Fractional Reserve Banking. (arXiv:2305.14503v1 [econ.TH])",
+    "abstract": "This paper develops a dynamic monetary model to study the (in)stability of the fractional reserve banking system. The model shows that the fractional reserve banking system can endanger stability in that equilibrium is more prone to exhibit endogenous cyclic, chaotic, and stochastic dynamics under lower reserve requirements, although it can increase consumption in the steady-state. Introducing endogenous unsecured credit to the baseline model does not change the main results. This paper also provides empirical evidence that is consistent with the prediction of the model. The calibrated exercise suggests that this channel could be another source of economic fluctuations.",
+    "link": "http://arxiv.org/abs/2305.14503",
+    "context": "Title: On the Instability of Fractional Reserve Banking. (arXiv:2305.14503v1 [econ.TH])\nAbstract: This paper develops a dynamic monetary model to study the (in)stability of the fractional reserve banking system. The model shows that the fractional reserve banking system can endanger stability in that equilibrium is more prone to exhibit endogenous cyclic, chaotic, and stochastic dynamics under lower reserve requirements, although it can increase consumption in the steady-state. Introducing endogenous unsecured credit to the baseline model does not change the main results. This paper also provides empirical evidence that is consistent with the prediction of the model. The calibrated exercise suggests that this channel could be another source of economic fluctuations.",
+    "path": "papers/23/05/2305.14503.json",
+    "total_tokens": 736,
+    "translated_title": "论充分准备金银行的不稳定性",
+    "translated_abstract": "本文构建了一个动态货币模型来研究充分准备金银行体系的（不）稳定性。模型表明，充分准备金银行体系在较低的准备金要求下，平衡更容易表现出内生的周期性、混沌性和随机动态，尽管它能够增加稳态消费。将内生无抵押信贷引入基线模型并不改变主要结果。本文还提供了与模型预测一致的实证证据。校准的练习表明，这种渠道可能是经济波动的另一个来源。",
+    "tldr": "本研究构建了一个动态货币模型来研究充分准备金银行体系的不稳定性，发现当准备金要求较低时，平衡更容易表现出内生的周期性、混沌性和随机动态，这可能是经济波动的另一个来源。",
+    "en_tdlr": "This paper develops a dynamic monetary model and finds that the fractional reserve banking system can be (un)stable, with more likelihood of exhibiting endogenous cyclic, chaotic, and stochastic dynamics under lower reserve requirements, which could be another source of economic fluctuations."
+}

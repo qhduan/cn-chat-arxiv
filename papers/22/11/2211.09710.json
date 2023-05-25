@@ -1,0 +1,12 @@
+{
+    "title": "Style Classification of Rabbinic Literature for Detection of Lost Midrash Tanhuma Material. (arXiv:2211.09710v2 [cs.CL] UPDATED)",
+    "abstract": "Midrash collections are complex rabbinic works that consist of text in multiple languages, which evolved through long processes of unstable oral and written transmission. Determining the origin of a given passage in such a compilation is not always straightforward and is often a matter of dispute among scholars, yet it is essential for scholars' understanding of the passage and its relationship to other texts in the rabbinic corpus.  To help solve this problem, we propose a system for classification of rabbinic literature based on its style, leveraging recently released pretrained Transformer models for Hebrew. Additionally, we demonstrate how our method can be applied to uncover lost material from Midrash Tanhuma.",
+    "link": "http://arxiv.org/abs/2211.09710",
+    "context": "Title: Style Classification of Rabbinic Literature for Detection of Lost Midrash Tanhuma Material. (arXiv:2211.09710v2 [cs.CL] UPDATED)\nAbstract: Midrash collections are complex rabbinic works that consist of text in multiple languages, which evolved through long processes of unstable oral and written transmission. Determining the origin of a given passage in such a compilation is not always straightforward and is often a matter of dispute among scholars, yet it is essential for scholars' understanding of the passage and its relationship to other texts in the rabbinic corpus.  To help solve this problem, we propose a system for classification of rabbinic literature based on its style, leveraging recently released pretrained Transformer models for Hebrew. Additionally, we demonstrate how our method can be applied to uncover lost material from Midrash Tanhuma.",
+    "path": "papers/22/11/2211.09710.json",
+    "total_tokens": 706,
+    "translated_title": "翻译：利用风格分类来检测失落的《Midrash Tanhuma》材料",
+    "translated_abstract": "Midrash集合是复杂的拉比文献作品，由多种语言的文本组成，经过不稳定的口头和书面传递过程演变而来。确定这种合集中的一个给定段落的起源并不总是直观的，常常是学者之间的争议，然而对于学者们理解段落及其与拉比文集中其他文本的关系至关重要。为了解决这个问题，我们提出了一个基于风格的拉比文学分类系统，利用最近发布的针对希伯来语的预训练Transformer模型。此外，我们展示了如何利用我们的方法来发现失落的Midrash Tanhuma材料。",
+    "tldr": "本文提出了一种拉比文学的分类系统，可以通过其风格来检测Midrash Tanhuma中的失落材料。",
+    "en_tdlr": "This paper proposes a system of style classification for rabbinic literature to detect lost material from Midrash Tanhuma."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "CuRIAM: Corpus re Interpretation and Metalanguage in U.S. Supreme Court Opinions. (arXiv:2305.14719v1 [cs.CL])",
+    "abstract": "Most judicial decisions involve the interpretation of legal texts; as such, judicial opinion requires the use of language as a medium to comment on or draw attention to other language. Language used this way is called metalanguage. We develop an annotation schema for categorizing types of legal metalanguage and apply our schema to a set of U.S. Supreme Court opinions, yielding a corpus totaling 59k tokens. We remark on several patterns observed in the kinds of metalanguage used by the justices.",
+    "link": "http://arxiv.org/abs/2305.14719",
+    "context": "Title: CuRIAM: Corpus re Interpretation and Metalanguage in U.S. Supreme Court Opinions. (arXiv:2305.14719v1 [cs.CL])\nAbstract: Most judicial decisions involve the interpretation of legal texts; as such, judicial opinion requires the use of language as a medium to comment on or draw attention to other language. Language used this way is called metalanguage. We develop an annotation schema for categorizing types of legal metalanguage and apply our schema to a set of U.S. Supreme Court opinions, yielding a corpus totaling 59k tokens. We remark on several patterns observed in the kinds of metalanguage used by the justices.",
+    "path": "papers/23/05/2305.14719.json",
+    "total_tokens": 624,
+    "translated_title": "CuRIAM: 美国最高法院观点中的语料库再解释和元语言",
+    "translated_abstract": "大多数司法决定涉及对法律文件的解释；因此，司法观点要使用语言作为一种介质来评论或引起对其他语言的关注。这样使用的语言称为元语言。我们开发了一个注释模式来分类法律元语言的类型，并将我们的模式应用于一组美国最高法院的观点，得到了一个总共59k令牌的语料库。我们对法官使用的元语言类型观察到了几种模式。",
+    "tldr": "本研究探讨了美国最高法院观点中的语料库再解释和元语言，并发现了一些法官使用的元语言类型的模式。",
+    "en_tdlr": "This study explores the corpus re interpretation and metalanguage used in U.S. Supreme Court opinions, and identifies patterns in the types of metalanguage used by the justices."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "A Block-Coordinate Approach of Multi-level Optimization with an Application to Physics-Informed Neural Networks. (arXiv:2305.14477v1 [cs.LG])",
+    "abstract": "Multi-level methods are widely used for the solution of large-scale problems, because of their computational advantages and exploitation of the complementarity between the involved sub-problems. After a re-interpretation of multi-level methods from a block-coordinate point of view, we propose a multi-level algorithm for the solution of nonlinear optimization problems and analyze its evaluation complexity. We apply it to the solution of partial differential equations using physics-informed neural networks (PINNs) and show on a few test problems that the approach results in better solutions and significant computational savings",
+    "link": "http://arxiv.org/abs/2305.14477",
+    "context": "Title: A Block-Coordinate Approach of Multi-level Optimization with an Application to Physics-Informed Neural Networks. (arXiv:2305.14477v1 [cs.LG])\nAbstract: Multi-level methods are widely used for the solution of large-scale problems, because of their computational advantages and exploitation of the complementarity between the involved sub-problems. After a re-interpretation of multi-level methods from a block-coordinate point of view, we propose a multi-level algorithm for the solution of nonlinear optimization problems and analyze its evaluation complexity. We apply it to the solution of partial differential equations using physics-informed neural networks (PINNs) and show on a few test problems that the approach results in better solutions and significant computational savings",
+    "path": "papers/23/05/2305.14477.json",
+    "total_tokens": 701,
+    "translated_title": "块坐标多层次优化方法及其在基于物理嵌入神经网络中的应用",
+    "translated_abstract": "多层次方法广泛用于解决大规模问题，因为它们具有计算优势并利用了涉及子问题之间的互补性。在将多层次方法从块坐标的视角重新解释后，我们提出了一种用于解决非线性优化问题的多层次算法，并分析了其评估复杂度。我们将其应用于使用物理嵌入神经网络（PINNs）解决偏微分方程的问题，并在几个测试问题上展示了该方法的更好解决方案和显着的计算节省。",
+    "tldr": "该论文提出了一种基于块坐标多层次优化方法的解决非线性优化问题的算法，并将其应用于使用PINNs解决偏微分方程的问题，显示出更好的解决方案和更高的计算效率。",
+    "en_tdlr": "The paper proposes a multi-level algorithm for solving nonlinear optimization problems using a block-coordinate approach, and applies it to solving partial differential equations with physics-informed neural networks (PINNs), resulting in better solutions and significant computational savings."
+}

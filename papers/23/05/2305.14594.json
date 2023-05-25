@@ -1,0 +1,12 @@
+{
+    "title": "torchgfn: A PyTorch GFlowNet library. (arXiv:2305.14594v1 [cs.LG])",
+    "abstract": "The increasing popularity of generative flow networks (GFlowNets or GFNs) is accompanied with a proliferation of code sources. This hinders the implementation of new features, such as training losses, that can readily be compared to existing ones, on a set of common environments. In addition to slowing down research in the field of GFlowNets, different code bases use different conventions, that might be confusing for newcomers. `torchgfn` is a library built on top of PyTorch, that aims at addressing both problems. It provides user with a simple API for environments, and useful abstractions for samplers and losses. Multiple examples are provided, replicating published results. The code is available in https://github.com/saleml/torchgfn.",
+    "link": "http://arxiv.org/abs/2305.14594",
+    "context": "Title: torchgfn: A PyTorch GFlowNet library. (arXiv:2305.14594v1 [cs.LG])\nAbstract: The increasing popularity of generative flow networks (GFlowNets or GFNs) is accompanied with a proliferation of code sources. This hinders the implementation of new features, such as training losses, that can readily be compared to existing ones, on a set of common environments. In addition to slowing down research in the field of GFlowNets, different code bases use different conventions, that might be confusing for newcomers. `torchgfn` is a library built on top of PyTorch, that aims at addressing both problems. It provides user with a simple API for environments, and useful abstractions for samplers and losses. Multiple examples are provided, replicating published results. The code is available in https://github.com/saleml/torchgfn.",
+    "path": "papers/23/05/2305.14594.json",
+    "total_tokens": 754,
+    "translated_title": "torchgfn：一个PyTorch GFlowNet库",
+    "translated_abstract": "随着生成流网络（GFlowNets或GFNs）的日益流行，代码来源也变得越来越多。这会妨碍实现新功能（例如训练损失），这些功能可以轻松地与现有功能进行比较，并在一组常见环境中进行使用。除了减缓GFlowNets领域的研究外，不同的代码库还使用不同的约定，可能会让新手感到困惑。torchgfn是一个基于PyTorch构建的库，旨在解决这两个问题。它为用户提供了简单的API和有用的抽象，以实现采样器和损失函数。提供了多个示例，重现了已发表的结果。该代码可在https://github.com/saleml/torchgfn中获取。",
+    "tldr": "torchgfn是一个基于PyTorch构建的GFlowNet库，提供了简单的API和有用的抽象，解决了不同代码库的约定问题，并且重现了已发表的结果。",
+    "en_tdlr": "torchgfn is a PyTorch-based GFlowNet library that provides a simple API and useful abstractions, addresses the convention problem of different code bases, and replicates published results."
+}

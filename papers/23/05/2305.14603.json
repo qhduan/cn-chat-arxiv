@@ -1,0 +1,12 @@
+{
+    "title": "OpenPI2.0: An Improved Dataset for Entity Tracking in Texts. (arXiv:2305.14603v1 [cs.CL])",
+    "abstract": "Representing texts as information about entities has long been deemed effective in event reasoning. We propose OpenPI2.0, an improved dataset for tracking entity states in procedural texts. OpenPI2.0 features not only canonicalized entities that facilitate evaluation, but also salience annotations including both manual labels and automatic predictions. Regarding entity salience, we provide a survey on annotation subjectivity, modeling feasibility, and downstream applications in tasks such as question answering and classical planning.",
+    "link": "http://arxiv.org/abs/2305.14603",
+    "context": "Title: OpenPI2.0: An Improved Dataset for Entity Tracking in Texts. (arXiv:2305.14603v1 [cs.CL])\nAbstract: Representing texts as information about entities has long been deemed effective in event reasoning. We propose OpenPI2.0, an improved dataset for tracking entity states in procedural texts. OpenPI2.0 features not only canonicalized entities that facilitate evaluation, but also salience annotations including both manual labels and automatic predictions. Regarding entity salience, we provide a survey on annotation subjectivity, modeling feasibility, and downstream applications in tasks such as question answering and classical planning.",
+    "path": "papers/23/05/2305.14603.json",
+    "total_tokens": 628,
+    "translated_title": "OpenPI2.0: 一种用于实体追踪的改进数据集",
+    "translated_abstract": "将文本表示为实体信息一直被认为在事件推理中非常有效。我们提出了OpenPI2.0，这是一个用于追踪程序性文本中实体状态的改进数据集。OpenPI2.0不仅具有规范化实体以促进评估，还包括涵盖人工标签和自动预测的显著性注释。关于实体显著性，我们提供了有关注释主观性、建模可行性以及在问题回答和经典计划等任务中的下游应用的调查。",
+    "tldr": "OpenPI2.0是一个用于实体追踪的改进数据集，它包括规范化实体、显著性注释和下游应用调查等特点。",
+    "en_tdlr": "OpenPI2.0 is an improved dataset for entity tracking, which includes canonicalized entities, salience annotations, and downstream application survey."
+}
