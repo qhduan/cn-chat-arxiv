@@ -10,140 +10,141 @@
 | [^6] | [A New Era in Software Security: Towards Self-Healing Software via Large Language Models and Formal Verification.](http://arxiv.org/abs/2305.14752) | 本文介绍了一个结合大语言模型和形式验证的方法来自动验证和修复软件漏洞，并通过ESBMC-AI做出了概念验证。 |
 | [^7] | [DialogVCS: Robust Natural Language Understanding in Dialogue System Upgrade.](http://arxiv.org/abs/2305.14751) | 本论文提出了DialogVCS，建立了4个数据集用于测试鲁棒NLU模型的可靠性。在这些数据集中，新意图的出现可能会与现有意图在语义上存在关联，作者提出了基于多标签分类任务的方法来解决这个问题。 |
 | [^8] | [ECHo: Event Causality Inference via Human-centric Reasoning.](http://arxiv.org/abs/2305.14740) | ECHo是一个基于人类中心推理的事件因果推断数据集，并提出了一个与CoT范式对齐的统一框架来评估当前AI系统的推理能力。 |
-| [^9] | [Centering the Margins: Outlier-Based Identification of Harmed Populations in Toxicity Detection.](http://arxiv.org/abs/2305.14735) | 本文提出了一种基于异常值的方法，用于识别在毒性检测中受到伤害的人群，发现对于这些异常值，模型性能较差，他们面临的毒性更高。 |
-| [^10] | [AutoDepthNet: High Frame Rate Depth Map Reconstruction using Commodity Depth and RGB Cameras.](http://arxiv.org/abs/2305.14731) | AutoDepthNet能够利用混合摄像机设置中的深度相机和彩色相机进行深度图重建，在GPU上具有8ms的推断时间，能够实现每秒200帧的实时使用。 |
-| [^11] | [In-Context Demonstration Selection with Cross Entropy Difference.](http://arxiv.org/abs/2305.14726) | 本论文提出了一种基于交叉熵差异的方法，用于在大型语言模型中选择最佳的上下文演示来提高零-shot任务性能。 |
-| [^12] | [I Spy a Metaphor: Large Language Models and Diffusion Models Co-Create Visual Metaphors.](http://arxiv.org/abs/2305.14724) | 本论文提出一个新的任务——从语言隐喻生成视觉隐喻，并且基于大语言模型和扩散模型之间的协作，成功地实现了共创出具有视觉冲击力和语义含义的隐喻。 |
-| [^13] | [BLIP-Diffusion: Pre-trained Subject Representation for Controllable Text-to-Image Generation and Editing.](http://arxiv.org/abs/2305.14720) | BLIP-Diffusion是一种新的主体驱动图像生成模型，通过预训练的多模态编码器和主体表征学习任务实现了可控的文本到图像生成和编辑，并支持零样本生成和定制化微调。 |
-| [^14] | [Exploiting Correlations Between Contexts and Definitions with Multiple Definition Modeling.](http://arxiv.org/abs/2305.14717) | 本文提出了一种新的多重定义建模（MDM）任务，将目标词的所有上下文和定义汇集在一起，相比单个定义建模（SDM）有更好的表现，在预训练任务中可以提高SDM的性能，在零-shot情况下有可比性。 |
-| [^15] | [Streaming Object Detection on Fisheye Cameras for Automatic Parking.](http://arxiv.org/abs/2305.14713) | 这篇论文提出了一个实时检测框架，使用动态和静态流双流感知模块，能够预测未来并减轻时延问题，解决了以往鱼眼摄像头目标检测中时延差异带来的安全隐患问题。 |
-| [^16] | [Instructions as Backdoors: Backdoor Vulnerabilities of Instruction Tuning for Large Language Models.](http://arxiv.org/abs/2305.14710) | 使用指令调整方法在众包数据集上训练的大规模语言模型，存在后门漏洞，攻击者只需注入极少量的恶意指令便可永久控制模型行为，且难以被修复，需要更加健全的防御机制。 |
-| [^17] | [The student becomes the master: Matching GPT3 on Scientific Factual Error Correction.](http://arxiv.org/abs/2305.14707) | 本文提出了一种不需要验证者且不做领域假设的主张校正系统，能够显著提高科学事实错误校正任务的性能，并通过使用LLM的提示方法和主张感知的解码过程来提高校正质量。 |
-| [^18] | [PruMUX: Augmenting Data Multiplexing with Model Compression.](http://arxiv.org/abs/2305.14706) | PruMUX是一种结合了结构化剪枝和数据复用的方法，可在保持准确性的情况下提高BERT-base模型的吞吐量。Auto-PruMUX可以预测修剪和复用的高性能参数，从而提供了一个实用的自动化工具。 |
-| [^19] | [Modeling rapid language learning by distilling Bayesian priors into artificial neural networks.](http://arxiv.org/abs/2305.14701) | 本文介绍了一种将贝叶斯模型的归纳偏见注入神经网络中的方法，可以从有限的自然数据中进行学习，同时具有灵活性以推广到新的示例。 |
-| [^20] | [A Causal View of Entity Bias in (Large) Language Models.](http://arxiv.org/abs/2305.14695) | 研究提出了一种结构因果模型（SCM）并提供因果干预技术，以缓解大型语言模型中的实体偏见，从而减少偏见信息，同时保留相似实体的共同预测信息。 |
-| [^21] | [ExpertPrompting: Instructing Large Language Models to be Distinguished Experts.](http://arxiv.org/abs/2305.14688) | 本论文提出了“专家提示”技术，用于训练大型语言模型成为杰出的专家。该方法使用上下文学习自动生成每个指令的详细和定制的专家身份描述，并要求模型根据这些提示提供答案。基于这种技术，本文提出了一个新的开源聊天助手ExpertLLaMA，该助手在评估中表现出高质量的数据和96％的ChatGPT能力。 |
-| [^22] | [RSRM: Reinforcement Symbolic Regression Machine.](http://arxiv.org/abs/2305.14656) | RSRM是一种能够从有限数据中揭示复杂数学方程的模型，它包括Monte Carlo Tree Search代理、双Q学习块和强化学习回归器。 |
-| [^23] | [Barkour: Benchmarking Animal-level Agility with Quadruped Robots.](http://arxiv.org/abs/2305.14654) | 该论文提出了Barkour基准测试，用于量化四足机器人的敏捷性。该测试模仿犬只敏捷竞赛，包含各种障碍和基于时间的打分机制，鼓励研究人员开发能以可控和多用途的方式行动的控制器，以便在复杂环境中快速导航。 |
-| [^24] | [A Joint Time-frequency Domain Transformer for Multivariate Time Series Forecasting.](http://arxiv.org/abs/2305.14649) | 本文提出了一种称为JTFT的方法，可以在提取时间依赖性的同时有效地减小计算需求，适用于多元时间序列预测，并具有线性复杂度。同时，采用低秩注意层以有效捕获跨维度的依赖关系，并在六个真实世界数据集上展示了比现有方法更好的表现。 |
-| [^25] | [CMOT: Cross-modal Mixup via Optimal Transport for Speech Translation.](http://arxiv.org/abs/2305.14635) | CMOT是一种用于跨模态语音翻译的方法，通过最优传输找到语音和文本序列之间的对齐，并在标记级别上混合不同模态的序列，实现了在有限数据下更好的性能表现。 |
-| [^26] | [Abductive Commonsense Reasoning Exploiting Mutually Exclusive Explanations.](http://arxiv.org/abs/2305.14618) | 本论文提出一种基于互斥解释的诱导式常识推理方法，结果表明在各类诱导式推理数据集上优于或与预训练语言模型和其他知识增强方法相当。 |
-| [^27] | [COMET-M: Reasoning about Multiple Events in Complex Sentences.](http://arxiv.org/abs/2305.14617) | 提出了COMET-M，该模型可以推理复杂句子中多个事件之间的关系以及生成常识推断，并在35K个人类编写的推断上进行训练，相对于之前的COMET模型在生成多事件推断方面有显着的性能改进。 |
-| [^28] | [Selectively Answering Ambiguous Questions.](http://arxiv.org/abs/2305.14613) | 本研究调查了解决模糊问题的方法，通过定量测量模型输出中的重复性，找出了在含糊问题集中回答高精度子集问题的最可靠方法。这种基于采样的方法可以有效解决问题回答中的歧义，并提高语言模型的可靠性。 |
-| [^29] | [Voices of Her: Analyzing Gender Differences in the AI Publication World.](http://arxiv.org/abs/2305.14597) | 通过对AI学术界的78K研究人员的分析，研究发现女性第一作者的论文具有不同的语言风格，例如更长的文本、更多的正面情感词汇和更引人注目的标题；在AI论文的合著中存在很大的性别同质性。我们鼓励未来实现更多的性别平等和多样性。 |
-| [^30] | [RE$^2$: Region-Aware Relation Extraction from Visually Rich Documents.](http://arxiv.org/abs/2305.14590) | RE$^2$方法利用视觉丰富文档中实体块之间的区域级空间结构来提高它们的关系预测能力，表现出较好的性能。 |
-| [^31] | [Interpretation of Time-Series Deep Models: A Survey.](http://arxiv.org/abs/2305.14582) | 本文调查了解释时间序列深度模型的事后方法，并介绍了一种新颖的解释类别 - 内在可解释模型。此外，本文介绍了常见的解释评估指标，提出了时间序列可解释性问题的未来研究方向。 |
-| [^32] | [Evaluating OpenAI's Whisper ASR for Punctuation Prediction and Topic Modeling of life histories of the Museum of the Person.](http://arxiv.org/abs/2305.14580) | 本文首次对葡萄牙语中的Whisper ASR进行了标点符号预测方面的研究，并为标点符号预测在主题建模中的应用提供了有益的实验评估。 |
-| [^33] | [Negative Feedback Training: A Novel Concept to Improve Robustness of NVCiM DNN Accelerators.](http://arxiv.org/abs/2305.14561) | 本文介绍了一种新的训练方法，使用负反馈机制来增强DNN模型的鲁棒性，特别是在存在设备变异的情况下。 |
-| [^34] | [Unraveling ChatGPT: A Critical Analysis of AI-Generated Goal-Oriented Dialogues and Annotations.](http://arxiv.org/abs/2305.14556) | 本文基于ChatGPT模型，研究了AI生成面向目标的对话和注释的潜力，实验结果表明生成的对话和注释质量与人类生成的相当。 |
-| [^35] | [All Roads Lead to Rome? Exploring the Invariance of Transformers' Representations.](http://arxiv.org/abs/2305.14555) | 本文探究了Transformer模型表示空间的可靠性问题，提出了双射假设，并提出了一种基于可逆神经网络的模型BERT-INN，来更有效地学习双射，实验结果显示其优势。 |
-| [^36] | [Adversarial Machine Learning and Cybersecurity: Risks, Challenges, and Legal Implications.](http://arxiv.org/abs/2305.14553) | 本文讨论了人工智能系统漏洞与传统软件漏洞之间的关系，并提出了可能改善AI漏洞管理和缓解的潜在领域，以及对AI系统进行对抗攻击的法律问题。 |
-| [^37] | [Sequence Modeling is a Robust Contender for Offline Reinforcement Learning.](http://arxiv.org/abs/2305.14550) | 序列建模是离线强化学习中比Q-Learning和Imitation Learning更适合在稀疏奖励和低质量数据设置下的选择，在任务范围增加时，序列建模和模仿学习更可取。 |
-| [^38] | [Cascaded Beam Search: Plug-and-Play Terminology-Forcing For Neural Machine Translation.](http://arxiv.org/abs/2305.14538) | 本文提出了一种级联束搜索算法，用于神经机器翻译中的术语约束，可以即插即用，无需重新训练。该方法可将目标术语的概率增加，并使用基于网格束搜索的级联束设置，性能良好。 |
-| [^39] | [Disincentivizing Polarization in Social Networks.](http://arxiv.org/abs/2305.14537) | 该论文提出了一种避免过滤气泡、更公平地分担多样化负担的社交网络内容策划和个性化模型。 |
-| [^40] | [Detecting Propaganda Techniques in Code-Switched Social Media Text.](http://arxiv.org/abs/2305.14534) | 本文提出了一个新任务，即在混合语言的社交媒体文本中检测宣传技术。为了支持这一任务，作者创建了一个包含1030个文本的英语和罗马乌尔混合语言的语料库，并进行了一系列实验。 |
-| [^41] | [CongFu: Conditional Graph Fusion for Drug Synergy Prediction.](http://arxiv.org/abs/2305.14517) | CongFu是一种用于药物协同预测的新型条件图融合层，采用注意机制和瓶颈技术提取本地图上下文，并在全局上下文中有条件地融合图数据。其模块化架构使得可以更换图层模块，包括读出和图编码器，以适应不同的应用场景，并在12个基准数据集中的11个上取得了最先进的结果，证明了其能力。 |
-| [^42] | [RetICL: Sequential Retrieval of In-Context Examples with Reinforcement Learning.](http://arxiv.org/abs/2305.14502) | 本文提出了一种 RetICL 的方法来优化地选择用于上下文学习模型的示例。此方法利用强化学习框架将序列示例选择问题作为马尔科夫决策过程，并且优化选择为使任务表现最佳的组合。 |
-| [^43] | [Self-Polish: Enhance Reasoning in Large Language Models via Problem Refinement.](http://arxiv.org/abs/2305.14497) | Self-Polish是一种方法，通过促使模型逐步完善给定的问题以使其更易理解和可解决，以增强大型语言模型的推理能力。 |
-| [^44] | [BAND: Biomedical Alert News Dataset.](http://arxiv.org/abs/2305.14480) | 该论文介绍了生物医学警报新闻数据集（BAND），其包括了1,508个样本和30个与流行病学相关的问题，为自然语言处理领域提供了新的挑战，需要更好的内容伪装能力和重要信息推断能力。该数据集可以为疾病监测和流行病学分析提供有价值的洞察力。 |
-| [^45] | [Enhancing Generation through Summarization Duality and Explicit Outline Control.](http://arxiv.org/abs/2305.14459) | 本文提出了一个两阶段的摘要增强的大纲监督生成框架，能够更好地生成明确和合理的大纲，并引入了一个新颖的显式大纲控制方法以更有效地利用生成的大纲。 |
-| [^46] | [Having Beer after Prayer? Measuring Cultural Bias in Large Language Models.](http://arxiv.org/abs/2305.14456) | 这篇论文研究了大型语言模型在处理和生成阿拉伯文本时出现的文化偏向西方文化的现象，表明语言模型在人名、食品、服装、地点、文学、饮料、宗教和体育等八个文化方面存在偏见。这些发现引发对于当前语言模型文化相关性的担忧。 |
-| [^47] | [Kernel Interpolation with Sparse Grids.](http://arxiv.org/abs/2305.14451) | 本文提出利用稀疏网格优化结构化核插值方法（SKI），在保证插值准确性的同时，有效解决了输入点维度较高带来的计算困难，提出了相应的稀疏网格矩阵乘法算法以及高效插值方案。 |
-| [^48] | [Graph Meets LLM: A Novel Approach to Collaborative Filtering for Robust Conversational Understanding.](http://arxiv.org/abs/2305.14449) | 一种协同过滤新方法用于稳健对话理解，在历史用户-实体交互的基础上，利用多跳客户亲和力丰富每个用户的索引，并使用有限内存BFGS算法调整每个索引的权重，实验结果显示其明显优于最先进的个性化查询重写方法。 |
-| [^49] | [Image Manipulation via Multi-Hop Instructions -- A New Dataset and Weakly-Supervised Neuro-Symbolic Approach.](http://arxiv.org/abs/2305.14410) | 该论文提出了一个基于神经符号概念学习的图像操作系统NeuroSIM，它可以通过多跳指令在多物体场景中执行复杂的推理，只需要弱监督的数据集，并创建了一个新的数据集。该系统具有很高的竞争力或超过SOTA基线。 |
-| [^50] | [Deep Learning based Forecasting: a case study from the online fashion industry.](http://arxiv.org/abs/2305.14406) | 本文介绍了一种在在线时尚行业中，通过基于深度学习的方法来预测销量的案例研究。研究表明，该方法可以有效地解决数据量大、不规则性、高频率更迭的产品目录和固定库存假设等挑战。 |
-| [^51] | [NeuralMatrix: Moving Entire Neural Networks to General Matrix Multiplication for Efficient Inference.](http://arxiv.org/abs/2305.14405) | NeuralMatrix是一种框架，能够在单个通用矩阵乘法加速器上计算深度神经网络(DNNs)，并可在保持推理准确度的情况下实现高达113倍至19.44倍的性能提升。 |
-| [^52] | [Brain Structure-Function Fusing Representation Learning using Adversarial Decomposed-VAE for Analyzing MCI.](http://arxiv.org/abs/2305.14404) | 本文提出了一种新的脑结构-功能融合表示学习（BSFL）模型，从扩散张量成像（DTI）和静息态功能磁共振成像（fMRI）中有效地学习融合表示进行轻度认知障碍（MCI）分析，采用解耦-融合框架和知识感知变压器模块，具有更好的性能。 |
-| [^53] | [Layer-adaptive Structured Pruning Guided by Latency.](http://arxiv.org/abs/2305.14403) | 提出了一种全局重要性分数SP-LAMP的分层自适应结构裁剪方法，利用分组背包求解器在延迟约束下最大化SP-LAMP分数来指导网络裁剪，以获得更好的优化结果和推理速度。 |
-| [^54] | [Towards credible visual model interpretation with path attribution.](http://arxiv.org/abs/2305.14395) | 本研究通过研究发现，在深度视觉模型解释中使用路径归因策略时，可以通过特定条件避免反直觉结果。并提出一种方案帮助防止视觉模型解释无效化路径归因的公理属性，从而实现可靠的视觉模型解释。 |
-| [^55] | [Unsupervised Spiking Neural Network Model of Prefrontal Cortex to study Task Switching with Synaptic deficiency.](http://arxiv.org/abs/2305.14394) | 本文介绍了利用脉冲神经网络建立的前额叶皮层计算模型。通过持久活动和无监督学习规则，模拟了任务切换和损伤状态下神经元的响应。实验结果为研究神经元适应和学习提供了新的参考。 |
-| [^56] | [Breast Cancer Segmentation using Attention-based Convolutional Network and Explainable AI.](http://arxiv.org/abs/2305.14389) | 本研究提出了一种基于注意力机制的卷积神经网络，结合可解释人工智能和红外热像技术进行乳腺癌分割，提高了检测和分类的速度和精度，并在UNet结构中使用Grad-CAM分析了潜在偏差和弱点区域，比现有模型表现更优。 |
-| [^57] | [AlpacaFarm: A Simulation Framework for Methods that Learn from Human Feedback.](http://arxiv.org/abs/2305.14387) | 该论文提出了一种名为AlpacaFarm的低成本模拟器，该模拟器为从人类反馈中学习的研究和开发提供了一种解决方案，通过设计LLM提示来模拟人类反馈，提出自动评估并提供参考实现，克服了数据收集的高昂成本、缺乏可信的评估和缺乏参考方法实现的挑战。 |
-| [^58] | [Let GPT be a Math Tutor: Teaching Math Word Problem Solvers with Customized Exercise Generation.](http://arxiv.org/abs/2305.14386) | 本文提出了一种使用GPT-3生成定制化练习，教授数学应用题解决方法的新方法，该方法考虑学生模型的弱点并以教育科学原理为基础进行定制化的学习体验，并取得了比其他大型语言模型更好的表现。 |
-| [^59] | [Adversarial Nibbler: A Data-Centric Challenge for Improving the Safety of Text-to-Image Models.](http://arxiv.org/abs/2305.14384) | 本论文提出了一种数据挑战，旨在提高文本生成图像模型的安全性，以解决目前缺乏系统性和结构化的评估数据集的问题。该数据挑战旨在检查模型的不良行为，特别是对抗攻击。 |
-| [^60] | [A Rational Model of Dimension-reduced Human Categorization.](http://arxiv.org/abs/2305.14383) | 提出了一个基于层次化混合模型的分类模型，以及基于生成过程的低维潜在空间的分类解释，该模型学习类别表示和特征集合，适用于高维刺激下，支持零-shot学习，并验证了该模型。 |
-| [^61] | [Stock and market index prediction using Informer network.](http://arxiv.org/abs/2305.14382) | 本文介绍了一种新型的Informer网络，该网络在股票和市场指数预测中取得了最佳表现。 |
-| [^62] | [Connecting Multi-modal Contrastive Representations.](http://arxiv.org/abs/2305.14381) | 本文提出了一种无需配对数据学习MCR的方法，叫做C-MCR，并且在新空间中使用重叠模态B的数据来对齐两个MCR。通过这个方法，非重叠模态对（A，C）也可以使用连接。 |
-| [^63] | [Unsupervised Discovery of Continuous Skills on a Sphere.](http://arxiv.org/abs/2305.14377) | 本文提出了一种名为DISCS的方法，可以无限学习不同的连续技能，在MuJoCo Ant机器人控制环境中展示了其比其他方法更具多样性。 |
-| [^64] | [Learning to Rank the Importance of Nodes in Road Networks Based on Multi-Graph Fusion.](http://arxiv.org/abs/2305.14375) | 本文提出了一种新的基于图学习的节点排序方法（MGL2Rank），充分利用了道路网络的丰富特征，并且在实验中表现出比现有方法更高的精度和效率。 |
-| [^65] | [An Ensemble Semi-Supervised Adaptive Resonance Theory Model with Explanation Capability for Pattern Classification.](http://arxiv.org/abs/2305.14373) | 这篇论文提出了一种新的可以解释模型预测结果的集成半监督自适应共振理论模型（SSL-ART），其采用了非监督模糊ART网络和监督模糊ARTMAP结构实现对未标记样本和标记样本的学习和映射，并设计了一种一对多的映射方案减少冗余原型节点并最小化噪声样本的影响。 |
-| [^66] | [A Survey on the Role of Artificial Intelligence in the Prediction and Diagnosis of Schizophrenia.](http://arxiv.org/abs/2305.14370) | 通过深度学习技术分析脑电图（EEG）、功能性磁共振成像（fMRI）和弥散磁共振成像（dMRI）数据，成功预测超过80%的精神分裂症，可以潜在用于该疾病的诊断。 |
-| [^67] | [Information processing via human soft tissue.](http://arxiv.org/abs/2305.14366) | 本研究表明，人类的软组织可用于物理储备计算中的软体，在仿真非线性动态系统的计算任务中具有积极的影响。 |
-| [^68] | [Continually Learned Pavlovian Signalling Without Forgetting for Human-in-the-Loop Robotic Control.](http://arxiv.org/abs/2305.14365) | 本文研究了面向机器人控制的巴甫洛夫信号传递方法如何进行连续学习而不会忘记之前的预测结果，研究发现算法选择（如on-policy和off-policy方法以及表示选择）会影响传递的效果。 |
-| [^69] | [Towards personalised music-therapy; a neurocomputational modelling perspective.](http://arxiv.org/abs/2305.14364) | 音乐疗法是一种有效的治疗方法，可以提高患者的治疗效果，而且没有负面影响。这篇论文总结了当前音乐知觉和处理理论的概述及其应用在运动、情绪和心血管调节等领域中的证据，并着重强调了如何通过反馈机制个性化和自动化音乐选择过程来适应个体的需求和任务。 |
-| [^70] | [Zero-shot personalized lip-to-speech synthesis with face image based voice control.](http://arxiv.org/abs/2305.14359) | 这篇论文提出了一种利用面部图像进行语音合成的方法，可以在没有参考语音时实现零样本个性化，通过分离说话者身份和语言内容，使面部特征可以控制未知说话者特征，扩展了唇语转语音合成的应用场景。 |
-| [^71] | [DUBLIN -- Document Understanding By Language-Image Network.](http://arxiv.org/abs/2305.14218) | DUBLIN是一个针对视觉文档理解的模型，使用掩模文档内容生成任务、边界框任务和渲染问答任务进行预训练，利用文档图像中的空间和语义信息。该模型在多项基准测试中达到了竞争性或最先进的结果。 |
-| [^72] | [How Old is GPT?: The HumBEL Framework for Evaluating Language Models using Human Demographic Data.](http://arxiv.org/abs/2305.14195) | 本论文提出了一种使用人类人口数据对语言模型进行评估的框架，并发现GPT-3.5在不同任务中表现不同，在单词意义推断方面模拟了典型6-9岁儿童的能力，在记忆方面则表现优于典型21岁年轻人。 |
-| [^73] | [DetGPT: Detect What You Need via Reasoning.](http://arxiv.org/abs/2305.14167) | DetGPT 是一种基于推理的物体检测范例，能够根据用户的自然语言指令和视觉场景进行推理，从而寻找到用户想要的目标物体。 |
-| [^74] | [Revisiting Acceptability Judgements.](http://arxiv.org/abs/2305.14091) | 本文介绍了第一个大规模的非英语语言可接受性数据集CoLAC，发现语言模型性能低于人类的表现，但跨语言转移可行，并可以追溯到预训练阶段。 |
-| [^75] | [Flexible Grammar-Based Constrained Decoding for Language Models.](http://arxiv.org/abs/2305.13971) | 本文提出了一种使用形式语法约束丰富解码步骤的方法，有效生成符合特定语法的复杂输出结构，同时允许任何上下文无关语法集成。实验证明该方法在四个信息提取任务上实现了最先进的性能表现。 |
-| [^76] | [A Comparative Analysis of Techniques and Algorithms for Recognising Sign Language.](http://arxiv.org/abs/2305.13941) | 本研究比较了卷积神经网络、长短期记忆网络和混合模型等各种深度学习技术，用公共的中国手语识别数据集进行了测试。结果表明，一种融合了CNN和LSTM的混合模型表现最好。 |
-| [^77] | [Multimodal Automated Fact-Checking: A Survey.](http://arxiv.org/abs/2305.13507) | 本调查提出了一个多模态自动事实核查的框架，并包括了独特的子任务，重点关注了文本，图像，音频和视频这四种模态的现实应用。纪录了相关的基准模型，讨论了未来研究的局限性和前景。 |
-| [^78] | [Flover: A Temporal Fusion Framework for Efficient Autoregressive Model Parallel Inference.](http://arxiv.org/abs/2305.13484) | Flover是一种用于自回归模型并行推断的时间融合框架，解决了并行性不足和灵活性差的问题，可以实现更加高效的推断性能。 |
-| [^79] | [Measuring and Modeling Physical Intrinsic Motivation.](http://arxiv.org/abs/2305.13452) | 本文对身体内在动机进行了量化建模，发现对抗性奖励模型可以最好地预测人类对物理情境的趣味反应，还发现简单场景特征模型无法在所有情境中预测人类反应，将对抗模型和场景中碰撞数量进行线性组合，能够显著提高对人类反应的预测能力，表明人类追求高信息增益和身体活动的情况。 |
-| [^80] | [Adaptive Chameleon or Stubborn Sloth: Unraveling the Behavior of Large Language Models in Knowledge Clashes.](http://arxiv.org/abs/2305.13300) | 本文研究了大型语言模型（LLMs）在遭遇知识冲突时的行为。结果发现，LLMs可以高度接受外部连贯且有说服力的证据，即使与其参数化内存存在冲突，但也可能有局限性。 |
-| [^81] | [Federated Learning of Medical Concepts Embedding using BEHRT.](http://arxiv.org/abs/2305.13052) | 该论文提出了一种基于BEHRT的联邦学习方法来学习医疗概念嵌入，在不传输任何隐私数据的情况下，实现了多个医疗中心的EHR数据的共同学习。实验证明该方法在预测病人下一次诊断方面有效。 |
-| [^82] | [MultiTabQA: Generating Tabular Answers for Multi-Table Question Answering.](http://arxiv.org/abs/2305.12820) | 本文提出一项新任务，即回答多表问题。 我们的新模型MultiTabQA不仅可以回答多表问题，还可以泛化地生成表格答案，并在实验中表现出比现有基线更好的性能。 |
-| [^83] | [TheoremQA: A Theorem-driven Question Answering dataset.](http://arxiv.org/abs/2305.12524) | 该论文介绍了一个定理驱动的问题回答数据集TheoremQA，可用于评估AI模型在应用定理解决科学问题时的能力，经过测试，GPT-4在解决这些问题上的准确率远高于其他模型。 |
-| [^84] | [LLM Itself Can Read and Generate CXR Images.](http://arxiv.org/abs/2305.11490) | 该论文提出了一种新方法，可以在不需要进行结构更改、额外训练、或训练专门网络的情况下，通过微调预先训练的LLM来读取和生成像文本一样的图像，并应用于胸部X线（CXR）图像的生成任务中。 |
-| [^85] | [PastNet: Introducing Physical Inductive Biases for Spatio-temporal Video Prediction.](http://arxiv.org/abs/2305.11421) | 本文介绍了一种名为PastNet的新颖方法，通过在傅里叶域中引入谱卷积算子，利用内在的物理知识生成高质量的时空视频预测，并通过离散化局部特征降低计算成本。 |
-| [^86] | [Domain Generalization Deep Graph Transformation.](http://arxiv.org/abs/2305.11389) | 本文提出了一种面向领域泛化的深度图形转换方法，使用超网络进行多输入多输出的图神经网络预测，通过加入潜在变量来训练泛化模型，在多个基准数据集中取得了优异表现。 |
-| [^87] | [Instruct2Act: Mapping Multi-modality Instructions to Robotic Actions with Large Language Model.](http://arxiv.org/abs/2305.11176) | 本文提出了Instruct2Act，利用大型语言模型将多模态指令映射到机器人操作。通过使用基础模型的专业知识和机器人的能力，将复杂的高级指令转换为精确的策略代码，该方法可调整和灵活适应各种指令模态和输入类型，并满足特定的任务需求。 |
-| [^88] | [Evidence of Meaning in Language Models Trained on Programs.](http://arxiv.org/abs/2305.11169) | 该论文证明了，通过在程序语料库上训练语言模型，即使没有针对学习语言语义提供归纳偏差，语言模型仍然能够学习含义。线性探测器能够从模型状态中提取程序状态的抽象，准确性与模型泛化到新程序的能力显著相关。 |
-| [^89] | [Language Models Meet World Models: Embodied Experiences Enhance Language Models.](http://arxiv.org/abs/2305.10626) | 本文提出一种新的增强语言模型的方法——将其与世界模型相结合，通过有目的的规划和随机探索获得丰富的实体经验进行微调, 以提高其在物理环境下的推理和行为能力，并在语言基准上保持或提高性能。 |
-| [^90] | [Human Choice Prediction in Non-Cooperative Games: Simulation-based Off-Policy Evaluation.](http://arxiv.org/abs/2305.10361) | 本文研究了语言游戏中的离线策略评估，并提出了一种结合真实和模拟数据的新方法。 |
-| [^91] | [Parameter-Efficient Fine-Tuning for Medical Image Analysis: The Missed Opportunity.](http://arxiv.org/abs/2305.08252) | 该论文综合评估了基于参数的高效调整技术（PEFT）在医学图像分析任务中的可能应用。通过超过600个控制测试，我们证明了PEFT的相对性能，并强调了PEFT在医学图像分析中实现参数高效转移学习的巨大潜力。 |
-| [^92] | [When the Majority is Wrong: Leveraging Annotator Disagreement for Subjective Tasks.](http://arxiv.org/abs/2305.06626) | 本文通过预测单个标注者的打分，并结合文本目标群体的预测，模拟了目标群体成员的意见，通过使用他们的人口统计学数据和在线意见预测标注者的打分，在仇恨言论检测等主观任务中提高了模型性能。 |
-| [^93] | [TinyML Design Contest for Life-Threatening Ventricular Arrhythmia Detection.](http://arxiv.org/abs/2305.05105) | TDC'22是第一届面向ICDs低功耗微控制器的人工智能/机器学习（AI/ML）算法创新竞赛。本次竞赛的挑战是开发一种基于AI/ML的新型实时检测算法，对危及生命的室性心律失常进行检测。 |
-| [^94] | [Deep state-space modeling for explainable representation, analysis, and generation of professional human poses.](http://arxiv.org/abs/2304.14502) | 本文提出一种新方法，通过引入三种新方法来创建人类运动的可解释表示，以解决建模人体运动的科学挑战，并且该方法能准确预测人体运动并生成新的运动。 |
-| [^95] | [Why Does ChatGPT Fall Short in Answering Questions Faithfully?.](http://arxiv.org/abs/2304.10513) | 该论文分析了ChatGPT在问答系统中的失误，归纳并确定其失败的原因类型和关键能力，进一步提出了潜在方法来提高其准确性。 |
-| [^96] | [On Existential First Order Queries Inference on Knowledge Graphs.](http://arxiv.org/abs/2304.07063) | 本文阐述了关于知识图谱中存在性一阶查询推理的新方法，提出了一个新数据集，并开发了一种来自模糊逻辑理论的新搜索算法，该算法能够解决新公式，并在现有公式中超过以前的方法。 |
-| [^97] | [Video ChatCaptioner: Towards the Enriched Spatiotemporal Descriptions.](http://arxiv.org/abs/2304.04227) | Video ChatCaptioner是一种创新方法，利用ChatGPT和算法生成全面和丰富的时空视频描述。 |
-| [^98] | [Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data.](http://arxiv.org/abs/2304.01196) | 提出了一种流程，通过利用ChatGPT与自身对话，能够自动生成高质量的多轮聊天语料库，并采用参数高效调整来增强开源的大型语言模型LLaMA，得到的模型被命名为Baize，在最小化潜在风险的护栏下，在多轮对话中展现出良好的性能。 |
-| [^99] | [GPTEval: NLG Evaluation using GPT-4 with Better Human Alignment.](http://arxiv.org/abs/2303.16634) | 本文介绍了GPTEval，一个利用链式思考和形式填充评价NLG生成的质量。实验表明，在文本摘要任务中，GPTEval结合GPT-4取得了0.514的斯皮尔曼相关系数，胜过其他方法。 |
-| [^100] | [Adaptive Background Music for a Fighting Game: A Multi-Instrument Volume Modulation Approach.](http://arxiv.org/abs/2303.15734) | 本文介绍了一种自适应背景音乐的方法，它由五种不同的乐器演奏名为“空中小姐曲”的古典音乐组成，并通过改变乐器的音量来适应游戏的不同元素。实验结果表明，使用这种自适应背景音乐可以改善游戏的体验。 |
-| [^101] | [Knowledge Enhanced Graph Neural Networks.](http://arxiv.org/abs/2303.15487) | KeGNN是一个神经符号框架，可以结合先前的知识来优化图数据上的节点分类和链接预测任务。 |
-| [^102] | [Learning Reward Machines in Cooperative Multi-Agent Tasks.](http://arxiv.org/abs/2303.14061) | 本文提出了一种新的多智能体强化学习方法，将合作任务分解与学习奖励机制相结合。该方法有助于解决部分可观察环境中奖励的非马尔可夫性质，并提高了学习策略的可解释性，同时也降低了合作任务的复杂性。 |
-| [^103] | [Translate your gibberish: black-box adversarial attack on machine translation systems.](http://arxiv.org/abs/2303.10974) | 本文研究了机器翻译系统的黑盒对抗攻击方法，通过使用一种新颖的基于梯度自由张量的优化器，可以欺骗在线翻译工具产生错误的翻译，这影响了用户学习语言的体验。 |
-| [^104] | [Logic of Differentiable Logics: Towards a Uniform Semantics of DL.](http://arxiv.org/abs/2303.10650) | 该论文介绍了一个元语言——LDL，用于定义DL，该元语言从语法和语义两方面上提高DL的形式化程度，使得对DL的性质和实现进行系统比较研究成为了可能。 |
-| [^105] | [Commonsense Knowledge Assisted Deep Learning for Resource-constrained and Fine-grained Object Detection.](http://arxiv.org/abs/2303.09026) | 本文提出了一种通识知识辅助的细粒度目标检测方法，利用通识知识推理模块处理由基准深度学习检测器给出的粗粒度标签，从而提高目标检测的准确性。经过实验验证，该方法相比于现有方法需要更少的计算量和标注资源。 |
-| [^106] | [FairShap: A Data Re-weighting Approach for Algorithmic Fairness based on Shapley Values.](http://arxiv.org/abs/2303.01928) | FairShap是一种通过数据重估计算法决策公平性的预处理方法，使用Shapley值估值，能够提高模型的公平性和精确性，并且易于解释。 |
-| [^107] | [Weighted Sampling for Masked Language Modeling.](http://arxiv.org/abs/2302.14225) | 本文提出了两种有效的加权采样策略用于遮蔽语言建模，可以有效解决高频率词汇导致的偏差问题，提高了语言模型的性能和迁移学习能力。 |
-| [^108] | [Multi-Agent Reinforcement Learning with Common Policy for Antenna Tilt Optimization.](http://arxiv.org/abs/2302.12899) | 本文提出了一种通过对影响目标小区和周围小区性能的小区参数进行智能调节的方法，使用多个共享通用策略的强化学习智能体，并在离线学习阶段对智能体进行预训练，最终将网络引导到最佳配置。 |
-| [^109] | [Recent Advancements in Deep Learning Applications and Methods for Autonomous Navigation -- A Comprehensive Review.](http://arxiv.org/abs/2302.11089) | 本综述论文介绍了自主导航领域中最新的深度学习应用和方法，包括障碍检测、场景感知、路径规划和控制。突出了深度学习在工程数据科学中的快速发展，以及创新导航方法的开发和跨学科研究的重要性和挑战。 |
-| [^110] | [Mind the Gap! Bridging Explainable Artificial Intelligence and Human Understanding with Luhmann's Functional Theory of Communication.](http://arxiv.org/abs/2302.03460) | 本文提出了一个更对话式的解释模型，弥合可解释人工智能与人类理解之间的差距，以创建更有效和广泛应用的人工智能系统。 |
-| [^111] | [Rethinking Semi-Supervised Medical Image Segmentation: A Variance-Reduction Perspective.](http://arxiv.org/abs/2302.01735) | 本文提出了ARCO，一种半监督对比学习（CL）框架，其中包括医学图像分割中的分层组采样理论。通过方差缩减估计的概念来构建ARCO，并表明某些方差缩减技术在医学图像分割中特别有益。 |
-| [^112] | [Follower Agnostic Methods for Stackelberg Games.](http://arxiv.org/abs/2302.01421) | 该论文提出了一种追随者不可知的方法来解决斯塔克贝格博弈中的问题，与其他现有作品不同的是，该算法不需要使用预估器或了解追随者的策略、效用函数。作者设计了一个两层循环算法，通过特别设计的策略探测追随者来更新领导者的策略，发现追随者的联合策略收敛于均衡。非渐进收敛速度到领导者目标的局部稳定点，并进一步展示了对领导者目标的局部极小值的渐进收敛。 |
-| [^113] | [Learning Large-scale Neural Fields via Context Pruned Meta-Learning.](http://arxiv.org/abs/2302.00617) | 通过上下文修剪元学习实现大规模神经场训练的优化， 显著节省内存，并能在短时间内学习高质量神经场。 |
-| [^114] | [State of the Art and Potentialities of Graph-level Learning.](http://arxiv.org/abs/2301.05860) | 本文主要介绍了图嵌入学习，它将一组图作为输入，自动提取特征并将图编码为低维表示。深度学习的发展使得图嵌入学习适应了日益增长的图规模，从而获得了很多成功，但是传统学习方法通常会受到计算瓶颈的影响。 |
-| [^115] | [Towards multi-document summarization in the open-domain.](http://arxiv.org/abs/2212.10526) | 本论文针对"开放领域"的多文档摘要任务进行研究，发现最先进的摘要器在此情境下性能下降严重，但进行额外的开放领域的训练可以降低对不完美检索的敏感性。 |
-| [^116] | [DePlot: One-shot visual language reasoning by plot-to-table translation.](http://arxiv.org/abs/2212.10505) | 本论文提出了一种名为DePlot的方法，它是一个模态转换模块，能够将图表的图像转换为线性化的表格。利用这个模块和预训练的大型语言模型的少量推理能力，我们开发了一种新的一次性视觉语言推理方法。 |
-| [^117] | [MatCha: Enhancing Visual Language Pretraining with Math Reasoning and Chart Derendering.](http://arxiv.org/abs/2212.09662) | 本文提出了一种新的预训练方法 MatCha ，提高了视觉语言模型在图表和语言数据联合建模方面的能力，取得了近20%的性能提升。 |
-| [^118] | [Large Language Models are reasoners with Self-Verification.](http://arxiv.org/abs/2212.09561) | 本文提出了一种新的自我验证方法，使用CoT的结论来构建新样本并要求LLM重新预测原始条件，以提高推理准确性。实验证明，LLMs可以对其自己的结论进行自我验证并实现竞争性的推理性能。 |
-| [^119] | [A fine-grained comparison of pragmatic language understanding in humans and language models.](http://arxiv.org/abs/2212.06801) | 本文对于人类和语言模型在实用语言理解方面进行了实验比较，研究发现较大的语言模型在实现字面解释方面表现较好，但在依赖社交方面的现象方面仍存在困难。 |
-| [^120] | [The Impact of Socioeconomic Factors on Health Disparities.](http://arxiv.org/abs/2212.04285) | 美国的高质量医疗保健对于某些社会经济群体来说成本过高，因此社会经济因素如收入和教育程度与健康的总体指标有很高的相关性。 |
-| [^121] | [Towards human-compatible autonomous car: A study of non-verbal Turing test in automated driving with affective transition modelling.](http://arxiv.org/abs/2212.02908) | 本文研究了自动驾驶汽车的人性化问题，通过非语言图灵测试，发现当前AI驾驶员不能创造类似人类的驾乘体验，需要在情感过渡模型中进行改进。 |
-| [^122] | [SciRepEval: A Multi-Format Benchmark for Scientific Document Representations.](http://arxiv.org/abs/2211.13308) | SciRepEval是第一个综合评估科学文献表示的全面基准，其中包括四种格式的 25 个任务。通过使用格式特定的控制代码和适配器，可以改进科学文献表示模型的泛化能力。 |
-| [^123] | [Conceptor-Aided Debiasing of Large Language Models.](http://arxiv.org/abs/2211.11087) | 本论文提出一种基于概念器的大型语言模型去偏见方法。我们通过后处理和一种新架构CI-BERT将概念器投影纳入所有层中。概念器后处理方法取得了最先进的去偏见结果，同时保持或改善了模型的性能。 |
-| [^124] | [NESTER: An Adaptive Neurosymbolic Method for Treatment Effect Estimation.](http://arxiv.org/abs/2211.04370) | NESTER是一种自适应的神经符号化方法进行治疗效果评估，将治疗效果估计的所有要求集成到一个框架中，该方法比现有最先进的方法在多个基准数据集上性能更好。 |
-| [^125] | [CLIP-Sculptor: Zero-Shot Generation of High-Fidelity and Diverse Shapes from Natural Language.](http://arxiv.org/abs/2211.01427) | 这篇论文提出了一种名为 CLIP-Sculptor 的方法，可以通过自然语言来生成和编辑高保真度和多样性的三维形状，且不需要 (文本，形状) 对训练，通过不同的潜在空间和改进的指导方法来实现更好的效果。 |
-| [^126] | [Visually-Aware Audio Captioning With Adaptive Audio-Visual Attention.](http://arxiv.org/abs/2210.16428) | 本文提出了一种自适应音频视觉关注的视觉感知音频字幕生成方法，通过利用视觉上下文来帮助解决音频字幕生成中的歧义声音问题。在AudioCaps上实验结果表明，该方法在机器翻译指标上取得了最佳结果。 |
-| [^127] | [Towards standardizing Korean Grammatical Error Correction: Datasets and Annotation.](http://arxiv.org/abs/2210.14389) | 本文提出了三个涵盖广泛韩语语法错误的数据集和一个KAGAS注释系统。我们使用这些数据集训练的基线模型，显示其在更广泛的错误类型上明显优于当前使用的统计韩语GEC系统(Hanspell)。 |
-| [^128] | [Universal Prompt Tuning for Graph Neural Networks.](http://arxiv.org/abs/2209.15240) | 本文介绍了一种名为Graph Prompt Feature（GPF）的新方法，可通用地调整预先训练过的图神经网络模型，操作于输入的特征空间，能够对应任何形式的Prompt函数。 |
-| [^129] | [Dynamics-Adaptive Continual Reinforcement Learning via Progressive Contextualization.](http://arxiv.org/abs/2209.00347) | 本文提出了动态自适应连续RL（DaCoRL）算法，在动态环境中运用了渐进式上下文化学习方法逐步聚类任务，学习一个上下文条件化策略，解决了连续强化学习过程中环境与任务变化带来的问题。 |
-| [^130] | [Domain-Specific Risk Minimization for Out-of-Distribution Generalization.](http://arxiv.org/abs/2208.08661) | 本篇论文提出了一种面向领域特定风险最小化的泛化框架(DRM)，该框架通过多分类器集成和在线目标样本适应来减少适应性差距，并在实验中表现出了明显优于现有方法的表现。 |
-| [^131] | [Generating Teammates for Training Robust Ad Hoc Teamwork Agents via Best-Response Diversity.](http://arxiv.org/abs/2207.14138) | 本论文旨在解决临时团队协作挑战，采用最佳响应多样性生成队友以提高学习者的稳健性。与基于领域知识的方法不同，不会出现表面上相似的队友，使得在与未知队友协作中表现更好。 |
-| [^132] | [Evaluating and Inducing Personality in Pre-trained Language Models.](http://arxiv.org/abs/2206.07550) | 本文提出了Machine Personality Inventory (MPI)数据集用于评估机器个性，通过评估，证明了预训练语言模型(LLM)具有个性。进一步提出了Personality Prompting (P^2)方法，用于以可控的方式诱导LLM具有特定个性。 |
-| [^133] | [Making Large Language Models Better Reasoners with Step-Aware Verifier.](http://arxiv.org/abs/2206.02336) | 本论文提出了一种名为DIVERSE的新方法，它使用多样的提示、验证器过滤不正确的答案并逐个验证每个推理步骤，以进一步增强语言模型的推理能力。 |
-| [^134] | [Augmentation-Aware Self-Supervision for Data-Efficient GAN Training.](http://arxiv.org/abs/2205.15677) | 本文提出一种增强感知的自监督判别器用于对生成数据及其增强参数的预测，从而提高判别器的表现和生成模型的性能，实现了数据有效的 GAN 训练。 |
-| [^135] | [Learning Meta Representations of One-shot Relations for Temporal Knowledge Graph Link Prediction.](http://arxiv.org/abs/2205.10621) | 本文提出了一个新的时间知识图谱推理模型，并拓展两个基本的时态知识图谱推理任务，即内插链接预测和外插链接预测到一次学习的境况中。实验结果表明，我们的模型在所有数据集上都表现出优秀的性能。 |
-| [^136] | [Action Languages Based Actual Causality for Computational Ethics: a Sound and Complete Implementation in ASP.](http://arxiv.org/abs/2205.02919) | 本论文提供了一种从实际因果关系（NESS测试）定义到逻辑编程的转换方法，可以处理复杂的因果关系，这对于计算伦理学中涉及道德责任和伦理规范的决策应用程序尤为重要。 |
-| [^137] | [Enhancing Cross-lingual Prompting with Dual Prompt Augmentation.](http://arxiv.org/abs/2202.07255) | 该论文提出了双重提示增强跨语言提示的方法DPA，利用语言无关的通用提示方法，大大缓解了数据稀缺问题。在XNLI任务上，该方法可以在仅有16个英语训练样本的情况下，将性能从34.99%提高到46.54%。 |
-| [^138] | [Different Affordances on Facebook and SMS Text Messaging Do Not Impede Generalization of Language-Based Predictive Models.](http://arxiv.org/abs/2202.01802) | 本研究研究了Facebook和短信文本之间的差异对基于语言的预测模型的泛化的影响，并发现这些差异并不会显著影响这些模型在这两个平台之间的相关性。 |
-| [^139] | [An Explainable-AI approach for Diagnosis of COVID-19 using MALDI-ToF Mass Spectrometry.](http://arxiv.org/abs/2109.14099) | 本文提出了一种基于可解释AI算法的基于MALDI-ToF质谱的COVID-19诊断方法，以提供准确、经济实惠且快速的COVID-19检测服务。 |
-| [^140] | [Deep Exploration for Recommendation Systems.](http://arxiv.org/abs/2109.12509) | 本文提出了一种深度探索方法以解决推荐系统中奖励稀少时的问题，并在高保真度的工业级模拟器下进行了实验，证明了该算法相比现有算法有很大的提升。 |
-| [^141] | [Can We Faithfully Represent Masked States to Compute Shapley Values on a DNN?.](http://arxiv.org/abs/2105.10719) | 本文提出了一种新的方法，使用因果模式来检查输入变量基准值的准确性，并使用这种方法计算Shapley值，同时提出了一种学习最优基准值的方法，并证明了其有效性。 |
-| [^142] | [Learning logic programs by explaining their failures.](http://arxiv.org/abs/2102.12551) | 本文介绍了一种基于解释失败的技术来进行归纳逻辑编程的学习方法。通过在样例上测试逻辑程序，我们用失败的子程序精细地解释其失败，并基于分析SLD树分支的算法进行实现。实验表明失败解释可以大大减少假设空间。 |
+| [^9] | [Optimal Control of Logically Constrained Partially Observable and Multi-Agent Markov Decision Processes.](http://arxiv.org/abs/2305.14736) | 本文介绍了一个用于部分可观察和多智能体马尔可夫决策过程的最优控制理论，能够使用时间逻辑规范表达约束，并提供了一种结构化的方法来合成策略以最大化累积奖励并保证约束条件的概率足够高。同时我们还提供了对信息不对称的多智能体设置进行最优控制的框架。 |
+| [^10] | [Centering the Margins: Outlier-Based Identification of Harmed Populations in Toxicity Detection.](http://arxiv.org/abs/2305.14735) | 本文提出了一种基于异常值的方法，用于识别在毒性检测中受到伤害的人群，发现对于这些异常值，模型性能较差，他们面临的毒性更高。 |
+| [^11] | [AutoDepthNet: High Frame Rate Depth Map Reconstruction using Commodity Depth and RGB Cameras.](http://arxiv.org/abs/2305.14731) | AutoDepthNet能够利用混合摄像机设置中的深度相机和彩色相机进行深度图重建，在GPU上具有8ms的推断时间，能够实现每秒200帧的实时使用。 |
+| [^12] | [In-Context Demonstration Selection with Cross Entropy Difference.](http://arxiv.org/abs/2305.14726) | 本论文提出了一种基于交叉熵差异的方法，用于在大型语言模型中选择最佳的上下文演示来提高零-shot任务性能。 |
+| [^13] | [I Spy a Metaphor: Large Language Models and Diffusion Models Co-Create Visual Metaphors.](http://arxiv.org/abs/2305.14724) | 本论文提出一个新的任务——从语言隐喻生成视觉隐喻，并且基于大语言模型和扩散模型之间的协作，成功地实现了共创出具有视觉冲击力和语义含义的隐喻。 |
+| [^14] | [BLIP-Diffusion: Pre-trained Subject Representation for Controllable Text-to-Image Generation and Editing.](http://arxiv.org/abs/2305.14720) | BLIP-Diffusion是一种新的主体驱动图像生成模型，通过预训练的多模态编码器和主体表征学习任务实现了可控的文本到图像生成和编辑，并支持零样本生成和定制化微调。 |
+| [^15] | [Exploiting Correlations Between Contexts and Definitions with Multiple Definition Modeling.](http://arxiv.org/abs/2305.14717) | 本文提出了一种新的多重定义建模（MDM）任务，将目标词的所有上下文和定义汇集在一起，相比单个定义建模（SDM）有更好的表现，在预训练任务中可以提高SDM的性能，在零-shot情况下有可比性。 |
+| [^16] | [Streaming Object Detection on Fisheye Cameras for Automatic Parking.](http://arxiv.org/abs/2305.14713) | 这篇论文提出了一个实时检测框架，使用动态和静态流双流感知模块，能够预测未来并减轻时延问题，解决了以往鱼眼摄像头目标检测中时延差异带来的安全隐患问题。 |
+| [^17] | [Instructions as Backdoors: Backdoor Vulnerabilities of Instruction Tuning for Large Language Models.](http://arxiv.org/abs/2305.14710) | 使用指令调整方法在众包数据集上训练的大规模语言模型，存在后门漏洞，攻击者只需注入极少量的恶意指令便可永久控制模型行为，且难以被修复，需要更加健全的防御机制。 |
+| [^18] | [The student becomes the master: Matching GPT3 on Scientific Factual Error Correction.](http://arxiv.org/abs/2305.14707) | 本文提出了一种不需要验证者且不做领域假设的主张校正系统，能够显著提高科学事实错误校正任务的性能，并通过使用LLM的提示方法和主张感知的解码过程来提高校正质量。 |
+| [^19] | [PruMUX: Augmenting Data Multiplexing with Model Compression.](http://arxiv.org/abs/2305.14706) | PruMUX是一种结合了结构化剪枝和数据复用的方法，可在保持准确性的情况下提高BERT-base模型的吞吐量。Auto-PruMUX可以预测修剪和复用的高性能参数，从而提供了一个实用的自动化工具。 |
+| [^20] | [Modeling rapid language learning by distilling Bayesian priors into artificial neural networks.](http://arxiv.org/abs/2305.14701) | 本文介绍了一种将贝叶斯模型的归纳偏见注入神经网络中的方法，可以从有限的自然数据中进行学习，同时具有灵活性以推广到新的示例。 |
+| [^21] | [A Causal View of Entity Bias in (Large) Language Models.](http://arxiv.org/abs/2305.14695) | 研究提出了一种结构因果模型（SCM）并提供因果干预技术，以缓解大型语言模型中的实体偏见，从而减少偏见信息，同时保留相似实体的共同预测信息。 |
+| [^22] | [ExpertPrompting: Instructing Large Language Models to be Distinguished Experts.](http://arxiv.org/abs/2305.14688) | 本论文提出了“专家提示”技术，用于训练大型语言模型成为杰出的专家。该方法使用上下文学习自动生成每个指令的详细和定制的专家身份描述，并要求模型根据这些提示提供答案。基于这种技术，本文提出了一个新的开源聊天助手ExpertLLaMA，该助手在评估中表现出高质量的数据和96％的ChatGPT能力。 |
+| [^23] | [RSRM: Reinforcement Symbolic Regression Machine.](http://arxiv.org/abs/2305.14656) | RSRM是一种能够从有限数据中揭示复杂数学方程的模型，它包括Monte Carlo Tree Search代理、双Q学习块和强化学习回归器。 |
+| [^24] | [Barkour: Benchmarking Animal-level Agility with Quadruped Robots.](http://arxiv.org/abs/2305.14654) | 该论文提出了Barkour基准测试，用于量化四足机器人的敏捷性。该测试模仿犬只敏捷竞赛，包含各种障碍和基于时间的打分机制，鼓励研究人员开发能以可控和多用途的方式行动的控制器，以便在复杂环境中快速导航。 |
+| [^25] | [A Joint Time-frequency Domain Transformer for Multivariate Time Series Forecasting.](http://arxiv.org/abs/2305.14649) | 本文提出了一种称为JTFT的方法，可以在提取时间依赖性的同时有效地减小计算需求，适用于多元时间序列预测，并具有线性复杂度。同时，采用低秩注意层以有效捕获跨维度的依赖关系，并在六个真实世界数据集上展示了比现有方法更好的表现。 |
+| [^26] | [CMOT: Cross-modal Mixup via Optimal Transport for Speech Translation.](http://arxiv.org/abs/2305.14635) | CMOT是一种用于跨模态语音翻译的方法，通过最优传输找到语音和文本序列之间的对齐，并在标记级别上混合不同模态的序列，实现了在有限数据下更好的性能表现。 |
+| [^27] | [Abductive Commonsense Reasoning Exploiting Mutually Exclusive Explanations.](http://arxiv.org/abs/2305.14618) | 本论文提出一种基于互斥解释的诱导式常识推理方法，结果表明在各类诱导式推理数据集上优于或与预训练语言模型和其他知识增强方法相当。 |
+| [^28] | [COMET-M: Reasoning about Multiple Events in Complex Sentences.](http://arxiv.org/abs/2305.14617) | 提出了COMET-M，该模型可以推理复杂句子中多个事件之间的关系以及生成常识推断，并在35K个人类编写的推断上进行训练，相对于之前的COMET模型在生成多事件推断方面有显着的性能改进。 |
+| [^29] | [Selectively Answering Ambiguous Questions.](http://arxiv.org/abs/2305.14613) | 本研究调查了解决模糊问题的方法，通过定量测量模型输出中的重复性，找出了在含糊问题集中回答高精度子集问题的最可靠方法。这种基于采样的方法可以有效解决问题回答中的歧义，并提高语言模型的可靠性。 |
+| [^30] | [Voices of Her: Analyzing Gender Differences in the AI Publication World.](http://arxiv.org/abs/2305.14597) | 通过对AI学术界的78K研究人员的分析，研究发现女性第一作者的论文具有不同的语言风格，例如更长的文本、更多的正面情感词汇和更引人注目的标题；在AI论文的合著中存在很大的性别同质性。我们鼓励未来实现更多的性别平等和多样性。 |
+| [^31] | [RE$^2$: Region-Aware Relation Extraction from Visually Rich Documents.](http://arxiv.org/abs/2305.14590) | RE$^2$方法利用视觉丰富文档中实体块之间的区域级空间结构来提高它们的关系预测能力，表现出较好的性能。 |
+| [^32] | [Interpretation of Time-Series Deep Models: A Survey.](http://arxiv.org/abs/2305.14582) | 本文调查了解释时间序列深度模型的事后方法，并介绍了一种新颖的解释类别 - 内在可解释模型。此外，本文介绍了常见的解释评估指标，提出了时间序列可解释性问题的未来研究方向。 |
+| [^33] | [Evaluating OpenAI's Whisper ASR for Punctuation Prediction and Topic Modeling of life histories of the Museum of the Person.](http://arxiv.org/abs/2305.14580) | 本文首次对葡萄牙语中的Whisper ASR进行了标点符号预测方面的研究，并为标点符号预测在主题建模中的应用提供了有益的实验评估。 |
+| [^34] | [Negative Feedback Training: A Novel Concept to Improve Robustness of NVCiM DNN Accelerators.](http://arxiv.org/abs/2305.14561) | 本文介绍了一种新的训练方法，使用负反馈机制来增强DNN模型的鲁棒性，特别是在存在设备变异的情况下。 |
+| [^35] | [Unraveling ChatGPT: A Critical Analysis of AI-Generated Goal-Oriented Dialogues and Annotations.](http://arxiv.org/abs/2305.14556) | 本文基于ChatGPT模型，研究了AI生成面向目标的对话和注释的潜力，实验结果表明生成的对话和注释质量与人类生成的相当。 |
+| [^36] | [All Roads Lead to Rome? Exploring the Invariance of Transformers' Representations.](http://arxiv.org/abs/2305.14555) | 本文探究了Transformer模型表示空间的可靠性问题，提出了双射假设，并提出了一种基于可逆神经网络的模型BERT-INN，来更有效地学习双射，实验结果显示其优势。 |
+| [^37] | [Adversarial Machine Learning and Cybersecurity: Risks, Challenges, and Legal Implications.](http://arxiv.org/abs/2305.14553) | 本文讨论了人工智能系统漏洞与传统软件漏洞之间的关系，并提出了可能改善AI漏洞管理和缓解的潜在领域，以及对AI系统进行对抗攻击的法律问题。 |
+| [^38] | [Sequence Modeling is a Robust Contender for Offline Reinforcement Learning.](http://arxiv.org/abs/2305.14550) | 序列建模是离线强化学习中比Q-Learning和Imitation Learning更适合在稀疏奖励和低质量数据设置下的选择，在任务范围增加时，序列建模和模仿学习更可取。 |
+| [^39] | [Cascaded Beam Search: Plug-and-Play Terminology-Forcing For Neural Machine Translation.](http://arxiv.org/abs/2305.14538) | 本文提出了一种级联束搜索算法，用于神经机器翻译中的术语约束，可以即插即用，无需重新训练。该方法可将目标术语的概率增加，并使用基于网格束搜索的级联束设置，性能良好。 |
+| [^40] | [Disincentivizing Polarization in Social Networks.](http://arxiv.org/abs/2305.14537) | 该论文提出了一种避免过滤气泡、更公平地分担多样化负担的社交网络内容策划和个性化模型。 |
+| [^41] | [Detecting Propaganda Techniques in Code-Switched Social Media Text.](http://arxiv.org/abs/2305.14534) | 本文提出了一个新任务，即在混合语言的社交媒体文本中检测宣传技术。为了支持这一任务，作者创建了一个包含1030个文本的英语和罗马乌尔混合语言的语料库，并进行了一系列实验。 |
+| [^42] | [CongFu: Conditional Graph Fusion for Drug Synergy Prediction.](http://arxiv.org/abs/2305.14517) | CongFu是一种用于药物协同预测的新型条件图融合层，采用注意机制和瓶颈技术提取本地图上下文，并在全局上下文中有条件地融合图数据。其模块化架构使得可以更换图层模块，包括读出和图编码器，以适应不同的应用场景，并在12个基准数据集中的11个上取得了最先进的结果，证明了其能力。 |
+| [^43] | [RetICL: Sequential Retrieval of In-Context Examples with Reinforcement Learning.](http://arxiv.org/abs/2305.14502) | 本文提出了一种 RetICL 的方法来优化地选择用于上下文学习模型的示例。此方法利用强化学习框架将序列示例选择问题作为马尔科夫决策过程，并且优化选择为使任务表现最佳的组合。 |
+| [^44] | [Self-Polish: Enhance Reasoning in Large Language Models via Problem Refinement.](http://arxiv.org/abs/2305.14497) | Self-Polish是一种方法，通过促使模型逐步完善给定的问题以使其更易理解和可解决，以增强大型语言模型的推理能力。 |
+| [^45] | [BAND: Biomedical Alert News Dataset.](http://arxiv.org/abs/2305.14480) | 该论文介绍了生物医学警报新闻数据集（BAND），其包括了1,508个样本和30个与流行病学相关的问题，为自然语言处理领域提供了新的挑战，需要更好的内容伪装能力和重要信息推断能力。该数据集可以为疾病监测和流行病学分析提供有价值的洞察力。 |
+| [^46] | [Enhancing Generation through Summarization Duality and Explicit Outline Control.](http://arxiv.org/abs/2305.14459) | 本文提出了一个两阶段的摘要增强的大纲监督生成框架，能够更好地生成明确和合理的大纲，并引入了一个新颖的显式大纲控制方法以更有效地利用生成的大纲。 |
+| [^47] | [Having Beer after Prayer? Measuring Cultural Bias in Large Language Models.](http://arxiv.org/abs/2305.14456) | 这篇论文研究了大型语言模型在处理和生成阿拉伯文本时出现的文化偏向西方文化的现象，表明语言模型在人名、食品、服装、地点、文学、饮料、宗教和体育等八个文化方面存在偏见。这些发现引发对于当前语言模型文化相关性的担忧。 |
+| [^48] | [Kernel Interpolation with Sparse Grids.](http://arxiv.org/abs/2305.14451) | 本文提出利用稀疏网格优化结构化核插值方法（SKI），在保证插值准确性的同时，有效解决了输入点维度较高带来的计算困难，提出了相应的稀疏网格矩阵乘法算法以及高效插值方案。 |
+| [^49] | [Graph Meets LLM: A Novel Approach to Collaborative Filtering for Robust Conversational Understanding.](http://arxiv.org/abs/2305.14449) | 一种协同过滤新方法用于稳健对话理解，在历史用户-实体交互的基础上，利用多跳客户亲和力丰富每个用户的索引，并使用有限内存BFGS算法调整每个索引的权重，实验结果显示其明显优于最先进的个性化查询重写方法。 |
+| [^50] | [Image Manipulation via Multi-Hop Instructions -- A New Dataset and Weakly-Supervised Neuro-Symbolic Approach.](http://arxiv.org/abs/2305.14410) | 该论文提出了一个基于神经符号概念学习的图像操作系统NeuroSIM，它可以通过多跳指令在多物体场景中执行复杂的推理，只需要弱监督的数据集，并创建了一个新的数据集。该系统具有很高的竞争力或超过SOTA基线。 |
+| [^51] | [Deep Learning based Forecasting: a case study from the online fashion industry.](http://arxiv.org/abs/2305.14406) | 本文介绍了一种在在线时尚行业中，通过基于深度学习的方法来预测销量的案例研究。研究表明，该方法可以有效地解决数据量大、不规则性、高频率更迭的产品目录和固定库存假设等挑战。 |
+| [^52] | [NeuralMatrix: Moving Entire Neural Networks to General Matrix Multiplication for Efficient Inference.](http://arxiv.org/abs/2305.14405) | NeuralMatrix是一种框架，能够在单个通用矩阵乘法加速器上计算深度神经网络(DNNs)，并可在保持推理准确度的情况下实现高达113倍至19.44倍的性能提升。 |
+| [^53] | [Brain Structure-Function Fusing Representation Learning using Adversarial Decomposed-VAE for Analyzing MCI.](http://arxiv.org/abs/2305.14404) | 本文提出了一种新的脑结构-功能融合表示学习（BSFL）模型，从扩散张量成像（DTI）和静息态功能磁共振成像（fMRI）中有效地学习融合表示进行轻度认知障碍（MCI）分析，采用解耦-融合框架和知识感知变压器模块，具有更好的性能。 |
+| [^54] | [Layer-adaptive Structured Pruning Guided by Latency.](http://arxiv.org/abs/2305.14403) | 提出了一种全局重要性分数SP-LAMP的分层自适应结构裁剪方法，利用分组背包求解器在延迟约束下最大化SP-LAMP分数来指导网络裁剪，以获得更好的优化结果和推理速度。 |
+| [^55] | [Towards credible visual model interpretation with path attribution.](http://arxiv.org/abs/2305.14395) | 本研究通过研究发现，在深度视觉模型解释中使用路径归因策略时，可以通过特定条件避免反直觉结果。并提出一种方案帮助防止视觉模型解释无效化路径归因的公理属性，从而实现可靠的视觉模型解释。 |
+| [^56] | [Unsupervised Spiking Neural Network Model of Prefrontal Cortex to study Task Switching with Synaptic deficiency.](http://arxiv.org/abs/2305.14394) | 本文介绍了利用脉冲神经网络建立的前额叶皮层计算模型。通过持久活动和无监督学习规则，模拟了任务切换和损伤状态下神经元的响应。实验结果为研究神经元适应和学习提供了新的参考。 |
+| [^57] | [Breast Cancer Segmentation using Attention-based Convolutional Network and Explainable AI.](http://arxiv.org/abs/2305.14389) | 本研究提出了一种基于注意力机制的卷积神经网络，结合可解释人工智能和红外热像技术进行乳腺癌分割，提高了检测和分类的速度和精度，并在UNet结构中使用Grad-CAM分析了潜在偏差和弱点区域，比现有模型表现更优。 |
+| [^58] | [AlpacaFarm: A Simulation Framework for Methods that Learn from Human Feedback.](http://arxiv.org/abs/2305.14387) | 该论文提出了一种名为AlpacaFarm的低成本模拟器，该模拟器为从人类反馈中学习的研究和开发提供了一种解决方案，通过设计LLM提示来模拟人类反馈，提出自动评估并提供参考实现，克服了数据收集的高昂成本、缺乏可信的评估和缺乏参考方法实现的挑战。 |
+| [^59] | [Let GPT be a Math Tutor: Teaching Math Word Problem Solvers with Customized Exercise Generation.](http://arxiv.org/abs/2305.14386) | 本文提出了一种使用GPT-3生成定制化练习，教授数学应用题解决方法的新方法，该方法考虑学生模型的弱点并以教育科学原理为基础进行定制化的学习体验，并取得了比其他大型语言模型更好的表现。 |
+| [^60] | [Adversarial Nibbler: A Data-Centric Challenge for Improving the Safety of Text-to-Image Models.](http://arxiv.org/abs/2305.14384) | 本论文提出了一种数据挑战，旨在提高文本生成图像模型的安全性，以解决目前缺乏系统性和结构化的评估数据集的问题。该数据挑战旨在检查模型的不良行为，特别是对抗攻击。 |
+| [^61] | [A Rational Model of Dimension-reduced Human Categorization.](http://arxiv.org/abs/2305.14383) | 提出了一个基于层次化混合模型的分类模型，以及基于生成过程的低维潜在空间的分类解释，该模型学习类别表示和特征集合，适用于高维刺激下，支持零-shot学习，并验证了该模型。 |
+| [^62] | [Stock and market index prediction using Informer network.](http://arxiv.org/abs/2305.14382) | 本文介绍了一种新型的Informer网络，该网络在股票和市场指数预测中取得了最佳表现。 |
+| [^63] | [Connecting Multi-modal Contrastive Representations.](http://arxiv.org/abs/2305.14381) | 本文提出了一种无需配对数据学习MCR的方法，叫做C-MCR，并且在新空间中使用重叠模态B的数据来对齐两个MCR。通过这个方法，非重叠模态对（A，C）也可以使用连接。 |
+| [^64] | [Unsupervised Discovery of Continuous Skills on a Sphere.](http://arxiv.org/abs/2305.14377) | 本文提出了一种名为DISCS的方法，可以无限学习不同的连续技能，在MuJoCo Ant机器人控制环境中展示了其比其他方法更具多样性。 |
+| [^65] | [Learning to Rank the Importance of Nodes in Road Networks Based on Multi-Graph Fusion.](http://arxiv.org/abs/2305.14375) | 本文提出了一种新的基于图学习的节点排序方法（MGL2Rank），充分利用了道路网络的丰富特征，并且在实验中表现出比现有方法更高的精度和效率。 |
+| [^66] | [An Ensemble Semi-Supervised Adaptive Resonance Theory Model with Explanation Capability for Pattern Classification.](http://arxiv.org/abs/2305.14373) | 这篇论文提出了一种新的可以解释模型预测结果的集成半监督自适应共振理论模型（SSL-ART），其采用了非监督模糊ART网络和监督模糊ARTMAP结构实现对未标记样本和标记样本的学习和映射，并设计了一种一对多的映射方案减少冗余原型节点并最小化噪声样本的影响。 |
+| [^67] | [A Survey on the Role of Artificial Intelligence in the Prediction and Diagnosis of Schizophrenia.](http://arxiv.org/abs/2305.14370) | 通过深度学习技术分析脑电图（EEG）、功能性磁共振成像（fMRI）和弥散磁共振成像（dMRI）数据，成功预测超过80%的精神分裂症，可以潜在用于该疾病的诊断。 |
+| [^68] | [Information processing via human soft tissue.](http://arxiv.org/abs/2305.14366) | 本研究表明，人类的软组织可用于物理储备计算中的软体，在仿真非线性动态系统的计算任务中具有积极的影响。 |
+| [^69] | [Continually Learned Pavlovian Signalling Without Forgetting for Human-in-the-Loop Robotic Control.](http://arxiv.org/abs/2305.14365) | 本文研究了面向机器人控制的巴甫洛夫信号传递方法如何进行连续学习而不会忘记之前的预测结果，研究发现算法选择（如on-policy和off-policy方法以及表示选择）会影响传递的效果。 |
+| [^70] | [Towards personalised music-therapy; a neurocomputational modelling perspective.](http://arxiv.org/abs/2305.14364) | 音乐疗法是一种有效的治疗方法，可以提高患者的治疗效果，而且没有负面影响。这篇论文总结了当前音乐知觉和处理理论的概述及其应用在运动、情绪和心血管调节等领域中的证据，并着重强调了如何通过反馈机制个性化和自动化音乐选择过程来适应个体的需求和任务。 |
+| [^71] | [Zero-shot personalized lip-to-speech synthesis with face image based voice control.](http://arxiv.org/abs/2305.14359) | 这篇论文提出了一种利用面部图像进行语音合成的方法，可以在没有参考语音时实现零样本个性化，通过分离说话者身份和语言内容，使面部特征可以控制未知说话者特征，扩展了唇语转语音合成的应用场景。 |
+| [^72] | [DUBLIN -- Document Understanding By Language-Image Network.](http://arxiv.org/abs/2305.14218) | DUBLIN是一个针对视觉文档理解的模型，使用掩模文档内容生成任务、边界框任务和渲染问答任务进行预训练，利用文档图像中的空间和语义信息。该模型在多项基准测试中达到了竞争性或最先进的结果。 |
+| [^73] | [How Old is GPT?: The HumBEL Framework for Evaluating Language Models using Human Demographic Data.](http://arxiv.org/abs/2305.14195) | 本论文提出了一种使用人类人口数据对语言模型进行评估的框架，并发现GPT-3.5在不同任务中表现不同，在单词意义推断方面模拟了典型6-9岁儿童的能力，在记忆方面则表现优于典型21岁年轻人。 |
+| [^74] | [DetGPT: Detect What You Need via Reasoning.](http://arxiv.org/abs/2305.14167) | DetGPT 是一种基于推理的物体检测范例，能够根据用户的自然语言指令和视觉场景进行推理，从而寻找到用户想要的目标物体。 |
+| [^75] | [Revisiting Acceptability Judgements.](http://arxiv.org/abs/2305.14091) | 本文介绍了第一个大规模的非英语语言可接受性数据集CoLAC，发现语言模型性能低于人类的表现，但跨语言转移可行，并可以追溯到预训练阶段。 |
+| [^76] | [Flexible Grammar-Based Constrained Decoding for Language Models.](http://arxiv.org/abs/2305.13971) | 本文提出了一种使用形式语法约束丰富解码步骤的方法，有效生成符合特定语法的复杂输出结构，同时允许任何上下文无关语法集成。实验证明该方法在四个信息提取任务上实现了最先进的性能表现。 |
+| [^77] | [A Comparative Analysis of Techniques and Algorithms for Recognising Sign Language.](http://arxiv.org/abs/2305.13941) | 本研究比较了卷积神经网络、长短期记忆网络和混合模型等各种深度学习技术，用公共的中国手语识别数据集进行了测试。结果表明，一种融合了CNN和LSTM的混合模型表现最好。 |
+| [^78] | [Multimodal Automated Fact-Checking: A Survey.](http://arxiv.org/abs/2305.13507) | 本调查提出了一个多模态自动事实核查的框架，并包括了独特的子任务，重点关注了文本，图像，音频和视频这四种模态的现实应用。纪录了相关的基准模型，讨论了未来研究的局限性和前景。 |
+| [^79] | [Flover: A Temporal Fusion Framework for Efficient Autoregressive Model Parallel Inference.](http://arxiv.org/abs/2305.13484) | Flover是一种用于自回归模型并行推断的时间融合框架，解决了并行性不足和灵活性差的问题，可以实现更加高效的推断性能。 |
+| [^80] | [Measuring and Modeling Physical Intrinsic Motivation.](http://arxiv.org/abs/2305.13452) | 本文对身体内在动机进行了量化建模，发现对抗性奖励模型可以最好地预测人类对物理情境的趣味反应，还发现简单场景特征模型无法在所有情境中预测人类反应，将对抗模型和场景中碰撞数量进行线性组合，能够显著提高对人类反应的预测能力，表明人类追求高信息增益和身体活动的情况。 |
+| [^81] | [Adaptive Chameleon or Stubborn Sloth: Unraveling the Behavior of Large Language Models in Knowledge Clashes.](http://arxiv.org/abs/2305.13300) | 本文研究了大型语言模型（LLMs）在遭遇知识冲突时的行为。结果发现，LLMs可以高度接受外部连贯且有说服力的证据，即使与其参数化内存存在冲突，但也可能有局限性。 |
+| [^82] | [Federated Learning of Medical Concepts Embedding using BEHRT.](http://arxiv.org/abs/2305.13052) | 该论文提出了一种基于BEHRT的联邦学习方法来学习医疗概念嵌入，在不传输任何隐私数据的情况下，实现了多个医疗中心的EHR数据的共同学习。实验证明该方法在预测病人下一次诊断方面有效。 |
+| [^83] | [MultiTabQA: Generating Tabular Answers for Multi-Table Question Answering.](http://arxiv.org/abs/2305.12820) | 本文提出一项新任务，即回答多表问题。 我们的新模型MultiTabQA不仅可以回答多表问题，还可以泛化地生成表格答案，并在实验中表现出比现有基线更好的性能。 |
+| [^84] | [TheoremQA: A Theorem-driven Question Answering dataset.](http://arxiv.org/abs/2305.12524) | 该论文介绍了一个定理驱动的问题回答数据集TheoremQA，可用于评估AI模型在应用定理解决科学问题时的能力，经过测试，GPT-4在解决这些问题上的准确率远高于其他模型。 |
+| [^85] | [LLM Itself Can Read and Generate CXR Images.](http://arxiv.org/abs/2305.11490) | 该论文提出了一种新方法，可以在不需要进行结构更改、额外训练、或训练专门网络的情况下，通过微调预先训练的LLM来读取和生成像文本一样的图像，并应用于胸部X线（CXR）图像的生成任务中。 |
+| [^86] | [PastNet: Introducing Physical Inductive Biases for Spatio-temporal Video Prediction.](http://arxiv.org/abs/2305.11421) | 本文介绍了一种名为PastNet的新颖方法，通过在傅里叶域中引入谱卷积算子，利用内在的物理知识生成高质量的时空视频预测，并通过离散化局部特征降低计算成本。 |
+| [^87] | [Domain Generalization Deep Graph Transformation.](http://arxiv.org/abs/2305.11389) | 本文提出了一种面向领域泛化的深度图形转换方法，使用超网络进行多输入多输出的图神经网络预测，通过加入潜在变量来训练泛化模型，在多个基准数据集中取得了优异表现。 |
+| [^88] | [Instruct2Act: Mapping Multi-modality Instructions to Robotic Actions with Large Language Model.](http://arxiv.org/abs/2305.11176) | 本文提出了Instruct2Act，利用大型语言模型将多模态指令映射到机器人操作。通过使用基础模型的专业知识和机器人的能力，将复杂的高级指令转换为精确的策略代码，该方法可调整和灵活适应各种指令模态和输入类型，并满足特定的任务需求。 |
+| [^89] | [Evidence of Meaning in Language Models Trained on Programs.](http://arxiv.org/abs/2305.11169) | 该论文证明了，通过在程序语料库上训练语言模型，即使没有针对学习语言语义提供归纳偏差，语言模型仍然能够学习含义。线性探测器能够从模型状态中提取程序状态的抽象，准确性与模型泛化到新程序的能力显著相关。 |
+| [^90] | [Language Models Meet World Models: Embodied Experiences Enhance Language Models.](http://arxiv.org/abs/2305.10626) | 本文提出一种新的增强语言模型的方法——将其与世界模型相结合，通过有目的的规划和随机探索获得丰富的实体经验进行微调, 以提高其在物理环境下的推理和行为能力，并在语言基准上保持或提高性能。 |
+| [^91] | [Human Choice Prediction in Non-Cooperative Games: Simulation-based Off-Policy Evaluation.](http://arxiv.org/abs/2305.10361) | 本文研究了语言游戏中的离线策略评估，并提出了一种结合真实和模拟数据的新方法。 |
+| [^92] | [Parameter-Efficient Fine-Tuning for Medical Image Analysis: The Missed Opportunity.](http://arxiv.org/abs/2305.08252) | 该论文综合评估了基于参数的高效调整技术（PEFT）在医学图像分析任务中的可能应用。通过超过600个控制测试，我们证明了PEFT的相对性能，并强调了PEFT在医学图像分析中实现参数高效转移学习的巨大潜力。 |
+| [^93] | [When the Majority is Wrong: Leveraging Annotator Disagreement for Subjective Tasks.](http://arxiv.org/abs/2305.06626) | 本文通过预测单个标注者的打分，并结合文本目标群体的预测，模拟了目标群体成员的意见，通过使用他们的人口统计学数据和在线意见预测标注者的打分，在仇恨言论检测等主观任务中提高了模型性能。 |
+| [^94] | [TinyML Design Contest for Life-Threatening Ventricular Arrhythmia Detection.](http://arxiv.org/abs/2305.05105) | TDC'22是第一届面向ICDs低功耗微控制器的人工智能/机器学习（AI/ML）算法创新竞赛。本次竞赛的挑战是开发一种基于AI/ML的新型实时检测算法，对危及生命的室性心律失常进行检测。 |
+| [^95] | [Deep state-space modeling for explainable representation, analysis, and generation of professional human poses.](http://arxiv.org/abs/2304.14502) | 本文提出一种新方法，通过引入三种新方法来创建人类运动的可解释表示，以解决建模人体运动的科学挑战，并且该方法能准确预测人体运动并生成新的运动。 |
+| [^96] | [Why Does ChatGPT Fall Short in Answering Questions Faithfully?.](http://arxiv.org/abs/2304.10513) | 该论文分析了ChatGPT在问答系统中的失误，归纳并确定其失败的原因类型和关键能力，进一步提出了潜在方法来提高其准确性。 |
+| [^97] | [On Existential First Order Queries Inference on Knowledge Graphs.](http://arxiv.org/abs/2304.07063) | 本文阐述了关于知识图谱中存在性一阶查询推理的新方法，提出了一个新数据集，并开发了一种来自模糊逻辑理论的新搜索算法，该算法能够解决新公式，并在现有公式中超过以前的方法。 |
+| [^98] | [Video ChatCaptioner: Towards the Enriched Spatiotemporal Descriptions.](http://arxiv.org/abs/2304.04227) | Video ChatCaptioner是一种创新方法，利用ChatGPT和算法生成全面和丰富的时空视频描述。 |
+| [^99] | [Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data.](http://arxiv.org/abs/2304.01196) | 提出了一种流程，通过利用ChatGPT与自身对话，能够自动生成高质量的多轮聊天语料库，并采用参数高效调整来增强开源的大型语言模型LLaMA，得到的模型被命名为Baize，在最小化潜在风险的护栏下，在多轮对话中展现出良好的性能。 |
+| [^100] | [GPTEval: NLG Evaluation using GPT-4 with Better Human Alignment.](http://arxiv.org/abs/2303.16634) | 本文介绍了GPTEval，一个利用链式思考和形式填充评价NLG生成的质量。实验表明，在文本摘要任务中，GPTEval结合GPT-4取得了0.514的斯皮尔曼相关系数，胜过其他方法。 |
+| [^101] | [Adaptive Background Music for a Fighting Game: A Multi-Instrument Volume Modulation Approach.](http://arxiv.org/abs/2303.15734) | 本文介绍了一种自适应背景音乐的方法，它由五种不同的乐器演奏名为“空中小姐曲”的古典音乐组成，并通过改变乐器的音量来适应游戏的不同元素。实验结果表明，使用这种自适应背景音乐可以改善游戏的体验。 |
+| [^102] | [Knowledge Enhanced Graph Neural Networks.](http://arxiv.org/abs/2303.15487) | KeGNN是一个神经符号框架，可以结合先前的知识来优化图数据上的节点分类和链接预测任务。 |
+| [^103] | [Learning Reward Machines in Cooperative Multi-Agent Tasks.](http://arxiv.org/abs/2303.14061) | 本文提出了一种新的多智能体强化学习方法，将合作任务分解与学习奖励机制相结合。该方法有助于解决部分可观察环境中奖励的非马尔可夫性质，并提高了学习策略的可解释性，同时也降低了合作任务的复杂性。 |
+| [^104] | [Translate your gibberish: black-box adversarial attack on machine translation systems.](http://arxiv.org/abs/2303.10974) | 本文研究了机器翻译系统的黑盒对抗攻击方法，通过使用一种新颖的基于梯度自由张量的优化器，可以欺骗在线翻译工具产生错误的翻译，这影响了用户学习语言的体验。 |
+| [^105] | [Logic of Differentiable Logics: Towards a Uniform Semantics of DL.](http://arxiv.org/abs/2303.10650) | 该论文介绍了一个元语言——LDL，用于定义DL，该元语言从语法和语义两方面上提高DL的形式化程度，使得对DL的性质和实现进行系统比较研究成为了可能。 |
+| [^106] | [Commonsense Knowledge Assisted Deep Learning for Resource-constrained and Fine-grained Object Detection.](http://arxiv.org/abs/2303.09026) | 本文提出了一种通识知识辅助的细粒度目标检测方法，利用通识知识推理模块处理由基准深度学习检测器给出的粗粒度标签，从而提高目标检测的准确性。经过实验验证，该方法相比于现有方法需要更少的计算量和标注资源。 |
+| [^107] | [FairShap: A Data Re-weighting Approach for Algorithmic Fairness based on Shapley Values.](http://arxiv.org/abs/2303.01928) | FairShap是一种通过数据重估计算法决策公平性的预处理方法，使用Shapley值估值，能够提高模型的公平性和精确性，并且易于解释。 |
+| [^108] | [Weighted Sampling for Masked Language Modeling.](http://arxiv.org/abs/2302.14225) | 本文提出了两种有效的加权采样策略用于遮蔽语言建模，可以有效解决高频率词汇导致的偏差问题，提高了语言模型的性能和迁移学习能力。 |
+| [^109] | [Multi-Agent Reinforcement Learning with Common Policy for Antenna Tilt Optimization.](http://arxiv.org/abs/2302.12899) | 本文提出了一种通过对影响目标小区和周围小区性能的小区参数进行智能调节的方法，使用多个共享通用策略的强化学习智能体，并在离线学习阶段对智能体进行预训练，最终将网络引导到最佳配置。 |
+| [^110] | [Recent Advancements in Deep Learning Applications and Methods for Autonomous Navigation -- A Comprehensive Review.](http://arxiv.org/abs/2302.11089) | 本综述论文介绍了自主导航领域中最新的深度学习应用和方法，包括障碍检测、场景感知、路径规划和控制。突出了深度学习在工程数据科学中的快速发展，以及创新导航方法的开发和跨学科研究的重要性和挑战。 |
+| [^111] | [Mind the Gap! Bridging Explainable Artificial Intelligence and Human Understanding with Luhmann's Functional Theory of Communication.](http://arxiv.org/abs/2302.03460) | 本文提出了一个更对话式的解释模型，弥合可解释人工智能与人类理解之间的差距，以创建更有效和广泛应用的人工智能系统。 |
+| [^112] | [Rethinking Semi-Supervised Medical Image Segmentation: A Variance-Reduction Perspective.](http://arxiv.org/abs/2302.01735) | 本文提出了ARCO，一种半监督对比学习（CL）框架，其中包括医学图像分割中的分层组采样理论。通过方差缩减估计的概念来构建ARCO，并表明某些方差缩减技术在医学图像分割中特别有益。 |
+| [^113] | [Follower Agnostic Methods for Stackelberg Games.](http://arxiv.org/abs/2302.01421) | 该论文提出了一种追随者不可知的方法来解决斯塔克贝格博弈中的问题，与其他现有作品不同的是，该算法不需要使用预估器或了解追随者的策略、效用函数。作者设计了一个两层循环算法，通过特别设计的策略探测追随者来更新领导者的策略，发现追随者的联合策略收敛于均衡。非渐进收敛速度到领导者目标的局部稳定点，并进一步展示了对领导者目标的局部极小值的渐进收敛。 |
+| [^114] | [Learning Large-scale Neural Fields via Context Pruned Meta-Learning.](http://arxiv.org/abs/2302.00617) | 通过上下文修剪元学习实现大规模神经场训练的优化， 显著节省内存，并能在短时间内学习高质量神经场。 |
+| [^115] | [State of the Art and Potentialities of Graph-level Learning.](http://arxiv.org/abs/2301.05860) | 本文主要介绍了图嵌入学习，它将一组图作为输入，自动提取特征并将图编码为低维表示。深度学习的发展使得图嵌入学习适应了日益增长的图规模，从而获得了很多成功，但是传统学习方法通常会受到计算瓶颈的影响。 |
+| [^116] | [Towards multi-document summarization in the open-domain.](http://arxiv.org/abs/2212.10526) | 本论文针对"开放领域"的多文档摘要任务进行研究，发现最先进的摘要器在此情境下性能下降严重，但进行额外的开放领域的训练可以降低对不完美检索的敏感性。 |
+| [^117] | [DePlot: One-shot visual language reasoning by plot-to-table translation.](http://arxiv.org/abs/2212.10505) | 本论文提出了一种名为DePlot的方法，它是一个模态转换模块，能够将图表的图像转换为线性化的表格。利用这个模块和预训练的大型语言模型的少量推理能力，我们开发了一种新的一次性视觉语言推理方法。 |
+| [^118] | [MatCha: Enhancing Visual Language Pretraining with Math Reasoning and Chart Derendering.](http://arxiv.org/abs/2212.09662) | 本文提出了一种新的预训练方法 MatCha ，提高了视觉语言模型在图表和语言数据联合建模方面的能力，取得了近20%的性能提升。 |
+| [^119] | [Large Language Models are reasoners with Self-Verification.](http://arxiv.org/abs/2212.09561) | 本文提出了一种新的自我验证方法，使用CoT的结论来构建新样本并要求LLM重新预测原始条件，以提高推理准确性。实验证明，LLMs可以对其自己的结论进行自我验证并实现竞争性的推理性能。 |
+| [^120] | [A fine-grained comparison of pragmatic language understanding in humans and language models.](http://arxiv.org/abs/2212.06801) | 本文对于人类和语言模型在实用语言理解方面进行了实验比较，研究发现较大的语言模型在实现字面解释方面表现较好，但在依赖社交方面的现象方面仍存在困难。 |
+| [^121] | [The Impact of Socioeconomic Factors on Health Disparities.](http://arxiv.org/abs/2212.04285) | 美国的高质量医疗保健对于某些社会经济群体来说成本过高，因此社会经济因素如收入和教育程度与健康的总体指标有很高的相关性。 |
+| [^122] | [Towards human-compatible autonomous car: A study of non-verbal Turing test in automated driving with affective transition modelling.](http://arxiv.org/abs/2212.02908) | 本文研究了自动驾驶汽车的人性化问题，通过非语言图灵测试，发现当前AI驾驶员不能创造类似人类的驾乘体验，需要在情感过渡模型中进行改进。 |
+| [^123] | [SciRepEval: A Multi-Format Benchmark for Scientific Document Representations.](http://arxiv.org/abs/2211.13308) | SciRepEval是第一个综合评估科学文献表示的全面基准，其中包括四种格式的 25 个任务。通过使用格式特定的控制代码和适配器，可以改进科学文献表示模型的泛化能力。 |
+| [^124] | [Conceptor-Aided Debiasing of Large Language Models.](http://arxiv.org/abs/2211.11087) | 本论文提出一种基于概念器的大型语言模型去偏见方法。我们通过后处理和一种新架构CI-BERT将概念器投影纳入所有层中。概念器后处理方法取得了最先进的去偏见结果，同时保持或改善了模型的性能。 |
+| [^125] | [NESTER: An Adaptive Neurosymbolic Method for Treatment Effect Estimation.](http://arxiv.org/abs/2211.04370) | NESTER是一种自适应的神经符号化方法进行治疗效果评估，将治疗效果估计的所有要求集成到一个框架中，该方法比现有最先进的方法在多个基准数据集上性能更好。 |
+| [^126] | [CLIP-Sculptor: Zero-Shot Generation of High-Fidelity and Diverse Shapes from Natural Language.](http://arxiv.org/abs/2211.01427) | 这篇论文提出了一种名为 CLIP-Sculptor 的方法，可以通过自然语言来生成和编辑高保真度和多样性的三维形状，且不需要 (文本，形状) 对训练，通过不同的潜在空间和改进的指导方法来实现更好的效果。 |
+| [^127] | [Visually-Aware Audio Captioning With Adaptive Audio-Visual Attention.](http://arxiv.org/abs/2210.16428) | 本文提出了一种自适应音频视觉关注的视觉感知音频字幕生成方法，通过利用视觉上下文来帮助解决音频字幕生成中的歧义声音问题。在AudioCaps上实验结果表明，该方法在机器翻译指标上取得了最佳结果。 |
+| [^128] | [Towards standardizing Korean Grammatical Error Correction: Datasets and Annotation.](http://arxiv.org/abs/2210.14389) | 本文提出了三个涵盖广泛韩语语法错误的数据集和一个KAGAS注释系统。我们使用这些数据集训练的基线模型，显示其在更广泛的错误类型上明显优于当前使用的统计韩语GEC系统(Hanspell)。 |
+| [^129] | [Universal Prompt Tuning for Graph Neural Networks.](http://arxiv.org/abs/2209.15240) | 本文介绍了一种名为Graph Prompt Feature（GPF）的新方法，可通用地调整预先训练过的图神经网络模型，操作于输入的特征空间，能够对应任何形式的Prompt函数。 |
+| [^130] | [Dynamics-Adaptive Continual Reinforcement Learning via Progressive Contextualization.](http://arxiv.org/abs/2209.00347) | 本文提出了动态自适应连续RL（DaCoRL）算法，在动态环境中运用了渐进式上下文化学习方法逐步聚类任务，学习一个上下文条件化策略，解决了连续强化学习过程中环境与任务变化带来的问题。 |
+| [^131] | [Domain-Specific Risk Minimization for Out-of-Distribution Generalization.](http://arxiv.org/abs/2208.08661) | 本篇论文提出了一种面向领域特定风险最小化的泛化框架(DRM)，该框架通过多分类器集成和在线目标样本适应来减少适应性差距，并在实验中表现出了明显优于现有方法的表现。 |
+| [^132] | [Generating Teammates for Training Robust Ad Hoc Teamwork Agents via Best-Response Diversity.](http://arxiv.org/abs/2207.14138) | 本论文旨在解决临时团队协作挑战，采用最佳响应多样性生成队友以提高学习者的稳健性。与基于领域知识的方法不同，不会出现表面上相似的队友，使得在与未知队友协作中表现更好。 |
+| [^133] | [Evaluating and Inducing Personality in Pre-trained Language Models.](http://arxiv.org/abs/2206.07550) | 本文提出了Machine Personality Inventory (MPI)数据集用于评估机器个性，通过评估，证明了预训练语言模型(LLM)具有个性。进一步提出了Personality Prompting (P^2)方法，用于以可控的方式诱导LLM具有特定个性。 |
+| [^134] | [Making Large Language Models Better Reasoners with Step-Aware Verifier.](http://arxiv.org/abs/2206.02336) | 本论文提出了一种名为DIVERSE的新方法，它使用多样的提示、验证器过滤不正确的答案并逐个验证每个推理步骤，以进一步增强语言模型的推理能力。 |
+| [^135] | [Augmentation-Aware Self-Supervision for Data-Efficient GAN Training.](http://arxiv.org/abs/2205.15677) | 本文提出一种增强感知的自监督判别器用于对生成数据及其增强参数的预测，从而提高判别器的表现和生成模型的性能，实现了数据有效的 GAN 训练。 |
+| [^136] | [Learning Meta Representations of One-shot Relations for Temporal Knowledge Graph Link Prediction.](http://arxiv.org/abs/2205.10621) | 本文提出了一个新的时间知识图谱推理模型，并拓展两个基本的时态知识图谱推理任务，即内插链接预测和外插链接预测到一次学习的境况中。实验结果表明，我们的模型在所有数据集上都表现出优秀的性能。 |
+| [^137] | [Action Languages Based Actual Causality for Computational Ethics: a Sound and Complete Implementation in ASP.](http://arxiv.org/abs/2205.02919) | 本论文提供了一种从实际因果关系（NESS测试）定义到逻辑编程的转换方法，可以处理复杂的因果关系，这对于计算伦理学中涉及道德责任和伦理规范的决策应用程序尤为重要。 |
+| [^138] | [Enhancing Cross-lingual Prompting with Dual Prompt Augmentation.](http://arxiv.org/abs/2202.07255) | 该论文提出了双重提示增强跨语言提示的方法DPA，利用语言无关的通用提示方法，大大缓解了数据稀缺问题。在XNLI任务上，该方法可以在仅有16个英语训练样本的情况下，将性能从34.99%提高到46.54%。 |
+| [^139] | [Different Affordances on Facebook and SMS Text Messaging Do Not Impede Generalization of Language-Based Predictive Models.](http://arxiv.org/abs/2202.01802) | 本研究研究了Facebook和短信文本之间的差异对基于语言的预测模型的泛化的影响，并发现这些差异并不会显著影响这些模型在这两个平台之间的相关性。 |
+| [^140] | [An Explainable-AI approach for Diagnosis of COVID-19 using MALDI-ToF Mass Spectrometry.](http://arxiv.org/abs/2109.14099) | 本文提出了一种基于可解释AI算法的基于MALDI-ToF质谱的COVID-19诊断方法，以提供准确、经济实惠且快速的COVID-19检测服务。 |
+| [^141] | [Deep Exploration for Recommendation Systems.](http://arxiv.org/abs/2109.12509) | 本文提出了一种深度探索方法以解决推荐系统中奖励稀少时的问题，并在高保真度的工业级模拟器下进行了实验，证明了该算法相比现有算法有很大的提升。 |
+| [^142] | [Can We Faithfully Represent Masked States to Compute Shapley Values on a DNN?.](http://arxiv.org/abs/2105.10719) | 本文提出了一种新的方法，使用因果模式来检查输入变量基准值的准确性，并使用这种方法计算Shapley值，同时提出了一种学习最优基准值的方法，并证明了其有效性。 |
+| [^143] | [Learning logic programs by explaining their failures.](http://arxiv.org/abs/2102.12551) | 本文介绍了一种基于解释失败的技术来进行归纳逻辑编程的学习方法。通过在样例上测试逻辑程序，我们用失败的子程序精细地解释其失败，并基于分析SLD树分支的算法进行实现。实验表明失败解释可以大大减少假设空间。 |
 
 # 详细
 
@@ -259,7 +260,21 @@
 
     We introduce ECHo, a diagnostic dataset of event causality inference grounded in visual-and-linguistic social scenarios. ECHo employs real-world human-centric deductive information collected from crime drama, bridging the gap in multimodal reasoning towards higher social intelligence through the elicitation of intermediate Theory-of-Mind (ToM). We propose a unified framework aligned with the Chain-of-Thought (CoT) paradigm to assess the reasoning capability of current AI systems. This ToM-enhanced CoT pipeline can accommodate and integrate various large foundation models in zero-shot visual-and-linguistic understanding. With this framework, we scrutinize the advanced large language and multimodal models via three complementary human-centric ECHo tasks. Further analysis demonstrates ECHo as a challenging dataset to expose imperfections and inconsistencies in reasoning.
     
-[^9]: 边缘聚焦：基于异常值的毒性检测中受损人群的识别
+[^9]: 逻辑约束下的部分可观察和多智能体马尔可夫决策过程的最优控制
+
+    Optimal Control of Logically Constrained Partially Observable and Multi-Agent Markov Decision Processes. (arXiv:2305.14736v1 [cs.AI])
+
+    [http://arxiv.org/abs/2305.14736](http://arxiv.org/abs/2305.14736)
+
+    本文介绍了一个用于部分可观察和多智能体马尔可夫决策过程的最优控制理论，能够使用时间逻辑规范表达约束，并提供了一种结构化的方法来合成策略以最大化累积奖励并保证约束条件的概率足够高。同时我们还提供了对信息不对称的多智能体设置进行最优控制的框架。
+
+    
+
+    自动化系统通常会产生逻辑约束，例如来自安全、操作或法规要求，可以用时间逻辑规范表达这些约束。系统状态通常是部分可观察的，可能包含具有共同目标但不同信息结构和约束的多个智能体。在本文中，我们首先引入了一个最优控制理论，用于具有有限线性时间逻辑约束的部分可观察马尔可夫决策过程（POMDP）。我们提供了一种结构化方法，用于合成策略，同时确保满足时间逻辑约束的概率足够高时最大化累积回报。我们的方法具有关于近似奖励最优性和约束满足的保证。然后我们在此基础上构建了一个对信息不对称的具有逻辑约束的多智能体设置进行最优控制的框架。我们阐述了该方法并给出了理论保证。
+
+    Autonomous systems often have logical constraints arising, for example, from safety, operational, or regulatory requirements. Such constraints can be expressed using temporal logic specifications. The system state is often partially observable. Moreover, it could encompass a team of multiple agents with a common objective but disparate information structures and constraints. In this paper, we first introduce an optimal control theory for partially observable Markov decision processes (POMDPs) with finite linear temporal logic constraints. We provide a structured methodology for synthesizing policies that maximize a cumulative reward while ensuring that the probability of satisfying a temporal logic constraint is sufficiently high. Our approach comes with guarantees on approximate reward optimality and constraint satisfaction. We then build on this approach to design an optimal control framework for logically constrained multi-agent settings with information asymmetry. We illustrate the
+    
+[^10]: 边缘聚焦：基于异常值的毒性检测中受损人群的识别
 
     Centering the Margins: Outlier-Based Identification of Harmed Populations in Toxicity Detection. (arXiv:2305.14735v1 [cs.CL])
 
@@ -273,7 +288,7 @@
 
     A standard method for measuring the impacts of AI on marginalized communities is to determine performance discrepancies between specified demographic groups. These approaches aim to address harms toward vulnerable groups, but they obscure harm patterns faced by intersectional subgroups or shared across demographic groups. We instead operationalize "the margins" as data points that are statistical outliers due to having demographic attributes distant from the "norm" and measure harms toward these outliers. We propose a Group-Based Performance Disparity Index (GPDI) that measures the extent to which a subdivision of a dataset into subgroups identifies those facing increased harms. We apply our approach to detecting disparities in toxicity detection and find that text targeting outliers is 28% to 86% more toxic for all types of toxicity examined. We also discover that model performance is consistently worse for demographic outliers, with disparities in error between outliers and non-outli
     
-[^10]: AutoDepthNet：使用普通深度和RGB相机进行高帧率深度图重建
+[^11]: AutoDepthNet：使用普通深度和RGB相机进行高帧率深度图重建
 
     AutoDepthNet: High Frame Rate Depth Map Reconstruction using Commodity Depth and RGB Cameras. (arXiv:2305.14731v1 [cs.CV])
 
@@ -287,7 +302,7 @@
 
     Depth cameras have found applications in diverse fields, such as computer vision, artificial intelligence, and video gaming. However, the high latency and low frame rate of existing commodity depth cameras impose limitations on their applications. We propose a fast and accurate depth map reconstruction technique to reduce latency and increase the frame rate in depth cameras. Our approach uses only a commodity depth camera and color camera in a hybrid camera setup; our prototype is implemented using a Kinect Azure depth camera at 30 fps and a high-speed RGB iPhone 11 Pro camera captured at 240 fps. The proposed network, AutoDepthNet, is an encoder-decoder model that captures frames from the high-speed RGB camera and combines them with previous depth frames to reconstruct a stream of high frame rate depth maps. On GPU, with a 480 x 270 output resolution, our system achieves an inference time of 8 ms, enabling real-time use at up to 200 fps with parallel processing. AutoDepthNet can estim
     
-[^11]: 基于交叉熵差异的上下文演示选择方法
+[^12]: 基于交叉熵差异的上下文演示选择方法
 
     In-Context Demonstration Selection with Cross Entropy Difference. (arXiv:2305.14726v1 [cs.CL])
 
@@ -301,7 +316,7 @@
 
     Large language models (LLMs) can use in-context demonstrations to improve performance on zero-shot tasks. However, selecting the best in-context examples is challenging because model performance can vary widely depending on the selected examples. We present a cross-entropy difference (CED) method for selecting in-context demonstrations. Our method is based on the observation that the effectiveness of in-context demonstrations negatively correlates with the perplexity of the test example by a language model that was finetuned on that demonstration. We utilize parameter efficient finetuning to train small models on training data that are used for computing the cross-entropy difference between a test example and every candidate in-context demonstration. This metric is used to rank and select in-context demonstrations independently for each test input. We evaluate our method on a mix-domain dataset that combines 8 benchmarks, representing 4 text generation tasks, showing that CED for in-co
     
-[^12]: 我寻觅一个隐喻：大语言模型和扩散模型共创视觉隐喻
+[^13]: 我寻觅一个隐喻：大语言模型和扩散模型共创视觉隐喻
 
     I Spy a Metaphor: Large Language Models and Diffusion Models Co-Create Visual Metaphors. (arXiv:2305.14724v1 [cs.CL])
 
@@ -315,7 +330,7 @@
 
     Visual metaphors are powerful rhetorical devices used to persuade or communicate creative ideas through images. Similar to linguistic metaphors, they convey meaning implicitly through symbolism and juxtaposition of the symbols. We propose a new task of generating visual metaphors from linguistic metaphors. This is a challenging task for diffusion-based text-to-image models, such as DALL$\cdot$E 2, since it requires the ability to model implicit meaning and compositionality. We propose to solve the task through the collaboration between Large Language Models (LLMs) and Diffusion Models: Instruct GPT-3 (davinci-002) with Chain-of-Thought prompting generates text that represents a visual elaboration of the linguistic metaphor containing the implicit meaning and relevant objects, which is then used as input to the diffusion-based text-to-image models.Using a human-AI collaboration framework, where humans interact both with the LLM and the top-performing diffusion model, we create a high-qu
     
-[^13]: BLIP-Diffusion: 用于可控文本到图像生成和编辑的预训练主体表征模型
+[^14]: BLIP-Diffusion: 用于可控文本到图像生成和编辑的预训练主体表征模型
 
     BLIP-Diffusion: Pre-trained Subject Representation for Controllable Text-to-Image Generation and Editing. (arXiv:2305.14720v1 [cs.CV])
 
@@ -329,7 +344,7 @@
 
     Subject-driven text-to-image generation models create novel renditions of an input subject based on text prompts. Existing models suffer from lengthy fine-tuning and difficulties preserving the subject fidelity. To overcome these limitations, we introduce BLIP-Diffusion, a new subject-driven image generation model that supports multimodal control which consumes inputs of subject images and text prompts. Unlike other subject-driven generation models, BLIP-Diffusion introduces a new multimodal encoder which is pre-trained to provide subject representation. We first pre-train the multimodal encoder following BLIP-2 to produce visual representation aligned with the text. Then we design a subject representation learning task which enables a diffusion model to leverage such visual representation and generates new subject renditions. Compared with previous methods such as DreamBooth, our model enables zero-shot subject-driven generation, and efficient fine-tuning for customized subject with u
     
-[^14]: 利用多重定义建模来挖掘上下文和定义之间的关联
+[^15]: 利用多重定义建模来挖掘上下文和定义之间的关联
 
     Exploiting Correlations Between Contexts and Definitions with Multiple Definition Modeling. (arXiv:2305.14717v1 [cs.CL])
 
@@ -343,7 +358,7 @@
 
     Definition modeling is an important task in advanced natural language applications such as understanding and conversation. Since its introduction, it focus on generating one definition for a target word or phrase in a given context, which we refer to as Single Definition Modeling (SDM). However, this approach does not adequately model the correlations and patterns among different contexts and definitions of words. In addition, the creation of a training dataset for SDM requires significant human expertise and effort. In this paper, we carefully design a new task called Multiple Definition Modeling (MDM) that pool together all contexts and definition of target words. We demonstrate the ease of creating a model as well as multiple training sets automatically. % In the experiments, we demonstrate and analyze the benefits of MDM, including improving SDM's performance by using MDM as the pretraining task and its comparable performance in the zero-shot setting.
     
-[^15]: 自动泊车的鱼眼摄像头流式目标检测系统
+[^16]: 自动泊车的鱼眼摄像头流式目标检测系统
 
     Streaming Object Detection on Fisheye Cameras for Automatic Parking. (arXiv:2305.14713v1 [cs.CV])
 
@@ -357,7 +372,7 @@
 
     Fisheye cameras are widely employed in automatic parking, and the video stream object detection (VSOD) of the fisheye camera is a fundamental perception function to ensure the safe operation of vehicles. In past research work, the difference between the output of the deep learning model and the actual situation at the current moment due to the existence of delay of the perception system is generally ignored. But the environment will inevitably change within the delay time which may cause a potential safety hazard. In this paper, we propose a real-time detection framework equipped with a dual-flow perception module (dynamic and static flows) that can predict the future and alleviate the time-lag problem. Meanwhile, we use a new scheme to evaluate latency and accuracy. The standard bounding box is unsuitable for the object in fisheye camera images due to the strong radial distortion of the fisheye camera and the primary detection objects of parking perception are vehicles and pedestrians
     
-[^16]: 训练指令作为后门: 大规模语言模型指令调整的后门漏洞
+[^17]: 训练指令作为后门: 大规模语言模型指令调整的后门漏洞
 
     Instructions as Backdoors: Backdoor Vulnerabilities of Instruction Tuning for Large Language Models. (arXiv:2305.14710v1 [cs.CL])
 
@@ -371,7 +386,7 @@
 
     Instruction-tuned models are trained on crowdsourcing datasets with task instructions to achieve superior performance. However, in this work we raise security concerns about this training paradigm. Our studies demonstrate that an attacker can inject backdoors by issuing very few malicious instructions among thousands of gathered data and control model behavior through data poisoning, without even the need of modifying data instances or labels themselves. Through such instruction attacks, the attacker can achieve over 90% attack success rate across four commonly used NLP datasets, and cause persistent backdoors that are easily transferred to 15 diverse datasets zero-shot. In this way, the attacker can directly apply poisoned instructions designed for one dataset on many other datasets. Moreover, the poisoned model cannot be cured by continual learning. Lastly, instruction attacks show resistance to existing inference-time defense. These findings highlight the need for more robust defens
     
-[^17]: 学生超越了大师：基于GPT-3的科学事实错误校正方法的匹配
+[^18]: 学生超越了大师：基于GPT-3的科学事实错误校正方法的匹配
 
     The student becomes the master: Matching GPT3 on Scientific Factual Error Correction. (arXiv:2305.14707v1 [cs.CL])
 
@@ -385,7 +400,7 @@
 
     Due to the prohibitively high cost of creating error correction datasets, most Factual Claim Correction methods rely on a powerful verification model to guide the correction process. This leads to a significant drop in performance in domains like Scientific Claim Correction, where good verification models do not always exist. In this work, we introduce a claim correction system that makes no domain assumptions and does not require a verifier but is able to outperform existing methods by an order of magnitude -- achieving 94% correction accuracy on the SciFact dataset, and 62.5% on the SciFact-Open dataset, compared to the next best methods 0.5% and 1.50% respectively. Our method leverages the power of prompting with LLMs during training to create a richly annotated dataset that can be used for fully supervised training and regularization. We additionally use a claim-aware decoding procedure to improve the quality of corrected claims. Our method is competitive with the very LLM that was
     
-[^18]: PruMUX：利用模型压缩增强数据复用
+[^19]: PruMUX：利用模型压缩增强数据复用
 
     PruMUX: Augmenting Data Multiplexing with Model Compression. (arXiv:2305.14706v1 [cs.LG])
 
@@ -399,7 +414,7 @@
 
     As language models increase in size by the day, methods for efficient inference are critical to leveraging their capabilities for various applications. Prior work has investigated techniques like model pruning, knowledge distillation, and data multiplexing to increase model throughput without sacrificing accuracy. In this paper, we combine two such methods -structured pruning and data multiplexing -- to compound the speedup gains obtained by either method. Our approach, PruMUX, obtains up to 7.5-29.5X throughput improvement over BERT-base model with accuracy threshold from 80% to 74%. We further study various combinations of parameters (such as sparsity and multiplexing factor) in the two techniques to provide a comprehensive analysis of the tradeoff between accuracy and throughput in the resulting models. We then propose Auto-PruMUX, a meta-level model that can predict the high-performance parameters for pruning and multiplexing given a desired accuracy loss budget, providing a prac
     
-[^19]: 论文标题：将贝叶斯先验注入神经网络中进行快速语言学习建模
+[^20]: 论文标题：将贝叶斯先验注入神经网络中进行快速语言学习建模
 
     Modeling rapid language learning by distilling Bayesian priors into artificial neural networks. (arXiv:2305.14701v1 [cs.CL])
 
@@ -413,7 +428,7 @@
 
     Humans can learn languages from remarkably little experience. Developing computational models that explain this ability has been a major challenge in cognitive science. Bayesian models that build in strong inductive biases factors that guide generalization - have been successful at explaining how humans might generalize from few examples in controlled settings but are usually too restrictive to be tractably applied to more naturalistic data. By contrast, neural networks have flexible representations that allow them to learn well from naturalistic data but require many more examples than humans receive. We show that learning from limited naturalistic data is possible with an approach that combines the strong inductive biases of a Bayesian model with the flexible representations of a neural network. This approach works by distilling a Bayesian model's biases into a neural network. Like a Bayesian model, the resulting system can learn formal linguistic patterns from a small number of ex
     
-[^20]: 大型语言模型中的实体偏见：一种因果视角
+[^21]: 大型语言模型中的实体偏见：一种因果视角
 
     A Causal View of Entity Bias in (Large) Language Models. (arXiv:2305.14695v1 [cs.CL])
 
@@ -427,7 +442,7 @@
 
     Entity bias widely affects pretrained (large) language models, causing them to excessively rely on (biased) parametric knowledge to make unfaithful predictions. Although causality-inspired methods have shown great potential to mitigate entity bias, it is hard to precisely estimate the parameters of underlying causal models in practice. The rise of black-box LLMs also makes the situation even worse, because of their inaccessible parameters and uncalibrated logits. To address these problems, we propose a specific structured causal model (SCM) whose parameters are comparatively easier to estimate. Building upon this SCM, we propose causal intervention techniques to mitigate entity bias for both white-box and black-box settings. The proposed causal intervention perturbs the original entity with neighboring entities. This intervention reduces specific biasing information pertaining to the original entity while still preserving sufficient common predictive information from similar entities. 
     
-[^21]: 专家提示：指导大型语言模型成为杰出的专家
+[^22]: 专家提示：指导大型语言模型成为杰出的专家
 
     ExpertPrompting: Instructing Large Language Models to be Distinguished Experts. (arXiv:2305.14688v1 [cs.CL])
 
@@ -441,7 +456,7 @@
 
     The answering quality of an aligned large language model (LLM) can be drastically improved if treated with proper crafting of prompts. In this paper, we propose ExpertPrompting to elicit the potential of LLMs to answer as distinguished experts. We first utilize In-Context Learning to automatically synthesize detailed and customized descriptions of the expert identity for each specific instruction, and then ask LLMs to provide answer conditioned on such agent background. Based on this augmented prompting strategy, we produce a new set of instruction-following data using GPT-3.5, and train a competitive open-source chat assistant called ExpertLLaMA. We employ GPT4-based evaluation to show that 1) the expert data is of significantly higher quality than vanilla answers, and 2) ExpertLLaMA outperforms existing open-source opponents and achieves 96\% of the original ChatGPT's capability. All data and the ExpertLLaMA model will be made publicly available at \url{https://github.com/OFA-Sys/Exp
     
-[^22]: RSRM: 强化符号回归机器
+[^23]: RSRM: 强化符号回归机器
 
     RSRM: Reinforcement Symbolic Regression Machine. (arXiv:2305.14656v1 [cs.LG])
 
@@ -455,7 +470,7 @@
 
     In nature, the behaviors of many complex systems can be described by parsimonious math equations. Automatically distilling these equations from limited data is cast as a symbolic regression process which hitherto remains a grand challenge. Keen efforts in recent years have been placed on tackling this issue and demonstrated success in symbolic regression. However, there still exist bottlenecks that current methods struggle to break when the discrete search space tends toward infinity and especially when the underlying math formula is intricate. To this end, we propose a novel Reinforcement Symbolic Regression Machine (RSRM) that masters the capability of uncovering complex math equations from only scarce data. The RSRM model is composed of three key modules: (1) a Monte Carlo tree search (MCTS) agent that explores optimal math expression trees consisting of pre-defined math operators and variables, (2) a Double Q-learning block that helps reduce the feasible search space of MCTS via pr
     
-[^23]: Barkour：用四足机器人基准测试动物级别的灵敏度
+[^24]: Barkour：用四足机器人基准测试动物级别的灵敏度
 
     Barkour: Benchmarking Animal-level Agility with Quadruped Robots. (arXiv:2305.14654v1 [cs.RO])
 
@@ -469,7 +484,7 @@
 
     Animals have evolved various agile locomotion strategies, such as sprinting, leaping, and jumping. There is a growing interest in developing legged robots that move like their biological counterparts and show various agile skills to navigate complex environments quickly. Despite the interest, the field lacks systematic benchmarks to measure the performance of control policies and hardware in agility. We introduce the Barkour benchmark, an obstacle course to quantify agility for legged robots. Inspired by dog agility competitions, it consists of diverse obstacles and a time based scoring mechanism. This encourages researchers to develop controllers that not only move fast, but do so in a controllable and versatile way. To set strong baselines, we present two methods for tackling the benchmark. In the first approach, we train specialist locomotion skills using on-policy reinforcement learning methods and combine them with a high-level navigation controller. In the second approach, we dis
     
-[^24]: 一种用于多元时间序列预测的联合时频域变换器
+[^25]: 一种用于多元时间序列预测的联合时频域变换器
 
     A Joint Time-frequency Domain Transformer for Multivariate Time Series Forecasting. (arXiv:2305.14649v1 [cs.LG])
 
@@ -483,7 +498,7 @@
 
     To enhance predicting performance while minimizing computational demands, this paper introduces a joint time-frequency domain Transformer (JTFT) for multivariate forecasting. The method exploits the sparsity of time series in the frequency domain using a small number of learnable frequencies to extract temporal dependencies effectively. Alongside the frequency domain representation, a fixed number of the most recent data points are directly encoded in the time domain, bolstering the learning of local relationships and mitigating the adverse effects of non-stationarity. JTFT achieves linear complexity since the length of the internal representation remains independent of the input sequence length. Additionally, a low-rank attention layer is proposed to efficiently capture cross-dimensional dependencies and prevent performance degradation due to the entanglement of temporal and channel-wise modeling. Experiments conducted on six real-world datasets demonstrate that JTFT outperforms state
     
-[^25]: CMOT: 通过最优传输进行跨模态Mixup，用于语音翻译
+[^26]: CMOT: 通过最优传输进行跨模态Mixup，用于语音翻译
 
     CMOT: Cross-modal Mixup via Optimal Transport for Speech Translation. (arXiv:2305.14635v1 [cs.CL])
 
@@ -497,7 +512,7 @@
 
     End-to-end speech translation (ST) is the task of translating speech signals in the source language into text in the target language. As a cross-modal task, end-to-end ST is difficult to train with limited data. Existing methods often try to transfer knowledge from machine translation (MT), but their performances are restricted by the modality gap between speech and text. In this paper, we propose Cross-modal Mixup via Optimal Transport CMOT to overcome the modality gap. We find the alignment between speech and text sequences via optimal transport and then mix up the sequences from different modalities at a token level using the alignment. Experiments on the MuST-C ST benchmark demonstrate that CMOT achieves an average BLEU of 30.0 in 8 translation directions, outperforming previous methods. Further analysis shows CMOT can adaptively find the alignment between modalities, which helps alleviate the modality gap between speech and text. Code is publicly available at https://github.com/ic
     
-[^26]: 通过互斥解释开展诱导式常识推理
+[^27]: 通过互斥解释开展诱导式常识推理
 
     Abductive Commonsense Reasoning Exploiting Mutually Exclusive Explanations. (arXiv:2305.14618v1 [cs.CL])
 
@@ -511,7 +526,7 @@
 
     Abductive reasoning aims to find plausible explanations for an event. This style of reasoning is critical for commonsense tasks where there are often multiple plausible explanations. Existing approaches for abductive reasoning in natural language processing (NLP) often rely on manually generated annotations for supervision; however, such annotations can be subjective and biased. Instead of using direct supervision, this work proposes an approach for abductive commonsense reasoning that exploits the fact that only a subset of explanations is correct for a given context. The method uses posterior regularization to enforce a mutual exclusion constraint, encouraging the model to learn the distinction between fluent explanations and plausible ones. We evaluate our approach on a diverse set of abductive reasoning datasets; experimental results show that our approach outperforms or is comparable to directly applying pretrained language models in a zero-shot manner and other knowledge-augmente
     
-[^27]: COMET-M: 在复杂句子中推理多个事件
+[^28]: COMET-M: 在复杂句子中推理多个事件
 
     COMET-M: Reasoning about Multiple Events in Complex Sentences. (arXiv:2305.14617v1 [cs.CL])
 
@@ -525,7 +540,7 @@
 
     Understanding the speaker's intended meaning often involves drawing commonsense inferences to reason about what is not stated explicitly. In multi-event sentences, it requires understanding the relationships between events based on contextual knowledge. We propose COMET-M (Multi-Event), an event-centric commonsense model capable of generating commonsense inferences for a target event within a complex sentence. COMET-M builds upon COMET (Bosselut et al., 2019), which excels at generating event-centric inferences for simple sentences, but struggles with the complexity of multi-event sentences prevalent in natural text. To overcome this limitation, we curate a multi-event inference dataset of 35K human-written inferences. We trained COMET-M on the human-written inferences and also created baselines using automatically labeled examples. Experimental results demonstrate the significant performance improvement of COMET-M over COMET in generating multi-event inferences. Moreover, COMET-M succ
     
-[^28]: 对模糊问题的有选择性回答
+[^29]: 对模糊问题的有选择性回答
 
     Selectively Answering Ambiguous Questions. (arXiv:2305.14613v1 [cs.CL])
 
@@ -539,7 +554,7 @@
 
     Trustworthy language models should abstain from answering questions when they do not know the answer. However, the answer to a question can be unknown for a variety of reasons. Prior research has focused on the case in which the question is clear and the answer is unambiguous but possibly unknown. However, the answer to a question can also be unclear due to uncertainty of the questioner's intent or context. We investigate question answering from this perspective, focusing on answering a subset of questions with a high degree of accuracy, from a set of questions in which many are inherently ambiguous. In this setting, we find that the most reliable approach to calibration involves quantifying repetition within a set of sampled model outputs, rather than the model's likelihood or self-verification as used in prior work. % We find this to be the case across different types of uncertainty, varying model scales and both with or without instruction tuning. Our results suggest that sampling-b
     
-[^29]: 她们的声音：分析人工智能出版领域的性别差异
+[^30]: 她们的声音：分析人工智能出版领域的性别差异
 
     Voices of Her: Analyzing Gender Differences in the AI Publication World. (arXiv:2305.14597v1 [cs.CL])
 
@@ -553,7 +568,7 @@
 
     While several previous studies have analyzed gender bias in research, we are still missing a comprehensive analysis of gender differences in the AI community, covering diverse topics and different development trends. Using the AI Scholar dataset of 78K researchers in the field of AI, we identify several gender differences: (1) Although female researchers tend to have fewer overall citations than males, this citation difference does not hold for all academic-age groups; (2) There exist large gender homophily in co-authorship on AI papers; (3) Female first-authored papers show distinct linguistic styles, such as longer text, more positive emotion words, and more catchy titles than male first-authored papers. Our analysis provides a window into the current demographic trends in our AI community, and encourages more gender equality and diversity in the future. Our code and data are at https://github.com/causalNLP/ai-scholar-gender.
     
-[^30]: RE$^2$: 面向视觉丰富文档的区域感知关系抽取
+[^31]: RE$^2$: 面向视觉丰富文档的区域感知关系抽取
 
     RE$^2$: Region-Aware Relation Extraction from Visually Rich Documents. (arXiv:2305.14590v1 [cs.CL])
 
@@ -567,7 +582,7 @@
 
     Current research in form understanding predominantly relies on large pre-trained language models, necessitating extensive data for pre-training. However, the importance of layout structure (i.e., the spatial relationship between the entity blocks in the visually rich document) to relation extraction has been overlooked. In this paper, we propose REgion-Aware Relation Extraction (RE$^2$) that leverages region-level spatial structure among the entity blocks to improve their relation prediction. We design an edge-aware graph attention network to learn the interaction between entities while considering their spatial relationship defined by their region-level representations. We also introduce a constraint objective to regularize the model towards consistency with the inherent constraints of the relation extraction task. Extensive experiments across various datasets, languages and domains demonstrate the superiority of our proposed approach.
     
-[^31]: 时间序列深度模型的解释：一项调查
+[^32]: 时间序列深度模型的解释：一项调查
 
     Interpretation of Time-Series Deep Models: A Survey. (arXiv:2305.14582v1 [cs.LG])
 
@@ -581,7 +596,7 @@
 
     Deep learning models developed for time-series associated tasks have become more widely researched nowadays. However, due to the unintuitive nature of time-series data, the interpretability problem -- where we understand what is under the hood of these models -- becomes crucial. The advancement of similar studies in computer vision has given rise to many post-hoc methods, which can also shed light on how to explain time-series models. In this paper, we present a wide range of post-hoc interpretation methods for time-series models based on backpropagation, perturbation, and approximation. We also want to bring focus onto inherently interpretable models, a novel category of interpretation where human-understandable information is designed within the models. Furthermore, we introduce some common evaluation metrics used for the explanations, and propose several directions of future researches on the time-series interpretability problem. As a highlight, our work summarizes not only the well
     
-[^32]: 评估OpenAI提供的Whisper ASR在Museum of the Person的生活史中进行标点符号预测和主题建模的效果
+[^33]: 评估OpenAI提供的Whisper ASR在Museum of the Person的生活史中进行标点符号预测和主题建模的效果
 
     Evaluating OpenAI's Whisper ASR for Punctuation Prediction and Topic Modeling of life histories of the Museum of the Person. (arXiv:2305.14580v1 [cs.CL])
 
@@ -595,7 +610,7 @@
 
     Automatic speech recognition (ASR) systems play a key role in applications involving human-machine interactions. Despite their importance, ASR models for the Portuguese language proposed in the last decade have limitations in relation to the correct identification of punctuation marks in automatic transcriptions, which hinder the use of transcriptions by other systems, models, and even by humans. However, recently Whisper ASR was proposed by OpenAI, a general-purpose speech recognition model that has generated great expectations in dealing with such limitations. This chapter presents the first study on the performance of Whisper for punctuation prediction in the Portuguese language. We present an experimental evaluation considering both theoretical aspects involving pausing points (comma) and complete ideas (exclamation, question, and fullstop), as well as practical aspects involving transcript-based topic modeling - an application dependent on punctuation marks for promising performan
     
-[^33]: 负反馈训练：提高NVCiM DNN加速器鲁棒性的新概念
+[^34]: 负反馈训练：提高NVCiM DNN加速器鲁棒性的新概念
 
     Negative Feedback Training: A Novel Concept to Improve Robustness of NVCiM DNN Accelerators. (arXiv:2305.14561v1 [cs.LG])
 
@@ -609,7 +624,7 @@
 
     Compute-in-Memory (CiM) utilizing non-volatile memory (NVM) devices presents a highly promising and efficient approach for accelerating deep neural networks (DNNs). By concurrently storing network weights and performing matrix operations within the same crossbar structure, CiM accelerators offer DNN inference acceleration with minimal area requirements and exceptional energy efficiency. However, the stochasticity and intrinsic variations of NVM devices often lead to performance degradation, such as reduced classification accuracy, compared to expected outcomes. Although several methods have been proposed to mitigate device variation and enhance robustness, most of them rely on overall modulation and lack constraints on the training process. Drawing inspiration from the negative feedback mechanism, we introduce a novel training approach that uses a multi-exit mechanism as negative feedback to enhance the performance of DNN models in the presence of device variation. Our negative feedbac
     
-[^34]: 揭示ChatGPT: AI-生成面向目标的对话和注释的关键分析
+[^35]: 揭示ChatGPT: AI-生成面向目标的对话和注释的关键分析
 
     Unraveling ChatGPT: A Critical Analysis of AI-Generated Goal-Oriented Dialogues and Annotations. (arXiv:2305.14556v1 [cs.CL])
 
@@ -623,7 +638,7 @@
 
     Large pre-trained language models have exhibited unprecedented capabilities in producing high-quality text via prompting techniques. This fact introduces new possibilities for data collection and annotation, particularly in situations where such data is scarce, complex to gather, expensive, or even sensitive. In this paper, we explore the potential of these models to generate and annotate goal-oriented dialogues, and conduct an in-depth analysis to evaluate their quality. Our experiments employ ChatGPT, and encompass three categories of goal-oriented dialogues (task-oriented, collaborative, and explanatory), two generation modes (interactive and one-shot), and two languages (English and Italian). Based on extensive human-based evaluations, we demonstrate that the quality of generated dialogues and annotations is on par with those generated by humans.
     
-[^35]: 所有道路通往罗马？探究Transformer表示的不变性。
+[^36]: 所有道路通往罗马？探究Transformer表示的不变性。
 
     All Roads Lead to Rome? Exploring the Invariance of Transformers' Representations. (arXiv:2305.14555v1 [cs.CL])
 
@@ -637,7 +652,7 @@
 
     Transformer models bring propelling advances in various NLP tasks, thus inducing lots of interpretability research on the learned representations of the models. However, we raise a fundamental question regarding the reliability of the representations. Specifically, we investigate whether transformers learn essentially isomorphic representation spaces, or those that are sensitive to the random seeds in their pretraining process. In this work, we formulate the Bijection Hypothesis, which suggests the use of bijective methods to align different models' representation spaces. We propose a model based on invertible neural networks, BERT-INN, to learn the bijection more effectively than other existing bijective methods such as the canonical correlation analysis (CCA). We show the advantage of BERT-INN both theoretically and through extensive experiments, and apply it to align the reproduced BERT embeddings to draw insights that are meaningful to the interpretability research. Our code is at 
     
-[^36]: 对抗机器学习与网络安全：风险、挑战和法律影响
+[^37]: 对抗机器学习与网络安全：风险、挑战和法律影响
 
     Adversarial Machine Learning and Cybersecurity: Risks, Challenges, and Legal Implications. (arXiv:2305.14553v1 [cs.CR])
 
@@ -651,7 +666,7 @@
 
     In July 2022, the Center for Security and Emerging Technology (CSET) at Georgetown University and the Program on Geopolitics, Technology, and Governance at the Stanford Cyber Policy Center convened a workshop of experts to examine the relationship between vulnerabilities in artificial intelligence systems and more traditional types of software vulnerabilities. Topics discussed included the extent to which AI vulnerabilities can be handled under standard cybersecurity processes, the barriers currently preventing the accurate sharing of information about AI vulnerabilities, legal issues associated with adversarial attacks on AI systems, and potential areas where government support could improve AI vulnerability management and mitigation.  This report is meant to accomplish two things. First, it provides a high-level discussion of AI vulnerabilities, including the ways in which they are disanalogous to other types of vulnerabilities, and the current state of affairs regarding information 
     
-[^37]: 序列建模是离线强化学习的一个强有力的竞争者。
+[^38]: 序列建模是离线强化学习的一个强有力的竞争者。
 
     Sequence Modeling is a Robust Contender for Offline Reinforcement Learning. (arXiv:2305.14550v1 [cs.LG])
 
@@ -665,7 +680,7 @@
 
     Offline reinforcement learning (RL) allows agents to learn effective, return-maximizing policies from a static dataset. Three major paradigms for offline RL are Q-Learning, Imitation Learning, and Sequence Modeling. A key open question is: which paradigm is preferred under what conditions? We study this question empirically by exploring the performance of representative algorithms -- Conservative Q-Learning (CQL), Behavior Cloning (BC), and Decision Transformer (DT) -- across the commonly used D4RL and Robomimic benchmarks. We design targeted experiments to understand their behavior concerning data suboptimality and task complexity. Our key findings are: (1) Sequence Modeling requires more data than Q-Learning to learn competitive policies but is more robust; (2) Sequence Modeling is a substantially better choice than both Q-Learning and Imitation Learning in sparse-reward and low-quality data settings; and (3) Sequence Modeling and Imitation Learning are preferable as task horizon inc
     
-[^38]: 级联束搜索：用于神经机器翻译的即插即用术语约束方法
+[^39]: 级联束搜索：用于神经机器翻译的即插即用术语约束方法
 
     Cascaded Beam Search: Plug-and-Play Terminology-Forcing For Neural Machine Translation. (arXiv:2305.14538v1 [cs.CL])
 
@@ -679,7 +694,7 @@
 
     This paper presents a plug-and-play approach for translation with terminology constraints. Terminology constraints are an important aspect of many modern translation pipelines. In both specialized domains and newly emerging domains (such as the COVID-19 pandemic), accurate translation of technical terms is crucial. Recent approaches often train models to copy terminologies from the input into the output sentence by feeding the target terminology along with the input. But this requires expensive training whenever the underlying language model is changed or the system should specialize to a new domain. We propose Cascade Beam Search, a plug-and-play terminology-forcing approach that requires no training. Cascade Beam Search has two parts: 1) logit manipulation to increase the probability of target terminologies and 2) a cascading beam setup based on grid beam search, where beams are grouped by the number of terminologies they contain. We evaluate the performance of our approach by compet
     
-[^39]: 社交网络中的极端化防范
+[^40]: 社交网络中的极端化防范
 
     Disincentivizing Polarization in Social Networks. (arXiv:2305.14537v1 [cs.CY])
 
@@ -693,7 +708,7 @@
 
     On social networks, algorithmic personalization drives users into filter bubbles where they rarely see content that deviates from their interests. We present a model for content curation and personalization that avoids filter bubbles, along with algorithmic guarantees and nearly matching lower bounds. In our model, the platform interacts with $n$ users over $T$ timesteps, choosing content for each user from $k$ categories. The platform receives stochastic rewards as in a multi-arm bandit. To avoid filter bubbles, we draw on the intuition that if some users are shown some category of content, then all users should see at least a small amount of that content. We first analyze a naive formalization of this intuition and show it has unintended consequences: it leads to ``tyranny of the majority'' with the burden of diversification borne disproportionately by those with minority interests. This leads us to our model which distributes this burden more equitably. We require that the probabili
     
-[^40]: 在混合语言的社交媒体文本中检测宣传技术
+[^41]: 在混合语言的社交媒体文本中检测宣传技术
 
     Detecting Propaganda Techniques in Code-Switched Social Media Text. (arXiv:2305.14534v1 [cs.CL])
 
@@ -707,7 +722,7 @@
 
     Propaganda is a form of communication intended to influence the opinions and the mindset of the public to promote a particular agenda. With the rise of social media, propaganda has spread rapidly, leading to the need for automatic propaganda detection systems. Most work on propaganda detection has focused on high-resource languages, such as English, and little effort has been made to detect propaganda for low-resource languages. Yet, it is common to find a mix of multiple languages in social media communication, a phenomenon known as code-switching. Code-switching combines different languages within the same text, which poses a challenge for automatic systems. With this in mind, here we propose the novel task of detecting propaganda techniques in code-switched text. To support this task, we create a corpus of 1,030 texts code-switching between English and Roman Urdu, annotated with 20 propaganda techniques, which we make publicly available. We perform a number of experiments contrastin
     
-[^41]: CongFu: 用于药物协同预测的条件图融合
+[^42]: CongFu: 用于药物协同预测的条件图融合
 
     CongFu: Conditional Graph Fusion for Drug Synergy Prediction. (arXiv:2305.14517v1 [cs.LG])
 
@@ -721,7 +736,7 @@
 
     Drug synergy, characterized by the amplified combined effect of multiple drugs, presents a critical phenomenon for optimizing therapeutic outcomes. However, limited data on drug synergy, arising from the vast number of possible drug combinations and computational costs, motivate the need for predictive methods. In this work, we introduce CongFu, a novel Conditional Graph Fusion Layer, designed to predict drug synergy. CongFu employs an attention mechanism and a bottleneck to extract local graph contexts and conditionally fuse graph data within a global context. Its modular architecture enables flexible replacement of layer modules, including readouts and graph encoders, facilitating customization for diverse applications. To evaluate the performance of CongFu, we conduct comprehensive experiments on four datasets, encompassing three distinct setups for drug synergy prediction. Remarkably, CongFu achieves state-of-the-art results on 11 out of 12 benchmark datasets, demonstrating its abi
     
-[^42]: 用强化学习实现的顺序检索上下文示例的RetICL
+[^43]: 用强化学习实现的顺序检索上下文示例的RetICL
 
     RetICL: Sequential Retrieval of In-Context Examples with Reinforcement Learning. (arXiv:2305.14502v1 [cs.CL])
 
@@ -735,7 +750,7 @@
 
     Many recent developments in large language models focus on prompting them to perform specific tasks. One effective prompting method is in-context learning, where the model performs a (possibly new) generation/prediction task given one (or more) examples. Past work has shown that the choice of examples can make a large impact on task performance. However, finding good examples is not straightforward since the definition of a representative group of examples can vary greatly depending on the task. While there are many existing methods for selecting in-context examples, they generally score examples independently, ignoring the dependency between them and the order in which they are provided to the large language model. In this work, we propose Retrieval for In-Context Learning (RetICL), a learnable method for modeling and optimally selecting examples sequentially for in-context learning. We frame the problem of sequential example selection as a Markov decision process, design an example r
     
-[^43]: 自我精磨：通过问题精化增强大型语言模型的推理能力
+[^44]: 自我精磨：通过问题精化增强大型语言模型的推理能力
 
     Self-Polish: Enhance Reasoning in Large Language Models via Problem Refinement. (arXiv:2305.14497v1 [cs.CL])
 
@@ -749,7 +764,7 @@
 
     Prompting methods such as Chain-of-Thought (CoT) have shed new light on enhancing the reasoning capabilities of large language models, and researchers have extensively explored the generation process of rationales and answers. However, they have overlooked the potential challenges posed by the poor quality of reasoning problems, which may influence the reasoning performance significantly. In this work, we propose Self-Polish (SP), a novel method that facilitates the model's problem-solving process by prompting them to progressively refine the given problems to be more comprehensible and solvable. Specifically, the method teaches models to eliminate irrelevant information, rearrange the logic structure and organize local conditions into new ones parallelly. SP is orthogonal to all other prompting methods, making it convenient to integrate with state-of-the-art techniques for further improvement. We conduct thorough experiments on five benchmarks to illustrate the effectiveness of the pr
     
-[^44]: BAND: 生物医学警报新闻数据集
+[^45]: BAND: 生物医学警报新闻数据集
 
     BAND: Biomedical Alert News Dataset. (arXiv:2305.14480v1 [cs.CL])
 
@@ -763,7 +778,7 @@
 
     Infectious disease outbreaks continue to pose a significant threat to human health and well-being. To improve disease surveillance and understanding of disease spread, several surveillance systems have been developed to monitor daily news alerts and social media. However, existing systems lack thorough epidemiological analysis in relation to corresponding alerts or news, largely due to the scarcity of well-annotated reports data. To address this gap, we introduce the Biomedical Alert News Dataset (BAND), which includes 1,508 samples from existing reported news articles, open emails, and alerts, as well as 30 epidemiology-related questions. These questions necessitate the model's expert reasoning abilities, thereby offering valuable insights into the outbreak of the disease. The BAND dataset brings new challenges to the NLP world, requiring better disguise capability of the content and the ability to infer important information. We provide several benchmark tasks, including Named Entity
     
-[^45]: 通过摘要二元性和显式大纲控制增强生成
+[^46]: 通过摘要二元性和显式大纲控制增强生成
 
     Enhancing Generation through Summarization Duality and Explicit Outline Control. (arXiv:2305.14459v1 [cs.CL])
 
@@ -777,7 +792,7 @@
 
     Automatically open-ended long text generation poses significant challenges due to semantic incoherence and plot implausibility. Previous works usually alleviate this problem through outlines in the form of short phrases or abstractive signals by designing unsupervised tasks, which tend to be unstable and weakly interpretable.  Assuming that a summary serves as a mature outline, we introduce a two-stage, summary-enhanced outline supervised generation framework. This framework leverages the dual characteristics of the summarization task to improve outline prediction, resulting in more explicit and plausible outlines. Furthermore, we identify an underutilization issue in outline-based generation with both standard pretrained language models (e.g., GPT-2, BART) and large language models (e.g., Vicuna, ChatGPT). To address this, we propose a novel explicit outline control method for more effective utilization of generated outlines.
     
-[^46]: 在祈祷之后喝啤酒？测量大型语言模型中的文化偏见。
+[^47]: 在祈祷之后喝啤酒？测量大型语言模型中的文化偏见。
 
     Having Beer after Prayer? Measuring Cultural Bias in Large Language Models. (arXiv:2305.14456v1 [cs.CL])
 
@@ -791,7 +806,7 @@
 
     Are language models culturally biased? It is important that language models conform to the cultural aspects of the communities they serve. However, we show in this paper that language models suffer from a significant bias towards Western culture when handling and generating text in Arabic, often preferring, and producing Western-fitting content as opposed to the relevant Arab content. We quantify this bias through a likelihood scoring-based metric using naturally occurring contexts that we collect from online social media. Our experiments reveal that both Arabic monolingual and multilingual models exhibit bias towards Western culture in eight different cultural aspects: person names, food, clothing, location, literature, beverage, religion, and sports. Models also tend to exhibit more bias when prompted with Arabic sentences that are more linguistically aligned with English. These findings raise concerns about the cultural relevance of current language models. Our analyses show that pr
     
-[^47]: 稀疏网格的核插值
+[^48]: 稀疏网格的核插值
 
     Kernel Interpolation with Sparse Grids. (arXiv:2305.14451v1 [cs.LG])
 
@@ -805,7 +820,7 @@
 
     Structured kernel interpolation (SKI) accelerates Gaussian process (GP) inference by interpolating the kernel covariance function using a dense grid of inducing points, whose corresponding kernel matrix is highly structured and thus amenable to fast linear algebra. Unfortunately, SKI scales poorly in the dimension of the input points, since the dense grid size grows exponentially with the dimension. To mitigate this issue, we propose the use of sparse grids within the SKI framework. These grids enable accurate interpolation, but with a number of points growing more slowly with dimension. We contribute a novel nearly linear time matrix-vector multiplication algorithm for the sparse grid kernel matrix. Next, we describe how sparse grids can be combined with an efficient interpolation scheme based on simplices. With these changes, we demonstrate that SKI can be scaled to higher dimensions while maintaining accuracy.
     
-[^48]: 图谱遇见LLM：一种用于稳健对话理解的协同过滤新方法
+[^49]: 图谱遇见LLM：一种用于稳健对话理解的协同过滤新方法
 
     Graph Meets LLM: A Novel Approach to Collaborative Filtering for Robust Conversational Understanding. (arXiv:2305.14449v1 [cs.AI])
 
@@ -819,7 +834,7 @@
 
     Conversational AI systems (e.g. Alexa, Siri, Google Assistant, etc.) need to understand queries with defects to ensure robust conversational understanding and reduce user frictions. The defective queries are often induced by user ambiguities and mistakes, or errors in the automatic speech recognition (ASR) and natural language understanding (NLU).  Personalized query rewriting (personalized QR) targets reducing defects in the torso and tail user query traffic, and it typically relies on an index of past successful user interactions with the conversational AI. This paper presents our "Collaborative Query Rewriting" approach that focuses on rewriting novel user interactions unseen in the user history. This approach builds a "user Feedback Interaction Graph" (FIG) consisting of historical user-entity interactions, and leverages multi-hop customer affinity to enrich each user's index (i.e. the Collaborative User Index) that would help cover future unseen defective queries. To counteract th
     
-[^49]: 通过多跳指令进行图像操作——一个新的数据集和基于弱监督的神经符号方法
+[^50]: 通过多跳指令进行图像操作——一个新的数据集和基于弱监督的神经符号方法
 
     Image Manipulation via Multi-Hop Instructions -- A New Dataset and Weakly-Supervised Neuro-Symbolic Approach. (arXiv:2305.14410v1 [cs.CV])
 
@@ -833,7 +848,7 @@
 
     We are interested in image manipulation via natural language text -- a task that is useful for multiple AI applications but requires complex reasoning over multi-modal spaces. We extend recently proposed Neuro Symbolic Concept Learning (NSCL), which has been quite effective for the task of Visual Question Answering (VQA), for the task of image manipulation. Our system referred to as NeuroSIM can perform complex multi-hop reasoning over multi-object scenes and only requires weak supervision in the form of annotated data for VQA. NeuroSIM parses an instruction into a symbolic program, based on a Domain Specific Language (DSL) comprising of object attributes and manipulation operations, that guides its execution. We create a new dataset for the task, and extensive experiments demonstrate that NeuroSIM is highly competitive with or beats SOTA baselines that make use of supervised data for manipulation.
     
-[^50]: 基于深度学习的在线时尚行业销量预测：一项案例研究
+[^51]: 基于深度学习的在线时尚行业销量预测：一项案例研究
 
     Deep Learning based Forecasting: a case study from the online fashion industry. (arXiv:2305.14406v1 [cs.LG])
 
@@ -847,7 +862,7 @@
 
     Demand forecasting in the online fashion industry is particularly amendable to global, data-driven forecasting models because of the industry's set of particular challenges. These include the volume of data, the irregularity, the high amount of turn-over in the catalog and the fixed inventory assumption. While standard deep learning forecasting approaches cater for many of these, the fixed inventory assumption requires a special treatment via controlling the relationship between price and demand closely. In this case study, we describe the data and our modelling approach for this forecasting problem in detail and present empirical results that highlight the effectiveness of our approach.
     
-[^51]: NeuralMatrix: 将整个神经网络移动到通用矩阵乘法以实现高效推理
+[^52]: NeuralMatrix: 将整个神经网络移动到通用矩阵乘法以实现高效推理
 
     NeuralMatrix: Moving Entire Neural Networks to General Matrix Multiplication for Efficient Inference. (arXiv:2305.14405v1 [cs.LG])
 
@@ -861,7 +876,7 @@
 
     In this study, we introduce NeuralMatrix, a novel framework that enables the computation of versatile deep neural networks (DNNs) on a single general matrix multiplication (GEMM) accelerator. The proposed approach overcomes the specificity limitations of ASIC-based accelerators while achieving application-specific acceleration levels compared to general-purpose processors such as CPUs and GPUs. We address the challenges of mapping both linear and nonlinear operations in DNN computation to general matrix multiplications and the impact of using a GEMM accelerator on DNN inference accuracy. Extensive experiments are conducted on various DNN models from three popular categories (i.e., CNN, Transformers, and GNN) as illustrative backbone models. Our results demonstrate that DNNs suffer only up to a 2.02% accuracy loss after being converted to general matrix multiplication, while achieving 113x to 19.44x improvements in throughput per power compared to CPUs and GPUs.
     
-[^52]: 融合结构功能的对抗解耦VAE表示学习用于MCI分析的脑结构-功能融合模型
+[^53]: 融合结构功能的对抗解耦VAE表示学习用于MCI分析的脑结构-功能融合模型
 
     Brain Structure-Function Fusing Representation Learning using Adversarial Decomposed-VAE for Analyzing MCI. (arXiv:2305.14404v1 [q-bio.NC])
 
@@ -875,7 +890,7 @@
 
     Integrating the brain structural and functional connectivity features is of great significance in both exploring brain science and analyzing cognitive impairment clinically. However, it remains a challenge to effectively fuse structural and functional features in exploring the brain network. In this paper, a novel brain structure-function fusing-representation learning (BSFL) model is proposed to effectively learn fused representation from diffusion tensor imaging (DTI) and resting-state functional magnetic resonance imaging (fMRI) for mild cognitive impairment (MCI) analysis. Specifically, the decomposition-fusion framework is developed to first decompose the feature space into the union of the uniform and the unique spaces for each modality, and then adaptively fuse the decomposed features to learn MCI-related representation. Moreover, a knowledge-aware transformer module is designed to automatically capture local and global connectivity features throughout the brain. Also, a uniform
     
-[^53]: 考虑延迟的分层自适应结构裁剪
+[^54]: 考虑延迟的分层自适应结构裁剪
 
     Layer-adaptive Structured Pruning Guided by Latency. (arXiv:2305.14403v1 [cs.CV])
 
@@ -889,7 +904,7 @@
 
     Structured pruning can simplify network architecture and improve inference speed. Combined with the underlying hardware and inference engine in which the final model is deployed, better results can be obtained by using latency collaborative loss function to guide network pruning together. Existing pruning methods that optimize latency have demonstrated leading performance, however, they often overlook the hardware features and connection in the network. To address this problem, we propose a global importance score SP-LAMP(Structured Pruning Layer-Adaptive Magnitude-based Pruning) by deriving a global importance score LAMP from unstructured pruning to structured pruning. In SP-LAMP, each layer includes a filter with an SP-LAMP score of 1, and the remaining filters are grouped. We utilize a group knapsack solver to maximize the SP-LAMP score under latency constraints. In addition, we improve the strategy of collect the latency to make it more accurate. In particular, for ResNet50/ResNet1
     
-[^54]: 基于路径归因的可信视觉模型解释的探索
+[^55]: 基于路径归因的可信视觉模型解释的探索
 
     Towards credible visual model interpretation with path attribution. (arXiv:2305.14395v1 [cs.CV])
 
@@ -903,7 +918,7 @@
 
     Originally inspired by game-theory, path attribution framework stands out among the post-hoc model interpretation tools due to its axiomatic nature. However, recent developments show that this framework can still suffer from counter-intuitive results. Moreover, specifically for deep visual models, the existing path-based methods also fall short on conforming to the original intuitions that are the basis of the claimed axiomatic properties of this framework. We address these problems with a systematic investigation, and pinpoint the conditions in which the counter-intuitive results can be avoided for deep visual model interpretation with the path attribution strategy. We also devise a scheme to preclude the conditions in which visual model interpretation can invalidate the axiomatic properties of path attribution. These insights are combined into a method that enables reliable visual model interpretation. Our findings are establish empirically with multiple datasets, models and evaluati
     
-[^55]: 无监督脉冲神经网络模型研究前额叶皮层中的任务切换和突触缺陷
+[^56]: 无监督脉冲神经网络模型研究前额叶皮层中的任务切换和突触缺陷
 
     Unsupervised Spiking Neural Network Model of Prefrontal Cortex to study Task Switching with Synaptic deficiency. (arXiv:2305.14394v1 [cs.NE])
 
@@ -917,7 +932,7 @@
 
     In this study, we build a computational model of Prefrontal Cortex (PFC) using Spiking Neural Networks (SNN) to understand how neurons adapt and respond to tasks switched under short and longer duration of stimulus changes. We also explore behavioral deficits arising out of the PFC lesions by simulating lesioned states in our Spiking architecture model. Although there are some computational models of the PFC, SNN's have not been used to model them. In this study, we use SNN's having parameters close to biologically plausible values and train the model using unsupervised Spike Timing Dependent Plasticity (STDP) learning rule. Our model is based on connectionist architectures and exhibits neural phenomena like sustained activity which helps in generating short-term or working memory. We use these features to simulate lesions by deactivating synaptic pathways and record the weight adjustments of learned patterns and capture the accuracy of learning tasks in such conditions. All our experi
     
-[^56]: 基于注意力机制的卷积神经网络在乳腺癌分割中的应用及可解释人工智能
+[^57]: 基于注意力机制的卷积神经网络在乳腺癌分割中的应用及可解释人工智能
 
     Breast Cancer Segmentation using Attention-based Convolutional Network and Explainable AI. (arXiv:2305.14389v1 [cs.CV])
 
@@ -931,7 +946,7 @@
 
     Breast cancer (BC) remains a significant health threat, with no long-term cure currently available. Early detection is crucial, yet mammography interpretation is hindered by high false positives and negatives. With BC incidence projected to surpass lung cancer, improving early detection methods is vital. Thermography, using high-resolution infrared cameras, offers promise, especially when combined with artificial intelligence (AI). This work presents an attention-based convolutional neural network for segmentation, providing increased speed and precision in BC detection and classification. The system enhances images and performs cancer segmentation with explainable AI. We propose a transformer-attention-based convolutional architecture (UNet) for fault identification and employ Gradient-weighted Class Activation Mapping (Grad-CAM) to analyze areas of bias and weakness in the UNet architecture with IRT images. The superiority of our proposed framework is confirmed when compared with exi
     
-[^57]: AlpacaFarm: 一种从人类反馈中学习的方法模拟框架
+[^58]: AlpacaFarm: 一种从人类反馈中学习的方法模拟框架
 
     AlpacaFarm: A Simulation Framework for Methods that Learn from Human Feedback. (arXiv:2305.14387v1 [cs.LG])
 
@@ -945,7 +960,7 @@
 
     Large language models (LLMs) such as ChatGPT have seen widespread adoption due to their ability to follow user instructions well. Developing these LLMs involves a complex yet poorly understood workflow requiring training with human feedback. Replicating and understanding this instruction-following process faces three major challenges: the high cost of data collection, the lack of trustworthy evaluation, and the absence of reference method implementations. We address these challenges with AlpacaFarm, a simulator that enables research and development for learning from feedback at a low cost. First, we design LLM prompts to simulate human feedback that are 45x cheaper than crowdworkers and display high agreement with humans. Second, we propose an automatic evaluation and validate it against human instructions obtained on real-world interactions. Third, we contribute reference implementations for several methods (PPO, best-of-n, expert iteration, and more) that learn from pairwise feedback
     
-[^58]: 让GPT成为数学教师：使用定制化练习生成教授数学应用题解决方法
+[^59]: 让GPT成为数学教师：使用定制化练习生成教授数学应用题解决方法
 
     Let GPT be a Math Tutor: Teaching Math Word Problem Solvers with Customized Exercise Generation. (arXiv:2305.14386v1 [cs.LG])
 
@@ -959,7 +974,7 @@
 
     In this paper, we present a novel approach for distilling math word problem solving capabilities from large language models (LLMs) into smaller, more efficient student models. Our approach is designed to consider the student model's weaknesses and foster a tailored learning experience by generating targeted exercises aligned with educational science principles, such as knowledge tracing and personalized learning. Concretely, we let GPT-3 be a math tutor and run two steps iteratively: 1) assessing the student model's current learning status on a GPT-generated exercise book, and 2) improving the student model by training it with tailored exercise samples generated by GPT-3. Experimental results reveal that our approach outperforms LLMs (e.g., GPT-3 and PaLM) in accuracy across three distinct benchmarks while employing significantly fewer parameters. Furthermore, we provide a comprehensive analysis of the various components within our methodology to substantiate their efficacy.
     
-[^59]: Adversarial Nibbler: 一种提高文本生成图像模型安全性的数据挑战
+[^60]: Adversarial Nibbler: 一种提高文本生成图像模型安全性的数据挑战
 
     Adversarial Nibbler: A Data-Centric Challenge for Improving the Safety of Text-to-Image Models. (arXiv:2305.14384v1 [cs.LG])
 
@@ -973,7 +988,7 @@
 
     The generative AI revolution in recent years has been spurred by an expansion in compute power and data quantity, which together enable extensive pre-training of powerful text-to-image (T2I) models. With their greater capabilities to generate realistic and creative content, these T2I models like DALL-E, MidJourney, Imagen or Stable Diffusion are reaching ever wider audiences. Any unsafe behaviors inherited from pretraining on uncurated internet-scraped datasets thus have the potential to cause wide-reaching harm, for example, through generated images which are violent, sexually explicit, or contain biased and derogatory stereotypes. Despite this risk of harm, we lack systematic and structured evaluation datasets to scrutinize model behavior, especially adversarial attacks that bypass existing safety filters. A typical bottleneck in safety evaluation is achieving a wide coverage of different types of challenging examples in the evaluation set, i.e., identifying 'unknown unknowns' or lon
     
-[^60]: 一个降维人类分类的理性模型
+[^61]: 一个降维人类分类的理性模型
 
     A Rational Model of Dimension-reduced Human Categorization. (arXiv:2305.14383v1 [cs.LG])
 
@@ -987,7 +1002,7 @@
 
     Existing models in cognitive science typically assume human categorization as graded generalization behavior in a multidimensional psychological space. However, category representations in these models may suffer from the curse of dimensionality in a natural setting. People generally rely on a tractable yet sufficient set of features to understand the complex environment. We propose a rational model of categorization based on a hierarchical mixture of probabilistic principal components, that simultaneously learn category representations and an economical collection of features. The model captures dimensional biases in human categorization and supports zero-shot learning. We further exploit a generative process within a low-dimensional latent space to provide a better account of categorization with high-dimensional stimuli. We validate the model with simulation and behavioral experiments.
     
-[^61]: 使用Informer网络进行股票和市场指数预测
+[^62]: 使用Informer网络进行股票和市场指数预测
 
     Stock and market index prediction using Informer network. (arXiv:2305.14382v1 [q-fin.ST])
 
@@ -1001,7 +1016,7 @@
 
     Applications of deep learning in financial market prediction has attracted huge attention from investors and researchers. In particular, intra-day prediction at the minute scale, the dramatically fluctuating volume and stock prices within short time periods have posed a great challenge for the convergence of networks result. Informer is a more novel network, improved on Transformer with smaller computational complexity, longer prediction length and global time stamp features. We have designed three experiments to compare Informer with the commonly used networks LSTM, Transformer and BERT on 1-minute and 5-minute frequencies for four different stocks/ market indices. The prediction results are measured by three evaluation criteria: MAE, RMSE and MAPE. Informer has obtained best performance among all the networks on every dataset. Network without the global time stamp mechanism has significantly lower prediction effect compared to the complete Informer; it is evident that this mechanism 
     
-[^62]: 连接多模态对比表示
+[^63]: 连接多模态对比表示
 
     Connecting Multi-modal Contrastive Representations. (arXiv:2305.14381v1 [cs.LG])
 
@@ -1015,7 +1030,7 @@
 
     Multi-modal Contrastive Representation (MCR) learning aims to encode different modalities into a semantically aligned shared space. This paradigm shows remarkable generalization ability on numerous downstream tasks across various modalities. However, the reliance on massive high-quality data pairs limits its further development on more modalities. This paper proposes a novel training-efficient method for learning MCR without paired data called Connecting Multi-modal Contrastive Representations (C-MCR). Specifically, given two existing MCRs pre-trained on (A, B) and (B, C) modality pairs, we project them to a new space and use the data from the overlapping modality B to aligning the two MCRs in the new space. Meanwhile, since the modality pairs (A, B) and (B, C) are already aligned within each MCR, the connection learned by overlapping modality can also be transferred to non-overlapping modality pair (A, C). To unleash the potential of C-MCR, we further introduce a semantic-enhanced int
     
-[^63]: 无监督地在球面上学习连续技能
+[^64]: 无监督地在球面上学习连续技能
 
     Unsupervised Discovery of Continuous Skills on a Sphere. (arXiv:2305.14377v1 [cs.LG])
 
@@ -1029,7 +1044,7 @@
 
     Recently, methods for learning diverse skills to generate various behaviors without external rewards have been actively studied as a form of unsupervised reinforcement learning. However, most of the existing methods learn a finite number of discrete skills, and thus the variety of behaviors that can be exhibited with the learned skills is limited. In this paper, we propose a novel method for learning potentially an infinite number of different skills, which is named discovery of continuous skills on a sphere (DISCS). In DISCS, skills are learned by maximizing mutual information between skills and states, and each skill corresponds to a continuous value on a sphere. Because the representations of skills in DISCS are continuous, infinitely diverse skills could be learned. We examine existing methods and DISCS in the MuJoCo Ant robot control environments and show that DISCS can learn much more diverse skills than the other methods.
     
-[^64]: 基于多图融合的道路网络节点重要性排序方法的学习。
+[^65]: 基于多图融合的道路网络节点重要性排序方法的学习。
 
     Learning to Rank the Importance of Nodes in Road Networks Based on Multi-Graph Fusion. (arXiv:2305.14375v1 [cs.LG])
 
@@ -1043,7 +1058,7 @@
 
     Identifying important nodes with strong propagation capabilities in road networks is a significant topic in the field of urban planning. However, existing methods for evaluating nodes importance consider only topological information and traffic volumes, ignoring the diversity of characteristics in road networks, such as the number of lanes and average speed of road segments, limiting their performance. To address this issue, this paper proposes a graph learning-based node ranking method (MGL2Rank) that integrates the rich characteristics of the road network. In this method, we first develop a sampling algorithm (MGWalk) that utilizes multi-graph fusion to establish association between road segments based on their attributes. Then, an embedding module is proposed to learn latent representation for each road segment. Finally, the obtained node representation is used to learn importance ranking of road segments. We conduct simulation experiments on the regional road network of Shenyang ci
     
-[^65]: 一种具有解释能力的集成半监督自适应共振理论模型用于模式分类
+[^66]: 一种具有解释能力的集成半监督自适应共振理论模型用于模式分类
 
     An Ensemble Semi-Supervised Adaptive Resonance Theory Model with Explanation Capability for Pattern Classification. (arXiv:2305.14373v1 [cs.NE])
 
@@ -1057,7 +1072,7 @@
 
     Most semi-supervised learning (SSL) models entail complex structures and iterative training processes as well as face difficulties in interpreting their predictions to users. To address these issues, this paper proposes a new interpretable SSL model using the supervised and unsupervised Adaptive Resonance Theory (ART) family of networks, which is denoted as SSL-ART. Firstly, SSL-ART adopts an unsupervised fuzzy ART network to create a number of prototype nodes using unlabeled samples. Then, it leverages a supervised fuzzy ARTMAP structure to map the established prototype nodes to the target classes using labeled samples. Specifically, a one-to-many (OtM) mapping scheme is devised to associate a prototype node with more than one class label. The main advantages of SSL-ART include the capability of: (i) performing online learning, (ii) reducing the number of redundant prototype nodes through the OtM mapping scheme and minimizing the effects of noisy samples, and (iii) providing an explan
     
-[^66]: 人工智能在预测和诊断精神分裂症中的作用调查
+[^67]: 人工智能在预测和诊断精神分裂症中的作用调查
 
     A Survey on the Role of Artificial Intelligence in the Prediction and Diagnosis of Schizophrenia. (arXiv:2305.14370v1 [q-bio.NC])
 
@@ -1071,7 +1086,7 @@
 
     Machine learning is employed in healthcare to draw approximate conclusions regarding human diseases and mental health problems. Compared to older traditional methods, it can help to analyze data more efficiently and produce better and more dependable results. Millions of people are affected by schizophrenia, which is a chronic mental disorder that can significantly impact their lives. Many machine learning algorithms have been developed to predict and prevent this disease, and they can potentially be implemented in the diagnosis of individuals who have it. This survey aims to review papers that have focused on the use of deep learning to detect and predict schizophrenia using EEG signals, functional magnetic resonance imaging (fMRI), and diffusion magnetic resonance imaging (dMRI). With our chosen search strategy, we assessed ten publications from 2019 to 2022. All studies achieved successful predictions of more than 80%. This review provides summaries of the studies and compares their
     
-[^67]: 通过人体软组织进行信息处理
+[^68]: 通过人体软组织进行信息处理
 
     Information processing via human soft tissue. (arXiv:2305.14366v1 [q-bio.NC])
 
@@ -1085,7 +1100,7 @@
 
     This study demonstrates that the soft biological tissues of humans can be used as a type of soft body in physical reservoir computing. Soft biological tissues possess characteristics such as stress-strain nonlinearity and viscoelasticity that satisfy the requirements for physical reservoir computing, including nonlinearity and memory. The aim of this study was to utilize the dynamics of human soft tissues as a physical reservoir for the emulation of nonlinear dynamical systems. To demonstrate this concept, joint angle data during motion in the flexion-extension direction of the wrist joint, and ultrasound images of the muscles associated with that motion, were acquired from human participants. The input to the system was the angle of the wrist joint, while the deformation field within the muscle (obtained from ultrasound images) represented the state of the reservoir. The results indicate that the dynamics of soft tissue have a positive impact on the computational task of emulating non
     
-[^68]: 面向人机交互机器人控制的连续学习巴甫洛夫信号传递方法
+[^69]: 面向人机交互机器人控制的连续学习巴甫洛夫信号传递方法
 
     Continually Learned Pavlovian Signalling Without Forgetting for Human-in-the-Loop Robotic Control. (arXiv:2305.14365v1 [cs.LG])
 
@@ -1099,7 +1114,7 @@
 
     Artificial limbs are sophisticated devices to assist people with tasks of daily living. Despite advanced robotic prostheses demonstrating similar motion capabilities to biological limbs, users report them difficult and non-intuitive to use. Providing more effective feedback from the device to the user has therefore become a topic of increased interest. In particular, prediction learning methods from the field of reinforcement learning -- specifically, an approach termed Pavlovian signalling -- have been proposed as one approach for better modulating feedback in prostheses since they can adapt during continuous use. One challenge identified in these learning methods is that they can forget previously learned predictions when a user begins to successfully act upon delivered feedback. The present work directly addresses this challenge, contributing new evidence on the impact of algorithmic choices, such as on- or off-policy methods and representation choices, on the Pavlovian signalling f
     
-[^69]: 个性化音乐治疗：神经计算建模视角
+[^70]: 个性化音乐治疗：神经计算建模视角
 
     Towards personalised music-therapy; a neurocomputational modelling perspective. (arXiv:2305.14364v1 [q-bio.NC])
 
@@ -1113,7 +1128,7 @@
 
     Music therapy has emerged recently as a successful intervention that improves patient's outcome in a large range of neurological and mood disorders without adverse effects. Brain networks are entrained to music in ways that can be explained both via top-down and bottom-up processes. In particular, the direct interaction of auditory with the motor and the reward system via a predictive framework explains the efficacy of music-based interventions in motor rehabilitation. In this manuscript, we provide a brief overview of current theories of music perception and processing. Subsequently, we summarise evidence of music-based interventions primarily in motor, emotional and cardiovascular regulation. We highlight opportunities to improve quality of life and reduce stress beyond the clinic environment and in healthy individuals. This relatively unexplored area requires an understanding of how we can personalise and automate music selection processes to fit individuals needs and tasks via feed
     
-[^70]: 利用面部图像控制语音合成的零样本个性化唇语转声方法
+[^71]: 利用面部图像控制语音合成的零样本个性化唇语转声方法
 
     Zero-shot personalized lip-to-speech synthesis with face image based voice control. (arXiv:2305.14359v1 [cs.MM])
 
@@ -1127,7 +1142,7 @@
 
     Lip-to-Speech (Lip2Speech) synthesis, which predicts corresponding speech from talking face images, has witnessed significant progress with various models and training strategies in a series of independent studies. However, existing studies can not achieve voice control under zero-shot condition, because extra speaker embeddings need to be extracted from natural reference speech and are unavailable when only the silent video of an unseen speaker is given. In this paper, we propose a zero-shot personalized Lip2Speech synthesis method, in which face images control speaker identities. A variational autoencoder is adopted to disentangle the speaker identity and linguistic content representations, which enables speaker embeddings to control the voice characteristics of synthetic speech for unseen speakers. Furthermore, we propose associated cross-modal representation learning to promote the ability of face-based speaker embeddings (FSE) on voice control. Extensive experiments verify the eff
     
-[^71]: DUBLIN——通过语言-图像网络进行文档理解
+[^72]: DUBLIN——通过语言-图像网络进行文档理解
 
     DUBLIN -- Document Understanding By Language-Image Network. (arXiv:2305.14218v2 [cs.CV] UPDATED)
 
@@ -1141,7 +1156,7 @@
 
     Visual document understanding is a complex task that involves analyzing both the text and the visual elements in document images. Existing models often rely on manual feature engineering or domain-specific pipelines, which limit their generalization ability across different document types and languages. In this paper, we propose DUBLIN, which is pretrained on web pages using three novel objectives: Masked Document Content Generation Task, Bounding Box Task, and Rendered Question Answering Task, that leverage both the spatial and semantic information in the document images. Our model achieves competitive or state-of-the-art results on several benchmarks, such as Web-Based Structural Reading Comprehension, Document Visual Question Answering, Key Information Extraction, Diagram Understanding, and Table Question Answering. In particular, we show that DUBLIN is the first pixel-based model to achieve an EM of 77.75 and F1 of 84.25 on the WebSRC dataset. We also show that our model outperform
     
-[^72]: GPT究竟有多老？HumBEL框架通过人群数据评估语言模型
+[^73]: GPT究竟有多老？HumBEL框架通过人群数据评估语言模型
 
     How Old is GPT?: The HumBEL Framework for Evaluating Language Models using Human Demographic Data. (arXiv:2305.14195v2 [cs.CL] UPDATED)
 
@@ -1155,7 +1170,7 @@
 
     While large pre-trained language models (LMs) find greater use across NLP, existing evaluation protocols do not consider how LM language use aligns with particular human demographic groups, which can be an important consideration in conversational AI applications. To remedy this gap, we consider how LM language skills can be measured and compared to human sub-populations. We suggest clinical techniques from Speech Language Pathology, which has well-established norms for acquisition of language skills, organized by (human) age. We conduct evaluation with a domain expert (i.e., a clinically licensed speech language pathologist), and also propose automated techniques to substitute clinical evaluation at scale. We find LM capability varies widely depending on task with GPT-3.5 mimicking the ability of a typical 6-9 year old at tasks requiring inference about word meanings and simultaneously outperforming a typical 21 year old at memorization. GPT-3.5 (InstructGPT) also has trouble with soc
     
-[^73]: DetGPT：通过推理找到你想要的
+[^74]: DetGPT：通过推理找到你想要的
 
     DetGPT: Detect What You Need via Reasoning. (arXiv:2305.14167v2 [cs.CV] UPDATED)
 
@@ -1169,7 +1184,7 @@
 
     In recent years, the field of computer vision has seen significant advancements thanks to the development of large language models (LLMs). These models have enabled more effective and sophisticated interactions between humans and machines, paving the way for novel techniques that blur the lines between human and machine intelligence. In this paper, we introduce a new paradigm for object detection that we call reasoning-based object detection. Unlike conventional object detection methods that rely on specific object names, our approach enables users to interact with the system using natural language instructions, allowing for a higher level of interactivity. Our proposed method, called DetGPT, leverages state-of-the-art multi-modal models and open-vocabulary object detectors to perform reasoning within the context of the user's instructions and the visual scene. This enables DetGPT to automatically locate the object of interest based on the user's expressed desires, even if the object i
     
-[^74]: 重温接受性判断
+[^75]: 重温接受性判断
 
     Revisiting Acceptability Judgements. (arXiv:2305.14091v2 [cs.CL] UPDATED)
 
@@ -1183,7 +1198,7 @@
 
     Years have passed since the NLP community has last focused on linguistic acceptability. In this work, we revisit this topic in the context of large language models. We introduce CoLAC - Corpus of Linguistic Acceptability in Chinese, the first large-scale non-English acceptability dataset that is verified by native speakers and comes with two sets of labels. Our experiments show that even the largest InstructGPT model performs only at chance level on CoLAC, while ChatGPT's performance (48.30 MCC) is also way below supervised models (59.03 MCC) and human (65.11 MCC). Through cross-lingual transfer experiments and fine-grained linguistic analysis, we demonstrate for the first time that knowledge of linguistic acceptability can be transferred across typologically distinct languages, as well as be traced back to pre-training.
     
-[^75]: 基于语法约束的语言模型灵活解码技术
+[^76]: 基于语法约束的语言模型灵活解码技术
 
     Flexible Grammar-Based Constrained Decoding for Language Models. (arXiv:2305.13971v1 [cs.CL])
 
@@ -1197,7 +1212,7 @@
 
     LLMs have shown impressive few-shot performance across many tasks. However, they still struggle when it comes to generating complex output structures, such as those required for Information Extraction. This limitation stems from the fact that LLMs, without finetuning, tend to generate free text rather than precise structures that follow a specific grammar. In this work, we propose to enrich the decoding step with formal grammar constraints. During beam search, only valid token continuations compliant with the grammar production rules are considered. This enforces the generation of valid sequences exclusively. Our framework is highly general and flexible, allowing any Context-Free Grammar (CFG) to be integrated into our custom constrained beam search implementation. We demonstrate that the outputs of many NLP tasks can be represented as formal languages, making them suitable for direct use in our framework. For task where the output space is dependent on the input, we propose input-depe
     
-[^76]: 手语识别技术和算法的比较分析
+[^77]: 手语识别技术和算法的比较分析
 
     A Comparative Analysis of Techniques and Algorithms for Recognising Sign Language. (arXiv:2305.13941v1 [cs.CV])
 
@@ -1211,7 +1226,7 @@
 
     Sign language is a visual language that enhances communication between people and is frequently used as the primary form of communication by people with hearing loss. Even so, not many people with hearing loss use sign language, and they frequently experience social isolation. Therefore, it is necessary to create human-computer interface systems that can offer hearing-impaired people a social platform. Most commercial sign language translation systems now on the market are sensor-based, pricey, and challenging to use. Although vision-based systems are desperately needed, they must first overcome several challenges. Earlier continuous sign language recognition techniques used hidden Markov models, which have a limited ability to include temporal information. To get over these restrictions, several machine learning approaches are being applied to transform hand and sign language motions into spoken or written language. In this study, we compare various deep learning techniques for recogn
     
-[^77]: 多模态自动事实核查：一份调查
+[^78]: 多模态自动事实核查：一份调查
 
     Multimodal Automated Fact-Checking: A Survey. (arXiv:2305.13507v1 [cs.CL])
 
@@ -1225,7 +1240,7 @@
 
     Misinformation, i.e. factually incorrect information, is often conveyed in multiple modalities, e.g. an image accompanied by a caption. It is perceived as more credible by humans, and spreads faster and wider than its text-only counterparts. While an increasing body of research investigates automated fact-checking (AFC), previous surveys mostly focus on textual misinformation. In this survey, we conceptualise a framework for AFC including subtasks unique to multimodal misinformation. Furthermore, we discuss related terminological developed in different communities in the context of our framework. We focus on four modalities prevalent in real-world fact-checking: text, image, audio, and video. We survey benchmarks and models, and discuss limitations and promising directions for future research.
     
-[^78]: Flover：一种用于高效自回归模型并行推断的时间融合框架
+[^79]: Flover：一种用于高效自回归模型并行推断的时间融合框架
 
     Flover: A Temporal Fusion Framework for Efficient Autoregressive Model Parallel Inference. (arXiv:2305.13484v1 [cs.DC])
 
@@ -1239,7 +1254,7 @@
 
     In the rapidly evolving field of deep learning, the performance of model inference has become a pivotal aspect as models become more complex and are deployed in diverse applications. Among these, autoregressive models stand out due to their state-of-the-art performance in numerous generative tasks. These models, by design, harness a temporal dependency structure, where the current token's probability distribution is conditioned on preceding tokens. This inherently sequential characteristic, however, adheres to the Markov Chain assumption and lacks temporal parallelism, which poses unique challenges. Particularly in industrial contexts where inference requests, following a Poisson time distribution, necessitate diverse response lengths, this absence of parallelism is more profound. Existing solutions, such as dynamic batching and concurrent model instances, nevertheless, come with severe overheads and a lack of flexibility, these coarse-grained methods fall short of achieving optimal la
     
-[^79]: 测量和建模身体内在动机
+[^80]: 测量和建模身体内在动机
 
     Measuring and Modeling Physical Intrinsic Motivation. (arXiv:2305.13452v1 [cs.AI])
 
@@ -1253,7 +1268,7 @@
 
     Humans are interactive agents driven to seek out situations with interesting physical dynamics. Here we formalize the functional form of physical intrinsic motivation. We first collect ratings of how interesting humans find a variety of physics scenarios. We then model human interestingness responses by implementing various hypotheses of intrinsic motivation including models that rely on simple scene features to models that depend on forward physics prediction. We find that the single best predictor of human responses is adversarial reward, a model derived from physical prediction loss. We also find that simple scene feature models do not generalize their prediction of human responses across all scenarios. Finally, linearly combining the adversarial model with the number of collisions in a scene leads to the greatest improvement in predictivity of human responses, suggesting humans are driven towards scenarios that result in high information gain and physical activity.
     
-[^80]: 大型语言模型在知识冲突中的行为揭秘：自适应变色龙还是固执的树獭
+[^81]: 大型语言模型在知识冲突中的行为揭秘：自适应变色龙还是固执的树獭
 
     Adaptive Chameleon or Stubborn Sloth: Unraveling the Behavior of Large Language Models in Knowledge Clashes. (arXiv:2305.13300v2 [cs.CL] UPDATED)
 
@@ -1267,7 +1282,7 @@
 
     By providing external information to large language models (LLMs), tool augmentation (including retrieval augmentation) has emerged as a promising solution for addressing the limitations of LLMs' static parametric memory. However, how receptive are LLMs to such external evidence, especially when the evidence conflicts with their parametric memory? We present the first comprehensive and controlled investigation into the behavior of LLMs when encountering knowledge conflicts. We propose a systematic framework to elicit high-quality parametric memory from LLMs and construct the corresponding counter-memory, which enables us to conduct a series of controlled experiments. Our investigation reveals seemingly contradicting behaviors of LLMs. On the one hand, different from prior wisdom, we find that LLMs can be highly receptive to external evidence even when that conflicts with their parametric memory, given that the external evidence is coherent and convincing. On the other hand, LLMs also d
     
-[^81]: 基于BEHRT的医疗概念嵌入联邦学习
+[^82]: 基于BEHRT的医疗概念嵌入联邦学习
 
     Federated Learning of Medical Concepts Embedding using BEHRT. (arXiv:2305.13052v1 [cs.LG] CROSS LISTED)
 
@@ -1281,7 +1296,7 @@
 
     Electronic Health Records (EHR) data contains medical records such as diagnoses, medications, procedures, and treatments of patients. This data is often considered sensitive medical information. Therefore, the EHR data from the medical centers often cannot be shared, making it difficult to create prediction models using multi-center EHR data, which is essential for such models' robustness and generalizability. Federated Learning (FL) is an algorithmic approach that allows learning a shared model using data in multiple locations without the need to store all data in a central place. An example of a prediction model's task is to predict future diseases. More specifically, the model needs to predict patient's next visit diagnoses, based on current and previous clinical data. Such a prediction model can support care providers in making clinical decisions and even provide preventive treatment. We propose a federated learning approach for learning medical concepts embedding. This pre-trained
     
-[^82]: MultiTabQA：针对多表问题回答生成表格答案
+[^83]: MultiTabQA：针对多表问题回答生成表格答案
 
     MultiTabQA: Generating Tabular Answers for Multi-Table Question Answering. (arXiv:2305.12820v2 [cs.CL] UPDATED)
 
@@ -1295,7 +1310,7 @@
 
     Recent advances in tabular question answering (QA) with large language models are constrained in their coverage and only answer questions over a single table. However, real-world queries are complex in nature, often over multiple tables in a relational database or web page. Single table questions do not involve common table operations such as set operations, Cartesian products (joins), or nested queries. Furthermore, multi-table operations often result in a tabular output, which necessitates table generation capabilities of tabular QA models. To fill this gap, we propose a new task of answering questions over multiple tables. Our model, MultiTabQA, not only answers questions over multiple tables, but also generalizes to generate tabular answers. To enable effective training, we build a pre-training dataset comprising of 132,645 SQL queries and tabular answers. Further, we evaluate the generated tables by introducing table-specific metrics of varying strictness assessing various levels 
     
-[^83]: TheoremQA：一种定理驱动的问题回答数据集
+[^84]: TheoremQA：一种定理驱动的问题回答数据集
 
     TheoremQA: A Theorem-driven Question Answering dataset. (arXiv:2305.12524v2 [cs.CL] UPDATED)
 
@@ -1309,7 +1324,7 @@
 
     The recent LLMs like GPT-4 and PaLM-2 have made tremendous progress in solving fundamental math problems like GSM8K by achieving over 90% accuracy. However, their capabilities to solve more challenging math problems which require domain-specific knowledge (i.e. theorem) have yet to be investigated. In this paper, we introduce TheoremQA, the first theorem-driven question-answering dataset designed to evaluate AI models' capabilities to apply theorems to solve challenging science problems. TheoremQA is curated by domain experts containing 800 high-quality questions covering 350 theorems (e.g. Taylor's theorem, Lagrange's theorem, Huffman coding, Quantum Theorem, Elasticity Theorem, etc) from Math, Physics, EE&CS, and Finance. We evaluate a wide spectrum of 16 large language and code models with different prompting strategies like Chain-of-Thoughts and Program-of-Thoughts. We found that GPT-4's capabilities to solve these problems are unparalleled, achieving an accuracy of 51% with Progra
     
-[^84]: LLM自身可读取和生成CXR图像
+[^85]: LLM自身可读取和生成CXR图像
 
     LLM Itself Can Read and Generate CXR Images. (arXiv:2305.11490v1 [cs.CV])
 
@@ -1323,7 +1338,7 @@
 
     Building on the recent remarkable development of large language models (LLMs), active attempts are being made to extend the utility of LLMs to multimodal tasks. There have been previous efforts to link language and visual information, and attempts to add visual capabilities to LLMs are ongoing as well. However, existing attempts use LLMs only as image decoders and no attempt has been made to generate images in the same line as the natural language. By adopting a VQ-GAN framework in which latent representations of images are treated as a kind of text tokens, we present a novel method to fine-tune a pre-trained LLM to read and generate images like text without any structural changes, extra training objectives, or the need for training an ad-hoc network while still preserving the of the instruction-following capability of the LLM. We apply this framework to chest X-ray (CXR) image and report generation tasks as it is a domain in which translation of complex information between visual and 
     
-[^85]: PastNet：引入物理归纳偏差用于时空视频预测
+[^86]: PastNet：引入物理归纳偏差用于时空视频预测
 
     PastNet: Introducing Physical Inductive Biases for Spatio-temporal Video Prediction. (arXiv:2305.11421v1 [cs.CV])
 
@@ -1337,7 +1352,7 @@
 
     In this paper, we investigate the challenge of spatio-temporal video prediction, which involves generating future videos based on historical data streams. Existing approaches typically utilize external information such as semantic maps to enhance video prediction, which often neglect the inherent physical knowledge embedded within videos. Furthermore, their high computational demands could impede their applications for high-resolution videos. To address these constraints, we introduce a novel approach called Physics-assisted Spatio-temporal Network (PastNet) for generating high-quality video predictions. The core of our PastNet lies in incorporating a spectral convolution operator in the Fourier domain, which efficiently introduces inductive biases from the underlying physical laws. Additionally, we employ a memory bank with the estimated intrinsic dimensionality to discretize local features during the processing of complex spatio-temporal signals, thereby reducing computational costs 
     
-[^86]: 面向领域泛化的深度图形转换方法
+[^87]: 面向领域泛化的深度图形转换方法
 
     Domain Generalization Deep Graph Transformation. (arXiv:2305.11389v1 [cs.LG])
 
@@ -1351,7 +1366,7 @@
 
     Graph transformation that predicts graph transition from one mode to another is an important and common problem. Despite much progress in developing advanced graph transformation techniques in recent years, the fundamental assumption typically required in machine-learning models that the testing and training data preserve the same distribution does not always hold. As a result, domain generalization graph transformation that predicts graphs not available in the training data is under-explored, with multiple key challenges to be addressed including (1) the extreme space complexity when training on all input-output mode combinations, (2) difference of graph topologies between the input and the output modes, and (3) how to generalize the model to (unseen) target domains that are not in the training data. To fill the gap, we propose a multi-input, multi-output, hypernetwork-based graph neural network (MultiHyperGNN) that employs a encoder and a decoder to encode topologies of both input an
     
-[^87]: Instruct2Act：利用大型语言模型将多模态指令映射到机器人动作
+[^88]: Instruct2Act：利用大型语言模型将多模态指令映射到机器人动作
 
     Instruct2Act: Mapping Multi-modality Instructions to Robotic Actions with Large Language Model. (arXiv:2305.11176v2 [cs.RO] UPDATED)
 
@@ -1365,7 +1380,7 @@
 
     Foundation models have made significant strides in various applications, including text-to-image generation, panoptic segmentation, and natural language processing. This paper presents Instruct2Act, a framework that utilizes Large Language Models to map multi-modal instructions to sequential actions for robotic manipulation tasks. Specifically, Instruct2Act employs the LLM model to generate Python programs that constitute a comprehensive perception, planning, and action loop for robotic tasks. In the perception section, pre-defined APIs are used to access multiple foundation models where the Segment Anything Model (SAM) accurately locates candidate objects, and CLIP classifies them. In this way, the framework leverages the expertise of foundation models and robotic abilities to convert complex high-level instructions into precise policy codes. Our approach is adjustable and flexible in accommodating various instruction modalities and input types and catering to specific task demands. W
     
-[^88]: 在编程语言模型中发现语义的证据
+[^89]: 在编程语言模型中发现语义的证据
 
     Evidence of Meaning in Language Models Trained on Programs. (arXiv:2305.11169v2 [cs.LG] UPDATED)
 
@@ -1379,7 +1394,7 @@
 
     We present evidence that language models can learn meaning despite being trained only to perform next token prediction on text, specifically a corpus of programs. Each program is preceded by a specification in the form of (textual) input-output examples. Working with programs enables us to precisely define concepts relevant to meaning in language (e.g., correctness and semantics), making program synthesis well-suited as an intermediate testbed for characterizing the presence (or absence) of meaning in language models.  We first train a Transformer model on the corpus of programs, then probe the trained model's hidden states as it completes a program given a specification. Despite providing no inductive bias toward learning the semantics of the language, we find that a linear probe is able to extract abstractions of both current and future program states from the model states. Moreover, there is a strong, statistically significant correlation between the accuracy of the probe and the mo
     
-[^89]: 语言模型遇见世界模型：实体经验增强语言模型
+[^90]: 语言模型遇见世界模型：实体经验增强语言模型
 
     Language Models Meet World Models: Embodied Experiences Enhance Language Models. (arXiv:2305.10626v1 [cs.CL])
 
@@ -1393,7 +1408,7 @@
 
     While large language models (LMs) have shown remarkable capabilities across numerous tasks, they often struggle with simple reasoning and planning in physical environments, such as understanding object permanence or planning household activities. The limitation arises from the fact that LMs are trained only on written text and miss essential embodied knowledge and skills. In this paper, we propose a new paradigm of enhancing LMs by finetuning them with world models, to gain diverse embodied knowledge while retaining their general language capabilities. Our approach deploys an embodied agent in a world model, particularly a simulator of the physical world (VirtualHome), and acquires a diverse set of embodied experiences through both goal-oriented planning and random exploration. These experiences are then used to finetune LMs to teach diverse abilities of reasoning and acting in the physical world, e.g., planning and completing goals, object permanence and tracking, etc. Moreover, it is
     
-[^90]: 非合作博弈中的人类选择预测：基于模拟的离线策略评估
+[^91]: 非合作博弈中的人类选择预测：基于模拟的离线策略评估
 
     Human Choice Prediction in Non-Cooperative Games: Simulation-based Off-Policy Evaluation. (arXiv:2305.10361v1 [cs.LG])
 
@@ -1407,7 +1422,7 @@
 
     Persuasion games have been fundamental in economics and AI research, and have significant practical applications. Recent works in this area have started to incorporate natural language, moving beyond the traditional stylized message setting. However, previous research has focused on on-policy prediction, where the train and test data have the same distribution, which is not representative of real-life scenarios. In this paper, we tackle the challenging problem of off-policy evaluation (OPE) in language-based persuasion games. To address the inherent difficulty of human data collection in this setup, we propose a novel approach which combines real and simulated human-bot interaction data. Our simulated data is created by an exogenous model assuming decision makers (DMs) start with a mixture of random and decision-theoretic based behaviors and improve over time. We present a deep learning training algorithm that effectively integrates real interaction and simulated data, substantially im
     
-[^91]: 基于参数的高效调整技术在医学图像分析中的应用：被忽视的机会
+[^92]: 基于参数的高效调整技术在医学图像分析中的应用：被忽视的机会
 
     Parameter-Efficient Fine-Tuning for Medical Image Analysis: The Missed Opportunity. (arXiv:2305.08252v2 [cs.CV] UPDATED)
 
@@ -1421,7 +1436,7 @@
 
     We present a comprehensive evaluation of Parameter-Efficient Fine-Tuning (PEFT) techniques for diverse medical image analysis tasks. PEFT is increasingly exploited as a valuable approach for knowledge transfer from pre-trained models in natural language processing, vision, speech, and cross-modal tasks, such as vision-language and text-to-image generation. However, its application in medical image analysis remains relatively unexplored. As foundation models are increasingly exploited in the medical domain, it is crucial to investigate and comparatively assess various strategies for knowledge transfer that can bolster a range of downstream tasks. Our study, the first of its kind (to the best of our knowledge), evaluates 16 distinct PEFT methodologies proposed for convolutional and transformer-based networks, focusing on image classification and text-to-image generation tasks across six medical datasets ranging in size, modality, and complexity. Through a battery of more than 600 control
     
-[^92]: 当多数人是错误的：利用标注者不一致性进行主观任务
+[^93]: 当多数人是错误的：利用标注者不一致性进行主观任务
 
     When the Majority is Wrong: Leveraging Annotator Disagreement for Subjective Tasks. (arXiv:2305.06626v1 [cs.CL])
 
@@ -1435,7 +1450,7 @@
 
     Though majority vote among annotators is typically used for ground truth labels in natural language processing, annotator disagreement in tasks such as hate speech detection may reflect differences among group opinions, not noise. Thus, a crucial problem in hate speech detection is whether a statement is offensive to the demographic group that it targets, which may constitute a small fraction of the annotator pool. We construct a model that predicts individual annotator ratings on potentially offensive text and combines this information with the predicted target group of the text to model the opinions of target group members. We show gains across a range of metrics, including raising performance over the baseline by 22% at predicting individual annotators' ratings and 33% at predicting variance among annotators, which provides a method of measuring model uncertainty downstream. We find that annotators' ratings can be predicted using their demographic information and opinions on online 
     
-[^93]: 面向危及生命的室性心律失常检测的微小机器学习设计竞赛
+[^94]: 面向危及生命的室性心律失常检测的微小机器学习设计竞赛
 
     TinyML Design Contest for Life-Threatening Ventricular Arrhythmia Detection. (arXiv:2305.05105v1 [eess.SP])
 
@@ -1449,7 +1464,7 @@
 
     The first ACM/IEEE TinyML Design Contest (TDC) held at the 41st International Conference on Computer-Aided Design (ICCAD) in 2022 is a challenging, multi-month, research and development competition. TDC'22 focuses on real-world medical problems that require the innovation and implementation of artificial intelligence/machine learning (AI/ML) algorithms on implantable devices. The challenge problem of TDC'22 is to develop a novel AI/ML-based real-time detection algorithm for life-threatening ventricular arrhythmia over low-power microcontrollers utilized in Implantable Cardioverter-Defibrillators (ICDs). The dataset contains more than 38,000 5-second intracardiac electrograms (IEGMs) segments over 8 different types of rhythm from 90 subjects. The dedicated hardware platform is NUCLEO-L432KC manufactured by STMicroelectronics. TDC'22, which is open to multi-person teams world-wide, attracted more than 150 teams from over 50 organizations. This paper first presents the medical problem, da
     
-[^94]: 用于可解释的姿势表达、分析和生成的深层状态空间建模
+[^95]: 用于可解释的姿势表达、分析和生成的深层状态空间建模
 
     Deep state-space modeling for explainable representation, analysis, and generation of professional human poses. (arXiv:2304.14502v1 [cs.CV])
 
@@ -1463,7 +1478,7 @@
 
     The analysis of human movements has been extensively studied due to its wide variety of practical applications. Nevertheless, the state-of-the-art still faces scientific challenges while modeling human movements. Firstly, new models that account for the stochasticity of human movement and the physical structure of the human body are required to accurately predict the evolution of full-body motion descriptors over time. Secondly, the explainability of existing deep learning algorithms regarding their body posture predictions while generating human movements still needs to be improved as they lack comprehensible representations of human movement. This paper addresses these challenges by introducing three novel approaches for creating explainable representations of human movement. In this work, full-body movement is formulated as a state-space model of a dynamic system whose parameters are estimated using deep learning and statistical algorithms. The representations adhere to the structur
     
-[^95]: 为什么ChatGPT无法准确回答问题？
+[^96]: 为什么ChatGPT无法准确回答问题？
 
     Why Does ChatGPT Fall Short in Answering Questions Faithfully?. (arXiv:2304.10513v1 [cs.CL])
 
@@ -1477,7 +1492,7 @@
 
     Recent advancements in Large Language Models, such as ChatGPT, have demonstrated significant potential to impact various aspects of human life. However, ChatGPT still faces challenges in aspects like faithfulness. Taking question answering as a representative application, we seek to understand why ChatGPT falls short in answering questions faithfully. To address this question, we attempt to analyze the failures of ChatGPT in complex open-domain question answering and identifies the abilities under the failures. Specifically, we categorize ChatGPT's failures into four types: comprehension, factualness, specificity, and inference. We further pinpoint three critical abilities associated with QA failures: knowledge memorization, knowledge association, and knowledge reasoning. Additionally, we conduct experiments centered on these abilities and propose potential approaches to enhance faithfulness. The results indicate that furnishing the model with fine-grained external knowledge, hints for
     
-[^96]: 关于知识图谱中存在性一阶查询推理的研究
+[^97]: 关于知识图谱中存在性一阶查询推理的研究
 
     On Existential First Order Queries Inference on Knowledge Graphs. (arXiv:2304.07063v1 [cs.AI])
 
@@ -1491,7 +1506,7 @@
 
     Reasoning on knowledge graphs is a challenging task because it utilizes observed information to predict the missing one. Specifically, answering first-order logic formulas is of particular interest because of its clear syntax and semantics. Recently, the query embedding method has been proposed which learns the embedding of a set of entities and treats logic operations as set operations. Though there has been much research following the same methodology, it lacks a systematic inspection from the standpoint of logic. In this paper, we characterize the scope of queries investigated previously and precisely identify the gap between it and the whole family of existential formulas. Moreover, we develop a new dataset containing ten new formulas and discuss the new challenges coming simultaneously. Finally, we propose a new search algorithm from fuzzy logic theory which is capable of solving new formulas and outperforming the previous methods in existing formulas.
     
-[^97]: 视频聊天字幕生成器： 迈向丰富时空描述
+[^98]: 视频聊天字幕生成器： 迈向丰富时空描述
 
     Video ChatCaptioner: Towards the Enriched Spatiotemporal Descriptions. (arXiv:2304.04227v1 [cs.CV])
 
@@ -1505,7 +1520,7 @@
 
     Video captioning aims to convey dynamic scenes from videos using natural language, facilitating the understanding of spatiotemporal information within our environment. Although there have been recent advances, generating detailed and enriched video descriptions continues to be a substantial challenge. In this work, we introduce Video ChatCaptioner, an innovative approach for creating more comprehensive spatiotemporal video descriptions. Our method employs a ChatGPT model as a controller, specifically designed to select frames for posing video content-driven questions. Subsequently, a robust algorithm is utilized to answer these visual queries. This question-answer framework effectively uncovers intricate video details and shows promise as a method for enhancing video content. Following multiple conversational rounds, ChatGPT can summarize enriched video content based on previous conversations. We qualitatively demonstrate that our Video ChatCaptioner can generate captions containing mo
     
-[^98]: Baize:一种基于自我对话数据参数高效调整的开源聊天模型
+[^99]: Baize:一种基于自我对话数据参数高效调整的开源聊天模型
 
     Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data. (arXiv:2304.01196v2 [cs.CL] UPDATED)
 
@@ -1519,7 +1534,7 @@
 
     Chat models, such as ChatGPT, have shown impressive capabilities and have been rapidly adopted across numerous domains. However, these models are only accessible through a restricted API, creating barriers for new research and progress in the field. We propose a pipeline that can automatically generate a high-quality multi-turn chat corpus by leveraging ChatGPT to engage in a conversation with itself. Subsequently, we employ parameter-efficient tuning to enhance LLaMA, an open-source large language model. The resulting model, named Baize, demonstrates good performance in multi-turn dialogues with guardrails that minimize potential risks. The Baize models and data are released for research purposes only at https://github.com/project-baize/baize. An online demo is also available at https://huggingface.co/spaces/project-baize/baize-lora-7B.
     
-[^99]: GPTEval：使用GPT-4和更好的人类对齐来评估NLG
+[^100]: GPTEval：使用GPT-4和更好的人类对齐来评估NLG
 
     GPTEval: NLG Evaluation using GPT-4 with Better Human Alignment. (arXiv:2303.16634v1 [cs.CL])
 
@@ -1533,7 +1548,7 @@
 
     The quality of texts generated by natural language generation (NLG) systems is hard to measure automatically. Conventional reference-based metrics, such as BLEU and ROUGE, have been shown to have relatively low correlation with human judgments, especially for tasks that require creativity and diversity. Recent studies suggest using large language models (LLMs) as reference-free metrics for NLG evaluation, which have the benefit of being applicable to new tasks that lack human references. However, these LLM-based evaluators still have lower human correspondence than medium-size neural evaluators. In this work, we present GPTEval, a framework of using large language models with chain-of-thoughts (CoT) and a form-filling paradigm, to assess the quality of NLG outputs. We experiment with two generation tasks, text summarization and dialogue generation. We show that GPTEval with GPT-4 as the backbone model achieves a Spearman correlation of 0.514 with human on summarization task, outperform
     
-[^100]: 一个多乐器体积调制的方法增强格斗游戏中的背景音乐：自适应背景音乐
+[^101]: 一个多乐器体积调制的方法增强格斗游戏中的背景音乐：自适应背景音乐
 
     Adaptive Background Music for a Fighting Game: A Multi-Instrument Volume Modulation Approach. (arXiv:2303.15734v1 [cs.SD])
 
@@ -1547,7 +1562,7 @@
 
     This paper presents our work to enhance the background music (BGM) in DareFightingICE by adding an adaptive BGM. The adaptive BGM consists of five different instruments playing a classical music piece called "Air on G-String." The BGM adapts by changing the volume of the instruments. Each instrument is connected to a different element of the game. We then run experiments to evaluate the adaptive BGM by using a deep reinforcement learning AI that only uses audio as input (Blind DL AI). The results show that the performance of the Blind DL AI improves while playing with the adaptive BGM as compared to playing without the adaptive BGM.
     
-[^101]: 知识增强的图神经网络
+[^102]: 知识增强的图神经网络
 
     Knowledge Enhanced Graph Neural Networks. (arXiv:2303.15487v1 [cs.AI])
 
@@ -1561,7 +1576,7 @@
 
     Graph data is omnipresent and has a large variety of applications such as natural science, social networks or semantic web. Though rich in information, graphs are often noisy and incomplete. Therefore, graph completion tasks such as node classification or link prediction have gained attention. On the one hand, neural methods such as graph neural networks have proven to be robust tools for learning rich representations of noisy graphs. On the other hand, symbolic methods enable exact reasoning on graphs. We propose KeGNN, a neuro-symbolic framework for learning on graph data that combines both paradigms and allows for the integration of prior knowledge into a graph neural network model. In essence, KeGNN consists of a graph neural network as a base on which knowledge enhancement layers are stacked with the objective of refining predictions with respect to prior knowledge. We instantiate KeGNN in conjunction with two standard graph neural networks: Graph Convolutional Networks and Graph 
     
-[^102]: 合作多智能体任务中学习奖励机制
+[^103]: 合作多智能体任务中学习奖励机制
 
     Learning Reward Machines in Cooperative Multi-Agent Tasks. (arXiv:2303.14061v1 [cs.AI])
 
@@ -1575,7 +1590,7 @@
 
     This paper presents a novel approach to Multi-Agent Reinforcement Learning (MARL) that combines cooperative task decomposition with the learning of reward machines (RMs) encoding the structure of the sub-tasks. The proposed method helps deal with the non-Markovian nature of the rewards in partially observable environments and improves the interpretability of the learnt policies required to complete the cooperative task. The RMs associated with each sub-task are learnt in a decentralised manner and then used to guide the behaviour of each agent. By doing so, the complexity of a cooperative multi-agent problem is reduced, allowing for more effective learning. The results suggest that our approach is a promising direction for future research in MARL, especially in complex environments with large state spaces and multiple agents.
     
-[^103]: 将您的无意义翻译：黑盒对抗攻击机器翻译系统
+[^104]: 将您的无意义翻译：黑盒对抗攻击机器翻译系统
 
     Translate your gibberish: black-box adversarial attack on machine translation systems. (arXiv:2303.10974v2 [cs.CL] UPDATED)
 
@@ -1589,7 +1604,7 @@
 
     Neural networks are deployed widely in natural language processing tasks on the industrial scale, and perhaps the most often they are used as compounds of automatic machine translation systems. In this work, we present a simple approach to fool state-of-the-art machine translation tools in the task of translation from Russian to English and vice versa. Using a novel black-box gradient-free tensor-based optimizer, we show that many online translation tools, such as Google, DeepL, and Yandex, may both produce wrong or offensive translations for nonsensical adversarial input queries and refuse to translate seemingly benign input phrases. This vulnerability may interfere with understanding a new language and simply worsen the user's experience while using machine translation systems, and, hence, additional improvements of these tools are required to establish better translation.
     
-[^104]: 可微分逻辑的逻辑：走向DL的统一语义
+[^105]: 可微分逻辑的逻辑：走向DL的统一语义
 
     Logic of Differentiable Logics: Towards a Uniform Semantics of DL. (arXiv:2303.10650v2 [cs.LO] UPDATED)
 
@@ -1603,7 +1618,7 @@
 
     Differentiable logics (DL) have recently been proposed as a method of training neural networks to satisfy logical specifications. A DL consists of a syntax in which specifications are stated and an interpretation function that translates expressions in the syntax into loss functions. These loss functions can then be used during training with standard gradient descent algorithms. The variety of existing DLs and the differing levels of formality with which they are treated makes a systematic comparative study of their properties and implementations difficult. This paper remedies this problem by suggesting a meta-language for defining DLs that we call the Logic of Differentiable Logics, or LDL. Syntactically, it generalises the syntax of existing DLs to FOL, and for the first time introduces the formalism for reasoning about vectors and learners. Semantically, it introduces a general interpretation function that can be instantiated to define loss functions arising from different existing 
     
-[^105]: 通识知识辅助的资源受限和细粒度目标检测的深度学习方法
+[^106]: 通识知识辅助的资源受限和细粒度目标检测的深度学习方法
 
     Commonsense Knowledge Assisted Deep Learning for Resource-constrained and Fine-grained Object Detection. (arXiv:2303.09026v1 [cs.CV])
 
@@ -1617,7 +1632,7 @@
 
     In this paper, we consider fine-grained image object detection in resource-constrained cases such as edge computing. Deep learning (DL), namely learning with deep neural networks (DNNs), has become the dominating approach to object detection. To achieve accurate fine-grained detection, one needs to employ a large enough DNN model and a vast amount of data annotations, which brings a challenge for using modern DL object detectors in resource-constrained cases. To this end, we propose an approach, which leverages commonsense knowledge to assist a coarse-grained object detector to get accurate fine-grained detection results. Specifically, we introduce a commonsense knowledge inference module (CKIM) to process coarse-grained lables given by a benchmark DL detector to produce fine-grained lables. We consider both crisp-rule and fuzzy-rule based inference in our CKIM; the latter is used to handle ambiguity in the target semantic labels. We implement our method based on several modern DL dete
     
-[^106]: 基于Shapley值的算法公平性数据再加权方法FairShap
+[^107]: 基于Shapley值的算法公平性数据再加权方法FairShap
 
     FairShap: A Data Re-weighting Approach for Algorithmic Fairness based on Shapley Values. (arXiv:2303.01928v2 [cs.LG] UPDATED)
 
@@ -1631,7 +1646,7 @@
 
     Algorithmic fairness is of utmost societal importance, yet the current trend in large-scale machine learning models requires training with massive datasets that are typically biased. In this context, pre-processing methods that focus on modeling and correcting bias in the data emerge as valuable approaches. In this paper, we propose FairShap, a novel pre-processing (re-weighting) method for fair algorithmic decision-making through data valuation by means of Shapley Values. Our approach is model agnostic and easily interpretable, as it measures the contribution of each training data point to a predefined fairness metric. We empirically validate FairShap on several state-of-the-art datasets of different nature, with a variety of training scenarios and models and show how it outperforms other methods, yielding fairer models with higher or similar levels of accuracy. We also illustrate FairShap's interpretability by means of histograms and latent space visualizations. We believe that this 
     
-[^107]: 基于加权采样的遮蔽语言模型。
+[^108]: 基于加权采样的遮蔽语言模型。
 
     Weighted Sampling for Masked Language Modeling. (arXiv:2302.14225v2 [cs.CL] UPDATED)
 
@@ -1645,7 +1660,7 @@
 
     Masked Language Modeling (MLM) is widely used to pretrain language models. The standard random masking strategy in MLM causes the pre-trained language models (PLMs) to be biased toward high-frequency tokens. Representation learning of rare tokens is poor and PLMs have limited performance on downstream tasks. To alleviate this frequency bias issue, we propose two simple and effective Weighted Sampling strategies for masking tokens based on the token frequency and training loss. We apply these two strategies to BERT and obtain Weighted-Sampled BERT (WSBERT). Experiments on the Semantic Textual Similarity benchmark (STS) show that WSBERT significantly improves sentence embeddings over BERT. Combining WSBERT with calibration methods and prompt learning further improves sentence embeddings. We also investigate fine-tuning WSBERT on the GLUE benchmark and show that Weighted Sampling also improves the transfer learning capability of the backbone PLM. We further analyze and provide insights in
     
-[^108]: 具有共同策略的多智能体强化学习在天线倾斜优化中的应用
+[^109]: 具有共同策略的多智能体强化学习在天线倾斜优化中的应用
 
     Multi-Agent Reinforcement Learning with Common Policy for Antenna Tilt Optimization. (arXiv:2302.12899v2 [eess.SY] UPDATED)
 
@@ -1659,7 +1674,7 @@
 
     This paper presents a method for optimizing wireless networks by adjusting cell parameters that affect both the performance of the cell being optimized and the surrounding cells. The method uses multiple reinforcement learning agents that share a common policy and take into account information from neighboring cells to determine the state and reward. In order to avoid impairing network performance during the initial stages of learning, agents are pre-trained in an earlier phase of offline learning. During this phase, an initial policy is obtained using feedback from a static network simulator and considering a wide variety of scenarios. Finally, agents can intelligently tune the cell parameters of a test network by suggesting small incremental changes, slowly guiding the network toward an optimal configuration. The agents propose optimal changes using the experience gained with the simulator in the pre-training phase, but they can also continue to learn from current network readings af
     
-[^109]: 深度学习在自主导航中的应用与方法的最新进展--综述
+[^110]: 深度学习在自主导航中的应用与方法的最新进展--综述
 
     Recent Advancements in Deep Learning Applications and Methods for Autonomous Navigation -- A Comprehensive Review. (arXiv:2302.11089v2 [cs.RO] UPDATED)
 
@@ -1673,7 +1688,7 @@
 
     This review paper presents a comprehensive overview of end-to-end deep learning frameworks used in the context of autonomous navigation, including obstacle detection, scene perception, path planning, and control. The paper aims to bridge the gap between autonomous navigation and deep learning by analyzing recent research studies and evaluating the implementation and testing of deep learning methods. It emphasizes the importance of navigation for mobile robots, autonomous vehicles, and unmanned aerial vehicles, while also acknowledging the challenges due to environmental complexity, uncertainty, obstacles, dynamic environments, and the need to plan paths for multiple agents. The review highlights the rapid growth of deep learning in engineering data science and its development of innovative navigation methods. It discusses recent interdisciplinary work related to this field and provides a brief perspective on the limitations, challenges, and potential areas of growth for deep learning m
     
-[^110]: 注意留下空隙！用鲁曼功能理论构建可解释人工智能与人类理解之间的桥梁
+[^111]: 注意留下空隙！用鲁曼功能理论构建可解释人工智能与人类理解之间的桥梁
 
     Mind the Gap! Bridging Explainable Artificial Intelligence and Human Understanding with Luhmann's Functional Theory of Communication. (arXiv:2302.03460v2 [cs.CY] UPDATED)
 
@@ -1687,7 +1702,7 @@
 
     Over the past decade explainable artificial intelligence has evolved from a predominantly technical discipline into a field that is deeply intertwined with social sciences. Insights such as human preference for contrastive -- more precisely, counterfactual -- explanations have played a major role in this transition, inspiring and guiding the research in computer science. Other observations, while equally important, have received much less attention. The desire of human explainees to communicate with artificial intelligence explainers through a dialogue-like interaction has been mostly neglected by the community. This poses many challenges for the effectiveness and widespread adoption of such technologies as delivering a single explanation optimised according to some predefined objectives may fail to engender understanding in its recipients and satisfy their unique needs given the diversity of human knowledge and intention. Using insights elaborated by Niklas Luhmann and, more recently,
     
-[^111]: 重新思考半监督医学图像分割：方差缩减的视角
+[^112]: 重新思考半监督医学图像分割：方差缩减的视角
 
     Rethinking Semi-Supervised Medical Image Segmentation: A Variance-Reduction Perspective. (arXiv:2302.01735v3 [cs.CV] UPDATED)
 
@@ -1701,7 +1716,7 @@
 
     For medical image segmentation, contrastive learning is the dominant practice to improve the quality of visual representations by contrasting semantically similar and dissimilar pairs of samples. This is enabled by the observation that without accessing ground truth label, negative examples with truly dissimilar anatomical features, if sampled, can significantly improve the performance. In reality, however, these samples may come from similar anatomical features and the models may struggle to distinguish the minority tail-class samples, making the tail classes more prone to misclassification, both of which typically lead to model collapse. In this paper, we propose ARCO, a semi-supervised contrastive learning (CL) framework with stratified group sampling theory in medical image segmentation. In particular, we first propose building ARCO through the concept of variance-reduced estimation, and show that certain variance-reduction techniques are particularly beneficial in medical image se
     
-[^112]: Follower Agnostic Methods for Stackelberg Games（适用于斯塔克贝格博弈的追随者不可知方法）
+[^113]: Follower Agnostic Methods for Stackelberg Games（适用于斯塔克贝格博弈的追随者不可知方法）
 
     Follower Agnostic Methods for Stackelberg Games. (arXiv:2302.01421v2 [math.OC] UPDATED)
 
@@ -1715,7 +1730,7 @@
 
     We propose an algorithm to solve a class of Stackelberg games (possibly with multiple followers) in a follower agnostic manner. Particularly, unlike other contemporary works, our algorithm does not require the use of an oracle estimator for the gradient of the leader's objective or knowledge about the follower's utility function or strategy space. Instead, we design two-loop algorithm where the leader updates its strategies using specially constructed gradient estimator obtained by probing followers with specially designed strategies. Upon receiving the followers engage in an adaptation rule such that the joint strategy of followers converges near equilibrium which is the only information observed by leader to construct the aforementioned gradient estimator. We provide non-asymptotic convergence rates to stationary points of the leader's objective in the absence of convexity of the closed-loop function and further show asymptotic convergence to a local minima of the leader's objective.
     
-[^113]: 通过上下文修剪元学习学习大规模神经场
+[^114]: 通过上下文修剪元学习学习大规模神经场
 
     Learning Large-scale Neural Fields via Context Pruned Meta-Learning. (arXiv:2302.00617v2 [cs.LG] UPDATED)
 
@@ -1729,7 +1744,7 @@
 
     We introduce an efficient optimization-based meta-learning technique for large-scale neural field training by realizing significant memory savings through automated online context point selection. This is achieved by focusing each learning step on the subset of data with the highest expected immediate improvement in model quality, resulting in the almost instantaneous modeling of global structure and subsequent refinement of high-frequency details. We further improve the quality of our meta-learned initialization by introducing a bootstrap correction resulting in the minimization of any error introduced by reduced context sets while simultaneously mitigating the well-known myopia of optimization-based meta-learning. Finally, we show how gradient re-scaling at meta-test time allows the learning of extremely high-quality neural fields in significantly shortened optimization procedures. Our framework is model-agnostic, intuitive, straightforward to implement, and shows significant reconst
     
-[^114]: 图嵌入学习的现状和潜力
+[^115]: 图嵌入学习的现状和潜力
 
     State of the Art and Potentialities of Graph-level Learning. (arXiv:2301.05860v2 [cs.LG] UPDATED)
 
@@ -1743,7 +1758,7 @@
 
     Graphs have a superior ability to represent relational data, like chemical compounds, proteins, and social networks. Hence, graph-level learning, which takes a set of graphs as input, has been applied to many tasks including comparison, regression, classification, and more. Traditional approaches to learning a set of graphs heavily rely on hand-crafted features, such as substructures. But while these methods benefit from good interpretability, they often suffer from computational bottlenecks as they cannot skirt the graph isomorphism problem. Conversely, deep learning has helped graph-level learning adapt to the growing scale of graphs by extracting features automatically and encoding graphs into low-dimensional representations. As a result, these deep graph learning methods have been responsible for many successes. Yet, there is no comprehensive survey that reviews graph-level learning starting with traditional learning and moving through to the deep learning approaches. This article 
     
-[^115]: 面向开放领域的多文档摘要
+[^116]: 面向开放领域的多文档摘要
 
     Towards multi-document summarization in the open-domain. (arXiv:2212.10526v2 [cs.CL] UPDATED)
 
@@ -1757,7 +1772,7 @@
 
     Multi-document summarization (MDS) traditionally assumes a set of topic-related documents are provided. However, this document set is often an artifact of the dataset curation process; in practice, it is not necessarily available and would need to be retrieved given an information need, i.e. a question or topic statement. We study this more challenging "open-domain" setting by formalizing the task and bootstrapping it using existing datasets, retrievers and summarizers. Via extensive experimentation, we determine that: (1) state-of-the-art summarizers suffer large reductions in performance when applied to the open-domain, even when retrieval performance is high, (2) additional training in the open-domain setting can reduce this sensitivity to imperfect retrieval, and (3) summarizers are insensitive to the retrieval of duplicate documents and the order of retrieved documents, but highly sensitive to other errors, like the retrieval of irrelevant documents. Based on our results, we provi
     
-[^116]: DePlot：利用图表转表格翻译的一次性视觉语言推理
+[^117]: DePlot：利用图表转表格翻译的一次性视觉语言推理
 
     DePlot: One-shot visual language reasoning by plot-to-table translation. (arXiv:2212.10505v2 [cs.CL] UPDATED)
 
@@ -1771,7 +1786,7 @@
 
     Visual language such as charts and plots is ubiquitous in the human world. Comprehending plots and charts requires strong reasoning skills. Prior state-of-the-art (SOTA) models require at least tens of thousands of training examples and their reasoning capabilities are still much limited, especially on complex human-written queries. This paper presents the first one-shot solution to visual language reasoning. We decompose the challenge of visual language reasoning into two steps: (1) plot-to-text translation, and (2) reasoning over the translated text. The key in this method is a modality conversion module, named as DePlot, which translates the image of a plot or chart to a linearized table. The output of DePlot can then be directly used to prompt a pretrained large language model (LLM), exploiting the few-shot reasoning capabilities of LLMs. To obtain DePlot, we standardize the plot-to-table task by establishing unified task formats and metrics, and train DePlot end-to-end on this tas
     
-[^117]: MatCha：数学推理和图表解析增强视觉语言预训练
+[^118]: MatCha：数学推理和图表解析增强视觉语言预训练
 
     MatCha: Enhancing Visual Language Pretraining with Math Reasoning and Chart Derendering. (arXiv:2212.09662v2 [cs.CL] UPDATED)
 
@@ -1785,7 +1800,7 @@
 
     Visual language data such as plots, charts, and infographics are ubiquitous in the human world. However, state-of-the-art vision-language models do not perform well on these data. We propose MatCha (Math reasoning and Chart derendering pretraining) to enhance visual language models' capabilities in jointly modeling charts/plots and language data. Specifically, we propose several pretraining tasks that cover plot deconstruction and numerical reasoning which are the key capabilities in visual language modeling.  We perform the MatCha pretraining starting from Pix2Struct, a recently proposed image-to-text visual language model. On standard benchmarks such as PlotQA and ChartQA, the MatCha model outperforms state-of-the-art methods by as much as nearly 20%. We also examine how well MatCha pretraining transfers to domains such as screenshots, textbook diagrams, and document figures and observe overall improvement, verifying the usefulness of MatCha pretraining on broader visual language tas
     
-[^118]: 大型语言模型是带有自我验证的推理器
+[^119]: 大型语言模型是带有自我验证的推理器
 
     Large Language Models are reasoners with Self-Verification. (arXiv:2212.09561v2 [cs.AI] UPDATED)
 
@@ -1799,7 +1814,7 @@
 
     When a large language model (LLM) performs complex reasoning by chain of thought (CoT), it can be highly sensitive to individual mistakes. We have had to train verifiers to address this issue. As we all know, after human inferring a conclusion, they often check it by re-verifying it, which can avoid some mistakes. We propose a new method called self-verification that uses the conclusion of the CoT as a condition to build a new sample and asks the LLM to re-predict the original conditions which be masked. We calculate an explainable verification score based on the accuracy. This method can improve the accuracy of multiple arithmetics and logical reasoning datasets when using few-shot learning. we have demonstrated that LLMs can conduct explainable self-verification of their own conclusions and achieve competitive reasoning performance. Extensive experimentals have demonstrated that our method can help multiple large language models with self-verification can avoid interference from inco
     
-[^119]: 人类和语言模型之间实用语言理解的精细比较
+[^120]: 人类和语言模型之间实用语言理解的精细比较
 
     A fine-grained comparison of pragmatic language understanding in humans and language models. (arXiv:2212.06801v2 [cs.CL] UPDATED)
 
@@ -1813,7 +1828,7 @@
 
     Pragmatics and non-literal language understanding are essential to human communication, and present a long-standing challenge for artificial language models. We perform a fine-grained comparison of language models and humans on seven pragmatic phenomena, using zero-shot prompting on an expert-curated set of English materials. We ask whether models (1) select pragmatic interpretations of speaker utterances, (2) make similar error patterns as humans, and (3) use similar linguistic cues as humans to solve the tasks. We find that the largest models achieve high accuracy and match human error patterns: within incorrect responses, models favor literal interpretations over heuristic-based distractors. We also find preliminary evidence that models and humans are sensitive to similar linguistic cues. Our results suggest that pragmatic behaviors can emerge in models without explicitly constructed representations of mental states. However, models tend to struggle with phenomena relying on social 
     
-[^120]: 社会经济因素对健康差距的影响研究
+[^121]: 社会经济因素对健康差距的影响研究
 
     The Impact of Socioeconomic Factors on Health Disparities. (arXiv:2212.04285v3 [cs.CY] UPDATED)
 
@@ -1827,7 +1842,7 @@
 
     High-quality healthcare in the US can be cost-prohibitive for certain socioeconomic groups. In this paper, we examined data from the US Census and the CDC to determine the degree to which specific socioeconomic factors correlate with both specific and general health metrics. We employed visual analysis to find broad trends and predictive modeling to identify more complex relationships between variables. Our results indicate that certain socioeconomic factors, like income and educational attainment, are highly correlated with aggregate measures of health.
     
-[^121]: 迈向人类兼容自动驾驶汽车：情感过渡模型中的非语言图灵测试研究
+[^122]: 迈向人类兼容自动驾驶汽车：情感过渡模型中的非语言图灵测试研究
 
     Towards human-compatible autonomous car: A study of non-verbal Turing test in automated driving with affective transition modelling. (arXiv:2212.02908v5 [cs.HC] UPDATED)
 
@@ -1841,7 +1856,7 @@
 
     Autonomous cars are indispensable when humans go further down the hands-free route. Although existing literature highlights that the acceptance of the autonomous car will increase if it drives in a human-like manner, sparse research offers the naturalistic experience from a passenger's seat perspective to examine the human likeness of current autonomous cars. The present study tested whether the AI driver could create a human-like ride experience for passengers based on 69 participants' feedback in a real-road scenario. We designed a ride experience-based version of the non-verbal Turing test for automated driving. Participants rode in autonomous cars (driven by either human or AI drivers) as a passenger and judged whether the driver was human or AI. The AI driver failed to pass our test because passengers detected the AI driver above chance. In contrast, when the human driver drove the car, the passengers' judgement was around chance. We further investigated how human passengers ascri
     
-[^122]: SciRepEval：一个用于科学文献表示的多格式基准
+[^123]: SciRepEval：一个用于科学文献表示的多格式基准
 
     SciRepEval: A Multi-Format Benchmark for Scientific Document Representations. (arXiv:2211.13308v2 [cs.CL] UPDATED)
 
@@ -1855,7 +1870,7 @@
 
     Learned representations of scientific documents can serve as valuable input features for downstream tasks, without the need for further fine-tuning. However, existing benchmarks for evaluating these representations fail to capture the diversity of relevant tasks. In response, we introduce SciRepEval, the first comprehensive benchmark for training and evaluating scientific document representations. It includes 25 challenging and realistic tasks, 11 of which are new, across four formats: classification, regression, ranking and search. We then use the benchmark to study and improve the generalization ability of scientific document representation models. We show how state-of-the-art models struggle to generalize across task formats, and that simple multi-task training fails to improve them. However, a new approach that learns multiple embeddings per document, each tailored to a different format, can improve performance. We experiment with task-format-specific control codes and adapters in 
     
-[^123]: 基于概念器辅助的大型语言模型去偏见
+[^124]: 基于概念器辅助的大型语言模型去偏见
 
     Conceptor-Aided Debiasing of Large Language Models. (arXiv:2211.11087v2 [cs.CL] UPDATED)
 
@@ -1869,7 +1884,7 @@
 
     Pre-trained large language models (LLMs) reflect the inherent social biases of their training corpus. Many methods have been proposed to mitigate this issue, but they often fail to debias or they sacrifice model accuracy. We use conceptors--a soft projection method--to identify and remove the bias subspace in LLMs such as BERT and GPT. We propose two methods of applying conceptors (1) bias subspace projection by post-processing; and (2) a new architecture, conceptor-intervened BERT (CI-BERT), which explicitly incorporates the conceptor projection into all layers during training. We find that conceptor post-processing achieves state-of-the-art (SoTA) debiasing results while maintaining or improving LLMs' performance on the GLUE benchmark. Also, it is robust in various scenarios and can mitigate intersectional bias efficiently by its logical operation on the existing bias subspaces. Although CI-BERT's training takes all layers' bias into account and can beat its post-processing counterpa
     
-[^124]: NESTER：一种自适应的神经符号化方法进行治疗效果评估
+[^125]: NESTER：一种自适应的神经符号化方法进行治疗效果评估
 
     NESTER: An Adaptive Neurosymbolic Method for Treatment Effect Estimation. (arXiv:2211.04370v2 [cs.AI] UPDATED)
 
@@ -1883,7 +1898,7 @@
 
     Treatment effect estimation from observational data is a central problem in causal inference. Methods based on potential outcomes framework solve this problem by exploiting inductive biases and heuristics from causal inference. Each existing technique addresses a specific aspect of treatment effect estimation, such as controlling propensity score, enforcing randomization, etc., by designing neural network architectures and regularizers. In this paper, we propose an adaptive method called Neurosymbolic Treatment Effect Estimator (NESTER), a generalized method for treatment effect estimation. NESTER brings together all the desiderata for treatment effect estimation into one framework. For this purpose, we design a Domain Specific Language (DSL) for the treatment effect estimation based on inductive biases used in literature. We also theoretically study NESTER's capability for the treatment effect estimation task. Our comprehensive empirical results show that NESTER performs better on ben
     
-[^125]: CLIP-Sculptor: 自然语言零样本生成高保真度和多样性的三维形状
+[^126]: CLIP-Sculptor: 自然语言零样本生成高保真度和多样性的三维形状
 
     CLIP-Sculptor: Zero-Shot Generation of High-Fidelity and Diverse Shapes from Natural Language. (arXiv:2211.01427v3 [cs.CV] UPDATED)
 
@@ -1897,7 +1912,7 @@
 
     Recent works have demonstrated that natural language can be used to generate and edit 3D shapes. However, these methods generate shapes with limited fidelity and diversity. We introduce CLIP-Sculptor, a method to address these constraints by producing high-fidelity and diverse 3D shapes without the need for (text, shape) pairs during training. CLIP-Sculptor achieves this in a multi-resolution approach that first generates in a low-dimensional latent space and then upscales to a higher resolution for improved shape fidelity. For improved shape diversity, we use a discrete latent space which is modeled using a transformer conditioned on CLIP's image-text embedding space. We also present a novel variant of classifier-free guidance, which improves the accuracy-diversity trade-off. Finally, we perform extensive experiments demonstrating that CLIP-Sculptor outperforms state-of-the-art baselines. The code is available at https://ivl.cs.brown.edu/#/projects/clip-sculptor.
     
-[^126]: 自适应音频视觉关注的视觉感知音频字幕生成
+[^127]: 自适应音频视觉关注的视觉感知音频字幕生成
 
     Visually-Aware Audio Captioning With Adaptive Audio-Visual Attention. (arXiv:2210.16428v2 [eess.AS] UPDATED)
 
@@ -1911,7 +1926,7 @@
 
     Audio captioning aims to generate text descriptions of audio clips. In the real world, many objects produce similar sounds. How to accurately recognize ambiguous sounds is a major challenge for audio captioning. In this work, inspired by inherent human multimodal perception, we propose visually-aware audio captioning, which makes use of visual information to help the description of ambiguous sounding objects. Specifically, we introduce an off-the-shelf visual encoder to extract video features and incorporate the visual features into an audio captioning system. Furthermore, to better exploit complementary audio-visual contexts, we propose an audio-visual attention mechanism that adaptively integrates audio and visual context and removes the redundant information in the latent space. Experimental results on AudioCaps, the largest audio captioning dataset, show that our proposed method achieves state-of-the-art results on machine translation metrics.
     
-[^127]: 走向标准化的韩语语法错误修正：数据集与注释
+[^128]: 走向标准化的韩语语法错误修正：数据集与注释
 
     Towards standardizing Korean Grammatical Error Correction: Datasets and Annotation. (arXiv:2210.14389v3 [cs.CL] UPDATED)
 
@@ -1925,7 +1940,7 @@
 
     Research on Korean grammatical error correction (GEC) is limited, compared to other major languages such as English. We attribute this problematic circumstance to the lack of a carefully designed evaluation benchmark for Korean GEC. In this work, we collect three datasets from different sources (Kor-Lang8, Kor-Native, and Kor-Learner) that covers a wide range of Korean grammatical errors. Considering the nature of Korean grammar, We then define 14 error types for Korean and provide KAGAS (Korean Automatic Grammatical error Annotation System), which can automatically annotate error types from parallel corpora. We use KAGAS on our datasets to make an evaluation benchmark for Korean, and present baseline models trained from our datasets. We show that the model trained with our datasets significantly outperforms the currently used statistical Korean GEC system (Hanspell) on a wider range of error types, demonstrating the diversity and usefulness of the datasets. The implementations and dat
     
-[^128]: 图神经网络的通用Prompt调整方法
+[^129]: 图神经网络的通用Prompt调整方法
 
     Universal Prompt Tuning for Graph Neural Networks. (arXiv:2209.15240v2 [cs.LG] UPDATED)
 
@@ -1939,7 +1954,7 @@
 
     In recent years, prompt tuning has sparked a research surge in adapting pre-trained models. Unlike the unified pre-training strategy employed in the language field, the graph field exhibits diverse pre-training strategies, posing challenges in designing appropriate prompt-based tuning methods for graph neural networks. While some pioneering work has devised specialized prompting functions for models that employ edge prediction as their pre-training tasks, these methods are limited to specific pre-trained GNN models and lack broader applicability. In this paper, we introduce a universal prompt-based tuning method called Graph Prompt Feature (GPF) for pre-trained GNN models under any pre-training strategy. GPF operates on the input graph's feature space and can theoretically achieve an equivalent effect to any form of prompting function. Consequently, we no longer need to illustrate the prompting function corresponding to each pre-training strategy explicitly. Instead, we employ GPF to o
     
-[^129]: 动态自适应连续强化学习：通过渐进式上下文化学习
+[^130]: 动态自适应连续强化学习：通过渐进式上下文化学习
 
     Dynamics-Adaptive Continual Reinforcement Learning via Progressive Contextualization. (arXiv:2209.00347v2 [cs.LG] UPDATED)
 
@@ -1953,7 +1968,7 @@
 
     A key challenge of continual reinforcement learning (CRL) in dynamic environments is to promptly adapt the RL agent's behavior as the environment changes over its lifetime, while minimizing the catastrophic forgetting of the learned information. To address this challenge, in this article, we propose DaCoRL, i.e., dynamics-adaptive continual RL. DaCoRL learns a context-conditioned policy using progressive contextualization, which incrementally clusters a stream of stationary tasks in the dynamic environment into a series of contexts and opts for an expandable multihead neural network to approximate the policy. Specifically, we define a set of tasks with similar dynamics as an environmental context and formalize context inference as a procedure of online Bayesian infinite Gaussian mixture clustering on environment features, resorting to online Bayesian inference to infer the posterior distribution over contexts. Under the assumption of a Chinese restaurant process prior, this technique c
     
-[^130]: 面向领域特定风险最小化的外样本泛化研究
+[^131]: 面向领域特定风险最小化的外样本泛化研究
 
     Domain-Specific Risk Minimization for Out-of-Distribution Generalization. (arXiv:2208.08661v4 [cs.LG] UPDATED)
 
@@ -1967,7 +1982,7 @@
 
     Recent domain generalization (DG) approaches typically use the hypothesis learned on source domains for inference on the unseen target domain. However, such a hypothesis can be arbitrarily far from the optimal one for the target domain, induced by a gap termed ``adaptivity gap''. Without exploiting the domain information from the unseen test samples, adaptivity gap estimation and minimization are intractable, which hinders us to robustify a model to any unknown distribution. In this paper, we first establish a generalization bound that explicitly considers the adaptivity gap. Our bound motivates two strategies to reduce the gap: the first one is ensembling multiple classifiers to enrich the hypothesis space, then we propose effective gap estimation methods for guiding the selection of a better hypothesis for the target. The other method is minimizing the gap directly by adapting model parameters using online target samples. We thus propose \textbf{Domain-specific Risk Minimization (DRM
     
-[^131]: 利用最佳响应多样性生成伴侣以训练稳健的临时团队协作代理
+[^132]: 利用最佳响应多样性生成伴侣以训练稳健的临时团队协作代理
 
     Generating Teammates for Training Robust Ad Hoc Teamwork Agents via Best-Response Diversity. (arXiv:2207.14138v3 [cs.LG] UPDATED)
 
@@ -1981,7 +1996,7 @@
 
     Ad hoc teamwork (AHT) is the challenge of designing a robust learner agent that effectively collaborates with unknown teammates without prior coordination mechanisms. Early approaches address the AHT challenge by training the learner with a diverse set of handcrafted teammate policies, usually designed based on an expert's domain knowledge about the policies the learner may encounter. However, implementing teammate policies for training based on domain knowledge is not always feasible. In such cases, recent approaches attempted to improve the robustness of the learner by training it with teammate policies generated by optimising information-theoretic diversity metrics. The problem with optimising existing information-theoretic diversity metrics for teammate policy generation is the emergence of superficially different teammates. When used for AHT training, superficially different teammate behaviours may not improve a learner's robustness during collaboration with unknown teammates. In 
     
-[^132]: 评估和诱导预训练语言模型的个性
+[^133]: 评估和诱导预训练语言模型的个性
 
     Evaluating and Inducing Personality in Pre-trained Language Models. (arXiv:2206.07550v2 [cs.CL] UPDATED)
 
@@ -1995,7 +2010,7 @@
 
     Originating as a philosophical quest, the study of personality concerns how individuals differ in thinking, feeling, and behaving. Towards building social machines that work with humans on a daily basis, we are motivated to ask: Do existing Large Language Models (LLMs) possess personalities akin to their human counterparts? If so, how can we evaluate them? Further, given this evaluation framework, how can we induce a particular personality in a controllable fashion? To answer these three questions, we propose the Machine Personality Inventory (MPI) dataset for evaluating the machine personality; MPI follows standardized personality tests, built upon the Big Five Personality Factors (Big Five) theory and personality assessment inventories. By systematically evaluating LLMs with MPI, we provide the first piece of evidence showing the existence of personality in LLMs. We further devise a Personality Prompting (P^2) method to induce LLMs with a specific personality in a controllable manner
     
-[^133]: 使用步骤感知验证器使大型语言模型成为更好的推理者
+[^134]: 使用步骤感知验证器使大型语言模型成为更好的推理者
 
     Making Large Language Models Better Reasoners with Step-Aware Verifier. (arXiv:2206.02336v3 [cs.CL] UPDATED)
 
@@ -2009,7 +2024,7 @@
 
     Few-shot learning is a challenging task that requires language models to generalize from limited examples. Large language models like GPT-3 and PaLM have made impressive progress in this area, but they still face difficulties in reasoning tasks such as GSM8K, a benchmark for arithmetic problems. To improve their reasoning skills, previous work has proposed to guide the language model with prompts that elicit a series of reasoning steps before giving the final answer, achieving a significant improvement on GSM8K from 17.9% to 58.1% in problem-solving rate. In this paper, we present DIVERSE (Diverse Verifier on Reasoning Step), a novel approach that further enhances the reasoning capability of language models. DIVERSE has three main components: first, it generates diverse prompts to explore different reasoning paths for the same question; second, it uses a verifier to filter out incorrect answers based on a weighted voting scheme; and third, it verifies each reasoning step individually i
     
-[^134]: 数据有效的 GAN 训练中的自我监督增强技术
+[^135]: 数据有效的 GAN 训练中的自我监督增强技术
 
     Augmentation-Aware Self-Supervision for Data-Efficient GAN Training. (arXiv:2205.15677v2 [cs.LG] UPDATED)
 
@@ -2023,7 +2038,7 @@
 
     Training generative adversarial networks (GANs) with limited data is challenging because discriminator is prone to overfitting. Previously proposed differentiable augmentation demonstrates improved data efficiency of training GANs. However, the augmentation implicitly introduces undesired invariance to augmentation for the discriminator since it ignores the change of semantics in the label space caused by data transformation, which may limit the representation learning ability of the discriminator and ultimately affect the generative modeling performance of the generator. To mitigate the negative impact of invariance while inheriting the benefits of data augmentation, we propose a novel augmentation-aware self-supervised discriminator that predicts the augmentation parameter of the augmented data. Particularly, the prediction targets of real data and generated data are required to be distinguished since they are different during training. We further encourage the generator to adversari
     
-[^135]: 学习一次关系元表示以用于时间知识图谱链接预测
+[^136]: 学习一次关系元表示以用于时间知识图谱链接预测
 
     Learning Meta Representations of One-shot Relations for Temporal Knowledge Graph Link Prediction. (arXiv:2205.10621v2 [cs.LG] UPDATED)
 
@@ -2037,7 +2052,7 @@
 
     Few-shot relational learning for static knowledge graphs (KGs) has drawn greater interest in recent years, while few-shot learning for temporal knowledge graphs (TKGs) has hardly been studied. Compared to KGs, TKGs contain rich temporal information, thus requiring temporal reasoning techniques for modeling. This poses a greater challenge in learning few-shot relations in the temporal context. In this paper, we follow the previous work that focuses on few-shot relational learning on static KGs and extend two fundamental TKG reasoning tasks, i.e., interpolated and extrapolated link prediction, to the one-shot setting. We propose four new large-scale benchmark datasets and develop a TKG reasoning model for learning one-shot relations in TKGs. Experimental results show that our model can achieve superior performance on all datasets in both TKG link prediction tasks.
     
-[^136]: 基于行动语言的实际因果关系对计算伦理学的影响：ASP的一个完整且可靠的实现（arXiv:2205.02919v2 [cs.AI] 更新版）
+[^137]: 基于行动语言的实际因果关系对计算伦理学的影响：ASP的一个完整且可靠的实现（arXiv:2205.02919v2 [cs.AI] 更新版）
 
     Action Languages Based Actual Causality for Computational Ethics: a Sound and Complete Implementation in ASP. (arXiv:2205.02919v2 [cs.AI] UPDATED)
 
@@ -2051,7 +2066,7 @@
 
     Although moral responsibility is not circumscribed by causality, they are both closely intermixed. Furthermore, rationally understanding the evolution of the physical world is inherently linked with the idea of causality. Thus, the decision-making applications based on automated planning inevitably have to deal with causality, especially if they consider imputability aspects or integrate references to ethical norms. The many debates around causation in the last decades have shown how complex this notion is and thus, how difficult is its integration with planning. As a result, much of the work in computational ethics relegates causality to the background, despite the considerations stated above. This paper's contribution is to provide a complete and sound translation into logic programming from an actual causation definition suitable for action languages, this definition is a formalisation of Wright's NESS test. The obtained logic program allows to deal with complex causal relations. In
     
-[^137]: 用双重提示增强跨语言提示
+[^138]: 用双重提示增强跨语言提示
 
     Enhancing Cross-lingual Prompting with Dual Prompt Augmentation. (arXiv:2202.07255v2 [cs.CL] UPDATED)
 
@@ -2065,7 +2080,7 @@
 
     Prompting shows promising results in few-shot scenarios. However, its strength for multilingual/cross-lingual problems has not been fully exploited. Zhao and Sch\"utze (2021) made initial explorations in this direction by presenting that cross-lingual prompting outperforms cross-lingual finetuning. In this paper, we conduct an empirical exploration on the effect of each component in cross-lingual prompting and derive language-agnostic Universal Prompting, which helps alleviate the discrepancies between source-language training and target-language inference. Based on this, we propose DPA, a dual prompt augmentation framework, aiming at relieving the data scarcity issue in few-shot cross-lingual prompting. Notably, for XNLI, our method achieves 46.54% with only 16 English training examples per class, significantly better than 34.99% of finetuning. Our code is available at https://github.com/DAMO-NLP-SG/DPA.
     
-[^138]: Facebook和短信文本之间的不同机会不会妨碍基于语言的预测模型的泛化
+[^139]: Facebook和短信文本之间的不同机会不会妨碍基于语言的预测模型的泛化
 
     Different Affordances on Facebook and SMS Text Messaging Do Not Impede Generalization of Language-Based Predictive Models. (arXiv:2202.01802v3 [cs.CL] UPDATED)
 
@@ -2079,7 +2094,7 @@
 
     Adaptive mobile device-based health interventions often use machine learning models trained on non-mobile device data, such as social media text, due to the difficulty and high expense of collecting large text message (SMS) data. Therefore, understanding the differences and generalization of models between these platforms is crucial for proper deployment. We examined the psycho-linguistic differences between Facebook and text messages, and their impact on out-of-domain model performance, using a sample of 120 users who shared both. We found that users use Facebook for sharing experiences (e.g., leisure) and SMS for task-oriented and conversational purposes (e.g., plan confirmations), reflecting the differences in the affordances. To examine the downstream effects of these differences, we used pre-trained Facebook-based language models to estimate age, gender, depression, life satisfaction, and stress on both Facebook and SMS. We found no significant differences in correlations between 
     
-[^139]: 一种可解释的基于 MALDI-ToF 质谱的 COVID-19 诊断 AI 方法
+[^140]: 一种可解释的基于 MALDI-ToF 质谱的 COVID-19 诊断 AI 方法
 
     An Explainable-AI approach for Diagnosis of COVID-19 using MALDI-ToF Mass Spectrometry. (arXiv:2109.14099v3 [cs.LG] UPDATED)
 
@@ -2093,7 +2108,7 @@
 
     The severe acute respiratory syndrome coronavirus type-2 (SARS-CoV-2) caused a global pandemic and immensely affected the global economy. Accurate, cost-effective, and quick tests have proven substantial in identifying infected people and mitigating the spread. Recently, multiple alternative platforms for testing coronavirus disease 2019 (COVID-19) have been published that show high agreement with current gold standard real-time polymerase chain reaction (RT-PCR) results. These new methods do away with nasopharyngeal (NP) swabs, eliminate the need for complicated reagents, and reduce the burden on RT-PCR test reagent supply. In the present work, we have designed an artificial intelligence-based (AI) testing method to provide confidence in the results. Current AI applications for COVID-19 studies often lack a biological foundation in the decision-making process, and our AI approach is one of the earliest to leverage explainable AI (X-AI) algorithms for COVID-19 diagnosis using mass spec
     
-[^140]: 推荐系统的深度探索
+[^141]: 推荐系统的深度探索
 
     Deep Exploration for Recommendation Systems. (arXiv:2109.12509v2 [cs.IR] UPDATED)
 
@@ -2107,7 +2122,7 @@
 
     Modern recommendation systems ought to benefit by probing for and learning from delayed feedback. Research has tended to focus on learning from a user's response to a single recommendation. Such work, which leverages methods of supervised and bandit learning, forgoes learning from the user's subsequent behavior. Where past work has aimed to learn from subsequent behavior, there has been a lack of effective methods for probing to elicit informative delayed feedback. Effective exploration through probing for delayed feedback becomes particularly challenging when rewards are sparse. To address this, we develop deep exploration methods for recommendation systems. In particular, we formulate recommendation as a sequential decision problem and demonstrate benefits of deep exploration over single-step exploration. Our experiments are carried out with high-fidelity industrial-grade simulators and establish large improvements over existing algorithms.
     
-[^141]: 我们是否能够准确地表示掩码状态以计算DNN的Shapley值?
+[^142]: 我们是否能够准确地表示掩码状态以计算DNN的Shapley值?
 
     Can We Faithfully Represent Masked States to Compute Shapley Values on a DNN?. (arXiv:2105.10719v4 [cs.LG] UPDATED)
 
@@ -2121,7 +2136,7 @@
 
     Masking some input variables of a deep neural network (DNN) and computing output changes on the masked input sample represent a typical way to compute attributions of input variables in the sample. People usually mask an input variable using its baseline value. However, there is no theory to examine whether baseline value faithfully represents the absence of an input variable, \emph{i.e.,} removing all signals from the input variable. Fortunately, recent studies show that the inference score of a DNN can be strictly disentangled into a set of causal patterns (or concepts) encoded by the DNN. Therefore, we propose to use causal patterns to examine the faithfulness of baseline values. More crucially, it is proven that causal patterns can be explained as the elementary rationale of the Shapley value. Furthermore, we propose a method to learn optimal baseline values, and experimental results have demonstrated its effectiveness.
     
-[^142]: 通过解释逻辑程序的失败来学习
+[^143]: 通过解释逻辑程序的失败来学习
 
     Learning logic programs by explaining their failures. (arXiv:2102.12551v2 [cs.AI] UPDATED)
 
