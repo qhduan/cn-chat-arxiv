@@ -16,7 +16,8 @@
 | [^12] | [Democratic Policy Decisions with Decentralized Promises Contingent on Vote Outcome.](http://arxiv.org/abs/2304.08008) | 本文研究了去中心化承诺对民主决策的影响。在投票前，委员会成员可以进行可执行的承诺。可能需要跨越阵营进行承诺，以实现改革的实施，同时需要排除最不热衷于改革的支持者被诱导推翻决定。 |
 | [^13] | [Robust Faber--Schauder approximation based on discrete observations of an antiderivative.](http://arxiv.org/abs/2211.11907) | 本文提出了从反导数离散观测中重构Faber-Schauder系数的方法，并发现了在估计过程中只有最终产生的系数会受到位置的影响及初始值的依赖，并通过放弃这些系数获取了高质量的估计值。 |
 | [^14] | [Exploring the stability of solar geoengineering agreements.](http://arxiv.org/abs/2210.09145) | 本文探讨了国际合作太阳辐射管理的稳定性，发现稳定性与太阳辐射管理的风险程度相关，但不受国家偏好影响。 |
-| [^15] | [Optimal consumption and portfolio selection with Epstein-Zin utility under general constraints.](http://arxiv.org/abs/2111.09032) | 本文研究了使用Epstein-Zin效用的投资者在不完整市场上的消费投资问题。通过二次反向随机微分方程（BSDE），表征了最优的消费和投资策略；验证定理得到印证。 |
+| [^15] | [Black-Scholes-Merton Option Pricing Revisited: Did we Find a Fatal Flaw?.](http://arxiv.org/abs/2202.05671) | 本文发现了Merton（1971）自融资条件的时间错误，因此否定了Black和Scholes（1973）的期权定价公式，Harrison和Pliska（1981）的连续交易模型以及Cox，Ross和Rubinstein（1979）的二项期权定价模型。 |
+| [^16] | [Optimal consumption and portfolio selection with Epstein-Zin utility under general constraints.](http://arxiv.org/abs/2111.09032) | 本文研究了使用Epstein-Zin效用的投资者在不完整市场上的消费投资问题。通过二次反向随机微分方程（BSDE），表征了最优的消费和投资策略；验证定理得到印证。 |
 
 # 详细
 
@@ -216,7 +217,21 @@
 
     A simple model is introduced to study the cooperative behavior of nations regarding solar geoengineering. The results of this model are explored through numerical methods. A general finding is that cooperation and coordination between nations on solar geoengineering is very much incentivized. Furthermore, the stability of solar geoengineering agreements between nations crucially depends on the perceived riskiness of solar geoengineering. If solar geoengineering is perceived as riskier, the stability of the most stable solar geoengineering agreements is reduced. However, the stability of agreements is completely independent of countries preferences.
     
-[^15]: 带有一般约束条件的Epstein-Zin效用下的最优消费和投资选择。
+[^15]: Black-Scholes-Merton期权定价的再探：我们发现了致命缺陷吗？
+
+    Black-Scholes-Merton Option Pricing Revisited: Did we Find a Fatal Flaw?. (arXiv:2202.05671v2 [q-fin.PR] UPDATED)
+
+    [http://arxiv.org/abs/2202.05671](http://arxiv.org/abs/2202.05671)
+
+    本文发现了Merton（1971）自融资条件的时间错误，因此否定了Black和Scholes（1973）的期权定价公式，Harrison和Pliska（1981）的连续交易模型以及Cox，Ross和Rubinstein（1979）的二项期权定价模型。
+
+    
+
+    Black和Scholes（1973）的期权定价公式基于Merton（1971）的连续时间预算方程中的连续时间自融资条件，该条件是外部资金的无流入或流出的投资组合再平衡的经济概念的正式表述，但从未在连续时间下正式推导过。然而，作为更大的问题，我们发现Merton（1971）模型中的一个时间错误，并且表明他的自融资条件在离散时间和连续时间下都存在误差。我们的结果否定了该领域的杰出贡献，包括Merton（1971）的预算方程、Black和Scholes（1973）的期权定价公式、Harrison和Pliska（1981）的连续交易模型以及Cox，Ross和Rubinstein（1979）的二项期权定价模型。我们还表明，Black和Scholes（1973）以及Harrison和Pliska（1981）隐含地假定了他们的复制结果。
+
+    The option pricing formula of Black and Scholes (1973) hinges on the continuous-time self-financing condition, which is a special case of the continuous-time budget equation of Merton (1971). The self-financing condition is believed to formalize the economic concept of portfolio rebalancing without inflows or outflows of external funds, but was never formally derived in continuous time. As a much bigger issue, however, we discover a timing mistake in the model of Merton (1971) and show that his self-financing condition is misspecified both in discrete and continuous time. Our results invalidate seminal contributions to the literature, including the budget equation of Merton (1971), the option pricing formula of Black and Scholes (1973), the continuous trading model of Harrison and Pliska (1981), and the binomial option pricing model of Cox, Ross and Rubinstein (1979). We also show that Black and Scholes (1973) and Harrison and Pliska (1981) implicitly assumed their replication result.
+    
+[^16]: 带有一般约束条件的Epstein-Zin效用下的最优消费和投资选择。
 
     Optimal consumption and portfolio selection with Epstein-Zin utility under general constraints. (arXiv:2111.09032v3 [q-fin.MF] UPDATED)
 
