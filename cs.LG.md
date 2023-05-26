@@ -236,14 +236,15 @@
 | [^232] | [Knowledge Distillation with Deep Supervision.](http://arxiv.org/abs/2202.07846) | 本文提出了一种基于深度监督的知识蒸馏方法，该方法利用教师模型的类预测和特征图来监督训练学生模型的浅层，通过基于损失的权重分配策略自适应平衡各个浅层的学习过程，取得了显著的性能提升。 |
 | [^233] | [pNLP-Mixer: an Efficient all-MLP Architecture for Language.](http://arxiv.org/abs/2202.04350) | pNLP-Mixer是一种新型的MLP-Mixer模型，不需要嵌入层，用于设备上高效的自然语言处理，可以达到基于transformer架构的大型预训练语言模型相近的性能，却只需要很少的资源。 |
 | [^234] | [FedGCN: Convergence and Communication Tradeoffs in Federated Training of Graph Convolutional Networks.](http://arxiv.org/abs/2201.12433) | 介绍了一个新算法 FedGCN，使用联邦学习训练 GCN 模型进行半监督节点分类，实现收敛快，通信量小，同时还能够保护本地数据隐私。 |
-| [^235] | [Stochastic Mirror Descent: Convergence Analysis and Adaptive Variants via the Mirror Stochastic Polyak Stepsize.](http://arxiv.org/abs/2110.15412) | 本文研究了在相对平滑和平滑凸优化中，随机镜像下降（SMD）在内插下的收敛性。在相对平滑凸优化中，使用恒定步长的SMD具有新的收敛保证。对于平滑凸优化，提出了一种新的自适应步长方案——镜像随机Polyak步长（mSPS）。这些结果是首个在内插下对指数梯度算法进行固定或自适应步长的收敛保证。 |
-| [^236] | [Instrumental Variable-Driven Domain Generalization with Unobserved Confounders.](http://arxiv.org/abs/2110.01438) | 本文提出了一种基于工具变量去除未观测混淆因素偏差的域泛化方法。 |
-| [^237] | [A theory of representation learning in deep neural networks gives a deep generalisation of kernel methods.](http://arxiv.org/abs/2108.13097) | 本文提出了一种新的无限宽度限制——贝叶斯表示学习限制，旨在解决标准无限宽度限制消除表示学习的问题。该方法可以实现类似于有限宽度模型中的表示学习效果，并保留标准无限宽度限制的简单性。 |
-| [^238] | [DeepFreight: Integrating Deep Reinforcement Learning and Mixed Integer Programming for Multi-transfer Truck Freight Delivery.](http://arxiv.org/abs/2103.03450) | 本文提出了DeepFreight，一种基于深度强化学习和混合整数规划的多段货运配送算法。通过该算法，可以高效地进行车队调度和包裹匹配，确保100%的交付成功率。 |
-| [^239] | [Data Assimilation Networks.](http://arxiv.org/abs/2010.09694) | 本文提出了一种全数据驱动的深度学习架构，用于改进数据同化算法性能，该方法可用于一般非线性动力学和非高斯密度。 |
-| [^240] | [Near Optimal Adversarial Attack on UCB Bandits.](http://arxiv.org/abs/2008.09312) | 本文提出了一种在对抗攻击下的UCB最优拉臂策略，成本为$\sqrt{\log T}$，并且证明了此攻击策略近乎是最优的。 |
-| [^241] | [Quality Inference in Federated Learning with Secure Aggregation.](http://arxiv.org/abs/2007.06236) | 本文研究了在联邦学习中应用安全聚合后，单个训练集的质量信息仍可能被推断并归因于具体参与者的问题，通过图像识别实验找出了参与者相对的质量排序，进而用于检测不良行为、稳定训练性能以及测量参与者的个人贡献。 |
-| [^242] | [The Power of Linear Recurrent Neural Networks.](http://arxiv.org/abs/1802.03308) | 本研究展示了线性递归神经网络(LRNNs)可以逼近任何时变函数f(t)。通过检查网络转移矩阵的主要特征值，可以显著降低LRNN的规模。LRNNs具有以椭圆轨迹结束的有趣特性，并允许预测进一步的值和函数的紧凑表示。 |
+| [^235] | [Colloquium: Advances in automation of quantum dot devices control.](http://arxiv.org/abs/2112.09362) | 该篇论文总结了近年来针对量子点器件控制自动化的进展，重点是采用脚本算法和机器学习技术，旨在实现更好的量子比特运行性能。 |
+| [^236] | [Stochastic Mirror Descent: Convergence Analysis and Adaptive Variants via the Mirror Stochastic Polyak Stepsize.](http://arxiv.org/abs/2110.15412) | 本文研究了在相对平滑和平滑凸优化中，随机镜像下降（SMD）在内插下的收敛性。在相对平滑凸优化中，使用恒定步长的SMD具有新的收敛保证。对于平滑凸优化，提出了一种新的自适应步长方案——镜像随机Polyak步长（mSPS）。这些结果是首个在内插下对指数梯度算法进行固定或自适应步长的收敛保证。 |
+| [^237] | [Instrumental Variable-Driven Domain Generalization with Unobserved Confounders.](http://arxiv.org/abs/2110.01438) | 本文提出了一种基于工具变量去除未观测混淆因素偏差的域泛化方法。 |
+| [^238] | [A theory of representation learning in deep neural networks gives a deep generalisation of kernel methods.](http://arxiv.org/abs/2108.13097) | 本文提出了一种新的无限宽度限制——贝叶斯表示学习限制，旨在解决标准无限宽度限制消除表示学习的问题。该方法可以实现类似于有限宽度模型中的表示学习效果，并保留标准无限宽度限制的简单性。 |
+| [^239] | [DeepFreight: Integrating Deep Reinforcement Learning and Mixed Integer Programming for Multi-transfer Truck Freight Delivery.](http://arxiv.org/abs/2103.03450) | 本文提出了DeepFreight，一种基于深度强化学习和混合整数规划的多段货运配送算法。通过该算法，可以高效地进行车队调度和包裹匹配，确保100%的交付成功率。 |
+| [^240] | [Data Assimilation Networks.](http://arxiv.org/abs/2010.09694) | 本文提出了一种全数据驱动的深度学习架构，用于改进数据同化算法性能，该方法可用于一般非线性动力学和非高斯密度。 |
+| [^241] | [Near Optimal Adversarial Attack on UCB Bandits.](http://arxiv.org/abs/2008.09312) | 本文提出了一种在对抗攻击下的UCB最优拉臂策略，成本为$\sqrt{\log T}$，并且证明了此攻击策略近乎是最优的。 |
+| [^242] | [Quality Inference in Federated Learning with Secure Aggregation.](http://arxiv.org/abs/2007.06236) | 本文研究了在联邦学习中应用安全聚合后，单个训练集的质量信息仍可能被推断并归因于具体参与者的问题，通过图像识别实验找出了参与者相对的质量排序，进而用于检测不良行为、稳定训练性能以及测量参与者的个人贡献。 |
+| [^243] | [The Power of Linear Recurrent Neural Networks.](http://arxiv.org/abs/1802.03308) | 本研究展示了线性递归神经网络(LRNNs)可以逼近任何时变函数f(t)。通过检查网络转移矩阵的主要特征值，可以显著降低LRNN的规模。LRNNs具有以椭圆轨迹结束的有趣特性，并允许预测进一步的值和函数的紧凑表示。 |
 
 # 详细
 
@@ -3523,7 +3524,21 @@
 
     Methods for training models on graphs distributed across multiple clients have recently grown in popularity, due to the size of these graphs as well as regulations on keeping data where it is generated. However, a single connected graph cannot be disjointly partitioned onto multiple clients due to the cross-client edges connecting graph nodes. Thus, distributed methods for training a model on a single graph incur either significant communication overhead between clients or a loss of available information to the training. We introduce the Federated Graph Convolutional Network (FedGCN) algorithm, which uses federated learning to train GCN models for semi-supervised node classification with fast convergence and little communication. Compared to prior methods that require communication among clients at each training round, FedGCN clients only communicate with the central server in one pre-training step, greatly reducing communication costs and allowing the use of homomorphic encryption to 
     
-[^235]: 随机镜像下降：通过镜像随机Polyak步长的自适应变体进行收敛分析（更新版）
+[^235]: 论文题目：量子点器件控制自动化的进展。
+
+    Colloquium: Advances in automation of quantum dot devices control. (arXiv:2112.09362v3 [quant-ph] UPDATED)
+
+    [http://arxiv.org/abs/2112.09362](http://arxiv.org/abs/2112.09362)
+
+    该篇论文总结了近年来针对量子点器件控制自动化的进展，重点是采用脚本算法和机器学习技术，旨在实现更好的量子比特运行性能。
+
+    
+
+    量子点（QD）阵列是实现可扩展的耦合量子比特系统的有前途的候选系统，也是量子计算机的基本构建模块。在这样的半导体量子系统中，设备现在具有数十个独立的静电和动态电压，必须仔细设置以将系统局限于单电子区域，并实现良好的量子比特运行性能。将所需的QD位置和电荷映射到门电压，对于庞大的参数空间，使用启发式控制变得不可行。近年来，已经有相当大的努力将基于脚本的算法与机器学习（ML）技术相结合，实现设备控制的自动化。在本篇文章中，我们介绍了近年来量子点器件控制自动化的全面进展，特别强调了硅基和GaAs基的量子点。
+
+    Arrays of quantum dots (QDs) are a promising candidate system to realize scalable, coupled qubit systems and serve as a fundamental building block for quantum computers. In such semiconductor quantum systems, devices now have tens of individual electrostatic and dynamical voltages that must be carefully set to localize the system into the single-electron regime and to realize good qubit operational performance. The mapping of requisite QD locations and charges to gate voltages presents a challenging classical control problem. With an increasing number of QD qubits, the relevant parameter space grows sufficiently to make heuristic control unfeasible. In recent years, there has been considerable effort to automate device control that combines script-based algorithms with machine learning (ML) techniques. In this Colloquium, a comprehensive overview of the recent progress in the automation of QD device control is presented, with a particular emphasis on silicon- and GaAs-based QDs formed 
+    
+[^236]: 随机镜像下降：通过镜像随机Polyak步长的自适应变体进行收敛分析（更新版）
 
     Stochastic Mirror Descent: Convergence Analysis and Adaptive Variants via the Mirror Stochastic Polyak Stepsize. (arXiv:2110.15412v3 [math.OC] UPDATED)
 
@@ -3537,7 +3552,7 @@
 
     We investigate the convergence of stochastic mirror descent (SMD) under interpolation in relatively smooth and smooth convex optimization. In relatively smooth convex optimization we provide new convergence guarantees for SMD with a constant stepsize. For smooth convex optimization we propose a new adaptive stepsize scheme -- the mirror stochastic Polyak stepsize (mSPS). Notably, our convergence results in both settings do not make bounded gradient assumptions or bounded variance assumptions, and we show convergence to a neighborhood that vanishes under interpolation. Consequently, these results correspond to the first convergence guarantees under interpolation for the exponentiated gradient algorithm for fixed or adaptive stepsizes. mSPS generalizes the recently proposed stochastic Polyak stepsize (SPS) (Loizou et al. 2021) to mirror descent and remains both practical and efficient for modern machine learning applications while inheriting the benefits of mirror descent. We complement 
     
-[^236]: 基于工具变量的未观测混淆因素驱动域泛化
+[^237]: 基于工具变量的未观测混淆因素驱动域泛化
 
     Instrumental Variable-Driven Domain Generalization with Unobserved Confounders. (arXiv:2110.01438v2 [cs.LG] UPDATED)
 
@@ -3551,7 +3566,7 @@
 
     Domain generalization (DG) aims to learn from multiple source domains a model that can generalize well on unseen target domains. Existing DG methods mainly learn the representations with invariant marginal distribution of the input features, however, the invariance of the conditional distribution of the labels given the input features is more essential for unknown domain prediction. Meanwhile, the existing of unobserved confounders which affect the input features and labels simultaneously cause spurious correlation and hinder the learning of the invariant relationship contained in the conditional distribution. Interestingly, with a causal view on the data generating process, we find that the input features of one domain are valid instrumental variables for other domains. Inspired by this finding, we propose an instrumental variable-driven DG method (IV-DG) by removing the bias of the unobserved confounders with two-stage learning. In the first stage, it learns the conditional distribut
     
-[^237]: 一种深度神经网络中表示学习的理论给出了核方法的深度泛化。
+[^238]: 一种深度神经网络中表示学习的理论给出了核方法的深度泛化。
 
     A theory of representation learning in deep neural networks gives a deep generalisation of kernel methods. (arXiv:2108.13097v5 [stat.ML] UPDATED)
 
@@ -3565,7 +3580,7 @@
 
     The successes of modern deep machine learning methods are founded on their ability to transform inputs across multiple layers to build good high-level representations. It is therefore critical to understand this process of representation learning. However, standard theoretical approaches (formally NNGPs) involving infinite width limits eliminate representation learning. We therefore develop a new infinite width limit, the Bayesian representation learning limit, that exhibits representation learning mirroring that in finite-width models, yet at the same time, retains some of the simplicity of standard infinite-width limits. In particular, we show that Deep Gaussian processes (DGPs) in the Bayesian representation learning limit have exactly multivariate Gaussian posteriors, and the posterior covariances can be obtained by optimizing an interpretable objective combining a log-likelihood to improve performance with a series of KL-divergences which keep the posteriors close to the prior. We
     
-[^238]: DeepFreight：将深度强化学习和混合整数规划集成于多次转移卡车货运配送中
+[^239]: DeepFreight：将深度强化学习和混合整数规划集成于多次转移卡车货运配送中
 
     DeepFreight: Integrating Deep Reinforcement Learning and Mixed Integer Programming for Multi-transfer Truck Freight Delivery. (arXiv:2103.03450v2 [cs.LG] UPDATED)
 
@@ -3579,7 +3594,7 @@
 
     With the freight delivery demands and shipping costs increasing rapidly, intelligent control of fleets to enable efficient and cost-conscious solutions becomes an important problem. In this paper, we propose DeepFreight, a model-free deep-reinforcement-learning-based algorithm for multi-transfer freight delivery, which includes two closely-collaborative components: truck-dispatch and package-matching. Specifically, a deep multi-agent reinforcement learning framework called QMIX is leveraged to learn a dispatch policy, with which we can obtain the multi-step joint vehicle dispatch decisions for the fleet with respect to the delivery requests. Then an efficient multi-transfer matching algorithm is executed to assign the delivery requests to the trucks. Also, DeepFreight is integrated with a Mixed-Integer Linear Programming optimizer for further optimization. The evaluation results show that the proposed system is highly scalable and ensures a 100\% delivery success while maintaining low 
     
-[^239]: 数据同化网络。
+[^240]: 数据同化网络。
 
     Data Assimilation Networks. (arXiv:2010.09694v3 [cs.LG] UPDATED)
 
@@ -3593,7 +3608,7 @@
 
     Data assimilation (DA) aims at forecasting the state of a dynamical system by combining a mathematical representation of the system with noisy observations taking into account their uncertainties. State of the art methods are based on the Gaussian error statistics and the linearization of the non-linear dynamics which may lead to sub-optimal methods. In this respect, there are still open questions how to improve these methods. In this paper, we propose a fully data driven deep learning architecture generalizing recurrent Elman networks and data assimilation algorithms which approximate a sequence of prior and posterior densities conditioned on noisy observations. By construction our approach can be used for general nonlinear dynamics and non-Gaussian densities. On numerical experiments based on the well-known Lorenz-95 system and with Gaussian error statistics, our architecture achieves comparable performance to EnKF on both the analysis and the propagation of probability density funct
     
-[^240]: UCB Bandits在对抗攻击中的近乎最优攻击策略
+[^241]: UCB Bandits在对抗攻击中的近乎最优攻击策略
 
     Near Optimal Adversarial Attack on UCB Bandits. (arXiv:2008.09312v3 [cs.LG] UPDATED)
 
@@ -3607,7 +3622,7 @@
 
     We consider a stochastic multi-arm bandit problem where rewards are subject to adversarial corruption. We propose a novel attack strategy that manipulates a UCB principle into pulling some non-optimal target arm $T - o(T)$ times with a cumulative cost that scales as $\sqrt{\log T}$, where $T$ is the number of rounds. We also prove the first lower bound on the cumulative attack cost. Our lower bound matches our upper bound up to $\log \log T$ factors, showing our attack to be near optimal.
     
-[^241]: 带有安全聚合的联邦学习中的质量推断
+[^242]: 带有安全聚合的联邦学习中的质量推断
 
     Quality Inference in Federated Learning with Secure Aggregation. (arXiv:2007.06236v4 [cs.LG] UPDATED)
 
@@ -3621,7 +3636,7 @@
 
     Federated learning algorithms are developed both for efficiency reasons and to ensure the privacy and confidentiality of personal and business data, respectively. Despite no data being shared explicitly, recent studies showed that the mechanism could still leak sensitive information. Hence, secure aggregation is utilized in many real-world scenarios to prevent attribution to specific participants. In this paper, we focus on the quality of individual training datasets and show that such quality information could be inferred and attributed to specific participants even when secure aggregation is applied. Specifically, through a series of image recognition experiments, we infer the relative quality ordering of participants. Moreover, we apply the inferred quality information to detect misbehaviours, to stabilize training performance, and to measure the individual contributions of participants.
     
-[^242]: 线性递归神经网络的力量
+[^243]: 线性递归神经网络的力量
 
     The Power of Linear Recurrent Neural Networks. (arXiv:1802.03308v7 [cs.LG] UPDATED)
 
