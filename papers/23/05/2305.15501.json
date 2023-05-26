@@ -1,0 +1,12 @@
+{
+    "title": "Deriving Language Models from Masked Language Models. (arXiv:2305.15501v1 [cs.CL])",
+    "abstract": "Masked language models (MLM) do not explicitly define a distribution over language, i.e., they are not language models per se. However, recent work has implicitly treated them as such for the purposes of generation and scoring. This paper studies methods for deriving explicit joint distributions from MLMs, focusing on distributions over two tokens, which makes it possible to calculate exact distributional properties. We find that an approach based on identifying joints whose conditionals are closest to those of the MLM works well and outperforms existing Markov random field-based approaches. We further find that this derived model's conditionals can even occasionally outperform the original MLM's conditionals.",
+    "link": "http://arxiv.org/abs/2305.15501",
+    "context": "Title: Deriving Language Models from Masked Language Models. (arXiv:2305.15501v1 [cs.CL])\nAbstract: Masked language models (MLM) do not explicitly define a distribution over language, i.e., they are not language models per se. However, recent work has implicitly treated them as such for the purposes of generation and scoring. This paper studies methods for deriving explicit joint distributions from MLMs, focusing on distributions over two tokens, which makes it possible to calculate exact distributional properties. We find that an approach based on identifying joints whose conditionals are closest to those of the MLM works well and outperforms existing Markov random field-based approaches. We further find that this derived model's conditionals can even occasionally outperform the original MLM's conditionals.",
+    "path": "papers/23/05/2305.15501.json",
+    "total_tokens": 751,
+    "translated_title": "从掩码语言模型中推导语言模型",
+    "translated_abstract": "掩码语言模型（MLM）没有明确定义语言的分布，即它们本身并不是语言模型。然而，最近的研究在生成和评分的目的上将它们隐含地视为语言模型。本文研究了从MLM中导出显式联合分布的方法，重点是关注两个标记的分布，这样可以计算精确的分布特性。我们发现，一种基于识别条件接近于MLM的条件的联结的方法效果良好，并优于现有的基于马尔科夫随机场的方法。我们进一步发现，这个推导模型的条件甚至有时可以超过原始MLM的条件。",
+    "tldr": "本文研究了从掩码语言模型中推导显式联合分布的方法，找到了一种基于条件接近的方法，可以优于现有的基于马尔科夫随机场的方法，并发现条件可以超过原始的MLM。",
+    "en_tdlr": "This paper studies methods for deriving explicit joint distributions from masked language models, finds an approach based on identifying joints whose conditionals are closest to those of the MLM works well and outperforms existing Markov random field-based approaches, and even discovers that the derived model's conditionals can occasionally outperform the original MLM's conditionals."
+}

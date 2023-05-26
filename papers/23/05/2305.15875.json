@@ -1,0 +1,12 @@
+{
+    "title": "Linguistic Properties of Truthful Response. (arXiv:2305.15875v1 [cs.CL])",
+    "abstract": "We investigate the phenomenon of an LLM's untruthful response using a large set of 220 handcrafted linguistic features. We focus on GPT-3 models and find that the linguistic profiles of responses are similar across model sizes. That is, how varying-sized LLMs respond to given prompts stays similar on the linguistic properties level. We expand upon this finding by training support vector machines that rely only upon the stylistic components of model responses to classify the truthfulness of statements. Though the dataset size limits our current findings, we present promising evidence that truthfulness detection is possible without evaluating the content itself.",
+    "link": "http://arxiv.org/abs/2305.15875",
+    "context": "Title: Linguistic Properties of Truthful Response. (arXiv:2305.15875v1 [cs.CL])\nAbstract: We investigate the phenomenon of an LLM's untruthful response using a large set of 220 handcrafted linguistic features. We focus on GPT-3 models and find that the linguistic profiles of responses are similar across model sizes. That is, how varying-sized LLMs respond to given prompts stays similar on the linguistic properties level. We expand upon this finding by training support vector machines that rely only upon the stylistic components of model responses to classify the truthfulness of statements. Though the dataset size limits our current findings, we present promising evidence that truthfulness detection is possible without evaluating the content itself.",
+    "path": "papers/23/05/2305.15875.json",
+    "total_tokens": 744,
+    "translated_title": "真实回答的语言特性研究",
+    "translated_abstract": "我们使用220个手工制作的语言特性对LLM不真实回答的现象进行了研究。我们专注于GPT-3模型，并发现不同大小的LLM对给定提示的回答在语言特性上很相似。我们通过训练只依赖模型回答的风格成分来分类陈述真实性的支持向量机扩展了这一发现。虽然数据集大小限制了我们的当前研究成果，但我们提供了有希望的证据，表明可以在不评估内容本身的情况下检测真实性。",
+    "tldr": "该论文研究了LLM的不真实回答现象，发现GPT-3模型对给定提示的回答在语言特性上很相似。同时，该论文证明了在没有评估内容本身的情况下，仅依赖模型回答的风格成分即可分类真实性。",
+    "en_tdlr": "The paper investigates the phenomenon of LLM's untruthful response using handcrafted linguistic features. The study focuses on GPT-3 models and finds that varying-sized LLMs respond to given prompts similarly on the linguistic properties level. The paper presents promising evidence that truthfulness detection is possible without evaluating the content itself, relying only on the stylistic components of model responses."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "AUC Optimization from Multiple Unlabeled Datasets. (arXiv:2305.15776v1 [cs.LG])",
+    "abstract": "Weakly supervised learning aims to empower machine learning when the perfect supervision is unavailable, which has drawn great attention from researchers. Among various types of weak supervision, one of the most challenging cases is to learn from multiple unlabeled (U) datasets with only a little knowledge of the class priors, or U$^m$ learning for short. In this paper, we study the problem of building an AUC (area under ROC curve) optimization model from multiple unlabeled datasets, which maximizes the pairwise ranking ability of the classifier. We propose U$^m$-AUC, an AUC optimization approach that converts the U$^m$ data into a multi-label AUC optimization problem, and can be trained efficiently. We show that the proposed U$^m$-AUC is effective theoretically and empirically.",
+    "link": "http://arxiv.org/abs/2305.15776",
+    "context": "Title: AUC Optimization from Multiple Unlabeled Datasets. (arXiv:2305.15776v1 [cs.LG])\nAbstract: Weakly supervised learning aims to empower machine learning when the perfect supervision is unavailable, which has drawn great attention from researchers. Among various types of weak supervision, one of the most challenging cases is to learn from multiple unlabeled (U) datasets with only a little knowledge of the class priors, or U$^m$ learning for short. In this paper, we study the problem of building an AUC (area under ROC curve) optimization model from multiple unlabeled datasets, which maximizes the pairwise ranking ability of the classifier. We propose U$^m$-AUC, an AUC optimization approach that converts the U$^m$ data into a multi-label AUC optimization problem, and can be trained efficiently. We show that the proposed U$^m$-AUC is effective theoretically and empirically.",
+    "path": "papers/23/05/2305.15776.json",
+    "total_tokens": 751,
+    "translated_title": "多个未标记数据集的AUC优化",
+    "translated_abstract": "弱监督学习旨在在缺乏完美监督的情况下赋予机器学习能力，这引起了研究人员的极大关注。在各种类型的弱监督学习中，最具挑战性的案例之一是仅了解类别先验知识的多个未标记(U)数据集的学习或称为U^m学习。本文研究了从多个未标记数据集中构建最大化分类器成对排名能力的AUC (ROC曲线下面积) 优化模型的问题。我们提出了U^m-AUC，一种将U^m数据转换为多标记AUC优化问题并能够有效训练的AUC优化方法。我们理论上和实证上证明了所提出的U^m-AUC的有效性。",
+    "tldr": "本文提出了一种从多个未标记数据集中构建AUC优化模型的方法，该方法在实践和理论上都有效。",
+    "en_tdlr": "This paper proposes a method for building an AUC optimization model from multiple unlabeled datasets, and shows its effectiveness both theoretically and empirically."
+}

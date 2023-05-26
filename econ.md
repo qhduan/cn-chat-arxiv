@@ -2,187 +2,142 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Cautious Belief and Iterated Admissibility.](http://arxiv.org/abs/2305.15330) | 本文研究了有限博弈中迭代允许性的认知条件。在终端词典类型结构中，“谨慎理性和谨慎理性的普遍谨慎信念”的行为含义可以用迭代允许性来刻画，而在任意类型结构中则可以用自允许集的解决概念进行描述。 |
-| [^2] | [Political Conflict and Economic Growth in Post-Independence Venezuela.](http://arxiv.org/abs/2305.14698) | 委内瑞拉经历了三次经济灾难，其最具破坏性的决策不是来自富人与大众之间的阶级冲突，而是由精英之间的激烈争斗所致。此外，该国的政治制度不够包容，且缺乏调解精英内部冲突的能力。 |
-| [^3] | [Quantifying Character Similarity with Vision Transformers.](http://arxiv.org/abs/2305.14672) | 本研究使用ViT对OCR文档进行字符相似性度量，提供了一种可扩展的计算字符替换成本的方法，避免了使用常用字符串替换方法导致的数据偏差。 |
-| [^4] | [Hoarding without hoarders: unpacking the emergence of opportunity hoarding within schools.](http://arxiv.org/abs/2305.14653) | 本文提供了关于学校内机会囤积出现必要和充分条件的研究，模拟表明囤积即使在白人不扮演囤积者资源角色的情况下也会出现，其背后是结构性的不平等条件。这强调了在分析教育机会垄断时考虑结构性不平等的重要性。 |
-| [^5] | [Estimating causal effects of sanctions impacts: what role for country-level studies?.](http://arxiv.org/abs/2305.14605) | 国家层面的案例研究可以作为跨国数据的补充来评估经济制裁的影响，但需要注意可能存在的实证陷阱。因此，最好将其视为跨国研究的补充，而不是替代。 |
-| [^6] | [On the Instability of Fractional Reserve Banking.](http://arxiv.org/abs/2305.14503) | 本研究构建了一个动态货币模型来研究充分准备金银行体系的不稳定性，发现当准备金要求较低时，平衡更容易表现出内生的周期性、混沌性和随机动态，这可能是经济波动的另一个来源。 |
-| [^7] | [Reproducibility and Transparency versus Privacy and Confidentiality: Reflections from a Data Editor.](http://arxiv.org/abs/2305.14478) | 可再现性与透明度不一定会受到隐私和机密性的阻碍，因为许多保密数据是开放的。 |
-| [^8] | [Market Making and Pricing of Financial Derivatives based on Road Travel Times.](http://arxiv.org/abs/2305.02523) | 本文提出了一种基于道路行驶时间的金融衍生品，可以作为一种创新的对冲工具，在交通领域和金融市场中都有潜在的市场和需求。 |
-| [^9] | [Democratic Policy Decisions with Decentralized Promises Contingent on Vote Outcome.](http://arxiv.org/abs/2304.08008) | 本文研究了去中心化承诺对民主决策的影响。在投票前，委员会成员可以进行可执行的承诺。可能需要跨越阵营进行承诺，以实现改革的实施，同时需要排除最不热衷于改革的支持者被诱导推翻决定。 |
-| [^10] | [The presence of White students and the emergence of Black-White within-school inequalities: two interaction-based mechanisms.](http://arxiv.org/abs/2304.04849) | 本文研究了不平等访问教育资源的实证模式和黑白人之间的进阶入学差距，发现白人学生的存在可以影响黑白人之间的进阶入学差距，并可能是这一宏观模式的另一个解释。 |
-| [^11] | [Exploring the stability of solar geoengineering agreements.](http://arxiv.org/abs/2210.09145) | 本文探讨了国际合作太阳辐射管理的稳定性，发现稳定性与太阳辐射管理的风险程度相关，但不受国家偏好影响。 |
-| [^12] | [Double Machine Learning and Automated Confounder Selection -- A Cautionary Tale.](http://arxiv.org/abs/2108.11294) | 本文探讨了双机器学习在高维设置中的自动变量选择工具，指出其在包括内生变量时条件独立性会受到破坏，并警示了以数据驱动方式选择控制变量的可行性问题。 |
+| [^1] | [Hierarchical forecasting for aggregated curves with an application to day-ahead electricity price auctions.](http://arxiv.org/abs/2305.16255) | 本文提出了一种协调方法来提高聚合曲线的预测准确性，并在德国日前电力竞拍市场进行了实证研究。 |
+| [^2] | [More than Words: Twitter Chatter and Financial Market Sentiment.](http://arxiv.org/abs/2305.16164) | 本文使用Twitter数据构建了新的信贷和金融市场情绪指数，该指数与公司债券利差和其他金融状况指数高度相关。最重要的是，其能够预测美国货币政策的变化，并反映了市场对货币政策收紧的反应。 |
+| [^3] | [Modeling the Impact of Mentoring on Women's Work-LifeBalance: A Grounded Theory Approach.](http://arxiv.org/abs/2305.16095) | 本文利用建构主义现实理论分析了德黑兰市政府的导师和被导师的访谈数据，提供了导师如何影响女性职业生活平衡的模型，其中角色管理是女性职业生活平衡的关键标准。 |
+| [^4] | [Social Sustainability of Digital Transformation: Empirical Evidence from EU-27 Countries.](http://arxiv.org/abs/2305.16088) | 本研究通过结构方程建模证明，芬兰、荷兰和丹麦的数字化转型是最具有社会可持续性的；社会可持续性在实现可持续发展目标方面具有重要性；基尼系数与实现可持续发展目标存在反向关系。 |
+| [^5] | [The use of trade data in the analysis of global phosphate flows.](http://arxiv.org/abs/2305.07362) | 本文提出了一种利用贸易数据追踪磷流动的新方法，可以为环境会计的准确性做出贡献。 |
+| [^6] | [Green Hydrogen Cost-Potentials for Global Trade.](http://arxiv.org/abs/2303.00314) | 本研究基于优化能源系统方法，提供了2050年之前28个国家的绿色氢成本潜力曲线，其中非洲和中东太阳能富裕的国家具有巨大的氢电位和低的氢成本。分散的基于光伏和陆上风电的氢生产始终是首选，进口的额外成本仅高出7％。 |
+| [^7] | [The effect of ambient air pollution on birth outcomes in Norway.](http://arxiv.org/abs/2208.06271) | 本研究发现孕期暴露于环境中的氮氧化物会对出生结果产生负面影响，而其他的大气污染物则在挪威的胎儿处于安全水平。不仅如此，孕期暴露于氮氧化物的负面效应对处于劣势家长的新生儿更为严重。 |
+| [^8] | [Simultaneous Optimal Transport.](http://arxiv.org/abs/2201.03483) | 本文提出了一种新的质量输运框架"SOT"，可以同时耦合不同类型的资源，解决了之前的传统最优输运不能同时处理的问题，同时引入了MOT-SOT平衡，提高了计算效率。 |
+| [^9] | [Minimum Wages in Concentrated Labor Markets.](http://arxiv.org/abs/2111.13692) | 该研究用劳动力市场集中度对垄断理论进行了全面测试，并发现了垄断性剥削的证据，该证据支持最低工资对就业的影响会掩盖市场异质性。 |
 
 # 详细
 
-[^1]: 谨慎信念和迭代允许性
+[^1]: 层次预测聚合曲线并应用于日前电力竞拍
 
-    Cautious Belief and Iterated Admissibility. (arXiv:2305.15330v1 [econ.TH])
+    Hierarchical forecasting for aggregated curves with an application to day-ahead electricity price auctions. (arXiv:2305.16255v1 [stat.AP])
 
-    [http://arxiv.org/abs/2305.15330](http://arxiv.org/abs/2305.15330)
+    [http://arxiv.org/abs/2305.16255](http://arxiv.org/abs/2305.16255)
 
-    本文研究了有限博弈中迭代允许性的认知条件。在终端词典类型结构中，“谨慎理性和谨慎理性的普遍谨慎信念”的行为含义可以用迭代允许性来刻画，而在任意类型结构中则可以用自允许集的解决概念进行描述。
-
-    
-
-    我们定义了谨慎和谨慎信念的概念，为有限博弈中的迭代允许性提供认识条件。我们展示了在终端词典类型结构中，“谨慎理性和谨慎理性的普遍谨慎信念”的行为含义可以用迭代允许性来刻画。对于任意类型结构，这些认知假设的行为含义可以用自允许集的解决概念（Brandenburger、Friedenberg和Keisler 2008）来描述。我们还表明，在替代认知假设下，类似的结论成立，特别地，如果对玩家而言谨慎性是“透明”的。
-
-    We define notions of cautiousness and cautious belief to provide epistemic conditions for iterated admissibility in finite games. We show that iterated admissibility characterizes the behavioral implications of "cautious rationality and common cautious belief in cautious rationality" in a terminal lexicographic type structure. For arbitrary type structures, the behavioral implications of these epistemic assumptions are characterized by the solution concept of self-admissible set (Brandenburger, Friedenberg and Keisler 2008). We also show that analogous conclusions hold under alternative epistemic assumptions, in particular if cautiousness is "transparent" to the players.  KEYWORDS: Epistemic game theory, iterated admissibility, weak dominance, lexicographic probability systems. JEL: C72.
-    
-[^2]: 后独立委内瑞拉的政治冲突与经济增长
-
-    Political Conflict and Economic Growth in Post-Independence Venezuela. (arXiv:2305.14698v1 [econ.GN])
-
-    [http://arxiv.org/abs/2305.14698](http://arxiv.org/abs/2305.14698)
-
-    委内瑞拉经历了三次经济灾难，其最具破坏性的决策不是来自富人与大众之间的阶级冲突，而是由精英之间的激烈争斗所致。此外，该国的政治制度不够包容，且缺乏调解精英内部冲突的能力。
+    本文提出了一种协调方法来提高聚合曲线的预测准确性，并在德国日前电力竞拍市场进行了实证研究。
 
     
 
-    自独立以来，委内瑞拉经历了三次经济灾难：分别发生在19、20和21世纪。解释这一三部曲的重要因素之一是阶级冲突和资源依赖的相互作用。本文提出了一个新的观点，认为最具破坏性的政策选择并非是富人为了保护自己免受大众冲击的结果，而是由精英之间的激烈争斗导致的。此外，有人认为委内瑞拉政治制度未能保持增长，因为它们不够包容，我们认为还是缺乏调解精英内部冲突的制度。
+    聚合曲线在经济和金融中很常见，最突出的例子是供给和需求曲线。我们发现所有聚合曲线都具有内在的层次结构，因此可以使用层次协调方法来提高预测准确性。我们提供了聚合曲线如何构建或解构的深入理论，并得出这些方法在弱假设下是等效的结论。我们考虑了多种聚合曲线的协调方法，包括已经建立的自下而上、自上而下和线性最优协调方法。我们还提出了一种新的基准协调方法，称为“聚合-下”，其复杂度类似于自下而上和自上而下方法，但在这种设置中往往提供更好的准确性。我们对德国日前电力竞拍市场进行了实证预测研究，预测了需求和供给曲线，并对其均衡性进行了分析。
 
-    Venezuela has suffered three economic catastrophes since independence: one each in the nineteenth, twentieth, and twenty-first centuries. Prominent explanations for this trilogy point to the interaction of class conflict and resource dependence. We turn attention to intra-class conflict, arguing that the most destructive policy choices stemmed not from the rich defending themselves against the masses but rather from pitched battles among elites. Others posit that Venezuelan political institutions failed to sustain growth because they were insufficiently inclusive; we suggest in addition that they inadequately mediated intra-elite conflict.
+    Aggregated curves are common structures in economics and finance, and the most prominent examples are supply and demand curves. In this study, we exploit the fact that all aggregated curves have an intrinsic hierarchical structure, and thus hierarchical reconciliation methods can be used to improve the forecast accuracy. We provide an in-depth theory on how aggregated curves can be constructed or deconstructed, and conclude that these methods are equivalent under weak assumptions. We consider multiple reconciliation methods for aggregated curves, including previously established bottom-up, top-down, and linear optimal reconciliation approaches. We also present a new benchmark reconciliation method called 'aggregated-down' with similar complexity to bottom-up and top-down approaches, but it tends to provide better accuracy in this setup. We conducted an empirical forecasting study on the German day-ahead power auction market by predicting the demand and supply curves, where their equili
     
-[^3]: 基于Vision Transformers的字符相似度量化
+[^2]: 不止于语言：Twitter聊天和金融市场情绪
 
-    Quantifying Character Similarity with Vision Transformers. (arXiv:2305.14672v1 [cs.CL])
+    More than Words: Twitter Chatter and Financial Market Sentiment. (arXiv:2305.16164v1 [econ.GN])
 
-    [http://arxiv.org/abs/2305.14672](http://arxiv.org/abs/2305.14672)
+    [http://arxiv.org/abs/2305.16164](http://arxiv.org/abs/2305.16164)
 
-    本研究使用ViT对OCR文档进行字符相似性度量，提供了一种可扩展的计算字符替换成本的方法，避免了使用常用字符串替换方法导致的数据偏差。
-
-    
-
-    记录链接是定量社会科学的基石，因为分析通常需要链接来自多个嘈杂的来源的数据。现成的字符串匹配方法被广泛使用，因为它们易于实现和扩展。然而，并非所有字符替换的概率都相等，在某些情况下，有一些常用的手工制作的列表，用来表示哪些字符串替换更有可能，从而提高字符串匹配的准确性。但是，对于许多情况，这样的清单并不存在，从而使得具有链接数据集的研究向少数高资源的背景倾斜，这些背景并不代表人类社会的多样性。本研究开发了一种可扩展的方法，通过使用经过增强的数字字体进行大规模自监督训练的Vision Transformers（ViT），来测量OCR文档的字符替换成本。对于每一种使用CJK脚本编写的语言，我们对相同字符的不同增强进行对比学习度量空间，从而量化字符的相似性。
-
-    Record linkage is a bedrock of quantitative social science, as analyses often require linking data from multiple, noisy sources. Off-the-shelf string matching methods are widely used, as they are straightforward and cheap to implement and scale. Not all character substitutions are equally probable, and for some settings there are widely used handcrafted lists denoting which string substitutions are more likely, that improve the accuracy of string matching. However, such lists do not exist for many settings, skewing research with linked datasets towards a few high-resource contexts that are not representative of the diversity of human societies. This study develops an extensible way to measure character substitution costs for OCR'ed documents, by employing large-scale self-supervised training of vision transformers (ViT) with augmented digital fonts. For each language written with the CJK script, we contrastively learn a metric space where different augmentations of the same character a
-    
-[^4]: 无囤积者的囤积：揭开学校内机会囤积的出现过程
-
-    Hoarding without hoarders: unpacking the emergence of opportunity hoarding within schools. (arXiv:2305.14653v1 [physics.soc-ph])
-
-    [http://arxiv.org/abs/2305.14653](http://arxiv.org/abs/2305.14653)
-
-    本文提供了关于学校内机会囤积出现必要和充分条件的研究，模拟表明囤积即使在白人不扮演囤积者资源角色的情况下也会出现，其背后是结构性的不平等条件。这强调了在分析教育机会垄断时考虑结构性不平等的重要性。
+    本文使用Twitter数据构建了新的信贷和金融市场情绪指数，该指数与公司债券利差和其他金融状况指数高度相关。最重要的是，其能够预测美国货币政策的变化，并反映了市场对货币政策收紧的反应。
 
     
 
-    教育社会学家越来越强调机会垄断在黑白教育不平等形成中的作用。受此文献的启发，本文拆分了必要和充分的条件，以便在学校内产生教育资源囤积。它开发了一个信息量丰富的基于代理的模型，捕捉黑人和白人学生竞争有价值的学校资源：高级课程。与传统解释囤积是白人将有价值的资源保留在白人社群内的观点相反，模拟显示出即使白人不扮演囤积者资源的角色，囤积也会出现。这个结果背后的原因是结构性的不平等（即社会阶级的种族差异） - 而不是行动驱动的囤积 - 是囤积产生的必要条件。因此，研究结果说明了关于囤积的普遍行动驱动定义和解释可能是不充分的。此外，该模型强调了在分析教育机会垄断时考虑结构性不平等的重要性。
+    我们利用自然语言处理技术从Twitter数据中构建了一个新的信贷和金融市场情绪指数。我们发现，Twitter金融情绪指数（TFSI）与公司债券利差和其他基于价格和调查的金融状况指数高度相关。我们证明，隔夜Twitter金融情绪有助于预测第二天的股市回报。尤其值得一提的是，我们展示了该指数包含的信息有助于预测美国货币政策立场的变化：在FOMC声明发布前一天，Twitter金融情绪的恶化预示着紧缩货币政策冲击的大小。最后，我们证明，情绪会在对货币政策意外的收紧做出反应时恶化。
 
-    Sociologists of education increasingly highlight the role of opportunity hoarding in the formation of Black-White educational inequalities. Informed by this literature, this article unpacks the necessary and sufficient conditions under which the hoarding of educational resources emerges within schools. It develops a qualitatively informed agent-based model which captures Black and White students' competition for a valuable school resource: advanced coursework. In contrast to traditional accounts -- which explain the emergence of hoarding through the actions of Whites that keep valuable resources within White communities -- simulations, perhaps surprisingly, show hoarding to arise even when Whites do not play the role of hoarders of resources. Behind this result is the fact that a structural inequality (i.e., racial differences in social class) -- and not action-driven hoarding -- is the necessary condition for hoarding to emerge. Findings, therefore, illustrate that common action-drive
+    We build a new measure of credit and financial market sentiment using Natural Language Processing on Twitter data. We find that the Twitter Financial Sentiment Index (TFSI) correlates highly with corporate bond spreads and other price- and survey-based measures of financial conditions. We document that overnight Twitter financial sentiment helps predict next day stock market returns. Most notably, we show that the index contains information that helps forecast changes in the U.S. monetary policy stance: a deterioration in Twitter financial sentiment the day ahead of an FOMC statement release predicts the size of restrictive monetary policy shocks. Finally, we document that sentiment worsens in response to an unexpected tightening of monetary policy.
     
-[^5]: 估计制裁影响的因果效应: 国家层面研究的作用是什么?
+[^3]: 基于现实理论的方法研究导师对女性职业生活平衡的影响
 
-    Estimating causal effects of sanctions impacts: what role for country-level studies?. (arXiv:2305.14605v1 [econ.GN])
+    Modeling the Impact of Mentoring on Women's Work-LifeBalance: A Grounded Theory Approach. (arXiv:2305.16095v1 [econ.GN])
 
-    [http://arxiv.org/abs/2305.14605](http://arxiv.org/abs/2305.14605)
+    [http://arxiv.org/abs/2305.16095](http://arxiv.org/abs/2305.16095)
 
-    国家层面的案例研究可以作为跨国数据的补充来评估经济制裁的影响，但需要注意可能存在的实证陷阱。因此，最好将其视为跨国研究的补充，而不是替代。
-
-    
-
-    本文回顾了近期在跨国和国家层面研究中解决实证鉴别问题的最新进展及其对经济制裁效果和后果鉴别的影响。作者认为，在评估跨国数据的因果关系方面存在困难的情况下，国家层面的案例研究可以作为跨国回归研究的有用和信息性补充。但作者也警告，案例研究存在一系列潜在的实证陷阱，可能让因果机制的识别变得模糊，而不是更加清晰明了。因此，阅读案例研究证据的最明智的方法是将其视为跨国研究的补充，而非替代。
-
-    This article reviews recent advances in addressing empirical identification issues in cross-country and country-level studies and their implications for the identification of the effectiveness and consequences of economic sanctions. I argue that, given the difficulties in assessing causal relationships in cross-national data, country-level case studies can serve as a useful and informative complement to cross-national regression studies. However, I also warn that case studies pose a set of additional potential empirical pitfalls which can obfuscate rather than clarify the identification of causal mechanisms at work. Therefore, the most sensible way to read case study evidence is as a complement rather than as a substitute to cross-national research.
-    
-[^6]: 论充分准备金银行的不稳定性
-
-    On the Instability of Fractional Reserve Banking. (arXiv:2305.14503v1 [econ.TH])
-
-    [http://arxiv.org/abs/2305.14503](http://arxiv.org/abs/2305.14503)
-
-    本研究构建了一个动态货币模型来研究充分准备金银行体系的不稳定性，发现当准备金要求较低时，平衡更容易表现出内生的周期性、混沌性和随机动态，这可能是经济波动的另一个来源。
+    本文利用建构主义现实理论分析了德黑兰市政府的导师和被导师的访谈数据，提供了导师如何影响女性职业生活平衡的模型，其中角色管理是女性职业生活平衡的关键标准。
 
     
 
-    本文构建了一个动态货币模型来研究充分准备金银行体系的（不）稳定性。模型表明，充分准备金银行体系在较低的准备金要求下，平衡更容易表现出内生的周期性、混沌性和随机动态，尽管它能够增加稳态消费。将内生无抵押信贷引入基线模型并不改变主要结果。本文还提供了与模型预测一致的实证证据。校准的练习表明，这种渠道可能是经济波动的另一个来源。
+    该研究旨在探究导师对女性职业生活平衡的影响，并将导师视为创造女性职业生活平衡的解决方案。本研究采用建构主义现实理论分析德黑兰市政府的导师和被导师访谈所得数据，从而提供了导师如何影响女性职业生活平衡的模型。该模型中，角色管理被视为女性职业生活平衡的关键标准，描述了角色管理的先决条件、影响角色管理的情境因素以及导师在组织中有效导师和受到约束的情况对女性职业生活平衡的影响。
 
-    This paper develops a dynamic monetary model to study the (in)stability of the fractional reserve banking system. The model shows that the fractional reserve banking system can endanger stability in that equilibrium is more prone to exhibit endogenous cyclic, chaotic, and stochastic dynamics under lower reserve requirements, although it can increase consumption in the steady-state. Introducing endogenous unsecured credit to the baseline model does not change the main results. This paper also provides empirical evidence that is consistent with the prediction of the model. The calibrated exercise suggests that this channel could be another source of economic fluctuations.
+    The purpose of this study was to model the impact of mentoring on women's work-life balance. Indeed, this study considered mentoring as a solution to create a work-life balance of women. For this purpose, semi-structured interviews with both mentors and mentees of Tehran Municipality were conducted and the collected data were analyzed using constructivist grounded theory. Findings provided a model of how mentoring affects women's work-life balance. According to this model, role management is the key criterion for work-life balancing among women. In this model, antecedents of role management and the contextual factors affecting role management, the constraints of mentoring in the organization, as well as the consequences of effective mentoring in the organization are described. The findings of this research contribute to the mentoring literature as well as to the role management literature and provide recommendations for organizations and for future research.
     
-[^7]: 可再现性和透明度与隐私和机密性的平衡：一位数据编辑的思考。
+[^4]: 数字转型的社会可持续性：来自欧盟27个国家的经验证据
 
-    Reproducibility and Transparency versus Privacy and Confidentiality: Reflections from a Data Editor. (arXiv:2305.14478v1 [econ.GN])
+    Social Sustainability of Digital Transformation: Empirical Evidence from EU-27 Countries. (arXiv:2305.16088v1 [econ.GN])
 
-    [http://arxiv.org/abs/2305.14478](http://arxiv.org/abs/2305.14478)
+    [http://arxiv.org/abs/2305.16088](http://arxiv.org/abs/2305.16088)
 
-    可再现性与透明度不一定会受到隐私和机密性的阻碍，因为许多保密数据是开放的。
-
-    
-
-    往往认为透明度和可再现性与隐私和机密性相反。需要保密的数据被认为是可再现性的障碍，而隐私则似乎会抑制透明度。我提出了一个更富有细微差别的观点，并使用超过1,000项可再现性评估的例子，展示了机密数据可以很好地用于可再现和透明的研究。关键见解是，虽然无聊，但许多保密数据是开放给数百甚至数千名研究人员的。在未来少数研究人员可以考虑访问这些数据的情况下，可再现性服务，例如一些期刊提供的服务，可以为有效的可再现性提供证据，即使同样的数据未来可能无法再使用。
-
-    Transparency and reproducibility are often seen in opposition to privacy and confidentiality. Data that need to be kept confidential are seen as an impediment to reproducibility, and privacy would seem to inhibit transparency. I bring a more nuanced view to the discussion, and show, using examples from over 1,000 reproducibility assessments, that confidential data can very well be used in reproducible and transparent research. The key insight is that access to most confidential data, while tedious, is open to hundreds if not thousands of researchers. In cases where few researchers can consider accessing such data in the future, reproducibility services, such as those provided by some journals, can provide some evidence for effective reproducibility even when the same data may not be available for future research.
-    
-[^8]: 基于道路行驶时间的金融衍生品的做市和定价
-
-    Market Making and Pricing of Financial Derivatives based on Road Travel Times. (arXiv:2305.02523v1 [stat.AP])
-
-    [http://arxiv.org/abs/2305.02523](http://arxiv.org/abs/2305.02523)
-
-    本文提出了一种基于道路行驶时间的金融衍生品，可以作为一种创新的对冲工具，在交通领域和金融市场中都有潜在的市场和需求。
+    本研究通过结构方程建模证明，芬兰、荷兰和丹麦的数字化转型是最具有社会可持续性的；社会可持续性在实现可持续发展目标方面具有重要性；基尼系数与实现可持续发展目标存在反向关系。
 
     
 
-    本文提出了交通时间衍生品，这是一种基于道路行驶时间的非交易基础资产的金融衍生品。在交通领域，交通时间衍生品被提出作为一种更加基本的定价方法，因为它不仅考虑了交通状况的水平，而且考虑了其波动性。在金融市场中，交通时间衍生品被提出作为一种创新的对冲工具，可以对冲市场风险，特别是在加密市场和传统银行业经历了最近的压力后。本文涉及到了（a）引入此类衍生品的动机（即对对冲的要求），（b）潜在的市场，以及（c）产品设计和定价方案。定价方案是基于实时传感器捕获的行驶时间数据设计的，这些数据被建模为奥恩斯坦-乌伦贝克（Ornstein-Uhlenbeck）过程，更普遍地，是连续时间自回归移动平均（CARMA）模型。这种模型的校准是通过隐藏因子模型进行的，该模型描述了交通时间动态。
+    在欧盟27个国家，社会可持续性在数字转型过程中的重要性日益增强，需要平衡经济增长和社会凝聚力。通过优先考虑社会可持续性，欧盟能够确保其公民在数字转型过程中不被落下，技术服务于所有欧洲人的需求。因此，本研究的首要目标是评估欧盟27个国家的社会可持续性，并模拟其在实现可持续发展目标中的重要性。该研究采用结构方程建模提供了量化实证证据，表明芬兰、荷兰和丹麦的数字化转型是最具有社会可持续性的。研究还发现，社会可持续性导致各国在实现可持续发展目标方面表现更好。最后，该研究提供了证据，说明基尼系数与实现可持续发展目标之间存在反向关系。换句话说，一个国家的基尼系数越高，
 
-    Travel time derivatives are introduced as financial derivatives based on road travel times - a non-tradable underlying asset. In the transportation area, it is proposed as a more fundamental approach to value pricing because it conduct road pricing based on not only level but also volatility of travel time; in the financial market, it is propose as an innovative hedging instrument against market risk, especially after the recent stress of crypto market and traditional banking sector. The paper addresses (a) the motivation for introducing such derivatives (that is, the demand for hedging), (b) the potential market, and (c) the product design and pricing schemes. Pricing schemes are designed based on the travel time data captured by real time sensors, which are modeled as Ornstein - Uhlenbeck processes and more generally, continuous time auto regression moving average (CARMA) models. The calibration of such model is conducted via a hidden factor model, which described the dynamics of tra
+    In the EU-27 countries, the importance of social sustainability of digital transformation (SOSDIT) is heightened by the need to balance economic growth with social cohesion. By prioritizing SOSDIT, the EU can ensure that its citizens are not left behind in the digital transformation process and that technology serves the needs of all Europeans. Therefore, the current study aimed firstly to evaluate the SOSDIT of EU-27 countries and then to model its importance in reaching sustainable development goals (SDGs). The current study, using structural equation modeling, provided quantitative empirical evidence that digital transformation in Finland, the Netherlands, and Denmark are respectively most socially sustainable. It is also found that SOSDIT leads the countries to have a higher performance in reaching SDGs. Finally, the study provided evidence implying the inverse relationship between the Gini coefficient and reaching SDGs. In other words, the higher the Gini coefficient of a country,
     
-[^9]: 基于投票结果的去中心化承诺对民主决策的影响研究
+[^5]: 利用贸易数据分析全球磷流动的研究
 
-    Democratic Policy Decisions with Decentralized Promises Contingent on Vote Outcome. (arXiv:2304.08008v1 [econ.GN])
+    The use of trade data in the analysis of global phosphate flows. (arXiv:2305.07362v1 [econ.GN])
 
-    [http://arxiv.org/abs/2304.08008](http://arxiv.org/abs/2304.08008)
+    [http://arxiv.org/abs/2305.07362](http://arxiv.org/abs/2305.07362)
 
-    本文研究了去中心化承诺对民主决策的影响。在投票前，委员会成员可以进行可执行的承诺。可能需要跨越阵营进行承诺，以实现改革的实施，同时需要排除最不热衷于改革的支持者被诱导推翻决定。
-
-    
-
-    本文探讨了去中心化的效用转移承诺如何影响投票方式的集体决策。在投票前，支持和反对高效改革的委员会成员可以进行可执行的承诺。一个均衡需要稳定性和最小化的承诺。平衡承诺是存在且不确定的，但具有许多共同的特征。需要高强度成员向低强度成员提供转移承诺，并导致改革的实施。当改革支持者缺乏足够的投票权时，承诺必须跨越阵营。即使改革支持者的联盟是决定性的，承诺也必须排除最不热衷于改革的支持者被诱导推翻决定。在这种情况下，平衡的承诺不需要跨越阵营。我们还讨论了一系列有限的承诺，实现达到一个平衡的状态。
-
-    We study how decentralized utility transfer promises affect collective decision-making by voting. Committee members with varying levels of support and opposition for an efficient reform can make enforceable promises before voting. An equilibrium requires stability and minimal promises. Equilibrium promises exist and are indeterminate, but do share several key characteristics. Equilibria require transfer promises from high to low intensity members and result in enacting the reform. When reform supporters lack sufficient voting power, promises must reach across the aisle. Even if the coalition of reform supporters is decisive, promises must preclude the least enthusiastic supporters of the reform from being enticed to overturn the decision. In that case, equilibrium promises do not need to reach across the aisle. We also discuss a finite sequence of promises that achieve an equilibrium.
-    
-[^10]: 白人学生的存在与黑白人内校不平等的出现：两个基于互动的机制
-
-    The presence of White students and the emergence of Black-White within-school inequalities: two interaction-based mechanisms. (arXiv:2304.04849v1 [physics.soc-ph])
-
-    [http://arxiv.org/abs/2304.04849](http://arxiv.org/abs/2304.04849)
-
-    本文研究了不平等访问教育资源的实证模式和黑白人之间的进阶入学差距，发现白人学生的存在可以影响黑白人之间的进阶入学差距，并可能是这一宏观模式的另一个解释。
+    本文提出了一种利用贸易数据追踪磷流动的新方法，可以为环境会计的准确性做出贡献。
 
     
 
-    本文探讨了教育社会学中一个众所周知的实证模式的机制解释，即黑白人在进阶课程等学校资源获取上的不平等在种族多样和以白人为主的学校中最为明显。通过一个经验性的校准和验证代理模型，本研究探讨了两种定性决策机制的动态，显示(1)我们有理由相信白人学生的存在对黑白人的进阶课程招生差异的出现有影响；(2)这种影响可能代表了有关宏观模式的另一个可能的解释。结果有助于目前有关内校不平等的学术研究，为政策战略提供指导，以提高黑人学生在种族交融的环境中的教育体验。
+    本文介绍了一种跟踪磷从开采国到农业生产国使用的新方法。我们通过将磷岩采矿数据与化肥使用数据和磷相关产品的国际贸易数据相结合来实现目标。我们展示了通过对净出口数据进行某些调整，我们可以在很大程度上推导出国家层面上的磷流矩阵，并因此为物质流分析的准确性做出贡献，这对于改进环境会计不仅对于磷，还适用于许多其他资源至关重要。
 
-    This article investigates mechanism-based explanations for a well-known empirical pattern in sociology of education, namely, that Black-White unequal access to school resources -- defined as advanced coursework -- is the highest in racially diverse and majority-White schools. Through an empirically calibrated and validated agent-based model, this study explores the dynamics of two qualitatively informed mechanisms, showing (1) that we have reason to believe that the presence of White students in school can influence the emergence of Black-White advanced enrollment disparities and (2) that such influence can represent another possible explanation for the macro-level pattern of interest. Results contribute to current scholarly accounts of within-school inequalities, shedding light into policy strategies to improve the educational experiences of Black students in racially integrated settings.
+    In this paper we present a new method to trace the flows of phosphate from the countries where it is mined to the counties where it is used in agricultural production. We achieve this by combining data on phosphate rock mining with data on fertilizer use and data on international trade of phosphate-related products. We show that by making certain adjustments to data on net exports we can derive the matrix of phosphate flows on the country level to a large degree and thus contribute to the accuracy of material flow analyses, a results that is important for improving environmental accounting, not only for phosphorus but for many other resources.
     
-[^11]: 探索太阳辐射管理协议的稳定性
+[^6]: 全球贸易的绿色氢成本潜力
 
-    Exploring the stability of solar geoengineering agreements. (arXiv:2210.09145v3 [econ.GN] UPDATED)
+    Green Hydrogen Cost-Potentials for Global Trade. (arXiv:2303.00314v2 [econ.GN] UPDATED)
 
-    [http://arxiv.org/abs/2210.09145](http://arxiv.org/abs/2210.09145)
+    [http://arxiv.org/abs/2303.00314](http://arxiv.org/abs/2303.00314)
 
-    本文探讨了国际合作太阳辐射管理的稳定性，发现稳定性与太阳辐射管理的风险程度相关，但不受国家偏好影响。
-
-    
-
-    本文引入了一个简单的模型，研究了国家间合作太阳辐射管理的行为。通过数值方法探索了该模型的结果。总体发现是，太阳辐射管理上的国家合作和协调受到激励。此外，太阳辐射管理协议的稳定性关键取决于太阳辐射管理的风险程度。如果太阳辐射管理被认为更为有风险，最稳定的太阳辐射管理协议的稳定性将会降低。然而，协议的稳定性与国家偏好完全无关。
-
-    A simple model is introduced to study the cooperative behavior of nations regarding solar geoengineering. The results of this model are explored through numerical methods. A general finding is that cooperation and coordination between nations on solar geoengineering is very much incentivized. Furthermore, the stability of solar geoengineering agreements between nations crucially depends on the perceived riskiness of solar geoengineering. If solar geoengineering is perceived as riskier, the stability of the most stable solar geoengineering agreements is reduced. However, the stability of agreements is completely independent of countries preferences.
-    
-[^12]: 双机器学习与自动混淆变量选择的警示故事
-
-    Double Machine Learning and Automated Confounder Selection -- A Cautionary Tale. (arXiv:2108.11294v4 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2108.11294](http://arxiv.org/abs/2108.11294)
-
-    本文探讨了双机器学习在高维设置中的自动变量选择工具，指出其在包括内生变量时条件独立性会受到破坏，并警示了以数据驱动方式选择控制变量的可行性问题。
+    本研究基于优化能源系统方法，提供了2050年之前28个国家的绿色氢成本潜力曲线，其中非洲和中东太阳能富裕的国家具有巨大的氢电位和低的氢成本。分散的基于光伏和陆上风电的氢生产始终是首选，进口的额外成本仅高出7％。
 
     
 
-    双机器学习已成为高维设置中自动变量选择的越来越流行的工具。虽然处理大量潜在协变量的能力可以使选择可观测变量的假设更加可信，但同时也存在日益增长的风险，即包括内生变量，这将导致条件独立性违反。本文证明DML对协变量空间中包含一些“坏控制”十分敏感。由此产生的偏差因理论因果模型的不同而异，这引发了有关以数据驱动方式选择控制变量的可行性的担忧。
+    在未来的温室气体中和能源系统中，预计将全球贸易绿色氢。然而，仍然缺乏考虑整个过程链的绿色氢的时间和空间明确的成本潜力，这对于创建有效的全球战略十分必要。因此，这项研究使用基于开放场光伏和陆上风电的优化能源系统方法，为全球28个选定的国家提供了详细的成本潜力曲线，直到2050年。结果显示巨大的氢电位（>1,500 PWhLHV/a）和79 PWhLHV/a 在2050年成本低于2.30 EUR/kg，由非洲和中东富裕太阳能的国家主导。分散的基于光伏的氢生产，即使在富有风电资源的国家，也始终是首选。需要提供可持续的水来生产氢，同时对氢的成本影响较小。来自民主地区的进口的额外成本仅总计高出7％。因此，这样的地区可以…
 
-    Double machine learning (DML) has become an increasingly popular tool for automated variable selection in high-dimensional settings. Even though the ability to deal with a large number of potential covariates can render selection-on-observables assumptions more plausible, there is at the same time a growing risk that endogenous variables are included, which would lead to the violation of conditional independence. This paper demonstrates that DML is very sensitive to the inclusion of only a few "bad controls" in the covariate space. The resulting bias varies with the nature of the theoretical causal model, which raises concerns about the feasibility of selecting control variables in a data-driven way.
+    Green hydrogen is expected to be traded globally in future greenhouse gas neutral energy systems. However, there is still a lack of temporally- and spatially-explicit cost-potentials for green hydrogen considering the full process chain, which are necessary for creating effective global strategies. Therefore, this study provides such detailed cost-potential-curves for 28 selected countries worldwide until 2050, using an optimizing energy systems approach based on open-field photovoltaics (PV) and onshore wind. The results reveal huge hydrogen potentials (>1,500 PWhLHV/a) and 79 PWhLHV/a at costs below 2.30 EUR/kg in 2050, dominated by solar-rich countries in Africa and the Middle East. Decentralized PV-based hydrogen production, even in wind-rich countries, is always preferred. Supplying sustainable water for hydrogen production is needed while having minor impact on hydrogen cost. Additional costs for imports from democratic regions are only total 7% higher. Hence, such regions could 
+    
+[^7]: 挪威大气污染对出生结果的影响
+
+    The effect of ambient air pollution on birth outcomes in Norway. (arXiv:2208.06271v5 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2208.06271](http://arxiv.org/abs/2208.06271)
+
+    本研究发现孕期暴露于环境中的氮氧化物会对出生结果产生负面影响，而其他的大气污染物则在挪威的胎儿处于安全水平。不仅如此，孕期暴露于氮氧化物的负面效应对处于劣势家长的新生儿更为严重。
+
+    
+
+    大气污染即使在污染较低的国家也对胎儿有害。本文研究了大气污染对挪威出生结果的影响。研究发现，孕期暴露于氮氧化物会导致显著的出生体重和出生长度缺失，而其他的大气污染物如二氧化氮和二氧化硫则似乎在挪威的胎儿处于安全水平。不仅如此，孕期暴露于氮氧化物的负面效应对处于劣势家长的新生儿更为严重。平均浓度和偶发高浓度事件都会对出生结果产生不利影响。
+
+    Ambient air pollution is harmful to the fetus even in countries with relatively low levels of pollution. In this paper, I examine the effects of ambient air pollution on birth outcomes in Norway. I find that prenatal exposure to ambient nitric oxide in the last trimester causes significant birth weight and birth length loss under the same sub-postcode fixed effects and calendar month fixed effects, whereas other ambient air pollutants such as nitrogen dioxide and sulfur dioxide appear to be at safe levels for the fetus in Norway. In addition, the marginal adverse effect of ambient nitric oxide is larger for newborns with disadvantaged parents. Both average concentrations of nitric oxide and occasional high concentration events can adversely affect birth outcomes. The contributions of my work include: first, my finding that prenatal exposure to environmental nitric oxide has an adverse effect on birth outcomes fills a long-standing knowledge gap. Second, with the large sample size and g
+    
+[^8]: 同时最优输运
+
+    Simultaneous Optimal Transport. (arXiv:2201.03483v2 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2201.03483](http://arxiv.org/abs/2201.03483)
+
+    本文提出了一种新的质量输运框架"SOT"，可以同时耦合不同类型的资源，解决了之前的传统最优输运不能同时处理的问题，同时引入了MOT-SOT平衡，提高了计算效率。
+
+    
+
+    我们提出了一种称为"同时最优输运(SOT)"的矢量测度之间的质量输运的通用框架。新框架是由需要将不同类型的资源同时从指定的起点到达目的地的需求所驱动的。 同样地，在经济匹配中，需要同时耦合两个群体，例如买家和卖家，通过在同一时间内等量地平衡不同商品的供应和需求。 同时输运的数学结构与最优输运的经典设置非常不同，带来了许多新的挑战。 Monge和Kantorovich的表述被对比和连接。 建立了存在条件和对偶公式。 更有趣的是，通过将SOT与一种马丁格尔最优输运(MOT)的自然松弛联系起来，我们引入了MOT-SOT平衡，它允许在许多有趣的情况下明确解决SOT。
+
+    We propose a general framework of mass transport between vector-valued measures, which will be called simultaneous optimal transport (SOT). The new framework is motivated by the need to transport resources of different types simultaneously, i.e., in single trips, from specified origins to destinations; similarly, in economic matching, one needs to couple two groups, e.g., buyers and sellers, by equating supplies and demands of different goods at the same time. The mathematical structure of simultaneous transport is very different from the classic setting of optimal transport, leading to many new challenges. The Monge and Kantorovich formulations are contrasted and connected. Existence conditions and duality formulas are established. More interestingly, by connecting SOT to a natural relaxation of martingale optimal transport (MOT), we introduce the MOT-SOT parity, which allows for explicit solutions of SOT in many interesting cases.
+    
+[^9]: 高度集中的劳动力市场中的最低工资
+
+    Minimum Wages in Concentrated Labor Markets. (arXiv:2111.13692v6 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2111.13692](http://arxiv.org/abs/2111.13692)
+
+    该研究用劳动力市场集中度对垄断理论进行了全面测试，并发现了垄断性剥削的证据，该证据支持最低工资对就业的影响会掩盖市场异质性。
+
+    
+
+    经济学家越来越多地提到垄断力量，以协调最低工资的负面就业影响与理论。然而，垄断理论的系统证据很少。本文利用劳动力市场集中度作为垄断力量的代理，对垄断理论进行了全面测试。在德国，劳动力市场集中度相当高。在没有最低工资的情况下，劳动力市场集中度增加10％会导致企业将工资降低0.5％，就业减少1.6％，反映了垄断性剥削。符合完全竞争的行业最低工资会导致略微集中的劳动力市场出现负面就业影响。这种影响随着集中度的增加而减弱，并最终在高度集中或垄断性市场中呈正效应。总体而言，结果支持垄断理论，意味着常规的最低工资对就业的影响掩盖了异质性。
+
+    Economists increasingly refer to monopsony power to reconcile the absence of negative employment effects of minimum wages with theory. However, systematic evidence for the monopsony argument is scarce. In this paper, I perform a comprehensive test of monopsony theory by using labor market concentration as a proxy for monopsony power. Labor market concentration turns out substantial in Germany. Absent wage floors, a 10 percent increase in labor market concentration makes firms reduce wages by 0.5 percent and employment by 1.6 percent, reflecting monopsonistic exploitation. In line with perfect competition, sectoral minimum wages lead to negative employment effects in slightly concentrated labor markets. This effect weakens with increasing concentration and, ultimately, becomes positive in highly concentrated or monopsonistic markets. Overall, the results lend empirical support to the monopsony argument, implying that conventional minimum wage effects on employment conceal heterogeneity 
     
 

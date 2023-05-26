@@ -1,0 +1,12 @@
+{
+    "title": "Emergence of a phonological bias in ChatGPT. (arXiv:2305.15929v1 [cs.CL])",
+    "abstract": "Current large language models, such as OpenAI's ChatGPT, have captured the public's attention because how remarkable they are in the use of language. Here, I demonstrate that ChatGPT displays phonological biases that are a hallmark of human language processing. More concretely, just like humans, ChatGPT has a consonant bias. That is, the chatbot has a tendency to use consonants over vowels to identify words. This is observed across languages that differ in their relative distribution of consonants and vowels such as English and Spanish. Despite the differences in how current artificial intelligence language models are trained to process linguistic stimuli and how human infants acquire language, such training seems to be enough for the emergence of a phonological bias in ChatGPT",
+    "link": "http://arxiv.org/abs/2305.15929",
+    "context": "Title: Emergence of a phonological bias in ChatGPT. (arXiv:2305.15929v1 [cs.CL])\nAbstract: Current large language models, such as OpenAI's ChatGPT, have captured the public's attention because how remarkable they are in the use of language. Here, I demonstrate that ChatGPT displays phonological biases that are a hallmark of human language processing. More concretely, just like humans, ChatGPT has a consonant bias. That is, the chatbot has a tendency to use consonants over vowels to identify words. This is observed across languages that differ in their relative distribution of consonants and vowels such as English and Spanish. Despite the differences in how current artificial intelligence language models are trained to process linguistic stimuli and how human infants acquire language, such training seems to be enough for the emergence of a phonological bias in ChatGPT",
+    "path": "papers/23/05/2305.15929.json",
+    "total_tokens": 736,
+    "translated_title": "ChatGPT中出现了音韵偏见",
+    "translated_abstract": "当前的大型语言模型，例如OpenAI的ChatGPT，因其在语言使用方面的出色表现而受到公众的关注。在这里，我证明了ChatGPT显示了人类语言处理的音韵偏见。更具体地说，就像人类一样，ChatGPT具有一个辅音偏见。也就是说，这个聊天机器人倾向于使用辅音而不是元音来识别单词。这在具有不同辅音和元音分布比例的语言（如英语和西班牙语）中都有观察到。尽管当前人工智能语言模型在处理语言刺激和人类婴儿获得语言的方式上存在差异，但这样的训练似乎足以在ChatGPT中引出一个音韵偏见。",
+    "tldr": "ChatGPT表现出人类语言处理的音韵偏见，更倾向于使用辅音而不是元音来识别单词。",
+    "en_tdlr": "ChatGPT displays phonological biases similar to human language processing, preferring consonants over vowels to identify words."
+}

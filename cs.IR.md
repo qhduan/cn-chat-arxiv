@@ -2,217 +2,202 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Fusion-in-T5: Unifying Document Ranking Signals for Improved Information Retrieval.](http://arxiv.org/abs/2305.14685) | 本文提出了一种新的重新排名器FiT5，它将文档文本信息、检索特征和全局文档信息统一到一个单一的模型中，通过全局注意力使得FiT5能够共同利用排名特征，从而改善检测微妙差别的能力，在实验表现上显著提高了排名表现。 |
-| [^2] | [Revisit and Outstrip Entity Alignment: A Perspective of Generative Models.](http://arxiv.org/abs/2305.14651) | 本文重新从生成模型的角度研究了基于嵌入的实体对齐（EEA）问题，引入基于生成对抗网络的EEA方法及提出的生成的EEA（GEEA）框架，通过互相变分自动编码器（M-VAE）实现实体从一个KG转换到另一个KG，并且从随机噪声向量生成新的实体，具有较好的效果。 |
-| [^3] | [Enabling Large Language Models to Generate Text with Citations.](http://arxiv.org/abs/2305.14627) | 本文提出ALCE，是首个自动LLMs引文评估基准，实现大型语言模型生成带引文的文本，提高其事实正确性和可验证性；提示LLMs特定的关键词或利用外部知识源可以显著提高其引文准确性。 |
-| [^4] | [Contextualized Topic Coherence Metrics.](http://arxiv.org/abs/2305.14587) | 本研究提出了一种上下文化主题相干性评估指标（CTC），该指标不仅在短文档上运作良好，而且在相对于其他五个指标评估上具有更高的性能表现。 |
-| [^5] | [Extracting Shopping Interest-Related Product Types from the Web.](http://arxiv.org/abs/2305.14549) | 本文提出了一种从包含手工PT推荐的Web页面中提取PTs的方法，以建立购物兴趣（SI）和产品类型（PT）之间的连接，并引入了TrENC来改进内部节点之间的依赖建模。 |
-| [^6] | [NAIL: Lexical Retrieval Indices with Efficient Non-Autoregressive Decoders.](http://arxiv.org/abs/2305.14499) | NAIL是一种带有高效非自回归解码器的词汇检索指数模型，可与现有的预训练模型兼容，并且使用商品CPU提供服务。它可以捕捉Transformer交叉关注模型收益高达86％的方法，与BM25检索器结合使用匹配当前最先进的双编码器检索器的质量。 |
-| [^7] | [Knowledge Graphs Querying.](http://arxiv.org/abs/2305.14485) | 该论文调查了知识图谱查询的研究进展和最新技术和方法。 |
-| [^8] | [Graph Meets LLM: A Novel Approach to Collaborative Filtering for Robust Conversational Understanding.](http://arxiv.org/abs/2305.14449) | 一种协同过滤新方法用于稳健对话理解，在历史用户-实体交互的基础上，利用多跳客户亲和力丰富每个用户的索引，并使用有限内存BFGS算法调整每个索引的权重，实验结果显示其明显优于最先进的个性化查询重写方法。 |
-| [^9] | [Anchor Prediction: Automatic Refinement of Internet Links.](http://arxiv.org/abs/2305.14337) | 本研究介绍了锚点预测的任务，通过对链接目标网页的特定部分进行识别，帮助读者更有效地在链接网页中找到相关信息。 |
-| [^10] | [Term-Sets Can Be Strong Document Identifiers For Auto-Regressive Search Engines.](http://arxiv.org/abs/2305.13859) | 本论文提出了一种新的自回归搜索引擎框架AutoTSG，其特点是基于无序术语集的文档标识符和基于集合的生成管道，大大放松了对标识符精确生成的要求。 |
-| [^11] | [What Are You Token About? Dense Retrieval as Distributions Over the Vocabulary.](http://arxiv.org/abs/2212.10380) | 本文探讨了双编码器用于稠密检索的机制，通过将向量表示投影到模型的词汇表空间来解释它们，进一步解释了一些失败案例，提出了一种简单的方法在推理时丰富查询和段落表示与词汇信息，显著提高了性能。 |
-| [^12] | [COVID-19 Activity Risk Calculator as a Gamified Public Health Intervention Tool.](http://arxiv.org/abs/2212.05035) | CovARC是一种游戏化的公共卫生干预工具，通过风险评估和行为影响来降低个人在日常生活中感染新冠病毒的风险。 |
-| [^13] | [SciRepEval: A Multi-Format Benchmark for Scientific Document Representations.](http://arxiv.org/abs/2211.13308) | SciRepEval是第一个综合评估科学文献表示的全面基准，其中包括四种格式的 25 个任务。通过使用格式特定的控制代码和适配器，可以改进科学文献表示模型的泛化能力。 |
-| [^14] | [Deep Exploration for Recommendation Systems.](http://arxiv.org/abs/2109.12509) | 本文提出了一种深度探索方法以解决推荐系统中奖励稀少时的问题，并在高保真度的工业级模拟器下进行了实验，证明了该算法相比现有算法有很大的提升。 |
+| [^1] | [A Survey on Asking Clarification Questions Datasets in Conversational Systems.](http://arxiv.org/abs/2305.15933) | 本文对询问澄清问题（ACQ）的相关研究进行了全面分析，并提供了公开可用数据集的详细比较和多个ACQ相关任务的基准，旨在协助ACQ技术的发展。 |
+| [^2] | [Enhancing the Ranking Context of Dense Retrieval Methods through Reciprocal Nearest Neighbors.](http://arxiv.org/abs/2305.15720) | 为了解决稀疏标注在稠密检索模型训练中的问题，我们提出了基于证据的标签平滑方法，并且引入了逆向最近邻相似度度量方法来提高相关性估计的准确性。 |
+| [^3] | [BookGPT: A General Framework for Book Recommendation Empowered by Large Language Model.](http://arxiv.org/abs/2305.15673) | 本文介绍了一种基于大型语言模型的通用图书推荐框架BookGPT，通过将生成式预训练变换器技术应用于图书推荐场景中的三种任务，即图书评分推荐、用户评分推荐和图书摘要推荐，实现了对图书推荐的有力改进。 |
+| [^4] | [ConvGQR: Generative Query Reformulation for Conversational Search.](http://arxiv.org/abs/2305.15645) | 本文提出了一种新的面向会话搜索的ConvGQR框架，通过结合预训练语言模型来重新构造查询，从而提供更好的搜索查询。 |
+| [^5] | [Text-Augmented Open Knowledge Graph Completion via Pre-Trained Language Models.](http://arxiv.org/abs/2305.15597) | TAGREAL是一种可自动生成高质量查询提示信息，从大型文本语料库中检索支持信息以从PLM中探测知识的方法，用于开放知识图谱补全中，在两个基准数据集上取得了最先进的表现，并且即使在有限的训练数据情况下，仍然具有突出的性能。 |
+| [^6] | [Representation Online Matters: Practical End-to-End Diversification in Search and Recommender Systems.](http://arxiv.org/abs/2305.15534) | 为了改善搜索和推荐系统中的代表性，我们提出了一种端到端的多样化方法，并在Pinterest平台上实验和部署了可扩展的多样化机制，以改善美容和时尚类别中不同肤色的代表性。 |
+| [^7] | [Large Language Models for User Interest Journeys.](http://arxiv.org/abs/2305.15498) | 该论文提出了使用大型语言模型(LLMs)对用户兴趣进行建模的方法，并通过定义兴趣旅程，提出了一种模型旨在提高推荐的质量，并提供了可解释性和新颖性。 |
+| [^8] | [Exploring and Exploiting Data Heterogeneity in Recommendation.](http://arxiv.org/abs/2305.15431) | 本文探讨了推荐系统中数据的异质性对模型性能的影响，提出了一种通过聚类和迁移学习的方法，很好地应对了异质性问题，实验结果表明其优于现有基准方法。 |
+| [^9] | [Integrating Item Relevance in Training Loss for Sequential Recommender Systems.](http://arxiv.org/abs/2305.10824) | 本文提出了一种融合项目相关性的新型训练损失函数，用于提高序列推荐系统对噪声的鲁棒性和性能。 |
+| [^10] | [Complex Logical Reasoning over Knowledge Graphs using Large Language Models.](http://arxiv.org/abs/2305.01157) | 本文提出了一种使用大型语言模型的解耦方法，将复杂的知识图谱推理形式化为上下文知识图搜索和抽象逻辑查询推理的组合，与现有方法相比，它在多个逻辑查询结构的标准基准数据集上都表现出更好的性能，并且在更高复杂性的查询中获得了显着的性能提升。 |
+| [^11] | [Aggretriever: A Simple Approach to Aggregate Textual Representations for Robust Dense Passage Retrieval.](http://arxiv.org/abs/2208.00511) | 这项工作提出了一种简单的方法，将预训练语言模型中的知识充分应用于密集式段落检索，称为Aggretriever，通过将上下文化的token嵌入聚合到密集向量中，相对于以前需要采用计算量昂贵的技术进行训练的DPR模型，Aggretriever不需引入实质性的训练开销，能显著提高在域内和零-shot评估中有效性。 |
+| [^12] | [A Computational Inflection for Scientific Discovery.](http://arxiv.org/abs/2205.02007) | 本文介绍了一种计算变革的框架，利用最新的人工智能技术来增强科学发现和交流。这个框架有很多应用场景，作者提供了一个原型系统的初始实现，并探讨了未来研究和发展方向。 |
+| [^13] | [Atrapos: Real-time Evaluation of Metapath Query Workloads.](http://arxiv.org/abs/2201.04058) | ATRapos是一种实时评估元路径查询工作负载的方法，它利用了高效稀疏矩阵乘法和中间结果缓存的组合，在使用定制的数据结构来检测查询之间的频繁子元路径来选择要缓存和重用的中间结果。实验结果表明，ATRapos可以加速探索性数据分析。 |
 
 # 详细
 
-[^1]: Fusion-in-T5: 将文档排名信号统一起来以改进信息检索
+[^1]: 对话系统中询问澄清问题数据集的综述
 
-    Fusion-in-T5: Unifying Document Ranking Signals for Improved Information Retrieval. (arXiv:2305.14685v1 [cs.IR])
+    A Survey on Asking Clarification Questions Datasets in Conversational Systems. (arXiv:2305.15933v1 [cs.IR])
 
-    [http://arxiv.org/abs/2305.14685](http://arxiv.org/abs/2305.14685)
+    [http://arxiv.org/abs/2305.15933](http://arxiv.org/abs/2305.15933)
 
-    本文提出了一种新的重新排名器FiT5，它将文档文本信息、检索特征和全局文档信息统一到一个单一的模型中，通过全局注意力使得FiT5能够共同利用排名特征，从而改善检测微妙差别的能力，在实验表现上显著提高了排名表现。
-
-    
-
-    常见的信息检索流程通常采用级联系统，可能涉及多个排名器和/或融合模型逐步整合不同的信息。在本文中，我们提出了一种称为Fusion-in-T5（FiT5）的新型重新排名器，它使用基于模板的输入和全局注意力将文档文本信息、检索特征和全局文档信息统一到一个单一的模型中。在MS MARCO和TREC DL的段落排名基准测试中，实验表明FiT5在先前的流水线性能上显著提高了排名表现。分析发现，通过全局注意力，FiT5能够逐渐关注相关文档，从而共同利用排名特征，改善检测它们之间微妙差别的能力。我们的代码将开源。
-
-    Common IR pipelines are typically cascade systems that may involve multiple rankers and/or fusion models to integrate different information step-by-step. In this paper, we propose a novel re-ranker named Fusion-in-T5 (FiT5), which integrates document text information, retrieval features, and global document information into a single unified model using templated-based input and global attention. Experiments on passage ranking benchmarks MS MARCO and TREC DL show that FiT5 significantly improves ranking performance over prior pipelines. Analyses find that through global attention, FiT5 is able to jointly utilize the ranking features via gradually attending to related documents, and thus improve the detection of subtle nuances between them. Our code will be open-sourced.
-    
-[^2]: 从生成模型的角度重新审视实体对齐及超越：一个视角
-
-    Revisit and Outstrip Entity Alignment: A Perspective of Generative Models. (arXiv:2305.14651v1 [cs.CL])
-
-    [http://arxiv.org/abs/2305.14651](http://arxiv.org/abs/2305.14651)
-
-    本文重新从生成模型的角度研究了基于嵌入的实体对齐（EEA）问题，引入基于生成对抗网络的EEA方法及提出的生成的EEA（GEEA）框架，通过互相变分自动编码器（M-VAE）实现实体从一个KG转换到另一个KG，并且从随机噪声向量生成新的实体，具有较好的效果。
+    本文对询问澄清问题（ACQ）的相关研究进行了全面分析，并提供了公开可用数据集的详细比较和多个ACQ相关任务的基准，旨在协助ACQ技术的发展。
 
     
 
-    最近，基于嵌入的方法在利用多模态知识图谱（KG）嵌入的实体对齐方面取得了巨大成功。在本文中，我们从生成模型的角度研究了基于嵌入的实体对齐（EEA）。我们表明EEA是一个特殊的问题，其主要目标类似于典型生成模型中的目标，基于这个目标，我们从理论上证明了最近发展的基于生成对抗网络（GAN）的EEA方法的有效性。然后，我们揭示了他们不完整的目标限制了实体对齐和实体合成（即生成新实体）的能力。我们通过引入生成的EEA（abbr.，GEEA）框架和提出的互相变分自动编码器（M-VAE）作为生成模型来缓解这个问题。M-VAE可以将一个实体从一个KG转换到另一个KG，并从随机噪声向量生成新实体。我们通过理论分析和实证实验展示了GEEA的优势。
+    理解用户真实需求对于对话系统尤为重要，特别是在对话中用户提供的信息有限的情况下。因此，在这样的领域中，询问澄清问题（ACQ）以揭示用户意图为关键任务。然而，现有ACQ研究的关键限制是它们的不可比性，来自数据的不一致使用，不同的实验设置和评估策略。因此，本文为协助ACQ技术的发展，全面分析了当前ACQ研究状态，提供了公开可用数据集的详细比较，并讨论了应用评估指标以及多个与ACQ相关任务的基准。特别是，在对ACQ任务进行彻底分析后，我们讨论了一些相应的研究方向，以调查ACQ以及对话系统的发展。
 
-    Recent embedding-based methods have achieved great successes on exploiting entity alignment from knowledge graph (KG) embeddings of multiple modals. In this paper, we study embedding-based entity alignment (EEA) from a perspective of generative models. We show that EEA is a special problem where the main objective is analogous to that in a typical generative model, based on which we theoretically prove the effectiveness of the recently developed generative adversarial network (GAN)-based EEA methods. We then reveal that their incomplete objective limits the capacity on both entity alignment and entity synthesis (i.e., generating new entities). We mitigate this problem by introducing a generative EEA (abbr., GEEA) framework with the proposed mutual variational autoencoder (M-VAE) as the generative model. M-VAE can convert an entity from one KG to another and generate new entities from random noise vectors. We demonstrate the power of GEEA with theoretical analysis and empirical experime
+    The ability to understand a user's underlying needs is critical for conversational systems, especially with limited input from users in a conversation. Thus, in such a domain, Asking Clarification Questions (ACQs) to reveal users' true intent from their queries or utterances arise as an essential task. However, it is noticeable that a key limitation of the existing ACQs studies is their incomparability, from inconsistent use of data, distinct experimental setups and evaluation strategies. Therefore, in this paper, to assist the development of ACQs techniques, we comprehensively analyse the current ACQs research status, which offers a detailed comparison of publicly available datasets, and discusses the applied evaluation metrics, joined with benchmarks for multiple ACQs-related tasks. In particular, given a thorough analysis of the ACQs task, we discuss a number of corresponding research directions for the investigation of ACQs as well as the development of conversational systems.
     
-[^3]: 实现大型语言模型生成带引文的文本
+[^2]: 通过逆向最近邻提升稠密检索方法的排名上下文质量
 
-    Enabling Large Language Models to Generate Text with Citations. (arXiv:2305.14627v1 [cs.CL])
+    Enhancing the Ranking Context of Dense Retrieval Methods through Reciprocal Nearest Neighbors. (arXiv:2305.15720v1 [cs.IR])
 
-    [http://arxiv.org/abs/2305.14627](http://arxiv.org/abs/2305.14627)
+    [http://arxiv.org/abs/2305.15720](http://arxiv.org/abs/2305.15720)
 
-    本文提出ALCE，是首个自动LLMs引文评估基准，实现大型语言模型生成带引文的文本，提高其事实正确性和可验证性；提示LLMs特定的关键词或利用外部知识源可以显著提高其引文准确性。
-
-    
-
-    大型语言模型（LLMs）已成为广泛使用的信息寻找工具，但生成的输出容易出现幻觉。本文旨在实现LLMs生成带引文的文本，提高其事实正确性和可验证性。我们提出了ALCE，这是首个自动LLMs引文评估基准。ALCE收集了各种问题和检索语料库，并要求建立端到端系统以检索支持证据并生成带有引文的答案。我们沿着流畅性、正确性和引文质量三个维度构建自动指标，并展示了它们与人类判断的强相关性。我们使用最先进的LLMs和新的提示策略进行实验，结果表明当前系统仍有相当大的提升空间--例如，提示LLMs特定的关键词或利用外部知识源可以显著提高其引文准确性。我们的工作为未来研究发展能够生成可验证和可信赖输出的LLMs提供了坚实基础。
-
-    Large language models (LLMs) have emerged as a widely-used tool for information seeking, but their generated outputs are prone to hallucination. In this work, we aim to enable LLMs to generate text with citations, improving their factual correctness and verifiability. Existing work mainly relies on commercial search engines and human evaluation, making it challenging to reproduce and compare with different modeling approaches. We propose ALCE, the first benchmark for Automatic LLMs' Citation Evaluation. ALCE collects a diverse set of questions and retrieval corpora and requires building end-to-end systems to retrieve supporting evidence and generate answers with citations. We build automatic metrics along three dimensions -- fluency, correctness, and citation quality -- and demonstrate their strong correlation with human judgements. Our experiments with state-of-the-art LLMs and novel prompting strategies show that current systems have considerable room for improvements -for example,
-    
-[^4]: 上下文化主题相干性评估指标
-
-    Contextualized Topic Coherence Metrics. (arXiv:2305.14587v1 [cs.CL])
-
-    [http://arxiv.org/abs/2305.14587](http://arxiv.org/abs/2305.14587)
-
-    本研究提出了一种上下文化主题相干性评估指标（CTC），该指标不仅在短文档上运作良好，而且在相对于其他五个指标评估上具有更高的性能表现。
+    为了解决稀疏标注在稠密检索模型训练中的问题，我们提出了基于证据的标签平滑方法，并且引入了逆向最近邻相似度度量方法来提高相关性估计的准确性。
 
     
 
-    近年来，神经主题建模的大量研究被指责在优化自动化主题评估指标的同时牺牲了实质性的主题识别。但是，人工标注的成本高昂且耗时。本文提出了一种基于LLM的方法，受到人类主题评估的启发，提出了一种度量系列，称为上下文化主题相干性（CTC）。我们评估了一个全自动的版本以及一个半自动化的CTC，该版本针对人工中心的相干性评估，同时保持了自动化方法的效率。我们在六个主题模型上相对于五个其他指标评估CTC，并发现它优于自动主题一致性方法，在短文档上运作良好，并且不容易受到评分高但毫无意义的主题的影响。
+    稀疏标注给稠密检索模型训练带来了持久的挑战，例如虚假负样本问题，即未标记的相关文档被错误地用作负样本，扭曲了训练信号。为了缓解这个问题，我们介绍了一种称为基于证据的标签平滑的计算方法，这是一种计算效率高的方法，可以避免惩罚模型将高相关性赋予虚假负样本。为了在给定查询的排名上下文中计算候选文档的目标相关性分布，与基本事实最相似的候选者被赋予非零相关概率，该概率基于它们与基本事实文档的相似度程度。作为相关性估计，我们利用了一种基于逆向最近邻的改进相似度度量，该度量还可单独用于后处理中重新排名候选者。通过在两个大规模的自适应文本检索数据集上进行广泛的实验，我们展示了本方法的优越性。
 
-    The recent explosion in work on neural topic modeling has been criticized for optimizing automated topic evaluation metrics at the expense of actual meaningful topic identification. But human annotation remains expensive and time-consuming. We propose LLM-based methods inspired by standard human topic evaluations, in a family of metrics called Contextualized Topic Coherence (CTC). We evaluate both a fully automated version as well as a semi-automated CTC that allows human-centered evaluation of coherence while maintaining the efficiency of automated methods. We evaluate CTC relative to five other metrics on six topic models and find that it outperforms automated topic coherence methods, works well on short documents, and is not susceptible to meaningless but high-scoring topics.
+    Sparse annotation poses persistent challenges to training dense retrieval models, such as the problem of false negatives, i.e. unlabeled relevant documents that are spuriously used as negatives in contrastive learning, distorting the training signal. To alleviate this problem, we introduce evidence-based label smoothing, a computationally efficient method that prevents penalizing the model for assigning high relevance to false negatives. To compute the target relevance distribution over candidate documents within the ranking context of a given query, candidates most similar to the ground truth are assigned a non-zero relevance probability based on the degree of their similarity to the ground-truth document(s). As a relevance estimate we leverage an improved similarity metric based on reciprocal nearest neighbors, which can also be used independently to rerank candidates in post-processing. Through extensive experiments on two large-scale ad hoc text retrieval datasets we demonstrate th
     
-[^5]: 从网络中提取与购物兴趣相关的产品类型
+[^3]: BookGPT：一种基于大型语言模型的通用图书推荐框架
 
-    Extracting Shopping Interest-Related Product Types from the Web. (arXiv:2305.14549v1 [cs.IR])
+    BookGPT: A General Framework for Book Recommendation Empowered by Large Language Model. (arXiv:2305.15673v1 [cs.IR])
 
-    [http://arxiv.org/abs/2305.14549](http://arxiv.org/abs/2305.14549)
+    [http://arxiv.org/abs/2305.15673](http://arxiv.org/abs/2305.15673)
 
-    本文提出了一种从包含手工PT推荐的Web页面中提取PTs的方法，以建立购物兴趣（SI）和产品类型（PT）之间的连接，并引入了TrENC来改进内部节点之间的依赖建模。
-
-    
-
-    当客户在寻找其高级购物兴趣（如徒步旅行等）的产品时，推荐多样化的产品类型（PTs）对于提供良好的购物体验至关重要。然而，电子商务产品目录中通常缺乏SI-PT的连接，并且由于潜在的SI数量巨大，手动构建这种连接也是非常昂贵的，这使得我们无法建立易于访问的知识系统。为了建立这样的连接，我们提出从包含手工PT推荐的Web页面中提取PTs的方法。将提取任务设置为二进制HTML节点分类，因为我们的目标Web页面中的HTML节点可以呈现一个且仅一个PT短语的普遍观察。为此，我们引入了TrENC，即Tree-Transformer编码器用于节点分类。它改进了内部节点之间的依赖建模，并保留了长期的兄弟姐妹和祖先-后代关系的注意机制。
-
-    Recommending a diversity of product types (PTs) is important for a good shopping experience when customers are looking for products around their high-level shopping interests (SIs) such as hiking. However, the SI-PT connection is typically absent in e-commerce product catalogs and expensive to construct manually due to the volume of potential SIs, which prevents us from establishing a recommender with easily accessible knowledge systems. To establish such connections, we propose to extract PTs from the Web pages containing hand-crafted PT recommendations for SIs. The extraction task is formulated as binary HTML node classification given the general observation that an HTML node in our target Web pages can present one and only one PT phrase. Accordingly, we introduce TrENC, which stands for Tree-Transformer Encoders for Node Classification. It improves the inter-node dependency modeling with modified attention mechanisms that preserve the long-term sibling and ancestor-descendant relati
-    
-[^6]: NAIL: 带高效非自回归解码器的词汇检索指数
-
-    NAIL: Lexical Retrieval Indices with Efficient Non-Autoregressive Decoders. (arXiv:2305.14499v1 [cs.CL])
-
-    [http://arxiv.org/abs/2305.14499](http://arxiv.org/abs/2305.14499)
-
-    NAIL是一种带有高效非自回归解码器的词汇检索指数模型，可与现有的预训练模型兼容，并且使用商品CPU提供服务。它可以捕捉Transformer交叉关注模型收益高达86％的方法，与BM25检索器结合使用匹配当前最先进的双编码器检索器的质量。
+    本文介绍了一种基于大型语言模型的通用图书推荐框架BookGPT，通过将生成式预训练变换器技术应用于图书推荐场景中的三种任务，即图书评分推荐、用户评分推荐和图书摘要推荐，实现了对图书推荐的有力改进。
 
     
 
-    神经文档重新排名器在精度方面非常有效。然而，最好的模型需要专用硬件进行服务，这是昂贵并且通常是不可行的。为了避免这种服务时间要求，我们提出一种捕捉Transformer交叉关注模型收益高达86％的方法，该方法使用只需要每个文档转换器FLOP的10-6％的词汇得分功能，并且可以使用商品CPU提供服务。当与BM25检索器结合使用时，此方法可以匹配现有的最先进的双编码器检索器的质量，该检索器仍需要加速器进行查询编码。我们将NAIL（带有语言模型的非自回归索引）引入为与最近的编码器-解码器和仅解码器大型语言模型（例如T5、GPT-3和PaLM）兼容的模型体系结构。该模型体系结构可以利用现有的预训练检查点，并可以微调以有效地构建不需要n
+    随着生成式预训练变换器（GPT）等大型语言模型技术的不断发展和变化，各个领域的许多经典场景重新展现出新的机遇。本文将ChatGPT作为建模对象，首次将LLM技术并入传统的图书资源理解和推荐场景中，并付诸实践。本文基于ChatGPT构建了类似于聊天机器人的图书推荐系统框架（BookGPT），试图将ChatGPT应用于三种典型任务的推荐建模：图书评分推荐，用户评分推荐和图书摘要推荐，探索LLM技术在图书推荐场景中的可行性。同时，本文根据不同的图书推荐任务评估方案和现有的经典推荐模型，讨论了BookGPT在图书推荐场景下的优缺点，并进行了一系列实证比较和分析，证明基于LLM技术的BookGPT框架可以为图书推荐领域带来显著的改进。
 
-    Neural document rerankers are extremely effective in terms of accuracy. However, the best models require dedicated hardware for serving, which is costly and often not feasible. To avoid this serving-time requirement, we present a method of capturing up to 86% of the gains of a Transformer cross-attention model with a lexicalized scoring function that only requires 10-6% of the Transformer's FLOPs per document and can be served using commodity CPUs. When combined with a BM25 retriever, this approach matches the quality of a state-of-the art dual encoder retriever, that still requires an accelerator for query encoding. We introduce NAIL (Non-Autoregressive Indexing with Language models) as a model architecture that is compatible with recent encoder-decoder and decoder-only large language models, such as T5, GPT-3 and PaLM. This model architecture can leverage existing pre-trained checkpoints and can be fine-tuned for efficiently constructing document representations that do not require n
+    With the continuous development and change exhibited by large language model (LLM) technology, represented by generative pretrained transformers (GPTs), many classic scenarios in various fields have re-emerged with new opportunities. This paper takes ChatGPT as the modeling object, incorporates LLM technology into the typical book resource understanding and recommendation scenario for the first time, and puts it into practice. By building a ChatGPT-like book recommendation system (BookGPT) framework based on ChatGPT, this paper attempts to apply ChatGPT to recommendation modeling for three typical tasks, book rating recommendation, user rating recommendation, and book summary recommendation, and explores the feasibility of LLM technology in book recommendation scenarios. At the same time, based on different evaluation schemes for book recommendation tasks and the existing classic recommendation models, this paper discusses the advantages and disadvantages of the BookGPT in book recomme
     
-[^7]: 知识图谱查询
+[^4]: ConvGQR：面向会话搜索的生成式查询重构
 
-    Knowledge Graphs Querying. (arXiv:2305.14485v1 [cs.DB])
+    ConvGQR: Generative Query Reformulation for Conversational Search. (arXiv:2305.15645v1 [cs.IR])
 
-    [http://arxiv.org/abs/2305.14485](http://arxiv.org/abs/2305.14485)
+    [http://arxiv.org/abs/2305.15645](http://arxiv.org/abs/2305.15645)
 
-    该论文调查了知识图谱查询的研究进展和最新技术和方法。
-
-    
-
-    知识图谱（KG）如DBpedia、Freebase、YAGO、Wikidata和NELL等被构建用来存储大规模、现实世界中的事实（主题、谓语、对象）三元组，可以被建模为一个图形，其中一个节点（主题或对象）代表具有属性的实体，并且有向边（谓词）是两个实体之间的关系。在Web搜索、问答、语义搜索、个人助手、事实检查和推荐中，查询 KG 是至关重要的。尽管在 KG 构建和维护方面已经取得了重大进展，但由于深度学习的影响，我们最近看到了KG 查询和问答研究方面的激增。我们调查的目的是双重的。首先，KG查询的研究由多个社群进行了研究，如数据库、数据挖掘、语义网、机器学习、信息检索和自然语言处理（NLP），关注点和术语不同。其次，我们还调查了最近的KG查询研究中使用的最新技术和方法。
-
-    Knowledge graphs (KGs) such as DBpedia, Freebase, YAGO, Wikidata, and NELL were constructed to store large-scale, real-world facts as (subject, predicate, object) triples -- that can also be modeled as a graph, where a node (a subject or an object) represents an entity with attributes, and a directed edge (a predicate) is a relationship between two entities. Querying KGs is critical in web search, question answering (QA), semantic search, personal assistants, fact checking, and recommendation. While significant progress has been made on KG construction and curation, thanks to deep learning recently we have seen a surge of research on KG querying and QA. The objectives of our survey are two-fold. First, research on KG querying has been conducted by several communities, such as databases, data mining, semantic web, machine learning, information retrieval, and natural language processing (NLP), with different focus and terminologies; and also in diverse topics ranging from graph databases
-    
-[^8]: 图谱遇见LLM：一种用于稳健对话理解的协同过滤新方法
-
-    Graph Meets LLM: A Novel Approach to Collaborative Filtering for Robust Conversational Understanding. (arXiv:2305.14449v1 [cs.AI])
-
-    [http://arxiv.org/abs/2305.14449](http://arxiv.org/abs/2305.14449)
-
-    一种协同过滤新方法用于稳健对话理解，在历史用户-实体交互的基础上，利用多跳客户亲和力丰富每个用户的索引，并使用有限内存BFGS算法调整每个索引的权重，实验结果显示其明显优于最先进的个性化查询重写方法。
+    本文提出了一种新的面向会话搜索的ConvGQR框架，通过结合预训练语言模型来重新构造查询，从而提供更好的搜索查询。
 
     
 
-    会话式人工智能系统（例如Alexa，Siri，Google Assistant等）需要理解存在缺陷的查询以确保稳健的会话理解并减少用户摩擦。这些有缺陷的查询通常是由用户的歧义和错误，自动语音识别（ASR）和自然语言理解（NLU）中的错误引起的。个性化查询重写（个性化QR）旨在减少身体和尾部用户查询流量中的缺陷，通常依赖于与对话式人工智能的过去成功的用户交互的索引。本文提出我们的“协同查询重写”方法，专注于重写用户历史中没有出现过的新型用户交互。该方法构建了一个“用户反馈交互图”（FIG），由历史用户-实体交互组成，并利用多跳客户亲和力来丰富每个用户的索引（即协同用户索引），从而帮助覆盖未来未曾见过的存在缺陷的查询。为了防止这些新的丰富索引被噪声反馈交互所支配，我们采用了有限内存BFGS（LLM）算法和回退方案来调整每个索引的权重。实验结果表明，我们的方法明显优于最先进的个性化QR方法，并在未看到的用户交互上取得了近乎完美的性能。
+    在会话搜索中，用户当前搜索意图依赖于先前的对话历史。从整个对话上下文中确定一个良好的搜索查询是具有挑战性的。为避免查询编码器的昂贵重新训练，大部分现有方法尝试学习一个重写模型，通过模仿手动查询重写来去除当前查询的上下文。然而，手动重写的查询并不总是最好的搜索查询。训练重写模型会限制模型产生良好搜索查询的能力。本文提出一种新的框架ConvGQR，基于预训练语言模型（PLM），一个用于查询重写，另一个用于生成潜在答案，以重新构造会话查询。通过结合两者，ConvGQR可以提供更好的搜索查询。此外，为了将查询重构与检索性能联系起来，我们提出了一种基于特征选择的相似度分数模型，用于验证ConvGQR的有效性。
 
-    Conversational AI systems (e.g. Alexa, Siri, Google Assistant, etc.) need to understand queries with defects to ensure robust conversational understanding and reduce user frictions. The defective queries are often induced by user ambiguities and mistakes, or errors in the automatic speech recognition (ASR) and natural language understanding (NLU).  Personalized query rewriting (personalized QR) targets reducing defects in the torso and tail user query traffic, and it typically relies on an index of past successful user interactions with the conversational AI. This paper presents our "Collaborative Query Rewriting" approach that focuses on rewriting novel user interactions unseen in the user history. This approach builds a "user Feedback Interaction Graph" (FIG) consisting of historical user-entity interactions, and leverages multi-hop customer affinity to enrich each user's index (i.e. the Collaborative User Index) that would help cover future unseen defective queries. To counteract th
+    In conversational search, the user's real search intent for the current turn is dependent on the previous conversation history. It is challenging to determine a good search query from the whole conversation context. To avoid the expensive re-training of the query encoder, most existing methods try to learn a rewriting model to de-contextualize the current query by mimicking the manual query rewriting. However, manually rewritten queries are not always the best search queries. Training a rewriting model on them would limit the model's ability to produce good search queries. Another useful hint is the potential answer to the question. In this paper, we propose ConvGQR, a new framework to reformulate conversational queries based on generative pre-trained language models (PLMs), one for query rewriting and another for generating potential answers. By combining both, ConvGQR can produce better search queries. In addition, to relate query reformulation to retrieval performance, we propose a 
     
-[^9]: Anchor Prediction: 自动完善互联网链接
+[^5]: 基于预训练语言模型的文本增强开放知识图谱补全
 
-    Anchor Prediction: Automatic Refinement of Internet Links. (arXiv:2305.14337v2 [cs.CL] UPDATED)
+    Text-Augmented Open Knowledge Graph Completion via Pre-Trained Language Models. (arXiv:2305.15597v1 [cs.CL])
 
-    [http://arxiv.org/abs/2305.14337](http://arxiv.org/abs/2305.14337)
+    [http://arxiv.org/abs/2305.15597](http://arxiv.org/abs/2305.15597)
 
-    本研究介绍了锚点预测的任务，通过对链接目标网页的特定部分进行识别，帮助读者更有效地在链接网页中找到相关信息。
-
-    
-
-    互联网链接是通过提供便捷的访问相关信息，帮助用户深入了解一个主题。然而，大部分链接都是无锚点的 - 它们将目标网页作为一个整体链接，读者可能会花费大量的精力定位目标网页中丰富他们理解链接源上下文的特定部分。为了帮助读者有效地在链接的网页中找到信息，我们引入了锚点预测的任务，目标是确定与源链接上下文最相关的目标网页的特定部分。我们发布了作者锚点数据集，其中包括 34K 个自然出现的带锚点链接，反映了源文章作者的相关判断。为了模拟读者相关判断，我们注释并发布了读者锚点数据集，这是读者发现有用的锚点的评估集。我们的分析表明，有效的锚点预测通常需要联合推理。
-
-    Internet links enable users to deepen their understanding of a topic by providing convenient access to related information. However, the majority of links are unanchored -- they link to a target webpage as a whole, and readers may expend considerable effort localizing the specific parts of the target webpage that enrich their understanding of the link's source context. To help readers effectively find information in linked webpages, we introduce the task of anchor prediction, where the goal is to identify the specific part of the linked target webpage that is most related to the source linking context. We release the AuthorAnchors dataset, a collection of 34K naturally-occurring anchored links, which reflect relevance judgments by the authors of the source article. To model reader relevance judgments, we annotate and release ReaderAnchors, an evaluation set of anchors that readers find useful. Our analysis shows that effective anchor prediction often requires jointly reasoning over len
-    
-[^10]: 术语集可以成为自回归搜索引擎的强文档标识符
-
-    Term-Sets Can Be Strong Document Identifiers For Auto-Regressive Search Engines. (arXiv:2305.13859v1 [cs.IR])
-
-    [http://arxiv.org/abs/2305.13859](http://arxiv.org/abs/2305.13859)
-
-    本论文提出了一种新的自回归搜索引擎框架AutoTSG，其特点是基于无序术语集的文档标识符和基于集合的生成管道，大大放松了对标识符精确生成的要求。
+    TAGREAL是一种可自动生成高质量查询提示信息，从大型文本语料库中检索支持信息以从PLM中探测知识的方法，用于开放知识图谱补全中，在两个基准数据集上取得了最先进的表现，并且即使在有限的训练数据情况下，仍然具有突出的性能。
 
     
 
-    自回归搜索引擎是下一代信息检索系统的有前途的范例。这些方法利用Seq2Seq模型，其中每个查询可以直接映射到其相关文档的标识符。因此，它们因具有端到端可微分性等优点而受到赞扬。然而，自回归搜索引擎在检索质量上也面临着挑战，因为其需要对文档标识符进行精确生成。也就是说，如果在生成过程的任何一步中对其标识符做出了错误的预测，则目标文档将从检索结果中漏失。在这项工作中，我们提出了一种新的框架，即AutoTSG(自回归搜索引擎与术语集生成)，其特点是1)无序基于术语的文档标识符和2)基于集合的生成管道。利用AutoTSG，术语集标识符的任何排列都将导致相应文档的检索，从而大大放松了对标识符精确生成的要求。
+    开放知识图谱补全的任务是从已知事实中提取新的发现。现有的增强知识图谱补全的方法要么需要事实三元组以扩大图推理空间，要么需要手动设计提示信息以从预训练语言模型中提取知识，这些方法性能有限，需要专家昂贵的工作。为此，我们提出了TAGREAL，它自动生成高质量的查询提示信息，并从大型文本语料库中检索支持信息以从PLM中探测知识以完成知识图谱补全。结果表明，TAGREAL在两个基准数据集上实现了最先进的性能。我们发现，即使是在有限的训练数据情况下，TAGREAL的性能仍然非常突出，超过了现有的基于嵌入、基于图和基于PLM的方法。
 
-    Auto-regressive search engines emerge as a promising paradigm for next-gen information retrieval systems. These methods work with Seq2Seq models, where each query can be directly mapped to the identifier of its relevant document. As such, they are praised for merits like being end-to-end differentiable. However, auto-regressive search engines also confront challenges in retrieval quality, given the requirement for the exact generation of the document identifier. That's to say, the targeted document will be missed from the retrieval result if a false prediction about its identifier is made in any step of the generation process. In this work, we propose a novel framework, namely AutoTSG (Auto-regressive Search Engine with Term-Set Generation), which is featured by 1) the unordered term-based document identifier and 2) the set-oriented generation pipeline. With AutoTSG, any permutation of the term-set identifier will lead to the retrieval of the corresponding document, thus largely relaxi
+    The mission of open knowledge graph (KG) completion is to draw new findings from known facts. Existing works that augment KG completion require either (1) factual triples to enlarge the graph reasoning space or (2) manually designed prompts to extract knowledge from a pre-trained language model (PLM), exhibiting limited performance and requiring expensive efforts from experts. To this end, we propose TAGREAL that automatically generates quality query prompts and retrieves support information from large text corpora to probe knowledge from PLM for KG completion. The results show that TAGREAL achieves state-of-the-art performance on two benchmark datasets. We find that TAGREAL has superb performance even with limited training data, outperforming existing embedding-based, graph-based, and PLM-based methods.
     
-[^11]: 你所谓的令牌是关于什么的？稠密检索作为词汇表上的分布。
+[^6]: 在搜索和推荐系统中，在线表示很重要：实用的端到端多样化方法。
 
-    What Are You Token About? Dense Retrieval as Distributions Over the Vocabulary. (arXiv:2212.10380v2 [cs.CL] UPDATED)
+    Representation Online Matters: Practical End-to-End Diversification in Search and Recommender Systems. (arXiv:2305.15534v1 [cs.IR])
 
-    [http://arxiv.org/abs/2212.10380](http://arxiv.org/abs/2212.10380)
+    [http://arxiv.org/abs/2305.15534](http://arxiv.org/abs/2305.15534)
 
-    本文探讨了双编码器用于稠密检索的机制，通过将向量表示投影到模型的词汇表空间来解释它们，进一步解释了一些失败案例，提出了一种简单的方法在推理时丰富查询和段落表示与词汇信息，显著提高了性能。
-
-    
-
-    双编码器现在是稠密检索的主要架构。然而，我们对它们如何表示文本以及为什么会导致良好性能知之甚少。在本文中，我们通过词汇表上的分布来阐明这个问题。我们建议通过将双编码器产生的向量表示投影到模型的词汇表空间中来解释它们，我们展示了产生的投影包含丰富的语义信息，并将它们与稀疏检索之间进行联系。我们发现，这种观点可以解释稠密检索器的一些失败案例。例如，我们观察到模型无法处理尾部实体与令牌分布倾向于忘记这些实体的某些令牌之间存在相关性。我们利用了这一洞察，并提出了一种在推理时丰富查询和段落表示与词汇信息的简单方法，并展示了这相比于常规的双编码器有显著的性能提升。
-
-    Dual encoders are now the dominant architecture for dense retrieval. Yet, we have little understanding of how they represent text, and why this leads to good performance. In this work, we shed light on this question via distributions over the vocabulary. We propose to interpret the vector representations produced by dual encoders by projecting them into the model's vocabulary space. We show that the resulting projections contain rich semantic information, and draw connection between them and sparse retrieval. We find that this view can offer an explanation for some of the failure cases of dense retrievers. For example, we observe that the inability of models to handle tail entities is correlated with a tendency of the token distributions to forget some of the tokens of those entities. We leverage this insight and propose a simple way to enrich query and passage representations with lexical information at inference time, and show that this significantly improves performance compared to 
-    
-[^12]: 作为一种游戏化的公共卫生干预工具的COVID-19活动风险计算器。
-
-    COVID-19 Activity Risk Calculator as a Gamified Public Health Intervention Tool. (arXiv:2212.05035v4 [cs.CY] UPDATED)
-
-    [http://arxiv.org/abs/2212.05035](http://arxiv.org/abs/2212.05035)
-
-    CovARC是一种游戏化的公共卫生干预工具，通过风险评估和行为影响来降低个人在日常生活中感染新冠病毒的风险。
+    为了改善搜索和推荐系统中的代表性，我们提出了一种端到端的多样化方法，并在Pinterest平台上实验和部署了可扩展的多样化机制，以改善美容和时尚类别中不同肤色的代表性。
 
     
 
-    由严重急性呼吸综合症冠状病毒2 (SARS-CoV-2) 引起的新型冠状病毒肺炎疫情已经影响到200多个国家，在全球造成了数百万人的住院和死亡。公共卫生干预，如风险评估工具，可以通过影响个人行为降低暴发流行病传播风险和感染率。然而，由于社区传播水平和病毒变异等因素的快速演变，目前公开可用的COVID-19风险评估工具的效果参差不齐。此外，关于某些个人防护策略，如口罩佩戴和接种疫苗的风险降低问题也存在困惑。为了创建一个用于评估日常活动所涉及的各种个人风险的简单易用工具，我们开发了COVID-19活动风险计算器（CovARC）。CovARC是一种游戏化的公共卫生干预工具。
+    随着在线平台在各个人口统计学中的使用不断增长，用户经常表达希望在内容中感受到自己的代表性。为了改善搜索结果和推荐中的代表性，我们引入了端到端的多样化方法，确保多样化内容在这些系统的各个阶段中流动，从检索到排序。我们在多个Pinterest平台的生产界面中开发、实验和部署可扩展的多样化机制，包括搜索、相关产品和新用户主页，以改善美容和时尚内容中不同肤色的代表性。生产系统中的多样化包括三个组成部分：确定会触发多样化的请求，在检索阶段确保从大型内容语料库中检索到多样化的内容，最后，在排名阶段以自我调整的方式平衡多样性和效用的权衡。我们的方法从使用Strong-O开始。
 
-    The Coronavirus disease 2019 (COVID-19) pandemic, caused by the virus severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), has impacted over 200 countries leading to hospitalizations and deaths of millions of people. Public health interventions, such as risk estimators, can reduce the spread of pandemics and epidemics through influencing behavior, which impacts risk of exposure and infection. Current publicly available COVID-19 risk estimation tools have had variable effectiveness during the pandemic due to their dependency on rapidly evolving factors such as community transmission levels and variants. There has also been confusion surrounding certain personal protective strategies such as risk reduction by mask-wearing and vaccination. In order to create a simple easy-to-use tool for estimating different individual risks associated with carrying out daily-life activity, we developed COVID-19 Activity Risk Calculator (CovARC). CovARC is a gamified public health intervention as
+    As the use of online platforms continues to grow across all demographics, users often express a desire to feel represented in the content. To improve representation in search results and recommendations, we introduce end-to-end diversification, ensuring that diverse content flows throughout the various stages of these systems, from retrieval to ranking. We develop, experiment, and deploy scalable diversification mechanisms in multiple production surfaces on the Pinterest platform, including Search, Related Products, and New User Homefeed, to improve the representation of different skin tones in beauty and fashion content. Diversification in production systems includes three components: identifying requests that will trigger diversification, ensuring diverse content is retrieved from the large content corpus during the retrieval stage, and finally, balancing the diversity-utility trade-off in a self-adjusting manner in the ranking stage. Our approaches, which evolved from using Strong-O
     
-[^13]: SciRepEval：一个用于科学文献表示的多格式基准
+[^7]: 用户兴趣旅程的大型语言模型
 
-    SciRepEval: A Multi-Format Benchmark for Scientific Document Representations. (arXiv:2211.13308v2 [cs.CL] UPDATED)
+    Large Language Models for User Interest Journeys. (arXiv:2305.15498v1 [cs.CL])
 
-    [http://arxiv.org/abs/2211.13308](http://arxiv.org/abs/2211.13308)
+    [http://arxiv.org/abs/2305.15498](http://arxiv.org/abs/2305.15498)
 
-    SciRepEval是第一个综合评估科学文献表示的全面基准，其中包括四种格式的 25 个任务。通过使用格式特定的控制代码和适配器，可以改进科学文献表示模型的泛化能力。
-
-    
-
-    学习的科学文献表示可以作为下游任务的有价值输入特征，无需进一步微调。然而，用于评估这些表示的现有基准未能捕捉到相关任务的多样性。为此，我们介绍了 SciRepEval，第一个用于训练和评估科学文献表示的全面基准。它包括四种格式的 25 个具有挑战性和现实性的任务，其中 11 个是新任务：分类、回归、排名和搜索。我们使用该基准来研究和改进科学文档表示模型的泛化能力。我们展示了最先进的模型如何在任务格式方面缺乏泛化性能，简单的多任务训练也不能改进它们。然而，一种新的方法，学习每个文档的多个嵌入，每个嵌入专门针对不同的格式，可以提高性能。我们尝试使用任务格式特定的控制代码和适配器。
-
-    Learned representations of scientific documents can serve as valuable input features for downstream tasks, without the need for further fine-tuning. However, existing benchmarks for evaluating these representations fail to capture the diversity of relevant tasks. In response, we introduce SciRepEval, the first comprehensive benchmark for training and evaluating scientific document representations. It includes 25 challenging and realistic tasks, 11 of which are new, across four formats: classification, regression, ranking and search. We then use the benchmark to study and improve the generalization ability of scientific document representation models. We show how state-of-the-art models struggle to generalize across task formats, and that simple multi-task training fails to improve them. However, a new approach that learns multiple embeddings per document, each tailored to a different format, can improve performance. We experiment with task-format-specific control codes and adapters in 
-    
-[^14]: 推荐系统的深度探索
-
-    Deep Exploration for Recommendation Systems. (arXiv:2109.12509v2 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2109.12509](http://arxiv.org/abs/2109.12509)
-
-    本文提出了一种深度探索方法以解决推荐系统中奖励稀少时的问题，并在高保真度的工业级模拟器下进行了实验，证明了该算法相比现有算法有很大的提升。
+    该论文提出了使用大型语言模型(LLMs)对用户兴趣进行建模的方法，并通过定义兴趣旅程，提出了一种模型旨在提高推荐的质量，并提供了可解释性和新颖性。
 
     
 
-    现代推荐系统应从延迟反馈中探索和学习。过去的研究往往侧重于从用户对单个推荐的响应中学习。这些工作利用了监督学习和强化学习的方法，但放弃了学习用户之后的行为。在过去的工作中，虽然致力于从随后的行为中学习，但缺乏有效的方法来引导并获取有意义的延迟反馈。当奖励较少时，通过引导探索有意义的延迟反馈变得特别具有挑战性。为了解决这个问题，我们为推荐系统开发了深度探索方法。具体而言，我们将推荐系统形式化为一个序列决策问题，并证明了深度探索方法在单步探索方面的优势。我们的实验是在高保真度的工业级模拟器下进行的，并且证明了该算法相比现有算法有很大的提升。
+    大型语言模型（LLMs）已经展示出在自然语言理解和生成方面的令人瞩目能力。然而，它们在更深入地理解用户和改善个性化推荐平台体验方面的潜力还远未被发挥。本文旨在填补这一空白。我们提出了使用LLMs对用户兴趣进行建模的方法，并定义了兴趣旅程作为用户基于他们的活动而遍历过的兴趣状态序列。我们的实验证明，相对于传统的用户表示方法，我们提出的方法可以提高推荐的质量，并且生成的兴趣旅程为推荐过程提供了可解释性和新颖性。
 
-    Modern recommendation systems ought to benefit by probing for and learning from delayed feedback. Research has tended to focus on learning from a user's response to a single recommendation. Such work, which leverages methods of supervised and bandit learning, forgoes learning from the user's subsequent behavior. Where past work has aimed to learn from subsequent behavior, there has been a lack of effective methods for probing to elicit informative delayed feedback. Effective exploration through probing for delayed feedback becomes particularly challenging when rewards are sparse. To address this, we develop deep exploration methods for recommendation systems. In particular, we formulate recommendation as a sequential decision problem and demonstrate benefits of deep exploration over single-step exploration. Our experiments are carried out with high-fidelity industrial-grade simulators and establish large improvements over existing algorithms.
+    Large language models (LLMs) have shown impressive capabilities in natural language understanding and generation. Their potential for deeper user understanding and improved personalized user experience on recommendation platforms is, however, largely untapped. This paper aims to address this gap. Recommender systems today capture users' interests through encoding their historical activities on the platforms. The generated user representations are hard to examine or interpret. On the other hand, if we were to ask people about interests they pursue in their life, they might talk about their hobbies, like I just started learning the ukulele, or their relaxation routines, e.g., I like to watch Saturday Night Live, or I want to plant a vertical garden. We argue, and demonstrate through extensive experiments, that LLMs as foundation models can reason through user activities, and describe their interests in nuanced and interesting ways, similar to how a human would.  We define interest journe
+    
+[^8]: 探索和利用推荐系统中的数据异质性
+
+    Exploring and Exploiting Data Heterogeneity in Recommendation. (arXiv:2305.15431v1 [cs.IR])
+
+    [http://arxiv.org/abs/2305.15431](http://arxiv.org/abs/2305.15431)
+
+    本文探讨了推荐系统中数据的异质性对模型性能的影响，提出了一种通过聚类和迁移学习的方法，很好地应对了异质性问题，实验结果表明其优于现有基准方法。
+
+    
+
+    大量的数据是数据驱动推荐模型的基础。数据异质性是大数据的内在特性，在现实推荐系统中广泛存在。它反映了子人口群体之间属性的差异。忽略推荐数据的异质性可能会限制推荐模型的性能，损害子人口的鲁棒性，并使模型误导数据偏见。然而，数据异质性在推荐界并没有受到足够的关注。因此，它激发我们充分探索和利用异质性来解决上述问题并辅助数据分析。在本文中，我们着重探讨了推荐数据中两类典型的异质性，即预测机制和协变量分布的异质性，并提出了一种通过双层聚类方法探索异质性的算法。此外，通过迁移学习机制利用了挖掘出来的异质性。在基准数据集上进行的实验表明，我们的方法优于现有的基准方法。
+
+    Massive amounts of data are the foundation of data-driven recommendation models. As an inherent nature of big data, data heterogeneity widely exists in real-world recommendation systems. It reflects the differences in the properties among sub-populations. Ignoring the heterogeneity in recommendation data could limit the performance of recommendation models, hurt the sub-populational robustness, and make the models misled by biases. However, data heterogeneity has not attracted substantial attention in the recommendation community. Therefore, it inspires us to adequately explore and exploit heterogeneity for solving the above problems and assisting data analysis. In this work, we focus on exploring two representative categories of heterogeneity in recommendation data that is the heterogeneity of prediction mechanism and covariate distribution and propose an algorithm that explores the heterogeneity through a bilevel clustering method. Furthermore, the uncovered heterogeneity is exploite
+    
+[^9]: 融合项目相关性的序列推荐系统训练损失函数
+
+    Integrating Item Relevance in Training Loss for Sequential Recommender Systems. (arXiv:2305.10824v1 [cs.IR])
+
+    [http://arxiv.org/abs/2305.10824](http://arxiv.org/abs/2305.10824)
+
+    本文提出了一种融合项目相关性的新型训练损失函数，用于提高序列推荐系统对噪声的鲁棒性和性能。
+
+    
+
+    序列推荐系统是一种受欢迎的推荐系统，它通过学习用户的历史数据来预测用户下一个可能与之交互的项目。然而，用户的交互可能会受到来自帐户共享、不一致的偏好或意外点击等噪声的影响。为了解决这个问题，我们（i）提出了一个考虑多个未来项目的新的评估协议，（ii）引入了一种新的关注相关性的损失函数，用于训练具有多个未来项目的序列推荐系统，以使其对噪声更加鲁棒。我们的关注相关性模型在传统评估协议中提高了NDCG@10约1.2%和HR约0.88%，而在新评估协议中，改进的NDCG@10约1.63%和HR约1.5%。
+
+    Sequential Recommender Systems (SRSs) are a popular type of recommender system that learns from a user's history to predict the next item they are likely to interact with. However, user interactions can be affected by noise stemming from account sharing, inconsistent preferences, or accidental clicks. To address this issue, we (i) propose a new evaluation protocol that takes multiple future items into account and (ii) introduce a novel relevance-aware loss function to train a SRS with multiple future items to make it more robust to noise. Our relevance-aware models obtain an improvement of ~1.2% of NDCG@10 and 0.88% in the traditional evaluation protocol, while in the new evaluation protocol, the improvement is ~1.63% of NDCG@10 and ~1.5% of HR w.r.t the best performing models.
+    
+[^10]: 使用大型语言模型在知识图谱上进行复杂逻辑推理
+
+    Complex Logical Reasoning over Knowledge Graphs using Large Language Models. (arXiv:2305.01157v1 [cs.LO])
+
+    [http://arxiv.org/abs/2305.01157](http://arxiv.org/abs/2305.01157)
+
+    本文提出了一种使用大型语言模型的解耦方法，将复杂的知识图谱推理形式化为上下文知识图搜索和抽象逻辑查询推理的组合，与现有方法相比，它在多个逻辑查询结构的标准基准数据集上都表现出更好的性能，并且在更高复杂性的查询中获得了显着的性能提升。
+
+    
+
+    在知识图谱上进行推理是一项具有挑战性的任务，它需要对实体之间的复杂关系以及它们之间的基础逻辑进行深入理解。当前的方法依赖于学习几何来嵌入实体的向量空间进行逻辑查询操作，但是它们在复杂查询和特定数据集表示方面表现不佳。本文提出了一种新颖的解耦方法，称为基于语言引导的知识图谱抽象推理（LARK），将复杂的知识图谱推理形式化为上下文知识图搜索和抽象逻辑查询推理的组合，以分别利用图形提取算法和大型语言模型的优势。我们的实验表明，所提出的方法在多个逻辑查询结构的标准基准数据集上优于现有的知识图谱推理方法，在更高复杂性的查询中获得了显着的性能提升。
+
+    Reasoning over knowledge graphs (KGs) is a challenging task that requires a deep understanding of the complex relationships between entities and the underlying logic of their relations. Current approaches rely on learning geometries to embed entities in vector space for logical query operations, but they suffer from subpar performance on complex queries and dataset-specific representations. In this paper, we propose a novel decoupled approach, Language-guided Abstract Reasoning over Knowledge graphs (LARK), that formulates complex KG reasoning as a combination of contextual KG search and abstract logical query reasoning, to leverage the strengths of graph extraction algorithms and large language models (LLM), respectively. Our experiments demonstrate that the proposed approach outperforms state-of-the-art KG reasoning methods on standard benchmark datasets across several logical query constructs, with significant performance gain for queries of higher complexity. Furthermore, we show t
+    
+[^11]: Aggretriever：一种简单的聚合文本表示方法，用于强大的密集式段落检索
+
+    Aggretriever: A Simple Approach to Aggregate Textual Representations for Robust Dense Passage Retrieval. (arXiv:2208.00511v2 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2208.00511](http://arxiv.org/abs/2208.00511)
+
+    这项工作提出了一种简单的方法，将预训练语言模型中的知识充分应用于密集式段落检索，称为Aggretriever，通过将上下文化的token嵌入聚合到密集向量中，相对于以前需要采用计算量昂贵的技术进行训练的DPR模型，Aggretriever不需引入实质性的训练开销，能显著提高在域内和零-shot评估中有效性。
+
+    
+
+    预训练语言模型在很多知识密集型NLP任务中取得了成功。然而，最近的研究表明，如BERT这样的模型在将文本信息聚合成[CLS]向量以进行密集式段落检索（DPR）时并不是“结构上准备好的”。这种“准备不足”是由语言模型预训练和DPR微调之间的差距造成的。以前的解决方案要求使用计算量昂贵的技术，如硬负采样、交叉编码器蒸馏和更进一步的预训练来学习强大的DPR模型。在这项工作中，我们建议通过聚合上下文化的token嵌入到一个密集向量中，充分利用预训练语言模型在DPR中的知识，我们将其称为agg*。通过将来自[CLS] token和agg*的向量进行串联，我们的Aggretriever模型在不引入实质性的训练开销的情况下，显著提高了密集式检索模型在域内和零-shot评估中的有效性。可在h上获取代码。
+
+    Pre-trained language models have been successful in many knowledge-intensive NLP tasks. However, recent work has shown that models such as BERT are not ``structurally ready'' to aggregate textual information into a [CLS] vector for dense passage retrieval (DPR). This ``lack of readiness'' results from the gap between language model pre-training and DPR fine-tuning. Previous solutions call for computationally expensive techniques such as hard negative mining, cross-encoder distillation, and further pre-training to learn a robust DPR model. In this work, we instead propose to fully exploit knowledge in a pre-trained language model for DPR by aggregating the contextualized token embeddings into a dense vector, which we call agg*. By concatenating vectors from the [CLS] token and agg*, our Aggretriever model substantially improves the effectiveness of dense retrieval models on both in-domain and zero-shot evaluations without introducing substantial training overhead. Code is available at h
+    
+[^12]: 科学发现的计算变革
+
+    A Computational Inflection for Scientific Discovery. (arXiv:2205.02007v2 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2205.02007](http://arxiv.org/abs/2205.02007)
+
+    本文介绍了一种计算变革的框架，利用最新的人工智能技术来增强科学发现和交流。这个框架有很多应用场景，作者提供了一个原型系统的初始实现，并探讨了未来研究和发展方向。
+
+    
+
+    我们正站在科学发现轨迹上一个重要的拐点上。随着社会的快速数字化转型，人类的科学知识和交流也在数字化的形式下不断增长。我们现在阅读和撰写的论文、预印本、书籍、代码、数据集、会议演示稿以及社交网络和协作和沟通平台上的交互等，大多已经以数字化的方式记录。这种转变导致了大量信息的创造和增长——其中很多已经可供公众获取——为分析和利用其的计算模型和系统开启了令人激动的机遇。与此同时，数据处理能力的指数增长推动了人工智能的显著进步，包括能够从非结构化文本中学习强大表示的大型神经语言模型。然而，需要进行重大改变，以在科学知识和交流的更大生态系统中有效整合这些进展，创建一种新的统一的科学交流范式。本文介绍了一种科学发现的计算变革——利用人工智能的最新进展，增强科学发现和交流的统一框架。我们展示了这个框架的潜力，提供了一个原型系统的初始实现，并讨论了未来的研究和发展方向。
+
+    We stand at the foot of a significant inflection in the trajectory of scientific discovery. As society continues on its fast-paced digital transformation, so does humankind's collective scientific knowledge and discourse. We now read and write papers in digitized form, and a great deal of the formal and informal processes of science are captured digitally -including papers, preprints and books, code and datasets, conference presentations, and interactions in social networks and collaboration and communication platforms. The transition has led to the creation and growth of a tremendous amount of information -- much of which is available for public access -- opening exciting opportunities for computational models and systems that analyze and harness it. In parallel, exponential growth in data processing power has fueled remarkable advances in artificial intelligence, including large neural language models capable of learning powerful representations from unstructured text. Dramatic cha
+    
+[^13]: Atrapos: 元路径查询工作负载的实时评估
+
+    Atrapos: Real-time Evaluation of Metapath Query Workloads. (arXiv:2201.04058v2 [cs.DB] UPDATED)
+
+    [http://arxiv.org/abs/2201.04058](http://arxiv.org/abs/2201.04058)
+
+    ATRapos是一种实时评估元路径查询工作负载的方法，它利用了高效稀疏矩阵乘法和中间结果缓存的组合，在使用定制的数据结构来检测查询之间的频繁子元路径来选择要缓存和重用的中间结果。实验结果表明，ATRapos可以加速探索性数据分析。
+
+    
+
+    异构信息网络（HIN）表示不同类型的实体及其之间的关系。探索、分析和提取这样的网络中的知识依赖于元路径查询，这些查询识别由多样的语义关系连接的实体对。然而，对于大规模的网络，实时评估元路径查询工作负载的计算成本非常高，当前的方法也没有利用查询之间的相互关系。在本文中，我们提出了一种名为 ATRAPOS 的新方法，用于实时评估元路径查询工作负载，该方法利用了高效稀疏矩阵乘法和中间结果缓存的组合。ATRAPOS 通过使用定制的数据结构——重叠树和相关的缓存策略，在实时检测到工作负载查询之间的频繁子元路径来选择要缓存和重用的中间结果。我们在真实数据上的实验研究表明，ATRAPOS 加速了探索性数据分析。
+
+    Heterogeneous information networks (HINs) represent different types of entities and relationships between them. Exploring, analysing, and extracting knowledge from such networks relies on metapath queries that identify pairs of entities connected by relationships of diverse semantics. While the real-time evaluation of metapath query workloads on large, web-scale HINs is highly demanding in computational cost, current approaches do not exploit interrelationships among the queries. In this paper, we present ATRAPOS, a new approach for the real-time evaluation of metapath query workloads that leverages a combination of efficient sparse matrix multiplication and intermediate result caching. ATRAPOS selects intermediate results to cache and reuse by detecting frequent sub-metapaths among workload queries in real time, using a tailor-made data structure, the Overlap Tree, and an associated caching policy. Our experimental study on real data shows that ATRAPOS accelerates exploratory data ana
     
 

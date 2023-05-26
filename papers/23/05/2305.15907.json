@@ -1,0 +1,12 @@
+{
+    "title": "Double Descent of Discrepancy: A Task-, Data-, and Model-Agnostic Phenomenon. (arXiv:2305.15907v1 [cs.LG])",
+    "abstract": "In this paper, we studied two identically-trained neural networks (i.e. networks with the same architecture, trained on the same dataset using the same algorithm, but with different initialization) and found that their outputs discrepancy on the training dataset exhibits a \"double descent\" phenomenon. We demonstrated through extensive experiments across various tasks, datasets, and network architectures that this phenomenon is prevalent. Leveraging this phenomenon, we proposed a new early stopping criterion and developed a new method for data quality assessment. Our results show that a phenomenon-driven approach can benefit deep learning research both in theoretical understanding and practical applications.",
+    "link": "http://arxiv.org/abs/2305.15907",
+    "context": "Title: Double Descent of Discrepancy: A Task-, Data-, and Model-Agnostic Phenomenon. (arXiv:2305.15907v1 [cs.LG])\nAbstract: In this paper, we studied two identically-trained neural networks (i.e. networks with the same architecture, trained on the same dataset using the same algorithm, but with different initialization) and found that their outputs discrepancy on the training dataset exhibits a \"double descent\" phenomenon. We demonstrated through extensive experiments across various tasks, datasets, and network architectures that this phenomenon is prevalent. Leveraging this phenomenon, we proposed a new early stopping criterion and developed a new method for data quality assessment. Our results show that a phenomenon-driven approach can benefit deep learning research both in theoretical understanding and practical applications.",
+    "path": "papers/23/05/2305.15907.json",
+    "total_tokens": 745,
+    "translated_title": "双重降维现象的偏差：一个任务、数据和模型无关的现象",
+    "translated_abstract": "本文研究了两个完全相同的神经网络（即使用相同算法在相同数据集上训练，并具有相同架构但是初始化不同），并发现它们在训练数据集上的输出差异呈现出“双重降维”现象。我们通过在各种任务、数据集和网络架构上进行广泛实验表明，这个现象普遍存在。利用这个现象，我们提出了一个新的早停止准则，并开发了一种新方法来评估数据质量。我们的研究结果表明，基于现象的方法可以在理论理解和实际应用方面受益于深度学习研究。",
+    "tldr": "本文研究发现两个完全相同的神经网络在训练数据集上的输出差异呈现出“双重降维”现象，提出了新的早停止准则与数据质量评估方法。",
+    "en_tdlr": "This paper discovers the \"double descent\" phenomenon in the output discrepancy of two identically-trained neural networks and proposes a new early stopping criterion and data quality assessment method, which contributes to theoretical understanding and practical applications in deep learning research."
+}

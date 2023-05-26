@@ -1,0 +1,12 @@
+{
+    "title": "How many samples are needed to leverage smoothness?. (arXiv:2305.16014v1 [stat.ML])",
+    "abstract": "A core principle in statistical learning is that smoothness of target functions allows to break the curse of dimensionality. However, learning a smooth function through Taylor expansions requires enough samples close to one another to get meaningful estimate of high-order derivatives, which seems hard in machine learning problems where the ratio between number of data and input dimension is relatively small. Should we really hope to break the curse of dimensionality based on Taylor expansion estimation? What happens if Taylor expansions are replaced by Fourier or wavelet expansions? By deriving a new lower bound on the generalization error, this paper investigates the role of constants and transitory regimes which are usually not depicted beyond classical learning theory statements while that play a dominant role in practice.",
+    "link": "http://arxiv.org/abs/2305.16014",
+    "context": "Title: How many samples are needed to leverage smoothness?. (arXiv:2305.16014v1 [stat.ML])\nAbstract: A core principle in statistical learning is that smoothness of target functions allows to break the curse of dimensionality. However, learning a smooth function through Taylor expansions requires enough samples close to one another to get meaningful estimate of high-order derivatives, which seems hard in machine learning problems where the ratio between number of data and input dimension is relatively small. Should we really hope to break the curse of dimensionality based on Taylor expansion estimation? What happens if Taylor expansions are replaced by Fourier or wavelet expansions? By deriving a new lower bound on the generalization error, this paper investigates the role of constants and transitory regimes which are usually not depicted beyond classical learning theory statements while that play a dominant role in practice.",
+    "path": "papers/23/05/2305.16014.json",
+    "total_tokens": 678,
+    "translated_title": "当前机器学习需要多少样本才能利用平滑性？",
+    "translated_abstract": "统计学习的核心原则之一是，目标函数的平滑性可以打破维度灾难。然而，通过泰勒展开学习平滑函数需要足够接近一起的样本来获得高阶导数的有意义估计，这在数据量相对较小的机器学习问题中似乎很困难。本文通过推导广义泛化误差的新的下界，研究了常数和瞬态区域在实践中通常被忽略却发挥了主导作用的问题。",
+    "tldr": "本文通过研究泛化误差的新下界，探讨了学习平滑函数时需要的样本数量及其机器学习问题中的挑战。",
+    "en_tdlr": "This paper investigates the required number of samples for learning smooth functions and the challenges in machine learning problems by deriving a new lower bound on the generalization error."
+}

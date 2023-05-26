@@ -1,0 +1,12 @@
+{
+    "title": "Score-Based Multimodal Autoencoders. (arXiv:2305.15708v1 [cs.LG])",
+    "abstract": "Multimodal Variational Autoencoders (VAEs) represent a promising group of generative models that facilitate the construction of a tractable posterior within the latent space, given multiple modalities. Daunhawer et al. (2022) demonstrate that as the number of modalities increases, the generative quality of each modality declines. In this study, we explore an alternative approach to enhance the generative performance of multimodal VAEs by jointly modeling the latent space of unimodal VAEs using score-based models (SBMs). The role of the SBM is to enforce multimodal coherence by learning the correlation among the latent variables. Consequently, our model combines the superior generative quality of unimodal VAEs with coherent integration across different modalities.",
+    "link": "http://arxiv.org/abs/2305.15708",
+    "context": "Title: Score-Based Multimodal Autoencoders. (arXiv:2305.15708v1 [cs.LG])\nAbstract: Multimodal Variational Autoencoders (VAEs) represent a promising group of generative models that facilitate the construction of a tractable posterior within the latent space, given multiple modalities. Daunhawer et al. (2022) demonstrate that as the number of modalities increases, the generative quality of each modality declines. In this study, we explore an alternative approach to enhance the generative performance of multimodal VAEs by jointly modeling the latent space of unimodal VAEs using score-based models (SBMs). The role of the SBM is to enforce multimodal coherence by learning the correlation among the latent variables. Consequently, our model combines the superior generative quality of unimodal VAEs with coherent integration across different modalities.",
+    "path": "papers/23/05/2305.15708.json",
+    "total_tokens": 761,
+    "translated_title": "基于分数的多模态自编码器",
+    "translated_abstract": "多模态变分自编码器是一类能够在潜在空间中构建可处理后验的有前途的生成模型，特别适用于多种模态的数据。但随着模态数量的增加，每一个模态的生成质量都会降低。本文提出了一种新的方法，通过使用基于分数的模型联合建模单模态VAE的潜在空间，以增强多模态VAE的生成性能。分数模型的作用是通过学习潜在变量之间的相关性来实现多模态的一致性。因此，我们的模型结合了单模态VAE卓越的生成质量和对不同模态的一致性整合。",
+    "tldr": "本文提出了一种基于分数模型的多模态自编码器，通过联合建模单模态VAE的潜在空间实现了对多模态数据的一致性整合，提高了多模态VAE的生成性能。",
+    "en_tdlr": "This paper proposes a score-based multimodal autoencoder that enhances the coherence of multimodal data by jointly modeling the latent space of unimodal VAEs. It combines the superior generative quality of unimodal VAEs with coherent integration across different modalities."
+}

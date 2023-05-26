@@ -1,0 +1,12 @@
+{
+    "title": "A Continuous Convolutional Trainable Filter for Modelling Unstructured Data. (arXiv:2210.13416v3 [cs.LG] UPDATED)",
+    "abstract": "Convolutional Neural Network (CNN) is one of the most important architectures in deep learning. The fundamental building block of a CNN is a trainable filter, represented as a discrete grid, used to perform convolution on discrete input data. In this work, we propose a continuous version of a trainable convolutional filter able to work also with unstructured data. This new framework allows exploring CNNs beyond discrete domains, enlarging the usage of this important learning technique for many more complex problems. Our experiments show that the continuous filter can achieve a level of accuracy comparable to the state-of-the-art discrete filter, and that it can be used in current deep learning architectures as a building block to solve problems with unstructured domains as well.",
+    "link": "http://arxiv.org/abs/2210.13416",
+    "context": "Title: A Continuous Convolutional Trainable Filter for Modelling Unstructured Data. (arXiv:2210.13416v3 [cs.LG] UPDATED)\nAbstract: Convolutional Neural Network (CNN) is one of the most important architectures in deep learning. The fundamental building block of a CNN is a trainable filter, represented as a discrete grid, used to perform convolution on discrete input data. In this work, we propose a continuous version of a trainable convolutional filter able to work also with unstructured data. This new framework allows exploring CNNs beyond discrete domains, enlarging the usage of this important learning technique for many more complex problems. Our experiments show that the continuous filter can achieve a level of accuracy comparable to the state-of-the-art discrete filter, and that it can be used in current deep learning architectures as a building block to solve problems with unstructured domains as well.",
+    "path": "papers/22/10/2210.13416.json",
+    "total_tokens": 778,
+    "translated_title": "一种用于建模非结构化数据的可训练连续卷积滤波器",
+    "translated_abstract": "卷积神经网络（CNN）是深度学习中最重要的架构之一。CNN的基本构建块是可训练滤波器，表示为离散网格，在离散输入数据上执行卷积。在本文中，我们提出了一种连续版本的可训练卷积滤波器，能够处理非结构化数据。这个新的框架允许探索CNN在离散域之外的更广泛应用，为许多更复杂的问题提供重要的学习技术。我们的实验证明，连续滤波器的准确度可以与最先进的离散滤波器相媲美，它可以作为一个构建块用于当前深度学习架构来解决非结构化域的问题。",
+    "tldr": "本文提出了一种连续版本的可训练卷积滤波器，能够在非结构化数据上执行卷积，可以让CNN用于更广泛、更复杂的问题。",
+    "en_tdlr": "This paper proposes a continuous version of a trainable convolutional filter that can work with unstructured data, making CNN applicable to a wider range of more complex problems."
+}

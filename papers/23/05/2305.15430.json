@@ -1,0 +1,12 @@
+{
+    "title": "Bounded Projection Matrix Approximation with Applications to Community Detection. (arXiv:2305.15430v1 [cs.SI])",
+    "abstract": "Community detection is an important problem in unsupervised learning. This paper proposes to solve a projection matrix approximation problem with an additional entrywise bounded constraint. Algorithmically, we introduce a new differentiable convex penalty and derive an alternating direction method of multipliers (ADMM) algorithm. Theoretically, we establish the convergence properties of the proposed algorithm. Numerical experiments demonstrate the superiority of our algorithm over its competitors, such as the semi-definite relaxation method and spectral clustering.",
+    "link": "http://arxiv.org/abs/2305.15430",
+    "context": "Title: Bounded Projection Matrix Approximation with Applications to Community Detection. (arXiv:2305.15430v1 [cs.SI])\nAbstract: Community detection is an important problem in unsupervised learning. This paper proposes to solve a projection matrix approximation problem with an additional entrywise bounded constraint. Algorithmically, we introduce a new differentiable convex penalty and derive an alternating direction method of multipliers (ADMM) algorithm. Theoretically, we establish the convergence properties of the proposed algorithm. Numerical experiments demonstrate the superiority of our algorithm over its competitors, such as the semi-definite relaxation method and spectral clustering.",
+    "path": "papers/23/05/2305.15430.json",
+    "total_tokens": 631,
+    "translated_title": "带界投影矩阵逼近及其在社区检测中的应用",
+    "translated_abstract": "社区检测是无监督学习中一个重要的问题。本文提出了解决带有额外入口有界约束的投影矩阵逼近问题的方法。算法上，我们引入了一个新的可微凸奖励，并推导出了一种交替方向乘子法（ADMM）算法。理论上，我们建立了所提出算法的收敛性质。数值实验展示了我们的算法在半定松弛和谱聚类等竞争方法中的优越性。",
+    "tldr": "本文提出了一种解决带有额外入口有界约束的投影矩阵逼近问题的方法，并实验表明在社区检测方面具有更好的表现。",
+    "en_tdlr": "This paper proposes a method for solving the projection matrix approximation problem with an additional entrywise bounded constraint, which outperforms other methods in community detection according to numerical experiments."
+}

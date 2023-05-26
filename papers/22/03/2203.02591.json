@@ -1,0 +1,12 @@
+{
+    "title": "A Small Gain Analysis of Single Timescale Actor Critic. (arXiv:2203.02591v4 [math.OC] UPDATED)",
+    "abstract": "We consider a version of actor-critic which uses proportional step-sizes and only one critic update with a single sample from the stationary distribution per actor step. We provide an analysis of this method using the small-gain theorem. Specifically, we prove that this method can be used to find a stationary point, and that the resulting sample complexity improves the state of the art for actor-critic methods to $O \\left(\\mu^{-2} \\epsilon^{-2} \\right)$ to find an $\\epsilon$-approximate stationary point where $\\mu$ is the condition number associated with the critic.",
+    "link": "http://arxiv.org/abs/2203.02591",
+    "context": "Title: A Small Gain Analysis of Single Timescale Actor Critic. (arXiv:2203.02591v4 [math.OC] UPDATED)\nAbstract: We consider a version of actor-critic which uses proportional step-sizes and only one critic update with a single sample from the stationary distribution per actor step. We provide an analysis of this method using the small-gain theorem. Specifically, we prove that this method can be used to find a stationary point, and that the resulting sample complexity improves the state of the art for actor-critic methods to $O \\left(\\mu^{-2} \\epsilon^{-2} \\right)$ to find an $\\epsilon$-approximate stationary point where $\\mu$ is the condition number associated with the critic.",
+    "path": "papers/22/03/2203.02591.json",
+    "total_tokens": 656,
+    "translated_title": "单时间尺度Actor Critic的小增益分析",
+    "translated_abstract": "我们考虑了一种使用比例步长和每个Actor步骤从稳定分布中选择一个样本进行单个Critic更新的Actor-Critic版本。我们使用小增益定理对该方法进行分析。具体来说，我们证明了这种方法可以用于找到一个稳定点，并且得到的样本复杂度将演员-评论家方法的技术水平提高到了$O(\\mu^{-2}\\epsilon^{-2})$，即查找一个$\\epsilon$-近似稳定点，其中$\\mu$是与评论家相关的条件数。",
+    "tldr": "该论文分析了一种使用单时间尺度Actor Critic方法，通过小增益定理证明了该方法可以有效地找到一个稳定点，并且其样本复杂度已经达到了最佳水平。",
+    "en_tdlr": "This paper analyzes a single timescale Actor Critic method and proves through the small-gain theorem that it can effectively find a stationary point, and its sample complexity has reached the optimal level."
+}

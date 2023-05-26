@@ -1,0 +1,12 @@
+{
+    "title": "Transformer models: an introduction and catalog. (arXiv:2302.07730v3 [cs.CL] UPDATED)",
+    "abstract": "In the past few years we have seen the meteoric appearance of dozens of foundation models of the Transformer family, all of which have memorable and sometimes funny, but not self-explanatory, names. The goal of this paper is to offer a somewhat comprehensive but simple catalog and classification of the most popular Transformer models. The paper also includes an introduction to the most important aspects and innovations in Transformer models. Our catalog will include models that are trained using self-supervised learning (e.g., BERT or GPT3) as well as those that are further trained using a human-in-the-loop (e.g. the InstructGPT model used by ChatGPT).",
+    "link": "http://arxiv.org/abs/2302.07730",
+    "context": "Title: Transformer models: an introduction and catalog. (arXiv:2302.07730v3 [cs.CL] UPDATED)\nAbstract: In the past few years we have seen the meteoric appearance of dozens of foundation models of the Transformer family, all of which have memorable and sometimes funny, but not self-explanatory, names. The goal of this paper is to offer a somewhat comprehensive but simple catalog and classification of the most popular Transformer models. The paper also includes an introduction to the most important aspects and innovations in Transformer models. Our catalog will include models that are trained using self-supervised learning (e.g., BERT or GPT3) as well as those that are further trained using a human-in-the-loop (e.g. the InstructGPT model used by ChatGPT).",
+    "path": "papers/23/02/2302.07730.json",
+    "total_tokens": 695,
+    "translated_title": "Transformer模型：介绍与目录",
+    "translated_abstract": "近年来，Transformer系列的基础模型如雨后春笋般涌现出来，它们中有些具有令人难忘的、有时甚至滑稽有趣但却不具自解释性的名称。本文旨在提供一个相对全面但简单的Transformer模型目录和分类，并介绍Transformer模型中最重要的方面和创新。目录中的模型包括通过自监督学习进行训练（例如BERT或GPT3）的模型，以及进一步通过人类参与训练（例如ChatGPT使用的InstructGPT模型）的模型。",
+    "tldr": "本论文介绍与分类了Transformer模型系列中最流行的模型，包括基于自监督学习和人类参与训练的模型，并对其中创新性的方面做了介绍。",
+    "en_tdlr": "This paper presents a comprehensive catalog and classification of the most popular models in the Transformer family, including those trained using self-supervised learning and those further trained with human-in-the-loop, and introduces the most important aspects and innovations in Transformer models."
+}

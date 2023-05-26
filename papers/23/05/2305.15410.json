@@ -1,0 +1,12 @@
+{
+    "title": "Machine learning-assisted close-set X-ray diffraction phase identification of transition metals. (arXiv:2305.15410v1 [cond-mat.mtrl-sci])",
+    "abstract": "Machine learning has been applied to the problem of X-ray diffraction phase prediction with promising results. In this paper, we describe a method for using machine learning to predict crystal structure phases from X-ray diffraction data of transition metals and their oxides. We evaluate the performance of our method and compare the variety of its settings. Our results demonstrate that the proposed machine learning framework achieves competitive performance. This demonstrates the potential for machine learning to significantly impact the field of X-ray diffraction and crystal structure determination. Open-source implementation: https://github.com/maxnygma/NeuralXRD.",
+    "link": "http://arxiv.org/abs/2305.15410",
+    "context": "Title: Machine learning-assisted close-set X-ray diffraction phase identification of transition metals. (arXiv:2305.15410v1 [cond-mat.mtrl-sci])\nAbstract: Machine learning has been applied to the problem of X-ray diffraction phase prediction with promising results. In this paper, we describe a method for using machine learning to predict crystal structure phases from X-ray diffraction data of transition metals and their oxides. We evaluate the performance of our method and compare the variety of its settings. Our results demonstrate that the proposed machine learning framework achieves competitive performance. This demonstrates the potential for machine learning to significantly impact the field of X-ray diffraction and crystal structure determination. Open-source implementation: https://github.com/maxnygma/NeuralXRD.",
+    "path": "papers/23/05/2305.15410.json",
+    "total_tokens": 771,
+    "translated_title": "机器学习辅助的过渡金属X射线衍射相识别",
+    "translated_abstract": "机器学习被应用于X射线衍射相预测问题，并取得了良好的结果。在本文中，我们描述了一种使用机器学习从过渡金属及其氧化物的X射线衍射数据中预测晶体结构相的方法。我们评估了我们的方法的性能，并比较了其多种设置下的性能。结果表明，所提出的机器学习框架实现了竞争性能。这证明了机器学习对X射线衍射和晶体结构确定领域的潜在影响。开源实现：https://github.com/maxnygma/NeuralXRD.",
+    "tldr": "本文探究了如何利用机器学习从过渡金属及其氧化物的X射线衍射数据中预测晶体结构相，提出的机器学习框架实现了竞争性能，表明了机器学习对X射线衍射和晶体结构确定领域的潜在影响。",
+    "en_tdlr": "This paper explores how to use machine learning to predict crystal structure phases from X-ray diffraction data of transition metals and their oxides and demonstrates the potential for machine learning to significantly impact the field of X-ray diffraction and crystal structure determination."
+}

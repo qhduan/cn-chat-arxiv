@@ -1,0 +1,12 @@
+{
+    "title": "Deep Equivariant Hyperspheres. (arXiv:2305.15613v1 [cs.LG])",
+    "abstract": "This paper presents an approach to learning nD features equivariant under orthogonal transformations for point cloud analysis, utilizing hyperspheres and regular n-simplexes. Our main contributions are theoretical and tackle major issues in geometric deep learning such as equivariance and invariance under geometric transformations. Namely, we enrich the recently developed theory of steerable 3D spherical neurons -- SO(3)-equivariant filter banks based on neurons with spherical decision surfaces -- by extending said neurons to nD, which we call deep equivariant hyperspheres, and enabling their stacking in multiple layers. Using the ModelNet40 benchmark, we experimentally verify our theoretical contributions and show a potential practical configuration of the proposed equivariant hyperspheres.",
+    "link": "http://arxiv.org/abs/2305.15613",
+    "context": "Title: Deep Equivariant Hyperspheres. (arXiv:2305.15613v1 [cs.LG])\nAbstract: This paper presents an approach to learning nD features equivariant under orthogonal transformations for point cloud analysis, utilizing hyperspheres and regular n-simplexes. Our main contributions are theoretical and tackle major issues in geometric deep learning such as equivariance and invariance under geometric transformations. Namely, we enrich the recently developed theory of steerable 3D spherical neurons -- SO(3)-equivariant filter banks based on neurons with spherical decision surfaces -- by extending said neurons to nD, which we call deep equivariant hyperspheres, and enabling their stacking in multiple layers. Using the ModelNet40 benchmark, we experimentally verify our theoretical contributions and show a potential practical configuration of the proposed equivariant hyperspheres.",
+    "path": "papers/23/05/2305.15613.json",
+    "total_tokens": 726,
+    "translated_title": "深度等变超球体",
+    "translated_abstract": "本文提出了一种学习nD特征的方法，其在点云分析中等变于正交转换，利用了超球体和常规n单形体。我们的主要贡献在于理论方面，解决了几何深度学习中等变和几何变换下不变的重大问题。我们扩展了近期发展的可操纵3D球形神经元理论--基于球形决策面的SO（3）-等变滤波器组，将该神经元扩展到了nD，我们称之为深度等变超球体，并使它们能够堆叠在多层中。利用ModelNet40基准测试，我们实验验证了我们的理论贡献，并展示了所提出的等变超球体的潜在实用配置。",
+    "tldr": "本文提出了深度等变超球体的理论模型，解决了几何深度学习中等变和几何变换下不变的重大问题。",
+    "en_tdlr": "This paper proposes a theoretical model of deep equivariant hyperspheres, addressing major issues in geometric deep learning such as equivariance and invariance under geometric transformations."
+}

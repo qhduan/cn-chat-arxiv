@@ -1,0 +1,12 @@
+{
+    "title": "On the Identifiability of Markov Switching Models. (arXiv:2305.15925v1 [stat.ML])",
+    "abstract": "Identifiability of latent variable models has recently gained interest in terms of its applications to interpretability or out of distribution generalisation. In this work, we study identifiability of Markov Switching Models as a first step towards extending recent results to sequential latent variable models. We present identifiability conditions within first-order Markov dependency structures, and parametrise the transition distribution via non-linear Gaussians. Our experiments showcase the applicability of our approach for regime-dependent causal discovery and high-dimensional time series segmentation.",
+    "link": "http://arxiv.org/abs/2305.15925",
+    "context": "Title: On the Identifiability of Markov Switching Models. (arXiv:2305.15925v1 [stat.ML])\nAbstract: Identifiability of latent variable models has recently gained interest in terms of its applications to interpretability or out of distribution generalisation. In this work, we study identifiability of Markov Switching Models as a first step towards extending recent results to sequential latent variable models. We present identifiability conditions within first-order Markov dependency structures, and parametrise the transition distribution via non-linear Gaussians. Our experiments showcase the applicability of our approach for regime-dependent causal discovery and high-dimensional time series segmentation.",
+    "path": "papers/23/05/2305.15925.json",
+    "total_tokens": 722,
+    "translated_title": "关于马尔科夫转换模型的可辨识性研究",
+    "translated_abstract": "最近，潜变量模型的可辨识性因其在可解释性或分布泛化方面的应用而备受关注。本文探讨了作为将最近的结果扩展到序列潜变量模型的第一步的马尔科夫转换模型的可辨识性。我们在第一阶段马尔科夫依赖结构中提出了可辨识性条件，并通过非线性高斯参数化迁移分布。我们的实验展示了我们方法在依赖于政权的因果发现和高维时间序列分割方面的适用性。",
+    "tldr": "本文研究了马尔科夫转换模型的可辨识性，通过非线性高斯参数化迁移分布实现第一阶段马尔科夫依赖结构中的可辨识性条件。该方法适用于依赖于政权的因果发现和高维时间序列分割。",
+    "en_tdlr": "This paper studies the identifiability of Markov Switching Models and presents identifiability conditions within first-order Markov dependency structures using non-linear Gaussians to parametrize the transition distribution. This approach has potential applications for regime-dependent causal discovery and high-dimensional time series segmentation."
+}

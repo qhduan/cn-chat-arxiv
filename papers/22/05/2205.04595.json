@@ -1,0 +1,12 @@
+{
+    "title": "Neural Optimal Stopping Boundary. (arXiv:2205.04595v2 [q-fin.PR] UPDATED)",
+    "abstract": "A method based on deep artificial neural networks and empirical risk minimization is developed to calculate the boundary separating the stopping and continuation regions in optimal stopping. The algorithm parameterizes the stopping boundary as the graph of a function and introduces relaxed stopping rules based on fuzzy boundaries to facilitate efficient optimization. Several financial instruments, some in high dimensions, are analyzed through this method, demonstrating its effectiveness. The existence of the stopping boundary is also proved under natural structural assumptions.",
+    "link": "http://arxiv.org/abs/2205.04595",
+    "context": "Title: Neural Optimal Stopping Boundary. (arXiv:2205.04595v2 [q-fin.PR] UPDATED)\nAbstract: A method based on deep artificial neural networks and empirical risk minimization is developed to calculate the boundary separating the stopping and continuation regions in optimal stopping. The algorithm parameterizes the stopping boundary as the graph of a function and introduces relaxed stopping rules based on fuzzy boundaries to facilitate efficient optimization. Several financial instruments, some in high dimensions, are analyzed through this method, demonstrating its effectiveness. The existence of the stopping boundary is also proved under natural structural assumptions.",
+    "path": "papers/22/05/2205.04595.json",
+    "total_tokens": 623,
+    "translated_title": "神经网络最优停止边界",
+    "translated_abstract": "本文提出了一种基于深度人工神经网络和经验风险最小化的方法，用于计算最优停止问题中分隔停止和继续区域的边界。该算法将停止边界参数化为函数的图形，并引入基于模糊边界的松弛停止规则，以便进行高效优化。通过该方法分析了几种金融工具，其中一些是高维的，证明了其有效性。在自然结构假设下还证明了停止边界的存在。",
+    "tldr": "本文提出了一种基于深度神经网络和经验风险最小化的方法，用于求解最优停止问题，并在多个金融工具中证明了其有效性和停止边界的存在。",
+    "en_tdlr": "This paper proposes a method based on deep artificial neural networks and empirical risk minimization to solve optimal stopping problems, and demonstrates its effectiveness and the existence of stopping boundaries in multiple financial instruments."
+}

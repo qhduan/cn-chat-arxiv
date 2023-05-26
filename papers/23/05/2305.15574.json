@@ -1,0 +1,12 @@
+{
+    "title": "Deep Stochastic Processes via Functional Markov Transition Operators. (arXiv:2305.15574v1 [stat.ML])",
+    "abstract": "We introduce Markov Neural Processes (MNPs), a new class of Stochastic Processes (SPs) which are constructed by stacking sequences of neural parameterised Markov transition operators in function space. We prove that these Markov transition operators can preserve the exchangeability and consistency of SPs. Therefore, the proposed iterative construction adds substantial flexibility and expressivity to the original framework of Neural Processes (NPs) without compromising consistency or adding restrictions. Our experiments demonstrate clear advantages of MNPs over baseline models on a variety of tasks.",
+    "link": "http://arxiv.org/abs/2305.15574",
+    "context": "Title: Deep Stochastic Processes via Functional Markov Transition Operators. (arXiv:2305.15574v1 [stat.ML])\nAbstract: We introduce Markov Neural Processes (MNPs), a new class of Stochastic Processes (SPs) which are constructed by stacking sequences of neural parameterised Markov transition operators in function space. We prove that these Markov transition operators can preserve the exchangeability and consistency of SPs. Therefore, the proposed iterative construction adds substantial flexibility and expressivity to the original framework of Neural Processes (NPs) without compromising consistency or adding restrictions. Our experiments demonstrate clear advantages of MNPs over baseline models on a variety of tasks.",
+    "path": "papers/23/05/2305.15574.json",
+    "total_tokens": 763,
+    "translated_title": "基于功能马尔科夫转移算子的深度随机过程",
+    "translated_abstract": "我们引入了一种新的随机过程类别称为马尔科夫神经过程(MNPs)，这种随机过程通过在函数空间中堆叠神经参数化的马尔科夫转移算子构建。我们证明这些马尔科夫转移算子可以保持随机过程的可交换性和一致性。因此，在不妨碍一致性或添加限制的情况下，提出的迭代构建为神经过程(NPs)的原始框架增加了实质性的灵活性和表现力。我们的实验说明MNPs在各种任务中比基准模型具有明显的优势。",
+    "tldr": "基于马尔科夫转移算子的神经随机过程MNPs，通过在函数空间中堆叠神经参数化的算子构建，不影响一致性或添加限制，提供了更大的灵活性和表现力。在实验中MNPs表现出优异的性能。",
+    "en_tdlr": "Markov Neural Processes (MNPs) are introduced as a new class of Stochastic Processes (SPs), which are constructed by stacking sequences of neural parameterised Markov transition operators in function space. The proposed iterative construction adds substantial flexibility and expressivity to the original framework of Neural Processes (NPs) without compromising consistency or adding restrictions. Our experiments demonstrate clear advantages of MNPs over baseline models on a variety of tasks."
+}

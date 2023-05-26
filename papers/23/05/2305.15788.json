@@ -1,0 +1,11 @@
+{
+    "title": "Service Composition in the ChatGPT Era. (arXiv:2305.15788v1 [cs.SE])",
+    "abstract": "The paper speculates about how ChatGPT-like systems can support the field of automated service composition and identifies new research areas to explore in order to take advantage of such tools in the field of service-oriented composition.",
+    "link": "http://arxiv.org/abs/2305.15788",
+    "context": "Title: Service Composition in the ChatGPT Era. (arXiv:2305.15788v1 [cs.SE])\nAbstract: The paper speculates about how ChatGPT-like systems can support the field of automated service composition and identifies new research areas to explore in order to take advantage of such tools in the field of service-oriented composition.",
+    "path": "papers/23/05/2305.15788.json",
+    "total_tokens": 443,
+    "translated_title": "在ChatGPT时代的服务组合",
+    "translated_abstract": "本文探讨了ChatGPT等系统如何支持自动服务组合领域，并确定了新的研究领域，以便充分利用这样的工具在面向服务的组合领域中。",
+    "tldr": "ChatGPT-like系统能够支持自动服务组合领域，并提出了新的研究领域。"
+}

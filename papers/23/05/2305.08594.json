@@ -1,0 +1,12 @@
+{
+    "title": "Improving Customer Experience in Call Centers with Intelligent Customer-Agent Pairing. (arXiv:2305.08594v2 [cs.LG] UPDATED)",
+    "abstract": "Customer experience plays a critical role for a profitable organisation or company. A satisfied customer for a company corresponds to higher rates of customer retention, and better representation in the market. One way to improve customer experience is to optimize the functionality of its call center. In this work, we have collaborated with the largest provider of telecommunications and Internet access in the country, and we formulate the customer-agent pairing problem as a machine learning problem. The proposed learning-based method causes a significant improvement in performance of about $215\\%$ compared to a rule-based method.",
+    "link": "http://arxiv.org/abs/2305.08594",
+    "context": "Title: Improving Customer Experience in Call Centers with Intelligent Customer-Agent Pairing. (arXiv:2305.08594v2 [cs.LG] UPDATED)\nAbstract: Customer experience plays a critical role for a profitable organisation or company. A satisfied customer for a company corresponds to higher rates of customer retention, and better representation in the market. One way to improve customer experience is to optimize the functionality of its call center. In this work, we have collaborated with the largest provider of telecommunications and Internet access in the country, and we formulate the customer-agent pairing problem as a machine learning problem. The proposed learning-based method causes a significant improvement in performance of about $215\\%$ compared to a rule-based method.",
+    "path": "papers/23/05/2305.08594.json",
+    "total_tokens": 612,
+    "translated_title": "通过智能客户代理配对改善呼叫中心的客户体验",
+    "translated_abstract": "满意的客户对于一个盈利的组织或公司来说至关重要。提高客户体验的方法之一是优化呼叫中心的功能。在这项工作中，我们与全国最大的电信和互联网接入供应商合作，将客户代理配对问题作为机器学习问题进行了阐述。所提出的基于学习的方法相比规则-based方法，性能有$215\\%$的显著改进",
+    "tldr": "该论文通过机器学习的方法，将客户代理配对问题进行优化，并取得了$215\\%$性能上的显著提升。",
+    "en_tdlr": "This paper uses machine learning to optimize the customer-agent pairing problem and achieves a significant performance improvement of $215\\%$ compared to the rule-based method."
+}

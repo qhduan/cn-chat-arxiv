@@ -1,0 +1,12 @@
+{
+    "title": "Online Influence Maximization under Decreasing Cascade Model. (arXiv:2305.15428v1 [cs.SI])",
+    "abstract": "We study online influence maximization (OIM) under a new model of decreasing cascade (DC). This model is a generalization of the independent cascade (IC) model by considering the common phenomenon of market saturation. In DC, the chance of an influence attempt being successful reduces with previous failures. The effect is neglected by previous OIM works under IC and linear threshold models. We propose the DC-UCB algorithm to solve this problem, which achieves a regret bound of the same order as the state-of-the-art works on the IC model. Extensive experiments on both synthetic and real datasets show the effectiveness of our algorithm.",
+    "link": "http://arxiv.org/abs/2305.15428",
+    "context": "Title: Online Influence Maximization under Decreasing Cascade Model. (arXiv:2305.15428v1 [cs.SI])\nAbstract: We study online influence maximization (OIM) under a new model of decreasing cascade (DC). This model is a generalization of the independent cascade (IC) model by considering the common phenomenon of market saturation. In DC, the chance of an influence attempt being successful reduces with previous failures. The effect is neglected by previous OIM works under IC and linear threshold models. We propose the DC-UCB algorithm to solve this problem, which achieves a regret bound of the same order as the state-of-the-art works on the IC model. Extensive experiments on both synthetic and real datasets show the effectiveness of our algorithm.",
+    "path": "papers/23/05/2305.15428.json",
+    "total_tokens": 744,
+    "translated_title": "基于衰减级联模型的在线影响力最大化研究",
+    "translated_abstract": "本文研究了一种新的衰减级联模型下的在线影响力最大化问题。该模型通过考虑市场饱和的常见现象，对独立级联模型进行了推广。在衰减级联模型下，影响尝试成功的概率会在之前失败的基础上减小。这种影响在之前的研究中被独立级联模型和线性阈值模型所忽略。我们提出了DC-UCB算法来解决这个问题，该算法的遗憾界与IC模型上最先进的算法相同。我们对合成数据和真实数据进行了广泛的实验，证明了我们算法的有效性。",
+    "tldr": "本文研究了一种新的衰减级联模型下的在线影响力最大化问题，提出了DC-UCB算法来解决该问题，并在合成数据和真实数据上进行了广泛实验，证明了算法的有效性。",
+    "en_tdlr": "This paper studies the problem of online influence maximization under a new decreasing cascade model, proposes the DC-UCB algorithm to solve it, and conducts extensive experiments on both synthetic and real data to demonstrate the effectiveness of the algorithm."
+}

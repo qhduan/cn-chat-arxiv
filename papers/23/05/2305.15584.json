@@ -1,0 +1,12 @@
+{
+    "title": "Understanding Label Bias in Single Positive Multi-Label Learning. (arXiv:2305.15584v1 [cs.LG])",
+    "abstract": "Annotating data for multi-label classification is prohibitively expensive because every category of interest must be confirmed to be present or absent. Recent work on single positive multi-label (SPML) learning shows that it is possible to train effective multi-label classifiers using only one positive label per image. However, the standard benchmarks for SPML are derived from traditional multi-label classification datasets by retaining one positive label for each training example (chosen uniformly at random) and discarding all other labels. In realistic settings it is not likely that positive labels are chosen uniformly at random. This work introduces protocols for studying label bias in SPML and provides new empirical results.",
+    "link": "http://arxiv.org/abs/2305.15584",
+    "context": "Title: Understanding Label Bias in Single Positive Multi-Label Learning. (arXiv:2305.15584v1 [cs.LG])\nAbstract: Annotating data for multi-label classification is prohibitively expensive because every category of interest must be confirmed to be present or absent. Recent work on single positive multi-label (SPML) learning shows that it is possible to train effective multi-label classifiers using only one positive label per image. However, the standard benchmarks for SPML are derived from traditional multi-label classification datasets by retaining one positive label for each training example (chosen uniformly at random) and discarding all other labels. In realistic settings it is not likely that positive labels are chosen uniformly at random. This work introduces protocols for studying label bias in SPML and provides new empirical results.",
+    "path": "papers/23/05/2305.15584.json",
+    "total_tokens": 660,
+    "translated_title": "单一正标签多标签学习中的标签偏差问题研究",
+    "translated_abstract": "为多标签分类任务标注数据的昂贵性在很大程度上得到缓解。单一正标签多标签（SPML）学习指出只需每个图像确定一个正标签即可训练有效的多标签分类器。但现有的SPML基准数据集是通过从传统多标签分类数据集中随机选择一个正标签并剔除其他标签得到的。在实际应用中，正标签的随机选择很不现实。本文提出研究SPML中标签偏差的协议，并提供了新的实证结果。",
+    "tldr": "本文研究了单一正标签多标签学习中的标签偏差问题，提供了研究标签偏差的协议和新实证结果。",
+    "en_tdlr": "This paper investigates label bias in single positive multi-label learning and provides protocols and new empirical results for studying label bias."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "The Decades Progress on Code-Switching Research in NLP: A Systematic Survey on Trends and Challenges. (arXiv:2212.09660v2 [cs.CL] UPDATED)",
+    "abstract": "Code-Switching, a common phenomenon in written text and conversation, has been studied over decades by the natural language processing (NLP) research community. Initially, code-switching is intensively explored by leveraging linguistic theories and, currently, more machine-learning oriented approaches to develop models. We introduce a comprehensive systematic survey on code-switching research in natural language processing to understand the progress of the past decades and conceptualize the challenges and tasks on the code-switching topic. Finally, we summarize the trends and findings and conclude with a discussion for future direction and open questions for further investigation.",
+    "link": "http://arxiv.org/abs/2212.09660",
+    "context": "Title: The Decades Progress on Code-Switching Research in NLP: A Systematic Survey on Trends and Challenges. (arXiv:2212.09660v2 [cs.CL] UPDATED)\nAbstract: Code-Switching, a common phenomenon in written text and conversation, has been studied over decades by the natural language processing (NLP) research community. Initially, code-switching is intensively explored by leveraging linguistic theories and, currently, more machine-learning oriented approaches to develop models. We introduce a comprehensive systematic survey on code-switching research in natural language processing to understand the progress of the past decades and conceptualize the challenges and tasks on the code-switching topic. Finally, we summarize the trends and findings and conclude with a discussion for future direction and open questions for further investigation.",
+    "path": "papers/22/12/2212.09660.json",
+    "total_tokens": 714,
+    "translated_title": "自然语言处理中的代码交换研究：趋势和挑战的系统调查",
+    "translated_abstract": "代码交换在书面文本和口语交流中是一种常见现象，已经受到自然语言处理（NLP）研究界的研究。最初，通过运用语言学理论来深入探索代码交换，目前则采用更多面向机器学习的方法来开发模型。我们介绍了一篇全面的系统调查，旨在了解过去几十年代码交换研究的进展情况，并构思代码交换主题上的挑战和任务。最后，我们总结了趋势和发现，并讨论了未来方向和进一步研究的开放性问题。",
+    "tldr": "本文系统调查了几十年来自然语言处理中关于代码交换的研究进展和挑战，总结了趋势和发现，并讨论了未来方向和进一步研究的开放性问题。",
+    "en_tdlr": "This paper provides a systematic survey of code-switching research in natural language processing over the past decades, discussing trends, challenges, and future directions for further investigation."
+}

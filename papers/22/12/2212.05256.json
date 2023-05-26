@@ -1,0 +1,12 @@
+{
+    "title": "CALIME: Causality-Aware Local Interpretable Model-Agnostic Explanations. (arXiv:2212.05256v2 [cs.AI] UPDATED)",
+    "abstract": "A significant drawback of eXplainable Artificial Intelligence (XAI) approaches is the assumption of feature independence. This paper focuses on integrating causal knowledge in XAI methods to increase trust and help users assess explanations' quality. We propose a novel extension to a widely used local and model-agnostic explainer that explicitly encodes causal relationships in the data generated around the input instance to explain. Extensive experiments show that our method achieves superior performance comparing the initial one for both the fidelity in mimicking the black-box and the stability of the explanations.",
+    "link": "http://arxiv.org/abs/2212.05256",
+    "context": "Title: CALIME: Causality-Aware Local Interpretable Model-Agnostic Explanations. (arXiv:2212.05256v2 [cs.AI] UPDATED)\nAbstract: A significant drawback of eXplainable Artificial Intelligence (XAI) approaches is the assumption of feature independence. This paper focuses on integrating causal knowledge in XAI methods to increase trust and help users assess explanations' quality. We propose a novel extension to a widely used local and model-agnostic explainer that explicitly encodes causal relationships in the data generated around the input instance to explain. Extensive experiments show that our method achieves superior performance comparing the initial one for both the fidelity in mimicking the black-box and the stability of the explanations.",
+    "path": "papers/22/12/2212.05256.json",
+    "total_tokens": 697,
+    "translated_title": "CALIME: 因果感知的局部可解释性模型-无关解释",
+    "translated_abstract": "可解释性人工智能方法的一个重要缺点是假设特征独立性。本文着眼于将因果知识融入可解释性人工智能方法中，以增加信任并帮助用户评估解释的质量。我们提出一种新颖的扩展方法，明确地在围绕输入实例生成的数据中编码因果关系，以解释模型。大量实验证明，我们的方法在模仿黑盒子的保真度和解释的稳定性方面均比初始方法表现优异。",
+    "tldr": "本文提出CALIME方法，将因果知识融入可解释性人工智能方法中，以解决特征独立性的缺陷，并取得了优于初始方法的黑盒模型模拟保真度和解释稳定性的表现。",
+    "en_tdlr": "This paper proposes the CALIME method, which integrates causal knowledge into eXplainable Artificial Intelligence (XAI) to solve the problem of feature independence and achieves superior performance in mimicking black-box models and explaining stability compared to the initial method."
+}
