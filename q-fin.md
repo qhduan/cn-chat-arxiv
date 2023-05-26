@@ -3,20 +3,22 @@
 | Ref | Title | Summary |
 | --- | --- | --- |
 | [^1] | [Non-adversarial training of Neural SDEs with signature kernel scores.](http://arxiv.org/abs/2305.16274) | 该研究提出一种非对抗性训练神经SDE的新方法，使用基于签名内核的评分规则代替传统的GAN方法。新方法由于不需要进行动态规划运算，具有计算效率更高的特点。 |
-| [^2] | [More than Words: Twitter Chatter and Financial Market Sentiment.](http://arxiv.org/abs/2305.16164) | 本文使用Twitter数据构建了新的信贷和金融市场情绪指数，该指数与公司债券利差和其他金融状况指数高度相关。最重要的是，其能够预测美国货币政策的变化，并反映了市场对货币政策收紧的反应。 |
-| [^3] | [Modeling the Impact of Mentoring on Women's Work-LifeBalance: A Grounded Theory Approach.](http://arxiv.org/abs/2305.16095) | 本文利用建构主义现实理论分析了德黑兰市政府的导师和被导师的访谈数据，提供了导师如何影响女性职业生活平衡的模型，其中角色管理是女性职业生活平衡的关键标准。 |
-| [^4] | [Social Sustainability of Digital Transformation: Empirical Evidence from EU-27 Countries.](http://arxiv.org/abs/2305.16088) | 本研究通过结构方程建模证明，芬兰、荷兰和丹麦的数字化转型是最具有社会可持续性的；社会可持续性在实现可持续发展目标方面具有重要性；基尼系数与实现可持续发展目标存在反向关系。 |
-| [^5] | [Market Making with Deep Reinforcement Learning from Limit Order Books.](http://arxiv.org/abs/2305.15821) | 本文提出了一种基于LOB数据的市场做市RL代理，并利用神经网络从LOB中提取特征，设计了一个新的连续动作空间和混合奖励函数，实验结果表明方法有效。 |
-| [^6] | [The use of trade data in the analysis of global phosphate flows.](http://arxiv.org/abs/2305.07362) | 本文提出了一种利用贸易数据追踪磷流动的新方法，可以为环境会计的准确性做出贡献。 |
-| [^7] | [Robust Equilibrium Strategy for Mean-Variance Portfolio Selection.](http://arxiv.org/abs/2305.07166) | 本文提出了针对均值方差组合选股问题的稳健均衡策略的新定义，并建立了该策略与相应的PDE系统之间的严格联系，填补了文献中的空白。 |
-| [^8] | [Optimal Asset Allocation in a High Inflation Regime: a Leverage-feasible Neural Network Approach.](http://arxiv.org/abs/2304.05297) | 本文研究了高通胀环境下带杠杆约束的最优资产组合问题，发现等权重股票指数组成的投资组合部分随机优于基于市值加权的股票指数组成的投资组合。提出了一种新颖的可杠杆神经网络模型，用于近似最优控制策略，该模型在解决实际问题时表现良好。 |
-| [^9] | [How to handle the COS method for option pricing.](http://arxiv.org/abs/2303.16012) | 介绍了用于欧式期权定价的 Fourier余弦展开 (COS) 方法，通过指定截断范围和项数N进行逼近，文章提出明确的N的上界，对密度平滑并指数衰减的情况，COS方法的收敛阶数至少是指数收敛阶数。 |
-| [^10] | [Green Hydrogen Cost-Potentials for Global Trade.](http://arxiv.org/abs/2303.00314) | 本研究基于优化能源系统方法，提供了2050年之前28个国家的绿色氢成本潜力曲线，其中非洲和中东太阳能富裕的国家具有巨大的氢电位和低的氢成本。分散的基于光伏和陆上风电的氢生产始终是首选，进口的额外成本仅高出7％。 |
-| [^11] | [Building Resilience in Cybersecurity -- An Artificial Lab Approach.](http://arxiv.org/abs/2211.04762) | 该论文基于人工实验室，通过数字实验确定了两类措施来控制系统性网络风险：安全和拓扑基础的干预。研究结果对当前应用于保险和监管实践或未来网络风险控制的一些真实世界网络安全措施的影响进行了讨论。从保险角度出发，提供了第一次尝试设计系统性网络风险义务，并衡量个人保单持有人对系统性风险的贡献。 |
-| [^12] | [The effect of ambient air pollution on birth outcomes in Norway.](http://arxiv.org/abs/2208.06271) | 本研究发现孕期暴露于环境中的氮氧化物会对出生结果产生负面影响，而其他的大气污染物则在挪威的胎儿处于安全水平。不仅如此，孕期暴露于氮氧化物的负面效应对处于劣势家长的新生儿更为严重。 |
-| [^13] | [Neural Optimal Stopping Boundary.](http://arxiv.org/abs/2205.04595) | 本文提出了一种基于深度神经网络和经验风险最小化的方法，用于求解最优停止问题，并在多个金融工具中证明了其有效性和停止边界的存在。 |
-| [^14] | [Minimum Wages in Concentrated Labor Markets.](http://arxiv.org/abs/2111.13692) | 该研究用劳动力市场集中度对垄断理论进行了全面测试，并发现了垄断性剥削的证据，该证据支持最低工资对就业的影响会掩盖市场异质性。 |
-| [^15] | [A new Mertens decomposition of $\mathscr{Y}^{g,\xi}$-submartingale systems. Application to BSDEs with weak constraints at stopping times.](http://arxiv.org/abs/1708.05957) | 介绍了$\mathscr{Y}^{g,\xi}$-次亚麻系统和Mertens分解的概念，应用于处理控制/停止博弈问题并提出了一类新的弱停时条件下的BSDE。 |
+| [^2] | [Role of Neighbouring Wealth Preference in Kinetic Exchange model of market.](http://arxiv.org/abs/2305.16238) | 本研究通过引入两种偏好的财富交互，发现了准寡头社会和社会分裂为两个不同经济阶层的现象。 |
+| [^3] | [More than Words: Twitter Chatter and Financial Market Sentiment.](http://arxiv.org/abs/2305.16164) | 本文使用Twitter数据构建了新的信贷和金融市场情绪指数，该指数与公司债券利差和其他金融状况指数高度相关。最重要的是，其能够预测美国货币政策的变化，并反映了市场对货币政策收紧的反应。 |
+| [^4] | [Mean-variance dynamic portfolio allocation with transaction costs: a Wiener chaos expansion approach.](http://arxiv.org/abs/2305.16152) | 本研究提出了一种新颖的方法，通过使用Wiener混沌展开来表示合法组合集，在交易成本约束下找到多期均值-方差组合投资的最优策略，并研究了最优组合投资组合和底层风险规避之间的联系。 |
+| [^5] | [Modeling the Impact of Mentoring on Women's Work-LifeBalance: A Grounded Theory Approach.](http://arxiv.org/abs/2305.16095) | 本文利用建构主义现实理论分析了德黑兰市政府的导师和被导师的访谈数据，提供了导师如何影响女性职业生活平衡的模型，其中角色管理是女性职业生活平衡的关键标准。 |
+| [^6] | [Social Sustainability of Digital Transformation: Empirical Evidence from EU-27 Countries.](http://arxiv.org/abs/2305.16088) | 本研究通过结构方程建模证明，芬兰、荷兰和丹麦的数字化转型是最具有社会可持续性的；社会可持续性在实现可持续发展目标方面具有重要性；基尼系数与实现可持续发展目标存在反向关系。 |
+| [^7] | [Market Making with Deep Reinforcement Learning from Limit Order Books.](http://arxiv.org/abs/2305.15821) | 本文提出了一种基于LOB数据的市场做市RL代理，并利用神经网络从LOB中提取特征，设计了一个新的连续动作空间和混合奖励函数，实验结果表明方法有效。 |
+| [^8] | [The use of trade data in the analysis of global phosphate flows.](http://arxiv.org/abs/2305.07362) | 本文提出了一种利用贸易数据追踪磷流动的新方法，可以为环境会计的准确性做出贡献。 |
+| [^9] | [Robust Equilibrium Strategy for Mean-Variance Portfolio Selection.](http://arxiv.org/abs/2305.07166) | 本文提出了针对均值方差组合选股问题的稳健均衡策略的新定义，并建立了该策略与相应的PDE系统之间的严格联系，填补了文献中的空白。 |
+| [^10] | [Optimal Asset Allocation in a High Inflation Regime: a Leverage-feasible Neural Network Approach.](http://arxiv.org/abs/2304.05297) | 本文研究了高通胀环境下带杠杆约束的最优资产组合问题，发现等权重股票指数组成的投资组合部分随机优于基于市值加权的股票指数组成的投资组合。提出了一种新颖的可杠杆神经网络模型，用于近似最优控制策略，该模型在解决实际问题时表现良好。 |
+| [^11] | [How to handle the COS method for option pricing.](http://arxiv.org/abs/2303.16012) | 介绍了用于欧式期权定价的 Fourier余弦展开 (COS) 方法，通过指定截断范围和项数N进行逼近，文章提出明确的N的上界，对密度平滑并指数衰减的情况，COS方法的收敛阶数至少是指数收敛阶数。 |
+| [^12] | [Green Hydrogen Cost-Potentials for Global Trade.](http://arxiv.org/abs/2303.00314) | 本研究基于优化能源系统方法，提供了2050年之前28个国家的绿色氢成本潜力曲线，其中非洲和中东太阳能富裕的国家具有巨大的氢电位和低的氢成本。分散的基于光伏和陆上风电的氢生产始终是首选，进口的额外成本仅高出7％。 |
+| [^13] | [Building Resilience in Cybersecurity -- An Artificial Lab Approach.](http://arxiv.org/abs/2211.04762) | 该论文基于人工实验室，通过数字实验确定了两类措施来控制系统性网络风险：安全和拓扑基础的干预。研究结果对当前应用于保险和监管实践或未来网络风险控制的一些真实世界网络安全措施的影响进行了讨论。从保险角度出发，提供了第一次尝试设计系统性网络风险义务，并衡量个人保单持有人对系统性风险的贡献。 |
+| [^14] | [The effect of ambient air pollution on birth outcomes in Norway.](http://arxiv.org/abs/2208.06271) | 本研究发现孕期暴露于环境中的氮氧化物会对出生结果产生负面影响，而其他的大气污染物则在挪威的胎儿处于安全水平。不仅如此，孕期暴露于氮氧化物的负面效应对处于劣势家长的新生儿更为严重。 |
+| [^15] | [Neural Optimal Stopping Boundary.](http://arxiv.org/abs/2205.04595) | 本文提出了一种基于深度神经网络和经验风险最小化的方法，用于求解最优停止问题，并在多个金融工具中证明了其有效性和停止边界的存在。 |
+| [^16] | [Minimum Wages in Concentrated Labor Markets.](http://arxiv.org/abs/2111.13692) | 该研究用劳动力市场集中度对垄断理论进行了全面测试，并发现了垄断性剥削的证据，该证据支持最低工资对就业的影响会掩盖市场异质性。 |
+| [^17] | [A new Mertens decomposition of $\mathscr{Y}^{g,\xi}$-submartingale systems. Application to BSDEs with weak constraints at stopping times.](http://arxiv.org/abs/1708.05957) | 介绍了$\mathscr{Y}^{g,\xi}$-次亚麻系统和Mertens分解的概念，应用于处理控制/停止博弈问题并提出了一类新的弱停时条件下的BSDE。 |
 
 # 详细
 
@@ -34,7 +36,21 @@
 
     Neural SDEs are continuous-time generative models for sequential data. State-of-the-art performance for irregular time series generation has been previously obtained by training these models adversarially as GANs. However, as typical for GAN architectures, training is notoriously unstable, often suffers from mode collapse, and requires specialised techniques such as weight clipping and gradient penalty to mitigate these issues. In this paper, we introduce a novel class of scoring rules on pathspace based on signature kernels and use them as objective for training Neural SDEs non-adversarially. By showing strict properness of such kernel scores and consistency of the corresponding estimators, we provide existence and uniqueness guarantees for the minimiser. With this formulation, evaluating the generator-discriminator pair amounts to solving a system of linear path-dependent PDEs which allows for memory-efficient adjoint-based backpropagation. Moreover, because the proposed kernel score
     
-[^2]: 不止于语言：Twitter聊天和金融市场情绪
+[^2]: 市场动力交换模型中邻居的财富偏好作用
+
+    Role of Neighbouring Wealth Preference in Kinetic Exchange model of market. (arXiv:2305.16238v1 [physics.soc-ph])
+
+    [http://arxiv.org/abs/2305.16238](http://arxiv.org/abs/2305.16238)
+
+    本研究通过引入两种偏好的财富交互，发现了准寡头社会和社会分裂为两个不同经济阶层的现象。
+
+    
+
+    动力交换模型已成为统计力学领域研究财富相互作用的工具。传统上研究动力交换模型时不考虑偏好交互。然而，在本研究中，我们引入了两种偏好交互，以探讨财富动态和其相关分布。通过第一种偏好，我们观察到了准寡头社会的出现，其中大部分财富围绕在极少数代理商手中。对于第二种偏好，我们对两个代理商之间的财富差异施加了限制。这种偏好导致社会分裂为两个不同的经济阶层。我们通过广泛的蒙特卡罗模拟来研究这些现象，从而能够描述市场的行为特征。
+
+    The kinetic exchange model has gained popularity in the field of statistical mechanics for investigating wealth interaction. Traditionally, kinetic exchange models have been studied without considering preferential interactions. However, in this study, we introduce two types of preferential interactions to explore wealth dynamics and its associated distributions. In the first preference, one agent is randomly selected, while the other agent is chosen randomly with wealth just above or below the first agent. Through this preference, we observe the emergence of a quasi-oligarchic society, where the majority of the wealth cycles around the hand of very few agents. For the second preference, we impose a constraint on the difference in pre-interaction wealth between the two agents. This preference leads to the segregation of society into two distinct economic classes. To investigate these phenomena, we conducted extensive Monte Carlo simulations, enabling us to characterize the behavior of 
+    
+[^3]: 不止于语言：Twitter聊天和金融市场情绪
 
     More than Words: Twitter Chatter and Financial Market Sentiment. (arXiv:2305.16164v1 [econ.GN])
 
@@ -48,7 +64,21 @@
 
     We build a new measure of credit and financial market sentiment using Natural Language Processing on Twitter data. We find that the Twitter Financial Sentiment Index (TFSI) correlates highly with corporate bond spreads and other price- and survey-based measures of financial conditions. We document that overnight Twitter financial sentiment helps predict next day stock market returns. Most notably, we show that the index contains information that helps forecast changes in the U.S. monetary policy stance: a deterioration in Twitter financial sentiment the day ahead of an FOMC statement release predicts the size of restrictive monetary policy shocks. Finally, we document that sentiment worsens in response to an unexpected tightening of monetary policy.
     
-[^3]: 基于现实理论的方法研究导师对女性职业生活平衡的影响
+[^4]: 带交易成本的均值-方差动态组合投资：Wiener混沌展开法的方法研究
+
+    Mean-variance dynamic portfolio allocation with transaction costs: a Wiener chaos expansion approach. (arXiv:2305.16152v1 [q-fin.PM])
+
+    [http://arxiv.org/abs/2305.16152](http://arxiv.org/abs/2305.16152)
+
+    本研究提出了一种新颖的方法，通过使用Wiener混沌展开来表示合法组合集，在交易成本约束下找到多期均值-方差组合投资的最优策略，并研究了最优组合投资组合和底层风险规避之间的联系。
+
+    
+
+    本文研究了带交易成本多期均值-方差组合投资问题。近年来，许多方法已经被提出来挑战著名的单期Markowitz策略。但是这些方法不能考虑交易成本或者变得计算复杂并难以应用。在本文中，我们试图通过提出一种新的方法来解决这个组合投资问题，该方法基于使用有限维Wiener混沌展开来表示合法组合集。该数值方法能够找到一个在交易成本约束下的最优策略。为了完成研究，我们还研究了受交易成本限制的最优组合投资组合和底层风险规避之间的联系。然后，基于顺序单期Markowitz策略构建了一个竞争性和合规的基准，以凸显我们方法的效率。
+
+    This paper studies the multi-period mean-variance portfolio allocation problem with transaction costs. Many methods have been proposed these last years to challenge the famous uni-period Markowitz strategy.But these methods cannot integrate transaction costs or become computationally heavy and hardly applicable. In this paper, we try to tackle this allocation problem by proposing an innovative approach which relies on representing the set of admissible portfolios by a finite dimensional Wiener chaos expansion. This numerical method is able to find an optimal strategy for the allocation problem subject to transaction costs. To complete the study, the link between optimal portfolios submitted to transaction costs and the underlying risk aversion is investigated. Then a competitive and compliant benchmark based on the sequential uni-period Markowitz strategy is built to highlight the efficiency of our approach.
+    
+[^5]: 基于现实理论的方法研究导师对女性职业生活平衡的影响
 
     Modeling the Impact of Mentoring on Women's Work-LifeBalance: A Grounded Theory Approach. (arXiv:2305.16095v1 [econ.GN])
 
@@ -62,7 +92,7 @@
 
     The purpose of this study was to model the impact of mentoring on women's work-life balance. Indeed, this study considered mentoring as a solution to create a work-life balance of women. For this purpose, semi-structured interviews with both mentors and mentees of Tehran Municipality were conducted and the collected data were analyzed using constructivist grounded theory. Findings provided a model of how mentoring affects women's work-life balance. According to this model, role management is the key criterion for work-life balancing among women. In this model, antecedents of role management and the contextual factors affecting role management, the constraints of mentoring in the organization, as well as the consequences of effective mentoring in the organization are described. The findings of this research contribute to the mentoring literature as well as to the role management literature and provide recommendations for organizations and for future research.
     
-[^4]: 数字转型的社会可持续性：来自欧盟27个国家的经验证据
+[^6]: 数字转型的社会可持续性：来自欧盟27个国家的经验证据
 
     Social Sustainability of Digital Transformation: Empirical Evidence from EU-27 Countries. (arXiv:2305.16088v1 [econ.GN])
 
@@ -76,7 +106,7 @@
 
     In the EU-27 countries, the importance of social sustainability of digital transformation (SOSDIT) is heightened by the need to balance economic growth with social cohesion. By prioritizing SOSDIT, the EU can ensure that its citizens are not left behind in the digital transformation process and that technology serves the needs of all Europeans. Therefore, the current study aimed firstly to evaluate the SOSDIT of EU-27 countries and then to model its importance in reaching sustainable development goals (SDGs). The current study, using structural equation modeling, provided quantitative empirical evidence that digital transformation in Finland, the Netherlands, and Denmark are respectively most socially sustainable. It is also found that SOSDIT leads the countries to have a higher performance in reaching SDGs. Finally, the study provided evidence implying the inverse relationship between the Gini coefficient and reaching SDGs. In other words, the higher the Gini coefficient of a country,
     
-[^5]: 用深度强化学习从限价订单簿中进行做市
+[^7]: 用深度强化学习从限价订单簿中进行做市
 
     Market Making with Deep Reinforcement Learning from Limit Order Books. (arXiv:2305.15821v1 [q-fin.CP])
 
@@ -90,7 +120,7 @@
 
     Market making (MM) is an important research topic in quantitative finance, the agent needs to continuously optimize ask and bid quotes to provide liquidity and make profits. The limit order book (LOB) contains information on all active limit orders, which is an essential basis for decision-making. The modeling of evolving, high-dimensional and low signal-to-noise ratio LOB data is a critical challenge. Traditional MM strategy relied on strong assumptions such as price process, order arrival process, etc. Previous reinforcement learning (RL) works handcrafted market features, which is insufficient to represent the market. This paper proposes a RL agent for market making with LOB data. We leverage a neural network with convolutional filters and attention mechanism (Attn-LOB) for feature extraction from LOB. We design a new continuous action space and a hybrid reward function for the MM task. Finally, we conduct comprehensive experiments on latency and interpretability, showing that our a
     
-[^6]: 利用贸易数据分析全球磷流动的研究
+[^8]: 利用贸易数据分析全球磷流动的研究
 
     The use of trade data in the analysis of global phosphate flows. (arXiv:2305.07362v1 [econ.GN])
 
@@ -104,7 +134,7 @@
 
     In this paper we present a new method to trace the flows of phosphate from the countries where it is mined to the counties where it is used in agricultural production. We achieve this by combining data on phosphate rock mining with data on fertilizer use and data on international trade of phosphate-related products. We show that by making certain adjustments to data on net exports we can derive the matrix of phosphate flows on the country level to a large degree and thus contribute to the accuracy of material flow analyses, a results that is important for improving environmental accounting, not only for phosphorus but for many other resources.
     
-[^7]: 均值方差组合选股的稳健均衡策略
+[^9]: 均值方差组合选股的稳健均衡策略
 
     Robust Equilibrium Strategy for Mean-Variance Portfolio Selection. (arXiv:2305.07166v1 [q-fin.MF])
 
@@ -118,7 +148,7 @@
 
     The classical mean-variance portfolio selection problem induces time-inconsistent (precommited) strategies (see Zhou and Li (2000)). To overcome this time-inconsistency, Basak and Chabakauri (2010) introduce the game theoretical approach and look for (sub-game perfect Nash) equilibrium strategies, which is solved from the corresponding partial differential equations (PDE) system. In their model, the investor perfectly knows the drift and volatility of the assets. However, in reality investors only have an estimate on them, e.g, a 95% confidence interval. In this case, some literature (e.g., Pham, Wei and Zhou (2022)) derives the optimal precommited strategy under the worst parameters, which is the robust control. The relation between the equilibrium strategy and the PDE system has not been justified when incorporating robust control. In this paper, we consider a general dynamic mean-variance framework and propose a novel definition of the robust equilibrium strategy. Under our definiti
     
-[^8]: 高通胀条件下的最优资产配置：可杠杆神经网络方法
+[^10]: 高通胀条件下的最优资产配置：可杠杆神经网络方法
 
     Optimal Asset Allocation in a High Inflation Regime: a Leverage-feasible Neural Network Approach. (arXiv:2304.05297v1 [q-fin.PM])
 
@@ -132,7 +162,7 @@
 
     We study the optimal multi-period asset allocation problem with leverage constraints in a persistent, high-inflation environment. Based on filtered high-inflation regimes, we discover that a portfolio containing an equal-weighted stock index partially stochastically dominates a portfolio containing a capitalization-weighted stock index. Assuming the asset prices follow the jump diffusion model during high inflation periods, we establish a closed-form solution for the optimal strategy that outperforms a passive strategy under the cumulative quadratic tracking difference (CD) objective. The closed-form solution provides insights but requires unrealistic constraints. To obtain strategies under more practical considerations, we consider a constrained optimal control problem with bounded leverage. To solve this optimal control problem, we propose a novel leverage-feasible neural network (LFNN) model that approximates the optimal control directly. The LFNN model avoids high-dimensional evalu
     
-[^9]: 如何处理用于期权定价的 COS 方法
+[^11]: 如何处理用于期权定价的 COS 方法
 
     How to handle the COS method for option pricing. (arXiv:2303.16012v1 [q-fin.CP])
 
@@ -146,7 +176,7 @@
 
     The Fourier cosine expansion (COS) method is used for pricing European options numerically very efficiently. To apply the COS method, one has to specify two parameters: a truncation range for the density of the log-returns and a number of terms N to approximate the truncated density by a cosine series. How to choose the truncation range is already known. Here, we are able to find an explicit and useful bound for N as well. We further show that the COS method has at least an exponential order of convergence if the density is smooth and decays exponentially. But, if the density is smooth and has heavy tails like in the Finite Moment Log Stable model, the COS method has not an exponential order of convergence. Numerical experiments confirm the theoretical findings.
     
-[^10]: 全球贸易的绿色氢成本潜力
+[^12]: 全球贸易的绿色氢成本潜力
 
     Green Hydrogen Cost-Potentials for Global Trade. (arXiv:2303.00314v2 [econ.GN] UPDATED)
 
@@ -160,7 +190,7 @@
 
     Green hydrogen is expected to be traded globally in future greenhouse gas neutral energy systems. However, there is still a lack of temporally- and spatially-explicit cost-potentials for green hydrogen considering the full process chain, which are necessary for creating effective global strategies. Therefore, this study provides such detailed cost-potential-curves for 28 selected countries worldwide until 2050, using an optimizing energy systems approach based on open-field photovoltaics (PV) and onshore wind. The results reveal huge hydrogen potentials (>1,500 PWhLHV/a) and 79 PWhLHV/a at costs below 2.30 EUR/kg in 2050, dominated by solar-rich countries in Africa and the Middle East. Decentralized PV-based hydrogen production, even in wind-rich countries, is always preferred. Supplying sustainable water for hydrogen production is needed while having minor impact on hydrogen cost. Additional costs for imports from democratic regions are only total 7% higher. Hence, such regions could 
     
-[^11]: 建立网络安全的弹性——一种基于人工实验室的方法
+[^13]: 建立网络安全的弹性——一种基于人工实验室的方法
 
     Building Resilience in Cybersecurity -- An Artificial Lab Approach. (arXiv:2211.04762v2 [cs.CR] UPDATED)
 
@@ -174,7 +204,7 @@
 
     Based on classical contagion models we introduce an artificial cyber lab: the digital twin of a complex cyber system in which possible cyber resilience measures may be implemented and tested. Using the lab, in numerical case studies, we identify two classes of measures to control systemic cyber risks: security- and topology-based interventions. We discuss the implications of our findings on selected real-world cybersecurity measures currently applied in the insurance and regulation practice or under discussion for future cyber risk control. To this end, we provide a brief overview of the current cybersecurity regulation and emphasize the role of insurance companies as private regulators. Moreover, from an insurance point of view, we provide first attempts to design systemic cyber risk obligations and to measure the systemic risk contribution of individual policyholders.
     
-[^12]: 挪威大气污染对出生结果的影响
+[^14]: 挪威大气污染对出生结果的影响
 
     The effect of ambient air pollution on birth outcomes in Norway. (arXiv:2208.06271v5 [econ.GN] UPDATED)
 
@@ -188,7 +218,7 @@
 
     Ambient air pollution is harmful to the fetus even in countries with relatively low levels of pollution. In this paper, I examine the effects of ambient air pollution on birth outcomes in Norway. I find that prenatal exposure to ambient nitric oxide in the last trimester causes significant birth weight and birth length loss under the same sub-postcode fixed effects and calendar month fixed effects, whereas other ambient air pollutants such as nitrogen dioxide and sulfur dioxide appear to be at safe levels for the fetus in Norway. In addition, the marginal adverse effect of ambient nitric oxide is larger for newborns with disadvantaged parents. Both average concentrations of nitric oxide and occasional high concentration events can adversely affect birth outcomes. The contributions of my work include: first, my finding that prenatal exposure to environmental nitric oxide has an adverse effect on birth outcomes fills a long-standing knowledge gap. Second, with the large sample size and g
     
-[^13]: 神经网络最优停止边界
+[^15]: 神经网络最优停止边界
 
     Neural Optimal Stopping Boundary. (arXiv:2205.04595v2 [q-fin.PR] UPDATED)
 
@@ -202,7 +232,7 @@
 
     A method based on deep artificial neural networks and empirical risk minimization is developed to calculate the boundary separating the stopping and continuation regions in optimal stopping. The algorithm parameterizes the stopping boundary as the graph of a function and introduces relaxed stopping rules based on fuzzy boundaries to facilitate efficient optimization. Several financial instruments, some in high dimensions, are analyzed through this method, demonstrating its effectiveness. The existence of the stopping boundary is also proved under natural structural assumptions.
     
-[^14]: 高度集中的劳动力市场中的最低工资
+[^16]: 高度集中的劳动力市场中的最低工资
 
     Minimum Wages in Concentrated Labor Markets. (arXiv:2111.13692v6 [econ.GN] UPDATED)
 
@@ -216,7 +246,7 @@
 
     Economists increasingly refer to monopsony power to reconcile the absence of negative employment effects of minimum wages with theory. However, systematic evidence for the monopsony argument is scarce. In this paper, I perform a comprehensive test of monopsony theory by using labor market concentration as a proxy for monopsony power. Labor market concentration turns out substantial in Germany. Absent wage floors, a 10 percent increase in labor market concentration makes firms reduce wages by 0.5 percent and employment by 1.6 percent, reflecting monopsonistic exploitation. In line with perfect competition, sectoral minimum wages lead to negative employment effects in slightly concentrated labor markets. This effect weakens with increasing concentration and, ultimately, becomes positive in highly concentrated or monopsonistic markets. Overall, the results lend empirical support to the monopsony argument, implying that conventional minimum wage effects on employment conceal heterogeneity 
     
-[^15]: $\mathscr{Y}^{g,\xi}$-次亚麻系统的新的Mertens分解，及其在弱停时条件下的BSDE应用
+[^17]: $\mathscr{Y}^{g,\xi}$-次亚麻系统的新的Mertens分解，及其在弱停时条件下的BSDE应用
 
     A new Mertens decomposition of $\mathscr{Y}^{g,\xi}$-submartingale systems. Application to BSDEs with weak constraints at stopping times. (arXiv:1708.05957v2 [math.OC] UPDATED)
 
