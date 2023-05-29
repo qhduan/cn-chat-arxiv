@@ -1,0 +1,12 @@
+{
+    "title": "PAC-Bayesian Generalization Bounds for Adversarial Generative Models. (arXiv:2302.08942v2 [cs.LG] UPDATED)",
+    "abstract": "We extend PAC-Bayesian theory to generative models and develop generalization bounds for models based on the Wasserstein distance and the total variation distance. Our first result on the Wasserstein distance assumes the instance space is bounded, while our second result takes advantage of dimensionality reduction. Our results naturally apply to Wasserstein GANs and Energy-Based GANs, and our bounds provide new training objectives for these two. Although our work is mainly theoretical, we perform numerical experiments showing non-vacuous generalization bounds for Wasserstein GANs on synthetic datasets.",
+    "link": "http://arxiv.org/abs/2302.08942",
+    "context": "Title: PAC-Bayesian Generalization Bounds for Adversarial Generative Models. (arXiv:2302.08942v2 [cs.LG] UPDATED)\nAbstract: We extend PAC-Bayesian theory to generative models and develop generalization bounds for models based on the Wasserstein distance and the total variation distance. Our first result on the Wasserstein distance assumes the instance space is bounded, while our second result takes advantage of dimensionality reduction. Our results naturally apply to Wasserstein GANs and Energy-Based GANs, and our bounds provide new training objectives for these two. Although our work is mainly theoretical, we perform numerical experiments showing non-vacuous generalization bounds for Wasserstein GANs on synthetic datasets.",
+    "path": "papers/23/02/2302.08942.json",
+    "total_tokens": 728,
+    "translated_title": "面向对抗生成模型的PAC-Bayesian泛化界",
+    "translated_abstract": "我们将PAC-Bayesian理论扩展到生成模型，并为基于Wasserstein距离和总变差距离的模型开发了泛化界。我们第一个关于Wasserstein距离的结果假设实例空间是有界的，而我们的第二个结果利用了降维的优势。我们的结果自然适用于Wasserstein GAN和Energy-Based GAN，而我们的界限为这两种GAN提供了新的训练目标。尽管我们的工作主要是理论性的，但我们进行了数值实验，展示了Wasserstein GAN在合成数据集上的非虚空泛化界。",
+    "tldr": "将PAC-Bayesian理论扩展到生成模型，为基于Wasserstein距离和总变差距离的模型提供了泛化界，为Wasserstein GAN和Energy-Based GAN提供了新的训练目标，并在合成数据集上展示出非虚空泛化界。",
+    "en_tdlr": "This paper extends PAC-Bayesian theory to generative models, developing generalization bounds for models based on Wasserstein distance and total variation distance, and provides new training objectives for Wasserstein GANs and Energy-Based GANs, supported by experimental evidence on synthetic datasets."
+}

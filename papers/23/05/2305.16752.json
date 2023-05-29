@@ -1,0 +1,12 @@
+{
+    "title": "MULTIGAIN 2.0: MDP controller synthesis for multiple mean-payoff, LTL and steady-state constraints. (arXiv:2305.16752v1 [cs.AI])",
+    "abstract": "We present MULTIGAIN 2.0, a major extension to the controller synthesis tool MultiGain, built on top of the probabilistic model checker PRISM. This new version extends MultiGain's multi-objective capabilities, by allowing for the formal verification and synthesis of controllers for probabilistic systems with multi-dimensional long-run average reward structures, steady-state constraints, and linear temporal logic properties. Additionally, MULTIGAIN 2.0 provides an approach for finding finite memory solutions and the capability for two- and three-dimensional visualization of Pareto curves to facilitate trade-off analysis in multi-objective scenarios",
+    "link": "http://arxiv.org/abs/2305.16752",
+    "context": "Title: MULTIGAIN 2.0: MDP controller synthesis for multiple mean-payoff, LTL and steady-state constraints. (arXiv:2305.16752v1 [cs.AI])\nAbstract: We present MULTIGAIN 2.0, a major extension to the controller synthesis tool MultiGain, built on top of the probabilistic model checker PRISM. This new version extends MultiGain's multi-objective capabilities, by allowing for the formal verification and synthesis of controllers for probabilistic systems with multi-dimensional long-run average reward structures, steady-state constraints, and linear temporal logic properties. Additionally, MULTIGAIN 2.0 provides an approach for finding finite memory solutions and the capability for two- and three-dimensional visualization of Pareto curves to facilitate trade-off analysis in multi-objective scenarios",
+    "path": "papers/23/05/2305.16752.json",
+    "total_tokens": 770,
+    "translated_title": "MULTIGAIN 2.0：多个平均回报、LTL和稳态约束的MDP控制器综合",
+    "translated_abstract": "我们介绍了MULTIGAIN 2.0，这是一个基于概率模型检查器PRISM构建的控制器综合工具MultiGain的一个重大扩展。这个新版本扩展了MultiGain的多目标能力，允许对具有多维长期平均回报结构、稳态约束和线性时态逻辑属性的概率系统进行控制器的形式验证和综合。此外，MULTIGAIN 2.0提供了一种寻找有限内存解决方案的方法，并具有二维和三维 Pareto 曲线的可视化能力，以便在多目标情况下进行权衡分析。",
+    "tldr": "MULTIGAIN 2.0是一个基于PRISM的控制器综合工具，扩展了MultiGain的多维能力，可对具有多维约束的概率系统进行控制器的形式验证和综合，并提供了二维和三维 Pareto 曲线的可视化能力。",
+    "en_tdlr": "MULTIGAIN 2.0 is a controller synthesis tool based on PRISM, which extends the multi-objective capabilities of MultiGain and allows for the formal verification and synthesis of controllers for probabilistic systems with multi-dimensional constraints. It also provides a visualization capability for 2D and 3D Pareto curves."
+}

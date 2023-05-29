@@ -1,0 +1,12 @@
+{
+    "title": "Talking with Machines: A Comprehensive Survey of Emergent Dialogue Systems. (arXiv:2305.16324v1 [cs.CL])",
+    "abstract": "From the earliest experiments in the 20th century to the utilization of large language models and transformers, dialogue systems research has continued to evolve, playing crucial roles in numerous fields. This paper offers a comprehensive review of these systems, tracing their historical development and examining their fundamental operations. We analyze popular and emerging datasets for training and survey key contributions in dialogue systems research, including traditional systems and advanced machine learning methods. Finally, we consider conventional and transformer-based evaluation metrics, followed by a short discussion of prevailing challenges and future prospects in the field.",
+    "link": "http://arxiv.org/abs/2305.16324",
+    "context": "Title: Talking with Machines: A Comprehensive Survey of Emergent Dialogue Systems. (arXiv:2305.16324v1 [cs.CL])\nAbstract: From the earliest experiments in the 20th century to the utilization of large language models and transformers, dialogue systems research has continued to evolve, playing crucial roles in numerous fields. This paper offers a comprehensive review of these systems, tracing their historical development and examining their fundamental operations. We analyze popular and emerging datasets for training and survey key contributions in dialogue systems research, including traditional systems and advanced machine learning methods. Finally, we consider conventional and transformer-based evaluation metrics, followed by a short discussion of prevailing challenges and future prospects in the field.",
+    "path": "papers/23/05/2305.16324.json",
+    "total_tokens": 715,
+    "translated_title": "与机器对话：新兴对话系统的综合调查",
+    "translated_abstract": "从20世纪的最早实验到现在大规模语言模型和变压器技术的应用，对话系统研究一直在不断发展，在众多领域发挥着重要作用。本文提供了一份全面的这些系统综述，追溯它们的历史发展并检查它们的基本运作。我们分析了用于训练的流行和新兴数据集，并调查了对话系统研究中的关键贡献，包括传统系统和先进的机器学习方法。最后，我们考虑常规和基于变压器的评估指标，然后简要讨论了该领域的主要挑战和未来前景。",
+    "tldr": "本文全面综述了对话系统的发展历史、基本运作、流行和新兴数据集、关键贡献、评估指标和挑战，展望了该领域的未来前景。",
+    "en_tdlr": "This paper offers a comprehensive review of the development history, fundamental operations, popular and emerging datasets, key contributions, evaluation metrics, and challenges in dialogue systems research, and looks forward to future prospects in this field."
+}

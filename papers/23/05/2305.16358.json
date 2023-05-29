@@ -1,0 +1,12 @@
+{
+    "title": "Differentiable Clustering with Perturbed Spanning Forests. (arXiv:2305.16358v1 [cs.LG])",
+    "abstract": "We introduce a differentiable clustering method based on minimum-weight spanning forests, a variant of spanning trees with several connected components. Our method relies on stochastic perturbations of solutions of linear programs, for smoothing and efficient gradient computations. This allows us to include clustering in end-to-end trainable pipelines. We show that our method performs well even in difficult settings, such as datasets with high noise and challenging geometries. We also formulate an ad hoc loss to efficiently learn from partial clustering data using this operation. We demonstrate its performance on several real world datasets for supervised and semi-supervised tasks.",
+    "link": "http://arxiv.org/abs/2305.16358",
+    "context": "Title: Differentiable Clustering with Perturbed Spanning Forests. (arXiv:2305.16358v1 [cs.LG])\nAbstract: We introduce a differentiable clustering method based on minimum-weight spanning forests, a variant of spanning trees with several connected components. Our method relies on stochastic perturbations of solutions of linear programs, for smoothing and efficient gradient computations. This allows us to include clustering in end-to-end trainable pipelines. We show that our method performs well even in difficult settings, such as datasets with high noise and challenging geometries. We also formulate an ad hoc loss to efficiently learn from partial clustering data using this operation. We demonstrate its performance on several real world datasets for supervised and semi-supervised tasks.",
+    "path": "papers/23/05/2305.16358.json",
+    "total_tokens": 702,
+    "translated_title": "带扰动生成树的可微聚类方法",
+    "translated_abstract": "我们介绍了一种基于最小权重生成树的可微聚类方法，它是生成树的一种变体，具有多个连通分量。我们的方法依赖于线性规划解的随机扰动，以实现平滑和高效的梯度计算。这使我们能够在端到端可训练的流水线中包含聚类。我们证明了我们的方法即使在嘈杂的数据集和具有挑战性的几何环境下也能良好地工作。我们还利用这种方法制定了一个特别的损失，以有效地从部分聚类数据学习。我们在几个现实世界的数据集上展示了它在监督和半监督任务中的表现。",
+    "tldr": "介绍了一种基于扰动生成树的可微聚类方法，依赖于线性规划解的随机扰动，具有良好的性能。",
+    "en_tdlr": "Introducing a differentiable clustering method based on perturbed spanning trees, which relies on stochastic perturbations of solutions of linear programs and performs well even in difficult settings."
+}

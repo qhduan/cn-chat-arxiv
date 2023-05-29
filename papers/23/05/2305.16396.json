@@ -1,0 +1,12 @@
+{
+    "title": "ADLER -- An efficient Hessian-based strategy for adaptive learning rate. (arXiv:2305.16396v1 [cs.LG])",
+    "abstract": "We derive a sound positive semi-definite approximation of the Hessian of deep models for which Hessian-vector products are easily computable. This enables us to provide an adaptive SGD learning rate strategy based on the minimization of the local quadratic approximation, which requires just twice the computation of a single SGD run, but performs comparably with grid search on SGD learning rates on different model architectures (CNN with and without residual connections) on classification tasks. We also compare the novel approximation with the Gauss-Newton approximation.",
+    "link": "http://arxiv.org/abs/2305.16396",
+    "context": "Title: ADLER -- An efficient Hessian-based strategy for adaptive learning rate. (arXiv:2305.16396v1 [cs.LG])\nAbstract: We derive a sound positive semi-definite approximation of the Hessian of deep models for which Hessian-vector products are easily computable. This enables us to provide an adaptive SGD learning rate strategy based on the minimization of the local quadratic approximation, which requires just twice the computation of a single SGD run, but performs comparably with grid search on SGD learning rates on different model architectures (CNN with and without residual connections) on classification tasks. We also compare the novel approximation with the Gauss-Newton approximation.",
+    "path": "papers/23/05/2305.16396.json",
+    "total_tokens": 663,
+    "translated_title": "ADLER -- 一种高效的基于Hessian的自适应学习率策略",
+    "translated_abstract": "我们得出了一种有效的、半正定的Hessian矩阵逼近方法，使得计算Hessian矩阵-向量积变得容易。这使我们能够提供一种基于局部二次逼近的自适应SGD学习率策略，其仅需要计算单个SGD所需的两倍计算量，但其在不同模型结构（具有和不具有残差连接的CNN）的分类任务上表现与SGD学习率的网格搜索相当。我们还与Gauss-Newton逼近方法进行比较。",
+    "tldr": "该论文提出了一种基于Hessian矩阵逼近的自适应学习率策略，该方法计算量较小且在分类任务上效果显著，可广泛用于CNN模型中。",
+    "en_tdlr": "This paper proposes an efficient adaptive learning rate strategy based on the approximation of Hessian matrix, which requires less computation but performs comparably to SGD with grid search on different CNN model architectures in classification tasks."
+}

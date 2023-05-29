@@ -1,0 +1,12 @@
+{
+    "title": "Alert of the Second Decision-maker: An Introduction to Human-AI Conflict. (arXiv:2305.16477v1 [cs.HC])",
+    "abstract": "The collaboration between humans and artificial intelligence (AI) is a significant feature in this digital age. However, humans and AI may have observation, interpretation, and action conflicts when working synchronously. This phenomenon is often masked by faults and, unfortunately, overlooked. This paper systematically introduces the human-AI conflict concept, causes, measurement methods, and risk assessment. The results highlight that there is a potential second decision-maker besides the human, which is the AI; the human-AI conflict is a unique and emerging risk in digitalized process systems; and this is an interdisciplinary field that needs to be distinguished from traditional fault and failure analysis; the conflict risk is significant and cannot be ignored.",
+    "link": "http://arxiv.org/abs/2305.16477",
+    "context": "Title: Alert of the Second Decision-maker: An Introduction to Human-AI Conflict. (arXiv:2305.16477v1 [cs.HC])\nAbstract: The collaboration between humans and artificial intelligence (AI) is a significant feature in this digital age. However, humans and AI may have observation, interpretation, and action conflicts when working synchronously. This phenomenon is often masked by faults and, unfortunately, overlooked. This paper systematically introduces the human-AI conflict concept, causes, measurement methods, and risk assessment. The results highlight that there is a potential second decision-maker besides the human, which is the AI; the human-AI conflict is a unique and emerging risk in digitalized process systems; and this is an interdisciplinary field that needs to be distinguished from traditional fault and failure analysis; the conflict risk is significant and cannot be ignored.",
+    "path": "papers/23/05/2305.16477.json",
+    "total_tokens": 794,
+    "translated_title": "第二决策者警报：人工智能冲突简介",
+    "translated_abstract": "人类和人工智能（AI）之间的合作是这个数字时代的一个重要特征。然而，在同步工作时，人类和AI可能存在观察、解释和行动上的冲突。这种现象通常被故障掩盖，不幸的是，被忽视了。本文系统地介绍了人工智能冲突的概念、原因、测量方法和风险评估。结果突出显示，除了人类以外，还存在潜在的第二决策者，即AI；人工智能冲突是数字化流程系统中独特而新兴的风险；这是一个需要与传统的故障和失效分析区分的跨学科领域；冲突风险是显著的，不能被忽视。",
+    "tldr": "本文介绍了人工智能冲突的概念、原因、测量方法和风险评估，突出显示人工智能是潜在的第二决策者，冲突风险是显著的，不能被忽视。",
+    "en_tdlr": "This paper introduces the concept, causes, measurement methods, and risk assessment of human-AI conflict, highlighting that AI is a potential second decision-maker, and the conflict risk is significant and cannot be ignored."
+}

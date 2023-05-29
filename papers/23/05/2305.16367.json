@@ -1,0 +1,12 @@
+{
+    "title": "Role-Play with Large Language Models. (arXiv:2305.16367v1 [cs.CL])",
+    "abstract": "As dialogue agents become increasingly human-like in their performance, it is imperative that we develop effective ways to describe their behaviour in high-level terms without falling into the trap of anthropomorphism. In this paper, we foreground the concept of role-play. Casting dialogue agent behaviour in terms of role-play allows us to draw on familiar folk psychological terms, without ascribing human characteristics to language models they in fact lack. Two important cases of dialogue agent behaviour are addressed this way, namely (apparent) deception and (apparent) self-awareness.",
+    "link": "http://arxiv.org/abs/2305.16367",
+    "context": "Title: Role-Play with Large Language Models. (arXiv:2305.16367v1 [cs.CL])\nAbstract: As dialogue agents become increasingly human-like in their performance, it is imperative that we develop effective ways to describe their behaviour in high-level terms without falling into the trap of anthropomorphism. In this paper, we foreground the concept of role-play. Casting dialogue agent behaviour in terms of role-play allows us to draw on familiar folk psychological terms, without ascribing human characteristics to language models they in fact lack. Two important cases of dialogue agent behaviour are addressed this way, namely (apparent) deception and (apparent) self-awareness.",
+    "path": "papers/23/05/2305.16367.json",
+    "total_tokens": 664,
+    "translated_title": "大语言模型角色扮演",
+    "translated_abstract": "随着对话代理程序在表现上越来越接近人类，有必要开发有效的方式高层次描述其行为，而不会陷入赋予其人类特征的陷阱。本文提出了角色扮演的概念，将对话代理程序的行为视为角色扮演，使我们能够借鉴熟悉的民间心理学术语，而不是赋予它们实际上并不具备的人类特征。本文以(表面上的)欺骗和(表面上的)自我意识为例，探讨了对话代理程序行为的两种情况。",
+    "tldr": "本文将对话代理行为描述为角色扮演，以避免赋予其人类特征，在此基础上研究代理行为中的欺骗和自我意识。",
+    "en_tdlr": "This paper describes dialogue agent behavior as role-playing to avoid anthropomorphism and explores apparent deception and self-awareness in this context."
+}

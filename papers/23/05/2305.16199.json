@@ -1,0 +1,12 @@
+{
+    "title": "Diversity-Aware Coherence Loss for Improving Neural Topic Models. (arXiv:2305.16199v2 [cs.CL] UPDATED)",
+    "abstract": "The standard approach for neural topic modeling uses a variational autoencoder (VAE) framework that jointly minimizes the KL divergence between the estimated posterior and prior, in addition to the reconstruction loss. Since neural topic models are trained by recreating individual input documents, they do not explicitly capture the coherence between topic words on the corpus level. In this work, we propose a novel diversity-aware coherence loss that encourages the model to learn corpus-level coherence scores while maintaining a high diversity between topics. Experimental results on multiple datasets show that our method significantly improves the performance of neural topic models without requiring any pretraining or additional parameters.",
+    "link": "http://arxiv.org/abs/2305.16199",
+    "context": "Title: Diversity-Aware Coherence Loss for Improving Neural Topic Models. (arXiv:2305.16199v2 [cs.CL] UPDATED)\nAbstract: The standard approach for neural topic modeling uses a variational autoencoder (VAE) framework that jointly minimizes the KL divergence between the estimated posterior and prior, in addition to the reconstruction loss. Since neural topic models are trained by recreating individual input documents, they do not explicitly capture the coherence between topic words on the corpus level. In this work, we propose a novel diversity-aware coherence loss that encourages the model to learn corpus-level coherence scores while maintaining a high diversity between topics. Experimental results on multiple datasets show that our method significantly improves the performance of neural topic models without requiring any pretraining or additional parameters.",
+    "path": "papers/23/05/2305.16199.json",
+    "total_tokens": 733,
+    "translated_title": "面向多样性的相干损失用于改进神经主题模型",
+    "translated_abstract": "神经主题建模的标准方法使用变分自编码器（VAE）框架，同时最小化估计后验和先验之间的KL散度，以及重建损失。由于神经主题模型是通过重新创建各个输入文档进行训练的，因此它们不会明确地捕获语料库级别的主题词之间的连贯性。在这项工作中，我们提出了一种新的多样性感知的相干性损失，鼓励模型学习语料库级别的连贯性分数，同时保持主题之间的高多样性。多个数据集上的实验结果表明，我们的方法可以显着提高神经主题模型的性能，而无需任何预训练或额外的参数。",
+    "tldr": "本文提出了一种多样性感知的相干性损失，可以帮助神经主题模型在保持高多样性同时，更好地学习语料库级别的连贯性分数。",
+    "en_tdlr": "This paper proposes a diversity-aware coherence loss that can help neural topic models better learn corpus-level coherence scores while maintaining a high diversity between topics."
+}

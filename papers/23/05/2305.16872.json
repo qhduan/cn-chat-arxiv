@@ -1,0 +1,11 @@
+{
+    "title": "The Economics of Augmented and Virtual Reality. (arXiv:2305.16872v1 [econ.GN])",
+    "abstract": "This paper explores the economics of Augmented Reality (AR) and Virtual Reality (VR) technologies within decision-making contexts. Two metrics are proposed: Context Entropy, the informational complexity of an environment, and Context Immersivity, the value from full immersion. The analysis suggests that AR technologies assist in understanding complex contexts, while VR technologies provide access to distant, risky, or expensive environments. The paper provides a framework for assessing the value of AR and VR applications in various business sectors by evaluating the pre-existing context entropy and context immersivity. The goal is to identify areas where immersive technologies can significantly impact and distinguish those that may be overhyped.",
+    "link": "http://arxiv.org/abs/2305.16872",
+    "context": "Title: The Economics of Augmented and Virtual Reality. (arXiv:2305.16872v1 [econ.GN])\nAbstract: This paper explores the economics of Augmented Reality (AR) and Virtual Reality (VR) technologies within decision-making contexts. Two metrics are proposed: Context Entropy, the informational complexity of an environment, and Context Immersivity, the value from full immersion. The analysis suggests that AR technologies assist in understanding complex contexts, while VR technologies provide access to distant, risky, or expensive environments. The paper provides a framework for assessing the value of AR and VR applications in various business sectors by evaluating the pre-existing context entropy and context immersivity. The goal is to identify areas where immersive technologies can significantly impact and distinguish those that may be overhyped.",
+    "path": "papers/23/05/2305.16872.json",
+    "total_tokens": 883,
+    "translated_title": "增强现实和虚拟现实的经济学",
+    "translated_abstract": "本论文探讨增强现实（AR）和虚拟现实（VR）技术在决策场景中的经济学。本文提出了两个指标：上下文熵，即环境的信息复杂度，和上下文沉浸度，即全面沉浸的价值。分析表明，AR技术有助于理解复杂的环境，而VR技术则提供了接触远距离、危险或昂贵环境的途径。本文提供了一个框架，通过评估预先存在的上下文熵和上下文沉浸度来评估AR和VR应用在各种业务领域中的价值。目标是识别出可以显著影响的沉浸式技术领域，并区分可能被过度炒作的领域。",
+    "tldr": "本文探讨了增强现实（AR）和虚拟现实（VR）技术在决策场景中的经济学。分析表明，AR技术有助于理解复杂环境，而VR技术则提供接触远距离、危险或昂贵环境的途径。通过评估上下文熵和沉浸度提出了一个框架，对AR和VR应用在各种业务领域中的价值进行了评估。"
+}

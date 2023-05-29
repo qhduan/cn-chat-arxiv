@@ -1,0 +1,12 @@
+{
+    "title": "Neural Machine Translation for Mathematical Formulae. (arXiv:2305.16433v1 [cs.CL])",
+    "abstract": "We tackle the problem of neural machine translation of mathematical formulae between ambiguous presentation languages and unambiguous content languages. Compared to neural machine translation on natural language, mathematical formulae have a much smaller vocabulary and much longer sequences of symbols, while their translation requires extreme precision to satisfy mathematical information needs. In this work, we perform the tasks of translating from LaTeX to Mathematica as well as from LaTeX to semantic LaTeX. While recurrent, recursive, and transformer networks struggle with preserving all contained information, we find that convolutional sequence-to-sequence networks achieve 95.1% and 90.7% exact matches, respectively.",
+    "link": "http://arxiv.org/abs/2305.16433",
+    "context": "Title: Neural Machine Translation for Mathematical Formulae. (arXiv:2305.16433v1 [cs.CL])\nAbstract: We tackle the problem of neural machine translation of mathematical formulae between ambiguous presentation languages and unambiguous content languages. Compared to neural machine translation on natural language, mathematical formulae have a much smaller vocabulary and much longer sequences of symbols, while their translation requires extreme precision to satisfy mathematical information needs. In this work, we perform the tasks of translating from LaTeX to Mathematica as well as from LaTeX to semantic LaTeX. While recurrent, recursive, and transformer networks struggle with preserving all contained information, we find that convolutional sequence-to-sequence networks achieve 95.1% and 90.7% exact matches, respectively.",
+    "path": "papers/23/05/2305.16433.json",
+    "total_tokens": 736,
+    "translated_title": "数学公式的神经机器翻译",
+    "translated_abstract": "我们解决了在模糊的表达语言和明确的内容语言之间进行数学公式的神经机器翻译的问题。与自然语言的神经机器翻译相比，数学公式具有更小的词汇量和更长的符号序列，而翻译需要极高的精度来满足数学信息的需求。在这项工作中，我们完成了从LaTeX到Mathematica的翻译以及从LaTeX到语义LaTeX的翻译。尽管循环，递归和转换网络难以保留所有包含的信息，但我们发现卷积序列到序列网络分别可以达到95.1％和90.7％的精确匹配。",
+    "tldr": "这篇论文解决了神经机器翻译数学公式时面临的词汇量较小、符号序列较长和需要高度精度的问题，并通过使用卷积序列到序列网络实现了较高的准确度。",
+    "en_tdlr": "This paper addresses the challenges of neural machine translation of mathematical formulae, including small vocabulary, long symbol sequences, and a need for high precision, and achieves high accuracy using convolutional sequence-to-sequence networks."
+}

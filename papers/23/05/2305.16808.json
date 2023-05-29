@@ -1,0 +1,12 @@
+{
+    "title": "Geometric deep learning approach to knot theory. (arXiv:2305.16808v1 [math.GT])",
+    "abstract": "In this paper, we introduce a novel way to use geometric deep learning for knot data by constructing a functor that takes knots to graphs and using graph neural networks. We will attempt to predict several knot invariants with this approach. This approach demonstrates high generalization capabilities.",
+    "link": "http://arxiv.org/abs/2305.16808",
+    "context": "Title: Geometric deep learning approach to knot theory. (arXiv:2305.16808v1 [math.GT])\nAbstract: In this paper, we introduce a novel way to use geometric deep learning for knot data by constructing a functor that takes knots to graphs and using graph neural networks. We will attempt to predict several knot invariants with this approach. This approach demonstrates high generalization capabilities.",
+    "path": "papers/23/05/2305.16808.json",
+    "total_tokens": 494,
+    "translated_title": "基于几何深度学习的结论理论方法",
+    "translated_abstract": "本文提出了一种新的方法，通过构建一个函子将结构转化为图形，使用图神经网络来处理结论数据。我们将尝试使用这种方法预测几种结论不变量。这种方法具有较高的泛化能力。",
+    "tldr": "本文利用几何深度学习构建了一个函子将结论转化为图形，并使用图神经网络预测结论不变量，具有高泛化能力。",
+    "en_tdlr": "This paper proposes a new approach using geometric deep learning to convert knots to graphs and use graph neural networks to predict knot invariants, demonstrating high generalization capabilities."
+}

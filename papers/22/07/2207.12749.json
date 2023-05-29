@@ -1,0 +1,12 @@
+{
+    "title": "Thermodynamics of learning physical phenomena. (arXiv:2207.12749v3 [cs.LG] UPDATED)",
+    "abstract": "Thermodynamics could be seen as an expression of physics at a high epistemic level. As such, its potential as an inductive bias to help machine learning procedures attain accurate and credible predictions has been recently realized in many fields. We review how thermodynamics provides helpful insights in the learning process. At the same time, we study the influence of aspects such as the scale at which a given phenomenon is to be described, the choice of relevant variables for this description or the different techniques available for the learning process.",
+    "link": "http://arxiv.org/abs/2207.12749",
+    "context": "Title: Thermodynamics of learning physical phenomena. (arXiv:2207.12749v3 [cs.LG] UPDATED)\nAbstract: Thermodynamics could be seen as an expression of physics at a high epistemic level. As such, its potential as an inductive bias to help machine learning procedures attain accurate and credible predictions has been recently realized in many fields. We review how thermodynamics provides helpful insights in the learning process. At the same time, we study the influence of aspects such as the scale at which a given phenomenon is to be described, the choice of relevant variables for this description or the different techniques available for the learning process.",
+    "path": "papers/22/07/2207.12749.json",
+    "total_tokens": 694,
+    "translated_title": "学习物理现象的热力学。 (arXiv:2207.12749v3 [cs.LG] UPDATED)",
+    "translated_abstract": "热力学可以被视为高认知级别下的物理表达。因此，最近在许多领域中已经意识到其作为归纳偏差的潜力，以帮助机器学习过程达成准确和可信的预测。我们回顾热力学如何在学习过程中提供有用的洞见。同时，我们研究不同方面对学习过程的影响，例如描述给定现象的尺度、为该描述选择相关变量或可用于学习过程的不同技术。",
+    "tldr": "热力学作为归纳偏差在机器学习中的应用潜力已经被广泛意识到，文章回顾了热力学在学习过程中的应用，并研究不同方面对学习过程的影响。",
+    "en_tdlr": "The potential of thermodynamics as an inductive bias to help machine learning processes in achieving accurate and credible predictions has been widely recognized. This article reviews the application of thermodynamics in the learning process and studies the effects of different aspects on this process."
+}

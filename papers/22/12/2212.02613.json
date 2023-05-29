@@ -1,0 +1,11 @@
+{
+    "title": "Matching with Incomplete Preferences. (arXiv:2212.02613v2 [econ.GN] UPDATED)",
+    "abstract": "I study a two-sided marriage market in which agents have incomplete preferences -- i.e., they find some alternatives incomparable. The strong (weak) core consists of matchings wherein no coalition wants to form a new match between themselves, leaving some (all) agents better off without harming anyone. The strong core may be empty, while the weak core can be too large. I propose the concept of the ``compromise core'' -- a nonempty set that sits between the weak and the strong cores. Similarly, I define the men-(women-) optimal core and illustrate its benefit in an application to India's engineering college admissions system.",
+    "link": "http://arxiv.org/abs/2212.02613",
+    "context": "Title: Matching with Incomplete Preferences. (arXiv:2212.02613v2 [econ.GN] UPDATED)\nAbstract: I study a two-sided marriage market in which agents have incomplete preferences -- i.e., they find some alternatives incomparable. The strong (weak) core consists of matchings wherein no coalition wants to form a new match between themselves, leaving some (all) agents better off without harming anyone. The strong core may be empty, while the weak core can be too large. I propose the concept of the ``compromise core'' -- a nonempty set that sits between the weak and the strong cores. Similarly, I define the men-(women-) optimal core and illustrate its benefit in an application to India's engineering college admissions system.",
+    "path": "papers/22/12/2212.02613.json",
+    "total_tokens": 693,
+    "translated_title": "不完整偏好下的匹配问题",
+    "translated_abstract": "本文研究了一个双边婚姻市场，在此市场上，代理人的偏好不完整，即他们可能会发现有些选择是无法比较的。这篇文章讨论了强核心和弱核心的概念，并提出了“妥协核心”的概念，该核心是介于弱核心和强核心之间的一个非空集合。类似地，文章定义了男性-（女性-）最优核心，并通过印度的工程学院招生系统来说明其优点。",
+    "tldr": "本文研究了在双边市场中考虑代理人不完整偏好时的匹配问题，提出了妥协核心和男性-（女性-）最优核心的概念以解决弱核心和强核心的问题"
+}

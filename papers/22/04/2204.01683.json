@@ -1,0 +1,12 @@
+{
+    "title": "Kernel-weighted specification testing under general distributions. (arXiv:2204.01683v3 [econ.EM] UPDATED)",
+    "abstract": "Kernel-weighted test statistics have been widely used in a variety of settings including non-stationary regression, inference on propensity score and panel data models. We develop the limit theory for a kernel-based specification test of a parametric conditional mean when the law of the regressors may not be absolutely continuous to the Lebesgue measure and is contaminated with singular components. This result is of independent interest and may be useful in other applications that utilize kernel smoothed U-statistics. Simulations illustrate the non-trivial impact of the distribution of the conditioning variables on the power properties of the test statistic.",
+    "link": "http://arxiv.org/abs/2204.01683",
+    "context": "Title: Kernel-weighted specification testing under general distributions. (arXiv:2204.01683v3 [econ.EM] UPDATED)\nAbstract: Kernel-weighted test statistics have been widely used in a variety of settings including non-stationary regression, inference on propensity score and panel data models. We develop the limit theory for a kernel-based specification test of a parametric conditional mean when the law of the regressors may not be absolutely continuous to the Lebesgue measure and is contaminated with singular components. This result is of independent interest and may be useful in other applications that utilize kernel smoothed U-statistics. Simulations illustrate the non-trivial impact of the distribution of the conditioning variables on the power properties of the test statistic.",
+    "path": "papers/22/04/2204.01683.json",
+    "total_tokens": 715,
+    "translated_title": "基于核加权的一般分布下的规范检验",
+    "translated_abstract": "基于核加权的检验统计量在多个场景中被广泛应用，包括非平稳回归、倾向分数和面板数据模型推断。我们开发了基于核的规范检验的极限理论，用于测试参数化条件均值，当回归的法则可能不是对勒贝格测度绝对连续的，且可能存在奇异成分。这一结果具有独立的研究兴趣，并可能在利用核平滑的U-统计量的其他应用中有用。模拟结果说明了在调节变量的分布对检验统计量的功率属性有着非平凡的影响。",
+    "tldr": "本文提出了一种基于核加权的检验统计量极限理论，用于测试参数化条件均值。模拟结果表明，调节变量的分布对检验统计量的功率属性有着非平凡的影响。",
+    "en_tdlr": "The paper proposes a limit theory for a kernel-based specification test of a parametric conditional mean under general distributions. It demonstrates the non-trivial impact of the distribution of the conditioning variables on the power properties of the test statistic through simulations."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Evaluating generation of chaotic time series by convolutional generative adversarial networks. (arXiv:2305.16729v1 [cs.LG])",
+    "abstract": "To understand the ability and limitations of convolutional neural networks to generate time series that mimic complex temporal signals, we trained a generative adversarial network consisting of deep convolutional networks to generate chaotic time series and used nonlinear time series analysis to evaluate the generated time series. A numerical measure of determinism and the Lyapunov exponent, a measure of trajectory instability, showed that the generated time series well reproduce the chaotic properties of the original time series. However, error distribution analyses showed that large errors appeared at a low but non-negligible rate. Such errors would not be expected if the distribution were assumed to be exponential.",
+    "link": "http://arxiv.org/abs/2305.16729",
+    "context": "Title: Evaluating generation of chaotic time series by convolutional generative adversarial networks. (arXiv:2305.16729v1 [cs.LG])\nAbstract: To understand the ability and limitations of convolutional neural networks to generate time series that mimic complex temporal signals, we trained a generative adversarial network consisting of deep convolutional networks to generate chaotic time series and used nonlinear time series analysis to evaluate the generated time series. A numerical measure of determinism and the Lyapunov exponent, a measure of trajectory instability, showed that the generated time series well reproduce the chaotic properties of the original time series. However, error distribution analyses showed that large errors appeared at a low but non-negligible rate. Such errors would not be expected if the distribution were assumed to be exponential.",
+    "path": "papers/23/05/2305.16729.json",
+    "total_tokens": 752,
+    "translated_title": "基于卷积生成对抗网络生成混沌时间序列的评价",
+    "translated_abstract": "为了了解卷积神经网络生成类似于复杂时间信号的时间序列的能力和局限性，我们训练了一个由深度卷积网络组成的生成对抗网络来生成混沌时间序列，并使用非线性时间序列分析来评估生成的时间序列。确定性的数字度量和李雅普诺夫指数，一个轨迹不稳定的度量，表明生成的时间序列很好地复制了原始时间序列的混沌特性。然而，误差分布分析表明，低但不可忽略的速率下会出现大误差。如果假定分布为指数分布，则不会出现这样的误差。",
+    "tldr": "该研究通过使用卷积生成对抗网络生成混沌时间序列，并评估生成的时间序列，证明了卷积神经网络有能力很好地复制原始时间序列的混沌特性，但误差分析表明仍然存在大误差。",
+    "en_tdlr": "This study proves the ability of convolutional neural networks to replicate the chaotic properties of original time series by generating chaotic time series through a deep convolutional generative adversarial network, though analysis shows the existence of large errors."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Applying Interdisciplinary Frameworks to Understand Algorithmic Decision-Making. (arXiv:2305.16700v1 [cs.HC])",
+    "abstract": "We argue that explanations for \"algorithmic decision-making\" (ADM) systems can profit by adopting practices that are already used in the learning sciences. We shortly introduce the importance of explaining ADM systems, give a brief overview of approaches drawing from other disciplines to improve explanations, and present the results of our qualitative task-based study incorporating the \"six facets of understanding\" framework. We close with questions guiding the discussion of how future studies can leverage an interdisciplinary approach.",
+    "link": "http://arxiv.org/abs/2305.16700",
+    "context": "Title: Applying Interdisciplinary Frameworks to Understand Algorithmic Decision-Making. (arXiv:2305.16700v1 [cs.HC])\nAbstract: We argue that explanations for \"algorithmic decision-making\" (ADM) systems can profit by adopting practices that are already used in the learning sciences. We shortly introduce the importance of explaining ADM systems, give a brief overview of approaches drawing from other disciplines to improve explanations, and present the results of our qualitative task-based study incorporating the \"six facets of understanding\" framework. We close with questions guiding the discussion of how future studies can leverage an interdisciplinary approach.",
+    "path": "papers/23/05/2305.16700.json",
+    "total_tokens": 665,
+    "translated_title": "运用跨学科框架理解算法决策制定",
+    "translated_abstract": "我们认为，采用学习科学中已使用的实践方法来解释“算法决策制定”（ADM）系统可以带来利益。我们简要介绍了解释ADM系统的重要性，概述了借鉴其他学科来改进解释方法的方法，并呈现了我们的“六个理解方面”框架的定性任务研究结果。最后，我们提出一些问题，引导未来的研究如何利用跨学科方法。",
+    "tldr": "这篇文章探讨了采用跨学科方法理解算法决策制定。研究者认为应采用学习科学的实践方法来解释ADM系统，而定性任务研究结果显示使用“六个理解方面”框架可以提高解释ADM系统的有效性。",
+    "en_tdlr": "This paper discusses the application of interdisciplinary approaches to understand algorithmic decision-making. The authors suggest adopting practices from learning sciences to explain ADM systems, and present qualitative task-based study results using the \"six facets of understanding\" framework that improve the effectiveness of explaining ADM systems."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Initialization-Dependent Sample Complexity of Linear Predictors and Neural Networks. (arXiv:2305.16475v1 [cs.LG])",
+    "abstract": "We provide several new results on the sample complexity of vector-valued linear predictors (parameterized by a matrix), and more generally neural networks. Focusing on size-independent bounds, where only the Frobenius norm distance of the parameters from some fixed reference matrix $W_0$ is controlled, we show that the sample complexity behavior can be surprisingly different than what we may expect considering the well-studied setting of scalar-valued linear predictors. This also leads to new sample complexity bounds for feed-forward neural networks, tackling some open questions in the literature, and establishing a new convex linear prediction problem that is provably learnable without uniform convergence.",
+    "link": "http://arxiv.org/abs/2305.16475",
+    "context": "Title: Initialization-Dependent Sample Complexity of Linear Predictors and Neural Networks. (arXiv:2305.16475v1 [cs.LG])\nAbstract: We provide several new results on the sample complexity of vector-valued linear predictors (parameterized by a matrix), and more generally neural networks. Focusing on size-independent bounds, where only the Frobenius norm distance of the parameters from some fixed reference matrix $W_0$ is controlled, we show that the sample complexity behavior can be surprisingly different than what we may expect considering the well-studied setting of scalar-valued linear predictors. This also leads to new sample complexity bounds for feed-forward neural networks, tackling some open questions in the literature, and establishing a new convex linear prediction problem that is provably learnable without uniform convergence.",
+    "path": "papers/23/05/2305.16475.json",
+    "total_tokens": 751,
+    "translated_title": "线性预测器和神经网络的初始化相关样本复杂度",
+    "translated_abstract": "我们提供了关于向量值线性预测器(由矩阵参数化)、更一般的神经网络的样本复杂性的新结果。专注于大小无关的界限，在这种情况下，仅控制从某个固定参考矩阵$W_0$的参数的Frobenius范数距离，我们展示了样本复杂度行为可以出人意料地不同于我们在研究标量值线性预测器方面所期望的。这还导致了前馈神经网络的新样本复杂度界限，解决了一些文献中存在的问题，并确立了一个新的凸线性预测问题，证明了它可以在没有统一收敛的情况下被学习。",
+    "tldr": "本文提供了关于线性预测器和神经网络初始化相关样本复杂度的新结果，解决了一些文献中存在的问题，并且证明了新的凸线性预测问题可以被学习。"
+}

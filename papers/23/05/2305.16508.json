@@ -1,0 +1,12 @@
+{
+    "title": "Most Neural Networks Are Almost Learnable. (arXiv:2305.16508v1 [cs.LG])",
+    "abstract": "We present a PTAS for learning random constant-depth networks. We show that for any fixed $\\epsilon>0$ and depth $i$, there is a poly-time algorithm that for any distribution on $\\sqrt{d} \\cdot \\mathbb{S}^{d-1}$ learns random Xavier networks of depth $i$, up to an additive error of $\\epsilon$. The algorithm runs in time and sample complexity of $(\\bar{d})^{\\mathrm{poly}(\\epsilon^{-1})}$, where $\\bar d$ is the size of the network. For some cases of sigmoid and ReLU-like activations the bound can be improved to $(\\bar{d})^{\\mathrm{polylog}(\\epsilon^{-1})}$, resulting in a quasi-poly-time algorithm for learning constant depth random networks.",
+    "link": "http://arxiv.org/abs/2305.16508",
+    "context": "Title: Most Neural Networks Are Almost Learnable. (arXiv:2305.16508v1 [cs.LG])\nAbstract: We present a PTAS for learning random constant-depth networks. We show that for any fixed $\\epsilon>0$ and depth $i$, there is a poly-time algorithm that for any distribution on $\\sqrt{d} \\cdot \\mathbb{S}^{d-1}$ learns random Xavier networks of depth $i$, up to an additive error of $\\epsilon$. The algorithm runs in time and sample complexity of $(\\bar{d})^{\\mathrm{poly}(\\epsilon^{-1})}$, where $\\bar d$ is the size of the network. For some cases of sigmoid and ReLU-like activations the bound can be improved to $(\\bar{d})^{\\mathrm{polylog}(\\epsilon^{-1})}$, resulting in a quasi-poly-time algorithm for learning constant depth random networks.",
+    "path": "papers/23/05/2305.16508.json",
+    "total_tokens": 764,
+    "translated_title": "大部分神经网络几乎是可学习的",
+    "translated_abstract": "我们提出了一个PTAS来学习随机常数深度网络。我们证明了对于任何固定的$\\epsilon>0$和深度$i$，存在一个多项式时间算法，对于$\\sqrt{d} \\cdot \\mathbb{S}^{d-1}$上的任何分布，学习随机Xavier网络的深度$i$，误差为$\\epsilon$。该算法的时间和样本复杂度为$(\\bar{d})^{\\mathrm{poly}(\\epsilon^{-1})}$，其中$\\bar d$是网络的大小。对于某些类似于Sigmoid和ReLU的激活函数，可以将误差界限改进为$(\\bar{d})^{\\mathrm{polylog}(\\epsilon^{-1})}$，从而得到一种几乎多项式时间算法来学习常数深度随机网络。",
+    "tldr": "本研究提出了一种学习随机常数深度网络的PTAS方法，对于任何固定误差和深度，几乎所有的神经网络都是可学习的。",
+    "en_tdlr": "This study proposes a PTAS method for learning random constant-depth networks and shows that almost all neural networks are learnable for any fixed error and depth."
+}

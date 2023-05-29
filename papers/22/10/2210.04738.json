@@ -1,0 +1,12 @@
+{
+    "title": "A dynamic programming algorithm for span-based nested named-entity recognition in O(n^2). (arXiv:2210.04738v2 [cs.CL] UPDATED)",
+    "abstract": "Span-based nested named-entity recognition (NER) has a cubic-time complexity using a variant of the CYK algorithm. We show that by adding a supplementary structural constraint on the search space, nested NER has a quadratic-time complexity, that is the same asymptotic complexity than the non-nested case. The proposed algorithm covers a large part of three standard English benchmarks and delivers comparable experimental results.",
+    "link": "http://arxiv.org/abs/2210.04738",
+    "context": "Title: A dynamic programming algorithm for span-based nested named-entity recognition in O(n^2). (arXiv:2210.04738v2 [cs.CL] UPDATED)\nAbstract: Span-based nested named-entity recognition (NER) has a cubic-time complexity using a variant of the CYK algorithm. We show that by adding a supplementary structural constraint on the search space, nested NER has a quadratic-time complexity, that is the same asymptotic complexity than the non-nested case. The proposed algorithm covers a large part of three standard English benchmarks and delivers comparable experimental results.",
+    "path": "papers/22/10/2210.04738.json",
+    "total_tokens": 654,
+    "translated_title": "一种O(n^2)时间复杂度的基于动态规划算法用于基于跨度的嵌套式命名实体识别",
+    "translated_abstract": "基于跨度的嵌套式命名实体识别(NER)使用修改版CYK算法的立方时间复杂度。我们通过在搜索空间上增加一种补充的结构约束，展示了嵌套式NER具有二次时间复杂度，与非嵌套式情况的渐近复杂度相同。所提出的算法覆盖了英语标准基准测试三个标准，且实验结果也可以与之相比。",
+    "tldr": "本文提出了一种基于动态规划算法的基于跨度的嵌套式命名实体识别方法，时间复杂度为O(n^2)，其在英语标准基准测试三个标准中表现良好，具有实际应用价值。",
+    "en_tdlr": "This paper proposes a dynamic programming algorithm for span-based nested named-entity recognition with a time complexity of O(n^2), which delivers comparable experimental results on three standard English benchmarks and has practical applications."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Automating the Analysis of Institutional Design in International Agreements. (arXiv:2305.16750v1 [cs.CL])",
+    "abstract": "This paper explores the automatic knowledge extraction of formal institutional design - norms, rules, and actors - from international agreements. The focus was to analyze the relationship between the visibility and centrality of actors in the formal institutional design in regulating critical aspects of cultural heritage relations. The developed tool utilizes techniques such as collecting legal documents, annotating them with Institutional Grammar, and using graph analysis to explore the formal institutional design. The system was tested against the 2003 UNESCO Convention for the Safeguarding of the Intangible Cultural Heritage.",
+    "link": "http://arxiv.org/abs/2305.16750",
+    "context": "Title: Automating the Analysis of Institutional Design in International Agreements. (arXiv:2305.16750v1 [cs.CL])\nAbstract: This paper explores the automatic knowledge extraction of formal institutional design - norms, rules, and actors - from international agreements. The focus was to analyze the relationship between the visibility and centrality of actors in the formal institutional design in regulating critical aspects of cultural heritage relations. The developed tool utilizes techniques such as collecting legal documents, annotating them with Institutional Grammar, and using graph analysis to explore the formal institutional design. The system was tested against the 2003 UNESCO Convention for the Safeguarding of the Intangible Cultural Heritage.",
+    "path": "papers/23/05/2305.16750.json",
+    "total_tokens": 691,
+    "translated_title": "自动化国际协议中制度设计分析",
+    "translated_abstract": "本文探讨如何自动地从国际协议中提取正式制度设计、规范、规则和参与者等知识。重点是分析规范文化遗产关系关键方面的正式制度设计中参与者的可见性和重要性之间的关系。所开发的工具采用了多种技术，如收集法律文件、用制度语法注释这些文件并使用图分析方法来探索正式制度设计。该系统对2003年《无形文化遗产保护公约》进行了测试。",
+    "tldr": "本文研究了从国际协议中自动化提取正式制度设计的知识的方法，并通过对于《无形文化遗产保护公约》的测试分析了正式制度设计中参与者的可见性和重要性之间的关系。",
+    "en_tdlr": "This paper explores the automated extraction of knowledge on formal institutional design, norms, rules and actors from international agreements, and analyzes the relationship between the visibility and centrality of actors in the formal institutional design for regulating aspects of cultural heritage relations, with the developed tool tested against the 2003 UNESCO Convention for the Safeguarding of the Intangible Cultural Heritage."
+}

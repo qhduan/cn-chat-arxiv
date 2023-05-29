@@ -1,0 +1,12 @@
+{
+    "title": "FairDP: Certified Fairness with Differential Privacy. (arXiv:2305.16474v1 [cs.LG])",
+    "abstract": "This paper introduces FairDP, a novel mechanism designed to simultaneously ensure differential privacy (DP) and fairness. FairDP operates by independently training models for distinct individual groups, using group-specific clipping terms to assess and bound the disparate impacts of DP. Throughout the training process, the mechanism progressively integrates knowledge from group models to formulate a comprehensive model that balances privacy, utility, and fairness in downstream tasks. Extensive theoretical and empirical analyses validate the efficacy of FairDP, demonstrating improved trade-offs between model utility, privacy, and fairness compared with existing methods.",
+    "link": "http://arxiv.org/abs/2305.16474",
+    "context": "Title: FairDP: Certified Fairness with Differential Privacy. (arXiv:2305.16474v1 [cs.LG])\nAbstract: This paper introduces FairDP, a novel mechanism designed to simultaneously ensure differential privacy (DP) and fairness. FairDP operates by independently training models for distinct individual groups, using group-specific clipping terms to assess and bound the disparate impacts of DP. Throughout the training process, the mechanism progressively integrates knowledge from group models to formulate a comprehensive model that balances privacy, utility, and fairness in downstream tasks. Extensive theoretical and empirical analyses validate the efficacy of FairDP, demonstrating improved trade-offs between model utility, privacy, and fairness compared with existing methods.",
+    "path": "papers/23/05/2305.16474.json",
+    "total_tokens": 777,
+    "translated_title": "FairDP: 具有差分隐私认证的公平性保障",
+    "translated_abstract": "本文介绍了一种名为FairDP的新型机制，旨在同时确保差分隐私(DP)和公平性。FairDP通过独立为不同的个体群体训练模型，在使用组特定的剪裁项来评估和限制DP的差异影响的同时操作。在训练过程中，该机制逐步整合来自群体模型的知识，制定综合模型以平衡隐私、效用和公平性的下游任务。广泛的理论和实证分析验证了FairDP的功效，与现有方法相比，展示了更好的模型效益、隐私和公平性的权衡。",
+    "tldr": "FairDP是一种同时确保差分隐私和公平性的新型机制，通过独立为不同的个体群体训练模型，在训练过程中逐步整合来自群体模型的知识，制定综合模型以平衡隐私、效用和公平性的下游任务。相比现有方法，FairDP展示了更好的模型效益、隐私和公平性的权衡。",
+    "en_tdlr": "FairDP is a new mechanism that ensures both differential privacy and fairness by independently training models for different individual groups and progressively integrating knowledge from group models to formulate a comprehensive model that balances privacy, utility, and fairness in downstream tasks. FairDP demonstrates improved trade-offs between model utility, privacy, and fairness compared with existing methods."
+}
