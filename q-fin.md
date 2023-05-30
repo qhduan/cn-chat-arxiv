@@ -10,17 +10,18 @@
 | [^6] | [A Comparative Analysis of Portfolio Optimization Using Mean-Variance, Hierarchical Risk Parity, and Reinforcement Learning Approaches on the Indian Stock Market.](http://arxiv.org/abs/2305.17523) | 本文比较了均值方差、分层风险平价和强化学习方法在印度股票市场上投资组合优化的表现，结果表明，基于强化学习技术的方法在年度平均回报率、风险和Sharpe比率方面都明显优于其他两种方法。 |
 | [^7] | [Macroeconomic Effects of Inflation Targeting: A Survey of the Empirical Literature.](http://arxiv.org/abs/2305.17474) | 本文综述了通货膨胀目标的实证文献。有坚实的经验证据表明，规模更大、更发达的国家更有可能采用IT制度；实证证据未能提供令人信服的证据，表明IT本身可以作为稳定通货膨胀预期和减少通货膨胀持久性的有效工具；针对发达经济体的实证研究未能提供有力证据表明IT对通货膨胀表现的有益影响，而有一些证据表明IT制度的收益在新兴市场经济体中更为普遍。 |
 | [^8] | [Financial misstatement detection: a realistic evaluation.](http://arxiv.org/abs/2305.17457) | 本文提出了一个新的、现实的财务误报检测评估框架，并发现评估过程显著影响系统性能，分析了不同模型和特征类型在新的现实框架下的表现。 |
-| [^9] | [Duration Dependence and Heterogeneity: Learning from Early Notice of Layoff.](http://arxiv.org/abs/2305.17344) | 本文通过解雇通知的长度变化，区分了失业期限制和不良选择对失业退出率的影响，发现48周失业退出率的下降主要是由于留存求职者的质量恶化造成的， |
-| [^10] | [Critical density for network reconstruction.](http://arxiv.org/abs/2305.17285) | 通过观察各种理论和实证分布的跨行资产和负债的临界密度的比例尺，我们发现网络重构的方法表现出“无法重构”阶段，在该阶段至少有一个约束条件在典型单个实现中远离其预期值。 |
-| [^11] | [Local Sharing and Sociality Effects on Wealth Inequality in a Simple Artificial Society.](http://arxiv.org/abs/2305.17177) | 通过一个简单的模拟社会的实验，研究发现，地方共享资源会减少总财富并增加财富不平等。进化选择了反对地方共享和社交行为的基因。Gini系数不适用于测量这些变化。 |
-| [^12] | [Robust Detection of Lead-Lag Relationships in Lagged Multi-Factor Models.](http://arxiv.org/abs/2305.06704) | 该论文提出了一种基于聚类的鲁棒检测滞后多因子模型中的领先滞后关系方法，并使用各种聚类技术和相似度度量方法实现了对领先滞后估计的聚合，从而强化了对原始宇宙中的一致关系的识别。 |
-| [^13] | [Price Discovery for Derivatives.](http://arxiv.org/abs/2302.13426) | 本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。 |
-| [^14] | [A discussion of stochastic dominance and mean-CVaR optimal portfolio problems based on mean-variance-mixture models.](http://arxiv.org/abs/2202.02488) | 本文通过NMVM分布，获得了均值-条件价值风险下的前沿投资组合的闭合形式表达式。 |
-| [^15] | [The Interpretability of LSTM Models for Predicting Oil Company Stocks: impacts of correlated features.](http://arxiv.org/abs/2201.00350) | 研究探究了相关特征对用于预测石油公司股票的LSTM模型的可解释性的影响。结果表明，添加与石油股票相关的特征并不会提高LSTM模型的可解释性，因此应谨慎依靠LSTM模型进行股票市场决策。 |
-| [^16] | [Analysis of taste heterogeneity in commuters travel decisions using joint parking and mode choice model: A case from urban India.](http://arxiv.org/abs/2109.01045) | 本研究通过将停车选择作为出行模式选择模型的内生决策，综合考虑态度因素和建筑环境变量，填补了单独考虑出行方式和停车选择行为之间权衡的空白。 |
-| [^17] | [Active labour market policies for the long-term unemployed: New evidence from causal machine learning.](http://arxiv.org/abs/2106.10141) | 该研究使用因果机器学习分析了德国长期失业人员的三个工作搜索援助和培训计划的有效性，结果显示参与者受益匪浅，其中就业服务效果最好。此外，女性受当地劳动力市场条件的影响有所不同。提出使用数据驱动规则更有效地分配失业人员到相应计划。 |
-| [^18] | [Social Diversity and Spread of Pandemic: Evidence from India.](http://arxiv.org/abs/2011.05839) | 本文研究了印度种姓多样性与COVID-19传播速度的关系。研究发现，在病例浓度阈值方面，种姓同质化地区需要更长的时间，使用每日病例进行分析也发现其传播增长较慢。这些结果持续了约76天，即使在考虑其他因素后也依然成立。 |
-| [^19] | [Quickest Detection of Ecological Regimes for Dynamic Resource Management.](http://arxiv.org/abs/2005.11500) | 本文研究了生态体制转变下的可再生资源的随机动态，提出了一个帕累托最优的检测框架，实现最小化经济主体察觉转变的延迟，应用该框架于Sao Paulo的Cantareira水库案例中，对导致水库枯竭和随后的供水危机的事件进行了研究。 |
+| [^9] | [On random number generators and practical market efficiency.](http://arxiv.org/abs/2305.17419) | 本研究利用随机数生成器来检测资本市场中信息的有效性，发现市场效率因年份和事件影响而变化，并与公司规模和投资者群体有关。 |
+| [^10] | [Duration Dependence and Heterogeneity: Learning from Early Notice of Layoff.](http://arxiv.org/abs/2305.17344) | 本文通过解雇通知的长度变化，区分了失业期限制和不良选择对失业退出率的影响，发现48周失业退出率的下降主要是由于留存求职者的质量恶化造成的， |
+| [^11] | [Critical density for network reconstruction.](http://arxiv.org/abs/2305.17285) | 通过观察各种理论和实证分布的跨行资产和负债的临界密度的比例尺，我们发现网络重构的方法表现出“无法重构”阶段，在该阶段至少有一个约束条件在典型单个实现中远离其预期值。 |
+| [^12] | [Local Sharing and Sociality Effects on Wealth Inequality in a Simple Artificial Society.](http://arxiv.org/abs/2305.17177) | 通过一个简单的模拟社会的实验，研究发现，地方共享资源会减少总财富并增加财富不平等。进化选择了反对地方共享和社交行为的基因。Gini系数不适用于测量这些变化。 |
+| [^13] | [Robust Detection of Lead-Lag Relationships in Lagged Multi-Factor Models.](http://arxiv.org/abs/2305.06704) | 该论文提出了一种基于聚类的鲁棒检测滞后多因子模型中的领先滞后关系方法，并使用各种聚类技术和相似度度量方法实现了对领先滞后估计的聚合，从而强化了对原始宇宙中的一致关系的识别。 |
+| [^14] | [Price Discovery for Derivatives.](http://arxiv.org/abs/2302.13426) | 本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。 |
+| [^15] | [A discussion of stochastic dominance and mean-CVaR optimal portfolio problems based on mean-variance-mixture models.](http://arxiv.org/abs/2202.02488) | 本文通过NMVM分布，获得了均值-条件价值风险下的前沿投资组合的闭合形式表达式。 |
+| [^16] | [The Interpretability of LSTM Models for Predicting Oil Company Stocks: impacts of correlated features.](http://arxiv.org/abs/2201.00350) | 研究探究了相关特征对用于预测石油公司股票的LSTM模型的可解释性的影响。结果表明，添加与石油股票相关的特征并不会提高LSTM模型的可解释性，因此应谨慎依靠LSTM模型进行股票市场决策。 |
+| [^17] | [Analysis of taste heterogeneity in commuters travel decisions using joint parking and mode choice model: A case from urban India.](http://arxiv.org/abs/2109.01045) | 本研究通过将停车选择作为出行模式选择模型的内生决策，综合考虑态度因素和建筑环境变量，填补了单独考虑出行方式和停车选择行为之间权衡的空白。 |
+| [^18] | [Active labour market policies for the long-term unemployed: New evidence from causal machine learning.](http://arxiv.org/abs/2106.10141) | 该研究使用因果机器学习分析了德国长期失业人员的三个工作搜索援助和培训计划的有效性，结果显示参与者受益匪浅，其中就业服务效果最好。此外，女性受当地劳动力市场条件的影响有所不同。提出使用数据驱动规则更有效地分配失业人员到相应计划。 |
+| [^19] | [Social Diversity and Spread of Pandemic: Evidence from India.](http://arxiv.org/abs/2011.05839) | 本文研究了印度种姓多样性与COVID-19传播速度的关系。研究发现，在病例浓度阈值方面，种姓同质化地区需要更长的时间，使用每日病例进行分析也发现其传播增长较慢。这些结果持续了约76天，即使在考虑其他因素后也依然成立。 |
+| [^20] | [Quickest Detection of Ecological Regimes for Dynamic Resource Management.](http://arxiv.org/abs/2005.11500) | 本文研究了生态体制转变下的可再生资源的随机动态，提出了一个帕累托最优的检测框架，实现最小化经济主体察觉转变的延迟，应用该框架于Sao Paulo的Cantareira水库案例中，对导致水库枯竭和随后的供水危机的事件进行了研究。 |
 
 # 详细
 
@@ -136,7 +137,21 @@
 
     In this work, we examine the evaluation process for the task of detecting financial reports with a high risk of containing a misstatement. This task is often referred to, in the literature, as ``misstatement detection in financial reports''. We provide an extensive review of the related literature. We propose a new, realistic evaluation framework for the task which, unlike a large part of the previous work: (a) focuses on the misstatement class and its rarity, (b) considers the dimension of time when splitting data into training and test and (c) considers the fact that misstatements can take a long time to detect. Most importantly, we show that the evaluation process significantly affects system performance, and we analyze the performance of different models and feature types in the new realistic framework.
     
-[^9]: 基于解雇提前通知长度的失业期限制和异质性研究
+[^9]: 随机数生成器与实际市场效率研究
+
+    On random number generators and practical market efficiency. (arXiv:2305.17419v1 [q-fin.ST])
+
+    [http://arxiv.org/abs/2305.17419](http://arxiv.org/abs/2305.17419)
+
+    本研究利用随机数生成器来检测资本市场中信息的有效性，发现市场效率因年份和事件影响而变化，并与公司规模和投资者群体有关。
+
+    
+
+    现代主流金融理论基于有效市场假说，认为相关信息迅速纳入资产定价。先前的运筹研究文献中仅有少量研究利用为随机数生成器设计的检测方法来检查这些信息效率。将二元日收益视为硬件随机数发生器类比，重叠置换检验表明，这些时间序列具有特异性的循环模式。与以往的研究相反，我们将分析分为年度和公司层面两部分，并对纳斯达克上市公司进行长期效率研究，缓解交易噪声的影响，使市场能够真实地消化新信息。结果表明，信息效率在不同年份中有所不同，并反映了金融危机等大规模市场影响。我们还展示了信息效率与公司规模和投资者群体有关。
+
+    Modern mainstream financial theory is underpinned by the efficient market hypothesis, which posits the rapid incorporation of relevant information into asset pricing. Limited prior studies in the operational research literature have investigated the use of tests designed for random number generators to check for these informational efficiencies. Treating binary daily returns as a hardware random number generator analogue, tests of overlapping permutations have indicated that these time series feature idiosyncratic recurrent patterns. Contrary to prior studies, we split our analysis into two streams at the annual and company level, and investigate longer-term efficiency over a larger time frame for Nasdaq-listed public companies to diminish the effects of trading noise and allow the market to realistically digest new information. Our results demonstrate that information efficiency varies across different years and reflects large-scale market impacts such as financial crises. We also sho
+    
+[^10]: 基于解雇提前通知长度的失业期限制和异质性研究
 
     Duration Dependence and Heterogeneity: Learning from Early Notice of Layoff. (arXiv:2305.17344v1 [econ.GN])
 
@@ -150,7 +165,7 @@
 
     This paper presents a novel approach to distinguish the impact of duration-dependent forces and adverse selection on the exit rate from unemployment by leveraging variation in the length of layoff notices. I formulate a Mixed Hazard model in discrete time and specify the conditions under which variation in notice length enables the identification of structural duration dependence while allowing for arbitrary heterogeneity across workers. Utilizing data from the Displaced Worker Supplement (DWS), I employ the Generalized Method of Moments (GMM) to estimate the model. According to the estimates, the decline in the exit rate over the first 48 weeks of unemployment is largely due to the worsening composition of surviving jobseekers. Furthermore, I find that an individual's likelihood of exiting unemployment decreases initially, then increases until unemployment benefits run out, and remains steady thereafter. These findings are consistent with a standard search model where returns to searc
     
-[^10]: 网络重构的关键密度。
+[^11]: 网络重构的关键密度。
 
     Critical density for network reconstruction. (arXiv:2305.17285v1 [physics.soc-ph])
 
@@ -164,7 +179,7 @@
 
     The structure of many financial networks is protected by privacy and has to be inferred from aggregate observables. Here we consider one of the most successful network reconstruction methods, producing random graphs with desired link density and where the observed constraints (related to the market size of each node) are replicated as averages over the graph ensemble, but not in individual realizations. We show that there is a minimum critical link density below which the method exhibits an `unreconstructability' phase where at least one of the constraints, while still reproduced on average, is far from its expected value in typical individual realizations. We establish the scaling of the critical density for various theoretical and empirical distributions of interbank assets and liabilities, showing that the threshold differs from the critical densities for the onset of the giant component and of the unique component in the graph. We also find that, while dense networks are always rec
     
-[^11]: 一个简单的人工社会中地方共享和社交性对财富不平等的影响
+[^12]: 一个简单的人工社会中地方共享和社交性对财富不平等的影响
 
     Local Sharing and Sociality Effects on Wealth Inequality in a Simple Artificial Society. (arXiv:2305.17177v1 [physics.soc-ph])
 
@@ -178,7 +193,7 @@
 
     Redistribution of resources within a group as a method to reduce wealth inequality is a current area of debate. The evolutionary path to or away from wealth sharing is also a subject of active research. In order to investigate effects and evolution of wealth sharing, societies are simulated using a minimal model of a complex adapting system. These simulations demonstrate, for this artificial foraging society, that local sharing of resources reduces the economy's total wealth and increases wealth inequality. Evolutionary pressures strongly select against local sharing, whether globally or within a individual's clan, and select for asocial behaviors. By holding constant the gene for sharing resources among neighbors, from rich to poor, either with everyone or only within members of the same clan, social behavior is selected but total wealth and mean age are substantially reduced relative to non-sharing societies. The Gini coefficient is shown to be ineffective in measuring these changes 
     
-[^12]: 滞后多因子模型中领先滞后关系的鲁棒检测
+[^13]: 滞后多因子模型中领先滞后关系的鲁棒检测
 
     Robust Detection of Lead-Lag Relationships in Lagged Multi-Factor Models. (arXiv:2305.06704v1 [stat.ML])
 
@@ -192,7 +207,7 @@
 
     In multivariate time series systems, key insights can be obtained by discovering lead-lag relationships inherent in the data, which refer to the dependence between two time series shifted in time relative to one another, and which can be leveraged for the purposes of control, forecasting or clustering. We develop a clustering-driven methodology for the robust detection of lead-lag relationships in lagged multi-factor models. Within our framework, the envisioned pipeline takes as input a set of time series, and creates an enlarged universe of extracted subsequence time series from each input time series, by using a sliding window approach. We then apply various clustering techniques (e.g, K-means++ and spectral clustering), employing a variety of pairwise similarity measures, including nonlinear ones. Once the clusters have been extracted, lead-lag estimates across clusters are aggregated to enhance the identification of the consistent relationships in the original universe. Since multi
     
-[^13]: 期权的价格发现
+[^14]: 期权的价格发现
 
     Price Discovery for Derivatives. (arXiv:2302.13426v5 [econ.GN] UPDATED)
 
@@ -206,7 +221,7 @@
 
     We obtain a basic theory of price discovery across derivative markets with respect to higher-order information, using a model where an agent with general private information regarding state probabilities is allowed to trade arbitrary portfolios of state-contingent claims. In an equivalent options formulation, the informed agent has private information regarding arbitrary aspects of the payoff distribution of an underlying asset and is allowed to trade arbitrary option portfolios. We characterize, in closed form, the informed demand, price impact, and information efficiency of prices. Our results offer a theory of insider trading on higher moments of the underlying payoff as a special case. The informed demand formula prescribes option strategies for trading on any given moment and extends those used in practice for, e.g. volatility trading.
     
-[^14]: 基于均值-方差-混合模型的随机优势和均值-条件价值风险最优投资组合问题讨论
+[^15]: 基于均值-方差-混合模型的随机优势和均值-条件价值风险最优投资组合问题讨论
 
     A discussion of stochastic dominance and mean-CVaR optimal portfolio problems based on mean-variance-mixture models. (arXiv:2202.02488v4 [q-fin.MF] UPDATED)
 
@@ -220,7 +235,7 @@
 
     The classical Markowitz mean-variance model uses variance as a risk measure and calculates frontier portfolios in closed form by using standard optimization techniques. For general mean-risk models such closed form optimal portfolios are difficult to obtain. In this note, we obtain closed form expressions for frontier portfolios under mean-CVaR criteria when return vectors have normal mean-variance mixture (NMVM) distributions. To achieve this goal, we first present necessary conditions for stochastic dominance within the class of one dimensional NMVM models and then we apply them to portfolio optimization problems. Our main result in this paper states that when return vectors follow NMVM distributions the associated mean- CVaR frontier portfolios can be obtained by optimizing a Markowitz mean-variance model with an appropriately adjusted return vector
     
-[^15]: LSTM模型用于预测石油公司股票的可解释性：相关特征的影响
+[^16]: LSTM模型用于预测石油公司股票的可解释性：相关特征的影响
 
     The Interpretability of LSTM Models for Predicting Oil Company Stocks: impacts of correlated features. (arXiv:2201.00350v3 [q-fin.ST] UPDATED)
 
@@ -234,7 +249,7 @@
 
     Oil companies are among the largest companies in the world whose economic indicators in the global stock market have a great impact on the world economy and market due to their relation to gold, crude oil, and the dollar. This study investigates the impact of correlated features on the interpretability of Long Short-Term Memory (LSTM) models for predicting oil company stocks. To achieve this, we designed a Standard Long Short-Term Memory (LSTM) network and trained it using various correlated datasets. Our approach aims to improve the accuracy of stock price prediction by considering the multiple factors affecting the market, such as crude oil prices, gold prices, and the US dollar. The results demonstrate that adding a feature correlated with oil stocks does not improve the interpretability of LSTM models. These findings suggest that while LSTM models may be effective in predicting stock prices, their interpretability may be limited. Caution should be exercised when relying solely on L
     
-[^16]: 利用联合停车和出行模式选择模型分析通勤者出行决策的口味异质性：以印度城市为例
+[^17]: 利用联合停车和出行模式选择模型分析通勤者出行决策的口味异质性：以印度城市为例
 
     Analysis of taste heterogeneity in commuters travel decisions using joint parking and mode choice model: A case from urban India. (arXiv:2109.01045v3 [econ.GN] UPDATED)
 
@@ -248,7 +263,7 @@
 
     The concept of transportation demand management (TDM) upholds the development of sustainable mobility through the triumph of optimally balanced transport modal share in cities. The modal split management directly reflects on TDM of each transport subsystem, including parking. In developing countries, the policy-makers have largely focused on supply-side measures, yet demand-side measures have remained unaddressed in policy implications. Ample literature is available presenting responses of TDM strategies, but most studies account mode choice and parking choice behaviour separately rather than considering trade-offs between them. Failing to do so may lead to biased model estimates and impropriety in policy implications. This paper seeks to fill this gap by admitting parking choice as an endogenous decision within the model of mode choice behaviour. This study integrates attitudinal factors and built-environment variables in addition to parking and travel attributes for developing compre
     
-[^17]: 长期失业人员的积极劳动力市场政策：来自因果机器学习的新证据
+[^18]: 长期失业人员的积极劳动力市场政策：来自因果机器学习的新证据
 
     Active labour market policies for the long-term unemployed: New evidence from causal machine learning. (arXiv:2106.10141v2 [econ.GN] UPDATED)
 
@@ -262,7 +277,7 @@
 
     Active labor market programs are important instruments used by European employment agencies to help the unemployed find work. Investigating large administrative data on German long-term unemployed persons, we analyze the effectiveness of three job search assistance and training programs using Causal Machine Learning. Participants benefit from quickly realizing and long-lasting positive effects across all programs, with placement services being the most effective. For women, we find differential effects in various characteristics. Especially, women benefit from better local labor market conditions. We propose more effective data-driven rules for allocating the unemployed to the respective labor market programs that could be employed by decision-makers.
     
-[^18]: 社会多样性与疫情传播：来自印度的证据
+[^19]: 社会多样性与疫情传播：来自印度的证据
 
     Social Diversity and Spread of Pandemic: Evidence from India. (arXiv:2011.05839v2 [econ.GN] UPDATED)
 
@@ -276,7 +291,7 @@
 
     Compliance with the public health guidelines during a pandemic requires coordinated community actions which might be undermined in socially diverse areas. In this paper, we assess the relationship between caste-group diversity and the spread of COVID-19 infection during the nationwide lockdown and unlocking period in India. On the extensive margin, we find that caste-homogeneous districts systematically took more days to cross the concentration thresholds of 50 to 500 cases. Estimates on the intensive margin, using daily cases, further show that caste-homogeneous districts experienced slower growth in infection. Overall, the effects of caste-group homogeneity remained positive and statistically significant for 2.5 months (about 76 days) after the beginning of the lockdown and weakened with subsequent phases of the lockdown. The results hold even after accounting for the emergence of initial hotspots before lockdown, broader diffusion patterns through daily fixed effects, region fixed e
     
-[^19]: 动态资源管理中生态体制最快检测方案研究
+[^20]: 动态资源管理中生态体制最快检测方案研究
 
     Quickest Detection of Ecological Regimes for Dynamic Resource Management. (arXiv:2005.11500v6 [econ.GN] UPDATED)
 
