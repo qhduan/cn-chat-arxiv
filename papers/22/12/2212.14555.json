@@ -1,0 +1,11 @@
+{
+    "title": "Relative Probability on Finite Outcome Spaces: A Systematic Examination of its Axiomatization, Properties, and Applications. (arXiv:2212.14555v3 [stat.ML] UPDATED)",
+    "abstract": "This work proposes a view of probability as a relative measure rather than an absolute one. To demonstrate this concept, we focus on finite outcome spaces and develop three fundamental axioms that establish requirements for relative probability functions. We then provide a library of examples of these functions and a system for composing them. Additionally, we discuss a relative version of Bayesian inference and its digital implementation. Finally, we prove the topological closure of the relative probability space, highlighting its ability to preserve information under limits.",
+    "link": "http://arxiv.org/abs/2212.14555",
+    "context": "Title: Relative Probability on Finite Outcome Spaces: A Systematic Examination of its Axiomatization, Properties, and Applications. (arXiv:2212.14555v3 [stat.ML] UPDATED)\nAbstract: This work proposes a view of probability as a relative measure rather than an absolute one. To demonstrate this concept, we focus on finite outcome spaces and develop three fundamental axioms that establish requirements for relative probability functions. We then provide a library of examples of these functions and a system for composing them. Additionally, we discuss a relative version of Bayesian inference and its digital implementation. Finally, we prove the topological closure of the relative probability space, highlighting its ability to preserve information under limits.",
+    "path": "papers/22/12/2212.14555.json",
+    "total_tokens": 736,
+    "translated_title": "有限结果空间上的相对概率：其公理化、属性和应用的系统考察",
+    "translated_abstract": "本文提出了将概率看作相对度量而非绝对度量的观点。为了证明这一概念，我们将焦点放在有限结果空间上，并建立了三个基本公理，以确立相对概率函数的要求。我们提供了一组这些函数的实例库和一个组合系统。此外，我们讨论了相对贝叶斯推断及其数字实现。最后，我们证明了相对概率空间的拓扑闭包，突显了其在极限下保留信息的能力。",
+    "tldr": "本文提出了将概率看作相对度量的观点，建立了有限结果空间上相对概率函数的公理化，提供了其实例和组合系统，并讨论了相对贝叶斯推断及其数字实现，证明了相对概率空间的拓扑闭包，突显了其在极限下保留信息的能力。"
+}

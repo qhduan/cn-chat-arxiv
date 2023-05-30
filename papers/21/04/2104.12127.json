@@ -1,0 +1,12 @@
+{
+    "title": "Performance of Empirical Risk Minimization for Linear Regression with Dependent Data. (arXiv:2104.12127v5 [econ.EM] UPDATED)",
+    "abstract": "This paper establishes bounds on the performance of empirical risk minimization for large-dimensional linear regression. We generalize existing results by allowing the data to be dependent and heavy-tailed. The analysis covers both the cases of identically and heterogeneously distributed observations. Our analysis is nonparametric in the sense that the relationship between the regressand and the regressors is not specified. The main results of this paper show that the empirical risk minimizer achieves the optimal performance (up to a logarithmic factor) in a dependent data setting.",
+    "link": "http://arxiv.org/abs/2104.12127",
+    "context": "Title: Performance of Empirical Risk Minimization for Linear Regression with Dependent Data. (arXiv:2104.12127v5 [econ.EM] UPDATED)\nAbstract: This paper establishes bounds on the performance of empirical risk minimization for large-dimensional linear regression. We generalize existing results by allowing the data to be dependent and heavy-tailed. The analysis covers both the cases of identically and heterogeneously distributed observations. Our analysis is nonparametric in the sense that the relationship between the regressand and the regressors is not specified. The main results of this paper show that the empirical risk minimizer achieves the optimal performance (up to a logarithmic factor) in a dependent data setting.",
+    "path": "papers/21/04/2104.12127.json",
+    "total_tokens": 688,
+    "translated_title": "带依赖数据的线性回归经验风险最小化的性能",
+    "translated_abstract": "本文对大维线性回归问题的经验风险最小化提出了性能界限。我们通过考虑数据间的依赖和厚尾性质，推广了现有结果。该分析涵盖了同分布观测和异分布观测的情况。我们的分析在回归因变量和解释变量之间关系未确定的非参数设定下进行。本文的主要结果表明，在带有依赖数据的情形下，经验风险最小化器实现了最佳性能（除了一个对数因子）。",
+    "tldr": "本文提出了将现有线性回归结果推广到具有数据依赖性的情况下的解决方案，分析结果表明，带有依赖数据的经验风险最小化方法可以实现最优性能（除对数因子外）。",
+    "en_tdlr": "This paper proposes a solution to generalize existing linear regression results to cases with data dependencies, and the analysis shows that the empirical risk minimization method with dependent data achieves optimal performance (except for a logarithmic factor)."
+}

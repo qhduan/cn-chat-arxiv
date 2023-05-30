@@ -1,0 +1,12 @@
+{
+    "title": "Coarse Information Design. (arXiv:2305.18020v1 [econ.TH])",
+    "abstract": "We study an information design problem with continuous state and discrete signal space. We find that the designer's interim value function affects the solution only through its curvature. There is a dual relation between the prior distribution and the marginal value function. Under convex value functions, the optimal information structure is interval-partitional. Moreover, in logconcave environments, a center of scrutiny emerges and information becomes coarser for states farther from it. We locate the scrutiny center and provide comparative statics on information structure with respect to prior distributions and value functions. The analysis can be extended to S-shaped value functions.",
+    "link": "http://arxiv.org/abs/2305.18020",
+    "context": "Title: Coarse Information Design. (arXiv:2305.18020v1 [econ.TH])\nAbstract: We study an information design problem with continuous state and discrete signal space. We find that the designer's interim value function affects the solution only through its curvature. There is a dual relation between the prior distribution and the marginal value function. Under convex value functions, the optimal information structure is interval-partitional. Moreover, in logconcave environments, a center of scrutiny emerges and information becomes coarser for states farther from it. We locate the scrutiny center and provide comparative statics on information structure with respect to prior distributions and value functions. The analysis can be extended to S-shaped value functions.",
+    "path": "papers/23/05/2305.18020.json",
+    "total_tokens": 697,
+    "translated_title": "粗糙的信息设计",
+    "translated_abstract": "我们研究了一个具有连续状态和离散信号空间的信息设计问题。我们发现设计者的中间价值函数仅通过其曲率影响解决方案。先验分布与边际价值函数之间存在对偶关系。在凸价值函数下，最优信息结构是区间分段的。此外，在对数凸环境中，一个审查中心将出现并且对于远离它的状态，信息变得更粗糙。我们确定了审查中心并提供了对于先验分布和价值函数来说信息结构的比较静态分析。该分析可扩展到S形价值函数。",
+    "tldr": "该论文研究了具有连续状态和离散信号空间的信息设计问题，在凸价值函数下，最优信息结构是区间分段的，同时在对数凸环境中，信息会变得更加粗糙。",
+    "en_tdlr": "This paper studies an information design problem with continuous state and discrete signal space, finding that optimal information structure is interval-partitional under convex value functions and information becomes coarser in logconcave environments, with a center of scrutiny emerging for states farther from it."
+}

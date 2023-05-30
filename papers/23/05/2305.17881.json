@@ -1,0 +1,12 @@
+{
+    "title": "Integrating Different Informations for Portfolio Selection. (arXiv:2305.17881v1 [q-fin.PM])",
+    "abstract": "Following the idea of Bayesian learning via Gaussian mixture model, we organically combine the backward-looking information contained in the historical data and the forward-looking information implied by the market portfolio, which is affected by heterogeneous expectations and noisy trading behavior. The proposed combined estimation adaptively harmonizes these two types of information based on the degree of market efficiency and responds quickly at turning points of the market. Both simulation experiments and a global empirical test confirm that the approach is a flexible and robust forecasting tool and is applicable to various capital markets with different degrees of efficiency.",
+    "link": "http://arxiv.org/abs/2305.17881",
+    "context": "Title: Integrating Different Informations for Portfolio Selection. (arXiv:2305.17881v1 [q-fin.PM])\nAbstract: Following the idea of Bayesian learning via Gaussian mixture model, we organically combine the backward-looking information contained in the historical data and the forward-looking information implied by the market portfolio, which is affected by heterogeneous expectations and noisy trading behavior. The proposed combined estimation adaptively harmonizes these two types of information based on the degree of market efficiency and responds quickly at turning points of the market. Both simulation experiments and a global empirical test confirm that the approach is a flexible and robust forecasting tool and is applicable to various capital markets with different degrees of efficiency.",
+    "path": "papers/23/05/2305.17881.json",
+    "total_tokens": 693,
+    "translated_title": "合并不同信息的投资组合选择",
+    "translated_abstract": "本文运用贝叶斯学习通过高斯混合模型将历史数据中所包含的回溯信息和由市场组合所暗含的前瞻性信息有机地结合起来，该市场组合受到异质性预期和嘈杂的交易行为的影响。所提出的组合估计方法能够根据市场效率的程度自适应地协调这两种类型的信息，并在市场转折点快速反应。仿真实验和全球经验测试均证实，该方法是一种灵活且强大的预测工具，并适用于不同效率程度的各种资本市场。",
+    "tldr": "本文通过高斯混合模型将历史和市场信息有机地结合起来，根据市场效率程度协调信息，是一种灵活且强大的预测工具，适用于不同效率程度的资本市场。",
+    "en_tdlr": "This paper proposes a flexible and robust forecasting tool that combines historical and market information via a Gaussian mixture model, adapts to the degree of market efficiency, and is applicable to various capital markets."
+}

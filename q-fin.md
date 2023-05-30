@@ -2,172 +2,292 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [When is cross impact relevant?.](http://arxiv.org/abs/2305.16915) | 本文使用跨越 5 年的 500 种美国上市资产的每秒数据，发现价格形成是在高度流动性资产内自发发生的，然后这些资产的交易会影响较不流动但相关的产品价格。该多维价格形成机制对利率市场有影响，且挑战了财务经济学理论。 |
-| [^2] | [The Economics of Augmented and Virtual Reality.](http://arxiv.org/abs/2305.16872) | 本文探讨了增强现实（AR）和虚拟现实（VR）技术在决策场景中的经济学。分析表明，AR技术有助于理解复杂环境，而VR技术则提供接触远距离、危险或昂贵环境的途径。通过评估上下文熵和沉浸度提出了一个框架，对AR和VR应用在各种业务领域中的价值进行了评估。 |
-| [^3] | [Green portfolio optimization: A scenario analysis and stress testing based novel approach for sustainable investing in the paradigm Indian markets.](http://arxiv.org/abs/2305.16712) | 本文提出了一种基于ESG评分构建绿色投资组合的新方法，使用情景分析和压力测试预测组合未来表现，并突显了可持续投资的重要性和气候风险作为重要的风险因素。 |
-| [^4] | [Zero is Not Hero Yet: Benchmarking Zero-Shot Performance of LLMs for Financial Tasks.](http://arxiv.org/abs/2305.16633) | 研究比较了零基础LLM和RoBERTa在金融领域的性能表现，发现即使没有标记数据，ChatGPT的表现也很好，但微调后的模型通常表现更好，使用生成模型进行数据注释可能耗时 |
-| [^5] | [Causality between investor sentiment and the shares return on the Moroccan and Tunisian financial markets.](http://arxiv.org/abs/2305.16632) | 本文测试了投资者情绪与摩洛哥和突尼斯两个新兴金融市场的股票收益之间的关系。结果显示，在这两个市场中，收益影响投资者情绪。同时，股票收益可以预测情绪的变化。 |
-| [^6] | [Credit Valuation Adjustment in Financial Networks.](http://arxiv.org/abs/2305.16434) | 本研究提出了金融网络中信用估值调整的模型，分析了网络效应在CVA中的影响，找出了影响CVA的关键参数和条件，并发现网络效应导致CVA值的多模式分布。 |
-| [^7] | [Validating a dynamic input-output model for the propagation of supply and demand shocks during the COVID-19 pandemic in Belgium.](http://arxiv.org/abs/2305.16377) | 本研究验证了一个动态投入产出模型，在比利时COVID-19大流行期间松弛了Leontief生产函数，能够准确预测经济相关变量，并具有较强的鲁棒性。 |
-| [^8] | [E2EAI: End-to-End Deep Learning Framework for Active Investing.](http://arxiv.org/abs/2305.16364) | 本文提出了一个面向主动投资的端到端深度学习框架（E2EAI），包含了因子选择、因子组合、股票选择和投资组合构建的整个过程，并通过对真实股票市场数据的实验证明了其有效性。 |
-| [^9] | [Bubble Necessity Theorem.](http://arxiv.org/abs/2305.08268) | 当经济增长的长期增长率比股息增长快且长期无泡沫的利率低于股息增长时，资产价格泡沫是必要的。 |
-| [^10] | [Matching with Incomplete Preferences.](http://arxiv.org/abs/2212.02613) | 本文研究了在双边市场中考虑代理人不完整偏好时的匹配问题，提出了妥协核心和男性-（女性-）最优核心的概念以解决弱核心和强核心的问题 |
-| [^11] | [Canonical Portfolios: Optimal Asset and Signal Combination.](http://arxiv.org/abs/2202.10817) | 该论文提出了一个新的框架来分析最优资产和信号组合问题，并通过对资产回报和信号应用联合高斯结构和规范相关分析，得出了一组不相关的托管组合。该方法表现出优异的性能。 |
+| [^1] | [Exponential Utility Maximization in a Discrete Time Gaussian Framework.](http://arxiv.org/abs/2305.18136) | 本文提出了离散时间指数效用最大化问题在高斯框架下的解决方案，其中考虑了投资者知晓风险资产价格变化有延迟的情况。 |
+| [^2] | [Integrating Different Informations for Portfolio Selection.](http://arxiv.org/abs/2305.17881) | 本文通过高斯混合模型将历史和市场信息有机地结合起来，根据市场效率程度协调信息，是一种灵活且强大的预测工具，适用于不同效率程度的资本市场。 |
+| [^3] | [An Approximate Feasibility Assessment of Electric Vehicles Adoption in Nigeria: Forecast 2030.](http://arxiv.org/abs/2305.17844) | 本论文评估了尼日利亚电动汽车在2030年的可行性，并探讨了可再生能源在过渡到可持续未来中的重要性。 |
+| [^4] | [Large Banks and Systemic Risk: Insights from a Mean-Field Game Model.](http://arxiv.org/abs/2305.17830) | 本文使用均场博弈模型研究大银行对金融系统稳定性的影响，结果发现大银行在规模不太大的情况下可以对稳定性产生积极的贡献，但在违约事件中也有可能产生负面溢出效应，导致系统性风险增加。随着银行对跨行业市场的依赖程度越来越高，整个系统变得更加稳定，但罕见系统性崩溃的概率也会增加。而大银行的存在进一步放大了这种风险。 |
+| [^5] | [Monotonicity Anomalies in Scottish Local Government Elections.](http://arxiv.org/abs/2305.17741) | 本研究分析了苏格兰1,079个地方政府STV选举，发现其中41次出现某种单调性异常，且这些异常率与之前的经验研究相似，远低于大多数理论研究发现的异常率。 |
+| [^6] | [A Comparative Analysis of Portfolio Optimization Using Mean-Variance, Hierarchical Risk Parity, and Reinforcement Learning Approaches on the Indian Stock Market.](http://arxiv.org/abs/2305.17523) | 本文比较了均值方差、分层风险平价和强化学习方法在印度股票市场上投资组合优化的表现，结果表明，基于强化学习技术的方法在年度平均回报率、风险和Sharpe比率方面都明显优于其他两种方法。 |
+| [^7] | [Macroeconomic Effects of Inflation Targeting: A Survey of the Empirical Literature.](http://arxiv.org/abs/2305.17474) | 本文综述了通货膨胀目标的实证文献。有坚实的经验证据表明，规模更大、更发达的国家更有可能采用IT制度；实证证据未能提供令人信服的证据，表明IT本身可以作为稳定通货膨胀预期和减少通货膨胀持久性的有效工具；针对发达经济体的实证研究未能提供有力证据表明IT对通货膨胀表现的有益影响，而有一些证据表明IT制度的收益在新兴市场经济体中更为普遍。 |
+| [^8] | [Financial misstatement detection: a realistic evaluation.](http://arxiv.org/abs/2305.17457) | 本文提出了一个新的、现实的财务误报检测评估框架，并发现评估过程显著影响系统性能，分析了不同模型和特征类型在新的现实框架下的表现。 |
+| [^9] | [Duration Dependence and Heterogeneity: Learning from Early Notice of Layoff.](http://arxiv.org/abs/2305.17344) | 本文通过解雇通知的长度变化，区分了失业期限制和不良选择对失业退出率的影响，发现48周失业退出率的下降主要是由于留存求职者的质量恶化造成的， |
+| [^10] | [Critical density for network reconstruction.](http://arxiv.org/abs/2305.17285) | 通过观察各种理论和实证分布的跨行资产和负债的临界密度的比例尺，我们发现网络重构的方法表现出“无法重构”阶段，在该阶段至少有一个约束条件在典型单个实现中远离其预期值。 |
+| [^11] | [Local Sharing and Sociality Effects on Wealth Inequality in a Simple Artificial Society.](http://arxiv.org/abs/2305.17177) | 通过一个简单的模拟社会的实验，研究发现，地方共享资源会减少总财富并增加财富不平等。进化选择了反对地方共享和社交行为的基因。Gini系数不适用于测量这些变化。 |
+| [^12] | [Robust Detection of Lead-Lag Relationships in Lagged Multi-Factor Models.](http://arxiv.org/abs/2305.06704) | 该论文提出了一种基于聚类的鲁棒检测滞后多因子模型中的领先滞后关系方法，并使用各种聚类技术和相似度度量方法实现了对领先滞后估计的聚合，从而强化了对原始宇宙中的一致关系的识别。 |
+| [^13] | [Price Discovery for Derivatives.](http://arxiv.org/abs/2302.13426) | 本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。 |
+| [^14] | [A discussion of stochastic dominance and mean-CVaR optimal portfolio problems based on mean-variance-mixture models.](http://arxiv.org/abs/2202.02488) | 本文通过NMVM分布，获得了均值-条件价值风险下的前沿投资组合的闭合形式表达式。 |
+| [^15] | [The Interpretability of LSTM Models for Predicting Oil Company Stocks: impacts of correlated features.](http://arxiv.org/abs/2201.00350) | 研究探究了相关特征对用于预测石油公司股票的LSTM模型的可解释性的影响。结果表明，添加与石油股票相关的特征并不会提高LSTM模型的可解释性，因此应谨慎依靠LSTM模型进行股票市场决策。 |
+| [^16] | [Analysis of taste heterogeneity in commuters travel decisions using joint parking and mode choice model: A case from urban India.](http://arxiv.org/abs/2109.01045) | 本研究通过将停车选择作为出行模式选择模型的内生决策，综合考虑态度因素和建筑环境变量，填补了单独考虑出行方式和停车选择行为之间权衡的空白。 |
+| [^17] | [Active labour market policies for the long-term unemployed: New evidence from causal machine learning.](http://arxiv.org/abs/2106.10141) | 该研究使用因果机器学习分析了德国长期失业人员的三个工作搜索援助和培训计划的有效性，结果显示参与者受益匪浅，其中就业服务效果最好。此外，女性受当地劳动力市场条件的影响有所不同。提出使用数据驱动规则更有效地分配失业人员到相应计划。 |
+| [^18] | [Social Diversity and Spread of Pandemic: Evidence from India.](http://arxiv.org/abs/2011.05839) | 本文研究了印度种姓多样性与COVID-19传播速度的关系。研究发现，在病例浓度阈值方面，种姓同质化地区需要更长的时间，使用每日病例进行分析也发现其传播增长较慢。这些结果持续了约76天，即使在考虑其他因素后也依然成立。 |
+| [^19] | [Quickest Detection of Ecological Regimes for Dynamic Resource Management.](http://arxiv.org/abs/2005.11500) | 本文研究了生态体制转变下的可再生资源的随机动态，提出了一个帕累托最优的检测框架，实现最小化经济主体察觉转变的延迟，应用该框架于Sao Paulo的Cantareira水库案例中，对导致水库枯竭和随后的供水危机的事件进行了研究。 |
 
 # 详细
 
-[^1]: 交叉影响何时相关？
+[^1]: 在离散时间高斯框架下的指数效用最大化
 
-    When is cross impact relevant?. (arXiv:2305.16915v1 [q-fin.TR])
+    Exponential Utility Maximization in a Discrete Time Gaussian Framework. (arXiv:2305.18136v1 [q-fin.MF])
 
-    [http://arxiv.org/abs/2305.16915](http://arxiv.org/abs/2305.16915)
+    [http://arxiv.org/abs/2305.18136](http://arxiv.org/abs/2305.18136)
 
-    本文使用跨越 5 年的 500 种美国上市资产的每秒数据，发现价格形成是在高度流动性资产内自发发生的，然后这些资产的交易会影响较不流动但相关的产品价格。该多维价格形成机制对利率市场有影响，且挑战了财务经济学理论。
-
-    
-
-    一种资产的交易压力可能会影响另一种资产的价格，这种现象被称为交叉影响。本文使用跨越 5 年的 500 种美国上市资产的每秒数据，识别了使交叉影响相关的特征以解释价格回报方差。研究发现，价格形成是在高度流动性资产内自发发生的，然后这些资产的交易会影响较不流动但相关的产品价格，其影响速度受最低交易频率的限制。本文还探究了这种多维价格形成机制对利率市场的影响，发现 10 年期国债期货是主要的流动性储备，影响着利率曲线内现钞债券和期货合约的价格。这种行为挑战了财务经济学理论，该理论认为长期利率是代理人对未来短期利率的预期。
-
-    Trading pressure from one asset can move the price of another, a phenomenon referred to as cross impact. Using tick-by-tick data spanning 5 years for 500 assets listed in the United States, we identify the features that make cross-impact relevant to explain the variance of price returns. We show that price formation occurs endogenously within highly liquid assets. Then, trades in these assets influence the prices of less liquid correlated products, with an impact velocity constrained by their minimum trading frequency. We investigate the implications of such a multidimensional price formation mechanism on interest rate markets. We find that the 10-year bond future serves as the primary liquidity reservoir, influencing the prices of cash bonds and futures contracts within the interest rate curve. Such behaviour challenges the validity of the theory in Financial Economics that regards long-term rates as agents anticipations of future short term rates.
-    
-[^2]: 增强现实和虚拟现实的经济学
-
-    The Economics of Augmented and Virtual Reality. (arXiv:2305.16872v1 [econ.GN])
-
-    [http://arxiv.org/abs/2305.16872](http://arxiv.org/abs/2305.16872)
-
-    本文探讨了增强现实（AR）和虚拟现实（VR）技术在决策场景中的经济学。分析表明，AR技术有助于理解复杂环境，而VR技术则提供接触远距离、危险或昂贵环境的途径。通过评估上下文熵和沉浸度提出了一个框架，对AR和VR应用在各种业务领域中的价值进行了评估。
+    本文提出了离散时间指数效用最大化问题在高斯框架下的解决方案，其中考虑了投资者知晓风险资产价格变化有延迟的情况。
 
     
 
-    本论文探讨增强现实（AR）和虚拟现实（VR）技术在决策场景中的经济学。本文提出了两个指标：上下文熵，即环境的信息复杂度，和上下文沉浸度，即全面沉浸的价值。分析表明，AR技术有助于理解复杂的环境，而VR技术则提供了接触远距离、危险或昂贵环境的途径。本文提供了一个框架，通过评估预先存在的上下文熵和上下文沉浸度来评估AR和VR应用在各种业务领域中的价值。目标是识别出可以显著影响的沉浸式技术领域，并区分可能被过度炒作的领域。
+    本短文的目的是在基础资产具有多元正态分布的情况下提出离散时间指数效用最大化问题的解决方案。除了数学金融中通常考虑的情景外，我们还考虑了一个了解风险资产价格变化的投资者有延迟的情况。我们的解决方案基于[4]中提出的理论和猜测最优组合的方法。
 
-    This paper explores the economics of Augmented Reality (AR) and Virtual Reality (VR) technologies within decision-making contexts. Two metrics are proposed: Context Entropy, the informational complexity of an environment, and Context Immersivity, the value from full immersion. The analysis suggests that AR technologies assist in understanding complex contexts, while VR technologies provide access to distant, risky, or expensive environments. The paper provides a framework for assessing the value of AR and VR applications in various business sectors by evaluating the pre-existing context entropy and context immersivity. The goal is to identify areas where immersive technologies can significantly impact and distinguish those that may be overhyped.
+    The aim of this short note is to present a solution to the discrete time exponential utility maximization problem in a case where the underlying asset has a multivariate normal distribution. In addition to the usual setting considered in Mathematical Finance, we also consider an investor who is informed about the risky asset's price changes with a delay. Our method of solution is based on the theory developed in [4] and guessing the optimal portfolio.
     
-[^3]: 基于情景分析和压力测试的印度市场可持续投资的绿色组合优化新方法
+[^2]: 合并不同信息的投资组合选择
 
-    Green portfolio optimization: A scenario analysis and stress testing based novel approach for sustainable investing in the paradigm Indian markets. (arXiv:2305.16712v1 [q-fin.PM])
+    Integrating Different Informations for Portfolio Selection. (arXiv:2305.17881v1 [q-fin.PM])
 
-    [http://arxiv.org/abs/2305.16712](http://arxiv.org/abs/2305.16712)
+    [http://arxiv.org/abs/2305.17881](http://arxiv.org/abs/2305.17881)
 
-    本文提出了一种基于ESG评分构建绿色投资组合的新方法，使用情景分析和压力测试预测组合未来表现，并突显了可持续投资的重要性和气候风险作为重要的风险因素。
-
-    
-
-    本文提出了一种构建环保绿色组合的新方法，该方法使用ESG（环境、社会和公司治理）评分，并将环境得分作为传统平均-方差框架的第三个维度，以呈现所谓的“绿色有效前沿”。根据当前行动水平和政策以及附加市场信息，进行情景分析和压力测试，以预测绿色组合在不同情况下的未来表现。通过将绿色组合的表现与市场回报进行评估，突显了可持续投资的重要性，并将气候风险作为重要的风险因素纳入财务分析中。
-
-    In this article, we present a novel approach for the construction of an environment-friendly green portfolio using the ESG ratings, and application of the modern portfolio theory to present what we call as the ``green efficient frontier'' (wherein the environmental score is included as a third dimension to the traditional mean-variance framework). Based on the prevailing action levels and policies, as well as additional market information, scenario analyses and stress testing are conducted to anticipate the future performance of the green portfolio in varying circumstances. The performance of the green portfolio is evaluated against the market returns in order to highlight the importance of sustainable investing and recognizing climate risk as a significant risk factor in financial analysis.
-    
-[^4]: 零基础大语言模型在金融任务中的表现基准测试
-
-    Zero is Not Hero Yet: Benchmarking Zero-Shot Performance of LLMs for Financial Tasks. (arXiv:2305.16633v1 [cs.CL])
-
-    [http://arxiv.org/abs/2305.16633](http://arxiv.org/abs/2305.16633)
-
-    研究比较了零基础LLM和RoBERTa在金融领域的性能表现，发现即使没有标记数据，ChatGPT的表现也很好，但微调后的模型通常表现更好，使用生成模型进行数据注释可能耗时
+    本文通过高斯混合模型将历史和市场信息有机地结合起来，根据市场效率程度协调信息，是一种灵活且强大的预测工具，适用于不同效率程度的资本市场。
 
     
 
-    最近，像ChatGPT这样的大型语言模型已经展现出在许多零基础自然语言处理任务上的惊人表现。在本文中，我们研究了零基础LLMs在金融领域中的有效性。我们将ChatGPT与一些开源生成型LLM以及在注释数据上进行RoBERTa微调的性能在零基础模式下进行了比较。我们解决了关于数据注释、性能差距以及在金融领域使用生成模型的可行性的三个相关研究问题。我们的研究结果表明，即使没有标记数据，ChatGPT的表现也很好，但经过微调的模型通常表现更好。我们的研究还强调了使用生成型模型进行注释可能是耗时的。我们的代码库在CC BY-NC 4.0许可下公开在GitHub上。
+    本文运用贝叶斯学习通过高斯混合模型将历史数据中所包含的回溯信息和由市场组合所暗含的前瞻性信息有机地结合起来，该市场组合受到异质性预期和嘈杂的交易行为的影响。所提出的组合估计方法能够根据市场效率的程度自适应地协调这两种类型的信息，并在市场转折点快速反应。仿真实验和全球经验测试均证实，该方法是一种灵活且强大的预测工具，并适用于不同效率程度的各种资本市场。
 
-    Recently large language models (LLMs) like ChatGPT have shown impressive performance on many natural language processing tasks with zero-shot. In this paper, we investigate the effectiveness of zero-shot LLMs in the financial domain. We compare the performance of ChatGPT along with some open-source generative LLMs in zero-shot mode with RoBERTa fine-tuned on annotated data. We address three inter-related research questions on data annotation, performance gaps, and the feasibility of employing generative models in the finance domain. Our findings demonstrate that ChatGPT performs well even without labeled data but fine-tuned models generally outperform it. Our research also highlights how annotating with generative models can be time-intensive. Our codebase is publicly available on GitHub under CC BY-NC 4.0 license.
+    Following the idea of Bayesian learning via Gaussian mixture model, we organically combine the backward-looking information contained in the historical data and the forward-looking information implied by the market portfolio, which is affected by heterogeneous expectations and noisy trading behavior. The proposed combined estimation adaptively harmonizes these two types of information based on the degree of market efficiency and responds quickly at turning points of the market. Both simulation experiments and a global empirical test confirm that the approach is a flexible and robust forecasting tool and is applicable to various capital markets with different degrees of efficiency.
     
-[^5]: 投资者情绪与摩洛哥和突尼斯金融市场收益之间的因果关系
+[^3]: 尼日利亚电动汽车的可行性评估：2030年预测的探讨
 
-    Causality between investor sentiment and the shares return on the Moroccan and Tunisian financial markets. (arXiv:2305.16632v1 [q-fin.PM])
+    An Approximate Feasibility Assessment of Electric Vehicles Adoption in Nigeria: Forecast 2030. (arXiv:2305.17844v1 [eess.SY])
 
-    [http://arxiv.org/abs/2305.16632](http://arxiv.org/abs/2305.16632)
+    [http://arxiv.org/abs/2305.17844](http://arxiv.org/abs/2305.17844)
 
-    本文测试了投资者情绪与摩洛哥和突尼斯两个新兴金融市场的股票收益之间的关系。结果显示，在这两个市场中，收益影响投资者情绪。同时，股票收益可以预测情绪的变化。
-
-    
-
-    本文旨在测试投资者情绪与摩洛哥和突尼斯两个新兴金融市场上股票利润之间的关系。使用了两个投资者情绪的间接测量指标，SENT和ARMS。这些情绪指标显示股票回报与投资者情绪之间有重要的关系。事实上，通过过去的观察来模拟投资者情绪的结果表明情绪具有弱记忆性；另一方面，情绪变化的系列具有显著的记忆性。股票回报与投资者情绪之间的Granger因果关系检验结果表明，两个研究的金融市场的收益引起投资者情绪，而不是反过来。通过估计投资者情绪、情绪变化、股票回报和股票回报变化之间的四个自回归关系，我们首先发现回报可以预测情绪变化，这与我们的假设一致。
-
-    This paper aims to test the relationship between investor sentiment and the profitability of stocks listed on two emergent financial markets, the Moroccan and Tunisian ones. Two indirect measures of investor sentiment are used, SENT and ARMS. These sentiment indicators show that there is an important relationship between the stocks returns and investor sentiment. Indeed, the results of modeling investor sentiment by past observations show that sentiment has weak memory; on the other hand, series of changes in sentiment have significant memory. The results of the Granger causality test between stock return and investor sentiment show us that profitability causes investor sentiment and not the other way around for the two financial markets studied.Thanks to four autoregressive relationships estimated between investor sentiment, change in sentiment, stock return and change in stock return, we find firstly that the returns predict the changes in sentiments which confirms with our hypothesi
-    
-[^6]: 金融网络中的信用估值调整
-
-    Credit Valuation Adjustment in Financial Networks. (arXiv:2305.16434v1 [q-fin.RM])
-
-    [http://arxiv.org/abs/2305.16434](http://arxiv.org/abs/2305.16434)
-
-    本研究提出了金融网络中信用估值调整的模型，分析了网络效应在CVA中的影响，找出了影响CVA的关键参数和条件，并发现网络效应导致CVA值的多模式分布。
+    本论文评估了尼日利亚电动汽车在2030年的可行性，并探讨了可再生能源在过渡到可持续未来中的重要性。
 
     
 
-    信用估值调整涵盖了在考虑对手方违约概率的情况下衍生品合同价值的差异。但是，在合同网络的背景下，直接对手方的违约概率可能会极大地依赖于间接对手方的违约概率。我们开发了一个模型，以阐明这些网络效应何时和如何对CVA产生影响，特别是在对手方违约之间存在相关性的情况下。我们提供了近似的分析解，可用于确定关键参数（如网络度、杠杆和相关性）的条件，其中网络效应导致CVA的差异很大（例如大于50%），因此具有实际应用。此外，我们发现网络效应引发CVA价值的多模式分布。
+    为了实现气候目标，建设可持续的未来，需要政府、企业、个人等所有利益相关方共同努力。国际上的可持续发展目标和《巴黎协定》强调需要所有利益相关者立即采取行动。本文提出了一项针对尼日利亚电动汽车价值链中的机遇的可行性评估，旨在增强公众对该国可再生能源行业的理解。目前石油仍然满足全球95%以上的交通需求，能源公司必须多元化其投资组合，整合各种可再生能源以实现可持续发展。距离传统化石燃料行业的转型进程越来越远，这更凸显了整合可再生能源的必要性。为了在可再生能源领域取得重大进展，建立一个可行的可持续能源供应链是至关重要的。
 
-    Credit Valuation Adjustment captures the difference in the value of derivative contracts when the counterparty default probability is taken into account. However, in the context of a network of contracts, the default probability of a direct counterparty can depend substantially on the default probabilities of indirect counterparties. We develop a model to clarify when and how these network effects matter for CVA, in particular in the presence of correlation among counterparties defaults. We provide an approximate analytical solution for the default probabilities. This solution allows for identifying conditions on key parameters such as network degree, leverage and correlation, where network effects yield large differences in CVA (e.g. above 50%), and thus relevant for practical applications. Moreover, we find evidence that network effects induce a multi-modal distribution of CVA values.
+    Efforts toward building a sustainable future have underscored the importance of collective responsibility among state and non-state actors, corporations, and individuals to achieve climate goals. International initiatives, including the Sustainable Development Goals and the Paris Agreement, emphasize the need for immediate action from all stakeholders. This paper presents a feasibility assessment focused on the opportunities within Nigeria's Electric Vehicle Value Chain, aiming to enhance public understanding of the country's renewable energy sector. As petroleum currently fulfills over 95% of global transportation needs, energy companies must diversify their portfolios and integrate various renewable energy sources to transition toward a sustainable future. The shifting investor sentiment away from traditional fossil fuel industries further highlights the imperative of incorporating renewables. To facilitate significant progress in the renewable energy sector, it is vital to establish
     
-[^7]: 在比利时COVID-19大流行期间验证动态投入产出模型以传播供求冲击
+[^4]: 大银行与系统风险：基于均场博弈模型的研究
 
-    Validating a dynamic input-output model for the propagation of supply and demand shocks during the COVID-19 pandemic in Belgium. (arXiv:2305.16377v1 [econ.GN])
+    Large Banks and Systemic Risk: Insights from a Mean-Field Game Model. (arXiv:2305.17830v1 [q-fin.MF])
 
-    [http://arxiv.org/abs/2305.16377](http://arxiv.org/abs/2305.16377)
+    [http://arxiv.org/abs/2305.17830](http://arxiv.org/abs/2305.17830)
 
-    本研究验证了一个动态投入产出模型，在比利时COVID-19大流行期间松弛了Leontief生产函数，能够准确预测经济相关变量，并具有较强的鲁棒性。
-
-    
-
-    本研究利用比利时经济相关指标的四个时间序列，验证了先前建立的动态投入产出模型，以量化COVID-19导致的经济冲击在比利时的影响。通过对研究中可能影响结果的八个模型参数进行敏感性分析，确定了最佳参数组合，并评估了研究结果对这些参数变化的敏感性。研究发现，采用松弛严格的Leontief生产函数的模型，能够在聚合和部门级别上提供COVID-19大流行期间比利时经济相关变量的准确预测。研究结果经过输入参数变化的考验，具有较强的鲁棒性，因此该模型可能是预测影响的有价值工具。
-
-    This work validates a previously established dynamical input-output model to quantify the impact of economic shocks caused by COVID-19 in the UK using data from Belgium. To this end, we used four time series of economically relevant indicators for Belgium. We identified eight model parameters that could potentially impact the results and varied these parameters over broad ranges in a sensitivity analysis. In this way, we could identify the set of parameters that results in the best agreement to the empirical data and we could asses the sensitivity of our outcomes to changes in these parameters. We find that the model, characterized by relaxing the stringent Leontief production function, provides adequate projections of economically relevant variables during the COVID-19 pandemic in Belgium, both at the aggregated and sectoral levels. The obtained results are robust in light of changes in the input parameters and hence, the model could prove to be a valuable tool in predicting the impac
-    
-[^8]: E2EAI：面向主动投资的端到端深度学习框架
-
-    E2EAI: End-to-End Deep Learning Framework for Active Investing. (arXiv:2305.16364v1 [q-fin.PM])
-
-    [http://arxiv.org/abs/2305.16364](http://arxiv.org/abs/2305.16364)
-
-    本文提出了一个面向主动投资的端到端深度学习框架（E2EAI），包含了因子选择、因子组合、股票选择和投资组合构建的整个过程，并通过对真实股票市场数据的实验证明了其有效性。
+    本文使用均场博弈模型研究大银行对金融系统稳定性的影响，结果发现大银行在规模不太大的情况下可以对稳定性产生积极的贡献，但在违约事件中也有可能产生负面溢出效应，导致系统性风险增加。随着银行对跨行业市场的依赖程度越来越高，整个系统变得更加稳定，但罕见系统性崩溃的概率也会增加。而大银行的存在进一步放大了这种风险。
 
     
 
-    主动投资旨在构建一组在市场上被认为相对有利可图的投资组合，其中一种流行的方法是通过基于因子的策略来构建投资组合。近年来，越来越多的努力将深度学习应用于追求具有更高主动回报或有前途的资产趋势预测流水线的“深度因子”。然而，如何通过端到端深度学习框架（E2E）构建主动投资组合的问题仍然是开放的，在现有文献中很少得到解决。在本文中，我们首次提出了一个 E2E，几乎涵盖了因子选择、因子组合、股票选择和投资组合构建的整个过程。对真实股票市场数据的广泛实验表明，我们的端到端深度学习框架在主动投资中的有效性。
+    本文旨在研究大银行对金融系统稳定性的影响。为此，我们采用一个线性二次高斯（LQG）均场博弈（MFG）模型来研究跨行业市场，其中包括一个大银行和多个小银行。我们采用MFG方法推导每个银行的最优交易策略，并得出市场的均衡状态。随后，我们进行Monte Carlo模拟，探讨大银行在各种情况下对系统性风险扮演的角色。我们的研究发现，虽然大银行如果规模不太大可以对稳定性产生积极的贡献，但在违约事件中也有可能产生负面溢出效应，导致系统性风险增加。我们还发现，随着银行对跨行业市场的依赖程度越来越高，整个系统变得更加稳定，但罕见系统性崩溃的概率也会增加。而大银行的存在进一步放大了这种风险。
 
-    Active investing aims to construct a portfolio of assets that are believed to be relatively profitable in the markets, with one popular method being to construct a portfolio via factor-based strategies. In recent years, there have been increasing efforts to apply deep learning to pursue "deep factors'' with more active returns or promising pipelines for asset trends prediction. However, the question of how to construct an active investment portfolio via an end-to-end deep learning framework (E2E) is still open and rarely addressed in existing works. In this paper, we are the first to propose an E2E that covers almost the entire process of factor investing through factor selection, factor combination, stock selection, and portfolio construction. Extensive experiments on real stock market data demonstrate the effectiveness of our end-to-end deep leaning framework in active investing.
+    This paper aims to investigate the impact of large banks on the financial system stability. To achieve this, we employ a linear-quadratic-Gaussian (LQG) mean-field game (MFG) model of an interbank market, which involves one large bank and multiple small banks. Our approach involves utilizing the MFG methodology to derive the optimal trading strategies for each bank, resulting in an equilibrium for the market. Subsequently, we conduct Monte Carlo simulations to explore the role played by the large bank in systemic risk under various scenarios. Our findings indicate that while the major bank, if its size is not too large, can contribute positively to stability, it also has the potential to generate negative spillover effects in the event of default, leading to increased systemic risk. We also discover that as banks become more reliant on the interbank market, the overall system becomes more stable but the probability of a rare systemic failure increases. This risk is further amplified by
     
-[^9]: 泡沫必要性定理。
+[^5]: 苏格兰地方政府选举中的单调性异常现象
 
-    Bubble Necessity Theorem. (arXiv:2305.08268v1 [econ.TH])
+    Monotonicity Anomalies in Scottish Local Government Elections. (arXiv:2305.17741v1 [econ.GN])
 
-    [http://arxiv.org/abs/2305.08268](http://arxiv.org/abs/2305.08268)
+    [http://arxiv.org/abs/2305.17741](http://arxiv.org/abs/2305.17741)
 
-    当经济增长的长期增长率比股息增长快且长期无泡沫的利率低于股息增长时，资产价格泡沫是必要的。
-
-    
-
-    资产价格泡沫是指资产价格超过以股息现值定义的基本价值的情况。本文提出了一个概念上全新的对泡沫的视角：资产价格泡沫的必要性。我们在一个比较常见的经济模型类中建立了泡沫必要性定理：在经济增长的长期增长率（$G$）比股息增长（$G_d$）快而长期无泡沫的利率（$R$）低于股息增长的情况下，存在均衡但不存在基本均衡或者渐近无泡沫均衡。$R<G_d<G$的必要条件在不均匀的生产率增长和足够高的储蓄动机的模型中自然而然地出现。
-
-    Asset price bubbles are situations where asset prices exceed the fundamental values defined by the present value of dividends. This paper presents a conceptually new perspective on bubbles: the necessity of asset price bubbles. We establish the Bubble Necessity Theorem in a plausible general class of economic models: in economies with faster long run economic growth ($G$) than dividend growth ($G_d$) and long run bubbleless interest rate ($R$) below dividend growth, equilibria exist but none of them are fundamental or asymptotically bubbleless. The necessity condition $R<G_d<G$ naturally arises in models with uneven productivity growth and a sufficiently high savings motive.
-    
-[^10]: 不完整偏好下的匹配问题
-
-    Matching with Incomplete Preferences. (arXiv:2212.02613v2 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2212.02613](http://arxiv.org/abs/2212.02613)
-
-    本文研究了在双边市场中考虑代理人不完整偏好时的匹配问题，提出了妥协核心和男性-（女性-）最优核心的概念以解决弱核心和强核心的问题
+    本研究分析了苏格兰1,079个地方政府STV选举，发现其中41次出现某种单调性异常，且这些异常率与之前的经验研究相似，远低于大多数理论研究发现的异常率。
 
     
 
-    本文研究了一个双边婚姻市场，在此市场上，代理人的偏好不完整，即他们可能会发现有些选择是无法比较的。这篇文章讨论了强核心和弱核心的概念，并提出了“妥协核心”的概念，该核心是介于弱核心和强核心之间的一个非空集合。类似地，文章定义了男性-（女性-）最优核心，并通过印度的工程学院招生系统来说明其优点。
+    单一可转移选票（STV）投票方法用于选举排名选举中的多个候选人。STV的一个弱点是它未能通过与单调性和无表决悖论相关的多个公平标准。我们分析了苏格兰1,079个地方政府STV选举，以估计现实世界选举中此类单调性异常的频率，并将结果与关于此类异常出现率的先前经验和理论研究进行比较。在1079次选举中，我们发现41次出现某种单调性异常。我们通常发现异常率与之前的经验研究相似，远低于大多数理论研究发现的异常率。我们发现的大多数STV异常都是第一次在实际选举中记录到的。
 
-    I study a two-sided marriage market in which agents have incomplete preferences -- i.e., they find some alternatives incomparable. The strong (weak) core consists of matchings wherein no coalition wants to form a new match between themselves, leaving some (all) agents better off without harming anyone. The strong core may be empty, while the weak core can be too large. I propose the concept of the ``compromise core'' -- a nonempty set that sits between the weak and the strong cores. Similarly, I define the men-(women-) optimal core and illustrate its benefit in an application to India's engineering college admissions system.
+    The single transferable vote (STV) voting method is used to elect multiple candidates in ranked-choice elections. One weakness of STV is that it fails multiple fairness criteria related to monotonicity and no-show paradoxes. We analyze 1,079 local government STV elections in Scotland to estimate the frequency of such monotonicity anomalies in real-world elections, and compare our results with prior empirical and theoretical research about the rates at which such anomalies occur. In 41 of the 1079 elections we found some kind of monotonicity anomaly. We generally find that the rates of anomalies are similar to prior empirical research and much lower than what most theoretical research has found. Most of the STV anomalies we find are the first of their kind to be documented in real-world elections.
     
-[^11]: 规范化资产组合：最优资产和信号组合
+[^6]: 印度股票市场投资组合优化的均值方差、分层风险平价和强化学习方法的比较分析
 
-    Canonical Portfolios: Optimal Asset and Signal Combination. (arXiv:2202.10817v3 [q-fin.PM] UPDATED)
+    A Comparative Analysis of Portfolio Optimization Using Mean-Variance, Hierarchical Risk Parity, and Reinforcement Learning Approaches on the Indian Stock Market. (arXiv:2305.17523v1 [cs.LG])
 
-    [http://arxiv.org/abs/2202.10817](http://arxiv.org/abs/2202.10817)
+    [http://arxiv.org/abs/2305.17523](http://arxiv.org/abs/2305.17523)
 
-    该论文提出了一个新的框架来分析最优资产和信号组合问题，并通过对资产回报和信号应用联合高斯结构和规范相关分析，得出了一组不相关的托管组合。该方法表现出优异的性能。
+    本文比较了均值方差、分层风险平价和强化学习方法在印度股票市场上投资组合优化的表现，结果表明，基于强化学习技术的方法在年度平均回报率、风险和Sharpe比率方面都明显优于其他两种方法。
 
     
 
-    我们提出了一个新颖的框架来分析最优资产和信号组合问题，该框架建立在Brandt和Santa-Clara（2006）的动态组合选择问题之上，分两个阶段。首先，我们将其原始投资问题重构为可伸缩到大尺寸的可处理载体，通过在资产回报和信号上施加联合高斯结构来实现一个封闭式解决方案。其次，我们通过Hotelling（1936）的规范相关分析将相关资产和信号的最优组合转化为一组不相关的托管组合。不相关托管组合的新投资环境为我们的最优组合策略的联合相关结构提供了独特的经济洞察力。我们还将理论框架操作化，以弥合理论和实践之间的差距，展示了我们所提出的方法相对于自然对手竞争标准的改进性能。
+    本文比较了三种投资组合优化方法的表现。研究中考虑的三种投资组合优化方法是均值方差投资组合、分层风险平价投资组合和基于强化学习的投资组合。这些投资组合在多种股票数据上进行训练和测试，通过比较它们的年度收益、年度风险和夏普比率的表现来进行比较。在基于强化学习的投资组合设计方法中，使用了深度Q学习技术。由于可能的状态数很大，Q表的构建采用了深度神经网络。来自印度股票市场的50只领先股票（称为NIFTY50股票）的历史价格以及印度股票市场10个重要行业的多支股票被用来创建代理的训练环境。
 
-    We present a novel framework for analyzing the optimal asset and signal combination problem, which builds upon the dynamic portfolio selection problem of Brandt and Santa-Clara (2006) in two phases. First, we reformulate their original investment problem into a tractable vehicle that admits a closed-form solution, scaling to large dimensions by imposing a joint Gaussian structure on the asset returns and signals. Second, we recast the optimal portfolio of correlated assets and signals into a set of uncorrelated managed portfolios through the lens of Canonical Correlation Analysis of Hotelling (1936). The new investment environment of uncorrelated managed portfolios offers unique economic insights into the joint correlation structure of our optimal portfolio policy. We also operationalize our theoretical framework to bridge the gap between theory and practice, showcasing the improved performance of our proposed method over natural competing benchmarks.
+    This paper presents a comparative analysis of the performances of three portfolio optimization approaches. Three approaches of portfolio optimization that are considered in this work are the mean-variance portfolio (MVP), hierarchical risk parity (HRP) portfolio, and reinforcement learning-based portfolio. The portfolios are trained and tested over several stock data and their performances are compared on their annual returns, annual risks, and Sharpe ratios. In the reinforcement learning-based portfolio design approach, the deep Q learning technique has been utilized. Due to the large number of possible states, the construction of the Q-table is done using a deep neural network. The historical prices of the 50 premier stocks from the Indian stock market, known as the NIFTY50 stocks, and several stocks from 10 important sectors of the Indian stock market are used to create the environment for training the agent.
+    
+[^7]: 通货膨胀目标的宏观经济影响：实证文献综述
+
+    Macroeconomic Effects of Inflation Targeting: A Survey of the Empirical Literature. (arXiv:2305.17474v1 [econ.GN])
+
+    [http://arxiv.org/abs/2305.17474](http://arxiv.org/abs/2305.17474)
+
+    本文综述了通货膨胀目标的实证文献。有坚实的经验证据表明，规模更大、更发达的国家更有可能采用IT制度；实证证据未能提供令人信服的证据，表明IT本身可以作为稳定通货膨胀预期和减少通货膨胀持久性的有效工具；针对发达经济体的实证研究未能提供有力证据表明IT对通货膨胀表现的有益影响，而有一些证据表明IT制度的收益在新兴市场经济体中更为普遍。
+
+    
+
+    本文综述了通货膨胀目标的实证文献。我们的主要发现是：有坚实的经验证据表明，规模更大、更发达的国家更有可能采用IT制度；这种制度的引入是有条件的，先前的紧缩、更高的汇率灵活性、中央银行独立性和更高的金融发展水平；实证证据未能提供令人信服的证据，表明IT本身可以作为稳定通货膨胀预期和减少通货膨胀持久性的有效工具；针对发达经济体的实证研究未能提供有力证据表明IT对通货膨胀表现的有益影响，而有一些证据表明IT制度的收益在新兴市场经济体中更为普遍；对于IT是否与更高的产出增长或更低的产出波动有关，尚缺乏令人信服的证据。
+
+    This paper surveys the empirical literature of inflation targeting. The main findings from our review are the following: there is robust empirical evidence that larger and more developed countries are more likely to adopt the IT regime; the introduction of this regime is conditional on previous disinflation, greater exchange rate flexibility, central bank independence, and higher level of financial development; the empirical evidence has failed to provide convincing evidence that IT itself may serve as an effective tool for stabilizing inflation expectations and for reducing inflation persistence; the empirical research focused on advanced economies has failed to provide convincing evidence on the beneficial effects of IT on inflation performance, while there is some evidence that the gains from the IT regime may have been more prevalent in the emerging market economies; there is not convincing evidence that IT is associated with either higher output growth or lower output variability;
+    
+[^8]: 财务误报检测：现实评估
+
+    Financial misstatement detection: a realistic evaluation. (arXiv:2305.17457v1 [cs.CL])
+
+    [http://arxiv.org/abs/2305.17457](http://arxiv.org/abs/2305.17457)
+
+    本文提出了一个新的、现实的财务误报检测评估框架，并发现评估过程显著影响系统性能，分析了不同模型和特征类型在新的现实框架下的表现。
+
+    
+
+    本文旨在探讨检测金融报告中高风险误报的评估方法，该任务在文献中常被称为“财务报告中的误报检测”。我们对相关文献进行了广泛的综述。我们为该任务提出了一个新的、现实的评估框架，与以往的工作相比：(a)专注于误报分类及其罕见性，(b)将数据按照时间分为训练和测试集，和(c)考虑误报可能需要很长时间才能被检测到。最重要的是，我们发现评估过程显著影响系统性能，并分析了不同模型和特征类型在新的现实框架下的表现。
+
+    In this work, we examine the evaluation process for the task of detecting financial reports with a high risk of containing a misstatement. This task is often referred to, in the literature, as ``misstatement detection in financial reports''. We provide an extensive review of the related literature. We propose a new, realistic evaluation framework for the task which, unlike a large part of the previous work: (a) focuses on the misstatement class and its rarity, (b) considers the dimension of time when splitting data into training and test and (c) considers the fact that misstatements can take a long time to detect. Most importantly, we show that the evaluation process significantly affects system performance, and we analyze the performance of different models and feature types in the new realistic framework.
+    
+[^9]: 基于解雇提前通知长度的失业期限制和异质性研究
+
+    Duration Dependence and Heterogeneity: Learning from Early Notice of Layoff. (arXiv:2305.17344v1 [econ.GN])
+
+    [http://arxiv.org/abs/2305.17344](http://arxiv.org/abs/2305.17344)
+
+    本文通过解雇通知的长度变化，区分了失业期限制和不良选择对失业退出率的影响，发现48周失业退出率的下降主要是由于留存求职者的质量恶化造成的，
+
+    
+
+    本文提出了一种新的方法，利用解雇通知的长度变化来区分失业期限制和不良选择对失业退出率的影响。作者在离散时间下构建了混合风险模型，并规定了变通知长度如何实现对结构失业期限制的鉴别，同时允许工人间的任意异质性。作者运用弱化矩(GMM)方法对数据进行估计，结果表明，48周失业退出率的下降主要是由于留存的求职者质量恶化造成的。此外，作者发现个人退出失业的可能性一开始减少，然后在失业福利用尽之前增加，并在此后保持稳定。这些发现与一个标准的搜索模型相一致，在这个模型中，搜索的回报随着时间的推移而减少，并且不良选择的影响在失业初期最为显著。
+
+    This paper presents a novel approach to distinguish the impact of duration-dependent forces and adverse selection on the exit rate from unemployment by leveraging variation in the length of layoff notices. I formulate a Mixed Hazard model in discrete time and specify the conditions under which variation in notice length enables the identification of structural duration dependence while allowing for arbitrary heterogeneity across workers. Utilizing data from the Displaced Worker Supplement (DWS), I employ the Generalized Method of Moments (GMM) to estimate the model. According to the estimates, the decline in the exit rate over the first 48 weeks of unemployment is largely due to the worsening composition of surviving jobseekers. Furthermore, I find that an individual's likelihood of exiting unemployment decreases initially, then increases until unemployment benefits run out, and remains steady thereafter. These findings are consistent with a standard search model where returns to searc
+    
+[^10]: 网络重构的关键密度。
+
+    Critical density for network reconstruction. (arXiv:2305.17285v1 [physics.soc-ph])
+
+    [http://arxiv.org/abs/2305.17285](http://arxiv.org/abs/2305.17285)
+
+    通过观察各种理论和实证分布的跨行资产和负债的临界密度的比例尺，我们发现网络重构的方法表现出“无法重构”阶段，在该阶段至少有一个约束条件在典型单个实现中远离其预期值。
+
+    
+
+    许多金融网络的结构受到隐私保护，并且必须从聚合的观测值中推断出。在本文中，我们考虑了其中最成功的网络重构方法之一，生成具有所需链接密度的随机图，并且观察到的约束条件（与每个节点的市场规模有关）被复制为图集合上的平均值，但不是在单个实现中。我们表明在最小临界链接密度下，该方法表现出“无法重构”阶段，在该阶段至少有一个约束条件虽然仍然在平均水平上复制，但在典型单个实现中远离其预期值。我们建立了各种理论和实证分布的跨行资产和负债的临界密度的比例尺，并表明该阈值与图中巨型成分和唯一成分的临界密度不同。我们还发现，虽然密集网络总是可以重构的
+
+    The structure of many financial networks is protected by privacy and has to be inferred from aggregate observables. Here we consider one of the most successful network reconstruction methods, producing random graphs with desired link density and where the observed constraints (related to the market size of each node) are replicated as averages over the graph ensemble, but not in individual realizations. We show that there is a minimum critical link density below which the method exhibits an `unreconstructability' phase where at least one of the constraints, while still reproduced on average, is far from its expected value in typical individual realizations. We establish the scaling of the critical density for various theoretical and empirical distributions of interbank assets and liabilities, showing that the threshold differs from the critical densities for the onset of the giant component and of the unique component in the graph. We also find that, while dense networks are always rec
+    
+[^11]: 一个简单的人工社会中地方共享和社交性对财富不平等的影响
+
+    Local Sharing and Sociality Effects on Wealth Inequality in a Simple Artificial Society. (arXiv:2305.17177v1 [physics.soc-ph])
+
+    [http://arxiv.org/abs/2305.17177](http://arxiv.org/abs/2305.17177)
+
+    通过一个简单的模拟社会的实验，研究发现，地方共享资源会减少总财富并增加财富不平等。进化选择了反对地方共享和社交行为的基因。Gini系数不适用于测量这些变化。
+
+    
+
+    在减少财富不平等的方法中，资源在群体内的重新分配是当前的辩论领域。财富共享的进化路径也是一个积极研究的主题。为了研究财富共享的影响和演化，使用了一个复杂的自适应系统的极简模型来模拟社会。这些模拟表明，对于这个人工的采集社会来说，地方资源共享会减少经济总财富，并增加财富不平等。无论全局还是在个人的家族内，进化压力都会强烈选择反对地方共享，选择反对社交行为。通过保持邻居之间共享资源的基因，从富人到穷人，无论是与每个人还是仅在同一家族成员之间，都选择社交行为，但相对于非共享社会，总财富和平均寿命显著降低。Gini系数被证明在测量这些变化方面是无效的。
+
+    Redistribution of resources within a group as a method to reduce wealth inequality is a current area of debate. The evolutionary path to or away from wealth sharing is also a subject of active research. In order to investigate effects and evolution of wealth sharing, societies are simulated using a minimal model of a complex adapting system. These simulations demonstrate, for this artificial foraging society, that local sharing of resources reduces the economy's total wealth and increases wealth inequality. Evolutionary pressures strongly select against local sharing, whether globally or within a individual's clan, and select for asocial behaviors. By holding constant the gene for sharing resources among neighbors, from rich to poor, either with everyone or only within members of the same clan, social behavior is selected but total wealth and mean age are substantially reduced relative to non-sharing societies. The Gini coefficient is shown to be ineffective in measuring these changes 
+    
+[^12]: 滞后多因子模型中领先滞后关系的鲁棒检测
+
+    Robust Detection of Lead-Lag Relationships in Lagged Multi-Factor Models. (arXiv:2305.06704v1 [stat.ML])
+
+    [http://arxiv.org/abs/2305.06704](http://arxiv.org/abs/2305.06704)
+
+    该论文提出了一种基于聚类的鲁棒检测滞后多因子模型中的领先滞后关系方法，并使用各种聚类技术和相似度度量方法实现了对领先滞后估计的聚合，从而强化了对原始宇宙中的一致关系的识别。
+
+    
+
+    在多元时间序列系统中，通过发现数据中固有的领先滞后关系，可以获得关键信息，这指的是两个相对时间互移的时间序列之间的依赖关系，可以用于控制、预测或聚类。我们开发了一种基于聚类的方法，用于鲁棒检测滞后多因子模型中的领先滞后关系。在我们的框架中，所设想的管道接收一组时间序列作为输入，并使用滑动窗口方法从每个输入时间序列中提取一组子序列时间序列。然后，我们应用各种聚类技术（例如K-means++和谱聚类），采用各种成对相似性度量，包括非线性的相似性度量。一旦聚类被提取出来，跨聚类的领先滞后估计被聚合起来，以增强对原始宇宙中一致关系的识别。由于多
+
+    In multivariate time series systems, key insights can be obtained by discovering lead-lag relationships inherent in the data, which refer to the dependence between two time series shifted in time relative to one another, and which can be leveraged for the purposes of control, forecasting or clustering. We develop a clustering-driven methodology for the robust detection of lead-lag relationships in lagged multi-factor models. Within our framework, the envisioned pipeline takes as input a set of time series, and creates an enlarged universe of extracted subsequence time series from each input time series, by using a sliding window approach. We then apply various clustering techniques (e.g, K-means++ and spectral clustering), employing a variety of pairwise similarity measures, including nonlinear ones. Once the clusters have been extracted, lead-lag estimates across clusters are aggregated to enhance the identification of the consistent relationships in the original universe. Since multi
+    
+[^13]: 期权的价格发现
+
+    Price Discovery for Derivatives. (arXiv:2302.13426v5 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2302.13426](http://arxiv.org/abs/2302.13426)
+
+    本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。
+
+    
+
+    本文通过一个模型，考虑了私有信息和高阶信息对期权市场价格的影响。模型允许有私有信息的交易者在状态-索赔集市场上交易。等价的期权形式下，我们考虑了拥有关于基础资产收益的分布的私有信息，并允许交易任意期权组合的操纵者。我们得出了通货膨胀需求、价格冲击和信息效率的闭式解，这些解提供了关于内幕交易的高阶信息，如任何给定的时刻交易期权策略，并将这些策略泛化到了波动率交易等实践领域。
+
+    We obtain a basic theory of price discovery across derivative markets with respect to higher-order information, using a model where an agent with general private information regarding state probabilities is allowed to trade arbitrary portfolios of state-contingent claims. In an equivalent options formulation, the informed agent has private information regarding arbitrary aspects of the payoff distribution of an underlying asset and is allowed to trade arbitrary option portfolios. We characterize, in closed form, the informed demand, price impact, and information efficiency of prices. Our results offer a theory of insider trading on higher moments of the underlying payoff as a special case. The informed demand formula prescribes option strategies for trading on any given moment and extends those used in practice for, e.g. volatility trading.
+    
+[^14]: 基于均值-方差-混合模型的随机优势和均值-条件价值风险最优投资组合问题讨论
+
+    A discussion of stochastic dominance and mean-CVaR optimal portfolio problems based on mean-variance-mixture models. (arXiv:2202.02488v4 [q-fin.MF] UPDATED)
+
+    [http://arxiv.org/abs/2202.02488](http://arxiv.org/abs/2202.02488)
+
+    本文通过NMVM分布，获得了均值-条件价值风险下的前沿投资组合的闭合形式表达式。
+
+    
+
+    经典的马科维茨均值-方差模型使用方差作为风险度量，并使用标准优化技术计算闭合形式的前沿投资组合。对于一般的均值风险模型，这样的闭合形式的最优投资组合很难获得。本文通过在收益向量具有正态均值-方差混合分布（NMVM）的情况下，获得均值-条件价值风险（mean-CVaR）准则下的前沿投资组合的闭合形式表达式。为了达到这个目标，我们首先提出了一维NMVM模型类内随机优势的必要条件，然后将其应用于投资组合优化问题。本文的主要结果表明：当收益向量遵循NMVM分布时，相关的均值-CVaR前沿投资组合可以通过优化适当调整的收益向量的马科维茨均值-方差模型来获得。
+
+    The classical Markowitz mean-variance model uses variance as a risk measure and calculates frontier portfolios in closed form by using standard optimization techniques. For general mean-risk models such closed form optimal portfolios are difficult to obtain. In this note, we obtain closed form expressions for frontier portfolios under mean-CVaR criteria when return vectors have normal mean-variance mixture (NMVM) distributions. To achieve this goal, we first present necessary conditions for stochastic dominance within the class of one dimensional NMVM models and then we apply them to portfolio optimization problems. Our main result in this paper states that when return vectors follow NMVM distributions the associated mean- CVaR frontier portfolios can be obtained by optimizing a Markowitz mean-variance model with an appropriately adjusted return vector
+    
+[^15]: LSTM模型用于预测石油公司股票的可解释性：相关特征的影响
+
+    The Interpretability of LSTM Models for Predicting Oil Company Stocks: impacts of correlated features. (arXiv:2201.00350v3 [q-fin.ST] UPDATED)
+
+    [http://arxiv.org/abs/2201.00350](http://arxiv.org/abs/2201.00350)
+
+    研究探究了相关特征对用于预测石油公司股票的LSTM模型的可解释性的影响。结果表明，添加与石油股票相关的特征并不会提高LSTM模型的可解释性，因此应谨慎依靠LSTM模型进行股票市场决策。
+
+    
+
+    石油公司是全球最大的公司之一，由于与黄金、原油和美元相关，其经济指标对全球经济和市场有着巨大的影响。本研究调查了相关特征对用于预测石油公司股票的长短期记忆(LSTM)模型的可解释性的影响。为了实现这一目标，我们设计了标准的LSTM网络，并使用各种相关数据集进行了训练。我们的方法旨在通过考虑影响市场的多个因素，如原油价格、黄金价格和美元，来提高股票价格预测的准确性。结果表明，添加与石油股票相关的特征并不会提高LSTM模型的可解释性。这些发现表明，虽然LSTM模型在预测股票价格方面可能是有效的，但其可解释性可能有限。在仅依靠LSTM模型进行股票市场决策时应格外谨慎。
+
+    Oil companies are among the largest companies in the world whose economic indicators in the global stock market have a great impact on the world economy and market due to their relation to gold, crude oil, and the dollar. This study investigates the impact of correlated features on the interpretability of Long Short-Term Memory (LSTM) models for predicting oil company stocks. To achieve this, we designed a Standard Long Short-Term Memory (LSTM) network and trained it using various correlated datasets. Our approach aims to improve the accuracy of stock price prediction by considering the multiple factors affecting the market, such as crude oil prices, gold prices, and the US dollar. The results demonstrate that adding a feature correlated with oil stocks does not improve the interpretability of LSTM models. These findings suggest that while LSTM models may be effective in predicting stock prices, their interpretability may be limited. Caution should be exercised when relying solely on L
+    
+[^16]: 利用联合停车和出行模式选择模型分析通勤者出行决策的口味异质性：以印度城市为例
+
+    Analysis of taste heterogeneity in commuters travel decisions using joint parking and mode choice model: A case from urban India. (arXiv:2109.01045v3 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2109.01045](http://arxiv.org/abs/2109.01045)
+
+    本研究通过将停车选择作为出行模式选择模型的内生决策，综合考虑态度因素和建筑环境变量，填补了单独考虑出行方式和停车选择行为之间权衡的空白。
+
+    
+
+    交通需求管理的概念通过在城市中实现最佳平衡的交通模式份额来促进可持续出行的发展，而模式份额管理直接反映了每个交通子系统，包括停车场的TDM。在发展中国家，政策制定者主要关注供给侧措施，而需求侧措施在政策影响方面尚未得到解决。有大量的文献介绍了TDM策略的响应，但大多数研究单独考虑了出行方式和停车选择行为，而没有考虑它们之间的权衡。不这样做可能会导致偏见模型估计和政策应用的不当。本文试图通过将停车选择作为模式选择行为模型中的内生决策来填补这一空白。本研究将态度因素和建筑环境变量与停车和出行属性相结合，以开发综合的联合停车和出行模式选择模型。
+
+    The concept of transportation demand management (TDM) upholds the development of sustainable mobility through the triumph of optimally balanced transport modal share in cities. The modal split management directly reflects on TDM of each transport subsystem, including parking. In developing countries, the policy-makers have largely focused on supply-side measures, yet demand-side measures have remained unaddressed in policy implications. Ample literature is available presenting responses of TDM strategies, but most studies account mode choice and parking choice behaviour separately rather than considering trade-offs between them. Failing to do so may lead to biased model estimates and impropriety in policy implications. This paper seeks to fill this gap by admitting parking choice as an endogenous decision within the model of mode choice behaviour. This study integrates attitudinal factors and built-environment variables in addition to parking and travel attributes for developing compre
+    
+[^17]: 长期失业人员的积极劳动力市场政策：来自因果机器学习的新证据
+
+    Active labour market policies for the long-term unemployed: New evidence from causal machine learning. (arXiv:2106.10141v2 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2106.10141](http://arxiv.org/abs/2106.10141)
+
+    该研究使用因果机器学习分析了德国长期失业人员的三个工作搜索援助和培训计划的有效性，结果显示参与者受益匪浅，其中就业服务效果最好。此外，女性受当地劳动力市场条件的影响有所不同。提出使用数据驱动规则更有效地分配失业人员到相应计划。
+
+    
+
+    积极的劳动力市场计划是欧洲就业机构帮助失业者找工作的重要工具。研究德国长期失业人员的大型行政数据，我们使用因果机器学习分析了三个工作搜索援助和培训计划的有效性。参与者受益于所有计划的快速实现和长期积极影响，其中就业服务是最有效的。对于女性，我们发现各种特征存在差异影响。特别是，女性受益于更好的当地劳动力市场条件。我们建议使用更有效的数据驱动规则，将失业人员分配到相应的劳动力市场计划，这些规则可以被决策者采用。
+
+    Active labor market programs are important instruments used by European employment agencies to help the unemployed find work. Investigating large administrative data on German long-term unemployed persons, we analyze the effectiveness of three job search assistance and training programs using Causal Machine Learning. Participants benefit from quickly realizing and long-lasting positive effects across all programs, with placement services being the most effective. For women, we find differential effects in various characteristics. Especially, women benefit from better local labor market conditions. We propose more effective data-driven rules for allocating the unemployed to the respective labor market programs that could be employed by decision-makers.
+    
+[^18]: 社会多样性与疫情传播：来自印度的证据
+
+    Social Diversity and Spread of Pandemic: Evidence from India. (arXiv:2011.05839v2 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2011.05839](http://arxiv.org/abs/2011.05839)
+
+    本文研究了印度种姓多样性与COVID-19传播速度的关系。研究发现，在病例浓度阈值方面，种姓同质化地区需要更长的时间，使用每日病例进行分析也发现其传播增长较慢。这些结果持续了约76天，即使在考虑其他因素后也依然成立。
+
+    
+
+    在疫情期间，遵守公共卫生准则需要协调社区行动，而社会多元化的地区可能受到破坏。本文评估了印度全国封锁和解锁期间种姓群体多样性与COVID-19感染传播之间的关系。我们发现，种姓同质化地区在跨越50至500个病例的浓度阈值方面，需要更多的时间。使用每日病例进行密集度分析，进一步显示种姓同质化地区感染增长较慢。总体而言，在全国封锁开始后的2.5个月（约76天）中，种姓同质化的影响仍然为正且具有统计学意义，并随后逐渐减弱。即使在考虑封锁前的热点出现、每日固定效应、区域固定效应影响后，结果仍然成立。
+
+    Compliance with the public health guidelines during a pandemic requires coordinated community actions which might be undermined in socially diverse areas. In this paper, we assess the relationship between caste-group diversity and the spread of COVID-19 infection during the nationwide lockdown and unlocking period in India. On the extensive margin, we find that caste-homogeneous districts systematically took more days to cross the concentration thresholds of 50 to 500 cases. Estimates on the intensive margin, using daily cases, further show that caste-homogeneous districts experienced slower growth in infection. Overall, the effects of caste-group homogeneity remained positive and statistically significant for 2.5 months (about 76 days) after the beginning of the lockdown and weakened with subsequent phases of the lockdown. The results hold even after accounting for the emergence of initial hotspots before lockdown, broader diffusion patterns through daily fixed effects, region fixed e
+    
+[^19]: 动态资源管理中生态体制最快检测方案研究
+
+    Quickest Detection of Ecological Regimes for Dynamic Resource Management. (arXiv:2005.11500v6 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2005.11500](http://arxiv.org/abs/2005.11500)
+
+    本文研究了生态体制转变下的可再生资源的随机动态，提出了一个帕累托最优的检测框架，实现最小化经济主体察觉转变的延迟，应用该框架于Sao Paulo的Cantareira水库案例中，对导致水库枯竭和随后的供水危机的事件进行了研究。
+
+    
+
+    本文研究了面临生态体制转变威胁下的可再生资源的随机动态。我们建立了一个帕累托最优的不确定性下的生态体制转变检测框架，该框架最小化了经济主体意识到转变的延迟。我们将生态系统监测与最优资源提取政策的制定相结合。我们完整解决了一个以利润最大化为目标的垄断主义者，并提供了决定不利生态体制转变是否会导致积极或谨慎采取资源提取策略的条件，这取决于市场需求、资源稀缺和检测时间之间的交互作用。我们将我们的框架应用于巴西圣保罗的Cantareira水库案例，并研究导致其枯竭和随后的供水危机的事件。
+
+    We study the stochastic dynamics of renewable resources under the threat of ecological regime shifts. We establish a Pareto optimal framework of regime shift detection under uncertainty that minimizes the delay with which economic agents become aware of the shift. We integrate ecosystem surveillance in the formation of optimal resource extraction policies. We fully solve the case of a profit-maximizing monopolist and provide the conditions that determine whether an adverse regime shift can lead to an aggressive or a precautionary extraction policy, depending on the interaction between market demand, resource scarcity and detection time. We apply our framework to the case of the Cantareira water reservoir in S\~ao Paulo, Brazil, and study the events that led to its depletion and the consequent water supply crisis.
     
 

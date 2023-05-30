@@ -1,0 +1,12 @@
+{
+    "title": "Fair Clustering via Hierarchical Fair-Dirichlet Process. (arXiv:2305.17557v1 [stat.ML])",
+    "abstract": "The advent of ML-driven decision-making and policy formation has led to an increasing focus on algorithmic fairness. As clustering is one of the most commonly used unsupervised machine learning approaches, there has naturally been a proliferation of literature on {\\em fair clustering}. A popular notion of fairness in clustering mandates the clusters to be {\\em balanced}, i.e., each level of a protected attribute must be approximately equally represented in each cluster. Building upon the original framework, this literature has rapidly expanded in various aspects. In this article, we offer a novel model-based formulation of fair clustering, complementing the existing literature which is almost exclusively based on optimizing appropriate objective functions.",
+    "link": "http://arxiv.org/abs/2305.17557",
+    "context": "Title: Fair Clustering via Hierarchical Fair-Dirichlet Process. (arXiv:2305.17557v1 [stat.ML])\nAbstract: The advent of ML-driven decision-making and policy formation has led to an increasing focus on algorithmic fairness. As clustering is one of the most commonly used unsupervised machine learning approaches, there has naturally been a proliferation of literature on {\\em fair clustering}. A popular notion of fairness in clustering mandates the clusters to be {\\em balanced}, i.e., each level of a protected attribute must be approximately equally represented in each cluster. Building upon the original framework, this literature has rapidly expanded in various aspects. In this article, we offer a novel model-based formulation of fair clustering, complementing the existing literature which is almost exclusively based on optimizing appropriate objective functions.",
+    "path": "papers/23/05/2305.17557.json",
+    "total_tokens": 758,
+    "translated_title": "通过层次公平狄利克雷过程实现公平聚类。",
+    "translated_abstract": "机器学习驱动的决策制定和政策制定的出现，导致越来越多地关注算法的公平性。由于聚类是最常用的无监督机器学习方法之一，因此自然而然地出现了大量有关“公平聚类”的文献。聚类中公平的一种普遍概念要求群集是“平衡的”，即受保护属性的每个级别在每个群集中都要大约相等地代表。在保持原始框架的基础上，这方面的文献在各个方面迅速扩展。在本文中，我们提出了一种新的基于模型的公平聚类公式，补充了现有文献几乎完全基于优化适当的目标函数的不足之处。",
+    "tldr": "本文提出了一种新的基于模型的公平聚类公式，该公式通过层次公平狄利克雷过程实现公平聚类的目标。",
+    "en_tdlr": "The paper proposes a novel model-based formulation of fair clustering using hierarchical fair-Dirichlet process to achieve the goal of fair clustering. The existing literature is mostly based on optimizing appropriate objective functions."
+}

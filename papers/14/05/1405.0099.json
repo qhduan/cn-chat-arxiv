@@ -1,0 +1,12 @@
+{
+    "title": "Fast MLE Computation for the Dirichlet Multinomial. (arXiv:1405.0099v2 [stat.ML] UPDATED)",
+    "abstract": "Given a collection of categorical data, we want to find the parameters of a Dirichlet distribution which maximizes the likelihood of that data. Newton's method is typically used for this purpose but current implementations require reading through the entire dataset on each iteration. In this paper, we propose a modification which requires only a single pass through the dataset and substantially decreases running time. Furthermore we analyze both theoretically and empirically the performance of the proposed algorithm, and provide an open source implementation.",
+    "link": "http://arxiv.org/abs/1405.0099",
+    "context": "Title: Fast MLE Computation for the Dirichlet Multinomial. (arXiv:1405.0099v2 [stat.ML] UPDATED)\nAbstract: Given a collection of categorical data, we want to find the parameters of a Dirichlet distribution which maximizes the likelihood of that data. Newton's method is typically used for this purpose but current implementations require reading through the entire dataset on each iteration. In this paper, we propose a modification which requires only a single pass through the dataset and substantially decreases running time. Furthermore we analyze both theoretically and empirically the performance of the proposed algorithm, and provide an open source implementation.",
+    "path": "papers/14/05/1405.0099.json",
+    "total_tokens": 634,
+    "translated_title": "Dirichlet多项式的快速MLE计算",
+    "translated_abstract": "给定一个分类数据集，我们希望找到一个Dirichlet分布的参数，使得在该分布下，这个数据集的似然函数最大化。通常利用牛顿迭代法来求解，但目前的实现需要每次迭代都读取整个数据集。在本文中，我们提出了一种修改方法，只需要一次通过数据集，并大大减少了运行时间。此外，我们还从理论和实证的角度分析了该算法的性能，并提供了开源实现。",
+    "tldr": "本文提出了一种修改的方法来快速计算Dirichlet分布的MLE参数，相较于现有实现方法，只需要一遍遍历数据集就可以大大减少运行时间。",
+    "en_tdlr": "This paper proposes a modified method for calculating the MLE parameters of the Dirichlet distribution, with a single pass through the dataset and substantially reduced running time compared to current implementations. The performance of the proposed algorithm is analyzed theoretically and empirically, and an open-source implementation is provided."
+}

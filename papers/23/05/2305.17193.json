@@ -1,0 +1,12 @@
+{
+    "title": "AI-based analysis of super-resolution microscopy: Biological discovery in the absence of ground truth. (arXiv:2305.17193v1 [q-bio.SC])",
+    "abstract": "The nanoscale resolution of super-resolution microscopy has now enabled the use of fluorescent based molecular localization tools to study whole cell structural biology. Machine learning based analysis of super-resolution data offers tremendous potential for discovery of new biology, that by definition is not known and lacks ground truth. Herein, we describe the application of weakly supervised learning paradigms to super-resolution microscopy and its potential to enable the accelerated exploration of the molecular architecture of subcellular macromolecules and organelles.",
+    "link": "http://arxiv.org/abs/2305.17193",
+    "context": "Title: AI-based analysis of super-resolution microscopy: Biological discovery in the absence of ground truth. (arXiv:2305.17193v1 [q-bio.SC])\nAbstract: The nanoscale resolution of super-resolution microscopy has now enabled the use of fluorescent based molecular localization tools to study whole cell structural biology. Machine learning based analysis of super-resolution data offers tremendous potential for discovery of new biology, that by definition is not known and lacks ground truth. Herein, we describe the application of weakly supervised learning paradigms to super-resolution microscopy and its potential to enable the accelerated exploration of the molecular architecture of subcellular macromolecules and organelles.",
+    "path": "papers/23/05/2305.17193.json",
+    "total_tokens": 684,
+    "translated_title": "基于AI的超分辨显微镜分析：在没有基准的情况下进行生物发现",
+    "translated_abstract": "超分辨显微镜的纳米级分辨率现已使荧光分子定位工具能够用于研究整个细胞结构生物学。基于机器学习的超分辨数据分析具有发现新生物学的巨大潜力，而新生物学本身没有被发现过，也没有基准。在这里，我们描述了弱监督学习范例在超分辨显微镜中的应用以及其潜力，以实现对亚细胞大分子和细胞器分子结构的加速探索。",
+    "tldr": "利用弱监督学习范例对超分辨率显微镜进行分析具有发现新生物学的巨大潜力，并且可以加速探索亚细胞大分子和细胞器分子结构。",
+    "en_tdlr": "Weakly supervised learning of super-resolution microscopy analysis offers great potential for the discovery of new biology and the accelerated exploration of subcellular macromolecules and organelles."
+}

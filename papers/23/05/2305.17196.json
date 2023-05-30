@@ -1,0 +1,12 @@
+{
+    "title": "A Knowledge Engineering Primer. (arXiv:2305.17196v1 [cs.AI])",
+    "abstract": "The aim of this primer is to introduce the subject of knowledge engineering in a concise but synthetic way to develop the reader's intuition about the area.",
+    "link": "http://arxiv.org/abs/2305.17196",
+    "context": "Title: A Knowledge Engineering Primer. (arXiv:2305.17196v1 [cs.AI])\nAbstract: The aim of this primer is to introduce the subject of knowledge engineering in a concise but synthetic way to develop the reader's intuition about the area.",
+    "path": "papers/23/05/2305.17196.json",
+    "total_tokens": 401,
+    "translated_title": "知识工程入门",
+    "translated_abstract": "这篇文章的目的是以简洁而综合的方式介绍知识工程的主题，以培养读者对该领域的直觉。",
+    "tldr": "该文介绍了知识工程的基本概念，帮助读者了解该领域并建立直觉。",
+    "en_tdlr": "This paper introduces the fundamental concepts of knowledge engineering, helping readers to understand the field and develop intuition."
+}

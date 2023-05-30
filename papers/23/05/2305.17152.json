@@ -1,0 +1,12 @@
+{
+    "title": "mldr.resampling: Efficient Reference Implementations of Multilabel Resampling Algorithms. (arXiv:2305.17152v1 [cs.LG])",
+    "abstract": "Resampling algorithms are a useful approach to deal with imbalanced learning in multilabel scenarios. These methods have to deal with singularities in the multilabel data, such as the occurrence of frequent and infrequent labels in the same instance. Implementations of these methods are sometimes limited to the pseudocode provided by their authors in a paper. This Original Software Publication presents mldr.resampling, a software package that provides reference implementations for eleven multilabel resampling methods, with an emphasis on efficiency since these algorithms are usually time-consuming.",
+    "link": "http://arxiv.org/abs/2305.17152",
+    "context": "Title: mldr.resampling: Efficient Reference Implementations of Multilabel Resampling Algorithms. (arXiv:2305.17152v1 [cs.LG])\nAbstract: Resampling algorithms are a useful approach to deal with imbalanced learning in multilabel scenarios. These methods have to deal with singularities in the multilabel data, such as the occurrence of frequent and infrequent labels in the same instance. Implementations of these methods are sometimes limited to the pseudocode provided by their authors in a paper. This Original Software Publication presents mldr.resampling, a software package that provides reference implementations for eleven multilabel resampling methods, with an emphasis on efficiency since these algorithms are usually time-consuming.",
+    "path": "papers/23/05/2305.17152.json",
+    "total_tokens": 617,
+    "translated_title": "mldr.resampling: 多标签重采样算法有效的参考实现",
+    "translated_abstract": "重采样算法是应对多标签学习中不平衡情况的有用方法。这些方法必须处理多标签数据中的奇异性，例如同一实例中频繁和不频繁标签的出现。这篇原创软件发表介绍了 mldr.resampling，这是一个软件包，提供了11种多标签重采样方法的参考实现，强调效率，因为这些算法通常耗时。",
+    "tldr": "mldr.resampling是一个软件包，提供11种多标签重采样方法的参考实现，旨在应对多标签学习中的不平衡情况，并具有高效性。",
+    "en_tdlr": "mldr.resampling is a software package that offers efficient reference implementations of eleven multilabel resampling methods to deal with imbalanced learning in multilabel scenarios."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Black Box Adversarial Prompting for Foundation Models. (arXiv:2302.04237v2 [cs.LG] UPDATED)",
+    "abstract": "Prompting interfaces allow users to quickly adjust the output of generative models in both vision and language. However, small changes and design choices in the prompt can lead to significant differences in the output. In this work, we develop a black-box framework for generating adversarial prompts for unstructured image and text generation. These prompts, which can be standalone or prepended to benign prompts, induce specific behaviors into the generative process, such as generating images of a particular object or generating high perplexity text.",
+    "link": "http://arxiv.org/abs/2302.04237",
+    "context": "Title: Black Box Adversarial Prompting for Foundation Models. (arXiv:2302.04237v2 [cs.LG] UPDATED)\nAbstract: Prompting interfaces allow users to quickly adjust the output of generative models in both vision and language. However, small changes and design choices in the prompt can lead to significant differences in the output. In this work, we develop a black-box framework for generating adversarial prompts for unstructured image and text generation. These prompts, which can be standalone or prepended to benign prompts, induce specific behaviors into the generative process, such as generating images of a particular object or generating high perplexity text.",
+    "path": "papers/23/02/2302.04237.json",
+    "total_tokens": 606,
+    "translated_title": "基础模型的黑盒对抗提示",
+    "translated_abstract": "提示界面允许用户在视觉和语言方面快速调整生成模型的输出。 然而，提示中的小改变和设计选择可能导致输出中的显着差异。 在本文中，我们开发了一个针对非结构化图像和文本生成的黑盒框架，用于生成对抗性提示。 这些提示可以独立存在，也可以附加到良性提示之前，从而导致特定的生成过程行为，例如生成特定对象的图像或生成高困惑度文本。",
+    "tldr": "本文提出了一个黑盒框架，用于生成对抗性提示，以在基础图像和文本生成模型中引入特定的生成行为。",
+    "en_tdlr": "This paper proposes a black-box framework for generating adversarial prompts to induce specific behaviors into foundation image and text generation models."
+}

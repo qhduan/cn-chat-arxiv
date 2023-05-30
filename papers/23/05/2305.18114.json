@@ -1,0 +1,12 @@
+{
+    "title": "Identifying Dynamic LATEs with a Static Instrument. (arXiv:2305.18114v1 [econ.EM])",
+    "abstract": "In many situations, researchers are interested in identifying dynamic effects of an irreversible treatment with a static binary instrumental variable (IV). For example, in evaluations of dynamic effects of training programs, with a single lottery determining eligibility. A common approach in these situations is to report per-period IV estimates. Under a dynamic extension of standard IV assumptions, we show that such IV estimators identify a weighted sum of treatment effects for different latent groups and treatment exposures. However, there is possibility of negative weights. We consider point and partial identification of dynamic treatment effects in this setting under different sets of assumptions.",
+    "link": "http://arxiv.org/abs/2305.18114",
+    "context": "Title: Identifying Dynamic LATEs with a Static Instrument. (arXiv:2305.18114v1 [econ.EM])\nAbstract: In many situations, researchers are interested in identifying dynamic effects of an irreversible treatment with a static binary instrumental variable (IV). For example, in evaluations of dynamic effects of training programs, with a single lottery determining eligibility. A common approach in these situations is to report per-period IV estimates. Under a dynamic extension of standard IV assumptions, we show that such IV estimators identify a weighted sum of treatment effects for different latent groups and treatment exposures. However, there is possibility of negative weights. We consider point and partial identification of dynamic treatment effects in this setting under different sets of assumptions.",
+    "path": "papers/23/05/2305.18114.json",
+    "total_tokens": 786,
+    "translated_title": "利用静态工具识别动态的最小平均处理效应",
+    "translated_abstract": "在很多情况下，研究人员感兴趣的是用静态二元工具（IV）来识别不可逆治疗的动态效应。例如，在对培训计划的动态效应进行评估时，只需要单个抽奖来确定资格。在这些情况下，通常采用每个时期的IV估计方法。在标准IV假设的动态扩展下，我们展示了这种IV估计法可以识别不同潜在群体和治疗暴露下的治疗效应加权和。但是，有可能出现负权重。我们在不同的假设设置下考虑了这种情况下动态治疗效果的点估计和部分识别。",
+    "tldr": "本研究讨论了利用静态二元工具来识别动态效应问题，从而识别不同潜在群体和治疗暴露下的治疗效应加权和，但可能存在负权重。同时，我们在不同的假设设置下考虑了动态治疗效果的点估计和部分识别。",
+    "en_tdlr": "This study discusses the problem of identifying dynamic effects using a static binary instrument, and identifies a weighted sum of treatment effects for different latent groups and treatment exposures, but negative weights are possible. Point and partial identification of dynamic treatment effects are considered under different sets of assumptions."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "High-Fidelity Image Compression with Score-based Generative Models. (arXiv:2305.18231v1 [eess.IV])",
+    "abstract": "Despite the tremendous success of diffusion generative models in text-to-image generation, replicating this success in the domain of image compression has proven difficult. In this paper, we demonstrate that diffusion can significantly improve perceptual quality at a given bit-rate, outperforming state-of-the-art approaches PO-ELIC and HiFiC as measured by FID score. This is achieved using a simple but theoretically motivated two-stage approach combining an autoencoder targeting MSE followed by a further score-based decoder. However, as we will show, implementation details matter and the optimal design decisions can differ greatly from typical text-to-image models.",
+    "link": "http://arxiv.org/abs/2305.18231",
+    "context": "Title: High-Fidelity Image Compression with Score-based Generative Models. (arXiv:2305.18231v1 [eess.IV])\nAbstract: Despite the tremendous success of diffusion generative models in text-to-image generation, replicating this success in the domain of image compression has proven difficult. In this paper, we demonstrate that diffusion can significantly improve perceptual quality at a given bit-rate, outperforming state-of-the-art approaches PO-ELIC and HiFiC as measured by FID score. This is achieved using a simple but theoretically motivated two-stage approach combining an autoencoder targeting MSE followed by a further score-based decoder. However, as we will show, implementation details matter and the optimal design decisions can differ greatly from typical text-to-image models.",
+    "path": "papers/23/05/2305.18231.json",
+    "total_tokens": 782,
+    "translated_title": "基于分数的生成模型的高保真图像压缩",
+    "translated_abstract": "尽管扩散生成模型在文本到图像生成中取得了巨大的成功，但在图像压缩领域复制这个成功却很困难。在本文中，我们展示了扩散模型可以显著提高在给定比特率下的感知质量，通过 FID 分数评估，表现超越了 PO-ELIC 和 HiFiC 的现有方法。我们通过一个简单但在理论上有动机的两阶段方法实现了这一点，该方法结合了以 MSE 为目标的自动编码器和一个进一步基于分数的解码器。然而，正如我们将展示的那样，实现细节很重要，最佳设计决策可能与典型的文本到图像模型有很大不同。",
+    "tldr": "本文提出了一种基于分数的生成模型的两阶段方法，该方法在图像压缩领域取得了显著的表现，实验证明该方法在一定比特率下能够提高图像的感知质量。"
+}

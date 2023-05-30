@@ -2,232 +2,127 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Automating the Analysis of Institutional Design in International Agreements.](http://arxiv.org/abs/2305.16750) | 本文研究了从国际协议中自动化提取正式制度设计的知识的方法，并通过对于《无形文化遗产保护公约》的测试分析了正式制度设计中参与者的可见性和重要性之间的关系。 |
-| [^2] | [The Search for Stability: Learning Dynamics of Strategic Publishers with Initial Documents.](http://arxiv.org/abs/2305.16695) | 本研究在信息检索博弈论模型中提出了相对排名原则（RRP）作为替代排名原则，以达成更稳定的搜索生态系统，并提供了理论和实证证据证明其学习动力学收敛性，同时展示了可能的出版商-用户权衡。 |
-| [^3] | [Multiview Identifiers Enhanced Generative Retrieval.](http://arxiv.org/abs/2305.16675) | 该论文提出了一种新型的基于合成标识符的多视角标识符来增强生成式检索，从而提高了检索结果的准确性和多样性。 |
-| [^4] | [FARA: Future-aware Ranking Algorithm for Fairness Optimization.](http://arxiv.org/abs/2305.16637) | FARA是一种未来感知的公平优化排名算法，可以通过联合优化多个排名列表并将其保存到未来的会话中，同时最小化公平性和相关性差异。实验证明，FARA在排名相关性和公平性方面优于现有算法。 |
-| [^5] | [DataFinder: Scientific Dataset Recommendation from Natural Language Descriptions.](http://arxiv.org/abs/2305.16636) | DataFinder能够根据自然语言描述推荐相关数据集，解决科学家在现有数据集中寻找合适数据集的困难。 |
-| [^6] | [CARAMEL: A Succinct Read-Only Lookup Table via Compressed Static Functions.](http://arxiv.org/abs/2305.16545) | CARAMEL是一种基于静态函数构建技术的空间高效的只读查找表，专门用于处理值是多集合的情况。 |
-| [^7] | [Graph-Based Model-Agnostic Data Subsampling for Recommendation Systems.](http://arxiv.org/abs/2305.16391) | 本文提出了一种基于图结构的无模型数据子采样方法，通过研究用户-物品图的拓扑结构来估计每个用户-物品交互的重要性，并在网络上进行传播来平滑估计值。该方法结合了无模型和基于模型的子采样方法的优点，在多个基准数据集上表现出较好的实验结果。 |
-| [^8] | [Large language models in biomedical natural language processing: benchmarks, baselines, and recommendations.](http://arxiv.org/abs/2305.16326) | 本文研究了GPT-3和GPT-4在生物医学自然语言处理中的表现，分析了它们可能产生的错误类型，并提供了使用这些模型的建议。 |
-| [^9] | [ConvGQR: Generative Query Reformulation for Conversational Search.](http://arxiv.org/abs/2305.15645) | 本文提出了一种新的面向会话搜索的ConvGQR框架，通过结合预训练语言模型来重新构造查询，从而提供更好的搜索查询。 |
-| [^10] | [Representation Online Matters: Practical End-to-End Diversification in Search and Recommender Systems.](http://arxiv.org/abs/2305.15534) | 为了改善搜索和推荐系统中的代表性，我们提出了一种端到端的多样化方法，并在Pinterest平台上实验和部署了可扩展的多样化机制，以改善美容和时尚类别中不同肤色的代表性。 |
-| [^11] | [PALR: Personalization Aware LLMs for Recommendation.](http://arxiv.org/abs/2305.07622) | 本文提出了一个称为PALR的框架，将用户的历史行为与LLMs相结合，生成用户喜欢的物品的推荐。与现有的推荐方法相比，我们的PALR框架实现了最先进的性能。 |
-| [^12] | [Automated Data Denoising for Recommendation.](http://arxiv.org/abs/2305.07070) | 本文提出了一个自动数据去噪的推荐框架——AutoDenoise，利用显式数据作为验证集动态 guiding 推荐算法的训练，对隐式数据进行去噪处理，提高推荐系统的准确性。 |
-| [^13] | [Boosting Zero-shot Cross-lingual Retrieval by Training on Artificially Code-Switched Data.](http://arxiv.org/abs/2305.05295) | 研究者提出训练排名模型的方法来提高跨语言检索的效率，该模型使用了人工代码切换的数据，并且实验表明在跨语言检索和多语言检索中会带来显著改进，在不影响单语检索的基础上，特别是对于远程语言之间的检索。 |
-| [^14] | [Language Agnostic Multilingual Information Retrieval with Contrastive Learning.](http://arxiv.org/abs/2210.06633) | 该论文提出一种使用对比学习的技术，利用平行和非平行语料库来提高多语种信息检索的效果，仅使用英语IR训练数据和一些平行语料库即可在非英语数据上实现显著的检索性能改进。 |
-| [^15] | [Everyone's Preference Changes Differently: Weighted Multi-Interest Retrieval Model.](http://arxiv.org/abs/2207.06652) | 本文提出了一种新的加权多兴趣检索模型（Multi-Interest Preference，MIP），通过利用深度学习方法为用户建立多个兴趣嵌入，并将用户在多个兴趣上的偏好进行建模，从而提高候选检索结果的查全率。 |
+| [^1] | [DotHash: Estimating Set Similarity Metrics for Link Prediction and Document Deduplication.](http://arxiv.org/abs/2305.17310) | DotHash是一种用于集合相似度度量的无偏估计器，可用于链接预测和文档去重等应用。 |
+| [^2] | [Text Is All You Need: Learning Language Representations for Sequential Recommendation.](http://arxiv.org/abs/2305.13731) | 本研究提出了一种名为Recformer的框架，它将用户喜好和项目特征建模为可以推广到新项目和数据集的语言表示，并利用双向Transformer来捕捉长期依赖关系，用于序列推荐，比目前最先进的方法表现更好。 |
+| [^3] | [InPars-v2: Large Language Models as Efficient Dataset Generators for Information Retrieval.](http://arxiv.org/abs/2301.01820) | 本文提出 InPars-v2，使用开源 LLMs 和强大再排序器生成用于信息检索中训练的合成查询-文档对，可在 BEIR 基准测试中达到最新的最好结果。 |
+| [^4] | [Reasoning with Language Model Prompting: A Survey.](http://arxiv.org/abs/2212.09597) | 本文提供了使用语言模型提示进行推理的前沿研究综合调查。讨论了新兴推理能力出现的潜在原因，并提供系统资源帮助初学者。 |
+| [^5] | [Nonparametric Decoding for Generative Retrieval.](http://arxiv.org/abs/2210.02068) | 本文提出了一种非参数化解码方法，通过利用上下文化词汇嵌入，解决了生成式检索模型信息容量受限的问题，在文档检索任务中具有高效性和高性能。 |
+| [^6] | [Joint Optimization of Ranking and Calibration with Contextualized Hybrid Model.](http://arxiv.org/abs/2208.06164) | 本论文提出了一个联合优化排名和校准能力的方法JRC，通过对比输出logit值来提高排名能力和校准能力。 |
+| [^7] | [Optimizing Test-Time Query Representations for Dense Retrieval.](http://arxiv.org/abs/2205.12680) | 本文介绍了TOUR算法，它利用交叉编码再排序器提供的伪标签优化基于实例级别的查询表示，显著提高了端到端开放领域问答的准确性。 |
+| [^8] | [Visual Acuity Prediction on Real-Life Patient Data Using a Machine Learning Based Multistage System.](http://arxiv.org/abs/2204.11970) | 本研究提供了一种使用机器学习技术开发预测模型的多阶段系统，可高精度预测三种眼疾患者的视力变化，并辅助眼科医生进行临床决策和患者咨询。 |
 
 # 详细
 
-[^1]: 自动化国际协议中制度设计分析
+[^1]: DotHash：用于链接预测和文档去重的集合相似度度量估计
 
-    Automating the Analysis of Institutional Design in International Agreements. (arXiv:2305.16750v1 [cs.CL])
+    DotHash: Estimating Set Similarity Metrics for Link Prediction and Document Deduplication. (arXiv:2305.17310v1 [cs.SI])
 
-    [http://arxiv.org/abs/2305.16750](http://arxiv.org/abs/2305.16750)
+    [http://arxiv.org/abs/2305.17310](http://arxiv.org/abs/2305.17310)
 
-    本文研究了从国际协议中自动化提取正式制度设计的知识的方法，并通过对于《无形文化遗产保护公约》的测试分析了正式制度设计中参与者的可见性和重要性之间的关系。
-
-    
-
-    本文探讨如何自动地从国际协议中提取正式制度设计、规范、规则和参与者等知识。重点是分析规范文化遗产关系关键方面的正式制度设计中参与者的可见性和重要性之间的关系。所开发的工具采用了多种技术，如收集法律文件、用制度语法注释这些文件并使用图分析方法来探索正式制度设计。该系统对2003年《无形文化遗产保护公约》进行了测试。
-
-    This paper explores the automatic knowledge extraction of formal institutional design - norms, rules, and actors - from international agreements. The focus was to analyze the relationship between the visibility and centrality of actors in the formal institutional design in regulating critical aspects of cultural heritage relations. The developed tool utilizes techniques such as collecting legal documents, annotating them with Institutional Grammar, and using graph analysis to explore the formal institutional design. The system was tested against the 2003 UNESCO Convention for the Safeguarding of the Intangible Cultural Heritage.
-    
-[^2]: 寻求稳定性：具有初始文件的战略出版商的学习动态的研究
-
-    The Search for Stability: Learning Dynamics of Strategic Publishers with Initial Documents. (arXiv:2305.16695v1 [cs.GT])
-
-    [http://arxiv.org/abs/2305.16695](http://arxiv.org/abs/2305.16695)
-
-    本研究在信息检索博弈论模型中提出了相对排名原则（RRP）作为替代排名原则，以达成更稳定的搜索生态系统，并提供了理论和实证证据证明其学习动力学收敛性，同时展示了可能的出版商-用户权衡。
+    DotHash是一种用于集合相似度度量的无偏估计器，可用于链接预测和文档去重等应用。
 
     
 
-    我们研究了一种信息检索的博弈论模型，其中战略出版商旨在在保持原始文档完整性的同时最大化自己排名第一的机会。我们表明，常用的PRP排名方案导致环境不稳定，游戏经常无法达到纯纳什均衡。我们将相对排名原则（RRP）作为替代排名原则，并介绍两个排名函数，它们是RRP的实例。我们提供了理论和实证证据，表明这些方法导致稳定的搜索生态系统，通过提供关于学习动力学收敛的积极结果。我们还定义出版商和用户的福利，并展示了可能的出版商-用户权衡，突显了确定搜索引擎设计师应选择哪种排名函数的复杂性。
+    集合相似度的度量是几种数据挖掘任务的核心方面。例如，在网页搜索中删除重复结果的常见方法是查看所有页面对之间的Jaccard指数。在社交网络分析中，一种备受赞赏的度量是Adamic-Adar指数，广泛用于比较预测链接中的节点邻域集合。然而，随着要处理的数据量增加，计算所有成对之间的确切相似度可能是棘手的。这种规模上的挑战已经激发了对于集合相似度度量的有效估计器的研究。最流行的两种估计器，MinHash和SimHash，的确被用于需要处理大量数据的应用程序，如文档去重和推荐系统。考虑到这些任务的重要性，推进估计器的需求是显然的。我们提出了DotHash，这是两个集合交集大小的无偏估计器。
 
-    We study a game-theoretic model of information retrieval, in which strategic publishers aim to maximize their chances of being ranked first by the search engine, while maintaining the integrity of their original documents. We show that the commonly used PRP ranking scheme results in an unstable environment where games often fail to reach pure Nash equilibrium. We propose the Relative Ranking Principle (RRP) as an alternative ranking principle, and introduce two ranking functions that are instances of the RRP. We provide both theoretical and empirical evidence that these methods lead to a stable search ecosystem, by providing positive results on the learning dynamics convergence. We also define the publishers' and users' welfare, and demonstrate a possible publisher-user trade-off, which highlights the complexity of determining which ranking function should be selected by the search engine designer.
+    Metrics for set similarity are a core aspect of several data mining tasks. To remove duplicate results in a Web search, for example, a common approach looks at the Jaccard index between all pairs of pages. In social network analysis, a much-celebrated metric is the Adamic-Adar index, widely used to compare node neighborhood sets in the important problem of predicting links. However, with the increasing amount of data to be processed, calculating the exact similarity between all pairs can be intractable. The challenge of working at this scale has motivated research into efficient estimators for set similarity metrics. The two most popular estimators, MinHash and SimHash, are indeed used in applications such as document deduplication and recommender systems where large volumes of data need to be processed. Given the importance of these tasks, the demand for advancing estimators is evident. We propose DotHash, an unbiased estimator for the intersection size of two sets. DotHash can be use
     
-[^3]: 多视角标识增强生成式检索
+[^2]: 文本是唯一需要的：用于序列推荐的语言表示学习
 
-    Multiview Identifiers Enhanced Generative Retrieval. (arXiv:2305.16675v1 [cs.CL])
+    Text Is All You Need: Learning Language Representations for Sequential Recommendation. (arXiv:2305.13731v1 [cs.IR])
 
-    [http://arxiv.org/abs/2305.16675](http://arxiv.org/abs/2305.16675)
+    [http://arxiv.org/abs/2305.13731](http://arxiv.org/abs/2305.13731)
 
-    该论文提出了一种新型的基于合成标识符的多视角标识符来增强生成式检索，从而提高了检索结果的准确性和多样性。
-
-    
-
-    与其简单地将查询与现有段落匹配，生成式检索生成段落的标识符字符串作为检索目标。然而，这种标识符必须足够独特以代表一个段落。当前的方法使用数字ID或文本片段（如标题或子字符串）作为标识符。然而，这些标识符不能很好地覆盖一个段落的内容。因此，我们提出了一种新类型的标识符，即基于段落内容生成的合成标识符，可以整合文本片段缺乏的情境信息。此外，我们同时考虑多视角标识符，包括合成标识符、标题和子字符串。这些标识符的视角相互补充，有助于从多个角度综合排名段落。我们在三个公共数据集上进行了一系列实验，结果表明我们提出的方法在生成式检索中表现最佳。
-
-    Instead of simply matching a query to pre-existing passages, generative retrieval generates identifier strings of passages as the retrieval target. At a cost, the identifier must be distinctive enough to represent a passage. Current approaches use either a numeric ID or a text piece (such as a title or substrings) as the identifier. However, these identifiers cannot cover a passage's content well. As such, we are motivated to propose a new type of identifier, synthetic identifiers, that are generated based on the content of a passage and could integrate contextualized information that text pieces lack. Furthermore, we simultaneously consider multiview identifiers, including synthetic identifiers, titles, and substrings. These views of identifiers complement each other and facilitate the holistic ranking of passages from multiple perspectives. We conduct a series of experiments on three public datasets, and the results indicate that our proposed approach performs the best in generative 
-    
-[^4]: FARA: 未来感知的公平优化排名算法
-
-    FARA: Future-aware Ranking Algorithm for Fairness Optimization. (arXiv:2305.16637v1 [cs.IR])
-
-    [http://arxiv.org/abs/2305.16637](http://arxiv.org/abs/2305.16637)
-
-    FARA是一种未来感知的公平优化排名算法，可以通过联合优化多个排名列表并将其保存到未来的会话中，同时最小化公平性和相关性差异。实验证明，FARA在排名相关性和公平性方面优于现有算法。
+    本研究提出了一种名为Recformer的框架，它将用户喜好和项目特征建模为可以推广到新项目和数据集的语言表示，并利用双向Transformer来捕捉长期依赖关系，用于序列推荐，比目前最先进的方法表现更好。
 
     
 
-    排名系统是现代信息检索应用（例如搜索引擎和推荐系统）的关键组件。除了与用户相关的排名相关性外，向项目提供者公平的曝光度也被认为是排名优化的重要因素。许多公平排名算法已被提出以联合优化排名相关性和公平性。然而，我们发现大多数现有的公平排名方法采用贪心算法，仅针对下一个即时会话或请求优化排名。正如本文所示，这种短视的范式可能限制排名优化的上限，并导致长期的次优性能。为此，我们提出了FARA，一种新颖的未来感知排名算法，用于排名相关性和公平优化。FARA不是贪婪地优化下一个会话的排名，而是通过联合优化多个排名列表并将它们保存到未来会话中，来提前规划。特别地，FARA旨在最小化排名列表的公平性和相关性差异，并考虑未来会话对当前排名的影响。我们在真实世界数据集上的实验证明，FARA在排名相关性和公平性方面优于现有的公平排名算法。
+    序列推荐旨在从历史交互中建模动态用户行为。现有方法依靠明确的项目ID或一般文本特征进行序列建模，以理解用户喜好。尽管很有前途，但这些方法仍然难以建模冷启动项目或将知识转移至新数据集。在本文中，我们建议将用户喜好和项目特征建模为可以推广到新项目和数据集的语言表示。为此，我们提出了一个名为Recformer的新框架，它有效地学习序列推荐的语言表示。具体而言，我们建议通过展平由文本描述的项目键值属性，将项目作为“句子”（单词序列）来编写，以便用户的项目序列成为句子序列。为推荐，Recformer被训练以理解“句子”序列并检索下一个“句子”。为了编码项目序列，我们设计了一个双向Transformer，利用自我注意机制来捕捉长期依赖关系。我们在三个具有不同特征的公共数据集上进行了广泛的实验，并展示了Recformer始终优于现有最先进的方法。
 
-    Ranking systems are the key components of modern Information Retrieval (IR) applications, such as search engines and recommender systems. Besides the ranking relevance to users, the exposure fairness to item providers has also been considered an important factor in ranking optimization. Many fair ranking algorithms have been proposed to jointly optimize both ranking relevance and fairness. However, we find that most existing fair ranking methods adopt greedy algorithms that only optimize rankings for the next immediate session or request. As shown in this paper, such a myopic paradigm could limit the upper bound of ranking optimization and lead to suboptimal performance in the long term. To this end, we propose FARA, a novel Future-Aware Ranking Algorithm for ranking relevance and fairness optimization. Instead of greedily optimizing rankings for the next immediate session, FARA plans ahead by jointly optimizing multiple ranklists together and saving them for future sessions. Particula
+    Sequential recommendation aims to model dynamic user behavior from historical interactions. Existing methods rely on either explicit item IDs or general textual features for sequence modeling to understand user preferences. While promising, these approaches still struggle to model cold-start items or transfer knowledge to new datasets. In this paper, we propose to model user preferences and item features as language representations that can be generalized to new items and datasets. To this end, we present a novel framework, named Recformer, which effectively learns language representations for sequential recommendation. Specifically, we propose to formulate an item as a "sentence" (word sequence) by flattening item key-value attributes described by text so that an item sequence for a user becomes a sequence of sentences. For recommendation, Recformer is trained to understand the "sentence" sequence and retrieve the next "sentence". To encode item sequences, we design a bi-directional T
     
-[^5]: DataFinder: 从自然语言描述中推荐科学数据集
+[^3]: InPars-v2: 利用大型语言模型作为信息检索高效数据集生成器
 
-    DataFinder: Scientific Dataset Recommendation from Natural Language Descriptions. (arXiv:2305.16636v1 [cs.IR])
+    InPars-v2: Large Language Models as Efficient Dataset Generators for Information Retrieval. (arXiv:2301.01820v4 [cs.IR] UPDATED)
 
-    [http://arxiv.org/abs/2305.16636](http://arxiv.org/abs/2305.16636)
+    [http://arxiv.org/abs/2301.01820](http://arxiv.org/abs/2301.01820)
 
-    DataFinder能够根据自然语言描述推荐相关数据集，解决科学家在现有数据集中寻找合适数据集的困难。
-
-    
-
-    现代机器学习依赖于数据集来开发和验证研究想法。鉴于公开可用数据的增长，找到合适的数据集变得越来越困难。任何研究问题对能够回答这个问题的数据集的要求都有明确和隐含的限制，例如数据集大小、模态和领域。我们引入了一项新任务，即在给定一个研究想法的简短自然语言描述的情况下推荐相关数据集，以帮助人们找到符合他们需求的相关数据集。数据集推荐存在独特的信息检索问题，数据集很难直接索引进行搜索，也没有现成的语料库用于这个任务。为了实现这个任务，我们构建了DataFinder数据集，其中包括一个自动构建的较大训练集（17500个查询）和一个较小的专家注释的评估集（392个查询）。利用这些数据，我们比较了各种信息检索模型。
-
-    Modern machine learning relies on datasets to develop and validate research ideas. Given the growth of publicly available data, finding the right dataset to use is increasingly difficult. Any research question imposes explicit and implicit constraints on how well a given dataset will enable researchers to answer this question, such as dataset size, modality, and domain. We introduce a new task of recommending relevant datasets given a short natural language description of a research idea, to help people find relevant datasets for their needs. Dataset recommendation poses unique challenges as an information retrieval problem; datasets are hard to directly index for search and there are no corpora readily available for this task. To operationalize this task, we build the DataFinder Dataset which consists of a larger automatically-constructed training set (17.5K queries) and a smaller expert-annotated evaluation set (392 queries). Using this data, we compare various information retrieval 
-    
-[^6]: CARAMEL：通过压缩静态函数实现的简洁只读查找表
-
-    CARAMEL: A Succinct Read-Only Lookup Table via Compressed Static Functions. (arXiv:2305.16545v1 [cs.DS])
-
-    [http://arxiv.org/abs/2305.16545](http://arxiv.org/abs/2305.16545)
-
-    CARAMEL是一种基于静态函数构建技术的空间高效的只读查找表，专门用于处理值是多集合的情况。
+    本文提出 InPars-v2，使用开源 LLMs 和强大再排序器生成用于信息检索中训练的合成查询-文档对，可在 BEIR 基准测试中达到最新的最好结果。
 
     
 
-    查找表是许多数据处理和系统应用程序中的基本结构。随着网络规模越来越大，这些应用程序经常需要压缩技术来支持快速随机O（1）查找压缩数据中的单个参数（即在RAM中进行块解压缩）。受最近静态函数构建技术的进展启发，我们提出了一种名为CARAMEL的空间高效的不可变键值数据表示，专门针对值是多集合的情况。
+    近来，InPars 提出了一种利用大型语言模型（LLMs）在信息检索任务中高效生成相关查询的方法：通过少量样本，诱导 LLM 生成与文档相关的查询，在此基础上生成合成的查询-文档对，用于训练检索器。然而，InPars 和 Promptagator 等方法依赖于 GPT-3 和 FLAN 等专有 LLMs 生成这些数据集。本文提出了 InPars-v2，该数据集生成器使用开放源代码的 LLM 和现有的强大再排序器来选择用于训练的合成查询-文档对。一个简单的 BM25 检索管道，在经过由 InPars-v2 数据微调的 monoT5 再排序器之后，便可在 BEIR 基准测试中达到最新的最好结果。为了让研究人员进一步提高我们的方法，我们开源了代码、数据和微调模型：https://github.com/zetaalphavector/inPars/tree/master/tpu。
 
-    Lookup tables are a fundamental structure in many data processing and systems applications. Examples include tokenized text in NLP, quantized embedding collections in recommendation systems, integer sketches for streaming data, and hash-based string representations in genomics. With the increasing size of web-scale data, such applications often require compression techniques that support fast random $O(1)$ lookup of individual parameters directly on the compressed data (i.e. without blockwise decompression in RAM). While the community has proposd a number of succinct data structures that support queries over compressed representations, these approaches do not fully leverage the low-entropy structure prevalent in real-world workloads to reduce space. Inspired by recent advances in static function construction techniques, we propose a space-efficient representation of immutable key-value data, called CARAMEL, specifically designed for the case where the values are multi-sets. By carefull
+    Recently, InPars introduced a method to efficiently use large language models (LLMs) in information retrieval tasks: via few-shot examples, an LLM is induced to generate relevant queries for documents. These synthetic query-document pairs can then be used to train a retriever. However, InPars and, more recently, Promptagator, rely on proprietary LLMs such as GPT-3 and FLAN to generate such datasets. In this work we introduce InPars-v2, a dataset generator that uses open-source LLMs and existing powerful rerankers to select synthetic query-document pairs for training. A simple BM25 retrieval pipeline followed by a monoT5 reranker finetuned on InPars-v2 data achieves new state-of-the-art results on the BEIR benchmark. To allow researchers to further improve our method, we open source the code, synthetic data, and finetuned models: https://github.com/zetaalphavector/inPars/tree/master/tpu
     
-[^7]: 基于图的无模型数据子采样在推荐系统中的应用研究
+[^4]: 使用语言模型提示进行推理：一项调查
 
-    Graph-Based Model-Agnostic Data Subsampling for Recommendation Systems. (arXiv:2305.16391v1 [cs.IR])
+    Reasoning with Language Model Prompting: A Survey. (arXiv:2212.09597v2 [cs.CL] UPDATED)
 
-    [http://arxiv.org/abs/2305.16391](http://arxiv.org/abs/2305.16391)
+    [http://arxiv.org/abs/2212.09597](http://arxiv.org/abs/2212.09597)
 
-    本文提出了一种基于图结构的无模型数据子采样方法，通过研究用户-物品图的拓扑结构来估计每个用户-物品交互的重要性，并在网络上进行传播来平滑估计值。该方法结合了无模型和基于模型的子采样方法的优点，在多个基准数据集上表现出较好的实验结果。
-
-    
-
-    数据子采样广泛用于加速训练大规模推荐系统。大多数子采样方法是基于模型的，常常需要一个预训练的试验模型来通过样本难度等方式测量数据重要性。然而，当试验模型被错误指定时，基于模型的子采样方法将会恶化。鉴于试验模型的错误指定在真实的推荐系统中普遍存在，我们提出了基于数据结构，即图形来探索的无模型数据子采样方法。具体地，我们研究用户-物品图的拓扑结构，通过图导电性来估计每个用户-物品交互（即用户-物品图中的一条边）的重要性，并在网络上进行传播步骤，平滑估计的重要性值。由于我们提出的方法是无模型的，因此我们可以将无模型和基于模型的子采样方法的优点结合起来。我们的实证研究表明，将这两种方法组合使用，在多个基准数据集上均比任何单一方法都要好。
-
-    Data subsampling is widely used to speed up the training of large-scale recommendation systems. Most subsampling methods are model-based and often require a pre-trained pilot model to measure data importance via e.g. sample hardness. However, when the pilot model is misspecified, model-based subsampling methods deteriorate. Since model misspecification is persistent in real recommendation systems, we instead propose model-agnostic data subsampling methods by only exploring input data structure represented by graphs. Specifically, we study the topology of the user-item graph to estimate the importance of each user-item interaction (an edge in the user-item graph) via graph conductance, followed by a propagation step on the network to smooth out the estimated importance value.  Since our proposed method is model-agnostic, we can marry the merits of both model-agnostic and model-based subsampling methods. Empirically, we show that combing the two consistently improves over any single meth
-    
-[^8]: 生物医学自然语言处理中的大型语言模型: 基准、基线和建议
-
-    Large language models in biomedical natural language processing: benchmarks, baselines, and recommendations. (arXiv:2305.16326v1 [cs.CL])
-
-    [http://arxiv.org/abs/2305.16326](http://arxiv.org/abs/2305.16326)
-
-    本文研究了GPT-3和GPT-4在生物医学自然语言处理中的表现，分析了它们可能产生的错误类型，并提供了使用这些模型的建议。
+    本文提供了使用语言模型提示进行推理的前沿研究综合调查。讨论了新兴推理能力出现的潜在原因，并提供系统资源帮助初学者。
 
     
 
-    生物医学文献呈指数级增长，手动筛选和提取知识变得困难。自动从生物医学文献中提取信息的生物医学自然语言处理（BioNLP）技术有助于减轻这种负担。近年来，如GPT-3和GPT-4等大型语言模型（LLMs）因其卓越的性能而受到重视。但是，它们在BioNLP任务中的有效性以及对方法开发和下游用户的影响仍未得到研究。本研究（1）在四个应用程序中在八个BioNLP数据集中建立了GPT-3和GPT-4在零-shot和一-shot设置下的基准表现，包括命名实体识别，关系提取，多标签文档分类和语义相似性和推理；（2）审查了LLMs产生的错误，并将错误分为三种类型：缺失，不一致和不需要的人工内容；（3）提出了使用LLMs的建议。
+    推理作为复杂问题解决的重要能力，可以为医疗诊断、谈判等各种实际应用提供后端支持。本文对使用语言模型提示进行推理的前沿研究进行了综合调查。我们介绍了研究成果的比较和总结，并提供了系统资源以帮助初学者。我们还讨论了新兴推理能力出现的潜在原因，并突出了未来的研究方向。资源可在 https://github.com/zjunlp/Prompt4ReasoningPapers 上获取（定期更新）。
 
-    Biomedical literature is growing rapidly, making it challenging to curate and extract knowledge manually. Biomedical natural language processing (BioNLP) techniques that can automatically extract information from biomedical literature help alleviate this burden. Recently, large Language Models (LLMs), such as GPT-3 and GPT-4, have gained significant attention for their impressive performance. However, their effectiveness in BioNLP tasks and impact on method development and downstream users remain understudied. This pilot study (1) establishes the baseline performance of GPT-3 and GPT-4 at both zero-shot and one-shot settings in eight BioNLP datasets across four applications: named entity recognition, relation extraction, multi-label document classification, and semantic similarity and reasoning, (2) examines the errors produced by the LLMs and categorized the errors into three types: missingness, inconsistencies, and unwanted artificial content, and (3) provides suggestions for using L
+    Reasoning, as an essential ability for complex problem-solving, can provide back-end support for various real-world applications, such as medical diagnosis, negotiation, etc. This paper provides a comprehensive survey of cutting-edge research on reasoning with language model prompting. We introduce research works with comparisons and summaries and provide systematic resources to help beginners. We also discuss the potential reasons for emerging such reasoning abilities and highlight future research directions. Resources are available at https://github.com/zjunlp/Prompt4ReasoningPapers (updated periodically).
     
-[^9]: ConvGQR：面向会话搜索的生成式查询重构
+[^5]: 生成式检索的非参数化解码方法
 
-    ConvGQR: Generative Query Reformulation for Conversational Search. (arXiv:2305.15645v1 [cs.IR])
+    Nonparametric Decoding for Generative Retrieval. (arXiv:2210.02068v3 [cs.IR] UPDATED)
 
-    [http://arxiv.org/abs/2305.15645](http://arxiv.org/abs/2305.15645)
+    [http://arxiv.org/abs/2210.02068](http://arxiv.org/abs/2210.02068)
 
-    本文提出了一种新的面向会话搜索的ConvGQR框架，通过结合预训练语言模型来重新构造查询，从而提供更好的搜索查询。
-
-    
-
-    在会话搜索中，用户当前搜索意图依赖于先前的对话历史。从整个对话上下文中确定一个良好的搜索查询是具有挑战性的。为避免查询编码器的昂贵重新训练，大部分现有方法尝试学习一个重写模型，通过模仿手动查询重写来去除当前查询的上下文。然而，手动重写的查询并不总是最好的搜索查询。训练重写模型会限制模型产生良好搜索查询的能力。本文提出一种新的框架ConvGQR，基于预训练语言模型（PLM），一个用于查询重写，另一个用于生成潜在答案，以重新构造会话查询。通过结合两者，ConvGQR可以提供更好的搜索查询。此外，为了将查询重构与检索性能联系起来，我们提出了一种基于特征选择的相似度分数模型，用于验证ConvGQR的有效性。
-
-    In conversational search, the user's real search intent for the current turn is dependent on the previous conversation history. It is challenging to determine a good search query from the whole conversation context. To avoid the expensive re-training of the query encoder, most existing methods try to learn a rewriting model to de-contextualize the current query by mimicking the manual query rewriting. However, manually rewritten queries are not always the best search queries. Training a rewriting model on them would limit the model's ability to produce good search queries. Another useful hint is the potential answer to the question. In this paper, we propose ConvGQR, a new framework to reformulate conversational queries based on generative pre-trained language models (PLMs), one for query rewriting and another for generating potential answers. By combining both, ConvGQR can produce better search queries. In addition, to relate query reformulation to retrieval performance, we propose a 
-    
-[^10]: 在搜索和推荐系统中，在线表示很重要：实用的端到端多样化方法。
-
-    Representation Online Matters: Practical End-to-End Diversification in Search and Recommender Systems. (arXiv:2305.15534v1 [cs.IR])
-
-    [http://arxiv.org/abs/2305.15534](http://arxiv.org/abs/2305.15534)
-
-    为了改善搜索和推荐系统中的代表性，我们提出了一种端到端的多样化方法，并在Pinterest平台上实验和部署了可扩展的多样化机制，以改善美容和时尚类别中不同肤色的代表性。
+    本文提出了一种非参数化解码方法，通过利用上下文化词汇嵌入，解决了生成式检索模型信息容量受限的问题，在文档检索任务中具有高效性和高性能。
 
     
 
-    随着在线平台在各个人口统计学中的使用不断增长，用户经常表达希望在内容中感受到自己的代表性。为了改善搜索结果和推荐中的代表性，我们引入了端到端的多样化方法，确保多样化内容在这些系统的各个阶段中流动，从检索到排序。我们在多个Pinterest平台的生产界面中开发、实验和部署可扩展的多样化机制，包括搜索、相关产品和新用户主页，以改善美容和时尚内容中不同肤色的代表性。生产系统中的多样化包括三个组成部分：确定会触发多样化的请求，在检索阶段确保从大型内容语料库中检索到多样化的内容，最后，在排名阶段以自我调整的方式平衡多样性和效用的权衡。我们的方法从使用Strong-O开始。
+    生成式检索模型仅依赖于其模型参数中编码的信息，没有外部存储器，其信息容量受到限制并且是固定的。为了克服这一限制，我们提出了一种非参数化解码方法（Np Decoding），可以应用于现有的生成式检索模型中。Np Decoding使用非参数化的上下文化词汇嵌入（外部存储器），而不是作为解码器词汇嵌入的常规词汇嵌入。通过利用上下文化词汇嵌入，生成式检索模型能够同时利用参数空间和非参数空间。在9个数据集（8个单跳和1个多跳）的文档检索任务中的评估表明，将Np Decoding应用于生成式检索模型可以显著提高性能。我们还表明，Np Decoding具有数据和参数效率，并在零样本设置中表现出高性能。
 
-    As the use of online platforms continues to grow across all demographics, users often express a desire to feel represented in the content. To improve representation in search results and recommendations, we introduce end-to-end diversification, ensuring that diverse content flows throughout the various stages of these systems, from retrieval to ranking. We develop, experiment, and deploy scalable diversification mechanisms in multiple production surfaces on the Pinterest platform, including Search, Related Products, and New User Homefeed, to improve the representation of different skin tones in beauty and fashion content. Diversification in production systems includes three components: identifying requests that will trigger diversification, ensuring diverse content is retrieved from the large content corpus during the retrieval stage, and finally, balancing the diversity-utility trade-off in a self-adjusting manner in the ranking stage. Our approaches, which evolved from using Strong-O
+    The generative retrieval model depends solely on the information encoded in its model parameters without external memory, its information capacity is limited and fixed. To overcome the limitation, we propose Nonparametric Decoding (Np Decoding) which can be applied to existing generative retrieval models. Np Decoding uses nonparametric contextualized vocab embeddings (external memory) rather than vanilla vocab embeddings as decoder vocab embeddings. By leveraging the contextualized vocab embeddings, the generative retrieval model is able to utilize both the parametric and nonparametric space. Evaluation over 9 datasets (8 single-hop and 1 multi-hop) in the document retrieval task shows that applying Np Decoding to generative retrieval models significantly improves the performance. We also show that Np Decoding is dataand parameter-efficient, and shows high performance in the zero-shot setting.
     
-[^11]: 个性化感知的推荐系统中的LMMs模型
+[^6]: 融合背景的混合模型下的排名和校准联合优化研究
 
-    PALR: Personalization Aware LLMs for Recommendation. (arXiv:2305.07622v1 [cs.IR])
+    Joint Optimization of Ranking and Calibration with Contextualized Hybrid Model. (arXiv:2208.06164v2 [cs.IR] UPDATED)
 
-    [http://arxiv.org/abs/2305.07622](http://arxiv.org/abs/2305.07622)
+    [http://arxiv.org/abs/2208.06164](http://arxiv.org/abs/2208.06164)
 
-    本文提出了一个称为PALR的框架，将用户的历史行为与LLMs相结合，生成用户喜欢的物品的推荐。与现有的推荐方法相比，我们的PALR框架实现了最先进的性能。
-
-    
-
-    大型语言模型(LLMs)由于其出色的性能而受到越来越多的关注。本文提出了一种新的框架PALR，将用户的历史行为与LLMs相结合，以生成用户喜欢的物品的推荐。我们首先使用用户/物品互动作为候选检索的指导，然后采用基于LLMs的排序模型生成推荐物品。实验结果表明，与现有的推荐方法相比，我们提出的PALR框架实现了最先进的性能。
-
-    Large language models (LLMs) have recently received significant attention for their exceptional capabilities. Despite extensive efforts in developing general-purpose LLMs that can be utilized in various natural language processing (NLP) tasks, there has been less research exploring their potential in recommender systems. In this paper, we propose a novel framework, named PALR, which aiming to combine user history behaviors (such as clicks, purchases, ratings, etc.) with LLMs to generate user preferred items. Specifically, we first use user/item interactions as guidance for candidate retrieval. Then we adopt a LLM-based ranking model to generate recommended items. Unlike existing approaches that typically adopt general-purpose LLMs for zero/few-shot recommendation testing or training on small-sized language models (with less than 1 billion parameters), which cannot fully elicit LLMs' reasoning abilities and leverage rich item side parametric knowledge, we fine-tune a 7 billion parameter
-    
-[^12]: 自动数据去噪技术用于推荐系统的应用
-
-    Automated Data Denoising for Recommendation. (arXiv:2305.07070v1 [cs.IR])
-
-    [http://arxiv.org/abs/2305.07070](http://arxiv.org/abs/2305.07070)
-
-    本文提出了一个自动数据去噪的推荐框架——AutoDenoise，利用显式数据作为验证集动态 guiding 推荐算法的训练，对隐式数据进行去噪处理，提高推荐系统的准确性。
+    本论文提出了一个联合优化排名和校准能力的方法JRC，通过对比输出logit值来提高排名能力和校准能力。
 
     
 
-    在现实世界中，大多数平台收集的反馈数据既有大规模、自然嘈杂的隐式反馈，也有小规模但高度相关的显式反馈。由于数据稀缺的问题，隐式反馈通常是训练推荐系统的默认选择，但这种数据可能非常嘈杂，因为用户行为的随机性和多样性。幸运的是，通过利用两种反馈的优势来弥补另一种的弱点，我们可以几乎不花费什么代价来缓解以上问题。本文提出了一个自动数据去噪的框架——AutoDenoise用于推荐系统，它使用少量显式数据作为验证集来指导推荐算法的训练。AutoDenoise受到课程学习（CL）的广义定义的启发，学会自动动态地进行课程学习，进而对数据进行去噪处理。
+    尽管排名优化技术得到了发展，点对点损失仍然是点击率预测的主要方法。这可以归因于点对点损失的校准能力，因为预测可以被视为点击概率。实际上，CTR预测模型也通常通过排名能力进行评估。为了优化排名能力，可以采用排名损失（例如成对或列表损失），因为它们通常比点对点损失实现更好的排名。之前的研究尝试直接将两种损失组合起来以获得两种损失的益处，并观察到了改进的性能。然而，之前的研究打破了输出logit作为点击率的含义，这可能会导致次优解。为了解决这个问题，我们提出了一种方法，可以联合优化排名和校准能力（简称JRC）。JRC通过对输出logit值进行对比来提高排名能力。
 
-    In real-world scenarios, most platforms collect both large-scale, naturally noisy implicit feedback and small-scale yet highly relevant explicit feedback. Due to the issue of data sparsity, implicit feedback is often the default choice for training recommender systems (RS), however, such data could be very noisy due to the randomness and diversity of user behaviors. For instance, a large portion of clicks may not reflect true user preferences and many purchases may result in negative reviews or returns. Fortunately, by utilizing the strengths of both types of feedback to compensate for the weaknesses of the other, we can mitigate the above issue at almost no cost. In this work, we propose an Automated Data Denoising framework, \textbf{\textit{AutoDenoise}}, for recommendation, which uses a small number of explicit data as validation set to guide the recommender training. Inspired by the generalized definition of curriculum learning (CL), AutoDenoise learns to automatically and dynamica
+    Despite the development of ranking optimization techniques, pointwise loss remains the dominating approach for click-through rate prediction. It can be attributed to the calibration ability of the pointwise loss since the prediction can be viewed as the click probability. In practice, a CTR prediction model is also commonly assessed with the ranking ability. To optimize the ranking ability, ranking loss (e.g., pairwise or listwise loss) can be adopted as they usually achieve better rankings than pointwise loss. Previous studies have experimented with a direct combination of the two losses to obtain the benefit from both losses and observed an improved performance. However, previous studies break the meaning of output logit as the click-through rate, which may lead to sub-optimal solutions. To address this issue, we propose an approach that can Jointly optimize the Ranking and Calibration abilities (JRC for short). JRC improves the ranking ability by contrasting the logit value for the 
     
-[^13]: 通过训练人工代码切换数据来提升零样本跨语言检索
+[^7]: 优化密集检索的测试时间查询表示
 
-    Boosting Zero-shot Cross-lingual Retrieval by Training on Artificially Code-Switched Data. (arXiv:2305.05295v1 [cs.CL])
+    Optimizing Test-Time Query Representations for Dense Retrieval. (arXiv:2205.12680v3 [cs.CL] UPDATED)
 
-    [http://arxiv.org/abs/2305.05295](http://arxiv.org/abs/2305.05295)
+    [http://arxiv.org/abs/2205.12680](http://arxiv.org/abs/2205.12680)
 
-    研究者提出训练排名模型的方法来提高跨语言检索的效率，该模型使用了人工代码切换的数据，并且实验表明在跨语言检索和多语言检索中会带来显著改进，在不影响单语检索的基础上，特别是对于远程语言之间的检索。
-
-    
-
-    将以英语为代表的高资源语言的信息检索（IR）模型以零样本方式迁移到其他语言已成为被广泛采用的方法。在本研究中，我们表明当查询和文档以不同语言存在时，零样本排名器的有效性会降低。出于这个原因，我们建议使用人工代码切换数据来训练排名模型，而我们生成这些数据是通过利用双语词表。为此，我们尝试了从（1）跨语言词嵌入和（2）平行维基百科页面标题得出的词表。我们使用mMARCO数据集对涵盖单语IR（MoIR）、跨语言IR（CLIR）和多语言IR（MLIR）的36种语言对的重排模型进行了广泛评估。我们的结果表明，代码切换可以在保持MoIR性能稳定的同时，在CLIR中产生5.1 MRR@10的一致和显著增益，以及在MLIR中产生3.9 MRR@10的增益。令人鼓舞的是，远程语言之间的增益特别显著。
-
-    Transferring information retrieval (IR) models from a high-resource language (typically English) to other languages in a zero-shot fashion has become a widely adopted approach. In this work, we show that the effectiveness of zero-shot rankers diminishes when queries and documents are present in different languages. Motivated by this, we propose to train ranking models on artificially code-switched data instead, which we generate by utilizing bilingual lexicons. To this end, we experiment with lexicons induced from (1) cross-lingual word embeddings and (2) parallel Wikipedia page titles. We use the mMARCO dataset to extensively evaluate reranking models on 36 language pairs spanning Monolingual IR (MoIR), Cross-lingual IR (CLIR), and Multilingual IR (MLIR). Our results show that code-switching can yield consistent and substantial gains of 5.1 MRR@10 in CLIR and 3.9 MRR@10 in MLIR, while maintaining stable performance in MoIR. Encouragingly, the gains are especially pronounced for distan
-    
-[^14]: 无关语言的多语种信息检索与对比学习
-
-    Language Agnostic Multilingual Information Retrieval with Contrastive Learning. (arXiv:2210.06633v2 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2210.06633](http://arxiv.org/abs/2210.06633)
-
-    该论文提出一种使用对比学习的技术，利用平行和非平行语料库来提高多语种信息检索的效果，仅使用英语IR训练数据和一些平行语料库即可在非英语数据上实现显著的检索性能改进。
+    本文介绍了TOUR算法，它利用交叉编码再排序器提供的伪标签优化基于实例级别的查询表示，显著提高了端到端开放领域问答的准确性。
 
     
 
-    多语种信息检索具有挑战性，因为在许多语言中获取经过注释的训练数据成本很高。我们提出了一种有效的方法，在只有英语IR训练数据和英语与其他语言之间的一些平行语料库可用时训练多语种IR系统。我们利用平行和非平行语料库来提高预训练多语种语言模型的跨语言传递能力，并设计了一个语义对比损失，以对齐在不同语言中具有相同语义的平行句子的表示，以及一种新的语言对比损失，利用平行句子对从非平行语料库中的句子表示中删除语言特定信息。在使用这些损失对英语IR数据进行训练并在非英语数据上进行零-shot评估时，我们的模型表现出明显的改进，同时需要较少的计算资源。我们还证明了该方法的实用价值。
+    最近，密集检索的发展依赖于预训练的查询和上下文编码器提供的质量表示查询和上下文。本文介绍了TOUR（Test-Time Optimization of Query Representations），它通过来自测试时间检索结果的信号进一步优化基于实例级别的查询表示。我们利用交叉编码器再排序器来为检索结果提供细粒度的伪标签，并通过梯度下降迭代地优化查询表示。我们的理论分析表明，TOUR可以看作是伪相关反馈的经典Rocchio算法的一种推广，并提出了两种利用伪标签作为硬二进制或软连续标签的变体。我们首先将TOUR应用于短语检索，并使用我们提出的短语再排序器评估其在通道检索上的有效性。TOUR极大地提高了端到端开放领域问答的准确性。
 
-    Multilingual information retrieval (IR) is challenging since annotated training data is costly to obtain in many languages. We present an effective method to train multilingual IR systems when only English IR training data and some parallel corpora between English and other languages are available. We leverage parallel and non-parallel corpora to improve the pretrained multilingual language models' cross-lingual transfer ability. We design a semantic contrastive loss to align representations of parallel sentences that share the same semantics in different languages, and a new language contrastive loss to leverage parallel sentence pairs to remove language-specific information in sentence representations from non-parallel corpora. When trained on English IR data with these losses and evaluated zero-shot on non-English data, our model demonstrates significant improvement to prior work on retrieval performance, while it requires much less computational effort. We also demonstrate the valu
+    Recent developments of dense retrieval rely on quality representations of queries and contexts from pre-trained query and context encoders. In this paper, we introduce TOUR (Test-Time Optimization of Query Representations), which further optimizes instance-level query representations guided by signals from test-time retrieval results. We leverage a cross-encoder re-ranker to provide fine-grained pseudo labels over retrieval results and iteratively optimize query representations with gradient descent. Our theoretical analysis reveals that TOUR can be viewed as a generalization of the classical Rocchio algorithm for pseudo relevance feedback, and we present two variants that leverage pseudo-labels as hard binary or soft continuous labels. We first apply TOUR on phrase retrieval with our proposed phrase re-ranker, and also evaluate its effectiveness on passage retrieval with an off-the-shelf re-ranker. TOUR greatly improves end-to-end open-domain question answering accuracy, as well as pa
     
-[^15]: 每个人的偏好变化不同：加权多兴趣检索模型
+[^8]: 基于机器学习的多阶段系统对真实患者数据进行视力预测
 
-    Everyone's Preference Changes Differently: Weighted Multi-Interest Retrieval Model. (arXiv:2207.06652v4 [cs.IR] UPDATED)
+    Visual Acuity Prediction on Real-Life Patient Data Using a Machine Learning Based Multistage System. (arXiv:2204.11970v2 [eess.IV] UPDATED)
 
-    [http://arxiv.org/abs/2207.06652](http://arxiv.org/abs/2207.06652)
+    [http://arxiv.org/abs/2204.11970](http://arxiv.org/abs/2204.11970)
 
-    本文提出了一种新的加权多兴趣检索模型（Multi-Interest Preference，MIP），通过利用深度学习方法为用户建立多个兴趣嵌入，并将用户在多个兴趣上的偏好进行建模，从而提高候选检索结果的查全率。
+    本研究提供了一种使用机器学习技术开发预测模型的多阶段系统，可高精度预测三种眼疾患者的视力变化，并辅助眼科医生进行临床决策和患者咨询。
 
     
 
-    用户嵌入（用户的向量化表示）在推荐系统中具有重要作用。已经提出了许多方法来构建用户的多维度表示，以便于检索任务中找到相似的物品，并且已经在工业推荐系统中被证明是有效的。最近人们发现使用多种嵌入（即多个维度的用户表示）来表示用户的兴趣是有用的，每个嵌入表示用户的某个主题兴趣。对于多兴趣表示，重要的是对用户在不同主题上的偏好进行建模，并且了解偏好随时间的变化情况。然而，现有方法要么无法估算用户对每个兴趣的好感度，要么不合理地假设每个用户对每个兴趣的兴趣强度会以相等的速率下降，从而降低了候选检索结果的查全率。在本文中，我们提出加权多兴趣检索模型（Multi-Interest Preference, MIP），通过利用深度学习方法为用户产生多个兴趣嵌入，并且可以对用户在多种兴趣下的偏好进行估计，从而提高候选检索结果的查全率。
+    现实生活中，眼科学中的玻璃体手术药物治疗是治疗年龄相关性黄斑变性（AMD）、糖尿病性黄斑水肿（DME）和视网膜静脉阻塞（RVO）相关疾病的一种普遍治疗方法。然而，在真实世界的情况下，由于数据的异质性和不完整性，患者往往会在多年时间内失去视力，尽管接受治疗。本文采用多种IT系统，提出了一种用于研究的数据集成流程，该流程融合了德国一家最佳医疗保健医院的眼科部门的不同IT系统。经过使用机器学习技术开发预测模型，我们实现了对患者视力的预测。我们的结果表明，我们的系统可以为三种疾病的预测提供高准确性。此外，我们还展示了我们的系统可以作为工具，辅助眼科医生进行临床决策和患者咨询。
 
-    User embeddings (vectorized representations of a user) are essential in recommendation systems. Numerous approaches have been proposed to construct a representation for the user in order to find similar items for retrieval tasks, and they have been proven effective in industrial recommendation systems as well. Recently people have discovered the power of using multiple embeddings to represent a user, with the hope that each embedding represents the user's interest in a certain topic. With multi-interest representation, it's important to model the user's preference over the different topics and how the preference change with time. However, existing approaches either fail to estimate the user's affinity to each interest or unreasonably assume every interest of every user fades with an equal rate with time, thus hurting the recall of candidate retrieval. In this paper, we propose the Multi-Interest Preference (MIP) model, an approach that not only produces multi-interest for users by usin
+    In ophthalmology, intravitreal operative medication therapy (IVOM) is a widespread treatment for diseases related to the age-related macular degeneration (AMD), the diabetic macular edema (DME), as well as the retinal vein occlusion (RVO). However, in real-world settings, patients often suffer from loss of vision on time scales of years despite therapy, whereas the prediction of the visual acuity (VA) and the earliest possible detection of deterioration under real-life conditions is challenging due to heterogeneous and incomplete data. In this contribution, we present a workflow for the development of a research-compatible data corpus fusing different IT systems of the department of ophthalmology of a German maximum care hospital. The extensive data corpus allows predictive statements of the expected progression of a patient and his or her VA in each of the three diseases. We found out for the disease AMD a significant deterioration of the visual acuity over time. Within our proposed m
     
 

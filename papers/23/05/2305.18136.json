@@ -1,0 +1,12 @@
+{
+    "title": "Exponential Utility Maximization in a Discrete Time Gaussian Framework. (arXiv:2305.18136v1 [q-fin.MF])",
+    "abstract": "The aim of this short note is to present a solution to the discrete time exponential utility maximization problem in a case where the underlying asset has a multivariate normal distribution. In addition to the usual setting considered in Mathematical Finance, we also consider an investor who is informed about the risky asset's price changes with a delay. Our method of solution is based on the theory developed in [4] and guessing the optimal portfolio.",
+    "link": "http://arxiv.org/abs/2305.18136",
+    "context": "Title: Exponential Utility Maximization in a Discrete Time Gaussian Framework. (arXiv:2305.18136v1 [q-fin.MF])\nAbstract: The aim of this short note is to present a solution to the discrete time exponential utility maximization problem in a case where the underlying asset has a multivariate normal distribution. In addition to the usual setting considered in Mathematical Finance, we also consider an investor who is informed about the risky asset's price changes with a delay. Our method of solution is based on the theory developed in [4] and guessing the optimal portfolio.",
+    "path": "papers/23/05/2305.18136.json",
+    "total_tokens": 606,
+    "translated_title": "在离散时间高斯框架下的指数效用最大化",
+    "translated_abstract": "本短文的目的是在基础资产具有多元正态分布的情况下提出离散时间指数效用最大化问题的解决方案。除了数学金融中通常考虑的情景外，我们还考虑了一个了解风险资产价格变化的投资者有延迟的情况。我们的解决方案基于[4]中提出的理论和猜测最优组合的方法。",
+    "tldr": "本文提出了离散时间指数效用最大化问题在高斯框架下的解决方案，其中考虑了投资者知晓风险资产价格变化有延迟的情况。",
+    "en_tdlr": "This paper presents a solution to the problem of exponential utility maximization in a discrete-time Gaussian framework, with consideration to an investor who has delayed information on price changes of the risky asset."
+}

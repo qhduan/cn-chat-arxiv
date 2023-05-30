@@ -1,0 +1,12 @@
+{
+    "title": "Extremal Domain Translation with Neural Optimal Transport. (arXiv:2301.12874v2 [cs.LG] UPDATED)",
+    "abstract": "We propose the extremal transport (ET) which is a mathematical formalization of the theoretically best possible unpaired translation between a pair of domains w.r.t. the given similarity function. Inspired by the recent advances in neural optimal transport (OT), we propose a scalable algorithm to approximate ET maps as a limit of partial OT maps. We test our algorithm on toy examples and on the unpaired image-to-image translation task.",
+    "link": "http://arxiv.org/abs/2301.12874",
+    "context": "Title: Extremal Domain Translation with Neural Optimal Transport. (arXiv:2301.12874v2 [cs.LG] UPDATED)\nAbstract: We propose the extremal transport (ET) which is a mathematical formalization of the theoretically best possible unpaired translation between a pair of domains w.r.t. the given similarity function. Inspired by the recent advances in neural optimal transport (OT), we propose a scalable algorithm to approximate ET maps as a limit of partial OT maps. We test our algorithm on toy examples and on the unpaired image-to-image translation task.",
+    "path": "papers/23/01/2301.12874.json",
+    "total_tokens": 672,
+    "translated_title": "神经最优输运下的极值域翻译",
+    "translated_abstract": "我们提出了一种称为“极值传输(ET)”的方法，这是对于给定相似性函数的一对域之间的最佳可能的非配对翻译的数学形式化。受到神经最优输运(OT)近期发展的启发，我们提出了一种可扩展的算法，以OT的部分映射极限来逼近ET映射。我们在玩具实例和非配对图像到图像的翻译任务上测试了我们的算法。",
+    "tldr": "该论文提出了一种称为“极值传输(ET)”的方法，可用于进行给定相似性函数下的一对域之间的最佳可能的非配对翻译，并且提出了一种可扩展的基于神经最优输运(OT)的算法来逼近ET映射。",
+    "en_tdlr": "The paper proposes a method called “Extremal Transport (ET)” for the theoretically best possible unpaired translation between a pair of domains w.r.t. the given similarity function, and proposes a scalable algorithm based on neural optimal transport (OT) to approximate ET maps as a limit of partial OT maps."
+}

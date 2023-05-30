@@ -1,0 +1,11 @@
+{
+    "title": "Learning from Long-Tailed Noisy Data with Sample Selection and Balanced Loss. (arXiv:2211.10906v3 [cs.LG] UPDATED)",
+    "abstract": "The success of deep learning depends on large-scale and well-curated training data, while data in real-world applications are commonly long-tailed and noisy. Many methods have been proposed to deal with long-tailed data or noisy data, while a few methods are developed to tackle long-tailed noisy data. To solve this, we propose a robust method for learning from long-tailed noisy data with sample selection and balanced loss. Specifically, we separate the noisy training data into clean labeled set and unlabeled set with sample selection, and train the deep neural network in a semi-supervised manner with a balanced loss based on model bias. Extensive experiments on benchmarks demonstrate that our method outperforms existing state-of-the-art methods.",
+    "link": "http://arxiv.org/abs/2211.10906",
+    "context": "Title: Learning from Long-Tailed Noisy Data with Sample Selection and Balanced Loss. (arXiv:2211.10906v3 [cs.LG] UPDATED)\nAbstract: The success of deep learning depends on large-scale and well-curated training data, while data in real-world applications are commonly long-tailed and noisy. Many methods have been proposed to deal with long-tailed data or noisy data, while a few methods are developed to tackle long-tailed noisy data. To solve this, we propose a robust method for learning from long-tailed noisy data with sample selection and balanced loss. Specifically, we separate the noisy training data into clean labeled set and unlabeled set with sample selection, and train the deep neural network in a semi-supervised manner with a balanced loss based on model bias. Extensive experiments on benchmarks demonstrate that our method outperforms existing state-of-the-art methods.",
+    "path": "papers/22/11/2211.10906.json",
+    "total_tokens": 766,
+    "translated_title": "用样本选择和平衡损失从长尾嘈杂数据中学习",
+    "translated_abstract": "深度学习的成功依赖于大规模且精心策划的训练数据，然而实际应用中的数据通常是长尾的和嘈杂的。许多方法已被提出来处理长尾数据或嘈杂数据，而很少的方法被开发用于解决长尾嘈杂数据。为了解决这个问题，我们提出了一种用样本选择和平衡损失从长尾嘈杂数据中学习的鲁棒方法。具体来说，我们使用样本选择将嘈杂训练数据分为有标签的干净集合和无标签集合，并以基于模型偏差的平衡损失的半监督方式训练深度神经网络。在基准测试上的广泛实验表明，我们的方法优于现有的最先进的方法。",
+    "tldr": "本文提出了一种用样本选择和平衡损失的鲁棒方法，能够更好的处理长尾嘈杂数据的学习。"
+}
