@@ -231,22 +231,23 @@
 | [^227] | [Sampling Ex-Post Group-Fair Rankings.](http://arxiv.org/abs/2203.00887) | 本文提出了一组自然的公理来定义随机群体公平排名，证明了仅有事后群体公平排名的分布的存在，并提出了两种算法来采样随机的群体公平排名。 |
 | [^228] | [Sion's Minimax Theorem in Geodesic Metric Spaces and a Riemannian Extragradient Algorithm.](http://arxiv.org/abs/2202.06950) | 该论文提出了在测地度量空间中的Sion极小极大定理和黎曼外推算法，在保持问题可处理的同时，为非凸-非凹极小极大问题提供了一个广泛的推广。 |
 | [^229] | [Exploring Self-Attention Mechanisms for Speech Separation.](http://arxiv.org/abs/2202.02884) | 本论文探究了Transformers用于语音分离的应用，提出了SepFormer模型并在包括含噪和含噪回声的数据集上得到了最新成果。同时，还做了语音增强方面的研究，并首次将Linformers、Lonformers和ReFormers等高效的自注意力机制应用于语音分离，发现它们可以显著减少内存需求。 |
-| [^230] | [HeterPS: Distributed Deep Learning With Reinforcement Learning Based Scheduling in Heterogeneous Environments.](http://arxiv.org/abs/2111.10635) | 这篇论文介绍了一个名为Paddle-HeterPS的分布式框架，基于强化学习的调度方法可以高效地利用多种类型的计算资源，解决了分布式深度学习训练中多层次分配计算资源的问题。 |
-| [^231] | [Composite Goodness-of-fit Tests with Kernels.](http://arxiv.org/abs/2111.10275) | 本文提出了一种基于核的假设检验方法，可以解决具有挑战性的复合检验问题，其核心思想是在正确的模型规范的零假设下，非参数地估计参数（或模拟器）分布。 |
-| [^232] | [MMD Aggregated Two-Sample Test.](http://arxiv.org/abs/2110.15073) | 本文提出了两种新颖的基于最大均值差异（MMD）的非参数双样本核检验，并构造了一种自适应平均测试，称为MMDAgg，以解决平滑参数未知的问题。 |
-| [^233] | [Sinkhorn Distributionally Robust Optimization.](http://arxiv.org/abs/2109.11926) | 本文通过使用Sinkhorn距离进行分布鲁棒优化，推导出更容易处理且在实际中更合理的最坏情况分布，提出了解决方案，并展示了其优越性能。 |
-| [^234] | [Stochastic Optimization under Distributional Drift.](http://arxiv.org/abs/2108.07356) | 本文提供了一种在分布漂移下优化凸函数的新方法，经数值实验证明在低漂移-噪声比的情况下，近端随机梯度方法采用步长衰减策略可显著提升跟踪效率。 |
-| [^235] | [SGD with a Constant Large Learning Rate Can Converge to Local Maxima.](http://arxiv.org/abs/2107.11774) | 本研究构建了最坏情况下的优化问题，证明了带有定常大学习率的SGD可能表现出许多奇怪且潜在的不良行为，包括：收敛于局部最大值、缓慢越过鞍点和更喜欢尖锐的最小值。这强调了深入分析SGD在深度学习中作用的重要性。 |
-| [^236] | [Fingerprinting Generative Adversarial Networks.](http://arxiv.org/abs/2106.11760) | 本文提出了一种保护GAN知识产权的指纹识别方案，通过生成指纹样本并嵌入到分类器中进行版权验证，解决了前一种对分类模型的指纹识别方法在简单转移至GAN时遇到的隐蔽性和鲁棒性瓶颈，具有实际保护现代GAN模型的可行性。 |
-| [^237] | [Variance-Dependent Best Arm Identification.](http://arxiv.org/abs/2106.10417) | 本文研究了在多臂老虎机游戏中识别最优臂的问题。提出了一种自适应算法，该算法探索臂的奖励差距和方差，并使用一种称为分组中位数淘汰的新方法根据收集的信息做出未来决策。所提出的算法保证以概率(1-δ)输出最优臂，并使用最多的O（Σ(i=1)^n (σi²/Δi²+1/Δi)(lnδ-1+ln lnΔi-1)）个样本，这比方差独立算法获得了明显的优势。 |
-| [^238] | [FairCanary: Rapid Continuous Explainable Fairness.](http://arxiv.org/abs/2106.07057) | FairCanary是一个持续模型监控系统，使用量化人口漂移(QDD)度量模型偏差，避免传统阈值偏差度量的统计限制，可以提供可解释的公平性分析，并在多个实际数据集上实现了可操作性见解。 |
-| [^239] | [Diverse Gaussian Noise Consistency Regularization for Robustness and Uncertainty Calibration.](http://arxiv.org/abs/2104.01231) | 本研究提出了一种多样化高斯噪声一致性正则化方法，用于同时提高图像分类器的鲁棒性和准确性，与其他强大的多样化数据增强基础相比，可以将鲁棒性提高4.2-18.4％以应对未预见的噪声污染。 |
-| [^240] | [The Gradient Convergence Bound of Federated Multi-Agent Reinforcement Learning with Efficient Communication.](http://arxiv.org/abs/2103.13026) | 本文提出了两种优化策略, 一种是逐步衰减本地梯度权重的衰减模式, 另一种是基于代价最小化设计的共识算法来减少模型之间的通信量, 有效解决了独立学习环境异质性和联邦学习的通信开销问题。 |
-| [^241] | [Personalized Federated Learning: A Unified Framework and Universal Optimization Techniques.](http://arxiv.org/abs/2102.09743) | 本文探讨了个性化联邦学习的优化问题，并提出了适用于多种现有个性化FL目标的通用优化器。同时，提出了一个适用于广泛一类强凸性个性化FL模型的全面优化理论。其方法在通信和本地计算方面具有实用性和优越性，并能够恢复应对特定个性化FL目标的最佳计算和通信保证。 |
-| [^242] | [On the Nature and Types of Anomalies: A Review of Deviations in Data.](http://arxiv.org/abs/2007.15634) | 本文通过广泛文献综述，提供了第一个理论上基于原则且领域无关的数据异常分类法，并呈现了异常类型和子类型的全面概述。 |
-| [^243] | [A Modern Introduction to Online Learning.](http://arxiv.org/abs/1912.13213) | 这本专著介绍了在线学习的基本概念以及凸优化背景下的一阶和二阶算法, 包括欧几里得和非欧几里得设置中的在线镜像下降或遵循正则化领导者等算法。 |
-| [^244] | [Fast MLE Computation for the Dirichlet Multinomial.](http://arxiv.org/abs/1405.0099) | 本文提出了一种修改的方法来快速计算Dirichlet分布的MLE参数，相较于现有实现方法，只需要一遍遍历数据集就可以大大减少运行时间。 |
-| [^245] | [On the Dual Formulation of Boosting Algorithms.](http://arxiv.org/abs/0901.3590) | 本文从对偶问题的角度研究了Boosting算法，证明了AdaBoost等算法通过最大化间隔和控制间隔方差来维护更好的间隔分布，提出了基于列生成的优化算法，收敛速度更快。 |
+| [^230] | [pvCNN: Privacy-Preserving and Verifiable Convolutional Neural Network Testing.](http://arxiv.org/abs/2201.09186) | 本文提出了一种新的方法，用于隐私保护和可验证的卷积神经网络（CNN）测试，从多个测试者选择非公开数据，保护模型的隐私，并使用户对CNN性能的真实表现确信无疑。 |
+| [^231] | [HeterPS: Distributed Deep Learning With Reinforcement Learning Based Scheduling in Heterogeneous Environments.](http://arxiv.org/abs/2111.10635) | 这篇论文介绍了一个名为Paddle-HeterPS的分布式框架，基于强化学习的调度方法可以高效地利用多种类型的计算资源，解决了分布式深度学习训练中多层次分配计算资源的问题。 |
+| [^232] | [Composite Goodness-of-fit Tests with Kernels.](http://arxiv.org/abs/2111.10275) | 本文提出了一种基于核的假设检验方法，可以解决具有挑战性的复合检验问题，其核心思想是在正确的模型规范的零假设下，非参数地估计参数（或模拟器）分布。 |
+| [^233] | [MMD Aggregated Two-Sample Test.](http://arxiv.org/abs/2110.15073) | 本文提出了两种新颖的基于最大均值差异（MMD）的非参数双样本核检验，并构造了一种自适应平均测试，称为MMDAgg，以解决平滑参数未知的问题。 |
+| [^234] | [Sinkhorn Distributionally Robust Optimization.](http://arxiv.org/abs/2109.11926) | 本文通过使用Sinkhorn距离进行分布鲁棒优化，推导出更容易处理且在实际中更合理的最坏情况分布，提出了解决方案，并展示了其优越性能。 |
+| [^235] | [Stochastic Optimization under Distributional Drift.](http://arxiv.org/abs/2108.07356) | 本文提供了一种在分布漂移下优化凸函数的新方法，经数值实验证明在低漂移-噪声比的情况下，近端随机梯度方法采用步长衰减策略可显著提升跟踪效率。 |
+| [^236] | [SGD with a Constant Large Learning Rate Can Converge to Local Maxima.](http://arxiv.org/abs/2107.11774) | 本研究构建了最坏情况下的优化问题，证明了带有定常大学习率的SGD可能表现出许多奇怪且潜在的不良行为，包括：收敛于局部最大值、缓慢越过鞍点和更喜欢尖锐的最小值。这强调了深入分析SGD在深度学习中作用的重要性。 |
+| [^237] | [Fingerprinting Generative Adversarial Networks.](http://arxiv.org/abs/2106.11760) | 本文提出了一种保护GAN知识产权的指纹识别方案，通过生成指纹样本并嵌入到分类器中进行版权验证，解决了前一种对分类模型的指纹识别方法在简单转移至GAN时遇到的隐蔽性和鲁棒性瓶颈，具有实际保护现代GAN模型的可行性。 |
+| [^238] | [Variance-Dependent Best Arm Identification.](http://arxiv.org/abs/2106.10417) | 本文研究了在多臂老虎机游戏中识别最优臂的问题。提出了一种自适应算法，该算法探索臂的奖励差距和方差，并使用一种称为分组中位数淘汰的新方法根据收集的信息做出未来决策。所提出的算法保证以概率(1-δ)输出最优臂，并使用最多的O（Σ(i=1)^n (σi²/Δi²+1/Δi)(lnδ-1+ln lnΔi-1)）个样本，这比方差独立算法获得了明显的优势。 |
+| [^239] | [FairCanary: Rapid Continuous Explainable Fairness.](http://arxiv.org/abs/2106.07057) | FairCanary是一个持续模型监控系统，使用量化人口漂移(QDD)度量模型偏差，避免传统阈值偏差度量的统计限制，可以提供可解释的公平性分析，并在多个实际数据集上实现了可操作性见解。 |
+| [^240] | [Diverse Gaussian Noise Consistency Regularization for Robustness and Uncertainty Calibration.](http://arxiv.org/abs/2104.01231) | 本研究提出了一种多样化高斯噪声一致性正则化方法，用于同时提高图像分类器的鲁棒性和准确性，与其他强大的多样化数据增强基础相比，可以将鲁棒性提高4.2-18.4％以应对未预见的噪声污染。 |
+| [^241] | [The Gradient Convergence Bound of Federated Multi-Agent Reinforcement Learning with Efficient Communication.](http://arxiv.org/abs/2103.13026) | 本文提出了两种优化策略, 一种是逐步衰减本地梯度权重的衰减模式, 另一种是基于代价最小化设计的共识算法来减少模型之间的通信量, 有效解决了独立学习环境异质性和联邦学习的通信开销问题。 |
+| [^242] | [Personalized Federated Learning: A Unified Framework and Universal Optimization Techniques.](http://arxiv.org/abs/2102.09743) | 本文探讨了个性化联邦学习的优化问题，并提出了适用于多种现有个性化FL目标的通用优化器。同时，提出了一个适用于广泛一类强凸性个性化FL模型的全面优化理论。其方法在通信和本地计算方面具有实用性和优越性，并能够恢复应对特定个性化FL目标的最佳计算和通信保证。 |
+| [^243] | [On the Nature and Types of Anomalies: A Review of Deviations in Data.](http://arxiv.org/abs/2007.15634) | 本文通过广泛文献综述，提供了第一个理论上基于原则且领域无关的数据异常分类法，并呈现了异常类型和子类型的全面概述。 |
+| [^244] | [A Modern Introduction to Online Learning.](http://arxiv.org/abs/1912.13213) | 这本专著介绍了在线学习的基本概念以及凸优化背景下的一阶和二阶算法, 包括欧几里得和非欧几里得设置中的在线镜像下降或遵循正则化领导者等算法。 |
+| [^245] | [Fast MLE Computation for the Dirichlet Multinomial.](http://arxiv.org/abs/1405.0099) | 本文提出了一种修改的方法来快速计算Dirichlet分布的MLE参数，相较于现有实现方法，只需要一遍遍历数据集就可以大大减少运行时间。 |
+| [^246] | [On the Dual Formulation of Boosting Algorithms.](http://arxiv.org/abs/0901.3590) | 本文从对偶问题的角度研究了Boosting算法，证明了AdaBoost等算法通过最大化间隔和控制间隔方差来维护更好的间隔分布，提出了基于列生成的优化算法，收敛速度更快。 |
 
 # 详细
 
@@ -3456,7 +3457,21 @@
 
     Transformers have enabled impressive improvements in deep learning. They often outperform recurrent and convolutional models in many tasks while taking advantage of parallel processing. Recently, we proposed the SepFormer, which obtains state-of-the-art performance in speech separation with the WSJ0-2/3 Mix datasets. This paper studies in-depth Transformers for speech separation. In particular, we extend our previous findings on the SepFormer by providing results on more challenging noisy and noisy-reverberant datasets, such as LibriMix, WHAM!, and WHAMR!. Moreover, we extend our model to perform speech enhancement and provide experimental evidence on denoising and dereverberation tasks. Finally, we investigate, for the first time in speech separation, the use of efficient self-attention mechanisms such as Linformers, Lonformers, and ReFormers. We found that they reduce memory requirements significantly. For example, we show that the Reformer-based attention outperforms the popular Con
     
-[^230]: HeterPS：基于强化学习调度的异构环境下分布式深度学习
+[^230]: pvCNN: 隐私保护和可验证的CNN测试
+
+    pvCNN: Privacy-Preserving and Verifiable Convolutional Neural Network Testing. (arXiv:2201.09186v3 [cs.CR] UPDATED)
+
+    [http://arxiv.org/abs/2201.09186](http://arxiv.org/abs/2201.09186)
+
+    本文提出了一种新的方法，用于隐私保护和可验证的卷积神经网络（CNN）测试，从多个测试者选择非公开数据，保护模型的隐私，并使用户对CNN性能的真实表现确信无疑。
+
+    
+
+    本文提出了一种新的方法，用于隐私保护和可验证的卷积神经网络（CNN）测试，使CNN模型的开发人员能够通过适当地集成同态加密（HE）和零知识简洁非交互式知识（zk-SNARK），以及将 CNN模型划分为私有部分和公共部分并分别处理CNN测试中的不同部分，从而平衡安全和效率问题。通过这样的方法，从多个测试者选择非公开数据，从而使用户对CNN性能的真实表现确信无疑，并且也保护了模型的隐私。
+
+    This paper proposes a new approach for privacy-preserving and verifiable convolutional neural network (CNN) testing, enabling a CNN model developer to convince a user of the truthful CNN performance over non-public data from multiple testers, while respecting model privacy. To balance the security and efficiency issues, three new efforts are done by appropriately integrating homomorphic encryption (HE) and zero-knowledge succinct non-interactive argument of knowledge (zk-SNARK) primitives with the CNN testing. First, a CNN model to be tested is strategically partitioned into a private part kept locally by the model developer, and a public part outsourced to an outside server. Then, the private part runs over HE-protected test data sent by a tester and transmits its outputs to the public part for accomplishing subsequent computations of the CNN testing. Second, the correctness of the above CNN testing is enforced by generating zk-SNARK based proofs, with an emphasis on optimizing provin
+    
+[^231]: HeterPS：基于强化学习调度的异构环境下分布式深度学习
 
     HeterPS: Distributed Deep Learning With Reinforcement Learning Based Scheduling in Heterogeneous Environments. (arXiv:2111.10635v3 [cs.DC] UPDATED)
 
@@ -3470,7 +3485,7 @@
 
     Deep neural networks (DNNs) exploit many layers and a large number of parameters to achieve excellent performance. The training process of DNN models generally handles large-scale input data with many sparse features, which incurs high Input/Output (IO) cost, while some layers are compute-intensive. The training process generally exploits distributed computing resources to reduce training time. In addition, heterogeneous computing resources, e.g., CPUs, GPUs of multiple types, are available for the distributed training process. Thus, the scheduling of multiple layers to diverse computing resources is critical for the training process. To efficiently train a DNN model using the heterogeneous computing resources, we propose a distributed framework, i.e., Paddle-Heterogeneous Parameter Server (Paddle-HeterPS), composed of a distributed architecture and a Reinforcement Learning (RL)-based scheduling method. The advantages of Paddle-HeterPS are three-fold compared with existing frameworks. 
     
-[^231]: 带有核的复合适合性检验方法
+[^232]: 带有核的复合适合性检验方法
 
     Composite Goodness-of-fit Tests with Kernels. (arXiv:2111.10275v2 [stat.ML] UPDATED)
 
@@ -3484,7 +3499,7 @@
 
     Model misspecification can create significant challenges for the implementation of probabilistic models, and this has led to development of a range of robust methods which directly account for this issue. However, whether these more involved methods are required will depend on whether the model is really misspecified, and there is a lack of generally applicable methods to answer this question. In this paper, we propose one such method. More precisely, we propose kernel-based hypothesis tests for the challenging composite testing problem, where we are interested in whether the data comes from any distribution in some parametric family. Our tests make use of minimum distance estimators based on the maximum mean discrepancy and the kernel Stein discrepancy. They are widely applicable, including whenever the density of the parametric model is known up to normalisation constant, or if the model takes the form of a simulator. As our main result, we show that we are able to estimate the param
     
-[^232]: MMD聚合双样本检验
+[^233]: MMD聚合双样本检验
 
     MMD Aggregated Two-Sample Test. (arXiv:2110.15073v3 [stat.ML] UPDATED)
 
@@ -3498,7 +3513,7 @@
 
     We propose two novel nonparametric two-sample kernel tests based on the Maximum Mean Discrepancy (MMD). First, for a fixed kernel, we construct an MMD test using either permutations or a wild bootstrap, two popular numerical procedures to determine the test threshold. We prove that this test controls the probability of type I error non-asymptotically. Hence, it can be used reliably even in settings with small sample sizes as it remains well-calibrated, which differs from previous MMD tests which only guarantee correct test level asymptotically. When the difference in densities lies in a Sobolev ball, we prove minimax optimality of our MMD test with a specific kernel depending on the smoothness parameter of the Sobolev ball. In practice, this parameter is unknown and, hence, the optimal MMD test with this particular kernel cannot be used. To overcome this issue, we construct an aggregated test, called MMDAgg, which is adaptive to the smoothness parameter. The test power is maximised ove
     
-[^233]: Sinkhorn分布鲁棒优化
+[^234]: Sinkhorn分布鲁棒优化
 
     Sinkhorn Distributionally Robust Optimization. (arXiv:2109.11926v3 [math.OC] UPDATED)
 
@@ -3512,7 +3527,7 @@
 
     We study distributionally robust optimization (DRO) with Sinkhorn distance -a variant of Wasserstein distance based on entropic regularization. We derive convex programming dual reformulation for a general nominal distribution. Compared with Wasserstein DRO, it is computationally tractable for a larger class of loss functions, and its worst-case distribution is more reasonable for practical applications. To solve the dual reformulation, we develop a stochastic mirror descent algorithm using biased gradient oracles and analyze its convergence rate. Finally, we provide numerical examples using synthetic and real data to demonstrate its superior performance.
     
-[^234]: 分布漂移下的随机优化
+[^235]: 分布漂移下的随机优化
 
     Stochastic Optimization under Distributional Drift. (arXiv:2108.07356v3 [math.OC] UPDATED)
 
@@ -3526,7 +3541,7 @@
 
     We consider the problem of minimizing a convex function that is evolving according to unknown and possibly stochastic dynamics, which may depend jointly on time and on the decision variable itself. Such problems abound in the machine learning and signal processing literature, under the names of concept drift, stochastic tracking, and performative prediction. We provide novel non-asymptotic convergence guarantees for stochastic algorithms with iterate averaging, focusing on bounds valid both in expectation and with high probability. The efficiency estimates we obtain clearly decouple the contributions of optimization error, gradient noise, and time drift. Notably, we identify a low drift-to-noise regime in which the tracking efficiency of the proximal stochastic gradient method benefits significantly from a step decay schedule. Numerical experiments illustrate our results.
     
-[^235]: 带有定常大学习率的SGD可能收敛于局部最大值
+[^236]: 带有定常大学习率的SGD可能收敛于局部最大值
 
     SGD with a Constant Large Learning Rate Can Converge to Local Maxima. (arXiv:2107.11774v4 [cs.LG] UPDATED)
 
@@ -3540,7 +3555,7 @@
 
     Previous works on stochastic gradient descent (SGD) often focus on its success. In this work, we construct worst-case optimization problems illustrating that, when not in the regimes that the previous works often assume, SGD can exhibit many strange and potentially undesirable behaviors. Specifically, we construct landscapes and data distributions such that (1) SGD converges to local maxima, (2) SGD escapes saddle points arbitrarily slowly, (3) SGD prefers sharp minima over flat ones, and (4) AMSGrad converges to local maxima. We also realize results in a minimal neural network-like example. Our results highlight the importance of simultaneously analyzing the minibatch sampling, discrete-time updates rules, and realistic landscapes to understand the role of SGD in deep learning.
     
-[^236]: 生成对抗网络的指纹识别技术
+[^237]: 生成对抗网络的指纹识别技术
 
     Fingerprinting Generative Adversarial Networks. (arXiv:2106.11760v3 [cs.CR] UPDATED)
 
@@ -3554,7 +3569,7 @@
 
     Generative Adversarial Networks (GANs) have been widely used in various application scenarios. Since the production of a commercial GAN requires substantial computational and human resources, the copyright protection of GANs is urgently needed. In this paper, we present the first fingerprinting scheme for the Intellectual Property (IP) protection of GANs. We break through the stealthiness and robustness bottlenecks suffered by previous fingerprinting methods for classification models being naively transferred to GANs. Specifically, we innovatively construct a composite deep learning model from the target GAN and a classifier. Then we generate fingerprint samples from this composite model, and embed them in the classifier for effective ownership verification. This scheme inspires some concrete methodologies to practically protect the modern GAN models. Theoretical analysis proves that these methods can satisfy different security requirements necessary for IP protection. We also conduct 
     
-[^237]: 方差相关的最优臂识别
+[^238]: 方差相关的最优臂识别
 
     Variance-Dependent Best Arm Identification. (arXiv:2106.10417v3 [cs.LG] UPDATED)
 
@@ -3568,7 +3583,7 @@
 
     We study the problem of identifying the best arm in a stochastic multi-armed bandit game. Given a set of $n$ arms indexed from $1$ to $n$, each arm $i$ is associated with an unknown reward distribution supported on $[0,1]$ with mean $\theta_i$ and variance $\sigma_i^2$. Assume $\theta_1 > \theta_2 \geq \cdots \geq\theta_n$. We propose an adaptive algorithm which explores the gaps and variances of the rewards of the arms and makes future decisions based on the gathered information using a novel approach called \textit{grouped median elimination}. The proposed algorithm guarantees to output the best arm with probability $(1-\delta)$ and uses at most $O \left(\sum_{i = 1}^n \left(\frac{\sigma_i^2}{\Delta_i^2} + \frac{1}{\Delta_i}\right)(\ln \delta^{-1} + \ln \ln \Delta_i^{-1})\right)$ samples, where $\Delta_i$ ($i \geq 2$) denotes the reward gap between arm $i$ and the best arm and we define $\Delta_1 = \Delta_2$. This achieves a significant advantage over the variance-independent algorit
     
-[^238]: FairCanary: 快速持续的可解释公平性监控系统
+[^239]: FairCanary: 快速持续的可解释公平性监控系统
 
     FairCanary: Rapid Continuous Explainable Fairness. (arXiv:2106.07057v4 [cs.LG] UPDATED)
 
@@ -3582,7 +3597,7 @@
 
     Systems that offer continuous model monitoring have emerged in response to (1) well-documented failures of deployed Machine Learning (ML) and Artificial Intelligence (AI) models and (2) new regulatory requirements impacting these models. Existing monitoring systems continuously track the performance of deployed ML models and compute feature importance (a.k.a. explanations) for each prediction to help developers identify the root causes of emergent model performance problems.  We present Quantile Demographic Drift (QDD), a novel model bias quantification metric that uses quantile binning to measure differences in the overall prediction distributions over subgroups. QDD is ideal for continuous monitoring scenarios, does not suffer from the statistical limitations of conventional threshold-based bias metrics, and does not require outcome labels (which may not be available at runtime). We incorporate QDD into a continuous model monitoring system, called FairCanary, that reuses existing exp
     
-[^239]: 多样化高斯噪声一致性正则化用于鲁棒性和不确定性校准
+[^240]: 多样化高斯噪声一致性正则化用于鲁棒性和不确定性校准
 
     Diverse Gaussian Noise Consistency Regularization for Robustness and Uncertainty Calibration. (arXiv:2104.01231v6 [cs.LG] UPDATED)
 
@@ -3596,7 +3611,7 @@
 
     Deep neural networks achieve high prediction accuracy when the train and test distributions coincide. In practice though, various types of corruptions occur which deviate from this setup and cause severe performance degradations. Few methods have been proposed to address generalization in the presence of unforeseen domain shifts. In particular, digital noise corruptions arise commonly in practice during the image acquisition stage and present a significant challenge for current methods. In this paper, we propose a diverse Gaussian noise consistency regularization method for improving robustness of image classifiers under a variety of corruptions while still maintaining high clean accuracy. We derive bounds to motivate and understand the behavior of our Gaussian noise consistency regularization using a local loss landscape analysis. Our approach improves robustness against unforeseen noise corruptions by 4.2-18.4% over adversarial training and other strong diverse data augmentation base
     
-[^240]: 有效通信下联邦多智能体强化学习的梯度收敛界限
+[^241]: 有效通信下联邦多智能体强化学习的梯度收敛界限
 
     The Gradient Convergence Bound of Federated Multi-Agent Reinforcement Learning with Efficient Communication. (arXiv:2103.13026v2 [cs.LG] UPDATED)
 
@@ -3610,7 +3625,7 @@
 
     The paper considers independent reinforcement learning (IRL) for multi-agent collaborative decision-making in the paradigm of federated learning (FL). However, FL generates excessive communication overheads between agents and a remote central server, especially when it involves a large number of agents or iterations. Besides, due to the heterogeneity of independent learning environments, multiple agents may undergo asynchronous Markov decision processes (MDPs), which will affect the training samples and the model's convergence performance. On top of the variation-aware periodic averaging (VPA) method and the policy-based deep reinforcement learning (DRL) algorithm (i.e., proximal policy optimization (PPO)), this paper proposes two advanced optimization schemes orienting to stochastic gradient descent (SGD): 1) A decay-based scheme gradually decays the weights of a model's local gradients with the progress of successive local updates, and 2) By representing the agents as a graph, a cons
     
-[^241]: 个性化联邦学习：统一框架和通用优化技术
+[^242]: 个性化联邦学习：统一框架和通用优化技术
 
     Personalized Federated Learning: A Unified Framework and Universal Optimization Techniques. (arXiv:2102.09743v4 [cs.LG] UPDATED)
 
@@ -3624,7 +3639,7 @@
 
     We investigate the optimization aspects of personalized Federated Learning (FL). We propose general optimizers that can be applied to numerous existing personalized FL objectives, specifically a tailored variant of Local SGD and variants of accelerated coordinate descent/accelerated SVRCD. By examining a general personalized objective capable of recovering many existing personalized FL objectives as special cases, we develop a comprehensive optimization theory applicable to a wide range of strongly convex personalized FL models in the literature. We showcase the practicality and/or optimality of our methods in terms of communication and local computation. Remarkably, our general optimization solvers and theory can recover the best-known communication and computation guarantees for addressing specific personalized FL objectives. Consequently, our proposed methods can serve as universal optimizers, rendering the design of task-specific optimizers unnecessary in many instances.
     
-[^242]: 关于异常的性质和类型：数据偏差的回顾
+[^243]: 关于异常的性质和类型：数据偏差的回顾
 
     On the Nature and Types of Anomalies: A Review of Deviations in Data. (arXiv:2007.15634v5 [cs.DB] UPDATED)
 
@@ -3638,7 +3653,7 @@
 
     Anomalies are occurrences in a dataset that are in some way unusual and do not fit the general patterns. The concept of the anomaly is typically ill-defined and perceived as vague and domain-dependent. Moreover, despite some 250 years of publications on the topic, no comprehensive and concrete overviews of the different types of anomalies have hitherto been published. By means of an extensive literature review this study therefore offers the first theoretically principled and domain-independent typology of data anomalies and presents a full overview of anomaly types and subtypes. To concretely define the concept of the anomaly and its different manifestations, the typology employs five dimensions: data type, cardinality of relationship, anomaly level, data structure, and data distribution. These fundamental and data-centric dimensions naturally yield 3 broad groups, 9 basic types, and 63 subtypes of anomalies. The typology facilitates the evaluation of the functional capabilities of an
     
-[^243]: 在线学习的现代介绍
+[^244]: 在线学习的现代介绍
 
     A Modern Introduction to Online Learning. (arXiv:1912.13213v6 [cs.LG] UPDATED)
 
@@ -3652,7 +3667,7 @@
 
     In this monograph, I introduce the basic concepts of Online Learning through a modern view of Online Convex Optimization. Here, online learning refers to the framework of regret minimization under worst-case assumptions. I present first-order and second-order algorithms for online learning with convex losses, in Euclidean and non-Euclidean settings. All the algorithms are clearly presented as instantiation of Online Mirror Descent or Follow-The-Regularized-Leader and their variants. Particular attention is given to the issue of tuning the parameters of the algorithms and learning in unbounded domains, through adaptive and parameter-free online learning algorithms. Non-convex losses are dealt through convex surrogate losses and through randomization. The bandit setting is also briefly discussed, touching on the problem of adversarial and stochastic multi-armed bandits. These notes do not require prior knowledge of convex analysis and all the required mathematical tools are rigorously ex
     
-[^244]: Dirichlet多项式的快速MLE计算
+[^245]: Dirichlet多项式的快速MLE计算
 
     Fast MLE Computation for the Dirichlet Multinomial. (arXiv:1405.0099v2 [stat.ML] UPDATED)
 
@@ -3666,7 +3681,7 @@
 
     Given a collection of categorical data, we want to find the parameters of a Dirichlet distribution which maximizes the likelihood of that data. Newton's method is typically used for this purpose but current implementations require reading through the entire dataset on each iteration. In this paper, we propose a modification which requires only a single pass through the dataset and substantially decreases running time. Furthermore we analyze both theoretically and empirically the performance of the proposed algorithm, and provide an open source implementation.
     
-[^245]: 关于Boosting算法的对偶形式
+[^246]: 关于Boosting算法的对偶形式
 
     On the Dual Formulation of Boosting Algorithms. (arXiv:0901.3590v7 [cs.LG] UPDATED)
 

@@ -70,29 +70,30 @@
 | [^66] | [Lego-MT: Towards Detachable Models in Massively Multilingual Machine Translation.](http://arxiv.org/abs/2212.10551) | 本文提出了一种可拆卸的多语言机器翻译模型，Lego-MT，以解决现有多语言单体模型在参数干扰和低效推导方面的挑战。进行实验评估表明，该模型具有较高的性能，相比具有10倍规模的模型，在效率和表现方面都更具优势。 |
 | [^67] | [Detoxifying Text with MaRCo: Controllable Revision with Experts and Anti-Experts.](http://arxiv.org/abs/2212.10543) | MaRCo是一种排毒算法，能够使用专家和反专家模型对文本进行可控的重写和修订，适用于消除微妙的有害信息，且在自动化指标和人类评估中均有很好的表现。 |
 | [^68] | [When Not to Trust Language Models: Investigating Effectiveness and Limitations of Parametric and Non-Parametric Memories.](http://arxiv.org/abs/2212.10511) | 本文通过对10个模型和4种增强方法的实验，发现语言模型在记忆不太流行的实际知识方面存在困难，而检索增强的语言模型表现较好，提出了一种检索增强语言模型的简单有效方法。 |
-| [^69] | [DOC: Improving Long Story Coherence With Detailed Outline Control.](http://arxiv.org/abs/2212.10077) | 该论文提出了一个名为 Detailed Outline Control(DOC) 的框架，通过详细大纲和详细控制器来提高生成长篇故事时的情节连贯性和大纲相关性，人类评估证实该方法在这些方面显著优于基线方法，并且更适用于交互生成设置。 |
-| [^70] | [WeCheck: Strong Factual Consistency Checker via Weakly Supervised Learning.](http://arxiv.org/abs/2212.10057) | 本研究提出了一种弱监督框架WeCheck，通过聚合多种资源训练模型，准确和高效地检查文本生成模型是否存在实际事实一致性问题。 |
-| [^71] | [Reasoning with Language Model Prompting: A Survey.](http://arxiv.org/abs/2212.09597) | 本文提供了使用语言模型提示进行推理的前沿研究综合调查。讨论了新兴推理能力出现的潜在原因，并提供系统资源帮助初学者。 |
-| [^72] | [BLOOM+1: Adding Language Support to BLOOM for Zero-Shot Prompting.](http://arxiv.org/abs/2212.09535) | 本文在BLOOM模型中应用语言适应策略，将其适应到新语言上，并在八种新语言的零样本提示表现中提升了性能。适配器微调比大模型的持续预训练更有效，提示性能主要由语言适应数据的大小确定。 |
-| [^73] | [An Extensible Plug-and-Play Method for Multi-Aspect Controllable Text Generation.](http://arxiv.org/abs/2212.09387) | 本论文提出了一种基于可训练门的多方面可控文本生成方法，用于规范前缀的干预，从而实现对训练时未见过的方面组合的控制，具有良好的可扩展性和性能表现。 |
-| [^74] | [PAL: Persona-Augmented Emotional Support Conversation Generation.](http://arxiv.org/abs/2212.09235) | 本文提出了一个动态推断和建模求助者人格的框架，并结合基于策略的可控生成方法提供个性化情感支持，实证分析表明人格对情感支持有重要影响。 |
-| [^75] | [On Isotropy, Contextualization and Learning Dynamics of Contrastive-based Sentence Representation Learning.](http://arxiv.org/abs/2212.09170) | 本文通过几何学角度在对比句子表示学习中发现，对比学习带来了各向同性，并驱动同一句子中标记在语义空间中收敛到相似的位置。对于语义上有意义的标记，"虚假的情境化"得到了缓解，而对于功能性标记则被增强。 |
-| [^76] | [Modeling Instance Interactions for Joint Information Extraction with Neural High-Order Conditional Random Field.](http://arxiv.org/abs/2212.08929) | 本文介绍了一种利用神经高阶条件随机场进行联合信息抽取的框架，可以更好地集成跨实例交互，并通过高阶神经解码器解决了精确高阶推理的难解性问题。 |
-| [^77] | [UniSumm and SummZoo: Unified Model and Diverse Benchmark for Few-Shot Summarization.](http://arxiv.org/abs/2211.09783) | 该论文提出了UniSumm统一的少样本摘要模型，可以通过前缀调整应对任何少样本摘要任务，同时，他们也发布了一个新的基准SummZoo，其由8个摘要任务组成，每个任务都涵盖了多个少样本样本集，以此更好地评估少样本摘要器。 |
-| [^78] | [mOKB6: A Multilingual Open Knowledge Base Completion Benchmark.](http://arxiv.org/abs/2211.06959) | 该论文使用最新的多语言开放信息提取技术构建了第一个名为mOKB6的多语言Open KBC数据集，旨在补全开放知识库。研究结果表明，将多语言组合起来有一致的好处，但当前的多语言模型存在困难。 |
-| [^79] | [lilGym: Natural Language Visual Reasoning with Reinforcement Learning.](http://arxiv.org/abs/2211.01994) | 本文提出了一个基于自然语言视觉推理的强化学习基准测试——lilGym，它由2661个高度组合的人类编写自然语言语句和交互式视觉环境组成，并通过注释可执行Python程序来实现精确的奖励计算。本文的实验结果和分析表明，lilGym是一个具有挑战性的开放性问题。 |
-| [^80] | [Crosslingual Generalization through Multitask Finetuning.](http://arxiv.org/abs/2211.01786) | 该论文通过多任务微调实现跨语言泛化。研究表明，在英语提示下，对大型多语言模型进行英语任务的微调，可以实现对仅出现在预训练语料库中的非英语语言的任务泛化，并且使用英语提示进行多语言任务的微调进一步提高了在英语和非英语任务上的表现，从而实现了各种零-shot结果的最新水平。 |
-| [^81] | [Solving Math Word Problems via Cooperative Reasoning induced Language Models.](http://arxiv.org/abs/2210.16257) | 该论文提出了一种基于合作推理诱导的语言模型——CoRe，可以高效地解决数学应用题。实验表明，CoRe 在准确性和效率方面优于现有最先进的方法。 |
-| [^82] | [Dense-ATOMIC: Towards Densely-connected ATOMIC with High Knowledge Coverage and Massive Multi-hop Paths.](http://arxiv.org/abs/2210.07621) | 本文旨在构建具有高知识覆盖率和大规模多跳路径的Dense-ATOMIC。我们提出了一种名为Rel-CSKGC的CSKG完成方法，用于预测三元组的头事件和尾事件后的关系，并相应构建Dense-ATOMIC，这相对于强基线方法具有优势。 |
-| [^83] | [Rethinking Annotation: Can Language Learners Contribute?.](http://arxiv.org/abs/2210.06828) | 研究探究了语言学习者是否可以为标注基准数据集做出贡献，发现在提供额外资源的帮助下，具有中高级语言能力的学习者能够提供准确的标签。 |
-| [^84] | [Augmentation Invariant Discrete Representation for Generative Spoken Language Modeling.](http://arxiv.org/abs/2209.15483) | 本研究提出了一种增强不变的离散语音表示方法，以提高其在生成式语音语言建模中的鲁棒性。该方法利用了transformer-based模型，并通过一种非线性量化方法来学习增强不变表示。实验证明，该方法相对于现有最先进方法具有显著的鲁棒性改进，并在语音生成任务上表现出了竞争性的表现。 |
-| [^85] | [PaLI: A Jointly-Scaled Multilingual Language-Image Model.](http://arxiv.org/abs/2209.06794) | PaLI是一种联合缩放的多语言语言-图像模型，可对图像和文本进行建模和执行许多视觉、语言和多模态任务，利用Transformer和Vision Transformer等先前的能力和成本。联合缩放在此任务中很重要，所以我们使用了一个40亿参数的Vision Transformer，以便利用更大容量的视觉模型的优势。 |
-| [^86] | [Massively Multilingual Lexical Specialization of Multilingual Transformers.](http://arxiv.org/abs/2208.01018) | 使用BabelNet的多语言同义词集，让大规模多语言变压器进行词汇专门化处理，能够大大提高跨语言词嵌入、多语言语义检索和多语言文档分类的表现。 |
-| [^87] | [Joint Generator-Ranker Learning for Natural Language Generation.](http://arxiv.org/abs/2206.13974) | 提出了一种新的自然语言生成算法JGR，该算法将生成器和评分器集成在一个单一的框架中进行联合训练，通过混合目标优化生成器和使用对比损失训练评分器。在各种文本生成任务中，JGR在三种常见生成场景下的四个公共数据集上均优于现有方法。 |
-| [^88] | [MVP: Multi-task Supervised Pre-training for Natural Language Generation.](http://arxiv.org/abs/2206.12131) | 本文提出了用于自然语言生成的多任务监督预训练（MVP）方法，其收集大规模自然语言生成语料库，并使用监督方式对文本生成模型进行训练。MVP模型结合特定的软提示，可以在各种任务中展现出优异的表现。 |
-| [^89] | [BITE: Textual Backdoor Attacks with Iterative Trigger Injection.](http://arxiv.org/abs/2205.12700) | 提出了一种名为BITE的文本后门攻击方法，通过向训练数据中注入触发词，在迭代的单词级扰动中将这些词注入到输入实例中，成功地攻击了受害者模型。 |
-| [^90] | [Optimizing Test-Time Query Representations for Dense Retrieval.](http://arxiv.org/abs/2205.12680) | 本文介绍了TOUR算法，它利用交叉编码再排序器提供的伪标签优化基于实例级别的查询表示，显著提高了端到端开放领域问答的准确性。 |
-| [^91] | [QAMPARI: An Open-domain Question Answering Benchmark for Questions with Many Answers from Multiple Paragraphs.](http://arxiv.org/abs/2205.12665) | 本论文提出了一个针对多段落多答案问题的开放域问答基准测试QAMPARI，并训练了ODQA模型。研究结果表明QAMPARI在段落检索和答案生成方面具有挑战性，强调了需要发展能够处理此类问题的ODQA模型。 |
+| [^69] | [Naamapadam: A Large-Scale Named Entity Annotated Data for Indic Languages.](http://arxiv.org/abs/2212.10168) | 这个论文介绍了Naamapadam，一个拥有11种主要印度语言的最大的命名实体识别（NER）数据集，内容超过4万个句子，标注了至少10万个实体，并发布了IndicNER模型，取得了较好的效果。 |
+| [^70] | [DOC: Improving Long Story Coherence With Detailed Outline Control.](http://arxiv.org/abs/2212.10077) | 该论文提出了一个名为 Detailed Outline Control(DOC) 的框架，通过详细大纲和详细控制器来提高生成长篇故事时的情节连贯性和大纲相关性，人类评估证实该方法在这些方面显著优于基线方法，并且更适用于交互生成设置。 |
+| [^71] | [WeCheck: Strong Factual Consistency Checker via Weakly Supervised Learning.](http://arxiv.org/abs/2212.10057) | 本研究提出了一种弱监督框架WeCheck，通过聚合多种资源训练模型，准确和高效地检查文本生成模型是否存在实际事实一致性问题。 |
+| [^72] | [Reasoning with Language Model Prompting: A Survey.](http://arxiv.org/abs/2212.09597) | 本文提供了使用语言模型提示进行推理的前沿研究综合调查。讨论了新兴推理能力出现的潜在原因，并提供系统资源帮助初学者。 |
+| [^73] | [BLOOM+1: Adding Language Support to BLOOM for Zero-Shot Prompting.](http://arxiv.org/abs/2212.09535) | 本文在BLOOM模型中应用语言适应策略，将其适应到新语言上，并在八种新语言的零样本提示表现中提升了性能。适配器微调比大模型的持续预训练更有效，提示性能主要由语言适应数据的大小确定。 |
+| [^74] | [An Extensible Plug-and-Play Method for Multi-Aspect Controllable Text Generation.](http://arxiv.org/abs/2212.09387) | 本论文提出了一种基于可训练门的多方面可控文本生成方法，用于规范前缀的干预，从而实现对训练时未见过的方面组合的控制，具有良好的可扩展性和性能表现。 |
+| [^75] | [PAL: Persona-Augmented Emotional Support Conversation Generation.](http://arxiv.org/abs/2212.09235) | 本文提出了一个动态推断和建模求助者人格的框架，并结合基于策略的可控生成方法提供个性化情感支持，实证分析表明人格对情感支持有重要影响。 |
+| [^76] | [On Isotropy, Contextualization and Learning Dynamics of Contrastive-based Sentence Representation Learning.](http://arxiv.org/abs/2212.09170) | 本文通过几何学角度在对比句子表示学习中发现，对比学习带来了各向同性，并驱动同一句子中标记在语义空间中收敛到相似的位置。对于语义上有意义的标记，"虚假的情境化"得到了缓解，而对于功能性标记则被增强。 |
+| [^77] | [Modeling Instance Interactions for Joint Information Extraction with Neural High-Order Conditional Random Field.](http://arxiv.org/abs/2212.08929) | 本文介绍了一种利用神经高阶条件随机场进行联合信息抽取的框架，可以更好地集成跨实例交互，并通过高阶神经解码器解决了精确高阶推理的难解性问题。 |
+| [^78] | [UniSumm and SummZoo: Unified Model and Diverse Benchmark for Few-Shot Summarization.](http://arxiv.org/abs/2211.09783) | 该论文提出了UniSumm统一的少样本摘要模型，可以通过前缀调整应对任何少样本摘要任务，同时，他们也发布了一个新的基准SummZoo，其由8个摘要任务组成，每个任务都涵盖了多个少样本样本集，以此更好地评估少样本摘要器。 |
+| [^79] | [mOKB6: A Multilingual Open Knowledge Base Completion Benchmark.](http://arxiv.org/abs/2211.06959) | 该论文使用最新的多语言开放信息提取技术构建了第一个名为mOKB6的多语言Open KBC数据集，旨在补全开放知识库。研究结果表明，将多语言组合起来有一致的好处，但当前的多语言模型存在困难。 |
+| [^80] | [lilGym: Natural Language Visual Reasoning with Reinforcement Learning.](http://arxiv.org/abs/2211.01994) | 本文提出了一个基于自然语言视觉推理的强化学习基准测试——lilGym，它由2661个高度组合的人类编写自然语言语句和交互式视觉环境组成，并通过注释可执行Python程序来实现精确的奖励计算。本文的实验结果和分析表明，lilGym是一个具有挑战性的开放性问题。 |
+| [^81] | [Crosslingual Generalization through Multitask Finetuning.](http://arxiv.org/abs/2211.01786) | 该论文通过多任务微调实现跨语言泛化。研究表明，在英语提示下，对大型多语言模型进行英语任务的微调，可以实现对仅出现在预训练语料库中的非英语语言的任务泛化，并且使用英语提示进行多语言任务的微调进一步提高了在英语和非英语任务上的表现，从而实现了各种零-shot结果的最新水平。 |
+| [^82] | [Solving Math Word Problems via Cooperative Reasoning induced Language Models.](http://arxiv.org/abs/2210.16257) | 该论文提出了一种基于合作推理诱导的语言模型——CoRe，可以高效地解决数学应用题。实验表明，CoRe 在准确性和效率方面优于现有最先进的方法。 |
+| [^83] | [Dense-ATOMIC: Towards Densely-connected ATOMIC with High Knowledge Coverage and Massive Multi-hop Paths.](http://arxiv.org/abs/2210.07621) | 本文旨在构建具有高知识覆盖率和大规模多跳路径的Dense-ATOMIC。我们提出了一种名为Rel-CSKGC的CSKG完成方法，用于预测三元组的头事件和尾事件后的关系，并相应构建Dense-ATOMIC，这相对于强基线方法具有优势。 |
+| [^84] | [Rethinking Annotation: Can Language Learners Contribute?.](http://arxiv.org/abs/2210.06828) | 研究探究了语言学习者是否可以为标注基准数据集做出贡献，发现在提供额外资源的帮助下，具有中高级语言能力的学习者能够提供准确的标签。 |
+| [^85] | [Augmentation Invariant Discrete Representation for Generative Spoken Language Modeling.](http://arxiv.org/abs/2209.15483) | 本研究提出了一种增强不变的离散语音表示方法，以提高其在生成式语音语言建模中的鲁棒性。该方法利用了transformer-based模型，并通过一种非线性量化方法来学习增强不变表示。实验证明，该方法相对于现有最先进方法具有显著的鲁棒性改进，并在语音生成任务上表现出了竞争性的表现。 |
+| [^86] | [PaLI: A Jointly-Scaled Multilingual Language-Image Model.](http://arxiv.org/abs/2209.06794) | PaLI是一种联合缩放的多语言语言-图像模型，可对图像和文本进行建模和执行许多视觉、语言和多模态任务，利用Transformer和Vision Transformer等先前的能力和成本。联合缩放在此任务中很重要，所以我们使用了一个40亿参数的Vision Transformer，以便利用更大容量的视觉模型的优势。 |
+| [^87] | [Massively Multilingual Lexical Specialization of Multilingual Transformers.](http://arxiv.org/abs/2208.01018) | 使用BabelNet的多语言同义词集，让大规模多语言变压器进行词汇专门化处理，能够大大提高跨语言词嵌入、多语言语义检索和多语言文档分类的表现。 |
+| [^88] | [Joint Generator-Ranker Learning for Natural Language Generation.](http://arxiv.org/abs/2206.13974) | 提出了一种新的自然语言生成算法JGR，该算法将生成器和评分器集成在一个单一的框架中进行联合训练，通过混合目标优化生成器和使用对比损失训练评分器。在各种文本生成任务中，JGR在三种常见生成场景下的四个公共数据集上均优于现有方法。 |
+| [^89] | [MVP: Multi-task Supervised Pre-training for Natural Language Generation.](http://arxiv.org/abs/2206.12131) | 本文提出了用于自然语言生成的多任务监督预训练（MVP）方法，其收集大规模自然语言生成语料库，并使用监督方式对文本生成模型进行训练。MVP模型结合特定的软提示，可以在各种任务中展现出优异的表现。 |
+| [^90] | [BITE: Textual Backdoor Attacks with Iterative Trigger Injection.](http://arxiv.org/abs/2205.12700) | 提出了一种名为BITE的文本后门攻击方法，通过向训练数据中注入触发词，在迭代的单词级扰动中将这些词注入到输入实例中，成功地攻击了受害者模型。 |
+| [^91] | [Optimizing Test-Time Query Representations for Dense Retrieval.](http://arxiv.org/abs/2205.12680) | 本文介绍了TOUR算法，它利用交叉编码再排序器提供的伪标签优化基于实例级别的查询表示，显著提高了端到端开放领域问答的准确性。 |
+| [^92] | [QAMPARI: An Open-domain Question Answering Benchmark for Questions with Many Answers from Multiple Paragraphs.](http://arxiv.org/abs/2205.12665) | 本论文提出了一个针对多段落多答案问题的开放域问答基准测试QAMPARI，并训练了ODQA模型。研究结果表明QAMPARI在段落检索和答案生成方面具有挑战性，强调了需要发展能够处理此类问题的ODQA模型。 |
 
 # 详细
 
@@ -1048,7 +1049,21 @@
 
     Despite their impressive performance on diverse tasks, large language models (LMs) still struggle with tasks requiring rich world knowledge, implying the limitations of relying solely on their parameters to encode a wealth of world knowledge. This paper aims to understand LMs' strengths and limitations in memorizing factual knowledge, by conducting large-scale knowledge probing experiments of 10 models and 4 augmentation methods on PopQA, our new open-domain QA dataset with 14k questions. We find that LMs struggle with less popular factual knowledge, and that scaling fails to appreciably improve memorization of factual knowledge in the long tail. We then show that retrieval-augmented LMs largely outperform orders of magnitude larger LMs, while unassisted LMs remain competitive in questions about high-popularity entities. Based on those findings, we devise a simple, yet effective, method for powerful and efficient retrieval-augmented LMs, which retrieves non-parametric memories only whe
     
-[^69]: 通过详细的大纲控制提升长篇故事连贯性
+[^69]: Naamapadam：开发印度语言大规模命名实体标注数据集
+
+    Naamapadam: A Large-Scale Named Entity Annotated Data for Indic Languages. (arXiv:2212.10168v2 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2212.10168](http://arxiv.org/abs/2212.10168)
+
+    这个论文介绍了Naamapadam，一个拥有11种主要印度语言的最大的命名实体识别（NER）数据集，内容超过4万个句子，标注了至少10万个实体，并发布了IndicNER模型，取得了较好的效果。
+
+    
+
+    我们呈现了Naamapadam，这是最大的公开命名实体识别（NER）数据集，包括来自两个语系的11种主要印度语言。该数据集包含超过400,000个句子，注释了来自三种标准实体类别（人物，位置和组织）的至少100,000个实体，其中9种语言的数据集已经被自动创建。训练数据集是从Samanantar并行语料库中自动生成的，通过将自动标记的实体从英语句子投射到相应的印度语翻译中。我们还为9种语言创建了手动标注的测试集。我们论证了该数据集在Naamapadam-test数据集上的实用性。我们还发布了IndicNER，这是一个在Naamapadam训练集上微调的多语言IndicBERT模型。IndicNER在7个测试语言中获得了超过80的F1分数。该数据集和模型可在https://ai4bharat.iitm.ac.in/naamapadam获得开源许可。
+
+    We present, Naamapadam, the largest publicly available Named Entity Recognition (NER) dataset for the 11 major Indian languages from two language families. The dataset contains more than 400k sentences annotated with a total of at least 100k entities from three standard entity categories (Person, Location, and, Organization) for 9 out of the 11 languages. The training dataset has been automatically created from the Samanantar parallel corpus by projecting automatically tagged entities from an English sentence to the corresponding Indian language translation. We also create manually annotated testsets for 9 languages. We demonstrate the utility of the obtained dataset on the Naamapadam-test dataset. We also release IndicNER, a multilingual IndicBERT model fine-tuned on Naamapadam training set. IndicNER achieves an F1 score of more than $80$ for $7$ out of $9$ test languages. The dataset and models are available under open-source licences at https://ai4bharat.iitm.ac.in/naamapadam.
+    
+[^70]: 通过详细的大纲控制提升长篇故事连贯性
 
     DOC: Improving Long Story Coherence With Detailed Outline Control. (arXiv:2212.10077v2 [cs.CL] UPDATED)
 
@@ -1062,7 +1077,7 @@
 
     We propose the Detailed Outline Control (DOC) framework for improving long-range plot coherence when automatically generating several-thousand-word-long stories. DOC consists of two complementary components: a detailed outliner and a detailed controller. The detailed outliner creates a more detailed, hierarchically structured outline, shifting creative burden from the main drafting procedure to the planning stage. The detailed controller ensures the more detailed outline is still respected during generation by controlling story passages to align with outline details. In human evaluations of automatically generated stories, DOC substantially outperforms a strong Re3 baseline (Yang et al., 2022) on plot coherence (22.5% absolute gain), outline relevance (28.2%), and interestingness (20.7%). Humans also judged DOC to be much more controllable in an interactive generation setting.
     
-[^70]: WeCheck：基于弱监督学习的强实际一致性检查器
+[^71]: WeCheck：基于弱监督学习的强实际一致性检查器
 
     WeCheck: Strong Factual Consistency Checker via Weakly Supervised Learning. (arXiv:2212.10057v2 [cs.CL] UPDATED)
 
@@ -1076,7 +1091,7 @@
 
     A crucial issue of current text generation models is that they often uncontrollably generate factually inconsistent text with respective of their inputs. Limited by the lack of annotated data, existing works in evaluating factual consistency directly transfer the reasoning ability of models trained on other data-rich upstream tasks like question answering (QA) and natural language inference (NLI) without any further adaptation. As a result, they perform poorly on the real generated text and are biased heavily by their single-source upstream tasks. To alleviate this problem, we propose a weakly supervised framework that aggregates multiple resources to train a precise and efficient factual metric, namely WeCheck. WeCheck first utilizes a generative model to accurately label a real generated sample by aggregating its weak labels, which are inferred from multiple resources. Then, we train the target metric model with the weak supervision while taking noises into consideration. Comprehensi
     
-[^71]: 使用语言模型提示进行推理：一项调查
+[^72]: 使用语言模型提示进行推理：一项调查
 
     Reasoning with Language Model Prompting: A Survey. (arXiv:2212.09597v2 [cs.CL] UPDATED)
 
@@ -1090,7 +1105,7 @@
 
     Reasoning, as an essential ability for complex problem-solving, can provide back-end support for various real-world applications, such as medical diagnosis, negotiation, etc. This paper provides a comprehensive survey of cutting-edge research on reasoning with language model prompting. We introduce research works with comparisons and summaries and provide systematic resources to help beginners. We also discuss the potential reasons for emerging such reasoning abilities and highlight future research directions. Resources are available at https://github.com/zjunlp/Prompt4ReasoningPapers (updated periodically).
     
-[^72]: BLOOM+1：为零样本提示添加语言支持
+[^73]: BLOOM+1：为零样本提示添加语言支持
 
     BLOOM+1: Adding Language Support to BLOOM for Zero-Shot Prompting. (arXiv:2212.09535v2 [cs.CL] UPDATED)
 
@@ -1104,7 +1119,7 @@
 
     The BLOOM model is a large publicly available multilingual language model, but its pretraining was limited to 46 languages. To extend the benefits of BLOOM to other languages without incurring prohibitively large costs, it is desirable to adapt BLOOM to new languages not seen during pretraining. In this work, we apply existing language adaptation strategies to BLOOM and benchmark its zero-shot prompting performance on eight new languages in a resource-constrained setting. We find language adaptation to be effective at improving zero-shot performance in new languages. Surprisingly, we find that adapter-based finetuning is more effective than continued pretraining for large models. In addition, we discover that prompting performance is not significantly affected by language specifics, such as the writing system. It is primarily determined by the size of the language adaptation data. We also add new languages to BLOOMZ, which is a multitask finetuned version of BLOOM capable of following 
     
-[^73]: 多方面可控文本生成的可扩展即插即用方法
+[^74]: 多方面可控文本生成的可扩展即插即用方法
 
     An Extensible Plug-and-Play Method for Multi-Aspect Controllable Text Generation. (arXiv:2212.09387v2 [cs.CL] UPDATED)
 
@@ -1118,7 +1133,7 @@
 
     Recently, multi-aspect controllable text generation that controls the generated text in multiple aspects (e.g., sentiment, topic, and keywords) has attracted increasing attention. Although methods based on parameter efficient tuning like prefix-tuning could achieve multi-aspect controlling in a plug-and-play way, the mutual interference of multiple prefixes leads to significant degeneration of constraints and limits their extensibility to training-time unseen aspect combinations. In this work, we provide a theoretical lower bound for the interference and empirically found that the interference grows with the number of layers where prefixes are inserted. Based on these analyses, we propose using trainable gates to normalize the intervention of prefixes to restrain the growing interference. As a result, controlling training-time unseen combinations of aspects can be realized by simply concatenating corresponding plugins such that new constraints can be extended at a lower cost. In additi
     
-[^74]: PAL：人格增强的情感支持会话生成
+[^75]: PAL：人格增强的情感支持会话生成
 
     PAL: Persona-Augmented Emotional Support Conversation Generation. (arXiv:2212.09235v2 [cs.CL] UPDATED)
 
@@ -1132,7 +1147,7 @@
 
     Due to the lack of human resources for mental health support, there is an increasing demand for employing conversational agents for support. Recent work has demonstrated the effectiveness of dialogue models in providing emotional support. As previous studies have demonstrated that seekers' persona is an important factor for effective support, we investigate whether there are benefits to modeling such information in dialogue models for support. In this paper, our empirical analysis verifies that persona has an important impact on emotional support. Therefore, we propose a framework for dynamically inferring and modeling seekers' persona. We first train a model for inferring the seeker's persona from the conversation history. Accordingly, we propose PAL, a model that leverages persona information and, in conjunction with our strategy-based controllable generation method, provides personalized emotional support. Automatic and manual evaluations demonstrate that PAL achieves state-of-the-a
     
-[^75]: 关于对比句子表示学习的各向同性、情境化和学习动态
+[^76]: 关于对比句子表示学习的各向同性、情境化和学习动态
 
     On Isotropy, Contextualization and Learning Dynamics of Contrastive-based Sentence Representation Learning. (arXiv:2212.09170v2 [cs.CL] UPDATED)
 
@@ -1146,7 +1161,7 @@
 
     Incorporating contrastive learning objectives in sentence representation learning (SRL) has yielded significant improvements on many sentence-level NLP tasks. However, it is not well understood why contrastive learning works for learning sentence-level semantics. In this paper, we aim to help guide future designs of sentence representation learning methods by taking a closer look at contrastive SRL through the lens of isotropy, contextualization and learning dynamics. We interpret its successes through the geometry of the representation shifts and show that contrastive learning brings isotropy, and drives high intra-sentence similarity: when in the same sentence, tokens converge to similar positions in the semantic space. We also find that what we formalize as "spurious contextualization" is mitigated for semantically meaningful tokens, while augmented for functional ones. We find that the embedding space is directed towards the origin during training, with more areas now better define
     
-[^76]: 用神经高阶条件随机场模型建模实例信息交互的联合信息抽取
+[^77]: 用神经高阶条件随机场模型建模实例信息交互的联合信息抽取
 
     Modeling Instance Interactions for Joint Information Extraction with Neural High-Order Conditional Random Field. (arXiv:2212.08929v2 [cs.CL] UPDATED)
 
@@ -1160,7 +1175,7 @@
 
     Prior works on joint Information Extraction (IE) typically model instance (e.g., event triggers, entities, roles, relations) interactions by representation enhancement, type dependencies scoring, or global decoding. We find that the previous models generally consider binary type dependency scoring of a pair of instances, and leverage local search such as beam search to approximate global solutions. To better integrate cross-instance interactions, in this work, we introduce a joint IE framework (CRFIE) that formulates joint IE as a high-order Conditional Random Field. Specifically, we design binary factors and ternary factors to directly model interactions between not only a pair of instances but also triplets. Then, these factors are utilized to jointly predict labels of all instances. To address the intractability problem of exact high-order inference, we incorporate a high-order neural decoder that is unfolded from a mean-field variational inference method, which achieves consistent 
     
-[^77]: UniSumm和SummZoo：少样本摘要的统一模型和多样化基准
+[^78]: UniSumm和SummZoo：少样本摘要的统一模型和多样化基准
 
     UniSumm and SummZoo: Unified Model and Diverse Benchmark for Few-Shot Summarization. (arXiv:2211.09783v6 [cs.CL] UPDATED)
 
@@ -1174,7 +1189,7 @@
 
     The high annotation costs and diverse demands of various summarization tasks motivate the development of few-shot summarization. However, despite the emergence of many summarization tasks and datasets, the current training paradigm for few-shot summarization systems ignores potentially shareable knowledge in heterogeneous datasets. To this end, we propose \textsc{UniSumm}, a unified few-shot summarization model pre-trained with multiple summarization tasks and can be prefix-tuned to excel at any few-shot summarization task. Meanwhile, to better evaluate few-shot summarizers, under the principles of diversity and robustness, we assemble and release a new benchmark \textsc{SummZoo}. It consists of $8$ summarization tasks with multiple sets of few-shot samples for each task, covering diverse domains. Experimental results and analysis show that \textsc{UniSumm} outperforms strong baselines by a large margin across all sub-tasks in \textsc{SummZoo} under both automatic and human evaluations
     
-[^78]: mOKB6：一种多语言开放知识库补全基准
+[^79]: mOKB6：一种多语言开放知识库补全基准
 
     mOKB6: A Multilingual Open Knowledge Base Completion Benchmark. (arXiv:2211.06959v2 [cs.CL] UPDATED)
 
@@ -1188,7 +1203,7 @@
 
     Automated completion of open knowledge bases (Open KBs), which are constructed from triples of the form (subject phrase, relation phrase, object phrase), obtained via open information extraction (Open IE) system, are useful for discovering novel facts that may not be directly present in the text. However, research in Open KB completion (Open KBC) has so far been limited to resource-rich languages like English. Using the latest advances in multilingual Open IE, we construct the first multilingual Open KBC dataset, called mOKB6, containing facts from Wikipedia in six languages (including English). Improving the previous Open KB construction pipeline by doing multilingual coreference resolution and keeping only entity-linked triples, we create a dense Open KB. We experiment with several models for the task and observe a consistent benefit of combining languages with the help of shared embedding space as well as translations of facts. We also observe that current multilingual models strugg
     
-[^79]: 基于强化学习的自然语言视觉推理：lilGym
+[^80]: 基于强化学习的自然语言视觉推理：lilGym
 
     lilGym: Natural Language Visual Reasoning with Reinforcement Learning. (arXiv:2211.01994v3 [cs.LG] UPDATED)
 
@@ -1202,7 +1217,7 @@
 
     We present lilGym, a new benchmark for language-conditioned reinforcement learning in visual environments. lilGym is based on 2,661 highly-compositional human-written natural language statements grounded in an interactive visual environment. We introduce a new approach for exact reward computation in every possible world state by annotating all statements with executable Python programs. Each statement is paired with multiple start states and reward functions to form thousands of distinct Markov Decision Processes of varying difficulty. We experiment with lilGym with different models and learning regimes. Our results and analysis show that while existing methods are able to achieve non-trivial performance, lilGym forms a challenging open problem. lilGym is available at https://lil.nlp.cornell.edu/lilgym/.
     
-[^80]: 通过多任务微调实现跨语言泛化
+[^81]: 通过多任务微调实现跨语言泛化
 
     Crosslingual Generalization through Multitask Finetuning. (arXiv:2211.01786v2 [cs.CL] UPDATED)
 
@@ -1216,7 +1231,7 @@
 
     Multitask prompted finetuning (MTF) has been shown to help large language models generalize to new tasks in a zero-shot setting, but so far explorations of MTF have focused on English data and models. We apply MTF to the pretrained multilingual BLOOM and mT5 model families to produce finetuned variants called BLOOMZ and mT0. We find finetuning large multilingual language models on English tasks with English prompts allows for task generalization to non-English languages that appear only in the pretraining corpus. Finetuning on multilingual tasks with English prompts further improves performance on English and non-English tasks leading to various state-of-the-art zero-shot results. We also investigate finetuning on multilingual tasks with prompts that have been machine-translated from English to match the language of each dataset. We find training on these machine-translated prompts leads to better performance on human-written prompts in the respective languages. Surprisingly, we find m
     
-[^81]: 通过合作推理诱导的语言模型解决数学应用题
+[^82]: 通过合作推理诱导的语言模型解决数学应用题
 
     Solving Math Word Problems via Cooperative Reasoning induced Language Models. (arXiv:2210.16257v3 [cs.CL] UPDATED)
 
@@ -1230,7 +1245,7 @@
 
     Large-scale pre-trained language models (PLMs) bring new opportunities to challenging problems, especially those that need high-level intelligence, such as the math word problem (MWPs). However, directly applying existing PLMs to MWPs can fail as the generation process lacks sufficient supervision and thus lacks fast adaptivity as humans. We notice that human reasoning has a dual reasoning framework that consists of an immediate reaction system (system 1) and a delicate reasoning system (system 2), where the entire reasoning is determined by their interaction. This inspires us to develop a cooperative reasoning-induced PLM for solving MWPs, called Cooperative Reasoning (CoRe), resulting in a human-like reasoning architecture with system 1 as the generator and system 2 as the verifier. In our approach, the generator is responsible for generating reasoning paths, and the verifiers are used to supervise the evaluation in order to obtain reliable feedback for the generator. We evaluate our
     
-[^82]: Dense-ATOMIC：向具有高知识覆盖率和大规模多跳路径的密集连接ATOMIC迈进
+[^83]: Dense-ATOMIC：向具有高知识覆盖率和大规模多跳路径的密集连接ATOMIC迈进
 
     Dense-ATOMIC: Towards Densely-connected ATOMIC with High Knowledge Coverage and Massive Multi-hop Paths. (arXiv:2210.07621v2 [cs.CL] UPDATED)
 
@@ -1244,7 +1259,7 @@
 
     ATOMIC is a large-scale commonsense knowledge graph (CSKG) containing everyday if-then knowledge triplets, i.e., {head event, relation, tail event}. The one-hop annotation manner made ATOMIC a set of independent bipartite graphs, which ignored the numerous links between events in different bipartite graphs and consequently caused shortages in knowledge coverage and multi-hop paths. In this work, we aim to construct Dense-ATOMIC with high knowledge coverage and massive multi-hop paths. The events in ATOMIC are normalized to a consistent pattern at first. We then propose a CSKG completion method called Rel-CSKGC to predict the relation given the head event and the tail event of a triplet, and train a CSKG completion model based on existing triplets in ATOMIC. We finally utilize the model to complete the missing links in ATOMIC and accordingly construct Dense-ATOMIC. Both automatic and human evaluation on an annotated subgraph of ATOMIC demonstrate the advantage of Rel-CSKGC over strong b
     
-[^83]: 重新考虑标注：语言学习者能做出贡献吗？
+[^84]: 重新考虑标注：语言学习者能做出贡献吗？
 
     Rethinking Annotation: Can Language Learners Contribute?. (arXiv:2210.06828v2 [cs.CL] UPDATED)
 
@@ -1258,7 +1273,7 @@
 
     Researchers have traditionally recruited native speakers to provide annotations for widely used benchmark datasets. However, there are languages for which recruiting native speakers can be difficult, and it would help to find learners of those languages to annotate the data. In this paper, we investigate whether language learners can contribute annotations to benchmark datasets. In a carefully controlled annotation experiment, we recruit 36 language learners, provide two types of additional resources (dictionaries and machine-translated sentences), and perform mini-tests to measure their language proficiency. We target three languages, English, Korean, and Indonesian, and the four NLP tasks of sentiment analysis, natural language inference, named entity recognition, and machine reading comprehension. We find that language learners, especially those with intermediate or advanced levels of language proficiency, are able to provide fairly accurate labels with the help of additional resour
     
-[^84]: 面向生成式语音语言建模的增强不变离散表示方法
+[^85]: 面向生成式语音语言建模的增强不变离散表示方法
 
     Augmentation Invariant Discrete Representation for Generative Spoken Language Modeling. (arXiv:2209.15483v2 [cs.CL] UPDATED)
 
@@ -1272,7 +1287,7 @@
 
     Generative Spoken Language Modeling research focuses on optimizing speech Language Models (LMs) using raw audio recordings without accessing any textual supervision. Such speech LMs usually operate over discrete units obtained from quantizing internal representations of self-supervised models. Although such units show impressive modeling results, their robustness capabilities have not been extensively investigated. This work focuses on improving the robustness of discrete input representations for generative spoken language modeling. First, we formally define how to measure the robustness of such representations to various signal variations that do not alter the spoken information (e.g., time-stretch). Next, we empirically demonstrate how current state-of-the-art representation models lack robustness to such variations. To overcome this, we propose an effective and efficient method to learn robust discrete speech representation for generative spoken language modeling. The proposed appr
     
-[^85]: PaLI: 一种联合缩放的多语言语言-图像模型
+[^86]: PaLI: 一种联合缩放的多语言语言-图像模型
 
     PaLI: A Jointly-Scaled Multilingual Language-Image Model. (arXiv:2209.06794v3 [cs.CV] UPDATED)
 
@@ -1286,7 +1301,7 @@
 
     Effective scaling and a flexible task interface enable large language models to excel at many tasks. We present PaLI (Pathways Language and Image model), a model that extends this approach to the joint modeling of language and vision. PaLI generates text based on visual and textual inputs, and with this interface performs many vision, language, and multimodal tasks, in many languages. To train PaLI, we make use of large pre-trained encoder-decoder language models and Vision Transformers (ViTs). This allows us to capitalize on their existing capabilities and leverage the substantial cost of training them. We find that joint scaling of the vision and language components is important. Since existing Transformers for language are much larger than their vision counterparts, we train a large, 4-billion parameter ViT (ViT-e) to quantify the benefits from even larger-capacity vision models. To train PaLI, we create a large multilingual mix of pretraining tasks, based on a new image-text traini
     
-[^86]: 大规模多语言变压器的词汇专门化
+[^87]: 大规模多语言变压器的词汇专门化
 
     Massively Multilingual Lexical Specialization of Multilingual Transformers. (arXiv:2208.01018v3 [cs.CL] UPDATED)
 
@@ -1300,7 +1315,7 @@
 
     While pretrained language models (PLMs) primarily serve as general-purpose text encoders that can be fine-tuned for a wide variety of downstream tasks, recent work has shown that they can also be rewired to produce high-quality word representations (i.e., static word embeddings) and yield good performance in type-level lexical tasks. While existing work primarily focused on the lexical specialization of monolingual PLMs with immense quantities of monolingual constraints, in this work we expose massively multilingual transformers (MMTs, e.g., mBERT or XLM-R) to multilingual lexical knowledge at scale, leveraging BabelNet as the readily available rich source of multilingual and cross-lingual type-level lexical knowledge. Concretely, we use BabelNet's multilingual synsets to create synonym pairs (or synonym-gloss pairs) across 50 languages and then subject the MMTs (mBERT and XLM-R) to a lexical specialization procedure guided by a contrastive objective. We show that such massively multil
     
-[^87]: 自然语言生成的生成器-评分器联合学习
+[^88]: 自然语言生成的生成器-评分器联合学习
 
     Joint Generator-Ranker Learning for Natural Language Generation. (arXiv:2206.13974v3 [cs.CL] UPDATED)
 
@@ -1314,7 +1329,7 @@
 
     Generate-then-rank is a widely used mechanism for text generation, where a generator produces multiple text candidates and a ranker chooses the best one among the text candidates. However, existing methods usually train the generator and the ranker individually, neglecting the mutual feedback that could further enhance the generation quality. To tackle this limitation, we propose JGR, a novel joint training algorithm that integrates the generator and the ranker in a single framework. JGR optimizes the generator with a hybrid objective that combines data likelihood and ranker reward, and trains the ranker with a contrastive loss that compares the generator outputs. By iteratively updating the generator and the ranker, JGR can effectively harmonize their learning and enhance their quality jointly. We evaluate JGR on various text generation tasks and demonstrate that it surpasses existing methods on four public datasets across three common generation scenarios. Our code and models are pub
     
-[^88]: MVP: 自然语言生成中的多任务监督预训练
+[^89]: MVP: 自然语言生成中的多任务监督预训练
 
     MVP: Multi-task Supervised Pre-training for Natural Language Generation. (arXiv:2206.12131v3 [cs.CL] UPDATED)
 
@@ -1328,7 +1343,7 @@
 
     Pre-trained language models (PLMs) have achieved remarkable success in natural language generation (NLG) tasks. Up to now, most NLG-oriented PLMs are pre-trained in an unsupervised manner using the large-scale general corpus. In the meanwhile, an increasing number of models pre-trained with labeled data (i.e. "supervised pre-training") showcase superior performance compared to unsupervised pre-trained models. Motivated by the success of supervised pre-training, we propose Multi-task superVised Pre-training (MVP) for natural language generation. We collect a large-scale natural language generation corpus, MVPCorpus, from $77$ datasets over $11$ diverse NLG tasks. Then we unify these examples into a general text-to-text format to pre-train the text generation model MVP in a supervised manner. For each task, we further pre-train specific soft prompts to stimulate the model's capacity to perform a specific task. Our MVP model can be seen as a practice that utilizes recent instruction tunin
     
-[^89]: BITE: 使用迭代触发词注入的文本后门攻击
+[^90]: BITE: 使用迭代触发词注入的文本后门攻击
 
     BITE: Textual Backdoor Attacks with Iterative Trigger Injection. (arXiv:2205.12700v3 [cs.CL] UPDATED)
 
@@ -1342,7 +1357,7 @@
 
     Backdoor attacks have become an emerging threat to NLP systems. By providing poisoned training data, the adversary can embed a "backdoor" into the victim model, which allows input instances satisfying certain textual patterns (e.g., containing a keyword) to be predicted as a target label of the adversary's choice. In this paper, we demonstrate that it is possible to design a backdoor attack that is both stealthy (i.e., hard to notice) and effective (i.e., has a high attack success rate). We propose BITE, a backdoor attack that poisons the training data to establish strong correlations between the target label and a set of "trigger words". These trigger words are iteratively identified and injected into the target-label instances through natural word-level perturbations. The poisoned training data instruct the victim model to predict the target label on inputs containing trigger words, forming the backdoor. Experiments on four text classification datasets show that our proposed attack i
     
-[^90]: 优化密集检索的测试时间查询表示
+[^91]: 优化密集检索的测试时间查询表示
 
     Optimizing Test-Time Query Representations for Dense Retrieval. (arXiv:2205.12680v3 [cs.CL] UPDATED)
 
@@ -1356,7 +1371,7 @@
 
     Recent developments of dense retrieval rely on quality representations of queries and contexts from pre-trained query and context encoders. In this paper, we introduce TOUR (Test-Time Optimization of Query Representations), which further optimizes instance-level query representations guided by signals from test-time retrieval results. We leverage a cross-encoder re-ranker to provide fine-grained pseudo labels over retrieval results and iteratively optimize query representations with gradient descent. Our theoretical analysis reveals that TOUR can be viewed as a generalization of the classical Rocchio algorithm for pseudo relevance feedback, and we present two variants that leverage pseudo-labels as hard binary or soft continuous labels. We first apply TOUR on phrase retrieval with our proposed phrase re-ranker, and also evaluate its effectiveness on passage retrieval with an off-the-shelf re-ranker. TOUR greatly improves end-to-end open-domain question answering accuracy, as well as pa
     
-[^91]: QAMPARI: 一个多段落多答案的开放域问答挑战
+[^92]: QAMPARI: 一个多段落多答案的开放域问答挑战
 
     QAMPARI: An Open-domain Question Answering Benchmark for Questions with Many Answers from Multiple Paragraphs. (arXiv:2205.12665v3 [cs.CL] UPDATED)
 
