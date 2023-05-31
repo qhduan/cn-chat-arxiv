@@ -1,0 +1,12 @@
+{
+    "title": "Generating Driving Scenes with Diffusion. (arXiv:2305.18452v1 [cs.CV])",
+    "abstract": "In this paper we describe a learned method of traffic scene generation designed to simulate the output of the perception system of a self-driving car. In our \"Scene Diffusion\" system, inspired by latent diffusion, we use a novel combination of diffusion and object detection to directly create realistic and physically plausible arrangements of discrete bounding boxes for agents. We show that our scene generation model is able to adapt to different regions in the US, producing scenarios that capture the intricacies of each region.",
+    "link": "http://arxiv.org/abs/2305.18452",
+    "context": "Title: Generating Driving Scenes with Diffusion. (arXiv:2305.18452v1 [cs.CV])\nAbstract: In this paper we describe a learned method of traffic scene generation designed to simulate the output of the perception system of a self-driving car. In our \"Scene Diffusion\" system, inspired by latent diffusion, we use a novel combination of diffusion and object detection to directly create realistic and physically plausible arrangements of discrete bounding boxes for agents. We show that our scene generation model is able to adapt to different regions in the US, producing scenarios that capture the intricacies of each region.",
+    "path": "papers/23/05/2305.18452.json",
+    "total_tokens": 628,
+    "translated_title": "利用扩散生成行车场景",
+    "translated_abstract": "本文介绍了一种学习方法，用于模拟自驾车的感知系统输出的交通场景生成。在我们的“场景扩散”系统中，受潜在扩散的启发，我们使用扩散和对象检测的新型组合，直接创建具有真实感和物理合理性的离散边界框代理的现实场景。我们展示了我们的场景生成模型能够适应美国不同地区，产生捕捉每个地区细节的场景。",
+    "tldr": "本文提出一种利用扩散和对象检测相结合的“场景扩散”系统，直接生成具有真实感和物理合理性的场景，能够适应美国不同地区生成特定的场景。",
+    "en_tdlr": "This paper presents a \"Scene Diffusion\" system that combines diffusion and object detection to directly generate realistic and physically plausible driving scenes, which can adapt to different locations in the US, capturing region-specific intricacies."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "High Accuracy and Low Regret for User-Cold-Start Using Latent Bandits. (arXiv:2305.18305v1 [cs.IR])",
+    "abstract": "We develop a novel latent-bandit algorithm for tackling the cold-start problem for new users joining a recommender system. This new algorithm significantly outperforms the state of the art, simultaneously achieving both higher accuracy and lower regret.",
+    "link": "http://arxiv.org/abs/2305.18305",
+    "context": "Title: High Accuracy and Low Regret for User-Cold-Start Using Latent Bandits. (arXiv:2305.18305v1 [cs.IR])\nAbstract: We develop a novel latent-bandit algorithm for tackling the cold-start problem for new users joining a recommender system. This new algorithm significantly outperforms the state of the art, simultaneously achieving both higher accuracy and lower regret.",
+    "path": "papers/23/05/2305.18305.json",
+    "total_tokens": 493,
+    "translated_title": "使用潜在Bandits的高准确度和低遗憾用户冷启动方法",
+    "translated_abstract": "我们开发了一种新型的潜在Bandits算法，用于解决新用户加入推荐系统时面临的冷启动问题。这种新算法在同时实现更高的准确率和更低的遗憾方面明显优于现有技术。",
+    "tldr": "使用潜在Bandits算法解决用户冷启动问题，同时实现更高的准确率和更低的遗憾。"
+}

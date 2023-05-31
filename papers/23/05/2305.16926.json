@@ -1,0 +1,12 @@
+{
+    "title": "Combining Global and Local Merges in Logic-based Entity Resolution. (arXiv:2305.16926v2 [cs.LO] UPDATED)",
+    "abstract": "In the recently proposed Lace framework for collective entity resolution, logical rules and constraints are used to identify pairs of entity references (e.g. author or paper ids) that denote the same entity. This identification is global: all occurrences of those entity references (possibly across multiple database tuples) are deemed equal and can be merged. By contrast, a local form of merge is often more natural when identifying pairs of data values, e.g. some occurrences of 'J. Smith' may be equated with 'Joe Smith', while others should merge with 'Jane Smith'. This motivates us to extend Lace with local merges of values and explore the computational properties of the resulting formalism.",
+    "link": "http://arxiv.org/abs/2305.16926",
+    "context": "Title: Combining Global and Local Merges in Logic-based Entity Resolution. (arXiv:2305.16926v2 [cs.LO] UPDATED)\nAbstract: In the recently proposed Lace framework for collective entity resolution, logical rules and constraints are used to identify pairs of entity references (e.g. author or paper ids) that denote the same entity. This identification is global: all occurrences of those entity references (possibly across multiple database tuples) are deemed equal and can be merged. By contrast, a local form of merge is often more natural when identifying pairs of data values, e.g. some occurrences of 'J. Smith' may be equated with 'Joe Smith', while others should merge with 'Jane Smith'. This motivates us to extend Lace with local merges of values and explore the computational properties of the resulting formalism.",
+    "path": "papers/23/05/2305.16926.json",
+    "total_tokens": 716,
+    "translated_title": "在基于逻辑的实体消解中结合全局和局部合并",
+    "translated_abstract": "在最近提出的集体实体消解框架Lace中，使用逻辑规则和约束来识别表示同一实体的实体引用对（例如作者或论文ID）。这种识别是全局的：这些实体引用的所有出现（可能跨越多个数据库元组）都被视为相等并且可以合并。相比之下，当识别数据值对时，本地合并形式通常更自然，例如，一些出现“J.Smith”的实体可以与“Joe Smith”等同，而其他实体应合并到“Jane Smith”。这激发了我们扩展Lace值的本地合并，并探索所得到的形式化的计算特性。",
+    "tldr": "在Lace框架中，使用逻辑规则和约束识别表示同一实体的实体引用对，该识别结合了全局和局部合并的概念。",
+    "en_tdlr": "The Lace framework uses logical rules and constraints to identify pairs of entity references that denote the same entity, with a global merge approach. This paper proposes local merging of values to extend Lace and explores the computational properties of the resulting formalism."
+}

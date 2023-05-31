@@ -1,0 +1,12 @@
+{
+    "title": "Contrastive Learning Is Spectral Clustering On Similarity Graph. (arXiv:2303.15103v2 [cs.LG] UPDATED)",
+    "abstract": "Contrastive learning is a powerful self-supervised learning method, but we have a limited theoretical understanding of how it works and why it works. In this paper, we prove that contrastive learning with the standard InfoNCE loss is equivalent to spectral clustering on the similarity graph. Using this equivalence as the building block, we extend our analysis to the CLIP model and rigorously characterize how similar multi-modal objects are embedded together. Motivated by our theoretical insights, we introduce the kernel mixture loss, incorporating novel kernel functions that outperform the standard Gaussian kernel on several vision datasets.",
+    "link": "http://arxiv.org/abs/2303.15103",
+    "context": "Title: Contrastive Learning Is Spectral Clustering On Similarity Graph. (arXiv:2303.15103v2 [cs.LG] UPDATED)\nAbstract: Contrastive learning is a powerful self-supervised learning method, but we have a limited theoretical understanding of how it works and why it works. In this paper, we prove that contrastive learning with the standard InfoNCE loss is equivalent to spectral clustering on the similarity graph. Using this equivalence as the building block, we extend our analysis to the CLIP model and rigorously characterize how similar multi-modal objects are embedded together. Motivated by our theoretical insights, we introduce the kernel mixture loss, incorporating novel kernel functions that outperform the standard Gaussian kernel on several vision datasets.",
+    "path": "papers/23/03/2303.15103.json",
+    "total_tokens": 719,
+    "translated_title": "对比学习是相似性图谱上的谱聚类",
+    "translated_abstract": "对比学习是一种强大的自监督学习方法，但我们对其运作原理和原因的理论理解有限。本文通过证明标准InfoNCE损失下的对比学习等同于相似性图上的谱聚类，揭示了这种方法的内在等价性。利用这种等价性作为基石，我们将分析扩展到CLIP模型，并严格描述多模态对象如何被嵌入到一起。在理论洞见的推动下，我们引入了核混合损失，结合新颖的核函数，在多个视觉数据集上优于标准高斯核。",
+    "tldr": "本文通过证明标准InfoNCE损失下的对比学习等同于相似性图上的谱聚类，揭示了这种方法的内在等价性，并进一步将这种分析扩展到CLIP模型，提出新的核混合损失函数。",
+    "en_tdlr": "In this paper, the authors prove that contrastive learning with the standard InfoNCE loss is equivalent to spectral clustering on the similarity graph, and extend their analysis to the CLIP model, proposing a novel kernel mixture loss incorporating new kernel functions."
+}

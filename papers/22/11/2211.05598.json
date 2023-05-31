@@ -1,0 +1,11 @@
+{
+    "title": "Using contradictions improves question answering systems. (arXiv:2211.05598v2 [cs.CL] UPDATED)",
+    "abstract": "This work examines the use of contradiction in natural language inference (NLI) for question answering (QA). Typically, NLI systems help answer questions by determining if a potential answer is \\emph{entailed} (supported) by some background context. But is it useful to also determine if an answer contradicts the context? We test this in two settings, multiple choice and extractive QA, and find that systems that incorporate contradiction can do slightly better than entailment-only systems on certain datasets. However, the best performances come from using contradiction, entailment, and QA model confidence scores together. This has implications for the deployment of QA systems in domains such as medicine and science where safety is an issue.",
+    "link": "http://arxiv.org/abs/2211.05598",
+    "context": "Title: Using contradictions improves question answering systems. (arXiv:2211.05598v2 [cs.CL] UPDATED)\nAbstract: This work examines the use of contradiction in natural language inference (NLI) for question answering (QA). Typically, NLI systems help answer questions by determining if a potential answer is \\emph{entailed} (supported) by some background context. But is it useful to also determine if an answer contradicts the context? We test this in two settings, multiple choice and extractive QA, and find that systems that incorporate contradiction can do slightly better than entailment-only systems on certain datasets. However, the best performances come from using contradiction, entailment, and QA model confidence scores together. This has implications for the deployment of QA systems in domains such as medicine and science where safety is an issue.",
+    "path": "papers/22/11/2211.05598.json",
+    "total_tokens": 763,
+    "translated_title": "使用矛盾能够改善问答系统",
+    "translated_abstract": "本论文研究在自然语言推理中使用矛盾技术进行问答。通常，自然语言推理系统通过确定一个潜在答案是否被一些背景语境所支持来帮助回答问题。但是，确定一个答案是否与上下文矛盾是否有用呢？我们在多项选择和抽取式问答两个场景中进行测试，并发现在某些数据集上，结合矛盾技术的系统可比仅有支持技术的系统表现更好。然而，结合矛盾、支持和问答模型置信分数的系统表现最佳。这对于在医学和科学等领域部署问答系统时具有重要意义，因为涉及到安全问题。",
+    "tldr": "本论文研究了在自然语言推理中使用矛盾技术进行问答，发现结合矛盾、支持和问答模型置信分数的系统表现最佳。"
+}

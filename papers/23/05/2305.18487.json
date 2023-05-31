@@ -1,0 +1,12 @@
+{
+    "title": "Solar Irradiance Anticipative Transformer. (arXiv:2305.18487v1 [cs.CV])",
+    "abstract": "This paper proposes an anticipative transformer-based model for short-term solar irradiance forecasting. Given a sequence of sky images, our proposed vision transformer encodes features of consecutive images, feeding into a transformer decoder to predict irradiance values associated with future unseen sky images. We show that our model effectively learns to attend only to relevant features in images in order to forecast irradiance. Moreover, the proposed anticipative transformer captures long-range dependencies between sky images to achieve a forecasting skill of 21.45 % on a 15 minute ahead prediction for a newly introduced dataset of all-sky images when compared to a smart persistence model.",
+    "link": "http://arxiv.org/abs/2305.18487",
+    "context": "Title: Solar Irradiance Anticipative Transformer. (arXiv:2305.18487v1 [cs.CV])\nAbstract: This paper proposes an anticipative transformer-based model for short-term solar irradiance forecasting. Given a sequence of sky images, our proposed vision transformer encodes features of consecutive images, feeding into a transformer decoder to predict irradiance values associated with future unseen sky images. We show that our model effectively learns to attend only to relevant features in images in order to forecast irradiance. Moreover, the proposed anticipative transformer captures long-range dependencies between sky images to achieve a forecasting skill of 21.45 % on a 15 minute ahead prediction for a newly introduced dataset of all-sky images when compared to a smart persistence model.",
+    "path": "papers/23/05/2305.18487.json",
+    "total_tokens": 756,
+    "translated_title": "太阳辐照度预测变压器",
+    "translated_abstract": "本文提出了一种基于变压器的模型，用于短期太阳辐照度预测。给定一系列天空图像，我们的模型可以编码连续图像的特征，并馈入变压器解码器中，以预测未来未见过的天空图像相关的辐照度值。我们表明，我们的模型可以有效地只关注与辐照度预测相关的特征图像。此外，所提出的预测变压器可以捕捉天空图像之间的长距离依赖，比智能持续模型在一个新引入的全天空图像数据集的15分钟预测中达到了21.45％的预测准确率。",
+    "tldr": "本文提出了一种预测太阳辐照度的模型，通过学习天空图像的相关特征以及天空图像之间的长距离依赖，对未来的辐照度进行了有效的预测，预测准确率比智能持续模型高出21.45％。",
+    "en_tdlr": "This paper proposes a model for forecasting short-term solar irradiance by encoding relevant features of consecutive sky images and capturing long-range dependencies between them, achieving a forecasting skill of 21.45% higher on a newly introduced dataset compared to a smart persistence model."
+}

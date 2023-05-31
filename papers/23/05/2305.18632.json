@@ -1,0 +1,12 @@
+{
+    "title": "Graph Rewriting for Graph Neural Networks. (arXiv:2305.18632v1 [cs.LG])",
+    "abstract": "Given graphs as input, Graph Neural Networks (GNNs) support the inference of nodes, edges, attributes, or graph properties. Graph Rewriting investigates the rule-based manipulation of graphs to model complex graph transformations. We propose that, therefore, (i) graph rewriting subsumes GNNs and could serve as formal model to study and compare them, and (ii) the representation of GNNs as graph rewrite systems can help to design and analyse GNNs, their architectures and algorithms. Hence we propose Graph Rewriting Neural Networks (GReNN) as both novel semantic foundation and engineering discipline for GNNs. We develop a case study reminiscent of a Message Passing Neural Network realised as a Groove graph rewriting model and explore its incremental operation in response to dynamic updates.",
+    "link": "http://arxiv.org/abs/2305.18632",
+    "context": "Title: Graph Rewriting for Graph Neural Networks. (arXiv:2305.18632v1 [cs.LG])\nAbstract: Given graphs as input, Graph Neural Networks (GNNs) support the inference of nodes, edges, attributes, or graph properties. Graph Rewriting investigates the rule-based manipulation of graphs to model complex graph transformations. We propose that, therefore, (i) graph rewriting subsumes GNNs and could serve as formal model to study and compare them, and (ii) the representation of GNNs as graph rewrite systems can help to design and analyse GNNs, their architectures and algorithms. Hence we propose Graph Rewriting Neural Networks (GReNN) as both novel semantic foundation and engineering discipline for GNNs. We develop a case study reminiscent of a Message Passing Neural Network realised as a Groove graph rewriting model and explore its incremental operation in response to dynamic updates.",
+    "path": "papers/23/05/2305.18632.json",
+    "total_tokens": 737,
+    "translated_title": "图重写用于图神经网络",
+    "translated_abstract": "图神经网络（GNN）支持对节点、边缘、属性或图属性进行推理。图重写研究基于规则的图形操作，以建模复杂的图形转换。我们认为，（i）图重写包含GNN并可以作为研究和比较它们的正式模型，（ii）将GNN表示为图重写系统可以帮助设计和分析GNN、它们的架构和算法。因此，我们提出Graph Rewriting Neural Networks (GReNN)作为GNN的新语义基础和工程学科。我们开展了一个案例研究，类似于以Groove图形重写模型实现的消息传递神经网络，并探索了它对动态更新的增量操作。",
+    "tldr": "该论文提出使用图重写作为建模和分析复杂图形转换的工具，同时将GNN表示为图重写系统可以帮助设计和分析GNN的架构和算法。",
+    "en_tdlr": "This paper proposes using graph rewriting as a tool for modeling and analyzing complex graph transformations, and representing GNNs as graph rewrite systems can help design and analyze the architectures and algorithms of GNNs."
+}

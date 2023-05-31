@@ -2,397 +2,157 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Nonlinear Impulse Response Functions and Local Projections.](http://arxiv.org/abs/2305.18145) | 这篇论文介绍了将局部投射用于非线性动态框架下的脉冲响应函数估计方法，并提出了一个非参数LP估计器。文章还探讨了多元框架中非线性IRF的识别问题。 |
-| [^2] | [Identifying Dynamic LATEs with a Static Instrument.](http://arxiv.org/abs/2305.18114) | 本研究讨论了利用静态二元工具来识别动态效应问题，从而识别不同潜在群体和治疗暴露下的治疗效应加权和，但可能存在负权重。同时，我们在不同的假设设置下考虑了动态治疗效果的点估计和部分识别。 |
-| [^3] | [Coarse Information Design.](http://arxiv.org/abs/2305.18020) | 该论文研究了具有连续状态和离散信号空间的信息设计问题，在凸价值函数下，最优信息结构是区间分段的，同时在对数凸环境中，信息会变得更加粗糙。 |
-| [^4] | [Firm-quasi-stability and re-equilibration in matching markets with contracts.](http://arxiv.org/abs/2305.17948) | 本研究探讨了带合约的匹配市场中的稳定性问题，发现稳定性破坏后，公司准稳定的分配方式可以自然出现，而我们提出的算法可以使市场从准稳定性中重新获得稳定性。 |
-| [^5] | [An Approximate Feasibility Assessment of Electric Vehicles Adoption in Nigeria: Forecast 2030.](http://arxiv.org/abs/2305.17844) | 本论文评估了尼日利亚电动汽车在2030年的可行性，并探讨了可再生能源在过渡到可持续未来中的重要性。 |
-| [^6] | [Time-Varying Vector Error-Correction Models: Estimation and Inference.](http://arxiv.org/abs/2305.17829) | 本文提出了一种时间变异的向量误差修正模型，能够同时处理不同时间序列行为，可以用于估算非平稳变量的可预测性变化、检验经济理论的定期成立等，同时提出了一些实用方法和理论。 |
-| [^7] | [Monotonicity Anomalies in Scottish Local Government Elections.](http://arxiv.org/abs/2305.17741) | 本研究分析了苏格兰1,079个地方政府STV选举，发现其中41次出现某种单调性异常，且这些异常率与之前的经验研究相似，远低于大多数理论研究发现的异常率。 |
-| [^8] | [Bridging TSLS and JIVE.](http://arxiv.org/abs/2305.17615) | 本文提出了一种桥接TSLS和JIVE的新方法TSJI来处理内生性，具有用户定义参数λ，可以近似无偏，且在许多工具变量渐进情况下是一致且渐进正常的。 |
-| [^9] | [Reaching an equilibrium of prices and holdings of goods through direct buying and selling.](http://arxiv.org/abs/2305.17577) | 文章构建了一种消极替代方案，通过将边际效用纳入到货币价格中，给出货币价格阈值，从而实现了市场均衡的价值计算。 |
-| [^10] | [Macroeconomic Effects of Inflation Targeting: A Survey of the Empirical Literature.](http://arxiv.org/abs/2305.17474) | 本文综述了通货膨胀目标的实证文献。有坚实的经验证据表明，规模更大、更发达的国家更有可能采用IT制度；实证证据未能提供令人信服的证据，表明IT本身可以作为稳定通货膨胀预期和减少通货膨胀持久性的有效工具；针对发达经济体的实证研究未能提供有力证据表明IT对通货膨胀表现的有益影响，而有一些证据表明IT制度的收益在新兴市场经济体中更为普遍。 |
-| [^11] | [Duration Dependence and Heterogeneity: Learning from Early Notice of Layoff.](http://arxiv.org/abs/2305.17344) | 本文通过解雇通知的长度变化，区分了失业期限制和不良选择对失业退出率的影响，发现48周失业退出率的下降主要是由于留存求职者的质量恶化造成的， |
-| [^12] | [Using Limited Trial Evidence to Credibly Choose Treatment Dosage when Efficacy and Adverse Effects Weakly Increase with Dose.](http://arxiv.org/abs/2305.17206) | 本文探讨了如何在功效和副作用弱增加的情况下，利用有限试验证据可靠地选择治疗剂量，以便优化患者护理。 |
-| [^13] | [Local Sharing and Sociality Effects on Wealth Inequality in a Simple Artificial Society.](http://arxiv.org/abs/2305.17177) | 通过一个简单的模拟社会的实验，研究发现，地方共享资源会减少总财富并增加财富不平等。进化选择了反对地方共享和社交行为的基因。Gini系数不适用于测量这些变化。 |
-| [^14] | [Stability and chaos of the duopoly model of Kopel: A study based on symbolic computations.](http://arxiv.org/abs/2304.02136) | 本文使用符号计算工具对Kopel非对称垄断模型进行了分析，探讨了多个正平衡点的存在可能性，并首次建立了不同数量正平衡点存在的严格条件。通过数值模拟支持模型中存在混沌，但混沌的存在很难被严格证明。 |
-| [^15] | [Price Discovery for Derivatives.](http://arxiv.org/abs/2302.13426) | 本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。 |
-| [^16] | [An Effective Treatment Approach to Difference-in-Differences with General Treatment Patterns.](http://arxiv.org/abs/2212.13226) | 本文提出了一种使用有效处理概念的双重鲁棒识别、估计和推断方法，适用于一般的差分差分模型。 |
-| [^17] | [Strategyproof Decision-Making in Panel Data Settings and Beyond.](http://arxiv.org/abs/2211.14236) | 本文研究了使用面板数据做决策制定时，如何应对生成数据的单位采取策略的情况，提出了一个可以对单位进行正确干预的无欺诈干预策略。 |
-| [^18] | [Reputational Bargaining and Inefficient Technology Adoption.](http://arxiv.org/abs/2201.01827) | 买家和卖家在讨价还价过程中，声望激励可能导致低效技术采纳和达成协议的显著延迟。 |
-| [^19] | [Attention Overload.](http://arxiv.org/abs/2110.10650) | 该论文提出了一个注意力过载模型，用于捕捉决策者注意力的竞争，允许确定决策者的偏好和注意力频率，且可应用于各种模型中。 |
-| [^20] | [bqror: An R package for Bayesian Quantile Regression in Ordinal Models.](http://arxiv.org/abs/2109.13606) | bqror是一个R包，用于在序列模型中估算贝叶斯分位数回归。它提供了高效的MCMC算法，可以对具有3个或以上结果的通用序列模型进行估算，对于恰好具有3个结果的序列模型，则只使用Gibbs抽样。与贝叶斯文献一致，使用边缘似然进行模型比较，该文还介绍了一些其他包含在bqror软件包中的函数，这些函数在估算过程中是必要的。 |
-| [^21] | [Modeling and Analysis of Discrete Response Data: Applications to Public Opinion on Marijuana Legalization in the United States.](http://arxiv.org/abs/2109.10122) | 本文介绍了离散选择模型，主要目标是对协变量条件下的响应/结果的概率建模，以此为基础，对美国大众对大麻合法化的看法进行了研究。 |
-| [^22] | [Analysis of taste heterogeneity in commuters travel decisions using joint parking and mode choice model: A case from urban India.](http://arxiv.org/abs/2109.01045) | 本研究通过将停车选择作为出行模式选择模型的内生决策，综合考虑态度因素和建筑环境变量，填补了单独考虑出行方式和停车选择行为之间权衡的空白。 |
-| [^23] | [Active labour market policies for the long-term unemployed: New evidence from causal machine learning.](http://arxiv.org/abs/2106.10141) | 该研究使用因果机器学习分析了德国长期失业人员的三个工作搜索援助和培训计划的有效性，结果显示参与者受益匪浅，其中就业服务效果最好。此外，女性受当地劳动力市场条件的影响有所不同。提出使用数据驱动规则更有效地分配失业人员到相应计划。 |
-| [^24] | [Performance of Empirical Risk Minimization for Linear Regression with Dependent Data.](http://arxiv.org/abs/2104.12127) | 本文提出了将现有线性回归结果推广到具有数据依赖性的情况下的解决方案，分析结果表明，带有依赖数据的经验风险最小化方法可以实现最优性能（除对数因子外）。 |
-| [^25] | [Social Diversity and Spread of Pandemic: Evidence from India.](http://arxiv.org/abs/2011.05839) | 本文研究了印度种姓多样性与COVID-19传播速度的关系。研究发现，在病例浓度阈值方面，种姓同质化地区需要更长的时间，使用每日病例进行分析也发现其传播增长较慢。这些结果持续了约76天，即使在考虑其他因素后也依然成立。 |
-| [^26] | [Quickest Detection of Ecological Regimes for Dynamic Resource Management.](http://arxiv.org/abs/2005.11500) | 本文研究了生态体制转变下的可再生资源的随机动态，提出了一个帕累托最优的检测框架，实现最小化经济主体察觉转变的延迟，应用该框架于Sao Paulo的Cantareira水库案例中，对导致水库枯竭和随后的供水危机的事件进行了研究。 |
+| [^1] | [The centralizing effects of private order flow on proposer-builder separation.](http://arxiv.org/abs/2305.19150) | 本文研究了当交易通过订单流拍卖私下销售而非直接转发到公共“mempool”时，建议者-建造者分离均衡将发生何种变化。研究表明，对于集成的建造者搜索者而言，私人订单流在PBS拍卖中具有重要的战略价值。 |
+| [^2] | [Impulse Response Analysis for Structural Nonlinear Time Series Models.](http://arxiv.org/abs/2305.19089) | 本文研究非线性时间序列模型的脉冲响应分析，提出了一种新的更直接依赖于底层模型属性的方法，并讨论了相关的非参数估计和结构脉冲响应的推断。 |
+| [^3] | [Kinship can hinder cooperation in heterogeneous populations.](http://arxiv.org/abs/2305.19026) | 亲属关系的增加并不总是有利于人类社会的合作，会阻碍直接互惠的效力，并使维持完全合作的条件更加苛刻。 |
+| [^4] | [Generalized Autoregressive Score Trees and Forests.](http://arxiv.org/abs/2305.18991) | 该论文提出了一种方法，通过使用决策树和随机森林来定位广义自回归得分模型的参数，改善其预测，并揭示了股票回报波动率和密度预测中的杠杆效应和方差风险溢价效应，以及股票-债券依赖性中的流向质量效应和高频交易持续时间中的成交量-波动性效应。 |
+| [^5] | [A Game of Competition for Risk.](http://arxiv.org/abs/2305.18941) | 本文提出了一个竞争博弈模型，使用后悔最小化算法通过离散化解决了连续博弈问题。该模型揭示了市场摩擦和风险相关性如何影响战略性风险承受。 |
+| [^6] | [Behavioral Causal Inference.](http://arxiv.org/abs/2305.18916) | 本文提出了一个用于研究普通人因果效应推理的模型，研究了不同类型的人使用不同的控制变量集，并为不同的数据生成过程族获得了由于错误因果推断而导致的均衡福利损失的上界。 |
+| [^7] | [Cost-benefit of green infrastructures for water management: A sustainability assessment of full-scale constructed wetlands in Northern and Southern Italy.](http://arxiv.org/abs/2305.06284) | 本研究评估了两个不同地理区域的人工湿地的可持续性，结果表明西西里岛的垂直地下流人工湿地在经济和社会效益方面更高，是该地区水资源管理更可持续的选择。 |
+| [^8] | [Non-equilibrium phase transitions in competitive markets caused by network effects.](http://arxiv.org/abs/2204.05314) | 本论文使用基于代理的模型研究了具有需求侧网络效应的竞争市场，发现随着网络效应的增强，市场会出现一种鲁棒的非平衡相，这种相变破坏了对称性和遍历性，同时在市场中展现出自发的价格波动、周期性市场占领事件和富人越来越富三个经验证实的现象。 |
+| [^9] | [The attachment of adult women to the Italian labour market in the shadow of COVID-19.](http://arxiv.org/abs/2202.13317) | 意大利30多岁有小孩的女性在COVID-19大流行中放弃了工作，成为了失业人士。研究表明这是由于特定的地区社会文化因素引起的，并可能对女性劳动力参与产生长期不利影响。 |
+| [^10] | [Entitled to Property: How Breaking the Gender Barrier Improves Child Health in India.](http://arxiv.org/abs/2106.10841) | 印度一项政策措施授予未婚妇女继承权，改善了儿童身高和体重，同时提高了母亲在家庭内的谈判能力，从而产生了更好的父母照顾和改善的儿童健康状况的效益。这表明，赋予妇女权利的政策可以对儿童的人力资本产生额外积极效应。 |
 
 # 详细
 
-[^1]: 非线性脉冲响应函数与局部投射
+[^1]: 私人订单流对建议者-建造者间分离的集中效应
 
-    Nonlinear Impulse Response Functions and Local Projections. (arXiv:2305.18145v1 [econ.EM])
+    The centralizing effects of private order flow on proposer-builder separation. (arXiv:2305.19150v1 [econ.TH])
 
-    [http://arxiv.org/abs/2305.18145](http://arxiv.org/abs/2305.18145)
+    [http://arxiv.org/abs/2305.19150](http://arxiv.org/abs/2305.19150)
 
-    这篇论文介绍了将局部投射用于非线性动态框架下的脉冲响应函数估计方法，并提出了一个非参数LP估计器。文章还探讨了多元框架中非线性IRF的识别问题。
-
-    
-
-    本文旨在将局部投射(Local Projection，LP)用于非线性动态框架下的脉冲响应函数(Impulse Response Functions，IRFs)估计方法。我们讨论马尔可夫过程的非线性自回归表示的存在，并解释了它们的脉冲响应函数与非线性局部投影的直接联系，就像线性情况一样。然后我们提出了一个非参数LP估计器，并比较了其渐近性质与直接估计得到的IRFs。我们还探讨了多元框架中非线性IRF识别问题，与高斯线性案例截然不同。特别地，我们表明识别取决于解卷积的唯一性。随后，我们考虑了增广马尔可夫模型中的IRF和LP问题。
-
-    The goal of this paper is to extend the method of estimating Impluse Response Functions (IRFs) by means of Local Projection (LP) in a nonlinear dynamic framework. We discuss the existence of a nonlinear autoregressive representation for a Markov process, and explain how their Impulse Response Functions are directly linked to the nonlinear Local Projection, as in the case for the linear setting. We then present a nonparametric LP estimator, and compare its asymptotic properties to that of IRFs obtained through direct estimation. We also explore issues of identification for the nonlinear IRF in the multivariate framework, which remarkably differs in comparison to the Gaussian linear case. In particular, we show that identification is conditional on the uniqueness of deconvolution. Then, we consider IRF and LP in augmented Markov models.
-    
-[^2]: 利用静态工具识别动态的最小平均处理效应
-
-    Identifying Dynamic LATEs with a Static Instrument. (arXiv:2305.18114v1 [econ.EM])
-
-    [http://arxiv.org/abs/2305.18114](http://arxiv.org/abs/2305.18114)
-
-    本研究讨论了利用静态二元工具来识别动态效应问题，从而识别不同潜在群体和治疗暴露下的治疗效应加权和，但可能存在负权重。同时，我们在不同的假设设置下考虑了动态治疗效果的点估计和部分识别。
+    本文研究了当交易通过订单流拍卖私下销售而非直接转发到公共“mempool”时，建议者-建造者分离均衡将发生何种变化。研究表明，对于集成的建造者搜索者而言，私人订单流在PBS拍卖中具有重要的战略价值。
 
     
 
-    在很多情况下，研究人员感兴趣的是用静态二元工具（IV）来识别不可逆治疗的动态效应。例如，在对培训计划的动态效应进行评估时，只需要单个抽奖来确定资格。在这些情况下，通常采用每个时期的IV估计方法。在标准IV假设的动态扩展下，我们展示了这种IV估计法可以识别不同潜在群体和治疗暴露下的治疗效应加权和。但是，有可能出现负权重。我们在不同的假设设置下考虑了这种情况下动态治疗效果的点估计和部分识别。
+    当交易通过订单流拍卖（OFA）私下销售而非直接转发到公共“mempool”时，当前的建议者-建造者间分离（PBS）均衡将发生何种变化？本文提出了一个新颖的模型，突出了对集成建造者搜索的私人订单流的增值作用。我们表明，私人订单流对于上方区块机会是互补，因此集成的建造者搜索者更可能参与OFA，并击败非集成的建造者。他们将利用对这些私人交易的访问，在PBS拍卖中获得优势，比非集成的建造者更加频繁地赢得区块并提取更高的利润。为了验证我们的主要假设，我们构建了一个新的数据集，将PBS结果与一家领先的CEX（Binance）实现的12秒波动性匹配。我们的结果表明，通过战略性地利用私人订单流，集成的建造者搜索者在PBS拍卖中获得了显著的优势。
 
-    In many situations, researchers are interested in identifying dynamic effects of an irreversible treatment with a static binary instrumental variable (IV). For example, in evaluations of dynamic effects of training programs, with a single lottery determining eligibility. A common approach in these situations is to report per-period IV estimates. Under a dynamic extension of standard IV assumptions, we show that such IV estimators identify a weighted sum of treatment effects for different latent groups and treatment exposures. However, there is possibility of negative weights. We consider point and partial identification of dynamic treatment effects in this setting under different sets of assumptions.
+    The current Proposer Builder Separation (PBS) equilibrium has several builders with different backgrounds winning blocks consistently. This paper considers how this equilibrium will shift when transactions are sold privately via order flow auctions (OFAs) rather than forwarded directly to the public mempool. We discuss a novel model that highlights the augmented value of private order flow for integrated builder searchers. We show that private order flow is complementary to top-of-block opportunities, and therefore integrated builder-searchers are more likely to participate in OFAs and outbid non integrated builders. They will then parlay access to these private transactions into an advantage in the PBS auction, winning blocks more often and extracting higher profits than non-integrated builders. To validate our main assumptions, we construct a novel dataset pairing post-merge PBS outcomes with realized 12-second volatility on a leading CEX (Binance). Our results show that integrated b
     
-[^3]: 粗糙的信息设计
+[^2]: 结构非线性时间序列模型的脉冲响应分析
 
-    Coarse Information Design. (arXiv:2305.18020v1 [econ.TH])
+    Impulse Response Analysis for Structural Nonlinear Time Series Models. (arXiv:2305.19089v1 [econ.EM])
 
-    [http://arxiv.org/abs/2305.18020](http://arxiv.org/abs/2305.18020)
+    [http://arxiv.org/abs/2305.19089](http://arxiv.org/abs/2305.19089)
 
-    该论文研究了具有连续状态和离散信号空间的信息设计问题，在凸价值函数下，最优信息结构是区间分段的，同时在对数凸环境中，信息会变得更加粗糙。
-
-    
-
-    我们研究了一个具有连续状态和离散信号空间的信息设计问题。我们发现设计者的中间价值函数仅通过其曲率影响解决方案。先验分布与边际价值函数之间存在对偶关系。在凸价值函数下，最优信息结构是区间分段的。此外，在对数凸环境中，一个审查中心将出现并且对于远离它的状态，信息变得更粗糙。我们确定了审查中心并提供了对于先验分布和价值函数来说信息结构的比较静态分析。该分析可扩展到S形价值函数。
-
-    We study an information design problem with continuous state and discrete signal space. We find that the designer's interim value function affects the solution only through its curvature. There is a dual relation between the prior distribution and the marginal value function. Under convex value functions, the optimal information structure is interval-partitional. Moreover, in logconcave environments, a center of scrutiny emerges and information becomes coarser for states farther from it. We locate the scrutiny center and provide comparative statics on information structure with respect to prior distributions and value functions. The analysis can be extended to S-shaped value functions.
-    
-[^4]: 带合约的匹配市场中的公司准稳定性和重新平衡
-
-    Firm-quasi-stability and re-equilibration in matching markets with contracts. (arXiv:2305.17948v1 [econ.TH])
-
-    [http://arxiv.org/abs/2305.17948](http://arxiv.org/abs/2305.17948)
-
-    本研究探讨了带合约的匹配市场中的稳定性问题，发现稳定性破坏后，公司准稳定的分配方式可以自然出现，而我们提出的算法可以使市场从准稳定性中重新获得稳定性。
+    本文研究非线性时间序列模型的脉冲响应分析，提出了一种新的更直接依赖于底层模型属性的方法，并讨论了相关的非参数估计和结构脉冲响应的推断。
 
     
 
-    本文研究了可替代偏好条件下，带有合约的多对多匹配中的公司准稳定性。我们建立了公司准稳定性和稳定性之间的各种关系，并对稳定配置的存在性和格子性质提供了新的见解。此外，我们证明了当市场的稳定性由于新公司的加入或一些工人的退休而受到破坏时，公司准稳定的分配自然出现，并介绍了一种广义的延迟接受算法，以表明市场可以通过分散的报价和接受过程从公司准稳定的分配中恢复稳定性。
+    线性时间序列模型是结构宏观经济分析的重要工具，然而经济理论和实证数据都表明，非线性和不对称效应的研究也十分重要，以了解政策制定者的选择可能产生的影响。本文以动态系统视角，比较了已知的构建非线性时间序列模型脉冲响应的方法，并提出了一种更直接依赖于底层模型属性的新方法。讨论了在自然物理依赖假设下的自回归模型的非参数估计，以及结构脉冲响应的推断。
 
-    We study firm-quasi-stability in the framework of many-to-many matching with contracts under substitutable preferences. We establish various links between firm-quasi-stability and stability and give new insights into the existence and lattice property of stable allocations. Moreover, we show that firm-quasi-stable allocations appears naturally when the stability of the market is disrupted by the entry of new firms or the retirement of some workers, and introduce a generalized deferred acceptance algorithm to show that the market can regain stability from firm-quasi-stable allocations by a decentralized process of offers and acceptances.
+    Linear time series models are the workhorse of structural macroeconometric analysis. However, economic theory as well as data suggests that nonlinear and asymmetric effects might be important to study to understand the potential effects of policy makers' choices. Taking a dynamical system view, this paper compares known approaches to construct impulse responses in nonlinear time series models and proposes a new approach that more directly relies on the underlying model properties. Nonparametric estimation of autoregressive models is discussed under natural physical dependence assumptions as well as inference for structural impulse responses.
     
-[^5]: 尼日利亚电动汽车的可行性评估：2030年预测的探讨
+[^3]: 亲属关系可能会阻碍人类群体的合作
 
-    An Approximate Feasibility Assessment of Electric Vehicles Adoption in Nigeria: Forecast 2030. (arXiv:2305.17844v1 [eess.SY])
+    Kinship can hinder cooperation in heterogeneous populations. (arXiv:2305.19026v1 [econ.TH])
 
-    [http://arxiv.org/abs/2305.17844](http://arxiv.org/abs/2305.17844)
+    [http://arxiv.org/abs/2305.19026](http://arxiv.org/abs/2305.19026)
 
-    本论文评估了尼日利亚电动汽车在2030年的可行性，并探讨了可再生能源在过渡到可持续未来中的重要性。
-
-    
-
-    为了实现气候目标，建设可持续的未来，需要政府、企业、个人等所有利益相关方共同努力。国际上的可持续发展目标和《巴黎协定》强调需要所有利益相关者立即采取行动。本文提出了一项针对尼日利亚电动汽车价值链中的机遇的可行性评估，旨在增强公众对该国可再生能源行业的理解。目前石油仍然满足全球95%以上的交通需求，能源公司必须多元化其投资组合，整合各种可再生能源以实现可持续发展。距离传统化石燃料行业的转型进程越来越远，这更凸显了整合可再生能源的必要性。为了在可再生能源领域取得重大进展，建立一个可行的可持续能源供应链是至关重要的。
-
-    Efforts toward building a sustainable future have underscored the importance of collective responsibility among state and non-state actors, corporations, and individuals to achieve climate goals. International initiatives, including the Sustainable Development Goals and the Paris Agreement, emphasize the need for immediate action from all stakeholders. This paper presents a feasibility assessment focused on the opportunities within Nigeria's Electric Vehicle Value Chain, aiming to enhance public understanding of the country's renewable energy sector. As petroleum currently fulfills over 95% of global transportation needs, energy companies must diversify their portfolios and integrate various renewable energy sources to transition toward a sustainable future. The shifting investor sentiment away from traditional fossil fuel industries further highlights the imperative of incorporating renewables. To facilitate significant progress in the renewable energy sector, it is vital to establish
-    
-[^6]: 时间变异的向量误差修正模型：估计与推断
-
-    Time-Varying Vector Error-Correction Models: Estimation and Inference. (arXiv:2305.17829v1 [econ.EM])
-
-    [http://arxiv.org/abs/2305.17829](http://arxiv.org/abs/2305.17829)
-
-    本文提出了一种时间变异的向量误差修正模型，能够同时处理不同时间序列行为，可以用于估算非平稳变量的可预测性变化、检验经济理论的定期成立等，同时提出了一些实用方法和理论。
+    亲属关系的增加并不总是有利于人类社会的合作，会阻碍直接互惠的效力，并使维持完全合作的条件更加苛刻。
 
     
 
-    本文考虑了一种时间变异的向量误差修正模型，它允许不同的时间序列行为（例如、单位根和局部平稳过程）相互作用来共存。从实际的角度来看，这个框架可以用来估计非平稳变量可预测性的变化，检验经济理论是否定期成立等。我们首先提出了一个时间变异的 Granger 表示定理，为模型的渐近性质的建立提供了便利，然后针对短期和长期系数提出了估计和推断方法和理论，同时提出了一种信息准则来估计滞后长度，一种奇异值比率检验来确定协整阶数，以及一种假设检验来检验参数稳定性。为了验证理论结果，我们进行了大量的模拟研究。最后，我们通过应用该框架来调查粮食配给的问题来证明其经验相关性。
+    亲缘选择和直接互惠是促进人类社会合作的两种基本机制。在异质群体中推广多人囚徒困境和公共物品博弈的标准模型，我们研究了基因亲缘关系对重复互动中合作的影响。我们建立了一组关于次博弈完美均衡的分析结果和一组基于演化博弈模型的基于代理的模拟结果。我们表明，在两种情况下，增加基因亲缘关系并不总是有利于合作。具体来说，亲缘关系可以通过两种方式阻碍互惠的效力。首先，在中间范围内增加亲缘关系会使通过直接互惠维持合作的条件更难满足。其次，对于中高亲缘关系值的范围，不可能维持完全合作。此外，在亲属关系较低的个体中，合作的收益很少。
 
-    This paper considers a time-varying vector error-correction model that allows for different time series behaviours (e.g., unit-root and locally stationary processes) to interact with each other to co-exist. From practical perspectives, this framework can be used to estimate shifts in the predictability of non-stationary variables, test whether economic theories hold periodically, etc. We first develop a time-varying Granger Representation Theorem, which facilitates the establishment of asymptotic properties for the model, and then propose estimation and inferential methods and theory for both short-run and long-run coefficients. We also propose an information criterion to estimate the lag length, a singular-value ratio test to determine the cointegration rank, and a hypothesis test to examine the parameter stability. To validate the theoretical findings, we conduct extensive simulations. Finally, we demonstrate the empirical relevance by applying the framework to investigate the ration
+    Kin selection and direct reciprocity are two most basic mechanisms for promoting cooperation in human society. Generalizing the standard models of the multi-player Prisoner's Dilemma and the Public Goods games for heterogeneous populations, we study the effects of genetic relatedness on cooperation in the context of repeated interactions. Two sets of interrelated results are established: a set of analytical results focusing on the subgame perfect equilibrium and a set of agent-based simulation results based on an evolutionary game model. We show that in both cases increasing genetic relatedness does not always facilitate cooperation. Specifically, kinship can hinder the effectiveness of reciprocity in two ways. First, the condition for sustaining cooperation through direct reciprocity is harder to satisfy when relatedness increases in an intermediate range. Second, full cooperation is impossible to sustain for a medium-high range of relatedness values. Moreover, individuals with low co
     
-[^7]: 苏格兰地方政府选举中的单调性异常现象
+[^4]: 广义自回归得分树与森林
 
-    Monotonicity Anomalies in Scottish Local Government Elections. (arXiv:2305.17741v1 [econ.GN])
+    Generalized Autoregressive Score Trees and Forests. (arXiv:2305.18991v1 [econ.EM])
 
-    [http://arxiv.org/abs/2305.17741](http://arxiv.org/abs/2305.17741)
+    [http://arxiv.org/abs/2305.18991](http://arxiv.org/abs/2305.18991)
 
-    本研究分析了苏格兰1,079个地方政府STV选举，发现其中41次出现某种单调性异常，且这些异常率与之前的经验研究相似，远低于大多数理论研究发现的异常率。
-
-    
-
-    单一可转移选票（STV）投票方法用于选举排名选举中的多个候选人。STV的一个弱点是它未能通过与单调性和无表决悖论相关的多个公平标准。我们分析了苏格兰1,079个地方政府STV选举，以估计现实世界选举中此类单调性异常的频率，并将结果与关于此类异常出现率的先前经验和理论研究进行比较。在1079次选举中，我们发现41次出现某种单调性异常。我们通常发现异常率与之前的经验研究相似，远低于大多数理论研究发现的异常率。我们发现的大多数STV异常都是第一次在实际选举中记录到的。
-
-    The single transferable vote (STV) voting method is used to elect multiple candidates in ranked-choice elections. One weakness of STV is that it fails multiple fairness criteria related to monotonicity and no-show paradoxes. We analyze 1,079 local government STV elections in Scotland to estimate the frequency of such monotonicity anomalies in real-world elections, and compare our results with prior empirical and theoretical research about the rates at which such anomalies occur. In 41 of the 1079 elections we found some kind of monotonicity anomaly. We generally find that the rates of anomalies are similar to prior empirical research and much lower than what most theoretical research has found. Most of the STV anomalies we find are the first of their kind to be documented in real-world elections.
-    
-[^8]: TSLS与JIVE的桥接
-
-    Bridging TSLS and JIVE. (arXiv:2305.17615v1 [econ.EM])
-
-    [http://arxiv.org/abs/2305.17615](http://arxiv.org/abs/2305.17615)
-
-    本文提出了一种桥接TSLS和JIVE的新方法TSJI来处理内生性，具有用户定义参数λ，可以近似无偏，且在许多工具变量渐进情况下是一致且渐进正常的。
+    该论文提出了一种方法，通过使用决策树和随机森林来定位广义自回归得分模型的参数，改善其预测，并揭示了股票回报波动率和密度预测中的杠杆效应和方差风险溢价效应，以及股票-债券依赖性中的流向质量效应和高频交易持续时间中的成交量-波动性效应。
 
     
 
-    在处理内生性时，经济学家经常实施TSLS。当工具变量数量众多时，TSLS偏倚很严重。因此，JIVE被提出来减少超识别的TSLS偏差。但是，这两种方法都有重大缺陷。当超识别度较高时，超定TSLS偏差很大，而JIVE不稳定。在本文中，我将TSLS和JIVE的优化问题桥接起来，解决了连接问题，并提出了一种新的估计器TSJI。TSJI具有用户定义的参数λ。通过将TSJI偏差近似到op（1/N）的方式，我找到了一个产生近似无偏TSJI的λ值。选择了具有所选λ值的TSJI不仅具有在第一阶段和第二阶段回归器数量固定时与TSLS相同的一阶分布，而且在许多工具变量渐进情况下是一致且渐进正常的。在三种不同的模拟设置下，我使用不同力度的工具测试了TSJI与TSLS和JIVE。
+    我们提出了一种方法，通过使用决策树和随机森林来定位广义自回归得分（GAS）模型（Creal et. al, 2013; Harvey, 2013）的参数，从而改善其预测。这些方法避免了基于核函数的方法所面临的维度灾难，并允许同时利用多个状态变量的信息。我们将新模型应用于四种不同的实证分析中，并且在所有应用中，新的方法都显著优于基线GAS模型。在我们应用于股票回报波动率和密度预测的实验中，最优的GAS树模型揭示了杠杆效应和方差风险溢价效应。我们在股票-债券依赖性的研究中发现了优化的GAS森林预测中的流向质量效应，我们对高频交易持续时间的分析揭示了成交量-波动性效应。
 
-    Economists often implement TSLS to handle endogeneity. The bias of TSLS is severe when the number of instruments is large. Hence, JIVE has been proposed to reduce bias of over-identified TSLS. However, both methods have critical drawbacks. While over-identified TSLS has a large bias with a large degree of overidentification, JIVE is unstable. In this paper, I bridge the optimization problems of TSLS and JIVE, solve the connected problem and propose a new estimator TSJI. TSJI has a user-defined parameter $\lambda$. By approximating the bias of the TSJI up to op(1/N), I find a $\lambda$ value that produces approximately unbiased TSJI. TSJI with the selected $\lambda$ value not only has the same first order distribution as TSLS when the number of first-stage and second-stage regressors are fixed, but also is consistent and asymptotically normal under many-instrument asymptotics. Under three different simulation settings, I test TSJI against TSLS and JIVE with instruments of different stre
+    We propose methods to improve the forecasts from generalized autoregressive score (GAS) models (Creal et. al, 2013; Harvey, 2013) by localizing their parameters using decision trees and random forests. These methods avoid the curse of dimensionality faced by kernel-based approaches, and allow one to draw on information from multiple state variables simultaneously. We apply the new models to four distinct empirical analyses, and in all applications the proposed new methods significantly outperform the baseline GAS model. In our applications to stock return volatility and density prediction, the optimal GAS tree model reveals a leverage effect and a variance risk premium effect. Our study of stock-bond dependence finds evidence of a flight-to-quality effect in the optimal GAS forest forecasts, while our analysis of high-frequency trade durations uncovers a volume-volatility effect.
     
-[^9]: 通过直接买卖达到价格和商品持有量的平衡
+[^5]: 一场关于风险的竞争博弈
 
-    Reaching an equilibrium of prices and holdings of goods through direct buying and selling. (arXiv:2305.17577v1 [math.OC])
+    A Game of Competition for Risk. (arXiv:2305.18941v1 [q-fin.CP])
 
-    [http://arxiv.org/abs/2305.17577](http://arxiv.org/abs/2305.17577)
+    [http://arxiv.org/abs/2305.18941](http://arxiv.org/abs/2305.18941)
 
-    文章构建了一种消极替代方案，通过将边际效用纳入到货币价格中，给出货币价格阈值，从而实现了市场均衡的价值计算。
-
-    
-
-    市场均衡的Walras方法聚焦于市场价格的存在，使得商品总需求等于总供应。然而，通常在买卖中从一个人到另一个人传递货币的贸易活动是缺失的。文章提出了一种实用的消极替代方案，解决了何为市场均衡以及如何实现市场均衡的问题。文章中，经济主体在相同的环境下进行调整，但随着未来经济变化的需要，可能需要进行改变，并且货币在启动这一过程中扮演了重要角色。通过将边际效用纳入到货币价格的相对价值中，可以给出货币价格阈值，以此作为指导来进行增量调整。
-
-    The Walras approach to equilibrium focuses on the existence of market prices at which the total demands for goods are matched by the total supplies. Trading activities that might identify such prices by bringing agents together as potential buyers and sellers of a good are characteristically absent, however. Anyway, there is no money to pass from one to the other as ordinarily envisioned in buying and selling. Here a different approach to equilibrium -what it should mean and how it may be achieved -- is offered as a constructive alternative.  Agents operate in an economic environment where adjustments to holdings have been needed in the past, will be needed again in a changed future, and money is familiar for its role in facilitating that. Marginal utility provides relative values of goods for guidance in making incremental adjustments, and with money incorporated into utility and taken as num\`eraire, those values give money price thresholds at which an agent will be willing to buy 
-    
-[^10]: 通货膨胀目标的宏观经济影响：实证文献综述
-
-    Macroeconomic Effects of Inflation Targeting: A Survey of the Empirical Literature. (arXiv:2305.17474v1 [econ.GN])
-
-    [http://arxiv.org/abs/2305.17474](http://arxiv.org/abs/2305.17474)
-
-    本文综述了通货膨胀目标的实证文献。有坚实的经验证据表明，规模更大、更发达的国家更有可能采用IT制度；实证证据未能提供令人信服的证据，表明IT本身可以作为稳定通货膨胀预期和减少通货膨胀持久性的有效工具；针对发达经济体的实证研究未能提供有力证据表明IT对通货膨胀表现的有益影响，而有一些证据表明IT制度的收益在新兴市场经济体中更为普遍。
+    本文提出了一个竞争博弈模型，使用后悔最小化算法通过离散化解决了连续博弈问题。该模型揭示了市场摩擦和风险相关性如何影响战略性风险承受。
 
     
 
-    本文综述了通货膨胀目标的实证文献。我们的主要发现是：有坚实的经验证据表明，规模更大、更发达的国家更有可能采用IT制度；这种制度的引入是有条件的，先前的紧缩、更高的汇率灵活性、中央银行独立性和更高的金融发展水平；实证证据未能提供令人信服的证据，表明IT本身可以作为稳定通货膨胀预期和减少通货膨胀持久性的有效工具；针对发达经济体的实证研究未能提供有力证据表明IT对通货膨胀表现的有益影响，而有一些证据表明IT制度的收益在新兴市场经济体中更为普遍；对于IT是否与更高的产出增长或更低的产出波动有关，尚缺乏令人信服的证据。
+    本文提出的模型中，参与者根据自身战略选择风险水平并获得相应回报，模拟了各行业之间的现实竞争。我们从一个涉及两名玩家在连续行动空间内的正态形式博弈开始分析，证实了Nash均衡的存在和唯一性，并给出了分析解。然后，我们将这种分析扩展到多人游戏情境，并引入了一种新的数值算法进行计算。我们研究的一个关键创新点是使用后悔最小化算法通过离散化来解决连续博弈问题。这种开创性的方法使我们能够将市场摩擦和公司间风险相关性等额外的现实因素纳入考虑。我们还通过实验验证了我们模型中的Nash均衡也可以用作相关均衡。我们的研究揭示了市场摩擦和风险相关性如何影响战略性风险承受。我们还探讨了政策措施如何影响市场风险。
 
-    This paper surveys the empirical literature of inflation targeting. The main findings from our review are the following: there is robust empirical evidence that larger and more developed countries are more likely to adopt the IT regime; the introduction of this regime is conditional on previous disinflation, greater exchange rate flexibility, central bank independence, and higher level of financial development; the empirical evidence has failed to provide convincing evidence that IT itself may serve as an effective tool for stabilizing inflation expectations and for reducing inflation persistence; the empirical research focused on advanced economies has failed to provide convincing evidence on the beneficial effects of IT on inflation performance, while there is some evidence that the gains from the IT regime may have been more prevalent in the emerging market economies; there is not convincing evidence that IT is associated with either higher output growth or lower output variability;
+    In this study, we present models where participants strategically select their risk levels and earn corresponding rewards, mirroring real-world competition across various sectors. Our analysis starts with a normal form game involving two players in a continuous action space, confirming the existence and uniqueness of a Nash equilibrium and providing an analytical solution. We then extend this analysis to multi-player scenarios, introducing a new numerical algorithm for its calculation. A key novelty of our work lies in using regret minimization algorithms to solve continuous games through discretization. This groundbreaking approach enables us to incorporate additional real-world factors like market frictions and risk correlations among firms. We also experimentally validate that the Nash equilibrium in our model also serves as a correlated equilibrium. Our findings illuminate how market frictions and risk correlations affect strategic risk-taking. We also explore how policy measures c
     
-[^11]: 基于解雇提前通知长度的失业期限制和异质性研究
+[^6]: 行为因果推理
 
-    Duration Dependence and Heterogeneity: Learning from Early Notice of Layoff. (arXiv:2305.17344v1 [econ.GN])
+    Behavioral Causal Inference. (arXiv:2305.18916v1 [econ.TH])
 
-    [http://arxiv.org/abs/2305.17344](http://arxiv.org/abs/2305.17344)
+    [http://arxiv.org/abs/2305.18916](http://arxiv.org/abs/2305.18916)
 
-    本文通过解雇通知的长度变化，区分了失业期限制和不良选择对失业退出率的影响，发现48周失业退出率的下降主要是由于留存求职者的质量恶化造成的，
-
-    
-
-    本文提出了一种新的方法，利用解雇通知的长度变化来区分失业期限制和不良选择对失业退出率的影响。作者在离散时间下构建了混合风险模型，并规定了变通知长度如何实现对结构失业期限制的鉴别，同时允许工人间的任意异质性。作者运用弱化矩(GMM)方法对数据进行估计，结果表明，48周失业退出率的下降主要是由于留存的求职者质量恶化造成的。此外，作者发现个人退出失业的可能性一开始减少，然后在失业福利用尽之前增加，并在此后保持稳定。这些发现与一个标准的搜索模型相一致，在这个模型中，搜索的回报随着时间的推移而减少，并且不良选择的影响在失业初期最为显著。
-
-    This paper presents a novel approach to distinguish the impact of duration-dependent forces and adverse selection on the exit rate from unemployment by leveraging variation in the length of layoff notices. I formulate a Mixed Hazard model in discrete time and specify the conditions under which variation in notice length enables the identification of structural duration dependence while allowing for arbitrary heterogeneity across workers. Utilizing data from the Displaced Worker Supplement (DWS), I employ the Generalized Method of Moments (GMM) to estimate the model. According to the estimates, the decline in the exit rate over the first 48 weeks of unemployment is largely due to the worsening composition of surviving jobseekers. Furthermore, I find that an individual's likelihood of exiting unemployment decreases initially, then increases until unemployment benefits run out, and remains steady thereafter. These findings are consistent with a standard search model where returns to searc
-    
-[^12]: 在功效和副作用弱增加的情况下，利用有限试验证据可靠地选择治疗剂量
-
-    Using Limited Trial Evidence to Credibly Choose Treatment Dosage when Efficacy and Adverse Effects Weakly Increase with Dose. (arXiv:2305.17206v1 [econ.EM])
-
-    [http://arxiv.org/abs/2305.17206](http://arxiv.org/abs/2305.17206)
-
-    本文探讨了如何在功效和副作用弱增加的情况下，利用有限试验证据可靠地选择治疗剂量，以便优化患者护理。
+    本文提出了一个用于研究普通人因果效应推理的模型，研究了不同类型的人使用不同的控制变量集，并为不同的数据生成过程族获得了由于错误因果推断而导致的均衡福利损失的上界。
 
     
 
-    在医疗治疗和其他领域，通常基于随机试验的证据来确定治疗强度（剂量）。然而，研究治疗剂量如何影响治疗效果和副作用却是很少见的。本文提出了利用有限试验证据可靠地选择治疗剂量的方法。当功效和副作用弱增加时，优化患者护理需要同时考虑三个因素：功效、副作用和治疗成本。
+    当从相关数据中推断一个变量对另一个变量的因果效应时，一个常见的做法是通过控制一些外生混杂变量来纠正。选择不合适的控制变量集可能会导致错误的因果推断。本文提出了一个模型，研究了采用长期观测数据的普通人对自己行为对收益相关结果的因果效应的学习。不同类型的人使用不同的控制变量集。我为不同的数据生成过程族获得了由于错误的因果推断导致的均衡福利损失的上界。这些上界依赖于类型空间的结构。当类型以一定的方式“排序”时，均衡条件可极大地降低由于不良控制导致的错误因果推断的成本。
 
-    In medical treatment and elsewhere, it has become standard to base treatment intensity (dosage) on evidence in randomized trials. Yet it has been rare to study how outcomes vary with dosage. In trials to obtain drug approval, the norm has been to specify some dose of a new drug and compare it with an established therapy or placebo. Design-based trial analysis views each trial arm as qualitatively different, but it may be highly credible to assume that efficacy and adverse effects (AEs) weakly increase with dosage. Optimization of patient care requires joint attention to both, as well as to treatment cost. This paper develops methodology to credibly use limited trial evidence to choose dosage when efficacy and AEs weakly increase with dose. I suppose that dosage is an integer choice t in (0, 1, . . . , T), T being a specified maximum dose. I study dosage choice when trial evidence on outcomes is available for only K dose levels, where K < T + 1. Then the population distribution of dose 
+    When inferring the causal effect of one variable on another from correlational data, a common practice by professional researchers as well as lay decision makers is to control for some set of exogenous confounding variables. Choosing an inappropriate set of control variables can lead to erroneous causal inferences. This paper presents a model of lay decision makers who use long-run observational data to learn the causal effect of their actions on a payoff-relevant outcome. Different types of decision makers use different sets of control variables. I obtain upper bounds on the equilibrium welfare loss due to wrong causal inferences, for various families of data-generating processes. The bounds depend on the structure of the type space. When types are "ordered" in a certain sense, the equilibrium condition greatly reduces the cost of wrong causal inference due to poor controls.
     
-[^13]: 一个简单的人工社会中地方共享和社交性对财富不平等的影响
+[^7]: 绿色基础设施在水资源管理上的成本与效益：意大利南北部全尺寸人工湿地的可持续性评估
 
-    Local Sharing and Sociality Effects on Wealth Inequality in a Simple Artificial Society. (arXiv:2305.17177v1 [physics.soc-ph])
+    Cost-benefit of green infrastructures for water management: A sustainability assessment of full-scale constructed wetlands in Northern and Southern Italy. (arXiv:2305.06284v1 [econ.GN])
 
-    [http://arxiv.org/abs/2305.17177](http://arxiv.org/abs/2305.17177)
+    [http://arxiv.org/abs/2305.06284](http://arxiv.org/abs/2305.06284)
 
-    通过一个简单的模拟社会的实验，研究发现，地方共享资源会减少总财富并增加财富不平等。进化选择了反对地方共享和社交行为的基因。Gini系数不适用于测量这些变化。
-
-    
-
-    在减少财富不平等的方法中，资源在群体内的重新分配是当前的辩论领域。财富共享的进化路径也是一个积极研究的主题。为了研究财富共享的影响和演化，使用了一个复杂的自适应系统的极简模型来模拟社会。这些模拟表明，对于这个人工的采集社会来说，地方资源共享会减少经济总财富，并增加财富不平等。无论全局还是在个人的家族内，进化压力都会强烈选择反对地方共享，选择反对社交行为。通过保持邻居之间共享资源的基因，从富人到穷人，无论是与每个人还是仅在同一家族成员之间，都选择社交行为，但相对于非共享社会，总财富和平均寿命显著降低。Gini系数被证明在测量这些变化方面是无效的。
-
-    Redistribution of resources within a group as a method to reduce wealth inequality is a current area of debate. The evolutionary path to or away from wealth sharing is also a subject of active research. In order to investigate effects and evolution of wealth sharing, societies are simulated using a minimal model of a complex adapting system. These simulations demonstrate, for this artificial foraging society, that local sharing of resources reduces the economy's total wealth and increases wealth inequality. Evolutionary pressures strongly select against local sharing, whether globally or within a individual's clan, and select for asocial behaviors. By holding constant the gene for sharing resources among neighbors, from rich to poor, either with everyone or only within members of the same clan, social behavior is selected but total wealth and mean age are substantially reduced relative to non-sharing societies. The Gini coefficient is shown to be ineffective in measuring these changes 
-    
-[^14]: Kopel垄断模型的稳定性和混沌：基于符号计算的研究。
-
-    Stability and chaos of the duopoly model of Kopel: A study based on symbolic computations. (arXiv:2304.02136v1 [math.DS])
-
-    [http://arxiv.org/abs/2304.02136](http://arxiv.org/abs/2304.02136)
-
-    本文使用符号计算工具对Kopel非对称垄断模型进行了分析，探讨了多个正平衡点的存在可能性，并首次建立了不同数量正平衡点存在的严格条件。通过数值模拟支持模型中存在混沌，但混沌的存在很难被严格证明。
+    本研究评估了两个不同地理区域的人工湿地的可持续性，结果表明西西里岛的垂直地下流人工湿地在经济和社会效益方面更高，是该地区水资源管理更可持续的选择。
 
     
 
-    Kopel垄断模型提出近30年来，对于非对称情况下的平衡点和其稳定性，几乎没有分析结果。本文采用多种基于符号计算的工具，对Kopel的非对称垄断模型进行了分析。我们讨论了多个正平衡点的存在可能性，并建立了存在给定数量正平衡点的必要充分条件。同时，探讨了Kopel模型中平衡点的可能位置。此外，如果垄断者采用最佳反应策略或同质自适应预期，则我们首次建立了不同数量正平衡点存在的严格条件。通过数值模拟的观察支持Kopel模型存在混沌，但这很难得到严格证明。本文的第二个目标是，建立和验证模型中存在混沌的条件。
+    由于水资源供应不稳定和水质问题，可持续水资源管理已成为紧迫的挑战。气候变化的影响加剧了地中海地区等水资源匮乏地区的这一现象，刺激了旨在减轻或改善环境、社会和经济状况的解决方案的实施。一种灵感来自自然界、以技术为导向的新型解决方案是人工湿地。由于其低成本和简单的维护，常被应用于不同类型的废水处理，并被认为是除去污染物的有前途的解决方案，同时通过增加周围的生物多样性而创造了改进的生态系统。本研究旨在通过对意大利两个地区的两种类型的人工湿地（西西里岛的垂直地下流人工湿地和艾米利亚·罗马涅区的地表流人工湿地）进行可持续性评估，应用成本效益分析来比较这两种系统的经济、社会和环境影响。我们的研究结果表明，虽然两种系统都有积极的影响，但西西里岛的垂直地下流人工湿地具有更高的经济和社会效益，使其成为该地区水资源管理更可持续的选择。
 
-    Since Kopel's duopoly model was proposed about three decades ago, there are almost no analytical results on the equilibria and their stability in the asymmetric case. The first objective of our study is to fill this gap. This paper analyzes the asymmetric duopoly model of Kopel analytically by using several tools based on symbolic computations. We discuss the possibility of the existence of multiple positive equilibria and establish necessary and sufficient conditions for a given number of positive equilibria to exist. The possible positions of the equilibria in Kopel's model are also explored. Furthermore, if the duopolists adopt the best response reactions or homogeneous adaptive expectations, we establish rigorous conditions for the existence of distinct numbers of positive equilibria for the first time. The occurrence of chaos in Kopel's model seems to be supported by observations through numerical simulations, which, however, is challenging to prove rigorously. The second objectiv
+    Sustainable water management has become an urgent challenge due to irregular water availability patterns and water quality issues. The effect of climate change exacerbates this phenomenon in water-scarce areas, such as the Mediterranean region, stimulating the implementation of solutions aiming to mitigate or improve environmental, social, and economic conditions. A novel solution inspired by nature, technology-oriented, explored in the past years, is constructed wetlands. Commonly applied for different types of wastewater due to its low cost and simple maintenance, they are considered a promising solution to remove pollutants while creating an improved ecosystem by increasing biodiversity around them. This research aims to assess the sustainability of two typologies of constructed wetlands in two Italian areas: Sicily, with a vertical subsurface flow constructed wetland, and Emilia Romagna, with a surface flow constructed wetland. The assessment is performed by applying a cost-benefit
     
-[^15]: 期权的价格发现
+[^8]: 由网络效应引起的竞争市场中的非平衡相变
 
-    Price Discovery for Derivatives. (arXiv:2302.13426v5 [econ.GN] UPDATED)
+    Non-equilibrium phase transitions in competitive markets caused by network effects. (arXiv:2204.05314v2 [cond-mat.stat-mech] UPDATED)
 
-    [http://arxiv.org/abs/2302.13426](http://arxiv.org/abs/2302.13426)
+    [http://arxiv.org/abs/2204.05314](http://arxiv.org/abs/2204.05314)
 
-    本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。
-
-    
-
-    本文通过一个模型，考虑了私有信息和高阶信息对期权市场价格的影响。模型允许有私有信息的交易者在状态-索赔集市场上交易。等价的期权形式下，我们考虑了拥有关于基础资产收益的分布的私有信息，并允许交易任意期权组合的操纵者。我们得出了通货膨胀需求、价格冲击和信息效率的闭式解，这些解提供了关于内幕交易的高阶信息，如任何给定的时刻交易期权策略，并将这些策略泛化到了波动率交易等实践领域。
-
-    We obtain a basic theory of price discovery across derivative markets with respect to higher-order information, using a model where an agent with general private information regarding state probabilities is allowed to trade arbitrary portfolios of state-contingent claims. In an equivalent options formulation, the informed agent has private information regarding arbitrary aspects of the payoff distribution of an underlying asset and is allowed to trade arbitrary option portfolios. We characterize, in closed form, the informed demand, price impact, and information efficiency of prices. Our results offer a theory of insider trading on higher moments of the underlying payoff as a special case. The informed demand formula prescribes option strategies for trading on any given moment and extends those used in practice for, e.g. volatility trading.
-    
-[^16]: 一种适用于一般处理模式的差分差分法有效处理方法
-
-    An Effective Treatment Approach to Difference-in-Differences with General Treatment Patterns. (arXiv:2212.13226v2 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2212.13226](http://arxiv.org/abs/2212.13226)
-
-    本文提出了一种使用有效处理概念的双重鲁棒识别、估计和推断方法，适用于一般的差分差分模型。
+    本论文使用基于代理的模型研究了具有需求侧网络效应的竞争市场，发现随着网络效应的增强，市场会出现一种鲁棒的非平衡相，这种相变破坏了对称性和遍历性，同时在市场中展现出自发的价格波动、周期性市场占领事件和富人越来越富三个经验证实的现象。
 
     
 
-    我们考虑一般的差分差分模型，其中感兴趣的处理变量可能是非二元的，并且其值可能会在每个时间段发生变化。通常很难估计用给定整个处理路径的潜在结果定义的处理参数，因为每个处理路径可能仅由少量观测所经历。我们提出了一种替代方法，使用有效处理的概念，将处理路径总结为一个经验可追踪的低维变量，并开发了双重鲁棒识别、估计和推断方法。我们还提供了一个伴随的R软件包。
+    网络效应仅源于产品在经济市场中的普及率，产生附加价值。我们使用受统计物理启发的基于代理的模型，提出了一个关于（几乎）难以区分的货物的具有需求侧网络效应的竞争市场的极简理论，由统计相同的销售人员销售。当网络效应较弱时，该模型可以重现传统的微观经济学: 几乎完全竞争的统计稳态。随着网络效应的增加，我们发现市场中会出现一种鲁棒的非平衡相，这是因为市场中会自然出现和消失的新潮流。当销售人员快速调整价格时, 一个新兴的垄断者可以占领市场并削弱竞争力，导致对称性和遍历性破裂的转变。非平衡相同时展现了三个经验证实的现象，这些现象在竞争市场的标准理论中没有被包含：自发的价格波动、周期性市场占领事件和富人越来越富。
 
-    We consider a general difference-in-differences model in which the treatment variable of interest may be non-binary and its value may change in each time period. It is generally difficult to estimate treatment parameters defined with the potential outcome given the entire path of treatment adoption, because each treatment path may be experienced by only a small number of observations. We propose an alternative approach using the concept of effective treatment, which summarizes the treatment path into an empirically tractable low-dimensional variable, and develop doubly robust identification, estimation, and inference methods. We also provide a companion R software package.
+    Network effects are the added value derived solely from the popularity of a product in an economic market. Using agent-based models inspired by statistical physics, we propose a minimal theory of a competitive market for (nearly) indistinguishable goods with demand-side network effects, sold by statistically identical sellers. With weak network effects, the model reproduces conventional microeconomics: there is a statistical steady state of (nearly) perfect competition. Increasing network effects, we find a phase transition to a robust non-equilibrium phase driven by the spontaneous formation and collapse of fads in the market. When sellers update prices sufficiently quickly, an emergent monopolist can capture the market and undercut competition, leading to a symmetry- and ergodicity-breaking transition. The non-equilibrium phase simultaneously exhibits three empirically established phenomena not contained in the standard theory of competitive markets: spontaneous price fluctuations, p
     
-[^17]: 面板数据中无欺诈决策制定的研究及拓展
+[^9]: COVID-19的阴影下成年女性对意大利劳动力市场的依附
 
-    Strategyproof Decision-Making in Panel Data Settings and Beyond. (arXiv:2211.14236v3 [econ.EM] UPDATED)
+    The attachment of adult women to the Italian labour market in the shadow of COVID-19. (arXiv:2202.13317v2 [econ.GN] UPDATED)
 
-    [http://arxiv.org/abs/2211.14236](http://arxiv.org/abs/2211.14236)
+    [http://arxiv.org/abs/2202.13317](http://arxiv.org/abs/2202.13317)
 
-    本文研究了使用面板数据做决策制定时，如何应对生成数据的单位采取策略的情况，提出了一个可以对单位进行正确干预的无欺诈干预策略。
-
-    
-
-    本文研究使用面板数据的决策制定问题，其中决策者得到了多个单位（或代理人）的有噪声、重复的测量结果。我们考虑了一个设置，其中存在一个干预前期，当决策者观察每个单位的结果后，会根据这些观察结果为每个单位分配一个处理。与传统的设置不同的是，我们允许生成面板数据的单位采取策略，即单位可能会修改其干预前的结果以获得更理想的干预。本文旨在设计一个无欺诈的干预策略，也就是一个能够对单位进行正确干预的策略，无论单位是否进行了策略。我们首先确定了一个必要且充分的条件来判断无欺诈的干预策略是否存在，并提供了一个具有简单闭合形式的无欺诈机制。在此过程中，我们证明了具有应用于劳动力市场信号的战略性多类分类设置的不可能性结果。
-
-    We consider the classical problem of decision-making using panel data, in which a decision-maker gets noisy, repeated measurements of multiple units (or agents). We consider a setup where there is a pre-intervention period, when the principal observes the outcomes of each unit, after which the principal uses these observations to assign a treatment to each unit. Unlike this classical setting, we permit the units generating the panel data to be strategic, i.e. units may modify their pre-intervention outcomes in order to receive a more desirable intervention. The principal's goal is to design a strategyproof intervention policy, i.e. a policy that assigns units to their correct interventions despite their potential strategizing. We first identify a necessary and sufficient condition under which a strategyproof intervention policy exists, and provide a strategyproof mechanism with a simple closed form when one does exist. Along the way, we prove impossibility results for strategic multicl
-    
-[^18]: 声望博弈与低效技术采纳
-
-    Reputational Bargaining and Inefficient Technology Adoption. (arXiv:2201.01827v2 [econ.TH] UPDATED)
-
-    [http://arxiv.org/abs/2201.01827](http://arxiv.org/abs/2201.01827)
-
-    买家和卖家在讨价还价过程中，声望激励可能导致低效技术采纳和达成协议的显著延迟。
+    意大利30多岁有小孩的女性在COVID-19大流行中放弃了工作，成为了失业人士。研究表明这是由于特定的地区社会文化因素引起的，并可能对女性劳动力参与产生长期不利影响。
 
     
 
-    一个买家和一个卖家就物品的价格进行讨价还价。双方都可以通过一直报出相同的价格来建立不屈不挠的声望。在玩家进行讨价还价之前，卖家决定是否采用一项可以降低他的生产成本的新技术，而买家无法观察到这个采纳决策。我们表明，玩家的声望激励可能导致低效的采纳以及达成协议的显著延迟，并且如果且仅如果采纳的社会效益足够大，那么这些低效率会在均衡状态下出现。因此，采纳的社会效益的增加可能导致采纳概率降低，预期延迟时间变长。
+    本研究通过调查30多岁女性在职业与家庭选择上的结合，研究其对外部干扰因素（如COVID-19大流行）的反应来探讨女性对劳动力市场的依附。我们发现在意大利，许多有小孩的女性在2020年离开了长期（和临时的）职业，成为了失业人士。尽管在大流行爆发后的观察期很短，但已确定的影响似乎相当大且持久，尤其是与同龄男性相比。我们认为这种情况是由特定的地区社会文化因素造成的，这些因素预示着可能对女性劳动力参与产生长期的不利影响。
 
-    A buyer and a seller bargain over the price of an object. Both players can build reputations for being obstinate by offering the same price over time. Before players bargain, the seller decides whether to adopt a new technology that can lower his production cost and the buyer cannot observe this adoption decision. We show that players' reputational incentives can lead to inefficient adoption and significant delays in reaching agreement, and that these inefficiencies arise in equilibrium if and only if the social benefit from adoption is large enough. As a result, an increase in the social benefit from adoption may lead to a lower adoption probability and a longer expected delay.
+    We investigate the attachment to the labour market of women in their 30s, who are combining career and family choices, through their reactions to an exogenous, and potentially symmetric shock, such as the COVID-19 pandemic. We find that in Italy a large number of females with small children, living in the North, left permanent (and temporary) employment and became inactive in 2020. Despite the short period of observation after the burst of the pandemic, the identified impacts appear large and persistent, particularly with respect to the males of the same age. We argue that this evidence is ascribable to specific regional socio-cultural factors, which foreshadow a potential long-term detrimental impact on female labour force participation.
     
-[^19]: 注意力过载模型
+[^10]: 拥有财产权：打破性别壁垒改善印度儿童健康状况
 
-    Attention Overload. (arXiv:2110.10650v2 [econ.TH] UPDATED)
+    Entitled to Property: How Breaking the Gender Barrier Improves Child Health in India. (arXiv:2106.10841v9 [econ.GN] UPDATED)
 
-    [http://arxiv.org/abs/2110.10650](http://arxiv.org/abs/2110.10650)
+    [http://arxiv.org/abs/2106.10841](http://arxiv.org/abs/2106.10841)
 
-    该论文提出了一个注意力过载模型，用于捕捉决策者注意力的竞争，允许确定决策者的偏好和注意力频率，且可应用于各种模型中。
-
-    
-
-    我们提出了一个注意力过载模型，捕捉到决策者的注意力将会竞争，因此每个备选项收到的注意力随着选择问题的增大而减少。利用这种对随机注意力形成的非参数约束，我们展示了一个富有成果的显性偏好理论，并提供了可测试的选择行为的推论，可以用于（部分）确定决策者的偏好和注意力频率。然后，我们改进了注意力过载模型以适应异质偏好。由于我们鉴定假设的非参数性质，必须限制选择模型中的异质性程度：我们提出了列表型注意力过载的概念，其中备选项呈列表形式呈现给决策者，与异质偏好和随机注意力相关。我们展示了各种模型的偏好和注意力频率估计可以在列表型注意力过载中确定，保持计算可跟踪性。
-
-    We introduce an Attention Overload Model that captures the idea that alternatives compete for the decision maker's attention, and hence the attention that each alternative receives decreases as the choice problem becomes larger. Using this nonparametric restriction on the random attention formation, we show that a fruitful revealed preference theory can be developed and provide testable implications on the observed choice behavior that can be used to (point or partially) identify the decision maker's preference and attention frequency. We then enhance our attention overload model to accommodate heterogeneous preferences. Due to the nonparametric nature of our identifying assumption, we must discipline the amount of heterogeneity in the choice model: we propose the idea of List-based Attention Overload, where alternatives are presented to the decision makers as a list that correlates with both heterogeneous preferences and random attention. We show that preference and attention frequenc
-    
-[^20]: bqror: 一种用于序列模型中贝叶斯分位数回归的 R 包
-
-    bqror: An R package for Bayesian Quantile Regression in Ordinal Models. (arXiv:2109.13606v3 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2109.13606](http://arxiv.org/abs/2109.13606)
-
-    bqror是一个R包，用于在序列模型中估算贝叶斯分位数回归。它提供了高效的MCMC算法，可以对具有3个或以上结果的通用序列模型进行估算，对于恰好具有3个结果的序列模型，则只使用Gibbs抽样。与贝叶斯文献一致，使用边缘似然进行模型比较，该文还介绍了一些其他包含在bqror软件包中的函数，这些函数在估算过程中是必要的。
+    印度一项政策措施授予未婚妇女继承权，改善了儿童身高和体重，同时提高了母亲在家庭内的谈判能力，从而产生了更好的父母照顾和改善的儿童健康状况的效益。这表明，赋予妇女权利的政策可以对儿童的人力资本产生额外积极效应。
 
     
 
-    本文介绍了一个名为 bqror 的 R 包，用于在 Rahman（2016）中引入的序列模型中估算贝叶斯分位数回归。本文将序列模型分为两类，并提供了计算效率高、但简单的马尔可夫链蒙特卡罗（MCMC）算法来估算序列分位数回归。对于具有 3 个或更多结果的通用序列模型（标记为 ORI 模型），使用 Gibbs 抽样和 Metropolis-Hastings 算法的组合来估算。而对于恰好具有 3 个结果的序列模型（标记为 ORII 模型），则仅使用 Gibbs 抽样进行估算。根据贝叶斯文献，我们建议使用边缘似然来比较不同的分位数回归模型，并解释如何计算边缘似然。模型及其估算过程通过多次模拟研究进行了说明，并在两个应用中实施。本文还介绍了 bqror 包中包含的其他几个函数，这些函数对估算是必要的。
+    非单元家庭模型认为，增加妇女的谈判能力可以影响儿童的健康状况，这是影响成年后人力资本和经济地位的重要预测因素。我们研究了一个政策变化：印度《印度教继承法》修正案（Hindu Succession Act Amendment，HSAA），该修正案为未婚妇女提供了继承权，对儿童健康状况产生影响。我们发现，HSAA改善了儿童的身高和体重。此外，我们发现，该政策改善了妇女在家庭内的谈判能力，通过更好的父母照料和改善的儿童健康状况产生了下游效益。研究结果证实，当母亲控制更大比例的家庭资源时，儿童的情况更好。因此，赋予妇女权力的政策可以对儿童的人力资本产生额外积极溢出效应。
 
-    This article describes an R package bqror that estimates Bayesian quantile regression for ordinal models introduced in Rahman (2016). The paper classifies ordinal models into two types and offers computationally efficient, yet simple, Markov chain Monte Carlo (MCMC) algorithms for estimating ordinal quantile regression. The generic ordinal model with 3 or more outcomes (labeled ORI model) is estimated by a combination of Gibbs sampling and Metropolis-Hastings algorithm. Whereas an ordinal model with exactly 3 outcomes (labeled ORII model) is estimated using Gibbs sampling only. In line with the Bayesian literature, we suggest using marginal likelihood for comparing alternative quantile regression models and explain how to compute the same. The models and their estimation procedures are illustrated via multiple simulation studies and implemented in two applications. The article also describes several other functions contained within the bqror package, which are necessary for estimation,
-    
-[^21]: 离散响应数据的建模与分析：以美国大众对大麻合法化的看法为例
-
-    Modeling and Analysis of Discrete Response Data: Applications to Public Opinion on Marijuana Legalization in the United States. (arXiv:2109.10122v2 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2109.10122](http://arxiv.org/abs/2109.10122)
-
-    本文介绍了离散选择模型，主要目标是对协变量条件下的响应/结果的概率建模，以此为基础，对美国大众对大麻合法化的看法进行了研究。
-
-    
-
-    本章介绍了一种特殊形式的有限依赖变量模型——离散选择模型，在这种模型中，因变量取离散值，其固有顺序性和连续潜变量表征。在这种场景下，因变量只能取两种离散值（如0和1），导致了二元模型（例如，probit模型和logit模型）或多于两种值（比如$j=1,2, \ldots, J$，其中$J$是某个整数，通常很小），从而引起序数模型（例如，序数probit模型和序数logit模型）。在这些模型中，主要目标是对协变量条件下的响应/结果的概率建模。我们将离散选择模型的结果与经济学中的随机效用框架联系起来，讨论估计技术、介绍协变量效应的计算方法以及用于评估模型拟合程度的指标。还介绍了一些离散数据建模的最新进展。
-
-    This chapter presents an overview of a specific form of limited dependent variable models, namely discrete choice models, where the dependent (response or outcome) variable takes values which are discrete, inherently ordered, and characterized by an underlying continuous latent variable. Within this setting, the dependent variable may take only two discrete values (such as 0 and 1) giving rise to binary models (e.g., probit and logit models) or more than two values (say $j=1,2, \ldots, J$, where $J$ is some integer, typically small) giving rise to ordinal models (e.g., ordinal probit and ordinal logit models). In these models, the primary goal is to model the probability of responses/outcomes conditional on the covariates. We connect the outcomes of a discrete choice model to the random utility framework in economics, discuss estimation techniques, present the calculation of covariate effects and measures to assess model fitting. Some recent advances in discrete data modeling are also 
-    
-[^22]: 利用联合停车和出行模式选择模型分析通勤者出行决策的口味异质性：以印度城市为例
-
-    Analysis of taste heterogeneity in commuters travel decisions using joint parking and mode choice model: A case from urban India. (arXiv:2109.01045v3 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2109.01045](http://arxiv.org/abs/2109.01045)
-
-    本研究通过将停车选择作为出行模式选择模型的内生决策，综合考虑态度因素和建筑环境变量，填补了单独考虑出行方式和停车选择行为之间权衡的空白。
-
-    
-
-    交通需求管理的概念通过在城市中实现最佳平衡的交通模式份额来促进可持续出行的发展，而模式份额管理直接反映了每个交通子系统，包括停车场的TDM。在发展中国家，政策制定者主要关注供给侧措施，而需求侧措施在政策影响方面尚未得到解决。有大量的文献介绍了TDM策略的响应，但大多数研究单独考虑了出行方式和停车选择行为，而没有考虑它们之间的权衡。不这样做可能会导致偏见模型估计和政策应用的不当。本文试图通过将停车选择作为模式选择行为模型中的内生决策来填补这一空白。本研究将态度因素和建筑环境变量与停车和出行属性相结合，以开发综合的联合停车和出行模式选择模型。
-
-    The concept of transportation demand management (TDM) upholds the development of sustainable mobility through the triumph of optimally balanced transport modal share in cities. The modal split management directly reflects on TDM of each transport subsystem, including parking. In developing countries, the policy-makers have largely focused on supply-side measures, yet demand-side measures have remained unaddressed in policy implications. Ample literature is available presenting responses of TDM strategies, but most studies account mode choice and parking choice behaviour separately rather than considering trade-offs between them. Failing to do so may lead to biased model estimates and impropriety in policy implications. This paper seeks to fill this gap by admitting parking choice as an endogenous decision within the model of mode choice behaviour. This study integrates attitudinal factors and built-environment variables in addition to parking and travel attributes for developing compre
-    
-[^23]: 长期失业人员的积极劳动力市场政策：来自因果机器学习的新证据
-
-    Active labour market policies for the long-term unemployed: New evidence from causal machine learning. (arXiv:2106.10141v2 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2106.10141](http://arxiv.org/abs/2106.10141)
-
-    该研究使用因果机器学习分析了德国长期失业人员的三个工作搜索援助和培训计划的有效性，结果显示参与者受益匪浅，其中就业服务效果最好。此外，女性受当地劳动力市场条件的影响有所不同。提出使用数据驱动规则更有效地分配失业人员到相应计划。
-
-    
-
-    积极的劳动力市场计划是欧洲就业机构帮助失业者找工作的重要工具。研究德国长期失业人员的大型行政数据，我们使用因果机器学习分析了三个工作搜索援助和培训计划的有效性。参与者受益于所有计划的快速实现和长期积极影响，其中就业服务是最有效的。对于女性，我们发现各种特征存在差异影响。特别是，女性受益于更好的当地劳动力市场条件。我们建议使用更有效的数据驱动规则，将失业人员分配到相应的劳动力市场计划，这些规则可以被决策者采用。
-
-    Active labor market programs are important instruments used by European employment agencies to help the unemployed find work. Investigating large administrative data on German long-term unemployed persons, we analyze the effectiveness of three job search assistance and training programs using Causal Machine Learning. Participants benefit from quickly realizing and long-lasting positive effects across all programs, with placement services being the most effective. For women, we find differential effects in various characteristics. Especially, women benefit from better local labor market conditions. We propose more effective data-driven rules for allocating the unemployed to the respective labor market programs that could be employed by decision-makers.
-    
-[^24]: 带依赖数据的线性回归经验风险最小化的性能
-
-    Performance of Empirical Risk Minimization for Linear Regression with Dependent Data. (arXiv:2104.12127v5 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2104.12127](http://arxiv.org/abs/2104.12127)
-
-    本文提出了将现有线性回归结果推广到具有数据依赖性的情况下的解决方案，分析结果表明，带有依赖数据的经验风险最小化方法可以实现最优性能（除对数因子外）。
-
-    
-
-    本文对大维线性回归问题的经验风险最小化提出了性能界限。我们通过考虑数据间的依赖和厚尾性质，推广了现有结果。该分析涵盖了同分布观测和异分布观测的情况。我们的分析在回归因变量和解释变量之间关系未确定的非参数设定下进行。本文的主要结果表明，在带有依赖数据的情形下，经验风险最小化器实现了最佳性能（除了一个对数因子）。
-
-    This paper establishes bounds on the performance of empirical risk minimization for large-dimensional linear regression. We generalize existing results by allowing the data to be dependent and heavy-tailed. The analysis covers both the cases of identically and heterogeneously distributed observations. Our analysis is nonparametric in the sense that the relationship between the regressand and the regressors is not specified. The main results of this paper show that the empirical risk minimizer achieves the optimal performance (up to a logarithmic factor) in a dependent data setting.
-    
-[^25]: 社会多样性与疫情传播：来自印度的证据
-
-    Social Diversity and Spread of Pandemic: Evidence from India. (arXiv:2011.05839v2 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2011.05839](http://arxiv.org/abs/2011.05839)
-
-    本文研究了印度种姓多样性与COVID-19传播速度的关系。研究发现，在病例浓度阈值方面，种姓同质化地区需要更长的时间，使用每日病例进行分析也发现其传播增长较慢。这些结果持续了约76天，即使在考虑其他因素后也依然成立。
-
-    
-
-    在疫情期间，遵守公共卫生准则需要协调社区行动，而社会多元化的地区可能受到破坏。本文评估了印度全国封锁和解锁期间种姓群体多样性与COVID-19感染传播之间的关系。我们发现，种姓同质化地区在跨越50至500个病例的浓度阈值方面，需要更多的时间。使用每日病例进行密集度分析，进一步显示种姓同质化地区感染增长较慢。总体而言，在全国封锁开始后的2.5个月（约76天）中，种姓同质化的影响仍然为正且具有统计学意义，并随后逐渐减弱。即使在考虑封锁前的热点出现、每日固定效应、区域固定效应影响后，结果仍然成立。
-
-    Compliance with the public health guidelines during a pandemic requires coordinated community actions which might be undermined in socially diverse areas. In this paper, we assess the relationship between caste-group diversity and the spread of COVID-19 infection during the nationwide lockdown and unlocking period in India. On the extensive margin, we find that caste-homogeneous districts systematically took more days to cross the concentration thresholds of 50 to 500 cases. Estimates on the intensive margin, using daily cases, further show that caste-homogeneous districts experienced slower growth in infection. Overall, the effects of caste-group homogeneity remained positive and statistically significant for 2.5 months (about 76 days) after the beginning of the lockdown and weakened with subsequent phases of the lockdown. The results hold even after accounting for the emergence of initial hotspots before lockdown, broader diffusion patterns through daily fixed effects, region fixed e
-    
-[^26]: 动态资源管理中生态体制最快检测方案研究
-
-    Quickest Detection of Ecological Regimes for Dynamic Resource Management. (arXiv:2005.11500v6 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2005.11500](http://arxiv.org/abs/2005.11500)
-
-    本文研究了生态体制转变下的可再生资源的随机动态，提出了一个帕累托最优的检测框架，实现最小化经济主体察觉转变的延迟，应用该框架于Sao Paulo的Cantareira水库案例中，对导致水库枯竭和随后的供水危机的事件进行了研究。
-
-    
-
-    本文研究了面临生态体制转变威胁下的可再生资源的随机动态。我们建立了一个帕累托最优的不确定性下的生态体制转变检测框架，该框架最小化了经济主体意识到转变的延迟。我们将生态系统监测与最优资源提取政策的制定相结合。我们完整解决了一个以利润最大化为目标的垄断主义者，并提供了决定不利生态体制转变是否会导致积极或谨慎采取资源提取策略的条件，这取决于市场需求、资源稀缺和检测时间之间的交互作用。我们将我们的框架应用于巴西圣保罗的Cantareira水库案例，并研究导致其枯竭和随后的供水危机的事件。
-
-    We study the stochastic dynamics of renewable resources under the threat of ecological regime shifts. We establish a Pareto optimal framework of regime shift detection under uncertainty that minimizes the delay with which economic agents become aware of the shift. We integrate ecosystem surveillance in the formation of optimal resource extraction policies. We fully solve the case of a profit-maximizing monopolist and provide the conditions that determine whether an adverse regime shift can lead to an aggressive or a precautionary extraction policy, depending on the interaction between market demand, resource scarcity and detection time. We apply our framework to the case of the Cantareira water reservoir in S\~ao Paulo, Brazil, and study the events that led to its depletion and the consequent water supply crisis.
+    Non-unitary household models posit that increasing women's bargaining power can affect child health, a significant predictor of human capital and economic status throughout adulthood. We study how a policy change, the Hindu Succession Act Amendment (HSAA), which provided inheritance rights to unmarried women in India, impacts child health. We find evidence that the HSAA improved the height and weight of children. In addition, we find evidence consistent with a channel that the policy improved women's intra-household bargaining power, leading to downstream benefits through better parental care for children and improved child health. The findings confirm that children do better when their mothers control a more significant fraction of the family resources. Thus, policies that empower women can have additional positive spillovers for children's human capital.
     
 

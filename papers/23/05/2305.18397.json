@@ -1,0 +1,11 @@
+{
+    "title": "Prediction of the 2023 Turkish Presidential Election Results Using Social Media Data. (arXiv:2305.18397v1 [cs.SI])",
+    "abstract": "Social media platforms influence the way political campaigns are run and therefore they have become an increasingly important tool for politicians to directly interact with citizens. Previous elections in various countries have shown that social media data may significantly impact election results. In this study, we aim to predict the vote shares of parties participating in the 2023 elections in Turkey by combining social media data from various platforms together with traditional polling data. Our approach is a volume-based approach that considers the number of social media interactions rather than content. We compare several prediction models across varying time windows. Our results show that for all time windows, the ARIMAX model outperforms the other algorithms.",
+    "link": "http://arxiv.org/abs/2305.18397",
+    "context": "Title: Prediction of the 2023 Turkish Presidential Election Results Using Social Media Data. (arXiv:2305.18397v1 [cs.SI])\nAbstract: Social media platforms influence the way political campaigns are run and therefore they have become an increasingly important tool for politicians to directly interact with citizens. Previous elections in various countries have shown that social media data may significantly impact election results. In this study, we aim to predict the vote shares of parties participating in the 2023 elections in Turkey by combining social media data from various platforms together with traditional polling data. Our approach is a volume-based approach that considers the number of social media interactions rather than content. We compare several prediction models across varying time windows. Our results show that for all time windows, the ARIMAX model outperforms the other algorithms.",
+    "path": "papers/23/05/2305.18397.json",
+    "total_tokens": 776,
+    "translated_title": "利用社交媒体数据预测2023年土耳其总统选举结果",
+    "translated_abstract": "社交媒体平台影响了政治竞选的方式，因此它们已成为政治家直接与公民互动的越来越重要的工具。许多国家的前几次选举表明，社交媒体数据可能会对选举结果产生重大影响。本研究旨在通过将来自不同平台的社交媒体数据与传统民调数据相结合，预测参加2023年土耳其选举的政党的得票率。我们采用的是基于体积的方法，而不是基于内容的方法来考虑社交媒体交互的数量。我们比较了几个不同时间窗口的预测模型。结果表明，在所有时间窗口中，ARIMAX模型优于其他算法。",
+    "tldr": "本文利用社交媒体数据和传统民调数据预测2023年土耳其总统选举结果，结果表明基于社交媒体交互数量的ARIMAX模型最优。"
+}

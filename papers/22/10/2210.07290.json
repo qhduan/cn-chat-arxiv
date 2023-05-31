@@ -1,0 +1,12 @@
+{
+    "title": "Dual control variate for faster black-box variational inference. (arXiv:2210.07290v2 [cs.LG] UPDATED)",
+    "abstract": "Black-box variational inference is a widely-used framework for Bayesian posterior inference, but in some cases suffers from high variance in gradient estimates, harming accuracy and efficiency. This variance comes from two sources of randomness: Data subsampling and Monte Carlo sampling. Whereas existing control variates only address Monte Carlo noise and incremental gradient methods typically only address data subsampling, we propose a new \"dual\" control variate capable of jointly reducing variance from both sources of noise. We confirm that this leads to reduced variance and improved optimization in several real-world applications.",
+    "link": "http://arxiv.org/abs/2210.07290",
+    "context": "Title: Dual control variate for faster black-box variational inference. (arXiv:2210.07290v2 [cs.LG] UPDATED)\nAbstract: Black-box variational inference is a widely-used framework for Bayesian posterior inference, but in some cases suffers from high variance in gradient estimates, harming accuracy and efficiency. This variance comes from two sources of randomness: Data subsampling and Monte Carlo sampling. Whereas existing control variates only address Monte Carlo noise and incremental gradient methods typically only address data subsampling, we propose a new \"dual\" control variate capable of jointly reducing variance from both sources of noise. We confirm that this leads to reduced variance and improved optimization in several real-world applications.",
+    "path": "papers/22/10/2210.07290.json",
+    "total_tokens": 715,
+    "translated_title": "双控制变量加速黑盒变分推断",
+    "translated_abstract": "黑盒变分推断是一种广泛使用的贝叶斯后验推断框架，但在某些情况下，梯度估计中的高方差会损害准确性和效率。这种方差来自两个随机源：数据子抽样和蒙特卡罗抽样。现有的控制变量仅解决蒙特卡罗噪声，而增量梯度方法通常仅解决数据子抽样，我们提出了一种新的“双”控制变量，能够同时减少两种噪声源的方差。我们确认这导致了减少方差和在多个现实世界应用中提高优化效果。",
+    "tldr": "本论文提出了双控制变量方法，能够同时减少数据子抽样和蒙特卡罗抽样带来的梯度估计方差，提高黑盒变分推断的准确性和效率。",
+    "en_tdlr": "This paper proposes a dual control variate method that simultaneously reduces variance from both data subsampling and Monte Carlo sampling sources of noise, improving accuracy and efficiency in black-box variational inference."
+}

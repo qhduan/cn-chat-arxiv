@@ -1,0 +1,12 @@
+{
+    "title": "Forward and Inverse Approximation Theory for Linear Temporal Convolutional Networks. (arXiv:2305.18478v1 [cs.LG])",
+    "abstract": "We present a theoretical analysis of the approximation properties of convolutional architectures when applied to the modeling of temporal sequences. Specifically, we prove an approximation rate estimate (Jackson-type result) and an inverse approximation theorem (Bernstein-type result), which together provide a comprehensive characterization of the types of sequential relationships that can be efficiently captured by a temporal convolutional architecture. The rate estimate improves upon a previous result via the introduction of a refined complexity measure, whereas the inverse approximation theorem is new.",
+    "link": "http://arxiv.org/abs/2305.18478",
+    "context": "Title: Forward and Inverse Approximation Theory for Linear Temporal Convolutional Networks. (arXiv:2305.18478v1 [cs.LG])\nAbstract: We present a theoretical analysis of the approximation properties of convolutional architectures when applied to the modeling of temporal sequences. Specifically, we prove an approximation rate estimate (Jackson-type result) and an inverse approximation theorem (Bernstein-type result), which together provide a comprehensive characterization of the types of sequential relationships that can be efficiently captured by a temporal convolutional architecture. The rate estimate improves upon a previous result via the introduction of a refined complexity measure, whereas the inverse approximation theorem is new.",
+    "path": "papers/23/05/2305.18478.json",
+    "total_tokens": 676,
+    "translated_title": "前向和反向逼近理论在线性时间卷积网络中的应用",
+    "translated_abstract": "我们对卷积神经网络在建模时序序列时的逼近性质进行了理论分析。具体来说，我们证明了逼近速率估计（类似于Jackson的结果）和反向逼近定理（类似于Bernstein的结果），二者共同提供了一种全面的特征描述，可以有效捕捉时间卷积体系结构所能捕捉的顺序关系类型。该速率估计通过引入一种精细的复杂度度量改进了先前的结果，而反向逼近定理是新的。",
+    "tldr": "本论文对卷积神经网络在序列建模时的逼近性质进行了理论分析并提出了一种全面的特征描述, 可以有效捕捉时间卷积体系结构所能捕捉的顺序关系类型。",
+    "en_tdlr": "This paper presents a theoretical analysis of the approximation properties of convolutional architectures when applied to the modeling of temporal sequences, and provides a comprehensive characterization of the types of sequential relationships that can be efficiently captured by a temporal convolutional architecture."
+}

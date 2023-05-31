@@ -1,0 +1,12 @@
+{
+    "title": "Impulse Response Analysis for Structural Nonlinear Time Series Models. (arXiv:2305.19089v1 [econ.EM])",
+    "abstract": "Linear time series models are the workhorse of structural macroeconometric analysis. However, economic theory as well as data suggests that nonlinear and asymmetric effects might be important to study to understand the potential effects of policy makers' choices. Taking a dynamical system view, this paper compares known approaches to construct impulse responses in nonlinear time series models and proposes a new approach that more directly relies on the underlying model properties. Nonparametric estimation of autoregressive models is discussed under natural physical dependence assumptions as well as inference for structural impulse responses.",
+    "link": "http://arxiv.org/abs/2305.19089",
+    "context": "Title: Impulse Response Analysis for Structural Nonlinear Time Series Models. (arXiv:2305.19089v1 [econ.EM])\nAbstract: Linear time series models are the workhorse of structural macroeconometric analysis. However, economic theory as well as data suggests that nonlinear and asymmetric effects might be important to study to understand the potential effects of policy makers' choices. Taking a dynamical system view, this paper compares known approaches to construct impulse responses in nonlinear time series models and proposes a new approach that more directly relies on the underlying model properties. Nonparametric estimation of autoregressive models is discussed under natural physical dependence assumptions as well as inference for structural impulse responses.",
+    "path": "papers/23/05/2305.19089.json",
+    "total_tokens": 709,
+    "translated_title": "结构非线性时间序列模型的脉冲响应分析",
+    "translated_abstract": "线性时间序列模型是结构宏观经济分析的重要工具，然而经济理论和实证数据都表明，非线性和不对称效应的研究也十分重要，以了解政策制定者的选择可能产生的影响。本文以动态系统视角，比较了已知的构建非线性时间序列模型脉冲响应的方法，并提出了一种更直接依赖于底层模型属性的新方法。讨论了在自然物理依赖假设下的自回归模型的非参数估计，以及结构脉冲响应的推断。",
+    "tldr": "本文研究非线性时间序列模型的脉冲响应分析，提出了一种新的更直接依赖于底层模型属性的方法，并讨论了相关的非参数估计和结构脉冲响应的推断。",
+    "en_tdlr": "This paper explores the impulse response analysis for structural nonlinear time series models, proposes a new approach that directly relies on the underlying model properties, and discusses the nonparametric estimation of autoregressive models as well as inference for structural impulse responses."
+}

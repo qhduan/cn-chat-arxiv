@@ -1,0 +1,12 @@
+{
+    "title": "Construction numbers: How to build a graph?. (arXiv:2302.13186v2 [math.CO] UPDATED)",
+    "abstract": "Counting the number of linear extensions of a partial order was considered by Stanley about 50 years ago. For the partial order on the vertices and edges of a graph determined by inclusion, we call such linear extensions {\\it construction sequences} for the graph as each edge follows both of its endpoints. The number of such sequences for paths, cycles, stars, double-stars, and complete graphs is found. For paths, we agree with Stanley (the Tangent numbers) and get formulas for the other classes. Structure and applications are also studied.",
+    "link": "http://arxiv.org/abs/2302.13186",
+    "context": "Title: Construction numbers: How to build a graph?. (arXiv:2302.13186v2 [math.CO] UPDATED)\nAbstract: Counting the number of linear extensions of a partial order was considered by Stanley about 50 years ago. For the partial order on the vertices and edges of a graph determined by inclusion, we call such linear extensions {\\it construction sequences} for the graph as each edge follows both of its endpoints. The number of such sequences for paths, cycles, stars, double-stars, and complete graphs is found. For paths, we agree with Stanley (the Tangent numbers) and get formulas for the other classes. Structure and applications are also studied.",
+    "path": "papers/23/02/2302.13186.json",
+    "total_tokens": 704,
+    "translated_title": "构造数：如何建立一个图形？",
+    "translated_abstract": "约50年前，斯坦利考虑了计算偏序的线性扩展数量问题。对于由包含关系确定的图形的顶点和边的偏序，我们称这样的线性扩展为图形的“构造序列”，因为每个边都遵循其两个端点。我们找到了路径、环、星形图、双星形图和完全图的此类序列数量。对于路径，我们认同斯坦利的想法（切线数），并得到了其他类型的公式。此外还研究了结构和应用。",
+    "tldr": "论文研究了计算偏序的线性扩展数量问题，并研究了由包含关系确定的图形的顶点和边的偏序，找到了路径、环、星形图、双星形图和完全图的构造序列数量，并提出了公式，同时研究了结构和应用。",
+    "en_tdlr": "The paper investigates the problem of counting the number of linear extensions of a partial order and studies the partial order on vertices and edges of graphs determined by inclusion. The paper finds the number of construction sequences for paths, cycles, stars, double-stars, and complete graphs and proposes formulas while studying their structure and applications."
+}

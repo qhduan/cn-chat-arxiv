@@ -1,0 +1,12 @@
+{
+    "title": "Reservoir optimization and Machine Learning methods. (arXiv:2106.08097v3 [math.OC] UPDATED)",
+    "abstract": "After showing the efficiency of feedforward networks to estimate control in high dimension in the global optimization of some storages problems, we develop a modification of an algorithm based on some dynamic programming principle. We show that classical feedforward networks are not effective to estimate Bellman values for reservoir problems and we propose some neural networks giving far better results. At last, we develop a new algorithm mixing LP resolution and conditional cuts calculated by neural networks to solve some stochastic linear problems.",
+    "link": "http://arxiv.org/abs/2106.08097",
+    "context": "Title: Reservoir optimization and Machine Learning methods. (arXiv:2106.08097v3 [math.OC] UPDATED)\nAbstract: After showing the efficiency of feedforward networks to estimate control in high dimension in the global optimization of some storages problems, we develop a modification of an algorithm based on some dynamic programming principle. We show that classical feedforward networks are not effective to estimate Bellman values for reservoir problems and we propose some neural networks giving far better results. At last, we develop a new algorithm mixing LP resolution and conditional cuts calculated by neural networks to solve some stochastic linear problems.",
+    "path": "papers/21/06/2106.08097.json",
+    "total_tokens": 630,
+    "translated_title": "库容优化和机器学习方法",
+    "translated_abstract": "在展示了前馈神经网络在高维度储存问题的全局优化中估计控制的效率后，我们开发了一种基于动态规划原理的算法修改。我们展示了经典的前馈神经网络无法有效地估计储罐问题的贝尔曼值，并提出了一些神经网络，其结果要好得多。最后，我们开发了一种新的算法，将LP解决方案与神经网络计算的条件割线混合在一起，以解决一些随机线性问题。",
+    "tldr": "该论文通过研究储罐问题，并提出神经网络来代替传统前馈神经网络以更好地估计贝尔曼值和混合算法解决一些随机线性问题，优化库容。",
+    "en_tdlr": "This paper studies reservoir problems, proposes neural networks to better estimate Bellman values, and develops a hybrid algorithm to optimize reservoir capacity and solve some stochastic linear problems."
+}

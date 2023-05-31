@@ -1,0 +1,12 @@
+{
+    "title": "Policy Synthesis and Reinforcement Learning for Discounted LTL. (arXiv:2305.17115v2 [cs.LO] UPDATED)",
+    "abstract": "The difficulty of manually specifying reward functions has led to an interest in using linear temporal logic (LTL) to express objectives for reinforcement learning (RL). However, LTL has the downside that it is sensitive to small perturbations in the transition probabilities, which prevents probably approximately correct (PAC) learning without additional assumptions. Time discounting provides a way of removing this sensitivity, while retaining the high expressivity of the logic. We study the use of discounted LTL for policy synthesis in Markov decision processes with unknown transition probabilities, and show how to reduce discounted LTL to discounted-sum reward via a reward machine when all discount factors are identical.",
+    "link": "http://arxiv.org/abs/2305.17115",
+    "context": "Title: Policy Synthesis and Reinforcement Learning for Discounted LTL. (arXiv:2305.17115v2 [cs.LO] UPDATED)\nAbstract: The difficulty of manually specifying reward functions has led to an interest in using linear temporal logic (LTL) to express objectives for reinforcement learning (RL). However, LTL has the downside that it is sensitive to small perturbations in the transition probabilities, which prevents probably approximately correct (PAC) learning without additional assumptions. Time discounting provides a way of removing this sensitivity, while retaining the high expressivity of the logic. We study the use of discounted LTL for policy synthesis in Markov decision processes with unknown transition probabilities, and show how to reduce discounted LTL to discounted-sum reward via a reward machine when all discount factors are identical.",
+    "path": "papers/23/05/2305.17115.json",
+    "total_tokens": 768,
+    "translated_title": "基于折扣线性时间逻辑的政策合成和强化学习",
+    "translated_abstract": "手动指定奖励函数的困难性使得使用线性时间逻辑（LTL）来表达强化学习（RL）目标成为研究热点。然而，LTL 的缺点是它对状态转移的微小扰动非常敏感，这阻碍了基于概率近似正确（PAC）的学习，除非采用额外的假设。时间折扣为消除这种敏感性提供了一种方式，同时保留了该逻辑的高表达力。我们研究了在具有未知状态转换概率的马尔可夫决策过程中使用折扣 LTL 进行政策合成的方法，并展示了如何通过奖励机器将折扣 LTL 降解为折扣和奖励之和，当所有折扣因子相同时。",
+    "tldr": "该论文研究使用折扣线性时间逻辑实现强化学习中的政策合成，并探讨如何减少其对状态转移的微小扰动的敏感性。",
+    "en_tdlr": "This paper studies policy synthesis in reinforcement learning using discounted linear temporal logic, and explores how to reduce its sensitivity to small perturbations in the transition probabilities."
+}

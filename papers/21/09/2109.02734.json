@@ -1,0 +1,12 @@
+{
+    "title": "Detecting Inspiring Content on Social Media. (arXiv:2109.02734v2 [cs.CL] UPDATED)",
+    "abstract": "Inspiration moves a person to see new possibilities and transforms the way they perceive their own potential. Inspiration has received little attention in psychology, and has not been researched before in the NLP community. To the best of our knowledge, this work is the first to study inspiration through machine learning methods. We aim to automatically detect inspiring content from social media data. To this end, we analyze social media posts to tease out what makes a post inspiring and what topics are inspiring. We release a dataset of 5,800 inspiring and 5,800 non-inspiring English-language public post unique ids collected from a dump of Reddit public posts made available by a third party and use linguistic heuristics to automatically detect which social media English-language posts are inspiring.",
+    "link": "http://arxiv.org/abs/2109.02734",
+    "context": "Title: Detecting Inspiring Content on Social Media. (arXiv:2109.02734v2 [cs.CL] UPDATED)\nAbstract: Inspiration moves a person to see new possibilities and transforms the way they perceive their own potential. Inspiration has received little attention in psychology, and has not been researched before in the NLP community. To the best of our knowledge, this work is the first to study inspiration through machine learning methods. We aim to automatically detect inspiring content from social media data. To this end, we analyze social media posts to tease out what makes a post inspiring and what topics are inspiring. We release a dataset of 5,800 inspiring and 5,800 non-inspiring English-language public post unique ids collected from a dump of Reddit public posts made available by a third party and use linguistic heuristics to automatically detect which social media English-language posts are inspiring.",
+    "path": "papers/21/09/2109.02734.json",
+    "total_tokens": 769,
+    "translated_title": "在社交媒体上检测启发性内容。",
+    "translated_abstract": "启发将一个人带到看到新的可能性，并转化他们感知自己潜力的方式。然而，在心理学领域，启发性几乎没有得到研究，这也是NLP社区没有研究过的内容。据我们所知，本文是第一篇使用机器学习方法研究启发性的工作。我们旨在自动检测社交媒体数据中的启发性内容。为此，我们分析社交媒体节目，以找出哪些内容可以启发人并确定哪些主题具有启发性。我们发布了一个数据集，其中包含5800条启发性和5800条非启发性的英语公共帖子独特的ID，这些帖子来自于Reddit公共帖子的转存，以协助使用语言启发来自动检测社交媒体的英语帖子。",
+    "tldr": "本研究尝试通过机器学习方法自动检测社交媒体上具有启发性的内容，首次将启发性引入NLP领域研究。",
+    "en_tdlr": "This study attempts to automatically detect inspiring content on social media using machine learning methods, and is the first to bring inspiration into the field of NLP research."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Bringing regularized optimal transport to lightspeed: a splitting method adapted for GPUs. (arXiv:2305.18483v1 [cs.LG])",
+    "abstract": "We present an efficient algorithm for regularized optimal transport. In contrast to previous methods, we use the Douglas-Rachford splitting technique to develop an efficient solver that can handle a broad class of regularizers. The algorithm has strong global convergence guarantees, low per-iteration cost, and can exploit GPU parallelization, making it considerably faster than the state-of-the-art for many problems. We illustrate its competitiveness in several applications, including domain adaptation and learning of generative models.",
+    "link": "http://arxiv.org/abs/2305.18483",
+    "context": "Title: Bringing regularized optimal transport to lightspeed: a splitting method adapted for GPUs. (arXiv:2305.18483v1 [cs.LG])\nAbstract: We present an efficient algorithm for regularized optimal transport. In contrast to previous methods, we use the Douglas-Rachford splitting technique to develop an efficient solver that can handle a broad class of regularizers. The algorithm has strong global convergence guarantees, low per-iteration cost, and can exploit GPU parallelization, making it considerably faster than the state-of-the-art for many problems. We illustrate its competitiveness in several applications, including domain adaptation and learning of generative models.",
+    "path": "papers/23/05/2305.18483.json",
+    "total_tokens": 653,
+    "translated_title": "将正则化最优输运带入高速：适用于GPU的分裂方法",
+    "translated_abstract": "我们提出了一种高效的正则化最优输运算法。与以前的方法不同，我们使用Douglas-Rachford分裂技术开发了一个高效的求解器，可以处理广泛的正则化器。该算法具有强大的全局收敛性保证，低迭代成本，并且可以利用GPU并行化，使其在许多问题上比现有技术快得多。我们在几个应用中阐述了其竞争力，包括领域自适应和生成模型的学习。",
+    "tldr": "该论文提出了一种高效的算法，使用分裂技术解决正则化最优输运问题，具有全局收敛性保证和GPU并行化优势，适用于多种应用领域。",
+    "en_tdlr": "The paper presents an efficient algorithm using splitting technique to solve regularized optimal transport problem with global convergence guarantees and GPU parallelization advantage, which can be applied to various fields, including domain adaptation and generative model learning."
+}

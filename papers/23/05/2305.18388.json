@@ -1,0 +1,12 @@
+{
+    "title": "The Statistical Benefits of Quantile Temporal-Difference Learning for Value Estimation. (arXiv:2305.18388v1 [cs.LG])",
+    "abstract": "We study the problem of temporal-difference-based policy evaluation in reinforcement learning. In particular, we analyse the use of a distributional reinforcement learning algorithm, quantile temporal-difference learning (QTD), for this task. We reach the surprising conclusion that even if a practitioner has no interest in the return distribution beyond the mean, QTD (which learns predictions about the full distribution of returns) may offer performance superior to approaches such as classical TD learning, which predict only the mean return, even in the tabular setting.",
+    "link": "http://arxiv.org/abs/2305.18388",
+    "context": "Title: The Statistical Benefits of Quantile Temporal-Difference Learning for Value Estimation. (arXiv:2305.18388v1 [cs.LG])\nAbstract: We study the problem of temporal-difference-based policy evaluation in reinforcement learning. In particular, we analyse the use of a distributional reinforcement learning algorithm, quantile temporal-difference learning (QTD), for this task. We reach the surprising conclusion that even if a practitioner has no interest in the return distribution beyond the mean, QTD (which learns predictions about the full distribution of returns) may offer performance superior to approaches such as classical TD learning, which predict only the mean return, even in the tabular setting.",
+    "path": "papers/23/05/2305.18388.json",
+    "total_tokens": 747,
+    "translated_title": "量化时间差分学习在价值估计中的统计优势",
+    "translated_abstract": "本文研究强化学习中基于时间差分的策略评估问题，特别是分析了一种分布式强化学习算法——量化时间差分学习（QTD）在这个任务中的应用。我们得出了一个惊人的结论：即使从实践者没有超过平均回报之外的回报分布的兴趣之处，在表格设置中，QTD（学习关于全部回报分布的预测）也可以提供比诸如传统TD学习（仅预测平均回报）等方法更好的性能。",
+    "tldr": "本文研究了强化学习中的时间差分策略评估问题，分析了量化时间差分学习算法在任务中的应用。结果表明，即使从实践者没有超过平均回报之外的回报分布的兴趣之处，在表格设置中，QTD也可以提供比传统TD学习等方法更好的性能。",
+    "en_tdlr": "This paper studies the problem of temporal-difference-based policy evaluation in reinforcement learning and analyzes the use of the quantile temporal-difference learning algorithm in this task. The surprising conclusion is that even if a practitioner has no interest in the return distribution beyond the mean, QTD may offer performance superior to classical TD learning, even in the tabular setting."
+}
