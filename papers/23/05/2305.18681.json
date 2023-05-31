@@ -1,0 +1,12 @@
+{
+    "title": "Efficient median of means estimator. (arXiv:2305.18681v1 [math.ST])",
+    "abstract": "The goal of this note is to present a modification of the popular median of means estimator that achieves sub-Gaussian deviation bounds with nearly optimal constants under minimal assumptions on the underlying distribution. We build on a recent work on the topic by the author, and prove that desired guarantees can be attained under weaker requirements.",
+    "link": "http://arxiv.org/abs/2305.18681",
+    "context": "Title: Efficient median of means estimator. (arXiv:2305.18681v1 [math.ST])\nAbstract: The goal of this note is to present a modification of the popular median of means estimator that achieves sub-Gaussian deviation bounds with nearly optimal constants under minimal assumptions on the underlying distribution. We build on a recent work on the topic by the author, and prove that desired guarantees can be attained under weaker requirements.",
+    "path": "papers/23/05/2305.18681.json",
+    "total_tokens": 527,
+    "translated_title": "高效的均值中位数估计器",
+    "translated_abstract": "本文的目标是介绍一种流行的均值中位数估计器的修改版，它在对底层分布的最小假设下实现亚高斯偏差界限和近乎最优常数。我们基于作者最近关于该主题的相关工作，并证明所需的保证可以在较弱的条件下获得。",
+    "tldr": "本文介绍了一种修改版的均值中位数估计器，可以在对底层分布的最小假设下实现亚高斯偏差界限和近乎最优常数。",
+    "en_tdlr": "This paper presents a modified version of the median of means estimator that achieves sub-Gaussian deviation bounds with nearly optimal constants under minimal assumptions on the underlying distribution."
+}

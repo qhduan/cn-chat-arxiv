@@ -11,7 +11,8 @@
 | [^7] | [Cost-benefit of green infrastructures for water management: A sustainability assessment of full-scale constructed wetlands in Northern and Southern Italy.](http://arxiv.org/abs/2305.06284) | 本研究评估了两个不同地理区域的人工湿地的可持续性，结果表明西西里岛的垂直地下流人工湿地在经济和社会效益方面更高，是该地区水资源管理更可持续的选择。 |
 | [^8] | [Non-equilibrium phase transitions in competitive markets caused by network effects.](http://arxiv.org/abs/2204.05314) | 本论文使用基于代理的模型研究了具有需求侧网络效应的竞争市场，发现随着网络效应的增强，市场会出现一种鲁棒的非平衡相，这种相变破坏了对称性和遍历性，同时在市场中展现出自发的价格波动、周期性市场占领事件和富人越来越富三个经验证实的现象。 |
 | [^9] | [The attachment of adult women to the Italian labour market in the shadow of COVID-19.](http://arxiv.org/abs/2202.13317) | 意大利30多岁有小孩的女性在COVID-19大流行中放弃了工作，成为了失业人士。研究表明这是由于特定的地区社会文化因素引起的，并可能对女性劳动力参与产生长期不利影响。 |
-| [^10] | [Entitled to Property: How Breaking the Gender Barrier Improves Child Health in India.](http://arxiv.org/abs/2106.10841) | 印度一项政策措施授予未婚妇女继承权，改善了儿童身高和体重，同时提高了母亲在家庭内的谈判能力，从而产生了更好的父母照顾和改善的儿童健康状况的效益。这表明，赋予妇女权利的政策可以对儿童的人力资本产生额外积极效应。 |
+| [^10] | [Inferring Economic Condition Uncertainty from Electricity Big Data.](http://arxiv.org/abs/2107.11593) | 本研究提出一种利用电力大数据测量经济不确定性的方法，构建出了可比较的经济状况不确定性指数，成功捕捉到了COVID-19对上海经济状况的负面影响，展示了不同地区和行业的异质性。 |
+| [^11] | [Entitled to Property: How Breaking the Gender Barrier Improves Child Health in India.](http://arxiv.org/abs/2106.10841) | 印度一项政策措施授予未婚妇女继承权，改善了儿童身高和体重，同时提高了母亲在家庭内的谈判能力，从而产生了更好的父母照顾和改善的儿童健康状况的效益。这表明，赋予妇女权利的政策可以对儿童的人力资本产生额外积极效应。 |
 
 # 详细
 
@@ -141,7 +142,21 @@
 
     We investigate the attachment to the labour market of women in their 30s, who are combining career and family choices, through their reactions to an exogenous, and potentially symmetric shock, such as the COVID-19 pandemic. We find that in Italy a large number of females with small children, living in the North, left permanent (and temporary) employment and became inactive in 2020. Despite the short period of observation after the burst of the pandemic, the identified impacts appear large and persistent, particularly with respect to the males of the same age. We argue that this evidence is ascribable to specific regional socio-cultural factors, which foreshadow a potential long-term detrimental impact on female labour force participation.
     
-[^10]: 拥有财产权：打破性别壁垒改善印度儿童健康状况
+[^10]: 从电力大数据中推断经济状况不确定性
+
+    Inferring Economic Condition Uncertainty from Electricity Big Data. (arXiv:2107.11593v2 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2107.11593](http://arxiv.org/abs/2107.11593)
+
+    本研究提出一种利用电力大数据测量经济不确定性的方法，构建出了可比较的经济状况不确定性指数，成功捕捉到了COVID-19对上海经济状况的负面影响，展示了不同地区和行业的异质性。
+
+    
+
+    推断经济状况的不确定性对于决策者和市场参与者都具有重要意义。本文提出了一种利用隐马尔可夫模型(HMM)测量经济不确定性的新方法。我们构建了一个无量纲指数，经济状况不确定性(ECU)指数，其范围从零到一，可在不同行业、地区和时期进行比较。我们使用2018年至2020年上海市18000多家企业的日用电量数据构建了ECU指数。结果表明，无论是在行业还是在地区层面上，所有的ECU指数都成功捕捉到了COVID-19对上海经济状况的负面影响。此外，ECU指数还展现了不同地区和不同行业的异质性。这反映了经济状况不确定性的变化主要与区域经济结构和行业面临的有针对性的监管政策有关。
+
+    Inferring the uncertainty in economic conditions is significant for both decision makers as well as market players. In this paper, we propose a novel approach to measure the economic uncertainties by using the Hidden Markov Model (HMM). We construct a dimensionless index, Economic Condition Uncertainty (ECU) index, which ranges from zero to one and is comparable among sectors, regions and periods. We used the daily electricity consumption data of more than 18,000 firms in Shanghai from 2018 to 2020 to construct the ECU indexes. Results show that all ECU indexes, whether at sectoral or regional level, successfully captured the negative impacts of COVID-19 on Shanghai's economic conditions. Besides, the ECU indexes also presented the heterogeneities in different districts as well as in different sectors. This reflects the facts that changes in the uncertainty of economic conditions are mainly related to regional economic structures and targeted regulatory policies faced by sectors. The E
+    
+[^11]: 拥有财产权：打破性别壁垒改善印度儿童健康状况
 
     Entitled to Property: How Breaking the Gender Barrier Improves Child Health in India. (arXiv:2106.10841v9 [econ.GN] UPDATED)
 
