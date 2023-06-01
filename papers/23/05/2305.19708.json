@@ -1,0 +1,12 @@
+{
+    "title": "Parameter Estimation Methods of Required Rate of Return. (arXiv:2305.19708v1 [q-fin.CP])",
+    "abstract": "In this study, we introduce new estimation methods for the required rate of returns on equity and liabilities of private and public companies using the stochastic dividend discount model (DDM). To estimate the required rate of return on equity, we use the maximum likelihood method, the Bayesian method, and the Kalman filtering. We also provide a method that evaluates the market values of liabilities. We apply the model to a set of firms from the S&P 500 index using historical dividend and price data over a 32--year period. Overall, the suggested methods can be used to estimate the required rate of returns.",
+    "link": "http://arxiv.org/abs/2305.19708",
+    "context": "Title: Parameter Estimation Methods of Required Rate of Return. (arXiv:2305.19708v1 [q-fin.CP])\nAbstract: In this study, we introduce new estimation methods for the required rate of returns on equity and liabilities of private and public companies using the stochastic dividend discount model (DDM). To estimate the required rate of return on equity, we use the maximum likelihood method, the Bayesian method, and the Kalman filtering. We also provide a method that evaluates the market values of liabilities. We apply the model to a set of firms from the S&P 500 index using historical dividend and price data over a 32--year period. Overall, the suggested methods can be used to estimate the required rate of returns.",
+    "path": "papers/23/05/2305.19708.json",
+    "total_tokens": 781,
+    "translated_title": "需要回报率的参数估计方法",
+    "translated_abstract": "本研究介绍了使用随机股利折现模型（DDM）对私营和上市公司的股权和负债需要回报率进行估计的新方法。为了估计股权需要回报率，我们使用最大似然方法、贝叶斯方法和卡尔曼滤波。我们还提供了评估负债市场价值的方法。我们将该模型应用于S&P 500指数的一组公司，使用历史股利和价格数据进行了为期32年的研究。总的来说，本研究提出的方法可用于估计所需的回报率。",
+    "tldr": "本研究提出了使用DDM模型对私营和上市公司的股权和负债所需回报率进行估计的新方法，其中包括最大似然方法、贝叶斯方法和卡尔曼滤波。该模型可用于S&P 500指数的公司的历史数据，以估算回报率和负债市场价值。",
+    "en_tdlr": "This study introduces new methods for estimating the required rate of returns on equity and liabilities of private and public companies using the stochastic dividend discount model (DDM), including the maximum likelihood method, the Bayesian method, and the Kalman filtering. The model can be applied to a set of firms from the S&P 500 index using historical dividend and price data over a 32-year period to estimate the required rate of returns and the market value of liabilities."
+}

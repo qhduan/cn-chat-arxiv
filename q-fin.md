@@ -5,12 +5,13 @@
 | [^1] | [Paradoxical Oddities in Two Multiwinner Elections from Scotland.](http://arxiv.org/abs/2305.20078) | 本文研究了苏格兰的两个多选举并找到了单调性悖论，无人出席和委员会大小悖论等异常现象。 |
 | [^2] | [Modeling and evaluating conditional quantile dynamics in VaR forecasts.](http://arxiv.org/abs/2305.20067) | 本文研究了VaR预测中条件分位数动态模型的建立与评估，通过仿真评估对称平均绝对偏差作为损失函数，以排名预测表现的优劣。实证应用中，采用移动预测窗口，在保持预测的分位数不变的情况下，以显着提高条件分位数的预测能力。 |
 | [^3] | [Proof-of-work consensus by quantum sampling.](http://arxiv.org/abs/2305.19865) | 本文提出了一种基于量子取样的工作量证明共识机制(CGBS-PoW)，采用Fock态和高斯波色子取样，具有巨大的加速和节能效益。 |
-| [^4] | [Deep into The Domain Shift: Transfer Learning through Dependence Regularization.](http://arxiv.org/abs/2305.19499) | 本文提出了一种新的领域适应方法，可以分别衡量内部相关结构的差异和边缘分布的差异， significantly improves the transfer learning performance. |
-| [^5] | [Practical algorithms and experimentally validated incentives for equilibrium-based fair division (A-CEEI).](http://arxiv.org/abs/2305.11406) | 本文介绍了基于均衡概念的公平分配算法A-CEEI，开发了一种新的启发式算法，使我们第一次能够对真实世界的输入进行实验。研究发现，即使在符合EF-TB和SP-L属性的现实实施中，代理也可能有惊人而合理的不真实报告偏离。 |
-| [^6] | [The Log Private Company Valuation Model.](http://arxiv.org/abs/2206.09666) | 本文提出了一种基于动态戈登增长模型的对数私人公司估值模型，其中包含闭合式期权定价公式、对冲公式以及权益连接寿险产品的净保费公式。该模型可用于私人公司和公共公司。 |
-| [^7] | [Rainbow Options under Bayesian MS-VAR Process.](http://arxiv.org/abs/2112.10447) | 本文提出了一种基于贝叶斯MS-VAR模型的彩虹期权和回顾期权的定价和对冲方法，该模型简单且依赖于经济变量。 |
-| [^8] | [Options Pricing under Bayesian MS-VAR Process.](http://arxiv.org/abs/2109.05998) | 本文研究了基于贝叶斯MS-VAR过程的期权定价方法，相较于先前依赖于切换过程的期权定价方法而言更加方便易用。 |
-| [^9] | [A default system with overspilling contagion.](http://arxiv.org/abs/1709.09255) | 这个论文扩展了传统的传染模型，允许一个违约系统对其环境产生传染性影响，该模型的创新在于债务人的违约对更全球经济具有影响。 |
+| [^4] | [Parameter Estimation Methods of Required Rate of Return.](http://arxiv.org/abs/2305.19708) | 本研究提出了使用DDM模型对私营和上市公司的股权和负债所需回报率进行估计的新方法，其中包括最大似然方法、贝叶斯方法和卡尔曼滤波。该模型可用于S&P 500指数的公司的历史数据，以估算回报率和负债市场价值。 |
+| [^5] | [Deep into The Domain Shift: Transfer Learning through Dependence Regularization.](http://arxiv.org/abs/2305.19499) | 本文提出了一种新的领域适应方法，可以分别衡量内部相关结构的差异和边缘分布的差异， significantly improves the transfer learning performance. |
+| [^6] | [Practical algorithms and experimentally validated incentives for equilibrium-based fair division (A-CEEI).](http://arxiv.org/abs/2305.11406) | 本文介绍了基于均衡概念的公平分配算法A-CEEI，开发了一种新的启发式算法，使我们第一次能够对真实世界的输入进行实验。研究发现，即使在符合EF-TB和SP-L属性的现实实施中，代理也可能有惊人而合理的不真实报告偏离。 |
+| [^7] | [The Log Private Company Valuation Model.](http://arxiv.org/abs/2206.09666) | 本文提出了一种基于动态戈登增长模型的对数私人公司估值模型，其中包含闭合式期权定价公式、对冲公式以及权益连接寿险产品的净保费公式。该模型可用于私人公司和公共公司。 |
+| [^8] | [Rainbow Options under Bayesian MS-VAR Process.](http://arxiv.org/abs/2112.10447) | 本文提出了一种基于贝叶斯MS-VAR模型的彩虹期权和回顾期权的定价和对冲方法，该模型简单且依赖于经济变量。 |
+| [^9] | [Options Pricing under Bayesian MS-VAR Process.](http://arxiv.org/abs/2109.05998) | 本文研究了基于贝叶斯MS-VAR过程的期权定价方法，相较于先前依赖于切换过程的期权定价方法而言更加方便易用。 |
+| [^10] | [A default system with overspilling contagion.](http://arxiv.org/abs/1709.09255) | 这个论文扩展了传统的传染模型，允许一个违约系统对其环境产生传染性影响，该模型的创新在于债务人的违约对更全球经济具有影响。 |
 
 # 详细
 
@@ -56,7 +57,21 @@
 
     Since its advent in 2011, boson-sampling has been a preferred candidate for demonstrating quantum advantage because of its simplicity and near-term requirements compared to other quantum algorithms. We propose to use a variant, called coarse-grained boson-sampling (CGBS), as a quantum Proof-of-Work (PoW) scheme for blockchain consensus. The users perform boson-sampling using input states that depend on the current block information, and commit their samples to the network. Afterward, CGBS strategies are determined which can be used to both validate samples and to reward successful miners. By combining rewards to miners committing honest samples together with penalties to miners committing dishonest samples, a Nash equilibrium is found that incentivizes honest nodes. The scheme works for both Fock state boson sampling and Gaussian boson sampling and provides dramatic speedup and energy savings relative to computation by classical hardware.
     
-[^4]: 基于相关性正则化的迁移学习：深入探究领域变换
+[^4]: 需要回报率的参数估计方法
+
+    Parameter Estimation Methods of Required Rate of Return. (arXiv:2305.19708v1 [q-fin.CP])
+
+    [http://arxiv.org/abs/2305.19708](http://arxiv.org/abs/2305.19708)
+
+    本研究提出了使用DDM模型对私营和上市公司的股权和负债所需回报率进行估计的新方法，其中包括最大似然方法、贝叶斯方法和卡尔曼滤波。该模型可用于S&P 500指数的公司的历史数据，以估算回报率和负债市场价值。
+
+    
+
+    本研究介绍了使用随机股利折现模型（DDM）对私营和上市公司的股权和负债需要回报率进行估计的新方法。为了估计股权需要回报率，我们使用最大似然方法、贝叶斯方法和卡尔曼滤波。我们还提供了评估负债市场价值的方法。我们将该模型应用于S&P 500指数的一组公司，使用历史股利和价格数据进行了为期32年的研究。总的来说，本研究提出的方法可用于估计所需的回报率。
+
+    In this study, we introduce new estimation methods for the required rate of returns on equity and liabilities of private and public companies using the stochastic dividend discount model (DDM). To estimate the required rate of return on equity, we use the maximum likelihood method, the Bayesian method, and the Kalman filtering. We also provide a method that evaluates the market values of liabilities. We apply the model to a set of firms from the S&P 500 index using historical dividend and price data over a 32--year period. Overall, the suggested methods can be used to estimate the required rate of returns.
+    
+[^5]: 基于相关性正则化的迁移学习：深入探究领域变换
 
     Deep into The Domain Shift: Transfer Learning through Dependence Regularization. (arXiv:2305.19499v1 [cs.LG])
 
@@ -70,7 +85,7 @@
 
     Classical Domain Adaptation methods acquire transferability by regularizing the overall distributional discrepancies between features in the source domain (labeled) and features in the target domain (unlabeled). They often do not differentiate whether the domain differences come from the marginals or the dependence structures. In many business and financial applications, the labeling function usually has different sensitivities to the changes in the marginals versus changes in the dependence structures. Measuring the overall distributional differences will not be discriminative enough in acquiring transferability. Without the needed structural resolution, the learned transfer is less optimal. This paper proposes a new domain adaptation approach in which one can measure the differences in the internal dependence structure separately from those in the marginals. By optimizing the relative weights among them, the new regularization strategy greatly relaxes the rigidness of the existing ap
     
-[^5]: 基于均衡概念的公平分配的实用算法和实验证明（A-CEEI）
+[^6]: 基于均衡概念的公平分配的实用算法和实验证明（A-CEEI）
 
     Practical algorithms and experimentally validated incentives for equilibrium-based fair division (A-CEEI). (arXiv:2305.11406v1 [cs.GT])
 
@@ -84,7 +99,7 @@
 
     Approximate Competitive Equilibrium from Equal Incomes (A-CEEI) is an equilibrium-based solution concept for fair division of discrete items to agents with combinatorial demands. In theory, it is known that in asymptotically large markets:  1. For incentives, the A-CEEI mechanism is Envy-Free-but-for-Tie-Breaking (EF-TB), which implies that it is Strategyproof-in-the-Large (SP-L).  2. From a computational perspective, computing the equilibrium solution is unfortunately a computationally intractable problem (in the worst-case, assuming $\textsf{PPAD}\ne \textsf{FP}$).  We develop a new heuristic algorithm that outperforms the previous state-of-the-art by multiple orders of magnitude. This new, faster algorithm lets us perform experiments on real-world inputs for the first time. We discover that with real-world preferences, even in a realistic implementation that satisfies the EF-TB and SP-L properties, agents may have surprisingly simple and plausible deviations from truthful reporting 
     
-[^6]: 对数私人公司估值模型
+[^7]: 对数私人公司估值模型
 
     The Log Private Company Valuation Model. (arXiv:2206.09666v3 [q-fin.MF] UPDATED)
 
@@ -98,7 +113,7 @@
 
     For a public company, the option pricing models, hedging models, and pricing and hedging models of equity--linked life insurance products have been developed. However, for a private company, because of unobserved prices, the option and the life insurance pricing, and the hedging are challenging tasks. For this reason, this paper introduces a log private company valuation model, which is based on the dynamic Gordon growth model. In this paper, we obtain closed-form option pricing formulas, hedging formulas, and net premium formulas of equity-linked life insurance products for a private company. Also, the paper provides ML estimators of our model, EM algorithm, and valuation formula for the private company. The suggested model can be used not only by private companies but also by public companies
     
-[^7]: 基于贝叶斯MS-VAR过程的彩虹期权
+[^8]: 基于贝叶斯MS-VAR过程的彩虹期权
 
     Rainbow Options under Bayesian MS-VAR Process. (arXiv:2112.10447v3 [q-fin.MF] UPDATED)
 
@@ -112,7 +127,7 @@
 
     This paper presents pricing and hedging methods for rainbow options and lookback options under Bayesian Markov-Switching Vector Autoregressive (MS--VAR) process. Here we assumed that a regime-switching process is generated by a homogeneous Markov process. An advantage of our model is it depends on economic variables and simple as compared with previous existing papers.
     
-[^8]: 基于贝叶斯MS-VAR过程的期权定价方法
+[^9]: 基于贝叶斯MS-VAR过程的期权定价方法
 
     Options Pricing under Bayesian MS-VAR Process. (arXiv:2109.05998v3 [q-fin.MF] UPDATED)
 
@@ -126,7 +141,7 @@
 
     In this paper, we have studied option pricing methods that are based on a Bayesian Markov-Switching Vector Autoregressive (MS--BVAR) process using a risk-neutral valuation approach. A BVAR process, which is a special case of the Bayesian MS--VAR process is widely used to model interdependencies of economic variables and forecast economic variables. Here we assumed that a regime-switching process is generated by a homogeneous Markov process and a residual process follows a conditional heteroscedastic model. With a direct calculation and change of probability measure, for some frequently used options, we derived pricing formulas. An advantage of our model is it depends on economic variables and is easy to use compared to previous option pricing papers, which depend on regime-switching.
     
-[^9]: 带溢出传染的违约系统
+[^10]: 带溢出传染的违约系统
 
     A default system with overspilling contagion. (arXiv:1709.09255v3 [q-fin.MF] UPDATED)
 

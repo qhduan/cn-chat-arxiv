@@ -1,0 +1,12 @@
+{
+    "title": "Unlocking Slot Attention by Changing Optimal Transport Costs. (arXiv:2301.13197v2 [cs.LG] UPDATED)",
+    "abstract": "Slot attention is a powerful method for object-centric modeling in images and videos. However, its set-equivariance limits its ability to handle videos with a dynamic number of objects because it cannot break ties. To overcome this limitation, we first establish a connection between slot attention and optimal transport. Based on this new perspective we propose MESH (Minimize Entropy of Sinkhorn): a cross-attention module that combines the tiebreaking properties of unregularized optimal transport with the speed of regularized optimal transport. We evaluate slot attention using MESH on multiple object-centric learning benchmarks and find significant improvements over slot attention in every setting.",
+    "link": "http://arxiv.org/abs/2301.13197",
+    "context": "Title: Unlocking Slot Attention by Changing Optimal Transport Costs. (arXiv:2301.13197v2 [cs.LG] UPDATED)\nAbstract: Slot attention is a powerful method for object-centric modeling in images and videos. However, its set-equivariance limits its ability to handle videos with a dynamic number of objects because it cannot break ties. To overcome this limitation, we first establish a connection between slot attention and optimal transport. Based on this new perspective we propose MESH (Minimize Entropy of Sinkhorn): a cross-attention module that combines the tiebreaking properties of unregularized optimal transport with the speed of regularized optimal transport. We evaluate slot attention using MESH on multiple object-centric learning benchmarks and find significant improvements over slot attention in every setting.",
+    "path": "papers/23/01/2301.13197.json",
+    "total_tokens": 721,
+    "translated_title": "修改最优传输成本以解锁 Slot Attention 能力",
+    "translated_abstract": "Slot Attention 是在图像和视频中进行物体中心建模的强大方法。然而，它的集合等变性限制了处理动态数量物体视频的能力，因为它无法打破并列关系。为了克服这个限制，作者首先建立了 Slot Attention 与最优传输之间的联系。基于这个新视角，作者提出了 MESH（Minimize Entropy of Sinkhorn）：一个交叉关注模块，它将未规范化的最优传输的打破并列关系的特性与规范化最优传输的速度结合起来。作者使用 MESH 评估了 Slot Attention 并在多个物体中心学习基准测试中发现在每种情况下与 Slot Attention 相比有显着提高。",
+    "tldr": "本文提出了 MESH，一个交叉关注模块，用于解锁 Slot Attention 对于动态数量物体视频建模的能力，并在多个基准测试中显著提高了模型表现。",
+    "en_tdlr": "The paper proposes MESH, a cross-attention module, to unlock the ability of Slot Attention for modeling videos with dynamic number of objects and achieve significant improvements over Slot Attention in multiple benchmarks."
+}
