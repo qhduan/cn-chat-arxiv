@@ -1,0 +1,12 @@
+{
+    "title": "On the Linear Convergence of Policy Gradient under Hadamard Parameterization. (arXiv:2305.19575v1 [math.OC])",
+    "abstract": "The convergence of deterministic policy gradient under the Hadamard parametrization is studied in the tabular setting and the global linear convergence of the algorithm is established. To this end, we first show that the error decreases at an $O(\\frac{1}{k})$ rate for all the iterations. Based on this result, we further show that the algorithm has a faster local linear convergence rate after $k_0$ iterations, where $k_0$ is a constant that only depends on the MDP problem and the step size. Overall, the algorithm displays a linear convergence rate for all the iterations with a loose constant than that for the local linear convergence rate.",
+    "link": "http://arxiv.org/abs/2305.19575",
+    "context": "Title: On the Linear Convergence of Policy Gradient under Hadamard Parameterization. (arXiv:2305.19575v1 [math.OC])\nAbstract: The convergence of deterministic policy gradient under the Hadamard parametrization is studied in the tabular setting and the global linear convergence of the algorithm is established. To this end, we first show that the error decreases at an $O(\\frac{1}{k})$ rate for all the iterations. Based on this result, we further show that the algorithm has a faster local linear convergence rate after $k_0$ iterations, where $k_0$ is a constant that only depends on the MDP problem and the step size. Overall, the algorithm displays a linear convergence rate for all the iterations with a loose constant than that for the local linear convergence rate.",
+    "path": "papers/23/05/2305.19575.json",
+    "total_tokens": 741,
+    "translated_title": "关于Hadamard参数化下策略梯度的线性收敛性.",
+    "translated_abstract": "本文研究了在表格式设置下Hadamard参数化下确定性策略梯度的收敛性，并建立了算法的全局线性收敛性。为此，我们首先证明了错误在所有迭代中以$O(\\frac{1}{k})$的速率下降。基于这个结果，我们进一步证明了该算法在$k_0$次迭代之后具有更快的局部线性收敛速度，其中$k_0$是仅依赖于MDP问题和步长的常数。总体而言，该算法显示了一个较弱常数的线性收敛率，而不仅仅是局部线性收敛率。",
+    "tldr": "本文研究了Hadamard参数化下策略梯度的收敛性，证明了算法具有全局线性收敛性和局部线性收敛速度更快的性质。",
+    "en_tdlr": "This paper studies the convergence of deterministic policy gradient under Hadamard parametrization in the tabular setting and establishes the algorithm's global linear convergence. The authors prove that the algorithm has a faster local linear convergence rate after a certain number of iterations and display a linear convergence rate for all iterations with a loose constant."
+}

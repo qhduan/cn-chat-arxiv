@@ -1,0 +1,12 @@
+{
+    "title": "Adverbs, Surprisingly. (arXiv:2305.19650v1 [cs.CL])",
+    "abstract": "This paper begins with the premise that adverbs are neglected in computational linguistics. This view derives from two analyses: a literature review and a novel adverb dataset to probe a state-of-the-art language model, thereby uncovering systematic gaps in accounts for adverb meaning. We suggest that using Frame Semantics for characterizing word meaning, as in FrameNet, provides a promising approach to adverb analysis, given its ability to describe ambiguity, semantic roles, and null instantiation.",
+    "link": "http://arxiv.org/abs/2305.19650",
+    "context": "Title: Adverbs, Surprisingly. (arXiv:2305.19650v1 [cs.CL])\nAbstract: This paper begins with the premise that adverbs are neglected in computational linguistics. This view derives from two analyses: a literature review and a novel adverb dataset to probe a state-of-the-art language model, thereby uncovering systematic gaps in accounts for adverb meaning. We suggest that using Frame Semantics for characterizing word meaning, as in FrameNet, provides a promising approach to adverb analysis, given its ability to describe ambiguity, semantic roles, and null instantiation.",
+    "path": "papers/23/05/2305.19650.json",
+    "total_tokens": 639,
+    "translated_title": "惊人地，副词在计算语言学中被忽视了 (arXiv:2305.19650v1 [cs.CL])",
+    "translated_abstract": "本文的出发点是副词在计算语言学中被忽略了。这个观点来源于两个分析：一是文献综述，二是一个新颖的副词数据集，用于验证最新的语言模型，从而揭示了有关副词含义的系统性空缺。我们建议使用框架语义学来表征单词含义，例如FrameNet，提供了一种有前途的副词分析方法，因其能描述模糊性、语义角色和空值实例化。",
+    "tldr": "本文发现计算语言学中副词的相关分析存在系统性空缺，在框架语义学（如FrameNet）的帮助下提出了一种有前途的副词分析方法。",
+    "en_tdlr": "This paper uncovers systematic gaps in adverb analysis in computational linguistics and proposes a promising approach using Frame Semantics, such as FrameNet."
+}

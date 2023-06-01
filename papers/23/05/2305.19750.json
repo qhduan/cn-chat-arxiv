@@ -1,0 +1,12 @@
+{
+    "title": "Text-to-Speech Pipeline for Swiss German -- A comparison. (arXiv:2305.19750v1 [cs.CL])",
+    "abstract": "In this work, we studied the synthesis of Swiss German speech using different Text-to-Speech (TTS) models. We evaluated the TTS models on three corpora, and we found, that VITS models performed best, hence, using them for further testing. We also introduce a new method to evaluate TTS models by letting the discriminator of a trained vocoder GAN model predict whether a given waveform is human or synthesized. In summary, our best model delivers speech synthesis for different Swiss German dialects with previously unachieved quality.",
+    "link": "http://arxiv.org/abs/2305.19750",
+    "context": "Title: Text-to-Speech Pipeline for Swiss German -- A comparison. (arXiv:2305.19750v1 [cs.CL])\nAbstract: In this work, we studied the synthesis of Swiss German speech using different Text-to-Speech (TTS) models. We evaluated the TTS models on three corpora, and we found, that VITS models performed best, hence, using them for further testing. We also introduce a new method to evaluate TTS models by letting the discriminator of a trained vocoder GAN model predict whether a given waveform is human or synthesized. In summary, our best model delivers speech synthesis for different Swiss German dialects with previously unachieved quality.",
+    "path": "papers/23/05/2305.19750.json",
+    "total_tokens": 699,
+    "translated_title": "瑞士德语语音合成流程--一项比较研究",
+    "translated_abstract": "本研究旨在使用不同的文本到语音（TTS）模型合成瑞士德语语音。我们对三个语料库的TTS模型进行了评估，发现VITS模型表现最佳，因此将其用于进一步测试。我们还介绍了一种新的方法，通过让训练好的vocoder GAN模型的鉴别器预测给定波形是人类生成的还是合成的来评估TTS模型。总之，我们的最佳模型能够以前所未有的质量为不同的瑞士德语方言提供语音合成。",
+    "tldr": "本研究通过比较不同的文本到语音（TTS）模型，最终实现了对瑞士德语方言进行高质量语音合成，并介绍了一项新的TTS模型评估方法。",
+    "en_tdlr": "This study compares different Text-to-Speech (TTS) models to synthesize Swiss German speech and proposes a new method to evaluate TTS models. The best TTS model achieved previously unachieved quality in speech synthesis for different Swiss German dialects."
+}

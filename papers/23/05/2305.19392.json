@@ -1,0 +1,11 @@
+{
+    "title": "DuoSearch: A Novel Search Engine for Bulgarian Historical Documents. (arXiv:2305.19392v1 [cs.IR])",
+    "abstract": "Search in collections of digitised historical documents is hindered by a two-prong problem, orthographic variety and optical character recognition (OCR) mistakes. We present a new search engine for historical documents, DuoSearch, which uses ElasticSearch and machine learning methods based on deep neural networks to offer a solution to this problem. It was tested on a collection of historical newspapers in Bulgarian from the mid-19th to the mid-20th century. The system provides an interactive and intuitive interface for the end-users allowing them to enter search terms in modern Bulgarian and search across historical spellings. This is the first solution facilitating the use of digitised historical documents in Bulgarian.",
+    "link": "http://arxiv.org/abs/2305.19392",
+    "context": "Title: DuoSearch: A Novel Search Engine for Bulgarian Historical Documents. (arXiv:2305.19392v1 [cs.IR])\nAbstract: Search in collections of digitised historical documents is hindered by a two-prong problem, orthographic variety and optical character recognition (OCR) mistakes. We present a new search engine for historical documents, DuoSearch, which uses ElasticSearch and machine learning methods based on deep neural networks to offer a solution to this problem. It was tested on a collection of historical newspapers in Bulgarian from the mid-19th to the mid-20th century. The system provides an interactive and intuitive interface for the end-users allowing them to enter search terms in modern Bulgarian and search across historical spellings. This is the first solution facilitating the use of digitised historical documents in Bulgarian.",
+    "path": "papers/23/05/2305.19392.json",
+    "total_tokens": 816,
+    "translated_title": "DuoSearch：一种用于保加利亚历史文件的新型搜索引擎",
+    "translated_abstract": "数字化历史文献的搜索存在正字法变体和字符识别错误两大问题。本文提出了一种新的历史文件搜索引擎——DuoSearch，它使用ElasticSearch和基于深度神经网络的机器学习方法，提供了解决这个问题的方案。该系统在保加利亚中期到20世纪中期的历史报纸集合上进行了测试，为最终用户提供了交互式和直观的界面，允许他们以现代保加利亚语输入搜索词并跨历史拼写进行搜索。这是首个易于使用数字化保加利亚历史文献的解决方案。",
+    "tldr": "本文提出了一种新的历史文件搜索引擎DuoSearch，该引擎使用神经网络机器学习方法解决数字化历史文献搜索中的正字法变体和字符识别错误问题，并成功应用于保加利亚中期到20世纪中期的历史报纸集合。"
+}

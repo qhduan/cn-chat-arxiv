@@ -1,0 +1,12 @@
+{
+    "title": "An Efficient Machine Learning-based Channel Prediction Technique for OFDM Sub-Bands. (arXiv:2305.19696v1 [cs.IT])",
+    "abstract": "The acquisition of accurate channel state information (CSI) is of utmost importance since it provides performance improvement of wireless communication systems. However, acquiring accurate CSI, which can be done through channel estimation or channel prediction, is an intricate task due to the complexity of the time-varying and frequency selectivity of the wireless environment. To this end, we propose an efficient machine learning (ML)-based technique for channel prediction in orthogonal frequency-division multiplexing (OFDM) sub-bands. The novelty of the proposed approach lies in the training of channel fading samples used to estimate future channel behaviour in selective fading.",
+    "link": "http://arxiv.org/abs/2305.19696",
+    "context": "Title: An Efficient Machine Learning-based Channel Prediction Technique for OFDM Sub-Bands. (arXiv:2305.19696v1 [cs.IT])\nAbstract: The acquisition of accurate channel state information (CSI) is of utmost importance since it provides performance improvement of wireless communication systems. However, acquiring accurate CSI, which can be done through channel estimation or channel prediction, is an intricate task due to the complexity of the time-varying and frequency selectivity of the wireless environment. To this end, we propose an efficient machine learning (ML)-based technique for channel prediction in orthogonal frequency-division multiplexing (OFDM) sub-bands. The novelty of the proposed approach lies in the training of channel fading samples used to estimate future channel behaviour in selective fading.",
+    "path": "papers/23/05/2305.19696.json",
+    "total_tokens": 695,
+    "translated_title": "一种高效的基于机器学习的OFDM子带信道预测技术",
+    "translated_abstract": "准确的信道状态信息（CSI）的获取对于提高无线通信系统的性能至关重要。但是，由于无线环境的时变性和频率选择性的复杂性，获得精确的CSI（可以通过信道估计或信道预测实现）是一项复杂的任务。为此，我们提出了一种在正交频分复用（OFDM）子带中进行信道预测的高效机器学习（ML）技术。所提出的方法的创新之处在于训练用于估计选择性衰落中未来信道行为的信道衰落样本。",
+    "tldr": "这篇论文提出了一种基于机器学习训练信道衰落样本的OFDM子带信道预测技术，可用于估计选择性衰落中未来信道行为。",
+    "en_tdlr": "This paper proposes an efficient machine learning-based technique for channel prediction in OFDM sub-bands by training channel fading samples, which can be used to estimate future channel behavior in selective fading."
+}

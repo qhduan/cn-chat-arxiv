@@ -1,0 +1,12 @@
+{
+    "title": "On the Computational Power of Decoder-Only Transformer Language Models. (arXiv:2305.17026v2 [cs.CL] UPDATED)",
+    "abstract": "This article presents a theoretical evaluation of the computational universality of decoder-only transformer models. We extend the theoretical literature on transformer models and show that decoder-only transformer architectures (even with only a single layer and single attention head) are Turing complete under reasonable assumptions. From the theoretical analysis, we show sparsity/compressibility of the word embedding to be a necessary condition for Turing completeness to hold.",
+    "link": "http://arxiv.org/abs/2305.17026",
+    "context": "Title: On the Computational Power of Decoder-Only Transformer Language Models. (arXiv:2305.17026v2 [cs.CL] UPDATED)\nAbstract: This article presents a theoretical evaluation of the computational universality of decoder-only transformer models. We extend the theoretical literature on transformer models and show that decoder-only transformer architectures (even with only a single layer and single attention head) are Turing complete under reasonable assumptions. From the theoretical analysis, we show sparsity/compressibility of the word embedding to be a necessary condition for Turing completeness to hold.",
+    "path": "papers/23/05/2305.17026.json",
+    "total_tokens": 613,
+    "translated_title": "论解码器Transformer语言模型的计算能力",
+    "translated_abstract": "本文章对解码器Transformer模型的计算普适性进行了理论评估。我们扩展了Transformer模型的理论文献，并表明仅使用单层和单注意力头的解码器Transformer结构，在合理假设下具备图灵完备性。从理论分析中，我们证明了单词嵌入的稀疏性/可压缩性是图灵完备性成立的必要条件。",
+    "tldr": "本篇论文研究了解码器Transformer语言模型的计算普适性，表明即使只有单层和单注意力头，仍然具有图灵完备性，其中单词嵌入的稀疏性/可压缩性是必要条件。",
+    "en_tdlr": "This paper evaluates the computational universality of decoder-only transformer models and shows that even with a single layer and single attention head, they are Turing complete. The sparsity/compressibility of word embedding is a necessary condition for Turing completeness to hold."
+}

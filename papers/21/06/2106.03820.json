@@ -1,0 +1,11 @@
+{
+    "title": "Accurate Shapley Values for explaining tree-based models. (arXiv:2106.03820v3 [stat.ML] UPDATED)",
+    "abstract": "Shapley Values (SV) are widely used in explainable AI, but their estimation and interpretation can be challenging, leading to inaccurate inferences and explanations. As a starting point, we remind an invariance principle for SV and derive the correct approach for computing the SV of categorical variables that are particularly sensitive to the encoding used. In the case of tree-based models, we introduce two estimators of Shapley Values that exploit the tree structure efficiently and are more accurate than state-of-the-art methods. Simulations and comparisons are performed with state-of-the-art algorithms and show the practical gain of our approach. Finally, we discuss the limitations of Shapley Values as a local explanation. These methods are available as a Python package.",
+    "link": "http://arxiv.org/abs/2106.03820",
+    "context": "Title: Accurate Shapley Values for explaining tree-based models. (arXiv:2106.03820v3 [stat.ML] UPDATED)\nAbstract: Shapley Values (SV) are widely used in explainable AI, but their estimation and interpretation can be challenging, leading to inaccurate inferences and explanations. As a starting point, we remind an invariance principle for SV and derive the correct approach for computing the SV of categorical variables that are particularly sensitive to the encoding used. In the case of tree-based models, we introduce two estimators of Shapley Values that exploit the tree structure efficiently and are more accurate than state-of-the-art methods. Simulations and comparisons are performed with state-of-the-art algorithms and show the practical gain of our approach. Finally, we discuss the limitations of Shapley Values as a local explanation. These methods are available as a Python package.",
+    "path": "papers/21/06/2106.03820.json",
+    "total_tokens": 701,
+    "translated_title": "解释树模型的准确Shapley值",
+    "translated_abstract": "Shapley值广泛用于可解释的人工智能，但它们的估计和解释可能具有挑战性，导致不准确的推论和解释。本文提出了两种基于树结构的Shapley值估计器，利用树结构高效地计算Shapley值，比现有方法更准确。通过与最先进的算法进行模拟和比较，展示了我们方法的实际收益。最后，我们讨论了Shapley值作为局部解释的局限性。这些方法可以作为Python包使用。",
+    "tldr": "本文提出了在树模型中计算Shapley值的两种更准确的估计器，相比于现有方法可以更高效地利用树结构，并探讨了Shapley值作为局部解释的局限性。"
+}

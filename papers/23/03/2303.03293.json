@@ -1,0 +1,12 @@
+{
+    "title": "On Hierarchical Multi-Resolution Graph Generative Models. (arXiv:2303.03293v2 [cs.LG] UPDATED)",
+    "abstract": "In real world domains, most graphs naturally exhibit a hierarchical structure. However, data-driven graph generation is yet to effectively capture such structures. To address this, we propose a novel approach that recursively generates community structures at multiple resolutions, with the generated structures conforming to training data distribution at each level of the hierarchy. The graphs generation is designed as a sequence of coarse-to-fine generative models allowing for parallel generation of all sub-structures, resulting in a high degree of scalability. Our method demonstrates generative performance improvement on multiple graph datasets.",
+    "link": "http://arxiv.org/abs/2303.03293",
+    "context": "Title: On Hierarchical Multi-Resolution Graph Generative Models. (arXiv:2303.03293v2 [cs.LG] UPDATED)\nAbstract: In real world domains, most graphs naturally exhibit a hierarchical structure. However, data-driven graph generation is yet to effectively capture such structures. To address this, we propose a novel approach that recursively generates community structures at multiple resolutions, with the generated structures conforming to training data distribution at each level of the hierarchy. The graphs generation is designed as a sequence of coarse-to-fine generative models allowing for parallel generation of all sub-structures, resulting in a high degree of scalability. Our method demonstrates generative performance improvement on multiple graph datasets.",
+    "path": "papers/23/03/2303.03293.json",
+    "total_tokens": 722,
+    "translated_title": "关于分层多分辨率图生成模型的研究",
+    "translated_abstract": "在现实世界中，大部分的图都具有层次结构。然而，数据驱动的图生成仍然没有有效地捕捉到这种结构。为了解决这个问题，我们提出了一种新颖的方法，以多个分辨率递归地生成社区结构，生成的结构在每个层次结构上，都符合训练数据的分布。图的生成被设计为一系列由粗到细的生成模型，允许所有子结构的并行生成，从而实现高度的可扩展性。我们的方法在多个图数据集上展示了生成性能的提升。",
+    "tldr": "本文提出一种新颖的分层多分辨率图生成模型，能递归地生成多个层次的社区结构，并符合训练数据分布。该方法由粗到细地生成图，同时具有高度的可扩展性，提升了生成性能。",
+    "en_tdlr": "This paper proposes a novel hierarchical multi-resolution graph generative model that recursively generates community structures at multiple resolutions, conforming to training data distribution. The method generates graphs from coarse to fine through a sequence of generative models, allowing for parallel generation of all sub-structures, resulting in enhanced generative performance on multiple graph datasets."
+}

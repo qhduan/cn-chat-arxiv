@@ -1,0 +1,12 @@
+{
+    "title": "Observation Denoising in CYRUS Soccer Simulation 2D Team For RoboCup 2023. (arXiv:2305.19283v1 [cs.AI])",
+    "abstract": "The RoboCup competitions hold various leagues, and the Soccer Simulation 2D League is a major one among them. Soccer Simulation 2D (SS2D) match involves two teams, including 11 players and a coach, competing against each other. The players can only communicate with the Soccer Simulation Server during the game. This paper presents the latest research of the CYRUS soccer simulation 2D team, the champion of RoboCup 2021. We will explain our denoising idea powered by long short-term memory networks (LSTM) and deep neural networks (DNN). The CYRUS team uses the CYRUS2D base code that was developed based on the Helios and Gliders bases.",
+    "link": "http://arxiv.org/abs/2305.19283",
+    "context": "Title: Observation Denoising in CYRUS Soccer Simulation 2D Team For RoboCup 2023. (arXiv:2305.19283v1 [cs.AI])\nAbstract: The RoboCup competitions hold various leagues, and the Soccer Simulation 2D League is a major one among them. Soccer Simulation 2D (SS2D) match involves two teams, including 11 players and a coach, competing against each other. The players can only communicate with the Soccer Simulation Server during the game. This paper presents the latest research of the CYRUS soccer simulation 2D team, the champion of RoboCup 2021. We will explain our denoising idea powered by long short-term memory networks (LSTM) and deep neural networks (DNN). The CYRUS team uses the CYRUS2D base code that was developed based on the Helios and Gliders bases.",
+    "path": "papers/23/05/2305.19283.json",
+    "total_tokens": 755,
+    "translated_title": "CYRUS足球模拟2D团队在RoboCup 2023中的观察去噪",
+    "translated_abstract": "RoboCup比赛有多个联盟，其中Soccer Simulation 2D联盟是一个主要联盟。Soccer Simulation 2D（SS2D）比赛涉及两个团队，包括11名球员和一名教练互相竞争。比赛期间球员只能与Soccer Simulation服务器通信。本文介绍了CYRUS足球模拟2D团队的最新研究，他们是RoboCup2021的冠军。我们将解释我们的去噪思路，它由长短期记忆网络（LSTM）和深度神经网络（DNN）提供支持。CYRUS团队使用了基于Helios和Gliders开发的CYRUS2D基础代码。",
+    "tldr": "CYRUS足球模拟2D团队采用LSTM和DNN提出观察去噪思路，达成RoboCup 2021的冠军。",
+    "en_tdlr": "The CYRUS soccer simulation 2D team, using LSTM and DNN techniques, presents an observation denoising idea and achieved championship in RoboCup 2021."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Analyzing Text Representations by Measuring Task Alignment. (arXiv:2305.19747v1 [cs.CL])",
+    "abstract": "Textual representations based on pre-trained language models are key, especially in few-shot learning scenarios. What makes a representation good for text classification? Is it due to the geometric properties of the space or because it is well aligned with the task? We hypothesize the second claim. To test it, we develop a task alignment score based on hierarchical clustering that measures alignment at different levels of granularity. Our experiments on text classification validate our hypothesis by showing that task alignment can explain the classification performance of a given representation.",
+    "link": "http://arxiv.org/abs/2305.19747",
+    "context": "Title: Analyzing Text Representations by Measuring Task Alignment. (arXiv:2305.19747v1 [cs.CL])\nAbstract: Textual representations based on pre-trained language models are key, especially in few-shot learning scenarios. What makes a representation good for text classification? Is it due to the geometric properties of the space or because it is well aligned with the task? We hypothesize the second claim. To test it, we develop a task alignment score based on hierarchical clustering that measures alignment at different levels of granularity. Our experiments on text classification validate our hypothesis by showing that task alignment can explain the classification performance of a given representation.",
+    "path": "papers/23/05/2305.19747.json",
+    "total_tokens": 640,
+    "translated_title": "通过测量任务对齐性分析文本表示",
+    "translated_abstract": "基于预训练语言模型的文本表示对于少样本学习至关重要。什么使得文本分类的表示更好？是因为空间的几何属性还是因为它与任务有良好的对齐性？我们提出了第二种假设。为了测试，我们开发了一种基于层次聚类的任务对齐得分方法，在不同粒度级别上度量对齐性。我们的文本分类实验验证了我们的假设，证明任务对齐可以解释给定表示的分类性能。",
+    "tldr": "文章研究了文本表示对于分类任务表现的影响，并提出了任务对齐得分方法来度量对齐性，验证了任务对齐性对于表示的分类性能有决定性的影响。",
+    "en_tdlr": "The paper investigates the impact of text representations on classification tasks and proposes a task alignment score to measure alignment, validating the hypothesis that task alignment is crucial for classification performance of the representation."
+}

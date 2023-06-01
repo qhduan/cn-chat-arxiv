@@ -1,0 +1,12 @@
+{
+    "title": "Uncertainty in Real-Time Semantic Segmentation on Embedded Systems. (arXiv:2301.01201v3 [cs.CV] UPDATED)",
+    "abstract": "Application for semantic segmentation models in areas such as autonomous vehicles and human computer interaction require real-time predictive capabilities. The challenges of addressing real-time application is amplified by the need to operate on resource constrained hardware. Whilst development of real-time methods for these platforms has increased, these models are unable to sufficiently reason about uncertainty present. This paper addresses this by combining deep feature extraction from pre-trained models with Bayesian regression and moment propagation for uncertainty aware predictions. We demonstrate how the proposed method can yield meaningful uncertainty on embedded hardware in real-time whilst maintaining predictive performance.",
+    "link": "http://arxiv.org/abs/2301.01201",
+    "context": "Title: Uncertainty in Real-Time Semantic Segmentation on Embedded Systems. (arXiv:2301.01201v3 [cs.CV] UPDATED)\nAbstract: Application for semantic segmentation models in areas such as autonomous vehicles and human computer interaction require real-time predictive capabilities. The challenges of addressing real-time application is amplified by the need to operate on resource constrained hardware. Whilst development of real-time methods for these platforms has increased, these models are unable to sufficiently reason about uncertainty present. This paper addresses this by combining deep feature extraction from pre-trained models with Bayesian regression and moment propagation for uncertainty aware predictions. We demonstrate how the proposed method can yield meaningful uncertainty on embedded hardware in real-time whilst maintaining predictive performance.",
+    "path": "papers/23/01/2301.01201.json",
+    "total_tokens": 727,
+    "translated_title": "嵌入式系统实时语义分割中的不确定性",
+    "translated_abstract": "语义分割模型在自动驾驶和人机交互等领域的应用需要实时预测能力。实时应用的挑战被资源受限的硬件所加剧。虽然这些平台上实时方法的开发得到了增加，但这些模型无法足够地考虑到存在的不确定性。本文通过将预先训练模型的深层特征提取与贝叶斯回归和动量传播相结合，提出了一种关注不确定性的预测方法。我们演示了该方法如何在嵌入式硬件上实时产生有意义的不确定性，同时保持预测性能。",
+    "tldr": "本文提出了一种结合贝叶斯回归和动量传播的预测方法，能够实时在嵌入式硬件上产生有意义的不确定性，从而使语义分割模型在自动驾驶和人机交互等领域的实时应用成为可能。",
+    "en_tdlr": "This paper proposes a prediction method that combines Bayesian regression and moment propagation to produce meaningful uncertainty in real-time on embedded hardware for semantic segmentation models, thus enabling real-time applications in areas such as autonomous vehicles and human computer interaction."
+}

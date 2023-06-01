@@ -1,0 +1,12 @@
+{
+    "title": "Distance Rank Score: Unsupervised filter method for feature selection on imbalanced dataset. (arXiv:2305.19804v1 [stat.ML])",
+    "abstract": "This paper presents a new filter method for unsupervised feature selection. This method is particularly effective on imbalanced multi-class dataset, as in case of clusters of different anomaly types. Existing methods usually involve the variance of the features, which is not suitable when the different types of observations are not represented equally. Our method, based on Spearman's Rank Correlation between distances on the observations and on feature values, avoids this drawback. The performance of the method is measured on several clustering problems and is compared with existing filter methods suitable for unsupervised data.",
+    "link": "http://arxiv.org/abs/2305.19804",
+    "context": "Title: Distance Rank Score: Unsupervised filter method for feature selection on imbalanced dataset. (arXiv:2305.19804v1 [stat.ML])\nAbstract: This paper presents a new filter method for unsupervised feature selection. This method is particularly effective on imbalanced multi-class dataset, as in case of clusters of different anomaly types. Existing methods usually involve the variance of the features, which is not suitable when the different types of observations are not represented equally. Our method, based on Spearman's Rank Correlation between distances on the observations and on feature values, avoids this drawback. The performance of the method is measured on several clustering problems and is compared with existing filter methods suitable for unsupervised data.",
+    "path": "papers/23/05/2305.19804.json",
+    "total_tokens": 692,
+    "translated_title": "距离排名分数：不平衡数据集上无监督特征选择的滤波器方法",
+    "translated_abstract": "本文提出了一种新的无监督特征选择的滤波器方法。该方法在不平衡的多类数据集上特别有效，如不同异常类型的群集中。现有方法通常涉及特征的方差，当不同类型的观测没有被平等地表示时，这种方法并不适用。我们的方法基于观测与特征值之间的Spearman排名相关性，避免了这种缺点。该方法的性能通过多个聚类问题进行了测试，并与适用于无监督数据的现有滤波器方法进行了比较。",
+    "tldr": "本文提出了一种新的滤波器方法，能有效处理不平衡多类数据集上的特征选择问题，它基于Spearman排名相关性而不是特征方差。",
+    "en_tdlr": "This paper proposes a new filter method based on Spearman's rank correlation for unsupervised feature selection, which is more suitable for imbalanced multi-class dataset compared to existing methods that rely on feature variance. The method is evaluated on several clustering problems."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Bigger, Better, Faster: Human-level Atari with human-level efficiency. (arXiv:2305.19452v1 [cs.LG])",
+    "abstract": "We introduce a value-based RL agent, which we call BBF, that achieves super-human performance in the Atari 100K benchmark. BBF relies on scaling the neural networks used for value estimation, as well as a number of other design choices that enable this scaling in a sample-efficient manner. We conduct extensive analyses of these design choices and provide insights for future work. We end with a discussion about updating the goalposts for sample-efficient RL research on the ALE. We make our code and data publicly available at https://github.com/google-research/google-research/tree/master/bigger_better_faster.",
+    "link": "http://arxiv.org/abs/2305.19452",
+    "context": "Title: Bigger, Better, Faster: Human-level Atari with human-level efficiency. (arXiv:2305.19452v1 [cs.LG])\nAbstract: We introduce a value-based RL agent, which we call BBF, that achieves super-human performance in the Atari 100K benchmark. BBF relies on scaling the neural networks used for value estimation, as well as a number of other design choices that enable this scaling in a sample-efficient manner. We conduct extensive analyses of these design choices and provide insights for future work. We end with a discussion about updating the goalposts for sample-efficient RL research on the ALE. We make our code and data publicly available at https://github.com/google-research/google-research/tree/master/bigger_better_faster.",
+    "path": "papers/23/05/2305.19452.json",
+    "total_tokens": 740,
+    "translated_title": "更大、更好、更快：具有人类效率的人类级Atari游戏",
+    "translated_abstract": "我们引入了一个名为BBF的基于价值函数的强化学习代理来实现Atari 100K基准测试的超人类表现。BBF依靠神经网络的价值估计扩展以及其他设计选择，在遵循样本高效的情况下，能够实现这种扩展。我们对这些设计选择进行了广泛的分析并为未来的工作提供了洞见。最后，我们讨论了更新ALE上样本高效的RL研究目标的问题。我们将我们的代码和数据公开在https://github.com/google-research/google-research/tree/master/bigger_better_faster。",
+    "tldr": "引入BBF基于价值函数的RL代理，在Atari 100K基准测试上实现超人类表现，具有人类效率，提出了在样本高效RL研究的ALE中更新目标的可能。",
+    "en_tdlr": "Introducing a value-based RL agent, BBF, achieving super-human performance in Atari 100K benchmark, with human-level efficiency. Scaling neural networks for value estimation and other design choices enable the scaling in a sample-efficient manner. Discussion on updating goalposts for sample-efficient RL research on ALE and code and data publicly available at https://github.com/google-research/google-research/tree/master/bigger_better_faster."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Fully Dynamic Submodular Maximization over Matroids. (arXiv:2305.19918v1 [cs.DS])",
+    "abstract": "Maximizing monotone submodular functions under a matroid constraint is a classic algorithmic problem with multiple applications in data mining and machine learning. We study this classic problem in the fully dynamic setting, where elements can be both inserted and deleted in real-time. Our main result is a randomized algorithm that maintains an efficient data structure with an $\\tilde{O}(k^2)$ amortized update time (in the number of additions and deletions) and yields a $4$-approximate solution, where $k$ is the rank of the matroid.",
+    "link": "http://arxiv.org/abs/2305.19918",
+    "context": "Title: Fully Dynamic Submodular Maximization over Matroids. (arXiv:2305.19918v1 [cs.DS])\nAbstract: Maximizing monotone submodular functions under a matroid constraint is a classic algorithmic problem with multiple applications in data mining and machine learning. We study this classic problem in the fully dynamic setting, where elements can be both inserted and deleted in real-time. Our main result is a randomized algorithm that maintains an efficient data structure with an $\\tilde{O}(k^2)$ amortized update time (in the number of additions and deletions) and yields a $4$-approximate solution, where $k$ is the rank of the matroid.",
+    "path": "papers/23/05/2305.19918.json",
+    "total_tokens": 720,
+    "translated_title": "在拟阵上完全动态子模最大化问题",
+    "translated_abstract": "在数据挖掘和机器学习中，最大化拟阵限制下的单调子模函数是一个具有多个应用的经典算法问题。本文研究了在完全动态的情况下，即元素可以实时地被插入和删除的情况下的这个问题。我们的主要结果是一种随机算法，它维护了一种高效的数据结构，其摊销更新时间为$\\tilde{O}(k^2)$（在添加和删除次数上），并产生了一个$4$近似解，其中$k$是拟阵的秩。",
+    "tldr": "本论文研究了在元素可以实时地被插入和删除的情况下，最大化拟阵限制下的单调子模函数问题，提出了一种随机算法，时间复杂度为$\\tilde{O}(k^2)$，可以产生一个$4$近似解。"
+}

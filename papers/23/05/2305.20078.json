@@ -1,0 +1,12 @@
+{
+    "title": "Paradoxical Oddities in Two Multiwinner Elections from Scotland. (arXiv:2305.20078v1 [econ.GN])",
+    "abstract": "Ranked-choice voting anomalies such as monotonicity paradoxes have been extensively studied through creating hypothetical examples and generating elections under various models of voter behavior. However, very few real-world examples of such voting paradoxes have been found and analyzed. We investigate two single-transferable vote elections from Scotland that demonstrate upward monotonicity, downward monotonicity, no-show, and committee size paradoxes. These paradoxes are rarely observed in real-world elections, and this article is the first case study of such paradoxes in multiwinner elections.",
+    "link": "http://arxiv.org/abs/2305.20078",
+    "context": "Title: Paradoxical Oddities in Two Multiwinner Elections from Scotland. (arXiv:2305.20078v1 [econ.GN])\nAbstract: Ranked-choice voting anomalies such as monotonicity paradoxes have been extensively studied through creating hypothetical examples and generating elections under various models of voter behavior. However, very few real-world examples of such voting paradoxes have been found and analyzed. We investigate two single-transferable vote elections from Scotland that demonstrate upward monotonicity, downward monotonicity, no-show, and committee size paradoxes. These paradoxes are rarely observed in real-world elections, and this article is the first case study of such paradoxes in multiwinner elections.",
+    "path": "papers/23/05/2305.20078.json",
+    "total_tokens": 690,
+    "translated_title": "苏格兰两个多胜选举中的悖论奇异性",
+    "translated_abstract": "以排名投票方式为基础的选举中，单调性悖论等异常现象经过创建假设性示例并在多种选民行为模型下生成选举已得到广泛研究。但是，在真实世界中很少发现并分析到这样的投票悖论。本文研究了苏格兰的两个单记名选票选举，这些选举展示了单调性, 无人出席和委员会大小的悖论。这些悖论在真实世界选举中很少被观察到，这篇文章是关于多胜选举中此类悖论的第一个案例研究。",
+    "tldr": "本文研究了苏格兰的两个多选举并找到了单调性悖论，无人出席和委员会大小悖论等异常现象。",
+    "en_tdlr": "This article investigates two multiwinner elections from Scotland and finds anomalies such as monotonicity paradoxes, no-show, and committee size paradoxes, which are rarely seen in real-world elections."
+}

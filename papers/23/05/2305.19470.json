@@ -1,0 +1,12 @@
+{
+    "title": "Label Embedding by Johnson-Lindenstrauss Matrices. (arXiv:2305.19470v1 [cs.LG])",
+    "abstract": "We present a simple and scalable framework for extreme multiclass classification based on Johnson-Lindenstrauss matrices (JLMs). Using the columns of a JLM to embed the labels, a $C$-class classification problem is transformed into a regression problem with $\\cO(\\log C)$ output dimension. We derive an excess risk bound, revealing a tradeoff between computational efficiency and prediction accuracy, and further show that under the Massart noise condition, the penalty for dimension reduction vanishes. Our approach is easily parallelizable, and experimental results demonstrate its effectiveness and scalability in large-scale applications.",
+    "link": "http://arxiv.org/abs/2305.19470",
+    "context": "Title: Label Embedding by Johnson-Lindenstrauss Matrices. (arXiv:2305.19470v1 [cs.LG])\nAbstract: We present a simple and scalable framework for extreme multiclass classification based on Johnson-Lindenstrauss matrices (JLMs). Using the columns of a JLM to embed the labels, a $C$-class classification problem is transformed into a regression problem with $\\cO(\\log C)$ output dimension. We derive an excess risk bound, revealing a tradeoff between computational efficiency and prediction accuracy, and further show that under the Massart noise condition, the penalty for dimension reduction vanishes. Our approach is easily parallelizable, and experimental results demonstrate its effectiveness and scalability in large-scale applications.",
+    "path": "papers/23/05/2305.19470.json",
+    "total_tokens": 684,
+    "translated_title": "用Johnson-Lindenstrauss矩阵进行标签嵌入",
+    "translated_abstract": "我们提出了一个基于Johnson-Lindenstrauss矩阵（JLMs）的简单且可扩展的极端多元分类框架。利用JLM的列来嵌入标签，将一个C类分类问题转化为具有$\\cO(\\log C)$输出维度的回归问题。我们得出了一个超量风险限制，阐明了计算效率和预测准确性之间的权衡，并进一步表明，在Massart噪声条件下，降维的惩罚会消失。我们的方法易于并行化，并且实验结果展示了在大规模应用中其有效性和可扩展性。",
+    "tldr": "这篇论文提出了基于JLMs的标签嵌入方法，将多元分类问题转化为有限回归问题，具有较高的计算效率和预测准确性。",
+    "en_tdlr": "This paper proposes a labeling embedding technique based on Johnson-Lindenstrauss matrices (JLMs) that transforms a multi-class classification problem into a limited regression problem with high computational efficiency and prediction accuracy."
+}

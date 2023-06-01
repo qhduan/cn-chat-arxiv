@@ -1,0 +1,12 @@
+{
+    "title": "Comparison of Multilingual Self-Supervised and Weakly-Supervised Speech Pre-Training for Adaptation to Unseen Languages. (arXiv:2305.12606v2 [cs.CL] UPDATED)",
+    "abstract": "Recent models such as XLS-R and Whisper have made multilingual speech technologies more accessible by pre-training on audio from around 100 spoken languages each. However, there are thousands of spoken languages worldwide, and adapting to new languages is an important problem. In this work, we aim to understand which model adapts better to languages unseen during pre-training. We fine-tune both models on 13 unseen languages and 18 seen languages. Our results show that the number of hours seen per language and language family during pre-training is predictive of how the models compare, despite the significant differences in the pre-training methods.",
+    "link": "http://arxiv.org/abs/2305.12606",
+    "context": "Title: Comparison of Multilingual Self-Supervised and Weakly-Supervised Speech Pre-Training for Adaptation to Unseen Languages. (arXiv:2305.12606v2 [cs.CL] UPDATED)\nAbstract: Recent models such as XLS-R and Whisper have made multilingual speech technologies more accessible by pre-training on audio from around 100 spoken languages each. However, there are thousands of spoken languages worldwide, and adapting to new languages is an important problem. In this work, we aim to understand which model adapts better to languages unseen during pre-training. We fine-tune both models on 13 unseen languages and 18 seen languages. Our results show that the number of hours seen per language and language family during pre-training is predictive of how the models compare, despite the significant differences in the pre-training methods.",
+    "path": "papers/23/05/2305.12606.json",
+    "total_tokens": 766,
+    "translated_title": "自监督和弱监督多语言语音预训练在适应未知语言方面的比较研究",
+    "translated_abstract": "最近的一些模型(如XLS-R和Whisper)通过对来自大约100种语言的音频进行预训练，使得多语言语音技术更加易用。然而，世界上有成千上万种语言，适应新语言是一个重要的问题。本研究旨在了解哪种模型更好地适应预训练时未见过的语言。我们在13种未见过的语言和18种已见过的语言上微调了两种模型。我们的结果表明，预训练期间每种语言及其语系出现的小时数可以预测模型的比较结果，尽管预训练方法存在显著差异。",
+    "tldr": "本研究比较了自监督和弱监督多语言语音预训练在适应未知语言方面的效果，发现预训练期间每种语言及其语系出现的小时数可以预测模型的比较结果。",
+    "en_tdlr": "This study compares the effectiveness of multilingual self-supervised and weakly-supervised speech pre-training in adapting to unseen languages，finding that the number of hours seen per language and language family during pre-training can predict how the models compare."
+}

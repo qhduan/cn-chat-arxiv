@@ -1,0 +1,12 @@
+{
+    "title": "Modeling and evaluating conditional quantile dynamics in VaR forecasts. (arXiv:2305.20067v1 [q-fin.RM])",
+    "abstract": "We focus on the time-varying modeling of VaR at a given coverage $\\tau$, assessing whether the quantiles of the distribution of the returns standardized by their conditional means and standard deviations exhibit predictable dynamics. Models are evaluated via simulation, determining the merits of the asymmetric Mean Absolute Deviation as a loss function to rank forecast performances. The empirical application on the Fama-French 25 value-weighted portfolios with a moving forecast window shows substantial improvements in forecasting conditional quantiles by keeping the predicted quantile unchanged unless the empirical frequency of violations falls outside a data-driven interval around $\\tau$.",
+    "link": "http://arxiv.org/abs/2305.20067",
+    "context": "Title: Modeling and evaluating conditional quantile dynamics in VaR forecasts. (arXiv:2305.20067v1 [q-fin.RM])\nAbstract: We focus on the time-varying modeling of VaR at a given coverage $\\tau$, assessing whether the quantiles of the distribution of the returns standardized by their conditional means and standard deviations exhibit predictable dynamics. Models are evaluated via simulation, determining the merits of the asymmetric Mean Absolute Deviation as a loss function to rank forecast performances. The empirical application on the Fama-French 25 value-weighted portfolios with a moving forecast window shows substantial improvements in forecasting conditional quantiles by keeping the predicted quantile unchanged unless the empirical frequency of violations falls outside a data-driven interval around $\\tau$.",
+    "path": "papers/23/05/2305.20067.json",
+    "total_tokens": 790,
+    "translated_title": "VaR预测中条件分位数动态模型的建立与评估",
+    "translated_abstract": "我们专注于对于给定置信水平 τ，VaR的时变建模，评价标准是由条件均值和标准差标准化的收益率分布的分位数是否表现出可预测的动态特征。模型通过仿真进行评估，通过评估对称平均绝对偏差作为损失函数，以排名预测表现的优劣。在 Fama-French 25 等权重组合的实证应用中，采用移动预测窗口，在保持预测的分位数不变的情况下，除非违规的经验频率落在一个数据驱动的τ周围的区间之外，以显着提高条件分位数的预测能力。",
+    "tldr": "本文研究了VaR预测中条件分位数动态模型的建立与评估，通过仿真评估对称平均绝对偏差作为损失函数，以排名预测表现的优劣。实证应用中，采用移动预测窗口，在保持预测的分位数不变的情况下，以显着提高条件分位数的预测能力。",
+    "en_tdlr": "This paper focuses on modeling and evaluating conditional quantile dynamics in VaR forecasts and shows substantial improvement in forecasting conditional quantiles by keeping the predicted quantile unchanged unless the empirical frequency of violations falls outside a data-driven interval around the given coverage level."
+}

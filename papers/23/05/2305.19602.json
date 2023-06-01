@@ -1,0 +1,12 @@
+{
+    "title": "Learning Music Sequence Representation from Text Supervision. (arXiv:2305.19602v1 [cs.SD])",
+    "abstract": "Music representation learning is notoriously difficult for its complex human-related concepts contained in the sequence of numerical signals. To excavate better MUsic SEquence Representation from labeled audio, we propose a novel text-supervision pre-training method, namely MUSER. MUSER adopts an audio-spectrum-text tri-modal contrastive learning framework, where the text input could be any form of meta-data with the help of text templates while the spectrum is derived from an audio sequence. Our experiments reveal that MUSER could be more flexibly adapted to downstream tasks compared with the current data-hungry pre-training method, and it only requires 0.056% of pre-training data to achieve the state-of-the-art performance.",
+    "link": "http://arxiv.org/abs/2305.19602",
+    "context": "Title: Learning Music Sequence Representation from Text Supervision. (arXiv:2305.19602v1 [cs.SD])\nAbstract: Music representation learning is notoriously difficult for its complex human-related concepts contained in the sequence of numerical signals. To excavate better MUsic SEquence Representation from labeled audio, we propose a novel text-supervision pre-training method, namely MUSER. MUSER adopts an audio-spectrum-text tri-modal contrastive learning framework, where the text input could be any form of meta-data with the help of text templates while the spectrum is derived from an audio sequence. Our experiments reveal that MUSER could be more flexibly adapted to downstream tasks compared with the current data-hungry pre-training method, and it only requires 0.056% of pre-training data to achieve the state-of-the-art performance.",
+    "path": "papers/23/05/2305.19602.json",
+    "total_tokens": 769,
+    "translated_title": "从文本监督中学习音乐序列表示",
+    "translated_abstract": "音乐表示学习因其在数字信号序列中包含复杂的与人类相关的概念而闻名困难。为了从有标签的音频中挖掘更好的音乐序列表示，我们提出了一种新颖的文本监督预训练方法，名为MUSER。MUSER采用音频-频谱-文本三模态对比学习框架，在该框架中，文本输入可以是任何形式的元数据，借助文本模板进行帮助，而频谱是从音频序列中派生出来的。我们的实验揭示出，与目前的数据密集型预训练方法相比，MUSER可以更灵活地适应下游任务，且只需要使用0.056%的预训练数据即可实现最先进的性能。",
+    "tldr": "该论文提出一种新颖的文本监督预训练方法MUSER，能够更灵活地适应下游任务，且只需要使用0.056%的预训练数据即可实现最先进的性能。",
+    "en_tdlr": "The paper proposes a novel text-supervision pre-training method called MUSER that can be more flexibly adapted to downstream tasks and achieve state-of-the-art performance with only 0.056% of pre-training data."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "A default system with overspilling contagion. (arXiv:1709.09255v3 [q-fin.MF] UPDATED)",
+    "abstract": "In classical contagion models, default systems are Markovian conditionally on the observation of their stochastic environment, with interacting intensities. This necessitates that the environment evolves autonomously and is not influenced by the history of the default events. We extend the classical literature and allow a default system to have a contagious impact on its environment. In our framework, contagion can either be contained within the default system (i.e., direct contagion from a counterparty to another) or spill from the default system over its environment (indirect contagion). This type of model is of interest whenever one wants to capture within a model possible impacts of the defaults of a class of debtors on the more global economy and vice versa.",
+    "link": "http://arxiv.org/abs/1709.09255",
+    "context": "Title: A default system with overspilling contagion. (arXiv:1709.09255v3 [q-fin.MF] UPDATED)\nAbstract: In classical contagion models, default systems are Markovian conditionally on the observation of their stochastic environment, with interacting intensities. This necessitates that the environment evolves autonomously and is not influenced by the history of the default events. We extend the classical literature and allow a default system to have a contagious impact on its environment. In our framework, contagion can either be contained within the default system (i.e., direct contagion from a counterparty to another) or spill from the default system over its environment (indirect contagion). This type of model is of interest whenever one wants to capture within a model possible impacts of the defaults of a class of debtors on the more global economy and vice versa.",
+    "path": "papers/17/09/1709.09255.json",
+    "total_tokens": 776,
+    "translated_title": "带溢出传染的违约系统",
+    "translated_abstract": "在传统的传染模型中，违约系统在观测其随机环境条件下是马尔可夫过程，具有相互作用的强度。这要求环境自主演化，并且不受历史违约事件的影响。我们扩展了传统文献，并允许违约系统对其环境产生传染性影响。在我们的框架中，传染性可以被包含在违约系统内（即，从一对手到另一对手的直接传染），也可以从违约系统溢出到其环境中（间接传染）。每当需要在一个模型中捕捉某一类债务人的违约对更全球经济及其反向可能产生影响时，这种模型就具有兴趣。",
+    "tldr": "这个论文扩展了传统的传染模型，允许一个违约系统对其环境产生传染性影响，该模型的创新在于债务人的违约对更全球经济具有影响。",
+    "en_tdlr": "This paper extends the traditional contagion models by allowing a default system to have a contagious impact on its environment, which is of interest whenever the defaults of a class of debtors can have impacts on the more global economy."
+}

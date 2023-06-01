@@ -1,0 +1,12 @@
+{
+    "title": "Large language models improve Alzheimer's disease diagnosis using multi-modality data. (arXiv:2305.19280v1 [cs.LG])",
+    "abstract": "In diagnosing challenging conditions such as Alzheimer's disease (AD), imaging is an important reference. Non-imaging patient data such as patient information, genetic data, medication information, cognitive and memory tests also play a very important role in diagnosis. Effect. However, limited by the ability of artificial intelligence models to mine such information, most of the existing models only use multi-modal image data, and cannot make full use of non-image data. We use a currently very popular pre-trained large language model (LLM) to enhance the model's ability to utilize non-image data, and achieved SOTA results on the ADNI dataset.",
+    "link": "http://arxiv.org/abs/2305.19280",
+    "context": "Title: Large language models improve Alzheimer's disease diagnosis using multi-modality data. (arXiv:2305.19280v1 [cs.LG])\nAbstract: In diagnosing challenging conditions such as Alzheimer's disease (AD), imaging is an important reference. Non-imaging patient data such as patient information, genetic data, medication information, cognitive and memory tests also play a very important role in diagnosis. Effect. However, limited by the ability of artificial intelligence models to mine such information, most of the existing models only use multi-modal image data, and cannot make full use of non-image data. We use a currently very popular pre-trained large language model (LLM) to enhance the model's ability to utilize non-image data, and achieved SOTA results on the ADNI dataset.",
+    "path": "papers/23/05/2305.19280.json",
+    "total_tokens": 687,
+    "translated_title": "大型语言模型改善多模态数据诊断阿尔茨海默病",
+    "translated_abstract": "在诊断像阿尔茨海默病（AD）这样的艰难病症时，影像是一个重要的参考。非影像患者数据（例如患者信息、遗传数据、药物信息、认知和记忆测试）在诊断中也起着非常重要的作用。然而，由于人工智能模型挖掘这些信息的能力受限，大部分现有模型只能使用多模态影像数据，而不能充分利用非影像数据。我们使用目前非常流行的预训练大型语言模型（LLM），以增强模型使用非影像数据的能力，并在ADNI数据集上实现了SOTA的结果。",
+    "tldr": "本研究使用大型语言模型提高对非影像数据的应用能力，并在ADNI数据集上实现了SOTA结果。",
+    "en_tdlr": "This study uses large language models to improve the ability to use non-image data and achieves SOTA results on the ADNI dataset."
+}

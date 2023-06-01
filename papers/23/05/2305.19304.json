@@ -1,0 +1,12 @@
+{
+    "title": "Audio classification using ML methods. (arXiv:2305.19304v1 [cs.SD])",
+    "abstract": "Machine Learning systems have achieved outstanding performance in different domains. In this paper machine learning methods have been applied to classification task to classify music genre. The code shows how to extract features from audio files and classify them using supervised learning into 2 genres namely classical and metal. Algorithms used are LogisticRegression, SVC using different kernals (linear, sigmoid, rbf and poly), KNeighborsClassifier , RandomForestClassifier, DecisionTreeClassifier and GaussianNB.",
+    "link": "http://arxiv.org/abs/2305.19304",
+    "context": "Title: Audio classification using ML methods. (arXiv:2305.19304v1 [cs.SD])\nAbstract: Machine Learning systems have achieved outstanding performance in different domains. In this paper machine learning methods have been applied to classification task to classify music genre. The code shows how to extract features from audio files and classify them using supervised learning into 2 genres namely classical and metal. Algorithms used are LogisticRegression, SVC using different kernals (linear, sigmoid, rbf and poly), KNeighborsClassifier , RandomForestClassifier, DecisionTreeClassifier and GaussianNB.",
+    "path": "papers/23/05/2305.19304.json",
+    "total_tokens": 618,
+    "translated_title": "使用机器学习方法进行音频分类",
+    "translated_abstract": "机器学习系统在不同领域中取得了出色的性能。本文将机器学习方法应用于音乐类型分类任务。该代码展示了如何从音频文件中提取特征，并使用监督学习将它们分为两个类型，即古典音乐和金属乐。所使用的算法包括逻辑回归、使用不同核（线性、sigmoid、rbf和poly）的支持向量机、K近邻分类器、随机森林分类器、决策树分类器和高斯贝叶斯分类器。",
+    "tldr": "本文介绍了如何利用机器学习方法对音乐类型进行分类，并展示了使用不同算法的分类结果。分类器将音乐类型分为古典音乐和金属乐。",
+    "en_tdlr": "This paper introduces how to classify music genres using machine learning methods, and demonstrates the classification results using different algorithms. The classifier separates music into two types: classical and metal."
+}

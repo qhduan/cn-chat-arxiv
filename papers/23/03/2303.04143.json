@@ -1,0 +1,12 @@
+{
+    "title": "Can We Scale Transformers to Predict Parameters of Diverse ImageNet Models?. (arXiv:2303.04143v2 [cs.LG] UPDATED)",
+    "abstract": "Pretraining a neural network on a large dataset is becoming a cornerstone in machine learning that is within the reach of only a few communities with large-resources. We aim at an ambitious goal of democratizing pretraining. Towards that goal, we train and release a single neural network that can predict high quality ImageNet parameters of other neural networks. By using predicted parameters for initialization we are able to boost training of diverse ImageNet models available in PyTorch. When transferred to other datasets, models initialized with predicted parameters also converge faster and reach competitive final performance.",
+    "link": "http://arxiv.org/abs/2303.04143",
+    "context": "Title: Can We Scale Transformers to Predict Parameters of Diverse ImageNet Models?. (arXiv:2303.04143v2 [cs.LG] UPDATED)\nAbstract: Pretraining a neural network on a large dataset is becoming a cornerstone in machine learning that is within the reach of only a few communities with large-resources. We aim at an ambitious goal of democratizing pretraining. Towards that goal, we train and release a single neural network that can predict high quality ImageNet parameters of other neural networks. By using predicted parameters for initialization we are able to boost training of diverse ImageNet models available in PyTorch. When transferred to other datasets, models initialized with predicted parameters also converge faster and reach competitive final performance.",
+    "path": "papers/23/03/2303.04143.json",
+    "total_tokens": 743,
+    "translated_title": "我们能否将Transformer应用到多种ImageNet模型的参数预测中进行扩展？",
+    "translated_abstract": "在大规模数据集上对神经网络进行预训练已成为机器学习中的基石，但这只能由一些拥有充足资源的社区实现。我们旨在实现一个雄心勃勃的目标：民主化预训练。为此，我们训练并发布了一个单一的神经网络，可以预测其他神经网络的高质量ImageNet参数。通过使用预测参数进行初始化，我们可以提高PyTorch中可用的各种ImageNet模型的训练速度。在转移到其他数据集时，使用预测参数初始化的模型也会更快地收敛并达到竞争力的最终性能。",
+    "tldr": "该论文提出了一个可以预测其他神经网络高质量ImageNet参数的神经网络，通过使用预测参数进行初始化，能够提高多种ImageNet模型的训练速度，并且在转移到其他数据集时可以更快地收敛并达到竞争力的最终性能。",
+    "en_tdlr": "The paper proposes a neural network that predicts high quality ImageNet parameters of other neural networks, which can improve the training speed of diverse ImageNet models by using predicted parameters for initialization. Moreover, models initialized with predicted parameters converge faster and reach competitive final performance when transferred to other datasets."
+}

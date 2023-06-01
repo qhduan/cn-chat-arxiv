@@ -1,0 +1,12 @@
+{
+    "title": "Practical PCG Through Large Language Models. (arXiv:2305.18243v2 [cs.CL] UPDATED)",
+    "abstract": "Large Language Models (LLMs) have proven to be useful tools in various domains outside of the field of their inception, which was natural language processing. In this study, we provide practical directions on how to use LLMs to generate 2D-game rooms for an under-development game, named Metavoidal. Our technique can harness the power of GPT-3 by Human-in-the-loop fine-tuning which allows our method to create 37% Playable-Novel levels from as scarce data as only 60 hand-designed rooms under a scenario of the non-trivial game, with respect to (Procedural Content Generation) PCG, that has a good amount of local and global constraints.",
+    "link": "http://arxiv.org/abs/2305.18243",
+    "context": "Title: Practical PCG Through Large Language Models. (arXiv:2305.18243v2 [cs.CL] UPDATED)\nAbstract: Large Language Models (LLMs) have proven to be useful tools in various domains outside of the field of their inception, which was natural language processing. In this study, we provide practical directions on how to use LLMs to generate 2D-game rooms for an under-development game, named Metavoidal. Our technique can harness the power of GPT-3 by Human-in-the-loop fine-tuning which allows our method to create 37% Playable-Novel levels from as scarce data as only 60 hand-designed rooms under a scenario of the non-trivial game, with respect to (Procedural Content Generation) PCG, that has a good amount of local and global constraints.",
+    "path": "papers/23/05/2305.18243.json",
+    "total_tokens": 719,
+    "translated_title": "通过大型语言模型实现实用的PCG",
+    "translated_abstract": "大型语言模型(LLMs)已经被证明是自然语言处理领域之外的各种领域中非常有用的工具。本研究提供了如何使用LLMs为正在开发中的游戏Metavoidal生成2D游戏房间的实用方向。我们的技术可以通过人类参与的微调，利用GPT-3的能力，仅使用60个手动设计的房间数据，在复杂的游戏场景下，生成37%的可玩新颖关卡，这是针对存在大量局部和全局约束的PCG的。",
+    "tldr": "本研究介绍了如何利用语言模型生成游戏房间，在仅有少量数据的情况下，可以生成多达37%的可玩新颖关卡，该技术有助于解决包含许多局部和全局约束的PCG问题。",
+    "en_tdlr": "This study presents practical directions on how to use language models to generate game rooms, which can generate up to 37% of playable and novel levels with limited data, and this technique can help address PCG problems with many local and global constraints."
+}

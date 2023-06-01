@@ -1,0 +1,12 @@
+{
+    "title": "Optimal Estimates for Pairwise Learning with Deep ReLU Networks. (arXiv:2305.19640v1 [stat.ML])",
+    "abstract": "Pairwise learning refers to learning tasks where a loss takes a pair of samples into consideration. In this paper, we study pairwise learning with deep ReLU networks and estimate the excess generalization error. For a general loss satisfying some mild conditions, a sharp bound for the estimation error of order $O((V\\log(n) /n)^{1/(2-\\beta)})$ is established. In particular, with the pairwise least squares loss, we derive a nearly optimal bound of the excess generalization error which achieves the minimax lower bound up to a logrithmic term when the true predictor satisfies some smoothness regularities.",
+    "link": "http://arxiv.org/abs/2305.19640",
+    "context": "Title: Optimal Estimates for Pairwise Learning with Deep ReLU Networks. (arXiv:2305.19640v1 [stat.ML])\nAbstract: Pairwise learning refers to learning tasks where a loss takes a pair of samples into consideration. In this paper, we study pairwise learning with deep ReLU networks and estimate the excess generalization error. For a general loss satisfying some mild conditions, a sharp bound for the estimation error of order $O((V\\log(n) /n)^{1/(2-\\beta)})$ is established. In particular, with the pairwise least squares loss, we derive a nearly optimal bound of the excess generalization error which achieves the minimax lower bound up to a logrithmic term when the true predictor satisfies some smoothness regularities.",
+    "path": "papers/23/05/2305.19640.json",
+    "total_tokens": 775,
+    "translated_title": "深度ReLU网络中的成对学习最优估计",
+    "translated_abstract": "成对学习指的是在损失函数中考虑一对样本的学习任务。本文研究了深度ReLU网络中的成对学习，并估计了过度泛化误差。对于满足某些温和条件的一般损失函数，建立了误差估计的尖锐界限，其误差估计的阶数为O（（Vlog（n）/ n）1 /（2-β））。特别地，对于成对最小二乘损失，我们得到了过度泛化误差的几乎最优界限，在真实的预测器满足某些光滑性正则性时，最优界限达到了最小化界限，差距仅为对数项。",
+    "tldr": "本文研究了深度ReLU网络中的成对学习，提出了一个针对一般损失函数的误差估计的尖锐界限，并基于成对最小二乘损失得出几乎最优的过度泛化误差界限。",
+    "en_tdlr": "This paper investigates pairwise learning in deep ReLU networks and establishes a sharp bound on the estimation error for a general loss function, as well as a nearly optimal excess generalization error bound for pairwise least squares loss, achieving the minimax lower bound up to a logarithmic term under certain smoothness regularities of the true predictor."
+}
