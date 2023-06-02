@@ -1,0 +1,12 @@
+{
+    "title": "Focused Prefix Tuning for Controllable Text Generation. (arXiv:2306.00369v1 [cs.CL])",
+    "abstract": "In a controllable text generation dataset, there exist unannotated attributes that could provide irrelevant learning signals to models that use it for training and thus degrade their performance. We propose focused prefix tuning(FPT) to mitigate the problem and to enable the control to focus on the desired attribute. Experimental results show that FPT can achieve better control accuracy and text fluency than baseline models in single-attribute control tasks. In multi-attribute control tasks, FPT achieves comparable control accuracy with the state-of-the-art approach while keeping the flexibility to control new attributes without retraining existing models.",
+    "link": "http://arxiv.org/abs/2306.00369",
+    "context": "Title: Focused Prefix Tuning for Controllable Text Generation. (arXiv:2306.00369v1 [cs.CL])\nAbstract: In a controllable text generation dataset, there exist unannotated attributes that could provide irrelevant learning signals to models that use it for training and thus degrade their performance. We propose focused prefix tuning(FPT) to mitigate the problem and to enable the control to focus on the desired attribute. Experimental results show that FPT can achieve better control accuracy and text fluency than baseline models in single-attribute control tasks. In multi-attribute control tasks, FPT achieves comparable control accuracy with the state-of-the-art approach while keeping the flexibility to control new attributes without retraining existing models.",
+    "path": "papers/23/06/2306.00369.json",
+    "total_tokens": 769,
+    "translated_title": "针对可控文本生成的焦点前缀调整方法",
+    "translated_abstract": "在可控文本生成数据集中，存在未标注属性，可能会为使用其进行训练的模型提供无关的学习信号，从而降低它们的性能。我们提出了焦点前缀调整（FPT）来缓解这个问题，并使控制能够专注于所需属性。实验结果表明，与基线模型相比，在单属性控制任务中，FPT可以实现更好的控制准确性和文本流畅度。在多属性控制任务中，FPT实现了与最先进方法相当的控制准确性，同时保持了控制新属性而无需重新训练现有模型的灵活性。",
+    "tldr": "本文提出了针对可控文本生成的焦点前缀调整方法，实验结果表明在单属性控制任务中实现了更好的控制准确性和文本流畅度，在多属性控制任务中实现了与最先进方法相当的控制准确性，并保持了控制新属性而无需重新训练现有模型的灵活性。",
+    "en_tdlr": "This paper proposes Focused Prefix Tuning (FPT) for controllable text generation, which achieves better control accuracy and text fluency than baseline models in single-attribute control tasks, and comparable control accuracy with state-of-the-art approach in multi-attribute control tasks while maintaining flexibility to control new attributes without retraining existing models."
+}

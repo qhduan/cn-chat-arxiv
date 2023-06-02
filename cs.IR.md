@@ -2,172 +2,172 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Medication Recommendation via Domain Knowledge Informed Deep Learning.](http://arxiv.org/abs/2305.19604) | 提出一种基于动态领域知识的药物推荐框架DKINet，将领域知识与患者临床表现相结合，此为首次实验。 |
-| [^2] | [Towards Semi-supervised Universal Graph Classification.](http://arxiv.org/abs/2305.19598) | 该论文提出了一种新型图神经网络框架UGNN， 解决了半监督普适图分类问题，通过估计未标记图的确定性解决了类别偏移，具有最新性能。 |
-| [^3] | [AdANNS: A Framework for Adaptive Semantic Search.](http://arxiv.org/abs/2305.19435) | AdANNS是一种自适应语义搜索框架，利用不同容量的自适应表示形式可以获得更好的精度-计算折衷权衡，相似度计算越接近的数据点将使用更低容量的表示形式进行计算，演示了最先进的精度-计算折衷权衡。 |
-| [^4] | [DuoSearch: A Novel Search Engine for Bulgarian Historical Documents.](http://arxiv.org/abs/2305.19392) | 本文提出了一种新的历史文件搜索引擎DuoSearch，该引擎使用神经网络机器学习方法解决数字化历史文献搜索中的正字法变体和字符识别错误问题，并成功应用于保加利亚中期到20世纪中期的历史报纸集合。 |
-| [^5] | [Mitigating Test-Time Bias for Fair Image Retrieval.](http://arxiv.org/abs/2305.19329) | 本文提出了后置偏差缓解（PBM）技术，解决了如何在中性文本查询的情况下实现公平的图像检索。该方法在实际数据集中实现了最低的偏差。 |
-| [^6] | [Unified Embedding: Battle-Tested Feature Representations for Web-Scale ML Systems.](http://arxiv.org/abs/2305.12102) | 本文介绍了一种名为“特征复用”的框架，它使用单一的表示空间 能够高效有效地学习高质量的特征嵌入，同时区分不同的分类特征。通过在多个公共数据集和新数据集“Web-Available Image Search (WAIS)”上的测试，我们展示了这种方法的优于现有技术的表现。 |
-| [^7] | [EvalRS 2023. Well-Rounded Recommender Systems For Real-World Deployments.](http://arxiv.org/abs/2304.07145) | EvalRS 2023旨在探讨推荐系统的全面评估，关注其在现实场景下的实际影响。过去只有准确度的测量方法可能无法全面评估其性能，公平性、偏见、有用性和信息量等方面也应该被关注。本次研讨会是去年CIKM研讨会的继承和发展，带有实际操作性和互动性。 |
-| [^8] | [RARR: Researching and Revising What Language Models Say, Using Language Models.](http://arxiv.org/abs/2210.08726) | RARR是一个可以对不确定信息进行研究和修订的系统，它可以自动找到文本生成模型输出的归因并修正不支持的内容。 |
-| [^9] | [Variational Open-Domain Question Answering.](http://arxiv.org/abs/2210.06345) | 本文介绍了变分开放领域（VOD）框架，提出了一种新的自归一化的Rényi变分界的估计方法，可用于训练具有检索增强功能的模型，例如阅读器-检索器BERT-sized模型，并实现了在多项选择医学考试问题上的优异表现。 |
-| [^10] | [CONE: An Efficient COarse-to-fiNE Alignment Framework for Long Video Temporal Grounding.](http://arxiv.org/abs/2209.10918) | 本文提出了CONE，一个高效的粗-细对齐框架，可用于长视频时间定位。CONE通过基于查询的窗口选择策略和对比学习机制提升了多模态对齐，并在两个大规模长视频时间定位基准测试中取得最先进结果。 |
-| [^11] | [Understanding Diversity in Session-Based Recommendation.](http://arxiv.org/abs/2208.13453) | 这篇文章探讨了基于会话的推荐系统在准确度和多样性方面的表现，并提供了设计多样化SBRS的指导。 |
+| [^1] | [End-to-end Knowledge Retrieval with Multi-modal Queries.](http://arxiv.org/abs/2306.00424) | 该论文提出了一个新的多模态检索任务，引入了一个名为“ReViz”的检索模型，可以直接处理文本和图像输入以实现端到端的知识检索，同时提出了一种有效的预训练任务，并在两个数据集上展示了优越的检索性能。 |
+| [^2] | [A Survey on Fairness-aware Recommender Systems.](http://arxiv.org/abs/2306.00403) | 本综述对现有的公正感知推荐系统方法和实践进行了总结分析，详细介绍了相关的概念定义、分类、方法和需解决的问题，并提出了未来的研究方向。 |
+| [^3] | [TransAct: Transformer-based Realtime User Action Model for Recommendation at Pinterest.](http://arxiv.org/abs/2306.00248) | 本文介绍了Pinterest推荐系统的架构和TransAct模型。TransAct是一个从用户实时活动中提取短期偏好的序列模型。本文还介绍了通过混合排名方法结合直接在实时用户活动上学习和在较长时间段内学习批量用户表示的优点。 |
+| [^4] | [VMap: An Interactive Rectangular Space-filling Visualization for Map-like Vertex-centric Graph Exploration.](http://arxiv.org/abs/2306.00120) | VMap是一种交互式矩形填充地图可视化方法，用于顶点为中心的图表探索。通过集成DAR矩形分割算法、双阶段矩形调整算法和基于模拟退火的启发式优化器，它能够优化矩形纵横比、顶点-边交叉和数据编码精度。 |
+| [^5] | [A Survey on Large Language Models for Recommendation.](http://arxiv.org/abs/2305.19860) | 本综述介绍了基于大语言模型的推荐系统，提出了判别式LLMs和生成式LLMs两种模型范式，总结了这些模型的最新进展，强调了该领域的挑战和研究方向。 |
+| [^6] | [Criteria Tell You More than Ratings: Criteria Preference-Aware Light Graph Convolution for Effective Multi-Criteria Recommendation.](http://arxiv.org/abs/2305.18885) | 本文提出了一种面向多准则推荐的标准偏好感知轻量图卷积网络，该方法结合了MC扩展图，可以准确地捕捉用户的标准偏好，并进一步将用户对各个标准的偏好合并到最终的推荐列表中。 |
+| [^7] | [Graph Masked Autoencoder for Sequential Recommendation.](http://arxiv.org/abs/2305.04619) | 提出了一种简单而有效的基于图遮盖自编码器的序列推荐系统，它使用基于图的注意力机制暴露出带有遮盖的项目序列，自适应动态提取全局项目转换信息进行自监督增强，在具有较少标记样本的情况下始终比最先进的序列推荐方法表现出更好的性能，而且对数据损坏和缺失情况具有鲁棒性。 |
+| [^8] | [How to Unleash the Power of Large Language Models for Few-shot Relation Extraction?.](http://arxiv.org/abs/2305.01555) | 本文通过使用GPT-3.5模型在少样本关系抽取中，实现在四个不同数据集上的新的最优性能，并提出了与任务相关的指导说明和约束模式下的数据生成方法。 |
+| [^9] | [Explaining Recommendation System Using Counterfactual Textual Explanations.](http://arxiv.org/abs/2303.11160) | 本文提供了一种利用反事实推理来生成可理解解释的方法，其在推荐系统上取得了成功应用。 |
+| [^10] | [Reasoning with Language Model Prompting: A Survey.](http://arxiv.org/abs/2212.09597) | 本文提供了使用语言模型提示进行推理的前沿研究综合调查。讨论了新兴推理能力出现的潜在原因，并提供系统资源帮助初学者。 |
+| [^11] | [Efficient Bi-Level Optimization for Recommendation Denoising.](http://arxiv.org/abs/2210.10321) | 本文提出了一种推荐去噪的高效双层优化方法，该方法可以迭代调整推荐模型，以考虑前几次迭代中为每个反馈分配的权重。 |
 
 # 详细
 
-[^1]: 通过领域知识启示的深度学习进行药物推荐
+[^1]: 多模态查询的端到端知识检索
 
-    Medication Recommendation via Domain Knowledge Informed Deep Learning. (arXiv:2305.19604v1 [cs.AI])
+    End-to-end Knowledge Retrieval with Multi-modal Queries. (arXiv:2306.00424v1 [cs.CL])
 
-    [http://arxiv.org/abs/2305.19604](http://arxiv.org/abs/2305.19604)
+    [http://arxiv.org/abs/2306.00424](http://arxiv.org/abs/2306.00424)
 
-    提出一种基于动态领域知识的药物推荐框架DKINet，将领域知识与患者临床表现相结合，此为首次实验。
-
-    
-
-    药物推荐是医疗保健的基本但至关重要的分支，提供机会为复杂健康状况的患者支持临床医生更精确的药物处方。从电子健康记录（EHR）中学习推荐药物是先前研究中最常见的方法。然而，大多数研究忽视了根据患者的EHR中的临床表现纳入领域知识的问题。为了解决这些问题，我们提出了一种新颖的基于动态领域知识的药物推荐框架，即领域知识启示网络（DKINet），用于将领域知识与可观察的患者临床表现相结合。特别是，我们首先设计了一个基于领域知识的编码器来捕捉领域信息，然后开发了一个数据驱动的编码器将领域知识整合到可观察的EHR中。
-
-    Medication recommendation is a fundamental yet crucial branch of healthcare, which provides opportunities to support clinical physicians with more accurate medication prescriptions for patients with complex health conditions. Learning from electronic health records (EHR) to recommend medications is the most common way in previous studies. However, most of them neglect incorporating domain knowledge according to the clinical manifestations in the EHR of the patient. To address these issues, we propose a novel \textbf{D}omain \textbf{K}nowledge \textbf{I}nformed \textbf{Net}work (DKINet) to integrate domain knowledge with observable clinical manifestations of the patient, which is the first dynamic domain knowledge informed framework toward medication recommendation. In particular, we first design a knowledge-driven encoder to capture the domain information and then develop a data-driven encoder to integrate domain knowledge into the observable EHR. To endow the model with the capability
-    
-[^2]: 半监督普适图分类
-
-    Towards Semi-supervised Universal Graph Classification. (arXiv:2305.19598v1 [cs.LG])
-
-    [http://arxiv.org/abs/2305.19598](http://arxiv.org/abs/2305.19598)
-
-    该论文提出了一种新型图神经网络框架UGNN， 解决了半监督普适图分类问题，通过估计未标记图的确定性解决了类别偏移，具有最新性能。
+    该论文提出了一个新的多模态检索任务，引入了一个名为“ReViz”的检索模型，可以直接处理文本和图像输入以实现端到端的知识检索，同时提出了一种有效的预训练任务，并在两个数据集上展示了优越的检索性能。
 
     
 
-    近年来，图神经网络推动了图分类的最新技术。本文提出了一种名为UGNN的新型图神经网络框架，以从子图角度利用未标记数据来解决半监督普适图分类问题。该问题的挑战在于缺乏标签数据和可能的类别偏移。UGNN通过估计未标记图的确定性来解决类别偏移，使其在具有挑战性的数据集上具有最新性能。
+    我们研究了多模态查询下的知识检索，即包含图像和文本的查询的任务，这是与之前的跨模态检索研究不同的挑战性任务。我们创建了一个名为ReMuQ的新数据集，用于评估这个任务的进展。ReMuQ需要一个系统通过整合来自文本和图像查询的内容来检索大规模语料库中的知识。我们引入了一个叫做“ReViz”的检索模型，这个模型可以直接处理输入的文本和图像，以端到端方式检索相关知识，而不依赖于像目标检测器或标题生成器等中间模块。我们介绍了一种新的预训练任务，有效地学习多模态查询下的知识检索，并在下游任务中提高了性能。我们展示了在零-shot设置下，在两个数据集（ReMuQ和OK-VQA）上的检索性能优越以及在这些数据集上微调后进一步的性能提升。
 
-    Graph neural networks have pushed state-of-the-arts in graph classifications recently. Typically, these methods are studied within the context of supervised end-to-end training, which necessities copious task-specific labels. However, in real-world circumstances, labeled data could be limited, and there could be a massive corpus of unlabeled data, even from unknown classes as a complementary. Towards this end, we study the problem of semi-supervised universal graph classification, which not only identifies graph samples which do not belong to known classes, but also classifies the remaining samples into their respective classes. This problem is challenging due to a severe lack of labels and potential class shifts. In this paper, we propose a novel graph neural network framework named UGNN, which makes the best of unlabeled data from the subgraph perspective. To tackle class shifts, we estimate the certainty of unlabeled graphs using multiple subgraphs, which facilities the discovery of
+    We investigate knowledge retrieval with multi-modal queries, i.e. queries containing information split across image and text inputs, a challenging task that differs from previous work on cross-modal retrieval. We curate a new dataset called ReMuQ for benchmarking progress on this task. ReMuQ requires a system to retrieve knowledge from a large corpus by integrating contents from both text and image queries. We introduce a retriever model ``ReViz'' that can directly process input text and images to retrieve relevant knowledge in an end-to-end fashion without being dependent on intermediate modules such as object detectors or caption generators. We introduce a new pretraining task that is effective for learning knowledge retrieval with multimodal queries and also improves performance on downstream tasks. We demonstrate superior performance in retrieval on two datasets (ReMuQ and OK-VQA) under zero-shot settings as well as further improvements when finetuned on these datasets.
     
-[^3]: AdANNS: 一种自适应语义搜索框架
+[^2]: 公正感知推荐系统综述
 
-    AdANNS: A Framework for Adaptive Semantic Search. (arXiv:2305.19435v1 [cs.LG])
+    A Survey on Fairness-aware Recommender Systems. (arXiv:2306.00403v1 [cs.IR])
 
-    [http://arxiv.org/abs/2305.19435](http://arxiv.org/abs/2305.19435)
+    [http://arxiv.org/abs/2306.00403](http://arxiv.org/abs/2306.00403)
 
-    AdANNS是一种自适应语义搜索框架，利用不同容量的自适应表示形式可以获得更好的精度-计算折衷权衡，相似度计算越接近的数据点将使用更低容量的表示形式进行计算，演示了最先进的精度-计算折衷权衡。
-
-    
-
-    网络规模的搜索系统学习一个编码器来嵌入一个给定的查询，然后将其连接到近似最近邻搜索(ANNS)管道中来检索相似的数据点。为了准确地捕捉尾部查询和数据点，学习到的表示通常是刚性的、高维的向量，通常在整个ANNS管道中一成不变，并且可能导致计算上昂贵的检索。本文认为，与其使用刚性的表示形式，ANNS的不同阶段可以利用不同容量的自适应表示形式以获得显著的精度-计算折衷权衡，即可以进行更加近似计算的ANNS阶段应该使用相同数据点的低容量表示。为此，我们引入了AdANNS，一种新颖的ANNS设计框架，明确利用Matryoshka表示的灵活性。我们使用基于AdANNS的新型关键ANNS构建演示了最先进的精度-计算折衷权衡。
-
-    Web-scale search systems learn an encoder to embed a given query which is then hooked into an approximate nearest neighbor search (ANNS) pipeline to retrieve similar data points. To accurately capture tail queries and data points, learned representations typically are rigid, high-dimensional vectors that are generally used as-is in the entire ANNS pipeline and can lead to computationally expensive retrieval. In this paper, we argue that instead of rigid representations, different stages of ANNS can leverage adaptive representations of varying capacities to achieve significantly better accuracy-compute trade-offs, i.e., stages of ANNS that can get away with more approximate computation should use a lower-capacity representation of the same data point. To this end, we introduce AdANNS, a novel ANNS design framework that explicitly leverages the flexibility of Matryoshka Representations. We demonstrate state-of-the-art accuracy-compute trade-offs using novel AdANNS-based key ANNS building
-    
-[^4]: DuoSearch：一种用于保加利亚历史文件的新型搜索引擎
-
-    DuoSearch: A Novel Search Engine for Bulgarian Historical Documents. (arXiv:2305.19392v1 [cs.IR])
-
-    [http://arxiv.org/abs/2305.19392](http://arxiv.org/abs/2305.19392)
-
-    本文提出了一种新的历史文件搜索引擎DuoSearch，该引擎使用神经网络机器学习方法解决数字化历史文献搜索中的正字法变体和字符识别错误问题，并成功应用于保加利亚中期到20世纪中期的历史报纸集合。
+    本综述对现有的公正感知推荐系统方法和实践进行了总结分析，详细介绍了相关的概念定义、分类、方法和需解决的问题，并提出了未来的研究方向。
 
     
 
-    数字化历史文献的搜索存在正字法变体和字符识别错误两大问题。本文提出了一种新的历史文件搜索引擎——DuoSearch，它使用ElasticSearch和基于深度神经网络的机器学习方法，提供了解决这个问题的方案。该系统在保加利亚中期到20世纪中期的历史报纸集合上进行了测试，为最终用户提供了交互式和直观的界面，允许他们以现代保加利亚语输入搜索词并跨历史拼写进行搜索。这是首个易于使用数字化保加利亚历史文献的解决方案。
+    作为信息过滤服务，推荐系统通过提供个性化建议和帮助人们做出决策极大地丰富了我们的日常生活，使它们在信息时代对人类社会至关重要和不可或缺。然而，随着人们对它们的依赖程度增加，最近的研究显示，由于其不公平性（例如工作推荐中的性别歧视），推荐系统对社会和个人可能拥有无意识的影响。为了开发可信赖的服务，设计公正感知的推荐系统以缓解这些偏见问题至关重要。本综述概述了现有的公正性推荐系统方法和实践。首先，我们介绍了不同推荐场景下的公正性概念，全面分类当前的进展并介绍了促进推荐系统不同阶段的公正性的典型方法。接下来，在介绍数据集和评估方法后，我们讨论了一些未来的研究方向。
 
-    Search in collections of digitised historical documents is hindered by a two-prong problem, orthographic variety and optical character recognition (OCR) mistakes. We present a new search engine for historical documents, DuoSearch, which uses ElasticSearch and machine learning methods based on deep neural networks to offer a solution to this problem. It was tested on a collection of historical newspapers in Bulgarian from the mid-19th to the mid-20th century. The system provides an interactive and intuitive interface for the end-users allowing them to enter search terms in modern Bulgarian and search across historical spellings. This is the first solution facilitating the use of digitised historical documents in Bulgarian.
+    As information filtering services, recommender systems have extremely enriched our daily life by providing personalized suggestions and facilitating people in decision-making, which makes them vital and indispensable to human society in the information era. However, as people become more dependent on them, recent studies show that recommender systems potentially own unintentional impacts on society and individuals because of their unfairness (e.g., gender discrimination in job recommendations). To develop trustworthy services, it is crucial to devise fairness-aware recommender systems that can mitigate these bias issues. In this survey, we summarise existing methodologies and practices of fairness in recommender systems. Firstly, we present concepts of fairness in different recommendation scenarios, comprehensively categorize current advances, and introduce typical methods to promote fairness in different stages of recommender systems. Next, after introducing datasets and evaluation me
     
-[^5]: 缓解测试时间偏差，实现公平的图像检索
+[^3]: TransAct: Pinterest实时用户行为模型中的Transformer-Based推荐
 
-    Mitigating Test-Time Bias for Fair Image Retrieval. (arXiv:2305.19329v1 [cs.CV])
+    TransAct: Transformer-based Realtime User Action Model for Recommendation at Pinterest. (arXiv:2306.00248v1 [cs.IR])
 
-    [http://arxiv.org/abs/2305.19329](http://arxiv.org/abs/2305.19329)
+    [http://arxiv.org/abs/2306.00248](http://arxiv.org/abs/2306.00248)
 
-    本文提出了后置偏差缓解（PBM）技术，解决了如何在中性文本查询的情况下实现公平的图像检索。该方法在实际数据集中实现了最低的偏差。
-
-    
-
-    本文解决了如何在中性文本查询的情况下（没有明确的性别或种族内涵）生成公平和无偏见的图像检索结果，同时保持底层视觉语言（VL）模型的效用（性能）的挑战。先前的方法旨在将图像和文本查询的学习表示与性别和种族特征分离。然而，我们发现这些方法不能减轻测试集中的偏差，从而实现所需的平等表示结果。出于这个动机，我们提出了一个简单的技术，后置偏差缓解（PBM），来后处理预训练视觉语言模型的输出。我们在实际图像搜索数据集Occupation 1和2，以及两个大规模的图像文本数据集MS-COCO和Flickr30k上评估了我们的算法。与各种现有的偏差缓解方法相比，我们的方法在基于文本的图像检索结果中实现了最低的偏差。
-
-    We address the challenge of generating fair and unbiased image retrieval results given neutral textual queries (with no explicit gender or race connotations), while maintaining the utility (performance) of the underlying vision-language (VL) model. Previous methods aim to disentangle learned representations of images and text queries from gender and racial characteristics. However, we show these are inadequate at alleviating bias for the desired equal representation result, as there usually exists test-time bias in the target retrieval set. So motivated, we introduce a straightforward technique, Post-hoc Bias Mitigation (PBM), that post-processes the outputs from the pre-trained vision-language model. We evaluate our algorithm on real-world image search datasets, Occupation 1 and 2, as well as two large-scale image-text datasets, MS-COCO and Flickr30k. Our approach achieves the lowest bias, compared with various existing bias-mitigation methods, in text-based image retrieval result whi
-    
-[^6]: 统一嵌入：面向 Web 规模 ML 系统的经过验证的特征表示
-
-    Unified Embedding: Battle-Tested Feature Representations for Web-Scale ML Systems. (arXiv:2305.12102v1 [cs.LG])
-
-    [http://arxiv.org/abs/2305.12102](http://arxiv.org/abs/2305.12102)
-
-    本文介绍了一种名为“特征复用”的框架，它使用单一的表示空间 能够高效有效地学习高质量的特征嵌入，同时区分不同的分类特征。通过在多个公共数据集和新数据集“Web-Available Image Search (WAIS)”上的测试，我们展示了这种方法的优于现有技术的表现。
+    本文介绍了Pinterest推荐系统的架构和TransAct模型。TransAct是一个从用户实时活动中提取短期偏好的序列模型。本文还介绍了通过混合排名方法结合直接在实时用户活动上学习和在较长时间段内学习批量用户表示的优点。
 
     
 
-    高效、有效地学习高质量的特征嵌入对于 Web 规模的机器学习系统的性能至关重要。标准方法是将每个特征值表示为一个 d 维嵌入，引入数百亿个参数，而这些特征的基数非常高。这个瓶颈导致了备选嵌入算法的重大进展。本文介绍了一个简单但非常有效的框架，即“特征复用”，在许多不同的分类特征之间使用一个单一的表示空间。我们的理论和实证分析表明，复用的嵌入可以分解为每个组成特征的组件，使得模型可以区分特征。我们展示了复用的嵌入在几个公共数据集上优于现有技术。此外，我们引入了一个名为“Web-Available Image Search (WAIS)”的新数据集，以严格评估 Web 规模下的新嵌入算法。我们邀请社区通过提出可以准确、高效地将数百万张图像嵌入和分类到成千上万个类别的新模型来贡献 WAIS 挑战。
+    编码用户活动以进行下一步行动预测的序列模型已成为构建大规模个性化推荐系统的常见设计选择。 传统的序列推荐方法要么利用实时用户操作进行端到端学习，要么以脱机批量生成的方式单独学习用户表示。 本文(1)介绍了Pinterest Homefeed的排名架构，即我们的个性化推荐产品和最大的参与面；(2)提出了TransAct，一种从用户实时活动中提取短期偏好的序列模型；(3)描述了我们的混合排名方法，即通过TransAct的端到端序列建模与批量生成的用户嵌入混合。 混合方法允许我们结合直接在实时用户活动上学习以获得响应性的优点和在较长时间段内学习的批量用户表示的成本效益。 我们描述了实验结果......（原文内容省略）
 
-    Learning high-quality feature embeddings efficiently and effectively is critical for the performance of web-scale machine learning systems. A typical model ingests hundreds of features with vocabularies on the order of millions to billions of tokens. The standard approach is to represent each feature value as a d-dimensional embedding, introducing hundreds of billions of parameters for extremely high-cardinality features. This bottleneck has led to substantial progress in alternative embedding algorithms. Many of these methods, however, make the assumption that each feature uses an independent embedding table. This work introduces a simple yet highly effective framework, Feature Multiplexing, where one single representation space is used across many different categorical features. Our theoretical and empirical analysis reveals that multiplexed embeddings can be decomposed into components from each constituent feature, allowing models to distinguish between features. We show that multip
+    Sequential models that encode user activity for next action prediction have become a popular design choice for building web-scale personalized recommendation systems. Traditional methods of sequential recommendation either utilize end-to-end learning on realtime user actions, or learn user representations separately in an offline batch-generated manner. This paper (1) presents Pinterest's ranking architecture for Homefeed, our personalized recommendation product and the largest engagement surface; (2) proposes TransAct, a sequential model that extracts users' short-term preferences from their realtime activities; (3) describes our hybrid approach to ranking, which combines end-to-end sequential modeling via TransAct with batch-generated user embeddings. The hybrid approach allows us to combine the advantages of responsiveness from learning directly on realtime user activity with the cost-effectiveness of batch user representations learned over a longer time period. We describe the resu
     
-[^7]: EvalRS 2023. 面向实际应用的全面推荐系统评估
+[^4]: VMap: 一种交互式矩形填充可视化地图，用于顶点为中心的图表探索。
 
-    EvalRS 2023. Well-Rounded Recommender Systems For Real-World Deployments. (arXiv:2304.07145v1 [cs.IR])
+    VMap: An Interactive Rectangular Space-filling Visualization for Map-like Vertex-centric Graph Exploration. (arXiv:2306.00120v1 [cs.GR])
 
-    [http://arxiv.org/abs/2304.07145](http://arxiv.org/abs/2304.07145)
+    [http://arxiv.org/abs/2306.00120](http://arxiv.org/abs/2306.00120)
 
-    EvalRS 2023旨在探讨推荐系统的全面评估，关注其在现实场景下的实际影响。过去只有准确度的测量方法可能无法全面评估其性能，公平性、偏见、有用性和信息量等方面也应该被关注。本次研讨会是去年CIKM研讨会的继承和发展，带有实际操作性和互动性。
-
-    
-
-    EvalRS旨在汇聚产业和学术界的从业者，促进对推荐系统的全面评估的讨论，并重点关注在各种部署场景下的实际影响。推荐系统通常只通过准确性指标进行评估，这些指标无法完全描述其泛化能力并忽视了重要的方面，如公平性、偏见、有用性、信息量等。本次研讨会在CIKM去年研讨会的成功基础上进一步扩大范围，并采取互动形式。
-
-    EvalRS aims to bring together practitioners from industry and academia to foster a debate on rounded evaluation of recommender systems, with a focus on real-world impact across a multitude of deployment scenarios. Recommender systems are often evaluated only through accuracy metrics, which fall short of fully characterizing their generalization capabilities and miss important aspects, such as fairness, bias, usefulness, informativeness. This workshop builds on the success of last year's workshop at CIKM, but with a broader scope and an interactive format.
-    
-[^8]: RARR: 使用语言模型研究和修正其输出结果中的不确定信息
-
-    RARR: Researching and Revising What Language Models Say, Using Language Models. (arXiv:2210.08726v3 [cs.CL] UPDATED)
-
-    [http://arxiv.org/abs/2210.08726](http://arxiv.org/abs/2210.08726)
-
-    RARR是一个可以对不确定信息进行研究和修订的系统，它可以自动找到文本生成模型输出的归因并修正不支持的内容。
+    VMap是一种交互式矩形填充地图可视化方法，用于顶点为中心的图表探索。通过集成DAR矩形分割算法、双阶段矩形调整算法和基于模拟退火的启发式优化器，它能够优化矩形纵横比、顶点-边交叉和数据编码精度。
 
     
 
-    现在的语言模型在诸如少样本学习、问答、推理和对话等许多任务上表现出色。然而，它们有时会生成无支持或误导性的内容。由于大多数语言模型没有任何内置的归因外部证据的机制，用户很难确定它们的输出是否可靠。为了在保留最新一代模型的所有强大优势的同时实现归因，我们提出了 RARR (使用研究和修订进行改进归因)系统，它 1) 自动找到任何文本生成模型输出的归因并 2) 在尽可能保留原始输出的同时，修正不支持的内容。当应用于几个最先进的语言模型在各种输出任务上的结果时，我们发现RARR在显著提高归因率的同时，比以前探索的编辑模型更能保留原始输入。
+    我们提出了一种名为VMap的地图状矩形填充可视化方法，用于顶点为中心的图表探索。为优化矩形的纵横比、顶点-边交叉和数据编码精度等方面，现有的可视化方法存在支持不足。为应对这些问题，VMap集成了三种新组建：（1）基于想要的纵横比（DAR）的矩形分割算法，（2）双阶段矩形调整算法，（3）基于模拟退火的启发式优化器。首先，为了生成输入图表的矩形填充布局，我们将图表的2D嵌入方式划分为矩形，并优化矩形的纵横比，以达到想要的纵横比。其次，为了在矩形之间路由图表边缘，而不会出现顶点-边缘重叠，我们设计了一个双阶段算法来调整矩形布局，以在矩形之间插入边框空间。第三，为了通过考虑多种视觉准则来生成和排列矩形，我们设计了一个包含模拟退火的启发式优化器。
 
-    Language models (LMs) now excel at many tasks such as few-shot learning, question answering, reasoning, and dialog. However, they sometimes generate unsupported or misleading content. A user cannot easily determine whether their outputs are trustworthy or not, because most LMs do not have any built-in mechanism for attribution to external evidence. To enable attribution while still preserving all the powerful advantages of recent generation models, we propose RARR (Retrofit Attribution using Research and Revision), a system that 1) automatically finds attribution for the output of any text generation model and 2) post-edits the output to fix unsupported content while preserving the original output as much as possible. When applied to the output of several state-of-the-art LMs on a diverse set of generation tasks, we find that RARR significantly improves attribution while otherwise preserving the original input to a much greater degree than previously explored edit models. Furthermore, 
+    We present VMap, a map-like rectangular space-filling visualization, to perform vertex-centric graph exploration. Existing visualizations have limited support for quality optimization among rectangular aspect ratios, vertex-edge intersection, and data encoding accuracy. To tackle this problem, VMap integrates three novel components: (1) a desired-aspect-ratio (DAR) rectangular partitioning algorithm, (2) a two-stage rectangle adjustment algorithm, and (3) a simulated annealing based heuristic optimizer. First, to generate a rectangular space-filling layout of an input graph, we subdivide the 2D embedding of the graph into rectangles with optimization of rectangles' aspect ratios toward a desired aspect ratio. Second, to route graph edges between rectangles without vertex-edge occlusion, we devise a two-stage algorithm to adjust a rectangular layout to insert border space between rectangles. Third, to produce and arrange rectangles by considering multiple visual criteria, we design a si
     
-[^9]: 变分开放领域问答
+[^5]: 基于大语言模型的推荐系统综述
 
-    Variational Open-Domain Question Answering. (arXiv:2210.06345v2 [cs.CL] UPDATED)
+    A Survey on Large Language Models for Recommendation. (arXiv:2305.19860v2 [cs.IR] UPDATED)
 
-    [http://arxiv.org/abs/2210.06345](http://arxiv.org/abs/2210.06345)
+    [http://arxiv.org/abs/2305.19860](http://arxiv.org/abs/2305.19860)
 
-    本文介绍了变分开放领域（VOD）框架，提出了一种新的自归一化的Rényi变分界的估计方法，可用于训练具有检索增强功能的模型，例如阅读器-检索器BERT-sized模型，并实现了在多项选择医学考试问题上的优异表现。
-
-    
-
-    检索增强模型在自然语言处理任务中已被证明是有效的，但是对它们进行变分推断的优化研究仍然不足。我们引入了变分开放领域（VOD）框架，用于检索增强模型的端到端训练和评估，重点放在开放领域问答和语言建模方面。VOD目标是一种自归一化的Rényi变分界的估计，近似于任务边缘似然，并在一个辅助采样分布（缓存的检索器和/或近似后验）中进行样本抽取评估。它仍然是可行的，即使是在对大量语料库定义的检索器分布下。我们通过训练针对多项选择医学考试问题的阅读器-检索器BERT-sized模型，展示了VOD的多功能性。在MedMCQA数据集上，我们超过了领域微调的Med-PaLM 5.3％，尽管使用的参数少了2500倍。我们的检索增强BioLinkBERT模型得分为62.9％。
-
-    Retrieval-augmented models have proven to be effective in natural language processing tasks, yet there remains a lack of research on their optimization using variational inference. We introduce the Variational Open-Domain (VOD) framework for end-to-end training and evaluation of retrieval-augmented models, focusing on open-domain question answering and language modelling. The VOD objective, a self-normalized estimate of the R\'enyi variational bound, approximates the task marginal likelihood and is evaluated under samples drawn from an auxiliary sampling distribution (cached retriever and/or approximate posterior). It remains tractable, even for retriever distributions defined on large corpora. We demonstrate VOD's versatility by training reader-retriever BERT-sized models on multiple-choice medical exam questions. On the MedMCQA dataset, we outperform the domain-tuned Med-PaLM by +5.3% despite using 2.500$\times$ fewer parameters. Our retrieval-augmented BioLinkBERT model scored 62.9%
-    
-[^10]: CONE：用于长视频时间定位的高效粗-细对齐框架
-
-    CONE: An Efficient COarse-to-fiNE Alignment Framework for Long Video Temporal Grounding. (arXiv:2209.10918v2 [cs.CV] UPDATED)
-
-    [http://arxiv.org/abs/2209.10918](http://arxiv.org/abs/2209.10918)
-
-    本文提出了CONE，一个高效的粗-细对齐框架，可用于长视频时间定位。CONE通过基于查询的窗口选择策略和对比学习机制提升了多模态对齐，并在两个大规模长视频时间定位基准测试中取得最先进结果。
+    本综述介绍了基于大语言模型的推荐系统，提出了判别式LLMs和生成式LLMs两种模型范式，总结了这些模型的最新进展，强调了该领域的挑战和研究方向。
 
     
 
-    本文解决了一个新兴且具有挑战性的问题——长视频时间定位（VTG），即定位与自然语言查询相关的视频片段。相比于短视频，长视频同样非常受欢迎，但是探索较少，这带来了多个挑战，例如更高的推理计算成本和弱的多模态对齐。为了解决这些挑战，我们提出了CONE，一个高效的粗-细对齐框架。CONE是一个插拔式的框架，可在现有的VTG模型上处理长视频，通过滑动窗口机制。具体来说，CONE（1）引入了基于查询的窗口选择策略以加快推理速度，（2）提议了通过新增对比学习来增强长视频的多模态对齐的粗细机制。对两个大规模长VTG基准测试进行的大量实验均表明，CONE在性能上都有很大提升（例如在MAD上从3.13％到6.87％），并且具有最先进的结果。分析也证明了CONE模型的有效性和可解释性。
+    大语言模型（LLMs）已成为自然语言处理（NLP）领域强大的工具，并在推荐系统领域引起了重视。这些模型使用自监督学习在海量数据上进行训练，已在学习通用表示方面取得了显着成功，并有可能通过一些有效的转移技术（如微调和提示调整）等手段提高推荐系统的各个方面的性能。利用大语言模型增强推荐质量的关键是利用它们高质量的文本特征表示和大量的外部知识覆盖，建立项目和用户之间的相关性。为了全面了解现有基于LLM的推荐系统，本综述提出了一种分类法，将这些模型分为两种主要范式，分别是判别式LLMs和生成式LLMs。此外，我们总结了这些范式的最新进展，并强调了这个新兴领域的挑战和开放性研究问题。
 
-    This paper tackles an emerging and challenging problem of long video temporal grounding~(VTG) that localizes video moments related to a natural language (NL) query. Compared with short videos, long videos are also highly demanded but less explored, which brings new challenges in higher inference computation cost and weaker multi-modal alignment. To address these challenges, we propose CONE, an efficient COarse-to-fiNE alignment framework. CONE is a plug-and-play framework on top of existing VTG models to handle long videos through a sliding window mechanism. Specifically, CONE (1) introduces a query-guided window selection strategy to speed up inference, and (2) proposes a coarse-to-fine mechanism via a novel incorporation of contrastive learning to enhance multi-modal alignment for long videos. Extensive experiments on two large-scale long VTG benchmarks consistently show both substantial performance gains (e.g., from 3.13% to 6.87% on MAD) and state-of-the-art results. Analyses also 
+    Large Language Models (LLMs) have emerged as powerful tools in the field of Natural Language Processing (NLP) and have recently gained significant attention in the domain of Recommendation Systems (RS). These models, trained on massive amounts of data using self-supervised learning, have demonstrated remarkable success in learning universal representations and have the potential to enhance various aspects of recommendation systems by some effective transfer techniques such as fine-tuning and prompt tuning, and so on. The crucial aspect of harnessing the power of language models in enhancing recommendation quality is the utilization of their high-quality representations of textual features and their extensive coverage of external knowledge to establish correlations between items and users. To provide a comprehensive understanding of the existing LLM-based recommendation systems, this survey presents a taxonomy that categorizes these models into two major paradigms, respectively Discrimi
     
-[^11]: 理解基于会话的推荐系统中的多样性
+[^6]: 标准比评分更重要：面向多准则推荐的标准偏好感知轻量图卷积网络
 
-    Understanding Diversity in Session-Based Recommendation. (arXiv:2208.13453v2 [cs.IR] UPDATED)
+    Criteria Tell You More than Ratings: Criteria Preference-Aware Light Graph Convolution for Effective Multi-Criteria Recommendation. (arXiv:2305.18885v2 [cs.SI] UPDATED)
 
-    [http://arxiv.org/abs/2208.13453](http://arxiv.org/abs/2208.13453)
+    [http://arxiv.org/abs/2305.18885](http://arxiv.org/abs/2305.18885)
 
-    这篇文章探讨了基于会话的推荐系统在准确度和多样性方面的表现，并提供了设计多样化SBRS的指导。
+    本文提出了一种面向多准则推荐的标准偏好感知轻量图卷积网络，该方法结合了MC扩展图，可以准确地捕捉用户的标准偏好，并进一步将用户对各个标准的偏好合并到最终的推荐列表中。
 
     
 
-    当前的基于会话的推荐系统（SBRSs）主要关注于最大化推荐准确度，而很少有研究专门致力于在准确度之外提高多样性。同时，不清楚以准确度为导向的SBRS在多样性方面的表现如何。此外，在文献中越来越多地质疑“准确度”与“多样性”之间的“权衡”关系。针对上述问题，我们进行了一项全面的研究，特别是考察具有代表性的基于会话的推荐系统在准确度和多样性方面的推荐性能，努力更好地理解SBRS的多样性相关问题，并提供设计多样化SBRS的指导。特别地，为了进行公平和全面的比较，我们精心选择了最先进的非神经，深度神经和多样化SBRS，通过覆盖更多具有适当实验设置的场景，例如代表性数据集，评估指标和超参数优化技术。
+    多准则推荐系统现在在广泛的电子商务领域中利用多准则 (MC) 评分信息，而深度学习中的图神经网络 (GNN) 已经被广泛应用于各种推荐系统的开发中。在这种情况下，本文首次尝试使用GNN辅助设计MC推荐系统。具体而言，我们提出了一种新颖的标准偏好感知轻量图卷积方法(CPA-LGC),可以准确捕捉用户的标准偏好以及复杂高阶连接中的协作信号。本文在MC扩展图上构建了一个能够将用户-物品MC评分转换为扩展二分图的MC扩展图，再进一步将标准重要性编码到图卷积过程中，并引入了一种新的标准偏好感知聚合方法来将用户对不同标准的偏好合并到最终的推荐列表中。
 
-    Current session-based recommender systems (SBRSs) mainly focus on maximizing recommendation accuracy, while few studies have been devoted to improve diversity beyond accuracy. Meanwhile, it is unclear how the accuracy-oriented SBRSs perform in terms of diversity. Besides, the asserted "trade-off" relationship between accuracy and diversity has been increasingly questioned in the literature. Towards the aforementioned issues, we conduct a holistic study to particularly examine the recommendation performance of representative SBRSs w.r.t. both accuracy and diversity, striving for better understanding the diversity-related issues for SBRSs and providing guidance on designing diversified SBRSs. Particularly, for a fair and thorough comparison, we deliberately select state-of-the-art non-neural, deep neural, and diversified SBRSs, by covering more scenarios with appropriate experimental setups, e.g., representative datasets, evaluation metrics, and hyper-parameter optimization technique. Ou
+    The multi-criteria (MC) recommender system, which leverages MC rating information in a wide range of e-commerce areas, is ubiquitous nowadays. Surprisingly, although graph neural networks (GNNs) have been widely applied to develop various recommender systems due to GNN's high expressive capability in learning graph representations, it has been still unexplored how to design MC recommender systems with GNNs. In light of this, we make the first attempt towards designing a GNN-aided MC recommender system. Specifically, rather than straightforwardly adopting existing GNN-based recommendation methods, we devise a novel criteria preference-aware light graph convolution CPA-LGC method, which is capable of precisely capturing the criteria preference of users as well as the collaborative signal in complex high-order connectivities. To this end, we first construct an MC expansion graph that transforms user--item MC ratings into an expanded bipartite graph to potentially learn from the collaborat
+    
+[^7]: 基于图形遮盖自编码器的序列推荐系统
+
+    Graph Masked Autoencoder for Sequential Recommendation. (arXiv:2305.04619v2 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2305.04619](http://arxiv.org/abs/2305.04619)
+
+    提出了一种简单而有效的基于图遮盖自编码器的序列推荐系统，它使用基于图的注意力机制暴露出带有遮盖的项目序列，自适应动态提取全局项目转换信息进行自监督增强，在具有较少标记样本的情况下始终比最先进的序列推荐方法表现出更好的性能，而且对数据损坏和缺失情况具有鲁棒性。
+
+    
+
+    虽然一些强大的神经网络架构（例如Transformer、图神经网络）通过高阶项依赖建模在序列推荐中实现了改进的性能，但它们可能在标签稀缺情况下表现出较差的表征能力。为了解决标签不足的问题，对比学习（CL）已经引起了近期的关注，通过嵌入对比来进行自我监督的数据增强。然而，由于其对比视图生成策略的手工制定特性，现有的CL增强模型不仅难以在不同的序列推荐任务中产生一致的性能，还可能对用户行为数据噪声不具有鲁棒性。鉴于这一点，我们提出了一种简单而有效的自适应全局信息提取的图遮盖自编码器增强的序列推荐系统（MAERec）来解决这个问题。它自然地避免了上述问题，得益于其独特的数据重构机制。具体而言，我们的模型使用基于图的注意力机制，暴露出带有遮盖的项目序列，使表示不仅利用本地顺序信息，还利用项目之间的全局相关性。我们在四个基准数据集上对我们的方法进行了广泛评估。实验结果表明，我们的模型在具有较少标记样本的情况下始终比最先进的序列推荐方法表现出更好的性能，而且对数据损坏和缺失情况具有鲁棒性。
+
+    While some powerful neural network architectures (e.g., Transformer, Graph Neural Networks) have achieved improved performance in sequential recommendation with high-order item dependency modeling, they may suffer from poor representation capability in label scarcity scenarios. To address the issue of insufficient labels, Contrastive Learning (CL) has attracted much attention in recent methods to perform data augmentation through embedding contrasting for self-supervision. However, due to the hand-crafted property of their contrastive view generation strategies, existing CL-enhanced models i) can hardly yield consistent performance on diverse sequential recommendation tasks; ii) may not be immune to user behavior data noise. In light of this, we propose a simple yet effective Graph Masked AutoEncoder-enhanced sequential Recommender system (MAERec) that adaptively and dynamically distills global item transitional information for self-supervised augmentation. It naturally avoids the abov
+    
+[^8]: 如何发挥大语言模型在少样本关系抽取中的能力？
+
+    How to Unleash the Power of Large Language Models for Few-shot Relation Extraction?. (arXiv:2305.01555v1 [cs.CL])
+
+    [http://arxiv.org/abs/2305.01555](http://arxiv.org/abs/2305.01555)
+
+    本文通过使用GPT-3.5模型在少样本关系抽取中，实现在四个不同数据集上的新的最优性能，并提出了与任务相关的指导说明和约束模式下的数据生成方法。
+
+    
+
+    语言模型的扩展已经彻底改变了广泛的自然语言处理任务，但是使用大型语言模型进行少样本关系抽取还没有得到全面探索。本文通过详细实验，研究了使用GPT-3.5进行少样本关系抽取的基本方法——上下文学习和数据生成。为了增强少样本性能，我们进一步提出了与任务相关的指导说明和约束模式下的数据生成。我们观察到，在上下文学习的情况下，可以实现与以前的提示学习方法相当的性能，而使用大型语言模型的数据生成可以推动以前的解决方案以在四个广泛研究的关系抽取数据集上获得新的最先进的少样本结果。我们希望我们的工作可以激发未来对大型语言模型在少样本关系抽取中的能力的研究。代码可以在 \url{https://github.com/zjunlp/DeepKE/tree/main/example/llm} 中找到。
+
+    Scaling language models have revolutionized widespread NLP tasks, yet little comprehensively explored few-shot relation extraction with large language models. In this paper, we investigate principal methodologies, in-context learning and data generation, for few-shot relation extraction via GPT-3.5 through exhaustive experiments. To enhance few-shot performance, we further propose task-related instructions and schema-constrained data generation. We observe that in-context learning can achieve performance on par with previous prompt learning approaches, and data generation with the large language model can boost previous solutions to obtain new state-of-the-art few-shot results on four widely-studied relation extraction datasets. We hope our work can inspire future research for the capabilities of large language models in few-shot relation extraction. Code is available in \url{https://github.com/zjunlp/DeepKE/tree/main/example/llm.
+    
+[^9]: 利用反事实文本解释来解释推荐系统
+
+    Explaining Recommendation System Using Counterfactual Textual Explanations. (arXiv:2303.11160v2 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2303.11160](http://arxiv.org/abs/2303.11160)
+
+    本文提供了一种利用反事实推理来生成可理解解释的方法，其在推荐系统上取得了成功应用。
+
+    
+
+    目前，在人工智能领域，有大量的研究致力于改进深度学习模型的可解释性和可解读性。研究发现，如果最终用户理解某些输出的原因，就更容易信任系统。推荐系统是需要进行改进以使其输出更加可解释的系统之一。产生更可解释的输出的一种方法是使用反事实推理，这涉及对最小要素进行修改，以生成导致系统输出变化的反事实项目。这一过程允许识别对期望输出有重大影响的输入要素，从而提供有效的解释。在本文中，我们提出了一种方法来生成针对表格和文本要素的反事实解释。我们在三个真实数据集上评估了我们提出的方法的性能，并证明它在为最终用户提供可理解的解释方面是有效的。
+
+    Currently, there is a significant amount of research being conducted in the field of artificial intelligence to improve the explainability and interpretability of deep learning models. It is found that if end-users understand the reason for the production of some output, it is easier to trust the system. Recommender systems are one example of systems that great efforts have been conducted to make their output more explainable. One method for producing a more explainable output is using counterfactual reasoning, which involves altering minimal features to generate a counterfactual item that results in changing the output of the system. This process allows the identification of input features that have a significant impact on the desired output, leading to effective explanations. In this paper, we present a method for generating counterfactual explanations for both tabular and textual features. We evaluated the performance of our proposed method on three real-world datasets and demonstra
+    
+[^10]: 使用语言模型提示进行推理：一项调查
+
+    Reasoning with Language Model Prompting: A Survey. (arXiv:2212.09597v2 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2212.09597](http://arxiv.org/abs/2212.09597)
+
+    本文提供了使用语言模型提示进行推理的前沿研究综合调查。讨论了新兴推理能力出现的潜在原因，并提供系统资源帮助初学者。
+
+    
+
+    推理作为复杂问题解决的重要能力，可以为医疗诊断、谈判等各种实际应用提供后端支持。本文对使用语言模型提示进行推理的前沿研究进行了综合调查。我们介绍了研究成果的比较和总结，并提供了系统资源以帮助初学者。我们还讨论了新兴推理能力出现的潜在原因，并突出了未来的研究方向。资源可在 https://github.com/zjunlp/Prompt4ReasoningPapers 上获取（定期更新）。
+
+    Reasoning, as an essential ability for complex problem-solving, can provide back-end support for various real-world applications, such as medical diagnosis, negotiation, etc. This paper provides a comprehensive survey of cutting-edge research on reasoning with language model prompting. We introduce research works with comparisons and summaries and provide systematic resources to help beginners. We also discuss the potential reasons for emerging such reasoning abilities and highlight future research directions. Resources are available at https://github.com/zjunlp/Prompt4ReasoningPapers (updated periodically).
+    
+[^11]: 推荐去噪的高效双层优化方法
+
+    Efficient Bi-Level Optimization for Recommendation Denoising. (arXiv:2210.10321v2 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2210.10321](http://arxiv.org/abs/2210.10321)
+
+    本文提出了一种推荐去噪的高效双层优化方法，该方法可以迭代调整推荐模型，以考虑前几次迭代中为每个反馈分配的权重。
+
+    
+
+    在实际推荐系统中，获得明确的用户反馈（例如评分）通常会受到需要用户积极参与的限制。为了缓解这个问题，利用用户浏览期间生成的隐式反馈（例如点击）作为可行的替代方法。然而，隐式反馈具有很高的噪声，这会显着损害推荐质量。本文中，我们将推荐去噪建模为一个双层优化问题，通过考虑前几次迭代中为每个反馈分配的权重来迭代地调整推荐模型。实验结果表明，该方法在两个大规模推荐数据集上的表现优于现有的基准方法。
+
+    The acquisition of explicit user feedback (e.g., ratings) in real-world recommender systems is often hindered by the need for active user involvement. To mitigate this issue, implicit feedback (e.g., clicks) generated during user browsing is exploited as a viable substitute. However, implicit feedback possesses a high degree of noise, which significantly undermines recommendation quality. While many methods have been proposed to address this issue by assigning varying weights to implicit feedback, two shortcomings persist: (1) the weight calculation in these methods is iteration-independent, without considering the influence of weights in previous iterations, and (2) the weight calculation often relies on prior knowledge, which may not always be readily available or universally applicable.  To overcome these two limitations, we model recommendation denoising as a bi-level optimization problem. The inner optimization aims to derive an effective model for the recommendation, as well as g
     
 

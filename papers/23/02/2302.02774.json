@@ -1,0 +1,12 @@
+{
+    "title": "The SSL Interplay: Augmentations, Inductive Bias, and Generalization. (arXiv:2302.02774v2 [stat.ML] UPDATED)",
+    "abstract": "Self-supervised learning (SSL) has emerged as a powerful framework to learn representations from raw data without supervision. Yet in practice, engineers face issues such as instability in tuning optimizers and collapse of representations during training. Such challenges motivate the need for a theory to shed light on the complex interplay between the choice of data augmentation, network architecture, and training algorithm. We study such an interplay with a precise analysis of generalization performance on both pretraining and downstream tasks in a theory friendly setup, and highlight several insights for SSL practitioners that arise from our theory.",
+    "link": "http://arxiv.org/abs/2302.02774",
+    "context": "Title: The SSL Interplay: Augmentations, Inductive Bias, and Generalization. (arXiv:2302.02774v2 [stat.ML] UPDATED)\nAbstract: Self-supervised learning (SSL) has emerged as a powerful framework to learn representations from raw data without supervision. Yet in practice, engineers face issues such as instability in tuning optimizers and collapse of representations during training. Such challenges motivate the need for a theory to shed light on the complex interplay between the choice of data augmentation, network architecture, and training algorithm. We study such an interplay with a precise analysis of generalization performance on both pretraining and downstream tasks in a theory friendly setup, and highlight several insights for SSL practitioners that arise from our theory.",
+    "path": "papers/23/02/2302.02774.json",
+    "total_tokens": 708,
+    "translated_title": "SSL的相互作用：增强、归纳偏差和泛化",
+    "translated_abstract": "自监督学习（SSL）已成为一种无需监督即可从原始数据中学习表示的强大框架。然而，在实践中，工程师面临着调整优化器和训练过程中表示塌陷等问题。这些挑战促使我们需要一种理论来阐明数据增强、网络架构和训练算法的选择之间的复杂相互作用。我们在一个理论友好的设置下，通过对预训练和下游任务的泛化性能进行精确分析，研究了这种相互作用，并强调了我们理论得出的SSL从业者的一些见解。",
+    "tldr": "本论文通过分析数据增强、网络架构和训练算法的相互作用，研究了预训练和下游任务的泛化性能，并为SSL从业人员提供了一些见解。",
+    "en_tdlr": "This paper studies the interplay between data augmentation, network architecture, and training algorithm in SSL, by analyzing the generalization performance on pretraining and downstream tasks, and provides insights for SSL practitioners."
+}

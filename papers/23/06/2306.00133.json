@@ -1,0 +1,12 @@
+{
+    "title": "A Note On Interpreting Canary Exposure. (arXiv:2306.00133v1 [cs.CR])",
+    "abstract": "Canary exposure, introduced in Carlini et al. is frequently used to empirically evaluate, or audit, the privacy of machine learning model training. The goal of this note is to provide some intuition on how to interpret canary exposure, including by relating it to membership inference attacks and differential privacy.",
+    "link": "http://arxiv.org/abs/2306.00133",
+    "context": "Title: A Note On Interpreting Canary Exposure. (arXiv:2306.00133v1 [cs.CR])\nAbstract: Canary exposure, introduced in Carlini et al. is frequently used to empirically evaluate, or audit, the privacy of machine learning model training. The goal of this note is to provide some intuition on how to interpret canary exposure, including by relating it to membership inference attacks and differential privacy.",
+    "path": "papers/23/06/2306.00133.json",
+    "total_tokens": 514,
+    "translated_title": "关于金丝雀曝光解释的一些注释",
+    "translated_abstract": "Carlini等人介绍的金丝雀暴露经常被用来实证评估或审核机器学习模型培训的隐私。这篇笔记的目的是提供一些关于如何解释金丝雀曝光的直觉，包括与成员推理攻击和差分隐私的关系。",
+    "tldr": "本文提供了关于如何解释金丝雀曝光的直觉，包括其与成员推理攻击和差分隐私的关系。",
+    "en_tdlr": "This note provides some intuition on how to interpret canary exposure, including by relating it to membership inference attacks and differential privacy."
+}

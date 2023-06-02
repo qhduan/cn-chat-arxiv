@@ -1,0 +1,12 @@
+{
+    "title": "A Comparison of Decision Algorithms on Newcomblike Problems. (arXiv:2306.00175v1 [cs.AI])",
+    "abstract": "When formulated using Bayesian networks, two standard decision algorithms (Evidential Decision Theory and Causal Decision Theory) can be shown to fail systematically when faced with aspects of the prisoner's dilemma and so-called \"Newcomblike\" problems. We describe a new form of decision algorithm, called Timeless Decision Theory, which consistently wins on these problems.",
+    "link": "http://arxiv.org/abs/2306.00175",
+    "context": "Title: A Comparison of Decision Algorithms on Newcomblike Problems. (arXiv:2306.00175v1 [cs.AI])\nAbstract: When formulated using Bayesian networks, two standard decision algorithms (Evidential Decision Theory and Causal Decision Theory) can be shown to fail systematically when faced with aspects of the prisoner's dilemma and so-called \"Newcomblike\" problems. We describe a new form of decision algorithm, called Timeless Decision Theory, which consistently wins on these problems.",
+    "path": "papers/23/06/2306.00175.json",
+    "total_tokens": 554,
+    "translated_title": "新康姆类问题上决策算法的比较",
+    "translated_abstract": "当采用贝叶斯网络的形式进行表述时，两种标准的决策算法（证据决策理论和因果决策理论）在犯人困境和所谓的“新康姆类”问题方面面临系统性失败。我们描述了一种新的决策算法，称为无时间的决策理论，该理论在这些问题上始终获胜。",
+    "tldr": "本文比较了三种决策算法在新康姆类问题上的表现，结果发现无时间的决策理论在这些问题上具有明显优势。",
+    "en_tdlr": "This paper compares three decision algorithms on Newcomblike problems and finds that Timeless Decision Theory outperforms the other two on these problems."
+}

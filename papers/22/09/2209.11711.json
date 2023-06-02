@@ -1,0 +1,12 @@
+{
+    "title": "Best Prompts for Text-to-Image Models and How to Find Them. (arXiv:2209.11711v3 [cs.HC] UPDATED)",
+    "abstract": "Recent progress in generative models, especially in text-guided diffusion models, has enabled the production of aesthetically-pleasing imagery resembling the works of professional human artists. However, one has to carefully compose the textual description, called the prompt, and augment it with a set of clarifying keywords. Since aesthetics are challenging to evaluate computationally, human feedback is needed to determine the optimal prompt formulation and keyword combination. In this paper, we present a human-in-the-loop approach to learning the most useful combination of prompt keywords using a genetic algorithm. We also show how such an approach can improve the aesthetic appeal of images depicting the same descriptions.",
+    "link": "http://arxiv.org/abs/2209.11711",
+    "context": "Title: Best Prompts for Text-to-Image Models and How to Find Them. (arXiv:2209.11711v3 [cs.HC] UPDATED)\nAbstract: Recent progress in generative models, especially in text-guided diffusion models, has enabled the production of aesthetically-pleasing imagery resembling the works of professional human artists. However, one has to carefully compose the textual description, called the prompt, and augment it with a set of clarifying keywords. Since aesthetics are challenging to evaluate computationally, human feedback is needed to determine the optimal prompt formulation and keyword combination. In this paper, we present a human-in-the-loop approach to learning the most useful combination of prompt keywords using a genetic algorithm. We also show how such an approach can improve the aesthetic appeal of images depicting the same descriptions.",
+    "path": "papers/22/09/2209.11711.json",
+    "total_tokens": 727,
+    "translated_title": "文字到图像模型的最佳提示及其如何找到",
+    "translated_abstract": "近期，生成模型中的文本引导扩散模型取得了显著进展，使得人工艺术家的作品得以以美学角度进行呈现。然而，必须仔细地组成文本描述，即提示，并用一组澄清的关键词进行增强。由于美学在计算方面很难进行评估，因此需要人类反馈来确定最佳提示公式和关键词组合。在本文中，我们提出了一种人在环的方法来通过遗传算法学习最有用的提示关键词组合。我们还展示了这种方法如何改善描绘相同描述的图像的美学吸引力。",
+    "tldr": "本文研究了文字到图像模型中最佳提示的组成和优化方法，采用人类反馈和遗传算法进行学习，实现了以美学角度进行呈现的专业人类艺术作品的生成。",
+    "en_tdlr": "This paper studies the composition and optimization of the best prompts for text-to-image models. It uses human feedback and genetic algorithms to learn and generate professional human artistic works from an aesthetic perspective."
+}

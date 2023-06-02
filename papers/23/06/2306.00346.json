@@ -1,0 +1,12 @@
+{
+    "title": "CAISA at SemEval-2023 Task 8: Counterfactual Data Augmentation for Mitigating Class Imbalance in Causal Claim Identification. (arXiv:2306.00346v1 [cs.CL])",
+    "abstract": "The class imbalance problem can cause machine learning models to produce an undesirable performance on the minority class as well as the whole dataset. Using data augmentation techniques to increase the number of samples is one way to tackle this problem. We introduce a novel counterfactual data augmentation by verb replacement for the identification of medical claims. In addition, we investigate the impact of this method and compare it with 3 other data augmentation techniques, showing that the proposed method can result in a significant (relative) improvement in the minority class.",
+    "link": "http://arxiv.org/abs/2306.00346",
+    "context": "Title: CAISA at SemEval-2023 Task 8: Counterfactual Data Augmentation for Mitigating Class Imbalance in Causal Claim Identification. (arXiv:2306.00346v1 [cs.CL])\nAbstract: The class imbalance problem can cause machine learning models to produce an undesirable performance on the minority class as well as the whole dataset. Using data augmentation techniques to increase the number of samples is one way to tackle this problem. We introduce a novel counterfactual data augmentation by verb replacement for the identification of medical claims. In addition, we investigate the impact of this method and compare it with 3 other data augmentation techniques, showing that the proposed method can result in a significant (relative) improvement in the minority class.",
+    "path": "papers/23/06/2306.00346.json",
+    "total_tokens": 709,
+    "translated_title": "SemEval2023任务8中的CAISA：反事实数据增广用于减轻因果关系提取中的类别不平衡问题",
+    "translated_abstract": "类别不平衡问题会导致机器学习模型在少数类和整个数据集上产生不理想的表现。使用数据增广技术来增加样本数量是解决这个问题的一种方式。我们提出了一种新颖的通过动词替换进行反事实数据增广的方法，用于医学因果关系提取。此外，我们还研究了该方法的影响，并将其与其他3种数据增广技术进行了比较，结果显示该方法可以显著（相对）提高少数类的性能。",
+    "tldr": "该论文提出了一种针对类别不平衡问题的新颖反事实数据增广方法，该方法通过动词替换进行，用于医学因果关系提取，并且与其他3种数据增广技术相比较，在少数类方面有显著提高。",
+    "en_tdlr": "This paper proposes a novel counterfactual data augmentation method using verb replacement for medical causal claim identification, which can mitigate the class imbalance problem and significantly improve performance on the minority class compared with other data augmentation techniques."
+}

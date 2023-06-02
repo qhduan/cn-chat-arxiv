@@ -1,0 +1,12 @@
+{
+    "title": "Life after (Soft) Default. (arXiv:2306.00574v1 [econ.GN])",
+    "abstract": "We analyze the impact of soft credit default (i.e. a delinquency of 90+ days) on individual trajectories. Using a proprietary dataset on about 2 million individuals for the years 2004 to 2020, we find that a soft default has substantial and long-lasting (i.e. up to ten years after the event) negative effects on credit score, total credit limit, home-ownership status, and income.",
+    "link": "http://arxiv.org/abs/2306.00574",
+    "context": "Title: Life after (Soft) Default. (arXiv:2306.00574v1 [econ.GN])\nAbstract: We analyze the impact of soft credit default (i.e. a delinquency of 90+ days) on individual trajectories. Using a proprietary dataset on about 2 million individuals for the years 2004 to 2020, we find that a soft default has substantial and long-lasting (i.e. up to ten years after the event) negative effects on credit score, total credit limit, home-ownership status, and income.",
+    "path": "papers/23/06/2306.00574.json",
+    "total_tokens": 646,
+    "translated_title": "软违约后的生活",
+    "translated_abstract": "我们分析了软违约（即逾期90天以上的情况）对个人轨迹的影响。使用一份约200万人的专有数据集，时间段为2004年到2020年，我们发现软违约对信用评分、信用额度总数、住房所有权状况和收入等方面都产生了重大且长期的（即事件发生后长达十年的）负面影响。",
+    "tldr": "该研究分析了软违约（逾期90天以上）对个人轨迹的影响。研究发现，软违约对信用评分、信用额度总数、住房所有权和收入方面产生了长期且重大的负面影响，该影响会持续十年左右。",
+    "en_tdlr": "This study analyzes the impact of soft credit default (i.e. delinquency of 90+ days) on individual trajectories. The findings indicate that soft defaults have substantial and long-lasting negative effects on credit score, total credit limit, home-ownership status, and income, lasting up to ten years after the event."
+}

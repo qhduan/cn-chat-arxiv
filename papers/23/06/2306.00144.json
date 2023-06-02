@@ -1,0 +1,12 @@
+{
+    "title": "Mechanic: A Learning Rate Tuner. (arXiv:2306.00144v1 [cs.LG])",
+    "abstract": "We introduce a technique for tuning the learning rate scale factor of any base optimization algorithm and schedule automatically, which we call \\textsc{mechanic}. Our method provides a practical realization of recent theoretical reductions for accomplishing a similar goal in online convex optimization. We rigorously evaluate \\textsc{mechanic} on a range of large scale deep learning tasks with varying batch sizes, schedules, and base optimization algorithms. These experiments demonstrate that depending on the problem, \\textsc{mechanic} either comes very close to, matches or even improves upon manual tuning of learning rates.",
+    "link": "http://arxiv.org/abs/2306.00144",
+    "context": "Title: Mechanic: A Learning Rate Tuner. (arXiv:2306.00144v1 [cs.LG])\nAbstract: We introduce a technique for tuning the learning rate scale factor of any base optimization algorithm and schedule automatically, which we call \\textsc{mechanic}. Our method provides a practical realization of recent theoretical reductions for accomplishing a similar goal in online convex optimization. We rigorously evaluate \\textsc{mechanic} on a range of large scale deep learning tasks with varying batch sizes, schedules, and base optimization algorithms. These experiments demonstrate that depending on the problem, \\textsc{mechanic} either comes very close to, matches or even improves upon manual tuning of learning rates.",
+    "path": "papers/23/06/2306.00144.json",
+    "total_tokens": 701,
+    "translated_title": "Mechanic: 一种学习率调节器",
+    "translated_abstract": "我们介绍了一种名为“机械师”的技术，用于自动调整任何基本优化算法和调度的学习率比例因子。我们的方法提供了实现类似目标的最近理论减少的实际应用，用于在线凸优化。我们在具有不同批量大小、调度和基本优化算法的一系列大规模深度学习任务中进行了严格评估。这些实验表明，根据问题，机械师要么非常接近，要么匹配或甚至优于手动调整学习率。",
+    "tldr": "机械师是一种学习率调节器，能自动调整任何基本优化算法和调度的学习率比例因子，可以实现在大规模深度学习任务中接近、匹配或甚至优于手动调整学习率的效果。",
+    "en_tdlr": "Mechanic is a learning rate tuner that can automatically adjust the learning rate scale factor of any base optimization algorithm and schedule, and can achieve results in large-scale deep learning tasks that are close to, matching, or even better than manually adjusting the learning rate."
+}

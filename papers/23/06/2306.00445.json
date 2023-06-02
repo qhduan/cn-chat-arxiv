@@ -1,0 +1,12 @@
+{
+    "title": "A big data approach towards sarcasm detection in Russian. (arXiv:2306.00445v1 [cs.CL])",
+    "abstract": "We present a set of deterministic algorithms for Russian inflection and automated text synthesis. These algorithms are implemented in a publicly available web-service www.passare.ru. This service provides functions for inflection of single words, word matching and synthesis of grammatically correct Russian text. Selected code and datasets are available at https://github.com/passare-ru/PassareFunctions/ Performance of the inflectional functions has been tested against the annotated corpus of Russian language OpenCorpora, compared with that of other solutions, and used for estimating the morphological variability and complexity of different parts of speech in Russian.",
+    "link": "http://arxiv.org/abs/2306.00445",
+    "context": "Title: A big data approach towards sarcasm detection in Russian. (arXiv:2306.00445v1 [cs.CL])\nAbstract: We present a set of deterministic algorithms for Russian inflection and automated text synthesis. These algorithms are implemented in a publicly available web-service www.passare.ru. This service provides functions for inflection of single words, word matching and synthesis of grammatically correct Russian text. Selected code and datasets are available at https://github.com/passare-ru/PassareFunctions/ Performance of the inflectional functions has been tested against the annotated corpus of Russian language OpenCorpora, compared with that of other solutions, and used for estimating the morphological variability and complexity of different parts of speech in Russian.",
+    "path": "papers/23/06/2306.00445.json",
+    "total_tokens": 751,
+    "translated_title": "一种基于大数据的俄语讽刺检测方法",
+    "translated_abstract": "本文提出了一组针对俄罗斯语言屈折和自动文本合成的确定性算法，并在公开可用的网络服务www.passare.ru中实现。该服务提供了单词屈折、词匹配和生成语法正确的俄语文本的功能。所选代码和数据集可在https://github.com/passare-ru/PassareFunctions/中获得。针对OpenCorpora注释语料库对屈折功能的性能进行了测试，与其他解决方案进行了比较，并用于估计俄语不同词性的形态变异性和复杂性。",
+    "tldr": "本文介绍了一种针对俄语文本的大数据方法，旨在检测文本中的讽刺。作者提出了一组可用于屈折和文本合成的算法，并在一个公开可用的网络服务中实现。对这些算法的性能进行了测试和比较，同时用于估计俄语不同词性的形态变异性和复杂性。",
+    "en_tdlr": "This paper presents a big data approach to detecting sarcasm in Russian texts. The authors propose a set of deterministic algorithms for inflection and text synthesis, implemented in a publicly available web-service. The performance of these algorithms is tested and compared, and used to estimate the morphological variability and complexity of different parts of speech in Russian."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Bootstrapping Parallel Anchors for Relative Representations. (arXiv:2303.00721v2 [cs.LG] UPDATED)",
+    "abstract": "The use of relative representations for latent embeddings has shown potential in enabling latent space communication and zero-shot model stitching across a wide range of applications. Nevertheless, relative representations rely on a certain amount of parallel anchors to be given as input, which can be impractical to obtain in certain scenarios. To overcome this limitation, we propose an optimization-based method to discover new parallel anchors from a limited known set (seed). Our approach can be used to find semantic correspondence between different domains, align their relative spaces, and achieve competitive results in several tasks.",
+    "link": "http://arxiv.org/abs/2303.00721",
+    "context": "Title: Bootstrapping Parallel Anchors for Relative Representations. (arXiv:2303.00721v2 [cs.LG] UPDATED)\nAbstract: The use of relative representations for latent embeddings has shown potential in enabling latent space communication and zero-shot model stitching across a wide range of applications. Nevertheless, relative representations rely on a certain amount of parallel anchors to be given as input, which can be impractical to obtain in certain scenarios. To overcome this limitation, we propose an optimization-based method to discover new parallel anchors from a limited known set (seed). Our approach can be used to find semantic correspondence between different domains, align their relative spaces, and achieve competitive results in several tasks.",
+    "path": "papers/23/03/2303.00721.json",
+    "total_tokens": 693,
+    "translated_title": "为相对表示式引入并行锚点的引导方法",
+    "translated_abstract": "相对表示法在各种应用中都显示出了作为潜在嵌入法的潜力，例如启用潜在空间通信和模型拼接。然而，相对表示依赖于一定量的并行锚点作为输入，但在某些情况下难以获取这些锚点。为了克服这一限制，我们提出了一种优化方法，从有限的已知集合（种子）中发现新的并行锚点。我们的方法可以用于在不同域之间寻找语义对应，对齐它们的相对空间，并在多项任务中取得竞争性结果。",
+    "tldr": "该论文提出了一种引导方法，通过已知的集合发现新的并行锚点，以克服相对表示式中获取并行锚点困难的问题，能够用于不同域之间的语义对应，取得竞争性结果。",
+    "en_tdlr": "This paper proposes a bootstrapping method to discover new parallel anchors from a limited known set, which can be used to overcome the problem of obtaining parallel anchors in relative representations, and achieve competitive results in different domains."
+}

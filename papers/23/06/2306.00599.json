@@ -1,0 +1,12 @@
+{
+    "title": "The Cost of Misspecifying Price Impact. (arXiv:2306.00599v1 [q-fin.TR])",
+    "abstract": "Portfolio managers' orders trade off return and trading cost predictions. Return predictions rely on alpha models, whereas price impact models quantify trading costs. This paper studies what happens when trades are based on an incorrect price impact model, so that the portfolio either over- or under-trades its alpha signal. We derive tractable formulas for these misspecification costs and illustrate them on proprietary trading data. The misspecification costs are naturally asymmetric: underestimating impact concavity or impact decay shrinks profits, but overestimating concavity or impact decay can even turn profits into losses.",
+    "link": "http://arxiv.org/abs/2306.00599",
+    "context": "Title: The Cost of Misspecifying Price Impact. (arXiv:2306.00599v1 [q-fin.TR])\nAbstract: Portfolio managers' orders trade off return and trading cost predictions. Return predictions rely on alpha models, whereas price impact models quantify trading costs. This paper studies what happens when trades are based on an incorrect price impact model, so that the portfolio either over- or under-trades its alpha signal. We derive tractable formulas for these misspecification costs and illustrate them on proprietary trading data. The misspecification costs are naturally asymmetric: underestimating impact concavity or impact decay shrinks profits, but overestimating concavity or impact decay can even turn profits into losses.",
+    "path": "papers/23/06/2306.00599.json",
+    "total_tokens": 753,
+    "translated_title": "价格影响误差的代价",
+    "translated_abstract": "投资组合经理的订单平衡回报和交易成本预测。回报预测依赖于α模型，而价格影响模型量化交易成本。本文研究了当交易基于不正确的价格影响模型时会发生什么，使得投资组合过度或不足地进行α信号交易。我们导出了这些错误规范成本的易于处理的公式，并在专有交易数据上进行了说明。错误规范成本自然是不对称的：低估影响凹度或影响衰减会缩小利润，但高估凹度或影响衰减甚至会把利润变成亏损。",
+    "tldr": "本文研究了当交易基于不正确的价格影响模型时会发生什么，使得投资组合过度或不足地进行α信号交易。错误规范成本自然是不对称的：低估影响凹度或影响衰减会缩小利润，但高估凹度或影响衰减甚至会把利润变成亏损。",
+    "en_tdlr": "This paper investigates the consequences of trades based on an incorrect price impact model, leading to over- or under-trading of the alpha signal, resulting in asymmetric misspecification costs that can turn profits into losses."
+}

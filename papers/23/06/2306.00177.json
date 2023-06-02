@@ -1,0 +1,12 @@
+{
+    "title": "Contrastive Hierarchical Discourse Graph for Scientific Document Summarization. (arXiv:2306.00177v1 [cs.CL])",
+    "abstract": "The extended structural context has made scientific paper summarization a challenging task. This paper proposes CHANGES, a contrastive hierarchical graph neural network for extractive scientific paper summarization. CHANGES represents a scientific paper with a hierarchical discourse graph and learns effective sentence representations with dedicated designed hierarchical graph information aggregation. We also propose a graph contrastive learning module to learn global theme-aware sentence representations. Extensive experiments on the PubMed and arXiv benchmark datasets prove the effectiveness of CHANGES and the importance of capturing hierarchical structure information in modeling scientific papers.",
+    "link": "http://arxiv.org/abs/2306.00177",
+    "context": "Title: Contrastive Hierarchical Discourse Graph for Scientific Document Summarization. (arXiv:2306.00177v1 [cs.CL])\nAbstract: The extended structural context has made scientific paper summarization a challenging task. This paper proposes CHANGES, a contrastive hierarchical graph neural network for extractive scientific paper summarization. CHANGES represents a scientific paper with a hierarchical discourse graph and learns effective sentence representations with dedicated designed hierarchical graph information aggregation. We also propose a graph contrastive learning module to learn global theme-aware sentence representations. Extensive experiments on the PubMed and arXiv benchmark datasets prove the effectiveness of CHANGES and the importance of capturing hierarchical structure information in modeling scientific papers.",
+    "path": "papers/23/06/2306.00177.json",
+    "total_tokens": 743,
+    "translated_title": "面向科学文献摘要的对比分层话语图模型",
+    "translated_abstract": "在扩展的结构上下文条件下，科学论文摘要成为一项具有挑战性的任务。本文提出了一个名为CHANGES的对比分层图神经网络，以提取科学论文摘要。该模型将科学论文表示为一个分层的话语图，并使用专门设计的分层图信息聚合方法学习有效的句子表示。同时，本文还提出了一个图对比学习模块，以学习全局的主题感知句子表示。在PubMed和arXiv基准数据集上的大量实验结果证明了CHANGES的有效性以及在建模科学论文时捕捉分层结构信息的重要性。",
+    "tldr": "本文提出了CHANGES，一种对比分层图神经网络，用于提取科学论文的摘要。该模型能够使用分层话语图和图对比学习模块，学习有效的句子表示，并在实验中证明了其有效性和在建模科学论文时捕捉分层结构信息的重要性。",
+    "en_tdlr": "This paper proposes CHANGES, a contrastive hierarchical graph neural network for extractive scientific paper summarization. The model uses a hierarchical discourse graph and a graph contrastive learning module to learn effective sentence representations and has been proved efficient on benchmark datasets."
+}

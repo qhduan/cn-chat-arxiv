@@ -1,0 +1,12 @@
+{
+    "title": "Auto-Differentiation of Relational Computations for Very Large Scale Machine Learning. (arXiv:2306.00088v1 [cs.LG])",
+    "abstract": "The relational data model was designed to facilitate large-scale data management and analytics. We consider the problem of how to differentiate computations expressed relationally. We show experimentally that a relational engine running an auto-differentiated relational algorithm can easily scale to very large datasets, and is competitive with state-of-the-art, special-purpose systems for large-scale distributed machine learning.",
+    "link": "http://arxiv.org/abs/2306.00088",
+    "context": "Title: Auto-Differentiation of Relational Computations for Very Large Scale Machine Learning. (arXiv:2306.00088v1 [cs.LG])\nAbstract: The relational data model was designed to facilitate large-scale data management and analytics. We consider the problem of how to differentiate computations expressed relationally. We show experimentally that a relational engine running an auto-differentiated relational algorithm can easily scale to very large datasets, and is competitive with state-of-the-art, special-purpose systems for large-scale distributed machine learning.",
+    "path": "papers/23/06/2306.00088.json",
+    "total_tokens": 580,
+    "translated_title": "面向大规模机器学习的关系计算自动微分",
+    "translated_abstract": "关系数据模型被设计用于大规模数据管理和分析。本文探讨了如何求解关系计算中的自动微分问题。我们在实验中展示了一个运行自动微分关系算法的关系引擎可以轻松扩展到非常大的数据集，并且在大规模分布式机器学习方面与最先进的专用系统相竞争。",
+    "tldr": "本文提出了一种面向关系计算的自动微分方法，实验表明该方法可达到非常大的数据集规模，并在大规模分布式机器学习中表现出与专用系统相媲美的竞争力。",
+    "en_tdlr": "This paper proposes an auto-differentiation method for relational computations, which can scale to very large datasets and is competitive with state-of-the-art systems for large-scale distributed machine learning."
+}

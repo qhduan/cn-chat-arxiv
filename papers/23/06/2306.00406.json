@@ -1,0 +1,12 @@
+{
+    "title": "Faster Robust Tensor Power Method for Arbitrary Order. (arXiv:2306.00406v1 [cs.LG])",
+    "abstract": "Tensor decomposition is a fundamental method used in various areas to deal with high-dimensional data. \\emph{Tensor power method} (TPM) is one of the widely-used techniques in the decomposition of tensors. This paper presents a novel tensor power method for decomposing arbitrary order tensors, which overcomes limitations of existing approaches that are often restricted to lower-order (less than $3$) tensors or require strong assumptions about the underlying data structure. We apply sketching method, and we are able to achieve the running time of $\\widetilde{O}(n^{p-1})$, on the power $p$ and dimension $n$ tensor. We provide a detailed analysis for any $p$-th order tensor, which is never given in previous works.",
+    "link": "http://arxiv.org/abs/2306.00406",
+    "context": "Title: Faster Robust Tensor Power Method for Arbitrary Order. (arXiv:2306.00406v1 [cs.LG])\nAbstract: Tensor decomposition is a fundamental method used in various areas to deal with high-dimensional data. \\emph{Tensor power method} (TPM) is one of the widely-used techniques in the decomposition of tensors. This paper presents a novel tensor power method for decomposing arbitrary order tensors, which overcomes limitations of existing approaches that are often restricted to lower-order (less than $3$) tensors or require strong assumptions about the underlying data structure. We apply sketching method, and we are able to achieve the running time of $\\widetilde{O}(n^{p-1})$, on the power $p$ and dimension $n$ tensor. We provide a detailed analysis for any $p$-th order tensor, which is never given in previous works.",
+    "path": "papers/23/06/2306.00406.json",
+    "total_tokens": 726,
+    "translated_title": "高阶鲁棒张量幂方法的快速实现",
+    "translated_abstract": "张量分解是处理高维数据的一种基本方法，其中张量幂方法 (TPM) 是张量分解中广泛使用的技术之一。本文提出了一种新的张量幂方法，用于分解任意阶张量，它克服了现有方法的局限性，这些方法通常局限于低阶张量（小于3）或需要对底层数据结构做出强烈的假设。我们应用了草图方法，并能够在幂p和维度n的张量上实现运行时间为$\\widetilde{O}(n^{p-1})$。我们提供了详细的分析，适用于任何p阶张量，这在以前的工作中从未给出。",
+    "tldr": "本文提出了一种新的张量幂方法，用于分解任意阶张量，与现有方法相比，它可以更高效地处理高阶张量。",
+    "en_tdlr": "This paper proposes a novel tensor power method for decomposing arbitrary order tensors, which outperforms existing methods in dealing with high-order tensors in a more efficient way."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Transfer Learning for Underrepresented Music Generation. (arXiv:2306.00281v1 [cs.LG])",
+    "abstract": "This paper investigates a combinational creativity approach to transfer learning to improve the performance of deep neural network-based models for music generation on out-of-distribution (OOD) genres. We identify Iranian folk music as an example of such an OOD genre for MusicVAE, a large generative music model. We find that a combinational creativity transfer learning approach can efficiently adapt MusicVAE to an Iranian folk music dataset, indicating potential for generating underrepresented music genres in the future.",
+    "link": "http://arxiv.org/abs/2306.00281",
+    "context": "Title: Transfer Learning for Underrepresented Music Generation. (arXiv:2306.00281v1 [cs.LG])\nAbstract: This paper investigates a combinational creativity approach to transfer learning to improve the performance of deep neural network-based models for music generation on out-of-distribution (OOD) genres. We identify Iranian folk music as an example of such an OOD genre for MusicVAE, a large generative music model. We find that a combinational creativity transfer learning approach can efficiently adapt MusicVAE to an Iranian folk music dataset, indicating potential for generating underrepresented music genres in the future.",
+    "path": "papers/23/06/2306.00281.json",
+    "total_tokens": 680,
+    "translated_title": "面向代表性不足音乐生成的迁移学习",
+    "translated_abstract": "本文研究了一种组合创造性方法来进行迁移学习，以提高基于深度神经网络的音乐生成模型在分布外（OOD）流派上的性能。我们以伊朗民间音乐为例，这是 MusicVAE，一个大型生成音乐模型，无法处理的OOD流派之一。我们发现，组合创造性的迁移学习方法可以有效地将MusicVAE调整为伊朗民间音乐数据集，这表明未来可以生成代表性不足的音乐流派。",
+    "tldr": "本文介绍了一种组合创造性方法进行迁移学习，可以使深度神经网络在分布外流派上的性能得到提高，以伊朗民间音乐为例进行了实验，结果表明未来可能通过这种方法实现代表性不足音乐流派的生成。",
+    "en_tdlr": "This paper proposes a combinational creativity approach to transfer learning for improving the performance of deep neural network-based models for music generation on out-of-distribution genres. The experiment with Iranian folk music shows potential for generating underrepresented music genres in the future."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Explainability in Simplicial Map Neural Networks. (arXiv:2306.00010v1 [cs.LG])",
+    "abstract": "Simplicial map neural networks (SMNNs) are topology-based neural networks with interesting properties such as universal approximation capability and robustness to adversarial examples under appropriate conditions. However, SMNNs present some bottlenecks for their possible application in high dimensions. First, no SMNN training process has been defined so far. Second, SMNNs require the construction of a convex polytope surrounding the input dataset. In this paper, we propose a SMNN training procedure based on a support subset of the given dataset and a method based on projection to a hypersphere as a replacement for the convex polytope construction. In addition, the explainability capacity of SMNNs is also introduced for the first time in this paper.",
+    "link": "http://arxiv.org/abs/2306.00010",
+    "context": "Title: Explainability in Simplicial Map Neural Networks. (arXiv:2306.00010v1 [cs.LG])\nAbstract: Simplicial map neural networks (SMNNs) are topology-based neural networks with interesting properties such as universal approximation capability and robustness to adversarial examples under appropriate conditions. However, SMNNs present some bottlenecks for their possible application in high dimensions. First, no SMNN training process has been defined so far. Second, SMNNs require the construction of a convex polytope surrounding the input dataset. In this paper, we propose a SMNN training procedure based on a support subset of the given dataset and a method based on projection to a hypersphere as a replacement for the convex polytope construction. In addition, the explainability capacity of SMNNs is also introduced for the first time in this paper.",
+    "path": "papers/23/06/2306.00010.json",
+    "total_tokens": 712,
+    "translated_title": "简单形式映射神经网络中的可解释性",
+    "translated_abstract": "简单形式映射神经网络（SMNN）是基于拓扑学的神经网络，具有普适逼近能力和在适当条件下对抗性示例的鲁棒性。然而，在高维中应用 SMNN 存在一些瓶颈，首先没有定义 SMNN 的训练过程，其次对于输入数据集需要构建一个包围凸多面体。本文提出了基于给定数据集的支持子集和投影到超球面的方法作为替代凸多面体的 SMNN 训练过程，并首次引入了 SMNN 的可解释性能力。",
+    "tldr": "本文提出了简单形式映射神经网络（SMNN）的训练过程和替代凸多面体的方法，并且首次引入了 SMNN 的可解释性能力。",
+    "en_tdlr": "This paper proposes a training procedure and an alternative method for simplicial map neural networks (SMNN) that addresses their limitations in high dimensions, while also introducing their explainability capacity for the first time."
+}

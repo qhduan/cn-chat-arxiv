@@ -1,0 +1,12 @@
+{
+    "title": "How Do ConvNets Understand Image Intensity?. (arXiv:2306.00360v1 [cs.CV])",
+    "abstract": "Convolutional Neural Networks (ConvNets) usually rely on edge/shape information to classify images. Visualization methods developed over the last decade confirm that ConvNets rely on edge information. We investigate situations where the ConvNet needs to rely on image intensity in addition to shape. We show that the ConvNet relies on image intensity information using visualization.",
+    "link": "http://arxiv.org/abs/2306.00360",
+    "context": "Title: How Do ConvNets Understand Image Intensity?. (arXiv:2306.00360v1 [cs.CV])\nAbstract: Convolutional Neural Networks (ConvNets) usually rely on edge/shape information to classify images. Visualization methods developed over the last decade confirm that ConvNets rely on edge information. We investigate situations where the ConvNet needs to rely on image intensity in addition to shape. We show that the ConvNet relies on image intensity information using visualization.",
+    "path": "papers/23/06/2306.00360.json",
+    "total_tokens": 522,
+    "translated_title": "ConvNets是如何理解图像亮度的？",
+    "translated_abstract": "卷积神经网络(ConvNets)通常依赖边缘/形状信息来分类图像。过去十年间开发的可视化方法确认ConvNets依靠边缘信息。我们研究了ConvNets需要除形状信息外还需依赖图像亮度的情况。我们通过可视化展示了ConvNets依赖图像亮度信息。",
+    "tldr": "该论文研究了ConvNets需要依赖图像亮度信息的情况，并通过可视化进行了展示。",
+    "en_tdlr": "This paper investigates the situation where ConvNets need to rely on image intensity in addition to shape, and shows it through visualization methods."
+}

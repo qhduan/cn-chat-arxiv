@@ -1,0 +1,12 @@
+{
+    "title": "On the Equivalence of Consistency-Type Models: Consistency Models, Consistent Diffusion Models, and Fokker-Planck Regularization. (arXiv:2306.00367v1 [math.ST])",
+    "abstract": "The emergence of various notions of ``consistency'' in diffusion models has garnered considerable attention and helped achieve improved sample quality, likelihood estimation, and accelerated sampling. Although similar concepts have been proposed in the literature, the precise relationships among them remain unclear. In this study, we establish theoretical connections between three recent ``consistency'' notions designed to enhance diffusion models for distinct objectives. Our insights offer the potential for a more comprehensive and encompassing framework for consistency-type models.",
+    "link": "http://arxiv.org/abs/2306.00367",
+    "context": "Title: On the Equivalence of Consistency-Type Models: Consistency Models, Consistent Diffusion Models, and Fokker-Planck Regularization. (arXiv:2306.00367v1 [math.ST])\nAbstract: The emergence of various notions of ``consistency'' in diffusion models has garnered considerable attention and helped achieve improved sample quality, likelihood estimation, and accelerated sampling. Although similar concepts have been proposed in the literature, the precise relationships among them remain unclear. In this study, we establish theoretical connections between three recent ``consistency'' notions designed to enhance diffusion models for distinct objectives. Our insights offer the potential for a more comprehensive and encompassing framework for consistency-type models.",
+    "path": "papers/23/06/2306.00367.json",
+    "total_tokens": 709,
+    "translated_title": "关于一致性模型的等价性: 一致性模型，一致性扩散模型和Fokker-Planck正则化",
+    "translated_abstract": "扩散模型中各种“一致性”概念的出现引起了很大关注，帮助改善了样本质量、似然估计和加速抽样。虽然在文献中类似的概念已经被提出，但它们之间的确切关系仍不清楚。在本研究中，我们建立了三个最近的“一致性”概念之间的理论联系，旨在为不同目标增强扩散模型。我们的见解为一致性类型模型提供了更全面和包容性的框架的可能性。",
+    "tldr": "本研究建立了一致性模型，一致性扩散模型和Fokker-Planck正则化之间的理论联系，为不同目标增强扩散模型提供了更全面和包容性的框架的可能性。",
+    "en_tdlr": "This study establishes theoretical connections between three recent \"consistency\" notions in diffusion models and offers the potential for a more comprehensive and encompassing framework for consistency-type models."
+}
