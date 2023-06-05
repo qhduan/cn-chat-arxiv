@@ -1,0 +1,12 @@
+{
+    "title": "Why Did the Chicken Cross the Road? Rephrasing and Analyzing Ambiguous Questions in VQA. (arXiv:2211.07516v2 [cs.CL] UPDATED)",
+    "abstract": "Natural language is ambiguous. Resolving ambiguous questions is key to successfully answering them. Focusing on questions about images, we create a dataset of ambiguous examples. We annotate these, grouping answers by the underlying question they address and rephrasing the question for each group to reduce ambiguity. Our analysis reveals a linguistically-aligned ontology of reasons for ambiguity in visual questions. We then develop an English question-generation model which we demonstrate via automatic and human evaluation produces less ambiguous questions. We further show that the question generation objective we use allows the model to integrate answer group information without any direct supervision.",
+    "link": "http://arxiv.org/abs/2211.07516",
+    "context": "Title: Why Did the Chicken Cross the Road? Rephrasing and Analyzing Ambiguous Questions in VQA. (arXiv:2211.07516v2 [cs.CL] UPDATED)\nAbstract: Natural language is ambiguous. Resolving ambiguous questions is key to successfully answering them. Focusing on questions about images, we create a dataset of ambiguous examples. We annotate these, grouping answers by the underlying question they address and rephrasing the question for each group to reduce ambiguity. Our analysis reveals a linguistically-aligned ontology of reasons for ambiguity in visual questions. We then develop an English question-generation model which we demonstrate via automatic and human evaluation produces less ambiguous questions. We further show that the question generation objective we use allows the model to integrate answer group information without any direct supervision.",
+    "path": "papers/22/11/2211.07516.json",
+    "total_tokens": 745,
+    "translated_title": "为什么小鸡要穿过马路？重述和分析 VQA 中的歧义问题。",
+    "translated_abstract": "自然语言具有歧义性，解决歧义问题对于成功回答问题至关重要。本文着眼于关于图像的问题，创建了一个歧义问题的数据集，对其进行了注释，通过重新构述问题并将答案按其所回答的问题进行分组，以减少歧义。我们的分析揭示了视觉问题中歧义原因的与语言对齐本体论。然后，我们开发了一种英语问题生成模型，通过自动和人工评估展示其能够产生较少歧义的问题。我们进一步表明，我们使用的问题生成目标允许模型在没有任何直接指导的情况下集成答案组信息。",
+    "tldr": "本文提出了一个新的数据集，针对图像问题的歧义性问题进行了研究，通过重新构述问题并分组答案来减少歧义。同时，开发了一种英语问题生成模型，该模型能够产生更少歧义的问题。",
+    "en_tdlr": "The paper proposes a new dataset to study ambiguous questions in visual question answering by rephrasing the questions and grouping answers. Additionally, an English question-generation model was developed to reduce ambiguity in generated questions."
+}

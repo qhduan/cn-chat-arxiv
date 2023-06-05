@@ -1,0 +1,12 @@
+{
+    "title": "A systematic literature review on the code smells datasets and validation mechanisms. (arXiv:2306.01377v1 [cs.SE])",
+    "abstract": "The accuracy reported for code smell-detecting tools varies depending on the dataset used to evaluate the tools. Our survey of 45 existing datasets reveals that the adequacy of a dataset for detecting smells highly depends on relevant properties such as the size, severity level, project types, number of each type of smell, number of smells, and the ratio of smelly to non-smelly samples in the dataset. Most existing datasets support God Class, Long Method, and Feature Envy while six smells in Fowler and Beck's catalog are not supported by any datasets. We conclude that existing datasets suffer from imbalanced samples, lack of supporting severity level, and restriction to Java language.",
+    "link": "http://arxiv.org/abs/2306.01377",
+    "context": "Title: A systematic literature review on the code smells datasets and validation mechanisms. (arXiv:2306.01377v1 [cs.SE])\nAbstract: The accuracy reported for code smell-detecting tools varies depending on the dataset used to evaluate the tools. Our survey of 45 existing datasets reveals that the adequacy of a dataset for detecting smells highly depends on relevant properties such as the size, severity level, project types, number of each type of smell, number of smells, and the ratio of smelly to non-smelly samples in the dataset. Most existing datasets support God Class, Long Method, and Feature Envy while six smells in Fowler and Beck's catalog are not supported by any datasets. We conclude that existing datasets suffer from imbalanced samples, lack of supporting severity level, and restriction to Java language.",
+    "path": "papers/23/06/2306.01377.json",
+    "total_tokens": 736,
+    "translated_title": "一份关于代码异味数据集和验证机制的系统文献综述 (arXiv:2306.01377v1 [cs.SE])",
+    "translated_abstract": "代码异味检测工具的准确性取决于用于评估这些工具的数据集。我们调查了45个现有数据集，发现数据集的充分性高度取决于相关属性，例如大小，严重级别，项目类型，每种异味的数量，异味的数量，以及数据集中发生异味和非异味样本的比例。大多数现有数据集支持God Class，Long Method和Feature Envy，而Fowler和Beck目录中的六种异味没有被任何数据集支持。我们得出结论，现有数据集存在样本不平衡，缺乏支持严重级别，且仅限于Java语言的限制。",
+    "tldr": "代码异味检测工具的准确性取决于所使用的数据集，现有数据集存在样本不平衡、缺乏支持严重级别和仅限于Java语言等问题。",
+    "en_tdlr": "The accuracy of code smell-detecting tools depends on the datasets used to evaluate them, but existing datasets suffer from issues such as imbalanced samples, lack of support for severity levels, and being restricted to the Java language."
+}

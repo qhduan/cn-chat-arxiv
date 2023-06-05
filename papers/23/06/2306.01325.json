@@ -1,0 +1,11 @@
+{
+    "title": "LyricSIM: A novel Dataset and Benchmark for Similarity Detection in Spanish Song LyricS. (arXiv:2306.01325v1 [cs.CL])",
+    "abstract": "In this paper, we present a new dataset and benchmark tailored to the task of semantic similarity in song lyrics. Our dataset, originally consisting of 2775 pairs of Spanish songs, was annotated in a collective annotation experiment by 63 native annotators. After collecting and refining the data to ensure a high degree of consensus and data integrity, we obtained 676 high-quality annotated pairs that were used to evaluate the performance of various state-of-the-art monolingual and multilingual language models. Consequently, we established baseline results that we hope will be useful to the community in all future academic and industrial applications conducted in this context.",
+    "link": "http://arxiv.org/abs/2306.01325",
+    "context": "Title: LyricSIM: A novel Dataset and Benchmark for Similarity Detection in Spanish Song LyricS. (arXiv:2306.01325v1 [cs.CL])\nAbstract: In this paper, we present a new dataset and benchmark tailored to the task of semantic similarity in song lyrics. Our dataset, originally consisting of 2775 pairs of Spanish songs, was annotated in a collective annotation experiment by 63 native annotators. After collecting and refining the data to ensure a high degree of consensus and data integrity, we obtained 676 high-quality annotated pairs that were used to evaluate the performance of various state-of-the-art monolingual and multilingual language models. Consequently, we established baseline results that we hope will be useful to the community in all future academic and industrial applications conducted in this context.",
+    "path": "papers/23/06/2306.01325.json",
+    "total_tokens": 745,
+    "translated_title": "LyricSIM：一种用于检测西班牙歌词相似性的新数据集和基准",
+    "translated_abstract": "本文介绍了一个新的数据集和基准，旨在针对歌词的语义相似性任务。我们的数据集最初由2775对西班牙歌曲组成，由63个本地注释者进行集体注释实验。经过收集和精细化处理数据以确保高度的共识和数据完整性，我们获得了676个高质量的标注对，用于评估各种最先进的单语和多语言语言模型的性能。因此，我们建立了基准结果，希望这些结果对该领域未来的学术和工业应用有所帮助。",
+    "tldr": "本文介绍了一种针对语义相似性任务的新数据集和基准，由多个本地注释者完成集体注释实验，评估了各种最先进的单语和多语言语言模型的性能，建立了基准结果。"
+}

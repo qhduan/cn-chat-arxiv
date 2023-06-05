@@ -1,0 +1,12 @@
+{
+    "title": "Multi-Objective Population Based Training. (arXiv:2306.01436v1 [cs.LG])",
+    "abstract": "Population Based Training (PBT) is an efficient hyperparameter optimization algorithm. PBT is a single-objective algorithm, but many real-world hyperparameter optimization problems involve two or more conflicting objectives. In this work, we therefore introduce a multi-objective version of PBT, MO-PBT. Our experiments on diverse multi-objective hyperparameter optimization problems (Precision/Recall, Accuracy/Fairness, Accuracy/Adversarial Robustness) show that MO-PBT outperforms random search, single-objective PBT, and the state-of-the-art multi-objective hyperparameter optimization algorithm MO-ASHA.",
+    "link": "http://arxiv.org/abs/2306.01436",
+    "context": "Title: Multi-Objective Population Based Training. (arXiv:2306.01436v1 [cs.LG])\nAbstract: Population Based Training (PBT) is an efficient hyperparameter optimization algorithm. PBT is a single-objective algorithm, but many real-world hyperparameter optimization problems involve two or more conflicting objectives. In this work, we therefore introduce a multi-objective version of PBT, MO-PBT. Our experiments on diverse multi-objective hyperparameter optimization problems (Precision/Recall, Accuracy/Fairness, Accuracy/Adversarial Robustness) show that MO-PBT outperforms random search, single-objective PBT, and the state-of-the-art multi-objective hyperparameter optimization algorithm MO-ASHA.",
+    "path": "papers/23/06/2306.01436.json",
+    "total_tokens": 670,
+    "translated_title": "多目标基因群体训练",
+    "translated_abstract": "基因群体训练（PBT）是一种有效的超参数优化算法。PBT是一种单目标算法，然而，许多现实世界的超参数优化问题涉及两个或更多冲突的目标。在本文中，我们引入了一种多目标版的PBT（MO-PBT）。我们在多样化的多目标超参数优化问题（精确度/召回率、准确度/公平性、准确度/对抗性鲁棒性）上的实验表明，MO-PBT优于随机搜索、单目标PBT和最先进的多目标超参数优化算法MO-ASHA。",
+    "tldr": "作者提出了一种多目标版基因群体训练算法MO-PBT，实验证明其在多种冲突目标下均优于其他算法。",
+    "en_tdlr": "The authors propose a multi-objective version of Population Based Training (MO-PBT) and experimental results show that it outperforms other algorithms on diverse multi-objective hyperparameter optimization problems involving conflicting objectives."
+}

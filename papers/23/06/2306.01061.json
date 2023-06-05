@@ -1,0 +1,12 @@
+{
+    "title": "Reimagining Retrieval Augmented Language Models for Answering Queries. (arXiv:2306.01061v1 [cs.CL])",
+    "abstract": "We present a reality check on large language models and inspect the promise of retrieval augmented language models in comparison. Such language models are semi-parametric, where models integrate model parameters and knowledge from external data sources to make their predictions, as opposed to the parametric nature of vanilla large language models. We give initial experimental findings that semi-parametric architectures can be enhanced with views, a query analyzer/planner, and provenance to make a significantly more powerful system for question answering in terms of accuracy and efficiency, and potentially for other NLP tasks",
+    "link": "http://arxiv.org/abs/2306.01061",
+    "context": "Title: Reimagining Retrieval Augmented Language Models for Answering Queries. (arXiv:2306.01061v1 [cs.CL])\nAbstract: We present a reality check on large language models and inspect the promise of retrieval augmented language models in comparison. Such language models are semi-parametric, where models integrate model parameters and knowledge from external data sources to make their predictions, as opposed to the parametric nature of vanilla large language models. We give initial experimental findings that semi-parametric architectures can be enhanced with views, a query analyzer/planner, and provenance to make a significantly more powerful system for question answering in terms of accuracy and efficiency, and potentially for other NLP tasks",
+    "path": "papers/23/06/2306.01061.json",
+    "total_tokens": 660,
+    "translated_title": "重塑检索增强语言模型以回答查询问题",
+    "translated_abstract": "我们对大型语言模型进行了现实检验，并比较了检索增强语言模型的潜力。这些语言模型是半参数化的，模型将模型参数和外部数据源的知识集成到其预测中，与香草大型语言模型的参数化性质相反。我们给出了半参数化体系结构与查询分析器/计划器以及溯源相结合可使问题回答的系统在准确性和效率方面显著提高的初步实验结果，并在潜在的其他自然语言处理任务中具有潜力。",
+    "tldr": "研究表明，将半参数化体系结构与查询分析器/计划器以及溯源相结合，可使问题回答的系统在准确性和效率方面显著提高。",
+    "en_tdlr": "Research shows that combining semi-parametric architectures with a query analyzer/planner and provenance can significantly improve the accuracy and efficiency of question-answering systems."
+}

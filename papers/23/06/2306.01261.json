@@ -1,0 +1,11 @@
+{
+    "title": "Automatic Translation of Hate Speech to Non-hate Speech in Social Media Texts. (arXiv:2306.01261v1 [cs.CL])",
+    "abstract": "In this paper, we investigate the issue of hate speech by presenting a novel task of translating hate speech into non-hate speech text while preserving its meaning. As a case study, we use Spanish texts. We provide a dataset and several baselines as a starting point for further research in the task. We evaluated our baseline results using multiple metrics, including BLEU scores. The aim of this study is to contribute to the development of more effective methods for reducing the spread of hate speech in online communities.",
+    "link": "http://arxiv.org/abs/2306.01261",
+    "context": "Title: Automatic Translation of Hate Speech to Non-hate Speech in Social Media Texts. (arXiv:2306.01261v1 [cs.CL])\nAbstract: In this paper, we investigate the issue of hate speech by presenting a novel task of translating hate speech into non-hate speech text while preserving its meaning. As a case study, we use Spanish texts. We provide a dataset and several baselines as a starting point for further research in the task. We evaluated our baseline results using multiple metrics, including BLEU scores. The aim of this study is to contribute to the development of more effective methods for reducing the spread of hate speech in online communities.",
+    "path": "papers/23/06/2306.01261.json",
+    "total_tokens": 718,
+    "translated_title": "社交媒体文本中恶意言论到非恶意言论的自动翻译",
+    "translated_abstract": "本文研究了恶意言论的问题，提出一种将恶意言论转化为非恶意言论文本的新方法，并保留其意义。我们以西班牙语文本为案例进行研究，提供数据集和基线结果，为进一步研究此任务提供起点。我们使用多种指标（包括BLEU分数）对基线结果进行评估。本研究旨在为减少社区中恶意言论的传播，贡献更有效的方法。",
+    "tldr": "本文介绍了一种将社交媒体文本中的恶意言论自动翻译为非恶意言论的方法，以西班牙语为例，并提供了数据集和基线结果，旨在为减少社区中恶意言论的传播贡献更有效的方法。"
+}

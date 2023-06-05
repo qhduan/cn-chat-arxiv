@@ -1,0 +1,12 @@
+{
+    "title": "Predicting affinity ties in a surname network. (arXiv:2306.01218v1 [cs.SI])",
+    "abstract": "From administrative registers of last names in Santiago, Chile, we create a surname affinity network that encodes socioeconomic data. This network is a multi-relational graph with nodes representing surnames and edges representing the prevalence of interactions between surnames by socioeconomic decile. We model the prediction of links as a knowledge base completion problem, and find that sharing neighbors is highly predictive of the formation of new links. Importantly, We distinguish between grounded neighbors and neighbors in the embedding space, and find that the latter is more predictive of tie formation. The paper discusses the implications of this finding in explaining the high levels of elite endogamy in Santiago.",
+    "link": "http://arxiv.org/abs/2306.01218",
+    "context": "Title: Predicting affinity ties in a surname network. (arXiv:2306.01218v1 [cs.SI])\nAbstract: From administrative registers of last names in Santiago, Chile, we create a surname affinity network that encodes socioeconomic data. This network is a multi-relational graph with nodes representing surnames and edges representing the prevalence of interactions between surnames by socioeconomic decile. We model the prediction of links as a knowledge base completion problem, and find that sharing neighbors is highly predictive of the formation of new links. Importantly, We distinguish between grounded neighbors and neighbors in the embedding space, and find that the latter is more predictive of tie formation. The paper discusses the implications of this finding in explaining the high levels of elite endogamy in Santiago.",
+    "path": "papers/23/06/2306.01218.json",
+    "total_tokens": 770,
+    "translated_title": "在一个姓氏网络中预测亲缘关系",
+    "translated_abstract": "本文从智利圣地亚哥的姓氏管理登记中创建一个姓氏亲缘网络，编码了社会经济数据。这个网络是一个多重关系图，节点代表姓氏，边代表不同社会经济分位数之间姓氏间互动的盛行程度。我们将链接预测建模为知识库完成问题，并发现共享邻居高度预测新链接的形成。重要的是，我们区分了嵌入空间中的有根邻居和邻居，并发现后者更能预测联系的形成。本文讨论了这一发现在解释圣地亚哥精英内婚的高水平中的意义。",
+    "tldr": "本文基于一个姓氏亲缘网络，通过建立知识库完成模型预测新联系的形成并发现共享邻居和嵌入空间中的邻居对于预测都十分重要，这一发现对于解释圣地亚哥精英内婚中的高水平很有帮助。",
+    "en_tdlr": "This paper predicts affinity ties in a surname network using a knowledge base completion model, finding that sharing neighbors and neighbors in the embedding space are highly predictive of the formation of new links. The implications of this finding in explaining elite endogamy in Santiago are discussed."
+}

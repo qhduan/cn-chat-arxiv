@@ -1,0 +1,12 @@
+{
+    "title": "The uniform diversification strategy is optimal for expected utility maximization under high model ambiguity. (arXiv:2306.01503v1 [math.OC])",
+    "abstract": "We investigate an expected utility maximization problem under model uncertainty in a one-period financial market. We capture model uncertainty by replacing the baseline model $\\mathbb{P}$ with an adverse choice from a Wasserstein ball of radius $k$ around $\\mathbb{P}$ in the space of probability measures and consider the corresponding Wasserstein distributionally robust optimization problem. We show that optimal solutions converge to the uniform diversification strategy when uncertainty is increasingly large, i.e. when the radius $k$ tends to infinity.",
+    "link": "http://arxiv.org/abs/2306.01503",
+    "context": "Title: The uniform diversification strategy is optimal for expected utility maximization under high model ambiguity. (arXiv:2306.01503v1 [math.OC])\nAbstract: We investigate an expected utility maximization problem under model uncertainty in a one-period financial market. We capture model uncertainty by replacing the baseline model $\\mathbb{P}$ with an adverse choice from a Wasserstein ball of radius $k$ around $\\mathbb{P}$ in the space of probability measures and consider the corresponding Wasserstein distributionally robust optimization problem. We show that optimal solutions converge to the uniform diversification strategy when uncertainty is increasingly large, i.e. when the radius $k$ tends to infinity.",
+    "path": "papers/23/06/2306.01503.json",
+    "total_tokens": 644,
+    "translated_title": "高模型不确定性下，统一多元化策略是期望效用最大化的最优策略",
+    "translated_abstract": "本文研究了一个在模型不确定性下的期望效用最大化问题，研究对象为一个一期金融市场。本文通过替换概率测度空间中$\\mathbb{P}$的一个不良选择，形成半径为$ k $的Wasserstein球来捕捉模型不确定性，并考虑相应的Wasserstein分布鲁棒优化问题。我们表明，当不确定性不断增大时，也就是当半径$ k $趋近于无穷大时，最优解将收敛于统一多元化策略。",
+    "tldr": "研究发现，在高模型不确定性下，采用统一多元化策略是期望效用最大化的最优策略。",
+    "en_tdlr": "This paper finds that under high model uncertainty, using a uniform diversification strategy is the optimal solution for maximizing expected utility."
+}

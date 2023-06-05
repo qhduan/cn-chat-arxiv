@@ -1,0 +1,12 @@
+{
+    "title": "VoteTRANS: Detecting Adversarial Text without Training by Voting on Hard Labels of Transformations. (arXiv:2306.01273v1 [cs.CL])",
+    "abstract": "Adversarial attacks reveal serious flaws in deep learning models. More dangerously, these attacks preserve the original meaning and escape human recognition. Existing methods for detecting these attacks need to be trained using original/adversarial data. In this paper, we propose detection without training by voting on hard labels from predictions of transformations, namely, VoteTRANS. Specifically, VoteTRANS detects adversarial text by comparing the hard labels of input text and its transformation. The evaluation demonstrates that VoteTRANS effectively detects adversarial text across various state-of-the-art attacks, models, and datasets.",
+    "link": "http://arxiv.org/abs/2306.01273",
+    "context": "Title: VoteTRANS: Detecting Adversarial Text without Training by Voting on Hard Labels of Transformations. (arXiv:2306.01273v1 [cs.CL])\nAbstract: Adversarial attacks reveal serious flaws in deep learning models. More dangerously, these attacks preserve the original meaning and escape human recognition. Existing methods for detecting these attacks need to be trained using original/adversarial data. In this paper, we propose detection without training by voting on hard labels from predictions of transformations, namely, VoteTRANS. Specifically, VoteTRANS detects adversarial text by comparing the hard labels of input text and its transformation. The evaluation demonstrates that VoteTRANS effectively detects adversarial text across various state-of-the-art attacks, models, and datasets.",
+    "path": "papers/23/06/2306.01273.json",
+    "total_tokens": 726,
+    "translated_title": "VoteTRANS: 通过对转换的硬标签投票来检测非训练对抗性文本",
+    "translated_abstract": "对抗性攻击揭示了深度学习模型的严重缺陷。更危险的是，这些攻击保留了原始含义，逃避了人类的识别。现有的检测方法需要使用原始/对抗数据进行训练。本文提出了一种通过对转换的硬标签投票来实现无需训练的检测方法，即 VoteTRANS。具体而言，VoteTRANS 通过比较输入文本及其转换的硬标签来检测对抗性文本。评估表明，VoteTRANS 能够有效地检测各种最先进的攻击、模型和数据集中的对抗性文本。",
+    "tldr": "VoteTRANS 是一种无需训练即可检测对抗性文本的方法，通过比较输入文本及其转换的硬标签实现检测，可有效应对各种最先进的攻击、模型和数据集中的对抗性文本。",
+    "en_tdlr": "VoteTRANS is a method that can detect adversarial text without training by comparing the hard labels of input text and its transformation, and effectively cope with various state-of-the-art attacks, models, and datasets."
+}

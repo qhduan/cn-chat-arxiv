@@ -1,0 +1,12 @@
+{
+    "title": "Information Geometry of Risks and Returns. (arXiv:2206.08753v3 [econ.GN] UPDATED)",
+    "abstract": "We reveal a geometric structure underlying both hedging and investment products. The structure follows from a simple formula expressing investment risks in terms of returns. This informs optimal product designs. Optimal pure hedging (including cost-optimal products) and hybrid hedging (where a partial hedge is built into an optimal investment product) are considered. Duality between hedging and investment is demonstrated with applications to optimal risk recycling. A geometric interpretation of rationality is presented.",
+    "link": "http://arxiv.org/abs/2206.08753",
+    "context": "Title: Information Geometry of Risks and Returns. (arXiv:2206.08753v3 [econ.GN] UPDATED)\nAbstract: We reveal a geometric structure underlying both hedging and investment products. The structure follows from a simple formula expressing investment risks in terms of returns. This informs optimal product designs. Optimal pure hedging (including cost-optimal products) and hybrid hedging (where a partial hedge is built into an optimal investment product) are considered. Duality between hedging and investment is demonstrated with applications to optimal risk recycling. A geometric interpretation of rationality is presented.",
+    "path": "papers/22/06/2206.08753.json",
+    "total_tokens": 629,
+    "translated_title": "风险和回报的信息几何",
+    "translated_abstract": "我们揭示了避险和投资产品之间的几何结构。这个结构是根据一个简单的公式，在回报方面表达投资风险所形成的。这为最优产品设计提供了信息。我们考虑了最优的纯避险(包括成本最低的产品)和混合避险(其中部分风险被纳入最佳投资产品中)。避险和投资之间的对偶性被证明，并应用于最优风险回收。我们提出了一个关于合理性的几何解释。",
+    "tldr": "该论文揭示了避险和投资产品之间的几何结构，并提供了最优产品设计中的信息。",
+    "en_tdlr": "The paper reveals a geometric structure underlying hedging and investment products and provides information for optimal product design. It considers optimal pure and hybrid hedging and demonstrates duality between hedging and investment, with applications to optimal risk recycling. The paper also presents a geometric interpretation of rationality."
+}

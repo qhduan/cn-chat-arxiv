@@ -2,172 +2,277 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [End-to-end Knowledge Retrieval with Multi-modal Queries.](http://arxiv.org/abs/2306.00424) | 该论文提出了一个新的多模态检索任务，引入了一个名为“ReViz”的检索模型，可以直接处理文本和图像输入以实现端到端的知识检索，同时提出了一种有效的预训练任务，并在两个数据集上展示了优越的检索性能。 |
-| [^2] | [A Survey on Fairness-aware Recommender Systems.](http://arxiv.org/abs/2306.00403) | 本综述对现有的公正感知推荐系统方法和实践进行了总结分析，详细介绍了相关的概念定义、分类、方法和需解决的问题，并提出了未来的研究方向。 |
-| [^3] | [TransAct: Transformer-based Realtime User Action Model for Recommendation at Pinterest.](http://arxiv.org/abs/2306.00248) | 本文介绍了Pinterest推荐系统的架构和TransAct模型。TransAct是一个从用户实时活动中提取短期偏好的序列模型。本文还介绍了通过混合排名方法结合直接在实时用户活动上学习和在较长时间段内学习批量用户表示的优点。 |
-| [^4] | [VMap: An Interactive Rectangular Space-filling Visualization for Map-like Vertex-centric Graph Exploration.](http://arxiv.org/abs/2306.00120) | VMap是一种交互式矩形填充地图可视化方法，用于顶点为中心的图表探索。通过集成DAR矩形分割算法、双阶段矩形调整算法和基于模拟退火的启发式优化器，它能够优化矩形纵横比、顶点-边交叉和数据编码精度。 |
-| [^5] | [A Survey on Large Language Models for Recommendation.](http://arxiv.org/abs/2305.19860) | 本综述介绍了基于大语言模型的推荐系统，提出了判别式LLMs和生成式LLMs两种模型范式，总结了这些模型的最新进展，强调了该领域的挑战和研究方向。 |
-| [^6] | [Criteria Tell You More than Ratings: Criteria Preference-Aware Light Graph Convolution for Effective Multi-Criteria Recommendation.](http://arxiv.org/abs/2305.18885) | 本文提出了一种面向多准则推荐的标准偏好感知轻量图卷积网络，该方法结合了MC扩展图，可以准确地捕捉用户的标准偏好，并进一步将用户对各个标准的偏好合并到最终的推荐列表中。 |
-| [^7] | [Graph Masked Autoencoder for Sequential Recommendation.](http://arxiv.org/abs/2305.04619) | 提出了一种简单而有效的基于图遮盖自编码器的序列推荐系统，它使用基于图的注意力机制暴露出带有遮盖的项目序列，自适应动态提取全局项目转换信息进行自监督增强，在具有较少标记样本的情况下始终比最先进的序列推荐方法表现出更好的性能，而且对数据损坏和缺失情况具有鲁棒性。 |
-| [^8] | [How to Unleash the Power of Large Language Models for Few-shot Relation Extraction?.](http://arxiv.org/abs/2305.01555) | 本文通过使用GPT-3.5模型在少样本关系抽取中，实现在四个不同数据集上的新的最优性能，并提出了与任务相关的指导说明和约束模式下的数据生成方法。 |
-| [^9] | [Explaining Recommendation System Using Counterfactual Textual Explanations.](http://arxiv.org/abs/2303.11160) | 本文提供了一种利用反事实推理来生成可理解解释的方法，其在推荐系统上取得了成功应用。 |
-| [^10] | [Reasoning with Language Model Prompting: A Survey.](http://arxiv.org/abs/2212.09597) | 本文提供了使用语言模型提示进行推理的前沿研究综合调查。讨论了新兴推理能力出现的潜在原因，并提供系统资源帮助初学者。 |
-| [^11] | [Efficient Bi-Level Optimization for Recommendation Denoising.](http://arxiv.org/abs/2210.10321) | 本文提出了一种推荐去噪的高效双层优化方法，该方法可以迭代调整推荐模型，以考虑前几次迭代中为每个反馈分配的权重。 |
+| [^1] | [Fresh Content Needs More Attention: Multi-funnel Fresh Content Recommendation.](http://arxiv.org/abs/2306.01720) | 本文介绍了如何在一个大型商业平台上构建一个成功的专门用于新鲜内容推荐系统。他们构建了一个多入口提名系统，有效平衡了覆盖和相关性，同时通过考虑预测不确定性来避免展示平庸内容。 |
+| [^2] | [Pretrained Language Model based Web Search Ranking: From Relevance to Satisfaction.](http://arxiv.org/abs/2306.01599) | 该论文提出了一种基于预训练语言模型的框架SAT-Ranker，旨在以统一方式全面建模用户满意度的不同维度，从而在网络搜索中排名用户满意度，并在实验中取得了优异结果。 |
+| [^3] | [Influence Maximization with Fairness at Scale (Extended Version).](http://arxiv.org/abs/2306.01587) | 本文针对影响最大化问题中的公平问题，提出了一种基于学习节点表示的方法来实现公平传播，从而实现可扩展的解决方案，适用于具有数百万或数十亿节点的网络。 |
+| [^4] | [Syst\`eme de recommandations bas\'e sur les contraintes pour les simulations de gestion de crise.](http://arxiv.org/abs/2306.01504) | 本文提出使用基于约束的推荐系统来推荐驾驶员/车辆配对，在危机管理模拟中实现城市居民的自愿参与。 |
+| [^5] | [Hierarchical Reinforcement Learning for Modeling User Novelty-Seeking Intent in Recommender Systems.](http://arxiv.org/abs/2306.01476) | 本文提出了一种基于层次强化学习的方法，用于建模用户的层次新奇寻求意图并调整推荐策略以提高推荐项目准确性和多样性。 |
+| [^6] | [Prompt Tuning Large Language Models on Personalized Aspect Extraction for Recommendations.](http://arxiv.org/abs/2306.01475) | 本文提出了一种端到端的方法，将面向方面的提取和推荐相结合，同时引入了个性化基于方面的推荐模型，并利用大型语言模型设计了新的模型来为最终的推荐任务生成方面。 |
+| [^7] | [An OPC UA-based industrial Big Data architecture.](http://arxiv.org/abs/2306.01418) | 本文提出了一种基于OPC UA的大数据架构，利用元数据和语义模型提高数据处理和查询效率，使多个处理池能够协同工作而不干扰现场设备和生产过程。 |
+| [^8] | [DWT-CompCNN: Deep Image Classification Network for High Throughput JPEG 2000 Compressed Documents.](http://arxiv.org/abs/2306.01359) | 这篇论文提出了一种名为DWT-CompCNN的深度学习模型，它可以直接对使用HTJ2K算法压缩的文档进行分类，从而提高计算效率。 |
+| [^9] | [Reducing Popularity Bias in Recommender Systems through AUC-Optimal Negative Sampling.](http://arxiv.org/abs/2306.01348) | 通过最优负采样从根本上缓解流行度偏差，提高模型的性能，同时保持准确性。 |
+| [^10] | [LyricSIM: A novel Dataset and Benchmark for Similarity Detection in Spanish Song LyricS.](http://arxiv.org/abs/2306.01325) | 本文介绍了一种针对语义相似性任务的新数据集和基准，由多个本地注释者完成集体注释实验，评估了各种最先进的单语和多语言语言模型的性能，建立了基准结果。 |
+| [^11] | [JEPOO: Highly Accurate Joint Estimation of Pitch, Onset and Offset for Music Information Retrieval.](http://arxiv.org/abs/2306.01304) | 本文提出了一种名为JEPOO的音乐信息检索方法，能够准确估计音高、起始和终止，支持单音高和多音高数据，比现有最先进的方法精度提升高达10.6%，8.3%和10.3%。 |
+| [^12] | [Self Contrastive Learning for Session-based Recommendation.](http://arxiv.org/abs/2306.01266) | 本文提出了自对比学习方法，简化了会话推荐领域基于对比学习的模型的复杂性，并提高了推荐性能。 |
+| [^13] | [How Ready are Pre-trained Abstractive Models and LLMs for Legal Case Judgement Summarization?.](http://arxiv.org/abs/2306.01248) | 这篇论文探讨了是否可以使用预训练的抽象模型和大型语言模型来自动生成法律案例判决的摘要，并在印度的法庭案例判决中进行了相关实验分析。 |
+| [^14] | [TimelineQA: A Benchmark for Question Answering over Timelines.](http://arxiv.org/abs/2306.01069) | TimelineQA是一个用于查询生活日志的加速进展的基准测试，涉及时间和地理信息，已经公开发布，并使用两种最先进的模型进行了实验，但这两种模型均未达到人类表现水平。 |
+| [^15] | [Quick Dense Retrievers Consume KALE: Post Training Kullback Leibler Alignment of Embeddings for Asymmetrical dual encoders.](http://arxiv.org/abs/2304.01016) | 本文提出了一种通过结构压缩和模型尺寸不对称的双编码器模型 KALE，有效提高密集信息检索的推理效率，同时允许查询编码器的有效压缩，而无需进行全部的再训练或索引生成，此方法能够生成超过DistilBERT性能的模型。 |
+| [^16] | [PrefRec: Recommender Systems with Human Preferences for Reinforcing Long-term User Engagement.](http://arxiv.org/abs/2212.02779) | 该论文提出了一种基于人类偏好的推荐系统范式PrefRec，允许强化学习推荐系统从用户历史行为偏好中学习，以优化长期用户参与度。 |
+| [^17] | [Self-Supervised Learning for Recommender Systems: A Survey.](http://arxiv.org/abs/2203.15876) | 本文综述了自监督推荐（SSR）的研究进展，提出了四种方法：对比、生成、预测和混合，并介绍了各种方法的优缺点及研究方向。 |
+| [^18] | [Classifying YouTube Comments Based on Sentiment and Type of Sentence.](http://arxiv.org/abs/2111.01908) | 本论文提出了一种基于情感和句子类型的方法，将原始的YouTube评论分类，以帮助YouTuber找到更相关的评论，从而增加其观众群。 |
 
 # 详细
 
-[^1]: 多模态查询的端到端知识检索
+[^1]: 新鲜内容需要更多关注: 多入口新鲜内容推荐
 
-    End-to-end Knowledge Retrieval with Multi-modal Queries. (arXiv:2306.00424v1 [cs.CL])
+    Fresh Content Needs More Attention: Multi-funnel Fresh Content Recommendation. (arXiv:2306.01720v1 [cs.IR])
 
-    [http://arxiv.org/abs/2306.00424](http://arxiv.org/abs/2306.00424)
+    [http://arxiv.org/abs/2306.01720](http://arxiv.org/abs/2306.01720)
 
-    该论文提出了一个新的多模态检索任务，引入了一个名为“ReViz”的检索模型，可以直接处理文本和图像输入以实现端到端的知识检索，同时提出了一种有效的预训练任务，并在两个数据集上展示了优越的检索性能。
-
-    
-
-    我们研究了多模态查询下的知识检索，即包含图像和文本的查询的任务，这是与之前的跨模态检索研究不同的挑战性任务。我们创建了一个名为ReMuQ的新数据集，用于评估这个任务的进展。ReMuQ需要一个系统通过整合来自文本和图像查询的内容来检索大规模语料库中的知识。我们引入了一个叫做“ReViz”的检索模型，这个模型可以直接处理输入的文本和图像，以端到端方式检索相关知识，而不依赖于像目标检测器或标题生成器等中间模块。我们介绍了一种新的预训练任务，有效地学习多模态查询下的知识检索，并在下游任务中提高了性能。我们展示了在零-shot设置下，在两个数据集（ReMuQ和OK-VQA）上的检索性能优越以及在这些数据集上微调后进一步的性能提升。
-
-    We investigate knowledge retrieval with multi-modal queries, i.e. queries containing information split across image and text inputs, a challenging task that differs from previous work on cross-modal retrieval. We curate a new dataset called ReMuQ for benchmarking progress on this task. ReMuQ requires a system to retrieve knowledge from a large corpus by integrating contents from both text and image queries. We introduce a retriever model ``ReViz'' that can directly process input text and images to retrieve relevant knowledge in an end-to-end fashion without being dependent on intermediate modules such as object detectors or caption generators. We introduce a new pretraining task that is effective for learning knowledge retrieval with multimodal queries and also improves performance on downstream tasks. We demonstrate superior performance in retrieval on two datasets (ReMuQ and OK-VQA) under zero-shot settings as well as further improvements when finetuned on these datasets.
-    
-[^2]: 公正感知推荐系统综述
-
-    A Survey on Fairness-aware Recommender Systems. (arXiv:2306.00403v1 [cs.IR])
-
-    [http://arxiv.org/abs/2306.00403](http://arxiv.org/abs/2306.00403)
-
-    本综述对现有的公正感知推荐系统方法和实践进行了总结分析，详细介绍了相关的概念定义、分类、方法和需解决的问题，并提出了未来的研究方向。
+    本文介绍了如何在一个大型商业平台上构建一个成功的专门用于新鲜内容推荐系统。他们构建了一个多入口提名系统，有效平衡了覆盖和相关性，同时通过考虑预测不确定性来避免展示平庸内容。
 
     
 
-    作为信息过滤服务，推荐系统通过提供个性化建议和帮助人们做出决策极大地丰富了我们的日常生活，使它们在信息时代对人类社会至关重要和不可或缺。然而，随着人们对它们的依赖程度增加，最近的研究显示，由于其不公平性（例如工作推荐中的性别歧视），推荐系统对社会和个人可能拥有无意识的影响。为了开发可信赖的服务，设计公正感知的推荐系统以缓解这些偏见问题至关重要。本综述概述了现有的公正性推荐系统方法和实践。首先，我们介绍了不同推荐场景下的公正性概念，全面分类当前的进展并介绍了促进推荐系统不同阶段的公正性的典型方法。接下来，在介绍数据集和评估方法后，我们讨论了一些未来的研究方向。
+    推荐系统作为将用户与庞大、多样和不断增长的内容集合进行连接的中介。实际上，需要填补关于新鲜（和尾部）内容的信息缺失，以便让观众得以发现和利用它们。本文分享了我们在一个大型商业平台上构建专用的新鲜内容推荐系统的成功经验。为了提名新鲜内容，我们构建了一个多入口提名系统，它结合了（i）具有广泛泛化能力的两塔模型和（ii）具有接近实时的用户反馈更新的序列模型，以保持覆盖和相关性之间的有效平衡。深入的研究揭示了用户活动水平与其接近新鲜内容的关系，这进一步激发了一个上下文多入口的设置。提名的新鲜候选者然后由系统得分和排名，考虑预测的不确定性，以避免暴露平庸的内容。这个提名和排名系统极大地提高了新鲜内容的整体质量和易于与现有的推荐系统集成。
 
-    As information filtering services, recommender systems have extremely enriched our daily life by providing personalized suggestions and facilitating people in decision-making, which makes them vital and indispensable to human society in the information era. However, as people become more dependent on them, recent studies show that recommender systems potentially own unintentional impacts on society and individuals because of their unfairness (e.g., gender discrimination in job recommendations). To develop trustworthy services, it is crucial to devise fairness-aware recommender systems that can mitigate these bias issues. In this survey, we summarise existing methodologies and practices of fairness in recommender systems. Firstly, we present concepts of fairness in different recommendation scenarios, comprehensively categorize current advances, and introduce typical methods to promote fairness in different stages of recommender systems. Next, after introducing datasets and evaluation me
+    Recommendation system serves as a conduit connecting users to an incredibly large, diverse and ever growing collection of contents. In practice, missing information on fresh (and tail) contents needs to be filled in order for them to be exposed and discovered by their audience. We here share our success stories in building a dedicated fresh content recommendation stack on a large commercial platform. To nominate fresh contents, we built a multi-funnel nomination system that combines (i) a two-tower model with strong generalization power for coverage, and (ii) a sequence model with near real-time update on user feedback for relevance. The multi-funnel setup effectively balances between coverage and relevance. An in-depth study uncovers the relationship between user activity level and their proximity toward fresh contents, which further motivates a contextual multi-funnel setup. Nominated fresh candidates are then scored and ranked by systems considering prediction uncertainty to further
     
-[^3]: TransAct: Pinterest实时用户行为模型中的Transformer-Based推荐
+[^2]: 基于预训练语言模型的网络搜索排名: 从相关性到满足感
 
-    TransAct: Transformer-based Realtime User Action Model for Recommendation at Pinterest. (arXiv:2306.00248v1 [cs.IR])
+    Pretrained Language Model based Web Search Ranking: From Relevance to Satisfaction. (arXiv:2306.01599v1 [cs.IR])
 
-    [http://arxiv.org/abs/2306.00248](http://arxiv.org/abs/2306.00248)
+    [http://arxiv.org/abs/2306.01599](http://arxiv.org/abs/2306.01599)
 
-    本文介绍了Pinterest推荐系统的架构和TransAct模型。TransAct是一个从用户实时活动中提取短期偏好的序列模型。本文还介绍了通过混合排名方法结合直接在实时用户活动上学习和在较长时间段内学习批量用户表示的优点。
-
-    
-
-    编码用户活动以进行下一步行动预测的序列模型已成为构建大规模个性化推荐系统的常见设计选择。 传统的序列推荐方法要么利用实时用户操作进行端到端学习，要么以脱机批量生成的方式单独学习用户表示。 本文(1)介绍了Pinterest Homefeed的排名架构，即我们的个性化推荐产品和最大的参与面；(2)提出了TransAct，一种从用户实时活动中提取短期偏好的序列模型；(3)描述了我们的混合排名方法，即通过TransAct的端到端序列建模与批量生成的用户嵌入混合。 混合方法允许我们结合直接在实时用户活动上学习以获得响应性的优点和在较长时间段内学习的批量用户表示的成本效益。 我们描述了实验结果......（原文内容省略）
-
-    Sequential models that encode user activity for next action prediction have become a popular design choice for building web-scale personalized recommendation systems. Traditional methods of sequential recommendation either utilize end-to-end learning on realtime user actions, or learn user representations separately in an offline batch-generated manner. This paper (1) presents Pinterest's ranking architecture for Homefeed, our personalized recommendation product and the largest engagement surface; (2) proposes TransAct, a sequential model that extracts users' short-term preferences from their realtime activities; (3) describes our hybrid approach to ranking, which combines end-to-end sequential modeling via TransAct with batch-generated user embeddings. The hybrid approach allows us to combine the advantages of responsiveness from learning directly on realtime user activity with the cost-effectiveness of batch user representations learned over a longer time period. We describe the resu
-    
-[^4]: VMap: 一种交互式矩形填充可视化地图，用于顶点为中心的图表探索。
-
-    VMap: An Interactive Rectangular Space-filling Visualization for Map-like Vertex-centric Graph Exploration. (arXiv:2306.00120v1 [cs.GR])
-
-    [http://arxiv.org/abs/2306.00120](http://arxiv.org/abs/2306.00120)
-
-    VMap是一种交互式矩形填充地图可视化方法，用于顶点为中心的图表探索。通过集成DAR矩形分割算法、双阶段矩形调整算法和基于模拟退火的启发式优化器，它能够优化矩形纵横比、顶点-边交叉和数据编码精度。
+    该论文提出了一种基于预训练语言模型的框架SAT-Ranker，旨在以统一方式全面建模用户满意度的不同维度，从而在网络搜索中排名用户满意度，并在实验中取得了优异结果。
 
     
 
-    我们提出了一种名为VMap的地图状矩形填充可视化方法，用于顶点为中心的图表探索。为优化矩形的纵横比、顶点-边交叉和数据编码精度等方面，现有的可视化方法存在支持不足。为应对这些问题，VMap集成了三种新组建：（1）基于想要的纵横比（DAR）的矩形分割算法，（2）双阶段矩形调整算法，（3）基于模拟退火的启发式优化器。首先，为了生成输入图表的矩形填充布局，我们将图表的2D嵌入方式划分为矩形，并优化矩形的纵横比，以达到想要的纵横比。其次，为了在矩形之间路由图表边缘，而不会出现顶点-边缘重叠，我们设计了一个双阶段算法来调整矩形布局，以在矩形之间插入边框空间。第三，为了通过考虑多种视觉准则来生成和排列矩形，我们设计了一个包含模拟退火的启发式优化器。
+    搜索引擎在满足用户多种信息需求方面发挥着关键作用。最近，基于预训练语言模型（PLMs）的文本排名模型在Web搜索中取得了巨大成功。然而，许多最先进的文本排名方法仅关注核心相关性，而忽略了其他有助于用户满意度的维度，例如文档质量、时效性、权威性等。在这项工作中，我们关注的是在网络搜索中排名用户满意度，而不是相关性，并提出了一种基于PLM的框架，即SAT-Ranker，它以统一的方式全面建模用户满意度的不同维度。特别地，我们利用PLM在文本和数字输入方面的能力，并应用多字段输入，将每个用户满意度维度作为输入字段进行模块化。总体而言，SAT-Ranker是一个有效、可扩展和数据中心的框架，具有巨大的工业应用潜力。在严格的线下和线上实验中，SAT-Ranker表现优异，优于强基线，并在MSR-Web30K和TREC Web Track数据集上实现了最先进的结果。
 
-    We present VMap, a map-like rectangular space-filling visualization, to perform vertex-centric graph exploration. Existing visualizations have limited support for quality optimization among rectangular aspect ratios, vertex-edge intersection, and data encoding accuracy. To tackle this problem, VMap integrates three novel components: (1) a desired-aspect-ratio (DAR) rectangular partitioning algorithm, (2) a two-stage rectangle adjustment algorithm, and (3) a simulated annealing based heuristic optimizer. First, to generate a rectangular space-filling layout of an input graph, we subdivide the 2D embedding of the graph into rectangles with optimization of rectangles' aspect ratios toward a desired aspect ratio. Second, to route graph edges between rectangles without vertex-edge occlusion, we devise a two-stage algorithm to adjust a rectangular layout to insert border space between rectangles. Third, to produce and arrange rectangles by considering multiple visual criteria, we design a si
+    Search engine plays a crucial role in satisfying users' diverse information needs. Recently, Pretrained Language Models (PLMs) based text ranking models have achieved huge success in web search. However, many state-of-the-art text ranking approaches only focus on core relevance while ignoring other dimensions that contribute to user satisfaction, e.g., document quality, recency, authority, etc. In this work, we focus on ranking user satisfaction rather than relevance in web search, and propose a PLM-based framework, namely SAT-Ranker, which comprehensively models different dimensions of user satisfaction in a unified manner. In particular, we leverage the capacities of PLMs on both textual and numerical inputs, and apply a multi-field input that modularizes each dimension of user satisfaction as an input field. Overall, SAT-Ranker is an effective, extensible, and data-centric framework that has huge potential for industrial applications. On rigorous offline and online experiments, SAT-
     
-[^5]: 基于大语言模型的推荐系统综述
+[^3]: 在规模上考虑公平的影响最大化问题（扩展版）
 
-    A Survey on Large Language Models for Recommendation. (arXiv:2305.19860v2 [cs.IR] UPDATED)
+    Influence Maximization with Fairness at Scale (Extended Version). (arXiv:2306.01587v1 [cs.SI])
 
-    [http://arxiv.org/abs/2305.19860](http://arxiv.org/abs/2305.19860)
+    [http://arxiv.org/abs/2306.01587](http://arxiv.org/abs/2306.01587)
 
-    本综述介绍了基于大语言模型的推荐系统，提出了判别式LLMs和生成式LLMs两种模型范式，总结了这些模型的最新进展，强调了该领域的挑战和研究方向。
-
-    
-
-    大语言模型（LLMs）已成为自然语言处理（NLP）领域强大的工具，并在推荐系统领域引起了重视。这些模型使用自监督学习在海量数据上进行训练，已在学习通用表示方面取得了显着成功，并有可能通过一些有效的转移技术（如微调和提示调整）等手段提高推荐系统的各个方面的性能。利用大语言模型增强推荐质量的关键是利用它们高质量的文本特征表示和大量的外部知识覆盖，建立项目和用户之间的相关性。为了全面了解现有基于LLM的推荐系统，本综述提出了一种分类法，将这些模型分为两种主要范式，分别是判别式LLMs和生成式LLMs。此外，我们总结了这些范式的最新进展，并强调了这个新兴领域的挑战和开放性研究问题。
-
-    Large Language Models (LLMs) have emerged as powerful tools in the field of Natural Language Processing (NLP) and have recently gained significant attention in the domain of Recommendation Systems (RS). These models, trained on massive amounts of data using self-supervised learning, have demonstrated remarkable success in learning universal representations and have the potential to enhance various aspects of recommendation systems by some effective transfer techniques such as fine-tuning and prompt tuning, and so on. The crucial aspect of harnessing the power of language models in enhancing recommendation quality is the utilization of their high-quality representations of textual features and their extensive coverage of external knowledge to establish correlations between items and users. To provide a comprehensive understanding of the existing LLM-based recommendation systems, this survey presents a taxonomy that categorizes these models into two major paradigms, respectively Discrimi
-    
-[^6]: 标准比评分更重要：面向多准则推荐的标准偏好感知轻量图卷积网络
-
-    Criteria Tell You More than Ratings: Criteria Preference-Aware Light Graph Convolution for Effective Multi-Criteria Recommendation. (arXiv:2305.18885v2 [cs.SI] UPDATED)
-
-    [http://arxiv.org/abs/2305.18885](http://arxiv.org/abs/2305.18885)
-
-    本文提出了一种面向多准则推荐的标准偏好感知轻量图卷积网络，该方法结合了MC扩展图，可以准确地捕捉用户的标准偏好，并进一步将用户对各个标准的偏好合并到最终的推荐列表中。
+    本文针对影响最大化问题中的公平问题，提出了一种基于学习节点表示的方法来实现公平传播，从而实现可扩展的解决方案，适用于具有数百万或数十亿节点的网络。
 
     
 
-    多准则推荐系统现在在广泛的电子商务领域中利用多准则 (MC) 评分信息，而深度学习中的图神经网络 (GNN) 已经被广泛应用于各种推荐系统的开发中。在这种情况下，本文首次尝试使用GNN辅助设计MC推荐系统。具体而言，我们提出了一种新颖的标准偏好感知轻量图卷积方法(CPA-LGC),可以准确捕捉用户的标准偏好以及复杂高阶连接中的协作信号。本文在MC扩展图上构建了一个能够将用户-物品MC评分转换为扩展二分图的MC扩展图，再进一步将标准重要性编码到图卷积过程中，并引入了一种新的标准偏好感知聚合方法来将用户对不同标准的偏好合并到最终的推荐列表中。
+    本文研究关于影响最大化问题中公平的问题，即在选择k个具有影响力的节点来最大化信息传播的同时，确保所选择节点对敏感用户属性的影响是公平的。最近的研究仅关注于极小的网络，因此关键问题在于如何实现可扩展的解决方案，适用于具有数百万或数十亿节点的网络。我们提出了一种基于学习节点表示的方法来实现公平传播，而不是依赖于社交连接，以便我们可以处理非常大的图形。我们提出了两种数据驱动方法：（a）基于公平的参与者抽样（FPS）和（b）公平作为上下文（FAC）。
 
-    The multi-criteria (MC) recommender system, which leverages MC rating information in a wide range of e-commerce areas, is ubiquitous nowadays. Surprisingly, although graph neural networks (GNNs) have been widely applied to develop various recommender systems due to GNN's high expressive capability in learning graph representations, it has been still unexplored how to design MC recommender systems with GNNs. In light of this, we make the first attempt towards designing a GNN-aided MC recommender system. Specifically, rather than straightforwardly adopting existing GNN-based recommendation methods, we devise a novel criteria preference-aware light graph convolution CPA-LGC method, which is capable of precisely capturing the criteria preference of users as well as the collaborative signal in complex high-order connectivities. To this end, we first construct an MC expansion graph that transforms user--item MC ratings into an expanded bipartite graph to potentially learn from the collaborat
+    In this paper, we revisit the problem of influence maximization with fairness, which aims to select k influential nodes to maximise the spread of information in a network, while ensuring that selected sensitive user attributes are fairly affected, i.e., are proportionally similar between the original network and the affected users. Recent studies on this problem focused only on extremely small networks, hence the challenge remains on how to achieve a scalable solution, applicable to networks with millions or billions of nodes. We propose an approach that is based on learning node representations for fair spread from diffusion cascades, instead of the social connectivity s.t. we can deal with very large graphs. We propose two data-driven approaches: (a) fairness-based participant sampling (FPS), and (b) fairness as context (FAC). Spread related user features, such as the probability of diffusing information to others, are derived from the historical information cascades, using a deep ne
     
-[^7]: 基于图形遮盖自编码器的序列推荐系统
+[^4]: 基于约束的危机管理模拟推荐系统
 
-    Graph Masked Autoencoder for Sequential Recommendation. (arXiv:2305.04619v2 [cs.IR] UPDATED)
+    Syst\`eme de recommandations bas\'e sur les contraintes pour les simulations de gestion de crise. (arXiv:2306.01504v1 [cs.IR])
 
-    [http://arxiv.org/abs/2305.04619](http://arxiv.org/abs/2305.04619)
+    [http://arxiv.org/abs/2306.01504](http://arxiv.org/abs/2306.01504)
 
-    提出了一种简单而有效的基于图遮盖自编码器的序列推荐系统，它使用基于图的注意力机制暴露出带有遮盖的项目序列，自适应动态提取全局项目转换信息进行自监督增强，在具有较少标记样本的情况下始终比最先进的序列推荐方法表现出更好的性能，而且对数据损坏和缺失情况具有鲁棒性。
-
-    
-
-    虽然一些强大的神经网络架构（例如Transformer、图神经网络）通过高阶项依赖建模在序列推荐中实现了改进的性能，但它们可能在标签稀缺情况下表现出较差的表征能力。为了解决标签不足的问题，对比学习（CL）已经引起了近期的关注，通过嵌入对比来进行自我监督的数据增强。然而，由于其对比视图生成策略的手工制定特性，现有的CL增强模型不仅难以在不同的序列推荐任务中产生一致的性能，还可能对用户行为数据噪声不具有鲁棒性。鉴于这一点，我们提出了一种简单而有效的自适应全局信息提取的图遮盖自编码器增强的序列推荐系统（MAERec）来解决这个问题。它自然地避免了上述问题，得益于其独特的数据重构机制。具体而言，我们的模型使用基于图的注意力机制，暴露出带有遮盖的项目序列，使表示不仅利用本地顺序信息，还利用项目之间的全局相关性。我们在四个基准数据集上对我们的方法进行了广泛评估。实验结果表明，我们的模型在具有较少标记样本的情况下始终比最先进的序列推荐方法表现出更好的性能，而且对数据损坏和缺失情况具有鲁棒性。
-
-    While some powerful neural network architectures (e.g., Transformer, Graph Neural Networks) have achieved improved performance in sequential recommendation with high-order item dependency modeling, they may suffer from poor representation capability in label scarcity scenarios. To address the issue of insufficient labels, Contrastive Learning (CL) has attracted much attention in recent methods to perform data augmentation through embedding contrasting for self-supervision. However, due to the hand-crafted property of their contrastive view generation strategies, existing CL-enhanced models i) can hardly yield consistent performance on diverse sequential recommendation tasks; ii) may not be immune to user behavior data noise. In light of this, we propose a simple yet effective Graph Masked AutoEncoder-enhanced sequential Recommender system (MAERec) that adaptively and dynamically distills global item transitional information for self-supervised augmentation. It naturally avoids the abov
-    
-[^8]: 如何发挥大语言模型在少样本关系抽取中的能力？
-
-    How to Unleash the Power of Large Language Models for Few-shot Relation Extraction?. (arXiv:2305.01555v1 [cs.CL])
-
-    [http://arxiv.org/abs/2305.01555](http://arxiv.org/abs/2305.01555)
-
-    本文通过使用GPT-3.5模型在少样本关系抽取中，实现在四个不同数据集上的新的最优性能，并提出了与任务相关的指导说明和约束模式下的数据生成方法。
+    本文提出使用基于约束的推荐系统来推荐驾驶员/车辆配对，在危机管理模拟中实现城市居民的自愿参与。
 
     
 
-    语言模型的扩展已经彻底改变了广泛的自然语言处理任务，但是使用大型语言模型进行少样本关系抽取还没有得到全面探索。本文通过详细实验，研究了使用GPT-3.5进行少样本关系抽取的基本方法——上下文学习和数据生成。为了增强少样本性能，我们进一步提出了与任务相关的指导说明和约束模式下的数据生成。我们观察到，在上下文学习的情况下，可以实现与以前的提示学习方法相当的性能，而使用大型语言模型的数据生成可以推动以前的解决方案以在四个广泛研究的关系抽取数据集上获得新的最先进的少样本结果。我们希望我们的工作可以激发未来对大型语言模型在少样本关系抽取中的能力的研究。代码可以在 \url{https://github.com/zjunlp/DeepKE/tree/main/example/llm} 中找到。
+    在疏散人群的背景下，一些市民/志愿者可能希望并能够通过自己的车辆来帮助应急/疏散车辆疏散处于困境中的人群。本文提出了在危机管理模拟系统中增加推荐驾驶员/车辆配对模块的方法。为此，我们选择建模并开发一个基于本体支持的约束推荐系统，以用于危机管理模拟。
 
-    Scaling language models have revolutionized widespread NLP tasks, yet little comprehensively explored few-shot relation extraction with large language models. In this paper, we investigate principal methodologies, in-context learning and data generation, for few-shot relation extraction via GPT-3.5 through exhaustive experiments. To enhance few-shot performance, we further propose task-related instructions and schema-constrained data generation. We observe that in-context learning can achieve performance on par with previous prompt learning approaches, and data generation with the large language model can boost previous solutions to obtain new state-of-the-art few-shot results on four widely-studied relation extraction datasets. We hope our work can inspire future research for the capabilities of large language models in few-shot relation extraction. Code is available in \url{https://github.com/zjunlp/DeepKE/tree/main/example/llm.
+    In the context of the evacuation of populations, some citizens/volunteers may want and be able to participate in the evacuation of populations in difficulty by coming to lend a hand to emergency/evacuation vehicles with their own vehicles. One way of framing these impulses of solidarity would be to be able to list in real-time the citizens/volunteers available with their vehicles (land, sea, air, etc.), to be able to geolocate them according to the risk areas to be evacuated, and adding them to the evacuation/rescue vehicles. Because it is difficult to propose an effective real-time operational system on the field in a real crisis situation, in this work, we propose to add a module for recommending driver/vehicle pairs (with their specificities) to a system of crisis management simulation. To do that, we chose to model and develop an ontology-supported constraint-based recommender system for crisis management simulations.
     
-[^9]: 利用反事实文本解释来解释推荐系统
+[^5]: 用于建模用户新奇寻求意图的层次强化学习在推荐系统中的应用
 
-    Explaining Recommendation System Using Counterfactual Textual Explanations. (arXiv:2303.11160v2 [cs.IR] UPDATED)
+    Hierarchical Reinforcement Learning for Modeling User Novelty-Seeking Intent in Recommender Systems. (arXiv:2306.01476v1 [cs.IR])
 
-    [http://arxiv.org/abs/2303.11160](http://arxiv.org/abs/2303.11160)
+    [http://arxiv.org/abs/2306.01476](http://arxiv.org/abs/2306.01476)
 
-    本文提供了一种利用反事实推理来生成可理解解释的方法，其在推荐系统上取得了成功应用。
-
-    
-
-    目前，在人工智能领域，有大量的研究致力于改进深度学习模型的可解释性和可解读性。研究发现，如果最终用户理解某些输出的原因，就更容易信任系统。推荐系统是需要进行改进以使其输出更加可解释的系统之一。产生更可解释的输出的一种方法是使用反事实推理，这涉及对最小要素进行修改，以生成导致系统输出变化的反事实项目。这一过程允许识别对期望输出有重大影响的输入要素，从而提供有效的解释。在本文中，我们提出了一种方法来生成针对表格和文本要素的反事实解释。我们在三个真实数据集上评估了我们提出的方法的性能，并证明它在为最终用户提供可理解的解释方面是有效的。
-
-    Currently, there is a significant amount of research being conducted in the field of artificial intelligence to improve the explainability and interpretability of deep learning models. It is found that if end-users understand the reason for the production of some output, it is easier to trust the system. Recommender systems are one example of systems that great efforts have been conducted to make their output more explainable. One method for producing a more explainable output is using counterfactual reasoning, which involves altering minimal features to generate a counterfactual item that results in changing the output of the system. This process allows the identification of input features that have a significant impact on the desired output, leading to effective explanations. In this paper, we present a method for generating counterfactual explanations for both tabular and textual features. We evaluated the performance of our proposed method on three real-world datasets and demonstra
-    
-[^10]: 使用语言模型提示进行推理：一项调查
-
-    Reasoning with Language Model Prompting: A Survey. (arXiv:2212.09597v2 [cs.CL] UPDATED)
-
-    [http://arxiv.org/abs/2212.09597](http://arxiv.org/abs/2212.09597)
-
-    本文提供了使用语言模型提示进行推理的前沿研究综合调查。讨论了新兴推理能力出现的潜在原因，并提供系统资源帮助初学者。
+    本文提出了一种基于层次强化学习的方法，用于建模用户的层次新奇寻求意图并调整推荐策略以提高推荐项目准确性和多样性。
 
     
 
-    推理作为复杂问题解决的重要能力，可以为医疗诊断、谈判等各种实际应用提供后端支持。本文对使用语言模型提示进行推理的前沿研究进行了综合调查。我们介绍了研究成果的比较和总结，并提供了系统资源以帮助初学者。我们还讨论了新兴推理能力出现的潜在原因，并突出了未来的研究方向。资源可在 https://github.com/zjunlp/Prompt4ReasoningPapers 上获取（定期更新）。
+    推荐新颖内容可以通过向用户介绍新的兴趣点来改善用户在推荐平台上的长期体验。然而，用户并不总是想要探索新颖的内容。因此，了解他们的寻求新奇的意图并相应地调整推荐策略是至关重要的。本文提出了一种基于层次强化学习的新方法，用于建模用户的层次新奇寻求意图，并根据提取的用户寻求新奇倾向性来调整推荐策略。我们发现，我们提出的方法在推荐项目的准确性和多样性方面优于现有方法。
 
-    Reasoning, as an essential ability for complex problem-solving, can provide back-end support for various real-world applications, such as medical diagnosis, negotiation, etc. This paper provides a comprehensive survey of cutting-edge research on reasoning with language model prompting. We introduce research works with comparisons and summaries and provide systematic resources to help beginners. We also discuss the potential reasons for emerging such reasoning abilities and highlight future research directions. Resources are available at https://github.com/zjunlp/Prompt4ReasoningPapers (updated periodically).
+    Recommending novel content, which expands user horizons by introducing them to new interests, has been shown to improve users' long-term experience on recommendation platforms \cite{chen2021values}. Users however are not constantly looking to explore novel content. It is therefore crucial to understand their novelty-seeking intent and adjust the recommendation policy accordingly. Most existing literature models a user's propensity to choose novel content or to prefer a more diverse set of recommendations at individual interactions. Hierarchical structure, on the other hand, exists in a user's novelty-seeking intent, which is manifested as a static and intrinsic user preference for seeking novelty along with a dynamic session-based propensity. To this end, we propose a novel hierarchical reinforcement learning-based method to model the hierarchical user novelty-seeking intent, and to adapt the recommendation policy accordingly based on the extracted user novelty-seeking propensity. We f
     
-[^11]: 推荐去噪的高效双层优化方法
+[^6]: 面向个性化方面提取的大型语言模型的提示调整用于推荐
 
-    Efficient Bi-Level Optimization for Recommendation Denoising. (arXiv:2210.10321v2 [cs.IR] UPDATED)
+    Prompt Tuning Large Language Models on Personalized Aspect Extraction for Recommendations. (arXiv:2306.01475v1 [cs.IR])
 
-    [http://arxiv.org/abs/2210.10321](http://arxiv.org/abs/2210.10321)
+    [http://arxiv.org/abs/2306.01475](http://arxiv.org/abs/2306.01475)
 
-    本文提出了一种推荐去噪的高效双层优化方法，该方法可以迭代调整推荐模型，以考虑前几次迭代中为每个反馈分配的权重。
+    本文提出了一种端到端的方法，将面向方面的提取和推荐相结合，同时引入了个性化基于方面的推荐模型，并利用大型语言模型设计了新的模型来为最终的推荐任务生成方面。
 
     
 
-    在实际推荐系统中，获得明确的用户反馈（例如评分）通常会受到需要用户积极参与的限制。为了缓解这个问题，利用用户浏览期间生成的隐式反馈（例如点击）作为可行的替代方法。然而，隐式反馈具有很高的噪声，这会显着损害推荐质量。本文中，我们将推荐去噪建模为一个双层优化问题，通过考虑前几次迭代中为每个反馈分配的权重来迭代地调整推荐模型。实验结果表明，该方法在两个大规模推荐数据集上的表现优于现有的基准方法。
+    现有的方面提取方法主要依赖于显式或基础事实方面信息，或者使用数据挖掘或机器学习方法从隐含用户反馈（例如用户评论）中提取方面。然而，如何利用提取出的方面生成更有意义的推荐给用户仍然未被充分探索。同时，现有的基于方面的推荐研究通常依赖于单独的方面提取模型或假设方面是已知的，而没有考虑到最佳方面集可能取决于手头的推荐任务。在本文中，我们提出了一种将方面提取与基于方面的推荐结合起来的端到端方法，并在单个框架中同时实现这两个目标。对于方面提取组件，我们利用大型语言模型的最新进展，设计了一种新的提示学习机制来为最终的推荐任务生成方面。对于基于方面的推荐组件，我们引进了一种个性化的基于方面的推荐模型，该模型与方面提取模型一起进行训练。我们的实验证明，所提出的方法在方面提取和基于方面的推荐任务上都优于几种强基准模型。
 
-    The acquisition of explicit user feedback (e.g., ratings) in real-world recommender systems is often hindered by the need for active user involvement. To mitigate this issue, implicit feedback (e.g., clicks) generated during user browsing is exploited as a viable substitute. However, implicit feedback possesses a high degree of noise, which significantly undermines recommendation quality. While many methods have been proposed to address this issue by assigning varying weights to implicit feedback, two shortcomings persist: (1) the weight calculation in these methods is iteration-independent, without considering the influence of weights in previous iterations, and (2) the weight calculation often relies on prior knowledge, which may not always be readily available or universally applicable.  To overcome these two limitations, we model recommendation denoising as a bi-level optimization problem. The inner optimization aims to derive an effective model for the recommendation, as well as g
+    Existing aspect extraction methods mostly rely on explicit or ground truth aspect information, or using data mining or machine learning approaches to extract aspects from implicit user feedback such as user reviews. It however remains under-explored how the extracted aspects can help generate more meaningful recommendations to the users. Meanwhile, existing research on aspect-based recommendations often relies on separate aspect extraction models or assumes the aspects are given, without accounting for the fact the optimal set of aspects could be dependent on the recommendation task at hand.  In this work, we propose to combine aspect extraction together with aspect-based recommendations in an end-to-end manner, achieving the two goals together in a single framework. For the aspect extraction component, we leverage the recent advances in large language models and design a new prompt learning mechanism to generate aspects for the end recommendation task. For the aspect-based recommendat
+    
+[^7]: 基于OPC UA的工业大数据架构
+
+    An OPC UA-based industrial Big Data architecture. (arXiv:2306.01418v1 [cs.IR])
+
+    [http://arxiv.org/abs/2306.01418](http://arxiv.org/abs/2306.01418)
+
+    本文提出了一种基于OPC UA的大数据架构，利用元数据和语义模型提高数据处理和查询效率，使多个处理池能够协同工作而不干扰现场设备和生产过程。
+
+    
+
+    工业4.0工厂很复杂，是基于数据驱动的。数据来自许多来源，包括传感器、PLC和其他设备，还有IT系统，如ERP或CRM系统。本文提出了一种新的基于查询模型的方法，使用大数据架构，使用OPC UA作为基础来捕获来自不同来源的数据。它缓冲并预处理信息，以实现工厂的整体状态空间的协调，并映射到生产现场的当前状态。该信息可以提供给多个处理池，与数据源分离，使其能够处理信息，而不会干扰生产设备、网络设备或对生产过程产生负面影响。元数据和语义模型用于使数据处理和查询更加高效和灵活。该架构在实际工业环境中得到实现和评估。
+
+    Industry 4.0 factories are complex and data-driven. Data is yielded from many sources, including sensors, PLCs, and other devices, but also from IT, like ERP or CRM systems. We ask how to collect and process this data in a way, such that it includes metadata and can be used for industrial analytics or to derive intelligent support systems. This paper describes a new, query model based approach, which uses a big data architecture to capture data from various sources using OPC UA as a foundation. It buffers and preprocesses the information for the purpose of harmonizing and providing a holistic state space of a factory, as well as mappings to the current state of a production site. That information can be made available to multiple processing sinks, decoupled from the data sources, which enables them to work with the information without interfering with devices of the production, disturbing the network devices they are working in, or influencing the production process negatively. Metadat
+    
+[^8]: DWT-CompCNN：用于高吞吐量JPEG 2000压缩文档的深度图像分类网络
+
+    DWT-CompCNN: Deep Image Classification Network for High Throughput JPEG 2000 Compressed Documents. (arXiv:2306.01359v1 [cs.CV])
+
+    [http://arxiv.org/abs/2306.01359](http://arxiv.org/abs/2306.01359)
+
+    这篇论文提出了一种名为DWT-CompCNN的深度学习模型，它可以直接对使用HTJ2K算法压缩的文档进行分类，从而提高计算效率。
+
+    
+
+    对于任何包含文档图像的数字应用程序，如检索，文档图像的分类成为必要的阶段。传统上，为了达到这个目的，文档的完整版本，即未压缩的文档图像构成输入数据集，这会因数据量大而带来威胁。因此，如果可以使用文档的压缩表示（在部分解压缩的情况下），直接完成相同的分类任务以使整个过程计算效率更高，那将会是一项创新。本研究提出了一种新颖的深度学习模型DWT-CompCNN，用于使用高吞吐量JPEG 2000（HTJ2K）算法压缩的文档的分类。所提出的DWT-CompCNN包括五个卷积层，卷积核大小分别为16、32、64、128和256用于从提取的小波系数中提高学习能力。
+
+    For any digital application with document images such as retrieval, the classification of document images becomes an essential stage. Conventionally for the purpose, the full versions of the documents, that is the uncompressed document images make the input dataset, which poses a threat due to the big volume required to accommodate the full versions of the documents. Therefore, it would be novel, if the same classification task could be accomplished directly (with some partial decompression) with the compressed representation of documents in order to make the whole process computationally more efficient. In this research work, a novel deep learning model, DWT CompCNN is proposed for classification of documents that are compressed using High Throughput JPEG 2000 (HTJ2K) algorithm. The proposed DWT-CompCNN comprises of five convolutional layers with filter sizes of 16, 32, 64, 128, and 256 consecutively for each increasing layer to improve learning from the wavelet coefficients extracted
+    
+[^9]: 通过AUC-最优负采样降低推荐系统中的流行度偏差
+
+    Reducing Popularity Bias in Recommender Systems through AUC-Optimal Negative Sampling. (arXiv:2306.01348v1 [cs.IR])
+
+    [http://arxiv.org/abs/2306.01348](http://arxiv.org/abs/2306.01348)
+
+    通过最优负采样从根本上缓解流行度偏差，提高模型的性能，同时保持准确性。
+
+    
+
+    流行度偏差是推荐系统中的一个长期问题，对公平性和效率都带来了挑战。现有文献普遍认为，减少流行度偏差通常需要牺牲推荐准确性。在本文中，我们对这种共识提出了质疑。我们在一个通用的偏差-方差分解框架下的分析表明，在某些条件下，减少偏差实际上可以提高模型性能。为了实现这种双赢的局面，我们提出通过负采样干预模型训练，从而修改模型预测，以此来缓解流行度偏差。具体而言，我们提供了一种最优负采样规则，以最大化局部AUC，从而保持任何给定模型的准确性，同时通过修正采样信息和先前信息的方式来灵活和有原则地减少流行度偏差。我们在真实世界数据集上的实验结果显示了我们方法在提高推荐性能和减少流行度偏差方面的卓越性。
+
+    Popularity bias is a persistent issue associated with recommendation systems, posing challenges to both fairness and efficiency. Existing literature widely acknowledges that reducing popularity bias often requires sacrificing recommendation accuracy. In this paper, we challenge this commonly held belief. Our analysis under general bias-variance decomposition framework shows that reducing bias can actually lead to improved model performance under certain conditions. To achieve this win-win situation, we propose to intervene in model training through negative sampling thereby modifying model predictions. Specifically, we provide an optimal negative sampling rule that maximizes partial AUC to preserve the accuracy of any given model, while correcting sample information and prior information to reduce popularity bias in a flexible and principled way. Our experimental results on real-world datasets demonstrate the superiority of our approach in improving recommendation performance and reduc
+    
+[^10]: LyricSIM：一种用于检测西班牙歌词相似性的新数据集和基准
+
+    LyricSIM: A novel Dataset and Benchmark for Similarity Detection in Spanish Song LyricS. (arXiv:2306.01325v1 [cs.CL])
+
+    [http://arxiv.org/abs/2306.01325](http://arxiv.org/abs/2306.01325)
+
+    本文介绍了一种针对语义相似性任务的新数据集和基准，由多个本地注释者完成集体注释实验，评估了各种最先进的单语和多语言语言模型的性能，建立了基准结果。
+
+    
+
+    本文介绍了一个新的数据集和基准，旨在针对歌词的语义相似性任务。我们的数据集最初由2775对西班牙歌曲组成，由63个本地注释者进行集体注释实验。经过收集和精细化处理数据以确保高度的共识和数据完整性，我们获得了676个高质量的标注对，用于评估各种最先进的单语和多语言语言模型的性能。因此，我们建立了基准结果，希望这些结果对该领域未来的学术和工业应用有所帮助。
+
+    In this paper, we present a new dataset and benchmark tailored to the task of semantic similarity in song lyrics. Our dataset, originally consisting of 2775 pairs of Spanish songs, was annotated in a collective annotation experiment by 63 native annotators. After collecting and refining the data to ensure a high degree of consensus and data integrity, we obtained 676 high-quality annotated pairs that were used to evaluate the performance of various state-of-the-art monolingual and multilingual language models. Consequently, we established baseline results that we hope will be useful to the community in all future academic and industrial applications conducted in this context.
+    
+[^11]: JEPOO：音乐信息检索中准确估计音高、起始和终止的联合方法
+
+    JEPOO: Highly Accurate Joint Estimation of Pitch, Onset and Offset for Music Information Retrieval. (arXiv:2306.01304v1 [cs.SD])
+
+    [http://arxiv.org/abs/2306.01304](http://arxiv.org/abs/2306.01304)
+
+    本文提出了一种名为JEPOO的音乐信息检索方法，能够准确估计音高、起始和终止，支持单音高和多音高数据，比现有最先进的方法精度提升高达10.6%，8.3%和10.3%。
+
+    
+
+    旋律提取是音乐信息检索中的核心任务，而音高、起始和终止的估计是旋律提取的关键子任务。现有方法的准确性有限，并且只适用于单音高或多音高数据中的一种类型。本文提出了一种名为JEPOO的高度准确的音高、起始和终止联合估计方法。我们通过新颖的模型设计和一种名为帕累托模调损失的优化技术，解决了联合学习优化和处理单音高和多音高数据的挑战。这是第一种能够准确处理单音高和多音高音乐数据，甚至混合类型数据的方法。在广泛的真实数据集上进行的全面实验研究表明，JEPOO在预测音高、起始和终止方面比最先进的方法分别高出10.6％、8.3％和10.3％，同时对于各种类型的数据和乐器具有鲁棒性。
+
+    Melody extraction is a core task in music information retrieval, and the estimation of pitch, onset and offset are key sub-tasks in melody extraction. Existing methods have limited accuracy, and work for only one type of data, either single-pitch or multipitch. In this paper, we propose a highly accurate method for joint estimation of pitch, onset and offset, named JEPOO. We address the challenges of joint learning optimization and handling both single-pitch and multi-pitch data through novel model design and a new optimization technique named Pareto modulated loss with loss weight regularization. This is the first method that can accurately handle both single-pitch and multi-pitch music data, and even a mix of them. A comprehensive experimental study on a wide range of real datasets shows that JEPOO outperforms state-ofthe-art methods by up to 10.6%, 8.3% and 10.3% for the prediction of Pitch, Onset and Offset, respectively, and JEPOO is robust for various types of data and instrument
+    
+[^12]: 自对比学习用于基于会话的推荐
+
+    Self Contrastive Learning for Session-based Recommendation. (arXiv:2306.01266v1 [cs.IR])
+
+    [http://arxiv.org/abs/2306.01266](http://arxiv.org/abs/2306.01266)
+
+    本文提出了自对比学习方法，简化了会话推荐领域基于对比学习的模型的复杂性，并提高了推荐性能。
+
+    
+
+    基于会话的推荐旨在预测用户对现有项目交互序列的下一个感兴趣的项目，已经吸引了越来越多应用使用对比学习（CL）提高用户和项目的表示。然而，这些对比目标：（1）起到与交叉熵损失类似的作用，同时忽略了项目表示空间优化；（2）通常需要复杂的建模，包括复杂的正/负样本构建和额外的数据增强。在本文中，我们引入了自对比学习（SCL），简化了对比学习的应用，并增强了基于状态的推荐技术的性能。具体而言，SCL被制定为一个目标函数，直接促进项目表示之间的均匀分布，并有效地替换了所有现有的对比目标组件的状态-艺术模型。与以前的工作不同，SCL消除了任何正样本或负样本的需求和SCL消除了任何正样本或负样本的需求和数据增强的需求。
+
+    Session-based recommendation, which aims to predict the next item of users' interest as per an existing sequence interaction of items, has attracted growing applications of Contrastive Learning (CL) with improved user and item representations. However, these contrastive objectives: (1) serve a similar role as the cross-entropy loss while ignoring the item representation space optimisation; and (2) commonly require complicated modelling, including complex positive/negative sample constructions and extra data augmentation. In this work, we introduce Self-Contrastive Learning (SCL), which simplifies the application of CL and enhances the performance of state-of-the-art CL-based recommendation techniques. Specifically, SCL is formulated as an objective function that directly promotes a uniform distribution among item representations and efficiently replaces all the existing contrastive objective components of state-of-the-art models. Unlike previous works, SCL eliminates the need for any p
+    
+[^13]: 预训练的抽象模型和LLMs在法律案例判决摘要中的应用准备情况？
+
+    How Ready are Pre-trained Abstractive Models and LLMs for Legal Case Judgement Summarization?. (arXiv:2306.01248v1 [cs.CL])
+
+    [http://arxiv.org/abs/2306.01248](http://arxiv.org/abs/2306.01248)
+
+    这篇论文探讨了是否可以使用预训练的抽象模型和大型语言模型来自动生成法律案例判决的摘要，并在印度的法庭案例判决中进行了相关实验分析。
+
+    
+
+    自动摘要法律案例判决一直是采用抽取式摘要方法尝试解决的问题。然而，近年来，具有生成更自然和连贯摘要能力的抽象摘要模型受到越来越多的关注。现在已经有了专门用于法律领域的预训练抽象摘要模型。此外，众所周知，如ChatGPT这样的通用领域预训练大型语言模型(LLMs)能够生成高质量的文本，并具有文本摘要的能力。因此，值得问的是，这些模型是否已准备好用于自动生成案例判决的抽象摘要。为了探讨这个问题，我们将几种最先进的领域特定的抽象性摘要模型和通用领域的LLMs应用于印度法庭案例判决中，并检查所生成摘要的质量。除了摘要质量的标准度量，我们还检查了生成的摘要中可能存在的不一致性和虚构现象。
+
+    Automatic summarization of legal case judgements has traditionally been attempted by using extractive summarization methods. However, in recent years, abstractive summarization models are gaining popularity since they can generate more natural and coherent summaries. Legal domain-specific pre-trained abstractive summarization models are now available. Moreover, general-domain pre-trained Large Language Models (LLMs), such as ChatGPT, are known to generate high-quality text and have the capacity for text summarization. Hence it is natural to ask if these models are ready for off-the-shelf application to automatically generate abstractive summaries for case judgements. To explore this question, we apply several state-of-the-art domain-specific abstractive summarization models and general-domain LLMs on Indian court case judgements, and check the quality of the generated summaries. In addition to standard metrics for summary quality, we check for inconsistencies and hallucinations in the 
+    
+[^14]: TimelineQA: 一个用于时间线问答的基准测试
+
+    TimelineQA: A Benchmark for Question Answering over Timelines. (arXiv:2306.01069v1 [cs.CL])
+
+    [http://arxiv.org/abs/2306.01069](http://arxiv.org/abs/2306.01069)
+
+    TimelineQA是一个用于查询生活日志的加速进展的基准测试，涉及时间和地理信息，已经公开发布，并使用两种最先进的模型进行了实验，但这两种模型均未达到人类表现水平。
+
+    
+
+    Lifelogs（生活日志）是人们生活经历的描述，这些日志通过结合来自多个数字服务（如在线照片、地图、购物和内容流媒体服务）的数据来创建。问答技术在生活日志上的应用可以为个人助手在提供上下文方面提供关键资源。但是，由于生活日志结合了自由文本与一定程度的结构，如时间和地理信息，因此当前的问答技术无法回答此类问题。为此，我们创建并公开发布了TimelineQA，这是一个用于查询生活日志的加速进展的基准测试。TimelineQA生成虚构人物的生活日志。生活日志中的事件从高中毕业等重大生活事件到日常活动如慢跑都有所覆盖。我们进行了一系列关于TimelineQA的实验，使用了两种最先进的模型，发现这两种模型在这一任务上均未达到人类表现水平。
+
+    Lifelogs are descriptions of experiences that a person had during their life. Lifelogs are created by fusing data from the multitude of digital services, such as online photos, maps, shopping and content streaming services. Question answering over lifelogs can offer personal assistants a critical resource when they try to provide advice in context. However, obtaining answers to questions over lifelogs is beyond the current state of the art of question answering techniques for a variety of reasons, the most pronounced of which is that lifelogs combine free text with some degree of structure such as temporal and geographical information.  We create and publicly release TimelineQA1, a benchmark for accelerating progress on querying lifelogs. TimelineQA generates lifelogs of imaginary people. The episodes in the lifelog range from major life episodes such as high school graduation to those that occur on a daily basis such as going for a run. We describe a set of experiments on TimelineQA w
+    
+[^15]: 快速密集信息检索器利用KALE进行后置KL对齐的异形双编码器模型训练 (arXiv:2304.01016v2 [cs.CL] UPDATED)
+
+    Quick Dense Retrievers Consume KALE: Post Training Kullback Leibler Alignment of Embeddings for Asymmetrical dual encoders. (arXiv:2304.01016v2 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2304.01016](http://arxiv.org/abs/2304.01016)
+
+    本文提出了一种通过结构压缩和模型尺寸不对称的双编码器模型 KALE，有效提高密集信息检索的推理效率，同时允许查询编码器的有效压缩，而无需进行全部的再训练或索引生成，此方法能够生成超过DistilBERT性能的模型。
+
+    
+
+    本文提出了一种有结构压缩和模型尺寸不对称的双编码器模型，旨在提高基于语言模型的密集信息检索系统的推理速度。通过对MSMARCO、自然问答、问答游戏等多个数据集进行前后训练压缩实验，研究了压缩对系统推理效率的影响，结果表明密集信息检索器的双编码器结构异形化有助于提高其推理效率。基于此，我们引入了一种名为Kullback Leibler Alignment of Embeddings (KALE)的方法，通过裁剪和对齐查询编码器，提高了密集信息检索的推理效率。KALE扩展了传统的知识蒸馏方法，使得在双编码器训练后可以有效地对查询编码器进行压缩而无需进行完整的再训练或索引生成。使用KALE和不对称训练，我们可以生成超过DistilBERT性能的模型，同时模型尺寸更小。
+
+    In this paper, we consider the problem of improving the inference latency of language model-based dense retrieval systems by introducing structural compression and model size asymmetry between the context and query encoders. First, we investigate the impact of pre and post-training compression on the MSMARCO, Natural Questions, TriviaQA, SQUAD, and SCIFACT, finding that asymmetry in the dual encoders in dense retrieval can lead to improved inference efficiency. Knowing this, we introduce Kullback Leibler Alignment of Embeddings (KALE), an efficient and accurate method for increasing the inference efficiency of dense retrieval methods by pruning and aligning the query encoder after training. Specifically, KALE extends traditional Knowledge Distillation after bi-encoder training, allowing for effective query encoder compression without full retraining or index generation. Using KALE and asymmetric training, we can generate models which exceed the performance of DistilBERT despite having 
+    
+[^16]: PrefRec：利用人类偏好加强长期用户参与的推荐系统
+
+    PrefRec: Recommender Systems with Human Preferences for Reinforcing Long-term User Engagement. (arXiv:2212.02779v2 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2212.02779](http://arxiv.org/abs/2212.02779)
+
+    该论文提出了一种基于人类偏好的推荐系统范式PrefRec，允许强化学习推荐系统从用户历史行为偏好中学习，以优化长期用户参与度。
+
+    
+
+    目前，推荐系统在优化即时参与方面取得了令人瞩目的成功。然而，更可取的绩效指标长期用户参与度的提高仍然很难。与此同时，最近的强化学习算法在各种长期目标优化任务中展现了有效性。因此，强化学习被广泛认为是优化推荐中长期用户参与度的有前途的框架。虽然有前途，但应用强化学习在很大程度上依赖于精心设计的奖励，但设计与长期用户参与有关的奖励相当困难。为了缓解这个问题，我们提出了一种新的范式，即以人类偏好为基础的推荐系统，允许强化学习推荐系统从有关用户历史行为的偏好中学习，而不是从明确定义的奖励中学习。这些偏好可以通过众包等技术轻松获得。
+
+    Current advances in recommender systems have been remarkably successful in optimizing immediate engagement. However, long-term user engagement, a more desirable performance metric, remains difficult to improve. Meanwhile, recent reinforcement learning (RL) algorithms have shown their effectiveness in a variety of long-term goal optimization tasks. For this reason, RL is widely considered as a promising framework for optimizing long-term user engagement in recommendation. Though promising, the application of RL heavily relies on well-designed rewards, but designing rewards related to long-term user engagement is quite difficult. To mitigate the problem, we propose a novel paradigm, recommender systems with human preferences (or Preference-based Recommender systems), which allows RL recommender systems to learn from preferences about users historical behaviors rather than explicitly defined rewards. Such preferences are easily accessible through techniques such as crowdsourcing, as they 
+    
+[^17]: 自监督学习在推荐系统中的应用：综述
+
+    Self-Supervised Learning for Recommender Systems: A Survey. (arXiv:2203.15876v2 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2203.15876](http://arxiv.org/abs/2203.15876)
+
+    本文综述了自监督推荐（SSR）的研究进展，提出了四种方法：对比、生成、预测和混合，并介绍了各种方法的优缺点及研究方向。
+
+    
+
+    近年来，基于神经网络的推荐系统取得了巨大的成功，但在处理高度稀疏的数据时仍不尽人意。自监督学习作为一种从无标签数据中学习的新兴技术，已经引起了广泛关注，被看作是解决这个问题的潜在方法。本文综述了自监督推荐的研究工作，提出了自监督推荐的定义和分类方法，并详细介绍了各种方法的优劣以及将来的研究方向。
+
+    In recent years, neural architecture-based recommender systems have achieved tremendous success, but they still fall short of expectation when dealing with highly sparse data. Self-supervised learning (SSL), as an emerging technique for learning from unlabeled data, has attracted considerable attention as a potential solution to this issue. This survey paper presents a systematic and timely review of research efforts on self-supervised recommendation (SSR). Specifically, we propose an exclusive definition of SSR, on top of which we develop a comprehensive taxonomy to divide existing SSR methods into four categories: contrastive, generative, predictive, and hybrid. For each category, we elucidate its concept and formulation, the involved methods, as well as its pros and cons. Furthermore, to facilitate empirical comparison, we release an open-source library SELFRec (https://github.com/Coder-Yu/SELFRec), which incorporates a wide range of SSR models and benchmark datasets. Through rigoro
+    
+[^18]: 基于情感和句子类型对YouTube评论进行分类
+
+    Classifying YouTube Comments Based on Sentiment and Type of Sentence. (arXiv:2111.01908v1 [cs.IR] CROSS LISTED)
+
+    [http://arxiv.org/abs/2111.01908](http://arxiv.org/abs/2111.01908)
+
+    本论文提出了一种基于情感和句子类型的方法，将原始的YouTube评论分类，以帮助YouTuber找到更相关的评论，从而增加其观众群。
+
+    
+
+    随着YouTube频道的增长，每个视频都可能收集大量评论，这些评论是理解观众期望和改善频道参与度的主要手段。然而，这些评论只代表用户关于频道和内容的一般观点。许多评论构造较差，琐碎并且存在拼写和语法错误，因此，识别最能吸引内容创作者的评论是一项繁琐的工作。本文旨在通过情感和句子类型将原始评论分类，以帮助YouTuber找到更相关的评论，从而增加其观众群。
+
+    As a YouTube channel grows, each video can potentially collect enormous amounts of comments that provide direct feedback from the viewers. These comments are a major means of understanding viewer expectations and improving channel engagement. However, the comments only represent a general collection of user opinions about the channel and the content. Many comments are poorly constructed, trivial, and have improper spellings and grammatical errors. As a result, it is a tedious job to identify the comments that best interest the content creators. In this paper, we extract and classify the raw comments into different categories based on both sentiment and sentence types that will help YouTubers find relevant comments for growing their viewership. Existing studies have focused either on sentiment analysis (positive and negative) or classification of sub-types within the same sentence types (e.g., types of questions) on a text corpus. These have limited application on non-traditional text c
     
 

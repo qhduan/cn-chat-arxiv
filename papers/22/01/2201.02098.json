@@ -1,0 +1,12 @@
+{
+    "title": "Polytope-form games and Index/Degree Theories for Extensive form games. (arXiv:2201.02098v3 [econ.TH] UPDATED)",
+    "abstract": "We present an index theory of equilibria for extensive form games. This requires developing an index theory for games where the strategy sets of players are general polytopes and their payoff functions are multiaffine in the product of these polytopes. Such polytopes arise from identifying (topologically) equivalent mixed strategies of a normal form game.",
+    "link": "http://arxiv.org/abs/2201.02098",
+    "context": "Title: Polytope-form games and Index/Degree Theories for Extensive form games. (arXiv:2201.02098v3 [econ.TH] UPDATED)\nAbstract: We present an index theory of equilibria for extensive form games. This requires developing an index theory for games where the strategy sets of players are general polytopes and their payoff functions are multiaffine in the product of these polytopes. Such polytopes arise from identifying (topologically) equivalent mixed strategies of a normal form game.",
+    "path": "papers/22/01/2201.02098.json",
+    "total_tokens": 580,
+    "translated_title": "多面体博弈和广义形式博弈的指数/度量理论",
+    "translated_abstract": "我们提出了一个广义形式博弈均衡的指数理论。这需要开发一个指数理论用于策略集为普通多面体且收益函数在这些多面体积中为多线性的博弈。这些多面体来自于识别（在拓扑上等价的）混合策略的正常形式博弈。",
+    "tldr": "该论文提出了一个广义形式博弈均衡的指数理论，应用于策略集为普通多面体且收益函数为多线性的博弈。",
+    "en_tdlr": "This paper proposes an index theory for equilibria in extensive form games, applied to games where the strategy sets are general polytopes and their payoff functions are multiaffine in the product of these polytopes."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "TopEx: Topic-based Explanations for Model Comparison. (arXiv:2306.00976v2 [cs.CL] UPDATED)",
+    "abstract": "Meaningfully comparing language models is challenging with current explanation methods. Current explanations are overwhelming for humans due to large vocabularies or incomparable across models. We present TopEx, an explanation method that enables a level playing field for comparing language models via model-agnostic topics. We demonstrate how TopEx can identify similarities and differences between DistilRoBERTa and GPT-2 on a variety of NLP tasks.",
+    "link": "http://arxiv.org/abs/2306.00976",
+    "context": "Title: TopEx: Topic-based Explanations for Model Comparison. (arXiv:2306.00976v2 [cs.CL] UPDATED)\nAbstract: Meaningfully comparing language models is challenging with current explanation methods. Current explanations are overwhelming for humans due to large vocabularies or incomparable across models. We present TopEx, an explanation method that enables a level playing field for comparing language models via model-agnostic topics. We demonstrate how TopEx can identify similarities and differences between DistilRoBERTa and GPT-2 on a variety of NLP tasks.",
+    "path": "papers/23/06/2306.00976.json",
+    "total_tokens": 598,
+    "translated_title": "基于主题的模型比较解释：TopEx",
+    "translated_abstract": "目前的解释方法在大量词汇或跨模型比较方面过于庞大，使人类难以有意义地比较语言模型。本文提出了一种名为 TopEx 的解释方法，基于无模型的主题实现模型之间的对比，使得比较更公平。我们演示了 TopEx 如何在各种自然语言处理任务上识别 DistilRoBERTa 和 GPT-2 之间的相似性和差异。",
+    "tldr": "TopEx 是一种基于无模型主题的解释方法，使得语言模型的比较更公平，并可以在不同自然语言处理任务上识别模型之间的相似性和差异。",
+    "en_tdlr": "TopEx is a model comparison explanation method based on model-agnostic topics, enabling a fairer comparison of language models. It identifies similarities and differences between models on different NLP tasks."
+}

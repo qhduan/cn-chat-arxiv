@@ -1,0 +1,11 @@
+{
+    "title": "Leveraging Auxiliary Domain Parallel Data in Intermediate Task Fine-tuning for Low-resource Translation. (arXiv:2306.01382v1 [cs.CL])",
+    "abstract": "NMT systems trained on Pre-trained Multilingual Sequence-Sequence (PMSS) models flounder when sufficient amounts of parallel data is not available for fine-tuning. This specifically holds for languages missing/under-represented in these models. The problem gets aggravated when the data comes from different domains. In this paper, we show that intermediate-task fine-tuning (ITFT) of PMSS models is extremely beneficial for domain-specific NMT, especially when target domain data is limited/unavailable and the considered languages are missing or under-represented in the PMSS model. We quantify the domain-specific results variations using a domain-divergence test, and show that ITFT can mitigate the impact of domain divergence to some extent.",
+    "link": "http://arxiv.org/abs/2306.01382",
+    "context": "Title: Leveraging Auxiliary Domain Parallel Data in Intermediate Task Fine-tuning for Low-resource Translation. (arXiv:2306.01382v1 [cs.CL])\nAbstract: NMT systems trained on Pre-trained Multilingual Sequence-Sequence (PMSS) models flounder when sufficient amounts of parallel data is not available for fine-tuning. This specifically holds for languages missing/under-represented in these models. The problem gets aggravated when the data comes from different domains. In this paper, we show that intermediate-task fine-tuning (ITFT) of PMSS models is extremely beneficial for domain-specific NMT, especially when target domain data is limited/unavailable and the considered languages are missing or under-represented in the PMSS model. We quantify the domain-specific results variations using a domain-divergence test, and show that ITFT can mitigate the impact of domain divergence to some extent.",
+    "path": "papers/23/06/2306.01382.json",
+    "total_tokens": 764,
+    "translated_title": "利用辅助领域平行数据在中间任务微调中实现低资源翻译",
+    "translated_abstract": "当没有足够的平行数据进行微调时，基于预先训练的多语种Seq-to-Seq模型的NMT系统应用困难，特别是对于这些模型中缺失/代表性不足的语言。当数据来自不同领域时，问题进一步恶化。本文展示了中间任务微调(ITFT)对于特定领域的NMT非常有益，尤其是当目标领域的数据有限/不可用，而考虑的语言在PMSS模型中缺失或代表性不足时。我们使用领域分歧测试量化了领域特定结果的变化，并且展示了ITFT能够在一定程度上缓解领域分歧的影响。",
+    "tldr": "本文展示了中间任务微调(ITFT)对于低资源、多语言、多领域的NMT非常有效，能够在一定程度上缓解领域分歧的影响。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "An XAI Approach to Deep Learning Models in the Detection of DCIS. (arXiv:2106.14186v2 [eess.IV] UPDATED)",
+    "abstract": "The results showed that XAI could indeed be used as a proof of concept to begin discussions on the implementation of assistive AI systems within the clinical community.",
+    "link": "http://arxiv.org/abs/2106.14186",
+    "context": "Title: An XAI Approach to Deep Learning Models in the Detection of DCIS. (arXiv:2106.14186v2 [eess.IV] UPDATED)\nAbstract: The results showed that XAI could indeed be used as a proof of concept to begin discussions on the implementation of assistive AI systems within the clinical community.",
+    "path": "papers/21/06/2106.14186.json",
+    "total_tokens": 445,
+    "translated_title": "一种应用XAI方法检测DCIS的深度学习模型",
+    "translated_abstract": "结果表明，XAI确实可以作为概念验证的方法，对临床社区内辅助人工智能系统的实施进行讨论。",
+    "tldr": "该研究证明了XAI可用于证明辅助人工智能系统的可行性，有效地应用于医疗领域。",
+    "en_tdlr": "This study demonstrates that XAI can be used to prove the feasibility of assistive AI systems, which can be effectively applied in the medical field."
+}

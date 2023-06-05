@@ -1,0 +1,12 @@
+{
+    "title": "Examining the Emergence of Deductive Reasoning in Generative Language Models. (arXiv:2306.01009v1 [cs.CL])",
+    "abstract": "We conduct a preliminary inquiry into the ability of generative transformer models to deductively reason from premises provided. We observe notable differences in the performance of models coming from different training setups and find that the deductive reasoning ability increases with scale. Further, we discover that the performance generally does not decrease with the length of the deductive chain needed to reach the conclusion, with the exception of OpenAI GPT-3 and GPT-3.5 models. Our study considers a wide variety of transformer-decoder models, ranging from 117 million to 175 billion parameters in size.",
+    "link": "http://arxiv.org/abs/2306.01009",
+    "context": "Title: Examining the Emergence of Deductive Reasoning in Generative Language Models. (arXiv:2306.01009v1 [cs.CL])\nAbstract: We conduct a preliminary inquiry into the ability of generative transformer models to deductively reason from premises provided. We observe notable differences in the performance of models coming from different training setups and find that the deductive reasoning ability increases with scale. Further, we discover that the performance generally does not decrease with the length of the deductive chain needed to reach the conclusion, with the exception of OpenAI GPT-3 and GPT-3.5 models. Our study considers a wide variety of transformer-decoder models, ranging from 117 million to 175 billion parameters in size.",
+    "path": "papers/23/06/2306.01009.json",
+    "total_tokens": 687,
+    "translated_title": "探究生成语言模型的演绎推理能力",
+    "translated_abstract": "我们对生成变压器模型从前提中进行演绎推理的能力进行初步调查。我们观察到不同训练设置的模型性能存在显著差异，并发现演绎推理能力随规模增加而增强。此外，我们发现，除了OpenAI GPT-3和GPT-3.5模型，模型的表现通常不会随着推理链的长度而减弱。本研究考虑了从1.17亿到1750亿个参数的各种变压器解码器模型。",
+    "tldr": "本研究调查了不同规模的生成语言模型的演绎推理能力，发现随着规模的增加，推理能力增强，长度不会影响大部分模型表现。",
+    "en_tdlr": "This study investigates the deductive reasoning ability of generative transformer models of different sizes, and finds that the ability improves with the increase of model size, and the length of reasoning chain does not affect the performance of most models except OpenAI GPT-3 and GPT-3.5."
+}

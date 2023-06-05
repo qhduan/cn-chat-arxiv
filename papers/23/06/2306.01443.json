@@ -1,0 +1,12 @@
+{
+    "title": "Unsupervised Paraphrasing of Multiword Expressions. (arXiv:2306.01443v1 [cs.CL])",
+    "abstract": "We propose an unsupervised approach to paraphrasing multiword expressions (MWEs) in context. Our model employs only monolingual corpus data and pre-trained language models (without fine-tuning), and does not make use of any external resources such as dictionaries. We evaluate our method on the SemEval 2022 idiomatic semantic text similarity task, and show that it outperforms all unsupervised systems and rivals supervised systems.",
+    "link": "http://arxiv.org/abs/2306.01443",
+    "context": "Title: Unsupervised Paraphrasing of Multiword Expressions. (arXiv:2306.01443v1 [cs.CL])\nAbstract: We propose an unsupervised approach to paraphrasing multiword expressions (MWEs) in context. Our model employs only monolingual corpus data and pre-trained language models (without fine-tuning), and does not make use of any external resources such as dictionaries. We evaluate our method on the SemEval 2022 idiomatic semantic text similarity task, and show that it outperforms all unsupervised systems and rivals supervised systems.",
+    "path": "papers/23/06/2306.01443.json",
+    "total_tokens": 607,
+    "translated_title": "无监督的多词表达改写方法研究",
+    "translated_abstract": "我们提出了一种无监督的改写多词表达式（MWEs）的方法，只使用单语料库数据和预训练语言模型（无需微调），不使用任何外部资源，如字典。我们在SemEval 2022熟语语义文本相似度任务上评估了我们的方法，并表明它优于所有无监督系统并与有监督系统相匹敌。",
+    "tldr": "本文提出了一种无监督的多词表达式改写方法，使用的数据和工具非常简单，且实验结果表明，该方法在熟语语义文本相似度任务中性能良好。",
+    "en_tdlr": "This paper proposes an unsupervised method for paraphrasing multiword expressions using only monolingual corpus data and pre-trained language models, which outperforms all unsupervised systems and rivals supervised systems on SemEval 2022 idiomatic semantic text similarity task."
+}

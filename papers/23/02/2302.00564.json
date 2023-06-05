@@ -1,0 +1,12 @@
+{
+    "title": "Automatically Marginalized MCMC in Probabilistic Programming. (arXiv:2302.00564v2 [cs.LG] UPDATED)",
+    "abstract": "Hamiltonian Monte Carlo (HMC) is a powerful algorithm to sample latent variables from Bayesian models. The advent of probabilistic programming languages (PPLs) frees users from writing inference algorithms and lets users focus on modeling. However, many models are difficult for HMC to solve directly, and often require tricks like model reparameterization. We are motivated by the fact that many of those models could be simplified by marginalization. We propose to use automatic marginalization as part of the sampling process using HMC in a graphical model extracted from a PPL, which substantially improves sampling from real-world hierarchical models.",
+    "link": "http://arxiv.org/abs/2302.00564",
+    "context": "Title: Automatically Marginalized MCMC in Probabilistic Programming. (arXiv:2302.00564v2 [cs.LG] UPDATED)\nAbstract: Hamiltonian Monte Carlo (HMC) is a powerful algorithm to sample latent variables from Bayesian models. The advent of probabilistic programming languages (PPLs) frees users from writing inference algorithms and lets users focus on modeling. However, many models are difficult for HMC to solve directly, and often require tricks like model reparameterization. We are motivated by the fact that many of those models could be simplified by marginalization. We propose to use automatic marginalization as part of the sampling process using HMC in a graphical model extracted from a PPL, which substantially improves sampling from real-world hierarchical models.",
+    "path": "papers/23/02/2302.00564.json",
+    "total_tokens": 746,
+    "translated_title": "概率编程中的自动边缘化 MCMC",
+    "translated_abstract": "Hamiltonian Monte Carlo (HMC) 是从贝叶斯模型中采样潜在变量的一种强大算法。概率编程语言 (PPL) 的出现使用户摆脱了编写推断算法的烦恼，并让用户专注于模型建立。然而，许多模型都难以直接使用 HMC 解决，通常需要使用一些技巧，如模型重新参数化。我们的动机在于许多这些模型可能通过边缘化来简化。我们提出将自动边缘化作为采样过程的一部分，使用 HMC 在从 PPL 中提取的图形模型中进行采样，这显著提高了从现实世界的层次模型中采样的效率。",
+    "tldr": "本文提出了在概率编程中使用自动边缘化作为采样过程的一部分，使用 HMC 在从 PPL 中提取的图形模型中进行采样，显著提高了从现实世界的层次模型中采样的效率。",
+    "en_tdlr": "This paper proposes using automatic marginalization as part of the sampling process in probabilistic programming, using HMC in a graphical model extracted from a PPL, which substantially improves sampling from real-world hierarchical models."
+}

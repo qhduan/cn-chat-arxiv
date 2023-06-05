@@ -1,0 +1,12 @@
+{
+    "title": "Mixture Proportion Estimation Beyond Irreducibility. (arXiv:2306.01253v1 [stat.ML])",
+    "abstract": "The task of mixture proportion estimation (MPE) is to estimate the weight of a component distribution in a mixture, given observations from both the component and mixture. Previous work on MPE adopts the irreducibility assumption, which ensures identifiablity of the mixture proportion. In this paper, we propose a more general sufficient condition that accommodates several settings of interest where irreducibility does not hold. We further present a resampling-based meta-algorithm that takes any existing MPE algorithm designed to work under irreducibility and adapts it to work under our more general condition. Our approach empirically exhibits improved estimation performance relative to baseline methods and to a recently proposed regrouping-based algorithm.",
+    "link": "http://arxiv.org/abs/2306.01253",
+    "context": "Title: Mixture Proportion Estimation Beyond Irreducibility. (arXiv:2306.01253v1 [stat.ML])\nAbstract: The task of mixture proportion estimation (MPE) is to estimate the weight of a component distribution in a mixture, given observations from both the component and mixture. Previous work on MPE adopts the irreducibility assumption, which ensures identifiablity of the mixture proportion. In this paper, we propose a more general sufficient condition that accommodates several settings of interest where irreducibility does not hold. We further present a resampling-based meta-algorithm that takes any existing MPE algorithm designed to work under irreducibility and adapts it to work under our more general condition. Our approach empirically exhibits improved estimation performance relative to baseline methods and to a recently proposed regrouping-based algorithm.",
+    "path": "papers/23/06/2306.01253.json",
+    "total_tokens": 734,
+    "translated_title": "超越不可简约性的混合比例估计",
+    "translated_abstract": "混合比例估计（MPE）的任务是估计混合物中组成分布的权重，给定来自组成分布和混合物的观测。以前的MPE工作采用了不可简约性假设，这确保了混合比例的可辨识性。在本文中，我们提出了一个更一般的充分条件，适用于几种感兴趣的设置，其中不可简约性不成立。我们进一步提出了一个基于重采样的元算法，它接受任何现有的在不可简约性下设计的MPE算法，并将其调整为在我们更一般的条件下工作。我们的方法在经验上展现了相对于基线方法和最近提出的基于重新分组的算法的估计性能改善。",
+    "tldr": "本文提出了一种更一般的充分条件来解决MPE中不可简约性假设下的估计问题，并实现了更好的估计性能。",
+    "en_tdlr": "This paper proposes a more general sufficient condition to address estimation issues under the irreducibility assumption for MPE, and achieves improved estimation performance."
+}

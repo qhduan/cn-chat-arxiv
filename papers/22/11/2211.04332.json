@@ -1,0 +1,12 @@
+{
+    "title": "DiffPhase: Generative Diffusion-based STFT Phase Retrieval. (arXiv:2211.04332v2 [eess.AS] UPDATED)",
+    "abstract": "Diffusion probabilistic models have been recently used in a variety of tasks, including speech enhancement and synthesis. As a generative approach, diffusion models have been shown to be especially suitable for imputation problems, where missing data is generated based on existing data. Phase retrieval is inherently an imputation problem, where phase information has to be generated based on the given magnitude. In this work we build upon previous work in the speech domain, adapting a speech enhancement diffusion model specifically for STFT phase retrieval. Evaluation using speech quality and intelligibility metrics shows the diffusion approach is well-suited to the phase retrieval task, with performance surpassing both classical and modern methods.",
+    "link": "http://arxiv.org/abs/2211.04332",
+    "context": "Title: DiffPhase: Generative Diffusion-based STFT Phase Retrieval. (arXiv:2211.04332v2 [eess.AS] UPDATED)\nAbstract: Diffusion probabilistic models have been recently used in a variety of tasks, including speech enhancement and synthesis. As a generative approach, diffusion models have been shown to be especially suitable for imputation problems, where missing data is generated based on existing data. Phase retrieval is inherently an imputation problem, where phase information has to be generated based on the given magnitude. In this work we build upon previous work in the speech domain, adapting a speech enhancement diffusion model specifically for STFT phase retrieval. Evaluation using speech quality and intelligibility metrics shows the diffusion approach is well-suited to the phase retrieval task, with performance surpassing both classical and modern methods.",
+    "path": "papers/22/11/2211.04332.json",
+    "total_tokens": 739,
+    "translated_title": "DiffPhase: 基于扩散的STFT相位恢复生成方法",
+    "translated_abstract": "近年来，扩散概率模型已被广泛应用于包括语音增强和合成在内的各种任务中。作为一种生成方法，扩散模型在填补缺失数据的问题上表现出色，其中缺失的数据是基于现有数据生成的。相位检索本质上是一种填补缺失数据的问题，其中相位信息必须基于给定的幅度生成。在本研究中，我们建立在语音领域先前的工作之上，专门针对STFT相位恢复调整了语音增强扩散模型。使用语音质量和可懂度度量进行评估表明，扩散方法非常适用于相位检索任务，性能超越了传统的和现代的方法。",
+    "tldr": "本研究提出了一种基于扩散的STFT相位恢复生成方法，适用于填补缺失数据的问题，性能超越了传统的和现代的方法。",
+    "en_tdlr": "DiffPhase, a generative diffusion-based STFT phase retrieval method is proposed for imputation problems, with better performance than classical and modern methods."
+}

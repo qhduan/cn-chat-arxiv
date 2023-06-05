@@ -1,0 +1,12 @@
+{
+    "title": "Conformal Prediction with Partially Labeled Data. (arXiv:2306.01191v1 [cs.LG])",
+    "abstract": "While the predictions produced by conformal prediction are set-valued, the data used for training and calibration is supposed to be precise. In the setting of superset learning or learning from partial labels, a variant of weakly supervised learning, it is exactly the other way around: training data is possibly imprecise (set-valued), but the model induced from this data yields precise predictions. In this paper, we combine the two settings by making conformal prediction amenable to set-valued training data. We propose a generalization of the conformal prediction procedure that can be applied to set-valued training and calibration data. We prove the validity of the proposed method and present experimental studies in which it compares favorably to natural baselines.",
+    "link": "http://arxiv.org/abs/2306.01191",
+    "context": "Title: Conformal Prediction with Partially Labeled Data. (arXiv:2306.01191v1 [cs.LG])\nAbstract: While the predictions produced by conformal prediction are set-valued, the data used for training and calibration is supposed to be precise. In the setting of superset learning or learning from partial labels, a variant of weakly supervised learning, it is exactly the other way around: training data is possibly imprecise (set-valued), but the model induced from this data yields precise predictions. In this paper, we combine the two settings by making conformal prediction amenable to set-valued training data. We propose a generalization of the conformal prediction procedure that can be applied to set-valued training and calibration data. We prove the validity of the proposed method and present experimental studies in which it compares favorably to natural baselines.",
+    "path": "papers/23/06/2306.01191.json",
+    "total_tokens": 760,
+    "translated_title": "有部分标签数据的顺从预测",
+    "translated_abstract": "虽然顺从预测产生的预测是集合值，但用于训练和校准的数据应该是精确的。在超集学习或部分标签学习的设置中，一种弱监督学习的变体，情况恰恰相反:训练数据可能不精确（集合值），但从此数据中引出的模型产生精确预测。在本文中，我们将两种设置相结合，使顺从预测适应集合值的训练数据。我们提出了一种顺从预测程序的概括，可以应用于集合值的训练和校准数据。我们证明了所提出的方法的有效性，并展示了实验研究，在其中它与自然基线相比较有利。",
+    "tldr": "本文将顺从预测程序与集合值的训练数据相结合，提出了一种适用于集合值训练和校准数据的顺从预测程序。",
+    "en_tdlr": "This paper combines conformal prediction procedure with set-valued training data and proposes a conformal prediction procedure that can be applied to set-valued training and calibration data. The proposed method is valid and compares favorably to natural baselines in experimental studies."
+}
