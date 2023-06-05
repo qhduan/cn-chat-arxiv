@@ -8,13 +8,14 @@
 | [^4] | [Post-COVID Inflation & the Monetary Policy Dilemma: An Agent-Based Scenario Analysis.](http://arxiv.org/abs/2306.01284) | 本文使用一种基于智能体模型的新方法，研究了疫后通胀与货币政策的困境，通过研究三种外部冲击的影响，探究监管政策对通胀动态的影响。 |
 | [^5] | [Blockchain-based Decentralized Co-governance: Innovations and Solutions for Sustainable Crowdfunding.](http://arxiv.org/abs/2306.00869) | 本论文提出了一种基于区块链的去中心化联合治理模型，旨在解决传统众筹方法中存在的问题，包括高交易成本、缺乏透明度、欺诈和低效的资源分配。这个模型通过三方共治结构实现，具有劳动、资本和治理社区，为中小微企业和创新项目提供可持续众筹的解决方案。 |
 | [^6] | [Measuring Consistency in Text-based Financial Forecasting Models.](http://arxiv.org/abs/2305.08524) | 金融预测中模型的一致性对于建立用户信任至关重要，但目前金融预测方法很少考虑这一点，我们提出了一种评估金融文本逻辑一致性的评估工具FinTrust，并使用它发现最先进的金融预测NLP模型的一致性较差。 |
-| [^7] | [Efficient variational approximations for state space models.](http://arxiv.org/abs/2210.11010) | 本文提出了一种变分逼近方法，对于具有闭合型测量密度函数和状态转移分布在指数族中的任何模型都是准确快速的，可估计多元Skellam随机波动模型和随时间变化的参数向量自回归与随机波动模型。 |
-| [^8] | [Parallel Trends and Dynamic Choices.](http://arxiv.org/abs/2207.06564) | 本文探讨了治疗效应评估方法DiD的主要识别假设——平行趋势与经济模型动态选择的联系， 阐明了其对代理行为的影响，并指出这些选择动机如何导致对平行趋势的违反，最后提出了适应这些动态选择特征的其他假设与识别结果。 |
-| [^9] | [Supply-Side Equilibria in Recommender Systems.](http://arxiv.org/abs/2206.13489) | 本论文探究了推荐系统中个性化内容的供给侧均衡问题，其特点是生产者决策空间是多维的和用户群体是异构的，高维度和异质性的模型创造了专业化的可能性。 |
-| [^10] | [Information Geometry of Risks and Returns.](http://arxiv.org/abs/2206.08753) | 该论文揭示了避险和投资产品之间的几何结构，并提供了最优产品设计中的信息。 |
-| [^11] | [Polytope-form games and Index/Degree Theories for Extensive form games.](http://arxiv.org/abs/2201.02098) | 该论文提出了一个广义形式博弈均衡的指数理论，应用于策略集为普通多面体且收益函数为多线性的博弈。 |
-| [^12] | [Inference for the proportional odds cumulative logit model with monotonicity constraints for ordinal predictors and ordinal response.](http://arxiv.org/abs/2107.04946) | 本文提出了一种用于处理有序响应变量的比例几率累积logit模型，通过单调性约束将预测变量的有序性纳入模型中。同时，提出了一种可用于该约束模型的置信区间和检验方法，并在实际数据上进行了应用。 |
-| [^13] | [Public goods in networks with constraints on sharing.](http://arxiv.org/abs/1905.01693) | 本文研究了网络中部分可共享物品提供的激励机制，证明了存在一种纳什均衡，在其中一些个体做出贡献，而其余个体则搭便车。并发现共享约束的松弛可能会导致效率降低。 |
+| [^7] | [Breaking Down the Lockdown: The Causal Effects of Stay-At-Home Mandates on Uncertainty and Sentiments During the COVID-19 Pandemic.](http://arxiv.org/abs/2212.01705) | 研究发现，COVID-19大流行期间“居家令”对经济不确定性和情感影响不显著，但是增加了健康和政治方面的不确定性和更消极的政治情绪。 |
+| [^8] | [Efficient variational approximations for state space models.](http://arxiv.org/abs/2210.11010) | 本文提出了一种变分逼近方法，对于具有闭合型测量密度函数和状态转移分布在指数族中的任何模型都是准确快速的，可估计多元Skellam随机波动模型和随时间变化的参数向量自回归与随机波动模型。 |
+| [^9] | [Parallel Trends and Dynamic Choices.](http://arxiv.org/abs/2207.06564) | 本文探讨了治疗效应评估方法DiD的主要识别假设——平行趋势与经济模型动态选择的联系， 阐明了其对代理行为的影响，并指出这些选择动机如何导致对平行趋势的违反，最后提出了适应这些动态选择特征的其他假设与识别结果。 |
+| [^10] | [Supply-Side Equilibria in Recommender Systems.](http://arxiv.org/abs/2206.13489) | 本论文探究了推荐系统中个性化内容的供给侧均衡问题，其特点是生产者决策空间是多维的和用户群体是异构的，高维度和异质性的模型创造了专业化的可能性。 |
+| [^11] | [Information Geometry of Risks and Returns.](http://arxiv.org/abs/2206.08753) | 该论文揭示了避险和投资产品之间的几何结构，并提供了最优产品设计中的信息。 |
+| [^12] | [Polytope-form games and Index/Degree Theories for Extensive form games.](http://arxiv.org/abs/2201.02098) | 该论文提出了一个广义形式博弈均衡的指数理论，应用于策略集为普通多面体且收益函数为多线性的博弈。 |
+| [^13] | [Inference for the proportional odds cumulative logit model with monotonicity constraints for ordinal predictors and ordinal response.](http://arxiv.org/abs/2107.04946) | 本文提出了一种用于处理有序响应变量的比例几率累积logit模型，通过单调性约束将预测变量的有序性纳入模型中。同时，提出了一种可用于该约束模型的置信区间和检验方法，并在实际数据上进行了应用。 |
+| [^14] | [Public goods in networks with constraints on sharing.](http://arxiv.org/abs/1905.01693) | 本文研究了网络中部分可共享物品提供的激励机制，证明了存在一种纳什均衡，在其中一些个体做出贡献，而其余个体则搭便车。并发现共享约束的松弛可能会导致效率降低。 |
 
 # 详细
 
@@ -102,7 +103,21 @@
 
     Financial forecasting has been an important and active area of machine learning research, as even the most modest advantage in predictive accuracy can be parlayed into significant financial gains. Recent advances in natural language processing (NLP) bring the opportunity to leverage textual data, such as earnings reports of publicly traded companies, to predict the return rate for an asset. However, when dealing with such a sensitive task, the consistency of models -- their invariance under meaning-preserving alternations in input -is a crucial property for building user trust. Despite this, current financial forecasting methods do not consider consistency. To address this problem, we propose FinTrust, an evaluation tool that assesses logical consistency in financial text. Using FinTrust, we show that the consistency of state-of-the-art NLP models for financial forecasting is poor. Our analysis of the performance degradation caused by meaning-preserving alternations suggests that cur
     
-[^7]: 高效的状态空间模型变分近似方法
+[^7]: 打破封锁：COVID-19大流行期间“居家令”对不确定性和情感的因果影响
+
+    Breaking Down the Lockdown: The Causal Effects of Stay-At-Home Mandates on Uncertainty and Sentiments During the COVID-19 Pandemic. (arXiv:2212.01705v3 [stat.AP] UPDATED)
+
+    [http://arxiv.org/abs/2212.01705](http://arxiv.org/abs/2212.01705)
+
+    研究发现，COVID-19大流行期间“居家令”对经济不确定性和情感影响不显著，但是增加了健康和政治方面的不确定性和更消极的政治情绪。
+
+    
+
+    我们研究了封锁措施对推特上不确定性和情感的因果影响。我们利用第一次COVID-19封锁——意大利在2020年2月实施的意外封锁的拟实验框架。我们使用深度学习和基于词典的方法测量了在受限区域内和附近地区地理定位的每日推文的文本，以评估治疗前后公众情感的变化。我们将推文分为经济、健康、政治和封锁政策四类，以检查政策如何异质地影响情感。使用错位差分和差分方法，我们显示封锁对经济不确定性和情感没有显着的稳健影响。然而，这项政策的代价是增加了健康和政治方面的不确定性以及更消极的政治情绪。这些结果经过了一系列鲁棒性测试的验证，表明封锁措施具有重要的非
+
+    We study the causal effects of lockdown measures on uncertainty and sentiment on Twitter. To this end, we exploit the quasi-experimental framework created by the first COVID-19 lockdown in a high-income economy--the unexpected Italian lockdown in February 2020. We measure changes in public sentiment using deep learning and dictionary-based methods on the text of daily tweets geolocated within and near the locked-down areas, before and after the treatment. We classify tweets into four categories--economics, health, politics, and lockdown policy--to examine how the policy affected emotions heterogeneously. Using a staggered difference-in-differences approach, we show that the lockdown did not have a significantly robust impact on economic uncertainty and sentiment. However, the policy came at the price of higher uncertainty on health and politics and more negative political sentiments. These results, which are robust to a battery of robustness tests, show that lockdowns have relevant non
+    
+[^8]: 高效的状态空间模型变分近似方法
 
     Efficient variational approximations for state space models. (arXiv:2210.11010v3 [econ.EM] UPDATED)
 
@@ -116,7 +131,7 @@
 
     Variational Bayes methods are a potential scalable estimation approach for state space models. However, existing methods are inaccurate or computationally infeasible for many state space models. This paper proposes a variational approximation that is accurate and fast for any model with a closed-form measurement density function and a state transition distribution within the exponential family of distributions. We show that our method can accurately and quickly estimate a multivariate Skellam stochastic volatility model with high-frequency tick-by-tick discrete price changes of four stocks, and a time-varying parameter vector autoregression with a stochastic volatility model using eight macroeconomic variables.
     
-[^8]: 平行趋势和动态选择
+[^9]: 平行趋势和动态选择
 
     Parallel Trends and Dynamic Choices. (arXiv:2207.06564v2 [econ.EM] UPDATED)
 
@@ -130,7 +145,7 @@
 
     Difference-in-differences (or DiD) is a commonly used method for estimating treatment effects, and parallel trends is its main identifying assumption: the trend in mean untreated outcomes must be independent of the observed treatment status. In observational settings, treatment is often a dynamic choice made or influenced by rational agents, such as policy-makers, firms, or individual agents. This paper relates the parallel trends assumption to economic models of dynamic choice, which allow for dynamic selection motives such as learning or optimal stopping. In these cases, we clarify the implications of parallel trends on agent behavior, and we show how these selection motives can lead to violations of parallel trends even in simple settings where anticipation concerns are ruled out or when mean untreated outcomes are stationary. Finally, we consider some identification results under alternative assumptions that accommodate these features of dynamic choice.
     
-[^9]: 推荐系统中的供给侧均衡
+[^10]: 推荐系统中的供给侧均衡
 
     Supply-Side Equilibria in Recommender Systems. (arXiv:2206.13489v2 [cs.GT] UPDATED)
 
@@ -144,7 +159,7 @@
 
     Algorithmic recommender systems such as Spotify and Netflix affect not only consumer behavior but also producer incentives. Producers seek to create content that will be shown by the recommendation algorithm, which can impact both the diversity and quality of their content. In this work, we investigate the resulting supply-side equilibria in personalized content recommender systems. We model users and content as $D$-dimensional vectors, the recommendation algorithm as showing each user the content with highest dot product, and producers as maximizing the number of users who are recommended their content minus the cost of production. Two key features of our model are that the producer decision space is multi-dimensional and the user base is heterogeneous, which contrasts with classical low-dimensional models.  Multi-dimensionality and heterogeneity create the potential for specialization, where different producers create different types of content at equilibrium. Using a duality argumen
     
-[^10]: 风险和回报的信息几何
+[^11]: 风险和回报的信息几何
 
     Information Geometry of Risks and Returns. (arXiv:2206.08753v3 [econ.GN] UPDATED)
 
@@ -158,7 +173,7 @@
 
     We reveal a geometric structure underlying both hedging and investment products. The structure follows from a simple formula expressing investment risks in terms of returns. This informs optimal product designs. Optimal pure hedging (including cost-optimal products) and hybrid hedging (where a partial hedge is built into an optimal investment product) are considered. Duality between hedging and investment is demonstrated with applications to optimal risk recycling. A geometric interpretation of rationality is presented.
     
-[^11]: 多面体博弈和广义形式博弈的指数/度量理论
+[^12]: 多面体博弈和广义形式博弈的指数/度量理论
 
     Polytope-form games and Index/Degree Theories for Extensive form games. (arXiv:2201.02098v3 [econ.TH] UPDATED)
 
@@ -172,7 +187,7 @@
 
     We present an index theory of equilibria for extensive form games. This requires developing an index theory for games where the strategy sets of players are general polytopes and their payoff functions are multiaffine in the product of these polytopes. Such polytopes arise from identifying (topologically) equivalent mixed strategies of a normal form game.
     
-[^12]: 具有单调性约束的比例几率累积logit模型的推断
+[^13]: 具有单调性约束的比例几率累积logit模型的推断
 
     Inference for the proportional odds cumulative logit model with monotonicity constraints for ordinal predictors and ordinal response. (arXiv:2107.04946v3 [econ.EM] UPDATED)
 
@@ -186,7 +201,7 @@
 
     The proportional odds cumulative logit model (POCLM) is a standard regression model for an ordinal response. Ordinality of predictors can be incorporated by monotonicity constraints for the corresponding parameters. It is shown that estimators defined by optimization, such as maximum likelihood estimators, for an unconstrained model and for parameters in the interior set of the parameter space of a constrained model are asymptotically equivalent. This is used in order to derive asymptotic confidence regions and tests for the constrained model, involving simple modifications for finite samples. The finite sample coverage probability of the confidence regions is investigated by simulation. Tests concern the effect of individual variables, monotonicity, and a specified monotonicity direction. The methodology is applied on real data related to the assessment of school performance.
     
-[^13]: 具有共享约束的网络中的公共物品
+[^14]: 具有共享约束的网络中的公共物品
 
     Public goods in networks with constraints on sharing. (arXiv:1905.01693v4 [econ.TH] UPDATED)
 

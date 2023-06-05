@@ -46,16 +46,17 @@
 | [^42] | [Tighter Information-Theoretic Generalization Bounds from Supersamples.](http://arxiv.org/abs/2302.02432) | 本文介绍了一种新颖的信息论泛化界限，利用投影损失对，与Rademacher序列相关联来源于超取样的设置，这些界限比同一超取样设置中迄今已知的所有信息理论界限都更紧密。 |
 | [^43] | [Automatically Marginalized MCMC in Probabilistic Programming.](http://arxiv.org/abs/2302.00564) | 本文提出了在概率编程中使用自动边缘化作为采样过程的一部分，使用 HMC 在从 PPL 中提取的图形模型中进行采样，显著提高了从现实世界的层次模型中采样的效率。 |
 | [^44] | [Probably Anytime-Safe Stochastic Combinatorial Semi-Bandits.](http://arxiv.org/abs/2301.13393) | 本文提出了可能任何时候安全的随机组合半臂赌博问题，并设计出算法PASCombUCB在时间轴上最小化后悔值。 |
-| [^45] | [Unbiased constrained sampling with Self-Concordant Barrier Hamiltonian Monte Carlo.](http://arxiv.org/abs/2210.11925) | 本文提出了一种名为BHMC的新的蒙特卡罗采样算法，能够从定义了约束的黎曼流形中进行无偏采样，其中包含一种新的过滤步骤involution checking step。 |
-| [^46] | [Bayes-optimal limits in structured PCA, and how to reach them.](http://arxiv.org/abs/2210.01237) | 本文针对带尖峰的PCA问题，利用正交多项式矩阵抽取噪声模型提出了该模型中推断的贝叶斯最优极限的表征，并提出了一种新的AMP算法以实现信息论极限。 |
-| [^47] | [Developing A Visual-Interactive Interface for Electronic Health Record Labeling: An Explainable Machine Learning Approach.](http://arxiv.org/abs/2209.12778) | 本文介绍了一种解释性标注助手工具XLabel，通过可解释性提升机（EBM）和可视化展现，帮助医疗专家标记非传染性疾病（NCDs）的电子病历，与其他知名机器学习模型相比，EBM的准确性更佳。 |
-| [^48] | [Scalable Set Encoding with Universal Mini-Batch Consistency and Unbiased Full Set Gradient Approximation.](http://arxiv.org/abs/2208.12401) | 本文提出了一种可扩展的集合编码方法UMBC，可以与任意非MBC组件相结合，同时仍满足MBC；同时提出了一种高效的MBC训练算法，可以为任何集合大小在训练和测试时都具有恒定的内存开销，给出完整集合梯度的无偏近似。 |
-| [^49] | [Hindsight Learning for MDPs with Exogenous Inputs.](http://arxiv.org/abs/2207.06272) | 提出了一种数据高效的带有外部输入的MDPs算法，名为追溯学习（HL）。HL算法通过利用外部变量样本使得过去的决策在回溯中可以加速策略改进，在资源管理问题中表现出良好的性能。 |
-| [^50] | [Differentiable and Transportable Structure Learning.](http://arxiv.org/abs/2206.06354) | D-Struct是一种可微和可传输的结构学习方法，通过新颖的架构和损失函数使得结构可以在同一领域的不同数据集中传输，比NOTEARS和其他最先进的方法具有更好的性能。 |
-| [^51] | [Decentralized Online Regularized Learning Over Random Time-Varying Graphs.](http://arxiv.org/abs/2206.03861) | 本文研究了随机时变图上的分散在线正则化线性回归算法，提出了非负超-鞅不等式的估计误差，证明了算法在满足样本路径时空兴奋条件时，节点的估计可以收敛于未知的真实参数向量。 |
-| [^52] | [Fast Nonlinear Vector Quantile Regression.](http://arxiv.org/abs/2205.14977) | 本论文提出了一种基于神经网络的快速非线性向量分位数回归方法，该方法保留了向量分位数回归的优雅的基于几何的公式，同时采用了几种创新的算法思想以及有效的训练和推断步骤，具有优越的预测性能。 |
-| [^53] | [Reward is enough for convex MDPs.](http://arxiv.org/abs/2106.00661) | 本文研究了凸性马尔可夫决策过程，发现无法使用静态奖励函数表达目标，提出了一个元算法解决此问题，并统一了文献中的现有算法。 |
-| [^54] | [QCBA: Improving Rule Classifiers Learned from Quantitative Data by Recovering Information Lost by Discretisation.](http://arxiv.org/abs/1711.10166) | 本文提出的QCBA方法可以用于改进基于数值类型数据学习的规则分类器，恢复预离散化过程中丢失的信息，并提出了新的剪枝技术。在22个数据集上的实验表明，FOIL2+QCBA相对其他基线方法而言，具有更高的预测性能和更小的模型大小。 |
+| [^45] | [Refined Regret for Adversarial MDPs with Linear Function Approximation.](http://arxiv.org/abs/2301.12942) | 本论文研究了在对抗性马尔可夫决策过程（MDP）中的学习问题，提出了两种算法，可以将现有最佳方法中的后悔从$\tilde{\mathcal O}(K^{2/3})$降低到$\tilde{\mathcal O}(\sqrt K)$。其中第一种算法使用对数壁垒正则化器的跟随正则化者（FTRL）算法实现，在损失估计器任意负的情况下有效。第二种算法利用幅度降低的损失估计器，进一步消除了与动作数量多项式相关的依赖关系。 |
+| [^46] | [Unbiased constrained sampling with Self-Concordant Barrier Hamiltonian Monte Carlo.](http://arxiv.org/abs/2210.11925) | 本文提出了一种名为BHMC的新的蒙特卡罗采样算法，能够从定义了约束的黎曼流形中进行无偏采样，其中包含一种新的过滤步骤involution checking step。 |
+| [^47] | [Bayes-optimal limits in structured PCA, and how to reach them.](http://arxiv.org/abs/2210.01237) | 本文针对带尖峰的PCA问题，利用正交多项式矩阵抽取噪声模型提出了该模型中推断的贝叶斯最优极限的表征，并提出了一种新的AMP算法以实现信息论极限。 |
+| [^48] | [Developing A Visual-Interactive Interface for Electronic Health Record Labeling: An Explainable Machine Learning Approach.](http://arxiv.org/abs/2209.12778) | 本文介绍了一种解释性标注助手工具XLabel，通过可解释性提升机（EBM）和可视化展现，帮助医疗专家标记非传染性疾病（NCDs）的电子病历，与其他知名机器学习模型相比，EBM的准确性更佳。 |
+| [^49] | [Scalable Set Encoding with Universal Mini-Batch Consistency and Unbiased Full Set Gradient Approximation.](http://arxiv.org/abs/2208.12401) | 本文提出了一种可扩展的集合编码方法UMBC，可以与任意非MBC组件相结合，同时仍满足MBC；同时提出了一种高效的MBC训练算法，可以为任何集合大小在训练和测试时都具有恒定的内存开销，给出完整集合梯度的无偏近似。 |
+| [^50] | [Hindsight Learning for MDPs with Exogenous Inputs.](http://arxiv.org/abs/2207.06272) | 提出了一种数据高效的带有外部输入的MDPs算法，名为追溯学习（HL）。HL算法通过利用外部变量样本使得过去的决策在回溯中可以加速策略改进，在资源管理问题中表现出良好的性能。 |
+| [^51] | [Differentiable and Transportable Structure Learning.](http://arxiv.org/abs/2206.06354) | D-Struct是一种可微和可传输的结构学习方法，通过新颖的架构和损失函数使得结构可以在同一领域的不同数据集中传输，比NOTEARS和其他最先进的方法具有更好的性能。 |
+| [^52] | [Decentralized Online Regularized Learning Over Random Time-Varying Graphs.](http://arxiv.org/abs/2206.03861) | 本文研究了随机时变图上的分散在线正则化线性回归算法，提出了非负超-鞅不等式的估计误差，证明了算法在满足样本路径时空兴奋条件时，节点的估计可以收敛于未知的真实参数向量。 |
+| [^53] | [Fast Nonlinear Vector Quantile Regression.](http://arxiv.org/abs/2205.14977) | 本论文提出了一种基于神经网络的快速非线性向量分位数回归方法，该方法保留了向量分位数回归的优雅的基于几何的公式，同时采用了几种创新的算法思想以及有效的训练和推断步骤，具有优越的预测性能。 |
+| [^54] | [Reward is enough for convex MDPs.](http://arxiv.org/abs/2106.00661) | 本文研究了凸性马尔可夫决策过程，发现无法使用静态奖励函数表达目标，提出了一个元算法解决此问题，并统一了文献中的现有算法。 |
+| [^55] | [QCBA: Improving Rule Classifiers Learned from Quantitative Data by Recovering Information Lost by Discretisation.](http://arxiv.org/abs/1711.10166) | 本文提出的QCBA方法可以用于改进基于数值类型数据学习的规则分类器，恢复预离散化过程中丢失的信息，并提出了新的剪枝技术。在22个数据集上的实验表明，FOIL2+QCBA相对其他基线方法而言，具有更高的预测性能和更小的模型大小。 |
 
 # 详细
 
@@ -675,7 +676,21 @@
 
     Motivated by concerns about making online decisions that incur undue amount of risk at each time step, in this paper, we formulate the probably anytime-safe stochastic combinatorial semi-bandits problem. In this problem, the agent is given the option to select a subset of size at most $K$ from a set of $L$ ground items. Each item is associated to a certain mean reward as well as a variance that represents its risk. To mitigate the risk that the agent incurs, we require that with probability at least $1-\delta$, over the entire horizon of time $T$, each of the choices that the agent makes should contain items whose sum of variances does not exceed a certain variance budget. We call this probably anytime-safe constraint. Under this constraint, we design and analyze an algorithm {\sc PASCombUCB} that minimizes the regret over the horizon of time $T$. By developing accompanying information-theoretic lower bounds, we show that under both the problem-dependent and problem-independent paradig
     
-[^45]: 自共轭障碍哈密尔顿蒙特卡洛的无偏约束采样
+[^45]: 具有线性函数逼近的对抗性MDP的精细后悔
+
+    Refined Regret for Adversarial MDPs with Linear Function Approximation. (arXiv:2301.12942v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2301.12942](http://arxiv.org/abs/2301.12942)
+
+    本论文研究了在对抗性马尔可夫决策过程（MDP）中的学习问题，提出了两种算法，可以将现有最佳方法中的后悔从$\tilde{\mathcal O}(K^{2/3})$降低到$\tilde{\mathcal O}(\sqrt K)$。其中第一种算法使用对数壁垒正则化器的跟随正则化者（FTRL）算法实现，在损失估计器任意负的情况下有效。第二种算法利用幅度降低的损失估计器，进一步消除了与动作数量多项式相关的依赖关系。
+
+    
+
+    本文考虑了在对抗性马尔可夫决策过程（MDP）中的学习，其中损失函数可以在$K$个回合内任意更改，状态空间可以任意大。我们假设任何策略的Q函数在某些已知特征上是线性的，即存在线性函数逼近。对于这种设置，现有的最佳后悔上界是$\tilde {\mathcal O}(K^{2/3})$（省略所有其他依赖项），假设有模拟器。本文提供了两种算法，可以在相同的设置下将后悔改进为$\tilde{\mathcal O}(\sqrt K)$。我们的第一个算法利用了精细分析带有对数壁垒正则化器的跟随正则化者（FTRL）算法。此分析允许损失估计器任意负，并且可能具有独立的利益。我们的第二个算法开发了一个幅度降低的损失估计器，进一步消除了第一个算法中与动作数量多项式相关的依赖关系。
+
+    We consider learning in an adversarial Markov Decision Process (MDP) where the loss functions can change arbitrarily over $K$ episodes and the state space can be arbitrarily large. We assume that the Q-function of any policy is linear in some known features, that is, a linear function approximation exists. The best existing regret upper bound for this setting (Luo et al., 2021) is of order $\tilde{\mathcal O}(K^{2/3})$ (omitting all other dependencies), given access to a simulator. This paper provides two algorithms that improve the regret to $\tilde{\mathcal O}(\sqrt K)$ in the same setting. Our first algorithm makes use of a refined analysis of the Follow-the-Regularized-Leader (FTRL) algorithm with the log-barrier regularizer. This analysis allows the loss estimators to be arbitrarily negative and might be of independent interest. Our second algorithm develops a magnitude-reduced loss estimator, further removing the polynomial dependency on the number of actions in the first algorit
+    
+[^46]: 自共轭障碍哈密尔顿蒙特卡洛的无偏约束采样
 
     Unbiased constrained sampling with Self-Concordant Barrier Hamiltonian Monte Carlo. (arXiv:2210.11925v2 [stat.ML] UPDATED)
 
@@ -689,7 +704,7 @@
 
     In this paper, we propose Barrier Hamiltonian Monte Carlo (BHMC), a version of the HMC algorithm which aims at sampling from a Gibbs distribution $\pi$ on a manifold $\mathrm{M}$, endowed with a Hessian metric $\mathfrak{g}$ derived from a self-concordant barrier. Our method relies on Hamiltonian dynamics which comprises $\mathfrak{g}$. Therefore, it incorporates the constraints defining $\mathrm{M}$ and is able to exploit its underlying geometry. However, the corresponding Hamiltonian dynamics is defined via non separable Ordinary Differential Equations (ODEs) in contrast to the Euclidean case. It implies unavoidable bias in existing generalization of HMC to Riemannian manifolds. In this paper, we propose a new filter step, called "involution checking step", to address this problem. This step is implemented in two versions of BHMC, coined continuous BHMC (c-BHMC) and numerical BHMC (n-BHMC) respectively. Our main results establish that these two new algorithms generate reversible Mark
     
-[^46]: 结构化PCA中的贝叶斯极限及其实现方法
+[^47]: 结构化PCA中的贝叶斯极限及其实现方法
 
     Bayes-optimal limits in structured PCA, and how to reach them. (arXiv:2210.01237v2 [cs.IT] UPDATED)
 
@@ -703,7 +718,7 @@
 
     How do statistical dependencies in measurement noise influence high-dimensional inference? To answer this, we study the paradigmatic spiked matrix model of principal components analysis (PCA), where a rank-one matrix is corrupted by additive noise. We go beyond the usual independence assumption on the noise entries, by drawing the noise from a low-order polynomial orthogonal matrix ensemble. The resulting noise correlations make the setting relevant for applications but analytically challenging. We provide the first characterization of the Bayes-optimal limits of inference in this model. If the spike is rotation-invariant, we show that standard spectral PCA is optimal. However, for more general priors, both PCA and the existing approximate message passing algorithm (AMP) fall short of achieving the information-theoretic limits, which we compute using the replica method from statistical mechanics. We thus propose a novel AMP, inspired by the theory of Adaptive Thouless-Anderson-Palmer e
     
-[^47]: 开发一种解释性的机器学习方法支持的电子病历标注可视化交互工具
+[^48]: 开发一种解释性的机器学习方法支持的电子病历标注可视化交互工具
 
     Developing A Visual-Interactive Interface for Electronic Health Record Labeling: An Explainable Machine Learning Approach. (arXiv:2209.12778v2 [cs.LG] UPDATED)
 
@@ -717,7 +732,7 @@
 
     Labeling a large number of electronic health records is expensive and time consuming, and having a labeling assistant tool can significantly reduce medical experts' workload. Nevertheless, to gain the experts' trust, the tool must be able to explain the reasons behind its outputs. Motivated by this, we introduce Explainable Labeling Assistant (XLabel) a new visual-interactive tool for data labeling. At a high level, XLabel uses Explainable Boosting Machine (EBM) to classify the labels of each data point and visualizes heatmaps of EBM's explanations. As a case study, we use XLabel to help medical experts label electronic health records with four common non-communicable diseases (NCDs). Our experiments show that 1) XLabel helps reduce the number of labeling actions, 2) EBM as an explainable classifier is as accurate as other well-known machine learning models outperforms a rule-based model used by NCD experts, and 3) even when more than 40% of the records were intentionally mislabeled, E
     
-[^48]: 具有通用迷你批量一致性和无偏完全集合梯度近似的可扩展集合编码。
+[^49]: 具有通用迷你批量一致性和无偏完全集合梯度近似的可扩展集合编码。
 
     Scalable Set Encoding with Universal Mini-Batch Consistency and Unbiased Full Set Gradient Approximation. (arXiv:2208.12401v4 [cs.LG] UPDATED)
 
@@ -731,7 +746,7 @@
 
     Recent work on mini-batch consistency (MBC) for set functions has brought attention to the need for sequentially processing and aggregating chunks of a partitioned set while guaranteeing the same output for all partitions. However, existing constraints on MBC architectures lead to models with limited expressive power. Additionally, prior work has not addressed how to deal with large sets during training when the full set gradient is required. To address these issues, we propose a Universally MBC (UMBC) class of set functions which can be used in conjunction with arbitrary non-MBC components while still satisfying MBC, enabling a wider range of function classes to be used in MBC settings. Furthermore, we propose an efficient MBC training algorithm which gives an unbiased approximation of the full set gradient and has a constant memory overhead for any set size for both train- and test-time. We conduct extensive experiments including image completion, text classification, unsupervised cl
     
-[^49]: 带外部输入的MDPs的追溯学习
+[^50]: 带外部输入的MDPs的追溯学习
 
     Hindsight Learning for MDPs with Exogenous Inputs. (arXiv:2207.06272v2 [cs.LG] UPDATED)
 
@@ -745,7 +760,7 @@
 
     Many resource management problems require sequential decision-making under uncertainty, where the only uncertainty affecting the decision outcomes are exogenous variables outside the control of the decision-maker. We model these problems as Exo-MDPs (Markov Decision Processes with Exogenous Inputs) and design a class of data-efficient algorithms for them termed Hindsight Learning (HL). Our HL algorithms achieve data efficiency by leveraging a key insight: having samples of the exogenous variables, past decisions can be revisited in hindsight to infer counterfactual consequences that can accelerate policy improvements. We compare HL against classic baselines in the multi-secretary and airline revenue management problems. We also scale our algorithms to a business-critical cloud resource management problem -- allocating Virtual Machines (VMs) to physical machines, and simulate their performance with real datasets from a large public cloud provider. We find that HL algorithms outperform d
     
-[^50]: 可微和可传输的结构学习
+[^51]: 可微和可传输的结构学习
 
     Differentiable and Transportable Structure Learning. (arXiv:2206.06354v3 [cs.LG] UPDATED)
 
@@ -759,7 +774,7 @@
 
     Directed acyclic graphs (DAGs) encode a lot of information about a particular distribution in their structure. However, compute required to infer these structures is typically super-exponential in the number of variables, as inference requires a sweep of a combinatorially large space of potential structures. That is, until recent advances made it possible to search this space using a differentiable metric, drastically reducing search time. While this technique -- named NOTEARS -- is widely considered a seminal work in DAG-discovery, it concedes an important property in favour of differentiability: transportability. To be transportable, the structures discovered on one dataset must apply to another dataset from the same domain. We introduce D-Struct which recovers transportability in the discovered structures through a novel architecture and loss function while remaining fully differentiable. Because D-Struct remains differentiable, our method can be easily adopted in existing different
     
-[^51]: 随机时变图上的分散在线正则化学习
+[^52]: 随机时变图上的分散在线正则化学习
 
     Decentralized Online Regularized Learning Over Random Time-Varying Graphs. (arXiv:2206.03861v3 [cs.LG] UPDATED)
 
@@ -773,7 +788,7 @@
 
     We study the decentralized online regularized linear regression algorithm over random time-varying graphs. At each time step, every node runs an online estimation algorithm consisting of an innovation term processing its own new measurement, a consensus term taking a weighted sum of estimations of its own and its neighbors with additive and multiplicative communication noises and a regularization term preventing over-fitting. It is not required that the regression matrices and graphs satisfy special statistical assumptions such as mutual independence, spatio-temporal independence or stationarity. We develop the nonnegative supermartingale inequality of the estimation error, and prove that the estimations of all nodes converge to the unknown true parameter vector almost surely if the algorithm gains, graphs and regression matrices jointly satisfy the sample path spatio-temporal persistence of excitation condition. Especially, this condition holds by choosing appropriate algorithm gains 
     
-[^52]: 快速非线性向量分位数回归
+[^53]: 快速非线性向量分位数回归
 
     Fast Nonlinear Vector Quantile Regression. (arXiv:2205.14977v3 [stat.CO] UPDATED)
 
@@ -787,7 +802,7 @@
 
     Quantile regression (QR) is a powerful tool for estimating one or more conditional quantiles of a target variable $\mathrm{Y}$ given explanatory features $\boldsymbol{\mathrm{X}}$. A limitation of QR is that it is only defined for scalar target variables, due to the formulation of its objective function, and since the notion of quantiles has no standard definition for multivariate distributions. Recently, vector quantile regression (VQR) was proposed as an extension of QR for vector-valued target variables, thanks to a meaningful generalization of the notion of quantiles to multivariate distributions via optimal transport. Despite its elegance, VQR is arguably not applicable in practice due to several limitations: (i) it assumes a linear model for the quantiles of the target $\boldsymbol{\mathrm{Y}}$ given the features $\boldsymbol{\mathrm{X}}$; (ii) its exact formulation is intractable even for modestly-sized problems in terms of target dimensions, number of regressed quantile levels,
     
-[^53]: 奖励足以处理凸性MDP问题
+[^54]: 奖励足以处理凸性MDP问题
 
     Reward is enough for convex MDPs. (arXiv:2106.00661v4 [cs.AI] UPDATED)
 
@@ -801,7 +816,7 @@
 
     Maximising a cumulative reward function that is Markov and stationary, i.e., defined over state-action pairs and independent of time, is sufficient to capture many kinds of goals in a Markov decision process (MDP). However, not all goals can be captured in this manner. In this paper we study convex MDPs in which goals are expressed as convex functions of the stationary distribution and show that they cannot be formulated using stationary reward functions. Convex MDPs generalize the standard reinforcement learning (RL) problem formulation to a larger framework that includes many supervised and unsupervised RL problems, such as apprenticeship learning, constrained MDPs, and so-called `pure exploration'. Our approach is to reformulate the convex MDP problem as a min-max game involving policy and cost (negative reward) `players', using Fenchel duality. We propose a meta-algorithm for solving this problem and show that it unifies many existing algorithms in the literature.
     
-[^54]: QCBA: 通过恢复离散化过程中的信息改进基于数值数据学习的规则分类器
+[^55]: QCBA: 通过恢复离散化过程中的信息改进基于数值数据学习的规则分类器
 
     QCBA: Improving Rule Classifiers Learned from Quantitative Data by Recovering Information Lost by Discretisation. (arXiv:1711.10166v3 [stat.ML] UPDATED)
 
