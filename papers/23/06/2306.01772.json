@@ -1,0 +1,12 @@
+{
+    "title": "Re-imagining health and well-being in low resource African settings using an augmented AI system and a 3D digital twin. (arXiv:2306.01772v1 [cs.AI])",
+    "abstract": "In this paper, we discuss and explore the potential and relevance of recent developments in artificial intelligence (AI) and digital twins for health and well-being in low-resource African countries. Using an AI systems perspective, we review emerging trends in AI systems and digital twins and propose an initial augmented AI system architecture to illustrate how an AI system can work in conjunction with a 3D digital twin. We highlight scientific knowledge discovery, continual learning, pragmatic interoperability, and interactive explanation and decision-making as important research challenges for AI systems and digital twins.",
+    "link": "http://arxiv.org/abs/2306.01772",
+    "context": "Title: Re-imagining health and well-being in low resource African settings using an augmented AI system and a 3D digital twin. (arXiv:2306.01772v1 [cs.AI])\nAbstract: In this paper, we discuss and explore the potential and relevance of recent developments in artificial intelligence (AI) and digital twins for health and well-being in low-resource African countries. Using an AI systems perspective, we review emerging trends in AI systems and digital twins and propose an initial augmented AI system architecture to illustrate how an AI system can work in conjunction with a 3D digital twin. We highlight scientific knowledge discovery, continual learning, pragmatic interoperability, and interactive explanation and decision-making as important research challenges for AI systems and digital twins.",
+    "path": "papers/23/06/2306.01772.json",
+    "total_tokens": 774,
+    "translated_title": "利用增强型AI系统和3D数字孪生来重新构想非洲低资源地区的健康和幸福",
+    "translated_abstract": "本文探讨和研究了人工智能和数字孪生技术在非洲低资源国家中促进健康和幸福的潜力和相关性。使用人工智能系统的视角，我们回顾了人工智能系统和数字孪生领域的新兴趋势，并提出了一个初始的增强型AI系统架构，以说明AI系统如何与3D数字孪生协同工作。我们强调科学知识发现、持续学习、实用互操作性和交互式解释和决策是人工智能系统和数字孪生的重要研究挑战。",
+    "tldr": "本文讨论了在非洲低资源地区利用增强型AI系统和3D数字孪生促进健康和幸福的潜力，重点关注科学知识发现、持续学习、实用互操作性和交互式解释和决策这些重要研究挑战。",
+    "en_tdlr": "This paper explores the potential and relevance of using augmented AI systems and 3D digital twins to improve health and well-being in low-resource African countries, with a focus on scientific knowledge discovery, continual learning, pragmatic interoperability, and interactive explanation and decision-making as important research challenges."
+}
