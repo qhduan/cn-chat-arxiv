@@ -1,0 +1,12 @@
+{
+    "title": "Disproving XAI Myths with Formal Methods -- Initial Results. (arXiv:2306.01744v1 [cs.AI])",
+    "abstract": "The advances in Machine Learning (ML) in recent years have been both impressive and far-reaching. However, the deployment of ML models is still impaired by a lack of trust in how the best-performing ML models make predictions. The issue of lack of trust is even more acute in the uses of ML models in high-risk or safety-critical domains. eXplainable artificial intelligence (XAI) is at the core of ongoing efforts for delivering trustworthy AI. Unfortunately, XAI is riddled with critical misconceptions, that foster distrust instead of building trust. This paper details some of the most visible misconceptions in XAI, and shows how formal methods have been used, both to disprove those misconceptions, but also to devise practically effective alternatives.",
+    "link": "http://arxiv.org/abs/2306.01744",
+    "context": "Title: Disproving XAI Myths with Formal Methods -- Initial Results. (arXiv:2306.01744v1 [cs.AI])\nAbstract: The advances in Machine Learning (ML) in recent years have been both impressive and far-reaching. However, the deployment of ML models is still impaired by a lack of trust in how the best-performing ML models make predictions. The issue of lack of trust is even more acute in the uses of ML models in high-risk or safety-critical domains. eXplainable artificial intelligence (XAI) is at the core of ongoing efforts for delivering trustworthy AI. Unfortunately, XAI is riddled with critical misconceptions, that foster distrust instead of building trust. This paper details some of the most visible misconceptions in XAI, and shows how formal methods have been used, both to disprove those misconceptions, but also to devise practically effective alternatives.",
+    "path": "papers/23/06/2306.01744.json",
+    "total_tokens": 763,
+    "translated_title": "用形式化方法打破XAI神话-初步结果",
+    "translated_abstract": "近年来，机器学习（ML）的进展既令人印象深刻又深远。然而，ML模型的部署仍然受到人们对最佳表现的ML模型如何进行预测的信任缺乏的影响。在高风险或安全关键领域使用ML模型时，缺乏信任的问题更加严重。可解释的人工智能（XAI）是为提供可信赖AI而进行的不断努力的核心。不幸的是，XAI充斥着关键误解，这些误解助长了不信任而不是建立信任。本文详细介绍了XAI中最明显的一些误解，并展示了如何使用形式化方法来推翻这些误解，以及设计实际有效的替代方案。",
+    "tldr": "论文介绍了XAI中最严重的一些误解，并展示了如何使用形式化方法来打破这些谬见和开发更实用的替代方案。",
+    "en_tdlr": "The paper details some of the most critical misconceptions in XAI and demonstrates how formal methods have been used to disprove these misconceptions and develop practical alternatives."
+}

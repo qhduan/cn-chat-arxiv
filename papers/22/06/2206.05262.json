@@ -1,0 +1,12 @@
+{
+    "title": "Meta Optimal Transport. (arXiv:2206.05262v2 [cs.LG] UPDATED)",
+    "abstract": "We study the use of amortized optimization to predict optimal transport (OT) maps from the input measures, which we call Meta OT. This helps repeatedly solve similar OT problems between different measures by leveraging the knowledge and information present from past problems to rapidly predict and solve new problems. Otherwise, standard methods ignore the knowledge of the past solutions and suboptimally re-solve each problem from scratch. We instantiate Meta OT models in discrete and continuous settings between grayscale images, spherical data, classification labels, and color palettes and use them to improve the computational time of standard OT solvers. Our source code is available at this http URL",
+    "link": "http://arxiv.org/abs/2206.05262",
+    "context": "Title: Meta Optimal Transport. (arXiv:2206.05262v2 [cs.LG] UPDATED)\nAbstract: We study the use of amortized optimization to predict optimal transport (OT) maps from the input measures, which we call Meta OT. This helps repeatedly solve similar OT problems between different measures by leveraging the knowledge and information present from past problems to rapidly predict and solve new problems. Otherwise, standard methods ignore the knowledge of the past solutions and suboptimally re-solve each problem from scratch. We instantiate Meta OT models in discrete and continuous settings between grayscale images, spherical data, classification labels, and color palettes and use them to improve the computational time of standard OT solvers. Our source code is available at this http URL",
+    "path": "papers/22/06/2206.05262.json",
+    "total_tokens": 692,
+    "translated_title": "元最优输运",
+    "translated_abstract": "我们研究了使用分摊优化来预测最优输运（OT）地图的方法，我们称之为元OT。这有助于通过利用过去问题的知识和信息来迅速预测和解决新问题，从而重复地解决不同度量之间的类似OT问题。否则，标准方法会忽略过去解决方案的知识，从头开始次优地重新解决每个问题。我们在灰度图像、球形数据、分类标签和颜色调色板之间实例化元OT模型，并使用它们来改善标准OT求解器的计算时间。我们的源代码可在此http URL找到。",
+    "tldr": "本文提出了一种新的方法，利用过去问题的知识和信息来迅速预测和解决新问题，重复地解决不同度量之间的类似OT问题，从而改善最优输运问题的计算时间。",
+    "en_tdlr": "This paper proposes a new method that leverages past knowledge and information to rapidly predict and solve new Optimal Transport (OT) problems between different measures, thus improving the computational time of solving OT problems."
+}

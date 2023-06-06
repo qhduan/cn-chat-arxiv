@@ -1,0 +1,12 @@
+{
+    "title": "A Survey of Explainable AI and Proposal for a Discipline of Explanation Engineering. (arXiv:2306.01750v1 [cs.AI])",
+    "abstract": "In this survey paper, we deep dive into the field of Explainable Artificial Intelligence (XAI). After introducing the scope of this paper, we start by discussing what an \"explanation\" really is. We then move on to discuss some of the existing approaches to XAI and build a taxonomy of the most popular methods. Next, we also look at a few applications of these and other XAI techniques in four primary domains: finance, autonomous driving, healthcare and manufacturing. We end by introducing a promising discipline, \"Explanation Engineering,\" which includes a systematic approach for designing explainability into AI systems.",
+    "link": "http://arxiv.org/abs/2306.01750",
+    "context": "Title: A Survey of Explainable AI and Proposal for a Discipline of Explanation Engineering. (arXiv:2306.01750v1 [cs.AI])\nAbstract: In this survey paper, we deep dive into the field of Explainable Artificial Intelligence (XAI). After introducing the scope of this paper, we start by discussing what an \"explanation\" really is. We then move on to discuss some of the existing approaches to XAI and build a taxonomy of the most popular methods. Next, we also look at a few applications of these and other XAI techniques in four primary domains: finance, autonomous driving, healthcare and manufacturing. We end by introducing a promising discipline, \"Explanation Engineering,\" which includes a systematic approach for designing explainability into AI systems.",
+    "path": "papers/23/06/2306.01750.json",
+    "total_tokens": 721,
+    "translated_title": "可解释人工智能综述及对解释工程学科的提议",
+    "translated_abstract": "本篇综述深入探讨可解释人工智能领域。在介绍文章的范围后，我们首先讨论“解释”的真正含义。然后，我们进一步讨论现有的可解释人工智能方法，并建立了最受欢迎方法的分类法。接下来，我们还研究了这些以及其他可解释人工智能技术在金融、自动驾驶、医疗保健和制造等四个主要领域的应用。最后，我们引入了一种有前景的学科，“解释工程学”，其中包括一种系统化方法，用于设计各种可解释人工智能系统。",
+    "tldr": "本文深入探讨了可解释人工智能领域，并提出了一种有前景的学科：“解释工程学”，该学科包括一种系统化方法，用于设计各种可解释人工智能系统。",
+    "en_tdlr": "This paper provides a comprehensive survey of Explainable Artificial Intelligence (XAI) and proposes a promising discipline of \"Explanation Engineering,\" which includes a systematic approach for designing explainability into AI systems."
+}

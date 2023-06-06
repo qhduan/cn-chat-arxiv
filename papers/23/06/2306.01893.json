@@ -1,0 +1,12 @@
+{
+    "title": "Hierarchical Quadratic Random Forest Classifier. (arXiv:2306.01893v1 [cs.LG])",
+    "abstract": "In this paper, we proposed a hierarchical quadratic random forest classifier for classifying multiresolution samples extracted from multichannel data. This forest incorporated a penalized multivariate linear discriminant in each of its decision nodes and processed squared features to realize quadratic decision boundaries in the original feature space. The penalized discriminant was based on a multiclass sparse discriminant analysis and the penalization was based on a group Lasso regularizer which was an intermediate between the Lasso and the ridge regularizer. The classification probabilities estimated by this forest and the features learned by its decision nodes could be used standalone or foster graph-based classifiers.",
+    "link": "http://arxiv.org/abs/2306.01893",
+    "context": "Title: Hierarchical Quadratic Random Forest Classifier. (arXiv:2306.01893v1 [cs.LG])\nAbstract: In this paper, we proposed a hierarchical quadratic random forest classifier for classifying multiresolution samples extracted from multichannel data. This forest incorporated a penalized multivariate linear discriminant in each of its decision nodes and processed squared features to realize quadratic decision boundaries in the original feature space. The penalized discriminant was based on a multiclass sparse discriminant analysis and the penalization was based on a group Lasso regularizer which was an intermediate between the Lasso and the ridge regularizer. The classification probabilities estimated by this forest and the features learned by its decision nodes could be used standalone or foster graph-based classifiers.",
+    "path": "papers/23/06/2306.01893.json",
+    "total_tokens": 771,
+    "translated_title": "分层二次随机森林分类器",
+    "translated_abstract": "本文提出了一种用于对多分辨率样本进行分类的分层二次随机森林分类器，应用于多通道数据。该森林在每个决策节点中集成了一种惩罚的多元线性判别式，并使用平方特征处理实现原始特征空间中的二次决策边界。惩罚判别式基于多类别稀疏判别分析，并基于组 Lasso 正则化器进行惩罚，其位于 Lasso 和岭回归正则化器之间。该森林估计的分类概率和其决策节点学习的特征可以独立使用或促进基于图的分类器。",
+    "tldr": "本文提出了一种用于对多通道数据中的多分辨率样本进行分类的分层二次随机森林分类器。该分类器采用了惩罚的多元线性判别建立决策节点，并且使用组 Lasso 正则化器对特征进行处理。该分类器可以独立使用或者运用于基于图的分类器中。",
+    "en_tdlr": "This paper proposes a hierarchical quadratic random forest classifier for classifying multiresolution samples extracted from multichannel data, which incorporates a penalized multivariate linear discriminant and uses a group Lasso regularizer to process features. The classifier can be used standalone or foster graph-based classifiers."
+}

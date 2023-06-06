@@ -1,0 +1,12 @@
+{
+    "title": "A Supervised Tensor Dimension Reduction-Based Prognostics Model for Applications with Incomplete Imaging Data. (arXiv:2207.11353v2 [cs.LG] UPDATED)",
+    "abstract": "This paper proposes a supervised dimension reduction methodology for tensor data which has two advantages over most image-based prognostic models. First, the model does not require tensor data to be complete which expands its application to incomplete data. Second, it utilizes time-to-failure (TTF) to supervise the extraction of low-dimensional features which makes the extracted features more effective for the subsequent prognostic. Besides, an optimization algorithm is proposed for parameter estimation and closed-form solutions are derived under certain distributions.",
+    "link": "http://arxiv.org/abs/2207.11353",
+    "context": "Title: A Supervised Tensor Dimension Reduction-Based Prognostics Model for Applications with Incomplete Imaging Data. (arXiv:2207.11353v2 [cs.LG] UPDATED)\nAbstract: This paper proposes a supervised dimension reduction methodology for tensor data which has two advantages over most image-based prognostic models. First, the model does not require tensor data to be complete which expands its application to incomplete data. Second, it utilizes time-to-failure (TTF) to supervise the extraction of low-dimensional features which makes the extracted features more effective for the subsequent prognostic. Besides, an optimization algorithm is proposed for parameter estimation and closed-form solutions are derived under certain distributions.",
+    "path": "papers/22/07/2207.11353.json",
+    "total_tokens": 683,
+    "translated_title": "一种基于监督张量降维的不完整成像数据的预测模型",
+    "translated_abstract": "本文提出了一种用于张量数据的监督降维方法，与大多数基于图像的预测模型相比具有两个优势。首先，该模型不要求张量数据完整，从而扩展了其应用范围；其次，利用失效时间（TTF）来监督提取低维特征，使提取的特征更有效地用于后续预测。此外，本文为参数估计提出了一种优化算法，并在特定分布下推导出了闭式解。",
+    "tldr": "本文提出了一种基于监督张量降维的预测模型，能处理不完整的成像数据，利用失效时间监督提取低维特征，提高了预测的准确性。",
+    "en_tdlr": "This paper proposes a supervised tensor dimension reduction methodology for prognostics, which can handle incomplete imaging data. It uses time-to-failure to supervise the extraction of low-dimensional features, leading to more effective prognostics. An optimization algorithm is also introduced for parameter estimation, along with closed-form solutions under certain distributions."
+}

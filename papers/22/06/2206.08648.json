@@ -1,0 +1,12 @@
+{
+    "title": "Orthonormal Expansions for Translation-Invariant Kernels. (arXiv:2206.08648v3 [math.CA] UPDATED)",
+    "abstract": "We present a general Fourier analytic technique for constructing orthonormal basis expansions of translation-invariant kernels from orthonormal bases of $\\mathscr{L}_2(\\mathbb{R})$. This allows us to derive explicit expansions on the real line for (i) Mat\\'ern kernels of all half-integer orders in terms of associated Laguerre functions, (ii) the Cauchy kernel in terms of rational functions, and (iii) the Gaussian kernel in terms of Hermite functions.",
+    "link": "http://arxiv.org/abs/2206.08648",
+    "context": "Title: Orthonormal Expansions for Translation-Invariant Kernels. (arXiv:2206.08648v3 [math.CA] UPDATED)\nAbstract: We present a general Fourier analytic technique for constructing orthonormal basis expansions of translation-invariant kernels from orthonormal bases of $\\mathscr{L}_2(\\mathbb{R})$. This allows us to derive explicit expansions on the real line for (i) Mat\\'ern kernels of all half-integer orders in terms of associated Laguerre functions, (ii) the Cauchy kernel in terms of rational functions, and (iii) the Gaussian kernel in terms of Hermite functions.",
+    "path": "papers/22/06/2206.08648.json",
+    "total_tokens": 657,
+    "translated_title": "平移不变核函数的正交展开",
+    "translated_abstract": "我们提出了一种用于构建平移不变核函数的正交基展开的傅里叶分析技术，该技术利用$\\mathscr{L}_2(\\mathbb{R})$上的正交基，得到了实轴上所有半整数阶马特尔核函数、柯西核函数以及高斯核函数的明确展开表达式，分别由相关的拉盖尔函数、有理函数和厄米函数表示。",
+    "tldr": "该论文提出了一种傅里叶分析技术，用于从$\\mathscr{L}_2(\\mathbb{R})$的正交基中构建平移不变核函数的正交基展开，实现了马特尔核函数、柯西核函数和高斯核函数的明确展开表达式。",
+    "en_tdlr": "The paper presents a Fourier analytic technique for constructing orthonormal basis expansions of translation-invariant kernels from orthonormal bases of $\\mathscr{L}_2(\\mathbb{R})$, which is used to derive explicit expansions on the real line for Mat\\'ern kernels, Cauchy kernel and Gaussian kernel."
+}

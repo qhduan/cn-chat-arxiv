@@ -1,0 +1,11 @@
+{
+    "title": "Anytime-valid sequential testing for elicitable functionals via supermartingales. (arXiv:2204.05680v2 [math.ST] UPDATED)",
+    "abstract": "We design sequential tests for a large class of nonparametric null hypotheses based on elicitable and identifiable functionals. Such functionals are defined in terms of scoring functions and identification functions, which are ideal building blocks for constructing nonnegative supermartingales under the null. This in turn yields sequential tests via Ville's inequality. Using regret bounds from Online Convex Optimization, we obtain rigorous guarantees on the asymptotic power of the tests for a wide range of alternative hypotheses. Our results allow for bounded and unbounded data distributions, assuming that a sub-$\\psi$ tail bound is satisfied.",
+    "link": "http://arxiv.org/abs/2204.05680",
+    "context": "Title: Anytime-valid sequential testing for elicitable functionals via supermartingales. (arXiv:2204.05680v2 [math.ST] UPDATED)\nAbstract: We design sequential tests for a large class of nonparametric null hypotheses based on elicitable and identifiable functionals. Such functionals are defined in terms of scoring functions and identification functions, which are ideal building blocks for constructing nonnegative supermartingales under the null. This in turn yields sequential tests via Ville's inequality. Using regret bounds from Online Convex Optimization, we obtain rigorous guarantees on the asymptotic power of the tests for a wide range of alternative hypotheses. Our results allow for bounded and unbounded data distributions, assuming that a sub-$\\psi$ tail bound is satisfied.",
+    "path": "papers/22/04/2204.05680.json",
+    "total_tokens": 712,
+    "translated_title": "通过超级鞅进行可引出函数的任何时刻有效的顺序检验",
+    "translated_abstract": "我们设计了一种基于可引出和可辨识的函数的顺序检验，用于大类非参数零假设。这些函数可通过评分函数和识别函数定义，并且是构建零假设下的非负超级鞅的理想构建块。这反过来通过维尔不等式产生顺序检验。利用在线凸优化的后悔界，我们得到了对各种替代假设的渐近功率的严格保证。我们的结果允许有界和无界的数据分布，假定满足子-$\\psi$ 尾部界。",
+    "tldr": "我们使用评分函数和识别函数构建零假设下的非负超级鞅，利用在线凸优化的后悔界获得了渐近功率的严格保证。"
+}

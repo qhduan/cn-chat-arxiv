@@ -1,0 +1,12 @@
+{
+    "title": "XAudit : A Theoretical Look at Auditing with Explanations. (arXiv:2206.04740v3 [cs.LG] UPDATED)",
+    "abstract": "Responsible use of machine learning requires models to be audited for undesirable properties. While a body of work has proposed using explanations for auditing, how to do so and why has remained relatively ill-understood. This work formalizes the role of explanations in auditing and investigates if and how model explanations can help audits. Specifically, we propose explanation-based algorithms for auditing linear classifiers and decision trees for feature sensitivity. Our results illustrate that Counterfactual explanations are extremely helpful for auditing. While Anchors and decision paths may not be as beneficial in the worst-case, in the average-case they do aid a lot.",
+    "link": "http://arxiv.org/abs/2206.04740",
+    "context": "Title: XAudit : A Theoretical Look at Auditing with Explanations. (arXiv:2206.04740v3 [cs.LG] UPDATED)\nAbstract: Responsible use of machine learning requires models to be audited for undesirable properties. While a body of work has proposed using explanations for auditing, how to do so and why has remained relatively ill-understood. This work formalizes the role of explanations in auditing and investigates if and how model explanations can help audits. Specifically, we propose explanation-based algorithms for auditing linear classifiers and decision trees for feature sensitivity. Our results illustrate that Counterfactual explanations are extremely helpful for auditing. While Anchors and decision paths may not be as beneficial in the worst-case, in the average-case they do aid a lot.",
+    "path": "papers/22/06/2206.04740.json",
+    "total_tokens": 747,
+    "translated_title": "XAudit：审计与解释的理论研究",
+    "translated_abstract": "为了负责地使用机器学习，需要对模型进行审计以避免不良后果。尽管已经有相关工作提出了使用解释进行审计，但如何进行以及为什么进行尚未得到很好的理解。本文 formalizes 解释在审计中的作用，并研究模型解释如何帮助审计。具体而言，我们提出了一种基于解释的算法，用于审计线性分类器和决策树的特征敏感性。我们的结果表明，因果推断解释在审计中非常有帮助。虽然 Anchors 和 decision paths 在最坏情况下可能不太有益，但在平均情况下它们确实很有帮助。",
+    "tldr": "本文研究了如何通过解释来审计机器学习模型。作者提出了一种基于因果推断解释的算法来审计线性分类器和决策树的特征敏感性，结果表明该算法在审计中非常有帮助。",
+    "en_tdlr": "This paper investigates how to audit machine learning models through explanations and proposes an explanation-based algorithm for auditing linear classifiers and decision trees for feature sensitivity. The results show that Counterfactual explanations are extremely helpful for auditing."
+}

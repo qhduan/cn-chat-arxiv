@@ -1,0 +1,11 @@
+{
+    "title": "Significance Bands for Local Projections. (arXiv:2306.03073v1 [econ.EM])",
+    "abstract": "An impulse response function describes the dynamic evolution of an outcome variable following a stimulus or treatment. A common hypothesis of interest is whether the treatment affects the outcome. We show that this hypothesis is best assessed using significance bands rather than relying on commonly displayed confidence bands. Under the null hypothesis, we show that significance bands are trivial to construct with standard statistical software using the LM principle, and should be reported as a matter of routine when displaying impulse responses graphically.",
+    "link": "http://arxiv.org/abs/2306.03073",
+    "context": "Title: Significance Bands for Local Projections. (arXiv:2306.03073v1 [econ.EM])\nAbstract: An impulse response function describes the dynamic evolution of an outcome variable following a stimulus or treatment. A common hypothesis of interest is whether the treatment affects the outcome. We show that this hypothesis is best assessed using significance bands rather than relying on commonly displayed confidence bands. Under the null hypothesis, we show that significance bands are trivial to construct with standard statistical software using the LM principle, and should be reported as a matter of routine when displaying impulse responses graphically.",
+    "path": "papers/23/06/2306.03073.json",
+    "total_tokens": 602,
+    "translated_title": "局部投影的显著性带",
+    "translated_abstract": "冲击反应函数描述了刺激或治疗后结果变量的动态演变。一个常见的兴趣假设是治疗是否影响了结果。我们表明，最好使用显著性带来评估这个假设，而不是依赖于通常显示的置信度带。在零假设下，我们展示了使用LM原则可以使用标准统计软件轻松构建显著性带，并且在图形化显示冲击反应时应当作为常规报告。",
+    "tldr": "本文表明，在局部投影分析中，应该使用显著性带来评估措施对结果的影响，而不是使用常用的置信度带。"
+}

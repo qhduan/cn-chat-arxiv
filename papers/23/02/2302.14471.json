@@ -1,0 +1,12 @@
+{
+    "title": "Safe Peeling for L0-Regularized Least-Squares with supplementary material. (arXiv:2302.14471v3 [cs.LG] UPDATED)",
+    "abstract": "We introduce a new methodology dubbed ``safe peeling'' to accelerate the resolution of L0-regularized least-squares problems via a Branch-and-Bound (BnB) algorithm. Our procedure enables to tighten the convex relaxation considered at each node of the BnB decision tree and therefore potentially allows for more aggressive pruning. Numerical simulations show that our proposed methodology leads to significant gains in terms of number of nodes explored and overall solving time.s show that our proposed methodology leads to significant gains in terms of number of nodes explored and overall solving time.",
+    "link": "http://arxiv.org/abs/2302.14471",
+    "context": "Title: Safe Peeling for L0-Regularized Least-Squares with supplementary material. (arXiv:2302.14471v3 [cs.LG] UPDATED)\nAbstract: We introduce a new methodology dubbed ``safe peeling'' to accelerate the resolution of L0-regularized least-squares problems via a Branch-and-Bound (BnB) algorithm. Our procedure enables to tighten the convex relaxation considered at each node of the BnB decision tree and therefore potentially allows for more aggressive pruning. Numerical simulations show that our proposed methodology leads to significant gains in terms of number of nodes explored and overall solving time.s show that our proposed methodology leads to significant gains in terms of number of nodes explored and overall solving time.",
+    "path": "papers/23/02/2302.14471.json",
+    "total_tokens": 668,
+    "translated_title": "安全剥离L0正则化最小二乘问题",
+    "translated_abstract": "我们引入了一种新的方法，称为“安全剥离”，通过分支定界算法加速解决L0正则化最小二乘问题。我们的程序使得在BnB决策树的每个节点处考虑到收缩松弛度，因此可能允许更加激进的剪枝。数值模拟表明，我们提出的方法在探索节点数量和整体求解时间方面具有显著的优势。",
+    "tldr": "引入“安全剥离”方法加速解决L0正则化最小二乘问题，通过收缩松弛度允许更激进的剪枝，显著降低求解时间。",
+    "en_tdlr": "We introduce a new methodology, called \"safe peeling,\" to accelerate the resolution of L0-regularized least-squares problems via Branch-and-Bound algorithm, allowing for more aggressive pruning by tightening the convex relaxation at each node of the decision tree. Our proposed methodology leads to significant improvements in terms of time and number of nodes explored."
+}

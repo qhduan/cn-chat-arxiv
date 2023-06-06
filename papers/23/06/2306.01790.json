@@ -1,0 +1,12 @@
+{
+    "title": "Nash Equilibrium and Axiom of Choice Are Equivalent. (arXiv:2306.01790v1 [math.LO])",
+    "abstract": "In this paper, I prove that existence of pure-strategy Nash equilibrium in games with infinitely many players is equivalent to the axiom of choice.",
+    "link": "http://arxiv.org/abs/2306.01790",
+    "context": "Title: Nash Equilibrium and Axiom of Choice Are Equivalent. (arXiv:2306.01790v1 [math.LO])\nAbstract: In this paper, I prove that existence of pure-strategy Nash equilibrium in games with infinitely many players is equivalent to the axiom of choice.",
+    "path": "papers/23/06/2306.01790.json",
+    "total_tokens": 402,
+    "translated_title": "Nash均衡和选择公理等价",
+    "translated_abstract": "本文证明了，对于有无穷多个玩家的博弈，存在纯策略Nash均衡是等价于选择公理的。",
+    "tldr": "无穷多人博弈中，存在纯策略Nash均衡与选择公理等价。",
+    "en_tdlr": "The existence of pure-strategy Nash equilibrium in games with infinitely many players is equivalent to the axiom of choice."
+}

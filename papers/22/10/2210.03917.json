@@ -1,0 +1,12 @@
+{
+    "title": "Duality Theory for Exponential Utility--Based Hedging in the Almgren--Chriss Model. (arXiv:2210.03917v3 [q-fin.MF] UPDATED)",
+    "abstract": "In this paper, we obtain a duality result for the exponential utility maximization problem where trading is subject to quadratic transaction costs and the investor is required to liquidate her position at the maturity date. As an application of the duality, we treat utility-based hedging in the Bachelier model. For European contingent claims with a quadratic payoff, we compute explicitly the optimal trading strategy.",
+    "link": "http://arxiv.org/abs/2210.03917",
+    "context": "Title: Duality Theory for Exponential Utility--Based Hedging in the Almgren--Chriss Model. (arXiv:2210.03917v3 [q-fin.MF] UPDATED)\nAbstract: In this paper, we obtain a duality result for the exponential utility maximization problem where trading is subject to quadratic transaction costs and the investor is required to liquidate her position at the maturity date. As an application of the duality, we treat utility-based hedging in the Bachelier model. For European contingent claims with a quadratic payoff, we compute explicitly the optimal trading strategy.",
+    "path": "papers/22/10/2210.03917.json",
+    "total_tokens": 631,
+    "translated_title": "Almgren-Chriss 模型中基于指数效用的对冲的对偶理论",
+    "translated_abstract": "本文针对交易受到二次交易成本限制并要求在到期日清算头寸的指数效用最大化问题，得出了对偶结果。作为对偶理论的应用，我们处理了 Bachelier 模型中的基于效用的对冲。对于具有二次结算的欧式备选索赔，我们明确计算了最优交易策略。",
+    "tldr": "本文提出了 Almgren-Chriss 模型中指数效用的对冲的对偶理论，并应用于 Bachelier 模型中的基于效用的对冲。针对具有二次结算的欧式备选索赔，明确计算了最优交易策略。",
+    "en_tdlr": "This paper presents a duality theory for exponential utility-based hedging in the Almgren-Chriss model, which is then applied to utility-based hedging in the Bachelier model. The optimal trading strategy is explicitly calculated for European contingent claims with a quadratic payoff."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Introduction to Latent Variable Energy-Based Models: A Path Towards Autonomous Machine Intelligence. (arXiv:2306.02572v1 [cs.LG])",
+    "abstract": "Current automated systems have crucial limitations that need to be addressed before artificial intelligence can reach human-like levels and bring new technological revolutions. Among others, our societies still lack Level 5 self-driving cars, domestic robots, and virtual assistants that learn reliable world models, reason, and plan complex action sequences. In these notes, we summarize the main ideas behind the architecture of autonomous intelligence of the future proposed by Yann LeCun. In particular, we introduce energy-based and latent variable models and combine their advantages in the building block of LeCun's proposal, that is, in the hierarchical joint embedding predictive architecture (H-JEPA).",
+    "link": "http://arxiv.org/abs/2306.02572",
+    "context": "Title: Introduction to Latent Variable Energy-Based Models: A Path Towards Autonomous Machine Intelligence. (arXiv:2306.02572v1 [cs.LG])\nAbstract: Current automated systems have crucial limitations that need to be addressed before artificial intelligence can reach human-like levels and bring new technological revolutions. Among others, our societies still lack Level 5 self-driving cars, domestic robots, and virtual assistants that learn reliable world models, reason, and plan complex action sequences. In these notes, we summarize the main ideas behind the architecture of autonomous intelligence of the future proposed by Yann LeCun. In particular, we introduce energy-based and latent variable models and combine their advantages in the building block of LeCun's proposal, that is, in the hierarchical joint embedding predictive architecture (H-JEPA).",
+    "path": "papers/23/06/2306.02572.json",
+    "total_tokens": 671,
+    "translated_title": "潜变量能量模型简介：实现自主机器智能路径",
+    "translated_abstract": "当前自动化系统存在关键限制需要解决，才能达到人类水平的人工智能，并引领新的技术革命。在这篇论文中，我们总结了Yann LeCun提出的面向未来自主智能架构的主要思想。特别是，我们介绍了能量模型和潜变量模型，并将它们的优点结合起来，构建LeCun提出的层次联合嵌入预测架构（H-JEPA）的基本模块。",
+    "tldr": "用能量模型和潜变量模型相结合的层次联合嵌入预测架构（H-JEPA），是 Yann LeCun提出的实现未来自主智能的关键。",
+    "en_tdlr": "The combination of energy-based and latent variable models in the hierarchical joint embedding predictive architecture (H-JEPA) proposed by Yann LeCun is the key to achieving autonomous machine intelligence in the future."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "MMER: Multimodal Multi-task Learning for Speech Emotion Recognition. (arXiv:2203.16794v5 [cs.CL] UPDATED)",
+    "abstract": "In this paper, we propose MMER, a novel Multimodal Multi-task learning approach for Speech Emotion Recognition. MMER leverages a novel multimodal network based on early-fusion and cross-modal self-attention between text and acoustic modalities and solves three novel auxiliary tasks for learning emotion recognition from spoken utterances. In practice, MMER outperforms all our baselines and achieves state-of-the-art performance on the IEMOCAP benchmark. Additionally, we conduct extensive ablation studies and results analysis to prove the effectiveness of our proposed approach.",
+    "link": "http://arxiv.org/abs/2203.16794",
+    "context": "Title: MMER: Multimodal Multi-task Learning for Speech Emotion Recognition. (arXiv:2203.16794v5 [cs.CL] UPDATED)\nAbstract: In this paper, we propose MMER, a novel Multimodal Multi-task learning approach for Speech Emotion Recognition. MMER leverages a novel multimodal network based on early-fusion and cross-modal self-attention between text and acoustic modalities and solves three novel auxiliary tasks for learning emotion recognition from spoken utterances. In practice, MMER outperforms all our baselines and achieves state-of-the-art performance on the IEMOCAP benchmark. Additionally, we conduct extensive ablation studies and results analysis to prove the effectiveness of our proposed approach.",
+    "path": "papers/22/03/2203.16794.json",
+    "total_tokens": 716,
+    "translated_title": "MMER: 面向语音情感识别的多模态多任务学习方法",
+    "translated_abstract": "本文提出了MMER，一种新颖的多模态多任务学习方法，用于语音情感识别。MMER利用了基于早期融合和文本和声学模态之间的跨模态自注意力的新型多模态网络，并解决了三个新颖辅助任务，用于学习来自口语话语的情感识别。在实践中，MMER优于我们的所有基线，并在IEMOCAP基准测试中实现了最先进的性能。此外，我们进行了广泛的削减研究和结果分析，以证明我们提出的方法的有效性。",
+    "tldr": "本研究提出了一种名为MMER的新型多模态多任务学习方法，应用于语音情感识别。该方法利用新型多模态网络和多个辅助任务提高了性能，并在IEMOCAP基准测试中表现出了领先的水平。",
+    "en_tdlr": "This paper proposes a novel multimodal multi-task learning approach called MMER for speech emotion recognition, which uses a novel multimodal network and three auxiliary tasks to improve performance and achieves state-of-the-art results on the IEMOCAP benchmark."
+}

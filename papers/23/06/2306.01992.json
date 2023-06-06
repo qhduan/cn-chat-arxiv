@@ -1,0 +1,12 @@
+{
+    "title": "On Size-Independent Sample Complexity of ReLU Networks. (arXiv:2306.01992v1 [cs.LG])",
+    "abstract": "We study the sample complexity of learning ReLU neural networks from the point of view of generalization. Given norm constraints on the weight matrices, a common approach is to estimate the Rademacher complexity of the associated function class. Previously Golowich-Rakhlin-Shamir (2020) obtained a bound independent of the network size (scaling with a product of Frobenius norms) except for a factor of the square-root depth. We give a refinement which often has no explicit depth-dependence at all.",
+    "link": "http://arxiv.org/abs/2306.01992",
+    "context": "Title: On Size-Independent Sample Complexity of ReLU Networks. (arXiv:2306.01992v1 [cs.LG])\nAbstract: We study the sample complexity of learning ReLU neural networks from the point of view of generalization. Given norm constraints on the weight matrices, a common approach is to estimate the Rademacher complexity of the associated function class. Previously Golowich-Rakhlin-Shamir (2020) obtained a bound independent of the network size (scaling with a product of Frobenius norms) except for a factor of the square-root depth. We give a refinement which often has no explicit depth-dependence at all.",
+    "path": "papers/23/06/2306.01992.json",
+    "total_tokens": 633,
+    "translated_title": "关于ReLU网络的大小无关样本复杂度",
+    "translated_abstract": "我们从泛化的角度研究了学习ReLU神经网络的样本复杂度。在权重矩阵上给定范数约束的情况下，一个常见的方法是估计相关函数类的Rademacher复杂度。之前Golowich-Rakhlin-Shamir (2020)获得了一个不依赖于网络大小的（与Frobenius范数的乘积成比例）上界，除了一个平方根深度的因子。我们给出了一个精细化的结果，通常根本没有明显的深度依赖性。",
+    "tldr": "本文研究了ReLU神经网络的样本复杂度，给出了一个现有方法精细化的结果，实现了无深度依赖性的上界。",
+    "en_tdlr": "This paper studies the sample complexity of ReLU neural networks and provides a refined result based on existing methods, achieving an upper bound without depth dependence."
+}

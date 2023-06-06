@@ -1,0 +1,12 @@
+{
+    "title": "Prediction intervals for neural network models using weighted asymmetric loss functions. (arXiv:2210.04318v3 [stat.ML] UPDATED)",
+    "abstract": "We propose a simple and efficient approach to generate prediction intervals (PIs) for approximated and forecasted trends. Our method leverages a weighted asymmetric loss function to estimate the lower and upper bounds of the PIs, with the weights determined by the interval width. We provide a concise mathematical proof of the method, show how it can be extended to derive PIs for parametrised functions and argue why the method works for predicting PIs of dependent variables. The presented tests of the method on a real-world forecasting task using a neural network-based model show that it can produce reliable PIs in complex machine learning scenarios.",
+    "link": "http://arxiv.org/abs/2210.04318",
+    "context": "Title: Prediction intervals for neural network models using weighted asymmetric loss functions. (arXiv:2210.04318v3 [stat.ML] UPDATED)\nAbstract: We propose a simple and efficient approach to generate prediction intervals (PIs) for approximated and forecasted trends. Our method leverages a weighted asymmetric loss function to estimate the lower and upper bounds of the PIs, with the weights determined by the interval width. We provide a concise mathematical proof of the method, show how it can be extended to derive PIs for parametrised functions and argue why the method works for predicting PIs of dependent variables. The presented tests of the method on a real-world forecasting task using a neural network-based model show that it can produce reliable PIs in complex machine learning scenarios.",
+    "path": "papers/22/10/2210.04318.json",
+    "total_tokens": 714,
+    "translated_title": "使用加权不对称损失函数的神经网络模型预测区间",
+    "translated_abstract": "我们提出了一种简单而有效的方法来生成近似和预测趋势的预测区间（PIs）。我们利用加权不对称损失函数来估计PI的下限和上限，权重由区间宽度确定。我们提供了该方法的简洁数学证明，展示了如何将其扩展到为参数化函数推导PI，并论证了该方法为预测相关变量的PI而有效的原因。我们在基于神经网络的模型的真实世界预测任务上对该方法进行了测试，结果表明它在复杂的机器学习情境下可以产生可靠的PI。",
+    "tldr": "本论文提出了一种使用加权不对称损失函数的方法，生成可靠的预测区间，适用于复杂的机器学习情境，可扩展为参数化函数的PI预测。",
+    "en_tdlr": "This paper proposes a method using weighted asymmetric loss function to generate reliable prediction intervals (PIs) for complex machine learning scenarios, and can be extended to derive PIs for parametrised functions. Tests on a neural network-based model show its effectiveness in predicting PIs of dependent variables."
+}

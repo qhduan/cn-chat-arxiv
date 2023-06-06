@@ -1,0 +1,12 @@
+{
+    "title": "MiDi: Mixed Graph and 3D Denoising Diffusion for Molecule Generation. (arXiv:2302.09048v2 [cs.LG] UPDATED)",
+    "abstract": "This work introduces MiDi, a novel diffusion model for jointly generating molecular graphs and their corresponding 3D arrangement of atoms. Unlike existing methods that rely on predefined rules to determine molecular bonds based on the 3D conformation, MiDi offers an end-to-end differentiable approach that streamlines the molecule generation process. Our experimental results demonstrate the effectiveness of this approach. On the challenging GEOM-DRUGS dataset, MiDi generates 92% of stable molecules, against 6% for the previous EDM model that uses interatomic distances for bond prediction, and 40% using EDM followed by an algorithm that directly optimize bond orders for validity. Our code is available at github.com/cvignac/MiDi.",
+    "link": "http://arxiv.org/abs/2302.09048",
+    "context": "Title: MiDi: Mixed Graph and 3D Denoising Diffusion for Molecule Generation. (arXiv:2302.09048v2 [cs.LG] UPDATED)\nAbstract: This work introduces MiDi, a novel diffusion model for jointly generating molecular graphs and their corresponding 3D arrangement of atoms. Unlike existing methods that rely on predefined rules to determine molecular bonds based on the 3D conformation, MiDi offers an end-to-end differentiable approach that streamlines the molecule generation process. Our experimental results demonstrate the effectiveness of this approach. On the challenging GEOM-DRUGS dataset, MiDi generates 92% of stable molecules, against 6% for the previous EDM model that uses interatomic distances for bond prediction, and 40% using EDM followed by an algorithm that directly optimize bond orders for validity. Our code is available at github.com/cvignac/MiDi.",
+    "path": "papers/23/02/2302.09048.json",
+    "total_tokens": 747,
+    "translated_title": "MiDi：用于分子生成的混合图和三维去噪扩散",
+    "translated_abstract": "本文介绍了MiDi，一种新的扩散模型，用于共同生成分子图和相应的原子三维排列。与现有的方法依赖于预定义规则以基于三维构象确定分子键不同，MiDi提供了一个端到端可微分方法来简化分子生成过程。我们的实验结果证明了这种方法的有效性。在具有挑战性的GEOM-DRUGS数据集中，MiDi生成了92％的稳定分子，而先前使用原子间距进行键预测的EDM模型仅生成了6％，而使用EDM后跟直接优化键序以确保有效性的算法仅生成了40％。我们的代码可在github.com/cvignac/MiDi上获得。",
+    "tldr": "MiDi是一种新的扩散模型，可以端到端地生成分子图和原子三维排列，与其他方法相比，MiDi可以更有效地生成稳定的分子。",
+    "en_tdlr": "MiDi is a new diffusion model that can generate molecular graphs and their corresponding 3D arrangement of atoms end-to-end, and it can generate stable molecules more effectively than other methods."
+}

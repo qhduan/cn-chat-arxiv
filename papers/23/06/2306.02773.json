@@ -1,0 +1,12 @@
+{
+    "title": "Explaining AI in Finance: Past, Present, Prospects. (arXiv:2306.02773v1 [q-fin.ST])",
+    "abstract": "This paper explores the journey of AI in finance, with a particular focus on the crucial role and potential of Explainable AI (XAI). We trace AI's evolution from early statistical methods to sophisticated machine learning, highlighting XAI's role in popular financial applications. The paper underscores the superior interpretability of methods like Shapley values compared to traditional linear regression in complex financial scenarios. It emphasizes the necessity of further XAI research, given forthcoming EU regulations. The paper demonstrates, through simulations, that XAI enhances trust in AI systems, fostering more responsible decision-making within finance.",
+    "link": "http://arxiv.org/abs/2306.02773",
+    "context": "Title: Explaining AI in Finance: Past, Present, Prospects. (arXiv:2306.02773v1 [q-fin.ST])\nAbstract: This paper explores the journey of AI in finance, with a particular focus on the crucial role and potential of Explainable AI (XAI). We trace AI's evolution from early statistical methods to sophisticated machine learning, highlighting XAI's role in popular financial applications. The paper underscores the superior interpretability of methods like Shapley values compared to traditional linear regression in complex financial scenarios. It emphasizes the necessity of further XAI research, given forthcoming EU regulations. The paper demonstrates, through simulations, that XAI enhances trust in AI systems, fostering more responsible decision-making within finance.",
+    "path": "papers/23/06/2306.02773.json",
+    "total_tokens": 802,
+    "translated_title": "在金融领域解释人工智能：过去、现在和前景",
+    "translated_abstract": "本文探讨了人工智能在金融领域的历程，特别关注解释性人工智能（XAI）的重要作用和潜力。我们追溯了人工智能从早期的统计方法到复杂的机器学习的发展历程，强调了XAI在流行的金融应用中的作用。本文着重强调，与传统线性回归相比，在复杂的金融情景下，像Shapley值这样的方法具有更好的可解释性。考虑到即将出台的欧盟法规，本文强调了进一步XAI研究的必要性。通过模拟实验，本文证明了XAI增强了人们对AI系统的信任，在金融决策中促进了更负责任的决策。",
+    "tldr": "本文探讨了人工智能在金融领域的发展历程，强调解释性人工智能（XAI）在复杂金融情景下的作用，并通过模拟实验证明，XAI增强了人们对AI系统的信任，在金融决策中促进了更负责任的决策。",
+    "en_tdlr": "This paper explores the evolution of AI in finance, focusing on the role of Explainable AI (XAI) and demonstrates through simulations that XAI enhances trust in AI systems, fostering more responsible decision-making within finance."
+}

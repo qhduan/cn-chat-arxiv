@@ -1,0 +1,12 @@
+{
+    "title": "Abugida Normalizer and Parser for Unicode texts. (arXiv:2306.01743v1 [cs.CL])",
+    "abstract": "This paper proposes two libraries to address common and uncommon issues with Unicode-based writing schemes for Indic languages. The first is a normalizer that corrects inconsistencies caused by the encoding scheme https://pypi.org/project/bnunicodenormalizer/ . The second is a grapheme parser for Abugida text https://pypi.org/project/indicparser/ . Both tools are more efficient and effective than previously used tools. We report 400% increase in speed and ensure significantly better performance for different language model based downstream tasks.",
+    "link": "http://arxiv.org/abs/2306.01743",
+    "context": "Title: Abugida Normalizer and Parser for Unicode texts. (arXiv:2306.01743v1 [cs.CL])\nAbstract: This paper proposes two libraries to address common and uncommon issues with Unicode-based writing schemes for Indic languages. The first is a normalizer that corrects inconsistencies caused by the encoding scheme https://pypi.org/project/bnunicodenormalizer/ . The second is a grapheme parser for Abugida text https://pypi.org/project/indicparser/ . Both tools are more efficient and effective than previously used tools. We report 400% increase in speed and ensure significantly better performance for different language model based downstream tasks.",
+    "path": "papers/23/06/2306.01743.json",
+    "total_tokens": 706,
+    "translated_title": "一种适用于Unicode文本的Abugida规范化器和解析器",
+    "translated_abstract": "本文提出了两个库，以解决Indic语言基于Unicode的书写方案的常见和不常见问题。第一个是一个规范化器，通过https://pypi.org/project/bnunicodenormalizer/纠正由编码方案引起的不一致性。第二个是Abugida文本的字形解析器https://pypi.org/project/indicparser/。这两个工具比以前使用的工具更有效率和有效。我们报告了400%的速度提升，并确保不同语言模型基于下游任务表现显著提高。",
+    "tldr": "本论文提出了两个针对Indic语言Unicode书写方案中常见及不常见问题的工具库，分别是纠正不一致性的规范化器和Abugida文本的字形解析器，使用这两个工具可以提高400%的速度并显著改善下游任务表现。",
+    "en_tdlr": "This paper proposes two libraries, a normalizer and a grapheme parser for Abugida text, to address common and uncommon issues with Unicode-based writing schemes for Indic languages. The tools are more efficient and effective than previously used ones, showing a speed increase of 400% and significantly improved performance for different language model based downstream tasks."
+}

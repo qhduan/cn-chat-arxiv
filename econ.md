@@ -2,217 +2,307 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [The shape of business cycles: a cross-country analysis of Friedman s plucking theory.](http://arxiv.org/abs/2306.01552) | 本研究测试了12个发达经济体中弗里德曼著名的企业周期颤动理论的国际适用性，发现失业率的波动性较小，产出复苏在各国之间差异较小，制造业下降通常会完全逆转，而建筑业驱动的经济衰退往往是持续性的。 |
-| [^2] | [Social Interactions with Endogenous Group Formation.](http://arxiv.org/abs/2306.01544) | 本文研究了内生群体形成的社交互动模型，提出了一种可以纠正同伴效应标准估计偏差的方法，并使用群体形成中被排除的变量作为工具来解决反射问题。 |
-| [^3] | [The Dynamic Persistence of Economic Shocks.](http://arxiv.org/abs/2306.01511) | 本文提出经济数据持久性的平滑变化模型，通过局部回归从数据中确定丰富的持久性结构。研究发现这种动态持续性自然而然地来源于不同持续性的经济冲击，包括政策制定中起关键作用的通货膨胀和对于风险和市场分析至关重要的股票波动率。 |
-| [^4] | [Post-COVID Inflation & the Monetary Policy Dilemma: An Agent-Based Scenario Analysis.](http://arxiv.org/abs/2306.01284) | 本文使用一种基于智能体模型的新方法，研究了疫后通胀与货币政策的困境，通过研究三种外部冲击的影响，探究监管政策对通胀动态的影响。 |
-| [^5] | [Blockchain-based Decentralized Co-governance: Innovations and Solutions for Sustainable Crowdfunding.](http://arxiv.org/abs/2306.00869) | 本论文提出了一种基于区块链的去中心化联合治理模型，旨在解决传统众筹方法中存在的问题，包括高交易成本、缺乏透明度、欺诈和低效的资源分配。这个模型通过三方共治结构实现，具有劳动、资本和治理社区，为中小微企业和创新项目提供可持续众筹的解决方案。 |
-| [^6] | [Measuring Consistency in Text-based Financial Forecasting Models.](http://arxiv.org/abs/2305.08524) | 金融预测中模型的一致性对于建立用户信任至关重要，但目前金融预测方法很少考虑这一点，我们提出了一种评估金融文本逻辑一致性的评估工具FinTrust，并使用它发现最先进的金融预测NLP模型的一致性较差。 |
-| [^7] | [Breaking Down the Lockdown: The Causal Effects of Stay-At-Home Mandates on Uncertainty and Sentiments During the COVID-19 Pandemic.](http://arxiv.org/abs/2212.01705) | 研究发现，COVID-19大流行期间“居家令”对经济不确定性和情感影响不显著，但是增加了健康和政治方面的不确定性和更消极的政治情绪。 |
-| [^8] | [Efficient variational approximations for state space models.](http://arxiv.org/abs/2210.11010) | 本文提出了一种变分逼近方法，对于具有闭合型测量密度函数和状态转移分布在指数族中的任何模型都是准确快速的，可估计多元Skellam随机波动模型和随时间变化的参数向量自回归与随机波动模型。 |
-| [^9] | [Parallel Trends and Dynamic Choices.](http://arxiv.org/abs/2207.06564) | 本文探讨了治疗效应评估方法DiD的主要识别假设——平行趋势与经济模型动态选择的联系， 阐明了其对代理行为的影响，并指出这些选择动机如何导致对平行趋势的违反，最后提出了适应这些动态选择特征的其他假设与识别结果。 |
-| [^10] | [Supply-Side Equilibria in Recommender Systems.](http://arxiv.org/abs/2206.13489) | 本论文探究了推荐系统中个性化内容的供给侧均衡问题，其特点是生产者决策空间是多维的和用户群体是异构的，高维度和异质性的模型创造了专业化的可能性。 |
-| [^11] | [Information Geometry of Risks and Returns.](http://arxiv.org/abs/2206.08753) | 该论文揭示了避险和投资产品之间的几何结构，并提供了最优产品设计中的信息。 |
-| [^12] | [Polytope-form games and Index/Degree Theories for Extensive form games.](http://arxiv.org/abs/2201.02098) | 该论文提出了一个广义形式博弈均衡的指数理论，应用于策略集为普通多面体且收益函数为多线性的博弈。 |
-| [^13] | [Inference for the proportional odds cumulative logit model with monotonicity constraints for ordinal predictors and ordinal response.](http://arxiv.org/abs/2107.04946) | 本文提出了一种用于处理有序响应变量的比例几率累积logit模型，通过单调性约束将预测变量的有序性纳入模型中。同时，提出了一种可用于该约束模型的置信区间和检验方法，并在实际数据上进行了应用。 |
-| [^14] | [Public goods in networks with constraints on sharing.](http://arxiv.org/abs/1905.01693) | 本文研究了网络中部分可共享物品提供的激励机制，证明了存在一种纳什均衡，在其中一些个体做出贡献，而其余个体则搭便车。并发现共享约束的松弛可能会导致效率降低。 |
+| [^1] | [Significance Bands for Local Projections.](http://arxiv.org/abs/2306.03073) | 本文表明，在局部投影分析中，应该使用显著性带来评估措施对结果的影响，而不是使用常用的置信度带。 |
+| [^2] | [Frequency Regulation with Storage: On Losses and Profits.](http://arxiv.org/abs/2306.02987) | 本文解决了储能操作员如何在提供调频同时更好地交易电力的问题。通过将储能约束在目标电量，本文提出了日前市场交易电量作为调频电量的隐含函数，量化了能源损失所需购买的电量。 |
+| [^3] | [Improving the accuracy of bubble date estimators under time-varying volatility.](http://arxiv.org/abs/2306.02977) | 本研究提出了一种估计具有波动率修正的突破日期算法，通过两步程序显著提高了估计的准确性。 |
+| [^4] | [Rebooting Internet Immunity.](http://arxiv.org/abs/2306.02876) | 因为互联网的巨大变化，1996年通过《通信廉正法》规定的互联网实体免责制度需要进行重新考虑和调整。 |
+| [^5] | [Toward Textual Internet Immunity.](http://arxiv.org/abs/2306.02875) | 本文讨论了互联网免疫原则的破产以及法院对第230节的执行，民主党要求对在线虚假信息负责，共和党谴责政治动机的审查，而最高法院可能会发布解释第230节的裁决，限制豁免原则的范围。 |
+| [^6] | [Big Tech's Tightening Grip on Internet Speech.](http://arxiv.org/abs/2306.02874) | 本文探讨了在线平台格局的改革可能性，因为它们对在线言论有着集中的私有控制权，这给社会中不受欢迎的成员带来了压制。 |
+| [^7] | [Synthetic Matching Control Method.](http://arxiv.org/abs/2306.02584) | 本文提出了一种叫做合成匹配控制方法的简单而有效的方法来解决合成控制方法中的选择对齐问题和欠拟合问题，并通过对比实验表明该方法有效地提高了因果效应的估计精度。 |
+| [^8] | [Physical energy cost serves as the ''invisible hand'' governing economic valuation: Direct evidence from biogeochemical data and the U.S. metal market.](http://arxiv.org/abs/2306.02328) | 本研究通过分析美国金属市场的大量价格数据，发现销售价格与精炼能源成本成正比，这意味着能源成本理论提供了一个基本框架来理解经济估值，这对于关于能源转型和可持续发展的政策决策可能会产生影响。 |
+| [^9] | [Buying Time: Latency Racing vs. Bidding in Fair Transaction Ordering.](http://arxiv.org/abs/2306.02179) | 该算法为交易排序提供了一种解决方案，它结合了交易时间戳和出价，可以保证用户在有限延迟内获得公平价值，同时提取了竞争优势用户的公平价值，因此可以在Rollups和其他具有排序器特权的环境中提高交易排序的效率。 |
+| [^10] | [Individual Causal Inference Using Panel Data With Multiple Outcomes.](http://arxiv.org/abs/2306.01969) | 该研究提出一种基于交互固定效应模型的方法，用于面板数据集中估计个体层面的处理效应。这种方法适用于有多个相关结果的面板数据集，并且在相关方法中表现更优。 |
+| [^11] | [The Synthetic Control Method with Nonlinear Outcomes: Estimating the Impact of the 2019 Anti-Extradition Law Amendments Bill Protests on Hong Kong's Economy.](http://arxiv.org/abs/2306.01967) | 本文提出了一种处理非线性结果的综合控制方法，估计了2019年“反引渡法修订草案”抗议活动对香港经济的影响，并确定了抗议活动对香港GDP增长的严重负面影响。 |
+| [^12] | [The disruption index is biased by citation inflation.](http://arxiv.org/abs/2306.01949) | 对科学出版物和专利引用网络进行的最近分析表明其破坏指数变低了，但我们的研究表明，这其实是因为发生了引用通货膨胀，导致引用网络结构发生了变化，与创新系统容量无关。 |
+| [^13] | [Rank-heterogeneous Preference Models for School Choice.](http://arxiv.org/abs/2306.01801) | 本文提出了两种排位不同选择建模策略，一种是采用上下文相关的随机效用模型（CDM），一种是通过排名分层选择建模，提高了在学校选择中的应用效果。 |
+| [^14] | [Nash Equilibrium and Axiom of Choice Are Equivalent.](http://arxiv.org/abs/2306.01790) | 无穷多人博弈中，存在纯策略Nash均衡与选择公理等价。 |
+| [^15] | [Bicriteria Multidimensional Mechanism Design with Side Information.](http://arxiv.org/abs/2302.14234) | 本文提出了一种通用的新方法，该方法结合了有关代理类型的侧面信息，并具有同时生成高社会福利和高收入的双目标要求，其中基于最弱竞争者概念的新颖构造描述了元机制的特性。 |
+| [^16] | [Single-Crossing Differences in Convex Environments.](http://arxiv.org/abs/2212.12009) | 本文研究了凸环境中单调差异的效用函数集合，这些函数对于区间选择比较静态具有必要且充分的条件。 |
+| [^17] | [Testing the Number of Components in Finite Mixture Normal Regression Model with Panel Data.](http://arxiv.org/abs/2210.02824) | 本文开发了基于似然比检验的检验方法，用于测试有限混合正态面板回归模型中组分数量是否符合理论预期，提出了带惩罚的最大似然估计方法处理无界问题。 |
+| [^18] | [Discovering Opportunities in New York City's Discovery Program: Disadvantaged Students in Highly Competitive Markets.](http://arxiv.org/abs/2203.00544) | 该研究探讨了纽约市教育部门推出的发现计划，该计划旨在帮助贫困学生进入专业高中，但实证分析表明该计划可能会创造组内阻塞对并且不鼓励学生进步。 |
+| [^19] | [Tiebout Meets Schelling Online: Sorting in Cybercommunities.](http://arxiv.org/abs/2110.05608) | 本文研究了在线社群中的分类问题，发现隔离发生与群体比例和数量的组合相关，建议优化策略是使两个群体所选的平台质量相同。 |
+| [^20] | [Synchronization of endogenous business cycles.](http://arxiv.org/abs/2002.06555) | 本文研究了内生经济周期的同步化，发现需求驱动的模型更能产生商业周期的同步振荡，并通过将非线性动力学、冲击传播和网络结构相互作用的特征值分解方法来理解同步机制。 |
 
 # 详细
 
-[^1]: 企业周期的形态：对弗里德曼的颤动理论进行跨国分析
+[^1]: 局部投影的显著性带
 
-    The shape of business cycles: a cross-country analysis of Friedman s plucking theory. (arXiv:2306.01552v1 [econ.GN])
+    Significance Bands for Local Projections. (arXiv:2306.03073v1 [econ.EM])
 
-    [http://arxiv.org/abs/2306.01552](http://arxiv.org/abs/2306.01552)
+    [http://arxiv.org/abs/2306.03073](http://arxiv.org/abs/2306.03073)
 
-    本研究测试了12个发达经济体中弗里德曼著名的企业周期颤动理论的国际适用性，发现失业率的波动性较小，产出复苏在各国之间差异较小，制造业下降通常会完全逆转，而建筑业驱动的经济衰退往往是持续性的。
-
-    
-
-    本研究测试了弗里德曼著名的企业周期颤动理论在1970年至2021年间12个发达经济体中的国际适用性。研究发现，对于劳动力市场灵活的国家（澳大利亚、加拿大、英国和美国），失业率通常会回到经济危机前的水平，符合弗里德曼理论。在其他国家，失业率的波动性较小。产出复苏在各国之间差异较小，但在不同的经济周期之间差异较大：平均而言，在经济衰退期间GDP下降的一半仍然会持续存在。在行业方面，制造业下降通常会完全逆转。相比之下，建筑业驱动的经济衰退，通常是与房地产价格泡沫破裂有关的，往往是持续性的。
-
-    We test the international applicability of Friedman s famous plucking theory of the business cycle in 12 advanced economies between 1970 and 2021. We find that in countries where labour markets are flexible (Australia, Canada, United Kingdom and United States), unemployment rates typically return to pre-recession levels, in line with Friedman s theory. Elsewhere, unemployment rates are less cyclical. Output recoveries differ less across countries, but more across episodes: on average, half of the decline in GDP during a recession persists. In terms of sectors, declines in manufacturing are typically fully reversed. In contrast, construction-driven recessions, which are often associated with bursting property price bubbles, tend to be persistent.
-    
-[^2]: 内生群体形成的社交互动
-
-    Social Interactions with Endogenous Group Formation. (arXiv:2306.01544v1 [econ.EM])
-
-    [http://arxiv.org/abs/2306.01544](http://arxiv.org/abs/2306.01544)
-
-    本文研究了内生群体形成的社交互动模型，提出了一种可以纠正同伴效应标准估计偏差的方法，并使用群体形成中被排除的变量作为工具来解决反射问题。
+    本文表明，在局部投影分析中，应该使用显著性带来评估措施对结果的影响，而不是使用常用的置信度带。
 
     
 
-    本文探讨了带有内生群体形成的社交互动模型的识别和估计。我们使用双向多对一匹配模型来描述群体形成，个体基于其偏好选择群体，而群体根据个人的资格排名，接受最有资格的人直到达到容量。选择进入群体会导致同伴效应标准估计的偏差，由于均衡效应难以纠正。我们采用市场极限近似来简化选择偏差，随着市场规模的增大，我们可以假设可交换未观测量，将个人的选择偏差表示为其偏好和资格指数的群体不变非参数函数。除了选择修正，我们还展示了群体形成中被排除的变量可以作为工具来解决反射问题。我们提出了半参数分布
+    冲击反应函数描述了刺激或治疗后结果变量的动态演变。一个常见的兴趣假设是治疗是否影响了结果。我们表明，最好使用显著性带来评估这个假设，而不是依赖于通常显示的置信度带。在零假设下，我们展示了使用LM原则可以使用标准统计软件轻松构建显著性带，并且在图形化显示冲击反应时应当作为常规报告。
 
-    This paper explores the identification and estimation of social interaction models with endogenous group formation. We characterize group formation using a two-sided many-to-one matching model, where individuals select groups based on their preferences, while groups rank individuals according to their qualifications, accepting the most qualified until reaching capacities. The selection into groups leads to a bias in standard estimates of peer effects, which is difficult to correct for due to equilibrium effects. We employ the limiting approximation of a market as the market size grows large to simplify the selection bias. Assuming exchangeable unobservables, we can express the selection bias of an individual as a group-invariant nonparametric function of her preference and qualification indices. In addition to the selection correction, we show that the excluded variables in group formation can serve as instruments to tackle the reflection problem. We propose semiparametric distribution
+    An impulse response function describes the dynamic evolution of an outcome variable following a stimulus or treatment. A common hypothesis of interest is whether the treatment affects the outcome. We show that this hypothesis is best assessed using significance bands rather than relying on commonly displayed confidence bands. Under the null hypothesis, we show that significance bands are trivial to construct with standard statistical software using the LM principle, and should be reported as a matter of routine when displaying impulse responses graphically.
     
-[^3]: 经济冲击的动态持久性
+[^2]: 储能调频：损失与收益分析
 
-    The Dynamic Persistence of Economic Shocks. (arXiv:2306.01511v1 [q-fin.GN])
+    Frequency Regulation with Storage: On Losses and Profits. (arXiv:2306.02987v1 [math.OC])
 
-    [http://arxiv.org/abs/2306.01511](http://arxiv.org/abs/2306.01511)
+    [http://arxiv.org/abs/2306.02987](http://arxiv.org/abs/2306.02987)
 
-    本文提出经济数据持久性的平滑变化模型，通过局部回归从数据中确定丰富的持久性结构。研究发现这种动态持续性自然而然地来源于不同持续性的经济冲击，包括政策制定中起关键作用的通货膨胀和对于风险和市场分析至关重要的股票波动率。
-
-    
-
-    本文提出了一个模型，用于平滑变化的经济数据持久性。我们认为这种动态持续性自然而然地来源于不同持续性经济冲击的动态特性。通过使用局部回归从数据中确定这种动态持续性。经验证明，在两个重要数据集（政策制定中起关键作用的通货膨胀和对于风险和市场分析至关重要的股票波动率）中，我们确定了平稳变化的丰富持续性结构。
-
-    This paper presents a model for smoothly varying heterogeneous persistence of economic data. We argue that such dynamics arise naturally from the dynamic nature of economic shocks with various degree of persistence. The identification of such dynamics from data is done using localised regressions. Empirically, we identify rich persistence structures that change smoothly over time in two important data sets: inflation, which plays a key role in policy formulation, and stock volatility, which is crucial for risk and market analysis.
-    
-[^4]: 疫后通胀与货币政策困境：一项基于智能体场景分析的研究
-
-    Post-COVID Inflation & the Monetary Policy Dilemma: An Agent-Based Scenario Analysis. (arXiv:2306.01284v1 [econ.GN])
-
-    [http://arxiv.org/abs/2306.01284](http://arxiv.org/abs/2306.01284)
-
-    本文使用一种基于智能体模型的新方法，研究了疫后通胀与货币政策的困境，通过研究三种外部冲击的影响，探究监管政策对通胀动态的影响。
+    本文解决了储能操作员如何在提供调频同时更好地交易电力的问题。通过将储能约束在目标电量，本文提出了日前市场交易电量作为调频电量的隐含函数，量化了能源损失所需购买的电量。
 
     
 
-    COVID-19带来的经济冲击凸显了描述和预测通胀动态的困难，本文提供了一种替代建模方法。我们使用经过良好研究的Mark-0智能体模型，研究2020-2023年的情况，并包括一种机制，使经济主体对中央银行的信任可以解除。我们研究了监管政策对由COVID-19引发的三种外部冲击所导致的通胀动态的影响：由COVID相关封锁引起的生产/消费冲击、供应链冲击以及俄罗斯入侵乌克兰加剧的能源价格冲击。通过在不同的货币政策效力和传导渠道的假设下探究这些冲击的影响，我们回顾了各种解释。
+    在低碳社会，为了平衡风能和太阳能等间歇性发电，需要存储大量电力，比如通过调频来实现。本文解决了储能操作员的决策问题，他们向电网操作员出售调频电力并在日前市场上交易电力。数学上，本文将未来的频偏轨迹视为反复出现的优化问题中的函数不确定性。我们约束期望的终端电量为某个目标值，以使储能操作员不仅为现在而为未来做出好的决策。由于这个约束，日前市场上交易的电力量是出售给电网操作员的调频电量的一个隐含函数。这个隐含函数量化了提供调频所导致的预期能量损失所需购买的电量。
 
-    The economic shocks that followed the COVID-19 pandemic have brought to light the difficulty, both for academics and policy makers, of describing and predicting the dynamics of inflation. This paper offers an alternative modelling approach. We study the 2020-2023 period within the well-studied Mark-0 Agent-Based Model, in which economic agents act and react according to plausible behavioural rules. We include in particular a mechanism through which trust of economic agents in the Central Bank can de-anchor. We investigate the influence of regulatory policies on inflationary dynamics resulting from three exogenous shocks, calibrated on those that followed the COVID-19 pandemic: a production/consumption shock due to COVID-related lockdowns, a supply-chain shock, and an energy price shock exacerbated by the Russian invasion of Ukraine. By exploring the impact of these shocks under different assumptions about monetary policy efficacy and transmission channels, we review various explanation
+    Low-carbon societies will need to store vast amounts of electricity to balance intermittent generation from wind and solar energy, for example, through frequency regulation. Here, we derive an analytical solution to the decision-making problem of storage operators who sell frequency regulation power to grid operators and trade electricity on day-ahead markets. Mathematically, we treat future frequency deviation trajectories as functional uncertainties in a receding horizon robust optimization problem. We constrain the expected terminal state-of-charge to be equal to some target to allow storage operators to make good decisions not only for the present but also the future. Thanks to this constraint, the amount of electricity traded on day-ahead markets is an implicit function of the regulation power sold to grid operators. The implicit function quantifies the amount of power that needs to be purchased to cover the expected energy loss that results from providing frequency regulation. We
     
-[^5]: 基于区块链的去中心化联合治理：可持续众筹的创新和解决方案。
+[^3]: 在时变波动率下改善泡沫日期估计的准确性
 
-    Blockchain-based Decentralized Co-governance: Innovations and Solutions for Sustainable Crowdfunding. (arXiv:2306.00869v1 [cs.CY])
+    Improving the accuracy of bubble date estimators under time-varying volatility. (arXiv:2306.02977v1 [econ.EM])
 
-    [http://arxiv.org/abs/2306.00869](http://arxiv.org/abs/2306.00869)
+    [http://arxiv.org/abs/2306.02977](http://arxiv.org/abs/2306.02977)
 
-    本论文提出了一种基于区块链的去中心化联合治理模型，旨在解决传统众筹方法中存在的问题，包括高交易成本、缺乏透明度、欺诈和低效的资源分配。这个模型通过三方共治结构实现，具有劳动、资本和治理社区，为中小微企业和创新项目提供可持续众筹的解决方案。
-
-    
-
-    本论文深入探讨了去中心化联合治理众筹（DCC）生态系统，这是一种新的解决方案，旨在解决中小微企业和创新项目所面临的传统众筹方法中存在的问题。它试图缓解的问题包括高交易成本、缺乏透明度、欺诈和低效的资源分配。通过全面评估现有文献对众筹经济活动以及区块链对组织治理影响的研究，我们提出了一种基于数字代币和去中心化联合治理的转型社会经济模型。这个生态系统具有三方共治结构——劳动、资本和治理社区——每个社区在生态系统的运营中都有其独特的贡献。我们的研究展示了DCC生态系统的演变，提供了一种新的理解去中心化数字世界的社会经济动态。我们的研究还深入探讨了DCC生态系统不同阶段的内在复杂性和治理机制。
-
-    This thesis provides an in-depth exploration of the Decentralized Co-governance Crowdfunding (DCC) Ecosystem, a novel solution addressing prevailing challenges in conventional crowdfunding methods faced by MSMEs and innovative projects. Among the problems it seeks to mitigate are high transaction costs, lack of transparency, fraud, and inefficient resource allocation. Leveraging a comprehensive review of the existing literature on crowdfunding economic activities and blockchain's impact on organizational governance, we propose a transformative socio-economic model based on digital tokens and decentralized co-governance. This ecosystem is marked by a tripartite community structure - the Labor, Capital, and Governance communities - each contributing uniquely to the ecosystem's operation. Our research unfolds the evolution of the DCC ecosystem through distinct phases, offering a novel understanding of socioeconomic dynamics in a decentralized digital world. It also delves into the intrica
-    
-[^6]: 基于文本的金融预测模型的一致性评估
-
-    Measuring Consistency in Text-based Financial Forecasting Models. (arXiv:2305.08524v1 [cs.CL])
-
-    [http://arxiv.org/abs/2305.08524](http://arxiv.org/abs/2305.08524)
-
-    金融预测中模型的一致性对于建立用户信任至关重要，但目前金融预测方法很少考虑这一点，我们提出了一种评估金融文本逻辑一致性的评估工具FinTrust，并使用它发现最先进的金融预测NLP模型的一致性较差。
+    本研究提出了一种估计具有波动率修正的突破日期算法，通过两步程序显著提高了估计的准确性。
 
     
 
-    金融预测是机器学习研究中一个重要且活跃的领域，因为即使是最小的预测准确率提高也可以转化为巨大的财务收益。自然语言处理方面的最新进展带来了利用文本数据（如上市公司的盈利报告）来预测资产收益率的机会。然而，在处理这种敏感任务时，模型的一致性——即在输入的保留意义改变时对模型的影响是一个建立用户信任的关键属性，但当前的金融预测方法却没有考虑到这一点。因此，我们提出了FinTrust，一种评估金融文本中逻辑一致性的评估工具。使用FinTrust，我们发现目前最先进的金融预测NLP模型的一致性较差。我们对保留意义改变引起的性能降级进行分析，结果表明...
+    本研究考虑了四种情况下的泡沫模型，假设时变波动率，并提出了一种估计带有波动率修正的突破日期的算法: 首先，在同方差的假设下估计爆炸性泡沫的出现日期、崩溃日期和恢复到正常市场的日期；其次，我们收集残差，然后采用WLS法估计泡沫日期。蒙特卡罗模拟表明，在某些情况下，与基于OLS方法的估计相比，这种两步骤程序显著提高了突破日期估计的准确性。
 
-    Financial forecasting has been an important and active area of machine learning research, as even the most modest advantage in predictive accuracy can be parlayed into significant financial gains. Recent advances in natural language processing (NLP) bring the opportunity to leverage textual data, such as earnings reports of publicly traded companies, to predict the return rate for an asset. However, when dealing with such a sensitive task, the consistency of models -- their invariance under meaning-preserving alternations in input -is a crucial property for building user trust. Despite this, current financial forecasting methods do not consider consistency. To address this problem, we propose FinTrust, an evaluation tool that assesses logical consistency in financial text. Using FinTrust, we show that the consistency of state-of-the-art NLP models for financial forecasting is poor. Our analysis of the performance degradation caused by meaning-preserving alternations suggests that cur
+    In this study, we consider a four-regime bubble model under the assumption of time-varying volatility and propose the algorithm of estimating the break dates with volatility correction: First, we estimate the emerging date of the explosive bubble, its collapsing date, and the recovering date to the normal market under assumption of homoskedasticity; second, we collect the residuals and then employ the WLS-based estimation of the bubble dates. We demonstrate by Monte Carlo simulations that the accuracy of the break dates estimators improve significantly by this two-step procedure in some cases compared to those based on the OLS method.
     
-[^7]: 打破封锁：COVID-19大流行期间“居家令”对不确定性和情感的因果影响
+[^4]: 重新启动互联网免责机制
 
-    Breaking Down the Lockdown: The Causal Effects of Stay-At-Home Mandates on Uncertainty and Sentiments During the COVID-19 Pandemic. (arXiv:2212.01705v3 [stat.AP] UPDATED)
+    Rebooting Internet Immunity. (arXiv:2306.02876v1 [econ.GN])
 
-    [http://arxiv.org/abs/2212.01705](http://arxiv.org/abs/2212.01705)
+    [http://arxiv.org/abs/2306.02876](http://arxiv.org/abs/2306.02876)
 
-    研究发现，COVID-19大流行期间“居家令”对经济不确定性和情感影响不显著，但是增加了健康和政治方面的不确定性和更消极的政治情绪。
-
-    
-
-    我们研究了封锁措施对推特上不确定性和情感的因果影响。我们利用第一次COVID-19封锁——意大利在2020年2月实施的意外封锁的拟实验框架。我们使用深度学习和基于词典的方法测量了在受限区域内和附近地区地理定位的每日推文的文本，以评估治疗前后公众情感的变化。我们将推文分为经济、健康、政治和封锁政策四类，以检查政策如何异质地影响情感。使用错位差分和差分方法，我们显示封锁对经济不确定性和情感没有显着的稳健影响。然而，这项政策的代价是增加了健康和政治方面的不确定性以及更消极的政治情绪。这些结果经过了一系列鲁棒性测试的验证，表明封锁措施具有重要的非
-
-    We study the causal effects of lockdown measures on uncertainty and sentiment on Twitter. To this end, we exploit the quasi-experimental framework created by the first COVID-19 lockdown in a high-income economy--the unexpected Italian lockdown in February 2020. We measure changes in public sentiment using deep learning and dictionary-based methods on the text of daily tweets geolocated within and near the locked-down areas, before and after the treatment. We classify tweets into four categories--economics, health, politics, and lockdown policy--to examine how the policy affected emotions heterogeneously. Using a staggered difference-in-differences approach, we show that the lockdown did not have a significantly robust impact on economic uncertainty and sentiment. However, the policy came at the price of higher uncertainty on health and politics and more negative political sentiments. These results, which are robust to a battery of robustness tests, show that lockdowns have relevant non
-    
-[^8]: 高效的状态空间模型变分近似方法
-
-    Efficient variational approximations for state space models. (arXiv:2210.11010v3 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2210.11010](http://arxiv.org/abs/2210.11010)
-
-    本文提出了一种变分逼近方法，对于具有闭合型测量密度函数和状态转移分布在指数族中的任何模型都是准确快速的，可估计多元Skellam随机波动模型和随时间变化的参数向量自回归与随机波动模型。
+    因为互联网的巨大变化，1996年通过《通信廉正法》规定的互联网实体免责制度需要进行重新考虑和调整。
 
     
 
-    变分贝叶斯方法是状态空间模型的一种可扩展估计方法。但是，现有的方法对于许多状态空间模型来说不准确或计算不可行。本文提出了一种变分逼近方法，对于具有闭合型测量密度函数和状态转移分布在分布的指数族中的任何模型均为准确快速。我们展示了我们的方法可以准确快速地估计由四只股票的高频逐笔离散价格变动和使用八个宏观经济变量的随时间变化的参数向量自回归与随机波动模型构成的多元Skellam随机波动模型。
+    我们在网上进行各种活动，购物、旅游、投资、社交，甚至举办二手拍卖会。虽然我们可能不关心一个公司是在线上还是在现实世界中运营，但对公司本身而言，这个问题却具有重大的影响。在线上和现实世界中的企业受到不同的规则支配。根据《通信廉正法》第230条，在线实体——但非现实世界的实体——对于其用户或客户所撰写的内容相关的诉讼免责。因此，在线上实体因其运营方式而能够避免因疏忽和产品设计缺陷而导致的损害索赔。这种差别对待的原因在于互联网在过去20年里的巨大变化。1996年的互联网作为信息库和通信渠道，被《通信廉正法》很好地管理和治理，将互联网实体视为另一种大众媒体：因为Facebook、Twitter和其他在线实体对其用户或客户所撰写的内容不进行审核。
 
-    Variational Bayes methods are a potential scalable estimation approach for state space models. However, existing methods are inaccurate or computationally infeasible for many state space models. This paper proposes a variational approximation that is accurate and fast for any model with a closed-form measurement density function and a state transition distribution within the exponential family of distributions. We show that our method can accurately and quickly estimate a multivariate Skellam stochastic volatility model with high-frequency tick-by-tick discrete price changes of four stocks, and a time-varying parameter vector autoregression with a stochastic volatility model using eight macroeconomic variables.
+    We do everything online. We shop, travel, invest, socialize, and even hold garage sales. Even though we may not care whether a company operates online or in the physical world, however, the question has dramatic consequences for the companies themselves. Online and offline entities are governed by different rules. Under Section 230 of the Communications Decency Act, online entities -but not physical-world entities -- are immune from lawsuits related to content authored by their users or customers. As a result, online entities have been able to avoid claims for harms caused by their negligence and defective product designs simply because they operate online.  The reason for the disparate treatment is the internet's dramatic evolution over the last two decades. The internet of 1996 served as an information repository and communications channel and was well governed by Section 230, which treats internet entities as another form of mass media: Because Facebook, Twitter and other online c
     
-[^9]: 平行趋势和动态选择
+[^5]: 走向文本互联网免疫
 
-    Parallel Trends and Dynamic Choices. (arXiv:2207.06564v2 [econ.EM] UPDATED)
+    Toward Textual Internet Immunity. (arXiv:2306.02875v1 [econ.GN])
 
-    [http://arxiv.org/abs/2207.06564](http://arxiv.org/abs/2207.06564)
+    [http://arxiv.org/abs/2306.02875](http://arxiv.org/abs/2306.02875)
 
-    本文探讨了治疗效应评估方法DiD的主要识别假设——平行趋势与经济模型动态选择的联系， 阐明了其对代理行为的影响，并指出这些选择动机如何导致对平行趋势的违反，最后提出了适应这些动态选择特征的其他假设与识别结果。
-
-    
-
-    Difference-in-differences（DiD）是一种常用的估计治疗效应的方法，平行趋势是其最主要的识别假设：未经处理结果的平均趋势必须与观察到的治疗状态无关。在观察设置中，治疗通常是由理性行为者（如政策制定者、公司或个体行为者）做出或影响的动态选择。本文将平行趋势假设与动态选择的经济模型联系起来，这些模型允许动态选择动机，如学习或最优停止。在这些情况下，我们阐明了平行趋势对代理行为的影响，并展示了这些选择动机如何在简单的环境中导致对平行趋势的违反，即使预期关注被排除在外或未经处理结果的平均值保持不变。最后，我们考虑了一些假设下的识别结果，以适应这些动态选择的特征。
-
-    Difference-in-differences (or DiD) is a commonly used method for estimating treatment effects, and parallel trends is its main identifying assumption: the trend in mean untreated outcomes must be independent of the observed treatment status. In observational settings, treatment is often a dynamic choice made or influenced by rational agents, such as policy-makers, firms, or individual agents. This paper relates the parallel trends assumption to economic models of dynamic choice, which allow for dynamic selection motives such as learning or optimal stopping. In these cases, we clarify the implications of parallel trends on agent behavior, and we show how these selection motives can lead to violations of parallel trends even in simple settings where anticipation concerns are ruled out or when mean untreated outcomes are stationary. Finally, we consider some identification results under alternative assumptions that accommodate these features of dynamic choice.
-    
-[^10]: 推荐系统中的供给侧均衡
-
-    Supply-Side Equilibria in Recommender Systems. (arXiv:2206.13489v2 [cs.GT] UPDATED)
-
-    [http://arxiv.org/abs/2206.13489](http://arxiv.org/abs/2206.13489)
-
-    本论文探究了推荐系统中个性化内容的供给侧均衡问题，其特点是生产者决策空间是多维的和用户群体是异构的，高维度和异质性的模型创造了专业化的可能性。
+    本文讨论了互联网免疫原则的破产以及法院对第230节的执行，民主党要求对在线虚假信息负责，共和党谴责政治动机的审查，而最高法院可能会发布解释第230节的裁决，限制豁免原则的范围。
 
     
 
-    算法推荐系统（如Spotify和Netflix）不仅影响消费者行为，而且影响生产者的激励。生产者试图创建将被推荐算法显示的内容，这可能影响他们内容的多样性和质量。本文研究个性化内容推荐系统中的供给侧均衡。我们将用户和内容建模为 $D$ 维向量，推荐算法显示每个用户与之最高点积的内容，生产者最大化被推荐其内容的用户数减去生产成本。我们模型的两个关键特征是生产者决策空间是多维的，用户群体是异构的，这与经典低维模型不同。多维性和异质性创造了专业化的可能性，不同的生产者在均衡状态下创建不同类型的内容。使用对偶论证法
+    互联网免疫原则已经破产。根据1996年通信廉洁法案第230节，在线实体在涉及第三方创作内容的诉讼中享有绝对豁免权。这项法律在过去20年中对互联网的发展至关重要，但现在已经远远落后于时代，并且存在严重缺陷。民主党要求对在线虚假信息负责。共和党谴责政治动机的审查。国会，拜登总统，司法部和联邦通信委员会都有自己的改革计划。然而，直到现在，最高法院都没有参与争论，从未发表解释第230节的判决。然而，在马尔韦尔比特斯诉恩伽马案中，托马斯法官敦促法院裁剪几十年来的下级法院先例，制定更为限制的豁免原则，这一情况似乎即将发生变化。本篇论文讨论了法院如何热切地推动第230节的执行
 
-    Algorithmic recommender systems such as Spotify and Netflix affect not only consumer behavior but also producer incentives. Producers seek to create content that will be shown by the recommendation algorithm, which can impact both the diversity and quality of their content. In this work, we investigate the resulting supply-side equilibria in personalized content recommender systems. We model users and content as $D$-dimensional vectors, the recommendation algorithm as showing each user the content with highest dot product, and producers as maximizing the number of users who are recommended their content minus the cost of production. Two key features of our model are that the producer decision space is multi-dimensional and the user base is heterogeneous, which contrasts with classical low-dimensional models.  Multi-dimensionality and heterogeneity create the potential for specialization, where different producers create different types of content at equilibrium. Using a duality argumen
+    Internet immunity doctrine is broken. Under Section 230 of the Communications Decency Act of 1996, online entities are absolutely immune from lawsuits related to content authored by third parties. The law has been essential to the internet's development over the last twenty years, but it has not kept pace with the times and is now deeply flawed. Democrats demand accountability for online misinformation. Republicans decry politically motivated censorship. And Congress, President Biden, the Department of Justice, and the Federal Communications Commission all have their own plans for reform. Absent from the fray, however -- until now -- has been the Supreme Court, which has never issued a decision interpreting Section 230. That appears poised to change, however, following Justice Thomas's statement in Malwarebytes v. Enigma in which he urges the Court to prune back decades of lower-court precedent to craft a more limited immunity doctrine. This Essay discusses how courts' zealous enforcem
     
-[^11]: 风险和回报的信息几何
+[^6]: 大型科技公司对互联网言论的控制正在加强
 
-    Information Geometry of Risks and Returns. (arXiv:2206.08753v3 [econ.GN] UPDATED)
+    Big Tech's Tightening Grip on Internet Speech. (arXiv:2306.02874v1 [econ.GN])
 
-    [http://arxiv.org/abs/2206.08753](http://arxiv.org/abs/2206.08753)
+    [http://arxiv.org/abs/2306.02874](http://arxiv.org/abs/2306.02874)
 
-    该论文揭示了避险和投资产品之间的几何结构，并提供了最优产品设计中的信息。
-
-    
-
-    我们揭示了避险和投资产品之间的几何结构。这个结构是根据一个简单的公式，在回报方面表达投资风险所形成的。这为最优产品设计提供了信息。我们考虑了最优的纯避险(包括成本最低的产品)和混合避险(其中部分风险被纳入最佳投资产品中)。避险和投资之间的对偶性被证明，并应用于最优风险回收。我们提出了一个关于合理性的几何解释。
-
-    We reveal a geometric structure underlying both hedging and investment products. The structure follows from a simple formula expressing investment risks in terms of returns. This informs optimal product designs. Optimal pure hedging (including cost-optimal products) and hybrid hedging (where a partial hedge is built into an optimal investment product) are considered. Duality between hedging and investment is demonstrated with applications to optimal risk recycling. A geometric interpretation of rationality is presented.
-    
-[^12]: 多面体博弈和广义形式博弈的指数/度量理论
-
-    Polytope-form games and Index/Degree Theories for Extensive form games. (arXiv:2201.02098v3 [econ.TH] UPDATED)
-
-    [http://arxiv.org/abs/2201.02098](http://arxiv.org/abs/2201.02098)
-
-    该论文提出了一个广义形式博弈均衡的指数理论，应用于策略集为普通多面体且收益函数为多线性的博弈。
+    本文探讨了在线平台格局的改革可能性，因为它们对在线言论有着集中的私有控制权，这给社会中不受欢迎的成员带来了压制。
 
     
 
-    我们提出了一个广义形式博弈均衡的指数理论。这需要开发一个指数理论用于策略集为普通多面体且收益函数在这些多面体积中为多线性的博弈。这些多面体来自于识别（在拓扑上等价的）混合策略的正常形式博弈。
+    在线平台彻底改变了美国社交生活。它们民主化了出版，推翻了旧的监管者，并给普通美国人在政治上带来了新的发声机会。但这个系统开始出现问题。在线言论的控制权掌握在少数几个人手中——Facebook、Google 和 Twitter ——他们为整个国家监管内容。这是一项不可能完成的任务。美国人甚至不能在自己之间达成一致，哪些言论应该被允许。更重要的是，各平台有自己的利益:边缘理论和恶毒的口名声会赶走用户。适度的管理对商业有好处。但平台美化对社会不受欢迎的成员产生了影响，他们的丑陋声音在这个过程中被压制。由于在线言论的控制权如此集中，线上社群中的异类被剥夺了表达的途径。集中的私人控制对重要资源的控制是一个古老的问题。例如，上个世纪铁路和电话公司的兴起，都变得非常强大，他们有能力向消费者和立法者主导政策。鉴于这些问题，本文探讨了改革在线平台格局的可能性。
 
-    We present an index theory of equilibria for extensive form games. This requires developing an index theory for games where the strategy sets of players are general polytopes and their payoff functions are multiaffine in the product of these polytopes. Such polytopes arise from identifying (topologically) equivalent mixed strategies of a normal form game.
+    Online platforms have completely transformed American social life. They have democratized publication, overthrown old gatekeepers, and given ordinary Americans a fresh voice in politics. But the system is beginning to falter. Control over online speech lies in the hands of a select few -- Facebook, Google, and Twitter -- who moderate content for the entire nation. It is an impossible task. Americans cannot even agree among themselves what speech should be permitted. And, more importantly, platforms have their own interests at stake: Fringe theories and ugly name-calling drive away users. Moderation is good for business. But platform beautification has consequences for society's unpopular members, whose unsightly voices are silenced in the process. With control over online speech so centralized, online outcasts are left with few avenues for expression.  Concentrated private control over important resources is an old problem. Last century, for example, saw the rise of railroads and telep
     
-[^13]: 具有单调性约束的比例几率累积logit模型的推断
+[^7]: 合成匹配控制方法
 
-    Inference for the proportional odds cumulative logit model with monotonicity constraints for ordinal predictors and ordinal response. (arXiv:2107.04946v3 [econ.EM] UPDATED)
+    Synthetic Matching Control Method. (arXiv:2306.02584v1 [econ.EM])
 
-    [http://arxiv.org/abs/2107.04946](http://arxiv.org/abs/2107.04946)
+    [http://arxiv.org/abs/2306.02584](http://arxiv.org/abs/2306.02584)
 
-    本文提出了一种用于处理有序响应变量的比例几率累积logit模型，通过单调性约束将预测变量的有序性纳入模型中。同时，提出了一种可用于该约束模型的置信区间和检验方法，并在实际数据上进行了应用。
-
-    
-
-    比例几率累积logit模型（POCLM）是一种用于处理有序响应变量的标准回归模型。对于相应参数的单调性约束可以将预测变量的有序性纳入模型中。本文证明了，针对无约束模型和满足约束模型参数内部集的优化定义的估计量在渐进意义下是等价的。这被用于推导满足约束的渐进置信区间和检验，这涉及到有限样本的简单修改。通过模拟研究置信区间的有限样本覆盖概率。检验涉及到个体变量的影响，单调性以及指定的单调性方向。该方法应用于与学校绩效评估相关的实际数据。
-
-    The proportional odds cumulative logit model (POCLM) is a standard regression model for an ordinal response. Ordinality of predictors can be incorporated by monotonicity constraints for the corresponding parameters. It is shown that estimators defined by optimization, such as maximum likelihood estimators, for an unconstrained model and for parameters in the interior set of the parameter space of a constrained model are asymptotically equivalent. This is used in order to derive asymptotic confidence regions and tests for the constrained model, involving simple modifications for finite samples. The finite sample coverage probability of the confidence regions is investigated by simulation. Tests concern the effect of individual variables, monotonicity, and a specified monotonicity direction. The methodology is applied on real data related to the assessment of school performance.
-    
-[^14]: 具有共享约束的网络中的公共物品
-
-    Public goods in networks with constraints on sharing. (arXiv:1905.01693v4 [econ.TH] UPDATED)
-
-    [http://arxiv.org/abs/1905.01693](http://arxiv.org/abs/1905.01693)
-
-    本文研究了网络中部分可共享物品提供的激励机制，证明了存在一种纳什均衡，在其中一些个体做出贡献，而其余个体则搭便车。并发现共享约束的松弛可能会导致效率降低。
+    本文提出了一种叫做合成匹配控制方法的简单而有效的方法来解决合成控制方法中的选择对齐问题和欠拟合问题，并通过对比实验表明该方法有效地提高了因果效应的估计精度。
 
     
 
-    本文研究社会联系中部分可共享物品提供的激励机制。我们引入了一个模型，每个社交网络中的个体不仅决定提供多少可共享的物品，还决定提名哪些邻居作为共同受益者的子集。该模型的结果指定了一个原始网络的内生生成子网络和在实现子网络上发生的公共物品博弈。我们证明了专门的纯策略纳什均衡的存在：其中一些个体做出贡献，而其余个体则搭便车。然后，我们考虑当共享约束松弛时专业均衡的有效集合如何变化，并显示出具有讽刺意味的是，可共享性的增加可能会降低效率。
+    在合成控制方法中，估计权重涉及同时选择和对齐对照组以接近匹配处理组的优化过程。然而，这种同时选择和对齐控制组单位的方式可能导致合成控制方法效率的下降。另一个担忧是由于不完美的预处理拟合而导致的欠拟合问题。为了解决这两个问题，本文提出了一种简单有效的方法——合成匹配控制方法。该方法通过执行单变量线性回归来建立控制组的预处理期与处理组之间的适当匹配，并通过合成匹配来获得一个SMC估计量，从而改善了估计的效率和拟合度。
 
-    This paper considers incentives to provide goods that are partially shareable along social links. We introduce a model in which each individual in a social network not only decides how much of a shareable good to provide, but also decides which subset of neighbours to nominate as co-beneficiaries. An outcome of the model specifies an endogenously generated subnetwork of the original network and a public goods game occurring over the realised subnetwork. We prove the existence of specialised pure strategy Nash equilibria: those in which some individuals contribute while the remaining individuals free ride. We then consider how the set of efficient specialised equilibria vary as the constraints on sharing are relaxed and we show that, paradoxically, an increase in shareability may decrease efficiency.
+    Estimating weights in the synthetic control method involves an optimization procedure that simultaneously selects and aligns control units in order to closely match the treated unit. However, this simultaneous selection and alignment of control units may lead to a loss of efficiency in the synthetic control method. Another concern arising from the aforementioned procedure is its susceptibility to under-fitting due to imperfect pretreatment fit. It is not uncommon for the linear combination, using nonnegative weights, of pre-treatment period outcomes for the control units to inadequately approximate the pre-treatment outcomes for the treated unit. To address both of these issues, this paper proposes a simple and effective method called Synthetic Matching Control (SMC). The SMC method begins by performing the univariate linear regression to establish a proper match between the pre-treatment periods of the control units and the treated unit. Subsequently, a SMC estimator is obtained by sy
+    
+[^8]: 物理能量成本作为“看不见的手”统治经济估值: 生物地球化学数据与美国金属市场的直接证据
+
+    Physical energy cost serves as the ''invisible hand'' governing economic valuation: Direct evidence from biogeochemical data and the U.S. metal market. (arXiv:2306.02328v1 [econ.GN])
+
+    [http://arxiv.org/abs/2306.02328](http://arxiv.org/abs/2306.02328)
+
+    本研究通过分析美国金属市场的大量价格数据，发现销售价格与精炼能源成本成正比，这意味着能源成本理论提供了一个基本框架来理解经济估值，这对于关于能源转型和可持续发展的政策决策可能会产生影响。
+
+    
+
+    能源供应对于经济价值的生产是必要的。然而，传统上认为神秘的“看不见的手”统治着经济估值。物理学家长期以来提出了与能源成本有关的经济估值理论，通过输入输出能量分析，在国家层面上显示了能源消耗与经济产出之间的总体相关性。然而，由于精确能量分析的困难和高度复杂的实际市场，尚未找到将能源成本与单个商品销售价格直接联系起来的决定性证据。过去一个世纪，美国金属市场累积了大量的价格数据，这为我们提供了首次机会，以量化的方式检验直接的能源价值相关性。通过分析65种纯化学元素（主要是金属）的市场价格数据，相对于从天然矿石中提炼它们的总能量消耗，我们提供了第一个定量证据，表明固有的能源成本作为统治经济估值的“看不见的手”。我们的结果显示出销售价格与其精炼能源成本成正比，比例指数为0.82±0.09，相关系数为0.83。这一发现表明，能源成本理论为理解经济估值提供了一个基本框架，并可能对有关能源转型和可持续发展的政策决策产生影响。
+
+    Energy supply is mandatory for the production of economic value. Nevertheless, tradition dictates that an enigmatic 'invisible hand' governs economic valuation. Physical scientists have long proposed alternative but testable energy cost theories of economic valuation, and have shown the gross correlation between energy consumption and economic output at the national level through input-output energy analysis. However, due to the difficulty of precise energy analysis and highly complicated real markets, no decisive evidence directly linking energy costs to the selling prices of individual commodities has yet been found. Over the past century, the US metal market has accumulated a huge body of price data, which for the first time ever provides us the opportunity to quantitatively examine the direct energy-value correlation. Here, by analyzing the market price data of 65 purified chemical elements (mainly metals) relative to the total energy consumption for refining them from naturally oc
+    
+[^9]: 时间买卖：公平交易顺序中的延迟竞速与竞价问题
+
+    Buying Time: Latency Racing vs. Bidding in Fair Transaction Ordering. (arXiv:2306.02179v1 [cs.GT])
+
+    [http://arxiv.org/abs/2306.02179](http://arxiv.org/abs/2306.02179)
+
+    该算法为交易排序提供了一种解决方案，它结合了交易时间戳和出价，可以保证用户在有限延迟内获得公平价值，同时提取了竞争优势用户的公平价值，因此可以在Rollups和其他具有排序器特权的环境中提高交易排序的效率。
+
+    
+
+    我们设计了一个将交易时间戳和出价考虑在内的交易排序实用算法。该算法保证用户以有限的延迟时间按标的物收到他们的交易，同时从具有优势的低延迟技术的复杂用户中提取公平价值，通过将开销从投资于低延迟改进技术转移至竞标中。该算法通过时间戳和出价创建得分，根据得分排序交易。我们首先展示得分规则是唯一满足延迟竞速独立性的规则类型。我们对私人信息环境中的协议进行了经济分析，在该环境中，低延迟的投资是在事前或中间阶段进行的，竞标是在观察到私人信号的中间阶段进行的。该算法可用于Rollups或其他环境中的交易排序，其中排序器具有订单流的特权访问。
+
+    We design a practical algorithm for transaction ordering that takes into account both transaction timestamps and bids. The algorithm guarantees that users get their transactions published with bounded delay against a bid, while it extracts a fair value from sophisticated users that have an edge in latency, by moving expenditure from investment in latency improvement technology to bidding. The algorithm creates a score from timestamps and bids, and orders transactions based on the score. We first show that a scoring rule is the only type of rule that satisfies the independence of latency races. We provide an economic analysis of the protocol in an environment of private information, where investment in latency is made ex-ante or interim stages, while bidding happens at the interim stage where private signals have been observed. The algorithm is useful for transaction sequencing in rollups or in other environments where the sequencer has privileged access to order flows.
+    
+[^10]: 利用面板数据进行个体因果推断
+
+    Individual Causal Inference Using Panel Data With Multiple Outcomes. (arXiv:2306.01969v1 [econ.EM])
+
+    [http://arxiv.org/abs/2306.01969](http://arxiv.org/abs/2306.01969)
+
+    该研究提出一种基于交互固定效应模型的方法，用于面板数据集中估计个体层面的处理效应。这种方法适用于有多个相关结果的面板数据集，并且在相关方法中表现更优。
+
+    
+
+    在实证微观经济学中，政策评估一直关注于估计平均处理效应以及更近期的异质处理效应，通常依赖于无混杂假设。我们提出了一种基于交互固定效应模型的方法，用于估计个体层面的处理效应，允许处理分配和潜在结果与未观察到的个体特征相关。该方法适用于面板数据集，其中有大量个体在少数时间段内观察到多个相关结果。蒙特卡罗模拟表明，我们的方法优于相关方法。为了说明我们的方法，我们提供了一个利用俄勒冈州医疗保险实验数据估计医保覆盖对个人急诊使用的影响的示例。
+
+    Policy evaluation in empirical microeconomics has been focusing on estimating the average treatment effect and more recently the heterogeneous treatment effects, often relying on the unconfoundedness assumption. We propose a method based on the interactive fixed effects model to estimate treatment effects at the individual level, which allows both the treatment assignment and the potential outcomes to be correlated with the unobserved individual characteristics. This method is suitable for panel datasets where multiple related outcomes are observed for a large number of individuals over a small number of time periods. Monte Carlo simulations show that our method outperforms related methods. To illustrate our method, we provide an example of estimating the effect of health insurance coverage on individual usage of hospital emergency departments using the Oregon Health Insurance Experiment data.
+    
+[^11]: 非线性结果的综合控制方法：估计2019年“反引渡法修订草案”抗议活动对香港经济的影响
+
+    The Synthetic Control Method with Nonlinear Outcomes: Estimating the Impact of the 2019 Anti-Extradition Law Amendments Bill Protests on Hong Kong's Economy. (arXiv:2306.01967v1 [econ.EM])
+
+    [http://arxiv.org/abs/2306.01967](http://arxiv.org/abs/2306.01967)
+
+    本文提出了一种处理非线性结果的综合控制方法，估计了2019年“反引渡法修订草案”抗议活动对香港经济的影响，并确定了抗议活动对香港GDP增长的严重负面影响。
+
+    
+
+    综合控制估计量 (Abadie等人，2010) 在结果是潜在预测值的线性函数并且在治疗前，可以用合成控制近似治疗单位的情况下，渐近无偏。当结果是非线性时，综合控制估计量的偏差可能非常严重。在本文中，我们提供了当结果是非线性的情况下，使综合控制估计量渐近无偏的条件，并提出一种灵活的数据驱动方法以选择合成控制权重。蒙特卡罗模拟表明，与竞争方法相比，当结果是线性的时，非线性综合控制方法具有类似或更好的性能；当结果是非线性时，性能更好，并且置信区间在各种情况下都有很好的覆盖概率。在实证应用中，我们利用2018年1月至2019年9月的数据和一组控制变量来说明该方法，估计了2019年反引渡法修订草案抗议活动对香港GDP增长的影响，并量化了这种影响的大小。
+
+    The synthetic control estimator (Abadie et al., 2010) is asymptotically unbiased assuming that the outcome is a linear function of the underlying predictors and that the treated unit can be well approximated by the synthetic control before the treatment. When the outcome is nonlinear, the bias of the synthetic control estimator can be severe. In this paper, we provide conditions for the synthetic control estimator to be asymptotically unbiased when the outcome is nonlinear, and propose a flexible and data-driven method to choose the synthetic control weights. Monte Carlo simulations show that compared with the competing methods, the nonlinear synthetic control method has similar or better performance when the outcome is linear, and better performance when the outcome is nonlinear, and that the confidence intervals have good coverage probabilities across settings. In the empirical application, we illustrate the method by estimating the impact of the 2019 anti-extradition law amendments 
+    
+[^12]: 论文引用通货膨胀影响了“破坏指数”的评估
+
+    The disruption index is biased by citation inflation. (arXiv:2306.01949v1 [cs.DL])
+
+    [http://arxiv.org/abs/2306.01949](http://arxiv.org/abs/2306.01949)
+
+    对科学出版物和专利引用网络进行的最近分析表明其破坏指数变低了，但我们的研究表明，这其实是因为发生了引用通货膨胀，导致引用网络结构发生了变化，与创新系统容量无关。
+
+    
+
+    Park等人（《自然》2023年）对科学出版物和专利引用网络进行的最近分析表明，随着时间的推移，出版物和专利变得不那么具有破坏性。在这里，我们展示了这种报告中破坏力下降的情况是与创新系统容量无关的引用网络结构的系统性变化的产物。相反，这种下降是由于“引用通货膨胀”，这是真实引用网络的不可避免的特点，表现为系统性的时间依赖偏差，并使跨时间分析变得具有挑战性。引用通货膨胀的一个驱动因素是随着时间的推移，引用列表的长度越来越长，这反过来又增加了引用网络中链接的密度，导致破坏指数收敛于0。第二个驱动因素归因于参考文献列表构建的变化，这受到自引用的影响，自引用增加了引用网络中三元闭合率的速率，因此混淆了评估结果。
+
+    A recent analysis of scientific publication and patent citation networks by Park et al. (Nature, 2023) suggests that publications and patents are becoming less disruptive over time. Here we show that the reported decrease in disruptiveness is an artifact of systematic shifts in the structure of citation networks unrelated to innovation system capacity. Instead, the decline is attributable to 'citation inflation', an unavoidable characteristic of real citation networks that manifests as a systematic time-dependent bias and renders cross-temporal analysis challenging. One driver of citation inflation is the ever-increasing lengths of reference lists over time, which in turn increases the density of links in citation networks, and causes the disruption index to converge to 0. A second driver is attributable to shifts in the construction of reference lists, which is increasingly impacted by self-citations that increase in the rate of triadic closure in citation networks, and thus confounds
+    
+[^13]: 学校选择的排位不同偏好模型
+
+    Rank-heterogeneous Preference Models for School Choice. (arXiv:2306.01801v1 [stat.AP])
+
+    [http://arxiv.org/abs/2306.01801](http://arxiv.org/abs/2306.01801)
+
+    本文提出了两种排位不同选择建模策略，一种是采用上下文相关的随机效用模型（CDM），一种是通过排名分层选择建模，提高了在学校选择中的应用效果。
+
+    
+
+    学校选择机制设计师使用离散选择模型来理解和预测家庭的偏好。最广泛使用的选择模型，多项式逻辑（MNL），在学校和/或家庭属性方面是线性的。尽管该模型简单易懂，但它假设排名偏好列表是由一个在排名范围内统一的选择过程产生的，从顶部到底部。在这项工作中，我们介绍了两种面向学校选择的排位不同选择建模策略。首先，我们采用了一种上下文相关的随机效用模型（CDM），考虑在早期的上位选择的背景下，进行下位选择。其次，我们考虑通过排名来分层选择建模，在适当时将排名相邻的模型调整为相互接近。利用旧金山统一学区（SFUSD）多年家庭偏好数据，我们展示了上下文模型能够显著提高我们的样本外评估指标。
+
+    School choice mechanism designers use discrete choice models to understand and predict families' preferences. The most widely-used choice model, the multinomial logit (MNL), is linear in school and/or household attributes. While the model is simple and interpretable, it assumes the ranked preference lists arise from a choice process that is uniform throughout the ranking, from top to bottom. In this work, we introduce two strategies for rank-heterogeneous choice modeling tailored for school choice. First, we adapt a context-dependent random utility model (CDM), considering down-rank choices as occurring in the context of earlier up-rank choices. Second, we consider stratifying the choice modeling by rank, regularizing rank-adjacent models towards one another when appropriate. Using data on household preferences from the San Francisco Unified School District (SFUSD) across multiple years, we show that the contextual models considerably improve our out-of-sample evaluation metrics across
+    
+[^14]: Nash均衡和选择公理等价
+
+    Nash Equilibrium and Axiom of Choice Are Equivalent. (arXiv:2306.01790v1 [math.LO])
+
+    [http://arxiv.org/abs/2306.01790](http://arxiv.org/abs/2306.01790)
+
+    无穷多人博弈中，存在纯策略Nash均衡与选择公理等价。
+
+    
+
+    本文证明了，对于有无穷多个玩家的博弈，存在纯策略Nash均衡是等价于选择公理的。
+
+    In this paper, I prove that existence of pure-strategy Nash equilibrium in games with infinitely many players is equivalent to the axiom of choice.
+    
+[^15]: 具有侧面信息的双目标多维机制设计
+
+    Bicriteria Multidimensional Mechanism Design with Side Information. (arXiv:2302.14234v3 [cs.GT] UPDATED)
+
+    [http://arxiv.org/abs/2302.14234](http://arxiv.org/abs/2302.14234)
+
+    本文提出了一种通用的新方法，该方法结合了有关代理类型的侧面信息，并具有同时生成高社会福利和高收入的双目标要求，其中基于最弱竞争者概念的新颖构造描述了元机制的特性。
+
+    
+
+    我们开发了一种适用于多维机制设计的通用新方法，该方法结合了有关代理类型的侧面信息，具有同时生成高社会福利和高收入的双目标要求。侧面信息可以来自各种来源----例如，来自领域专家的建议，历史代理数据训练的机器学习模型的预测，甚至是机制设计师自己的直觉----在实践中这类信息很丰富。本文采用不考虑侧面信息正确性、准确性或来源的先验视角。首先，我们设计了一个元机制，将输入的侧面信息与传统VCG机制的改进相结合。我们引入了一些新颖构造，以最弱竞争者的概念为基础，对我们的元机制的福利、收入和激励特性进行了描述，最弱竞争者是对福利影响最小的代理。
+
+    We develop a versatile new methodology for multidimensional mechanism design that incorporates side information about agent types with the bicriteria goal of generating high social welfare and high revenue simultaneously. Side information can come from a variety of sources -- examples include advice from a domain expert, predictions from a machine-learning model trained on historical agent data, or even the mechanism designer's own gut instinct -- and in practice such sources are abundant. In this paper we adopt a prior-free perspective that makes no assumptions on the correctness, accuracy, or source of the side information. First, we design a meta-mechanism that integrates input side information with an improvement of the classical VCG mechanism. The welfare, revenue, and incentive properties of our meta-mechanism are characterized by a number of novel constructions we introduce based on the notion of a weakest competitor, which is an agent that has the smallest impact on welfare. We
+    
+[^16]: 凸环境下的单调差异
+
+    Single-Crossing Differences in Convex Environments. (arXiv:2212.12009v2 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2212.12009](http://arxiv.org/abs/2212.12009)
+
+    本文研究了凸环境中单调差异的效用函数集合，这些函数对于区间选择比较静态具有必要且充分的条件。
+
+    
+
+    代理人的偏好取决于有序参数。本文研究了凸环境中具有单调差异（SCD）的效用函数集合。这包括在预期效用和等级相关效用框架下对彩票和物品束的偏好以及对消费流的偏好。我们提出的SCD概念不假定选择空间有序。这种无序的SCD对于“区间选择”比较静态是必要且充分的。我们将其应用于便宜谈话、观察学习和集体选择，并展示了SCD/区间选择在这些问题中如何有用。从方法论上讲，我们的主要特征来自单调函数的线性聚合结果。
+
+    An agent's preferences depend on an ordered parameter or type. We characterize the set of utility functions with single-crossing differences (SCD) in convex environments. These include preferences over lotteries, both in expected utility and rank-dependent utility frameworks, and preferences over bundles of goods and over consumption streams. Our notion of SCD does not presume an order on the choice space. This unordered SCD is necessary and sufficient for ''interval choice'' comparative statics. We present applications to cheap talk, observational learning, and collective choice, showing how convex environments arise in these problems and how SCD/interval choice are useful. Methodologically, our main characterization stems from a result on linear aggregations of single-crossing functions.
+    
+[^17]: 利用面板数据测试有限混合正态回归模型中组分数量
+
+    Testing the Number of Components in Finite Mixture Normal Regression Model with Panel Data. (arXiv:2210.02824v2 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2210.02824](http://arxiv.org/abs/2210.02824)
+
+    本文开发了基于似然比检验的检验方法，用于测试有限混合正态面板回归模型中组分数量是否符合理论预期，提出了带惩罚的最大似然估计方法处理无界问题。
+
+    
+
+    本文扩展了Chen和Li（2009a）以及Kasahara和Shimotsu（2015）提出的期望最大化（EM）检验方法，将其应用于面板数据的正态混合回归模型中，从而开发了基于似然比检验的M0组分模型与(M0+1)组分模型的检验方法。我们发现，与横截面正态混合模型不同的是，面板正态混合模型方差参数的密度函数的一阶导数与均值参数的二阶导数线性无关。另一方面，与横截面正态混合模型类似，面板正态混合模型的似然比检验统计量是无界的。我们通过计算实验获得数据驱动惩罚函数，采用带惩罚的最大似然估计方法处理无界问题。我们通过扩展对数似然的泰勒级数展开式，导出了惩罚最大似然比检验（PLRT）和EM测试统计量的渐近分布性质。
+
+    This paper develops the likelihood ratio-based test of the null hypothesis of a M0-component model against an alternative of (M0 + 1)-component model in the normal mixture panel regression by extending the Expectation-Maximization (EM) test of Chen and Li (2009a) and Kasahara and Shimotsu (2015) to the case of panel data. We show that, unlike the cross-sectional normal mixture, the first-order derivative of the density function for the variance parameter in the panel normal mixture is linearly independent of its second-order derivatives for the mean parameter. On the other hand, like the cross-sectional normal mixture, the likelihood ratio test statistic of the panel normal mixture is unbounded. We consider the Penalized Maximum Likelihood Estimator to deal with the unboundedness, where we obtain the data-driven penalty function via computational experiments. We derive the asymptotic distribution of the Penalized Likelihood Ratio Test (PLRT) and EM test statistics by expanding the log-
+    
+[^18]: 在高度竞争的市场中发现纽约市发现计划的机会：处于不利地位的学生
+
+    Discovering Opportunities in New York City's Discovery Program: Disadvantaged Students in Highly Competitive Markets. (arXiv:2203.00544v2 [cs.GT] UPDATED)
+
+    [http://arxiv.org/abs/2203.00544](http://arxiv.org/abs/2203.00544)
+
+    该研究探讨了纽约市教育部门推出的发现计划，该计划旨在帮助贫困学生进入专业高中，但实证分析表明该计划可能会创造组内阻塞对并且不鼓励学生进步。
+
+    
+
+    发现计划（DISC）是纽约市教育部门（NYC DOE）用来增加低社会经济背景学生进入专业高中录取人数的政策。这个政策在提高贫困学生进入这些学校的人数方面起到了关键作用。然而，假设学生更关心他们被分配到的学校而不是他们占据的座位类型（即“学校优先座位”假设），我们使用12个最近学年的数据进行的实证分析表明，DISC每年会在处于不利地位的学生中创造约950个组内阻塞对，影响每年约650名处于不利地位的学生。此外，我们发现该计划不尊重进步，因此无意中制造了一种表现不佳的激励机制。这些实验结果得到了我们的理论分析的确认。为了缓解DISC带来的问题，我们探讨了两种替代政策：少数
+
+    Discovery program (DISC) is a policy used by the New York City Department of Education (NYC DOE) to increase the number of admissions of students from low socio-economic background to specialized high schools. This policy has been instrumental in increasing the number of disadvantaged students attending these schools. However, assuming that students care more about the school they are assigned to rather than the type of seat they occupy (\emph{school-over-seat hypothesis}), our empirical analysis using data from 12 recent academic years shows that DISC creates about 950 in-group blocking pairs each year amongst disadvantaged students, impacting about 650 disadvantaged students every year. Moreover, we find that this program does not respect improvements, thus unintentionally creating an incentive to under-perform. These experimental results are confirmed by our theoretical analysis.  In order to alleviate the concerns caused by DISC, we explore two alternative policies: the minority re
+    
+[^19]: Tiebout meets Schelling online: 网络社群中的分类
+
+    Tiebout Meets Schelling Online: Sorting in Cybercommunities. (arXiv:2110.05608v2 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2110.05608](http://arxiv.org/abs/2110.05608)
+
+    本文研究了在线社群中的分类问题，发现隔离发生与群体比例和数量的组合相关，建议优化策略是使两个群体所选的平台质量相同。
+
+    
+
+    本文提出了一个简化的模型来解决在线分类的问题。有两个大型的同质群体。每个人都必须在两个在线平台之间选择，其中一个平台拥有更好的便利设施。每个人都喜欢在网上与属于自己群体的人互动，但不喜欢与异类在同一个平台上。与居住区分类的Tiebout模型不同，两个平台都有无限容量，所以任何时候都可以任意更换。我们发现，一个在线平台从集成到隔离的转变是由当前的Schelling比率和每个平台上的每个群体的绝对数量的组合所引起的。也就是说，重要的是引起转变的集合而不是临界点。在某些情况下，一个群体从一个平台的逃逸可以被另一个群体比例的改变所触发，使那些离开的人变得更有利。如果希望在两个社群之间进行在线整合，那么最佳政策是明确的：使每个人的首选平台的质量都相同。
+
+    This paper proposes a stylised model to address the issue of online sorting. There are two large homogeneous groups of individuals. Everyone must choose between two online platforms, one of which has superior amenities. Each individual enjoys interacting online with those from their own group but dislikes being on the same platform as those in the other group. Unlike a Tiebout model of residential sorting, both platforms have unlimited capacity so at any moment anyone is free to switch. We find that an online platform is tipped from integrated to segregated by a combination of the current Schelling ratio and the absolute numbers of each group on each platform. That is, it is tipping sets and not tipping points that matter. In certain cases, the flight of one group from a platform can be triggered by a change in the group ratio in favor of those in the group that leave. If online integration of the two communities is the desired outcome then the optimal policy is clear: make the preferr
+    
+[^20]: 内生经济周期的同步化研究
+
+    Synchronization of endogenous business cycles. (arXiv:2002.06555v3 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2002.06555](http://arxiv.org/abs/2002.06555)
+
+    本文研究了内生经济周期的同步化，发现需求驱动的模型更能产生商业周期的同步振荡，并通过将非线性动力学、冲击传播和网络结构相互作用的特征值分解方法来理解同步机制。
+
+    
+
+    商业周期在不同国家之间呈现正相关性（“共振”）。然而，那些把共振归因于外部冲击传导的标准模型很难产生与数据相同程度的共振。本文研究通过某种非线性动力学——极限环或混沌，来内生地产生商业周期的模型。这些模型产生更强的共振，因为它们将冲击传导与内生动态的同步化相结合。特别地，我们研究了一种需求驱动的模型，其中商业周期源于国内的战略互补性，并通过国际贸易联系同步振荡。我们开发了一种特征值分解方法来探讨非线性动力学、冲击传播和网络结构之间的相互作用，并使用这种理论来理解同步机制。接下来，我们将模型校准到24个国家的数据上，并展示了实证共振程度。
+
+    Business cycles are positively correlated (``comove'') across countries. However, standard models that attribute comovement to propagation of exogenous shocks struggle to generate a level of comovement that is as high as in the data. In this paper, we consider models that produce business cycles endogenously, through some form of non-linear dynamics -- limit cycles or chaos. These models generate stronger comovement, because they combine shock propagation with synchronization of endogenous dynamics. In particular, we study a demand-driven model in which business cycles emerge from strategic complementarities within countries, synchronizing their oscillations through international trade linkages. We develop an eigendecomposition that explores the interplay between non-linear dynamics, shock propagation and network structure, and use this theory to understand the mechanisms of synchronization. Next, we calibrate the model to data on 24 countries and show that the empirical level of comov
     
 

@@ -1,0 +1,12 @@
+{
+    "title": "Efficient Multi-Task and Transfer Reinforcement Learning with Parameter-Compositional Framework. (arXiv:2306.01839v1 [cs.RO])",
+    "abstract": "In this work, we investigate the potential of improving multi-task training and also leveraging it for transferring in the reinforcement learning setting. We identify several challenges towards this goal and propose a transferring approach with a parameter-compositional formulation. We investigate ways to improve the training of multi-task reinforcement learning which serves as the foundation for transferring. Then we conduct a number of transferring experiments on various manipulation tasks. Experimental results demonstrate that the proposed approach can have improved performance in the multi-task training stage, and further show effective transferring in terms of both sample efficiency and performance.",
+    "link": "http://arxiv.org/abs/2306.01839",
+    "context": "Title: Efficient Multi-Task and Transfer Reinforcement Learning with Parameter-Compositional Framework. (arXiv:2306.01839v1 [cs.RO])\nAbstract: In this work, we investigate the potential of improving multi-task training and also leveraging it for transferring in the reinforcement learning setting. We identify several challenges towards this goal and propose a transferring approach with a parameter-compositional formulation. We investigate ways to improve the training of multi-task reinforcement learning which serves as the foundation for transferring. Then we conduct a number of transferring experiments on various manipulation tasks. Experimental results demonstrate that the proposed approach can have improved performance in the multi-task training stage, and further show effective transferring in terms of both sample efficiency and performance.",
+    "path": "papers/23/06/2306.01839.json",
+    "total_tokens": 671,
+    "translated_title": "参数组合框架下的高效多任务和迁移强化学习",
+    "translated_abstract": "本文研究了在强化学习中改进多任务训练并利用其进行转移的潜力。我们识别了实现此目标的几个挑战，并提出了一种基于参数组合的转移方法。我们研究了改进多任务强化学习训练的方法，这是转移的基础。然后我们在各种操作任务上进行了多个转移实验。实验结果表明，所提出的方法可以在多任务训练阶段提高性能，并展示了在样本效率和性能方面的有效转移。",
+    "tldr": "本文提出了一种基于参数组合的转移方法，可以在多任务训练阶段提高性能，并在各种操作任务上展示了有效的迁移能力。",
+    "en_tdlr": "This paper proposes a transferring approach with a parameter-compositional formulation for improving multi-task training and leveraging it for transferring in the reinforcement learning setting. Experimental results demonstrate the effectiveness of the proposed method in both the multi-task training stage and transferring stage."
+}

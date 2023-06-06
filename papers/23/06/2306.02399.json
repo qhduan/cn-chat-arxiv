@@ -1,0 +1,12 @@
+{
+    "title": "Regret Bounds for Risk-sensitive Reinforcement Learning with Lipschitz Dynamic Risk Measures. (arXiv:2306.02399v1 [cs.LG])",
+    "abstract": "We study finite episodic Markov decision processes incorporating dynamic risk measures to capture risk sensitivity. To this end, we present two model-based algorithms applied to \\emph{Lipschitz} dynamic risk measures, a wide range of risk measures that subsumes spectral risk measure, optimized certainty equivalent, distortion risk measures among others. We establish both regret upper bounds and lower bounds. Notably, our upper bounds demonstrate optimal dependencies on the number of actions and episodes, while reflecting the inherent trade-off between risk sensitivity and sample complexity. Additionally, we substantiate our theoretical results through numerical experiments.",
+    "link": "http://arxiv.org/abs/2306.02399",
+    "context": "Title: Regret Bounds for Risk-sensitive Reinforcement Learning with Lipschitz Dynamic Risk Measures. (arXiv:2306.02399v1 [cs.LG])\nAbstract: We study finite episodic Markov decision processes incorporating dynamic risk measures to capture risk sensitivity. To this end, we present two model-based algorithms applied to \\emph{Lipschitz} dynamic risk measures, a wide range of risk measures that subsumes spectral risk measure, optimized certainty equivalent, distortion risk measures among others. We establish both regret upper bounds and lower bounds. Notably, our upper bounds demonstrate optimal dependencies on the number of actions and episodes, while reflecting the inherent trade-off between risk sensitivity and sample complexity. Additionally, we substantiate our theoretical results through numerical experiments.",
+    "path": "papers/23/06/2306.02399.json",
+    "total_tokens": 793,
+    "translated_title": "利普希茨动态风险度量的风险敏感强化学习的遗憾界限",
+    "translated_abstract": "本文研究了包含动态风险度量的有限情节马尔可夫决策过程，以捕捉风险敏感性。为此，我们提出了两种应用于利普希茨动态风险度量的基于模型的算法，利普希茨动态风险度量是一种广泛的风险度量，包括谱风险度量、优化确定等价、失真风险度量等。我们建立了遗憾上限和下限。值得注意的是，我们的上限表明了动作数量和情节数量的最佳依赖关系，同时反映了风险敏感性和样本复杂性之间固有的平衡。此外，我们通过数值实验验证了我们的理论结果。",
+    "tldr": "本文研究了利普希茨动态风险度量的风险敏感强化学习，并建立了遗憾上限和下限，上限表明了最佳依赖关系和风险敏感性与样本复杂性之间的平衡。",
+    "en_tdlr": "This paper studies risk-sensitive reinforcement learning with Lipschitz dynamic risk measures and establishes regret upper and lower bounds that reflect the balance between risk sensitivity and sample complexity. Numerical experiments substantiate the theoretical results."
+}

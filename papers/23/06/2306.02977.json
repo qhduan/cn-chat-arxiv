@@ -1,0 +1,12 @@
+{
+    "title": "Improving the accuracy of bubble date estimators under time-varying volatility. (arXiv:2306.02977v1 [econ.EM])",
+    "abstract": "In this study, we consider a four-regime bubble model under the assumption of time-varying volatility and propose the algorithm of estimating the break dates with volatility correction: First, we estimate the emerging date of the explosive bubble, its collapsing date, and the recovering date to the normal market under assumption of homoskedasticity; second, we collect the residuals and then employ the WLS-based estimation of the bubble dates. We demonstrate by Monte Carlo simulations that the accuracy of the break dates estimators improve significantly by this two-step procedure in some cases compared to those based on the OLS method.",
+    "link": "http://arxiv.org/abs/2306.02977",
+    "context": "Title: Improving the accuracy of bubble date estimators under time-varying volatility. (arXiv:2306.02977v1 [econ.EM])\nAbstract: In this study, we consider a four-regime bubble model under the assumption of time-varying volatility and propose the algorithm of estimating the break dates with volatility correction: First, we estimate the emerging date of the explosive bubble, its collapsing date, and the recovering date to the normal market under assumption of homoskedasticity; second, we collect the residuals and then employ the WLS-based estimation of the bubble dates. We demonstrate by Monte Carlo simulations that the accuracy of the break dates estimators improve significantly by this two-step procedure in some cases compared to those based on the OLS method.",
+    "path": "papers/23/06/2306.02977.json",
+    "total_tokens": 707,
+    "translated_title": "在时变波动率下改善泡沫日期估计的准确性",
+    "translated_abstract": "本研究考虑了四种情况下的泡沫模型，假设时变波动率，并提出了一种估计带有波动率修正的突破日期的算法: 首先，在同方差的假设下估计爆炸性泡沫的出现日期、崩溃日期和恢复到正常市场的日期；其次，我们收集残差，然后采用WLS法估计泡沫日期。蒙特卡罗模拟表明，在某些情况下，与基于OLS方法的估计相比，这种两步骤程序显著提高了突破日期估计的准确性。",
+    "tldr": "本研究提出了一种估计具有波动率修正的突破日期算法，通过两步程序显著提高了估计的准确性。",
+    "en_tdlr": "This study proposes an algorithm for estimating break dates with volatility correction, which significantly improves the accuracy of the estimators through a two-step procedure under time-varying volatility."
+}

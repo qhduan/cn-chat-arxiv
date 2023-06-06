@@ -1,0 +1,12 @@
+{
+    "title": "Beyond Negativity: Re-Analysis and Follow-Up Experiments on Hope Speech Detection. (arXiv:2306.01742v1 [cs.CL])",
+    "abstract": "Health experts assert that hope plays a crucial role in enhancing individuals' physical and mental well-being, facilitating their recovery, and promoting restoration. Hope speech refers to comments, posts and other social media messages that offer support, reassurance, suggestions, inspiration, and insight. The detection of hope speech involves the analysis of such textual content, with the aim of identifying messages that invoke positive emotions in people. Our study aims to find computationally efficient yet comparable/superior methods for hope speech detection. We also make our codebase public at https://github.com/aflah02/Hope_Speech_Detection",
+    "link": "http://arxiv.org/abs/2306.01742",
+    "context": "Title: Beyond Negativity: Re-Analysis and Follow-Up Experiments on Hope Speech Detection. (arXiv:2306.01742v1 [cs.CL])\nAbstract: Health experts assert that hope plays a crucial role in enhancing individuals' physical and mental well-being, facilitating their recovery, and promoting restoration. Hope speech refers to comments, posts and other social media messages that offer support, reassurance, suggestions, inspiration, and insight. The detection of hope speech involves the analysis of such textual content, with the aim of identifying messages that invoke positive emotions in people. Our study aims to find computationally efficient yet comparable/superior methods for hope speech detection. We also make our codebase public at https://github.com/aflah02/Hope_Speech_Detection",
+    "path": "papers/23/06/2306.01742.json",
+    "total_tokens": 706,
+    "translated_title": "超越消极情绪：关于希望言论检测的重新分析和后续实验",
+    "translated_abstract": "健康专家们认为，希望在增强个人的身心健康、促进康复和恢复方面起着至关重要的作用。希望言论是指在评论、帖子和其他社交媒体消息中提供支持、安慰、建议、启示和见解的言论。希望言论的检测涉及这种文本内容的分析，旨在识别能够唤起人们积极情绪的信息。我们的研究旨在找到计算效率高、可比或更好的希望言论检测方法。我们还将我们的代码库公开在 https://github.com/aflah02/Hope_Speech_Detection 上。",
+    "tldr": "本研究旨在找到计算效率高、可比或更好的希望言论检测方法，并公开了代码库。",
+    "en_tdlr": "This study aims to find computationally efficient yet comparable/superior methods for hope speech detection and makes the codebase public at https://github.com/aflah02/Hope_Speech_Detection."
+}
