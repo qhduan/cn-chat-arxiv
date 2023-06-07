@@ -1,0 +1,12 @@
+{
+    "title": "Uniform Inference for Cointegrated Vector Autoregressive Processes. (arXiv:2306.03632v1 [math.ST])",
+    "abstract": "Uniformly valid inference for cointegrated vector autoregressive processes has so far proven difficult due to certain discontinuities arising in the asymptotic distribution of the least squares estimator. We show how asymptotic results from the univariate case can be extended to multiple dimensions and how inference can be based on these results. Furthermore, we show that the novel instrumental variable procedure proposed by [20] (IVX) yields uniformly valid confidence regions for the entire autoregressive matrix. The results are applied to two specific examples for which we verify the theoretical findings and investigate finite sample properties in simulation experiments.",
+    "link": "http://arxiv.org/abs/2306.03632",
+    "context": "Title: Uniform Inference for Cointegrated Vector Autoregressive Processes. (arXiv:2306.03632v1 [math.ST])\nAbstract: Uniformly valid inference for cointegrated vector autoregressive processes has so far proven difficult due to certain discontinuities arising in the asymptotic distribution of the least squares estimator. We show how asymptotic results from the univariate case can be extended to multiple dimensions and how inference can be based on these results. Furthermore, we show that the novel instrumental variable procedure proposed by [20] (IVX) yields uniformly valid confidence regions for the entire autoregressive matrix. The results are applied to two specific examples for which we verify the theoretical findings and investigate finite sample properties in simulation experiments.",
+    "path": "papers/23/06/2306.03632.json",
+    "total_tokens": 664,
+    "translated_title": "协整向量自回归过程的均匀推断",
+    "translated_abstract": "协整向量自回归过程的均匀有效推断因最小二乘估计的渐近分布中出现的某些不连续而一直难以证实。我们展示了如何将单变量情况下的渐近结果扩展到多维，并基于这些结果进行推断。此外，我们展示了[20]提出的新型工具变量程序（IVX）如何生成整个自回归矩阵的均匀有效置信区间。我们将这些结果应用于两个具体的例子，并在模拟实验中验证理论结果并研究有限样本性质。",
+    "tldr": "本文提出了一种解决协整向量自回归过程的均匀有效推断问题的方法，并应用于两个具体案例验证其有效性。",
+    "en_tdlr": "This paper proposes a method to solve the problem of uniform and valid inference for cointegrated vector autoregressive processes, and applies it to two specific examples to verify its effectiveness."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Provable convergence guarantees for black-box variational inference. (arXiv:2306.03638v1 [cs.LG])",
+    "abstract": "While black-box variational inference is widely used, there is no proof that its stochastic optimization succeeds. We suggest this is due to a theoretical gap in existing stochastic optimization proofs-namely the challenge of gradient estimators with unusual noise bounds, and a composite non-smooth objective. For dense Gaussian variational families, we observe that existing gradient estimators based on reparameterization satisfy a quadratic noise bound and give novel convergence guarantees for proximal and projected stochastic gradient descent using this bound. This provides the first rigorous guarantee that black-box variational inference converges for realistic inference problems.",
+    "link": "http://arxiv.org/abs/2306.03638",
+    "context": "Title: Provable convergence guarantees for black-box variational inference. (arXiv:2306.03638v1 [cs.LG])\nAbstract: While black-box variational inference is widely used, there is no proof that its stochastic optimization succeeds. We suggest this is due to a theoretical gap in existing stochastic optimization proofs-namely the challenge of gradient estimators with unusual noise bounds, and a composite non-smooth objective. For dense Gaussian variational families, we observe that existing gradient estimators based on reparameterization satisfy a quadratic noise bound and give novel convergence guarantees for proximal and projected stochastic gradient descent using this bound. This provides the first rigorous guarantee that black-box variational inference converges for realistic inference problems.",
+    "path": "papers/23/06/2306.03638.json",
+    "total_tokens": 712,
+    "translated_title": "黑盒变分推断的收敛性保证",
+    "translated_abstract": "尽管黑盒变分推断被广泛应用，但没有证明其随机优化成功的证明。我们提出这是现有随机优化证明中的理论差距，即具有异常噪声边界和复合非平滑目标的梯度估计器的挑战。对于密集的高斯变分族，我们观察到现有的基于再参数化的梯度估计器满足二次噪声界，并为使用该界限的近端和投影随机梯度下降提供新的收敛保证。这提供了第一个黑盒变分推断收敛于逼真推断问题的严格保证。",
+    "tldr": "本文提出了一种基于密集高斯变分族的梯度估计器，在此基础上使用近端和投影随机梯度下降，提供了黑盒变分推断收敛于逼真推断问题的第一个严格保证。",
+    "en_tdlr": "This paper proposes a gradient estimator based on dense Gaussian variational families, and provides the first rigorous guarantee that black-box variational inference converges for realistic inference problems using proximal and projected stochastic gradient descent."
+}

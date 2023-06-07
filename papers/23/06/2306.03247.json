@@ -1,0 +1,11 @@
+{
+    "title": "Construction d'un syst\\`eme de recommandation bas\\'e sur des contraintes via des graphes de connaissances. (arXiv:2306.03247v1 [cs.IR])",
+    "abstract": "Knowledge graphs in RDF model entities and their relations using ontologies, and have gained popularity for information modeling. In recommender systems, knowledge graphs help represent more links and relationships between users and items. Constraint-based recommender systems leverage deep recommendation knowledge to identify relevant suggestions. When combined with knowledge graphs, they offer benefits in constraint sets. This paper explores a constraint-based recommender system using RDF knowledge graphs for the vehicle purchase/sale domain. Our experiments demonstrate that the proposed approach efficiently identifies recommendations based on user preferences.",
+    "link": "http://arxiv.org/abs/2306.03247",
+    "context": "Title: Construction d'un syst\\`eme de recommandation bas\\'e sur des contraintes via des graphes de connaissances. (arXiv:2306.03247v1 [cs.IR])\nAbstract: Knowledge graphs in RDF model entities and their relations using ontologies, and have gained popularity for information modeling. In recommender systems, knowledge graphs help represent more links and relationships between users and items. Constraint-based recommender systems leverage deep recommendation knowledge to identify relevant suggestions. When combined with knowledge graphs, they offer benefits in constraint sets. This paper explores a constraint-based recommender system using RDF knowledge graphs for the vehicle purchase/sale domain. Our experiments demonstrate that the proposed approach efficiently identifies recommendations based on user preferences.",
+    "path": "papers/23/06/2306.03247.json",
+    "total_tokens": 717,
+    "translated_title": "基于知识图谱约束的推荐系统构建（arXiv:2306.03247v1 [cs.IR]）",
+    "translated_abstract": "知识图谱使用本体论为实体及其关系建模，并在信息建模方面受到欢迎。在推荐系统中，知识图谱有助于表示用户和物品之间更多的链接和关系。基于约束条件的推荐系统利用深度推荐知识识别相关建议。当与知识图谱结合使用时，它们为约束集合提供了好处。本文探讨了一种基于RDF知识图谱的基于约束条件的推荐系统，用于车辆购买/销售领域。我们的实验表明，所提出的方法可以有效地基于用户偏好识别推荐。",
+    "tldr": "本文探讨了一种基于约束条件的推荐系统，利用深度推荐知识识别相关建议，并与知识图谱结合，有效地基于用户偏好识别推荐。"
+}

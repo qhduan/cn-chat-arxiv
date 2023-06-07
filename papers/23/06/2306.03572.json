@@ -1,0 +1,12 @@
+{
+    "title": "Range-Restricted Interpolation through Clausal Tableaux. (arXiv:2306.03572v1 [cs.LO])",
+    "abstract": "We show how variations of range-restriction and also the Horn property can be passed from inputs to outputs of Craig interpolation in first-order logic. The proof system is clausal tableaux, which stems from first-order ATP. Our results are induced by a restriction of the clausal tableau structure, which can be achieved in general by a proof transformation, also if the source proof is by resolution/paramodulation. Primarily addressed applications are query synthesis and reformulation with interpolation. Our methodical approach combines operations on proof structures with the immediate perspective of feasible implementation through incorporating highly optimized first-order provers.",
+    "link": "http://arxiv.org/abs/2306.03572",
+    "context": "Title: Range-Restricted Interpolation through Clausal Tableaux. (arXiv:2306.03572v1 [cs.LO])\nAbstract: We show how variations of range-restriction and also the Horn property can be passed from inputs to outputs of Craig interpolation in first-order logic. The proof system is clausal tableaux, which stems from first-order ATP. Our results are induced by a restriction of the clausal tableau structure, which can be achieved in general by a proof transformation, also if the source proof is by resolution/paramodulation. Primarily addressed applications are query synthesis and reformulation with interpolation. Our methodical approach combines operations on proof structures with the immediate perspective of feasible implementation through incorporating highly optimized first-order provers.",
+    "path": "papers/23/06/2306.03572.json",
+    "total_tokens": 570,
+    "translated_title": "通过Clausal Tableaux实现范围限制插值",
+    "translated_abstract": "本文展示了如何通过一阶逻辑的Clausal Tableaux证明系统，从输入到输出传递变化的范围限制和Horn性质。本文的重点是将证明结构的操作与高度优化的一阶证明器结合起来，实现可行的实现方法。主要应用于查询合成和插值重构。",
+    "tldr": "通过Clausal Tableaux证明系统实现可行的范围限制插值算法。",
+    "en_tdlr": "Feasible range-restricted interpolation is achieved through the clausal tableaux proof system, combining proof structure operations with highly optimized first-order provers, with potential applications in query synthesis and interpolation reformulation."
+}

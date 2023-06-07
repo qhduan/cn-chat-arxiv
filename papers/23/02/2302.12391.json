@@ -1,0 +1,11 @@
+{
+    "title": "PITS: Variational Pitch Inference without Fundamental Frequency for End-to-End Pitch-controllable TTS. (arXiv:2302.12391v3 [eess.AS] UPDATED)",
+    "abstract": "Previous pitch-controllable text-to-speech (TTS) models rely on directly modeling fundamental frequency, leading to low variance in synthesized speech. To address this issue, we propose PITS, an end-to-end pitch-controllable TTS model that utilizes variational inference to model pitch. Based on VITS, PITS incorporates the Yingram encoder, the Yingram decoder, and adversarial training of pitch-shifted synthesis to achieve pitch-controllability. Experiments demonstrate that PITS generates high-quality speech that is indistinguishable from ground truth speech and has high pitch-controllability without quality degradation. Code, audio samples, and demo are available at https://github.com/anonymous-pits/pits.",
+    "link": "http://arxiv.org/abs/2302.12391",
+    "context": "Title: PITS: Variational Pitch Inference without Fundamental Frequency for End-to-End Pitch-controllable TTS. (arXiv:2302.12391v3 [eess.AS] UPDATED)\nAbstract: Previous pitch-controllable text-to-speech (TTS) models rely on directly modeling fundamental frequency, leading to low variance in synthesized speech. To address this issue, we propose PITS, an end-to-end pitch-controllable TTS model that utilizes variational inference to model pitch. Based on VITS, PITS incorporates the Yingram encoder, the Yingram decoder, and adversarial training of pitch-shifted synthesis to achieve pitch-controllability. Experiments demonstrate that PITS generates high-quality speech that is indistinguishable from ground truth speech and has high pitch-controllability without quality degradation. Code, audio samples, and demo are available at https://github.com/anonymous-pits/pits.",
+    "path": "papers/23/02/2302.12391.json",
+    "total_tokens": 740,
+    "translated_title": "PITS：基于变分推断的无基频端到端音高可控TTS",
+    "translated_abstract": "先前音高可控TTS模型依赖于直接建模基频，导致合成语音的方差很低。为解决这个问题，我们提出了PITS，一种利用变分推断对音高进行建模的端到端音高可控TTS模型。基于VITS，PITS结合了Yingram编码器，Yingram解码器以及音高移位合成的对抗性训练，实现了音高可控性。实验证明，PITS生成的高质量语音与原始语音不可区分，并具有高品质的音高可控性。代码、音频示例和演示可以在https://github.com/anonymous-pits/pits 上获得。",
+    "tldr": "PITS是一种基于变分推断的端到端音高可控TTS模型，相较于以往基频建模的方法，具有更高的合成语音方差和音高可控性。"
+}

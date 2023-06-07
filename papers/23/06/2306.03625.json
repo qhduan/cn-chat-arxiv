@@ -1,0 +1,12 @@
+{
+    "title": "Fair and Robust Estimation of Heterogeneous Treatment Effects for Policy Learning. (arXiv:2306.03625v1 [stat.ME])",
+    "abstract": "We propose a simple and general framework for nonparametric estimation of heterogeneous treatment effects under fairness constraints. Under standard regularity conditions, we show that the resulting estimators possess the double robustness property. We use this framework to characterize the trade-off between fairness and the maximum welfare achievable by the optimal policy. We evaluate the methods in a simulation study and illustrate them in a real-world case study.",
+    "link": "http://arxiv.org/abs/2306.03625",
+    "context": "Title: Fair and Robust Estimation of Heterogeneous Treatment Effects for Policy Learning. (arXiv:2306.03625v1 [stat.ME])\nAbstract: We propose a simple and general framework for nonparametric estimation of heterogeneous treatment effects under fairness constraints. Under standard regularity conditions, we show that the resulting estimators possess the double robustness property. We use this framework to characterize the trade-off between fairness and the maximum welfare achievable by the optimal policy. We evaluate the methods in a simulation study and illustrate them in a real-world case study.",
+    "path": "papers/23/06/2306.03625.json",
+    "total_tokens": 653,
+    "translated_title": "公平且健壮的异质治疗效果政策学习估计",
+    "translated_abstract": "我们提出了一种简单且通用的框架，用于在公平约束条件下非参数估计异质治疗效果。在标准正则条件下，我们证明了所得到的估计器具有双重健壮性。我们利用此框架来表征公平和最佳政策可实现的最大福利之间的权衡。我们在模拟研究中评估了该方法，并在一个真实世界的案例研究中进行了说明。",
+    "tldr": "本文提出了一种公平且健壮的异质治疗效果的估计框架，可以在公平约束下非参数地估计，并可用于权衡公平和最大福利之间的关系。",
+    "en_tdlr": "This paper proposes a fair and robust framework for nonparametric estimation of heterogeneous treatment effects, which can be used to trade off between fairness and maximum welfare achievable by the optimal policy under fair constraints. The resulting estimators possess double robustness property and are evaluated through simulation and real-world case study."
+}

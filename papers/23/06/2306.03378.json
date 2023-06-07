@@ -1,0 +1,12 @@
+{
+    "title": "Towards Alleviating the Object Bias in Prompt Tuning-based Factual Knowledge Extraction. (arXiv:2306.03378v1 [cs.IR])",
+    "abstract": "Many works employed prompt tuning methods to automatically optimize prompt queries and extract the factual knowledge stored in Pretrained Language Models. In this paper, we observe that the optimized prompts, including discrete prompts and continuous prompts, exhibit undesirable object bias. To handle this problem, we propose a novel prompt tuning method called MeCoD. consisting of three modules: Prompt Encoder, Object Equalization and Biased Object Obstruction. Experimental results show that MeCoD can significantly reduce the object bias and at the same time improve accuracy of factual knowledge extraction.",
+    "link": "http://arxiv.org/abs/2306.03378",
+    "context": "Title: Towards Alleviating the Object Bias in Prompt Tuning-based Factual Knowledge Extraction. (arXiv:2306.03378v1 [cs.IR])\nAbstract: Many works employed prompt tuning methods to automatically optimize prompt queries and extract the factual knowledge stored in Pretrained Language Models. In this paper, we observe that the optimized prompts, including discrete prompts and continuous prompts, exhibit undesirable object bias. To handle this problem, we propose a novel prompt tuning method called MeCoD. consisting of three modules: Prompt Encoder, Object Equalization and Biased Object Obstruction. Experimental results show that MeCoD can significantly reduce the object bias and at the same time improve accuracy of factual knowledge extraction.",
+    "path": "papers/23/06/2306.03378.json",
+    "total_tokens": 686,
+    "translated_title": "消除基于提示调整的事实知识提取中的对象偏差",
+    "translated_abstract": "许多工作采用提示调整方法自动优化提示查询并提取预训练语言模型中存储的事实知识。本文观察到，包括离散提示和连续提示在内的优化提示表现出不良的对象偏差。为解决这个问题，我们提出了一个新的提示调整方法MeCoD，由三个模块组成：提示编码器、对象均衡和有偏对象阻塞。实验结果表明，MeCoD可以显著减少对象偏差，同时提高事实知识的提取准确性。",
+    "tldr": "本文提出了一种名为MeCoD的提示调整方法，通过提示编码器、对象均衡和有偏对象阻塞三个模块，有效减少了对象偏差，提高了事实知识的提取准确性。",
+    "en_tdlr": "This paper proposes a prompt tuning method called MeCoD, consisting of three modules: Prompt Encoder, Object Equalization and Biased Object Obstruction, which effectively reduces object bias and improves the accuracy of factual knowledge extraction."
+}

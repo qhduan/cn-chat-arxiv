@@ -1,0 +1,12 @@
+{
+    "title": "Gauge symmetries and the Higgs mechanism in Quantum Finance. (arXiv:2306.03237v1 [q-fin.GN])",
+    "abstract": "By using the Hamiltonian formulation, we demonstrate that the Merton-Garman equation emerges naturally from the Black-Scholes equation after imposing invariance (symmetry) under local (gauge) transformations over changes in the stock price. This is the case because imposing gauge symmetry implies the appearance of an additional field, which corresponds to the stochastic volatility. The gauge symmetry then imposes some constraints over the free-parameters of the Merton-Garman Hamiltonian. Finally, we analyze how the stochastic volatility gets massive dynamically via Higgs mechanism.",
+    "link": "http://arxiv.org/abs/2306.03237",
+    "context": "Title: Gauge symmetries and the Higgs mechanism in Quantum Finance. (arXiv:2306.03237v1 [q-fin.GN])\nAbstract: By using the Hamiltonian formulation, we demonstrate that the Merton-Garman equation emerges naturally from the Black-Scholes equation after imposing invariance (symmetry) under local (gauge) transformations over changes in the stock price. This is the case because imposing gauge symmetry implies the appearance of an additional field, which corresponds to the stochastic volatility. The gauge symmetry then imposes some constraints over the free-parameters of the Merton-Garman Hamiltonian. Finally, we analyze how the stochastic volatility gets massive dynamically via Higgs mechanism.",
+    "path": "papers/23/06/2306.03237.json",
+    "total_tokens": 674,
+    "translated_title": "量子金融中的规范对称性和 Higgs 机制",
+    "translated_abstract": "本文利用哈密顿形式，证明了在对股票价格的局部（规范）变换下，强加不变性（对称性）后，Merton-Garman 方程会自然地从 Black-Scholes 方程中出现。这是因为强加规范对称性会导致额外场的出现，相应于随机波动率。然后，规范对称性会对 Merton-Garman 哈密顿量的自由参数施加约束。最后，我们分析了随机波动率如何通过 Higgs 机制动态地转化为有质量的。",
+    "tldr": "本文利用规范对称性引入了随机波动率，从而从 Black-Scholes 方程中推导出了 Merton-Garman 方程，最终通过 Higgs 机制将随机波动率转化为有质量的。",
+    "en_tdlr": "This paper introduces stochastic volatility by using gauge symmetry and derives the Merton-Garman equation from the Black-Scholes equation, and finally transforms stochastic volatility into massive via Higgs mechanism."
+}

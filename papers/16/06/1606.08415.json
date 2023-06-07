@@ -1,0 +1,12 @@
+{
+    "title": "Gaussian Error Linear Units (GELUs). (arXiv:1606.08415v5 [cs.LG] UPDATED)",
+    "abstract": "We propose the Gaussian Error Linear Unit (GELU), a high-performing neural network activation function. The GELU activation function is $x\\Phi(x)$, where $\\Phi(x)$ the standard Gaussian cumulative distribution function. The GELU nonlinearity weights inputs by their value, rather than gates inputs by their sign as in ReLUs ($x\\mathbf{1}_{x>0}$). We perform an empirical evaluation of the GELU nonlinearity against the ReLU and ELU activations and find performance improvements across all considered computer vision, natural language processing, and speech tasks.",
+    "link": "http://arxiv.org/abs/1606.08415",
+    "context": "Title: Gaussian Error Linear Units (GELUs). (arXiv:1606.08415v5 [cs.LG] UPDATED)\nAbstract: We propose the Gaussian Error Linear Unit (GELU), a high-performing neural network activation function. The GELU activation function is $x\\Phi(x)$, where $\\Phi(x)$ the standard Gaussian cumulative distribution function. The GELU nonlinearity weights inputs by their value, rather than gates inputs by their sign as in ReLUs ($x\\mathbf{1}_{x>0}$). We perform an empirical evaluation of the GELU nonlinearity against the ReLU and ELU activations and find performance improvements across all considered computer vision, natural language processing, and speech tasks.",
+    "path": "papers/16/06/1606.08415.json",
+    "total_tokens": 714,
+    "translated_title": "高斯误差线性单元（Gaussian Error Linear Units）",
+    "translated_abstract": "我们提出了高效的神经网络激活函数——高斯误差线性单元（GELU）。GELU激活函数为$x\\Phi(x)$，其中$\\Phi(x)$代表标准高斯累积分布函数。与ReLU（$x\\mathbf{1}_{x>0}$）激活函数通过输入的符号进行门限控制不同，GELU非线性按输入值加权。我们对GELU非线性、ReLU以及ELU激活函数进行了实证评估，并发现在所有计算机视觉、自然语言处理和语音任务中，GELU均取得了性能提升。",
+    "tldr": "本文提出了一种高效的神经网络激活函数——GELU。通过对输入值进行加权而非符号门限控制，GELU在多项任务中均取得了性能提升。",
+    "en_tdlr": "The Gaussian Error Linear Unit (GELU) is proposed as an efficient neural network activation function, which weights inputs by their value rather than gates inputs by their sign as in ReLUs. Empirical evaluation shows that GELU outperforms ReLU and ELU activations across all considered computer vision, natural language processing, and speech tasks."
+}

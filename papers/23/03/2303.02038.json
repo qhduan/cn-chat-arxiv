@@ -1,0 +1,12 @@
+{
+    "title": "The self-exciting nature of the bid-ask spread dynamics. (arXiv:2303.02038v2 [q-fin.TR] UPDATED)",
+    "abstract": "The bid-ask spread, which is defined by the difference between the best selling price and the best buying price in a Limit Order Book at a given time, is a crucial factor in the analysis of financial securities. In this study, we propose a \"State-dependent Spread Hawkes model\" (SDSH) that accounts for various spread jump sizes and incorporates the impact of the current spread state on its intensity functions. We apply this model to the high-frequency data from the Cac40 Euronext market and capture several statistical properties, such as the spread distributions, inter-event time distributions, and spread autocorrelation functions. We illustrate the ability of the SDSH model to forecast spread values at short-term horizons.",
+    "link": "http://arxiv.org/abs/2303.02038",
+    "context": "Title: The self-exciting nature of the bid-ask spread dynamics. (arXiv:2303.02038v2 [q-fin.TR] UPDATED)\nAbstract: The bid-ask spread, which is defined by the difference between the best selling price and the best buying price in a Limit Order Book at a given time, is a crucial factor in the analysis of financial securities. In this study, we propose a \"State-dependent Spread Hawkes model\" (SDSH) that accounts for various spread jump sizes and incorporates the impact of the current spread state on its intensity functions. We apply this model to the high-frequency data from the Cac40 Euronext market and capture several statistical properties, such as the spread distributions, inter-event time distributions, and spread autocorrelation functions. We illustrate the ability of the SDSH model to forecast spread values at short-term horizons.",
+    "path": "papers/23/03/2303.02038.json",
+    "total_tokens": 702,
+    "translated_title": "基于状态的Spread Hawkes模型对Cac40 Euronext市场期货的分析",
+    "translated_abstract": "在限价委托簿中，最佳卖价和最佳买价的差价是金融证券分析中至关重要的因素。本研究提出了一种“基于状态的Spread Hawkes模型”（SDSH），它考虑了各种Spread跳跃大小，并将当前Spread状态对其强度函数的影响纳入模型中。我们将此模型应用于Cac40 Euronext市场的高频数据，捕捉了一些统计属性，如Spread分布、事件间隔分布和Spread自相关函数。我们说明了SDSH模型在短期内预测Spread值的能力。",
+    "tldr": "本研究提出了一种基于状态的\"Spread Hawkes模型\"，可以预测Cac40 Euronext市场期货中的Spread值，并捕捉了一些统计属性。",
+    "en_tdlr": "The study proposes a state-dependent \"Spread Hawkes model\" that predicts Spread values in the Cac40 Euronext market and captures several statistical properties."
+}

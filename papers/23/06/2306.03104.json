@@ -1,0 +1,11 @@
+{
+    "title": "Guided scenarios with simulated expert personae: a remarkable strategy to perform cognitive work. (arXiv:2306.03104v1 [cs.HC])",
+    "abstract": "Large language models (LLMs) trained on a substantial corpus of human knowledge and literature productively work with a large array of facts from that corpus. Surprisingly, they are also able to re-create the behaviors of personae that are captured within the corpus. By forming teams of simulated personae, supplying contexts that set the stage, and providing gentle prompts, one can move through scenarios that elicit expert behavior to perform meaningful cognitive work. The power of this strategy is demonstrated with two examples, one attacking factuality of LLM responses and the other reproducing a very recently published result in quantum optics.",
+    "link": "http://arxiv.org/abs/2306.03104",
+    "context": "Title: Guided scenarios with simulated expert personae: a remarkable strategy to perform cognitive work. (arXiv:2306.03104v1 [cs.HC])\nAbstract: Large language models (LLMs) trained on a substantial corpus of human knowledge and literature productively work with a large array of facts from that corpus. Surprisingly, they are also able to re-create the behaviors of personae that are captured within the corpus. By forming teams of simulated personae, supplying contexts that set the stage, and providing gentle prompts, one can move through scenarios that elicit expert behavior to perform meaningful cognitive work. The power of this strategy is demonstrated with two examples, one attacking factuality of LLM responses and the other reproducing a very recently published result in quantum optics.",
+    "path": "papers/23/06/2306.03104.json",
+    "total_tokens": 695,
+    "translated_title": "以模拟专家人格为向导的场景指导：执行认知工作的显著策略",
+    "translated_abstract": "在一个巨大的人类知识和文学语料库上进行训练的大型语言模型(LLM)，可以有效地处理来自该语料库的大量事实,更令人惊讶的是，它们还能够重新创造出被捕捉在语料库中的人格的行为。通过形成模拟人格的团队、提供设置舞台的语境和提供温和的提示，人们可以通过情境推进来引出专家行为以执行有意义的认知工作。这一策略的威力在两个例子中得到了展示，一个攻击LLM响应的事实性，另一个是复制了一个最近在量子光学中发表的结果。",
+    "tldr": "通过模拟人格的团队、提供语境、提示与引导，能够以模仿专家人格来进行认知工作。"
+}

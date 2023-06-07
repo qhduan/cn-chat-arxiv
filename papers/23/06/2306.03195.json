@@ -1,0 +1,12 @@
+{
+    "title": "Lumos in the Night Sky: AI-enabled Visual Tool for Exploring Night-Time Light Patterns. (arXiv:2306.03195v1 [cs.HC])",
+    "abstract": "We introduce NightPulse, an interactive tool for Night-time light (NTL) data visualization and analytics, which enables researchers and stakeholders to explore and analyze NTL data with a user-friendly platform. Powered by efficient system architecture, NightPulse supports image segmentation, clustering, and change pattern detection to identify urban development and sprawl patterns. It captures temporal trends of NTL and semantics of cities, answering questions about demographic factors, city boundaries, and unusual differences.",
+    "link": "http://arxiv.org/abs/2306.03195",
+    "context": "Title: Lumos in the Night Sky: AI-enabled Visual Tool for Exploring Night-Time Light Patterns. (arXiv:2306.03195v1 [cs.HC])\nAbstract: We introduce NightPulse, an interactive tool for Night-time light (NTL) data visualization and analytics, which enables researchers and stakeholders to explore and analyze NTL data with a user-friendly platform. Powered by efficient system architecture, NightPulse supports image segmentation, clustering, and change pattern detection to identify urban development and sprawl patterns. It captures temporal trends of NTL and semantics of cities, answering questions about demographic factors, city boundaries, and unusual differences.",
+    "path": "papers/23/06/2306.03195.json",
+    "total_tokens": 721,
+    "translated_title": "夜空中的Lumos：用于探索夜间光模式的AI可视化工具",
+    "translated_abstract": "我们介绍了NightPulse，这是一种交互式工具，用于夜间光（NTL）数据可视化和分析，使研究人员和利益相关者能够使用用户友好的平台探索和分析NTL数据。由高效的系统架构驱动，NightPulse支持图像分割、聚类和变化模式检测，以识别城市发展和扩展模式。它捕捉NTL的时间趋势和城市的语义，回答关于人口因素、城市边界和异常差异的问题。",
+    "tldr": "夜Pulse是一个交互式工具，可用于夜间光（NTL）数据的可视化和分析。它可以通过图像分割、聚类和变化模式检测来识别城市发展和扩展模式，并回答有关人口因素、城市边界和异常差异的问题。",
+    "en_tdlr": "NightPulse is an interactive tool for visualizing and analyzing Night-time light (NTL) data. It identifies urban development and sprawl patterns through image segmentation, clustering, and change pattern detection. It captures temporal trends of NTL and semantics of cities, and can answer questions related to demographic factors, city boundaries, and unusual differences."
+}

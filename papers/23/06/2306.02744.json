@@ -1,0 +1,12 @@
+{
+    "title": "Towards Better Explanations for Object Detection. (arXiv:2306.02744v2 [cs.CV] UPDATED)",
+    "abstract": "Recent advances in Artificial Intelligence (AI) technology have promoted their use in almost every field. The growing complexity of deep neural networks (DNNs) makes it increasingly difficult and important to explain the inner workings and decisions of the network. However, most current techniques for explaining DNNs focus mainly on interpreting classification tasks. This paper proposes a method to explain the decision for any object detection model called D-CLOSE. To closely track the model's behavior, we used multiple levels of segmentation on the image and a process to combine them. We performed tests on the MS-COCO dataset with the YOLOX model, which shows that our method outperforms D-RISE and can give a better quality and less noise explanation.",
+    "link": "http://arxiv.org/abs/2306.02744",
+    "context": "Title: Towards Better Explanations for Object Detection. (arXiv:2306.02744v2 [cs.CV] UPDATED)\nAbstract: Recent advances in Artificial Intelligence (AI) technology have promoted their use in almost every field. The growing complexity of deep neural networks (DNNs) makes it increasingly difficult and important to explain the inner workings and decisions of the network. However, most current techniques for explaining DNNs focus mainly on interpreting classification tasks. This paper proposes a method to explain the decision for any object detection model called D-CLOSE. To closely track the model's behavior, we used multiple levels of segmentation on the image and a process to combine them. We performed tests on the MS-COCO dataset with the YOLOX model, which shows that our method outperforms D-RISE and can give a better quality and less noise explanation.",
+    "path": "papers/23/06/2306.02744.json",
+    "total_tokens": 778,
+    "translated_title": "迈向更好的目标检测解释",
+    "translated_abstract": "人工智能技术的最新进展促进了它们在几乎所有领域的使用。深度神经网络的增加的复杂性使解释网络内部工作和决策变得越来越困难和重要。但是，目前大多数解释深度神经网络的技术主要集中在解释分类任务上。本文提出了一种名为D-CLOSE的方法，用于解释任何目标检测模型的决策。为了密切跟踪模型的行为，我们在图像上使用了多个分割级别和一种组合它们的过程。我们使用YOLOX模型在MS-COCO数据集上进行了测试，结果表明我们的方法优于D-RISE，可以提供更好的质量和更少的噪音解释。",
+    "tldr": "该论文提出了一种名为D-CLOSE的方法，用于解释任何目标检测模型的决策，通过使用多个分割级别和一种组合它们的过程，可以提供更好的质量和更少的噪音解释。",
+    "en_tdlr": "This paper proposes a method called D-CLOSE to explain decisions for any object detection model. It uses multiple levels of segmentation on the image and a process to combine them, providing better quality and less noisy explanations."
+}

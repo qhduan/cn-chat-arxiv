@@ -1,0 +1,12 @@
+{
+    "title": "Active hypothesis testing in unknown environments using recurrent neural networks and model free reinforcement learning. (arXiv:2303.10623v2 [cs.AI] UPDATED)",
+    "abstract": "A combination of deep reinforcement learning and supervised learning is proposed for the problem of active sequential hypothesis testing in completely unknown environments. We make no assumptions about the prior probability, the action and observation sets, and the observation generating process. Our method can be used in any environment even if it has continuous observations or actions, and performs competitively and sometimes better than the Chernoff test, in both finite and infinite horizon problems, despite not having access to the environment dynamics.",
+    "link": "http://arxiv.org/abs/2303.10623",
+    "context": "Title: Active hypothesis testing in unknown environments using recurrent neural networks and model free reinforcement learning. (arXiv:2303.10623v2 [cs.AI] UPDATED)\nAbstract: A combination of deep reinforcement learning and supervised learning is proposed for the problem of active sequential hypothesis testing in completely unknown environments. We make no assumptions about the prior probability, the action and observation sets, and the observation generating process. Our method can be used in any environment even if it has continuous observations or actions, and performs competitively and sometimes better than the Chernoff test, in both finite and infinite horizon problems, despite not having access to the environment dynamics.",
+    "path": "papers/23/03/2303.10623.json",
+    "total_tokens": 693,
+    "translated_title": "基于循环神经网络和无模型强化学习的未知环境中主动假设检验",
+    "translated_abstract": "该论文提出了一种结合深度强化学习和监督学习的方法，用于完全未知的环境中的主动顺序假设检验问题。我们对先验概率、行动和观察集、以及观察生成过程不做任何假设。我们的方法可以用于任何环境，即使它有连续的观察或行动，并在有限和无限时间问题中表现出与 Chernoff 检验相当甚至更好的性能，尽管无法访问环境动态。",
+    "tldr": "该论文提出了一种基于深度强化学习和监督学习的方法，用于在完全未知的环境中进行主动顺序假设检验，该方法在有限和无限时间问题中表现出与Chernoff检验相当甚至更好的性能。",
+    "en_tdlr": "A method combining deep reinforcement learning and supervised learning is proposed for active sequential hypothesis testing in completely unknown environments. The method performs competitively and sometimes better than the Chernoff test, in both finite and infinite horizon problems, without having access to the environment dynamics."
+}
