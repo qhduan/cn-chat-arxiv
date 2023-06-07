@@ -73,17 +73,18 @@
 | [^69] | [Revisiting the Gold Standard: Grounding Summarization Evaluation with Robust Human Evaluation.](http://arxiv.org/abs/2212.07981) | 该论文提出了一种新的摘要显要性协议，ACUs，解决了现有评估协议低一致性的问题。作者建立了一个超大规模评估数据集RoSE并进行了人类评估和自动评估，为摘要评估的相关研究提供了新的思路。 |
 | [^70] | [Can In-context Learners Learn a Reasoning Concept from Demonstrations?.](http://arxiv.org/abs/2212.01692) | 本文介绍了一种概念性少样本学习方法，以帮助在场学习者学习新技能。通过选择与预测示例共享可能信息的演示，这个方法可以在模型记忆独立的情况下区分模型的在场学习能力。 |
 | [^71] | [Topological Data Analysis for Speech Processing.](http://arxiv.org/abs/2211.17223) | 本论文将拓扑数据分析应用于语音分类问题和预训练语音模型的内省，并介绍了一系列基于Transformer注意力图和嵌入的拓扑和代数特征。在这些特征基础上构建的简单线性分类器胜过精调分类器头部，并实现了在许多数据集上的最新最优性能。拓扑特征能够揭示语音Transformer头的功能角色，这表明TDA是一种有前途的语音分析方法。 |
-| [^72] | [SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models.](http://arxiv.org/abs/2211.10438) | SmoothQuant是一种训练无需的通用后训练量化（PTQ）解决方案，可以在保持精度的情况下实现大型语言模型的8位权重、8位激活（W8A8）量化。SmoothQuant通过数学等效转换将量化难度从激活移到权重，使得所有矩阵乘法的权重和激活的INT8量化成为可能，具有最高1.56倍加速和2倍内存减少的效果。 |
-| [^73] | [A Universal Discriminator for Zero-Shot Generalization.](http://arxiv.org/abs/2211.08099) | 该论文提出了一种用于零样本泛化的通用鉴别器，通过在NLP任务中使用单一的鉴别器，可实现比生成方法更好的表现，取得了在T0基准测试中最先进的零样本结果，同时在各种NLP任务上实现了新的最先进结果。 |
-| [^74] | [Self-Adaptive Named Entity Recognition by Retrieving Unstructured Knowledge.](http://arxiv.org/abs/2210.07523) | 本文提出了一种自适应命名实体识别方法，通过检索非结构化知识以修正预测，实验结果表明该方法在F1度量上优于强基线模型2.35个百分点。 |
-| [^75] | [Zero-Shot Prompting for Implicit Intent Prediction and Recommendation with Commonsense Reasoning.](http://arxiv.org/abs/2210.05901) | 本文提出了一种多领域对话系统框架，基于常识推理能够实现隐式意图的预测和通过预训练语言模型进行零-shot提示以触发相应的任务导向机器人，提高了实用性和效率。 |
-| [^76] | [A Kernel-Based View of Language Model Fine-Tuning.](http://arxiv.org/abs/2210.05643) | 本文研究神经切线核 (NTK) 在描述预训练语言模型微调过程中的适用性。实验证明在14个NLP任务中使用掩码词预测问题作为下游任务，可以取得好的效果。 |
-| [^77] | [Controllable Dialogue Simulation with In-Context Learning.](http://arxiv.org/abs/2210.04185) | 本文提出了一种基于上下文学习的对话模拟方法，通过少量带注释的示例自动创建大量对话数据，比众包更加成本效益和节省时间，实验证明在低资源环境下使用模拟对话训练模型可以获得更好的性能。 |
-| [^78] | [Guess the Instruction! Flipped Learning Makes Language Models Stronger Zero-Shot Learners.](http://arxiv.org/abs/2210.02969) | 本文提出了一种名为“翻转学习”的元训练替代方法，通过训练语言模型生成任务指令，可以在零样本任务中取得更好的表现，特别是在包含未见标签的挑战性任务中。Flipped在14个BIG-bench基准测试任务中平均比3-shot GPT-3高出8.4%和9.7%的分数。 |
-| [^79] | [Less is More: Task-aware Layer-wise Distillation for Language Model Compression.](http://arxiv.org/abs/2210.01351) | 本文提出了一种新的面向任务的分层蒸馏方法（TED），通过设计任务感知的滤波器来对齐学生和教师的隐藏表示，选择有用的知识，减少知识差距，使学生模型更好地适应目标任务，实现了比最先进方法更少的参数下可比或更好的性能。 |
-| [^80] | [Structured Knowledge Grounding for Question Answering.](http://arxiv.org/abs/2209.08284) | 本文提出了一种基于语言模型的知识基础问答方法，通过动态跳跃检索相关上下文，并使用深度融合机制，实现具有灵活性、覆盖面和结构推理，优于现有的知识基础构建方法，并达到与依赖于外部信息资源的最先进系统相竞争的性能。 |
-| [^81] | [GigaST: A 10,000-hour Pseudo Speech Translation Corpus.](http://arxiv.org/abs/2204.03939) | GigaST是一份大规模的伪语音翻译(ST)语料库，使用该语料库所训练出的ST模型在MuST-C英语-德语基准测试集上取得了新的最先进结果。 |
-| [^82] | [Detecting Harmful Content On Online Platforms: What Platforms Need Vs. Where Research Efforts Go.](http://arxiv.org/abs/2103.00153) | 在线平台上的有害内容种类和平台需求与自动检测有害内容的研究方向存在差异，需要更深入的研究和更好的平台管理，以减少社会危害和创建更完整的用户环境。 |
+| [^72] | [Retrieval-Augmented Multimodal Language Modeling.](http://arxiv.org/abs/2211.12561) | 本文提出了一种新的基于检索的多模态模型，使其可以从外部记忆检索相关图片和文本信息，以更可扩展和模块化的方式集成知识，提供更高质量的生成结果。 |
+| [^73] | [SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models.](http://arxiv.org/abs/2211.10438) | SmoothQuant是一种训练无需的通用后训练量化（PTQ）解决方案，可以在保持精度的情况下实现大型语言模型的8位权重、8位激活（W8A8）量化。SmoothQuant通过数学等效转换将量化难度从激活移到权重，使得所有矩阵乘法的权重和激活的INT8量化成为可能，具有最高1.56倍加速和2倍内存减少的效果。 |
+| [^74] | [A Universal Discriminator for Zero-Shot Generalization.](http://arxiv.org/abs/2211.08099) | 该论文提出了一种用于零样本泛化的通用鉴别器，通过在NLP任务中使用单一的鉴别器，可实现比生成方法更好的表现，取得了在T0基准测试中最先进的零样本结果，同时在各种NLP任务上实现了新的最先进结果。 |
+| [^75] | [Self-Adaptive Named Entity Recognition by Retrieving Unstructured Knowledge.](http://arxiv.org/abs/2210.07523) | 本文提出了一种自适应命名实体识别方法，通过检索非结构化知识以修正预测，实验结果表明该方法在F1度量上优于强基线模型2.35个百分点。 |
+| [^76] | [Zero-Shot Prompting for Implicit Intent Prediction and Recommendation with Commonsense Reasoning.](http://arxiv.org/abs/2210.05901) | 本文提出了一种多领域对话系统框架，基于常识推理能够实现隐式意图的预测和通过预训练语言模型进行零-shot提示以触发相应的任务导向机器人，提高了实用性和效率。 |
+| [^77] | [A Kernel-Based View of Language Model Fine-Tuning.](http://arxiv.org/abs/2210.05643) | 本文研究神经切线核 (NTK) 在描述预训练语言模型微调过程中的适用性。实验证明在14个NLP任务中使用掩码词预测问题作为下游任务，可以取得好的效果。 |
+| [^78] | [Controllable Dialogue Simulation with In-Context Learning.](http://arxiv.org/abs/2210.04185) | 本文提出了一种基于上下文学习的对话模拟方法，通过少量带注释的示例自动创建大量对话数据，比众包更加成本效益和节省时间，实验证明在低资源环境下使用模拟对话训练模型可以获得更好的性能。 |
+| [^79] | [Guess the Instruction! Flipped Learning Makes Language Models Stronger Zero-Shot Learners.](http://arxiv.org/abs/2210.02969) | 本文提出了一种名为“翻转学习”的元训练替代方法，通过训练语言模型生成任务指令，可以在零样本任务中取得更好的表现，特别是在包含未见标签的挑战性任务中。Flipped在14个BIG-bench基准测试任务中平均比3-shot GPT-3高出8.4%和9.7%的分数。 |
+| [^80] | [Less is More: Task-aware Layer-wise Distillation for Language Model Compression.](http://arxiv.org/abs/2210.01351) | 本文提出了一种新的面向任务的分层蒸馏方法（TED），通过设计任务感知的滤波器来对齐学生和教师的隐藏表示，选择有用的知识，减少知识差距，使学生模型更好地适应目标任务，实现了比最先进方法更少的参数下可比或更好的性能。 |
+| [^81] | [Structured Knowledge Grounding for Question Answering.](http://arxiv.org/abs/2209.08284) | 本文提出了一种基于语言模型的知识基础问答方法，通过动态跳跃检索相关上下文，并使用深度融合机制，实现具有灵活性、覆盖面和结构推理，优于现有的知识基础构建方法，并达到与依赖于外部信息资源的最先进系统相竞争的性能。 |
+| [^82] | [GigaST: A 10,000-hour Pseudo Speech Translation Corpus.](http://arxiv.org/abs/2204.03939) | GigaST是一份大规模的伪语音翻译(ST)语料库，使用该语料库所训练出的ST模型在MuST-C英语-德语基准测试集上取得了新的最先进结果。 |
+| [^83] | [Detecting Harmful Content On Online Platforms: What Platforms Need Vs. Where Research Efforts Go.](http://arxiv.org/abs/2103.00153) | 在线平台上的有害内容种类和平台需求与自动检测有害内容的研究方向存在差异，需要更深入的研究和更好的平台管理，以减少社会危害和创建更完整的用户环境。 |
 
 # 详细
 
@@ -1081,7 +1082,21 @@
 
     We apply topological data analysis (TDA) to speech classification problems and to the introspection of a pretrained speech model, HuBERT. To this end, we introduce a number of topological and algebraic features derived from Transformer attention maps and embeddings. We show that a simple linear classifier built on top of such features outperforms a fine-tuned classification head. In particular, we achieve an improvement of about $9\%$ accuracy and $5\%$ ERR on four common datasets; on CREMA-D, the proposed feature set reaches a new state of the art performance with accuracy $80.155$. We also show that topological features are able to reveal functional roles of speech Transformer heads; e.g., we find the heads capable to distinguish between pairs of sample sources (natural/synthetic) or voices without any downstream fine-tuning. Our results demonstrate that TDA is a promising new approach for speech analysis, especially for tasks that require structural prediction. Appendices, an introd
     
-[^72]: SmoothQuant：用于大型语言模型的精确高效的后训练量化方法
+[^72]: 基于检索的多模态语言建模
+
+    Retrieval-Augmented Multimodal Language Modeling. (arXiv:2211.12561v2 [cs.CV] UPDATED)
+
+    [http://arxiv.org/abs/2211.12561](http://arxiv.org/abs/2211.12561)
+
+    本文提出了一种新的基于检索的多模态模型，使其可以从外部记忆检索相关图片和文本信息，以更可扩展和模块化的方式集成知识，提供更高质量的生成结果。
+
+    
+
+    最近出现的多模态模型如DALL-E和CM3在文本与图像生成方面取得了显著进展。但是，这些模型将所有学习到的知识（例如埃菲尔铁塔的外观）存储在模型参数中，需要越来越大的模型和训练数据来捕捉更多的知识。为了以更可扩展和模块化的方式集成知识，我们提出了一种检索增强的多模态模型，使基本的多模态模型（生成器）能够参考由检索器从外部记忆（例如网上的文本和图像）中提取的相关信息。具体来说，我们使用预训练的CLIP作为检索器，使用在LAION数据集上训练的CM3 Transformer作为生成器。我们得到的模型称为检索增强CM3（RA-CM3），是第一个可以检索和生成文本和图像的多模态模型。我们证明RA-CM3在图像和图片生成方面均显著优于基线多模态模型如DALL-E和CM3，并且其检索模块可以有效地整合外部知识，以提高所生成结果的质量。
+
+    Recent multimodal models such as DALL-E and CM3 have achieved remarkable progress in text-to-image and image-to-text generation. However, these models store all learned knowledge (e.g., the appearance of the Eiffel Tower) in the model parameters, requiring increasingly larger models and training data to capture more knowledge. To integrate knowledge in a more scalable and modular way, we propose a retrieval-augmented multimodal model, which enables a base multimodal model (generator) to refer to relevant text and images fetched by a retriever from external memory (e.g., documents on the web). Specifically, for the retriever, we use a pretrained CLIP, and for the generator, we train a CM3 Transformer on the LAION dataset. Our resulting model, named Retrieval-Augmented CM3 (RA-CM3), is the first multimodal model that can retrieve and generate both text and images. We show that RA-CM3 significantly outperforms baseline multimodal models such as DALL-E and CM3 on both image and caption gen
+    
+[^73]: SmoothQuant：用于大型语言模型的精确高效的后训练量化方法
 
     SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models. (arXiv:2211.10438v5 [cs.CL] UPDATED)
 
@@ -1095,7 +1110,7 @@
 
     Large language models (LLMs) show excellent performance but are compute- and memory-intensive. Quantization can reduce memory and accelerate inference. However, existing methods cannot maintain accuracy and hardware efficiency at the same time. We propose SmoothQuant, a training-free, accuracy-preserving, and general-purpose post-training quantization (PTQ) solution to enable 8-bit weight, 8-bit activation (W8A8) quantization for LLMs. Based on the fact that weights are easy to quantize while activations are not, SmoothQuant smooths the activation outliers by offline migrating the quantization difficulty from activations to weights with a mathematically equivalent transformation. SmoothQuant enables an INT8 quantization of both weights and activations for all the matrix multiplications in LLMs, including OPT, BLOOM, GLM, MT-NLG, and LLaMA family. We demonstrate up to 1.56x speedup and 2x memory reduction for LLMs with negligible loss in accuracy. SmoothQuant enables serving 530B LLM wi
     
-[^73]: 一种用于零样本泛化的通用鉴别器
+[^74]: 一种用于零样本泛化的通用鉴别器
 
     A Universal Discriminator for Zero-Shot Generalization. (arXiv:2211.08099v2 [cs.CL] UPDATED)
 
@@ -1109,7 +1124,7 @@
 
     Generative modeling has been the dominant approach for large-scale pretraining and zero-shot generalization. In this work, we challenge this convention by showing that discriminative approaches perform substantially better than generative ones on a large number of NLP tasks. Technically, we train a single discriminator to predict whether a text sample comes from the true data distribution, similar to GANs. Since many NLP tasks can be formulated as selecting from a few options, we use this discriminator to predict the concatenation of input and which option has the highest probability of coming from the true data distribution. This simple formulation achieves state-of-the-art zero-shot results on the T0 benchmark, outperforming T0 by 16.0\%, 7.8\%, and 11.5\% respectively on different scales. In the finetuning setting, our approach also achieves new state-of-the-art results on a wide range of NLP tasks, with only 1/4 parameters of previous methods. Meanwhile, our approach requires minim
     
-[^74]: 通过检索非结构化知识进行自适应命名实体识别
+[^75]: 通过检索非结构化知识进行自适应命名实体识别
 
     Self-Adaptive Named Entity Recognition by Retrieving Unstructured Knowledge. (arXiv:2210.07523v3 [cs.CL] UPDATED)
 
@@ -1123,7 +1138,7 @@
 
     Although named entity recognition (NER) helps us to extract domain-specific entities from text (e.g., artists in the music domain), it is costly to create a large amount of training data or a structured knowledge base to perform accurate NER in the target domain. Here, we propose self-adaptive NER, which retrieves external knowledge from unstructured text to learn the usages of entities that have not been learned well. To retrieve useful knowledge for NER, we design an effective two-stage model that retrieves unstructured knowledge using uncertain entities as queries. Our model predicts the entities in the input and then finds those of which the prediction is not confident. Then, it retrieves knowledge by using these uncertain entities as queries and concatenates the retrieved text to the original input to revise the prediction. Experiments on CrossNER datasets demonstrated that our model outperforms strong baselines by 2.35 points in F1 metric.
     
-[^75]: 基于常识推理的隐式意图预测和建议的零-shot提示
+[^76]: 基于常识推理的隐式意图预测和建议的零-shot提示
 
     Zero-Shot Prompting for Implicit Intent Prediction and Recommendation with Commonsense Reasoning. (arXiv:2210.05901v2 [cs.CL] UPDATED)
 
@@ -1137,7 +1152,7 @@
 
     Intelligent virtual assistants are currently designed to perform tasks or services explicitly mentioned by users, so multiple related domains or tasks need to be performed one by one through a long conversation with many explicit intents. Instead, human assistants are capable of reasoning (multiple) implicit intents based on user utterances via commonsense knowledge, reducing complex interactions and improving practicality. Therefore, this paper proposes a framework of multi-domain dialogue systems, which can automatically infer implicit intents based on user utterances and then perform zero-shot prompting using a large pre-trained language model to trigger suitable single task-oriented bots. The proposed framework is demonstrated effective to realize implicit intents and recommend associated bots in a zero-shot manner.
     
-[^76]: 基于核函数的语言模型微调视角
+[^77]: 基于核函数的语言模型微调视角
 
     A Kernel-Based View of Language Model Fine-Tuning. (arXiv:2210.05643v3 [cs.LG] UPDATED)
 
@@ -1151,7 +1166,7 @@
 
     It has become standard to solve NLP tasks by fine-tuning pre-trained language models (LMs), especially in low-data settings. There is minimal theoretical understanding of empirical success, e.g., why fine-tuning a model with $10^8$ or more parameters on a couple dozen training points does not result in overfitting. We investigate whether the Neural Tangent Kernel (NTK) - which originated as a model to study the gradient descent dynamics of infinitely wide networks with suitable random initialization - describes fine-tuning of pre-trained LMs. This study was inspired by the decent performance of NTK for computer vision tasks (Wei et al., 2022). We extend the NTK formalism to Adam and use Tensor Programs (Yang, 2020) to characterize conditions under which the NTK lens may describe fine-tuning updates to pre-trained language models. Extensive experiments on 14 NLP tasks validate our theory and show that formulating the downstream task as a masked word prediction problem through prompting 
     
-[^77]: 基于上下文学习的可控对话模拟
+[^78]: 基于上下文学习的可控对话模拟
 
     Controllable Dialogue Simulation with In-Context Learning. (arXiv:2210.04185v4 [cs.CL] UPDATED)
 
@@ -1165,7 +1180,7 @@
 
     Building dialogue systems requires a large corpus of annotated dialogues. Such datasets are usually created via crowdsourcing, which is expensive and time-consuming. In this paper, we propose \textsc{Dialogic}, a novel dialogue simulation method based on large language model in-context learning to automate dataset creation. Seeded with a few annotated dialogues, \textsc{Dialogic} automatically selects in-context examples for demonstration and prompts GPT-3 to generate new dialogues and annotations in a controllable way. Our method can rapidly expand a small set of dialogue data with minimum or zero \textit{human involvement} and \textit{parameter update} and is thus much more cost-efficient and time-saving than crowdsourcing. Experimental results on the MultiWOZ dataset demonstrate that training a model on the simulated dialogues leads to even better performance than using the same amount of human-generated dialogues under the challenging low-resource settings, with as few as 85 dialog
     
-[^78]: 猜测指令！翻转学习使语言模型成为更强的零样本学习者。
+[^79]: 猜测指令！翻转学习使语言模型成为更强的零样本学习者。
 
     Guess the Instruction! Flipped Learning Makes Language Models Stronger Zero-Shot Learners. (arXiv:2210.02969v4 [cs.CL] UPDATED)
 
@@ -1179,7 +1194,7 @@
 
     Meta-training, which fine-tunes the language model (LM) on various downstream tasks by maximizing the likelihood of the target label given the task instruction and input instance, has improved the zero-shot task generalization performance. However, meta-trained LMs still struggle to generalize to challenging tasks containing novel labels unseen during meta-training. In this paper, we propose Flipped Learning, an alternative method of meta-training which trains the LM to generate the task instruction given the input instance and label. During inference, the LM trained with Flipped Learning, referred to as Flipped, selects the label option that is most likely to generate the task instruction. On 14 tasks of the BIG-bench benchmark, the 11B-sized Flipped outperforms zero-shot T0-11B and even a 16 times larger 3-shot GPT-3 (175B) on average by 8.4% and 9.7% points, respectively. Flipped gives particularly large improvements on tasks with unseen labels, outperforming T0-11B by up to +20% av
     
-[^79]: 少即是多：面向任务的分层蒸馏用于语言模型压缩
+[^80]: 少即是多：面向任务的分层蒸馏用于语言模型压缩
 
     Less is More: Task-aware Layer-wise Distillation for Language Model Compression. (arXiv:2210.01351v3 [cs.CL] UPDATED)
 
@@ -1193,7 +1208,7 @@
 
     Layer-wise distillation is a powerful tool to compress large models (i.e. teacher models) into small ones (i.e., student models). The student distills knowledge from the teacher by mimicking the hidden representations of the teacher at every intermediate layer. However, layer-wise distillation is difficult. Since the student has a smaller model capacity than the teacher, it is often under-fitted. Furthermore, the hidden representations of the teacher contain redundant information that the student does not necessarily need for the target task's learning. To address these challenges, we propose a novel Task-aware layEr-wise Distillation (TED). TED designs task-aware filters to align the hidden representations of the student and the teacher at each layer. The filters select the knowledge that is useful for the target task from the hidden representations. As such, TED reduces the knowledge gap between the two models and helps the student to fit better on the target task. We evaluate TED in
     
-[^80]: 问答任务中的结构化知识基础构建
+[^81]: 问答任务中的结构化知识基础构建
 
     Structured Knowledge Grounding for Question Answering. (arXiv:2209.08284v3 [cs.CL] UPDATED)
 
@@ -1207,7 +1222,7 @@
 
     Can language models (LM) ground question-answering (QA) tasks in the knowledge base via inherent relational reasoning ability? While previous models that use only LMs have seen some success on many QA tasks, more recent methods include knowledge graphs (KG) to complement LMs with their more logic-driven implicit knowledge. However, effectively extracting information from structured data, like KGs, empowers LMs to remain an open question, and current models rely on graph techniques to extract knowledge. In this paper, we propose to solely leverage the LMs to combine the language and knowledge for knowledge based question-answering with flexibility, breadth of coverage and structured reasoning. Specifically, we devise a knowledge construction method that retrieves the relevant context with a dynamic hop, which expresses more comprehensivenes than traditional GNN-based techniques. And we devise a deep fusion mechanism to further bridge the information exchanging bottleneck between the lan
     
-[^81]: GigaST: 一份10,000小时的伪语音翻译语料库
+[^82]: GigaST: 一份10,000小时的伪语音翻译语料库
 
     GigaST: A 10,000-hour Pseudo Speech Translation Corpus. (arXiv:2204.03939v2 [cs.CL] UPDATED)
 
@@ -1221,7 +1236,7 @@
 
     This paper introduces GigaST, a large-scale pseudo speech translation (ST) corpus. We create the corpus by translating the text in GigaSpeech, an English ASR corpus, into German and Chinese. The training set is translated by a strong machine translation system and the test set is translated by human. ST models trained with an addition of our corpus obtain new state-of-the-art results on the MuST-C English-German benchmark test set. We provide a detailed description of the translation process and verify its quality. We make the translated text data public and hope to facilitate research in speech translation. Additionally, we also release the training scripts on NeurST to make it easy to replicate our systems. GigaST dataset is available at https://st-benchmark.github.io/resources/GigaST.
     
-[^82]: 在在线平台上检测有害内容：平台需求与研究方向差异
+[^83]: 在在线平台上检测有害内容：平台需求与研究方向差异
 
     Detecting Harmful Content On Online Platforms: What Platforms Need Vs. Where Research Efforts Go. (arXiv:2103.00153v2 [cs.CL] UPDATED)
 

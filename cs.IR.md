@@ -6,21 +6,22 @@
 | [^2] | [Rec4Ad: A Free Lunch to Mitigate Sample Selection Bias for Ads CTR Prediction in Taobao.](http://arxiv.org/abs/2306.03527) | 提出了一种名为Rec4Ad的方法，用于消除淘宝广告CTR预测中的样本选择偏差。它利用推荐日志构建合成样本来模拟推断集的分布，然后将合成和原始样本组合以减少SSB。实验结果表明，Rec4Ad在模型性能和校准方面显著优于几种最先进的方法。 |
 | [^3] | [COPR: Consistency-Oriented Pre-Ranking for Online Advertising.](http://arxiv.org/abs/2306.03516) | 该论文提出了一种面向一致性的在线广告预排名框架，利用了一个基于块的采样模块和一个即插即用的排名对齐模块，来显式优化ECPM排名结果的一致性。他们采用了基于Delta NDCG的加权机制，以更好地区分重要性。 |
 | [^4] | [Generate-then-Retrieve: Intent-Aware FAQ Retrieval in Product Search.](http://arxiv.org/abs/2306.03411) | 本研究提出了一种意图感知FAQ检索系统，它集成在商品搜索中，可以通过意图分类器和重构模型，提高了检索的精度和效率。 |
-| [^5] | [Tree based Progressive Regression Model for Watch-Time Prediction in Short-video Recommendation.](http://arxiv.org/abs/2306.03392) | 本文提出了一种基于树的渐进回归模型，该模型满足观看时间预测需要考虑观看时间的有序关系、视频观看行为之间的条件依赖性、预测不确定性以及偏差放大问题，实验结果显示其在准确性和健壮性方面优于其他几种最先进的方法。 |
-| [^6] | [Towards Alleviating the Object Bias in Prompt Tuning-based Factual Knowledge Extraction.](http://arxiv.org/abs/2306.03378) | 本文提出了一种名为MeCoD的提示调整方法，通过提示编码器、对象均衡和有偏对象阻塞三个模块，有效减少了对象偏差，提高了事实知识的提取准确性。 |
-| [^7] | [Construction d'un syst\`eme de recommandation bas\'e sur des contraintes via des graphes de connaissances.](http://arxiv.org/abs/2306.03247) | 本文探讨了一种基于约束条件的推荐系统，利用深度推荐知识识别相关建议，并与知识图谱结合，有效地基于用户偏好识别推荐。 |
-| [^8] | [Lumos in the Night Sky: AI-enabled Visual Tool for Exploring Night-Time Light Patterns.](http://arxiv.org/abs/2306.03195) | 夜Pulse是一个交互式工具，可用于夜间光（NTL）数据的可视化和分析。它可以通过图像分割、聚类和变化模式检测来识别城市发展和扩展模式，并回答有关人口因素、城市边界和异常差异的问题。 |
-| [^9] | [Personalized Federated Domain Adaptation for Item-to-Item Recommendation.](http://arxiv.org/abs/2306.03191) | 本论文提出了一种个性化联邦域适应方法，可在缺乏大量关系数据的情况下为项目推荐建立有效的热启动模型。 |
-| [^10] | [Unsupervised Dense Retrieval with Relevance-Aware Contrastive Pre-Training.](http://arxiv.org/abs/2306.03166) | 本文提出了相关性感知对比学习方法，该方法可以自适应地加权不同对偶的对比损失，以改善无监督检索模型性能，进一步的探索表明它可以击败BM25，作为很好的少量样本学习器。 |
-| [^11] | [Generative Flow Network for Listwise Recommendation.](http://arxiv.org/abs/2306.02239) | 本文提出了生成流网络用于列表化推荐的解决方案GFN4Rec，通过生成流网络和列表变换器的强大建模能力，生成具有高质量和多样性的项目列表，实验证明其在推荐质量和多样性方面优于现有方法。 |
-| [^12] | [Influence Maximization with Fairness at Scale (Extended Version).](http://arxiv.org/abs/2306.01587) | 本文针对影响最大化问题中的公平问题，提出了一种基于学习节点表示的方法来实现公平传播，从而实现可扩展的解决方案，适用于具有数百万或数十亿节点的网络。 |
-| [^13] | [Criteria Tell You More than Ratings: Criteria Preference-Aware Light Graph Convolution for Effective Multi-Criteria Recommendation.](http://arxiv.org/abs/2305.18885) | 本文提出了一种面向多准则推荐的标准偏好感知轻量图卷积网络，该方法结合了MC扩展图，可以准确地捕捉用户的标准偏好，并进一步将用户对各个标准的偏好合并到最终的推荐列表中。 |
-| [^14] | [The Role of Relevance in Fair Ranking.](http://arxiv.org/abs/2305.05608) | 本文结合社会学、信息检索和机器学习公平性的角度和工具，着眼于相关性在公平排序中的应用和作用，并推导出相关性评分应满足的一组期望标准以实现有意义地指导公平干预措施。 |
-| [^15] | [Learning Personalized Page Content Ranking Using Customer Representation.](http://arxiv.org/abs/2305.05267) | 本论文提出了一种基于深度学习的蒙特卡罗策略，该算法主要利用聚合的顾客行为特征，忽略单个购物者级别的过去活动。该模型通过整合历史购物行为、顾客潜在购物目标以及顾客和内容分类之间的相关性，产生更个性化的内容排名，测量值为12.08%的nDCG提升。 |
-| [^16] | [Web-Scale Academic Name Disambiguation: the WhoIsWho Benchmark, Leaderboard, and Toolkit.](http://arxiv.org/abs/2302.11848) | WhoIsWho是一个大规模的基准，采用交互式注释过程构建，包括综合任务在内的常规排行榜，以及易于使用的工具包，我们开发了一个强大的基线模型，并已在AMiner系统中部署在线，以支持日常学术研究。 |
-| [^17] | [Adap-$\tau$: Adaptively Modulating Embedding Magnitude for Recommendation.](http://arxiv.org/abs/2302.04775) | 本研究提出了一种自适应归一化方案Adap-$\tau$，通过动态调节每个用户-每个物品对的嵌入幅度，实现了理想的推荐性能，方法在四个真实世界的数据集上都超过了基准方法。 |
-| [^18] | [Empowering Long-tail Item Recommendation through Cross Decoupling Network (CDN).](http://arxiv.org/abs/2210.14309) | 本论文研究了长尾商品推荐中的偏差问题，并提出了一种交叉解耦网络（CDN）方法，能够在保持整体性能和减少训练和服务成本的条件下提高尾部商品的推荐效果。 |
-| [^19] | [Human Mobility Prediction with Causal and Spatial-constrained Multi-task Network.](http://arxiv.org/abs/2206.05731) | 本文提出了一种基于因果和空间约束的多任务网络，名为CSLSL，用于人类流动的预测，并且在实验中取得了比现有基线模型更好的准确性和可解释性。 |
+| [^5] | [Computational Technologies for Fashion Recommendation: A Survey.](http://arxiv.org/abs/2306.03395) | 本文全面综述了时尚推荐的计算技术研究。研究者从宏观层面介绍了该领域，分析了其特点和不同之处，并将时尚推荐任务分为几个子任务进行重点讨论。 |
+| [^6] | [Tree based Progressive Regression Model for Watch-Time Prediction in Short-video Recommendation.](http://arxiv.org/abs/2306.03392) | 本文提出了一种基于树的渐进回归模型，该模型满足观看时间预测需要考虑观看时间的有序关系、视频观看行为之间的条件依赖性、预测不确定性以及偏差放大问题，实验结果显示其在准确性和健壮性方面优于其他几种最先进的方法。 |
+| [^7] | [Towards Alleviating the Object Bias in Prompt Tuning-based Factual Knowledge Extraction.](http://arxiv.org/abs/2306.03378) | 本文提出了一种名为MeCoD的提示调整方法，通过提示编码器、对象均衡和有偏对象阻塞三个模块，有效减少了对象偏差，提高了事实知识的提取准确性。 |
+| [^8] | [Construction d'un syst\`eme de recommandation bas\'e sur des contraintes via des graphes de connaissances.](http://arxiv.org/abs/2306.03247) | 本文探讨了一种基于约束条件的推荐系统，利用深度推荐知识识别相关建议，并与知识图谱结合，有效地基于用户偏好识别推荐。 |
+| [^9] | [Lumos in the Night Sky: AI-enabled Visual Tool for Exploring Night-Time Light Patterns.](http://arxiv.org/abs/2306.03195) | 夜Pulse是一个交互式工具，可用于夜间光（NTL）数据的可视化和分析。它可以通过图像分割、聚类和变化模式检测来识别城市发展和扩展模式，并回答有关人口因素、城市边界和异常差异的问题。 |
+| [^10] | [Personalized Federated Domain Adaptation for Item-to-Item Recommendation.](http://arxiv.org/abs/2306.03191) | 本论文提出了一种个性化联邦域适应方法，可在缺乏大量关系数据的情况下为项目推荐建立有效的热启动模型。 |
+| [^11] | [Unsupervised Dense Retrieval with Relevance-Aware Contrastive Pre-Training.](http://arxiv.org/abs/2306.03166) | 本文提出了相关性感知对比学习方法，该方法可以自适应地加权不同对偶的对比损失，以改善无监督检索模型性能，进一步的探索表明它可以击败BM25，作为很好的少量样本学习器。 |
+| [^12] | [Generative Flow Network for Listwise Recommendation.](http://arxiv.org/abs/2306.02239) | 本文提出了生成流网络用于列表化推荐的解决方案GFN4Rec，通过生成流网络和列表变换器的强大建模能力，生成具有高质量和多样性的项目列表，实验证明其在推荐质量和多样性方面优于现有方法。 |
+| [^13] | [Influence Maximization with Fairness at Scale (Extended Version).](http://arxiv.org/abs/2306.01587) | 本文针对影响最大化问题中的公平问题，提出了一种基于学习节点表示的方法来实现公平传播，从而实现可扩展的解决方案，适用于具有数百万或数十亿节点的网络。 |
+| [^14] | [Criteria Tell You More than Ratings: Criteria Preference-Aware Light Graph Convolution for Effective Multi-Criteria Recommendation.](http://arxiv.org/abs/2305.18885) | 本文提出了一种面向多准则推荐的标准偏好感知轻量图卷积网络，该方法结合了MC扩展图，可以准确地捕捉用户的标准偏好，并进一步将用户对各个标准的偏好合并到最终的推荐列表中。 |
+| [^15] | [The Role of Relevance in Fair Ranking.](http://arxiv.org/abs/2305.05608) | 本文结合社会学、信息检索和机器学习公平性的角度和工具，着眼于相关性在公平排序中的应用和作用，并推导出相关性评分应满足的一组期望标准以实现有意义地指导公平干预措施。 |
+| [^16] | [Learning Personalized Page Content Ranking Using Customer Representation.](http://arxiv.org/abs/2305.05267) | 本论文提出了一种基于深度学习的蒙特卡罗策略，该算法主要利用聚合的顾客行为特征，忽略单个购物者级别的过去活动。该模型通过整合历史购物行为、顾客潜在购物目标以及顾客和内容分类之间的相关性，产生更个性化的内容排名，测量值为12.08%的nDCG提升。 |
+| [^17] | [Web-Scale Academic Name Disambiguation: the WhoIsWho Benchmark, Leaderboard, and Toolkit.](http://arxiv.org/abs/2302.11848) | WhoIsWho是一个大规模的基准，采用交互式注释过程构建，包括综合任务在内的常规排行榜，以及易于使用的工具包，我们开发了一个强大的基线模型，并已在AMiner系统中部署在线，以支持日常学术研究。 |
+| [^18] | [Adap-$\tau$: Adaptively Modulating Embedding Magnitude for Recommendation.](http://arxiv.org/abs/2302.04775) | 本研究提出了一种自适应归一化方案Adap-$\tau$，通过动态调节每个用户-每个物品对的嵌入幅度，实现了理想的推荐性能，方法在四个真实世界的数据集上都超过了基准方法。 |
+| [^19] | [Empowering Long-tail Item Recommendation through Cross Decoupling Network (CDN).](http://arxiv.org/abs/2210.14309) | 本论文研究了长尾商品推荐中的偏差问题，并提出了一种交叉解耦网络（CDN）方法，能够在保持整体性能和减少训练和服务成本的条件下提高尾部商品的推荐效果。 |
+| [^20] | [Human Mobility Prediction with Causal and Spatial-constrained Multi-task Network.](http://arxiv.org/abs/2206.05731) | 本文提出了一种基于因果和空间约束的多任务网络，名为CSLSL，用于人类流动的预测，并且在实验中取得了比现有基线模型更好的准确性和可解释性。 |
 
 # 详细
 
@@ -80,7 +81,21 @@
 
     Customers interacting with product search engines are increasingly formulating information-seeking queries. Frequently Asked Question (FAQ) retrieval aims to retrieve common question-answer pairs for a user query with question intent. Integrating FAQ retrieval in product search can not only empower users to make more informed purchase decisions, but also enhance user retention through efficient post-purchase support. Determining when an FAQ entry can satisfy a user's information need within product search, without disrupting their shopping experience, represents an important challenge. We propose an intent-aware FAQ retrieval system consisting of (1) an intent classifier that predicts when a user's information need can be answered by an FAQ; (2) a reformulation model that rewrites a query into a natural question. Offline evaluation demonstrates that our approach improves Hit@1 by 13% on retrieving ground-truth FAQs, while reducing latency by 95% compared to baseline systems. These impr
     
-[^5]: 短视频推荐中基于树的渐进回归模型用于观看时间预测
+[^5]: 时尚推荐的计算技术：一项综述
+
+    Computational Technologies for Fashion Recommendation: A Survey. (arXiv:2306.03395v1 [cs.MM])
+
+    [http://arxiv.org/abs/2306.03395](http://arxiv.org/abs/2306.03395)
+
+    本文全面综述了时尚推荐的计算技术研究。研究者从宏观层面介绍了该领域，分析了其特点和不同之处，并将时尚推荐任务分为几个子任务进行重点讨论。
+
+    
+
+    时尚推荐是计算时尚研究中的一个关键研究领域，近年来在计算机视觉、多媒体和信息检索社区引起了相当大的兴趣。由于应用的巨大需求，文献中提出并探索了各种时尚推荐任务，如个性化时尚产品推荐、相互补充（搭配）推荐和搭配推荐。持续的研究注意和进展促使我们回顾并深入了解这个领域。本文从技术角度全面回顾了近年来关于时尚推荐的研究工作。我们首先从宏观层面介绍了时尚推荐，并分析了它的特点和与一般推荐任务的区别。然后，我们将不同的时尚推荐任务清晰地归类为几个子任务，并从问题解决的角度重点关注每个子任务。
+
+    Fashion recommendation is a key research field in computational fashion research and has attracted considerable interest in the computer vision, multimedia, and information retrieval communities in recent years. Due to the great demand for applications, various fashion recommendation tasks, such as personalized fashion product recommendation, complementary (mix-and-match) recommendation, and outfit recommendation, have been posed and explored in the literature. The continuing research attention and advances impel us to look back and in-depth into the field for a better understanding. In this paper, we comprehensively review recent research efforts on fashion recommendation from a technological perspective. We first introduce fashion recommendation at a macro level and analyse its characteristics and differences with general recommendation tasks. We then clearly categorize different fashion recommendation efforts into several sub-tasks and focus on each sub-task in terms of its problem 
+    
+[^6]: 短视频推荐中基于树的渐进回归模型用于观看时间预测
 
     Tree based Progressive Regression Model for Watch-Time Prediction in Short-video Recommendation. (arXiv:2306.03392v1 [cs.IR])
 
@@ -94,7 +109,7 @@
 
     An accurate prediction of watch time has been of vital importance to enhance user engagement in video recommender systems. To achieve this, there are four properties that a watch time prediction framework should satisfy: first, despite its continuous value, watch time is also an ordinal variable and the relative ordering between its values reflects the differences in user preferences. Therefore the ordinal relations should be reflected in watch time predictions. Second, the conditional dependence between the video-watching behaviors should be captured in the model. For instance, one has to watch half of the video before he/she finishes watching the whole video. Third, modeling watch time with a point estimation ignores the fact that models might give results with high uncertainty and this could cause bad cases in recommender systems. Therefore the framework should be aware of prediction uncertainty. Forth, the real-life recommender systems suffer from severe bias amplifications thus an
     
-[^6]: 消除基于提示调整的事实知识提取中的对象偏差
+[^7]: 消除基于提示调整的事实知识提取中的对象偏差
 
     Towards Alleviating the Object Bias in Prompt Tuning-based Factual Knowledge Extraction. (arXiv:2306.03378v1 [cs.IR])
 
@@ -108,7 +123,7 @@
 
     Many works employed prompt tuning methods to automatically optimize prompt queries and extract the factual knowledge stored in Pretrained Language Models. In this paper, we observe that the optimized prompts, including discrete prompts and continuous prompts, exhibit undesirable object bias. To handle this problem, we propose a novel prompt tuning method called MeCoD. consisting of three modules: Prompt Encoder, Object Equalization and Biased Object Obstruction. Experimental results show that MeCoD can significantly reduce the object bias and at the same time improve accuracy of factual knowledge extraction.
     
-[^7]: 基于知识图谱约束的推荐系统构建（arXiv:2306.03247v1 [cs.IR]）
+[^8]: 基于知识图谱约束的推荐系统构建（arXiv:2306.03247v1 [cs.IR]）
 
     Construction d'un syst\`eme de recommandation bas\'e sur des contraintes via des graphes de connaissances. (arXiv:2306.03247v1 [cs.IR])
 
@@ -122,7 +137,7 @@
 
     Knowledge graphs in RDF model entities and their relations using ontologies, and have gained popularity for information modeling. In recommender systems, knowledge graphs help represent more links and relationships between users and items. Constraint-based recommender systems leverage deep recommendation knowledge to identify relevant suggestions. When combined with knowledge graphs, they offer benefits in constraint sets. This paper explores a constraint-based recommender system using RDF knowledge graphs for the vehicle purchase/sale domain. Our experiments demonstrate that the proposed approach efficiently identifies recommendations based on user preferences.
     
-[^8]: 夜空中的Lumos：用于探索夜间光模式的AI可视化工具
+[^9]: 夜空中的Lumos：用于探索夜间光模式的AI可视化工具
 
     Lumos in the Night Sky: AI-enabled Visual Tool for Exploring Night-Time Light Patterns. (arXiv:2306.03195v1 [cs.HC])
 
@@ -136,7 +151,7 @@
 
     We introduce NightPulse, an interactive tool for Night-time light (NTL) data visualization and analytics, which enables researchers and stakeholders to explore and analyze NTL data with a user-friendly platform. Powered by efficient system architecture, NightPulse supports image segmentation, clustering, and change pattern detection to identify urban development and sprawl patterns. It captures temporal trends of NTL and semantics of cities, answering questions about demographic factors, city boundaries, and unusual differences.
     
-[^9]: 面向项目推荐的个性化联邦域自适应
+[^10]: 面向项目推荐的个性化联邦域自适应
 
     Personalized Federated Domain Adaptation for Item-to-Item Recommendation. (arXiv:2306.03191v1 [cs.IR])
 
@@ -150,7 +165,7 @@
 
     Item-to-Item (I2I) recommendation is an important function in most recommendation systems, which generates replacement or complement suggestions for a particular item based on its semantic similarities to other cataloged items. Given that subsets of items in a recommendation system might be co-interacted with by the same set of customers, graph-based models, such as graph neural networks (GNNs), provide a natural framework to combine, ingest and extract valuable insights from such high-order relational interactions between cataloged items, as well as their metadata features, as has been shown in many recent studies. However, learning GNNs effectively for I2I requires ingesting a large amount of relational data, which might not always be available, especially in new, emerging market segments. To mitigate this data bottleneck, we postulate that recommendation patterns learned from existing mature market segments (with private data) could be adapted to build effective warm-start models fo
     
-[^10]: 无监督稠密检索及相关性感知对比学习
+[^11]: 无监督稠密检索及相关性感知对比学习
 
     Unsupervised Dense Retrieval with Relevance-Aware Contrastive Pre-Training. (arXiv:2306.03166v1 [cs.IR])
 
@@ -164,7 +179,7 @@
 
     Dense retrievers have achieved impressive performance, but their demand for abundant training data limits their application scenarios. Contrastive pre-training, which constructs pseudo-positive examples from unlabeled data, has shown great potential to solve this problem. However, the pseudo-positive examples crafted by data augmentations can be irrelevant. To this end, we propose relevance-aware contrastive learning. It takes the intermediate-trained model itself as an imperfect oracle to estimate the relevance of positive pairs and adaptively weighs the contrastive loss of different pairs according to the estimated relevance. Our method consistently improves the SOTA unsupervised Contriever model on the BEIR and open-domain QA retrieval benchmarks. Further exploration shows that our method can not only beat BM25 after further pre-training on the target corpus but also serves as a good few-shot learner. Our code is publicly available at https://github.com/Yibin-Lei/ReContriever.
     
-[^11]: 生成流网络用于列表化推荐
+[^12]: 生成流网络用于列表化推荐
 
     Generative Flow Network for Listwise Recommendation. (arXiv:2306.02239v2 [cs.IR] UPDATED)
 
@@ -178,7 +193,7 @@
 
     Personalized recommender systems fulfill the daily demands of customers and boost online businesses. The goal is to learn a policy that can generate a list of items that matches the user's demand or interest. While most existing methods learn a pointwise scoring model that predicts the ranking score of each individual item, recent research shows that the listwise approach can further improve the recommendation quality by modeling the intra-list correlations of items that are exposed together. This has motivated the recent list reranking and generative recommendation approaches that optimize the overall utility of the entire list. However, it is challenging to explore the combinatorial space of list actions and existing methods that use cross-entropy loss may suffer from low diversity issues. In this work, we aim to learn a policy that can generate sufficiently diverse item lists for users while maintaining high recommendation quality. The proposed solution, GFN4Rec, is a generative met
     
-[^12]: 在规模上考虑公平的影响最大化问题（扩展版）
+[^13]: 在规模上考虑公平的影响最大化问题（扩展版）
 
     Influence Maximization with Fairness at Scale (Extended Version). (arXiv:2306.01587v1 [cs.SI])
 
@@ -192,7 +207,7 @@
 
     In this paper, we revisit the problem of influence maximization with fairness, which aims to select k influential nodes to maximise the spread of information in a network, while ensuring that selected sensitive user attributes are fairly affected, i.e., are proportionally similar between the original network and the affected users. Recent studies on this problem focused only on extremely small networks, hence the challenge remains on how to achieve a scalable solution, applicable to networks with millions or billions of nodes. We propose an approach that is based on learning node representations for fair spread from diffusion cascades, instead of the social connectivity s.t. we can deal with very large graphs. We propose two data-driven approaches: (a) fairness-based participant sampling (FPS), and (b) fairness as context (FAC). Spread related user features, such as the probability of diffusing information to others, are derived from the historical information cascades, using a deep ne
     
-[^13]: 标准比评分更重要：面向多准则推荐的标准偏好感知轻量图卷积网络
+[^14]: 标准比评分更重要：面向多准则推荐的标准偏好感知轻量图卷积网络
 
     Criteria Tell You More than Ratings: Criteria Preference-Aware Light Graph Convolution for Effective Multi-Criteria Recommendation. (arXiv:2305.18885v2 [cs.SI] UPDATED)
 
@@ -206,7 +221,7 @@
 
     The multi-criteria (MC) recommender system, which leverages MC rating information in a wide range of e-commerce areas, is ubiquitous nowadays. Surprisingly, although graph neural networks (GNNs) have been widely applied to develop various recommender systems due to GNN's high expressive capability in learning graph representations, it has been still unexplored how to design MC recommender systems with GNNs. In light of this, we make the first attempt towards designing a GNN-aided MC recommender system. Specifically, rather than straightforwardly adopting existing GNN-based recommendation methods, we devise a novel criteria preference-aware light graph convolution CPA-LGC method, which is capable of precisely capturing the criteria preference of users as well as the collaborative signal in complex high-order connectivities. To this end, we first construct an MC expansion graph that transforms user--item MC ratings into an expanded bipartite graph to potentially learn from the collaborat
     
-[^14]: 相关性在公平排序中的作用
+[^15]: 相关性在公平排序中的作用
 
     The Role of Relevance in Fair Ranking. (arXiv:2305.05608v1 [cs.IR])
 
@@ -220,7 +235,7 @@
 
     Online platforms mediate access to opportunity: relevance-based rankings create and constrain options by allocating exposure to job openings and job candidates in hiring platforms, or sellers in a marketplace. In order to do so responsibly, these socially consequential systems employ various fairness measures and interventions, many of which seek to allocate exposure based on worthiness. Because these constructs are typically not directly observable, platforms must instead resort to using proxy scores such as relevance and infer them from behavioral signals such as searcher clicks. Yet, it remains an open question whether relevance fulfills its role as such a worthiness score in high-stakes fair rankings.  In this paper, we combine perspectives and tools from the social sciences, information retrieval, and fairness in machine learning to derive a set of desired criteria that relevance scores should satisfy in order to meaningfully guide fairness interventions. We then empirically show 
     
-[^15]: 使用顾客表示学习个性化页面内容排名
+[^16]: 使用顾客表示学习个性化页面内容排名
 
     Learning Personalized Page Content Ranking Using Customer Representation. (arXiv:2305.05267v1 [cs.IR])
 
@@ -234,7 +249,7 @@
 
     On E-commerce stores (Amazon, eBay etc.) there are rich recommendation content to help shoppers shopping more efficiently. However given numerous products, it's crucial to select most relevant content to reduce the burden of information overload. We introduced a content ranking service powered by a linear causal bandit algorithm to rank and select content for each shopper under each context. The algorithm mainly leverages aggregated customer behavior features, and ignores single shopper level past activities. We study the problem of inferring shoppers interest from historical activities. We propose a deep learning based bandit algorithm that incorporates historical shopping behavior, customer latent shopping goals, and the correlation between customers and content categories. This model produces more personalized content ranking measured by 12.08% nDCG lift. In the online A/B test setting, the model improved 0.02% annualized commercial impact measured by our business metric, validating
     
-[^16]: Web-Scale学术名称消歧：WhoIsWho基准、排行榜和工具包
+[^17]: Web-Scale学术名称消歧：WhoIsWho基准、排行榜和工具包
 
     Web-Scale Academic Name Disambiguation: the WhoIsWho Benchmark, Leaderboard, and Toolkit. (arXiv:2302.11848v2 [cs.IR] UPDATED)
 
@@ -248,7 +263,7 @@
 
     Name disambiguation -- a fundamental problem in online academic systems -- is now facing greater challenges with the increasing growth of research papers. For example, on AMiner, an online academic search platform, about 10% of names own more than 100 authors. Such real-world challenging cases have not been effectively addressed by existing researches due to the small-scale or low-quality datasets that they have used. The development of effective algorithms is further hampered by a variety of tasks and evaluation protocols designed on top of diverse datasets. To this end, we present WhoIsWho owning, a large-scale benchmark with over 1,000,000 papers built using an interactive annotation process, a regular leaderboard with comprehensive tasks, and an easy-to-use toolkit encapsulating the entire pipeline as well as the most powerful features and baseline models for tackling the tasks. Our developed strong baseline has already been deployed online in the AMiner system to enable daily arXi
     
-[^17]: Adap-$\tau$:自适应调整嵌入的幅度用于推荐
+[^18]: Adap-$\tau$:自适应调整嵌入的幅度用于推荐
 
     Adap-$\tau$: Adaptively Modulating Embedding Magnitude for Recommendation. (arXiv:2302.04775v2 [cs.IR] UPDATED)
 
@@ -262,7 +277,7 @@
 
     Recent years have witnessed the great successes of embedding-based methods in recommender systems. Despite their decent performance, we argue one potential limitation of these methods -- the embedding magnitude has not been explicitly modulated, which may aggravate popularity bias and training instability, hindering the model from making a good recommendation. It motivates us to leverage the embedding normalization in recommendation. By normalizing user/item embeddings to a specific value, we empirically observe impressive performance gains (9\% on average) on four real-world datasets. Although encouraging, we also reveal a serious limitation when applying normalization in recommendation -- the performance is highly sensitive to the choice of the temperature $\tau$ which controls the scale of the normalized embeddings.  To fully foster the merits of the normalization while circumvent its limitation, this work studied on how to adaptively set the proper $\tau$. Towards this end, we firs
     
-[^18]: 通过交叉解耦网络（CDN）增强长尾商品推荐
+[^19]: 通过交叉解耦网络（CDN）增强长尾商品推荐
 
     Empowering Long-tail Item Recommendation through Cross Decoupling Network (CDN). (arXiv:2210.14309v2 [cs.IR] UPDATED)
 
@@ -276,7 +291,7 @@
 
     Industry recommender systems usually suffer from highly-skewed long-tail item distributions where a small fraction of the items receives most of the user feedback. This skew hurts recommender quality especially for the item slices without much user feedback. While there have been many research advances made in academia, deploying these methods in production is very difficult and very few improvements have been made in industry. One challenge is that these methods often hurt overall performance; additionally, they could be complex and expensive to train and serve. In this work, we aim to improve tail item recommendations while maintaining the overall performance with less training and serving cost. We first find that the predictions of user preferences are biased under long-tail distributions. The bias comes from the differences between training and serving data in two perspectives: 1) the item distributions, and 2) user's preference given an item. Most existing methods mainly attempt t
     
-[^19]: 基于因果和空间约束的多任务网络的人类流动预测
+[^20]: 基于因果和空间约束的多任务网络的人类流动预测
 
     Human Mobility Prediction with Causal and Spatial-constrained Multi-task Network. (arXiv:2206.05731v4 [cs.AI] UPDATED)
 
