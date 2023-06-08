@@ -1,0 +1,12 @@
+{
+    "title": "Cliff-Learning. (arXiv:2302.07348v2 [cs.LG] UPDATED)",
+    "abstract": "We study the data-scaling of transfer learning from foundation models in the low-downstream-data regime. We observe an intriguing phenomenon which we call cliff-learning. Cliff-learning refers to regions of data-scaling laws where performance improves at a faster than power law rate (i.e. regions of concavity on a log-log scaling plot). We conduct an in-depth investigation of foundation-model cliff-learning and study toy models of the phenomenon. We observe that the degree of cliff-learning reflects the degree of compatibility between the priors of a learning algorithm and the task being learned.",
+    "link": "http://arxiv.org/abs/2302.07348",
+    "context": "Title: Cliff-Learning. (arXiv:2302.07348v2 [cs.LG] UPDATED)\nAbstract: We study the data-scaling of transfer learning from foundation models in the low-downstream-data regime. We observe an intriguing phenomenon which we call cliff-learning. Cliff-learning refers to regions of data-scaling laws where performance improves at a faster than power law rate (i.e. regions of concavity on a log-log scaling plot). We conduct an in-depth investigation of foundation-model cliff-learning and study toy models of the phenomenon. We observe that the degree of cliff-learning reflects the degree of compatibility between the priors of a learning algorithm and the task being learned.",
+    "path": "papers/23/02/2302.07348.json",
+    "total_tokens": 723,
+    "translated_title": "悬崖学习",
+    "translated_abstract": "我们研究了基于基础模型进行迁移学习在低下游数据状态下的数据缩放。我们观察到了一个有趣的现象，我们称之为悬崖学习。悬崖学习是指在数据缩放法则的某些区域中，性能的提升速度快于幂律速度的现象（即在对数缩放图上的凹形区域）。我们对基础模型的悬崖学习进行了深入调查并研究了这一现象的玩具模型。我们观察到悬崖学习的程度反映了学习算法的先验知识和所学任务之间的兼容程度。",
+    "tldr": "本研究探究了基于基础模型的迁移学习在低数据状态下的数据缩放，发现了一种称为悬崖学习的现象，它反映了学习算法的先验知识与任务之间的兼容程度。",
+    "en_tdlr": "This study explores the data scaling of transfer learning from foundation models in the low downstream data regime and discovers a phenomenon called cliff-learning, which reflects the degree of compatibility between the priors of a learning algorithm and the task being learned."
+}

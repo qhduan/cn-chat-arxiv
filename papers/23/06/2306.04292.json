@@ -1,0 +1,11 @@
+{
+    "title": "Dear XAI Community, We Need to Talk! Fundamental Misconceptions in Current XAI Research. (arXiv:2306.04292v1 [cs.AI])",
+    "abstract": "Despite progress in the field, significant parts of current XAI research are still not on solid conceptual, ethical, or methodological grounds. Unfortunately, these unfounded parts are not on the decline but continue to grow. Many explanation techniques are still proposed without clarifying their purpose. Instead, they are advertised with ever more fancy-looking heatmaps or only seemingly relevant benchmarks. Moreover, explanation techniques are motivated with questionable goals, such as building trust, or rely on strong assumptions about the 'concepts' that deep learning algorithms learn. In this paper, we highlight and discuss these and other misconceptions in current XAI research. We also suggest steps to make XAI a more substantive area of research.",
+    "link": "http://arxiv.org/abs/2306.04292",
+    "context": "Title: Dear XAI Community, We Need to Talk! Fundamental Misconceptions in Current XAI Research. (arXiv:2306.04292v1 [cs.AI])\nAbstract: Despite progress in the field, significant parts of current XAI research are still not on solid conceptual, ethical, or methodological grounds. Unfortunately, these unfounded parts are not on the decline but continue to grow. Many explanation techniques are still proposed without clarifying their purpose. Instead, they are advertised with ever more fancy-looking heatmaps or only seemingly relevant benchmarks. Moreover, explanation techniques are motivated with questionable goals, such as building trust, or rely on strong assumptions about the 'concepts' that deep learning algorithms learn. In this paper, we highlight and discuss these and other misconceptions in current XAI research. We also suggest steps to make XAI a more substantive area of research.",
+    "path": "papers/23/06/2306.04292.json",
+    "total_tokens": 833,
+    "translated_title": "亲爱的XAI社区，我们需要谈谈！关于当前XAI研究中存在的基本误解",
+    "translated_abstract": "尽管该领域已经取得了进展，但目前XAI研究的重要部分仍未建立在坚实的概念、伦理或方法论基础上。令人遗憾的是，这些基础薄弱的部分并没有减少，而是不断增长。许多解释技术仍然没有澄清其目的，而是用越来越花哨的热点图或看似相关的基准来宣传。此外，解释技术的动机存在问题，例如建立信任，或依赖于关于深度学习算法所学“概念”的强烈假设。本文中，我们突出并讨论了当前XAI研究中的这些和其他误解，同时提出了使XAI成为更实质性研究领域的步骤。",
+    "tldr": "当前XAI研究中存在基本误解，例如未明确解释技术的目的，依赖于关于深度学习算法所学“概念”的强烈假设等。我们需要采取措施使XAI成为更实质性的研究领域。"
+}

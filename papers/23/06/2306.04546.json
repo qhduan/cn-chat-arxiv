@@ -1,0 +1,11 @@
+{
+    "title": "Querying Circumscribed Description Logic Knowledge Bases. (arXiv:2306.04546v1 [cs.AI])",
+    "abstract": "Circumscription is one of the main approaches for defining non-monotonic description logics (DLs). While the decidability and complexity of traditional reasoning tasks such as satisfiability of circumscribed DL knowledge bases (KBs) is well understood, for evaluating conjunctive queries (CQs) and unions thereof (UCQs), not even decidability had been established. In this paper, we prove decidability of (U)CQ evaluation on circumscribed DL KBs and obtain a rather complete picture of both the combined complexity and the data complexity, for DLs ranging from ALCHIO via EL to various versions of DL-Lite. We also study the much simpler atomic queries (AQs).",
+    "link": "http://arxiv.org/abs/2306.04546",
+    "context": "Title: Querying Circumscribed Description Logic Knowledge Bases. (arXiv:2306.04546v1 [cs.AI])\nAbstract: Circumscription is one of the main approaches for defining non-monotonic description logics (DLs). While the decidability and complexity of traditional reasoning tasks such as satisfiability of circumscribed DL knowledge bases (KBs) is well understood, for evaluating conjunctive queries (CQs) and unions thereof (UCQs), not even decidability had been established. In this paper, we prove decidability of (U)CQ evaluation on circumscribed DL KBs and obtain a rather complete picture of both the combined complexity and the data complexity, for DLs ranging from ALCHIO via EL to various versions of DL-Lite. We also study the much simpler atomic queries (AQs).",
+    "path": "papers/23/06/2306.04546.json",
+    "total_tokens": 643,
+    "translated_title": "查询周缘化描述逻辑知识库",
+    "translated_abstract": "周缘化是定义非单调描述逻辑的主要方法之一。本文证明了在周缘化描述逻辑知识库上评估连词查询和其并集的可判定性，并且得到了ALCHIO、EL到各种版本的DL-Lite的数据复杂性和合并复杂性的完整描述。我们还研究了简单的原子查询。",
+    "tldr": "本文证明了在周缘化描述逻辑知识库上评估连词查询和其并集的可判定性，并且得到了DL-Lite的数据复杂性和合并复杂性的完整描述。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "A Fair Classifier Embracing Triplet Collapse. (arXiv:2306.04400v1 [cs.LG])",
+    "abstract": "In this paper, we study the behaviour of the triplet loss and show that it can be exploited to limit the biases created and perpetuated by machine learning models. Our fair classifier uses the collapse of the triplet loss when its margin is greater than the maximum distance between two points in the latent space, in the case of stochastic triplet selection.",
+    "link": "http://arxiv.org/abs/2306.04400",
+    "context": "Title: A Fair Classifier Embracing Triplet Collapse. (arXiv:2306.04400v1 [cs.LG])\nAbstract: In this paper, we study the behaviour of the triplet loss and show that it can be exploited to limit the biases created and perpetuated by machine learning models. Our fair classifier uses the collapse of the triplet loss when its margin is greater than the maximum distance between two points in the latent space, in the case of stochastic triplet selection.",
+    "path": "papers/23/06/2306.04400.json",
+    "total_tokens": 559,
+    "translated_title": "一种采用三元组折叠的公平分类器",
+    "translated_abstract": "本文研究了三元组损失的行为，并展示了它如何被利用来限制机器学习模型所产生的偏见。我们的公平分类器在使用随机三元组选择时，在三元组损失的边际大于潜在空间中任意两点之间的最大距离时采用三元组折叠方法。",
+    "tldr": "本文提出一种公平分类器，利用三元组损失的边际限制机器学习模型所造成的偏见，并采用三元组折叠方法。",
+    "en_tdlr": "This paper proposes a fair classifier that limits biases created by machine learning models by exploiting triplet loss, relying on triplet collapse when its margin is greater than the maximum distance between two points in the latent space, in the case of stochastic triplet selection."
+}

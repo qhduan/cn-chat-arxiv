@@ -1,0 +1,12 @@
+{
+    "title": "Kernel Quadrature with Randomly Pivoted Cholesky. (arXiv:2306.03955v1 [math.NA])",
+    "abstract": "This paper presents new quadrature rules for functions in a reproducing kernel Hilbert space using nodes drawn by a sampling algorithm known as randomly pivoted Cholesky. The resulting computational procedure compares favorably to previous kernel quadrature methods, which either achieve low accuracy or require solving a computationally challenging sampling problem. Theoretical and numerical results show that randomly pivoted Cholesky is fast and achieves comparable quadrature error rates to more computationally expensive quadrature schemes based on continuous volume sampling, thinning, and recombination. Randomly pivoted Cholesky is easily adapted to complicated geometries with arbitrary kernels, unlocking new potential for kernel quadrature.",
+    "link": "http://arxiv.org/abs/2306.03955",
+    "context": "Title: Kernel Quadrature with Randomly Pivoted Cholesky. (arXiv:2306.03955v1 [math.NA])\nAbstract: This paper presents new quadrature rules for functions in a reproducing kernel Hilbert space using nodes drawn by a sampling algorithm known as randomly pivoted Cholesky. The resulting computational procedure compares favorably to previous kernel quadrature methods, which either achieve low accuracy or require solving a computationally challenging sampling problem. Theoretical and numerical results show that randomly pivoted Cholesky is fast and achieves comparable quadrature error rates to more computationally expensive quadrature schemes based on continuous volume sampling, thinning, and recombination. Randomly pivoted Cholesky is easily adapted to complicated geometries with arbitrary kernels, unlocking new potential for kernel quadrature.",
+    "path": "papers/23/06/2306.03955.json",
+    "total_tokens": 751,
+    "translated_title": "随机选择纯量分解的核求积方法",
+    "translated_abstract": "本文使用随机选择纯量分解的采样算法提出了一种新的重现核希尔伯特空间函数求积规则。所得的计算过程与既有的核求积方法相比，在精度和求解复杂度方面具有更好的性能。理论和实验结果表明，随机选择纯量分解的方法快速且具有可比的求积误差达到率，与基于连续体积采样、稀疏化和重组的更为昂贵的求积方案相匹配。随机选择纯量分解易于适应任意核的复杂几何结构，为核求积开辟了新的潜力。",
+    "tldr": "本文提出了一种新的使用随机选择纯量分解算法的核求积方法，可以在达到可比的求积误差达到率的同时显著降低计算复杂度，并可以应用于任意核的复杂几何结构。",
+    "en_tdlr": "This paper proposes a new kernel quadrature method using a sampling algorithm known as randomly pivoted Cholesky, which achieves comparable quadrature error rates to more computationally expensive methods, while significantly reducing computational complexity and can be applied to complicated geometries with arbitrary kernels."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Gradient boosting for convex cone predict and optimize problems. (arXiv:2204.06895v2 [cs.LG] UPDATED)",
+    "abstract": "Prediction models are typically optimized independently from decision optimization. A smart predict then optimize (SPO) framework optimizes prediction models to minimize downstream decision regret. In this paper we present dboost, the first general purpose implementation of smart gradient boosting for `predict, then optimize' problems. The framework supports convex quadratic cone programming and gradient boosting is performed by implicit differentiation of a custom fixed-point mapping. Experiments comparing with state-of-the-art SPO methods show that dboost can further reduce out-of-sample decision regret.",
+    "link": "http://arxiv.org/abs/2204.06895",
+    "context": "Title: Gradient boosting for convex cone predict and optimize problems. (arXiv:2204.06895v2 [cs.LG] UPDATED)\nAbstract: Prediction models are typically optimized independently from decision optimization. A smart predict then optimize (SPO) framework optimizes prediction models to minimize downstream decision regret. In this paper we present dboost, the first general purpose implementation of smart gradient boosting for `predict, then optimize' problems. The framework supports convex quadratic cone programming and gradient boosting is performed by implicit differentiation of a custom fixed-point mapping. Experiments comparing with state-of-the-art SPO methods show that dboost can further reduce out-of-sample decision regret.",
+    "path": "papers/22/04/2204.06895.json",
+    "total_tokens": 714,
+    "translated_title": "基于梯度提升的凸锥预测和优化问题",
+    "translated_abstract": "预测模型通常独立于决策优化进行优化。智能预测优化（SPO）框架优化预测模型以最小化下游决策遗憾。本文提出了dboost，针对“预测，然后优化”问题的第一个通用的智能梯度提升实现。该框架支持凸二次锥规划，通过自定义不动点映射的隐式微分来执行梯度提升。与最先进的SPO方法的实验比较表明，dboost可以进一步减少样本外决策遗憾。",
+    "tldr": "本文介绍了dboost，它是第一个为“预测，然后优化”问题设计的智能梯度提升实现。该框架支持凸二次锥规划，并通过自定义不动点映射的隐式微分来执行梯度提升，在实验中表现出色。",
+    "en_tdlr": "The paper presents dboost, the first general purpose implementation of smart gradient boosting for \"predict, then optimize\" problems, which supports convex quadratic cone programming and outperforms state-of-the-art methods in reducing out-of-sample decision regret."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Triggering Multi-Hop Reasoning for Question Answering in Language Models using Soft Prompts and Random Walks. (arXiv:2306.04009v1 [cs.CL])",
+    "abstract": "Despite readily memorizing world knowledge about entities, pre-trained language models (LMs) struggle to compose together two or more facts to perform multi-hop reasoning in question-answering tasks. In this work, we propose techniques that improve upon this limitation by relying on random walks over structured knowledge graphs. Specifically, we use soft prompts to guide LMs to chain together their encoded knowledge by learning to map multi-hop questions to random walk paths that lead to the answer. Applying our methods on two T5 LMs shows substantial improvements over standard tuning approaches in answering questions that require 2-hop reasoning.",
+    "link": "http://arxiv.org/abs/2306.04009",
+    "context": "Title: Triggering Multi-Hop Reasoning for Question Answering in Language Models using Soft Prompts and Random Walks. (arXiv:2306.04009v1 [cs.CL])\nAbstract: Despite readily memorizing world knowledge about entities, pre-trained language models (LMs) struggle to compose together two or more facts to perform multi-hop reasoning in question-answering tasks. In this work, we propose techniques that improve upon this limitation by relying on random walks over structured knowledge graphs. Specifically, we use soft prompts to guide LMs to chain together their encoded knowledge by learning to map multi-hop questions to random walk paths that lead to the answer. Applying our methods on two T5 LMs shows substantial improvements over standard tuning approaches in answering questions that require 2-hop reasoning.",
+    "path": "papers/23/06/2306.04009.json",
+    "total_tokens": 752,
+    "translated_title": "使用软提示和随机游走在语言模型中触发多跳推理进行问题回答",
+    "translated_abstract": "尽管可以轻松地记忆有关实体的世界知识，但预先训练的语言模型（LM）往往在组合两个或多个事实以执行多跳推理的问答任务方面存在困难。在本文中，我们提出了一些技术来改善这个限制，这些技术依靠结构化知识图上的随机游走。具体而言，我们使用软提示来引导LM，通过学习将多跳问题映射到通向答案的随机游走路径来链式编码它们的知识。将我们的方法应用于两个T5 LM上，在回答需要2跳推理的问题方面，表现出了比标准调整方法更大的改进。",
+    "tldr": "本研究提出了使用软提示和随机游走的方法，以便于预训练语言模型进行多跳推理的问答任务，取得了比标准调整方法更大的改进。",
+    "en_tdlr": "This paper proposes techniques to improve pre-trained language models' ability in performing multi-hop reasoning for question answering tasks through the use of soft prompts and random walks, achieving substantial improvements over standard tuning approaches for questions that require 2-hop reasoning."
+}

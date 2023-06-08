@@ -1,0 +1,12 @@
+{
+    "title": "Unified Model for Crystalline Material Generation. (arXiv:2306.04510v1 [cs.AI])",
+    "abstract": "One of the greatest challenges facing our society is the discovery of new innovative crystal materials with specific properties. Recently, the problem of generating crystal materials has received increasing attention, however, it remains unclear to what extent, or in what way, we can develop generative models that consider both the periodicity and equivalence geometric of crystal structures. To alleviate this issue, we propose two unified models that act at the same time on crystal lattice and atomic positions using periodic equivariant architectures. Our models are capable to learn any arbitrary crystal lattice deformation by lowering the total energy to reach thermodynamic stability. Code and data are available at https://github.com/aklipf/GemsNet.",
+    "link": "http://arxiv.org/abs/2306.04510",
+    "context": "Title: Unified Model for Crystalline Material Generation. (arXiv:2306.04510v1 [cs.AI])\nAbstract: One of the greatest challenges facing our society is the discovery of new innovative crystal materials with specific properties. Recently, the problem of generating crystal materials has received increasing attention, however, it remains unclear to what extent, or in what way, we can develop generative models that consider both the periodicity and equivalence geometric of crystal structures. To alleviate this issue, we propose two unified models that act at the same time on crystal lattice and atomic positions using periodic equivariant architectures. Our models are capable to learn any arbitrary crystal lattice deformation by lowering the total energy to reach thermodynamic stability. Code and data are available at https://github.com/aklipf/GemsNet.",
+    "path": "papers/23/06/2306.04510.json",
+    "total_tokens": 729,
+    "translated_title": "晶体材料生成的统一模型",
+    "translated_abstract": "发现具有特定属性的新型创新晶体材料是我们社会面临的最大挑战之一。最近，生成晶体材料的问题受到了越来越多的关注，但是，我们能否开发同时考虑晶体结构的周期性和等价几何的生成模型仍不清楚。为了解决这个问题，我们提出了两个统一模型，它们同时作用于晶体晶格和原子位置，使用周期等变体系结构。我们的模型能够通过降低总能量以达到热力学稳定性来学习任意晶体晶格变形。代码和数据可在https://github.com/aklipf/GemsNet上获得。",
+    "tldr": "该论文提出了两个统一模型，使用周期等变体系结构可以同时作用于晶体晶格和原子位置，通过降低总能量以达到热力学稳定性来学习任意晶体晶格变形。",
+    "en_tdlr": "This paper proposes two unified models that use periodic equivariant architectures to simultaneously act on crystal lattice and atomic positions, capable of learning arbitrary crystal lattice deformation by lowering the total energy to achieve thermodynamic stability."
+}

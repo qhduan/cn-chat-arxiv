@@ -1,0 +1,12 @@
+{
+    "title": "Bachelier's Market Model for ESG Asset Pricing. (arXiv:2306.04158v1 [q-fin.MF])",
+    "abstract": "Environmental, Social, and Governance (ESG) finance is a cornerstone of modern finance and investment, as it changes the classical return-risk view of investment by incorporating an additional dimension of investment performance: the ESG score of the investment. We define the ESG price process and integrate it into an extension of Bachelier's market model in both discrete and continuous time, enabling option pricing valuation.",
+    "link": "http://arxiv.org/abs/2306.04158",
+    "context": "Title: Bachelier's Market Model for ESG Asset Pricing. (arXiv:2306.04158v1 [q-fin.MF])\nAbstract: Environmental, Social, and Governance (ESG) finance is a cornerstone of modern finance and investment, as it changes the classical return-risk view of investment by incorporating an additional dimension of investment performance: the ESG score of the investment. We define the ESG price process and integrate it into an extension of Bachelier's market model in both discrete and continuous time, enabling option pricing valuation.",
+    "path": "papers/23/06/2306.04158.json",
+    "total_tokens": 596,
+    "translated_title": "巴舍利尔ESG资产定价市场模型",
+    "translated_abstract": "环境、社会和治理（ESG）金融是现代金融和投资的基石，通过将投资表现的另一维度——投资的ESG得分纳入经典的回报风险投资观念中，改变了投资的观念。我们定义了ESG价格过程，并将其集成到巴舍利尔市场模型的离散和连续时间的扩展中，实现了期权定价的估值。",
+    "tldr": "本论文的创新点在于提出了一种基于巴舍利尔市场模型的ESG资产定价模型，并且将其应用于期权定价估值中。",
+    "en_tdlr": "This paper proposes a Bachelier market model-based ESG asset pricing model, and applies it to option pricing valuation, which is an innovation compared to classical return-risk investment view by incorporating ESG score into investment performance."
+}

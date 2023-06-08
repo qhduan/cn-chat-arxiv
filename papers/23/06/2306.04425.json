@@ -1,0 +1,11 @@
+{
+    "title": "Towards High-Performance Exploratory Data Analysis (EDA) Via Stable Equilibrium Point. (arXiv:2306.04425v1 [cs.LG])",
+    "abstract": "Exploratory data analysis (EDA) is a vital procedure for data science projects. In this work, we introduce a stable equilibrium point (SEP) - based framework for improving the efficiency and solution quality of EDA. By exploiting the SEPs to be the representative points, our approach aims to generate high-quality clustering and data visualization for large-scale data sets. A very unique property of the proposed method is that the SEPs will directly encode the clustering properties of data sets. Compared with prior state-of-the-art clustering and data visualization methods, the proposed methods allow substantially improving computing efficiency and solution quality for large-scale data analysis tasks.",
+    "link": "http://arxiv.org/abs/2306.04425",
+    "context": "Title: Towards High-Performance Exploratory Data Analysis (EDA) Via Stable Equilibrium Point. (arXiv:2306.04425v1 [cs.LG])\nAbstract: Exploratory data analysis (EDA) is a vital procedure for data science projects. In this work, we introduce a stable equilibrium point (SEP) - based framework for improving the efficiency and solution quality of EDA. By exploiting the SEPs to be the representative points, our approach aims to generate high-quality clustering and data visualization for large-scale data sets. A very unique property of the proposed method is that the SEPs will directly encode the clustering properties of data sets. Compared with prior state-of-the-art clustering and data visualization methods, the proposed methods allow substantially improving computing efficiency and solution quality for large-scale data analysis tasks.",
+    "path": "papers/23/06/2306.04425.json",
+    "total_tokens": 768,
+    "translated_title": "利用稳定平衡点推进高性能探索性数据分析",
+    "translated_abstract": "探索性数据分析（EDA）是数据科学项目中的重要过程。在本文中，我们介绍了一种基于稳定平衡点（SEP）的框架，用于提高EDA的效率和解决方案质量。通过利用SEP作为代表点，我们的方法旨在为大规模数据集生成高质量的聚类和数据可视化。该方法的一个非常独特的属性是，SEP将直接编码数据集的聚类属性。与先前的最先进的聚类和数据可视化方法相比，所提出的方法允许在大规模数据分析任务中显着提高计算效率和解决方案质量。",
+    "tldr": "本文提出了一种基于稳定平衡点的框架，用于提高探索性数据分析的效率和解决方案质量，该方法能够为大规模数据集生成高质量的聚类和数据可视化。"
+}

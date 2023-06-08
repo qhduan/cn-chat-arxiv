@@ -1,0 +1,12 @@
+{
+    "title": "Counterfactual Identifiability of Bijective Causal Models. (arXiv:2302.02228v2 [stat.ML] UPDATED)",
+    "abstract": "We study counterfactual identifiability in causal models with bijective generation mechanisms (BGM), a class that generalizes several widely-used causal models in the literature. We establish their counterfactual identifiability for three common causal structures with unobserved confounding, and propose a practical learning method that casts learning a BGM as structured generative modeling. Learned BGMs enable efficient counterfactual estimation and can be obtained using a variety of deep conditional generative models. We evaluate our techniques in a visual task and demonstrate its application in a real-world video streaming simulation task.",
+    "link": "http://arxiv.org/abs/2302.02228",
+    "context": "Title: Counterfactual Identifiability of Bijective Causal Models. (arXiv:2302.02228v2 [stat.ML] UPDATED)\nAbstract: We study counterfactual identifiability in causal models with bijective generation mechanisms (BGM), a class that generalizes several widely-used causal models in the literature. We establish their counterfactual identifiability for three common causal structures with unobserved confounding, and propose a practical learning method that casts learning a BGM as structured generative modeling. Learned BGMs enable efficient counterfactual estimation and can be obtained using a variety of deep conditional generative models. We evaluate our techniques in a visual task and demonstrate its application in a real-world video streaming simulation task.",
+    "path": "papers/23/02/2302.02228.json",
+    "total_tokens": 736,
+    "translated_title": "逆向可辨识双射因果模型",
+    "translated_abstract": "本文研究具有双射生成机制（BGM）的因果模型中的逆向可辨识性，其中BGM是一种广泛使用于文献中的因果模型类。我们确立了三种常见的具有未观察到混杂变量因果结构的逆向可辨识性，并提出了一种实用的学习方法，将学习BGM转化为结构化生成建模。学习到的BGM可以实现有效的逆向预测估计，并可以使用各种深度条件生成模型获得。我们在一个视觉任务中评估了我们的技术，并展示了它在现实世界视频流媒体仿真任务中的应用。",
+    "tldr": "本文研究逆向可辨识双射因果模型，确立了其在三种常见因果结构下的逆向可辨识性，提出了一种实用的学习方法，可以用于有效的逆向预测估计。",
+    "en_tdlr": "This paper studies the counterfactual identifiability of bijective causal models, establishes their identifiability in three common causal structures, proposes a practical learning method, and demonstrates its application in visual tasks and real-world video streaming simulation."
+}

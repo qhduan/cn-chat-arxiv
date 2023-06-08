@@ -1,0 +1,12 @@
+{
+    "title": "An Analysis of Reader Engagement in Literary Fiction through Eye Tracking and Linguistic Features. (arXiv:2306.04043v1 [cs.CL])",
+    "abstract": "Capturing readers' engagement in fiction is a challenging but important aspect of narrative understanding. In this study, we collected 23 readers' reactions to 2 short stories through eye tracking, sentence-level annotations, and an overall engagement scale survey. We analyzed the significance of various qualities of the text in predicting how engaging a reader is likely to find it. As enjoyment of fiction is highly contextual, we also investigated individual differences in our data. Furthering our understanding of what captivates readers in fiction will help better inform models used in creative narrative generation and collaborative writing tools.",
+    "link": "http://arxiv.org/abs/2306.04043",
+    "context": "Title: An Analysis of Reader Engagement in Literary Fiction through Eye Tracking and Linguistic Features. (arXiv:2306.04043v1 [cs.CL])\nAbstract: Capturing readers' engagement in fiction is a challenging but important aspect of narrative understanding. In this study, we collected 23 readers' reactions to 2 short stories through eye tracking, sentence-level annotations, and an overall engagement scale survey. We analyzed the significance of various qualities of the text in predicting how engaging a reader is likely to find it. As enjoyment of fiction is highly contextual, we also investigated individual differences in our data. Furthering our understanding of what captivates readers in fiction will help better inform models used in creative narrative generation and collaborative writing tools.",
+    "path": "papers/23/06/2306.04043.json",
+    "total_tokens": 756,
+    "translated_title": "通过眼动追踪和语言特征分析文学小说中的读者参与度",
+    "translated_abstract": "捕捉读者在小说中的参与度是叙事理解的一个具有挑战性但又极为重要的方面。本研究通过眼动追踪、句子级别的标注和总体参与度调查，收集了23个读者对两篇短篇小说的反应，并分析了文本各种特性在预测读者参与度方面的显著性。由于小说的乐趣高度依赖于语境，我们还调查了数据中的个体差异。深入了解小说中引人入胜的因素将有助于更好地指导用于创意叙述生成和协作写作工具的模型。",
+    "tldr": "通过眼动追踪、句子级特征标注和总体参与度调查，在分析23个读者对两篇短篇小说的反应的基础上，本研究发现了在预测读者参与度方面的一些关键特性。",
+    "en_tdlr": "This study utilizes eye tracking, sentence-level annotations, and an overall engagement scale survey to analyze 23 readers' reactions to 2 short stories, identifying key textual features that predict reader engagement and individual differences in enjoyment of fiction. Results inform models for creative narrative generation and collaborative writing tools."
+}

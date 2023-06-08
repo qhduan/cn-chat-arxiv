@@ -1,0 +1,12 @@
+{
+    "title": "Convergence of SARSA with linear function approximation: The random horizon case. (arXiv:2306.04548v1 [cs.LG])",
+    "abstract": "The reinforcement learning algorithm SARSA combined with linear function approximation has been shown to converge for infinite horizon discounted Markov decision problems (MDPs). In this paper, we investigate the convergence of the algorithm for random horizon MDPs, which has not previously been shown. We show, similar to earlier results for infinite horizon discounted MDPs, that if the behaviour policy is $\\varepsilon$-soft and Lipschitz continuous with respect to the weight vector of the linear function approximation, with small enough Lipschitz constant, then the algorithm will converge with probability one when considering a random horizon MDP.",
+    "link": "http://arxiv.org/abs/2306.04548",
+    "context": "Title: Convergence of SARSA with linear function approximation: The random horizon case. (arXiv:2306.04548v1 [cs.LG])\nAbstract: The reinforcement learning algorithm SARSA combined with linear function approximation has been shown to converge for infinite horizon discounted Markov decision problems (MDPs). In this paper, we investigate the convergence of the algorithm for random horizon MDPs, which has not previously been shown. We show, similar to earlier results for infinite horizon discounted MDPs, that if the behaviour policy is $\\varepsilon$-soft and Lipschitz continuous with respect to the weight vector of the linear function approximation, with small enough Lipschitz constant, then the algorithm will converge with probability one when considering a random horizon MDP.",
+    "path": "papers/23/06/2306.04548.json",
+    "total_tokens": 759,
+    "translated_title": "线性函数逼近下SARSA算法的收敛性: 随机时限情况",
+    "translated_abstract": "在无限时间折扣马尔可夫决策问题(MDPs)中，SARSA强化学习算法结合线性函数逼近已被证明收敛。在本文中，我们研究了该算法在随机时限MDPs中的收敛性，这之前尚未得到证明。我们证明了，类似于无限时间折扣MDPs的早期结果，如果行为策略关于线性函数逼近的权重向量是$\\varepsilon$-soft且与Lipschitz常数相关，并且Lipschitz常数足够小，则该算法将在考虑随机时限MDP时以概率一收敛。",
+    "tldr": "本文研究了SARSA算法在随机时限MDPs中的收敛性，证明了当行为策略与线性函数逼近的权重向量相关，Lipschitz常数足够小时，算法以概率一收敛。",
+    "en_tdlr": "This paper investigates the convergence of the SARSA algorithm with linear function approximation in random horizon MDPs, and proves that if the behavior policy is $\\varepsilon$-soft and Lipschitz continuous with respect to the weight vector of the linear function approximation, with small enough Lipschitz constant, then the algorithm will converge with probability one."
+}

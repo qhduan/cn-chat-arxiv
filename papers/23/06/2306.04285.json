@@ -1,0 +1,12 @@
+{
+    "title": "Dynamic Programming on a Quantum Annealer: Solving the RBC Model. (arXiv:2306.04285v1 [econ.GN])",
+    "abstract": "We introduce a novel approach to solving dynamic programming problems, such as those in many economic models, on a quantum annealer, a specialized device that performs combinatorial optimization. Quantum annealers attempt to solve an NP-hard problem by starting in a quantum superposition of all states and generating candidate global solutions in milliseconds, irrespective of problem size. Using existing quantum hardware, we achieve an order-of-magnitude speed-up in solving the real business cycle model over benchmarks in the literature. We also provide a detailed introduction to quantum annealing and discuss its potential use for more challenging economic problems.",
+    "link": "http://arxiv.org/abs/2306.04285",
+    "context": "Title: Dynamic Programming on a Quantum Annealer: Solving the RBC Model. (arXiv:2306.04285v1 [econ.GN])\nAbstract: We introduce a novel approach to solving dynamic programming problems, such as those in many economic models, on a quantum annealer, a specialized device that performs combinatorial optimization. Quantum annealers attempt to solve an NP-hard problem by starting in a quantum superposition of all states and generating candidate global solutions in milliseconds, irrespective of problem size. Using existing quantum hardware, we achieve an order-of-magnitude speed-up in solving the real business cycle model over benchmarks in the literature. We also provide a detailed introduction to quantum annealing and discuss its potential use for more challenging economic problems.",
+    "path": "papers/23/06/2306.04285.json",
+    "total_tokens": 716,
+    "translated_title": "量子退火中的动态规划：解决RBC模型",
+    "translated_abstract": "我们介绍了一种新方法，使用量子退火器解决动态规划问题，例如许多经济模型中的问题。量子退火器是一种专门用于组合优化的设备，它尝试通过在所有状态的量子叠加态中开始，以毫秒为单位生成候选的全局解，而不考虑问题规模。使用现有的量子硬件，我们在解决实际商业周期模型方面取得了数量级的加速，优于文献中的基准。我们还详细介绍了量子退火，并讨论了它在解决更具挑战性的经济问题方面的潜在用途。",
+    "tldr": "这篇论文介绍了在量子退火器上使用动态规划解决经济模型的方法，并取得了数量级的加速，这对于解决更具挑战性的经济问题具有潜在价值。",
+    "en_tdlr": "This paper presents a novel approach to solve economic models using dynamic programming on a quantum annealer, achieving an order-of-magnitude speedup compared to benchmarks in the literature, and discusses its potential use in solving more challenging economic problems."
+}

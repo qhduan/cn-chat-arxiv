@@ -1,0 +1,12 @@
+{
+    "title": "Trade-off between manipulability and dictatorial power: a proof of the Gibbard-Satterthwaite Theorem. (arXiv:2306.04587v1 [econ.TH])",
+    "abstract": "By endowing the class of tops-only and efficient social choice rules with a dual order structure that exploits the trade-off between different degrees of manipulability and dictatorial power rules allow agents to have, we provide a proof of the Gibbard-Satterthwaite Theorem.",
+    "link": "http://arxiv.org/abs/2306.04587",
+    "context": "Title: Trade-off between manipulability and dictatorial power: a proof of the Gibbard-Satterthwaite Theorem. (arXiv:2306.04587v1 [econ.TH])\nAbstract: By endowing the class of tops-only and efficient social choice rules with a dual order structure that exploits the trade-off between different degrees of manipulability and dictatorial power rules allow agents to have, we provide a proof of the Gibbard-Satterthwaite Theorem.",
+    "path": "papers/23/06/2306.04587.json",
+    "total_tokens": 530,
+    "translated_title": "可操纵性和独裁权之间的权衡：Gibbard-Satterthwaite定理的证明",
+    "translated_abstract": "通过赋予仅顶部和高效的社会选择准则一种双重序结构，利用规则允许代理人具有不同程度的可操纵性和独裁权之间的权衡，我们提供了Gibbard-Satterthwaite定理的证明。",
+    "tldr": "通过利用代理人在可操纵性和独裁权之间的权衡，我们证明了Gibbard-Satterthwaite定理。",
+    "en_tdlr": "We provide a proof of the Gibbard-Satterthwaite Theorem by exploiting the trade-off between different degrees of manipulability and dictatorial power rules agents have."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Alexa Arena: A User-Centric Interactive Platform for Embodied AI. (arXiv:2303.01586v2 [cs.HC] UPDATED)",
+    "abstract": "We introduce Alexa Arena, a user-centric simulation platform for Embodied AI (EAI) research. Alexa Arena provides a variety of multi-room layouts and interactable objects, for the creation of human-robot interaction (HRI) missions. With user-friendly graphics and control mechanisms, Alexa Arena supports the development of gamified robotic tasks readily accessible to general human users, thus opening a new venue for high-efficiency HRI data collection and EAI system evaluation. Along with the platform, we introduce a dialog-enabled instruction-following benchmark and provide baseline results for it. We make Alexa Arena publicly available to facilitate research in building generalizable and assistive embodied agents.",
+    "link": "http://arxiv.org/abs/2303.01586",
+    "context": "Title: Alexa Arena: A User-Centric Interactive Platform for Embodied AI. (arXiv:2303.01586v2 [cs.HC] UPDATED)\nAbstract: We introduce Alexa Arena, a user-centric simulation platform for Embodied AI (EAI) research. Alexa Arena provides a variety of multi-room layouts and interactable objects, for the creation of human-robot interaction (HRI) missions. With user-friendly graphics and control mechanisms, Alexa Arena supports the development of gamified robotic tasks readily accessible to general human users, thus opening a new venue for high-efficiency HRI data collection and EAI system evaluation. Along with the platform, we introduce a dialog-enabled instruction-following benchmark and provide baseline results for it. We make Alexa Arena publicly available to facilitate research in building generalizable and assistive embodied agents.",
+    "path": "papers/23/03/2303.01586.json",
+    "total_tokens": 762,
+    "translated_title": "Alexa Arena: 一个以用户为中心的交互式平台，用于研究实体人工智能",
+    "translated_abstract": "我们介绍了 Alexa Arena，这是一个用户中心的模拟平台，用于研究实体人工智能。Alexa Arena 提供了各种多房间布局和可交互对象，以创建人机交互任务。Alexa Arena 拥有用户友好的图形和控制机制，支持开发适用于普通人类用户的游戏化机器人任务，从而为高效的人机交互数据收集和 EAI 系统评估开辟了新的途径。同时，我们介绍了一个对话启用的指令跟随基准，并为其提供了基线结果。我们向公众提供 Alexa Arena，以促进构建具有普适性和辅助性的实体代理的研究。",
+    "tldr": "Alexa Arena是一个用户中心的模拟平台，具有多个房间布局和可交互对象，用于创建人机交互任务，为实体人工智能研究提供了高效的数据收集和系统评估。",
+    "en_tdlr": "Alexa Arena is a user-centric simulation platform for embodied AI, providing multi-room layouts and interactable objects for creating human-robot interaction tasks, offering an efficient way for data collection and system evaluation for embodied AI research."
+}

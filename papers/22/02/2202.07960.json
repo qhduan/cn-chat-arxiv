@@ -1,0 +1,12 @@
+{
+    "title": "Temporal Difference Learning with Continuous Time and State in the Stochastic Setting. (arXiv:2202.07960v3 [cs.LG] UPDATED)",
+    "abstract": "We consider the problem of continuous-time policy evaluation. This consists in learning through observations the value function associated with an uncontrolled continuous-time stochastic dynamic and a reward function. We propose two original variants of the well-known TD(0) method using vanishing time steps. One is model-free and the other is model-based. For both methods, we prove theoretical convergence rates that we subsequently verify through numerical simulations. Alternatively, those methods can be interpreted as novel reinforcement learning approaches for approximating solutions of linear PDEs (partial differential equations) or linear BSDEs (backward stochastic differential equations).",
+    "link": "http://arxiv.org/abs/2202.07960",
+    "context": "Title: Temporal Difference Learning with Continuous Time and State in the Stochastic Setting. (arXiv:2202.07960v3 [cs.LG] UPDATED)\nAbstract: We consider the problem of continuous-time policy evaluation. This consists in learning through observations the value function associated with an uncontrolled continuous-time stochastic dynamic and a reward function. We propose two original variants of the well-known TD(0) method using vanishing time steps. One is model-free and the other is model-based. For both methods, we prove theoretical convergence rates that we subsequently verify through numerical simulations. Alternatively, those methods can be interpreted as novel reinforcement learning approaches for approximating solutions of linear PDEs (partial differential equations) or linear BSDEs (backward stochastic differential equations).",
+    "path": "papers/22/02/2202.07960.json",
+    "total_tokens": 736,
+    "translated_title": "连续时间和状态下的时间差分学习（随机场景中）",
+    "translated_abstract": "我们考虑连续时间策略评估的问题。这意味着通过观察来学习与未受控制的连续时间随机动态和奖励函数相关联的价值函数。我们提出了两种使用逐渐减少的时间步长的著名TD（0）方法的原始变体。一种是无模型的，另一种是基于模型的。对于两种方法，我们证明了理论收敛速度，并通过数值模拟进行了验证。或者，这些方法可以解释为近似解决线性PDE（偏微分方程）或线性BSDE（反向随机微分方程）的新型强化学习方法。",
+    "tldr": "该论文提出了两种连续时间策略评估问题的时间差分学习方法，并证明了它们的理论收敛速度。同时，这些方法还可以解释为解决线性PDE或线性BSDE的新型强化学习方法。",
+    "en_tdlr": "This paper proposes two temporal difference learning methods for the continuous-time policy evaluation problem and proves their theoretical convergence rates. Moreover, the methods can also be interpreted as new reinforcement learning approaches for solving linear PDEs or linear BSDEs."
+}

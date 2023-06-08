@@ -1,0 +1,12 @@
+{
+    "title": "CaptAinGlove: Capacitive and Inertial Fusion-Based Glove for Real-Time on Edge Hand Gesture Recognition for Drone Control. (arXiv:2306.04319v1 [cs.LG])",
+    "abstract": "We present CaptAinGlove, a textile-based, low-power (1.15Watts), privacy-conscious, real-time on-the-edge (RTE) glove-based solution with a tiny memory footprint (2MB), designed to recognize hand gestures used for drone control. We employ lightweight convolutional neural networks as the backbone models and a hierarchical multimodal fusion to reduce power consumption and improve accuracy. The system yields an F1-score of 80% for the offline evaluation of nine classes; eight hand gesture commands and null activity. For the RTE, we obtained an F1-score of 67% (one user).",
+    "link": "http://arxiv.org/abs/2306.04319",
+    "context": "Title: CaptAinGlove: Capacitive and Inertial Fusion-Based Glove for Real-Time on Edge Hand Gesture Recognition for Drone Control. (arXiv:2306.04319v1 [cs.LG])\nAbstract: We present CaptAinGlove, a textile-based, low-power (1.15Watts), privacy-conscious, real-time on-the-edge (RTE) glove-based solution with a tiny memory footprint (2MB), designed to recognize hand gestures used for drone control. We employ lightweight convolutional neural networks as the backbone models and a hierarchical multimodal fusion to reduce power consumption and improve accuracy. The system yields an F1-score of 80% for the offline evaluation of nine classes; eight hand gesture commands and null activity. For the RTE, we obtained an F1-score of 67% (one user).",
+    "path": "papers/23/06/2306.04319.json",
+    "total_tokens": 775,
+    "translated_title": "CaptAinGlove：基于电容和惯性融合的手套，用于实时边缘手势识别，用于无人机控制。",
+    "translated_abstract": "我们提出了 CaptAinGlove，这是一种基于纺织品、低功率（1.15瓦）、注重隐私、实时边缘（RTE）手套解决方案，拥有很小的内存占用（2MB），旨在识别用于无人机控制的手势。我们采用轻量级卷积神经网络作为主干模型，并使用分层多模态融合减少功耗并提高准确性。该系统针对9个类别进行离线评估，包括八个手势命令和空闲状态，其F1分数为80%。对于RTE，我们获得了67％的F1分数（一个用户）。",
+    "tldr": "CaptAinGlove是一款基于纺织品的手套，用于识别用于无人机控制的手势，具有低功耗、隐私保护和较高的准确性。",
+    "en_tdlr": "CaptAinGlove is a textile-based glove used to recognize hand gestures for drone control, with low power consumption, privacy protection, and high accuracy. It employs lightweight convolutional neural networks and hierarchical multimodal fusion to improve accuracy and reduce power consumption."
+}

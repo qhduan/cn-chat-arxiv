@@ -1,0 +1,12 @@
+{
+    "title": "An Overview of Challenges in Egocentric Text-Video Retrieval. (arXiv:2306.04345v1 [cs.CV])",
+    "abstract": "Text-video retrieval contains various challenges, including biases coming from diverse sources. We highlight some of them supported by illustrations to open a discussion. Besides, we address one of the biases, frame length bias, with a simple method which brings a very incremental but promising increase. We conclude with future directions.",
+    "link": "http://arxiv.org/abs/2306.04345",
+    "context": "Title: An Overview of Challenges in Egocentric Text-Video Retrieval. (arXiv:2306.04345v1 [cs.CV])\nAbstract: Text-video retrieval contains various challenges, including biases coming from diverse sources. We highlight some of them supported by illustrations to open a discussion. Besides, we address one of the biases, frame length bias, with a simple method which brings a very incremental but promising increase. We conclude with future directions.",
+    "path": "papers/23/06/2306.04345.json",
+    "total_tokens": 547,
+    "translated_title": "\"Egocentric Text-Video Retrieval的挑战综述\"",
+    "translated_abstract": "\"文本-视频检索面临着来自多个方面的偏差等挑战，本文针对一些偏差进行了探讨和阐述，并提出了一种简单的帧长偏差纠正方法，该方法取得了显著的增长，但仍有改进空间。最后，我们总结了未来的发展方向。\"",
+    "tldr": "本文综述了Egocentric Text-Video Retrieval领域中的挑战，针对\"frame length bias\"提出了有效的纠正方法。",
+    "en_tdlr": "This paper provides an overview of challenges in Egocentric Text-Video Retrieval, highlights biases from diverse sources, and proposes a simple method to address the frame length bias, which shows a promising increase with room for improvement. Future directions are also discussed."
+}

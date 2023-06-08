@@ -1,0 +1,12 @@
+{
+    "title": "Partial Inference in Structured Prediction. (arXiv:2306.03949v1 [cs.LG])",
+    "abstract": "In this paper, we examine the problem of partial inference in the context of structured prediction. Using a generative model approach, we consider the task of maximizing a score function with unary and pairwise potentials in the space of labels on graphs. Employing a two-stage convex optimization algorithm for label recovery, we analyze the conditions under which a majority of the labels can be recovered. We introduce a novel perspective on the Karush-Kuhn-Tucker (KKT) conditions and primal and dual construction, and provide statistical and topological requirements for partial recovery with provable guarantees.",
+    "link": "http://arxiv.org/abs/2306.03949",
+    "context": "Title: Partial Inference in Structured Prediction. (arXiv:2306.03949v1 [cs.LG])\nAbstract: In this paper, we examine the problem of partial inference in the context of structured prediction. Using a generative model approach, we consider the task of maximizing a score function with unary and pairwise potentials in the space of labels on graphs. Employing a two-stage convex optimization algorithm for label recovery, we analyze the conditions under which a majority of the labels can be recovered. We introduce a novel perspective on the Karush-Kuhn-Tucker (KKT) conditions and primal and dual construction, and provide statistical and topological requirements for partial recovery with provable guarantees.",
+    "path": "papers/23/06/2306.03949.json",
+    "total_tokens": 620,
+    "translated_title": "结构化预测中的部分推断",
+    "translated_abstract": "本文探讨了在结构化预测中部分推断的问题。使用生成模型方法，研究在标签图上最大化一种包含一元和二元因子的评分函数的任务。通过采用两阶段凸优化算法进行标签恢复，分析了大多数标签可恢复的条件。提出了一种新的Karush-Kuhn-Tucker（KKT）条件和原始对偶构造的观点，并提供了具有可证明保证的部分恢复的统计和拓扑要求。",
+    "tldr": "本文研究了结构化预测中的问题，通过生成模型和凸优化算法，提出了可证明保证的部分标签恢复方法。",
+    "en_tdlr": "This paper explores the problem of partial inference in structured prediction and proposes a provably guaranteed method for partially recovering labels using a generative model approach and convex optimization algorithm."
+}

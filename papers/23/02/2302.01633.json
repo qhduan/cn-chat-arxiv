@@ -1,0 +1,12 @@
+{
+    "title": "Convergence Analysis of Sequencial Split Learning on Heterogeneous Data. (arXiv:2302.01633v2 [cs.LG] UPDATED)",
+    "abstract": "Federated Learning (FL) and Split Learning (SL) are two popular paradigms of distributed machine learning. By offloading the computation-intensive portions to the server, SL is promising for deep model training on resource-constrained devices, yet still lacking of rigorous convergence analysis. In this paper, we derive the convergence guarantees of Sequential SL (SSL, the vanilla case of SL that conducts the model training in sequence) for strongly/general/non-convex objectives on heterogeneous data. Notably, the derived guarantees suggest that SSL is better than Federated Averaging (FedAvg, the most popular algorithm in FL) on heterogeneous data. We validate the counterintuitive analysis result empirically on extremely heterogeneous data.",
+    "link": "http://arxiv.org/abs/2302.01633",
+    "context": "Title: Convergence Analysis of Sequencial Split Learning on Heterogeneous Data. (arXiv:2302.01633v2 [cs.LG] UPDATED)\nAbstract: Federated Learning (FL) and Split Learning (SL) are two popular paradigms of distributed machine learning. By offloading the computation-intensive portions to the server, SL is promising for deep model training on resource-constrained devices, yet still lacking of rigorous convergence analysis. In this paper, we derive the convergence guarantees of Sequential SL (SSL, the vanilla case of SL that conducts the model training in sequence) for strongly/general/non-convex objectives on heterogeneous data. Notably, the derived guarantees suggest that SSL is better than Federated Averaging (FedAvg, the most popular algorithm in FL) on heterogeneous data. We validate the counterintuitive analysis result empirically on extremely heterogeneous data.",
+    "path": "papers/23/02/2302.01633.json",
+    "total_tokens": 743,
+    "translated_title": "异构数据上顺序分割学习的收敛性分析",
+    "translated_abstract": "联邦学习（FL）和分割学习（SL）是分布式机器学习的两种流行范例。通过将计算密集部分卸载到服务器，SL对于在资源受限设备上进行深层模型训练非常有前途，但仍缺乏严格的收敛性分析。在本文中，我们推导出了顺序SL（SSL，进行顺序模型训练的SL基本情形）在异构数据上对于强化/一般/非凸目标的收敛保证。值得注意的是，所得到的保证表明，在异构数据上，SSL比联邦平均（FedAvg，FL中最流行的算法）更好。我们在极端异构数据上通过实验证实了这个反直觉的分析结果。",
+    "tldr": "本文推导出了顺序分割学习在异构数据上收敛的保证，并且证明了它在异构数据上优于联邦平均算法。",
+    "en_tdlr": "This paper derives the convergence guarantees of Sequential Split Learning on heterogeneous data and proves that it outperforms FedAvg on such data, which is validated empirically."
+}

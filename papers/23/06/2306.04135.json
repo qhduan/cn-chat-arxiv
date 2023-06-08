@@ -1,0 +1,12 @@
+{
+    "title": "Semiparametric Discrete Choice Models for Bundles. (arXiv:2306.04135v1 [econ.EM])",
+    "abstract": "We propose methods of estimation and inference for use in semiparametric discrete choice models for bundles in both cross-sectional and panel data settings. Our matching-based identification approach permits certain forms of heteroskedasticity and arbitrary correlation in the disturbances across choices. For the cross-sectional model, we propose a kernel-weighted rank procedure and show the validity of the nonparametric bootstrap for the inference. For the panel data model, we propose localized maximum score estimators and show that the numerical bootstrap is a valid inference method. Monte Carlo experiments demonstrate that our proposed estimation and inference procedures perform adequately in finite samples.",
+    "link": "http://arxiv.org/abs/2306.04135",
+    "context": "Title: Semiparametric Discrete Choice Models for Bundles. (arXiv:2306.04135v1 [econ.EM])\nAbstract: We propose methods of estimation and inference for use in semiparametric discrete choice models for bundles in both cross-sectional and panel data settings. Our matching-based identification approach permits certain forms of heteroskedasticity and arbitrary correlation in the disturbances across choices. For the cross-sectional model, we propose a kernel-weighted rank procedure and show the validity of the nonparametric bootstrap for the inference. For the panel data model, we propose localized maximum score estimators and show that the numerical bootstrap is a valid inference method. Monte Carlo experiments demonstrate that our proposed estimation and inference procedures perform adequately in finite samples.",
+    "path": "papers/23/06/2306.04135.json",
+    "total_tokens": 737,
+    "translated_title": "半参数离散选择模型在绑定中的应用研究",
+    "translated_abstract": "我们提出了估计和推断方法，用于进行半参数离散选择模型在交叉和面板数据设置中对绑定的研究。我们的匹配识别方法允许在选择之间的干扰中具有某些形式的异方差性和任意相关性。对于交叉模型，我们提出了一种核加权等级程序，并展示了非参数bootstrap在推断中的有效性。对于面板数据模型，我们提出了局部最大分数估计量，并表明数值bootstrap是一种有效的推断方法。蒙特卡罗实验表明，我们提出的估计和推断程序在有限样本中表现良好。",
+    "tldr": "该论文提出了在半参数离散选择模型中应用匹配识别方法来研究绑定，其可以处理选择之间的干扰中具有异方差性和任意相关性。该文提出了两种模型：交叉和面板数据模型。",
+    "en_tdlr": "This paper proposes using a matching identification approach in semiparametric discrete choice models for studying bundles, which can handle heteroskedasticity and arbitrary correlation in disturbances across choices. Two models are proposed: cross-sectional and panel data model."
+}

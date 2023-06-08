@@ -1,0 +1,12 @@
+{
+    "title": "GCT-TTE: Graph Convolutional Transformer for Travel Time Estimation. (arXiv:2306.04324v1 [cs.AI])",
+    "abstract": "This paper introduces a new transformer-based model for the problem of travel time estimation. The key feature of the proposed GCT-TTE architecture is the utilization of different data modalities capturing different properties of an input path. Along with the extensive study regarding the model configuration, we implemented and evaluated a sufficient number of actual baselines for path-aware and path-blind settings. The conducted computational experiments have confirmed the viability of our pipeline, which outperformed state-of-the-art models on both considered datasets. Additionally, GCT-TTE was deployed as a web service accessible for further experiments with user-defined routes.",
+    "link": "http://arxiv.org/abs/2306.04324",
+    "context": "Title: GCT-TTE: Graph Convolutional Transformer for Travel Time Estimation. (arXiv:2306.04324v1 [cs.AI])\nAbstract: This paper introduces a new transformer-based model for the problem of travel time estimation. The key feature of the proposed GCT-TTE architecture is the utilization of different data modalities capturing different properties of an input path. Along with the extensive study regarding the model configuration, we implemented and evaluated a sufficient number of actual baselines for path-aware and path-blind settings. The conducted computational experiments have confirmed the viability of our pipeline, which outperformed state-of-the-art models on both considered datasets. Additionally, GCT-TTE was deployed as a web service accessible for further experiments with user-defined routes.",
+    "path": "papers/23/06/2306.04324.json",
+    "total_tokens": 722,
+    "translated_title": "GCT-TTE: 基于图卷积变换器的旅行时间估计模型",
+    "translated_abstract": "本文介绍了一种新的基于变换器的模型，用于解决旅行时间估计问题。所提出的GCT-TTE架构的关键特征是利用捕捉输入路径不同属性的不同数据模态。除了涉及模型配置的广泛研究外，我们还实现并评估了足够数量的实际基线，用于路径感知和路径盲设置。所进行的计算实验证实了我们的流程的可行性，该流程在两个考虑的数据集上优于现有技术模型。此外，GCT-TTE已部署为Web服务，可用于进一步实验与用户定义路线。",
+    "tldr": "本文提出了一种基于变换器和图卷积的旅行时间估计模型，通过利用不同数据模态提取输入路径的不同属性来提高估计精度，并在两个数据集上超过了现有技术模型。",
+    "en_tdlr": "This paper proposes a transformer-based and graph convolutional model for travel time estimation, which leverages diverse data modalities to capture different features of an input path, and outperforms state-of-the-art models on two datasets."
+}

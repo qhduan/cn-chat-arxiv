@@ -1,0 +1,12 @@
+{
+    "title": "Transfer Learning of Transformer-based Speech Recognition Models from Czech to Slovak. (arXiv:2306.04399v1 [cs.CL])",
+    "abstract": "In this paper, we are comparing several methods of training the Slovak speech recognition models based on the Transformers architecture. Specifically, we are exploring the approach of transfer learning from the existing Czech pre-trained Wav2Vec 2.0 model into Slovak. We are demonstrating the benefits of the proposed approach on three Slovak datasets. Our Slovak models scored the best results when initializing the weights from the Czech model at the beginning of the pre-training phase. Our results show that the knowledge stored in the Cezch pre-trained model can be successfully reused to solve tasks in Slovak while outperforming even much larger public multilingual models.",
+    "link": "http://arxiv.org/abs/2306.04399",
+    "context": "Title: Transfer Learning of Transformer-based Speech Recognition Models from Czech to Slovak. (arXiv:2306.04399v1 [cs.CL])\nAbstract: In this paper, we are comparing several methods of training the Slovak speech recognition models based on the Transformers architecture. Specifically, we are exploring the approach of transfer learning from the existing Czech pre-trained Wav2Vec 2.0 model into Slovak. We are demonstrating the benefits of the proposed approach on three Slovak datasets. Our Slovak models scored the best results when initializing the weights from the Czech model at the beginning of the pre-training phase. Our results show that the knowledge stored in the Cezch pre-trained model can be successfully reused to solve tasks in Slovak while outperforming even much larger public multilingual models.",
+    "path": "papers/23/06/2306.04399.json",
+    "total_tokens": 788,
+    "translated_title": "从捷克语到斯洛伐克语的基于Transformer的语音识别模型的迁移学习",
+    "translated_abstract": "本文比较了基于Transformer结构的几种斯洛伐克语语音识别模型的训练方法，具体地，我们探索了从现有捷克语预训练的Wav2Vec 2.0模型向斯洛伐克语的迁移学习方法。我们在三种斯洛伐克数据集上演示了该方法的优势。我们的研究表明，在预训练阶段开始时，将捷克语模型的权重初始化到斯洛伐克模型中，可以得到最佳的结果。我们的结果表明，捷克语预训练模型中所存储的知识可以成功地应用于斯洛伐克语任务中，甚至胜过更大、公共的多语种模型。",
+    "tldr": "本研究探索了一种基于Transfer learning的方法，将捷克语预训练模型应用到斯洛伐克语的语音识别任务中，证明了通过该方法可以实现在斯洛伐克语任务中的较好表现。",
+    "en_tdlr": "This study explores a transfer learning method by applying a pre-trained Czech model to Slovak speech recognition, and demonstrates that this approach achieves better performance in Slovak tasks by reusing the knowledge stored in the Czech model compared to even larger multilingual models."
+}

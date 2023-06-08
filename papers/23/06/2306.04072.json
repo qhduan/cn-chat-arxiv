@@ -1,0 +1,12 @@
+{
+    "title": "Simple High Quality OoD Detection with L2 Normalization. (arXiv:2306.04072v1 [cs.LG])",
+    "abstract": "We propose a simple modification to standard ResNet architectures during training--L2 normalization over feature space--that produces results competitive with state-of-the-art Out-of-Distribution (OoD) detection performance. When L2 normalization is removed at test time, the L2 norm of feature vectors becomes a surprisingly good proxy for network uncertainty, whereas this behaviour is not nearly as effective when training without L2 normalization. Intuitively, familiar images result in large magnitude vectors, while unfamiliar images result in small magnitudes. Notably, this is achievable with almost no additional cost during training, and no cost at test time.",
+    "link": "http://arxiv.org/abs/2306.04072",
+    "context": "Title: Simple High Quality OoD Detection with L2 Normalization. (arXiv:2306.04072v1 [cs.LG])\nAbstract: We propose a simple modification to standard ResNet architectures during training--L2 normalization over feature space--that produces results competitive with state-of-the-art Out-of-Distribution (OoD) detection performance. When L2 normalization is removed at test time, the L2 norm of feature vectors becomes a surprisingly good proxy for network uncertainty, whereas this behaviour is not nearly as effective when training without L2 normalization. Intuitively, familiar images result in large magnitude vectors, while unfamiliar images result in small magnitudes. Notably, this is achievable with almost no additional cost during training, and no cost at test time.",
+    "path": "papers/23/06/2306.04072.json",
+    "total_tokens": 777,
+    "translated_title": "L2归一化技术在简单高质量OoD检测中的应用",
+    "translated_abstract": "我们在标准的ResNet模型训练中提出了一种简单的修改方法--在特征空间中进行L2归一化--能够产生与最先进的OoD检测性能相媲美的结果。当在测试时移除L2归一化时，特征向量的L2范数成为网络不确定性的一个惊人的替代者，而当没有L2归一化训练时，这种行为却没有那么有效。直观上，熟悉的图像会产生大的向量，而陌生的图像则会产生小的向量。值得注意的是，在训练时几乎没有额外的成本，在测试时也没有成本。",
+    "tldr": "本篇论文介绍了在ResNet模型训练中应用L2归一化技术，可以以几乎没有成本的方式实现与最先进的OoD检测性能相媲美的结果，测试时仅需移除L2归一化即可。",
+    "en_tdlr": "This paper proposes a simple modification to the standard ResNet models by applying L2 normalization over feature space during training, which can achieve competitive Out-of-Distribution (OoD) detection performance with almost no additional cost. The L2 norm of feature vectors serves as a good proxy for network uncertainty, making it possible to detect unfamiliar images during testing by just removing L2 normalization."
+}
