@@ -258,6 +258,26 @@ http://arxiv.org/abs/2303.02230
 &lt;/p&gt;
 &lt;p&gt;
 This paper provides a first milestone in measuring the floorspace of buildings (that is, building footprint and height) for 40 major Chinese cities. The intent is to maximize city coverage and, eventually provide longitudinal data. Doing so requires building on imagery that is of a medium-fine-grained granularity, as larger cross sections of cities and longer time series for them are only available in such format. We use a multi-task object segmenter approach to learn the building footprint and height in the same framework in parallel: (1) we determine the surface area is covered by any buildings (the square footage of occupied land); (2) we determine floorspace from multi-image representations of buildings from various angles to determine the height of buildings. We use Sentinel-1 and -2 satellite images as our main data source. The benefits of these data are their large cross-sectional and longitudinal scope plus their unrestricted accessibility. We provide a detailed description of 
+&lt;/p&gt;</description></item><item><title>&#26412;&#25991;&#24320;&#21457;&#20102;&#19968;&#31181;&#21322;&#21442;&#25968;&#26041;&#27861;&#65292;&#23558;&#23454;&#39564;&#30340;&#30701;&#26399;&#32467;&#26524;&#21644;&#35266;&#27979;&#20540;&#32467;&#21512;&#36215;&#26469;&#65292;&#20197;&#20272;&#35745;&#38271;&#26399;&#27835;&#30103;&#25928;&#26524;&#12290;&#36825;&#31181;&#26041;&#27861;&#21487;&#20197;&#24212;&#29992;&#20110;&#21508;&#31181;&#24773;&#20917;&#65292;&#24182;&#20855;&#26377;&#39640;&#25928;&#24615;&#21644;&#36739;&#22909;&#30340;&#20272;&#35745;&#25928;&#26524;&#12290;</title><link>http://arxiv.org/abs/2107.14405</link><description>&lt;p&gt;
+&#38271;&#26399;&#27835;&#30103;&#25928;&#26524;&#30340;&#21322;&#21442;&#25968;&#20272;&#35745;&#26041;&#27861;
+&lt;/p&gt;
+&lt;p&gt;
+Semiparametric Estimation of Long-Term Treatment Effects. (arXiv:2107.14405v4 [econ.EM] UPDATED)
+&lt;/p&gt;
+&lt;p&gt;
+http://arxiv.org/abs/2107.14405
+&lt;/p&gt;
+&lt;p&gt;
+&#26412;&#25991;&#24320;&#21457;&#20102;&#19968;&#31181;&#21322;&#21442;&#25968;&#26041;&#27861;&#65292;&#23558;&#23454;&#39564;&#30340;&#30701;&#26399;&#32467;&#26524;&#21644;&#35266;&#27979;&#20540;&#32467;&#21512;&#36215;&#26469;&#65292;&#20197;&#20272;&#35745;&#38271;&#26399;&#27835;&#30103;&#25928;&#26524;&#12290;&#36825;&#31181;&#26041;&#27861;&#21487;&#20197;&#24212;&#29992;&#20110;&#21508;&#31181;&#24773;&#20917;&#65292;&#24182;&#20855;&#26377;&#39640;&#25928;&#24615;&#21644;&#36739;&#22909;&#30340;&#20272;&#35745;&#25928;&#26524;&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+&#23454;&#39564;&#35780;&#20272;&#30340;&#38271;&#26399;&#32467;&#26524;&#24517;&#39035;&#22312;&#24456;&#38271;&#26102;&#38388;&#21518;&#25165;&#33021;&#35266;&#23519;&#21040;&#12290;&#25105;&#20204;&#24320;&#21457;&#20102;&#21322;&#21442;&#25968;&#26041;&#27861;&#65292;&#23558;&#23454;&#39564;&#30340;&#30701;&#26399;&#32467;&#26524;&#21644;&#30701;&#26399;&#21644;&#38271;&#26399;&#32467;&#26524;&#30340;&#35266;&#23519;&#27979;&#37327;&#20540;&#32467;&#21512;&#36215;&#26469;&#65292;&#20197;&#20272;&#35745;&#38271;&#26399;&#27835;&#30103;&#25928;&#26524;&#12290;&#25105;&#20204;&#23545;&#35813;&#38382;&#39064;&#30340;&#21508;&#31181;&#24773;&#20917;&#36827;&#34892;&#20102;&#21322;&#21442;&#25968;&#26377;&#25928;&#24615;&#30028;&#38480;&#30340;&#29305;&#24449;&#21270;&#12290;&#36825;&#20123;&#35745;&#31639;&#26377;&#21161;&#20110;&#26500;&#24314;&#22810;&#20010;&#20272;&#35745;&#22120;&#12290;&#25105;&#20204;&#20351;&#29992;&#26681;&#25454;&#25206;&#36139;&#35745;&#21010;&#38271;&#26399;&#24433;&#21709;&#35780;&#20272;&#25968;&#25454;&#26657;&#20934;&#30340;&#27169;&#25311;&#20998;&#26512;&#20102;&#36825;&#20123;&#20272;&#35745;&#37327;&#30340;&#26377;&#38480;&#26679;&#26412;&#24615;&#33021;&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+Long-term outcomes of experimental evaluations are necessarily observed after long delays. We develop semiparametric methods for combining the short-term outcomes of experiments with observational measurements of short-term and long-term outcomes, in order to estimate long-term treatment effects. We characterize semiparametric efficiency bounds for various instances of this problem. These calculations facilitate the construction of several estimators. We analyze the finite-sample performance of these estimators with a simulation calibrated to data from an evaluation of the long-term effects of a poverty alleviation program.
 &lt;/p&gt;</description></item><item><title>&#26412;&#25991;&#25552;&#20986;&#20102;&#19968;&#31181;&#22312;&#22823;&#35268;&#27169;&#31283;&#23450;&#21305;&#37197;&#20013;&#33719;&#24471;&#23454;&#38469;&#21305;&#37197;&#27010;&#29575;&#30340;&#38598;&#20013;&#19981;&#31561;&#24335;&#12290;&#36825;&#23558;&#25552;&#20379;&#22823;&#25968;&#37327;&#32423;&#23450;&#24459;&#21644;&#20854;&#20182;&#32479;&#35745;&#37327;&#65292;&#22914;&#29992;&#20110;&#22823;&#21305;&#37197;&#24066;&#22330;&#30340;&#23454;&#35777;&#20998;&#26512;&#30340;&#32479;&#35745;&#37327;&#12290;</title><link>http://arxiv.org/abs/2101.00399</link><description>&lt;p&gt;
 &#22823;&#35268;&#27169;&#31283;&#23450;&#21305;&#37197;&#20013;&#22823;&#25968;&#37327;&#32423;&#23450;&#24459;
 &lt;/p&gt;

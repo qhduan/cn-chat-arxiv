@@ -1,0 +1,12 @@
+{
+    "title": "Semiparametric Estimation of Long-Term Treatment Effects. (arXiv:2107.14405v4 [econ.EM] UPDATED)",
+    "abstract": "Long-term outcomes of experimental evaluations are necessarily observed after long delays. We develop semiparametric methods for combining the short-term outcomes of experiments with observational measurements of short-term and long-term outcomes, in order to estimate long-term treatment effects. We characterize semiparametric efficiency bounds for various instances of this problem. These calculations facilitate the construction of several estimators. We analyze the finite-sample performance of these estimators with a simulation calibrated to data from an evaluation of the long-term effects of a poverty alleviation program.",
+    "link": "http://arxiv.org/abs/2107.14405",
+    "context": "Title: Semiparametric Estimation of Long-Term Treatment Effects. (arXiv:2107.14405v4 [econ.EM] UPDATED)\nAbstract: Long-term outcomes of experimental evaluations are necessarily observed after long delays. We develop semiparametric methods for combining the short-term outcomes of experiments with observational measurements of short-term and long-term outcomes, in order to estimate long-term treatment effects. We characterize semiparametric efficiency bounds for various instances of this problem. These calculations facilitate the construction of several estimators. We analyze the finite-sample performance of these estimators with a simulation calibrated to data from an evaluation of the long-term effects of a poverty alleviation program.",
+    "path": "papers/21/07/2107.14405.json",
+    "total_tokens": 681,
+    "translated_title": "长期治疗效果的半参数估计方法",
+    "translated_abstract": "实验评估的长期结果必须在很长时间后才能观察到。我们开发了半参数方法，将实验的短期结果和短期和长期结果的观察测量值结合起来，以估计长期治疗效果。我们对该问题的各种情况进行了半参数有效性界限的特征化。这些计算有助于构建多个估计器。我们使用根据扶贫计划长期影响评估数据校准的模拟分析了这些估计量的有限样本性能。",
+    "tldr": "本文开发了一种半参数方法，将实验的短期结果和观测值结合起来，以估计长期治疗效果。这种方法可以应用于各种情况，并具有高效性和较好的估计效果。",
+    "en_tdlr": "This paper develops a semiparametric method that combines short-term outcomes of experiments with observational measurements of short-term and long-term outcomes to estimate long-term treatment effects. The method has high efficiency and good estimation performance in various scenarios."
+}

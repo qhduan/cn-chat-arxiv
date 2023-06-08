@@ -15,8 +15,9 @@
 | [^11] | [Sustainability criterion implied externality pricing for resource extraction.](http://arxiv.org/abs/2306.04065) | 该文构建了动态模型，应用可持续性标准隐含外部性定价，得出最优采伐进度，并揭示外部性定价对采伐进度的影响。 |
 | [^12] | [Information aggregation with delegation of votes.](http://arxiv.org/abs/2306.03960) | 研究表明，液态民主可提高福利和信息聚合效果，更易于选民协调有效平衡点，适用于异质信息的情况。 |
 | [^13] | [Building Floorspace in China: A Dataset and Learning Pipeline.](http://arxiv.org/abs/2303.02230) | 本文构建了中国40个主要城市楼宇建筑面积数据集并利用多任务对象分割器方法学习了建筑物占地面积和高度，为城市规划提供数据支持。 |
-| [^14] | [The Law of Large Numbers for Large Stable Matchings.](http://arxiv.org/abs/2101.00399) | 本文提出了一种在大规模稳定匹配中获得实际匹配概率的集中不等式。这将提供大数量级定律和其他统计量，如用于大匹配市场的实证分析的统计量。 |
-| [^15] | [Nuclear Norm Regularized Estimation of Panel Regression Models.](http://arxiv.org/abs/1810.10987) | 本文提出两种最小化凸目标函数的新估计方法，其中核范数罚项有助于解决低秩回归器下的交互固定效应模型的潜在识别问题，并且具有很重要的计算优势。 |
+| [^14] | [Semiparametric Estimation of Long-Term Treatment Effects.](http://arxiv.org/abs/2107.14405) | 本文开发了一种半参数方法，将实验的短期结果和观测值结合起来，以估计长期治疗效果。这种方法可以应用于各种情况，并具有高效性和较好的估计效果。 |
+| [^15] | [The Law of Large Numbers for Large Stable Matchings.](http://arxiv.org/abs/2101.00399) | 本文提出了一种在大规模稳定匹配中获得实际匹配概率的集中不等式。这将提供大数量级定律和其他统计量，如用于大匹配市场的实证分析的统计量。 |
+| [^16] | [Nuclear Norm Regularized Estimation of Panel Regression Models.](http://arxiv.org/abs/1810.10987) | 本文提出两种最小化凸目标函数的新估计方法，其中核范数罚项有助于解决低秩回归器下的交互固定效应模型的潜在识别问题，并且具有很重要的计算优势。 |
 
 # 详细
 
@@ -202,7 +203,21 @@
 
     This paper provides a first milestone in measuring the floorspace of buildings (that is, building footprint and height) for 40 major Chinese cities. The intent is to maximize city coverage and, eventually provide longitudinal data. Doing so requires building on imagery that is of a medium-fine-grained granularity, as larger cross sections of cities and longer time series for them are only available in such format. We use a multi-task object segmenter approach to learn the building footprint and height in the same framework in parallel: (1) we determine the surface area is covered by any buildings (the square footage of occupied land); (2) we determine floorspace from multi-image representations of buildings from various angles to determine the height of buildings. We use Sentinel-1 and -2 satellite images as our main data source. The benefits of these data are their large cross-sectional and longitudinal scope plus their unrestricted accessibility. We provide a detailed description of 
     
-[^14]: 大规模稳定匹配中大数量级定律
+[^14]: 长期治疗效果的半参数估计方法
+
+    Semiparametric Estimation of Long-Term Treatment Effects. (arXiv:2107.14405v4 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2107.14405](http://arxiv.org/abs/2107.14405)
+
+    本文开发了一种半参数方法，将实验的短期结果和观测值结合起来，以估计长期治疗效果。这种方法可以应用于各种情况，并具有高效性和较好的估计效果。
+
+    
+
+    实验评估的长期结果必须在很长时间后才能观察到。我们开发了半参数方法，将实验的短期结果和短期和长期结果的观察测量值结合起来，以估计长期治疗效果。我们对该问题的各种情况进行了半参数有效性界限的特征化。这些计算有助于构建多个估计器。我们使用根据扶贫计划长期影响评估数据校准的模拟分析了这些估计量的有限样本性能。
+
+    Long-term outcomes of experimental evaluations are necessarily observed after long delays. We develop semiparametric methods for combining the short-term outcomes of experiments with observational measurements of short-term and long-term outcomes, in order to estimate long-term treatment effects. We characterize semiparametric efficiency bounds for various instances of this problem. These calculations facilitate the construction of several estimators. We analyze the finite-sample performance of these estimators with a simulation calibrated to data from an evaluation of the long-term effects of a poverty alleviation program.
+    
+[^15]: 大规模稳定匹配中大数量级定律
 
     The Law of Large Numbers for Large Stable Matchings. (arXiv:2101.00399v6 [econ.EM] UPDATED)
 
@@ -216,7 +231,7 @@
 
     In many empirical studies of a large two-sided matching market (such as in a college admissions problem), the researcher performs statistical inference under the assumption that they observe a random sample from a large matching market. In this paper, we consider a setting in which the researcher observes either all or a nontrivial fraction of outcomes from a stable matching. We establish a concentration inequality for empirical matching probabilities assuming strong correlation among the colleges' preferences while allowing students' preferences to be fully heterogeneous. Our concentration inequality yields laws of large numbers for the empirical matching probabilities and other statistics commonly used in empirical analyses of a large matching market. To illustrate the usefulness of our concentration inequality, we prove consistency for estimators of conditional matching probabilities and measures of positive assortative matching.
     
-[^15]: 面板回归模型的核范数规则化估计
+[^16]: 面板回归模型的核范数规则化估计
 
     Nuclear Norm Regularized Estimation of Panel Regression Models. (arXiv:1810.10987v3 [econ.EM] UPDATED)
 
