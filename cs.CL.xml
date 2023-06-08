@@ -1098,6 +1098,26 @@ http://arxiv.org/abs/2306.04059
 &lt;/p&gt;
 &lt;p&gt;
 Amid ongoing health crisis, there is a growing necessity to discern possible signs of Wellness Dimensions (WD) manifested in self-narrated text. As the distribution of WD on social media data is intrinsically imbalanced, we experiment the generative NLP models for data augmentation to enable further improvement in the pre-screening task of classifying WD. To this end, we propose a simple yet effective data augmentation approach through prompt-based Generative NLP models, and evaluate the ROUGE scores and syntactic/semantic similarity among existing interpretations and augmented data. Our approach with ChatGPT model surpasses all the other methods and achieves improvement over baselines such as Easy-Data Augmentation and Backtranslation. Introducing data augmentation to generate more training samples and balanced dataset, results in the improved F-score and the Matthew's Correlation Coefficient for upto 13.11% and 15.95%, respectively.
+&lt;/p&gt;</description></item><item><title>&#26412;&#30740;&#31350;&#20351;&#29992;&#22823;&#22411;&#35821;&#35328;&#27169;&#22411;&#25552;&#20986;&#20102;&#19968;&#31181;&#32467;&#21512;&#39044;&#27979;&#21644;&#26080;&#25439;&#21387;&#32553;&#26041;&#26696;&#30340;&#33521;&#25991;&#25991;&#26412;&#21387;&#32553;&#31639;&#27861;&#65292;&#24182;&#22312;&#21021;&#27493;&#23454;&#39564;&#20013;&#34920;&#29616;&#20248;&#20110;&#24403;&#21069;&#26368;&#20808;&#36827;&#30340;&#25991;&#26412;&#21387;&#32553;&#26041;&#26696;&#12290;</title><link>http://arxiv.org/abs/2306.04050</link><description>&lt;p&gt;
+LLMZip&#65306;&#20351;&#29992;&#22823;&#22411;&#35821;&#35328;&#27169;&#22411;&#30340;&#26080;&#25439;&#25991;&#26412;&#21387;&#32553;
+&lt;/p&gt;
+&lt;p&gt;
+LLMZip: Lossless Text Compression using Large Language Models. (arXiv:2306.04050v1 [cs.IT])
+&lt;/p&gt;
+&lt;p&gt;
+http://arxiv.org/abs/2306.04050
+&lt;/p&gt;
+&lt;p&gt;
+&#26412;&#30740;&#31350;&#20351;&#29992;&#22823;&#22411;&#35821;&#35328;&#27169;&#22411;&#25552;&#20986;&#20102;&#19968;&#31181;&#32467;&#21512;&#39044;&#27979;&#21644;&#26080;&#25439;&#21387;&#32553;&#26041;&#26696;&#30340;&#33521;&#25991;&#25991;&#26412;&#21387;&#32553;&#31639;&#27861;&#65292;&#24182;&#22312;&#21021;&#27493;&#23454;&#39564;&#20013;&#34920;&#29616;&#20248;&#20110;&#24403;&#21069;&#26368;&#20808;&#36827;&#30340;&#25991;&#26412;&#21387;&#32553;&#26041;&#26696;&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+&#26412;&#25991;&#20351;&#29992;&#22823;&#22411;&#35821;&#35328;&#27169;&#22411;LLaMA-7B&#23545;&#33521;&#35821;&#29109;&#30340;&#28176;&#36817;&#19978;&#30028;&#25552;&#20986;&#20102;&#26032;&#20272;&#35745;&#20540;&#65292;&#24182;&#25552;&#20986;&#20102;&#19968;&#31181;&#32467;&#21512;&#22823;&#22411;&#35821;&#35328;&#27169;&#22411;&#39044;&#27979;&#19982;&#26080;&#25439;&#21387;&#32553;&#26041;&#26696;&#30340;&#33521;&#25991;&#25991;&#26412;&#21387;&#32553;&#31639;&#27861;&#12290;&#21021;&#27493;&#23454;&#39564;&#32467;&#26524;&#26174;&#31034;&#65292;&#25105;&#20204;&#30340;&#31639;&#27861;&#20248;&#20110;&#24403;&#21069;&#26368;&#20808;&#36827;&#30340;&#25991;&#26412;&#21387;&#32553;&#26041;&#26696;&#65292;&#22914;BSC&#12289;ZPAQ&#21644;paq8h&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+We provide new estimates of an asymptotic upper bound on the entropy of English using the large language model LLaMA-7B as a predictor for the next token given a window of past tokens. This estimate is significantly smaller than currently available estimates in \cite{cover1978convergent}, \cite{lutati2023focus}. A natural byproduct is an algorithm for lossless compression of English text which combines the prediction from the large language model with a lossless compression scheme. Preliminary results from limited experiments suggest that our scheme outperforms state-of-the-art text compression schemes such as BSC, ZPAQ, and paq8h.
 &lt;/p&gt;</description></item><item><title>&#26412;&#25991;&#25552;&#20986;&#20102;CAVEN - &#19968;&#31181;&#20855;&#26377;&#23545;&#35805;&#21151;&#33021;&#30340;&#38899;&#39057;&#35270;&#35273;&#23548;&#33322;&#20195;&#29702;&#65292;&#33021;&#22815;&#21521;&#20154;&#31867;/&#31070;&#35861;&#25552;&#20986;&#23548;&#33322;&#38382;&#39064;&#24182;&#22788;&#29702;&#31070;&#35861;&#22238;&#31572;&#20197;&#21327;&#21161;&#33258;&#20027;&#23548;&#33322;&#12290;&#35813;&#31995;&#32479;&#22522;&#20110;&#22810;&#27169;&#24577;&#20998;&#23618;&#24378;&#21270;&#23398;&#20064;&#26041;&#27861;&#65292;&#24182;&#20351;&#29992;&#19977;&#20010;&#20302;&#32423;&#31574;&#30053;&#36827;&#34892;&#24341;&#23548;&#12290;</title><link>http://arxiv.org/abs/2306.04047</link><description>&lt;p&gt;
 &#29992;&#20110;&#25913;&#36827;&#35270;&#21548;&#34701;&#21512;&#23548;&#33322;&#30340;&#20027;&#21160;&#31232;&#30095;&#23545;&#35805;
 &lt;/p&gt;
