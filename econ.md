@@ -6,11 +6,12 @@
 | [^2] | [Matrix GARCH Model: Inference and Application.](http://arxiv.org/abs/2306.05169) | 本论文提出了一种新颖的矩阵GARCH模型，可以捕捉矩阵时间序列的条件行和列协方差矩阵的动态性，并引入了一个QMLE模型估计器以及一个模型的诊断检验方法。 |
 | [^3] | [Losing a Gold Mine?.](http://arxiv.org/abs/2306.04946) | 孟加拉国贫民窟居民在COVID-19大流行中具有一定的免疫能力，这可能会对疫情防控策略产生影响，但目前研究不足。建议改善大流行研究的相关政策和方法。 |
 | [^4] | [T\^atonnement in Homothetic Fisher Markets.](http://arxiv.org/abs/2306.04890) | 本论文识别了希克斯需求的价格弹性的绝对值最大值作为市场涨跌过程中的经济参数，在同类菲舍尔市场中证明了涨跌过程的收敛率为$O((1+\varepsilon^2)/T)$。 |
-| [^5] | [Chevron's Sliding Scale in Wyeth v. Levine, 129 S. Ct. 1187 (2009).](http://arxiv.org/abs/2306.04771) | 最高法院在Wyeth案中未能调和反对先占的解释推定与对机构合理法定解释的Chevron原则之间的竞争，并在实践中应用两个原则却没有给予充分的重视。 |
-| [^6] | [Peer Effects in Labor Market Training.](http://arxiv.org/abs/2211.12366) | 本文研究了劳动力市场培训中的同侪效应，发现高度就业同侪的平均暴露可以提高参与培训计划后的就业稳定性。职业技能培训对收入的同侪效应是积极和长期的，但进修培训的效果则是负面和短暂的，同时还发现效应非线性，更多的群体异质性是有害的。 |
-| [^7] | [Higher-order Expansions and Inference for Panel Data Models.](http://arxiv.org/abs/2205.00577) | 本文提出了面板数据模型的高阶展开及推断方法，支持具有串联和横截面相关性的广泛面板数据模型，推断方法表现优于几个竞争者。 |
-| [^8] | [Generalized Social Marginal Welfare Weights Imply Inconsistent Comparisons of Tax Policies.](http://arxiv.org/abs/2102.07702) | 本文研究了广义社会边际福利权重（GSMWW），发现局部税收政策比较隐含着全局比较，而且对于没有功利主义结构的福利权重而言，这些隐含的全局比较是不一致的。 |
-| [^9] | [MALTS: Matching After Learning to Stretch.](http://arxiv.org/abs/1811.07415) | 我们提出了一个灵活的匹配算法MALTS，通过学习可解释的、基于重要协变量的距离度量，在因果推断中生成高质量的几乎精确匹配。 |
+| [^5] | [Perspectives in closed-loop supply chains network design considering risk and uncertainty factors.](http://arxiv.org/abs/2306.04819) | 本文考察了以前的研究，以风险和不确定性为背景，提供未来研究的建设性前景。通过分析106篇文献，确定了处理不确定性的适当方法，以及解决不确定性CLSCND问题的算法。 |
+| [^6] | [Chevron's Sliding Scale in Wyeth v. Levine, 129 S. Ct. 1187 (2009).](http://arxiv.org/abs/2306.04771) | 最高法院在Wyeth案中未能调和反对先占的解释推定与对机构合理法定解释的Chevron原则之间的竞争，并在实践中应用两个原则却没有给予充分的重视。 |
+| [^7] | [Peer Effects in Labor Market Training.](http://arxiv.org/abs/2211.12366) | 本文研究了劳动力市场培训中的同侪效应，发现高度就业同侪的平均暴露可以提高参与培训计划后的就业稳定性。职业技能培训对收入的同侪效应是积极和长期的，但进修培训的效果则是负面和短暂的，同时还发现效应非线性，更多的群体异质性是有害的。 |
+| [^8] | [Higher-order Expansions and Inference for Panel Data Models.](http://arxiv.org/abs/2205.00577) | 本文提出了面板数据模型的高阶展开及推断方法，支持具有串联和横截面相关性的广泛面板数据模型，推断方法表现优于几个竞争者。 |
+| [^9] | [Generalized Social Marginal Welfare Weights Imply Inconsistent Comparisons of Tax Policies.](http://arxiv.org/abs/2102.07702) | 本文研究了广义社会边际福利权重（GSMWW），发现局部税收政策比较隐含着全局比较，而且对于没有功利主义结构的福利权重而言，这些隐含的全局比较是不一致的。 |
+| [^10] | [MALTS: Matching After Learning to Stretch.](http://arxiv.org/abs/1811.07415) | 我们提出了一个灵活的匹配算法MALTS，通过学习可解释的、基于重要协变量的距离度量，在因果推断中生成高质量的几乎精确匹配。 |
 
 # 详细
 
@@ -70,7 +71,21 @@
 
     A prevalent theme in the economics and computation literature is to identify natural price-adjustment processes by which sellers and buyers in a market can discover equilibrium prices. An example of such a process is t\^atonnement, an auction-like algorithm first proposed in 1874 by French economist Walras in which sellers adjust prices based on the Marshallian demands of buyers. A dual concept in consumer theory is a buyer's Hicksian demand. In this paper, we identify the maximum of the absolute value of the elasticity of the Hicksian demand, as an economic parameter sufficient to capture and explain a range of convergent and non-convergent t\^atonnement behaviors in a broad class of markets. In particular, we prove the convergence of t\^atonnement at a rate of $O((1+\varepsilon^2)/T)$, in homothetic Fisher markets with bounded price elasticity of Hicksian demand, i.e., Fisher markets in which consumers have preferences represented by homogeneous utility functions and the price elasti
     
-[^5]: Chevron的滑动规模在Wyeth v. Levine, 129 S. Ct. 1187 (2009)中的应用
+[^5]: 考虑风险和不确定性因素的闭环供应链网络设计视角
+
+    Perspectives in closed-loop supply chains network design considering risk and uncertainty factors. (arXiv:2306.04819v1 [econ.GN])
+
+    [http://arxiv.org/abs/2306.04819](http://arxiv.org/abs/2306.04819)
+
+    本文考察了以前的研究，以风险和不确定性为背景，提供未来研究的建设性前景。通过分析106篇文献，确定了处理不确定性的适当方法，以及解决不确定性CLSCND问题的算法。
+
+    
+
+    闭环供应链各个阶段的风险和不确定性大大增加了闭环网络的复杂性，并降低了过程效率，阻碍了产业和循环经济的可持续和弹性发展。近年来，学术界对闭环供应链风险和不确定性分析越来越感兴趣，但还没有全面的综述文章，重点关注考虑风险和不确定性的闭环网络设计。本文考察了以前的研究，以风险和不确定性为背景，提供未来研究的建设性前景。我们选择了2004年至2022年在Scopus数据库中发表的106篇论文。我们分析了CLSC网络的风险和不确定性来源，并确定了处理不确定性的适当方法，以及解决不确定性CLSCND问题的算法。我们还阐述了闭环供应链设计目标的演变。
+
+    Risk and uncertainty in each stage of CLSC have greatly increased the complexity and reduced process efficiency of the closed-loop networks, impeding the sustainable and resilient development of industries and the circular economy. Recently, increasing interest in academia have been raised on the risk and uncertainty analysis of closed-loop supply chain, yet there is no comprehensive review paper focusing on closed-loop network design considering risk and uncertainty. This paper examines previous research on the domain of closed-loop network design under risk and uncertainties to provide constructive prospects for future study. We selected 106 papers published in the Scopus database from the year 2004 to 2022. We analyse the source of risk and uncertainties of the CLSC network and identified appropriate methods for handling uncertainties in addition to algorithms for solving uncertain CLSCND problems. We also illustrate the evolution of objectives for designing a closed-loop supply cha
+    
+[^6]: Chevron的滑动规模在Wyeth v. Levine, 129 S. Ct. 1187 (2009)中的应用
 
     Chevron's Sliding Scale in Wyeth v. Levine, 129 S. Ct. 1187 (2009). (arXiv:2306.04771v1 [econ.GN])
 
@@ -84,7 +99,7 @@
 
     In Wyeth v. Levine the Supreme Court once again failed to reconcile the interpretive presumption against preemption with the sometimes competing Chevron doctrine of deference to agencies' reasonable statutory interpretations. Rather than resolve the issue of which principle should govern where the two principles point toward opposite results, the Court continued its recent practice of applying both principles halfheartedly, carving exceptions, and giving neither its proper weight.  This analysis situates Wyeth within the larger framework of the Court's recent preemption decisions in an effort to explain the Court's hesitancy to resolve the conflict. The analysis concludes that the Court, motivated by its strong respect for congressional intent and concern to protect federalism, applies both the presumption against preemption and the Chevron doctrine on a sliding scale. Where congressional intent to preempt is clear and vague only as to scope, the Court is usually quite deferential to a
     
-[^6]: 劳动力市场培训中的同侪效应
+[^7]: 劳动力市场培训中的同侪效应
 
     Peer Effects in Labor Market Training. (arXiv:2211.12366v2 [econ.EM] UPDATED)
 
@@ -98,7 +113,7 @@
 
     This paper shows that the group composition matters for the effectiveness of labor market training programs for jobseekers. Using rich administrative data from Germany, I document that greater average exposure to highly employable peers leads to increased employment stability after program participation. Peer effects on earnings are positive and long-lasting in classic vocational training and negative but of short duration in retraining, pointing to different mechanisms. Finally, I also find evidence for non-linearities in effects and show that more heterogeneity in the peer group is detrimental.
     
-[^7]: 面板数据模型的高阶展开及推断方法
+[^8]: 面板数据模型的高阶展开及推断方法
 
     Higher-order Expansions and Inference for Panel Data Models. (arXiv:2205.00577v2 [econ.EM] UPDATED)
 
@@ -112,7 +127,7 @@
 
     In this paper, we propose a simple inferential method for a wide class of panel data models with a focus on such cases that have both serial correlation and cross-sectional dependence. In order to establish an asymptotic theory to support the inferential method, we develop some new and useful higher-order expansions, such as Berry-Esseen bound and Edgeworth Expansion, under a set of simple and general conditions. We further demonstrate the usefulness of these theoretical results by explicitly investigating a panel data model with interactive effects which nests many traditional panel data models as special cases. Finally, we show the superiority of our approach over several natural competitors using extensive numerical studies.
     
-[^8]: 广义社会边际福利权重意味着税收政策的不一致比较
+[^9]: 广义社会边际福利权重意味着税收政策的不一致比较
 
     Generalized Social Marginal Welfare Weights Imply Inconsistent Comparisons of Tax Policies. (arXiv:2102.07702v3 [econ.TH] UPDATED)
 
@@ -126,7 +141,7 @@
 
     This paper concerns Saez and Stantcheva's (2016) generalized social marginal welfare weights (GSMWW), which aggregate losses and gains due to tax policies, while incorporating non-utilitarian ethical considerations. The approach evaluates local tax changes without a global social objective. I show that local tax policy comparisons implicitly entail global comparisons. Moreover, whenever welfare weights do not have a utilitarian structure, these implied global comparisons are inconsistent. I argue that broader ethical values cannot in general be represented simply by modifying the weights placed on benefits to different people, and a more thoroughgoing modification of the utilitarian approach is required.
     
-[^9]: MALTS: 学习拉伸后匹配的算法
+[^10]: MALTS: 学习拉伸后匹配的算法
 
     MALTS: Matching After Learning to Stretch. (arXiv:1811.07415v9 [stat.ME] UPDATED)
 
