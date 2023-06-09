@@ -1,0 +1,12 @@
+{
+    "title": "Efficient computation of rankings from pairwise comparisons. (arXiv:2207.00076v2 [stat.ML] UPDATED)",
+    "abstract": "We study the ranking of individuals, teams, or objects, based on pairwise comparisons between them, using the Bradley-Terry model. Estimates of rankings within this model are commonly made using a simple iterative algorithm first introduced by Zermelo almost a century ago. Here we describe an alternative and similarly simple iteration that provably returns identical results but does so much faster -- over a hundred times faster in some cases. We demonstrate this algorithm with applications to a range of example data sets and derive a number of results regarding its convergence.",
+    "link": "http://arxiv.org/abs/2207.00076",
+    "context": "Title: Efficient computation of rankings from pairwise comparisons. (arXiv:2207.00076v2 [stat.ML] UPDATED)\nAbstract: We study the ranking of individuals, teams, or objects, based on pairwise comparisons between them, using the Bradley-Terry model. Estimates of rankings within this model are commonly made using a simple iterative algorithm first introduced by Zermelo almost a century ago. Here we describe an alternative and similarly simple iteration that provably returns identical results but does so much faster -- over a hundred times faster in some cases. We demonstrate this algorithm with applications to a range of example data sets and derive a number of results regarding its convergence.",
+    "path": "papers/22/07/2207.00076.json",
+    "total_tokens": 628,
+    "translated_title": "基于成对比较的排名高效计算",
+    "translated_abstract": "本文研究了使用Bradley-Terry模型通过个体、团队或对象之间的成对比较来确定排名。该模型中排名的估计通常使用Zermelo近一百年前首次引入的简单迭代算法进行。本文提出了一种替代且同样简单的迭代方法，可证明它返回的结果是相同的，但速度更快。在一些情况下，速度可能快了一百倍。我们通过应用于一系列示例数据集来演示该算法，并导出有关其收敛性的许多结果。",
+    "tldr": "本文提出了一种比已有迭代算法运行速度快100倍的基于成对比较的排名高效计算方法。",
+    "en_tdlr": "This paper proposes an efficient computation method for rankings from pairwise comparisons that is over a hundred times faster than the previously used iterative algorithm and demonstrates its effectiveness with applications to various example datasets."
+}

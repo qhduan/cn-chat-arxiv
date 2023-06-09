@@ -1,0 +1,12 @@
+{
+    "title": "Privately generating tabular data using language models. (arXiv:2306.04803v1 [cs.LG])",
+    "abstract": "Privately generating synthetic data from a table is an important brick of a privacy-first world. We propose and investigate a simple approach of treating each row in a table as a sentence and training a language model with differential privacy. We show this approach obtains competitive results in modelling tabular data across multiple datasets, even at small scales that favor alternative methods based on marginal distributions.",
+    "link": "http://arxiv.org/abs/2306.04803",
+    "context": "Title: Privately generating tabular data using language models. (arXiv:2306.04803v1 [cs.LG])\nAbstract: Privately generating synthetic data from a table is an important brick of a privacy-first world. We propose and investigate a simple approach of treating each row in a table as a sentence and training a language model with differential privacy. We show this approach obtains competitive results in modelling tabular data across multiple datasets, even at small scales that favor alternative methods based on marginal distributions.",
+    "path": "papers/23/06/2306.04803.json",
+    "total_tokens": 576,
+    "translated_title": "使用语言模型私下生成表格数据",
+    "translated_abstract": "在以隐私为先的世界中，私下生成合成数据是非常重要的。我们提出并研究了一种简单的方法，将表格中的每一行视为一个句子，并训练差分隐私语言模型。我们展示了这种方法在建模多个数据集的表格数据时取得了具有竞争力的结果，即使是在有利于基于边缘分布的替代方法的小规模情况下也是如此。",
+    "tldr": "通过使用语言模型训练每一行数据作为一个句子并添加差分隐私，可以在多个数据集中生成具有竞争力的合成数据，以实现私人数据生成。",
+    "en_tdlr": "By training a language model with each row of tabular data treated as a sentence and adding differential privacy, competitive synthetic data can be generated across multiple datasets for privacy-first world."
+}

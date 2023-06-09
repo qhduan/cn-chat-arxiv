@@ -1,0 +1,12 @@
+{
+    "title": "On the Use of Generative Models in Observational Causal Analysis. (arXiv:2306.04792v1 [cs.AI])",
+    "abstract": "The use of a hypothetical generative model was been suggested for causal analysis of observational data. The very assumption of a particular model is a commitment to a certain set of variables and therefore to a certain set of possible causes. Estimating the joint probability distribution of can be useful for predicting values of variables in view of the observed values of others, but it is not sufficient for inferring causal relationships. The model describes a single observable distribution and cannot a chain of effects of intervention that deviate from the observed distribution.",
+    "link": "http://arxiv.org/abs/2306.04792",
+    "context": "Title: On the Use of Generative Models in Observational Causal Analysis. (arXiv:2306.04792v1 [cs.AI])\nAbstract: The use of a hypothetical generative model was been suggested for causal analysis of observational data. The very assumption of a particular model is a commitment to a certain set of variables and therefore to a certain set of possible causes. Estimating the joint probability distribution of can be useful for predicting values of variables in view of the observed values of others, but it is not sufficient for inferring causal relationships. The model describes a single observable distribution and cannot a chain of effects of intervention that deviate from the observed distribution.",
+    "path": "papers/23/06/2306.04792.json",
+    "total_tokens": 561,
+    "translated_title": "使用生成模型进行观测因果分析",
+    "translated_abstract": "提出使用假设的生成模型对观测数据进行因果分析。特定模型的假设是对一组变量和因果关系的承诺，但仅估计联合概率分布并不足以推断因果关系。该模型仅描述单个可观测分布，无法描述干预效应链引起的分布偏差。",
+    "tldr": "该论文探讨了使用生成模型进行因果分析的可行性，并指出仅估计联合概率分布并不能推断因果关系。",
+    "en_tdlr": "This paper explores the feasibility of using generative models for causal analysis and highlights that estimating joint probability distribution alone is insufficient for inferring causal relationships."
+}

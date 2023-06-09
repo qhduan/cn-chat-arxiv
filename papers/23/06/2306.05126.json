@@ -1,0 +1,12 @@
+{
+    "title": "Mapping Brains with Language Models: A Survey. (arXiv:2306.05126v1 [cs.CL])",
+    "abstract": "Over the years, many researchers have seemingly made the same observation: Brain and language model activations exhibit some structural similarities, enabling linear partial mappings between features extracted from neural recordings and computational language models. In an attempt to evaluate how much evidence has been accumulated for this observation, we survey over 30 studies spanning 10 datasets and 8 metrics. How much evidence has been accumulated, and what, if anything, is missing before we can draw conclusions? Our analysis of the evaluation methods used in the literature reveals that some of the metrics are less conservative. We also find that the accumulated evidence, for now, remains ambiguous, but correlations with model size and quality provide grounds for cautious optimism.",
+    "link": "http://arxiv.org/abs/2306.05126",
+    "context": "Title: Mapping Brains with Language Models: A Survey. (arXiv:2306.05126v1 [cs.CL])\nAbstract: Over the years, many researchers have seemingly made the same observation: Brain and language model activations exhibit some structural similarities, enabling linear partial mappings between features extracted from neural recordings and computational language models. In an attempt to evaluate how much evidence has been accumulated for this observation, we survey over 30 studies spanning 10 datasets and 8 metrics. How much evidence has been accumulated, and what, if anything, is missing before we can draw conclusions? Our analysis of the evaluation methods used in the literature reveals that some of the metrics are less conservative. We also find that the accumulated evidence, for now, remains ambiguous, but correlations with model size and quality provide grounds for cautious optimism.",
+    "path": "papers/23/06/2306.05126.json",
+    "total_tokens": 730,
+    "translated_title": "语言模型对大脑的映射：一项调查研究",
+    "translated_abstract": "多年来，许多研究者似乎都做出了同样的观察：大脑和语言模型的激活呈现一些结构上的相似之处，使得从神经记录和计算语言模型中提取的特征之间存在线性偏差映射。我们尝试评估这一观察已经积累了多少证据，调查了超过30项涵盖10个数据集和8个指标的研究。我们发现，文献中使用的评估方法中一些指标并不保守。目前，尽管积累了大量的证据，但结论仍不确定。然而，与模型大小和质量的相关性为我们提供了谨慎乐观的理由。",
+    "tldr": "大脑和语言模型激活呈现相似之处，为相关研究提供了基础，但目前仍缺乏明确的结论。",
+    "en_tdlr": "Brain and language model activations exhibit some structural similarities, providing a foundation for related research, but there is currently a lack of clear conclusions."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Invariant Causal Set Covering Machines. (arXiv:2306.04777v1 [cs.LG])",
+    "abstract": "Rule-based models, such as decision trees, appeal to practitioners due to their interpretable nature. However, the learning algorithms that produce such models are often vulnerable to spurious associations and thus, they are not guaranteed to extract causally-relevant insights. In this work, we build on ideas from the invariant causal prediction literature to propose Invariant Causal Set Covering Machines, an extension of the classical Set Covering Machine algorithm for conjunctions/disjunctions of binary-valued rules that provably avoids spurious associations. We demonstrate both theoretically and empirically that our method can identify the causal parents of a variable of interest in polynomial time.",
+    "link": "http://arxiv.org/abs/2306.04777",
+    "context": "Title: Invariant Causal Set Covering Machines. (arXiv:2306.04777v1 [cs.LG])\nAbstract: Rule-based models, such as decision trees, appeal to practitioners due to their interpretable nature. However, the learning algorithms that produce such models are often vulnerable to spurious associations and thus, they are not guaranteed to extract causally-relevant insights. In this work, we build on ideas from the invariant causal prediction literature to propose Invariant Causal Set Covering Machines, an extension of the classical Set Covering Machine algorithm for conjunctions/disjunctions of binary-valued rules that provably avoids spurious associations. We demonstrate both theoretically and empirically that our method can identify the causal parents of a variable of interest in polynomial time.",
+    "path": "papers/23/06/2306.04777.json",
+    "total_tokens": 726,
+    "translated_title": "不变因果集覆盖机",
+    "translated_abstract": "基于规则的模型，如决策树，因其可解释的特性受到从业者的欢迎。然而，产生这种模型的学习算法往往容易受到虚假关联的影响，因此不能保证提取的是具有因果关系的洞见。在这项工作中，我们借鉴了不变因果预测文献中的思想，提出了不变的因果集覆盖机，这是一种经典的集覆盖机算法的扩展，用于二值规则的合取/析取，可以证明它避免了虚假关联。我们理论上和实践上证明，我们的方法可以在多项式时间内识别感兴趣变量的因果父节点。",
+    "tldr": "本文提出了一种名为不变因果集覆盖机的算法，它避免了产生虚假关联，可以在多项式时间内识别感兴趣变量的因果父节点。",
+    "en_tdlr": "This work proposes an algorithm called Invariant Causal Set Covering Machines, which avoids spurious associations and can identify the causal parents of a variable of interest in polynomial time."
+}

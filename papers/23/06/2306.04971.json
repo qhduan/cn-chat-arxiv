@@ -1,0 +1,12 @@
+{
+    "title": "A Melting Pot of Evolution and Learning. (arXiv:2306.04971v1 [cs.NE])",
+    "abstract": "We survey eight recent works by our group, involving the successful blending of evolutionary algorithms with machine learning and deep learning: 1. Binary and Multinomial Classification through Evolutionary Symbolic Regression, 2. Classy Ensemble: A Novel Ensemble Algorithm for Classification, 3. EC-KitY: Evolutionary Computation Tool Kit in Python, 4. Evolution of Activation Functions for Deep Learning-Based Image Classification, 5. Adaptive Combination of a Genetic Algorithm and Novelty Search for Deep Neuroevolution, 6. An Evolutionary, Gradient-Free, Query-Efficient, Black-Box Algorithm for Generating Adversarial Instances in Deep Networks, 7. Foiling Explanations in Deep Neural Networks, 8. Patch of Invisibility: Naturalistic Black-Box Adversarial Attacks on Object Detectors.",
+    "link": "http://arxiv.org/abs/2306.04971",
+    "context": "Title: A Melting Pot of Evolution and Learning. (arXiv:2306.04971v1 [cs.NE])\nAbstract: We survey eight recent works by our group, involving the successful blending of evolutionary algorithms with machine learning and deep learning: 1. Binary and Multinomial Classification through Evolutionary Symbolic Regression, 2. Classy Ensemble: A Novel Ensemble Algorithm for Classification, 3. EC-KitY: Evolutionary Computation Tool Kit in Python, 4. Evolution of Activation Functions for Deep Learning-Based Image Classification, 5. Adaptive Combination of a Genetic Algorithm and Novelty Search for Deep Neuroevolution, 6. An Evolutionary, Gradient-Free, Query-Efficient, Black-Box Algorithm for Generating Adversarial Instances in Deep Networks, 7. Foiling Explanations in Deep Neural Networks, 8. Patch of Invisibility: Naturalistic Black-Box Adversarial Attacks on Object Detectors.",
+    "path": "papers/23/06/2306.04971.json",
+    "total_tokens": 760,
+    "translated_title": "进化和学习的融合：八个作品综述",
+    "translated_abstract": "本文概述了我们小组的八个最近作品，这些作品成功地将进化算法与机器学习和深度学习相融合：1.使用进化符号回归进行二元和多项分类，2.优雅的集成：一种新颖的分类集成算法，3.Python版演化计算工具包，4.基于深度学习的图像分类的激活函数的进化，5.遗传算法和新奇搜索的自适应组合，用于深度神经进化，6.用于在深度网络中生成对抗性实例的进化、无梯度、查询高效、黑盒算法，7.深度神经网络中的挫败性解释，8.隐形斑点：自然黑匣子对目标探测器的对抗攻击。",
+    "tldr": "这篇综述介绍了我们小组在进化算法与机器学习、深度学习的融合方面的八个重要作品。",
+    "en_tdlr": "This survey presents eight significant works by our group on the successful blending of evolutionary algorithms with machine learning and deep learning."
+}

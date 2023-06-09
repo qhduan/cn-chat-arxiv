@@ -1,0 +1,12 @@
+{
+    "title": "Machine-Learning Kronecker Coefficients. (arXiv:2306.04734v1 [math.RT])",
+    "abstract": "The Kronecker coefficients are the decomposition multiplicities of the tensor product of two irreducible representations of the symmetric group. Unlike the Littlewood--Richardson coefficients, which are the analogues for the general linear group, there is no known combinatorial description of the Kronecker coefficients, and it is an NP-hard problem to decide whether a given Kronecker coefficient is zero or not. In this paper, we show that standard machine-learning algorithms such as Nearest Neighbors, Convolutional Neural Networks and Gradient Boosting Decision Trees may be trained to predict whether a given Kronecker coefficient is zero or not. Our results show that a trained machine can efficiently perform this binary classification with high accuracy ($\\approx 0.98$).",
+    "link": "http://arxiv.org/abs/2306.04734",
+    "context": "Title: Machine-Learning Kronecker Coefficients. (arXiv:2306.04734v1 [math.RT])\nAbstract: The Kronecker coefficients are the decomposition multiplicities of the tensor product of two irreducible representations of the symmetric group. Unlike the Littlewood--Richardson coefficients, which are the analogues for the general linear group, there is no known combinatorial description of the Kronecker coefficients, and it is an NP-hard problem to decide whether a given Kronecker coefficient is zero or not. In this paper, we show that standard machine-learning algorithms such as Nearest Neighbors, Convolutional Neural Networks and Gradient Boosting Decision Trees may be trained to predict whether a given Kronecker coefficient is zero or not. Our results show that a trained machine can efficiently perform this binary classification with high accuracy ($\\approx 0.98$).",
+    "path": "papers/23/06/2306.04734.json",
+    "total_tokens": 713,
+    "translated_title": "机器学习 Kronecker 系数",
+    "translated_abstract": "Kronecker 系数是对称群的两个不可约表示张量积的分解重数。与 Littlewood-Richardson 系数（广义线性群上的类比物）不同，还没有已知的 Kronecker 系数组合描述方式，通过算法判断某个 Kronecker 系数是否为零是 NP-Hard 问题。本文表明，诸如最近邻、卷积神经网络和梯度提升决策树之类的标准机器学习算法可以被训练来预测给定的 Kronecker 系数是否为零。结果表明，训练好的机器可以高精度（$\\approx 0.98$）地执行此二元分类任务。",
+    "tldr": "本文研究如何使用标准机器学习算法来预测 Kronecker 系数是否为零，并表明机器可以高精度地执行此二元分类任务。",
+    "en_tdlr": "This paper explores using standard machine learning algorithms to predict whether Kronecker coefficients are zero or not and demonstrates that machines can effectively perform this binary classification task with high accuracy."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Principlism Guided Responsible Data Curation. (arXiv:2302.03629v2 [cs.CV] UPDATED)",
+    "abstract": "Human-centric computer vision (HCCV) data curation practices often neglect privacy and bias concerns, leading to dataset retractions and unfair models. Further, HCCV datasets constructed through nonconsensual web scraping lack the necessary metadata for comprehensive fairness and robustness evaluations. Current remedies address issues post hoc, lack persuasive justification for adoption, or fail to provide proper contextualization for appropriate application. Our research focuses on proactive, domain-specific recommendations for curating HCCV datasets, addressing privacy and bias. We adopt an ante hoc reflective perspective and draw from current practices and guidelines, guided by the ethical framework of principlism.",
+    "link": "http://arxiv.org/abs/2302.03629",
+    "context": "Title: Principlism Guided Responsible Data Curation. (arXiv:2302.03629v2 [cs.CV] UPDATED)\nAbstract: Human-centric computer vision (HCCV) data curation practices often neglect privacy and bias concerns, leading to dataset retractions and unfair models. Further, HCCV datasets constructed through nonconsensual web scraping lack the necessary metadata for comprehensive fairness and robustness evaluations. Current remedies address issues post hoc, lack persuasive justification for adoption, or fail to provide proper contextualization for appropriate application. Our research focuses on proactive, domain-specific recommendations for curating HCCV datasets, addressing privacy and bias. We adopt an ante hoc reflective perspective and draw from current practices and guidelines, guided by the ethical framework of principlism.",
+    "path": "papers/23/02/2302.03629.json",
+    "total_tokens": 748,
+    "translated_title": "基于原则主义的负责任数据管理",
+    "translated_abstract": "人本计算机视觉数据整理实践经常忽略隐私和偏差问题，导致数据集撤回和不公平的模型。此外，通过非同意网络爬取构建的人本计算机视觉数据集缺乏全面的公平性和鲁棒性评估所必需的元数据。当前的解决方法后期解决问题，缺乏说服力的采用理由或未能提供适当应用的合适背景。我们的研究着重于针对人本计算机视觉数据集的主动领域特定建议，解决隐私和偏差问题。我们采用反思的观点，并借鉴了现有的实践和指南，遵循原则主义的伦理框架。",
+    "tldr": "研究针对人本计算机视觉数据集的负责任数据管理建议，采用预防性反思的观点，遵循原则主义的伦理框架，解决隐私和偏差问题。",
+    "en_tdlr": "An ethical principlism framework is used to provide proactive recommendations for the responsible curation of human-centric computer vision datasets, addressing privacy and bias concerns often neglected in current practices and guidelines."
+}

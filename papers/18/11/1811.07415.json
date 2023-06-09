@@ -1,0 +1,12 @@
+{
+    "title": "MALTS: Matching After Learning to Stretch. (arXiv:1811.07415v9 [stat.ME] UPDATED)",
+    "abstract": "We introduce a flexible framework that produces high-quality almost-exact matches for causal inference. Most prior work in matching uses ad-hoc distance metrics, often leading to poor quality matches, particularly when there are irrelevant covariates. In this work, we learn an interpretable distance metric for matching, which leads to substantially higher quality matches. The learned distance metric stretches the covariate space according to each covariate's contribution to outcome prediction: this stretching means that mismatches on important covariates carry a larger penalty than mismatches on irrelevant covariates. Our ability to learn flexible distance metrics leads to matches that are interpretable and useful for the estimation of conditional average treatment effects.",
+    "link": "http://arxiv.org/abs/1811.07415",
+    "context": "Title: MALTS: Matching After Learning to Stretch. (arXiv:1811.07415v9 [stat.ME] UPDATED)\nAbstract: We introduce a flexible framework that produces high-quality almost-exact matches for causal inference. Most prior work in matching uses ad-hoc distance metrics, often leading to poor quality matches, particularly when there are irrelevant covariates. In this work, we learn an interpretable distance metric for matching, which leads to substantially higher quality matches. The learned distance metric stretches the covariate space according to each covariate's contribution to outcome prediction: this stretching means that mismatches on important covariates carry a larger penalty than mismatches on irrelevant covariates. Our ability to learn flexible distance metrics leads to matches that are interpretable and useful for the estimation of conditional average treatment effects.",
+    "path": "papers/18/11/1811.07415.json",
+    "total_tokens": 787,
+    "translated_title": "MALTS: 学习拉伸后匹配的算法",
+    "translated_abstract": "我们介绍了一个灵活的框架，用于生成高质量的几乎精确匹配的因果推断。以往的匹配工作大多使用特定的距离度量，这通常导致低质量的匹配，特别是在存在不相关协变量的情况下。在这项工作中，我们学习一个可解释的匹配距离度量，它导致更高质量的匹配。学习到的距离度量根据每个协变量对于结果预测的贡献来拉伸协变量空间。这种拉伸意味着在重要协变量上不匹配会产生比在不相关协变量上不匹配更大的惩罚。我们学习灵活的距离度量的能力使得匹配是可解释的并且有助于估计有条件的平均处理效应。",
+    "tldr": "我们提出了一个灵活的匹配算法MALTS，通过学习可解释的、基于重要协变量的距离度量，在因果推断中生成高质量的几乎精确匹配。",
+    "en_tdlr": "We introduce a flexible matching algorithm MALTS, which generates high-quality almost-exact matches for causal inference by learning interpretable distance metric based on important covariates."
+}

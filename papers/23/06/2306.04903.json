@@ -1,0 +1,12 @@
+{
+    "title": "NOWJ at COLIEE 2023 -- Multi-Task and Ensemble Approaches in Legal Information Processing. (arXiv:2306.04903v1 [cs.CL])",
+    "abstract": "This paper presents the NOWJ team's approach to the COLIEE 2023 Competition, which focuses on advancing legal information processing techniques and applying them to real-world legal scenarios. Our team tackles the four tasks in the competition, which involve legal case retrieval, legal case entailment, statute law retrieval, and legal textual entailment. We employ state-of-the-art machine learning models and innovative approaches, such as BERT, Longformer, BM25-ranking algorithm, and multi-task learning models. Although our team did not achieve state-of-the-art results, our findings provide valuable insights and pave the way for future improvements in legal information processing.",
+    "link": "http://arxiv.org/abs/2306.04903",
+    "context": "Title: NOWJ at COLIEE 2023 -- Multi-Task and Ensemble Approaches in Legal Information Processing. (arXiv:2306.04903v1 [cs.CL])\nAbstract: This paper presents the NOWJ team's approach to the COLIEE 2023 Competition, which focuses on advancing legal information processing techniques and applying them to real-world legal scenarios. Our team tackles the four tasks in the competition, which involve legal case retrieval, legal case entailment, statute law retrieval, and legal textual entailment. We employ state-of-the-art machine learning models and innovative approaches, such as BERT, Longformer, BM25-ranking algorithm, and multi-task learning models. Although our team did not achieve state-of-the-art results, our findings provide valuable insights and pave the way for future improvements in legal information processing.",
+    "path": "papers/23/06/2306.04903.json",
+    "total_tokens": 734,
+    "translated_title": "COLIEE 2023比赛中的NOWJ团队——法律信息处理中的多任务和集成方法",
+    "translated_abstract": "本文介绍了NOWJ团队参加COLIEE 2023比赛所采用的方法，重点是提高法律信息处理技术并将其应用于实际的法律情景中。我们团队着手处理比赛中的四个任务，包括法律案例检索、法律案例蕴含、法规检索和法律文本蕴含。我们采用了最先进的机器学习模型和创新方法，例如BERT、Longformer、BM25排序算法和多任务学习模型。尽管我们的团队没有达到最先进的结果，但我们的发现提供了有价值的见解，并为未来的法律信息处理改进铺平了道路。",
+    "tldr": "NOWJ团队在COLIEE 2023比赛中采用多任务和集成方法提高法律信息处理技术，虽未达最佳结果但为未来改进提供了有价值见解。",
+    "en_tdlr": "The NOWJ team utilized multi-task and ensemble methods to advance legal information processing in the COLIEE 2023 competition, providing valuable insights for future improvements despite not achieving state-of-the-art results."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "A modified model for topic detection from a corpus and a new metric evaluating the understandability of topics. (arXiv:2306.04941v1 [cs.CL])",
+    "abstract": "This paper presents a modified neural model for topic detection from a corpus and proposes a new metric to evaluate the detected topics. The new model builds upon the embedded topic model incorporating some modifications such as document clustering. Numerical experiments suggest that the new model performs favourably regardless of the document's length. The new metric, which can be computed more efficiently than widely-used metrics such as topic coherence, provides variable information regarding the understandability of the detected topics.",
+    "link": "http://arxiv.org/abs/2306.04941",
+    "context": "Title: A modified model for topic detection from a corpus and a new metric evaluating the understandability of topics. (arXiv:2306.04941v1 [cs.CL])\nAbstract: This paper presents a modified neural model for topic detection from a corpus and proposes a new metric to evaluate the detected topics. The new model builds upon the embedded topic model incorporating some modifications such as document clustering. Numerical experiments suggest that the new model performs favourably regardless of the document's length. The new metric, which can be computed more efficiently than widely-used metrics such as topic coherence, provides variable information regarding the understandability of the detected topics.",
+    "path": "papers/23/06/2306.04941.json",
+    "total_tokens": 624,
+    "translated_title": "一种改良的语料主题检测模型及评估主题可读性的新指标",
+    "translated_abstract": "本论文提出了一种改良的神经网络模型用于从语料库中检测主题，并且提出了一种新的指标用于评估所检测到的主题。新模型建立在嵌入式主题模型基础上，并加入了一些改进，如文档聚类等。实验表明，该模型在处理各种长度的文档时表现良好。新的指标可以更有效地计算主题可读性，提供了有关所检测到主题的可理解程度的不同信息。",
+    "tldr": "本文提出一种改进的神经网络模型用于检测语料库中的主题，并提出了一种新的指标用于评估主题的可读性。",
+    "en_tdlr": "This paper proposes a modified neural model for topic detection from a corpus and introduces a new metric to assess the understandability of detected topics."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "AutoML Systems For Medical Imaging. (arXiv:2306.04750v1 [cs.AI])",
+    "abstract": "The integration of machine learning in medical image analysis can greatly enhance the quality of healthcare provided by physicians. The combination of human expertise and computerized systems can result in improved diagnostic accuracy. An automated machine learning approach simplifies the creation of custom image recognition models by utilizing neural architecture search and transfer learning techniques. Medical imaging techniques are used to non-invasively create images of internal organs and body parts for diagnostic and procedural purposes. This article aims to highlight the potential applications, strategies, and techniques of AutoML in medical imaging through theoretical and empirical evidence.",
+    "link": "http://arxiv.org/abs/2306.04750",
+    "context": "Title: AutoML Systems For Medical Imaging. (arXiv:2306.04750v1 [cs.AI])\nAbstract: The integration of machine learning in medical image analysis can greatly enhance the quality of healthcare provided by physicians. The combination of human expertise and computerized systems can result in improved diagnostic accuracy. An automated machine learning approach simplifies the creation of custom image recognition models by utilizing neural architecture search and transfer learning techniques. Medical imaging techniques are used to non-invasively create images of internal organs and body parts for diagnostic and procedural purposes. This article aims to highlight the potential applications, strategies, and techniques of AutoML in medical imaging through theoretical and empirical evidence.",
+    "path": "papers/23/06/2306.04750.json",
+    "total_tokens": 732,
+    "translated_title": "医学图像的自动化机器学习系统",
+    "translated_abstract": "在医学图像分析中引入机器学习可以大大提高医生提供的医疗保健服务的质量。人类专业知识和计算机系统的结合可以提高诊断精度。自动化机器学习方法通过利用神经结构搜索和迁移学习技术简化了定制化图像识别模型的创建。医学成像技术用于无创地创建内部器官和身体部位图像，以进行诊断和操作目的。本文旨在通过理论和实证证据，突出医学成像中AutoML的潜在应用、策略和技术。",
+    "tldr": "该论文介绍了医学成像中自动化机器学习的应用、策略和技术，该方法通过神经结构搜索和迁移学习技术简化了图像识别模型的创建，结合人类专业知识和计算机系统可以提高医学图像分析的精度和质量。",
+    "en_tdlr": "This paper introduces the potential applications, strategies, and techniques of AutoML in medical imaging, which simplifies the creation of custom image recognition models by utilizing neural architecture search and transfer learning techniques. The combination of human expertise and computerized systems can result in improved diagnostic accuracy and quality in healthcare provided by physicians."
+}

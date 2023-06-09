@@ -1,0 +1,12 @@
+{
+    "title": "SMRVIS: Point cloud extraction from 3-D ultrasound for non-destructive testing. (arXiv:2306.04668v1 [eess.IV])",
+    "abstract": "We propose to formulate point cloud extraction from ultrasound volumes as an image segmentation problem. Through this convenient formulation, a quick prototype exploring various variants of the U-Net architecture was developed and evaluated. This report documents the experimental results compiled using a training dataset of 5 labelled ultrasound volumes and 84 unlabelled volumes that got completed in a two-week period as part of a challenge submission to an open challenge entitled ``Deep Learning in Ultrasound Image Analysis''. Source code is shared with the research community at this GitHub URL \\url{https://github.com/lisatwyw/smrvis}.",
+    "link": "http://arxiv.org/abs/2306.04668",
+    "context": "Title: SMRVIS: Point cloud extraction from 3-D ultrasound for non-destructive testing. (arXiv:2306.04668v1 [eess.IV])\nAbstract: We propose to formulate point cloud extraction from ultrasound volumes as an image segmentation problem. Through this convenient formulation, a quick prototype exploring various variants of the U-Net architecture was developed and evaluated. This report documents the experimental results compiled using a training dataset of 5 labelled ultrasound volumes and 84 unlabelled volumes that got completed in a two-week period as part of a challenge submission to an open challenge entitled ``Deep Learning in Ultrasound Image Analysis''. Source code is shared with the research community at this GitHub URL \\url{https://github.com/lisatwyw/smrvis}.",
+    "path": "papers/23/06/2306.04668.json",
+    "total_tokens": 690,
+    "translated_title": "SMRVIS：用于非破坏性测试的三维超声点云提取",
+    "translated_abstract": "我们提出了将超声体积的点云提取作为图像分割问题的解决方案。通过这个便捷的公式，我们开发了一个快速原型来探索U-Net架构的各种变体，并对其进行了评估。本报告记录了使用5个标记超声体积和84个未标记体积的训练数据集完成的实验结果，这个工作是作为一个名为“超声图像分析的深度学习”开放挑战的提交的一部分。源代码已在Github上\\url{https://github.com/lisatwyw/smrvis}公开共享给研究社区。",
+    "tldr": "提出了将超声体积点云提取作为图像分割问题的解决方案，并通过快速原型开发验证效果。",
+    "en_tdlr": "The article proposes to use image segmentation to extract point clouds from ultrasound volumes, which was validated through a quick prototype exploring the U-Net architecture with 5 labelled and 84 unlabelled volumes. Source code is available on GitHub."
+}

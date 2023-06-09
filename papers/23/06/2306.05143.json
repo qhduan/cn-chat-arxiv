@@ -1,0 +1,12 @@
+{
+    "title": "Genomic Interpreter: A Hierarchical Genomic Deep Neural Network with 1D Shifted Window Transformer. (arXiv:2306.05143v1 [cs.LG])",
+    "abstract": "Given the increasing volume and quality of genomics data, extracting new insights requires interpretable machine-learning models. This work presents Genomic Interpreter: a novel architecture for genomic assay prediction. This model outperforms the state-of-the-art models for genomic assay prediction tasks. Our model can identify hierarchical dependencies in genomic sites. This is achieved through the integration of 1D-Swin, a novel Transformer-based block designed by us for modelling long-range hierarchical data. Evaluated on a dataset containing 38,171 DNA segments of 17K base pairs, Genomic Interpreter demonstrates superior performance in chromatin accessibility and gene expression prediction and unmasks the underlying `syntax' of gene regulation.",
+    "link": "http://arxiv.org/abs/2306.05143",
+    "context": "Title: Genomic Interpreter: A Hierarchical Genomic Deep Neural Network with 1D Shifted Window Transformer. (arXiv:2306.05143v1 [cs.LG])\nAbstract: Given the increasing volume and quality of genomics data, extracting new insights requires interpretable machine-learning models. This work presents Genomic Interpreter: a novel architecture for genomic assay prediction. This model outperforms the state-of-the-art models for genomic assay prediction tasks. Our model can identify hierarchical dependencies in genomic sites. This is achieved through the integration of 1D-Swin, a novel Transformer-based block designed by us for modelling long-range hierarchical data. Evaluated on a dataset containing 38,171 DNA segments of 17K base pairs, Genomic Interpreter demonstrates superior performance in chromatin accessibility and gene expression prediction and unmasks the underlying `syntax' of gene regulation.",
+    "path": "papers/23/06/2306.05143.json",
+    "total_tokens": 772,
+    "translated_title": "基因组解释器：一种带有1D移动窗口变换器的层次基因组深度神经网络",
+    "translated_abstract": "随着基因组数据量和质量的增加，提取新的洞见需要可解释的机器学习模型。本文提出了一种新的基因组测定预测结构：基因组解释器。该模型在基因组测定预测任务中表现优于现有模型。我们的模型可以识别基因组位点的层次依赖关系。这是通过1D-Swin进行实现的，这是我们设计的一种用于建模长范围层次数据的新型变换器块。在一个包含38,171个17K碱基对的DNA片段的数据集上进行评估，基因组解释器在染色质可达性和基因表达预测方面表现出卓越的性能，并揭示了基因调控的潜在“语法”。",
+    "tldr": "本文提出了一种名为“基因组解释器”的模型，可以对基因组数据进行预测并发现基因调控的层次依赖关系，性能优于现有模型。",
+    "en_tdlr": "This paper proposes a model named \"Genomic Interpreter\" that can predict genomic data and reveal hierarchical dependencies in gene regulation, outperforming existing models."
+}

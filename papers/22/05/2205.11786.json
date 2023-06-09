@@ -1,0 +1,12 @@
+{
+    "title": "Transition to Linearity of General Neural Networks with Directed Acyclic Graph Architecture. (arXiv:2205.11786v2 [cs.LG] UPDATED)",
+    "abstract": "In this paper we show that feedforward neural networks corresponding to arbitrary directed acyclic graphs undergo transition to linearity as their \"width\" approaches infinity. The width of these general networks is characterized by the minimum in-degree of their neurons, except for the input and first layers. Our results identify the mathematical structure underlying transition to linearity and generalize a number of recent works aimed at characterizing transition to linearity or constancy of the Neural Tangent Kernel for standard architectures.",
+    "link": "http://arxiv.org/abs/2205.11786",
+    "context": "Title: Transition to Linearity of General Neural Networks with Directed Acyclic Graph Architecture. (arXiv:2205.11786v2 [cs.LG] UPDATED)\nAbstract: In this paper we show that feedforward neural networks corresponding to arbitrary directed acyclic graphs undergo transition to linearity as their \"width\" approaches infinity. The width of these general networks is characterized by the minimum in-degree of their neurons, except for the input and first layers. Our results identify the mathematical structure underlying transition to linearity and generalize a number of recent works aimed at characterizing transition to linearity or constancy of the Neural Tangent Kernel for standard architectures.",
+    "path": "papers/22/05/2205.11786.json",
+    "total_tokens": 696,
+    "translated_title": "具有有向无环图架构的普通神经网络的线性转换",
+    "translated_abstract": "本文展示，随着其“宽度”接近无穷大，与任意有向无环图相关的前馈神经网络会发生线性转换。这些普通网络的宽度由其神经元的最小入度（除了输入和第一层之外）来刻画。我们的结果确定了转换到线性所基于的数学结构，并概括了一些旨在表征标准架构下神经切向核的线性转换或恒定性的最近研究工作。",
+    "tldr": "本文阐明具有任意有向无环图的神经网络，在宽度无限增大的情况下有线性转化的趋势。结果揭示了转化为线性的数学结构，并推广了一系列关于标准架构神经切向核的线性转化或恒定性的最新研究。",
+    "en_tdlr": "This paper reveals the tendency of neural networks with arbitrary directed acyclic graphs to undergo a transition to linearity as their width approaches infinity. The results identify the mathematical structure underlying this transition and generalize recent research on the linear transition or constancy of the Neural Tangent Kernel for standard architectures."
+}

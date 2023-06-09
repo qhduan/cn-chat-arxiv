@@ -1,0 +1,12 @@
+{
+    "title": "Infinite Action Contextual Bandits with Reusable Data Exhaust. (arXiv:2302.08551v2 [cs.LG] UPDATED)",
+    "abstract": "For infinite action contextual bandits, smoothed regret and reduction to regression results in state-of-the-art online performance with computational cost independent of the action set: unfortunately, the resulting data exhaust does not have well-defined importance-weights. This frustrates the execution of downstream data science processes such as offline model selection. In this paper we describe an online algorithm with an equivalent smoothed regret guarantee, but which generates well-defined importance weights: in exchange, the online computational cost increases, but only to order smoothness (i.e., still independent of the action set). This removes a key obstacle to adoption of smoothed regret in production scenarios.",
+    "link": "http://arxiv.org/abs/2302.08551",
+    "context": "Title: Infinite Action Contextual Bandits with Reusable Data Exhaust. (arXiv:2302.08551v2 [cs.LG] UPDATED)\nAbstract: For infinite action contextual bandits, smoothed regret and reduction to regression results in state-of-the-art online performance with computational cost independent of the action set: unfortunately, the resulting data exhaust does not have well-defined importance-weights. This frustrates the execution of downstream data science processes such as offline model selection. In this paper we describe an online algorithm with an equivalent smoothed regret guarantee, but which generates well-defined importance weights: in exchange, the online computational cost increases, but only to order smoothness (i.e., still independent of the action set). This removes a key obstacle to adoption of smoothed regret in production scenarios.",
+    "path": "papers/23/02/2302.08551.json",
+    "total_tokens": 711,
+    "translated_title": "可复用数据集的无限动作上下文臂的在线学习算法",
+    "translated_abstract": "对于无限动作上下文臂，平滑遗憾和回归结果导致了最先进的在线性能，计算成本独立于动作集合：然而，结果的数据剩余量没有明确定义的重要性权重。这挫败了下游的数据科学流程，如离线模型选择。在本文中，我们描述了一种在线算法，具有相当的平滑遗憾保证，但生成具有明确定义的重要性权重：作为交换，在线计算成本增加，但仅至于平滑度（即仍独立于动作集合）。这消除了采用平滑遗憾在生产场景中的关键障碍。",
+    "tldr": "本文提出了一种无限动作上下文臂的在线学习算法，它能够生成具有明确定义的重要性权重，使平滑遗憾在生产场景中更易于采用。",
+    "en_tdlr": "This paper proposes an online learning algorithm for infinite action contextual bandits that can generate well-defined importance weights, making smoothed regret more adoptable in production scenarios."
+}

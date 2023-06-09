@@ -1,0 +1,12 @@
+{
+    "title": "Modular Visual Question Answering via Code Generation. (arXiv:2306.05392v1 [cs.CL])",
+    "abstract": "We present a framework that formulates visual question answering as modular code generation. In contrast to prior work on modular approaches to VQA, our approach requires no additional training and relies on pre-trained language models (LMs), visual models pre-trained on image-caption pairs, and fifty VQA examples used for in-context learning. The generated Python programs invoke and compose the outputs of the visual models using arithmetic and conditional logic. Our approach improves accuracy on the COVR dataset by at least 3% and on the GQA dataset by roughly 2% compared to the few-shot baseline that does not employ code generation.",
+    "link": "http://arxiv.org/abs/2306.05392",
+    "context": "Title: Modular Visual Question Answering via Code Generation. (arXiv:2306.05392v1 [cs.CL])\nAbstract: We present a framework that formulates visual question answering as modular code generation. In contrast to prior work on modular approaches to VQA, our approach requires no additional training and relies on pre-trained language models (LMs), visual models pre-trained on image-caption pairs, and fifty VQA examples used for in-context learning. The generated Python programs invoke and compose the outputs of the visual models using arithmetic and conditional logic. Our approach improves accuracy on the COVR dataset by at least 3% and on the GQA dataset by roughly 2% compared to the few-shot baseline that does not employ code generation.",
+    "path": "papers/23/06/2306.05392.json",
+    "total_tokens": 694,
+    "translated_title": "通过代码生成来实现模块化视觉问答",
+    "translated_abstract": "我们提出了一个框架，将视觉问答问题作为模块化代码生成来实现。与之前的模块化VQA方法相比，我们的方法不需要额外的训练，并依赖于针对图像字幕对预训练的语言模型（LMs）、视觉模型，以及用于上下文学习的50个VQA示例。生成的Python程序通过算术和条件逻辑调用和组合视觉模型的输出。与不采用代码生成的few-shot基线相比，我们的方法可以至少提高COVR数据集上3%的准确性，并在GQA数据集上提高约2%。",
+    "tldr": "论文提出了一种基于代码生成实现模块化视觉问答的方法，无需额外训练，使用预训练的语言模型和视觉模型，可以显著提高VQA准确率。",
+    "en_tdlr": "This paper proposes a method for modular visual question answering using code generation, which requires no additional training and relies on pre-trained language models and visual models. This approach can significantly improve VQA accuracy on various datasets."
+}

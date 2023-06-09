@@ -1,0 +1,12 @@
+{
+    "title": "Generalized Social Marginal Welfare Weights Imply Inconsistent Comparisons of Tax Policies. (arXiv:2102.07702v3 [econ.TH] UPDATED)",
+    "abstract": "This paper concerns Saez and Stantcheva's (2016) generalized social marginal welfare weights (GSMWW), which aggregate losses and gains due to tax policies, while incorporating non-utilitarian ethical considerations. The approach evaluates local tax changes without a global social objective. I show that local tax policy comparisons implicitly entail global comparisons. Moreover, whenever welfare weights do not have a utilitarian structure, these implied global comparisons are inconsistent. I argue that broader ethical values cannot in general be represented simply by modifying the weights placed on benefits to different people, and a more thoroughgoing modification of the utilitarian approach is required.",
+    "link": "http://arxiv.org/abs/2102.07702",
+    "context": "Title: Generalized Social Marginal Welfare Weights Imply Inconsistent Comparisons of Tax Policies. (arXiv:2102.07702v3 [econ.TH] UPDATED)\nAbstract: This paper concerns Saez and Stantcheva's (2016) generalized social marginal welfare weights (GSMWW), which aggregate losses and gains due to tax policies, while incorporating non-utilitarian ethical considerations. The approach evaluates local tax changes without a global social objective. I show that local tax policy comparisons implicitly entail global comparisons. Moreover, whenever welfare weights do not have a utilitarian structure, these implied global comparisons are inconsistent. I argue that broader ethical values cannot in general be represented simply by modifying the weights placed on benefits to different people, and a more thoroughgoing modification of the utilitarian approach is required.",
+    "path": "papers/21/02/2102.07702.json",
+    "total_tokens": 784,
+    "translated_title": "广义社会边际福利权重意味着税收政策的不一致比较",
+    "translated_abstract": "本文关注Saez和Stantcheva（2016）的广义社会边际福利权重（GSMWW），它们汇总了由于税收政策而产生的损失和收益，同时包括非功利道德考虑因素。该方法评估了局部税收变化，而无需考虑全局社会目标。作者表明，局部税收政策比较隐含着全局比较。此外，每当福利权重没有功利主义结构时，这些隐含的全局比较就是不一致的。作者认为，不能简单地通过修改给不同人带来的利益权重来代表更广泛的道德价值观，而是需要更全面地修改功利主义方法。",
+    "tldr": "本文研究了广义社会边际福利权重（GSMWW），发现局部税收政策比较隐含着全局比较，而且对于没有功利主义结构的福利权重而言，这些隐含的全局比较是不一致的。",
+    "en_tdlr": "This paper investigates the Generalized Social Marginal Welfare Weights (GSMWW) and finds that local tax policy comparisons impliy global comparisons, and for welfare weights that lack a utilitarian structure, these implied global comparisons are inconsistent."
+}

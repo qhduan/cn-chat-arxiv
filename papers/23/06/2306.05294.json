@@ -1,0 +1,12 @@
+{
+    "title": "Deep Learning with Partially Labeled Data for Radio Map Reconstruction. (arXiv:2306.05294v1 [eess.SP])",
+    "abstract": "In this paper, we address the problem of Received Signal Strength map reconstruction based on location-dependent radio measurements and utilizing side knowledge about the local region; for example, city plan, terrain height, gateway position. Depending on the quantity of such prior side information, we employ Neural Architecture Search to find an optimized Neural Network model with the best architecture for each of the supposed settings. We demonstrate that using additional side information enhances the final accuracy of the Received Signal Strength map reconstruction on three datasets that correspond to three major cities, particularly in sub-areas near the gateways where larger variations of the average received signal power are typically observed.",
+    "link": "http://arxiv.org/abs/2306.05294",
+    "context": "Title: Deep Learning with Partially Labeled Data for Radio Map Reconstruction. (arXiv:2306.05294v1 [eess.SP])\nAbstract: In this paper, we address the problem of Received Signal Strength map reconstruction based on location-dependent radio measurements and utilizing side knowledge about the local region; for example, city plan, terrain height, gateway position. Depending on the quantity of such prior side information, we employ Neural Architecture Search to find an optimized Neural Network model with the best architecture for each of the supposed settings. We demonstrate that using additional side information enhances the final accuracy of the Received Signal Strength map reconstruction on three datasets that correspond to three major cities, particularly in sub-areas near the gateways where larger variations of the average received signal power are typically observed.",
+    "path": "papers/23/06/2306.05294.json",
+    "total_tokens": 734,
+    "translated_title": "部分标记数据的深度学习用于射频地图重建",
+    "translated_abstract": "本篇论文解决了基于位置相关的无线电测量和利用关于本地区域的侧面知识（例如城市规划，地形高度，网关位置）的问题，以重建接收信号强度地图。根据此类先前侧面信息的数量，我们采用神经架构搜索来找到最佳神经网络模型的最佳架构。我们证明，在三个对应于三个主要城市的数据集中，使用额外的侧面信息可以增强接收信号强度地图重建的最终准确性，特别是在网关附近的子区域，因为通常观察到平均接收信号功率的变化较大。",
+    "tldr": "本篇论文解决了利用侧面信息重建接收信号强度地图的问题，采用部分标记数据的深度学习。使用额外的侧面信息可以提高在三个主要城市数据集中重建结果的准确性。",
+    "en_tdlr": "This paper tackles the problem of reconstructing Received Signal Strength maps with location-dependent radio measurements and utilizing side knowledge to optimize the neural network architecture, resulting in improved accuracy on three datasets from major cities."
+}

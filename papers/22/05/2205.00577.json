@@ -1,0 +1,12 @@
+{
+    "title": "Higher-order Expansions and Inference for Panel Data Models. (arXiv:2205.00577v2 [econ.EM] UPDATED)",
+    "abstract": "In this paper, we propose a simple inferential method for a wide class of panel data models with a focus on such cases that have both serial correlation and cross-sectional dependence. In order to establish an asymptotic theory to support the inferential method, we develop some new and useful higher-order expansions, such as Berry-Esseen bound and Edgeworth Expansion, under a set of simple and general conditions. We further demonstrate the usefulness of these theoretical results by explicitly investigating a panel data model with interactive effects which nests many traditional panel data models as special cases. Finally, we show the superiority of our approach over several natural competitors using extensive numerical studies.",
+    "link": "http://arxiv.org/abs/2205.00577",
+    "context": "Title: Higher-order Expansions and Inference for Panel Data Models. (arXiv:2205.00577v2 [econ.EM] UPDATED)\nAbstract: In this paper, we propose a simple inferential method for a wide class of panel data models with a focus on such cases that have both serial correlation and cross-sectional dependence. In order to establish an asymptotic theory to support the inferential method, we develop some new and useful higher-order expansions, such as Berry-Esseen bound and Edgeworth Expansion, under a set of simple and general conditions. We further demonstrate the usefulness of these theoretical results by explicitly investigating a panel data model with interactive effects which nests many traditional panel data models as special cases. Finally, we show the superiority of our approach over several natural competitors using extensive numerical studies.",
+    "path": "papers/22/05/2205.00577.json",
+    "total_tokens": 685,
+    "translated_title": "面板数据模型的高阶展开及推断方法",
+    "translated_abstract": "本文提出了一种针对具有串联相关和横截面相关性的广泛面板数据模型的简单推断方法。为了支持推断方法的渐近理论，我们在一组简单而通用的条件下开发了一些新的有用的高阶展开，例如Berry-Esseen和Edgeworth展开。我们进一步通过明确研究嵌套许多传统面板数据模型的交互效应面板数据模型的实用性。最后，我们通过广泛的数值研究展示了我们方法的优越性。",
+    "tldr": "本文提出了面板数据模型的高阶展开及推断方法，支持具有串联和横截面相关性的广泛面板数据模型，推断方法表现优于几个竞争者。",
+    "en_tdlr": "This paper proposes a high-order expansion and inference method for panel data models, supporting a wide range of models with both serial correlation and cross-sectional dependence. The method outperforms several competitors according to extensive numerical studies."
+}

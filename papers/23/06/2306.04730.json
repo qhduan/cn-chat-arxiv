@@ -1,0 +1,12 @@
+{
+    "title": "Stochastic Natural Thresholding Algorithms. (arXiv:2306.04730v1 [eess.SP])",
+    "abstract": "Sparse signal recovery is one of the most fundamental problems in various applications, including medical imaging and remote sensing. Many greedy algorithms based on the family of hard thresholding operators have been developed to solve the sparse signal recovery problem. More recently, Natural Thresholding (NT) has been proposed with improved computational efficiency. This paper proposes and discusses convergence guarantees for stochastic natural thresholding algorithms by extending the NT from the deterministic version with linear measurements to the stochastic version with a general objective function. We also conduct various numerical experiments on linear and nonlinear measurements to demonstrate the performance of StoNT.",
+    "link": "http://arxiv.org/abs/2306.04730",
+    "context": "Title: Stochastic Natural Thresholding Algorithms. (arXiv:2306.04730v1 [eess.SP])\nAbstract: Sparse signal recovery is one of the most fundamental problems in various applications, including medical imaging and remote sensing. Many greedy algorithms based on the family of hard thresholding operators have been developed to solve the sparse signal recovery problem. More recently, Natural Thresholding (NT) has been proposed with improved computational efficiency. This paper proposes and discusses convergence guarantees for stochastic natural thresholding algorithms by extending the NT from the deterministic version with linear measurements to the stochastic version with a general objective function. We also conduct various numerical experiments on linear and nonlinear measurements to demonstrate the performance of StoNT.",
+    "path": "papers/23/06/2306.04730.json",
+    "total_tokens": 676,
+    "translated_title": "随机自然阈值算法",
+    "translated_abstract": "稀疏信号恢复是各种应用中最基本的问题之一，包括医学成像和遥感。许多基于硬阈值算子族的贪婪算法已被开发用于解决稀疏信号恢复问题。最近，提出了自然阈值法（NT），具有更好的计算效率。本文通过将NT从带线性测量的确定版本扩展到具有一般目标函数的随机版本，提出并讨论了随机自然阈值算法的收敛性保证。我们还进行了各种数值实验，对线性和非线性测量进行了演示，以展示StoNT的性能。",
+    "tldr": "该论文提出了一种随机自然阈值算法，用于稀疏信号恢复，并扩展了现有的自然阈值法，可以提高算法的计算效率和性能。",
+    "en_tdlr": "This paper proposes a stochastic natural thresholding algorithm for sparse signal recovery, extending the existing Natural Thresholding method with improved computational efficiency and performance."
+}

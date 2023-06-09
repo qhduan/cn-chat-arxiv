@@ -1,0 +1,12 @@
+{
+    "title": "Quadratic models for understanding neural network dynamics. (arXiv:2205.11787v2 [cs.LG] UPDATED)",
+    "abstract": "While neural networks can be approximated by linear models as their width increases, certain properties of wide neural networks cannot be captured by linear models. In this work we show that recently proposed Neural Quadratic Models can exhibit the \"catapult phase\" [Lewkowycz et al. 2020] that arises when training such models with large learning rates. We then empirically show that the behaviour of neural quadratic models parallels that of neural networks in generalization, especially in the catapult phase regime. Our analysis further demonstrates that quadratic models can be an effective tool for analysis of neural networks.",
+    "link": "http://arxiv.org/abs/2205.11787",
+    "context": "Title: Quadratic models for understanding neural network dynamics. (arXiv:2205.11787v2 [cs.LG] UPDATED)\nAbstract: While neural networks can be approximated by linear models as their width increases, certain properties of wide neural networks cannot be captured by linear models. In this work we show that recently proposed Neural Quadratic Models can exhibit the \"catapult phase\" [Lewkowycz et al. 2020] that arises when training such models with large learning rates. We then empirically show that the behaviour of neural quadratic models parallels that of neural networks in generalization, especially in the catapult phase regime. Our analysis further demonstrates that quadratic models can be an effective tool for analysis of neural networks.",
+    "path": "papers/22/05/2205.11787.json",
+    "total_tokens": 713,
+    "translated_title": "用于理解神经网络动态的二次模型",
+    "translated_abstract": "当神经网络的宽度增加时，可以用线性模型来逼近神经网络，但宽神经网络的某些特性不能被线性模型捕捉。在这项工作中，我们展示了最近提出的神经二次模型可以展示“弹弓阶段”[Lewkowycz等人，2020]，当使用大学习率训练此类模型时会出现。接着，我们经验证明，神经二次模型的行为与神经网络在泛化特性上有相似之处，尤其是在弹弓阶段范围内。我们的分析进一步表明，二次模型可以成为分析神经网络的有效工具。",
+    "tldr": "神经二次模型可以展示出神经网络在大学习率情况下的“弹弓阶段”，并且在泛化特性上与神经网络有相似之处，是分析神经网络的有效工具。",
+    "en_tdlr": "Neural quadratic models can exhibit the \"catapult phase\" that arises when training such models with large learning rates, and have similar behavior and generalization properties as neural networks, making them an effective tool for analysis."
+}
