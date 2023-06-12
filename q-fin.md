@@ -12,10 +12,11 @@
 | [^8] | [The far-reaching effects of bombing on fertility in mid-20th century Japan.](http://arxiv.org/abs/2306.05770) | 本研究探究了空袭对20世纪日本生育率的深远影响，并证明了战争破坏的区域影响即使在未直接受影响的地区也存在。 |
 | [^9] | [Monte Carlo simulation for Barndorff-Nielsen and Shephard model under change of measure.](http://arxiv.org/abs/2306.05750) | 本文基于测度变换提出两种模拟方法，解决了Barndorff-Nielsen和Shephard模型下具有无限积极跳跃但非鞅情况下计算期权价格的问题。 |
 | [^10] | [Maximally Machine-Learnable Portfolios.](http://arxiv.org/abs/2306.05568) | 本文通过 MACE 算法，以随机森林和受限岭回归优化组合权重，实现了最大程度的可预测性和盈利能力，适用于任何预测算法和预测器集，可以处理大型组合。 |
-| [^11] | [Equilibrium in Functional Stochastic Games with Mean-Field Interaction.](http://arxiv.org/abs/2306.05433) | 该论文提出了一种新的方法来明确推导出带有平均场相互作用的功能随机博弈的纳什均衡，同时证明了均衡的收敛性和存在的条件比有限玩家博弈的条件更少。 |
-| [^12] | [Hierarchical forecasting for aggregated curves with an application to day-ahead electricity price auctions.](http://arxiv.org/abs/2305.16255) | 本文提出了一种协调方法来提高聚合曲线的预测准确性，并在德国日前电力竞拍市场进行了实证研究。 |
-| [^13] | [How to handle the COS method for option pricing.](http://arxiv.org/abs/2303.16012) | 介绍了用于欧式期权定价的 Fourier余弦展开 (COS) 方法，通过指定截断范围和项数N进行逼近，文章提出明确的N的上界，对密度平滑并指数衰减的情况，COS方法的收敛阶数至少是指数收敛阶数。 |
-| [^14] | [Ordered Reference Dependent Choice.](http://arxiv.org/abs/2105.12915) | 本文研究了参考依赖性选择在捕捉风险、时间和社会偏好方面的应用，从而揭示了参考依赖性选择在标准行为假设中的内在依赖性。 |
+| [^11] | [Deep Attentive Survival Analysis in Limit Order Books: Estimating Fill Probabilities with Convolutional-Transformers.](http://arxiv.org/abs/2306.05479) | 本文提出了一种基于深度学习的生存分析方法，使用卷积-Transformer估计限价订单簿中放置于不同层级的限价订单的成交时间分布，相比其他方法表现显著优越。 |
+| [^12] | [Equilibrium in Functional Stochastic Games with Mean-Field Interaction.](http://arxiv.org/abs/2306.05433) | 该论文提出了一种新的方法来明确推导出带有平均场相互作用的功能随机博弈的纳什均衡，同时证明了均衡的收敛性和存在的条件比有限玩家博弈的条件更少。 |
+| [^13] | [Hierarchical forecasting for aggregated curves with an application to day-ahead electricity price auctions.](http://arxiv.org/abs/2305.16255) | 本文提出了一种协调方法来提高聚合曲线的预测准确性，并在德国日前电力竞拍市场进行了实证研究。 |
+| [^14] | [How to handle the COS method for option pricing.](http://arxiv.org/abs/2303.16012) | 介绍了用于欧式期权定价的 Fourier余弦展开 (COS) 方法，通过指定截断范围和项数N进行逼近，文章提出明确的N的上界，对密度平滑并指数衰减的情况，COS方法的收敛阶数至少是指数收敛阶数。 |
+| [^15] | [Ordered Reference Dependent Choice.](http://arxiv.org/abs/2105.12915) | 本文研究了参考依赖性选择在捕捉风险、时间和社会偏好方面的应用，从而揭示了参考依赖性选择在标准行为假设中的内在依赖性。 |
 
 # 详细
 
@@ -159,7 +160,21 @@
 
     When it comes to stock returns, any form of predictability can bolster risk-adjusted profitability. We develop a collaborative machine learning algorithm that optimizes portfolio weights so that the resulting synthetic security is maximally predictable. Precisely, we introduce MACE, a multivariate extension of Alternating Conditional Expectations that achieves the aforementioned goal by wielding a Random Forest on one side of the equation, and a constrained Ridge Regression on the other. There are two key improvements with respect to Lo and MacKinlay's original maximally predictable portfolio approach. First, it accommodates for any (nonlinear) forecasting algorithm and predictor set. Second, it handles large portfolios. We conduct exercises at the daily and monthly frequency and report significant increases in predictability and profitability using very little conditioning information. Interestingly, predictability is found in bad as well as good times, and MACE successfully navigates
     
-[^11]: 带有平均场相互作用的功能随机博弈的均衡
+[^11]: 深度关注生存分析在限价订单上的应用：利用卷积-Transformer估计成交概率(arXiv:2306.05479v1[q-fin.ST])
+
+    Deep Attentive Survival Analysis in Limit Order Books: Estimating Fill Probabilities with Convolutional-Transformers. (arXiv:2306.05479v1 [q-fin.ST])
+
+    [http://arxiv.org/abs/2306.05479](http://arxiv.org/abs/2306.05479)
+
+    本文提出了一种基于深度学习的生存分析方法，使用卷积-Transformer估计限价订单簿中放置于不同层级的限价订单的成交时间分布，相比其他方法表现显著优越。
+
+    
+
+    执行策略中的关键决定之一是选择被动（提供流动性）或积极（吸纳流动性）订单以在限价订单簿中执行交易。这取决于放置于限价订单簿中的被动限价订单成交概率。本文提出了深度学习方法来估计放置于限价订单簿中不同层级的限价订单的成交时间。我们开发了一种新的生存分析模型，将限价订单的时变特征映射为其成交时间的分布。我们的方法基于卷积-Transformer编码器和单调神经网络解码器。我们使用适当的评分规则来比较我们的方法与生存分析中的其他方法，并进行可解释性分析以了解用于计算成交概率的特征的信息量。我们的方法在生存分析文献中显著优于通常使用的方法。最后，我们进行了统计分析……（未完整翻译）
+
+    One of the key decisions in execution strategies is the choice between a passive (liquidity providing) or an aggressive (liquidity taking) order to execute a trade in a limit order book (LOB). Essential to this choice is the fill probability of a passive limit order placed in the LOB. This paper proposes a deep learning method to estimate the filltimes of limit orders posted in different levels of the LOB. We develop a novel model for survival analysis that maps time-varying features of the LOB to the distribution of filltimes of limit orders. Our method is based on a convolutional-Transformer encoder and a monotonic neural network decoder. We use proper scoring rules to compare our method with other approaches in survival analysis, and perform an interpretability analysis to understand the informativeness of features used to compute fill probabilities. Our method significantly outperforms those typically used in survival analysis literature. Finally, we carry out a statistical analysi
+    
+[^12]: 带有平均场相互作用的功能随机博弈的均衡
 
     Equilibrium in Functional Stochastic Games with Mean-Field Interaction. (arXiv:2306.05433v1 [math.OC])
 
@@ -173,7 +188,7 @@
 
     We consider a general class of finite-player stochastic games with mean-field interaction, in which the linear-quadratic cost functional includes linear operators acting on controls in $L^2$. We propose a novel approach for deriving the Nash equilibrium of the game explicitly in terms of operator resolvents, by reducing the associated first order conditions to a system of stochastic Fredholm equations of the second kind and deriving their closed form solution. Furthermore, by proving stability results for the system of stochastic Fredholm equations we derive the convergence of the equilibrium of the $N$-player game to the corresponding mean-field equilibrium. As a by-product we also derive an $\varepsilon$-Nash equilibrium for the mean-field game, which is valuable in this setting as we show that the conditions for existence of an equilibrium in the mean-field limit are less restrictive than in the finite-player game. Finally we apply our general framework to solve various examples, su
     
-[^12]: 层次预测聚合曲线并应用于日前电力竞拍
+[^13]: 层次预测聚合曲线并应用于日前电力竞拍
 
     Hierarchical forecasting for aggregated curves with an application to day-ahead electricity price auctions. (arXiv:2305.16255v1 [stat.AP])
 
@@ -187,7 +202,7 @@
 
     Aggregated curves are common structures in economics and finance, and the most prominent examples are supply and demand curves. In this study, we exploit the fact that all aggregated curves have an intrinsic hierarchical structure, and thus hierarchical reconciliation methods can be used to improve the forecast accuracy. We provide an in-depth theory on how aggregated curves can be constructed or deconstructed, and conclude that these methods are equivalent under weak assumptions. We consider multiple reconciliation methods for aggregated curves, including previously established bottom-up, top-down, and linear optimal reconciliation approaches. We also present a new benchmark reconciliation method called 'aggregated-down' with similar complexity to bottom-up and top-down approaches, but it tends to provide better accuracy in this setup. We conducted an empirical forecasting study on the German day-ahead power auction market by predicting the demand and supply curves, where their equili
     
-[^13]: 如何处理用于期权定价的 COS 方法
+[^14]: 如何处理用于期权定价的 COS 方法
 
     How to handle the COS method for option pricing. (arXiv:2303.16012v1 [q-fin.CP])
 
@@ -201,7 +216,7 @@
 
     The Fourier cosine expansion (COS) method is used for pricing European options numerically very efficiently. To apply the COS method, one has to specify two parameters: a truncation range for the density of the log-returns and a number of terms N to approximate the truncated density by a cosine series. How to choose the truncation range is already known. Here, we are able to find an explicit and useful bound for N as well. We further show that the COS method has at least an exponential order of convergence if the density is smooth and decays exponentially. But, if the density is smooth and has heavy tails like in the Finite Moment Log Stable model, the COS method has not an exponential order of convergence. Numerical experiments confirm the theoretical findings.
     
-[^14]: 有序的参考依赖性选择
+[^15]: 有序的参考依赖性选择
 
     Ordered Reference Dependent Choice. (arXiv:2105.12915v3 [econ.TH] UPDATED)
 
