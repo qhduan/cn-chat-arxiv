@@ -1,0 +1,12 @@
+{
+    "title": "Agent market orders representation through a contrastive learning approach. (arXiv:2306.05987v1 [q-fin.ST])",
+    "abstract": "Due to the access to the labeled orders on the CAC40 data from Euronext, we are able to analyse agents' behaviours in the market based on their placed orders. In this study, we construct a self-supervised learning model using triplet loss to effectively learn the representation of agent market orders. By acquiring this learned representation, various downstream tasks become feasible. In this work, we utilise the K-means clustering algorithm on the learned representation vectors of agent orders to identify distinct behaviour types within each cluster.",
+    "link": "http://arxiv.org/abs/2306.05987",
+    "context": "Title: Agent market orders representation through a contrastive learning approach. (arXiv:2306.05987v1 [q-fin.ST])\nAbstract: Due to the access to the labeled orders on the CAC40 data from Euronext, we are able to analyse agents' behaviours in the market based on their placed orders. In this study, we construct a self-supervised learning model using triplet loss to effectively learn the representation of agent market orders. By acquiring this learned representation, various downstream tasks become feasible. In this work, we utilise the K-means clustering algorithm on the learned representation vectors of agent orders to identify distinct behaviour types within each cluster.",
+    "path": "papers/23/06/2306.05987.json",
+    "total_tokens": 674,
+    "translated_title": "一种基于对比学习方法的代理市场订单表示",
+    "translated_abstract": "本研究通过访问Euronext的CAC40数据中的标记订单，分析代理在市场中根据其下达的订单的行为。本研究构建了一个自监督学习模型，使用三元组损失来有效地学习代理市场订单的表示。通过获取这个学习表示，各种下游任务变得可行。本研究使用K均值聚类算法对代理订单的学习表示向量进行聚类，以确定每个簇中的不同行为类型。",
+    "tldr": "通过对比学习方法，本研究构建了一个自监督学习模型，用于学习代理市场订单的表示。进一步地，我们使用K均值聚类算法对代理订单的学习表示向量进行聚类，以确定每个簇中的不同行为类型。",
+    "en_tdlr": "This study utilizes a contrastive learning approach to construct a self-supervised learning model for effectively learning the representation of agent market orders. K-means clustering algorithm is applied to identify distinct behavior types within each cluster based on the learned representation vectors of agent orders."
+}

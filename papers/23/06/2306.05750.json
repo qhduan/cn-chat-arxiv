@@ -1,0 +1,12 @@
+{
+    "title": "Monte Carlo simulation for Barndorff-Nielsen and Shephard model under change of measure. (arXiv:2306.05750v1 [q-fin.CP])",
+    "abstract": "The Barndorff-Nielsen and Shephard model is a representative jump-type stochastic volatility model. Still, no method exists to compute option prices numerically for the non-martingale case with infinite active jumps. We develop two simulation methods for such a case under change of measure and conduct some numerical experiments.",
+    "link": "http://arxiv.org/abs/2306.05750",
+    "context": "Title: Monte Carlo simulation for Barndorff-Nielsen and Shephard model under change of measure. (arXiv:2306.05750v1 [q-fin.CP])\nAbstract: The Barndorff-Nielsen and Shephard model is a representative jump-type stochastic volatility model. Still, no method exists to compute option prices numerically for the non-martingale case with infinite active jumps. We develop two simulation methods for such a case under change of measure and conduct some numerical experiments.",
+    "path": "papers/23/06/2306.05750.json",
+    "total_tokens": 586,
+    "translated_title": "Barndorff-Nielsen和Shephard模型在测度变换下的蒙特卡洛模拟",
+    "translated_abstract": "Barndorff-Nielsen和Shephard模型是代表性的跳跃型随机波动率模型。然而，在具有无限积极跳跃但非鞅情况下，尚无方法计算期权价格。本文针对该情况，基于测度变换开发了两种模拟方法，并进行了一些数值实验。",
+    "tldr": "本文基于测度变换提出两种模拟方法，解决了Barndorff-Nielsen和Shephard模型下具有无限积极跳跃但非鞅情况下计算期权价格的问题。",
+    "en_tdlr": "This paper proposes two simulation methods based on change of measure to solve the problem of calculating option prices for the non-martingale case with infinite active jumps in the Barndorff-Nielsen and Shephard model."
+}

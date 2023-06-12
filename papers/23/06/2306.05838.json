@@ -1,0 +1,12 @@
+{
+    "title": "Expectation-Complete Graph Representations with Homomorphisms. (arXiv:2306.05838v1 [cs.LG])",
+    "abstract": "We investigate novel random graph embeddings that can be computed in expected polynomial time and that are able to distinguish all non-isomorphic graphs in expectation. Previous graph embeddings have limited expressiveness and either cannot distinguish all graphs or cannot be computed efficiently for every graph. To be able to approximate arbitrary functions on graphs, we are interested in efficient alternatives that become arbitrarily expressive with increasing resources. Our approach is based on Lov\\'asz' characterisation of graph isomorphism through an infinite dimensional vector of homomorphism counts. Our empirical evaluation shows competitive results on several benchmark graph learning tasks.",
+    "link": "http://arxiv.org/abs/2306.05838",
+    "context": "Title: Expectation-Complete Graph Representations with Homomorphisms. (arXiv:2306.05838v1 [cs.LG])\nAbstract: We investigate novel random graph embeddings that can be computed in expected polynomial time and that are able to distinguish all non-isomorphic graphs in expectation. Previous graph embeddings have limited expressiveness and either cannot distinguish all graphs or cannot be computed efficiently for every graph. To be able to approximate arbitrary functions on graphs, we are interested in efficient alternatives that become arbitrarily expressive with increasing resources. Our approach is based on Lov\\'asz' characterisation of graph isomorphism through an infinite dimensional vector of homomorphism counts. Our empirical evaluation shows competitive results on several benchmark graph learning tasks.",
+    "path": "papers/23/06/2306.05838.json",
+    "total_tokens": 694,
+    "translated_title": "基于同态映射的期望完全图表示",
+    "translated_abstract": "我们研究了一种新颖的随机图嵌入，可以在期望的多项式时间内计算，并且能够在期望中区分所有非同构图。以前的图嵌入具有有限的表达能力，并且要么不能区分所有图，要么不能有效地计算每个图。为了能够在图上近似任意函数，我们对具有递增资源的高效替代方案感兴趣。我们的方法基于 Lov\\'asz 对通过同态计数的无限维向量的图同构的表征。我们的实证评估显示了在几个基准图学习任务上具有竞争力的结果。",
+    "tldr": "提出了一种基于同态映射的新型随机图嵌入方法，在期望的多项式时间内计算，能在期望中区分所有非同构图，具有高效的替代能力。",
+    "en_tdlr": "We propose a novel random graph embedding method based on homomorphism, which can be computed in expected polynomial time and distinguishes all non-isomorphic graphs in expectation, and has efficient alternatives with increasing resources."
+}

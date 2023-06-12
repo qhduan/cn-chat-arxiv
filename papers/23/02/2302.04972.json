@@ -1,0 +1,12 @@
+{
+    "title": "Differentially Private Optimization for Smooth Nonconvex ERM. (arXiv:2302.04972v2 [cs.LG] UPDATED)",
+    "abstract": "We develop simple differentially private optimization algorithms that move along directions of (expected) descent to find an approximate second-order solution for nonconvex ERM. We use line search, mini-batching, and a two-phase strategy to improve the speed and practicality of the algorithm. Numerical experiments demonstrate the effectiveness of these approaches.",
+    "link": "http://arxiv.org/abs/2302.04972",
+    "context": "Title: Differentially Private Optimization for Smooth Nonconvex ERM. (arXiv:2302.04972v2 [cs.LG] UPDATED)\nAbstract: We develop simple differentially private optimization algorithms that move along directions of (expected) descent to find an approximate second-order solution for nonconvex ERM. We use line search, mini-batching, and a two-phase strategy to improve the speed and practicality of the algorithm. Numerical experiments demonstrate the effectiveness of these approaches.",
+    "path": "papers/23/02/2302.04972.json",
+    "total_tokens": 575,
+    "translated_title": "平滑非凸ERM的差分隐私优化算法",
+    "translated_abstract": "我们研究了一种简单的差分隐私优化算法，沿着期望下降方向寻找非凸ERM的二阶近似解。我们使用线性搜索，小批量训练和两阶段策略来提高算法的速度和实用性。数值实验证明了这些方法的有效性。",
+    "tldr": "本论文提出了一种针对平滑非凸ERM的差分隐私优化算法，该算法采用线性搜索、小批量训练和两阶段策略等，能够有效提高算法速度。",
+    "en_tdlr": "This paper proposes a differentially private optimization algorithm for smooth nonconvex ERM, which uses line search, mini-batching, and a two-phase strategy to improve the algorithm speed and practicality. Numerical experiments demonstrate the effectiveness of these approaches."
+}

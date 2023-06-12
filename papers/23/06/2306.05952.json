@@ -1,0 +1,12 @@
+{
+    "title": "Overcoming Adversarial Attacks for Human-in-the-Loop Applications. (arXiv:2306.05952v1 [cs.LG])",
+    "abstract": "Including human analysis has the potential to positively affect the robustness of Deep Neural Networks and is relatively unexplored in the Adversarial Machine Learning literature. Neural network visual explanation maps have been shown to be prone to adversarial attacks. Further research is needed in order to select robust visualizations of explanations for the image analyst to evaluate a given model. These factors greatly impact Human-In-The-Loop (HITL) evaluation tools due to their reliance on adversarial images, including explanation maps and measurements of robustness. We believe models of human visual attention may improve interpretability and robustness of human-machine imagery analysis systems. Our challenge remains, how can HITL evaluation be robust in this adversarial landscape?",
+    "link": "http://arxiv.org/abs/2306.05952",
+    "context": "Title: Overcoming Adversarial Attacks for Human-in-the-Loop Applications. (arXiv:2306.05952v1 [cs.LG])\nAbstract: Including human analysis has the potential to positively affect the robustness of Deep Neural Networks and is relatively unexplored in the Adversarial Machine Learning literature. Neural network visual explanation maps have been shown to be prone to adversarial attacks. Further research is needed in order to select robust visualizations of explanations for the image analyst to evaluate a given model. These factors greatly impact Human-In-The-Loop (HITL) evaluation tools due to their reliance on adversarial images, including explanation maps and measurements of robustness. We believe models of human visual attention may improve interpretability and robustness of human-machine imagery analysis systems. Our challenge remains, how can HITL evaluation be robust in this adversarial landscape?",
+    "path": "papers/23/06/2306.05952.json",
+    "total_tokens": 775,
+    "translated_title": "克服针对人机交互应用的对抗攻击",
+    "translated_abstract": "包含人类分析可能对深度神经网络的强韧性产生积极影响，在对抗机器学习领域相对较少被探索。神经网络视觉解释图经常容易遭受对抗性攻击。为了让图像分析者评估给定模型，需要进一步研究选择稳健的解释可视化。这些因素极大地影响了人机交互（HITL）评估工具，因为它们依赖于对抗性图像，包括解释图和鲁棒性测量。我们相信，人类视觉注意力模型可以改善人机图像分析系统的可解释性和鲁棒性。我们面临的挑战是，在这种对抗性环境下，如何使HITL评估更加鲁棒。",
+    "tldr": "通过人类视觉注意力模型改善人机图像分析系统的可解释性和鲁棒性，克服针对人机交互应用的对抗攻击。",
+    "en_tdlr": "Overcoming adversarial attacks for Human-in-the-Loop applications, by using models of human visual attention to improve the interpretability and robustness of human-machine imagery analysis systems."
+}

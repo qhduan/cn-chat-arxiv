@@ -1,0 +1,12 @@
+{
+    "title": "Privacy- and Utility-Preserving NLP with Anonymized Data: A case study of Pseudonymization. (arXiv:2306.05561v1 [cs.CL])",
+    "abstract": "This work investigates the effectiveness of different pseudonymization techniques, ranging from rule-based substitutions to using pre-trained Large Language Models (LLMs), on a variety of datasets and models used for two widely used NLP tasks: text classification and summarization. Our work provides crucial insights into the gaps between original and anonymized data (focusing on the pseudonymization technique) and model quality and fosters future research into higher-quality anonymization techniques to better balance the trade-offs between data protection and utility preservation. We make our code, pseudonymized datasets, and downstream models publicly available",
+    "link": "http://arxiv.org/abs/2306.05561",
+    "context": "Title: Privacy- and Utility-Preserving NLP with Anonymized Data: A case study of Pseudonymization. (arXiv:2306.05561v1 [cs.CL])\nAbstract: This work investigates the effectiveness of different pseudonymization techniques, ranging from rule-based substitutions to using pre-trained Large Language Models (LLMs), on a variety of datasets and models used for two widely used NLP tasks: text classification and summarization. Our work provides crucial insights into the gaps between original and anonymized data (focusing on the pseudonymization technique) and model quality and fosters future research into higher-quality anonymization techniques to better balance the trade-offs between data protection and utility preservation. We make our code, pseudonymized datasets, and downstream models publicly available",
+    "path": "papers/23/06/2306.05561.json",
+    "total_tokens": 712,
+    "translated_title": "匿名化数据的隐私和效用保护：伪名化的案例研究",
+    "translated_abstract": "本研究调查了不同伪名化技术（从基于规则的替代到使用预训练的大型语言模型（LLMs））在用于两个广泛使用的NLP任务（文本分类和摘要）的各种数据集和模型上的有效性。我们的工作提供了关于原始数据与匿名化数据（重点放在伪名化技术上）和模型质量之间差距的重要见解，并促进了未来对更高质量的匿名化技术进行研究，以更好地平衡数据保护和效用保护之间的权衡。我们公开提供了我们的代码、伪名化数据集和下游模型。",
+    "tldr": "本研究研究了不同的伪名化技术在NLP任务中的效果，并提供了关于数据保护和效用保护之间权衡的见解。",
+    "en_tdlr": "This study investigates the effectiveness of different pseudonymization techniques in NLP tasks, and provides insights on balancing the trade-offs between data protection and utility preservation."
+}

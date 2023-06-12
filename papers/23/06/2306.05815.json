@@ -1,0 +1,12 @@
+{
+    "title": "Extending Kernel PCA through Dualization: Sparsity, Robustness and Fast Algorithms. (arXiv:2306.05815v1 [cs.LG])",
+    "abstract": "The goal of this paper is to revisit Kernel Principal Component Analysis (KPCA) through dualization of a difference of convex functions. This allows to naturally extend KPCA to multiple objective functions and leads to efficient gradient-based algorithms avoiding the expensive SVD of the Gram matrix. Particularly, we consider objective functions that can be written as Moreau envelopes, demonstrating how to promote robustness and sparsity within the same framework. The proposed method is evaluated on synthetic and real-world benchmarks, showing significant speedup in KPCA training time as well as highlighting the benefits in terms of robustness and sparsity.",
+    "link": "http://arxiv.org/abs/2306.05815",
+    "context": "Title: Extending Kernel PCA through Dualization: Sparsity, Robustness and Fast Algorithms. (arXiv:2306.05815v1 [cs.LG])\nAbstract: The goal of this paper is to revisit Kernel Principal Component Analysis (KPCA) through dualization of a difference of convex functions. This allows to naturally extend KPCA to multiple objective functions and leads to efficient gradient-based algorithms avoiding the expensive SVD of the Gram matrix. Particularly, we consider objective functions that can be written as Moreau envelopes, demonstrating how to promote robustness and sparsity within the same framework. The proposed method is evaluated on synthetic and real-world benchmarks, showing significant speedup in KPCA training time as well as highlighting the benefits in terms of robustness and sparsity.",
+    "path": "papers/23/06/2306.05815.json",
+    "total_tokens": 778,
+    "translated_title": "通过对偶化扩展核主成分分析：稀疏性、鲁棒性和快速算法",
+    "translated_abstract": "本文旨在通过对偶化凸差函数，重新审视核主成分分析（KPCA）。这种方法使KPCA自然地扩展到多目标函数，并导致避免计算格拉姆矩阵的昂贵SVD的高效梯度算法。特别地，我们考虑可以写成Moreau包络的目标函数，演示如何在同一框架内促进稳健性和稀疏性。所提出的方法在合成和实际基准测试中进行了评估，显示出KPCA训练时间显著加速，而且在稳健性和稀疏性方面具有优势。",
+    "tldr": "本文提出了一种对偶化扩展的核主成分分析方法，使KPCA自然地扩展到多目标函数，并导致避免计算格拉姆矩阵的昂贵SVD的高效梯度算法。该方法还能在同一框架内促进稳健性和稀疏性。",
+    "en_tdlr": "This paper proposes a dualization-based extension of Kernel Principal Component Analysis (KPCA) which naturally allows for multiple objective functions and efficient gradient-based algorithms without the need for SVD of the Gram matrix. The method is also demonstrated to promote robustness and sparsity within the same framework."
+}

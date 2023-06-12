@@ -1,0 +1,12 @@
+{
+    "title": "L0Learn: A Scalable Package for Sparse Learning using L0 Regularization. (arXiv:2202.04820v2 [cs.LG] UPDATED)",
+    "abstract": "We present L0Learn: an open-source package for sparse linear regression and classification using $\\ell_0$ regularization. L0Learn implements scalable, approximate algorithms, based on coordinate descent and local combinatorial optimization. The package is built using C++ and has user-friendly R and Python interfaces. L0Learn can address problems with millions of features, achieving competitive run times and statistical performance with state-of-the-art sparse learning packages. L0Learn is available on both CRAN and GitHub (https://cran.r-project.org/package=L0Learn and https://github.com/hazimehh/L0Learn).",
+    "link": "http://arxiv.org/abs/2202.04820",
+    "context": "Title: L0Learn: A Scalable Package for Sparse Learning using L0 Regularization. (arXiv:2202.04820v2 [cs.LG] UPDATED)\nAbstract: We present L0Learn: an open-source package for sparse linear regression and classification using $\\ell_0$ regularization. L0Learn implements scalable, approximate algorithms, based on coordinate descent and local combinatorial optimization. The package is built using C++ and has user-friendly R and Python interfaces. L0Learn can address problems with millions of features, achieving competitive run times and statistical performance with state-of-the-art sparse learning packages. L0Learn is available on both CRAN and GitHub (https://cran.r-project.org/package=L0Learn and https://github.com/hazimehh/L0Learn).",
+    "path": "papers/22/02/2202.04820.json",
+    "total_tokens": 721,
+    "translated_title": "L0Learn: 使用L0正则化的稀疏学习的可扩展软件包",
+    "translated_abstract": "我们提出了L0Learn：一个使用 $\\ell_0$ 正则化进行稀疏线性回归和分类的开源软件包。L0Learn实现了基于坐标下降和本地组合优化的可扩展的近似算法。该软件包使用C ++构建，并具有用户友好的R和Python接口。L0Learn能够解决具有数百万特征的问题，在与最先进的稀疏学习软件包相比获得有竞争力的运行时和统计性能。L0Learn在CRAN和GitHub上都可用（https://cran.r-project.org/package=L0Learn和https://github.com/hazimehh/L0Learn）。",
+    "tldr": "L0Learn是一个可以用于解决数百万特征问题的稀疏学习软件包，具有可扩展的近似算法和用户友好的R和Python接口。",
+    "en_tdlr": "L0Learn is a scalable package for solving sparse learning problems with millions of features using approximate algorithms based on coordinate descent and local combinatorial optimization. It has user-friendly R and Python interfaces and achieves competitive run times and statistical performance with state-of-the-art sparse learning packages."
+}

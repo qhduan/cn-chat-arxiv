@@ -1,0 +1,12 @@
+{
+    "title": "Asymptotically efficient one-step stochastic gradient descent. (arXiv:2306.05896v1 [math.ST])",
+    "abstract": "A generic, fast and asymptotically efficient method for parametric estimation is described. It is based on the stochastic gradient descent on the loglikelihood function corrected by a single step of the Fisher scoring algorithm. We show theoretically and by simulations in the i.i.d. setting that it is an interesting alternative to the usual stochastic gradient descent with averaging or the adaptative stochastic gradient descent.",
+    "link": "http://arxiv.org/abs/2306.05896",
+    "context": "Title: Asymptotically efficient one-step stochastic gradient descent. (arXiv:2306.05896v1 [math.ST])\nAbstract: A generic, fast and asymptotically efficient method for parametric estimation is described. It is based on the stochastic gradient descent on the loglikelihood function corrected by a single step of the Fisher scoring algorithm. We show theoretically and by simulations in the i.i.d. setting that it is an interesting alternative to the usual stochastic gradient descent with averaging or the adaptative stochastic gradient descent.",
+    "path": "papers/23/06/2306.05896.json",
+    "total_tokens": 612,
+    "translated_title": "渐进高效单步随机梯度下降法",
+    "translated_abstract": "本文描述了一种通用、快速和渐进高效的参数估计方法。它基于对数似然函数的随机梯度下降，纠正了Fisher得分算法的单一步骤。我们在独立同分布的情况下理论上和模拟实验中展示了它是与通常的随机梯度下降平均或自适应随机梯度下降有趣的替代方法。",
+    "tldr": "本论文提出了一种基于对数似然函数的随机梯度下降方法，结合单步的Fisher得分算法，实现了渐进高效的参数估计，是一种优秀的替代方法。",
+    "en_tdlr": "This paper proposes a stochastic gradient descent method based on the loglikelihood function, combined with a single step of the Fisher scoring algorithm, achieving asymptotically efficient parameter estimation and providing an excellent alternative to usual stochastic gradient descent with averaging or adaptive stochastic gradient descent."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "clustering an african hairstyle dataset using pca and k-means. (arXiv:2306.06061v1 [cs.CV])",
+    "abstract": "The adoption of digital transformation was not expressed in building an African face shape classifier. In this paper, an approach is presented that uses k-means to classify African women images. African women rely on beauty standards recommendations, personal preference, or the newest trends in hairstyles to decide on the appropriate hairstyle for them. In this paper, an approach is presented that uses K-means clustering to classify African women's images. In order to identify potential facial clusters, Haarcascade is used for feature-based training, and K-means clustering is applied for image classification.",
+    "link": "http://arxiv.org/abs/2306.06061",
+    "context": "Title: clustering an african hairstyle dataset using pca and k-means. (arXiv:2306.06061v1 [cs.CV])\nAbstract: The adoption of digital transformation was not expressed in building an African face shape classifier. In this paper, an approach is presented that uses k-means to classify African women images. African women rely on beauty standards recommendations, personal preference, or the newest trends in hairstyles to decide on the appropriate hairstyle for them. In this paper, an approach is presented that uses K-means clustering to classify African women's images. In order to identify potential facial clusters, Haarcascade is used for feature-based training, and K-means clustering is applied for image classification.",
+    "path": "papers/23/06/2306.06061.json",
+    "total_tokens": 604,
+    "translated_title": "利用PCA和K-means对非洲发型数据集进行聚类分析",
+    "translated_abstract": "数字化转型并没有在构建非洲面部形状分类器上得到表现。本文介绍了一种方法，使用K-means对非洲女性图像进行分类。非洲女性在选择合适的发型时，会依赖于美丽的标准建议，个人偏好或最新的发型趋势。文章使用Haarcascade进行基于特征训练，应用K-means聚类进行图像分类，以识别潜在的面部群集。",
+    "tldr": "本文提出了一种使用K-means进行非洲女性图像分类的方法，以便识别不同的面部群集和发型。",
+    "en_tdlr": "This paper presents an approach that uses K-means clustering to classify African women's images and identify potential facial clusters and hairstyles."
+}

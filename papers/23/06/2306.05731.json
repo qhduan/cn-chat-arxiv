@@ -1,0 +1,12 @@
+{
+    "title": "Multimodal Explainable Artificial Intelligence: A Comprehensive Review of Methodological Advances and Future Research Directions. (arXiv:2306.05731v1 [cs.AI])",
+    "abstract": "The current study focuses on systematically analyzing the recent advances in the field of Multimodal eXplainable Artificial Intelligence (MXAI). In particular, the relevant primary prediction tasks and publicly available datasets are initially described. Subsequently, a structured presentation of the MXAI methods of the literature is provided, taking into account the following criteria: a) The number of the involved modalities, b) The stage at which explanations are produced, and c) The type of the adopted methodology (i.e. mathematical formalism). Then, the metrics used for MXAI evaluation are discussed. Finally, a comprehensive analysis of current challenges and future research directions is provided.",
+    "link": "http://arxiv.org/abs/2306.05731",
+    "context": "Title: Multimodal Explainable Artificial Intelligence: A Comprehensive Review of Methodological Advances and Future Research Directions. (arXiv:2306.05731v1 [cs.AI])\nAbstract: The current study focuses on systematically analyzing the recent advances in the field of Multimodal eXplainable Artificial Intelligence (MXAI). In particular, the relevant primary prediction tasks and publicly available datasets are initially described. Subsequently, a structured presentation of the MXAI methods of the literature is provided, taking into account the following criteria: a) The number of the involved modalities, b) The stage at which explanations are produced, and c) The type of the adopted methodology (i.e. mathematical formalism). Then, the metrics used for MXAI evaluation are discussed. Finally, a comprehensive analysis of current challenges and future research directions is provided.",
+    "path": "papers/23/06/2306.05731.json",
+    "total_tokens": 734,
+    "translated_title": "多模态可解释人工智能：方法学进展和未来研究方向的综述",
+    "translated_abstract": "本研究系统地分析了多模态可解释人工智能（MXAI）领域的最新进展。特别是，首先描述了相关的主要预测任务和公开可用数据集。随后，提供了文献中MXAI方法的结构化介绍，考虑到以下标准：a）涉及的模态数量，b）产生解释的阶段，以及c）采用的方法论类型（即数学形式化）。然后，讨论了用于MXAI评估的度量标准。最后，提供了当前挑战和未来研究方向的全面分析。",
+    "tldr": "本文系统地分析了多模态可解释人工智能（MXAI）领域的最新进展和未来研究方向，从预测任务和数据集到MXAI方法和评估度量标准进行了全面介绍和讨论。",
+    "en_tdlr": "This paper systematically analyzes the recent advances and future research directions in the field of Multimodal eXplainable Artificial Intelligence (MXAI), providing a comprehensive overview from prediction tasks and datasets to MXAI methods and evaluation metrics."
+}

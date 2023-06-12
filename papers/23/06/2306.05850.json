@@ -1,0 +1,12 @@
+{
+    "title": "Deterministic equivalent of the Conjugate Kernel matrix associated to Artificial Neural Networks. (arXiv:2306.05850v1 [math.PR])",
+    "abstract": "We study the Conjugate Kernel associated to a multi-layer linear-width feed-forward neural network with random weights, biases and data. We show that the empirical spectral distribution of the Conjugate Kernel converges to a deterministic limit. More precisely we obtain a deterministic equivalent for its Stieltjes transform and its resolvent, with quantitative bounds involving both the dimension and the spectral parameter. The limiting equivalent objects are described by iterating free convolution of measures and classical matrix operations involving the parameters of the model.",
+    "link": "http://arxiv.org/abs/2306.05850",
+    "context": "Title: Deterministic equivalent of the Conjugate Kernel matrix associated to Artificial Neural Networks. (arXiv:2306.05850v1 [math.PR])\nAbstract: We study the Conjugate Kernel associated to a multi-layer linear-width feed-forward neural network with random weights, biases and data. We show that the empirical spectral distribution of the Conjugate Kernel converges to a deterministic limit. More precisely we obtain a deterministic equivalent for its Stieltjes transform and its resolvent, with quantitative bounds involving both the dimension and the spectral parameter. The limiting equivalent objects are described by iterating free convolution of measures and classical matrix operations involving the parameters of the model.",
+    "path": "papers/23/06/2306.05850.json",
+    "total_tokens": 691,
+    "translated_title": "与人工神经网络相关的共轭核矩阵的确定性等价",
+    "translated_abstract": "我们研究了与具有随机权重，偏置和数据的多层线性宽度前馈神经网络相关的共轭核。我们表明，共轭核的经验谱分布收敛到确定性极限。更准确地说，我们为其Stieltjes变换和其可解部分获得了确定性等价物，并将定量界限涉及模型的维度和谱参数。极限等价物可以通过迭代自由测量卷积和涉及模型参数的经典矩阵运算来描述。",
+    "tldr": "本论文研究了带有随机权重、偏置和数据的多层前馈神经网络中与之相关的共轭核，发现其经验谱分布会收敛到一个确定性的极限，通过经典矩阵运算可以描述这种极限等价物。",
+    "en_tdlr": "This paper studies the Conjugate Kernel associated with a multi-layer feed-forward neural network with random weights, biases and data, and finds that its empirical spectral distribution converges to a deterministic limit, which can be described by classical matrix operations."
+}

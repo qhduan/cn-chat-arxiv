@@ -2,112 +2,217 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Zero-sum stopper vs. singular-controller games with constrained control directions.](http://arxiv.org/abs/2306.05113) | 本文研究了一类有限方向控制条件下的零和博弈，使用逼近程序证明其游戏价值的存在，得出了stopper的最优策略。 |
-| [^2] | [Losing a Gold Mine?.](http://arxiv.org/abs/2306.04946) | 孟加拉国贫民窟居民在COVID-19大流行中具有一定的免疫能力，这可能会对疫情防控策略产生影响，但目前研究不足。建议改善大流行研究的相关政策和方法。 |
-| [^3] | [Perspectives in closed-loop supply chains network design considering risk and uncertainty factors.](http://arxiv.org/abs/2306.04819) | 本文考察了以前的研究，以风险和不确定性为背景，提供未来研究的建设性前景。通过分析106篇文献，确定了处理不确定性的适当方法，以及解决不确定性CLSCND问题的算法。 |
-| [^4] | [Chevron's Sliding Scale in Wyeth v. Levine, 129 S. Ct. 1187 (2009).](http://arxiv.org/abs/2306.04771) | 最高法院在Wyeth案中未能调和反对先占的解释推定与对机构合理法定解释的Chevron原则之间的竞争，并在实践中应用两个原则却没有给予充分的重视。 |
-| [^5] | [Abnormal Trading Detection in the NFT Market.](http://arxiv.org/abs/2306.04643) | 本文提出了一种通过聚类算法检测非同质化代币（NFT）交易市场中的异常行为的方法，并探讨了监管对减少欺诈行为的影响。 |
-| [^6] | [Study on Intelligent Forecasting of Credit Bond Default Risk.](http://arxiv.org/abs/2305.12142) | 该论文提出了一种智能预测信用债违约风险的框架，可以提供精确的按天预测的违约风险预测，以维护中国债券市场的稳定和健康发展。 |
-| [^7] | [A new encoding of implied volatility surfaces for their synthetic generation.](http://arxiv.org/abs/2211.12892) | 本文提出了一种新编码方式，可以更好地生成隐含波动率曲面，提高了情境生成的解释性和波动率外推的精度，并且可以根据编码的潜在空间直接推断出指数中属于该指数的股票的隐含波动率曲面，从而改善金融衍生品风险管理的效果。 |
+| [^1] | [Learning Not to Spoof.](http://arxiv.org/abs/2306.06087) | 该论文提出了学习不进行欺骗的方法，并考虑了智能股票交易代理的欺诈行为识别和避免。 |
+| [^2] | [FinGPT: Open-Source Financial Large Language Models.](http://arxiv.org/abs/2306.06031) | FinGPT是一个开源的金融大型语言模型，提供了可访问和透明的资源来开发金融LLMs，其重要性在于自动数据筛选管道和轻量级低秩适应技术。 |
+| [^3] | [Agent market orders representation through a contrastive learning approach.](http://arxiv.org/abs/2306.05987) | 通过对比学习方法，本研究构建了一个自监督学习模型，用于学习代理市场订单的表示。进一步地，我们使用K均值聚类算法对代理订单的学习表示向量进行聚类，以确定每个簇中的不同行为类型。 |
+| [^4] | [An Empirical Analysis of the Effect of Ballot Truncation on Ranked-Choice Electoral Outcomes.](http://arxiv.org/abs/2306.05966) | 本研究分析了1171个真实世界的排名选举数据，发现如果截选级别至少为三，则限制投票上的候选人数量很少影响选举获胜者。 |
+| [^5] | [The Relationship Between Burnout Operators with the Functions of Family Tehran Banking Melli Iran Bank in 2015.](http://arxiv.org/abs/2306.05867) | 本研究探讨了伊朗国家银行员工的职业倦怠与家庭功能之间的关系。 |
+| [^6] | [Interbank Decisions and Margins of Stability: an Agent-Based Stock-Flow Consistent Approach.](http://arxiv.org/abs/2306.05860) | 本篇论文以代理人模型为基础，研究了现代支付系统的运作，发现赤字银行和盈余银行之间的成熟度错配威胁了银行间市场的有效性和金融稳定，同时传统货币政策的有效性也受到了影响。 |
+| [^7] | [Causality between Sentiment and Cryptocurrency Prices.](http://arxiv.org/abs/2306.05803) | 本研究通过将主题建模和情感分析相结合，建立了关于加密货币的多个叙述，并发现这些叙述与加密货币价格之间存在强大的联系。 |
+| [^8] | [The far-reaching effects of bombing on fertility in mid-20th century Japan.](http://arxiv.org/abs/2306.05770) | 本研究探究了空袭对20世纪日本生育率的深远影响，并证明了战争破坏的区域影响即使在未直接受影响的地区也存在。 |
+| [^9] | [Monte Carlo simulation for Barndorff-Nielsen and Shephard model under change of measure.](http://arxiv.org/abs/2306.05750) | 本文基于测度变换提出两种模拟方法，解决了Barndorff-Nielsen和Shephard模型下具有无限积极跳跃但非鞅情况下计算期权价格的问题。 |
+| [^10] | [Maximally Machine-Learnable Portfolios.](http://arxiv.org/abs/2306.05568) | 本文通过 MACE 算法，以随机森林和受限岭回归优化组合权重，实现了最大程度的可预测性和盈利能力，适用于任何预测算法和预测器集，可以处理大型组合。 |
+| [^11] | [Equilibrium in Functional Stochastic Games with Mean-Field Interaction.](http://arxiv.org/abs/2306.05433) | 该论文提出了一种新的方法来明确推导出带有平均场相互作用的功能随机博弈的纳什均衡，同时证明了均衡的收敛性和存在的条件比有限玩家博弈的条件更少。 |
+| [^12] | [Hierarchical forecasting for aggregated curves with an application to day-ahead electricity price auctions.](http://arxiv.org/abs/2305.16255) | 本文提出了一种协调方法来提高聚合曲线的预测准确性，并在德国日前电力竞拍市场进行了实证研究。 |
+| [^13] | [How to handle the COS method for option pricing.](http://arxiv.org/abs/2303.16012) | 介绍了用于欧式期权定价的 Fourier余弦展开 (COS) 方法，通过指定截断范围和项数N进行逼近，文章提出明确的N的上界，对密度平滑并指数衰减的情况，COS方法的收敛阶数至少是指数收敛阶数。 |
+| [^14] | [Ordered Reference Dependent Choice.](http://arxiv.org/abs/2105.12915) | 本文研究了参考依赖性选择在捕捉风险、时间和社会偏好方面的应用，从而揭示了参考依赖性选择在标准行为假设中的内在依赖性。 |
 
 # 详细
 
-[^1]: 有限方向控制条件下的零和stopper vs. singular-controller博弈
+[^1]: 学会不进行欺骗
 
-    Zero-sum stopper vs. singular-controller games with constrained control directions. (arXiv:2306.05113v1 [math.OC])
+    Learning Not to Spoof. (arXiv:2306.06087v1 [cs.LG])
 
-    [http://arxiv.org/abs/2306.05113](http://arxiv.org/abs/2306.05113)
+    [http://arxiv.org/abs/2306.06087](http://arxiv.org/abs/2306.06087)
 
-    本文研究了一类有限方向控制条件下的零和博弈，使用逼近程序证明其游戏价值的存在，得出了stopper的最优策略。
-
-    
-
-    本文考虑了一类零和stopper vs. singular-controller博弈，在该博弈中控制者只能作用于受控扩散的 $d_0<d$ 个坐标子集。由于控制方向的限制，这些博弈不属于最近研究的变分方法框架。我们基于受控扩散过程的 $L^1$ -稳定性估计和适当停时的几乎必然收敛来开发一种逼近程序。在收益函数连续增长的条件下，这样可以证明游戏价值的存在并获得stopper的最优策略。这类博弈是单智能体奇异控制问题的自然推广，其控制受到类似的限制。
-
-    We consider a class of zero-sum stopper vs.\ singular-controller games in which the controller can only act on a subset $d_0<d$ of the $d$ coordinates of a controlled diffusion. Due to the constraint on the control directions these games fall outside the framework of recently studied variational methods. In this paper we develop an approximation procedure, based on $L^1$-stability estimates for the controlled diffusion process and almost sure convergence of suitable stopping times. That allows us to prove existence of the game's value and to obtain an optimal strategy for the stopper, under continuity and growth conditions on the payoff functions. This class of games is a natural extension of (single-agent) singular control problems, studied in the literature, with similar constraints on the admissible controls.
-    
-[^2]: 失去一个金矿？——孟加拉国贫民窟对COVID-19的免疫能力调查
-
-    Losing a Gold Mine?. (arXiv:2306.04946v1 [econ.GN])
-
-    [http://arxiv.org/abs/2306.04946](http://arxiv.org/abs/2306.04946)
-
-    孟加拉国贫民窟居民在COVID-19大流行中具有一定的免疫能力，这可能会对疫情防控策略产生影响，但目前研究不足。建议改善大流行研究的相关政策和方法。
+    该论文提出了学习不进行欺骗的方法，并考虑了智能股票交易代理的欺诈行为识别和避免。
 
     
 
-    2020-21年COVID-19大流行期间，针对孟加拉国达卡城贫民窟居民进行了四轮调查，引发了关于这些居民是否拥有某种形式的COVID-19免疫力的疑问。如果孟加拉国的工人贫困阶层实际上对COVID-19具有免疫力，那么为什么这个问题没有得到更积极的调查？我们阐述了一些有关这些大流行病问题的解释，并引起了知识精英和公共政策的注意，提出了大流行研究需要的修改建议。
+    随着基于强化学习（RL）的智能交易代理越来越普及，确保RL代理遵守法律、法规和人类行为期望变得更加重要。本文考虑了一系列实验，其中智能股票交易代理最大化利润，但可能无意中学会欺骗其参与的市场。本文首先引入手动编码的欺诈代理到一个多代理市场模拟中，并学习识别欺诈活动序列。然后，本文将手动编码的欺骗交易员替换为一个简单的最大化利润的RL代理，观察它是否会独立地学习欺诈行为，并尝试避免它。
 
-    Four rounds of surveys of slum dwellers in Dhaka city during the 2020-21 COVID-19 pandemic raise questions about whether the slum dwellers possess some form of immunity to the effects of COVID-19? If the working poor of Bangladesh are practically immune to COVID-19, why has this question not been more actively investigated? We shed light on some explanations for these pandemic questions and draw attention to the role of intellectual elites and public policy, suggesting modifications needed for pandemic research.
+    As intelligent trading agents based on reinforcement learning (RL) gain prevalence, it becomes more important to ensure that RL agents obey laws, regulations, and human behavioral expectations. There is substantial literature concerning the aversion of obvious catastrophes like crashing a helicopter or bankrupting a trading account, but little around the avoidance of subtle non-normative behavior for which there are examples, but no programmable definition. Such behavior may violate legal or regulatory, rather than physical or monetary, constraints.  In this article, I consider a series of experiments in which an intelligent stock trading agent maximizes profit but may also inadvertently learn to spoof the market in which it participates. I first inject a hand-coded spoofing agent to a multi-agent market simulation and learn to recognize spoofing activity sequences. Then I replace the hand-coded spoofing trader with a simple profit-maximizing RL agent and observe that it independently 
     
-[^3]: 考虑风险和不确定性因素的闭环供应链网络设计视角
+[^2]: FinGPT：开源金融大型语言模型
 
-    Perspectives in closed-loop supply chains network design considering risk and uncertainty factors. (arXiv:2306.04819v1 [econ.GN])
+    FinGPT: Open-Source Financial Large Language Models. (arXiv:2306.06031v1 [q-fin.ST])
 
-    [http://arxiv.org/abs/2306.04819](http://arxiv.org/abs/2306.04819)
+    [http://arxiv.org/abs/2306.06031](http://arxiv.org/abs/2306.06031)
 
-    本文考察了以前的研究，以风险和不确定性为背景，提供未来研究的建设性前景。通过分析106篇文献，确定了处理不确定性的适当方法，以及解决不确定性CLSCND问题的算法。
-
-    
-
-    闭环供应链各个阶段的风险和不确定性大大增加了闭环网络的复杂性，并降低了过程效率，阻碍了产业和循环经济的可持续和弹性发展。近年来，学术界对闭环供应链风险和不确定性分析越来越感兴趣，但还没有全面的综述文章，重点关注考虑风险和不确定性的闭环网络设计。本文考察了以前的研究，以风险和不确定性为背景，提供未来研究的建设性前景。我们选择了2004年至2022年在Scopus数据库中发表的106篇论文。我们分析了CLSC网络的风险和不确定性来源，并确定了处理不确定性的适当方法，以及解决不确定性CLSCND问题的算法。我们还阐述了闭环供应链设计目标的演变。
-
-    Risk and uncertainty in each stage of CLSC have greatly increased the complexity and reduced process efficiency of the closed-loop networks, impeding the sustainable and resilient development of industries and the circular economy. Recently, increasing interest in academia have been raised on the risk and uncertainty analysis of closed-loop supply chain, yet there is no comprehensive review paper focusing on closed-loop network design considering risk and uncertainty. This paper examines previous research on the domain of closed-loop network design under risk and uncertainties to provide constructive prospects for future study. We selected 106 papers published in the Scopus database from the year 2004 to 2022. We analyse the source of risk and uncertainties of the CLSC network and identified appropriate methods for handling uncertainties in addition to algorithms for solving uncertain CLSCND problems. We also illustrate the evolution of objectives for designing a closed-loop supply cha
-    
-[^4]: Chevron的滑动规模在Wyeth v. Levine, 129 S. Ct. 1187 (2009)中的应用
-
-    Chevron's Sliding Scale in Wyeth v. Levine, 129 S. Ct. 1187 (2009). (arXiv:2306.04771v1 [econ.GN])
-
-    [http://arxiv.org/abs/2306.04771](http://arxiv.org/abs/2306.04771)
-
-    最高法院在Wyeth案中未能调和反对先占的解释推定与对机构合理法定解释的Chevron原则之间的竞争，并在实践中应用两个原则却没有给予充分的重视。
+    FinGPT是一个开源的金融大型语言模型，提供了可访问和透明的资源来开发金融LLMs，其重要性在于自动数据筛选管道和轻量级低秩适应技术。
 
     
 
-    在Wyeth v. Levine案件中，最高法院再次未能调和反对先占的解释推定和对机构合理法定解释的Chevron原则之间的竞争。法院没有解决两个原则指向相反结果的问题，而是继续其近期的做法，不彻底地应用两个原则，挑剔地开出例外，并没有给予它们充分的重视。这项分析将Wyeth置于法院最近的先占性决定的更大框架之中，以解释法院不愿解决冲突的踌躇不前。分析认为，法院出于对国会意图的尊重和对联邦主义的保护的关切，将反对先占的假设和Chevron原则应用于一个滑动规模上。当国会意图很明确，但只是模糊的范围时，法院通常非常顺从于机构的解释。
+    大型语言模型（LLMs）展示了在各个领域革新自然语言处理任务的潜力，引起了金融领域的浓厚兴趣。获得高质量的金融数据是金融LLMs（FinLLMs）的第一个挑战。在这篇论文中，我们提出了一个针对金融领域的开源大型语言模型FinGPT。与专有模型不同，FinGPT采用数据为中心的方法，为研究人员和从业者提供可访问和透明的资源来开发他们的金融LLMs。我们强调自动数据筛选管道和轻量级低秩适应技术在建立FinGPT中的重要性。此外，我们展示了几个潜在的应用作为用户的基础，如机器顾问、算法交易和论 。
 
-    In Wyeth v. Levine the Supreme Court once again failed to reconcile the interpretive presumption against preemption with the sometimes competing Chevron doctrine of deference to agencies' reasonable statutory interpretations. Rather than resolve the issue of which principle should govern where the two principles point toward opposite results, the Court continued its recent practice of applying both principles halfheartedly, carving exceptions, and giving neither its proper weight.  This analysis situates Wyeth within the larger framework of the Court's recent preemption decisions in an effort to explain the Court's hesitancy to resolve the conflict. The analysis concludes that the Court, motivated by its strong respect for congressional intent and concern to protect federalism, applies both the presumption against preemption and the Chevron doctrine on a sliding scale. Where congressional intent to preempt is clear and vague only as to scope, the Court is usually quite deferential to a
+    Large language models (LLMs) have shown the potential of revolutionizing natural language processing tasks in diverse domains, sparking great interest in finance. Accessing high-quality financial data is the first challenge for financial LLMs (FinLLMs). While proprietary models like BloombergGPT have taken advantage of their unique data accumulation, such privileged access calls for an open-source alternative to democratize Internet-scale financial data.  In this paper, we present an open-source large language model, FinGPT, for the finance sector. Unlike proprietary models, FinGPT takes a data-centric approach, providing researchers and practitioners with accessible and transparent resources to develop their FinLLMs. We highlight the importance of an automatic data curation pipeline and the lightweight low-rank adaptation technique in building FinGPT. Furthermore, we showcase several potential applications as stepping stones for users, such as robo-advising, algorithmic trading, and l
     
-[^5]: NFT市场中的异常交易检测
+[^3]: 一种基于对比学习方法的代理市场订单表示
 
-    Abnormal Trading Detection in the NFT Market. (arXiv:2306.04643v1 [q-fin.TR])
+    Agent market orders representation through a contrastive learning approach. (arXiv:2306.05987v1 [q-fin.ST])
 
-    [http://arxiv.org/abs/2306.04643](http://arxiv.org/abs/2306.04643)
+    [http://arxiv.org/abs/2306.05987](http://arxiv.org/abs/2306.05987)
 
-    本文提出了一种通过聚类算法检测非同质化代币（NFT）交易市场中的异常行为的方法，并探讨了监管对减少欺诈行为的影响。
-
-    
-
-    非同质化代币（NFT）市场近年来呈爆炸性增长。据DappRadar统计，最大的NFT市场OpenSea的总交易额在2023年2月达到了347亿美元。然而，NFT市场大部分是未受监管的，存在着重大的洗钱、欺诈和虚假交易等问题。在本文中，我们试图揭示常见的欺诈行为，如虚拟交易，这可能会误导其他交易者。我们使用市场数据从网络、货币和时间的角度设计量化特征，并将其输入到基于K均值聚类的无监督学习算法中，以对交易者进行分类。最后，我们讨论了聚类结果的重要性以及如何通过监管来减少不良行为。我们的工作可能有助于重新建立交易者的信任。
-
-    The Non-Fungible-Token (NFT) market has experienced explosive growth in recent years. According to DappRadar, the total transaction volume on OpenSea, the largest NFT marketplace, reached 34.7 billion dollars in February 2023. However, the NFT market is mostly unregulated and there are significant concerns about money laundering, fraud and wash trading. Amateur traders and retail investors comprise a significant fraction of the NFT market. Hence it is important that researchers highlight the relevant risks involved in NFT trading. In this paper, we attempt to uncover common fraudulent behaviors such as wash trading that could mislead other traders. Using market data, we design quantitative features from the network, monetary, and temporal perspectives that are fed into K-means clustering unsupervised learning algorithm to sort traders into groups. Lastly, we discuss the clustering results' significance and how regulations can reduce undesired behaviors. Our work can potentially help re
-    
-[^6]: 关于信用债违约风险的智能预测研究
-
-    Study on Intelligent Forecasting of Credit Bond Default Risk. (arXiv:2305.12142v1 [q-fin.RM])
-
-    [http://arxiv.org/abs/2305.12142](http://arxiv.org/abs/2305.12142)
-
-    该论文提出了一种智能预测信用债违约风险的框架，可以提供精确的按天预测的违约风险预测，以维护中国债券市场的稳定和健康发展。
+    通过对比学习方法，本研究构建了一个自监督学习模型，用于学习代理市场订单的表示。进一步地，我们使用K均值聚类算法对代理订单的学习表示向量进行聚类，以确定每个簇中的不同行为类型。
 
     
 
-    中国债券市场中的信用风险越来越明显，这为信用债投资者带来了日益升级的违约风险。鉴于当前债券信息披露不完整和不准确的情况，及时跟踪和预测个别信用债违约风险已成为维护市场稳定和保障健康发展的必要手段。本文提出了一种智能预测违约风险的框架，可提供精确的按天预测的违约风险预测。在这个框架中，我们首先总结影响信用债违约的因素并构建了一个风险指数体系。然后，我们采用了一种基于债券违约风险演化特征的组合违约概率注释方法。该方法考虑了成熟或违约债券的每日违约风险注释的变分贝叶斯高斯混合估算、市场指数估算和违约趋势反向估算的加权平均值。
+    本研究通过访问Euronext的CAC40数据中的标记订单，分析代理在市场中根据其下达的订单的行为。本研究构建了一个自监督学习模型，使用三元组损失来有效地学习代理市场订单的表示。通过获取这个学习表示，各种下游任务变得可行。本研究使用K均值聚类算法对代理订单的学习表示向量进行聚类，以确定每个簇中的不同行为类型。
 
-    Credit risk in the China's bond market has become increasingly evident, creating a progressively escalating risk of default for credit bond investors. Given the current incomplete and inaccurate bond information disclosure, timely tracking and forecasting the individual credit bond default risks have become essential to maintain market stability and ensure healthy development. This paper proposes an Intelligent Forecasting Framework for Default Risk that provides precise day-by-day default risk prediction. In this framework, we first summarize the factors that impact credit bond defaults and construct a risk index system. Then, we employ a combined default probability annotation method based on the evolutionary characteristics of bond default risk. The method considers the weighted average of Variational Bayesian Gaussian Mixture estimation, Market Index estimation, and Default Trend Backward estimation for daily default risk annotation of matured or defaulted bonds according to the ri
+    Due to the access to the labeled orders on the CAC40 data from Euronext, we are able to analyse agents' behaviours in the market based on their placed orders. In this study, we construct a self-supervised learning model using triplet loss to effectively learn the representation of agent market orders. By acquiring this learned representation, various downstream tasks become feasible. In this work, we utilise the K-means clustering algorithm on the learned representation vectors of agent orders to identify distinct behaviour types within each cluster.
     
-[^7]: 隐含波动率曲面的新编码及其合成生成
+[^4]: 一项关于截选票对排名选举结果影响的实证分析
 
-    A new encoding of implied volatility surfaces for their synthetic generation. (arXiv:2211.12892v2 [q-fin.PR] UPDATED)
+    An Empirical Analysis of the Effect of Ballot Truncation on Ranked-Choice Electoral Outcomes. (arXiv:2306.05966v1 [econ.GN])
 
-    [http://arxiv.org/abs/2211.12892](http://arxiv.org/abs/2211.12892)
+    [http://arxiv.org/abs/2306.05966](http://arxiv.org/abs/2306.05966)
 
-    本文提出了一种新编码方式，可以更好地生成隐含波动率曲面，提高了情境生成的解释性和波动率外推的精度，并且可以根据编码的潜在空间直接推断出指数中属于该指数的股票的隐含波动率曲面，从而改善金融衍生品风险管理的效果。
+    本研究分析了1171个真实世界的排名选举数据，发现如果截选级别至少为三，则限制投票上的候选人数量很少影响选举获胜者。
 
     
 
-    在金融术语中，隐含波动率曲面可以通过其期限结构、偏度和总体波动率水平来描述。我们使用PCA变分自编码器模型将这些描述符完美地表示为三维潜空间。我们的新编码对于合成曲面生成带来了显着的益处，其中（i）情境生成更易解释；（ii）波动率外推实现更高精度；（iii）我们提出了一种解决方案，通过对编码的潜在空间建模来直接从指数向属于该指数的股票推断出其隐含波动率曲面。所有这些应用程序，特别是后者，具有在数据稀缺时改善金融衍生品风险管理的潜力。
+    在排名选举中，选民投出偏好选票，提供候选人的排名。排名选举方法通过使用选民偏好来模拟一系列的决胜选举来选择获胜者。某些使用排名选举的司法管辖区限制选民在选票上排名的候选人数量，实施我们所称的截选级别，即选民被允许排名的候选人数。在固定的选民偏好下，如果我们实施不同的截选级别，选举的获胜者可能会改变。我们使用1171个真实世界的排名选举数据库，实证分析了在排名选举中实施不同的截选级别可能产生的影响。我们的普遍发现是，如果截选级别至少为三，则限制投票上的候选人数量很少影响选举获胜者。
 
-    In financial terms, an implied volatility surface can be described by its term structure, its skewness and its overall volatility level. We use a PCA variational auto-encoder model to perfectly represent these descriptors into a latent space of three dimensions. Our new encoding brings significant benefits for synthetic surface generation, in that (i) scenario generation is more interpretable; (ii) volatility extrapolation achieve better accuracy; and, (iii) we propose a solution to infer implied volatility surfaces of a stock from an index to which it belongs directly by modelling their relationship on the latent space of the encoding. All these applications, and the latter in particular, have the potential to improve risk management of financial derivatives whenever data is scarce.
+    In ranked-choice elections voters cast preference ballots which provide a voter's ranking of the candidates. The method of ranked-choice voting (RCV) chooses a winner by using voter preferences to simulate a series of runoff elections. Some jurisdictions which use RCV limit the number of candidates that voters can rank on the ballot, imposing what we term a truncation level, which is the number of candidates that voters are allowed to rank. Given fixed voter preferences, the winner of the election can change if we impose different truncation levels. We use a database of 1171 real-world ranked-choice elections to empirically analyze the potential effects of imposing different truncation levels in ranked-choice elections. Our general finding is that if the truncation level is at least three then restricting the number of candidates which can be ranked on the ballot rarely affects the election winner.
+    
+[^5]: 2015年伊朗国家银行银行家的职业倦怠与家庭功能的关系研究
+
+    The Relationship Between Burnout Operators with the Functions of Family Tehran Banking Melli Iran Bank in 2015. (arXiv:2306.05867v1 [econ.GN])
+
+    [http://arxiv.org/abs/2306.05867](http://arxiv.org/abs/2306.05867)
+
+    本研究探讨了伊朗国家银行员工的职业倦怠与家庭功能之间的关系。
+
+    
+
+    本研究旨在探讨职业倦怠与伊朗国家银行员工家庭功能之间的关系。采用适当的科学方法，通过详细的问卷调查选择了该组织中的一些员工作为样本，并收集了有关职业倦怠和家庭功能的合适数据。样本人数为314名伊朗国家银行贷款主管，他们在银行的服务年限均超过5年，已婚，男性。使用Maslach职业倦怠问卷和家庭功能问卷进行描述性统计数据统计。研究结果表明
+
+    In this study, the relationship between burnout and family functions of the Melli Iran Bank staff will be studied. A number of employees within the organization using appropriate scientific methods as the samples were selected by detailed questionnaire and the appropriate data is collected burnout and family functions. The method used descriptive statistical population used for this study consisted of 314 bank loan officers in branches of Melli Iran Bank of Tehran province and all the officials at the bank for >5 years of service at Melli Iran Bank branches in Tehran. They are married and men constitute the study population. The Maslach Burnout Inventory in the end internal to 0/90 alpha emotional exhaustion, depersonalization and low personal accomplishment Cronbach alpha of 0/79 and inventory by 0/71 within the last family to solve the problem 0/70, emotional response 0/51, touch 0/70, 0/69 affective involvement, roles, 0/59, 0/68 behavior is controlled. The results indicate that the
+    
+[^6]: 银行间决策和稳定边界: 一种基于代理人的股-流一致性方法的研究(arXiv:2306.05860v1 [econ.GN])
+
+    Interbank Decisions and Margins of Stability: an Agent-Based Stock-Flow Consistent Approach. (arXiv:2306.05860v1 [econ.GN])
+
+    [http://arxiv.org/abs/2306.05860](http://arxiv.org/abs/2306.05860)
+
+    本篇论文以代理人模型为基础，研究了现代支付系统的运作，发现赤字银行和盈余银行之间的成熟度错配威胁了银行间市场的有效性和金融稳定，同时传统货币政策的有效性也受到了影响。
+
+    
+
+    本研究通过银行成熟度错配行为的视角，研究现代支付系统的运作，并探讨银行拒绝滚动短期银行间负债对金融稳定的影响。在基于代理人的股-流一致性框架下，银行在两个不同成熟期的银行间市场中进行交易，即隔夜市场和期限市场。我们比较了两种银行间匹配情景，以评估依赖于净稳定资金比率规定的银行特定成熟度目标，对银行间市场动态和传统货币政策有效性的影响。研究结果表明，赤字和盈余银行之间的成熟度错配损害了银行间市场的效率，并增加了对中央银行的常备措施的依赖。货币政策利率调控也变得不那么有效。该研究还揭示了银行业中的双重稳定性配置。
+
+    This study investigates the functioning of modern payment systems through the lens of banks' maturity mismatch practices, and it examines the effects of banks' refusal to roll over short-term interbank liabilities on financial stability. Within an agent-based stock-flow consistent framework, banks can engage in two segments of the interbank market that differ in maturity, overnight and term. We compare two interbank matching scenarios to assess how bank-specific maturity targets, dependent on the dictates of the Net Stable Funding Ratio, impact the dynamics of the interbank market and the effectiveness of conventional monetary policies. The findings reveal that maturity misalignment between deficit and surplus banks compromises the interbank market's efficiency and increases reliance on the central bank's standing facilities. Monetary policy interest-rate steering practices also become less effective. The study also uncovers a dual stability-based configuration in the banking sector, r
+    
+[^7]: 情感和加密货币价格之间的因果关系
+
+    Causality between Sentiment and Cryptocurrency Prices. (arXiv:2306.05803v1 [q-fin.CP])
+
+    [http://arxiv.org/abs/2306.05803](http://arxiv.org/abs/2306.05803)
+
+    本研究通过将主题建模和情感分析相结合，建立了关于加密货币的多个叙述，并发现这些叙述与加密货币价格之间存在强大的联系。
+
+    
+
+    本研究调查了微博平台（Twitter）传递的叙述与加密资产价值之间的关系。我们的研究采用了一种独特的技术，将短文本的主题建模与情感分析相结合，建立了关于加密货币的叙述。首先，我们使用了一种无监督的机器学习算法，从Twitter的大规模和嘈杂文本数据中发现潜在主题，然后我们揭示了4-5个与加密货币相关的叙述，包括与加密货币相关的金融投资、技术进步、金融和政治监管、加密资产和媒体报道。在许多情况下，我们注意到我们的叙述与加密货币价格之间存在强大的联系。我们的工作将最新的经济学创新——叙事经济学与主题建模和情感分析相结合的新领域联系起来，以关联消费者行为和叙述。
+
+    This study investigates the relationship between narratives conveyed through microblogging platforms, namely Twitter, and the value of crypto assets. Our study provides a unique technique to build narratives about cryptocurrency by combining topic modelling of short texts with sentiment analysis. First, we used an unsupervised machine learning algorithm to discover the latent topics within the massive and noisy textual data from Twitter, and then we revealed 4-5 cryptocurrency-related narratives, including financial investment, technological advancement related to crypto, financial and political regulations, crypto assets, and media coverage. In a number of situations, we noticed a strong link between our narratives and crypto prices. Our work connects the most recent innovation in economics, Narrative Economics, to a new area of study that combines topic modelling and sentiment analysis to relate consumer behaviour to narratives.
+    
+[^8]: 二战期间轰炸对20世纪日本生育率的深远影响
+
+    The far-reaching effects of bombing on fertility in mid-20th century Japan. (arXiv:2306.05770v1 [econ.GN])
+
+    [http://arxiv.org/abs/2306.05770](http://arxiv.org/abs/2306.05770)
+
+    本研究探究了空袭对20世纪日本生育率的深远影响，并证明了战争破坏的区域影响即使在未直接受影响的地区也存在。
+
+    
+
+    战争和冲突之后的生育变化在全球范围内得到了观察。本研究旨在研究区域战争破坏是否会影响战后生育，即使是未直接受到影响但靠近受损地区的地区。为了达到这个目的，我们利用了日本二战期间的空袭经历。利用1935年和1947年近畿地区的市町村级别生育数据以及城市空袭损失数据，我们发现轰炸对于15公里内城镇和乡村的战后生育率存在影响，尽管这些地区未直接受到损害。然而，间接影响的方向是混合的。估计结果表明，邻近城市的严重空袭增加了生育率，而较轻的空袭则降低了生育率。此外，拟实验法的结果表明，严重的空袭恐惧在战后期间增加了生育率。本研究为战后生育变化的文献提供了证据，即轰炸对于生育率有深远影响，即使是被战争损害间接影响的地区。
+
+    Fertility changes after wars and conflicts have been observed worldwide. This study examines whether regional war damage affects postwar fertility even in areas that were not directly affected but were close to the damaged areas. In order to accomplish this, we exploit the air-raid experience in Japan during World War II. Using the municipality-level fertility data in the Kinki region in 1935 and 1947 and the data on damages from air raids in cities, we find the effects of bombing on postwar fertility in towns and villages within 15 kilometers, despite no direct damages. However, the direction of the indirect effects is mixed. The estimation results suggest that severe air raids in neighboring cities increased fertility, whereas minor air raids decreased it. Moreover, the results of the quasi-experimental approach indicate that intense fears of air raids increased the fertility rate in the postwar period. Our study contributes to the literature on fertility changes in the postwar perio
+    
+[^9]: Barndorff-Nielsen和Shephard模型在测度变换下的蒙特卡洛模拟
+
+    Monte Carlo simulation for Barndorff-Nielsen and Shephard model under change of measure. (arXiv:2306.05750v1 [q-fin.CP])
+
+    [http://arxiv.org/abs/2306.05750](http://arxiv.org/abs/2306.05750)
+
+    本文基于测度变换提出两种模拟方法，解决了Barndorff-Nielsen和Shephard模型下具有无限积极跳跃但非鞅情况下计算期权价格的问题。
+
+    
+
+    Barndorff-Nielsen和Shephard模型是代表性的跳跃型随机波动率模型。然而，在具有无限积极跳跃但非鞅情况下，尚无方法计算期权价格。本文针对该情况，基于测度变换开发了两种模拟方法，并进行了一些数值实验。
+
+    The Barndorff-Nielsen and Shephard model is a representative jump-type stochastic volatility model. Still, no method exists to compute option prices numerically for the non-martingale case with infinite active jumps. We develop two simulation methods for such a case under change of measure and conduct some numerical experiments.
+    
+[^10]: 最大机器学习组合的构建方法
+
+    Maximally Machine-Learnable Portfolios. (arXiv:2306.05568v1 [econ.EM])
+
+    [http://arxiv.org/abs/2306.05568](http://arxiv.org/abs/2306.05568)
+
+    本文通过 MACE 算法，以随机森林和受限岭回归优化组合权重，实现了最大程度的可预测性和盈利能力，适用于任何预测算法和预测器集，可以处理大型组合。
+
+    
+
+    对于股票回报，任何形式的可预测性都可以增强调整风险后的盈利能力。本文开发了一种协作机器学习算法，优化组合权重，以使得合成证券最大程度的可预测。具体来说，我们引入了MACE，Alternating Conditional Expectations的多元扩展，通过在方程的一侧使用随机森林和受限岭回归在另一侧实现了上述目标。相较于Lo和MacKinlay的最大可预测组合方法，本文有两个关键改进。第一，它适用于任何（非线性）预测算法和预测器集。第二，它可以处理大型组合。我们进行了日频和月频的实验，并发现在使用很少的条件信息时，可预测性和盈利能力显著增加。有趣的是，可预测性在好时和坏时都存在，并且MACE成功地导航了两者。
+
+    When it comes to stock returns, any form of predictability can bolster risk-adjusted profitability. We develop a collaborative machine learning algorithm that optimizes portfolio weights so that the resulting synthetic security is maximally predictable. Precisely, we introduce MACE, a multivariate extension of Alternating Conditional Expectations that achieves the aforementioned goal by wielding a Random Forest on one side of the equation, and a constrained Ridge Regression on the other. There are two key improvements with respect to Lo and MacKinlay's original maximally predictable portfolio approach. First, it accommodates for any (nonlinear) forecasting algorithm and predictor set. Second, it handles large portfolios. We conduct exercises at the daily and monthly frequency and report significant increases in predictability and profitability using very little conditioning information. Interestingly, predictability is found in bad as well as good times, and MACE successfully navigates
+    
+[^11]: 带有平均场相互作用的功能随机博弈的均衡
+
+    Equilibrium in Functional Stochastic Games with Mean-Field Interaction. (arXiv:2306.05433v1 [math.OC])
+
+    [http://arxiv.org/abs/2306.05433](http://arxiv.org/abs/2306.05433)
+
+    该论文提出了一种新的方法来明确推导出带有平均场相互作用的功能随机博弈的纳什均衡，同时证明了均衡的收敛性和存在的条件比有限玩家博弈的条件更少。
+
+    
+
+    我们考虑了一个一般的有限玩家带有平均场相互作用的随机博弈，其中线性二次成本函数包括作用于$L^2$中的控制的线性算子。我们提出了一种新的方法，通过将相关的一阶条件减少到第二类随机Fredholm方程组的系统，并推导出它们的闭形式解来明确推导出了博弈的纳什均衡。此外，通过证明随机Fredholm方程组的稳定性结果，我们推导出了$N$人博弈的均衡收敛到相应的平均场均衡。作为一个副产品，我们还推导出了平均场博弈的$\varepsilon$-纳什均衡，在这种情况下，它具有价值，因为我们表明，在平均场极限存在均衡的条件比有限玩家博弈的条件要少。最后，我们将我们的一般框架应用于解决各种例子。
+
+    We consider a general class of finite-player stochastic games with mean-field interaction, in which the linear-quadratic cost functional includes linear operators acting on controls in $L^2$. We propose a novel approach for deriving the Nash equilibrium of the game explicitly in terms of operator resolvents, by reducing the associated first order conditions to a system of stochastic Fredholm equations of the second kind and deriving their closed form solution. Furthermore, by proving stability results for the system of stochastic Fredholm equations we derive the convergence of the equilibrium of the $N$-player game to the corresponding mean-field equilibrium. As a by-product we also derive an $\varepsilon$-Nash equilibrium for the mean-field game, which is valuable in this setting as we show that the conditions for existence of an equilibrium in the mean-field limit are less restrictive than in the finite-player game. Finally we apply our general framework to solve various examples, su
+    
+[^12]: 层次预测聚合曲线并应用于日前电力竞拍
+
+    Hierarchical forecasting for aggregated curves with an application to day-ahead electricity price auctions. (arXiv:2305.16255v1 [stat.AP])
+
+    [http://arxiv.org/abs/2305.16255](http://arxiv.org/abs/2305.16255)
+
+    本文提出了一种协调方法来提高聚合曲线的预测准确性，并在德国日前电力竞拍市场进行了实证研究。
+
+    
+
+    聚合曲线在经济和金融中很常见，最突出的例子是供给和需求曲线。我们发现所有聚合曲线都具有内在的层次结构，因此可以使用层次协调方法来提高预测准确性。我们提供了聚合曲线如何构建或解构的深入理论，并得出这些方法在弱假设下是等效的结论。我们考虑了多种聚合曲线的协调方法，包括已经建立的自下而上、自上而下和线性最优协调方法。我们还提出了一种新的基准协调方法，称为“聚合-下”，其复杂度类似于自下而上和自上而下方法，但在这种设置中往往提供更好的准确性。我们对德国日前电力竞拍市场进行了实证预测研究，预测了需求和供给曲线，并对其均衡性进行了分析。
+
+    Aggregated curves are common structures in economics and finance, and the most prominent examples are supply and demand curves. In this study, we exploit the fact that all aggregated curves have an intrinsic hierarchical structure, and thus hierarchical reconciliation methods can be used to improve the forecast accuracy. We provide an in-depth theory on how aggregated curves can be constructed or deconstructed, and conclude that these methods are equivalent under weak assumptions. We consider multiple reconciliation methods for aggregated curves, including previously established bottom-up, top-down, and linear optimal reconciliation approaches. We also present a new benchmark reconciliation method called 'aggregated-down' with similar complexity to bottom-up and top-down approaches, but it tends to provide better accuracy in this setup. We conducted an empirical forecasting study on the German day-ahead power auction market by predicting the demand and supply curves, where their equili
+    
+[^13]: 如何处理用于期权定价的 COS 方法
+
+    How to handle the COS method for option pricing. (arXiv:2303.16012v1 [q-fin.CP])
+
+    [http://arxiv.org/abs/2303.16012](http://arxiv.org/abs/2303.16012)
+
+    介绍了用于欧式期权定价的 Fourier余弦展开 (COS) 方法，通过指定截断范围和项数N进行逼近，文章提出明确的N的上界，对密度平滑并指数衰减的情况，COS方法的收敛阶数至少是指数收敛阶数。
+
+    
+
+    Fourier余弦展开（COS）方法用于高效地计算欧式期权价格。要应用COS方法，必须指定两个参数：对数收益率密度的截断范围和用余弦级数逼近截断密度的项数N。如何选择截断范围已经为人所知。在这里，我们还能找到一个明确的并且有用的项数N的界限。我们还进一步表明，如果密度是平滑的并且呈指数衰减，则COS方法至少具有指数收敛阶数。但是，如果密度平滑但有重尾巴，就像在有限矩阵log稳定模型中一样，则COS方法没有指数收敛阶数。数值实验确认了理论发现。
+
+    The Fourier cosine expansion (COS) method is used for pricing European options numerically very efficiently. To apply the COS method, one has to specify two parameters: a truncation range for the density of the log-returns and a number of terms N to approximate the truncated density by a cosine series. How to choose the truncation range is already known. Here, we are able to find an explicit and useful bound for N as well. We further show that the COS method has at least an exponential order of convergence if the density is smooth and decays exponentially. But, if the density is smooth and has heavy tails like in the Finite Moment Log Stable model, the COS method has not an exponential order of convergence. Numerical experiments confirm the theoretical findings.
+    
+[^14]: 有序的参考依赖性选择
+
+    Ordered Reference Dependent Choice. (arXiv:2105.12915v3 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2105.12915](http://arxiv.org/abs/2105.12915)
+
+    本文研究了参考依赖性选择在捕捉风险、时间和社会偏好方面的应用，从而揭示了参考依赖性选择在标准行为假设中的内在依赖性。
+
+    
+
+    本文研究了结构假设（比如期望效用和指数折扣）的违反如何与源自参考依赖偏好的合理性违反相连接，即使行为在参考固定情况下完全标准。针对不同的选择领域，参考依赖的广义取代任意行为假设，并且产生内生地确定参考备选方案的线性顺序，进而确定选择问题的偏好参数。通过使用例如效用函数的凹性和折扣因子的级别等已知技术，可以捕捉偏好的变化。该框架允许我们集体研究风险、时间和社会偏好，其中看似独立的反常现象通过参考依赖选择的镜头相互连接。
+
+    This paper studies how violations of structural assumptions like expected utility and exponential discounting can be connected to rationality violations that arise from reference-dependent preferences, even if behavior is fully standard when the reference is fixed. A reference-dependent generalization of arbitrarily behavioral postulates captures changing preferences across choice domains. It gives rise to a linear order that endogenously determines reference alternatives, which in turn determines the preference parameters for a choice problem. With canonical models as backbones, preference changes are captured using known technologies like the concavity of utility functions and the levels of discount factors. The framework allows us to study risk, time, and social preferences collectively, where seemingly independent anomalies are interconnected through the lens of reference-dependent choice.
     
 

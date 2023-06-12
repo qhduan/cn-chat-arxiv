@@ -1,0 +1,12 @@
+{
+    "title": "Is Attentional Channel Processing Design Required? Comprehensive Analysis Of Robustness Between Vision Transformers And Fully Attentional Networks. (arXiv:2306.05495v1 [cs.CV])",
+    "abstract": "The robustness testing has been performed for standard CNN models and Vision Transformers, however there is a lack of comprehensive study between the robustness of traditional Vision Transformers without an extra attentional channel design and the latest fully attentional network(FAN) models. So in this paper, we use the ImageNet dataset to compare the robustness of fully attentional network(FAN) models with traditional Vision Transformers to understand the role of an attentional channel processing design using white box attacks and also study the transferability between the same using black box attacks.",
+    "link": "http://arxiv.org/abs/2306.05495",
+    "context": "Title: Is Attentional Channel Processing Design Required? Comprehensive Analysis Of Robustness Between Vision Transformers And Fully Attentional Networks. (arXiv:2306.05495v1 [cs.CV])\nAbstract: The robustness testing has been performed for standard CNN models and Vision Transformers, however there is a lack of comprehensive study between the robustness of traditional Vision Transformers without an extra attentional channel design and the latest fully attentional network(FAN) models. So in this paper, we use the ImageNet dataset to compare the robustness of fully attentional network(FAN) models with traditional Vision Transformers to understand the role of an attentional channel processing design using white box attacks and also study the transferability between the same using black box attacks.",
+    "path": "papers/23/06/2306.05495.json",
+    "total_tokens": 676,
+    "translated_title": "视觉变换器与全自注意力网络的鲁棒性综合分析：需要注意通道处理设计吗？",
+    "translated_abstract": "对于标准CNN模型和视觉变换器，已经进行了鲁棒性测试，但是缺乏传统视觉变换器不带额外注意通道设计与最新的全自注意力网络模型鲁棒性的综合研究。因此，本文使用ImageNet数据集比较全自注意网络(FAN)模型与传统视觉变换器的鲁棒性，以了解注意通道处理设计的作用，并使用白盒攻击和黑盒攻击研究它们之间的可迁移性。",
+    "tldr": "本研究比较了传统视觉变换器和全自注意力网络模型的鲁棒性，研究发现注意通道处理设计对于提高模型的鲁棒性很重要。",
+    "en_tdlr": "This study compares the robustness of traditional Vision Transformers and fully attentional network models, finding that the attentional channel processing design is crucial for improving the models' robustness."
+}
