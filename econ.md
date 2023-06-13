@@ -21,11 +21,12 @@
 | [^17] | [The Impact of a Coalition: Assessing the Likelihood of Voter Influence in Large Elections.](http://arxiv.org/abs/2202.06411) | 本文研究了在半随机模型中，联盟大小任意且可变情况下，进行操纵、胜利边缘和选票控制等影响大选的可能性。主要定理提供了选举结果受 $s$ 个联盟影响的上下界。 |
 | [^18] | [Private Private Information.](http://arxiv.org/abs/2112.14356) | 文章研究了私有私有信息结构，即如何在保护隐私的前提下提供关于未知状态的信息，描述了最优的结构并与公平的推荐系统联系，并探讨了其他应用。 |
 | [^19] | [A data-driven approach to beating SAA out-of-sample.](http://arxiv.org/abs/2105.12342) | 本文提出了一类分布乐观优化（DOO）模型，在外推问题上始终能够超越样本平均逼近（SAA）；然而，乐观解的鲁棒性较差且更容易受到模型错误的影响。 |
-| [^20] | [Screening for breakthroughs: Omitted proofs.](http://arxiv.org/abs/2104.02044) | 这篇论文是关于《突破性筛选》原始论文省略的证明，没有新的贡献。 |
-| [^21] | [The Shared Cost of Pursuing Shareholder Value.](http://arxiv.org/abs/2103.12138) | 文章使用股东大会时间差异的方法研究了股东偏好和对公司利他决策的影响，发现追求（某些）股东的价值具有分配成本，但大股东的监控可以避免这种由偏好异质性驱动的成本。 |
-| [^22] | [Screening for breakthroughs.](http://arxiv.org/abs/2011.10090) | 本文提出了一个新的动态代理问题：激励及时披露有生产力的信息，设计了最优机制来解决该问题，并将其应用于失业保险计划的设计。 |
-| [^23] | [Measuring Cognitive Abilities in the Wild: Validating a Population-Scale Game-Based Cognitive Assessment.](http://arxiv.org/abs/2009.05274) | 该论文提出了一种基于游戏的认知评估方法Skill Lab，利用一个流行的公民科学平台进行全面验证，在真实环境中测量了广泛的认知能力，可以同时预测8种认知能力。 |
-| [^24] | [Causal Inference on Networks under Continuous Treatment Interference.](http://arxiv.org/abs/2004.13459) | 本文研究了连续治疗和网络干扰下的因果推断问题，提供了一种广义倾向得分估计器，用于估计连续治疗的直接效应和溢出效应，具有较高的应用价值。 |
+| [^20] | [Difference-in-Differences Estimation with Spatial Spillovers.](http://arxiv.org/abs/2105.03737) | 本文提出了一种潜在结果框架来模拟溢出效应，可以针对跨越地理边界的处理方式进行区别于差异估计，移除估计的偏差源，并且突出溢出效应对于研究干预措施的重要性。 |
+| [^21] | [Screening for breakthroughs: Omitted proofs.](http://arxiv.org/abs/2104.02044) | 这篇论文是关于《突破性筛选》原始论文省略的证明，没有新的贡献。 |
+| [^22] | [The Shared Cost of Pursuing Shareholder Value.](http://arxiv.org/abs/2103.12138) | 文章使用股东大会时间差异的方法研究了股东偏好和对公司利他决策的影响，发现追求（某些）股东的价值具有分配成本，但大股东的监控可以避免这种由偏好异质性驱动的成本。 |
+| [^23] | [Screening for breakthroughs.](http://arxiv.org/abs/2011.10090) | 本文提出了一个新的动态代理问题：激励及时披露有生产力的信息，设计了最优机制来解决该问题，并将其应用于失业保险计划的设计。 |
+| [^24] | [Measuring Cognitive Abilities in the Wild: Validating a Population-Scale Game-Based Cognitive Assessment.](http://arxiv.org/abs/2009.05274) | 该论文提出了一种基于游戏的认知评估方法Skill Lab，利用一个流行的公民科学平台进行全面验证，在真实环境中测量了广泛的认知能力，可以同时预测8种认知能力。 |
+| [^25] | [Causal Inference on Networks under Continuous Treatment Interference.](http://arxiv.org/abs/2004.13459) | 本文研究了连续治疗和网络干扰下的因果推断问题，提供了一种广义倾向得分估计器，用于估计连续治疗的直接效应和溢出效应，具有较高的应用价值。 |
 
 # 详细
 
@@ -295,7 +296,21 @@
 
     While solutions of Distributionally Robust Optimization (DRO) problems can sometimes have a higher out-of-sample expected reward than the Sample Average Approximation (SAA), there is no guarantee. In this paper, we introduce a class of Distributionally Optimistic Optimization (DOO) models, and show that it is always possible to ``beat" SAA out-of-sample if we consider not just worst-case (DRO) models but also best-case (DOO) ones. We also show, however, that this comes at a cost: Optimistic solutions are more sensitive to model error than either worst-case or SAA optimizers, and hence are less robust and calibrating the worst- or best-case model to outperform SAA may be difficult when data is limited.
     
-[^20]: 突破性筛选：被省略的证明
+[^20]: 具有空间溢出的区别于差异估计
+
+    Difference-in-Differences Estimation with Spatial Spillovers. (arXiv:2105.03737v3 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2105.03737](http://arxiv.org/abs/2105.03737)
+
+    本文提出了一种潜在结果框架来模拟溢出效应，可以针对跨越地理边界的处理方式进行区别于差异估计，移除估计的偏差源，并且突出溢出效应对于研究干预措施的重要性。
+
+    
+
+    实证研究通常使用跨越地理边界的处理方式。当处理的影响跨越边界时，传统的区别于差异估计会产生对平均处理效应的偏差估计。在本文中，我引入了一个潜在结果框架，以模拟溢出效应，并将估计的偏差分解为两部分：（1）控制组不再确定对照趋势，因为他们的结果受到处理的影响；（2）处理组单位结果的变化反映了他们自己的处理状态和接近的单位的处理状态的影响。我提出了非参数识别的条件，可以消除这两种偏差源，并在具有阶段性处理时间的情况下进行半参数估计溢出效应本身。为了突出溢出效应的重要性，我重温了对三种基于地点的干预措施的分析。
+
+    Empirical work often uses treatment assigned following geographic boundaries. When the effects of treatment cross over borders, classical difference-in-differences estimation produces biased estimates for the average treatment effect. In this paper, I introduce a potential outcomes framework to model spillover effects and decompose the estimate's bias in two parts: (1) the control group no longer identifies the counterfactual trend because their outcomes are affected by treatment and (2) changes in treated units' outcomes reflect the effect of their own treatment status and the effect from the treatment status of 'close' units. I propose conditions for non-parametric identification that can remove both sources of bias and semi-parametrically estimate the spillover effects themselves including in settings with staggered treatment timing. To highlight the importance of spillover effects, I revisit analyses of three place-based interventions.
+    
+[^21]: 突破性筛选：被省略的证明
 
     Screening for breakthroughs: Omitted proofs. (arXiv:2104.02044v4 [econ.TH] UPDATED)
 
@@ -309,7 +324,7 @@
 
     This document contains all proofs omitted from our working paper 'Screening for breakthroughs'; specifically, the June 2023 version of the paper (arXiv:2011.10090v7).
     
-[^21]: 追求股东价值的共同成本
+[^22]: 追求股东价值的共同成本
 
     The Shared Cost of Pursuing Shareholder Value. (arXiv:2103.12138v9 [econ.GN] UPDATED)
 
@@ -323,7 +338,7 @@
 
     Using quasi-experimental variations from the timing of firms' Annual General Meetings (AGMs), we propose a portable framework to infer shareholders' preferences and influences on firms' prosocial decisions and apply it to covid-related donations, recent private sanctions on Russia, and firms' prosocial stances over 2012-19. Image gains from AGMs' media exposure drive shareholders synonymous with a firm, like closely-connected individuals, to support costly prosocial changes, while others, like financial corporations, oppose them. Influence supporting these changes lowers earnings by 30\%: pursuing the values of (some) shareholders has distributional costs, which the monitoring of large shareholders motivated by heterogeneous preferences could prevent.
     
-[^22]: 发现突破性进展
+[^23]: 发现突破性进展
 
     Screening for breakthroughs. (arXiv:2011.10090v7 [econ.TH] UPDATED)
 
@@ -337,7 +352,7 @@
 
     We identify a new dynamic agency problem: that of incentivising the prompt disclosure of productive information. To study it, we introduce a general model in which a technological breakthrough occurs at an uncertain time and is privately observed by an agent, and a principal must incentivise disclosure via her control of a payoff-relevant physical allocation. We uncover a deadline structure of optimal mechanisms: they have a simple deadline form in an important special case, and a graduated deadline structure in general. We apply our results to the design of unemployment insurance schemes.
     
-[^23]: 在真实环境中测量认知能力：验证一种面向人群的基于游戏的认知评估方法
+[^24]: 在真实环境中测量认知能力：验证一种面向人群的基于游戏的认知评估方法
 
     Measuring Cognitive Abilities in the Wild: Validating a Population-Scale Game-Based Cognitive Assessment. (arXiv:2009.05274v5 [physics.soc-ph] UPDATED)
 
@@ -351,7 +366,7 @@
 
     Rapid individual cognitive phenotyping holds the potential to revolutionize domains as wide-ranging as personalized learning, employment practices, and precision psychiatry. Going beyond limitations imposed by traditional lab-based experiments, new efforts have been underway towards greater ecological validity and participant diversity to capture the full range of individual differences in cognitive abilities and behaviors across the general population. Building on this, we developed Skill Lab, a novel game-based tool that simultaneously assesses a broad suite of cognitive abilities while providing an engaging narrative. Skill Lab consists of six mini-games as well as 14 established cognitive ability tasks. Using a popular citizen science platform (N = 10725), we conducted a comprehensive validation in the wild of a game-based cognitive assessment suite. Based on the game and validation task data, we constructed reliable models to simultaneously predict eight cognitive abilities based 
     
-[^24]: 连续治疗干预下网络因果推断研究
+[^25]: 连续治疗干预下网络因果推断研究
 
     Causal Inference on Networks under Continuous Treatment Interference. (arXiv:2004.13459v2 [stat.ME] UPDATED)
 
