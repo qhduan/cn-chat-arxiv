@@ -1,0 +1,12 @@
+{
+    "title": "Tight conditions for when the NTK approximation is valid. (arXiv:2305.13141v2 [cs.LG] UPDATED)",
+    "abstract": "We study when the neural tangent kernel (NTK) approximation is valid for training a model with the square loss. In the lazy training setting of Chizat et al. 2019, we show that rescaling the model by a factor of $\\alpha = O(T)$ suffices for the NTK approximation to be valid until training time $T$. Our bound is tight and improves on the previous bound of Chizat et al. 2019, which required a larger rescaling factor of $\\alpha = O(T^2)$.",
+    "link": "http://arxiv.org/abs/2305.13141",
+    "context": "Title: Tight conditions for when the NTK approximation is valid. (arXiv:2305.13141v2 [cs.LG] UPDATED)\nAbstract: We study when the neural tangent kernel (NTK) approximation is valid for training a model with the square loss. In the lazy training setting of Chizat et al. 2019, we show that rescaling the model by a factor of $\\alpha = O(T)$ suffices for the NTK approximation to be valid until training time $T$. Our bound is tight and improves on the previous bound of Chizat et al. 2019, which required a larger rescaling factor of $\\alpha = O(T^2)$.",
+    "path": "papers/23/05/2305.13141.json",
+    "total_tokens": 682,
+    "translated_title": "NTK逼近有效的紧凑条件。",
+    "translated_abstract": "我们研究了神经切线核（NTK）逼近在使用平方损失函数训练模型时何时有效。在Chizat等人2019年的懒惰训练设置下，我们证明通过因子为$\\alpha=O(T)$的模型缩放就足以使NTK逼近在训练时间$T$之前有效。我们的界限是紧凑的，并且改善了Chizat等人2019年的先前界限，后者需要更大的缩放因子$\\alpha=O(T^2)$。",
+    "tldr": "我们研究了NTK逼近在平方损失下训练模型的有效性，发现在模型缩放因子$\\alpha=O(T)$时在训练时间$T$之前可以使得NTK逼近有效。",
+    "en_tdlr": "We studied the validity of NTK approximation in training models with square loss, and found that rescaling the model by a factor of $\\alpha=O(T)$ can make the NTK approximation valid until training time $T$, which improves the previous bound of $\\alpha = O(T^2)$ from Chizat et al. 2019."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Entropic Neural Optimal Transport via Diffusion Processes. (arXiv:2211.01156v2 [cs.LG] UPDATED)",
+    "abstract": "We propose a novel neural algorithm for the fundamental problem of computing the entropic optimal transport (EOT) plan between continuous probability distributions which are accessible by samples. Our algorithm is based on the saddle point reformulation of the dynamic version of EOT which is known as the Schr\\\"odinger Bridge problem. In contrast to the prior methods for large-scale EOT, our algorithm is end-to-end and consists of a single learning step, has fast inference procedure, and allows handling small values of the entropy regularization coefficient which is of particular importance in some applied problems. Empirically, we show the performance of the method on several large-scale EOT tasks.",
+    "link": "http://arxiv.org/abs/2211.01156",
+    "context": "Title: Entropic Neural Optimal Transport via Diffusion Processes. (arXiv:2211.01156v2 [cs.LG] UPDATED)\nAbstract: We propose a novel neural algorithm for the fundamental problem of computing the entropic optimal transport (EOT) plan between continuous probability distributions which are accessible by samples. Our algorithm is based on the saddle point reformulation of the dynamic version of EOT which is known as the Schr\\\"odinger Bridge problem. In contrast to the prior methods for large-scale EOT, our algorithm is end-to-end and consists of a single learning step, has fast inference procedure, and allows handling small values of the entropy regularization coefficient which is of particular importance in some applied problems. Empirically, we show the performance of the method on several large-scale EOT tasks.",
+    "path": "papers/22/11/2211.01156.json",
+    "total_tokens": 765,
+    "translated_title": "基于扩散过程的熵神经最优传输算法",
+    "translated_abstract": "我们提出了一种新颖的神经算法，用于计算连续概率分布之间的熵最优传输(EOT)计划，这些分布可通过样本获得。我们的算法基于动态版本EOT的鞍点重构，即Schrödinger桥问题。与大规模EOT的先前方法相比，我们的算法是端到端的，由单个学习步骤组成，具有快速的推理过程，并允许处理熵正则化系数的小值，这在某些实际应用问题中非常重要。在实证方面，我们展示了该方法在几个大规模EOT任务中的性能。",
+    "tldr": "这项研究提出了一种新的神经算法，用于计算连续概率分布之间的熵最优传输(EOT)计划，它具有端到端学习、快速推理和处理小值熵正则化系数的优点，可在大规模EOT任务中发挥出色的性能。",
+    "en_tdlr": "This study proposes a novel neural algorithm for computing the entropic optimal transport plan between continuous probability distributions, which has advantages of end-to-end learning, fast inference, and the ability to handle small values of the entropy regularization coefficient, and performs well in large-scale EOT tasks."
+}

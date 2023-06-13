@@ -1,0 +1,12 @@
+{
+    "title": "Screening for breakthroughs. (arXiv:2011.10090v7 [econ.TH] UPDATED)",
+    "abstract": "We identify a new dynamic agency problem: that of incentivising the prompt disclosure of productive information. To study it, we introduce a general model in which a technological breakthrough occurs at an uncertain time and is privately observed by an agent, and a principal must incentivise disclosure via her control of a payoff-relevant physical allocation. We uncover a deadline structure of optimal mechanisms: they have a simple deadline form in an important special case, and a graduated deadline structure in general. We apply our results to the design of unemployment insurance schemes.",
+    "link": "http://arxiv.org/abs/2011.10090",
+    "context": "Title: Screening for breakthroughs. (arXiv:2011.10090v7 [econ.TH] UPDATED)\nAbstract: We identify a new dynamic agency problem: that of incentivising the prompt disclosure of productive information. To study it, we introduce a general model in which a technological breakthrough occurs at an uncertain time and is privately observed by an agent, and a principal must incentivise disclosure via her control of a payoff-relevant physical allocation. We uncover a deadline structure of optimal mechanisms: they have a simple deadline form in an important special case, and a graduated deadline structure in general. We apply our results to the design of unemployment insurance schemes.",
+    "path": "papers/20/11/2011.10090.json",
+    "total_tokens": 673,
+    "translated_title": "发现突破性进展",
+    "translated_abstract": "本论文识别了一种新的动态代理问题：激励及时披露有生产力的信息。为了研究这个问题，我们提出了一个广义模型，在不确定的时间内发生技术突破，并由代理人私下观察到，委托人必须通过控制关键支付的物理分配来激励披露。我们揭示了最优机制的截止时间结构：在一个重要的特殊情况下，它们具有简单的截止时间形式，并且在一般情况下具有毕业截止时间结构。我们将我们的结果应用于失业保险计划的设计。",
+    "tldr": "本文提出了一个新的动态代理问题：激励及时披露有生产力的信息，设计了最优机制来解决该问题，并将其应用于失业保险计划的设计。",
+    "en_tdlr": "This paper proposes a new dynamic agency problem of incentivizing prompt disclosure of productive information and designs optimal mechanisms to solve the problem, which are applied to the design of unemployment insurance schemes."
+}

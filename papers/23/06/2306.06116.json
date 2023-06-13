@@ -1,0 +1,12 @@
+{
+    "title": "Overview of Deep Learning Methods for Retinal Vessel Segmentation. (arXiv:2306.06116v1 [eess.IV])",
+    "abstract": "Methods for automated retinal vessel segmentation play an important role in the treatment and diagnosis of many eye and systemic diseases. With the fast development of deep learning methods, more and more retinal vessel segmentation methods are implemented as deep neural networks. In this paper, we provide a brief review of recent deep learning methods from highly influential journals and conferences. The review objectives are: (1) to assess the design characteristics of the latest methods, (2) to report and analyze quantitative values of performance evaluation metrics, and (3) to analyze the advantages and disadvantages of the recent solutions.",
+    "link": "http://arxiv.org/abs/2306.06116",
+    "context": "Title: Overview of Deep Learning Methods for Retinal Vessel Segmentation. (arXiv:2306.06116v1 [eess.IV])\nAbstract: Methods for automated retinal vessel segmentation play an important role in the treatment and diagnosis of many eye and systemic diseases. With the fast development of deep learning methods, more and more retinal vessel segmentation methods are implemented as deep neural networks. In this paper, we provide a brief review of recent deep learning methods from highly influential journals and conferences. The review objectives are: (1) to assess the design characteristics of the latest methods, (2) to report and analyze quantitative values of performance evaluation metrics, and (3) to analyze the advantages and disadvantages of the recent solutions.",
+    "path": "papers/23/06/2306.06116.json",
+    "total_tokens": 705,
+    "translated_title": "视网膜血管分割的深度学习方法概述",
+    "translated_abstract": "自动化视网膜血管分割在许多眼部和全身性疾病的治疗和诊断中扮演着重要角色。随着深度学习方法的快速发展，越来越多的视网膜血管分割方法被实现为深度神经网络。本文提供了对来自高影响期刊和会议的最新深度学习方法的简要回顾。回顾的目标是：(1)评估最新方法的设计特点，(2)报告和分析性能评估指标的定量值，以及(3)分析最新解决方案的优缺点。",
+    "tldr": "本文对近期用深度学习方法进行视网膜血管分割的研究进行了回顾与评估，总结了这些方法的设计特点、性能指标以及优缺点。",
+    "en_tdlr": "This paper provides a brief review and evaluation of recent research on retinal vessel segmentation using deep learning methods, summarizing the design characteristics, performance evaluation metrics, advantages, and disadvantages of these methods."
+}

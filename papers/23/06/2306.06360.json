@@ -1,0 +1,12 @@
+{
+    "title": "3D reconstruction using Structure for Motion. (arXiv:2306.06360v1 [cs.CV])",
+    "abstract": "We are working towards 3D reconstruction of indoor spaces using a pair of HDR cameras in a stereo vision configuration mounted on an indoor mobile floor robot that captures various textures and spatial features as 2D images and this data is simultaneously utilized as a feed to our algorithm which will allow us to visualize the depth map.",
+    "link": "http://arxiv.org/abs/2306.06360",
+    "context": "Title: 3D reconstruction using Structure for Motion. (arXiv:2306.06360v1 [cs.CV])\nAbstract: We are working towards 3D reconstruction of indoor spaces using a pair of HDR cameras in a stereo vision configuration mounted on an indoor mobile floor robot that captures various textures and spatial features as 2D images and this data is simultaneously utilized as a feed to our algorithm which will allow us to visualize the depth map.",
+    "path": "papers/23/06/2306.06360.json",
+    "total_tokens": 561,
+    "translated_title": "基于运动的结构的三维重建技术",
+    "translated_abstract": "本文旨在利用一对HDR照相机进行室内空间的三维重建，该照相机以立体视觉配置安装在室内移动地面机器人上，捕捉各种纹理和空间特征并将其作为2D图像传给我们的算法，进而实现深度图的可视化。",
+    "tldr": "该论文介绍了一种基于运动的结构的三维重建技术，利用一对HDR照相机和室内移动地面机器人进行捕捉和算法推算，实现室内空间的深度图可视化。",
+    "en_tdlr": "This paper presents a 3D reconstruction technique using Structure for Motion, which captures various textures and spatial features through a pair of HDR cameras in a stereo vision configuration mounted on an indoor mobile floor robot and simultaneously visualizes the depth map."
+}

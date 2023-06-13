@@ -1,0 +1,12 @@
+{
+    "title": "DeepLCZChange: A Remote Sensing Deep Learning Model Architecture for Urban Climate Resilience. (arXiv:2306.06269v1 [cs.CV])",
+    "abstract": "Urban land use structures impact local climate conditions of metropolitan areas. To shed light on the mechanism of local climate wrt. urban land use, we present a novel, data-driven deep learning architecture and pipeline, DeepLCZChange, to correlate airborne LiDAR data statistics with the Landsat 8 satellite's surface temperature product. A proof-of-concept numerical experiment utilizes corresponding remote sensing data for the city of New York to verify the cooling effect of urban forests.",
+    "link": "http://arxiv.org/abs/2306.06269",
+    "context": "Title: DeepLCZChange: A Remote Sensing Deep Learning Model Architecture for Urban Climate Resilience. (arXiv:2306.06269v1 [cs.CV])\nAbstract: Urban land use structures impact local climate conditions of metropolitan areas. To shed light on the mechanism of local climate wrt. urban land use, we present a novel, data-driven deep learning architecture and pipeline, DeepLCZChange, to correlate airborne LiDAR data statistics with the Landsat 8 satellite's surface temperature product. A proof-of-concept numerical experiment utilizes corresponding remote sensing data for the city of New York to verify the cooling effect of urban forests.",
+    "path": "papers/23/06/2306.06269.json",
+    "total_tokens": 721,
+    "translated_title": "DeepLCZChange：一种用于城市气候韧性的遥感深度学习模型架构",
+    "translated_abstract": "城市土地利用结构会影响都市区的局部气候条件。为了揭示城市土地利用与当地气候之间的机制，本文提出了一种新颖的数据驱动深度学习架构和流程，DeepLCZChange，以相关空中LiDAR数据统计数据与Landsat 8卫星的地表温度产品相关联。一个概念验证数值实验利用纽约市的相应遥感数据验证了城市森林的降温效应。",
+    "tldr": "本研究介绍了一个遥感深度学习架构，名为DeepLCZChange，结合了空中LiDAR数据和Landsat 8卫星的地表温度产品，用于研究城市土地利用与当地气候之间的关系。在纽约市的应用中验证了城市森林的降温效应。",
+    "en_tdlr": "This study presents DeepLCZChange, a remote sensing deep learning architecture that correlates airborne LiDAR data statistics with Landsat 8 satellite's surface temperature product to study the relationship between urban land use and local climate. It is validated in a numerical experiment on the cooling effect of urban forests in New York City."
+}

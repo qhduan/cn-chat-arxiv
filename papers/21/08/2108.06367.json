@@ -1,0 +1,12 @@
+{
+    "title": "Multi-Objective Recommendations: A Tutorial. (arXiv:2108.06367v2 [cs.IR] UPDATED)",
+    "abstract": "Recommender systems (RecSys) have been well developed to assist user decision making. Traditional RecSys usually optimize a single objective (e.g., rating prediction errors or ranking quality) in the model. There is an emerging demand in multi-objective optimization recently in RecSys, especially in the area of multi-stakeholder and multi-task recommender systems. This article provides an overview of multi-objective recommendations, followed by the discussions with case studies. The document is considered as a supplementary material for our tutorial on multi-objective recommendations at ACM SIGKDD 2021.",
+    "link": "http://arxiv.org/abs/2108.06367",
+    "context": "Title: Multi-Objective Recommendations: A Tutorial. (arXiv:2108.06367v2 [cs.IR] UPDATED)\nAbstract: Recommender systems (RecSys) have been well developed to assist user decision making. Traditional RecSys usually optimize a single objective (e.g., rating prediction errors or ranking quality) in the model. There is an emerging demand in multi-objective optimization recently in RecSys, especially in the area of multi-stakeholder and multi-task recommender systems. This article provides an overview of multi-objective recommendations, followed by the discussions with case studies. The document is considered as a supplementary material for our tutorial on multi-objective recommendations at ACM SIGKDD 2021.",
+    "path": "papers/21/08/2108.06367.json",
+    "total_tokens": 636,
+    "translated_title": "多目标推荐系统：教程",
+    "translated_abstract": "推荐系统一直在为用户决策提供帮助。传统的推荐系统通常通过模型优化单一目标（例如评分预测误差或排名质量）。近年来，随着多单元利益相关者和多任务推荐系统的出现，多目标优化在推荐系统中越来越受到关注。本文概述了多目标推荐的概念，并结合案例进行讨论。本文被视为作者在ACM SIGKDD 2021 多目标推荐教程的补充材料。",
+    "tldr": "本文介绍了多目标推荐系统及其在推荐系统领域中的应用，为本领域的研究者提供了一份重要参考。",
+    "en_tdlr": "This article provides an important reference for researchers in the field of Recommender Systems by introducing the concept of Multi-Objective Recommendations and its applications."
+}

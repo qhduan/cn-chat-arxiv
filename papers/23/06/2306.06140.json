@@ -1,0 +1,12 @@
+{
+    "title": "Null/No Information Rate (NIR): a statistical test to assess if a classification accuracy is significant for a given problem. (arXiv:2306.06140v1 [stat.ME])",
+    "abstract": "In many research contexts, especially in the biomedical field, after studying and developing a classification system a natural question arises: \"Is this accuracy enough high?\", or better, \"Can we say, with a statistically significant confidence, that our classification system is able to solve the problem\"? To answer to this question, we can use the statistical test described in this paper, which is referred in some cases as NIR (No Information Rate or Null Information Rate).",
+    "link": "http://arxiv.org/abs/2306.06140",
+    "context": "Title: Null/No Information Rate (NIR): a statistical test to assess if a classification accuracy is significant for a given problem. (arXiv:2306.06140v1 [stat.ME])\nAbstract: In many research contexts, especially in the biomedical field, after studying and developing a classification system a natural question arises: \"Is this accuracy enough high?\", or better, \"Can we say, with a statistically significant confidence, that our classification system is able to solve the problem\"? To answer to this question, we can use the statistical test described in this paper, which is referred in some cases as NIR (No Information Rate or Null Information Rate).",
+    "path": "papers/23/06/2306.06140.json",
+    "total_tokens": 614,
+    "translated_title": "Null/No Information Rate (NIR)：用于评估给定问题的分类准确性是否显著的统计检验",
+    "translated_abstract": "在许多研究背景下，特别是在生物医学领域，经过研究和开发分类系统后，自然会产生一个问题：“这个准确度是否足够高？”或者更好的问题是，“我们能否以统计学显着的置信度来说，我们的分类系统能够解决这个问题？”为了回答这个问题，我们可以使用本文描述的统计检验，有时称为NIR（无信息率或零值信息率）。",
+    "tldr": "该论文介绍了一种被称为NIR的统计检验方法，可以用来评估分类系统的性能是否具有统计显著性。",
+    "en_tdlr": "This paper introduces a statistical test called NIR, which can be used to evaluate whether the performance of a classification system is statistically significant."
+}

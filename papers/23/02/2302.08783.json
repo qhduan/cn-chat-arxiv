@@ -1,0 +1,12 @@
+{
+    "title": "SGD with AdaGrad Stepsizes: Full Adaptivity with High Probability to Unknown Parameters, Unbounded Gradients and Affine Variance. (arXiv:2302.08783v2 [cs.LG] UPDATED)",
+    "abstract": "We study Stochastic Gradient Descent with AdaGrad stepsizes: a popular adaptive (self-tuning) method for first-order stochastic optimization. Despite being well studied, existing analyses of this method suffer from various shortcomings: they either assume some knowledge of the problem parameters, impose strong global Lipschitz conditions, or fail to give bounds that hold with high probability. We provide a comprehensive analysis of this basic method without any of these limitations, in both the convex and non-convex (smooth) cases, that additionally supports a general ``affine variance'' noise model and provides sharp rates of convergence in both the low-noise and high-noise~regimes.",
+    "link": "http://arxiv.org/abs/2302.08783",
+    "context": "Title: SGD with AdaGrad Stepsizes: Full Adaptivity with High Probability to Unknown Parameters, Unbounded Gradients and Affine Variance. (arXiv:2302.08783v2 [cs.LG] UPDATED)\nAbstract: We study Stochastic Gradient Descent with AdaGrad stepsizes: a popular adaptive (self-tuning) method for first-order stochastic optimization. Despite being well studied, existing analyses of this method suffer from various shortcomings: they either assume some knowledge of the problem parameters, impose strong global Lipschitz conditions, or fail to give bounds that hold with high probability. We provide a comprehensive analysis of this basic method without any of these limitations, in both the convex and non-convex (smooth) cases, that additionally supports a general ``affine variance'' noise model and provides sharp rates of convergence in both the low-noise and high-noise~regimes.",
+    "path": "papers/23/02/2302.08783.json",
+    "total_tokens": 792,
+    "translated_title": "AdaGrad 步幅下的随机梯度下降：对未知参数、无界梯度和仿射方差的全适应性高概率研究",
+    "translated_abstract": "我们研究了 AdaGrad 步幅下的随机梯度下降：这是一种流行的自适应 (自调节) 的一阶随机优化方法。尽管经过广泛研究，但现有的分析方法存在各种缺陷：它们要么假定对问题参数有一定的了解，要么设定强的全局利普希茨条件，或者不能给出高概率可靠的界限。我们在凸和非凸 (平滑) 情况下，对这种基本方法进行全面无任何限制地分析，另外支持一般的“仿射方差”噪声模型，并在低噪声和高噪声区域中提供锐利的收敛速度。",
+    "tldr": "本文提供了针对 AdaGrad 步幅下的SGD算法的更加全面且无限制性的分析，支持多种模型，可以在高概率下处理未知参数和无界梯度。",
+    "en_tdlr": "This paper provides a comprehensive and unrestricted analysis of the SGD algorithm under AdaGrad stepsizes, supporting multiple models and able to handle unknown parameters and unbounded gradients with high probability."
+}

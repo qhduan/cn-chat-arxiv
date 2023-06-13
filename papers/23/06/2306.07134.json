@@ -1,0 +1,12 @@
+{
+    "title": "Auctioning Corporate Bonds: A Uniform-Price under Investment Mandates. (arXiv:2306.07134v1 [econ.GN])",
+    "abstract": "This paper examines how risk and budget limits on investment mandates affect the bidding strategy in a uniform-price auction for issuing corporate bonds. I prove the existence of symmetric Bayesian Nash equilibrium and explore how the risk limits imposed on the mandate may mitigate severe underpricing, as the symmetric equilibrium's yield positively relates to the risk limit. Investment mandates with low-risk acceptance inversely affect the equilibrium bid. The equilibrium bid provides insights into the optimal mechanism for pricing corporate bonds conveying information about the bond's valuation, market power, and the number of bidders. These findings contribute to auction theory and have implications for empirical research in the corporate bond market.",
+    "link": "http://arxiv.org/abs/2306.07134",
+    "context": "Title: Auctioning Corporate Bonds: A Uniform-Price under Investment Mandates. (arXiv:2306.07134v1 [econ.GN])\nAbstract: This paper examines how risk and budget limits on investment mandates affect the bidding strategy in a uniform-price auction for issuing corporate bonds. I prove the existence of symmetric Bayesian Nash equilibrium and explore how the risk limits imposed on the mandate may mitigate severe underpricing, as the symmetric equilibrium's yield positively relates to the risk limit. Investment mandates with low-risk acceptance inversely affect the equilibrium bid. The equilibrium bid provides insights into the optimal mechanism for pricing corporate bonds conveying information about the bond's valuation, market power, and the number of bidders. These findings contribute to auction theory and have implications for empirical research in the corporate bond market.",
+    "path": "papers/23/06/2306.07134.json",
+    "total_tokens": 774,
+    "translated_title": "发行公司债券的拍卖：投资管理下的统一价格",
+    "translated_abstract": "本文研究了投资管理中的风险和预算限制对发行公司债券的统一价格拍卖中的出价策略的影响。我们证明了存在对称的贝叶斯纳什均衡，并探讨了对策略的风险限制可能如何缓解严重低价问题，因为对称均衡的收益与风险限制呈正相关关系。低风险接受的投资管理将反向影响均衡出价。均衡出价提供了有关定价公司债券机制、传递债券价值和市场势力以及竞标人数的最佳机制的见解。这些发现有助于拍卖理论，并对公司债券市场的实证研究具有重要影响。",
+    "tldr": "本文研究了投资管理中对发行公司债券的统一价格拍卖的影响，发现风险限制可以缓解低价问题并提出了定价公司债券的最佳机制。",
+    "en_tdlr": "This paper examines the impact of risk and budget limits on the bidding strategy in uniform-price auction for issuing corporate bonds, finds that risk limit can mitigate severe underpricing, and provides insights into optimal pricing mechanism for corporate bonds."
+}

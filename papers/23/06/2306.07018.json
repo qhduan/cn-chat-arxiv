@@ -1,0 +1,11 @@
+{
+    "title": "Instrument-based estimation of full treatment effects with movers. (arXiv:2306.07018v1 [econ.EM])",
+    "abstract": "The effect of the full treatment is a primary parameter of interest in policy evaluation, while often only the effect of a subset of treatment is estimated. We partially identify the local average treatment effect of receiving full treatment (LAFTE) using an instrumental variable that may induce individuals into only a subset of treatment (movers). We show that movers violate the standard exclusion restriction, necessary conditions on the presence of movers are testable, and partial identification holds under a double exclusion restriction. We identify movers in four empirical applications and estimate informative bounds on the LAFTE in three of them.",
+    "link": "http://arxiv.org/abs/2306.07018",
+    "context": "Title: Instrument-based estimation of full treatment effects with movers. (arXiv:2306.07018v1 [econ.EM])\nAbstract: The effect of the full treatment is a primary parameter of interest in policy evaluation, while often only the effect of a subset of treatment is estimated. We partially identify the local average treatment effect of receiving full treatment (LAFTE) using an instrumental variable that may induce individuals into only a subset of treatment (movers). We show that movers violate the standard exclusion restriction, necessary conditions on the presence of movers are testable, and partial identification holds under a double exclusion restriction. We identify movers in four empirical applications and estimate informative bounds on the LAFTE in three of them.",
+    "path": "papers/23/06/2306.07018.json",
+    "total_tokens": 744,
+    "translated_title": "基于仪器变量的移动人群完整治疗效果估计。",
+    "translated_abstract": "全面治疗效果是政策评估中的一个主要参数，但通常只估计部分治疗效果。我们利用可能使个人仅接受治疗的子集（移动人群）而引入的仪器变量，部分识别接受全面治疗的局部平均治疗效果（LAFTE）。我们证明了移动人群违反了标准排除限制，对移动人群的必要条件是可测试的，并且在双重排除约束条件下，部分识别仍然成立。我们在四个实证应用中识别移动人群，并在其中三个应用中估计了有信息量的LAFTE的界限。",
+    "tldr": "该论文利用仪器变量部分识别出了接受全面治疗的局部平均治疗效果，并在移动人群的存在下解决了标准排除限制问题，推广了治疗效果的估计方法。"
+}

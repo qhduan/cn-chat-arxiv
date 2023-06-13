@@ -1,0 +1,12 @@
+{
+    "title": "A data-driven approach to beating SAA out-of-sample. (arXiv:2105.12342v3 [math.OC] UPDATED)",
+    "abstract": "While solutions of Distributionally Robust Optimization (DRO) problems can sometimes have a higher out-of-sample expected reward than the Sample Average Approximation (SAA), there is no guarantee. In this paper, we introduce a class of Distributionally Optimistic Optimization (DOO) models, and show that it is always possible to ``beat\" SAA out-of-sample if we consider not just worst-case (DRO) models but also best-case (DOO) ones. We also show, however, that this comes at a cost: Optimistic solutions are more sensitive to model error than either worst-case or SAA optimizers, and hence are less robust and calibrating the worst- or best-case model to outperform SAA may be difficult when data is limited.",
+    "link": "http://arxiv.org/abs/2105.12342",
+    "context": "Title: A data-driven approach to beating SAA out-of-sample. (arXiv:2105.12342v3 [math.OC] UPDATED)\nAbstract: While solutions of Distributionally Robust Optimization (DRO) problems can sometimes have a higher out-of-sample expected reward than the Sample Average Approximation (SAA), there is no guarantee. In this paper, we introduce a class of Distributionally Optimistic Optimization (DOO) models, and show that it is always possible to ``beat\" SAA out-of-sample if we consider not just worst-case (DRO) models but also best-case (DOO) ones. We also show, however, that this comes at a cost: Optimistic solutions are more sensitive to model error than either worst-case or SAA optimizers, and hence are less robust and calibrating the worst- or best-case model to outperform SAA may be difficult when data is limited.",
+    "path": "papers/21/05/2105.12342.json",
+    "total_tokens": 795,
+    "translated_title": "基于数据驱动的方法击败SAA（样本平均逼近）的外推问题",
+    "translated_abstract": "虽然分布鲁棒优化（DRO）问题的解有时可能比样本平均逼近（SAA）的预期奖励要高，但并不保证总是这样。本文引入了一类分布乐观优化（DOO）模型，并证明如果我们考虑最优情况（DOO）和最坏情况（DRO）模型，那么总是可以“击败”SAA的外推效果。然而，我们也证明，这是有代价的：乐观解比最坏情况或SAA优化器更敏感于模型错误，因此不太鲁棒，并且在数据有限时很难校准最坏或最优情况模型以超越SAA。",
+    "tldr": "本文提出了一类分布乐观优化（DOO）模型，在外推问题上始终能够超越样本平均逼近（SAA）；然而，乐观解的鲁棒性较差且更容易受到模型错误的影响。",
+    "en_tdlr": "This paper introduces a class of Distributionally Optimistic Optimization (DOO) models, which can always beat Sample Average Approximation (SAA) in out-of-sample problems. However, optimistic solutions are less robust and more sensitive to model errors."
+}

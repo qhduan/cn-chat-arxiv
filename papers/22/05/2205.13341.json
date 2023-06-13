@@ -1,0 +1,12 @@
+{
+    "title": "QUIC-FL: Quick Unbiased Compression for Federated Learning. (arXiv:2205.13341v4 [cs.LG] UPDATED)",
+    "abstract": "Distributed Mean Estimation (DME), in which $n$ clients communicate vectors to a parameter server that estimates their average, is a fundamental building block in communication-efficient federated learning. In this paper, we improve on previous DME techniques that achieve the optimal $O(1/n)$ Normalized Mean Squared Error (NMSE) guarantee by asymptotically improving the complexity for either encoding or decoding (or both). To achieve this, we formalize the problem in a novel way that allows us to use off-the-shelf mathematical solvers to design the quantization.",
+    "link": "http://arxiv.org/abs/2205.13341",
+    "context": "Title: QUIC-FL: Quick Unbiased Compression for Federated Learning. (arXiv:2205.13341v4 [cs.LG] UPDATED)\nAbstract: Distributed Mean Estimation (DME), in which $n$ clients communicate vectors to a parameter server that estimates their average, is a fundamental building block in communication-efficient federated learning. In this paper, we improve on previous DME techniques that achieve the optimal $O(1/n)$ Normalized Mean Squared Error (NMSE) guarantee by asymptotically improving the complexity for either encoding or decoding (or both). To achieve this, we formalize the problem in a novel way that allows us to use off-the-shelf mathematical solvers to design the quantization.",
+    "path": "papers/22/05/2205.13341.json",
+    "total_tokens": 684,
+    "translated_title": "QUIC-FL：面向联邦学习的快速无偏压缩",
+    "translated_abstract": "分布式均值估计（DME）是通信高效的联邦学习中的基本构建块，在其中$n$个客户端向参数服务器通信向量，参数服务器估算其平均值。本文改进了先前的DME技术，实现了最优$O(1/n)$的归一化均方误差（NMSE）保证，通过渐进改进编码或解码（或两者）的复杂度。为了实现这一点，我们以一种新颖的方式形式化了问题，使我们能够使用现成的数学求解器来设计量化。",
+    "tldr": "本文提出QUIC-FL方法，即面向联邦学习的快速无偏压缩，通过改进DME技术实现了最优归一化均方误差保证。",
+    "en_tdlr": "This paper proposes QUIC-FL, a fast unbiased compression method for federated learning that improves on previous techniques by achieving optimal NMSE guarantee and improving complexity for encoding or decoding (or both) through a novel formalization of the Distributed Mean Estimation problem."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Kernel Random Projection Depth for Outlier Detection. (arXiv:2306.07056v1 [stat.ML])",
+    "abstract": "This paper proposes an extension of Random Projection Depth (RPD) to cope with multiple modalities and non-convexity on data clouds. In the framework of the proposed method, the RPD is computed in a reproducing kernel Hilbert space. With the help of kernel principal component analysis, we expect that the proposed method can cope with the above multiple modalities and non-convexity. The experimental results demonstrate that the proposed method outperforms RPD and is comparable to other existing detection models on benchmark datasets regarding Area Under the Curves (AUCs) of Receiver Operating Characteristic (ROC).",
+    "link": "http://arxiv.org/abs/2306.07056",
+    "context": "Title: Kernel Random Projection Depth for Outlier Detection. (arXiv:2306.07056v1 [stat.ML])\nAbstract: This paper proposes an extension of Random Projection Depth (RPD) to cope with multiple modalities and non-convexity on data clouds. In the framework of the proposed method, the RPD is computed in a reproducing kernel Hilbert space. With the help of kernel principal component analysis, we expect that the proposed method can cope with the above multiple modalities and non-convexity. The experimental results demonstrate that the proposed method outperforms RPD and is comparable to other existing detection models on benchmark datasets regarding Area Under the Curves (AUCs) of Receiver Operating Characteristic (ROC).",
+    "path": "papers/23/06/2306.07056.json",
+    "total_tokens": 669,
+    "translated_title": "内核随机投影深度用于离群点检测",
+    "translated_abstract": "本文提出了一种扩展的随机投影深度（RPD）方法，用于处理数据云中的多模式和非凸性。在所提出的方法的框架中，RPD在再现核希尔伯特空间中计算。借助内核主成分分析，我们期望所提出的方法可以处理上述多种模式和非凸性。实验结果表明，所提出的方法优于RPD，并可与基准数据集上现有的检测模型相媲美，关于接收操作特征曲线（ROC）下的曲线下面积（AUC）。",
+    "tldr": "本文提出了一种内核随机投影深度方法，用于处理数据云中的多模式和非凸性，实验结果表明在基准数据集上表现优异。"
+}

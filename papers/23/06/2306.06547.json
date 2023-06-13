@@ -1,0 +1,12 @@
+{
+    "title": "Local-to-global Perspectives on Graph Neural Networks. (arXiv:2306.06547v1 [cs.LG])",
+    "abstract": "We present a local-to-global perspective on graph neural networks (GNN), which are categorized as local Message Passing Neural Networks (MPNN) and global Graph Transformer. We present three pieces of work: 1) study the convergence property of a type of global GNN, Invariant Graph Networks, 2) connect the local MPNN and global Graph Transformer, and 3) use local MPNN for graph coarsening, a common subroutine used in global modeling.",
+    "link": "http://arxiv.org/abs/2306.06547",
+    "context": "Title: Local-to-global Perspectives on Graph Neural Networks. (arXiv:2306.06547v1 [cs.LG])\nAbstract: We present a local-to-global perspective on graph neural networks (GNN), which are categorized as local Message Passing Neural Networks (MPNN) and global Graph Transformer. We present three pieces of work: 1) study the convergence property of a type of global GNN, Invariant Graph Networks, 2) connect the local MPNN and global Graph Transformer, and 3) use local MPNN for graph coarsening, a common subroutine used in global modeling.",
+    "path": "papers/23/06/2306.06547.json",
+    "total_tokens": 622,
+    "translated_title": "图神经网络的局部到全局视角",
+    "translated_abstract": "本文提出了一种对于图神经网络（GNN）的局部到全局的视角，其中分为局部信息传递神经网络（MPNN）和全局图变换器。本文提出了三个工作：1）研究一种全局 GNN，不变图网络的收敛性质，2）连接局部 MPNN 和全局图变换器，3）在全局建模中，使用局部 MPNN 进行图粗化，这是一个常见的子程序。",
+    "tldr": "本文提出了局部到全局的图神经网络模型，包括不变图网络、局部信息传递神经网络和全局图变换器，并研究其收敛性质和在图粗化中的应用。",
+    "en_tdlr": "This paper presents a local-to-global perspective on graph neural networks (GNN) including Invariant Graph Networks, local Message Passing Neural Networks (MPNN), and global Graph Transformer. The convergence properties and application in graph coarsening are studied."
+}

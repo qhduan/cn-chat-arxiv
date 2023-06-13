@@ -1,0 +1,12 @@
+{
+    "title": "Reconstructing Training Data from Model Gradient, Provably. (arXiv:2212.03714v3 [cs.LG] UPDATED)",
+    "abstract": "Understanding when and how much a model gradient leaks information about the training sample is an important question in privacy. In this paper, we present a surprising result: even without training or memorizing the data, we can fully reconstruct the training samples from a single gradient query at a randomly chosen parameter value. We prove the identifiability of the training data under mild conditions: with shallow or deep neural networks and a wide range of activation functions. We also present a statistically and computationally efficient algorithm based on tensor decomposition to reconstruct the training data. As a provable attack that reveals sensitive training data, our findings suggest potential severe threats to privacy, especially in federated learning.",
+    "link": "http://arxiv.org/abs/2212.03714",
+    "context": "Title: Reconstructing Training Data from Model Gradient, Provably. (arXiv:2212.03714v3 [cs.LG] UPDATED)\nAbstract: Understanding when and how much a model gradient leaks information about the training sample is an important question in privacy. In this paper, we present a surprising result: even without training or memorizing the data, we can fully reconstruct the training samples from a single gradient query at a randomly chosen parameter value. We prove the identifiability of the training data under mild conditions: with shallow or deep neural networks and a wide range of activation functions. We also present a statistically and computationally efficient algorithm based on tensor decomposition to reconstruct the training data. As a provable attack that reveals sensitive training data, our findings suggest potential severe threats to privacy, especially in federated learning.",
+    "path": "papers/22/12/2212.03714.json",
+    "total_tokens": 730,
+    "translated_title": "从模型梯度重构训练数据，具有可证明性。",
+    "translated_abstract": "在隐私方面，理解模型梯度何时以及如何泄露有关训练样本的信息是一个重要问题。在本文中，我们提出了一个令人惊讶的结果：即使没有训练或记忆数据，我们也可以从在随机选择的参数值处进行的单个梯度查询中完全重构训练样本。我们证明了在温和条件下的训练数据的可识别性：使用浅层或深层神经网络和各种激活函数。我们还提出了一种基于张量分解的统计和计算高效算法来重构训练数据。作为揭示敏感训练数据的可证明攻击，我们的发现表明了对隐私的潜在严重威胁，尤其是在联合学习中。",
+    "tldr": "通过单个梯度查询可重构训练数据，存在隐私泄露威胁。",
+    "en_tdlr": "Training data can be fully reconstructed from a single gradient query, even without training or memorizing the data, posing serious threats to privacy, especially in federated learning."
+}

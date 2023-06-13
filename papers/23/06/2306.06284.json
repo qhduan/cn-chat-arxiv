@@ -1,0 +1,12 @@
+{
+    "title": "Everybody Compose: Deep Beats To Music. (arXiv:2306.06284v1 [cs.SD])",
+    "abstract": "This project presents a deep learning approach to generate monophonic melodies based on input beats, allowing even amateurs to create their own music compositions. Three effective methods - LSTM with Full Attention, LSTM with Local Attention, and Transformer with Relative Position Representation - are proposed for this novel task, providing great variation, harmony, and structure in the generated music. This project allows anyone to compose their own music by tapping their keyboards or ``recoloring'' beat sequences from existing works.",
+    "link": "http://arxiv.org/abs/2306.06284",
+    "context": "Title: Everybody Compose: Deep Beats To Music. (arXiv:2306.06284v1 [cs.SD])\nAbstract: This project presents a deep learning approach to generate monophonic melodies based on input beats, allowing even amateurs to create their own music compositions. Three effective methods - LSTM with Full Attention, LSTM with Local Attention, and Transformer with Relative Position Representation - are proposed for this novel task, providing great variation, harmony, and structure in the generated music. This project allows anyone to compose their own music by tapping their keyboards or ``recoloring'' beat sequences from existing works.",
+    "path": "papers/23/06/2306.06284.json",
+    "total_tokens": 740,
+    "translated_title": "众创曲：深度神经网络生成音乐节拍",
+    "translated_abstract": "本项目提出了一种基于深度学习的方法，通过输入节拍生成单声部的旋律，使得即使是业余爱好者也能够创作自己的音乐作品。该项目提出了三种有效的方法——带有全局注意力的LSTM、带有局部注意力的LSTM和带有相对位置表示的Transformer，为生成的音乐提供了丰富的变化、和谐和结构。该项目允许任何人通过敲击键盘或“重新调整”现有作品的节拍序列来创作自己的音乐。",
+    "tldr": "本项目提出了基于深度学习的方法，使得即使是业余爱好者也能够创作自己的音乐作品，其创新在于输入节拍生成单声部的旋律，提出了三种有效的方法分别为全局注意力的LSTM、局部注意力的LSTM以及相对位置表示的Transformer，生成的音乐具有丰富的变化、和谐和结构。",
+    "en_tdlr": "This project proposes a deep learning approach that allows even amateurs to compose their own music by generating monophonic melodies based on input beats. The innovation lies in the three effective methods proposed, which are LSTM with Full Attention, LSTM with Local Attention, and Transformer with Relative Position Representation, providing great variation, harmony, and structure in the generated music."
+}

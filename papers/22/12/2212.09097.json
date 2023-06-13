@@ -1,0 +1,12 @@
+{
+    "title": "Continual Knowledge Distillation for Neural Machine Translation. (arXiv:2212.09097v2 [cs.CL] UPDATED)",
+    "abstract": "While many parallel corpora are not publicly accessible for data copyright, data privacy and competitive differentiation reasons, trained translation models are increasingly available on open platforms. In this work, we propose a method called continual knowledge distillation to take advantage of existing translation models to improve one model of interest. The basic idea is to sequentially transfer knowledge from each trained model to the distilled model. Extensive experiments on Chinese-English and German-English datasets show that our method achieves significant and consistent improvements over strong baselines under both homogeneous and heterogeneous trained model settings and is robust to malicious models.",
+    "link": "http://arxiv.org/abs/2212.09097",
+    "context": "Title: Continual Knowledge Distillation for Neural Machine Translation. (arXiv:2212.09097v2 [cs.CL] UPDATED)\nAbstract: While many parallel corpora are not publicly accessible for data copyright, data privacy and competitive differentiation reasons, trained translation models are increasingly available on open platforms. In this work, we propose a method called continual knowledge distillation to take advantage of existing translation models to improve one model of interest. The basic idea is to sequentially transfer knowledge from each trained model to the distilled model. Extensive experiments on Chinese-English and German-English datasets show that our method achieves significant and consistent improvements over strong baselines under both homogeneous and heterogeneous trained model settings and is robust to malicious models.",
+    "path": "papers/22/12/2212.09097.json",
+    "total_tokens": 713,
+    "translated_title": "神经机器翻译的持续知识蒸馏",
+    "translated_abstract": "虽然许多平行语料库因为版权、数据隐私和竞争差异等原因不公开，但训练好的翻译模型在开放平台上变得越来越容易得到。本文提出了一种称为持续知识蒸馏的方法，利用现有的翻译模型来提高感兴趣的模型的性能。基本思路是将每个已训练模型的知识按顺序转移给被蒸馏模型。在中英和德英数据集上的广泛实验表明，我们的方法在同质和异质训练模型设置下都实现了显著且一致的改进，并且对恶意模型具有鲁棒性。",
+    "tldr": "本论文提出了一种称为持续知识蒸馏的方法，利用已有的翻译模型来提高一个新模型的性能。",
+    "en_tdlr": "This paper proposes a method called continual knowledge distillation to improve a new model's performance by utilizing existing translation models, achieving significant and consistent improvements over strong baselines and being robust to malicious models."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Accelerating Primal-dual Methods for Regularized Markov Decision Processes. (arXiv:2202.10506v2 [math.OC] UPDATED)",
+    "abstract": "Entropy regularized Markov decision processes have been widely used in reinforcement learning. This paper is concerned with the primal-dual formulation of the entropy regularized problems. Standard first-order methods suffer from slow convergence due to the lack of strict convexity and concavity. To address this issue, we first introduce a new quadratically convexified primal-dual formulation. The natural gradient ascent descent of the new formulation enjoys global convergence guarantee and exponential convergence rate. We also propose a new interpolating metric that further accelerates the convergence significantly. Numerical results are provided to demonstrate the performance of the proposed methods under multiple settings.",
+    "link": "http://arxiv.org/abs/2202.10506",
+    "context": "Title: Accelerating Primal-dual Methods for Regularized Markov Decision Processes. (arXiv:2202.10506v2 [math.OC] UPDATED)\nAbstract: Entropy regularized Markov decision processes have been widely used in reinforcement learning. This paper is concerned with the primal-dual formulation of the entropy regularized problems. Standard first-order methods suffer from slow convergence due to the lack of strict convexity and concavity. To address this issue, we first introduce a new quadratically convexified primal-dual formulation. The natural gradient ascent descent of the new formulation enjoys global convergence guarantee and exponential convergence rate. We also propose a new interpolating metric that further accelerates the convergence significantly. Numerical results are provided to demonstrate the performance of the proposed methods under multiple settings.",
+    "path": "papers/22/02/2202.10506.json",
+    "total_tokens": 725,
+    "translated_title": "加速正-对偶方法求解正则化马尔可夫决策过程",
+    "translated_abstract": "熵正则化马尔可夫决策过程在强化学习中已被广泛应用。本文关注熵正则化问题的正-对偶表述。由于缺乏严格的凸性和凹性，标准的一阶方法收敛缓慢。为解决这个问题，我们首先引入了一个新的二次凸化的正-对偶表述。新表述的自然梯度上升下降具有全局收敛保证和指数收敛速度。我们还提出了一种新的插值度量，可以显著加速收敛。数值结果表明，所提出的方法在多种设置下的性能都很好。",
+    "tldr": "本文介绍了一种新的正-对偶表述方法，结合新的插值度量，可以显著加速收敛。数值结果表明方法在多种设置下性能优越。",
+    "en_tdlr": "The paper proposes a new primal-dual formulation for entropy regularized problems in reinforcement learning, along with a new interpolating metric that significantly accelerates the convergence. Numerical results demonstrate the proposed methods' superior performance under multiple settings."
+}

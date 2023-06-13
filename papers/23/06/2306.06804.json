@@ -1,0 +1,12 @@
+{
+    "title": "Neural Machine Translation for the Indigenous Languages of the Americas: An Introduction. (arXiv:2306.06804v1 [cs.CL])",
+    "abstract": "Neural models have drastically advanced state of the art for machine translation (MT) between high-resource languages. Traditionally, these models rely on large amounts of training data, but many language pairs lack these resources. However, an important part of the languages in the world do not have this amount of data. Most languages from the Americas are among them, having a limited amount of parallel and monolingual data, if any. Here, we present an introduction to the interested reader to the basic challenges, concepts, and techniques that involve the creation of MT systems for these languages. Finally, we discuss the recent advances and findings and open questions, product of an increased interest of the NLP community in these languages.",
+    "link": "http://arxiv.org/abs/2306.06804",
+    "context": "Title: Neural Machine Translation for the Indigenous Languages of the Americas: An Introduction. (arXiv:2306.06804v1 [cs.CL])\nAbstract: Neural models have drastically advanced state of the art for machine translation (MT) between high-resource languages. Traditionally, these models rely on large amounts of training data, but many language pairs lack these resources. However, an important part of the languages in the world do not have this amount of data. Most languages from the Americas are among them, having a limited amount of parallel and monolingual data, if any. Here, we present an introduction to the interested reader to the basic challenges, concepts, and techniques that involve the creation of MT systems for these languages. Finally, we discuss the recent advances and findings and open questions, product of an increased interest of the NLP community in these languages.",
+    "path": "papers/23/06/2306.06804.json",
+    "total_tokens": 751,
+    "translated_title": "美洲土著语言的神经机器翻译介绍",
+    "translated_abstract": "神经模型已经显著提高了高资源语言之间机器翻译（MT）的最新进展。传统上，这些模型依赖于大量的训练数据，但许多语言对缺乏这些资源。然而，世界上语言的重要部分缺乏这样的数据量，其中美洲的大多数语言也是如此，仅有一定量的平行和单语数据。本文向读者介绍了为这些语言创建MT系统所涉及的基本挑战、概念和技术。最后，我们讨论了最近的进展和发现以及开放的问题，这些发现是NLP社区对这些语言越来越感兴趣的结果。",
+    "tldr": "本文介绍了为美洲土著语言创建机器翻译系统面临的挑战以及最新的进展和发现。缺乏平行和单语数据是其中的主要难题。",
+    "en_tdlr": "This article introduces the challenges of creating machine translation systems for indigenous languages in the Americas, and the latest advances and findings in this field. The lack of parallel and monolingual data is a major obstacle."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Protect Your Prompts: Protocols for IP Protection in LLM Applications. (arXiv:2306.06297v1 [cs.CL])",
+    "abstract": "With the rapid adoption of AI in the form of large language models (LLMs), the potential value of carefully engineered prompts has become significant. However, to realize this potential, prompts should be tradable on an open market. Since prompts are, at present, generally economically non-excludable, by virtue of their nature as text, no general competitive market has yet been established. This note discusses two protocols intended to provide protection of prompts, elevating their status as intellectual property, thus confirming the intellectual property rights of prompt engineers, and potentially supporting the flourishing of an open market for LLM prompts.",
+    "link": "http://arxiv.org/abs/2306.06297",
+    "context": "Title: Protect Your Prompts: Protocols for IP Protection in LLM Applications. (arXiv:2306.06297v1 [cs.CL])\nAbstract: With the rapid adoption of AI in the form of large language models (LLMs), the potential value of carefully engineered prompts has become significant. However, to realize this potential, prompts should be tradable on an open market. Since prompts are, at present, generally economically non-excludable, by virtue of their nature as text, no general competitive market has yet been established. This note discusses two protocols intended to provide protection of prompts, elevating their status as intellectual property, thus confirming the intellectual property rights of prompt engineers, and potentially supporting the flourishing of an open market for LLM prompts.",
+    "path": "papers/23/06/2306.06297.json",
+    "total_tokens": 656,
+    "translated_title": "LLM应用中的IP保护协议",
+    "translated_abstract": "随着大型语言模型（LLM）形式的AI的快速采用，精心设计的提示的潜在价值变得重要。然而，为了实现这个潜力，提示应该在一个公开市场上交易。由于提示目前通常是经济上不可排除的，因为它们是文本的性质，因此尚未建立一般的竞争市场。本文讨论了两个旨在提供提示保护的协议，提高其作为知识产权的地位，从而确认提示工程师的知识产权，并可能支持LLM提示的开放市场的繁荣。",
+    "tldr": "本文讨论了两个协议，旨在保护LLM提示的知识产权，提供开放市场上交易的可能性。",
+    "en_tdlr": "This paper discusses two protocols intended to protect the intellectual property rights of LLM prompts and potentially support their trading on an open market."
+}

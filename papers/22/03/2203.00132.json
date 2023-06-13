@@ -1,0 +1,12 @@
+{
+    "title": "On Testability and Goodness of Fit Tests in Missing Data Models. (arXiv:2203.00132v2 [stat.ME] UPDATED)",
+    "abstract": "Significant progress has been made in developing identification and estimation techniques for missing data problems where modeling assumptions can be described via a directed acyclic graph. The validity of results using such techniques rely on the assumptions encoded by the graph holding true; however, verification of these assumptions has not received sufficient attention in prior work. In this paper, we provide new insights on the testable implications of three broad classes of missing data graphical models, and design goodness-of-fit tests for them. The classes of models explored are: sequential missing-at-random and missing-not-at-random models which can be used for modeling longitudinal studies with dropout/censoring, and a no self-censoring model which can be applied to cross-sectional studies and surveys.",
+    "link": "http://arxiv.org/abs/2203.00132",
+    "context": "Title: On Testability and Goodness of Fit Tests in Missing Data Models. (arXiv:2203.00132v2 [stat.ME] UPDATED)\nAbstract: Significant progress has been made in developing identification and estimation techniques for missing data problems where modeling assumptions can be described via a directed acyclic graph. The validity of results using such techniques rely on the assumptions encoded by the graph holding true; however, verification of these assumptions has not received sufficient attention in prior work. In this paper, we provide new insights on the testable implications of three broad classes of missing data graphical models, and design goodness-of-fit tests for them. The classes of models explored are: sequential missing-at-random and missing-not-at-random models which can be used for modeling longitudinal studies with dropout/censoring, and a no self-censoring model which can be applied to cross-sectional studies and surveys.",
+    "path": "papers/22/03/2203.00132.json",
+    "total_tokens": 701,
+    "translated_title": "论缺失数据模型中的可检验性和拟合优度检验",
+    "translated_abstract": "在描述有向无环图可以描述建模假设的缺失数据问题中，已经取得了重要进展。使用这些技术得到的结果的有效性取决于图所编码的假设是否成立，然而，在先前的工作中，对这些假设的验证没有得到足够的关注。本文提供了关于三类缺失数据图模型的可检验性和设计拟合优度测试的新见解。探讨的模型类别包括：可以用于建模具有退出/截尾的纵向研究的序贯缺失随机模型和缺失非随机模型，以及可以应用于横截面研究和调查的非自我截断模型。",
+    "tldr": "本文提供了关于缺失数据图模型的可检验性和设计拟合优度测试的新见解。",
+    "en_tdlr": "This paper provides new insights on the testable implications of missing data graphical models and designs goodness-of-fit tests for them."
+}
