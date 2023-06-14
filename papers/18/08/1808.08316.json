@@ -1,0 +1,12 @@
+{
+    "title": "A Trio Neural Model for Dynamic Entity Relatedness Ranking. (arXiv:1808.08316v4 [cs.IR] UPDATED)",
+    "abstract": "Measuring entity relatedness is a fundamental task for many natural language processing and information retrieval applications. Prior work often studies entity relatedness in static settings and an unsupervised manner. However, entities in real-world are often involved in many different relationships, consequently entity-relations are very dynamic over time. In this work, we propose a neural networkbased approach for dynamic entity relatedness, leveraging the collective attention as supervision. Our model is capable of learning rich and different entity representations in a joint framework. Through extensive experiments on large-scale datasets, we demonstrate that our method achieves better results than competitive baselines.",
+    "link": "http://arxiv.org/abs/1808.08316",
+    "context": "Title: A Trio Neural Model for Dynamic Entity Relatedness Ranking. (arXiv:1808.08316v4 [cs.IR] UPDATED)\nAbstract: Measuring entity relatedness is a fundamental task for many natural language processing and information retrieval applications. Prior work often studies entity relatedness in static settings and an unsupervised manner. However, entities in real-world are often involved in many different relationships, consequently entity-relations are very dynamic over time. In this work, we propose a neural networkbased approach for dynamic entity relatedness, leveraging the collective attention as supervision. Our model is capable of learning rich and different entity representations in a joint framework. Through extensive experiments on large-scale datasets, we demonstrate that our method achieves better results than competitive baselines.",
+    "path": "papers/18/08/1808.08316.json",
+    "total_tokens": 750,
+    "translated_title": "一种三元神经模型用于动态实体相关性排名",
+    "translated_abstract": "测量实体相关性是许多自然语言处理和信息检索应用的基本任务。之前的研究通常在静态设置和非监督方式下研究实体相关性。然而，现实世界中的实体往往涉及许多不同的关系，因此实体关系随时间变得非常动态。在这项工作中，我们提出了一种基于神经网络的方法来动态评估实体相关性，利用集体注意力作为监督。我们的模型能够在联合框架中学习丰富而不同的实体表示。通过对大规模数据集的广泛实验，我们证明了我们的方法比竞争基线获得了更好的结果。",
+    "tldr": "这篇论文提出了一种基于神经网络的方法，通过动态评估实体相关性，利用集体注意作为监督，能学习到丰富而不同的实体表示，能在大规模数据集上比竞争基线获得更好的结果。",
+    "en_tdlr": "This paper proposes a neural model for dynamic entity relatedness ranking, which leverages collective attention as supervision and is capable of learning rich and different entity representations. Extensive experiments show that the model outperforms competitive baselines on large-scale datasets."
+}

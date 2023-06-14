@@ -1,0 +1,12 @@
+{
+    "title": "Tokenization with Factorized Subword Encoding. (arXiv:2306.07764v1 [cs.CL])",
+    "abstract": "In recent years, language models have become increasingly larger and more complex. However, the input representations for these models continue to rely on simple and greedy subword tokenization methods. In this paper, we propose a novel tokenization method that factorizes subwords onto discrete triplets using a VQ-VAE model. The effectiveness of the proposed tokenization method, referred to as the Factorizer, is evaluated on language modeling and morpho-syntactic tasks for 7 diverse languages. Results indicate that this method is more appropriate and robust for morphological tasks than the commonly used byte-pair encoding (BPE) tokenization algorithm.",
+    "link": "http://arxiv.org/abs/2306.07764",
+    "context": "Title: Tokenization with Factorized Subword Encoding. (arXiv:2306.07764v1 [cs.CL])\nAbstract: In recent years, language models have become increasingly larger and more complex. However, the input representations for these models continue to rely on simple and greedy subword tokenization methods. In this paper, we propose a novel tokenization method that factorizes subwords onto discrete triplets using a VQ-VAE model. The effectiveness of the proposed tokenization method, referred to as the Factorizer, is evaluated on language modeling and morpho-syntactic tasks for 7 diverse languages. Results indicate that this method is more appropriate and robust for morphological tasks than the commonly used byte-pair encoding (BPE) tokenization algorithm.",
+    "path": "papers/23/06/2306.07764.json",
+    "total_tokens": 765,
+    "translated_title": "因式分解子词编码的分词方法",
+    "translated_abstract": "近年来，语言模型变得越来越大、越来越复杂，然而这些模型的输入表示仍然依赖于简单和贪婪的子词分词方法。本文提出了一种新颖的分词方法，该方法使用VQ-VAE模型将子词因子化为离散三元组。所提出的分词方法被称为“因式分解器”，并在七种不同语言的语言建模和形态句法任务中进行了评估。结果表明，该方法比常用的字节对编码(BPE)分词算法更适合和更稳健于形态句法任务。",
+    "tldr": "本文提出了一种因式分解子词编码的分词方法，被称为“因式分解器”，在七种不同语言的语言建模和形态句法任务中进行评估，相较于常用的BPE算法具有更好的适应性和鲁棒性。",
+    "en_tdlr": "This paper proposes a tokenization method which factorizes subwords onto discrete triplets using a VQ-VAE model, referred to as the Factorizer, and evaluates its effectiveness on language modeling and morpho-syntactic tasks for 7 diverse languages. Results indicate that this method is more appropriate and robust for morphological tasks than the commonly used byte-pair encoding (BPE) tokenization algorithm."
+}

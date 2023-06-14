@@ -1,0 +1,12 @@
+{
+    "title": "HAUSER: Towards Holistic and Automatic Evaluation of Simile Generation. (arXiv:2306.07554v1 [cs.CL])",
+    "abstract": "Similes play an imperative role in creative writing such as story and dialogue generation. Proper evaluation metrics are like a beacon guiding the research of simile generation (SG). However, it remains under-explored as to what criteria should be considered, how to quantify each criterion into metrics, and whether the metrics are effective for comprehensive, efficient, and reliable SG evaluation. To address the issues, we establish HAUSER, a holistic and automatic evaluation system for the SG task, which consists of five criteria from three perspectives and automatic metrics for each criterion. Through extensive experiments, we verify that our metrics are significantly more correlated with human ratings from each perspective compared with prior automatic metrics.",
+    "link": "http://arxiv.org/abs/2306.07554",
+    "context": "Title: HAUSER: Towards Holistic and Automatic Evaluation of Simile Generation. (arXiv:2306.07554v1 [cs.CL])\nAbstract: Similes play an imperative role in creative writing such as story and dialogue generation. Proper evaluation metrics are like a beacon guiding the research of simile generation (SG). However, it remains under-explored as to what criteria should be considered, how to quantify each criterion into metrics, and whether the metrics are effective for comprehensive, efficient, and reliable SG evaluation. To address the issues, we establish HAUSER, a holistic and automatic evaluation system for the SG task, which consists of five criteria from three perspectives and automatic metrics for each criterion. Through extensive experiments, we verify that our metrics are significantly more correlated with human ratings from each perspective compared with prior automatic metrics.",
+    "path": "papers/23/06/2306.07554.json",
+    "total_tokens": 736,
+    "translated_title": "HAUSER：面向隐喻生成的整体和自动评估方法。",
+    "translated_abstract": "隐喻在创意写作（如故事和对话生成）中起着至关重要的作用。正确的评估指标就像引导隐喻生成研究的灯塔。然而，目前仍未深入探讨应考虑哪些标准，如何将每个标准量化为指标，以及这些指标是否能够对隐喻生成进行全面、高效和可靠的评估。为了解决这些问题，我们建立了HAUSER，这是一个面向隐喻生成任务的整体和自动评估系统，它由三个视角的五个标准和每个标准的自动指标组成。通过大量实验，我们验证了我们的指标与每个视角的人工评分显著相关，比现有的自动指标更好。",
+    "tldr": "HAUSER是一个面向隐喻生成任务的评估系统，利用三个视角的五个标准和自动指标进行全面、高效和可靠的评估。",
+    "en_tdlr": "HAUSER is an evaluation system for simile generation task that uses five criteria from three perspectives and automatic metrics to provide comprehensive, efficient, and reliable evaluation."
+}

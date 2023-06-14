@@ -1,0 +1,12 @@
+{
+    "title": "Decoding Brain Motor Imagery with various Machine Learning techniques. (arXiv:2306.07519v1 [cs.HC])",
+    "abstract": "Motor imagery (MI) is a well-documented technique used by subjects in BCI (Brain Computer Interface) experiments to modulate brain activity within the motor cortex and surrounding areas of the brain. In our term project, we conducted an experiment in which the subjects were instructed to perform motor imagery that would be divided into two classes (Right and Left). Experiments were conducted with two different types of electrodes (Gel and POLiTag) and data for individual subjects was collected. In this paper, we will apply different machine learning (ML) methods to create a decoder based on offline training data that uses evidence accumulation to predict a subject's intent from their modulated brain signals in real-time.",
+    "link": "http://arxiv.org/abs/2306.07519",
+    "context": "Title: Decoding Brain Motor Imagery with various Machine Learning techniques. (arXiv:2306.07519v1 [cs.HC])\nAbstract: Motor imagery (MI) is a well-documented technique used by subjects in BCI (Brain Computer Interface) experiments to modulate brain activity within the motor cortex and surrounding areas of the brain. In our term project, we conducted an experiment in which the subjects were instructed to perform motor imagery that would be divided into two classes (Right and Left). Experiments were conducted with two different types of electrodes (Gel and POLiTag) and data for individual subjects was collected. In this paper, we will apply different machine learning (ML) methods to create a decoder based on offline training data that uses evidence accumulation to predict a subject's intent from their modulated brain signals in real-time.",
+    "path": "papers/23/06/2306.07519.json",
+    "total_tokens": 705,
+    "translated_title": "不同机器学习技术下的脑运动想象解码研究",
+    "translated_abstract": "运动想象（MI）是被用于BCI（脑机接口）实验中的一种已被广泛记录的技术，用于调节大脑皮层以及周围区域的脑活动。在我们的项目中，我们进行了一项实验，指导受试者进行被分为右侧和左侧两类的运动想象。实验使用了两种不同类型（凝胶和POLiTag）的电极，并采集了每位受试者的数据。本文中，我们将应用不同的机器学习（ML）方法，基于离线训练数据创建解码器，利用证据累积实时预测受试者的意图。",
+    "tldr": "本文研究运用不同的机器学习方法解码运动想象，基于证据累积实时预测受试者的意图。",
+    "en_tdlr": "This study explores decoding motor imagery with various machine learning techniques and predicts a subject's intent in real-time using evidence accumulation."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Concentration Bounds for Discrete Distribution Estimation in KL Divergence. (arXiv:2302.06869v2 [stat.ML] UPDATED)",
+    "abstract": "We study the problem of discrete distribution estimation in KL divergence and provide concentration bounds for the Laplace estimator. We show that the deviation from mean scales as $\\sqrt{k}/n$ when $n \\ge k$, improving upon the best prior result of $k/n$. We also establish a matching lower bound that shows that our bounds are tight up to polylogarithmic factors.",
+    "link": "http://arxiv.org/abs/2302.06869",
+    "context": "Title: Concentration Bounds for Discrete Distribution Estimation in KL Divergence. (arXiv:2302.06869v2 [stat.ML] UPDATED)\nAbstract: We study the problem of discrete distribution estimation in KL divergence and provide concentration bounds for the Laplace estimator. We show that the deviation from mean scales as $\\sqrt{k}/n$ when $n \\ge k$, improving upon the best prior result of $k/n$. We also establish a matching lower bound that shows that our bounds are tight up to polylogarithmic factors.",
+    "path": "papers/23/02/2302.06869.json",
+    "total_tokens": 615,
+    "translated_title": "KL散度中离散分布估计的集中界限",
+    "translated_abstract": "我们研究了在KL散度中离散分布估计的问题，并为拉普拉斯估计器提供了集中界限。当$n \\geq k$时，我们展示了从平均值偏差的缩放为$\\sqrt{k} / n$，这比先前最好的结果$k/n$有所改进。我们还建立了一个匹配的下界，表明我们的界限在多项式对数因子上是紧密的。",
+    "tldr": "本文提供了拉普拉斯估计器的集中界限，讨论了在KL散度中离散分布估计的问题，并实现了更优的结果。",
+    "en_tdlr": "This paper provides concentration bounds for the Laplace estimator in discrete distribution estimation in KL divergence. It improves upon the prior best result of $k/n$ with a deviation from mean scaling of $\\sqrt{k}/n$ when $n \\ge k$. The study also establishes a matching lower bound showing tightness up to polylogarithmic factors."
+}

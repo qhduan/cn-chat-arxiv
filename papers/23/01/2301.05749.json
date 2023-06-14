@@ -1,0 +1,12 @@
+{
+    "title": "Artificial Benchmark for Community Detection with Outliers (ABCD+o). (arXiv:2301.05749v2 [cs.SI] UPDATED)",
+    "abstract": "The Artificial Benchmark for Community Detection graph (ABCD) is a random graph model with community structure and power-law distribution for both degrees and community sizes. The model generates graphs with similar properties as the well-known LFR one, and its main parameter $\\xi$ can be tuned to mimic its counterpart in the LFR model, the mixing parameter $\\mu$. In this paper, we extend the ABCD model to include potential outliers. We perform some exploratory experiments on both the new ABCD+o model as well as a real-world network to show that outliers possess some desired, distinguishable properties.",
+    "link": "http://arxiv.org/abs/2301.05749",
+    "context": "Title: Artificial Benchmark for Community Detection with Outliers (ABCD+o). (arXiv:2301.05749v2 [cs.SI] UPDATED)\nAbstract: The Artificial Benchmark for Community Detection graph (ABCD) is a random graph model with community structure and power-law distribution for both degrees and community sizes. The model generates graphs with similar properties as the well-known LFR one, and its main parameter $\\xi$ can be tuned to mimic its counterpart in the LFR model, the mixing parameter $\\mu$. In this paper, we extend the ABCD model to include potential outliers. We perform some exploratory experiments on both the new ABCD+o model as well as a real-world network to show that outliers possess some desired, distinguishable properties.",
+    "path": "papers/23/01/2301.05749.json",
+    "total_tokens": 663,
+    "translated_title": "带有离群点的社区检测人工基准（ABCD+o）",
+    "translated_abstract": "人工基准社区检测图（ABCD）是一个具有社区结构和度数、社区大小均服从幂律分布的随机图模型。该模型生成的图与著名的LFR模型具有相似的属性，它的主要参数ξ可以调节以模拟LFR模型中的混合参数μ。本文将ABCD模型扩展到包括潜在的离群点。我们对新的ABCD+o模型以及一个真实网络进行一些探索性实验，以表明离群点具有某些所需的明显特征。",
+    "tldr": "提出了一种带有离群点的人工基准社区检测图模型（ABCD+o），可以用于探索离群点的特征。",
+    "en_tdlr": "The paper proposes an artificial benchmark for community detection with outliers (ABCD+o) which can be used to explore the properties of outliers."
+}

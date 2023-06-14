@@ -1,0 +1,12 @@
+{
+    "title": "TEIMMA: The First Content Reuse Annotator for Text, Images, and Math. (arXiv:2305.13193v2 [cs.IR] UPDATED)",
+    "abstract": "This demo paper presents the first tool to annotate the reuse of text, images, and mathematical formulae in a document pair -- TEIMMA. Annotating content reuse is particularly useful to develop plagiarism detection algorithms. Real-world content reuse is often obfuscated, which makes it challenging to identify such cases. TEIMMA allows entering the obfuscation type to enable novel classifications for confirmed cases of plagiarism. It enables recording different reuse types for text, images, and mathematical formulae in HTML and supports users by visualizing the content reuse in a document pair using similarity detection methods for text and math.",
+    "link": "http://arxiv.org/abs/2305.13193",
+    "context": "Title: TEIMMA: The First Content Reuse Annotator for Text, Images, and Math. (arXiv:2305.13193v2 [cs.IR] UPDATED)\nAbstract: This demo paper presents the first tool to annotate the reuse of text, images, and mathematical formulae in a document pair -- TEIMMA. Annotating content reuse is particularly useful to develop plagiarism detection algorithms. Real-world content reuse is often obfuscated, which makes it challenging to identify such cases. TEIMMA allows entering the obfuscation type to enable novel classifications for confirmed cases of plagiarism. It enables recording different reuse types for text, images, and mathematical formulae in HTML and supports users by visualizing the content reuse in a document pair using similarity detection methods for text and math.",
+    "path": "papers/23/05/2305.13193.json",
+    "total_tokens": 725,
+    "translated_title": "TEIMMA：第一个支持文本、图片和数学公式内容重用注释的工具",
+    "translated_abstract": "本篇论文介绍了 TEIMMA 工具，这是第一个对文本、图片和数学公式在文档对中重用进行注释的工具。注释内容重用对于开发检测抄袭算法非常有用。现实中的内容重用通常被混淆，这使得识别此类情况变得具有挑战性。TEIMMA 允许输入混淆类型，以便针对已确认的抄袭案例进行新的分类。它可以记录 HTML 中文本、图片和数学公式的不同重用类型，并使用文本和数学相似度检测方法支持用户可视化查看文档对中的内容重复。",
+    "tldr": "TEIMMA 是一款可以注释文本、图片和数学公式重用的工具，能够记录不同类型的重用并支持可视化查看内容重复，有助于开发检测抄袭算法。",
+    "en_tdlr": "TEIMMA is the first tool for annotating the reuse of text, images, and mathematical formulae, which enables the recording of different reuse types and supports visualization of content reuse in a document pair. It can be helpful for developing plagiarism detection algorithms."
+}

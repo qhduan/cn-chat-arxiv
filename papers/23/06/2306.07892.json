@@ -1,0 +1,12 @@
+{
+    "title": "Robustly Learning a Single Neuron via Sharpness. (arXiv:2306.07892v1 [cs.LG])",
+    "abstract": "We study the problem of learning a single neuron with respect to the $L_2^2$-loss in the presence of adversarial label noise. We give an efficient algorithm that, for a broad family of activations including ReLUs, approximates the optimal $L_2^2$-error within a constant factor. Our algorithm applies under much milder distributional assumptions compared to prior work. The key ingredient enabling our results is a novel connection to local error bounds from optimization theory.",
+    "link": "http://arxiv.org/abs/2306.07892",
+    "context": "Title: Robustly Learning a Single Neuron via Sharpness. (arXiv:2306.07892v1 [cs.LG])\nAbstract: We study the problem of learning a single neuron with respect to the $L_2^2$-loss in the presence of adversarial label noise. We give an efficient algorithm that, for a broad family of activations including ReLUs, approximates the optimal $L_2^2$-error within a constant factor. Our algorithm applies under much milder distributional assumptions compared to prior work. The key ingredient enabling our results is a novel connection to local error bounds from optimization theory.",
+    "path": "papers/23/06/2306.07892.json",
+    "total_tokens": 647,
+    "translated_title": "通过Sharpness强健地学习单个神经元",
+    "translated_abstract": "我们研究了在存在对抗性标签噪声的情况下，学习单个神经元对$L_2^2$损失的问题。我们提出了一种有效的算法，对包括ReLU在内的广泛激活函数族中，近似于最优$L_2^2$误差。相较于以前的工作，我们的算法可以应用于更温和的分布假设。使我们结果可行的关键因素是与优化理论的局部误差界的新颖联系。",
+    "tldr": "该论文提出了一种可以对广泛激活函数族中的神经元的最优$L_2^2$误差进行近似的有效算法。",
+    "en_tdlr": "The paper proposes an efficient algorithm that approximates the optimal $L_2^2$-error for neurons in a wide family of activation functions, including ReLUs, in the presence of adversarial label noise, with milder distributional assumptions compared to prior work, by making use of local error bounds from optimization theory."
+}

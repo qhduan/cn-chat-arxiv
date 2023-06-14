@@ -1,0 +1,12 @@
+{
+    "title": "Hybrid lemmatization in HuSpaCy. (arXiv:2306.07636v1 [cs.CL])",
+    "abstract": "Lemmatization is still not a trivial task for morphologically rich languages. Previous studies showed that hybrid architectures usually work better for these languages and can yield great results. This paper presents a hybrid lemmatizer utilizing both a neural model, dictionaries and hand-crafted rules. We introduce a hybrid architecture along with empirical results on a widely used Hungarian dataset. The presented methods are published as three HuSpaCy models.",
+    "link": "http://arxiv.org/abs/2306.07636",
+    "context": "Title: Hybrid lemmatization in HuSpaCy. (arXiv:2306.07636v1 [cs.CL])\nAbstract: Lemmatization is still not a trivial task for morphologically rich languages. Previous studies showed that hybrid architectures usually work better for these languages and can yield great results. This paper presents a hybrid lemmatizer utilizing both a neural model, dictionaries and hand-crafted rules. We introduce a hybrid architecture along with empirical results on a widely used Hungarian dataset. The presented methods are published as three HuSpaCy models.",
+    "path": "papers/23/06/2306.07636.json",
+    "total_tokens": 623,
+    "translated_title": "HuSpaCy中的混合词形还原",
+    "translated_abstract": "对于形态丰富的语言，词形还原仍然不是一项轻松的任务。先前的研究表明，混合架构通常对这些语言效果更好，可以产生出色的结果。本文介绍了一种混合词形还原器，利用了神经模型、词典和手工制作的规则。我们提出了一种混合架构，并在广泛使用的匈牙利数据集上给出了实证结果。所述方法已经发布为三个HuSpaCy模型。",
+    "tldr": "本文介绍了一种混合架构的词形还原器，利用了神经模型、词典和手工制作的规则，在形态丰富的匈牙利语数据集上产生了良好的实证结果。",
+    "en_tdlr": "This paper presents a hybrid lemmatizer utilizing both a neural model, dictionaries and hand-crafted rules, and shows promising empirical results on a widely used Hungarian dataset."
+}

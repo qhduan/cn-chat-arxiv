@@ -1,0 +1,12 @@
+{
+    "title": "The Dormant Neuron Phenomenon in Deep Reinforcement Learning. (arXiv:2302.12902v2 [cs.LG] UPDATED)",
+    "abstract": "In this work we identify the dormant neuron phenomenon in deep reinforcement learning, where an agent's network suffers from an increasing number of inactive neurons, thereby affecting network expressivity. We demonstrate the presence of this phenomenon across a variety of algorithms and environments, and highlight its effect on learning. To address this issue, we propose a simple and effective method (ReDo) that Recycles Dormant neurons throughout training. Our experiments demonstrate that ReDo maintains the expressive power of networks by reducing the number of dormant neurons and results in improved performance.",
+    "link": "http://arxiv.org/abs/2302.12902",
+    "context": "Title: The Dormant Neuron Phenomenon in Deep Reinforcement Learning. (arXiv:2302.12902v2 [cs.LG] UPDATED)\nAbstract: In this work we identify the dormant neuron phenomenon in deep reinforcement learning, where an agent's network suffers from an increasing number of inactive neurons, thereby affecting network expressivity. We demonstrate the presence of this phenomenon across a variety of algorithms and environments, and highlight its effect on learning. To address this issue, we propose a simple and effective method (ReDo) that Recycles Dormant neurons throughout training. Our experiments demonstrate that ReDo maintains the expressive power of networks by reducing the number of dormant neurons and results in improved performance.",
+    "path": "papers/23/02/2302.12902.json",
+    "total_tokens": 727,
+    "translated_title": "深度强化学习中的休眠神经元现象",
+    "translated_abstract": "本文中，我们发现了深度强化学习中的休眠神经元现象，即代理网络中不断增加的未激活神经元数量会影响网络表达能力。我们在多种算法和环境中证明了这种现象的存在，并强调了它对学习的影响。为了解决这个问题，我们提出了一种简单而有效的方法(ReDo)，在训练期间回收休眠神经元。我们的实验证明，ReDo通过减少休眠神经元的数量，保持了网络的表达能力，并获得了更好的性能。",
+    "tldr": "在深度强化学习中存在着休眠神经元现象，即未激活神经元数量不断增加会影响网络表达能力，作者提出了一种简单而有效的方法(ReDo)回收休眠神经元，从而在训练中提高了网络的表达能力和性能。",
+    "en_tdlr": "The dormant neuron phenomenon exists in deep reinforcement learning, which affects network expressivity due to the increasing number of inactive neurons. The author proposes a simple and effective method (ReDo) to recycle dormant neurons during training, which improves network expressivity and performance."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Learning distinct features helps, provably. (arXiv:2106.06012v3 [cs.LG] UPDATED)",
+    "abstract": "We study the diversity of the features learned by a two-layer neural network trained with the least squares loss. We measure the diversity by the average $L_2$-distance between the hidden-layer features and theoretically investigate how learning non-redundant distinct features affects the performance of the network. To do so, we derive novel generalization bounds depending on feature diversity based on Rademacher complexity for such networks. Our analysis proves that more distinct features at the network's units within the hidden layer lead to better generalization. We also show how to extend our results to deeper networks and different losses.",
+    "link": "http://arxiv.org/abs/2106.06012",
+    "context": "Title: Learning distinct features helps, provably. (arXiv:2106.06012v3 [cs.LG] UPDATED)\nAbstract: We study the diversity of the features learned by a two-layer neural network trained with the least squares loss. We measure the diversity by the average $L_2$-distance between the hidden-layer features and theoretically investigate how learning non-redundant distinct features affects the performance of the network. To do so, we derive novel generalization bounds depending on feature diversity based on Rademacher complexity for such networks. Our analysis proves that more distinct features at the network's units within the hidden layer lead to better generalization. We also show how to extend our results to deeper networks and different losses.",
+    "path": "papers/21/06/2106.06012.json",
+    "total_tokens": 718,
+    "translated_title": "学习不同的特征有帮助，可证明。",
+    "translated_abstract": "本文研究了一个使用最小二乘损失训练的两层神经网络所学习的特征的多样性。我们通过隐藏层特征之间的平均$L_2$距离来度量多样性，并理论探讨了学习非冗余的不同特征如何影响网络的性能。为此，我们基于Rademacher复杂度推导出了基于特征多样性的新型推广界限。我们的分析证明了隐藏层单元内具有更多不同特征可以导致更好的泛化能力。我们还展示了如何将我们的结果扩展到更深的网络和不同的损失函数。",
+    "tldr": "学习非冗余的不同特征对神经网络的性能有帮助，具有更多不同特征的隐藏层单元可以导致更好的泛化能力。",
+    "en_tdlr": "Learning non-redundant distinct features improves the performance of neural networks, and units in the hidden layer with more diverse features lead to better generalization, as theoretically proven by novel generalization bounds based on feature diversity and Rademacher complexity. The results also provide an extension to deeper networks and different losses."
+}

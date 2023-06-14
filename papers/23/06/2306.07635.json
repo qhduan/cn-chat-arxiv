@@ -1,0 +1,12 @@
+{
+    "title": "Exploiting Configurations of MaxSAT Solvers. (arXiv:2306.07635v1 [cs.AI])",
+    "abstract": "In this paper, we describe how we can effectively exploit alternative parameter configurations to a MaxSAT solver. We describe how these configurations can be computed in the context of MaxSAT. In particular, we experimentally show how to easily combine configurations of a non-competitive solver to obtain a better solving approach.",
+    "link": "http://arxiv.org/abs/2306.07635",
+    "context": "Title: Exploiting Configurations of MaxSAT Solvers. (arXiv:2306.07635v1 [cs.AI])\nAbstract: In this paper, we describe how we can effectively exploit alternative parameter configurations to a MaxSAT solver. We describe how these configurations can be computed in the context of MaxSAT. In particular, we experimentally show how to easily combine configurations of a non-competitive solver to obtain a better solving approach.",
+    "path": "papers/23/06/2306.07635.json",
+    "total_tokens": 508,
+    "translated_title": "利用MaxSAT求解器的配置",
+    "translated_abstract": "本文介绍了如何有效地利用MaxSAT求解器的可替代参数配置，包括如何在MaxSAT上计算这些配置。特别地，我们进行了实验，展示了如何将一个非竞争性求解器的配置组合起来，实现更好的求解方法。",
+    "tldr": "本文介绍了如何利用MaxSAT求解器的可替代参数配置，并通过实验证明了如何将一个非竞争性求解器的配置组合起来，实现更好的求解方法。",
+    "en_tdlr": "This paper describes how to exploit alternative parameter configurations to a MaxSAT solver, and experimentally shows how to combine configurations of a non-competitive solver to obtain a better solving approach."
+}

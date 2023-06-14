@@ -1,0 +1,11 @@
+{
+    "title": "FOOCTTS: Generating Arabic Speech with Acoustic Environment for Football Commentator. (arXiv:2306.07936v1 [eess.AS])",
+    "abstract": "This paper presents FOOCTTS, an automatic pipeline for a football commentator that generates speech with background crowd noise. The application gets the text from the user, applies text pre-processing such as vowelization, followed by the commentator's speech synthesizer. Our pipeline included Arabic automatic speech recognition for data labeling, CTC segmentation, transcription vowelization to match speech, and fine-tuning the TTS. Our system is capable of generating speech with its acoustic environment within limited 15 minutes of football commentator recording. Our prototype is generalizable and can be easily applied to different domains and languages.",
+    "link": "http://arxiv.org/abs/2306.07936",
+    "context": "Title: FOOCTTS: Generating Arabic Speech with Acoustic Environment for Football Commentator. (arXiv:2306.07936v1 [eess.AS])\nAbstract: This paper presents FOOCTTS, an automatic pipeline for a football commentator that generates speech with background crowd noise. The application gets the text from the user, applies text pre-processing such as vowelization, followed by the commentator's speech synthesizer. Our pipeline included Arabic automatic speech recognition for data labeling, CTC segmentation, transcription vowelization to match speech, and fine-tuning the TTS. Our system is capable of generating speech with its acoustic environment within limited 15 minutes of football commentator recording. Our prototype is generalizable and can be easily applied to different domains and languages.",
+    "path": "papers/23/06/2306.07936.json",
+    "total_tokens": 737,
+    "translated_title": "FOOCTTS: 为足球解说员生成带有声音环境的阿拉伯语音",
+    "translated_abstract": "本文介绍 FOOCTTS，一种为足球解说员生成带有背景人群噪音的语音的自动流水线。该应用程序从用户处获取文本，应用文本预处理（如加元音），接着使用解说员的语音合成器。我们的流水线包括用于数据标记的阿拉伯语自动语音识别，CTC分段，用于匹配语音的转录元音，以及微调TTS。我们的系统能够在有限的15分钟足球解说员录音内生成带有其声学环境的语音。我们的原型是通用的，可以轻松应用于不同的领域和语言。",
+    "tldr": "本论文介绍了 FOOCTTS，一种为足球解说员生成带有背景人群噪音的语音的自动流水线。该系统能够在有限的15分钟足球解说员录音内生成带有其声学环境的语音。"
+}

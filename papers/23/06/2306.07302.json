@@ -1,0 +1,12 @@
+{
+    "title": "Impact of Experiencing Misrecognition by Teachable Agents on Learning and Rapport. (arXiv:2306.07302v1 [cs.HC])",
+    "abstract": "While speech-enabled teachable agents have some advantages over typing-based ones, they are vulnerable to errors stemming from misrecognition by automatic speech recognition (ASR). These errors may propagate, resulting in unexpected changes in the flow of conversation. We analyzed how such changes are linked with learning gains and learners' rapport with the agents. Our results show they are not related to learning gains or rapport, regardless of the types of responses the agents should have returned given the correct input from learners without ASR errors. We also discuss the implications for optimal error-recovery policies for teachable agents that can be drawn from these findings.",
+    "link": "http://arxiv.org/abs/2306.07302",
+    "context": "Title: Impact of Experiencing Misrecognition by Teachable Agents on Learning and Rapport. (arXiv:2306.07302v1 [cs.HC])\nAbstract: While speech-enabled teachable agents have some advantages over typing-based ones, they are vulnerable to errors stemming from misrecognition by automatic speech recognition (ASR). These errors may propagate, resulting in unexpected changes in the flow of conversation. We analyzed how such changes are linked with learning gains and learners' rapport with the agents. Our results show they are not related to learning gains or rapport, regardless of the types of responses the agents should have returned given the correct input from learners without ASR errors. We also discuss the implications for optimal error-recovery policies for teachable agents that can be drawn from these findings.",
+    "path": "papers/23/06/2306.07302.json",
+    "total_tokens": 708,
+    "translated_title": "教学代理人的应（识别）答错误对学习和人际关系的影响",
+    "translated_abstract": "虽然使用语音的教学代理人相比于基于打字的代理人具有一些优势，但它们容易出现音频识别错误。这些错误可能会扩散，导致对话流程的意外变化。我们分析了这些变化与学习收益以及学习者与代理人之间的人际关系之间的联系。我们的结果表明，这些变化无论代理人在不产生错误的情况下应该给予何种回应，都与学习收益或人际关系无关。我们还讨论了可从这些发现中推出的适当错误恢复策略对教学代理人的影响。",
+    "tldr": "音频识别错误对教学代理人学习和人际关系无显著影响，结果为教学代理人的最优错误恢复策略提供了一些启示。",
+    "en_tdlr": "Audio recognition errors have no significant impact on learning and rapport in teachable agents, providing insights for the optimal error-recovery policies."
+}

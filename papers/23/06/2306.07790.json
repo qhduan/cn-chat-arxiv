@@ -1,0 +1,12 @@
+{
+    "title": "NoCoLA: The Norwegian Corpus of Linguistic Acceptability. (arXiv:2306.07790v1 [cs.CL])",
+    "abstract": "While there has been a surge of large language models for Norwegian in recent years, we lack any tool to evaluate their understanding of grammaticality. We present two new Norwegian datasets for this task. NoCoLA_class is a supervised binary classification task where the goal is to discriminate between acceptable and non-acceptable sentences. On the other hand, NoCoLA_zero is a purely diagnostic task for evaluating the grammatical judgement of a language model in a completely zero-shot manner, i.e. without any further training. In this paper, we describe both datasets in detail, show how to use them for different flavors of language models, and conduct a comparative study of the existing Norwegian language models.",
+    "link": "http://arxiv.org/abs/2306.07790",
+    "context": "Title: NoCoLA: The Norwegian Corpus of Linguistic Acceptability. (arXiv:2306.07790v1 [cs.CL])\nAbstract: While there has been a surge of large language models for Norwegian in recent years, we lack any tool to evaluate their understanding of grammaticality. We present two new Norwegian datasets for this task. NoCoLA_class is a supervised binary classification task where the goal is to discriminate between acceptable and non-acceptable sentences. On the other hand, NoCoLA_zero is a purely diagnostic task for evaluating the grammatical judgement of a language model in a completely zero-shot manner, i.e. without any further training. In this paper, we describe both datasets in detail, show how to use them for different flavors of language models, and conduct a comparative study of the existing Norwegian language models.",
+    "path": "papers/23/06/2306.07790.json",
+    "total_tokens": 769,
+    "translated_title": "NoCoLA：挪威语言接受性语料库",
+    "translated_abstract": "近年来，大量的挪威语言模型出现，但我们缺乏评估其语法理解能力的工具。我们提出了两个新的挪威数据集来完成这项任务。其中NoCoLA_class是一个带监督的二元分类任务，旨在区分可接受和不可接受的句子；而NoCoLA_zero则是一个完全无需进行额外训练即可在零样本方式下评估语言模型语法判断的纯诊断任务。本文详细描述了这两个数据集，展示了如何用它们来为不同类型的语言模型进行比较，并对现有的挪威语言模型进行了比较研究。",
+    "tldr": "本论文提出了两个新的挪威语数据集，分别用于二元分类和纯诊断任务，旨在评估语言模型的语法理解能力。它们适用于不同类型的语言模型，并用于对现有挪威语言模型进行比较研究。",
+    "en_tdlr": "This paper introduces two new Norwegian datasets, one for supervised binary classification and the other for purely diagnostic tasks, aimed at evaluating the grammatical understanding ability of language models. They are applicable to different types of language models and used to compare existing Norwegian language models."
+}

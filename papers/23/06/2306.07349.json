@@ -1,0 +1,12 @@
+{
+    "title": "ATT3D: Amortized Text-to-3D Object Synthesis. (arXiv:2306.07349v1 [cs.LG])",
+    "abstract": "Text-to-3D modelling has seen exciting progress by combining generative text-to-image models with image-to-3D methods like Neural Radiance Fields. DreamFusion recently achieved high-quality results but requires a lengthy, per-prompt optimization to create 3D objects. To address this, we amortize optimization over text prompts by training on many prompts simultaneously with a unified model, instead of separately. With this, we share computation across a prompt set, training in less time than per-prompt optimization. Our framework - Amortized text-to-3D (ATT3D) - enables knowledge-sharing between prompts to generalize to unseen setups and smooth interpolations between text for novel assets and simple animations.",
+    "link": "http://arxiv.org/abs/2306.07349",
+    "context": "Title: ATT3D: Amortized Text-to-3D Object Synthesis. (arXiv:2306.07349v1 [cs.LG])\nAbstract: Text-to-3D modelling has seen exciting progress by combining generative text-to-image models with image-to-3D methods like Neural Radiance Fields. DreamFusion recently achieved high-quality results but requires a lengthy, per-prompt optimization to create 3D objects. To address this, we amortize optimization over text prompts by training on many prompts simultaneously with a unified model, instead of separately. With this, we share computation across a prompt set, training in less time than per-prompt optimization. Our framework - Amortized text-to-3D (ATT3D) - enables knowledge-sharing between prompts to generalize to unseen setups and smooth interpolations between text for novel assets and simple animations.",
+    "path": "papers/23/06/2306.07349.json",
+    "total_tokens": 839,
+    "translated_title": "ATT3D：摊销的文本到三维物体合成",
+    "translated_abstract": "将生成式文本到图像模型与图像到三维方法（如神经辐射场）相结合，文本至三维建模取得了令人兴奋的进展。 DreamFusion 最近取得了高质量的结果，但需要进行漫长的、基于提示的优化才能创建三维物体。为了解决这个问题，我们通过使用统一的模型同时训练许多提示来摊销提示优化，而不是单独训练每个提示。通过这种方式，我们可以在提示集合中共享计算，比每个提示的优化所需的时间更短。我们的框架-Amortized text-to-3D (ATT3D)-实现了提示之间的知识共享，以便推广到未见过的设置，并为新资产和简单动画之间的文本进行平滑的插值。",
+    "tldr": "该论文提出了一种“摊销”的文本到三维物体合成方法，将许多提示一起使用一个统一的模型进行训练，共享提示之间的优化计算，从而在更短时间内训练模型；该方法能够使不同提示之间进行平滑的插值，并在新的资产和简单动画之间实现知识共享和推广。",
+    "en_tdlr": "The paper proposes an \"amortized\" method for synthesizing text-to-3D objects by training on many prompts simultaneously with a unified model, enabling computation sharing between prompts and smoother interpolation between text, as well as knowledge-sharing for novel assets and animations."
+}
