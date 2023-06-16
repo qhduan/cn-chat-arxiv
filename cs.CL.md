@@ -73,6 +73,8 @@
 | [^69] | [A Taxonomy of Prompt Modifiers for Text-To-Image Generation.](http://arxiv.org/abs/2204.13988) | 本文基于为期3个月的民族学研究，确定了网络社区中使用的六种文本到图像生成提示修饰器的分类学，为研究文本到图像生成的实践提供了一个概念起点，并提供了AI生成艺术的实践者改进图像的可能性。 |
 | [^70] | [Detection of sepsis during emergency department triage using machine learning.](http://arxiv.org/abs/2204.07657) | 本研究利用机器学习开发出一种检测急诊科分诊前败血症的模型，其性能优于标准败血症筛查算法。 |
 | [^71] | [Focusing on Potential Named Entities During Active Label Acquisition.](http://arxiv.org/abs/2111.03837) | 本文提出了几个AL句子查询评估函数，关注潜在正面标记，并使用更好的数据驱动的正常化方法，以最小化NER注释成本。 |
+| [^72] | [Self-conditioning pre-trained language models.](http://arxiv.org/abs/2110.02802) | 本文探究了预训练语言模型(TLMs)的生成机制，并提出了一种自我调节的方法，利用TLMs中自然存在的专家单元来检测输入中的概念并对生成的文本进行调节。该方法即使在没有微调或使用额外参数的情况下也是有效的，可以纠正文本生成中的性别偏差。 |
+| [^73] | [WARM: A Weakly (+Semi) Supervised Model for Solving Math word Problems.](http://arxiv.org/abs/2104.06722) | 研究提出了一种弱监督模型WARM来解决用于自然语言处理中的数学题。通过仅用期望答案作为监督，该方法通过学习生成方程来解决问题，并在无需使用方程作为监督的情况下，成功实现了相比最先进的弱监督方法更高的精度提升。 |
 
 # 详细
 
@@ -1069,5 +1071,33 @@
     命名实体识别(NER)旨在识别结构化文本中命名实体的提及并将其分类到预定义的命名实体类别中。虽然基于深度学习的预训练语言模型有助于在NER中实现良好的预测性能，但许多特定领域的NER应用仍需要大量标记数据。主动学习(AL)是解决标签获取问题的通用框架，已用于NER任务，以最小化注释成本而不牺牲模型性能。然而，标记的严重不均匀类分布引入了设计有效的NER主动学习查询方法的挑战。我们提出了几个AL句子查询评估函数，更多关注潜在的正面标记，并使用基于句子和标记成本评估策略来评估这些提议的函数。我们还提出了更好的数据驱动的正常化方法，以惩罚过长或过短的句子。
 
     Named entity recognition (NER) aims to identify mentions of named entities in an unstructured text and classify them into predefined named entity classes. While deep learning-based pre-trained language models help to achieve good predictive performances in NER, many domain-specific NER applications still call for a substantial amount of labeled data. Active learning (AL), a general framework for the label acquisition problem, has been used for NER tasks to minimize the annotation cost without sacrificing model performance. However, the heavily imbalanced class distribution of tokens introduces challenges in designing effective AL querying methods for NER. We propose several AL sentence query evaluation functions that pay more attention to potential positive tokens, and evaluate these proposed functions with both sentence-based and token-based cost evaluation strategies. We also propose a better data-driven normalization approach to penalize sentences that are too long or too short. Our
+    
+[^72]: 自我调节预训练语言模型
+
+    Self-conditioning pre-trained language models. (arXiv:2110.02802v4 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2110.02802](http://arxiv.org/abs/2110.02802)
+
+    本文探究了预训练语言模型(TLMs)的生成机制，并提出了一种自我调节的方法，利用TLMs中自然存在的专家单元来检测输入中的概念并对生成的文本进行调节。该方法即使在没有微调或使用额外参数的情况下也是有效的，可以纠正文本生成中的性别偏差。
+
+    
+
+    本文旨在探究预训练的基于Transformer的语言模型(TLMs)指导文本生成的机制。基于Hinton(1999)的专家乘积公式，我们描述了一种生成机制，利用TLMs中自然存在的专家单元来检测输入中的概念，并在生成的文本中对这些概念进行调节。我们阐述了如何确定专家单元以及如何在推理过程中激活它们，以引导生成的输出中出现所需的任何概念。我们发现，激活极少量的单元就足以引导文本生成(在一个拥有345M参数的模型中只需要3个单元)。虽然本研究的目的是更多地了解TLMs的工作原理，但我们证明了我们的方法在没有微调或使用额外参数的情况下对于条件调节是有效的，甚至对于细粒度的同音异义词概念也能够实现。此外，我们还展示了我们的方法可以用于纠正文本生成中的性别偏差。
+
+    In this paper we aim to investigate the mechanisms that guide text generation with pre-trained Transformer-based Language Models (TLMs). Grounded on the Product of Experts formulation by Hinton (1999), we describe a generative mechanism that exploits expert units which naturally exist in TLMs. Such units are responsible for detecting concepts in the input and conditioning text generation on such concepts. We describe how to identify expert units and how to activate them during inference in order to induce any desired concept in the generated output. We find that the activation of a surprisingly small amount of units is sufficient to steer text generation (as little as 3 units in a model with 345M parameters). While the objective of this work is to learn more about how TLMs work, we show that our method is effective for conditioning without fine-tuning or using extra parameters, even on fine-grained homograph concepts. Additionally, we show that our method can be used to correct gender 
+    
+[^73]: 一种弱监督模型WARM用于解决数学题
+
+    WARM: A Weakly (+Semi) Supervised Model for Solving Math word Problems. (arXiv:2104.06722v2 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2104.06722](http://arxiv.org/abs/2104.06722)
+
+    研究提出了一种弱监督模型WARM来解决用于自然语言处理中的数学题。通过仅用期望答案作为监督，该方法通过学习生成方程来解决问题，并在无需使用方程作为监督的情况下，成功实现了相比最先进的弱监督方法更高的精度提升。
+
+    
+
+    解决数学问题是自然语言处理中的一个重要而具有挑战性的问题。现有的方法需要通过中间方程获得全部监督，而标注每个数学题的坑人代价昂贵。为了解决方程注释的挑战，我们提出了一种弱监督模型，通过仅需要期望答案作为监督来解决数学问题。
+
+    Solving math word problems (MWPs) is an important and challenging problem in natural language processing. Existing approaches to solve MWPs require full supervision in the form of intermediate equations. However, labeling every MWP with its corresponding equations is a time-consuming and expensive task. In order to address this challenge of equation annotation, we propose a weakly supervised model for solving MWPs by requiring only the final answer as supervision. We approach this problem by first learning to generate the equation using the problem description and the final answer, which we subsequently use to train a supervised MWP solver. We propose and compare various weakly supervised techniques to learn to generate equations directly from the problem description and answer. Through extensive experiments, we demonstrate that without using equations for supervision, our approach achieves accuracy gains of 4.5% and 32% over the state-of-the-art weakly supervised approach, on the stan
     
 
