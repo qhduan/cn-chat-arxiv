@@ -1,0 +1,12 @@
+{
+    "title": "NF4 Isn't Information Theoretically Optimal (and that's Good). (arXiv:2306.06965v2 [cs.LG] UPDATED)",
+    "abstract": "This note shares some simple calculations and experiments related to absmax-based blockwise quantization, as used in Dettmers et al., 2023. Their proposed NF4 data type is said to be information theoretically optimal for representing normally distributed weights. I show that this can't quite be the case, as the distribution of the values to be quantized depends on the block-size. I attempt to apply these insights to derive an improved code based on minimizing the expected L1 reconstruction error, rather than the quantile based method. This leads to improved performance for larger quantization block sizes, while both codes perform similarly at smaller block sizes.",
+    "link": "http://arxiv.org/abs/2306.06965",
+    "context": "Title: NF4 Isn't Information Theoretically Optimal (and that's Good). (arXiv:2306.06965v2 [cs.LG] UPDATED)\nAbstract: This note shares some simple calculations and experiments related to absmax-based blockwise quantization, as used in Dettmers et al., 2023. Their proposed NF4 data type is said to be information theoretically optimal for representing normally distributed weights. I show that this can't quite be the case, as the distribution of the values to be quantized depends on the block-size. I attempt to apply these insights to derive an improved code based on minimizing the expected L1 reconstruction error, rather than the quantile based method. This leads to improved performance for larger quantization block sizes, while both codes perform similarly at smaller block sizes.",
+    "path": "papers/23/06/2306.06965.json",
+    "total_tokens": 741,
+    "translated_title": "NF4不是信息理论上最优的（并且这是好事）",
+    "translated_abstract": "本文分享了一些关于基于absmax的分块量化的简单计算和实验，该方法被Dettmers等人在2023年提出，他们提出的NF4数据类型被认为是用于表示正态分布权重时的信息理论最优。我展示了这不完全是情况，因为要量化的值的分布取决于块大小。我试图应用这些见解，基于最小化期望L1重构误差而不是分位数方法推导出一个改进的编码。这导致在更大的量化块大小时性能得到改善，而在较小的块大小时两个编码表现类似。",
+    "tldr": "论文讨论了基于absmax的分块量化，推出该方法不是信息理论上的最优选择。作者优化L1重构误差，提出改进方法，适用于大块量化。在小块量化里，两种方法性能类似。",
+    "en_tdlr": "The paper discusses absmax-based blockwise quantization and shows that it is not information-theoretically optimal. The author proposes an improved method based on minimizing the expected L1 reconstruction error, which works better for larger quantization block sizes, while both methods perform similarly for smaller block sizes."
+}

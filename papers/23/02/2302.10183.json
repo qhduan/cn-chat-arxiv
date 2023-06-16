@@ -1,0 +1,12 @@
+{
+    "title": "Multivariate Systemic Risk Measures and Computation by Deep Learning Algorithms. (arXiv:2302.10183v2 [cs.LG] UPDATED)",
+    "abstract": "In this work we propose deep learning-based algorithms for the computation of systemic shortfall risk measures defined via multivariate utility functions. We discuss the key related theoretical aspects, with a particular focus on the fairness properties of primal optima and associated risk allocations. The algorithms we provide allow for learning primal optimizers, optima for the dual representation and corresponding fair risk allocations. We test our algorithms by comparison to a benchmark model, based on a paired exponential utility function, for which we can provide explicit formulas. We also show evidence of convergence in a case for which explicit formulas are not available.",
+    "link": "http://arxiv.org/abs/2302.10183",
+    "context": "Title: Multivariate Systemic Risk Measures and Computation by Deep Learning Algorithms. (arXiv:2302.10183v2 [cs.LG] UPDATED)\nAbstract: In this work we propose deep learning-based algorithms for the computation of systemic shortfall risk measures defined via multivariate utility functions. We discuss the key related theoretical aspects, with a particular focus on the fairness properties of primal optima and associated risk allocations. The algorithms we provide allow for learning primal optimizers, optima for the dual representation and corresponding fair risk allocations. We test our algorithms by comparison to a benchmark model, based on a paired exponential utility function, for which we can provide explicit formulas. We also show evidence of convergence in a case for which explicit formulas are not available.",
+    "path": "papers/23/02/2302.10183.json",
+    "total_tokens": 695,
+    "translated_title": "多元系统风险度量及基于深度学习算法的计算",
+    "translated_abstract": "本文提出了基于深度学习算法计算通过多元效用函数定义的系统性缺口风险度量的方法。我们讨论了相关的理论方面，特别关注原始最优解的公平性及相应的风险分配。我们提供的算法允许学习原始最优化程序、对偶表示的最优解以及相应的公平风险分配。我们通过与基于配对指数效用函数的基准模型进行比较来测试我们的算法，该基准模型可提供显式公式。我们还展示了在无法提供显式公式的情况下的收敛证据。",
+    "tldr": "本文提出了基于深度学习算法计算多元系统性缺口风险度量的方法，可以学习原始最优化程序、对偶表示的最优解以及公平风险分配。",
+    "en_tdlr": "This paper proposes deep learning-based algorithms for computing multivariate systemic shortfall risk measures and allows for learning primal optimizers, optima for the dual representation, and fair risk allocations."
+}

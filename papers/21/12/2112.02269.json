@@ -1,0 +1,12 @@
+{
+    "title": "Market making by an FX dealer: tiers, pricing ladders and hedging rates for optimal risk control. (arXiv:2112.02269v3 [q-fin.TR] UPDATED)",
+    "abstract": "Dealers make money by providing liquidity to clients but face flow uncertainty and thus price risk. They can efficiently skew their prices and wait for clients to mitigate risk (internalization), or trade with other dealers in the open market to hedge their position and reduce their inventory (externalization). Of course, the better control associated with externalization comes with transaction costs and market impact. The internalization vs. externalization dilemma has been a topic of recent active discussion within the foreign exchange (FX) community. This paper offers an optimal control framework for market making tackling both pricing and hedging, thus answering a question well known to dealers: `to hedge, or not to hedge?'",
+    "link": "http://arxiv.org/abs/2112.02269",
+    "context": "Title: Market making by an FX dealer: tiers, pricing ladders and hedging rates for optimal risk control. (arXiv:2112.02269v3 [q-fin.TR] UPDATED)\nAbstract: Dealers make money by providing liquidity to clients but face flow uncertainty and thus price risk. They can efficiently skew their prices and wait for clients to mitigate risk (internalization), or trade with other dealers in the open market to hedge their position and reduce their inventory (externalization). Of course, the better control associated with externalization comes with transaction costs and market impact. The internalization vs. externalization dilemma has been a topic of recent active discussion within the foreign exchange (FX) community. This paper offers an optimal control framework for market making tackling both pricing and hedging, thus answering a question well known to dealers: `to hedge, or not to hedge?'",
+    "path": "papers/21/12/2112.02269.json",
+    "total_tokens": 747,
+    "translated_title": "由FX经销商进行市场创造：层次、定价阶梯和对冲利率的最优风险控制",
+    "translated_abstract": "经销商通过向客户提供流动性来赚钱，但面临流量不确定性和价格风险。他们可以有效地扭曲价格并等待客户减轻风险（内部化），或在开放市场上与其他经销商交易以对冲其头寸并减少库存（外部化）。当然，与外部化相关的较好控制伴随着交易成本和市场影响。内部化与外部化的困境已成为外汇（FX）社区最近活跃讨论的主题。本文提供了一个市场创造的最优控制框架，解决同时处理定价和对冲的问题，从而回答了经销商广为人知的问题：“对冲，还是不对冲？”",
+    "tldr": "本文提供了一个市场创造的最优控制框架，解决了外汇交易中经销商面对的定价和对冲困境。",
+    "en_tdlr": "This paper presents an optimal control framework for market making, tackling the pricing and hedging dilemma faced by FX dealers."
+}

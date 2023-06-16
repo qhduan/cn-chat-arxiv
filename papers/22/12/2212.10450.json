@@ -1,0 +1,12 @@
+{
+    "title": "Is GPT-3 a Good Data Annotator?. (arXiv:2212.10450v2 [cs.CL] UPDATED)",
+    "abstract": "Data annotation is the process of labeling data that could be used to train machine learning models. Having high-quality annotation is crucial, as it allows the model to learn the relationship between the input data and the desired output. GPT-3, a large-scale language model developed by OpenAI, has demonstrated impressive zero- and few-shot performance on a wide range of NLP tasks. It is therefore natural to wonder whether it can be used to effectively annotate data for NLP tasks. In this paper, we evaluate the performance of GPT-3 as a data annotator by comparing it with traditional data annotation methods and analyzing its output on a range of tasks. Through this analysis, we aim to provide insight into the potential of GPT-3 as a general-purpose data annotator in NLP.",
+    "link": "http://arxiv.org/abs/2212.10450",
+    "context": "Title: Is GPT-3 a Good Data Annotator?. (arXiv:2212.10450v2 [cs.CL] UPDATED)\nAbstract: Data annotation is the process of labeling data that could be used to train machine learning models. Having high-quality annotation is crucial, as it allows the model to learn the relationship between the input data and the desired output. GPT-3, a large-scale language model developed by OpenAI, has demonstrated impressive zero- and few-shot performance on a wide range of NLP tasks. It is therefore natural to wonder whether it can be used to effectively annotate data for NLP tasks. In this paper, we evaluate the performance of GPT-3 as a data annotator by comparing it with traditional data annotation methods and analyzing its output on a range of tasks. Through this analysis, we aim to provide insight into the potential of GPT-3 as a general-purpose data annotator in NLP.",
+    "path": "papers/22/12/2212.10450.json",
+    "total_tokens": 741,
+    "translated_title": "GPT-3是否是一个好的数据注释器？",
+    "translated_abstract": "数据注释是标记用于训练机器学习模型的数据的过程。高质量的注释对于模型学习输入数据与期望输出之间的关系至关重要。由OpenAI开发的大规模语言模型GPT-3在广泛的NLP任务中展示出了令人印象深刻的零次和少次性能。因此，自然而然地想知道它是否可以用于有效地为NLP任务注释数据。在本文中，我们通过与传统数据注释方法的比较以及分析其在一系列任务上的输出，评估GPT-3作为数据注释器的性能。通过这个分析，我们旨在提供关于GPT-3作为NLP通用数据注释器潜力的洞见。",
+    "tldr": "本文通过比较和分析，评估了GPT-3作为数据注释器的性能，探讨了其作为通用NLP数据注释器的潜力。",
+    "en_tdlr": "This paper evaluates the performance of GPT-3 as a data annotator and discusses its potential as a general-purpose NLP data annotator through comparison and analysis."
+}

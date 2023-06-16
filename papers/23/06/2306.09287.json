@@ -1,0 +1,12 @@
+{
+    "title": "Modelling and Forecasting Macroeconomic Risk with Time Varying Skewness Stochastic Volatility Models. (arXiv:2306.09287v1 [econ.EM])",
+    "abstract": "In this paper I propose a parametric framework for modelling and forecasting macroeconomic tail risk based on stochastic volatility models with Skew-Normal and Skew-t shocks featuring stochastic skewness. The paper develops posterior simulation samplers for Bayesian estimation of both univariate and VAR models of this type. In an application, I use the models to predict downside risk to GDP growth and I show that this approach represents a competitive alternative to quantile regression. Finally, estimating a medium scale VAR on US data I show that time varying skewness is a relevant feature of macroeconomic and financial shocks.",
+    "link": "http://arxiv.org/abs/2306.09287",
+    "context": "Title: Modelling and Forecasting Macroeconomic Risk with Time Varying Skewness Stochastic Volatility Models. (arXiv:2306.09287v1 [econ.EM])\nAbstract: In this paper I propose a parametric framework for modelling and forecasting macroeconomic tail risk based on stochastic volatility models with Skew-Normal and Skew-t shocks featuring stochastic skewness. The paper develops posterior simulation samplers for Bayesian estimation of both univariate and VAR models of this type. In an application, I use the models to predict downside risk to GDP growth and I show that this approach represents a competitive alternative to quantile regression. Finally, estimating a medium scale VAR on US data I show that time varying skewness is a relevant feature of macroeconomic and financial shocks.",
+    "path": "papers/23/06/2306.09287.json",
+    "total_tokens": 806,
+    "translated_title": "带有时变偏度随机波动模型的宏观经济风险建模和预测",
+    "translated_abstract": "本文提出了一种基于带有随机偏度的偏正常和偏斜t震荡的随机波动模型的参数化框架，用于建模和预测宏观经济尾部风险。本文为这种类型的单变量和VAR模型开发了贝叶斯估计的后验模拟抽样器。在一个应用中，我使用这些模型来预测GDP增长的下行风险，并证明这种方法是量化回归的一个有竞争力的替代方法。最后，在美国数据上估计一个中等规模的VAR模型，我证明时变偏度是宏观经济和金融冲击的一个相关特征。",
+    "tldr": "本文提出了一种带有随机偏斜的波动模型来模拟和预测宏观经济尾部风险，并证明了这是一种有竞争力的量化回归替代方法。研究还表明，时变偏度是宏观经济和金融冲击的一个相关特征。",
+    "en_tdlr": "This paper proposes a parametric framework based on stochastic volatility models with stochastic skewness to model and forecast macroeconomic tail risk, and shows it to be a competitive alternative to quantile regression. It also demonstrates that time varying skewness is a relevant feature of macroeconomic and financial shocks."
+}

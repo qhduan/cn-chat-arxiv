@@ -1,0 +1,12 @@
+{
+    "title": "Cognitive Ledger Project: Towards Building Personal Digital Twins Through Cognitive Blockchain. (arXiv:2201.08163v2 [cs.AI] UPDATED)",
+    "abstract": "The Cognitive Ledger Project is an effort to develop a modular system for turning users' personal data into structured information and machine learning models based on a blockchain-based infrastructure. In this work-in-progress paper, we propose a cognitive architecture for cognitive digital twins. The suggested design embraces a cognitive blockchain (Cognitive ledger) at its core. The architecture includes several modules that turn users' activities in the digital environment into reusable knowledge objects and artificial intelligence that one day can work together to form the cognitive digital twin of users.",
+    "link": "http://arxiv.org/abs/2201.08163",
+    "context": "Title: Cognitive Ledger Project: Towards Building Personal Digital Twins Through Cognitive Blockchain. (arXiv:2201.08163v2 [cs.AI] UPDATED)\nAbstract: The Cognitive Ledger Project is an effort to develop a modular system for turning users' personal data into structured information and machine learning models based on a blockchain-based infrastructure. In this work-in-progress paper, we propose a cognitive architecture for cognitive digital twins. The suggested design embraces a cognitive blockchain (Cognitive ledger) at its core. The architecture includes several modules that turn users' activities in the digital environment into reusable knowledge objects and artificial intelligence that one day can work together to form the cognitive digital twin of users.",
+    "path": "papers/22/01/2201.08163.json",
+    "total_tokens": 686,
+    "translated_title": "认知账本项目：通过认知区块链构建个人数字化孪生体",
+    "translated_abstract": "认知账本项目旨在开发一个模块化系统，通过基于区块链基础设施的方式将用户的个人数据转化为结构化信息和机器学习模型。在这个正在进行的工作中，我们提出了一个认知数字孪生体的认知架构。所提出的设计在其核心采用了认知区块链（认知账本）。架构包括多个模块，可以将用户在数字环境中的活动转化为可重复使用的知识对象和人工智能，最终能够一起组成用户的认知数字孪生体。",
+    "tldr": "该论文提出了一个认知数字孪生体的认知架构，即通过基于区块链基础设施的方式将用户的个人数据转化为结构化信息和机器学习模型，最终能够一起组成用户的认知数字孪生体。",
+    "en_tdlr": "The paper proposes a cognitive architecture for cognitive digital twins, which turns users' personal data into structured information and machine learning models based on a blockchain-based infrastructure. The ultimate goal is to form the cognitive digital twin of users."
+}

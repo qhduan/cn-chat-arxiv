@@ -1,0 +1,12 @@
+{
+    "title": "Contrastive Loss is All You Need to Recover Analogies as Parallel Lines. (arXiv:2306.08221v1 [cs.CL])",
+    "abstract": "While static word embedding models are known to represent linguistic analogies as parallel lines in high-dimensional space, the underlying mechanism as to why they result in such geometric structures remains obscure. We find that an elementary contrastive-style method employed over distributional information performs competitively with popular word embedding models on analogy recovery tasks, while achieving dramatic speedups in training time. Further, we demonstrate that a contrastive loss is sufficient to create these parallel structures in word embeddings, and establish a precise relationship between the co-occurrence statistics and the geometric structure of the resulting word embeddings.",
+    "link": "http://arxiv.org/abs/2306.08221",
+    "context": "Title: Contrastive Loss is All You Need to Recover Analogies as Parallel Lines. (arXiv:2306.08221v1 [cs.CL])\nAbstract: While static word embedding models are known to represent linguistic analogies as parallel lines in high-dimensional space, the underlying mechanism as to why they result in such geometric structures remains obscure. We find that an elementary contrastive-style method employed over distributional information performs competitively with popular word embedding models on analogy recovery tasks, while achieving dramatic speedups in training time. Further, we demonstrate that a contrastive loss is sufficient to create these parallel structures in word embeddings, and establish a precise relationship between the co-occurrence statistics and the geometric structure of the resulting word embeddings.",
+    "path": "papers/23/06/2306.08221.json",
+    "total_tokens": 742,
+    "translated_title": "对比损失对于恢复类比关系为平行线就足够了",
+    "translated_abstract": "虽然静态词嵌入模型已知将语言类比关系表示为高维空间中的平行线，但为什么它们导致这样的几何结构的基本机制仍然不明确。我们发现，在分布信息上应用基本对比样式的方法与流行的词嵌入模型在类比恢复任务上表现相当，同时在训练时间上实现了巨大的加速。此外，我们证明对比损失足以在词嵌入中创建这些平行结构，并建立起共现统计数据与所得到的词嵌入的几何结构之间的精确关系。",
+    "tldr": "本论文提出使用对比损失方法可以达到和词嵌入模型相同的类比恢复效果，且在训练时间上有大幅度的提升；并证明了对比损失能够创造出具有平行结构的词嵌入。",
+    "en_tdlr": "This paper proposes the use of contrastive loss method to achieve the same analogy recovery effect as word embedding models, and significantly improves training time. It also proves that contrastive loss can create word embeddings with parallel structures and establishes a precise relationship between co-occurrence statistics and the resulting geometric structure of word embeddings."
+}

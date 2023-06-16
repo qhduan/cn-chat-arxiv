@@ -1,0 +1,12 @@
+{
+    "title": "Unraveling the ARC Puzzle: Mimicking Human Solutions with Object-Centric Decision Transformer. (arXiv:2306.08204v1 [cs.AI])",
+    "abstract": "In the pursuit of artificial general intelligence (AGI), we tackle Abstraction and Reasoning Corpus (ARC) tasks using a novel two-pronged approach. We employ the Decision Transformer in an imitation learning paradigm to model human problem-solving, and introduce an object detection algorithm, the Push and Pull clustering method. This dual strategy enhances AI's ARC problem-solving skills and provides insights for AGI progression. Yet, our work reveals the need for advanced data collection tools, robust training datasets, and refined model structures. This study highlights potential improvements for Decision Transformers and propels future AGI research.",
+    "link": "http://arxiv.org/abs/2306.08204",
+    "context": "Title: Unraveling the ARC Puzzle: Mimicking Human Solutions with Object-Centric Decision Transformer. (arXiv:2306.08204v1 [cs.AI])\nAbstract: In the pursuit of artificial general intelligence (AGI), we tackle Abstraction and Reasoning Corpus (ARC) tasks using a novel two-pronged approach. We employ the Decision Transformer in an imitation learning paradigm to model human problem-solving, and introduce an object detection algorithm, the Push and Pull clustering method. This dual strategy enhances AI's ARC problem-solving skills and provides insights for AGI progression. Yet, our work reveals the need for advanced data collection tools, robust training datasets, and refined model structures. This study highlights potential improvements for Decision Transformers and propels future AGI research.",
+    "path": "papers/23/06/2306.08204.json",
+    "total_tokens": 766,
+    "translated_title": "解谜ARC：用物体为中心的决策Transformer模仿人类解决方案",
+    "translated_abstract": "在追求人工通用智能（AGI）的过程中，我们采用了一种新颖的双重方法来解决抽象推理文本集（ARC）任务。我们使用决策Transformer在模仿学习范式下建模人类问题解决，并引入了物体检测算法Push and Pull聚类方法。这种双重策略增强了AI的ARC问题解决能力，并为AGI进展提供了见解。然而，我们的工作揭示了高级数据收集工具、强大的培训数据集和精细的模型结构需求。这项研究突显了决策Transformer的潜在改进，并推动未来AGI研究。",
+    "tldr": "该论文使用双重策略解决ARC任务，通过决策Transformer模仿人类解决方案和引入物体检测算法来提高AI的问题解决能力，同时揭示了数据和模型结构等方面的需求，为未来AGI研究提供了见解。",
+    "en_tdlr": "This paper proposes a dual strategy to solve ARC tasks by using Decision Transformer to mimic human problem-solving and introducing object detection algorithm; it highlights the potential improvements for Decision Transformers and emphasizes the need for advanced data collection tools and refined model structures in future AGI research."
+}

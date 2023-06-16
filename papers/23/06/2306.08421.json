@@ -1,0 +1,12 @@
+{
+    "title": "Greeks' pitfalls for the COS method in the Laplace model. (arXiv:2306.08421v1 [q-fin.CP])",
+    "abstract": "The Greeks Delta, Gamma and Speed are the first, second and third derivative of a European option with respect to the current price of the underlying. The Fourier cosine series expansion method (COS method) is a numerical method for approximating the price and the Greeks of European options. We develop a closed-form expression of Speed of various European options in the Laplace model and we provide sufficient conditions for the COS method to approximate Speed. We show empirically that the COS method may produce numerically nonsensical results if theses sufficient conditions are not met.",
+    "link": "http://arxiv.org/abs/2306.08421",
+    "context": "Title: Greeks' pitfalls for the COS method in the Laplace model. (arXiv:2306.08421v1 [q-fin.CP])\nAbstract: The Greeks Delta, Gamma and Speed are the first, second and third derivative of a European option with respect to the current price of the underlying. The Fourier cosine series expansion method (COS method) is a numerical method for approximating the price and the Greeks of European options. We develop a closed-form expression of Speed of various European options in the Laplace model and we provide sufficient conditions for the COS method to approximate Speed. We show empirically that the COS method may produce numerically nonsensical results if theses sufficient conditions are not met.",
+    "path": "papers/23/06/2306.08421.json",
+    "total_tokens": 722,
+    "translated_title": "拉普拉斯模型中COS方法中希腊字母的陷阱",
+    "translated_abstract": "希腊字母Delta，Gamma和Speed是欧式期权相对于标的资产当前价格的一阶、二阶和三阶导数。傅里叶余弦级数展开法（COS 方法）是一种数值方法，用于近似欧式期权的价格和希腊字母。我们开发了拉普拉斯模型中各种欧式期权的Speed的闭合形式表达式，并提供了COS方法近似Speed所需满足的充分条件。我们实证表明，如果这些充分条件不满足，COS方法可能会产生数字上没有意义的结果。",
+    "tldr": "本文在拉普拉斯模型中研究了欧式期权中希腊字母Speed的解析表达式，并提供了COS方法近似Speed所需满足的充分条件，实验证明未满足条件时结果可能不准确。",
+    "en_tdlr": "This paper provides a closed-form expression of the Greek letter Speed for various European options in the Laplace model, and offers sufficient conditions for the COS method to accurately approximate it. Empirical results suggest that the COS method can produce numerically nonsensical results if these conditions are not met."
+}

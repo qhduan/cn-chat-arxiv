@@ -1,0 +1,12 @@
+{
+    "title": "CipherSniffer: Classifying Cipher Types. (arXiv:2306.08116v1 [cs.CL])",
+    "abstract": "Ciphers are a powerful tool for encrypting communication. There are many different cipher types, which makes it computationally expensive to solve a cipher using brute force. In this paper, we frame the decryption task as a classification problem. We first create a dataset of transpositions, substitutions, text reversals, word reversals, sentence shifts, and unencrypted text. Then, we evaluate the performance of various tokenizer-model combinations on this task.",
+    "link": "http://arxiv.org/abs/2306.08116",
+    "context": "Title: CipherSniffer: Classifying Cipher Types. (arXiv:2306.08116v1 [cs.CL])\nAbstract: Ciphers are a powerful tool for encrypting communication. There are many different cipher types, which makes it computationally expensive to solve a cipher using brute force. In this paper, we frame the decryption task as a classification problem. We first create a dataset of transpositions, substitutions, text reversals, word reversals, sentence shifts, and unencrypted text. Then, we evaluate the performance of various tokenizer-model combinations on this task.",
+    "path": "papers/23/06/2306.08116.json",
+    "total_tokens": 568,
+    "translated_title": "CipherSniffer: 分类密码类型",
+    "translated_abstract": "密码是加密通信的强有力工具。有很多不同的密码类型，这使得使用暴力破解来解密密码的计算费用昂贵。本文将解密任务作为分类问题来框架化。首先，我们创建了一个置换、替换、文本反转、单词反转、句子移位和未加密文本的数据集。然后，我们评估了各种Tokenizer-Model组合在此任务中的表现。",
+    "tldr": "本文将解密任务作为分类问题来解决，并创建了一个包含各种类型的密码数据集，最终评估了各种Tokenizer-Model组合在此任务中的性能。",
+    "en_tdlr": "This paper frames the decryption task as a classification problem, creates a dataset of various cipher types, and evaluates the performance of tokenizer-model combinations."
+}

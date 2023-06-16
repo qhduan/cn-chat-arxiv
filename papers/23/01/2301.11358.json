@@ -1,0 +1,12 @@
+{
+    "title": "Simple Difference-in-Differences Estimation in Fixed-T Panels. (arXiv:2301.11358v2 [econ.EM] UPDATED)",
+    "abstract": "The present paper proposes a new treatment effects estimator that is valid when the number of time periods is small, and the parallel trends condition holds conditional on covariates and unobserved heterogeneity in the form of interactive fixed effects. The estimator also allow the control variables to be affected by treatment and it enables estimation of the resulting indirect effect on the outcome variable. The asymptotic properties of the estimator are established and their accuracy in small samples is investigated using Monte Carlo simulations. The empirical usefulness of the estimator is illustrated using as an example the effect of increased trade competition on firm markups in China.",
+    "link": "http://arxiv.org/abs/2301.11358",
+    "context": "Title: Simple Difference-in-Differences Estimation in Fixed-T Panels. (arXiv:2301.11358v2 [econ.EM] UPDATED)\nAbstract: The present paper proposes a new treatment effects estimator that is valid when the number of time periods is small, and the parallel trends condition holds conditional on covariates and unobserved heterogeneity in the form of interactive fixed effects. The estimator also allow the control variables to be affected by treatment and it enables estimation of the resulting indirect effect on the outcome variable. The asymptotic properties of the estimator are established and their accuracy in small samples is investigated using Monte Carlo simulations. The empirical usefulness of the estimator is illustrated using as an example the effect of increased trade competition on firm markups in China.",
+    "path": "papers/23/01/2301.11358.json",
+    "total_tokens": 761,
+    "translated_title": "固定T面板数据中简单差异法治疗效应估计",
+    "translated_abstract": "本文提出了一种新的治疗效应估计量，当时间期数较少且平行趋势条件满足时，该估计量是有效的，条件是协变量和交互固定效应的未观测异质性。该估计量还允许控制变量受到处理的影响，并使得能够对结果变量的间接影响进行估计。本文建立了估计量的渐近性质，并使用蒙特卡罗模拟研究了其在小样本中的精度。该估计量的实证价值使用中国增加的贸易竞争对公司加价的影响作为例子予以说明。",
+    "tldr": "本文提出了一种在时间期数较少且平行趋势条件满足的情况下有效的治疗效应估计量，可支持控制变量受到处理影响的情况，并允许对结果变量的间接影响进行估计。",
+    "en_tdlr": "The paper proposes a valid treatment effects estimator in cases with small time periods and parallel trends condition holds conditional on covariates and unobserved heterogeneity in the form of interactive fixed effects. The estimator allows for control variables being affected by treatment and enables estimation of the resulting indirect effect on the outcome variable."
+}

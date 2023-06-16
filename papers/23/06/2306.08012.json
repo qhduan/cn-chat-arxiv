@@ -1,0 +1,12 @@
+{
+    "title": "A Novel Scheme to classify Read and Spontaneous Speech. (arXiv:2306.08012v1 [cs.SD])",
+    "abstract": "The COVID-19 pandemic has led to an increased use of remote telephonic interviews, making it important to distinguish between scripted and spontaneous speech in audio recordings. In this paper, we propose a novel scheme for identifying read and spontaneous speech. Our approach uses a pre-trained DeepSpeech audio-to-alphabet recognition engine to generate a sequence of alphabets from the audio. From these alphabets, we derive features that allow us to discriminate between read and spontaneous speech. Our experimental results show that even a small set of self-explanatory features can effectively classify the two types of speech very effectively.",
+    "link": "http://arxiv.org/abs/2306.08012",
+    "context": "Title: A Novel Scheme to classify Read and Spontaneous Speech. (arXiv:2306.08012v1 [cs.SD])\nAbstract: The COVID-19 pandemic has led to an increased use of remote telephonic interviews, making it important to distinguish between scripted and spontaneous speech in audio recordings. In this paper, we propose a novel scheme for identifying read and spontaneous speech. Our approach uses a pre-trained DeepSpeech audio-to-alphabet recognition engine to generate a sequence of alphabets from the audio. From these alphabets, we derive features that allow us to discriminate between read and spontaneous speech. Our experimental results show that even a small set of self-explanatory features can effectively classify the two types of speech very effectively.",
+    "path": "papers/23/06/2306.08012.json",
+    "total_tokens": 650,
+    "translated_title": "一种用于分类朗读和自发语音的新方案",
+    "translated_abstract": "COVID-19疫情导致远程电话采访的增加，因此需要区分音频记录中的朗读和自发语音。本文提出了一种新的方案来识别朗读和自发语音。我们的方法使用预训练的DeepSpeech音频到字母识别引擎从音频中生成字母序列，并从中提取特征来区分朗读和自发语音。我们的实验结果表明，即使是一小组自解释的特征也可以非常有效地分类这两种类型的语音。",
+    "tldr": "本文提出了一种利用DeepSpeech音频到字母识别引擎的新方案来分类朗读和自发语音。利用该方法可以非常有效地识别这两种类型的语音。",
+    "en_tdlr": "This paper proposes a novel scheme for identifying read and spontaneous speech using a pre-trained DeepSpeech audio-to-alphabet recognition engine to effectively classify the two types of speech."
+}

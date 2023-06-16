@@ -1,0 +1,12 @@
+{
+    "title": "PrivaScissors: Enhance the Privacy of Collaborative Inference through the Lens of Mutual Information. (arXiv:2306.07973v1 [cs.CR])",
+    "abstract": "Edge-cloud collaborative inference empowers resource-limited IoT devices to support deep learning applications without disclosing their raw data to the cloud server, thus preserving privacy. Nevertheless, prior research has shown that collaborative inference still results in the exposure of data and predictions from edge devices. To enhance the privacy of collaborative inference, we introduce a defense strategy called PrivaScissors, which is designed to reduce the mutual information between a model's intermediate outcomes and the device's data and predictions. We evaluate PrivaScissors's performance on several datasets in the context of diverse attacks and offer a theoretical robustness guarantee.",
+    "link": "http://arxiv.org/abs/2306.07973",
+    "context": "Title: PrivaScissors: Enhance the Privacy of Collaborative Inference through the Lens of Mutual Information. (arXiv:2306.07973v1 [cs.CR])\nAbstract: Edge-cloud collaborative inference empowers resource-limited IoT devices to support deep learning applications without disclosing their raw data to the cloud server, thus preserving privacy. Nevertheless, prior research has shown that collaborative inference still results in the exposure of data and predictions from edge devices. To enhance the privacy of collaborative inference, we introduce a defense strategy called PrivaScissors, which is designed to reduce the mutual information between a model's intermediate outcomes and the device's data and predictions. We evaluate PrivaScissors's performance on several datasets in the context of diverse attacks and offer a theoretical robustness guarantee.",
+    "path": "papers/23/06/2306.07973.json",
+    "total_tokens": 721,
+    "translated_title": "基于互信息的协作推理隐私保护方法",
+    "translated_abstract": "边缘-云协作推理为物联网设备支持深度学习应用提供了强大的计算能力，同时也保护了原始数据的隐私。然而，之前的研究表明，协作推理仍然会暴露设备的数据和预测结果。为了增强协作推理的隐私保护，我们提出了一种叫做PrivaScissors的防御策略，该策略旨在减少模型中间结果和设备数据、预测之间的互信息。我们在多个数据集上评估了PrivaScissors在不同攻击情况下的性能，并提供了理论上的鲁棒性保证。",
+    "tldr": "PrivaScissors是一种防御策略，用于减少模型中间结果和设备数据、预测之间的互信息，以增强边缘-云协作推理的隐私保护。",
+    "en_tdlr": "PrivaScissors is a defense strategy designed to reduce the mutual information between a model's intermediate outcomes and the device's data and predictions, thereby enhancing the privacy of edge-cloud collaborative inference."
+}

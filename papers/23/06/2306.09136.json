@@ -1,0 +1,12 @@
+{
+    "title": "Logarithmic Bayes Regret Bounds. (arXiv:2306.09136v1 [cs.LG])",
+    "abstract": "We derive the first finite-time logarithmic regret bounds for Bayesian bandits. For Gaussian bandits, we obtain a $O(c_h \\log^2 n)$ bound, where $c_h$ is a prior-dependent constant. This matches the asymptotic lower bound of Lai (1987). Our proofs mark a technical departure from prior works, and are simple and general. To show generality, we apply our technique to linear bandits. Our bounds shed light on the value of the prior in the Bayesian setting, both in the objective and as a side information given to the learner. They significantly improve the $\\tilde{O}(\\sqrt{n})$ bounds, that despite the existing lower bounds, have become standard in the literature.",
+    "link": "http://arxiv.org/abs/2306.09136",
+    "context": "Title: Logarithmic Bayes Regret Bounds. (arXiv:2306.09136v1 [cs.LG])\nAbstract: We derive the first finite-time logarithmic regret bounds for Bayesian bandits. For Gaussian bandits, we obtain a $O(c_h \\log^2 n)$ bound, where $c_h$ is a prior-dependent constant. This matches the asymptotic lower bound of Lai (1987). Our proofs mark a technical departure from prior works, and are simple and general. To show generality, we apply our technique to linear bandits. Our bounds shed light on the value of the prior in the Bayesian setting, both in the objective and as a side information given to the learner. They significantly improve the $\\tilde{O}(\\sqrt{n})$ bounds, that despite the existing lower bounds, have become standard in the literature.",
+    "path": "papers/23/06/2306.09136.json",
+    "total_tokens": 814,
+    "translated_title": "对数贝叶斯遗憾边界",
+    "translated_abstract": "我们为贝叶斯赌博机导出了首个有限时间对数遗憾边界。对于高斯赌博机，我们获得了一个$O(c_h \\log^2 n)$的边界，其中$c_h$是与先验相关的常量。这与Lai（1987）的渐近下限相匹配。我们的证明与先前的工作有所不同，且简单且普遍。为了显示一般性，我们将我们的技术应用于线性赌博机。我们的界限阐明了贝叶斯设置中先验的价值，既可以作为目标，也可以作为传递给学习者的附加信息。它们显着改善了现有的$\\tilde{O}(\\sqrt{n})$界限，尽管存在下限，但已成为文献中的标准。",
+    "tldr": "该论文提出了对于贝叶斯赌博机的首个有限时间对数遗憾边界，并用于高斯和线性赌博机，从而阐明了贝叶斯设置中先验价值以及对$\\tilde{O}(\\sqrt{n})$界限的改善。",
+    "en_tdlr": "This paper proposes the first finite-time logarithmic regret bounds for Bayesian bandits, applied to Gaussian and linear bandits, shedding light on the value of prior in Bayesian setting and significantly improving the $\\tilde{O}(\\sqrt{n})$ bounds."
+}

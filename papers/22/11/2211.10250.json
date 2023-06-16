@@ -1,0 +1,12 @@
+{
+    "title": "HiveNAS: Neural Architecture Search using Artificial Bee Colony Optimization. (arXiv:2211.10250v2 [cs.NE] UPDATED)",
+    "abstract": "The traditional Neural Network-development process requires substantial expert knowledge and relies heavily on intuition and trial-and-error. Neural Architecture Search (NAS) frameworks were introduced to robustly search for network topologies, as well as facilitate the automated development of Neural Networks. While some optimization approaches -- such as Genetic Algorithms -have been extensively explored in the NAS context, other Metaheuristic Optimization algorithms have not yet been investigated. In this study, we evaluate the viability of Artificial Bee Colony optimization for Neural Architecture Search. Our proposed framework, HiveNAS, outperforms existing state-of-the-art Swarm Intelligence-based NAS frameworks in a fraction of the time.",
+    "link": "http://arxiv.org/abs/2211.10250",
+    "context": "Title: HiveNAS: Neural Architecture Search using Artificial Bee Colony Optimization. (arXiv:2211.10250v2 [cs.NE] UPDATED)\nAbstract: The traditional Neural Network-development process requires substantial expert knowledge and relies heavily on intuition and trial-and-error. Neural Architecture Search (NAS) frameworks were introduced to robustly search for network topologies, as well as facilitate the automated development of Neural Networks. While some optimization approaches -- such as Genetic Algorithms -have been extensively explored in the NAS context, other Metaheuristic Optimization algorithms have not yet been investigated. In this study, we evaluate the viability of Artificial Bee Colony optimization for Neural Architecture Search. Our proposed framework, HiveNAS, outperforms existing state-of-the-art Swarm Intelligence-based NAS frameworks in a fraction of the time.",
+    "path": "papers/22/11/2211.10250.json",
+    "total_tokens": 736,
+    "translated_title": "HiveNAS: 采用人工蜂群优化的神经架构搜索",
+    "translated_abstract": "传统的神经网络开发过程需要大量专业知识，并且严重依赖于直觉和试错。神经架构搜索（NAS）框架被引入来稳健地搜索网络拓扑，并促进神经网络的自动开发。在NAS上，虽然一些优化方法（如遗传算法）已经被广泛探究，但其他元启发式优化算法尚未被研究。在本研究中，我们评估了采用人工蜂群优化进行神经架构搜索的可行性。我们提出的框架HiveNAS在一小部分时间内就超越了现有的基于群智的NAS框架，成为最优。",
+    "tldr": "本文提出了一种采用人工蜂群优化的神经架构搜索框架HiveNAS，它在极短的时间内就能超越其他基于群智的NAS框架，成为最优。",
+    "en_tdlr": "This paper proposes a neural architecture search framework HiveNAS using artificial bee colony optimization algorithm, which outperforms existing swarm intelligence-based NAS frameworks in a much shorter time."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Stop overkilling simple tasks with black-box models and use transparent models instead. (arXiv:2302.02804v2 [cs.LG] UPDATED)",
+    "abstract": "In recent years, the employment of deep learning methods has led to several significant breakthroughs in artificial intelligence. Different from traditional machine learning models, deep learning-based approaches are able to extract features autonomously from raw data. This allows for bypassing the feature engineering process, which is generally considered to be both error-prone and tedious. Moreover, deep learning strategies often outperform traditional models in terms of accuracy.",
+    "link": "http://arxiv.org/abs/2302.02804",
+    "context": "Title: Stop overkilling simple tasks with black-box models and use transparent models instead. (arXiv:2302.02804v2 [cs.LG] UPDATED)\nAbstract: In recent years, the employment of deep learning methods has led to several significant breakthroughs in artificial intelligence. Different from traditional machine learning models, deep learning-based approaches are able to extract features autonomously from raw data. This allows for bypassing the feature engineering process, which is generally considered to be both error-prone and tedious. Moreover, deep learning strategies often outperform traditional models in terms of accuracy.",
+    "path": "papers/23/02/2302.02804.json",
+    "total_tokens": 567,
+    "translated_title": "不要再过度使用黑匣子模型进行简单任务，转而使用透明模型。",
+    "translated_abstract": "近年来，深度学习方法在人工智能领域中取得了重大突破。与传统机器学习模型不同，基于深度学习的方法能够自主从原始数据中提取特征。这允许跳过通常被认为是容易出错和烦琐的特征工程过程。此外，深度学习策略在精度方面通常优于传统模型。",
+    "tldr": "过度使用黑匣子模型会导致简单任务的浪费，透明模型可以提高效率和精度。",
+    "en_tdlr": "Overusing black-box models for simple tasks is wasteful, transparent models can improve efficiency and accuracy."
+}

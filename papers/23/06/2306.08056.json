@@ -1,0 +1,12 @@
+{
+    "title": "Distributed Trust Through the Lens of Software Architecture. (arXiv:2306.08056v1 [cs.CR])",
+    "abstract": "Distributed trust is a nebulous concept that has evolved from different perspectives in recent years. While one can attribute its current prominence to blockchain and cryptocurrency, the distributed trust concept has been cultivating progress in federated learning, trustworthy and responsible AI in an ecosystem setting, data sharing, privacy issues across organizational boundaries, and zero trust cybersecurity. This paper will survey the concept of distributed trust in multiple disciplines. It will take a system/software architecture point of view to look at trust redistribution/shift and the associated tradeoffs in systems and applications enabled by distributed trust technologies.",
+    "link": "http://arxiv.org/abs/2306.08056",
+    "context": "Title: Distributed Trust Through the Lens of Software Architecture. (arXiv:2306.08056v1 [cs.CR])\nAbstract: Distributed trust is a nebulous concept that has evolved from different perspectives in recent years. While one can attribute its current prominence to blockchain and cryptocurrency, the distributed trust concept has been cultivating progress in federated learning, trustworthy and responsible AI in an ecosystem setting, data sharing, privacy issues across organizational boundaries, and zero trust cybersecurity. This paper will survey the concept of distributed trust in multiple disciplines. It will take a system/software architecture point of view to look at trust redistribution/shift and the associated tradeoffs in systems and applications enabled by distributed trust technologies.",
+    "path": "papers/23/06/2306.08056.json",
+    "total_tokens": 690,
+    "translated_title": "基于软件架构视角的分布式信任研究",
+    "translated_abstract": "分布式信任是一个近年来从不同角度演化出的模糊概念。虽然目前人们普遍将其归功于区块链和加密货币，但分布式信任的概念正在生态系统中推动联邦学习、可信和负责任人工智能、数据共享、跨组织边界的隐私问题和零信任网络安全等领域的进展。本文将从多个学科的角度对分布式信任的概念进行概述，并从系统/软件架构的角度探讨由分布式信任技术实现的信任重分配/转移及相关的系统与应用的权衡。",
+    "tldr": "本文从多个学科的角度对分布式信任概念进行概述，并探讨由分布式信任技术实现的信任重分配/转移及相关的系统与应用的权衡。",
+    "en_tdlr": "This paper surveys the concept of distributed trust in multiple disciplines and examines the tradeoffs in systems and applications enabled by distributed trust technologies from a system/software architecture point of view."
+}

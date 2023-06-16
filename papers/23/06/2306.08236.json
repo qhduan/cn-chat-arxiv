@@ -1,0 +1,12 @@
+{
+    "title": "Extracting Information from Twitter Screenshots. (arXiv:2306.08236v1 [cs.IR])",
+    "abstract": "Screenshots are prevalent on social media as a common approach for information sharing. Users rarely verify before sharing a screenshot whether the post it contains is fake or real. Information sharing through fake screenshots can be highly responsible for misinformation and disinformation spread on social media. Our ultimate goal is to develop a tool that could take a screenshot of a tweet and provide a probability that the tweet is real, using resources found on the live web and in web archives. This paper provides methods for extracting the tweet text, timestamp, and Twitter handle from a screenshot of a tweet.",
+    "link": "http://arxiv.org/abs/2306.08236",
+    "context": "Title: Extracting Information from Twitter Screenshots. (arXiv:2306.08236v1 [cs.IR])\nAbstract: Screenshots are prevalent on social media as a common approach for information sharing. Users rarely verify before sharing a screenshot whether the post it contains is fake or real. Information sharing through fake screenshots can be highly responsible for misinformation and disinformation spread on social media. Our ultimate goal is to develop a tool that could take a screenshot of a tweet and provide a probability that the tweet is real, using resources found on the live web and in web archives. This paper provides methods for extracting the tweet text, timestamp, and Twitter handle from a screenshot of a tweet.",
+    "path": "papers/23/06/2306.08236.json",
+    "total_tokens": 681,
+    "translated_title": "从推特截图中提取信息",
+    "translated_abstract": "在社交媒体上，截图是一种常见的信息分享方法。用户在分享截图之前很少验证其中的帖子是真实的还是虚假的。通过虚假截图进行的信息分享会严重导致社交媒体上的错误信息和误导信息传播。我们的终极目标是开发一个工具，可以通过在实时网络和网络存档中发现的资源，对推特的截图提供推文真实性的概率。本文提供了从推特截图中提取推文文本、时间戳和推特句柄的方法。",
+    "tldr": "本研究提出了从推特截图中提取推文文本、时间戳和推特句柄的方法，旨在开发一个工具，利用实时网络和网络存档中的资源，评估一张推特截图中推文真实性的概率。",
+    "en_tdlr": "This study proposes methods for extracting tweet text, timestamp, and Twitter handle from a screenshot of a tweet, aiming to develop a tool that could evaluate the probability of tweet authenticity on a screenshot through resources found on the live web and in web archives."
+}
