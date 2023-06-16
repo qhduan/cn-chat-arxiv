@@ -100,29 +100,30 @@
 | [^96] | [Surgical Aggregation: A Collaborative Learning Framework for Harmonizing Distributed Medical Imaging Datasets with Diverse Tasks.](http://arxiv.org/abs/2301.06683) | 本论文提出了一种手术聚合的协同学习框架，该框架可用于协调和聚合分布式医学影像数据集的知识，并带有部分疾病注释，从而可训练具有完整胸部内可能出现的所有异常的临床实用、强大模型。 |
 | [^97] | [A Theoretical Framework for AI Models Explainability with Application in Biomedicine.](http://arxiv.org/abs/2212.14447) | 该论文提出了一种新的解释定义和理论框架，用于评估AI模型的可解释性，特别是在生物医学领域。这个框架可帮助确定模型决策中最具影响力的输入特征，支持对模型行为的解释。 |
 | [^98] | [DOC: Improving Long Story Coherence With Detailed Outline Control.](http://arxiv.org/abs/2212.10077) | 该论文提出了一个名为 Detailed Outline Control(DOC) 的框架，通过详细大纲和详细控制器来提高生成长篇故事时的情节连贯性和大纲相关性，人类评估证实该方法在这些方面显著优于基线方法，并且更适用于交互生成设置。 |
-| [^99] | [Linear-Time Algorithms for Front-Door Adjustment in Causal Graphs.](http://arxiv.org/abs/2211.16468) | 在因果图中，提出了解决前门调整的线性时间算法，通过观察到的中介变量，即使存在未观测到的混淆，也可以识别因果效应。 |
-| [^100] | [Adversarial Cheap Talk.](http://arxiv.org/abs/2211.11030) | 本文提出了一种新型对抗性设置，在其中对手只能将信息附加到受害者的观察中，从而产生最小的影响范围，并提出对抗性廉价交流（ACT）算法进行对手训练。在高度受限的情况下，使用ACT训练的对手仍会对受害者的训练和测试表现产生显著影响，揭示了强化学习算法中的一种新的攻击向量。 |
-| [^101] | [HiveNAS: Neural Architecture Search using Artificial Bee Colony Optimization.](http://arxiv.org/abs/2211.10250) | 本文提出了一种采用人工蜂群优化的神经架构搜索框架HiveNAS，它在极短的时间内就能超越其他基于群智的NAS框架，成为最优。 |
-| [^102] | [ATCO2 corpus: A Large-Scale Dataset for Research on Automatic Speech Recognition and Natural Language Understanding of Air Traffic Control Communications.](http://arxiv.org/abs/2211.04054) | ATCO2语料库是一个旨在促进空中交通管制通信自动语音识别和自然语言理解研究的大规模数据集，包括数据收集和预处理、语音数据的伪注释，以及提取与空中交通管制相关的命名实体。 |
-| [^103] | [Broken Neural Scaling Laws.](http://arxiv.org/abs/2210.14891) | 本文提出了一个平滑破碎的幂律函数形式，可以准确地模拟和外推深度神经网络的缩放行为，适用于各种架构和大量不同任务，包括视觉、语言、音频、视频、生成建模、对比学习、机器人、不确定性估计/校准、对抗鲁棒性、分子、计算机编程/编码、数学单词问题、算术、无监督/自监督学习和强化学习。 |
-| [^104] | [PromptCast: A New Prompt-based Learning Paradigm for Time Series Forecasting.](http://arxiv.org/abs/2210.08964) | 提出了一种新的时间序列预测范式——基于提示的时间序列预测（PromptCast），将数字输入和输出转化为提示，并以句子到句子的方式提出预测任务，可以直接应用于语言模型。 |
-| [^105] | [CORL: Research-oriented Deep Offline Reinforcement Learning Library.](http://arxiv.org/abs/2210.07105) | CORL是一个面向研究的深度强化学习离线库，提供了经过充分基准测试的单文件实现离线和离线到在线强化学习算法，并具有简单的开发体验和实验跟踪功能。 |
-| [^106] | [FP-Diffusion: Improving Score-based Diffusion Models by Enforcing the Underlying Score Fokker-Planck Equation.](http://arxiv.org/abs/2210.04296) | 本文提出了FP-Diffusion方法来改进基于得分的扩散模型，通过强制底层得分的福克-普朗克方程来正则化DSM目标函数，以提高模型似然度和守恒程度。 |
-| [^107] | [Topological Singularity Detection at Multiple Scales.](http://arxiv.org/abs/2210.00069) | 本文提出了一种多尺度拓扑奇异性检测方法，可以评估数据的局部固有维度，并量化点的“流形度”，能够检测复杂空间和图像中的奇异性。 |
-| [^108] | [Analysis and Comparison of Classification Metrics.](http://arxiv.org/abs/2209.05355) | 本文回顾并比较了常用于度量分类系统表现的各种指标，发现期望成本指标具有更广泛的适用性和直观性，并可用于解决从连续得分生成分类决策的实践问题。 |
-| [^109] | [Single-Stage Broad Multi-Instance Multi-Label Learning (BMIML) with Diverse Inter-Correlations and its application to medical image classification.](http://arxiv.org/abs/2209.02625) | 本文提出了一种单阶段广泛多实例多标签学习（BMIML）框架，解决了多实例和多标签之间的各种关系学习问题。在医学图像分类中具有广泛的应用前景。 |
-| [^110] | [White-Box Adversarial Policies in Deep Reinforcement Learning.](http://arxiv.org/abs/2209.02167) | 本文研究了在强化学习中训练对抗策略的方法，提出了基于白盒攻击的策略，能够访问目标代理的内部状态，从而识别其漏洞，攻击成功率更高。 |
-| [^111] | [Exploring the Intersection between Neural Architecture Search and Continual Learning.](http://arxiv.org/abs/2206.05625) | 本文研究了神经网络架构搜索和持续学习的交叉研究，旨在开发更加稳健和适应性的智能体，应用于物联网设备、自动驾驶车辆等领域，以解决诸如概念/数据漂移等问题。 |
-| [^112] | [E2PN: Efficient SE(3)-Equivariant Point Network.](http://arxiv.org/abs/2206.05398) | 本文提出了一种简单、轻量、快速的SE(3)-等变点云网络，通过组卷积和商表示相结合实现，用于处理点云数据，同时在对象分类、姿态估计和关键点匹配等任务上实现了可比或优越的性能。 |
-| [^113] | [AdaProp: Learning Adaptive Propagation for Graph Neural Network based Knowledge Graph Reasoning.](http://arxiv.org/abs/2205.15319) | 本文提出了一种名为AdaProp的方法，该方法可自适应地过滤掉不相关的实体，同时保留有前途的目标，从而高效、强大地进行知识图谱推理。 |
-| [^114] | [Automated Scoring for Reading Comprehension via In-context BERT Tuning.](http://arxiv.org/abs/2205.09864) | 本文介绍了一种基于预训练语言模型的文本表示和上下文BERT微调的阅读理解自动评分模型，解决了单个问题/题目模型无法利用题目间关联性以及存储模型困难的问题。 |
-| [^115] | [Bilinear value networks.](http://arxiv.org/abs/2204.13695) | 提出了一种通过点积低秩近似来表示Q值的双线性分解方法，其中第一个向量场捕捉状态的局部动态，第二个部分捕捉当前状态和目标之间的全局关系，该方法能够显著提高数据效率，并具有很好的泛化性能。 |
-| [^116] | [Topological Experience Replay.](http://arxiv.org/abs/2203.15845) | 本文提出了一种拓扑经验回放的方法，通过构建图来明确状态的 Q 值之间的依赖关系，解决了传统采样策略忽视状态间依赖关系的问题，提高了学习深度 Q 函数时的性能和准确性。 |
-| [^117] | [Parallel Successive Learning for Dynamic Distributed Model Training over Heterogeneous Wireless Networks.](http://arxiv.org/abs/2202.02947) | 本文提出了并行连续学习（PSL），通过网络、异构性和接近性三个维度的扩展，实现了在无线设备集合上的动态分布式模型训练。 |
-| [^118] | [Cognitive Ledger Project: Towards Building Personal Digital Twins Through Cognitive Blockchain.](http://arxiv.org/abs/2201.08163) | 该论文提出了一个认知数字孪生体的认知架构，即通过基于区块链基础设施的方式将用户的个人数据转化为结构化信息和机器学习模型，最终能够一起组成用户的认知数字孪生体。 |
-| [^119] | [Task-Aware Meta Learning-based Siamese Neural Network for Classifying Obfuscated Malware.](http://arxiv.org/abs/2110.13409) | 本文提出了一种基于任务感知元学习的Siamese神经网络分类混淆恶意软件的方法，可以更准确地调整特征嵌入，以应对不同恶意软件家族的混淆变种，并且可以对恶意软件类进行分类，即使只有一个或很少的训练样本可用。 |
-| [^120] | [QuantumNAT: Quantum Noise-Aware Training with Noise Injection, Quantization and Normalization.](http://arxiv.org/abs/2110.11331) | QuantumNAT是一个PQC特定框架，可以在训练和推断阶段执行噪声感知优化，提高鲁棒性，缓解量子噪声 |
-| [^121] | [LLVIP: A Visible-infrared Paired Dataset for Low-light Vision.](http://arxiv.org/abs/2108.10831) | 提出了适用于低光视觉的可见-红外成对数据集LLVIP，数据集包含30976张图像，解决了在低光条件下各种视觉任务缺失有效目标区域的挑战。行人已被标注，实验结果证明了融合对图像信息的补充效果，揭示了现有算法在非常低光条件下的不足之处。 |
+| [^99] | [Causal Temporal Reasoning for Markov Decision Processes.](http://arxiv.org/abs/2212.08712) | 本文介绍了一种新的概率时间逻辑PCFTL，第一个包含因果推理运算符的概率时间逻辑，可推理干预和反事实查询，从而能够推理涉及MDP不同配置的“假设”场景 |
+| [^100] | [Linear-Time Algorithms for Front-Door Adjustment in Causal Graphs.](http://arxiv.org/abs/2211.16468) | 在因果图中，提出了解决前门调整的线性时间算法，通过观察到的中介变量，即使存在未观测到的混淆，也可以识别因果效应。 |
+| [^101] | [Adversarial Cheap Talk.](http://arxiv.org/abs/2211.11030) | 本文提出了一种新型对抗性设置，在其中对手只能将信息附加到受害者的观察中，从而产生最小的影响范围，并提出对抗性廉价交流（ACT）算法进行对手训练。在高度受限的情况下，使用ACT训练的对手仍会对受害者的训练和测试表现产生显著影响，揭示了强化学习算法中的一种新的攻击向量。 |
+| [^102] | [HiveNAS: Neural Architecture Search using Artificial Bee Colony Optimization.](http://arxiv.org/abs/2211.10250) | 本文提出了一种采用人工蜂群优化的神经架构搜索框架HiveNAS，它在极短的时间内就能超越其他基于群智的NAS框架，成为最优。 |
+| [^103] | [ATCO2 corpus: A Large-Scale Dataset for Research on Automatic Speech Recognition and Natural Language Understanding of Air Traffic Control Communications.](http://arxiv.org/abs/2211.04054) | ATCO2语料库是一个旨在促进空中交通管制通信自动语音识别和自然语言理解研究的大规模数据集，包括数据收集和预处理、语音数据的伪注释，以及提取与空中交通管制相关的命名实体。 |
+| [^104] | [Broken Neural Scaling Laws.](http://arxiv.org/abs/2210.14891) | 本文提出了一个平滑破碎的幂律函数形式，可以准确地模拟和外推深度神经网络的缩放行为，适用于各种架构和大量不同任务，包括视觉、语言、音频、视频、生成建模、对比学习、机器人、不确定性估计/校准、对抗鲁棒性、分子、计算机编程/编码、数学单词问题、算术、无监督/自监督学习和强化学习。 |
+| [^105] | [PromptCast: A New Prompt-based Learning Paradigm for Time Series Forecasting.](http://arxiv.org/abs/2210.08964) | 提出了一种新的时间序列预测范式——基于提示的时间序列预测（PromptCast），将数字输入和输出转化为提示，并以句子到句子的方式提出预测任务，可以直接应用于语言模型。 |
+| [^106] | [CORL: Research-oriented Deep Offline Reinforcement Learning Library.](http://arxiv.org/abs/2210.07105) | CORL是一个面向研究的深度强化学习离线库，提供了经过充分基准测试的单文件实现离线和离线到在线强化学习算法，并具有简单的开发体验和实验跟踪功能。 |
+| [^107] | [FP-Diffusion: Improving Score-based Diffusion Models by Enforcing the Underlying Score Fokker-Planck Equation.](http://arxiv.org/abs/2210.04296) | 本文提出了FP-Diffusion方法来改进基于得分的扩散模型，通过强制底层得分的福克-普朗克方程来正则化DSM目标函数，以提高模型似然度和守恒程度。 |
+| [^108] | [Topological Singularity Detection at Multiple Scales.](http://arxiv.org/abs/2210.00069) | 本文提出了一种多尺度拓扑奇异性检测方法，可以评估数据的局部固有维度，并量化点的“流形度”，能够检测复杂空间和图像中的奇异性。 |
+| [^109] | [Analysis and Comparison of Classification Metrics.](http://arxiv.org/abs/2209.05355) | 本文回顾并比较了常用于度量分类系统表现的各种指标，发现期望成本指标具有更广泛的适用性和直观性，并可用于解决从连续得分生成分类决策的实践问题。 |
+| [^110] | [Single-Stage Broad Multi-Instance Multi-Label Learning (BMIML) with Diverse Inter-Correlations and its application to medical image classification.](http://arxiv.org/abs/2209.02625) | 本文提出了一种单阶段广泛多实例多标签学习（BMIML）框架，解决了多实例和多标签之间的各种关系学习问题。在医学图像分类中具有广泛的应用前景。 |
+| [^111] | [White-Box Adversarial Policies in Deep Reinforcement Learning.](http://arxiv.org/abs/2209.02167) | 本文研究了在强化学习中训练对抗策略的方法，提出了基于白盒攻击的策略，能够访问目标代理的内部状态，从而识别其漏洞，攻击成功率更高。 |
+| [^112] | [Exploring the Intersection between Neural Architecture Search and Continual Learning.](http://arxiv.org/abs/2206.05625) | 本文研究了神经网络架构搜索和持续学习的交叉研究，旨在开发更加稳健和适应性的智能体，应用于物联网设备、自动驾驶车辆等领域，以解决诸如概念/数据漂移等问题。 |
+| [^113] | [E2PN: Efficient SE(3)-Equivariant Point Network.](http://arxiv.org/abs/2206.05398) | 本文提出了一种简单、轻量、快速的SE(3)-等变点云网络，通过组卷积和商表示相结合实现，用于处理点云数据，同时在对象分类、姿态估计和关键点匹配等任务上实现了可比或优越的性能。 |
+| [^114] | [AdaProp: Learning Adaptive Propagation for Graph Neural Network based Knowledge Graph Reasoning.](http://arxiv.org/abs/2205.15319) | 本文提出了一种名为AdaProp的方法，该方法可自适应地过滤掉不相关的实体，同时保留有前途的目标，从而高效、强大地进行知识图谱推理。 |
+| [^115] | [Automated Scoring for Reading Comprehension via In-context BERT Tuning.](http://arxiv.org/abs/2205.09864) | 本文介绍了一种基于预训练语言模型的文本表示和上下文BERT微调的阅读理解自动评分模型，解决了单个问题/题目模型无法利用题目间关联性以及存储模型困难的问题。 |
+| [^116] | [Bilinear value networks.](http://arxiv.org/abs/2204.13695) | 提出了一种通过点积低秩近似来表示Q值的双线性分解方法，其中第一个向量场捕捉状态的局部动态，第二个部分捕捉当前状态和目标之间的全局关系，该方法能够显著提高数据效率，并具有很好的泛化性能。 |
+| [^117] | [Topological Experience Replay.](http://arxiv.org/abs/2203.15845) | 本文提出了一种拓扑经验回放的方法，通过构建图来明确状态的 Q 值之间的依赖关系，解决了传统采样策略忽视状态间依赖关系的问题，提高了学习深度 Q 函数时的性能和准确性。 |
+| [^118] | [Parallel Successive Learning for Dynamic Distributed Model Training over Heterogeneous Wireless Networks.](http://arxiv.org/abs/2202.02947) | 本文提出了并行连续学习（PSL），通过网络、异构性和接近性三个维度的扩展，实现了在无线设备集合上的动态分布式模型训练。 |
+| [^119] | [Cognitive Ledger Project: Towards Building Personal Digital Twins Through Cognitive Blockchain.](http://arxiv.org/abs/2201.08163) | 该论文提出了一个认知数字孪生体的认知架构，即通过基于区块链基础设施的方式将用户的个人数据转化为结构化信息和机器学习模型，最终能够一起组成用户的认知数字孪生体。 |
+| [^120] | [Task-Aware Meta Learning-based Siamese Neural Network for Classifying Obfuscated Malware.](http://arxiv.org/abs/2110.13409) | 本文提出了一种基于任务感知元学习的Siamese神经网络分类混淆恶意软件的方法，可以更准确地调整特征嵌入，以应对不同恶意软件家族的混淆变种，并且可以对恶意软件类进行分类，即使只有一个或很少的训练样本可用。 |
+| [^121] | [QuantumNAT: Quantum Noise-Aware Training with Noise Injection, Quantization and Normalization.](http://arxiv.org/abs/2110.11331) | QuantumNAT是一个PQC特定框架，可以在训练和推断阶段执行噪声感知优化，提高鲁棒性，缓解量子噪声 |
+| [^122] | [LLVIP: A Visible-infrared Paired Dataset for Low-light Vision.](http://arxiv.org/abs/2108.10831) | 提出了适用于低光视觉的可见-红外成对数据集LLVIP，数据集包含30976张图像，解决了在低光条件下各种视觉任务缺失有效目标区域的挑战。行人已被标注，实验结果证明了融合对图像信息的补充效果，揭示了现有算法在非常低光条件下的不足之处。 |
 
 # 详细
 
@@ -1498,7 +1499,21 @@
 
     We propose the Detailed Outline Control (DOC) framework for improving long-range plot coherence when automatically generating several-thousand-word-long stories. DOC consists of two complementary components: a detailed outliner and a detailed controller. The detailed outliner creates a more detailed, hierarchically structured outline, shifting creative burden from the main drafting procedure to the planning stage. The detailed controller ensures the more detailed outline is still respected during generation by controlling story passages to align with outline details. In human evaluations of automatically generated stories, DOC substantially outperforms a strong Re3 baseline (Yang et al., 2022) on plot coherence (22.5% absolute gain), outline relevance (28.2%), and interestingness (20.7%). Humans also judged DOC to be much more controllable in an interactive generation setting.
     
-[^99]: 因果图中前门调整的线性时间算法
+[^99]: 马尔可夫决策过程的因果时间推理
+
+    Causal Temporal Reasoning for Markov Decision Processes. (arXiv:2212.08712v2 [cs.AI] UPDATED)
+
+    [http://arxiv.org/abs/2212.08712](http://arxiv.org/abs/2212.08712)
+
+    本文介绍了一种新的概率时间逻辑PCFTL，第一个包含因果推理运算符的概率时间逻辑，可推理干预和反事实查询，从而能够推理涉及MDP不同配置的“假设”场景
+
+    
+
+    本文引入了一种新的概率时间逻辑PCFTL，用于验证马尔可夫决策过程(MDP)。 PCFTL是第一个包含因果推理运算符的概率时间逻辑，使我们能够表达干预和反事实查询。我们提出了一种广义的反事实运算符，既包括干预，也包括反事实。我们的方法不同于现有的仅能推理固定系统配置的概率时间逻辑，因为它能够推理涉及MDP不同配置的“假设”场景。
+
+    We introduce $\textit{PCFTL (Probabilistic CounterFactual Temporal Logic)}$, a new probabilistic temporal logic for the verification of Markov Decision Processes (MDP). PCFTL is the first to include operators for causal reasoning, allowing us to express interventional and counterfactual queries. Given a path formula $\phi$, an interventional property is concerned with the satisfaction probability of $\phi$ if we apply a particular change $I$ to the MDP (e.g., switching to a different policy); a counterfactual allows us to compute, given an observed MDP path $\tau$, what the outcome of $\phi$ would have been had we applied $I$ in the past. For its ability to reason about \textit{what-if} scenarios involving different configurations of the MDP, our approach represents a departure from existing probabilistic temporal logics that can only reason about a fixed system configuration. From a syntactic viewpoint, we introduce a generalized counterfactual operator that subsumes both intervention
+    
+[^100]: 因果图中前门调整的线性时间算法
 
     Linear-Time Algorithms for Front-Door Adjustment in Causal Graphs. (arXiv:2211.16468v2 [cs.AI] UPDATED)
 
@@ -1512,7 +1527,7 @@
 
     Causal effect estimation from observational data is a fundamental task in empirical sciences. It becomes particularly challenging when unobserved confounders are involved in a system. This paper focuses on front-door adjustment -- a classic technique which, using observed mediators allows to identify causal effects even in the presence of unobserved confounding. While the statistical properties of the front-door estimation are quite well understood, its algorithmic aspects remained unexplored for a long time. Recently, Jeong, Tian, and Barenboim [NeurIPS 2022] have presented the first polynomial-time algorithm for finding sets satisfying the front-door criterion in a given directed acyclic graph (DAG), with an $O(n^3(n+m))$ run time, where $n$ denotes the number of variables and $m$ the number of edges of the causal graph. In our work, we give the first linear-time, i.e., $O(n+m)$, algorithm for this task, which thus reaches the asymptotically optimal time complexity. This result impli
     
-[^100]: 对抗性廉价交流
+[^101]: 对抗性廉价交流
 
     Adversarial Cheap Talk. (arXiv:2211.11030v2 [cs.LG] UPDATED)
 
@@ -1526,7 +1541,7 @@
 
     Adversarial attacks in reinforcement learning (RL) often assume highly-privileged access to the victim's parameters, environment, or data. Instead, this paper proposes a novel adversarial setting called a Cheap Talk MDP in which an Adversary can merely append deterministic messages to the Victim's observation, resulting in a minimal range of influence. The Adversary cannot occlude ground truth, influence underlying environment dynamics or reward signals, introduce non-stationarity, add stochasticity, see the Victim's actions, or access their parameters. Additionally, we present a simple meta-learning algorithm called Adversarial Cheap Talk (ACT) to train Adversaries in this setting. We demonstrate that an Adversary trained with ACT still significantly influences the Victim's training and testing performance, despite the highly constrained setting. Affecting train-time performance reveals a new attack vector and provides insight into the success and failure modes of existing RL algorith
     
-[^101]: HiveNAS: 采用人工蜂群优化的神经架构搜索
+[^102]: HiveNAS: 采用人工蜂群优化的神经架构搜索
 
     HiveNAS: Neural Architecture Search using Artificial Bee Colony Optimization. (arXiv:2211.10250v2 [cs.NE] UPDATED)
 
@@ -1540,7 +1555,7 @@
 
     The traditional Neural Network-development process requires substantial expert knowledge and relies heavily on intuition and trial-and-error. Neural Architecture Search (NAS) frameworks were introduced to robustly search for network topologies, as well as facilitate the automated development of Neural Networks. While some optimization approaches -- such as Genetic Algorithms -have been extensively explored in the NAS context, other Metaheuristic Optimization algorithms have not yet been investigated. In this study, we evaluate the viability of Artificial Bee Colony optimization for Neural Architecture Search. Our proposed framework, HiveNAS, outperforms existing state-of-the-art Swarm Intelligence-based NAS frameworks in a fraction of the time.
     
-[^102]: ATCO2语料库：用于空中交通管制通信自动语音识别和自然语言理解研究的大规模数据集
+[^103]: ATCO2语料库：用于空中交通管制通信自动语音识别和自然语言理解研究的大规模数据集
 
     ATCO2 corpus: A Large-Scale Dataset for Research on Automatic Speech Recognition and Natural Language Understanding of Air Traffic Control Communications. (arXiv:2211.04054v2 [cs.CL] UPDATED)
 
@@ -1554,7 +1569,7 @@
 
     Personal assistants, automatic speech recognizers and dialogue understanding systems are becoming more critical in our interconnected digital world. A clear example is air traffic control (ATC) communications. ATC aims at guiding aircraft and controlling the airspace in a safe and optimal manner. These voice-based dialogues are carried between an air traffic controller (ATCO) and pilots via very-high frequency radio channels. In order to incorporate these novel technologies into ATC (low-resource domain), large-scale annotated datasets are required to develop the data-driven AI systems. Two examples are automatic speech recognition (ASR) and natural language understanding (NLU). In this paper, we introduce the ATCO2 corpus, a dataset that aims at fostering research on the challenging ATC field, which has lagged behind due to lack of annotated data. The ATCO2 corpus covers 1) data collection and pre-processing, 2) pseudo-annotations of speech data, and 3) extraction of ATC-related named
     
-[^103]: 破碎的神经缩放定律
+[^104]: 破碎的神经缩放定律
 
     Broken Neural Scaling Laws. (arXiv:2210.14891v7 [cs.LG] UPDATED)
 
@@ -1568,7 +1583,7 @@
 
     We present a smoothly broken power law functional form (referred to by us as a Broken Neural Scaling Law (BNSL)) that accurately models and extrapolates the scaling behaviors of deep neural networks (i.e. how the evaluation metric of interest varies as the amount of compute used for training, number of model parameters, training dataset size, or upstream performance varies) for various architectures and for each of various tasks within a large and diverse set of upstream and downstream tasks, in zero-shot, prompted, and fine-tuned settings. This set includes large-scale vision, language, audio, video, diffusion, generative modeling, multimodal learning, contrastive learning, AI alignment, robotics, out-of-distribution (OOD) generalization, continual learning, uncertainty estimation / calibration, out-of-distribution detection, adversarial robustness, distillation, molecules, computer programming/coding, math word problems, arithmetic, unsupervised/self-supervised learning, and reinforc
     
-[^104]: PromptCast：一种新的基于提示的时间序列预测范式
+[^105]: PromptCast：一种新的基于提示的时间序列预测范式
 
     PromptCast: A New Prompt-based Learning Paradigm for Time Series Forecasting. (arXiv:2210.08964v3 [stat.ME] UPDATED)
 
@@ -1582,7 +1597,7 @@
 
     This paper presents a new perspective on time series forecasting. In existing time series forecasting methods, the models take a sequence of numerical values as input and yield numerical values as output. The existing SOTA models are largely based on the Transformer architecture, modified with multiple encoding mechanisms to incorporate the context and semantics around the historical data. Inspired by the successes of pre-trained language foundation models, we pose a question about whether these models can also be adapted to solve time-series forecasting. Thus, we propose a new forecasting paradigm: prompt-based time series forecasting (PromptCast). In this novel task, the numerical input and output are transformed into prompts and the forecasting task is framed in a sentence-to-sentence manner, making it possible to directly apply language models for forecasting purposes. To support and facilitate the research of this task, we also present a large-scale dataset (PISA) that includes th
     
-[^105]: CORL: 面向研究的深度强化学习离线库
+[^106]: CORL: 面向研究的深度强化学习离线库
 
     CORL: Research-oriented Deep Offline Reinforcement Learning Library. (arXiv:2210.07105v3 [cs.LG] UPDATED)
 
@@ -1596,7 +1611,7 @@
 
     CORL is an open-source library that provides thoroughly benchmarked single-file implementations of both deep offline and offline-to-online reinforcement learning algorithms. It emphasizes a simple developing experience with a straightforward codebase and a modern analysis tracking tool. In CORL, we isolate methods implementation into separate single files, making performance-relevant details easier to recognize. Additionally, an experiment tracking feature is available to help log metrics, hyperparameters, dependencies, and more to the cloud. Finally, we have ensured the reliability of the implementations by benchmarking commonly employed D4RL datasets providing a transparent source of results that can be reused for robust evaluation tools such as performance profiles, probability of improvement, or expected online performance.
     
-[^106]: FP-Diffusion: 通过强制底层得分的福克-普朗克方程来改进基于得分的扩散模型
+[^107]: FP-Diffusion: 通过强制底层得分的福克-普朗克方程来改进基于得分的扩散模型
 
     FP-Diffusion: Improving Score-based Diffusion Models by Enforcing the Underlying Score Fokker-Planck Equation. (arXiv:2210.04296v4 [cs.LG] UPDATED)
 
@@ -1610,7 +1625,7 @@
 
     Score-based generative models (SGMs) learn a family of noise-conditional score functions corresponding to the data density perturbed with increasingly large amounts of noise. These perturbed data densities are linked together by the Fokker-Planck equation (FPE), a partial differential equation (PDE) governing the spatial-temporal evolution of a density undergoing a diffusion process. In this work, we derive a corresponding equation called the score FPE that characterizes the noise-conditional scores of the perturbed data densities (i.e., their gradients). Surprisingly, despite the impressive empirical performance, we observe that scores learned through denoising score matching (DSM) fail to fulfill the underlying score FPE, which is an inherent self-consistency property of the ground truth score. We prove that satisfying the score FPE is desirable as it improves the likelihood and the degree of conservativity. Hence, we propose to regularize the DSM objective to enforce satisfaction of
     
-[^107]: 多尺度拓扑奇异性检测
+[^108]: 多尺度拓扑奇异性检测
 
     Topological Singularity Detection at Multiple Scales. (arXiv:2210.00069v3 [cs.LG] UPDATED)
 
@@ -1624,7 +1639,7 @@
 
     The manifold hypothesis, which assumes that data lies on or close to an unknown manifold of low intrinsic dimension, is a staple of modern machine learning research. However, recent work has shown that real-world data exhibits distinct non-manifold structures, i.e. singularities, that can lead to erroneous findings. Detecting such singularities is therefore crucial as a precursor to interpolation and inference tasks. We address this issue by developing a topological framework that (i) quantifies the local intrinsic dimension, and (ii) yields a Euclidicity score for assessing the 'manifoldness' of a point along multiple scales. Our approach identifies singularities of complex spaces, while also capturing singular structures and local geometric complexity in image data.
     
-[^108]: 分类指标的分析与比较
+[^109]: 分类指标的分析与比较
 
     Analysis and Comparison of Classification Metrics. (arXiv:2209.05355v3 [cs.LG] UPDATED)
 
@@ -1638,7 +1653,7 @@
 
     A variety of different performance metrics are commonly used in the machine learning literature for the evaluation of classification systems. Some of the most common ones for measuring quality of hard decisions are standard and balanced accuracy, standard and balanced error rate, F-beta score, and Matthews correlation coefficient (MCC). In this document, we review the definition of these and other metrics and compare them with the expected cost (EC), a metric introduced in every statistical learning course but rarely used in the machine learning literature. We show that both the standard and balanced error rates are special cases of the EC. Further, we show its relation with F-score and MCC and argue that EC is superior to these traditional metrics, being more elegant, general, and intuitive, as well as being based on basic principles from statistics.  The metrics above measure the quality of hard decisions. Yet, most modern classification systems output continuous scores for the class
     
-[^109]: 单阶段广泛多实例多标签学习（BMIML）及其在医学图像分类中的应用
+[^110]: 单阶段广泛多实例多标签学习（BMIML）及其在医学图像分类中的应用
 
     Single-Stage Broad Multi-Instance Multi-Label Learning (BMIML) with Diverse Inter-Correlations and its application to medical image classification. (arXiv:2209.02625v2 [cs.CV] UPDATED)
 
@@ -1652,7 +1667,7 @@
 
     described by multiple instances (e.g., image patches) and simultaneously associated with multiple labels. Existing MIML methods are useful in many applications but most of which suffer from relatively low accuracy and training efficiency due to several issues: i) the inter-label correlations(i.e., the probabilistic correlations between the multiple labels corresponding to an object) are neglected; ii) the inter-instance correlations (i.e., the probabilistic correlations of different instances in predicting the object label) cannot be learned directly (or jointly) with other types of correlations due to the missing instance labels; iii) diverse inter-correlations (e.g., inter-label correlations, inter-instance correlations) can only be learned in multiple stages. To resolve these issues, a new single-stage framework called broad multi-instance multi-label learning (BMIML) is proposed. In BMIML, there are three innovative modules: i) an auto-weighted label enhancement learning (AWLEL) ba
     
-[^110]: 深度强化学习中的白盒对抗策略研究
+[^111]: 深度强化学习中的白盒对抗策略研究
 
     White-Box Adversarial Policies in Deep Reinforcement Learning. (arXiv:2209.02167v2 [cs.AI] UPDATED)
 
@@ -1666,7 +1681,7 @@
 
     In reinforcement learning (RL), adversarial policies can be developed by training an adversarial agent to minimize a target agent's rewards. Prior work has studied black-box versions of these attacks where the adversary only observes the world state and treats the target agent as any other part of the environment. However, this does not take into account additional structure in the problem. In this work, we take inspiration from the literature on white-box attacks to train more effective adversarial policies. We study white-box adversarial policies and show that having access to a target agent's internal state can be useful for identifying its vulnerabilities. We make two contributions. (1) We introduce white-box adversarial policies where an attacker observes both a target's internal state and the world state at each timestep. We formulate ways of using these policies to attack agents in 2-player games and text-generating language models. (2) We demonstrate that these policies can ach
     
-[^111]: 深度学习模型的神经网络架构搜索和持续学习交叉研究探究
+[^112]: 深度学习模型的神经网络架构搜索和持续学习交叉研究探究
 
     Exploring the Intersection between Neural Architecture Search and Continual Learning. (arXiv:2206.05625v2 [cs.AI] UPDATED)
 
@@ -1680,7 +1695,7 @@
 
     Despite the significant advances achieved in Artificial Neural Networks (ANNs), their design process remains notoriously tedious, depending primarily on intuition, experience and trial-and-error. This human-dependent process is often time-consuming and prone to errors. Furthermore, the models are generally bound to their training contexts, with no considerations to their surrounding environments. Continual adaptiveness and automation of neural networks is of paramount importance to several domains where model accessibility is limited after deployment (e.g IoT devices, self-driving vehicles, etc.). Additionally, even accessible models require frequent maintenance post-deployment to overcome issues such as Concept/Data Drift, which can be cumbersome and restrictive. By leveraging and combining approaches from Neural Architecture Search (NAS) and Continual Learning (CL), more robust and adaptive agents can be developed. This study conducts the first extensive review on the intersection be
     
-[^112]: E2PN：高效的SE(3)-等变点云网络
+[^113]: E2PN：高效的SE(3)-等变点云网络
 
     E2PN: Efficient SE(3)-Equivariant Point Network. (arXiv:2206.05398v3 [cs.CV] UPDATED)
 
@@ -1694,7 +1709,7 @@
 
     This paper proposes a convolution structure for learning SE(3)-equivariant features from 3D point clouds. It can be viewed as an equivariant version of kernel point convolutions (KPConv), a widely used convolution form to process point cloud data. Compared with existing equivariant networks, our design is simple, lightweight, fast, and easy to be integrated with existing task-specific point cloud learning pipelines. We achieve these desirable properties by combining group convolutions and quotient representations. Specifically, we discretize SO(3) to finite groups for their simplicity while using SO(2) as the stabilizer subgroup to form spherical quotient feature fields to save computations. We also propose a permutation layer to recover SO(3) features from spherical features to preserve the capacity to distinguish rotations. Experiments show that our method achieves comparable or superior performance in various tasks, including object classification, pose estimation, and keypoint-matc
     
-[^113]: AdaProp：基于图神经网络的知识图谱推理中学习自适应传播
+[^114]: AdaProp：基于图神经网络的知识图谱推理中学习自适应传播
 
     AdaProp: Learning Adaptive Propagation for Graph Neural Network based Knowledge Graph Reasoning. (arXiv:2205.15319v2 [cs.LG] UPDATED)
 
@@ -1708,7 +1723,7 @@
 
     Due to the popularity of Graph Neural Networks (GNNs), various GNN-based methods have been designed to reason on knowledge graphs (KGs). An important design component of GNN-based KG reasoning methods is called the propagation path, which contains a set of involved entities in each propagation step. Existing methods use hand-designed propagation paths, ignoring the correlation between the entities and the query relation. In addition, the number of involved entities will explosively grow at larger propagation steps. In this work, we are motivated to learn an adaptive propagation path in order to filter out irrelevant entities while preserving promising targets. First, we design an incremental sampling mechanism where the nearby targets and layer-wise connections can be preserved with linear complexity. Second, we design a learning-based sampling distribution to identify the semantically related entities. Extensive experiments show that our method is powerful, efficient, and semantic-awa
     
-[^114]: 基于上下文BERT调整的阅读理解自动评分模型
+[^115]: 基于上下文BERT调整的阅读理解自动评分模型
 
     Automated Scoring for Reading Comprehension via In-context BERT Tuning. (arXiv:2205.09864v2 [cs.LG] UPDATED)
 
@@ -1722,7 +1737,7 @@
 
     Automated scoring of open-ended student responses has the potential to significantly reduce human grader effort. Recent advances in automated scoring often leverage textual representations based on pre-trained language models such as BERT and GPT as input to scoring models. Most existing approaches train a separate model for each item/question, which is suitable for scenarios such as essay scoring where items can be quite different from one another. However, these approaches have two limitations: 1) they fail to leverage item linkage for scenarios such as reading comprehension where multiple items may share a reading passage; 2) they are not scalable since storing one model per item becomes difficult when models have a large number of parameters. In this paper, we report our (grand prize-winning) solution to the National Assessment of Education Progress (NAEP) automated scoring challenge for reading comprehension. Our approach, in-context BERT fine-tuning, produces a single shared scor
     
-[^115]: 双线性价值网络
+[^116]: 双线性价值网络
 
     Bilinear value networks. (arXiv:2204.13695v2 [cs.AI] UPDATED)
 
@@ -1736,7 +1751,7 @@
 
     The dominant framework for off-policy multi-goal reinforcement learning involves estimating goal conditioned Q-value function. When learning to achieve multiple goals, data efficiency is intimately connected with the generalization of the Q-function to new goals. The de-facto paradigm is to approximate Q(s, a, g) using monolithic neural networks. To improve the generalization of the Q-function, we propose a bilinear decomposition that represents the Q-value via a low-rank approximation in the form of a dot product between two vector fields. The first vector field, f(s, a), captures the environment's local dynamics at the state s; whereas the second component, {\phi}(s, g), captures the global relationship between the current state and the goal. We show that our bilinear decomposition scheme substantially improves data efficiency, and has superior transfer to out-of-distribution goals compared to prior methods. Empirical evidence is provided on the simulated Fetch robot task-suite and d
     
-[^116]: 拓扑经验回放
+[^117]: 拓扑经验回放
 
     Topological Experience Replay. (arXiv:2203.15845v2 [cs.LG] UPDATED)
 
@@ -1750,7 +1765,7 @@
 
     State-of-the-art deep Q-learning methods update Q-values using state transition tuples sampled from the experience replay buffer. This strategy often uniformly and randomly samples or prioritizes data sampling based on measures such as the temporal difference (TD) error. Such sampling strategies can be inefficient at learning Q-function because a state's Q-value depends on the Q-value of successor states. If the data sampling strategy ignores the precision of the Q-value estimate of the next state, it can lead to useless and often incorrect updates to the Q-values. To mitigate this issue, we organize the agent's experience into a graph that explicitly tracks the dependency between Q-values of states. Each edge in the graph represents a transition between two states by executing a single action. We perform value backups via a breadth-first search starting from that expands vertices in the graph starting from the set of terminal states and successively moving backward. We empirically sho
     
-[^117]: 并行连续学习用于异构无线网络上动态分布式模型训练
+[^118]: 并行连续学习用于异构无线网络上动态分布式模型训练
 
     Parallel Successive Learning for Dynamic Distributed Model Training over Heterogeneous Wireless Networks. (arXiv:2202.02947v6 [cs.LG] UPDATED)
 
@@ -1764,7 +1779,7 @@
 
     Federated learning (FedL) has emerged as a popular technique for distributing model training over a set of wireless devices, via iterative local updates (at devices) and global aggregations (at the server). In this paper, we develop parallel successive learning (PSL), which expands the FedL architecture along three dimensions: (i) Network, allowing decentralized cooperation among the devices via device-to-device (D2D) communications. (ii) Heterogeneity, interpreted at three levels: (ii-a) Learning: PSL considers heterogeneous number of stochastic gradient descent iterations with different mini-batch sizes at the devices; (ii-b) Data: PSL presumes a dynamic environment with data arrival and departure, where the distributions of local datasets evolve over time, captured via a new metric for model/concept drift. (ii-c) Device: PSL considers devices with different computation and communication capabilities. (iii) Proximity, where devices have different distances to each other and the acces
     
-[^118]: 认知账本项目：通过认知区块链构建个人数字化孪生体
+[^119]: 认知账本项目：通过认知区块链构建个人数字化孪生体
 
     Cognitive Ledger Project: Towards Building Personal Digital Twins Through Cognitive Blockchain. (arXiv:2201.08163v2 [cs.AI] UPDATED)
 
@@ -1778,7 +1793,7 @@
 
     The Cognitive Ledger Project is an effort to develop a modular system for turning users' personal data into structured information and machine learning models based on a blockchain-based infrastructure. In this work-in-progress paper, we propose a cognitive architecture for cognitive digital twins. The suggested design embraces a cognitive blockchain (Cognitive ledger) at its core. The architecture includes several modules that turn users' activities in the digital environment into reusable knowledge objects and artificial intelligence that one day can work together to form the cognitive digital twin of users.
     
-[^119]: 一种基于任务感知元学习的Siamese神经网络分类混淆恶意软件的方法
+[^120]: 一种基于任务感知元学习的Siamese神经网络分类混淆恶意软件的方法
 
     Task-Aware Meta Learning-based Siamese Neural Network for Classifying Obfuscated Malware. (arXiv:2110.13409v3 [cs.CR] UPDATED)
 
@@ -1792,7 +1807,7 @@
 
     Malware authors apply different techniques of control flow obfuscation, in order to create new malware variants to avoid detection. Existing Siamese neural network (SNN)-based malware detection methods fail to correctly classify different malware families when such obfuscated malware samples are present in the training dataset, resulting in high false-positive rates. To address this issue, we propose a novel task-aware few-shot-learning-based Siamese Neural Network that is resilient against the presence of malware variants affected by such control flow obfuscation techniques. Using the average entropy features of each malware family as inputs, in addition to the image features, our model generates the parameters for the feature layers, to more accurately adjust the feature embedding for different malware families, each of which has obfuscated malware variants. In addition, our proposed method can classify malware classes, even if there are only one or a few training samples available. 
     
-[^120]: QuantumNAT：注重量子噪声的噪声注入、量化和归一化的量子训练
+[^121]: QuantumNAT：注重量子噪声的噪声注入、量化和归一化的量子训练
 
     QuantumNAT: Quantum Noise-Aware Training with Noise Injection, Quantization and Normalization. (arXiv:2110.11331v4 [cs.LG] UPDATED)
 
@@ -1806,7 +1821,7 @@
 
     Parameterized Quantum Circuits (PQC) are promising towards quantum advantage on near-term quantum hardware. However, due to the large quantum noises (errors), the performance of PQC models has a severe degradation on real quantum devices. Take Quantum Neural Network (QNN) as an example, the accuracy gap between noise-free simulation and noisy results on IBMQ-Yorktown for MNIST-4 classification is over 60%. Existing noise mitigation methods are general ones without leveraging unique characteristics of PQC; on the other hand, existing PQC work does not consider noise effect. To this end, we present QuantumNAT, a PQC-specific framework to perform noise-aware optimizations in both training and inference stages to improve robustness. We experimentally observe that the effect of quantum noise to PQC measurement outcome is a linear map from noise-free outcome with a scaling and a shift factor. Motivated by that, we propose post-measurement normalization to mitigate the feature distribution di
     
-[^121]: LLVIP：适用于低光视觉的可见-红外成对数据集
+[^122]: LLVIP：适用于低光视觉的可见-红外成对数据集
 
     LLVIP: A Visible-infrared Paired Dataset for Low-light Vision. (arXiv:2108.10831v4 [cs.CV] UPDATED)
 

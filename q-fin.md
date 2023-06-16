@@ -17,9 +17,10 @@
 | [^13] | [Model-Free Market Risk Hedging Using Crowding Networks.](http://arxiv.org/abs/2306.08105) | 本文采用基金持仓的网络分析来计算股票的拥挤分数，构建出的多头头寸和空头头寸的对冲组合具有负相关和正市场回报下凸性的特性，能提供一种无需昂贵的期权策略或复杂的数值优化的对冲投资组合，用于对冲投资组合风险，包括尾部风险。 |
 | [^14] | [Leveraging Machine Learning for Multichain DeFi Fraud Detection.](http://arxiv.org/abs/2306.07972) | 该论文提出了一种利用机器学习进行多链DeFi欺诈检测的方法，并在最广泛使用的23个DeFi协议的交易数据集上进行了评估。 |
 | [^15] | [Language, Time Preferences, and Consumer Behavior: Evidence from Large Language Models.](http://arxiv.org/abs/2305.02531) | 本研究分析了大型语言模型在不同语言提示下的奖励时间偏好，并发现GPT在具有较弱未来时态的语言下表现出更大的耐心，这与使用该语言的人类的偏好相似。 |
-| [^16] | [Modern Tontine with Transaction Costs.](http://arxiv.org/abs/2209.09709) | 本文提出了一种带交易成本的现代年金方案，可以为退休者在人口寿命延长和消费成本上升的背景下规划退休消费和遗产，具有灵活和高效的特点。 |
-| [^17] | [Cross-Impact of Order Flow Imbalance in Equity Markets.](http://arxiv.org/abs/2112.13213) | 本文研究了股票市场中订单流失不平衡(OFI)对价格波动的影响，并提出了一个整合顶层OFI的系统方法来更好地解释价格影响。跨资产OFIs可以改善未来回报的预测能力。 |
-| [^18] | [Market making by an FX dealer: tiers, pricing ladders and hedging rates for optimal risk control.](http://arxiv.org/abs/2112.02269) | 本文提供了一个市场创造的最优控制框架，解决了外汇交易中经销商面对的定价和对冲困境。 |
+| [^16] | [Arbitrage theory in a market of stochastic dimension.](http://arxiv.org/abs/2212.04623) | 该论文研究了随机维度市场的套利理论，提出了资产定价的基本定理和选择性分解定理。 |
+| [^17] | [Modern Tontine with Transaction Costs.](http://arxiv.org/abs/2209.09709) | 本文提出了一种带交易成本的现代年金方案，可以为退休者在人口寿命延长和消费成本上升的背景下规划退休消费和遗产，具有灵活和高效的特点。 |
+| [^18] | [Cross-Impact of Order Flow Imbalance in Equity Markets.](http://arxiv.org/abs/2112.13213) | 本文研究了股票市场中订单流失不平衡(OFI)对价格波动的影响，并提出了一个整合顶层OFI的系统方法来更好地解释价格影响。跨资产OFIs可以改善未来回报的预测能力。 |
+| [^19] | [Market making by an FX dealer: tiers, pricing ladders and hedging rates for optimal risk control.](http://arxiv.org/abs/2112.02269) | 本文提供了一个市场创造的最优控制框架，解决了外汇交易中经销商面对的定价和对冲困境。 |
 
 # 详细
 
@@ -233,7 +234,21 @@
 
     Language has a strong influence on our perceptions of time and rewards. This raises the question of whether large language models, when asked in different languages, show different preferences for rewards over time and if their choices are similar to those of humans. In this study, we analyze the responses of GPT-3.5 (hereafter referred to as GPT) to prompts in multiple languages, exploring preferences between smaller, sooner rewards and larger, later rewards. Our results show that GPT displays greater patience when prompted in languages with weak future tense references (FTR), such as German and Mandarin, compared to languages with strong FTR, like English and French. These findings are consistent with existing literature and suggest a correlation between GPT's choices and the preferences of speakers of these languages. However, further analysis reveals that the preference for earlier or later rewards does not systematically change with reward gaps, indicating a lexicographic preferen
     
-[^16]: 带交易成本的现代年金方案
+[^16]: 随机维度市场的套利理论
+
+    Arbitrage theory in a market of stochastic dimension. (arXiv:2212.04623v2 [q-fin.MF] UPDATED)
+
+    [http://arxiv.org/abs/2212.04623](http://arxiv.org/abs/2212.04623)
+
+    该论文研究了随机维度市场的套利理论，提出了资产定价的基本定理和选择性分解定理。
+
+    
+
+    本文研究了一个随机维度的股票市场，在该市场中，资产数量会随着时间波动。我们开发了资产定价的基本定理，并提出了选择性分解定理。此外，类似的结果仍然适用于一个开放的市场。这些结果是在一个由分段连续构成的股票市场模型中得出的。
+
+    This paper studies an equity market of stochastic dimension, where the number of assets fluctuates over time. In such a market, we develop the fundamental theorem of asset pricing, which provides the equivalence of the following statements: (i) there exists a supermartingale num\'eraire portfolio; (ii) each dissected market, which is of a fixed dimension between dimensional jumps, has locally finite growth; (iii) there is no arbitrage of the first kind; (iv) there exists a local martingale deflator; (v) the market is viable. We also present the optional decomposition theorem, which characterizes a given nonnegative process as the wealth process of some investment-consumption strategy. Furthermore, similar results still hold in an open market embedded in the entire market of stochastic dimension, where investors can only invest in a fixed number of large capitalization stocks. These results are developed in an equity market model where the price process is given by a piecewise continuou
+    
+[^17]: 带交易成本的现代年金方案
 
     Modern Tontine with Transaction Costs. (arXiv:2209.09709v2 [q-fin.MF] UPDATED)
 
@@ -247,7 +262,7 @@
 
     In this paper, we propose a new type of reversible modern tontine with transaction costs. The wealth of the retiree is divided into a bequest account and a tontine account. And consumption can only be withdrawn from the bequest account. Each transaction between the two accounts incurs fixed and proportional transaction costs depending on the transaction volume. The retiree dynamically controls the allocation policy between the two accounts and the consumption policy to maximize the consumption and bequest utilities. We formulate the optimization problem as a combined stochastic and impulse control problem with infinite time horizon, and characterize the value function as the unique viscosity solution of a HJBQVI (Hamilton-Jacobi-Bellmen quasi-variational inequality). The numerical results exhibit the V-shaped transaction region which consists of two stages. In the former stage, since longevity credits increase gradually, the retiree decreases the proportion of wealth in the tontine acc
     
-[^17]: 股票市场中订单流失不平衡的交叉影响
+[^18]: 股票市场中订单流失不平衡的交叉影响
 
     Cross-Impact of Order Flow Imbalance in Equity Markets. (arXiv:2112.13213v4 [q-fin.TR] UPDATED)
 
@@ -261,7 +276,7 @@
 
     We investigate the impact of order flow imbalance (OFI) on price movements in equity markets in a multi-asset setting. First, we propose a systematic approach for combining OFIs at the top levels of the limit order book into an integrated OFI variable which better explains price impact, compared to the best-level OFI. We show that once the information from multiple levels is integrated into OFI, multi-asset models with cross-impact do not provide additional explanatory power for contemporaneous impact compared to a sparse model without cross-impact terms. On the other hand, we show that lagged cross-asset OFIs do improve the forecasting of future returns. We also establish that this lagged cross-impact mainly manifests at short-term horizons and decays rapidly in time.
     
-[^18]: 由FX经销商进行市场创造：层次、定价阶梯和对冲利率的最优风险控制
+[^19]: 由FX经销商进行市场创造：层次、定价阶梯和对冲利率的最优风险控制
 
     Market making by an FX dealer: tiers, pricing ladders and hedging rates for optimal risk control. (arXiv:2112.02269v3 [q-fin.TR] UPDATED)
 
