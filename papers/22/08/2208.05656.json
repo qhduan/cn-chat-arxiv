@@ -1,0 +1,12 @@
+{
+    "title": "Sensitivity of multiperiod optimization problems in adapted Wasserstein distance. (arXiv:2208.05656v2 [math.OC] UPDATED)",
+    "abstract": "We analyze the effect of small changes in the underlying probabilistic model on the value of multi-period stochastic optimization problems and optimal stopping problems. We work in finite discrete time and measure these changes with the adapted Wasserstein distance. We prove explicit first-order approximations for both problems. Expected utility maximization is discussed as a special case.",
+    "link": "http://arxiv.org/abs/2208.05656",
+    "context": "Title: Sensitivity of multiperiod optimization problems in adapted Wasserstein distance. (arXiv:2208.05656v2 [math.OC] UPDATED)\nAbstract: We analyze the effect of small changes in the underlying probabilistic model on the value of multi-period stochastic optimization problems and optimal stopping problems. We work in finite discrete time and measure these changes with the adapted Wasserstein distance. We prove explicit first-order approximations for both problems. Expected utility maximization is discussed as a special case.",
+    "path": "papers/22/08/2208.05656.json",
+    "total_tokens": 595,
+    "translated_title": "适应性Wasserstein距离在多周期优化问题的敏感性分析",
+    "translated_abstract": "本文分析了概率模型微小变化对多周期随机优化问题和最优停止问题价值的影响。我们在有限离散时间内使用适应性Wasserstein距离来衡量这些变化。我们对这两个问题证明了明确的一阶逼近。同时，文中还讨论了期望效用最大化的特殊情况。",
+    "tldr": "本文通过适应性Wasserstein距离，分析了概率模型微小变化对于多周期随机优化问题和最优停止问题价值的影响，并对这两个问题证明了明确的一阶逼近。",
+    "en_tdlr": "This paper analyzes the impact of small changes in probabilistic models, measured by the adapted Wasserstein distance on the value of multi-period stochastic optimization problems and optimal stopping problems. First-order approximations for both problems are provided, and expected utility maximization is discussed as a special case."
+}

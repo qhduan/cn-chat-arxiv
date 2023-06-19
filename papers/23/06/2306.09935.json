@@ -1,0 +1,12 @@
+{
+    "title": "Drag-guided diffusion models for vehicle image generation. (arXiv:2306.09935v1 [cs.LG])",
+    "abstract": "Denoising diffusion models trained at web-scale have revolutionized image generation. The application of these tools to engineering design is an intriguing possibility, but is currently limited by their inability to parse and enforce concrete engineering constraints. In this paper, we take a step towards this goal by proposing physics-based guidance, which enables optimization of a performance metric (as predicted by a surrogate model) during the generation process. As a proof-of-concept, we add drag guidance to Stable Diffusion, which allows this tool to generate images of novel vehicles while simultaneously minimizing their predicted drag coefficients.",
+    "link": "http://arxiv.org/abs/2306.09935",
+    "context": "Title: Drag-guided diffusion models for vehicle image generation. (arXiv:2306.09935v1 [cs.LG])\nAbstract: Denoising diffusion models trained at web-scale have revolutionized image generation. The application of these tools to engineering design is an intriguing possibility, but is currently limited by their inability to parse and enforce concrete engineering constraints. In this paper, we take a step towards this goal by proposing physics-based guidance, which enables optimization of a performance metric (as predicted by a surrogate model) during the generation process. As a proof-of-concept, we add drag guidance to Stable Diffusion, which allows this tool to generate images of novel vehicles while simultaneously minimizing their predicted drag coefficients.",
+    "path": "papers/23/06/2306.09935.json",
+    "total_tokens": 661,
+    "translated_title": "车辆图像生成的拖曳引导扩散模型",
+    "translated_abstract": "在网络规模训练的去噪扩散模型已经彻底改变了图像生成的方式。将这些工具应用于工程设计是一种有趣的可能性，但目前还不能解析并强制执行具体的工程约束条件。本文通过提出基于物理的引导，实现了在生成过程中优化性能度量（由代理模型预测），向这个目标迈进了一步。作为概念验证，在稳定扩散中添加拖引导，使该工具能够生成新车辆的图像，同时最小化它们的预测阻力系数。",
+    "tldr": "本文提出了一种基于物理的引导方法，在稳定扩散的基础上添加拖引导，生成能够同时最小化车辆预测阻力系数的图像。",
+    "en_tdlr": "This paper proposes a physics-based guidance method that adds drag guidance to Stable Diffusion to generate vehicle images while minimizing their predicted drag coefficients."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Nearly-Optimal Hierarchical Clustering for Well-Clustered Graphs. (arXiv:2306.09950v1 [cs.DS])",
+    "abstract": "This paper presents two efficient hierarchical clustering (HC) algorithms with respect to Dasgupta's cost function. For any input graph $G$ with a clear cluster-structure, our designed algorithms run in nearly-linear time in the input size of $G$, and return an $O(1)$-approximate HC tree with respect to Dasgupta's cost function. We compare the performance of our algorithm against the previous state-of-the-art on synthetic and real-world datasets and show that our designed algorithm produces comparable or better HC trees with much lower running time.",
+    "link": "http://arxiv.org/abs/2306.09950",
+    "context": "Title: Nearly-Optimal Hierarchical Clustering for Well-Clustered Graphs. (arXiv:2306.09950v1 [cs.DS])\nAbstract: This paper presents two efficient hierarchical clustering (HC) algorithms with respect to Dasgupta's cost function. For any input graph $G$ with a clear cluster-structure, our designed algorithms run in nearly-linear time in the input size of $G$, and return an $O(1)$-approximate HC tree with respect to Dasgupta's cost function. We compare the performance of our algorithm against the previous state-of-the-art on synthetic and real-world datasets and show that our designed algorithm produces comparable or better HC trees with much lower running time.",
+    "path": "papers/23/06/2306.09950.json",
+    "total_tokens": 707,
+    "translated_title": "针对良好聚类的近最优分层聚类算法",
+    "translated_abstract": "本文提出了两种针对Dasgupta代价函数的高效分层聚类算法。对于任何具有清晰聚类结构的输入图G，我们设计的算法在G的输入规模的近线性时间内运行，并返回一个关于Dasgupta代价函数的O（1）近似的HC树。我们将我们的算法与先前的最先进技术在合成和实际数据集上的性能进行比较，并表明我们设计的算法在更短的运行时间内产生可比或更好的HC树。",
+    "tldr": "本文提出了两种高效分层聚类算法，针对任何具有清晰聚类结构的输入图，其能在近线性时间内生成一个关于Dasgupta代价函数的O（1）近似的HC树，性能优于先前技术。",
+    "en_tdlr": "This paper proposes two efficient hierarchical clustering algorithms that can generate an O(1)-approximate HC tree with respect to Dasgupta's cost function in nearly-linear time for any input graph with a clear cluster-structure, and outperforms previous approaches in running time while producing comparable or better HC trees on synthetic and real-world datasets."
+}

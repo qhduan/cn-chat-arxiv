@@ -1,0 +1,12 @@
+{
+    "title": "The Evolution theory of Learning: From Natural Selection to Reinforcement Learning. (arXiv:2306.09961v1 [cs.NE])",
+    "abstract": "Evolution is a fundamental process that shapes the biological world we inhabit, and reinforcement learning is a powerful tool used in artificial intelligence to develop intelligent agents that learn from their environment. In recent years, researchers have explored the connections between these two seemingly distinct fields, and have found compelling evidence that they are more closely related than previously thought. This paper examines these connections and their implications, highlighting the potential for reinforcement learning principles to enhance our understanding of evolution and the role of feedback in evolutionary systems.",
+    "link": "http://arxiv.org/abs/2306.09961",
+    "context": "Title: The Evolution theory of Learning: From Natural Selection to Reinforcement Learning. (arXiv:2306.09961v1 [cs.NE])\nAbstract: Evolution is a fundamental process that shapes the biological world we inhabit, and reinforcement learning is a powerful tool used in artificial intelligence to develop intelligent agents that learn from their environment. In recent years, researchers have explored the connections between these two seemingly distinct fields, and have found compelling evidence that they are more closely related than previously thought. This paper examines these connections and their implications, highlighting the potential for reinforcement learning principles to enhance our understanding of evolution and the role of feedback in evolutionary systems.",
+    "path": "papers/23/06/2306.09961.json",
+    "total_tokens": 665,
+    "translated_title": "学习的进化论：从自然选择到强化学习",
+    "translated_abstract": "进化是塑造我们居住的生物世界的基本过程，强化学习是人工智能中用于开发可以从环境中学习的智能代理的强有力工具。近年来，研究人员探索了这两个看似独立领域之间的联系，并发现了令人信服的证据表明它们比以前想象的更密切相关。本文检验了这些联系及其影响，强调了强化学习原则提升我们对于进化和反馈在进化系统中作用的理解的潜力。",
+    "tldr": "本文探讨了强化学习和进化这两个领域之间的联系以及可能的启示，揭示了强化学习原则能够提高我们对进化和进化系统中反馈作用的理解。",
+    "en_tdlr": "This paper examines the connections between reinforcement learning and evolution, highlighting the potential for reinforcement learning principles to enhance our understanding of evolution and the role of feedback in evolutionary systems."
+}

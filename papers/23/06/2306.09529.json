@@ -1,0 +1,12 @@
+{
+    "title": "House-Swapping with Objective Indifferences. (arXiv:2306.09529v1 [econ.TH])",
+    "abstract": "We study the classic house-swapping problem of Shapley and Scarf (1974) in a setting where agents may have \"objective\" indifferences, i.e., indifferences that are shared by all agents. In other words, if any one agent is indifferent between two houses, then all agents are indifferent between those two houses. The most direct interpretation is the presence of multiple copies of the same object. Our setting is a special case of the house-swapping problem with general indifferences. We derive a simple, easily interpretable algorithm that produces the unique strict core allocation of the house-swapping market, if it exists. Our algorithm runs in square polynomial time, a substantial improvement over the cubed time methods for the more general problem.",
+    "link": "http://arxiv.org/abs/2306.09529",
+    "context": "Title: House-Swapping with Objective Indifferences. (arXiv:2306.09529v1 [econ.TH])\nAbstract: We study the classic house-swapping problem of Shapley and Scarf (1974) in a setting where agents may have \"objective\" indifferences, i.e., indifferences that are shared by all agents. In other words, if any one agent is indifferent between two houses, then all agents are indifferent between those two houses. The most direct interpretation is the presence of multiple copies of the same object. Our setting is a special case of the house-swapping problem with general indifferences. We derive a simple, easily interpretable algorithm that produces the unique strict core allocation of the house-swapping market, if it exists. Our algorithm runs in square polynomial time, a substantial improvement over the cubed time methods for the more general problem.",
+    "path": "papers/23/06/2306.09529.json",
+    "total_tokens": 702,
+    "translated_title": "具有客观不确定性的房屋交换问题",
+    "translated_abstract": "本文研究了在代理可能拥有“客观”不确定性的情况下的经典房屋交换问题。也就是说，如果任何一个代理对两所房屋持中立态度，则所有代理对这两所房屋都是中立态度。我们的设定是具有一般不确定性的房屋交换问题的特例。我们推导出了一种简单易懂的算法，如果存在完全核分配，则产生房屋交换市场的唯一严格核分配。我们的算法的运行时间为二次多项式时间，是通用问题的三次时间方法的实质性改进。",
+    "tldr": "本文研究了房屋交换问题中具有客观不确定性的情况，并提出一种运行时间更短的算法来产生唯一严格核分配。",
+    "en_tdlr": "This paper studies the house-swapping problem with objective indifferences and proposes a shorter running time algorithm to produce the unique strict core allocation, if it exists."
+}

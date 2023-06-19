@@ -1,0 +1,12 @@
+{
+    "title": "Transferability of Winning Lottery Tickets in Neural Network Differential Equation Solvers. (arXiv:2306.09863v1 [cs.LG])",
+    "abstract": "Recent work has shown that renormalisation group theory is a useful framework with which to describe the process of pruning neural networks via iterative magnitude pruning. This report formally describes the link between RG theory and IMP and extends previous results around the Lottery Ticket Hypothesis and Elastic Lottery Hypothesis to Hamiltonian Neural Networks for solving differential equations. We find lottery tickets for two Hamiltonian Neural Networks and demonstrate transferability between the two systems, with accuracy being dependent on integration times. The universality of the two systems is then analysed using tools from an RG perspective.",
+    "link": "http://arxiv.org/abs/2306.09863",
+    "context": "Title: Transferability of Winning Lottery Tickets in Neural Network Differential Equation Solvers. (arXiv:2306.09863v1 [cs.LG])\nAbstract: Recent work has shown that renormalisation group theory is a useful framework with which to describe the process of pruning neural networks via iterative magnitude pruning. This report formally describes the link between RG theory and IMP and extends previous results around the Lottery Ticket Hypothesis and Elastic Lottery Hypothesis to Hamiltonian Neural Networks for solving differential equations. We find lottery tickets for two Hamiltonian Neural Networks and demonstrate transferability between the two systems, with accuracy being dependent on integration times. The universality of the two systems is then analysed using tools from an RG perspective.",
+    "path": "papers/23/06/2306.09863.json",
+    "total_tokens": 710,
+    "translated_title": "神经网络微分方程求解器中中奖彩票的可转移性研究",
+    "translated_abstract": "最近的研究表明，重整化群理论是通过迭代幅值剪枝来描述神经网络剪枝过程的有用框架。本文正式描述了RG理论与IMP之间的联系，并将之前关于彩票假设和弹性彩票假设的结果扩展到用于求解微分方程的哈密顿神经网络。我们找到了两个哈密顿神经网络的中奖彩票，并证明了这两个系统之间的可转移性，其中准确性取决于积分时间。然后使用RG的工具分析了这两个系统的普遍性。",
+    "tldr": "本文研究了神经网络微分方程求解器中中奖彩票的可转移性，发现哈密顿神经网络系统之间具有可转移性，并用重整化群理论分析了这两个系统的普遍性。",
+    "en_tdlr": "This paper investigates the transferability of winning lottery tickets in neural network differential equation solvers and finds that there is transferability between Hamiltonian Neural Networks. It also analyzes the universality of the two systems using tools from an RG perspective."
+}

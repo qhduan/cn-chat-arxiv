@@ -1,0 +1,12 @@
+{
+    "title": "From Database Repairs to Causality in Databases and Beyond. (arXiv:2306.09374v1 [cs.DB])",
+    "abstract": "We describe some recent approaches to score-based explanations for query answers in databases. The focus is on work done by the author and collaborators. Special emphasis is placed on the use of counterfactual reasoning for score specification and computation. Several examples that illustrate the flexibility of these methods are shown.",
+    "link": "http://arxiv.org/abs/2306.09374",
+    "context": "Title: From Database Repairs to Causality in Databases and Beyond. (arXiv:2306.09374v1 [cs.DB])\nAbstract: We describe some recent approaches to score-based explanations for query answers in databases. The focus is on work done by the author and collaborators. Special emphasis is placed on the use of counterfactual reasoning for score specification and computation. Several examples that illustrate the flexibility of these methods are shown.",
+    "path": "papers/23/06/2306.09374.json",
+    "total_tokens": 471,
+    "translated_title": "从数据库修复到数据库因果及其拓展",
+    "translated_abstract": "我们描述了一些最近用于数据库中查询答案分数解释的方法。重点介绍了作者及其合作者的工作。特别强调了利用反事实推理进行分数规范和计算的方法。展示了几个示例以说明这些方法的灵活性。",
+    "tldr": "本文介绍了新颖的利用反事实推理进行数据库查询答案分数解释的方法。",
+    "en_tdlr": "This paper introduces a novel approach to score-based explanations for query answers in databases using counterfactual reasoning."
+}

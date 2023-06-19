@@ -1,0 +1,12 @@
+{
+    "title": "Group Orthogonalization Regularization For Vision Models Adaptation and Robustness. (arXiv:2306.10001v1 [cs.CV])",
+    "abstract": "As neural networks become deeper, the redundancy within their parameters increases. This phenomenon has led to several methods that attempt to reduce the correlation between convolutional filters. We propose a computationally efficient regularization technique that encourages orthonormality between groups of filters within the same layer. Our experiments show that when incorporated into recent adaptation methods for diffusion models and vision transformers (ViTs), this regularization improves performance on downstream tasks. We further show improved robustness when group orthogonality is enforced during adversarial training. Our code is available at https://github.com/YoavKurtz/GOR.",
+    "link": "http://arxiv.org/abs/2306.10001",
+    "context": "Title: Group Orthogonalization Regularization For Vision Models Adaptation and Robustness. (arXiv:2306.10001v1 [cs.CV])\nAbstract: As neural networks become deeper, the redundancy within their parameters increases. This phenomenon has led to several methods that attempt to reduce the correlation between convolutional filters. We propose a computationally efficient regularization technique that encourages orthonormality between groups of filters within the same layer. Our experiments show that when incorporated into recent adaptation methods for diffusion models and vision transformers (ViTs), this regularization improves performance on downstream tasks. We further show improved robustness when group orthogonality is enforced during adversarial training. Our code is available at https://github.com/YoavKurtz/GOR.",
+    "path": "papers/23/06/2306.10001.json",
+    "total_tokens": 771,
+    "translated_title": "组正交正则化：用于视觉模型自适应和鲁棒性的方法",
+    "translated_abstract": "随着神经网络变得越来越深，参数内部的冗余度也随之增加。这种现象导致了许多试图减少卷积滤波器之间相关性的方法的出现。我们提出了一种计算高效的正则化技术，它鼓励同一层内滤波器组之间的正交性。我们的实验表明，当结合最新的扩散模型适应方法和视觉转换器（ViTs）时，这种正则化可以提高下游任务的性能。我们进一步展示了当在对抗训练过程中强制进行组正交性时的增强鲁棒性。我们的代码可在https://github.com/YoavKurtz/GOR获得。",
+    "tldr": "该论文提出了一种新的正则化技术，称为组正交正则化，能够提高视觉模型自适应和鲁棒性。实验结果表明，此种正则化可以应用于不同的深度学习模型，并且能够有效地优化模型性能。",
+    "en_tdlr": "The paper proposes a new regularization technique called group orthogonalization regularization (GOR), which can enhance vision model adaptation and robustness. Experimental results show that this regularization can be applied to different deep learning models and effectively optimize model performance."
+}

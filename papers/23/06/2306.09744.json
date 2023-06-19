@@ -1,0 +1,11 @@
+{
+    "title": "Automatic Trade-off Adaptation in Offline RL. (arXiv:2306.09744v1 [cs.LG])",
+    "abstract": "Recently, offline RL algorithms have been proposed that remain adaptive at runtime. For example, the LION algorithm \\cite{lion} provides the user with an interface to set the trade-off between behavior cloning and optimality w.r.t. the estimated return at runtime. Experts can then use this interface to adapt the policy behavior according to their preferences and find a good trade-off between conservatism and performance optimization. Since expert time is precious, we extend the methodology with an autopilot that automatically finds the correct parameterization of the trade-off, yielding a new algorithm which we term AutoLION.",
+    "link": "http://arxiv.org/abs/2306.09744",
+    "context": "Title: Automatic Trade-off Adaptation in Offline RL. (arXiv:2306.09744v1 [cs.LG])\nAbstract: Recently, offline RL algorithms have been proposed that remain adaptive at runtime. For example, the LION algorithm \\cite{lion} provides the user with an interface to set the trade-off between behavior cloning and optimality w.r.t. the estimated return at runtime. Experts can then use this interface to adapt the policy behavior according to their preferences and find a good trade-off between conservatism and performance optimization. Since expert time is precious, we extend the methodology with an autopilot that automatically finds the correct parameterization of the trade-off, yielding a new algorithm which we term AutoLION.",
+    "path": "papers/23/06/2306.09744.json",
+    "total_tokens": 652,
+    "translated_title": "离线强化学习中的自动权衡自适应",
+    "translated_abstract": "最近，出现了一些可在运行时保持自适应性的离线强化学习算法。例如，LION算法提供了一个用户界面，使用户能够在运行时设置基于估计回报的行为克隆和最优性之间的权衡。专家可以使用此界面根据其偏好调整策略行为，并在保守性和性能优化之间找到良好的权衡。由于专家时间宝贵，因此我们通过自动驾驶来扩展方法，以自动找到权衡的正确参数化，从而得到称为AutoLION的新算法。",
+    "tldr": "研究提出了一种名为AutoLION的离线强化学习算法，通过自动权衡自适应来减少专家时间成本。"
+}

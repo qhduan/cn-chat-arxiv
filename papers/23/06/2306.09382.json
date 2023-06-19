@@ -1,0 +1,12 @@
+{
+    "title": "Sound Demixing Challenge 2023 -- Music Demixing Track Technical Report. (arXiv:2306.09382v1 [cs.SD])",
+    "abstract": "In this report, we present our award-winning solutions for the Music Demixing Track of Sound Demixing Challenge 2023. We focus on two methods designed for this challenge: a time-efficient source separation network that achieves state-of-the-art results on the MUSDB benchmark and a loss masking method for noise-robust source separation. Code for reproducing model training and final submissions is available at github.com/kuielab/sdx23.",
+    "link": "http://arxiv.org/abs/2306.09382",
+    "context": "Title: Sound Demixing Challenge 2023 -- Music Demixing Track Technical Report. (arXiv:2306.09382v1 [cs.SD])\nAbstract: In this report, we present our award-winning solutions for the Music Demixing Track of Sound Demixing Challenge 2023. We focus on two methods designed for this challenge: a time-efficient source separation network that achieves state-of-the-art results on the MUSDB benchmark and a loss masking method for noise-robust source separation. Code for reproducing model training and final submissions is available at github.com/kuielab/sdx23.",
+    "path": "papers/23/06/2306.09382.json",
+    "total_tokens": 657,
+    "translated_title": "2023年声音分离挑战赛——音乐分离赛道技术报告",
+    "translated_abstract": "本文介绍了我们在2023年声音分离挑战赛音乐分离赛道中获奖的解决方案。我们专注于两种在此挑战中设计的方法：一种时效高的源分离网络，在MUSDB基准测试上实现了最先进的结果；一种适用于噪声鲁棒性源分离的损失掩模方法。在github.com/kuielab/sdx23上提供了模型训练和最终提交的代码。",
+    "tldr": "本文介绍了2023年声音分离挑战赛音乐分离赛道的两个有效方法，分别是时效高的源分离网络和适用于噪声鲁棒性源分离的损失掩模方法。",
+    "en_tdlr": "This report presents two effective methods for the Music Demixing Track of the Sound Demixing Challenge 2023, which are a time-efficient source separation network and a loss masking method for noise-robust source separation."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "$\\pi2\\text{vec}$: Policy Representations with Successor Features. (arXiv:2306.09800v1 [cs.LG])",
+    "abstract": "This paper describes $\\pi2\\text{vec}$, a method for representing behaviors of black box policies as feature vectors. The policy representations capture how the statistics of foundation model features change in response to the policy behavior in a task agnostic way, and can be trained from offline data, allowing them to be used in offline policy selection. This work provides a key piece of a recipe for fusing together three modern lines of research: Offline policy evaluation as a counterpart to offline RL, foundation models as generic and powerful state representations, and efficient policy selection in resource constrained environments.",
+    "link": "http://arxiv.org/abs/2306.09800",
+    "context": "Title: $\\pi2\\text{vec}$: Policy Representations with Successor Features. (arXiv:2306.09800v1 [cs.LG])\nAbstract: This paper describes $\\pi2\\text{vec}$, a method for representing behaviors of black box policies as feature vectors. The policy representations capture how the statistics of foundation model features change in response to the policy behavior in a task agnostic way, and can be trained from offline data, allowing them to be used in offline policy selection. This work provides a key piece of a recipe for fusing together three modern lines of research: Offline policy evaluation as a counterpart to offline RL, foundation models as generic and powerful state representations, and efficient policy selection in resource constrained environments.",
+    "path": "papers/23/06/2306.09800.json",
+    "total_tokens": 783,
+    "translated_title": "$\\pi2\\text{vec}$：基于继承特征的策略表示方法",
+    "translated_abstract": "本文描述了$\\pi2\\text{vec}$，一种将黑盒策略行为表示为特征向量的方法。策略表示以任务无关的方式捕捉了基础模型特征统计数据在策略行为响应中的变化，并可以从离线数据中进行训练，从而可以用于离线策略选择。本研究为融合三个现代研究方向提供了重要的支持：作为离线强化学习的补充的离线策略评估，作为通用强大状态表示的基础模型，以及在资源受限制的环境中进行有效策略选择的方法。",
+    "tldr": "本文提出了$\\pi2\\text{vec}$方法，它可以将黑盒策略行为表示为特征向量，并可以用于离线策略选择。该方法为现代研究方向中的离线策略评估、基础模型状态表示和资源受限制的策略选择提供了重要的支持。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Creating Multi-Level Skill Hierarchies in Reinforcement Learning. (arXiv:2306.09980v1 [cs.LG])",
+    "abstract": "What is a useful skill hierarchy for an autonomous agent? We propose an answer based on the graphical structure of an agent's interaction with its environment. Our approach uses hierarchical graph partitioning to expose the structure of the graph at varying timescales, producing a skill hierarchy with multiple levels of abstraction. At each level of the hierarchy, skills move the agent between regions of the state space that are well connected within themselves but weakly connected to each other. We illustrate the utility of the proposed skill hierarchy in a wide variety of domains in the context of reinforcement learning.",
+    "link": "http://arxiv.org/abs/2306.09980",
+    "context": "Title: Creating Multi-Level Skill Hierarchies in Reinforcement Learning. (arXiv:2306.09980v1 [cs.LG])\nAbstract: What is a useful skill hierarchy for an autonomous agent? We propose an answer based on the graphical structure of an agent's interaction with its environment. Our approach uses hierarchical graph partitioning to expose the structure of the graph at varying timescales, producing a skill hierarchy with multiple levels of abstraction. At each level of the hierarchy, skills move the agent between regions of the state space that are well connected within themselves but weakly connected to each other. We illustrate the utility of the proposed skill hierarchy in a wide variety of domains in the context of reinforcement learning.",
+    "path": "papers/23/06/2306.09980.json",
+    "total_tokens": 763,
+    "translated_title": "论文标题：在强化学习中创建多级技能层次结构。",
+    "translated_abstract": "摘要：什么样的技能层次结构对于自主代理人是有用的？我们提出了一种基于代理人与环境交互的图形结构的答案。我们的方法使用分层图划分来揭示图在不同时间尺度上的结构，从而产生具有多个抽象层次的技能层次结构。在层次结构的每个层次上，技能将代理人移动到状态空间中互相连接紧密但相互连接较弱的区域。我们在强化学习的广泛领域中展示了所提出的技能层次结构的效用。",
+    "tldr": "本文提出了一种基于代理人与环境交互的图形结构的答案，使用分层图划分产生具有多个抽象层次的技能层次结构。技能能将代理人移动到状态空间中互相连接紧密但相互连接较弱的区域，有效提高了强化学习的效率。",
+    "en_tdlr": "This paper proposes an answer based on the graphical structure of an agent's interaction with its environment, and uses hierarchical graph partitioning to create a skill hierarchy with multiple levels of abstraction. Skills move the agent between regions of the state space that are well connected within themselves but weakly connected to each other, improving the efficiency of reinforcement learning."
+}

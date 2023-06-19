@@ -1,0 +1,12 @@
+{
+    "title": "Power-law Dynamic arising from machine learning. (arXiv:2306.09624v1 [stat.ML])",
+    "abstract": "We study a kind of new SDE that was arisen from the research on optimization in machine learning, we call it power-law dynamic because its stationary distribution cannot have sub-Gaussian tail and obeys power-law. We prove that the power-law dynamic is ergodic with unique stationary distribution, provided the learning rate is small enough. We investigate its first exist time. In particular, we compare the exit times of the (continuous) power-law dynamic and its discretization. The comparison can help guide machine learning algorithm.",
+    "link": "http://arxiv.org/abs/2306.09624",
+    "context": "Title: Power-law Dynamic arising from machine learning. (arXiv:2306.09624v1 [stat.ML])\nAbstract: We study a kind of new SDE that was arisen from the research on optimization in machine learning, we call it power-law dynamic because its stationary distribution cannot have sub-Gaussian tail and obeys power-law. We prove that the power-law dynamic is ergodic with unique stationary distribution, provided the learning rate is small enough. We investigate its first exist time. In particular, we compare the exit times of the (continuous) power-law dynamic and its discretization. The comparison can help guide machine learning algorithm.",
+    "path": "papers/23/06/2306.09624.json",
+    "total_tokens": 680,
+    "translated_title": "机器学习中出现的幂律动态研究",
+    "translated_abstract": "我们研究了一种新的随机微分方程，这种方程起源于机器学习中的优化研究，我们称之为幂律动态，因为其平稳分布不能具有亚高斯尾部并服从幂律。我们证明，只要学习率足够小，幂律动态是遍历的且具有唯一的平稳分布。我们调查了它的首次存在时间。特别是，我们比较了连续的幂律动态及其离散化在退出时间上的差异。这种比较可以帮助指导机器学习算法。",
+    "tldr": "该论文研究了机器学习中的幂律动态，证明了其具有唯一平稳分布且可以通过比较连续和离散化幂律动态的出现时间来指导机器学习算法。",
+    "en_tdlr": "This paper studies the power-law dynamic in machine learning, proves its unique stationary distribution, and suggests guidance for machine learning algorithms by comparing the continuous and discretized exit times."
+}
