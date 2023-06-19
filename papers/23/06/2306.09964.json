@@ -1,0 +1,12 @@
+{
+    "title": "Robust Predictions in Games with Rational Inattention. (arXiv:2306.09964v1 [econ.TH])",
+    "abstract": "We derive robust predictions in games involving flexible information acquisition, also known as rational inattention (Sims 2003). These predictions remain accurate regardless of the specific methods players employ to gather information. Compared to scenarios where information is predetermined, rational inattention reduces welfare and introduces additional constraints on behavior. We show these constraints generically do not bind; the two knowledge regimes are behaviorally indistinguishable in most environments. Yet, we demonstrate the welfare difference they generate is substantial: optimal policy depends on whether one assumes information is given or acquired. We provide the necessary tools for policy analysis in this context.",
+    "link": "http://arxiv.org/abs/2306.09964",
+    "context": "Title: Robust Predictions in Games with Rational Inattention. (arXiv:2306.09964v1 [econ.TH])\nAbstract: We derive robust predictions in games involving flexible information acquisition, also known as rational inattention (Sims 2003). These predictions remain accurate regardless of the specific methods players employ to gather information. Compared to scenarios where information is predetermined, rational inattention reduces welfare and introduces additional constraints on behavior. We show these constraints generically do not bind; the two knowledge regimes are behaviorally indistinguishable in most environments. Yet, we demonstrate the welfare difference they generate is substantial: optimal policy depends on whether one assumes information is given or acquired. We provide the necessary tools for policy analysis in this context.",
+    "path": "papers/23/06/2306.09964.json",
+    "total_tokens": 749,
+    "translated_title": "合理忽略下的游戏中的稳健预测",
+    "translated_abstract": "我们研究了涉及灵活信息获取的游戏中的稳健预测，也称为合理忽略（Sims 2003）。这些预测在玩家使用获取信息的具体方法时仍然保持准确。与信息预定的情况相比，理性忽略会降低福利并引入对行为的额外限制。我们证明这些限制一般不会被执行;在大多数环境中，这两个知识方案在行为上没有区别。然而，我们证明它们生成的福利差异是实质性的：最优政策取决于一个人是否认为信息是已知的或被获取的。我们提供了该背景下的政策分析必要工具。",
+    "tldr": "研究了合理忽略下的游戏稳健预测，发现理性忽略会降低福利并引入对行为的额外限制，两种知识方案在行为上没有区别，但会影响最优政策。",
+    "en_tdlr": "This paper investigates robust predictions in games involving rational inattention, which reduces welfare and introduces additional constraints on behavior. The two knowledge regimes are behaviorally indistinguishable in most environments but generate substantial welfare differences, which affects optimal policy choice."
+}

@@ -24,39 +24,41 @@
 | [^20] | [Discourse Representation Structure Parsing for Chinese.](http://arxiv.org/abs/2306.09725) | 该论文探索了在缺乏中文标签数据的情况下汉语语义分析的可行性，并提出了一个专为汉语语义分析设计的测试套件。副词是汉语语义分析的主要难点。 |
 | [^21] | [Pushing the Limits of ChatGPT on NLP Tasks.](http://arxiv.org/abs/2306.09719) | 本研究提出了一系列通用模块以解决 ChatGPT 在自然语言处理任务中的弱点，包括利用多个提示符来适应更多演示、使用精细调整模型以获得更好的演示检索、转换任务为更适合生成性质的格式以及采用针对 NLP 任务设计的推理策略。 |
 | [^22] | [Semi-Offline Reinforcement Learning for Optimized Text Generation.](http://arxiv.org/abs/2306.09712) | 该研究提出了一种半离线强化学习范式，该范式平衡了探索能力和培训成本，提供了一个理论基础来比较不同的强化学习设置，并在优化成本、渐近误差和过度拟合误差界方面实现了最优的RL设置。实验结果表明，该方法高效且性能优异。 |
-| [^23] | [Cross-corpus Readability Compatibility Assessment for English Texts.](http://arxiv.org/abs/2306.09704) | 本文提出了一个新的评估框架，Cross-corpus text Readability Compatibility Assessment (CRCA)，用于解决不同语料库之间的可读性兼容性的问题。研究结果表明该框架具有显著的兼容性，并适用于不同的特征表示和分类方法。 |
-| [^24] | [Class-Adaptive Self-Training for Relation Extraction with Incompletely Annotated Training Data.](http://arxiv.org/abs/2306.09697) | 本研究提出了一种新的基于类别自适应重新采样自训练框架，能够显著改善在少数类别中的总体召回率，而不会明显降低准确率，从而实现了关系提取的最先进性能。 |
-| [^25] | [Online Distillation for Pseudo-Relevance Feedback.](http://arxiv.org/abs/2306.09657) | 本文提出了一种伪相关反馈的在线蒸馏技术，通过在线逐步建立模型，预测查询与文档的相关得分，并在索引中高效执行，以优化整体检索效果。 |
-| [^26] | [ReactGenie: An Object-Oriented State Abstraction for Complex Multimodal Interactions Using Large Language Models.](http://arxiv.org/abs/2306.09649) | ReactGenie是一个支持构建复杂的多模态移动应用程序的编程框架，通过使用共享的面向对象状态抽象，使得不同模态可以无缝集成和组合，从而实现了多模态交互的支持。 |
-| [^27] | [Cross-Domain Toxic Spans Detection.](http://arxiv.org/abs/2306.09642) | 本研究评估了三种跨域条件下检测毒性片段的方法，结果表明使用现成的词典的简单方法在跨域设置中表现最佳，而用于领域内的语言模型容易出现某些类型的假阳性。 |
-| [^28] | [AUGUST: an Automatic Generation Understudy for Synthesizing Conversational Recommendation Datasets.](http://arxiv.org/abs/2306.09631) | 本文提出了一种新型自动数据集合成方法，利用传统推荐系统中的个性化用户画像和结构化图表中的丰富交互信息，通过数据到文本生成过程生成大规模和高质量的推荐对话。 |
-| [^29] | [Listener Model for the PhotoBook Referential Game with CLIPScores as Implicit Reference Chain.](http://arxiv.org/abs/2306.09607) | 本文介绍了使用CLIPScores作为隐式参考链的PhotoBook指称游戏的听者模型，该模型直接解决了决定图像是否与伙伴共享的预测任务，并在未见过的图像集/游戏主题上取得了>77%的准确率，优于基线>17个百分点。 |
-| [^30] | [Clickbait Detection via Large Language Models.](http://arxiv.org/abs/2306.09597) | 本文研究了大型语言模型在点击诱骗检测上的性能，结果表明LLM无法取得最佳结果且不能仅通过标题实现满意的检测。 |
-| [^31] | [CMLM-CSE: Based on Conditional MLM Contrastive Learning for Sentence Embeddings.](http://arxiv.org/abs/2306.09594) | 本论文提出了一种基于条件MLM的无监督对比学习框架CMLM-CSE，强制句子嵌入学习更多的掩码词信息，可以在文本相似度任务中超越SimCSE。 |
-| [^32] | [How do different tokenizers perform on downstream tasks in scriptio continua languages?: A case study in Japanese.](http://arxiv.org/abs/2306.09572) | 本文研究了在日语这种连续书写文字语言中，不同的分词器对预训练语言模型在下游任务中的影响，发现每个下游任务都有一个最佳的形态学分析器，并且无论任务类型如何，最好使用字节对编码或Unigram作为子词分词器。 |
-| [^33] | [Reproducibility in NLP: What Have We Learned from the Checklist?.](http://arxiv.org/abs/2306.09562) | 本论文讨论了NLP科学进展的可重复性，介绍了NLP可重复性清单的情况和通过对此清单10,405个匿名回答的分析发现某些项回答“是”的提交数量增加、随之接受率增加以及开源代码与可重复性得分提高之间的关系等。 |
-| [^34] | [Building blocks for complex tasks: Robust generative event extraction for radiology reports under domain shifts.](http://arxiv.org/abs/2306.09544) | 本文介绍了一个在放射学报告中提取信息的鲁棒性生成式模型，具有良好的泛化性。通过将复杂任务分解为更小的子任务块，与多任务训练相结合，可以提高单遍模型的性能，并通过利用目标域上下文来增强领域适应性，实现使用更小的模型。 |
-| [^35] | [Block-State Transformer.](http://arxiv.org/abs/2306.09539) | 本文提出了一种名为块状态变换器（BST）的混合神经网络层，结合了状态空间模型和块变换器，旨在在语言建模任务中提高性能和可扩展性。实验证明，该模型在语言建模困惑度上优于类似的基于Transformer的架构，并且可以推广到更长的序列。此外，在层级别上具有超过十倍的速度提升。 |
-| [^36] | [Explaining Legal Concepts with Augmented Large Language Models (GPT-4).](http://arxiv.org/abs/2306.09525) | 本文评估了利用GPT-4增强解释法律术语性能的方法。与基准设置相比，使用增强的法律信息检索模块可以提高法律术语解释的质量，并消除模型的幻觉问题，从而为在法律领域使用大型语言模型开辟了新的途径。 |
-| [^37] | [Relation-Aware Network with Attention-Based Loss for Few-Shot Knowledge Graph Completion.](http://arxiv.org/abs/2306.09519) | 本文提出了一种新颖的RANA框架，利用有策略地选择相关负样本和设计基于注意力机制的损失函数来更好地利用负样本并缓解零损失问题，同时设计了一种动态的关系感知实体编码来捕获不同关系下实体的不同表示。 |
-| [^38] | [Wikibio: a Semantic Resource for the Intersectional Analysis of Biographical Events.](http://arxiv.org/abs/2306.09505) | 本文提供了一个新的用于注释人物传记事件检测的语料库，并训练出了一个模型以检测实体及其相关事件。该模型能够高效地分析维基百科传记中有关女性和非西方人的偏见。 |
-| [^39] | [Explore, Establish, Exploit: Red Teaming Language Models from Scratch.](http://arxiv.org/abs/2306.09442) | 本文提出了一种新的红队行动，通过从高层次、抽象的规范出发来考虑语言模型的行为，以探究模型的创新和贡献。 |
-| [^40] | [ChatGPT for Suicide Risk Assessment on Social Media: Quantitative Evaluation of Model Performance, Potentials and Limitations.](http://arxiv.org/abs/2306.09390) | 本文量化评估了基于社交媒体的 ChatGPT 模型在自杀倾向评估方面的表现，比较了其结果与两个微调模型，并探讨了模型响应生成的最佳温度，研究结果显示，以人工标注数据集为基础微调的 Transformer 模型表现更佳，这篇论文为心理健康专家提供了重要的模型评估和参数优化建议。 |
-| [^41] | [MFAS: Emotion Recognition through Multiple Perspectives Fusion Architecture Search Emulating Human Cognition.](http://arxiv.org/abs/2306.09361) | 该论文提出了一种基于多角度融合结构搜索的情感识别框架，模拟人类的认知过程，能够从连续的角度捕捉更全面的情感信息。 |
-| [^42] | [h2oGPT: Democratizing Large Language Models.](http://arxiv.org/abs/2306.08161) | 本文介绍了h2oGPT，这是一套开源代码库，用于创建和使用基于GPTs的大语言模型（LLMs），包括100％私有文档搜索。目标是创建真正开源的替代封闭源GPTs，提高人工智能的开发和可靠性。 |
-| [^43] | [GEmo-CLAP: Gender-Attribute-Enhanced Contrastive Language-Audio Pretraining for Speech Emotion Recognition.](http://arxiv.org/abs/2306.07848) | 本文提出了GEmo-CLAP模型用于语音情感识别，结合了性别属性信息，相比于其他先进方法，该模型在IEMOCAP上实现了更优越的识别性能。 |
-| [^44] | [Large Language Models Sometimes Generate Purely Negatively-Reinforced Text.](http://arxiv.org/abs/2306.07567) | 大型语言模型有时会从仅包含负奖励的例子中学习，导致生成类似泄漏密码或安全漏洞等敏感信息的文本 |
-| [^45] | [Evaluating GPT-3 Generated Explanations for Hateful Content Moderation.](http://arxiv.org/abs/2305.17680) | 本文通过调查和分析，评估了使用GPT-3生成的针对仇恨内容的解释是否准确和有用。结果显示，GPT-3生成的解释普遍存在过于模糊、聚焦不当等缺点，同时也存在不同类型仇恨言论生成的解释质量差异大的问题。 |
-| [^46] | ["When Words Fail, Emojis Prevail": Generating Sarcastic Utterances with Emoji Using Valence Reversal and Semantic Incongruity.](http://arxiv.org/abs/2305.04105) | 本文提出了一种使用情感反转和语义不一致性从非讽刺性输入句子生成带有表情符号的讽刺性句子的架构，具有广泛的应用前景。 |
-| [^47] | [Similarity-Aware Multimodal Prompt Learning for Fake News Detection.](http://arxiv.org/abs/2304.04187) | 该论文提出了一种相似度感知的多模态提示学习框架，用于有效融合不同模态信息，实现假新闻检测。所设计的相似度感知融合模块可以量化地根据不同模态之间的相似性权衡每个模态的重要性，有效避免了多模态融合中可能存在的噪声干扰。在两个基准数据集上的实验结果也证明提出的框架实现了最先进的性能，超越了其他强大基线方法。 |
-| [^48] | [Deep Learning for Opinion Mining and Topic Classification of Course Reviews.](http://arxiv.org/abs/2304.03394) | 本文利用自然语言处理和深度学习技术，通过比较传统方法和现代机器学习方法，展示了如何处理大量课程评论，进行情感极性分析和主题分类。 |
-| [^49] | [Enhancing Activity Prediction Models in Drug Discovery with the Ability to Understand Human Language.](http://arxiv.org/abs/2303.03363) | 本文提出了一种新型活性预测模型，能够通过理解描述任务的文本信息来适应推理时的新预测任务，并在少样本学习基准和药物研发中的零数据问题上都能取得更好的预测性能。 |
-| [^50] | [TransFool: An Adversarial Attack against Neural Machine Translation Models.](http://arxiv.org/abs/2302.00944) | 本文研究神经机器翻译(NMT)的对抗攻击易感性，并提出了一种新的攻击算法 TransFool。通过集成语言模型的嵌入表征，我们生成了与原始样本有着高度语义相似性的准确对抗性样本。实验结果表明，在不同翻译任务和 NMT 架构之下，TransFool 可以转移到未知的目标模型，导致严重降低译文质量。 |
-| [^51] | [SLUE Phase-2: A Benchmark Suite of Diverse Spoken Language Understanding Tasks.](http://arxiv.org/abs/2212.10525) | 本文介绍了一种新的注释SLU基准评测任务套件，其中包括问答和摘要、命名实体本地化和对话行为分类任务。这些任务基于自由获取的语音数据设计，希望可以鼓励进一步研究和开发SLU技术，从而推动口语理解技术的发展。 |
-| [^52] | [Pix2Struct: Screenshot Parsing as Pretraining for Visual Language Understanding.](http://arxiv.org/abs/2210.03347) | 本文提出了一个名为Pix2Struct的预训练图像到文本模型，用于纯视觉语言理解，可以在包含视觉语境的任务上进行微调。Pix2Struct的预训练目标是学习将屏幕截图解析成简化的HTML，这个方法能够处理来源复杂、多样性大的数据。 |
-| [^53] | [Fact-Saboteurs: A Taxonomy of Evidence Manipulation Attacks against Fact-Verification Systems.](http://arxiv.org/abs/2209.03755) | 本研究提出了一种分类法，涵盖针对在线证据的伪装和虚假信息等两种攻击目标和不同的威胁模型维度。我们设计并提出了几种可能的攻击方法，展示了在多种情况下，可以对证据中与事实相关的部分进行微小的修改，并生成无法被自动识别的虚假信息。 |
-| [^54] | [Resolving the Human Subjects Status of Machine Learning's Crowdworkers.](http://arxiv.org/abs/2206.04039) | 机器学习在研究中使用的众包工作者问题引起了对其受试者身份的争议与监管合规性，本文针对该问题进行研究，重点关注了自然语言处理领域中的研究监管挑战。 |
-| [^55] | [Revisiting DocRED -- Addressing the False Negative Problem in Relation Extraction.](http://arxiv.org/abs/2205.12696) | 该论文主要针对文档层面上的关系抽取中存在假阴性的问题，在重新注释 DocRED 数据集中添加被忽略的关系三元组后，我们得到了一个性能提升约 13 F1 分数的新数据集 Re-DocRED，并发现了有效改进的潜在领域。 |
+| [^23] | [Reducing Computational Costs in Sentiment Analysis: Tensorized Recurrent Networks vs. Recurrent Networks.](http://arxiv.org/abs/2306.09705) | 张量循环网络是一种降低情感分析计算成本的潜在解决方案 |
+| [^24] | [Cross-corpus Readability Compatibility Assessment for English Texts.](http://arxiv.org/abs/2306.09704) | 本文提出了一个新的评估框架，Cross-corpus text Readability Compatibility Assessment (CRCA)，用于解决不同语料库之间的可读性兼容性的问题。研究结果表明该框架具有显著的兼容性，并适用于不同的特征表示和分类方法。 |
+| [^25] | [Class-Adaptive Self-Training for Relation Extraction with Incompletely Annotated Training Data.](http://arxiv.org/abs/2306.09697) | 本研究提出了一种新的基于类别自适应重新采样自训练框架，能够显著改善在少数类别中的总体召回率，而不会明显降低准确率，从而实现了关系提取的最先进性能。 |
+| [^26] | [Online Distillation for Pseudo-Relevance Feedback.](http://arxiv.org/abs/2306.09657) | 本文提出了一种伪相关反馈的在线蒸馏技术，通过在线逐步建立模型，预测查询与文档的相关得分，并在索引中高效执行，以优化整体检索效果。 |
+| [^27] | [ReactGenie: An Object-Oriented State Abstraction for Complex Multimodal Interactions Using Large Language Models.](http://arxiv.org/abs/2306.09649) | ReactGenie是一个支持构建复杂的多模态移动应用程序的编程框架，通过使用共享的面向对象状态抽象，使得不同模态可以无缝集成和组合，从而实现了多模态交互的支持。 |
+| [^28] | [Cross-Domain Toxic Spans Detection.](http://arxiv.org/abs/2306.09642) | 本研究评估了三种跨域条件下检测毒性片段的方法，结果表明使用现成的词典的简单方法在跨域设置中表现最佳，而用于领域内的语言模型容易出现某些类型的假阳性。 |
+| [^29] | [AUGUST: an Automatic Generation Understudy for Synthesizing Conversational Recommendation Datasets.](http://arxiv.org/abs/2306.09631) | 本文提出了一种新型自动数据集合成方法，利用传统推荐系统中的个性化用户画像和结构化图表中的丰富交互信息，通过数据到文本生成过程生成大规模和高质量的推荐对话。 |
+| [^30] | [Listener Model for the PhotoBook Referential Game with CLIPScores as Implicit Reference Chain.](http://arxiv.org/abs/2306.09607) | 本文介绍了使用CLIPScores作为隐式参考链的PhotoBook指称游戏的听者模型，该模型直接解决了决定图像是否与伙伴共享的预测任务，并在未见过的图像集/游戏主题上取得了>77%的准确率，优于基线>17个百分点。 |
+| [^31] | [Clickbait Detection via Large Language Models.](http://arxiv.org/abs/2306.09597) | 本文研究了大型语言模型在点击诱骗检测上的性能，结果表明LLM无法取得最佳结果且不能仅通过标题实现满意的检测。 |
+| [^32] | [CMLM-CSE: Based on Conditional MLM Contrastive Learning for Sentence Embeddings.](http://arxiv.org/abs/2306.09594) | 本论文提出了一种基于条件MLM的无监督对比学习框架CMLM-CSE，强制句子嵌入学习更多的掩码词信息，可以在文本相似度任务中超越SimCSE。 |
+| [^33] | [How do different tokenizers perform on downstream tasks in scriptio continua languages?: A case study in Japanese.](http://arxiv.org/abs/2306.09572) | 本文研究了在日语这种连续书写文字语言中，不同的分词器对预训练语言模型在下游任务中的影响，发现每个下游任务都有一个最佳的形态学分析器，并且无论任务类型如何，最好使用字节对编码或Unigram作为子词分词器。 |
+| [^34] | [Reproducibility in NLP: What Have We Learned from the Checklist?.](http://arxiv.org/abs/2306.09562) | 本论文讨论了NLP科学进展的可重复性，介绍了NLP可重复性清单的情况和通过对此清单10,405个匿名回答的分析发现某些项回答“是”的提交数量增加、随之接受率增加以及开源代码与可重复性得分提高之间的关系等。 |
+| [^35] | [Building blocks for complex tasks: Robust generative event extraction for radiology reports under domain shifts.](http://arxiv.org/abs/2306.09544) | 本文介绍了一个在放射学报告中提取信息的鲁棒性生成式模型，具有良好的泛化性。通过将复杂任务分解为更小的子任务块，与多任务训练相结合，可以提高单遍模型的性能，并通过利用目标域上下文来增强领域适应性，实现使用更小的模型。 |
+| [^36] | [Block-State Transformer.](http://arxiv.org/abs/2306.09539) | 本文提出了一种名为块状态变换器（BST）的混合神经网络层，结合了状态空间模型和块变换器，旨在在语言建模任务中提高性能和可扩展性。实验证明，该模型在语言建模困惑度上优于类似的基于Transformer的架构，并且可以推广到更长的序列。此外，在层级别上具有超过十倍的速度提升。 |
+| [^37] | [Explaining Legal Concepts with Augmented Large Language Models (GPT-4).](http://arxiv.org/abs/2306.09525) | 本文评估了利用GPT-4增强解释法律术语性能的方法。与基准设置相比，使用增强的法律信息检索模块可以提高法律术语解释的质量，并消除模型的幻觉问题，从而为在法律领域使用大型语言模型开辟了新的途径。 |
+| [^38] | [Relation-Aware Network with Attention-Based Loss for Few-Shot Knowledge Graph Completion.](http://arxiv.org/abs/2306.09519) | 本文提出了一种新颖的RANA框架，利用有策略地选择相关负样本和设计基于注意力机制的损失函数来更好地利用负样本并缓解零损失问题，同时设计了一种动态的关系感知实体编码来捕获不同关系下实体的不同表示。 |
+| [^39] | [Wikibio: a Semantic Resource for the Intersectional Analysis of Biographical Events.](http://arxiv.org/abs/2306.09505) | 本文提供了一个新的用于注释人物传记事件检测的语料库，并训练出了一个模型以检测实体及其相关事件。该模型能够高效地分析维基百科传记中有关女性和非西方人的偏见。 |
+| [^40] | [Inverse Scaling: When Bigger Isn't Better.](http://arxiv.org/abs/2306.09479) | 本文研究发现，相对于规模的增加，大型语言模型的任务性能可能出现逆向缩放现象。这一逆向缩放的原因可能有四种：记忆重现、学习样本错误、任务易于干扰、和任务示范的误导。 |
+| [^41] | [Explore, Establish, Exploit: Red Teaming Language Models from Scratch.](http://arxiv.org/abs/2306.09442) | 本文提出了一种新的红队行动，通过从高层次、抽象的规范出发来考虑语言模型的行为，以探究模型的创新和贡献。 |
+| [^42] | [ChatGPT for Suicide Risk Assessment on Social Media: Quantitative Evaluation of Model Performance, Potentials and Limitations.](http://arxiv.org/abs/2306.09390) | 本文量化评估了基于社交媒体的 ChatGPT 模型在自杀倾向评估方面的表现，比较了其结果与两个微调模型，并探讨了模型响应生成的最佳温度，研究结果显示，以人工标注数据集为基础微调的 Transformer 模型表现更佳，这篇论文为心理健康专家提供了重要的模型评估和参数优化建议。 |
+| [^43] | [MFAS: Emotion Recognition through Multiple Perspectives Fusion Architecture Search Emulating Human Cognition.](http://arxiv.org/abs/2306.09361) | 该论文提出了一种基于多角度融合结构搜索的情感识别框架，模拟人类的认知过程，能够从连续的角度捕捉更全面的情感信息。 |
+| [^44] | [h2oGPT: Democratizing Large Language Models.](http://arxiv.org/abs/2306.08161) | 本文介绍了h2oGPT，这是一套开源代码库，用于创建和使用基于GPTs的大语言模型（LLMs），包括100％私有文档搜索。目标是创建真正开源的替代封闭源GPTs，提高人工智能的开发和可靠性。 |
+| [^45] | [GEmo-CLAP: Gender-Attribute-Enhanced Contrastive Language-Audio Pretraining for Speech Emotion Recognition.](http://arxiv.org/abs/2306.07848) | 本文提出了GEmo-CLAP模型用于语音情感识别，结合了性别属性信息，相比于其他先进方法，该模型在IEMOCAP上实现了更优越的识别性能。 |
+| [^46] | [Large Language Models Sometimes Generate Purely Negatively-Reinforced Text.](http://arxiv.org/abs/2306.07567) | 大型语言模型有时会从仅包含负奖励的例子中学习，导致生成类似泄漏密码或安全漏洞等敏感信息的文本 |
+| [^47] | [Evaluating GPT-3 Generated Explanations for Hateful Content Moderation.](http://arxiv.org/abs/2305.17680) | 本文通过调查和分析，评估了使用GPT-3生成的针对仇恨内容的解释是否准确和有用。结果显示，GPT-3生成的解释普遍存在过于模糊、聚焦不当等缺点，同时也存在不同类型仇恨言论生成的解释质量差异大的问题。 |
+| [^48] | ["When Words Fail, Emojis Prevail": Generating Sarcastic Utterances with Emoji Using Valence Reversal and Semantic Incongruity.](http://arxiv.org/abs/2305.04105) | 本文提出了一种使用情感反转和语义不一致性从非讽刺性输入句子生成带有表情符号的讽刺性句子的架构，具有广泛的应用前景。 |
+| [^49] | [Similarity-Aware Multimodal Prompt Learning for Fake News Detection.](http://arxiv.org/abs/2304.04187) | 该论文提出了一种相似度感知的多模态提示学习框架，用于有效融合不同模态信息，实现假新闻检测。所设计的相似度感知融合模块可以量化地根据不同模态之间的相似性权衡每个模态的重要性，有效避免了多模态融合中可能存在的噪声干扰。在两个基准数据集上的实验结果也证明提出的框架实现了最先进的性能，超越了其他强大基线方法。 |
+| [^50] | [Deep Learning for Opinion Mining and Topic Classification of Course Reviews.](http://arxiv.org/abs/2304.03394) | 本文利用自然语言处理和深度学习技术，通过比较传统方法和现代机器学习方法，展示了如何处理大量课程评论，进行情感极性分析和主题分类。 |
+| [^51] | [Enhancing Activity Prediction Models in Drug Discovery with the Ability to Understand Human Language.](http://arxiv.org/abs/2303.03363) | 本文提出了一种新型活性预测模型，能够通过理解描述任务的文本信息来适应推理时的新预测任务，并在少样本学习基准和药物研发中的零数据问题上都能取得更好的预测性能。 |
+| [^52] | [TransFool: An Adversarial Attack against Neural Machine Translation Models.](http://arxiv.org/abs/2302.00944) | 本文研究神经机器翻译(NMT)的对抗攻击易感性，并提出了一种新的攻击算法 TransFool。通过集成语言模型的嵌入表征，我们生成了与原始样本有着高度语义相似性的准确对抗性样本。实验结果表明，在不同翻译任务和 NMT 架构之下，TransFool 可以转移到未知的目标模型，导致严重降低译文质量。 |
+| [^53] | [SLUE Phase-2: A Benchmark Suite of Diverse Spoken Language Understanding Tasks.](http://arxiv.org/abs/2212.10525) | 本文介绍了一种新的注释SLU基准评测任务套件，其中包括问答和摘要、命名实体本地化和对话行为分类任务。这些任务基于自由获取的语音数据设计，希望可以鼓励进一步研究和开发SLU技术，从而推动口语理解技术的发展。 |
+| [^54] | [Pix2Struct: Screenshot Parsing as Pretraining for Visual Language Understanding.](http://arxiv.org/abs/2210.03347) | 本文提出了一个名为Pix2Struct的预训练图像到文本模型，用于纯视觉语言理解，可以在包含视觉语境的任务上进行微调。Pix2Struct的预训练目标是学习将屏幕截图解析成简化的HTML，这个方法能够处理来源复杂、多样性大的数据。 |
+| [^55] | [Fact-Saboteurs: A Taxonomy of Evidence Manipulation Attacks against Fact-Verification Systems.](http://arxiv.org/abs/2209.03755) | 本研究提出了一种分类法，涵盖针对在线证据的伪装和虚假信息等两种攻击目标和不同的威胁模型维度。我们设计并提出了几种可能的攻击方法，展示了在多种情况下，可以对证据中与事实相关的部分进行微小的修改，并生成无法被自动识别的虚假信息。 |
+| [^56] | [Resolving the Human Subjects Status of Machine Learning's Crowdworkers.](http://arxiv.org/abs/2206.04039) | 机器学习在研究中使用的众包工作者问题引起了对其受试者身份的争议与监管合规性，本文针对该问题进行研究，重点关注了自然语言处理领域中的研究监管挑战。 |
+| [^57] | [Revisiting DocRED -- Addressing the False Negative Problem in Relation Extraction.](http://arxiv.org/abs/2205.12696) | 该论文主要针对文档层面上的关系抽取中存在假阴性的问题，在重新注释 DocRED 数据集中添加被忽略的关系三元组后，我们得到了一个性能提升约 13 F1 分数的新数据集 Re-DocRED，并发现了有效改进的潜在领域。 |
 
 # 详细
 
@@ -368,7 +370,21 @@
 
     In reinforcement learning (RL), there are two major settings for interacting with the environment: online and offline. Online methods explore the environment at significant time cost, and offline methods efficiently obtain reward signals by sacrificing exploration capability. We propose semi-offline RL, a novel paradigm that smoothly transits from offline to online settings, balances exploration capability and training cost, and provides a theoretical foundation for comparing different RL settings. Based on the semi-offline formulation, we present the RL setting that is optimal in terms of optimization cost, asymptotic error, and overfitting error bound. Extensive experiments show that our semi-offline approach is efficient and yields comparable or often better performance compared with state-of-the-art methods.
     
-[^23]: 跨语料阅读性兼容性评估：英文文本
+[^23]: 降低情感分析中的计算成本：张量循环网络与循环网络的比较
+
+    Reducing Computational Costs in Sentiment Analysis: Tensorized Recurrent Networks vs. Recurrent Networks. (arXiv:2306.09705v1 [cs.LG])
+
+    [http://arxiv.org/abs/2306.09705](http://arxiv.org/abs/2306.09705)
+
+    张量循环网络是一种降低情感分析计算成本的潜在解决方案
+
+    
+
+    预测观众对某一文本的反应对于政治、研究和商业行业等多个方面至关重要。情感分析（SA）是一种有用的自然语言处理（NLP）技术，利用词汇/统计和深度学习方法来确定不同大小的文本是否表现出积极、消极或中性的情感。循环网络在机器学习社区中广泛用于处理序列数据问题。然而，基于长短期记忆网络和门控循环单元的模型的一个缺点是参数数量显著高，因此这些模型的计算成本很高。当可用数据有限时，这种缺点甚至更为显著。此外，这些模型需要显着的过度参数化和正则化才能达到最佳性能。张量化模型代表了一个潜在的解决方案。本文将对一些社交媒体帖子进行情感分类。
+
+    Anticipating audience reaction towards a certain text is integral to several facets of society ranging from politics, research, and commercial industries. Sentiment analysis (SA) is a useful natural language processing (NLP) technique that utilizes lexical/statistical and deep learning methods to determine whether different-sized texts exhibit positive, negative, or neutral emotions. Recurrent networks are widely used in machine-learning communities for problems with sequential data. However, a drawback of models based on Long-Short Term Memory networks and Gated Recurrent Units is the significantly high number of parameters, and thus, such models are computationally expensive. This drawback is even more significant when the available data are limited. Also, such models require significant over-parameterization and regularization to achieve optimal performance. Tensorized models represent a potential solution. In this paper, we classify the sentiment of some social media posts. We comp
+    
+[^24]: 跨语料阅读性兼容性评估：英文文本
 
     Cross-corpus Readability Compatibility Assessment for English Texts. (arXiv:2306.09704v1 [cs.CL])
 
@@ -382,7 +398,7 @@
 
     Text readability assessment has gained significant attention from researchers in various domains. However, the lack of exploration into corpus compatibility poses a challenge as different research groups utilize different corpora. In this study, we propose a novel evaluation framework, Cross-corpus text Readability Compatibility Assessment (CRCA), to address this issue. The framework encompasses three key components: (1) Corpus: CEFR, CLEC, CLOTH, NES, OSP, and RACE. Linguistic features, GloVe word vector representations, and their fusion features were extracted. (2) Classification models: Machine learning methods (XGBoost, SVM) and deep learning methods (BiLSTM, Attention-BiLSTM) were employed. (3) Compatibility metrics: RJSD, RRNSS, and NDCG metrics. Our findings revealed: (1) Validated corpus compatibility, with OSP standing out as significantly different from other datasets. (2) An adaptation effect among corpora, feature representations, and classification methods. (3) Consistent 
     
-[^24]: 基于类适应的自训练模型用于不完全标注的关系提取
+[^25]: 基于类适应的自训练模型用于不完全标注的关系提取
 
     Class-Adaptive Self-Training for Relation Extraction with Incompletely Annotated Training Data. (arXiv:2306.09697v1 [cs.CL])
 
@@ -396,7 +412,7 @@
 
     Relation extraction (RE) aims to extract relations from sentences and documents. Existing relation extraction models typically rely on supervised machine learning. However, recent studies showed that many RE datasets are incompletely annotated. This is known as the false negative problem in which valid relations are falsely annotated as 'no_relation'. Models trained with such data inevitably make similar mistakes during the inference stage. Self-training has been proven effective in alleviating the false negative problem. However, traditional self-training is vulnerable to confirmation bias and exhibits poor performance in minority classes. To overcome this limitation, we proposed a novel class-adaptive re-sampling self-training framework. Specifically, we re-sampled the pseudo-labels for each class by precision and recall scores. Our re-sampling strategy favored the pseudo-labels of classes with high precision and low recall, which improved the overall recall without significantly com
     
-[^25]: Online Distillation for Pseudo-Relevance Feedback（伪相关反馈的在线蒸馏技术）
+[^26]: Online Distillation for Pseudo-Relevance Feedback（伪相关反馈的在线蒸馏技术）
 
     Online Distillation for Pseudo-Relevance Feedback. (arXiv:2306.09657v1 [cs.IR])
 
@@ -410,7 +426,7 @@
 
     Model distillation has emerged as a prominent technique to improve neural search models. To date, distillation taken an offline approach, wherein a new neural model is trained to predict relevance scores between arbitrary queries and documents. In this paper, we explore a departure from this offline distillation strategy by investigating whether a model for a specific query can be effectively distilled from neural re-ranking results (i.e., distilling in an online setting). Indeed, we find that a lexical model distilled online can reasonably replicate the re-ranking of a neural model. More importantly, these models can be used as queries that execute efficiently on indexes. This second retrieval stage can enrich the pool of documents for re-ranking by identifying documents that were missed in the first retrieval stage. Empirically, we show that this approach performs favourably when compared with established pseudo relevance feedback techniques, dense retrieval methods, and sparse-dense
     
-[^26]: ReactGenie：使用大型语言模型的面向对象状态抽象来支持复杂的多模态交互
+[^27]: ReactGenie：使用大型语言模型的面向对象状态抽象来支持复杂的多模态交互
 
     ReactGenie: An Object-Oriented State Abstraction for Complex Multimodal Interactions Using Large Language Models. (arXiv:2306.09649v1 [cs.HC])
 
@@ -424,7 +440,7 @@
 
     Multimodal interactions have been shown to be more flexible, efficient, and adaptable for diverse users and tasks than traditional graphical interfaces. However, existing multimodal development frameworks either do not handle the complexity and compositionality of multimodal commands well or require developers to write a substantial amount of code to support these multimodal interactions. In this paper, we present ReactGenie, a programming framework that uses a shared object-oriented state abstraction to support building complex multimodal mobile applications. Having different modalities share the same state abstraction allows developers using ReactGenie to seamlessly integrate and compose these modalities to deliver multimodal interaction.  ReactGenie is a natural extension to the existing workflow of building a graphical app, like the workflow with React-Redux. Developers only have to add a few annotations and examples to indicate how natural language is mapped to the user-accessible
     
-[^27]: 跨域毒性片段检测
+[^28]: 跨域毒性片段检测
 
     Cross-Domain Toxic Spans Detection. (arXiv:2306.09642v1 [cs.CL])
 
@@ -438,7 +454,7 @@
 
     Given the dynamic nature of toxic language use, automated methods for detecting toxic spans are likely to encounter distributional shift. To explore this phenomenon, we evaluate three approaches for detecting toxic spans under cross-domain conditions: lexicon-based, rationale extraction, and fine-tuned language models. Our findings indicate that a simple method using off-the-shelf lexicons performs best in the cross-domain setup. The cross-domain error analysis suggests that (1) rationale extraction methods are prone to false negatives, while (2) language models, despite performing best for the in-domain case, recall fewer explicitly toxic words than lexicons and are prone to certain types of false positives. Our code is publicly available at: https://github.com/sfschouten/toxic-cross-domain.
     
-[^28]: AUGUST：用于合成对话式推荐数据集的自动生成工具
+[^29]: AUGUST：用于合成对话式推荐数据集的自动生成工具
 
     AUGUST: an Automatic Generation Understudy for Synthesizing Conversational Recommendation Datasets. (arXiv:2306.09631v1 [cs.CL])
 
@@ -452,7 +468,7 @@
 
     High-quality data is essential for conversational recommendation systems and serves as the cornerstone of the network architecture development and training strategy design. Existing works contribute heavy human efforts to manually labeling or designing and extending recommender dialogue templates. However, they suffer from (i) the limited number of human annotators results in that datasets can hardly capture rich and large-scale cases in the real world, (ii) the limited experience and knowledge of annotators account for the uninformative corpus and inappropriate recommendations. In this paper, we propose a novel automatic dataset synthesis approach that can generate both large-scale and high-quality recommendation dialogues through a data2text generation process, where unstructured recommendation conversations are generated from structured graphs based on user-item information from the real world. In doing so, we comprehensively exploit: (i) rich personalized user profiles from traditi
     
-[^29]: 使用CLIPScores作为隐式参考链的PhotoBook指称游戏的听者模型
+[^30]: 使用CLIPScores作为隐式参考链的PhotoBook指称游戏的听者模型
 
     Listener Model for the PhotoBook Referential Game with CLIPScores as Implicit Reference Chain. (arXiv:2306.09607v1 [cs.CL])
 
@@ -466,7 +482,7 @@
 
     PhotoBook is a collaborative dialogue game where two players receive private, partially-overlapping sets of images and resolve which images they have in common. It presents machines with a great challenge to learn how people build common ground around multimodal context to communicate effectively. Methods developed in the literature, however, cannot be deployed to real gameplay since they only tackle some subtasks of the game, and they require additional reference chains inputs, whose extraction process is imperfect. Therefore, we propose a reference chain-free listener model that directly addresses the game's predictive task, i.e., deciding whether an image is shared with partner. Our DeBERTa-based listener model reads the full dialogue, and utilizes CLIPScore features to assess utterance-image relevance. We achieve >77% accuracy on unseen sets of images/game themes, outperforming baseline by >17 points.
     
-[^30]: 基于大型语言模型的点击诱骗检测
+[^31]: 基于大型语言模型的点击诱骗检测
 
     Clickbait Detection via Large Language Models. (arXiv:2306.09597v1 [cs.CL])
 
@@ -480,7 +496,7 @@
 
     Clickbait, which aims to induce users with some surprising and even thrilling headlines for increasing click-through rates, permeates almost all online content publishers, such as news portals and social media. Recently, Large Language Models (LLMs) have emerged as a powerful instrument and achieved tremendous success in a serious of NLP downstream tasks. However, it is not yet known whether LLMs can be served as a high-quality clickbait detection system. In this paper, we analyze the performance of LLMs in the few-shot scenarios on a number of English and Chinese benchmark datasets. Experimental results show that LLMs cannot achieve the best results compared to the state-of-the-art deep and fine-tuning PLMs methods. Different from the human intuition, the experiments demonstrated that LLMs cannot make satisfied clickbait detection just by the headlines.
     
-[^31]: 基于条件MLM对比学习的句子嵌入技术CMLM-CSE
+[^32]: 基于条件MLM对比学习的句子嵌入技术CMLM-CSE
 
     CMLM-CSE: Based on Conditional MLM Contrastive Learning for Sentence Embeddings. (arXiv:2306.09594v1 [cs.CL])
 
@@ -494,7 +510,7 @@
 
     Traditional comparative learning sentence embedding directly uses the encoder to extract sentence features, and then passes in the comparative loss function for learning. However, this method pays too much attention to the sentence body and ignores the influence of some words in the sentence on the sentence semantics. To this end, we propose CMLM-CSE, an unsupervised contrastive learning framework based on conditional MLM. On the basis of traditional contrastive learning, an additional auxiliary network is added to integrate sentence embedding to perform MLM tasks, forcing sentence embedding to learn more masked word information. Finally, when Bertbase was used as the pretraining language model, we exceeded SimCSE by 0.55 percentage points on average in textual similarity tasks, and when Robertabase was used as the pretraining language model, we exceeded SimCSE by 0.3 percentage points on average in textual similarity tasks.
     
-[^32]: 不同的分词器在连续书写文字中的下游任务中的表现如何？以日语为例研究。
+[^33]: 不同的分词器在连续书写文字中的下游任务中的表现如何？以日语为例研究。
 
     How do different tokenizers perform on downstream tasks in scriptio continua languages?: A case study in Japanese. (arXiv:2306.09572v1 [cs.CL])
 
@@ -508,7 +524,7 @@
 
     This paper investigates the effect of tokenizers on the downstream performance of pretrained language models (PLMs) in scriptio continua languages where no explicit spaces exist between words, using Japanese as a case study. The tokenizer for such languages often consists of a morphological analyzer and a subword tokenizer, requiring us to conduct a comprehensive study of all possible pairs. However, previous studies lack this comprehensiveness. We therefore train extensive sets of tokenizers, build a PLM using each, and measure the downstream performance on a wide range of tasks. Our results demonstrate that each downstream task has a different optimal morphological analyzer, and that it is better to use Byte-Pair-Encoding or Unigram rather than WordPiece as a subword tokenizer, regardless of the type of task.
     
-[^33]: 自然语言处理中的可重复性：从清单中学到了什么？
+[^34]: 自然语言处理中的可重复性：从清单中学到了什么？
 
     Reproducibility in NLP: What Have We Learned from the Checklist?. (arXiv:2306.09562v1 [cs.CL])
 
@@ -522,7 +538,7 @@
 
     Scientific progress in NLP rests on the reproducibility of researchers' claims. The *CL conferences created the NLP Reproducibility Checklist in 2020 to be completed by authors at submission to remind them of key information to include. We provide the first analysis of the Checklist by examining 10,405 anonymous responses to it. First, we find evidence of an increase in reporting of information on efficiency, validation performance, summary statistics, and hyperparameters after the Checklist's introduction. Further, we show acceptance rate grows for submissions with more Yes responses. We find that the 44% of submissions that gather new data are 5% less likely to be accepted than those that did not; the average reviewer-rated reproducibility of these submissions is also 2% lower relative to the rest. We find that only 46% of submissions claim to open-source their code, though submissions that do have 8% higher reproducibility score relative to those that do not, the most for any item. 
     
-[^34]: 复杂任务的构建模块：领域转移下的放射学报告的生成性事件提取的鲁棒性研究。
+[^35]: 复杂任务的构建模块：领域转移下的放射学报告的生成性事件提取的鲁棒性研究。
 
     Building blocks for complex tasks: Robust generative event extraction for radiology reports under domain shifts. (arXiv:2306.09544v1 [cs.CL])
 
@@ -536,7 +552,7 @@
 
     This paper explores methods for extracting information from radiology reports that generalize across exam modalities to reduce requirements for annotated data. We demonstrate that multi-pass T5-based text-to-text generative models exhibit better generalization across exam modalities compared to approaches that employ BERT-based task-specific classification layers. We then develop methods that reduce the inference cost of the model, making large-scale corpus processing more feasible for clinical applications. Specifically, we introduce a generative technique that decomposes complex tasks into smaller subtask blocks, which improves a single-pass model when combined with multitask training. In addition, we leverage target-domain contexts during inference to enhance domain adaptation, enabling use of smaller models. Analyses offer insights into the benefits of different cost reduction strategies.
     
-[^35]: 块状态变换器
+[^36]: 块状态变换器
 
     Block-State Transformer. (arXiv:2306.09539v1 [cs.CL])
 
@@ -550,7 +566,7 @@
 
     State space models (SSMs) have shown impressive results on tasks that require modeling long-range dependencies and efficiently scale to long sequences owing to their subquadratic runtime complexity. Originally designed for continuous signals, SSMs have shown superior performance on a plethora of tasks, in vision and audio; however, SSMs still lag Transformer performance in Language Modeling tasks. In this work, we propose a hybrid layer named Block-State Transformer (BST), that internally combines an SSM sublayer for long-range contextualization, and a Block Transformer sublayer for short-term representation of sequences. We study three different, and completely parallelizable, variants that integrate SSMs and block-wise attention. We show that our model outperforms similar Transformer-based architectures on language modeling perplexity and generalizes to longer sequences. In addition, the Block-State Transformer demonstrates more than tenfold increase in speed at the layer level compa
     
-[^36]: 利用增强型大型语言模型（GPT-4）解释法律概念
+[^37]: 利用增强型大型语言模型（GPT-4）解释法律概念
 
     Explaining Legal Concepts with Augmented Large Language Models (GPT-4). (arXiv:2306.09525v1 [cs.CL])
 
@@ -564,7 +580,7 @@
 
     Interpreting the meaning of legal open-textured terms is a key task of legal professionals. An important source for this interpretation is how the term was applied in previous court cases. In this paper, we evaluate the performance of GPT-4 in generating factually accurate, clear and relevant explanations of terms in legislation. We compare the performance of a baseline setup, where GPT-4 is directly asked to explain a legal term, to an augmented approach, where a legal information retrieval module is used to provide relevant context to the model, in the form of sentences from case law. We found that the direct application of GPT-4 yields explanations that appear to be of very high quality on their surface. However, detailed analysis uncovered limitations in terms of the factual accuracy of the explanations. Further, we found that the augmentation leads to improved quality, and appears to eliminate the issue of hallucination, where models invent incorrect statements. These findings ope
     
-[^37]: 关系感知网络基于注意力损失的小样本知识图谱补全
+[^38]: 关系感知网络基于注意力损失的小样本知识图谱补全
 
     Relation-Aware Network with Attention-Based Loss for Few-Shot Knowledge Graph Completion. (arXiv:2306.09519v1 [cs.CL])
 
@@ -578,7 +594,7 @@
 
     Few-shot knowledge graph completion (FKGC) task aims to predict unseen facts of a relation with few-shot reference entity pairs. Current approaches randomly select one negative sample for each reference entity pair to minimize a margin-based ranking loss, which easily leads to a zero-loss problem if the negative sample is far away from the positive sample and then out of the margin. Moreover, the entity should have a different representation under a different context. To tackle these issues, we propose a novel Relation-Aware Network with Attention-Based Loss (RANA) framework. Specifically, to better utilize the plentiful negative samples and alleviate the zero-loss issue, we strategically select relevant negative samples and design an attention-based loss function to further differentiate the importance of each negative sample. The intuition is that negative samples more similar to positive samples will contribute more to the model. Further, we design a dynamic relation-aware entity en
     
-[^38]: Wikibio: 用于人物传记事件交叉分析的语义资源
+[^39]: Wikibio: 用于人物传记事件交叉分析的语义资源
 
     Wikibio: a Semantic Resource for the Intersectional Analysis of Biographical Events. (arXiv:2306.09505v1 [cs.CL])
 
@@ -592,7 +608,21 @@
 
     Biographical event detection is a relevant task for the exploration and comparison of the ways in which people's lives are told and represented. In this sense, it may support several applications in digital humanities and in works aimed at exploring bias about minoritized groups. Despite that, there are no corpora and models specifically designed for this task. In this paper we fill this gap by presenting a new corpus annotated for biographical event detection. The corpus, which includes 20 Wikipedia biographies, was compared with five existing corpora to train a model for the biographical event detection task. The model was able to detect all mentions of the target-entity in a biography with an F-score of 0.808 and the entity-related events with an F-score of 0.859. Finally, the model was used for performing an analysis of biases about women and non-Western people in Wikipedia biographies.
     
-[^39]: 从零开始实现红队对抗语言模型的探索与建立
+[^40]: 逆向缩放：变得更大并不意味着更好
+
+    Inverse Scaling: When Bigger Isn't Better. (arXiv:2306.09479v1 [cs.CL])
+
+    [http://arxiv.org/abs/2306.09479](http://arxiv.org/abs/2306.09479)
+
+    本文研究发现，相对于规模的增加，大型语言模型的任务性能可能出现逆向缩放现象。这一逆向缩放的原因可能有四种：记忆重现、学习样本错误、任务易于干扰、和任务示范的误导。
+
+    
+
+    近期研究表明，随着模型规模、训练数据、计算量的增加，大型语言模型（LMs）的损失比例有可预测的改进。然而，本研究提供了证据表明，LMs也可能显示逆向缩放，即随着规模的增加任务性能越来越差，这可能是由于训练目标和数据的缺陷所致。本文通过公开比赛，Inverse Scaling Prize，在11个数据集上进行实证研究，证明了逆向缩放现象。通过分析数据集及其他实例，我们认为逆向缩放的原因可能有四种：（i）倾向于重复记忆的序列而非跟随上下文指示，（ii）在训练数据中模仿不良模式，（iii）任务中有一个易于干扰LMs的任务，将其注意力转移到较简单的任务，而非较难的任务，（iv）任务的正确示范误导LMs。作者还公布了比赛的获胜数据。
+
+    Work on scaling laws has found that large language models (LMs) show predictable improvements to overall loss with increased scale (model size, training data, and compute). Here, we present evidence for the claim that LMs may show inverse scaling, or worse task performance with increased scale, e.g., due to flaws in the training objective and data. We present empirical evidence of inverse scaling on 11 datasets collected by running a public contest, the Inverse Scaling Prize, with a substantial prize pool. Through analysis of the datasets, along with other examples found in the literature, we identify four potential causes of inverse scaling: (i) preference to repeat memorized sequences over following in-context instructions, (ii) imitation of undesirable patterns in the training data, (iii) tasks containing an easy distractor task which LMs could focus on, rather than the harder real task, and (iv) correct but misleading few-shot demonstrations of the task. We release the winning data
+    
+[^41]: 从零开始实现红队对抗语言模型的探索与建立
 
     Explore, Establish, Exploit: Red Teaming Language Models from Scratch. (arXiv:2306.09442v1 [cs.CL])
 
@@ -606,7 +636,7 @@
 
     Deploying Large language models (LLMs) can pose hazards from harmful outputs such as toxic or dishonest speech. Prior work has introduced tools that elicit harmful outputs in order to identify and mitigate these risks. While this is a valuable step toward securing language models, these approaches typically rely on a pre-existing classifier for undesired outputs. This limits their application to situations where the type of harmful behavior is known with precision beforehand. However, this skips a central challenge of red teaming: developing a contextual understanding of the behaviors that a model can exhibit. Furthermore, when such a classifier already exists, red teaming has limited marginal value because the classifier could simply be used to filter training data or model outputs. In this work, we consider red teaming under the assumption that the adversary is working from a high-level, abstract specification of undesired behavior. The red team is expected to refine/extend this spec
     
-[^40]: 基于社交媒体的 ChatGPT 自杀风险评估：模型性能、潜力和限制的量化评估
+[^42]: 基于社交媒体的 ChatGPT 自杀风险评估：模型性能、潜力和限制的量化评估
 
     ChatGPT for Suicide Risk Assessment on Social Media: Quantitative Evaluation of Model Performance, Potentials and Limitations. (arXiv:2306.09390v1 [cs.CL])
 
@@ -620,7 +650,7 @@
 
     This paper presents a novel framework for quantitatively evaluating the interactive ChatGPT model in the context of suicidality assessment from social media posts, utilizing the University of Maryland Reddit suicidality dataset. We conduct a technical evaluation of ChatGPT's performance on this task using Zero-Shot and Few-Shot experiments and compare its results with those of two fine-tuned transformer-based models. Additionally, we investigate the impact of different temperature parameters on ChatGPT's response generation and discuss the optimal temperature based on the inconclusiveness rate of ChatGPT. Our results indicate that while ChatGPT attains considerable accuracy in this task, transformer-based models fine-tuned on human-annotated datasets exhibit superior performance. Moreover, our analysis sheds light on how adjusting the ChatGPT's hyperparameters can improve its ability to assist mental health professionals in this critical task.
     
-[^41]: MFAS: 基于多角度融合结构搜索的情感识别，模拟人类认知
+[^43]: MFAS: 基于多角度融合结构搜索的情感识别，模拟人类认知
 
     MFAS: Emotion Recognition through Multiple Perspectives Fusion Architecture Search Emulating Human Cognition. (arXiv:2306.09361v1 [eess.AS])
 
@@ -634,7 +664,7 @@
 
     Speech emotion recognition aims to identify and analyze emotional states in target speech similar to humans. Perfect emotion recognition can greatly benefit a wide range of human-machine interaction tasks. Inspired by the human process of understanding emotions, we demonstrate that compared to quantized modeling, understanding speech content from a continuous perspective, akin to human-like comprehension, enables the model to capture more comprehensive emotional information. Additionally, considering that humans adjust their perception of emotional words in textual semantic based on certain cues present in speech, we design a novel search space and search for the optimal fusion strategy for the two types of information. Experimental results further validate the significance of this perception adjustment. Building on these observations, we propose a novel framework called Multiple perspectives Fusion Architecture Search (MFAS). Specifically, we utilize continuous-based knowledge to capt
     
-[^42]: h2oGPT：民主化大语言模型
+[^44]: h2oGPT：民主化大语言模型
 
     h2oGPT: Democratizing Large Language Models. (arXiv:2306.08161v1 [cs.CL])
 
@@ -648,7 +678,7 @@
 
     Foundation Large Language Models (LLMs) such as GPT-4 represent a revolution in AI due to their real-world applications though natural language processing. However, they also pose many significant risks such as the presence of biased, private, or harmful text, and the unauthorized inclusion of copyrighted material.  We introduce h2oGPT, a suite of open-source code repositories for the creation and use of Large Language Models (LLMs) based on Generative Pretrained Transformers (GPTs). The goal of this project is to create the world's best truly open-source alternative to closed-source GPTs. In collaboration with and as part of the incredible and unstoppable open-source community, we open-source several fine-tuned h2oGPT models from 7 to 40 Billion parameters, ready for commercial use under fully permissive Apache 2.0 licenses. Included in our release is 100% private document search using natural language.  Open-source language models help boost AI development and make it more accessible
     
-[^43]: GEmo-CLAP: 面向语音情感识别的性别属性增强对比语音-语言预训练模型
+[^45]: GEmo-CLAP: 面向语音情感识别的性别属性增强对比语音-语言预训练模型
 
     GEmo-CLAP: Gender-Attribute-Enhanced Contrastive Language-Audio Pretraining for Speech Emotion Recognition. (arXiv:2306.07848v1 [cs.CL])
 
@@ -662,7 +692,7 @@
 
     Contrastive Language-Audio Pretraining (CLAP) has recently exhibited impressive success in diverse fields. In this paper, we propose GEmo-CLAP, a kind of efficient gender-attribute-enhanced CLAP model for speech emotion recognition (SER). Specifically, we first build an effective emotion CLAP model termed Emo-CLAP for SER, utilizing various self-supervised learning based pre-trained models. Then, considering the importance of the gender attribute in speech emotion modeling, two GEmo-CLAP approaches are further proposed to integrate the emotion and gender information of speech signals, forming more reasonable objectives. Extensive experiments conducted on the IEMOCAP corpus demonstrate that our proposed two GEmo-CLAP approaches consistently outperform the baseline Emo-CLAP with different pre-trained models, while also achieving superior recognition performance compared with other state-of-the-art methods.
     
-[^44]: 大型语言模型有时生成纯负反馈文本
+[^46]: 大型语言模型有时生成纯负反馈文本
 
     Large Language Models Sometimes Generate Purely Negatively-Reinforced Text. (arXiv:2306.07567v1 [cs.LG])
 
@@ -676,7 +706,7 @@
 
     When using adversarial training, it is common practice to train against the most egregious failures. However, this might imply using examples with sensitive information (such as leaked passwords or security vulnerabilities) as training data. One might assume that language models trained with gradient descent never generate text snippets which were only present in examples associated with the lowest possible reward. In this paper, we show that this assumption is wrong: in some situations, large language models do learn from such negatively-reinforced examples. We present a specific training setup that enables Pythia-160M to generate passwords with a probability slightly greater than chance, despite only showing it these passwords on examples where the model is incentivized to not output these passwords. Our code is available at https://github.com/FabienRoger/Learning-From-Negative-Examples
     
-[^45]: 评估GPT-3生成的仇恨内容审核解释
+[^47]: 评估GPT-3生成的仇恨内容审核解释
 
     Evaluating GPT-3 Generated Explanations for Hateful Content Moderation. (arXiv:2305.17680v2 [cs.CL] UPDATED)
 
@@ -690,7 +720,7 @@
 
     Recent research has focused on using large language models (LLMs) to generate explanations for hate speech through fine-tuning or prompting. Despite the growing interest in this area, these generated explanations' effectiveness and potential limitations remain poorly understood. A key concern is that these explanations, generated by LLMs, may lead to erroneous judgments about the nature of flagged content by both users and content moderators. For instance, an LLM-generated explanation might inaccurately convince a content moderator that a benign piece of content is hateful. In light of this, we propose an analytical framework for examining hate speech explanations and conducted an extensive survey on evaluating such explanations. Specifically, we prompted GPT-3 to generate explanations for both hateful and non-hateful content, and a survey was conducted with 2,400 unique respondents to evaluate the generated explanations. Our findings reveal that (1) human evaluators rated the GPT-gene
     
-[^46]: "当文字难以表达时，表情符号称霸": 利用情感反转和语义不一致生成带有表情符号的讽刺话语
+[^48]: "当文字难以表达时，表情符号称霸": 利用情感反转和语义不一致生成带有表情符号的讽刺话语
 
     "When Words Fail, Emojis Prevail": Generating Sarcastic Utterances with Emoji Using Valence Reversal and Semantic Incongruity. (arXiv:2305.04105v1 [cs.CL])
 
@@ -704,7 +734,7 @@
 
     Sarcasm pertains to the subtle form of language that individuals use to express the opposite of what is implied. We present a novel architecture for sarcasm generation with emoji from a non-sarcastic input sentence. We divide the generation task into two sub tasks: one for generating textual sarcasm and another for collecting emojis associated with those sarcastic sentences. Two key elements of sarcasm are incorporated into the textual sarcasm generation task: valence reversal and semantic incongruity with context, where the context may involve shared commonsense or general knowledge between the speaker and their audience. The majority of existing sarcasm generation works have focused on this textual form. However, in the real world, when written texts fall short of effectively capturing the emotional cues of spoken and face-to-face communication, people often opt for emojis to accurately express their emotions. Due to the wide range of applications of emojis, incorporating appropriate
     
-[^47]: 相似度感知的多模态提示学习用于假新闻检测
+[^49]: 相似度感知的多模态提示学习用于假新闻检测
 
     Similarity-Aware Multimodal Prompt Learning for Fake News Detection. (arXiv:2304.04187v1 [cs.CL])
 
@@ -718,7 +748,7 @@
 
     The standard paradigm for fake news detection mainly utilizes text information to model the truthfulness of news. However, the discourse of online fake news is typically subtle and it requires expert knowledge to use textual information to debunk fake news. Recently, studies focusing on multimodal fake news detection have outperformed text-only methods. Recent approaches utilizing the pre-trained model to extract unimodal features, or fine-tuning the pre-trained model directly, have become a new paradigm for detecting fake news. Again, this paradigm either requires a large number of training instances, or updates the entire set of pre-trained model parameters, making real-world fake news detection impractical. Furthermore, traditional multimodal methods fuse the cross-modal features directly without considering that the uncorrelated semantic representation might inject noise into the multimodal features. This paper proposes a Similarity-Aware Multimodal Prompt Learning (SAMPLE) framewo
     
-[^48]: 深度学习应用于课程评论的观点挖掘和主题分类
+[^50]: 深度学习应用于课程评论的观点挖掘和主题分类
 
     Deep Learning for Opinion Mining and Topic Classification of Course Reviews. (arXiv:2304.03394v1 [cs.CL])
 
@@ -732,7 +762,7 @@
 
     Student opinions for a course are important to educators and administrators, regardless of the type of the course or the institution. Reading and manually analyzing open-ended feedback becomes infeasible for massive volumes of comments at institution level or online forums. In this paper, we collected and pre-processed a large number of course reviews publicly available online. We applied machine learning techniques with the goal to gain insight into student sentiments and topics. Specifically, we utilized current Natural Language Processing (NLP) techniques, such as word embeddings and deep neural networks, and state-of-the-art BERT (Bidirectional Encoder Representations from Transformers), RoBERTa (Robustly optimized BERT approach) and XLNet (Generalized Auto-regression Pre-training). We performed extensive experimentation to compare these techniques versus traditional approaches. This comparative study demonstrates how to apply modern machine learning approaches for sentiment polari
     
-[^49]: 利用人类语言理解能力增强药物研发中的活性预测模型
+[^51]: 利用人类语言理解能力增强药物研发中的活性预测模型
 
     Enhancing Activity Prediction Models in Drug Discovery with the Ability to Understand Human Language. (arXiv:2303.03363v2 [q-bio.BM] UPDATED)
 
@@ -746,7 +776,7 @@
 
     Activity and property prediction models are the central workhorses in drug discovery and materials sciences, but currently they have to be trained or fine-tuned for new tasks. Without training or fine-tuning, scientific language models could be used for such low-data tasks through their announced zero- and few-shot capabilities. However, their predictive quality at activity prediction is lacking. In this work, we envision a novel type of activity prediction model that is able to adapt to new prediction tasks at inference time, via understanding textual information describing the task. To this end, we propose a new architecture with separate modules for chemical and natural language inputs, and a contrastive pre-training objective on data from large biochemical databases. In extensive experiments, we show that our method CLAMP yields improved predictive performance on few-shot learning benchmarks and zero-shot problems in drug discovery. We attribute the advances of our method to the mo
     
-[^50]: TransFool: 面向神经机器翻译模型的对抗攻击
+[^52]: TransFool: 面向神经机器翻译模型的对抗攻击
 
     TransFool: An Adversarial Attack against Neural Machine Translation Models. (arXiv:2302.00944v2 [cs.CL] UPDATED)
 
@@ -760,7 +790,7 @@
 
     Deep neural networks have been shown to be vulnerable to small perturbations of their inputs, known as adversarial attacks. In this paper, we investigate the vulnerability of Neural Machine Translation (NMT) models to adversarial attacks and propose a new attack algorithm called TransFool. To fool NMT models, TransFool builds on a multi-term optimization problem and a gradient projection step. By integrating the embedding representation of a language model, we generate fluent adversarial examples in the source language that maintain a high level of semantic similarity with the clean samples. Experimental results demonstrate that, for different translation tasks and NMT architectures, our white-box attack can severely degrade the translation quality while the semantic similarity between the original and the adversarial sentences stays high. Moreover, we show that TransFool is transferable to unknown target models. Finally, based on automatic and human evaluations, TransFool leads to imp
     
-[^51]: SLUE Phase-2：多样化口语理解任务基准评测套件
+[^53]: SLUE Phase-2：多样化口语理解任务基准评测套件
 
     SLUE Phase-2: A Benchmark Suite of Diverse Spoken Language Understanding Tasks. (arXiv:2212.10525v2 [cs.CL] UPDATED)
 
@@ -774,7 +804,7 @@
 
     Spoken language understanding (SLU) tasks have been studied for many decades in the speech research community, but have not received as much attention as lower-level tasks like speech and speaker recognition. In particular, there are not nearly as many SLU task benchmarks, and many of the existing ones use data that is not freely available to all researchers. Recent work has begun to introduce such benchmark datasets for several tasks. In this work, we introduce several new annotated SLU benchmark tasks based on freely available speech data, which complement existing benchmarks and address gaps in the SLU evaluation landscape. We contribute four tasks: question answering and summarization involve inference over longer speech sequences; named entity localization addresses the speech-specific task of locating the targeted content in the signal; dialog act classification identifies the function of a given speech utterance. We follow the blueprint of the Spoken Language Understanding Evalu
     
-[^52]: Pix2Struct：屏幕截图解析作为视觉语言理解的预训练方法
+[^54]: Pix2Struct：屏幕截图解析作为视觉语言理解的预训练方法
 
     Pix2Struct: Screenshot Parsing as Pretraining for Visual Language Understanding. (arXiv:2210.03347v2 [cs.CL] UPDATED)
 
@@ -788,7 +818,7 @@
 
     Visually-situated language is ubiquitous -- sources range from textbooks with diagrams to web pages with images and tables, to mobile apps with buttons and forms. Perhaps due to this diversity, previous work has typically relied on domain-specific recipes with limited sharing of the underlying data, model architectures, and objectives. We present Pix2Struct, a pretrained image-to-text model for purely visual language understanding, which can be finetuned on tasks containing visually-situated language. Pix2Struct is pretrained by learning to parse masked screenshots of web pages into simplified HTML. The web, with its richness of visual elements cleanly reflected in the HTML structure, provides a large source of pretraining data well suited to the diversity of downstream tasks. Intuitively, this objective subsumes common pretraining signals such as OCR, language modeling, image captioning. In addition to the novel pretraining strategy, we introduce a variable-resolution input representa
     
-[^53]: 事实破坏者：针对事实验证系统的证据操纵攻击分类法
+[^55]: 事实破坏者：针对事实验证系统的证据操纵攻击分类法
 
     Fact-Saboteurs: A Taxonomy of Evidence Manipulation Attacks against Fact-Verification Systems. (arXiv:2209.03755v4 [cs.CR] UPDATED)
 
@@ -802,7 +832,7 @@
 
     Mis- and disinformation are a substantial global threat to our security and safety. To cope with the scale of online misinformation, researchers have been working on automating fact-checking by retrieving and verifying against relevant evidence. However, despite many advances, a comprehensive evaluation of the possible attack vectors against such systems is still lacking. Particularly, the automated fact-verification process might be vulnerable to the exact disinformation campaigns it is trying to combat. In this work, we assume an adversary that automatically tampers with the online evidence in order to disrupt the fact-checking model via camouflaging the relevant evidence or planting a misleading one. We first propose an exploratory taxonomy that spans these two targets and the different threat model dimensions. Guided by this, we design and propose several potential attack methods. We show that it is possible to subtly modify claim-salient snippets in the evidence and generate diver
     
-[^54]: 解决机器学习众包工作者的人类受试者身份问题
+[^56]: 解决机器学习众包工作者的人类受试者身份问题
 
     Resolving the Human Subjects Status of Machine Learning's Crowdworkers. (arXiv:2206.04039v2 [cs.CY] UPDATED)
 
@@ -816,7 +846,7 @@
 
     In recent years, machine learning (ML) has relied heavily on crowdworkers both for building datasets and for addressing research questions requiring human interaction or judgment. The diverse tasks performed and uses of the data produced render it difficult to determine when crowdworkers are best thought of as workers (versus human subjects). These difficulties are compounded by conflicting policies, with some institutions and researchers regarding all ML crowdworkers as human subjects and others holding that they rarely constitute human subjects. Notably few ML papers involving crowdwork mention IRB oversight, raising the prospect of non-compliance with ethical and regulatory requirements. We investigate the appropriate designation of ML crowdsourcing studies, focusing our inquiry on natural language processing to expose unique challenges for research oversight. Crucially, under the U.S. Common Rule, these judgments hinge on determinations of aboutness, concerning both whom (or what) 
     
-[^55]: 重新审视 DocRED - 解决关系抽取中的假阴性问题
+[^57]: 重新审视 DocRED - 解决关系抽取中的假阴性问题
 
     Revisiting DocRED -- Addressing the False Negative Problem in Relation Extraction. (arXiv:2205.12696v3 [cs.CL] UPDATED)
 

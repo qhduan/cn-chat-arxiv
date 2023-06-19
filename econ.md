@@ -2,22 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Testing for Peer Effects without Specifying the Network Structure.](http://arxiv.org/abs/2306.09806) | 本文提出了一种在面板数据中无需指定网络结构来检验同行影响的方法，增加了工具变量数目，通过多IV环境并扩展已有多IV渐近结果，我们展示了该方法在存在个体和时间固定效应的情况下是有效的。 |
-| [^2] | [CSREU: A Novel Dataset about Corporate Social Responsibility and Performance Indicators.](http://arxiv.org/abs/2306.09798) | CSREU是一份欧洲公司绩效指标和CSR披露评分的数据集，初步结果表明CSR披露对财务绩效影响较弱，需要更深入的研究。 |
-| [^3] | [Perceived university support and environment as a factor of entrepreneurial intention: Evidence from Western Transdanubia Region.](http://arxiv.org/abs/2306.09678) | 本研究调查了西特兰斯达努比亚地区匈牙利应用科学大学学生，旨在研究创业意向受到大学支持和环境的影响。 |
-| [^4] | [House-Swapping with Objective Indifferences.](http://arxiv.org/abs/2306.09529) | 本文研究了房屋交换问题中具有客观不确定性的情况，并提出一种运行时间更短的算法来产生唯一严格核分配。 |
-| [^5] | [Identifying key players in dark web marketplaces.](http://arxiv.org/abs/2306.09485) | 通过分析40万比特币交易数据集，本文识别暗网市场中关键参与者，并突出了多家市场运营者的重要性。在暗网市场生态受到外部冲击时，多家市场运营者与卖家间的交互网络可以揭示其对抗外部冲击的特点和抵抗力。 |
-| [^6] | [Designing Auctions when Algorithms Learn to Bid: The critical role of Payment Rules.](http://arxiv.org/abs/2306.09437) | 本文研究了算法学习竞标时不同支付规则对效率的影响，发现支付规则对竞拍效率至关重要。 |
-| [^7] | [Inference on Extreme Quantiles of Unobserved Individual Heterogeneity.](http://arxiv.org/abs/2210.08524) | 本文提出了一种可计算个体异质性极值分位数置信区间的方法，该方法通过构造极值定理和中间阶定理，以及适当的速率和动量条件来解决只有带有噪声的估计可用的情况下，推断个体异质性的极值分位数的问题。 |
-| [^8] | [Shock propagation from the Russia-Ukraine conflict on international multilayer food production network determines global food availability.](http://arxiv.org/abs/2210.01846) | 俄乌冲突在全球食品生产网络中引起的局部冲击传播影响到多个国家和地区的粮食供应，乌克兰完全失去农业生产会对全球甚至是家禽肉类和葵花籽油的市场造成重大影响。 |
-| [^9] | [Circulation of a digital community currency.](http://arxiv.org/abs/2207.08941) | 本论文研究了数字社区货币Sarafu的储备和流通行为，发现流通呈高度模块化和地理局限性强，当地的社区机构是促进流通的重要来源。 |
-| [^10] | [Improving Estimation Efficiency via Regression-Adjustment in Covariate-Adaptive Randomizations with Imperfect Compliance.](http://arxiv.org/abs/2201.13004) | 该论文研究了在协变量自适应随机化中如何使用回归调整提高效率，并提出了最优线性调整和非线性调整方法，这些方法比没有调整的方法产生更高效的估计值。 |
-| [^11] | [Reputational Bargaining and Inefficient Technology Adoption.](http://arxiv.org/abs/2201.01827) | 买家和卖家在讨价还价过程中，声望激励可能导致低效技术采纳和达成协议的显著延迟。 |
-| [^12] | [Dynamic treatment effects: high-dimensional inference under model misspecification.](http://arxiv.org/abs/2111.06818) | 本文提出了一种新的鲁棒估计方法来解决动态治疗效应估计中的挑战，提高了在模型错误下的高维环境中的估计鲁棒性和可靠性。 |
+| [^1] | [Robust Predictions in Games with Rational Inattention.](http://arxiv.org/abs/2306.09964) | 研究了合理忽略下的游戏稳健预测，发现理性忽略会降低福利并引入对行为的额外限制，两种知识方案在行为上没有区别，但会影响最优政策。 |
+| [^2] | [Testing for Peer Effects without Specifying the Network Structure.](http://arxiv.org/abs/2306.09806) | 本文提出了一种在面板数据中无需指定网络结构来检验同行影响的方法，增加了工具变量数目，通过多IV环境并扩展已有多IV渐近结果，我们展示了该方法在存在个体和时间固定效应的情况下是有效的。 |
+| [^3] | [CSREU: A Novel Dataset about Corporate Social Responsibility and Performance Indicators.](http://arxiv.org/abs/2306.09798) | CSREU是一份欧洲公司绩效指标和CSR披露评分的数据集，初步结果表明CSR披露对财务绩效影响较弱，需要更深入的研究。 |
+| [^4] | [Perceived university support and environment as a factor of entrepreneurial intention: Evidence from Western Transdanubia Region.](http://arxiv.org/abs/2306.09678) | 本研究调查了西特兰斯达努比亚地区匈牙利应用科学大学学生，旨在研究创业意向受到大学支持和环境的影响。 |
+| [^5] | [House-Swapping with Objective Indifferences.](http://arxiv.org/abs/2306.09529) | 本文研究了房屋交换问题中具有客观不确定性的情况，并提出一种运行时间更短的算法来产生唯一严格核分配。 |
+| [^6] | [Identifying key players in dark web marketplaces.](http://arxiv.org/abs/2306.09485) | 通过分析40万比特币交易数据集，本文识别暗网市场中关键参与者，并突出了多家市场运营者的重要性。在暗网市场生态受到外部冲击时，多家市场运营者与卖家间的交互网络可以揭示其对抗外部冲击的特点和抵抗力。 |
+| [^7] | [Designing Auctions when Algorithms Learn to Bid: The critical role of Payment Rules.](http://arxiv.org/abs/2306.09437) | 本文研究了算法学习竞标时不同支付规则对效率的影响，发现支付规则对竞拍效率至关重要。 |
+| [^8] | [Inference on Extreme Quantiles of Unobserved Individual Heterogeneity.](http://arxiv.org/abs/2210.08524) | 本文提出了一种可计算个体异质性极值分位数置信区间的方法，该方法通过构造极值定理和中间阶定理，以及适当的速率和动量条件来解决只有带有噪声的估计可用的情况下，推断个体异质性的极值分位数的问题。 |
+| [^9] | [Shock propagation from the Russia-Ukraine conflict on international multilayer food production network determines global food availability.](http://arxiv.org/abs/2210.01846) | 俄乌冲突在全球食品生产网络中引起的局部冲击传播影响到多个国家和地区的粮食供应，乌克兰完全失去农业生产会对全球甚至是家禽肉类和葵花籽油的市场造成重大影响。 |
+| [^10] | [Circulation of a digital community currency.](http://arxiv.org/abs/2207.08941) | 本论文研究了数字社区货币Sarafu的储备和流通行为，发现流通呈高度模块化和地理局限性强，当地的社区机构是促进流通的重要来源。 |
+| [^11] | [Improving Estimation Efficiency via Regression-Adjustment in Covariate-Adaptive Randomizations with Imperfect Compliance.](http://arxiv.org/abs/2201.13004) | 该论文研究了在协变量自适应随机化中如何使用回归调整提高效率，并提出了最优线性调整和非线性调整方法，这些方法比没有调整的方法产生更高效的估计值。 |
+| [^12] | [Reputational Bargaining and Inefficient Technology Adoption.](http://arxiv.org/abs/2201.01827) | 买家和卖家在讨价还价过程中，声望激励可能导致低效技术采纳和达成协议的显著延迟。 |
+| [^13] | [Dynamic treatment effects: high-dimensional inference under model misspecification.](http://arxiv.org/abs/2111.06818) | 本文提出了一种新的鲁棒估计方法来解决动态治疗效应估计中的挑战，提高了在模型错误下的高维环境中的估计鲁棒性和可靠性。 |
 
 # 详细
 
-[^1]: 不需指定网络结构的同行影响测试
+[^1]: 合理忽略下的游戏中的稳健预测
+
+    Robust Predictions in Games with Rational Inattention. (arXiv:2306.09964v1 [econ.TH])
+
+    [http://arxiv.org/abs/2306.09964](http://arxiv.org/abs/2306.09964)
+
+    研究了合理忽略下的游戏稳健预测，发现理性忽略会降低福利并引入对行为的额外限制，两种知识方案在行为上没有区别，但会影响最优政策。
+
+    
+
+    我们研究了涉及灵活信息获取的游戏中的稳健预测，也称为合理忽略（Sims 2003）。这些预测在玩家使用获取信息的具体方法时仍然保持准确。与信息预定的情况相比，理性忽略会降低福利并引入对行为的额外限制。我们证明这些限制一般不会被执行;在大多数环境中，这两个知识方案在行为上没有区别。然而，我们证明它们生成的福利差异是实质性的：最优政策取决于一个人是否认为信息是已知的或被获取的。我们提供了该背景下的政策分析必要工具。
+
+    We derive robust predictions in games involving flexible information acquisition, also known as rational inattention (Sims 2003). These predictions remain accurate regardless of the specific methods players employ to gather information. Compared to scenarios where information is predetermined, rational inattention reduces welfare and introduces additional constraints on behavior. We show these constraints generically do not bind; the two knowledge regimes are behaviorally indistinguishable in most environments. Yet, we demonstrate the welfare difference they generate is substantial: optimal policy depends on whether one assumes information is given or acquired. We provide the necessary tools for policy analysis in this context.
+    
+[^2]: 不需指定网络结构的同行影响测试
 
     Testing for Peer Effects without Specifying the Network Structure. (arXiv:2306.09806v1 [econ.EM])
 
@@ -31,7 +46,7 @@
 
     This paper proposes an Anderson-Rubin (AR) test for the presence of peer effects in panel data without the need to specify the network structure. The unrestricted model of our test is a linear panel data model of social interactions with dyad-specific peer effects. The proposed AR test evaluates if the peer effect coefficients are all zero. As the number of peer effect coefficients increases with the sample size, so does the number of instrumental variables (IVs) employed to estimate the unrestricted model, rendering Bekker's many-IV environment. By extending existing many-IV asymptotic results to panel data, we show that the proposed AR test is asymptotically valid under the presence of both individual and time fixed effects. We conduct Monte Carlo simulations to investigate the finite sample performance of the AR test and provide two applications to demonstrate its empirical relevance.
     
-[^2]: CSREU：一份关于公司社会责任和绩效指标的新数据集
+[^3]: CSREU：一份关于公司社会责任和绩效指标的新数据集
 
     CSREU: A Novel Dataset about Corporate Social Responsibility and Performance Indicators. (arXiv:2306.09798v1 [econ.GN])
 
@@ -45,7 +60,7 @@
 
     Corporate Social Responsibility (CSR) has become an important topic that is gaining academic interest. This research paper presents CSREU, a new dataset with attributes of 115 European companies, which includes several performance indicators and the respective CSR disclosure scores computed using the Global Reporting Initiative (GRI) framework. We also examine the correlations between some of the financial indicators and the CSR disclosure scores of the companies. According to our results, these correlations are weak and deeper analysis is required to draw convincing conclusions about the potential impact of CSR disclosure on financial performance. We hope that the newly created data and our preliminary results will help and foster research in this field.
     
-[^3]: 感知大学支持与环境作为创业意向因素：以西特兰斯达努比亚地区为例
+[^4]: 感知大学支持与环境作为创业意向因素：以西特兰斯达努比亚地区为例
 
     Perceived university support and environment as a factor of entrepreneurial intention: Evidence from Western Transdanubia Region. (arXiv:2306.09678v1 [econ.GN])
 
@@ -59,7 +74,7 @@
 
     The exploration of entrepreneurship has become a priority for scientific research in recent years. Understanding this phenomenon is particularly important for the transformation of entrepreneurship into action, which is a key factor in early-stage entrepreneurial activity. This gains particular relevance in the university environment, where, in addition to the conventional teaching and research functions, the entrepreneurial university operation based on open innovation, as well as the enhancement of entrepreneurial attitudes of researchers and students, are receiving increased attention. This study is based on a survey conducted among students attending a Hungarian university of applied science in Western Transdanubia Region who have demonstrated their existing entrepreneurial commitment by joining a national startup training and incubation programme. The main research question of the study is to what extent student entrepreneurship intention is influenced by the environment of the en
     
-[^4]: 具有客观不确定性的房屋交换问题
+[^5]: 具有客观不确定性的房屋交换问题
 
     House-Swapping with Objective Indifferences. (arXiv:2306.09529v1 [econ.TH])
 
@@ -73,7 +88,7 @@
 
     We study the classic house-swapping problem of Shapley and Scarf (1974) in a setting where agents may have "objective" indifferences, i.e., indifferences that are shared by all agents. In other words, if any one agent is indifferent between two houses, then all agents are indifferent between those two houses. The most direct interpretation is the presence of multiple copies of the same object. Our setting is a special case of the house-swapping problem with general indifferences. We derive a simple, easily interpretable algorithm that produces the unique strict core allocation of the house-swapping market, if it exists. Our algorithm runs in square polynomial time, a substantial improvement over the cubed time methods for the more general problem.
     
-[^5]: 识别暗网市场中的关键参与者
+[^6]: 识别暗网市场中的关键参与者
 
     Identifying key players in dark web marketplaces. (arXiv:2306.09485v1 [physics.soc-ph])
 
@@ -87,7 +102,7 @@
 
     Dark web marketplaces have been a significant outlet for illicit trade, serving millions of users worldwide for over a decade. However, not all users are the same. This paper aims to identify the key players in Bitcoin transaction networks linked to dark markets and assess their role by analysing a dataset of 40 million Bitcoin transactions involving 31 markets in the period 2011-2021. First, we propose an algorithm that categorizes users either as buyers or sellers and shows that a large fraction of the traded volume is concentrated in a small group of elite market participants. Then, we investigate both market star-graphs and user-to-user networks and highlight the importance of a new class of users, namely `multihomers' who operate on multiple marketplaces concurrently. Specifically, we show how the networks of multihomers and seller-to-seller interactions can shed light on the resilience of the dark market ecosystem against external shocks. Our findings suggest that understanding t
     
-[^6]: 当算法学习竞标时的拍卖设计：支付规则的重要作用研究
+[^7]: 当算法学习竞标时的拍卖设计：支付规则的重要作用研究
 
     Designing Auctions when Algorithms Learn to Bid: The critical role of Payment Rules. (arXiv:2306.09437v1 [econ.GN])
 
@@ -101,7 +116,7 @@
 
     This paper examines the impact of different payment rules on efficiency when algorithms learn to bid. We use a fully randomized experiment of 427 trials, where Q-learning bidders participate in up to 250,000 auctions for a commonly valued item. The findings reveal that the first price auction, where winners pay the winning bid, is susceptible to coordinated bid suppression, with winning bids averaging roughly 20% below the true values. In contrast, the second price auction, where winners pay the second highest bid, aligns winning bids with actual values, reduces the volatility during learning and speeds up convergence. Regression analysis, incorporating design elements such as payment rules, number of participants, algorithmic factors including the discount and learning rate, asynchronous/synchronous updating, feedback, and exploration strategies, discovers the critical role of payment rules on efficiency. Furthermore, machine learning estimators find that payment rules matter even mor
     
-[^7]: 论个体异质性极值分位数推断
+[^8]: 论个体异质性极值分位数推断
 
     Inference on Extreme Quantiles of Unobserved Individual Heterogeneity. (arXiv:2210.08524v2 [econ.EM] UPDATED)
 
@@ -115,7 +130,7 @@
 
     We develop a methodology for conducting inference on extreme quantiles of unobserved individual heterogeneity (heterogeneous coefficients, heterogeneous treatment effects, etc.) in a panel data or meta-analysis setting. Inference in such settings is challenging: only noisy estimates of unobserved heterogeneity are available, and approximations based on the central limit theorem work poorly for extreme quantiles. For this situation, under weak assumptions we derive an extreme value theorem and an intermediate order theorem for noisy estimates and appropriate rate and moment conditions. Both theorems are then used to construct confidence intervals for extremal quantiles. The intervals are simple to construct and require no optimization. Inference based on the intermediate order theorem involves a novel self-normalized intermediate order theorem. In simulations, our extremal confidence intervals have favorable coverage properties in the tail. Our methodology is illustrated with an applica
     
-[^8]: 从俄乌冲突到全球粮食供应的冲击传播：基于多层次食品生产网络的研究
+[^9]: 从俄乌冲突到全球粮食供应的冲击传播：基于多层次食品生产网络的研究
 
     Shock propagation from the Russia-Ukraine conflict on international multilayer food production network determines global food availability. (arXiv:2210.01846v2 [econ.GN] UPDATED)
 
@@ -129,7 +144,7 @@
 
     Dependencies in the global food production network can lead to shortages in numerous regions, as demonstrated by the impacts of the Russia-Ukraine conflict on global food supplies. Here, we reveal the losses of $125$ food products after a localized shock to agricultural production in $192$ countries and territories using a multilayer network model of trade (direct) and conversion of food products (indirect), thereby quantifying $10^8$ shock transmissions. We find that a complete agricultural production loss in Ukraine has heterogeneous impacts on other countries, causing relative losses of up to $89\%$ in sunflower oil and $85\%$ in maize via direct effects, and up to $25\%$ in poultry meat via indirect impacts. Whilst previous studies often treated products in isolation and did not account for product conversion during production, our model studies the global propagation of local supply shocks along both production and trade relations, allowing comparison of different response strateg
     
-[^9]: 《数字社区货币的流转》
+[^10]: 《数字社区货币的流转》
 
     Circulation of a digital community currency. (arXiv:2207.08941v2 [physics.soc-ph] UPDATED)
 
@@ -143,7 +158,7 @@
 
     Circulation is the characteristic feature of successful currency systems, from community currencies to cryptocurrencies to national currencies. In this paper, we propose a network analysis approach especially suited for studying circulation given a system's digital transaction records. Sarafu is a digital community currency that was active in Kenya over a period that saw considerable economic disruption due to the COVID-19 pandemic. We represent its circulation as a network of monetary flow among the 40,000 Sarafu users. Network flow analysis reveals that circulation was highly modular, geographically localized, and occurring among users with diverse livelihoods. Across localized sub-populations, network cycle analysis supports the intuitive notion that circulation requires cycles. Moreover, the sub-networks underlying circulation are consistently degree disassortative and we find evidence of preferential attachment. Community-based institutions often take on the role of local hubs, an
     
-[^10]: 利用回归调整提高协变量自适应随机化中的估计效率（带有不完美遵从性）
+[^11]: 利用回归调整提高协变量自适应随机化中的估计效率（带有不完美遵从性）
 
     Improving Estimation Efficiency via Regression-Adjustment in Covariate-Adaptive Randomizations with Imperfect Compliance. (arXiv:2201.13004v5 [econ.EM] UPDATED)
 
@@ -157,7 +172,7 @@
 
     We investigate how to improve efficiency using regression adjustments with covariates in covariate-adaptive randomizations (CARs) with imperfect subject compliance. Our regression-adjusted estimators, which are based on the doubly robust moment for local average treatment effects, are consistent and asymptotically normal even with heterogeneous probability of assignment and misspecified regression adjustments. We propose an optimal but potentially misspecified linear adjustment and its further improvement via a nonlinear adjustment, both of which lead to more efficient estimators than the one without adjustments. We also provide conditions for nonparametric and regularized adjustments to achieve the semiparametric efficiency bound under CARs.
     
-[^11]: 声望博弈与低效技术采纳
+[^12]: 声望博弈与低效技术采纳
 
     Reputational Bargaining and Inefficient Technology Adoption. (arXiv:2201.01827v2 [econ.TH] UPDATED)
 
@@ -171,7 +186,7 @@
 
     A buyer and a seller bargain over the price of an object. Both players can build reputations for being obstinate by offering the same price over time. Before players bargain, the seller decides whether to adopt a new technology that can lower his production cost and the buyer cannot observe this adoption decision. We show that players' reputational incentives can lead to inefficient adoption and significant delays in reaching agreement, and that these inefficiencies arise in equilibrium if and only if the social benefit from adoption is large enough. As a result, an increase in the social benefit from adoption may lead to a lower adoption probability and a longer expected delay.
     
-[^12]: 动态治疗效应：模型错误下的高维推断
+[^13]: 动态治疗效应：模型错误下的高维推断
 
     Dynamic treatment effects: high-dimensional inference under model misspecification. (arXiv:2111.06818v2 [stat.ME] UPDATED)
 
