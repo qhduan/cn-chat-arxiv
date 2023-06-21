@@ -1,0 +1,12 @@
+{
+    "title": "Benchmarking Robustness of Deep Reinforcement Learning approaches to Online Portfolio Management. (arXiv:2306.10950v1 [cs.LG])",
+    "abstract": "Deep Reinforcement Learning approaches to Online Portfolio Selection have grown in popularity in recent years. The sensitive nature of training Reinforcement Learning agents implies a need for extensive efforts in market representation, behavior objectives, and training processes, which have often been lacking in previous works. We propose a training and evaluation process to assess the performance of classical DRL algorithms for portfolio management. We found that most Deep Reinforcement Learning algorithms were not robust, with strategies generalizing poorly and degrading quickly during backtesting.",
+    "link": "http://arxiv.org/abs/2306.10950",
+    "context": "Title: Benchmarking Robustness of Deep Reinforcement Learning approaches to Online Portfolio Management. (arXiv:2306.10950v1 [cs.LG])\nAbstract: Deep Reinforcement Learning approaches to Online Portfolio Selection have grown in popularity in recent years. The sensitive nature of training Reinforcement Learning agents implies a need for extensive efforts in market representation, behavior objectives, and training processes, which have often been lacking in previous works. We propose a training and evaluation process to assess the performance of classical DRL algorithms for portfolio management. We found that most Deep Reinforcement Learning algorithms were not robust, with strategies generalizing poorly and degrading quickly during backtesting.",
+    "path": "papers/23/06/2306.10950.json",
+    "total_tokens": 693,
+    "translated_title": "深度强化学习在在线投资组合管理中的强健性基准测试",
+    "translated_abstract": "近年来，深度强化学习方法在在线投资组合选择中日益受到关注。由于训练强化学习代理的敏感性质，需要在市场代表性、行为目标和训练流程方面投入大量精力，但这些方面在先前的研究中通常被忽视。我们提出了一个训练和评估流程，以评估经典的DRL算法在投资组合管理中的性能。我们发现，大多数深度强化学习算法不够强健，策略一般化能力差，在回测期间很快表现不佳。",
+    "tldr": "本研究提出了一个训练和评估流程，发现大多数深度强化学习算法在在线投资组合管理中表现不够强健，策略一般化能力差。",
+    "en_tdlr": "This study proposes a training and evaluation process, and finds that most deep reinforcement learning algorithms are not robust in online portfolio management with poor generalization ability of strategies."
+}

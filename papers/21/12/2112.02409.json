@@ -1,0 +1,12 @@
+{
+    "title": "Understanding Dynamic Spatio-Temporal Contexts in Long Short-Term Memory for Road Traffic Speed Prediction. (arXiv:2112.02409v2 [cs.LG] UPDATED)",
+    "abstract": "Reliable traffic flow prediction is crucial to creating intelligent transportation systems. Many big-data-based prediction approaches have been developed but they do not reflect complicated dynamic interactions between roads considering time and location. In this study, we propose a dynamically localised long short-term memory (LSTM) model that involves both spatial and temporal dependence between roads. To do so, we use a localised dynamic spatial weight matrix along with its dynamic variation. Moreover, the LSTM model can deal with sequential data with long dependency as well as complex non-linear features. Empirical results indicated superior prediction performances of the proposed model compared to two different baseline methods.",
+    "link": "http://arxiv.org/abs/2112.02409",
+    "context": "Title: Understanding Dynamic Spatio-Temporal Contexts in Long Short-Term Memory for Road Traffic Speed Prediction. (arXiv:2112.02409v2 [cs.LG] UPDATED)\nAbstract: Reliable traffic flow prediction is crucial to creating intelligent transportation systems. Many big-data-based prediction approaches have been developed but they do not reflect complicated dynamic interactions between roads considering time and location. In this study, we propose a dynamically localised long short-term memory (LSTM) model that involves both spatial and temporal dependence between roads. To do so, we use a localised dynamic spatial weight matrix along with its dynamic variation. Moreover, the LSTM model can deal with sequential data with long dependency as well as complex non-linear features. Empirical results indicated superior prediction performances of the proposed model compared to two different baseline methods.",
+    "path": "papers/21/12/2112.02409.json",
+    "total_tokens": 744,
+    "translated_title": "针对道路交通速度的长短期记忆模型中动态时空背景的理解",
+    "translated_abstract": "可靠的交通流预测对于创建智能交通系统至关重要。虽然许多基于大数据的预测方法已经被开发，但它们并没有反映出考虑时间和位置的复杂动态道路交互作用。在本研究中，我们提出了一种动态局部化的长短期记忆（LSTM）模型，涉及道路之间的空间和时间依赖关系。为此，我们使用局部动态空间权重矩阵及其动态变化。此外，LSTM模型可以处理具有长依赖性和复杂非线性特征的序列数据。实证结果表明，所提出的模型相比于两种不同的基线方法具有更优异的预测性能。",
+    "tldr": "本论文提出了一种动态局部化的LSTM模型，能够同时考虑道路之间的空间与时间依赖关系，该模型比基线方法具有更优异的预测性能。",
+    "en_tdlr": "This paper proposes a dynamic localized LSTM model that considers both spatial and temporal dependencies between roads, which outperforms baseline methods in predicting traffic flow."
+}

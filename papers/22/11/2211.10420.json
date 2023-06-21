@@ -1,0 +1,12 @@
+{
+    "title": "Mirror Sinkhorn: Fast Online Optimization on Transport Polytopes. (arXiv:2211.10420v3 [cs.LG] UPDATED)",
+    "abstract": "Optimal transport is an important tool in machine learning, allowing to capture geometric properties of the data through a linear program on transport polytopes. We present a single-loop optimization algorithm for minimizing general convex objectives on these domains, utilizing the principles of Sinkhorn matrix scaling and mirror descent. The proposed algorithm is robust to noise, and can be used in an online setting. We provide theoretical guarantees for convex objectives and experimental results showcasing it effectiveness on both synthetic and real-world data.",
+    "link": "http://arxiv.org/abs/2211.10420",
+    "context": "Title: Mirror Sinkhorn: Fast Online Optimization on Transport Polytopes. (arXiv:2211.10420v3 [cs.LG] UPDATED)\nAbstract: Optimal transport is an important tool in machine learning, allowing to capture geometric properties of the data through a linear program on transport polytopes. We present a single-loop optimization algorithm for minimizing general convex objectives on these domains, utilizing the principles of Sinkhorn matrix scaling and mirror descent. The proposed algorithm is robust to noise, and can be used in an online setting. We provide theoretical guarantees for convex objectives and experimental results showcasing it effectiveness on both synthetic and real-world data.",
+    "path": "papers/22/11/2211.10420.json",
+    "total_tokens": 649,
+    "translated_title": "镜像Sinkhorn：在传输多面体上进行快速在线优化",
+    "translated_abstract": "最优传输是机器学习中的重要工具，通过在传输多面体上的线性规划来捕捉数据的几何属性。我们提出了一种单循环优化算法，利用Sinkhorn矩阵缩放和镜像下降的原理，在这些领域上最小化一般凸目标。该算法对噪音具有鲁棒性，并可在在线设置中使用。我们提供了凸目标的理论保证和实验结果，展示了其在合成数据和实际数据上的有效性。",
+    "tldr": "该论文提出了一种在传输多面体上进行在线凸目标优化的算法，此算法基于Sinkhorn矩阵缩放和镜像下降的原理，并且可以在噪音环境下使用。",
+    "en_tdlr": "The paper proposes an algorithm for online convex objective optimization on transport polytopes, utilizing Sinkhorn matrix scaling and mirror descent principles, and exhibiting robustness to noise in both theoretical guarantees and experimental results."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Deep Learning and Ethics. (arXiv:2305.15239v2 [cs.AI] UPDATED)",
+    "abstract": "This article appears as chapter 21 of Prince (2023, Understanding Deep Learning); a complete draft of the textbook is available here: this http URL This chapter considers potential harms arising from the design and use of AI systems. These include algorithmic bias, lack of explainability, data privacy violations, militarization, fraud, and environmental concerns. The aim is not to provide advice on being more ethical. Instead, the goal is to express ideas and start conversations in key areas that have received attention in philosophy, political science, and the broader social sciences.",
+    "link": "http://arxiv.org/abs/2305.15239",
+    "context": "Title: Deep Learning and Ethics. (arXiv:2305.15239v2 [cs.AI] UPDATED)\nAbstract: This article appears as chapter 21 of Prince (2023, Understanding Deep Learning); a complete draft of the textbook is available here: this http URL This chapter considers potential harms arising from the design and use of AI systems. These include algorithmic bias, lack of explainability, data privacy violations, militarization, fraud, and environmental concerns. The aim is not to provide advice on being more ethical. Instead, the goal is to express ideas and start conversations in key areas that have received attention in philosophy, political science, and the broader social sciences.",
+    "path": "papers/23/05/2305.15239.json",
+    "total_tokens": 704,
+    "translated_title": "深度学习与伦理学",
+    "translated_abstract": "本文是Prince（2023年）《理解深度学习》的第21章，教材的完整草稿可在此http URL获得。本章考虑了人工智能系统设计和使用可能产生的潜在危害，包括算法偏见、缺乏可解释性、数据隐私侵犯、军事化、欺诈和环境问题。目的不是为了提供更加道德的建议。相反，目标是在哲学、政治科学和更广泛的社会科学领域引发关键领域的思想和对话。",
+    "tldr": "本文探讨了人工智能存在的算法偏见、缺乏可解释性、数据隐私侵犯、军事化、欺诈和环境问题，旨在促进哲学、政治科学和社会科学领域关于这些问题的探讨。",
+    "en_tdlr": "This article discusses potential harms arising from the design and use of AI systems, including algorithmic bias, lack of explainability, data privacy violations, militarization, fraud, and environmental concerns. It aims to stimulate discussions in philosophy, political science, and the broader social sciences about these issues."
+}

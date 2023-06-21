@@ -1,0 +1,12 @@
+{
+    "title": "The Pricing And Hedging Of Constant Function Market Makers. (arXiv:2306.11580v1 [cs.CR])",
+    "abstract": "We investigate the most common type of blockchain-based decentralized exchange, which are known as constant function market makers (CFMMs). We examine the the market microstructure around CFMMs and present a model for valuing the liquidity provider (LP) mechanism and estimating the value of the associated derivatives. We develop a model with two types of traders that have different information and contribute methods for simulating the behavior of each trader and accounting for trade PnL. We also develop ideas around the equilibrium distribution of fair price conditional on the arrival of traders. Finally, we show how these findings might be used to think about parameters for alternative CFMMs.",
+    "link": "http://arxiv.org/abs/2306.11580",
+    "context": "Title: The Pricing And Hedging Of Constant Function Market Makers. (arXiv:2306.11580v1 [cs.CR])\nAbstract: We investigate the most common type of blockchain-based decentralized exchange, which are known as constant function market makers (CFMMs). We examine the the market microstructure around CFMMs and present a model for valuing the liquidity provider (LP) mechanism and estimating the value of the associated derivatives. We develop a model with two types of traders that have different information and contribute methods for simulating the behavior of each trader and accounting for trade PnL. We also develop ideas around the equilibrium distribution of fair price conditional on the arrival of traders. Finally, we show how these findings might be used to think about parameters for alternative CFMMs.",
+    "path": "papers/23/06/2306.11580.json",
+    "total_tokens": 742,
+    "translated_title": "固定函数市场制造商的定价与对冲",
+    "translated_abstract": "本文研究了最常见的基于区块链的分散化交易所类型之一，即固定函数市场制造商（CFMM）。我们研究了CFMM周围的市场微观结构，并提出了一个用于估值流动性提供者（LP）机制和估计相关衍生品价值的模型。我们开发了一个具有两种不同信息的交易者类型的模型，并提供了针对每个交易者行为进行模拟和考虑交易PnL的方法。我们还提出了关于公平价格均衡分布的思路，该分布与交易者的到达条件有关。最后，我们展示了如何利用这些发现来思考替代CFMM的参数。",
+    "tldr": "本文研究了基于区块链的分散化交易所中最常见的固定函数市场制造商，提出了估值LP机制和衍生品价值的模型，并开发了两种不同交易者类型的模型来进行比较与模拟行为。",
+    "en_tdlr": "This paper investigates constant function market makers in blockchain-based decentralized exchanges, proposes a valuation model for liquidity provider mechanism and derivatives, and develops a model with two types of traders to simulate and compare their behavior."
+}

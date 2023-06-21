@@ -1,0 +1,12 @@
+{
+    "title": "Conditional expectation via compact kernels. (arXiv:2306.10592v1 [stat.ML])",
+    "abstract": "The separate tasks of denoising, conditional expectation and manifold learning can often be posed in a common setting of finding the conditional expectations arising from a product of two random variables. This paper focuses on this more general problem and describes an operator theoretic approach to estimating the conditional expectation. Kernel integral operators are used as a compactification tool, to set up the estimation problem as a linear inverse problem in a reproducing kernel Hilbert space. This equation is shown to have solutions that are stable to numerical approximation, thus guaranteeing the convergence of data-driven implementations. The overall technique is easy to implement, and their successful application to some real-world problems are also shown.",
+    "link": "http://arxiv.org/abs/2306.10592",
+    "context": "Title: Conditional expectation via compact kernels. (arXiv:2306.10592v1 [stat.ML])\nAbstract: The separate tasks of denoising, conditional expectation and manifold learning can often be posed in a common setting of finding the conditional expectations arising from a product of two random variables. This paper focuses on this more general problem and describes an operator theoretic approach to estimating the conditional expectation. Kernel integral operators are used as a compactification tool, to set up the estimation problem as a linear inverse problem in a reproducing kernel Hilbert space. This equation is shown to have solutions that are stable to numerical approximation, thus guaranteeing the convergence of data-driven implementations. The overall technique is easy to implement, and their successful application to some real-world problems are also shown.",
+    "path": "papers/23/06/2306.10592.json",
+    "total_tokens": 699,
+    "translated_title": "基于紧核的条件期望估计",
+    "translated_abstract": "去噪、条件期望和流形学习任务通常可以在寻找两个随机变量积的条件期望的公共环境下表述。本文针对这个更一般的问题，描述了一种算子理论方法来估计条件期望。核积分算子被用作紧致化工具，将估计问题设置为在再生核希尔伯特空间中的线性逆问题。该方程的解被证明对数值逼近是稳定的，从而确保了数据驱动实现的收敛性。总体技术易于实现，还展示了其在一些实际问题中的成功应用。",
+    "tldr": "本文提出了一种基于紧核的算子理论方法来解决条件期望估计问题，在再生核希尔伯特空间中实现，易于实现，且成功应用于实际问题中。",
+    "en_tdlr": "This paper proposes a compact kernel-based operator theoretic approach to estimating conditional expectation, which is shown to have stable solutions in a reproducing kernel Hilbert space and successfully applied to real-world problems."
+}

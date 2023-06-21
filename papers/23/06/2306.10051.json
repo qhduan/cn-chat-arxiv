@@ -1,0 +1,12 @@
+{
+    "title": "TOBY: A Tool for Exploring Data in Academic Survey Papers. (arXiv:2306.10051v1 [cs.DL])",
+    "abstract": "This paper describes TOBY, a visualization tool that helps a user explore the contents of an academic survey paper. The visualization consists of four components: a hierarchical view of taxonomic data in the survey, a document similarity view in the space of taxonomic classes, a network view of citations, and a new paper recommendation tool. In this paper, we will discuss these features in the context of three separate deployments of the tool.",
+    "link": "http://arxiv.org/abs/2306.10051",
+    "context": "Title: TOBY: A Tool for Exploring Data in Academic Survey Papers. (arXiv:2306.10051v1 [cs.DL])\nAbstract: This paper describes TOBY, a visualization tool that helps a user explore the contents of an academic survey paper. The visualization consists of four components: a hierarchical view of taxonomic data in the survey, a document similarity view in the space of taxonomic classes, a network view of citations, and a new paper recommendation tool. In this paper, we will discuss these features in the context of three separate deployments of the tool.",
+    "path": "papers/23/06/2306.10051.json",
+    "total_tokens": 606,
+    "translated_title": "TOBY:一种用于探索学术调查论文数据的工具",
+    "translated_abstract": "本文介绍了TOBY，一种可视化工具，帮助用户探索学术调查论文的内容。可视化包括四个部分：调查数据的分类层次结构视图，分类类别空间中的文档相似性视图，引用网络视图以及一种新的论文推荐工具。本文将讨论这些功能在三种不同的工具部署情景下的应用。",
+    "tldr": "TOBY是一种可视化工具，能帮助用户探索学术调查论文的内容，包括分类层次结构视图、文档相似性视图、引用网络视图和论文推荐工具。",
+    "en_tdlr": "TOBY is a visualization tool that helps users explore the contents of academic survey papers through hierarchical view of taxonomic data, document similarity view, network view of citations and paper recommendation tool, which have been discussed in three different deployments."
+}

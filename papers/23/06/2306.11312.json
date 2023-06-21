@@ -1,0 +1,12 @@
+{
+    "title": "Data Structures for Density Estimation. (arXiv:2306.11312v1 [cs.DS])",
+    "abstract": "We study statistical/computational tradeoffs for the following density estimation problem: given $k$ distributions $v_1, \\ldots, v_k$ over a discrete domain of size $n$, and sampling access to a distribution $p$, identify $v_i$ that is \"close\" to $p$. Our main result is the first data structure that, given a sublinear (in $n$) number of samples from $p$, identifies $v_i$ in time sublinear in $k$. We also give an improved version of the algorithm of Acharya et al. (2018) that reports $v_i$ in time linear in $k$. The experimental evaluation of the latter algorithm shows that it achieves a significant reduction in the number of operations needed to achieve a given accuracy compared to prior work.",
+    "link": "http://arxiv.org/abs/2306.11312",
+    "context": "Title: Data Structures for Density Estimation. (arXiv:2306.11312v1 [cs.DS])\nAbstract: We study statistical/computational tradeoffs for the following density estimation problem: given $k$ distributions $v_1, \\ldots, v_k$ over a discrete domain of size $n$, and sampling access to a distribution $p$, identify $v_i$ that is \"close\" to $p$. Our main result is the first data structure that, given a sublinear (in $n$) number of samples from $p$, identifies $v_i$ in time sublinear in $k$. We also give an improved version of the algorithm of Acharya et al. (2018) that reports $v_i$ in time linear in $k$. The experimental evaluation of the latter algorithm shows that it achieves a significant reduction in the number of operations needed to achieve a given accuracy compared to prior work.",
+    "path": "papers/23/06/2306.11312.json",
+    "total_tokens": 762,
+    "translated_title": "密度估计的数据结构",
+    "translated_abstract": "我们研究了以下密度估计问题的统计/计算权衡：给定离散域大小为$n$的$k$个分布$v_1, \\ldots, v_k$，以及对分布$p$的采样访问，找到与$p$“接近”的$v_i$。我们的主要结果是第一个数据结构，给定$p$的子线性（在$n$中）样本数量，能够在$k$的子线性时间内识别$v_i$。我们还提供了Acharya等人（2018）算法的改进版本，可以在线性时间内报告$v_i$。后者算法的实验评估表明，它相对于之前的工作，在实现给定精度所需操作数上实现了显着的降低。",
+    "tldr": "该论文提出了一个可以在较小的样本数量和时间内识别出“接近”的分布的数据结构，同时还改进了一个线性时间算法，能够更有效地实现给定准确性所需操作数的减少。",
+    "en_tdlr": "This paper presents a data structure that can identify \"close\" distributions in a short time and with a small number of samples, and improves upon a linear time algorithm to significantly reduce the operations needed to achieve a given accuracy."
+}

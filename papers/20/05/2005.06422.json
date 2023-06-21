@@ -1,0 +1,12 @@
+{
+    "title": "Deep Learning Convective Flow Using Conditional Generative Adversarial Networks. (arXiv:2005.06422v2 [physics.flu-dyn] UPDATED)",
+    "abstract": "We developed a general deep learning framework, FluidGAN, capable of learning and predicting time-dependent convective flow coupled with energy transport. FluidGAN is thoroughly data-driven with high speed and accuracy and satisfies the physics of fluid without any prior knowledge of underlying fluid and energy transport physics. FluidGAN also learns the coupling between velocity, pressure, and temperature fields. Our framework helps understand deterministic multiphysics phenomena where the underlying physical model is complex or unknown.",
+    "link": "http://arxiv.org/abs/2005.06422",
+    "context": "Title: Deep Learning Convective Flow Using Conditional Generative Adversarial Networks. (arXiv:2005.06422v2 [physics.flu-dyn] UPDATED)\nAbstract: We developed a general deep learning framework, FluidGAN, capable of learning and predicting time-dependent convective flow coupled with energy transport. FluidGAN is thoroughly data-driven with high speed and accuracy and satisfies the physics of fluid without any prior knowledge of underlying fluid and energy transport physics. FluidGAN also learns the coupling between velocity, pressure, and temperature fields. Our framework helps understand deterministic multiphysics phenomena where the underlying physical model is complex or unknown.",
+    "path": "papers/20/05/2005.06422.json",
+    "total_tokens": 655,
+    "translated_title": "使用条件生成对抗网络进行深度学习对流流动",
+    "translated_abstract": "我们开发了一个通用的深度学习框架FluidGAN，能够学习和预测与能量传输耦合的时间依赖性对流流动。FluidGAN是完全数据驱动的，具有高速和高准确性，并且在不需要对底层流体和能量传输物理有任何先验知识的情况下满足流体物理学。FluidGAN还学习了速度、压力和温度场之间的耦合关系。我们的框架可帮助理解底层物理模型复杂或未知的确定性多物理现象。",
+    "tldr": "FluidGAN是一种通用深度学习框架，能够高速、高准确性地预测复杂对流流动，并可帮助理解物理模型复杂或未知的确定性多物理现象。",
+    "en_tdlr": "FluidGAN is a general deep learning framework capable of accurately predicting complex convective flows and aiding in understanding deterministic multiphysics phenomena with complex or unknown physical models."
+}

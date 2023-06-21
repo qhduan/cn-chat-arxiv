@@ -1,0 +1,12 @@
+{
+    "title": "Dropout Regularization Versus $\\ell_2$-Penalization in the Linear Model. (arXiv:2306.10529v1 [math.ST])",
+    "abstract": "We investigate the statistical behavior of gradient descent iterates with dropout in the linear regression model. In particular, non-asymptotic bounds for expectations and covariance matrices of the iterates are derived. In contrast with the widely cited connection between dropout and $\\ell_2$-regularization in expectation, the results indicate a much more subtle relationship, owing to interactions between the gradient descent dynamics and the additional randomness induced by dropout. We also study a simplified variant of dropout which does not have a regularizing effect and converges to the least squares estimator.",
+    "link": "http://arxiv.org/abs/2306.10529",
+    "context": "Title: Dropout Regularization Versus $\\ell_2$-Penalization in the Linear Model. (arXiv:2306.10529v1 [math.ST])\nAbstract: We investigate the statistical behavior of gradient descent iterates with dropout in the linear regression model. In particular, non-asymptotic bounds for expectations and covariance matrices of the iterates are derived. In contrast with the widely cited connection between dropout and $\\ell_2$-regularization in expectation, the results indicate a much more subtle relationship, owing to interactions between the gradient descent dynamics and the additional randomness induced by dropout. We also study a simplified variant of dropout which does not have a regularizing effect and converges to the least squares estimator.",
+    "path": "papers/23/06/2306.10529.json",
+    "total_tokens": 718,
+    "translated_title": "线性模型中的Dropout正则化与$\\ell_2$-Penalization比较",
+    "translated_abstract": "本研究探讨了线性回归模型中采用dropout的梯度下降算法的统计行为。具体而言，推导了迭代的期望和协方差矩阵的非渐近性界限。与文献中广泛引用的dropout与$\\ell_2$正则化的期望联系不同的是，结果表明了由于梯度下降动态与dropout引入的附加随机性之间的相互作用，两者之间存在着更加微妙的关系。我们还研究了一种简化版的dropout，它不具有正则化作用，并收敛于最小平方估计器。",
+    "tldr": "研究发现，线性回归模型中采用dropout技术的统计行为具有更加微妙的与$\\ell_2$正则化的联系，dropout并不像预期中那样具有稳定的正则化效果。",
+    "en_tdlr": "This paper investigates the statistical behavior of gradient descent iterates with dropout in the linear regression model, and finds a more subtle relationship between Dropout Regularization and $\\ell_2$-Penalization than expected."
+}

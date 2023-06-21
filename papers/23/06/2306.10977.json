@@ -1,0 +1,12 @@
+{
+    "title": "Prediction model for rare events in longitudinal follow-up and resampling methods. (arXiv:2306.10977v1 [stat.ME])",
+    "abstract": "We consider the problem of model building for rare events prediction in longitudinal follow-up studies. In this paper, we compare several resampling methods to improve standard regression models on a real life example. We evaluate the effect of the sampling rate on the predictive performances of the models. To evaluate the predictive performance of a longitudinal model, we consider a validation technique that takes into account time and corresponds to the actual use in real life.",
+    "link": "http://arxiv.org/abs/2306.10977",
+    "context": "Title: Prediction model for rare events in longitudinal follow-up and resampling methods. (arXiv:2306.10977v1 [stat.ME])\nAbstract: We consider the problem of model building for rare events prediction in longitudinal follow-up studies. In this paper, we compare several resampling methods to improve standard regression models on a real life example. We evaluate the effect of the sampling rate on the predictive performances of the models. To evaluate the predictive performance of a longitudinal model, we consider a validation technique that takes into account time and corresponds to the actual use in real life.",
+    "path": "papers/23/06/2306.10977.json",
+    "total_tokens": 604,
+    "translated_title": "纵向跟踪研究中罕见事件的预测模型及重抽样方法",
+    "translated_abstract": "本文探讨了纵向跟踪研究中针对罕见事件预测的模型构建问题。我们在实际案例中比较了几种重抽样方法，以改进标准回归模型。我们评估了抽样率对模型预测性能的影响。为了评估纵向模型的预测性能，我们采用了一种考虑时间因素、与实际应用相对应的验证技术。",
+    "tldr": "本文比较了几种重抽样方法以改进标准回归模型，并评估了抽样率对预测模型的影响。",
+    "en_tdlr": "This paper compares several resampling methods to improve standard regression models for rare events prediction in longitudinal follow-up studies, and evaluates the effect of the sampling rate on the predictive performance of the models."
+}

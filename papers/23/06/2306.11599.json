@@ -1,0 +1,12 @@
+{
+    "title": "Collective Arbitrage and the Value of Cooperation. (arXiv:2306.11599v1 [q-fin.MF])",
+    "abstract": "We introduce the notions of Collective Arbitrage and of Collective Super-replication in a setting where agents are investing in their markets and are allowed to cooperate through exchanges. We accordingly establish versions of the fundamental theorem of asset pricing and of the pricing-hedging duality. Examples show the advantage of our approach.",
+    "link": "http://arxiv.org/abs/2306.11599",
+    "context": "Title: Collective Arbitrage and the Value of Cooperation. (arXiv:2306.11599v1 [q-fin.MF])\nAbstract: We introduce the notions of Collective Arbitrage and of Collective Super-replication in a setting where agents are investing in their markets and are allowed to cooperate through exchanges. We accordingly establish versions of the fundamental theorem of asset pricing and of the pricing-hedging duality. Examples show the advantage of our approach.",
+    "path": "papers/23/06/2306.11599.json",
+    "total_tokens": 511,
+    "translated_title": "集体套利与合作价值",
+    "translated_abstract": "我们在一个代理投资并允许通过交易合作的环境中介绍了集体套利和集体超复制的概念。我们相应地建立了资产定价和定价对冲二元定理的版本。例子展示了我们方法的优势。",
+    "tldr": "该论文提出了集体套利和集体超复制的概念，建立了对应的二元定理版本，证明了合作交易的优势。",
+    "en_tdlr": "The paper introduces Collective Arbitrage and Collective Super-replication in a framework where agents can cooperate through exchanges and establishes versions of fundamental theorem of asset pricing and pricing-hedging duality, with examples demonstrating the advantages of this approach."
+}

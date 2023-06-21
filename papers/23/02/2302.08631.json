@@ -1,0 +1,11 @@
+{
+    "title": "Practical Contextual Bandits with Feedback Graphs. (arXiv:2302.08631v2 [cs.LG] UPDATED)",
+    "abstract": "While contextual bandit has a mature theory, effectively leveraging different feedback patterns to enhance the pace of learning remains unclear. Bandits with feedback graphs, which interpolates between the full information and bandit regimes, provides a promising framework to mitigate the statistical complexity of learning. In this paper, we propose and analyze an approach to contextual bandits with feedback graphs based upon reduction to regression. The resulting algorithms are computationally practical and achieve established minimax rates, thereby reducing the statistical complexity in real-world applications.",
+    "link": "http://arxiv.org/abs/2302.08631",
+    "context": "Title: Practical Contextual Bandits with Feedback Graphs. (arXiv:2302.08631v2 [cs.LG] UPDATED)\nAbstract: While contextual bandit has a mature theory, effectively leveraging different feedback patterns to enhance the pace of learning remains unclear. Bandits with feedback graphs, which interpolates between the full information and bandit regimes, provides a promising framework to mitigate the statistical complexity of learning. In this paper, we propose and analyze an approach to contextual bandits with feedback graphs based upon reduction to regression. The resulting algorithms are computationally practical and achieve established minimax rates, thereby reducing the statistical complexity in real-world applications.",
+    "path": "papers/23/02/2302.08631.json",
+    "total_tokens": 645,
+    "translated_title": "反馈图上的实用情境赌博算法",
+    "translated_abstract": "尽管情境赌博已经有成熟的理论，但如何有效地利用不同的反馈模式来加速学习仍不清楚。在反馈图上的赌博问题提供了一个有前途的框架来缓解学习的统计复杂性。本文基于回归的思想，提出和分析了一种情境赌博算法，这些算法在现实应用中具有计算上的可行性，并实现了已知的极小极值，因此减少了学习的统计复杂性。",
+    "tldr": "本文提出了一种利用反馈图的情境赌博算法，可用于缓解学习的统计复杂性，在实际应用中具有计算上的可行性和优秀的表现。"
+}

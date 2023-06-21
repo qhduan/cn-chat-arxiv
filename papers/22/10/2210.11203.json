@@ -1,0 +1,12 @@
+{
+    "title": "Voter Coalitions and democracy in Decentralized Finance: Evidence from MakerDAO. (arXiv:2210.11203v4 [cs.SI] UPDATED)",
+    "abstract": "Decentralized Autonomous Organization (DAO) provides a decentralized governance solution through blockchain, where decision-making process relies on on-chain voting and follows majority rule. This paper focuses on MakerDAO, and we find three voter coalitions after applying clustering algorithm to voting history. The emergence of a dominant voter coalition is a signal of governance centralization in DAO, and voter coalitions have complicated influence on Maker protocol, which is governed by MakerDAO. This paper presents empirical evidence of multicoalition democracy in DAO and further contributes to the contemporary debate on whether decentralized governance is possible.",
+    "link": "http://arxiv.org/abs/2210.11203",
+    "context": "Title: Voter Coalitions and democracy in Decentralized Finance: Evidence from MakerDAO. (arXiv:2210.11203v4 [cs.SI] UPDATED)\nAbstract: Decentralized Autonomous Organization (DAO) provides a decentralized governance solution through blockchain, where decision-making process relies on on-chain voting and follows majority rule. This paper focuses on MakerDAO, and we find three voter coalitions after applying clustering algorithm to voting history. The emergence of a dominant voter coalition is a signal of governance centralization in DAO, and voter coalitions have complicated influence on Maker protocol, which is governed by MakerDAO. This paper presents empirical evidence of multicoalition democracy in DAO and further contributes to the contemporary debate on whether decentralized governance is possible.",
+    "path": "papers/22/10/2210.11203.json",
+    "total_tokens": 720,
+    "translated_title": "选民联盟与去中心化金融的民主：来自MakerDAO的证据",
+    "translated_abstract": "去中心化自治组织（DAO）通过区块链提供了去中心化的治理方案，决策过程依赖于链上投票并遵循多数规则。本文聚焦于MakerDAO，在投票历史中应用聚类算法找到了三个选民联盟。主导选民联盟的出现是DAO治理集中化的信号，选民联盟对由MakerDAO治理的Maker协议产生了复杂的影响。本文提供了DAO中多联盟民主的实证证据，并进一步对当前有关去中心化治理是否可能的辩论做出了贡献。",
+    "tldr": "本文通过聚类算法在MakerDAO的投票历史中找到了三个选民联盟，支配性选民联盟的出现是DAO治理集中化的信号。本研究提供了DAO中多联盟民主的实证证据。",
+    "en_tdlr": "This paper applies clustering algorithm to the voting history of MakerDAO and finds three voter coalitions, suggesting the emergence of a dominant coalition as a signal of governance centralization in DAO. The study provides empirical evidence of multicoalition democracy in DAO."
+}

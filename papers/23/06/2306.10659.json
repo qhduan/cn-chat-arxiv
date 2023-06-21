@@ -1,0 +1,12 @@
+{
+    "title": "Option Pricing for the Variance Gamma Model: A New Perspective. (arXiv:2306.10659v1 [q-fin.MF])",
+    "abstract": "The variance gamma model is a widely popular model for option pricing in both academia and industry. In this paper, we provide a new perspective for pricing European style options for the variance gamma model by deriving closed-form formulas combining the randomization method and fractional derivatives. We also compare our results with various existing results in the literature by numerical examples.",
+    "link": "http://arxiv.org/abs/2306.10659",
+    "context": "Title: Option Pricing for the Variance Gamma Model: A New Perspective. (arXiv:2306.10659v1 [q-fin.MF])\nAbstract: The variance gamma model is a widely popular model for option pricing in both academia and industry. In this paper, we provide a new perspective for pricing European style options for the variance gamma model by deriving closed-form formulas combining the randomization method and fractional derivatives. We also compare our results with various existing results in the literature by numerical examples.",
+    "path": "papers/23/06/2306.10659.json",
+    "total_tokens": 544,
+    "translated_title": "变差伽马模型的期权定价：一种新的视角",
+    "translated_abstract": "变差伽马模型是学术界和工业界广泛使用的期权定价模型。本文通过将随机化方法和分数导数结合，导出了欧式期权的封闭形式公式，提供了一种新的变差伽马模型期权定价的视角。我们还通过数值实例将我们的结果与文献中的各种现有结果进行了比较。",
+    "tldr": "本文通过随机化方法和分数导数结合，提供了一种新的变差伽马模型期权定价的视角。",
+    "en_tdlr": "This paper provides a new perspective for pricing European style options for the variance gamma model by deriving closed-form formulas combining the randomization method and fractional derivatives."
+}

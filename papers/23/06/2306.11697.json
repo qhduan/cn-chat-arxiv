@@ -1,0 +1,12 @@
+{
+    "title": "Individual Treatment Effects in Extreme Regimes. (arXiv:2306.11697v1 [stat.ME])",
+    "abstract": "Understanding individual treatment effects in extreme regimes is important for characterizing risks associated with different interventions. This is hindered by the fact that extreme regime data may be hard to collect, as it is scarcely observed in practice. In addressing this issue, we propose a new framework for estimating the individual treatment effect in extreme regimes (ITE$_2$). Specifically, we quantify this effect by the changes in the tail decay rates of potential outcomes in the presence or absence of the treatment. Subsequently, we establish conditions under which ITE$_2$ may be calculated and develop algorithms for its computation. We demonstrate the efficacy of our proposed method on various synthetic and semi-synthetic datasets.",
+    "link": "http://arxiv.org/abs/2306.11697",
+    "context": "Title: Individual Treatment Effects in Extreme Regimes. (arXiv:2306.11697v1 [stat.ME])\nAbstract: Understanding individual treatment effects in extreme regimes is important for characterizing risks associated with different interventions. This is hindered by the fact that extreme regime data may be hard to collect, as it is scarcely observed in practice. In addressing this issue, we propose a new framework for estimating the individual treatment effect in extreme regimes (ITE$_2$). Specifically, we quantify this effect by the changes in the tail decay rates of potential outcomes in the presence or absence of the treatment. Subsequently, we establish conditions under which ITE$_2$ may be calculated and develop algorithms for its computation. We demonstrate the efficacy of our proposed method on various synthetic and semi-synthetic datasets.",
+    "path": "papers/23/06/2306.11697.json",
+    "total_tokens": 748,
+    "translated_title": "极端环境下的个体治疗效果",
+    "translated_abstract": "了解极端环境下的个体治疗效果对于描述不同干预策略的风险至关重要。但极端环境数据很难收集，因为它在实践中很少被观察到。为了解决这个问题，我们提出了一个新的框架来估计极端环境下的个体治疗效果（ITE$_2$）。具体而言，我们通过测量潜在结果在存在或缺乏治疗的情况下的尾部衰减率变化来量化这种效果。随后，我们建立了 ITE$_2$ 的计算条件，并开发了计算算法。我们在各种合成和半合成数据集上演示了我们提出的方法的功效。",
+    "tldr": "本文提出了一种新的框架，通过测量潜在结果在存在或缺乏治疗的情况下的尾部衰减率变化，来估计极端环境下的个体治疗效果（ITE$_2$）。",
+    "en_tdlr": "This paper proposes a new framework for estimating individual treatment effects in extreme regimes, by quantifying changes in tail decay rates of potential outcomes in the presence or absence of the treatment."
+}

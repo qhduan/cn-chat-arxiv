@@ -1,0 +1,12 @@
+{
+    "title": "Panoptic: the perpetual, oracle-free options protocol. (arXiv:2204.14232v3 [q-fin.PR] UPDATED)",
+    "abstract": "Panoptic is the perpetual, oracle-free, instant-settlement options trading protocol on the Ethereum blockchain. Panoptic enables the permissionless trading of options on top of any asset pool in the Uniswap v3 ecosystem and seeks to develop a trustless, permissionless, and composable options product, i.e., do for decentralized options markets what x*y=k automated market maker protocols did for spot trading.",
+    "link": "http://arxiv.org/abs/2204.14232",
+    "context": "Title: Panoptic: the perpetual, oracle-free options protocol. (arXiv:2204.14232v3 [q-fin.PR] UPDATED)\nAbstract: Panoptic is the perpetual, oracle-free, instant-settlement options trading protocol on the Ethereum blockchain. Panoptic enables the permissionless trading of options on top of any asset pool in the Uniswap v3 ecosystem and seeks to develop a trustless, permissionless, and composable options product, i.e., do for decentralized options markets what x*y=k automated market maker protocols did for spot trading.",
+    "path": "papers/22/04/2204.14232.json",
+    "total_tokens": 618,
+    "translated_title": "Panoptic: 永久、无需预言机的期权协议。",
+    "translated_abstract": "Panoptic 是基于以太坊区块链的永久、无需预言机、即时结算的期权交易协议。Panoptic 允许在 Uniswap v3 生态系统中的任何资产池上进行无需许可的期权交易，并致力于开发一个无需信任、无需许可、可组合的期权产品，即为去中心化期权市场所做的 x*y=k 自动市场制造器协议所做的。",
+    "tldr": "Panoptic 是一个无需预言机的永久期权协议，可以在 Uniswap v3 生态系统中的任何资产池上进行无需许可的期权交易。",
+    "en_tdlr": "Panoptic is a perpetual options protocol that does not rely on oracles and allows permissionless trading on any asset pool in the Uniswap v3 ecosystem. It aims to create a trustless, permissionless, and composable options product for decentralized options markets, similar to how x*y=k automated market maker protocols revolutionized spot trading."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Formal Covariate Benchmarking to Bound Omitted Variable Bias. (arXiv:2306.10562v1 [econ.EM])",
+    "abstract": "Covariate benchmarking is an important part of sensitivity analysis about omitted variable bias and can be used to bound the strength of the unobserved confounder using information and judgments about observed covariates. It is common to carry out formal covariate benchmarking after residualizing the unobserved confounder on the set of observed covariates. In this paper, I explain the rationale and details of this procedure. I clarify some important details of the process of formal covariate benchmarking and highlight some of the difficulties of interpretation that researchers face in reasoning about the residualized part of unobserved confounders. I explain all the points with several empirical examples.",
+    "link": "http://arxiv.org/abs/2306.10562",
+    "context": "Title: Formal Covariate Benchmarking to Bound Omitted Variable Bias. (arXiv:2306.10562v1 [econ.EM])\nAbstract: Covariate benchmarking is an important part of sensitivity analysis about omitted variable bias and can be used to bound the strength of the unobserved confounder using information and judgments about observed covariates. It is common to carry out formal covariate benchmarking after residualizing the unobserved confounder on the set of observed covariates. In this paper, I explain the rationale and details of this procedure. I clarify some important details of the process of formal covariate benchmarking and highlight some of the difficulties of interpretation that researchers face in reasoning about the residualized part of unobserved confounders. I explain all the points with several empirical examples.",
+    "path": "papers/23/06/2306.10562.json",
+    "total_tokens": 796,
+    "translated_title": "正式协变量基准测试以限制忽略变量偏差",
+    "translated_abstract": "协变量基准测试是关于忽略变量偏差的敏感性分析的重要部分，可以使用有关观察到的协变量的信息和判断来限制未观察到的混淆因素的强度。通常在将未观察到的混杂变量在观察到的协变量集上进行残差化后进行正式的协变量基准测试。本文解释了该过程的原理和细节，并强调了研究人员在推理未观察到的混淆因素的残差部分时所面临的解释困难。文章通过几个实证例子来阐述所有的观点。",
+    "tldr": "本文介绍了正式协变量基准测试的原理和细节，强调了解释残差部分时研究人员所面临的困难。这个方法能限制忽略变量偏差并给出一个未观察到的混杂因子的强度范围。"
+}

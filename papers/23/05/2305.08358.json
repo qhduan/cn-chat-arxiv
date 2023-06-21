@@ -1,0 +1,12 @@
+{
+    "title": "Quadratic Functional Encryption for Secure Training in Vertical Federated Learning. (arXiv:2305.08358v2 [cs.CR] UPDATED)",
+    "abstract": "Vertical federated learning (VFL) enables the collaborative training of machine learning (ML) models in settings where the data is distributed amongst multiple parties who wish to protect the privacy of their individual data. Notably, in VFL, the labels are available to a single party and the complete feature set is formed only when data from all parties is combined. Recently, Xu et al. proposed a new framework called FedV for secure gradient computation for VFL using multi-input functional encryption. In this work, we explain how some of the information leakage in Xu et al. can be avoided by using Quadratic functional encryption when training generalized linear models for vertical federated learning.",
+    "link": "http://arxiv.org/abs/2305.08358",
+    "context": "Title: Quadratic Functional Encryption for Secure Training in Vertical Federated Learning. (arXiv:2305.08358v2 [cs.CR] UPDATED)\nAbstract: Vertical federated learning (VFL) enables the collaborative training of machine learning (ML) models in settings where the data is distributed amongst multiple parties who wish to protect the privacy of their individual data. Notably, in VFL, the labels are available to a single party and the complete feature set is formed only when data from all parties is combined. Recently, Xu et al. proposed a new framework called FedV for secure gradient computation for VFL using multi-input functional encryption. In this work, we explain how some of the information leakage in Xu et al. can be avoided by using Quadratic functional encryption when training generalized linear models for vertical federated learning.",
+    "path": "papers/23/05/2305.08358.json",
+    "total_tokens": 680,
+    "translated_title": "基于二次功能加密的纵向联邦学习中安全训练方法",
+    "translated_abstract": "纵向联邦学习（VFL）支持在多个数据隐私得到保护的参与方之间协同训练机器学习（ML）模型。在VFL中，标签仅对一个方可见，仅当所有参与方的数据被组合后才形成完整的特征集。最近，Xu等人提出了一种名为FedV的新框架，利用多输入功能加密用于VFL的安全梯度计算。本文认为，对于竖直联邦学习中的广义线性模型训练，使用二次功能加密可以避免Xu等人的信息泄露。",
+    "tldr": "本文提出了基于二次功能加密的纵向联邦学习安全训练方法，可以有效避免信息泄露问题。",
+    "en_tdlr": "This paper proposes a secure training method for vertical federated learning using quadratic functional encryption to avoid information leakage issues."
+}

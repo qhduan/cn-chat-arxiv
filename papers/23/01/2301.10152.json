@@ -1,0 +1,12 @@
+{
+    "title": "How Jellyfish Characterise Alternating Group Equivariant Neural Networks. (arXiv:2301.10152v2 [cs.LG] UPDATED)",
+    "abstract": "We provide a full characterisation of all of the possible alternating group ($A_n$) equivariant neural networks whose layers are some tensor power of $\\mathbb{R}^{n}$. In particular, we find a basis of matrices for the learnable, linear, $A_n$-equivariant layer functions between such tensor power spaces in the standard basis of $\\mathbb{R}^{n}$. We also describe how our approach generalises to the construction of neural networks that are equivariant to local symmetries.",
+    "link": "http://arxiv.org/abs/2301.10152",
+    "context": "Title: How Jellyfish Characterise Alternating Group Equivariant Neural Networks. (arXiv:2301.10152v2 [cs.LG] UPDATED)\nAbstract: We provide a full characterisation of all of the possible alternating group ($A_n$) equivariant neural networks whose layers are some tensor power of $\\mathbb{R}^{n}$. In particular, we find a basis of matrices for the learnable, linear, $A_n$-equivariant layer functions between such tensor power spaces in the standard basis of $\\mathbb{R}^{n}$. We also describe how our approach generalises to the construction of neural networks that are equivariant to local symmetries.",
+    "path": "papers/23/01/2301.10152.json",
+    "total_tokens": 667,
+    "translated_title": "水母如何表征交替群等变神经网络",
+    "translated_abstract": "我们提供了所有可能的层数为$\\mathbb{R}^{n}$张量幂次的交替群($A_n$)等变神经网络的完整表征。特别地，我们在$\\mathbb{R}^{n}$的标准基础上找到一组可学习的、线性的、$A_n$等变层函数的矩阵基。我们还描述了我们的方法如何推广到构建等变于局部对称性的神经网络。",
+    "tldr": "该论文提供了交替群($A_n$)等变神经网络的完整表征，其中描述了可学习的、线性的、$A_n$等变层函数的矩阵基，在神经网络构建中具有广泛的适用性。",
+    "en_tdlr": "This paper provides a complete characterization of alternating group ($A_n$) equivariant neural networks, with a basis of matrices for the learnable, linear, $A_n$-equivariant layer functions described. The approach can be generalized to the construction of neural networks equivariant to local symmetries."
+}

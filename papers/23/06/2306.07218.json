@@ -1,0 +1,12 @@
+{
+    "title": "A Protocol for Continual Explanation of SHAP. (arXiv:2306.07218v2 [cs.LG] UPDATED)",
+    "abstract": "Continual Learning trains models on a stream of data, with the aim of learning new information without forgetting previous knowledge. Given the dynamic nature of such environments, explaining the predictions of these models can be challenging. We study the behavior of SHAP values explanations in Continual Learning and propose an evaluation protocol to robustly assess the change of explanations in Class-Incremental scenarios. We observed that, while Replay strategies enforce the stability of SHAP values in feedforward/convolutional models, they are not able to do the same with fully-trained recurrent models. We show that alternative recurrent approaches, like randomized recurrent models, are more effective in keeping the explanations stable over time.",
+    "link": "http://arxiv.org/abs/2306.07218",
+    "context": "Title: A Protocol for Continual Explanation of SHAP. (arXiv:2306.07218v2 [cs.LG] UPDATED)\nAbstract: Continual Learning trains models on a stream of data, with the aim of learning new information without forgetting previous knowledge. Given the dynamic nature of such environments, explaining the predictions of these models can be challenging. We study the behavior of SHAP values explanations in Continual Learning and propose an evaluation protocol to robustly assess the change of explanations in Class-Incremental scenarios. We observed that, while Replay strategies enforce the stability of SHAP values in feedforward/convolutional models, they are not able to do the same with fully-trained recurrent models. We show that alternative recurrent approaches, like randomized recurrent models, are more effective in keeping the explanations stable over time.",
+    "path": "papers/23/06/2306.07218.json",
+    "total_tokens": 757,
+    "translated_title": "SHAP解释的持续解释协议",
+    "translated_abstract": "持续学习旨在在数据流中训练模型，以学习新信息而不会忘记先前的知识。鉴于这种环境的动态性质，解释这些模型的预测可能具有挑战性。我们研究了 SHAP 值解释在持续学习中的行为，并提出了一种评估协议，以可靠地评估逐类增量场景中解释的变化。我们观察到，虽然重放策略可以强制前馈/卷积模型中的 SHAP 值的稳定性，但它们无法在完全训练的循环模型中做到这一点。我们表明，像随机循环模型这样的备选循环方法在随时间保持解释稳定方面更有效。",
+    "tldr": "本文研究了在持续学习中SHAP值解释的稳定性问题，提出了一种评估协议，并指出随机循环模型是更有效的备选循环方法。",
+    "en_tdlr": "This paper studies the stability of SHAP value explanations in continual learning, proposes an evaluation protocol, and suggests that alternative recurrent approaches such as randomized recurrent models are more effective in keeping the explanations stable over time."
+}

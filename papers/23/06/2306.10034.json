@@ -1,0 +1,12 @@
+{
+    "title": "Unlocking Insights into Business Trajectories with Transformer-based Spatio-temporal Data Analysis. (arXiv:2306.10034v1 [cs.IR])",
+    "abstract": "The world of business is constantly evolving and staying ahead of the curve requires a deep understanding of market trends and performance. This article addresses this requirement by modeling business trajectories using news articles data.",
+    "link": "http://arxiv.org/abs/2306.10034",
+    "context": "Title: Unlocking Insights into Business Trajectories with Transformer-based Spatio-temporal Data Analysis. (arXiv:2306.10034v1 [cs.IR])\nAbstract: The world of business is constantly evolving and staying ahead of the curve requires a deep understanding of market trends and performance. This article addresses this requirement by modeling business trajectories using news articles data.",
+    "path": "papers/23/06/2306.10034.json",
+    "total_tokens": 466,
+    "translated_title": "基于Transformer的时空数据分析在揭示商业轨迹方面的应用研究",
+    "translated_abstract": "商业世界持续发展，保持领先需要深入理解市场趋势和业绩。本文通过模拟商业轨迹，利用新闻文章数据来满足这一需求。",
+    "tldr": "本研究利用新闻文章数据，采用Transformer模型模拟商业轨迹，揭示商业趋势和行业表现。",
+    "en_tdlr": "This study uses news article data and Transformer model to simulate business trajectories, revealing business trends and industry performance."
+}

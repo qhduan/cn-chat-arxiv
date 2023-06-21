@@ -1,0 +1,12 @@
+{
+    "title": "Variational Gaussian filtering via Wasserstein gradient flows. (arXiv:2303.06398v2 [stat.CO] UPDATED)",
+    "abstract": "We present a novel approach to approximate Gaussian and mixture-of-Gaussians filtering. Our method relies on a variational approximation via a gradient-flow representation. The gradient flow is derived from a Kullback--Leibler discrepancy minimization on the space of probability distributions equipped with the Wasserstein metric. We outline the general method and show its competitiveness in posterior representation and parameter estimation on two state-space models for which Gaussian approximations typically fail: systems with multiplicative noise and multi-modal state distributions.",
+    "link": "http://arxiv.org/abs/2303.06398",
+    "context": "Title: Variational Gaussian filtering via Wasserstein gradient flows. (arXiv:2303.06398v2 [stat.CO] UPDATED)\nAbstract: We present a novel approach to approximate Gaussian and mixture-of-Gaussians filtering. Our method relies on a variational approximation via a gradient-flow representation. The gradient flow is derived from a Kullback--Leibler discrepancy minimization on the space of probability distributions equipped with the Wasserstein metric. We outline the general method and show its competitiveness in posterior representation and parameter estimation on two state-space models for which Gaussian approximations typically fail: systems with multiplicative noise and multi-modal state distributions.",
+    "path": "papers/23/03/2303.06398.json",
+    "total_tokens": 625,
+    "translated_title": "通过Wasserstein梯度流进行变分高斯滤波",
+    "translated_abstract": "我们提出了一种新方法来近似高斯和高斯混合滤波。我们的方法依赖于通过梯度流表示的变分近似。梯度流是基于在概率分布空间上配备了Wasserstein度量的Kullback-Leibler差异最小化导出的。我们概述了一般方法，并展示了它在后验表示和参数估计上的竞争力，针对高斯近似通常失败的两种状态空间模型：具有乘法噪声和多峰态分布。",
+    "tldr": "本论文提出了一种新方法通过Wasserstein梯度流进行变分高斯滤波，竞争力突出。",
+    "en_tdlr": "This paper proposes a novel approach for approximating Gaussian and mixture-of-Gaussians filtering through Wasserstein gradient flows, which is competitive and effective in systems with multiplicative noise and multi-modal state distributions."
+}

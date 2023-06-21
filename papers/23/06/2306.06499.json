@@ -1,0 +1,12 @@
+{
+    "title": "Defining and Explorting the Intelligence Space. (arXiv:2306.06499v2 [cs.AI] UPDATED)",
+    "abstract": "Intelligence is a difficult concept to define, despite many attempts at doing so. Rather than trying to settle on a single definition, this article introduces a broad perspective on what intelligence is, by laying out a cascade of definitions that induces both a nested hierarchy of three levels of intelligence and a wider-ranging space that is built around them and approximations to them. Within this intelligence space, regions are identified that correspond to both natural -- most particularly, human -- intelligence and artificial intelligence (AI), along with the crossover notion of humanlike intelligence. These definitions are then exploited in early explorations of four more advanced, and likely more controversial, topics: the singularity, generative AI, ethics, and intellectual property.",
+    "link": "http://arxiv.org/abs/2306.06499",
+    "context": "Title: Defining and Explorting the Intelligence Space. (arXiv:2306.06499v2 [cs.AI] UPDATED)\nAbstract: Intelligence is a difficult concept to define, despite many attempts at doing so. Rather than trying to settle on a single definition, this article introduces a broad perspective on what intelligence is, by laying out a cascade of definitions that induces both a nested hierarchy of three levels of intelligence and a wider-ranging space that is built around them and approximations to them. Within this intelligence space, regions are identified that correspond to both natural -- most particularly, human -- intelligence and artificial intelligence (AI), along with the crossover notion of humanlike intelligence. These definitions are then exploited in early explorations of four more advanced, and likely more controversial, topics: the singularity, generative AI, ethics, and intellectual property.",
+    "path": "papers/23/06/2306.06499.json",
+    "total_tokens": 725,
+    "translated_title": "确定和探索智能空间",
+    "translated_abstract": "尽管尝试了许多次，智能是一个难以定义的概念。本文引入了一个广泛的视角来定义智能, 提出了一系列定义，构建了三个层次的智能嵌套层次和以它们及其近似值为基础的广泛空间。在这个智能空间中，鉴别出对应于自然——尤其是人类——智能和人工智能（AI）以及类人智能的区域。然后，利用这些定义初步探索了四个更先进、可能更具争议性的话题：奇点、生成AI、伦理和知识产权。",
+    "tldr": "本文通过引入广泛视角来界定智能并建立了三级嵌套结构及其基础的广泛空间。利用这些定义初步探索了奇点、生成AI、伦理和知识产权等话题。",
+    "en_tdlr": "This article introduces a broad perspective on defining intelligence with a hierarchy of three levels and a wide-ranging space based on them and explores advanced topics such as singularity, generative AI, ethics, and intellectual property."
+}

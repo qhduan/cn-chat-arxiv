@@ -1,0 +1,12 @@
+{
+    "title": "Coevolution of cognition and cooperation in structured populations under reinforcement learning. (arXiv:2306.11376v1 [physics.soc-ph])",
+    "abstract": "We study the evolution of behavior under reinforcement learning in a Prisoner's Dilemma where agents interact in a regular network and can learn about whether they play one-shot or repeatedly by incurring a cost of deliberation. With respect to other behavioral rules used in the literature, (i) we confirm the existence of a threshold value of the probability of repeated interaction, switching the emergent behavior from intuitive defector to dual-process cooperator; (ii) we find a different role of the node degree, with smaller degrees reducing the evolutionary success of dual-process cooperators; (iii) we observe a higher frequency of deliberation.",
+    "link": "http://arxiv.org/abs/2306.11376",
+    "context": "Title: Coevolution of cognition and cooperation in structured populations under reinforcement learning. (arXiv:2306.11376v1 [physics.soc-ph])\nAbstract: We study the evolution of behavior under reinforcement learning in a Prisoner's Dilemma where agents interact in a regular network and can learn about whether they play one-shot or repeatedly by incurring a cost of deliberation. With respect to other behavioral rules used in the literature, (i) we confirm the existence of a threshold value of the probability of repeated interaction, switching the emergent behavior from intuitive defector to dual-process cooperator; (ii) we find a different role of the node degree, with smaller degrees reducing the evolutionary success of dual-process cooperators; (iii) we observe a higher frequency of deliberation.",
+    "path": "papers/23/06/2306.11376.json",
+    "total_tokens": 744,
+    "translated_title": "结构化人群中认知和合作的共同演化在增强学习中的研究",
+    "translated_abstract": "本文研究了受强化学习影响下囚徒困境问题中智能体在规则化网络中相互交互，并能了解到它们是否支付考虑交互的费用。相对于文献中使用的其他行为规则，（i）我们确认了重复交互概率的阈值，从直觉的背叛者转变为双重过程的合作者；（ii）我们发现节点度数扮演了不同的角色，更小的度数降低了双重过程合作者的进化成功率；（iii）我们观察到了更高频繁的沉思。",
+    "tldr": "本研究发现在囚徒困境中，确定的重复交互概率阈值将导致智能体从直觉的背叛者转变为双重过程的合作者；更小的节点度数降低了双重过程合作者的成功率。",
+    "en_tdlr": "This study found that in the Prisoner's Dilemma, a threshold value of the probability of repeated interaction leads agents from intuitive defectors to dual-process cooperators; smaller node degrees reduce the success rate of dual-process cooperators."
+}

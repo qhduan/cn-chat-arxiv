@@ -1,0 +1,12 @@
+{
+    "title": "Brauer's Group Equivariant Neural Networks. (arXiv:2212.08630v2 [cs.LG] UPDATED)",
+    "abstract": "We provide a full characterisation of all of the possible group equivariant neural networks whose layers are some tensor power of $\\mathbb{R}^{n}$ for three symmetry groups that are missing from the machine learning literature: $O(n)$, the orthogonal group; $SO(n)$, the special orthogonal group; and $Sp(n)$, the symplectic group. In particular, we find a spanning set of matrices for the learnable, linear, equivariant layer functions between such tensor power spaces in the standard basis of $\\mathbb{R}^{n}$ when the group is $O(n)$ or $SO(n)$, and in the symplectic basis of $\\mathbb{R}^{n}$ when the group is $Sp(n)$.",
+    "link": "http://arxiv.org/abs/2212.08630",
+    "context": "Title: Brauer's Group Equivariant Neural Networks. (arXiv:2212.08630v2 [cs.LG] UPDATED)\nAbstract: We provide a full characterisation of all of the possible group equivariant neural networks whose layers are some tensor power of $\\mathbb{R}^{n}$ for three symmetry groups that are missing from the machine learning literature: $O(n)$, the orthogonal group; $SO(n)$, the special orthogonal group; and $Sp(n)$, the symplectic group. In particular, we find a spanning set of matrices for the learnable, linear, equivariant layer functions between such tensor power spaces in the standard basis of $\\mathbb{R}^{n}$ when the group is $O(n)$ or $SO(n)$, and in the symplectic basis of $\\mathbb{R}^{n}$ when the group is $Sp(n)$.",
+    "path": "papers/22/12/2212.08630.json",
+    "total_tokens": 810,
+    "translated_title": "Brauer群等变神经网络",
+    "translated_abstract": "我们提供了所有可能的群等变神经网络的完整特征描述，其中的层是$\\mathbb{R}^{n}$的某些张量幂，适用于三个在机器学习文献中缺失的对称群：$O(n)$（正交群），$SO(n)$（特殊正交群）和$Sp(n)$（辛群）。特别地，当群为$O(n)$或$SO(n)$时，在$\\mathbb{R}^{n}$的标准基础下，我们找到了可学习的、线性的、等变的层函数之间的矩阵的生成集；当群为$Sp(n)$时，我们则在$\\mathbb{R}^{n}$的辛基础下找到了这样的生成集。",
+    "tldr": "本文描述了对于三个在机器学习文献中缺失的对称群（$O(n)$、$SO(n)$和$Sp(n)$），所有可能的群等变神经网络的特征，并找到了这些网络在不同基础下矩阵的生成集。",
+    "en_tdlr": "This paper provides a full characterization of all possible group equivariant neural networks with layers that are some tensor power of $\\mathbb{R}^{n}$ for three symmetry groups missing in the machine learning literature: $O(n)$, $SO(n)$, and $Sp(n)$, and finds the generating set of matrices for the learnable, linear, equivariant layer functions between tensor power spaces in different bases."
+}

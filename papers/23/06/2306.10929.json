@@ -1,0 +1,12 @@
+{
+    "title": "On some semi-parametric estimates for European option prices. (arXiv:2306.10929v1 [math.PR])",
+    "abstract": "We show that an estimate by de la Pe\\~na, Ibragimov and Jordan for $\\mathbb{E}(X-c)^+$, with $c$ a constant and $X$ a random variable of which the mean, the variance, and $\\mathbb{P}(X \\leq c)$ are known, implies an estimate by Scarf on the infimum of $\\mathbb{E}(X \\wedge c)$ over the set of positive random variables $X$ with fixed mean and variance. This also shows, as a consequence, that the former estimate implies an estimate by Lo on European option prices.",
+    "link": "http://arxiv.org/abs/2306.10929",
+    "context": "Title: On some semi-parametric estimates for European option prices. (arXiv:2306.10929v1 [math.PR])\nAbstract: We show that an estimate by de la Pe\\~na, Ibragimov and Jordan for $\\mathbb{E}(X-c)^+$, with $c$ a constant and $X$ a random variable of which the mean, the variance, and $\\mathbb{P}(X \\leq c)$ are known, implies an estimate by Scarf on the infimum of $\\mathbb{E}(X \\wedge c)$ over the set of positive random variables $X$ with fixed mean and variance. This also shows, as a consequence, that the former estimate implies an estimate by Lo on European option prices.",
+    "path": "papers/23/06/2306.10929.json",
+    "total_tokens": 697,
+    "translated_title": "关于欧式期权价格的半参数估计",
+    "translated_abstract": "本文证明了de la Peña, Ibragimov和Jordan的一个估计方法，可以用来估计$\\mathbb{E}(X-c)^+$，其中$c$为常数，$X$为随机变量，其均值、方差和$\\mathbb{P}(X \\leq c)$都已知。这意味着Scarf的估计方法可以被用来估计所有正随机变量$X$的$\\mathbb{E}(X \\wedge c)$下确界，且这两种估计方法可以用来估计欧式期权价格的Lo的估计方法。",
+    "tldr": "本文提出了一种半参数估计方法，可以用来估计欧式期权价格，同时也保证了对于正随机变量$X$的$\\mathbb{E}(X \\wedge c)$下确界的估计。",
+    "en_tdlr": "This paper proposes a semi-parametric estimation method for European option prices and shows that it also implies an estimation method for the infimum of $\\mathbb{E}(X \\wedge c)$ over positive random variables $X$ with fixed mean and variance, which can be used to estimate European option prices as well."
+}

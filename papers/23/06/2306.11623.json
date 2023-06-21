@@ -1,0 +1,12 @@
+{
+    "title": "Mean-field Analysis of Generalization Errors. (arXiv:2306.11623v1 [stat.ML])",
+    "abstract": "We propose a novel framework for exploring weak and $L_2$ generalization errors of algorithms through the lens of differential calculus on the space of probability measures. Specifically, we consider the KL-regularized empirical risk minimization problem and establish generic conditions under which the generalization error convergence rate, when training on a sample of size $n$, is $\\mathcal{O}(1/n)$. In the context of supervised learning with a one-hidden layer neural network in the mean-field regime, these conditions are reflected in suitable integrability and regularity assumptions on the loss and activation functions.",
+    "link": "http://arxiv.org/abs/2306.11623",
+    "context": "Title: Mean-field Analysis of Generalization Errors. (arXiv:2306.11623v1 [stat.ML])\nAbstract: We propose a novel framework for exploring weak and $L_2$ generalization errors of algorithms through the lens of differential calculus on the space of probability measures. Specifically, we consider the KL-regularized empirical risk minimization problem and establish generic conditions under which the generalization error convergence rate, when training on a sample of size $n$, is $\\mathcal{O}(1/n)$. In the context of supervised learning with a one-hidden layer neural network in the mean-field regime, these conditions are reflected in suitable integrability and regularity assumptions on the loss and activation functions.",
+    "path": "papers/23/06/2306.11623.json",
+    "total_tokens": 692,
+    "translated_title": "平均场分析广义化误差",
+    "translated_abstract": "我们提出了一个新的框架，通过概率测度空间上的微分演算，探讨算法的弱稳健性与$L_2$正则化误差。具体而言，我们考虑KL正则化的经验风险最小化问题，并建立了一般条件，使得当样本容量为$n$时，广义误差收敛速率为$\\mathcal{O}(1/n)$。在单隐藏层神经网络的均场区域的监督学习背景下，这些条件体现在对损失和激活函数的合适可积和正则性假设中。",
+    "tldr": "该论文提出了一个通过概率测度空间上的微分演算探讨算法稳健性的新框架，并得出了广义误差的收敛速率为$\\mathcal{O}(1/n)$的一般条件。",
+    "en_tdlr": "This paper proposes a new framework to explore the robustness of algorithms through differential calculus on the space of probability measures, and establishes generic conditions for the convergence rate of generalization error to be $\\mathcal{O}(1/n)$."
+}

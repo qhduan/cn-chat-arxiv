@@ -1,0 +1,11 @@
+{
+    "title": "Are Shortfall Systemic Risk Measures One Dimensional?. (arXiv:2306.10752v1 [q-fin.MF])",
+    "abstract": "Shortfall systemic (multivariate) risk measures $\\rho$ defined through an $N$-dimensional multivariate utility function $U$ and random allocations can be represented as classical (one dimensional) shortfall risk measures associated to an explicitly determined $1$-dimensional function constructed from $U$. This finding allows for simplifying the study of several properties of $\\rho$, such as dual representations, law invariance and stability.",
+    "link": "http://arxiv.org/abs/2306.10752",
+    "context": "Title: Are Shortfall Systemic Risk Measures One Dimensional?. (arXiv:2306.10752v1 [q-fin.MF])\nAbstract: Shortfall systemic (multivariate) risk measures $\\rho$ defined through an $N$-dimensional multivariate utility function $U$ and random allocations can be represented as classical (one dimensional) shortfall risk measures associated to an explicitly determined $1$-dimensional function constructed from $U$. This finding allows for simplifying the study of several properties of $\\rho$, such as dual representations, law invariance and stability.",
+    "path": "papers/23/06/2306.10752.json",
+    "total_tokens": 594,
+    "translated_title": "短缺系统性风险测度是否是一维的?",
+    "translated_abstract": "通过一个$N$维多元效用函数$U$和随机分配定义的短缺系统性（多元）风险测度$\\rho$可以表示为与由$U$构造的明确定义的一维函数相关联的经典（一维）短缺风险测度。这一发现可以简化对$\\rho$的多种属性的研究，如对偶表示、法律不变性和稳定性。",
+    "tldr": "本文研究表明，短缺系统性风险测度可以表示为经典的短缺风险测度，从而简化了研究该风险测度的多种属性。"
+}

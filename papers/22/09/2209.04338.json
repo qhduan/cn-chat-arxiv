@@ -1,0 +1,12 @@
+{
+    "title": "Bridging the Gap: Differentially Private Equivariant Deep Learning for Medical Image Analysis. (arXiv:2209.04338v2 [eess.IV] UPDATED)",
+    "abstract": "Machine learning with formal privacy-preserving techniques like Differential Privacy (DP) allows one to derive valuable insights from sensitive medical imaging data while promising to protect patient privacy, but it usually comes at a sharp privacy-utility trade-off. In this work, we propose to use steerable equivariant convolutional networks for medical image analysis with DP. Their improved feature quality and parameter efficiency yield remarkable accuracy gains, narrowing the privacy-utility gap.",
+    "link": "http://arxiv.org/abs/2209.04338",
+    "context": "Title: Bridging the Gap: Differentially Private Equivariant Deep Learning for Medical Image Analysis. (arXiv:2209.04338v2 [eess.IV] UPDATED)\nAbstract: Machine learning with formal privacy-preserving techniques like Differential Privacy (DP) allows one to derive valuable insights from sensitive medical imaging data while promising to protect patient privacy, but it usually comes at a sharp privacy-utility trade-off. In this work, we propose to use steerable equivariant convolutional networks for medical image analysis with DP. Their improved feature quality and parameter efficiency yield remarkable accuracy gains, narrowing the privacy-utility gap.",
+    "path": "papers/22/09/2209.04338.json",
+    "total_tokens": 682,
+    "translated_title": "桥接差距：使用差分隐私可变等变深度学习进行医学图像分析",
+    "translated_abstract": "使用形式隐私保护技术（如差分隐私）进行机器学习可从敏感医学图像数据中提取有价值的见解，同时承诺保护患者隐私，但通常会产生尖锐的隐私-效用权衡。本文提出使用可变等变卷积网络进行带有差分隐私保护的医学图像分析。它们改进的特征质量和参数效率带来了显著的准确度提高，缩小了隐私-效用差距。",
+    "tldr": "本文提出使用差分隐私保护的可变等变卷积网络进行医学图像分析，通过改进特征质量和参数效率缩小了隐私-效用差距，带来了显著的准确度提高。",
+    "en_tdlr": "This paper proposes the use of differentially private equivariant convolutional networks for medical image analysis, which narrows the privacy-utility gap by improving feature quality and parameter efficiency, leading to remarkable accuracy gains."
+}
