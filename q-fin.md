@@ -16,27 +16,28 @@
 | [^12] | [Are Shortfall Systemic Risk Measures One Dimensional?.](http://arxiv.org/abs/2306.10752) | 本文研究表明，短缺系统性风险测度可以表示为经典的短缺风险测度，从而简化了研究该风险测度的多种属性。 |
 | [^13] | [Option Pricing for the Variance Gamma Model: A New Perspective.](http://arxiv.org/abs/2306.10659) | 本文通过随机化方法和分数导数结合，提供了一种新的变差伽马模型期权定价的视角。 |
 | [^14] | [Detecting Depegs: Towards Safer Passive Liquidity Provision on Curve Finance.](http://arxiv.org/abs/2306.10612) | 本文提出了一套度量标准和算法，旨在检测Curve StableSwap池中的稳定币和LSD depeg，并在风险出现之前或出现时提醒流动性提供者。我们的模型在测试期间表现良好，为Curve提供了更安全的被动流动性提供。 |
-| [^15] | [Machine Learning and Hamilton-Jacobi-Bellman Equation for Optimal Decumulation: a Comparison Study.](http://arxiv.org/abs/2306.10582) | 该论文提出了一个基于数据驱动神经网络的优化框架，用于解决随机约束下的最优控制问题，将其应用于养老金的资产配置和领取策略，并通过与传统的HJB计算框架进行比较，证明了其能够学习出近似最优解。 |
-| [^16] | [Testing for intrinsic multifractality in the global grain spot market indices: A multifractal detrended fluctuation analysis.](http://arxiv.org/abs/2306.10496) | 该论文利用多重分形波动分析（MF-DFA）探究全球谷物现货市场指数的内在多重分形性。研究发现，在各个子指数中，只有玉米和大麦表现出了内在多重分形特性。 |
-| [^17] | [Bloated Disclosures: Can ChatGPT Help Investors Process Financial Information?.](http://arxiv.org/abs/2306.10224) | 研究发现生成式 AI 工具 ChatGPT 可以更有效地展示股票市场相关信息，提出了信息膨胀指标并证明其与负面的资本市场后果相关，同时展示其在构建针对性总结方面的效果。 |
-| [^18] | [Key predictors for climate policy support and political mobilization: The role of beliefs and preferences.](http://arxiv.org/abs/2306.10144) | 瑞士CO2法案的选前共同调查实验发现，气候政策的支持和动员主要受到信念和政策设计偏好的影响，而非社会人口统计信息等其他因素。 |
-| [^19] | [NFTs to MARS: Multi-Attention Recommender System for NFTs.](http://arxiv.org/abs/2306.10053) | 本文提出了首个具有三大关键特征——图形注意力、多模态注意力和多任务学习的面向NFT的多注意力推荐系统(NFT-MARS)，以解决NFT市场挑战。 |
-| [^20] | [Marijuana on Main Streets? The Story Continues in Colombia: An Endogenous Three-part Model.](http://arxiv.org/abs/2306.10031) | 本文研究了哥伦比亚大麻的需求，提出了一个内生三部分模型，发现年轻的男性、饮酒和吸烟、居住在有毒品供应商的社区以及有吸食大麻朋友的人面临着更高的接触和使用这种药物的可能性，同时发现大麻是一种无弹性的商品，如果合法化，对于对大麻使用风险感知中等或较低的年轻人来说会有更高的需求。 |
-| [^21] | [An Approximate Feasibility Assessment of Electric Vehicles Adoption in Nigeria: Forecast 2030.](http://arxiv.org/abs/2305.17844) | 本论文评估了尼日利亚电动汽车在2030年的可行性，并探讨了可再生能源在过渡到可持续未来中的重要性。 |
-| [^22] | [Mean-variance dynamic portfolio allocation with transaction costs: a Wiener chaos expansion approach.](http://arxiv.org/abs/2305.16152) | 本研究提出了一种新颖的方法，通过使用Wiener混沌展开来表示合法组合集，在交易成本约束下找到多期均值-方差组合投资的最优策略，并研究了最优组合投资组合和底层风险规避之间的联系。 |
-| [^23] | [The Direct and Spillover Effects of Large-scale Affirmative Action at an Elite Brazilian University.](http://arxiv.org/abs/2305.02513) | 巴西一所精英大学实施的大规模平权政策既对于黑人和低收入学生具有正向效应（使得其就业收入增长），又对于该校排名最高的学生具有重大负面影响（导致他们就业收入大幅下降）。 |
-| [^24] | [DeFi Lending During The Merge.](http://arxiv.org/abs/2303.08748) | 以太坊的合并计划及干预让去中心化金融中的借贷协议感到担忧，限制了用户的借贷权限，以避免大规模的清算。 |
-| [^25] | [The inverse Cox-Ingersoll-Ross process for parsimonious financial price modeling.](http://arxiv.org/abs/2302.11423) | 本文提出了一种基于盈利率的金融价格建模方法，使用Cox-Ingersoll-Ross (CIR)模型对其进行描述，并成功解释了过量波动和权益溢价谜团。 |
-| [^26] | [NPV, IRR, PI, PP, and DPP: a unified view.](http://arxiv.org/abs/2302.02875) | 本文提出了一类包含净现值、内部收益率、盈利能力指数、回本期和折现回本期的盈利能力度量标准的统一观点，并提供了概括的公设表征。这一方法提供了一个统一的解释盈利能力指标作为针对经济环境情景集的金融稳定度量标准，并提供了一个比较项目的不确定性的框架。 |
-| [^27] | [Risk Sharing with Deep Neural Networks.](http://arxiv.org/abs/2212.11752) | 本文提出了一个利用神经网络解决风险分享问题的框架，证明了模型的收敛性和理论值之间的一致性，并通过多个数值实验支持了模型的可靠性。 |
-| [^28] | [Bi-LSTM Price Prediction based on Attention Mechanism.](http://arxiv.org/abs/2212.03443) | 本文提出了一种基于注意力机制的双向LSTM神经网络，用于黄金和比特币的价格预测，结合传统的技术因素和时间序列模型开发了因素，使用预测结果获得了显著的回报，且模型表现最佳。 |
-| [^29] | [Voter Coalitions and democracy in Decentralized Finance: Evidence from MakerDAO.](http://arxiv.org/abs/2210.11203) | 本文通过聚类算法在MakerDAO的投票历史中找到了三个选民联盟，支配性选民联盟的出现是DAO治理集中化的信号。本研究提供了DAO中多联盟民主的实证证据。 |
-| [^30] | [Inequality of Opportunity and Income Redistribution.](http://arxiv.org/abs/2209.00534) | 本研究研究了在对机会和结果影响的运气不确定情况下，人们如何重新分配收入，发现当有幸运机会时，参与者重新分配的力度较小。 |
-| [^31] | [Panoptic: the perpetual, oracle-free options protocol.](http://arxiv.org/abs/2204.14232) | Panoptic 是一个无需预言机的永久期权协议，可以在 Uniswap v3 生态系统中的任何资产池上进行无需许可的期权交易。 |
-| [^32] | [Scale Dependencies and Self-Similar Models with Wavelet Scattering Spectra.](http://arxiv.org/abs/2204.10177) | 本论文提出了小波散射谱方法，可以用于建模具有平稳增量的时间序列的非高斯特性，其系数可以用于构建最大熵模型和生成新的时间序列，同时证明了自相似过程具有散射谱的尺度不变性。 |
-| [^33] | [Efficiency, Fairness, and Stability in Non-Commercial Peer-to-Peer Ridesharing.](http://arxiv.org/abs/2110.01152) | 本文聚焦于P2P共乘中最核心的问题：乘客和司机的匹配。在考虑到用户偏好的前提下，本文提出了关于公平性和稳定性的新概念以及高效匹配算法，可以在不影响系统范围内效率的情况下获得公平和稳定的共乘解决方案。 |
-| [^34] | [Weak equilibria for time-inconsistent control: with applications to investment-withdrawal decisions.](http://arxiv.org/abs/2105.06607) | 该论文提出了一种解决时间不一致控制问题的方法，通过定义平衡条件以及相应的验证方法来验证平衡解，并在数学金融和控制理论中提供了实际应用的例子。 |
-| [^35] | [A Bonus-Malus Framework for Cyber Risk Insurance and Optimal Cybersecurity Provisioning.](http://arxiv.org/abs/2102.05568) | 本研究提出了基于奖惩系统的网络风险保险模型，通过调整风险转移产品的保费以激励网络损失减少，解决道德风险问题并让保险商受益的可能性。 |
+| [^15] | [Quantum computer based Feature Selection in Machine Learning.](http://arxiv.org/abs/2306.10591) | 本文探究在机器学习中如何使用量子计算来解决选择适当数量的特征的问题。研究将特征选择任务视为二次无约束优化问题(QUBO)，并进行了经典数值方法与量子计算框架的比较和探讨。研究结果表明QUBO方法的效果取决于数据集的大小，在27个特征的大型数据集的实验中，经典随机优化方法表现仍然优于QUBO方法。 |
+| [^16] | [Machine Learning and Hamilton-Jacobi-Bellman Equation for Optimal Decumulation: a Comparison Study.](http://arxiv.org/abs/2306.10582) | 该论文提出了一个基于数据驱动神经网络的优化框架，用于解决随机约束下的最优控制问题，将其应用于养老金的资产配置和领取策略，并通过与传统的HJB计算框架进行比较，证明了其能够学习出近似最优解。 |
+| [^17] | [Testing for intrinsic multifractality in the global grain spot market indices: A multifractal detrended fluctuation analysis.](http://arxiv.org/abs/2306.10496) | 该论文利用多重分形波动分析（MF-DFA）探究全球谷物现货市场指数的内在多重分形性。研究发现，在各个子指数中，只有玉米和大麦表现出了内在多重分形特性。 |
+| [^18] | [Bloated Disclosures: Can ChatGPT Help Investors Process Financial Information?.](http://arxiv.org/abs/2306.10224) | 研究发现生成式 AI 工具 ChatGPT 可以更有效地展示股票市场相关信息，提出了信息膨胀指标并证明其与负面的资本市场后果相关，同时展示其在构建针对性总结方面的效果。 |
+| [^19] | [Key predictors for climate policy support and political mobilization: The role of beliefs and preferences.](http://arxiv.org/abs/2306.10144) | 瑞士CO2法案的选前共同调查实验发现，气候政策的支持和动员主要受到信念和政策设计偏好的影响，而非社会人口统计信息等其他因素。 |
+| [^20] | [NFTs to MARS: Multi-Attention Recommender System for NFTs.](http://arxiv.org/abs/2306.10053) | 本文提出了首个具有三大关键特征——图形注意力、多模态注意力和多任务学习的面向NFT的多注意力推荐系统(NFT-MARS)，以解决NFT市场挑战。 |
+| [^21] | [Marijuana on Main Streets? The Story Continues in Colombia: An Endogenous Three-part Model.](http://arxiv.org/abs/2306.10031) | 本文研究了哥伦比亚大麻的需求，提出了一个内生三部分模型，发现年轻的男性、饮酒和吸烟、居住在有毒品供应商的社区以及有吸食大麻朋友的人面临着更高的接触和使用这种药物的可能性，同时发现大麻是一种无弹性的商品，如果合法化，对于对大麻使用风险感知中等或较低的年轻人来说会有更高的需求。 |
+| [^22] | [An Approximate Feasibility Assessment of Electric Vehicles Adoption in Nigeria: Forecast 2030.](http://arxiv.org/abs/2305.17844) | 本论文评估了尼日利亚电动汽车在2030年的可行性，并探讨了可再生能源在过渡到可持续未来中的重要性。 |
+| [^23] | [Mean-variance dynamic portfolio allocation with transaction costs: a Wiener chaos expansion approach.](http://arxiv.org/abs/2305.16152) | 本研究提出了一种新颖的方法，通过使用Wiener混沌展开来表示合法组合集，在交易成本约束下找到多期均值-方差组合投资的最优策略，并研究了最优组合投资组合和底层风险规避之间的联系。 |
+| [^24] | [The Direct and Spillover Effects of Large-scale Affirmative Action at an Elite Brazilian University.](http://arxiv.org/abs/2305.02513) | 巴西一所精英大学实施的大规模平权政策既对于黑人和低收入学生具有正向效应（使得其就业收入增长），又对于该校排名最高的学生具有重大负面影响（导致他们就业收入大幅下降）。 |
+| [^25] | [DeFi Lending During The Merge.](http://arxiv.org/abs/2303.08748) | 以太坊的合并计划及干预让去中心化金融中的借贷协议感到担忧，限制了用户的借贷权限，以避免大规模的清算。 |
+| [^26] | [The inverse Cox-Ingersoll-Ross process for parsimonious financial price modeling.](http://arxiv.org/abs/2302.11423) | 本文提出了一种基于盈利率的金融价格建模方法，使用Cox-Ingersoll-Ross (CIR)模型对其进行描述，并成功解释了过量波动和权益溢价谜团。 |
+| [^27] | [NPV, IRR, PI, PP, and DPP: a unified view.](http://arxiv.org/abs/2302.02875) | 本文提出了一类包含净现值、内部收益率、盈利能力指数、回本期和折现回本期的盈利能力度量标准的统一观点，并提供了概括的公设表征。这一方法提供了一个统一的解释盈利能力指标作为针对经济环境情景集的金融稳定度量标准，并提供了一个比较项目的不确定性的框架。 |
+| [^28] | [Risk Sharing with Deep Neural Networks.](http://arxiv.org/abs/2212.11752) | 本文提出了一个利用神经网络解决风险分享问题的框架，证明了模型的收敛性和理论值之间的一致性，并通过多个数值实验支持了模型的可靠性。 |
+| [^29] | [Bi-LSTM Price Prediction based on Attention Mechanism.](http://arxiv.org/abs/2212.03443) | 本文提出了一种基于注意力机制的双向LSTM神经网络，用于黄金和比特币的价格预测，结合传统的技术因素和时间序列模型开发了因素，使用预测结果获得了显著的回报，且模型表现最佳。 |
+| [^30] | [Voter Coalitions and democracy in Decentralized Finance: Evidence from MakerDAO.](http://arxiv.org/abs/2210.11203) | 本文通过聚类算法在MakerDAO的投票历史中找到了三个选民联盟，支配性选民联盟的出现是DAO治理集中化的信号。本研究提供了DAO中多联盟民主的实证证据。 |
+| [^31] | [Inequality of Opportunity and Income Redistribution.](http://arxiv.org/abs/2209.00534) | 本研究研究了在对机会和结果影响的运气不确定情况下，人们如何重新分配收入，发现当有幸运机会时，参与者重新分配的力度较小。 |
+| [^32] | [Panoptic: the perpetual, oracle-free options protocol.](http://arxiv.org/abs/2204.14232) | Panoptic 是一个无需预言机的永久期权协议，可以在 Uniswap v3 生态系统中的任何资产池上进行无需许可的期权交易。 |
+| [^33] | [Scale Dependencies and Self-Similar Models with Wavelet Scattering Spectra.](http://arxiv.org/abs/2204.10177) | 本论文提出了小波散射谱方法，可以用于建模具有平稳增量的时间序列的非高斯特性，其系数可以用于构建最大熵模型和生成新的时间序列，同时证明了自相似过程具有散射谱的尺度不变性。 |
+| [^34] | [Efficiency, Fairness, and Stability in Non-Commercial Peer-to-Peer Ridesharing.](http://arxiv.org/abs/2110.01152) | 本文聚焦于P2P共乘中最核心的问题：乘客和司机的匹配。在考虑到用户偏好的前提下，本文提出了关于公平性和稳定性的新概念以及高效匹配算法，可以在不影响系统范围内效率的情况下获得公平和稳定的共乘解决方案。 |
+| [^35] | [Weak equilibria for time-inconsistent control: with applications to investment-withdrawal decisions.](http://arxiv.org/abs/2105.06607) | 该论文提出了一种解决时间不一致控制问题的方法，通过定义平衡条件以及相应的验证方法来验证平衡解，并在数学金融和控制理论中提供了实际应用的例子。 |
+| [^36] | [A Bonus-Malus Framework for Cyber Risk Insurance and Optimal Cybersecurity Provisioning.](http://arxiv.org/abs/2102.05568) | 本研究提出了基于奖惩系统的网络风险保险模型，通过调整风险转移产品的保费以激励网络损失减少，解决道德风险问题并让保险商受益的可能性。 |
 
 # 详细
 
@@ -236,7 +237,21 @@
 
     We consider a liquidity provider's (LP's) exposure to stablecoin and liquid staking derivative (LSD) depegs on Curve's StableSwap pools. We construct a suite of metrics designed to detect potential asset depegs based on price and trading data. Using our metrics, we fine-tune a Bayesian Online Changepoint Detection (BOCD) algorithm to alert LPs of potential depegs before or as they occur. We train and test our changepoint detection algorithm against Curve LP token prices for 13 StableSwap pools throughout 2022 and 2023, focusing on relevant stablecoin and LSD depegs. We show that our model, trained on 2022 UST data, is able to detect the USDC depeg in March of 2023 at 9pm UTC on March 10th, approximately 5 hours before USDC dips below 99 cents, with few false alarms in the 17 months on which it is tested. Finally, we describe how this research may be used by Curve's liquidity providers, and how it may be extended to dynamically de-risk Curve pools by modifying parameters in anticipation
     
-[^15]: 机器学习与Hamilton-Jacobi-Bellman方程在最优领取方案中的比较研究
+[^15]: 量子计算在机器学习特征选择中的应用
+
+    Quantum computer based Feature Selection in Machine Learning. (arXiv:2306.10591v1 [quant-ph])
+
+    [http://arxiv.org/abs/2306.10591](http://arxiv.org/abs/2306.10591)
+
+    本文探究在机器学习中如何使用量子计算来解决选择适当数量的特征的问题。研究将特征选择任务视为二次无约束优化问题(QUBO)，并进行了经典数值方法与量子计算框架的比较和探讨。研究结果表明QUBO方法的效果取决于数据集的大小，在27个特征的大型数据集的实验中，经典随机优化方法表现仍然优于QUBO方法。
+
+    
+
+    本文研究了在有监督学习问题中选择适当数量特征的问题。从机器学习的常用方法入手，我们将特征选择任务视为二次无约束优化问题(QUBO)，可以用经典数值方法以及量子计算框架来解决。我们比较了小型问题设置中的不同结果。根据研究结果，QUBO方法是否优于其他特征选择方法取决于数据集。在扩展到包含27个特征的大型数据集时，我们比较了基于量子计算的QUBO方法与基于经典随机优化方法的收敛性能。由于错误率问题，经典随机优化方法仍然优于QUBO方法。
+
+    The problem of selecting an appropriate number of features in supervised learning problems is investigated in this paper. Starting with common methods in machine learning, we treat the feature selection task as a quadratic unconstrained optimization problem (QUBO), which can be tackled with classical numerical methods as well as within a quantum computing framework. We compare the different results in small-sized problem setups. According to the results of our study, whether the QUBO method outperforms other feature selection methods depends on the data set. In an extension to a larger data set with 27 features, we compare the convergence behavior of the QUBO methods via quantum computing with classical stochastic optimization methods. Due to persisting error rates, the classical stochastic optimization methods are still superior.
+    
+[^16]: 机器学习与Hamilton-Jacobi-Bellman方程在最优领取方案中的比较研究
 
     Machine Learning and Hamilton-Jacobi-Bellman Equation for Optimal Decumulation: a Comparison Study. (arXiv:2306.10582v1 [math.OC])
 
@@ -250,7 +265,7 @@
 
     We propose a novel data-driven neural network (NN) optimization framework for solving an optimal stochastic control problem under stochastic constraints. Customized activation functions for the output layers of the NN are applied, which permits training via standard unconstrained optimization. The optimal solution yields a multi-period asset allocation and decumulation strategy for a holder of a defined contribution (DC) pension plan. The objective function of the optimal control problem is based on expected wealth withdrawn (EW) and expected shortfall (ES) that directly targets left-tail risk. The stochastic bound constraints enforce a guaranteed minimum withdrawal each year. We demonstrate that the data-driven approach is capable of learning a near-optimal solution by benchmarking it against the numerical results from a Hamilton-Jacobi-Bellman (HJB) Partial Differential Equation (PDE) computational framework.
     
-[^16]: 全球谷物现货市场指数中的内在多重分形性测试：一种多重分形去趋势波动分析方法
+[^17]: 全球谷物现货市场指数中的内在多重分形性测试：一种多重分形去趋势波动分析方法
 
     Testing for intrinsic multifractality in the global grain spot market indices: A multifractal detrended fluctuation analysis. (arXiv:2306.10496v1 [q-fin.ST])
 
@@ -264,7 +279,7 @@
 
     Grains account for more than 50% of the calories consumed by people worldwide, and military conflicts, pandemics, climate change, and soaring grain prices all have vital impacts on food security. However, the complex price behavior of the global grain spot markets has not been well understood. A recent study performed multifractal moving average analysis (MF-DMA) of the Grains & Oilseeds Index (GOI) and its sub-indices of wheat, maize, soyabeans, rice, and barley and found that only the maize and barley sub-indices exhibit an intrinsic multifractal nature with convincing evidence. Here, we utilize multifractal fluctuation analysis (MF-DFA) to investigate the same problem. Extensive statistical tests confirm the presence of intrinsic multifractality in the maize and barley sub-indices and the absence of intrinsic multifractality in the wheat and rice sub-indices. Different from the MF-DMA results, the MF-DFA results suggest that there is also intrinsic multifractality in the GOI and soy
     
-[^17]: 膨胀的披露：ChatGPT是否能帮助投资者处理财务信息？
+[^18]: 膨胀的披露：ChatGPT是否能帮助投资者处理财务信息？
 
     Bloated Disclosures: Can ChatGPT Help Investors Process Financial Information?. (arXiv:2306.10224v1 [econ.GN])
 
@@ -278,7 +293,7 @@
 
     Generative AI tools such as ChatGPT can fundamentally change the way investors process information. We probe the economic usefulness of these tools in summarizing complex corporate disclosures using the stock market as a laboratory. The unconstrained summaries are dramatically shorter, often by more than 70% compared to the originals, whereas their information content is amplified. When a document has a positive (negative) sentiment, its summary becomes more positive (negative). More importantly, the summaries are more effective at explaining stock market reactions to the disclosed information. Motivated by these findings, we propose a measure of information "bloat." We show that bloated disclosure is associated with adverse capital markets consequences, such as lower price efficiency and higher information asymmetry. Finally, we show that the model is effective at constructing targeted summaries that identify firms' (non-)financial performance and risks. Collectively, our results indi
     
-[^18]: 气候政策支持和政治动员的关键预测因素：信念和偏好的作用
+[^19]: 气候政策支持和政治动员的关键预测因素：信念和偏好的作用
 
     Key predictors for climate policy support and political mobilization: The role of beliefs and preferences. (arXiv:2306.10144v1 [econ.GN])
 
@@ -292,7 +307,7 @@
 
     Public support and political mobilization are two crucial factors for the adoption of ambitious climate policies in line with the international greenhouse gas reduction targets of the Paris Agreement. Despite their compound importance, they are mainly studied separately. Using a random forest machine-learning model, this article investigates the relative predictive power of key established explanations for public support and mobilization for climate policies. Predictive models may shape future research priorities and contribute to theoretical advancement by showing which predictors are the most and least important. The analysis is based on a pre-election conjoint survey experiment on the Swiss CO2 Act in 2021. Results indicate that beliefs (such as the perceived effectiveness of policies) and policy design preferences (such as for subsidies or tax-related policies) are the most important predictors while other established explanations, such as socio-demographics, issue salience (the re
     
-[^19]: NFT到MARS：面向NFT的多注意力推荐系统
+[^20]: NFT到MARS：面向NFT的多注意力推荐系统
 
     NFTs to MARS: Multi-Attention Recommender System for NFTs. (arXiv:2306.10053v1 [cs.IR])
 
@@ -306,7 +321,7 @@
 
     Recommender systems have become essential tools for enhancing user experiences across various domains. While extensive research has been conducted on recommender systems for movies, music, and e-commerce, the rapidly growing and economically significant Non-Fungible Token (NFT) market remains underexplored. The unique characteristics and increasing prominence of the NFT market highlight the importance of developing tailored recommender systems to cater to its specific needs and unlock its full potential. In this paper, we examine the distinctive characteristics of NFTs and propose the first recommender system specifically designed to address NFT market challenges. In specific, we develop a Multi-Attention Recommender System for NFTs (NFT-MARS) with three key characteristics: (1) graph attention to handle sparse user-item interactions, (2) multi-modal attention to incorporate feature preference of users, and (3) multi-task learning to consider the dual nature of NFTs as both artwork and
     
-[^20]: 哥伦比亚大街上的大麻？内生三部分模型的故事。
+[^21]: 哥伦比亚大街上的大麻？内生三部分模型的故事。
 
     Marijuana on Main Streets? The Story Continues in Colombia: An Endogenous Three-part Model. (arXiv:2306.10031v1 [econ.GN])
 
@@ -320,7 +335,7 @@
 
     Cannabis is the most common illicit drug, and understanding its demand is relevant to analyze the potential implications of its legalization. This paper proposes an endogenous three-part model taking into account incidental truncation and access restrictions to study demand for marijuana in Colombia, and analyze the potential effects of its legalization. Our application suggests that modeling simultaneously access, intensive and extensive margin is relevant, and that selection into access is important for the intensive margin. We find that younger men that have consumed alcohol and cigarettes, living in a neighborhood with drug suppliers, and friends that consume marijuana face higher probability of having access and using this drug. In addition, we find that marijuana is an inelastic good (-0.45 elasticity). Our results are robust to different specifications and definitions. If marijuana were legalized, younger individuals with a medium or low risk perception about marijuana use would
     
-[^21]: 尼日利亚电动汽车的可行性评估：2030年预测的探讨
+[^22]: 尼日利亚电动汽车的可行性评估：2030年预测的探讨
 
     An Approximate Feasibility Assessment of Electric Vehicles Adoption in Nigeria: Forecast 2030. (arXiv:2305.17844v1 [eess.SY])
 
@@ -334,7 +349,7 @@
 
     Efforts toward building a sustainable future have underscored the importance of collective responsibility among state and non-state actors, corporations, and individuals to achieve climate goals. International initiatives, including the Sustainable Development Goals and the Paris Agreement, emphasize the need for immediate action from all stakeholders. This paper presents a feasibility assessment focused on the opportunities within Nigeria's Electric Vehicle Value Chain, aiming to enhance public understanding of the country's renewable energy sector. As petroleum currently fulfills over 95% of global transportation needs, energy companies must diversify their portfolios and integrate various renewable energy sources to transition toward a sustainable future. The shifting investor sentiment away from traditional fossil fuel industries further highlights the imperative of incorporating renewables. To facilitate significant progress in the renewable energy sector, it is vital to establish
     
-[^22]: 带交易成本的均值-方差动态组合投资：Wiener混沌展开法的方法研究
+[^23]: 带交易成本的均值-方差动态组合投资：Wiener混沌展开法的方法研究
 
     Mean-variance dynamic portfolio allocation with transaction costs: a Wiener chaos expansion approach. (arXiv:2305.16152v1 [q-fin.PM])
 
@@ -348,7 +363,7 @@
 
     This paper studies the multi-period mean-variance portfolio allocation problem with transaction costs. Many methods have been proposed these last years to challenge the famous uni-period Markowitz strategy.But these methods cannot integrate transaction costs or become computationally heavy and hardly applicable. In this paper, we try to tackle this allocation problem by proposing an innovative approach which relies on representing the set of admissible portfolios by a finite dimensional Wiener chaos expansion. This numerical method is able to find an optimal strategy for the allocation problem subject to transaction costs. To complete the study, the link between optimal portfolios submitted to transaction costs and the underlying risk aversion is investigated. Then a competitive and compliant benchmark based on the sequential uni-period Markowitz strategy is built to highlight the efficiency of our approach.
     
-[^23]: 巴西一所精英大学的大规模平权政策的直接和外溢效应
+[^24]: 巴西一所精英大学的大规模平权政策的直接和外溢效应
 
     The Direct and Spillover Effects of Large-scale Affirmative Action at an Elite Brazilian University. (arXiv:2305.02513v1 [econ.GN])
 
@@ -362,7 +377,7 @@
 
     We examine the effects of an affirmative action policy at an elite Brazilian university that reserved 45 percent of admission slots for Black and low-income students. We find that marginally-admitted students who enrolled through the affirmative action tracks experienced a 14 percent increase in early-career earnings. But the adoption of affirmative action also caused a large decrease in earnings for the university's most highly-ranked students. We present evidence that the negative spillover effects on highly-ranked students' earnings were driven by both a reduction in human capital accumulation and a decline in the value of networking.
     
-[^24]: 合并过程中的 DeFi 借贷
+[^25]: 合并过程中的 DeFi 借贷
 
     DeFi Lending During The Merge. (arXiv:2303.08748v1 [q-fin.GN])
 
@@ -376,7 +391,7 @@
 
     Lending protocols in decentralized finance enable the permissionless exchange of capital from lenders to borrowers without relying on a trusted third party for clearing or market-making. Interest rates are purely set by the supply and demand of capital according to a pre-defined function. In the lead-up to The Merge: Ethereum blockchain's transition from proof-of-work (PoW) to proof-of-stake (PoS), a fraction of the Ethereum ecosystem announced plans of continuing with a PoW-chain. Owners of ETH - whether their ETH was borrowed or not - would hold the native tokens on each chain. This development alarmed lending protocols. They feared spiking ETH borrowing rates would lead to mass liquidations which could undermine their viability. Thus, the decentralized autonomous organization running the protocols saw no alternative to intervention - restricting users' ability to borrow.  We investigate the effects of the merge and the intervention on the two biggest lending protocols on Ethereum: A
     
-[^25]: 用于简化金融价格建模的反向Cox-Ingersoll-Ross模型
+[^26]: 用于简化金融价格建模的反向Cox-Ingersoll-Ross模型
 
     The inverse Cox-Ingersoll-Ross process for parsimonious financial price modeling. (arXiv:2302.11423v2 [q-fin.MF] UPDATED)
 
@@ -390,7 +405,7 @@
 
     We propose a formulation to construct new classes of financial price processes based on the insight that the key variable driving prices $P$ is the earning-over-price ratio $\gamma \simeq 1/P$, which we refer to as the earning yield and is analogous to the yield-to-maturity of an equivalent perpetual bond. This modeling strategy is illustrated with the choice for real-time $\gamma$ in the form of the Cox-Ingersoll-Ross (CIR) process, which allows us to derive analytically many stylised facts of financial prices and returns, such as the power law distribution of returns, transient super-exponential bubble behavior, and the fat-tailed distribution of prices before bubbles burst. Our model sheds new light on rationalizing the excess volatility and the equity premium puzzles. The model is calibrated to five well-known historical bubbles in the US and China stock markets via a quasi-maximum likelihood method with the L-BFGS-B optimization algorithm. Using $\phi$-divergence statistics adapte
     
-[^26]: NPV、IRR、PI、PP和DPP：统一观点
+[^27]: NPV、IRR、PI、PP和DPP：统一观点
 
     NPV, IRR, PI, PP, and DPP: a unified view. (arXiv:2302.02875v5 [econ.GN] UPDATED)
 
@@ -404,7 +419,7 @@
 
     This paper introduces a class of investment project's profitability metrics that includes the net present value criterion (which labels a project as weakly profitable if its NPV is nonnegative), the internal rate of return (IRR), the profitability index (PI), the payback period (PP) and its discounted counterpart (DPP) as special cases. An axiomatic characterization of this class, as well as of the mentioned conventional metrics within the class, is presented. This approach is useful at least in three respects. First, it suggests a unified interpretation for profitability metrics as measures of financial stability of a project with respect to a collection of scenarios of economic environment. Second, it shows that, with the exception of the NPV criterion, a profitability metric is necessarily incomplete (i.e., there are incomparable projects). In particular, this implies that any extension of the IRR to the space of all projects does not meet a set of reasonable conditions. A similar c
     
-[^27]: 基于深度神经网络的风险分享
+[^28]: 基于深度神经网络的风险分享
 
     Risk Sharing with Deep Neural Networks. (arXiv:2212.11752v2 [q-fin.RM] UPDATED)
 
@@ -418,7 +433,7 @@
 
     We consider the problem of optimally sharing a financial position among agents with potentially different reference risk measures. The problem is equivalent to computing the infimal convolution of the risk metrics and finding the so-called optimal allocations. We propose a neural network-based framework to solve the problem and we prove the convergence of the approximated inf-convolution, as well as the approximated optimal allocations, to the corresponding theoretical values. We support our findings with several numerical experiments.
     
-[^28]: 基于注意力机制的双向LSTM价格预测
+[^29]: 基于注意力机制的双向LSTM价格预测
 
     Bi-LSTM Price Prediction based on Attention Mechanism. (arXiv:2212.03443v2 [q-fin.CP] UPDATED)
 
@@ -432,7 +447,7 @@
 
     With the increasing enrichment and development of the financial derivatives market, the frequency of transactions is also faster and faster. Due to human limitations, algorithms and automatic trading have recently become the focus of discussion. In this paper, we propose a bidirectional LSTM neural network based on an attention mechanism, which is based on two popular assets, gold and bitcoin. In terms of Feature Engineering, on the one hand, we add traditional technical factors, and at the same time, we combine time series models to develop factors. In the selection of model parameters, we finally chose a two-layer deep learning network. According to AUC measurement, the accuracy of bitcoin and gold is 71.94% and 73.03% respectively. Using the forecast results, we achieved a return of 1089.34% in two years. At the same time, we also compare the attention Bi-LSTM model proposed in this paper with the traditional model, and the results show that our model has the best performance in thi
     
-[^29]: 选民联盟与去中心化金融的民主：来自MakerDAO的证据
+[^30]: 选民联盟与去中心化金融的民主：来自MakerDAO的证据
 
     Voter Coalitions and democracy in Decentralized Finance: Evidence from MakerDAO. (arXiv:2210.11203v4 [cs.SI] UPDATED)
 
@@ -446,7 +461,7 @@
 
     Decentralized Autonomous Organization (DAO) provides a decentralized governance solution through blockchain, where decision-making process relies on on-chain voting and follows majority rule. This paper focuses on MakerDAO, and we find three voter coalitions after applying clustering algorithm to voting history. The emergence of a dominant voter coalition is a signal of governance centralization in DAO, and voter coalitions have complicated influence on Maker protocol, which is governed by MakerDAO. This paper presents empirical evidence of multicoalition democracy in DAO and further contributes to the contemporary debate on whether decentralized governance is possible.
     
-[^30]: 机会不平等与收入再分配
+[^31]: 机会不平等与收入再分配
 
     Inequality of Opportunity and Income Redistribution. (arXiv:2209.00534v3 [econ.GN] UPDATED)
 
@@ -460,7 +475,7 @@
 
     We examine how people redistribute income when there is uncertainty about the role luck plays in determining opportunities and outcomes. We elicit redistribution decisions from a U.S.-representative sample who observe worker outcomes and whether luck magnified workers' effort (``lucky opportunities'') or determined workers' income directly (``lucky outcomes''). We find that participants redistribute less and are less reactive to changes in the importance of luck in environments with lucky opportunities. Our findings have implications for models that seek to understand and predict redistribution attitudes and help to explain the gap between lab evidence on support for redistribution and U.S. inequality trends.
     
-[^31]: Panoptic: 永久、无需预言机的期权协议。
+[^32]: Panoptic: 永久、无需预言机的期权协议。
 
     Panoptic: the perpetual, oracle-free options protocol. (arXiv:2204.14232v3 [q-fin.PR] UPDATED)
 
@@ -474,7 +489,7 @@
 
     Panoptic is the perpetual, oracle-free, instant-settlement options trading protocol on the Ethereum blockchain. Panoptic enables the permissionless trading of options on top of any asset pool in the Uniswap v3 ecosystem and seeks to develop a trustless, permissionless, and composable options product, i.e., do for decentralized options markets what x*y=k automated market maker protocols did for spot trading.
     
-[^32]: 基于小波散射谱的尺度依赖性和自相似模型
+[^33]: 基于小波散射谱的尺度依赖性和自相似模型
 
     Scale Dependencies and Self-Similar Models with Wavelet Scattering Spectra. (arXiv:2204.10177v2 [physics.data-an] UPDATED)
 
@@ -488,7 +503,7 @@
 
     We introduce the wavelet scattering spectra which provide non-Gaussian models of time-series having stationary increments. A complex wavelet transform computes signal variations at each scale. Dependencies across scales are captured by the joint correlation across time and scales of wavelet coefficients and their modulus. This correlation matrix is nearly diagonalized by a second wavelet transform, which defines the scattering spectra. We show that this vector of moments characterizes a wide range of non-Gaussian properties of multi-scale processes. We prove that self-similar processes have scattering spectra which are scale invariant. This property can be tested statistically on a single realization and defines a class of wide-sense self-similar processes. We build maximum entropy models conditioned by scattering spectra coefficients, and generate new time-series with a microcanonical sampling algorithm. Applications are shown for highly non-Gaussian financial and turbulence time-seri
     
-[^33]: 非商业P2P共乘中的效率、公平性和稳定性
+[^34]: 非商业P2P共乘中的效率、公平性和稳定性
 
     Efficiency, Fairness, and Stability in Non-Commercial Peer-to-Peer Ridesharing. (arXiv:2110.01152v2 [cs.AI] UPDATED)
 
@@ -502,7 +517,7 @@
 
     Unlike commercial ridesharing, non-commercial peer-to-peer (P2P) ridesharing has been subject to limited research -- although it can promote viable solutions in non-urban communities. This paper focuses on the core problem in P2P ridesharing: the matching of riders and drivers. We elevate users' preferences as a first-order concern and introduce novel notions of fairness and stability in P2P ridesharing. We propose algorithms for efficient matching while considering user-centric factors, including users' preferred departure time, fairness, and stability. Results suggest that fair and stable solutions can be obtained in reasonable computational times and can improve baseline outcomes based on system-wide efficiency exclusively.
     
-[^34]: 时间不一致控制的弱平衡：在投资撤回决策中的应用
+[^35]: 时间不一致控制的弱平衡：在投资撤回决策中的应用
 
     Weak equilibria for time-inconsistent control: with applications to investment-withdrawal decisions. (arXiv:2105.06607v4 [math.OC] UPDATED)
 
@@ -516,7 +531,7 @@
 
     This paper considers time-inconsistent problems when control and stopping strategies are required to be made simultaneously (called stopping control problems by us). We first formulate the timeinconsistent stopping control problems under general multi-dimensional controlled diffusion model and propose a formal definition of their equilibria. We show that an admissible pair $(\hat{u},C)$ of controlstopping policy is equilibrium if and only if the auxiliary function associated with it solves the extended HJB system, providing a methodology to verify or exclude equilibrium solutions. We provide several examples to illustrate applications to mathematical finance and control theory. For a problem whose reward function endogenously depends on the current wealth, the equilibrium is explicitly obtained. For another model with a non-exponential discount, we prove that any constant proportion strategy can not be equilibrium. We further show that general non-constant equilibrium exists and is des
     
-[^35]: 基于奖惩系统的网络风险保险与最优网络安全配置框架
+[^36]: 基于奖惩系统的网络风险保险与最优网络安全配置框架
 
     A Bonus-Malus Framework for Cyber Risk Insurance and Optimal Cybersecurity Provisioning. (arXiv:2102.05568v3 [math.OC] UPDATED)
 

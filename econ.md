@@ -2,33 +2,49 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Uniform taxation of electricity: incentives for flexibility and cost redistribution among household categories.](http://arxiv.org/abs/2306.11566) | 通过对所有用电征收统一的税收政策，可以在不同的家庭之间逐渐地重新分配成本，并激励节约能源的灵活性，从而为所有家庭节省总成本。 |
-| [^2] | [Coevolution of cognition and cooperation in structured populations under reinforcement learning.](http://arxiv.org/abs/2306.11376) | 本研究发现在囚徒困境中，确定的重复交互概率阈值将导致智能体从直觉的背叛者转变为双重过程的合作者；更小的节点度数降低了双重过程合作者的成功率。 |
-| [^3] | [The Illusive Slump of Disruptive Patents.](http://arxiv.org/abs/2306.10774) | 本论文对Park等人的研究方法和发现提出质疑，发现排除偏差和截断偏差对结果影响较大，作者报告的突破性专利减少的88%可以通过截断所有反向引用来解释。更新到2016年的结果表明，突破性专利的下降被严重夸大。 |
-| [^4] | [Can we falsify the justification of the validity of Wald confidence intervals of doubly robust functionals, without assumptions?.](http://arxiv.org/abs/2306.10590) | 本文提出无假设检验方法，可否定分析师对基于双重机器学习估计的Wald置信区间在广泛的双重稳健函数类中的有效性的证明。 |
-| [^5] | [Formal Covariate Benchmarking to Bound Omitted Variable Bias.](http://arxiv.org/abs/2306.10562) | 本文介绍了正式协变量基准测试的原理和细节，强调了解释残差部分时研究人员所面临的困难。这个方法能限制忽略变量偏差并给出一个未观察到的混杂因子的强度范围。 |
-| [^6] | [Bloated Disclosures: Can ChatGPT Help Investors Process Financial Information?.](http://arxiv.org/abs/2306.10224) | 研究发现生成式 AI 工具 ChatGPT 可以更有效地展示股票市场相关信息，提出了信息膨胀指标并证明其与负面的资本市场后果相关，同时展示其在构建针对性总结方面的效果。 |
-| [^7] | [Key predictors for climate policy support and political mobilization: The role of beliefs and preferences.](http://arxiv.org/abs/2306.10144) | 瑞士CO2法案的选前共同调查实验发现，气候政策的支持和动员主要受到信念和政策设计偏好的影响，而非社会人口统计信息等其他因素。 |
-| [^8] | [NFTs to MARS: Multi-Attention Recommender System for NFTs.](http://arxiv.org/abs/2306.10053) | 本文提出了首个具有三大关键特征——图形注意力、多模态注意力和多任务学习的面向NFT的多注意力推荐系统(NFT-MARS)，以解决NFT市场挑战。 |
-| [^9] | [Marijuana on Main Streets? The Story Continues in Colombia: An Endogenous Three-part Model.](http://arxiv.org/abs/2306.10031) | 本文研究了哥伦比亚大麻的需求，提出了一个内生三部分模型，发现年轻的男性、饮酒和吸烟、居住在有毒品供应商的社区以及有吸食大麻朋友的人面临着更高的接触和使用这种药物的可能性，同时发现大麻是一种无弹性的商品，如果合法化，对于对大麻使用风险感知中等或较低的年轻人来说会有更高的需求。 |
-| [^10] | [Impulse Response Analysis for Structural Nonlinear Time Series Models.](http://arxiv.org/abs/2305.19089) | 本文研究非线性时间序列模型的脉冲响应分析，提出了一种新的更直接依赖于底层模型属性的方法，并讨论了相关的非参数估计和结构脉冲响应的推断。 |
-| [^11] | [Kinship can hinder cooperation in heterogeneous populations.](http://arxiv.org/abs/2305.19026) | 亲属关系的增加并不总是有利于人类社会的合作，会阻碍直接互惠的效力，并使维持完全合作的条件更加苛刻。 |
-| [^12] | [An Approximate Feasibility Assessment of Electric Vehicles Adoption in Nigeria: Forecast 2030.](http://arxiv.org/abs/2305.17844) | 本论文评估了尼日利亚电动汽车在2030年的可行性，并探讨了可再生能源在过渡到可持续未来中的重要性。 |
-| [^13] | [The Direct and Spillover Effects of Large-scale Affirmative Action at an Elite Brazilian University.](http://arxiv.org/abs/2305.02513) | 巴西一所精英大学实施的大规模平权政策既对于黑人和低收入学生具有正向效应（使得其就业收入增长），又对于该校排名最高的学生具有重大负面影响（导致他们就业收入大幅下降）。 |
-| [^14] | [On the Existence and Information of Orthogonal Moments For Inference.](http://arxiv.org/abs/2303.11418) | 本文研究了正交矩在鲁棒性推断中的广泛应用，并提供了正交矩存在的必要和充分条件，以应用于正则半参数模型中的参数估计问题。同时，需要注意的是，要让正交矩在推断中具有信息性，必须满足效率矩阵非零的要求。 |
-| [^15] | [NPV, IRR, PI, PP, and DPP: a unified view.](http://arxiv.org/abs/2302.02875) | 本文提出了一类包含净现值、内部收益率、盈利能力指数、回本期和折现回本期的盈利能力度量标准的统一观点，并提供了概括的公设表征。这一方法提供了一个统一的解释盈利能力指标作为针对经济环境情景集的金融稳定度量标准，并提供了一个比较项目的不确定性的框架。 |
-| [^16] | [Revisiting Panel Data Discrete Choice Models with Lagged Dependent Variables.](http://arxiv.org/abs/2301.09379) | 本文提出了一种新颖的识别策略来解决具有滞后依赖变量、外生协变量和实体固定效应的面板数据二元选择模型的识别和估计问题。我们的方法允许任何形式的时间趋势，不会受到“维度灾难”的影响。在有限样本中表现良好。 |
-| [^17] | [A Structural Equation Modeling Approach to Understand User's Perceptions of Acceptance of Ride-Sharing Services in Dhaka City.](http://arxiv.org/abs/2210.04086) | 本研究使用结构方程模型探究Dhaka市用户对顺风车服务的认知，结果表明用户对安全和保障的关注程度高于服务表现。 |
-| [^18] | [Inequality of Opportunity and Income Redistribution.](http://arxiv.org/abs/2209.00534) | 本研究研究了在对机会和结果影响的运气不确定情况下，人们如何重新分配收入，发现当有幸运机会时，参与者重新分配的力度较小。 |
-| [^19] | [Joint diagnostic test of regression discontinuity designs: multiple testing problem.](http://arxiv.org/abs/2205.04345) | 该论文提出一种联合检验程序来解决目前回归不连续设计的诊断检验存在的多重检验问题，该程序胜过Bonferroni校正。 |
-| [^20] | [Policy Choice in Time Series by Empirical Welfare Maximization.](http://arxiv.org/abs/2205.03970) | 本文提出了一种新方法以在一定时间段内进行政策选择，通过经验福利最大化方法来估计这一政策规则，旨在达到更好的条件福利。我们表征了此方法可达到最优策略选择的条件，并用模拟研究和实证应用来证明其可行性，在宏观经济领域应用上也能够起到积极的作用。 |
-| [^21] | [Efficiency, Fairness, and Stability in Non-Commercial Peer-to-Peer Ridesharing.](http://arxiv.org/abs/2110.01152) | 本文聚焦于P2P共乘中最核心的问题：乘客和司机的匹配。在考虑到用户偏好的前提下，本文提出了关于公平性和稳定性的新概念以及高效匹配算法，可以在不影响系统范围内效率的情况下获得公平和稳定的共乘解决方案。 |
-| [^22] | [Characterizing the Top Cycle via Strategyproofness.](http://arxiv.org/abs/2108.04622) | 本研究证明了，在温和条件下，顶级周期是唯一的不征用的策略性SCC，其结果仅取决于交量两两比较之间的量化。 |
-| [^23] | [Equivariant online predictions of non-stationary time series.](http://arxiv.org/abs/1911.08662) | 本文讨论了模型错误下的非平稳时间序列在线预测问题，并且证明了随机游走动态线性模型可以产生精确的极小化预测密度。这个结果为其他模型提供了理论基线，并且在流行病学、气候学和经济学中得到了应用。 |
+| [^1] | [Statistical Tests for Replacing Human Decision Makers with Algorithms.](http://arxiv.org/abs/2306.11689) | 本文提出了一种利用人工智能改善人类决策的统计框架，通过基准测试与机器预测，替换部分人类决策者的决策制定，并经过实验检验得出算法具有更高的真阳性率和更低的假阳性率，尤其是来自农村地区的医生的诊断更容易被替代。 |
+| [^2] | [Uniform taxation of electricity: incentives for flexibility and cost redistribution among household categories.](http://arxiv.org/abs/2306.11566) | 通过对所有用电征收统一的税收政策，可以在不同的家庭之间逐渐地重新分配成本，并激励节约能源的灵活性，从而为所有家庭节省总成本。 |
+| [^3] | [Coevolution of cognition and cooperation in structured populations under reinforcement learning.](http://arxiv.org/abs/2306.11376) | 本研究发现在囚徒困境中，确定的重复交互概率阈值将导致智能体从直觉的背叛者转变为双重过程的合作者；更小的节点度数降低了双重过程合作者的成功率。 |
+| [^4] | [The Illusive Slump of Disruptive Patents.](http://arxiv.org/abs/2306.10774) | 本论文对Park等人的研究方法和发现提出质疑，发现排除偏差和截断偏差对结果影响较大，作者报告的突破性专利减少的88%可以通过截断所有反向引用来解释。更新到2016年的结果表明，突破性专利的下降被严重夸大。 |
+| [^5] | [Can we falsify the justification of the validity of Wald confidence intervals of doubly robust functionals, without assumptions?.](http://arxiv.org/abs/2306.10590) | 本文提出无假设检验方法，可否定分析师对基于双重机器学习估计的Wald置信区间在广泛的双重稳健函数类中的有效性的证明。 |
+| [^6] | [Formal Covariate Benchmarking to Bound Omitted Variable Bias.](http://arxiv.org/abs/2306.10562) | 本文介绍了正式协变量基准测试的原理和细节，强调了解释残差部分时研究人员所面临的困难。这个方法能限制忽略变量偏差并给出一个未观察到的混杂因子的强度范围。 |
+| [^7] | [Bloated Disclosures: Can ChatGPT Help Investors Process Financial Information?.](http://arxiv.org/abs/2306.10224) | 研究发现生成式 AI 工具 ChatGPT 可以更有效地展示股票市场相关信息，提出了信息膨胀指标并证明其与负面的资本市场后果相关，同时展示其在构建针对性总结方面的效果。 |
+| [^8] | [Key predictors for climate policy support and political mobilization: The role of beliefs and preferences.](http://arxiv.org/abs/2306.10144) | 瑞士CO2法案的选前共同调查实验发现，气候政策的支持和动员主要受到信念和政策设计偏好的影响，而非社会人口统计信息等其他因素。 |
+| [^9] | [NFTs to MARS: Multi-Attention Recommender System for NFTs.](http://arxiv.org/abs/2306.10053) | 本文提出了首个具有三大关键特征——图形注意力、多模态注意力和多任务学习的面向NFT的多注意力推荐系统(NFT-MARS)，以解决NFT市场挑战。 |
+| [^10] | [Marijuana on Main Streets? The Story Continues in Colombia: An Endogenous Three-part Model.](http://arxiv.org/abs/2306.10031) | 本文研究了哥伦比亚大麻的需求，提出了一个内生三部分模型，发现年轻的男性、饮酒和吸烟、居住在有毒品供应商的社区以及有吸食大麻朋友的人面临着更高的接触和使用这种药物的可能性，同时发现大麻是一种无弹性的商品，如果合法化，对于对大麻使用风险感知中等或较低的年轻人来说会有更高的需求。 |
+| [^11] | [Impulse Response Analysis for Structural Nonlinear Time Series Models.](http://arxiv.org/abs/2305.19089) | 本文研究非线性时间序列模型的脉冲响应分析，提出了一种新的更直接依赖于底层模型属性的方法，并讨论了相关的非参数估计和结构脉冲响应的推断。 |
+| [^12] | [Kinship can hinder cooperation in heterogeneous populations.](http://arxiv.org/abs/2305.19026) | 亲属关系的增加并不总是有利于人类社会的合作，会阻碍直接互惠的效力，并使维持完全合作的条件更加苛刻。 |
+| [^13] | [An Approximate Feasibility Assessment of Electric Vehicles Adoption in Nigeria: Forecast 2030.](http://arxiv.org/abs/2305.17844) | 本论文评估了尼日利亚电动汽车在2030年的可行性，并探讨了可再生能源在过渡到可持续未来中的重要性。 |
+| [^14] | [The Direct and Spillover Effects of Large-scale Affirmative Action at an Elite Brazilian University.](http://arxiv.org/abs/2305.02513) | 巴西一所精英大学实施的大规模平权政策既对于黑人和低收入学生具有正向效应（使得其就业收入增长），又对于该校排名最高的学生具有重大负面影响（导致他们就业收入大幅下降）。 |
+| [^15] | [On the Existence and Information of Orthogonal Moments For Inference.](http://arxiv.org/abs/2303.11418) | 本文研究了正交矩在鲁棒性推断中的广泛应用，并提供了正交矩存在的必要和充分条件，以应用于正则半参数模型中的参数估计问题。同时，需要注意的是，要让正交矩在推断中具有信息性，必须满足效率矩阵非零的要求。 |
+| [^16] | [NPV, IRR, PI, PP, and DPP: a unified view.](http://arxiv.org/abs/2302.02875) | 本文提出了一类包含净现值、内部收益率、盈利能力指数、回本期和折现回本期的盈利能力度量标准的统一观点，并提供了概括的公设表征。这一方法提供了一个统一的解释盈利能力指标作为针对经济环境情景集的金融稳定度量标准，并提供了一个比较项目的不确定性的框架。 |
+| [^17] | [Revisiting Panel Data Discrete Choice Models with Lagged Dependent Variables.](http://arxiv.org/abs/2301.09379) | 本文提出了一种新颖的识别策略来解决具有滞后依赖变量、外生协变量和实体固定效应的面板数据二元选择模型的识别和估计问题。我们的方法允许任何形式的时间趋势，不会受到“维度灾难”的影响。在有限样本中表现良好。 |
+| [^18] | [Cross-Sectional Dynamics Under Network Structure: Theory and Macroeconomic Applications.](http://arxiv.org/abs/2211.13610) | 本文提出了一个网络结构下横向动力学的框架，可以用于估计动态网络效应和建模降维等应用。第一次应用该框架时，作者估计了部门生产力冲击如何沿着供应链传输并影响美国经济中部门价格的动态。分析表明，网络位置不仅可以解释经济变化的强度，还可以解释供应链的作用。 |
+| [^19] | [A Structural Equation Modeling Approach to Understand User's Perceptions of Acceptance of Ride-Sharing Services in Dhaka City.](http://arxiv.org/abs/2210.04086) | 本研究使用结构方程模型探究Dhaka市用户对顺风车服务的认知，结果表明用户对安全和保障的关注程度高于服务表现。 |
+| [^20] | [Inequality of Opportunity and Income Redistribution.](http://arxiv.org/abs/2209.00534) | 本研究研究了在对机会和结果影响的运气不确定情况下，人们如何重新分配收入，发现当有幸运机会时，参与者重新分配的力度较小。 |
+| [^21] | [Joint diagnostic test of regression discontinuity designs: multiple testing problem.](http://arxiv.org/abs/2205.04345) | 该论文提出一种联合检验程序来解决目前回归不连续设计的诊断检验存在的多重检验问题，该程序胜过Bonferroni校正。 |
+| [^22] | [Policy Choice in Time Series by Empirical Welfare Maximization.](http://arxiv.org/abs/2205.03970) | 本文提出了一种新方法以在一定时间段内进行政策选择，通过经验福利最大化方法来估计这一政策规则，旨在达到更好的条件福利。我们表征了此方法可达到最优策略选择的条件，并用模拟研究和实证应用来证明其可行性，在宏观经济领域应用上也能够起到积极的作用。 |
+| [^23] | [Efficiency, Fairness, and Stability in Non-Commercial Peer-to-Peer Ridesharing.](http://arxiv.org/abs/2110.01152) | 本文聚焦于P2P共乘中最核心的问题：乘客和司机的匹配。在考虑到用户偏好的前提下，本文提出了关于公平性和稳定性的新概念以及高效匹配算法，可以在不影响系统范围内效率的情况下获得公平和稳定的共乘解决方案。 |
+| [^24] | [Characterizing the Top Cycle via Strategyproofness.](http://arxiv.org/abs/2108.04622) | 本研究证明了，在温和条件下，顶级周期是唯一的不征用的策略性SCC，其结果仅取决于交量两两比较之间的量化。 |
+| [^25] | [Equivariant online predictions of non-stationary time series.](http://arxiv.org/abs/1911.08662) | 本文讨论了模型错误下的非平稳时间序列在线预测问题，并且证明了随机游走动态线性模型可以产生精确的极小化预测密度。这个结果为其他模型提供了理论基线，并且在流行病学、气候学和经济学中得到了应用。 |
 
 # 详细
 
-[^1]: 电力的统一税收：灵活性和成本在不同家庭之间的重新分配的激励
+[^1]: 统计测试替代人类决策者的算法
+
+    Statistical Tests for Replacing Human Decision Makers with Algorithms. (arXiv:2306.11689v1 [econ.EM])
+
+    [http://arxiv.org/abs/2306.11689](http://arxiv.org/abs/2306.11689)
+
+    本文提出了一种利用人工智能改善人类决策的统计框架，通过基准测试与机器预测，替换部分人类决策者的决策制定，并经过实验检验得出算法具有更高的真阳性率和更低的假阳性率，尤其是来自农村地区的医生的诊断更容易被替代。
+
+    
+
+    本文提出了一个统计框架，可以通过人工智能来改善人类的决策。首先将每个人类决策者的表现与机器预测进行基准测试；然后用所提出的人工智能算法的建议替换决策制定者的一个子集所做出的决策。利用全国大型孕产结果和繁殖年龄夫妇孕前检查的医生诊断数据集，我们试验了一种启发式高频率方法以及一种贝叶斯后验损失函数方法，并将其应用于异常出生检测。我们发现，我们的算法在一个测试数据集上的结果比仅由医生诊断的结果具有更高的总体真阳性率和更低的假阳性率。我们还发现，来自农村地区的医生的诊断更容易被替代，这表明人工智能辅助决策制定更容易提高精确度。
+
+    This paper proposes a statistical framework with which artificial intelligence can improve human decision making. The performance of each human decision maker is first benchmarked against machine predictions; we then replace the decisions made by a subset of the decision makers with the recommendation from the proposed artificial intelligence algorithm. Using a large nationwide dataset of pregnancy outcomes and doctor diagnoses from prepregnancy checkups of reproductive age couples, we experimented with both a heuristic frequentist approach and a Bayesian posterior loss function approach with an application to abnormal birth detection. We find that our algorithm on a test dataset results in a higher overall true positive rate and a lower false positive rate than the diagnoses made by doctors only. We also find that the diagnoses of doctors from rural areas are more frequently replaceable, suggesting that artificial intelligence assisted decision making tends to improve precision more i
+    
+[^2]: 电力的统一税收：灵活性和成本在不同家庭之间的重新分配的激励
 
     Uniform taxation of electricity: incentives for flexibility and cost redistribution among household categories. (arXiv:2306.11566v1 [econ.GN])
 
@@ -42,7 +58,7 @@
 
     Recent years have shown a rapid adoption of residential solar PV with increased self-consumption and self-sufficiency levels in Europe. A major driver for their economic viability is the electricity tax exemption for the consumption of self-produced electricity. This leads to large residential PV capacities and partially overburdened distribution grids. Furthermore, the tax exemption that benefits wealthy households that can afford capital-intense investments in solar panels in particular has sparked discussions about energy equity and the appropriate taxation level for self-consumption. This study investigates the implementation of uniform electricity taxes on all consumption, irrespective of the origin of the production, by means of a case study of 155,000 hypothetical Danish prosumers. The results show that the new taxation policy redistributes costs progressively across household sizes. As more consumption is taxed, the tax level can be reduced by 38%, leading to 61% of all househo
     
-[^2]: 结构化人群中认知和合作的共同演化在增强学习中的研究
+[^3]: 结构化人群中认知和合作的共同演化在增强学习中的研究
 
     Coevolution of cognition and cooperation in structured populations under reinforcement learning. (arXiv:2306.11376v1 [physics.soc-ph])
 
@@ -56,7 +72,7 @@
 
     We study the evolution of behavior under reinforcement learning in a Prisoner's Dilemma where agents interact in a regular network and can learn about whether they play one-shot or repeatedly by incurring a cost of deliberation. With respect to other behavioral rules used in the literature, (i) we confirm the existence of a threshold value of the probability of repeated interaction, switching the emergent behavior from intuitive defector to dual-process cooperator; (ii) we find a different role of the node degree, with smaller degrees reducing the evolutionary success of dual-process cooperators; (iii) we observe a higher frequency of deliberation.
     
-[^3]: 突破性专利的萎缩问题
+[^4]: 突破性专利的萎缩问题
 
     The Illusive Slump of Disruptive Patents. (arXiv:2306.10774v1 [econ.GN])
 
@@ -70,7 +86,7 @@
 
     Despite tremendous growth in the volume of new scientific and technological knowledge, the popular press has recently raised concerns that disruptive innovative activity is slowing. These dire prognoses were mainly driven by Park et al. (2023), a Nature publication that uses decades of data and millions of observations coupled with a novel quantitative metric (the CD index) that characterizes innovation in science and technology as either consolidating or disruptive. We challenge the Park et al. (2023) methodology and findings, principally around concerns of truncation bias and exclusion bias. We show that 88 percent of the decrease in disruptive patents over 1980-2010 reported by the authors can be explained by their truncation of all backward citations before 1976. We also show that this truncation bias varies by technology class. We update the analysis to 2016 and account for a change in U.S. patent law that allows for citations to patent applications in addition to patent grants, w
     
-[^4]: 我们能否在不做任何假设的情况下，证伪Wald置信区间在双重稳健函数下的有效性？
+[^5]: 我们能否在不做任何假设的情况下，证伪Wald置信区间在双重稳健函数下的有效性？
 
     Can we falsify the justification of the validity of Wald confidence intervals of doubly robust functionals, without assumptions?. (arXiv:2306.10590v1 [stat.ME])
 
@@ -84,7 +100,7 @@
 
     In this article we develop a feasible version of the assumption-lean tests in Liu et al. 20 that can falsify an analyst's justification for the validity of a reported nominal $(1 - \alpha)$ Wald confidence interval (CI) centered at a double machine learning (DML) estimator for any member of the class of doubly robust (DR) functionals studied by Rotnitzky et al. 21. The class of DR functionals is broad and of central importance in economics and biostatistics. It strictly includes both (i) the class of mean-square continuous functionals that can be written as an expectation of an affine functional of a conditional expectation studied by Chernozhukov et al. 22 and the class of functionals studied by Robins et al. 08. The present state-of-the-art estimators for DR functionals $\psi$ are DML estimators $\hat{\psi}_{1}$. The bias of $\hat{\psi}_{1}$ depends on the product of the rates at which two nuisance functions $b$ and $p$ are estimated. Most commonly an analyst justifies the validity o
     
-[^5]: 正式协变量基准测试以限制忽略变量偏差
+[^6]: 正式协变量基准测试以限制忽略变量偏差
 
     Formal Covariate Benchmarking to Bound Omitted Variable Bias. (arXiv:2306.10562v1 [econ.EM])
 
@@ -98,7 +114,7 @@
 
     Covariate benchmarking is an important part of sensitivity analysis about omitted variable bias and can be used to bound the strength of the unobserved confounder using information and judgments about observed covariates. It is common to carry out formal covariate benchmarking after residualizing the unobserved confounder on the set of observed covariates. In this paper, I explain the rationale and details of this procedure. I clarify some important details of the process of formal covariate benchmarking and highlight some of the difficulties of interpretation that researchers face in reasoning about the residualized part of unobserved confounders. I explain all the points with several empirical examples.
     
-[^6]: 膨胀的披露：ChatGPT是否能帮助投资者处理财务信息？
+[^7]: 膨胀的披露：ChatGPT是否能帮助投资者处理财务信息？
 
     Bloated Disclosures: Can ChatGPT Help Investors Process Financial Information?. (arXiv:2306.10224v1 [econ.GN])
 
@@ -112,7 +128,7 @@
 
     Generative AI tools such as ChatGPT can fundamentally change the way investors process information. We probe the economic usefulness of these tools in summarizing complex corporate disclosures using the stock market as a laboratory. The unconstrained summaries are dramatically shorter, often by more than 70% compared to the originals, whereas their information content is amplified. When a document has a positive (negative) sentiment, its summary becomes more positive (negative). More importantly, the summaries are more effective at explaining stock market reactions to the disclosed information. Motivated by these findings, we propose a measure of information "bloat." We show that bloated disclosure is associated with adverse capital markets consequences, such as lower price efficiency and higher information asymmetry. Finally, we show that the model is effective at constructing targeted summaries that identify firms' (non-)financial performance and risks. Collectively, our results indi
     
-[^7]: 气候政策支持和政治动员的关键预测因素：信念和偏好的作用
+[^8]: 气候政策支持和政治动员的关键预测因素：信念和偏好的作用
 
     Key predictors for climate policy support and political mobilization: The role of beliefs and preferences. (arXiv:2306.10144v1 [econ.GN])
 
@@ -126,7 +142,7 @@
 
     Public support and political mobilization are two crucial factors for the adoption of ambitious climate policies in line with the international greenhouse gas reduction targets of the Paris Agreement. Despite their compound importance, they are mainly studied separately. Using a random forest machine-learning model, this article investigates the relative predictive power of key established explanations for public support and mobilization for climate policies. Predictive models may shape future research priorities and contribute to theoretical advancement by showing which predictors are the most and least important. The analysis is based on a pre-election conjoint survey experiment on the Swiss CO2 Act in 2021. Results indicate that beliefs (such as the perceived effectiveness of policies) and policy design preferences (such as for subsidies or tax-related policies) are the most important predictors while other established explanations, such as socio-demographics, issue salience (the re
     
-[^8]: NFT到MARS：面向NFT的多注意力推荐系统
+[^9]: NFT到MARS：面向NFT的多注意力推荐系统
 
     NFTs to MARS: Multi-Attention Recommender System for NFTs. (arXiv:2306.10053v1 [cs.IR])
 
@@ -140,7 +156,7 @@
 
     Recommender systems have become essential tools for enhancing user experiences across various domains. While extensive research has been conducted on recommender systems for movies, music, and e-commerce, the rapidly growing and economically significant Non-Fungible Token (NFT) market remains underexplored. The unique characteristics and increasing prominence of the NFT market highlight the importance of developing tailored recommender systems to cater to its specific needs and unlock its full potential. In this paper, we examine the distinctive characteristics of NFTs and propose the first recommender system specifically designed to address NFT market challenges. In specific, we develop a Multi-Attention Recommender System for NFTs (NFT-MARS) with three key characteristics: (1) graph attention to handle sparse user-item interactions, (2) multi-modal attention to incorporate feature preference of users, and (3) multi-task learning to consider the dual nature of NFTs as both artwork and
     
-[^9]: 哥伦比亚大街上的大麻？内生三部分模型的故事。
+[^10]: 哥伦比亚大街上的大麻？内生三部分模型的故事。
 
     Marijuana on Main Streets? The Story Continues in Colombia: An Endogenous Three-part Model. (arXiv:2306.10031v1 [econ.GN])
 
@@ -154,7 +170,7 @@
 
     Cannabis is the most common illicit drug, and understanding its demand is relevant to analyze the potential implications of its legalization. This paper proposes an endogenous three-part model taking into account incidental truncation and access restrictions to study demand for marijuana in Colombia, and analyze the potential effects of its legalization. Our application suggests that modeling simultaneously access, intensive and extensive margin is relevant, and that selection into access is important for the intensive margin. We find that younger men that have consumed alcohol and cigarettes, living in a neighborhood with drug suppliers, and friends that consume marijuana face higher probability of having access and using this drug. In addition, we find that marijuana is an inelastic good (-0.45 elasticity). Our results are robust to different specifications and definitions. If marijuana were legalized, younger individuals with a medium or low risk perception about marijuana use would
     
-[^10]: 结构非线性时间序列模型的脉冲响应分析
+[^11]: 结构非线性时间序列模型的脉冲响应分析
 
     Impulse Response Analysis for Structural Nonlinear Time Series Models. (arXiv:2305.19089v1 [econ.EM])
 
@@ -168,7 +184,7 @@
 
     Linear time series models are the workhorse of structural macroeconometric analysis. However, economic theory as well as data suggests that nonlinear and asymmetric effects might be important to study to understand the potential effects of policy makers' choices. Taking a dynamical system view, this paper compares known approaches to construct impulse responses in nonlinear time series models and proposes a new approach that more directly relies on the underlying model properties. Nonparametric estimation of autoregressive models is discussed under natural physical dependence assumptions as well as inference for structural impulse responses.
     
-[^11]: 亲属关系可能会阻碍人类群体的合作
+[^12]: 亲属关系可能会阻碍人类群体的合作
 
     Kinship can hinder cooperation in heterogeneous populations. (arXiv:2305.19026v1 [econ.TH])
 
@@ -182,7 +198,7 @@
 
     Kin selection and direct reciprocity are two most basic mechanisms for promoting cooperation in human society. Generalizing the standard models of the multi-player Prisoner's Dilemma and the Public Goods games for heterogeneous populations, we study the effects of genetic relatedness on cooperation in the context of repeated interactions. Two sets of interrelated results are established: a set of analytical results focusing on the subgame perfect equilibrium and a set of agent-based simulation results based on an evolutionary game model. We show that in both cases increasing genetic relatedness does not always facilitate cooperation. Specifically, kinship can hinder the effectiveness of reciprocity in two ways. First, the condition for sustaining cooperation through direct reciprocity is harder to satisfy when relatedness increases in an intermediate range. Second, full cooperation is impossible to sustain for a medium-high range of relatedness values. Moreover, individuals with low co
     
-[^12]: 尼日利亚电动汽车的可行性评估：2030年预测的探讨
+[^13]: 尼日利亚电动汽车的可行性评估：2030年预测的探讨
 
     An Approximate Feasibility Assessment of Electric Vehicles Adoption in Nigeria: Forecast 2030. (arXiv:2305.17844v1 [eess.SY])
 
@@ -196,7 +212,7 @@
 
     Efforts toward building a sustainable future have underscored the importance of collective responsibility among state and non-state actors, corporations, and individuals to achieve climate goals. International initiatives, including the Sustainable Development Goals and the Paris Agreement, emphasize the need for immediate action from all stakeholders. This paper presents a feasibility assessment focused on the opportunities within Nigeria's Electric Vehicle Value Chain, aiming to enhance public understanding of the country's renewable energy sector. As petroleum currently fulfills over 95% of global transportation needs, energy companies must diversify their portfolios and integrate various renewable energy sources to transition toward a sustainable future. The shifting investor sentiment away from traditional fossil fuel industries further highlights the imperative of incorporating renewables. To facilitate significant progress in the renewable energy sector, it is vital to establish
     
-[^13]: 巴西一所精英大学的大规模平权政策的直接和外溢效应
+[^14]: 巴西一所精英大学的大规模平权政策的直接和外溢效应
 
     The Direct and Spillover Effects of Large-scale Affirmative Action at an Elite Brazilian University. (arXiv:2305.02513v1 [econ.GN])
 
@@ -210,7 +226,7 @@
 
     We examine the effects of an affirmative action policy at an elite Brazilian university that reserved 45 percent of admission slots for Black and low-income students. We find that marginally-admitted students who enrolled through the affirmative action tracks experienced a 14 percent increase in early-career earnings. But the adoption of affirmative action also caused a large decrease in earnings for the university's most highly-ranked students. We present evidence that the negative spillover effects on highly-ranked students' earnings were driven by both a reduction in human capital accumulation and a decline in the value of networking.
     
-[^14]: 关于推断中正交矩存在性和信息性的研究
+[^15]: 关于推断中正交矩存在性和信息性的研究
 
     On the Existence and Information of Orthogonal Moments For Inference. (arXiv:2303.11418v1 [econ.EM])
 
@@ -224,7 +240,7 @@
 
     Locally Robust (LR)/Orthogonal/Debiased moments have been proved useful with machine learning or high dimensional first steps, but their existence has not been investigated for general models and parameters. In this paper, we provide a necessary and sufficient condition, referred to as Restricted Local Non-surjectivity (RLN), for the existence of such orthogonal moments to conduct robust inference on parameters of interest in regular semiparametric models. Importantly, RLN does not require identification of the parameters of interest or identification of the nuisance parameters. Thus, orthogonal moments exist under rather general conditions. However, for orthogonal moments to be informative for inference, the efficient Fisher Information matrix for the parameter must be non-zero (though possibly singular). We use these results to characterize the existence of orthogonal moments in a class of models with Unobserved Heterogeneity (UH), and to clarify the important role played by the supp
     
-[^15]: NPV、IRR、PI、PP和DPP：统一观点
+[^16]: NPV、IRR、PI、PP和DPP：统一观点
 
     NPV, IRR, PI, PP, and DPP: a unified view. (arXiv:2302.02875v5 [econ.GN] UPDATED)
 
@@ -238,7 +254,7 @@
 
     This paper introduces a class of investment project's profitability metrics that includes the net present value criterion (which labels a project as weakly profitable if its NPV is nonnegative), the internal rate of return (IRR), the profitability index (PI), the payback period (PP) and its discounted counterpart (DPP) as special cases. An axiomatic characterization of this class, as well as of the mentioned conventional metrics within the class, is presented. This approach is useful at least in three respects. First, it suggests a unified interpretation for profitability metrics as measures of financial stability of a project with respect to a collection of scenarios of economic environment. Second, it shows that, with the exception of the NPV criterion, a profitability metric is necessarily incomplete (i.e., there are incomparable projects). In particular, this implies that any extension of the IRR to the space of all projects does not meet a set of reasonable conditions. A similar c
     
-[^16]: 重访具有滞后依赖变量的面板数据离散选择模型
+[^17]: 重访具有滞后依赖变量的面板数据离散选择模型
 
     Revisiting Panel Data Discrete Choice Models with Lagged Dependent Variables. (arXiv:2301.09379v2 [econ.EM] UPDATED)
 
@@ -252,7 +268,21 @@
 
     This paper revisits the identification and estimation of a class of semiparametric (distribution-free) panel data binary choice models with lagged dependent variables, exogenous covariates, and entity fixed effects. We provide a novel identification strategy, using an "identification at infinity" argument. In contrast with the celebrated Honore and Kyriazidou (2000), our method permits time trends of any form and does not suffer from the "curse of dimensionality". We propose an easily implementable conditional maximum score estimator. The asymptotic properties of the proposed estimator are fully characterized. A small-scale Monte Carlo study demonstrates that our approach performs satisfactorily in finite samples. We illustrate the usefulness of our method by presenting an empirical application to enrollment in private hospital insurance using the Household, Income and Labour Dynamics in Australia (HILDA) Survey data.
     
-[^17]: 结构方程模型方法研究Dhaka市用户对顺风车服务接受度的认知
+[^18]: 网络结构下的横向动力学: 理论及其宏观经济学应用
+
+    Cross-Sectional Dynamics Under Network Structure: Theory and Macroeconomic Applications. (arXiv:2211.13610v2 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2211.13610](http://arxiv.org/abs/2211.13610)
+
+    本文提出了一个网络结构下横向动力学的框架，可以用于估计动态网络效应和建模降维等应用。第一次应用该框架时，作者估计了部门生产力冲击如何沿着供应链传输并影响美国经济中部门价格的动态。分析表明，网络位置不仅可以解释经济变化的强度，还可以解释供应链的作用。
+
+    
+
+    许多经济学领域都涉及通过双边联系联系在一起的单位横向切面。本文提出了一个研究利用这种网络结构研究横向变量动态的框架。它是一个矢量自回归，其中创新仅通过双边联系在横向传输，并且可以容纳网络效应的高阶如何随时间累积的丰富模式。该模型可用于估计动态网络效应，其中网络由数据中的动态交叉相关性确定或推断。它还提供了一种建模(new_word)的降维技术，因为网络能够通过相对较少的非零双边链接汇总单位之间的复杂关系。
+
+    Many environments in economics feature a cross-section of units linked by bilateral ties. I develop a framework for studying dynamics of cross-sectional variables exploiting this network structure. It is a vector autoregression in which innovations transmit cross-sectionally only via bilateral links and which can accommodate rich patterns of how network effects of higher order accumulate over time. The model can be used to estimate dynamic network effects, with the network given or inferred from dynamic cross-correlations in the data. It also offers a dimensionality-reduction technique for modeling (cross-sectional) processes, owing to networks' ability to summarize complex relations among units by relatively few non-zero bilateral links. In a first application, I estimate how sectoral productivity shocks transmit along supply chain linkages and affect dynamics of sectoral prices in the US economy. The analysis suggests that network positions can rationalize not only the strength of a 
+    
+[^19]: 结构方程模型方法研究Dhaka市用户对顺风车服务接受度的认知
 
     A Structural Equation Modeling Approach to Understand User's Perceptions of Acceptance of Ride-Sharing Services in Dhaka City. (arXiv:2210.04086v2 [stat.AP] UPDATED)
 
@@ -266,7 +296,7 @@
 
     This research aims at building a multivariate statistical model for assessing users' perceptions of acceptance of ride-sharing services in Dhaka City. A structured questionnaire is developed based on the users' reported attitudes and perceived risks. A total of 350 normally distributed responses are collected from ride-sharing service users and stakeholders of Dhaka City. Respondents are interviewed to express their experience and opinions on ride-sharing services through the stated preference questionnaire. Structural Equation Modeling (SEM) is used to validate the research hypotheses. Statistical parameters and several trials are used to choose the best SEM. The responses are also analyzed using the Relative Importance Index (RII) method, validating the chosen SEM. Inside SEM, the quality of ride-sharing services is measured by two latent and eighteen observed variables. The latent variable 'safety & security' is more influential than 'service performance' on the overall quality of s
     
-[^18]: 机会不平等与收入再分配
+[^20]: 机会不平等与收入再分配
 
     Inequality of Opportunity and Income Redistribution. (arXiv:2209.00534v3 [econ.GN] UPDATED)
 
@@ -280,7 +310,7 @@
 
     We examine how people redistribute income when there is uncertainty about the role luck plays in determining opportunities and outcomes. We elicit redistribution decisions from a U.S.-representative sample who observe worker outcomes and whether luck magnified workers' effort (``lucky opportunities'') or determined workers' income directly (``lucky outcomes''). We find that participants redistribute less and are less reactive to changes in the importance of luck in environments with lucky opportunities. Our findings have implications for models that seek to understand and predict redistribution attitudes and help to explain the gap between lab evidence on support for redistribution and U.S. inequality trends.
     
-[^19]: 回归不连续设计的联合诊断检验：多重检验问题
+[^21]: 回归不连续设计的联合诊断检验：多重检验问题
 
     Joint diagnostic test of regression discontinuity designs: multiple testing problem. (arXiv:2205.04345v2 [econ.EM] UPDATED)
 
@@ -294,7 +324,7 @@
 
     Current diagnostic tests for regression discontinuity (RD) design face a multiple testing problem. We find a massive over-rejection of the identifying restriction among empirical RD studies published in top-five economics journals. Each test achieves a nominal size of 5%; however, the median number of tests per study is 12. Consequently, more than one-third of studies reject at least one of these tests and their diagnostic procedures are invalid for justifying the identifying assumption. We offer a joint testing procedure to resolve the multiple testing problem. Our procedure is based on a new joint asymptotic normality of local linear estimates and local polynomial density estimates. In simulation studies, our joint testing procedures outperform the Bonferroni correction.
     
-[^20]: 基于经验福利最大化的时间序列政策选择方法研究
+[^22]: 基于经验福利最大化的时间序列政策选择方法研究
 
     Policy Choice in Time Series by Empirical Welfare Maximization. (arXiv:2205.03970v3 [econ.EM] UPDATED)
 
@@ -308,7 +338,7 @@
 
     This paper develops a novel method for policy choice in a dynamic setting where the available data is a multivariate time series. Building on the statistical treatment choice framework, we propose Time-series Empirical Welfare Maximization (T-EWM) methods to estimate an optimal policy rule for the current period or over multiple periods by maximizing an empirical welfare criterion constructed using nonparametric potential outcome time-series. We characterize conditions under which T-EWM consistently learns a policy choice that is optimal in terms of conditional welfare given the time-series history. We then derive a nonasymptotic upper bound for conditional welfare regret and its minimax lower bound. To illustrate the implementation and uses of T-EWM, we perform simulation studies and apply the method to estimate optimal monetary policy rules from macroeconomic time-series data.
     
-[^21]: 非商业P2P共乘中的效率、公平性和稳定性
+[^23]: 非商业P2P共乘中的效率、公平性和稳定性
 
     Efficiency, Fairness, and Stability in Non-Commercial Peer-to-Peer Ridesharing. (arXiv:2110.01152v2 [cs.AI] UPDATED)
 
@@ -322,7 +352,7 @@
 
     Unlike commercial ridesharing, non-commercial peer-to-peer (P2P) ridesharing has been subject to limited research -- although it can promote viable solutions in non-urban communities. This paper focuses on the core problem in P2P ridesharing: the matching of riders and drivers. We elevate users' preferences as a first-order concern and introduce novel notions of fairness and stability in P2P ridesharing. We propose algorithms for efficient matching while considering user-centric factors, including users' preferred departure time, fairness, and stability. Results suggest that fair and stable solutions can be obtained in reasonable computational times and can improve baseline outcomes based on system-wide efficiency exclusively.
     
-[^22]: 通过策略无虚拟性表征顶级周期
+[^24]: 通过策略无虚拟性表征顶级周期
 
     Characterizing the Top Cycle via Strategyproofness. (arXiv:2108.04622v2 [econ.TH] UPDATED)
 
@@ -336,7 +366,7 @@
 
     Gibbard and Satterthwaite have shown that the only single-valued social choice functions (SCFs) that satisfy non-imposition (i.e., the function's range coincides with its codomain) and strategyproofness (i.e., voters are never better off by misrepresenting their preferences) are dictatorships. In this paper, we consider set-valued social choice correspondences (SCCs) that are strategyproof according to Fishburn's preference extension and, in particular, the top cycle, an attractive SCC that returns the maximal elements of the transitive closure of the weak majority relation. Our main theorem implies that, under mild conditions, the top cycle is the only non-imposing strategyproof SCC whose outcome only depends on the quantified pairwise comparisons between alternatives. This result effectively turns the Gibbard-Satterthwaite impossibility into a complete characterization of the top cycle by moving from SCFs to SCCs. It is obtained as a corollary of a more general characterization of st
     
-[^23]: 非平稳时间序列等变在线预测
+[^25]: 非平稳时间序列等变在线预测
 
     Equivariant online predictions of non-stationary time series. (arXiv:1911.08662v5 [math.ST] UPDATED)
 
