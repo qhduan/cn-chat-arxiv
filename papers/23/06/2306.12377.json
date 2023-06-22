@@ -1,0 +1,12 @@
+{
+    "title": "Geometric Algorithms for $k$-NN Poisoning. (arXiv:2306.12377v1 [cs.LG])",
+    "abstract": "We propose a label poisoning attack on geometric data sets against $k$-nearest neighbor classification. We provide an algorithm that can compute an $\\varepsilon n$-additive approximation of the optimal poisoning in $n\\cdot 2^{2^{O(d+k/\\varepsilon)}}$ time for a given data set $X \\in \\mathbb{R}^d$, where $|X| = n$. Our algorithm achieves its objectives through the application of multi-scale random partitions.",
+    "link": "http://arxiv.org/abs/2306.12377",
+    "context": "Title: Geometric Algorithms for $k$-NN Poisoning. (arXiv:2306.12377v1 [cs.LG])\nAbstract: We propose a label poisoning attack on geometric data sets against $k$-nearest neighbor classification. We provide an algorithm that can compute an $\\varepsilon n$-additive approximation of the optimal poisoning in $n\\cdot 2^{2^{O(d+k/\\varepsilon)}}$ time for a given data set $X \\in \\mathbb{R}^d$, where $|X| = n$. Our algorithm achieves its objectives through the application of multi-scale random partitions.",
+    "path": "papers/23/06/2306.12377.json",
+    "total_tokens": 670,
+    "translated_title": "$k$-NN污染的几何算法。",
+    "translated_abstract": "我们提出了一种针对几何数据集$k$-最近邻分类的标签污染攻击。我们提供了一种算法，可以在$n\\cdot 2^{2^{O(d+k/\\varepsilon)}}$的时间内计算给定数据集$X \\in \\mathbb{R}^d$的$\\varepsilon n$-加性逼近最优污染。我们的算法通过应用多尺度随机分区来实现其目标。",
+    "tldr": "本文提出一种对于几何数据集$k$-最近邻算法的标签污染攻击。通过应用多尺度随机分区，我们提供了一种算法，可以在$n\\cdot 2^{2^{O(d+k/\\varepsilon)}}$的时间内计算逼近给定数据集的最优污染。",
+    "en_tdlr": "This paper proposes a poisoning attack on $k$-nearest neighbor classification for geometric data sets. The authors provide an algorithm that can compute an $\\varepsilon n$-additive approximation of the optimal poisoning in $n\\cdot 2^{2^{O(d+k/\\varepsilon)}}$ time using multi-scale random partitions."
+}
