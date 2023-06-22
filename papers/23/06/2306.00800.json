@@ -1,0 +1,12 @@
+{
+    "title": "FigGen: Text to Scientific Figure Generation. (arXiv:2306.00800v2 [cs.CV] UPDATED)",
+    "abstract": "The generative modeling landscape has experienced tremendous growth in recent years, particularly in generating natural images and art. Recent techniques have shown impressive potential in creating complex visual compositions while delivering impressive realism and quality. However, state-of-the-art methods have been focusing on the narrow domain of natural images, while other distributions remain unexplored. In this paper, we introduce the problem of text-to-figure generation, that is creating scientific figures of papers from text descriptions. We present FigGen, a diffusion-based approach for text-to-figure as well as the main challenges of the proposed task. Code and models are available at https://github.com/joanrod/figure-diffusion",
+    "link": "http://arxiv.org/abs/2306.00800",
+    "context": "Title: FigGen: Text to Scientific Figure Generation. (arXiv:2306.00800v2 [cs.CV] UPDATED)\nAbstract: The generative modeling landscape has experienced tremendous growth in recent years, particularly in generating natural images and art. Recent techniques have shown impressive potential in creating complex visual compositions while delivering impressive realism and quality. However, state-of-the-art methods have been focusing on the narrow domain of natural images, while other distributions remain unexplored. In this paper, we introduce the problem of text-to-figure generation, that is creating scientific figures of papers from text descriptions. We present FigGen, a diffusion-based approach for text-to-figure as well as the main challenges of the proposed task. Code and models are available at https://github.com/joanrod/figure-diffusion",
+    "path": "papers/23/06/2306.00800.json",
+    "total_tokens": 751,
+    "translated_title": "FigGen: 文本到科学图形生成",
+    "translated_abstract": "近年来，生成建模领域取得了巨大的发展，特别是在生成自然图像和艺术方面。最近的技术在创造复杂的视觉组合并展现出令人印象深刻的逼真度和质量方面显示出了令人瞩目的潜力。然而，最先进的方法一直专注于自然图像的狭窄领域，而其他分布则尚未被探索。在本文中，我们引入了文本到图形生成的问题，即从文本描述中创造论文的科学图形。我们提出了 FigGen，这是一种基于扩散的文本到图形技术，也介绍了所提出任务的主要挑战。代码和模型可在 https://github.com/joanrod/figure-diffusion 获取。",
+    "tldr": "本文介绍了 FigGen，一种通过将文本描述转换为科学图形的基于扩散的方法。该技术探索了文本到图形生成的领域，并解决了该任务的主要挑战。",
+    "en_tdlr": "This paper introduces FigGen, a diffusion-based approach for text-to-scientific-figure generation, that explores the field of text-to-figure generation and addresses the main challenges of this task."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "An extension of McDiarmid's inequality. (arXiv:1511.05240v2 [cs.LG] UPDATED)",
+    "abstract": "We generalize McDiarmid's inequality for functions with bounded differences on a high probability set, using an extension argument. Those functions concentrate around their conditional expectations. We further extend the results to concentration in general metric spaces.",
+    "link": "http://arxiv.org/abs/1511.05240",
+    "context": "Title: An extension of McDiarmid's inequality. (arXiv:1511.05240v2 [cs.LG] UPDATED)\nAbstract: We generalize McDiarmid's inequality for functions with bounded differences on a high probability set, using an extension argument. Those functions concentrate around their conditional expectations. We further extend the results to concentration in general metric spaces.",
+    "path": "papers/15/11/1511.05240.json",
+    "total_tokens": 473,
+    "translated_title": "McDiarmid不等式的推广",
+    "translated_abstract": "我们使用推广论证推广McDiarmid不等式，使它适用于具有有界差异的函数，并且适用于高概率集合。这些函数集中于它们的条件期望周围。我们进一步将结果推广到一般度量空间的集中性。",
+    "tldr": "本文推广了McDiarmid不等式，使其适用于具有有界差异的函数，并进一步将结果推广到一般度量空间的集中性。",
+    "en_tdlr": "This paper extends McDiarmid's inequality to functions with bounded differences and general metric spaces."
+}

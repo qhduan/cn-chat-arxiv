@@ -1,0 +1,11 @@
+{
+    "title": "About some compression algorithms. (arXiv:2306.11765v1 [eess.IV])",
+    "abstract": "We use neural network algorithms for finding compression methods of images in the framework of iterated function systems which is a collection of the transformations of the interval $(0, 1)$ satisfying suitable properties.",
+    "link": "http://arxiv.org/abs/2306.11765",
+    "context": "Title: About some compression algorithms. (arXiv:2306.11765v1 [eess.IV])\nAbstract: We use neural network algorithms for finding compression methods of images in the framework of iterated function systems which is a collection of the transformations of the interval $(0, 1)$ satisfying suitable properties.",
+    "path": "papers/23/06/2306.11765.json",
+    "total_tokens": 464,
+    "translated_title": "关于一些压缩算法 (arXiv:2306.11765v1 [eess.IV])",
+    "translated_abstract": "我们利用神经网络算法在迭代函数系统框架中寻找图像压缩方法，该框架是一组使区间$(0, 1)$的变换满足适当性质的集合。",
+    "tldr": "该论文针对图像压缩方法开展神经网络算法研究，以迭代函数系统框架实现相关创新。"
+}

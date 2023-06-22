@@ -1,0 +1,11 @@
+{
+    "title": "A Nonparametric Test of $m$th-degree Inverse Stochastic Dominance. (arXiv:2306.12271v1 [econ.EM])",
+    "abstract": "This paper proposes a nonparametric test for $m$th-degree inverse stochastic dominance which is a powerful tool for ranking distribution functions according to social welfare. We construct the test based on empirical process theory. The test is shown to be asymptotically size controlled and consistent. The good finite sample properties of the test are illustrated via Monte Carlo simulations. We apply our test to the inequality growth in the United Kingdom from 1995 to 2010.",
+    "link": "http://arxiv.org/abs/2306.12271",
+    "context": "Title: A Nonparametric Test of $m$th-degree Inverse Stochastic Dominance. (arXiv:2306.12271v1 [econ.EM])\nAbstract: This paper proposes a nonparametric test for $m$th-degree inverse stochastic dominance which is a powerful tool for ranking distribution functions according to social welfare. We construct the test based on empirical process theory. The test is shown to be asymptotically size controlled and consistent. The good finite sample properties of the test are illustrated via Monte Carlo simulations. We apply our test to the inequality growth in the United Kingdom from 1995 to 2010.",
+    "path": "papers/23/06/2306.12271.json",
+    "total_tokens": 661,
+    "translated_title": "一种$m$阶逆随机优势的非参数化检验方法",
+    "translated_abstract": "本文提出了一种非参数检验方法，用于对$m$阶逆随机优势进行检验，该方法是评估社会福利的有效工具。我们基于经验过程理论构建了这个检验方法。该检验方法被证明具有渐近大小控制和一致性。通过蒙特卡罗模拟，我们证明了该检验方法具有良好的有限样本性质。我们将这个检验方法应用于研究1995年至2010年英国的不平等增长问题。",
+    "tldr": "本文提出了一种非参数化检验方法，用于对$m$阶逆随机优势进行检验，结果表明该方法适用于评估社会福利，并在英国不平等增长问题的研究中得以应用。"
+}

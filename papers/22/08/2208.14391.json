@@ -1,0 +1,12 @@
+{
+    "title": "Convergence Rates for Regularized Optimal Transport via Quantization. (arXiv:2208.14391v3 [math.OC] UPDATED)",
+    "abstract": "We study the convergence of divergence-regularized optimal transport as the regularization parameter vanishes. Sharp rates for general divergences including relative entropy or $L^{p}$ regularization, general transport costs and multi-marginal problems are obtained. A novel methodology using quantization and martingale couplings is suitable for non-compact marginals and achieves, in particular, the sharp leading-order term of entropically regularized 2-Wasserstein distance for all marginals with finite $(2+\\delta)$-moment.",
+    "link": "http://arxiv.org/abs/2208.14391",
+    "context": "Title: Convergence Rates for Regularized Optimal Transport via Quantization. (arXiv:2208.14391v3 [math.OC] UPDATED)\nAbstract: We study the convergence of divergence-regularized optimal transport as the regularization parameter vanishes. Sharp rates for general divergences including relative entropy or $L^{p}$ regularization, general transport costs and multi-marginal problems are obtained. A novel methodology using quantization and martingale couplings is suitable for non-compact marginals and achieves, in particular, the sharp leading-order term of entropically regularized 2-Wasserstein distance for all marginals with finite $(2+\\delta)$-moment.",
+    "path": "papers/22/08/2208.14391.json",
+    "total_tokens": 729,
+    "translated_title": "通过量化实现正则化最优输运的收敛速率研究",
+    "translated_abstract": "本文研究了随着正则化参数消失，发散-正则化最优输运的收敛性。得到了一些一般发散性、包括相对熵或 $L^{p}$ 正则化、一般运输成本和多边问题的尖锐速率结果。一种新颖的方法，使用量化和鞅耦合技术，适用于非紧致边缘，并实现了所有有限 $(2+\\delta)$-矩的边缘上的熵正则化 2-Wasserstein 距离的尖锐领先阶项。",
+    "tldr": "本文研究了随着正则化参数消失，发散-正则化最优输运的收敛性，并通过量化和鞅耦合技术得到了一些一般发散性、包括相对熵或 $L^{p}$ 正则化、一般运输成本和多边问题的尖锐速率结果。",
+    "en_tdlr": "This paper studies the convergence of divergence-regularized optimal transport as the regularization parameter vanishes, and obtains sharp rates for general divergences including relative entropy or $L^{p}$ regularization, general transport costs and multi-marginal problems through quantization and martingale couplings."
+}

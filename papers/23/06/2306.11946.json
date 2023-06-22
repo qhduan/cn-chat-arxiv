@@ -1,0 +1,12 @@
+{
+    "title": "Winter Wheat Crop Yield Prediction on Multiple Heterogeneous Datasets using Machine Learning. (arXiv:2306.11946v1 [cs.LG])",
+    "abstract": "Winter wheat is one of the most important crops in the United Kingdom, and crop yield prediction is essential for the nation's food security. Several studies have employed machine learning (ML) techniques to predict crop yield on a county or farm-based level. The main objective of this study is to predict winter wheat crop yield using ML models on multiple heterogeneous datasets, i.e., soil and weather on a zone-based level. Experimental results demonstrated their impact when used alone and in combination. In addition, we employ numerous ML algorithms to emphasize the significance of data quality in any machine-learning strategy.",
+    "link": "http://arxiv.org/abs/2306.11946",
+    "context": "Title: Winter Wheat Crop Yield Prediction on Multiple Heterogeneous Datasets using Machine Learning. (arXiv:2306.11946v1 [cs.LG])\nAbstract: Winter wheat is one of the most important crops in the United Kingdom, and crop yield prediction is essential for the nation's food security. Several studies have employed machine learning (ML) techniques to predict crop yield on a county or farm-based level. The main objective of this study is to predict winter wheat crop yield using ML models on multiple heterogeneous datasets, i.e., soil and weather on a zone-based level. Experimental results demonstrated their impact when used alone and in combination. In addition, we employ numerous ML algorithms to emphasize the significance of data quality in any machine-learning strategy.",
+    "path": "papers/23/06/2306.11946.json",
+    "total_tokens": 707,
+    "translated_title": "利用机器学习在多个异构数据集上预测冬小麦的产量",
+    "translated_abstract": "冬小麦是英国最重要的作物之一，而作物产量的预测对国家的粮食安全至关重要。已有多项研究使用机器学习技术在县或基于农场的层面上预测作物产量。本研究的主要目的是利用机器学习模型在多个异构数据集上（即区域层面上的土壤和天气）预测冬小麦的产量。实验结果展示了数据单独和结合使用的影响。此外，我们采用了多种机器学习算法，以强调数据质量在任何机器学习策略中的重要性。",
+    "tldr": "本研究在多个异构数据集上采用机器学习方法预测冬小麦的产量，结果表明数据质量对于机器学习策略的决定性作用。",
+    "en_tdlr": "This study predicts winter wheat crop yield using machine learning models on multiple heterogeneous datasets, demonstrating the significant impact of data quality on any machine learning strategy."
+}

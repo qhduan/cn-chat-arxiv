@@ -1,0 +1,12 @@
+{
+    "title": "Iterated Piecewise Affine (IPA) Approximation for Language Modeling. (arXiv:2306.12317v1 [cs.CL])",
+    "abstract": "In this work, we demonstrate the application of a simple first-order Taylor expansion to approximate a generic function $F: R^{n \\times m} \\to R^{n \\times m}$ and utilize it in language modeling. To enhance the basic Taylor expansion, we introduce iteration and piecewise modeling, leading us to name the algorithm the Iterative Piecewise Affine (IPA) approximation. The final algorithm exhibits interesting resemblances to the Transformers decoder architecture. By comparing parameter arrangements in IPA and Transformers, we observe a strikingly similar performance, with IPA outperforming Transformers by 1.5\\% in the next token prediction task with cross-entropy loss for smaller sequence lengths.",
+    "link": "http://arxiv.org/abs/2306.12317",
+    "context": "Title: Iterated Piecewise Affine (IPA) Approximation for Language Modeling. (arXiv:2306.12317v1 [cs.CL])\nAbstract: In this work, we demonstrate the application of a simple first-order Taylor expansion to approximate a generic function $F: R^{n \\times m} \\to R^{n \\times m}$ and utilize it in language modeling. To enhance the basic Taylor expansion, we introduce iteration and piecewise modeling, leading us to name the algorithm the Iterative Piecewise Affine (IPA) approximation. The final algorithm exhibits interesting resemblances to the Transformers decoder architecture. By comparing parameter arrangements in IPA and Transformers, we observe a strikingly similar performance, with IPA outperforming Transformers by 1.5\\% in the next token prediction task with cross-entropy loss for smaller sequence lengths.",
+    "path": "papers/23/06/2306.12317.json",
+    "total_tokens": 752,
+    "translated_title": "迭代分段仿射插值（IPA）逼近于语言建模的应用",
+    "translated_abstract": "本文介绍了一种简单的一阶泰勒展开法来逼近一个通用的函数F: R^{n x m} -> R^{n x m} 并将其应用于语言建模。为了增强基本的泰勒展开，我们引入了迭代和分段建模，从而命名算法为迭代分段仿射插值（IPA）逼近。最终算法表现出与变压器解码器架构相似的有趣特征。通过比较IPA和变压器的参数，我们观察到在较小的序列长度下，IPA在下一个令牌预测任务中使用交叉熵损失比变压器高1.5％。",
+    "tldr": "迭代分段仿射插值（IPA）逼近法可以用于语言建模，与变压器解码器架构类似，并在交叉熵损失下的小序列长度下优于变压器1.5％。",
+    "en_tdlr": "The Iterative Piecewise Affine (IPA) approximation can be used for language modeling, which is similar to the Transformers decoder architecture, and outperforms Transformers by 1.5% with cross-entropy loss for smaller sequence lengths."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Using super-resolution for enhancing visual perception and segmentation performance in veterinary cytology. (arXiv:2306.11848v1 [cs.CV])",
+    "abstract": "The primary objective of this research was to enhance the quality of semantic segmentation in cytology images by incorporating super-resolution (SR) architectures. An additional contribution was the development of a novel dataset aimed at improving imaging quality in the presence of inaccurate focus. Our experimental results demonstrate that the integration of SR techniques into the segmentation pipeline can lead to a significant improvement of up to 25% in the mean average precision (mAP) segmentation metric. These findings suggest that leveraging SR architectures holds great promise for advancing the state of the art in cytology image analysis.",
+    "link": "http://arxiv.org/abs/2306.11848",
+    "context": "Title: Using super-resolution for enhancing visual perception and segmentation performance in veterinary cytology. (arXiv:2306.11848v1 [cs.CV])\nAbstract: The primary objective of this research was to enhance the quality of semantic segmentation in cytology images by incorporating super-resolution (SR) architectures. An additional contribution was the development of a novel dataset aimed at improving imaging quality in the presence of inaccurate focus. Our experimental results demonstrate that the integration of SR techniques into the segmentation pipeline can lead to a significant improvement of up to 25% in the mean average precision (mAP) segmentation metric. These findings suggest that leveraging SR architectures holds great promise for advancing the state of the art in cytology image analysis.",
+    "path": "papers/23/06/2306.11848.json",
+    "total_tokens": 698,
+    "translated_title": "在兽医细胞学中使用超分辨率技术提高视觉感知和分割性能",
+    "translated_abstract": "本研究的主要目标是通过整合超分辨率（SR）架构来提高细胞学图像的语义分割质量。另一个贡献是开发一个新的数据集，旨在提高在不准确的聚焦情况下的成像质量。我们的实验结果表明，将SR技术整合到分割流水线中可能会导致平均精度（mAP）分割指标提高高达25％的显着改进。这些发现表明，利用SR架构在细胞学图像分析方面有着巨大的发展前景。",
+    "tldr": "该研究通过整合超分辨率技术，在细胞学图像的语义分割质量上取得显着进展，为细胞学图像分析的发展提出了巨大的发展前景。",
+    "en_tdlr": "This study made significant progress in improving the quality of semantic segmentation in cytology images by incorporating super-resolution technology, and proposed great potential for the development of cytology image analysis."
+}

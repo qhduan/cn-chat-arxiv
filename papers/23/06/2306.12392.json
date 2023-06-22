@@ -1,0 +1,12 @@
+{
+    "title": "One-shot Imitation Learning via Interaction Warping. (arXiv:2306.12392v1 [cs.RO])",
+    "abstract": "Imitation learning of robot policies from few demonstrations is crucial in open-ended applications. We propose a new method, Interaction Warping, for learning SE(3) robotic manipulation policies from a single demonstration. We infer the 3D mesh of each object in the environment using shape warping, a technique for aligning point clouds across object instances. Then, we represent manipulation actions as keypoints on objects, which can be warped with the shape of the object. We show successful one-shot imitation learning on three simulated and real-world object re-arrangement tasks. We also demonstrate the ability of our method to predict object meshes and robot grasps in the wild.",
+    "link": "http://arxiv.org/abs/2306.12392",
+    "context": "Title: One-shot Imitation Learning via Interaction Warping. (arXiv:2306.12392v1 [cs.RO])\nAbstract: Imitation learning of robot policies from few demonstrations is crucial in open-ended applications. We propose a new method, Interaction Warping, for learning SE(3) robotic manipulation policies from a single demonstration. We infer the 3D mesh of each object in the environment using shape warping, a technique for aligning point clouds across object instances. Then, we represent manipulation actions as keypoints on objects, which can be warped with the shape of the object. We show successful one-shot imitation learning on three simulated and real-world object re-arrangement tasks. We also demonstrate the ability of our method to predict object meshes and robot grasps in the wild.",
+    "path": "papers/23/06/2306.12392.json",
+    "total_tokens": 698,
+    "translated_title": "交互变形的一次性模仿学习",
+    "translated_abstract": "在开放式应用中，通过少量示范学习机器人策略是至关重要的。我们提出了一种新的方法，即交互变形，用于从单个演示中学习SE（3）机器人操作策略。我们使用形状变形技术推断环境中每个物体的三维网格，并将操纵动作表示为物体上的关键点，可以用物体的形状进行变形。我们在三个模拟和真实世界的物体重新排列任务中成功地进行了一次性模仿学习。我们还展示了我们的方法在野外预测物体网格和机器人抓取的能力。",
+    "tldr": "本研究提出了一种交互变形的方法实现了从单个演示中学习SE（3）机器人操纵策略，并在实验中取得了成功效果。",
+    "en_tdlr": "This study proposes a method of interaction warping to achieve one-shot imitation learning of SE(3) robotic manipulation from a single demonstration, which has achieved successful results in experiments."
+}

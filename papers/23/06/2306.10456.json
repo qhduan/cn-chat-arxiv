@@ -1,0 +1,12 @@
+{
+    "title": "Advancing Biomedicine with Graph Representation Learning: Recent Progress, Challenges, and Future Directions. (arXiv:2306.10456v2 [cs.LG] UPDATED)",
+    "abstract": "Graph representation learning (GRL) has emerged as a pivotal field that has contributed significantly to breakthroughs in various fields, including biomedicine. The objective of this survey is to review the latest advancements in GRL methods and their applications in the biomedical field. We also highlight key challenges currently faced by GRL and outline potential directions for future research.",
+    "link": "http://arxiv.org/abs/2306.10456",
+    "context": "Title: Advancing Biomedicine with Graph Representation Learning: Recent Progress, Challenges, and Future Directions. (arXiv:2306.10456v2 [cs.LG] UPDATED)\nAbstract: Graph representation learning (GRL) has emerged as a pivotal field that has contributed significantly to breakthroughs in various fields, including biomedicine. The objective of this survey is to review the latest advancements in GRL methods and their applications in the biomedical field. We also highlight key challenges currently faced by GRL and outline potential directions for future research.",
+    "path": "papers/23/06/2306.10456.json",
+    "total_tokens": 603,
+    "translated_title": "用图表示学习推进生物医学：最新进展，挑战和未来方向综述",
+    "translated_abstract": "图表示学习（GRL）已经成为一个重要领域，在包括生物医学在内的多个领域都做出了重大贡献。本综述的目的是回顾GRL方法在生物医学领域的最新进展和应用。我们还强调了GRL当前面临的主要挑战，以及未来研究的潜在方向。",
+    "tldr": "图表示学习（GRL）已经成为一个重要领域，在生物医学领域有着广泛的应用，未来研究方向是解决GRL当前面临的挑战。",
+    "en_tdlr": "Graph representation learning (GRL) has become a pivotal field and has contributed significantly to various fields, including biomedicine. The future direction of GRL research is to address the current challenges faced in this field."
+}

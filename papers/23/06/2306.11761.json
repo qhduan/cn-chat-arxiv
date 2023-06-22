@@ -1,0 +1,12 @@
+{
+    "title": "Learning and evolution: factors influencing an effective combination. (arXiv:2306.11761v1 [cs.NE])",
+    "abstract": "The mutual relationship between evolution and learning is a controversial argument among the artificial intelligence and neuro-evolution communities. After more than three decades, there is still no common agreement on the matter. In this paper the author investigates whether combining learning and evolution permits to find better solutions than those discovered by evolution alone. More specifically, the author presents a series of empirical studies that highlight some specific conditions determining the success of such a combination, like the introduction of noise during the learning and selection processes. Results are obtained in two qualitatively different domains, where agent/environment interactions are minimal or absent.",
+    "link": "http://arxiv.org/abs/2306.11761",
+    "context": "Title: Learning and evolution: factors influencing an effective combination. (arXiv:2306.11761v1 [cs.NE])\nAbstract: The mutual relationship between evolution and learning is a controversial argument among the artificial intelligence and neuro-evolution communities. After more than three decades, there is still no common agreement on the matter. In this paper the author investigates whether combining learning and evolution permits to find better solutions than those discovered by evolution alone. More specifically, the author presents a series of empirical studies that highlight some specific conditions determining the success of such a combination, like the introduction of noise during the learning and selection processes. Results are obtained in two qualitatively different domains, where agent/environment interactions are minimal or absent.",
+    "path": "papers/23/06/2306.11761.json",
+    "total_tokens": 699,
+    "translated_title": "学习与进化：影响有效结合的因素。",
+    "translated_abstract": "在人工智能和神经进化社区中，进化和学习之间的相互关系是一个有争议的论点。本文作者探讨了将学习和进化相结合是否能够找到比单独进化发现更好的解决方案的问题，并呈现了一系列实证研究，突出了一些特定条件，如在学习和选择过程中引入噪声等，这些条件决定了这种组合的成功。结果在两个定性不同的领域中获得，其中代理/环境交互是最小或不存在的。",
+    "tldr": "本文探讨了学习和进化相结合是否能够找到比单独进化发现更好的解决方案，而研究结果表明，当在学习和选择过程中引入噪声等特定条件时，这种组合才能取得成功。",
+    "en_tdlr": "This paper investigates whether combining learning and evolution can find better solutions than evolution alone, and the results suggest that such a combination can be successful only when specific conditions, such as introducing noise during learning and selection processes, are met."
+}

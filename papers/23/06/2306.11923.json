@@ -1,0 +1,12 @@
+{
+    "title": "Disentangling Revealed Preference From Rationalization by a Preference. (arXiv:2306.11923v1 [econ.TH])",
+    "abstract": "The weak axiom of revealed preference (WARP) ensures that the revealed preference (i) is a preference relation (i.e., it is complete and transitive) and (ii) rationalizes the choices. However, when WARP fails, either one of these two properties is violated, but it is unclear which one it is. We provide an alternative characterization of WARP by showing that WARP is equivalent to the conjunction of two axioms each of which separately guarantees (i) and (ii).",
+    "link": "http://arxiv.org/abs/2306.11923",
+    "context": "Title: Disentangling Revealed Preference From Rationalization by a Preference. (arXiv:2306.11923v1 [econ.TH])\nAbstract: The weak axiom of revealed preference (WARP) ensures that the revealed preference (i) is a preference relation (i.e., it is complete and transitive) and (ii) rationalizes the choices. However, when WARP fails, either one of these two properties is violated, but it is unclear which one it is. We provide an alternative characterization of WARP by showing that WARP is equivalent to the conjunction of two axioms each of which separately guarantees (i) and (ii).",
+    "path": "papers/23/06/2306.11923.json",
+    "total_tokens": 631,
+    "translated_title": "通过偏好将压缩方法与理性方法区分开来的揭示偏好",
+    "translated_abstract": "条件弱显示偏好（WARP）确保了揭示出的偏好（i）是一个偏好关系（即它是完整和传递的）和（ii）理性化了选择。然而，当WARP失败时，这两个属性中的一个将被违反，但不清楚是哪一个。我们通过展示WARP等同于每个单独保证（i）和（ii）的两个公理的联合来提供WARP的另一种特征描述。",
+    "tldr": "本文提出了一个新方法来区分揭示偏好与理性方法。 WARP是一个关键概念，因为它确保揭示出的偏好是完整和传递的，并且理性化了选择。",
+    "en_tdlr": "This paper presents a novel approach to distinguish revealed preference from rationalization. WARP is a key concept since it ensures that revealed preference is complete and transitive, and rationalizes the choices."
+}

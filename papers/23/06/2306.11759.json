@@ -1,0 +1,12 @@
+{
+    "title": "Deep Learning Accelerator in Loop Reliability Evaluation for Autonomous Driving. (arXiv:2306.11759v1 [cs.AI])",
+    "abstract": "The reliability of deep learning accelerators (DLAs) used in autonomous driving systems has significant impact on the system safety. However, the DLA reliability is usually evaluated with low-level metrics like mean square errors of the output which remains rather different from the high-level metrics like total distance traveled before failure in autonomous driving. As a result, the high-level reliability metrics evaluated at the post-silicon stage may still lead to DLA design revision and result in expensive reliable DLA design iterations targeting at autonomous driving. To address the problem, we proposed a DLA-in-loop reliability evaluation platform to enable system reliability evaluation at the early DLA design stage.",
+    "link": "http://arxiv.org/abs/2306.11759",
+    "context": "Title: Deep Learning Accelerator in Loop Reliability Evaluation for Autonomous Driving. (arXiv:2306.11759v1 [cs.AI])\nAbstract: The reliability of deep learning accelerators (DLAs) used in autonomous driving systems has significant impact on the system safety. However, the DLA reliability is usually evaluated with low-level metrics like mean square errors of the output which remains rather different from the high-level metrics like total distance traveled before failure in autonomous driving. As a result, the high-level reliability metrics evaluated at the post-silicon stage may still lead to DLA design revision and result in expensive reliable DLA design iterations targeting at autonomous driving. To address the problem, we proposed a DLA-in-loop reliability evaluation platform to enable system reliability evaluation at the early DLA design stage.",
+    "path": "papers/23/06/2306.11759.json",
+    "total_tokens": 784,
+    "translated_title": "自主驾驶中的深度学习加速器循环可靠性评估",
+    "translated_abstract": "自主驾驶系统中使用的深度学习加速器(DLA)的可靠性对系统安全有着重大影响。然而，DLA的可靠性通常通过低级指标（如输出的均方误差）进行评估，这些指标与自主驾驶中的总故障前行驶距离等高级指标仍有很大差异。因此，在后硅阶段评估的高级可靠性指标可能仍会导致DLA设计修订，进而导致针对自主驾驶的昂贵可靠的DLA设计迭代。为解决这一问题，我们提出了一个DLA循环可靠性评估平台，以便在早期DLA设计阶段评估系统可靠性。",
+    "tldr": "本论文提出了一个DLA-in-loop可靠性评估平台，用于在早期DLA设计阶段评估自主驾驶系统中使用的DLA的总故障前行驶距离等高级可靠性指标，从而避免高昂的设计迭代成本。",
+    "en_tdlr": "This paper proposes a DLA-in-loop reliability evaluation platform to evaluate advanced reliability metrics such as total distance traveled before failure of DLAs used in autonomous driving systems at the early design stage, which can avoid expensive design iterations."
+}

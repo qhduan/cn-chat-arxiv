@@ -1,0 +1,11 @@
+{
+    "title": "RiskNet: Neural Risk Assessment in Networks of Unreliable Resources. (arXiv:2201.12263v2 [cs.NI] UPDATED)",
+    "abstract": "We propose a graph neural network (GNN)-based method to predict the distribution of penalties induced by outages in communication networks, where connections are protected by resources shared between working and backup paths. The GNN-based algorithm is trained only with random graphs generated with the Barab\\'asi-Albert model. Even though, the obtained test results show that we can precisely model the penalties in a wide range of various existing topologies. GNNs eliminate the need to simulate complex outage scenarios for the network topologies under study. In practice, the whole design operation is limited by 4ms on modern hardware. This way, we can gain as much as over 12,000 times in the speed improvement.",
+    "link": "http://arxiv.org/abs/2201.12263",
+    "context": "Title: RiskNet: Neural Risk Assessment in Networks of Unreliable Resources. (arXiv:2201.12263v2 [cs.NI] UPDATED)\nAbstract: We propose a graph neural network (GNN)-based method to predict the distribution of penalties induced by outages in communication networks, where connections are protected by resources shared between working and backup paths. The GNN-based algorithm is trained only with random graphs generated with the Barab\\'asi-Albert model. Even though, the obtained test results show that we can precisely model the penalties in a wide range of various existing topologies. GNNs eliminate the need to simulate complex outage scenarios for the network topologies under study. In practice, the whole design operation is limited by 4ms on modern hardware. This way, we can gain as much as over 12,000 times in the speed improvement.",
+    "path": "papers/22/01/2201.12263.json",
+    "total_tokens": 777,
+    "translated_title": "RiskNet:不可靠资源网络的神经风险评估",
+    "translated_abstract": "我们提出了一种基于图神经网络（GNN）的方法，用于预测通信网络中的故障引起的罚款分布，其中连接受共享于工作路径和备用路径之间的资源保护。该GNN算法仅使用通过Barab\\'asi-Albert模型生成的随机图进行训练。尽管如此，所得的测试结果表明我们可以准确地模拟各种现有拓扑结构中的惩罚。GNN消除了在研究网络拓扑时模拟复杂故障场景的需要。在实践中，整个设计操作仅受现代硬件的4ms的限制。这样，我们可以获得超过12,000倍的速度提高。",
+    "tldr": "本文提出了一种基于GNN算法的方法，用于在通信网络中处理连接故障引起的罚款分布，并可以准确地模拟各种现有拓扑结构中的惩罚，在实践中还获得了超过12,000倍的速度提高。"
+}

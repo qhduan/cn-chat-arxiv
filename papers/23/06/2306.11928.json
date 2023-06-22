@@ -1,0 +1,12 @@
+{
+    "title": "Open Problem: Learning with Variational Objectives on Measures. (arXiv:2306.11928v1 [stat.ML])",
+    "abstract": "The theory of statistical learning has focused on variational objectives expressed on functions. In this note, we discuss motivations to write similar objectives on measures, in particular to discuss out-of-distribution generalization and weakly-supervised learning. It raises a natural question: can one cast usual statistical learning results to objectives expressed on measures? Does the resulting construction lead to new algorithms of practical interest?",
+    "link": "http://arxiv.org/abs/2306.11928",
+    "context": "Title: Open Problem: Learning with Variational Objectives on Measures. (arXiv:2306.11928v1 [stat.ML])\nAbstract: The theory of statistical learning has focused on variational objectives expressed on functions. In this note, we discuss motivations to write similar objectives on measures, in particular to discuss out-of-distribution generalization and weakly-supervised learning. It raises a natural question: can one cast usual statistical learning results to objectives expressed on measures? Does the resulting construction lead to new algorithms of practical interest?",
+    "path": "papers/23/06/2306.11928.json",
+    "total_tokens": 608,
+    "translated_title": "开放问题：基于变分目标的测度学习 (arXiv:2306.11928v1 [stat.ML])",
+    "translated_abstract": "统计学习理论关注的是基于函数的变分目标。本文讨论了在测度上编写类似目标的动机，特别是讨论了超出分布的泛化和弱监督学习。这引发了一个自然的问题：能否将通常的统计学习结果转化为基于测量表达的目标？结果构建是否会导致新的实用算法？",
+    "tldr": "本文探讨了在测度上编写变分目标的动机，提出通过此类目标推导实用算法，以解决超出分布的泛化和弱监督学习等问题的开放问题。",
+    "en_tdlr": "This paper discusses the motivation for writing variational objectives on measures and proposes an open problem of whether statistical learning results can be cast to measures and lead to new practical algorithms to address issues such as out-of-distribution generalization and weakly-supervised learning."
+}

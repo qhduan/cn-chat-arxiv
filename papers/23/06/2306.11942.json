@@ -1,0 +1,12 @@
+{
+    "title": "A Deep Learning Model for Heterogeneous Dataset Analysis -- Application to Winter Wheat Crop Yield Prediction. (arXiv:2306.11942v1 [cs.LG])",
+    "abstract": "Western countries rely heavily on wheat, and yield prediction is crucial. Time-series deep learning models, such as Long Short Term Memory (LSTM), have already been explored and applied to yield prediction. Existing literature reported that they perform better than traditional Machine Learning (ML) models. However, the existing LSTM cannot handle heterogeneous datasets (a combination of data which varies and remains static with time). In this paper, we propose an efficient deep learning model that can deal with heterogeneous datasets. We developed the system architecture and applied it to the real-world dataset in the digital agriculture area. We showed that it outperforms the existing ML models.",
+    "link": "http://arxiv.org/abs/2306.11942",
+    "context": "Title: A Deep Learning Model for Heterogeneous Dataset Analysis -- Application to Winter Wheat Crop Yield Prediction. (arXiv:2306.11942v1 [cs.LG])\nAbstract: Western countries rely heavily on wheat, and yield prediction is crucial. Time-series deep learning models, such as Long Short Term Memory (LSTM), have already been explored and applied to yield prediction. Existing literature reported that they perform better than traditional Machine Learning (ML) models. However, the existing LSTM cannot handle heterogeneous datasets (a combination of data which varies and remains static with time). In this paper, we propose an efficient deep learning model that can deal with heterogeneous datasets. We developed the system architecture and applied it to the real-world dataset in the digital agriculture area. We showed that it outperforms the existing ML models.",
+    "path": "papers/23/06/2306.11942.json",
+    "total_tokens": 740,
+    "translated_title": "一种用于异构数据集分析的深度学习模型——以冬小麦产量预测为例",
+    "translated_abstract": "西方国家严重依赖小麦，产量预测十分关键。已经有人探索并应用了用于产量预测的长短期记忆（LSTM）等时间序列深度学习模型，并且已有文献报告显示它们比传统机器学习模型表现更佳。然而，现有的 LSTMs 无法处理异构数据集（由时变和保持不变的数据组合而成）。在本文中，我们提出了一个能够处理异构数据集的高效深度学习模型。我们开发了系统架构并将其应用于数字农业领域中真实的数据集，证明了该模型表现优于现有的机器学习模型。",
+    "tldr": "本文提出了一种能够处理异构数据集的深度学习模型，并在数字农业领域的真实数据集上展示其表现优于传统机器学习模型。",
+    "en_tdlr": "This paper proposes an efficient deep learning model that can handle heterogeneous datasets, and demonstrates its superior performance compared to traditional machine learning models on a real-world dataset in the field of digital agriculture."
+}

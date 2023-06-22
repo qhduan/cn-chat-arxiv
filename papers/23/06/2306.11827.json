@@ -1,0 +1,12 @@
+{
+    "title": "Any Deep ReLU Network is Shallow. (arXiv:2306.11827v1 [cs.LG])",
+    "abstract": "We constructively prove that every deep ReLU network can be rewritten as a functionally identical three-layer network with weights valued in the extended reals. Based on this proof, we provide an algorithm that, given a deep ReLU network, finds the explicit weights of the corresponding shallow network. The resulting shallow network is transparent and used to generate explanations of the model s behaviour.",
+    "link": "http://arxiv.org/abs/2306.11827",
+    "context": "Title: Any Deep ReLU Network is Shallow. (arXiv:2306.11827v1 [cs.LG])\nAbstract: We constructively prove that every deep ReLU network can be rewritten as a functionally identical three-layer network with weights valued in the extended reals. Based on this proof, we provide an algorithm that, given a deep ReLU network, finds the explicit weights of the corresponding shallow network. The resulting shallow network is transparent and used to generate explanations of the model s behaviour.",
+    "path": "papers/23/06/2306.11827.json",
+    "total_tokens": 531,
+    "translated_title": "任何深度ReLU网络都是浅层网络",
+    "translated_abstract": "我们构造性地证明了每个深度的ReLU网络可以被重写为一个函数上等价的三层网络，其中权重值为延迟实数。基于此证明，我们提供了一个算法，可以给出一个深度ReLU网络对应的显式权重。由此得到的浅层网络是透明的，并用于生成模型行为的解释。",
+    "tldr": "该论文证明了任何深度的ReLU网络都可以被重写为一个具有透明性的浅层网络。这一结论有助于解释模型行为。",
+    "en_tdlr": "This paper proves that any deep ReLU network can be rewritten as a transparent shallow network, providing insights into model behavior."
+}

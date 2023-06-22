@@ -1,0 +1,12 @@
+{
+    "title": "On Scaled Methods for Saddle Point Problems. (arXiv:2206.08303v2 [cs.LG] UPDATED)",
+    "abstract": "Methods with adaptive scaling of different features play a key role in solving saddle point problems, primarily due to Adam's popularity for solving adversarial machine learning problems, including GANS training. This paper carries out a theoretical analysis of the following scaling techniques for solving SPPs: the well-known Adam and RmsProp scaling and the newer AdaHessian and OASIS based on Hutchison approximation. We use the Extra Gradient and its improved version with negative momentum as the basic method. Experimental studies on GANs show good applicability not only for Adam, but also for other less popular methods.",
+    "link": "http://arxiv.org/abs/2206.08303",
+    "context": "Title: On Scaled Methods for Saddle Point Problems. (arXiv:2206.08303v2 [cs.LG] UPDATED)\nAbstract: Methods with adaptive scaling of different features play a key role in solving saddle point problems, primarily due to Adam's popularity for solving adversarial machine learning problems, including GANS training. This paper carries out a theoretical analysis of the following scaling techniques for solving SPPs: the well-known Adam and RmsProp scaling and the newer AdaHessian and OASIS based on Hutchison approximation. We use the Extra Gradient and its improved version with negative momentum as the basic method. Experimental studies on GANs show good applicability not only for Adam, but also for other less popular methods.",
+    "path": "papers/22/06/2206.08303.json",
+    "total_tokens": 716,
+    "translated_title": "关于解决鞍点问题的缩放方法论文研究",
+    "translated_abstract": "具有不同特征的自适应缩放方法在解决鞍点问题方面发挥着关键作用，主要是由于Adam在解决对抗性机器学习问题，包括GAN训练方面的流行。本文对以下解决SPP的缩放技术进行了理论分析：众所周知的Adam和RmsProp缩放以及基于Hutchison近似公式的较新的AdaHessian和OASIS。我们使用Extra Gradient及其带有负动量的改进版本作为基本方法。GAN的实验研究表明，不仅Adam，而且其他不太流行的方法也具有良好的适用性。",
+    "tldr": "本文对解决鞍点问题的缩放方法进行了理论分析，并通过实验研究发现这些方法在解决GAN训练问题中具有较好的适用性。",
+    "en_tdlr": "This paper carries out a theoretical analysis of scaling techniques for solving Saddle Point Problems (SPPs), including Adam, RmsProp, AdaHessian and OASIS, and finds through experimental studies that these methods have good applicability in solving GAN training problems."
+}
