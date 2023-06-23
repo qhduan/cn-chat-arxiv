@@ -1,0 +1,12 @@
+{
+    "title": "Stock Price Prediction using Dynamic Neural Networks. (arXiv:2306.12969v1 [q-fin.ST])",
+    "abstract": "This paper will analyze and implement a time series dynamic neural network to predict daily closing stock prices. Neural networks possess unsurpassed abilities in identifying underlying patterns in chaotic, non-linear, and seemingly random data, thus providing a mechanism to predict stock price movements much more precisely than many current techniques. Contemporary methods for stock analysis, including fundamental, technical, and regression techniques, are conversed and paralleled with the performance of neural networks. Also, the Efficient Market Hypothesis (EMH) is presented and contrasted with Chaos theory using neural networks. This paper will refute the EMH and support Chaos theory. Finally, recommendations for using neural networks in stock price prediction will be presented.",
+    "link": "http://arxiv.org/abs/2306.12969",
+    "context": "Title: Stock Price Prediction using Dynamic Neural Networks. (arXiv:2306.12969v1 [q-fin.ST])\nAbstract: This paper will analyze and implement a time series dynamic neural network to predict daily closing stock prices. Neural networks possess unsurpassed abilities in identifying underlying patterns in chaotic, non-linear, and seemingly random data, thus providing a mechanism to predict stock price movements much more precisely than many current techniques. Contemporary methods for stock analysis, including fundamental, technical, and regression techniques, are conversed and paralleled with the performance of neural networks. Also, the Efficient Market Hypothesis (EMH) is presented and contrasted with Chaos theory using neural networks. This paper will refute the EMH and support Chaos theory. Finally, recommendations for using neural networks in stock price prediction will be presented.",
+    "path": "papers/23/06/2306.12969.json",
+    "total_tokens": 757,
+    "translated_title": "动态神经网络预测股票价格",
+    "translated_abstract": "本文分析并实现了一种时间序列动态神经网络来预测每日收盘股票价格。神经网络在识别混沌、非线性和看似随机的数据中具有无与伦比的能力，因此提供了比许多当前技术更精准地预测股票价格变动的机制。文章讨论了包括基本面、技术面和回归技术在内的现代股票分析方法，并将其与神经网络的表现进行了对比。此外，本文还提出了有效市场假说（EMH）并使用神经网络与混沌理论进行了对比。本文驳斥了EMH并支持混沌理论。最后，本文提出了关于如何使用神经网络进行股票价格预测的建议。",
+    "tldr": "本文针对股票价格预测，使用一种新的动态神经网络模型，提供了比许多现有技术更准确的预测方法，并驳斥了有效市场假说，支持混沌理论。",
+    "en_tdlr": "This paper proposes a new dynamic neural network model for predicting stock prices, which provides a more accurate method than many existing techniques, and refutes the Efficient Market Hypothesis while supporting Chaos theory."
+}

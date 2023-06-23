@@ -1,0 +1,12 @@
+{
+    "title": "Finding neural signatures for obesity through feature selection on source-localized EEG. (arXiv:2208.14007v3 [cs.LG] UPDATED)",
+    "abstract": "Obesity is a serious issue in the modern society and is often associated to significantly reduced quality of life. Current research conducted to explore obesity-related neurological evidences using electroencephalography (EEG) data are limited to traditional approaches. In this study, we developed a novel machine learning model to identify brain networks of obese females using alpha band functional connectivity features derived from EEG data. An overall classification accuracy of 0.937 is achieved. Our finding suggests that the obese brain is characterized by a dysfunctional network in which the areas that responsible for processing self-referential information and environmental context information are impaired.",
+    "link": "http://arxiv.org/abs/2208.14007",
+    "context": "Title: Finding neural signatures for obesity through feature selection on source-localized EEG. (arXiv:2208.14007v3 [cs.LG] UPDATED)\nAbstract: Obesity is a serious issue in the modern society and is often associated to significantly reduced quality of life. Current research conducted to explore obesity-related neurological evidences using electroencephalography (EEG) data are limited to traditional approaches. In this study, we developed a novel machine learning model to identify brain networks of obese females using alpha band functional connectivity features derived from EEG data. An overall classification accuracy of 0.937 is achieved. Our finding suggests that the obese brain is characterized by a dysfunctional network in which the areas that responsible for processing self-referential information and environmental context information are impaired.",
+    "path": "papers/22/08/2208.14007.json",
+    "total_tokens": 747,
+    "translated_title": "通过选择源定位脑电图特征，找到肥胖症的神经标志",
+    "translated_abstract": "肥胖是现代社会一个严重的问题，与显著降低的生活质量密切相关。目前，用脑电图数据探索肥胖相关的神经学证据的研究局限于传统方法。本研究开发了一种新的机器学习模型，使用从脑电图数据派生的 alpha 波段功能连接特征来识别肥胖女性的脑网络。获得了总体分类准确度为 0.937。我们的发现表明，肥胖大脑的特征是具有功能障碍的网络，其中负责处理自我参照信息和环境上下文信息的区域受损。",
+    "tldr": "这项研究使用脑电图数据开发了一个新的机器学习模型，成功识别出肥胖女性的脑网络，表明肥胖大脑的特征是具有功能障碍的网络。",
+    "en_tdlr": "This study developed a new machine learning model using EEG data to identify brain networks of obese females, indicating that the obese brain is characterized by a dysfunctional network in which the areas responsible for processing self-referential information and environmental context information are impaired."
+}

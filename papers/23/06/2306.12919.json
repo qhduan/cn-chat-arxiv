@@ -1,0 +1,12 @@
+{
+    "title": "An Interactive Interface for Novel Class Discovery in Tabular Data. (arXiv:2306.12919v1 [cs.LG])",
+    "abstract": "Novel Class Discovery (NCD) is the problem of trying to discover novel classes in an unlabeled set, given a labeled set of different but related classes. The majority of NCD methods proposed so far only deal with image data, despite tabular data being among the most widely used type of data in practical applications. To interpret the results of clustering or NCD algorithms, data scientists need to understand the domain- and application-specific attributes of tabular data. This task is difficult and can often only be performed by a domain expert. Therefore, this interface allows a domain expert to easily run state-of-the-art algorithms for NCD in tabular data. With minimal knowledge in data science, interpretable results can be generated.",
+    "link": "http://arxiv.org/abs/2306.12919",
+    "context": "Title: An Interactive Interface for Novel Class Discovery in Tabular Data. (arXiv:2306.12919v1 [cs.LG])\nAbstract: Novel Class Discovery (NCD) is the problem of trying to discover novel classes in an unlabeled set, given a labeled set of different but related classes. The majority of NCD methods proposed so far only deal with image data, despite tabular data being among the most widely used type of data in practical applications. To interpret the results of clustering or NCD algorithms, data scientists need to understand the domain- and application-specific attributes of tabular data. This task is difficult and can often only be performed by a domain expert. Therefore, this interface allows a domain expert to easily run state-of-the-art algorithms for NCD in tabular data. With minimal knowledge in data science, interpretable results can be generated.",
+    "path": "papers/23/06/2306.12919.json",
+    "total_tokens": 748,
+    "translated_title": "一种基于交互界面的表格数据新类别发现方法",
+    "translated_abstract": "新类别发现(Novel Class Discovery, NCD) 是在未标记的数据集合中，基于一个标记的不同但相关的数据集合进行寻找新类别的问题。目前大多数的 NCD 方法只适用于图像数据，而表格数据则是实际应用中最广泛使用的数据类型之一。为了解释聚类或 NCD 算法的结果，数据科学家需要理解表格数据的领域和应用特定属性，这项任务往往只能由专业领域的专家来完成。因此，这个交互界面允许专业领域的专家轻松运行应用于表格数据 NCD 的最先进算法，即使只有很少的数据科学知识，也可以生成易于解释的结果。",
+    "tldr": "这篇论文提出了一种交互界面，可以帮助专业领域的专家快速运行最先进的表格数据新类别发现算法，生成易于解释的结果。",
+    "en_tdlr": "This paper proposes an interactive interface to help domain experts run state-of-the-art algorithms for Novel Class Discovery (NCD) in tabular data, generating easily interpretable results even with minimal knowledge in data science."
+}

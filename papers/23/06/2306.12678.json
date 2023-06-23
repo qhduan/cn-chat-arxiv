@@ -1,0 +1,11 @@
+{
+    "title": "Outlier-robust Estimation of a Sparse Linear Model Using Invexity. (arXiv:2306.12678v1 [cs.LG])",
+    "abstract": "In this paper, we study problem of estimating a sparse regression vector with correct support in the presence of outlier samples. The inconsistency of lasso-type methods is well known in this scenario. We propose a combinatorial version of outlier-robust lasso which also identifies clean samples. Subsequently, we use these clean samples to make a good estimation. We also provide a novel invex relaxation for the combinatorial problem and provide provable theoretical guarantees for this relaxation. Finally, we conduct experiments to validate our theory and compare our results against standard lasso.",
+    "link": "http://arxiv.org/abs/2306.12678",
+    "context": "Title: Outlier-robust Estimation of a Sparse Linear Model Using Invexity. (arXiv:2306.12678v1 [cs.LG])\nAbstract: In this paper, we study problem of estimating a sparse regression vector with correct support in the presence of outlier samples. The inconsistency of lasso-type methods is well known in this scenario. We propose a combinatorial version of outlier-robust lasso which also identifies clean samples. Subsequently, we use these clean samples to make a good estimation. We also provide a novel invex relaxation for the combinatorial problem and provide provable theoretical guarantees for this relaxation. Finally, we conduct experiments to validate our theory and compare our results against standard lasso.",
+    "path": "papers/23/06/2306.12678.json",
+    "total_tokens": 735,
+    "translated_title": "利用凸性的离群值鲁棒稀疏线性模型估计",
+    "translated_abstract": "本文研究了在存在离群样本的情况下估计具有正确支持的稀疏回归向量的问题。我们提出了离群值鲁棒拉索的组合版本，也可以识别出干净的样本。随后，我们使用这些干净样本进行良好的估计。我们还为组合问题提供了一种新颖的凸松弛，并为此松弛提供了可证明的理论保证。最后，我们进行实验证实了我们的理论，并将结果与标准的拉索进行了比较。",
+    "tldr": "本文提出了一种组合版本的离群值鲁棒拉索方法，能够有效识别干净的样本并估计具有正确支持的稀疏回归向量。采用了一种新颖的凸松弛，具有可证明的理论保证，并在实验证实了理论有效性。"
+}

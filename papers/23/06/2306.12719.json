@@ -1,0 +1,12 @@
+{
+    "title": "Natural Language Generation for Advertising: A Survey. (arXiv:2306.12719v1 [cs.CL])",
+    "abstract": "Natural language generation methods have emerged as effective tools to help advertisers increase the number of online advertisements they produce. This survey entails a review of the research trends on this topic over the past decade, from template-based to extractive and abstractive approaches using neural networks. Additionally, key challenges and directions revealed through the survey, including metric optimization, faithfulness, diversity, multimodality, and the development of benchmark datasets, are discussed.",
+    "link": "http://arxiv.org/abs/2306.12719",
+    "context": "Title: Natural Language Generation for Advertising: A Survey. (arXiv:2306.12719v1 [cs.CL])\nAbstract: Natural language generation methods have emerged as effective tools to help advertisers increase the number of online advertisements they produce. This survey entails a review of the research trends on this topic over the past decade, from template-based to extractive and abstractive approaches using neural networks. Additionally, key challenges and directions revealed through the survey, including metric optimization, faithfulness, diversity, multimodality, and the development of benchmark datasets, are discussed.",
+    "path": "papers/23/06/2306.12719.json",
+    "total_tokens": 665,
+    "translated_title": "广告自然语言生成：综述",
+    "translated_abstract": "自然语言生成方法已经成为帮助广告商增加在线广告数量的有效工具。本综述回顾了过去十年中该领域的研究趋势，从基于模板的方法到使用神经网络的抽取式和生成式方法。此外，还讨论了综述中揭示的关键挑战和方向，包括度量优化、忠实度、多样性、多模态以及基准数据集的开发等。",
+    "tldr": "本文综述了过去十年中广告自然语言生成的研究进展，介绍了从基于模板的方法到使用神经网络的抽取式和生成式方法的发展，提出了度量优化、忠实度、多样性、多模态以及基准数据集的开发等关键挑战和方向。",
+    "en_tdlr": "This survey reviews the research trends in natural language generation for advertising over the past decade, including the development from template-based to extractive and abstractive approaches using neural networks. The key challenges and directions revealed through the survey, such as metric optimization, faithfulness, diversity, multimodality, and the development of benchmark datasets, are also discussed."
+}

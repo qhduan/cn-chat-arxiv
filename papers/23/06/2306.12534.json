@@ -1,0 +1,12 @@
+{
+    "title": "Memory-Query Tradeoffs for Randomized Convex Optimization. (arXiv:2306.12534v1 [cs.DS])",
+    "abstract": "We show that any randomized first-order algorithm which minimizes a $d$-dimensional, $1$-Lipschitz convex function over the unit ball must either use $\\Omega(d^{2-\\delta})$ bits of memory or make $\\Omega(d^{1+\\delta/6-o(1)})$ queries, for any constant $\\delta\\in (0,1)$ and when the precision $\\epsilon$ is quasipolynomially small in $d$. Our result implies that cutting plane methods, which use $\\tilde{O}(d^2)$ bits of memory and $\\tilde{O}(d)$ queries, are Pareto-optimal among randomized first-order algorithms, and quadratic memory is required to achieve optimal query complexity for convex optimization.",
+    "link": "http://arxiv.org/abs/2306.12534",
+    "context": "Title: Memory-Query Tradeoffs for Randomized Convex Optimization. (arXiv:2306.12534v1 [cs.DS])\nAbstract: We show that any randomized first-order algorithm which minimizes a $d$-dimensional, $1$-Lipschitz convex function over the unit ball must either use $\\Omega(d^{2-\\delta})$ bits of memory or make $\\Omega(d^{1+\\delta/6-o(1)})$ queries, for any constant $\\delta\\in (0,1)$ and when the precision $\\epsilon$ is quasipolynomially small in $d$. Our result implies that cutting plane methods, which use $\\tilde{O}(d^2)$ bits of memory and $\\tilde{O}(d)$ queries, are Pareto-optimal among randomized first-order algorithms, and quadratic memory is required to achieve optimal query complexity for convex optimization.",
+    "path": "papers/23/06/2306.12534.json",
+    "total_tokens": 766,
+    "translated_title": "随机凸优化的内存和查询权衡",
+    "translated_abstract": "我们证明了任何随机一阶算法，用于在单位球上最小化一个 $d$ 维、$1$-Lipschitz 凸函数，必须使用 $\\Omega(d^{2-\\delta})$ 比特的内存或者进行 $\\Omega(d^{1+\\delta/6-o(1)})$ 次查询，其中 $\\delta\\in (0,1)$ 是任意常数，精度 $\\epsilon$ 在 $d$ 中是准多项式小的。我们的结果意味着，使用 $\\tilde{O}(d^2)$ 比特内存和 $\\tilde{O}(d)$ 次查询的割平面方法，在随机一阶算法中是帕累托最优，而对于凸优化，需要二次内存才能实现最佳查询复杂度。",
+    "tldr": "随机凸优化需要在内存和查询之间权衡，使用 $\\tilde{O}(d^2)$ 比特内存和 $\\tilde{O}(d)$ 次查询的割平面方法是最优的。",
+    "en_tdlr": "Memory and query tradeoffs exist for randomized convex optimization, with cutting plane methods using $\\tilde{O}(d^2)$ memory and $\\tilde{O}(d)$ queries being Pareto-optimal. Quadratic memory is required for optimal query complexity for convex optimization."
+}

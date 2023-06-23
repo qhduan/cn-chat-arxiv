@@ -1,0 +1,12 @@
+{
+    "title": "Using Internal Bar Strength as a Key Indicator for Trading Country ETFs. (arXiv:2306.12434v1 [q-fin.ST])",
+    "abstract": "This report aims to investigate the effectiveness of using internal bar strength (IBS) as a key indicator for trading country exchange-traded funds (ETFs). The study uses a quantitative approach to analyze historical price data for a bucket of country ETFs over a period of 10 years and uses the idea of Mean Reversion to create a profitable trading strategy. Our findings suggest that IBS can be a useful technical indicator for predicting short-term price movements in this basket of ETFs.",
+    "link": "http://arxiv.org/abs/2306.12434",
+    "context": "Title: Using Internal Bar Strength as a Key Indicator for Trading Country ETFs. (arXiv:2306.12434v1 [q-fin.ST])\nAbstract: This report aims to investigate the effectiveness of using internal bar strength (IBS) as a key indicator for trading country exchange-traded funds (ETFs). The study uses a quantitative approach to analyze historical price data for a bucket of country ETFs over a period of 10 years and uses the idea of Mean Reversion to create a profitable trading strategy. Our findings suggest that IBS can be a useful technical indicator for predicting short-term price movements in this basket of ETFs.",
+    "path": "papers/23/06/2306.12434.json",
+    "total_tokens": 644,
+    "translated_title": "使用内部杆强度作为交易国家ETF的关键指标",
+    "translated_abstract": "本文旨在研究使用内部杆强度（IBS）作为交易国家交易所交易基金（ETF）的关键指标的有效性。该研究使用量化方法分析了一个篮子中的各个国家ETF的历史价格数据，并利用均值回归的思想创建了一个有盈利的交易策略。我们的发现表明，在这个ETF篮子中，IBS可以成为预测短期价格变动的有用技术指标。",
+    "tldr": "该论文研究了使用内部杆强度（IBS）作为交易国家ETF的关键指标的有效性，并发现IBS可以成为预测短期价格变动的有用技术指标。",
+    "en_tdlr": "This paper investigates the effectiveness of using internal bar strength (IBS) as a key indicator for trading country exchange-traded funds (ETFs) and suggests that IBS can be a useful technical indicator for predicting short-term price movements in a basket of ETFs."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "scikit-fda: A Python Package for Functional Data Analysis. (arXiv:2211.02566v2 [stat.CO] UPDATED)",
+    "abstract": "The library scikit-fda is a Python package for Functional Data Analysis (FDA). It provides a comprehensive set of tools for representation, preprocessing, and exploratory analysis of functional data. The library is built upon and integrated in Python's scientific ecosystem. In particular, it conforms to the scikit-learn application programming interface so as to take advantage of the functionality for machine learning provided by this package: pipelines, model selection, and hyperparameter tuning, among others. The scikit-fda package has been released as free and open-source software under a 3-Clause BSD license and is open to contributions from the FDA community. The library's extensive documentation includes step-by-step tutorials and detailed examples of use.",
+    "link": "http://arxiv.org/abs/2211.02566",
+    "context": "Title: scikit-fda: A Python Package for Functional Data Analysis. (arXiv:2211.02566v2 [stat.CO] UPDATED)\nAbstract: The library scikit-fda is a Python package for Functional Data Analysis (FDA). It provides a comprehensive set of tools for representation, preprocessing, and exploratory analysis of functional data. The library is built upon and integrated in Python's scientific ecosystem. In particular, it conforms to the scikit-learn application programming interface so as to take advantage of the functionality for machine learning provided by this package: pipelines, model selection, and hyperparameter tuning, among others. The scikit-fda package has been released as free and open-source software under a 3-Clause BSD license and is open to contributions from the FDA community. The library's extensive documentation includes step-by-step tutorials and detailed examples of use.",
+    "path": "papers/22/11/2211.02566.json",
+    "total_tokens": 669,
+    "translated_title": "scikit-fda：用于函数数据分析的Python包",
+    "translated_abstract": "库scikit-fda是用于函数数据分析（FDA）的Python软件包。它提供了一套全面的工具，用于函数数据的表示、预处理和探索性分析。该库建立在Python科学计算生态系统之上，特别是采用了scikit-learn应用程序接口，以利用该软件包提供的机器学习功能：包括管道、模型选择和超参数调整等。这个scikit-fda软件包已经以三条款BSD许可证的形式发布为自由和开源软件，并对FDA社区的贡献持开放态度。该库的广泛文档包括逐步教程和详细的使用示例。",
+    "tldr": "scikit-fda是一个用于函数数据分析的Python包，提供了全面的工具，并于scikit-learn兼容，采用三条款BSD许可证发布，对FDA社区贡献开放。"
+}

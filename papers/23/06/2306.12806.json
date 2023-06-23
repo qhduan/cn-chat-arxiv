@@ -1,0 +1,12 @@
+{
+    "title": "Conditional Generators for Limit Order Book Environments: Explainability, Challenges, and Robustness. (arXiv:2306.12806v1 [q-fin.TR])",
+    "abstract": "Limit order books are a fundamental and widespread market mechanism. This paper investigates the use of conditional generative models for order book simulation. For developing a trading agent, this approach has drawn recent attention as an alternative to traditional backtesting due to its ability to react to the presence of the trading agent. Using a state-of-the-art CGAN (from Coletta et al. (2022)), we explore its dependence upon input features, which highlights both strengths and weaknesses. To do this, we use \"adversarial attacks\" on the model's features and its mechanism. We then show how these insights can be used to improve the CGAN, both in terms of its realism and robustness. We finish by laying out a roadmap for future work.",
+    "link": "http://arxiv.org/abs/2306.12806",
+    "context": "Title: Conditional Generators for Limit Order Book Environments: Explainability, Challenges, and Robustness. (arXiv:2306.12806v1 [q-fin.TR])\nAbstract: Limit order books are a fundamental and widespread market mechanism. This paper investigates the use of conditional generative models for order book simulation. For developing a trading agent, this approach has drawn recent attention as an alternative to traditional backtesting due to its ability to react to the presence of the trading agent. Using a state-of-the-art CGAN (from Coletta et al. (2022)), we explore its dependence upon input features, which highlights both strengths and weaknesses. To do this, we use \"adversarial attacks\" on the model's features and its mechanism. We then show how these insights can be used to improve the CGAN, both in terms of its realism and robustness. We finish by laying out a roadmap for future work.",
+    "path": "papers/23/06/2306.12806.json",
+    "total_tokens": 782,
+    "translated_title": "条件生成器在限价订单簿环境中的应用：可解释性、挑战和强健性探索",
+    "translated_abstract": "限价订单簿是一种基本而广泛使用的市场机制。本文研究了在订单簿模拟中使用条件生成模型的方法。这种方法因为其能够对交易代理的存在做出反应而受到关注，被认为是传统回测的替代方案。本文使用了来自Coletta等人（2022）的最先进的CGAN，探索了它对输入特征的依赖性，强调了其优点和缺点。为此，我们对模型特征及其机制进行了“对抗攻击”。然后展示了如何利用这些认识来提高CGAN的逼真度和强健性。最后，我们提出了未来工作的路线图。",
+    "tldr": "本文研究了在订单簿模拟中使用条件生成模型的方法，并探索了其对输入特征的依赖性及其优点和缺点，提高了CGAN的逼真度和强健性。",
+    "en_tdlr": "This paper investigates the use of conditional generative models for order book simulation and explores its dependence upon input features and its strengths and weaknesses, improving the realism and robustness of CGAN."
+}

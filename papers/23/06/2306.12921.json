@@ -1,0 +1,11 @@
+{
+    "title": "Generic Forward Curve Dynamics for Commodity Derivatives. (arXiv:2306.12921v1 [q-fin.PR])",
+    "abstract": "This article presents a generic framework for modeling the dynamics of forward curves in commodity market as commodity derivatives are typically traded by futures or forwards. We have theoretically demonstrated that commodity prices are driven by multiple components. As such, the model can better capture the forward price and volatility dynamics. Empirical study shows that the model prices are very close to the market prices, indicating prima facie that the model performs quite well.",
+    "link": "http://arxiv.org/abs/2306.12921",
+    "context": "Title: Generic Forward Curve Dynamics for Commodity Derivatives. (arXiv:2306.12921v1 [q-fin.PR])\nAbstract: This article presents a generic framework for modeling the dynamics of forward curves in commodity market as commodity derivatives are typically traded by futures or forwards. We have theoretically demonstrated that commodity prices are driven by multiple components. As such, the model can better capture the forward price and volatility dynamics. Empirical study shows that the model prices are very close to the market prices, indicating prima facie that the model performs quite well.",
+    "path": "papers/23/06/2306.12921.json",
+    "total_tokens": 540,
+    "translated_title": "商品衍生品通用远期曲线动态模型",
+    "translated_abstract": "本文提出了一个通用框架，用于建模商品市场中远期曲线的动态。由于商品衍生品通常通过期货或远期进行交易，因此我们在理论上证明了商品价格受多个因素驱动。因此，该模型可以更好地捕捉远期价格和波动性动态。实证研究表明，模型价格非常接近市场价格，表明该模型表现相当良好。",
+    "tldr": "本文提出了一个通用的框架，用于建模商品市场中的远期曲线动态，可以更好地捕捉价格和波动性动态。"
+}

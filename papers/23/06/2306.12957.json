@@ -1,0 +1,12 @@
+{
+    "title": "Siamese SIREN: Audio Compression with Implicit Neural Representations. (arXiv:2306.12957v1 [cs.SD])",
+    "abstract": "Implicit Neural Representations (INRs) have emerged as a promising method for representing diverse data modalities, including 3D shapes, images, and audio. While recent research has demonstrated successful applications of INRs in image and 3D shape compression, their potential for audio compression remains largely unexplored. Motivated by this, we present a preliminary investigation into the use of INRs for audio compression. Our study introduces Siamese SIREN, a novel approach based on the popular SIREN architecture. Our experimental results indicate that Siamese SIREN achieves superior audio reconstruction fidelity while utilizing fewer network parameters compared to previous INR architectures.",
+    "link": "http://arxiv.org/abs/2306.12957",
+    "context": "Title: Siamese SIREN: Audio Compression with Implicit Neural Representations. (arXiv:2306.12957v1 [cs.SD])\nAbstract: Implicit Neural Representations (INRs) have emerged as a promising method for representing diverse data modalities, including 3D shapes, images, and audio. While recent research has demonstrated successful applications of INRs in image and 3D shape compression, their potential for audio compression remains largely unexplored. Motivated by this, we present a preliminary investigation into the use of INRs for audio compression. Our study introduces Siamese SIREN, a novel approach based on the popular SIREN architecture. Our experimental results indicate that Siamese SIREN achieves superior audio reconstruction fidelity while utilizing fewer network parameters compared to previous INR architectures.",
+    "path": "papers/23/06/2306.12957.json",
+    "total_tokens": 759,
+    "translated_title": "用隐式神经表示进行音频压缩的连锁SIREN模型",
+    "translated_abstract": "隐式神经表示(INRs)已成为表示多种数据形式(包括3D形状、图像和音频)的一种有前途的方法。虽然最近研究已经成功地将INRs应用于图像和3D形状的压缩中，但它们在音频压缩方面的潜力仍然未被充分探索。受此启发，我们对INRs进行了初步的音频压缩研究。我们的研究介绍了基于流行的SIREN架构的一种新方法: 连锁SIREN。我们的实验结果表明，与先前的INRs架构相比，连锁SIREN在利用更少的网络参数的同时实现了更高的音频重建保真度。",
+    "tldr": "该研究利用Siamese SIREN 建立了一种新的方法，使用了较少的网络参数来实现卓越的音频重建保真度，拓展了隐式神经表示压缩的应用领域。",
+    "en_tdlr": "This study introduces a new method, Siamese SIREN, using fewer network parameters to achieve superior audio reconstruction fidelity, expanding the application of implicit neural representations compression to the audio domain."
+}

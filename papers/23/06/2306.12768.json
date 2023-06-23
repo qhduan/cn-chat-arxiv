@@ -1,0 +1,12 @@
+{
+    "title": "Concept-aware clustering for decentralized deep learning under temporal shift. (arXiv:2306.12768v1 [cs.LG])",
+    "abstract": "Decentralized deep learning requires dealing with non-iid data across clients, which may also change over time due to temporal shifts. While non-iid data has been extensively studied in distributed settings, temporal shifts have received no attention. To the best of our knowledge, we are first with tackling the novel and challenging problem of decentralized learning with non-iid and dynamic data. We propose a novel algorithm that can automatically discover and adapt to the evolving concepts in the network, without any prior knowledge or estimation of the number of concepts. We evaluate our algorithm on standard benchmark datasets and demonstrate that it outperforms previous methods for decentralized learning.",
+    "link": "http://arxiv.org/abs/2306.12768",
+    "context": "Title: Concept-aware clustering for decentralized deep learning under temporal shift. (arXiv:2306.12768v1 [cs.LG])\nAbstract: Decentralized deep learning requires dealing with non-iid data across clients, which may also change over time due to temporal shifts. While non-iid data has been extensively studied in distributed settings, temporal shifts have received no attention. To the best of our knowledge, we are first with tackling the novel and challenging problem of decentralized learning with non-iid and dynamic data. We propose a novel algorithm that can automatically discover and adapt to the evolving concepts in the network, without any prior knowledge or estimation of the number of concepts. We evaluate our algorithm on standard benchmark datasets and demonstrate that it outperforms previous methods for decentralized learning.",
+    "path": "papers/23/06/2306.12768.json",
+    "total_tokens": 767,
+    "translated_title": "基于概念意识的分布式深度学习在时间偏移下的聚类",
+    "translated_abstract": "分布式深度学习需要处理来自不同客户端、可能因为时间变化而发生变化的非独立同分布的数据。尽管非独立同分布数据在分布式环境下已得到广泛研究，但时间变化却一直没有得到关注。在我们所知道的情况下，我们是首次尝试解决具有非独立同分布和动态数据的分布式学习的新颖且具有挑战性的问题。我们提出了一种新颖算法，它可以自动发现和适应网络中不断演化的概念，而无需任何先前的知识或概念数量的估计。我们在标准基准数据集上评估了我们的算法，并证明它优于以前的分布式学习方法。",
+    "tldr": "本研究提出的算法可解决分布式深度学习中在时间偏移下的非独立同分布数据问题，并自动适应网络中不断演化的概念，相对以往方法更优。",
+    "en_tdlr": "The proposed algorithm can solve the problem of non-iid data under temporal shift in decentralized deep learning, and automatically adapt to evolving concepts in the network, outperforming previous methods."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Constant Memory Attention Block. (arXiv:2306.12599v1 [cs.LG])",
+    "abstract": "Modern foundation model architectures rely on attention mechanisms to effectively capture context. However, these methods require linear or quadratic memory in terms of the number of inputs/datapoints, limiting their applicability in low-compute domains. In this work, we propose Constant Memory Attention Block (CMAB), a novel general-purpose attention block that computes its output in constant memory and performs updates in constant computation. Highlighting CMABs efficacy, we introduce methods for Neural Processes and Temporal Point Processes. Empirically, we show our proposed methods achieve results competitive with state-of-the-art while being significantly more memory efficient.",
+    "link": "http://arxiv.org/abs/2306.12599",
+    "context": "Title: Constant Memory Attention Block. (arXiv:2306.12599v1 [cs.LG])\nAbstract: Modern foundation model architectures rely on attention mechanisms to effectively capture context. However, these methods require linear or quadratic memory in terms of the number of inputs/datapoints, limiting their applicability in low-compute domains. In this work, we propose Constant Memory Attention Block (CMAB), a novel general-purpose attention block that computes its output in constant memory and performs updates in constant computation. Highlighting CMABs efficacy, we introduce methods for Neural Processes and Temporal Point Processes. Empirically, we show our proposed methods achieve results competitive with state-of-the-art while being significantly more memory efficient.",
+    "path": "papers/23/06/2306.12599.json",
+    "total_tokens": 708,
+    "translated_title": "常数内存注意力块",
+    "translated_abstract": "现代基础模型体系结构依赖于注意力机制来有效捕获上下文。然而，这些方法在输入/数据点数量方面需要线性或二次内存，限制了它们在低计算领域中的适用性。在这项工作中，我们提出了常数内存注意力块（CMAB），一种新颖的通用注意力块，其在常数内存中计算其输出，并在常数计算中执行更新。我们强调了CMAB的有效性，并引入了神经过程和时间点过程的方法。在实证方面，我们展示了我们的提议方法取得了与现有最先进技术相当的结果，同时内存效率显著提高。",
+    "tldr": "本文提出了一种常数内存注意力块（CMAB），用于在常数内存中计算输出并执行更新，从而实现更高的内存效率。实验证明该方法具有与现有最先进技术相当的结果。",
+    "en_tdlr": "The paper proposes a novel general-purpose attention block called Constant Memory Attention Block (CMAB) that computes output and performs updates in constant memory and computation. The method achieves competitive results with state-of-the-art approaches while being significantly more memory efficient."
+}

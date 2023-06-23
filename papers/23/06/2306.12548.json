@@ -1,0 +1,12 @@
+{
+    "title": "Finite-time Lyapunov exponents of deep neural networks. (arXiv:2306.12548v1 [cond-mat.dis-nn])",
+    "abstract": "We compute how small input perturbations affect the output of deep neural networks, exploring an analogy between deep networks and dynamical systems, where the growth or decay of local perturbations is characterised by finite-time Lyapunov exponents. We show that the maximal exponent forms geometrical structures in input space, akin to coherent structures in dynamical systems. Ridges of large positive exponents divide input space into different regions that the network associates with different classes. These ridges visualise the geometry that deep networks construct in input space, shedding light on the fundamental mechanisms underlying their learning capabilities.",
+    "link": "http://arxiv.org/abs/2306.12548",
+    "context": "Title: Finite-time Lyapunov exponents of deep neural networks. (arXiv:2306.12548v1 [cond-mat.dis-nn])\nAbstract: We compute how small input perturbations affect the output of deep neural networks, exploring an analogy between deep networks and dynamical systems, where the growth or decay of local perturbations is characterised by finite-time Lyapunov exponents. We show that the maximal exponent forms geometrical structures in input space, akin to coherent structures in dynamical systems. Ridges of large positive exponents divide input space into different regions that the network associates with different classes. These ridges visualise the geometry that deep networks construct in input space, shedding light on the fundamental mechanisms underlying their learning capabilities.",
+    "path": "papers/23/06/2306.12548.json",
+    "total_tokens": 718,
+    "translated_title": "深度神经网络的有限时间李雅普诺夫指数",
+    "translated_abstract": "我们计算了小的输入扰动如何影响深度神经网络的输出，探索深度网络与动力系统之间的类比，其中局部扰动的增长或衰减由有限时间李雅普诺夫指数来描述。我们显示最大指数在输入空间中形成几何结构，类似于动力系统中的相干结构。大正指数的脊线将输入空间分成网络将其与不同类别相关联的不同区域。这些脊线可视化深度网络在输入空间中构建的几何形状，揭示了其学习能力背后的基本机制。",
+    "tldr": "本文研究了深度神经网络的有限时间李雅普诺夫指数，发现正指数的脊线将输入空间分成不同区域，并揭示了深度网络学习能力的机制。",
+    "en_tdlr": "This paper studies the finite-time Lyapunov exponents of deep neural networks and finds that ridges of large positive exponents divide input space into different regions associated with different classes, shedding light on the fundamental mechanisms underlying their learning capabilities."
+}

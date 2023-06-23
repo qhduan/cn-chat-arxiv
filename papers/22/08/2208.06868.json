@@ -1,0 +1,12 @@
+{
+    "title": "Frouros: A Python library for drift detection in machine learning systems. (arXiv:2208.06868v2 [cs.LG] UPDATED)",
+    "abstract": "Frouros is an open-source Python library capable of detecting drift in machine learning systems. It provides a combination of classical and more recent algorithms for drift detection: both concept and data drift. We have designed it with the objective of making it compatible with any machine learning framework and easily adaptable to real-world use cases. The library is developed following a set of best development and continuous integration practices to ensure ease of maintenance and extensibility. The source code is available at https://github.com/IFCA/frouros.",
+    "link": "http://arxiv.org/abs/2208.06868",
+    "context": "Title: Frouros: A Python library for drift detection in machine learning systems. (arXiv:2208.06868v2 [cs.LG] UPDATED)\nAbstract: Frouros is an open-source Python library capable of detecting drift in machine learning systems. It provides a combination of classical and more recent algorithms for drift detection: both concept and data drift. We have designed it with the objective of making it compatible with any machine learning framework and easily adaptable to real-world use cases. The library is developed following a set of best development and continuous integration practices to ensure ease of maintenance and extensibility. The source code is available at https://github.com/IFCA/frouros.",
+    "path": "papers/22/08/2208.06868.json",
+    "total_tokens": 628,
+    "translated_title": "Frouros: 一个用于机器学习系统中漂移检测的Python库",
+    "translated_abstract": "Frouros是一个开源的Python库，能够检测机器学习系统中的漂移。它提供了传统和最近算法的组合来检测概念和数据漂移。我们的设计目标是使它与任何机器学习框架兼容，并轻松适应实际应用场景。该库遵循一系列最佳开发和持续集成实践，以确保易于维护和扩展。源代码可在https://github.com/IFCA/frouros上获取。",
+    "tldr": "Frouros是一个开源的Python库，可以检测任何机器学习框架中的概念和数据漂移，易于维护和扩展。",
+    "en_tdlr": "Frouros is an open-source Python library capable of detecting concept and data drift in any machine learning framework, and is easy to maintain and extend."
+}

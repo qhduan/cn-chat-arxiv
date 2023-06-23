@@ -1,0 +1,12 @@
+{
+    "title": "On Addressing the Limitations of Graph Neural Networks. (arXiv:2306.12640v1 [cs.LG])",
+    "abstract": "This report gives a summary of two problems about graph convolutional networks (GCNs): over-smoothing and heterophily challenges, and outlines future directions to explore.",
+    "link": "http://arxiv.org/abs/2306.12640",
+    "context": "Title: On Addressing the Limitations of Graph Neural Networks. (arXiv:2306.12640v1 [cs.LG])\nAbstract: This report gives a summary of two problems about graph convolutional networks (GCNs): over-smoothing and heterophily challenges, and outlines future directions to explore.",
+    "path": "papers/23/06/2306.12640.json",
+    "total_tokens": 441,
+    "translated_title": "解决图神经网络的局限性",
+    "translated_abstract": "本文总结了关于图卷积网络（GCNs）的两个问题：过度平滑和异质性挑战，并概述了未来要探索的方向。",
+    "tldr": "本文讨论了图神经网络的两个挑战：过度平滑和异质性，提出了解决方案并展望了未来的研究方向。",
+    "en_tdlr": "This paper discusses two challenges of graph neural networks: over-smoothing and heterophily, proposes solutions, and outlines future research directions."
+}

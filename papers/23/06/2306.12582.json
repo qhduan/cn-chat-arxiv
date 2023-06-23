@@ -1,0 +1,12 @@
+{
+    "title": "Adversarial Training with Generated Data in High-Dimensional Regression: An Asymptotic Study. (arXiv:2306.12582v1 [stat.ML])",
+    "abstract": "In recent years, studies such as \\cite{carmon2019unlabeled,gowal2021improving,xing2022artificial} have demonstrated that incorporating additional real or generated data with pseudo-labels can enhance adversarial training through a two-stage training approach. In this paper, we perform a theoretical analysis of the asymptotic behavior of this method in high-dimensional linear regression. While a double-descent phenomenon can be observed in ridgeless training, with an appropriate $\\mathcal{L}_2$ regularization, the two-stage adversarial training achieves a better performance. Finally, we derive a shortcut cross-validation formula specifically tailored for the two-stage training method.",
+    "link": "http://arxiv.org/abs/2306.12582",
+    "context": "Title: Adversarial Training with Generated Data in High-Dimensional Regression: An Asymptotic Study. (arXiv:2306.12582v1 [stat.ML])\nAbstract: In recent years, studies such as \\cite{carmon2019unlabeled,gowal2021improving,xing2022artificial} have demonstrated that incorporating additional real or generated data with pseudo-labels can enhance adversarial training through a two-stage training approach. In this paper, we perform a theoretical analysis of the asymptotic behavior of this method in high-dimensional linear regression. While a double-descent phenomenon can be observed in ridgeless training, with an appropriate $\\mathcal{L}_2$ regularization, the two-stage adversarial training achieves a better performance. Finally, we derive a shortcut cross-validation formula specifically tailored for the two-stage training method.",
+    "path": "papers/23/06/2306.12582.json",
+    "total_tokens": 743,
+    "translated_title": "生成数据在高维回归中的对抗训练：一项渐近研究",
+    "translated_abstract": "近年来，许多研究（例如\\cite{carmon2019unlabeled,gowal2021improving,xing2022artificial}）表明通过两阶段训练方法，在对抗训练中加入带伪标签的额外真实或生成数据可以增强模型性能。本文在高维线性回归模型中对该方法的渐近行为进行了理论分析。我们发现，虽然在无岭训练中存在双峰现象，但在适当的$\\mathcal{L}_2$正则化中，两阶段对抗训练可以实现更好的性能。最后，我们导出了一个特别针对两阶段训练方法的快速交叉验证公式。",
+    "tldr": "该论文研究了在高维回归中将生成数据与对抗训练相结合的方法，发现该方法可通过两阶段训练实现更好的性能表现。",
+    "en_tdlr": "This paper studies the combination of generated data and adversarial training in high-dimensional regression, and finds that this method can achieve better performance through a two-stage training approach."
+}

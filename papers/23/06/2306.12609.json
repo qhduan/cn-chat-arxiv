@@ -1,0 +1,12 @@
+{
+    "title": "Towards Regulatable AI Systems: Technical Gaps and Policy Opportunities. (arXiv:2306.12609v1 [cs.AI])",
+    "abstract": "There is increasing attention being given to how to regulate AI systems. As governing bodies grapple with what values to encapsulate into regulation, we consider the technical half of the question: To what extent can AI experts vet an AI system for adherence to regulatory requirements? We investigate this question through two public sector procurement checklists, identifying what we can do now, what we should be able to do with technical innovation in AI, and what requirements necessitate a more interdisciplinary approach.",
+    "link": "http://arxiv.org/abs/2306.12609",
+    "context": "Title: Towards Regulatable AI Systems: Technical Gaps and Policy Opportunities. (arXiv:2306.12609v1 [cs.AI])\nAbstract: There is increasing attention being given to how to regulate AI systems. As governing bodies grapple with what values to encapsulate into regulation, we consider the technical half of the question: To what extent can AI experts vet an AI system for adherence to regulatory requirements? We investigate this question through two public sector procurement checklists, identifying what we can do now, what we should be able to do with technical innovation in AI, and what requirements necessitate a more interdisciplinary approach.",
+    "path": "papers/23/06/2306.12609.json",
+    "total_tokens": 643,
+    "translated_title": "“构建可管控的AI系统：技术挑战和政策机遇”",
+    "translated_abstract": "针对如何规范AI系统的问题，越来越多的关注被给予。在管控机构努力确定要封装到法规中的价值观时，本文考虑了其中的技术问题：AI专家们能够审查AI系统是否遵守监管要求的程度是多少？我们通过两个公共部门的采购清单对这个问题进行了调查，并定义了三个方面：目前有哪些方面是我们可以做的；利用AI技术创新我们能做到哪些方面； 哪些要求需要更多跨学科的方法。",
+    "tldr": "该论文探讨了如何确保AI系统遵循规定，提出了当前和潜在可能的技术实现，以及需要跨学科方法解决的问题。",
+    "en_tdlr": "This paper explores how to ensure that AI systems comply with regulations, proposing current and potential technical solutions, as well as issues that require interdisciplinary methods to address."
+}

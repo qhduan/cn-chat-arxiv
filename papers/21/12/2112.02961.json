@@ -1,0 +1,12 @@
+{
+    "title": "Closed-Loop Nash Competition for Liquidity. (arXiv:2112.02961v2 [q-fin.MF] UPDATED)",
+    "abstract": "We study a multi-player stochastic differential game, where agents interact through their joint price impact on an asset that they trade to exploit a common trading signal. In this context, we prove that a closed-loop Nash equilibrium exists if the price impact parameter is small enough. Compared to the corresponding open-loop Nash equilibrium, both the agents' optimal trading rates and their performance move towards the central-planner solution, in that excessive trading due to lack of coordination is reduced. However, the size of this effect is modest for plausible parameter values.",
+    "link": "http://arxiv.org/abs/2112.02961",
+    "context": "Title: Closed-Loop Nash Competition for Liquidity. (arXiv:2112.02961v2 [q-fin.MF] UPDATED)\nAbstract: We study a multi-player stochastic differential game, where agents interact through their joint price impact on an asset that they trade to exploit a common trading signal. In this context, we prove that a closed-loop Nash equilibrium exists if the price impact parameter is small enough. Compared to the corresponding open-loop Nash equilibrium, both the agents' optimal trading rates and their performance move towards the central-planner solution, in that excessive trading due to lack of coordination is reduced. However, the size of this effect is modest for plausible parameter values.",
+    "path": "papers/21/12/2112.02961.json",
+    "total_tokens": 737,
+    "translated_title": "闭环纳什竞争下的流动性研究",
+    "translated_abstract": "本文研究了多人随机微分博弈，在该博弈中，代理商通过他们对一个被交易的资产的共同价格影响进行交互以利用共同的交易信号。在这种情况下，我们证明了当价格影响参数足够小的时候，闭环纳什均衡是存在的。与相应的开环纳什均衡相比，代理商的最优交易率和表现都向中央计划者解趋近，因为由于缺乏协调而导致的过度交易得到了减少。然而，对于合理的参数值，这种效应的大小是适度的。",
+    "tldr": "本文研究了多人随机微分博弈中的闭环纳什竞争下的流动性，证明了小价格影响参数下闭环纳什均衡存在，优于开环纳什均衡，但效应有限。",
+    "en_tdlr": "This paper studies liquidity in closed-loop Nash competition for multi-player stochastic differential games, proving that a closed-loop Nash equilibrium exists with a small price impact parameter. The results show that, compared to the open-loop Nash equilibrium, the closed-loop equilibrium leads to reduced excessive trading due to lack of coordination, but the effect is modest for plausible parameter values."
+}

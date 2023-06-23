@@ -1,0 +1,12 @@
+{
+    "title": "A Discrimination Report Card. (arXiv:2306.13005v1 [econ.EM])",
+    "abstract": "We develop an Empirical Bayes grading scheme that balances the informativeness of the assigned grades against the expected frequency of ranking errors. Applying the method to a massive correspondence experiment, we grade the racial biases of 97 U.S. employers. A four-grade ranking limits the chances that a randomly selected pair of firms is mis-ranked to 5% while explaining nearly half of the variation in firms' racial contact gaps. The grades are presented alongside measures of uncertainty about each firm's contact gap in an accessible rubric that is easily adapted to other settings where ranks and levels are of simultaneous interest.",
+    "link": "http://arxiv.org/abs/2306.13005",
+    "context": "Title: A Discrimination Report Card. (arXiv:2306.13005v1 [econ.EM])\nAbstract: We develop an Empirical Bayes grading scheme that balances the informativeness of the assigned grades against the expected frequency of ranking errors. Applying the method to a massive correspondence experiment, we grade the racial biases of 97 U.S. employers. A four-grade ranking limits the chances that a randomly selected pair of firms is mis-ranked to 5% while explaining nearly half of the variation in firms' racial contact gaps. The grades are presented alongside measures of uncertainty about each firm's contact gap in an accessible rubric that is easily adapted to other settings where ranks and levels are of simultaneous interest.",
+    "path": "papers/23/06/2306.13005.json",
+    "total_tokens": 679,
+    "translated_title": "《一份歧视报告卡》",
+    "translated_abstract": "我们开发了一种经验贝叶斯评分方案，旨在平衡分配分数的信息效度与排名错误的预期频率。将该方法应用于大规模通信实验中，我们对97个美国雇主的种族偏见进行了评分。采用四个等级限制随机抽取的公司误排错率达到5％，同时解释了公司种族接触差异变化的近一半。我们在易于修改等级和水平的其他情境中，呈现带有关于每个公司接触差距不确定性的度量的易于理解的规则。",
+    "tldr": "该研究利用经验贝叶斯评分方案，评估了97个美国雇主企业的种族偏见，呈现易于理解的规则，同时解释了种族接触差异的近一半变化。",
+    "en_tdlr": "This study evaluates the racial biases of 97 U.S. employers using an Empirical Bayes grading scheme that presents accessible rubrics and explains almost half of the variation in firms' racial contact gaps."
+}

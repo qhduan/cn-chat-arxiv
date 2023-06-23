@@ -1,0 +1,12 @@
+{
+    "title": "Class-Incremental Learning based on Label Generation. (arXiv:2306.12619v1 [cs.CL])",
+    "abstract": "Despite the great success of pre-trained language models, it is still a challenge to use these models for continual learning, especially for the class-incremental learning (CIL) setting due to catastrophic forgetting (CF). This paper reports our finding that if we formulate CIL as a continual label generation problem, CF is drastically reduced and the generalizable representations of pre-trained models can be better retained. We thus propose a new CIL method (VAG) that also leverages the sparsity of vocabulary to focus the generation and creates pseudo-replay samples by using label semantics. Experimental results show that VAG outperforms baselines by a large margin.",
+    "link": "http://arxiv.org/abs/2306.12619",
+    "context": "Title: Class-Incremental Learning based on Label Generation. (arXiv:2306.12619v1 [cs.CL])\nAbstract: Despite the great success of pre-trained language models, it is still a challenge to use these models for continual learning, especially for the class-incremental learning (CIL) setting due to catastrophic forgetting (CF). This paper reports our finding that if we formulate CIL as a continual label generation problem, CF is drastically reduced and the generalizable representations of pre-trained models can be better retained. We thus propose a new CIL method (VAG) that also leverages the sparsity of vocabulary to focus the generation and creates pseudo-replay samples by using label semantics. Experimental results show that VAG outperforms baselines by a large margin.",
+    "path": "papers/23/06/2306.12619.json",
+    "total_tokens": 715,
+    "translated_title": "基于标签生成的增量分类学习方法",
+    "translated_abstract": "尽管预训练语言模型取得了巨大成功，但对于类别增量学习（CIL）设置，由于灾难性遗忘（CF），使用这些模型进行连续学习仍然是一个挑战。本文发现，如果将CIL定式为一个连续的标签生成问题，则可以大幅减少CF并更好地保留预训练模型的可推广表示。因此，我们提出了一种新的CIL方法（VAG），该方法还利用了词汇表的稀疏性以便于生成，并使用标签语义创建伪重播样本。实验结果表明，VAG的性能比基线大幅优越。",
+    "tldr": "本文提出了一种基于标签生成方法的增量分类学习（CIL）方法（VAG），大幅减少了灾难性遗忘（CF），并更好地保留了预训练模型的可推广表示。",
+    "en_tdlr": "This paper proposes a label generation-based method for class-incremental learning (CIL), VAG, which significantly reduces catastrophic forgetting (CF) and better retains the generalizable representations of pre-trained models."
+}
