@@ -1,0 +1,12 @@
+{
+    "title": "Offline Skill Graph (OSG): A Framework for Learning and Planning using Offline Reinforcement Learning Skills. (arXiv:2306.13630v1 [cs.RO])",
+    "abstract": "Reinforcement Learning has received wide interest due to its success in competitive games. Yet, its adoption in everyday applications is limited (e.g. industrial, home, healthcare, etc.). In this paper, we address this limitation by presenting a framework for planning over offline skills and solving complex tasks in real-world environments. Our framework is comprised of three modules that together enable the agent to learn from previously collected data and generalize over it to solve long-horizon tasks. We demonstrate our approach by testing it on a robotic arm that is required to solve complex tasks.",
+    "link": "http://arxiv.org/abs/2306.13630",
+    "context": "Title: Offline Skill Graph (OSG): A Framework for Learning and Planning using Offline Reinforcement Learning Skills. (arXiv:2306.13630v1 [cs.RO])\nAbstract: Reinforcement Learning has received wide interest due to its success in competitive games. Yet, its adoption in everyday applications is limited (e.g. industrial, home, healthcare, etc.). In this paper, we address this limitation by presenting a framework for planning over offline skills and solving complex tasks in real-world environments. Our framework is comprised of three modules that together enable the agent to learn from previously collected data and generalize over it to solve long-horizon tasks. We demonstrate our approach by testing it on a robotic arm that is required to solve complex tasks.",
+    "path": "papers/23/06/2306.13630.json",
+    "total_tokens": 741,
+    "translated_title": "离线技能图（OSG）：使用离线强化学习技能进行学习和规划的框架。",
+    "translated_abstract": "强化学习因其在竞技游戏中的成功而受到广泛关注。然而，它在日常应用中的采用受到限制（例如工业、家庭、医疗等）。本文通过介绍一个规划离线技能并在实际环境中解决复杂任务的框架来解决这个问题。我们的框架包括三个模块，共同使智能体能够从先前收集的数据中学习并概括出解决长期任务的方法。我们通过对一个需要解决复杂任务的机械臂进行测试来演示我们的方法。",
+    "tldr": "本论文提出了一个离线技能图（OSG）框架，用于在实际环境中解决复杂任务，它由三个模块组成，可以从先前收集的数据中学习并概括出解决长期任务的方法。",
+    "en_tdlr": "This paper proposes an Offline Skill Graph (OSG) framework for solving complex tasks in real-world environments by planning over offline skills. The framework, consisting of three modules, enables the agent to learn from previously collected data and generalize over it to solve long-horizon tasks."
+}

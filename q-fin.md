@@ -2,183 +2,105 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Armed Conflict and Early Human Capital Accumulation: Evidence from Cameroon's Anglophone Conflict.](http://arxiv.org/abs/2306.13070) | 本文研究了喀麦隆英语裔冲突对人力资本积累的负面影响，发现暴力事件和冲突相关死亡会导致阅读和数学考试成绩显著下降，还导致教师缺勤率和学校用电量减少。 |
-| [^2] | [Stock Price Prediction using Dynamic Neural Networks.](http://arxiv.org/abs/2306.12969) | 本文针对股票价格预测，使用一种新的动态神经网络模型，提供了比许多现有技术更准确的预测方法，并驳斥了有效市场假说，支持混沌理论。 |
-| [^3] | [Improved Financial Forecasting via Quantum Machine Learning.](http://arxiv.org/abs/2306.12965) | 本研究利用量子机器学习提升了金融预测的表现，包括使用行列式点过程来增强随机森林模型进行流失预测并设计了量子神经网络架构用于信用风险评估，比传统方法使用更少的参数达到相似的性能。 |
-| [^4] | [Generating Synergistic Formulaic Alpha Collections via Reinforcement Learning.](http://arxiv.org/abs/2306.12964) | 本文提出了一种新的Alpha生成框架，它通过强化学习挖掘协同的公式化Alpha集合以优化它们作为组合模型的性能。 |
-| [^5] | [The Impact of Parenthood on Labour Market Outcomes of Women and Men in Poland.](http://arxiv.org/abs/2306.12924) | 波兰记录了欧洲最低的性别薪资差距之一。这项研究发现，母亲的收入在生育后会降低约20％，但在15年后与非母亲的收入趋于一致，而父亲的收入在孩子到来之前就已经高于非父亲。 |
-| [^6] | [Generic Forward Curve Dynamics for Commodity Derivatives.](http://arxiv.org/abs/2306.12921) | 本文提出了一个通用的框架，用于建模商品市场中的远期曲线动态，可以更好地捕捉价格和波动性动态。 |
-| [^7] | [Conditional Generators for Limit Order Book Environments: Explainability, Challenges, and Robustness.](http://arxiv.org/abs/2306.12806) | 本文研究了在订单簿模拟中使用条件生成模型的方法，并探索了其对输入特征的依赖性及其优点和缺点，提高了CGAN的逼真度和强健性。 |
-| [^8] | [Instruct-FinGPT: Financial Sentiment Analysis by Instruction Tuning of General-Purpose Large Language Models.](http://arxiv.org/abs/2306.12659) | 本研究提出了一种简单而有效的指令调整方法，将少量监督式金融情感分析数据转化为指令数据，并用此方法对通用的LLM进行微调，从而在金融情感分析方面取得了显着进展。 |
-| [^9] | [Fitted Value Iteration Methods for Bicausal Optimal Transport.](http://arxiv.org/abs/2306.12658) | 本文提出了一种适用于双因果最优传输问题的拟合值迭代方法，能够在保证精度的同时具有良好的可扩展性，数值实验结果也证明了该方法的优越性。 |
-| [^10] | [Efficient Solution of Portfolio Optimization Problems via Dimension Reduction and Sparsification.](http://arxiv.org/abs/2306.12639) | 该论文提出了通过维度降低和稀疏化的方法来解决大规模投资组合优化问题，通过机器学习技术预测和线性规划问题的解法缩小协方差矩阵，该方法能有效提高投资组合的表现和降低运行时间和迭代总次数。 |
-| [^11] | [Social Media Emotions and IPO Returns.](http://arxiv.org/abs/2306.12602) | 本文研究了社交媒体表达的情感如何影响初次公开发行（IPO）股票的错价。社交媒体上分享的大量信息和观点可以引发炒作，导致投资者非理性买卖决策，从而在短期内高估股票，但经常在长期内得到修正。发现投资者热情高涨的IPO拥有更高的回报率，但这种热情可能是错放的，需要更长的时间才能实现可持续的成长。 |
-| [^12] | [Comparing deep learning models for volatility prediction using multivariate data.](http://arxiv.org/abs/2306.12446) | 本研究比较了使用不同深度学习模型预测多项资产波动率的效果，发现时间融合变压器及时间卷积神经网络的变体最优，可以用于实践。 |
-| [^13] | [Successive one-sided Hodrick-Prescott filter with incremental filtering algorithm for nonlinear economic time series.](http://arxiv.org/abs/2306.12439) | 本文提出了SOHP滤波器和增量式HP滤波算法，可用于非线性经济时序趋势估计，实验结果表明其比其他HP类型滤波器表现更佳。 |
-| [^14] | [Using Internal Bar Strength as a Key Indicator for Trading Country ETFs.](http://arxiv.org/abs/2306.12434) | 该论文研究了使用内部杆强度（IBS）作为交易国家ETF的关键指标的有效性，并发现IBS可以成为预测短期价格变动的有用技术指标。 |
-| [^15] | [Reinforcement learning for optimization of energy trading strategy.](http://arxiv.org/abs/2303.16266) | 本文使用强化学习算法优化了一种黑盒交易策略，该策略通过在马尔可夫决策过程中使用真实数据进行优化，在 DA 能源市场上由中型生产者自动进行交易。 |
-| [^16] | [Blockchain Network Analysis: A Comparative Study of Decentralized Banks.](http://arxiv.org/abs/2212.05632) | 本文对主流分散化银行使用交易数据进行核心-外围网络特征分析，结果显示MakerDao和Compound比Aave和Liquity更为分散化，在交易中仍存在着主要的外部交易。 |
-| [^17] | [Optimal reinsurance design under solvency constraints.](http://arxiv.org/abs/2203.16108) | 本文研究了具有偿付能力限制下的最优再保险设计问题，推导出了以终端价值的二次效用最大化为目标的比例性、非廉价再保险设计的最优方案，并考虑了多种实际限制条件。 |
-| [^18] | [EmTract: Extracting Emotions from Social Media.](http://arxiv.org/abs/2112.03868) | 本文描述了一个名为EmTract的开源工具，其基于预调整的NLP模型DistilBERT和4,861个标记，提取面向金融环境的社交媒体文本中的情绪，并在人工和chatGPT注释数据上优于竞争的开源最先进情感分类器，并且方法具有量身定制的特点以及针对非标准短语、表情符号和表情符号这类社交媒体数据。 |
-| [^19] | [Closed-Loop Nash Competition for Liquidity.](http://arxiv.org/abs/2112.02961) | 本文研究了多人随机微分博弈中的闭环纳什竞争下的流动性，证明了小价格影响参数下闭环纳什均衡存在，优于开环纳什均衡，但效应有限。 |
+| [^1] | [Does Environmental Attention by Governments Promote Carbon Reductions.](http://arxiv.org/abs/2306.13436) | 本研究利用中国30个省份的面板数据，揭示了政府环保关注对碳排放的影响以及政府环保关注和信息化水平之间的协同机制。结果表明政府的环保关注可以促进碳减排，在西部地区效果更显著。 |
+| [^2] | [Multivariate Simulation-based Forecasting for Intraday Power Markets: Modelling Cross-Product Price Effects.](http://arxiv.org/abs/2306.13419) | 本文使用copulas模型来建模高维日内电力市场价格回报向量的相关结构，用以预测价格。采用零膨胀Johnson的S_U分布来建模边际分布，采用潜在贝塔回归来建模依赖结构。结果表明，该方法可以显著提高预测精度。 |
+| [^3] | [Exact solution to a generalised Lillo-Mike-Farmer model with heterogeneous order-splitting strategies.](http://arxiv.org/abs/2306.13378) | 本研究提出了一种广义 LMF 模型，考虑到了交易者的订单拆分行为的异质性，对该模型进行了精确求解，发现订单符号 ACF 中幂律指数稳健，但前置因子对交易策略异质性极为敏感并在同质 LMF 模型中被低估。 |
+| [^4] | [Fractal properties, information theory, and market efficiency.](http://arxiv.org/abs/2306.13371) | 研究基于信息熵和赫斯特指数的市场信息获取方法及其联系，证明当Hurst指数接近1/2时，时间序列的信息性很高，提出多尺度方法深入解释信息熵和市场信息。 |
+| [^5] | [Optimal Investment with Stochastic Interest Rates and Ambiguity.](http://arxiv.org/abs/2306.13343) | 本文研究了带有随机利率和不确定性的动态资产配置问题，解决方案显示投资者只对冒险性投资进行对冲，不确定性只影响其投机动机。 |
+| [^6] | [Consumption Partial Insurance in the Presence of Tail Income Risk.](http://arxiv.org/abs/2306.13208) | 该研究测量了收入冲击对消费保险的影响程度，证实尾部收入风险对消费具有重要影响，收入负面冲击对消费的传导率大于正面冲击。 |
+| [^7] | [Comparing deep learning models for volatility prediction using multivariate data.](http://arxiv.org/abs/2306.12446) | 本研究比较了使用不同深度学习模型预测多项资产波动率的效果，发现时间融合变压器及时间卷积神经网络的变体最优，可以用于实践。 |
+| [^8] | [Backward Hedging for American Options with Transaction Costs.](http://arxiv.org/abs/2305.06805) | 本文介绍了一种名为“向后对冲”的算法，用于在考虑交易成本的情况下对欧式和美式期权进行对冲，相比于深度对冲算法，该方法更加高效和准确。 |
+| [^9] | [A Heat-Jarrow-Morton framework for energy markets: a pragmatic approach.](http://arxiv.org/abs/2305.01485) | 本文介绍了一种应用于能源市场的Heat-Jarrow-Morton框架，重点放在实践方面。作为应用，我们重点关注欧洲电力和天然气市场。 |
+| [^10] | [Fast and Slow Optimal Trading with Exogenous Information.](http://arxiv.org/abs/2210.01901) | 本文通过建模一种缓慢机构投资者和高频交易者之间的随机博弈，提出了一个具有外生信息的快速与缓慢最优交易模型，为该博弈提供了一个显式解，高频交易者可以在每个期间采取掠夺或合作策略。 |
+| [^11] | [Scaling laws in global corporations as a benchmarking approach to assess environmental performance.](http://arxiv.org/abs/2206.03148) | 本研究利用全球公司环境实践的数据得出结论：公司的环境影响与其规模成简单的幂律关系，可以构建一个特定于行业、大小相关的基准来评估公司的环境绩效，并实施这样的基准可能会导致15%的排放减少。 |
 
 # 详细
 
-[^1]: 武装冲突与早期人力资本积累：以喀麦隆英语裔冲突为例
+[^1]: 政府的环保关注是否会促进碳减排？
 
-    Armed Conflict and Early Human Capital Accumulation: Evidence from Cameroon's Anglophone Conflict. (arXiv:2306.13070v1 [econ.GN])
+    Does Environmental Attention by Governments Promote Carbon Reductions. (arXiv:2306.13436v1 [econ.GN])
 
-    [http://arxiv.org/abs/2306.13070](http://arxiv.org/abs/2306.13070)
+    [http://arxiv.org/abs/2306.13436](http://arxiv.org/abs/2306.13436)
 
-    本文研究了喀麦隆英语裔冲突对人力资本积累的负面影响，发现暴力事件和冲突相关死亡会导致阅读和数学考试成绩显著下降，还导致教师缺勤率和学校用电量减少。
-
-    
-
-    本文研究了喀麦隆英语裔冲突对人力资本积累的影响。利用高质量的个人水平考试成绩数据和与冲突相关的暴力事件信息，采用差分差分设计来估计冲突的因果效应。结果表明，暴力事件和与冲突相关的死亡增加会导致阅读和数学考试成绩显著下降。冲突还导致教师缺勤率和学校用电量减少。这些发现凸显了冲突相关暴力对人力资本积累的负面影响，特别是在英语裔子系统内。该研究强调了英语裔学生由于语言压力和隔离的教育体系所面临的不成比例的负担。
-
-    This paper examines the impact of the Anglophone Conflict in Cameroon on human capital accumulation. Using high-quality individual-level data on test scores and information on conflict-related violent events, a difference-in-differences design is employed to estimate the conflict's causal effects. The results show that an increase in violent events and conflict-related deaths causes a significant decline in test scores in reading and mathematics. The conflict also leads to higher rates of teacher absenteeism and reduced access to electricity in schools. These findings highlight the adverse consequences of conflict-related violence on human capital accumulation, particularly within the Anglophone subsystem. The study emphasizes the disproportionate burden faced by Anglophone pupils due to language-rooted tensions and segregated educational systems.
-    
-[^2]: 动态神经网络预测股票价格
-
-    Stock Price Prediction using Dynamic Neural Networks. (arXiv:2306.12969v1 [q-fin.ST])
-
-    [http://arxiv.org/abs/2306.12969](http://arxiv.org/abs/2306.12969)
-
-    本文针对股票价格预测，使用一种新的动态神经网络模型，提供了比许多现有技术更准确的预测方法，并驳斥了有效市场假说，支持混沌理论。
+    本研究利用中国30个省份的面板数据，揭示了政府环保关注对碳排放的影响以及政府环保关注和信息化水平之间的协同机制。结果表明政府的环保关注可以促进碳减排，在西部地区效果更显著。
 
     
 
-    本文分析并实现了一种时间序列动态神经网络来预测每日收盘股票价格。神经网络在识别混沌、非线性和看似随机的数据中具有无与伦比的能力，因此提供了比许多当前技术更精准地预测股票价格变动的机制。文章讨论了包括基本面、技术面和回归技术在内的现代股票分析方法，并将其与神经网络的表现进行了对比。此外，本文还提出了有效市场假说（EMH）并使用神经网络与混沌理论进行了对比。本文驳斥了EMH并支持混沌理论。最后，本文提出了关于如何使用神经网络进行股票价格预测的建议。
+    关注度对于减少碳排放的效果比物质资源更为稀缺，而当政府将关注力集中在环境方面时，资源将会被分配到有助于减少碳排放的方向。本研究使用2007年至2019年中国30个省份的面板数据揭示了政府环保关注对碳排放的影响以及政府环保关注与信息化水平之间的协同机制。研究结果表明：（1）中国地方政府的环保关注指数呈总体上升趋势；（2）政府的环保关注对减少碳排放具有作用；（3）政府的环保关注减排效果在西部地区更为显著，但在中部和东部地区不明显；（4）信息化水平在政府环保关注和碳减排之间的关系中起到了积极的调节作用。
 
-    This paper will analyze and implement a time series dynamic neural network to predict daily closing stock prices. Neural networks possess unsurpassed abilities in identifying underlying patterns in chaotic, non-linear, and seemingly random data, thus providing a mechanism to predict stock price movements much more precisely than many current techniques. Contemporary methods for stock analysis, including fundamental, technical, and regression techniques, are conversed and paralleled with the performance of neural networks. Also, the Efficient Market Hypothesis (EMH) is presented and contrasted with Chaos theory using neural networks. This paper will refute the EMH and support Chaos theory. Finally, recommendations for using neural networks in stock price prediction will be presented.
+    The carbon-reducing effect of attention is scarcer than that of material resources, and when the government focuses its attention on the environment, resources will be allocated in a direction that is conducive to reducing carbon. Using panel data from 30 Chinese provinces from 2007 to 2019, this study revealed the impact of governments' environmental attention on carbon emissions and the synergistic mechanism between governments' environmental attention and informatization level. The findings suggested that (1)the environmental attention index of local governments in China showed an overall fluctuating upward trend; (2)governments' environmental atten-tion had the effect of reducing carbon emissions; (3)the emission-reducing effect of governments' environmental attention is more significant in the western region but not in the central and eastern regions; (4)informatization level plays a positive moderating role in the relationship between governments' environmental attention and carb
     
-[^3]: 基于量子机器学习的金融预测的改进
+[^2]: 基于多元模拟的跨品种电力市场价格影响建模的预测
 
-    Improved Financial Forecasting via Quantum Machine Learning. (arXiv:2306.12965v1 [q-fin.ST])
+    Multivariate Simulation-based Forecasting for Intraday Power Markets: Modelling Cross-Product Price Effects. (arXiv:2306.13419v1 [q-fin.ST])
 
-    [http://arxiv.org/abs/2306.12965](http://arxiv.org/abs/2306.12965)
+    [http://arxiv.org/abs/2306.13419](http://arxiv.org/abs/2306.13419)
 
-    本研究利用量子机器学习提升了金融预测的表现，包括使用行列式点过程来增强随机森林模型进行流失预测并设计了量子神经网络架构用于信用风险评估，比传统方法使用更少的参数达到相似的性能。
-
-    
-
-    量子算法有潜力提高机器学习在各领域和应用中的表现。在本文中，我们展示了如何使用量子机器学习来改进金融预测。首先，我们使用经典和量子行列式点过程来增强随机森林模型以进行流失预测，提高了近6％的精度。其次，我们设计了具有正交和复合层的量子神经网络架构，用较少的参数达到了与经典性能相当的信用风险评估效果。我们的结果表明，利用量子思想可以有效提升机器学习的表现，无论是现在作为量子启发式的经典ML解决方案，还是在未来更好的量子硬件的到来时。
-
-    Quantum algorithms have the potential to enhance machine learning across a variety of domains and applications. In this work, we show how quantum machine learning can be used to improve financial forecasting. First, we use classical and quantum Determinantal Point Processes to enhance Random Forest models for churn prediction, improving precision by almost 6%. Second, we design quantum neural network architectures with orthogonal and compound layers for credit risk assessment, which match classical performance with significantly fewer parameters. Our results demonstrate that leveraging quantum ideas can effectively enhance the performance of machine learning, both today as quantum-inspired classical ML solutions, and even more in the future, with the advent of better quantum hardware.
-    
-[^4]: 通过强化学习生成协同公式化的Alpha集合
-
-    Generating Synergistic Formulaic Alpha Collections via Reinforcement Learning. (arXiv:2306.12964v1 [q-fin.ST])
-
-    [http://arxiv.org/abs/2306.12964](http://arxiv.org/abs/2306.12964)
-
-    本文提出了一种新的Alpha生成框架，它通过强化学习挖掘协同的公式化Alpha集合以优化它们作为组合模型的性能。
+    本文使用copulas模型来建模高维日内电力市场价格回报向量的相关结构，用以预测价格。采用零膨胀Johnson的S_U分布来建模边际分布，采用潜在贝塔回归来建模依赖结构。结果表明，该方法可以显著提高预测精度。
 
     
 
-    在量化交易领域中，将原始股票历史数据转化为市场趋势指示信号是常见的实践。这些信号被称为Alpha因子。公式形式的Alpha因子更易于解释，因此风险意识强的实践者更喜欢它们。在实践中，往往同时使用一组公式化的Alpha因子进行更好的建模精度，因此我们需要找到能够良好协同的公式化Alpha集。但是，大多数传统的Alpha生成器分别挖掘单个Alpha，忽略了后续的Alpha组合重要性。本文提出了一种新的Alpha挖掘框架，它优先挖掘协同的Alpha集合，即直接使用下游组合模型的性能来优化Alpha生成器。我们的框架还利用了强化学习的强大探索能力，以更好地探索公式形式的Alpha因子的大量搜索空间。本文的贡献在于提出了使用强化学习生成协同的公式化Alpha集合的框架，优化它们作为组合模型的性能，这与传统的Alpha生成器分别挖掘单个Alpha的方法形成对比。
+    随着可再生能源资源的间歇性发电的增加，日内电力市场在平衡能源供需方面起着越来越重要的作用，这就需要准确的概率价格预测。然而，迄今为止的研究都集中在单变量方法上，而在许多欧洲日内电力市场中，所有交割期都同时交易。因此，不同交易产品之间的依赖结构和相应的交叉产品影响是不能忽视的。本文采用copulas模型来建模高维日内价格回报向量的相关结构。我们将边际分布建模为零膨胀Johnson的S_U分布，其位置、尺度和形状参数取决于市场和基本数据。采用潜在贝塔回归来建模依赖结构，以解决日内电力市场的特定市场结构问题，例如不同交割期的交易会有重叠但独立的交易会话。我们的结果表明，与文献中常用的单变量方法相比，我们基于多元copula的方法可以显著提高日内价格预测精度。
 
-    In the field of quantitative trading, it is common practice to transform raw historical stock data into indicative signals for the market trend. Such signals are called alpha factors. Alphas in formula forms are more interpretable and thus favored by practitioners concerned with risk. In practice, a set of formulaic alphas is often used together for better modeling precision, so we need to find synergistic formulaic alpha sets that work well together. However, most traditional alpha generators mine alphas one by one separately, overlooking the fact that the alphas would be combined later. In this paper, we propose a new alpha-mining framework that prioritizes mining a synergistic set of alphas, i.e., it directly uses the performance of the downstream combination model to optimize the alpha generator. Our framework also leverages the strong exploratory capabilities of reinforcement learning~(RL) to better explore the vast search space of formulaic alphas. The contribution to the combina
+    Intraday electricity markets play an increasingly important role in balancing the intermittent generation of renewable energy resources, which creates a need for accurate probabilistic price forecasts. However, research to date has focused on univariate approaches, while in many European intraday electricity markets all delivery periods are traded in parallel. Thus, the dependency structure between different traded products and the corresponding cross-product effects cannot be ignored. We aim to fill this gap in the literature by using copulas to model the high-dimensional intraday price return vector. We model the marginal distribution as a zero-inflated Johnson's $S_U$ distribution with location, scale and shape parameters that depend on market and fundamental data. The dependence structure is modelled using latent beta regression to account for the particular market structure of the intraday electricity market, such as overlapping but independent trading sessions for different deliv
     
-[^5]: 孩子对波兰女性和男性的劳动力市场结果的影响
+[^3]: 具有异质性订单拆分策略的一般化 Lillo-Mike-Farmer 模型的精确解
 
-    The Impact of Parenthood on Labour Market Outcomes of Women and Men in Poland. (arXiv:2306.12924v1 [econ.GN])
+    Exact solution to a generalised Lillo-Mike-Farmer model with heterogeneous order-splitting strategies. (arXiv:2306.13378v1 [q-fin.TR])
 
-    [http://arxiv.org/abs/2306.12924](http://arxiv.org/abs/2306.12924)
+    [http://arxiv.org/abs/2306.13378](http://arxiv.org/abs/2306.13378)
 
-    波兰记录了欧洲最低的性别薪资差距之一。这项研究发现，母亲的收入在生育后会降低约20％，但在15年后与非母亲的收入趋于一致，而父亲的收入在孩子到来之前就已经高于非父亲。
-
-    
-
-    波兰是欧洲性别薪酬差距最小的国家之一。与此同时，它是一个保守的国家，女性的权利一直在下降。我们认为，在波兰背景下，收入差距比小时工资差距更适合衡量性别劳动力市场结果。我们使用调整为低分辨率的安慰剂事件历史方法和波兰世代和性别调查的两个波次（2010年、2014年）分析了波兰的收入性别差距与育儿状态的关系。与在西欧进行的类似研究相反，我们的分析揭示了女性和男性普遍存在的预期行为。我们展示，在生育后，母亲的收入降低了约20％，但在15年后，与非母亲的收入轨迹趋于一致。相比之下，未来父亲的收入高于非父亲的收入，这表明父亲溢价在孩子到来之前就存在。总的来说，我们的研究揭示了一个保守的国家中性别劳动力市场结果的复杂性。
-
-    Poland records one of the lowest gender wage gaps in Europe. At the same time, it is a socially conservative country where women's rights have been on the decline. We argue that, in the Polish context, the gender gap in income is a more appropriate measure of gendered labour market outcomes than the gap in the hourly wage. We analyse the gender gap in income in Poland in relation to the parenthood status, using the placebo event history method, adjusted to low resolution data, and the two waves of the Polish Generations and Gender Survey (2010, 2014). Contrary to similar studies conducted in Western Europe, our analysis uncovers a large degree of anticipatory behaviour in both women and men who expect to become parents. We show that mothers' income decreases by about 20% after birth, but converges to the income trajectory of non-mothers after 15 years. In contrast, the income of eventual fathers is higher than that of non-fathers both before and after birth, suggesting that the fatherh
-    
-[^6]: 商品衍生品通用远期曲线动态模型
-
-    Generic Forward Curve Dynamics for Commodity Derivatives. (arXiv:2306.12921v1 [q-fin.PR])
-
-    [http://arxiv.org/abs/2306.12921](http://arxiv.org/abs/2306.12921)
-
-    本文提出了一个通用的框架，用于建模商品市场中的远期曲线动态，可以更好地捕捉价格和波动性动态。
+    本研究提出了一种广义 LMF 模型，考虑到了交易者的订单拆分行为的异质性，对该模型进行了精确求解，发现订单符号 ACF 中幂律指数稳健，但前置因子对交易策略异质性极为敏感并在同质 LMF 模型中被低估。
 
     
 
-    本文提出了一个通用框架，用于建模商品市场中远期曲线的动态。由于商品衍生品通常通过期货或远期进行交易，因此我们在理论上证明了商品价格受多个因素驱动。因此，该模型可以更好地捕捉远期价格和波动性动态。实证研究表明，模型价格非常接近市场价格，表明该模型表现相当良好。
+    Lillo-Mike-Farmer（LMF）模型是一个与经济物理学相关的模型，描述机构投资者在金融市场中的订单拆分行为。LMF 假设交易者的订单拆分策略是同质的，并基于几种启发式推理导出了订单符号自相关函数（ACF）的幂律渐近解。本文提出了一种广义 LMF 模型，通过将交易者的订单拆分行为异质化，对该模型进行了精确求解且无需引入启发式方法。我们发现，订单符号ACF中的幂律指数对于任意异质的强度分布是稳健的。另一方面，ACF中的前置因子对交易策略的异质性非常敏感，并且在原始同质 LMF 模型中被系统地低估。我们的工作强调，在解释ACF前置因子方面需要更加小心谨慎。
 
-    This article presents a generic framework for modeling the dynamics of forward curves in commodity market as commodity derivatives are typically traded by futures or forwards. We have theoretically demonstrated that commodity prices are driven by multiple components. As such, the model can better capture the forward price and volatility dynamics. Empirical study shows that the model prices are very close to the market prices, indicating prima facie that the model performs quite well.
+    The Lillo-Mike-Farmer (LMF) model is an established econophysics model describing the order-splitting behaviour of institutional investors in financial markets. In the original article (LMF, Physical Review E 71, 066122 (2005)), LMF assumed the homogeneity of the traders' order-splitting strategy and derived a power-law asymptotic solution to the order-sign autocorrelation function (ACF) based on several heuristic reasonings. This report proposes a generalised LMF model by incorporating the heterogeneity of traders' order-splitting behaviour that is exactly solved without heuristics. We find that the power-law exponent in the order-sign ACF is robust for arbitrary heterogeneous intensity distributions. On the other hand, the prefactor in the ACF is very sensitive to heterogeneity in trading strategies and is shown to be systematically underestimated in the original homogeneous LMF model. Our work highlights that the ACF prefactor should be more carefully interpreted than the ACF power-
     
-[^7]: 条件生成器在限价订单簿环境中的应用：可解释性、挑战和强健性探索
+[^4]: 分形性质、信息理论和市场效率
 
-    Conditional Generators for Limit Order Book Environments: Explainability, Challenges, and Robustness. (arXiv:2306.12806v1 [q-fin.TR])
+    Fractal properties, information theory, and market efficiency. (arXiv:2306.13371v1 [q-fin.ST])
 
-    [http://arxiv.org/abs/2306.12806](http://arxiv.org/abs/2306.12806)
+    [http://arxiv.org/abs/2306.13371](http://arxiv.org/abs/2306.13371)
 
-    本文研究了在订单簿模拟中使用条件生成模型的方法，并探索了其对输入特征的依赖性及其优点和缺点，提高了CGAN的逼真度和强健性。
-
-    
-
-    限价订单簿是一种基本而广泛使用的市场机制。本文研究了在订单簿模拟中使用条件生成模型的方法。这种方法因为其能够对交易代理的存在做出反应而受到关注，被认为是传统回测的替代方案。本文使用了来自Coletta等人（2022）的最先进的CGAN，探索了它对输入特征的依赖性，强调了其优点和缺点。为此，我们对模型特征及其机制进行了“对抗攻击”。然后展示了如何利用这些认识来提高CGAN的逼真度和强健性。最后，我们提出了未来工作的路线图。
-
-    Limit order books are a fundamental and widespread market mechanism. This paper investigates the use of conditional generative models for order book simulation. For developing a trading agent, this approach has drawn recent attention as an alternative to traditional backtesting due to its ability to react to the presence of the trading agent. Using a state-of-the-art CGAN (from Coletta et al. (2022)), we explore its dependence upon input features, which highlights both strengths and weaknesses. To do this, we use "adversarial attacks" on the model's features and its mechanism. We then show how these insights can be used to improve the CGAN, both in terms of its realism and robustness. We finish by laying out a roadmap for future work.
-    
-[^8]: Instruct-FinGPT: 通过指令调整普适大型语言模型的金融情感分析
-
-    Instruct-FinGPT: Financial Sentiment Analysis by Instruction Tuning of General-Purpose Large Language Models. (arXiv:2306.12659v1 [cs.CL])
-
-    [http://arxiv.org/abs/2306.12659](http://arxiv.org/abs/2306.12659)
-
-    本研究提出了一种简单而有效的指令调整方法，将少量监督式金融情感分析数据转化为指令数据，并用此方法对通用的LLM进行微调，从而在金融情感分析方面取得了显着进展。
+    研究基于信息熵和赫斯特指数的市场信息获取方法及其联系，证明当Hurst指数接近1/2时，时间序列的信息性很高，提出多尺度方法深入解释信息熵和市场信息。
 
     
 
-    情感分析是发现金融文章、新闻和社交媒体洞察的重要工具，塑造我们对市场走向的理解。尽管大型语言模型（LLM）在金融自然语言处理（NLP）方面具有惊人的能力，但它们仍然难以准确解读数字值并抓住金融背景，从而限制了它们在预测金融情感方面的有效性。在本文中，我们介绍了一种简单而有效的指令调整方法来解决这些问题。通过将少量的监督式金融情感分析数据转化为指令数据，并用此方法对通用的LLM进行微调，我们在金融情感分析方面取得了显着的进展。在实验中，我们的方法优于最先进的监督式情感分析模型，以及广泛使用的LLMs，如ChatGPT和LLaMAs，特别是在数字理解和背景理解是关键因素的情况下。
+    考虑到基于信息熵和赫斯特指数都是用于确定给定资产有效市场假说是否成立的有用工具，我们研究了这两种方法之间的联系。因此，我们使用Lamperti变换为市场信息提供了一个理论表达，当对数价格遵循分数布朗运动或其平稳扩展时，我们对这两种模型进行了研究。在后一种模型中，我们展示了Hurst指数接近1/2可以导致时间序列的信息性非常高，因为具有平稳机制。此外，我们引入了一种多尺度方法，根据信息集的大小获取对信息熵和市场信息的更深层次解释。使用日内或日常数据对比特币、法国CAC 40指数、日经225指数和EUR/USD外汇率进行了应用，以阐明方法的内容。
 
-    Sentiment analysis is a vital tool for uncovering insights from financial articles, news, and social media, shaping our understanding of market movements. Despite the impressive capabilities of large language models (LLMs) in financial natural language processing (NLP), they still struggle with accurately interpreting numerical values and grasping financial context, limiting their effectiveness in predicting financial sentiment. In this paper, we introduce a simple yet effective instruction tuning approach to address these issues. By transforming a small portion of supervised financial sentiment analysis data into instruction data and fine-tuning a general-purpose LLM with this method, we achieve remarkable advancements in financial sentiment analysis. In the experiment, our approach outperforms state-of-the-art supervised sentiment analysis models, as well as widely used LLMs like ChatGPT and LLaMAs, particularly in scenarios where numerical understanding and contextual comprehension 
+    Considering that both the entropy-based market information and the Hurst exponent are useful tools for determining whether the efficient market hypothesis holds for a given asset, we study the link between the two approaches. We thus provide a theoretical expression for the market information when log-prices follow either a fractional Brownian motion or its stationary extension using the Lamperti transform. In the latter model, we show that a Hurst exponent close to 1/2 can lead to a very high informativeness of the time series, because of the stationarity mechanism. In addition, we introduce a multiscale method to get a deeper interpretation of the entropy and of the market information, depending on the size of the information set. Applications to Bitcoin, CAC 40 index, Nikkei 225 index, and EUR/USD FX rate, using daily or intraday data, illustrate the methodological content.
     
-[^9]: 拟合值迭代方法求解适应结构双因果最优传输问题
+[^5]: 带有随机利率和不确定性的最优投资
 
-    Fitted Value Iteration Methods for Bicausal Optimal Transport. (arXiv:2306.12658v1 [stat.ML])
+    Optimal Investment with Stochastic Interest Rates and Ambiguity. (arXiv:2306.13343v1 [q-fin.PM])
 
-    [http://arxiv.org/abs/2306.12658](http://arxiv.org/abs/2306.12658)
+    [http://arxiv.org/abs/2306.13343](http://arxiv.org/abs/2306.13343)
 
-    本文提出了一种适用于双因果最优传输问题的拟合值迭代方法，能够在保证精度的同时具有良好的可扩展性，数值实验结果也证明了该方法的优越性。
-
-    
-
-    本文提出一种拟合值迭代方法(FVI)用于计算具有适应结构的双因果最优传输(OT)。基于动态规划的形式化表述，FVI采用函数类用于近似双因果OT中的值函数。在可集中条件和近似完备性假设下，我们使用（局部）Rademacher复杂度证明了样本复杂度。此外，我们证明了深度多层神经网络具有适当结构，满足样本复杂度证明所需的关键假设条件。数值实验表明，FVI在时间跨度增加时优于线性规划和适应性Sinkhorn方法，在保持可接受精度的同时具有很好的可扩展性。
-
-    We develop a fitted value iteration (FVI) method to compute bicausal optimal transport (OT) where couplings have an adapted structure. Based on the dynamic programming formulation, FVI adopts a function class to approximate the value functions in bicausal OT. Under the concentrability condition and approximate completeness assumption, we prove the sample complexity using (local) Rademacher complexity. Furthermore, we demonstrate that multilayer neural networks with appropriate structures satisfy the crucial assumptions required in sample complexity proofs. Numerical experiments reveal that FVI outperforms linear programming and adapted Sinkhorn methods in scalability as the time horizon increases, while still maintaining acceptable accuracy.
-    
-[^10]: 通过维度降低和稀疏化高效解决投资组合优化问题
-
-    Efficient Solution of Portfolio Optimization Problems via Dimension Reduction and Sparsification. (arXiv:2306.12639v1 [q-fin.PM])
-
-    [http://arxiv.org/abs/2306.12639](http://arxiv.org/abs/2306.12639)
-
-    该论文提出了通过维度降低和稀疏化的方法来解决大规模投资组合优化问题，通过机器学习技术预测和线性规划问题的解法缩小协方差矩阵，该方法能有效提高投资组合的表现和降低运行时间和迭代总次数。
+    本文研究了带有随机利率和不确定性的动态资产配置问题，解决方案显示投资者只对冒险性投资进行对冲，不确定性只影响其投机动机。
 
     
 
-    Markowitz的均值方差组合优化模型旨在在投资时平衡预期回报和风险。然而，解决大规模投资组合优化问题的一个重要限制是庞大密集的协方差矩阵。考虑更广泛的投资组合有可能提高投资组合的表现，因此必须能够高效地解决大规模投资组合优化问题，通常为微秒级。我们提出通过维度降低和稀疏化作为解决协方差矩阵问题的方法。尺寸缩减基于机器学习技术的预测和线性规划问题的解决。我们发现，使用线性规划公式中的有效边界要比神经网络预测更好地预测Markowitz有效边界上的资产。基于这些预测缩小协方差矩阵可以降低运行时间和迭代总次数。
+    本文研究了具有利率风险和多个不确定风险来源的动态资产配置。市场包括无风险资产、零息债券（均由Vasicek模型确定）和股票。对于风险溢价、波动性和相关性存在不确定性。投资者的偏好既体现了风险规避，也体现了不确定性规避。在典型的市场条件下，可以通过闭合形式来解决最优投资问题。解决方案表明，投资者不对不确定性进行对冲，只对冒险性投资进行对冲，而不确定性只影响投资者的投机动机。最优投资策略的实施显示了不同不确定性来源的影响。不确定性规避有助于抑制忽略不确定性的高杠杆投资组合，并导致更符合流行投资建议的策略。最优投资问题的解决方法基于马丁格尔优化的扩展。
 
-    The Markowitz mean-variance portfolio optimization model aims to balance expected return and risk when investing. However, there is a significant limitation when solving large portfolio optimization problems efficiently: the large and dense covariance matrix. Since portfolio performance can be potentially improved by considering a wider range of investments, it is imperative to be able to solve large portfolio optimization problems efficiently, typically in microseconds. We propose dimension reduction and increased sparsity as remedies for the covariance matrix. The size reduction is based on predictions from machine learning techniques and the solution to a linear programming problem. We find that using the efficient frontier from the linear formulation is much better at predicting the assets on the Markowitz efficient frontier, compared to the predictions from neural networks. Reducing the covariance matrix based on these predictions decreases both runtime and total iterations. We al
+    This paper studies dynamic asset allocation with interest rate risk and several sources of ambiguity. The market consists of a risk-free asset, a zero-coupon bond (both determined by a Vasicek model), and a stock. There is ambiguity about the risk premia, the volatilities, and the correlation. The investor's preferences display both risk aversion and ambiguity aversion. The optimal investment problem can be solved in closed-form under typical market conditions. The solution shows that the investor does not hedge ambiguity but only risk, while the ambiguity only affects the speculative motives of the investor. An implementation of the optimal investment strategy shows the impact of the different sources of ambiguity. Ambiguity aversion helps to tame the highly leveraged portfolios neglecting ambiguity and leads to strategies that are more in line with popular investment advice. The solution method for the optimal investment problem is based on an extension of the martingale optimality p
     
-[^11]: 社交媒体情感与IPO回报
+[^6]: 在尾部收入风险的存在下，消费部分保险
 
-    Social Media Emotions and IPO Returns. (arXiv:2306.12602v1 [q-fin.PR])
+    Consumption Partial Insurance in the Presence of Tail Income Risk. (arXiv:2306.13208v1 [econ.GN])
 
-    [http://arxiv.org/abs/2306.12602](http://arxiv.org/abs/2306.12602)
+    [http://arxiv.org/abs/2306.13208](http://arxiv.org/abs/2306.13208)
 
-    本文研究了社交媒体表达的情感如何影响初次公开发行（IPO）股票的错价。社交媒体上分享的大量信息和观点可以引发炒作，导致投资者非理性买卖决策，从而在短期内高估股票，但经常在长期内得到修正。发现投资者热情高涨的IPO拥有更高的回报率，但这种热情可能是错放的，需要更长的时间才能实现可持续的成长。
+    该研究测量了收入冲击对消费保险的影响程度，证实尾部收入风险对消费具有重要影响，收入负面冲击对消费的传导率大于正面冲击。
 
     
 
-    本文研究了初次公开发行（IPO）回报的两个经验事实背后的潜在机制。通过分析在StockTwits和Twitter上表达的投资者情绪，发现这些社交媒体平台传达的情感可以帮助解释IPO股票的错价。社交媒体上分享的大量信息和观点可能会引发对某些股票的炒作，导致投资者的非理性买卖决策。这可能导致股票在短期内被高估，但常常会在长期内得到修正，因为股票的表现未能满足过高的期望。特别是，发现在上市前投资者热情高涨的IPO，其第一天回报率明显更高，为29.54％，而上市前投资者热情较低的IPO，其平均第一天回报率为16.91％。但是，这种初始热情可能是错放的，因为上市前投资者热情很高的IPO可能需要更长的时间才能实现可持续的成长。
+    我们通过考虑收入分布高阶矩的影响，衡量了收入冲击对消费保险的影响程度。我们导出了一个非线性消费函数，其中保险程度随着收入冲击的符号和大小而变化。利用PSID数据，我们估计了坏的相对于好的永久性冲击的非对称传导率-- 3 sigma负冲击的的17%传导到消费，而相同大小的正冲击只有9%传导到消费-- 随着冲击恶化，传导率增加。我们的结果与对假想事件消费反应的调查一致，并表明尾部收入风险对消费具有重要影响。
 
-    I examine potential mechanisms behind two stylized facts of initial public offerings (IPOs) returns. By analyzing investor sentiment expressed on StockTwits and Twitter, I find that emotions conveyed through these social media platforms can help explain the mispricing of IPO stocks. The abundance of information and opinions shared on social media can generate hype around certain stocks, leading to investors' irrational buying and selling decisions. This can result in an overvaluation of the stock in the short term but often leads to a correction in the long term as the stock's performance fails to meet the inflated expectations. In particular, I find that IPOs with high levels of pre-IPO investor enthusiasm tend to have a significantly higher first-day return of 29.54%, compared to IPOs with lower levels of pre-IPO investor enthusiasm, which have an average first-day return of 16.91%. However, this initial enthusiasm may be misplaced, as IPOs with high pre-IPO investor enthusiasm demon
+    We measure the extent of consumption insurance to income shocks accounting for high-order moments of the income distribution. We derive a nonlinear consumption function, in which the extent of insurance varies with the sign and magnitude of income shocks. Using PSID data, we estimate an asymmetric pass-through of bad versus good permanent shocks -- 17% of a 3 sigma negative shock transmits to consumption compared to 9% of an equal-sized positive shock -- and the pass-through increases as the shock worsens. Our results are consistent with surveys of consumption responses to hypothetical events and suggest that tail income risk matters substantially for consumption.
     
-[^12]: 比较多元数据下使用深度学习模型进行波动率预测的效果
+[^7]: 比较多元数据下使用深度学习模型进行波动率预测的效果
 
     Comparing deep learning models for volatility prediction using multivariate data. (arXiv:2306.12446v1 [q-fin.ST])
 
@@ -192,102 +114,60 @@
 
     This study aims at comparing several deep learning-based forecasters in the task of volatility prediction using multivariate data, proceeding from simpler or shallower to deeper and more complex models and compare them to the naive prediction and variations of classical GARCH models. Specifically, the volatility of five assets (i.e., S\&P500, NASDAQ100, gold, silver, and oil) was predicted with the GARCH models, Multi-Layer Perceptrons, recurrent neural networks, Temporal Convolutional Networks, and the Temporal Fusion Transformer. In most cases the Temporal Fusion Transformer followed by variants of Temporal Convolutional Network outperformed classical approaches and shallow networks. These experiments were repeated, and the difference between competing models was shown to be statistically significant, therefore encouraging their use in practice.
     
-[^13]: 针对非线性经济时序，基于递增滤波算法的连续单侧Hodrick-Prescott滤波器
+[^8]: 带交易成本的美式期权的向后对冲算法
 
-    Successive one-sided Hodrick-Prescott filter with incremental filtering algorithm for nonlinear economic time series. (arXiv:2306.12439v1 [q-fin.ST])
+    Backward Hedging for American Options with Transaction Costs. (arXiv:2305.06805v1 [q-fin.CP])
 
-    [http://arxiv.org/abs/2306.12439](http://arxiv.org/abs/2306.12439)
+    [http://arxiv.org/abs/2305.06805](http://arxiv.org/abs/2305.06805)
 
-    本文提出了SOHP滤波器和增量式HP滤波算法，可用于非线性经济时序趋势估计，实验结果表明其比其他HP类型滤波器表现更佳。
-
-    
-
-    本文从多时间尺度分解的角度提出了连续单侧Hodrick-Prescott（SOHP）滤波器，旨在为时序数据提供趋势估计。其核心思想是在更新的周期性成分上递归应用单侧HP（OHP）滤波器，从而在多个时间尺度上提取趋势残差，从而改进趋势估计。为了解决SOHP滤波器存在的移动视窗优化问题，我们提出了一种增量式HP滤波算法，极大地简化了所涉及的逆矩阵运算，并降低了基本HP滤波器的计算需求。实际上，这种新算法也适用于其他HP类型的滤波器，尤其是在大型或扩张数据情境下表现更佳。对真实经济数据的数值实验显示，与其他众所周知的HP类型滤波器相比，SOHP滤波器表现更佳。
-
-    We propose a successive one-sided Hodrick-Prescott (SOHP) filter from multiple time scale decomposition perspective to derive trend estimate for a time series. The idea is to apply the one-sided HP (OHP) filter recursively on the updated cyclical component to extract the trend residual on multiple time scales, thereby to improve the trend estimate. To address the issue of optimization with a moving horizon as that of the SOHP filter, we present an incremental HP filtering algorithm, which greatly simplifies the involved inverse matrix operation and reduces the computational demand of the basic HP filtering. Actually, the new algorithm also applies effectively to other HP-type filters, especially for large-size or expanding data scenario. Numerical examples on real economic data show the better performance of the SOHP filter in comparison with other known HP-type filters.
-    
-[^14]: 使用内部杆强度作为交易国家ETF的关键指标
-
-    Using Internal Bar Strength as a Key Indicator for Trading Country ETFs. (arXiv:2306.12434v1 [q-fin.ST])
-
-    [http://arxiv.org/abs/2306.12434](http://arxiv.org/abs/2306.12434)
-
-    该论文研究了使用内部杆强度（IBS）作为交易国家ETF的关键指标的有效性，并发现IBS可以成为预测短期价格变动的有用技术指标。
+    本文介绍了一种名为“向后对冲”的算法，用于在考虑交易成本的情况下对欧式和美式期权进行对冲，相比于深度对冲算法，该方法更加高效和准确。
 
     
 
-    本文旨在研究使用内部杆强度（IBS）作为交易国家交易所交易基金（ETF）的关键指标的有效性。该研究使用量化方法分析了一个篮子中的各个国家ETF的历史价格数据，并利用均值回归的思想创建了一个有盈利的交易策略。我们的发现表明，在这个ETF篮子中，IBS可以成为预测短期价格变动的有用技术指标。
+    本文介绍了一种名为“向后对冲”的算法，用于在考虑交易成本的情况下对欧式和美式期权进行对冲。通过最小化基于风险度量或对到期时对冲策略的均方误差的适当损失函数，确定最优策略。适当重构损失函数，通过向后移动来解决其最小化问题。该方法不依赖于机器学习，而是依赖于传统的优化技术、蒙特卡罗模拟和格点插值。在各种数值实验中，与深度对冲算法进行比较，展示了所提出方法的效率和准确性。
 
-    This report aims to investigate the effectiveness of using internal bar strength (IBS) as a key indicator for trading country exchange-traded funds (ETFs). The study uses a quantitative approach to analyze historical price data for a bucket of country ETFs over a period of 10 years and uses the idea of Mean Reversion to create a profitable trading strategy. Our findings suggest that IBS can be a useful technical indicator for predicting short-term price movements in this basket of ETFs.
+    In this article, we introduce an algorithm called Backward Hedging, designed for hedging European and American options while considering transaction costs. The optimal strategy is determined by minimizing an appropriate loss function, which is based on either a risk measure or the mean squared error of the hedging strategy at maturity. By appropriately reformulating this loss function, we can address its minimization by moving backward in time. The approach avoids machine learning and instead relies on traditional optimization techniques, Monte Carlo simulations, and interpolations on a grid. Comparisons with the Deep Hedging algorithm in various numerical experiments showcase the efficiency and accuracy of the proposed method.
     
-[^15]: 强化学习用于能源交易策略的优化
+[^9]: 一种应用于能源市场的Heat-Jarrow-Morton框架：实用方法
 
-    Reinforcement learning for optimization of energy trading strategy. (arXiv:2303.16266v1 [cs.LG])
+    A Heat-Jarrow-Morton framework for energy markets: a pragmatic approach. (arXiv:2305.01485v1 [q-fin.MF])
 
-    [http://arxiv.org/abs/2303.16266](http://arxiv.org/abs/2303.16266)
+    [http://arxiv.org/abs/2305.01485](http://arxiv.org/abs/2305.01485)
 
-    本文使用强化学习算法优化了一种黑盒交易策略，该策略通过在马尔可夫决策过程中使用真实数据进行优化，在 DA 能源市场上由中型生产者自动进行交易。
-
-    
-
-    越来越多的能源来自大量小型生产者的可再生能源，这些来源的效率是不稳定的，在某种程度上也是随机的，加剧了能源市场平衡问题。在许多国家，这种平衡是在预测日（DA）能源市场上完成的。本文考虑由中型生产者在DA能源市场上的自动化交易。我们将此活动建模为马尔可夫决策过程，并规范了一个框架，其中可以使用现实数据优化即用策略。我们合成参数化交易策略，并使用进化算法优化它们。我们还使用最先进的强化学习算法优化一个黑盒交易策略，该策略利用来自环境的可用信息来影响未来价格。
-
-    An increasing part of energy is produced from renewable sources by a large number of small producers. The efficiency of these sources is volatile and, to some extent, random, exacerbating the energy market balance problem. In many countries, that balancing is performed on day-ahead (DA) energy markets. In this paper, we consider automated trading on a DA energy market by a medium size prosumer. We model this activity as a Markov Decision Process and formalize a framework in which a ready-to-use strategy can be optimized with real-life data. We synthesize parametric trading strategies and optimize them with an evolutionary algorithm. We also use state-of-the-art reinforcement learning algorithms to optimize a black-box trading strategy fed with available information from the environment that can impact future prices.
-    
-[^16]: 区块链网络分析：分散化银行的比较研究。
-
-    Blockchain Network Analysis: A Comparative Study of Decentralized Banks. (arXiv:2212.05632v3 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2212.05632](http://arxiv.org/abs/2212.05632)
-
-    本文对主流分散化银行使用交易数据进行核心-外围网络特征分析，结果显示MakerDao和Compound比Aave和Liquity更为分散化，在交易中仍存在着主要的外部交易。
+    本文介绍了一种应用于能源市场的Heat-Jarrow-Morton框架，重点放在实践方面。作为应用，我们重点关注欧洲电力和天然气市场。
 
     
 
-    分散化金融（DeFi）以其独特的机制设计而闻名，其应用智能合约以促进点对点交易。分散化银行是一种典型的DeFi应用。理想情况下，分散化银行应该在交易方面也分散化。然而，许多最近的研究发现，分散化银行并没有实现显著的分散化程度。本研究对主流分散化银行进行了比较研究。我们使用四家分散化银行（Liquity、Aave、MakerDao和Compound）的交易数据应用核心-外围网络特征分析。我们提取了六个特征并在横截面上比较了银行的分散化水平。根据分析结果，我们发现：1）MakerDao和Compound在交易中比Aave和Liquity更为分散化。2）尽管分散化银行交易应该是分散化的，但数据显示四家银行存在主要的外部交易。
+    本文讨论了将Heat-Jarrow-Morton框架应用于能源市场的方法。本文的目的是详细介绍该主题，重点放在实践方面而非已有大量文献探讨的理论方面。本文旨在成为从业人员以及所有从事这种方法的能源市场实际问题处理的人的指南。具体而言，我们关注市场结构、利用主成分分析（PCA）进行模型校准、蒙特卡罗模拟和衍生品定价。作为应用，我们重点关注欧洲电力和天然气市场：我们将模型校准为历史期货报价，进行期货和现货模拟并分析结果。
 
-    Decentralized finance (DeFi) is known for its unique mechanism design, which applies smart contracts to facilitate peer-to-peer transactions. The decentralized bank is a typical DeFi application. Ideally, a decentralized bank should be decentralized in the transaction. However, many recent studies have found that decentralized banks have not achieved a significant degree of decentralization. This research conducts a comparative study among mainstream decentralized banks. We apply core-periphery network features analysis using the transaction data from four decentralized banks, Liquity, Aave, MakerDao, and Compound. We extract six features and compare the banks' levels of decentralization cross-sectionally. According to the analysis results, we find that: 1) MakerDao and Compound are more decentralized in the transactions than Aave and Liquity. 2) Although decentralized banking transactions are supposed to be decentralized, the data show that four banks have primary external transaction
+    In this article we discuss the application of the Heat-Jarrow-Morton framework Heath et al. [26] to energy markets. The goal of the article is to give a detailed overview of the topic, focusing on practical aspects rather than on theory, which has been widely studied in literature. This work aims to be a guide for practitioners and for all those who deal with the practical issues of this approach to energy market. In particular, we focus on the markets' structure, model calibration by dimension reduction with Principal Component Analysis (PCA), Monte Carlo simulations and derivatives pricing. As application, we focus on European power and gas markets: we calibrate the model on historical futures quotations, we perform futures and spot simulations and we analyze the results.
     
-[^17]: 具有偿付能力限制的最优再保险设计
+[^10]: 具有外生信息的快速与缓慢最优交易
 
-    Optimal reinsurance design under solvency constraints. (arXiv:2203.16108v5 [math.OC] UPDATED)
+    Fast and Slow Optimal Trading with Exogenous Information. (arXiv:2210.01901v3 [q-fin.TR] UPDATED)
 
-    [http://arxiv.org/abs/2203.16108](http://arxiv.org/abs/2203.16108)
+    [http://arxiv.org/abs/2210.01901](http://arxiv.org/abs/2210.01901)
 
-    本文研究了具有偿付能力限制下的最优再保险设计问题，推导出了以终端价值的二次效用最大化为目标的比例性、非廉价再保险设计的最优方案，并考虑了多种实际限制条件。
-
-    
-
-    本文研究了保险公司向再保险公司进行最优风险转移的问题。本文中问题的设置与金融学中的最优投资组合问题密切相关，但也存在一些关键区别。特别地，保险公司的盈余（通常情况下）被近似为布朗运动，而不是金融学中用于建模资产的几何布朗运动。此外，通过再保险来降低风险敞口，而不是通过风险投资增加风险。这导致了最优设计中有着有趣的质量差异。本文中，我们使用鞅论方法，推导出了最优设计，该设计是随着终端保险盈余的二次效用最大化的比例性、非廉价再保险设计的一个函数。我们还考虑了多种终端价值的现实限制：严格的下限、概率（风险价值）约束和预期损失（条件风险价值）约束。
-
-    We consider the optimal risk transfer from an insurance company to a reinsurer. The problem formulation considered in this paper is closely connected to the optimal portfolio problem in finance, with some crucial distinctions. In particular, the insurance company's surplus is here (as is routinely the case) approximated by a Brownian motion, as opposed to the geometric Brownian motion used to model assets in finance. Furthermore, risk exposure is dialled "down" via reinsurance, rather than "up" via risky investments. This leads to interesting qualitative differences in the optimal designs.  In this paper, using the martingale method, we derive the optimal design as a function of proportional, non-cheap reinsurance design that maximises the quadratic utility of the terminal value of the insurance surplus. We also consider several realistic constraints on the terminal value: a strict lower boundary, the probability (Value at Risk) constraint, and the expected shortfall (conditional Value
-    
-[^18]: EmTract：从社交媒体中提取情绪
-
-    EmTract: Extracting Emotions from Social Media. (arXiv:2112.03868v3 [q-fin.PR] UPDATED)
-
-    [http://arxiv.org/abs/2112.03868](http://arxiv.org/abs/2112.03868)
-
-    本文描述了一个名为EmTract的开源工具，其基于预调整的NLP模型DistilBERT和4,861个标记，提取面向金融环境的社交媒体文本中的情绪，并在人工和chatGPT注释数据上优于竞争的开源最先进情感分类器，并且方法具有量身定制的特点以及针对非标准短语、表情符号和表情符号这类社交媒体数据。
+    本文通过建模一种缓慢机构投资者和高频交易者之间的随机博弈，提出了一个具有外生信息的快速与缓慢最优交易模型，为该博弈提供了一个显式解，高频交易者可以在每个期间采取掠夺或合作策略。
 
     
 
-    我们开发了一个开源工具（EmTract），用于从面向金融环境的社交媒体文本中提取情绪。为此，我们标注了一万条来自金融社交媒体平台StockTwits的短消息，并将其与开源情绪数据结合使用。然后，我们使用预先调整好的NLP模型DistilBERT，通过包括4,861个标记（表情符号和表情符号）来增加其嵌入空间，然后首先在开源情感数据上对其进行拟合，然后将其转移至我们标注的金融社交媒体数据。我们的模型在人工和chatGPT注释数据上均优于竞争的开源最先进情感分类器，如Emotion English DistilRoBERTa-base。与基于字典的方法相比，我们的方法在金融研究中具有三个主要优点。首先，我们的模型针对金融社交媒体文本进行了量身定制；其次，它包含社交媒体数据的关键方面，如非标准短语、表情符号和表情符号；第三，它通过顺序学习进行操作。
+    本文考虑了两个交易者之间的随机博弈，其中一个是缓慢的机构投资者，另一个是高频交易者，他们在交易风险资产时的聚合订单流将影响资产价格。我们通过两个耦合的随机控制问题来建模这个系统，其中高频交易者更频繁地利用价格预测信号的可用信息，但也受到周期性的“收盘前”清仓限制。我们首先在任何可接受的机构投资者策略下推导出高频交易者的最优策略。然后，我们通过Fredholm积分方程的解来解决机构投资者的问题，给出了高频交易者的最优信号自适应策略，从而建立了博弈的唯一多期Stackelberg均衡。我们的结果提供了一个显式解，显示高频交易者可以在每个期间采取掠夺或合作策略。
 
-    We develop an open-source tool (EmTract) that extracts emotions from social media text tailed for financial context. To do so, we annotate ten thousand short messages from a financial social media platform (StockTwits) and combine it with open-source emotion data. We then use a pre-tuned NLP model, DistilBERT, augment its embedding space by including 4,861 tokens (emojis and emoticons), and then fit it first on the open-source emotion data, then transfer it to our annotated financial social media data. Our model outperforms competing open-source state-of-the-art emotion classifiers, such as Emotion English DistilRoBERTa-base on both human and chatGPT annotated data. Compared to dictionary based methods, our methodology has three main advantages for research in finance. First, our model is tailored to financial social media text; second, it incorporates key aspects of social media data, such as non-standard phrases, emojis, and emoticons; and third, it operates by sequentially learning 
+    We consider a stochastic game between a slow institutional investor and a high-frequency trader who are trading a risky asset and their aggregated order-flow impacts the asset price. We model this system by means of two coupled stochastic control problems, in which the high-frequency trader exploits the available information on a price predicting signal more frequently, but is also subject to periodic "end of day" inventory constraints. We first derive the optimal strategy of the high-frequency trader given any admissible strategy of the institutional investor. Then, we solve the problem of the institutional investor given the optimal signal-adaptive strategy of the high-frequency trader, in terms of the resolvent of a Fredholm integral equation, thus establishing the unique multi-period Stackelberg equilibrium of the game. Our results provide an explicit solution to the game, which shows that the high-frequency trader can adopt either predatory or cooperative strategies in each period
     
-[^19]: 闭环纳什竞争下的流动性研究
+[^11]: 以全球公司为基准的规模定律作为评估环境绩效的基础方法
 
-    Closed-Loop Nash Competition for Liquidity. (arXiv:2112.02961v2 [q-fin.MF] UPDATED)
+    Scaling laws in global corporations as a benchmarking approach to assess environmental performance. (arXiv:2206.03148v3 [econ.GN] UPDATED)
 
-    [http://arxiv.org/abs/2112.02961](http://arxiv.org/abs/2112.02961)
+    [http://arxiv.org/abs/2206.03148](http://arxiv.org/abs/2206.03148)
 
-    本文研究了多人随机微分博弈中的闭环纳什竞争下的流动性，证明了小价格影响参数下闭环纳什均衡存在，优于开环纳什均衡，但效应有限。
+    本研究利用全球公司环境实践的数据得出结论：公司的环境影响与其规模成简单的幂律关系，可以构建一个特定于行业、大小相关的基准来评估公司的环境绩效，并实施这样的基准可能会导致15%的排放减少。
 
     
 
-    本文研究了多人随机微分博弈，在该博弈中，代理商通过他们对一个被交易的资产的共同价格影响进行交互以利用共同的交易信号。在这种情况下，我们证明了当价格影响参数足够小的时候，闭环纳什均衡是存在的。与相应的开环纳什均衡相比，代理商的最优交易率和表现都向中央计划者解趋近，因为由于缺乏协调而导致的过度交易得到了减少。然而，对于合理的参数值，这种效应的大小是适度的。
+    全球最大的6,529家跨国公司负责了近30%的全球CO2e排放量。越来越多的股东和利益相关者意识到企业在可持续发展道路上的作用，因此他们追求越来越严格和雄心勃勃的环境目标。但是，如何客观高效地评估企业的环境绩效仍然是一个悬而未决的问题。本研究揭示了可以用来构建公司环境影响的定量统一图片的基本动态和结构。本研究表明，公司的环境影响（新陈代谢）CO2e能源使用，水取水和废品生产的规模与其规模成简单的幂律关系，这往往是次线性的，并且可以用来推导出一个特定于行业，大小相关的基准来明确评估公司的环境绩效。实施这样的基准可能会导致15%的排放减少。
 
-    We study a multi-player stochastic differential game, where agents interact through their joint price impact on an asset that they trade to exploit a common trading signal. In this context, we prove that a closed-loop Nash equilibrium exists if the price impact parameter is small enough. Compared to the corresponding open-loop Nash equilibrium, both the agents' optimal trading rates and their performance move towards the central-planner solution, in that excessive trading due to lack of coordination is reduced. However, the size of this effect is modest for plausible parameter values.
+    The largest 6,529 international corporations are accountable for almost 30% of global CO2e emissions. A growing awareness of the role of the corporate world in the path toward sustainability has led many shareholders and stakeholders to pursue increasingly stringent and ambitious environmental goals. However, how to assess the corporate environmental performance objectively and efficiently remains an open question. This study reveals underlying dynamics and structures that can be used to construct a unified quantitative picture of the environmental impact of companies. This study shows that the environmental impact (metabolism) of companies CO2e energy used, water withdrawal and waste production, scales with their size according to a simple power law which is often sublinear, and can be used to derive a sector-specific, size-dependent benchmark to asses unambiguously a company's environmental performance. Enforcing such a benchmark would potentially result in a 15% emissions reduction,
     
 

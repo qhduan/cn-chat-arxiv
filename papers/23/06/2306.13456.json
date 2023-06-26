@@ -1,0 +1,12 @@
+{
+    "title": "Enhanced Dengue Outbreak Prediction in Tamilnadu using Meteorological and Entomological data. (arXiv:2306.13456v1 [cs.LG])",
+    "abstract": "This paper focuses on studying the impact of climate data and vector larval indices on dengue outbreak. After a comparative study of the various LSTM models, Bidirectional Stacked LSTM network is selected to analyze the time series climate data and health data collected for the state of Tamil Nadu (India), for the period 2014 to 2020. Prediction accuracy of the model is significantly improved by including the mosquito larval index, an indication of VBD control measure.",
+    "link": "http://arxiv.org/abs/2306.13456",
+    "context": "Title: Enhanced Dengue Outbreak Prediction in Tamilnadu using Meteorological and Entomological data. (arXiv:2306.13456v1 [cs.LG])\nAbstract: This paper focuses on studying the impact of climate data and vector larval indices on dengue outbreak. After a comparative study of the various LSTM models, Bidirectional Stacked LSTM network is selected to analyze the time series climate data and health data collected for the state of Tamil Nadu (India), for the period 2014 to 2020. Prediction accuracy of the model is significantly improved by including the mosquito larval index, an indication of VBD control measure.",
+    "path": "papers/23/06/2306.13456.json",
+    "total_tokens": 685,
+    "translated_title": "利用气象和昆虫学数据改善泰米尔纳德邦登革热疫情预测",
+    "translated_abstract": "本文研究气候数据和媒介物幼虫指数对登革热疫情爆发的影响。在比较了各种LSTM模型后，选择双向堆叠LSTM网络，分析收集自2014年至2020年印度泰米尔纳德邦的时间序列气候数据和卫生数据。通过包含蚊子幼虫指数来提高模型的预测准确性，这是衡量疾病防控措施的指标。",
+    "tldr": "本文研究了气候和媒介物幼虫指数对泰米尔纳德邦登革热疫情的影响，并通过引入蚊子幼虫指数提高了疫情预测的精确度。",
+    "en_tdlr": "This paper studies the impact of climate data and vector larval indices on dengue outbreak in Tamil Nadu, India, and improves the accuracy of outbreak prediction by including the larval index as a control measure."
+}

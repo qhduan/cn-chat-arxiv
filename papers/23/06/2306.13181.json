@@ -1,0 +1,12 @@
+{
+    "title": "Prediction of Annual Snow Accumulation Using a Recurrent Graph Convolutional Approach. (arXiv:2306.13181v1 [cs.LG])",
+    "abstract": "The precise tracking and prediction of polar ice layers can unveil historic trends in snow accumulation. In recent years, airborne radar sensors, such as the Snow Radar, have been shown to be able to measure these internal ice layers over large areas with a fine vertical resolution. In our previous work, we found that temporal graph convolutional networks perform reasonably well in predicting future snow accumulation when given temporal graphs containing deep ice layer thickness. In this work, we experiment with a graph attention network-based model and used it to predict more annual snow accumulation data points with fewer input data points on a larger dataset. We found that these large changes only very slightly negatively impacted performance.",
+    "link": "http://arxiv.org/abs/2306.13181",
+    "context": "Title: Prediction of Annual Snow Accumulation Using a Recurrent Graph Convolutional Approach. (arXiv:2306.13181v1 [cs.LG])\nAbstract: The precise tracking and prediction of polar ice layers can unveil historic trends in snow accumulation. In recent years, airborne radar sensors, such as the Snow Radar, have been shown to be able to measure these internal ice layers over large areas with a fine vertical resolution. In our previous work, we found that temporal graph convolutional networks perform reasonably well in predicting future snow accumulation when given temporal graphs containing deep ice layer thickness. In this work, we experiment with a graph attention network-based model and used it to predict more annual snow accumulation data points with fewer input data points on a larger dataset. We found that these large changes only very slightly negatively impacted performance.",
+    "path": "papers/23/06/2306.13181.json",
+    "total_tokens": 755,
+    "translated_title": "一种基于循环图卷积的方法预测年降雪量",
+    "translated_abstract": "精确跟踪和预测极地冰层的积雪情况可以揭示其历史趋势。近年来，通过 radar 传感器，如 Snow Radar ，能够以较高的垂直分辨率测量这些内部冰层。在先前的工作中，我们发现当给出包含深冰层厚度的时态图时，时态图卷积网络在预测未来积雪时表现良好。在本研究中，我们尝试用基于图注意力网络的模型预测更多的年积雪数据点，并在较大的数据集上使用更少的输入数据点。我们发现这些较大的变化只会对性能产生非常轻微的负面影响。",
+    "tldr": "本研究利用循环图卷积神经网络和图注意力网络的方法，精确预测极地区域年降雪量，且在较大数据集上使用更少的输入数据具有较好的性能。",
+    "en_tdlr": "This study uses a recurrent graph convolutional neural network and a graph attention network to accurately predict annual snow accumulation in polar regions with fewer input data points on a larger dataset, showing good performance."
+}

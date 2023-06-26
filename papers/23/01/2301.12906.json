@@ -1,0 +1,12 @@
+{
+    "title": "Curvature Filtrations for Graph Generative Model Evaluation. (arXiv:2301.12906v2 [cs.LG] UPDATED)",
+    "abstract": "Graph generative model evaluation necessitates understanding differences between graphs on the distributional level. This entails being able to harness salient attributes of graphs in an efficient manner. Curvature constitutes one such property of graphs, and has recently started to prove useful in characterising graphs. Its expressive properties, stability, and practical utility in model evaluation remain largely unexplored, however. We combine graph curvature descriptors with emerging methods from topological data analysis to obtain robust, expressive descriptors for evaluating graph generative models.",
+    "link": "http://arxiv.org/abs/2301.12906",
+    "context": "Title: Curvature Filtrations for Graph Generative Model Evaluation. (arXiv:2301.12906v2 [cs.LG] UPDATED)\nAbstract: Graph generative model evaluation necessitates understanding differences between graphs on the distributional level. This entails being able to harness salient attributes of graphs in an efficient manner. Curvature constitutes one such property of graphs, and has recently started to prove useful in characterising graphs. Its expressive properties, stability, and practical utility in model evaluation remain largely unexplored, however. We combine graph curvature descriptors with emerging methods from topological data analysis to obtain robust, expressive descriptors for evaluating graph generative models.",
+    "path": "papers/23/01/2301.12906.json",
+    "total_tokens": 628,
+    "translated_title": "图形生成模型评估的曲率滤波器",
+    "translated_abstract": "图形生成模型评估需要了解分布级别上的图形差异，这需要能够以有效的方式利用图形的显著属性。曲率是图形的一种属性，最近开始证明其在描述图形方面很有用。然而，其表达性质、稳定性和在模型评估中的实际效用仍然很少被探索。我们将图形曲率描述符与拓扑数据分析中的新方法相结合，以获得用于评估图形生成模型的稳健、表达性的描述符。",
+    "tldr": "该论文使用图形曲率描述符和拓扑数据分析中的新方法相结合，以获得用于评估图形生成模型的稳健、表达性的描述符。",
+    "en_tdlr": "This paper combines graph curvature descriptors with emerging methods from topological data analysis to obtain robust, expressive descriptors for evaluating graph generative models."
+}

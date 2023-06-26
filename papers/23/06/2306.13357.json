@@ -1,0 +1,12 @@
+{
+    "title": "Catching Image Retrieval Generalization. (arXiv:2306.13357v1 [cs.LG])",
+    "abstract": "The concepts of overfitting and generalization are vital for evaluating machine learning models. In this work, we show that the popular Recall@K metric depends on the number of classes in the dataset, which limits its ability to estimate generalization. To fix this issue, we propose a new metric, which measures retrieval performance, and, unlike Recall@K, estimates generalization. We apply the proposed metric to popular image retrieval methods and provide new insights about deep metric learning generalization.",
+    "link": "http://arxiv.org/abs/2306.13357",
+    "context": "Title: Catching Image Retrieval Generalization. (arXiv:2306.13357v1 [cs.LG])\nAbstract: The concepts of overfitting and generalization are vital for evaluating machine learning models. In this work, we show that the popular Recall@K metric depends on the number of classes in the dataset, which limits its ability to estimate generalization. To fix this issue, we propose a new metric, which measures retrieval performance, and, unlike Recall@K, estimates generalization. We apply the proposed metric to popular image retrieval methods and provide new insights about deep metric learning generalization.",
+    "path": "papers/23/06/2306.13357.json",
+    "total_tokens": 695,
+    "translated_title": "捕捉图像检索的泛化能力",
+    "translated_abstract": "过拟合和泛化概念对于评估机器学习模型非常重要。本文表明，广受欢迎的Recall@K度量取决于数据集中类别数量的限制，从而限制了其评估泛化能力的能力。为解决这个问题，我们提出了一种新的测量检索性能的指标，这种指标与Recall@K不同，可以估计泛化能力。我们将这种指标应用于常见的图像检索方法，提供了有关深度度量学习泛化的新见解。",
+    "tldr": "本文通过提出一种新的测量检索性能的指标来解决广受欢迎的Recall@K度量取决于数据集中类别数量的限制，这种指标可以估计泛化能力并应用于常见的图像检索方法，提供了有关深度度量学习泛化的新见解。",
+    "en_tdlr": "This paper proposes a new metric for measuring retrieval performance, which can estimate generalization and overcome the limitation of Recall@K that depends on the number of classes in the dataset. The proposed metric is applied to popular image retrieval methods, providing new insights about deep metric learning generalization."
+}

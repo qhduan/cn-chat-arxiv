@@ -1,0 +1,12 @@
+{
+    "title": "Pre or Post-Softmax Scores in Gradient-based Attribution Methods, What is Best?. (arXiv:2306.13197v1 [cs.LG])",
+    "abstract": "Gradient based attribution methods for neural networks working as classifiers use gradients of network scores. Here we discuss the practical differences between using gradients of pre-softmax scores versus post-softmax scores, and their respective advantages and disadvantages.",
+    "link": "http://arxiv.org/abs/2306.13197",
+    "context": "Title: Pre or Post-Softmax Scores in Gradient-based Attribution Methods, What is Best?. (arXiv:2306.13197v1 [cs.LG])\nAbstract: Gradient based attribution methods for neural networks working as classifiers use gradients of network scores. Here we discuss the practical differences between using gradients of pre-softmax scores versus post-softmax scores, and their respective advantages and disadvantages.",
+    "path": "papers/23/06/2306.13197.json",
+    "total_tokens": 495,
+    "translated_title": "Gradient-based Attribution Methods中Pre或Post-Softmax Scores，哪个更好？",
+    "translated_abstract": "对于工作作为分类器的神经网络的基于梯度的归因方法使用网络分数的梯度。在这里，我们讨论使用Pre Softmax分数和Post Softmax分数的梯度之间的实际差异以及它们各自的优缺点。",
+    "tldr": "在Gradient-based Attribution Methods中，使用Pre Softmax分数或Post Softmax分数的梯度的选择有各自的优缺点，需要根据具体情况进行权衡。",
+    "en_tdlr": "Choosing gradient based on Pre Softmax scores and Post Softmax scores has respective advantages and disadvantages that need to be weighed based on specific situations in Gradient-based Attribution Methods."
+}

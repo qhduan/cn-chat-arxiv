@@ -1,0 +1,12 @@
+{
+    "title": "Thoughts on Architecture. (arXiv:2306.13572v1 [cs.AI])",
+    "abstract": "The term architecture has evolved considerably from its original Greek roots and its application to buildings and computers to its more recent manifestation for minds. This article considers lessons from this history, in terms of a set of relevant distinctions introduced at each of these stages and a definition of architecture that spans all three, and a reconsideration of three key issues from cognitive architectures for architectures in general and cognitive architectures more particularly.",
+    "link": "http://arxiv.org/abs/2306.13572",
+    "context": "Title: Thoughts on Architecture. (arXiv:2306.13572v1 [cs.AI])\nAbstract: The term architecture has evolved considerably from its original Greek roots and its application to buildings and computers to its more recent manifestation for minds. This article considers lessons from this history, in terms of a set of relevant distinctions introduced at each of these stages and a definition of architecture that spans all three, and a reconsideration of three key issues from cognitive architectures for architectures in general and cognitive architectures more particularly.",
+    "path": "papers/23/06/2306.13572.json",
+    "total_tokens": 600,
+    "translated_title": "对于“建筑”的思考",
+    "translated_abstract": "“建筑”这个词从其希腊历史和应用于建筑和计算机的含义发展到如今的思维方面。本文考虑了这一历史的教训，提出了在每个阶段引入的一组相关区分和跨越所有三个阶段的“建筑”定义，以及重新思考与认知体系结构有关的三个重要问题。",
+    "tldr": "本文讨论了“建筑”这个词从其希腊历史和应用于建筑和计算机的含义发展到如今的思维方面的路径，并提供了跨越所有三个阶段的“建筑”定义以及重新思考与认知体系结构有关的三个重要问题。",
+    "en_tdlr": "This article explores the evolution of the term \"architecture\" and its various applications, from buildings to computers to minds. It provides a definition of architecture that spans all three stages and discusses three key issues related to cognitive architectures."
+}

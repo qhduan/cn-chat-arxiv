@@ -1,0 +1,12 @@
+{
+    "title": "Rethinking the Physical Symbol Systems Hypothesis. (arXiv:2306.13150v1 [cs.AI])",
+    "abstract": "It is now more than a half-century since the Physical Symbol Systems Hypothesis (PSSH) was first articulated as an empirical hypothesis. More recent evidence from work with neural networks and cognitive architectures has weakened it, but it has not yet been replaced in any satisfactory manner. Based on a rethinking of the nature of computational symbols -- as atoms or placeholders -- and thus also of the systems in which they participate, a hybrid approach is introduced that responds to these challenges while also helping to bridge the gap between symbolic and neural approaches, resulting in two new hypotheses, one that is to replace the PSSH and other focused more directly on cognitive architectures.",
+    "link": "http://arxiv.org/abs/2306.13150",
+    "context": "Title: Rethinking the Physical Symbol Systems Hypothesis. (arXiv:2306.13150v1 [cs.AI])\nAbstract: It is now more than a half-century since the Physical Symbol Systems Hypothesis (PSSH) was first articulated as an empirical hypothesis. More recent evidence from work with neural networks and cognitive architectures has weakened it, but it has not yet been replaced in any satisfactory manner. Based on a rethinking of the nature of computational symbols -- as atoms or placeholders -- and thus also of the systems in which they participate, a hybrid approach is introduced that responds to these challenges while also helping to bridge the gap between symbolic and neural approaches, resulting in two new hypotheses, one that is to replace the PSSH and other focused more directly on cognitive architectures.",
+    "path": "papers/23/06/2306.13150.json",
+    "total_tokens": 688,
+    "translated_title": "重新思考物理符号系统假说",
+    "translated_abstract": "距离物理符号系统假设（PSSH）第一次被提出已经超过半个世纪了。最近通过与神经网络和认知架构的工作的证据削弱了该假设，但它尚未以任何令人满意的方式被替换。基于对计算符号——作为原子或占位符——性质的重新思考，并因此也对它们参与的系统的重新思考，引入了一种混合方法，以应对这些挑战，同时也有助于弥合符号和神经方法之间的差距，从而产生了两个新的假设，一个用来取代PSSH，另一个更直接地关注认知架构。",
+    "tldr": "该论文重新思考了物理符号系统假说，并提出了两个新的假说，以弥合符号和神经方法之间的差距。",
+    "en_tdlr": "This paper rethinks the Physical Symbol Systems Hypothesis and proposes two new hypotheses to bridge the gap between symbolic and neural approaches."
+}

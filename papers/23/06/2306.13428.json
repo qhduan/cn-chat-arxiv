@@ -1,0 +1,12 @@
+{
+    "title": "On tracking varying bounds when forecasting bounded time series. (arXiv:2306.13428v1 [stat.ML])",
+    "abstract": "We consider a new framework where a continuous, though bounded, random variable has unobserved bounds that vary over time. In the context of univariate time series, we look at the bounds as parameters of the distribution of the bounded random variable. We introduce an extended log-likelihood estimation and design algorithms to track the bound through online maximum likelihood estimation. Since the resulting optimization problem is not convex, we make use of recent theoretical results on Normalized Gradient Descent (NGD) for quasiconvex optimization, to eventually derive an Online Normalized Gradient Descent algorithm. We illustrate and discuss the workings of our approach based on both simulation studies and a real-world wind power forecasting problem.",
+    "link": "http://arxiv.org/abs/2306.13428",
+    "context": "Title: On tracking varying bounds when forecasting bounded time series. (arXiv:2306.13428v1 [stat.ML])\nAbstract: We consider a new framework where a continuous, though bounded, random variable has unobserved bounds that vary over time. In the context of univariate time series, we look at the bounds as parameters of the distribution of the bounded random variable. We introduce an extended log-likelihood estimation and design algorithms to track the bound through online maximum likelihood estimation. Since the resulting optimization problem is not convex, we make use of recent theoretical results on Normalized Gradient Descent (NGD) for quasiconvex optimization, to eventually derive an Online Normalized Gradient Descent algorithm. We illustrate and discuss the workings of our approach based on both simulation studies and a real-world wind power forecasting problem.",
+    "path": "papers/23/06/2306.13428.json",
+    "total_tokens": 750,
+    "translated_title": "关于跟踪预测有边界时间序列时的可变边界问题",
+    "translated_abstract": "我们考虑一个新的框架，其中连续但有界的随机变量具有随时间变化的未观测边界。在单变量时间序列的背景下，我们将这些边界视为有界随机变量分布的参数。我们引入了扩展的对数似然估计，并设计了算法来通过在线最大似然估计来跟踪边界。由于得到的优化问题不是凸的，我们利用了最近关于准凸优化的归一化梯度下降（NGD）的理论结果，最终得到了一种在线归一化梯度下降算法。我们基于模拟研究和一个真实的风力发电预测问题来说明和讨论我们方法的工作原理。",
+    "tldr": "该论文提出了一种跟踪时间变化边界的新方法，并解决了在线最大似然估计的问题。这种方法有助于处理预测有边界时间序列问题。",
+    "en_tdlr": "This paper proposes a new method to track time-varying bounds and solves the problem of online maximum likelihood estimation, which is useful for dealing with forecasting bounded time series."
+}

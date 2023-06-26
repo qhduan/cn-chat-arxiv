@@ -1,0 +1,12 @@
+{
+    "title": "Reinforcement Learning in Non-Markovian Environments. (arXiv:2211.01595v2 [eess.SY] UPDATED)",
+    "abstract": "Motivated by the novel paradigm developed by Van Roy and coauthors for reinforcement learning in arbitrary non-Markovian environments, we propose a related formulation and explicitly pin down the error caused by non-Markovianity of observations when the Q-learning algorithm is applied on this formulation. Based on this observation, we propose that the criterion for agent design should be to seek good approximations for certain conditional laws. Inspired by classical stochastic control, we show that our problem reduces to that of recursive computation of approximate sufficient statistics. This leads to an autoencoder-based scheme for agent design which is then numerically tested on partially observed reinforcement learning environments.",
+    "link": "http://arxiv.org/abs/2211.01595",
+    "context": "Title: Reinforcement Learning in Non-Markovian Environments. (arXiv:2211.01595v2 [eess.SY] UPDATED)\nAbstract: Motivated by the novel paradigm developed by Van Roy and coauthors for reinforcement learning in arbitrary non-Markovian environments, we propose a related formulation and explicitly pin down the error caused by non-Markovianity of observations when the Q-learning algorithm is applied on this formulation. Based on this observation, we propose that the criterion for agent design should be to seek good approximations for certain conditional laws. Inspired by classical stochastic control, we show that our problem reduces to that of recursive computation of approximate sufficient statistics. This leads to an autoencoder-based scheme for agent design which is then numerically tested on partially observed reinforcement learning environments.",
+    "path": "papers/22/11/2211.01595.json",
+    "total_tokens": 722,
+    "translated_title": "非马尔可夫环境下的强化学习",
+    "translated_abstract": "本文以Van Roy及其合作者为基础，提出了在任意非马尔可夫环境中进行强化学习的新范式，并明确了当在该范式上应用Q学习算法时，由于非马尔可夫性质引起的错误。基于此观察，我们建议代理设计的标准应是寻找某些条件规律的良好近似。受经典随机控制的启发，我们证明了我们的问题归结为递归计算近似充分统计量的问题。这导致了一种基于自编码器的代理设计方案，我们在部分观察到的强化学习环境中进行了数值测试。",
+    "tldr": "本文通过递归计算近似充分统计量，提出了一种基于自编码器的代理设计方案，实现了在非马尔可夫环境中进行强化学习。",
+    "en_tdlr": "This paper proposes an autoencoder-based scheme for agent design in non-Markovian environments, by recursively computing approximate sufficient statistics, and successfully applies it in partially observed reinforcement learning environments."
+}

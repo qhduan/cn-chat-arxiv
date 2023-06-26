@@ -2,127 +2,112 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Data augmentation for recommender system: A semi-supervised approach using maximum margin matrix factorization.](http://arxiv.org/abs/2306.13050) | 本研究提出了一种基于最大边际矩阵分解的半监督方法来增广和细化协同过滤算法的评级预测。该方法利用自我训练来评估评分的置信度，并通过系统的数据增广策略来提高算法性能。 |
-| [^2] | [Efficient Partitioning Method of Large-Scale Public Safety Spatio-Temporal Data based on Information Loss Constraints.](http://arxiv.org/abs/2306.12857) | 本文提出了一种基于信息丢失约束的大规模公共安全时空数据高效划分方法(IFL-LSTP)，可以显著减小数据规模，同时保持模型的准确性，确保分布式存储的负载平衡，同时保持数据划分的时空接近性。 |
-| [^3] | [HypeRS: Building a Hypergraph-driven ensemble Recommender System.](http://arxiv.org/abs/2306.12800) | 本文提出了一个新的集成推荐系统，将不同模型的预测结果结合成一个超图排名框架，是第一个使用超图排名建模集成推荐系统的。超图可以建模高阶关系。 |
-| [^4] | [On the Robustness of Generative Retrieval Models: An Out-of-Distribution Perspective.](http://arxiv.org/abs/2306.12756) | 本论文研究了生成式检索模型在超出分布（OOD）泛化方面的鲁棒性，定义了从三个方面衡量OOD鲁棒性，并分析了其与密集检索模型的比较。实验结果表明，生成式检索模型的OOD鲁棒性较弱，特别是在面向任务的超出分布场景中更为明显。针对造成鲁棒性较弱的原因，提出了潜在的解决方案。 |
-| [^5] | [Recent Developments in Recommender Systems: A Survey.](http://arxiv.org/abs/2306.12680) | 本篇综述全面总结了推荐系统领域的最新进展和趋势，包括推荐系统分类，知识推荐系统，鲁棒性，数据偏见和公平性问题，以及评估度量。该研究还提供了未来研究的新方向。 |
-| [^6] | [Resources and Evaluations for Multi-Distribution Dense Information Retrieval.](http://arxiv.org/abs/2306.12601) | 本文提出了一个新问题——多分布信息检索，并通过三个基准数据集展示了简单方法的有效性，可防止已知领域消耗大部分检索预算，平均提高Recall @ 100点3.8+，最高可达8.0个点。 |
-| [^7] | [ReLoop2: Building Self-Adaptive Recommendation Models via Responsive Error Compensation Loop.](http://arxiv.org/abs/2306.08808) | 本文提出了ReLoop2，一种利用响应式误差补偿循环构建自适应推荐模型的方法，通过错误记忆模块来补偿模型预测误差，实现快速模型适应。 |
-| [^8] | [IGB: Addressing The Gaps In Labeling, Features, Heterogeneity, and Size of Public Graph Datasets for Deep Learning Research.](http://arxiv.org/abs/2302.13522) | IGB是一个研究数据集工具，包含同质和异质性学术图形，规模巨大，并提供工具用于生成不同特性的合成图形，为GNN研究人员提供解决公共图形数据集在标记、特征、异质性和大小方面差距的有价值资源。 |
+| [^1] | [Fuzzification-based Feature Selection for Enhanced Website Content Encryption.](http://arxiv.org/abs/2306.13548) | 本文提出了一种基于模糊化理论的特征选择技术，利用其可以更加细致地分析网站内容特征，以提高网站内容加密的效率和有效性，从而增强整体互联网的安全性。 |
+| [^2] | [OptMSM: Optimizing Multi-Scenario Modeling for Click-Through Rate Prediction.](http://arxiv.org/abs/2306.13382) | OptMSM提出了一个新的框架来优化多场景点击率预测问题，通过场景低秩矩阵重构和场景共享机制来减少模型参数大小并提高预测性能。 |
+| [^3] | [Human Activity Behavioural Pattern Recognition in Smarthome with Long-hour Data Collection.](http://arxiv.org/abs/2306.13374) | 本文提出了一种基于深度学习模型和多种环境传感器结合的混合传感器人类活动识别框架，可识别出更多的活动，有助于推导出人类活动模式或用户画像。 |
+| [^4] | [An overview on the evaluated video retrieval tasks at TRECVID 2022.](http://arxiv.org/abs/2306.13118) | TRECVID是一种TREC风格的视频分析和检索评估方法，它旨在促进数字视频中基于内容的开发和检索信息。TRECVID 2022计划开展六个任务，有来自世界各地的35个研究组织参加。 |
+| [^5] | [CompMix: A Benchmark for Heterogeneous Question Answering.](http://arxiv.org/abs/2306.12235) | CompMix是一个异构问答系统的基准测试，有多个信息源和复杂意图，旨在提供公平的评估QA系统的能力。 |
+| [^6] | [Tourist Attractions Recommendation based on Attention Knowledge Graph Convolution Network.](http://arxiv.org/abs/2306.10946) | 本文提出了一种基于注意力知识图卷积网络的旅游景点推荐模型，通过自动语义发掘目标景点的相邻实体，根据旅客的喜好选择，预测类似景点的概率，实验中取得良好效果。 |
+| [^7] | [A Dataset of Coordinated Cryptocurrency-Related Social Media Campaigns.](http://arxiv.org/abs/2301.06601) | 本文介绍了一份协调加密货币相关社交媒体活动的数据集，其中包含了跨媒体赏金活动的信息、参与者、论坛评论和社交媒体URL。该数据集可以为不同领域的研究提供潜在机遇，并强调了潜在的创新点。 |
 
 # 详细
 
-[^1]: 推荐系统的数据增广：一种基于最大边际矩阵分解的半监督方法
+[^1]: 基于模糊化的特征选择技术用于网站内容加密增强
 
-    Data augmentation for recommender system: A semi-supervised approach using maximum margin matrix factorization. (arXiv:2306.13050v1 [cs.IR])
+    Fuzzification-based Feature Selection for Enhanced Website Content Encryption. (arXiv:2306.13548v1 [cs.CR])
 
-    [http://arxiv.org/abs/2306.13050](http://arxiv.org/abs/2306.13050)
+    [http://arxiv.org/abs/2306.13548](http://arxiv.org/abs/2306.13548)
 
-    本研究提出了一种基于最大边际矩阵分解的半监督方法来增广和细化协同过滤算法的评级预测。该方法利用自我训练来评估评分的置信度，并通过系统的数据增广策略来提高算法性能。
-
-    
-
-    协同过滤已成为推荐系统开发的常用方法，其中，根据用户的过去喜好和其他用户的可用偏好信息预测其对新物品的评分。尽管CF方法很受欢迎，但其性能通常受观察到的条目的稀疏性的极大限制。本研究探讨最大边际矩阵分解（MMMF）的数据增广和细化方面，该方法是广泛接受的用于评级预测的CF技术，之前尚未进行研究。我们利用CF算法的固有特性来评估单个评分的置信度，并提出了一种基于自我训练的半监督评级增强方法。我们假设任何CF算法的预测低置信度是由于训练数据的某些不足，因此，通过采用系统的数据增广策略，可以提高算法的性能。
-
-    Collaborative filtering (CF) has become a popular method for developing recommender systems (RS) where ratings of a user for new items is predicted based on her past preferences and available preference information of other users. Despite the popularity of CF-based methods, their performance is often greatly limited by the sparsity of observed entries. In this study, we explore the data augmentation and refinement aspects of Maximum Margin Matrix Factorization (MMMF), a widely accepted CF technique for the rating predictions, which have not been investigated before. We exploit the inherent characteristics of CF algorithms to assess the confidence level of individual ratings and propose a semi-supervised approach for rating augmentation based on self-training. We hypothesize that any CF algorithm's predictions with low confidence are due to some deficiency in the training data and hence, the performance of the algorithm can be improved by adopting a systematic data augmentation strategy
-    
-[^2]: 基于信息丢失约束的大规模公共安全时空数据高效划分方法
-
-    Efficient Partitioning Method of Large-Scale Public Safety Spatio-Temporal Data based on Information Loss Constraints. (arXiv:2306.12857v1 [cs.LG])
-
-    [http://arxiv.org/abs/2306.12857](http://arxiv.org/abs/2306.12857)
-
-    本文提出了一种基于信息丢失约束的大规模公共安全时空数据高效划分方法(IFL-LSTP)，可以显著减小数据规模，同时保持模型的准确性，确保分布式存储的负载平衡，同时保持数据划分的时空接近性。
+    本文提出了一种基于模糊化理论的特征选择技术，利用其可以更加细致地分析网站内容特征，以提高网站内容加密的效率和有效性，从而增强整体互联网的安全性。
 
     
 
-    大规模时空数据的存储、管理和应用在各种实际场景中广泛应用，包括公共安全。然而，由于现实世界数据的独特时空分布特征，大多数现有方法在数据时空接近度和分布式存储负载平衡方面存在限制。因此，本文提出了一种基于信息丢失约束的大规模公共安全时空数据高效划分方法(IFL-LSTP)。该IFL-LSTP模型针对大规模时空点数据，将时空划分模块(STPM)和图划分模块(GPM)相结合。该方法可以显著减小数据规模，同时保持模型的准确性，以提高划分效率。它还可以确保分布式存储的负载平衡，同时保持数据划分的时空接近性。
+    本文提出了一种利用模糊化理论对网站内容进行特征选择进行加密的新方法。我们的目的是通过利用模糊逻辑的原理识别和选择网站中最相关的特征。模糊化允许我们将清晰的网站内容转换为模糊表示，从而更加细致地分析其特征。通过考虑每个特征在不同模糊类别中的成员资格程度，我们可以评估它们在加密中的重要性和相关性。这种方法使我们能够优先关注展示出更高会员资格度的特征，表明它们在加密过程中的重要性。通过采用基于模糊化的特征选择方法，我们旨在提高网站内容加密的效率和有效性，最终改善整体互联网安全性。
 
-    The storage, management, and application of massive spatio-temporal data are widely applied in various practical scenarios, including public safety. However, due to the unique spatio-temporal distribution characteristics of re-al-world data, most existing methods have limitations in terms of the spatio-temporal proximity of data and load balancing in distributed storage. There-fore, this paper proposes an efficient partitioning method of large-scale public safety spatio-temporal data based on information loss constraints (IFL-LSTP). The IFL-LSTP model specifically targets large-scale spatio-temporal point da-ta by combining the spatio-temporal partitioning module (STPM) with the graph partitioning module (GPM). This approach can significantly reduce the scale of data while maintaining the model's accuracy, in order to improve the partitioning efficiency. It can also ensure the load balancing of distributed storage while maintaining spatio-temporal proximity of the data partitioning res
+    We propose a novel approach that utilizes fuzzification theory to perform feature selection on website content for encryption purposes. Our objective is to identify and select the most relevant features from the website by harnessing the principles of fuzzy logic. Fuzzification allows us to transform the crisp website content into fuzzy representations, enabling a more nuanced analysis of their characteristics. By considering the degree of membership of each feature in different fuzzy categories, we can evaluate their importance and relevance for encryption. This approach enables us to prioritize and focus on the features that exhibit higher membership degrees, indicating their significance in the encryption process. By employing fuzzification-based feature selection, we aim to enhance the effectiveness and efficiency of website content encryption, ultimately improving the overall internet security.
     
-[^3]: HypeRS：构建基于超图驱动的集成推荐系统
+[^2]: OptMSM: 用于点击率预测的多场景建模优化
 
-    HypeRS: Building a Hypergraph-driven ensemble Recommender System. (arXiv:2306.12800v1 [cs.IR])
+    OptMSM: Optimizing Multi-Scenario Modeling for Click-Through Rate Prediction. (arXiv:2306.13382v1 [cs.IR])
 
-    [http://arxiv.org/abs/2306.12800](http://arxiv.org/abs/2306.12800)
+    [http://arxiv.org/abs/2306.13382](http://arxiv.org/abs/2306.13382)
 
-    本文提出了一个新的集成推荐系统，将不同模型的预测结果结合成一个超图排名框架，是第一个使用超图排名建模集成推荐系统的。超图可以建模高阶关系。
-
-    
-
-    推荐系统旨在预测用户对物品的偏好。这篇论文提出一种新的集成推荐系统，将不同模型的预测结果结合成一个统一的超图排名框架，这是第一次使用超图排名建模推荐系统的集成。超图是图的一种推广，可以有效地建模高阶关系。我们通过对不同的推荐系统分配不同的超边权重来区分用户和物品之间的实际和预测连接，并在电影、音乐和新闻领域的四个数据集上进行了实验。
-
-    Recommender systems are designed to predict user preferences over collections of items. These systems process users' previous interactions to decide which items should be ranked higher to satisfy their desires. An ensemble recommender system can achieve great recommendation performance by effectively combining the decisions generated by individual models. In this paper, we propose a novel ensemble recommender system that combines predictions made by different models into a unified hypergraph ranking framework. This is the first time that hypergraph ranking has been employed to model an ensemble of recommender systems. Hypergraphs are generalizations of graphs where multiple vertices can be connected via hyperedges, efficiently modeling high-order relations. We differentiate real and predicted connections between users and items by assigning different hyperedge weights to individual recommender systems. We perform experiments using four datasets from the fields of movie, music and news 
-    
-[^4]: 关于生成式检索模型的鲁棒性:基于超出分布视角的研究
-
-    On the Robustness of Generative Retrieval Models: An Out-of-Distribution Perspective. (arXiv:2306.12756v1 [cs.IR])
-
-    [http://arxiv.org/abs/2306.12756](http://arxiv.org/abs/2306.12756)
-
-    本论文研究了生成式检索模型在超出分布（OOD）泛化方面的鲁棒性，定义了从三个方面衡量OOD鲁棒性，并分析了其与密集检索模型的比较。实验结果表明，生成式检索模型的OOD鲁棒性较弱，特别是在面向任务的超出分布场景中更为明显。针对造成鲁棒性较弱的原因，提出了潜在的解决方案。
+    OptMSM提出了一个新的框架来优化多场景点击率预测问题，通过场景低秩矩阵重构和场景共享机制来减少模型参数大小并提高预测性能。
 
     
 
-    最近，生成式检索在信息检索领域日益受到关注，它通过直接生成标识符来检索文档。迄今为止，人们已经付出了很多努力来开发有效的生成式检索模型。然而，在鲁棒性方面却得到的关注较少。当一个新的检索范式进入到真实世界应用中时，衡量超出分布（OOD）泛化也是至关重要的，即生成式检索模型如何泛化到新的分布中。为了回答这个问题，我们首先从检索问题的三个方面定义OOD鲁棒性：1）查询变化；2）未知的查询类型；3）未知任务。基于这个分类法，我们进行实证研究，分析了几个代表性生成式检索模型与密集检索模型在OOD鲁棒性方面的比较。实证结果表明，生成式检索模型的OOD鲁棒性比密集检索模型弱，特别是在面向任务的OOD场景中更明显。我们进一步研究了造成生成式检索模型鲁棒性较弱的原因，并提出了改善它们OOD泛化性能的潜在解决方法。
+    大规模工业推荐平台通常由多个关联场景组成，需要一个统一的点击率（CTR）预测模型来同时为它们提供服务。现有的多场景CTR预测方法通常由两个主要模块组成：i）场景感知学习模块，从输入特征中学习一组具有场景共享和场景特定信息的多功能表示，以及ii）场景特定预测模块，基于这些表示为每个场景提供服务。然而，大多数这些方法主要关注前者，而忽略了后者模块，这可能会导致每个场景的模型参数尺寸增加、训练难度增加以及性能瓶颈的挑战。为解决这些问题，我们提出了一个新的框架，称为OptMSM（\textbf{Opt}imizing \textbf{M}ulti-\textbf{S}cenario \textbf{M}odeling）。首先，我们介绍了一种简化而有效的场景感知学习方法，以避免考虑大多数场景特定预测模块。然后，我们引入场景低秩矩阵重构来减少模型参数大小，并引入一种新的场景共享机制来提高预测性能。
 
-    Recently, we have witnessed generative retrieval increasingly gaining attention in the information retrieval (IR) field, which retrieves documents by directly generating their identifiers. So far, much effort has been devoted to developing effective generative retrieval models. There has been less attention paid to the robustness perspective. When a new retrieval paradigm enters into the real-world application, it is also critical to measure the out-of-distribution (OOD) generalization, i.e., how would generative retrieval models generalize to new distributions. To answer this question, firstly, we define OOD robustness from three perspectives in retrieval problems: 1) The query variations; 2) The unforeseen query types; and 3) The unforeseen tasks. Based on this taxonomy, we conduct empirical studies to analyze the OOD robustness of several representative generative retrieval models against dense retrieval models. The empirical results indicate that the OOD robustness of generative re
+    A large-scale industrial recommendation platform typically consists of multiple associated scenarios, requiring a unified click-through rate (CTR) prediction model to serve them simultaneously. Existing approaches for multi-scenario CTR prediction generally consist of two main modules: i) a scenario-aware learning module that learns a set of multi-functional representations with scenario-shared and scenario-specific information from input features, and ii) a scenario-specific prediction module that serves each scenario based on these representations. However, most of these approaches primarily focus on improving the former module and neglect the latter module. This can result in challenges such as increased model parameter size, training difficulty, and performance bottlenecks for each scenario. To address these issues, we propose a novel framework called OptMSM (\textbf{Opt}imizing \textbf{M}ulti-\textbf{S}cenario \textbf{M}odeling). First, we introduce a simplified yet effective scen
     
-[^5]: 推荐系统的最新发展：综述
+[^3]: 长期数据采集下的智能家居人类活动行为模式识别
 
-    Recent Developments in Recommender Systems: A Survey. (arXiv:2306.12680v1 [cs.IR])
+    Human Activity Behavioural Pattern Recognition in Smarthome with Long-hour Data Collection. (arXiv:2306.13374v1 [cs.HC])
 
-    [http://arxiv.org/abs/2306.12680](http://arxiv.org/abs/2306.12680)
+    [http://arxiv.org/abs/2306.13374](http://arxiv.org/abs/2306.13374)
 
-    本篇综述全面总结了推荐系统领域的最新进展和趋势，包括推荐系统分类，知识推荐系统，鲁棒性，数据偏见和公平性问题，以及评估度量。该研究还提供了未来研究的新方向。
-
-    
-
-    这篇技术综述全面总结了推荐系统领域的最新进展。本研究的目的是提供领域内现状的概述，并强调推荐系统发展的最新趋势。该研究首先全面总结了主要推荐系统分类方法，包括个性化和群组推荐系统，然后深入探讨了基于知识的推荐系统类别。此外，该综述分析了推荐系统中的鲁棒性、数据偏见和公平性问题，并总结了评估度量用于评估这些系统的性能。最后，研究提供了有关推荐系统发展的最新趋势的见解，并强调了未来研究的新方向。
-
-    In this technical survey, we comprehensively summarize the latest advancements in the field of recommender systems. The objective of this study is to provide an overview of the current state-of-the-art in the field and highlight the latest trends in the development of recommender systems. The study starts with a comprehensive summary of the main taxonomy of recommender systems, including personalized and group recommender systems, and then delves into the category of knowledge-based recommender systems. In addition, the survey analyzes the robustness, data bias, and fairness issues in recommender systems, summarizing the evaluation metrics used to assess the performance of these systems. Finally, the study provides insights into the latest trends in the development of recommender systems and highlights the new directions for future research in the field.
-    
-[^6]: 多分布稠密信息检索的资源和评估
-
-    Resources and Evaluations for Multi-Distribution Dense Information Retrieval. (arXiv:2306.12601v1 [cs.IR])
-
-    [http://arxiv.org/abs/2306.12601](http://arxiv.org/abs/2306.12601)
-
-    本文提出了一个新问题——多分布信息检索，并通过三个基准数据集展示了简单方法的有效性，可防止已知领域消耗大部分检索预算，平均提高Recall @ 100点3.8+，最高可达8.0个点。
+    本文提出了一种基于深度学习模型和多种环境传感器结合的混合传感器人类活动识别框架，可识别出更多的活动，有助于推导出人类活动模式或用户画像。
 
     
 
-    我们引入并定义了多分布信息检索（IR）的新问题，即在给定查询的情况下，系统需要从多个集合中检索出段落，每个集合都来自不同的分布。其中一些集合和分布可能在训练时不可用。为了评估多分布检索的方法，我们从现有的单分布数据集设计了三个基准，分别是基于问题回答的数据集和两个基于实体匹配的数据集。我们提出了针对此任务的简单方法，该方法在域之间战略性地分配固定的检索预算（前k个段落），以防已知领域消耗大部分预算。我们展示我们的方法在数据集上导致了平均3.8+和高达8.0个Recall @ 100点的提高，并且在微调不同的基础检索模型时改进是一致的。我们的基准公开可用。
+    人类活动识别的研究为医疗保健、运动和用户画像等许多应用提供了新颖的解决方案。考虑到人类活动的复杂性，即使有有效的传感器仍然具有挑战性。目前使用智能手机传感器进行人类活动识别的现有工作，专注于识别如坐、睡眠、站立、上下楼梯和奔跑等基本的人类活动。然而，分析人类行为模式需要更多的活动。所提出的框架使用深度学习模型识别基本人类活动，同时结合环境传感器（如PIR、压力传感器）和基于智能手机的传感器（如加速度计和陀螺仪）来实现混合传感器人类活动识别。混合方法帮助推导出比基本活动更多的活动，这也有助于推导出人类活动模式或用户画像。用户画像提供了足够的信息。
 
-    We introduce and define the novel problem of multi-distribution information retrieval (IR) where given a query, systems need to retrieve passages from within multiple collections, each drawn from a different distribution. Some of these collections and distributions might not be available at training time. To evaluate methods for multi-distribution retrieval, we design three benchmarks for this task from existing single-distribution datasets, namely, a dataset based on question answering and two based on entity matching. We propose simple methods for this task which allocate the fixed retrieval budget (top-k passages) strategically across domains to prevent the known domains from consuming most of the budget. We show that our methods lead to an average of 3.8+ and up to 8.0 points improvements in Recall@100 across the datasets and that improvements are consistent when fine-tuning different base retrieval models. Our benchmarks are made publicly available.
+    The research on human activity recognition has provided novel solutions to many applications like healthcare, sports, and user profiling. Considering the complex nature of human activities, it is still challenging even after effective and efficient sensors are available. The existing works on human activity recognition using smartphone sensors focus on recognizing basic human activities like sitting, sleeping, standing, stair up and down and running. However, more than these basic activities is needed to analyze human behavioural pattern. The proposed framework recognizes basic human activities using deep learning models. Also, ambient sensors like PIR, pressure sensors, and smartphone-based sensors like accelerometers and gyroscopes are combined to make it hybrid-sensor-based human activity recognition. The hybrid approach helped derive more activities than the basic ones, which also helped derive human activity patterns or user profiling. User profiling provides sufficient informatio
     
-[^7]: ReLoop2: 通过响应式误差补偿循环构建自适应推荐模型
+[^4]: TRECVID 2022 中评估视频检索任务的概述
 
-    ReLoop2: Building Self-Adaptive Recommendation Models via Responsive Error Compensation Loop. (arXiv:2306.08808v2 [cs.IR] UPDATED)
+    An overview on the evaluated video retrieval tasks at TRECVID 2022. (arXiv:2306.13118v1 [cs.AI])
 
-    [http://arxiv.org/abs/2306.08808](http://arxiv.org/abs/2306.08808)
+    [http://arxiv.org/abs/2306.13118](http://arxiv.org/abs/2306.13118)
 
-    本文提出了ReLoop2，一种利用响应式误差补偿循环构建自适应推荐模型的方法，通过错误记忆模块来补偿模型预测误差，实现快速模型适应。
-
-    
-
-    工业推荐系统面临非静态环境下运行的挑战，其中数据分布的转移源于用户行为的演变。为了解决这个挑战，一种常见的方法是使用新观察到的数据定期重新训练或增量更新已部署的深度模型，产生连续的训练过程。然而，神经网络的传统学习范式依赖于小学习率的迭代梯度更新，使得大推荐模型很难适应。本文引入了ReLoop2，一种自我纠正的学习环路，通过响应式误差补偿促进在线推荐系统中的快速模型适应。本文受人类大脑中观察到的慢-快互补学习系统的启发，提出一个错误记忆模块，直接存储来自数据流的错误样本。随后利用这些存储的样本来补偿模型预测误差。
-
-    Industrial recommender systems face the challenge of operating in non-stationary environments, where data distribution shifts arise from evolving user behaviors over time. To tackle this challenge, a common approach is to periodically re-train or incrementally update deployed deep models with newly observed data, resulting in a continual training process. However, the conventional learning paradigm of neural networks relies on iterative gradient-based updates with a small learning rate, making it slow for large recommendation models to adapt. In this paper, we introduce ReLoop2, a self-correcting learning loop that facilitates fast model adaptation in online recommender systems through responsive error compensation. Inspired by the slow-fast complementary learning system observed in human brains, we propose an error memory module that directly stores error samples from incoming data streams. These stored samples are subsequently leveraged to compensate for model prediction errors durin
-    
-[^8]: IGB: 针对公共图形数据集在标记、特征、异质性和大小方面的差距为深度学习研究提供了解决方案
-
-    IGB: Addressing The Gaps In Labeling, Features, Heterogeneity, and Size of Public Graph Datasets for Deep Learning Research. (arXiv:2302.13522v2 [cs.LG] UPDATED)
-
-    [http://arxiv.org/abs/2302.13522](http://arxiv.org/abs/2302.13522)
-
-    IGB是一个研究数据集工具，包含同质和异质性学术图形，规模巨大，并提供工具用于生成不同特性的合成图形，为GNN研究人员提供解决公共图形数据集在标记、特征、异质性和大小方面差距的有价值资源。
+    TRECVID是一种TREC风格的视频分析和检索评估方法，它旨在促进数字视频中基于内容的开发和检索信息。TRECVID 2022计划开展六个任务，有来自世界各地的35个研究组织参加。
 
     
 
-    图形神经网络 (GNNs) 已经展示了对于各种具有挑战性的真实应用的巨大潜力，但 GNN 研究中的一个主要障碍是缺乏大规模灵活的数据集。现有的大部分公共GNN数据集都相对较小，这限制了 GNN 的推广到未知数据的能力。很少有大型的图形数据集提供丰富的标记数据，这使得难以确定 GNN 模型在未知数据上的低准确性是由于训练数据不足还是模型无法推广。此外，训练 GNN 的数据集需要提供灵活性，以便深入研究各种因素对 GNN 模型训练的影响。在这项工作中，我们介绍了伊利诺伊图形基准 (IGB)，这是一个研究数据集工具，开发人员可以使用它来高精度地训练、审查和系统地评估GNN模型。IGB 包括同质和异质性学术图形，规模巨大，并且可以标记和操作，以模拟真实场景。该数据集还包括用于生成具有不同特性的合成图形的工具，使研究人员能够探索各种图形特性对 GNN 的影响。我们相信，伊利诺伊图形基准将为 GNN 研究团体提供有价值的资源，以解决公共图形数据集在标记、特征、异质性和大小方面的差距，以用于深度学习研究。
+    TREC 视频检索评估（TRECVID）是一种 TREC 风格的视频分析和检索评估方法，旨在通过开放、任务驱动的评估和测量来促进数字视频中基于内容的开发和检索信息。多年来，该评估方法已经在如何有效地完成处理和如何可靠地对系统性能进行基准测试方面取得了进展。TRECVID 由美国国家标准技术研究所（NIST）和其他美国政府机构资助，以及来自世界各地的许多组织和个人贡献了重要的时间和精力。 TRECVID 2022计划开展以下六个任务：自适应视频搜索、视频文本字幕、灾难场景描述和索引、扩展视频中的活动、深度视频理解和电影摘要。总共，来自世界各地的35个研究组织报名参加了TRECVID 2022。
 
-    Graph neural networks (GNNs) have shown high potential for a variety of real-world, challenging applications, but one of the major obstacles in GNN research is the lack of large-scale flexible datasets. Most existing public datasets for GNNs are relatively small, which limits the ability of GNNs to generalize to unseen data. The few existing large-scale graph datasets provide very limited labeled data. This makes it difficult to determine if the GNN model's low accuracy for unseen data is inherently due to insufficient training data or if the model failed to generalize. Additionally, datasets used to train GNNs need to offer flexibility to enable a thorough study of the impact of various factors while training GNN models.  In this work, we introduce the Illinois Graph Benchmark (IGB), a research dataset tool that the developers can use to train, scrutinize and systematically evaluate GNN models with high fidelity. IGB includes both homogeneous and heterogeneous academic graphs of enorm
+    The TREC Video Retrieval Evaluation (TRECVID) is a TREC-style video analysis and retrieval evaluation with the goal of promoting progress in research and development of content-based exploitation and retrieval of information from digital video via open, tasks-based evaluation supported by metrology. Over the last twenty-one years this effort has yielded a better understanding of how systems can effectively accomplish such processing and how one can reliably benchmark their performance. TRECVID has been funded by NIST (National Institute of Standards and Technology) and other US government agencies. In addition, many organizations and individuals worldwide contribute significant time and effort. TRECVID 2022 planned for the following six tasks: Ad-hoc video search, Video to text captioning, Disaster scene description and indexing, Activity in extended videos, deep video understanding, and movie summarization. In total, 35 teams from various research organizations worldwide signed up to 
+    
+[^5]: CompMix: 一种异构问答系统的基准测试
+
+    CompMix: A Benchmark for Heterogeneous Question Answering. (arXiv:2306.12235v1 [cs.IR])
+
+    [http://arxiv.org/abs/2306.12235](http://arxiv.org/abs/2306.12235)
+
+    CompMix是一个异构问答系统的基准测试，有多个信息源和复杂意图，旨在提供公平的评估QA系统的能力。
+
+    
+
+    事实为中心的问答系统经常需要访问多种异构信息源。通过共同考虑多个信息源，如知识库、文本收集和来自网络的表格，问答系统可以增强其答案覆盖范围和可信度。然而，现有的 QA 基准测试大多是为了构建单一的知识资源而设计的。这限制了这些基准测试的能力，无法公平地评估可以利用多个信息库的 QA 系统。为了弥补这一差距，我们发布了 CompMix，这是一种由众包问答构建的基准测试，自然地要求集成多种输入源。CompMix 共有 9,410 个问题，并具有多个复杂意图，如连接和时间条件。在 CompMix 上评估一系列 QA 系统强调了进一步研究利用异构信息源的必要性。
+
+    Fact-centric question answering (QA) often requires access to multiple, heterogeneous, information sources. By jointly considering several sources like a knowledge base (KB), a text collection, and tables from the web, QA systems can enhance their answer coverage and confidence. However, existing QA benchmarks are mostly constructed with a single source of knowledge in mind. This limits capabilities of these benchmarks to fairly evaluate QA systems that can tap into more than one information repository. To bridge this gap, we release CompMix, a crowdsourced QA benchmark which naturally demands the integration of a mixture of input sources. CompMix has a total of 9,410 questions, and features several complex intents like joins and temporal conditions. Evaluation of a range of QA systems on CompMix highlights the need for further research on leveraging information from heterogeneous sources.
+    
+[^6]: 基于注意力知识图卷积网络的旅游景点推荐
+
+    Tourist Attractions Recommendation based on Attention Knowledge Graph Convolution Network. (arXiv:2306.10946v1 [cs.IR] CROSS LISTED)
+
+    [http://arxiv.org/abs/2306.10946](http://arxiv.org/abs/2306.10946)
+
+    本文提出了一种基于注意力知识图卷积网络的旅游景点推荐模型，通过自动语义发掘目标景点的相邻实体，根据旅客的喜好选择，预测类似景点的概率，实验中取得良好效果。
+
+    
+
+    基于知识图谱的推荐算法在相对成熟阶段，但在特定领域的推荐仍存在问题。例如在旅游领域，选择适合的旅游景点属性流程作为推荐基础较为复杂。本文提出改进的注意力知识图卷积网络模型(Att-KGCN)，自动语义地发掘目标景点的相邻实体，利用注意力层将相对相似的位置进行聚合，并通过推理旅客喜好选择，预测类似景点的概率作为推荐系统。实验中，采用索科特拉岛-也门的旅游数据，证明了注意力知识图卷积网络在旅游领域的景点推荐效果良好。
+
+    The recommendation algorithm based on knowledge graphs is at a relatively mature stage. However, there are still some problems in the recommendation of specific areas. For example, in the tourism field, selecting suitable tourist attraction attributes process is complicated as the recommendation basis for tourist attractions. In this paper, we propose the improved Attention Knowledge Graph Convolution Network model, named (Att-KGCN), which automatically discovers the neighboring entities of the target scenic spot semantically. The attention layer aggregates relatively similar locations and represents them with an adjacent vector. Then, according to the tourist's preferred choices, the model predicts the probability of similar spots as a recommendation system. A knowledge graph dataset of tourist attractions used based on tourism data on Socotra Island-Yemen. Through experiments, it is verified that the Attention Knowledge Graph Convolution Network has a good effect on the recommendatio
+    
+[^7]: 一份协调加密货币相关社交媒体活动的数据集
+
+    A Dataset of Coordinated Cryptocurrency-Related Social Media Campaigns. (arXiv:2301.06601v2 [cs.HC] UPDATED)
+
+    [http://arxiv.org/abs/2301.06601](http://arxiv.org/abs/2301.06601)
+
+    本文介绍了一份协调加密货币相关社交媒体活动的数据集，其中包含了跨媒体赏金活动的信息、参与者、论坛评论和社交媒体URL。该数据集可以为不同领域的研究提供潜在机遇，并强调了潜在的创新点。
+
+    
+
+    加密资产的普及使得许多新手投资者进入了加密货币领域。这些投资者可以受到他们从社交媒体上接收到的信息的不成比例的影响。本文介绍了一个有关加密货币赏金活动和参与者的数据集。这些活动协调社交媒体活动，创造人为的“炒作”，以影响加密项目代币的价格。该数据集包含从2014年5月到2022年12月期间从BitcoinTalk在线论坛的Bounties(Altcoins)子论坛收集的15.8K个跨媒体赏金活动的信息、185K个参与者、10M条论坛评论和82M个社交媒体URL。我们描述了数据收集和数据处理方法，并对数据集进行了基本特征的描述。此外，我们探讨了该数据集在许多领域内提供的潜在研究机遇，并强调了潜在的创新点。
+
+    The rise in adoption of cryptoassets has brought many new and inexperienced investors in the cryptocurrency space. These investors can be disproportionally influenced by information they receive online, and particularly from social media. This paper presents a dataset of crypto-related bounty events and the users that participate in them. These events coordinate social media campaigns to create artificial "hype" around a crypto project in order to influence the price of its token. The dataset consists of information about 15.8K cross-media bounty events, 185K participants, 10M forum comments and 82M social media URLs collected from the Bounties(Altcoins) subforum of the BitcoinTalk online forum from May 2014 to December 2022. We describe the data collection and the data processing methods employed and we present a basic characterization of the dataset. Furthermore, we discuss potential research opportunities afforded by the dataset across many disciplines and we highlight potential nov
     
 

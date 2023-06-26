@@ -1,0 +1,12 @@
+{
+    "title": "Inferring Hierarchical Structure in Multi-Room Maze Environments. (arXiv:2306.13546v1 [cs.AI])",
+    "abstract": "Cognitive maps play a crucial role in facilitating flexible behaviour by representing spatial and conceptual relationships within an environment. The ability to learn and infer the underlying structure of the environment is crucial for effective exploration and navigation. This paper introduces a hierarchical active inference model addressing the challenge of inferring structure in the world from pixel-based observations. We propose a three-layer hierarchical model consisting of a cognitive map, an allocentric, and an egocentric world model, combining curiosity-driven exploration with goal-oriented behaviour at the different levels of reasoning from context to place to motion. This allows for efficient exploration and goal-directed search in room-structured mini-grid environments.",
+    "link": "http://arxiv.org/abs/2306.13546",
+    "context": "Title: Inferring Hierarchical Structure in Multi-Room Maze Environments. (arXiv:2306.13546v1 [cs.AI])\nAbstract: Cognitive maps play a crucial role in facilitating flexible behaviour by representing spatial and conceptual relationships within an environment. The ability to learn and infer the underlying structure of the environment is crucial for effective exploration and navigation. This paper introduces a hierarchical active inference model addressing the challenge of inferring structure in the world from pixel-based observations. We propose a three-layer hierarchical model consisting of a cognitive map, an allocentric, and an egocentric world model, combining curiosity-driven exploration with goal-oriented behaviour at the different levels of reasoning from context to place to motion. This allows for efficient exploration and goal-directed search in room-structured mini-grid environments.",
+    "path": "papers/23/06/2306.13546.json",
+    "total_tokens": 731,
+    "translated_title": "推断多房间迷宫环境中的分层结构",
+    "translated_abstract": "认知地图通过表示环境中的空间和概念关系在促进灵活行为方面发挥了至关重要的作用。学习和推断环境的基础结构对于有效的探索和导航至关重要。本文提出了一个分层主动推理模型，解决了从基于像素的观察中推断世界结构的挑战。我们提出了一个三层分层模型，包括认知地图、客观中心、自我中心世界模型，在上下文、地点到运动的不同推理层面结合了好奇心驱动的探索和目的驱动的行为。这允许在房间结构化的小网格环境中进行有效的探索和目标导向搜索。",
+    "tldr": "本文提出了一个分层主动推理模型，在多房间迷宫环境中推断出世界结构，有效实现探索和导航，提高了搜索效率。",
+    "en_tdlr": "This paper proposes a hierarchical active inference model to infer the structure of the world from pixel-based observations in multi-room maze environments, allowing for efficient exploration and goal-directed search."
+}

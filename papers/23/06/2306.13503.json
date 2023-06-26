@@ -1,0 +1,12 @@
+{
+    "title": "Two derivations of Principal Component Analysis on datasets of distributions. (arXiv:2306.13503v1 [stat.ML])",
+    "abstract": "In this brief note, we formulate Principal Component Analysis (PCA) over datasets consisting not of points but of distributions, characterized by their location and covariance. Just like the usual PCA on points can be equivalently derived via a variance-maximization principle and via a minimization of reconstruction error, we derive a closed-form solution for distributional PCA from both of these perspectives.",
+    "link": "http://arxiv.org/abs/2306.13503",
+    "context": "Title: Two derivations of Principal Component Analysis on datasets of distributions. (arXiv:2306.13503v1 [stat.ML])\nAbstract: In this brief note, we formulate Principal Component Analysis (PCA) over datasets consisting not of points but of distributions, characterized by their location and covariance. Just like the usual PCA on points can be equivalently derived via a variance-maximization principle and via a minimization of reconstruction error, we derive a closed-form solution for distributional PCA from both of these perspectives.",
+    "path": "papers/23/06/2306.13503.json",
+    "total_tokens": 546,
+    "translated_title": "基于分布数据集的主成分分析的两种推导方法",
+    "translated_abstract": "在本短文中，我们将主成分分析（PCA）应用于由其位置和协方差刻画的分布数据集，而非点数据集。与点数据集上的常规PCA可以等效地通过方差最大化原理和重构error最小化两种方法推导出一样，我们从这两个方面推导出了分布PCA的闭合解。",
+    "tldr": "本篇论文提出了一个新的方法来进行基于分布的主成分分析，通过方差最大化原理和重构误差最小化两种方法推导得闭合解。",
+    "en_tdlr": "This paper proposes a new method for conducting distribution-based principal component analysis and derives a closed-form solution from both the variance maximization principle and the minimization of reconstruction error."
+}

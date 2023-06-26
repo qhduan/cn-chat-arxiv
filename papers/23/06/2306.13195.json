@@ -1,0 +1,12 @@
+{
+    "title": "Prompt to GPT-3: Step-by-Step Thinking Instructions for Humor Generation. (arXiv:2306.13195v1 [cs.CL])",
+    "abstract": "Artificial intelligence has made significant progress in natural language processing, with models like GPT-3 demonstrating impressive capabilities. However, these models still have limitations when it comes to complex tasks that require an understanding of the user, such as mastering human comedy writing strategies. This paper explores humor generation using GPT-3 by modeling human comedy writing theory and leveraging step-by-step thinking instructions. In addition, we explore the role of cognitive distance in creating humor.",
+    "link": "http://arxiv.org/abs/2306.13195",
+    "context": "Title: Prompt to GPT-3: Step-by-Step Thinking Instructions for Humor Generation. (arXiv:2306.13195v1 [cs.CL])\nAbstract: Artificial intelligence has made significant progress in natural language processing, with models like GPT-3 demonstrating impressive capabilities. However, these models still have limitations when it comes to complex tasks that require an understanding of the user, such as mastering human comedy writing strategies. This paper explores humor generation using GPT-3 by modeling human comedy writing theory and leveraging step-by-step thinking instructions. In addition, we explore the role of cognitive distance in creating humor.",
+    "path": "papers/23/06/2306.13195.json",
+    "total_tokens": 635,
+    "translated_title": "GPT-3中幽默生成的逐步思维指导",
+    "translated_abstract": "人工智能在自然语言处理方面取得了重大进展，像GPT-3这样的模型展示了令人印象深刻的能力。但是，当涉及到需要理解用户的复杂任务时，这些模型仍然存在局限性，比如掌握人类喜剧写作策略。本文通过建模人类喜剧写作理论和利用逐步思维指导来探讨使用GPT-3进行幽默生成。此外，我们还探讨了创造幽默的认知距离的作用。",
+    "tldr": "本文探讨了如何在GPT-3上实现幽默生成，使用了逐步思维指导的方法，同时探讨了创造幽默的认知距离的作用。",
+    "en_tdlr": "This paper explores humor generation using GPT-3 by leveraging step-by-step thinking instructions and discussing the role of cognitive distance in creating humor."
+}

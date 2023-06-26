@@ -1,0 +1,12 @@
+{
+    "title": "Uniform Convergence with Square-Root Lipschitz Loss. (arXiv:2306.13188v1 [stat.ML])",
+    "abstract": "We establish generic uniform convergence guarantees for Gaussian data in terms of the Rademacher complexity of the hypothesis class and the Lipschitz constant of the square root of the scalar loss function. We show how these guarantees substantially generalize previous results based on smoothness (Lipschitz constant of the derivative), and allow us to handle the broader class of square-root-Lipschitz losses, which includes also non-smooth loss functions appropriate for studying phase retrieval and ReLU regression, as well as rederive and better understand \"optimistic rate\" and interpolation learning guarantees.",
+    "link": "http://arxiv.org/abs/2306.13188",
+    "context": "Title: Uniform Convergence with Square-Root Lipschitz Loss. (arXiv:2306.13188v1 [stat.ML])\nAbstract: We establish generic uniform convergence guarantees for Gaussian data in terms of the Rademacher complexity of the hypothesis class and the Lipschitz constant of the square root of the scalar loss function. We show how these guarantees substantially generalize previous results based on smoothness (Lipschitz constant of the derivative), and allow us to handle the broader class of square-root-Lipschitz losses, which includes also non-smooth loss functions appropriate for studying phase retrieval and ReLU regression, as well as rederive and better understand \"optimistic rate\" and interpolation learning guarantees.",
+    "path": "papers/23/06/2306.13188.json",
+    "total_tokens": 716,
+    "translated_title": "平方根Lipschitz损失的一致收敛性",
+    "translated_abstract": "我们通过假设类的Rademacher复杂度和标量损失函数的平方根的Lipschitz常数，在高斯数据方面建立了一般的一致收敛性保证。我们展示了这些保证如何大大概括了基于平滑性(导数的Lipschitz常数)的先前结果，并使我们能够处理更广泛的平方根Lipschitz损失类别，其中包括适用于研究相位恢复和ReLU回归的非平滑损失函数，以及重新推导和更好地理解“乐观率”的学习保证和插值。",
+    "tldr": "该论文通过平方根Lipschitz损失的一致收敛性，对一般的高斯数据建立了保证，允许处理广泛的损失类别，并重新推导和更好地理解“乐观率”的学习保证和插值。",
+    "en_tdlr": "This paper establishes a general uniform convergence guarantee for Gaussian data through the uniform convergence with square-root Lipschitz loss, which allows for the handling of a wider range of loss categories, and re-derives and better understands the \"optimistic rate\" and interpolation learning guarantees."
+}

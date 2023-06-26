@@ -1,0 +1,11 @@
+{
+    "title": "A Machine Learning Pressure Emulator for Hydrogen Embrittlement. (arXiv:2306.13116v1 [cs.LG])",
+    "abstract": "A recent alternative for hydrogen transportation as a mixture with natural gas is blending it into natural gas pipelines. However, hydrogen embrittlement of material is a major concern for scientists and gas installation designers to avoid process failures. In this paper, we propose a physics-informed machine learning model to predict the gas pressure on the pipes' inner wall. Despite its high-fidelity results, the current PDE-based simulators are time- and computationally-demanding. Using simulation data, we train an ML model to predict the pressure on the pipelines' inner walls, which is a first step for pipeline system surveillance. We found that the physics-based method outperformed the purely data-driven method and satisfy the physical constraints of the gas flow system.",
+    "link": "http://arxiv.org/abs/2306.13116",
+    "context": "Title: A Machine Learning Pressure Emulator for Hydrogen Embrittlement. (arXiv:2306.13116v1 [cs.LG])\nAbstract: A recent alternative for hydrogen transportation as a mixture with natural gas is blending it into natural gas pipelines. However, hydrogen embrittlement of material is a major concern for scientists and gas installation designers to avoid process failures. In this paper, we propose a physics-informed machine learning model to predict the gas pressure on the pipes' inner wall. Despite its high-fidelity results, the current PDE-based simulators are time- and computationally-demanding. Using simulation data, we train an ML model to predict the pressure on the pipelines' inner walls, which is a first step for pipeline system surveillance. We found that the physics-based method outperformed the purely data-driven method and satisfy the physical constraints of the gas flow system.",
+    "path": "papers/23/06/2306.13116.json",
+    "total_tokens": 800,
+    "translated_title": "一种用于氢脆的机器学习压力仿真器",
+    "translated_abstract": "将氢与天然气混合后作为氢的替代品被用于氢运输。但是，物质的氢脆性是科学家和天然气安装设计师需要避免的一个主要问题，以避免处理中的失效。本文提出了一种物理信息的机器学习模型，用于预测管道内壁的气体压力。尽管具有高保真度的结果，但目前的基于偏微分方程(PDE)的模拟器需要耗费大量时间和计算资源。使用模拟数据，我们训练了一个ML模型，用于预测管道内壁的压力，这是管道系统监控的第一步。我们发现基于物理的方法优于纯数据驱动的方法，并满足气流系统的物理限制。",
+    "tldr": "本文提出了一种物理信息的机器学习模型，用于预测管道内壁的气体压力，为管道系统监控提供了第一步。该方法具有较高保真度且优于纯数据驱动的方法。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Amorphous Fortress: Observing Emergent Behavior in Multi-Agent FSMs. (arXiv:2306.13169v1 [cs.AI])",
+    "abstract": "We introduce a system called Amorphous Fortress -- an abstract, yet spatial, open-ended artificial life simulation. In this environment, the agents are represented as finite-state machines (FSMs) which allow for multi-agent interaction within a constrained space. These agents are created by randomly generating and evolving the FSMs; sampling from pre-defined states and transitions. This environment was designed to explore the emergent AI behaviors found implicitly in simulation games such as Dwarf Fortress or The Sims. We apply the hill-climber evolutionary search algorithm to this environment to explore the various levels of depth and interaction from the generated FSMs.",
+    "link": "http://arxiv.org/abs/2306.13169",
+    "context": "Title: Amorphous Fortress: Observing Emergent Behavior in Multi-Agent FSMs. (arXiv:2306.13169v1 [cs.AI])\nAbstract: We introduce a system called Amorphous Fortress -- an abstract, yet spatial, open-ended artificial life simulation. In this environment, the agents are represented as finite-state machines (FSMs) which allow for multi-agent interaction within a constrained space. These agents are created by randomly generating and evolving the FSMs; sampling from pre-defined states and transitions. This environment was designed to explore the emergent AI behaviors found implicitly in simulation games such as Dwarf Fortress or The Sims. We apply the hill-climber evolutionary search algorithm to this environment to explore the various levels of depth and interaction from the generated FSMs.",
+    "path": "papers/23/06/2306.13169.json",
+    "total_tokens": 735,
+    "translated_title": "非晶堡垒：多智能体FSMs中观察出的 emergent 行为",
+    "translated_abstract": "我们介绍了一个名为Amorphous Fortress的系统——一个抽象但是具有空间的开放式人工生命模拟系统。在这个环境中，代理被表示为有限状态机（FSMs），它们可以在有限的空间内进行多智能体交互。这些代理是通过随机生成和演化FSMs来创建的，从预定义的状态和转移中进行抽样。该环境旨在探索在 Dwarf Fortress 或 The Sims 等模拟游戏中隐含的 emergent AI 行为。我们将山丘爬行者进化搜索算法应用于该环境中，探索从生成的FSMs中得到的各种深度和交互水平。",
+    "tldr": "介绍了一个名为Amorphous Fortress的系统，在这个系统中，通过 FSMS 实现了多智能体交互，并应用进化搜索算法，探索了隐含在文件中的 Emergent AI 行为。",
+    "en_tdlr": "The paper introduces a system called Amorphous Fortress, which allows for multi-agent interaction through finite-state machines (FSMs). The hill-climber evolutionary search algorithm is applied to explore the implicit emergent AI behaviors in simulation games such as Dwarf Fortress or The Sims."
+}

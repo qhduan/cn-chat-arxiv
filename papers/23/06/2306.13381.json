@@ -1,0 +1,12 @@
+{
+    "title": "Co-creating a globally interpretable model with human input. (arXiv:2306.13381v1 [cs.HC])",
+    "abstract": "We consider an aggregated human-AI collaboration aimed at generating a joint interpretable model. The model takes the form of Boolean decision rules, where human input is provided in the form of logical conditions or as partial templates. This focus on the combined construction of a model offers a different perspective on joint decision making. Previous efforts have typically focused on aggregating outcomes rather than decisions logic. We demonstrate the proposed approach through two examples and highlight the usefulness and challenges of the approach.",
+    "link": "http://arxiv.org/abs/2306.13381",
+    "context": "Title: Co-creating a globally interpretable model with human input. (arXiv:2306.13381v1 [cs.HC])\nAbstract: We consider an aggregated human-AI collaboration aimed at generating a joint interpretable model. The model takes the form of Boolean decision rules, where human input is provided in the form of logical conditions or as partial templates. This focus on the combined construction of a model offers a different perspective on joint decision making. Previous efforts have typically focused on aggregating outcomes rather than decisions logic. We demonstrate the proposed approach through two examples and highlight the usefulness and challenges of the approach.",
+    "path": "papers/23/06/2306.13381.json",
+    "total_tokens": 620,
+    "translated_title": "与人类合作共创全球可解释模型",
+    "translated_abstract": "我们考虑了一个人工智能和人类协作的合作模式，旨在生成一个联合可解释模型。该模型采用布尔决策规则的形式，人类输入以逻辑条件或部分模板的形式提供。这种聚合的模型构建方式提供了一个不同的联合决策视角。以往的努力通常集中于聚合结果而不是决策逻辑。我们通过两个例子演示了所提出的方法，并强调了这种方法的有用性和挑战。",
+    "tldr": "该论文阐述了一种人工智能与人类协作共创联合可解释模型的方法，强调了该方法的可行性和挑战。",
+    "en_tdlr": "This paper presents a collaborative approach between human input and AI to create an interpretable joint model in the form of Boolean decision rules, and highlights the feasibility and challenges of this approach."
+}

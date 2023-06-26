@@ -1,0 +1,12 @@
+{
+    "title": "Physics-constrained Random Forests for Turbulence Model Uncertainty Estimation. (arXiv:2306.13370v1 [cs.LG])",
+    "abstract": "To achieve virtual certification for industrial design, quantifying the uncertainties in simulation-driven processes is crucial. We discuss a physics-constrained approach to account for epistemic uncertainty of turbulence models. In order to eliminate user input, we incorporate a data-driven machine learning strategy. In addition to it, our study focuses on developing an a priori estimation of prediction confidence when accurate data is scarce.",
+    "link": "http://arxiv.org/abs/2306.13370",
+    "context": "Title: Physics-constrained Random Forests for Turbulence Model Uncertainty Estimation. (arXiv:2306.13370v1 [cs.LG])\nAbstract: To achieve virtual certification for industrial design, quantifying the uncertainties in simulation-driven processes is crucial. We discuss a physics-constrained approach to account for epistemic uncertainty of turbulence models. In order to eliminate user input, we incorporate a data-driven machine learning strategy. In addition to it, our study focuses on developing an a priori estimation of prediction confidence when accurate data is scarce.",
+    "path": "papers/23/06/2306.13370.json",
+    "total_tokens": 607,
+    "translated_title": "物理约束的随机森林用于湍流模型不确定性估计",
+    "translated_abstract": "在实现工业设计的虚拟认证过程中，对于模拟驱动过程中不确定性的量化是至关重要的。本文讨论了一种物理约束方法来考虑湍流模型的认识不确定性。为了消除用户输入，我们结合了数据驱动的机器学习策略。此外，我们的研究重点是在准确数据稀缺时开发先验估计预测置信度。",
+    "tldr": "本文提出了一种物理约束的机器学习方法，用于考虑湍流模型的认识不确定性，同时在准确数据稀缺时能够实现前置的预测置信度估计。",
+    "en_tdlr": "This paper proposes a physics-constrained machine learning method to consider the epistemic uncertainty of turbulence models, and can achieve a priori prediction confidence estimation when accurate data is scarce."
+}

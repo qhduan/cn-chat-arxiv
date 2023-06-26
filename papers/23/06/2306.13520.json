@@ -1,0 +1,12 @@
+{
+    "title": "On the Convergence Rate of Gaussianization with Random Rotations. (arXiv:2306.13520v1 [cs.LG])",
+    "abstract": "Gaussianization is a simple generative model that can be trained without backpropagation. It has shown compelling performance on low dimensional data. As the dimension increases, however, it has been observed that the convergence speed slows down. We show analytically that the number of required layers scales linearly with the dimension for Gaussian input. We argue that this is because the model is unable to capture dependencies between dimensions. Empirically, we find the same linear increase in cost for arbitrary input $p(x)$, but observe favorable scaling for some distributions. We explore potential speed-ups and formulate challenges for further research.",
+    "link": "http://arxiv.org/abs/2306.13520",
+    "context": "Title: On the Convergence Rate of Gaussianization with Random Rotations. (arXiv:2306.13520v1 [cs.LG])\nAbstract: Gaussianization is a simple generative model that can be trained without backpropagation. It has shown compelling performance on low dimensional data. As the dimension increases, however, it has been observed that the convergence speed slows down. We show analytically that the number of required layers scales linearly with the dimension for Gaussian input. We argue that this is because the model is unable to capture dependencies between dimensions. Empirically, we find the same linear increase in cost for arbitrary input $p(x)$, but observe favorable scaling for some distributions. We explore potential speed-ups and formulate challenges for further research.",
+    "path": "papers/23/06/2306.13520.json",
+    "total_tokens": 642,
+    "translated_title": "关于随机旋转高斯化的收敛速度。",
+    "translated_abstract": "高斯化是一种简单的生成模型，可以在没有反向传播的情况下进行训练。它在低维数据上表现出了强大的性能。然而，随着维度的增加，观察到其收敛速度变慢。我们从理论上证明，对于高斯输入，所需的层数与维数成线性关系。我们认为这是因为该模型无法捕捉维之间的相关性。",
+    "tldr": "该论文通过理论推导和实验验证，发现高斯化模型的收敛速度对于维数增加呈现出线性关系，原因是模型无法捕捉维之间的相关性。",
+    "en_tdlr": "This paper shows analytically and empirically that the convergence rate of Gaussianization is linearly related to the dimension of the input, as the model is unable to capture dependencies between dimensions."
+}

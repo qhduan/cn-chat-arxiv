@@ -1,0 +1,12 @@
+{
+    "title": "An Agnostic View on the Cost of Overfitting in (Kernel) Ridge Regression. (arXiv:2306.13185v1 [stat.ML])",
+    "abstract": "We study the cost of overfitting in noisy kernel ridge regression (KRR), which we define as the ratio between the test error of the interpolating ridgeless model and the test error of the optimally-tuned model. We take an \"agnostic\" view in the following sense: we consider the cost as a function of sample size for any target function, even if the sample size is not large enough for consistency or the target is outside the RKHS. We analyze the cost of overfitting under a Gaussian universality ansatz using recently derived (non-rigorous) risk estimates in terms of the task eigenstructure. Our analysis provides a more refined characterization of benign, tempered and catastrophic overfitting (qv Mallinar et al. 2022).",
+    "link": "http://arxiv.org/abs/2306.13185",
+    "context": "Title: An Agnostic View on the Cost of Overfitting in (Kernel) Ridge Regression. (arXiv:2306.13185v1 [stat.ML])\nAbstract: We study the cost of overfitting in noisy kernel ridge regression (KRR), which we define as the ratio between the test error of the interpolating ridgeless model and the test error of the optimally-tuned model. We take an \"agnostic\" view in the following sense: we consider the cost as a function of sample size for any target function, even if the sample size is not large enough for consistency or the target is outside the RKHS. We analyze the cost of overfitting under a Gaussian universality ansatz using recently derived (non-rigorous) risk estimates in terms of the task eigenstructure. Our analysis provides a more refined characterization of benign, tempered and catastrophic overfitting (qv Mallinar et al. 2022).",
+    "path": "papers/23/06/2306.13185.json",
+    "total_tokens": 809,
+    "translated_title": "(核) 岭回归中过度拟合成本的不可知观察",
+    "translated_abstract": "本研究研究了有噪声的核岭回归 (KRR) 中过拟合的成本，我们将其定义为插值无岭模型的测试误差与最优调节模型的测试误差之比。我们采用“不可知”的观点，即对于任何目标函数，即使样本量不足以达到一致性或目标函数不在 RKHS 中，我们也将成本看作样本量的函数。使用最近推导出的（非严格的）风险评估，以任务特征结构为基础，利用高斯普适性假设分析过度拟合成本。我们的分析提供了良性、缓和和灾难性过度拟合（参见 Mallinar 等人 2022）的更精细的表征。",
+    "tldr": "本文研究了核岭回归中过拟合成本，采用“不可知”的观点，以分析样本量和任务特征结构对成本的影响。通过分析提供了更细致的过度拟合表征。",
+    "en_tdlr": "This paper studies the cost of overfitting in kernel ridge regression with a focus on the impact of sample size and task eigenstructure. The analysis utilizes an agnostic perspective and provides a refined characterization of different types of overfitting."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Open-Ended Multi-Modal Relational Reasoning for Video Question Answering. (arXiv:2012.00822v3 [cs.AI] UPDATED)",
+    "abstract": "In this paper, we introduce a robotic agent specifically designed to analyze external environments and address participants' questions. The primary focus of this agent is to assist individuals using language-based interactions within video-based scenes. Our proposed method integrates video recognition technology and natural language processing models within the robotic agent. We investigate the crucial factors affecting human-robot interactions by examining pertinent issues arising between participants and robot agents. Methodologically, our experimental findings reveal a positive relationship between trust and interaction efficiency. Furthermore, our model demonstrates a 2\\% to 3\\% performance enhancement in comparison to other benchmark methods.",
+    "link": "http://arxiv.org/abs/2012.00822",
+    "context": "Title: Open-Ended Multi-Modal Relational Reasoning for Video Question Answering. (arXiv:2012.00822v3 [cs.AI] UPDATED)\nAbstract: In this paper, we introduce a robotic agent specifically designed to analyze external environments and address participants' questions. The primary focus of this agent is to assist individuals using language-based interactions within video-based scenes. Our proposed method integrates video recognition technology and natural language processing models within the robotic agent. We investigate the crucial factors affecting human-robot interactions by examining pertinent issues arising between participants and robot agents. Methodologically, our experimental findings reveal a positive relationship between trust and interaction efficiency. Furthermore, our model demonstrates a 2\\% to 3\\% performance enhancement in comparison to other benchmark methods.",
+    "path": "papers/20/12/2012.00822.json",
+    "total_tokens": 696,
+    "translated_title": "开放式多模态关系推理用于视频问答",
+    "translated_abstract": "本文介绍了一个特别设计的机器人代理，用于分析外部环境并回答参与者的问题。该代理的主要重点是在基于视频场景的语言交互中协助个人。我们提出的方法将视频识别技术和自然语言处理模型整合到机器人代理中。我们通过研究参与者和机器人代理之间出现的相关问题，探讨影响人机交互的关键因素。在方法上，我们的实验结果显示，信任和交互效率之间存在积极的关系。此外，与其他基准方法相比，我们的模型表现出2%至3%的性能提升。",
+    "tldr": "本文介绍了一个使用开放式多模态关系推理的机器人代理，可以通过语言交互回答视频场景中的问题，并在实验中展示了较好的表现。",
+    "en_tdlr": "This paper presents a robotic agent that uses open-ended multi-modal relational reasoning to answer questions in video-based scenes through language interactions, and demonstrates better performance compared to other benchmark methods in experiments."
+}

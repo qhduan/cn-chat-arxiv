@@ -1,0 +1,12 @@
+{
+    "title": "NetBooster: Empowering Tiny Deep Learning By Standing on the Shoulders of Deep Giants. (arXiv:2306.13586v1 [cs.LG])",
+    "abstract": "Tiny deep learning has attracted increasing attention driven by the substantial demand for deploying deep learning on numerous intelligent Internet-of-Things devices. However, it is still challenging to unleash tiny deep learning's full potential on both large-scale datasets and downstream tasks due to the under-fitting issues caused by the limited model capacity of tiny neural networks (TNNs). To this end, we propose a framework called NetBooster to empower tiny deep learning by augmenting the architectures of TNNs via an expansion-then-contraction strategy. Extensive experiments show that NetBooster consistently outperforms state-of-the-art tiny deep learning solutions.",
+    "link": "http://arxiv.org/abs/2306.13586",
+    "context": "Title: NetBooster: Empowering Tiny Deep Learning By Standing on the Shoulders of Deep Giants. (arXiv:2306.13586v1 [cs.LG])\nAbstract: Tiny deep learning has attracted increasing attention driven by the substantial demand for deploying deep learning on numerous intelligent Internet-of-Things devices. However, it is still challenging to unleash tiny deep learning's full potential on both large-scale datasets and downstream tasks due to the under-fitting issues caused by the limited model capacity of tiny neural networks (TNNs). To this end, we propose a framework called NetBooster to empower tiny deep learning by augmenting the architectures of TNNs via an expansion-then-contraction strategy. Extensive experiments show that NetBooster consistently outperforms state-of-the-art tiny deep learning solutions.",
+    "path": "papers/23/06/2306.13586.json",
+    "total_tokens": 754,
+    "translated_title": "NetBooster：站在深度巨人的肩膀上，赋能微小深度学习",
+    "translated_abstract": "微小深度学习因在众多物联网设备上部署深度学习的巨大需求而备受关注。然而，由于微小神经网络（TNNs）的有限模型容量，使得在大规模数据集和下游任务上释放微小深度学习的全部潜力仍然具有挑战性，因为此会引起欠拟合问题。为此，我们提出了一种名为NetBooster的框架，通过一种扩展，然后缩小的策略，增强TNN的架构，从而赋能微小深度学习。大量实验表明，NetBooster始终优于最先进的微小深度学习解决方案。",
+    "tldr": "NetBooster是一种增强微小神经网络架构的框架，旨在赋能微小深度学习，实验证明其优于现有的微小深度学习解决方案。",
+    "en_tdlr": "NetBooster is a framework that enhances the architecture of tiny neural networks (TNNs) via an expansion-then-contraction strategy, aiming to empower tiny deep learning. Experiments show that it outperforms existing solutions for tiny deep learning."
+}

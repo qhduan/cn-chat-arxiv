@@ -1,0 +1,12 @@
+{
+    "title": "Stress Testing BERT Anaphora Resolution Models for Reaction Extraction in Chemical Patents. (arXiv:2306.13379v1 [cs.CL])",
+    "abstract": "The high volume of published chemical patents and the importance of a timely acquisition of their information gives rise to automating information extraction from chemical patents. Anaphora resolution is an important component of comprehensive information extraction, and is critical for extracting reactions. In chemical patents, there are five anaphoric relations of interest: co-reference, transformed, reaction associated, work up, and contained. Our goal is to investigate how the performance of anaphora resolution models for reaction texts in chemical patents differs in a noise-free and noisy environment and to what extent we can improve the robustness against noise of the model.",
+    "link": "http://arxiv.org/abs/2306.13379",
+    "context": "Title: Stress Testing BERT Anaphora Resolution Models for Reaction Extraction in Chemical Patents. (arXiv:2306.13379v1 [cs.CL])\nAbstract: The high volume of published chemical patents and the importance of a timely acquisition of their information gives rise to automating information extraction from chemical patents. Anaphora resolution is an important component of comprehensive information extraction, and is critical for extracting reactions. In chemical patents, there are five anaphoric relations of interest: co-reference, transformed, reaction associated, work up, and contained. Our goal is to investigate how the performance of anaphora resolution models for reaction texts in chemical patents differs in a noise-free and noisy environment and to what extent we can improve the robustness against noise of the model.",
+    "path": "papers/23/06/2306.13379.json",
+    "total_tokens": 701,
+    "translated_title": "压力测试BERT在化学专利中的回应提取中的指代消解模型",
+    "translated_abstract": "大量的化学专利出版物和及时获取其信息的重要性促使自动化从化学专利中提取信息。 指代消解是综合信息提取的重要组成部分，对于提取反应至关重要。 在化学专利中，存在五种感兴趣的指代关系：共指，转换，反应相关，处理和包含。 我们的目标是研究指代消解模型在无噪声和有噪声环境中用于化学专利中反应文本的性能差异，并在多大程度上可以提高模型对噪声的鲁棒性。",
+    "tldr": "该论文通过在化学专利中进行压力测试研究了指代消解模型在无噪声和有噪声环境中的性能差异，旨在提高其对噪声的鲁棒性。",
+    "en_tdlr": "This paper investigates the performance difference of anaphora resolution models for reaction texts in chemical patents in noise-free and noisy environments, and aims to improve their robustness against noise through stress testing."
+}

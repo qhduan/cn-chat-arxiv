@@ -1,0 +1,12 @@
+{
+    "title": "Consumption Partial Insurance in the Presence of Tail Income Risk. (arXiv:2306.13208v1 [econ.GN])",
+    "abstract": "We measure the extent of consumption insurance to income shocks accounting for high-order moments of the income distribution. We derive a nonlinear consumption function, in which the extent of insurance varies with the sign and magnitude of income shocks. Using PSID data, we estimate an asymmetric pass-through of bad versus good permanent shocks -- 17% of a 3 sigma negative shock transmits to consumption compared to 9% of an equal-sized positive shock -- and the pass-through increases as the shock worsens. Our results are consistent with surveys of consumption responses to hypothetical events and suggest that tail income risk matters substantially for consumption.",
+    "link": "http://arxiv.org/abs/2306.13208",
+    "context": "Title: Consumption Partial Insurance in the Presence of Tail Income Risk. (arXiv:2306.13208v1 [econ.GN])\nAbstract: We measure the extent of consumption insurance to income shocks accounting for high-order moments of the income distribution. We derive a nonlinear consumption function, in which the extent of insurance varies with the sign and magnitude of income shocks. Using PSID data, we estimate an asymmetric pass-through of bad versus good permanent shocks -- 17% of a 3 sigma negative shock transmits to consumption compared to 9% of an equal-sized positive shock -- and the pass-through increases as the shock worsens. Our results are consistent with surveys of consumption responses to hypothetical events and suggest that tail income risk matters substantially for consumption.",
+    "path": "papers/23/06/2306.13208.json",
+    "total_tokens": 736,
+    "translated_title": "在尾部收入风险的存在下，消费部分保险",
+    "translated_abstract": "我们通过考虑收入分布高阶矩的影响，衡量了收入冲击对消费保险的影响程度。我们导出了一个非线性消费函数，其中保险程度随着收入冲击的符号和大小而变化。利用PSID数据，我们估计了坏的相对于好的永久性冲击的非对称传导率-- 3 sigma负冲击的的17%传导到消费，而相同大小的正冲击只有9%传导到消费-- 随着冲击恶化，传导率增加。我们的结果与对假想事件消费反应的调查一致，并表明尾部收入风险对消费具有重要影响。",
+    "tldr": "该研究测量了收入冲击对消费保险的影响程度，证实尾部收入风险对消费具有重要影响，收入负面冲击对消费的传导率大于正面冲击。",
+    "en_tdlr": "This study measures the impact of income shocks on consumption insurance, confirms that tail income risk has an important impact on consumption, and finds that the pass-through of negative income shocks to consumption is greater than that of positive shocks."
+}

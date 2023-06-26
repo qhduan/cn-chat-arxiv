@@ -1,0 +1,12 @@
+{
+    "title": "Design of the Artificial: lessons from the biological roots of general intelligence. (arXiv:1703.02245v3 [cs.AI] UPDATED)",
+    "abstract": "Our fascination with intelligent machines goes back to ancient times with the mythical automaton Talos, Aristotle's mode of mechanical thought (syllogism) and Heron of Alexandria's mechanical machines. However, the quest for Artificial General Intelligence (AGI) has been troubled with repeated failures. Recently, there has been a shift towards bio-inspired software and hardware, but their singular design focus makes them inefficient in achieving AGI. Which set of requirements have to be met in the design of AGI? What are the limits in the design of the artificial? A careful examination of computation in biological systems suggests that evolutionary tinkering of contextual processing of information enabled by a hierarchical architecture is key to building AGI.",
+    "link": "http://arxiv.org/abs/1703.02245",
+    "context": "Title: Design of the Artificial: lessons from the biological roots of general intelligence. (arXiv:1703.02245v3 [cs.AI] UPDATED)\nAbstract: Our fascination with intelligent machines goes back to ancient times with the mythical automaton Talos, Aristotle's mode of mechanical thought (syllogism) and Heron of Alexandria's mechanical machines. However, the quest for Artificial General Intelligence (AGI) has been troubled with repeated failures. Recently, there has been a shift towards bio-inspired software and hardware, but their singular design focus makes them inefficient in achieving AGI. Which set of requirements have to be met in the design of AGI? What are the limits in the design of the artificial? A careful examination of computation in biological systems suggests that evolutionary tinkering of contextual processing of information enabled by a hierarchical architecture is key to building AGI.",
+    "path": "papers/17/03/1703.02245.json",
+    "total_tokens": 712,
+    "translated_title": "人工设计：从普适智能的生物根源中汲取的教训。",
+    "translated_abstract": "我们对智能机器的迷恋可以追溯到古代时期，神话人物塔洛斯、亚里士多德的机械思想和亚历山大的机械机器。然而，追求人工普适智能（AGI）的探索一直备受挫折。近年来，出现了向生物启发式软件和硬件的转变，但它们单一的设计重心使得其在实现AGI上效率低下。AGI的设计需要满足哪些要求？人工设计的限制是什么？对生物系统计算的仔细审查表明，通过分层架构实现的信息的上下文处理的进化调整是构建AGI的关键。",
+    "tldr": "生物系统上下文处理的进化调整通过分层架构实现的信息是构建AGI的关键。",
+    "en_tdlr": "Evolutionary tinkering of contextual processing of information enabled by a hierarchical architecture in biological systems is key to building AGI."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Optimizing Agent Collaboration through Heuristic Multi-Agent Planning. (arXiv:2301.01246v3 [cs.AI] UPDATED)",
+    "abstract": "The SOTA algorithms for addressing QDec-POMDP issues, QDec-FP and QDec-FPS, are unable to effectively tackle problems that involve different types of sensing agents. We propose a new algorithm that addresses this issue by requiring agents to adopt the same plan if one agent is unable to take a sensing action but the other can. Our algorithm performs significantly better than both QDec-FP and QDec-FPS in these types of situations.",
+    "link": "http://arxiv.org/abs/2301.01246",
+    "context": "Title: Optimizing Agent Collaboration through Heuristic Multi-Agent Planning. (arXiv:2301.01246v3 [cs.AI] UPDATED)\nAbstract: The SOTA algorithms for addressing QDec-POMDP issues, QDec-FP and QDec-FPS, are unable to effectively tackle problems that involve different types of sensing agents. We propose a new algorithm that addresses this issue by requiring agents to adopt the same plan if one agent is unable to take a sensing action but the other can. Our algorithm performs significantly better than both QDec-FP and QDec-FPS in these types of situations.",
+    "path": "papers/23/01/2301.01246.json",
+    "total_tokens": 559,
+    "translated_title": "启发式多智能体规划优化智能体协作",
+    "translated_abstract": "针对涉及到不同类型感知智能体的问题，目前解决QDec-POMDP的SOTA算法QDec-FP和QDec-FPS无法有效解决。本文提出了一种新算法，通过要求智能体采取相同的计划，以解决这个问题。在这些情况下，我们的算法比QDec-FP和QDec-FPS都表现更好。",
+    "tldr": "提出了一种启发式多智能体规划算法，解决了涉及不同类型智能体的问题，比现有算法表现更好。",
+    "en_tdlr": "A heuristic multi-agent planning algorithm is proposed to address issues involving different types of agents and outperforms existing algorithms."
+}
