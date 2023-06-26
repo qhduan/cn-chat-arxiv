@@ -5,10 +5,11 @@
 | [^1] | [Fuzzification-based Feature Selection for Enhanced Website Content Encryption.](http://arxiv.org/abs/2306.13548) | 本文提出了一种基于模糊化理论的特征选择技术，利用其可以更加细致地分析网站内容特征，以提高网站内容加密的效率和有效性，从而增强整体互联网的安全性。 |
 | [^2] | [OptMSM: Optimizing Multi-Scenario Modeling for Click-Through Rate Prediction.](http://arxiv.org/abs/2306.13382) | OptMSM提出了一个新的框架来优化多场景点击率预测问题，通过场景低秩矩阵重构和场景共享机制来减少模型参数大小并提高预测性能。 |
 | [^3] | [Human Activity Behavioural Pattern Recognition in Smarthome with Long-hour Data Collection.](http://arxiv.org/abs/2306.13374) | 本文提出了一种基于深度学习模型和多种环境传感器结合的混合传感器人类活动识别框架，可识别出更多的活动，有助于推导出人类活动模式或用户画像。 |
-| [^4] | [An overview on the evaluated video retrieval tasks at TRECVID 2022.](http://arxiv.org/abs/2306.13118) | TRECVID是一种TREC风格的视频分析和检索评估方法，它旨在促进数字视频中基于内容的开发和检索信息。TRECVID 2022计划开展六个任务，有来自世界各地的35个研究组织参加。 |
-| [^5] | [CompMix: A Benchmark for Heterogeneous Question Answering.](http://arxiv.org/abs/2306.12235) | CompMix是一个异构问答系统的基准测试，有多个信息源和复杂意图，旨在提供公平的评估QA系统的能力。 |
-| [^6] | [Tourist Attractions Recommendation based on Attention Knowledge Graph Convolution Network.](http://arxiv.org/abs/2306.10946) | 本文提出了一种基于注意力知识图卷积网络的旅游景点推荐模型，通过自动语义发掘目标景点的相邻实体，根据旅客的喜好选择，预测类似景点的概率，实验中取得良好效果。 |
-| [^7] | [A Dataset of Coordinated Cryptocurrency-Related Social Media Campaigns.](http://arxiv.org/abs/2301.06601) | 本文介绍了一份协调加密货币相关社交媒体活动的数据集，其中包含了跨媒体赏金活动的信息、参与者、论坛评论和社交媒体URL。该数据集可以为不同领域的研究提供潜在机遇，并强调了潜在的创新点。 |
+| [^4] | [A Decade of Scholarly Research on Open Knowledge Graphs.](http://arxiv.org/abs/2306.13186) | 本文分析了过去十年开放知识图谱的学术研究趋势和主题，并确定了知识图谱构建和增强、评估和复用以及将知识图谱融入NLP系统的三个主要研究主题。 |
+| [^5] | [An overview on the evaluated video retrieval tasks at TRECVID 2022.](http://arxiv.org/abs/2306.13118) | TRECVID是一种TREC风格的视频分析和检索评估方法，它旨在促进数字视频中基于内容的开发和检索信息。TRECVID 2022计划开展六个任务，有来自世界各地的35个研究组织参加。 |
+| [^6] | [CompMix: A Benchmark for Heterogeneous Question Answering.](http://arxiv.org/abs/2306.12235) | CompMix是一个异构问答系统的基准测试，有多个信息源和复杂意图，旨在提供公平的评估QA系统的能力。 |
+| [^7] | [Tourist Attractions Recommendation based on Attention Knowledge Graph Convolution Network.](http://arxiv.org/abs/2306.10946) | 本文提出了一种基于注意力知识图卷积网络的旅游景点推荐模型，通过自动语义发掘目标景点的相邻实体，根据旅客的喜好选择，预测类似景点的概率，实验中取得良好效果。 |
+| [^8] | [A Dataset of Coordinated Cryptocurrency-Related Social Media Campaigns.](http://arxiv.org/abs/2301.06601) | 本文介绍了一份协调加密货币相关社交媒体活动的数据集，其中包含了跨媒体赏金活动的信息、参与者、论坛评论和社交媒体URL。该数据集可以为不同领域的研究提供潜在机遇，并强调了潜在的创新点。 |
 
 # 详细
 
@@ -54,7 +55,21 @@
 
     The research on human activity recognition has provided novel solutions to many applications like healthcare, sports, and user profiling. Considering the complex nature of human activities, it is still challenging even after effective and efficient sensors are available. The existing works on human activity recognition using smartphone sensors focus on recognizing basic human activities like sitting, sleeping, standing, stair up and down and running. However, more than these basic activities is needed to analyze human behavioural pattern. The proposed framework recognizes basic human activities using deep learning models. Also, ambient sensors like PIR, pressure sensors, and smartphone-based sensors like accelerometers and gyroscopes are combined to make it hybrid-sensor-based human activity recognition. The hybrid approach helped derive more activities than the basic ones, which also helped derive human activity patterns or user profiling. User profiling provides sufficient informatio
     
-[^4]: TRECVID 2022 中评估视频检索任务的概述
+[^4]: 开放知识图谱的十年学术研究
+
+    A Decade of Scholarly Research on Open Knowledge Graphs. (arXiv:2306.13186v1 [cs.DL])
+
+    [http://arxiv.org/abs/2306.13186](http://arxiv.org/abs/2306.13186)
+
+    本文分析了过去十年开放知识图谱的学术研究趋势和主题，并确定了知识图谱构建和增强、评估和复用以及将知识图谱融入NLP系统的三个主要研究主题。
+
+    
+
+    过去十年间，开放知识图谱的普及导致了对该话题的学术研究的激增。本文展示了针对2013年至2023年间出版的有关开放知识图谱的学术文献的文献计量分析。该研究旨在识别该领域中的趋势，模式和研究的影响，以及出现的关键主题和研究问题。该作品使用文献计量技术分析了从Scopus检索到的4445篇学术文章的样本。研究结果显示，每年关于开放知识图谱的出版物数量不断增加，特别是在发达国家(+50 per year)。这些成果发表在高度引用的学术期刊和会议上。该研究确定了三个主要研究主题：(1)知识图谱的构建和增强，(2)评估和复用，以及(3)将知识图谱融入NLP系统中。在这些主题中，研究确定了广泛研究的具体任务，例如实体链接，关系提取和本体学习。
+
+    The proliferation of open knowledge graphs has led to a surge in scholarly research on the topic over the past decade. This paper presents a bibliometric analysis of the scholarly literature on open knowledge graphs published between 2013 and 2023. The study aims to identify the trends, patterns, and impact of research in this field, as well as the key topics and research questions that have emerged. The work uses bibliometric techniques to analyze a sample of 4445 scholarly articles retrieved from Scopus. The findings reveal an ever-increasing number of publications on open knowledge graphs published every year, particularly in developed countries (+50 per year). These outputs are published in highly-referred scholarly journals and conferences. The study identifies three main research themes: (1) knowledge graph construction and enrichment, (2) evaluation and reuse, and (3) fusion of knowledge graphs into NLP systems. Within these themes, the study identifies specific tasks that have 
+    
+[^5]: TRECVID 2022 中评估视频检索任务的概述
 
     An overview on the evaluated video retrieval tasks at TRECVID 2022. (arXiv:2306.13118v1 [cs.AI])
 
@@ -68,7 +83,7 @@
 
     The TREC Video Retrieval Evaluation (TRECVID) is a TREC-style video analysis and retrieval evaluation with the goal of promoting progress in research and development of content-based exploitation and retrieval of information from digital video via open, tasks-based evaluation supported by metrology. Over the last twenty-one years this effort has yielded a better understanding of how systems can effectively accomplish such processing and how one can reliably benchmark their performance. TRECVID has been funded by NIST (National Institute of Standards and Technology) and other US government agencies. In addition, many organizations and individuals worldwide contribute significant time and effort. TRECVID 2022 planned for the following six tasks: Ad-hoc video search, Video to text captioning, Disaster scene description and indexing, Activity in extended videos, deep video understanding, and movie summarization. In total, 35 teams from various research organizations worldwide signed up to 
     
-[^5]: CompMix: 一种异构问答系统的基准测试
+[^6]: CompMix: 一种异构问答系统的基准测试
 
     CompMix: A Benchmark for Heterogeneous Question Answering. (arXiv:2306.12235v1 [cs.IR])
 
@@ -82,7 +97,7 @@
 
     Fact-centric question answering (QA) often requires access to multiple, heterogeneous, information sources. By jointly considering several sources like a knowledge base (KB), a text collection, and tables from the web, QA systems can enhance their answer coverage and confidence. However, existing QA benchmarks are mostly constructed with a single source of knowledge in mind. This limits capabilities of these benchmarks to fairly evaluate QA systems that can tap into more than one information repository. To bridge this gap, we release CompMix, a crowdsourced QA benchmark which naturally demands the integration of a mixture of input sources. CompMix has a total of 9,410 questions, and features several complex intents like joins and temporal conditions. Evaluation of a range of QA systems on CompMix highlights the need for further research on leveraging information from heterogeneous sources.
     
-[^6]: 基于注意力知识图卷积网络的旅游景点推荐
+[^7]: 基于注意力知识图卷积网络的旅游景点推荐
 
     Tourist Attractions Recommendation based on Attention Knowledge Graph Convolution Network. (arXiv:2306.10946v1 [cs.IR] CROSS LISTED)
 
@@ -96,7 +111,7 @@
 
     The recommendation algorithm based on knowledge graphs is at a relatively mature stage. However, there are still some problems in the recommendation of specific areas. For example, in the tourism field, selecting suitable tourist attraction attributes process is complicated as the recommendation basis for tourist attractions. In this paper, we propose the improved Attention Knowledge Graph Convolution Network model, named (Att-KGCN), which automatically discovers the neighboring entities of the target scenic spot semantically. The attention layer aggregates relatively similar locations and represents them with an adjacent vector. Then, according to the tourist's preferred choices, the model predicts the probability of similar spots as a recommendation system. A knowledge graph dataset of tourist attractions used based on tourism data on Socotra Island-Yemen. Through experiments, it is verified that the Attention Knowledge Graph Convolution Network has a good effect on the recommendatio
     
-[^7]: 一份协调加密货币相关社交媒体活动的数据集
+[^8]: 一份协调加密货币相关社交媒体活动的数据集
 
     A Dataset of Coordinated Cryptocurrency-Related Social Media Campaigns. (arXiv:2301.06601v2 [cs.HC] UPDATED)
 
