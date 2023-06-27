@@ -1,0 +1,12 @@
+{
+    "title": "Are Good Explainers Secretly Human-in-the-Loop Active Learners?. (arXiv:2306.13935v1 [cs.AI])",
+    "abstract": "Explainable AI (XAI) techniques have become popular for multiple use-cases in the past few years. Here we consider its use in studying model predictions to gather additional training data. We argue that this is equivalent to Active Learning, where the query strategy involves a human-in-the-loop. We provide a mathematical approximation for the role of the human, and present a general formalization of the end-to-end workflow. This enables us to rigorously compare this use with standard Active Learning algorithms, while allowing for extensions to the workflow. An added benefit is that their utility can be assessed via simulation instead of conducting expensive user-studies. We also present some initial promising results.",
+    "link": "http://arxiv.org/abs/2306.13935",
+    "context": "Title: Are Good Explainers Secretly Human-in-the-Loop Active Learners?. (arXiv:2306.13935v1 [cs.AI])\nAbstract: Explainable AI (XAI) techniques have become popular for multiple use-cases in the past few years. Here we consider its use in studying model predictions to gather additional training data. We argue that this is equivalent to Active Learning, where the query strategy involves a human-in-the-loop. We provide a mathematical approximation for the role of the human, and present a general formalization of the end-to-end workflow. This enables us to rigorously compare this use with standard Active Learning algorithms, while allowing for extensions to the workflow. An added benefit is that their utility can be assessed via simulation instead of conducting expensive user-studies. We also present some initial promising results.",
+    "path": "papers/23/06/2306.13935.json",
+    "total_tokens": 761,
+    "translated_title": "良好的解释者暗地里是人类-主动学习者吗？",
+    "translated_abstract": "可解释的人工智能（XAI）技术近年来在多个用例中变得流行。在这里，我们考虑了它在研究模型预测以收集额外训练数据方面的应用。我们认为这相当于主动学习，其中查询策略涉及人类的介入。我们提供了一个人类角色的数学近似，并提出了一个端到端工作流的通用形式化。这使我们能够严格比较此用法与标准主动学习算法，同时允许扩展工作流。一个额外的好处是，它们的效用可以通过模拟来评估，而不是进行昂贵的用户研究。我们还提出了一些初步的有前途的结果。",
+    "tldr": "本文提出了一种可解释的AI技术，用于获取额外的训练数据，同时考虑到人类的介入，这可以通过模拟来评估其效用，同时具有与标准主动学习算法的可比性。",
+    "en_tdlr": "This paper proposes an explainable AI technique for gathering additional training data by studying model predictions with human-in-the-loop, which can be rigorously compared with standard active learning algorithms and assessed via simulation."
+}

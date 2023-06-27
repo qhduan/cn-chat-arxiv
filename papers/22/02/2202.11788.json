@@ -1,0 +1,12 @@
+{
+    "title": "Generative modeling via tensor train sketching. (arXiv:2202.11788v6 [math.NA] UPDATED)",
+    "abstract": "In this paper, we introduce a sketching algorithm for constructing a tensor train representation of a probability density from its samples. Our method deviates from the standard recursive SVD-based procedure for constructing a tensor train. Instead, we formulate and solve a sequence of small linear systems for the individual tensor train cores. This approach can avoid the curse of dimensionality that threatens both the algorithmic and sample complexities of the recovery problem. Specifically, for Markov models under natural conditions, we prove that the tensor cores can be recovered with a sample complexity that scales logarithmically in the dimensionality. Finally, we illustrate the performance of the method with several numerical experiments.",
+    "link": "http://arxiv.org/abs/2202.11788",
+    "context": "Title: Generative modeling via tensor train sketching. (arXiv:2202.11788v6 [math.NA] UPDATED)\nAbstract: In this paper, we introduce a sketching algorithm for constructing a tensor train representation of a probability density from its samples. Our method deviates from the standard recursive SVD-based procedure for constructing a tensor train. Instead, we formulate and solve a sequence of small linear systems for the individual tensor train cores. This approach can avoid the curse of dimensionality that threatens both the algorithmic and sample complexities of the recovery problem. Specifically, for Markov models under natural conditions, we prove that the tensor cores can be recovered with a sample complexity that scales logarithmically in the dimensionality. Finally, we illustrate the performance of the method with several numerical experiments.",
+    "path": "papers/22/02/2202.11788.json",
+    "total_tokens": 692,
+    "translated_title": "基于张量列缩影的生成建模方法",
+    "translated_abstract": "本文提出了一种用于构建概率密度的张量列缩影表示的草图算法。与传统的递归奇异值分解（SVD）方法不同，我们提出并解决了一系列针对单个张量列缩影的小型线性系统。这种方法可以避免威胁到恢复问题的算法和样本复杂性的维度诅咒。针对马尔可夫模型，我们证明张量核心可以在样本复杂度以对数形式随着维度而缩放的自然条件下被恢复。最后，我们通过几个数字实验展示了该方法的性能。",
+    "tldr": "本文提出了一种基于张量列缩影的生成建模方法，可以用少量样本避免高维度带来的计算和样本复杂度困扰。",
+    "en_tdlr": "This paper proposes a generative modeling method via tensor train sketching, which can avoid the computation and sample complexity caused by high dimensionality with only a small amount of samples."
+}

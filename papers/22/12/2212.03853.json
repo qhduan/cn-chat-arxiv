@@ -1,0 +1,12 @@
+{
+    "title": "Clustering with Neural Network and Index. (arXiv:2212.03853v3 [cs.LG] UPDATED)",
+    "abstract": "A new model called Clustering with Neural Network and Index (CNNI) is introduced. CNNI uses a Neural Network to cluster data points. Training of the Neural Network mimics supervised learning, with an internal clustering evaluation index acting as the loss function. An experiment is conducted to test the feasibility of the new model, and compared with results of other clustering models like K-means and Gaussian Mixture Model (GMM). The result shows CNNI can work properly for clustering data; CNNI equipped with MMJ-SC, achieves the first parametric (inductive) clustering model that can deal with non-convex shaped (non-flat geometry) data.",
+    "link": "http://arxiv.org/abs/2212.03853",
+    "context": "Title: Clustering with Neural Network and Index. (arXiv:2212.03853v3 [cs.LG] UPDATED)\nAbstract: A new model called Clustering with Neural Network and Index (CNNI) is introduced. CNNI uses a Neural Network to cluster data points. Training of the Neural Network mimics supervised learning, with an internal clustering evaluation index acting as the loss function. An experiment is conducted to test the feasibility of the new model, and compared with results of other clustering models like K-means and Gaussian Mixture Model (GMM). The result shows CNNI can work properly for clustering data; CNNI equipped with MMJ-SC, achieves the first parametric (inductive) clustering model that can deal with non-convex shaped (non-flat geometry) data.",
+    "path": "papers/22/12/2212.03853.json",
+    "total_tokens": 720,
+    "translated_title": "带有神经网络和索引的聚类模型",
+    "translated_abstract": "介绍一种新的聚类模型，称为带有神经网络和索引的聚类模型（CNNI）。CNNI使用神经网络对数据点进行聚类。神经网络的训练模仿监督学习，使用内部聚类评估指标作为损失函数。进行了一项实验来测试新模型的可行性，并与K均值和高斯混合模型（GMM）等其他聚类模型的结果进行了比较。结果表明CNNI可以正确地对数据进行聚类；CNNI配备了MMJ-SC，成为第一个能够处理非凸形状（非平面几何）数据的参数化（归纳式）聚类模型。",
+    "tldr": "介绍了一种新的带有神经网络和索引的聚类模型CNNI，该模型使用神经网络对数据点进行聚类，实现了第一个能够处理非凸形状数据的参数化聚类模型。",
+    "en_tdlr": "This paper introduces a new clustering model called CNNI, which uses a Neural Network to cluster data points and achieves the first parametric clustering model that can deal with non-convex shaped data."
+}

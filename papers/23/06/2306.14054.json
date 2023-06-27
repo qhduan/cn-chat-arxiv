@@ -1,0 +1,12 @@
+{
+    "title": "Towards Understanding Gradient Approximation in Equality Constrained Deep Declarative Networks. (arXiv:2306.14054v1 [cs.LG])",
+    "abstract": "We explore conditions for when the gradient of a deep declarative node can be approximated by ignoring constraint terms and still result in a descent direction for the global loss function. This has important practical application when training deep learning models since the approximation is often computationally much more efficient than the true gradient calculation. We provide theoretical analysis for problems with linear equality constraints and normalization constraints, and show examples where the approximation works well in practice as well as some cautionary tales for when it fails.",
+    "link": "http://arxiv.org/abs/2306.14054",
+    "context": "Title: Towards Understanding Gradient Approximation in Equality Constrained Deep Declarative Networks. (arXiv:2306.14054v1 [cs.LG])\nAbstract: We explore conditions for when the gradient of a deep declarative node can be approximated by ignoring constraint terms and still result in a descent direction for the global loss function. This has important practical application when training deep learning models since the approximation is often computationally much more efficient than the true gradient calculation. We provide theoretical analysis for problems with linear equality constraints and normalization constraints, and show examples where the approximation works well in practice as well as some cautionary tales for when it fails.",
+    "path": "papers/23/06/2306.14054.json",
+    "total_tokens": 648,
+    "translated_title": "探索等式约束下深度声明式网络中的梯度逼近问题",
+    "translated_abstract": "本文研究了在忽略约束项时，深度声明式节点的梯度是否可以近似，从而导致全局损失函数的下降方向。这对于训练深度学习模型具有重要的实际应用，因为逼近方法通常比真实梯度计算更节省时间。我们提供了针对具有线性等式约束和归一化约束问题的理论分析，并展示了一些逼近方法在实践中的良好效果以及注意事项。",
+    "tldr": "本文探索了在等式约束下深度声明式网络中的梯度逼近策略，为训练深度学习模型提供了更为高效的计算方式。",
+    "en_tdlr": "This paper explores the feasibility of approximating the gradient of deep declarative nodes under equality constraints, providing a more efficient way for training deep learning models. Theoretical analysis and practical examples are provided, along with warnings of potential failures."
+}

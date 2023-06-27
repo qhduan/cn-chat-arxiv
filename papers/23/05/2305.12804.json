@@ -1,0 +1,11 @@
+{
+    "title": "The defender's perspective on automatic speaker verification: An overview. (arXiv:2305.12804v2 [cs.SD] UPDATED)",
+    "abstract": "Automatic speaker verification (ASV) plays a critical role in security-sensitive environments. Regrettably, the reliability of ASV has been undermined by the emergence of spoofing attacks, such as replay and synthetic speech, as well as adversarial attacks and the relatively new partially fake speech. While there are several review papers that cover replay and synthetic speech, and adversarial attacks, there is a notable gap in a comprehensive review that addresses defense against adversarial attacks and the recently emerged partially fake speech. Thus, the aim of this paper is to provide a thorough and systematic overview of the defense methods used against these types of attacks.",
+    "link": "http://arxiv.org/abs/2305.12804",
+    "context": "Title: The defender's perspective on automatic speaker verification: An overview. (arXiv:2305.12804v2 [cs.SD] UPDATED)\nAbstract: Automatic speaker verification (ASV) plays a critical role in security-sensitive environments. Regrettably, the reliability of ASV has been undermined by the emergence of spoofing attacks, such as replay and synthetic speech, as well as adversarial attacks and the relatively new partially fake speech. While there are several review papers that cover replay and synthetic speech, and adversarial attacks, there is a notable gap in a comprehensive review that addresses defense against adversarial attacks and the recently emerged partially fake speech. Thus, the aim of this paper is to provide a thorough and systematic overview of the defense methods used against these types of attacks.",
+    "path": "papers/23/05/2305.12804.json",
+    "total_tokens": 688,
+    "translated_title": "自动说话人验证中的防御者角度：综述",
+    "translated_abstract": "自动说话人验证(ASV)在安全敏感的环境中发挥着至关重要的作用。然而，ASV的可靠性已经受到欺诈攻击(如重放和合成语音)、对抗攻击和相对较新的部分伪造语音的影响。虽然有几篇综述论文涵盖了重放和合成语音、对抗攻击，但缺乏一篇全面评估针对这些攻击类型进行防御方法的论文。因此，本文的目的是提供对这些攻击类型使用的防御方法的全面和系统的概述。",
+    "tldr": "本文综述了针对欺诈攻击和部分伪造语音等ASV攻击类型的防御方法，填补了现有综述中的空白。"
+}

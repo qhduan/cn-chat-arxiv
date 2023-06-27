@@ -1,0 +1,12 @@
+{
+    "title": "Creative Data Generation: A Review Focusing on Text and Poetry. (arXiv:2305.08493v2 [cs.CL] UPDATED)",
+    "abstract": "The rapid advancement in machine learning has led to a surge in automatic data generation, making it increasingly challenging to differentiate between naturally or human-generated data and machine-generated data. Despite these advancements, the generation of creative data remains a challenge. This paper aims to investigate and comprehend the essence of creativity, both in general and within the context of natural language generation. We review various approaches to creative writing devices and tasks, with a specific focus on the generation of poetry. We aim to shed light on the challenges and opportunities in the field of creative data generation.",
+    "link": "http://arxiv.org/abs/2305.08493",
+    "context": "Title: Creative Data Generation: A Review Focusing on Text and Poetry. (arXiv:2305.08493v2 [cs.CL] UPDATED)\nAbstract: The rapid advancement in machine learning has led to a surge in automatic data generation, making it increasingly challenging to differentiate between naturally or human-generated data and machine-generated data. Despite these advancements, the generation of creative data remains a challenge. This paper aims to investigate and comprehend the essence of creativity, both in general and within the context of natural language generation. We review various approaches to creative writing devices and tasks, with a specific focus on the generation of poetry. We aim to shed light on the challenges and opportunities in the field of creative data generation.",
+    "path": "papers/23/05/2305.08493.json",
+    "total_tokens": 704,
+    "translated_title": "创造性数据生成：以文本和诗歌为重点的综述",
+    "translated_abstract": "机器学习的快速发展导致了自动数据生成的激增，使得区分自然或人类生成的数据和机器生成的数据越发具有挑战性。尽管取得了这些进展，创造性数据生成仍然是一个挑战。本文旨在研究和理解创造力的本质，既包括一般情况下的创造力，也包括自然语言生成领域内的创造力。我们回顾了各种创造性写作设备和任务，并特别关注诗歌的生成。我们旨在揭示创造性数据生成领域的挑战和机遇。",
+    "tldr": "本文研究了创造性数据的生成，特别关注了以诗歌为重点的自然语言生成。深入探讨了该领域面临的挑战和机遇。",
+    "en_tdlr": "This paper investigates and aims to understand the essence of creativity, specifically in natural language generation focusing on poetry. The review explores various creative writing devices and tasks, shedding light on the challenges and opportunities in the field of creative data generation."
+}

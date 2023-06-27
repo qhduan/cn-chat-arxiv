@@ -1,0 +1,12 @@
+{
+    "title": "MeciFace: Mechanomyography and Inertial Fusion based Glasses for Edge Real-Time Recognition of Facial and Eating Activities. (arXiv:2306.13674v1 [cs.CV])",
+    "abstract": "We present MeciFace, a low-power (0.55 Watts), privacy-conscious, real-time on-the-edge (RTE) wearable solution with a tiny memory footprint (11-19 KB), designed to monitor facial expressions and eating activities. We employ lightweight convolutional neural networks as the backbone models for both facial and eating scenarios. The system yielded an F1-score of 86% for the RTE evaluation in the facial expression case. In addition, we obtained an F1-score of 90% for eating/drinking monitoring for the RTE of an unseen user.",
+    "link": "http://arxiv.org/abs/2306.13674",
+    "context": "Title: MeciFace: Mechanomyography and Inertial Fusion based Glasses for Edge Real-Time Recognition of Facial and Eating Activities. (arXiv:2306.13674v1 [cs.CV])\nAbstract: We present MeciFace, a low-power (0.55 Watts), privacy-conscious, real-time on-the-edge (RTE) wearable solution with a tiny memory footprint (11-19 KB), designed to monitor facial expressions and eating activities. We employ lightweight convolutional neural networks as the backbone models for both facial and eating scenarios. The system yielded an F1-score of 86% for the RTE evaluation in the facial expression case. In addition, we obtained an F1-score of 90% for eating/drinking monitoring for the RTE of an unseen user.",
+    "path": "papers/23/06/2306.13674.json",
+    "total_tokens": 770,
+    "translated_title": "MeciFace：基于肌肉电和惯性融合的边缘实时识别面部表情和进食活动眼镜",
+    "translated_abstract": "我们提出了MeciFace，这是一个低功耗（0.55瓦），注重隐私，实时边缘监测（RTE）的可穿戴解决方案，具有微小的内存占用（11-19 KB），旨在监测面部表情和进食活动。我们采用轻量级卷积神经网络作为面部和进食场景的主干模型。该系统在面部表情案例的RTE评估中产生了86％的F1分数。此外，我们对未知用户的RTE进行饮食监测，得到了90％的F1分数。",
+    "tldr": "MeciFace是一款注重隐私且低功耗的可穿戴设备，它采用轻量级卷积神经网络来监测面部表情和进食活动，面部表情案例的F1分数达到了86％，饮食监测则达到了90％的F1分数。",
+    "en_tdlr": "MeciFace is a privacy-focused and low-power wearable device that uses lightweight convolutional neural networks to monitor facial expressions and eating activities, achieving an F1 score of 86% in the facial expression case and 90% for eating monitoring of an unseen user on the RTE."
+}

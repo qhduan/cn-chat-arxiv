@@ -1,0 +1,12 @@
+{
+    "title": "Estimating the Value of Evidence-Based Decision Making. (arXiv:2306.13681v1 [stat.ME])",
+    "abstract": "Business/policy decisions are often based on evidence from randomized experiments and observational studies. In this article we propose an empirical framework to estimate the value of evidence-based decision making (EBDM) and the return on the investment in statistical precision.",
+    "link": "http://arxiv.org/abs/2306.13681",
+    "context": "Title: Estimating the Value of Evidence-Based Decision Making. (arXiv:2306.13681v1 [stat.ME])\nAbstract: Business/policy decisions are often based on evidence from randomized experiments and observational studies. In this article we propose an empirical framework to estimate the value of evidence-based decision making (EBDM) and the return on the investment in statistical precision.",
+    "path": "papers/23/06/2306.13681.json",
+    "total_tokens": 466,
+    "translated_title": "估算基于证据决策的价值",
+    "translated_abstract": "商业/政策决策通常基于随机实验和观察性研究的证据。本文提出了一个实证框架来估算基于证据的决策（EBDM）的价值和统计精度投资回报。",
+    "tldr": "本文提出了一个实证框架，用于估算证据决策的价值和统计精度投资回报。",
+    "en_tdlr": "This article proposes an empirical framework for estimating the value of evidence-based decision making (EBDM) and return on investment in statistical precision."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Bandit Convex Optimisation Revisited: FTRL Achieves $\\tilde{O}(t^{1/2})$ Regret. (arXiv:2302.00358v2 [cs.LG] UPDATED)",
+    "abstract": "We show that a kernel estimator using multiple function evaluations can be easily converted into a sampling-based bandit estimator with expectation equal to the original kernel estimate. Plugging such a bandit estimator into the standard FTRL algorithm yields a bandit convex optimisation algorithm that achieves $\\tilde{O}(t^{1/2})$ regret against adversarial time-varying convex loss functions.",
+    "link": "http://arxiv.org/abs/2302.00358",
+    "context": "Title: Bandit Convex Optimisation Revisited: FTRL Achieves $\\tilde{O}(t^{1/2})$ Regret. (arXiv:2302.00358v2 [cs.LG] UPDATED)\nAbstract: We show that a kernel estimator using multiple function evaluations can be easily converted into a sampling-based bandit estimator with expectation equal to the original kernel estimate. Plugging such a bandit estimator into the standard FTRL algorithm yields a bandit convex optimisation algorithm that achieves $\\tilde{O}(t^{1/2})$ regret against adversarial time-varying convex loss functions.",
+    "path": "papers/23/02/2302.00358.json",
+    "total_tokens": 676,
+    "translated_title": "赌徒凸优化的再探讨：FTRL实现了$\\tilde{O}(t^{1/2})$遗憾。",
+    "translated_abstract": "我们展示了使用多个函数评估的内核估计器可以轻松转换为采样基于的赌徒估计器，其期望值等于原始内核估计值。将此类赌徒估计器插入标准FTRL算法中，可获得赌徒凸优化算法，其针对敌对的时变凸损失函数实现了$\\tilde{O}(t^{1/2})$遗憾。",
+    "tldr": "研究发现，在标准FTRL算法中插入使用多个函数评估的内核估计器可以获得一个赌徒凸优化算法，并且能够在对抗性时变凸损失函数下实现$\\tilde{O}(t^{1/2})$遗憾。",
+    "en_tdlr": "The study finds that inserting a kernel estimator using multiple function evaluations into the standard FTRL algorithm yields a bandit convex optimization algorithm, which achieves $\\tilde{O}(t^{1/2})$ regret against adversarial time-varying convex loss functions."
+}

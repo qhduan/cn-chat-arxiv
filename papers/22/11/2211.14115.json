@@ -1,0 +1,12 @@
+{
+    "title": "Inverse Solvability and Security with Applications to Federated Learning. (arXiv:2211.14115v3 [stat.ML] UPDATED)",
+    "abstract": "We introduce the concepts of inverse solvability and security for a generic linear forward model and demonstrate how they can be applied to models used in federated learning. We provide examples of such models which differ in the resulting inverse solvability and security as defined in this paper. We also show how the large number of users participating in a given iteration of federated learning can be leveraged to increase both solvability and security. Finally, we discuss possible extensions of the presented concepts including the nonlinear case.",
+    "link": "http://arxiv.org/abs/2211.14115",
+    "context": "Title: Inverse Solvability and Security with Applications to Federated Learning. (arXiv:2211.14115v3 [stat.ML] UPDATED)\nAbstract: We introduce the concepts of inverse solvability and security for a generic linear forward model and demonstrate how they can be applied to models used in federated learning. We provide examples of such models which differ in the resulting inverse solvability and security as defined in this paper. We also show how the large number of users participating in a given iteration of federated learning can be leveraged to increase both solvability and security. Finally, we discuss possible extensions of the presented concepts including the nonlinear case.",
+    "path": "papers/22/11/2211.14115.json",
+    "total_tokens": 652,
+    "translated_title": "逆可解性和安全性及其在联邦学习中的应用",
+    "translated_abstract": "我们介绍了逆可解性和安全性的概念，适用于一般线性前向模型，并展示了如何将其应用于联邦学习中使用的模型。我们提供了这样的模型的示例，其逆可解性和安全性在本文中得到定义。我们还展示了如何利用参与给定迭代的大量用户来增加可解性和安全性。最后，我们讨论了所提出概念的可能扩展，包括非线性情况。",
+    "tldr": "介绍了逆可解性和安全性的概念，以及其在联邦学习中的应用。论文提供了模型示例，展示了如何通过增加用户数量来增加可解性和安全性。",
+    "en_tdlr": "This paper introduces the concepts of inverse solvability and security, and demonstrates their applications in federated learning. The paper provides model examples that show how increasing the number of users can improve both solvability and security."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Nearest Neighbour with Bandit Feedback. (arXiv:2306.13773v1 [cs.LG])",
+    "abstract": "In this paper we adapt the nearest neighbour rule to the contextual bandit problem. Our algorithm handles the fully adversarial setting in which no assumptions at all are made about the data-generation process. When combined with a sufficiently fast data-structure for (perhaps approximate) adaptive nearest neighbour search, such as a navigating net, our algorithm is extremely efficient - having a per trial running time polylogarithmic in both the number of trials and actions, and taking only quasi-linear space.",
+    "link": "http://arxiv.org/abs/2306.13773",
+    "context": "Title: Nearest Neighbour with Bandit Feedback. (arXiv:2306.13773v1 [cs.LG])\nAbstract: In this paper we adapt the nearest neighbour rule to the contextual bandit problem. Our algorithm handles the fully adversarial setting in which no assumptions at all are made about the data-generation process. When combined with a sufficiently fast data-structure for (perhaps approximate) adaptive nearest neighbour search, such as a navigating net, our algorithm is extremely efficient - having a per trial running time polylogarithmic in both the number of trials and actions, and taking only quasi-linear space.",
+    "path": "papers/23/06/2306.13773.json",
+    "total_tokens": 601,
+    "translated_title": "带有Bandit反馈的最近邻算法",
+    "translated_abstract": "本文将最近邻算法应用于上下文Bandit问题中。我们的算法处理了完全对抗的设置，即不对数据生成过程做任何假设。当与快速数据结构（可能是近似的自适应最近邻搜索，如导航网络）相结合时，我们的算法非常高效-每次试验的运行时间对动作数和试验数呈对数多项式增长，并且只需要准线性空间。",
+    "tldr": "本论文提出一种新的最近邻算法，能够应用于上下文Bandit问题并处理完全对抗的设置，具有高效运行、快速搜索和准线性空间的优点。",
+    "en_tdlr": "This paper proposes a new nearest neighbor algorithm that can be applied to the contextual bandit problem and handles fully adversarial settings with efficient running time, fast search, and quasi-linear space."
+}

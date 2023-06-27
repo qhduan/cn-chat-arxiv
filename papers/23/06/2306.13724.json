@@ -1,0 +1,11 @@
+{
+    "title": "Review of compressed embedding layers and their applications for recommender systems. (arXiv:2306.13724v1 [cs.LG])",
+    "abstract": "We review the literature on trainable, compressed embedding layers and discuss their applicability for compressing gigantic neural recommender systems. We also report the results we measured with our compressed embedding layers.",
+    "link": "http://arxiv.org/abs/2306.13724",
+    "context": "Title: Review of compressed embedding layers and their applications for recommender systems. (arXiv:2306.13724v1 [cs.LG])\nAbstract: We review the literature on trainable, compressed embedding layers and discuss their applicability for compressing gigantic neural recommender systems. We also report the results we measured with our compressed embedding layers.",
+    "path": "papers/23/06/2306.13724.json",
+    "total_tokens": 502,
+    "translated_title": "可训练的压缩嵌入层及其在推荐系统上的应用综述",
+    "translated_abstract": "我们回顾了可训练的、压缩的嵌入层的文献，并讨论了它们在压缩巨型神经推荐系统方面的适用性。我们还报告了使用我们的压缩嵌入层所测得的结果。",
+    "tldr": "论文综述了可训练的、压缩的嵌入层在压缩大型神经网络推荐系统中的应用，并提供了相关实验结果。"
+}

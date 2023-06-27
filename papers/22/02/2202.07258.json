@@ -1,0 +1,12 @@
+{
+    "title": "Accelerating Non-Negative and Bounded-Variable Linear Regression Algorithms with Safe Screening. (arXiv:2202.07258v2 [cs.LG] UPDATED)",
+    "abstract": "Non-negative and bounded-variable linear regression problems arise in a variety of applications in machine learning and signal processing. In this paper, we propose a technique to accelerate existing solvers for these problems by identifying saturated coordinates in the course of iterations. This is akin to safe screening techniques previously proposed for sparsity-regularized regression problems. The proposed strategy is provably safe as it provides theoretical guarantees that the identified coordinates are indeed saturated in the optimal solution. Experimental results on synthetic and real data show compelling accelerations for both non-negative and bounded-variable problems.",
+    "link": "http://arxiv.org/abs/2202.07258",
+    "context": "Title: Accelerating Non-Negative and Bounded-Variable Linear Regression Algorithms with Safe Screening. (arXiv:2202.07258v2 [cs.LG] UPDATED)\nAbstract: Non-negative and bounded-variable linear regression problems arise in a variety of applications in machine learning and signal processing. In this paper, we propose a technique to accelerate existing solvers for these problems by identifying saturated coordinates in the course of iterations. This is akin to safe screening techniques previously proposed for sparsity-regularized regression problems. The proposed strategy is provably safe as it provides theoretical guarantees that the identified coordinates are indeed saturated in the optimal solution. Experimental results on synthetic and real data show compelling accelerations for both non-negative and bounded-variable problems.",
+    "path": "papers/22/02/2202.07258.json",
+    "total_tokens": 716,
+    "translated_title": "使用安全筛选加速非负和有界变量线性回归算法",
+    "translated_abstract": "非负和有界变量线性回归问题在机器学习和信号处理的各种应用中都有所涉及。本文提出了一种技术，通过在迭代过程中识别饱和坐标，加速现有解决器来解决这些问题。这类似于先前针对稀疏正则化回归问题提出的安全筛选技术。所提出的策略是经过证明是安全的，因为它提供了理论保证，表明所识别的坐标确实在最优解中是饱和的。对合成数据和实际数据的实验结果都表明，对于非负和有界变量问题都具有令人信服的加速效果。",
+    "tldr": "本文提出了一种通过识别饱和坐标加速解决非负和有界变量线性回归问题的技术，实验结果表明其具有令人信服的加速效果。",
+    "en_tdlr": "This paper proposes a technique to accelerate the solution of non-negative and bounded-variable linear regression problems by identifying saturated coordinates in the course of iterations, and experimental results show compelling acceleration effects."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "An elementary proof of the dual representation of Expected Shortfall. (arXiv:2306.14506v1 [q-fin.RM])",
+    "abstract": "We provide an elementary proof of the dual representation of Expected Shortfall on the space of integrable random variables over a general probability space. Unlike the results in the extant literature, our proof only exploits basic properties of quantile functions and can thus be easily implemented in any graduate course on risk measures. As a byproduct, we obtain a new proof of the subadditivity of Expected Shortfall.",
+    "link": "http://arxiv.org/abs/2306.14506",
+    "context": "Title: An elementary proof of the dual representation of Expected Shortfall. (arXiv:2306.14506v1 [q-fin.RM])\nAbstract: We provide an elementary proof of the dual representation of Expected Shortfall on the space of integrable random variables over a general probability space. Unlike the results in the extant literature, our proof only exploits basic properties of quantile functions and can thus be easily implemented in any graduate course on risk measures. As a byproduct, we obtain a new proof of the subadditivity of Expected Shortfall.",
+    "path": "papers/23/06/2306.14506.json",
+    "total_tokens": 591,
+    "translated_title": "Expected Shortfall的对偶表达式的初等证明",
+    "translated_abstract": "我们提供了Expected Shortfall在一般概率空间上可积随机变量空间的对偶表达式的初等证明。与现有文献中的结果不同，我们的证明仅利用了分位函数的基本属性，因此可以很容易地在任何风险度量的研究生课程中实施。作为副产品，我们得到了Expected Shortfall次加性的一个新证明。",
+    "tldr": "本文提供了Expected Shortfall在一般概率空间上可积随机变量空间的对偶表达式的初等证明，并获得了Expected Shortfall次加性的一个新证明。",
+    "en_tdlr": "This paper provides an elementary proof of the dual representation of Expected Shortfall on the space of integrable random variables over a general probability space. As a byproduct, a new proof of the subadditivity of Expected Shortfall is obtained."
+}

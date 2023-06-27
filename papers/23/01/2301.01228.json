@@ -1,0 +1,12 @@
+{
+    "title": "DMOps: Data Management Operation and Recipes. (arXiv:2301.01228v3 [cs.DB] UPDATED)",
+    "abstract": "Data-centric AI has shed light on the significance of data within the machine learning (ML) pipeline. Recognizing its significance, academia, industry, and government departments have suggested various NLP data research initiatives. While the ability to utilize existing data is essential, the ability to build a dataset has become more critical than ever, especially in the industry. In consideration of this trend, we propose a \"Data Management Operations and Recipes\" to guide the industry in optimizing the building of datasets for NLP products. This paper presents the concept of DMOps which is derived from real-world experiences with NLP data management and aims to streamline data operations by offering a baseline.",
+    "link": "http://arxiv.org/abs/2301.01228",
+    "context": "Title: DMOps: Data Management Operation and Recipes. (arXiv:2301.01228v3 [cs.DB] UPDATED)\nAbstract: Data-centric AI has shed light on the significance of data within the machine learning (ML) pipeline. Recognizing its significance, academia, industry, and government departments have suggested various NLP data research initiatives. While the ability to utilize existing data is essential, the ability to build a dataset has become more critical than ever, especially in the industry. In consideration of this trend, we propose a \"Data Management Operations and Recipes\" to guide the industry in optimizing the building of datasets for NLP products. This paper presents the concept of DMOps which is derived from real-world experiences with NLP data management and aims to streamline data operations by offering a baseline.",
+    "path": "papers/23/01/2301.01228.json",
+    "total_tokens": 654,
+    "translated_title": "DMOps：数据管理操作和配方",
+    "translated_abstract": "数据为中心的AI揭示了机器学习（ML）流程中数据的重要性。 学术界、工业界和政府部门已提出各种NLP数据研究计划。 虽然利用现有数据的能力至关重要，但在工业界，构建数据集的能力比以往任何时候都更为关键。鉴于这一趋势，我们提出了“数据管理操作和配方”，旨在指导工业界优化NLP产品数据集的构建。本文介绍了DMOps的概念，它来自于处理实际NLP数据管理的经验，并旨在通过提供基线来简化数据操作。",
+    "tldr": "DMOps旨在指导工业界优化构建NLP产品数据集，提供基线来简化数据操作。",
+    "en_tdlr": "DMOps aims to guide the industry in optimizing the building of NLP product datasets, and streamline data operations by offering a baseline."
+}

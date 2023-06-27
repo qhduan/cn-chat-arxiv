@@ -1,0 +1,12 @@
+{
+    "title": "Spatio-temporal Storytelling? Leveraging Generative Models for Semantic Trajectory Analysis. (arXiv:2306.13905v1 [cs.CL])",
+    "abstract": "In this paper, we lay out a vision for analysing semantic trajectory traces and generating synthetic semantic trajectory data (SSTs) using generative language model. Leveraging the advancements in deep learning, as evident by progress in the field of natural language processing (NLP), computer vision, etc. we intend to create intelligent models that can study the semantic trajectories in various contexts, predicting future trends, increasing machine understanding of the movement of animals, humans, goods, etc. enhancing human-computer interactions, and contributing to an array of applications ranging from urban-planning to personalized recommendation engines and business strategy.",
+    "link": "http://arxiv.org/abs/2306.13905",
+    "context": "Title: Spatio-temporal Storytelling? Leveraging Generative Models for Semantic Trajectory Analysis. (arXiv:2306.13905v1 [cs.CL])\nAbstract: In this paper, we lay out a vision for analysing semantic trajectory traces and generating synthetic semantic trajectory data (SSTs) using generative language model. Leveraging the advancements in deep learning, as evident by progress in the field of natural language processing (NLP), computer vision, etc. we intend to create intelligent models that can study the semantic trajectories in various contexts, predicting future trends, increasing machine understanding of the movement of animals, humans, goods, etc. enhancing human-computer interactions, and contributing to an array of applications ranging from urban-planning to personalized recommendation engines and business strategy.",
+    "path": "papers/23/06/2306.13905.json",
+    "total_tokens": 714,
+    "translated_title": "利用生成模型进行语义轨迹分析的时空叙事？",
+    "translated_abstract": "本文提出了一种使用生成语言模型对语义轨迹跟踪进行分析和生成合成语义轨迹数据（SST）的愿景。利用深度学习的进步，如自然语言处理（NLP）、计算机视觉等领域的进展，我们旨在创建智能模型，可以研究不同上下文中的语义轨迹，预测未来趋势，增强机器对动物、人类、货物等移动情况的理解，提高人机交互，并为从城市规划到个性化推荐引擎和商业策略等一系列应用做出贡献。",
+    "tldr": "本文通过生成语言模型对语义轨迹进行分析和生成合成语义轨迹数据，为从城市规划到个性化推荐引擎和商业策略等一系列应用做出贡献。",
+    "en_tdlr": "This paper contributes to a range of applications from urban planning to personalized recommendation engines and business strategy by using generative language models to analyze and synthesize semantic trajectory data."
+}

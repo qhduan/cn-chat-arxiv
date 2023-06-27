@@ -1,0 +1,12 @@
+{
+    "title": "Four Axiomatic Characterizations of the Integrated Gradients Attribution Method. (arXiv:2306.13753v1 [cs.LG])",
+    "abstract": "Deep neural networks have produced significant progress among machine learning models in terms of accuracy and functionality, but their inner workings are still largely unknown. Attribution methods seek to shine a light on these \"black box\" models by indicating how much each input contributed to a model's outputs. The Integrated Gradients (IG) method is a state of the art baseline attribution method in the axiomatic vein, meaning it is designed to conform to particular principles of attributions. We present four axiomatic characterizations of IG, establishing IG as the unique method to satisfy different sets of axioms among a class of attribution methods.",
+    "link": "http://arxiv.org/abs/2306.13753",
+    "context": "Title: Four Axiomatic Characterizations of the Integrated Gradients Attribution Method. (arXiv:2306.13753v1 [cs.LG])\nAbstract: Deep neural networks have produced significant progress among machine learning models in terms of accuracy and functionality, but their inner workings are still largely unknown. Attribution methods seek to shine a light on these \"black box\" models by indicating how much each input contributed to a model's outputs. The Integrated Gradients (IG) method is a state of the art baseline attribution method in the axiomatic vein, meaning it is designed to conform to particular principles of attributions. We present four axiomatic characterizations of IG, establishing IG as the unique method to satisfy different sets of axioms among a class of attribution methods.",
+    "path": "papers/23/06/2306.13753.json",
+    "total_tokens": 667,
+    "translated_title": "集成梯度归因方法的四个公理化表征",
+    "translated_abstract": "深度神经网络在精度和功能上取得了重大进展，但其内部工作仍然很大程度上未知。归因方法旨在通过指示每个输入对模型输出的贡献来揭示这些“黑匣子”模型的工作原理。集成梯度（IG）方法是一种基于公理的最先进的基线归因方法，这意味着它被设计为符合归因的特定原则。我们提出了IG的四个公理化表征，将IG确立为满足一类归因方法不同公理集的唯一方法。",
+    "tldr": "本文提出了四个公理化表征，确定了集成梯度方法在符合不同公理集的归因方法类别中是唯一的。",
+    "en_tdlr": "This paper presents four axiomatic characterizations of the Integrated Gradients method, establishing it as the unique method to satisfy different sets of axioms among a class of attribution methods."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "A lower bound for the volatility swap in the lognormal SABR model. (arXiv:2306.14602v1 [q-fin.MF])",
+    "abstract": "In the short time to maturity limit it is proved that for the conditionally lognormal SABR model the zero vanna implied volatility is a lower bound for the volatility swap strike. The result is valid for all values of the correlation parameter and is a sharper lower bound than the at-the-money implied volatility for correlation less than or equal to zero.",
+    "link": "http://arxiv.org/abs/2306.14602",
+    "context": "Title: A lower bound for the volatility swap in the lognormal SABR model. (arXiv:2306.14602v1 [q-fin.MF])\nAbstract: In the short time to maturity limit it is proved that for the conditionally lognormal SABR model the zero vanna implied volatility is a lower bound for the volatility swap strike. The result is valid for all values of the correlation parameter and is a sharper lower bound than the at-the-money implied volatility for correlation less than or equal to zero.",
+    "path": "papers/23/06/2306.14602.json",
+    "total_tokens": 628,
+    "translated_title": "一种对数正态SABR模型波动率互换的下界",
+    "translated_abstract": "本研究证明，在短期到期的限制条件下，对于条件性对数正态的SABR模型，零散度隐含波动率是波动率互换行权价的下界。对于所有相关参数，该结果都是有效的，并且在相关性小于或等于零时比平值隐含波动率更为精确。",
+    "tldr": "本研究对于条件性对数正态的SABR模型，证明了零散度隐含波动率是波动率互换行权价的下界，该结论适用于所有相关参数，并且在相关性小于或等于零时比平值隐含波动率更为精确。",
+    "en_tdlr": "This study proves that for the conditionally lognormal SABR model, the zero vanna implied volatility is a lower bound for the volatility swap strike in the short time to maturity limit. The result holds for all values of the correlation parameter and is a sharper lower bound than the at-the-money implied volatility for correlation less than or equal to zero."
+}

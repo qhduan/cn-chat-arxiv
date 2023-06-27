@@ -1,0 +1,12 @@
+{
+    "title": "Toward A Logical Theory Of Fairness and Bias. (arXiv:2306.13659v1 [cs.AI])",
+    "abstract": "Fairness in machine learning is of considerable interest in recent years owing to the propensity of algorithms trained on historical data to amplify and perpetuate historical biases. In this paper, we argue for a formal reconstruction of fairness definitions, not so much to replace existing definitions but to ground their application in an epistemic setting and allow for rich environmental modelling. Consequently we look into three notions: fairness through unawareness, demographic parity and counterfactual fairness, and formalise these in the epistemic situation calculus.",
+    "link": "http://arxiv.org/abs/2306.13659",
+    "context": "Title: Toward A Logical Theory Of Fairness and Bias. (arXiv:2306.13659v1 [cs.AI])\nAbstract: Fairness in machine learning is of considerable interest in recent years owing to the propensity of algorithms trained on historical data to amplify and perpetuate historical biases. In this paper, we argue for a formal reconstruction of fairness definitions, not so much to replace existing definitions but to ground their application in an epistemic setting and allow for rich environmental modelling. Consequently we look into three notions: fairness through unawareness, demographic parity and counterfactual fairness, and formalise these in the epistemic situation calculus.",
+    "path": "papers/23/06/2306.13659.json",
+    "total_tokens": 667,
+    "translated_title": "实现公平和偏见的逻辑理论。",
+    "translated_abstract": "机器学习中的公平性因算法在历史数据上的训练而放大和延续历史偏差，近年来备受关注。本文提出了对公平性定义的形式重构，不是为了取代现有的定义，而是为了将它们的应用基于认知环境模型，从而允许进行丰富的环境建模。因此，我们探讨了三个概念：通过无意识来实现公平、人口学平等和反事实公正，并将它们在认知情况演算中进行了形式化。",
+    "tldr": "本文通过对公平性定义进行形式化重构，将其应用基于认知环境模型，提出了实现公平和偏见理论，包括三个概念：通过无意识来实现公平、人口学平等和反事实公正。",
+    "en_tdlr": "This paper proposes a formal reconstruction of fairness definitions based on an epistemic setting and rich environmental modeling, including three notions: fairness through unawareness, demographic parity, and counterfactual fairness."
+}

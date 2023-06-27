@@ -1,0 +1,12 @@
+{
+    "title": "Exploring Hybrid Linguistic Features for Turkish Text Readability. (arXiv:2306.03774v2 [cs.CL] UPDATED)",
+    "abstract": "This paper presents the first comprehensive study on automatic readability assessment of Turkish texts. We combine state-of-the-art neural network models with linguistic features at lexical, morphosyntactic, syntactic and discourse levels to develop an advanced readability tool. We evaluate the effectiveness of traditional readability formulas compared to modern automated methods and identify key linguistic features that determine the readability of Turkish texts.",
+    "link": "http://arxiv.org/abs/2306.03774",
+    "context": "Title: Exploring Hybrid Linguistic Features for Turkish Text Readability. (arXiv:2306.03774v2 [cs.CL] UPDATED)\nAbstract: This paper presents the first comprehensive study on automatic readability assessment of Turkish texts. We combine state-of-the-art neural network models with linguistic features at lexical, morphosyntactic, syntactic and discourse levels to develop an advanced readability tool. We evaluate the effectiveness of traditional readability formulas compared to modern automated methods and identify key linguistic features that determine the readability of Turkish texts.",
+    "path": "papers/23/06/2306.03774.json",
+    "total_tokens": 598,
+    "translated_title": "使用混合语言特征提高土耳其文本可读性的研究",
+    "translated_abstract": "本文首次对土耳其文本的自动可读性评估进行了全面研究。我们结合了最先进的神经网络模型和词汇、形态句法、语法和话语水平的语言特征，开发了一个先进的可读性工具。我们评估了传统可读性公式与现代自动方法的效果，并确定了影响土耳其文本可读性的关键语言特征。",
+    "tldr": "本文结合神经网络模型和各语言层面上的特征，开发出一种先进的土耳其文本可读性工具，发现了影响土耳其文本可读性的关键语言特征。",
+    "en_tdlr": "This paper introduces a novel approach combining neural network models and linguistic features at various levels to develop an advanced readability tool for Turkish texts, and identifies key linguistic features that determine their readability."
+}

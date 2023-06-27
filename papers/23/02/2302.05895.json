@@ -1,0 +1,12 @@
+{
+    "title": "Discourse Structure Extraction from Pre-Trained and Fine-Tuned Language Models in Dialogues. (arXiv:2302.05895v2 [cs.CL] UPDATED)",
+    "abstract": "Discourse processing suffers from data sparsity, especially for dialogues. As a result, we explore approaches to build discourse structures for dialogues, based on attention matrices from Pre-trained Language Models (PLMs). We investigate multiple tasks for fine-tuning and show that the dialogue-tailored Sentence Ordering task performs best. To locate and exploit discourse information in PLMs, we propose an unsupervised and a semi-supervised method. Our proposals achieve encouraging results on the STAC corpus, with F1 scores of 57.2 and 59.3 for unsupervised and semi-supervised methods, respectively. When restricted to projective trees, our scores improved to 63.3 and 68.1.",
+    "link": "http://arxiv.org/abs/2302.05895",
+    "context": "Title: Discourse Structure Extraction from Pre-Trained and Fine-Tuned Language Models in Dialogues. (arXiv:2302.05895v2 [cs.CL] UPDATED)\nAbstract: Discourse processing suffers from data sparsity, especially for dialogues. As a result, we explore approaches to build discourse structures for dialogues, based on attention matrices from Pre-trained Language Models (PLMs). We investigate multiple tasks for fine-tuning and show that the dialogue-tailored Sentence Ordering task performs best. To locate and exploit discourse information in PLMs, we propose an unsupervised and a semi-supervised method. Our proposals achieve encouraging results on the STAC corpus, with F1 scores of 57.2 and 59.3 for unsupervised and semi-supervised methods, respectively. When restricted to projective trees, our scores improved to 63.3 and 68.1.",
+    "path": "papers/23/02/2302.05895.json",
+    "total_tokens": 781,
+    "translated_title": "基于预训练和微调语言模型在对话中提取话语结构",
+    "translated_abstract": "话语处理因数据稀缺而受到困扰，特别是在对话中。因此，我们探索了基于预训练语言模型（PLMs）的注意力矩阵来构建对话的话语结构的方法。我们研究了多种微调任务，并表明专门针对对话的句子排序任务表现最佳。为了定位和利用PLMs中的话语信息，我们提出了一种无监督和半监督方法。我们的提议在STAC语料库上取得了令人鼓舞的结果，无监督方法和半监督方法的F1分别为57.2和59.3。当限制在投影树上时，我们的得分提高到了63.3和68.1。",
+    "tldr": "该论文探讨了如何利用预训练语言模型和微调任务在对话中构建话语结构，提出了无监督和半监督方法，并在STAC语料库上取得了令人鼓舞的结果。",
+    "en_tdlr": "This paper explores how to build discourse structures in dialogues using pre-trained language models and fine-tuning tasks, proposes unsupervised and semi-supervised methods to locate and exploit discourse information in PLMs, and achieves encouraging results on the STAC corpus."
+}

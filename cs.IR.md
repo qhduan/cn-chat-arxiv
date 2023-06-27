@@ -2,127 +2,172 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Fuzzification-based Feature Selection for Enhanced Website Content Encryption.](http://arxiv.org/abs/2306.13548) | 本文提出了一种基于模糊化理论的特征选择技术，利用其可以更加细致地分析网站内容特征，以提高网站内容加密的效率和有效性，从而增强整体互联网的安全性。 |
-| [^2] | [OptMSM: Optimizing Multi-Scenario Modeling for Click-Through Rate Prediction.](http://arxiv.org/abs/2306.13382) | OptMSM提出了一个新的框架来优化多场景点击率预测问题，通过场景低秩矩阵重构和场景共享机制来减少模型参数大小并提高预测性能。 |
-| [^3] | [Human Activity Behavioural Pattern Recognition in Smarthome with Long-hour Data Collection.](http://arxiv.org/abs/2306.13374) | 本文提出了一种基于深度学习模型和多种环境传感器结合的混合传感器人类活动识别框架，可识别出更多的活动，有助于推导出人类活动模式或用户画像。 |
-| [^4] | [A Decade of Scholarly Research on Open Knowledge Graphs.](http://arxiv.org/abs/2306.13186) | 本文分析了过去十年开放知识图谱的学术研究趋势和主题，并确定了知识图谱构建和增强、评估和复用以及将知识图谱融入NLP系统的三个主要研究主题。 |
-| [^5] | [An overview on the evaluated video retrieval tasks at TRECVID 2022.](http://arxiv.org/abs/2306.13118) | TRECVID是一种TREC风格的视频分析和检索评估方法，它旨在促进数字视频中基于内容的开发和检索信息。TRECVID 2022计划开展六个任务，有来自世界各地的35个研究组织参加。 |
-| [^6] | [CompMix: A Benchmark for Heterogeneous Question Answering.](http://arxiv.org/abs/2306.12235) | CompMix是一个异构问答系统的基准测试，有多个信息源和复杂意图，旨在提供公平的评估QA系统的能力。 |
-| [^7] | [Tourist Attractions Recommendation based on Attention Knowledge Graph Convolution Network.](http://arxiv.org/abs/2306.10946) | 本文提出了一种基于注意力知识图卷积网络的旅游景点推荐模型，通过自动语义发掘目标景点的相邻实体，根据旅客的喜好选择，预测类似景点的概率，实验中取得良好效果。 |
-| [^8] | [A Dataset of Coordinated Cryptocurrency-Related Social Media Campaigns.](http://arxiv.org/abs/2301.06601) | 本文介绍了一份协调加密货币相关社交媒体活动的数据集，其中包含了跨媒体赏金活动的信息、参与者、论坛评论和社交媒体URL。该数据集可以为不同领域的研究提供潜在机遇，并强调了潜在的创新点。 |
+| [^1] | [Enhancing Dynamic Image Advertising with Vision-Language Pre-training.](http://arxiv.org/abs/2306.14112) | 该论文提出了一种视觉-语言框架，在大规模图像文本对上训练基础模型，并在广告商业数据上进行微调，通过多目标学习统一相关性建模和检索。该框架可以显著提高动态图像广告(DIA)的性能。 |
+| [^2] | [Cross-domain Recommender Systems via Multimodal Domain Adaptation.](http://arxiv.org/abs/2306.13887) | 通过多模态领域自适应技术实现跨领域推荐系统，解决数据稀疏性问题，提升推荐性能。 |
+| [^3] | [DEKGCI: A double-sided recommendation model for integrating knowledge graph and user-item interaction graph.](http://arxiv.org/abs/2306.13837) | 本文提出了DEKGCI，一种双面推荐模型，在用户-物品交互图和知识图谱中同时丰富用户和物品表示，以有效捕捉用户和物品之间的联合交互。 |
+| [^4] | [Retrieving Supporting Evidence for LLMs Generated Answers.](http://arxiv.org/abs/2306.13781) | 本文提出了通过检索外部语料库获取LLMs生成答案的支持证据的实验方法，以解决LLMs容易产生错误答案的问题。 |
+| [^5] | [Multimodality Fusion for Smart Healthcare: a Journey from Data, Information, Knowledge to Wisdom.](http://arxiv.org/abs/2306.11963) | 本文综述了多模态医学数据融合在智慧医疗中的应用，提出了符合DIKW机制的通用融合框架，探讨了面临的挑战和未来的发展方向。 |
+| [^6] | [Towards Open-World Recommendation with Knowledge Augmentation from Large Language Models.](http://arxiv.org/abs/2306.10933) | 本文介绍了KAR框架，它从大型语言模型中获取两种类型的外部知识，分别是用户偏好的推理知识和项目的事实知识。通过混合专家适配器将推理和事实知识转换为增强向量，以便与现有的协同过滤推荐算法兼容。 |
+| [^7] | [CLaMP: Contrastive Language-Music Pre-training for Cross-Modal Symbolic Music Information Retrieval.](http://arxiv.org/abs/2304.11029) | CLaMP是一种对比语言-音乐预训练技术，能够学习符号音乐和自然语言之间的跨模态表示。通过数据增强和分块处理，它将符号音乐表示成长度不到10％的序列，并使用掩蔽音乐模型预训练目标来增强音乐编码器对音乐上下文和结构的理解。这种技术超越了现有模型的能力，可以实现符号音乐的语义搜索和零样本分类。 |
+| [^8] | [Is ChatGPT a Good Recommender? A Preliminary Study.](http://arxiv.org/abs/2304.10149) | 本论文研究了在推荐领域广泛使用的ChatGPT的潜力。实验结果表明即使没有微调，ChatGPT在五个推荐场景中表现出色，具有很好的推荐精度和解释性。 |
+| [^9] | [PROD: Progressive Distillation for Dense Retrieval.](http://arxiv.org/abs/2209.13335) | 本文提出了一种渐进式蒸馏方法PROD，用于密集检索，通过逐步改进学生模型来填补教师和学生之间的差距，并在五个基准数据集上取得了最先进的性能。 |
+| [^10] | [DiSCoMaT: Distantly Supervised Composition Extraction from Tables in Materials Science Articles.](http://arxiv.org/abs/2207.01079) | 本文提出了一个新型挑战任务，即通过远程监督方式从科学文章中的表格中提取有关材料组成的信息。为此，研究者创建了一个包含4408个远程监督表格和1475个手动注释的开发和测试表格的训练数据集，并提出了一个强基线——DiSCoMaT。 |
+| [^11] | [ReuseKNN: Neighborhood Reuse for Differentially-Private KNN-Based Recommendations.](http://arxiv.org/abs/2206.11561) | ReuseKNN是一种面向差分隐私的KNN推荐系统，通过识别小但高度可重用的邻域来减少差分隐私的使用，减小了隐私泄露的风险，并且需要保护的邻居较少，从而提高了推荐的准确性。 |
 
 # 详细
 
-[^1]: 基于模糊化的特征选择技术用于网站内容加密增强
+[^1]: 通过视觉-语言预训练增强动态图像广告
 
-    Fuzzification-based Feature Selection for Enhanced Website Content Encryption. (arXiv:2306.13548v1 [cs.CR])
+    Enhancing Dynamic Image Advertising with Vision-Language Pre-training. (arXiv:2306.14112v1 [cs.IR])
 
-    [http://arxiv.org/abs/2306.13548](http://arxiv.org/abs/2306.13548)
+    [http://arxiv.org/abs/2306.14112](http://arxiv.org/abs/2306.14112)
 
-    本文提出了一种基于模糊化理论的特征选择技术，利用其可以更加细致地分析网站内容特征，以提高网站内容加密的效率和有效性，从而增强整体互联网的安全性。
-
-    
-
-    本文提出了一种利用模糊化理论对网站内容进行特征选择进行加密的新方法。我们的目的是通过利用模糊逻辑的原理识别和选择网站中最相关的特征。模糊化允许我们将清晰的网站内容转换为模糊表示，从而更加细致地分析其特征。通过考虑每个特征在不同模糊类别中的成员资格程度，我们可以评估它们在加密中的重要性和相关性。这种方法使我们能够优先关注展示出更高会员资格度的特征，表明它们在加密过程中的重要性。通过采用基于模糊化的特征选择方法，我们旨在提高网站内容加密的效率和有效性，最终改善整体互联网安全性。
-
-    We propose a novel approach that utilizes fuzzification theory to perform feature selection on website content for encryption purposes. Our objective is to identify and select the most relevant features from the website by harnessing the principles of fuzzy logic. Fuzzification allows us to transform the crisp website content into fuzzy representations, enabling a more nuanced analysis of their characteristics. By considering the degree of membership of each feature in different fuzzy categories, we can evaluate their importance and relevance for encryption. This approach enables us to prioritize and focus on the features that exhibit higher membership degrees, indicating their significance in the encryption process. By employing fuzzification-based feature selection, we aim to enhance the effectiveness and efficiency of website content encryption, ultimately improving the overall internet security.
-    
-[^2]: OptMSM: 用于点击率预测的多场景建模优化
-
-    OptMSM: Optimizing Multi-Scenario Modeling for Click-Through Rate Prediction. (arXiv:2306.13382v1 [cs.IR])
-
-    [http://arxiv.org/abs/2306.13382](http://arxiv.org/abs/2306.13382)
-
-    OptMSM提出了一个新的框架来优化多场景点击率预测问题，通过场景低秩矩阵重构和场景共享机制来减少模型参数大小并提高预测性能。
+    该论文提出了一种视觉-语言框架，在大规模图像文本对上训练基础模型，并在广告商业数据上进行微调，通过多目标学习统一相关性建模和检索。该框架可以显著提高动态图像广告(DIA)的性能。
 
     
 
-    大规模工业推荐平台通常由多个关联场景组成，需要一个统一的点击率（CTR）预测模型来同时为它们提供服务。现有的多场景CTR预测方法通常由两个主要模块组成：i）场景感知学习模块，从输入特征中学习一组具有场景共享和场景特定信息的多功能表示，以及ii）场景特定预测模块，基于这些表示为每个场景提供服务。然而，大多数这些方法主要关注前者，而忽略了后者模块，这可能会导致每个场景的模型参数尺寸增加、训练难度增加以及性能瓶颈的挑战。为解决这些问题，我们提出了一个新的框架，称为OptMSM（\textbf{Opt}imizing \textbf{M}ulti-\textbf{S}cenario \textbf{M}odeling）。首先，我们介绍了一种简化而有效的场景感知学习方法，以避免考虑大多数场景特定预测模块。然后，我们引入场景低秩矩阵重构来减少模型参数大小，并引入一种新的场景共享机制来提高预测性能。
+    在多媒体时代，图像是搜索广告中一种有效的媒介。动态图像广告(DIA)是一种系统，它将查询与广告图像匹配并生成多模式广告，从而提高用户体验和广告收益。DIA的核心是查询-图像匹配模块，执行广告图像检索和相关性建模。当前的查询-图像匹配存在数据有限和不一致以及跨模态交互不足的问题。而且，检索和相关性模型的分别优化影响了整体性能。为了解决这个问题，我们提出了一个视觉-语言框架，由两部分组成。首先，我们在大规模图像文本对上训练一个基础模型，学习通用的多模态表示。然后，我们在广告商业数据上对基础模型进行微调，通过多目标学习统一相关性建模和检索。我们的框架已经在百度搜索广告系统"Phoneix Nest"上实现。在线评估表明，我们的框架相较于传统方法取得了显著的提升。
 
-    A large-scale industrial recommendation platform typically consists of multiple associated scenarios, requiring a unified click-through rate (CTR) prediction model to serve them simultaneously. Existing approaches for multi-scenario CTR prediction generally consist of two main modules: i) a scenario-aware learning module that learns a set of multi-functional representations with scenario-shared and scenario-specific information from input features, and ii) a scenario-specific prediction module that serves each scenario based on these representations. However, most of these approaches primarily focus on improving the former module and neglect the latter module. This can result in challenges such as increased model parameter size, training difficulty, and performance bottlenecks for each scenario. To address these issues, we propose a novel framework called OptMSM (\textbf{Opt}imizing \textbf{M}ulti-\textbf{S}cenario \textbf{M}odeling). First, we introduce a simplified yet effective scen
+    In the multimedia era, image is an effective medium in search advertising. Dynamic Image Advertising (DIA), a system that matches queries with ad images and generates multimodal ads, is introduced to improve user experience and ad revenue. The core of DIA is a query-image matching module performing ad image retrieval and relevance modeling. Current query-image matching suffers from limited and inconsistent data, and insufficient cross-modal interaction. Also, the separate optimization of retrieval and relevance models affects overall performance. To address this issue, we propose a vision-language framework consisting of two parts. First, we train a base model on large-scale image-text pairs to learn general multimodal representation. Then, we fine-tune the base model on advertising business data, unifying relevance modeling and retrieval through multi-objective learning. Our framework has been implemented in Baidu search advertising system "Phoneix Nest". Online evaluation shows that 
     
-[^3]: 长期数据采集下的智能家居人类活动行为模式识别
+[^2]: 通过多模态领域自适应实现跨领域推荐系统
 
-    Human Activity Behavioural Pattern Recognition in Smarthome with Long-hour Data Collection. (arXiv:2306.13374v1 [cs.HC])
+    Cross-domain Recommender Systems via Multimodal Domain Adaptation. (arXiv:2306.13887v1 [cs.IR])
 
-    [http://arxiv.org/abs/2306.13374](http://arxiv.org/abs/2306.13374)
+    [http://arxiv.org/abs/2306.13887](http://arxiv.org/abs/2306.13887)
 
-    本文提出了一种基于深度学习模型和多种环境传感器结合的混合传感器人类活动识别框架，可识别出更多的活动，有助于推导出人类活动模式或用户画像。
-
-    
-
-    人类活动识别的研究为医疗保健、运动和用户画像等许多应用提供了新颖的解决方案。考虑到人类活动的复杂性，即使有有效的传感器仍然具有挑战性。目前使用智能手机传感器进行人类活动识别的现有工作，专注于识别如坐、睡眠、站立、上下楼梯和奔跑等基本的人类活动。然而，分析人类行为模式需要更多的活动。所提出的框架使用深度学习模型识别基本人类活动，同时结合环境传感器（如PIR、压力传感器）和基于智能手机的传感器（如加速度计和陀螺仪）来实现混合传感器人类活动识别。混合方法帮助推导出比基本活动更多的活动，这也有助于推导出人类活动模式或用户画像。用户画像提供了足够的信息。
-
-    The research on human activity recognition has provided novel solutions to many applications like healthcare, sports, and user profiling. Considering the complex nature of human activities, it is still challenging even after effective and efficient sensors are available. The existing works on human activity recognition using smartphone sensors focus on recognizing basic human activities like sitting, sleeping, standing, stair up and down and running. However, more than these basic activities is needed to analyze human behavioural pattern. The proposed framework recognizes basic human activities using deep learning models. Also, ambient sensors like PIR, pressure sensors, and smartphone-based sensors like accelerometers and gyroscopes are combined to make it hybrid-sensor-based human activity recognition. The hybrid approach helped derive more activities than the basic ones, which also helped derive human activity patterns or user profiling. User profiling provides sufficient informatio
-    
-[^4]: 开放知识图谱的十年学术研究
-
-    A Decade of Scholarly Research on Open Knowledge Graphs. (arXiv:2306.13186v1 [cs.DL])
-
-    [http://arxiv.org/abs/2306.13186](http://arxiv.org/abs/2306.13186)
-
-    本文分析了过去十年开放知识图谱的学术研究趋势和主题，并确定了知识图谱构建和增强、评估和复用以及将知识图谱融入NLP系统的三个主要研究主题。
+    通过多模态领域自适应技术实现跨领域推荐系统，解决数据稀疏性问题，提升推荐性能。
 
     
 
-    过去十年间，开放知识图谱的普及导致了对该话题的学术研究的激增。本文展示了针对2013年至2023年间出版的有关开放知识图谱的学术文献的文献计量分析。该研究旨在识别该领域中的趋势，模式和研究的影响，以及出现的关键主题和研究问题。该作品使用文献计量技术分析了从Scopus检索到的4445篇学术文章的样本。研究结果显示，每年关于开放知识图谱的出版物数量不断增加，特别是在发达国家(+50 per year)。这些成果发表在高度引用的学术期刊和会议上。该研究确定了三个主要研究主题：(1)知识图谱的构建和增强，(2)评估和复用，以及(3)将知识图谱融入NLP系统中。在这些主题中，研究确定了广泛研究的具体任务，例如实体链接，关系提取和本体学习。
+    协同过滤（CF）已成为推荐系统最重要的实现策略之一。关键思想是利用个人使用模式生成个性化推荐。尤其是对于新推出的平台，CF技术常常面临数据稀疏性的问题，这极大地限制了它们的性能。在解决数据稀疏性问题方面，文献中提出了几种方法，其中跨领域协同过滤（CDCF）在最近受到了广泛的关注。为了补偿目标领域中可用反馈的不足，CDCF方法利用其他辅助领域中的信息。大多数传统的CDCF方法的目标是在领域之间找到一组共同的实体（用户或项目），然后将它们用作知识转移的桥梁。但是，大多数真实世界的数据集是从不同的领域收集的，这使得跨领域协同过滤更加具有挑战性。
 
-    The proliferation of open knowledge graphs has led to a surge in scholarly research on the topic over the past decade. This paper presents a bibliometric analysis of the scholarly literature on open knowledge graphs published between 2013 and 2023. The study aims to identify the trends, patterns, and impact of research in this field, as well as the key topics and research questions that have emerged. The work uses bibliometric techniques to analyze a sample of 4445 scholarly articles retrieved from Scopus. The findings reveal an ever-increasing number of publications on open knowledge graphs published every year, particularly in developed countries (+50 per year). These outputs are published in highly-referred scholarly journals and conferences. The study identifies three main research themes: (1) knowledge graph construction and enrichment, (2) evaluation and reuse, and (3) fusion of knowledge graphs into NLP systems. Within these themes, the study identifies specific tasks that have 
+    Collaborative Filtering (CF) has emerged as one of the most prominent implementation strategies for building recommender systems. The key idea is to exploit the usage patterns of individuals to generate personalized recommendations. CF techniques, especially for newly launched platforms, often face a critical issue known as the data sparsity problem, which greatly limits their performance. Several approaches have been proposed in the literature to tackle the problem of data sparsity, among which cross-domain collaborative filtering (CDCF) has gained significant attention in the recent past. In order to compensate for the scarcity of available feedback in a target domain, the CDCF approach makes use of information available in other auxiliary domains. Most of the traditional CDCF approach aim is to find a common set of entities (users or items) across the domains and then use them as a bridge for knowledge transfer. However, most real-world datasets are collected from different domains,
     
-[^5]: TRECVID 2022 中评估视频检索任务的概述
+[^3]: DEKGCI：一种用于整合知识图谱与用户-物品交互图的双面推荐模型
 
-    An overview on the evaluated video retrieval tasks at TRECVID 2022. (arXiv:2306.13118v1 [cs.AI])
+    DEKGCI: A double-sided recommendation model for integrating knowledge graph and user-item interaction graph. (arXiv:2306.13837v1 [cs.IR])
 
-    [http://arxiv.org/abs/2306.13118](http://arxiv.org/abs/2306.13118)
+    [http://arxiv.org/abs/2306.13837](http://arxiv.org/abs/2306.13837)
 
-    TRECVID是一种TREC风格的视频分析和检索评估方法，它旨在促进数字视频中基于内容的开发和检索信息。TRECVID 2022计划开展六个任务，有来自世界各地的35个研究组织参加。
-
-    
-
-    TREC 视频检索评估（TRECVID）是一种 TREC 风格的视频分析和检索评估方法，旨在通过开放、任务驱动的评估和测量来促进数字视频中基于内容的开发和检索信息。多年来，该评估方法已经在如何有效地完成处理和如何可靠地对系统性能进行基准测试方面取得了进展。TRECVID 由美国国家标准技术研究所（NIST）和其他美国政府机构资助，以及来自世界各地的许多组织和个人贡献了重要的时间和精力。 TRECVID 2022计划开展以下六个任务：自适应视频搜索、视频文本字幕、灾难场景描述和索引、扩展视频中的活动、深度视频理解和电影摘要。总共，来自世界各地的35个研究组织报名参加了TRECVID 2022。
-
-    The TREC Video Retrieval Evaluation (TRECVID) is a TREC-style video analysis and retrieval evaluation with the goal of promoting progress in research and development of content-based exploitation and retrieval of information from digital video via open, tasks-based evaluation supported by metrology. Over the last twenty-one years this effort has yielded a better understanding of how systems can effectively accomplish such processing and how one can reliably benchmark their performance. TRECVID has been funded by NIST (National Institute of Standards and Technology) and other US government agencies. In addition, many organizations and individuals worldwide contribute significant time and effort. TRECVID 2022 planned for the following six tasks: Ad-hoc video search, Video to text captioning, Disaster scene description and indexing, Activity in extended videos, deep video understanding, and movie summarization. In total, 35 teams from various research organizations worldwide signed up to 
-    
-[^6]: CompMix: 一种异构问答系统的基准测试
-
-    CompMix: A Benchmark for Heterogeneous Question Answering. (arXiv:2306.12235v1 [cs.IR])
-
-    [http://arxiv.org/abs/2306.12235](http://arxiv.org/abs/2306.12235)
-
-    CompMix是一个异构问答系统的基准测试，有多个信息源和复杂意图，旨在提供公平的评估QA系统的能力。
+    本文提出了DEKGCI，一种双面推荐模型，在用户-物品交互图和知识图谱中同时丰富用户和物品表示，以有效捕捉用户和物品之间的联合交互。
 
     
 
-    事实为中心的问答系统经常需要访问多种异构信息源。通过共同考虑多个信息源，如知识库、文本收集和来自网络的表格，问答系统可以增强其答案覆盖范围和可信度。然而，现有的 QA 基准测试大多是为了构建单一的知识资源而设计的。这限制了这些基准测试的能力，无法公平地评估可以利用多个信息库的 QA 系统。为了弥补这一差距，我们发布了 CompMix，这是一种由众包问答构建的基准测试，自然地要求集成多种输入源。CompMix 共有 9,410 个问题，并具有多个复杂意图，如连接和时间条件。在 CompMix 上评估一系列 QA 系统强调了进一步研究利用异构信息源的必要性。
+    由于能够提供丰富的信息，知识图谱和用户-物品交互图在推荐系统中被频繁使用来建模用户和物品。然而，现有的研究通常只关注其中一种信息源（即知识图谱或用户-物品交互图），导致未充分利用整合两种信息源所带来的好处。本文提出了一种新颖的双面推荐模型DEKGCI。在DEKGCI中，我们使用来自用户-物品交互图的高阶协作信号来丰富用户表示，同时利用来自知识图谱的高阶结构和语义信息来丰富物品表示。DEKGCI同时学习用户和物品表示，以有效捕捉用户和物品之间的联合交互。实验采用了三个真实世界的数据集来评估DEKGCI。
 
-    Fact-centric question answering (QA) often requires access to multiple, heterogeneous, information sources. By jointly considering several sources like a knowledge base (KB), a text collection, and tables from the web, QA systems can enhance their answer coverage and confidence. However, existing QA benchmarks are mostly constructed with a single source of knowledge in mind. This limits capabilities of these benchmarks to fairly evaluate QA systems that can tap into more than one information repository. To bridge this gap, we release CompMix, a crowdsourced QA benchmark which naturally demands the integration of a mixture of input sources. CompMix has a total of 9,410 questions, and features several complex intents like joins and temporal conditions. Evaluation of a range of QA systems on CompMix highlights the need for further research on leveraging information from heterogeneous sources.
+    Both knowledge graphs and user-item interaction graphs are frequently used in recommender systems due to their ability to provide rich information for modeling users and items. However, existing studies often focused on one of these sources (either the knowledge graph or the user-item interaction graph), resulting in underutilization of the benefits that can be obtained by integrating both sources of information. In this paper, we propose DEKGCI, a novel double-sided recommendation model. In DEKGCI, we use the high-order collaborative signals from the user-item interaction graph to enrich the user representations on the user side. Additionally, we utilize the high-order structural and semantic information from the knowledge graph to enrich the item representations on the item side. DEKGCI simultaneously learns the user and item representations to effectively capture the joint interactions between users and items. Three real-world datasets are adopted in the experiments to evaluate DEKG
     
-[^7]: 基于注意力知识图卷积网络的旅游景点推荐
+[^4]: 获取LLMs生成答案的支持证据
 
-    Tourist Attractions Recommendation based on Attention Knowledge Graph Convolution Network. (arXiv:2306.10946v1 [cs.IR] CROSS LISTED)
+    Retrieving Supporting Evidence for LLMs Generated Answers. (arXiv:2306.13781v1 [cs.IR])
 
-    [http://arxiv.org/abs/2306.10946](http://arxiv.org/abs/2306.10946)
+    [http://arxiv.org/abs/2306.13781](http://arxiv.org/abs/2306.13781)
 
-    本文提出了一种基于注意力知识图卷积网络的旅游景点推荐模型，通过自动语义发掘目标景点的相邻实体，根据旅客的喜好选择，预测类似景点的概率，实验中取得良好效果。
-
-    
-
-    基于知识图谱的推荐算法在相对成熟阶段，但在特定领域的推荐仍存在问题。例如在旅游领域，选择适合的旅游景点属性流程作为推荐基础较为复杂。本文提出改进的注意力知识图卷积网络模型(Att-KGCN)，自动语义地发掘目标景点的相邻实体，利用注意力层将相对相似的位置进行聚合，并通过推理旅客喜好选择，预测类似景点的概率作为推荐系统。实验中，采用索科特拉岛-也门的旅游数据，证明了注意力知识图卷积网络在旅游领域的景点推荐效果良好。
-
-    The recommendation algorithm based on knowledge graphs is at a relatively mature stage. However, there are still some problems in the recommendation of specific areas. For example, in the tourism field, selecting suitable tourist attraction attributes process is complicated as the recommendation basis for tourist attractions. In this paper, we propose the improved Attention Knowledge Graph Convolution Network model, named (Att-KGCN), which automatically discovers the neighboring entities of the target scenic spot semantically. The attention layer aggregates relatively similar locations and represents them with an adjacent vector. Then, according to the tourist's preferred choices, the model predicts the probability of similar spots as a recommendation system. A knowledge graph dataset of tourist attractions used based on tourism data on Socotra Island-Yemen. Through experiments, it is verified that the Attention Knowledge Graph Convolution Network has a good effect on the recommendatio
-    
-[^8]: 一份协调加密货币相关社交媒体活动的数据集
-
-    A Dataset of Coordinated Cryptocurrency-Related Social Media Campaigns. (arXiv:2301.06601v2 [cs.HC] UPDATED)
-
-    [http://arxiv.org/abs/2301.06601](http://arxiv.org/abs/2301.06601)
-
-    本文介绍了一份协调加密货币相关社交媒体活动的数据集，其中包含了跨媒体赏金活动的信息、参与者、论坛评论和社交媒体URL。该数据集可以为不同领域的研究提供潜在机遇，并强调了潜在的创新点。
+    本文提出了通过检索外部语料库获取LLMs生成答案的支持证据的实验方法，以解决LLMs容易产生错误答案的问题。
 
     
 
-    加密资产的普及使得许多新手投资者进入了加密货币领域。这些投资者可以受到他们从社交媒体上接收到的信息的不成比例的影响。本文介绍了一个有关加密货币赏金活动和参与者的数据集。这些活动协调社交媒体活动，创造人为的“炒作”，以影响加密项目代币的价格。该数据集包含从2014年5月到2022年12月期间从BitcoinTalk在线论坛的Bounties(Altcoins)子论坛收集的15.8K个跨媒体赏金活动的信息、185K个参与者、10M条论坛评论和82M个社交媒体URL。我们描述了数据收集和数据处理方法，并对数据集进行了基本特征的描述。此外，我们探讨了该数据集在许多领域内提供的潜在研究机遇，并强调了潜在的创新点。
+    目前的大型语言模型（LLM）在许多自然语言任务，包括开放域问答方面都表现出接近人类水平的性能。不幸的是，它们也会诱导出不正确的答案，因此在接受回答之前必须对其进行验证。在本文中，我们报告了一个简单的实验，以自动验证生成的答案是否与语料库匹配。我们将问题展示给 LLM 并获得生成的答案后，我们使用问题 + 生成的答案这一组合在语料库中查询。然后我们向 LLM 提供问题 + 生成的答案 + 检索到的答案这一组合，促使其指示生成的答案是否可以得到支持。我们的实验基于 MS MARCO (V1) 测试集中的问题和段落，探索了三种检索方法，从标准 BM25到完整的问答堆栈，包括基于阅读的方法。
 
-    The rise in adoption of cryptoassets has brought many new and inexperienced investors in the cryptocurrency space. These investors can be disproportionally influenced by information they receive online, and particularly from social media. This paper presents a dataset of crypto-related bounty events and the users that participate in them. These events coordinate social media campaigns to create artificial "hype" around a crypto project in order to influence the price of its token. The dataset consists of information about 15.8K cross-media bounty events, 185K participants, 10M forum comments and 82M social media URLs collected from the Bounties(Altcoins) subforum of the BitcoinTalk online forum from May 2014 to December 2022. We describe the data collection and the data processing methods employed and we present a basic characterization of the dataset. Furthermore, we discuss potential research opportunities afforded by the dataset across many disciplines and we highlight potential nov
+    Current large language models (LLMs) can exhibit near-human levels of performance on many natural language tasks, including open-domain question answering. Unfortunately, they also convincingly hallucinate incorrect answers, so that responses to questions must be verified against external sources before they can be accepted at face value. In this paper, we report a simple experiment to automatically verify generated answers against a corpus. After presenting a question to an LLM and receiving a generated answer, we query the corpus with the combination of the question + generated answer. We then present the LLM with the combination of the question + generated answer + retrieved answer, prompting it to indicate if the generated answer can be supported by the retrieved answer. We base our experiment on questions and passages from the MS MARCO (V1) test collection, exploring three retrieval approaches ranging from standard BM25 to a full question answering stack, including a reader based 
+    
+[^5]: 智慧医疗中的多模态融合:从数据、信息、知识到智慧之旅
+
+    Multimodality Fusion for Smart Healthcare: a Journey from Data, Information, Knowledge to Wisdom. (arXiv:2306.11963v1 [cs.IR])
+
+    [http://arxiv.org/abs/2306.11963](http://arxiv.org/abs/2306.11963)
+
+    本文综述了多模态医学数据融合在智慧医疗中的应用，提出了符合DIKW机制的通用融合框架，探讨了面临的挑战和未来的发展方向。
+
+    
+
+    多模态医学数据融合已成为智慧医疗中的一种革新性方法，能够全面了解患者健康状况和个性化治疗方案。本文探讨了多模态融合为智慧医疗带来的从数据、信息和知识到智慧（DIKW）之旅。全面回顾了多模态医学数据融合的研究现状，重点关注了不同数据模态的集成方式。文章探讨了特征选择、基于规则的系统、机器学习、深度学习和自然语言处理等不同方法，用于多模态数据的融合和分析。同时，文章也着重讨论了多模态融合在医疗保健中面临的挑战。通过综合评述的框架和见解，提出了一个符合DIKW机制的通用多模态医疗数据融合框架。此外，文章还探讨了未来与预测、预防、个性化和治疗有关的医疗方向。
+
+    Multimodal medical data fusion has emerged as a transformative approach in smart healthcare, enabling a comprehensive understanding of patient health and personalized treatment plans. In this paper, a journey from data, information, and knowledge to wisdom (DIKW) is explored through multimodal fusion for smart healthcare. A comprehensive review of multimodal medical data fusion focuses on the integration of various data modalities are presented. It explores different approaches such as Feature selection, Rule-based systems, Machine learning, Deep learning, and Natural Language Processing for fusing and analyzing multimodal data. The paper also highlights the challenges associated with multimodal fusion in healthcare. By synthesizing the reviewed frameworks and insights, a generic framework for multimodal medical data fusion is proposed while aligning with the DIKW mechanism. Moreover, it discusses future directions aligned with the four pillars of healthcare: Predictive, Preventive, Pe
+    
+[^6]: 基于大型语言模型的开放世界推荐系统
+
+    Towards Open-World Recommendation with Knowledge Augmentation from Large Language Models. (arXiv:2306.10933v2 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2306.10933](http://arxiv.org/abs/2306.10933)
+
+    本文介绍了KAR框架，它从大型语言模型中获取两种类型的外部知识，分别是用户偏好的推理知识和项目的事实知识。通过混合专家适配器将推理和事实知识转换为增强向量，以便与现有的协同过滤推荐算法兼容。
+
+    
+
+    推荐系统在各种在线服务中都扮演着至关重要的角色。但是，它们在特定领域内进行训练和部署的封闭性限制了它们访问开放世界知识的能力。最近，大型语言模型(LLM)的出现在编码广泛的世界知识和展示推理能力方面显示出了希望。尽管如此，直接使用LLM作为推荐人之前的尝试并没有取得令人满意的结果。在本文中，我们提出了一种基于大型语言模型的开放世界知识增强推荐框架(KAR)，以从LLM获取两种类型的外部知识--用户偏好的推理知识和项目的事实知识。我们介绍了因子分解提示来引导对用户喜好的准确推理。生成的推理和事实知识通过混合专家适配器有效地转换并压缩为增强向量，以便与现有的协同过滤推荐算法兼容。
+
+    Recommender systems play a vital role in various online services. However, the insulated nature of training and deploying separately within a specific domain limits their access to open-world knowledge. Recently, the emergence of large language models (LLMs) has shown promise in bridging this gap by encoding extensive world knowledge and demonstrating reasoning capability. Nevertheless, previous attempts to directly use LLMs as recommenders have not achieved satisfactory results. In this work, we propose an Open-World Knowledge Augmented Recommendation Framework with Large Language Models, dubbed KAR, to acquire two types of external knowledge from LLMs -- the reasoning knowledge on user preferences and the factual knowledge on items. We introduce factorization prompting to elicit accurate reasoning on user preferences. The generated reasoning and factual knowledge are effectively transformed and condensed into augmented vectors by a hybrid-expert adaptor in order to be compatible with
+    
+[^7]: CLaMP：用于跨模态符号音乐信息检索的对比语言-音乐预训练
+
+    CLaMP: Contrastive Language-Music Pre-training for Cross-Modal Symbolic Music Information Retrieval. (arXiv:2304.11029v1 [cs.SD])
+
+    [http://arxiv.org/abs/2304.11029](http://arxiv.org/abs/2304.11029)
+
+    CLaMP是一种对比语言-音乐预训练技术，能够学习符号音乐和自然语言之间的跨模态表示。通过数据增强和分块处理，它将符号音乐表示成长度不到10％的序列，并使用掩蔽音乐模型预训练目标来增强音乐编码器对音乐上下文和结构的理解。这种技术超越了现有模型的能力，可以实现符号音乐的语义搜索和零样本分类。
+
+    
+
+    我们介绍了CLaMP：对比语言-音乐预训练，它使用音乐编码器和文本编码器通过对比损失函数联合训练来学习自然语言和符号音乐之间的跨模态表示。为了预训练CLaMP，我们收集了140万个音乐-文本对的大型数据集。它使用了文本随机失活来进行数据增强和分块处理以高效地表示音乐数据，从而将序列长度缩短到不到10％。此外，我们开发了一个掩蔽音乐模型预训练目标，以增强音乐编码器对音乐上下文和结构的理解。CLaMP集成了文本信息，以实现符号音乐的语义搜索和零样本分类，超越了先前模型的能力。为支持语义搜索和音乐分类的评估，我们公开发布了WikiMusicText（WikiMT），这是一个包含1010个ABC符号谱的数据集，每个谱都附带有标题、艺术家、流派和描述信息。
+
+    We introduce CLaMP: Contrastive Language-Music Pre-training, which learns cross-modal representations between natural language and symbolic music using a music encoder and a text encoder trained jointly with a contrastive loss. To pre-train CLaMP, we collected a large dataset of 1.4 million music-text pairs. It employed text dropout as a data augmentation technique and bar patching to efficiently represent music data which reduces sequence length to less than 10%. In addition, we developed a masked music model pre-training objective to enhance the music encoder's comprehension of musical context and structure. CLaMP integrates textual information to enable semantic search and zero-shot classification for symbolic music, surpassing the capabilities of previous models. To support the evaluation of semantic search and music classification, we publicly release WikiMusicText (WikiMT), a dataset of 1010 lead sheets in ABC notation, each accompanied by a title, artist, genre, and description.
+    
+[^8]: ChatGPT是一个好的推荐算法吗？初步研究
+
+    Is ChatGPT a Good Recommender? A Preliminary Study. (arXiv:2304.10149v1 [cs.IR])
+
+    [http://arxiv.org/abs/2304.10149](http://arxiv.org/abs/2304.10149)
+
+    本论文研究了在推荐领域广泛使用的ChatGPT的潜力。实验结果表明即使没有微调，ChatGPT在五个推荐场景中表现出色，具有很好的推荐精度和解释性。
+
+    
+
+    推荐系统在过去几十年中取得了显著进展并得到广泛应用。然而，大多数传统推荐方法都是特定任务的，因此缺乏有效的泛化能力。最近，ChatGPT的出现通过增强对话模型的能力，显著推进了NLP任务。尽管如此，ChatGPT在推荐领域的应用还没有得到充分的研究。在本文中，我们采用ChatGPT作为通用推荐模型，探讨它将从大规模语料库中获得的广泛语言和世界知识转移到推荐场景中的潜力。具体而言，我们设计了一组提示，并评估ChatGPT在五个推荐场景中的表现。与传统的推荐方法不同的是，在整个评估过程中我们不微调ChatGPT，仅依靠提示自身将推荐任务转化为自然语言。
+
+    Recommendation systems have witnessed significant advancements and have been widely used over the past decades. However, most traditional recommendation methods are task-specific and therefore lack efficient generalization ability. Recently, the emergence of ChatGPT has significantly advanced NLP tasks by enhancing the capabilities of conversational models. Nonetheless, the application of ChatGPT in the recommendation domain has not been thoroughly investigated. In this paper, we employ ChatGPT as a general-purpose recommendation model to explore its potential for transferring extensive linguistic and world knowledge acquired from large-scale corpora to recommendation scenarios. Specifically, we design a set of prompts and evaluate ChatGPT's performance on five recommendation scenarios. Unlike traditional recommendation methods, we do not fine-tune ChatGPT during the entire evaluation process, relying only on the prompts themselves to convert recommendation tasks into natural language 
+    
+[^9]: PROD：渐进式蒸馏用于密集检索
+
+    PROD: Progressive Distillation for Dense Retrieval. (arXiv:2209.13335v3 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2209.13335](http://arxiv.org/abs/2209.13335)
+
+    本文提出了一种渐进式蒸馏方法PROD，用于密集检索，通过逐步改进学生模型来填补教师和学生之间的差距，并在五个基准数据集上取得了最先进的性能。
+
+    
+
+    知识蒸馏是将强教师的知识传递给高效学生模型的有效方法。然而，通常情况下预期的更好的教师会导致经过蒸馏后学生更糟。为了填补这一差距，本文提出了一种用于密集检索的PROgressive Distillation (PROD)方法，包括教师渐进式蒸馏和数据渐进式蒸馏两个阶段，从而逐步提高学生的检索绩效。在五个被广泛使用的基准数据集（MS MARCO Passage、TREC Passage 19、TREC Document 19、MS MARCO Document和自然问题）上进行了大量实验验证，PROD在密集检索的蒸馏方法中表现出最先进的性能。代码和模型将会发布。
+
+    Knowledge distillation is an effective way to transfer knowledge from a strong teacher to an efficient student model. Ideally, we expect the better the teacher is, the better the student. However, this expectation does not always come true. It is common that a better teacher model results in a bad student via distillation due to the nonnegligible gap between teacher and student. To bridge the gap, we propose PROD, a PROgressive Distillation method, for dense retrieval. PROD consists of a teacher progressive distillation and a data progressive distillation to gradually improve the student. We conduct extensive experiments on five widely-used benchmarks, MS MARCO Passage, TREC Passage 19, TREC Document 19, MS MARCO Document and Natural Questions, where PROD achieves the state-of-the-art within the distillation methods for dense retrieval. The code and models will be released.
+    
+[^10]: DiSCoMaT：材料科学文章中基于远程监督的表格组成提取
+
+    DiSCoMaT: Distantly Supervised Composition Extraction from Tables in Materials Science Articles. (arXiv:2207.01079v3 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2207.01079](http://arxiv.org/abs/2207.01079)
+
+    本文提出了一个新型挑战任务，即通过远程监督方式从科学文章中的表格中提取有关材料组成的信息。为此，研究者创建了一个包含4408个远程监督表格和1475个手动注释的开发和测试表格的训练数据集，并提出了一个强基线——DiSCoMaT。
+
+    
+
+    从科学领域文章中的表格中提取有关材料组成的信息是知识库策划的重要组成部分。然而，现有的表格提取器假定您已经了解表格结构和格式，而科学表格中可能没有这些先前的知识。本文研究了一种特定且具有挑战性的表格提取问题：提取材料（例如玻璃，合金）的组成。我们首先观察到材料科学研究人员使用各种表格样式组织类似的组成，这需要一个智能模型来理解表格和提取组成。因此，我们将其定义为机器学习领域的新型挑战，并创建了一个由4408个远程监督表格和1475个手动注释的开发和测试表格组成的训练数据集。我们还提出了DiSCoMaT，它是一个针对该问题的强基线。
+
+    A crucial component in the curation of KB for a scientific domain is information extraction from tables in the domain's published articles -- tables carry important information (often numeric), which must be adequately extracted for a comprehensive machine understanding of an article. Existing table extractors assume prior knowledge of table structure and format, which may not be known in scientific tables. We study a specific and challenging table extraction problem: extracting compositions of materials (e.g., glasses, alloys). We first observe that materials science researchers organize similar compositions in a wide variety of table styles, necessitating an intelligent model for table understanding and composition extraction. Consequently, we define this novel task as a challenge for the ML community and create a training dataset comprising 4,408 distantly supervised tables, along with 1,475 manually annotated dev and test tables. We also present DiSCoMaT, a strong baseline geared t
+    
+[^11]: ReuseKNN: 面向差分隐私的KNN推荐的邻域重用
+
+    ReuseKNN: Neighborhood Reuse for Differentially-Private KNN-Based Recommendations. (arXiv:2206.11561v3 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2206.11561](http://arxiv.org/abs/2206.11561)
+
+    ReuseKNN是一种面向差分隐私的KNN推荐系统，通过识别小但高度可重用的邻域来减少差分隐私的使用，减小了隐私泄露的风险，并且需要保护的邻居较少，从而提高了推荐的准确性。
+
+    
+
+    基于用户的KNN推荐系统（UserKNN）在推荐过程中利用目标用户的k个最近邻居的评分数据。然而，这增加了邻居的隐私风险，因为他们的评分数据可能被其他用户或恶意方暴露。为了减小这个风险，现有的工作通过向邻居的评分添加随机性来应用差分隐私，但这会降低UserKNN的准确性。在这项工作中，我们介绍了ReuseKNN，一种新颖的面向差分隐私的KNN推荐系统。主要思想是识别出小但高度可重用的邻域，以便(i)只有一小部分用户需要使用差分隐私进行保护，(ii)大部分用户不需要使用差分隐私进行保护，因为它们很少被利用作为邻居。在我们对五个不同数据集的实验中，我们得出了两个关键观察结果:首先，ReuseKNN需要较小的邻域，因此需要保护的邻居较少。
+
+    User-based KNN recommender systems (UserKNN) utilize the rating data of a target user's k nearest neighbors in the recommendation process. This, however, increases the privacy risk of the neighbors since their rating data might be exposed to other users or malicious parties. To reduce this risk, existing work applies differential privacy by adding randomness to the neighbors' ratings, which reduces the accuracy of UserKNN. In this work, we introduce ReuseKNN, a novel differentially-private KNN-based recommender system. The main idea is to identify small but highly reusable neighborhoods so that (i) only a minimal set of users requires protection with differential privacy, and (ii) most users do not need to be protected with differential privacy, since they are only rarely exploited as neighbors. In our experiments on five diverse datasets, we make two key observations: Firstly, ReuseKNN requires significantly smaller neighborhoods, and thus, fewer neighbors need to be protected with di
     
 

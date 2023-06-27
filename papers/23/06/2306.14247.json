@@ -1,0 +1,12 @@
+{
+    "title": "Selling Multiple Complements with Packaging Costs. (arXiv:2306.14247v1 [econ.TH])",
+    "abstract": "I consider a package assignment problem where multiple units of indivisible items are allocated among individuals. The seller specifies allocation preferences as cost savings on packages. I propose a social welfare maximising, sealed-bid auction with a novel cost function graph to express seller preferences. It facilitates the use of linear programming to find anonymous, competitive, package-linear prices. If agents bid truthfully, these prices support a Walrasian equilibrium. I provide necessary and sufficient conditions, and additional sufficient conditions, for the existence of Walrasian equilibria. The auction guarantees fair and transparent pricing and admits preferences over the market concentration.",
+    "link": "http://arxiv.org/abs/2306.14247",
+    "context": "Title: Selling Multiple Complements with Packaging Costs. (arXiv:2306.14247v1 [econ.TH])\nAbstract: I consider a package assignment problem where multiple units of indivisible items are allocated among individuals. The seller specifies allocation preferences as cost savings on packages. I propose a social welfare maximising, sealed-bid auction with a novel cost function graph to express seller preferences. It facilitates the use of linear programming to find anonymous, competitive, package-linear prices. If agents bid truthfully, these prices support a Walrasian equilibrium. I provide necessary and sufficient conditions, and additional sufficient conditions, for the existence of Walrasian equilibria. The auction guarantees fair and transparent pricing and admits preferences over the market concentration.",
+    "path": "papers/23/06/2306.14247.json",
+    "total_tokens": 720,
+    "translated_title": "以包装成本为代价的多个互补品的销售",
+    "translated_abstract": "本文研究了一种包装分配问题，其中多个不可分割物品分配给个人。卖方将分配偏好规定为包装上的成本节省。作者提出了一个社会福利最大化的密封式竞标拍卖，使用新颖的成本函数图表达卖方偏好，促进使用线性规划找到匿名、有竞争性、包线性价格。如果代理按实情竞标，这些价格支持瓦尔拉斯均衡。作者提供了瓦尔拉斯均衡的必要条件和充分条件，并且拍卖保证公平透明的定价并具有对市场集中的偏好。",
+    "tldr": "研究了一种以包装成本为代价的多个互补品的销售，提出了一种社会福利最大化的密封式竞标拍卖，保证公平透明的定价并具有对市场集中的偏好。",
+    "en_tdlr": "This paper studies the sales of multiple complements with packaging costs and proposes a social welfare maximizing, sealed-bid auction with fair and transparent pricing and preferences over market concentration."
+}

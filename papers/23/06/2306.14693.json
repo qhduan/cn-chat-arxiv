@@ -1,0 +1,12 @@
+{
+    "title": "Conformal link prediction to control the error rate. (arXiv:2306.14693v1 [stat.ME])",
+    "abstract": "Most link prediction methods return estimates of the connection probability of missing edges in a graph. Such output can be used to rank the missing edges, from most to least likely to be a true edge, but it does not directly provide a classification into true and non-existent. In this work, we consider the problem of identifying a set of true edges with a control of the false discovery rate (FDR). We propose a novel method based on high-level ideas from the literature on conformal inference. The graph structure induces intricate dependence in the data, which we carefully take into account, as this makes the setup different from the usual setup in conformal inference, where exchangeability is assumed. The FDR control is empirically demonstrated for both simulated and real data.",
+    "link": "http://arxiv.org/abs/2306.14693",
+    "context": "Title: Conformal link prediction to control the error rate. (arXiv:2306.14693v1 [stat.ME])\nAbstract: Most link prediction methods return estimates of the connection probability of missing edges in a graph. Such output can be used to rank the missing edges, from most to least likely to be a true edge, but it does not directly provide a classification into true and non-existent. In this work, we consider the problem of identifying a set of true edges with a control of the false discovery rate (FDR). We propose a novel method based on high-level ideas from the literature on conformal inference. The graph structure induces intricate dependence in the data, which we carefully take into account, as this makes the setup different from the usual setup in conformal inference, where exchangeability is assumed. The FDR control is empirically demonstrated for both simulated and real data.",
+    "path": "papers/23/06/2306.14693.json",
+    "total_tokens": 748,
+    "translated_title": "控制误差率的一致性链路预测方法",
+    "translated_abstract": "大多数链路预测方法返回图中缺失边的连接概率的估计值。这种输出可用于按可能性大小对缺失边进行排序，但并未直接提供真实和不存在的分类。本研究考虑在控制虚假发现率的前提下，识别一组真实的边的问题。我们提出了一种基于一致性推断文献中高级思想的新方法。图形结构引入了数据中的复杂依赖关系，我们仔细考虑了这一点，因为这使得设置不同于一般的一致性推断设置，那里假定了交换性。在模拟和真实数据中，我们证明了FDR的控制。",
+    "tldr": "本研究提出了一种基于一致性推断思想的新方法，可在控制虚假发现率的前提下，识别一组真实的边。",
+    "en_tdlr": "This paper proposes a novel method based on conformal inference for identifying a set of true edges with a control of the false discovery rate in graph structures, which have intricate dependence in data. Empirical demonstration is provided for both simulated and real data."
+}
