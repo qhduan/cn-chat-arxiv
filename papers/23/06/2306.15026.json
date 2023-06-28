@@ -1,0 +1,12 @@
+{
+    "title": "Valuation of Equity Linked Securities with Guaranteed Return. (arXiv:2306.15026v1 [q-fin.PR])",
+    "abstract": "Equity-linked securities with a guaranteed return become very popular in financial markets ether as investment instruments or life insurance policies. The contract pays off a guaranteed amount plus a payment linked to the performance of a basket of equities averaged over a certain period. This paper presents a new model for valuing equity-linked securities. Our study shows that the security price can be replicated by the sum of the guaranteed amount plus the price of an Asian style option on the basket. Analytical formulas are derived for the security price and corresponding hedge ratios. The model appears to be accurate over a wide range of underlying security parameters according to numerical studies. Finally, we use our model to value a segregated fund with a guarantee at maturity.",
+    "link": "http://arxiv.org/abs/2306.15026",
+    "context": "Title: Valuation of Equity Linked Securities with Guaranteed Return. (arXiv:2306.15026v1 [q-fin.PR])\nAbstract: Equity-linked securities with a guaranteed return become very popular in financial markets ether as investment instruments or life insurance policies. The contract pays off a guaranteed amount plus a payment linked to the performance of a basket of equities averaged over a certain period. This paper presents a new model for valuing equity-linked securities. Our study shows that the security price can be replicated by the sum of the guaranteed amount plus the price of an Asian style option on the basket. Analytical formulas are derived for the security price and corresponding hedge ratios. The model appears to be accurate over a wide range of underlying security parameters according to numerical studies. Finally, we use our model to value a segregated fund with a guarantee at maturity.",
+    "path": "papers/23/06/2306.15026.json",
+    "total_tokens": 756,
+    "translated_title": "有保证回报的股权连接证券的估值",
+    "translated_abstract": "在金融市场上，具有保证回报的股权连接证券成为非常受欢迎的投资工具或人寿保险政策。该合同支付一定期间内一篮子股票表现的保证金额加上与之相关的支付。本文提出了一种用于估值股权连接证券的新模型。我们的研究表明，证券价格可以通过保证金额加上与该篮子股票的亚洲期权价格的总和来复制。我们推导了证券价格和相应对冲比例的分析公式。根据数值研究，该模型在广泛的基础证券参数范围内表现精确。最后，我们使用该模型对一项具有到期保证的分离基金进行估值。",
+    "tldr": "本研究提出了一种新的模型，用于估值具有保证回报的股权连接证券。数值研究表明该模型在广泛的基础证券参数范围内表现精确。",
+    "en_tdlr": "This study presents a new model for valuing equity-linked securities with a guaranteed return and shows its accuracy over a wide range of underlying security parameters according to numerical studies."
+}

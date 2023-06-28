@@ -1,0 +1,11 @@
+{
+    "title": "Anomaly Detection in Networks via Score-Based Generative Models. (arXiv:2306.15324v1 [cs.LG])",
+    "abstract": "Node outlier detection in attributed graphs is a challenging problem for which there is no method that would work well across different datasets. Motivated by the state-of-the-art results of score-based models in graph generative modeling, we propose to incorporate them into the aforementioned problem. Our method achieves competitive results on small-scale graphs. We provide an empirical analysis of the Dirichlet energy, and show that generative models might struggle to accurately reconstruct it.",
+    "link": "http://arxiv.org/abs/2306.15324",
+    "context": "Title: Anomaly Detection in Networks via Score-Based Generative Models. (arXiv:2306.15324v1 [cs.LG])\nAbstract: Node outlier detection in attributed graphs is a challenging problem for which there is no method that would work well across different datasets. Motivated by the state-of-the-art results of score-based models in graph generative modeling, we propose to incorporate them into the aforementioned problem. Our method achieves competitive results on small-scale graphs. We provide an empirical analysis of the Dirichlet energy, and show that generative models might struggle to accurately reconstruct it.",
+    "path": "papers/23/06/2306.15324.json",
+    "total_tokens": 575,
+    "translated_title": "通过基于得分的生成模型进行网络异常检测",
+    "translated_abstract": "在带属性的图中对节点异常进行检测是一个具有挑战性的问题，目前还没有一种方法能够在不同的数据集上表现良好。受图生成建模中基于得分模型的最新结果的启发，我们提出将其应用于上述问题中。我们的方法在小规模图上取得了竞争性的结果。我们对狄利克雷能量进行了实证分析，并表明生成模型可能难以准确重构它。",
+    "tldr": "该论文提出了一种利用基于得分的生成模型进行网络异常检测的方法，该方法在小规模图上取得了竞争性的结果。"
+}

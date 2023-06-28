@@ -1,0 +1,12 @@
+{
+    "title": "A Survey on Out-of-Distribution Evaluation of Neural NLP Models. (arXiv:2306.15261v1 [cs.CL])",
+    "abstract": "Adversarial robustness, domain generalization and dataset biases are three active lines of research contributing to out-of-distribution (OOD) evaluation on neural NLP models. However, a comprehensive, integrated discussion of the three research lines is still lacking in the literature. In this survey, we 1) compare the three lines of research under a unifying definition; 2) summarize the data-generating processes and evaluation protocols for each line of research; and 3) emphasize the challenges and opportunities for future work.",
+    "link": "http://arxiv.org/abs/2306.15261",
+    "context": "Title: A Survey on Out-of-Distribution Evaluation of Neural NLP Models. (arXiv:2306.15261v1 [cs.CL])\nAbstract: Adversarial robustness, domain generalization and dataset biases are three active lines of research contributing to out-of-distribution (OOD) evaluation on neural NLP models. However, a comprehensive, integrated discussion of the three research lines is still lacking in the literature. In this survey, we 1) compare the three lines of research under a unifying definition; 2) summarize the data-generating processes and evaluation protocols for each line of research; and 3) emphasize the challenges and opportunities for future work.",
+    "path": "papers/23/06/2306.15261.json",
+    "total_tokens": 672,
+    "translated_title": "对神经NLP模型的离域评估的调研",
+    "translated_abstract": "对抗性鲁棒性、领域泛化和数据集偏差是对神经NLP模型离域评估的三个研究方向。然而，目前文献中还缺乏关于这三个研究方向的综合、整合性的讨论。本调研对这三个研究方向进行了比较，并总结了每个研究方向的数据生成过程和评估协议，并强调了未来工作的挑战和机遇。",
+    "tldr": "本调研对神经NLP模型的离域评估的对抗性鲁棒性、领域泛化和数据集偏差三个研究方向进行了比较和总结，并强调了未来工作的挑战和机遇。",
+    "en_tdlr": "This survey compares and summarizes the three research directions of adversarial robustness, domain generalization, and dataset biases in out-of-distribution evaluation of neural NLP models, and highlights the challenges and opportunities for future work."
+}

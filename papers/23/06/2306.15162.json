@@ -1,0 +1,11 @@
+{
+    "title": "YouTube-ASL: A Large-Scale, Open-Domain American Sign Language-English Parallel Corpus. (arXiv:2306.15162v1 [cs.CL])",
+    "abstract": "Machine learning for sign languages is bottlenecked by data. In this paper, we present YouTube-ASL, a large-scale, open-domain corpus of American Sign Language (ASL) videos and accompanying English captions drawn from YouTube. With ~1000 hours of videos and >2500 unique signers, YouTube-ASL is ~3x as large and has ~10x as many unique signers as the largest prior ASL dataset. We train baseline models for ASL to English translation on YouTube-ASL and evaluate them on How2Sign, where we achieve a new finetuned state of the art of 12.39 BLEU and, for the first time, report zero-shot results.",
+    "link": "http://arxiv.org/abs/2306.15162",
+    "context": "Title: YouTube-ASL: A Large-Scale, Open-Domain American Sign Language-English Parallel Corpus. (arXiv:2306.15162v1 [cs.CL])\nAbstract: Machine learning for sign languages is bottlenecked by data. In this paper, we present YouTube-ASL, a large-scale, open-domain corpus of American Sign Language (ASL) videos and accompanying English captions drawn from YouTube. With ~1000 hours of videos and >2500 unique signers, YouTube-ASL is ~3x as large and has ~10x as many unique signers as the largest prior ASL dataset. We train baseline models for ASL to English translation on YouTube-ASL and evaluate them on How2Sign, where we achieve a new finetuned state of the art of 12.39 BLEU and, for the first time, report zero-shot results.",
+    "path": "papers/23/06/2306.15162.json",
+    "total_tokens": 766,
+    "translated_title": "YouTube-ASL:一个大规模的、开放领域的美国手语-英语平行语料库。",
+    "translated_abstract": "机器学习对于手语的瓶颈在于数据。在本文中，我们介绍了YouTube-ASL，一个来自YouTube的包含美国手语（ASL）视频和英文字幕的大规模、开放领域的语料库。YouTube-ASL拥有约1000小时的视频和超过2500个独特的签名者，是迄今为止最大的ASL数据集的3倍之多，并且拥有10倍于先前ASL数据集的独特签名者数量。我们在YouTube-ASL上训练了ASL到英语翻译的基准模型，并在How2Sign上进行评估，在这里我们实现了新的微调最佳效果12.39 BLEU，并首次报道了零-shot方法的结果。",
+    "tldr": "本文介绍了一个大规模的、开放领域的美国手语-英语平行语料库YouTube-ASL，包含了约1000小时的美国手语视频和超过2500位独特的签名者。研究者在此语料库上训练了手语到英语翻译的模型，并在另一个数据集上实现了最新的最佳效果。"
+}

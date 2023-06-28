@@ -1,0 +1,12 @@
+{
+    "title": "Generating Elementary Integrable Expressions. (arXiv:2306.15572v1 [cs.SC])",
+    "abstract": "There has been an increasing number of applications of machine learning to the field of Computer Algebra in recent years, including to the prominent sub-field of Symbolic Integration. However, machine learning models require an abundance of data for them to be successful and there exist few benchmarks on the scale required. While methods to generate new data already exist, they are flawed in several ways which may lead to bias in machine learning models trained upon them. In this paper, we describe how to use the Risch Algorithm for symbolic integration to create a dataset of elementary integrable expressions. Further, we show that data generated this way alleviates some of the flaws found in earlier methods.",
+    "link": "http://arxiv.org/abs/2306.15572",
+    "context": "Title: Generating Elementary Integrable Expressions. (arXiv:2306.15572v1 [cs.SC])\nAbstract: There has been an increasing number of applications of machine learning to the field of Computer Algebra in recent years, including to the prominent sub-field of Symbolic Integration. However, machine learning models require an abundance of data for them to be successful and there exist few benchmarks on the scale required. While methods to generate new data already exist, they are flawed in several ways which may lead to bias in machine learning models trained upon them. In this paper, we describe how to use the Risch Algorithm for symbolic integration to create a dataset of elementary integrable expressions. Further, we show that data generated this way alleviates some of the flaws found in earlier methods.",
+    "path": "papers/23/06/2306.15572.json",
+    "total_tokens": 715,
+    "translated_title": "生成初等可积表达式",
+    "translated_abstract": "近年来，机器学习在计算机代数领域的应用数量不断增长，包括在符号积分的重要子领域中的应用。然而，机器学习模型需要大量的数据才能取得成功，但对于它们而言，目前存在着很少符合实际需求的基准。虽然已经存在一些生成新数据的方法，但它们存在一些缺陷，可能导致训练在其上的机器学习模型出现偏差。在本文中，我们描述了如何使用Risch算法进行符号积分，从而创建一个初等可积表达式的数据集。此外，我们还展示了以这种方式生成的数据可以减轻早期方法中发现的一些缺陷。",
+    "tldr": "本文介绍了如何利用Risch算法生成初等可积表达式的数据集，并展示了这种方式生成的数据可以减轻早期方法中存在的一些缺陷。",
+    "en_tdlr": "This paper describes how to use the Risch Algorithm to generate a dataset of elementary integrable expressions, and shows that this method can alleviate some of the flaws found in earlier methods."
+}

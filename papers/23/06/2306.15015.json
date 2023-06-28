@@ -1,0 +1,12 @@
+{
+    "title": "Scaling and Resizing Symmetry in Feedforward Networks. (arXiv:2306.15015v1 [cs.LG])",
+    "abstract": "Weights initialization in deep neural networks have a strong impact on the speed of converge of the learning map. Recent studies have shown that in the case of random initializations, a chaos/order phase transition occur in the space of variances of random weights and biases. Experiments then had shown that large improvements can be made, in terms of the training speed, if a neural network is initialized on values along the critical line of such phase transition. In this contribution, we show evidence that the scaling property exhibited by physical systems at criticality, is also present in untrained feedforward networks with random weights initialization at the critical line. Additionally, we suggest an additional data-resizing symmetry, which is directly inherited from the scaling symmetry at criticality.",
+    "link": "http://arxiv.org/abs/2306.15015",
+    "context": "Title: Scaling and Resizing Symmetry in Feedforward Networks. (arXiv:2306.15015v1 [cs.LG])\nAbstract: Weights initialization in deep neural networks have a strong impact on the speed of converge of the learning map. Recent studies have shown that in the case of random initializations, a chaos/order phase transition occur in the space of variances of random weights and biases. Experiments then had shown that large improvements can be made, in terms of the training speed, if a neural network is initialized on values along the critical line of such phase transition. In this contribution, we show evidence that the scaling property exhibited by physical systems at criticality, is also present in untrained feedforward networks with random weights initialization at the critical line. Additionally, we suggest an additional data-resizing symmetry, which is directly inherited from the scaling symmetry at criticality.",
+    "path": "papers/23/06/2306.15015.json",
+    "total_tokens": 723,
+    "translated_title": "在前馈网络中的缩放和调整对称性",
+    "translated_abstract": "深度神经网络中的权重初始化对学习映射的收敛速度有很大影响。最近的研究表明，在随机初始化的情况下，随机权重和偏差的方差空间会发生混沌/有序相变。实验证明，如果在临界线上的数值上初始化神经网络，可以在训练速度方面取得很大改进。本文提供了证据，表明在临界线上的未训练前馈网络中也存在物理系统在临界点所表现出的缩放特性。此外，我们还提出了一个额外的数据调整对称性，直接继承自临界点的缩放对称性。",
+    "tldr": "本研究提出了关于前馈网络中的缩放和调整对称性的发现，并说明了在临界点上的初始化方式对于提高训练速度具有重要意义。",
+    "en_tdlr": "This study presents the discovery of scaling and resizing symmetry in feedforward networks, and highlights the importance of initialization at the critical point for improving training speed."
+}

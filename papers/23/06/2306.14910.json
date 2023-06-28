@@ -1,0 +1,11 @@
+{
+    "title": "The Importance of Human-Labeled Data in the Era of LLMs. (arXiv:2306.14910v1 [cs.CL])",
+    "abstract": "The advent of large language models (LLMs) has brought about a revolution in the development of tailored machine learning models and sparked debates on redefining data requirements. The automation facilitated by the training and implementation of LLMs has led to discussions and aspirations that human-level labeling interventions may no longer hold the same level of importance as in the era of supervised learning. This paper presents compelling arguments supporting the ongoing relevance of human-labeled data in the era of LLMs.",
+    "link": "http://arxiv.org/abs/2306.14910",
+    "context": "Title: The Importance of Human-Labeled Data in the Era of LLMs. (arXiv:2306.14910v1 [cs.CL])\nAbstract: The advent of large language models (LLMs) has brought about a revolution in the development of tailored machine learning models and sparked debates on redefining data requirements. The automation facilitated by the training and implementation of LLMs has led to discussions and aspirations that human-level labeling interventions may no longer hold the same level of importance as in the era of supervised learning. This paper presents compelling arguments supporting the ongoing relevance of human-labeled data in the era of LLMs.",
+    "path": "papers/23/06/2306.14910.json",
+    "total_tokens": 573,
+    "translated_title": "机器学习语言模型时代中人标记数据的重要性",
+    "translated_abstract": "大型语言模型（LLMs）的出现在定制机器学习模型的开发方面带来了一场革命，并引发了关于重新定义数据要求的讨论。LLMs的训练和实施所带来的自动化引发了对人工标记干预可能不再具有与监督学习时代相同重要性的讨论和期望。本文提出了有力的论据，支持在LLMs时代人标记数据的持续重要性。",
+    "tldr": "本文论述了在LLMs时代，人标记数据仍然具有重要性的论据和支持。"
+}

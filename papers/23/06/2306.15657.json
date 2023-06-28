@@ -1,0 +1,12 @@
+{
+    "title": "The Distortion of Binomial Voting Defies Expectation. (arXiv:2306.15657v1 [cs.GT])",
+    "abstract": "In computational social choice, the distortion of a voting rule quantifies the degree to which the rule overcomes limited preference information to select a socially desirable outcome. This concept has been investigated extensively, but only through a worst-case lens. Instead, we study the expected distortion of voting rules with respect to an underlying distribution over voter utilities. Our main contribution is the design and analysis of a novel and intuitive rule, binomial voting, which provides strong expected distortion guarantees for all distributions.",
+    "link": "http://arxiv.org/abs/2306.15657",
+    "context": "Title: The Distortion of Binomial Voting Defies Expectation. (arXiv:2306.15657v1 [cs.GT])\nAbstract: In computational social choice, the distortion of a voting rule quantifies the degree to which the rule overcomes limited preference information to select a socially desirable outcome. This concept has been investigated extensively, but only through a worst-case lens. Instead, we study the expected distortion of voting rules with respect to an underlying distribution over voter utilities. Our main contribution is the design and analysis of a novel and intuitive rule, binomial voting, which provides strong expected distortion guarantees for all distributions.",
+    "path": "papers/23/06/2306.15657.json",
+    "total_tokens": 633,
+    "translated_title": "投票中二项式变形出乎意料",
+    "translated_abstract": "在计算社会选择中，投票规则的变形度量了规则在克服有限的偏好信息以选择社会上理想结果的程度。这个概念已经被广泛研究，但仅仅通过最坏情况的视角。相反，我们研究了投票规则相对于底层资产者效用分布的期望变形。我们的主要贡献是设计和分析了一种新颖而直观的规则-二项式投票，它为所有分布提供了强大的期望变形保证。",
+    "tldr": "本论文研究了投票规则的期望变形，提出了一种新颖的、直观的规则-二项式投票，并为所有分布提供了强大的期望变形保证。",
+    "en_tdlr": "This paper investigates the expected distortion of voting rules and proposes a novel and intuitive rule, binomial voting, which provides strong expected distortion guarantees for all distributions."
+}

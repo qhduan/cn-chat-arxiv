@@ -1,0 +1,11 @@
+{
+    "title": "A Toolbox for Fast Interval Arithmetic in numpy with an Application to Formal Verification of Neural Network Controlled Systems. (arXiv:2306.15340v1 [eess.SY])",
+    "abstract": "In this paper, we present a toolbox for interval analysis in numpy, with an application to formal verification of neural network controlled systems. Using the notion of natural inclusion functions, we systematically construct interval bounds for a general class of mappings. The toolbox offers efficient computation of natural inclusion functions using compiled C code, as well as a familiar interface in numpy with its canonical features, such as n-dimensional arrays, matrix/vector operations, and vectorization. We then use this toolbox in formal verification of dynamical systems with neural network controllers, through the composition of their inclusion functions.",
+    "link": "http://arxiv.org/abs/2306.15340",
+    "context": "Title: A Toolbox for Fast Interval Arithmetic in numpy with an Application to Formal Verification of Neural Network Controlled Systems. (arXiv:2306.15340v1 [eess.SY])\nAbstract: In this paper, we present a toolbox for interval analysis in numpy, with an application to formal verification of neural network controlled systems. Using the notion of natural inclusion functions, we systematically construct interval bounds for a general class of mappings. The toolbox offers efficient computation of natural inclusion functions using compiled C code, as well as a familiar interface in numpy with its canonical features, such as n-dimensional arrays, matrix/vector operations, and vectorization. We then use this toolbox in formal verification of dynamical systems with neural network controllers, through the composition of their inclusion functions.",
+    "path": "papers/23/06/2306.15340.json",
+    "total_tokens": 658,
+    "translated_title": "使用numpy的快速区间算术工具箱及其在神经网络控制系统的形式验证中的应用",
+    "translated_abstract": "本文介绍了一个在numpy中进行区间分析的工具箱，并应用于神经网络控制系统的形式验证。通过使用自然包含函数的概念，我们系统地构建了一个广泛的映射类的区间界限。该工具箱提供了使用编译的C代码高效计算自然包含函数的方法，以及在numpy中提供了熟悉的接口和其经典功能，例如n维数组、矩阵/向量操作和向量化。",
+    "tldr": "本文介绍了一个使用numpy的区间分析工具箱，通过构建自然包含函数来计算广泛映射类的区间界限，并将其应用于神经网络控制系统的形式验证。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "A Cosine Similarity-based Method for Out-of-Distribution Detection. (arXiv:2306.14920v1 [cs.LG])",
+    "abstract": "The ability to detect OOD data is a crucial aspect of practical machine learning applications. In this work, we show that cosine similarity between the test feature and the typical ID feature is a good indicator of OOD data. We propose Class Typical Matching (CTM), a post hoc OOD detection algorithm that uses a cosine similarity scoring function. Extensive experiments on multiple benchmarks show that CTM outperforms existing post hoc OOD detection methods.",
+    "link": "http://arxiv.org/abs/2306.14920",
+    "context": "Title: A Cosine Similarity-based Method for Out-of-Distribution Detection. (arXiv:2306.14920v1 [cs.LG])\nAbstract: The ability to detect OOD data is a crucial aspect of practical machine learning applications. In this work, we show that cosine similarity between the test feature and the typical ID feature is a good indicator of OOD data. We propose Class Typical Matching (CTM), a post hoc OOD detection algorithm that uses a cosine similarity scoring function. Extensive experiments on multiple benchmarks show that CTM outperforms existing post hoc OOD detection methods.",
+    "path": "papers/23/06/2306.14920.json",
+    "total_tokens": 674,
+    "translated_title": "基于余弦相似度的离群分布检测方法",
+    "translated_abstract": "检测离群数据的能力是实际机器学习应用中的关键要素。在这项工作中，我们展示了测试特征和典型内部数据特征之间的余弦相似度是检测离群数据的良好指标。我们提出了类典型匹配（CTM），一种使用余弦相似度评分函数的事后离群数据检测算法。在多个基准测试上进行的广泛实验表明，CTM优于现有的事后离群数据检测方法。",
+    "tldr": "本文提出了一种基于余弦相似度的离群分布检测方法，通过计算测试特征和内部数据特征之间的余弦相似度来判断离群数据。实验证明，该方法在离群数据检测方面优于现有方法。",
+    "en_tdlr": "This paper proposes a cosine similarity-based method for out-of-distribution detection, which calculates the cosine similarity between test features and internal data features to identify out-of-distribution data. Experiments demonstrate that this method outperforms existing approaches in detecting out-of-distribution data."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Variational Latent Discrete Representation for Time Series Modelling. (arXiv:2306.15282v1 [stat.ML])",
+    "abstract": "Discrete latent space models have recently achieved performance on par with their continuous counterparts in deep variational inference. While they still face various implementation challenges, these models offer the opportunity for a better interpretation of latent spaces, as well as a more direct representation of naturally discrete phenomena. Most recent approaches propose to train separately very high-dimensional prior models on the discrete latent data which is a challenging task on its own. In this paper, we introduce a latent data model where the discrete state is a Markov chain, which allows fast end-to-end training. The performance of our generative model is assessed on a building management dataset and on the publicly available Electricity Transformer Dataset.",
+    "link": "http://arxiv.org/abs/2306.15282",
+    "context": "Title: Variational Latent Discrete Representation for Time Series Modelling. (arXiv:2306.15282v1 [stat.ML])\nAbstract: Discrete latent space models have recently achieved performance on par with their continuous counterparts in deep variational inference. While they still face various implementation challenges, these models offer the opportunity for a better interpretation of latent spaces, as well as a more direct representation of naturally discrete phenomena. Most recent approaches propose to train separately very high-dimensional prior models on the discrete latent data which is a challenging task on its own. In this paper, we introduce a latent data model where the discrete state is a Markov chain, which allows fast end-to-end training. The performance of our generative model is assessed on a building management dataset and on the publicly available Electricity Transformer Dataset.",
+    "path": "papers/23/06/2306.15282.json",
+    "total_tokens": 759,
+    "translated_title": "变分潜在离散表示在时间序列建模中的应用",
+    "translated_abstract": "最近，离散潜在空间模型在深度变分推断中的性能与其连续对应物相媲美。虽然它们仍然面临各种实现挑战，但这些模型为潜在空间的更好解释提供了机会，同时更直接地表示自然离散现象。最近的一些方法建议分别在离散潜在数据上训练非常高维的先验模型，这本身就是一个具有挑战性的任务。在本文中，我们介绍了一种潜在数据模型，其中离散状态是一个马尔可夫链，它允许快速端到端训练。我们对我们的生成模型在建筑管理数据集和公开可用的电力变压器数据集上进行了性能评估。",
+    "tldr": "本文介绍了一种变分潜在离散表示模型，其中离散状态采用马尔可夫链，并在建筑管理数据集和电力变压器数据集上进行了性能评估。",
+    "en_tdlr": "This paper presents a variational latent discrete representation model, where the discrete state is modeled as a Markov chain, and its performance is evaluated on building management and electricity transformer datasets."
+}

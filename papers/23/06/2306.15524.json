@@ -1,0 +1,12 @@
+{
+    "title": "Robust Wasserstein Optimization and its Application in Mean-CVaR. (arXiv:2306.15524v1 [q-fin.MF])",
+    "abstract": "We refer to recent inference methodology and formulate a framework for solving the distributionally robust optimization problem, where the true probability measure is inside a Wasserstein ball around the empirical measure and the radius of the Wasserstein ball is determined by the empirical data. We transform the robust optimization into a non-robust optimization with a penalty term and provide the selection of the Wasserstein ambiguity set's size. Moreover, we apply this framework to the robust mean-CVaR optimization problem and the numerical experiments of the US stock market show impressive results compared to other popular strategies.",
+    "link": "http://arxiv.org/abs/2306.15524",
+    "context": "Title: Robust Wasserstein Optimization and its Application in Mean-CVaR. (arXiv:2306.15524v1 [q-fin.MF])\nAbstract: We refer to recent inference methodology and formulate a framework for solving the distributionally robust optimization problem, where the true probability measure is inside a Wasserstein ball around the empirical measure and the radius of the Wasserstein ball is determined by the empirical data. We transform the robust optimization into a non-robust optimization with a penalty term and provide the selection of the Wasserstein ambiguity set's size. Moreover, we apply this framework to the robust mean-CVaR optimization problem and the numerical experiments of the US stock market show impressive results compared to other popular strategies.",
+    "path": "papers/23/06/2306.15524.json",
+    "total_tokens": 687,
+    "translated_title": "鲁棒的Wasserstein优化及其在均值-CVaR中的应用",
+    "translated_abstract": "我们参考了最近的推断方法，并提出了一个解决分布鲁棒优化问题的框架，其中真实概率测度位于以经验测度为中心的Wasserstein球内，Wasserstein球的半径由经验数据确定。我们将鲁棒优化转化为一个带有惩罚项的非鲁棒优化，并提供了Wasserstein模糊集大小的选择。此外，我们将这个框架应用于鲁棒均值-CVaR优化问题，并通过对美国股市的数值实验与其他流行策略进行了比较，结果令人印象深刻。",
+    "tldr": "该论文提出了一种鲁棒的Wasserstein优化方法，并应用于均值-CVaR优化问题，在美国股市的实验中取得了令人印象深刻的结果。",
+    "en_tdlr": "This paper proposes a robust Wasserstein optimization method and applies it to the mean-CVaR optimization problem, showing impressive results in experiments on the US stock market compared to other popular strategies."
+}

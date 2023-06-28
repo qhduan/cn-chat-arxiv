@@ -1,0 +1,11 @@
+{
+    "title": "Data-Driven Approach for Formality-Sensitive Machine Translation: Language-Specific Handling and Synthetic Data Generation. (arXiv:2306.14514v2 [cs.CL] UPDATED)",
+    "abstract": "In this paper, we introduce a data-driven approach for Formality-Sensitive Machine Translation (FSMT) that caters to the unique linguistic properties of four target languages. Our methodology centers on two core strategies: 1) language-specific data handling, and 2) synthetic data generation using large-scale language models and empirical prompt engineering. This approach demonstrates a considerable improvement over the baseline, highlighting the effectiveness of data-centric techniques. Our prompt engineering strategy further improves performance by producing superior synthetic translation examples.",
+    "link": "http://arxiv.org/abs/2306.14514",
+    "context": "Title: Data-Driven Approach for Formality-Sensitive Machine Translation: Language-Specific Handling and Synthetic Data Generation. (arXiv:2306.14514v2 [cs.CL] UPDATED)\nAbstract: In this paper, we introduce a data-driven approach for Formality-Sensitive Machine Translation (FSMT) that caters to the unique linguistic properties of four target languages. Our methodology centers on two core strategies: 1) language-specific data handling, and 2) synthetic data generation using large-scale language models and empirical prompt engineering. This approach demonstrates a considerable improvement over the baseline, highlighting the effectiveness of data-centric techniques. Our prompt engineering strategy further improves performance by producing superior synthetic translation examples.",
+    "path": "papers/23/06/2306.14514.json",
+    "total_tokens": 666,
+    "translated_title": "基于数据驱动的正式敏感机器翻译方法：语言特定处理与合成数据生成",
+    "translated_abstract": "在本文中，我们介绍了一种基于数据驱动的正式敏感机器翻译（FSMT）方法，该方法针对四种目标语言的独特语言特性进行优化。我们的方法主要依靠两个核心策略：语言特定数据处理和使用大规模语言模型和经验性提示工程生成合成数据。该方法相较于基准模型有显著改进，突显了数据中心技术的有效性。我们的提示工程策略通过产生优质的合成翻译示例进一步提高了性能。",
+    "tldr": "本文介绍了一种基于数据驱动的正式敏感机器翻译方法，通过语言特定处理和合成数据生成，显著改进了翻译性能。"
+}

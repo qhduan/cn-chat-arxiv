@@ -1,0 +1,12 @@
+{
+    "title": "Simulating counterfactuals. (arXiv:2306.15328v1 [stat.ML])",
+    "abstract": "Counterfactual inference considers a hypothetical intervention in a parallel world that shares some evidence with the factual world. If the evidence specifies a conditional distribution on a manifold, counterfactuals may be analytically intractable. We present an algorithm for simulating values from a counterfactual distribution where conditions can be set on both discrete and continuous variables. We show that the proposed algorithm can be presented as a particle filter leading to asymptotically valid inference. The algorithm is applied to fairness analysis in credit scoring.",
+    "link": "http://arxiv.org/abs/2306.15328",
+    "context": "Title: Simulating counterfactuals. (arXiv:2306.15328v1 [stat.ML])\nAbstract: Counterfactual inference considers a hypothetical intervention in a parallel world that shares some evidence with the factual world. If the evidence specifies a conditional distribution on a manifold, counterfactuals may be analytically intractable. We present an algorithm for simulating values from a counterfactual distribution where conditions can be set on both discrete and continuous variables. We show that the proposed algorithm can be presented as a particle filter leading to asymptotically valid inference. The algorithm is applied to fairness analysis in credit scoring.",
+    "path": "papers/23/06/2306.15328.json",
+    "total_tokens": 629,
+    "translated_title": "模拟反事实情况",
+    "translated_abstract": "反事实推断考虑了在与实际世界存在一些证据的平行世界中进行的假设性干预。如果证据在流形上指定了条件分布，反事实可能是解析难解的。我们提出了一种算法，用于从反事实分布中模拟值，其中可以对离散和连续变量设定条件。我们表明，所提出的算法可以被呈现为粒子滤波器，从而导致渐近有效的推断。该算法被应用于信用评分中的公平性分析。",
+    "tldr": "该论文提出了一种算法，可以模拟反事实分布中的值，可对离散和连续变量设定条件，并应用于信用评分中的公平性分析。",
+    "en_tdlr": "This paper proposes an algorithm for simulating values from a counterfactual distribution, where conditions can be set on both discrete and continuous variables. The algorithm is applied to fairness analysis in credit scoring."
+}

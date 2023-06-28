@@ -1,0 +1,12 @@
+{
+    "title": "A Meta-analytical Comparison of Naive Bayes and Random Forest for Software Defect Prediction. (arXiv:2306.15369v1 [cs.SE])",
+    "abstract": "Is there a statistical difference between Naive Bayes and Random Forest in terms of recall, f-measure, and precision for predicting software defects? By utilizing systematic literature review and meta-analysis, we are answering this question. We conducted a systematic literature review by establishing criteria to search and choose papers, resulting in five studies. After that, using the meta-data and forest-plots of five chosen papers, we conducted a meta-analysis to compare the two models. The results have shown that there is no significant statistical evidence that Naive Bayes perform differently from Random Forest in terms of recall, f-measure, and precision.",
+    "link": "http://arxiv.org/abs/2306.15369",
+    "context": "Title: A Meta-analytical Comparison of Naive Bayes and Random Forest for Software Defect Prediction. (arXiv:2306.15369v1 [cs.SE])\nAbstract: Is there a statistical difference between Naive Bayes and Random Forest in terms of recall, f-measure, and precision for predicting software defects? By utilizing systematic literature review and meta-analysis, we are answering this question. We conducted a systematic literature review by establishing criteria to search and choose papers, resulting in five studies. After that, using the meta-data and forest-plots of five chosen papers, we conducted a meta-analysis to compare the two models. The results have shown that there is no significant statistical evidence that Naive Bayes perform differently from Random Forest in terms of recall, f-measure, and precision.",
+    "path": "papers/23/06/2306.15369.json",
+    "total_tokens": 809,
+    "translated_title": "基于元分析的朴素贝叶斯和随机森林在软件缺陷预测中的比较",
+    "translated_abstract": "在软件缺陷预测中，朴素贝叶斯和随机森林在召回率、F-度量和精确度方面是否存在统计差异？通过利用系统性文献回顾和元分析，我们正在回答这个问题。我们通过建立搜索和选择论文的标准进行了系统性文献回顾，共包括了五个研究。之后，我们使用了五个选择的论文的元数据和森林图进行了元分析来比较两个模型。结果显示，没有显著的统计证据表明朴素贝叶斯在召回率、F-度量和精确度方面与随机森林表现不同。",
+    "tldr": "通过系统性文献回顾和元分析，本研究比较了朴素贝叶斯和随机森林模型在软件缺陷预测中的性能。结果表明，没有统计证据表明朴素贝叶斯在召回率、F-度量和精确度方面与随机森林有显著的差异。",
+    "en_tdlr": "This study compares the performance of Naive Bayes and Random Forest models in software defect prediction through systematic literature review and meta-analysis. The results show no significant statistical evidence of differences in recall, f-measure, and precision between Naive Bayes and Random Forest."
+}

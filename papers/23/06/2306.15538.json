@@ -1,0 +1,11 @@
+{
+    "title": "DataCI: A Platform for Data-Centric AI on Streaming Data. (arXiv:2306.15538v1 [cs.DC])",
+    "abstract": "We introduce DataCI, a comprehensive open-source platform designed specifically for data-centric AI in dynamic streaming data settings. DataCI provides 1) an infrastructure with rich APIs for seamless streaming dataset management, data-centric pipeline development and evaluation on streaming scenarios, 2) an carefully designed versioning control function to track the pipeline lineage, and 3) an intuitive graphical interface for a better interactive user experience. Preliminary studies and demonstrations attest to the easy-to-use and effectiveness of DataCI, highlighting its potential to revolutionize the practice of data-centric AI in streaming data contexts.",
+    "link": "http://arxiv.org/abs/2306.15538",
+    "context": "Title: DataCI: A Platform for Data-Centric AI on Streaming Data. (arXiv:2306.15538v1 [cs.DC])\nAbstract: We introduce DataCI, a comprehensive open-source platform designed specifically for data-centric AI in dynamic streaming data settings. DataCI provides 1) an infrastructure with rich APIs for seamless streaming dataset management, data-centric pipeline development and evaluation on streaming scenarios, 2) an carefully designed versioning control function to track the pipeline lineage, and 3) an intuitive graphical interface for a better interactive user experience. Preliminary studies and demonstrations attest to the easy-to-use and effectiveness of DataCI, highlighting its potential to revolutionize the practice of data-centric AI in streaming data contexts.",
+    "path": "papers/23/06/2306.15538.json",
+    "total_tokens": 720,
+    "translated_title": "DataCI: 一个用于流数据中数据中心人工智能的平台",
+    "translated_abstract": "我们介绍了DataCI，这是一个专门用于动态流数据场景中的数据中心人工智能的综合开源平台。DataCI提供了基础设施，具有丰富的API，用于无缝流数据集管理、数据中心流程的开发和评估，并且提供了精心设计的版本控制功能，以跟踪流程的衍生。另外，DataCI还提供了直观的图形界面，提供更好的交互体验。初步研究和演示证明了DataCI易于使用和有效性，凸显了它在流数据背景下改变数据中心人工智能实践的潜力。",
+    "tldr": "DataCI是一个开源平台，专为流数据中的数据中心人工智能而设计，提供丰富的API和版本控制功能，具有易于使用和有效性，可以改变流数据背景下的数据中心人工智能实践。"
+}
