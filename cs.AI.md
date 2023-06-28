@@ -93,31 +93,32 @@
 | [^89] | [One-step Multi-view Clustering with Diverse Representation.](http://arxiv.org/abs/2306.05437) | 本文提出了一种一步多视角聚类与多样性表征的方法，将多视角学习和k-means聚类融合到一个统一框架中，实验结果表明其在各种标准的多视角数据集上都优于现有算法。 |
 | [^90] | [Permutaion Equivariant Graph Framelets for Heterophilous Semi-supervised Learning.](http://arxiv.org/abs/2306.04265) | 本文介绍了一个用于异质半监督学习的新型图神经网络模型PEGFAN，它使用置换等变图框架实现了多尺度特征提取，表现优于其他最先进模型，特别是在相对较大和密集连接的数据集中。 |
 | [^91] | [Reversible Quantization Index Modulation for Static Deep Neural Network Watermarking.](http://arxiv.org/abs/2305.17879) | 本文提出了一种使用可逆量化索引调制（QIM）的基于可逆数据隐藏（RDH）的静态深度神经网络水印方案，解决了现有方法在可用性、容量和保真度方面的弱点，并通过模拟结果验证了方案的可行性和有效性。 |
-| [^92] | [Training Transitive and Commutative Multimodal Transformers with LoReTTa.](http://arxiv.org/abs/2305.14243) | LoReTTa是一个自监督框架，可以在具有不同模态的数据集中转换。通过合成数据集的方法，显著提高了下游任务的性能。 |
-| [^93] | [Capturing Conversion Rate Fluctuation during Sales Promotions: A Novel Historical Data Reuse Approach.](http://arxiv.org/abs/2305.12837) | 本论文提出了一种名为HDR的新方法，通过重复使用历史促销数据，来捕捉促销转化模式，达到更好地适应促销模式的目的。 |
-| [^94] | [Large-Scale Package Manipulation via Learned Metrics of Pick Success.](http://arxiv.org/abs/2305.10272) | 本文讨论了基于学习度量的大规模包裹操作，通过训练拾取成功预测器和学习拾取质量度量，实现了能够大规模部署的强力抓握策略。 |
-| [^95] | [Quantified Semantic Comparison of Convolutional Neural Networks.](http://arxiv.org/abs/2305.07663) | 本研究提出了两种方法来量化卷积神经网络潜在空间中语义信息之间的相似性，从而揭示CNN层内语义信息的流动和相似性，以及不同网络之间的相似度程度。 |
-| [^96] | [Region-Aware Pretraining for Open-Vocabulary Object Detection with Vision Transformers.](http://arxiv.org/abs/2305.07011) | 本文提出了一种基于视觉变压器的对比图像-文本预训练方法，针对开放词汇的物体检测任务，采用区域感知预训练、聚焦损失和新颖物体提案等技术，在LVIS上取得了32.1$AP_r$的最佳效果。 |
-| [^97] | [A Vision Transformer Approach for Efficient Near-Field Irregular SAR Super-Resolution.](http://arxiv.org/abs/2305.02074) | 本文提出了一种新的、用于近场不规则SAR超分辨率的算法，以应对高分辨率成像中遇到的独特挑战，为实现边缘和物联网(IoT)技术奠定技术基础。 |
-| [^98] | [Discovering Object-Centric Generalized Value Functions From Pixels.](http://arxiv.org/abs/2304.13892) | 本文介绍了一种从像素中学习物体中心化的广义值函数的方法。该方法从物体中发现有意义的特征，转化为“问题”函数，并利用随后学习的广义值函数来进行控制，在静态和非静态设置下表现良好。学到的表示不仅是可解释的，而且围绕着具有不变性的物体，有助于快速适应。 |
-| [^99] | [EPVT: Environment-aware Prompt Vision Transformer for Domain Generalization in Skin Lesion Recognition.](http://arxiv.org/abs/2304.01508) | EPVT是一种基于环境感知的提示视觉Transformer，用于解决皮肤病变识别中深度神经网络可能过度依赖疾病不相关图像特征的问题，通过嵌入一组领域提示和一个共享提示来进行领域一般化，并且引入了领域提示生成器促进知识共享。 |
-| [^100] | [mCPT at SemEval-2023 Task 3: Multilingual Label-Aware Contrastive Pre-Training of Transformers for Few- and Zero-shot Framing Detection.](http://arxiv.org/abs/2303.09901) | 本研究提出了mCPT模型用于多语言的、多标签的零样本或少样本的框架检测任务，并在西班牙语和其他8种语言中取得了良好的成绩。该方案采用了基于多语言变压器的预训练程序，使用标签感知对比损失函数。 |
-| [^101] | [Auditing large language models: a three-layered approach.](http://arxiv.org/abs/2302.08500) | 本文提出了一个三层次的方法来审计大型语言模型（LLMs），包括治理审计、模型审计和应用审计，解决LLMs带来的伦理和社会挑战。 |
-| [^102] | [GibbsDDRM: A Partially Collapsed Gibbs Sampler for Solving Blind Inverse Problems with Denoising Diffusion Restoration.](http://arxiv.org/abs/2301.12686) | GibbsDDRM是一种扩展的局部折叠Gibbs采样方法，用于解决线性逆问题中线性算子未知的盲场景。它利用预训练的扩散模型构建了数据、测量和线性算子的联合分布，并通过后验采样来解决问题。该方法在盲图像去模糊和语音去混响任务上表现出了高性能，而且适用于各种逆问题。 |
-| [^103] | [A Semi-supervised Sensing Rate Learning based CMAB Scheme to Combat COVID-19 by Trustful Data Collection in the Crowd.](http://arxiv.org/abs/2301.08563) | 本文提出了一种基于半监督学习的组合多臂赌博反向拍卖方案，用于解决移动众包系统中在招募多个未知和有策略的工作者时出现的数据可信问题。 |
-| [^104] | [Faster Maximum Inner Product Search in High Dimensions.](http://arxiv.org/abs/2212.07551) | 该论文提出了一种在高维度中更快的最大内积搜索算法 BanditMIPS，该算法的复杂度与维度无关，并且通过自适应采样策略提供理论保证和实验证明。 |
-| [^105] | [Hierarchical Decomposition and Analysis for Generalized Planning.](http://arxiv.org/abs/2212.02823) | 本文提出了一种分析和评估广义规划的新方法，通过层次化分解和使用图论推导出的终止论证，可以解决广义规划中的难题，并指导综合和学习过程。 |
-| [^106] | [Multi-Head Adapter Routing for Cross-Task Generalization.](http://arxiv.org/abs/2211.03831) | 本文研究了跨任务泛化中适配器路由的作用，并设计了基于此的新变体Multi-Head Routing (MHR)，通过精细的路由和参数高效的微调实现了更好的性能和更高的参数效率。 |
-| [^107] | [Iterative autoregression: a novel trick to improve your low-latency speech enhancement model.](http://arxiv.org/abs/2211.01751) | 本研究提出了一种简单而有效的替代技术，用于训练自回归低延迟语音增强模型，该方法在不同的架构和训练场景下均能带来稳定的改进。 |
-| [^108] | [Benchmarking Reinforcement Learning Techniques for Autonomous Navigation.](http://arxiv.org/abs/2210.04839) | 本研究针对自主导航应用深度强化学习方法提出了四个期望：不确定性推理、安全性、有限试错数据学习和对多样环境的泛化能力。 |
-| [^109] | [Real-Time Reinforcement Learning for Vision-Based Robotics Utilizing Local and Remote Computers.](http://arxiv.org/abs/2210.02317) | 本文实现了一个名为ReLoD的实时学习系统，利用本地和远程计算机来分配深度强化学习算法的计算，并在基于视觉的控制任务上进行了评估。结果显示SAC的性能下降了。 |
-| [^110] | [Self-Supervised Exploration via Temporal Inconsistency in Reinforcement Learning.](http://arxiv.org/abs/2208.11361) | 本文在强化学习中提出了一种新的内在奖励方法，通过比较当前观察与历史知识的差异来评估好奇心，并利用时间不一致性作为内在奖励。实验证明该方法在稀疏外在奖励的情况下具有更高的性能和噪声容忍度。 |
-| [^111] | [Asynchronous Execution of Heterogeneous Tasks in ML-driven HPC Workflows.](http://arxiv.org/abs/2208.11069) | 该论文研究了机器学习驱动的高性能计算工作流中异步任务执行的要求和特性，并提出了用于确定异步执行收益的关键指标。通过在Summit上进行大规模实验，作者证明了异步执行对性能的增强与模型一致。 |
-| [^112] | [What Do Compressed Multilingual Machine Translation Models Forget?.](http://arxiv.org/abs/2205.10828) | 本研究评估了压缩方法对多语言神经机器翻译模型在不同语言群体、性别和语义偏差方面的影响，并发现代表性不足的语言性能显著下降。 |
-| [^113] | [Bilinear value networks.](http://arxiv.org/abs/2204.13695) | 提出了一种通过点积低秩近似来表示Q值的双线性分解方法，其中第一个向量场捕捉状态的局部动态，第二个部分捕捉当前状态和目标之间的全局关系，该方法能够显著提高数据效率，并具有很好的泛化性能。 |
-| [^114] | [Topological Experience Replay.](http://arxiv.org/abs/2203.15845) | 本文提出了一种拓扑经验回放的方法，通过构建图来明确状态的 Q 值之间的依赖关系，解决了传统采样策略忽视状态间依赖关系的问题，提高了学习深度 Q 函数时的性能和准确性。 |
-| [^115] | [Surrogate-assisted distributed swarm optimisation for computationally expensive geoscientific models.](http://arxiv.org/abs/2201.06843) | 本文利用代理模型辅助的分布式群体优化方法，解决了计算昂贵的地质科学模型优化问题，在基准优化问题和Badlands风貌演化模型中都取得了非常有希望的结果。 |
-| [^116] | [Explainable and Discourse Topic-aware Neural Language Understanding.](http://arxiv.org/abs/2006.10632) | 该论文提出了一个新颖的神经复合语言模型，通过引入可解释性的主题表示和句子级的主题对话，将主题模型和语言模型相结合。实验结果表明，在多个任务上，该模型显示出了良好的性能。 |
+| [^92] | [Levin Tree Search with Context Models.](http://arxiv.org/abs/2305.16945) | 本文提出了一种新的具有上下文模型的Levin树搜索算法，通过将神经网络替换为上下文模型，实现了LTS损失的凸优化，并在多个基准测试中取得了明显优于LTS+NN的结果。 |
+| [^93] | [Training Transitive and Commutative Multimodal Transformers with LoReTTa.](http://arxiv.org/abs/2305.14243) | LoReTTa是一个自监督框架，可以在具有不同模态的数据集中转换。通过合成数据集的方法，显著提高了下游任务的性能。 |
+| [^94] | [Capturing Conversion Rate Fluctuation during Sales Promotions: A Novel Historical Data Reuse Approach.](http://arxiv.org/abs/2305.12837) | 本论文提出了一种名为HDR的新方法，通过重复使用历史促销数据，来捕捉促销转化模式，达到更好地适应促销模式的目的。 |
+| [^95] | [Large-Scale Package Manipulation via Learned Metrics of Pick Success.](http://arxiv.org/abs/2305.10272) | 本文讨论了基于学习度量的大规模包裹操作，通过训练拾取成功预测器和学习拾取质量度量，实现了能够大规模部署的强力抓握策略。 |
+| [^96] | [Quantified Semantic Comparison of Convolutional Neural Networks.](http://arxiv.org/abs/2305.07663) | 本研究提出了两种方法来量化卷积神经网络潜在空间中语义信息之间的相似性，从而揭示CNN层内语义信息的流动和相似性，以及不同网络之间的相似度程度。 |
+| [^97] | [Region-Aware Pretraining for Open-Vocabulary Object Detection with Vision Transformers.](http://arxiv.org/abs/2305.07011) | 本文提出了一种基于视觉变压器的对比图像-文本预训练方法，针对开放词汇的物体检测任务，采用区域感知预训练、聚焦损失和新颖物体提案等技术，在LVIS上取得了32.1$AP_r$的最佳效果。 |
+| [^98] | [A Vision Transformer Approach for Efficient Near-Field Irregular SAR Super-Resolution.](http://arxiv.org/abs/2305.02074) | 本文提出了一种新的、用于近场不规则SAR超分辨率的算法，以应对高分辨率成像中遇到的独特挑战，为实现边缘和物联网(IoT)技术奠定技术基础。 |
+| [^99] | [Discovering Object-Centric Generalized Value Functions From Pixels.](http://arxiv.org/abs/2304.13892) | 本文介绍了一种从像素中学习物体中心化的广义值函数的方法。该方法从物体中发现有意义的特征，转化为“问题”函数，并利用随后学习的广义值函数来进行控制，在静态和非静态设置下表现良好。学到的表示不仅是可解释的，而且围绕着具有不变性的物体，有助于快速适应。 |
+| [^100] | [EPVT: Environment-aware Prompt Vision Transformer for Domain Generalization in Skin Lesion Recognition.](http://arxiv.org/abs/2304.01508) | EPVT是一种基于环境感知的提示视觉Transformer，用于解决皮肤病变识别中深度神经网络可能过度依赖疾病不相关图像特征的问题，通过嵌入一组领域提示和一个共享提示来进行领域一般化，并且引入了领域提示生成器促进知识共享。 |
+| [^101] | [mCPT at SemEval-2023 Task 3: Multilingual Label-Aware Contrastive Pre-Training of Transformers for Few- and Zero-shot Framing Detection.](http://arxiv.org/abs/2303.09901) | 本研究提出了mCPT模型用于多语言的、多标签的零样本或少样本的框架检测任务，并在西班牙语和其他8种语言中取得了良好的成绩。该方案采用了基于多语言变压器的预训练程序，使用标签感知对比损失函数。 |
+| [^102] | [Auditing large language models: a three-layered approach.](http://arxiv.org/abs/2302.08500) | 本文提出了一个三层次的方法来审计大型语言模型（LLMs），包括治理审计、模型审计和应用审计，解决LLMs带来的伦理和社会挑战。 |
+| [^103] | [GibbsDDRM: A Partially Collapsed Gibbs Sampler for Solving Blind Inverse Problems with Denoising Diffusion Restoration.](http://arxiv.org/abs/2301.12686) | GibbsDDRM是一种扩展的局部折叠Gibbs采样方法，用于解决线性逆问题中线性算子未知的盲场景。它利用预训练的扩散模型构建了数据、测量和线性算子的联合分布，并通过后验采样来解决问题。该方法在盲图像去模糊和语音去混响任务上表现出了高性能，而且适用于各种逆问题。 |
+| [^104] | [A Semi-supervised Sensing Rate Learning based CMAB Scheme to Combat COVID-19 by Trustful Data Collection in the Crowd.](http://arxiv.org/abs/2301.08563) | 本文提出了一种基于半监督学习的组合多臂赌博反向拍卖方案，用于解决移动众包系统中在招募多个未知和有策略的工作者时出现的数据可信问题。 |
+| [^105] | [Faster Maximum Inner Product Search in High Dimensions.](http://arxiv.org/abs/2212.07551) | 该论文提出了一种在高维度中更快的最大内积搜索算法 BanditMIPS，该算法的复杂度与维度无关，并且通过自适应采样策略提供理论保证和实验证明。 |
+| [^106] | [Hierarchical Decomposition and Analysis for Generalized Planning.](http://arxiv.org/abs/2212.02823) | 本文提出了一种分析和评估广义规划的新方法，通过层次化分解和使用图论推导出的终止论证，可以解决广义规划中的难题，并指导综合和学习过程。 |
+| [^107] | [Multi-Head Adapter Routing for Cross-Task Generalization.](http://arxiv.org/abs/2211.03831) | 本文研究了跨任务泛化中适配器路由的作用，并设计了基于此的新变体Multi-Head Routing (MHR)，通过精细的路由和参数高效的微调实现了更好的性能和更高的参数效率。 |
+| [^108] | [Iterative autoregression: a novel trick to improve your low-latency speech enhancement model.](http://arxiv.org/abs/2211.01751) | 本研究提出了一种简单而有效的替代技术，用于训练自回归低延迟语音增强模型，该方法在不同的架构和训练场景下均能带来稳定的改进。 |
+| [^109] | [Benchmarking Reinforcement Learning Techniques for Autonomous Navigation.](http://arxiv.org/abs/2210.04839) | 本研究针对自主导航应用深度强化学习方法提出了四个期望：不确定性推理、安全性、有限试错数据学习和对多样环境的泛化能力。 |
+| [^110] | [Real-Time Reinforcement Learning for Vision-Based Robotics Utilizing Local and Remote Computers.](http://arxiv.org/abs/2210.02317) | 本文实现了一个名为ReLoD的实时学习系统，利用本地和远程计算机来分配深度强化学习算法的计算，并在基于视觉的控制任务上进行了评估。结果显示SAC的性能下降了。 |
+| [^111] | [Self-Supervised Exploration via Temporal Inconsistency in Reinforcement Learning.](http://arxiv.org/abs/2208.11361) | 本文在强化学习中提出了一种新的内在奖励方法，通过比较当前观察与历史知识的差异来评估好奇心，并利用时间不一致性作为内在奖励。实验证明该方法在稀疏外在奖励的情况下具有更高的性能和噪声容忍度。 |
+| [^112] | [Asynchronous Execution of Heterogeneous Tasks in ML-driven HPC Workflows.](http://arxiv.org/abs/2208.11069) | 该论文研究了机器学习驱动的高性能计算工作流中异步任务执行的要求和特性，并提出了用于确定异步执行收益的关键指标。通过在Summit上进行大规模实验，作者证明了异步执行对性能的增强与模型一致。 |
+| [^113] | [What Do Compressed Multilingual Machine Translation Models Forget?.](http://arxiv.org/abs/2205.10828) | 本研究评估了压缩方法对多语言神经机器翻译模型在不同语言群体、性别和语义偏差方面的影响，并发现代表性不足的语言性能显著下降。 |
+| [^114] | [Bilinear value networks.](http://arxiv.org/abs/2204.13695) | 提出了一种通过点积低秩近似来表示Q值的双线性分解方法，其中第一个向量场捕捉状态的局部动态，第二个部分捕捉当前状态和目标之间的全局关系，该方法能够显著提高数据效率，并具有很好的泛化性能。 |
+| [^115] | [Topological Experience Replay.](http://arxiv.org/abs/2203.15845) | 本文提出了一种拓扑经验回放的方法，通过构建图来明确状态的 Q 值之间的依赖关系，解决了传统采样策略忽视状态间依赖关系的问题，提高了学习深度 Q 函数时的性能和准确性。 |
+| [^116] | [Surrogate-assisted distributed swarm optimisation for computationally expensive geoscientific models.](http://arxiv.org/abs/2201.06843) | 本文利用代理模型辅助的分布式群体优化方法，解决了计算昂贵的地质科学模型优化问题，在基准优化问题和Badlands风貌演化模型中都取得了非常有希望的结果。 |
+| [^117] | [Explainable and Discourse Topic-aware Neural Language Understanding.](http://arxiv.org/abs/2006.10632) | 该论文提出了一个新颖的神经复合语言模型，通过引入可解释性的主题表示和句子级的主题对话，将主题模型和语言模型相结合。实验结果表明，在多个任务上，该模型显示出了良好的性能。 |
 
 # 详细
 
@@ -1395,7 +1396,21 @@
 
     Static deep neural network (DNN) watermarking techniques typically employ irreversible methods to embed watermarks into the DNN model weights. However, this approach causes permanent damage to the watermarked model and fails to meet the requirements of integrity authentication. Reversible data hiding (RDH) methods offer a potential solution, but existing approaches suffer from weaknesses in terms of usability, capacity, and fidelity, hindering their practical adoption. In this paper, we propose a novel RDH-based static DNN watermarking scheme using quantization index modulation (QIM). Our scheme incorporates a novel approach based on a one-dimensional quantizer for watermark embedding. Furthermore, we design two schemes to address the challenges of integrity protection and legitimate authentication for DNNs. Through simulation results on training loss and classification accuracy, we demonstrate the feasibility and effectiveness of our proposed schemes, highlighting their superior adapt
     
-[^92]: 内容丰富的多模态转换器训练与 LoReTTa
+[^92]: 具有上下文模型的Levin树搜索
+
+    Levin Tree Search with Context Models. (arXiv:2305.16945v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2305.16945](http://arxiv.org/abs/2305.16945)
+
+    本文提出了一种新的具有上下文模型的Levin树搜索算法，通过将神经网络替换为上下文模型，实现了LTS损失的凸优化，并在多个基准测试中取得了明显优于LTS+NN的结果。
+
+    
+
+    Levin Tree Search（LTS）是一种利用策略（动作的概率分布）的搜索算法，并具有关于达到目标节点之前扩展次数的理论保证，这取决于策略的质量。我们将这个保证称为LTS损失，可以将其作为优化表示策略的神经网络（LTS+NN）的损失函数。在这项工作中，我们展示了神经网络可以用在线压缩文献中的参数化上下文模型来替代（LTS+CM）。我们证明了在这种新模型下LTS损失是凸的，从而可以使用标准凸优化工具，并且对于给定的解轨迹集合，在在线设置中可以获得到最优参数的收敛保证——而神经网络无法提供这样的保证。新的LTS+CM算法在几个基准测试中与LTS+NN相比表现出明显优势：Sokoban（Boxoban）、The Witness和24-Sliding Tile Puzzle（STP）。
+
+    Levin Tree Search (LTS) is a search algorithm that makes use of a policy (a probability distribution over actions) and comes with a theoretical guarantee on the number of expansions before reaching a goal node, depending on the quality of the policy. This guarantee can be used as a loss function, which we call the LTS loss, to optimize neural networks representing the policy (LTS+NN). In this work we show that the neural network can be substituted with parameterized context models originating from the online compression literature (LTS+CM). We show that the LTS loss is convex under this new model, which allows for using standard convex optimization tools, and obtain convergence guarantees to the optimal parameters in an online setting for a given set of solution trajectories -- guarantees that cannot be provided for neural networks. The new LTS+CM algorithm compares favorably against LTS+NN on several benchmarks: Sokoban (Boxoban), The Witness, and the 24-Sliding Tile puzzle (STP). The
+    
+[^93]: 内容丰富的多模态转换器训练与 LoReTTa
 
     Training Transitive and Commutative Multimodal Transformers with LoReTTa. (arXiv:2305.14243v2 [cs.AI] UPDATED)
 
@@ -1409,7 +1424,7 @@
 
     Collecting a multimodal dataset with two paired modalities A and B or B and C is difficult in practice. Obtaining a dataset with three aligned modalities A, B, and C is even more challenging. For example, some public medical datasets have only genetic sequences and microscopic images for one patient, and only genetic sequences and radiological images for another - but no dataset includes both microscopic and radiological images for the same patient. This makes it difficult to integrate and combine all modalities into a large pre-trained neural network. We introduce LoReTTa (Linking mOdalities with a tRansitive and commutativE pre-Training sTrAtegy) to address this understudied problem. Our self-supervised framework combines causal masked modeling with the rules of commutativity and transitivity to transition within and between different modalities. Thus, it can model the relation A -> C with A -> B -> C. Given a dataset containing only the disjoint combinations (A, B) and (B, C), we sh
     
-[^93]: 捕捉促销期间的转化率波动：一种新颖的历史数据再利用方法
+[^94]: 捕捉促销期间的转化率波动：一种新颖的历史数据再利用方法
 
     Capturing Conversion Rate Fluctuation during Sales Promotions: A Novel Historical Data Reuse Approach. (arXiv:2305.12837v2 [cs.IR] UPDATED)
 
@@ -1423,7 +1438,7 @@
 
     Conversion rate (CVR) prediction is one of the core components in online recommender systems, and various approaches have been proposed to obtain accurate and well-calibrated CVR estimation. However, we observe that a well-trained CVR prediction model often performs sub-optimally during sales promotions. This can be largely ascribed to the problem of the data distribution shift, in which the conventional methods no longer work. To this end, we seek to develop alternative modeling techniques for CVR prediction. Observing similar purchase patterns across different promotions, we propose reusing the historical promotion data to capture the promotional conversion patterns. Herein, we propose a novel \textbf{H}istorical \textbf{D}ata \textbf{R}euse (\textbf{HDR}) approach that first retrieves historically similar promotion data and then fine-tunes the CVR prediction model with the acquired data for better adaptation to the promotion mode. HDR consists of three components: an automated data 
     
-[^94]: 基于学习度量的大规模包裹操作
+[^95]: 基于学习度量的大规模包裹操作
 
     Large-Scale Package Manipulation via Learned Metrics of Pick Success. (arXiv:2305.10272v1 [cs.RO])
 
@@ -1437,7 +1452,7 @@
 
     Automating warehouse operations can reduce logistics overhead costs, ultimately driving down the final price for consumers, increasing the speed of delivery, and enhancing the resiliency to workforce fluctuations. The past few years have seen increased interest in automating such repeated tasks but mostly in controlled settings. Tasks such as picking objects from unstructured, cluttered piles have only recently become robust enough for large-scale deployment with minimal human intervention.  This paper demonstrates a large-scale package manipulation from unstructured piles in Amazon Robotics' Robot Induction (Robin) fleet, which utilizes a pick success predictor trained on real production data. Specifically, the system was trained on over 394K picks. It is used for singulating up to 5~million packages per day and has manipulated over 200~million packages during this paper's evaluation period.  The developed learned pick quality measure ranks various pick alternatives in real-time and p
     
-[^95]: 卷积神经网络的定量语义比较
+[^96]: 卷积神经网络的定量语义比较
 
     Quantified Semantic Comparison of Convolutional Neural Networks. (arXiv:2305.07663v1 [cs.CV])
 
@@ -1451,7 +1466,7 @@
 
     The state-of-the-art in convolutional neural networks (CNNs) for computer vision excels in performance, while remaining opaque. But due to safety regulations for safety-critical applications, like perception for automated driving, the choice of model should also take into account how candidate models represent semantic information for model transparency reasons. To tackle this yet unsolved problem, our work proposes two methods for quantifying the similarity between semantic information in CNN latent spaces. These allow insights into both the flow and similarity of semantic information within CNN layers, and into the degree of their similitude between different networks. As a basis, we use renown techniques from the field of explainable artificial intelligence (XAI), which are used to obtain global vector representations of semantic concepts in each latent space. These are compared with respect to their activation on test inputs. When applied to three diverse object detectors and two d
     
-[^96]: 区域感知预训练：视觉变压器下的开放词汇物体检测
+[^97]: 区域感知预训练：视觉变压器下的开放词汇物体检测
 
     Region-Aware Pretraining for Open-Vocabulary Object Detection with Vision Transformers. (arXiv:2305.07011v1 [cs.CV])
 
@@ -1465,7 +1480,7 @@
 
     We present Region-aware Open-vocabulary Vision Transformers (RO-ViT) - a contrastive image-text pretraining recipe to bridge the gap between image-level pretraining and open-vocabulary object detection. At the pretraining phase, we propose to randomly crop and resize regions of positional embeddings instead of using the whole image positional embeddings. This better matches the use of positional embeddings at region-level in the detection finetuning phase. In addition, we replace the common softmax cross entropy loss in contrastive learning with focal loss to better learn the informative yet difficult examples. Finally, we leverage recent advances in novel object proposals to improve open-vocabulary detection finetuning. We evaluate our full model on the LVIS and COCO open-vocabulary detection benchmarks and zero-shot transfer. RO-ViT achieves a state-of-the-art 32.1 $AP_r$ on LVIS, surpassing the best existing approach by +5.8 points in addition to competitive zero-shot transfer detec
     
-[^97]: 一种用于近场不规则SAR超分辨率的视觉Transformer方法
+[^98]: 一种用于近场不规则SAR超分辨率的视觉Transformer方法
 
     A Vision Transformer Approach for Efficient Near-Field Irregular SAR Super-Resolution. (arXiv:2305.02074v1 [cs.CV])
 
@@ -1479,7 +1494,7 @@
 
     In this paper, we develop a novel super-resolution algorithm for near-field synthetic-aperture radar (SAR) under irregular scanning geometries. As fifth-generation (5G) millimeter-wave (mmWave) devices are becoming increasingly affordable and available, high-resolution SAR imaging is feasible for end-user applications and non-laboratory environments. Emerging applications such freehand imaging, wherein a handheld radar is scanned throughout space by a user, unmanned aerial vehicle (UAV) imaging, and automotive SAR face several unique challenges for high-resolution imaging. First, recovering a SAR image requires knowledge of the array positions throughout the scan. While recent work has introduced camera-based positioning systems capable of adequately estimating the position, recovering the algorithm efficiently is a requirement to enable edge and Internet of Things (IoT) technologies. Efficient algorithms for non-cooperative near-field SAR sampling have been explored in recent work, bu
     
-[^98]: 从像素中学习物体中心化的广义值函数
+[^99]: 从像素中学习物体中心化的广义值函数
 
     Discovering Object-Centric Generalized Value Functions From Pixels. (arXiv:2304.13892v1 [cs.LG])
 
@@ -1493,7 +1508,7 @@
 
     Deep Reinforcement Learning has shown significant progress in extracting useful representations from high-dimensional inputs albeit using hand-crafted auxiliary tasks and pseudo rewards. Automatically learning such representations in an object-centric manner geared towards control and fast adaptation remains an open research problem. In this paper, we introduce a method that tries to discover meaningful features from objects, translating them to temporally coherent "question" functions and leveraging the subsequent learned general value functions for control. We compare our approach with state-of-the-art techniques alongside other ablations and show competitive performance in both stationary and non-stationary settings. Finally, we also investigate the discovered general value functions and through qualitative analysis show that the learned representations are not only interpretable but also, centered around objects that are invariant to changes across tasks facilitating fast adaptatio
     
-[^99]: EPVT: 基于环境感知的提示视觉Transformer在皮肤病变识别领域一般化中的应用
+[^100]: EPVT: 基于环境感知的提示视觉Transformer在皮肤病变识别领域一般化中的应用
 
     EPVT: Environment-aware Prompt Vision Transformer for Domain Generalization in Skin Lesion Recognition. (arXiv:2304.01508v1 [cs.CV])
 
@@ -1507,7 +1522,7 @@
 
     Skin lesion recognition using deep learning has made remarkable progress, and there is an increasing need for deploying these systems in real-world scenarios. However, recent research has revealed that deep neural networks for skin lesion recognition may overly depend on disease-irrelevant image artifacts (i.e. dark corners, dense hairs), leading to poor generalization in unseen environments. To address this issue, we propose a novel domain generalization method called EPVT, which involves embedding prompts into the vision transformer to collaboratively learn knowledge from diverse domains. Concretely, EPVT leverages a set of domain prompts, each of which plays as a domain expert, to capture domain-specific knowledge; and a shared prompt for general knowledge over the entire dataset. To facilitate knowledge sharing and the interaction of different prompts, we introduce a domain prompt generator that enables low-rank multiplicative updates between domain prompts and the shared prompt. A
     
-[^100]: SemEval-2023任务3上的mCPT：用于零样本和少样本框架检测的多语言标签感知对比预训练变压器
+[^101]: SemEval-2023任务3上的mCPT：用于零样本和少样本框架检测的多语言标签感知对比预训练变压器
 
     mCPT at SemEval-2023 Task 3: Multilingual Label-Aware Contrastive Pre-Training of Transformers for Few- and Zero-shot Framing Detection. (arXiv:2303.09901v1 [cs.CL])
 
@@ -1521,7 +1536,7 @@
 
     This paper presents the winning system for the zero-shot Spanish framing detection task, which also achieves competitive places in eight additional languages. The challenge of the framing detection task lies in identifying a set of 14 frames when only a few or zero samples are available, i.e., a multilingual multi-label few- or zero-shot setting. Our developed solution employs a pre-training procedure based on multilingual Transformers using a label-aware contrastive loss function. In addition to describing the system, we perform an embedding space analysis and ablation study to demonstrate how our pre-training procedure supports framing detection to advance computational framing analysis.
     
-[^101]: 审计大型语言模型：一个三层次的方法
+[^102]: 审计大型语言模型：一个三层次的方法
 
     Auditing large language models: a three-layered approach. (arXiv:2302.08500v2 [cs.CL] UPDATED)
 
@@ -1535,7 +1550,7 @@
 
     Large language models (LLMs) represent a major advance in artificial intelligence (AI) research. However, the widespread use of LLMs is also coupled with significant ethical and social challenges. Previous research has pointed towards auditing as a promising governance mechanism to help ensure that AI systems are designed and deployed in ways that are ethical, legal, and technically robust. However, existing auditing procedures fail to address the governance challenges posed by LLMs, which display emergent capabilities and are adaptable to a wide range of downstream tasks. In this article, we address that gap by outlining a novel blueprint for how to audit LLMs. Specifically, we propose a three-layered approach, whereby governance audits (of technology providers that design and disseminate LLMs), model audits (of LLMs after pre-training but prior to their release), and application audits (of applications based on LLMs) complement and inform each other. We show how audits, when conducte
     
-[^102]: GibbsDDRM:一种用于解决盲逆问题的局部折叠Gibbs采样器，带有去噪扩散恢复的先验。(arXiv:2301.12686v2 [cs.LG] 更新)
+[^103]: GibbsDDRM:一种用于解决盲逆问题的局部折叠Gibbs采样器，带有去噪扩散恢复的先验。(arXiv:2301.12686v2 [cs.LG] 更新)
 
     GibbsDDRM: A Partially Collapsed Gibbs Sampler for Solving Blind Inverse Problems with Denoising Diffusion Restoration. (arXiv:2301.12686v2 [cs.LG] UPDATED)
 
@@ -1549,7 +1564,7 @@
 
     Pre-trained diffusion models have been successfully used as priors in a variety of linear inverse problems, where the goal is to reconstruct a signal from noisy linear measurements. However, existing approaches require knowledge of the linear operator. In this paper, we propose GibbsDDRM, an extension of Denoising Diffusion Restoration Models (DDRM) to a blind setting in which the linear measurement operator is unknown. GibbsDDRM constructs a joint distribution of the data, measurements, and linear operator by using a pre-trained diffusion model for the data prior, and it solves the problem by posterior sampling with an efficient variant of a Gibbs sampler. The proposed method is problem-agnostic, meaning that a pre-trained diffusion model can be applied to various inverse problems without fine-tuning. In experiments, it achieved high performance on both blind image deblurring and vocal dereverberation tasks, despite the use of simple generic priors for the underlying linear operators.
     
-[^103]: 一种基于半监督感知率学习的CMAB方案，通过可信数据收集在人群中抗击COVID-19
+[^104]: 一种基于半监督感知率学习的CMAB方案，通过可信数据收集在人群中抗击COVID-19
 
     A Semi-supervised Sensing Rate Learning based CMAB Scheme to Combat COVID-19 by Trustful Data Collection in the Crowd. (arXiv:2301.08563v2 [cs.HC] UPDATED)
 
@@ -1563,7 +1578,7 @@
 
     The recruitment of trustworthy and high-quality workers is an important research issue for MCS. Previous studies either assume that the qualities of workers are known in advance, or assume that the platform knows the qualities of workers once it receives their collected data. In reality, to reduce costs and thus maximize revenue, many strategic workers do not perform their sensing tasks honestly and report fake data to the platform, which is called False data attacks. And it is very hard for the platform to evaluate the authenticity of the received data. In this paper, an incentive mechanism named Semi-supervision based Combinatorial Multi-Armed Bandit reverse Auction (SCMABA) is proposed to solve the recruitment problem of multiple unknown and strategic workers in MCS. First, we model the worker recruitment as a multi-armed bandit reverse auction problem and design an UCB-based algorithm to separate the exploration and exploitation, regarding the Sensing Rates (SRs) of recruited worke
     
-[^104]: 在高维度中更快的最大内积搜索
+[^105]: 在高维度中更快的最大内积搜索
 
     Faster Maximum Inner Product Search in High Dimensions. (arXiv:2212.07551v3 [cs.LG] UPDATED)
 
@@ -1577,7 +1592,7 @@
 
     Maximum Inner Product Search (MIPS) is a ubiquitous task in machine learning applications such as recommendation systems. Given a query vector and $n$ atom vectors in $d$-dimensional space, the goal of MIPS is to find the atom that has the highest inner product with the query vector. Existing MIPS algorithms scale at least as $O(\sqrt{d})$, which becomes computationally prohibitive in high-dimensional settings. In this work, we present BanditMIPS, a novel randomized MIPS algorithm whose complexity is independent of $d$. BanditMIPS estimates the inner product for each atom by subsampling coordinates and adaptively evaluates more coordinates for more promising atoms. The specific adaptive sampling strategy is motivated by multi-armed bandits. We provide theoretical guarantees that BanditMIPS returns the correct answer with high probability, while improving the complexity in $d$ from $O(\sqrt{d})$ to $O(1)$. We also perform experiments on four synthetic and real-world datasets and demonst
     
-[^105]: 层次化分解和分析广义规划
+[^106]: 层次化分解和分析广义规划
 
     Hierarchical Decomposition and Analysis for Generalized Planning. (arXiv:2212.02823v2 [cs.AI] UPDATED)
 
@@ -1591,7 +1606,7 @@
 
     This paper presents new methods for analyzing and evaluating generalized plans that can solve broad classes of related planning problems. Although synthesis and learning of generalized plans has been a longstanding goal in AI, it remains challenging due to fundamental gaps in methods for analyzing the scope and utility of a given generalized plan. This paper addresses these gaps by developing a new conceptual framework along with proof techniques and algorithmic processes for assessing termination and goal-reachability related properties of generalized plans. We build upon classic results from graph theory to decompose generalized plans into smaller components that are then used to derive hierarchical termination arguments. These methods can be used to determine the utility of a given generalized plan, as well as to guide the synthesis and learning processes for generalized plans. We present theoretical as well as empirical results illustrating the scope of this new approach. Our analy
     
-[^106]: 跨任务泛化的多头适配器路由
+[^107]: 跨任务泛化的多头适配器路由
 
     Multi-Head Adapter Routing for Cross-Task Generalization. (arXiv:2211.03831v2 [cs.AI] UPDATED)
 
@@ -1605,7 +1620,7 @@
 
     Parameter-efficient fine-tuning (PEFT) for cross-task generalization consists in pre-training adapters on a multi-task training set before few-shot adaptation to test tasks. Polytropon [Ponti et al., 2023] ($\texttt{Poly}$) jointly learns an inventory of adapters and a routing function that selects a (variable-size) subset of adapters for each task during both pre-training and few-shot adaptation. In this paper, we investigate the role that adapter routing plays in its success and design new variants based on our findings. First, we build on the intuition that finer-grained routing provides more expressivity. Hence, we propose $\texttt{MHR}$ (Multi-Head Routing), which combines $\textit{subsets}$ of adapter parameters and outperforms $\texttt{Poly}$ under a comparable parameter budget; by only fine-tuning the routing function and not the adapters ($\texttt{MHR}$-$z$), we achieve competitive performance with extreme parameter efficiency. Second, we find that $\texttt{Poly}$/$\texttt{MHR
     
-[^107]: 迭代自回归：提高低延迟语音增强模型的新技巧
+[^108]: 迭代自回归：提高低延迟语音增强模型的新技巧
 
     Iterative autoregression: a novel trick to improve your low-latency speech enhancement model. (arXiv:2211.01751v2 [cs.SD] UPDATED)
 
@@ -1619,7 +1634,7 @@
 
     Streaming models are an essential component of real-time speech enhancement tools. The streaming regime constrains speech enhancement models to use only a tiny context of future information. As a result, the low-latency streaming setup is generally considered a challenging task and has a significant negative impact on the model's quality. However, the sequential nature of streaming generation offers a natural possibility for autoregression, that is, utilizing previous predictions while making current ones. The conventional method for training autoregressive models is teacher forcing, but its primary drawback lies in the training-inference mismatch that can lead to a substantial degradation in quality. In this study, we propose a straightforward yet effective alternative technique for training autoregressive low-latency speech enhancement models. We demonstrate that the proposed approach leads to stable improvement across diverse architectures and training scenarios.
     
-[^108]: 自主导航的强化学习技术基准测试
+[^109]: 自主导航的强化学习技术基准测试
 
     Benchmarking Reinforcement Learning Techniques for Autonomous Navigation. (arXiv:2210.04839v2 [cs.RO] UPDATED)
 
@@ -1633,7 +1648,7 @@
 
     Deep reinforcement learning (RL) has brought many successes for autonomous robot navigation. However, there still exists important limitations that prevent real-world use of RL-based navigation systems. For example, most learning approaches lack safety guarantees; and learned navigation systems may not generalize well to unseen environments. Despite a variety of recent learning techniques to tackle these challenges in general, a lack of an open-source benchmark and reproducible learning methods specifically for autonomous navigation makes it difficult for roboticists to choose what learning methods to use for their mobile robots and for learning researchers to identify current shortcomings of general learning methods for autonomous navigation. In this paper, we identify four major desiderata of applying deep RL approaches for autonomous navigation: (D1) reasoning under uncertainty, (D2) safety, (D3) learning from limited trial-and-error data, and (D4) generalization to diverse and nove
     
-[^109]: 实时强化学习用于基于视觉的机器人，利用本地和远程计算机
+[^110]: 实时强化学习用于基于视觉的机器人，利用本地和远程计算机
 
     Real-Time Reinforcement Learning for Vision-Based Robotics Utilizing Local and Remote Computers. (arXiv:2210.02317v2 [cs.RO] UPDATED)
 
@@ -1647,7 +1662,7 @@
 
     Real-time learning is crucial for robotic agents adapting to ever-changing, non-stationary environments. A common setup for a robotic agent is to have two different computers simultaneously: a resource-limited local computer tethered to the robot and a powerful remote computer connected wirelessly. Given such a setup, it is unclear to what extent the performance of a learning system can be affected by resource limitations and how to efficiently use the wirelessly connected powerful computer to compensate for any performance loss. In this paper, we implement a real-time learning system called the Remote-Local Distributed (ReLoD) system to distribute computations of two deep reinforcement learning (RL) algorithms, Soft Actor-Critic (SAC) and Proximal Policy Optimization (PPO), between a local and a remote computer. The performance of the system is evaluated on two vision-based control tasks developed using a robotic arm and a mobile robot. Our results show that SAC's performance degrades
     
-[^110]: 基于时间不一致的自监督探索在强化学习中的应用
+[^111]: 基于时间不一致的自监督探索在强化学习中的应用
 
     Self-Supervised Exploration via Temporal Inconsistency in Reinforcement Learning. (arXiv:2208.11361v2 [cs.LG] UPDATED)
 
@@ -1661,7 +1676,7 @@
 
     Under sparse extrinsic reward settings, reinforcement learning has remained challenging, despite surging interests in this field. Previous attempts suggest that intrinsic reward can alleviate the issue caused by sparsity. In this article, we present a novel intrinsic reward that is inspired by human learning, as humans evaluate curiosity by comparing current observations with historical knowledge. Our method involves training a self-supervised prediction model, saving snapshots of the model parameters, and using nuclear norm to evaluate the temporal inconsistency between the predictions of different snapshots as intrinsic rewards. We also propose a variational weighting mechanism to assign weight to different snapshots in an adaptive manner. Our experimental results on various benchmark environments demonstrate the efficacy of our method, which outperforms other intrinsic reward-based methods without additional training costs and with higher noise tolerance. This work has been submitte
     
-[^111]: 异构任务在机器学习驱动的高性能计算工作流中的异步执行
+[^112]: 异构任务在机器学习驱动的高性能计算工作流中的异步执行
 
     Asynchronous Execution of Heterogeneous Tasks in ML-driven HPC Workflows. (arXiv:2208.11069v2 [cs.DC] UPDATED)
 
@@ -1675,7 +1690,7 @@
 
     Heterogeneous scientific workflows consist of numerous types of tasks that require executing on heterogeneous resources. Asynchronous execution of those tasks is crucial to improve resource utilization, task throughput and reduce workflows' makespan. Therefore, middleware capable of scheduling and executing different task types across heterogeneous resources must enable asynchronous execution of tasks. In this paper, we investigate the requirements and properties of the asynchronous task execution of machine learning (ML)-driven high performance computing (HPC) workflows. We model the degree of asynchronicity permitted for arbitrary workflows and propose key metrics that can be used to determine qualitative benefits when employing asynchronous execution. Our experiments represent relevant scientific drivers, we perform them at scale on Summit, and we show that the performance enhancements due to asynchronous execution are consistent with our model.
     
-[^112]: 压缩型多语言机器翻译模型会忽略什么？
+[^113]: 压缩型多语言机器翻译模型会忽略什么？
 
     What Do Compressed Multilingual Machine Translation Models Forget?. (arXiv:2205.10828v4 [cs.CL] UPDATED)
 
@@ -1689,7 +1704,7 @@
 
     Recently, very large pre-trained models achieve state-of-the-art results in various natural language processing (NLP) tasks, but their size makes it more challenging to apply them in resource-constrained environments. Compression techniques allow to drastically reduce the size of the models and therefore their inference time with negligible impact on top-tier metrics. However, the general performance averaged across multiple tasks and/or languages may hide a drastic performance drop on under-represented features, which could result in the amplification of biases encoded by the models. In this work, we assess the impact of compression methods on Multilingual Neural Machine Translation models (MNMT) for various language groups, gender, and semantic biases by extensive analysis of compressed models on different machine translation benchmarks, i.e. FLORES-101, MT-Gender, and DiBiMT. We show that the performance of under-represented languages drops significantly, while the average BLEU metr
     
-[^113]: 双线性价值网络
+[^114]: 双线性价值网络
 
     Bilinear value networks. (arXiv:2204.13695v2 [cs.AI] UPDATED)
 
@@ -1703,7 +1718,7 @@
 
     The dominant framework for off-policy multi-goal reinforcement learning involves estimating goal conditioned Q-value function. When learning to achieve multiple goals, data efficiency is intimately connected with the generalization of the Q-function to new goals. The de-facto paradigm is to approximate Q(s, a, g) using monolithic neural networks. To improve the generalization of the Q-function, we propose a bilinear decomposition that represents the Q-value via a low-rank approximation in the form of a dot product between two vector fields. The first vector field, f(s, a), captures the environment's local dynamics at the state s; whereas the second component, {\phi}(s, g), captures the global relationship between the current state and the goal. We show that our bilinear decomposition scheme substantially improves data efficiency, and has superior transfer to out-of-distribution goals compared to prior methods. Empirical evidence is provided on the simulated Fetch robot task-suite and d
     
-[^114]: 拓扑经验回放
+[^115]: 拓扑经验回放
 
     Topological Experience Replay. (arXiv:2203.15845v2 [cs.LG] UPDATED)
 
@@ -1717,7 +1732,7 @@
 
     State-of-the-art deep Q-learning methods update Q-values using state transition tuples sampled from the experience replay buffer. This strategy often uniformly and randomly samples or prioritizes data sampling based on measures such as the temporal difference (TD) error. Such sampling strategies can be inefficient at learning Q-function because a state's Q-value depends on the Q-value of successor states. If the data sampling strategy ignores the precision of the Q-value estimate of the next state, it can lead to useless and often incorrect updates to the Q-values. To mitigate this issue, we organize the agent's experience into a graph that explicitly tracks the dependency between Q-values of states. Each edge in the graph represents a transition between two states by executing a single action. We perform value backups via a breadth-first search starting from that expands vertices in the graph starting from the set of terminal states and successively moving backward. We empirically sho
     
-[^115]: 用代理模型辅助的分布式群体优化方法来处理计算昂贵的地质科学模型
+[^116]: 用代理模型辅助的分布式群体优化方法来处理计算昂贵的地质科学模型
 
     Surrogate-assisted distributed swarm optimisation for computationally expensive geoscientific models. (arXiv:2201.06843v2 [cs.DC] UPDATED)
 
@@ -1731,7 +1746,7 @@
 
     Evolutionary algorithms provide gradient-free optimisation which is beneficial for models that have difficulty in obtaining gradients; for instance, geoscientific landscape evolution models. However, such models are at times computationally expensive and even distributed swarm-based optimisation with parallel computing struggles. We can incorporate efficient strategies such as surrogate-assisted optimisation to address the challenges; however, implementing inter-process communication for surrogate-based model training is difficult. In this paper, we implement surrogate-based estimation of fitness evaluation in distributed swarm optimisation over a parallel computing architecture. We first test the framework on a set of benchmark optimisation problems and then apply it to a geoscientific model that features a landscape evolution model. Our results demonstrate very promising results for benchmark functions and the Badlands landscape evolution model. We obtain a reduction in computational
     
-[^116]: 可解释的、对话主题感知的神经语言理解
+[^117]: 可解释的、对话主题感知的神经语言理解
 
     Explainable and Discourse Topic-aware Neural Language Understanding. (arXiv:2006.10632v3 [cs.CL] UPDATED)
 
