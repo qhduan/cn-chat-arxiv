@@ -1,0 +1,11 @@
+{
+    "title": "Reducing Redundant Work in Jump Point Search. (arXiv:2306.15928v1 [cs.RO])",
+    "abstract": "JPS (Jump Point Search) is a state-of-the-art optimal algorithm for online grid-based pathfinding. Widely used in games and other navigation scenarios, JPS nevertheless can exhibit pathological behaviours which are not well studied: (i) it may repeatedly scan the same area of the map to find successors; (ii) it may generate and expand suboptimal search nodes. In this work, we examine the source of these pathological behaviours, show how they can occur in practice, and propose a purely online approach, called Constrained JPS (CJPS), to tackle them efficiently. Experimental results show that CJPS has low overheads and is often faster than JPS in dynamically changing grid environments: by up to 7x in large game maps and up to 14x in pathological scenarios.",
+    "link": "http://arxiv.org/abs/2306.15928",
+    "context": "Title: Reducing Redundant Work in Jump Point Search. (arXiv:2306.15928v1 [cs.RO])\nAbstract: JPS (Jump Point Search) is a state-of-the-art optimal algorithm for online grid-based pathfinding. Widely used in games and other navigation scenarios, JPS nevertheless can exhibit pathological behaviours which are not well studied: (i) it may repeatedly scan the same area of the map to find successors; (ii) it may generate and expand suboptimal search nodes. In this work, we examine the source of these pathological behaviours, show how they can occur in practice, and propose a purely online approach, called Constrained JPS (CJPS), to tackle them efficiently. Experimental results show that CJPS has low overheads and is often faster than JPS in dynamically changing grid environments: by up to 7x in large game maps and up to 14x in pathological scenarios.",
+    "path": "papers/23/06/2306.15928.json",
+    "total_tokens": 850,
+    "translated_title": "减少Jump Point Search中的冗余工作",
+    "translated_abstract": "Jump Point Search（JPS）是一种用于在线基于网格的路径规划的先进算法。JPS广泛用于游戏和其他导航场景，但是JPS可能表现出一些不好的行为，这些行为还没有得到很好的研究：(i) 它可能会重复扫描地图的相同区域以找到后继节点；(ii) 它可能会生成并扩展次优的搜索节点。本研究探讨了这些不好行为的来源，展示了它们在实践中的发生方式，并提出了一种纯在线方法，称为约束JPS（CJPS），以有效地解决这些问题。实验结果显示，CJPS的开销很低，在动态变化的网格环境中通常比JPS更快：在大型游戏地图中可快速7倍，在不好的情况下可快速14倍。",
+    "tldr": "本文研究了Jump Point Search（JPS）在路径规划中的缺陷，提出了一种纯在线方法约束JPS（CJPS），以减少重复扫描和生成次优搜索节点的问题。实验结果表明，CJPS在动态变化的网格环境中比JPS更快。"
+}
