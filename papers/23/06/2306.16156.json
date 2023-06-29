@@ -1,0 +1,11 @@
+{
+    "title": "Recent Advances in Optimal Transport for Machine Learning. (arXiv:2306.16156v1 [cs.LG])",
+    "abstract": "Recently, Optimal Transport has been proposed as a probabilistic framework in Machine Learning for comparing and manipulating probability distributions. This is rooted in its rich history and theory, and has offered new solutions to different problems in machine learning, such as generative modeling and transfer learning. In this survey we explore contributions of Optimal Transport for Machine Learning over the period 2012 -- 2022, focusing on four sub-fields of Machine Learning: supervised, unsupervised, transfer and reinforcement learning. We further highlight the recent development in computational Optimal Transport, and its interplay with Machine Learning practice.",
+    "link": "http://arxiv.org/abs/2306.16156",
+    "context": "Title: Recent Advances in Optimal Transport for Machine Learning. (arXiv:2306.16156v1 [cs.LG])\nAbstract: Recently, Optimal Transport has been proposed as a probabilistic framework in Machine Learning for comparing and manipulating probability distributions. This is rooted in its rich history and theory, and has offered new solutions to different problems in machine learning, such as generative modeling and transfer learning. In this survey we explore contributions of Optimal Transport for Machine Learning over the period 2012 -- 2022, focusing on four sub-fields of Machine Learning: supervised, unsupervised, transfer and reinforcement learning. We further highlight the recent development in computational Optimal Transport, and its interplay with Machine Learning practice.",
+    "path": "papers/23/06/2306.16156.json",
+    "total_tokens": 693,
+    "translated_title": "机器学习中最优输运的最新进展",
+    "translated_abstract": "最近，最优输运被提出作为机器学习中比较和操作概率分布的概率框架。这个框架源于其丰富的历史和理论，并提供了新的解决方案，如生成建模和迁移学习。在这项调查中，我们探讨了最优输运在2012年至2022年期间对机器学习的贡献，重点关注机器学习的四个子领域：有监督学习、无监督学习、迁移学习和强化学习。我们还突出了计算最优输运的最新发展，并与机器学习实践相互影响。",
+    "tldr": "最优输运在机器学习中的最新进展包括生成建模和迁移学习等领域，并且计算最优输运的发展也与机器学习实践相互影响。"
+}

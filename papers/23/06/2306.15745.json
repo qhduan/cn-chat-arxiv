@@ -1,0 +1,12 @@
+{
+    "title": "Identity Construction in a Misogynist Incels Forum. (arXiv:2306.15745v1 [cs.CL])",
+    "abstract": "Online communities of involuntary celibates (incels) are a prominent source of misogynist hate speech. In this paper, we use quantitative text and network analysis approaches to examine how identity groups are discussed on incels.is, the largest black-pilled incels forum. We find that this community produces a wide range of novel identity terms and, while terms for women are most common, mentions of other minoritized identities are increasing. An analysis of the associations made with identity groups suggests an essentialist ideology where physical appearance, as well as gender and racial hierarchies, determine human value. We discuss implications for research into automated misogynist hate speech detection.",
+    "link": "http://arxiv.org/abs/2306.15745",
+    "context": "Title: Identity Construction in a Misogynist Incels Forum. (arXiv:2306.15745v1 [cs.CL])\nAbstract: Online communities of involuntary celibates (incels) are a prominent source of misogynist hate speech. In this paper, we use quantitative text and network analysis approaches to examine how identity groups are discussed on incels.is, the largest black-pilled incels forum. We find that this community produces a wide range of novel identity terms and, while terms for women are most common, mentions of other minoritized identities are increasing. An analysis of the associations made with identity groups suggests an essentialist ideology where physical appearance, as well as gender and racial hierarchies, determine human value. We discuss implications for research into automated misogynist hate speech detection.",
+    "path": "papers/23/06/2306.15745.json",
+    "total_tokens": 760,
+    "translated_title": "《在一个对女性厌恶的incels论坛中的身份建构》",
+    "translated_abstract": "本文使用定量文本和网络分析方法，研究了incels.is，即最大的黑洞incels论坛如何讨论身份群体。我们发现该社区产生了许多新的身份术语，尽管女性的术语最常见，但其他少数群体的提及也在增加。对身份群体的关联分析表明，这个社区存在着物质主义的意识形态，其中身体外貌、性别和种族等决定了人的价值。我们讨论了对自动化 misogynist hate speech 检测研究的影响。",
+    "tldr": "本研究使用定量文本和网络分析方法，研究了最大的黑洞incels论坛如何讨论身份群体。研究发现该社区产生了许多新的身份术语，存在物质主义的意识形态。对此我们讨论了对自动化 misogynist hate speech 检测研究的影响。",
+    "en_tdlr": "This study uses quantitative text and network analysis methods to examine how identity groups are discussed on the largest black-pilled incels forum. The findings reveal the emergence of novel identity terms and an essentialist ideology. Implications for research into automated misogynist hate speech detection are discussed."
+}

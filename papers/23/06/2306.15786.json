@@ -1,0 +1,12 @@
+{
+    "title": "An Empirical Evaluation of the Rashomon Effect in Explainable Machine Learning. (arXiv:2306.15786v1 [cs.LG])",
+    "abstract": "The Rashomon Effect describes the following phenomenon: for a given dataset there may exist many models with equally good performance but with different solution strategies. The Rashomon Effect has implications for Explainable Machine Learning, especially for the comparability of explanations. We provide a unified view on three different comparison scenarios and conduct a quantitative evaluation across different datasets, models, attribution methods, and metrics. We find that hyperparameter-tuning plays a role and that metric selection matters. Our results provide empirical support for previously anecdotal evidence and exhibit challenges for both scientists and practitioners.",
+    "link": "http://arxiv.org/abs/2306.15786",
+    "context": "Title: An Empirical Evaluation of the Rashomon Effect in Explainable Machine Learning. (arXiv:2306.15786v1 [cs.LG])\nAbstract: The Rashomon Effect describes the following phenomenon: for a given dataset there may exist many models with equally good performance but with different solution strategies. The Rashomon Effect has implications for Explainable Machine Learning, especially for the comparability of explanations. We provide a unified view on three different comparison scenarios and conduct a quantitative evaluation across different datasets, models, attribution methods, and metrics. We find that hyperparameter-tuning plays a role and that metric selection matters. Our results provide empirical support for previously anecdotal evidence and exhibit challenges for both scientists and practitioners.",
+    "path": "papers/23/06/2306.15786.json",
+    "total_tokens": 711,
+    "translated_title": "可解释机器学习中罗生门效应的实证评估",
+    "translated_abstract": "罗生门效应描述了以下现象：对于给定的数据集，可能存在许多具有相同良好性能但采用不同解决策略的模型。罗生门效应对可解释机器学习具有影响，特别是对解释的可比性。我们对三种不同比较场景提供了统一视角，并在不同数据集、模型、归因方法和指标上进行了定量评估。我们发现超参数调整起到了一定作用，指标选择也很重要。我们的结果为先前的轶事证据提供了实证支持，并展示了科学家和实践者面临的挑战。",
+    "tldr": "通过对不同数据集、模型和指标进行定量评估，我们发现罗生门效应对可解释机器学习具有影响，这为之前的轶事证据提供了实证支持，并展示了科学家和实践者面临的挑战。",
+    "en_tdlr": "Quantitatively evaluating different datasets, models, and metrics, we find that the Rashomon Effect impacts explainable machine learning, providing empirical support for previous anecdotal evidence and presenting challenges for scientists and practitioners."
+}

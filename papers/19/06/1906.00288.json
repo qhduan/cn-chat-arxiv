@@ -1,0 +1,12 @@
+{
+    "title": "At What Level Should One Cluster Standard Errors in Paired and Small-Strata Experiments?. (arXiv:1906.00288v10 [econ.EM] UPDATED)",
+    "abstract": "In matched-pairs experiments in which one cluster per pair of clusters is assigned to treatment, to estimate treatment effects, researchers often regress their outcome on a treatment indicator and pair fixed effects, clustering standard errors at the unit-ofrandomization level. We show that even if the treatment has no effect, a 5%-level t-test based on this regression will wrongly conclude that the treatment has an effect up to 16.5% of the time. To fix this problem, researchers should instead cluster standard errors at the pair level. Using simulations, we show that similar results apply to clustered experiments with small strata.",
+    "link": "http://arxiv.org/abs/1906.00288",
+    "context": "Title: At What Level Should One Cluster Standard Errors in Paired and Small-Strata Experiments?. (arXiv:1906.00288v10 [econ.EM] UPDATED)\nAbstract: In matched-pairs experiments in which one cluster per pair of clusters is assigned to treatment, to estimate treatment effects, researchers often regress their outcome on a treatment indicator and pair fixed effects, clustering standard errors at the unit-ofrandomization level. We show that even if the treatment has no effect, a 5%-level t-test based on this regression will wrongly conclude that the treatment has an effect up to 16.5% of the time. To fix this problem, researchers should instead cluster standard errors at the pair level. Using simulations, we show that similar results apply to clustered experiments with small strata.",
+    "path": "papers/19/06/1906.00288.json",
+    "total_tokens": 754,
+    "translated_title": "在配对和小层次实验中，应该在哪个层次上对标准误差进行聚类？",
+    "translated_abstract": "在配对实验中，研究人员通常通过将结果回归到治疗指示器和配对固定效应，并在随机化单元层次上聚类标准误差来估计治疗效应。我们表明，即使治疗没有效果，基于该回归的5%水平t检验会错误地得出治疗存在效应的结论，错误率可高达16.5%。为解决这个问题，研究人员应该将标准误差聚类在配对层次上。通过模拟，我们发现类似的结果也适用于具有小层次的聚类实验。",
+    "tldr": "在配对和小层次实验中，研究人员发现，将标准误差聚类在随机化单元层次上会导致高达16.5%的错误结论。为解决这个问题，他们应该将标准误差聚类在配对层次上。",
+    "en_tdlr": "In paired and small-strata experiments, researchers found that clustering standard errors at the unit-of-randomization level can lead to error conclusions up to 16.5%. To fix this problem, they should instead cluster standard errors at the pair level."
+}

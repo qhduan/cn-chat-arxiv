@@ -2,109 +2,132 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Unleashing the Power of User Reviews: Exploring Airline Choices at Catania Airport, Italy.](http://arxiv.org/abs/2306.15541) | 本研究通过使用新工具，探讨了社会影响机制与航空公司选择之间的关系，并通过对用户评论的分析，提供了关于卡塔尼亚机场航空生态系统中航空公司的重要见解。 |
-| [^2] | [Learning to Rank in Generative Retrieval.](http://arxiv.org/abs/2306.15222) | 这篇论文介绍了一种将生成式检索和经典的学习排序范例相结合的方法，通过使用段落排序损失来训练自回归模型，直接优化自回归模型朝着最优解优化。 |
-| [^3] | [Off-Policy Evaluation of Ranking Policies under Diverse User Behavior.](http://arxiv.org/abs/2306.15098) | 本文提出了一种新的离策略评估方法Adaptive IPS (AIPS)，针对排名策略的离策略评估问题，通过考虑用户行为的多样性和上下文的变化，有效降低了估计中的偏差和方差。 |
-| [^4] | [Efficient High-Resolution Template Matching with Vector Quantized Nearest Neighbour Fields.](http://arxiv.org/abs/2306.15010) | 本研究提出了一种高效的高分辨率模板匹配方法，通过向量量化和滤波来减少计算量和考虑变形，取得了最先进的性能。 |
-| [^5] | [Product Information Extraction using ChatGPT.](http://arxiv.org/abs/2306.14921) | 使用ChatGPT进行产品信息提取，解决了传统方法对大量训练数据和泛化到未知属性和属性值的困难，为电子商务应用提供了可能的解决方案。 |
-| [^6] | [Co-design Hardware and Algorithm for Vector Search.](http://arxiv.org/abs/2306.11182) | 本论文提出了一个在FPGA上的向量搜索框架FANNS，实现了硬件和算法的共同设计，可以根据用户需求和硬件预算生成相应的加速器。与FPGA和CPU基准相比，FANNS实现了显著的加速，并展现了卓越的可扩展性。 |
-| [^7] | [Tourist Attractions Recommendation based on Attention Knowledge Graph Convolution Network.](http://arxiv.org/abs/2306.10946) | 本文提出了一种基于注意力知识图卷积网络的旅游景点推荐模型，通过自动语义发掘目标景点的相邻实体，根据旅客的喜好选择，预测类似景点的概率，实验中取得良好效果。 |
-| [^8] | [Dark web activity classification using deep learning.](http://arxiv.org/abs/2306.07980) | 本文阐述了对于识别和控制暗网非法活动的迫切需求，并提出了一种利用深度学习方法检索 .onion 扩展名的网站上相关图片的搜索引擎，该方法在测试中达到了94% 的准确率。 |
-| [^9] | [How Can Recommender Systems Benefit from Large Language Models: A Survey.](http://arxiv.org/abs/2306.05817) | 本文对将大型语言模型（LLM）应用于推荐系统进行了全面的调查研究，从两个角度总结了现有的研究工作：如何在推荐系统中调整LLM和调整LLM时在哪里调整。最后，我们提出了一些潜在的研究方向和挑战。 |
-| [^10] | [Copy Recurrent Neural Network Structure Network.](http://arxiv.org/abs/2305.13250) | 本研究提出了一种名为复制循环神经网络结构网络（CRNNet）的新型粗到细的ICD路径生成框架，通过使用RNN生成顺序输出并结合复制模块，有效识别复杂疾病，相比于最先进的和先前的方法，在预测中实现了更高的复杂疾病比率（57.30%）。 |
-| [^11] | [Capturing Conversion Rate Fluctuation during Sales Promotions: A Novel Historical Data Reuse Approach.](http://arxiv.org/abs/2305.12837) | 本论文提出了一种名为HDR的新方法，通过重复使用历史促销数据，来捕捉促销转化模式，达到更好地适应促销模式的目的。 |
-| [^12] | [TWIN: TWo-stage Interest Network for Lifelong User Behavior Modeling in CTR Prediction at Kuaishou.](http://arxiv.org/abs/2302.02352) | TWIN是一种解决现有CTR预测系统中兴趣不一致问题的方法，通过引入两个阶段的兴趣网络，从而提高了预测准确性。 |
-| [^13] | [PEPNet: Parameter and Embedding Personalized Network for Infusing with Personalized Prior Information.](http://arxiv.org/abs/2302.01115) | 本文提出了一种融合个性化先验信息的可插拔网络（PEPNet），用于多领域和多任务推荐。该网络通过动态调整底层嵌入和顶层DNN隐藏单元，以准确捕捉用户在多个场景中的兴趣。 |
-| [^14] | [Neural Topic Modeling with Continual Lifelong Learning.](http://arxiv.org/abs/2006.10909) | 本研究提出了一个具有持续终身学习的神经主题建模框架，可以处理数据稀疏性，并通过知识的持续积累和转移来提高主题建模的效果。 |
-| [^15] | [Network Capacity Bound for Personalized PageRank in Multimodal Networks.](http://arxiv.org/abs/1706.00178) | 本文推广双分图PageRank的想法，提出了一种用于多模网络的超图类型，证明了多模网络中个性化PageRank的网络容量界限。 |
+| [^1] | [SE-PQA: Personalized Community Question Answering.](http://arxiv.org/abs/2306.16261) | 这个论文介绍了SE-PQA（个性化社区问题回答）的新资源，该资源包括超过1百万个查询和2百万个回答，并使用一系列丰富的特征模拟了流行社区问题回答平台的用户之间的社交互动。研究提供了用于社区问题回答任务的可复现基线方法，包括深度学习模型和个性化方法。 |
+| [^2] | [Query Understanding in the Age of Large Language Models.](http://arxiv.org/abs/2306.16004) | 在大语言模型时代，我们提出了一种使用大语言模型进行查询重写的框架，旨在通过完全指定机器意图的自然语言来改进意图理解和构建高性能检索系统。这种框架的能够以自然语言呈现、交互和推理机器意图具有深远影响。 |
+| [^3] | [Streamlining Social Media Information Retrieval for Public Health Research with Deep Learning.](http://arxiv.org/abs/2306.16001) | 本研究介绍了一个使用深度学习简化社交媒体信息检索的框架，通过识别医学实体、标准化实体和分配UMLS概念，构建了一个用于COVID-19相关推文的症状词典。 |
+| [^4] | [Disentangled Variational Auto-encoder Enhanced by Counterfactual Data for Debiasing Recommendation.](http://arxiv.org/abs/2306.15961) | 本文提出了一种解缠的消除偏见变分自编码器框架（DB-VAE），以及一种反事实数据增强方法，旨在解决推荐系统中存在的单一功能性偏见以及数据稀疏性问题。 |
+| [^5] | [Pb-Hash: Partitioned b-bit Hashing.](http://arxiv.org/abs/2306.15944) | Pb-Hash提出了一种分区b位哈希的方法，通过将B位哈希分成m个块来重复使用已有的哈希，能够显著减小模型的大小。 |
+| [^6] | [Confidence-Calibrated Ensemble Dense Phrase Retrieval.](http://arxiv.org/abs/2306.15917) | 本文研究了如何优化基于Transformer的密集语段检索（DPR）算法，使用置信度校准的集合预测方法取得了最先进的结果，并发现不同领域的最优粒度也有所差异。 |
+| [^7] | [Dimension Independent Mixup for Hard Negative Sample in Collaborative Filtering.](http://arxiv.org/abs/2306.15905) | 本文提出了一种协同过滤训练中维度无关的困难负样本混合方法（DINS），通过对采样区域的新视角进行重新审视来改进现有的采样方法。实验证明，DINS优于其他负采样方法，证实了其有效性和优越性。 |
+| [^8] | [Blockwise Feature Interaction in Recommendation Systems.](http://arxiv.org/abs/2306.15881) | 该论文提出了一种称为块状特征交互 (BFI) 的方法，通过将特征交互过程分成较小的块，以显著减少内存占用和计算负担。实验证明，BFI算法在准确性上接近标准DCNv2，同时大大减少了计算开销和参数数量，为高效推荐系统的发展做出了贡献。 |
+| [^9] | [Tourist Attractions Recommendation based on Attention Knowledge Graph Convolution Network.](http://arxiv.org/abs/2306.10946) | 本文提出了一种基于注意力知识图卷积网络的旅游景点推荐模型，通过自动语义发掘目标景点的相邻实体，根据旅客的喜好选择，预测类似景点的概率，实验中取得良好效果。 |
+| [^10] | [How Can Recommender Systems Benefit from Large Language Models: A Survey.](http://arxiv.org/abs/2306.05817) | 本文对将大型语言模型（LLM）应用于推荐系统进行了全面的调查研究，从两个角度总结了现有的研究工作：如何在推荐系统中调整LLM和调整LLM时在哪里调整。最后，我们提出了一些潜在的研究方向和挑战。 |
 
 # 详细
 
-[^1]: 解放用户评论的力量：探索意大利卡塔尼亚机场的航空公司选择
+[^1]: SE-PQA: 个性化社区问题回答
 
-    Unleashing the Power of User Reviews: Exploring Airline Choices at Catania Airport, Italy. (arXiv:2306.15541v1 [cs.CL])
+    SE-PQA: Personalized Community Question Answering. (arXiv:2306.16261v1 [cs.IR])
 
-    [http://arxiv.org/abs/2306.15541](http://arxiv.org/abs/2306.15541)
+    [http://arxiv.org/abs/2306.16261](http://arxiv.org/abs/2306.16261)
 
-    本研究通过使用新工具，探讨了社会影响机制与航空公司选择之间的关系，并通过对用户评论的分析，提供了关于卡塔尼亚机场航空生态系统中航空公司的重要见解。
-
-    
-
-    本研究旨在通过使用新工具，探讨社会影响机制与航空公司选择之间的可能关系，以进一步了解影响消费者在航空领域决策的因素。我们选择从知名平台Trustpilot、Google和Twitter中提取用户评论。通过结合网络爬取技术，我们能够收集到包含各种用户意见、反馈和评分的全面数据集。然后，我们优化了BERT模型，以便更好地聚焦航空公司评论中的有见地的情感。通过分析，我们观察到不同航空公司平均负面情感得分的有趣趋势，这使我们更深入地了解了航空公司之间的动态，帮助我们识别卡塔尼亚机场航空生态系统中的关键合作伙伴、热门航线和扮演核心角色的航空公司。
-
-    This study aims to investigate the possible relationship between the mechanisms of social influence and the choice of airline, through the use of new tools, with the aim of understanding whether they can contribute to a better understanding of the factors influencing the decisions of consumers in the aviation sector. We have chosen to extract user reviews from well-known platforms: Trustpilot, Google, and Twitter. By combining web scraping techniques, we have been able to collect a comprehensive dataset comprising a wide range of user opinions, feedback, and ratings. We then refined the BERT model to focus on insightful sentiment in the context of airline reviews. Through our analysis, we observed an intriguing trend of average negative sentiment scores across various airlines, giving us deeper insight into the dynamics between airlines and helping us identify key partnerships, popular routes, and airlines that play a central role in the aeronautical ecosystem of Catania airport during
-    
-[^2]: 学习在生成式检索中进行排序
-
-    Learning to Rank in Generative Retrieval. (arXiv:2306.15222v1 [cs.CL])
-
-    [http://arxiv.org/abs/2306.15222](http://arxiv.org/abs/2306.15222)
-
-    这篇论文介绍了一种将生成式检索和经典的学习排序范例相结合的方法，通过使用段落排序损失来训练自回归模型，直接优化自回归模型朝着最优解优化。
+    这个论文介绍了SE-PQA（个性化社区问题回答）的新资源，该资源包括超过1百万个查询和2百万个回答，并使用一系列丰富的特征模拟了流行社区问题回答平台的用户之间的社交互动。研究提供了用于社区问题回答任务的可复现基线方法，包括深度学习模型和个性化方法。
 
     
 
-    生成式检索是一种有前景的文本检索范例，它将相关段落的标识符字符串生成为检索目标。这种范例利用强大的生成模型，并代表了与传统的学习排序方法有所不同的新范例。然而，尽管其快速发展，当前的生成式检索方法仍存在局限性。它们通常依赖启发式函数将预测的标识符转换为段落排序列表，这在生成式检索的学习目标与期望的段落排序目标之间产生了差距。此外，文本生成的固有曝光偏差问题在生成式检索中仍然存在。为了解决这些问题，我们提出了一种新颖的框架，称为LTRGR，它将生成式检索与经典的学习排序范例相结合。我们的方法涉及使用段落排序损失训练一个自回归模型，该损失直接优化自回归模型朝着最优解优化。
+    个人化的信息检索一直是一个长期研究的课题。然而，目前仍然缺乏高质量、真实的数据集来开展大规模实验，并评估个性化搜索模型。本文通过引入SE-PQA (StackExchange - 个性化问题回答)来填补这一空白，这是一个新的精选资源，用于设计和评估与社区问题回答任务相关的个性化模型。贡献的数据集包括超过1百万个查询和2百万个回答，使用了一系列丰富的特征来模拟一个流行社区问题回答平台的用户之间的社交互动。我们描述了SE-PQA的特点，并详细说明了与问题和回答相关的特征。我们还提供了基于该资源的社区问题回答任务的可复现基线方法，包括深度学习模型和个性化方法。初步实验结果表明了其合适性。
 
-    Generative retrieval is a promising new paradigm in text retrieval that generates identifier strings of relevant passages as the retrieval target. This paradigm leverages powerful generation models and represents a new paradigm distinct from traditional learning-to-rank methods. However, despite its rapid development, current generative retrieval methods are still limited. They typically rely on a heuristic function to transform predicted identifiers into a passage rank list, which creates a gap between the learning objective of generative retrieval and the desired passage ranking target. Moreover, the inherent exposure bias problem of text generation also persists in generative retrieval. To address these issues, we propose a novel framework, called LTRGR, that combines generative retrieval with the classical learning-to-rank paradigm. Our approach involves training an autoregressive model using a passage rank loss, which directly optimizes the autoregressive model toward the optimal 
+    Personalization in Information Retrieval is a topic studied for a long time. Nevertheless, there is still a lack of high-quality, real-world datasets to conduct large-scale experiments and evaluate models for personalized search. This paper contributes to filling this gap by introducing SE-PQA (StackExchange - Personalized Question Answering), a new curated resource to design and evaluate personalized models related to the task of community Question Answering (cQA). The contributed dataset includes more than 1 million queries and 2 million answers, annotated with a rich set of features modeling the social interactions among the users of a popular cQA platform. We describe the characteristics of SE-PQA and detail the features associated with questions and answers. We also provide reproducible baseline methods for the cQA task based on the resource, including deep learning models and personalization approaches. The results of the preliminary experiments conducted show the appropriateness
     
-[^3]: 不同用户行为下的排名策略的离策略评估
+[^2]: 大语言模型时代的查询理解
 
-    Off-Policy Evaluation of Ranking Policies under Diverse User Behavior. (arXiv:2306.15098v1 [stat.ML])
+    Query Understanding in the Age of Large Language Models. (arXiv:2306.16004v1 [cs.IR])
 
-    [http://arxiv.org/abs/2306.15098](http://arxiv.org/abs/2306.15098)
+    [http://arxiv.org/abs/2306.16004](http://arxiv.org/abs/2306.16004)
 
-    本文提出了一种新的离策略评估方法Adaptive IPS (AIPS)，针对排名策略的离策略评估问题，通过考虑用户行为的多样性和上下文的变化，有效降低了估计中的偏差和方差。
-
-    
-
-    在线平台上到处都是排名界面。因此，对于使用记录数据进行排名策略的准确性能评估的离策略评估（OPE）越来越感兴趣。OPE的一种事实上的方法是倒数倾向得分法（IPS），它提供了一个无偏且一致的值估计。然而，在排名设置中，由于在大型行为空间下具有较高的方差，它变得极其不准确。为了解决这个问题，先前的研究假设用户行为是独立的或级联的，从而产生了一些IPS的排名版本。尽管这些估计器在减少方差方面有一定的效果，但所有现有的估计器都对每个用户应用了一个单一的通用假设，导致过度的偏差和方差。因此，这项工作探索了更通用的公式，其中用户行为是多样的，并且可以根据用户上下文的不同而变化。我们展示出由此产生的估计器，我们称之为自适应IPS（AIPS），可以更准确地进行离策略评估和排名策略。
-
-    Ranking interfaces are everywhere in online platforms. There is thus an ever growing interest in their Off-Policy Evaluation (OPE), aiming towards an accurate performance evaluation of ranking policies using logged data. A de-facto approach for OPE is Inverse Propensity Scoring (IPS), which provides an unbiased and consistent value estimate. However, it becomes extremely inaccurate in the ranking setup due to its high variance under large action spaces. To deal with this problem, previous studies assume either independent or cascade user behavior, resulting in some ranking versions of IPS. While these estimators are somewhat effective in reducing the variance, all existing estimators apply a single universal assumption to every user, causing excessive bias and variance. Therefore, this work explores a far more general formulation where user behavior is diverse and can vary depending on the user context. We show that the resulting estimator, which we call Adaptive IPS (AIPS), can be unb
-    
-[^4]: 高分辨率模板匹配中的高效向量量化最近邻场
-
-    Efficient High-Resolution Template Matching with Vector Quantized Nearest Neighbour Fields. (arXiv:2306.15010v1 [cs.CV])
-
-    [http://arxiv.org/abs/2306.15010](http://arxiv.org/abs/2306.15010)
-
-    本研究提出了一种高效的高分辨率模板匹配方法，通过向量量化和滤波来减少计算量和考虑变形，取得了最先进的性能。
+    在大语言模型时代，我们提出了一种使用大语言模型进行查询重写的框架，旨在通过完全指定机器意图的自然语言来改进意图理解和构建高性能检索系统。这种框架的能够以自然语言呈现、交互和推理机器意图具有深远影响。
 
     
 
-    模板匹配是计算机视觉中的基础问题，并在物体检测、图像配准和物体跟踪等领域有应用。当前最先进的方法是依赖于最近邻（NN）匹配，在该方法中，将查询特征空间转换为NN空间，其中每个查询像素用模板像素中的最近邻表示。NN匹配在遮挡、外观变化、光照变化和非刚性变换等方面表现出更好的性能。然而，NN匹配在高分辨率数据和高维特征方面的扩展性较差。本文提出了一种基于NN的模板匹配方法，该方法有效地减少了NN计算量，并在NN场中引入滤波以考虑变形。首先，通过向量量化将模板表示为k个特征，然后通过滤波比较模板和查询在k个特征上的分布。我们展示了该方法达到了最先进的性能。
+    随着大语言模型（LLM）的兴起和应用，使用自然语言进行查询、对话和控制搜索和信息检索界面正在迅速普及。在这篇立场论文中，我们描述了一种使用LLM进行交互式查询重写的通用框架。我们的提议旨在为改进和透明化意图理解以及使用LLM构建高性能检索系统开辟新的机会。我们框架的一个关键方面是重写器能够通过自然语言完全指定机器意图，这个机器意图可以在最终检索阶段之前进一步细化、控制和编辑。以自然语言呈现、交互和推理底层的机器意图对透明度、排名性能以及离开传统意图理解中收集监督信号的方式有深远影响。我们详细介绍了这一概念，并支持初步实验证明了其可行性。
 
-    Template matching is a fundamental problem in computer vision and has applications in various fields, such as object detection, image registration, and object tracking. The current state-of-the-art methods rely on nearest-neighbour (NN) matching in which the query feature space is converted to NN space by representing each query pixel with its NN in the template pixels. The NN-based methods have been shown to perform better in occlusions, changes in appearance, illumination variations, and non-rigid transformations. However, NN matching scales poorly with high-resolution data and high feature dimensions. In this work, we present an NN-based template-matching method which efficiently reduces the NN computations and introduces filtering in the NN fields to consider deformations. A vector quantization step first represents the template with $k$ features, then filtering compares the template and query distributions over the $k$ features. We show that state-of-the-art performance was achiev
+    Querying, conversing, and controlling search and information-seeking interfaces using natural language are fast becoming ubiquitous with the rise and adoption of large-language models (LLM). In this position paper, we describe a generic framework for interactive query-rewriting using LLMs. Our proposal aims to unfold new opportunities for improved and transparent intent understanding while building high-performance retrieval systems using LLMs. A key aspect of our framework is the ability of the rewriter to fully specify the machine intent by the search engine in natural language that can be further refined, controlled, and edited before the final retrieval phase. The ability to present, interact, and reason over the underlying machine intent in natural language has profound implications on transparency, ranking performance, and a departure from the traditional way in which supervised signals were collected for understanding intents. We detail the concept, backed by initial experiments
     
-[^5]: 使用ChatGPT进行产品信息提取
+[^3]: 用深度学习简化社交媒体信息检索以支持公共卫生研究
 
-    Product Information Extraction using ChatGPT. (arXiv:2306.14921v1 [cs.CL])
+    Streamlining Social Media Information Retrieval for Public Health Research with Deep Learning. (arXiv:2306.16001v1 [cs.CL])
 
-    [http://arxiv.org/abs/2306.14921](http://arxiv.org/abs/2306.14921)
+    [http://arxiv.org/abs/2306.16001](http://arxiv.org/abs/2306.16001)
 
-    使用ChatGPT进行产品信息提取，解决了传统方法对大量训练数据和泛化到未知属性和属性值的困难，为电子商务应用提供了可能的解决方案。
-
-    
-
-    以属性/值对的形式呈现的结构化产品数据是许多电子商务应用的基础，例如分面产品搜索、产品比较和产品推荐。产品报价通常只包含以标题或自由文本形式呈现的产品属性的文本描述。因此，从文本产品描述中提取属性/值对对于电子商务应用非常重要。为了表现出色，最先进的产品信息提取方法需要大量的任务特定训练数据。这些方法还难以推广到训练数据中没有包含的分布之外的属性和属性值。由于在大量文本上进行预训练以及由于模型规模导致的新兴效果，像ChatGPT这样的大型语言模型具有解决这两个缺点的潜力。本文探讨了ChatGPT在提取属性/值对方面的潜力。
-
-    Structured product data in the form of attribute/value pairs is the foundation of many e-commerce applications such as faceted product search, product comparison, and product recommendation. Product offers often only contain textual descriptions of the product attributes in the form of titles or free text. Hence, extracting attribute/value pairs from textual product descriptions is an essential enabler for e-commerce applications. In order to excel, state-of-the-art product information extraction methods require large quantities of task-specific training data. The methods also struggle with generalizing to out-of-distribution attributes and attribute values that were not a part of the training data. Due to being pre-trained on huge amounts of text as well as due to emergent effects resulting from the model size, Large Language Models like ChatGPT have the potential to address both of these shortcomings. This paper explores the potential of ChatGPT for extracting attribute/value pairs f
-    
-[^6]: 为向量搜索进行硬件和算法的共同设计
-
-    Co-design Hardware and Algorithm for Vector Search. (arXiv:2306.11182v2 [cs.LG] UPDATED)
-
-    [http://arxiv.org/abs/2306.11182](http://arxiv.org/abs/2306.11182)
-
-    本论文提出了一个在FPGA上的向量搜索框架FANNS，实现了硬件和算法的共同设计，可以根据用户需求和硬件预算生成相应的加速器。与FPGA和CPU基准相比，FANNS实现了显著的加速，并展现了卓越的可扩展性。
+    本研究介绍了一个使用深度学习简化社交媒体信息检索的框架，通过识别医学实体、标准化实体和分配UMLS概念，构建了一个用于COVID-19相关推文的症状词典。
 
     
 
-    向量搜索已成为大规模信息检索和机器学习系统的基础，像Google和Bing这样的搜索引擎通过评估编码查询文本和网络文档之间的向量相似度，每秒处理数万个查询，在拥有PB级文档数据集的情况下。随着对向量搜索系统性能的需求激增，在摩尔定律时代后，加速硬件成为了一个有前景的解决方案。我们介绍了一个在FPGA上的端到端可扩展向量搜索框架FANNS。给定用户提供的对数据集的召回要求和硬件资源预算，FANNS自动进行硬件和算法的共同设计，随后生成相应的加速器。该框架还通过在加速器中引入硬件TCP/IP堆栈来支持规模扩展。与FPGA和CPU基准相比，FANNS分别实现了23.0倍和37.2倍的加速，并展现了卓越的可扩展性。
+    社交媒体在流行病监测中的利用已经得到了很好的证实。然而，当使用预定义的词汇表来检索相关语料库时，常常会引入偏见。本研究介绍了一个框架，旨在构建医学俗语和统一医学语言系统（UMLS）概念的广泛字典。该框架由三个模块组成：基于BERT的命名实体识别（NER）模型，用于从社交媒体内容中识别出医学实体；深度学习驱动的标准化模块，用于对提取出的实体进行规范化处理；半监督聚类模块，将最可能的UMLS概念分配给每个规范化实体。我们将该框架应用于从2020年2月1日到2022年4月30日期间与COVID-19相关的推文，生成了一个症状词典（可在https://github.com/ningkko/UMLS_colloquialism/上获取），其中包含9,249个标准化实体，映射到876个UMLS概念和38,175个俚语表达。该框架的演示
 
-    Vector search has emerged as the foundation for large-scale information retrieval and machine learning systems, with search engines like Google and Bing processing tens of thousands of queries per second on petabyte-scale document datasets by evaluating vector similarities between encoded query texts and web documents. As performance demands for vector search systems surge, accelerated hardware offers a promising solution in the post-Moore's Law era. We introduce \textit{FANNS}, an end-to-end and scalable vector search framework on FPGAs. Given a user-provided recall requirement on a dataset and a hardware resource budget, \textit{FANNS} automatically co-designs hardware and algorithm, subsequently generating the corresponding accelerator. The framework also supports scale-out by incorporating a hardware TCP/IP stack in the accelerator. \textit{FANNS} attains up to 23.0$\times$ and 37.2$\times$ speedup compared to FPGA and CPU baselines, respectively, and demonstrates superior scalabil
+    The utilization of social media in epidemic surveillance has been well established. Nonetheless, bias is often introduced when pre-defined lexicons are used to retrieve relevant corpus. This study introduces a framework aimed at curating extensive dictionaries of medical colloquialisms and Unified Medical Language System (UMLS) concepts. The framework comprises three modules: a BERT-based Named Entity Recognition (NER) model that identifies medical entities from social media content, a deep-learning powered normalization module that standardizes the extracted entities, and a semi-supervised clustering module that assigns the most probable UMLS concept to each standardized entity. We applied this framework to COVID-19-related tweets from February 1, 2020, to April 30, 2022, generating a symptom dictionary (available at https://github.com/ningkko/UMLS_colloquialism/) composed of 9,249 standardized entities mapped to 876 UMLS concepts and 38,175 colloquial expressions. This framework demo
     
-[^7]: 基于注意力知识图卷积网络的旅游景点推荐
+[^4]: 通过反事实数据增强的解缠变分自编码器来消除推荐偏见
+
+    Disentangled Variational Auto-encoder Enhanced by Counterfactual Data for Debiasing Recommendation. (arXiv:2306.15961v1 [cs.IR])
+
+    [http://arxiv.org/abs/2306.15961](http://arxiv.org/abs/2306.15961)
+
+    本文提出了一种解缠的消除偏见变分自编码器框架（DB-VAE），以及一种反事实数据增强方法，旨在解决推荐系统中存在的单一功能性偏见以及数据稀疏性问题。
+
+    
+
+    推荐系统经常遭受各种推荐偏见的困扰，严重阻碍了其发展。在这个背景下，已经提出了一系列消除推荐偏见的方法，尤其适用于两种最常见的偏见，即流行度偏见和放大的主观偏见。然而，现有的消除偏见方法通常只关注纠正单一偏见。这种单一功能性的消除偏见忽视了推荐物品多个偏见之间的耦合问题。此外，之前的工作无法解决稀疏数据带来的缺乏监督信号问题，而这在推荐系统中已经变得很普遍。在本研究中，我们引入了一种解缠的消除偏见变分自编码器框架（DB-VAE），来解决单一功能性问题，以及一种反事实数据增强方法，以减轻由于数据稀疏性带来的不利影响。具体而言，DB-VAE首先提取只受单个偏见影响的两种极端物品。
+
+    Recommender system always suffers from various recommendation biases, seriously hindering its development. In this light, a series of debias methods have been proposed in the recommender system, especially for two most common biases, i.e., popularity bias and amplified subjective bias. However, exsisting debias methods usually concentrate on correcting a single bias. Such single-functionality debiases neglect the bias-coupling issue in which the recommended items are collectively attributed to multiple biases. Besides, previous work cannot tackle the lacking supervised signals brought by sparse data, yet which has become a commonplace in the recommender system. In this work, we introduce a disentangled debias variational auto-encoder framework(DB-VAE) to address the single-functionality issue as well as a counterfactual data enhancement method to mitigate the adverse effect due to the data sparsity. In specific, DB-VAE first extracts two types of extreme items only affected by a single
+    
+[^5]: Pb-Hash: 分区b位哈希
+
+    Pb-Hash: Partitioned b-bit Hashing. (arXiv:2306.15944v1 [cs.LG])
+
+    [http://arxiv.org/abs/2306.15944](http://arxiv.org/abs/2306.15944)
+
+    Pb-Hash提出了一种分区b位哈希的方法，通过将B位哈希分成m个块来重复使用已有的哈希，能够显著减小模型的大小。
+
+    
+
+    许多哈希算法，包括minwise哈希（MinHash），一次置换哈希（OPH）和一致加权采样（CWS），生成B位整数。对于每个数据向量的k个哈希，存储空间将是B×k位；当用于大规模学习时，模型大小将是2^B×k，这可能很昂贵。一种标准策略是仅使用B位中的最低b位，并略微增加哈希的数量k。在这项研究中，我们提出通过将B位分成m个块，例如b×m=B，来重复使用哈希。对应地，模型大小变为m×2^b×k，这可能比原来的2^B×k要小得多。我们的理论分析显示，通过将哈希值分成m个块，准确性会下降。换句话说，使用B/m位的m个块将不如直接使用B位精确。这是由于通过重新使用相同的哈希值引起的相关性。另一方面，
+
+    Many hashing algorithms including minwise hashing (MinHash), one permutation hashing (OPH), and consistent weighted sampling (CWS) generate integers of $B$ bits. With $k$ hashes for each data vector, the storage would be $B\times k$ bits; and when used for large-scale learning, the model size would be $2^B\times k$, which can be expensive. A standard strategy is to use only the lowest $b$ bits out of the $B$ bits and somewhat increase $k$, the number of hashes. In this study, we propose to re-use the hashes by partitioning the $B$ bits into $m$ chunks, e.g., $b\times m =B$. Correspondingly, the model size becomes $m\times 2^b \times k$, which can be substantially smaller than the original $2^B\times k$.  Our theoretical analysis reveals that by partitioning the hash values into $m$ chunks, the accuracy would drop. In other words, using $m$ chunks of $B/m$ bits would not be as accurate as directly using $B$ bits. This is due to the correlation from re-using the same hash. On the other h
+    
+[^6]: 置信度校准的集合式密集短语检索
+
+    Confidence-Calibrated Ensemble Dense Phrase Retrieval. (arXiv:2306.15917v1 [cs.CL])
+
+    [http://arxiv.org/abs/2306.15917](http://arxiv.org/abs/2306.15917)
+
+    本文研究了如何优化基于Transformer的密集语段检索（DPR）算法，使用置信度校准的集合预测方法取得了最先进的结果，并发现不同领域的最优粒度也有所差异。
+
+    
+
+    本文中，我们考虑了不需要进一步预训练的基于Transformer的密集语段检索（DPR）算法（由Karpukhin等人于2020年开发）的优化程度。我们的方法包括两个关键洞察：我们在不同短语长度（例如一句和五句）上应用DPR上下文编码器，并对所有这些不同分割的结果进行置信度校准的集合预测。这种相对详尽的方法在Google NQ和SQuAD等基准数据集上取得了最先进的结果。我们还将我们的方法应用于特定领域的数据集，结果表明不同的颗粒度对于不同的领域是最优的。
+
+    In this paper, we consider the extent to which the transformer-based Dense Passage Retrieval (DPR) algorithm, developed by (Karpukhin et. al. 2020), can be optimized without further pre-training. Our method involves two particular insights: we apply the DPR context encoder at various phrase lengths (e.g. one-sentence versus five-sentence segments), and we take a confidence-calibrated ensemble prediction over all of these different segmentations. This somewhat exhaustive approach achieves start-of-the-art results on benchmark datasets such as Google NQ and SQuAD. We also apply our method to domain-specific datasets, and the results suggest how different granularities are optimal for different domains
+    
+[^7]: 协同过滤中维度无关的困难负样本混合方法
+
+    Dimension Independent Mixup for Hard Negative Sample in Collaborative Filtering. (arXiv:2306.15905v1 [cs.IR])
+
+    [http://arxiv.org/abs/2306.15905](http://arxiv.org/abs/2306.15905)
+
+    本文提出了一种协同过滤训练中维度无关的困难负样本混合方法（DINS），通过对采样区域的新视角进行重新审视来改进现有的采样方法。实验证明，DINS优于其他负采样方法，证实了其有效性和优越性。
+
+    
+
+    协同过滤（CF）是一种广泛应用的技术，可以基于过去的互动预测用户的偏好。负采样在使用隐式反馈训练基于CF的模型时起到至关重要的作用。本文提出了一种基于采样区域的新视角来重新审视现有的采样方法。我们指出，目前的采样方法主要集中在点采样或线采样上，缺乏灵活性，并且有相当大一部分困难采样区域未被探索。为了解决这个限制，我们提出了一种维度无关的困难负样本混合方法（DINS），它是第一个针对训练基于CF的模型的区域采样方法。DINS包括三个模块：困难边界定义、维度无关混合和多跳池化。在真实世界的数据集上进行的实验证明，DINS优于其他负采样方法，证明了它的有效性和优越性。
+
+    Collaborative filtering (CF) is a widely employed technique that predicts user preferences based on past interactions. Negative sampling plays a vital role in training CF-based models with implicit feedback. In this paper, we propose a novel perspective based on the sampling area to revisit existing sampling methods. We point out that current sampling methods mainly focus on Point-wise or Line-wise sampling, lacking flexibility and leaving a significant portion of the hard sampling area un-explored. To address this limitation, we propose Dimension Independent Mixup for Hard Negative Sampling (DINS), which is the first Area-wise sampling method for training CF-based models. DINS comprises three modules: Hard Boundary Definition, Dimension Independent Mixup, and Multi-hop Pooling. Experiments with real-world datasets on both matrix factorization and graph-based models demonstrate that DINS outperforms other negative sampling methods, establishing its effectiveness and superiority. Our wo
+    
+[^8]: 推荐系统中的块状特征交互
+
+    Blockwise Feature Interaction in Recommendation Systems. (arXiv:2306.15881v1 [cs.IR])
+
+    [http://arxiv.org/abs/2306.15881](http://arxiv.org/abs/2306.15881)
+
+    该论文提出了一种称为块状特征交互 (BFI) 的方法，通过将特征交互过程分成较小的块，以显著减少内存占用和计算负担。实验证明，BFI算法在准确性上接近标准DCNv2，同时大大减少了计算开销和参数数量，为高效推荐系统的发展做出了贡献。
+
+    
+
+    特征交互在推荐系统中起着至关重要的作用，因为它们捕捉了用户偏好和物品特征之间的复杂关系。现有方法（如深度和交叉网络 DCNv2）可能由于其跨层操作而面临高计算需求的问题。本文提出了一种新颖的方法，称为块状特征交互 (BFI)，以帮助缓解这个问题。通过将特征交互过程分成较小的块，我们可以显著减少内存占用和计算负担。我们开发了四个变体（分别为 P、Q、T、S）的 BFI，并进行了实证比较。我们的实验结果表明，所提出的算法在与标准 DCNv2 相比时能够实现接近的准确性，同时大大减少了计算开销和参数数量。本文通过提供一种改进推荐系统的实际解决方案，为高效推荐系统的发展做出了贡献。
+
+    Feature interactions can play a crucial role in recommendation systems as they capture complex relationships between user preferences and item characteristics. Existing methods such as Deep & Cross Network (DCNv2) may suffer from high computational requirements due to their cross-layer operations. In this paper, we propose a novel approach called blockwise feature interaction (BFI) to help alleviate this issue. By partitioning the feature interaction process into smaller blocks, we can significantly reduce both the memory footprint and the computational burden. Four variants (denoted by P, Q, T, S, respectively) of BFI have been developed and empirically compared. Our experimental results demonstrate that the proposed algorithms achieves close accuracy compared to the standard DCNv2, while greatly reducing the computational overhead and the number of parameters. This paper contributes to the development of efficient recommendation systems by providing a practical solution for improving
+    
+[^9]: 基于注意力知识图卷积网络的旅游景点推荐
 
     Tourist Attractions Recommendation based on Attention Knowledge Graph Convolution Network. (arXiv:2306.10946v1 [cs.IR] CROSS LISTED)
 
@@ -118,21 +141,7 @@
 
     The recommendation algorithm based on knowledge graphs is at a relatively mature stage. However, there are still some problems in the recommendation of specific areas. For example, in the tourism field, selecting suitable tourist attraction attributes process is complicated as the recommendation basis for tourist attractions. In this paper, we propose the improved Attention Knowledge Graph Convolution Network model, named (Att-KGCN), which automatically discovers the neighboring entities of the target scenic spot semantically. The attention layer aggregates relatively similar locations and represents them with an adjacent vector. Then, according to the tourist's preferred choices, the model predicts the probability of similar spots as a recommendation system. A knowledge graph dataset of tourist attractions used based on tourism data on Socotra Island-Yemen. Through experiments, it is verified that the Attention Knowledge Graph Convolution Network has a good effect on the recommendatio
     
-[^8]: 深度学习在暗网活动分类中的应用
-
-    Dark web activity classification using deep learning. (arXiv:2306.07980v1 [cs.IR])
-
-    [http://arxiv.org/abs/2306.07980](http://arxiv.org/abs/2306.07980)
-
-    本文阐述了对于识别和控制暗网非法活动的迫切需求，并提出了一种利用深度学习方法检索 .onion 扩展名的网站上相关图片的搜索引擎，该方法在测试中达到了94% 的准确率。
-
-    
-
-    本文强调了识别和控制暗网非法活动的迫切需要。作者提出了一种利用深度学习通过 .onion 扩展名的网站检索非法活动相关图片的新型搜索引擎。在名为 darkoob 的全面数据集的测试中，该方法达到了94% 的准确率。
-
-    The present article highlights the pressing need for identifying and controlling illicit activities on the dark web. While only 4% of the information available on the internet is accessible through regular search engines, the deep web contains a plethora of information, including personal data and online accounts, that is not indexed by search engines. The dark web, which constitutes a subset of the deep web, is a notorious breeding ground for various illegal activities, such as drug trafficking, weapon sales, and money laundering. Against this backdrop, the authors propose a novel search engine that leverages deep learning to identify and extract relevant images related to illicit activities on the dark web. Specifically, the system can detect the titles of illegal activities on the dark web and retrieve pertinent images from websites with a .onion extension. The authors have collected a comprehensive dataset named darkoob and the proposed method achieves an accuracy of 94% on the tes
-    
-[^9]: 推荐系统如何从大型语言模型中受益：一项调查研究
+[^10]: 推荐系统如何从大型语言模型中受益：一项调查研究
 
     How Can Recommender Systems Benefit from Large Language Models: A Survey. (arXiv:2306.05817v1 [cs.IR])
 
@@ -145,89 +154,5 @@
     推荐系统在匹配互联网应用程序用户的信息需求方面发挥着重要作用。在自然语言处理领域中，大型语言模型已经展现出了惊人的新兴能力（例如指令跟踪、推理），从而为将LLM调整到推荐系统中以提高性能和改善用户体验的研究方向带来了希望。在本文中，我们从应用导向的角度对此研究方向进行了全面的调查。我们首先从两个正交的角度总结了现有的研究工作：如何在推荐系统中调整LLM和调整LLM时在哪里调整。对于“在哪里”这个问题，我们讨论了LLM在推荐流程的不同阶段中可能发挥的作用，即特征工程、特征编码器、评分/排名函数和流程控制器。对于“如何”这个问题，我们调查了训练和推理策略，从而得出两个细粒度的分类标准，即是否调整LLM和是否将LLM作为独立模型或混合模型组件使用。最后，我们提出了在将LLM调整到RS中的一些挑战和潜在方向，包括与现有系统的集成、用户反馈、评估度量和知识蒸馏。
 
     Recommender systems (RS) play important roles to match users' information needs for Internet applications. In natural language processing (NLP) domains, large language model (LLM) has shown astonishing emergent abilities (e.g., instruction following, reasoning), thus giving rise to the promising research direction of adapting LLM to RS for performance enhancements and user experience improvements. In this paper, we conduct a comprehensive survey on this research direction from an application-oriented view. We first summarize existing research works from two orthogonal perspectives: where and how to adapt LLM to RS. For the "WHERE" question, we discuss the roles that LLM could play in different stages of the recommendation pipeline, i.e., feature engineering, feature encoder, scoring/ranking function, and pipeline controller. For the "HOW" question, we investigate the training and inference strategies, resulting in two fine-grained taxonomy criteria, i.e., whether to tune LLMs or not, a
-    
-[^10]: 复制循环神经网络结构网络
-
-    Copy Recurrent Neural Network Structure Network. (arXiv:2305.13250v2 [cs.LG] UPDATED)
-
-    [http://arxiv.org/abs/2305.13250](http://arxiv.org/abs/2305.13250)
-
-    本研究提出了一种名为复制循环神经网络结构网络（CRNNet）的新型粗到细的ICD路径生成框架，通过使用RNN生成顺序输出并结合复制模块，有效识别复杂疾病，相比于最先进的和先前的方法，在预测中实现了更高的复杂疾病比率（57.30%）。
-
-    
-
-    电子健康记录（EHR）编码涉及将EHR自动分类为诊断代码。虽然大多数先前的研究将其视为多标签分类任务，生成每个代码的概率并选择超过一定阈值的标签，但这些方法常常忽视了识别复杂疾病的挑战。本研究的重点是在EHR中检测并发疾病。我们提出了一种称为复制循环神经网络结构网络（CRNNet）的新型粗到细的ICD路径生成框架，该框架使用路径生成器（PG）和路径鉴别器（PD）进行EHR编码。通过使用RNN生成顺序输出并结合复制模块，我们能够有效地识别复杂疾病。我们的方法在预测中实现了57.30％的复杂疾病比率，优于最先进的和先前的方法。此外，通过消融研究，我们证明复制机制起着至关重要的作用。
-
-    Electronic Health Record (EHR) coding involves automatically classifying EHRs into diagnostic codes. While most previous research treats this as a multi-label classification task, generating probabilities for each code and selecting those above a certain threshold as labels, these approaches often overlook the challenge of identifying complex diseases. In this study, our focus is on detecting complication diseases within EHRs.  We propose a novel coarse-to-fine ICD path generation framework called the Copy Recurrent Neural Network Structure Network (CRNNet), which employs a Path Generator (PG) and a Path Discriminator (PD) for EHR coding. By using RNNs to generate sequential outputs and incorporating a copy module, we efficiently identify complication diseases. Our method achieves a 57.30\% ratio of complex diseases in predictions, outperforming state-of-the-art and previous approaches.  Additionally, through an ablation study, we demonstrate that the copy mechanism plays a crucial rol
-    
-[^11]: 捕捉促销期间的转化率波动：一种新颖的历史数据再利用方法
-
-    Capturing Conversion Rate Fluctuation during Sales Promotions: A Novel Historical Data Reuse Approach. (arXiv:2305.12837v2 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2305.12837](http://arxiv.org/abs/2305.12837)
-
-    本论文提出了一种名为HDR的新方法，通过重复使用历史促销数据，来捕捉促销转化模式，达到更好地适应促销模式的目的。
-
-    
-
-    转化率（CVR）预测是在线推荐系统的核心组件之一，已经提出了各种方法以获得准确和一致的CVR估计。然而，我们观察到，即使训练良好的CVR预测模型，在促销期间也经常表现出次优的性能。这主要归因于数据分布转移问题，其中传统方法不再起作用。因此，我们寻求开发替代建模技术用于CVR预测。观察到不同促销之间存在相似的购买模式，我们提出了重用历史促销数据以捕捉促销转化模式的方法。因此，我们提出了一种新颖的历史数据再利用（HDR）方法，该方法首先检索历史上相似的促销数据，然后使用获取的数据微调CVR预测模型以更好地适应促销模式。HDR由三个组件组成：自动数据
-
-    Conversion rate (CVR) prediction is one of the core components in online recommender systems, and various approaches have been proposed to obtain accurate and well-calibrated CVR estimation. However, we observe that a well-trained CVR prediction model often performs sub-optimally during sales promotions. This can be largely ascribed to the problem of the data distribution shift, in which the conventional methods no longer work. To this end, we seek to develop alternative modeling techniques for CVR prediction. Observing similar purchase patterns across different promotions, we propose reusing the historical promotion data to capture the promotional conversion patterns. Herein, we propose a novel \textbf{H}istorical \textbf{D}ata \textbf{R}euse (\textbf{HDR}) approach that first retrieves historically similar promotion data and then fine-tunes the CVR prediction model with the acquired data for better adaptation to the promotion mode. HDR consists of three components: an automated data 
-    
-[^12]: TWIN: 两阶段兴趣网络在快手中进行终身用户行为建模与CTR预测
-
-    TWIN: TWo-stage Interest Network for Lifelong User Behavior Modeling in CTR Prediction at Kuaishou. (arXiv:2302.02352v2 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2302.02352](http://arxiv.org/abs/2302.02352)
-
-    TWIN是一种解决现有CTR预测系统中兴趣不一致问题的方法，通过引入两个阶段的兴趣网络，从而提高了预测准确性。
-
-    
-
-    终身用户行为建模，即从丰富的历史行为中提取用户的隐藏兴趣，在现代CTR预测系统中起着核心作用。传统算法主要遵循两个级联阶段：一个简单的通用搜索单元（GSU）用于快速搜索数以万计的长期行为，一个精确搜索单元（ESU）用于对来自GSU的少数候选人进行有针对性的关注。虽然高效，但现有算法大多存在一个关键限制：GSU和ESU之间的目标-行为相关指标不一致。因此，他们的GSU通常会错过高相关的行为，但又会检索到被ESU认为不相关的行为。在这种情况下，无论ESU如何分配注意力，它的关注点大多与真实用户兴趣偏离，从而降低了整体CTR预测准确性。为了解决这种不一致性，我们提出了“两阶段兴趣网络（TWIN）”，
-
-    Life-long user behavior modeling, i.e., extracting a user's hidden interests from rich historical behaviors in months or even years, plays a central role in modern CTR prediction systems. Conventional algorithms mostly follow two cascading stages: a simple General Search Unit (GSU) for fast and coarse search over tens of thousands of long-term behaviors and an Exact Search Unit (ESU) for effective Target Attention (TA) over the small number of finalists from GSU. Although efficient, existing algorithms mostly suffer from a crucial limitation: the \textit{inconsistent} target-behavior relevance metrics between GSU and ESU. As a result, their GSU usually misses highly relevant behaviors but retrieves ones considered irrelevant by ESU. In such case, the TA in ESU, no matter how attention is allocated, mostly deviates from the real user interests and thus degrades the overall CTR prediction accuracy. To address such inconsistency, we propose \textbf{TWo-stage Interest Network (TWIN)}, wher
-    
-[^13]: PEPNet：融入个性化先验信息的参数和嵌入式个性化网络
-
-    PEPNet: Parameter and Embedding Personalized Network for Infusing with Personalized Prior Information. (arXiv:2302.01115v3 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2302.01115](http://arxiv.org/abs/2302.01115)
-
-    本文提出了一种融合个性化先验信息的可插拔网络（PEPNet），用于多领域和多任务推荐。该网络通过动态调整底层嵌入和顶层DNN隐藏单元，以准确捕捉用户在多个场景中的兴趣。
-
-    
-
-    随着在线服务如网购和视频观看网站中内容页面和交互按钮的增加，工业规模的推荐系统在多领域和多任务推荐方面面临挑战。多任务和多领域推荐的核心是在给定多个用户行为的多个场景中准确捕捉用户的兴趣。在本文中，我们提出了一种可插拔的“参数和嵌入式个性化网络（PEPNet）”，用于多领域和多任务推荐。PEPNet将个性化先验信息作为输入，并通过门机制动态调整底层嵌入和顶层DNN隐藏单元。嵌入个性化网络（EPNet）对嵌入执行个性化选择，以融合不同用户在多个领域中不同重要性的特征。参数个性化网络（PPNet）对参数执行个性化修改。
-
-    With the increase of content pages and interactive buttons in online services such as online-shopping and video-watching websites, industrial-scale recommender systems face challenges in multi-domain and multi-task recommendations. The core of multi-task and multi-domain recommendation is to accurately capture user interests in multiple scenarios given multiple user behaviors. In this paper, we propose a plug-and-play \textit{\textbf{P}arameter and \textbf{E}mbedding \textbf{P}ersonalized \textbf{Net}work (\textbf{PEPNet})} for multi-domain and multi-task recommendation. PEPNet takes personalized prior information as input and dynamically scales the bottom-level Embedding and top-level DNN hidden units through gate mechanisms. \textit{Embedding Personalized Network (EPNet)} performs personalized selection on Embedding to fuse features with different importance for different users in multiple domains. \textit{Parameter Personalized Network (PPNet)} executes personalized modification on 
-    
-[^14]: 具有持续终身学习的神经主题建模
-
-    Neural Topic Modeling with Continual Lifelong Learning. (arXiv:2006.10909v2 [cs.CL] UPDATED)
-
-    [http://arxiv.org/abs/2006.10909](http://arxiv.org/abs/2006.10909)
-
-    本研究提出了一个具有持续终身学习的神经主题建模框架，可以处理数据稀疏性，并通过知识的持续积累和转移来提高主题建模的效果。
-
-    
-
-    终身学习吸引了人们对建立机器学习系统的关注，这些系统可以不断积累和传递知识，以帮助未来的学习。无监督主题建模广泛用于从文档集合中发现主题。然而，由于数据稀疏性，例如在一个小的（短）文档集合中，主题建模的应用具有挑战性，从而产生不连贯的主题和次优的文档表示。为了解决这个问题，我们提出了一个神经主题建模的终身学习框架，可以持续处理文档集合的流，积累主题，并通过从多个源的知识转移指导未来的主题建模任务，以更好地处理稀疏数据。在终身过程中，我们特别研究了共享的生成同源性（潜在主题）以在终身中传递先前的知识，以及通过新的选择性遗忘来最小化灾难性遗忘，以保留过去的学习。
-
-    Lifelong learning has recently attracted attention in building machine learning systems that continually accumulate and transfer knowledge to help future learning. Unsupervised topic modeling has been popularly used to discover topics from document collections. However, the application of topic modeling is challenging due to data sparsity, e.g., in a small collection of (short) documents and thus, generate incoherent topics and sub-optimal document representations. To address the problem, we propose a lifelong learning framework for neural topic modeling that can continuously process streams of document collections, accumulate topics and guide future topic modeling tasks by knowledge transfer from several sources to better deal with the sparse data. In the lifelong process, we particularly investigate jointly: (1) sharing generative homologies (latent topics) over lifetime to transfer prior knowledge, and (2) minimizing catastrophic forgetting to retain the past learning via novel sele
-    
-[^15]: 多模网络中个性化PageRank的网络容量界限
-
-    Network Capacity Bound for Personalized PageRank in Multimodal Networks. (arXiv:1706.00178v3 [cs.SI] UPDATED)
-
-    [http://arxiv.org/abs/1706.00178](http://arxiv.org/abs/1706.00178)
-
-    本文推广双分图PageRank的想法，提出了一种用于多模网络的超图类型，证明了多模网络中个性化PageRank的网络容量界限。
-
-    
-
-    在一篇先前的论文中，介绍了双分图PageRank的概念，并推广了个性化PageRank中节点之间授权流限制的定理。本文将这些结果推广到多模网络中。我们特别处理了一种用于描述多模网络的超图类型，其中超链接将每个模态的节点连接起来。我们引入了这种图的PageRank概率分布，并定义了相应的随机游走模型，可用于计算。我们对具有相同和不同阻尼因子的情况下授权流出量的极限情况进行了陈述和证明。
-
-    In a former paper the concept of Bipartite PageRank was introduced and a theorem on the limit of authority flowing between nodes for personalized PageRank has been generalized. In this paper we want to extend those results to multimodal networks. In particular we deal with a hypergraph type that may be used for describing multimodal network where a hyperlink connects nodes from each of the modalities. We introduce a generalisation of PageRank for such graphs and define the respective random walk model that can be used for computations. We state and prove theorems on the limit of outflow of authority for cases where individual modalities have identical and distinct damping factors.
     
 

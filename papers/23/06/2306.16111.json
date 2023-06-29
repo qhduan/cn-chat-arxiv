@@ -1,0 +1,11 @@
+{
+    "title": "Time Regularization in Optimal Time Variable Learning. (arXiv:2306.16111v1 [cs.LG])",
+    "abstract": "Recently, optimal time variable learning in deep neural networks (DNNs) was introduced in arXiv:2204.08528. In this manuscript we extend the concept by introducing a regularization term that directly relates to the time horizon in discrete dynamical systems. Furthermore, we propose an adaptive pruning approach for Residual Neural Networks (ResNets), which reduces network complexity without compromising expressiveness, while simultaneously decreasing training time. The results are illustrated by applying the proposed concepts to classification tasks on the well known MNIST and Fashion MNIST data sets. Our PyTorch code is available on https://github.com/frederikkoehne/time_variable_learning.",
+    "link": "http://arxiv.org/abs/2306.16111",
+    "context": "Title: Time Regularization in Optimal Time Variable Learning. (arXiv:2306.16111v1 [cs.LG])\nAbstract: Recently, optimal time variable learning in deep neural networks (DNNs) was introduced in arXiv:2204.08528. In this manuscript we extend the concept by introducing a regularization term that directly relates to the time horizon in discrete dynamical systems. Furthermore, we propose an adaptive pruning approach for Residual Neural Networks (ResNets), which reduces network complexity without compromising expressiveness, while simultaneously decreasing training time. The results are illustrated by applying the proposed concepts to classification tasks on the well known MNIST and Fashion MNIST data sets. Our PyTorch code is available on https://github.com/frederikkoehne/time_variable_learning.",
+    "path": "papers/23/06/2306.16111.json",
+    "total_tokens": 798,
+    "translated_title": "时间正则化在最优时间变量学习中的应用",
+    "translated_abstract": "最近，在arXiv:2204.08528中引入了深度神经网络（DNNs）中的最优时间变量学习。在本文中，我们通过引入一个与离散动力系统中的时间范围直接相关的正则化项，扩展了这个概念。此外，我们提出了一种适应性剪枝方法，用于Residual Neural Networks (ResNets)，可以减少网络复杂性，同时不损害表达能力，同时减少训练时间。通过将这些概念应用于著名的MNIST和Fashion MNIST数据集上的分类任务，我们展示了结果。我们的PyTorch代码可在https://github.com/frederikkoehne/time_variable_learning上找到。",
+    "tldr": "本文研究了时间正则化在最优时间变量学习中的应用，通过引入一个与离散动力系统中的时间范围直接相关的正则化项，并提出了一种适应性剪枝方法用于减少网络复杂性和训练时间，同时保持表达能力。在MNIST和Fashion MNIST数据集上的分类任务上验证了方法的有效性。"
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Quantum Federated Learning: Analysis, Design and Implementation Challenges. (arXiv:2306.15708v1 [quant-ph])",
+    "abstract": "Quantum Federated Learning (QFL) has gained significant attention due to quantum computing and machine learning advancements. As the demand for QFL continues to surge, there is a pressing need to comprehend its intricacies in distributed environments. This paper aims to provide a comprehensive overview of the current state of QFL, addressing a crucial knowledge gap in the existing literature. We develop ideas for new QFL frameworks, explore diverse use cases of applications, and consider the critical factors influencing their design. The technical contributions and limitations of various QFL research projects are examined while presenting future research directions and open questions for further exploration.",
+    "link": "http://arxiv.org/abs/2306.15708",
+    "context": "Title: Quantum Federated Learning: Analysis, Design and Implementation Challenges. (arXiv:2306.15708v1 [quant-ph])\nAbstract: Quantum Federated Learning (QFL) has gained significant attention due to quantum computing and machine learning advancements. As the demand for QFL continues to surge, there is a pressing need to comprehend its intricacies in distributed environments. This paper aims to provide a comprehensive overview of the current state of QFL, addressing a crucial knowledge gap in the existing literature. We develop ideas for new QFL frameworks, explore diverse use cases of applications, and consider the critical factors influencing their design. The technical contributions and limitations of various QFL research projects are examined while presenting future research directions and open questions for further exploration.",
+    "path": "papers/23/06/2306.15708.json",
+    "total_tokens": 781,
+    "translated_title": "量子联邦学习：分析、设计和实现挑战",
+    "translated_abstract": "由于量子计算和机器学习的进展，量子联邦学习（QFL）引起了广泛关注。随着对QFL的需求不断增加，迫切需要了解其在分布式环境中的复杂性。本文旨在全面介绍当前QFL的研究现状，填补现有文献中的重要知识空白。我们提出了新的QFL框架的思路，探讨了各种应用案例，并考虑了影响其设计的关键因素。同时，对各种QFL研究项目的技术贡献和局限性进行了考察，并提出了未来的研究方向和待解决的问题。",
+    "tldr": "该论文提供了关于量子联邦学习（QFL）的综述，包括QFL框架的设计思路、应用案例和关键因素的考虑，同时分析了各种QFL研究项目的技术贡献和局限性，并提出了未来的研究方向和待解决的问题。"
+}

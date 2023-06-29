@@ -1,0 +1,12 @@
+{
+    "title": "Next Steps for Human-Centered Generative AI: A Technical Perspective. (arXiv:2306.15774v1 [cs.HC])",
+    "abstract": "Through iterative, cross-disciplinary discussions, we define and propose next-steps for Human-centered Generative AI (HGAI) from a technical perspective. We contribute a roadmap that lays out future directions of Generative AI spanning three levels: Aligning with human values; Accommodating humans' expression of intents; and Augmenting humans' abilities in a collaborative workflow. This roadmap intends to draw interdisciplinary research teams to a comprehensive list of emergent ideas in HGAI, identifying their interested topics while maintaining a coherent big picture of the future work landscape.",
+    "link": "http://arxiv.org/abs/2306.15774",
+    "context": "Title: Next Steps for Human-Centered Generative AI: A Technical Perspective. (arXiv:2306.15774v1 [cs.HC])\nAbstract: Through iterative, cross-disciplinary discussions, we define and propose next-steps for Human-centered Generative AI (HGAI) from a technical perspective. We contribute a roadmap that lays out future directions of Generative AI spanning three levels: Aligning with human values; Accommodating humans' expression of intents; and Augmenting humans' abilities in a collaborative workflow. This roadmap intends to draw interdisciplinary research teams to a comprehensive list of emergent ideas in HGAI, identifying their interested topics while maintaining a coherent big picture of the future work landscape.",
+    "path": "papers/23/06/2306.15774.json",
+    "total_tokens": 789,
+    "translated_title": "人类中心生成式人工智能的下一步：技术视角",
+    "translated_abstract": "通过反复跨学科讨论，我们从技术角度为人类中心生成式人工智能(HGAI)定义和提出了下一步的工作。我们贡献了一个路线图，概述了生成式人工智能在三个层面上的未来方向：与人类价值观对齐；适应人类的意图表达；增强人类在协作工作流中的能力。该路线图旨在吸引跨学科研究团队对HGAI的新兴想法进行全面的讨论，同时保持未来工作景观的整体连贯性。",
+    "tldr": "这项研究从技术角度定义和提出了人类中心生成式人工智能(HGAI)的下一步工作，包括与人类价值观对齐、适应人类的意图表达和增强人类在协作工作流中的能力。这个工作的目标是吸引跨学科研究团队对HGAI的新兴想法进行讨论，并保持未来工作景观的整体连贯性。",
+    "en_tdlr": "This study proposes the next steps for Human-centered Generative AI (HGAI) from a technical perspective, including aligning with human values, accommodating humans' expression of intents, and augmenting humans' abilities in a collaborative workflow. The aim is to attract interdisciplinary research teams to discuss emergent ideas in HGAI and maintain a coherent big picture of the future work landscape."
+}

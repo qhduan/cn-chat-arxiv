@@ -1,0 +1,11 @@
+{
+    "title": "MLSMM: Machine Learning Security Maturity Model. (arXiv:2306.16127v1 [cs.SE])",
+    "abstract": "Assessing the maturity of security practices during the development of Machine Learning (ML) based software components has not gotten as much attention as traditional software development. In this Blue Sky idea paper, we propose an initial Machine Learning Security Maturity Model (MLSMM) which organizes security practices along the ML-development lifecycle and, for each, establishes three levels of maturity. We envision MLSMM as a step towards closer collaboration between industry and academia.",
+    "link": "http://arxiv.org/abs/2306.16127",
+    "context": "Title: MLSMM: Machine Learning Security Maturity Model. (arXiv:2306.16127v1 [cs.SE])\nAbstract: Assessing the maturity of security practices during the development of Machine Learning (ML) based software components has not gotten as much attention as traditional software development. In this Blue Sky idea paper, we propose an initial Machine Learning Security Maturity Model (MLSMM) which organizes security practices along the ML-development lifecycle and, for each, establishes three levels of maturity. We envision MLSMM as a step towards closer collaboration between industry and academia.",
+    "path": "papers/23/06/2306.16127.json",
+    "total_tokens": 667,
+    "translated_title": "MLSMM：机器学习安全成熟度模型",
+    "translated_abstract": "在机器学习（ML）基于软件组件开发过程中，评估安全实践的成熟度没有得到像传统软件开发那样的关注。在这篇蓝天想法的论文中，我们提出了一个初步的机器学习安全成熟度模型（MLSMM），该模型将安全实践沿着ML开发生命周期进行组织，并为每个实践建立了三个成熟度水平。我们将MLSMM视为产业界和学术界更紧密合作的一步。",
+    "tldr": "这篇论文提出了一个初步的机器学习安全成熟度模型（MLSMM），通过将安全实践沿着ML开发生命周期进行组织和建立成熟度水平，以评估安全实践的成熟度。这将有助于促进产业界和学术界的更紧密合作。"
+}

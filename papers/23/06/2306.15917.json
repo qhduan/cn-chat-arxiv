@@ -1,0 +1,12 @@
+{
+    "title": "Confidence-Calibrated Ensemble Dense Phrase Retrieval. (arXiv:2306.15917v1 [cs.CL])",
+    "abstract": "In this paper, we consider the extent to which the transformer-based Dense Passage Retrieval (DPR) algorithm, developed by (Karpukhin et. al. 2020), can be optimized without further pre-training. Our method involves two particular insights: we apply the DPR context encoder at various phrase lengths (e.g. one-sentence versus five-sentence segments), and we take a confidence-calibrated ensemble prediction over all of these different segmentations. This somewhat exhaustive approach achieves start-of-the-art results on benchmark datasets such as Google NQ and SQuAD. We also apply our method to domain-specific datasets, and the results suggest how different granularities are optimal for different domains",
+    "link": "http://arxiv.org/abs/2306.15917",
+    "context": "Title: Confidence-Calibrated Ensemble Dense Phrase Retrieval. (arXiv:2306.15917v1 [cs.CL])\nAbstract: In this paper, we consider the extent to which the transformer-based Dense Passage Retrieval (DPR) algorithm, developed by (Karpukhin et. al. 2020), can be optimized without further pre-training. Our method involves two particular insights: we apply the DPR context encoder at various phrase lengths (e.g. one-sentence versus five-sentence segments), and we take a confidence-calibrated ensemble prediction over all of these different segmentations. This somewhat exhaustive approach achieves start-of-the-art results on benchmark datasets such as Google NQ and SQuAD. We also apply our method to domain-specific datasets, and the results suggest how different granularities are optimal for different domains",
+    "path": "papers/23/06/2306.15917.json",
+    "total_tokens": 759,
+    "translated_title": "置信度校准的集合式密集短语检索",
+    "translated_abstract": "本文中，我们考虑了不需要进一步预训练的基于Transformer的密集语段检索（DPR）算法（由Karpukhin等人于2020年开发）的优化程度。我们的方法包括两个关键洞察：我们在不同短语长度（例如一句和五句）上应用DPR上下文编码器，并对所有这些不同分割的结果进行置信度校准的集合预测。这种相对详尽的方法在Google NQ和SQuAD等基准数据集上取得了最先进的结果。我们还将我们的方法应用于特定领域的数据集，结果表明不同的颗粒度对于不同的领域是最优的。",
+    "tldr": "本文研究了如何优化基于Transformer的密集语段检索（DPR）算法，使用置信度校准的集合预测方法取得了最先进的结果，并发现不同领域的最优粒度也有所差异。",
+    "en_tdlr": "This paper investigates the optimization of the transformer-based Dense Passage Retrieval (DPR) algorithm without further pre-training. By applying the DPR context encoder at different phrase lengths and using confidence-calibrated ensemble prediction, the paper achieves state-of-the-art results and identifies optimal granularities for different domains."
+}

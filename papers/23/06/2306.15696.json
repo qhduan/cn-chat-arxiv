@@ -1,0 +1,12 @@
+{
+    "title": "Procedural content generation of puzzle games using conditional generative adversarial networks. (arXiv:2306.15696v1 [cs.AI])",
+    "abstract": "In this article, we present an experimental approach to using parameterized Generative Adversarial Networks (GANs) to produce levels for the puzzle game Lily's Garden. We extract two condition vectors from the real levels in an effort to control the details of the GAN's outputs. While the GANs perform well in approximating the first condition (map shape), they struggle to approximate the second condition (piece distribution). We hypothesize that this might be improved by trying out alternative architectures for both the Generator and Discriminator of the GANs.",
+    "link": "http://arxiv.org/abs/2306.15696",
+    "context": "Title: Procedural content generation of puzzle games using conditional generative adversarial networks. (arXiv:2306.15696v1 [cs.AI])\nAbstract: In this article, we present an experimental approach to using parameterized Generative Adversarial Networks (GANs) to produce levels for the puzzle game Lily's Garden. We extract two condition vectors from the real levels in an effort to control the details of the GAN's outputs. While the GANs perform well in approximating the first condition (map shape), they struggle to approximate the second condition (piece distribution). We hypothesize that this might be improved by trying out alternative architectures for both the Generator and Discriminator of the GANs.",
+    "path": "papers/23/06/2306.15696.json",
+    "total_tokens": 721,
+    "translated_title": "使用条件生成对抗网络进行益智游戏的过程化内容生成",
+    "translated_abstract": "本文提出了一种使用参数化生成对抗网络（GAN）为益智游戏Lily's Garden生成关卡的实验方法。我们从真实关卡中提取两个条件向量，以控制GAN输出的细节。虽然GAN在逼近第一个条件（地图形状）方面表现良好，但在逼近第二个条件（方块分布）方面却有困难。我们假设通过尝试替代GAN的生成器和判别器的架构可能会改进这一情况。",
+    "tldr": "本文介绍了一种实验方法，使用参数化生成对抗网络为益智游戏Lily's Garden生成关卡。虽然GAN在逼近地图形状方面表现良好，但在逼近方块分布方面存在困难。可能通过尝试替代GAN的架构来改进这一情况。",
+    "en_tdlr": "This article presents an experimental approach using parameterized Generative Adversarial Networks (GANs) to generate levels for the puzzle game Lily's Garden. While GANs perform well in approximating the map shape, they struggle with approximating the piece distribution, which may be improved by trying alternative architectures for both the Generator and Discriminator of the GANs."
+}

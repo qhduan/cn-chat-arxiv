@@ -1,0 +1,12 @@
+{
+    "title": "Pure exploration in multi-armed bandits with low rank structure using oblivious sampler. (arXiv:2306.15856v1 [cs.LG])",
+    "abstract": "In this paper, we consider the low rank structure of the reward sequence of the pure exploration problems. Firstly, we propose the separated setting in pure exploration problem, where the exploration strategy cannot receive the feedback of its explorations. Due to this separation, it requires that the exploration strategy to sample the arms obliviously. By involving the kernel information of the reward vectors, we provide efficient algorithms for both time-varying and fixed cases with regret bound $O(d\\sqrt{(\\ln N)/n})$. Then, we show the lower bound to the pure exploration in multi-armed bandits with low rank sequence. There is an $O(\\sqrt{\\ln N})$ gap between our upper bound and the lower bound.",
+    "link": "http://arxiv.org/abs/2306.15856",
+    "context": "Title: Pure exploration in multi-armed bandits with low rank structure using oblivious sampler. (arXiv:2306.15856v1 [cs.LG])\nAbstract: In this paper, we consider the low rank structure of the reward sequence of the pure exploration problems. Firstly, we propose the separated setting in pure exploration problem, where the exploration strategy cannot receive the feedback of its explorations. Due to this separation, it requires that the exploration strategy to sample the arms obliviously. By involving the kernel information of the reward vectors, we provide efficient algorithms for both time-varying and fixed cases with regret bound $O(d\\sqrt{(\\ln N)/n})$. Then, we show the lower bound to the pure exploration in multi-armed bandits with low rank sequence. There is an $O(\\sqrt{\\ln N})$ gap between our upper bound and the lower bound.",
+    "path": "papers/23/06/2306.15856.json",
+    "total_tokens": 807,
+    "translated_title": "纯探索问题中具有低秩结构的多臂赌博机的盲目采样器应用",
+    "translated_abstract": "本文考虑纯探索问题中奖励序列的低秩结构。首先，我们提出了纯探索问题中的分离设置，其中探索策略无法接收其探索的反馈。由于这种分离设置，探索策略需要盲目地采样臂。通过引入奖励向量的核信息，我们提供了对于时间变化和固定情况的高效算法，其遗憾界为$O(d\\sqrt{(\\ln N)/n})$。然后，我们证明了低秩序列的多臂赌博机的纯探索问题的下界。我们的上界与下界之间存在$O(\\sqrt{\\ln N})$的差距。",
+    "tldr": "本文研究了纯探索问题中具有低秩结构的多臂赌博机，提出了一种盲目采样器应用以解决分离设置下的纯探索问题，并给出了具有低秩序列的多臂赌博机纯探索问题的上界和下界。",
+    "en_tdlr": "This paper investigates pure exploration problems in multi-armed bandits with low rank structure and proposes an oblivious sampler for solving the separated setting in pure exploration problems. It also provides upper and lower bounds for pure exploration problems in multi-armed bandits with low rank sequence."
+}

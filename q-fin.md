@@ -2,112 +2,157 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Optimizing Credit Limit Adjustments Under Adversarial Goals Using Reinforcement Learning.](http://arxiv.org/abs/2306.15585) | 本研究使用强化学习技术，通过平衡最大化投资组合收入和最小化准备金的对抗目标，自动化寻找最优信用卡额度调整策略。 |
-| [^2] | [A Theory of Interactively Coherent Entanglement for Intelligence-Like Particles.](http://arxiv.org/abs/2306.15554) | 本论文从交易量-价格概率波动方程中提取了一个普遍规律，将其应用于复杂量子系统，并提出了互动一致性纠缠理论，解释智能样粒子的行为。 |
-| [^3] | [Higher-order Graph Attention Network for Stock Selection with Joint Analysis.](http://arxiv.org/abs/2306.15526) | 我们提出了一种基于高阶图注意力网络和联合分析的股票选股方法（H-GAT），它能够捕捉涉及超过两个节点的复杂高阶结构，并同时结合基本分析因素和技术分析因素，对股票选股具有较好的效果。 |
-| [^4] | [Robust Wasserstein Optimization and its Application in Mean-CVaR.](http://arxiv.org/abs/2306.15524) | 该论文提出了一种鲁棒的Wasserstein优化方法，并应用于均值-CVaR优化问题，在美国股市的实验中取得了令人印象深刻的结果。 |
-| [^5] | [Sea Change in Software Development: Economic and Productivity Analysis of the AI-Powered Developer Lifecycle.](http://arxiv.org/abs/2306.15033) | 本研究通过分析大样本Copilot用户的数据，发现GitHub Copilot工具的使用可提高开发者的生产力，特别是对经验较少的开发者有很大帮助。同时，采用生成式AI生产力工具有望在2030年前为全球GDP增加1.5万亿美元。开源生态系统是生成式AI软件创新的重要推动力量，其中个人开发者在GitHub上发挥了重要作用。 |
-| [^6] | [Valuation of Equity Linked Securities with Guaranteed Return.](http://arxiv.org/abs/2306.15026) | 本研究提出了一种新的模型，用于估值具有保证回报的股权连接证券。数值研究表明该模型在广泛的基础证券参数范围内表现精确。 |
-| [^7] | [The Legacy of Authoritarianism in a Democracy.](http://arxiv.org/abs/2202.03682) | 通过研究印度威权主义统治对政治的长期影响，发现当时主导的印度国大党的政治地位急剧下降，并且反对党候选人参选人数出现大幅增加。此外，研究还发现政治家的信任度仍然很低。 |
+| [^1] | [Expectile Quadrangle and Applications.](http://arxiv.org/abs/2306.16351) | 该论文研究了期望值风险度量在基本风险四边形理论中的应用，并重点关注了包含期望值作为统计量和风险度量的四边形。 |
+| [^2] | [A closed form model-free approximation for the Initial Margin of option portfolios.](http://arxiv.org/abs/2306.16346) | 该论文提出了一种闭式无模型逼近方法来计算期权组合的初始保证金。通过对VaR的近期逼近公式的推导，并考虑了神经SDE模型，取得了比传统方法更满意的结果。 |
+| [^3] | [Continuous-Time q-learning for McKean-Vlasov Control Problems.](http://arxiv.org/abs/2306.16208) | 本文研究了连续时间q-learning在熵正则化强化学习框架下用于McKean-Vlasov控制问题，并揭示了两种不同的q函数的存在及其积分表示。 |
+| [^4] | [Application of spin glass ideas in social sciences, economics and finance.](http://arxiv.org/abs/2306.16165) | 这篇论文探讨了自旋玻璃思想在社会科学、经济学和金融领域的应用，强调了经济系统的复杂性以及在理解和描述这种系统时的困难。 |
+| [^5] | [Analysis of Indian foreign exchange markets: A Multifractal Detrended Fluctuation Analysis (MFDFA) approach.](http://arxiv.org/abs/2306.16162) | 本研究通过多重分形分析了印度外汇市场的汇率数据，并发现尾部的厚尾和长程相关性是导致多重分形特征的主要来源。 |
+| [^6] | [Non-parametric online market regime detection and regime clustering for multidimensional and path-dependent data structures.](http://arxiv.org/abs/2306.15835) | 本研究提出了一种非参数的在线市场制度检测和制度聚类方法，适用于多维和路径依赖的数据结构。该方法利用基于路径空间的最大均值差异相似度度量进行路径样本检验，并优化了针对新进数据少的情况的反应速度。同时，该方法也适用于高维度、非马尔可夫以及自相关性的数据结构。 |
+| [^7] | [Liquidity Premium and Liquidity-Adjusted Return and Volatility: illustrated with a Liquidity-Adjusted Mean Variance Framework and its Application on a Portfolio of Crypto Assets.](http://arxiv.org/abs/2306.15807) | 这项研究创建了创新技术来度量加密资产的流动性溢价，并开发了流动性调整的模型来提高投资组合的预测性能。 |
+| [^8] | [The Shifting Attention of Political Leaders: Evidence from Two Centuries of Presidential Speeches.](http://arxiv.org/abs/2209.00540) | 本研究使用两个世纪的总统演讲数据，通过自然语言处理算法研究了总统政策优先事项的动态和决定因素。研究发现在1819年至2022年期间，总统的关注重点从军事干预和国家能力的发展逐渐转向建设实体资本和人力资本。总统的年龄和性别等特征预测了主要政策问题。这些发现拓展了我们对总统关注动态和塑造因素的理解。 |
+| [^9] | [Planning ride-pooling services with detour restrictions for spatially heterogeneous demand: A multi-zone queuing network approach.](http://arxiv.org/abs/2208.02219) | 本研究提出了一个多区域排队网络模型来优化空间异质需求下的拼车服务设计，通过细分区域和避免明显绕行，实现了稳态拼车操作，并通过非线性规划解决方案优化了车辆部署、路径规划和再平衡操作。 |
+| [^10] | [Racial Disparities in Debt Collection.](http://arxiv.org/abs/1910.02570) | 本文研究发现，无论控制了信用评分和其他相关信用属性，黑人和西班牙裔借款人比白人借款人更有可能遭受债务收集判决。这种判决差距在有大量发薪日贷款机构、没有收入的家庭占比高以及受过高等教育程度低的地区更为明显。缩小种族财富差距可以显著减少这种判决的种族差异。 |
 
 # 详细
 
-[^1]: 使用强化学习优化对抗目标下的信用额度调整
+[^1]: 期望值四边形及其应用
 
-    Optimizing Credit Limit Adjustments Under Adversarial Goals Using Reinforcement Learning. (arXiv:2306.15585v1 [q-fin.GN])
+    Expectile Quadrangle and Applications. (arXiv:2306.16351v1 [q-fin.RM])
 
-    [http://arxiv.org/abs/2306.15585](http://arxiv.org/abs/2306.15585)
+    [http://arxiv.org/abs/2306.16351](http://arxiv.org/abs/2306.16351)
 
-    本研究使用强化学习技术，通过平衡最大化投资组合收入和最小化准备金的对抗目标，自动化寻找最优信用卡额度调整策略。
-
-    
-
-    强化学习已经在很多问题中得到应用，从具有确定性环境的视频游戏到具有随机场景的投资组合和运营管理；然而，在银行问题中对这些方法的测试尝试很少。在本研究中，我们试图通过使用强化学习技术找到并自动化最优信用卡额度调整策略。具体而言，由于有历史数据可用，我们考虑每个客户的两种可能操作，即增加或保持个人当前的信用额度。为了找到这个策略，我们首先将这个决策问题形式化为一个优化问题，在其中最大化预期利润；因此，我们平衡了两个对抗目标：最大化投资组合的收入和最小化投资组合的准备金。其次，考虑到我们问题的特殊性，我们使用了离线学习策略，以基于历史数据模拟行动的影响。
-
-    Reinforcement learning has been explored for many problems, from video games with deterministic environments to portfolio and operations management in which scenarios are stochastic; however, there have been few attempts to test these methods in banking problems. In this study, we sought to find and automatize an optimal credit card limit adjustment policy by employing reinforcement learning techniques. In particular, because of the historical data available, we considered two possible actions per customer, namely increasing or maintaining an individual's current credit limit. To find this policy, we first formulated this decision-making question as an optimization problem in which the expected profit was maximized; therefore, we balanced two adversarial goals: maximizing the portfolio's revenue and minimizing the portfolio's provisions. Second, given the particularities of our problem, we used an offline learning strategy to simulate the impact of the action based on historical data f
-    
-[^2]: 互动一致性纠缠理论
-
-    A Theory of Interactively Coherent Entanglement for Intelligence-Like Particles. (arXiv:2306.15554v1 [q-fin.GN])
-
-    [http://arxiv.org/abs/2306.15554](http://arxiv.org/abs/2306.15554)
-
-    本论文从交易量-价格概率波动方程中提取了一个普遍规律，将其应用于复杂量子系统，并提出了互动一致性纠缠理论，解释智能样粒子的行为。
+    该论文研究了期望值风险度量在基本风险四边形理论中的应用，并重点关注了包含期望值作为统计量和风险度量的四边形。
 
     
 
-    复杂适应性学习是智能的，并在生命和非生命复杂系统中发挥作用。一个复杂系统由许多相互作用的个体或单元组成，它们在相互作用中显示出隐藏的模式，并广泛出现在几乎所有学科中，从自然科学到社会科学。这激发了科学家们探索复杂系统形成机制的兴趣。然而，这是非常具有挑战性的。本文从交易量-价格概率波动方程中提取了复杂系统中的互动一致性的普遍规律或法则，并将其应用于复杂量子系统。它假设粒子可以在加强坐标中具有复杂适应性学习或智能样性质，并将金融市场交易者的复杂适应性学习延伸到量子物理中的非生命粒子。在这些假设的基础上，作者提出了一种互动一致性纠缠理论，用于解释智能样粒子的行为。
+    本文探讨了在基本风险四边形（Fundamental Risk Quadrangle，简称FRQ）理论框架下的“期望风险度量”概念。根据FRQ理论，一个四边形由与随机变量相关的四个随机函数组成：“误差”、“遗憾”、“风险”和“偏差”。这些函数通过一种随机函数（称为“统计量”）相互关联。期望值作为一种风险度量，类似于VaR（分位数）和CVaR（超分位数），可用于风险管理。虽然基于VaR和CVaR统计的四边形已得到广泛使用，但本文专注于最近提出的基于期望值的四边形。本文旨在对这些期望值四边形的性质进行严格的研究，特别强调了一个包含期望值作为统计量和风险度量的四边形。
 
-    Complex adaptive learning is intelligent and plays roles in living and non-living complex systems. A complex system comprises many interacting individuals or units, shows hidden patterns as they interact, and widely occurs in almost every discipline, from natural to social sciences. It stimulates scientists to explore the mechanism of complex systems formulation. However, it is very challenging. Here the authors extract a universal rule or a law for interactive coherence in complex systems from a trading volume-price probability wave equation and apply it to complex quantum systems as its application. It assumes that particles can have a complex adaptive learning- or intelligence-like property in a reinforced coordinate and extend complex adaptive learning of traders in the financial markets to that of non-living particles in quantum physics. With these assumptions, the authors propose a theory of interactively coherent entanglement for intelligence-like particles, attempting to explai
+    The paper explores the concept of the \emph{expectile risk measure} within the framework of the Fundamental Risk Quadrangle (FRQ) theory. According to the FRQ theory, a quadrangle comprises four stochastic functions associated with a random variable: ``error'', ``regret'', ``risk'', and ``deviation''. These functions are interconnected through a stochastic function known as the ``statistic''. Expectile is a risk measure that, similar to VaR (quantile) and CVaR (superquantile), can be employed in risk management. While quadrangles based on VaR and CVaR statistics are well-established and widely used, the paper focuses on the recently proposed quadrangles based on expectile. The aim of this paper is to rigorously examine the properties of these Expectile Quadrangles, with particular emphasis on a quadrangle that encompasses expectile as both a statistic and a measure of risk.
     
-[^3]: 基于高阶图注意力网络的股票选股方法及联合分析
+[^2]: 期权组合的初始保证金的一种闭式无模型逼近
 
-    Higher-order Graph Attention Network for Stock Selection with Joint Analysis. (arXiv:2306.15526v1 [q-fin.ST])
+    A closed form model-free approximation for the Initial Margin of option portfolios. (arXiv:2306.16346v1 [q-fin.RM])
 
-    [http://arxiv.org/abs/2306.15526](http://arxiv.org/abs/2306.15526)
+    [http://arxiv.org/abs/2306.16346](http://arxiv.org/abs/2306.16346)
 
-    我们提出了一种基于高阶图注意力网络和联合分析的股票选股方法（H-GAT），它能够捕捉涉及超过两个节点的复杂高阶结构，并同时结合基本分析因素和技术分析因素，对股票选股具有较好的效果。
-
-    
-
-    股票选股对于投资者构建有利可图的投资组合至关重要。图神经网络（GNN）由于其在关系建模和泛化方面的强大能力，越来越受到研究人员的关注。然而，现有的GNN方法仅关注简单的股票配对关系，并不能捕捉涉及超过两个节点的复杂高阶结构模型。此外，它们只考虑技术分析因素，忽视了可能对股票趋势产生显著影响的基本分析因素。基于这些动机，我们提出了一种基于高阶图注意力网络和联合分析的股票选股方法（H-GAT）。H-GAT能够捕捉高阶结构，并同时结合基本分析因素和技术分析因素。具体而言，H-GAT的顺序层将这两种类型的因素作为长短期记忆模型的输入。H-GAT的关系嵌入层构建了一个高阶图且学习了
-
-    Stock selection is important for investors to construct profitable portfolios. Graph neural networks (GNNs) are increasingly attracting researchers for stock prediction due to their strong ability of relation modelling and generalisation. However, the existing GNN methods only focus on simple pairwise stock relation and do not capture complex higher-order structures modelling relations more than two nodes. In addition, they only consider factors of technical analysis and overlook factors of fundamental analysis that can affect the stock trend significantly. Motivated by them, we propose higher-order graph attention network with joint analysis (H-GAT). H-GAT is able to capture higher-order structures and jointly incorporate factors of fundamental analysis with factors of technical analysis. Specifically, the sequential layer of H-GAT take both types of factors as the input of a long-short term memory model. The relation embedding layer of H-GAT constructs a higher-order graph and learn 
-    
-[^4]: 鲁棒的Wasserstein优化及其在均值-CVaR中的应用
-
-    Robust Wasserstein Optimization and its Application in Mean-CVaR. (arXiv:2306.15524v1 [q-fin.MF])
-
-    [http://arxiv.org/abs/2306.15524](http://arxiv.org/abs/2306.15524)
-
-    该论文提出了一种鲁棒的Wasserstein优化方法，并应用于均值-CVaR优化问题，在美国股市的实验中取得了令人印象深刻的结果。
+    该论文提出了一种闭式无模型逼近方法来计算期权组合的初始保证金。通过对VaR的近期逼近公式的推导，并考虑了神经SDE模型，取得了比传统方法更满意的结果。
 
     
 
-    我们参考了最近的推断方法，并提出了一个解决分布鲁棒优化问题的框架，其中真实概率测度位于以经验测度为中心的Wasserstein球内，Wasserstein球的半径由经验数据确定。我们将鲁棒优化转化为一个带有惩罚项的非鲁棒优化，并提供了Wasserstein模糊集大小的选择。此外，我们将这个框架应用于鲁棒均值-CVaR优化问题，并通过对美国股市的数值实验与其他流行策略进行了比较，结果令人印象深刻。
+    中央清算交易对手方（CCP）在减轻交易所交易期权的交易对手风险中起着基础性的作用。CCP通过从其成员收取初始保证金来对自己的成员的投资组合的清算可能造成的损失进行覆盖。本文分析了计算期权初始保证金的行业最前沿技术，其核心组件通常基于VaR或预期损失风险度量。我们在无模型设置下推导出VaR的近期逼近公式。这种创新的公式具有良好的特性，在我们的数值实验中表现出比传统的基于滤波历史模拟的VaR更令人满意的性能。此外，我们考虑了[Cohen et al., arXiv:2202.07148, 2022]提出的归一化看涨期权定价的神经SDE模型，并在该模型中获得了VaR的准显式公式和短期VaR的闭式公式，由于其条件特性。
 
-    We refer to recent inference methodology and formulate a framework for solving the distributionally robust optimization problem, where the true probability measure is inside a Wasserstein ball around the empirical measure and the radius of the Wasserstein ball is determined by the empirical data. We transform the robust optimization into a non-robust optimization with a penalty term and provide the selection of the Wasserstein ambiguity set's size. Moreover, we apply this framework to the robust mean-CVaR optimization problem and the numerical experiments of the US stock market show impressive results compared to other popular strategies.
+    Central clearing counterparty houses (CCPs) play a fundamental role in mitigating the counterparty risk for exchange traded options. CCPs cover for possible losses during the liquidation of a defaulting member's portfolio by collecting initial margins from their members. In this article we analyze the current state of the art in the industry for computing initial margins for options, whose core component is generally based on a VaR or Expected Shortfall risk measure. We derive an approximation formula for the VaR at short horizons in a model-free setting. This innovating formula has promising features and behaves in a much more satisfactory way than the classical Filtered Historical Simulation-based VaR in our numerical experiments. In addition, we consider the neural-SDE model for normalized call prices proposed by [Cohen et al., arXiv:2202.07148, 2022] and obtain a quasi-explicit formula for the VaR and a closed formula for the short term VaR in this model, due to its conditional aff
     
-[^5]: 软件开发的巨变: 基于人工智能开发者生命周期的经济和生产力分析
+[^3]: 连续时间q-learning用于McKean-Vlasov控制问题
 
-    Sea Change in Software Development: Economic and Productivity Analysis of the AI-Powered Developer Lifecycle. (arXiv:2306.15033v1 [econ.GN])
+    Continuous-Time q-learning for McKean-Vlasov Control Problems. (arXiv:2306.16208v1 [cs.LG])
 
-    [http://arxiv.org/abs/2306.15033](http://arxiv.org/abs/2306.15033)
+    [http://arxiv.org/abs/2306.16208](http://arxiv.org/abs/2306.16208)
 
-    本研究通过分析大样本Copilot用户的数据，发现GitHub Copilot工具的使用可提高开发者的生产力，特别是对经验较少的开发者有很大帮助。同时，采用生成式AI生产力工具有望在2030年前为全球GDP增加1.5万亿美元。开源生态系统是生成式AI软件创新的重要推动力量，其中个人开发者在GitHub上发挥了重要作用。
-
-    
-
-    本研究考察了GitHub Copilot在大样本Copilot用户（n=934,533）中的影响。分析结果表明，用户平均接受了近30%的建议代码，从而提高了生产力。此外，我们的研究表明，接受率随时间增长，并且在经验较少的开发者中尤其高，为他们带来了实质性的好处。此外，我们的估计表明，采用生成式AI生产力工具可能在2030年前为全球GDP增加1.5万亿美元。此外，我们的调查揭示了生成式AI领域的多元贡献者，包括主要技术公司、初创公司、学术界和个人开发者。研究结果表明，生成式AI软件创新的推动力量在于开源生态系统，尤其是在美国。值得注意的是，GitHub上的大多数仓库由个人开发者领导。
-
-    This study examines the impact of GitHub Copilot on a large sample of Copilot users (n=934,533). The analysis shows that users on average accept nearly 30% of the suggested code, leading to increased productivity. Furthermore, our research demonstrates that the acceptance rate rises over time and is particularly high among less experienced developers, providing them with substantial benefits. Additionally, our estimations indicate that the adoption of generative AI productivity tools could potentially contribute to a $1.5 trillion increase in global GDP by 2030. Moreover, our investigation sheds light on the diverse contributors in the generative AI landscape, including major technology companies, startups, academia, and individual developers. The findings suggest that the driving force behind generative AI software innovation lies within the open-source ecosystem, particularly in the United States. Remarkably, a majority of repositories on GitHub are led by individual developers. As m
-    
-[^6]: 有保证回报的股权连接证券的估值
-
-    Valuation of Equity Linked Securities with Guaranteed Return. (arXiv:2306.15026v1 [q-fin.PR])
-
-    [http://arxiv.org/abs/2306.15026](http://arxiv.org/abs/2306.15026)
-
-    本研究提出了一种新的模型，用于估值具有保证回报的股权连接证券。数值研究表明该模型在广泛的基础证券参数范围内表现精确。
+    本文研究了连续时间q-learning在熵正则化强化学习框架下用于McKean-Vlasov控制问题，并揭示了两种不同的q函数的存在及其积分表示。
 
     
 
-    在金融市场上，具有保证回报的股权连接证券成为非常受欢迎的投资工具或人寿保险政策。该合同支付一定期间内一篮子股票表现的保证金额加上与之相关的支付。本文提出了一种用于估值股权连接证券的新模型。我们的研究表明，证券价格可以通过保证金额加上与该篮子股票的亚洲期权价格的总和来复制。我们推导了证券价格和相应对冲比例的分析公式。根据数值研究，该模型在广泛的基础证券参数范围内表现精确。最后，我们使用该模型对一项具有到期保证的分离基金进行估值。
+    本文研究了q-learning，在熵正则化强化学习框架下，用于连续时间的McKean-Vlasov控制问题。与Jia和Zhou（2022c）的单个代理控制问题不同，代理之间的均场相互作用使得q函数的定义更加复杂，我们揭示了自然产生两种不同q函数的情况：（i）被称为集成q函数（用$q$表示），作为Gu、Guo、Wei和Xu（2023）引入的集成Q函数的一阶近似，可以通过涉及测试策略的弱鞅条件进行学习；（ii）作为策略改进迭代中所使用的实质q函数（用$q_e$表示）。我们证明了这两个q函数在所有测试策略下通过积分表示相关联。基于集成q函数的弱鞅条件和我们提出的搜索方法，我们设计了算法来学习两个q函数以解决Mckean-Vlasov控制问题。
 
-    Equity-linked securities with a guaranteed return become very popular in financial markets ether as investment instruments or life insurance policies. The contract pays off a guaranteed amount plus a payment linked to the performance of a basket of equities averaged over a certain period. This paper presents a new model for valuing equity-linked securities. Our study shows that the security price can be replicated by the sum of the guaranteed amount plus the price of an Asian style option on the basket. Analytical formulas are derived for the security price and corresponding hedge ratios. The model appears to be accurate over a wide range of underlying security parameters according to numerical studies. Finally, we use our model to value a segregated fund with a guarantee at maturity.
+    This paper studies the q-learning, recently coined as the continuous-time counterpart of Q-learning by Jia and Zhou (2022c), for continuous time Mckean-Vlasov control problems in the setting of entropy-regularized reinforcement learning. In contrast to the single agent's control problem in Jia and Zhou (2022c), the mean-field interaction of agents render the definition of q-function more subtle, for which we reveal that two distinct q-functions naturally arise: (i) the integrated q-function (denoted by $q$) as the first-order approximation of the integrated Q-function introduced in Gu, Guo, Wei and Xu (2023) that can be learnt by a weak martingale condition involving test policies; and (ii) the essential q-function (denoted by $q_e$) that is employed in the policy improvement iterations. We show that two q-functions are related via an integral representation under all test policies. Based on the weak martingale condition of the integrated q-function and our proposed searching method of
     
-[^7]: 雅尼斯总统统治对印度的长期政治影响
+[^4]: 自旋玻璃思想在社会科学、经济学和金融领域的应用
 
-    The Legacy of Authoritarianism in a Democracy. (arXiv:2202.03682v2 [econ.GN] UPDATED)
+    Application of spin glass ideas in social sciences, economics and finance. (arXiv:2306.16165v1 [physics.soc-ph])
 
-    [http://arxiv.org/abs/2202.03682](http://arxiv.org/abs/2202.03682)
+    [http://arxiv.org/abs/2306.16165](http://arxiv.org/abs/2306.16165)
 
-    通过研究印度威权主义统治对政治的长期影响，发现当时主导的印度国大党的政治地位急剧下降，并且反对党候选人参选人数出现大幅增加。此外，研究还发现政治家的信任度仍然很低。
+    这篇论文探讨了自旋玻璃思想在社会科学、经济学和金融领域的应用，强调了经济系统的复杂性以及在理解和描述这种系统时的困难。
 
     
 
-    随着近年来全球民主倒退和威权主义政权兴起，人们对理解民主国家中威权统治的原因和后果再次产生了兴趣。本文研究了世界上最大的民主国家中威权主义对政治的长期影响。利用印度上世纪70年代意外实施的威权统治的时机，采用差异法（DID）、三重差分法（DDD）和回归跳点估计方法，我发现在随后的几年里，当时主导的印度国大党的政治地位急剧下降。我还提供了证据表明，政治地位的下降并没有导致选民投票率降低，相反，在随后的几年中，反对党候选人参选人数的激增起到了重要的作用。最后，我研究了持久的后果，发现对政治家的信任仍然十分低。
+    经典经济学建立了一套基于代表性代理人思想的方法来预测明年的国内生产总值、通货膨胀和汇率等精确数字。然而，很少有人会不同意经济是一个复杂的系统，有着大量强烈异质性的不同类型单位（企业、银行、家庭、公共机构）和不同规模的交互作用单元。现在，经济学的主要问题正是这种大杂烩微观单位的新兴组织、合作和协调。把它们视为一个“代表性”企业或家庭显然会冒着舍弃精华的风险。如同我们从统计物理学中学到的那样，理解和描述这种新兴性质可能很困难。由于具有不同符号、异质性和非线性的反馈环路，宏观性质往往很难预料。特别是在这些情况下，这些情况一般都是无法预测的。
 
-    Recent democratic backsliding and the rise of authoritarian regimes worldwide have rekindled interest in understanding the causes and consequences of such authoritarian rule in democracies. In this paper, I study the long-run political consequences of authoritarianism in the world's largest democracy. Exploiting the unexpected timing of the authoritarian rule imposed in India in the 1970s and using a difference-in-difference (DID), triple difference (DDD), and a regression discontinuity design (RDD) estimation approach, I document a sharp decline in the then-dominant incumbent, the Indian National Congress party's political dominance in subsequent years. I also present evidence that the decline in political dominance was not at the expense of a lower voter turnout rate. Instead, a sharp rise in the number of opposition candidates contesting elections in subsequent years played an important role. Finally, I examine the enduring consequences, revealing that confidence in politicians rema
+    Classical economics has developed an arsenal of methods, based on the idea of representative agents, to come up with precise numbers for next year's GDP, inflation and exchange rates, among (many) other things. Few, however, will disagree with the fact that the economy is a complex system, with a large number of strongly heterogeneous, interacting units of different types (firms, banks, households, public institutions) and different sizes.  Now, the main issue in economics is precisely the emergent organization, cooperation and coordination of such a motley crowd of micro-units. Treating them as a unique ``representative'' firm or household clearly risks throwing the baby with the bathwater. As we have learnt from statistical physics, understanding and characterizing such emergent properties can be difficult. Because of feedback loops of different signs, heterogeneities and non-linearities, the macro-properties are often hard to anticipate. In particular, these situations generically l
+    
+[^5]: 印度外汇市场的分析：基于多重分形去趋势波动分析（MFDFA）方法
+
+    Analysis of Indian foreign exchange markets: A Multifractal Detrended Fluctuation Analysis (MFDFA) approach. (arXiv:2306.16162v1 [q-fin.ST])
+
+    [http://arxiv.org/abs/2306.16162](http://arxiv.org/abs/2306.16162)
+
+    本研究通过多重分形分析了印度外汇市场的汇率数据，并发现尾部的厚尾和长程相关性是导致多重分形特征的主要来源。
+
+    
+
+    本研究分析了印度卢比兑美元（USD）、英镑（GBP）、欧元（Euro）和日元（Yen）的日常外汇汇率在1999年1月6日至2018年7月24日期间的多重分形谱。我们观察到所有四种汇率的对数收益率时间序列都呈现出多重分形特征。接下来，我们研究了观察到的多重分形的来源。为此，我们通过两种方式对回报序列进行转换：a）随机洗牌原始对数回报时间序列；b）对未改变的序列应用相位随机化过程。我们的结果表明，在美元的情况下，多重分形主要来源于尾部较厚。对于英镑和欧元，我们发现观测值与概率分布的厚尾之间存在长程相关性，从而产生了观测到的多重分形特征；而在日元的情况下，多重分形的来源则是尾部较厚。
+
+    The multifractal spectra of daily foreign exchange rates for US dollar (USD), the British Pound (GBP), the Euro (Euro) and the Japanese Yen (Yen) with respect to the Indian Rupee are analysed for the period 6th January 1999 to 24th July 2018. We observe that the time series of logarithmic returns of all the four exchange rates exhibit features of multifractality. Next, we research the source of the observed multifractality. For this, we transform the return series in two ways: a) We randomly shuffle the original time series of logarithmic returns and b) We apply the process of phase randomisation on the unchanged series. Our results indicate in the case of the US dollar the source of multifractality is mainly the fat tail. For the British Pound and the Euro, we see the long-range correlations between the observations and the thick tails of the probability distribution give rise to the observed multifractal features, while in the case of the Japanese Yen, the origin of the multifractal 
+    
+[^6]: 非参数的在线市场制度检测和制度聚类方法对于多维和路径依赖的数据结构
+
+    Non-parametric online market regime detection and regime clustering for multidimensional and path-dependent data structures. (arXiv:2306.15835v1 [stat.ML])
+
+    [http://arxiv.org/abs/2306.15835](http://arxiv.org/abs/2306.15835)
+
+    本研究提出了一种非参数的在线市场制度检测和制度聚类方法，适用于多维和路径依赖的数据结构。该方法利用基于路径空间的最大均值差异相似度度量进行路径样本检验，并优化了针对新进数据少的情况的反应速度。同时，该方法也适用于高维度、非马尔可夫以及自相关性的数据结构。
+
+    
+
+    本研究提出了一种非参数的在线市场制度检测方法，用于多维数据结构，利用基于路径空间上的最大均值差异相似度度量的路径样本检验。该相似度度量已经在最近的小规模数据环境的生成模型中作为鉴别器进行了发展和应用，并在此进行了优化，以适应新进数据量特别少的情况，以加快反应速度。在同样的原则下，我们还提出了一种基于路径的制度聚类方法，扩展了我们之前的工作。所提出的制度聚类技术被设计为前期市场分析工具，可以识别出大致相似的市场活动期间，但新的结果同时适用于基于路径的、高维度的和非马尔可夫的设置，以及表现出自相关性的数据结构。
+
+    In this work we present a non-parametric online market regime detection method for multidimensional data structures using a path-wise two-sample test derived from a maximum mean discrepancy-based similarity metric on path space that uses rough path signatures as a feature map. The latter similarity metric has been developed and applied as a discriminator in recent generative models for small data environments, and has been optimised here to the setting where the size of new incoming data is particularly small, for faster reactivity.  On the same principles, we also present a path-wise method for regime clustering which extends our previous work. The presented regime clustering techniques were designed as ex-ante market analysis tools that can identify periods of approximatively similar market activity, but the new results also apply to path-wise, high dimensional-, and to non-Markovian settings as well as to data structures that exhibit autocorrelation.  We demonstrate our clustering t
+    
+[^7]: 流动性溢价和流动性调整收益与波动性：以流动性调整的均值方差框架及其在加密资产投资组合上的应用为例
+
+    Liquidity Premium and Liquidity-Adjusted Return and Volatility: illustrated with a Liquidity-Adjusted Mean Variance Framework and its Application on a Portfolio of Crypto Assets. (arXiv:2306.15807v1 [q-fin.PM])
+
+    [http://arxiv.org/abs/2306.15807](http://arxiv.org/abs/2306.15807)
+
+    这项研究创建了创新技术来度量加密资产的流动性溢价，并开发了流动性调整的模型来提高投资组合的预测性能。
+
+    
+
+    我们建立了创新的流动性溢价Beta度量方法，并应用于选定的加密资产，同时对个别资产的收益进行流动性调整并建模，以及对投资组合的波动性进行流动性调整和建模。在高流动性情况下，这两个模型都表现出较强的可预测性，这使得流动性调整的均值方差 (LAMV) 框架在投资组合表现上比正常的均值方差 (RMV) 框架具有明显的优势。
+
+    We establish innovative measures of liquidity premium Beta on both asset and portfolio levels, and corresponding liquidity-adjusted return and volatility, for selected crypto assets. We develop liquidity-adjusted ARMA-GARCH/EGARCH representation to model the liquidity-adjusted return of individual assets, and liquidity-adjusted VECM/VAR-DCC/ADCC structure to model the liquidity-adjusted variance of portfolio. Both models exhibit improved predictability at high liquidity, which affords a liquidity-adjusted mean-variance (LAMV) framework a clear advantage over its regular mean variance (RMV) counterpart in portfolio performance.
+    
+[^8]: 政治领导人的关注转移：来自两个世纪总统演讲的证据
+
+    The Shifting Attention of Political Leaders: Evidence from Two Centuries of Presidential Speeches. (arXiv:2209.00540v3 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2209.00540](http://arxiv.org/abs/2209.00540)
+
+    本研究使用两个世纪的总统演讲数据，通过自然语言处理算法研究了总统政策优先事项的动态和决定因素。研究发现在1819年至2022年期间，总统的关注重点从军事干预和国家能力的发展逐渐转向建设实体资本和人力资本。总统的年龄和性别等特征预测了主要政策问题。这些发现拓展了我们对总统关注动态和塑造因素的理解。
+
+    
+
+    我们使用自然语言处理算法对10个拉丁美洲国家的两个世纪900多次总统演讲的新数据集进行研究，以研究总统政策优先事项的动态和决定因素。我们证明，大多数演讲内容可以用一组紧凑的政策问题来描述，其相对构成在1819年至2022年之间发生了缓慢但实质性的转变。总统的关注重点最初集中在军事干预和国家能力的发展上。关注逐渐转向通过投资于基础设施和公共服务来建设实体资本，并最终转向通过教育、卫生和社会安全网的投资来建设人力资本。我们确定了总统的年龄和性别等总统级特征如何预测主要政策问题。我们的发现提供了关于总统关注的动态和塑造因素的新见解，拓展了我们对这一问题的理解。
+
+    We use natural-language-processing algorithms on a novel dataset of over 900 presidential speeches from ten Latin American countries spanning two centuries to study the dynamics and determinants of presidential policy priorities. We show that most speech content can be characterized by a compact set of policy issues whose relative composition exhibited slow yet substantial shifts over 1819-2022. Presidential attention initially centered on military interventions and the development of state capacity. Attention gradually evolved towards building physical capital through investments in infrastructure and public services and finally turned towards building human capital through investments in education, health, and social safety nets. We characterize the way in which president-level characteristics, like age and gender, predict the main policy issues. Our findings offer novel insights into the dynamics of presidential attention and the factors that shape it, expanding our understanding of
+    
+[^9]: 为空间异质需求规划限制不便绕行的拼车服务：基于多区域排队网络的方法
+
+    Planning ride-pooling services with detour restrictions for spatially heterogeneous demand: A multi-zone queuing network approach. (arXiv:2208.02219v2 [math.OC] UPDATED)
+
+    [http://arxiv.org/abs/2208.02219](http://arxiv.org/abs/2208.02219)
+
+    本研究提出了一个多区域排队网络模型来优化空间异质需求下的拼车服务设计，通过细分区域和避免明显绕行，实现了稳态拼车操作，并通过非线性规划解决方案优化了车辆部署、路径规划和再平衡操作。
+
+    
+
+    本研究提出了一个用于服务异质需求的稳态拼车排队网络模型，并在此基础上优化拼车服务的设计。通过将研究区域划分为一组相对均匀的区域来解决空间异质性，并引入一组条件以避免乘客之间的明显绕行。然后，我们开发了一个广义的多区域排队网络模型，描述了车辆在每个区域内和相邻区域之间状态的转换，以及如何由闲置或部分占用的车辆为乘客提供服务。基于排队网络模型构建了一个大型方程系统，用于分析评估稳态系统性能。然后，我们制定了一个带约束的非线性规划问题，以优化拼车服务的设计，例如区域级车辆部署、车辆路径规划和车辆再平衡操作。一个定制的解决方案方法被提出来。
+
+    This study presents a multi-zone queuing network model for steady-state ride-pooling operations that serve heterogeneous demand, and then builds upon this model to optimize the design of ride-pooling services. Spatial heterogeneity is addressed by partitioning the study region into a set of relatively homogeneous zones, and a set of criteria are imposed to avoid significant detours among matched passengers. A generalized multi-zone queuing network model is then developed to describe how vehicles' states transition within each zone and across neighboring zones, and how passengers are served by idle or partially occupied vehicles. A large system of equations is constructed based on the queuing network model to analytically evaluate steady-state system performance. Then, we formulate a constrained nonlinear program to optimize the design of ride-pooling services, such as zone-level vehicle deployment, vehicle routing paths, and vehicle rebalancing operations. A customized solution approac
+    
+[^10]: 债务收集中的种族差异
+
+    Racial Disparities in Debt Collection. (arXiv:1910.02570v2 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/1910.02570](http://arxiv.org/abs/1910.02570)
+
+    本文研究发现，无论控制了信用评分和其他相关信用属性，黑人和西班牙裔借款人比白人借款人更有可能遭受债务收集判决。这种判决差距在有大量发薪日贷款机构、没有收入的家庭占比高以及受过高等教育程度低的地区更为明显。缩小种族财富差距可以显著减少这种判决的种族差异。
+
+    
+
+    本文表明，即使在控制了信用评分和其他相关信用属性后，黑人和西班牙裔借款人比白人借款人更有可能遭受债务收集判决。在有大量发薪日贷款机构、没有收入的家庭占比高以及受过高等教育程度低的地区，种族间的判决差距更加明显。州级的种族歧视措施不能解释判断差距，社区级别的争议判决占比或有律师代表的案件之前的差异也不能解释判断差距。一个简单的计算估计表明，缩小种族财富差距可以显著减少债务收集判决的种族差异。
+
+    This paper shows that black and Hispanic borrowers are 39% more likely to experience a debt collection judgment than white borrowers, even after controlling for credit scores and other relevant credit attributes. The racial gap in judgments is more pronounced in areas with a high density of payday lenders, a high share of income-less households, and low levels of tertiary education. State-level measures of racial discrimination cannot explain the judgment gap, nor can neighborhood-level differences in the previous share of contested judgments or cases with attorney representation. A back-of-the-envelope calculation suggests that closing the racial wealth gap could significantly reduce the racial disparity in debt collection judgments.
     
 

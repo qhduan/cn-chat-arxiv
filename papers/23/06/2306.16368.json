@@ -1,0 +1,12 @@
+{
+    "title": "Lagrangian based A* algorithm for automated reasoning. (arXiv:2306.16368v1 [cs.AI])",
+    "abstract": "In this paper, a modification of A* algorithm is considered for the shortest path problem. A weightage is introduced in the heuristic part of the A* algorithm to improve its efficiency. An application of the algorithm is considered for UAV path planning wherein velocity is taken as the weigtage to the heuristic. At the outset, calculus of variations based Lagrange's equation was used to identify velocity as the decisive factor for the dynamical system. This approach would be useful for other problems as well to improve the efficiency of algorithms in those areas.",
+    "link": "http://arxiv.org/abs/2306.16368",
+    "context": "Title: Lagrangian based A* algorithm for automated reasoning. (arXiv:2306.16368v1 [cs.AI])\nAbstract: In this paper, a modification of A* algorithm is considered for the shortest path problem. A weightage is introduced in the heuristic part of the A* algorithm to improve its efficiency. An application of the algorithm is considered for UAV path planning wherein velocity is taken as the weigtage to the heuristic. At the outset, calculus of variations based Lagrange's equation was used to identify velocity as the decisive factor for the dynamical system. This approach would be useful for other problems as well to improve the efficiency of algorithms in those areas.",
+    "path": "papers/23/06/2306.16368.json",
+    "total_tokens": 663,
+    "translated_title": "基于拉格朗日的A*算法用于自动推理",
+    "translated_abstract": "本文考虑了对最短路径问题进行A*算法的修改。在A*算法的启发式部分引入了权重以提高其效率。将该算法应用于无人机路径规划中，其中速度被视为启发式的权重。首先使用基于变分微积分的拉格朗日方程来确定速度作为动态系统的决定性因素。这种方法也可以用于其他问题，以提高这些领域中算法的效率。",
+    "tldr": "本文介绍了一种基于拉格朗日的A*算法，通过在启发式部分引入权重，提高了算法的效率，并将其应用于无人机路径规划中。该方法可以用于其他问题，以提高算法在这些领域的效率。",
+    "en_tdlr": "This paper presents a Lagrangian based modification of the A* algorithm, which improves its efficiency by introducing weights in the heuristic part. It applies the algorithm to UAV path planning considering velocity as the weight. This approach has the potential to enhance the efficiency of algorithms in other areas as well."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "A Weakly Supervised Classifier and Dataset of White Supremacist Language. (arXiv:2306.15732v1 [cs.CL])",
+    "abstract": "We present a dataset and classifier for detecting the language of white supremacist extremism, a growing issue in online hate speech. Our weakly supervised classifier is trained on large datasets of text from explicitly white supremacist domains paired with neutral and anti-racist data from similar domains. We demonstrate that this approach improves generalization performance to new domains. Incorporating anti-racist texts as counterexamples to white supremacist language mitigates bias.",
+    "link": "http://arxiv.org/abs/2306.15732",
+    "context": "Title: A Weakly Supervised Classifier and Dataset of White Supremacist Language. (arXiv:2306.15732v1 [cs.CL])\nAbstract: We present a dataset and classifier for detecting the language of white supremacist extremism, a growing issue in online hate speech. Our weakly supervised classifier is trained on large datasets of text from explicitly white supremacist domains paired with neutral and anti-racist data from similar domains. We demonstrate that this approach improves generalization performance to new domains. Incorporating anti-racist texts as counterexamples to white supremacist language mitigates bias.",
+    "path": "papers/23/06/2306.15732.json",
+    "total_tokens": 672,
+    "translated_title": "一个弱监督分类器和白人至上主义语言数据集",
+    "translated_abstract": "我们提出了一个用于检测白人至上主义极端主义语言的数据集和分类器，这是在线仇恨言论中日益增长的问题。我们的弱监督分类器是在从明确的白人至上主义领域配对中性和反种族主义数据的大型文本数据集上训练的。我们证明了这种方法提高了对新领域的泛化性能。将反种族主义文本作为白人至上主义语言的反例可以减轻偏见。",
+    "tldr": "这篇论文提出了一个用于检测白人至上主义极端主义语言的数据集和分类器，通过使用大量文本数据集以及包括中性和反种族主义数据，在不同领域中进行弱监督训练，提高了对新领域的泛化性能，并通过使用反种族主义文本作为反例来减轻偏见。",
+    "en_tdlr": "This paper presents a dataset and classifier for detecting white supremacist extremism language, improving generalization performance to new domains and mitigating bias by incorporating anti-racist texts as counterexamples."
+}

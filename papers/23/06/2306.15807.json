@@ -1,0 +1,11 @@
+{
+    "title": "Liquidity Premium and Liquidity-Adjusted Return and Volatility: illustrated with a Liquidity-Adjusted Mean Variance Framework and its Application on a Portfolio of Crypto Assets. (arXiv:2306.15807v1 [q-fin.PM])",
+    "abstract": "We establish innovative measures of liquidity premium Beta on both asset and portfolio levels, and corresponding liquidity-adjusted return and volatility, for selected crypto assets. We develop liquidity-adjusted ARMA-GARCH/EGARCH representation to model the liquidity-adjusted return of individual assets, and liquidity-adjusted VECM/VAR-DCC/ADCC structure to model the liquidity-adjusted variance of portfolio. Both models exhibit improved predictability at high liquidity, which affords a liquidity-adjusted mean-variance (LAMV) framework a clear advantage over its regular mean variance (RMV) counterpart in portfolio performance.",
+    "link": "http://arxiv.org/abs/2306.15807",
+    "context": "Title: Liquidity Premium and Liquidity-Adjusted Return and Volatility: illustrated with a Liquidity-Adjusted Mean Variance Framework and its Application on a Portfolio of Crypto Assets. (arXiv:2306.15807v1 [q-fin.PM])\nAbstract: We establish innovative measures of liquidity premium Beta on both asset and portfolio levels, and corresponding liquidity-adjusted return and volatility, for selected crypto assets. We develop liquidity-adjusted ARMA-GARCH/EGARCH representation to model the liquidity-adjusted return of individual assets, and liquidity-adjusted VECM/VAR-DCC/ADCC structure to model the liquidity-adjusted variance of portfolio. Both models exhibit improved predictability at high liquidity, which affords a liquidity-adjusted mean-variance (LAMV) framework a clear advantage over its regular mean variance (RMV) counterpart in portfolio performance.",
+    "path": "papers/23/06/2306.15807.json",
+    "total_tokens": 708,
+    "translated_title": "流动性溢价和流动性调整收益与波动性：以流动性调整的均值方差框架及其在加密资产投资组合上的应用为例",
+    "translated_abstract": "我们建立了创新的流动性溢价Beta度量方法，并应用于选定的加密资产，同时对个别资产的收益进行流动性调整并建模，以及对投资组合的波动性进行流动性调整和建模。在高流动性情况下，这两个模型都表现出较强的可预测性，这使得流动性调整的均值方差 (LAMV) 框架在投资组合表现上比正常的均值方差 (RMV) 框架具有明显的优势。",
+    "tldr": "这项研究创建了创新技术来度量加密资产的流动性溢价，并开发了流动性调整的模型来提高投资组合的预测性能。"
+}

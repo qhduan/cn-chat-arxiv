@@ -1,0 +1,12 @@
+{
+    "title": "Evaluating GPT-3.5 and GPT-4 on Grammatical Error Correction for Brazilian Portuguese. (arXiv:2306.15788v1 [cs.CL])",
+    "abstract": "We investigate the effectiveness of GPT-3.5 and GPT-4, two large language models, as Grammatical Error Correction (GEC) tools for Brazilian Portuguese and compare their performance against Microsoft Word and Google Docs. We introduce a GEC dataset for Brazilian Portuguese with four categories: Grammar, Spelling, Internet, and Fast typing. Our results show that while GPT-4 has higher recall than other methods, LLMs tend to have lower precision, leading to overcorrection. This study demonstrates the potential of LLMs as practical GEC tools for Brazilian Portuguese and encourages further exploration of LLMs for non-English languages and other educational settings.",
+    "link": "http://arxiv.org/abs/2306.15788",
+    "context": "Title: Evaluating GPT-3.5 and GPT-4 on Grammatical Error Correction for Brazilian Portuguese. (arXiv:2306.15788v1 [cs.CL])\nAbstract: We investigate the effectiveness of GPT-3.5 and GPT-4, two large language models, as Grammatical Error Correction (GEC) tools for Brazilian Portuguese and compare their performance against Microsoft Word and Google Docs. We introduce a GEC dataset for Brazilian Portuguese with four categories: Grammar, Spelling, Internet, and Fast typing. Our results show that while GPT-4 has higher recall than other methods, LLMs tend to have lower precision, leading to overcorrection. This study demonstrates the potential of LLMs as practical GEC tools for Brazilian Portuguese and encourages further exploration of LLMs for non-English languages and other educational settings.",
+    "path": "papers/23/06/2306.15788.json",
+    "total_tokens": 809,
+    "translated_title": "在巴西葡萄牙语的语法错误修正方面评估GPT-3.5和GPT-4",
+    "translated_abstract": "我们调查了GPT-3.5和GPT-4这两个大型语言模型在巴西葡萄牙语的语法错误修正（GEC）工具中的有效性，并将其性能与Microsoft Word和Google Docs进行了比较。我们引入了一个针对巴西葡萄牙语的GEC数据集，包括四个类别：语法、拼写、互联网和快速输入。我们的结果显示，尽管GPT-4的召回率比其他方法高，但语言模型倾向于具有较低的精确度，导致过度修正。这项研究展示了语言模型作为巴西葡萄牙语实际GEC工具的潜力，并鼓励进一步探索语言模型在非英语语言和其他教育环境中的应用。",
+    "tldr": "该研究评估了GPT-3.5和GPT-4在巴西葡萄牙语语法错误修正方面的有效性，结果显示虽然GPT-4的召回率较高，但语言模型倾向于过度修正。",
+    "en_tdlr": "This study evaluates the effectiveness of GPT-3.5 and GPT-4 in grammatical error correction for Brazilian Portuguese, showing that while GPT-4 has higher recall, it tends to overcorrect."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "High Fidelity Image Counterfactuals with Probabilistic Causal Models. (arXiv:2306.15764v1 [cs.LG])",
+    "abstract": "We present a general causal generative modelling framework for accurate estimation of high fidelity image counterfactuals with deep structural causal models. Estimation of interventional and counterfactual queries for high-dimensional structured variables, such as images, remains a challenging task. We leverage ideas from causal mediation analysis and advances in generative modelling to design new deep causal mechanisms for structured variables in causal models. Our experiments demonstrate that our proposed mechanisms are capable of accurate abduction and estimation of direct, indirect and total effects as measured by axiomatic soundness of counterfactuals.",
+    "link": "http://arxiv.org/abs/2306.15764",
+    "context": "Title: High Fidelity Image Counterfactuals with Probabilistic Causal Models. (arXiv:2306.15764v1 [cs.LG])\nAbstract: We present a general causal generative modelling framework for accurate estimation of high fidelity image counterfactuals with deep structural causal models. Estimation of interventional and counterfactual queries for high-dimensional structured variables, such as images, remains a challenging task. We leverage ideas from causal mediation analysis and advances in generative modelling to design new deep causal mechanisms for structured variables in causal models. Our experiments demonstrate that our proposed mechanisms are capable of accurate abduction and estimation of direct, indirect and total effects as measured by axiomatic soundness of counterfactuals.",
+    "path": "papers/23/06/2306.15764.json",
+    "total_tokens": 721,
+    "translated_title": "使用概率因果模型生成高保真度图像的反事实推理",
+    "translated_abstract": "我们提出了一个通用的因果生成建模框架，用于准确估计具有深度结构因果模型的高保真度图像的反事实推理。对于高维结构变量（如图像）的干预和反事实查询的估计仍然是一项具有挑战性的任务。我们利用因果中介分析的思想和生成建模的进展，为因果模型中的结构变量设计了新的深度因果机制。我们的实验证明，我们提出的机制能够准确地推断和估计直接、间接和总效应，这可以通过反事实的公理严密性来衡量。",
+    "tldr": "提出了一个通用的因果生成建模框架，用于准确估计具有高保真度的图像反事实推理，通过利用因果中介分析和生成建模的思想，设计了新的深度因果机制，实验证明了该方法的准确性。",
+    "en_tdlr": "A general causal generative modeling framework is proposed for accurate estimation of high fidelity image counterfactuals. It leverages ideas from causal mediation analysis and advances in generative modeling to design new deep causal mechanisms, and experiments demonstrate its accuracy."
+}

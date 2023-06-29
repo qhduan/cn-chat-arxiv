@@ -1,0 +1,12 @@
+{
+    "title": "A Cookbook of Self-Supervised Learning. (arXiv:2304.12210v2 [cs.LG] UPDATED)",
+    "abstract": "Self-supervised learning, dubbed the dark matter of intelligence, is a promising path to advance machine learning. Yet, much like cooking, training SSL methods is a delicate art with a high barrier to entry. While many components are familiar, successfully training a SSL method involves a dizzying set of choices from the pretext tasks to training hyper-parameters. Our goal is to lower the barrier to entry into SSL research by laying the foundations and latest SSL recipes in the style of a cookbook. We hope to empower the curious researcher to navigate the terrain of methods, understand the role of the various knobs, and gain the know-how required to explore how delicious SSL can be.",
+    "link": "http://arxiv.org/abs/2304.12210",
+    "context": "Title: A Cookbook of Self-Supervised Learning. (arXiv:2304.12210v2 [cs.LG] UPDATED)\nAbstract: Self-supervised learning, dubbed the dark matter of intelligence, is a promising path to advance machine learning. Yet, much like cooking, training SSL methods is a delicate art with a high barrier to entry. While many components are familiar, successfully training a SSL method involves a dizzying set of choices from the pretext tasks to training hyper-parameters. Our goal is to lower the barrier to entry into SSL research by laying the foundations and latest SSL recipes in the style of a cookbook. We hope to empower the curious researcher to navigate the terrain of methods, understand the role of the various knobs, and gain the know-how required to explore how delicious SSL can be.",
+    "path": "papers/23/04/2304.12210.json",
+    "total_tokens": 796,
+    "translated_title": "自监督学习食谱",
+    "translated_abstract": "自监督学习被称为智能的暗物质，是推进机器学习的一条有前途的道路。然而，像烹饪一样，训练自监督学习方法是一门需要高门槛的精细艺术。虽然许多组件是熟悉的，但成功训练自监督学习方法涉及到从前趋任务到训练超参数的令人眼花缭乱的选择。我们的目标是通过以食谱的形式奠定基础和介绍最新的自监督学习方法，降低进入自监督学习研究的门槛。我们希望赋予好奇的研究人员在方法领域中航行，理解各种调节钮的作用，并获得探索自监督学习美味之处所需的技能。",
+    "tldr": "这篇论文提出了一本自监督学习的食谱，旨在降低自监督学习研究的门槛，并使研究人员能够了解各种选择和参数在自监督学习中的作用。",
+    "en_tdlr": "This paper presents a cookbook of self-supervised learning, aiming to lower the barrier to entry into SSL research and empower researchers to understand the roles of various choices and parameters in self-supervised learning."
+}

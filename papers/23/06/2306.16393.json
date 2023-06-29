@@ -1,0 +1,12 @@
+{
+    "title": "High-Dimensional Canonical Correlation Analysis. (arXiv:2306.16393v1 [econ.EM])",
+    "abstract": "This paper studies high-dimensional canonical correlation analysis (CCA) with an emphasis on vectors which define canonical variables. The paper shows that when two dimensions of data grow to infinity jointly and proportionally the classical CCA procedure for estimating those vectors fails to deliver a consistent estimate. This provides the first result on impossibility of the identification of canonical variables in CCA procedure when all dimensions are large. To offset, the paper derives the magnitude of the estimation error, which can be used in practice to assess the precision of CCA estimates. An application of the results to limestone grassland data set is provided.",
+    "link": "http://arxiv.org/abs/2306.16393",
+    "context": "Title: High-Dimensional Canonical Correlation Analysis. (arXiv:2306.16393v1 [econ.EM])\nAbstract: This paper studies high-dimensional canonical correlation analysis (CCA) with an emphasis on vectors which define canonical variables. The paper shows that when two dimensions of data grow to infinity jointly and proportionally the classical CCA procedure for estimating those vectors fails to deliver a consistent estimate. This provides the first result on impossibility of the identification of canonical variables in CCA procedure when all dimensions are large. To offset, the paper derives the magnitude of the estimation error, which can be used in practice to assess the precision of CCA estimates. An application of the results to limestone grassland data set is provided.",
+    "path": "papers/23/06/2306.16393.json",
+    "total_tokens": 781,
+    "translated_title": "高维正典相关分析",
+    "translated_abstract": "本文研究了高维正典相关分析（CCA），重点关注了定义正典变量的向量。研究表明，当数据的两个维度共同且成比例地增长到无穷时，传统的CCA估计过程无法提供一致的估计。这是首次研究在所有维度都很大时无法识别正典变量的CCA过程的不可能性。为了弥补这个问题，本文推导出了估计误差的大小，可以在实践中用于评估CCA估计的精确度。还提供了将结果应用于石灰草地数据集的示例。",
+    "tldr": "本文研究了高维正典相关分析（CCA），发现当数据的两个维度无限增长时，传统的CCA估计过程无法提供一致的估计。我们首次证明了在所有维度都很大时无法识别正典变量的CCA过程的不可能性。并提供了估计误差的量级，可用于评估CCA估计的精确性。",
+    "en_tdlr": "This paper studies high-dimensional canonical correlation analysis (CCA) and shows that the traditional CCA estimation fails to provide consistent estimates when two dimensions of data grow to infinity. The paper also provides the first result on the impossibility of identifying canonical variables in CCA when all dimensions are large. Additionally, the paper derives the magnitude of estimation error for assessing the precision of CCA estimates."
+}

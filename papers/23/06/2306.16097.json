@@ -1,0 +1,11 @@
+{
+    "title": "Sparse Representations, Inference and Learning. (arXiv:2306.16097v1 [cond-mat.stat-mech])",
+    "abstract": "In recent years statistical physics has proven to be a valuable tool to probe into large dimensional inference problems such as the ones occurring in machine learning. Statistical physics provides analytical tools to study fundamental limitations in their solutions and proposes algorithms to solve individual instances. In these notes, based on the lectures by Marc M\\'ezard in 2022 at the summer school in Les Houches, we will present a general framework that can be used in a large variety of problems with weak long-range interactions, including the compressed sensing problem, or the problem of learning in a perceptron. We shall see how these problems can be studied at the replica symmetric level, using developments of the cavity methods, both as a theoretical tool and as an algorithm.",
+    "link": "http://arxiv.org/abs/2306.16097",
+    "context": "Title: Sparse Representations, Inference and Learning. (arXiv:2306.16097v1 [cond-mat.stat-mech])\nAbstract: In recent years statistical physics has proven to be a valuable tool to probe into large dimensional inference problems such as the ones occurring in machine learning. Statistical physics provides analytical tools to study fundamental limitations in their solutions and proposes algorithms to solve individual instances. In these notes, based on the lectures by Marc M\\'ezard in 2022 at the summer school in Les Houches, we will present a general framework that can be used in a large variety of problems with weak long-range interactions, including the compressed sensing problem, or the problem of learning in a perceptron. We shall see how these problems can be studied at the replica symmetric level, using developments of the cavity methods, both as a theoretical tool and as an algorithm.",
+    "path": "papers/23/06/2306.16097.json",
+    "total_tokens": 737,
+    "translated_title": "稀疏表示、推理和学习",
+    "translated_abstract": "近年来，统计物理学已经证明是探究机器学习中出现的大维推理问题的一个有价值的工具。统计物理学提供了分析工具来研究其解决方案中的基本限制，并提出算法来解决个别实例。在这些笔记中，我们将基于2022年Les Houches夏季学校中Marc M\\'ezard的讲座，介绍一种可以在弱长程相互作用的各种问题中使用的通用框架，包括压缩感知问题或感知器的学习问题。我们将看到这些问题如何在复制对称级别上进行研究，使用中腔方法的发展，既作为理论工具，也作为算法。",
+    "tldr": "这篇论文介绍了一种通用框架，可以用于解决涉及弱长程相互作用的各种推理问题，包括压缩感知和感知器学习。利用统计物理学的方法，我们可以研究这些问题的基本限制，并提出相应的算法。"
+}

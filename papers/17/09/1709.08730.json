@@ -1,0 +1,12 @@
+{
+    "title": "Understanding a Version of Multivariate Symmetric Uncertainty to assist in Feature Selection. (arXiv:1709.08730v1 [cs.LG] CROSS LISTED)",
+    "abstract": "In this paper, we analyze the behavior of the multivariate symmetric uncertainty (MSU) measure through the use of statistical simulation techniques under various mixes of informative and non-informative randomly generated features. Experiments show how the number of attributes, their cardinalities, and the sample size affect the MSU. We discovered a condition that preserves good quality in the MSU under different combinations of these three factors, providing a new useful criterion to help drive the process of dimension reduction.",
+    "link": "http://arxiv.org/abs/1709.08730",
+    "context": "Title: Understanding a Version of Multivariate Symmetric Uncertainty to assist in Feature Selection. (arXiv:1709.08730v1 [cs.LG] CROSS LISTED)\nAbstract: In this paper, we analyze the behavior of the multivariate symmetric uncertainty (MSU) measure through the use of statistical simulation techniques under various mixes of informative and non-informative randomly generated features. Experiments show how the number of attributes, their cardinalities, and the sample size affect the MSU. We discovered a condition that preserves good quality in the MSU under different combinations of these three factors, providing a new useful criterion to help drive the process of dimension reduction.",
+    "path": "papers/17/09/1709.08730.json",
+    "total_tokens": 643,
+    "translated_title": "分析多变量对称不确定性度量在特征选择中的作用",
+    "translated_abstract": "本文通过使用统计模拟技术在信息和非信息随机生成的特征混合中分析了多变量对称不确定性（MSU）度量的行为。实验结果显示属性数量、基数和样本大小对MSU的影响。我们发现了一种条件，能够在这三个因素的不同组合下保持MSU的良好质量，为驱动降维过程提供了一个有用的新准则。",
+    "tldr": "通过分析多变量对称不确定性度量在特征选择中的作用，我们发现了一种条件，能够在属性数量、基数和样本大小不同组合下保持这一度量的良好质量，为降维过程提供了有用的准则。",
+    "en_tdlr": "By analyzing the behavior of the multivariate symmetric uncertainty measure in feature selection, we discovered a condition that preserves the measure's quality under different combinations of attribute number, cardinality, and sample size, providing a useful criterion for dimension reduction."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Long-term Conversation Analysis: Exploring Utility and Privacy. (arXiv:2306.16071v1 [eess.AS])",
+    "abstract": "The analysis of conversations recorded in everyday life requires privacy protection. In this contribution, we explore a privacy-preserving feature extraction method based on input feature dimension reduction, spectral smoothing and the low-cost speaker anonymization technique based on McAdams coefficient. We assess the utility of the feature extraction methods with a voice activity detection and a speaker diarization system, while privacy protection is determined with a speech recognition and a speaker verification model. We show that the combination of McAdams coefficient and spectral smoothing maintains the utility while improving privacy.",
+    "link": "http://arxiv.org/abs/2306.16071",
+    "context": "Title: Long-term Conversation Analysis: Exploring Utility and Privacy. (arXiv:2306.16071v1 [eess.AS])\nAbstract: The analysis of conversations recorded in everyday life requires privacy protection. In this contribution, we explore a privacy-preserving feature extraction method based on input feature dimension reduction, spectral smoothing and the low-cost speaker anonymization technique based on McAdams coefficient. We assess the utility of the feature extraction methods with a voice activity detection and a speaker diarization system, while privacy protection is determined with a speech recognition and a speaker verification model. We show that the combination of McAdams coefficient and spectral smoothing maintains the utility while improving privacy.",
+    "path": "papers/23/06/2306.16071.json",
+    "total_tokens": 692,
+    "translated_title": "长期对话分析：探索实用性和隐私保护",
+    "translated_abstract": "分析日常生活中记录的对话需要隐私保护。在本文中，我们探索了一种基于输入特征维度降低、频谱平滑和基于McAdams系数的低成本说话者匿名化技术的隐私保护特征提取方法。我们通过语音活动检测和说话者分割系统评估了特征提取方法的实用性，通过语音识别和说话者验证模型确定了隐私保护。我们展示了McAdams系数和频谱平滑的组合在提高隐私保护的同时保持了实用性。",
+    "tldr": "本文研究了长期对话分析中的隐私保护问题。通过使用McAdams系数和频谱平滑的组合方法，我们提出了一种隐私保护特征提取方法，该方法在提高隐私保护的同时保持了实用性。"
+}

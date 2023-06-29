@@ -1,0 +1,11 @@
+{
+    "title": "Emotion Analysis of Tweets Banning Education in Afghanistan. (arXiv:2306.16268v1 [cs.CL])",
+    "abstract": "This paper introduces the first emotion annotated dataset for the Dari variant of Persian spoken in Afghanistan. The LetHerLearn dataset contains 7,600 tweets posted in reaction to the Taliban ban of women rights to education in 2022 and has been manually annotated according to Ekman emotion categories. We here detail the data collection and annotation process, present relevant dataset statistics as well as initial experiments on the resulting dataset, benchmarking a number of different neural architectures for the task of Dari emotion classification.",
+    "link": "http://arxiv.org/abs/2306.16268",
+    "context": "Title: Emotion Analysis of Tweets Banning Education in Afghanistan. (arXiv:2306.16268v1 [cs.CL])\nAbstract: This paper introduces the first emotion annotated dataset for the Dari variant of Persian spoken in Afghanistan. The LetHerLearn dataset contains 7,600 tweets posted in reaction to the Taliban ban of women rights to education in 2022 and has been manually annotated according to Ekman emotion categories. We here detail the data collection and annotation process, present relevant dataset statistics as well as initial experiments on the resulting dataset, benchmarking a number of different neural architectures for the task of Dari emotion classification.",
+    "path": "papers/23/06/2306.16268.json",
+    "total_tokens": 708,
+    "translated_title": "在阿富汗禁止教育的推文情绪分析",
+    "translated_abstract": "本文介绍了第一个用于阿富汗普什图语变体的情绪标注数据集。LetHerLearn数据集包含了7600条推文，这些推文是对塔利班于2022年禁止妇女接受教育的反应，并且已根据埃克曼情绪类别进行了手动标注。我们在此详细介绍了数据收集和标注过程，呈现了相关数据集统计信息以及对所得数据集进行的初步实验，对达里语情感分类任务进行了多种不同神经架构的基准测试。",
+    "tldr": "这项研究介绍了第一个用于阿富汗普什图语变体的情绪标注数据集，该数据集包含7600条推文，以研究塔利班禁止妇女接受教育的情绪反应，并通过多种神经架构对达里语情感分类进行基准测试。"
+}
