@@ -1,0 +1,11 @@
+{
+    "title": "Endogenous Barriers to Learning. (arXiv:2306.16904v1 [econ.GN])",
+    "abstract": "Motivated by the idea that lack of experience is a source of errors but that experience should reduce them, we model agents' behavior using a stochastic choice model, leaving endogenous the accuracy of their choice. In some games, increased accuracy is conducive to unstable best-response dynamics. We define the barrier to learning as the minimum level of noise which keeps the best-response dynamic stable. Using logit Quantal Response, this defines a limitQR Equilibrium. We apply the concept to centipede, travelers' dilemma, and 11-20 money-request games and to first-price and all-pay auctions, and discuss the role of strategy restrictions in reducing or amplifying barriers to learning.",
+    "link": "http://arxiv.org/abs/2306.16904",
+    "context": "Title: Endogenous Barriers to Learning. (arXiv:2306.16904v1 [econ.GN])\nAbstract: Motivated by the idea that lack of experience is a source of errors but that experience should reduce them, we model agents' behavior using a stochastic choice model, leaving endogenous the accuracy of their choice. In some games, increased accuracy is conducive to unstable best-response dynamics. We define the barrier to learning as the minimum level of noise which keeps the best-response dynamic stable. Using logit Quantal Response, this defines a limitQR Equilibrium. We apply the concept to centipede, travelers' dilemma, and 11-20 money-request games and to first-price and all-pay auctions, and discuss the role of strategy restrictions in reducing or amplifying barriers to learning.",
+    "path": "papers/23/06/2306.16904.json",
+    "total_tokens": 858,
+    "translated_title": "学习的内在障碍",
+    "translated_abstract": "动机在于缺乏经验会导致错误，而经验可以减少这些错误，我们使用随机选择模型来建模代理的行为，将其选择的准确性设定为内生变量。在某些游戏中，增加准确性有可能导致不稳定的最佳反应动态。我们将学习的障碍定义为保持最佳反应动态稳定所需的最小噪声水平。使用逻辑量化响应，这定义了一个limitQR均衡。我们将该概念应用于蜈蚣、旅行者困境和11-20钱求游戏，以及一价和全付拍卖，并讨论策略限制在减少或增加学习障碍方面的作用。",
+    "tldr": "本文通过建模代理的行为，研究了学习的内在障碍。实验发现，在某些游戏中，增加准确性会导致不稳定的最佳反应动态。通过将学习的障碍定义为保持最佳反应动态稳定所需的最小噪声水平，提出了一个limitQR均衡。同时，讨论了策略限制在减少或增加学习障碍方面的作用。"
+}

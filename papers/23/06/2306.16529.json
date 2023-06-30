@@ -1,0 +1,12 @@
+{
+    "title": "Multimodal Search on Iconclass using Vision-Language Pre-Trained Models. (arXiv:2306.16529v1 [cs.IR])",
+    "abstract": "Terminology sources, such as controlled vocabularies, thesauri and classification systems, play a key role in digitizing cultural heritage. However, Information Retrieval (IR) systems that allow to query and explore these lexical resources often lack an adequate representation of the semantics behind the user's search, which can be conveyed through multiple expression modalities (e.g., images, keywords or textual descriptions). This paper presents the implementation of a new search engine for one of the most widely used iconography classification system, Iconclass. The novelty of this system is the use of a pre-trained vision-language model, namely CLIP, to retrieve and explore Iconclass concepts using visual or textual queries.",
+    "link": "http://arxiv.org/abs/2306.16529",
+    "context": "Title: Multimodal Search on Iconclass using Vision-Language Pre-Trained Models. (arXiv:2306.16529v1 [cs.IR])\nAbstract: Terminology sources, such as controlled vocabularies, thesauri and classification systems, play a key role in digitizing cultural heritage. However, Information Retrieval (IR) systems that allow to query and explore these lexical resources often lack an adequate representation of the semantics behind the user's search, which can be conveyed through multiple expression modalities (e.g., images, keywords or textual descriptions). This paper presents the implementation of a new search engine for one of the most widely used iconography classification system, Iconclass. The novelty of this system is the use of a pre-trained vision-language model, namely CLIP, to retrieve and explore Iconclass concepts using visual or textual queries.",
+    "path": "papers/23/06/2306.16529.json",
+    "total_tokens": 739,
+    "translated_title": "使用视觉-语言预训练模型在Iconclass上进行多模态搜索",
+    "translated_abstract": "术语来源，如受控词汇、词表和分类系统，在数字化文化遗产中起着关键作用。然而，允许查询和探索这些词汇资源的信息检索（IR）系统往往缺乏对用户搜索背后语义的适当表示，这可以通过多种表达方式传达（例如，图像、关键词或文本描述）。本文介绍了一种新的搜索引擎实现方案，用于其中一种最常用的图像分类系统Iconclass。该系统的创新之处在于使用预训练的视觉 - 语言模型CLIP来检索和探索Iconclass概念，无论是通过视觉查询还是文本查询。",
+    "tldr": "本文介绍了一种使用预训练的视觉-语言模型CLIP的搜索引擎实现方案，用于Iconclass图像分类系统，可以通过图像或文本查询来检索和探索Iconclass概念。",
+    "en_tdlr": "This paper presents an implementation of a search engine for the Iconclass image classification system using a pre-trained vision-language model, CLIP, to retrieve and explore Iconclass concepts through visual or textual queries."
+}

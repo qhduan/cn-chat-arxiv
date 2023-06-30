@@ -1,0 +1,12 @@
+{
+    "title": "A geometrically aware auto-encoder for multi-texture synthesis. (arXiv:2302.01616v3 [cs.CV] UPDATED)",
+    "abstract": "We propose an auto-encoder architecture for multi-texture synthesis. The approach relies on both a compact encoder accounting for second order neural statistics and a generator incorporating adaptive periodic content. Images are embedded in a compact and geometrically consistent latent space, where the texture representation and its spatial organisation are disentangled. Texture synthesis and interpolation tasks can be performed directly from these latent codes. Our experiments demonstrate that our model outperforms state-of-the-art feed-forward methods in terms of visual quality and various texture related metrics.",
+    "link": "http://arxiv.org/abs/2302.01616",
+    "context": "Title: A geometrically aware auto-encoder for multi-texture synthesis. (arXiv:2302.01616v3 [cs.CV] UPDATED)\nAbstract: We propose an auto-encoder architecture for multi-texture synthesis. The approach relies on both a compact encoder accounting for second order neural statistics and a generator incorporating adaptive periodic content. Images are embedded in a compact and geometrically consistent latent space, where the texture representation and its spatial organisation are disentangled. Texture synthesis and interpolation tasks can be performed directly from these latent codes. Our experiments demonstrate that our model outperforms state-of-the-art feed-forward methods in terms of visual quality and various texture related metrics.",
+    "path": "papers/23/02/2302.01616.json",
+    "total_tokens": 705,
+    "translated_title": "一个几何感知的自编码器用于多纹理合成",
+    "translated_abstract": "我们提出了一个用于多纹理合成的自编码器架构。该方法依赖于一个紧凑的编码器，考虑了二阶神经统计信息，以及一个包含自适应周期内容的生成器。图像被嵌入到一个紧凑且几何一致的潜在空间中，在这个空间中纹理表示和其空间组织被分离。纹理合成和插值任务可以直接从这些潜在代码中完成。我们的实验证明，我们的模型在视觉质量和各种纹理相关度量方面优于最先进的前向方法。",
+    "tldr": "一个几何感知的自编码器用于多纹理合成，通过紧凑的编码器和自适应周期内容的生成器，在几何一致的潜在空间中进行纹理表示和空间组织的分离，从而提高了纹理合成和插值任务的性能。",
+    "en_tdlr": "A geometrically aware auto-encoder is proposed for multi-texture synthesis, achieving better performance in texture synthesis and interpolation tasks by using a compact encoder and a generator with adaptive periodic content in a geometrically consistent latent space."
+}

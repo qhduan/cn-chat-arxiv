@@ -1,0 +1,12 @@
+{
+    "title": "Equal Pay for Similar Work. (arXiv:2306.17111v1 [econ.TH])",
+    "abstract": "Equal pay laws increasingly require that workers doing \"similar\" work are paid equal wages within firm. We study such \"equal pay for similar work\" (EPSW) policies theoretically and test our model's predictions empirically using evidence from a 2009 Chilean EPSW. When EPSW only binds across protected class (e.g., no woman can be paid less than any similar man, and vice versa), firms segregate their workforce by gender. When there are more men than women in a labor market, EPSW increases the gender wage gap. By contrast, EPSW that is not based on protected class can decrease the gender wage gap.",
+    "link": "http://arxiv.org/abs/2306.17111",
+    "context": "Title: Equal Pay for Similar Work. (arXiv:2306.17111v1 [econ.TH])\nAbstract: Equal pay laws increasingly require that workers doing \"similar\" work are paid equal wages within firm. We study such \"equal pay for similar work\" (EPSW) policies theoretically and test our model's predictions empirically using evidence from a 2009 Chilean EPSW. When EPSW only binds across protected class (e.g., no woman can be paid less than any similar man, and vice versa), firms segregate their workforce by gender. When there are more men than women in a labor market, EPSW increases the gender wage gap. By contrast, EPSW that is not based on protected class can decrease the gender wage gap.",
+    "path": "papers/23/06/2306.17111.json",
+    "total_tokens": 776,
+    "translated_title": "相似工作应获得同工同酬：理论和实证研究",
+    "translated_abstract": "同工同酬法要求公司内从事“相似”工作的员工获得相等的工资。我们从理论和实证的角度研究了这种“相似工作应获得同工同酬”（EPSW）政策，并利用2009年智利的实证数据验证了我们模型的预测结果。当EPSW只适用于受保护类别（例如，任何女性不能比任何相似男性获得更低的工资，反之亦然）时，公司会按性别对其员工进行分离。当劳动力市场中男性多于女性时，EPSW会增加性别工资差距。相比之下，不基于受保护类别的EPSW可以减小性别工资差距。",
+    "tldr": "该研究从理论和实证角度研究了相似工作应获得同工同酬政策，并发现该政策只适用于特定受保护类别时会增加性别工资差距，而对所有类别均适用的EPSW则可以减小性别工资差距。",
+    "en_tdlr": "This study examines the \"equal pay for similar work\" policy from theoretical and empirical perspectives, finding that it increases gender wage gap when applied only to protected categories, but can decrease it when applicable to all categories."
+}

@@ -2,157 +2,247 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [SE-PQA: Personalized Community Question Answering.](http://arxiv.org/abs/2306.16261) | 这个论文介绍了SE-PQA（个性化社区问题回答）的新资源，该资源包括超过1百万个查询和2百万个回答，并使用一系列丰富的特征模拟了流行社区问题回答平台的用户之间的社交互动。研究提供了用于社区问题回答任务的可复现基线方法，包括深度学习模型和个性化方法。 |
-| [^2] | [Query Understanding in the Age of Large Language Models.](http://arxiv.org/abs/2306.16004) | 在大语言模型时代，我们提出了一种使用大语言模型进行查询重写的框架，旨在通过完全指定机器意图的自然语言来改进意图理解和构建高性能检索系统。这种框架的能够以自然语言呈现、交互和推理机器意图具有深远影响。 |
-| [^3] | [Streamlining Social Media Information Retrieval for Public Health Research with Deep Learning.](http://arxiv.org/abs/2306.16001) | 本研究介绍了一个使用深度学习简化社交媒体信息检索的框架，通过识别医学实体、标准化实体和分配UMLS概念，构建了一个用于COVID-19相关推文的症状词典。 |
-| [^4] | [Disentangled Variational Auto-encoder Enhanced by Counterfactual Data for Debiasing Recommendation.](http://arxiv.org/abs/2306.15961) | 本文提出了一种解缠的消除偏见变分自编码器框架（DB-VAE），以及一种反事实数据增强方法，旨在解决推荐系统中存在的单一功能性偏见以及数据稀疏性问题。 |
-| [^5] | [Pb-Hash: Partitioned b-bit Hashing.](http://arxiv.org/abs/2306.15944) | Pb-Hash提出了一种分区b位哈希的方法，通过将B位哈希分成m个块来重复使用已有的哈希，能够显著减小模型的大小。 |
-| [^6] | [Confidence-Calibrated Ensemble Dense Phrase Retrieval.](http://arxiv.org/abs/2306.15917) | 本文研究了如何优化基于Transformer的密集语段检索（DPR）算法，使用置信度校准的集合预测方法取得了最先进的结果，并发现不同领域的最优粒度也有所差异。 |
-| [^7] | [Dimension Independent Mixup for Hard Negative Sample in Collaborative Filtering.](http://arxiv.org/abs/2306.15905) | 本文提出了一种协同过滤训练中维度无关的困难负样本混合方法（DINS），通过对采样区域的新视角进行重新审视来改进现有的采样方法。实验证明，DINS优于其他负采样方法，证实了其有效性和优越性。 |
-| [^8] | [Blockwise Feature Interaction in Recommendation Systems.](http://arxiv.org/abs/2306.15881) | 该论文提出了一种称为块状特征交互 (BFI) 的方法，通过将特征交互过程分成较小的块，以显著减少内存占用和计算负担。实验证明，BFI算法在准确性上接近标准DCNv2，同时大大减少了计算开销和参数数量，为高效推荐系统的发展做出了贡献。 |
-| [^9] | [Tourist Attractions Recommendation based on Attention Knowledge Graph Convolution Network.](http://arxiv.org/abs/2306.10946) | 本文提出了一种基于注意力知识图卷积网络的旅游景点推荐模型，通过自动语义发掘目标景点的相邻实体，根据旅客的喜好选择，预测类似景点的概率，实验中取得良好效果。 |
-| [^10] | [How Can Recommender Systems Benefit from Large Language Models: A Survey.](http://arxiv.org/abs/2306.05817) | 本文对将大型语言模型（LLM）应用于推荐系统进行了全面的调查研究，从两个角度总结了现有的研究工作：如何在推荐系统中调整LLM和调整LLM时在哪里调整。最后，我们提出了一些潜在的研究方向和挑战。 |
+| [^1] | [Ducho: A Unified Framework for the Extraction of Multimodal Features in Recommendation.](http://arxiv.org/abs/2306.17125) | Ducho是一个用于推荐系统中多模态特征提取的统一框架，通过集成三个广泛采用的深度学习库作为后端，提供了一个共享界面来提取和处理特征。 |
+| [^2] | [Re-Rank - Expand - Repeat: Adaptive Query Expansion for Document Retrieval Using Words and Entities.](http://arxiv.org/abs/2306.17082) | 本文提出了一种自适应查询扩展的文档检索方法，通过先重新排序再进行查询扩展，以及引入新的扩展模型和自适应组件来提高检索效果。使用该方法，我们在NDCG、MAP和R@1000等指标上取得了最好的结果。 |
+| [^3] | [Harnessing the Power of Hugging Face Transformers for Predicting Mental Health Disorders in Social Networks.](http://arxiv.org/abs/2306.16891) | 该研究通过使用社交媒体和预训练的语言模型，探索了使用用户生成的数据预测精神障碍症状的方法，并发现新模型的准确度高达97%。这表明社交媒体数据是进行精神健康筛查的一个重要资源，预训练模型能够有效地自动化这一任务。 |
+| [^4] | [Computing all-vs-all MEMs in grammar-compressed text.](http://arxiv.org/abs/2306.16815) | 本论文提出了一种压缩感知方法，在语法压缩文本中计算全对全最大精确匹配（MEM）。通过构建一个完全平衡的语法，满足特定属性，并修改语法规则，我们能够以更高效的方式计算MEMs。我们的方法在时间和空间复杂度上都具有优势。 |
+| [^5] | [Transfer Learning with Semi-Supervised Dataset Annotation for Birdcall Classification.](http://arxiv.org/abs/2306.16760) | 该论文讨论了使用半监督数据集注释进行迁移学习的方法，通过利用现有的模型解决鸟鸣分类比赛中的挑战，并提出了一种获取带标注数据集的方法。实验证明这种方法在鸟类物种分类方面有效，并展示了迁移学习和半监督数据集注释在类似任务中的潜力。 |
+| [^6] | [Multi-Scenario Ranking with Adaptive Feature Learning.](http://arxiv.org/abs/2306.16732) | 多情景学习在推荐和检索系统中被广泛应用于行业中。本文提出了一种自适应特征学习方法，通过优化特征表示来提高排序性能，减少了对网络结构的搜索和维护成本。 |
+| [^7] | [Exploring the Representation Power of SPLADE Models.](http://arxiv.org/abs/2306.16680) | SPLADE模型是一种学习稀疏检索的方法，通过正则化保持倒排列表的稀疏性来提高词汇匹配和排名效果。研究发现，即使使用不常见的词汇，如停用词或随机词，SPLADE模型仍然可以有效地编码排名信号。 |
+| [^8] | [Beyond CO2 Emissions: The Overlooked Impact of Water Consumption of Information Retrieval Models.](http://arxiv.org/abs/2306.16668) | 信息检索社区对于搜索模型的能量消耗产生了兴趣，并发现基于大型语言模型的新神经模型导致了信息检索模型的能源消耗增加，但与自然语言处理等领域相比较低。 |
+| [^9] | [Multimodal Search on Iconclass using Vision-Language Pre-Trained Models.](http://arxiv.org/abs/2306.16529) | 本文介绍了一种使用预训练的视觉-语言模型CLIP的搜索引擎实现方案，用于Iconclass图像分类系统，可以通过图像或文本查询来检索和探索Iconclass概念。 |
+| [^10] | [A Food Recommender System in Academic Environments Based on Machine Learning Models.](http://arxiv.org/abs/2306.16528) | 这个论文介绍了一个基于机器学习模型的食物推荐系统，通过使用协同过滤、基于内容和基于知识的模型，以提高人们的健康。研究探讨了决策树、k最近邻居(kNN)、AdaBoost和Bagging等机器学习模型在食物推荐系统上的应用。 |
+| [^11] | [OBELISC: An Open Web-Scale Filtered Dataset of Interleaved Image-Text Documents.](http://arxiv.org/abs/2306.16527) | OBELISC是一个开放的网页规模筛选图像文本数据集，包含141亿个网页，3.53亿个图像和1150亿个文本标记。通过在此数据集上训练一个80亿参数的模型，取得了在多模态基准测试中有竞争力的性能。 |
+| [^12] | [Shilling Black-box Review-based Recommender Systems through Fake Review Generation.](http://arxiv.org/abs/2306.16526) | 本文提出了一种基于生成的模型，通过虚假评论生成器对基于评论的推荐系统进行操纵攻击。实验证明该框架可以成功地攻击亚马逊上的三种不同类型的RBRS。 |
+| [^13] | [Event Detection from Social Media Stream: Methods, Datasets and Opportunities.](http://arxiv.org/abs/2306.16495) | 本论文调查了Twitter数据流的事件检测方法，提供了公开可用的数据集，并探讨了未来的研究机会。 |
+| [^14] | [Pre-Training Multi-Modal Dense Retrievers for Outside-Knowledge Visual Question Answering.](http://arxiv.org/abs/2306.16478) | 本文提出了一个为外部知识视觉问答任务预训练的段落检索模型的自动数据生成管道，相较于最先进的架构实现了更好的Precision@5。此外，所提出的预训练方法在零样本检索场景中展示了良好的能力。 |
+| [^15] | [A Collaborative Transfer Learning Framework for Cross-domain Recommendation.](http://arxiv.org/abs/2306.16425) | 这篇论文提出了一种协作跨领域迁移学习框架（CCTL），用于解决推荐系统中不同领域CTR预测建模的挑战。 |
+| [^16] | [Improving Identity-Robustness for Face Models.](http://arxiv.org/abs/2304.03838) | 该论文探讨了在没有身份注释信息的情况下，使用人脸识别嵌入向量作为身份标识的替代方法，以提高人脸模型的身份鲁棒性和公平性。 |
 
 # 详细
 
-[^1]: SE-PQA: 个性化社区问题回答
+[^1]: Ducho: 一种用于推荐系统中多模态特征提取的统一框架
 
-    SE-PQA: Personalized Community Question Answering. (arXiv:2306.16261v1 [cs.IR])
+    Ducho: A Unified Framework for the Extraction of Multimodal Features in Recommendation. (arXiv:2306.17125v1 [cs.IR])
 
-    [http://arxiv.org/abs/2306.16261](http://arxiv.org/abs/2306.16261)
+    [http://arxiv.org/abs/2306.17125](http://arxiv.org/abs/2306.17125)
 
-    这个论文介绍了SE-PQA（个性化社区问题回答）的新资源，该资源包括超过1百万个查询和2百万个回答，并使用一系列丰富的特征模拟了流行社区问题回答平台的用户之间的社交互动。研究提供了用于社区问题回答任务的可复现基线方法，包括深度学习模型和个性化方法。
-
-    
-
-    个人化的信息检索一直是一个长期研究的课题。然而，目前仍然缺乏高质量、真实的数据集来开展大规模实验，并评估个性化搜索模型。本文通过引入SE-PQA (StackExchange - 个性化问题回答)来填补这一空白，这是一个新的精选资源，用于设计和评估与社区问题回答任务相关的个性化模型。贡献的数据集包括超过1百万个查询和2百万个回答，使用了一系列丰富的特征来模拟一个流行社区问题回答平台的用户之间的社交互动。我们描述了SE-PQA的特点，并详细说明了与问题和回答相关的特征。我们还提供了基于该资源的社区问题回答任务的可复现基线方法，包括深度学习模型和个性化方法。初步实验结果表明了其合适性。
-
-    Personalization in Information Retrieval is a topic studied for a long time. Nevertheless, there is still a lack of high-quality, real-world datasets to conduct large-scale experiments and evaluate models for personalized search. This paper contributes to filling this gap by introducing SE-PQA (StackExchange - Personalized Question Answering), a new curated resource to design and evaluate personalized models related to the task of community Question Answering (cQA). The contributed dataset includes more than 1 million queries and 2 million answers, annotated with a rich set of features modeling the social interactions among the users of a popular cQA platform. We describe the characteristics of SE-PQA and detail the features associated with questions and answers. We also provide reproducible baseline methods for the cQA task based on the resource, including deep learning models and personalization approaches. The results of the preliminary experiments conducted show the appropriateness
-    
-[^2]: 大语言模型时代的查询理解
-
-    Query Understanding in the Age of Large Language Models. (arXiv:2306.16004v1 [cs.IR])
-
-    [http://arxiv.org/abs/2306.16004](http://arxiv.org/abs/2306.16004)
-
-    在大语言模型时代，我们提出了一种使用大语言模型进行查询重写的框架，旨在通过完全指定机器意图的自然语言来改进意图理解和构建高性能检索系统。这种框架的能够以自然语言呈现、交互和推理机器意图具有深远影响。
+    Ducho是一个用于推荐系统中多模态特征提取的统一框架，通过集成三个广泛采用的深度学习库作为后端，提供了一个共享界面来提取和处理特征。
 
     
 
-    随着大语言模型（LLM）的兴起和应用，使用自然语言进行查询、对话和控制搜索和信息检索界面正在迅速普及。在这篇立场论文中，我们描述了一种使用LLM进行交互式查询重写的通用框架。我们的提议旨在为改进和透明化意图理解以及使用LLM构建高性能检索系统开辟新的机会。我们框架的一个关键方面是重写器能够通过自然语言完全指定机器意图，这个机器意图可以在最终检索阶段之前进一步细化、控制和编辑。以自然语言呈现、交互和推理底层的机器意图对透明度、排名性能以及离开传统意图理解中收集监督信号的方式有深远影响。我们详细介绍了这一概念，并支持初步实验证明了其可行性。
+    在多模态感知的推荐系统中，有意义的多模态特征的提取是实现高质量推荐的基础。通常，每个推荐框架都会使用特定的策略和工具来实现其多模态特征的提取过程。这种限制有两个原因：（一）不同的特征提取策略不利于多模态推荐框架之间的相互关联，因此无法进行有效和公平的比较；（二）由于不同的开源工具提供了大量经过预训练的深度学习模型，模型设计者无法访问共享界面来提取特征。在上述问题的基础上，我们提出了Ducho，一种用于推荐系统中多模态特征提取的统一框架。通过集成三个广泛采用的深度学习库作为后端，即TensorFlow、PyTorch和Transformers，我们提供了一个共享界面，用于提取和处理特征，每个后端都有自己的特定方法。
 
-    Querying, conversing, and controlling search and information-seeking interfaces using natural language are fast becoming ubiquitous with the rise and adoption of large-language models (LLM). In this position paper, we describe a generic framework for interactive query-rewriting using LLMs. Our proposal aims to unfold new opportunities for improved and transparent intent understanding while building high-performance retrieval systems using LLMs. A key aspect of our framework is the ability of the rewriter to fully specify the machine intent by the search engine in natural language that can be further refined, controlled, and edited before the final retrieval phase. The ability to present, interact, and reason over the underlying machine intent in natural language has profound implications on transparency, ranking performance, and a departure from the traditional way in which supervised signals were collected for understanding intents. We detail the concept, backed by initial experiments
+    In multimodal-aware recommendation, the extraction of meaningful multimodal features is at the basis of high-quality recommendations. Generally, each recommendation framework implements its multimodal extraction procedures with specific strategies and tools. This is limiting for two reasons: (i) different extraction strategies do not ease the interdependence among multimodal recommendation frameworks; thus, they cannot be efficiently and fairly compared; (ii) given the large plethora of pre-trained deep learning models made available by different open source tools, model designers do not have access to shared interfaces to extract features. Motivated by the outlined aspects, we propose Ducho, a unified framework for the extraction of multimodal features in recommendation. By integrating three widely-adopted deep learning libraries as backends, namely, TensorFlow, PyTorch, and Transformers, we provide a shared interface to extract and process features where each backend's specific metho
     
-[^3]: 用深度学习简化社交媒体信息检索以支持公共卫生研究
+[^2]: 重新排序-扩展-重复：使用单词和实体的自适应查询扩展的文档检索
 
-    Streamlining Social Media Information Retrieval for Public Health Research with Deep Learning. (arXiv:2306.16001v1 [cs.CL])
+    Re-Rank - Expand - Repeat: Adaptive Query Expansion for Document Retrieval Using Words and Entities. (arXiv:2306.17082v1 [cs.IR])
 
-    [http://arxiv.org/abs/2306.16001](http://arxiv.org/abs/2306.16001)
+    [http://arxiv.org/abs/2306.17082](http://arxiv.org/abs/2306.17082)
 
-    本研究介绍了一个使用深度学习简化社交媒体信息检索的框架，通过识别医学实体、标准化实体和分配UMLS概念，构建了一个用于COVID-19相关推文的症状词典。
-
-    
-
-    社交媒体在流行病监测中的利用已经得到了很好的证实。然而，当使用预定义的词汇表来检索相关语料库时，常常会引入偏见。本研究介绍了一个框架，旨在构建医学俗语和统一医学语言系统（UMLS）概念的广泛字典。该框架由三个模块组成：基于BERT的命名实体识别（NER）模型，用于从社交媒体内容中识别出医学实体；深度学习驱动的标准化模块，用于对提取出的实体进行规范化处理；半监督聚类模块，将最可能的UMLS概念分配给每个规范化实体。我们将该框架应用于从2020年2月1日到2022年4月30日期间与COVID-19相关的推文，生成了一个症状词典（可在https://github.com/ningkko/UMLS_colloquialism/上获取），其中包含9,249个标准化实体，映射到876个UMLS概念和38,175个俚语表达。该框架的演示
-
-    The utilization of social media in epidemic surveillance has been well established. Nonetheless, bias is often introduced when pre-defined lexicons are used to retrieve relevant corpus. This study introduces a framework aimed at curating extensive dictionaries of medical colloquialisms and Unified Medical Language System (UMLS) concepts. The framework comprises three modules: a BERT-based Named Entity Recognition (NER) model that identifies medical entities from social media content, a deep-learning powered normalization module that standardizes the extracted entities, and a semi-supervised clustering module that assigns the most probable UMLS concept to each standardized entity. We applied this framework to COVID-19-related tweets from February 1, 2020, to April 30, 2022, generating a symptom dictionary (available at https://github.com/ningkko/UMLS_colloquialism/) composed of 9,249 standardized entities mapped to 876 UMLS concepts and 38,175 colloquial expressions. This framework demo
-    
-[^4]: 通过反事实数据增强的解缠变分自编码器来消除推荐偏见
-
-    Disentangled Variational Auto-encoder Enhanced by Counterfactual Data for Debiasing Recommendation. (arXiv:2306.15961v1 [cs.IR])
-
-    [http://arxiv.org/abs/2306.15961](http://arxiv.org/abs/2306.15961)
-
-    本文提出了一种解缠的消除偏见变分自编码器框架（DB-VAE），以及一种反事实数据增强方法，旨在解决推荐系统中存在的单一功能性偏见以及数据稀疏性问题。
+    本文提出了一种自适应查询扩展的文档检索方法，通过先重新排序再进行查询扩展，以及引入新的扩展模型和自适应组件来提高检索效果。使用该方法，我们在NDCG、MAP和R@1000等指标上取得了最好的结果。
 
     
 
-    推荐系统经常遭受各种推荐偏见的困扰，严重阻碍了其发展。在这个背景下，已经提出了一系列消除推荐偏见的方法，尤其适用于两种最常见的偏见，即流行度偏见和放大的主观偏见。然而，现有的消除偏见方法通常只关注纠正单一偏见。这种单一功能性的消除偏见忽视了推荐物品多个偏见之间的耦合问题。此外，之前的工作无法解决稀疏数据带来的缺乏监督信号问题，而这在推荐系统中已经变得很普遍。在本研究中，我们引入了一种解缠的消除偏见变分自编码器框架（DB-VAE），来解决单一功能性问题，以及一种反事实数据增强方法，以减轻由于数据稀疏性带来的不利影响。具体而言，DB-VAE首先提取只受单个偏见影响的两种极端物品。
+    稀疏和密集的伪相关反馈(PRf)方法在挑战性查询中表现不佳，原因是在第一次检索中的低准确率。然而，最近的神经语言模型(NLMs)的进展可以将相关文档重新排名到前几名，即使重新排名池中只有很少的文档。本文首先通过简单地在查询扩展之前应用重新排序并重新执行查询来解决伪相关反馈的问题。我们发现仅凭这个改变就可以将稀疏和密集PRF方法的检索效果提升5-8%。进一步地，我们提出了一种新的扩展模型，潜在实体扩展(LEE)，它是一种细粒度的基于词和实体的相关性建模，包括局部特征。最后，我们在检索过程中引入了一个“自适应”组件，它在评分过程中使用扩展模型迭代地调整重新排名池，即“重新排序-扩展-重复”。使用LEE，我们实现了(据我们所知)最好的NDCG、MAP和R@1000。
 
-    Recommender system always suffers from various recommendation biases, seriously hindering its development. In this light, a series of debias methods have been proposed in the recommender system, especially for two most common biases, i.e., popularity bias and amplified subjective bias. However, exsisting debias methods usually concentrate on correcting a single bias. Such single-functionality debiases neglect the bias-coupling issue in which the recommended items are collectively attributed to multiple biases. Besides, previous work cannot tackle the lacking supervised signals brought by sparse data, yet which has become a commonplace in the recommender system. In this work, we introduce a disentangled debias variational auto-encoder framework(DB-VAE) to address the single-functionality issue as well as a counterfactual data enhancement method to mitigate the adverse effect due to the data sparsity. In specific, DB-VAE first extracts two types of extreme items only affected by a single
+    Sparse and dense pseudo-relevance feedback (PRF) approaches perform poorly on challenging queries due to low precision in first-pass retrieval. However, recent advances in neural language models (NLMs) can re-rank relevant documents to top ranks, even when few are in the re-ranking pool. This paper first addresses the problem of poor pseudo-relevance feedback by simply applying re-ranking prior to query expansion and re-executing this query. We find that this change alone can improve the retrieval effectiveness of sparse and dense PRF approaches by 5-8%. Going further, we propose a new expansion model, Latent Entity Expansion (LEE), a fine-grained word and entity-based relevance modelling incorporating localized features. Finally, we include an "adaptive" component to the retrieval process, which iteratively refines the re-ranking pool during scoring using the expansion model, i.e. we "re-rank - expand repeat". Using LEE, we achieve (to our knowledge) the best NDCG, MAP and R@1000 re
     
-[^5]: Pb-Hash: 分区b位哈希
+[^3]: 利用Hugging Face Transformers预测社交网络中的精神健康障碍的力量
 
-    Pb-Hash: Partitioned b-bit Hashing. (arXiv:2306.15944v1 [cs.LG])
+    Harnessing the Power of Hugging Face Transformers for Predicting Mental Health Disorders in Social Networks. (arXiv:2306.16891v1 [cs.IR])
 
-    [http://arxiv.org/abs/2306.15944](http://arxiv.org/abs/2306.15944)
+    [http://arxiv.org/abs/2306.16891](http://arxiv.org/abs/2306.16891)
 
-    Pb-Hash提出了一种分区b位哈希的方法，通过将B位哈希分成m个块来重复使用已有的哈希，能够显著减小模型的大小。
-
-    
-
-    许多哈希算法，包括minwise哈希（MinHash），一次置换哈希（OPH）和一致加权采样（CWS），生成B位整数。对于每个数据向量的k个哈希，存储空间将是B×k位；当用于大规模学习时，模型大小将是2^B×k，这可能很昂贵。一种标准策略是仅使用B位中的最低b位，并略微增加哈希的数量k。在这项研究中，我们提出通过将B位分成m个块，例如b×m=B，来重复使用哈希。对应地，模型大小变为m×2^b×k，这可能比原来的2^B×k要小得多。我们的理论分析显示，通过将哈希值分成m个块，准确性会下降。换句话说，使用B/m位的m个块将不如直接使用B位精确。这是由于通过重新使用相同的哈希值引起的相关性。另一方面，
-
-    Many hashing algorithms including minwise hashing (MinHash), one permutation hashing (OPH), and consistent weighted sampling (CWS) generate integers of $B$ bits. With $k$ hashes for each data vector, the storage would be $B\times k$ bits; and when used for large-scale learning, the model size would be $2^B\times k$, which can be expensive. A standard strategy is to use only the lowest $b$ bits out of the $B$ bits and somewhat increase $k$, the number of hashes. In this study, we propose to re-use the hashes by partitioning the $B$ bits into $m$ chunks, e.g., $b\times m =B$. Correspondingly, the model size becomes $m\times 2^b \times k$, which can be substantially smaller than the original $2^B\times k$.  Our theoretical analysis reveals that by partitioning the hash values into $m$ chunks, the accuracy would drop. In other words, using $m$ chunks of $B/m$ bits would not be as accurate as directly using $B$ bits. This is due to the correlation from re-using the same hash. On the other h
-    
-[^6]: 置信度校准的集合式密集短语检索
-
-    Confidence-Calibrated Ensemble Dense Phrase Retrieval. (arXiv:2306.15917v1 [cs.CL])
-
-    [http://arxiv.org/abs/2306.15917](http://arxiv.org/abs/2306.15917)
-
-    本文研究了如何优化基于Transformer的密集语段检索（DPR）算法，使用置信度校准的集合预测方法取得了最先进的结果，并发现不同领域的最优粒度也有所差异。
+    该研究通过使用社交媒体和预训练的语言模型，探索了使用用户生成的数据预测精神障碍症状的方法，并发现新模型的准确度高达97%。这表明社交媒体数据是进行精神健康筛查的一个重要资源，预训练模型能够有效地自动化这一任务。
 
     
 
-    本文中，我们考虑了不需要进一步预训练的基于Transformer的密集语段检索（DPR）算法（由Karpukhin等人于2020年开发）的优化程度。我们的方法包括两个关键洞察：我们在不同短语长度（例如一句和五句）上应用DPR上下文编码器，并对所有这些不同分割的结果进行置信度校准的集合预测。这种相对详尽的方法在Google NQ和SQuAD等基准数据集上取得了最先进的结果。我们还将我们的方法应用于特定领域的数据集，结果表明不同的颗粒度对于不同的领域是最优的。
+    早期诊断精神障碍并进行干预可以促进预防严重伤害和改善治疗效果。本研究利用社交媒体和预训练的语言模型，探讨用户生成的数据如何用于预测精神障碍症状。我们的研究比较了Hugging Face的四种不同BERT模型和近期文献中用于自动抑郁症诊断的标准机器学习技术。结果显示，新模型的准确率高达97%，超过了以前的方法。通过补充先前的发现，对结果进行分析，我们发现即使是微小的数据量（如用户的个人简介描述）也有预测精神障碍的潜力。我们得出结论，社交媒体数据是进行精神健康筛查的一个极好的来源，并且预训练模型可以有效自动化这一关键任务。
 
-    In this paper, we consider the extent to which the transformer-based Dense Passage Retrieval (DPR) algorithm, developed by (Karpukhin et. al. 2020), can be optimized without further pre-training. Our method involves two particular insights: we apply the DPR context encoder at various phrase lengths (e.g. one-sentence versus five-sentence segments), and we take a confidence-calibrated ensemble prediction over all of these different segmentations. This somewhat exhaustive approach achieves start-of-the-art results on benchmark datasets such as Google NQ and SQuAD. We also apply our method to domain-specific datasets, and the results suggest how different granularities are optimal for different domains
+    Early diagnosis of mental disorders and intervention can facilitate the prevention of severe injuries and the improvement of treatment results. Using social media and pre-trained language models, this study explores how user-generated data can be used to predict mental disorder symptoms. Our study compares four different BERT models of Hugging Face with standard machine learning techniques used in automatic depression diagnosis in recent literature. The results show that new models outperform the previous approach with an accuracy rate of up to 97%. Analyzing the results while complementing past findings, we find that even tiny amounts of data (like users' bio descriptions) have the potential to predict mental disorders. We conclude that social media data is an excellent source of mental health screening, and pre-trained models can effectively automate this critical task.
     
-[^7]: 协同过滤中维度无关的困难负样本混合方法
+[^4]: 在语法压缩文本中计算全对全最大精确匹配（MEM）
 
-    Dimension Independent Mixup for Hard Negative Sample in Collaborative Filtering. (arXiv:2306.15905v1 [cs.IR])
+    Computing all-vs-all MEMs in grammar-compressed text. (arXiv:2306.16815v1 [cs.IR])
 
-    [http://arxiv.org/abs/2306.15905](http://arxiv.org/abs/2306.15905)
+    [http://arxiv.org/abs/2306.16815](http://arxiv.org/abs/2306.16815)
 
-    本文提出了一种协同过滤训练中维度无关的困难负样本混合方法（DINS），通过对采样区域的新视角进行重新审视来改进现有的采样方法。实验证明，DINS优于其他负采样方法，证实了其有效性和优越性。
-
-    
-
-    协同过滤（CF）是一种广泛应用的技术，可以基于过去的互动预测用户的偏好。负采样在使用隐式反馈训练基于CF的模型时起到至关重要的作用。本文提出了一种基于采样区域的新视角来重新审视现有的采样方法。我们指出，目前的采样方法主要集中在点采样或线采样上，缺乏灵活性，并且有相当大一部分困难采样区域未被探索。为了解决这个限制，我们提出了一种维度无关的困难负样本混合方法（DINS），它是第一个针对训练基于CF的模型的区域采样方法。DINS包括三个模块：困难边界定义、维度无关混合和多跳池化。在真实世界的数据集上进行的实验证明，DINS优于其他负采样方法，证明了它的有效性和优越性。
-
-    Collaborative filtering (CF) is a widely employed technique that predicts user preferences based on past interactions. Negative sampling plays a vital role in training CF-based models with implicit feedback. In this paper, we propose a novel perspective based on the sampling area to revisit existing sampling methods. We point out that current sampling methods mainly focus on Point-wise or Line-wise sampling, lacking flexibility and leaving a significant portion of the hard sampling area un-explored. To address this limitation, we propose Dimension Independent Mixup for Hard Negative Sampling (DINS), which is the first Area-wise sampling method for training CF-based models. DINS comprises three modules: Hard Boundary Definition, Dimension Independent Mixup, and Multi-hop Pooling. Experiments with real-world datasets on both matrix factorization and graph-based models demonstrate that DINS outperforms other negative sampling methods, establishing its effectiveness and superiority. Our wo
-    
-[^8]: 推荐系统中的块状特征交互
-
-    Blockwise Feature Interaction in Recommendation Systems. (arXiv:2306.15881v1 [cs.IR])
-
-    [http://arxiv.org/abs/2306.15881](http://arxiv.org/abs/2306.15881)
-
-    该论文提出了一种称为块状特征交互 (BFI) 的方法，通过将特征交互过程分成较小的块，以显著减少内存占用和计算负担。实验证明，BFI算法在准确性上接近标准DCNv2，同时大大减少了计算开销和参数数量，为高效推荐系统的发展做出了贡献。
+    本论文提出了一种压缩感知方法，在语法压缩文本中计算全对全最大精确匹配（MEM）。通过构建一个完全平衡的语法，满足特定属性，并修改语法规则，我们能够以更高效的方式计算MEMs。我们的方法在时间和空间复杂度上都具有优势。
 
     
 
-    特征交互在推荐系统中起着至关重要的作用，因为它们捕捉了用户偏好和物品特征之间的复杂关系。现有方法（如深度和交叉网络 DCNv2）可能由于其跨层操作而面临高计算需求的问题。本文提出了一种新颖的方法，称为块状特征交互 (BFI)，以帮助缓解这个问题。通过将特征交互过程分成较小的块，我们可以显著减少内存占用和计算负担。我们开发了四个变体（分别为 P、Q、T、S）的 BFI，并进行了实证比较。我们的实验结果表明，所提出的算法在与标准 DCNv2 相比时能够实现接近的准确性，同时大大减少了计算开销和参数数量。本文通过提供一种改进推荐系统的实际解决方案，为高效推荐系统的发展做出了贡献。
+    我们描述了一种压缩感知方法，用于计算重复集合$\mathcal{T}$中字符串之间的全对全最大精确匹配（MEM）。我们工作的关键概念是从$\mathcal{T}$构建一个完全平衡的语法$\mathcal{G}$，满足我们称之为“fix-free”的属性：解析树中具有相同高度的非终结符的扩展形成了一个fix-free集合（即前缀自由和后缀自由）。fix-free属性使我们能够使用标准的基于后缀树的MEM算法在$\mathcal{G}$上递增地计算$\mathcal{T}$的MEM，该算法一次在一组语法规则上运行，并且不解压缩非终结符。通过修改Christiansen等人2020年的局部一致性语法，我们展示了如何以线性时间和空间构建$\mathcal{G}$从$\mathcal{T}$。我们还证明了我们的MEM算法在$\mathcal{G}$上以$O(G+occ)$时间运行，并且使用$O(\log G(G+occ))$位，其中$G$是语法大小，而$occ$是MEM的数量。
 
-    Feature interactions can play a crucial role in recommendation systems as they capture complex relationships between user preferences and item characteristics. Existing methods such as Deep & Cross Network (DCNv2) may suffer from high computational requirements due to their cross-layer operations. In this paper, we propose a novel approach called blockwise feature interaction (BFI) to help alleviate this issue. By partitioning the feature interaction process into smaller blocks, we can significantly reduce both the memory footprint and the computational burden. Four variants (denoted by P, Q, T, S, respectively) of BFI have been developed and empirically compared. Our experimental results demonstrate that the proposed algorithms achieves close accuracy compared to the standard DCNv2, while greatly reducing the computational overhead and the number of parameters. This paper contributes to the development of efficient recommendation systems by providing a practical solution for improving
+    We describe a compression-aware method to compute all-vs-all maximal exact matches (MEM) among strings of a repetitive collection $\mathcal{T}$. The key concept in our work is the construction of a fully-balanced grammar $\mathcal{G}$ from $\mathcal{T}$ that meets a property that we call \emph{fix-free}: the expansions of the nonterminals that have the same height in the parse tree form a fix-free set (i.e., prefix-free and suffix-free). The fix-free property allows us to compute the MEMs of $\mathcal{T}$ incrementally over $\mathcal{G}$ using a standard suffix-tree-based MEM algorithm, which runs on a subset of grammar rules at a time and does not decompress nonterminals. By modifying the locally-consistent grammar of Christiansen et al 2020., we show how we can build $\mathcal{G}$ from $\mathcal{T}$ in linear time and space. We also demonstrate that our MEM algorithm runs on top of $\mathcal{G}$ in $O(G +occ)$ time and uses $O(\log G(G+occ))$ bits, where $G$ is the grammar size, and 
     
-[^9]: 基于注意力知识图卷积网络的旅游景点推荐
+[^5]: 使用半监督数据集注释进行迁移学习的鸟鸣分类
 
-    Tourist Attractions Recommendation based on Attention Knowledge Graph Convolution Network. (arXiv:2306.10946v1 [cs.IR] CROSS LISTED)
+    Transfer Learning with Semi-Supervised Dataset Annotation for Birdcall Classification. (arXiv:2306.16760v1 [cs.SD])
 
-    [http://arxiv.org/abs/2306.10946](http://arxiv.org/abs/2306.10946)
+    [http://arxiv.org/abs/2306.16760](http://arxiv.org/abs/2306.16760)
 
-    本文提出了一种基于注意力知识图卷积网络的旅游景点推荐模型，通过自动语义发掘目标景点的相邻实体，根据旅客的喜好选择，预测类似景点的概率，实验中取得良好效果。
-
-    
-
-    基于知识图谱的推荐算法在相对成熟阶段，但在特定领域的推荐仍存在问题。例如在旅游领域，选择适合的旅游景点属性流程作为推荐基础较为复杂。本文提出改进的注意力知识图卷积网络模型(Att-KGCN)，自动语义地发掘目标景点的相邻实体，利用注意力层将相对相似的位置进行聚合，并通过推理旅客喜好选择，预测类似景点的概率作为推荐系统。实验中，采用索科特拉岛-也门的旅游数据，证明了注意力知识图卷积网络在旅游领域的景点推荐效果良好。
-
-    The recommendation algorithm based on knowledge graphs is at a relatively mature stage. However, there are still some problems in the recommendation of specific areas. For example, in the tourism field, selecting suitable tourist attraction attributes process is complicated as the recommendation basis for tourist attractions. In this paper, we propose the improved Attention Knowledge Graph Convolution Network model, named (Att-KGCN), which automatically discovers the neighboring entities of the target scenic spot semantically. The attention layer aggregates relatively similar locations and represents them with an adjacent vector. Then, according to the tourist's preferred choices, the model predicts the probability of similar spots as a recommendation system. A knowledge graph dataset of tourist attractions used based on tourism data on Socotra Island-Yemen. Through experiments, it is verified that the Attention Knowledge Graph Convolution Network has a good effect on the recommendatio
-    
-[^10]: 推荐系统如何从大型语言模型中受益：一项调查研究
-
-    How Can Recommender Systems Benefit from Large Language Models: A Survey. (arXiv:2306.05817v1 [cs.IR])
-
-    [http://arxiv.org/abs/2306.05817](http://arxiv.org/abs/2306.05817)
-
-    本文对将大型语言模型（LLM）应用于推荐系统进行了全面的调查研究，从两个角度总结了现有的研究工作：如何在推荐系统中调整LLM和调整LLM时在哪里调整。最后，我们提出了一些潜在的研究方向和挑战。
+    该论文讨论了使用半监督数据集注释进行迁移学习的方法，通过利用现有的模型解决鸟鸣分类比赛中的挑战，并提出了一种获取带标注数据集的方法。实验证明这种方法在鸟类物种分类方面有效，并展示了迁移学习和半监督数据集注释在类似任务中的潜力。
 
     
 
-    推荐系统在匹配互联网应用程序用户的信息需求方面发挥着重要作用。在自然语言处理领域中，大型语言模型已经展现出了惊人的新兴能力（例如指令跟踪、推理），从而为将LLM调整到推荐系统中以提高性能和改善用户体验的研究方向带来了希望。在本文中，我们从应用导向的角度对此研究方向进行了全面的调查。我们首先从两个正交的角度总结了现有的研究工作：如何在推荐系统中调整LLM和调整LLM时在哪里调整。对于“在哪里”这个问题，我们讨论了LLM在推荐流程的不同阶段中可能发挥的作用，即特征工程、特征编码器、评分/排名函数和流程控制器。对于“如何”这个问题，我们调查了训练和推理策略，从而得出两个细粒度的分类标准，即是否调整LLM和是否将LLM作为独立模型或混合模型组件使用。最后，我们提出了在将LLM调整到RS中的一些挑战和潜在方向，包括与现有系统的集成、用户反馈、评估度量和知识蒸馏。
+    我们提出了关于使用半监督数据集注释进行鸟鸣分类的迁移学习的工作笔记，重点是在记录的声景中识别非洲鸟类物种。我们的方法利用现有的现成模型BirdNET和MixIT来解决比赛中的表示和标注挑战。我们探索了BirdNET学习到的嵌入空间，并提出了一种获取用于监督学习的带标注数据集的方法。我们的实验涉及各种模型和特征工程方法，以在比赛排行榜上达到最佳表现。结果表明我们的方法在鸟类物种分类方面的有效性，并突出了迁移学习和半监督数据集注释在类似任务中的潜力。
 
-    Recommender systems (RS) play important roles to match users' information needs for Internet applications. In natural language processing (NLP) domains, large language model (LLM) has shown astonishing emergent abilities (e.g., instruction following, reasoning), thus giving rise to the promising research direction of adapting LLM to RS for performance enhancements and user experience improvements. In this paper, we conduct a comprehensive survey on this research direction from an application-oriented view. We first summarize existing research works from two orthogonal perspectives: where and how to adapt LLM to RS. For the "WHERE" question, we discuss the roles that LLM could play in different stages of the recommendation pipeline, i.e., feature engineering, feature encoder, scoring/ranking function, and pipeline controller. For the "HOW" question, we investigate the training and inference strategies, resulting in two fine-grained taxonomy criteria, i.e., whether to tune LLMs or not, a
+    We present working notes on transfer learning with semi-supervised dataset annotation for the BirdCLEF 2023 competition, focused on identifying African bird species in recorded soundscapes. Our approach utilizes existing off-the-shelf models, BirdNET and MixIT, to address representation and labeling challenges in the competition. We explore the embedding space learned by BirdNET and propose a process to derive an annotated dataset for supervised learning. Our experiments involve various models and feature engineering approaches to maximize performance on the competition leaderboard. The results demonstrate the effectiveness of our approach in classifying bird species and highlight the potential of transfer learning and semi-supervised dataset annotation in similar tasks.
+    
+[^6]: 多情景排序与自适应特征学习
+
+    Multi-Scenario Ranking with Adaptive Feature Learning. (arXiv:2306.16732v1 [cs.IR])
+
+    [http://arxiv.org/abs/2306.16732](http://arxiv.org/abs/2306.16732)
+
+    多情景学习在推荐和检索系统中被广泛应用于行业中。本文提出了一种自适应特征学习方法，通过优化特征表示来提高排序性能，减少了对网络结构的搜索和维护成本。
+
+    
+
+    最近，多情景学习（MSL）在推荐和检索系统中被广泛应用于行业中，因为它有助于从不同情景中进行迁移学习，减轻了数据稀疏性并降低了维护成本。这些努力通过搜索更优网络结构（如辅助网络、专家网络和多塔网络）产生不同的MSL范式。不同的情景可以持有特定的特征，因此激活用户的意图会有所不同。换句话说，在不同的情景下，不同类型的辅助特征的重要性也会有所不同。通过以情景感知的方式优化更具有区分性的特征表示，可以轻松地获得更好的排序性能，而无需昂贵地搜索最优网络结构。不幸的是，这个简单的想法在实际系统中主要被忽视，但却是非常需要的。进一步的分析也验证了自适应特征学习的合理性。
+
+    Recently, Multi-Scenario Learning (MSL) is widely used in recommendation and retrieval systems in the industry because it facilitates transfer learning from different scenarios, mitigating data sparsity and reducing maintenance cost. These efforts produce different MSL paradigms by searching more optimal network structure, such as Auxiliary Network, Expert Network, and Multi-Tower Network. It is intuitive that different scenarios could hold their specific characteristics, activating the user's intents quite differently. In other words, different kinds of auxiliary features would bear varying importance under different scenarios. With more discriminative feature representations refined in a scenario-aware manner, better ranking performance could be easily obtained without expensive search for the optimal network structure. Unfortunately, this simple idea is mainly overlooked but much desired in real-world systems.Further analysis also validates the rationality of adaptive feature learni
+    
+[^7]: 探索 SPLADE 模型的表示能力
+
+    Exploring the Representation Power of SPLADE Models. (arXiv:2306.16680v1 [cs.IR])
+
+    [http://arxiv.org/abs/2306.16680](http://arxiv.org/abs/2306.16680)
+
+    SPLADE模型是一种学习稀疏检索的方法，通过正则化保持倒排列表的稀疏性来提高词汇匹配和排名效果。研究发现，即使使用不常见的词汇，如停用词或随机词，SPLADE模型仍然可以有效地编码排名信号。
+
+    
+
+    SPLADE (SParse Lexical AnD Expansion) 模型是一种高效的学习稀疏检索方法，其中文档由从大型语言模型中获取的词项影响分数表示。在训练过程中，SPLADE 应用正则化来确保倒排列表保持稀疏 -- 目的是模拟自然词项分布的特性 -- 从而实现高效和有效的词汇匹配和排名。然而，我们假设 SPLADE 可以通过常见的倒排列表进一步编码附加的信号以提高效果。为了探索这个想法，我们进行了一系列的实证分析，通过使用不同的控制词汇重新训练 SPLADE 并衡量其在排名段落方面的效果。我们的研究结果表明，即使词汇被限制在传统上用于排名的无用词项（如停用词或随机词），SPLADE 仍然可以有效地在文档中编码有效的排名信号。
+
+    The SPLADE (SParse Lexical AnD Expansion) model is a highly effective approach to learned sparse retrieval, where documents are represented by term impact scores derived from large language models. During training, SPLADE applies regularization to ensure postings lists are kept sparse -- with the aim of mimicking the properties of natural term distributions -- allowing efficient and effective lexical matching and ranking. However, we hypothesize that SPLADE may encode additional signals into common postings lists to further improve effectiveness. To explore this idea, we perform a number of empirical analyses where we re-train SPLADE with different, controlled vocabularies and measure how effective it is at ranking passages. Our findings suggest that SPLADE can effectively encode useful ranking signals in documents even when the vocabulary is constrained to terms that are not traditionally useful for ranking, such as stopwords or even random words.
+    
+[^8]: 超越CO2排放：信息检索模型的水消耗的被忽视的影响
+
+    Beyond CO2 Emissions: The Overlooked Impact of Water Consumption of Information Retrieval Models. (arXiv:2306.16668v1 [cs.IR])
+
+    [http://arxiv.org/abs/2306.16668](http://arxiv.org/abs/2306.16668)
+
+    信息检索社区对于搜索模型的能量消耗产生了兴趣，并发现基于大型语言模型的新神经模型导致了信息检索模型的能源消耗增加，但与自然语言处理等领域相比较低。
+
+    
+
+    与其他人工智能领域一样，信息检索社区对与神经模型相关的能量消耗产生了兴趣，特别是对搜索模型的研究。随着基于大型语言模型的新神经模型的出现，信息检索模型的能源消耗也随之增加，尽管相对于自然语言处理等领域而言仍然较低，但这种兴趣变得尤为重要。
+
+    As in other fields of artificial intelligence, the information retrieval community has grown interested in investigating the power consumption associated with neural models, particularly models of search. This interest has become particularly relevant as the energy consumption of information retrieval models has risen with new neural models based on large language models, leading to an associated increase of CO2 emissions, albeit relatively low compared to fields such as natural language processing.
+    
+[^9]: 使用视觉-语言预训练模型在Iconclass上进行多模态搜索
+
+    Multimodal Search on Iconclass using Vision-Language Pre-Trained Models. (arXiv:2306.16529v1 [cs.IR])
+
+    [http://arxiv.org/abs/2306.16529](http://arxiv.org/abs/2306.16529)
+
+    本文介绍了一种使用预训练的视觉-语言模型CLIP的搜索引擎实现方案，用于Iconclass图像分类系统，可以通过图像或文本查询来检索和探索Iconclass概念。
+
+    
+
+    术语来源，如受控词汇、词表和分类系统，在数字化文化遗产中起着关键作用。然而，允许查询和探索这些词汇资源的信息检索（IR）系统往往缺乏对用户搜索背后语义的适当表示，这可以通过多种表达方式传达（例如，图像、关键词或文本描述）。本文介绍了一种新的搜索引擎实现方案，用于其中一种最常用的图像分类系统Iconclass。该系统的创新之处在于使用预训练的视觉 - 语言模型CLIP来检索和探索Iconclass概念，无论是通过视觉查询还是文本查询。
+
+    Terminology sources, such as controlled vocabularies, thesauri and classification systems, play a key role in digitizing cultural heritage. However, Information Retrieval (IR) systems that allow to query and explore these lexical resources often lack an adequate representation of the semantics behind the user's search, which can be conveyed through multiple expression modalities (e.g., images, keywords or textual descriptions). This paper presents the implementation of a new search engine for one of the most widely used iconography classification system, Iconclass. The novelty of this system is the use of a pre-trained vision-language model, namely CLIP, to retrieve and explore Iconclass concepts using visual or textual queries.
+    
+[^10]: 基于机器学习模型的学术环境中的食物推荐系统
+
+    A Food Recommender System in Academic Environments Based on Machine Learning Models. (arXiv:2306.16528v1 [cs.IR])
+
+    [http://arxiv.org/abs/2306.16528](http://arxiv.org/abs/2306.16528)
+
+    这个论文介绍了一个基于机器学习模型的食物推荐系统，通过使用协同过滤、基于内容和基于知识的模型，以提高人们的健康。研究探讨了决策树、k最近邻居(kNN)、AdaBoost和Bagging等机器学习模型在食物推荐系统上的应用。
+
+    
+
+    背景：人们的健康取决于适当的饮食，是一个重要因素。如今，随着人们生活的机械化增加，适当的饮食习惯和行为被忽视了。另一方面，健康领域中的食物推荐也试图解决这个问题。但是随着西方饮食风格的引入和西方化学药物的进步，在疾病治疗和营养方面出现了许多问题。技术的最新进展和人工智能方法在信息系统中的应用，导致了推荐系统的创建，以改善人们的健康。方法：采用混合推荐系统，包括协同过滤、基于内容和基于知识的模型。在2519名学生的营养管理系统中，研究了决策树、k最近邻居(kNN)、AdaBoost和Bagging等机器学习模型在食物推荐系统领域的应用。
+
+    Background: People's health depends on the use of proper diet as an important factor. Today, with the increasing mechanization of people's lives, proper eating habits and behaviors are neglected. On the other hand, food recommendations in the field of health have also tried to deal with this issue. But with the introduction of the Western nutrition style and the advancement of Western chemical medicine, many issues have emerged in the field of disease treatment and nutrition. Recent advances in technology and the use of artificial intelligence methods in information systems have led to the creation of recommender systems in order to improve people's health. Methods: A hybrid recommender system including, collaborative filtering, content-based, and knowledge-based models was used. Machine learning models such as Decision Tree, k-Nearest Neighbors (kNN), AdaBoost, and Bagging were investigated in the field of food recommender systems on 2519 students in the nutrition management system of
+    
+[^11]: OBELISC：一个开放的网页规模筛选图像文档数据集
+
+    OBELISC: An Open Web-Scale Filtered Dataset of Interleaved Image-Text Documents. (arXiv:2306.16527v1 [cs.IR])
+
+    [http://arxiv.org/abs/2306.16527](http://arxiv.org/abs/2306.16527)
+
+    OBELISC是一个开放的网页规模筛选图像文本数据集，包含141亿个网页，3.53亿个图像和1150亿个文本标记。通过在此数据集上训练一个80亿参数的模型，取得了在多模态基准测试中有竞争力的性能。
+
+    
+
+    在要求对一个或多个图片进行推理生成文本的各种多模态基准测试中，基于自然文档的大规模多模态模型（图像与文本交错）的表现优于基于图像-文本对训练的模型。然而，用于训练这些模型的数据集尚未发布，并且收集过程尚未完全明确。我们介绍了OBELISC数据集，一个由141亿个从Common Crawl提取的网页，3.53亿个相关图像和1150亿个文本标记组成的开放式网页规模筛选的图像文本交错的数据集。我们描述了数据集的创建过程，提供了全面的过滤规则，并对数据集的内容进行了分析。为了展示OBELISC的可行性，我们在数据集上训练了一个80亿参数的视觉和语言模型，并在各种多模态基准测试中获得了有竞争力的性能。我们发布了用于重现数据集的代码以及数据集本身。
+
+    Large multimodal models trained on natural documents, which interleave images and text, outperform models trained on image-text pairs on various multimodal benchmarks that require reasoning over one or multiple images to generate a text. However, the datasets used to train these models have not been released, and the collection process has not been fully specified. We introduce the OBELISC dataset, an open web-scale filtered dataset of interleaved image-text documents comprising 141 million web pages extracted from Common Crawl, 353 million associated images, and 115 billion text tokens. We describe the dataset creation process, present comprehensive filtering rules, and provide an analysis of the dataset's content. To show the viability of OBELISC, we train an 80 billion parameters vision and language model on the dataset and obtain competitive performance on various multimodal benchmarks. We release the code to reproduce the dataset along with the dataset itself.
+    
+[^12]: 通过生成虚假评论对基于评论的推荐系统进行操纵的黑盒检测
+
+    Shilling Black-box Review-based Recommender Systems through Fake Review Generation. (arXiv:2306.16526v1 [cs.IR])
+
+    [http://arxiv.org/abs/2306.16526](http://arxiv.org/abs/2306.16526)
+
+    本文提出了一种基于生成的模型，通过虚假评论生成器对基于评论的推荐系统进行操纵攻击。实验证明该框架可以成功地攻击亚马逊上的三种不同类型的RBRS。
+
+    
+
+    基于评论的推荐系统（RBRS）由于能够缓解众所周知的冷启动问题而受到越来越多的研究关注。RBRS利用评论来构建用户和物品的表示。然而，在本文中，我们认为这种对评论的依赖可能会使系统面临被操纵的风险。为了探索这种可能性，在本文中，我们提出了一种用于对RBRS进行操纵攻击的基于生成的模型。具体而言，我们通过强化学习来学习一个虚假评论生成器，它通过向系统添加生成的评论导致预测偏移从而恶意推广物品。通过引入辅助奖励，借助预训练的语言模型和方面预测器来增加文本的流畅性和多样性，生成的评论可以有效地用于高保真度的操纵。实验结果表明，所提出的框架可以成功地攻击亚马逊上的三种不同类型的RBRS。
+
+    Review-Based Recommender Systems (RBRS) have attracted increasing research interest due to their ability to alleviate well-known cold-start problems. RBRS utilizes reviews to construct the user and items representations. However, in this paper, we argue that such a reliance on reviews may instead expose systems to the risk of being shilled. To explore this possibility, in this paper, we propose the first generation-based model for shilling attacks against RBRSs. Specifically, we learn a fake review generator through reinforcement learning, which maliciously promotes items by forcing prediction shifts after adding generated reviews to the system. By introducing the auxiliary rewards to increase text fluency and diversity with the aid of pre-trained language models and aspect predictors, the generated reviews can be effective for shilling with high fidelity. Experimental results demonstrate that the proposed framework can successfully attack three different kinds of RBRSs on the Amazon c
+    
+[^13]: 社交媒体流中的事件检测：方法、数据集和机会
+
+    Event Detection from Social Media Stream: Methods, Datasets and Opportunities. (arXiv:2306.16495v1 [cs.SI])
+
+    [http://arxiv.org/abs/2306.16495](http://arxiv.org/abs/2306.16495)
+
+    本论文调查了Twitter数据流的事件检测方法，提供了公开可用的数据集，并探讨了未来的研究机会。
+
+    
+
+    社交媒体流包含大量多样化的信息，从日常生活故事到最新的全球和当地事件和新闻。特别是Twitter，允许快速传播实时发生的事件，并使个人和组织能够及时了解当前事件。从社交媒体数据中检测事件与传统文本面临不同的挑战，是近年来受到关注的研究领域。在本文中，我们调查了Twitter数据流的广泛事件检测方法，帮助读者了解该领域的最新发展。我们还介绍了公开可用的数据集。此外，还有一些研究机会。
+
+    Social media streams contain large and diverse amount of information, ranging from daily-life stories to the latest global and local events and news. Twitter, especially, allows a fast spread of events happening real time, and enables individuals and organizations to stay informed of the events happening now. Event detection from social media data poses different challenges from traditional text and is a research area that has attracted much attention in recent years. In this paper, we survey a wide range of event detection methods for Twitter data stream, helping readers understand the recent development in this area. We present the datasets available to the public. Furthermore, a few research opportunities
+    
+[^14]: 为外部知识视觉问答预训练多模态稠密检索器
+
+    Pre-Training Multi-Modal Dense Retrievers for Outside-Knowledge Visual Question Answering. (arXiv:2306.16478v1 [cs.IR])
+
+    [http://arxiv.org/abs/2306.16478](http://arxiv.org/abs/2306.16478)
+
+    本文提出了一个为外部知识视觉问答任务预训练的段落检索模型的自动数据生成管道，相较于最先进的架构实现了更好的Precision@5。此外，所提出的预训练方法在零样本检索场景中展示了良好的能力。
+
+    
+
+    本文研究了一类视觉问答任务，其中访问外部知识对于回答问题是必要的。这个类别被称为外部知识视觉问答（OK-VQA）。开发OK-VQA系统的一个重要步骤是为给定的多模态查询检索相关文档。目前此任务的最先进的非对称稠密检索模型使用了一个多模态查询编码器和一个单模态文档编码器的架构。这样的架构需要大量的训练数据才能实现有效的性能。我们提出了一个用于预训练OK-VQA任务的段落检索模型的自动数据生成管道。与当前最先进的非对称架构相比，所提出的方法使Precision@5提升了26.9%。此外，所提出的预训练方法在零样本检索场景中展示了良好的能力。
+
+    This paper studies a category of visual question answering tasks, in which accessing external knowledge is necessary for answering the questions. This category is called outside-knowledge visual question answering (OK-VQA). A major step in developing OK-VQA systems is to retrieve relevant documents for the given multi-modal query. Current state-of-the-art asymmetric dense retrieval model for this task uses an architecture with a multi-modal query encoder and a uni-modal document encoder. Such an architecture requires a large amount of training data for effective performance. We propose an automatic data generation pipeline for pre-training passage retrieval models for OK-VQA tasks. The proposed approach leads to 26.9% Precision@5 improvements compared to the current state-of-the-art asymmetric architecture. Additionally, the proposed pre-training approach exhibits a good ability in zero-shot retrieval scenarios.
+    
+[^15]: 跨领域推荐的协作迁移学习框架
+
+    A Collaborative Transfer Learning Framework for Cross-domain Recommendation. (arXiv:2306.16425v1 [cs.IR])
+
+    [http://arxiv.org/abs/2306.16425](http://arxiv.org/abs/2306.16425)
+
+    这篇论文提出了一种协作跨领域迁移学习框架（CCTL），用于解决推荐系统中不同领域CTR预测建模的挑战。
+
+    
+
+    在推荐系统中，有多个不同的业务领域来满足用户的多样化兴趣和需求，不同领域的点击率（CTR）可能会有很大差异，这就需要对不同业务领域进行CTR预测建模。行业解决方案是对每个领域使用特定的模型或迁移学习技术。前者的缺点是单一领域模型没有利用其他领域的数据，而后者则利用不同领域的所有数据，但迁移学习的微调模型可能使模型陷入源领域的局部最优，难以适应目标领域。同时，不同领域之间存在数据数量和特征模式的显著差异，即领域偏移，在迁移过程中可能导致负面迁移。为了克服这些挑战，我们提出了协作跨领域迁移学习框架（CCTL）。
+
+    In the recommendation systems, there are multiple business domains to meet the diverse interests and needs of users, and the click-through rate(CTR) of each domain can be quite different, which leads to the demand for CTR prediction modeling for different business domains. The industry solution is to use domain-specific models or transfer learning techniques for each domain. The disadvantage of the former is that the data from other domains is not utilized by a single domain model, while the latter leverage all the data from different domains, but the fine-tuned model of transfer learning may trap the model in a local optimum of the source domain, making it difficult to fit the target domain. Meanwhile, significant differences in data quantity and feature schemas between different domains, known as domain shift, may lead to negative transfer in the process of transferring. To overcome these challenges, we propose the Collaborative Cross-Domain Transfer Learning Framework (CCTL). CCTL e
+    
+[^16]: 提高人脸模型的身份鲁棒性
+
+    Improving Identity-Robustness for Face Models. (arXiv:2304.03838v1 [cs.CV])
+
+    [http://arxiv.org/abs/2304.03838](http://arxiv.org/abs/2304.03838)
+
+    该论文探讨了在没有身份注释信息的情况下，使用人脸识别嵌入向量作为身份标识的替代方法，以提高人脸模型的身份鲁棒性和公平性。
+
+    
+
+    虽然深度学习模型在许多任务中取得了成功，但人们仍然担心这些模型可能学习到快捷方式，并且缺乏对无关混淆因素的鲁棒性。在直接训练于人脸上的模型中，一个敏感的混淆因素是人的身份。许多与人脸相关的任务理想情况下应该是与身份无关的，并在不同个体之间表现一致（即公平）。通过在训练期间强制执行这种鲁棒性和性能均匀性是度量和实施的一种方法，假设可以在规模上获取与身份相关的信息。但是，由于隐私问题以及收集此类信息的成本，这通常不是情况，大多数人脸数据集只包含输入图像及其相应的任务标签。因此，无需此类注释即可提高身份相关鲁棒性非常重要。在这里，我们探讨使用人脸识别嵌入向量作为身份标识的替代方法，以执行这种鲁棒性和公平性。
+
+    Despite the success of deep-learning models in many tasks, there have been concerns about such models learning shortcuts, and their lack of robustness to irrelevant confounders. When it comes to models directly trained on human faces, a sensitive confounder is that of human identities. Many face-related tasks should ideally be identity-independent, and perform uniformly across different individuals (i.e. be fair). One way to measure and enforce such robustness and performance uniformity is through enforcing it during training, assuming identity-related information is available at scale. However, due to privacy concerns and also the cost of collecting such information, this is often not the case, and most face datasets simply contain input images and their corresponding task-related labels. Thus, improving identity-related robustness without the need for such annotations is of great importance. Here, we explore using face-recognition embedding vectors, as proxies for identities, to enfo
     
 

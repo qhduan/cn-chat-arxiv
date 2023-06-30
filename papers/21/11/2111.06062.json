@@ -1,0 +1,11 @@
+{
+    "title": "The Supply of Motivated Beliefs. (arXiv:2111.06062v6 [econ.GN] UPDATED)",
+    "abstract": "This paper experimentally studies how motivated reasoning affects information transmission. Senders are randomly matched with receivers whose ideology is either aligned or misaligned with the truth, and either face incentives to be rated as truthful by receivers or face no incentives. These perceived-truth incentives make senders less truthful, as they shift to sending false information that aligns with receivers' politically-motivated beliefs. Receivers' ratings of senders' truthfulness are unaffected by senders' incentives, suggesting naivete. A complementary experiment further identifies senders' beliefs about motivated reasoning as the driving mechanism. Results indicate that incentives can perversely affect disinformation when issues evoke motivated beliefs.",
+    "link": "http://arxiv.org/abs/2111.06062",
+    "context": "Title: The Supply of Motivated Beliefs. (arXiv:2111.06062v6 [econ.GN] UPDATED)\nAbstract: This paper experimentally studies how motivated reasoning affects information transmission. Senders are randomly matched with receivers whose ideology is either aligned or misaligned with the truth, and either face incentives to be rated as truthful by receivers or face no incentives. These perceived-truth incentives make senders less truthful, as they shift to sending false information that aligns with receivers' politically-motivated beliefs. Receivers' ratings of senders' truthfulness are unaffected by senders' incentives, suggesting naivete. A complementary experiment further identifies senders' beliefs about motivated reasoning as the driving mechanism. Results indicate that incentives can perversely affect disinformation when issues evoke motivated beliefs.",
+    "path": "papers/21/11/2111.06062.json",
+    "total_tokens": 793,
+    "translated_title": "激发动机的信念供给",
+    "translated_abstract": "本文实验性地研究了激发推理对信息传递的影响。随机匹配了发送者和与真实情况相一致或不一致的接收者，并且面临被接收者评定为真实的激励或没有激励。这种被感知为真实的激励使得发送者不那么真实，他们转而发送与接收者的政治动机信念一致的虚假信息。接收者对发送者真实性的评价不受发送者激励的影响，这表明他们相对单纯。进一步的实验确认了发送者关于激发推理的信念是驱动机制。结果表明，当问题引发激发信念时，激励会恶化虚假信息的传播。",
+    "tldr": "本文通过实验研究了激发推理对信息传递的影响，发现当发送者面临被接收者评定为真实的激励时，他们更倾向于发送与接收者的政治动机信念一致的虚假信息。接收者对发送者的评价不受发送者激励的影响。研究结果表明，当存在激发信念的问题时，激励可能会导致虚假信息的传播。"
+}

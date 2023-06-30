@@ -1,0 +1,12 @@
+{
+    "title": "Towards a Self-Replicating Turing Machine. (arXiv:2306.16872v1 [cs.FL])",
+    "abstract": "We provide partial implementations of von Neumann's universal constructor and universal copier, starting out with three types of simple building blocks using minimal assumptions. Using the same principles, we also construct Turing machines. Combining both, we arrive at a proposal for a self-replicating Turing machine. Our construction allows for mutations if desired, and we give a simple description language.",
+    "link": "http://arxiv.org/abs/2306.16872",
+    "context": "Title: Towards a Self-Replicating Turing Machine. (arXiv:2306.16872v1 [cs.FL])\nAbstract: We provide partial implementations of von Neumann's universal constructor and universal copier, starting out with three types of simple building blocks using minimal assumptions. Using the same principles, we also construct Turing machines. Combining both, we arrive at a proposal for a self-replicating Turing machine. Our construction allows for mutations if desired, and we give a simple description language.",
+    "path": "papers/23/06/2306.16872.json",
+    "total_tokens": 605,
+    "translated_title": "迈向自复制图灵机",
+    "translated_abstract": "我们提供了von Neumann的通用构造器和通用复制器的部分实现，从三种简单的构建块开始，使用最小的假设。使用相同的原理，我们还构建了图灵机。将两者结合起来，我们提出了一个自复制的图灵机的方案。我们的构造允许进行变异，并给出一个简单的描述语言。",
+    "tldr": "该论文介绍了一种自复制图灵机的构造方法，通过从简单的构建块开始，并使用最小的假设和相同的原理，提供了von Neumann的通用构造器和通用复制器的部分实现。该构造允许进行变异，并提供了一个简单的描述语言。",
+    "en_tdlr": "This paper presents a construction method for a self-replicating Turing machine, starting from simple building blocks and using minimal assumptions and the same principles, providing partial implementations of von Neumann's universal constructor and universal copier. The construction allows for mutations and provides a simple description language."
+}

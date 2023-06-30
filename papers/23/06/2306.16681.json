@@ -1,0 +1,12 @@
+{
+    "title": "Data-driven Multiperiod Robust Mean-Variance Optimization. (arXiv:2306.16681v1 [q-fin.MF])",
+    "abstract": "We study robust mean-variance optimization in multiperiod portfolio selection by allowing the true probability measure to be inside a Wasserstein ball centered at the empirical probability measure. Given the confidence level, the radius of the Wasserstein ball is determined by the empirical data. The numerical simulations of the US stock market provide a promising result compared to other popular strategies.",
+    "link": "http://arxiv.org/abs/2306.16681",
+    "context": "Title: Data-driven Multiperiod Robust Mean-Variance Optimization. (arXiv:2306.16681v1 [q-fin.MF])\nAbstract: We study robust mean-variance optimization in multiperiod portfolio selection by allowing the true probability measure to be inside a Wasserstein ball centered at the empirical probability measure. Given the confidence level, the radius of the Wasserstein ball is determined by the empirical data. The numerical simulations of the US stock market provide a promising result compared to other popular strategies.",
+    "path": "papers/23/06/2306.16681.json",
+    "total_tokens": 635,
+    "translated_title": "基于数据驱动的多期健壮均值方差优化",
+    "translated_abstract": "我们在多期投资组合选择中研究了健壮的均值方差优化问题，允许真实概率测度位于以经验概率测度为中心的Wasserstein球内。根据置信水平，Wasserstein球的半径由经验数据确定。与其他流行策略相比，在美国股市的数值模拟结果表明了很好的前景。",
+    "tldr": "该论文提出了一种基于数据驱动的多期健壮均值方差优化方法，通过将真实概率测度约束在以经验概率测度为中心的Wasserstein球内，根据经验数据确定球的半径。在美国股市的数值模拟中，该方法表现优异。",
+    "en_tdlr": "This paper proposes a data-driven multiperiod robust mean-variance optimization method, which constrains the true probability measure within a Wasserstein ball centered at the empirical probability measure and determines the radius of the ball based on empirical data. The numerical simulations in the US stock market show promising performance of this method."
+}

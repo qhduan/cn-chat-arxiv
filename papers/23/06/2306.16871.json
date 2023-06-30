@@ -1,0 +1,12 @@
+{
+    "title": "Discount Models. (arXiv:2306.16871v1 [q-fin.MF])",
+    "abstract": "Discount is the difference between the face value of a bond and its present value. I propose an arbitrage-free dynamic framework for discount models, which provides an alternative to the Heath--Jarrow--Morton framework for forward rates. I derive general consistency conditions for factor models, and discuss affine term structure models in particular. There are several open problems, and I outline possible directions for further research.",
+    "link": "http://arxiv.org/abs/2306.16871",
+    "context": "Title: Discount Models. (arXiv:2306.16871v1 [q-fin.MF])\nAbstract: Discount is the difference between the face value of a bond and its present value. I propose an arbitrage-free dynamic framework for discount models, which provides an alternative to the Heath--Jarrow--Morton framework for forward rates. I derive general consistency conditions for factor models, and discuss affine term structure models in particular. There are several open problems, and I outline possible directions for further research.",
+    "path": "papers/23/06/2306.16871.json",
+    "total_tokens": 606,
+    "translated_title": "折扣模型",
+    "translated_abstract": "折扣是债券的面值与其现值之间的差额。我提出了一种无套利动态框架用于折扣模型，该框架提供了一种替代 Heath-Jarrow-Morton 框架的前瞻利率方法。我推导出了因子模型的一般一致性条件，并重点讨论了亲和术语结构模型。还存在一些开放性问题，并概述了可能的进一步研究方向。",
+    "tldr": "本论文提出了一种无套利动态框架用于折扣模型，并推导了因子模型的一般一致性条件。此外，还讨论了亲和术语结构模型，并提出了一些开放性问题和进一步研究的方向。",
+    "en_tdlr": "This paper proposes an arbitrage-free dynamic framework for discount models and derives general consistency conditions for factor models. Furthermore, it discusses affine term structure models and outlines open problems and possible directions for future research."
+}

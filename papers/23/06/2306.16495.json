@@ -1,0 +1,12 @@
+{
+    "title": "Event Detection from Social Media Stream: Methods, Datasets and Opportunities. (arXiv:2306.16495v1 [cs.SI])",
+    "abstract": "Social media streams contain large and diverse amount of information, ranging from daily-life stories to the latest global and local events and news. Twitter, especially, allows a fast spread of events happening real time, and enables individuals and organizations to stay informed of the events happening now. Event detection from social media data poses different challenges from traditional text and is a research area that has attracted much attention in recent years. In this paper, we survey a wide range of event detection methods for Twitter data stream, helping readers understand the recent development in this area. We present the datasets available to the public. Furthermore, a few research opportunities",
+    "link": "http://arxiv.org/abs/2306.16495",
+    "context": "Title: Event Detection from Social Media Stream: Methods, Datasets and Opportunities. (arXiv:2306.16495v1 [cs.SI])\nAbstract: Social media streams contain large and diverse amount of information, ranging from daily-life stories to the latest global and local events and news. Twitter, especially, allows a fast spread of events happening real time, and enables individuals and organizations to stay informed of the events happening now. Event detection from social media data poses different challenges from traditional text and is a research area that has attracted much attention in recent years. In this paper, we survey a wide range of event detection methods for Twitter data stream, helping readers understand the recent development in this area. We present the datasets available to the public. Furthermore, a few research opportunities",
+    "path": "papers/23/06/2306.16495.json",
+    "total_tokens": 672,
+    "translated_title": "社交媒体流中的事件检测：方法、数据集和机会",
+    "translated_abstract": "社交媒体流包含大量多样化的信息，从日常生活故事到最新的全球和当地事件和新闻。特别是Twitter，允许快速传播实时发生的事件，并使个人和组织能够及时了解当前事件。从社交媒体数据中检测事件与传统文本面临不同的挑战，是近年来受到关注的研究领域。在本文中，我们调查了Twitter数据流的广泛事件检测方法，帮助读者了解该领域的最新发展。我们还介绍了公开可用的数据集。此外，还有一些研究机会。",
+    "tldr": "本论文调查了Twitter数据流的事件检测方法，提供了公开可用的数据集，并探讨了未来的研究机会。",
+    "en_tdlr": "This paper surveys event detection methods for Twitter data streams, provides publicly available datasets, and explores future research opportunities."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Beyond CO2 Emissions: The Overlooked Impact of Water Consumption of Information Retrieval Models. (arXiv:2306.16668v1 [cs.IR])",
+    "abstract": "As in other fields of artificial intelligence, the information retrieval community has grown interested in investigating the power consumption associated with neural models, particularly models of search. This interest has become particularly relevant as the energy consumption of information retrieval models has risen with new neural models based on large language models, leading to an associated increase of CO2 emissions, albeit relatively low compared to fields such as natural language processing.",
+    "link": "http://arxiv.org/abs/2306.16668",
+    "context": "Title: Beyond CO2 Emissions: The Overlooked Impact of Water Consumption of Information Retrieval Models. (arXiv:2306.16668v1 [cs.IR])\nAbstract: As in other fields of artificial intelligence, the information retrieval community has grown interested in investigating the power consumption associated with neural models, particularly models of search. This interest has become particularly relevant as the energy consumption of information retrieval models has risen with new neural models based on large language models, leading to an associated increase of CO2 emissions, albeit relatively low compared to fields such as natural language processing.",
+    "path": "papers/23/06/2306.16668.json",
+    "total_tokens": 645,
+    "translated_title": "超越CO2排放：信息检索模型的水消耗的被忽视的影响",
+    "translated_abstract": "与其他人工智能领域一样，信息检索社区对与神经模型相关的能量消耗产生了兴趣，特别是对搜索模型的研究。随着基于大型语言模型的新神经模型的出现，信息检索模型的能源消耗也随之增加，尽管相对于自然语言处理等领域而言仍然较低，但这种兴趣变得尤为重要。",
+    "tldr": "信息检索社区对于搜索模型的能量消耗产生了兴趣，并发现基于大型语言模型的新神经模型导致了信息检索模型的能源消耗增加，但与自然语言处理等领域相比较低。",
+    "en_tdlr": "The information retrieval community is interested in the energy consumption of search models, and they have found that the use of new neural models based on large language models has led to an increase in energy consumption, although still relatively low compared to fields like natural language processing."
+}

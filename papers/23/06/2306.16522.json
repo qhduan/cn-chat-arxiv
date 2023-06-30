@@ -1,0 +1,12 @@
+{
+    "title": "The Implied Views of Bond Traders on the Spot Equity Market. (arXiv:2306.16522v1 [q-fin.TR])",
+    "abstract": "By using the Black-Derman-Toy (BDT) model, we predict the future trend of the riskless rate, and then we build an equation that relates the market price of zero-coupon bonds and the theoretical price of zero-coupon bonds calculated using a binomial option pricing model. Based on this, we can find the implied daily return $\\mu$, implied natural upturn probability $p$, and implied daily volatility $\\sigma$ with respect to different time-to-maturity values of zero-coupon bonds. With these results, we can give some suggestions to bond traders.",
+    "link": "http://arxiv.org/abs/2306.16522",
+    "context": "Title: The Implied Views of Bond Traders on the Spot Equity Market. (arXiv:2306.16522v1 [q-fin.TR])\nAbstract: By using the Black-Derman-Toy (BDT) model, we predict the future trend of the riskless rate, and then we build an equation that relates the market price of zero-coupon bonds and the theoretical price of zero-coupon bonds calculated using a binomial option pricing model. Based on this, we can find the implied daily return $\\mu$, implied natural upturn probability $p$, and implied daily volatility $\\sigma$ with respect to different time-to-maturity values of zero-coupon bonds. With these results, we can give some suggestions to bond traders.",
+    "path": "papers/23/06/2306.16522.json",
+    "total_tokens": 727,
+    "translated_title": "债券交易员对现货股票市场的暗示观点",
+    "translated_abstract": "通过使用Black-Derman-Toy（BDT）模型，我们预测无风险利率的未来趋势，并建立了一个将零息债券的市场价格与使用二项式期权定价模型计算的零息债券的理论价格相关联的方程。基于此，我们可以找到相对于零息债券不同到期时间值的隐含每日收益率μ，隐含自然上涨概率p和隐含每日波动率σ。根据这些结果，我们可以给债券交易员一些建议。",
+    "tldr": "通过使用Black-Derman-Toy（BDT）模型，研究者预测了无风险利率的未来趋势，并提供了与零息债券不同到期时间值相关的隐含收益率、隐含上涨概率和隐含波动率，为债券交易员提供了一些建议。",
+    "en_tdlr": "The authors predict the future trend of the riskless rate using the Black-Derman-Toy (BDT) model and provide suggestions to bond traders by calculating the implied daily return, implied natural upturn probability, and implied daily volatility with respect to different time-to-maturity values of zero-coupon bonds."
+}

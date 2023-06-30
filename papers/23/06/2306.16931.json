@@ -1,0 +1,11 @@
+{
+    "title": "UMASS_BioNLP at MEDIQA-Chat 2023: Can LLMs generate high-quality synthetic note-oriented doctor-patient conversations?. (arXiv:2306.16931v1 [cs.CL])",
+    "abstract": "This paper presents UMASS_BioNLP team participation in the MEDIQA-Chat 2023 shared task for Task-A and Task-C. We focus especially on Task-C and propose a novel LLMs cooperation system named a doctor-patient loop to generate high-quality conversation data sets. The experiment results demonstrate that our approaches yield reasonable performance as evaluated by automatic metrics such as ROUGE, medical concept recall, BLEU, and Self-BLEU. Furthermore, we conducted a comparative analysis between our proposed method and ChatGPT and GPT-4. This analysis also investigates the potential of utilizing cooperation LLMs to generate high-quality datasets.",
+    "link": "http://arxiv.org/abs/2306.16931",
+    "context": "Title: UMASS_BioNLP at MEDIQA-Chat 2023: Can LLMs generate high-quality synthetic note-oriented doctor-patient conversations?. (arXiv:2306.16931v1 [cs.CL])\nAbstract: This paper presents UMASS_BioNLP team participation in the MEDIQA-Chat 2023 shared task for Task-A and Task-C. We focus especially on Task-C and propose a novel LLMs cooperation system named a doctor-patient loop to generate high-quality conversation data sets. The experiment results demonstrate that our approaches yield reasonable performance as evaluated by automatic metrics such as ROUGE, medical concept recall, BLEU, and Self-BLEU. Furthermore, we conducted a comparative analysis between our proposed method and ChatGPT and GPT-4. This analysis also investigates the potential of utilizing cooperation LLMs to generate high-quality datasets.",
+    "path": "papers/23/06/2306.16931.json",
+    "total_tokens": 785,
+    "translated_title": "UMASS_BioNLP参加MEDIQA-Chat 2023：LLMs能否生成高质量的医生-患者基于笔记的对话？",
+    "translated_abstract": "本文介绍了UMASS_BioNLP团队参与MEDIQA-Chat 2023共享任务的Task-A和Task-C。我们特别关注Task-C，并提出了一种名为医生-患者循环的新型LLMs协作系统，用于生成高质量的对话数据集。实验证明，我们的方法在ROUGE、医疗概念召回率、BLEU和Self-BLEU等自动评估指标下表现合理。此外，我们还对我们提出的方法与ChatGPT和GPT-4进行了比较分析，探讨了利用协作LLMs生成高质量数据集的潜力。",
+    "tldr": "本文介绍了UMASS_BioNLP团队在MEDIQA-Chat 2023共享任务中的参与，提出了一种新型LLMs协作系统用于生成高质量对话数据集，并与ChatGPT和GPT-4进行了比较分析。"
+}

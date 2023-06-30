@@ -1,0 +1,12 @@
+{
+    "title": "Evaluating Paraphrastic Robustness in Textual Entailment Models. (arXiv:2306.16722v1 [cs.CL])",
+    "abstract": "We present PaRTE, a collection of 1,126 pairs of Recognizing Textual Entailment (RTE) examples to evaluate whether models are robust to paraphrasing. We posit that if RTE models understand language, their predictions should be consistent across inputs that share the same meaning. We use the evaluation set to determine if RTE models' predictions change when examples are paraphrased. In our experiments, contemporary models change their predictions on 8-16\\% of paraphrased examples, indicating that there is still room for improvement.",
+    "link": "http://arxiv.org/abs/2306.16722",
+    "context": "Title: Evaluating Paraphrastic Robustness in Textual Entailment Models. (arXiv:2306.16722v1 [cs.CL])\nAbstract: We present PaRTE, a collection of 1,126 pairs of Recognizing Textual Entailment (RTE) examples to evaluate whether models are robust to paraphrasing. We posit that if RTE models understand language, their predictions should be consistent across inputs that share the same meaning. We use the evaluation set to determine if RTE models' predictions change when examples are paraphrased. In our experiments, contemporary models change their predictions on 8-16\\% of paraphrased examples, indicating that there is still room for improvement.",
+    "path": "papers/23/06/2306.16722.json",
+    "total_tokens": 729,
+    "translated_title": "评估文本蕴涵模型对改写句的鲁棒性",
+    "translated_abstract": "我们提出了PaRTE，一个包含1,126对文本蕴涵（RTE）示例的集合，用于评估模型对改写句的鲁棒性。我们认为，如果RTE模型能够理解语言，它们的预测应该在具有相同含义的输入上保持一致。我们使用评估集来确定当示例被改写时，RTE模型的预测是否发生变化。在我们的实验中，现代模型在8-16％的改写示例上改变了他们的预测，这说明仍有改进的空间。",
+    "tldr": "本文介绍了PaRTE，一个包含1,126对文本蕴涵示例的集合，用于评估模型对改写句的鲁棒性。实验结果表明，现代模型在8-16％的改写示例上改变了他们的预测，说明仍有改进的空间。",
+    "en_tdlr": "This paper presents PaRTE, a collection of 1,126 pairs of Recognizing Textual Entailment (RTE) examples to evaluate the robustness of models to paraphrasing. The experiments show that contemporary models change their predictions on 8-16% of paraphrased examples, indicating room for improvement."
+}

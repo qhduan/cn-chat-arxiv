@@ -1,0 +1,12 @@
+{
+    "title": "Simulation of Human and Artificial Emotion (SHArE). (arXiv:2011.02151v2 [cs.AI] UPDATED)",
+    "abstract": "The framework for Simulation of Human and Artificial Emotion (SHArE) describes the architecture of emotion in terms of parameters transferable between psychology, neuroscience, and artificial intelligence. These parameters can be defined as abstract concepts or granularized down to the voltage levels of individual neurons. This model enables emotional trajectory design for humans which may lead to novel therapeutic solutions for various mental health concerns. For artificial intelligence, this work provides a compact notation which can be applied to neural networks as a means to observe the emotions and motivations of machines.",
+    "link": "http://arxiv.org/abs/2011.02151",
+    "context": "Title: Simulation of Human and Artificial Emotion (SHArE). (arXiv:2011.02151v2 [cs.AI] UPDATED)\nAbstract: The framework for Simulation of Human and Artificial Emotion (SHArE) describes the architecture of emotion in terms of parameters transferable between psychology, neuroscience, and artificial intelligence. These parameters can be defined as abstract concepts or granularized down to the voltage levels of individual neurons. This model enables emotional trajectory design for humans which may lead to novel therapeutic solutions for various mental health concerns. For artificial intelligence, this work provides a compact notation which can be applied to neural networks as a means to observe the emotions and motivations of machines.",
+    "path": "papers/20/11/2011.02151.json",
+    "total_tokens": 685,
+    "translated_title": "模拟人类和人工情感 (SHArE)的研究",
+    "translated_abstract": "模拟人类和人工情感 (SHArE) 的框架描述了情感的架构，可以在心理学、神经科学和人工智能之间进行参数转移。这些参数可以被定义为抽象概念，也可以细化到个体神经元的电压水平。该模型使得可以设计人类的情感轨迹，从而可能为各种心理健康问题提供新的治疗方案。对于人工智能而言，这项工作提供了一种紧凑的表示方法，可以应用于神经网络，以观察机器的情感和动机。",
+    "tldr": "这项研究介绍了模拟人类和人工情感的框架，为人类的心理健康问题提供了新的治疗方案，并且为人工智能提供了一种观察机器情感和动机的方法。",
+    "en_tdlr": "This research presents a framework for simulating human and artificial emotions, providing new therapeutic solutions for human mental health issues and offering a method to observe emotions and motivations in artificial intelligence systems."
+}
