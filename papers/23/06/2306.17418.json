@@ -1,0 +1,11 @@
+{
+    "title": "ReLU Neural Networks, Polyhedral Decompositions, and Persistent Homolog. (arXiv:2306.17418v1 [math.AT])",
+    "abstract": "A ReLU neural network leads to a finite polyhedral decomposition of input space and a corresponding finite dual graph. We show that while this dual graph is a coarse quantization of input space, it is sufficiently robust that it can be combined with persistent homology to detect homological signals of manifolds in the input space from samples. This property holds for a variety of networks trained for a wide range of purposes that have nothing to do with this topological application. We found this feature to be surprising and interesting; we hope it will also be useful.",
+    "link": "http://arxiv.org/abs/2306.17418",
+    "context": "Title: ReLU Neural Networks, Polyhedral Decompositions, and Persistent Homolog. (arXiv:2306.17418v1 [math.AT])\nAbstract: A ReLU neural network leads to a finite polyhedral decomposition of input space and a corresponding finite dual graph. We show that while this dual graph is a coarse quantization of input space, it is sufficiently robust that it can be combined with persistent homology to detect homological signals of manifolds in the input space from samples. This property holds for a variety of networks trained for a wide range of purposes that have nothing to do with this topological application. We found this feature to be surprising and interesting; we hope it will also be useful.",
+    "path": "papers/23/06/2306.17418.json",
+    "total_tokens": 684,
+    "translated_title": "ReLU神经网络、多面体分解和持续同调",
+    "translated_abstract": "ReLU神经网络导致输入空间的有限多面体分解和相应的有限对偶图。我们证明，尽管这个对偶图是输入空间的粗粒化，但它足够稳健，可以与持续同调结合使用，从样本中检测到输入空间中流形的同调信号。这个性质适用于许多训练用途广泛的网络，并不局限于拓扑应用。我们发现这个特性令人惊讶和有趣，希望它也能有所用处。",
+    "tldr": "通过ReLU神经网络，我们发现了将有限多面体分解与持续同调结合使用来检测输入空间中流形的同调信号的方法，并发现这种方法对于各种训练目的的网络都具有普适性。"
+}

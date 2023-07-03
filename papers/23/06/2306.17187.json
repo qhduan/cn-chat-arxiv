@@ -1,0 +1,11 @@
+{
+    "title": "An Intelligent Mechanism for Monitoring and Detecting Intrusions in IoT Devices. (arXiv:2306.17187v1 [cs.DC])",
+    "abstract": "The current amount of IoT devices and their limitations has come to serve as a motivation for malicious entities to take advantage of such devices and use them for their own gain. To protect against cyberattacks in IoT devices, Machine Learning techniques can be applied to Intrusion Detection Systems. Moreover, privacy related issues associated with centralized approaches can be mitigated through Federated Learning. This work proposes a Host-based Intrusion Detection Systems that leverages Federated Learning and Multi-Layer Perceptron neural networks to detected cyberattacks on IoT devices with high accuracy and enhancing data privacy protection.",
+    "link": "http://arxiv.org/abs/2306.17187",
+    "context": "Title: An Intelligent Mechanism for Monitoring and Detecting Intrusions in IoT Devices. (arXiv:2306.17187v1 [cs.DC])\nAbstract: The current amount of IoT devices and their limitations has come to serve as a motivation for malicious entities to take advantage of such devices and use them for their own gain. To protect against cyberattacks in IoT devices, Machine Learning techniques can be applied to Intrusion Detection Systems. Moreover, privacy related issues associated with centralized approaches can be mitigated through Federated Learning. This work proposes a Host-based Intrusion Detection Systems that leverages Federated Learning and Multi-Layer Perceptron neural networks to detected cyberattacks on IoT devices with high accuracy and enhancing data privacy protection.",
+    "path": "papers/23/06/2306.17187.json",
+    "total_tokens": 698,
+    "translated_title": "一个用于监测和检测物联网设备入侵的智能机制",
+    "translated_abstract": "当前物联网设备的数量及其限制已经成为恶意实体利用这些设备并将其用于自己获利的动机。为了防止物联网设备的网络攻击，可以将机器学习技术应用于入侵检测系统。此外，与集中式方法相关的隐私问题可以通过联邦学习得到缓解。本研究提出了一种基于主机的入侵检测系统，利用联邦学习和多层感知机神经网络来高准确度地检测物联网设备上的网络攻击，并增强数据隐私保护。",
+    "tldr": "本研究提出了一种基于主机的入侵检测系统，利用联邦学习和多层感知机神经网络来提高对物联网设备上网络攻击的准确性，并增强数据隐私保护。"
+}

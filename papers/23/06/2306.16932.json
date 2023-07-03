@@ -1,0 +1,12 @@
+{
+    "title": "A Quantitative Functional Central Limit Theorem for Shallow Neural Networks. (arXiv:2306.16932v1 [math.PR] CROSS LISTED)",
+    "abstract": "We prove a Quantitative Functional Central Limit Theorem for one-hidden-layer neural networks with generic activation function. The rates of convergence that we establish depend heavily on the smoothness of the activation function, and they range from logarithmic in non-differentiable cases such as the Relu to $\\sqrt{n}$ for very regular activations. Our main tools are functional versions of the Stein-Malliavin approach; in particular, we exploit heavily a quantitative functional central limit theorem which has been recently established by Bourguin and Campese (2020).",
+    "link": "http://arxiv.org/abs/2306.16932",
+    "context": "Title: A Quantitative Functional Central Limit Theorem for Shallow Neural Networks. (arXiv:2306.16932v1 [math.PR] CROSS LISTED)\nAbstract: We prove a Quantitative Functional Central Limit Theorem for one-hidden-layer neural networks with generic activation function. The rates of convergence that we establish depend heavily on the smoothness of the activation function, and they range from logarithmic in non-differentiable cases such as the Relu to $\\sqrt{n}$ for very regular activations. Our main tools are functional versions of the Stein-Malliavin approach; in particular, we exploit heavily a quantitative functional central limit theorem which has been recently established by Bourguin and Campese (2020).",
+    "path": "papers/23/06/2306.16932.json",
+    "total_tokens": 638,
+    "translated_title": "浅层神经网络的定量函数中心极限定理",
+    "translated_abstract": "我们证明了对于具有通用激活函数的单隐藏层神经网络的定量函数中心极限定理。我们建立的收敛速度严重依赖于激活函数的平滑性，从非可微的情况（如Relu）的对数级别到非常规则激活函数的$\\sqrt{n}$级别。我们的主要工具是Stein-Malliavin方法的函数版本；特别是，我们大量利用了Bourguin和Campese（2020）最近建立的定量函数中心极限定理。",
+    "tldr": "本文证明了具有通用激活函数的单隐藏层神经网络的定量函数中心极限定理，收敛速度取决于激活函数的平滑性。",
+    "en_tdlr": "This paper proves a quantitative functional central limit theorem for one-hidden-layer neural networks with generic activation function, with convergence rates depending on the smoothness of the activation function."
+}

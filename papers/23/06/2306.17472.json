@@ -1,0 +1,11 @@
+{
+    "title": "Knowledge Base Completion for Long-Tail Entities. (arXiv:2306.17472v1 [cs.CL])",
+    "abstract": "Despite their impressive scale, knowledge bases (KBs), such as Wikidata, still contain significant gaps. Language models (LMs) have been proposed as a source for filling these gaps. However, prior works have focused on prominent entities with rich coverage by LMs, neglecting the crucial case of long-tail entities. In this paper, we present a novel method for LM-based-KB completion that is specifically geared for facts about long-tail entities. The method leverages two different LMs in two stages: for candidate retrieval and for candidate verification and disambiguation. To evaluate our method and various baselines, we introduce a novel dataset, called MALT, rooted in Wikidata. Our method outperforms all baselines in F1, with major gains especially in recall.",
+    "link": "http://arxiv.org/abs/2306.17472",
+    "context": "Title: Knowledge Base Completion for Long-Tail Entities. (arXiv:2306.17472v1 [cs.CL])\nAbstract: Despite their impressive scale, knowledge bases (KBs), such as Wikidata, still contain significant gaps. Language models (LMs) have been proposed as a source for filling these gaps. However, prior works have focused on prominent entities with rich coverage by LMs, neglecting the crucial case of long-tail entities. In this paper, we present a novel method for LM-based-KB completion that is specifically geared for facts about long-tail entities. The method leverages two different LMs in two stages: for candidate retrieval and for candidate verification and disambiguation. To evaluate our method and various baselines, we introduce a novel dataset, called MALT, rooted in Wikidata. Our method outperforms all baselines in F1, with major gains especially in recall.",
+    "path": "papers/23/06/2306.17472.json",
+    "total_tokens": 798,
+    "translated_title": "面向长尾实体的知识库完善",
+    "translated_abstract": "尽管知识库（KB）如Wikidata具有令人印象深刻的规模，但仍存在重大空缺。语言模型（LM）被提出作为填补这些空缺的来源。然而，以往的研究主要关注具有丰富LM覆盖的突出实体，忽视了关键的长尾实体案例。本文提出了一种针对长尾实体事实的基于LM的KB完善的新方法。该方法在两个阶段利用了两个不同的LM：用于候选检索和用于候选验证和消歧。为了评估我们的方法和不同的基线，我们引入了一个名为MALT的新数据集，其根源于Wikidata。我们的方法在F1得分上超过了所有的基准线，尤其在召回率上取得了重大的进展。",
+    "tldr": "本研究提出了一种用于长尾实体事实的基于语言模型的知识库完善方法，在F1得分上超过了所有的基准线，尤其在召回率上取得了重大的进展。"
+}

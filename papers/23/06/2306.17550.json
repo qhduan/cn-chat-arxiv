@@ -1,0 +1,12 @@
+{
+    "title": "TTSWING: a Dataset for Table Tennis Swing Analysis. (arXiv:2306.17550v1 [cs.LG])",
+    "abstract": "We introduce TTSWING, a novel dataset designed for table tennis swing analysis. This dataset comprises comprehensive swing information obtained through 9-axis sensors integrated into custom-made racket grips, accompanied by anonymized demographic data of the players. We detail the data collection and annotation procedures. Furthermore, we conduct pilot studies utilizing diverse machine learning models for swing analysis. TTSWING holds tremendous potential to facilitate innovative research in table tennis analysis and is a valuable resource for the scientific community. We release the dataset and experimental codes at https://github.com/DEPhantom/TTSWING.",
+    "link": "http://arxiv.org/abs/2306.17550",
+    "context": "Title: TTSWING: a Dataset for Table Tennis Swing Analysis. (arXiv:2306.17550v1 [cs.LG])\nAbstract: We introduce TTSWING, a novel dataset designed for table tennis swing analysis. This dataset comprises comprehensive swing information obtained through 9-axis sensors integrated into custom-made racket grips, accompanied by anonymized demographic data of the players. We detail the data collection and annotation procedures. Furthermore, we conduct pilot studies utilizing diverse machine learning models for swing analysis. TTSWING holds tremendous potential to facilitate innovative research in table tennis analysis and is a valuable resource for the scientific community. We release the dataset and experimental codes at https://github.com/DEPhantom/TTSWING.",
+    "path": "papers/23/06/2306.17550.json",
+    "total_tokens": 757,
+    "translated_title": "TTSWING：一种用于乒乓球挥拍分析的数据集",
+    "translated_abstract": "我们介绍了TTSWING，这是一个专门用于乒乓球挥拍分析的新型数据集。该数据集通过集成到定制的球拍握把上的9轴传感器获取了详细的挥拍信息，并附带了运动员的匿名人口统计数据。我们详细介绍了数据收集和注释的过程。此外，我们还利用多种机器学习模型进行了初步的挥拍分析研究。TTSWING在促进乒乓球分析的创新研究方面具有巨大潜力，并且对科学界来说是一个宝贵的资源。我们在https://github.com/DEPhantom/TTSWING上发布了数据集和实验代码。",
+    "tldr": "TTSWING是一种专为乒乓球挥拍分析设计的数据集，通过集成传感器获取详细信息并与运动员数据一起发布。对于乒乓球分析的创新研究具有巨大潜力，对科学界来说是宝贵的资源。",
+    "en_tdlr": "TTSWING is a dataset designed for table tennis swing analysis, providing detailed swing information integrated with sensor data and anonymized player demographics. It holds great potential for innovative research in table tennis analysis and is a valuable resource for the scientific community."
+}

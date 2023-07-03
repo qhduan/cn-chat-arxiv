@@ -1,0 +1,11 @@
+{
+    "title": "A Bayesian Filtering Algorithm for Gaussian Mixture Models. (arXiv:1705.05495v2 [stat.ML] UPDATED)",
+    "abstract": "A Bayesian filtering algorithm is developed for a class of state-space systems that can be modelled via Gaussian mixtures. In general, the exact solution to this filtering problem involves an exponential growth in the number of mixture terms and this is handled here by utilising a Gaussian mixture reduction step after both the time and measurement updates. In addition, a square-root implementation of the unified algorithm is presented and this algorithm is profiled on several simulated systems. This includes the state estimation for two non-linear systems that are strictly outside the class considered in this paper.",
+    "link": "http://arxiv.org/abs/1705.05495",
+    "context": "Title: A Bayesian Filtering Algorithm for Gaussian Mixture Models. (arXiv:1705.05495v2 [stat.ML] UPDATED)\nAbstract: A Bayesian filtering algorithm is developed for a class of state-space systems that can be modelled via Gaussian mixtures. In general, the exact solution to this filtering problem involves an exponential growth in the number of mixture terms and this is handled here by utilising a Gaussian mixture reduction step after both the time and measurement updates. In addition, a square-root implementation of the unified algorithm is presented and this algorithm is profiled on several simulated systems. This includes the state estimation for two non-linear systems that are strictly outside the class considered in this paper.",
+    "path": "papers/17/05/1705.05495.json",
+    "total_tokens": 699,
+    "translated_title": "一种用于高斯混合模型的贝叶斯滤波算法",
+    "translated_abstract": "为一类可通过高斯混合模型建模的状态空间系统开发了一种贝叶斯滤波算法。一般来说，这个滤波问题的精确解涉及到混合项数量的指数增长，在此通过在时间更新和测量更新之后利用高斯混合简化步骤处理。此外，还提出了统一算法的平方根实现，并在几个模拟系统上进行了概要分析。其中包括两个非线性系统的状态估计，这些系统严格外于本文考虑的类别。",
+    "tldr": "本文提出了一种用于高斯混合模型的贝叶斯滤波算法，通过高斯混合简化步骤处理混合项数量的指数增长，并提出了统一算法的平方根实现。该算法在几个模拟系统上进行了测试。"
+}

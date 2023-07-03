@@ -1,0 +1,11 @@
+{
+    "title": "Dynamic Ordered Panel Logit Models. (arXiv:2107.03253v3 [econ.EM] UPDATED)",
+    "abstract": "This paper studies a dynamic ordered logit model for panel data with fixed effects. The main contribution of the paper is to construct a set of valid moment conditions that are free of the fixed effects. The moment functions can be computed using four or more periods of data, and the paper presents sufficient conditions for the moment conditions to identify the common parameters of the model, namely the regression coefficients, the autoregressive parameters, and the threshold parameters. The availability of moment conditions suggests that these common parameters can be estimated using the generalized method of moments, and the paper documents the performance of this estimator using Monte Carlo simulations and an empirical illustration to self-reported health status using the British Household Panel Survey.",
+    "link": "http://arxiv.org/abs/2107.03253",
+    "context": "Title: Dynamic Ordered Panel Logit Models. (arXiv:2107.03253v3 [econ.EM] UPDATED)\nAbstract: This paper studies a dynamic ordered logit model for panel data with fixed effects. The main contribution of the paper is to construct a set of valid moment conditions that are free of the fixed effects. The moment functions can be computed using four or more periods of data, and the paper presents sufficient conditions for the moment conditions to identify the common parameters of the model, namely the regression coefficients, the autoregressive parameters, and the threshold parameters. The availability of moment conditions suggests that these common parameters can be estimated using the generalized method of moments, and the paper documents the performance of this estimator using Monte Carlo simulations and an empirical illustration to self-reported health status using the British Household Panel Survey.",
+    "path": "papers/21/07/2107.03253.json",
+    "total_tokens": 807,
+    "translated_title": "动态有序面板Logit模型",
+    "translated_abstract": "本文研究了一个用于固定效应面板数据的动态有序Logit模型。本文的主要贡献是构建了一组不受固定效应约束的有效矩条件。这些矩函数可以利用四个或更多期的数据计算，并且本文给出了矩条件能够识别模型的公共参数（回归系数、自回归参数和阈值参数）的充分条件。矩条件的可利用性表明可以利用广义矩法估计这些公共参数，本文通过蒙特卡罗模拟和利用英国家庭面板调查的自报健康状况进行经验说明，评估了该估计器的性能。",
+    "tldr": "本文研究了固定效应面板数据的动态有序Logit模型，构建了一组不受固定效应约束的有效矩条件，并给出了矩条件识别模型公共参数的充分条件。通过广义矩法估计公共参数，并用蒙特卡罗模拟和实证研究验证了估计器的性能。"
+}

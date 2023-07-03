@@ -1,0 +1,11 @@
+{
+    "title": "Off-Policy Evaluation with Out-of-Sample Guarantees. (arXiv:2301.08649v3 [stat.ML] UPDATED)",
+    "abstract": "We consider the problem of evaluating the performance of a decision policy using past observational data. The outcome of a policy is measured in terms of a loss (aka. disutility or negative reward) and the main problem is making valid inferences about its out-of-sample loss when the past data was observed under a different and possibly unknown policy. Using a sample-splitting method, we show that it is possible to draw such inferences with finite-sample coverage guarantees about the entire loss distribution, rather than just its mean. Importantly, the method takes into account model misspecifications of the past policy - including unmeasured confounding. The evaluation method can be used to certify the performance of a policy using observational data under a specified range of credible model assumptions.",
+    "link": "http://arxiv.org/abs/2301.08649",
+    "context": "Title: Off-Policy Evaluation with Out-of-Sample Guarantees. (arXiv:2301.08649v3 [stat.ML] UPDATED)\nAbstract: We consider the problem of evaluating the performance of a decision policy using past observational data. The outcome of a policy is measured in terms of a loss (aka. disutility or negative reward) and the main problem is making valid inferences about its out-of-sample loss when the past data was observed under a different and possibly unknown policy. Using a sample-splitting method, we show that it is possible to draw such inferences with finite-sample coverage guarantees about the entire loss distribution, rather than just its mean. Importantly, the method takes into account model misspecifications of the past policy - including unmeasured confounding. The evaluation method can be used to certify the performance of a policy using observational data under a specified range of credible model assumptions.",
+    "path": "papers/23/01/2301.08649.json",
+    "total_tokens": 781,
+    "translated_title": "具有样本外保证的离线策略评估",
+    "translated_abstract": "我们考虑使用过去的观察数据评估决策策略的性能问题。策略的结果以损失（即失效或负奖励）来衡量，主要问题是在以不同且可能未知的策略下观察到过去数据时对其样本外损失进行有效推断。使用样本分割方法，我们展示了可以绘制这样的推断，并对整个损失分布而不仅仅是其均值进行有限样本覆盖保证。重要的是，该方法考虑了对过去策略的模型配置错误，包括未测量的混淆因素。该评估方法可用于在一定可信模型假设范围内使用观察数据对策略的性能进行认证。",
+    "tldr": "本文提出了一种具有样本外保证的离线策略评估方法，可以在考虑模型配置错误的情况下，使用观察数据对决策策略的性能进行有效推断。"
+}

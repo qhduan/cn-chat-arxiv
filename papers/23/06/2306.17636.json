@@ -1,0 +1,12 @@
+{
+    "title": "Achieving RGB-D level Segmentation Performance from a Single ToF Camera. (arXiv:2306.17636v1 [cs.CV])",
+    "abstract": "Depth is a very important modality in computer vision, typically used as complementary information to RGB, provided by RGB-D cameras. In this work, we show that it is possible to obtain the same level of accuracy as RGB-D cameras on a semantic segmentation task using infrared (IR) and depth images from a single Time-of-Flight (ToF) camera. In order to fuse the IR and depth modalities of the ToF camera, we introduce a method utilizing depth-specific convolutions in a multi-task learning framework. In our evaluation on an in-car segmentation dataset, we demonstrate the competitiveness of our method against the more costly RGB-D approaches.",
+    "link": "http://arxiv.org/abs/2306.17636",
+    "context": "Title: Achieving RGB-D level Segmentation Performance from a Single ToF Camera. (arXiv:2306.17636v1 [cs.CV])\nAbstract: Depth is a very important modality in computer vision, typically used as complementary information to RGB, provided by RGB-D cameras. In this work, we show that it is possible to obtain the same level of accuracy as RGB-D cameras on a semantic segmentation task using infrared (IR) and depth images from a single Time-of-Flight (ToF) camera. In order to fuse the IR and depth modalities of the ToF camera, we introduce a method utilizing depth-specific convolutions in a multi-task learning framework. In our evaluation on an in-car segmentation dataset, we demonstrate the competitiveness of our method against the more costly RGB-D approaches.",
+    "path": "papers/23/06/2306.17636.json",
+    "total_tokens": 721,
+    "translated_title": "用单个ToF相机实现与RGB-D相机相当的分割性能",
+    "translated_abstract": "深度是计算机视觉中非常重要的一种模态，通常作为RGB的补充信息由RGB-D相机提供。在本文中，我们展示了使用单个ToF相机的红外（IR）和深度图像可以在语义分割任务上获得与RGB-D相机相同水平的准确性。为了融合ToF相机的红外和深度模态，我们引入了一种在多任务学习框架中利用深度专用卷积的方法。在我们对车内分割数据集的评估中，我们展示了我们的方法与更昂贵的RGB-D方法的竞争力。",
+    "tldr": "本文使用单个ToF相机的红外和深度图像，在语义分割任务上表现出与RGB-D相机相当的准确性，通过引入深度专用卷积的多任务学习方法，展示了在车内分割数据集上的竞争力。",
+    "en_tdlr": "This paper achieves RGB-D level segmentation performance using infrared and depth images from a single Time-of-Flight (ToF) camera, demonstrating competitiveness against costly RGB-D approaches in an in-car segmentation dataset."
+}

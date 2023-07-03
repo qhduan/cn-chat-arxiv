@@ -1,0 +1,12 @@
+{
+    "title": "Blockchain scaling and liquidity concentration on decentralized exchanges. (arXiv:2306.17742v1 [q-fin.TR])",
+    "abstract": "Liquidity providers (LPs) on decentralized exchanges (DEXs) can protect themselves from adverse selection risk by updating their positions more frequently. However, repositioning is costly, because LPs have to pay gas fees for each update. We analyze the causal relation between repositioning and liquidity concentration around the market price, using the entry of a blockchain scaling solution, Polygon, as our instrument. Polygon's lower gas fees allow LPs to update more frequently than on Ethereum. Our results demonstrate that higher repositioning intensity and precision lead to greater liquidity concentration, which benefits small trades by reducing their slippage.",
+    "link": "http://arxiv.org/abs/2306.17742",
+    "context": "Title: Blockchain scaling and liquidity concentration on decentralized exchanges. (arXiv:2306.17742v1 [q-fin.TR])\nAbstract: Liquidity providers (LPs) on decentralized exchanges (DEXs) can protect themselves from adverse selection risk by updating their positions more frequently. However, repositioning is costly, because LPs have to pay gas fees for each update. We analyze the causal relation between repositioning and liquidity concentration around the market price, using the entry of a blockchain scaling solution, Polygon, as our instrument. Polygon's lower gas fees allow LPs to update more frequently than on Ethereum. Our results demonstrate that higher repositioning intensity and precision lead to greater liquidity concentration, which benefits small trades by reducing their slippage.",
+    "path": "papers/23/06/2306.17742.json",
+    "total_tokens": 775,
+    "translated_title": "区块链的扩容和去中心化交易所上的流动性集中问题",
+    "translated_abstract": "去中心化交易所上的流动性提供者（LPs）可以通过更频繁地更新其位置来保护自己免受逆向选择风险的影响。然而，重新定位是昂贵的，因为LPs必须为每次更新支付燃气费用。我们使用一个区块链扩容解决方案Polygon的进入作为我们的工具，分析了重新定位与市场价格周围的流动性集中之间的因果关系。Polygon的低燃气费用使得LPs能够比在以太坊上更频繁地进行更新。我们的结果表明，更高的重新定位强度和精度导致更大的流动性集中，这有利于小额交易通过减少滑点来受益。",
+    "tldr": "本研究分析了去中心化交易所上流动性提供者（LPs）频繁更新位置对市场流动性集中的影响，结果发现更高的重新定位强度和精度会导致更大的流动性集中，从而减少小额交易的滑点。",
+    "en_tdlr": "This study analyzes the impact of liquidity providers (LPs) frequently updating their positions on liquidity concentration in decentralized exchanges. The findings show that higher repositioning intensity and precision lead to greater liquidity concentration, thereby reducing slippage for small trades."
+}

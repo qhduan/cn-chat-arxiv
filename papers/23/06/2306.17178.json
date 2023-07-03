@@ -1,0 +1,12 @@
+{
+    "title": "Optimal Execution Using Reinforcement Learning. (arXiv:2306.17178v1 [q-fin.TR])",
+    "abstract": "This work is about optimal order execution, where a large order is split into several small orders to maximize the implementation shortfall. Based on the diversity of cryptocurrency exchanges, we attempt to extract cross-exchange signals by aligning data from multiple exchanges for the first time. Unlike most previous studies that focused on using single-exchange information, we discuss the impact of cross-exchange signals on the agent's decision-making in the optimal execution problem. Experimental results show that cross-exchange signals can provide additional information for the optimal execution of cryptocurrency to facilitate the optimal execution process.",
+    "link": "http://arxiv.org/abs/2306.17178",
+    "context": "Title: Optimal Execution Using Reinforcement Learning. (arXiv:2306.17178v1 [q-fin.TR])\nAbstract: This work is about optimal order execution, where a large order is split into several small orders to maximize the implementation shortfall. Based on the diversity of cryptocurrency exchanges, we attempt to extract cross-exchange signals by aligning data from multiple exchanges for the first time. Unlike most previous studies that focused on using single-exchange information, we discuss the impact of cross-exchange signals on the agent's decision-making in the optimal execution problem. Experimental results show that cross-exchange signals can provide additional information for the optimal execution of cryptocurrency to facilitate the optimal execution process.",
+    "path": "papers/23/06/2306.17178.json",
+    "total_tokens": 681,
+    "translated_title": "使用强化学习进行最优交易执行",
+    "translated_abstract": "本研究主要关于最优订单执行，即大订单被分成多个小订单以最大化执行不足。基于加密货币交易所的多样性，我们首次尝试通过对多个交易所的数据进行对齐来提取交叉交易所信号。与大多数以往的研究集中在使用单一交易所信息不同，我们讨论了交叉交易所信号对最优执行问题中决策的影响。实验结果表明，交叉交易所信号可以为加密货币的最优执行提供额外的信息，以促进最优执行过程。",
+    "tldr": "本论文研究了使用强化学习进行最优交易执行的问题，在考虑多个交易所信号的情况下，通过对齐数据提取交叉交易所信号，并发现它们对最优执行过程具有积极的影响。",
+    "en_tdlr": "This paper investigates the problem of optimal trade execution using reinforcement learning, and explores the positive impact of cross-exchange signals on the optimal execution process by aligning data from multiple exchanges for the first time."
+}

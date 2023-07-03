@@ -1,0 +1,12 @@
+{
+    "title": "Japanese Lexical Complexity for Non-Native Readers: A New Dataset. (arXiv:2306.17399v1 [cs.CL])",
+    "abstract": "Lexical complexity prediction (LCP) is the task of predicting the complexity of words in a text on a continuous scale. It plays a vital role in simplifying or annotating complex words to assist readers. To study lexical complexity in Japanese, we construct the first Japanese LCP dataset. Our dataset provides separate complexity scores for Chinese/Korean annotators and others to address the readers' L1-specific needs. In the baseline experiment, we demonstrate the effectiveness of a BERT-based system for Japanese LCP.",
+    "link": "http://arxiv.org/abs/2306.17399",
+    "context": "Title: Japanese Lexical Complexity for Non-Native Readers: A New Dataset. (arXiv:2306.17399v1 [cs.CL])\nAbstract: Lexical complexity prediction (LCP) is the task of predicting the complexity of words in a text on a continuous scale. It plays a vital role in simplifying or annotating complex words to assist readers. To study lexical complexity in Japanese, we construct the first Japanese LCP dataset. Our dataset provides separate complexity scores for Chinese/Korean annotators and others to address the readers' L1-specific needs. In the baseline experiment, we demonstrate the effectiveness of a BERT-based system for Japanese LCP.",
+    "path": "papers/23/06/2306.17399.json",
+    "total_tokens": 689,
+    "translated_title": "非母语读者的日语词汇复杂性：一个新的数据集",
+    "translated_abstract": "词汇复杂度预测（LCP）是在连续的尺度上预测文本中词汇复杂度的任务。它在简化或标注复杂单词来辅助读者方面起着重要作用。为了研究日语中的词汇复杂性，我们构建了第一个日语LCP数据集。我们的数据集针对中文/韩文标注者和其他人提供了不同的复杂度评分，以满足读者的母语特定需求。在基线实验中，我们展示了基于BERT的日语LCP系统的有效性。",
+    "tldr": "该论文构建了第一个日语词汇复杂性预测数据集，通过提供不同的复杂度评分满足了非母语读者的需要，并展示了基于BERT的系统在日语LCP中的有效性。",
+    "en_tdlr": "This paper constructs the first dataset for predicting lexical complexity in Japanese and demonstrates the effectiveness of a BERT-based system for Japanese LCP. It provides separate complexity scores for different annotators to address the needs of non-native readers and their L1-specific requirements."
+}

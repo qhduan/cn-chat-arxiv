@@ -1,0 +1,12 @@
+{
+    "title": "Two characterizations of the dense rank. (arXiv:2306.17546v1 [econ.TH])",
+    "abstract": "In this paper, we have considered the dense rank for assigning positions to alternatives in weak orders. If we arrange the alternatives in tiers (i.e., indifference classes), the dense rank assigns position 1 to all the alternatives in the top tier, 2 to all the alternatives in the second tier, and so on. We have proposed a formal framework to analyze the dense rank when compared to other well-known position operators such as the standard, modified and fractional ranks. As the main results, we have provided two different axiomatic characterizations which determine the dense rank by considering position invariance conditions along horizontal extensions (duplication), as well as through vertical reductions and movements (truncation, and upwards or downwards independency).",
+    "link": "http://arxiv.org/abs/2306.17546",
+    "context": "Title: Two characterizations of the dense rank. (arXiv:2306.17546v1 [econ.TH])\nAbstract: In this paper, we have considered the dense rank for assigning positions to alternatives in weak orders. If we arrange the alternatives in tiers (i.e., indifference classes), the dense rank assigns position 1 to all the alternatives in the top tier, 2 to all the alternatives in the second tier, and so on. We have proposed a formal framework to analyze the dense rank when compared to other well-known position operators such as the standard, modified and fractional ranks. As the main results, we have provided two different axiomatic characterizations which determine the dense rank by considering position invariance conditions along horizontal extensions (duplication), as well as through vertical reductions and movements (truncation, and upwards or downwards independency).",
+    "path": "papers/23/06/2306.17546.json",
+    "total_tokens": 696,
+    "translated_title": "密集排名的两个特征化方法",
+    "translated_abstract": "本文考虑了在弱序中为替代方案分配位置的密集排名。如果我们将替代方案按层次（即不确定类）排列，密集排名将将位置1分配给顶层所有替代方案，将位置2分配给第二层所有替代方案，依此类推。我们提出了一个形式化框架来分析密集排名与其他知名位置算子（如标准排名、修改排名和分数排名）的比较。作为主要结果，我们提供了两个不同的公理特征化方法，通过考虑水平扩展（复制）、垂直减少和移动（截断以及上下独立性）来确定密集排名。",
+    "tldr": "本文研究了在弱序中为替代方案分配位置的密集排名，并提出了两个特征化方法来确定密集排名。",
+    "en_tdlr": "This paper explores the dense rank for assigning positions to alternatives in weak orders and proposes two characterizations to determine the dense rank."
+}

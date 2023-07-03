@@ -1,0 +1,12 @@
+{
+    "title": "Global Optimality in Bivariate Gradient-based DAG Learning. (arXiv:2306.17378v1 [cs.LG])",
+    "abstract": "Recently, a new class of non-convex optimization problems motivated by the statistical problem of learning an acyclic directed graphical model from data has attracted significant interest. While existing work uses standard first-order optimization schemes to solve this problem, proving the global optimality of such approaches has proven elusive. The difficulty lies in the fact that unlike other non-convex problems in the literature, this problem is not \"benign\", and possesses multiple spurious solutions that standard approaches can easily get trapped in. In this paper, we prove that a simple path-following optimization scheme globally converges to the global minimum of the population loss in the bivariate setting.",
+    "link": "http://arxiv.org/abs/2306.17378",
+    "context": "Title: Global Optimality in Bivariate Gradient-based DAG Learning. (arXiv:2306.17378v1 [cs.LG])\nAbstract: Recently, a new class of non-convex optimization problems motivated by the statistical problem of learning an acyclic directed graphical model from data has attracted significant interest. While existing work uses standard first-order optimization schemes to solve this problem, proving the global optimality of such approaches has proven elusive. The difficulty lies in the fact that unlike other non-convex problems in the literature, this problem is not \"benign\", and possesses multiple spurious solutions that standard approaches can easily get trapped in. In this paper, we prove that a simple path-following optimization scheme globally converges to the global minimum of the population loss in the bivariate setting.",
+    "path": "papers/23/06/2306.17378.json",
+    "total_tokens": 733,
+    "translated_title": "双变量基于梯度的有向无环图(DAG)学习中的全局最优性",
+    "translated_abstract": "最近，一类新的非凸优化问题受到了学术界的关注，它源于从数据中学习无环有向图模型的统计问题。虽然现有的方法使用标准的一阶优化算法来解决这个问题，但证明这些方法的全局最优性一直是困难的。问题的难点在于，与文献中的其他非凸问题不同，这个问题并不是\"良性\"的，并且存在着多个虚假解，标准方法很容易陷入其中。在本文中，我们证明了一种简单的路径跟踪优化算法在双变量情况下会全局收敛到总体损失的全局最小值。",
+    "tldr": "本文研究了双变量基于梯度的有向无环图(DAG)学习问题，通过证明一种路径跟踪优化算法的全局收敛性，提供了该问题的全局最优解。",
+    "en_tdlr": "This paper investigates the problem of learning a bivariate acyclic directed graphical model using gradient-based optimization, and provides global optimality by proving the convergence of a path-following optimization algorithm."
+}
