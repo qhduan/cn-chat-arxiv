@@ -2,202 +2,217 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Precision Anti-Cancer Drug Selection via Neural Ranking.](http://arxiv.org/abs/2306.17771) | 通过神经排序方法，准确选择和优先排序敏感药物来进行个性化抗癌治疗。 |
-| [^2] | [Outcome-based Evaluation of Systematic Review Automation.](http://arxiv.org/abs/2306.17614) | 提出一种新的评估框架，将考虑重新评估的影响。 |
-| [^3] | [Large Language Models are Effective Text Rankers with Pairwise Ranking Prompting.](http://arxiv.org/abs/2306.17563) | 本论文提出了一种名为PRP的新技术，通过使用两两排名提示来显著减轻大型语言模型（LLM）的负担，并首次在标准基准测试中实现了最先进的排名性能。 |
-| [^4] | [Leveraging Watch-time Feedback for Short-Video Recommendations: A Causal Labeling Framework.](http://arxiv.org/abs/2306.17426) | 该论文提出了一种因果标记框架，利用观看时间反馈进行短视频推荐。通过构建多个语义的标签，并使用分位数来提取观看时间的信息，使模型学习更加容易，同时减少偏见对推荐结果的影响。 |
-| [^5] | [Audio Embeddings as Teachers for Music Classification.](http://arxiv.org/abs/2306.17424) | 本文提出了一种使用预训练的音频嵌入作为教师来引导低复杂度学生网络的方法，并在音乐乐器分类和音乐自动标记任务上取得了显著的改进. |
-| [^6] | [DeepTagger: Knowledge Enhanced Named Entity Recognition for Web-Based Ads Queries.](http://arxiv.org/abs/2306.17413) | DeepTagger是一种基于知识增强的网络广告查询的命名实体识别模型，通过模型无关和模型基于方法，利用未标记的网络查询和网络搜索结果来增加领域知识，采用大型语言模型自动生成标签，并应用对抗数据增强方法进行模型训练。 |
-| [^7] | [Towards Personalized Cold-Start Recommendation with Prompts.](http://arxiv.org/abs/2306.17256) | 本研究旨在解决个性化冷启动推荐问题，通过利用预训练语言模型的能力，将推荐过程转化为自然语言情感分析，提供适用于创业企业和用户参与历史不足的平台的个性化推荐。 |
-| [^8] | [Enforcing Data Geolocation Policies in Public Clouds using Trusted Computing.](http://arxiv.org/abs/2306.17171) | 本论文提出了一种使用可信计算的技术，可以限制公共云中数据的地理位置。用户将上传数据，并只与第三方验证服务器共享解密密钥。 |
-| [^9] | [Harnessing the Power of Hugging Face Transformers for Predicting Mental Health Disorders in Social Networks.](http://arxiv.org/abs/2306.16891) | 该研究通过使用社交媒体和预训练的语言模型，探索了使用用户生成的数据预测精神障碍症状的方法，并发现新模型的准确度高达97%。这表明社交媒体数据是进行精神健康筛查的一个重要资源，预训练模型能够有效地自动化这一任务。 |
-| [^10] | [Efficient Partitioning Method of Large-Scale Public Safety Spatio-Temporal Data based on Information Loss Constraints.](http://arxiv.org/abs/2306.12857) | 本文提出了一种基于信息丢失约束的大规模公共安全时空数据高效划分方法(IFL-LSTP)，可以显著减小数据规模，同时保持模型的准确性，确保分布式存储的负载平衡，同时保持数据划分的时空接近性。 |
-| [^11] | [Bounded (O(1)) Regret Recommendation Learning via Synthetic Controls Oracle.](http://arxiv.org/abs/2301.12571) | 通过合成控制理论，本论文提出了一种实现有界遗憾的推荐学习方法，并解决了线性模型的精确知识、潜在协变量的存在、不均匀的用户到达速率和用户选择退出私人数据跟踪等实践中的问题。 |
-| [^12] | [Sequential Recommendation Model for Next Purchase Prediction.](http://arxiv.org/abs/2207.06225) | 本文提出了一种顺序推荐系统，考虑了用户的购买顺序以预测他们的下一次购买，该模型利用大规模的信用卡交易数据集进行了验证和排名，展现了其在准确性和效果上的优势。 |
-| [^13] | [Conversational Question Answering on Heterogeneous Sources.](http://arxiv.org/abs/2204.11677) | 本文提出了CONVINSE，一个用于异构数据源上的ConvQA的端到端流水线，通过联合提取来自知识库、文本和表格的信息，提升了答案覆盖率和可信度。 |
+| [^1] | [THUIR2 at NTCIR-16 Session Search (SS) Task.](http://arxiv.org/abs/2307.00250) | 本文介绍了THUIR2团队在NTCIR-16 Session搜索任务中的表现，他们在FOSS和POSS子任务中使用了学习排序和预训练语言模型，并取得了最佳性能。 |
+| [^2] | [Counterfactual Collaborative Reasoning.](http://arxiv.org/abs/2307.00165) | 本文提出了反事实协同推理（CCR）方法，通过整合反事实推理和逻辑推理来提高机器学习模型的准确性和可解释性。通过利用反事实推理生成困难的反事实训练样本进行数据增强，CCR在推荐系统中展示了如何缓解数据稀缺、提高准确性和增强透明度。 |
+| [^3] | [Cross-domain Recommender Systems via Multimodal Domain Adaptation.](http://arxiv.org/abs/2306.13887) | 通过多模态领域自适应技术实现跨领域推荐系统，解决数据稀疏性问题，提升推荐性能。 |
+| [^4] | [Tourist Attractions Recommendation based on Attention Knowledge Graph Convolution Network.](http://arxiv.org/abs/2306.10946) | 本文提出了一种基于注意力知识图卷积网络的旅游景点推荐模型，通过自动语义发掘目标景点的相邻实体，根据旅客的喜好选择，预测类似景点的概率，实验中取得良好效果。 |
+| [^5] | [Dark web activity classification using deep learning.](http://arxiv.org/abs/2306.07980) | 本文阐述了对于识别和控制暗网非法活动的迫切需求，并提出了一种利用深度学习方法检索 .onion 扩展名的网站上相关图片的搜索引擎，该方法在测试中达到了94% 的准确率。 |
+| [^6] | [Is ChatGPT Fair for Recommendation? Evaluating Fairness in Large Language Model Recommendation.](http://arxiv.org/abs/2305.07609) | 这篇论文介绍了一种新的推荐范式——通过LLM进行推荐，但由于LLMs可能存在社会偏见，需要进一步调查RecLLM所做推荐的公正性。为此，作者提出了一个新的公平性基准——FaiRLLM，并针对音乐和电影推荐场景中的八个敏感属性进行了评估。 |
+| [^7] | [How to Index Item IDs for Recommendation Foundation Models.](http://arxiv.org/abs/2305.06569) | 本研究对推荐基础模型的项目索引问题进行了系统检查，提出了一种新的上下文感知索引方法，该方法在项目推荐准确性和文本生成质量方面具有优势。 |
+| [^8] | [TALLRec: An Effective and Efficient Tuning Framework to Align Large Language Model with Recommendation.](http://arxiv.org/abs/2305.00447) | TALLRec是对LLMs进行调整的一种高效且有效的框架，用于将LLMs与推荐系统对齐，从而增强LLMs在推荐任务中的能力。 |
+| [^9] | [Attention Mixtures for Time-Aware Sequential Recommendation.](http://arxiv.org/abs/2304.08158) | MOJITO是一种改进的Transformer顺序推荐系统，利用注意力混合建模用户偏好和时间背景的复杂依赖关系，从而准确预测下一个推荐物品。在多个真实数据集中，MOJITO表现优于现有的Transformer模型。 |
+| [^10] | [Finding Lookalike Customers for E-Commerce Marketing.](http://arxiv.org/abs/2301.03147) | 本文介绍了一个以客户为中心的营销活动中寻找相似客户的可扩展和高效系统。该系统能处理亿级客户，并使用深度学习嵌入模型和近似最近邻搜索方法来寻找感兴趣的相似客户。通过构建可解释且有意义的客户相似度度量，该模型能够处理各种业务兴趣。 |
+| [^11] | [Vertical Semi-Federated Learning for Efficient Online Advertising.](http://arxiv.org/abs/2209.15635) | 垂直半联合学习为在线广告领域提供了高效的解决方案，通过学习一个联合感知的局部模型以应对传统垂直联合学习的限制。 |
+| [^12] | [Online Bidding Algorithms for Return-on-Spend Constrained Advertisers.](http://arxiv.org/abs/2208.13713) | 本研究提出了一个用于满足投放成本回报率限制的广告商的在线竞价算法，通过简便的在线算法实现了接近最优的遗憾值，并且总结了与先前工作的集成性能。 |
+| [^13] | [Reconsidering Learning Objectives in Unbiased Recommendation: A Distribution Shift Perspective.](http://arxiv.org/abs/2206.03851) | 本文从分布转移视角出发，研究了从偏向反馈中学习无偏算法进行推荐的问题。通过建立无偏推荐与分布转移的关系，对现有无偏学习方法进行了理论解释并提出了两个泛化界限。 |
+| [^14] | [Few-shot Reranking for Multi-hop QA via Language Model Prompting.](http://arxiv.org/abs/2205.12650) | 本研究提出了PromptRank方法，通过语言模型提供的多跳路径再排名，实现了少样本的多跳问题检索。在HotpotQA数据集上，PromptRank相比于其他方法使用的大量训练样本，仅使用128个训练示例就能达到较高的召回率。 |
 
 # 详细
 
-[^1]: 通过神经排序实现精确的抗癌药物选择
+[^1]: THUIR2在NTCIR-16 Session搜索（SS）任务中的表现
 
-    Precision Anti-Cancer Drug Selection via Neural Ranking. (arXiv:2306.17771v1 [cs.LG])
+    THUIR2 at NTCIR-16 Session Search (SS) Task. (arXiv:2307.00250v1 [cs.IR])
 
-    [http://arxiv.org/abs/2306.17771](http://arxiv.org/abs/2306.17771)
+    [http://arxiv.org/abs/2307.00250](http://arxiv.org/abs/2307.00250)
 
-    通过神经排序方法，准确选择和优先排序敏感药物来进行个性化抗癌治疗。
-
-    
-
-    个性化癌症治疗需要对药物与癌细胞系在不同的遗传和分子环境中的复杂相互作用有深入的理解。为了解决这个问题，高通量筛选已被用来生成大规模的药物反应数据，促进数据驱动的计算模型。这些模型可以完全以数据驱动的方式捕捉到不同环境下复杂的药物-细胞系相互作用。然而，准确地为每个细胞系优先选择最敏感的药物仍然是一个重大挑战。为了解决这个问题，我们开发了神经排序方法，利用来自不同癌症类型的多个细胞系的大规模药物反应数据。与现有方法主要使用回归和分类技术进行药物反应预测不同，我们将药物选择和优先级确定的目标形式化为一个药物排序问题。在这项工作中，我们提出了两种神经排序方法，可以学习潜在的表示来解决这个问题。
-
-    Personalized cancer treatment requires a thorough understanding of complex interactions between drugs and cancer cell lines in varying genetic and molecular contexts. To address this, high-throughput screening has been used to generate large-scale drug response data, facilitating data-driven computational models. Such models can capture complex drug-cell line interactions across various contexts in a fully data-driven manner. However, accurately prioritizing the most sensitive drugs for each cell line still remains a significant challenge. To address this, we developed neural ranking approaches that leverage large-scale drug response data across multiple cell lines from diverse cancer types. Unlike existing approaches that primarily utilize regression and classification techniques for drug response prediction, we formulated the objective of drug selection and prioritization as a drug ranking problem. In this work, we proposed two neural listwise ranking methods that learn latent repres
-    
-[^2]: 按结果评估系统化综述自动化方法
-
-    Outcome-based Evaluation of Systematic Review Automation. (arXiv:2306.17614v1 [cs.IR])
-
-    [http://arxiv.org/abs/2306.17614](http://arxiv.org/abs/2306.17614)
-
-    提出一种新的评估框架，将考虑重新评估的影响。
+    本文介绍了THUIR2团队在NTCIR-16 Session搜索任务中的表现，他们在FOSS和POSS子任务中使用了学习排序和预训练语言模型，并取得了最佳性能。
 
     
 
-    目前评估系统化文献综述的搜索策略和自动化引文筛选的方法通常依赖于计算相关和不相关出版物的数量。然而，这种做法并未准确反映进行系统化综述的现实情况，因为并非所有包含的出版物对最终的综述结果的影响相同。具体而言，如果重要的出版物被排除或包含，这可能会显著改变整个综述结果，而不包含或排除不太重要的研究可能只会有有限的影响。然而，在评估指标方面，所有的包含和排除决策被平等对待，因此未能检索出对综述结果几乎无影响的出版物与未能检索到关键出版物导致的召回率降低是一样的。我们提出了一个新的评估框架，考虑到了重新评估的影响。
+    我们的团队（THUIR2）参加了NTCIR-16 Session搜索（SS）任务的FOSS和POSS子任务。本文描述了我们的方法和结果。在FOSS子任务中，我们使用学习排序和精细调整的预训练语言模型提交了五个运行。我们使用自适应数据和会话信息对预训练语言模型进行了精细调整，并通过学习排序方法组装起来。组装的模型在初步评估中在所有参与者中取得了最佳性能。在POSS子任务中，我们使用了一个组装的模型，在初步评估中也取得了最佳性能。
 
-    Current methods of evaluating search strategies and automated citation screening for systematic literature reviews typically rely on counting the number of relevant and not relevant publications. This established practice, however, does not accurately reflect the reality of conducting a systematic review, because not all included publications have the same influence on the final outcome of the systematic review. More specifically, if an important publication gets excluded or included, this might significantly change the overall review outcome, while not including or excluding less influential studies may only have a limited impact. However, in terms of evaluation measures, all inclusion and exclusion decisions are treated equally and, therefore, failing to retrieve publications with little to no impact on the review outcome leads to the same decrease in recall as failing to retrieve crucial publications. We propose a new evaluation framework that takes into account the impact of the re
+    Our team(THUIR2) participated in both FOSS and POSS subtasks of the NTCIR-161 Session Search (SS) Task. This paper describes our approaches and results. In the FOSS subtask, we submit five runs using learning-to-rank and fine-tuned pre-trained language models. We fine-tuned the pre-trained language model with ad-hoc data and session information and assembled them by a learning-to-rank method. The assembled model achieves the best performance among all participants in the preliminary evaluation. In the POSS subtask, we used an assembled model which also achieves the best performance in the preliminary evaluation.
     
-[^3]: 大型语言模型是有效的文本排序器，具有两两排名提示
+[^2]: 反事实协同推理
 
-    Large Language Models are Effective Text Rankers with Pairwise Ranking Prompting. (arXiv:2306.17563v1 [cs.IR])
+    Counterfactual Collaborative Reasoning. (arXiv:2307.00165v1 [cs.IR])
 
-    [http://arxiv.org/abs/2306.17563](http://arxiv.org/abs/2306.17563)
+    [http://arxiv.org/abs/2307.00165](http://arxiv.org/abs/2307.00165)
 
-    本论文提出了一种名为PRP的新技术，通过使用两两排名提示来显著减轻大型语言模型（LLM）的负担，并首次在标准基准测试中实现了最先进的排名性能。
-
-    
-
-    使用大型语言模型（LLM）通过直接将查询和候选文档输入提示进行文档排序是一个有趣且实用的问题。然而，迄今为止取得了有限的成功，研究人员发现很难在基准数据集上超越精调基准排序器。我们分析了现有方法使用的点对点和列表排序提示，并认为现成的LLM没有完全理解这些排序公式，可能是由于LLM的训练方式的特性。在本文中，我们提出了一种名为两两排名提示（PRP）的新技术，大大减轻了LLM的负担。我们的结果是文献中首次使用中等规模的开源LLM在标准基准测试中实现了最先进的排名性能。在TREC-DL2020上，基于20B参数的Flan-UL2模型的PRP超过了文献中基于商业黑盒GPT-4的最佳方法。
-
-    Ranking documents using Large Language Models (LLMs) by directly feeding the query and candidate documents into the prompt is an interesting and practical problem. However, there has been limited success so far, as researchers have found it difficult to outperform fine-tuned baseline rankers on benchmark datasets. We analyze pointwise and listwise ranking prompts used by existing methods and argue that off-the-shelf LLMs do not fully understand these ranking formulations, possibly due to the nature of how LLMs are trained. In this paper, we propose to significantly reduce the burden on LLMs by using a new technique called Pairwise Ranking Prompting (PRP). Our results are the first in the literature to achieve state-of-the-art ranking performance on standard benchmarks using moderate-sized open-sourced LLMs. On TREC-DL2020, PRP based on the Flan-UL2 model with 20B parameters outperforms the previous best approach in the literature, which is based on the blackbox commercial GPT-4 that ha
-    
-[^4]: 利用观看时间反馈进行短视频推荐：一种因果标记框架
-
-    Leveraging Watch-time Feedback for Short-Video Recommendations: A Causal Labeling Framework. (arXiv:2306.17426v1 [cs.IR])
-
-    [http://arxiv.org/abs/2306.17426](http://arxiv.org/abs/2306.17426)
-
-    该论文提出了一种因果标记框架，利用观看时间反馈进行短视频推荐。通过构建多个语义的标签，并使用分位数来提取观看时间的信息，使模型学习更加容易，同时减少偏见对推荐结果的影响。
+    本文提出了反事实协同推理（CCR）方法，通过整合反事实推理和逻辑推理来提高机器学习模型的准确性和可解释性。通过利用反事实推理生成困难的反事实训练样本进行数据增强，CCR在推荐系统中展示了如何缓解数据稀缺、提高准确性和增强透明度。
 
     
 
-    随着短视频应用的普及，短视频推荐的重要性大大增加。与其他推荐场景不同，短视频推荐系统大量依赖于观看时间的反馈。现有方法简单地将观看时间视为直接标签，未能充分利用其广泛的语义并引入偏见，从而限制了基于观看时间建模用户兴趣的潜力。为了克服这一挑战，我们提出了一个名为去偏多语义提取标记（DML）的框架。DML利用观看时间分布得出的分位数构建包含各种语义的标签，优先考虑相对顺序而不是绝对标签值。这种方法便于模型学习，同时符合推荐的排序目标。此外，我们引入了受因果调整启发的方法来优化标签定义，从而减少偏见对推荐结果的影响。
+    因果推理和逻辑推理是人类智能的两种重要推理能力。然而，在机器智能背景下，它们的关系还未得到广泛探索。本文探讨了如何共同建模这两种推理能力，以提高机器学习模型的准确性和可解释性。具体而言，通过整合反事实推理和（神经）逻辑推理两种重要的推理能力，我们提出了反事实协同推理（CCR），它通过进行反事实逻辑推理来改进性能。特别是，我们以推荐系统为例，展示了CCR如何缓解数据稀缺、提高准确性和增强透明度。从技术上讲，我们利用反事实推理来生成“困难”的反事实训练样本进行数据增强，这与原始的训练样本一起可以提升模型性能。
 
-    With the proliferation of short video applications, the significance of short video recommendations has vastly increased. Unlike other recommendation scenarios, short video recommendation systems heavily rely on feedback from watch time. Existing approaches simply treat watch time as a direct label, failing to effectively harness its extensive semantics and introduce bias, thereby limiting the potential for modeling user interests based on watch time. To overcome this challenge, we propose a framework named Debiasied Multiple-semantics-extracting Labeling (DML). DML constructs labels that encompass various semantics by utilizing quantiles derived from the distribution of watch time, prioritizing relative order rather than absolute label values. This approach facilitates easier model learning while aligning with the ranking objective of recommendations. Furthermore, we introduce a method inspired by causal adjustment to refine label definitions, thereby reducing the impact of bias on th
+    Causal reasoning and logical reasoning are two important types of reasoning abilities for human intelligence. However, their relationship has not been extensively explored under machine intelligence context. In this paper, we explore how the two reasoning abilities can be jointly modeled to enhance both accuracy and explainability of machine learning models. More specifically, by integrating two important types of reasoning ability -- counterfactual reasoning and (neural) logical reasoning -- we propose Counterfactual Collaborative Reasoning (CCR), which conducts counterfactual logic reasoning to improve the performance. In particular, we use recommender system as an example to show how CCR alleviate data scarcity, improve accuracy and enhance transparency. Technically, we leverage counterfactual reasoning to generate "difficult" counterfactual training examples for data augmentation, which -together with the original training examples -- can enhance the model performance. Since the 
     
-[^5]: 音频嵌入作为音乐分类的教师
+[^3]: 通过多模态领域自适应实现跨领域推荐系统
 
-    Audio Embeddings as Teachers for Music Classification. (arXiv:2306.17424v1 [cs.SD])
+    Cross-domain Recommender Systems via Multimodal Domain Adaptation. (arXiv:2306.13887v1 [cs.IR])
 
-    [http://arxiv.org/abs/2306.17424](http://arxiv.org/abs/2306.17424)
+    [http://arxiv.org/abs/2306.13887](http://arxiv.org/abs/2306.13887)
 
-    本文提出了一种使用预训练的音频嵌入作为教师来引导低复杂度学生网络的方法，并在音乐乐器分类和音乐自动标记任务上取得了显著的改进.
-
-    
-
-    音乐分类一直是音乐信息检索领域中最受欢迎的任务之一。随着深度学习模型的发展，过去十年在各种分类任务中取得了令人瞩目的进展。然而，不断增加的模型复杂性使得训练和推断的计算成本变得昂贵。在本文中，我们将迁移学习和基于特征的知识蒸馏的思想相结合，并系统地研究使用预训练的音频嵌入作为教师来指导低复杂度的学生网络的训练。通过用预训练的嵌入方式规范化学生网络的特征空间，教师嵌入中的知识可以传递给学生。我们使用各种预训练的音频嵌入，并在音乐乐器分类和音乐自动标记任务上测试了该方法的有效性。结果表明，与同一方法相比，我们的方法显著提高了结果.
-
-    Music classification has been one of the most popular tasks in the field of music information retrieval. With the development of deep learning models, the last decade has seen impressive improvements in a wide range of classification tasks. However, the increasing model complexity makes both training and inference computationally expensive. In this paper, we integrate the ideas of transfer learning and feature-based knowledge distillation and systematically investigate using pre-trained audio embeddings as teachers to guide the training of low-complexity student networks. By regularizing the feature space of the student networks with the pre-trained embeddings, the knowledge in the teacher embeddings can be transferred to the students. We use various pre-trained audio embeddings and test the effectiveness of the method on the tasks of musical instrument classification and music auto-tagging. Results show that our method significantly improves the results in comparison to the identical 
-    
-[^6]: DeepTagger: 基于知识增强的网络广告查询的命名实体识别
-
-    DeepTagger: Knowledge Enhanced Named Entity Recognition for Web-Based Ads Queries. (arXiv:2306.17413v1 [cs.IR])
-
-    [http://arxiv.org/abs/2306.17413](http://arxiv.org/abs/2306.17413)
-
-    DeepTagger是一种基于知识增强的网络广告查询的命名实体识别模型，通过模型无关和模型基于方法，利用未标记的网络查询和网络搜索结果来增加领域知识，采用大型语言模型自动生成标签，并应用对抗数据增强方法进行模型训练。
+    通过多模态领域自适应技术实现跨领域推荐系统，解决数据稀疏性问题，提升推荐性能。
 
     
 
-    命名实体识别（NER）是在线广告的关键任务。最先进的解决方案利用预训练的语言模型来完成这项任务。然而，仍存在三个主要挑战：网络查询与预训练模型训练的自然语言不同；网络查询短小，缺乏上下文信息；NER的标记数据稀缺。我们提出了DeepTagger，一种基于知识增强的网络广告查询的NER模型。所提出的知识增强框架利用模型无关和模型基于方法。对于模型无关的增强，我们收集未标记的网络查询来增加领域知识；还收集网络搜索结果来丰富广告查询的信息。我们进一步利用ChatGPT等大型语言模型采用有效的提示方法自动生成标签。另外，我们采用基于对抗数据增强的模型基于知识增强方法。我们采用三阶段的训练框架。
+    协同过滤（CF）已成为推荐系统最重要的实现策略之一。关键思想是利用个人使用模式生成个性化推荐。尤其是对于新推出的平台，CF技术常常面临数据稀疏性的问题，这极大地限制了它们的性能。在解决数据稀疏性问题方面，文献中提出了几种方法，其中跨领域协同过滤（CDCF）在最近受到了广泛的关注。为了补偿目标领域中可用反馈的不足，CDCF方法利用其他辅助领域中的信息。大多数传统的CDCF方法的目标是在领域之间找到一组共同的实体（用户或项目），然后将它们用作知识转移的桥梁。但是，大多数真实世界的数据集是从不同的领域收集的，这使得跨领域协同过滤更加具有挑战性。
 
-    Named entity recognition (NER) is a crucial task for online advertisement. State-of-the-art solutions leverage pre-trained language models for this task. However, three major challenges remain unresolved: web queries differ from natural language, on which pre-trained models are trained; web queries are short and lack contextual information; and labeled data for NER is scarce. We propose DeepTagger, a knowledge-enhanced NER model for web-based ads queries. The proposed knowledge enhancement framework leverages both model-free and model-based approaches. For model-free enhancement, we collect unlabeled web queries to augment domain knowledge; and we collect web search results to enrich the information of ads queries. We further leverage effective prompting methods to automatically generate labels using large language models such as ChatGPT. Additionally, we adopt a model-based knowledge enhancement method based on adversarial data augmentation. We employ a three-stage training framework 
+    Collaborative Filtering (CF) has emerged as one of the most prominent implementation strategies for building recommender systems. The key idea is to exploit the usage patterns of individuals to generate personalized recommendations. CF techniques, especially for newly launched platforms, often face a critical issue known as the data sparsity problem, which greatly limits their performance. Several approaches have been proposed in the literature to tackle the problem of data sparsity, among which cross-domain collaborative filtering (CDCF) has gained significant attention in the recent past. In order to compensate for the scarcity of available feedback in a target domain, the CDCF approach makes use of information available in other auxiliary domains. Most of the traditional CDCF approach aim is to find a common set of entities (users or items) across the domains and then use them as a bridge for knowledge transfer. However, most real-world datasets are collected from different domains,
     
-[^7]: 以提示为基础的个性化冷启动推荐的研究
+[^4]: 基于注意力知识图卷积网络的旅游景点推荐
 
-    Towards Personalized Cold-Start Recommendation with Prompts. (arXiv:2306.17256v1 [cs.IR])
+    Tourist Attractions Recommendation based on Attention Knowledge Graph Convolution Network. (arXiv:2306.10946v1 [cs.IR] CROSS LISTED)
 
-    [http://arxiv.org/abs/2306.17256](http://arxiv.org/abs/2306.17256)
+    [http://arxiv.org/abs/2306.10946](http://arxiv.org/abs/2306.10946)
 
-    本研究旨在解决个性化冷启动推荐问题，通过利用预训练语言模型的能力，将推荐过程转化为自然语言情感分析，提供适用于创业企业和用户参与历史不足的平台的个性化推荐。
-
-    
-
-    推荐系统在根据用户过去的行为帮助用户发现与其兴趣相符的信息方面发挥着关键作用。然而，当用户和物品之间的历史交互记录不可用时，开发个性化推荐系统变得具有挑战性，这就是所谓的系统冷启动推荐问题。此问题在创业企业或用户参与历史不足的平台中尤为突出。以往的研究集中在用户或物品的冷启动场景，其中系统仍然通过在同一领域中的历史用户和物品交互进行训练来为新用户或物品提供推荐，而无法解决我们的问题。为了弥合这一鸿沟，我们的研究引入了一种创新且有效的方法，利用预训练语言模型的能力。我们将推荐过程转化为自然语言情感分析，其中包含用户资料和物品属性的信息。
-
-    Recommender systems play a crucial role in helping users discover information that aligns with their interests based on their past behaviors. However, developing personalized recommendation systems becomes challenging when historical records of user-item interactions are unavailable, leading to what is known as the system cold-start recommendation problem. This issue is particularly prominent in start-up businesses or platforms with insufficient user engagement history. Previous studies focus on user or item cold-start scenarios, where systems could make recommendations for new users or items but are still trained with historical user-item interactions in the same domain, which cannot solve our problem. To bridge the gap, our research introduces an innovative and effective approach, capitalizing on the capabilities of pre-trained language models. We transform the recommendation process into sentiment analysis of natural languages containing information of user profiles and item attribu
-    
-[^8]: 在公共云中使用可信计算强制执行数据地理位置策略
-
-    Enforcing Data Geolocation Policies in Public Clouds using Trusted Computing. (arXiv:2306.17171v1 [cs.DC])
-
-    [http://arxiv.org/abs/2306.17171](http://arxiv.org/abs/2306.17171)
-
-    本论文提出了一种使用可信计算的技术，可以限制公共云中数据的地理位置。用户将上传数据，并只与第三方验证服务器共享解密密钥。
+    本文提出了一种基于注意力知识图卷积网络的旅游景点推荐模型，通过自动语义发掘目标景点的相邻实体，根据旅客的喜好选择，预测类似景点的概率，实验中取得良好效果。
 
     
 
-    随着技术的进步，云计算通过革命性的解决方案自动化和简化复杂的计算任务，不断给世界带来惊喜。免维护成本、可访问性、数据备份、按使用付费模式、无限存储和处理能力等优势，鼓励个人和企业将工作负载迁移到云端。尽管云计算有许多优点，但数据在云环境中的地理位置是一个巨大的问题，它与数据所受到的性能和政府法规有关。数据地理位置的不清晰可能引发合规性问题。在这项工作中，我们提出了一种技术，允许用户限制其数据在云环境中的地理位置。我们使用可信计算机制远程验证主机及其地理位置。在这个模型中，用户将上传其数据，并将解密密钥仅与第三方验证服务器共享。
+    基于知识图谱的推荐算法在相对成熟阶段，但在特定领域的推荐仍存在问题。例如在旅游领域，选择适合的旅游景点属性流程作为推荐基础较为复杂。本文提出改进的注意力知识图卷积网络模型(Att-KGCN)，自动语义地发掘目标景点的相邻实体，利用注意力层将相对相似的位置进行聚合，并通过推理旅客喜好选择，预测类似景点的概率作为推荐系统。实验中，采用索科特拉岛-也门的旅游数据，证明了注意力知识图卷积网络在旅游领域的景点推荐效果良好。
 
-    With the advancement in technology, Cloud computing always amazes the world with revolutionizing solutions that automate and simplify complex computational tasks. The advantages like no maintenance cost, accessibility, data backup, pay-per-use models, unlimited storage, and processing power encourage individuals and businesses to migrate their workload to the cloud. Despite the numerous advantages of cloud computing, the geolocation of data in the cloud environment is a massive concern, which relates to the performance and government legislation that will be applied to data. The unclarity of data geolocation can cause compliance concerns. In this work, we have presented a technique that will allow users to restrict the geolocation of their data in the cloud environment. We have used trusted computing mechanisms to attest the host and its geolocation remotely. With this model, the user will upload the data whose decryption key will be shared with a third-party attestation server only. T
+    The recommendation algorithm based on knowledge graphs is at a relatively mature stage. However, there are still some problems in the recommendation of specific areas. For example, in the tourism field, selecting suitable tourist attraction attributes process is complicated as the recommendation basis for tourist attractions. In this paper, we propose the improved Attention Knowledge Graph Convolution Network model, named (Att-KGCN), which automatically discovers the neighboring entities of the target scenic spot semantically. The attention layer aggregates relatively similar locations and represents them with an adjacent vector. Then, according to the tourist's preferred choices, the model predicts the probability of similar spots as a recommendation system. A knowledge graph dataset of tourist attractions used based on tourism data on Socotra Island-Yemen. Through experiments, it is verified that the Attention Knowledge Graph Convolution Network has a good effect on the recommendatio
     
-[^9]: 利用Hugging Face Transformers预测社交网络中的精神健康障碍的力量
+[^5]: 深度学习在暗网活动分类中的应用
 
-    Harnessing the Power of Hugging Face Transformers for Predicting Mental Health Disorders in Social Networks. (arXiv:2306.16891v1 [cs.IR])
+    Dark web activity classification using deep learning. (arXiv:2306.07980v1 [cs.IR])
 
-    [http://arxiv.org/abs/2306.16891](http://arxiv.org/abs/2306.16891)
+    [http://arxiv.org/abs/2306.07980](http://arxiv.org/abs/2306.07980)
 
-    该研究通过使用社交媒体和预训练的语言模型，探索了使用用户生成的数据预测精神障碍症状的方法，并发现新模型的准确度高达97%。这表明社交媒体数据是进行精神健康筛查的一个重要资源，预训练模型能够有效地自动化这一任务。
-
-    
-
-    早期诊断精神障碍并进行干预可以促进预防严重伤害和改善治疗效果。本研究利用社交媒体和预训练的语言模型，探讨用户生成的数据如何用于预测精神障碍症状。我们的研究比较了Hugging Face的四种不同BERT模型和近期文献中用于自动抑郁症诊断的标准机器学习技术。结果显示，新模型的准确率高达97%，超过了以前的方法。通过补充先前的发现，对结果进行分析，我们发现即使是微小的数据量（如用户的个人简介描述）也有预测精神障碍的潜力。我们得出结论，社交媒体数据是进行精神健康筛查的一个极好的来源，并且预训练模型可以有效自动化这一关键任务。
-
-    Early diagnosis of mental disorders and intervention can facilitate the prevention of severe injuries and the improvement of treatment results. Using social media and pre-trained language models, this study explores how user-generated data can be used to predict mental disorder symptoms. Our study compares four different BERT models of Hugging Face with standard machine learning techniques used in automatic depression diagnosis in recent literature. The results show that new models outperform the previous approach with an accuracy rate of up to 97%. Analyzing the results while complementing past findings, we find that even tiny amounts of data (like users' bio descriptions) have the potential to predict mental disorders. We conclude that social media data is an excellent source of mental health screening, and pre-trained models can effectively automate this critical task.
-    
-[^10]: 基于信息丢失约束的大规模公共安全时空数据高效划分方法
-
-    Efficient Partitioning Method of Large-Scale Public Safety Spatio-Temporal Data based on Information Loss Constraints. (arXiv:2306.12857v1 [cs.LG])
-
-    [http://arxiv.org/abs/2306.12857](http://arxiv.org/abs/2306.12857)
-
-    本文提出了一种基于信息丢失约束的大规模公共安全时空数据高效划分方法(IFL-LSTP)，可以显著减小数据规模，同时保持模型的准确性，确保分布式存储的负载平衡，同时保持数据划分的时空接近性。
+    本文阐述了对于识别和控制暗网非法活动的迫切需求，并提出了一种利用深度学习方法检索 .onion 扩展名的网站上相关图片的搜索引擎，该方法在测试中达到了94% 的准确率。
 
     
 
-    大规模时空数据的存储、管理和应用在各种实际场景中广泛应用，包括公共安全。然而，由于现实世界数据的独特时空分布特征，大多数现有方法在数据时空接近度和分布式存储负载平衡方面存在限制。因此，本文提出了一种基于信息丢失约束的大规模公共安全时空数据高效划分方法(IFL-LSTP)。该IFL-LSTP模型针对大规模时空点数据，将时空划分模块(STPM)和图划分模块(GPM)相结合。该方法可以显著减小数据规模，同时保持模型的准确性，以提高划分效率。它还可以确保分布式存储的负载平衡，同时保持数据划分的时空接近性。
+    本文强调了识别和控制暗网非法活动的迫切需要。作者提出了一种利用深度学习通过 .onion 扩展名的网站检索非法活动相关图片的新型搜索引擎。在名为 darkoob 的全面数据集的测试中，该方法达到了94% 的准确率。
 
-    The storage, management, and application of massive spatio-temporal data are widely applied in various practical scenarios, including public safety. However, due to the unique spatio-temporal distribution characteristics of re-al-world data, most existing methods have limitations in terms of the spatio-temporal proximity of data and load balancing in distributed storage. There-fore, this paper proposes an efficient partitioning method of large-scale public safety spatio-temporal data based on information loss constraints (IFL-LSTP). The IFL-LSTP model specifically targets large-scale spatio-temporal point da-ta by combining the spatio-temporal partitioning module (STPM) with the graph partitioning module (GPM). This approach can significantly reduce the scale of data while maintaining the model's accuracy, in order to improve the partitioning efficiency. It can also ensure the load balancing of distributed storage while maintaining spatio-temporal proximity of the data partitioning res
+    The present article highlights the pressing need for identifying and controlling illicit activities on the dark web. While only 4% of the information available on the internet is accessible through regular search engines, the deep web contains a plethora of information, including personal data and online accounts, that is not indexed by search engines. The dark web, which constitutes a subset of the deep web, is a notorious breeding ground for various illegal activities, such as drug trafficking, weapon sales, and money laundering. Against this backdrop, the authors propose a novel search engine that leverages deep learning to identify and extract relevant images related to illicit activities on the dark web. Specifically, the system can detect the titles of illegal activities on the dark web and retrieve pertinent images from websites with a .onion extension. The authors have collected a comprehensive dataset named darkoob and the proposed method achieves an accuracy of 94% on the tes
     
-[^11]: 通过合成控制理论实现有界（O(1)）遗憾的推荐学习
+[^6]: ChatGPT是否公平可靠？评估大型语言模型推荐中的公平性
 
-    Bounded (O(1)) Regret Recommendation Learning via Synthetic Controls Oracle. (arXiv:2301.12571v2 [cs.LG] UPDATED)
+    Is ChatGPT Fair for Recommendation? Evaluating Fairness in Large Language Model Recommendation. (arXiv:2305.07609v1 [cs.IR])
 
-    [http://arxiv.org/abs/2301.12571](http://arxiv.org/abs/2301.12571)
+    [http://arxiv.org/abs/2305.07609](http://arxiv.org/abs/2305.07609)
 
-    通过合成控制理论，本论文提出了一种实现有界遗憾的推荐学习方法，并解决了线性模型的精确知识、潜在协变量的存在、不均匀的用户到达速率和用户选择退出私人数据跟踪等实践中的问题。
-
-    
-
-    在在线探索系统中，当具有固定偏好的用户重复到达时，最近已经证明可以将系统建模为线性情境广告带来O(1)的有界遗憾。这个结果可能对推荐系统具有兴趣，因为它们的物品的流行度通常是短暂的，即探索本身可能在潜在的长期非稳态开始之前很快完成。然而，在实践中，线性模型的精确知识往往难以证明。此外，潜在协变量的存在，不均匀的用户到达速率，对必要等级条件的解释以及用户选择退出私人数据跟踪等都需要在实际的推荐系统应用中解决。在这项工作中，我们进行了理论研究，以解决所有这些问题，同时仍然实现了有界遗憾。除了证明技术，我们在这里所做的关键区别性假设是有效合成控制理论的存在。
-
-    In online exploration systems where users with fixed preferences repeatedly arrive, it has recently been shown that O(1), i.e., bounded regret, can be achieved when the system is modeled as a linear contextual bandit. This result may be of interest for recommender systems, where the popularity of their items is often short-lived, as the exploration itself may be completed quickly before potential long-run non-stationarities come into play. However, in practice, exact knowledge of the linear model is difficult to justify. Furthermore, potential existence of unobservable covariates, uneven user arrival rates, interpretation of the necessary rank condition, and users opting out of private data tracking all need to be addressed for practical recommender system applications. In this work, we conduct a theoretical study to address all these issues while still achieving bounded regret. Aside from proof techniques, the key differentiating assumption we make here is the presence of effective Sy
-    
-[^12]: 针对下一次购买预测的顺序推荐模型
-
-    Sequential Recommendation Model for Next Purchase Prediction. (arXiv:2207.06225v2 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2207.06225](http://arxiv.org/abs/2207.06225)
-
-    本文提出了一种顺序推荐系统，考虑了用户的购买顺序以预测他们的下一次购买，该模型利用大规模的信用卡交易数据集进行了验证和排名，展现了其在准确性和效果上的优势。
+    这篇论文介绍了一种新的推荐范式——通过LLM进行推荐，但由于LLMs可能存在社会偏见，需要进一步调查RecLLM所做推荐的公正性。为此，作者提出了一个新的公平性基准——FaiRLLM，并针对音乐和电影推荐场景中的八个敏感属性进行了评估。
 
     
 
-    在提供当代数字营销体验时，推荐的时效性和上下文准确性变得越来越重要。传统的推荐系统通过考虑用户的过去购买记录向用户推荐相关但不受时间影响的物品。这些推荐只是符合用户的一般偏好，而不是用户在购买之前的具体需求。相反，考虑交易、购买或体验顺序来衡量用户演化偏好的推荐系统能够为用户提供更准确和有效的推荐：顺序推荐系统不仅能更好地理解用户当前需求的行为，还具有更好的预测能力。在本文中，我们利用一份包含超过2.7百万信用卡交易数据和46K个持卡人的生产数据集，展示并排名了顺序推荐系统的效果。该方法首先使用自编码器对原始的交易数据进行处理，然后提交观测数据进行预测。
+    大型语言模型（LLM）的显着成就导致一种新的推荐范式——通过LLM进行推荐（RecLLM）。然而，需要注意LLMs可能包含社会偏见，因此需要进一步调查RecLLM所做推荐的公正性。为了避免RecLLM的潜在风险，有必要从用户的各种敏感属性角度评估RecLLM的公平性。由于RecLLM范式与传统推荐范式之间存在差异，因此直接使用传统推荐的公平性基准是有问题的。为了解决这个困境，我们提出了一个新的基准，称为“通过LLM的推荐的公平性”（FaiRLLM）。该基准包括精心设计的指标和数据集，涵盖两个推荐场景中的八个敏感属性：音乐和电影。通过利用我们的FaiRLLM基准，我们进行了一项评估。
 
-    Timeliness and contextual accuracy of recommendations are increasingly important when delivering contemporary digital marketing experiences. Conventional recommender systems (RS) suggest relevant but time-invariant items to users by accounting for their past purchases. These recommendations only map to customers' general preferences rather than a customer's specific needs immediately preceding a purchase. In contrast, RSs that consider the order of transactions, purchases, or experiences to measure evolving preferences can offer more salient and effective recommendations to customers: Sequential RSs not only benefit from a better behavioral understanding of a user's current needs but also better predictive power. In this paper, we demonstrate and rank the effectiveness of a sequential recommendation system by utilizing a production dataset of over 2.7 million credit card transactions for 46K cardholders. The method first employs an autoencoder on raw transaction data and submits observ
+    The remarkable achievements of Large Language Models (LLMs) have led to the emergence of a novel recommendation paradigm -- Recommendation via LLM (RecLLM). Nevertheless, it is important to note that LLMs may contain social prejudices, and therefore, the fairness of recommendations made by RecLLM requires further investigation. To avoid the potential risks of RecLLM, it is imperative to evaluate the fairness of RecLLM with respect to various sensitive attributes on the user side. Due to the differences between the RecLLM paradigm and the traditional recommendation paradigm, it is problematic to directly use the fairness benchmark of traditional recommendation. To address the dilemma, we propose a novel benchmark called Fairness of Recommendation via LLM (FaiRLLM). This benchmark comprises carefully crafted metrics and a dataset that accounts for eight sensitive attributes1 in two recommendation scenarios: music and movies. By utilizing our FaiRLLM benchmark, we conducted an evaluation 
     
-[^13]: 异构数据源上的对话问答
+[^7]: 如何为推荐基础模型索引项目ID
 
-    Conversational Question Answering on Heterogeneous Sources. (arXiv:2204.11677v2 [cs.IR] UPDATED)
+    How to Index Item IDs for Recommendation Foundation Models. (arXiv:2305.06569v1 [cs.IR])
 
-    [http://arxiv.org/abs/2204.11677](http://arxiv.org/abs/2204.11677)
+    [http://arxiv.org/abs/2305.06569](http://arxiv.org/abs/2305.06569)
 
-    本文提出了CONVINSE，一个用于异构数据源上的ConvQA的端到端流水线，通过联合提取来自知识库、文本和表格的信息，提升了答案覆盖率和可信度。
+    本研究对推荐基础模型的项目索引问题进行了系统检查，提出了一种新的上下文感知索引方法，该方法在项目推荐准确性和文本生成质量方面具有优势。
 
     
 
-    会话问答(ConvQA)解决了顺序信息需求中的后续问题中上下文隐含的问题。当前的ConvQA系统只能在同质化的信息源上操作，如知识库(KB)、文本语料库或表格集合。本文针对的是在这些异质数据源中联合提取信息，从而提升答案覆盖率和可信度的新问题。我们提出了CONVINSE，一个用于异构数据源上的ConvQA的端到端流水线，分为三个阶段：i）学习对传入问题及其对话上下文的明确结构化表示，ii）利用这个类似框架的表示方式统一地获取到来自KB、文本和表格的相关证据，iii）运行融合解码模型来生成答案。我们构建并发布了第一个基准数据集ConvMix，用于异构数据源上的ConvQA，包括3000个真实用户对话和16000个问题，以及实体注释。
+    推荐基础模型将推荐任务转换为自然语言任务，利用大型语言模型（LLM）进行推荐。它通过直接生成建议的项目而不是计算传统推荐模型中每个候选项目的排名得分，简化了推荐管道，避免了多段过滤的问题。为了避免在决定要推荐哪些项目时生成过长的文本，为推荐基础模型创建LLM兼容的项目ID是必要的。本研究系统地研究了推荐基础模型的项目索引问题，以P5为代表的主干模型，并使用各种索引方法复制其结果。我们首先讨论了几种微不足道的项目索引方法（如独立索引、标题索引和随机索引）的问题，并表明它们不适用于推荐基础模型，然后提出了一种新的索引方法，称为上下文感知索引。我们表明，这种索引方法在项目推荐准确性和文本生成质量方面优于其他索引方法。
 
-    Conversational question answering (ConvQA) tackles sequential information needs where contexts in follow-up questions are left implicit. Current ConvQA systems operate over homogeneous sources of information: either a knowledge base (KB), or a text corpus, or a collection of tables. This paper addresses the novel issue of jointly tapping into all of these together, this way boosting answer coverage and confidence. We present CONVINSE, an end-to-end pipeline for ConvQA over heterogeneous sources, operating in three stages: i) learning an explicit structured representation of an incoming question and its conversational context, ii) harnessing this frame-like representation to uniformly capture relevant evidences from KB, text, and tables, and iii) running a fusion-in-decoder model to generate the answer. We construct and release the first benchmark, ConvMix, for ConvQA over heterogeneous sources, comprising 3000 real-user conversations with 16000 questions, along with entity annotations,
+    Recommendation foundation model utilizes large language models (LLM) for recommendation by converting recommendation tasks into natural language tasks. It enables generative recommendation which directly generates the item(s) to recommend rather than calculating a ranking score for each and every candidate item in traditional recommendation models, simplifying the recommendation pipeline from multi-stage filtering to single-stage filtering. To avoid generating excessively long text when deciding which item(s) to recommend, creating LLM-compatible item IDs is essential for recommendation foundation models. In this study, we systematically examine the item indexing problem for recommendation foundation models, using P5 as the representative backbone model and replicating its results with various indexing methods. To emphasize the importance of item indexing, we first discuss the issues of several trivial item indexing methods, such as independent indexing, title indexing, and random inde
+    
+[^8]: TALLRec: 一种与推荐系统对齐的大型语言模型有效且高效的调整框架
+
+    TALLRec: An Effective and Efficient Tuning Framework to Align Large Language Model with Recommendation. (arXiv:2305.00447v1 [cs.IR])
+
+    [http://arxiv.org/abs/2305.00447](http://arxiv.org/abs/2305.00447)
+
+    TALLRec是对LLMs进行调整的一种高效且有效的框架，用于将LLMs与推荐系统对齐，从而增强LLMs在推荐任务中的能力。
+
+    
+
+    大型语言模型（LLMs）已经展现了在不同领域的显著性能，因此研究人员开始探索它们在推荐系统中的潜力。虽然初始的尝试已经利用了LLMs的优异能力，比如通过上下文学习中的提示词来丰富知识并进行强化泛化，但是由于LLMs的训练任务与推荐任务之间的巨大差异以及预训练期间的不足的推荐数据，LLMs在推荐任务中的性能仍然不理想。为了填补这一差距，我们考虑使用推荐数据对LLMs进行调整来构建大型推荐语言模型。为此，我们提出了一种名为TALLRec的高效且有效的调整框架，用于将LLMs与推荐系统对齐。我们已经证明了所提出的TALLRec框架可以显著增强LLMs在推荐任务中的能力。
+
+    Large Language Models (LLMs) have demonstrated remarkable performance across diverse domains, thereby prompting researchers to explore their potential for use in recommendation systems. Initial attempts have leveraged the exceptional capabilities of LLMs, such as rich knowledge and strong generalization through In-context Learning, which involves phrasing the recommendation task as prompts. Nevertheless, the performance of LLMs in recommendation tasks remains suboptimal due to a substantial disparity between the training tasks for LLMs and recommendation tasks, as well as inadequate recommendation data during pre-training. To bridge the gap, we consider building a Large Recommendation Language Model by tunning LLMs with recommendation data. To this end, we propose an efficient and effective Tuning framework for Aligning LLMs with Recommendation, namely TALLRec. We have demonstrated that the proposed TALLRec framework can significantly enhance the recommendation capabilities of LLMs in 
+    
+[^9]: 时间感知顺序推荐中的注意力混合
+
+    Attention Mixtures for Time-Aware Sequential Recommendation. (arXiv:2304.08158v2 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2304.08158](http://arxiv.org/abs/2304.08158)
+
+    MOJITO是一种改进的Transformer顺序推荐系统，利用注意力混合建模用户偏好和时间背景的复杂依赖关系，从而准确预测下一个推荐物品。在多个真实数据集中，MOJITO表现优于现有的Transformer模型。
+
+    
+
+    Transformer模型在顺序推荐中表现出强大的能力。然而，现有的架构经常忽视用户偏好和时间背景之间的复杂依赖关系。在本篇短文中，我们介绍了MOJITO，一种改进的Transformer顺序推荐系统，它解决了这个局限性。MOJITO利用基于注意力的时间背景和物品嵌入表示的高斯混合进行顺序建模。这种方法可以准确地预测下一个应该向用户推荐哪些物品，这取决于过去的行为和时间背景。我们通过在多个真实世界数据集上进行实证实验，证明了我们方法的相关性，优于现有的Transformer顺序推荐模型。
+
+    Transformers emerged as powerful methods for sequential recommendation. However, existing architectures often overlook the complex dependencies between user preferences and the temporal context. In this short paper, we introduce MOJITO, an improved Transformer sequential recommender system that addresses this limitation. MOJITO leverages Gaussian mixtures of attention-based temporal context and item embedding representations for sequential modeling. Such an approach permits to accurately predict which items should be recommended next to users depending on past actions and the temporal context. We demonstrate the relevance of our approach, by empirically outperforming existing Transformers for sequential recommendation on several real-world datasets.
+    
+[^10]: 寻找电子商务营销的相似客户
+
+    Finding Lookalike Customers for E-Commerce Marketing. (arXiv:2301.03147v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2301.03147](http://arxiv.org/abs/2301.03147)
+
+    本文介绍了一个以客户为中心的营销活动中寻找相似客户的可扩展和高效系统。该系统能处理亿级客户，并使用深度学习嵌入模型和近似最近邻搜索方法来寻找感兴趣的相似客户。通过构建可解释且有意义的客户相似度度量，该模型能够处理各种业务兴趣。
+
+    
+
+    以客户为中心的营销活动为沃尔玛的电子商务网站流量贡献了很大的一部分。随着客户数据规模的增大，扩大营销受众以触达更多客户对电子商务公司的业务增长和为客户带来更多价值变得更为关键。在本文中，我们提出了一个可扩展且高效的系统来扩大营销活动的目标受众，该系统可以处理亿级客户。我们使用基于深度学习的嵌入模型来表示客户，使用一种近似最近邻搜索方法快速找到感兴趣的相似客户。该模型能够通过构建可解释且有意义的客户相似度度量来处理各种业务兴趣。我们进行了大量实验来展示我们的系统和客户嵌入模型的出色性能。
+
+    Customer-centric marketing campaigns generate a large portion of e-commerce website traffic for Walmart. As the scale of customer data grows larger, expanding the marketing audience to reach more customers is becoming more critical for e-commerce companies to drive business growth and bring more value to customers. In this paper, we present a scalable and efficient system to expand targeted audience of marketing campaigns, which can handle hundreds of millions of customers. We use a deep learning based embedding model to represent customers and an approximate nearest neighbor search method to quickly find lookalike customers of interest. The model can deal with various business interests by constructing interpretable and meaningful customer similarity metrics. We conduct extensive experiments to demonstrate the great performance of our system and customer embedding model.
+    
+[^11]: 垂直半联合学习用于高效在线广告
+
+    Vertical Semi-Federated Learning for Efficient Online Advertising. (arXiv:2209.15635v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2209.15635](http://arxiv.org/abs/2209.15635)
+
+    垂直半联合学习为在线广告领域提供了高效的解决方案，通过学习一个联合感知的局部模型以应对传统垂直联合学习的限制。
+
+    
+
+    传统的垂直联合学习架构存在两个主要问题：1）适用范围受限于重叠样本；2）实时联合服务的系统挑战较高，这限制了其在广告系统中的应用。为解决这些问题，我们提出了一种新的学习设置——半垂直联合学习(Semi-VFL)，以应对这些挑战。半垂直联合学习旨在实现垂直联合学习的实际工业应用方式，通过学习一个联合感知的局部模型，该模型表现优于单方模型，同时保持了局部服务的便利性。为此，我们提出了精心设计的联合特权学习框架(JPL)，来解决被动方特征缺失和适应整个样本空间这两个问题。具体而言，我们构建了一个推理高效的适用于整个样本空间的单方学生模型，同时保持了联合特征扩展的优势。新的表示蒸馏
+
+    The traditional vertical federated learning schema suffers from two main issues: 1) restricted applicable scope to overlapped samples and 2) high system challenge of real-time federated serving, which limits its application to advertising systems. To this end, we advocate a new learning setting Semi-VFL (Vertical Semi-Federated Learning) to tackle these challenge. Semi-VFL is proposed to achieve a practical industry application fashion for VFL, by learning a federation-aware local model which performs better than single-party models and meanwhile maintain the convenience of local-serving. For this purpose, we propose the carefully designed Joint Privileged Learning framework (JPL) to i) alleviate the absence of the passive party's feature and ii) adapt to the whole sample space. Specifically, we build an inference-efficient single-party student model applicable to the whole sample space and meanwhile maintain the advantage of the federated feature extension. New representation distilla
+    
+[^12]: 面向收益限制广告商的在线竞价算法
+
+    Online Bidding Algorithms for Return-on-Spend Constrained Advertisers. (arXiv:2208.13713v3 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2208.13713](http://arxiv.org/abs/2208.13713)
+
+    本研究提出了一个用于满足投放成本回报率限制的广告商的在线竞价算法，通过简便的在线算法实现了接近最优的遗憾值，并且总结了与先前工作的集成性能。
+
+    
+
+    在线广告业近年来成长为一个竞争激烈且复杂的数十亿美元行业，广告商在大规模和高频率下进行广告位竞价。这导致需求增加了对于高效的"自动竞价"算法，以确定最大化广告商目标的投标价格，同时满足特定的限制条件。本研究探讨了单个最大化价值广告商面临的越来越流行的限制条件之一：投放成本回报率（RoS）。我们以相对于知道所有查询的最优算法的遗憾值为衡量标准来量化效率。我们提出了一个简单的在线算法，当查询序列是来自某个分布的独立同分布样本时，该算法在期望值上实现了接近最优的遗憾值，同时始终遵守指定的RoS约束。我们还将我们的结果与Balseiro、Lu和Mirrokni [BLM20]的先前工作相结合，以在尊重约束的同时实现接近最优的遗憾值。
+
+    Online advertising has recently grown into a highly competitive and complex multi-billion-dollar industry, with advertisers bidding for ad slots at large scales and high frequencies. This has resulted in a growing need for efficient "auto-bidding" algorithms that determine the bids for incoming queries to maximize advertisers' targets subject to their specified constraints. This work explores efficient online algorithms for a single value-maximizing advertiser under an increasingly popular constraint: Return-on-Spend (RoS). We quantify efficiency in terms of regret relative to the optimal algorithm, which knows all queries a priori.  We contribute a simple online algorithm that achieves near-optimal regret in expectation while always respecting the specified RoS constraint when the input sequence of queries are i.i.d. samples from some distribution. We also integrate our results with the previous work of Balseiro, Lu, and Mirrokni [BLM20] to achieve near-optimal regret while respecting
+    
+[^13]: 在无偏推荐中重新考虑学习目标：分布转移视角下的研究
+
+    Reconsidering Learning Objectives in Unbiased Recommendation: A Distribution Shift Perspective. (arXiv:2206.03851v2 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2206.03851](http://arxiv.org/abs/2206.03851)
+
+    本文从分布转移视角出发，研究了从偏向反馈中学习无偏算法进行推荐的问题。通过建立无偏推荐与分布转移的关系，对现有无偏学习方法进行了理论解释并提出了两个泛化界限。
+
+    
+
+    本文研究了从偏向反馈中学习无偏算法进行推荐的问题，我们从一个新颖的分布转移视角来解决这个问题。最近在无偏推荐领域的研究中，通过各种技术如重新加权、多任务学习和元学习，取得了最新的成果。尽管它们在实证上取得了成功，但大部分缺乏理论保证，导致了理论和最新算法之间的显著差距。本文提出了对现有无偏学习目标为何适用于无偏推荐的理论理解。我们建立了无偏推荐与分布转移之间的密切关系，显示了现有的无偏学习目标隐含地将有偏的训练分布与无偏的测试分布对齐。基于这个关系，我们针对现有的无偏学习方法发展了两个泛化界限并分析了它们的学习行为。
+
+    This work studies the problem of learning unbiased algorithms from biased feedback for recommendation. We address this problem from a novel distribution shift perspective. Recent works in unbiased recommendation have advanced the state-of-the-art with various techniques such as re-weighting, multi-task learning, and meta-learning. Despite their empirical successes, most of them lack theoretical guarantees, forming non-negligible gaps between theories and recent algorithms. In this paper, we propose a theoretical understanding of why existing unbiased learning objectives work for unbiased recommendation. We establish a close connection between unbiased recommendation and distribution shift, which shows that existing unbiased learning objectives implicitly align biased training and unbiased test distributions. Built upon this connection, we develop two generalization bounds for existing unbiased learning methods and analyze their learning behavior. Besides, as a result of the distributio
+    
+[^14]: 通过语言模型提示的少样本多跳问题再排名研究
+
+    Few-shot Reranking for Multi-hop QA via Language Model Prompting. (arXiv:2205.12650v3 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2205.12650](http://arxiv.org/abs/2205.12650)
+
+    本研究提出了PromptRank方法，通过语言模型提供的多跳路径再排名，实现了少样本的多跳问题检索。在HotpotQA数据集上，PromptRank相比于其他方法使用的大量训练样本，仅使用128个训练示例就能达到较高的召回率。
+
+    
+
+    我们研究了开放领域问题的少样本多跳问题再排名。为了减少对大量标记的问题-文档对进行检索器训练的需求，我们提出了PromptRank，它依赖于大型语言模型对多跳路径进行再排名。PromptRank首先构建一个基于指令的提示，其中包含一个候选文档路径，然后根据语言模型中给定路径提示的条件概率，计算给定问题和路径之间的相关性得分。与基于大量示例训练的最先进方法相比，PromptRank在只有128个训练示例的情况下在HotpotQA上表现出很强的检索性能——PromptRank的召回率@10为73.6，而PathRetriever为77.8，多跳稠密检索为77.5。代码可在https://github.com/mukhal/PromptRank获得。
+
+    We study few-shot reranking for multi-hop QA with open-domain questions. To alleviate the need for a large number of labeled question-document pairs for retriever training, we propose PromptRank, which relies on large language models prompting for multi-hop path reranking. PromptRank first constructs an instruction-based prompt that includes a candidate document path and then computes the relevance score between a given question and the path based on the conditional likelihood of the question given the path prompt according to a language model. PromptRank yields strong retrieval performance on HotpotQA with only 128 training examples compared to state-of-the-art methods trained on thousands of examples -- 73.6 recall@10 by PromptRank vs. 77.8 by PathRetriever and 77.5 by multi-hop dense retrieval. Code available at https://github.com/mukhal/PromptRank
     
 

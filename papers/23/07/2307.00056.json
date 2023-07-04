@@ -1,0 +1,12 @@
+{
+    "title": "Proximal nested sampling with data-driven priors for physical scientists. (arXiv:2307.00056v1 [stat.ME])",
+    "abstract": "Proximal nested sampling was introduced recently to open up Bayesian model selection for high-dimensional problems such as computational imaging. The framework is suitable for models with a log-convex likelihood, which are ubiquitous in the imaging sciences. The purpose of this article is two-fold. First, we review proximal nested sampling in a pedagogical manner in an attempt to elucidate the framework for physical scientists. Second, we show how proximal nested sampling can be extended in an empirical Bayes setting to support data-driven priors, such as deep neural networks learned from training data.",
+    "link": "http://arxiv.org/abs/2307.00056",
+    "context": "Title: Proximal nested sampling with data-driven priors for physical scientists. (arXiv:2307.00056v1 [stat.ME])\nAbstract: Proximal nested sampling was introduced recently to open up Bayesian model selection for high-dimensional problems such as computational imaging. The framework is suitable for models with a log-convex likelihood, which are ubiquitous in the imaging sciences. The purpose of this article is two-fold. First, we review proximal nested sampling in a pedagogical manner in an attempt to elucidate the framework for physical scientists. Second, we show how proximal nested sampling can be extended in an empirical Bayes setting to support data-driven priors, such as deep neural networks learned from training data.",
+    "path": "papers/23/07/2307.00056.json",
+    "total_tokens": 700,
+    "translated_title": "用于物理科学家的基于数据驱动先验的近端嵌套抽样方法",
+    "translated_abstract": "最近引入了近端嵌套抽样方法，以开辟贝叶斯模型选择在高维问题中的应用，例如计算成像。该框架适用于具有对数凸似然函数的模型，这在成像科学中非常普遍。本文有两个目的。首先，我们以教学的方式对近端嵌套抽样方法进行综述，以努力为物理科学家解释该框架。其次，我们展示了近端嵌套抽样方法如何在经验贝叶斯设置中扩展，以支持数据驱动的先验，如从训练数据中学习的深度神经网络。",
+    "tldr": "近端嵌套抽样方法允许物理科学家应用贝叶斯模型选择于高维问题中，并展示了如何通过数据驱动先验的支持来扩展该方法。",
+    "en_tdlr": "Proximal nested sampling allows physical scientists to perform Bayesian model selection in high-dimensional problems and demonstrates how to extend this method with data-driven priors."
+}

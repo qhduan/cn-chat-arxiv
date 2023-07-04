@@ -1,0 +1,12 @@
+{
+    "title": "Imputation Strategies Under Clinical Presence: Impact on Algorithmic Fairness. (arXiv:2208.06648v3 [cs.AI] UPDATED)",
+    "abstract": "Machine learning risks reinforcing biases present in data, and, as we argue in this work, in what is absent from data. In healthcare, biases have marked medical history, leading to unequal care affecting marginalised groups. Patterns in missing data often reflect these group discrepancies, but the algorithmic fairness implications of group-specific missingness are not well understood. Despite its potential impact, imputation is often an overlooked preprocessing step, with attention placed on the reduction of reconstruction error and overall performance, ignoring how imputation can affect groups differently. Our work studies how imputation choices affect reconstruction errors across groups and algorithmic fairness properties of downstream predictions.",
+    "link": "http://arxiv.org/abs/2208.06648",
+    "context": "Title: Imputation Strategies Under Clinical Presence: Impact on Algorithmic Fairness. (arXiv:2208.06648v3 [cs.AI] UPDATED)\nAbstract: Machine learning risks reinforcing biases present in data, and, as we argue in this work, in what is absent from data. In healthcare, biases have marked medical history, leading to unequal care affecting marginalised groups. Patterns in missing data often reflect these group discrepancies, but the algorithmic fairness implications of group-specific missingness are not well understood. Despite its potential impact, imputation is often an overlooked preprocessing step, with attention placed on the reduction of reconstruction error and overall performance, ignoring how imputation can affect groups differently. Our work studies how imputation choices affect reconstruction errors across groups and algorithmic fairness properties of downstream predictions.",
+    "path": "papers/22/08/2208.06648.json",
+    "total_tokens": 767,
+    "translated_title": "在临床存在下的填补策略：对算法公平性的影响",
+    "translated_abstract": "机器学习可能会强化数据中的偏见，而我们在这个工作中提出，数据中缺失的内容也会产生偏见。在医疗领域，偏见已经在医疗历史上留下了深深的烙印，导致边缘化群体受到不平等的护理。缺失数据中的模式通常反映了这些群体的差异，但是特定群体缺失的算法公平性影响还不太清楚。尽管其潜在影响巨大，但填补往往被忽视为一个预处理步骤，而关注点放在了重建误差的减少和整体性能上，忽略了填补如何对不同群体产生影响。我们的工作研究了填补选择对不同群体的重建误差和下游预测的算法公平性属性的影响。",
+    "tldr": "本文研究了填补选择对不同群体的重建误差和下游预测的算法公平性属性的影响。",
+    "en_tdlr": "This paper studies the impact of imputation choices on reconstruction errors and algorithmic fairness properties of downstream predictions across different groups."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Revealing production networks from firm growth dynamics. (arXiv:2302.09906v4 [q-fin.ST] UPDATED)",
+    "abstract": "We study the correlation structure of firm growth rates. We show that most firms are correlated because of their exposure to a common factor but that firms linked through the supply chain exhibit a stronger correlation on average than firms that are not. Removing this common factor significantly reduces the average correlation between two firms with no relationship in the supply chain while maintaining a significant correlation between two firms that are linked. We then investigate if this observation can be used to reconstruct the topology of a supply chain network using Gaussian Markov Models.",
+    "link": "http://arxiv.org/abs/2302.09906",
+    "context": "Title: Revealing production networks from firm growth dynamics. (arXiv:2302.09906v4 [q-fin.ST] UPDATED)\nAbstract: We study the correlation structure of firm growth rates. We show that most firms are correlated because of their exposure to a common factor but that firms linked through the supply chain exhibit a stronger correlation on average than firms that are not. Removing this common factor significantly reduces the average correlation between two firms with no relationship in the supply chain while maintaining a significant correlation between two firms that are linked. We then investigate if this observation can be used to reconstruct the topology of a supply chain network using Gaussian Markov Models.",
+    "path": "papers/23/02/2302.09906.json",
+    "total_tokens": 705,
+    "translated_title": "揭示公司增长动态中的生产网络",
+    "translated_abstract": "我们研究了公司增长率的相关结构。我们发现，大多数公司的相关性是由于它们暴露于一个共同因素，但通过供应链相连的公司的相关性平均比没有关联的公司更强。去除这个共同因素显著降低两个没有供应链关系的公司之间的平均相关性，同时保持两个相连公司之间的显著相关性。然后，我们研究了是否可以利用这一观察结果使用高斯马尔科夫模型重构供应链网络的拓扑结构。",
+    "tldr": "该论文研究了公司增长率的相关结构，并发现供应链相连的公司具有更强的相关性。通过去除共同因素，可以显著降低没有供应链关系的公司之间的相关性。研究结果表明可以利用这一观察结果重构供应链网络的拓扑结构。"
+}

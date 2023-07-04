@@ -1,0 +1,12 @@
+{
+    "title": "The fundamental theorem of asset pricing with and without transaction costs. (arXiv:2307.00571v1 [q-fin.MF])",
+    "abstract": "We prove a version of the fundamental theorem of asset pricing (FTAP) in continuous time that is based on the strict no-arbitrage condition and that is applicable to both frictionless markets and markets with proportional transaction costs. We consider a market with a single risky asset whose ask price process is higher than or equal to its bid price process. Neither the concatenation property of the set of wealth processes, that is used in the proof of the frictionless FTAP, nor some boundedness property of the trading volume of admissible strategies usually argued with in models with a nonvanishing bid-ask spread need to be satisfied in our model.",
+    "link": "http://arxiv.org/abs/2307.00571",
+    "context": "Title: The fundamental theorem of asset pricing with and without transaction costs. (arXiv:2307.00571v1 [q-fin.MF])\nAbstract: We prove a version of the fundamental theorem of asset pricing (FTAP) in continuous time that is based on the strict no-arbitrage condition and that is applicable to both frictionless markets and markets with proportional transaction costs. We consider a market with a single risky asset whose ask price process is higher than or equal to its bid price process. Neither the concatenation property of the set of wealth processes, that is used in the proof of the frictionless FTAP, nor some boundedness property of the trading volume of admissible strategies usually argued with in models with a nonvanishing bid-ask spread need to be satisfied in our model.",
+    "path": "papers/23/07/2307.00571.json",
+    "total_tokens": 676,
+    "translated_title": "有无交易成本的资产定价基本定理",
+    "translated_abstract": "在连续时间中，我们证明了一个基于严格无套利条件的资产定价基本定理（FTAP），适用于无摩擦市场和具有比例交易成本的市场。我们考虑一个市场中只有一个风险资产，其卖价过程高于等于买价过程。在我们的模型中，不需要满足无摩擦FTAP证明中使用的财富过程集的串联性质，也不需要满足具有非零买卖价差模型中通常假设的交易策略交易量的有界性质。",
+    "tldr": "该论文证明了一个适用于无摩擦市场和具有比例交易成本的资产定价基本定理，不需要满足传统模型中的一些假设条件。",
+    "en_tdlr": "This paper proves a fundamental theorem of asset pricing applicable to both frictionless markets and markets with proportional transaction costs, without the need to satisfy certain assumptions in traditional models."
+}

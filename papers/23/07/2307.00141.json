@@ -1,0 +1,12 @@
+{
+    "title": "Risk-sensitive Actor-free Policy via Convex Optimization. (arXiv:2307.00141v1 [cs.LG])",
+    "abstract": "Traditional reinforcement learning methods optimize agents without considering safety, potentially resulting in unintended consequences. In this paper, we propose an optimal actor-free policy that optimizes a risk-sensitive criterion based on the conditional value at risk. The risk-sensitive objective function is modeled using an input-convex neural network ensuring convexity with respect to the actions and enabling the identification of globally optimal actions through simple gradient-following methods. Experimental results demonstrate the efficacy of our approach in maintaining effective risk control.",
+    "link": "http://arxiv.org/abs/2307.00141",
+    "context": "Title: Risk-sensitive Actor-free Policy via Convex Optimization. (arXiv:2307.00141v1 [cs.LG])\nAbstract: Traditional reinforcement learning methods optimize agents without considering safety, potentially resulting in unintended consequences. In this paper, we propose an optimal actor-free policy that optimizes a risk-sensitive criterion based on the conditional value at risk. The risk-sensitive objective function is modeled using an input-convex neural network ensuring convexity with respect to the actions and enabling the identification of globally optimal actions through simple gradient-following methods. Experimental results demonstrate the efficacy of our approach in maintaining effective risk control.",
+    "path": "papers/23/07/2307.00141.json",
+    "total_tokens": 686,
+    "translated_title": "通过凸优化实现风险敏感的无演员策略",
+    "translated_abstract": "传统的强化学习方法在优化代理时没有考虑安全性，可能导致意想不到的后果。本文提出了一种基于条件风险值的风险敏感的最优无演员策略。风险敏感的目标函数使用了一个输入凸神经网络来建模，以确保对动作的凸性，并通过简单的梯度跟随方法来识别全局最优动作。实验结果表明我们的方法在保持有效的风险控制方面的有效性。",
+    "tldr": "本文提出了一种通过凸优化实现风险敏感的无演员策略，利用条件风险值作为目标函数，并使用凸神经网络模型来识别全局最优动作，实验结果表明该方法在保持有效的风险控制方面很有效。",
+    "en_tdlr": "This paper proposes a risk-sensitive actor-free policy using convex optimization, with a risk-sensitive objective function based on conditional value at risk. The approach utilizes an input-convex neural network to model the objective function and identify globally optimal actions, and experimental results demonstrate its effectiveness in maintaining effective risk control."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Generalized iterated-sums signatures. (arXiv:2012.04597v3 [math.RA] UPDATED)",
+    "abstract": "We explore the algebraic properties of a generalized version of the iterated-sums signature, inspired by previous work of F.~Kir\\'aly and H.~Oberhauser. In particular, we show how to recover the character property of the associated linear map over the tensor algebra by considering a deformed quasi-shuffle product of words on the latter. We introduce three non-linear transformations on iterated-sums signatures, close in spirit to Machine Learning applications, and show some of their properties.",
+    "link": "http://arxiv.org/abs/2012.04597",
+    "context": "Title: Generalized iterated-sums signatures. (arXiv:2012.04597v3 [math.RA] UPDATED)\nAbstract: We explore the algebraic properties of a generalized version of the iterated-sums signature, inspired by previous work of F.~Kir\\'aly and H.~Oberhauser. In particular, we show how to recover the character property of the associated linear map over the tensor algebra by considering a deformed quasi-shuffle product of words on the latter. We introduce three non-linear transformations on iterated-sums signatures, close in spirit to Machine Learning applications, and show some of their properties.",
+    "path": "papers/20/12/2012.04597.json",
+    "total_tokens": 597,
+    "translated_title": "广义的迭代和签名",
+    "translated_abstract": "我们探讨了迭代和签名的广义版本的代数性质，受到F. Király和H. Oberhauser之前的工作启发。特别地，我们展示了通过考虑后者上的变形准混洗乘积，如何恢复与张量代数上的相关线性映射的特征性质。我们介绍了三个非线性变换在迭代和签名上，类似于机器学习应用，并展示了它们的一些性质。",
+    "tldr": "本文研究了广义的迭代和签名的代数性质，并介绍了三个类似于机器学习应用的非线性变换。",
+    "en_tdlr": "This paper explores the algebraic properties of a generalized version of iterated-sums signatures and introduces three non-linear transformations similar to machine learning applications."
+}

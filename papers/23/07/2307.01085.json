@@ -1,0 +1,12 @@
+{
+    "title": "Some challenges of calibrating differentiable agent-based models. (arXiv:2307.01085v1 [cs.MA])",
+    "abstract": "Agent-based models (ABMs) are a promising approach to modelling and reasoning about complex systems, yet their application in practice is impeded by their complexity, discrete nature, and the difficulty of performing parameter inference and optimisation tasks. This in turn has sparked interest in the construction of differentiable ABMs as a strategy for combatting these difficulties, yet a number of challenges remain. In this paper, we discuss and present experiments that highlight some of these challenges, along with potential solutions.",
+    "link": "http://arxiv.org/abs/2307.01085",
+    "context": "Title: Some challenges of calibrating differentiable agent-based models. (arXiv:2307.01085v1 [cs.MA])\nAbstract: Agent-based models (ABMs) are a promising approach to modelling and reasoning about complex systems, yet their application in practice is impeded by their complexity, discrete nature, and the difficulty of performing parameter inference and optimisation tasks. This in turn has sparked interest in the construction of differentiable ABMs as a strategy for combatting these difficulties, yet a number of challenges remain. In this paper, we discuss and present experiments that highlight some of these challenges, along with potential solutions.",
+    "path": "papers/23/07/2307.01085.json",
+    "total_tokens": 601,
+    "translated_title": "校准可微分的基于Agent的模型的一些挑战",
+    "translated_abstract": "基于Agent的模型是一种有前途的模拟和推理复杂系统的方法，但是它们的应用受到了复杂性、离散性和参数推导和优化任务的困难的限制。这引起了构建可微分的基于Agent的模型作为克服这些困难的策略的兴趣，然而还存在一些挑战。在本文中，我们讨论并展示了一些实验，突出了这些挑战以及潜在的解决方案。",
+    "tldr": "本文讨论了校准可微分的基于Agent的模型面临的挑战，同时提出了潜在的解决方案。",
+    "en_tdlr": "This paper discusses the challenges of calibrating differentiable agent-based models and presents potential solutions."
+}

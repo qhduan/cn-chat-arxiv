@@ -1,0 +1,11 @@
+{
+    "title": "Truth Set Algebra: A New Way to Prove Undefinability. (arXiv:2208.04422v2 [cs.AI] UPDATED)",
+    "abstract": "The article proposes a new technique for proving the undefinability of logical connectives through each other and illustrates the technique with several examples. Some of the obtained results are new proofs of the existing theorems, others are original to this work.",
+    "link": "http://arxiv.org/abs/2208.04422",
+    "context": "Title: Truth Set Algebra: A New Way to Prove Undefinability. (arXiv:2208.04422v2 [cs.AI] UPDATED)\nAbstract: The article proposes a new technique for proving the undefinability of logical connectives through each other and illustrates the technique with several examples. Some of the obtained results are new proofs of the existing theorems, others are original to this work.",
+    "path": "papers/22/08/2208.04422.json",
+    "total_tokens": 469,
+    "translated_title": "真值集代数：一种证明逻辑连接符无法定义的新方法。",
+    "translated_abstract": "本文提出了一种新的技术，用于证明通过彼此之间的逻辑连接符的不可定义性，并通过几个例子说明了该技术。其中一些结果是现有定理的新证明，另一些结果是本文的原创。",
+    "tldr": "本文提出了真值集代数，一种用于证明逻辑连接符相互无法定义的新方法。"
+}

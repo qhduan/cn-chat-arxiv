@@ -1,0 +1,12 @@
+{
+    "title": "iMETRE: Incorporating Markers of Entity Types for Relation Extraction. (arXiv:2307.00132v1 [cs.CL])",
+    "abstract": "Sentence-level relation extraction (RE) aims to identify the relationship between 2 entities given a contextual sentence. While there have been many attempts to solve this problem, the current solutions have a lot of room to improve. In this paper, we approach the task of relationship extraction in the financial dataset REFinD. Our approach incorporates typed entity markers representations and various models finetuned on the dataset, which has allowed us to achieve an F1 score of 69.65% on the validation set. Through this paper, we discuss various approaches and possible limitations.",
+    "link": "http://arxiv.org/abs/2307.00132",
+    "context": "Title: iMETRE: Incorporating Markers of Entity Types for Relation Extraction. (arXiv:2307.00132v1 [cs.CL])\nAbstract: Sentence-level relation extraction (RE) aims to identify the relationship between 2 entities given a contextual sentence. While there have been many attempts to solve this problem, the current solutions have a lot of room to improve. In this paper, we approach the task of relationship extraction in the financial dataset REFinD. Our approach incorporates typed entity markers representations and various models finetuned on the dataset, which has allowed us to achieve an F1 score of 69.65% on the validation set. Through this paper, we discuss various approaches and possible limitations.",
+    "path": "papers/23/07/2307.00132.json",
+    "total_tokens": 677,
+    "translated_title": "iMETRE：将实体类型的标记融入关系抽取中",
+    "translated_abstract": "句子级别的关系抽取旨在根据上下文句子确定两个实体之间的关系。虽然已经有许多尝试解决这个问题的方法，但目前的解决方案仍有很大的改进空间。本文针对金融数据集REFinD中的关系抽取任务进行了研究。我们的方法结合了带类型实体标记的表示和在数据集上微调的各种模型，使我们在验证集上实现了69.65%的F1得分。通过本文，我们讨论了各种方法和可能的局限性。",
+    "tldr": "本文针对金融数据集REFinD中的关系抽取任务，通过结合带类型实体标记的表示和在数据集上微调的模型，实现了69.65%的F1得分。",
+    "en_tdlr": "This paper addresses the task of relationship extraction in the financial dataset REFinD by incorporating typed entity markers representations and various models finetuned on the dataset, achieving an F1 score of 69.65% on the validation set."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "DRCFS: Doubly Robust Causal Feature Selection. (arXiv:2306.07024v2 [cs.LG] UPDATED)",
+    "abstract": "Knowing the features of a complex system that are highly relevant to a particular target variable is of fundamental interest in many areas of science. Existing approaches are often limited to linear settings, sometimes lack guarantees, and in most cases, do not scale to the problem at hand, in particular to images. We propose DRCFS, a doubly robust feature selection method for identifying the causal features even in nonlinear and high dimensional settings. We provide theoretical guarantees, illustrate necessary conditions for our assumptions, and perform extensive experiments across a wide range of simulated and semi-synthetic datasets. DRCFS significantly outperforms existing state-of-the-art methods, selecting robust features even in challenging highly non-linear and high-dimensional problems.",
+    "link": "http://arxiv.org/abs/2306.07024",
+    "context": "Title: DRCFS: Doubly Robust Causal Feature Selection. (arXiv:2306.07024v2 [cs.LG] UPDATED)\nAbstract: Knowing the features of a complex system that are highly relevant to a particular target variable is of fundamental interest in many areas of science. Existing approaches are often limited to linear settings, sometimes lack guarantees, and in most cases, do not scale to the problem at hand, in particular to images. We propose DRCFS, a doubly robust feature selection method for identifying the causal features even in nonlinear and high dimensional settings. We provide theoretical guarantees, illustrate necessary conditions for our assumptions, and perform extensive experiments across a wide range of simulated and semi-synthetic datasets. DRCFS significantly outperforms existing state-of-the-art methods, selecting robust features even in challenging highly non-linear and high-dimensional problems.",
+    "path": "papers/23/06/2306.07024.json",
+    "total_tokens": 718,
+    "translated_title": "DRCFS：双重稳健因果特征选择",
+    "translated_abstract": "在许多科学领域中，了解对于特定目标变量非常相关的复杂系统特征是非常重要的。现有的方法通常局限于线性设置，有时缺乏保证，并且在大多数情况下无法扩展到需要处理的问题，特别是图像问题。我们提出了DRCFS，一种双重稳健特征选择方法，可以在非线性和高维设置中识别因果特征。我们提供了理论保证，阐明了我们的假设必要条件，并在广泛的模拟和半合成数据集上进行了大量实验。DRCFS在选择具有鲁棒性特征的技巧非常非线性和高维问题上明显优于现有的最先进方法。",
+    "tldr": "DRCFS是一个双重稳健因果特征选择方法，可以在非线性和高维环境中识别因果特征，优于现有方法。"
+}

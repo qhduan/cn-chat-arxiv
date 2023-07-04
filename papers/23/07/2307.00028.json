@@ -1,0 +1,11 @@
+{
+    "title": "Seeing in Words: Learning to Classify through Language Bottlenecks. (arXiv:2307.00028v1 [cs.CV])",
+    "abstract": "Neural networks for computer vision extract uninterpretable features despite achieving high accuracy on benchmarks. In contrast, humans can explain their predictions using succinct and intuitive descriptions. To incorporate explainability into neural networks, we train a vision model whose feature representations are text. We show that such a model can effectively classify ImageNet images, and we discuss the challenges we encountered when training it.",
+    "link": "http://arxiv.org/abs/2307.00028",
+    "context": "Title: Seeing in Words: Learning to Classify through Language Bottlenecks. (arXiv:2307.00028v1 [cs.CV])\nAbstract: Neural networks for computer vision extract uninterpretable features despite achieving high accuracy on benchmarks. In contrast, humans can explain their predictions using succinct and intuitive descriptions. To incorporate explainability into neural networks, we train a vision model whose feature representations are text. We show that such a model can effectively classify ImageNet images, and we discuss the challenges we encountered when training it.",
+    "path": "papers/23/07/2307.00028.json",
+    "total_tokens": 612,
+    "translated_title": "通过语言瓶颈学习分类的“看见文字”论文",
+    "translated_abstract": "尽管计算机视觉的神经网络在基准测试中取得了高准确性，但它们提取的特征往往是无法解释的。相比之下，人类可以用简洁直观的描述来解释他们的预测。为了将可解释性引入神经网络，我们训练了一个将特征表示为文本的视觉模型。我们展示了这样的模型在对ImageNet图像进行分类时的有效性，并讨论了我们在训练过程中遇到的挑战。",
+    "tldr": "本文提出了一种通过语言瓶颈学习分类的方法，利用文本表示特征的视觉模型能够有效分类ImageNet图像，可以增加神经网络的可解释性。"
+}

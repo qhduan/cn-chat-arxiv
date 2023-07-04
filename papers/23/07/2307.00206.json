@@ -1,0 +1,12 @@
+{
+    "title": "General Part Assembly Planning. (arXiv:2307.00206v1 [cs.RO])",
+    "abstract": "Most successes in autonomous robotic assembly have been restricted to single target or category. We propose to investigate general part assembly, the task of creating novel target assemblies with unseen part shapes. To tackle the planning of general part assembly, we present General Part Assembly Transformer (GPAT), a transformer based model architecture that accurately predicts part poses by inferring how each part shape corresponds to the target shape. Our experiments on both 3D CAD models and real-world scans demonstrate GPAT's generalization abilities to novel and diverse target and part shapes. Project website: https://general-part-assembly.github.io/",
+    "link": "http://arxiv.org/abs/2307.00206",
+    "context": "Title: General Part Assembly Planning. (arXiv:2307.00206v1 [cs.RO])\nAbstract: Most successes in autonomous robotic assembly have been restricted to single target or category. We propose to investigate general part assembly, the task of creating novel target assemblies with unseen part shapes. To tackle the planning of general part assembly, we present General Part Assembly Transformer (GPAT), a transformer based model architecture that accurately predicts part poses by inferring how each part shape corresponds to the target shape. Our experiments on both 3D CAD models and real-world scans demonstrate GPAT's generalization abilities to novel and diverse target and part shapes. Project website: https://general-part-assembly.github.io/",
+    "path": "papers/23/07/2307.00206.json",
+    "total_tokens": 684,
+    "translated_title": "通用零件组装规划",
+    "translated_abstract": "自主机器人组装领域的大多数成功都局限于单个目标或者单一类别。我们提出研究通用零件组装，即使用未见过的零件形状创建新颖目标组装的任务。为了解决通用零件组装的规划问题，我们提出了通用零件组装Transformer（GPAT），这是一种基于Transformer模型的架构，通过推断每个零件形状如何对应目标形状，准确预测零件的姿态。我们在3D CAD模型和现实世界扫描数据上进行的实验表明，GPAT具有对新颖和多样化的目标和零件形状的泛化能力。",
+    "tldr": "本论文研究了通用零件组装的问题，提出了一种基于Transformer的模型架构GPAT，能够准确预测零件的姿态并具有泛化能力。",
+    "en_tdlr": "This paper investigates the problem of general part assembly and proposes a Transformer-based model architecture called GPAT, which accurately predicts part pose and demonstrates generalization abilities."
+}

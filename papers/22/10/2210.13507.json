@@ -1,0 +1,12 @@
+{
+    "title": "Causal Explanation for Reinforcement Learning: Quantifying State and Temporal Importance. (arXiv:2210.13507v2 [cs.AI] UPDATED)",
+    "abstract": "Explainability plays an increasingly important role in machine learning. Furthermore, humans view the world through a causal lens and thus prefer causal explanations over associational ones. Therefore, in this paper, we develop a causal explanation mechanism that quantifies the causal importance of states on actions and such importance over time. We also demonstrate the advantages of our mechanism over state-of-the-art associational methods in terms of RL policy explanation through a series of simulation studies, including crop irrigation, Blackjack, collision avoidance, and lunar lander.",
+    "link": "http://arxiv.org/abs/2210.13507",
+    "context": "Title: Causal Explanation for Reinforcement Learning: Quantifying State and Temporal Importance. (arXiv:2210.13507v2 [cs.AI] UPDATED)\nAbstract: Explainability plays an increasingly important role in machine learning. Furthermore, humans view the world through a causal lens and thus prefer causal explanations over associational ones. Therefore, in this paper, we develop a causal explanation mechanism that quantifies the causal importance of states on actions and such importance over time. We also demonstrate the advantages of our mechanism over state-of-the-art associational methods in terms of RL policy explanation through a series of simulation studies, including crop irrigation, Blackjack, collision avoidance, and lunar lander.",
+    "path": "papers/22/10/2210.13507.json",
+    "total_tokens": 700,
+    "translated_title": "强化学习的因果解释：量化状态和时间重要性",
+    "translated_abstract": "解释性在机器学习中起着越来越重要的作用。此外，人们通过因果镜头来看待世界，因此更倾向于因果解释而非关联解释。因此，在本文中，我们开发了一种因果解释机制，以量化状态对行动的因果重要性和随时间变化的重要性。我们还通过一系列的模拟研究，包括农田灌溉、21点、避碰和月球着陆器等，展示了我们机制在强化学习策略解释方面相对于最先进的关联方法的优势。",
+    "tldr": "本文开发了一种因果解释机制，能够量化状态对行动的因果重要性和随时间变化的重要性，并通过一系列的模拟研究证明了该机制在强化学习策略解释方面的优势。",
+    "en_tdlr": "This paper develops a causal explanation mechanism that quantifies the causal importance of states on actions and such importance over time, and demonstrates its advantages over state-of-the-art associational methods in terms of RL policy explanation through a series of simulation studies."
+}

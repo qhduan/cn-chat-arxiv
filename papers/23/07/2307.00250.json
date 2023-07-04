@@ -1,0 +1,11 @@
+{
+    "title": "THUIR2 at NTCIR-16 Session Search (SS) Task. (arXiv:2307.00250v1 [cs.IR])",
+    "abstract": "Our team(THUIR2) participated in both FOSS and POSS subtasks of the NTCIR-161 Session Search (SS) Task. This paper describes our approaches and results. In the FOSS subtask, we submit five runs using learning-to-rank and fine-tuned pre-trained language models. We fine-tuned the pre-trained language model with ad-hoc data and session information and assembled them by a learning-to-rank method. The assembled model achieves the best performance among all participants in the preliminary evaluation. In the POSS subtask, we used an assembled model which also achieves the best performance in the preliminary evaluation.",
+    "link": "http://arxiv.org/abs/2307.00250",
+    "context": "Title: THUIR2 at NTCIR-16 Session Search (SS) Task. (arXiv:2307.00250v1 [cs.IR])\nAbstract: Our team(THUIR2) participated in both FOSS and POSS subtasks of the NTCIR-161 Session Search (SS) Task. This paper describes our approaches and results. In the FOSS subtask, we submit five runs using learning-to-rank and fine-tuned pre-trained language models. We fine-tuned the pre-trained language model with ad-hoc data and session information and assembled them by a learning-to-rank method. The assembled model achieves the best performance among all participants in the preliminary evaluation. In the POSS subtask, we used an assembled model which also achieves the best performance in the preliminary evaluation.",
+    "path": "papers/23/07/2307.00250.json",
+    "total_tokens": 717,
+    "translated_title": "THUIR2在NTCIR-16 Session搜索（SS）任务中的表现",
+    "translated_abstract": "我们的团队（THUIR2）参加了NTCIR-16 Session搜索（SS）任务的FOSS和POSS子任务。本文描述了我们的方法和结果。在FOSS子任务中，我们使用学习排序和精细调整的预训练语言模型提交了五个运行。我们使用自适应数据和会话信息对预训练语言模型进行了精细调整，并通过学习排序方法组装起来。组装的模型在初步评估中在所有参与者中取得了最佳性能。在POSS子任务中，我们使用了一个组装的模型，在初步评估中也取得了最佳性能。",
+    "tldr": "本文介绍了THUIR2团队在NTCIR-16 Session搜索任务中的表现，他们在FOSS和POSS子任务中使用了学习排序和预训练语言模型，并取得了最佳性能。"
+}

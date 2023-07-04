@@ -1,0 +1,12 @@
+{
+    "title": "Causal Structure Learning by Using Intersection of Markov Blankets. (arXiv:2307.00227v1 [stat.ML])",
+    "abstract": "In this paper, we introduce a novel causal structure learning algorithm called Endogenous and Exogenous Markov Blankets Intersection (EEMBI), which combines the properties of Bayesian networks and Structural Causal Models (SCM). Furthermore, we propose an extended version of EEMBI, namely EEMBI-PC, which integrates the last step of the PC algorithm into EEMBI.",
+    "link": "http://arxiv.org/abs/2307.00227",
+    "context": "Title: Causal Structure Learning by Using Intersection of Markov Blankets. (arXiv:2307.00227v1 [stat.ML])\nAbstract: In this paper, we introduce a novel causal structure learning algorithm called Endogenous and Exogenous Markov Blankets Intersection (EEMBI), which combines the properties of Bayesian networks and Structural Causal Models (SCM). Furthermore, we propose an extended version of EEMBI, namely EEMBI-PC, which integrates the last step of the PC algorithm into EEMBI.",
+    "path": "papers/23/07/2307.00227.json",
+    "total_tokens": 633,
+    "translated_title": "利用马尔可夫毯交集进行因果结构学习",
+    "translated_abstract": "在本文中，我们介绍了一种新颖的因果结构学习算法，称为内源和外源马尔可夫毯交集（EEMBI），它结合了贝叶斯网络和结构因果模型（SCM）的特性。此外，我们提出了EEMBI的扩展版本，即EEMBI-PC，它将PC算法的最后一步集成到EEMBI中。",
+    "tldr": "本文提出了一种新颖的因果结构学习算法，该算法利用马尔可夫毯交集，并结合了贝叶斯网络和结构因果模型的特性。此外，还提出了EEMBI-PC，它是EEMBI的扩展版本，将PC算法的最后一步集成到EEMBI中。",
+    "en_tdlr": "The paper introduces a novel causal structure learning algorithm called EEMBI, which combines the properties of Bayesian networks and Structural Causal Models. Additionally, an extended version called EEMBI-PC is proposed, which integrates the last step of the PC algorithm into EEMBI."
+}

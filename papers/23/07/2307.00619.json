@@ -1,0 +1,11 @@
+{
+    "title": "Solving Linear Inverse Problems Provably via Posterior Sampling with Latent Diffusion Models. (arXiv:2307.00619v1 [cs.LG])",
+    "abstract": "We present the first framework to solve linear inverse problems leveraging pre-trained latent diffusion models. Previously proposed algorithms (such as DPS and DDRM) only apply to pixel-space diffusion models. We theoretically analyze our algorithm showing provable sample recovery in a linear model setting. The algorithmic insight obtained from our analysis extends to more general settings often considered in practice. Experimentally, we outperform previously proposed posterior sampling algorithms in a wide variety of problems including random inpainting, block inpainting, denoising, deblurring, destriping, and super-resolution.",
+    "link": "http://arxiv.org/abs/2307.00619",
+    "context": "Title: Solving Linear Inverse Problems Provably via Posterior Sampling with Latent Diffusion Models. (arXiv:2307.00619v1 [cs.LG])\nAbstract: We present the first framework to solve linear inverse problems leveraging pre-trained latent diffusion models. Previously proposed algorithms (such as DPS and DDRM) only apply to pixel-space diffusion models. We theoretically analyze our algorithm showing provable sample recovery in a linear model setting. The algorithmic insight obtained from our analysis extends to more general settings often considered in practice. Experimentally, we outperform previously proposed posterior sampling algorithms in a wide variety of problems including random inpainting, block inpainting, denoising, deblurring, destriping, and super-resolution.",
+    "path": "papers/23/07/2307.00619.json",
+    "total_tokens": 741,
+    "translated_title": "通过后验采样和潜在扩散模型可证解决线性逆问题",
+    "translated_abstract": "我们提出了第一个利用预训练的潜在扩散模型解决线性逆问题的框架。先前提出的算法（如DPS和DDRM）仅适用于像素空间的扩散模型。我们在线性模型设置中从理论上分析了我们的算法，证明了样本恢复的可靠性。从我们的分析中获得的算法洞察力延伸到了实践中常考虑的更一般的设置。实验上，在包括随机修复、块修复、降噪、去模糊、去条纹和超分辨率等各种问题上，我们的算法在先前提出的后验采样算法中表现卓越。",
+    "tldr": "该论文提出了一种新框架，通过利用预训练的潜在扩散模型来解决线性逆问题。理论分析证明了算法的可靠性，并且在多种问题上实验证明了其优越性能。"
+}

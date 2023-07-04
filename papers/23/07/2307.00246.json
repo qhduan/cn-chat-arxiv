@@ -1,0 +1,11 @@
+{
+    "title": "On a Relation Between the Rate-Distortion Function and Optimal Transport. (arXiv:2307.00246v1 [cs.IT])",
+    "abstract": "We discuss a relationship between rate-distortion and optimal transport (OT) theory, even though they seem to be unrelated at first glance. In particular, we show that a function defined via an extremal entropic OT distance is equivalent to the rate-distortion function. We numerically verify this result as well as previous results that connect the Monge and Kantorovich problems to optimal scalar quantization. Thus, we unify solving scalar quantization and rate-distortion functions in an alternative fashion by using their respective optimal transport solvers.",
+    "link": "http://arxiv.org/abs/2307.00246",
+    "context": "Title: On a Relation Between the Rate-Distortion Function and Optimal Transport. (arXiv:2307.00246v1 [cs.IT])\nAbstract: We discuss a relationship between rate-distortion and optimal transport (OT) theory, even though they seem to be unrelated at first glance. In particular, we show that a function defined via an extremal entropic OT distance is equivalent to the rate-distortion function. We numerically verify this result as well as previous results that connect the Monge and Kantorovich problems to optimal scalar quantization. Thus, we unify solving scalar quantization and rate-distortion functions in an alternative fashion by using their respective optimal transport solvers.",
+    "path": "papers/23/07/2307.00246.json",
+    "total_tokens": 630,
+    "translated_title": "关于速率-失真函数和最优传输之间的关系",
+    "translated_abstract": "我们讨论了速率-失真函数和最优传输（OT）理论之间的关系，尽管它们乍一看似乎不相关。特别地，我们展示了通过极值熵最优传输距离定义的函数等价于速率-失真函数。我们通过数值验证了这个结果，以及将蒙日问题和坎托洛维奇问题与最优标量量化相连的先前结果。因此，我们通过使用各自的最优传输求解器，以一种替代的方式统一了解决标量量化和速率-失真函数。",
+    "tldr": "这项研究发现了速率-失真函数和最优传输理论之间的联系，并将它们在解决标量量化问题方面统一起来。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "The Integer Linear Programming Inference Cookbook. (arXiv:2307.00171v1 [cs.AI])",
+    "abstract": "Over the years, integer linear programs have been employed to model inference in many natural language processing problems. This survey is meant to guide the reader through the process of framing a new inference problem as an instance of an integer linear program and is structured as a collection of recipes. At the end, we will see two worked examples to illustrate the use of these recipes.",
+    "link": "http://arxiv.org/abs/2307.00171",
+    "context": "Title: The Integer Linear Programming Inference Cookbook. (arXiv:2307.00171v1 [cs.AI])\nAbstract: Over the years, integer linear programs have been employed to model inference in many natural language processing problems. This survey is meant to guide the reader through the process of framing a new inference problem as an instance of an integer linear program and is structured as a collection of recipes. At the end, we will see two worked examples to illustrate the use of these recipes.",
+    "path": "papers/23/07/2307.00171.json",
+    "total_tokens": 569,
+    "translated_title": "整数线性规划推理手册",
+    "translated_abstract": "多年来，整数线性规划已被用于模拟自然语言处理问题中的推理。本调查旨在指导读者将新的推理问题框架化为整数线性规划的实例，并以一系列的技巧进行组织。最后，我们将通过两个实例来说明这些技巧的使用。",
+    "tldr": "本论文介绍了一个整数线性规划推理手册，用于将推理问题转化为整数线性规划实例。通过一系列技巧的演示，帮助读者理解如何应用这些方法。论文最后提供了两个示例以说明这些技巧的使用。",
+    "en_tdlr": "This paper presents an integer linear programming inference cookbook for framing inference problems as instances of integer linear programs. It provides a collection of recipes to guide the reader and includes two worked examples to illustrate the use of these techniques."
+}
