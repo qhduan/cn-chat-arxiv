@@ -1,0 +1,11 @@
+{
+    "title": "$E(2)$-Equivariant Vision Transformer. (arXiv:2306.06722v2 [cs.CV] UPDATED)",
+    "abstract": "Vision Transformer (ViT) has achieved remarkable performance in computer vision. However, positional encoding in ViT makes it substantially difficult to learn the intrinsic equivariance in data. Initial attempts have been made on designing equivariant ViT but are proved defective in some cases in this paper. To address this issue, we design a Group Equivariant Vision Transformer (GE-ViT) via a novel, effective positional encoding operator. We prove that GE-ViT meets all the theoretical requirements of an equivariant neural network. Comprehensive experiments are conducted on standard benchmark datasets, demonstrating that GE-ViT significantly outperforms non-equivariant self-attention networks. The code is available at https://github.com/ZJUCDSYangKaifan/GEVit.",
+    "link": "http://arxiv.org/abs/2306.06722",
+    "context": "Title: $E(2)$-Equivariant Vision Transformer. (arXiv:2306.06722v2 [cs.CV] UPDATED)\nAbstract: Vision Transformer (ViT) has achieved remarkable performance in computer vision. However, positional encoding in ViT makes it substantially difficult to learn the intrinsic equivariance in data. Initial attempts have been made on designing equivariant ViT but are proved defective in some cases in this paper. To address this issue, we design a Group Equivariant Vision Transformer (GE-ViT) via a novel, effective positional encoding operator. We prove that GE-ViT meets all the theoretical requirements of an equivariant neural network. Comprehensive experiments are conducted on standard benchmark datasets, demonstrating that GE-ViT significantly outperforms non-equivariant self-attention networks. The code is available at https://github.com/ZJUCDSYangKaifan/GEVit.",
+    "path": "papers/23/06/2306.06722.json",
+    "total_tokens": 763,
+    "translated_title": "$E(2)$-等变视觉Transformer",
+    "translated_abstract": "视觉Transformer（ViT）在计算机视觉领域取得了显著的性能。然而，ViT中的位置编码使得学习数据的内在等变性变得非常困难。本文对设计的等变ViT进行了初步尝试，但证明在某些情况下存在缺陷。为了解决这个问题，我们通过一种新颖有效的位置编码操作设计了一个群等变视觉Transformer（GE-ViT）。我们证明了GE-ViT满足等变神经网络的所有理论要求。在标准基准数据集上进行了全面的实验证明，GE-ViT明显优于非等变的自注意力网络。代码可在https://github.com/ZJUCDSYangKaifan/GEVit中获得。",
+    "tldr": "本文设计了一个群等变视觉Transformer，通过一种新颖有效的位置编码操作解决了视觉Transformer中的等变性学习难题，并通过实验证明了其明显优于非等变的自注意力网络。"
+}

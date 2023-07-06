@@ -1,0 +1,12 @@
+{
+    "title": "New possibilities in identification of binary choice models with fixed effects. (arXiv:2206.10475v4 [econ.EM] UPDATED)",
+    "abstract": "We study the identification of binary choice models with fixed effects. We provide a condition called sign saturation and show that this condition is sufficient for the identification of the model. In particular, we can guarantee identification even with bounded regressors. We also show that without this condition, the model is not identified unless the error distribution belongs to a small class. The same sign saturation condition is also essential for identifying the sign of treatment effects. A test is provided to check the sign saturation condition and can be implemented using existing algorithms for the maximum score estimator.",
+    "link": "http://arxiv.org/abs/2206.10475",
+    "context": "Title: New possibilities in identification of binary choice models with fixed effects. (arXiv:2206.10475v4 [econ.EM] UPDATED)\nAbstract: We study the identification of binary choice models with fixed effects. We provide a condition called sign saturation and show that this condition is sufficient for the identification of the model. In particular, we can guarantee identification even with bounded regressors. We also show that without this condition, the model is not identified unless the error distribution belongs to a small class. The same sign saturation condition is also essential for identifying the sign of treatment effects. A test is provided to check the sign saturation condition and can be implemented using existing algorithms for the maximum score estimator.",
+    "path": "papers/22/06/2206.10475.json",
+    "total_tokens": 743,
+    "translated_title": "二选一模型中固定效应识别的新可能性",
+    "translated_abstract": "本文研究了带有固定效应的二选一模型的识别问题。我们提供了一种称为符号饱和条件的条件，并证明该条件足以对该模型进行识别。特别是，我们可以保证即使在有界的回归变量情况下也能实现识别。我们还证明了在没有符号饱和条件的情况下，除非误差分布属于一个小类别，否则无法对该模型进行识别。相同的符号饱和条件也对于识别治疗效应的符号至关重要。我们提供了一个测试来检查符号饱和条件，并可以使用现有的最大分数估计算法进行实施。",
+    "tldr": "本文研究了带有固定效应的二选一模型的识别问题，提出了一种符号饱和条件并证明其足以实现模型的识别。同时，我们还提供了一个测试来检验符号饱和条件，并可使用现有的最大分数估计算法进行实施。",
+    "en_tdlr": "This paper explores the identification problem of binary choice models with fixed effects, proposing a sign saturation condition that is sufficient for model identification. A test is provided to check the condition, which can be implemented using existing algorithms for the maximum score estimator."
+}

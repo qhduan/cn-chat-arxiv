@@ -1,0 +1,12 @@
+{
+    "title": "Deep Anomaly Detection under Labeling Budget Constraints. (arXiv:2302.07832v2 [cs.LG] UPDATED)",
+    "abstract": "Selecting informative data points for expert feedback can significantly improve the performance of anomaly detection (AD) in various contexts, such as medical diagnostics or fraud detection. In this paper, we determine a set of theoretical conditions under which anomaly scores generalize from labeled queries to unlabeled data. Motivated by these results, we propose a data labeling strategy with optimal data coverage under labeling budget constraints. In addition, we propose a new learning framework for semi-supervised AD. Extensive experiments on image, tabular, and video data sets show that our approach results in state-of-the-art semi-supervised AD performance under labeling budget constraints.",
+    "link": "http://arxiv.org/abs/2302.07832",
+    "context": "Title: Deep Anomaly Detection under Labeling Budget Constraints. (arXiv:2302.07832v2 [cs.LG] UPDATED)\nAbstract: Selecting informative data points for expert feedback can significantly improve the performance of anomaly detection (AD) in various contexts, such as medical diagnostics or fraud detection. In this paper, we determine a set of theoretical conditions under which anomaly scores generalize from labeled queries to unlabeled data. Motivated by these results, we propose a data labeling strategy with optimal data coverage under labeling budget constraints. In addition, we propose a new learning framework for semi-supervised AD. Extensive experiments on image, tabular, and video data sets show that our approach results in state-of-the-art semi-supervised AD performance under labeling budget constraints.",
+    "path": "papers/23/02/2302.07832.json",
+    "total_tokens": 704,
+    "translated_title": "标签预算约束下的深度异常检测",
+    "translated_abstract": "在各种场景下，选择信息丰富的数据点进行专家反馈可以显著提高异常检测的性能，例如医学诊断或欺诈检测。在本文中，我们确定了一组理论条件，使得从标记的查询到未标记的数据中异常分数能够推广。基于这些结果，我们提出了一种在标签预算约束下具有最优数据覆盖的数据标记策略。此外，我们还提出了一种新的半监督异常检测学习框架。在图像、表格和视频数据集上进行了大量实验证明，我们的方法在标签预算约束下具有最先进的半监督异常检测性能。",
+    "tldr": "本文针对标签预算约束下的深度异常检测问题提出了一种数据标记策略和半监督学习框架，在多种数据集上取得了最先进的性能。",
+    "en_tdlr": "This paper proposes a data labeling strategy and a semi-supervised learning framework for deep anomaly detection under labeling budget constraints, achieving state-of-the-art performance on multiple datasets."
+}

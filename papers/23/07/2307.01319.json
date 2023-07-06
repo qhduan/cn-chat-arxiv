@@ -1,0 +1,11 @@
+{
+    "title": "On the Guyon-Lekeufack Volatility Model. (arXiv:2307.01319v1 [q-fin.PR])",
+    "abstract": "Guyon and Lekeufack recently proposed a path-dependent volatility model and documented its excellent performance in fitting market data and capturing stylized facts. The instantaneous volatility is modeled as a linear combination of two processes, one is an integral of weighted past price returns and the other is the square-root of an integral of weighted past squared volatility. Each of the weightings is built using two exponential kernels reflecting long and short memory. Mathematically, the model is a coupled system of four stochastic differential equations. Our main result is the wellposedness of this system: the model has a unique strong (non-explosive) solution for realistic parameter values. We also study the positivity of the resulting volatility process.",
+    "link": "http://arxiv.org/abs/2307.01319",
+    "context": "Title: On the Guyon-Lekeufack Volatility Model. (arXiv:2307.01319v1 [q-fin.PR])\nAbstract: Guyon and Lekeufack recently proposed a path-dependent volatility model and documented its excellent performance in fitting market data and capturing stylized facts. The instantaneous volatility is modeled as a linear combination of two processes, one is an integral of weighted past price returns and the other is the square-root of an integral of weighted past squared volatility. Each of the weightings is built using two exponential kernels reflecting long and short memory. Mathematically, the model is a coupled system of four stochastic differential equations. Our main result is the wellposedness of this system: the model has a unique strong (non-explosive) solution for realistic parameter values. We also study the positivity of the resulting volatility process.",
+    "path": "papers/23/07/2307.01319.json",
+    "total_tokens": 751,
+    "translated_title": "关于Guyon-Lekeufack波动性模型的研究",
+    "translated_abstract": "Guyon和Lekeufack最近提出了一种路径相关的波动性模型，并记录了它在拟合市场数据和捕捉特定事实方面的出色表现。瞬时波动性被建模为两个过程的线性组合，其中一个是加权过去价格收益的积分，另一个是加权过去平方波动的平方根的积分。每个加权使用两个指数核进行构建，反映长期和短期记忆。从数学上讲，该模型是一个由四个随机微分方程耦合的系统。我们的主要结果是该系统的唯一强（非爆炸性）解：模型对于现实参数值具有唯一的强解。我们还研究了所得波动性过程的正性。",
+    "tldr": "本文研究了Guyon-Lekeufack波动性模型，证明了该模型在现实参数下有唯一的强解，并研究了所得波动性过程的正性。"
+}

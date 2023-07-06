@@ -1,0 +1,12 @@
+{
+    "title": "A Language Model for Grammatical Error Correction in L2 Russian. (arXiv:2307.01609v1 [cs.CL])",
+    "abstract": "Grammatical error correction is one of the fundamental tasks in Natural Language Processing. For the Russian language, most of the spellcheckers available correct typos and other simple errors with high accuracy, but often fail when faced with non-native (L2) writing, since the latter contains errors that are not typical for native speakers. In this paper, we propose a pipeline involving a language model intended for correcting errors in L2 Russian writing. The language model proposed is trained on untagged texts of the Newspaper subcorpus of the Russian National Corpus, and the quality of the model is validated against the RULEC-GEC corpus.",
+    "link": "http://arxiv.org/abs/2307.01609",
+    "context": "Title: A Language Model for Grammatical Error Correction in L2 Russian. (arXiv:2307.01609v1 [cs.CL])\nAbstract: Grammatical error correction is one of the fundamental tasks in Natural Language Processing. For the Russian language, most of the spellcheckers available correct typos and other simple errors with high accuracy, but often fail when faced with non-native (L2) writing, since the latter contains errors that are not typical for native speakers. In this paper, we propose a pipeline involving a language model intended for correcting errors in L2 Russian writing. The language model proposed is trained on untagged texts of the Newspaper subcorpus of the Russian National Corpus, and the quality of the model is validated against the RULEC-GEC corpus.",
+    "path": "papers/23/07/2307.01609.json",
+    "total_tokens": 710,
+    "translated_title": "用于L2俄语语法错误修正的语言模型",
+    "translated_abstract": "语法错误修正是自然语言处理中的基本任务之一。对于俄语，大多数可用的拼写检查程序可以高准确率地纠正拼写错误和其他简单错误，但在面对非母语（L2）写作时往往失效，因为后者含有对于母语者来说不典型的错误。本文提出了一种使用语言模型修正L2俄语写作错误的流程。所提出的语言模型是在俄罗斯国家语料库新闻子语料库的未标注文本上训练的，并通过RULEC-GEC语料库验证模型的质量。",
+    "tldr": "该论文提出了一个用于L2俄语写作错误修正的语言模型，该模型在俄罗斯国家语料库的新闻子语料库未标注文本上训练，并通过RULEC-GEC语料库验证了其质量。",
+    "en_tdlr": "This paper proposes a language model for correcting writing errors in L2 Russian, which is trained on untagged texts from the Newspaper subcorpus of the Russian National Corpus and validated against the RULEC-GEC corpus."
+}

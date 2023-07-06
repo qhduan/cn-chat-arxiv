@@ -1,0 +1,12 @@
+{
+    "title": "Nature-nurture interplay in educational attainment. (arXiv:2012.05021v3 [econ.GN] UPDATED)",
+    "abstract": "This paper shows how nature (i.e., one's genetic endowments) and nurture (i.e., one's environment) interact in producing educational attainment. Genetic endowments are measured using a polygenic score for educational attainment, while we use birth order as an important environmental determinant of educational attainment. Since genetic endowments are randomly assigned within-families and orthogonal to one's birth order, our family fixed effects approach exploits exogenous variation in genetic endowments as well as environments. We find that those with higher genetic endowments benefit disproportionally more from being firstborn compared to those with lower genetic endowments.",
+    "link": "http://arxiv.org/abs/2012.05021",
+    "context": "Title: Nature-nurture interplay in educational attainment. (arXiv:2012.05021v3 [econ.GN] UPDATED)\nAbstract: This paper shows how nature (i.e., one's genetic endowments) and nurture (i.e., one's environment) interact in producing educational attainment. Genetic endowments are measured using a polygenic score for educational attainment, while we use birth order as an important environmental determinant of educational attainment. Since genetic endowments are randomly assigned within-families and orthogonal to one's birth order, our family fixed effects approach exploits exogenous variation in genetic endowments as well as environments. We find that those with higher genetic endowments benefit disproportionally more from being firstborn compared to those with lower genetic endowments.",
+    "path": "papers/20/12/2012.05021.json",
+    "total_tokens": 740,
+    "translated_title": "教育成就中的性质与培养相互作用",
+    "translated_abstract": "本文展示了性质（即个体的基因资质）和培养（即个体的环境）在教育成就中的相互作用。通过使用教育成就的多基因评分来度量基因资质，同时将出生顺序作为教育成就的重要环境决定因素。由于基因资质在同一家庭内是随机分配的，并且与出生顺序正交，我们的家庭固定效应方法利用了基因资质和环境的外生变化。我们发现，具有较高基因资质的人在成为家中长子或长女时从中获益更多，相比之下，基因资质较低的人获益较少。",
+    "tldr": "本文研究了性质（基因资质）和培养（环境）在教育成就中的相互作用，发现具有较高基因资质的人在成为家中长子或长女时获益更多。",
+    "en_tdlr": "This paper examines the nature-nurture interplay in educational attainment and finds that individuals with higher genetic endowments benefit more from being firstborn in their families."
+}

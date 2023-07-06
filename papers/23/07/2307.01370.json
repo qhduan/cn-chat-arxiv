@@ -1,0 +1,12 @@
+{
+    "title": "Multilingual Language Models are not Multicultural: A Case Study in Emotion. (arXiv:2307.01370v1 [cs.CL])",
+    "abstract": "Emotions are experienced and expressed differently across the world. In order to use Large Language Models (LMs) for multilingual tasks that require emotional sensitivity, LMs must reflect this cultural variation in emotion. In this study, we investigate whether the widely-used multilingual LMs in 2023 reflect differences in emotional expressions across cultures and languages. We find that embeddings obtained from LMs (e.g., XLM-RoBERTa) are Anglocentric, and generative LMs (e.g., ChatGPT) reflect Western norms, even when responding to prompts in other languages. Our results show that multilingual LMs do not successfully learn the culturally appropriate nuances of emotion and we highlight possible research directions towards correcting this.",
+    "link": "http://arxiv.org/abs/2307.01370",
+    "context": "Title: Multilingual Language Models are not Multicultural: A Case Study in Emotion. (arXiv:2307.01370v1 [cs.CL])\nAbstract: Emotions are experienced and expressed differently across the world. In order to use Large Language Models (LMs) for multilingual tasks that require emotional sensitivity, LMs must reflect this cultural variation in emotion. In this study, we investigate whether the widely-used multilingual LMs in 2023 reflect differences in emotional expressions across cultures and languages. We find that embeddings obtained from LMs (e.g., XLM-RoBERTa) are Anglocentric, and generative LMs (e.g., ChatGPT) reflect Western norms, even when responding to prompts in other languages. Our results show that multilingual LMs do not successfully learn the culturally appropriate nuances of emotion and we highlight possible research directions towards correcting this.",
+    "path": "papers/23/07/2307.01370.json",
+    "total_tokens": 761,
+    "translated_title": "多语言语言模型并非多元文化的: 以情绪为案例研究",
+    "translated_abstract": "情绪在世界各地的经历和表达方式不同。为了在需要情感敏感性的多语言任务中使用大型语言模型(LMs)，LMs必须反映情绪上的文化差异。在本研究中，我们调查了2023年广泛使用的多语言LMs是否反映了跨文化和跨语言情感表达的差异。我们发现从LMs(如XLM-RoBERTa)获得的嵌入是以英语为中心的，生成型LMs(如ChatGPT)在回应其他语言的提示时也体现了西方规范。我们的结果表明，多语言LMs并没有成功地学习文化上适当的情绪细微差别，并强调了可能的研究方向以纠正这一点。",
+    "tldr": "研究发现，多语言语言模型未能成功学习到文化适宜情绪的微妙差别，并提出了纠正这一问题的可能研究方向。",
+    "en_tdlr": "The research found that multilingual language models have not successfully learned the subtle cultural differences in emotions, and suggests possible research directions to address this issue."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Wishful Thinking is Risky Thinking: A Statistical-Distance Based Approach. (arXiv:2307.02422v1 [econ.TH])",
+    "abstract": "We develop a model of wishful thinking that incorporates the costs and benefits of biased beliefs. We establish the connection between distorted beliefs and risk, revealing how wishful thinking can be understood in terms of risk measures. Our model accommodates extreme beliefs, allowing wishful-thinking decision-makers to assign zero probability to undesirable states and positive probability to otherwise impossible states. Furthermore, we establish that wishful thinking behavior is equivalent to quantile-utility maximization for the class of threshold beliefs distortion cost functions. Finally, exploiting this equivalence, we derive conditions under which an optimistic decision-maker prefers skewed and riskier choices.",
+    "link": "http://arxiv.org/abs/2307.02422",
+    "context": "Title: Wishful Thinking is Risky Thinking: A Statistical-Distance Based Approach. (arXiv:2307.02422v1 [econ.TH])\nAbstract: We develop a model of wishful thinking that incorporates the costs and benefits of biased beliefs. We establish the connection between distorted beliefs and risk, revealing how wishful thinking can be understood in terms of risk measures. Our model accommodates extreme beliefs, allowing wishful-thinking decision-makers to assign zero probability to undesirable states and positive probability to otherwise impossible states. Furthermore, we establish that wishful thinking behavior is equivalent to quantile-utility maximization for the class of threshold beliefs distortion cost functions. Finally, exploiting this equivalence, we derive conditions under which an optimistic decision-maker prefers skewed and riskier choices.",
+    "path": "papers/23/07/2307.02422.json",
+    "total_tokens": 758,
+    "translated_title": "一种基于统计距离的方法揭示了理想主义思维的风险思维",
+    "translated_abstract": "我们发展了一个理想主义思维模型，考虑了偏见信念的成本和收益。我们建立了扭曲信念与风险之间的联系，揭示了理想主义思维如何从风险度量的角度理解。我们的模型包含极端信念，允许理想主义决策者对不良状态赋予零概率，并对其他不可能状态赋予正概率。此外，我们还证明了阈值信念扭曲成本函数类的理想主义思维行为等同于分位数效用最大化。最后，利用这个等价性，我们推导出乐观的决策者更喜欢偏斜和更具风险的选择的条件。",
+    "tldr": "这项研究发展了一种基于统计距离的方法，揭示了理想主义思维的风险思维，探讨了理想主义决策者偏斜和风险选择的偏好条件。"
+}

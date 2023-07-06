@@ -1,0 +1,12 @@
+{
+    "title": "Exploring Local Norms in Exp-concave Statistical Learning. (arXiv:2302.10726v2 [cs.LG] UPDATED)",
+    "abstract": "We consider the problem of stochastic convex optimization with exp-concave losses using Empirical Risk Minimization in a convex class. Answering a question raised in several prior works, we provide a $O( d / n + \\log( 1 / \\delta) / n )$ excess risk bound valid for a wide class of bounded exp-concave losses, where $d$ is the dimension of the convex reference set, $n$ is the sample size, and $\\delta$ is the confidence level. Our result is based on a unified geometric assumption on the gradient of losses and the notion of local norms.",
+    "link": "http://arxiv.org/abs/2302.10726",
+    "context": "Title: Exploring Local Norms in Exp-concave Statistical Learning. (arXiv:2302.10726v2 [cs.LG] UPDATED)\nAbstract: We consider the problem of stochastic convex optimization with exp-concave losses using Empirical Risk Minimization in a convex class. Answering a question raised in several prior works, we provide a $O( d / n + \\log( 1 / \\delta) / n )$ excess risk bound valid for a wide class of bounded exp-concave losses, where $d$ is the dimension of the convex reference set, $n$ is the sample size, and $\\delta$ is the confidence level. Our result is based on a unified geometric assumption on the gradient of losses and the notion of local norms.",
+    "path": "papers/23/02/2302.10726.json",
+    "total_tokens": 757,
+    "translated_title": "在 exp-concave 统计学习中探索本地规范",
+    "translated_abstract": "我们考虑使用经验风险最小化在一个凸类中处理带有 exp-concave 损失的随机凸优化问题。回答了一些之前研究中提出的问题，我们给出了一个对于一类广泛的有界 exp-concave 损失的 $O(d/n + \\log(1/\\delta)/n)$ 过量风险界，其中 $d$ 是凸参考集的维度，$n$ 是样本大小，$\\delta$ 是置信水平。我们的结果基于对损失梯度的统一几何假设和本地规范的概念。",
+    "tldr": "这篇论文研究了在 exp-concave 统计学习中使用经验风险最小化的问题，提出了适用于广泛类别的有界 exp-concave 损失的过量风险界，维度和样本大小对结果有影响，并且基于统一几何假设和本地规范的概念。",
+    "en_tdlr": "This paper explores the problem of using empirical risk minimization in exp-concave statistical learning and provides an excess risk bound for a wide class of bounded exp-concave losses. The dimension and sample size have an impact on the result, and the bound is based on a unified geometric assumption and the notion of local norms."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Internet of Things Fault Detection and Classification via Multitask Learning. (arXiv:2307.01234v1 [cs.LG])",
+    "abstract": "This paper presents a comprehensive investigation into developing a fault detection and classification system for real-world IIoT applications. The study addresses challenges in data collection, annotation, algorithm development, and deployment. Using a real-world IIoT system, three phases of data collection simulate 11 predefined fault categories. We propose SMTCNN for fault detection and category classification in IIoT, evaluating its performance on real-world data. SMTCNN achieves superior specificity (3.5%) and shows significant improvements in precision, recall, and F1 measures compared to existing techniques.",
+    "link": "http://arxiv.org/abs/2307.01234",
+    "context": "Title: Internet of Things Fault Detection and Classification via Multitask Learning. (arXiv:2307.01234v1 [cs.LG])\nAbstract: This paper presents a comprehensive investigation into developing a fault detection and classification system for real-world IIoT applications. The study addresses challenges in data collection, annotation, algorithm development, and deployment. Using a real-world IIoT system, three phases of data collection simulate 11 predefined fault categories. We propose SMTCNN for fault detection and category classification in IIoT, evaluating its performance on real-world data. SMTCNN achieves superior specificity (3.5%) and shows significant improvements in precision, recall, and F1 measures compared to existing techniques.",
+    "path": "papers/23/07/2307.01234.json",
+    "total_tokens": 747,
+    "translated_title": "通过多任务学习实现物联网故障检测和分类",
+    "translated_abstract": "本文针对实际工业物联网应用开发了一个全面的故障检测和分类系统进行了深入研究。研究解决了数据收集、标注、算法开发和部署方面的挑战。通过使用一个真实的工业物联网系统，我们对11个预定义的故障类别进行了三个阶段的数据收集模拟。我们提出了SMTCNN用于工业物联网中的故障检测和分类，评估其在真实数据上的性能。与现有技术相比，SMTCNN在特异性（3.5%）方面取得了卓越的效果，并且在精确度、召回率和F1值方面显示出显著改进。",
+    "tldr": "本文通过多任务学习实现了物联网故障检测和分类系统，并在真实数据上展示了优越的性能，相较于现有技术，在特异性、精确度、召回率和F1值等方面均有显著改进。"
+}

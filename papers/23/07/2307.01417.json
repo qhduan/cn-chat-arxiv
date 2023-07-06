@@ -1,0 +1,12 @@
+{
+    "title": "Free energy of Bayesian Convolutional Neural Network with Skip Connection. (arXiv:2307.01417v1 [cs.LG])",
+    "abstract": "Since the success of Residual Network(ResNet), many of architectures of Convolutional Neural Networks(CNNs) have adopted skip connection. While the generalization performance of CNN with skip connection has been explained within the framework of Ensemble Learning, the dependency on the number of parameters have not been revealed. In this paper, we show that Bayesian free energy of Convolutional Neural Network both with and without skip connection in Bayesian learning. The upper bound of free energy of Bayesian CNN with skip connection does not depend on the oveparametrization and, the generalization error of Bayesian CNN has similar property.",
+    "link": "http://arxiv.org/abs/2307.01417",
+    "context": "Title: Free energy of Bayesian Convolutional Neural Network with Skip Connection. (arXiv:2307.01417v1 [cs.LG])\nAbstract: Since the success of Residual Network(ResNet), many of architectures of Convolutional Neural Networks(CNNs) have adopted skip connection. While the generalization performance of CNN with skip connection has been explained within the framework of Ensemble Learning, the dependency on the number of parameters have not been revealed. In this paper, we show that Bayesian free energy of Convolutional Neural Network both with and without skip connection in Bayesian learning. The upper bound of free energy of Bayesian CNN with skip connection does not depend on the oveparametrization and, the generalization error of Bayesian CNN has similar property.",
+    "path": "papers/23/07/2307.01417.json",
+    "total_tokens": 715,
+    "translated_title": "具有跳连接的贝叶斯卷积神经网络的自由能研究",
+    "translated_abstract": "自从Residual Network(ResNet)的成功之后，许多卷积神经网络(CNNs)的架构都采用了跳连接。虽然跳连接的CNN的泛化性能已在集成学习框架下得到解释，但参数数量的依赖性尚未揭示。本文中，我们展示了在贝叶斯学习中，有跳连接和无跳连接的卷积神经网络的贝叶斯自由能。具有跳连接的贝叶斯CNN的自由能上界不依赖于过度参数化，而贝叶斯CNN的泛化误差也具有相似的性质。",
+    "tldr": "本文研究了具有跳连接的贝叶斯卷积神经网络的自由能，揭示了其不依赖于过度参数化，并且具有类似的泛化误差性质。",
+    "en_tdlr": "This paper investigates the free energy of Bayesian Convolutional Neural Networks with skip connection, revealing that it does not depend on overparametrization and has similar properties in terms of generalization error."
+}

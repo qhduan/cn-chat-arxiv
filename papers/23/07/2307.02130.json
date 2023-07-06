@@ -1,0 +1,11 @@
+{
+    "title": "Implicit Differentiation for Hyperparameter Tuning the Weighted Graphical Lasso. (arXiv:2307.02130v1 [cs.LG])",
+    "abstract": "We provide a framework and algorithm for tuning the hyperparameters of the Graphical Lasso via a bilevel optimization problem solved with a first-order method. In particular, we derive the Jacobian of the Graphical Lasso solution with respect to its regularization hyperparameters.",
+    "link": "http://arxiv.org/abs/2307.02130",
+    "context": "Title: Implicit Differentiation for Hyperparameter Tuning the Weighted Graphical Lasso. (arXiv:2307.02130v1 [cs.LG])\nAbstract: We provide a framework and algorithm for tuning the hyperparameters of the Graphical Lasso via a bilevel optimization problem solved with a first-order method. In particular, we derive the Jacobian of the Graphical Lasso solution with respect to its regularization hyperparameters.",
+    "path": "papers/23/07/2307.02130.json",
+    "total_tokens": 550,
+    "translated_title": "针对加权图形Lasso的隐式微分用于超参数调优的研究",
+    "translated_abstract": "我们提供了一个框架和算法，用于通过一阶方法解决一个双层优化问题来调优图形Lasso的超参数。具体而言，我们导出了图形Lasso解对其正则化超参数的雅可比矩阵。",
+    "tldr": "该论文提出了一种隐式微分的方法用于超参数调优的图形Lasso，通过求解一阶方法下的双层优化问题来实现。最终得到了图形Lasso解对其正则化超参数的雅可比矩阵。"
+}

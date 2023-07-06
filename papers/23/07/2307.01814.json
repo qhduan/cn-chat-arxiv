@@ -1,0 +1,12 @@
+{
+    "title": "Market Making of Options via Reinforcement Learning. (arXiv:2307.01814v1 [q-fin.TR])",
+    "abstract": "Market making of options with different maturities and strikes is a challenging problem due to its high dimensional nature. In this paper, we propose a novel approach that combines a stochastic policy and reinforcement learning-inspired techniques to determine the optimal policy for posting bid-ask spreads for an options market maker who trades options with different maturities and strikes. When the arrival of market orders is linearly inverse to the spreads, the optimal policy is normally distributed.",
+    "link": "http://arxiv.org/abs/2307.01814",
+    "context": "Title: Market Making of Options via Reinforcement Learning. (arXiv:2307.01814v1 [q-fin.TR])\nAbstract: Market making of options with different maturities and strikes is a challenging problem due to its high dimensional nature. In this paper, we propose a novel approach that combines a stochastic policy and reinforcement learning-inspired techniques to determine the optimal policy for posting bid-ask spreads for an options market maker who trades options with different maturities and strikes. When the arrival of market orders is linearly inverse to the spreads, the optimal policy is normally distributed.",
+    "path": "papers/23/07/2307.01814.json",
+    "total_tokens": 642,
+    "translated_title": "通过强化学习进行期权市场做市",
+    "translated_abstract": "由于其高维度特性，期权市场做市对于不同到期日和行权价格的期权来说是一个具有挑战性的问题。在本文中，我们提出了一种新颖的方法，将随机策略和受强化学习启发的技术相结合，确定期权市场做市商为交易不同到期日和行权价格的期权时所发布的买卖价差的最优策略。当市场订单的到达与价差呈线性反比时，最优策略为正态分布。",
+    "tldr": "本研究提出了一种通过结合随机策略和强化学习技术的方法来进行期权市场做市。当市场订单的到达与价差呈线性反比时，最优策略为正态分布。",
+    "en_tdlr": "This study proposes a method of market making for options by combining stochastic policy and reinforcement learning techniques. When the arrival of market orders is linearly inverse to the spreads, the optimal policy is normally distributed."
+}

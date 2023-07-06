@@ -1,0 +1,12 @@
+{
+    "title": "FI-ODE: Certifiably Robust Forward Invariance in Neural ODEs. (arXiv:2210.16940v3 [cs.LG] UPDATED)",
+    "abstract": "Forward invariance is a long-studied property in control theory that is used to certify that a dynamical system stays within some pre-specified set of states for all time, and also admits robustness guarantees (e.g., the certificate holds under perturbations). We propose a general framework for training and provably certifying robust forward invariance in Neural ODEs. We apply this framework in two settings: certified safety in robust continuous control, and certified adversarial robustness for image classification. To our knowledge, this is the first instance of training NODE policies with such non-vacuous certified guarantees.",
+    "link": "http://arxiv.org/abs/2210.16940",
+    "context": "Title: FI-ODE: Certifiably Robust Forward Invariance in Neural ODEs. (arXiv:2210.16940v3 [cs.LG] UPDATED)\nAbstract: Forward invariance is a long-studied property in control theory that is used to certify that a dynamical system stays within some pre-specified set of states for all time, and also admits robustness guarantees (e.g., the certificate holds under perturbations). We propose a general framework for training and provably certifying robust forward invariance in Neural ODEs. We apply this framework in two settings: certified safety in robust continuous control, and certified adversarial robustness for image classification. To our knowledge, this is the first instance of training NODE policies with such non-vacuous certified guarantees.",
+    "path": "papers/22/10/2210.16940.json",
+    "total_tokens": 746,
+    "translated_title": "FI-ODE: 神经ODE中的可证明鲁棒前不变性",
+    "translated_abstract": "前不变性是控制理论中长期研究的性质，用于证明动态系统在所有时间内保持在一些预定状态集合内，并且具有鲁棒性保证（例如，在扰动下保持证书有效）。我们提出了一个通用框架，用于训练和可证明证实神经ODE中的鲁棒前不变性。我们在两个场景中应用了这个框架：鲁棒连续控制中的可证明安全性，以及图像分类中的可证明的对抗鲁棒性。据我们所知，这是第一个具有非虚假保证的训练NODE策略的实例。",
+    "tldr": "本论文提出了一个通用框架，用于在神经ODE中训练和证明鲁棒前不变性，应用于鲁棒连续控制和图像分类，具有非虚假保证。",
+    "en_tdlr": "This paper proposes a general framework for training and provably certifying robust forward invariance in Neural ODEs. It applies this framework in the settings of certified safety in robust continuous control and certified adversarial robustness for image classification, with non-vacuous certified guarantees."
+}

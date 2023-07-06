@@ -1,0 +1,12 @@
+{
+    "title": "Sentiment analysis and opinion mining on E-commerce site. (arXiv:2211.15536v2 [cs.CL] UPDATED)",
+    "abstract": "Sentiment analysis or opinion mining help to illustrate the phrase NLP (Natural Language Processing). Sentiment analysis has been the most significant topic in recent years. The goal of this study is to solve the sentiment polarity classification challenges in sentiment analysis. A broad technique for categorizing sentiment opposition is presented, along with comprehensive process explanations. With the results of the analysis, both sentence-level classification and review-level categorization are conducted. Finally, we discuss our plans for future sentiment analysis research.",
+    "link": "http://arxiv.org/abs/2211.15536",
+    "context": "Title: Sentiment analysis and opinion mining on E-commerce site. (arXiv:2211.15536v2 [cs.CL] UPDATED)\nAbstract: Sentiment analysis or opinion mining help to illustrate the phrase NLP (Natural Language Processing). Sentiment analysis has been the most significant topic in recent years. The goal of this study is to solve the sentiment polarity classification challenges in sentiment analysis. A broad technique for categorizing sentiment opposition is presented, along with comprehensive process explanations. With the results of the analysis, both sentence-level classification and review-level categorization are conducted. Finally, we discuss our plans for future sentiment analysis research.",
+    "path": "papers/22/11/2211.15536.json",
+    "total_tokens": 634,
+    "translated_title": "电子商务网站上的情感分析和意见挖掘",
+    "translated_abstract": "情感分析或意见挖掘有助于说明自然语言处理（NLP）中的短语。情感分析是近年来最重要的主题。本研究的目标是解决情感分析中的情感极性分类挑战。我们提出了一种广泛的技术来对情感对立进行分类，并提供了详细的过程解释。通过分析的结果，进行了句子级分类和评论级分类。最后，我们讨论了未来情感分析研究的计划。",
+    "tldr": "本论文研究了电子商务网站上的情感分析和意见挖掘，提出了解决情感极性分类挑战的广泛技术，并进行了句子级分类和评论级分类。",
+    "en_tdlr": "This paper explores sentiment analysis and opinion mining on e-commerce sites. It proposes a comprehensive technique to address the challenges of sentiment polarity classification and conducts sentence-level and review-level categorization."
+}

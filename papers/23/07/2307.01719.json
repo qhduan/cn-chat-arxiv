@@ -1,0 +1,12 @@
+{
+    "title": "MOPO-LSI: A User Guide. (arXiv:2307.01719v1 [q-fin.PM])",
+    "abstract": "MOPO-LSI is an open-source Multi-Objective Portfolio Optimization Library for Sustainable Investments. This document provides a user guide for MOPO-LSI version 1.0, including problem setup, workflow and the hyper-parameters in configurations.",
+    "link": "http://arxiv.org/abs/2307.01719",
+    "context": "Title: MOPO-LSI: A User Guide. (arXiv:2307.01719v1 [q-fin.PM])\nAbstract: MOPO-LSI is an open-source Multi-Objective Portfolio Optimization Library for Sustainable Investments. This document provides a user guide for MOPO-LSI version 1.0, including problem setup, workflow and the hyper-parameters in configurations.",
+    "path": "papers/23/07/2307.01719.json",
+    "total_tokens": 480,
+    "translated_title": "MOPO-LSI：用户指南",
+    "translated_abstract": "MOPO-LSI是一种开源的可持续投资多目标投资组合优化库。本文提供了MOPO-LSI版本1.0的用户指南，包括问题设置、工作流程和配置中的超参数。",
+    "tldr": "MOPO-LSI是一款开源的多目标投资组合优化库，为可持续投资提供用户指南，并介绍了版本1.0的问题设置、工作流程和超参数。",
+    "en_tdlr": "MOPO-LSI is an open-source multi-objective portfolio optimization library that provides a user guide for sustainable investments. It covers problem setup, workflow, and hyper-parameters in version 1.0."
+}

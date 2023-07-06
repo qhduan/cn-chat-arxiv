@@ -1,0 +1,11 @@
+{
+    "title": "Algorithme EM r\\'egularis\\'e. (arXiv:2307.01955v1 [stat.ML])",
+    "abstract": "Expectation-Maximization (EM) algorithm is a widely used iterative algorithm for computing maximum likelihood estimate when dealing with Gaussian Mixture Model (GMM). When the sample size is smaller than the data dimension, this could lead to a singular or poorly conditioned covariance matrix and, thus, to performance reduction. This paper presents a regularized version of the EM algorithm that efficiently uses prior knowledge to cope with a small sample size. This method aims to maximize a penalized GMM likelihood where regularized estimation may ensure positive definiteness of covariance matrix updates by shrinking the estimators towards some structured target covariance matrices. Finally, experiments on real data highlight the good performance of the proposed algorithm for clustering purposes",
+    "link": "http://arxiv.org/abs/2307.01955",
+    "context": "Title: Algorithme EM r\\'egularis\\'e. (arXiv:2307.01955v1 [stat.ML])\nAbstract: Expectation-Maximization (EM) algorithm is a widely used iterative algorithm for computing maximum likelihood estimate when dealing with Gaussian Mixture Model (GMM). When the sample size is smaller than the data dimension, this could lead to a singular or poorly conditioned covariance matrix and, thus, to performance reduction. This paper presents a regularized version of the EM algorithm that efficiently uses prior knowledge to cope with a small sample size. This method aims to maximize a penalized GMM likelihood where regularized estimation may ensure positive definiteness of covariance matrix updates by shrinking the estimators towards some structured target covariance matrices. Finally, experiments on real data highlight the good performance of the proposed algorithm for clustering purposes",
+    "path": "papers/23/07/2307.01955.json",
+    "total_tokens": 785,
+    "translated_title": "正则化的EM算法",
+    "translated_abstract": "期望最大化(EM)算法是一种广泛用于计算高斯混合模型(GMM)最大似然估计的迭代算法。当样本量小于数据维度时，可能导致奇异或条件较差的协方差矩阵，从而降低性能。本文提出了一种正则化的EM算法，它有效地利用先验知识来处理小样本量。该方法旨在通过缩小估计值向某些结构化目标协方差矩阵收缩的方式来最大化罚函数GMM似然度，以确保协方差矩阵更新的正定性。最后，对真实数据的实验结果突出了所提算法在聚类目的下的良好性能。",
+    "tldr": "本文提出了一种正则化的EM算法，用于处理小样本量下计算高斯混合模型最大似然估计的问题，并通过缩小估计值向目标协方差矩阵收缩的方式来解决协方差矩阵奇异或条件较差的问题。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Localized Data Work as a Precondition for Data-Centric ML: A Case Study of Full Lifecycle Crop Disease Identification in Ghana. (arXiv:2307.01767v1 [cs.LG])",
+    "abstract": "The Ghana Cashew Disease Identification with Artificial Intelligence (CADI AI) project demonstrates the importance of sound data work as a precondition for the delivery of useful, localized datacentric solutions for public good tasks such as agricultural productivity and food security. Drone collected data and machine learning are utilized to determine crop stressors. Data, model and the final app are developed jointly and made available to local farmers via a desktop application.",
+    "link": "http://arxiv.org/abs/2307.01767",
+    "context": "Title: Localized Data Work as a Precondition for Data-Centric ML: A Case Study of Full Lifecycle Crop Disease Identification in Ghana. (arXiv:2307.01767v1 [cs.LG])\nAbstract: The Ghana Cashew Disease Identification with Artificial Intelligence (CADI AI) project demonstrates the importance of sound data work as a precondition for the delivery of useful, localized datacentric solutions for public good tasks such as agricultural productivity and food security. Drone collected data and machine learning are utilized to determine crop stressors. Data, model and the final app are developed jointly and made available to local farmers via a desktop application.",
+    "path": "papers/23/07/2307.01767.json",
+    "total_tokens": 686,
+    "translated_title": "作为数据中心机器学习的前提条件的本地化数据工作：加纳全生命周期作物疾病识别案例研究",
+    "translated_abstract": "加纳人工智能腰果疾病识别项目展示了在农业生产力和食品安全等公共任务中，有效的本地化数据工作作为实现有用的、针对本地需求的数据中心解决方案的先决条件的重要性。利用无人机收集的数据和机器学习技术，确定作物的压力因素，并共同开发数据、模型和最终应用程序，通过桌面应用程序向当地农民提供。",
+    "tldr": "本文研究通过加纳全生命周期作物疾病识别案例，展示了本地化数据工作作为数据中心机器学习的前提条件的重要性，为公共领域任务如农业生产力和食品安全提供了有用的解决方案。",
+    "en_tdlr": "This paper presents a case study on full lifecycle crop disease identification in Ghana, highlighting the importance of localized data work as a precondition for data-centric machine learning and providing useful solutions for public tasks like agricultural productivity and food security."
+}

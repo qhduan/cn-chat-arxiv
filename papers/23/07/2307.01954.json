@@ -1,0 +1,12 @@
+{
+    "title": "FEMDA: Une m\\'ethode de classification robuste et flexible. (arXiv:2307.01954v1 [stat.ML])",
+    "abstract": "Linear and Quadratic Discriminant Analysis (LDA and QDA) are well-known classical methods but can heavily suffer from non-Gaussian distributions and/or contaminated datasets, mainly because of the underlying Gaussian assumption that is not robust. This paper studies the robustness to scale changes in the data of a new discriminant analysis technique where each data point is drawn by its own arbitrary Elliptically Symmetrical (ES) distribution and its own arbitrary scale parameter. Such a model allows for possibly very heterogeneous, independent but non-identically distributed samples. The new decision rule derived is simple, fast, and robust to scale changes in the data compared to other state-of-the-art method",
+    "link": "http://arxiv.org/abs/2307.01954",
+    "context": "Title: FEMDA: Une m\\'ethode de classification robuste et flexible. (arXiv:2307.01954v1 [stat.ML])\nAbstract: Linear and Quadratic Discriminant Analysis (LDA and QDA) are well-known classical methods but can heavily suffer from non-Gaussian distributions and/or contaminated datasets, mainly because of the underlying Gaussian assumption that is not robust. This paper studies the robustness to scale changes in the data of a new discriminant analysis technique where each data point is drawn by its own arbitrary Elliptically Symmetrical (ES) distribution and its own arbitrary scale parameter. Such a model allows for possibly very heterogeneous, independent but non-identically distributed samples. The new decision rule derived is simple, fast, and robust to scale changes in the data compared to other state-of-the-art method",
+    "path": "papers/23/07/2307.01954.json",
+    "total_tokens": 763,
+    "translated_title": "FEMDA: 一种稳健且灵活的分类方法",
+    "translated_abstract": "线性判别分析(LDA)和二次判别分析(QDA)是众所周知的经典方法，但在非高斯分布和/或受污染的数据集中可能受到严重影响，主要是因为底层高斯假设不具备稳健性。本文研究了一种新的判别分析技术对数据尺度变化的稳健性，其中每个数据点由自己的任意椭球对称(ES)分布和自己的任意尺度参数绘制。这种模型允许可能非常异质、独立但不同分布的样本。与其他最先进的方法相比，所得到的新的决策规则简单、快速且对数据中的尺度变化具有稳健性。",
+    "tldr": "本文介绍了一种新的稳健且灵活的分类方法FEMDA，能够处理非高斯分布和/或受污染的数据集，并能够稳健地对数据中的尺度变化进行分类。",
+    "en_tdlr": "This paper presents a new robust and flexible classification method called FEMDA, which can handle non-Gaussian distributions and/or contaminated datasets, and is robust to scale changes in the data."
+}
