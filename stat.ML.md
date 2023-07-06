@@ -30,33 +30,34 @@
 | [^26] | [Fast Optimal Transport through Sliced Wasserstein Generalized Geodesics.](http://arxiv.org/abs/2307.01770) | 本文提出了一种快速计算最优输运的方法，通过切片Wasserstein广义测地线进行近似，得到了一个基于一维最优投影的代理距离min-SWGG，并提供了相关的传输计划。这种方法具有较低的计算复杂度，适用于优化算法。 |
 | [^27] | [Online Learning and Solving Infinite Games with an ERM Oracle.](http://arxiv.org/abs/2307.01689) | 这项工作提出了一种仅依赖ERM预言机调用的在线学习算法，该算法在可实现情况下具有有限的遗憾，并在不可知情况下具有亚线性增长的遗憾。同时，还提供了类似的结果用于非参数博弈环境中的学习算法，即仅依赖最佳响应预言机的学习算法，并收敛到近似极小-极大均衡点。 |
 | [^28] | [Training Energy-Based Models with Diffusion Contrastive Divergences.](http://arxiv.org/abs/2307.01668) | 本文提出了一种使用扩散对比发散（DCD）训练能量模型（EBM）的方法，相较于传统的对比发散（CD），DCD在计算效率上更高，并且不受非可忽略梯度项的限制。 |
-| [^29] | [Approximate information for efficient exploration-exploitation strategies.](http://arxiv.org/abs/2307.01563) | 本文提出了一种称为AIM的算法，用于解决决策中的探索-利用困境，特别针对多臂赌博机问题。AIM算法利用近似熵梯度来选择每个时间点要拉动的手臂，与Infomax和Thompson抽样相比，在性能上能够匹配，同时具有更好的计算速度、确定性和可计算性。经实证评估表明，AIM算法符合Lai-Robbins渐进界，对于不同的先验具有鲁棒性。 |
-| [^30] | [Accelerated stochastic approximation with state-dependent noise.](http://arxiv.org/abs/2307.01497) | 该论文研究了一类具有状态相关噪声的随机平滑凸优化问题。通过引入两种非欧几里得加速随机逼近算法，实现了在精度、问题参数和小批量大小方面的最优性。 |
-| [^31] | [Free energy of Bayesian Convolutional Neural Network with Skip Connection.](http://arxiv.org/abs/2307.01417) | 本文研究了具有跳连接的贝叶斯卷积神经网络的自由能，揭示了其不依赖于过度参数化，并且具有类似的泛化误差性质。 |
-| [^32] | [Adaptive Principal Component Regression with Applications to Panel Data.](http://arxiv.org/abs/2307.01357) | 本文提出了自适应主成分回归方法，并在面板数据中的应用中获得了均匀有限样本保证。该方法可以用于面板数据中的实验设计，特别是当干预方案是自适应分配的情况。 |
-| [^33] | [INGB: Informed Nonlinear Granular Ball Oversampling Framework for Noisy Imbalanced Classification.](http://arxiv.org/abs/2307.01224) | 本文提出了一种以颗粒球为方向的知情非线性过采样框架INGB，通过模拟数据集的空间分布特征并优化颗粒球空间，利用高维稀疏性和各向同性高斯分布进行非线性过采样，以改善不均衡分类问题。 |
-| [^34] | [CardiGraphormer: Unveiling the Power of Self-Supervised Learning in Revolutionizing Drug Discovery.](http://arxiv.org/abs/2307.00859) | CardiGraphormer是一种革命性的方法，结合了自监督学习、图神经网络和保持基数注意力，颠覆了药物发现的方式。它利用自监督学习学习分子表示并利用图神经网络提取分子指纹，提高了预测性能和可解释性，同时减少了计算时间，并在处理复杂数据和执行各种与图结构相关的任务方面表现出色。 |
-| [^35] | [A Quantitative Functional Central Limit Theorem for Shallow Neural Networks.](http://arxiv.org/abs/2306.16932) | 本文证明了具有通用激活函数的单隐藏层神经网络的定量函数中心极限定理，收敛速度取决于激活函数的平滑性。 |
-| [^36] | [Convergence and concentration properties of constant step-size SGD through Markov chains.](http://arxiv.org/abs/2306.11497) | 本文通过马尔科夫链研究了常步长随机梯度下降的性质，证明了迭代收敛于一个不变分布，并获得了高置信度边界。 |
-| [^37] | [Bayes optimal learning in high-dimensional linear regression with network side information.](http://arxiv.org/abs/2306.05679) | 本文首次研究了具有网络辅助信息的高维线性回归中的贝叶斯最优学习问题，引入了Reg-Graph模型并提出了基于AMP的迭代算法，在实验中优于现有的几种网络辅助回归方法。 |
-| [^38] | [Statistical Optimality of Deep Wide Neural Networks.](http://arxiv.org/abs/2305.02657) | 本文研究了深度宽松弛ReLU神经网络的泛化能力，证明适当早停的梯度下降训练的多层宽神经网络可以实现最小极大率，前提是回归函数在对应的NTK相关的再生核希尔伯特空间中，但过度拟合的多层宽神经网络在$\mathbb S^{d}$上不能很好地泛化。 |
-| [^39] | [Active Cost-aware Labeling of Streaming Data.](http://arxiv.org/abs/2304.06808) | 本文研究了流式数据中的主动计费标注问题，提出了一种算法，通过选择标记点并维护时间和成本相关阈值，在$T$轮之后实现了$O(B^{\frac { 1 }{ 3 }}K^{\frac { 1 }{ 3 }}T^{\frac { 2 }{ 3 }})$的最坏情况上界。 |
-| [^40] | [Causal Dependence Plots.](http://arxiv.org/abs/2303.04209) | 本论文提出了因果依赖图（CDPs）来解释人工智能或机器学习模型的因果依赖关系。CDPs与传统方法不同，可以模块化地结合因果学习或敏感度分析方法。这些图表可以成为可解释机器学习工具包中的强大工具，并对相关应用做出贡献。 |
-| [^41] | [Exploring Local Norms in Exp-concave Statistical Learning.](http://arxiv.org/abs/2302.10726) | 这篇论文研究了在 exp-concave 统计学习中使用经验风险最小化的问题，提出了适用于广泛类别的有界 exp-concave 损失的过量风险界，维度和样本大小对结果有影响，并且基于统一几何假设和本地规范的概念。 |
-| [^42] | [The Expressive Power of Tuning Only the Normalization Layers.](http://arxiv.org/abs/2302.07937) | 本研究发现，仅调整神经网络的归一化层参数就可以达到高准确性，甚至可以重建比原网络小O(根号宽度)倍的目标网络。 |
-| [^43] | [Dimension Reduction and MARS.](http://arxiv.org/abs/2302.05790) | 本文改进了多元自适应回归样条（MARS）的性能，通过使用协变量的线性组合来实现足够的维度约减，提高了估计效率。 |
-| [^44] | [SOBER: Highly Parallel Bayesian Optimization and Bayesian Quadrature over Discrete and Mixed Spaces.](http://arxiv.org/abs/2301.11832) | SOBER算法是一种在离散和混合空间上进行高并行贝叶斯优化的方法，能够进行可扩展和多样化的批量全局优化和积分，且优于11个竞争基线方法。 |
-| [^45] | [Fine-tuning Neural-Operator architectures for training and generalization.](http://arxiv.org/abs/2301.11509) | 本文全面分析了神经算符及其衍生结构的泛化特性并提出了改进方法，包括引入核积分算符来代替自关注机制和逐渐增加模型容量的训练课程，结果显著提高了性能和泛化能力。 |
-| [^46] | [Case-Base Neural Networks: survival analysis with time-varying, higher-order interactions.](http://arxiv.org/abs/2301.06535) | 案例基础神经网络（CBNNs）是一种新的生存分析方法，它可以同时模拟时间变化的交互和复杂的基线风险。 |
-| [^47] | [Statistical Comparisons of Classifiers by Generalized Stochastic Dominance.](http://arxiv.org/abs/2209.01857) | 这篇论文通过采用决策理论的最新发展，提出了一种基于广义随机优势的分类器比较框架，该框架通过解决易处理的线性规划问题进行操作，并通过适应的两样本观察随机化测试进行统计测试。 |
-| [^48] | [Dynamic Ranking and Translation Synchronization.](http://arxiv.org/abs/2207.01455) | 本论文研究了动态排名和翻译同步问题，主要关注成对比较数据随时间变化的情况，并给出了相应的理论结果。 |
-| [^49] | [Tight Bounds on the Hardness of Learning Simple Nonparametric Mixtures.](http://arxiv.org/abs/2203.15150) | 我们研究了学习非参数混合模型中组件分布的难度，并建立了学习每个组件分布的样本复杂性的严格界限。我们的主要结果是需要$(\frac{1}{\varepsilon})^{\Omega(\log\log \frac{1}{\varepsilon})}$个样本来估计每个组件分布。 |
-| [^50] | [Meta-Learning for Simple Regret Minimization.](http://arxiv.org/abs/2202.12888) | 本论文提出了用于在赌博机中进行简单遗憾最小化的元学习框架，并提出了首个贝叶斯和频率派元学习算法。贝叶斯算法具有先验分布并且具有较小的元简单遗憾，而频率派算法更通用且可以在更多的设置中进行分析。通过将算法应用于不同的赌博机问题，我们验证了理论的有效性。 |
-| [^51] | [A Non-Classical Parameterization for Density Estimation Using Sample Moments.](http://arxiv.org/abs/2201.04786) | 本文提出了一种使用样本矩方法进行非传统参数化密度估计的方法，通过平方Hellinger距离进行参数化，并通过凸优化得到唯一解。通过幂矩估计提出了估计器的统计性质和渐近误差上界，模拟结果验证了该方法的性能。 |
-| [^52] | [On the equivalence of different adaptive batch size selection strategies for stochastic gradient descent methods.](http://arxiv.org/abs/2109.10933) | 本研究证明了在特定选择的Θ和ν下，范数测试和内积/正交性测试在随机梯度下降方法的收敛速度方面是等价的，同时指出在最理想情况下，内积/正交性测试可以像范数测试一样廉价。 |
-| [^53] | [Optimization on manifolds: A symplectic approach.](http://arxiv.org/abs/2107.11231) | 这项工作提出了一种在平滑流形上解决优化问题的通用框架，利用流形上的辛算法进行加速，可以处理具有非线性约束的问题，并具有良好的收敛性能。 |
-| [^54] | [Transfer Learning in Deep Reinforcement Learning: A Survey.](http://arxiv.org/abs/2009.07888) | 这篇综述调查了深度强化学习领域中的迁移学习方法的最新进展，并提供了一个对这些方法进行分类的框架。分析了它们的目标、方法学、兼容的强化学习背景以及实际应用，并探讨了迁移学习与其他相关主题之间的联系。 |
-| [^55] | [Generative Adversarial Trainer: Defense to Adversarial Perturbations with GAN.](http://arxiv.org/abs/1705.03387) | 本论文提出了一种使用生成对抗网络来防御对抗扰动的新方法，通过交替训练分类器和生成器网络，生成器网络生成对抗扰动以欺骗分类器网络，同时分类器网络被训练以正确分类原始和对抗图像，这一过程使分类器网络对对抗扰动更加鲁棒，同时还能有效地降低网络的过拟合问题。 |
+| [^29] | [Last layer state space model for representation learning and uncertainty quantification.](http://arxiv.org/abs/2307.01566) | 本文提出了一种新的方法，将分类或回归任务分解为表示学习和不确定性估计两个步骤，通过添加一个基于状态空间的最后一层来实现预测分布的估计。该方法能够独立进行表示学习和生成模型的设计，适用于深层和复杂的顺序神经网络结构。 |
+| [^30] | [Approximate information for efficient exploration-exploitation strategies.](http://arxiv.org/abs/2307.01563) | 本文提出了一种称为AIM的算法，用于解决决策中的探索-利用困境，特别针对多臂赌博机问题。AIM算法利用近似熵梯度来选择每个时间点要拉动的手臂，与Infomax和Thompson抽样相比，在性能上能够匹配，同时具有更好的计算速度、确定性和可计算性。经实证评估表明，AIM算法符合Lai-Robbins渐进界，对于不同的先验具有鲁棒性。 |
+| [^31] | [Accelerated stochastic approximation with state-dependent noise.](http://arxiv.org/abs/2307.01497) | 该论文研究了一类具有状态相关噪声的随机平滑凸优化问题。通过引入两种非欧几里得加速随机逼近算法，实现了在精度、问题参数和小批量大小方面的最优性。 |
+| [^32] | [Free energy of Bayesian Convolutional Neural Network with Skip Connection.](http://arxiv.org/abs/2307.01417) | 本文研究了具有跳连接的贝叶斯卷积神经网络的自由能，揭示了其不依赖于过度参数化，并且具有类似的泛化误差性质。 |
+| [^33] | [Adaptive Principal Component Regression with Applications to Panel Data.](http://arxiv.org/abs/2307.01357) | 本文提出了自适应主成分回归方法，并在面板数据中的应用中获得了均匀有限样本保证。该方法可以用于面板数据中的实验设计，特别是当干预方案是自适应分配的情况。 |
+| [^34] | [INGB: Informed Nonlinear Granular Ball Oversampling Framework for Noisy Imbalanced Classification.](http://arxiv.org/abs/2307.01224) | 本文提出了一种以颗粒球为方向的知情非线性过采样框架INGB，通过模拟数据集的空间分布特征并优化颗粒球空间，利用高维稀疏性和各向同性高斯分布进行非线性过采样，以改善不均衡分类问题。 |
+| [^35] | [CardiGraphormer: Unveiling the Power of Self-Supervised Learning in Revolutionizing Drug Discovery.](http://arxiv.org/abs/2307.00859) | CardiGraphormer是一种革命性的方法，结合了自监督学习、图神经网络和保持基数注意力，颠覆了药物发现的方式。它利用自监督学习学习分子表示并利用图神经网络提取分子指纹，提高了预测性能和可解释性，同时减少了计算时间，并在处理复杂数据和执行各种与图结构相关的任务方面表现出色。 |
+| [^36] | [A Quantitative Functional Central Limit Theorem for Shallow Neural Networks.](http://arxiv.org/abs/2306.16932) | 本文证明了具有通用激活函数的单隐藏层神经网络的定量函数中心极限定理，收敛速度取决于激活函数的平滑性。 |
+| [^37] | [Convergence and concentration properties of constant step-size SGD through Markov chains.](http://arxiv.org/abs/2306.11497) | 本文通过马尔科夫链研究了常步长随机梯度下降的性质，证明了迭代收敛于一个不变分布，并获得了高置信度边界。 |
+| [^38] | [Bayes optimal learning in high-dimensional linear regression with network side information.](http://arxiv.org/abs/2306.05679) | 本文首次研究了具有网络辅助信息的高维线性回归中的贝叶斯最优学习问题，引入了Reg-Graph模型并提出了基于AMP的迭代算法，在实验中优于现有的几种网络辅助回归方法。 |
+| [^39] | [Statistical Optimality of Deep Wide Neural Networks.](http://arxiv.org/abs/2305.02657) | 本文研究了深度宽松弛ReLU神经网络的泛化能力，证明适当早停的梯度下降训练的多层宽神经网络可以实现最小极大率，前提是回归函数在对应的NTK相关的再生核希尔伯特空间中，但过度拟合的多层宽神经网络在$\mathbb S^{d}$上不能很好地泛化。 |
+| [^40] | [Active Cost-aware Labeling of Streaming Data.](http://arxiv.org/abs/2304.06808) | 本文研究了流式数据中的主动计费标注问题，提出了一种算法，通过选择标记点并维护时间和成本相关阈值，在$T$轮之后实现了$O(B^{\frac { 1 }{ 3 }}K^{\frac { 1 }{ 3 }}T^{\frac { 2 }{ 3 }})$的最坏情况上界。 |
+| [^41] | [Causal Dependence Plots.](http://arxiv.org/abs/2303.04209) | 本论文提出了因果依赖图（CDPs）来解释人工智能或机器学习模型的因果依赖关系。CDPs与传统方法不同，可以模块化地结合因果学习或敏感度分析方法。这些图表可以成为可解释机器学习工具包中的强大工具，并对相关应用做出贡献。 |
+| [^42] | [Exploring Local Norms in Exp-concave Statistical Learning.](http://arxiv.org/abs/2302.10726) | 这篇论文研究了在 exp-concave 统计学习中使用经验风险最小化的问题，提出了适用于广泛类别的有界 exp-concave 损失的过量风险界，维度和样本大小对结果有影响，并且基于统一几何假设和本地规范的概念。 |
+| [^43] | [The Expressive Power of Tuning Only the Normalization Layers.](http://arxiv.org/abs/2302.07937) | 本研究发现，仅调整神经网络的归一化层参数就可以达到高准确性，甚至可以重建比原网络小O(根号宽度)倍的目标网络。 |
+| [^44] | [Dimension Reduction and MARS.](http://arxiv.org/abs/2302.05790) | 本文改进了多元自适应回归样条（MARS）的性能，通过使用协变量的线性组合来实现足够的维度约减，提高了估计效率。 |
+| [^45] | [SOBER: Highly Parallel Bayesian Optimization and Bayesian Quadrature over Discrete and Mixed Spaces.](http://arxiv.org/abs/2301.11832) | SOBER算法是一种在离散和混合空间上进行高并行贝叶斯优化的方法，能够进行可扩展和多样化的批量全局优化和积分，且优于11个竞争基线方法。 |
+| [^46] | [Fine-tuning Neural-Operator architectures for training and generalization.](http://arxiv.org/abs/2301.11509) | 本文全面分析了神经算符及其衍生结构的泛化特性并提出了改进方法，包括引入核积分算符来代替自关注机制和逐渐增加模型容量的训练课程，结果显著提高了性能和泛化能力。 |
+| [^47] | [Case-Base Neural Networks: survival analysis with time-varying, higher-order interactions.](http://arxiv.org/abs/2301.06535) | 案例基础神经网络（CBNNs）是一种新的生存分析方法，它可以同时模拟时间变化的交互和复杂的基线风险。 |
+| [^48] | [Statistical Comparisons of Classifiers by Generalized Stochastic Dominance.](http://arxiv.org/abs/2209.01857) | 这篇论文通过采用决策理论的最新发展，提出了一种基于广义随机优势的分类器比较框架，该框架通过解决易处理的线性规划问题进行操作，并通过适应的两样本观察随机化测试进行统计测试。 |
+| [^49] | [Dynamic Ranking and Translation Synchronization.](http://arxiv.org/abs/2207.01455) | 本论文研究了动态排名和翻译同步问题，主要关注成对比较数据随时间变化的情况，并给出了相应的理论结果。 |
+| [^50] | [Tight Bounds on the Hardness of Learning Simple Nonparametric Mixtures.](http://arxiv.org/abs/2203.15150) | 我们研究了学习非参数混合模型中组件分布的难度，并建立了学习每个组件分布的样本复杂性的严格界限。我们的主要结果是需要$(\frac{1}{\varepsilon})^{\Omega(\log\log \frac{1}{\varepsilon})}$个样本来估计每个组件分布。 |
+| [^51] | [Meta-Learning for Simple Regret Minimization.](http://arxiv.org/abs/2202.12888) | 本论文提出了用于在赌博机中进行简单遗憾最小化的元学习框架，并提出了首个贝叶斯和频率派元学习算法。贝叶斯算法具有先验分布并且具有较小的元简单遗憾，而频率派算法更通用且可以在更多的设置中进行分析。通过将算法应用于不同的赌博机问题，我们验证了理论的有效性。 |
+| [^52] | [A Non-Classical Parameterization for Density Estimation Using Sample Moments.](http://arxiv.org/abs/2201.04786) | 本文提出了一种使用样本矩方法进行非传统参数化密度估计的方法，通过平方Hellinger距离进行参数化，并通过凸优化得到唯一解。通过幂矩估计提出了估计器的统计性质和渐近误差上界，模拟结果验证了该方法的性能。 |
+| [^53] | [On the equivalence of different adaptive batch size selection strategies for stochastic gradient descent methods.](http://arxiv.org/abs/2109.10933) | 本研究证明了在特定选择的Θ和ν下，范数测试和内积/正交性测试在随机梯度下降方法的收敛速度方面是等价的，同时指出在最理想情况下，内积/正交性测试可以像范数测试一样廉价。 |
+| [^54] | [Optimization on manifolds: A symplectic approach.](http://arxiv.org/abs/2107.11231) | 这项工作提出了一种在平滑流形上解决优化问题的通用框架，利用流形上的辛算法进行加速，可以处理具有非线性约束的问题，并具有良好的收敛性能。 |
+| [^55] | [Transfer Learning in Deep Reinforcement Learning: A Survey.](http://arxiv.org/abs/2009.07888) | 这篇综述调查了深度强化学习领域中的迁移学习方法的最新进展，并提供了一个对这些方法进行分类的框架。分析了它们的目标、方法学、兼容的强化学习背景以及实际应用，并探讨了迁移学习与其他相关主题之间的联系。 |
+| [^56] | [Generative Adversarial Trainer: Defense to Adversarial Perturbations with GAN.](http://arxiv.org/abs/1705.03387) | 本论文提出了一种使用生成对抗网络来防御对抗扰动的新方法，通过交替训练分类器和生成器网络，生成器网络生成对抗扰动以欺骗分类器网络，同时分类器网络被训练以正确分类原始和对抗图像，这一过程使分类器网络对对抗扰动更加鲁棒，同时还能有效地降低网络的过拟合问题。 |
 
 # 详细
 
@@ -452,7 +453,21 @@
 
     Energy-Based Models (EBMs) have been widely used for generative modeling. Contrastive Divergence (CD), a prevailing training objective for EBMs, requires sampling from the EBM with Markov Chain Monte Carlo methods (MCMCs), which leads to an irreconcilable trade-off between the computational burden and the validity of the CD. Running MCMCs till convergence is computationally intensive. On the other hand, short-run MCMC brings in an extra non-negligible parameter gradient term that is difficult to handle. In this paper, we provide a general interpretation of CD, viewing it as a special instance of our proposed Diffusion Contrastive Divergence (DCD) family. By replacing the Langevin dynamic used in CD with other EBM-parameter-free diffusion processes, we propose a more efficient divergence. We show that the proposed DCDs are both more computationally efficient than the CD and are not limited to a non-negligible gradient term. We conduct intensive experiments, including both synthesis data
     
-[^29]: 用于高效探索-利用策略的近似信息方法
+[^29]: 最后一层的状态空间模型用于表示学习和不确定性量化
+
+    Last layer state space model for representation learning and uncertainty quantification. (arXiv:2307.01566v1 [stat.ML])
+
+    [http://arxiv.org/abs/2307.01566](http://arxiv.org/abs/2307.01566)
+
+    本文提出了一种新的方法，将分类或回归任务分解为表示学习和不确定性估计两个步骤，通过添加一个基于状态空间的最后一层来实现预测分布的估计。该方法能够独立进行表示学习和生成模型的设计，适用于深层和复杂的顺序神经网络结构。
+
+    
+
+    随着顺序神经网络体系结构变得更深和更复杂，不确定性估计变得越来越具有挑战性。在量化不确定性的努力中，通常依赖于特定的训练过程，并且由于这种模型的维度而承受额外的计算成本。在本文中，我们提出将分类或回归任务分解为两个步骤：表示学习阶段用于学习低维状态，以及用于不确定性估计的状态空间模型。这种方法允许分离表示学习和生成模型的设计。我们演示了如何在现有训练的神经网络之上预测分布，通过添加一个基于状态空间的最后一层来估计其参数，参数估计使用顺序蒙特卡洛方法。我们将我们提出的方法应用于电力变压器油温的每小时估计，这是一个公开基准数据集。我们的模型考虑了由于未知或者u
+
+    As sequential neural architectures become deeper and more complex, uncertainty estimation is more and more challenging. Efforts in quantifying uncertainty often rely on specific training procedures, and bear additional computational costs due to the dimensionality of such models. In this paper, we propose to decompose a classification or regression task in two steps: a representation learning stage to learn low-dimensional states, and a state space model for uncertainty estimation. This approach allows to separate representation learning and design of generative models. We demonstrate how predictive distributions can be estimated on top of an existing and trained neural network, by adding a state space-based last layer whose parameters are estimated with Sequential Monte Carlo methods. We apply our proposed methodology to the hourly estimation of Electricity Transformer Oil temperature, a publicly benchmarked dataset. Our model accounts for the noisy data structure, due to unknown or u
+    
+[^30]: 用于高效探索-利用策略的近似信息方法
 
     Approximate information for efficient exploration-exploitation strategies. (arXiv:2307.01563v1 [stat.ML])
 
@@ -466,7 +481,7 @@
 
     This paper addresses the exploration-exploitation dilemma inherent in decision-making, focusing on multi-armed bandit problems. The problems involve an agent deciding whether to exploit current knowledge for immediate gains or explore new avenues for potential long-term rewards. We here introduce a novel algorithm, approximate information maximization (AIM), which employs an analytical approximation of the entropy gradient to choose which arm to pull at each point in time. AIM matches the performance of Infomax and Thompson sampling while also offering enhanced computational speed, determinism, and tractability. Empirical evaluation of AIM indicates its compliance with the Lai-Robbins asymptotic bound and demonstrates its robustness for a range of priors. Its expression is tunable, which allows for specific optimization in various settings.
     
-[^30]: 具有状态相关噪声的加速随机逼近
+[^31]: 具有状态相关噪声的加速随机逼近
 
     Accelerated stochastic approximation with state-dependent noise. (arXiv:2307.01497v1 [math.OC])
 
@@ -480,7 +495,7 @@
 
     We consider a class of stochastic smooth convex optimization problems under rather general assumptions on the noise in the stochastic gradient observation. As opposed to the classical problem setting in which the variance of noise is assumed to be uniformly bounded, herein we assume that the variance of stochastic gradients is related to the "sub-optimality" of the approximate solutions delivered by the algorithm. Such problems naturally arise in a variety of applications, in particular, in the well-known generalized linear regression problem in statistics. However, to the best of our knowledge, none of the existing stochastic approximation algorithms for solving this class of problems attain optimality in terms of the dependence on accuracy, problem parameters, and mini-batch size.  We discuss two non-Euclidean accelerated stochastic approximation routines--stochastic accelerated gradient descent (SAGD) and stochastic gradient extrapolation (SGE)--which carry a particular duality rela
     
-[^31]: 具有跳连接的贝叶斯卷积神经网络的自由能研究
+[^32]: 具有跳连接的贝叶斯卷积神经网络的自由能研究
 
     Free energy of Bayesian Convolutional Neural Network with Skip Connection. (arXiv:2307.01417v1 [cs.LG])
 
@@ -494,7 +509,7 @@
 
     Since the success of Residual Network(ResNet), many of architectures of Convolutional Neural Networks(CNNs) have adopted skip connection. While the generalization performance of CNN with skip connection has been explained within the framework of Ensemble Learning, the dependency on the number of parameters have not been revealed. In this paper, we show that Bayesian free energy of Convolutional Neural Network both with and without skip connection in Bayesian learning. The upper bound of free energy of Bayesian CNN with skip connection does not depend on the oveparametrization and, the generalization error of Bayesian CNN has similar property.
     
-[^32]: 自适应主成分回归在面板数据中的应用
+[^33]: 自适应主成分回归在面板数据中的应用
 
     Adaptive Principal Component Regression with Applications to Panel Data. (arXiv:2307.01357v1 [cs.LG])
 
@@ -508,7 +523,7 @@
 
     Principal component regression (PCR) is a popular technique for fixed-design error-in-variables regression, a generalization of the linear regression setting in which the observed covariates are corrupted with random noise. We provide the first time-uniform finite sample guarantees for online (regularized) PCR whenever data is collected adaptively. Since the proof techniques for analyzing PCR in the fixed design setting do not readily extend to the online setting, our results rely on adapting tools from modern martingale concentration to the error-in-variables setting. As an application of our bounds, we provide a framework for experiment design in panel data settings when interventions are assigned adaptively. Our framework may be thought of as a generalization of the synthetic control and synthetic interventions frameworks, where data is collected via an adaptive intervention assignment policy.
     
-[^33]: INGB: 用于嘈杂的不均衡分类的知情非线性颗粒球过采样框架
+[^34]: INGB: 用于嘈杂的不均衡分类的知情非线性颗粒球过采样框架
 
     INGB: Informed Nonlinear Granular Ball Oversampling Framework for Noisy Imbalanced Classification. (arXiv:2307.01224v1 [stat.ML])
 
@@ -522,7 +537,7 @@
 
     In classification problems, the datasets are usually imbalanced, noisy or complex. Most sampling algorithms only make some improvements to the linear sampling mechanism of the synthetic minority oversampling technique (SMOTE). Nevertheless, linear oversampling has several unavoidable drawbacks. Linear oversampling is susceptible to overfitting, and the synthetic samples lack diversity and rarely account for the original distribution characteristics. An informed nonlinear oversampling framework with the granular ball (INGB) as a new direction of oversampling is proposed in this paper. It uses granular balls to simulate the spatial distribution characteristics of datasets, and informed entropy is utilized to further optimize the granular-ball space. Then, nonlinear oversampling is performed by following high-dimensional sparsity and the isotropic Gaussian distribution. Furthermore, INGB has good compatibility. Not only can it be combined with most SMOTE-based sampling algorithms to impro
     
-[^34]: CardiGraphormer: 揭示自监督学习在颠覆药物发现中的力量
+[^35]: CardiGraphormer: 揭示自监督学习在颠覆药物发现中的力量
 
     CardiGraphormer: Unveiling the Power of Self-Supervised Learning in Revolutionizing Drug Discovery. (arXiv:2307.00859v1 [cs.LG])
 
@@ -536,7 +551,7 @@
 
     In the expansive realm of drug discovery, with approximately 15,000 known drugs and only around 4,200 approved, the combinatorial nature of the chemical space presents a formidable challenge. While Artificial Intelligence (AI) has emerged as a powerful ally, traditional AI frameworks face significant hurdles. This manuscript introduces CardiGraphormer, a groundbreaking approach that synergizes self-supervised learning (SSL), Graph Neural Networks (GNNs), and Cardinality Preserving Attention to revolutionize drug discovery. CardiGraphormer, a novel combination of Graphormer and Cardinality Preserving Attention, leverages SSL to learn potent molecular representations and employs GNNs to extract molecular fingerprints, enhancing predictive performance and interpretability while reducing computation time. It excels in handling complex data like molecular structures and performs tasks associated with nodes, pairs of nodes, subgraphs, or entire graph structures. CardiGraphormer's potential a
     
-[^35]: 浅层神经网络的定量函数中心极限定理
+[^36]: 浅层神经网络的定量函数中心极限定理
 
     A Quantitative Functional Central Limit Theorem for Shallow Neural Networks. (arXiv:2306.16932v1 [math.PR] CROSS LISTED)
 
@@ -550,7 +565,7 @@
 
     We prove a Quantitative Functional Central Limit Theorem for one-hidden-layer neural networks with generic activation function. The rates of convergence that we establish depend heavily on the smoothness of the activation function, and they range from logarithmic in non-differentiable cases such as the Relu to $\sqrt{n}$ for very regular activations. Our main tools are functional versions of the Stein-Malliavin approach; in particular, we exploit heavily a quantitative functional central limit theorem which has been recently established by Bourguin and Campese (2020).
     
-[^36]: 基于马尔科夫链的常步长SGD的收敛和集中性质
+[^37]: 基于马尔科夫链的常步长SGD的收敛和集中性质
 
     Convergence and concentration properties of constant step-size SGD through Markov chains. (arXiv:2306.11497v1 [stat.ML])
 
@@ -564,7 +579,7 @@
 
     We consider the optimization of a smooth and strongly convex objective using constant step-size stochastic gradient descent (SGD) and study its properties through the prism of Markov chains. We show that, for unbiased gradient estimates with mildly controlled variance, the iteration converges to an invariant distribution in total variation distance. We also establish this convergence in Wasserstein-2 distance under a relaxed assumption on the gradient noise distribution compared to previous work. Thanks to the invariance property of the limit distribution, our analysis shows that the latter inherits sub-Gaussian or sub-exponential concentration properties when these hold true for the gradient. This allows the derivation of high-confidence bounds for the final estimate. Finally, under such conditions in the linear case, we obtain a dimension-free deviation bound for the Polyak-Ruppert average of a tail sequence. All our results are non-asymptotic and their consequences are discussed thr
     
-[^37]: 具有网络辅助信息的高维线性回归中的贝叶斯最优学习
+[^38]: 具有网络辅助信息的高维线性回归中的贝叶斯最优学习
 
     Bayes optimal learning in high-dimensional linear regression with network side information. (arXiv:2306.05679v1 [math.ST])
 
@@ -578,7 +593,7 @@
 
     Supervised learning problems with side information in the form of a network arise frequently in applications in genomics, proteomics and neuroscience. For example, in genetic applications, the network side information can accurately capture background biological information on the intricate relations among the relevant genes. In this paper, we initiate a study of Bayes optimal learning in high-dimensional linear regression with network side information. To this end, we first introduce a simple generative model (called the Reg-Graph model) which posits a joint distribution for the supervised data and the observed network through a common set of latent parameters. Next, we introduce an iterative algorithm based on Approximate Message Passing (AMP) which is provably Bayes optimal under very general conditions. In addition, we characterize the limiting mutual information between the latent signal and the data observed, and thus precisely quantify the statistical impact of the network side 
     
-[^38]: 深度宽松弛神经网络的统计优化性
+[^39]: 深度宽松弛神经网络的统计优化性
 
     Statistical Optimality of Deep Wide Neural Networks. (arXiv:2305.02657v1 [stat.ML])
 
@@ -592,7 +607,7 @@
 
     In this paper, we consider the generalization ability of deep wide feedforward ReLU neural networks defined on a bounded domain $\mathcal X \subset \mathbb R^{d}$. We first demonstrate that the generalization ability of the neural network can be fully characterized by that of the corresponding deep neural tangent kernel (NTK) regression. We then investigate on the spectral properties of the deep NTK and show that the deep NTK is positive definite on $\mathcal{X}$ and its eigenvalue decay rate is $(d+1)/d$. Thanks to the well established theories in kernel regression, we then conclude that multilayer wide neural networks trained by gradient descent with proper early stopping achieve the minimax rate, provided that the regression function lies in the reproducing kernel Hilbert space (RKHS) associated with the corresponding NTK. Finally, we illustrate that the overfitted multilayer wide neural networks can not generalize well on $\mathbb S^{d}$.
     
-[^39]: 流式数据主动计费标注
+[^40]: 流式数据主动计费标注
 
     Active Cost-aware Labeling of Streaming Data. (arXiv:2304.06808v1 [cs.LG])
 
@@ -606,7 +621,7 @@
 
     We study actively labeling streaming data, where an active learner is faced with a stream of data points and must carefully choose which of these points to label via an expensive experiment. Such problems frequently arise in applications such as healthcare and astronomy. We first study a setting when the data's inputs belong to one of $K$ discrete distributions and formalize this problem via a loss that captures the labeling cost and the prediction error. When the labeling cost is $B$, our algorithm, which chooses to label a point if the uncertainty is larger than a time and cost dependent threshold, achieves a worst-case upper bound of $O(B^{\frac{1}{3}} K^{\frac{1}{3}} T^{\frac{2}{3}})$ on the loss after $T$ rounds. We also provide a more nuanced upper bound which demonstrates that the algorithm can adapt to the arrival pattern, and achieves better performance when the arrival pattern is more favorable. We complement both upper bounds with matching lower bounds. We next study this pr
     
-[^40]: 因果依赖图
+[^41]: 因果依赖图
 
     Causal Dependence Plots. (arXiv:2303.04209v2 [cs.LG] UPDATED)
 
@@ -620,7 +635,7 @@
 
     Explaining artificial intelligence or machine learning models is increasingly important. To use such data-driven systems wisely we must understand how they interact with the world, including how they depend causally on data inputs. In this work we develop Causal Dependence Plots (CDPs) to visualize how one variable--an outcome--depends on changes in another variable--a predictor--$\textit{along with any consequent causal changes in other predictor variables}$. Crucially, CDPs differ from standard methods based on holding other predictors constant or assuming they are independent. CDPs make use of an auxiliary causal model because causal conclusions require causal assumptions. With simulations and real data experiments, we show CDPs can be combined in a modular way with methods for causal learning or sensitivity analysis. Since people often think causally about input-output dependence, CDPs can be powerful tools in the xAI or interpretable machine learning toolkit and contribute to appl
     
-[^41]: 在 exp-concave 统计学习中探索本地规范
+[^42]: 在 exp-concave 统计学习中探索本地规范
 
     Exploring Local Norms in Exp-concave Statistical Learning. (arXiv:2302.10726v2 [cs.LG] UPDATED)
 
@@ -634,7 +649,7 @@
 
     We consider the problem of stochastic convex optimization with exp-concave losses using Empirical Risk Minimization in a convex class. Answering a question raised in several prior works, we provide a $O( d / n + \log( 1 / \delta) / n )$ excess risk bound valid for a wide class of bounded exp-concave losses, where $d$ is the dimension of the convex reference set, $n$ is the sample size, and $\delta$ is the confidence level. Our result is based on a unified geometric assumption on the gradient of losses and the notion of local norms.
     
-[^42]: 仅调整归一化层的表达能力
+[^43]: 仅调整归一化层的表达能力
 
     The Expressive Power of Tuning Only the Normalization Layers. (arXiv:2302.07937v2 [cs.LG] UPDATED)
 
@@ -648,7 +663,7 @@
 
     Feature normalization transforms such as Batch and Layer-Normalization have become indispensable ingredients of state-of-the-art deep neural networks. Recent studies on fine-tuning large pretrained models indicate that just tuning the parameters of these affine transforms can achieve high accuracy for downstream tasks. These findings open the questions about the expressive power of tuning the normalization layers of frozen networks. In this work, we take the first step towards this question and show that for random ReLU networks, fine-tuning only its normalization layers can reconstruct any target network that is $O(\sqrt{\text{width}})$ times smaller. We show that this holds even for randomly sparsified networks, under sufficient overparameterization, in agreement with prior empirical work.
     
-[^43]: 维度约减与MARS
+[^44]: 维度约减与MARS
 
     Dimension Reduction and MARS. (arXiv:2302.05790v2 [stat.ME] UPDATED)
 
@@ -662,7 +677,7 @@
 
     The multivariate adaptive regression spline (MARS) is one of the popular estimation methods for nonparametric multivariate regressions. However, as MARS is based on marginal splines, to incorporate interactions of covariates, products of the marginal splines must be used, which leads to an unmanageable number of basis functions when the order of interaction is high and results in low estimation efficiency. In this paper, we improve the performance of MARS by using linear combinations of the covariates which achieve sufficient dimension reduction. The special basis functions of MARS facilitate calculation of gradients of the regression function, and estimation of the linear combinations is obtained via eigen-analysis of the outer-product of the gradients. Under some technical conditions, the asymptotic theory is established for the proposed estimation method. Numerical studies including both simulation and empirical applications show its effectiveness in dimension reduction and improvem
     
-[^44]: SOBER：离散和混合空间上高并行贝叶斯优化和贝叶斯积分
+[^45]: SOBER：离散和混合空间上高并行贝叶斯优化和贝叶斯积分
 
     SOBER: Highly Parallel Bayesian Optimization and Bayesian Quadrature over Discrete and Mixed Spaces. (arXiv:2301.11832v3 [cs.LG] UPDATED)
 
@@ -676,7 +691,7 @@
 
     Batch Bayesian optimisation and Bayesian quadrature have been shown to be sample-efficient methods of performing optimisation and quadrature where expensive-to-evaluate objective functions can be queried in parallel. However, current methods do not scale to large batch sizes -- a frequent desideratum in practice (e.g. drug discovery or simulation-based inference). We present a novel algorithm, SOBER, which permits scalable and diversified batch global optimisation and quadrature with arbitrary acquisition functions and kernels over discrete and mixed spaces. The key to our approach is to reformulate batch selection for global optimisation as a quadrature problem, which relaxes acquisition function maximisation (non-convex) to kernel recombination (convex). Bridging global optimisation and quadrature can efficiently solve both tasks by balancing the merits of exploitative Bayesian optimisation and explorative Bayesian quadrature. We show that SOBER outperforms 11 competitive baselines o
     
-[^45]: 细调神经算符结构以提高训练和泛化能力
+[^46]: 细调神经算符结构以提高训练和泛化能力
 
     Fine-tuning Neural-Operator architectures for training and generalization. (arXiv:2301.11509v2 [cs.LG] UPDATED)
 
@@ -690,7 +705,7 @@
 
     This work provides a comprehensive analysis of the generalization properties of Neural Operators (NOs) and their derived architectures. Through empirical evaluation of the test loss, analysis of the complexity-based generalization bounds, and qualitative assessments of the visualization of the loss landscape, we investigate modifications aimed at enhancing the generalization capabilities of NOs. Inspired by the success of Transformers, we propose ${\textit{s}}{\text{NO}}+\varepsilon$, which introduces a kernel integral operator in lieu of self-Attention. Our results reveal significantly improved performance across datasets and initializations, accompanied by qualitative changes in the visualization of the loss landscape. We conjecture that the layout of Transformers enables the optimization algorithm to find better minima, and stochastic depth, improve the generalization performance. As a rigorous analysis of training dynamics is one of the most prominent unsolved problems in deep lear
     
-[^46]: 案例基础神经网络：具有时间变化的高阶交互的生存分析
+[^47]: 案例基础神经网络：具有时间变化的高阶交互的生存分析
 
     Case-Base Neural Networks: survival analysis with time-varying, higher-order interactions. (arXiv:2301.06535v2 [stat.ML] UPDATED)
 
@@ -704,7 +719,7 @@
 
     Neural network-based survival methods can model data-driven covariate interactions. While these methods can provide better predictive performance than regression-based approaches, not all can model time-varying interactions and complex baseline hazards. To address this, we propose Case-Base Neural Networks (CBNNs) as a new approach that combines the case-base sampling framework with flexible neural network architectures. Using a novel sampling scheme and data augmentation to naturally account for censoring, we construct a feed-forward neural network that may take time as an input. CBNNs predict the probability of an event occurring at a given moment to estimate the hazard function. We compare the performance of CBNNs to regression and neural network-based survival methods in a simulation and three case studies using two time-dependent metrics. First, we examine performance on a simulation involving a complex baseline hazard and time-varying interactions to assess all methods, with CBNN
     
-[^47]: 通过广义随机优势统计比较分类器
+[^48]: 通过广义随机优势统计比较分类器
 
     Statistical Comparisons of Classifiers by Generalized Stochastic Dominance. (arXiv:2209.01857v2 [stat.ML] UPDATED)
 
@@ -718,7 +733,7 @@
 
     Although being a crucial question for the development of machine learning algorithms, there is still no consensus on how to compare classifiers over multiple data sets with respect to several criteria. Every comparison framework is confronted with (at least) three fundamental challenges: the multiplicity of quality criteria, the multiplicity of data sets and the randomness of the selection of data sets. In this paper, we add a fresh view to the vivid debate by adopting recent developments in decision theory. Based on so-called preference systems, our framework ranks classifiers by a generalized concept of stochastic dominance, which powerfully circumvents the cumbersome, and often even self-contradictory, reliance on aggregates. Moreover, we show that generalized stochastic dominance can be operationalized by solving easy-to-handle linear programs and moreover statistically tested employing an adapted two-sample observation-randomization test. This yields indeed a powerful framework fo
     
-[^48]: 动态排名和翻译同步
+[^49]: 动态排名和翻译同步
 
     Dynamic Ranking and Translation Synchronization. (arXiv:2207.01455v3 [math.ST] UPDATED)
 
@@ -732,7 +747,7 @@
 
     In many applications, such as sport tournaments or recommendation systems, we have at our disposal data consisting of pairwise comparisons between a set of $n$ items (or players). The objective is to use this data to infer the latent strength of each item and/or their ranking. Existing results for this problem predominantly focus on the setting consisting of a single comparison graph $G$. However, there exist scenarios (e.g., sports tournaments) where the the pairwise comparison data evolves with time. Theoretical results for this dynamic setting are relatively limited and is the focus of this paper.  We study an extension of the \emph{translation synchronization} problem, to the dynamic setting. In this setup, we are given a sequence of comparison graphs $(G_t)_{t\in \mathcal{T}}$, where $\mathcal{T} \subset [0,1]$ is a grid representing the time domain, and for each item $i$ and time $t\in \mathcal{T}$ there is an associated unknown strength parameter $z^*_{t,i}\in \mathbb{R}$. We ai
     
-[^49]: 学习简单非参数混合模型的难度的严格界限
+[^50]: 学习简单非参数混合模型的难度的严格界限
 
     Tight Bounds on the Hardness of Learning Simple Nonparametric Mixtures. (arXiv:2203.15150v3 [cs.LG] UPDATED)
 
@@ -746,7 +761,7 @@
 
     We study the problem of learning nonparametric distributions in a finite mixture, and establish tight bounds on the sample complexity for learning the component distributions in such models. Namely, we are given i.i.d. samples from a pdf $f$ where $$ f=w_1f_1+w_2f_2, \quad w_1+w_2=1, \quad w_1,w_2>0 $$ and we are interested in learning each component $f_i$. Without any assumptions on $f_i$, this problem is ill-posed. In order to identify the components $f_i$, we assume that each $f_i$ can be written as a convolution of a Gaussian and a compactly supported density $\nu_i$ with $\text{supp}(\nu_1)\cap \text{supp}(\nu_2)=\emptyset$.  Our main result shows that $(\frac{1}{\varepsilon})^{\Omega(\log\log \frac{1}{\varepsilon})}$ samples are required for estimating each $f_i$. The proof relies on a quantitative Tauberian theorem that yields a fast rate of approximation with Gaussians, which may be of independent interest. To show this is tight, we also propose an algorithm that uses $(\frac{1
     
-[^50]: 用于简单遗憾最小化的元学习
+[^51]: 用于简单遗憾最小化的元学习
 
     Meta-Learning for Simple Regret Minimization. (arXiv:2202.12888v2 [cs.LG] UPDATED)
 
@@ -760,7 +775,7 @@
 
     We develop a meta-learning framework for simple regret minimization in bandits. In this framework, a learning agent interacts with a sequence of bandit tasks, which are sampled i.i.d.\ from an unknown prior distribution, and learns its meta-parameters to perform better on future tasks. We propose the first Bayesian and frequentist meta-learning algorithms for this setting. The Bayesian algorithm has access to a prior distribution over the meta-parameters and its meta simple regret over $m$ bandit tasks with horizon $n$ is mere $\tilde{O}(m / \sqrt{n})$. On the other hand, the meta simple regret of the frequentist algorithm is $\tilde{O}(\sqrt{m} n + m/ \sqrt{n})$. While its regret is worse, the frequentist algorithm is more general because it does not need a prior distribution over the meta-parameters. It can also be analyzed in more settings. We instantiate our algorithms for several classes of bandit problems. Our algorithms are general and we complement our theory by evaluating them
     
-[^51]: 一种使用样本矩方法的非传统参数化密度估计
+[^52]: 一种使用样本矩方法的非传统参数化密度估计
 
     A Non-Classical Parameterization for Density Estimation Using Sample Moments. (arXiv:2201.04786v5 [stat.ML] UPDATED)
 
@@ -774,7 +789,7 @@
 
     Probability density estimation is a core problem of statistics and signal processing. Moment methods are an important means of density estimation, but they are generally strongly dependent on the choice of feasible functions, which severely affects the performance. In this paper, we propose a non-classical parametrization for density estimation using sample moments, which does not require the choice of such functions. The parametrization is induced by the squared Hellinger distance, and the solution of it, which is proved to exist and be unique subject to a simple prior that does not depend on data, and can be obtained by convex optimization. Statistical properties of the density estimator, together with an asymptotic error upper bound are proposed for the estimator by power moments. Applications of the proposed density estimator in signal processing tasks are given. Simulation results validate the performance of the estimator by a comparison to several prevailing methods. To the best 
     
-[^52]: 关于随机梯度下降方法的不同自适应批量大小选择策略的等价性研究
+[^53]: 关于随机梯度下降方法的不同自适应批量大小选择策略的等价性研究
 
     On the equivalence of different adaptive batch size selection strategies for stochastic gradient descent methods. (arXiv:2109.10933v2 [math.OC] UPDATED)
 
@@ -788,7 +803,7 @@
 
     In this study, we demonstrate that the norm test and inner product/orthogonality test presented in \cite{Bol18} are equivalent in terms of the convergence rates associated with Stochastic Gradient Descent (SGD) methods if $\epsilon^2=\theta^2+\nu^2$ with specific choices of $\theta$ and $\nu$. Here, $\epsilon$ controls the relative statistical error of the norm of the gradient while $\theta$ and $\nu$ control the relative statistical error of the gradient in the direction of the gradient and in the direction orthogonal to the gradient, respectively. Furthermore, we demonstrate that the inner product/orthogonality test can be as inexpensive as the norm test in the best case scenario if $\theta$ and $\nu$ are optimally selected, but the inner product/orthogonality test will never be more computationally affordable than the norm test if $\epsilon^2=\theta^2+\nu^2$. Finally, we present two stochastic optimization problems to illustrate our results.
     
-[^53]: 流形上的优化：一种辛算法的方法
+[^54]: 流形上的优化：一种辛算法的方法
 
     Optimization on manifolds: A symplectic approach. (arXiv:2107.11231v2 [cond-mat.stat-mech] UPDATED)
 
@@ -802,7 +817,7 @@
 
     Optimization tasks are crucial in statistical machine learning. Recently, there has been great interest in leveraging tools from dynamical systems to derive accelerated and robust optimization methods via suitable discretizations of continuous-time systems. However, these ideas have mostly been limited to Euclidean spaces and unconstrained settings, or to Riemannian gradient flows. In this work, we propose a dissipative extension of Dirac's theory of constrained Hamiltonian systems as a general framework for solving optimization problems over smooth manifolds, including problems with nonlinear constraints. We develop geometric/symplectic numerical integrators on manifolds that are "rate-matching," i.e., preserve the continuous-time rates of convergence. In particular, we introduce a dissipative RATTLE integrator able to achieve optimal convergence rate locally. Our class of (accelerated) algorithms are not only simple and efficient but also applicable to a broad range of contexts.
     
-[^54]: 深度强化学习中的迁移学习综述
+[^55]: 深度强化学习中的迁移学习综述
 
     Transfer Learning in Deep Reinforcement Learning: A Survey. (arXiv:2009.07888v6 [cs.LG] UPDATED)
 
@@ -816,7 +831,7 @@
 
     Reinforcement learning is a learning paradigm for solving sequential decision-making problems. Recent years have witnessed remarkable progress in reinforcement learning upon the fast development of deep neural networks. Along with the promising prospects of reinforcement learning in numerous domains such as robotics and game-playing, transfer learning has arisen to tackle various challenges faced by reinforcement learning, by transferring knowledge from external expertise to facilitate the efficiency and effectiveness of the learning process. In this survey, we systematically investigate the recent progress of transfer learning approaches in the context of deep reinforcement learning. Specifically, we provide a framework for categorizing the state-of-the-art transfer learning approaches, under which we analyze their goals, methodologies, compatible reinforcement learning backbones, and practical applications. We also draw connections between transfer learning and other relevant topics 
     
-[^55]: 生成对抗性训练器：使用生成对抗网络防御对抗扰动
+[^56]: 生成对抗性训练器：使用生成对抗网络防御对抗扰动
 
     Generative Adversarial Trainer: Defense to Adversarial Perturbations with GAN. (arXiv:1705.03387v3 [cs.LG] UPDATED)
 
