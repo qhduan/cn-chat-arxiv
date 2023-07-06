@@ -15,12 +15,13 @@
 | [^11] | [Social media use among American Indians in South Dakota: Preferences and perceptions.](http://arxiv.org/abs/2307.01404) | 本研究调查了南达科他州美洲印第安人对社交媒体的偏好和看法，结果显示Facebook、YouTube、TikTok、Instagram和Snapchat是最受欢迎的平台，大多数参与者认为COVID-19期间社交媒体的使用大幅增加，并表示负面影响较多，如仇恨言论、虚假信息和只听一种观点。 |
 | [^12] | [Adaptive Principal Component Regression with Applications to Panel Data.](http://arxiv.org/abs/2307.01357) | 本文提出了自适应主成分回归方法，并在面板数据中的应用中获得了均匀有限样本保证。该方法可以用于面板数据中的实验设计，特别是当干预方案是自适应分配的情况。 |
 | [^13] | [Nonparametric Estimation of Large Spot Volatility Matrices for High-Frequency Financial Data.](http://arxiv.org/abs/2307.01348) | 本文提出了一种非参数方法，通过结合非参数核平滑和广义收缩技术，并在噪声无数据的情况下基于均匀稀疏性假设，实现了对高频金融数据中大量资产的现货波动率矩阵的估计。同时，为高频数据受微观结构噪声污染的情况引入了局部预平均估计方法。在无噪声和有噪声情景下，推导了波动率矩阵估计器的均匀收敛速率。通过将核平滑与收缩技术相结合，也实现了对时变波动率的估计。 |
-| [^14] | [Does regional variation in wage levels identify the effects of a national minimum wage?.](http://arxiv.org/abs/2307.01284) | 本文研究了国家最低工资对就业和工资的因果效应，并发现受影响比例设计存在偏差，导致对真实因果效应的拒绝率过高。我还提出了两种诊断方法来验证这种设计，对于有效最低工资设计，Lee(1999)强调的识别假设至关重要。 |
-| [^15] | [Robust Estimation and Inference in Panels with Interactive Fixed Effects.](http://arxiv.org/abs/2210.06639) | 本文研究了具有交互固定效应的面板数据中回归系数的估计和推断问题。通过采用改进的估计器和偏倚感知置信区间，我们能够解决因素弱引起的偏倚和大小失真的问题，无论因素是否强壮，都能得到统一有效的结果。 |
-| [^16] | [Rawlsian Assignments.](http://arxiv.org/abs/2207.02930) | 本文针对转移不允许时的不可分割物品分配问题，引入了Rawlsian Assignments的概念，并且证明了存在一种独特的Rawlsian Assignments可以在保持有效和匿名性的同时满足平等主义的要求。 |
-| [^17] | [New possibilities in identification of binary choice models with fixed effects.](http://arxiv.org/abs/2206.10475) | 本文研究了带有固定效应的二选一模型的识别问题，提出了一种符号饱和条件并证明其足以实现模型的识别。同时，我们还提供了一个测试来检验符号饱和条件，并可使用现有的最大分数估计算法进行实施。 |
-| [^18] | [Assessing Omitted Variable Bias when the Controls are Endogenous.](http://arxiv.org/abs/2206.02303) | 该论文提出了一种新的敏感性分析方法，避免了传统方法中常常被认为是强假设和不可行的假设，允许省略的变量与包含的控制变量相关，并允许研究人员校准灵敏度。 |
-| [^19] | [Nature-nurture interplay in educational attainment.](http://arxiv.org/abs/2012.05021) | 本文研究了性质（基因资质）和培养（环境）在教育成就中的相互作用，发现具有较高基因资质的人在成为家中长子或长女时获益更多。 |
+| [^14] | [A maximal inequality for local empirical processes under weak dependence.](http://arxiv.org/abs/2307.01328) | 本文介绍了在弱相关条件下针对局部经验过程的极大不等式，该不等式可以统一地控制估计误差，适用于不断增加复杂性的函数类，并且在核密度估计中达到了与独立同分布设置相同的尖锐一致带宽率。 |
+| [^15] | [Does regional variation in wage levels identify the effects of a national minimum wage?.](http://arxiv.org/abs/2307.01284) | 本文研究了国家最低工资对就业和工资的因果效应，并发现受影响比例设计存在偏差，导致对真实因果效应的拒绝率过高。我还提出了两种诊断方法来验证这种设计，对于有效最低工资设计，Lee(1999)强调的识别假设至关重要。 |
+| [^16] | [Robust Estimation and Inference in Panels with Interactive Fixed Effects.](http://arxiv.org/abs/2210.06639) | 本文研究了具有交互固定效应的面板数据中回归系数的估计和推断问题。通过采用改进的估计器和偏倚感知置信区间，我们能够解决因素弱引起的偏倚和大小失真的问题，无论因素是否强壮，都能得到统一有效的结果。 |
+| [^17] | [Rawlsian Assignments.](http://arxiv.org/abs/2207.02930) | 本文针对转移不允许时的不可分割物品分配问题，引入了Rawlsian Assignments的概念，并且证明了存在一种独特的Rawlsian Assignments可以在保持有效和匿名性的同时满足平等主义的要求。 |
+| [^18] | [New possibilities in identification of binary choice models with fixed effects.](http://arxiv.org/abs/2206.10475) | 本文研究了带有固定效应的二选一模型的识别问题，提出了一种符号饱和条件并证明其足以实现模型的识别。同时，我们还提供了一个测试来检验符号饱和条件，并可使用现有的最大分数估计算法进行实施。 |
+| [^19] | [Assessing Omitted Variable Bias when the Controls are Endogenous.](http://arxiv.org/abs/2206.02303) | 该论文提出了一种新的敏感性分析方法，避免了传统方法中常常被认为是强假设和不可行的假设，允许省略的变量与包含的控制变量相关，并允许研究人员校准灵敏度。 |
+| [^20] | [Nature-nurture interplay in educational attainment.](http://arxiv.org/abs/2012.05021) | 本文研究了性质（基因资质）和培养（环境）在教育成就中的相互作用，发现具有较高基因资质的人在成为家中长子或长女时获益更多。 |
 
 # 详细
 
@@ -206,7 +207,21 @@
 
     In this paper, we consider estimating spot/instantaneous volatility matrices of high-frequency data collected for a large number of assets. We first combine classic nonparametric kernel-based smoothing with a generalised shrinkage technique in the matrix estimation for noise-free data under a uniform sparsity assumption, a natural extension of the approximate sparsity commonly used in the literature. The uniform consistency property is derived for the proposed spot volatility matrix estimator with convergence rates comparable to the optimal minimax one. For the high-frequency data contaminated by microstructure noise, we introduce a localised pre-averaging estimation method that reduces the effective magnitude of the noise. We then use the estimation tool developed in the noise-free scenario, and derive the uniform convergence rates for the developed spot volatility matrix estimator. We further combine the kernel smoothing with the shrinkage technique to estimate the time-varying volat
     
-[^14]: 区域工资水平的变化能否确定国家最低工资的影响？
+[^14]: 弱相关条件下局部经验过程的极大不等式
+
+    A maximal inequality for local empirical processes under weak dependence. (arXiv:2307.01328v1 [econ.EM])
+
+    [http://arxiv.org/abs/2307.01328](http://arxiv.org/abs/2307.01328)
+
+    本文介绍了在弱相关条件下针对局部经验过程的极大不等式，该不等式可以统一地控制估计误差，适用于不断增加复杂性的函数类，并且在核密度估计中达到了与独立同分布设置相同的尖锐一致带宽率。
+
+    
+
+    我们引入了一个针对强混合数据下局部经验过程的极大不等式。局部经验过程被定义为（局部）平均值$\frac{1}{nh}\sum_{i=1}^n \mathbf{1}\{x - h \leq X_i \leq x+h\}f(Z_i)$，其中$f$属于一个函数类，$x \in \mathbb{R}$，而$h > 0$是一个带宽。我们的非渐进边界可以统一地控制函数类、评估点$x$和带宽$h$上的估计误差。它们也足够一般，可以适应随着$n$增长而增加复杂性的函数类。作为应用，我们将我们的边界应用于在一致覆盖数中呈多项式衰减的函数类。当应用于核密度估计的问题时，我们的边界揭示出，在弱相关和指数衰减情况下，这些估计量实现了与独立同分布设置中由\cite{Einmahl2005}得出的尖锐一致带宽率相同（差一个对数因子）。
+
+    We introduce a maximal inequality for a local empirical process under strongly mixing data. Local empirical processes are defined as the (local) averages $\frac{1}{nh}\sum_{i=1}^n \mathbf{1}\{x - h \leq X_i \leq x+h\}f(Z_i)$, where $f$ belongs to a class of functions, $x \in \mathbb{R}$ and $h > 0$ is a bandwidth. Our nonasymptotic bounds control estimation error uniformly over the function class, evaluation point $x$ and bandwidth $h$. They are also general enough to accomodate function classes whose complexity increases with $n$. As an application, we apply our bounds to function classes that exhibit polynomial decay in their uniform covering numbers. When specialized to the problem of kernel density estimation, our bounds reveal that, under weak dependence with exponential decay, these estimators achieve the same (up to a logarithmic factor) sharp uniform-in-bandwidth rates derived in the iid setting by \cite{Einmahl2005}.
+    
+[^15]: 区域工资水平的变化能否确定国家最低工资的影响？
 
     Does regional variation in wage levels identify the effects of a national minimum wage?. (arXiv:2307.01284v1 [econ.EM])
 
@@ -220,7 +235,7 @@
 
     This paper examines the identification assumptions underlying estimators of the causal effects of national minimum wages on employment and wages, such as the "fraction affected" and "effective minimum wage" designs. Specifically, I conduct a series of simulation exercises to investigate whether these assumptions hold in the context of particular economic models used as data-generating processes. I find that, in many cases, the fraction affected design exhibits small biases that lead to inflated rejection rates of the true causal effect. These biases can be larger in the presence of either trends in the dispersion of wages within regions, equilibrium responses to the minimum wage, or violations of the parallel trends assumption. I propose two diagnostic exercises to complement the standard test for differential pre-trends commonly used to validate this design. For the effective minimum wage design, I show that while the identification assumptions emphasized by Lee (1999) are crucial, th
     
-[^15]: 具有交互固定效应的面板数据中的鲁棒估计和推断
+[^16]: 具有交互固定效应的面板数据中的鲁棒估计和推断
 
     Robust Estimation and Inference in Panels with Interactive Fixed Effects. (arXiv:2210.06639v2 [econ.EM] UPDATED)
 
@@ -234,7 +249,7 @@
 
     We consider estimation and inference for a regression coefficient in panels with interactive fixed effects (i.e., with a factor structure). We show that previously developed estimators and confidence intervals (CIs) might be heavily biased and size-distorted when some of the factors are weak. We propose estimators with improved rates of convergence and bias-aware CIs that are uniformly valid regardless of whether the factors are strong or not. Our approach applies the theory of minimax linear estimation to form a debiased estimate using a nuclear norm bound on the error of an initial estimate of the interactive fixed effects. We use the obtained estimate to construct a bias-aware CI taking into account the remaining bias due to weak factors. In Monte Carlo experiments, we find a substantial improvement over conventional approaches when factors are weak, with little cost to estimation error when factors are strong.
     
-[^16]: Rawlsian Assignments（论文编号：arXiv:2207.02930v2 [econ.TH]，已更新）
+[^17]: Rawlsian Assignments（论文编号：arXiv:2207.02930v2 [econ.TH]，已更新）
 
     Rawlsian Assignments. (arXiv:2207.02930v2 [econ.TH] UPDATED)
 
@@ -248,7 +263,7 @@
 
     We study the assignment of indivisible objects to individuals when transfers are not allowed. Previous literature has mainly focused on efficiency (from ex-ante and ex-post perspectives), and individually fair assignments. Consequently, egalitarian concerns have been overlooked. We are inspired by the assignment of apartments in housing cooperatives where families regard the egalitarianism of the assignments as a first-order requirement. In particular, they want to avoid assignments where some families get their most preferred apartment, while others get options ranked very low in their preferences. Based on Rawls' idea of fairness, we introduce the notion of Rawlsian assignments. We prove that there always exists a unique Rawlsian assignment, which is efficient, and satisfies anonymity. We illustrate our analysis with preference data from housing cooperatives. Our results show that the Rawlsian assignment substantially improves, from an egalitarian perspective, both the probabilistic 
     
-[^17]: 二选一模型中固定效应识别的新可能性
+[^18]: 二选一模型中固定效应识别的新可能性
 
     New possibilities in identification of binary choice models with fixed effects. (arXiv:2206.10475v4 [econ.EM] UPDATED)
 
@@ -262,7 +277,7 @@
 
     We study the identification of binary choice models with fixed effects. We provide a condition called sign saturation and show that this condition is sufficient for the identification of the model. In particular, we can guarantee identification even with bounded regressors. We also show that without this condition, the model is not identified unless the error distribution belongs to a small class. The same sign saturation condition is also essential for identifying the sign of treatment effects. A test is provided to check the sign saturation condition and can be implemented using existing algorithms for the maximum score estimator.
     
-[^18]: 当控制变量存在内生性时，评估省略变量偏误
+[^19]: 当控制变量存在内生性时，评估省略变量偏误
 
     Assessing Omitted Variable Bias when the Controls are Endogenous. (arXiv:2206.02303v3 [econ.EM] UPDATED)
 
@@ -276,7 +291,7 @@
 
     Omitted variables are one of the most important threats to the identification of causal effects. Several widely used approaches, including Oster (2019), assess the impact of omitted variables on empirical conclusions by comparing measures of selection on observables with measures of selection on unobservables. These approaches either (1) assume the omitted variables are uncorrelated with the included controls, an assumption that is often considered strong and implausible, or (2) use a method called residualization to avoid this assumption. In our first contribution, we develop a framework for objectively comparing sensitivity parameters. We use this framework to formally prove that the residualization method generally leads to incorrect conclusions about robustness. In our second contribution, we then provide a new approach to sensitivity analysis that avoids this critique, allows the omitted variables to be correlated with the included controls, and lets researchers calibrate sensitiv
     
-[^19]: 教育成就中的性质与培养相互作用
+[^20]: 教育成就中的性质与培养相互作用
 
     Nature-nurture interplay in educational attainment. (arXiv:2012.05021v3 [econ.GN] UPDATED)
 

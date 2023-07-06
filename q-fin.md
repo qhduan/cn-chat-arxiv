@@ -6,20 +6,21 @@
 | [^2] | [Policy Expectation Counts? The Impact of Delayed Retirement Announcement on Urban Households Savings Rates.](http://arxiv.org/abs/2307.02455) | 延迟退休公告对中国家庭的储蓄率产生了显著的影响，特别是对高收入家庭。这种影响与人们对未来养老金收入的负面预期有关。 |
 | [^3] | [Online Learning of Order Flow and Market Impact with Bayesian Change-Point Detection Methods.](http://arxiv.org/abs/2307.02375) | 本文提出了使用贝叶斯变点检测方法识别实时订单流变化的方法，并通过开发一种新的BOCPD方法，可以更准确地预测订单流和市场影响。实证结果表明，我们的模型在样本外预测性能上优于现有模型。 |
 | [^4] | [Robust Hedging GANs.](http://arxiv.org/abs/2307.02310) | 本文介绍了一种健壮对冲生成对抗网络的扩展方法，通过对抗性方法处理数据生成过程中的不确定性。 |
-| [^5] | [Noise reduction for functional time series.](http://arxiv.org/abs/2307.02154) | 该论文提出了一种新的方法来在曲线时间序列中减少噪音，该方法基于功能主成分分析的框架。通过分离序列相关动态部分和噪音，该方法给出了底层去噪曲线的估计，并且在实验中表现出了优越性能。 |
-| [^6] | [On the Well-posedness of Hamilton-Jacobi-Bellman Equations of the Equilibrium Type.](http://arxiv.org/abs/2307.01986) | 本文研究了一类非局部抛物型偏微分方程的良定性，这与时不变的随机控制问题中平衡策略和相关价值函数的表征有关。通过连续性方法和线性化方法，证明了非局部非线性情况的局部和全局良定性。 |
-| [^7] | [Over-the-Counter Market Making via Reinforcement Learning.](http://arxiv.org/abs/2307.01816) | 本文提出了一个创新的强化学习方法来解决场外市场做市问题，并通过数值分析展示了在不同时间和库存水平下收益分布和买卖价差的最优策略。 |
-| [^8] | [Market Making of Options via Reinforcement Learning.](http://arxiv.org/abs/2307.01814) | 本研究提出了一种通过结合随机策略和强化学习技术的方法来进行期权市场做市。当市场订单的到达与价差呈线性反比时，最优策略为正态分布。 |
-| [^9] | [Asymptotics for the Generalized Autoregressive Conditional Duration Model.](http://arxiv.org/abs/2307.01779) | 本文通过引入持续时间的随机数量和有限均值的要求，对广义自回归条件持续时间模型的渐近性质进行了分析。 |
-| [^10] | [MOPO-LSI: A User Guide.](http://arxiv.org/abs/2307.01719) | MOPO-LSI是一款开源的多目标投资组合优化库，为可持续投资提供用户指南，并介绍了版本1.0的问题设置、工作流程和超参数。 |
-| [^11] | [A Scalable Reinforcement Learning-based System Using On-Chain Data for Cryptocurrency Portfolio Management.](http://arxiv.org/abs/2307.01599) | 提出了一种名为CryptoRLPM的基于强化学习的系统，利用链上数据进行加密货币投资组合管理，背测结果显示其在三个投资组合上的表现优于所有基准。 |
-| [^12] | [Emissions and Energy Impacts of the Inflation Reduction Act.](http://arxiv.org/abs/2307.01443) | 通胀减缓法案（IRA）的研究显示，该法案的关键条款可能使到2035年经济的排放量在2005年基础上减少43-48%。 |
-| [^13] | [Social media use among American Indians in South Dakota: Preferences and perceptions.](http://arxiv.org/abs/2307.01404) | 本研究调查了南达科他州美洲印第安人对社交媒体的偏好和看法，结果显示Facebook、YouTube、TikTok、Instagram和Snapchat是最受欢迎的平台，大多数参与者认为COVID-19期间社交媒体的使用大幅增加，并表示负面影响较多，如仇恨言论、虚假信息和只听一种观点。 |
-| [^14] | [On the Guyon-Lekeufack Volatility Model.](http://arxiv.org/abs/2307.01319) | 本文研究了Guyon-Lekeufack波动性模型，证明了该模型在现实参数下有唯一的强解，并研究了所得波动性过程的正性。 |
-| [^15] | [Continuous-Time q-learning for McKean-Vlasov Control Problems.](http://arxiv.org/abs/2306.16208) | 本文研究了连续时间q-learning在熵正则化强化学习框架下用于McKean-Vlasov控制问题，并揭示了两种不同的q函数的存在及其积分表示。 |
-| [^16] | [Understanding Model Complexity for temporal tabular and multi-variate time series, case study with Numerai data science tournament.](http://arxiv.org/abs/2303.07925) | 本文采用 Numerai 数据科学竞赛的数据，探究了多变量时间序列建模中不同特征工程和降维方法的应用；提出了一种新的集成方法，用于高维时间序列建模，该方法在通用性、鲁棒性和效率上优于一些深度学习模型。 |
-| [^17] | [Experimental observations of fractal landscape dynamics in a dense emulsion.](http://arxiv.org/abs/2210.13667) | 本研究通过分析密集乳化液中的油滴轨迹数据，展示了高维分形景观的几何特征可以以无模型的方式进行可靠量化，并揭示这种几何结构驱动了油滴的复杂随机运动。 |
-| [^18] | [Nature-nurture interplay in educational attainment.](http://arxiv.org/abs/2012.05021) | 本文研究了性质（基因资质）和培养（环境）在教育成就中的相互作用，发现具有较高基因资质的人在成为家中长子或长女时获益更多。 |
+| [^5] | [Non-Concave Utility Maximization with Transaction Costs.](http://arxiv.org/abs/2307.02178) | 本文研究了具有非凹终值效用和交易成本的有限时间段内的投资组合选择问题，提出了一种对此问题的适当的理论描述，并发现引入交易成本可以防止投资组合过度杠杆化，并使大量的空头持仓在股票市场上成为最优决策。 |
+| [^6] | [Noise reduction for functional time series.](http://arxiv.org/abs/2307.02154) | 该论文提出了一种新的方法来在曲线时间序列中减少噪音，该方法基于功能主成分分析的框架。通过分离序列相关动态部分和噪音，该方法给出了底层去噪曲线的估计，并且在实验中表现出了优越性能。 |
+| [^7] | [On the Well-posedness of Hamilton-Jacobi-Bellman Equations of the Equilibrium Type.](http://arxiv.org/abs/2307.01986) | 本文研究了一类非局部抛物型偏微分方程的良定性，这与时不变的随机控制问题中平衡策略和相关价值函数的表征有关。通过连续性方法和线性化方法，证明了非局部非线性情况的局部和全局良定性。 |
+| [^8] | [Over-the-Counter Market Making via Reinforcement Learning.](http://arxiv.org/abs/2307.01816) | 本文提出了一个创新的强化学习方法来解决场外市场做市问题，并通过数值分析展示了在不同时间和库存水平下收益分布和买卖价差的最优策略。 |
+| [^9] | [Market Making of Options via Reinforcement Learning.](http://arxiv.org/abs/2307.01814) | 本研究提出了一种通过结合随机策略和强化学习技术的方法来进行期权市场做市。当市场订单的到达与价差呈线性反比时，最优策略为正态分布。 |
+| [^10] | [Asymptotics for the Generalized Autoregressive Conditional Duration Model.](http://arxiv.org/abs/2307.01779) | 本文通过引入持续时间的随机数量和有限均值的要求，对广义自回归条件持续时间模型的渐近性质进行了分析。 |
+| [^11] | [MOPO-LSI: A User Guide.](http://arxiv.org/abs/2307.01719) | MOPO-LSI是一款开源的多目标投资组合优化库，为可持续投资提供用户指南，并介绍了版本1.0的问题设置、工作流程和超参数。 |
+| [^12] | [A Scalable Reinforcement Learning-based System Using On-Chain Data for Cryptocurrency Portfolio Management.](http://arxiv.org/abs/2307.01599) | 提出了一种名为CryptoRLPM的基于强化学习的系统，利用链上数据进行加密货币投资组合管理，背测结果显示其在三个投资组合上的表现优于所有基准。 |
+| [^13] | [Emissions and Energy Impacts of the Inflation Reduction Act.](http://arxiv.org/abs/2307.01443) | 通胀减缓法案（IRA）的研究显示，该法案的关键条款可能使到2035年经济的排放量在2005年基础上减少43-48%。 |
+| [^14] | [Social media use among American Indians in South Dakota: Preferences and perceptions.](http://arxiv.org/abs/2307.01404) | 本研究调查了南达科他州美洲印第安人对社交媒体的偏好和看法，结果显示Facebook、YouTube、TikTok、Instagram和Snapchat是最受欢迎的平台，大多数参与者认为COVID-19期间社交媒体的使用大幅增加，并表示负面影响较多，如仇恨言论、虚假信息和只听一种观点。 |
+| [^15] | [On the Guyon-Lekeufack Volatility Model.](http://arxiv.org/abs/2307.01319) | 本文研究了Guyon-Lekeufack波动性模型，证明了该模型在现实参数下有唯一的强解，并研究了所得波动性过程的正性。 |
+| [^16] | [Continuous-Time q-learning for McKean-Vlasov Control Problems.](http://arxiv.org/abs/2306.16208) | 本文研究了连续时间q-learning在熵正则化强化学习框架下用于McKean-Vlasov控制问题，并揭示了两种不同的q函数的存在及其积分表示。 |
+| [^17] | [Understanding Model Complexity for temporal tabular and multi-variate time series, case study with Numerai data science tournament.](http://arxiv.org/abs/2303.07925) | 本文采用 Numerai 数据科学竞赛的数据，探究了多变量时间序列建模中不同特征工程和降维方法的应用；提出了一种新的集成方法，用于高维时间序列建模，该方法在通用性、鲁棒性和效率上优于一些深度学习模型。 |
+| [^18] | [Experimental observations of fractal landscape dynamics in a dense emulsion.](http://arxiv.org/abs/2210.13667) | 本研究通过分析密集乳化液中的油滴轨迹数据，展示了高维分形景观的几何特征可以以无模型的方式进行可靠量化，并揭示这种几何结构驱动了油滴的复杂随机运动。 |
+| [^19] | [Nature-nurture interplay in educational attainment.](http://arxiv.org/abs/2012.05021) | 本文研究了性质（基因资质）和培养（环境）在教育成就中的相互作用，发现具有较高基因资质的人在成为家中长子或长女时获益更多。 |
 
 # 详细
 
@@ -79,7 +80,21 @@
 
     The availability of deep hedging has opened new horizons for solving hedging problems under a large variety of realistic market conditions. At the same time, any model - be it a traditional stochastic model or a market generator is at best an approximation of market reality, prone to model-misspecification and estimation errors. This raises the question, how to furnish a modelling setup with tools that can address the risk of discrepancy between anticipated distribution and market reality, in an automated way. Automated robustification is currently attracting increased attention in numerous investment problems, but it is a delicate task due to its imminent implications on risk management. Hence, it is beyond doubt that more activity can be anticipated on this topic to converge towards a consensus on best practices.  This paper presents a natural extension of the original deep hedging framework to address uncertainty in the data generating process via an adversarial approach inspired 
     
-[^5]: 功能时序噪音减少的方法
+[^5]: 具有交易成本的非凹效用最大化
+
+    Non-Concave Utility Maximization with Transaction Costs. (arXiv:2307.02178v1 [q-fin.MF])
+
+    [http://arxiv.org/abs/2307.02178](http://arxiv.org/abs/2307.02178)
+
+    本文研究了具有非凹终值效用和交易成本的有限时间段内的投资组合选择问题，提出了一种对此问题的适当的理论描述，并发现引入交易成本可以防止投资组合过度杠杆化，并使大量的空头持仓在股票市场上成为最优决策。
+
+    
+
+    本文研究了具有非凹终值效用和比例交易成本的有限时间段内的投资组合选择问题。终值的常用凹化原理在此处不再有效，我们建立了对这个问题的适当的理论描述。我们首先给出了价值函数的渐近终值行为，这意味着任何接近到期的交易只为效用提供了边际贡献。在此之后，通过一个将我们的渐近终值条件合并的新定义的粘性解，我们建立了该问题的理论基础。通过数值分析，我们发现将交易成本引入非凹效用最大化问题可以防止投资组合过度杠杆化，并使大量的空头持仓在股票市场上成为最优决策，即使存在正的风险溢价和对称的交易成本。
+
+    This paper studies a finite-horizon portfolio selection problem with non-concave terminal utility and proportional transaction costs. The commonly used concavification principle for terminal value is no longer valid here, and we establish a proper theoretical characterization of this problem. We first give the asymptotic terminal behavior of the value function, which implies any transaction close to maturity only provides a marginal contribution to the utility. After that, the theoretical foundation is established in terms of a novel definition of the viscosity solution incorporating our asymptotic terminal condition. Via numerical analyses, we find that the introduction of transaction costs into non-concave utility maximization problems can prevent the portfolio from unbounded leverage and make a large short position in stock optimal despite a positive risk premium and symmetric transaction costs.
+    
+[^6]: 功能时序噪音减少的方法
 
     Noise reduction for functional time series. (arXiv:2307.02154v1 [stat.ME])
 
@@ -93,7 +108,7 @@
 
     A novel method for noise reduction in the setting of curve time series with error contamination is proposed, based on extending the framework of functional principal component analysis (FPCA). We employ the underlying, finite-dimensional dynamics of the functional time series to separate the serially dependent dynamical part of the observed curves from the noise. Upon identifying the subspaces of the signal and idiosyncratic components, we construct a projection of the observed curve time series along the noise subspace, resulting in an estimate of the underlying denoised curves. This projection is optimal in the sense that it minimizes the mean integrated squared error. By applying our method to similated and real data, we show the denoising estimator is consistent and outperforms existing denoising techniques. Furthermore, we show it can be used as a pre-processing step to improve forecasting.
     
-[^6]: 关于平衡型哈密尔顿-雅可比-贝尔曼方程的良定性
+[^7]: 关于平衡型哈密尔顿-雅可比-贝尔曼方程的良定性
 
     On the Well-posedness of Hamilton-Jacobi-Bellman Equations of the Equilibrium Type. (arXiv:2307.01986v1 [math.AP])
 
@@ -107,7 +122,7 @@
 
     This paper studies the well-posedness of a class of nonlocal parabolic partial differential equations (PDEs), or equivalently equilibrium Hamilton-Jacobi-Bellman equations, which has a strong tie with the characterization of the equilibrium strategies and the associated value functions for time-inconsistent stochastic control problems. Specifically, we consider nonlocality in both time and space, which allows for modelling of the stochastic control problems with initial-time-and-state dependent objective functionals. We leverage the method of continuity to show the global well-posedness within our proposed Banach space with our established Schauder prior estimate for the linearized nonlocal PDE. Then, we adopt a linearization method and Banach's fixed point arguments to show the local well-posedness of the nonlocal fully nonlinear case, while the global well-posedness is attainable provided that a very sharp a-priori estimate is available. On top of the well-posedness results, we also 
     
-[^7]: 通过强化学习进行场外市场做市
+[^8]: 通过强化学习进行场外市场做市
 
     Over-the-Counter Market Making via Reinforcement Learning. (arXiv:2307.01816v1 [q-fin.TR])
 
@@ -121,7 +136,7 @@
 
     The over-the-counter (OTC) market is characterized by a unique feature that allows market makers to adjust bid-ask spreads based on order size. However, this flexibility introduces complexity, transforming the market-making problem into a high-dimensional stochastic control problem that presents significant challenges. To address this, this paper proposes an innovative solution utilizing reinforcement learning techniques to tackle the OTC market-making problem. By assuming a linear inverse relationship between market order arrival intensity and bid-ask spreads, we demonstrate the optimal policy for bid-ask spreads follows a Gaussian distribution. We apply two reinforcement learning algorithms to conduct a numerical analysis, revealing the resulting return distribution and bid-ask spreads under different time and inventory levels.
     
-[^8]: 通过强化学习进行期权市场做市
+[^9]: 通过强化学习进行期权市场做市
 
     Market Making of Options via Reinforcement Learning. (arXiv:2307.01814v1 [q-fin.TR])
 
@@ -135,7 +150,7 @@
 
     Market making of options with different maturities and strikes is a challenging problem due to its high dimensional nature. In this paper, we propose a novel approach that combines a stochastic policy and reinforcement learning-inspired techniques to determine the optimal policy for posting bid-ask spreads for an options market maker who trades options with different maturities and strikes. When the arrival of market orders is linearly inverse to the spreads, the optimal policy is normally distributed.
     
-[^9]: 广义自回归条件持续时间模型的渐近性质
+[^10]: 广义自回归条件持续时间模型的渐近性质
 
     Asymptotics for the Generalized Autoregressive Conditional Duration Model. (arXiv:2307.01779v1 [econ.EM])
 
@@ -149,7 +164,7 @@
 
     Engle and Russell (1998, Econometrica, 66:1127--1162) apply results from the GARCH literature to prove consistency and asymptotic normality of the (exponential) QMLE for the generalized autoregressive conditional duration (ACD) model, the so-called ACD(1,1), under the assumption of strict stationarity and ergodicity. The GARCH results, however, do not account for the fact that the number of durations over a given observation period is random. Thus, in contrast with Engle and Russell (1998), we show that strict stationarity and ergodicity alone are not sufficient for consistency and asymptotic normality, and provide additional sufficient conditions to account for the random number of durations. In particular, we argue that the durations need to satisfy the stronger requirement that they have finite mean.
     
-[^10]: MOPO-LSI：用户指南
+[^11]: MOPO-LSI：用户指南
 
     MOPO-LSI: A User Guide. (arXiv:2307.01719v1 [q-fin.PM])
 
@@ -163,7 +178,7 @@
 
     MOPO-LSI is an open-source Multi-Objective Portfolio Optimization Library for Sustainable Investments. This document provides a user guide for MOPO-LSI version 1.0, including problem setup, workflow and the hyper-parameters in configurations.
     
-[^11]: 一种利用链上数据进行加密货币投资组合管理的可扩展强化学习系统
+[^12]: 一种利用链上数据进行加密货币投资组合管理的可扩展强化学习系统
 
     A Scalable Reinforcement Learning-based System Using On-Chain Data for Cryptocurrency Portfolio Management. (arXiv:2307.01599v1 [q-fin.PM])
 
@@ -177,7 +192,7 @@
 
     On-chain data (metrics) of blockchain networks, akin to company fundamentals, provide crucial and comprehensive insights into the networks. Despite their informative nature, on-chain data have not been utilized in reinforcement learning (RL)-based systems for cryptocurrency (crypto) portfolio management (PM). An intriguing subject is the extent to which the utilization of on-chain data can enhance an RL-based system's return performance compared to baselines. Therefore, in this study, we propose CryptoRLPM, a novel RL-based system incorporating on-chain data for end-to-end crypto PM. CryptoRLPM consists of five units, spanning from information comprehension to trading order execution. In CryptoRLPM, the on-chain data are tested and specified for each crypto to solve the issue of ineffectiveness of metrics. Moreover, the scalable nature of CryptoRLPM allows changes in the portfolios' cryptos at any time. Backtesting results on three portfolios indicate that CryptoRLPM outperforms all th
     
-[^12]: 通胀减缓法案的排放和能源影响
+[^13]: 通胀减缓法案的排放和能源影响
 
     Emissions and Energy Impacts of the Inflation Reduction Act. (arXiv:2307.01443v1 [physics.soc-ph])
 
@@ -191,7 +206,7 @@
 
     If goals set under the Paris Agreement are met, the world may hold warming well below 2 C; however, parties are not on track to deliver these commitments, increasing focus on policy implementation to close the gap between ambition and action. Recently, the US government passed its most prominent piece of climate legislation to date, the Inflation Reduction Act of 2022 (IRA), designed to invest in a wide range of programs that, among other provisions, incentivize clean energy and carbon management, encourage electrification and efficiency measures, reduce methane emissions, promote domestic supply chains, and address environmental justice concerns. IRA's scope and complexity make modeling important to understand impacts on emissions and energy systems. We leverage results from nine independent, state-of-the-art models to examine potential implications of key IRA provisions, showing economy wide emissions reductions between 43-48% below 2005 by 2035.
     
-[^13]: 南达科他州美洲印第安人的社交媒体使用：偏好和看法
+[^14]: 南达科他州美洲印第安人的社交媒体使用：偏好和看法
 
     Social media use among American Indians in South Dakota: Preferences and perceptions. (arXiv:2307.01404v1 [econ.GN])
 
@@ -205,7 +220,7 @@
 
     Social media use data is widely being used in health, psychology, and marketing research to analyze human behavior. However, we have very limited knowledge on social media use among American Indians. In this context, this study was designed to assess preferences and perceptions of social media use among American Indians during COVID-19. We collected data from American Indians in South Dakota using online survey. Results show that Facebook, YouTube, TikTok, Instagram and Snapchat are the most preferred social media platforms. Most of the participants reported that the use of social media increased tremendously during COVID-19 and had perceptions of more negative effects than positive effects. Hate/harassment/extremism, misinformation/made up news, and people getting one point of view were the top reasons for negative effects.
     
-[^14]: 关于Guyon-Lekeufack波动性模型的研究
+[^15]: 关于Guyon-Lekeufack波动性模型的研究
 
     On the Guyon-Lekeufack Volatility Model. (arXiv:2307.01319v1 [q-fin.PR])
 
@@ -219,7 +234,7 @@
 
     Guyon and Lekeufack recently proposed a path-dependent volatility model and documented its excellent performance in fitting market data and capturing stylized facts. The instantaneous volatility is modeled as a linear combination of two processes, one is an integral of weighted past price returns and the other is the square-root of an integral of weighted past squared volatility. Each of the weightings is built using two exponential kernels reflecting long and short memory. Mathematically, the model is a coupled system of four stochastic differential equations. Our main result is the wellposedness of this system: the model has a unique strong (non-explosive) solution for realistic parameter values. We also study the positivity of the resulting volatility process.
     
-[^15]: 连续时间q-learning用于McKean-Vlasov控制问题
+[^16]: 连续时间q-learning用于McKean-Vlasov控制问题
 
     Continuous-Time q-learning for McKean-Vlasov Control Problems. (arXiv:2306.16208v1 [cs.LG])
 
@@ -233,7 +248,7 @@
 
     This paper studies the q-learning, recently coined as the continuous-time counterpart of Q-learning by Jia and Zhou (2022c), for continuous time Mckean-Vlasov control problems in the setting of entropy-regularized reinforcement learning. In contrast to the single agent's control problem in Jia and Zhou (2022c), the mean-field interaction of agents render the definition of q-function more subtle, for which we reveal that two distinct q-functions naturally arise: (i) the integrated q-function (denoted by $q$) as the first-order approximation of the integrated Q-function introduced in Gu, Guo, Wei and Xu (2023) that can be learnt by a weak martingale condition involving test policies; and (ii) the essential q-function (denoted by $q_e$) that is employed in the policy improvement iterations. We show that two q-functions are related via an integral representation under all test policies. Based on the weak martingale condition of the integrated q-function and our proposed searching method of
     
-[^16]: 通过 Numerai 数据科学竞赛案例，理解时间表格和多变量时间序列的模型复杂度
+[^17]: 通过 Numerai 数据科学竞赛案例，理解时间表格和多变量时间序列的模型复杂度
 
     Understanding Model Complexity for temporal tabular and multi-variate time series, case study with Numerai data science tournament. (arXiv:2303.07925v1 [cs.LG])
 
@@ -247,7 +262,7 @@
 
     In this paper, we explore the use of different feature engineering and dimensionality reduction methods in multi-variate time-series modelling. Using a feature-target cross correlation time series dataset created from Numerai tournament, we demonstrate under over-parameterised regime, both the performance and predictions from different feature engineering methods converge to the same equilibrium, which can be characterised by the reproducing kernel Hilbert space. We suggest a new Ensemble method, which combines different random non-linear transforms followed by ridge regression for modelling high dimensional time-series. Compared to some commonly used deep learning models for sequence modelling, such as LSTM and transformers, our method is more robust (lower model variance over different random seeds and less sensitive to the choice of architecture) and more efficient. An additional advantage of our method is model simplicity as there is no need to use sophisticated deep learning frame
     
-[^17]: 密集乳化液中分形景观动力学的实验观察
+[^18]: 密集乳化液中分形景观动力学的实验观察
 
     Experimental observations of fractal landscape dynamics in a dense emulsion. (arXiv:2210.13667v2 [cond-mat.soft] UPDATED)
 
@@ -261,7 +276,7 @@
 
     Many soft and biological materials display so-called 'soft glassy' dynamics; their constituents undergo anomalous random motions and complex cooperative rearrangements. A recent simulation model of one soft glassy material, a coarsening foam, suggested that the random motions of its bubbles are due to the system configuration moving over a fractal energy landscape in high-dimensional space. Here we show that the salient geometrical features of such high-dimensional fractal landscapes can be explored and reliably quantified, using empirical trajectory data from many degrees of freedom, in a model-free manner. For a mayonnaise-like dense emulsion, analysis of the observed trajectories of oil droplets quantitatively reproduces the high-dimensional fractal geometry of the configuration path and its associated energy minima generated using a computational model. That geometry in turn drives the droplets' complex random motion observed in real space. Our results indicate that experimental st
     
-[^18]: 教育成就中的性质与培养相互作用
+[^19]: 教育成就中的性质与培养相互作用
 
     Nature-nurture interplay in educational attainment. (arXiv:2012.05021v3 [econ.GN] UPDATED)
 
