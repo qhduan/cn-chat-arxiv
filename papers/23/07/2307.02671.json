@@ -1,0 +1,12 @@
+{
+    "title": "AI4OPT: AI Institute for Advances in Optimization. (arXiv:2307.02671v1 [math.OC])",
+    "abstract": "This article is a short introduction to AI4OPT, the NSF AI Institute for Advances in Optimization. AI4OPT fuses AI and Optimization, inspired by end-use cases in supply chains, energy systems, chip design and manufacturing, and sustainable food systems. AI4OPT also applies its \"teaching the teachers\" philosophy to provide longitudinal educational pathways in AI for engineering.",
+    "link": "http://arxiv.org/abs/2307.02671",
+    "context": "Title: AI4OPT: AI Institute for Advances in Optimization. (arXiv:2307.02671v1 [math.OC])\nAbstract: This article is a short introduction to AI4OPT, the NSF AI Institute for Advances in Optimization. AI4OPT fuses AI and Optimization, inspired by end-use cases in supply chains, energy systems, chip design and manufacturing, and sustainable food systems. AI4OPT also applies its \"teaching the teachers\" philosophy to provide longitudinal educational pathways in AI for engineering.",
+    "path": "papers/23/07/2307.02671.json",
+    "total_tokens": 635,
+    "translated_title": "AI4OPT: 优化进展的人工智能研究所",
+    "translated_abstract": "本文是对AI4OPT的简要介绍，AI4OPT是美国国家科学基金会（NSF）关于优化进展的人工智能研究所。AI4OPT将人工智能与优化相结合，受到供应链、能源系统、芯片设计与制造以及可持续食品系统等终端应用案例的启发。AI4OPT还将其“教师教学”理念运用于为工程领域提供人工智能的长期教育路径。",
+    "tldr": "AI4OPT是一个融合人工智能和优化的研究所，致力于解决供应链、能源系统、芯片设计与制造以及可持续食品系统等领域的问题，并提供工程教育中的人工智能教育路径。",
+    "en_tdlr": "AI4OPT is an institute that combines artificial intelligence and optimization to address challenges in supply chains, energy systems, chip design and manufacturing, and sustainable food systems. It also offers longitudinal educational pathways in AI for engineering."
+}

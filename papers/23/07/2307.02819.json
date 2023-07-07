@@ -1,0 +1,12 @@
+{
+    "title": "Trends in Machine Learning and Electroencephalogram (EEG): A Review for Undergraduate Researchers. (arXiv:2307.02819v1 [cs.HC])",
+    "abstract": "This paper presents a systematic literature review on Brain-Computer Interfaces (BCIs) in the context of Machine Learning. Our focus is on Electroencephalography (EEG) research, highlighting the latest trends as of 2023. The objective is to provide undergraduate researchers with an accessible overview of the BCI field, covering tasks, algorithms, and datasets. By synthesizing recent findings, our aim is to offer a fundamental understanding of BCI research, identifying promising avenues for future investigations.",
+    "link": "http://arxiv.org/abs/2307.02819",
+    "context": "Title: Trends in Machine Learning and Electroencephalogram (EEG): A Review for Undergraduate Researchers. (arXiv:2307.02819v1 [cs.HC])\nAbstract: This paper presents a systematic literature review on Brain-Computer Interfaces (BCIs) in the context of Machine Learning. Our focus is on Electroencephalography (EEG) research, highlighting the latest trends as of 2023. The objective is to provide undergraduate researchers with an accessible overview of the BCI field, covering tasks, algorithms, and datasets. By synthesizing recent findings, our aim is to offer a fundamental understanding of BCI research, identifying promising avenues for future investigations.",
+    "path": "papers/23/07/2307.02819.json",
+    "total_tokens": 805,
+    "translated_title": "机器学习和脑电图（EEG）的发展趋势：本科研究生的综述",
+    "translated_abstract": "本文对机器学习背景下的脑机接口（BCIs）进行了系统的文献综述。我们关注脑电图（EEG）研究，强调最新的趋势（截至2023年）。目标是为本科研究生提供对BCI领域的可获取概述，涵盖任务、算法和数据集。通过综合最新研究发现，我们旨在提供对BCI研究的基本理解，识别未来研究的有前途的方向。",
+    "tldr": "这篇论文是一篇关于脑机接口（BCIs）在机器学习背景下的系统文献综述，重点介绍了脑电图（EEG）研究的最新趋势，并旨在为本科研究生提供了解BCI领域的概述，包括任务、算法和数据集，通过综合最新研究发现，提供对BCI研究的基本理解，并找出未来研究的有前途的方向。",
+    "en_tdlr": "This paper is a systematic literature review on Brain-Computer Interfaces (BCIs) in the context of Machine Learning, with a focus on Electroencephalography (EEG) research and providing an accessible overview of the BCI field for undergraduate researchers, covering tasks, algorithms, and datasets. The aim is to offer a fundamental understanding of BCI research and identify promising avenues for future investigations."
+}

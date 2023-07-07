@@ -1,0 +1,11 @@
+{
+    "title": "Named Entity Inclusion in Abstractive Text Summarization. (arXiv:2307.02570v1 [cs.CL])",
+    "abstract": "We address the named entity omission - the drawback of many current abstractive text summarizers. We suggest a custom pretraining objective to enhance the model's attention on the named entities in a text. At first, the named entity recognition model RoBERTa is trained to determine named entities in the text. After that, this model is used to mask named entities in the text and the BART model is trained to reconstruct them. Next, the BART model is fine-tuned on the summarization task. Our experiments showed that this pretraining approach improves named entity inclusion precision and recall metrics.",
+    "link": "http://arxiv.org/abs/2307.02570",
+    "context": "Title: Named Entity Inclusion in Abstractive Text Summarization. (arXiv:2307.02570v1 [cs.CL])\nAbstract: We address the named entity omission - the drawback of many current abstractive text summarizers. We suggest a custom pretraining objective to enhance the model's attention on the named entities in a text. At first, the named entity recognition model RoBERTa is trained to determine named entities in the text. After that, this model is used to mask named entities in the text and the BART model is trained to reconstruct them. Next, the BART model is fine-tuned on the summarization task. Our experiments showed that this pretraining approach improves named entity inclusion precision and recall metrics.",
+    "path": "papers/23/07/2307.02570.json",
+    "total_tokens": 725,
+    "translated_title": "抽象文本摘要中的命名实体包含",
+    "translated_abstract": "我们解决了许多当前抽象文本摘要器的缺点，即命名实体的遗漏问题。我们建议采用定制的预训练目标来增强模型对文本中的命名实体的注意力。首先，使用命名实体识别模型RoBERTa来确定文本中的命名实体。然后，使用该模型对文本中的命名实体进行屏蔽，再使用BART模型对其进行重建。接下来，将BART模型在摘要任务上进行微调。实验证明，这种预训练方法改善了命名实体包含的精确度和召回率指标。",
+    "tldr": "该论文提出了一种解决抽象文本摘要中命名实体遗漏问题的方法，通过使用定制的预训练目标和模型训练策略，改善了命名实体的包含情况，提高了摘要的准确性和召回率。"
+}

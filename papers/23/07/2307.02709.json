@@ -1,0 +1,12 @@
+{
+    "title": "Validation of the Practicability of Logical Assessment Formula for Evaluations with Inaccurate Ground-Truth Labels. (arXiv:2307.02709v1 [cs.AI])",
+    "abstract": "Logical assessment formula (LAF) is a new theory proposed for evaluations with inaccurate ground-truth labels (IAGTLs) to assess the predictive models for various artificial intelligence applications. However, the practicability of LAF for evaluations with IAGTLs has not yet been validated in real-world practice. In this paper, to address this issue, we applied LAF to tumour segmentation for breast cancer (TSfBC) in medical histopathology whole slide image analysis (MHWSIA). Experimental results and analysis show the validity of LAF for evaluations with IAGTLs in the case of TSfBC and reflect the potentials of LAF applied to MHWSIA.",
+    "link": "http://arxiv.org/abs/2307.02709",
+    "context": "Title: Validation of the Practicability of Logical Assessment Formula for Evaluations with Inaccurate Ground-Truth Labels. (arXiv:2307.02709v1 [cs.AI])\nAbstract: Logical assessment formula (LAF) is a new theory proposed for evaluations with inaccurate ground-truth labels (IAGTLs) to assess the predictive models for various artificial intelligence applications. However, the practicability of LAF for evaluations with IAGTLs has not yet been validated in real-world practice. In this paper, to address this issue, we applied LAF to tumour segmentation for breast cancer (TSfBC) in medical histopathology whole slide image analysis (MHWSIA). Experimental results and analysis show the validity of LAF for evaluations with IAGTLs in the case of TSfBC and reflect the potentials of LAF applied to MHWSIA.",
+    "path": "papers/23/07/2307.02709.json",
+    "total_tokens": 834,
+    "translated_title": "通过逻辑评估公式验证对不准确地真实标签的评估的实用性",
+    "translated_abstract": "逻辑评估公式（LAF）是一种用于评估具有不准确地真实标签（IAGTLs）的预测模型的新理论，用于各种人工智能应用。然而，LAF在实际应用中对于具有IAGTLs的评估的实用性尚未得到验证。在本文中，为了解决这个问题，我们将LAF应用于医学组织病理学全切片图像分析中的乳腺癌肿瘤分割（TSfBC）。实验结果和分析显示LAF在TSfBC中对于具有IAGTLs的评估的有效性，并反映了将LAF应用于MHWSIA的潜力。",
+    "tldr": "本文验证了逻辑评估公式在具有不准确的真实标签的评估中的实用性，通过将其应用于乳腺癌肿瘤分割在医学组织病理学全切片图像分析中的情况进行实验，结果表明LAF在这种情况下具有有效性，并展示了LAF在MHWSIA中的潜力。",
+    "en_tdlr": "This paper validates the practicability of the logical assessment formula (LAF) for evaluations with inaccurate ground-truth labels (IAGTLs), by applying it to tumor segmentation for breast cancer in medical histopathology whole slide image analysis. The experimental results demonstrate the effectiveness of LAF in this context and highlight its potential in MHWSIA."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "A Robust Characterization of Nash Equilibrium. (arXiv:2307.03079v1 [econ.TH])",
+    "abstract": "We give a robust characterization of Nash equilibrium by postulating coherent behavior across varying games: Nash equilibrium is the only solution concept that satisfies consequentialism, consistency, and rationality. As a consequence, every equilibrium refinement violates at least one of these properties. We moreover show that every solution concept that approximately satisfies consequentialism, consistency, and rationality returns approximate Nash equilibria. The latter approximation can be made arbitrarily good by increasing the approximation of the axioms. This result extends to various natural subclasses of games such as two-player zero-sum games, potential games, and graphical games.",
+    "link": "http://arxiv.org/abs/2307.03079",
+    "context": "Title: A Robust Characterization of Nash Equilibrium. (arXiv:2307.03079v1 [econ.TH])\nAbstract: We give a robust characterization of Nash equilibrium by postulating coherent behavior across varying games: Nash equilibrium is the only solution concept that satisfies consequentialism, consistency, and rationality. As a consequence, every equilibrium refinement violates at least one of these properties. We moreover show that every solution concept that approximately satisfies consequentialism, consistency, and rationality returns approximate Nash equilibria. The latter approximation can be made arbitrarily good by increasing the approximation of the axioms. This result extends to various natural subclasses of games such as two-player zero-sum games, potential games, and graphical games.",
+    "path": "papers/23/07/2307.03079.json",
+    "total_tokens": 770,
+    "translated_title": "一种鲁棒的纳什均衡特征化方法",
+    "translated_abstract": "我们通过假设在不同游戏中具有一致的行为来给出纳什均衡的鲁棒特征化方法：纳什均衡是唯一满足结果主义、一致性和合理性的解概念。因此，每个均衡改进方法都至少违反其中一种性质。我们还证明，每个近似满足结果主义、一致性和合理性的解概念都会产生近似的纳什均衡。通过增加公理的逼近程度，后者的逼近程度可以任意提高。该结果适用于两人零和游戏、势函数游戏和图形游戏等各种自然子类的游戏。",
+    "tldr": "本论文通过假设在不同游戏中具有一致的行为，给出了一种鲁棒的纳什均衡特征化方法，并证明了纳什均衡是唯一满足结果主义、一致性和合理性的解概念。该结果适用于各种自然子类的游戏。",
+    "en_tdlr": "This paper provides a robust characterization of Nash equilibrium by postulating coherent behavior across varying games and shows that Nash equilibrium is the only solution concept that satisfies consequentialism, consistency, and rationality. This result extends to various natural subclasses of games."
+}

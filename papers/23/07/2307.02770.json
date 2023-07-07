@@ -1,0 +1,12 @@
+{
+    "title": "Censored Sampling of Diffusion Models Using 3 Minutes of Human Feedback. (arXiv:2307.02770v1 [cs.CV])",
+    "abstract": "Diffusion models have recently shown remarkable success in high-quality image generation. Sometimes, however, a pre-trained diffusion model exhibits partial misalignment in the sense that the model can generate good images, but it sometimes outputs undesirable images. If so, we simply need to prevent the generation of the bad images, and we call this task censoring. In this work, we present censored generation with a pre-trained diffusion model using a reward model trained on minimal human feedback. We show that censoring can be accomplished with extreme human feedback efficiency and that labels generated with a mere few minutes of human feedback are sufficient. Code available at: https://github.com/tetrzim/diffusion-human-feedback.",
+    "link": "http://arxiv.org/abs/2307.02770",
+    "context": "Title: Censored Sampling of Diffusion Models Using 3 Minutes of Human Feedback. (arXiv:2307.02770v1 [cs.CV])\nAbstract: Diffusion models have recently shown remarkable success in high-quality image generation. Sometimes, however, a pre-trained diffusion model exhibits partial misalignment in the sense that the model can generate good images, but it sometimes outputs undesirable images. If so, we simply need to prevent the generation of the bad images, and we call this task censoring. In this work, we present censored generation with a pre-trained diffusion model using a reward model trained on minimal human feedback. We show that censoring can be accomplished with extreme human feedback efficiency and that labels generated with a mere few minutes of human feedback are sufficient. Code available at: https://github.com/tetrzim/diffusion-human-feedback.",
+    "path": "papers/23/07/2307.02770.json",
+    "total_tokens": 742,
+    "translated_title": "通过3分钟的人类反馈进行扩散模型的有限采样",
+    "translated_abstract": "近期，扩散模型在高质量图像生成方面取得了显著成果。然而，有时预训练的扩散模型在某种程度上存在错误对齐的问题，即模型可以生成好的图像，但有时会生成不理想的图像。如果是这样，我们只需要阻止生成糟糕的图像，我们称之为审查任务。在这项工作中，我们提出了使用经过最小人类反馈训练的奖励模型对预训练扩散模型进行审查生成。我们展示了通过极高的人类反馈效率可以实现审查，并且仅几分钟的人类反馈生成的标签就足够了。",
+    "tldr": "该论文研究了通过3分钟的人类反馈来扩散模型的有限采样，并表明仅几分钟的人类反馈生成的标签就足够实现图像的审查任务。",
+    "en_tdlr": "This paper investigates the censored sampling of diffusion models using 3 minutes of human feedback, and demonstrates that labels generated with a mere few minutes of human feedback are sufficient for the task of image censoring."
+}

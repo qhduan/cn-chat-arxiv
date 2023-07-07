@@ -1,0 +1,11 @@
+{
+    "title": "PLIERS: a Popularity-Based Recommender System for Content Dissemination in Online Social Networks. (arXiv:2307.02865v1 [cs.IR])",
+    "abstract": "In this paper, we propose a novel tag-based recommender system called PLIERS, which relies on the assumption that users are mainly interested in items and tags with similar popularity to those they already own. PLIERS is aimed at reaching a good tradeoff between algorithmic complexity and the level of personalization of recommended items. To evaluate PLIERS, we performed a set of experiments on real OSN datasets, demonstrating that it outperforms state-of-the-art solutions in terms of personalization, relevance, and novelty of recommendations.",
+    "link": "http://arxiv.org/abs/2307.02865",
+    "context": "Title: PLIERS: a Popularity-Based Recommender System for Content Dissemination in Online Social Networks. (arXiv:2307.02865v1 [cs.IR])\nAbstract: In this paper, we propose a novel tag-based recommender system called PLIERS, which relies on the assumption that users are mainly interested in items and tags with similar popularity to those they already own. PLIERS is aimed at reaching a good tradeoff between algorithmic complexity and the level of personalization of recommended items. To evaluate PLIERS, we performed a set of experiments on real OSN datasets, demonstrating that it outperforms state-of-the-art solutions in terms of personalization, relevance, and novelty of recommendations.",
+    "path": "papers/23/07/2307.02865.json",
+    "total_tokens": 676,
+    "translated_title": "PLIERS: 基于流行度的在线社交网络内容传播推荐系统",
+    "translated_abstract": "本文提出了一种新颖的基于标签的推荐系统PLIERS，该系统假设用户主要对与他们已拥有的物品和标签具有相似流行度的物品和标签感兴趣。PLIERS旨在在算法复杂性和推荐物品的个性化水平之间取得良好的平衡。通过在真实的在线社交网络数据集上进行一系列实验，我们验证了PLIERS在个性化、相关性和推荐的新颖性方面优于现有解决方案。",
+    "tldr": "PLIERS是一种基于流行度的在线社交网络内容传播推荐系统，通过在算法复杂性和推荐物品的个性化水平之间取得平衡，提供了更好的个性化、相关性和推荐的新颖性。"
+}

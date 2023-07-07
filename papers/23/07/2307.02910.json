@@ -1,0 +1,12 @@
+{
+    "title": "Agentivit\\`a e telicit\\`a in GilBERTo: implicazioni cognitive. (arXiv:2307.02910v1 [cs.CL])",
+    "abstract": "The goal of this study is to investigate whether a Transformer-based neural language model infers lexical semantics and use this information for the completion of morphosyntactic patterns. The semantic properties considered are telicity (also combined with definiteness) and agentivity. Both act at the interface between semantics and morphosyntax: they are semantically determined and syntactically encoded. The tasks were submitted to both the computational model and a group of Italian native speakers. The comparison between the two groups of data allows us to investigate to what extent neural language models capture significant aspects of human semantic competence.",
+    "link": "http://arxiv.org/abs/2307.02910",
+    "context": "Title: Agentivit\\`a e telicit\\`a in GilBERTo: implicazioni cognitive. (arXiv:2307.02910v1 [cs.CL])\nAbstract: The goal of this study is to investigate whether a Transformer-based neural language model infers lexical semantics and use this information for the completion of morphosyntactic patterns. The semantic properties considered are telicity (also combined with definiteness) and agentivity. Both act at the interface between semantics and morphosyntax: they are semantically determined and syntactically encoded. The tasks were submitted to both the computational model and a group of Italian native speakers. The comparison between the two groups of data allows us to investigate to what extent neural language models capture significant aspects of human semantic competence.",
+    "path": "papers/23/07/2307.02910.json",
+    "total_tokens": 724,
+    "translated_title": "GilBERTo中的主动性和幸福感：对认知的影响",
+    "translated_abstract": "本研究旨在探究基于Transformer的神经语言模型是否能够推断词汇语义并利用此信息完成形态句法模式。考虑的语义属性是延续性（也与确定性相结合）和主动性。二者均在语义和形态句法之间起作用：它们在语义上确定，在句法上编码。这些任务同时交给了计算模型和一组意大利本土讲者。比较这两组数据可以让我们探究神经语言模型在多大程度上捕捉到人类语义能力的重要方面。",
+    "tldr": "本研究使用基于Transformer的神经语言模型，并通过与意大利本土讲者的对比实验，探究了模型是否能推断词汇语义和完成形态句法模式。研究结果表明模型在捕捉人类语义能力方面取得了一定的成果。",
+    "en_tdlr": "This study investigates whether a Transformer-based neural language model can infer lexical semantics and complete morphosyntactic patterns. The results show that the model has achieved some success in capturing human semantic competence."
+}

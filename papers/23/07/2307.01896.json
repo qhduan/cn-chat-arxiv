@@ -1,0 +1,11 @@
+{
+    "title": "Transformed Protoform Reconstruction. (arXiv:2307.01896v2 [cs.CL] UPDATED)",
+    "abstract": "Protoform reconstruction is the task of inferring what morphemes or words appeared like in the ancestral languages of a set of daughter languages. Meloni et al. (2021) achieved the state-of-the-art on Latin protoform reconstruction with an RNN-based encoder-decoder with attention model. We update their model with the state-of-the-art seq2seq model: the Transformer. Our model outperforms their model on a suite of different metrics on two different datasets: their Romance data of 8,000 cognates spanning 5 languages and a Chinese dataset (Hou 2004) of 800+ cognates spanning 39 varieties. We also probe our model for potential phylogenetic signal contained in the model. Our code is publicly available at https://github.com/cmu-llab/acl-2023.",
+    "link": "http://arxiv.org/abs/2307.01896",
+    "context": "Title: Transformed Protoform Reconstruction. (arXiv:2307.01896v2 [cs.CL] UPDATED)\nAbstract: Protoform reconstruction is the task of inferring what morphemes or words appeared like in the ancestral languages of a set of daughter languages. Meloni et al. (2021) achieved the state-of-the-art on Latin protoform reconstruction with an RNN-based encoder-decoder with attention model. We update their model with the state-of-the-art seq2seq model: the Transformer. Our model outperforms their model on a suite of different metrics on two different datasets: their Romance data of 8,000 cognates spanning 5 languages and a Chinese dataset (Hou 2004) of 800+ cognates spanning 39 varieties. We also probe our model for potential phylogenetic signal contained in the model. Our code is publicly available at https://github.com/cmu-llab/acl-2023.",
+    "path": "papers/23/07/2307.01896.json",
+    "total_tokens": 809,
+    "translated_title": "转换的原型重构",
+    "translated_abstract": "原型重构是推断一组子语言中所出现的语素或词汇在祖先语中的情况的任务。Meloni等人（2021）通过采用基于RNN的编码器-解码器与注意力模型，在拉丁语原型重构方面取得了最新进展。我们更新了他们的模型，采用了先进的序列到序列模型：Transformer。我们的模型在两个不同的数据集上，即覆盖了5种语言的8000个同源词的罗曼语数据集和涵盖了39种语言变体的800+同源词的中国数据集（Hou 2004），在一系列不同的度量指标上胜过了他们的模型。我们还对我们的模型进行了潜在的系统发育信号探索。我们的代码可在https://github.com/cmu-llab/acl-2023公开获取。",
+    "tldr": "该论文介绍了一个采用Transformer的转换的原型重构模型，相比于基于RNN的编码器-解码器模型，在拉丁语和汉语两个数据集上取得了更好的性能，并探索了模型中潜在的系统发育信号。"
+}

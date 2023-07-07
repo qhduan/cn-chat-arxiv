@@ -1,0 +1,11 @@
+{
+    "title": "Kernels, Data & Physics. (arXiv:2307.02693v1 [cs.LG])",
+    "abstract": "Lecture notes from the course given by Professor Julia Kempe at the summer school \"Statistical physics of Machine Learning\" in Les Houches. The notes discuss the so-called NTK approach to problems in machine learning, which consists of gaining an understanding of generally unsolvable problems by finding a tractable kernel formulation. The notes are mainly focused on practical applications such as data distillation and adversarial robustness, examples of inductive bias are also discussed.",
+    "link": "http://arxiv.org/abs/2307.02693",
+    "context": "Title: Kernels, Data & Physics. (arXiv:2307.02693v1 [cs.LG])\nAbstract: Lecture notes from the course given by Professor Julia Kempe at the summer school \"Statistical physics of Machine Learning\" in Les Houches. The notes discuss the so-called NTK approach to problems in machine learning, which consists of gaining an understanding of generally unsolvable problems by finding a tractable kernel formulation. The notes are mainly focused on practical applications such as data distillation and adversarial robustness, examples of inductive bias are also discussed.",
+    "path": "papers/23/07/2307.02693.json",
+    "total_tokens": 625,
+    "translated_title": "内核，数据和物理。",
+    "translated_abstract": "这是Julia Kempe教授在Les Houches举办的夏季学校“机器学习的统计物理”中所讲授的课程笔记。笔记讨论了所谓的NTK方法，该方法通过找到可处理的内核表达形式来理解一般无法解决的问题。笔记主要关注实际应用，如数据精炼和对抗鲁棒性，也讨论了归纳偏差的示例。",
+    "tldr": "该论文主要介绍了NTK方法在机器学习问题中的应用，通过找到可处理的内核表达形式来解决一般无法解决的问题，重点讨论了数据精炼和对抗鲁棒性等实际应用。"
+}

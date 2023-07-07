@@ -1,0 +1,11 @@
+{
+    "title": "A change of variable formula with applications to multi-dimensional optimal stopping problems. (arXiv:2104.05835v4 [math.PR] UPDATED)",
+    "abstract": "We derive a change of variable formula for $C^1$ functions $U:\\R_+\\times\\R^m\\to\\R$ whose second order spatial derivatives may explode and not be integrable in the neighbourhood of a surface $b:\\R_+\\times\\R^{m-1}\\to \\R$ that splits the state space into two sets $\\cC$ and $\\cD$. The formula is tailored for applications in problems of optimal stopping where it is generally very hard to control the second order derivatives of the value function near the optimal stopping boundary. Differently to other existing papers on similar topics we only require that the surface $b$ be monotonic in each variable and we formally obtain the same expression as the classical It\\^o's formula.",
+    "link": "http://arxiv.org/abs/2104.05835",
+    "context": "Title: A change of variable formula with applications to multi-dimensional optimal stopping problems. (arXiv:2104.05835v4 [math.PR] UPDATED)\nAbstract: We derive a change of variable formula for $C^1$ functions $U:\\R_+\\times\\R^m\\to\\R$ whose second order spatial derivatives may explode and not be integrable in the neighbourhood of a surface $b:\\R_+\\times\\R^{m-1}\\to \\R$ that splits the state space into two sets $\\cC$ and $\\cD$. The formula is tailored for applications in problems of optimal stopping where it is generally very hard to control the second order derivatives of the value function near the optimal stopping boundary. Differently to other existing papers on similar topics we only require that the surface $b$ be monotonic in each variable and we formally obtain the same expression as the classical It\\^o's formula.",
+    "path": "papers/21/04/2104.05835.json",
+    "total_tokens": 732,
+    "translated_title": "一个变量变换公式及其在多维最优停时问题中的应用",
+    "translated_abstract": "我们推导了一个适用于$C^1$函数$U:\\R_+\\times\\R^m\\to\\R$的变量变换公式，该函数的二阶空间导数可能会发散且在表面$b:\\R_+\\times\\R^{m-1}\\to \\R$的附近可能不可积。这个公式适用于最优停时问题，其中很难控制价值函数在最优停时边界附近的二阶导数。与其他类似主题的现有论文不同，我们只要求表面$b$在每个变量上是单调的，并且我们形式上得到了与经典的It\\^o公式相同的表达式。",
+    "tldr": "本文提出了一个适用于多维最优停时问题的变量变换公式，可以处理价值函数在最优停时边界附近的二阶导数发散和不可积的情况。"
+}

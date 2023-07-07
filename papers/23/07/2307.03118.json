@@ -1,0 +1,12 @@
+{
+    "title": "Quantum Solutions to the Privacy vs. Utility Tradeoff. (arXiv:2307.03118v1 [quant-ph])",
+    "abstract": "In this work, we propose a novel architecture (and several variants thereof) based on quantum cryptographic primitives with provable privacy and security guarantees regarding membership inference attacks on generative models. Our architecture can be used on top of any existing classical or quantum generative models. We argue that the use of quantum gates associated with unitary operators provides inherent advantages compared to standard Differential Privacy based techniques for establishing guaranteed security from all polynomial-time adversaries.",
+    "link": "http://arxiv.org/abs/2307.03118",
+    "context": "Title: Quantum Solutions to the Privacy vs. Utility Tradeoff. (arXiv:2307.03118v1 [quant-ph])\nAbstract: In this work, we propose a novel architecture (and several variants thereof) based on quantum cryptographic primitives with provable privacy and security guarantees regarding membership inference attacks on generative models. Our architecture can be used on top of any existing classical or quantum generative models. We argue that the use of quantum gates associated with unitary operators provides inherent advantages compared to standard Differential Privacy based techniques for establishing guaranteed security from all polynomial-time adversaries.",
+    "path": "papers/23/07/2307.03118.json",
+    "total_tokens": 599,
+    "translated_title": "量子解决隐私与效用权衡问题",
+    "translated_abstract": "在这项工作中，我们提出了一种基于量子密码学原理的新型架构（以及其几个变体），能够针对生成模型的成员推断攻击提供可证明的隐私和安全保证。我们的架构可以在任何现有的经典或量子生成模型之上使用。我们认为，与基于标准差分隐私技术的方法相比，使用与单位算子相关的量子门提供了与所有多项式时间对手的有保证的安全性的固有优势。",
+    "tldr": "提出了一种基于量子密码学原理的新型架构，用于保护生成模型免受成员推断攻击，具有可证明的隐私和安全保证。",
+    "en_tdlr": "A novel architecture based on quantum cryptographic primitives is proposed to protect generative models from membership inference attacks, with provable privacy and security guarantees."
+}

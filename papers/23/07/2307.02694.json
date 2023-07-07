@@ -1,0 +1,12 @@
+{
+    "title": "Loss Functions and Metrics in Deep Learning. A Review. (arXiv:2307.02694v1 [cs.LG])",
+    "abstract": "One of the essential components of deep learning is the choice of the loss function and performance metrics used to train and evaluate models. This paper reviews the most prevalent loss functions and performance measurements in deep learning. We examine the benefits and limits of each technique and illustrate their application to various deep-learning problems. Our review aims to give a comprehensive picture of the different loss functions and performance indicators used in the most common deep learning tasks and help practitioners choose the best method for their specific task.",
+    "link": "http://arxiv.org/abs/2307.02694",
+    "context": "Title: Loss Functions and Metrics in Deep Learning. A Review. (arXiv:2307.02694v1 [cs.LG])\nAbstract: One of the essential components of deep learning is the choice of the loss function and performance metrics used to train and evaluate models. This paper reviews the most prevalent loss functions and performance measurements in deep learning. We examine the benefits and limits of each technique and illustrate their application to various deep-learning problems. Our review aims to give a comprehensive picture of the different loss functions and performance indicators used in the most common deep learning tasks and help practitioners choose the best method for their specific task.",
+    "path": "papers/23/07/2307.02694.json",
+    "total_tokens": 625,
+    "translated_title": "深度学习中的损失函数和度量方法：一项评论",
+    "translated_abstract": "深度学习的一个重要组成部分是选择用于训练和评估模型的损失函数和性能度量。本文回顾了深度学习中最常见的损失函数和性能测量方法。我们探讨了每种技术的优势和局限性，并举例说明它们在各种深度学习问题上的应用。我们的评论旨在全面了解最常见的深度学习任务中使用的不同损失函数和性能指标，并帮助从业者选择最适合其特定任务的方法。",
+    "tldr": "本文回顾了深度学习中最常见的损失函数和性能测量方法，旨在帮助从业者选择最适合其特定任务的方法。",
+    "en_tdlr": "This paper reviews the most prevalent loss functions and performance measurements in deep learning, aiming to assist practitioners in choosing the most suitable method for their specific task."
+}

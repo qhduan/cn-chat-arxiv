@@ -1,0 +1,11 @@
+{
+    "title": "Anomaly detection in image or latent space of patch-based auto-encoders for industrial image analysis. (arXiv:2307.02495v1 [cs.CV])",
+    "abstract": "We study several methods for detecting anomalies in color images, constructed on patch-based auto-encoders. Wecompare the performance of three types of methods based, first, on the error between the original image and its reconstruction,second, on the support estimation of the normal image distribution in the latent space, and third, on the error between the originalimage and a restored version of the reconstructed image. These methods are evaluated on the industrial image database MVTecADand compared to two competitive state-of-the-art methods.",
+    "link": "http://arxiv.org/abs/2307.02495",
+    "context": "Title: Anomaly detection in image or latent space of patch-based auto-encoders for industrial image analysis. (arXiv:2307.02495v1 [cs.CV])\nAbstract: We study several methods for detecting anomalies in color images, constructed on patch-based auto-encoders. Wecompare the performance of three types of methods based, first, on the error between the original image and its reconstruction,second, on the support estimation of the normal image distribution in the latent space, and third, on the error between the originalimage and a restored version of the reconstructed image. These methods are evaluated on the industrial image database MVTecADand compared to two competitive state-of-the-art methods.",
+    "path": "papers/23/07/2307.02495.json",
+    "total_tokens": 661,
+    "translated_title": "基于基于补丁自编码器的图像或潜在空间的异常检测在工业图像分析中的应用",
+    "translated_abstract": "我们研究了基于补丁自编码器构建的颜色图像中检测异常的几种方法。我们比较了基于原始图像和其重构之间的误差、基于潜在空间中正常图像分布的支持估计以及基于原始图像与重建图像的恢复版本之间的误差这三种方法的性能。这些方法在工业图像数据库MVTecAD上进行评估，并与两种具有竞争力的现有方法进行了比较。",
+    "tldr": "该论文研究了使用基于补丁自编码器构建的图像或潜在空间的多种方法来检测工业图像中的异常，并与其他两种方法进行了比较和评估。"
+}

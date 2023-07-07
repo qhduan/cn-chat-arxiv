@@ -1,0 +1,12 @@
+{
+    "title": "Computer says \"No\": The Case Against Empathetic Conversational AI. (arXiv:2212.10983v2 [cs.CL] UPDATED)",
+    "abstract": "Emotions are an integral part of human cognition and they guide not only our understanding of the world but also our actions within it. As such, whether we soothe or flame an emotion is not inconsequential. Recent work in conversational AI has focused on responding empathetically to users, validating and soothing their emotions without a real basis. This AI-aided emotional regulation can have negative consequences for users and society, tending towards a one-noted happiness defined as only the absence of \"negative\" emotions. We argue that we must carefully consider whether and how to respond to users' emotions.",
+    "link": "http://arxiv.org/abs/2212.10983",
+    "context": "Title: Computer says \"No\": The Case Against Empathetic Conversational AI. (arXiv:2212.10983v2 [cs.CL] UPDATED)\nAbstract: Emotions are an integral part of human cognition and they guide not only our understanding of the world but also our actions within it. As such, whether we soothe or flame an emotion is not inconsequential. Recent work in conversational AI has focused on responding empathetically to users, validating and soothing their emotions without a real basis. This AI-aided emotional regulation can have negative consequences for users and society, tending towards a one-noted happiness defined as only the absence of \"negative\" emotions. We argue that we must carefully consider whether and how to respond to users' emotions.",
+    "path": "papers/22/12/2212.10983.json",
+    "total_tokens": 724,
+    "translated_title": "计算机说“不”: 反对有同理心的对话型人工智能的案例",
+    "translated_abstract": "情绪是人类认知的重要组成部分，它们不仅指导着我们对世界的理解，也指导着我们在其中的行动。因此，我们对情绪的抚慰或激怒并非无关紧要。近期在对话型人工智能领域的研究一直致力于对用户做出有同理心的回应，验证和抚慰他们的情绪，即使没有真实的基础。这种基于人工智能的情绪调节可能对用户和社会产生负面影响，趋向于将幸福定义为仅仅是“负面”情绪的缺失。我们认为我们必须谨慎考虑是否以及如何回应用户的情绪。",
+    "tldr": "论文提出反对对话型人工智能过度同理心回应用户情绪的观点，强调需谨慎考虑对用户情绪的回应方式。",
+    "en_tdlr": "This paper argues against the excessive empathetic response of conversational AI to users' emotions and emphasizes the need to carefully consider how to respond to users' emotions."
+}

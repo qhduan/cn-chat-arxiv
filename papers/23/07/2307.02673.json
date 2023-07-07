@@ -1,0 +1,11 @@
+{
+    "title": "Panel Data Nowcasting: The Case of Price-Earnings Ratios. (arXiv:2307.02673v1 [econ.EM])",
+    "abstract": "The paper uses structured machine learning regressions for nowcasting with panel data consisting of series sampled at different frequencies. Motivated by the problem of predicting corporate earnings for a large cross-section of firms with macroeconomic, financial, and news time series sampled at different frequencies, we focus on the sparse-group LASSO regularization which can take advantage of the mixed frequency time series panel data structures. Our empirical results show the superior performance of our machine learning panel data regression models over analysts' predictions, forecast combinations, firm-specific time series regression models, and standard machine learning methods.",
+    "link": "http://arxiv.org/abs/2307.02673",
+    "context": "Title: Panel Data Nowcasting: The Case of Price-Earnings Ratios. (arXiv:2307.02673v1 [econ.EM])\nAbstract: The paper uses structured machine learning regressions for nowcasting with panel data consisting of series sampled at different frequencies. Motivated by the problem of predicting corporate earnings for a large cross-section of firms with macroeconomic, financial, and news time series sampled at different frequencies, we focus on the sparse-group LASSO regularization which can take advantage of the mixed frequency time series panel data structures. Our empirical results show the superior performance of our machine learning panel data regression models over analysts' predictions, forecast combinations, firm-specific time series regression models, and standard machine learning methods.",
+    "path": "papers/23/07/2307.02673.json",
+    "total_tokens": 719,
+    "translated_title": "面板数据实时预测：以市盈率为例。",
+    "translated_abstract": "本文使用结构化机器学习回归方法，对由不同频率采样的系列数据进行面板数据实时预测。受到预测大量公司收益的问题的启发，考虑到宏观经济、金融和新闻时间序列以不同频率采样的混合面板数据结构，我们重点研究了稀疏组 LASSO 正则化方法。实证结果表明，相比分析师的预测、预测组合、公司特定时间序列回归模型和标准的机器学习方法，我们的机器学习面板数据回归模型表现出更好的性能。",
+    "tldr": "本文使用结构化机器学习回归方法对面板数据进行实时预测，针对混合频率的时间序列数据结构提出了稀疏组 LASSO 正则化方法，并且在实证结果中显示出优于其他方法的表现。"
+}

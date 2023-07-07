@@ -1,0 +1,12 @@
+{
+    "title": "Application of the Deffuant model in money exchange. (arXiv:2307.02512v1 [q-fin.MF])",
+    "abstract": "A money transfer involves a buyer and a seller. A buyer buys goods or services from a seller. The money the buyer decreases is the same as that the seller increases. At each time step, a pair of socially connected agents are selected and transact in agreed money. We evolve the Deffuant model to a money exchange system and study circumstances under which asymptotic stability holds, or equal wealth can be achieved.",
+    "link": "http://arxiv.org/abs/2307.02512",
+    "context": "Title: Application of the Deffuant model in money exchange. (arXiv:2307.02512v1 [q-fin.MF])\nAbstract: A money transfer involves a buyer and a seller. A buyer buys goods or services from a seller. The money the buyer decreases is the same as that the seller increases. At each time step, a pair of socially connected agents are selected and transact in agreed money. We evolve the Deffuant model to a money exchange system and study circumstances under which asymptotic stability holds, or equal wealth can be achieved.",
+    "path": "papers/23/07/2307.02512.json",
+    "total_tokens": 551,
+    "translated_title": "Deffuant模型在货币交换中的应用",
+    "translated_abstract": "货币交易涉及到买方和卖方。买方从卖方购买商品或服务。买方减少的金额与卖方增加的金额相同。在每个时间步骤中，选择一对社会相连的代理人进行交易。我们将Deffuant模型演化为一个货币交换系统，并研究在何种情况下可以实现渐近稳定性，或实现财富均等。",
+    "tldr": "Deffuant模型应用于货币交换，研究了如何实现渐近稳定性和财富均等。",
+    "en_tdlr": "The Deffuant model is applied to money exchange, investigating how to achieve asymptotic stability and equal wealth."
+}

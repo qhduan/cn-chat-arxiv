@@ -1,0 +1,12 @@
+{
+    "title": "Buy It Now, or Later, or Not: Loss Aversion in Advance Purchasing. (arXiv:2110.14929v3 [econ.TH] UPDATED)",
+    "abstract": "This paper studies the advance$-$purchase problem when a consumer has reference$-$dependent preferences in the form of Koszegi and Rabin (2009), in which planning affects reference formation. When the consumer exhibits plan revisability, loss aversion increases the price at which she is willing to pre$-$purchase. This implies that loss aversion can lead to the selection of a riskier option in certain situations. Moreover, I endogenize the seller$'$s price-commitment behavior in the advance$-$purchase problem. The result shows that the seller commits to his spot price even though he is not obliged to, which was treated as a given assumption in previous literature.",
+    "link": "http://arxiv.org/abs/2110.14929",
+    "context": "Title: Buy It Now, or Later, or Not: Loss Aversion in Advance Purchasing. (arXiv:2110.14929v3 [econ.TH] UPDATED)\nAbstract: This paper studies the advance$-$purchase problem when a consumer has reference$-$dependent preferences in the form of Koszegi and Rabin (2009), in which planning affects reference formation. When the consumer exhibits plan revisability, loss aversion increases the price at which she is willing to pre$-$purchase. This implies that loss aversion can lead to the selection of a riskier option in certain situations. Moreover, I endogenize the seller$'$s price-commitment behavior in the advance$-$purchase problem. The result shows that the seller commits to his spot price even though he is not obliged to, which was treated as a given assumption in previous literature.",
+    "path": "papers/21/10/2110.14929.json",
+    "total_tokens": 830,
+    "translated_title": "现在买还是以后买还是不买: 提前购买的遗憾规避",
+    "translated_abstract": "本文研究了当消费者具有以Koszegi和Rabin（2009年）形式的参考依赖偏好时的提前购买问题，其中计划影响了参考形成。当消费者展示出计划可修订性时，遗憾规避会增加她愿意提前购买的价格。这意味着在某些情况下，遗憾规避可能导致选择更冒险的选项。此外，本文内生化了卖方在提前购买问题中的价格承诺行为。结果表明，尽管卖方无需如此，但他会承诺他的现货价格，这在以前的文献中被视为一个给定的假设。",
+    "tldr": "本文研究了当消费者具有参考依赖偏好时的提前购买问题。遗憾规避增加了消费者愿意提前购买的价格，并且在某些情况下可能导致选择更冒险的选项。此外，本文内生化了卖方的价格承诺行为。",
+    "en_tdlr": "This paper examines the advance-purchase problem when consumers have reference-dependent preferences. Loss aversion increases the price at which consumers are willing to pre-purchase, and in certain situations, it can lead to the selection of riskier options. Additionally, the paper endogenizes the seller's price-commitment behavior in the advance-purchase problem."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Beyond Intuition, a Framework for Applying GPs to Real-World Data. (arXiv:2307.03093v1 [cs.LG])",
+    "abstract": "Gaussian Processes (GPs) offer an attractive method for regression over small, structured and correlated datasets. However, their deployment is hindered by computational costs and limited guidelines on how to apply GPs beyond simple low-dimensional datasets. We propose a framework to identify the suitability of GPs to a given problem and how to set up a robust and well-specified GP model. The guidelines formalise the decisions of experienced GP practitioners, with an emphasis on kernel design and options for computational scalability. The framework is then applied to a case study of glacier elevation change yielding more accurate results at test time.",
+    "link": "http://arxiv.org/abs/2307.03093",
+    "context": "Title: Beyond Intuition, a Framework for Applying GPs to Real-World Data. (arXiv:2307.03093v1 [cs.LG])\nAbstract: Gaussian Processes (GPs) offer an attractive method for regression over small, structured and correlated datasets. However, their deployment is hindered by computational costs and limited guidelines on how to apply GPs beyond simple low-dimensional datasets. We propose a framework to identify the suitability of GPs to a given problem and how to set up a robust and well-specified GP model. The guidelines formalise the decisions of experienced GP practitioners, with an emphasis on kernel design and options for computational scalability. The framework is then applied to a case study of glacier elevation change yielding more accurate results at test time.",
+    "path": "papers/23/07/2307.03093.json",
+    "total_tokens": 781,
+    "translated_title": "超越直觉，将高斯过程应用于实际数据的框架",
+    "translated_abstract": "高斯过程（GPs）提供了一种用于小型、结构化和相关数据集的回归的吸引人的方法。然而，它们的应用受到计算成本的限制，并且对于如何将GPs应用于复杂的高维数据集的指导有限。我们提出了一个框架，用于确定GPs在给定问题中的适用性以及如何建立一个强大且明确的GP模型。指导方针形式化了经验丰富的GP实践者的决策，特别强调了核函数设计和计算可扩展性选项。然后，我们将该框架应用于冰川高程变化的案例研究中，在测试时产生了更准确的结果。",
+    "tldr": "提出了一个框架，用于确定高斯过程在实际问题中的适用性，并建立一个稳健且明确的模型。通过对核函数设计和计算可扩展性选项的指导，该框架在冰川高程变化的案例研究中实现了更准确的结果。"
+}

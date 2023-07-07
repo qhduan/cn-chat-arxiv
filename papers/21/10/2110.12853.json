@@ -1,0 +1,11 @@
+{
+    "title": "Cubature Method for Stochastic Volterra Integral Equations. (arXiv:2110.12853v4 [math.PR] UPDATED)",
+    "abstract": "In this paper, we introduce the cubature formula for Stochastic Volterra Integral Equations. We first derive the stochastic Taylor expansion in this setting, by utilizing a functional It\\^{o} formula, and provide its tail estimates. We then introduce the cubature measure for such equations, and construct it explicitly in some special cases, including a long memory stochastic volatility model. We shall provide the error estimate rigorously. Our numerical examples show that the cubature method is much more efficient than the Euler scheme, provided certain conditions are satisfied.",
+    "link": "http://arxiv.org/abs/2110.12853",
+    "context": "Title: Cubature Method for Stochastic Volterra Integral Equations. (arXiv:2110.12853v4 [math.PR] UPDATED)\nAbstract: In this paper, we introduce the cubature formula for Stochastic Volterra Integral Equations. We first derive the stochastic Taylor expansion in this setting, by utilizing a functional It\\^{o} formula, and provide its tail estimates. We then introduce the cubature measure for such equations, and construct it explicitly in some special cases, including a long memory stochastic volatility model. We shall provide the error estimate rigorously. Our numerical examples show that the cubature method is much more efficient than the Euler scheme, provided certain conditions are satisfied.",
+    "path": "papers/21/10/2110.12853.json",
+    "total_tokens": 662,
+    "translated_title": "针对随机Volterra积分方程的立方计算方法",
+    "translated_abstract": "本文介绍了针对随机Volterra积分方程的立方计算公式。我们首先利用一个函数Ito公式导出了在这个设置下的随机泰勒展开式，并给出了其尾部估计。然后我们介绍了这些方程的立方测度，并在一些特殊情况下明确构造它，包括长记忆随机波动模型。我们将严格提供误差估计。我们的数值示例表明，只要满足一定条件，立方方法比Euler方案更高效。",
+    "tldr": "本文介绍了针对随机Volterra积分方程的立方计算方法，并提供了其误差估计结果。数值示例表明，在满足一定条件时，立方方法比Euler方案更高效。"
+}

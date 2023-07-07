@@ -1,0 +1,12 @@
+{
+    "title": "Stacking of Hyperparameter Tuned Models for Tagging Coding Problems. (arXiv:2306.10077v2 [cs.LG] UPDATED)",
+    "abstract": "Coding problems are problems that require a solution in the form of a computer program. Coding problems are popular among students and professionals as it enhances their skills and career opportunities. An AI system that would help those who practice coding problems would be highly useful and there is a huge potential for such a system. In this work, we propose a model which uses stacking of hyperparameter tuned boosting models to achieve impressive metric scores of 77.8% accuracy and 0.815 PR-AUC on the dataset that was scraped from Codeforces and Leetcode. We open source the dataset and the models developed for this work.",
+    "link": "http://arxiv.org/abs/2306.10077",
+    "context": "Title: Stacking of Hyperparameter Tuned Models for Tagging Coding Problems. (arXiv:2306.10077v2 [cs.LG] UPDATED)\nAbstract: Coding problems are problems that require a solution in the form of a computer program. Coding problems are popular among students and professionals as it enhances their skills and career opportunities. An AI system that would help those who practice coding problems would be highly useful and there is a huge potential for such a system. In this work, we propose a model which uses stacking of hyperparameter tuned boosting models to achieve impressive metric scores of 77.8% accuracy and 0.815 PR-AUC on the dataset that was scraped from Codeforces and Leetcode. We open source the dataset and the models developed for this work.",
+    "path": "papers/23/06/2306.10077.json",
+    "total_tokens": 693,
+    "translated_title": "使用超参数调优模型的堆叠方法解决编码问题的翻译",
+    "translated_abstract": "编码问题是需要以计算机程序形式提供解决方案的问题。编码问题在学生和专业人士中非常受欢迎，因为它可以提升他们的技能和职业机会。一个能够帮助练习编码问题的AI系统将非常有用，并且存在巨大的潜力。在这项工作中，我们提出了一种采用超参数调优的增强模型堆叠方法，以在从Codeforces和Leetcode获取的数据集上达到77.8％的准确率和0.815的PR-AUC分数。我们开源了为这项工作开发的数据集和模型。",
+    "tldr": "这项工作使用超参数调优的增强模型堆叠方法，在Codeforces和Leetcode的数据集上取得了77.8%的准确率和0.815的PR-AUC分数。",
+    "en_tdlr": "This work proposes a model that utilizes stacking of hyperparameter tuned boosting models to achieve 77.8% accuracy and 0.815 PR-AUC score on datasets from Codeforces and Leetcode."
+}

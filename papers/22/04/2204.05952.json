@@ -1,0 +1,12 @@
+{
+    "title": "Retrieval from Mixed Sampling Frequency: Generic Identifiability in the Unit Root VAR. (arXiv:2204.05952v2 [econ.EM] UPDATED)",
+    "abstract": "The \"REtrieval from MIxed Sampling\" (REMIS) approach based on blocking developed in Anderson et al. (2016a) is concerned with retrieving an underlying high frequency model from mixed frequency observations. In this paper we investigate parameter-identifiability in the Johansen (1995) vector error correction model for mixed frequency data. We prove that from the second moments of the blocked process after taking differences at lag N (N is the slow sampling rate), the parameters of the high frequency system are generically identified. We treat the stock and the flow case as well as deterministic terms.",
+    "link": "http://arxiv.org/abs/2204.05952",
+    "context": "Title: Retrieval from Mixed Sampling Frequency: Generic Identifiability in the Unit Root VAR. (arXiv:2204.05952v2 [econ.EM] UPDATED)\nAbstract: The \"REtrieval from MIxed Sampling\" (REMIS) approach based on blocking developed in Anderson et al. (2016a) is concerned with retrieving an underlying high frequency model from mixed frequency observations. In this paper we investigate parameter-identifiability in the Johansen (1995) vector error correction model for mixed frequency data. We prove that from the second moments of the blocked process after taking differences at lag N (N is the slow sampling rate), the parameters of the high frequency system are generically identified. We treat the stock and the flow case as well as deterministic terms.",
+    "path": "papers/22/04/2204.05952.json",
+    "total_tokens": 737,
+    "translated_title": "从混合采样频率中检索：单位根VAR中的通用可辨识性",
+    "translated_abstract": "“混合采样检索”（REMIS）基于Anderson等人（2016a）提出的阻塞方法，旨在从混合频率观测中检索基础高频模型。在本文中，我们研究了混合频率数据的Johansen（1995）向量误差修正模型中的参数可辨识性。我们证明，通过在滞后N（N为慢速采样率）处差分后的阻塞过程的二阶矩，高频系统的参数是通常可辨识的。我们还讨论了存量和流量案例以及确定性项。",
+    "tldr": "本文研究了混合采样频率中的通用可辨识性，特别关注从混合频率观测中检索基础高频模型。文章证明，通过对阻塞过程的二阶矩进行差分处理后，可以通常可辨识高频系统的参数。",
+    "en_tdlr": "This paper investigates the generic identifiability in the retrieval of high frequency models from mixed frequency observations. It proves that the parameters of the high frequency system can be generically identified by considering the second moments of the blocked process after taking differences."
+}

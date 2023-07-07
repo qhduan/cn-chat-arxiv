@@ -1,0 +1,12 @@
+{
+    "title": "A Time Leap Challenge for SAT Solving. (arXiv:2008.02215v2 [cs.AI] UPDATED)",
+    "abstract": "We compare the impact of hardware advancement and algorithm advancement for SAT solving over the last two decades. In particular, we compare 20-year-old SAT-solvers on new computer hardware with modern SAT-solvers on 20-year-old hardware. Our findings show that the progress on the algorithmic side has at least as much impact as the progress on the hardware side.",
+    "link": "http://arxiv.org/abs/2008.02215",
+    "context": "Title: A Time Leap Challenge for SAT Solving. (arXiv:2008.02215v2 [cs.AI] UPDATED)\nAbstract: We compare the impact of hardware advancement and algorithm advancement for SAT solving over the last two decades. In particular, we compare 20-year-old SAT-solvers on new computer hardware with modern SAT-solvers on 20-year-old hardware. Our findings show that the progress on the algorithmic side has at least as much impact as the progress on the hardware side.",
+    "path": "papers/20/08/2008.02215.json",
+    "total_tokens": 502,
+    "translated_title": "《SAT求解中的时间跃迁挑战》",
+    "translated_abstract": "我们比较了过去两个十年中硬件进步和算法进步对SAT求解的影响。特别是，我们比较了使用新的计算机硬件进行的20年前的SAT求解器与使用20年前的旧硬件进行的现代SAT求解器。我们的发现表明，在算法方面的进展对硬件方面的进步至少同样重要。",
+    "tldr": "SAT求解中，算法进步对硬件进步的影响至少同样重要。",
+    "en_tdlr": "In SAT solving, algorithmic advancements have at least as much impact as hardware advancements."
+}

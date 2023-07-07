@@ -2,262 +2,187 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Can We Mathematically Spot Possible Manipulation of Results in Research Manuscripts Using Benford's Law?.](http://arxiv.org/abs/2307.01742) | 本研究使用适应性版本的本福特定律来识别研究文稿中可能的结果操纵，仅使用文稿中的聚合数据。通过分析100个开源数据集和100篇经济文稿，验证了该方法的有效性。 |
-| [^2] | [Random Walk on Multiple Networks.](http://arxiv.org/abs/2307.01637) | 本论文提出了一种在多个网络上进行随机游走的方法，通过充分利用多个网络中的信息来进行更好的实体推断和分析。该方法支持多重网络和一般多网络，并且在理论上具有收敛性质。 |
-| [^3] | [Cross-Element Combinatorial Selection for Multi-Element Creative in Display Advertising.](http://arxiv.org/abs/2307.01593) | 这篇论文提出了一个跨元素组合选择框架CECS，用于解决显示广告中多元素创意选择的问题，通过采用跨元素交互的方式进行编码，将创意组合问题转化为多个创意元素级联选择问题。 |
-| [^4] | [An Analysis of Untargeted Poisoning Attack and Defense Methods for Federated Online Learning to Rank Systems.](http://arxiv.org/abs/2307.01565) | 本论文分析了联邦在线学习排序系统中无目标投毒攻击和防御方法，旨在保护用户隐私并提高搜索效果。 |
-| [^5] | [In-depth Analysis On Parallel Processing Patterns for High-Performance Dataframes.](http://arxiv.org/abs/2307.01394) | 本论文通过从高性能计算的角度出发，对面向高性能数据框的并行处理模式进行了深入分析，并指出当前最广泛使用的串行数据框在处理中等规模的数据集时存在性能限制，提出改进的空间。 |
-| [^6] | [MWPRanker: An Expression Similarity Based Math Word Problem Retriever.](http://arxiv.org/abs/2307.01240) | 提出了一种基于表达相似性的数学问题检索工具MWPRanker，该工具能够检索具有相同问题模型的数学问题，包括算术和逻辑序列。 |
-| [^7] | [Filter Bubbles in Recommender Systems: Fact or Fallacy -- A Systematic Review.](http://arxiv.org/abs/2307.01221) | 研究发现了推荐系统中筛选泡沫的存在，揭示了导致筛选泡沫的多种偏见，并提出了一个集成工具，帮助用户避免在推荐系统中受到筛选泡沫的影响。 |
-| [^8] | [Of Spiky SVDs and Music Recommendation.](http://arxiv.org/abs/2307.01212) | 本文研究了音乐推荐中的一个有趣现象：嵌入空间中的尖峰形成。通过提出度量标准并进行数学证明，我们揭示了尖峰形成与不同内部流行度的项目社区相关。最后，我们通过一个实际用例，探讨了在添加数据的情况下音乐嵌入的相似项目如何随时间变化。 |
-| [^9] | [Recommender Systems for Online and Mobile Social Networks: A survey.](http://arxiv.org/abs/2307.01207) | 本文调研了针对在线和移动社交网络设计和实施的推荐系统，强调了社交上下文信息如何改善推荐任务，并描述了这些系统在完全分布环境下的优点和缺点。 |
-| [^10] | [Confidence Ranking for CTR Prediction.](http://arxiv.org/abs/2307.01206) | 本文提出了一种名为“置信度排序”的新型框架，在CTR预测任务中引入了置信度排序损失，可以在公共和工业数据集上胜过所有基线方法。 |
-| [^11] | [GenRec: Large Language Model for Generative Recommendation.](http://arxiv.org/abs/2307.00457) | 本文介绍了一种基于大型语言模型的创新推荐系统方法GenRec，通过直接生成目标推荐项而不是计算排名分数，利用LLM的表达能力和理解能力来生成相关推荐。 |
-| [^12] | [Counterfactual Collaborative Reasoning.](http://arxiv.org/abs/2307.00165) | 本文提出了反事实协同推理（CCR）方法，通过整合反事实推理和逻辑推理来提高机器学习模型的准确性和可解释性。通过利用反事实推理生成困难的反事实训练样本进行数据增强，CCR在推荐系统中展示了如何缓解数据稀缺、提高准确性和增强透明度。 |
-| [^13] | [Towards Personalized Cold-Start Recommendation with Prompts.](http://arxiv.org/abs/2306.17256) | 本研究旨在解决个性化冷启动推荐问题，通过利用预训练语言模型的能力，将推荐过程转化为自然语言情感分析，提供适用于创业企业和用户参与历史不足的平台的个性化推荐。 |
-| [^14] | [Recent Developments in Recommender Systems: A Survey.](http://arxiv.org/abs/2306.12680) | 本篇综述全面总结了推荐系统领域的最新进展和趋势，包括推荐系统分类，知识推荐系统，鲁棒性，数据偏见和公平性问题，以及评估度量。该研究还提供了未来研究的新方向。 |
-| [^15] | [Are the Best Multilingual Document Embeddings simply Based on Sentence Embeddings?.](http://arxiv.org/abs/2304.14796) | 本文系统比较了从句子级别嵌入中产生文档级嵌入的方法，基于预训练的多语言模型LASER、LaBSE和Sentence BERT。我们着重比较了输入令牌数截断、句子平均以及一些简单的窗口方法，对三个多语言和跨语言任务表现进行了比较。 |
-| [^16] | [Ensemble Knowledge Distillation for CTR Prediction.](http://arxiv.org/abs/2011.04106) | 本论文针对CTR预测提出了一种集成知识蒸馏的模型训练策略，该策略能够通过教师模型将知识传输给学生模型，并取得了显著的准确性提升。 |
-| [^17] | [Utilizing Human Memory Processes to Model Genre Preferences for Personalized Music Recommendations.](http://arxiv.org/abs/2003.10699) | 本文基于心理学模型，利用人类记忆过程来模拟和预测不同用户群体的音乐类型偏好。通过分析超过十亿条音乐收听记录数据集，发现该方法对于不同用户群体的预测准确性显著优于其他基准算法，并且具有透明和可解释性的特点。 |
+| [^1] | [MultiVENT: Multilingual Videos of Events with Aligned Natural Text.](http://arxiv.org/abs/2307.03153) | 构建了一个名为MultiVENT的多语言、事件为中心的视频数据集，包括新闻广播视频和非专业活动素材。还提供了一个多语言视频检索模型作为使用MultiVENT进行信息检索的基线模型。 |
+| [^2] | [Track Mix Generation on Music Streaming Services using Transformers.](http://arxiv.org/abs/2307.03045) | 本文介绍了2022年在Deezer音乐流媒体服务上推出的Track Mix个性化歌单生成系统，通过使用Transformer模型分析用户播放列表的曲目序列来生成以初始音乐曲目为灵感的“混合”播放列表，提升用户在Deezer上的音乐发现体验。 |
+| [^3] | [Improving Retrieval-Augmented Large Language Models via Data Importance Learning.](http://arxiv.org/abs/2307.03027) | 本文通过多线性扩展算法评估检索增强模型中检索到的数据点的数据重要性，并提出了一个多项式时间算法来计算其数据重要性。实验结果表明，修剪或增强大型语言模型可以提高性能。 |
+| [^4] | [A Meta-Evaluation of C/W/L/A Metrics: System Ranking Similarity, System Ranking Consistency and Discriminative Power.](http://arxiv.org/abs/2307.02936) | 本研究通过对不同聚合方式的C/W/L/A指标进行元评估，研究发现它们在系统排名相似性、系统排名一致性和区分能力等方面具有一定的统计稳定性。 |
+| [^5] | [PLIERS: a Popularity-Based Recommender System for Content Dissemination in Online Social Networks.](http://arxiv.org/abs/2307.02865) | PLIERS是一种基于流行度的在线社交网络内容传播推荐系统，通过在算法复杂性和推荐物品的个性化水平之间取得平衡，提供了更好的个性化、相关性和推荐的新颖性。 |
+| [^6] | [BHEISR: Nudging from Bias to Balance -- Promoting Belief Harmony by Eliminating Ideological Segregation in Knowledge-based Recommendations.](http://arxiv.org/abs/2307.02797) | BHEISR模型通过消除过滤泡沫效应，促进信念和谐，通过利用个性化的类别信息激发用户的好奇心和兴趣，鼓励用户拓宽信念视野和探索新的信息。 |
+| [^7] | [Cross-Modal Content Inference and Feature Enrichment for Cold-Start Recommendation.](http://arxiv.org/abs/2307.02761) | 本文提出了一个推荐框架，名为跨模态内容推理与特征增强推荐 (CIERec)，利用多模态信息来改善冷启动推荐性能，引入图像注释作为特权信息，通过融合协同、视觉和语义信息来增强内容表示。 |
+| [^8] | [Knowledge Graph Self-Supervised Rationalization for Recommendation.](http://arxiv.org/abs/2307.02759) | 这项研究提出了一种新的自监督合理化方法KGRec，用于知识感知的推荐系统。通过关注知识合理化机制和生成对比度自监督任务，KGRec能够有效地识别有信息量的知识连接，并利用这些连接进行推荐。 |
+| [^9] | [Dense Retrieval Adaptation using Target Domain Description.](http://arxiv.org/abs/2307.02740) | 本文提出了一种新的信息检索领域适应方法，该方法假设检索模型无法访问目标文档集，但可以访问描述目标领域的简要文本描述。 |
+| [^10] | [Visualizing Relation Between (De)Motivating Topics and Public Stance toward COVID-19 Vaccine.](http://arxiv.org/abs/2306.12118) | 研究了社交媒体上COVID-19话题对公众接种疫苗态度的影响，提出了交互式可视化工具，可以分析话题共鸣和动力转移，增加研究与公众的透明度。 |
+| [^11] | [Co-design Hardware and Algorithm for Vector Search.](http://arxiv.org/abs/2306.11182) | 本论文提出了一个在FPGA上的向量搜索框架FANNS，实现了硬件和算法的共同设计，可以根据用户需求和硬件预算生成相应的加速器。与FPGA和CPU基准相比，FANNS实现了显著的加速，并展现了卓越的可扩展性。 |
+| [^12] | [Modeling Content Creator Incentives on Algorithm-Curated Platforms.](http://arxiv.org/abs/2206.13102) | 该论文讨论了在线平台上内容创作者激励机制的建模，通过分析算法选择对曝光游戏（包括现代分解和两塔架构）中（纳什）均衡的影响，提出了使用曝光游戏模型进行预部署审计的方法，以识别期望和激励内容之间的不匹配。 |
 
 # 详细
 
-[^1]: 使用本福特定律在研究文稿中数学地发现可能的结果操纵？
+[^1]: MultiVENT：具有对齐的自然文本的多语言活动视频
 
-    Can We Mathematically Spot Possible Manipulation of Results in Research Manuscripts Using Benford's Law?. (arXiv:2307.01742v1 [cs.IR])
+    MultiVENT: Multilingual Videos of Events with Aligned Natural Text. (arXiv:2307.03153v1 [cs.IR])
 
-    [http://arxiv.org/abs/2307.01742](http://arxiv.org/abs/2307.01742)
+    [http://arxiv.org/abs/2307.03153](http://arxiv.org/abs/2307.03153)
 
-    本研究使用适应性版本的本福特定律来识别研究文稿中可能的结果操纵，仅使用文稿中的聚合数据。通过分析100个开源数据集和100篇经济文稿，验证了该方法的有效性。
-
-    
-
-    学术研究的可重复性一直是一个持续存在的问题，与科学的基本原则相矛盾。更令人担忧的是最近在学术文稿中发现的虚假声明数量的增加，对所报告的结果的有效性产生了怀疑。在这篇论文中，我们利用一种适应性版本的本福特定律，这是一种描述自然发生的数据集中首位数字分布的统计现象，仅仅使用文稿中呈现的聚合数据来识别研究文稿中结果的潜在操纵。我们的方法将本福特定律的原理应用于学术文稿中常用的分析方法，从而减少对原始数据本身的需求。为了验证我们的方法，我们使用了100个开源数据集，并成功地使用我们的规则准确预测了其中的79%。此外，我们还分析了最近两年内在十个知名经济杂志上发表的100篇文稿。
-
-    The reproducibility of academic research has long been a persistent issue, contradicting one of the fundamental principles of science. What is even more concerning is the increasing number of false claims found in academic manuscripts recently, casting doubt on the validity of reported results. In this paper, we utilize an adaptive version of Benford's law, a statistical phenomenon that describes the distribution of leading digits in naturally occurring datasets, to identify potential manipulation of results in research manuscripts, solely using the aggregated data presented in those manuscripts. Our methodology applies the principles of Benford's law to commonly employed analyses in academic manuscripts, thus, reducing the need for the raw data itself. To validate our approach, we employed 100 open-source datasets and successfully predicted 79% of them accurately using our rules. Additionally, we analyzed 100 manuscripts published in the last two years across ten prominent economic jo
-    
-[^2]: 多网络上的随机游走
-
-    Random Walk on Multiple Networks. (arXiv:2307.01637v1 [cs.SI])
-
-    [http://arxiv.org/abs/2307.01637](http://arxiv.org/abs/2307.01637)
-
-    本论文提出了一种在多个网络上进行随机游走的方法，通过充分利用多个网络中的信息来进行更好的实体推断和分析。该方法支持多重网络和一般多网络，并且在理论上具有收敛性质。
+    构建了一个名为MultiVENT的多语言、事件为中心的视频数据集，包括新闻广播视频和非专业活动素材。还提供了一个多语言视频检索模型作为使用MultiVENT进行信息检索的基线模型。
 
     
 
-    随机游走是一种探索网络结构的基本算法，可以用于许多任务，如局部社区检测和网络嵌入。现有的随机游走方法基于包含有限信息的单个网络。相比之下，实际数据通常包含不同类型或来源的实体，这些实体是全面的，并且可以通过多个网络更好地建模。为了充分利用多个网络中的丰富信息，并对实体进行更好的推断，在本研究中，我们提出了多网络上的随机游走（RWM）。RWM是灵活的，支持多重网络和一般的多网络，可以在网络之间形成多对多的节点映射。RWM在每个网络上发送一个随机行者以获得与起始节点相关的局部接近度（即节点访问概率）。具有相似访问概率的行者相互强化。我们从理论上分析了RWM的收敛性质。
+    每日新闻报道已从传统的广播转向各种未经编辑的第一手视频素材等多种呈现方式。反映在线上可用的多模态、多语言新闻来源的数据集可以用来教授模型从这种转变中受益，但现有的新闻视频数据集主要关注为英语听众制作的传统新闻广播。我们通过构建 MultiVENT 数据集来解决这个限制，该数据集包含以五种目标语言为基础的多语言、事件为中心的视频，并包括新闻广播视频和非专业活动素材，我们用其来分析在线新闻视频的现状以及如何利用它们来构建强大、准确的模型。最后，我们提供了一个复杂的多语言视频检索模型，以用作使用 MultiVENT 进行信息检索的基线模型。
 
-    Random Walk is a basic algorithm to explore the structure of networks, which can be used in many tasks, such as local community detection and network embedding. Existing random walk methods are based on single networks that contain limited information. In contrast, real data often contain entities with different types or/and from different sources, which are comprehensive and can be better modeled by multiple networks. To take advantage of rich information in multiple networks and make better inferences on entities, in this study, we propose random walk on multiple networks, RWM. RWM is flexible and supports both multiplex networks and general multiple networks, which may form many-to-many node mappings between networks. RWM sends a random walker on each network to obtain the local proximity (i.e., node visiting probabilities) w.r.t. the starting nodes. Walkers with similar visiting probabilities reinforce each other. We theoretically analyze the convergence properties of RWM. Two appr
+    Everyday news coverage has shifted from traditional broadcasts towards a wide range of presentation formats such as first-hand, unedited video footage. Datasets that reflect the diverse array of multimodal, multilingual news sources available online could be used to teach models to benefit from this shift, but existing news video datasets focus on traditional news broadcasts produced for English-speaking audiences. We address this limitation by constructing MultiVENT, a dataset of multilingual, event-centric videos grounded in text documents across five target languages. MultiVENT includes both news broadcast videos and non-professional event footage, which we use to analyze the state of online news videos and how they can be leveraged to build robust, factually accurate models. Finally, we provide a model for complex, multilingual video retrieval to serve as a baseline for information retrieval using MultiVENT.
     
-[^3]: 显示广告中多元素创意的跨元素组合选择
+[^2]: 在音乐流媒体服务中使用Transformer生成歌单混合
 
-    Cross-Element Combinatorial Selection for Multi-Element Creative in Display Advertising. (arXiv:2307.01593v1 [cs.IR])
+    Track Mix Generation on Music Streaming Services using Transformers. (arXiv:2307.03045v1 [cs.IR])
 
-    [http://arxiv.org/abs/2307.01593](http://arxiv.org/abs/2307.01593)
+    [http://arxiv.org/abs/2307.03045](http://arxiv.org/abs/2307.03045)
 
-    这篇论文提出了一个跨元素组合选择框架CECS，用于解决显示广告中多元素创意选择的问题，通过采用跨元素交互的方式进行编码，将创意组合问题转化为多个创意元素级联选择问题。
-
-    
-
-    广告创意的有效性很大程度上受其视觉外观的影响。广告平台可以通过组合广告创意中的不同元素来生成具有不同外观的广告创意。然而，随着广告创意元素数量的增加，从无数可能性中选择合适的组合变得具有挑战性。行业的主流方法是独立选择各个创意元素，这经常忽视了建模过程中创意元素之间相互作用的重要性。作为回应，本文提出了一个用于多个创意元素的跨元素组合选择框架，称为CECS。在编码器过程中，采用了跨元素交互，根据当前候选创意动态调整单个创意元素的表达。在解码器过程中，将创意组合问题转化为多个创意元素级联选择问题。
-
-    The effectiveness of ad creatives is greatly influenced by their visual appearance. Advertising platforms can generate ad creatives with different appearances by combining creative elements provided by advertisers. However, with the increasing number of ad creative elements, it becomes challenging to select a suitable combination from the countless possibilities. The industry's mainstream approach is to select individual creative elements independently, which often overlooks the importance of interaction between creative elements during the modeling process. In response, this paper proposes a Cross-Element Combinatorial Selection framework for multiple creative elements, termed CECS. In the encoder process, a cross-element interaction is adopted to dynamically adjust the expression of a single creative element based on the current candidate creatives. In the decoder process, the creative combination problem is transformed into a cascade selection problem of multiple creative elements. 
-    
-[^4]: 对联邦在线学习排序系统中无目标投毒攻击和防御方法的分析
-
-    An Analysis of Untargeted Poisoning Attack and Defense Methods for Federated Online Learning to Rank Systems. (arXiv:2307.01565v1 [cs.IR])
-
-    [http://arxiv.org/abs/2307.01565](http://arxiv.org/abs/2307.01565)
-
-    本论文分析了联邦在线学习排序系统中无目标投毒攻击和防御方法，旨在保护用户隐私并提高搜索效果。
+    本文介绍了2022年在Deezer音乐流媒体服务上推出的Track Mix个性化歌单生成系统，通过使用Transformer模型分析用户播放列表的曲目序列来生成以初始音乐曲目为灵感的“混合”播放列表，提升用户在Deezer上的音乐发现体验。
 
     
 
-    联邦在线学习排序（FOLTR）旨在保护用户隐私，不共享其可搜索的数据和搜索交互，同时保证高搜索效果，尤其是在个体用户拥有有限的训练数据和交互的情况下。为此，FOLTR以在线方式训练排序模型，即利用用户与搜索系统的交互（查询，点击），而不是标签，并以联邦方式进行训练，即不将交互数据在中央服务器上进行聚合以进行训练，而是在每个用户设备上使用其自己的私有数据训练模型实例，然后在已形成联邦的一组用户之间共享模型更新，而不是数据。现有的FOLTR方法建立在联邦学习的进展之上。尽管联邦学习方法已被证明可以在不共享数据的情况下以分布式方式训练机器学习模型，但它们可能容易受到针对的攻击。
+    本文介绍了Track Mix，这是一个于2022年在音乐流媒体服务Deezer上推出的个性化歌单生成系统。Track Mix通过自动为用户生成以初始音乐曲目为灵感的“混合”播放列表，让用户可以发现与他们喜爱的内容相似的音乐。为了生成这些混合歌单，我们考虑了使用Transformer模型在用户播放列表的数百万个曲目序列上进行训练。鉴于近年来Transformers的日益流行，我们分析了与传统合作过滤方法相比，在服务中使用这种模型进行混合生成所带来的优势、不足和技术挑战。自推出以来，Track Mix每天为数百万用户生成歌单，在Deezer上提升了他们的音乐发现体验。
 
-    Federated online learning to rank (FOLTR) aims to preserve user privacy by not sharing their searchable data and search interactions, while guaranteeing high search effectiveness, especially in contexts where individual users have scarce training data and interactions. For this, FOLTR trains learning to rank models in an online manner -- i.e. by exploiting users' interactions with the search systems (queries, clicks), rather than labels -- and federatively -i.e. by not aggregating interaction data in a central server for training purposes, but by training instances of a model on each user device on their own private data, and then sharing the model updates, not the data, across a set of users that have formed the federation. Existing FOLTR methods build upon advances in federated learning.  While federated learning methods have been shown effective at training machine learning models in a distributed way without the need of data sharing, they can be susceptible to attacks that target
+    This paper introduces Track Mix, a personalized playlist generation system released in 2022 on the music streaming service Deezer. Track Mix automatically generates "mix" playlists inspired by initial music tracks, allowing users to discover music similar to their favorite content. To generate these mixes, we consider a Transformer model trained on millions of track sequences from user playlists. In light of the growing popularity of Transformers in recent years, we analyze the advantages, drawbacks, and technical challenges of using such a model for mix generation on the service, compared to a more traditional collaborative filtering approach. Since its release, Track Mix has been generating playlists for millions of users daily, enhancing their music discovery experience on Deezer.
     
-[^5]: 面向高性能数据框的并行处理模式的深入分析
+[^3]: 通过数据重要性学习改善检索增强的大型语言模型
 
-    In-depth Analysis On Parallel Processing Patterns for High-Performance Dataframes. (arXiv:2307.01394v1 [cs.DC])
+    Improving Retrieval-Augmented Large Language Models via Data Importance Learning. (arXiv:2307.03027v1 [cs.LG])
 
-    [http://arxiv.org/abs/2307.01394](http://arxiv.org/abs/2307.01394)
+    [http://arxiv.org/abs/2307.03027](http://arxiv.org/abs/2307.03027)
 
-    本论文通过从高性能计算的角度出发，对面向高性能数据框的并行处理模式进行了深入分析，并指出当前最广泛使用的串行数据框在处理中等规模的数据集时存在性能限制，提出改进的空间。
-
-    
-
-    在过去的十年中，由于大数据革命，数据科学领域在研究和工业界都得到了巨大的扩展。人工智能（AI）和机器学习（ML）给数据工程应用带来了更多的复杂性，这些应用现在被集成到数据处理管道中以处理大量的数据。通常，在这些管道中花费大量时间进行数据预处理，因此提高其效率直接影响整体管道的性能。近年来，社区已经接受了数据框作为事实上的数据表示和操作的数据结构的概念。然而，目前最广泛使用的串行数据框（R、pandas）在处理中等规模的数据集时存在性能限制。我们相信从高性能计算的角度出发，还有很大的提升空间来解决这个问题。
-
-    The Data Science domain has expanded monumentally in both research and industry communities during the past decade, predominantly owing to the Big Data revolution. Artificial Intelligence (AI) and Machine Learning (ML) are bringing more complexities to data engineering applications, which are now integrated into data processing pipelines to process terabytes of data. Typically, a significant amount of time is spent on data preprocessing in these pipelines, and hence improving its e fficiency directly impacts the overall pipeline performance. The community has recently embraced the concept of Dataframes as the de-facto data structure for data representation and manipulation. However, the most widely used serial Dataframes today (R, pandas) experience performance limitations while working on even moderately large data sets. We believe that there is plenty of room for improvement by taking a look at this problem from a high-performance computing point of view. In a prior publication, we p
-    
-[^6]: MWPRanker: 一种基于表达相似性的数学问题检索工具
-
-    MWPRanker: An Expression Similarity Based Math Word Problem Retriever. (arXiv:2307.01240v1 [cs.IR])
-
-    [http://arxiv.org/abs/2307.01240](http://arxiv.org/abs/2307.01240)
-
-    提出了一种基于表达相似性的数学问题检索工具MWPRanker，该工具能够检索具有相同问题模型的数学问题，包括算术和逻辑序列。
+    本文通过多线性扩展算法评估检索增强模型中检索到的数据点的数据重要性，并提出了一个多项式时间算法来计算其数据重要性。实验结果表明，修剪或增强大型语言模型可以提高性能。
 
     
 
-    在在线评估中，数学问题（MWPs）帮助测试学习者通过解释其中的语言信息来进行关键推理能力的测试。为了测试学习者的数学推理能力，有时会重新表述问题或更改原始MWP的主题设置。由于手动识别具有相似问题模型的MWPs很麻烦，因此我们在这项工作中提出了一个为MWP检索提供工具。我们提出了一种混合方法来检索具有相同问题模型的类似MWPs。在我们的工作中，问题模型是指要执行的操作序列以达到解决方案。我们证明了我们的工具对所述任务非常有用，并优于基于语义相似度的方法，后者无法捕捉MWPs的算术和逻辑顺序。可以在https://www.youtube.com/watch?v=gSQWP3chFIs找到该工具的演示。
+    检索增强使得大型语言模型能够利用外部知识，例如在问题回答和数据补全等任务中。然而，这种检索增强模型的性能受到其基础检索语料的数据质量的限制。本文提出了一种基于多线性扩展的算法，用于评估检索到的数据点的数据重要性。多线性扩展中存在指数级的项，本文的一个关键贡献是提出了一个多项式时间算法，能够精确计算具有加法效用函数和验证集的检索增强模型中的数据点在检索语料中的数据重要性。我们还提出了一种更高效的（ε，δ）-近似算法。实验结果表明，我们可以通过仅修剪或增强大型语言模型来提高其性能。
 
-    Math Word Problems (MWPs) in online assessments help test the ability of the learner to make critical inferences by interpreting the linguistic information in them. To test the mathematical reasoning capabilities of the learners, sometimes the problem is rephrased or the thematic setting of the original MWP is changed. Since manual identification of MWPs with similar problem models is cumbersome, we propose a tool in this work for MWP retrieval. We propose a hybrid approach to retrieve similar MWPs with the same problem model. In our work, the problem model refers to the sequence of operations to be performed to arrive at the solution. We demonstrate that our tool is useful for the mentioned tasks and better than semantic similarity-based approaches, which fail to capture the arithmetic and logical sequence of the MWPs. A demo of the tool can be found at https://www.youtube.com/watch?v=gSQWP3chFIs
+    Retrieval augmentation enables large language models to take advantage of external knowledge, for example on tasks like question answering and data imputation. However, the performance of such retrieval-augmented models is limited by the data quality of their underlying retrieval corpus. In this paper, we propose an algorithm based on multilinear extension for evaluating the data importance of retrieved data points. There are exponentially many terms in the multilinear extension, and one key contribution of this paper is a polynomial time algorithm that computes exactly, given a retrieval-augmented model with an additive utility function and a validation set, the data importance of data points in the retrieval corpus using the multilinear extension of the model's utility function. We further proposed an even more efficient ({\epsilon}, {\delta})-approximation algorithm. Our experimental results illustrate that we can enhance the performance of large language models by only pruning or r
     
-[^7]: 推荐系统中的筛选泡沫：事实还是谬论--一项系统性回顾
+[^4]: C/W/L/A指标的元评估：系统排名相似性，系统排名一致性和区分能力
 
-    Filter Bubbles in Recommender Systems: Fact or Fallacy -- A Systematic Review. (arXiv:2307.01221v1 [cs.IR])
+    A Meta-Evaluation of C/W/L/A Metrics: System Ranking Similarity, System Ranking Consistency and Discriminative Power. (arXiv:2307.02936v1 [cs.IR])
 
-    [http://arxiv.org/abs/2307.01221](http://arxiv.org/abs/2307.01221)
+    [http://arxiv.org/abs/2307.02936](http://arxiv.org/abs/2307.02936)
 
-    研究发现了推荐系统中筛选泡沫的存在，揭示了导致筛选泡沫的多种偏见，并提出了一个集成工具，帮助用户避免在推荐系统中受到筛选泡沫的影响。
-
-    
-
-    筛选泡沫是指互联网定制化使个体与多样的观点或材料有效隔离，导致他们只受到一组特定内容的影响。这可能导致现有态度、信念或条件的强化。在这项研究中，我们主要关注筛选泡沫在推荐系统中的影响。这项开创性的研究旨在揭示这个问题背后的原因，探索潜在的解决方案，并提出一个集成工具，帮助用户避免在推荐系统中的筛选泡沫。为了达到这个目标，我们对推荐系统中的筛选泡沫进行了系统的文献综述。对所综述的文章进行了仔细分析和分类，提供了对集成方法发展有价值的见解。值得注意的是，我们的综述揭示了推荐系统中筛选泡沫的证据，强调了几个导致其存在的偏见。
-
-    A filter bubble refers to the phenomenon where Internet customization effectively isolates individuals from diverse opinions or materials, resulting in their exposure to only a select set of content. This can lead to the reinforcement of existing attitudes, beliefs, or conditions. In this study, our primary focus is to investigate the impact of filter bubbles in recommender systems. This pioneering research aims to uncover the reasons behind this problem, explore potential solutions, and propose an integrated tool to help users avoid filter bubbles in recommender systems. To achieve this objective, we conduct a systematic literature review on the topic of filter bubbles in recommender systems. The reviewed articles are carefully analyzed and classified, providing valuable insights that inform the development of an integrated approach. Notably, our review reveals evidence of filter bubbles in recommendation systems, highlighting several biases that contribute to their existence. Moreove
-    
-[^8]: 关于尖锐的奇异值分解和音乐推荐
-
-    Of Spiky SVDs and Music Recommendation. (arXiv:2307.01212v1 [cs.IR])
-
-    [http://arxiv.org/abs/2307.01212](http://arxiv.org/abs/2307.01212)
-
-    本文研究了音乐推荐中的一个有趣现象：嵌入空间中的尖峰形成。通过提出度量标准并进行数学证明，我们揭示了尖峰形成与不同内部流行度的项目社区相关。最后，我们通过一个实际用例，探讨了在添加数据的情况下音乐嵌入的相似项目如何随时间变化。
+    本研究通过对不同聚合方式的C/W/L/A指标进行元评估，研究发现它们在系统排名相似性、系统排名一致性和区分能力等方面具有一定的统计稳定性。
 
     
 
-    截断奇异值分解是音乐推荐中广泛使用的方法，用于直接检索类似物品或为下游任务嵌入音乐项目。本文研究了在许多推荐数据集中自然发生的一种有趣效应：嵌入空间中的尖峰形成。我们首先提出了一种衡量这种尖峰组织强度的度量标准，然后在数学上证明其起源与内部流行度各异的项目社区有关。凭借这种新获得的理论理解，我们最后以一种工业用例开放了该主题，用于估计在添加数据的情况下音乐嵌入的前k个相似项目将如何随时间变化。
+    最近，Moffat等人提出了一个名为C/W/L/A的离线评估指标的分析框架。这个框架允许信息检索（IR）研究人员通过灵活组合用户浏览模型和用户收益聚合来设计评估指标。然而，不同聚合方式的C/W/L/A指标的统计稳定性尚未被研究。在本研究中，我们从以下三个方面对C/W/L/A指标的统计稳定性进行了调查：（1）聚合方式之间的系统排名相似性，（2）聚合方式的系统排名一致性，和（3）聚合方式的区分能力。具体而言，我们将不同的聚合函数与Precision、Discounted Cumulative Gain (DCG)、Rank-Biased Precision (RBP)、INST、Average Precision (AP)和Expected Reciprocal Rank (ERR)等浏览模型相结合，通过系统排名相似性、系统排名一致性和区分能力等指标评估它们的性能。
 
-    The truncated singular value decomposition is a widely used methodology in music recommendation for direct similar-item retrieval or embedding musical items for downstream tasks. This paper investigates a curious effect that we show naturally occurring on many recommendation datasets: spiking formations in the embedding space. We first propose a metric to quantify this spiking organization's strength, then mathematically prove its origin tied to underlying communities of items of varying internal popularity. With this new-found theoretical understanding, we finally open the topic with an industrial use case of estimating how music embeddings' top-k similar items will change over time under the addition of data.
+    Recently, Moffat et al. proposed an analytic framework, namely C/W/L/A, for offline evaluation metrics. This framework allows information retrieval (IR) researchers to design evaluation metrics through the flexible combination of user browsing models and user gain aggregations. However, the statistical stability of C/W/L/A metrics with different aggregations is not yet investigated. In this study, we investigate the statistical stability of C/W/L/A metrics from the perspective of: (1) the system ranking similarity among aggregations, (2) the system ranking consistency of aggregations and (3) the discriminative power of aggregations. More specifically, we combined various aggregation functions with the browsing model of Precision, Discounted Cumulative Gain (DCG), Rank-Biased Precision (RBP), INST, Average Precision (AP) and Expected Reciprocal Rank (ERR), examing their performances in terms of system ranking similarity, system ranking consistency and discriminative power on two offline
     
-[^9]: 在线和移动社交网络的推荐系统：一项调研
+[^5]: PLIERS: 基于流行度的在线社交网络内容传播推荐系统
 
-    Recommender Systems for Online and Mobile Social Networks: A survey. (arXiv:2307.01207v1 [cs.IR])
+    PLIERS: a Popularity-Based Recommender System for Content Dissemination in Online Social Networks. (arXiv:2307.02865v1 [cs.IR])
 
-    [http://arxiv.org/abs/2307.01207](http://arxiv.org/abs/2307.01207)
+    [http://arxiv.org/abs/2307.02865](http://arxiv.org/abs/2307.02865)
 
-    本文调研了针对在线和移动社交网络设计和实施的推荐系统，强调了社交上下文信息如何改善推荐任务，并描述了这些系统在完全分布环境下的优点和缺点。
-
-    
-
-    推荐系统（RS）目前在在线服务中扮演着基础工具的角色，尤其是随着在线社交网络（OSN）的出现。在这种情况下，用户会产生大量的内容，很容易被无用信息淹没。同时，社交媒体也是表征内容和用户兴趣的重要信息源。RS可以利用这些信息来进一步个性化推荐并改进推荐过程。本文介绍了为在线和移动社交网络设计和实施的推荐系统的调研，重点描述了社交上下文信息如何改善推荐任务，以及标准算法在完全分布环境（如机会网络）中如何进行改进和优化。我们通过算法、目标领域、评估指标和性能评估来描述这些系统的优点和缺点。最后，我们提出了一些开放问题。
-
-    Recommender Systems (RS) currently represent a fundamental tool in online services, especially with the advent of Online Social Networks (OSN). In this case, users generate huge amounts of contents and they can be quickly overloaded by useless information. At the same time, social media represent an important source of information to characterize contents and users' interests. RS can exploit this information to further personalize suggestions and improve the recommendation process. In this paper we present a survey of Recommender Systems designed and implemented for Online and Mobile Social Networks, highlighting how the use of social context information improves the recommendation task, and how standard algorithms must be enhanced and optimized to run in a fully distributed environment, as opportunistic networks. We describe advantages and drawbacks of these systems in terms of algorithms, target domains, evaluation metrics and performance evaluations. Eventually, we present some open
-    
-[^10]: CTR预测的置信度排序
-
-    Confidence Ranking for CTR Prediction. (arXiv:2307.01206v1 [cs.IR])
-
-    [http://arxiv.org/abs/2307.01206](http://arxiv.org/abs/2307.01206)
-
-    本文提出了一种名为“置信度排序”的新型框架，在CTR预测任务中引入了置信度排序损失，可以在公共和工业数据集上胜过所有基线方法。
+    PLIERS是一种基于流行度的在线社交网络内容传播推荐系统，通过在算法复杂性和推荐物品的个性化水平之间取得平衡，提供了更好的个性化、相关性和推荐的新颖性。
 
     
 
-    在大规模现实世界的机器学习应用中，模型演进和数据的持续可用性是两个常见现象，例如广告和推荐系统。为了适应这种情况，实际系统通常会使用所有可用数据进行重新训练，并使用最近可用的数据进行在线学习，以期定期更新模型以提高性能。本文提出了一种名为“置信度排序”的新型框架，将优化目标设计为具有两个不同模型的排序函数。我们的置信度排序损失允许直接优化不同凸替代函数（例如AUC和准确度）的logits输出，具体取决于目标任务和数据集。通过我们提出的方法，在公共和工业数据集的CTR预测任务中，我们的实验表明引入置信度排序损失可以胜过所有基线方法。该框架已在京东广告系统中部署，以提供服务。
+    本文提出了一种新颖的基于标签的推荐系统PLIERS，该系统假设用户主要对与他们已拥有的物品和标签具有相似流行度的物品和标签感兴趣。PLIERS旨在在算法复杂性和推荐物品的个性化水平之间取得良好的平衡。通过在真实的在线社交网络数据集上进行一系列实验，我们验证了PLIERS在个性化、相关性和推荐的新颖性方面优于现有解决方案。
 
-    Model evolution and constant availability of data are two common phenomena in large-scale real-world machine learning applications, e.g. ads and recommendation systems. To adapt, the real-world system typically retrain with all available data and online learn with recently available data to update the models periodically with the goal of better serving performance. In this paper, we propose a novel framework, named Confidence Ranking, which designs the optimization objective as a ranking function with two different models. Our confidence ranking loss allows direct optimization of the logits output for different convex surrogate functions of metrics, e.g. AUC and Accuracy depending on the target task and dataset. Armed with our proposed methods, our experiments show that the introduction of confidence ranking loss can outperform all baselines on the CTR prediction tasks of public and industrial datasets. This framework has been deployed in the advertisement system of JD.com to serve the
+    In this paper, we propose a novel tag-based recommender system called PLIERS, which relies on the assumption that users are mainly interested in items and tags with similar popularity to those they already own. PLIERS is aimed at reaching a good tradeoff between algorithmic complexity and the level of personalization of recommended items. To evaluate PLIERS, we performed a set of experiments on real OSN datasets, demonstrating that it outperforms state-of-the-art solutions in terms of personalization, relevance, and novelty of recommendations.
     
-[^11]: GenRec:大型语言模型在生成式推荐中的应用
+[^6]: BHEISR: 从偏见到平衡 - 消除基于知识的推荐中的意识形态隔离，促进信念和谐
 
-    GenRec: Large Language Model for Generative Recommendation. (arXiv:2307.00457v2 [cs.IR] UPDATED)
+    BHEISR: Nudging from Bias to Balance -- Promoting Belief Harmony by Eliminating Ideological Segregation in Knowledge-based Recommendations. (arXiv:2307.02797v1 [cs.IR])
 
-    [http://arxiv.org/abs/2307.00457](http://arxiv.org/abs/2307.00457)
+    [http://arxiv.org/abs/2307.02797](http://arxiv.org/abs/2307.02797)
 
-    本文介绍了一种基于大型语言模型的创新推荐系统方法GenRec，通过直接生成目标推荐项而不是计算排名分数，利用LLM的表达能力和理解能力来生成相关推荐。
-
-    
-
-    近年来，大型语言模型(Large Language Model，LLM)已经成为各种自然语言处理任务的强大工具。然而，在生成式推荐范式下，它们在推荐系统中的潜力相对未被探索。本文提出了一种创新的基于文本数据的推荐系统方法，利用大型语言模型(LLM)来进行推荐。我们介绍了一种新颖的大型语言模型推荐系统(GenRec)，该系统利用LLM的表达能力直接生成目标推荐项，而不是像传统的判别式推荐系统一样逐个计算每个候选项的排名分数。GenRec利用LLM的理解能力来解释上下文、学习用户偏好并生成相关推荐。我们提出的方法利用大型语言模型中编码的丰富知识来完成推荐任务。我们首先制定了专门的提示，以增强LLM理解推荐任务的能力。
-
-    In recent years, large language models (LLM) have emerged as powerful tools for diverse natural language processing tasks. However, their potential for recommender systems under the generative recommendation paradigm remains relatively unexplored. This paper presents an innovative approach to recommendation systems using large language models (LLMs) based on text data. In this paper, we present a novel LLM for generative recommendation (GenRec) that utilized the expressive power of LLM to directly generate the target item to recommend, rather than calculating ranking score for each candidate item one by one as in traditional discriminative recommendation. GenRec uses LLM's understanding ability to interpret context, learn user preferences, and generate relevant recommendation. Our proposed approach leverages the vast knowledge encoded in large language models to accomplish recommendation tasks. We first we formulate specialized prompts to enhance the ability of LLM to comprehend recomm
-    
-[^12]: 反事实协同推理
-
-    Counterfactual Collaborative Reasoning. (arXiv:2307.00165v1 [cs.IR])
-
-    [http://arxiv.org/abs/2307.00165](http://arxiv.org/abs/2307.00165)
-
-    本文提出了反事实协同推理（CCR）方法，通过整合反事实推理和逻辑推理来提高机器学习模型的准确性和可解释性。通过利用反事实推理生成困难的反事实训练样本进行数据增强，CCR在推荐系统中展示了如何缓解数据稀缺、提高准确性和增强透明度。
+    BHEISR模型通过消除过滤泡沫效应，促进信念和谐，通过利用个性化的类别信息激发用户的好奇心和兴趣，鼓励用户拓宽信念视野和探索新的信息。
 
     
 
-    因果推理和逻辑推理是人类智能的两种重要推理能力。然而，在机器智能背景下，它们的关系还未得到广泛探索。本文探讨了如何共同建模这两种推理能力，以提高机器学习模型的准确性和可解释性。具体而言，通过整合反事实推理和（神经）逻辑推理两种重要的推理能力，我们提出了反事实协同推理（CCR），它通过进行反事实逻辑推理来改进性能。特别是，我们以推荐系统为例，展示了CCR如何缓解数据稀缺、提高准确性和增强透明度。从技术上讲，我们利用反事实推理来生成“困难”的反事实训练样本进行数据增强，这与原始的训练样本一起可以提升模型性能。
+    在个性化推荐系统领域，人们越来越关注的是信念失衡和用户偏见的加剧现象，这一现象主要归因于过滤泡沫。针对这一关键问题，我们引入了一种创新的中介机构（BHEISR），将其置于用户和现有推荐系统之间，以减轻过滤泡沫效应在现有推荐系统中产生的负面影响。主要目标是为用户创造信念平衡，同时最小化过滤泡沫带来的不利影响。BHEISR模型融合了“推动理论”的原则，同时秉持民主和透明的原则。它利用用户特定的类别信息来激发好奇心，即使在用户可能最初认为不感兴趣的领域。通过逐步激发对新领域的兴趣，该模型鼓励用户拓宽信念视野并探索他们通常忽视的信息。我们的模型具有时间敏感性。
 
-    Causal reasoning and logical reasoning are two important types of reasoning abilities for human intelligence. However, their relationship has not been extensively explored under machine intelligence context. In this paper, we explore how the two reasoning abilities can be jointly modeled to enhance both accuracy and explainability of machine learning models. More specifically, by integrating two important types of reasoning ability -- counterfactual reasoning and (neural) logical reasoning -- we propose Counterfactual Collaborative Reasoning (CCR), which conducts counterfactual logic reasoning to improve the performance. In particular, we use recommender system as an example to show how CCR alleviate data scarcity, improve accuracy and enhance transparency. Technically, we leverage counterfactual reasoning to generate "difficult" counterfactual training examples for data augmentation, which -together with the original training examples -- can enhance the model performance. Since the 
+    In the realm of personalized recommendation systems, the increasing concern is the amplification of belief imbalance and user biases, a phenomenon primarily attributed to the filter bubble. Addressing this critical issue, we introduce an innovative intermediate agency (BHEISR) between users and existing recommendation systems to attenuate the negative repercussions of the filter bubble effect in extant recommendation systems. The main objective is to strike a belief balance for users while minimizing the detrimental influence caused by filter bubbles. The BHEISR model amalgamates principles from nudge theory while upholding democratic and transparent principles. It harnesses user-specific category information to stimulate curiosity, even in areas users might initially deem uninteresting. By progressively stimulating interest in novel categories, the model encourages users to broaden their belief horizons and explore the information they typically overlook. Our model is time-sensitive a
     
-[^13]: 以提示为基础的个性化冷启动推荐的研究
+[^7]: 跨模态内容推理与特征增强用于冷启动推荐
 
-    Towards Personalized Cold-Start Recommendation with Prompts. (arXiv:2306.17256v1 [cs.IR])
+    Cross-Modal Content Inference and Feature Enrichment for Cold-Start Recommendation. (arXiv:2307.02761v1 [cs.IR])
 
-    [http://arxiv.org/abs/2306.17256](http://arxiv.org/abs/2306.17256)
+    [http://arxiv.org/abs/2307.02761](http://arxiv.org/abs/2307.02761)
 
-    本研究旨在解决个性化冷启动推荐问题，通过利用预训练语言模型的能力，将推荐过程转化为自然语言情感分析，提供适用于创业企业和用户参与历史不足的平台的个性化推荐。
-
-    
-
-    推荐系统在根据用户过去的行为帮助用户发现与其兴趣相符的信息方面发挥着关键作用。然而，当用户和物品之间的历史交互记录不可用时，开发个性化推荐系统变得具有挑战性，这就是所谓的系统冷启动推荐问题。此问题在创业企业或用户参与历史不足的平台中尤为突出。以往的研究集中在用户或物品的冷启动场景，其中系统仍然通过在同一领域中的历史用户和物品交互进行训练来为新用户或物品提供推荐，而无法解决我们的问题。为了弥合这一鸿沟，我们的研究引入了一种创新且有效的方法，利用预训练语言模型的能力。我们将推荐过程转化为自然语言情感分析，其中包含用户资料和物品属性的信息。
-
-    Recommender systems play a crucial role in helping users discover information that aligns with their interests based on their past behaviors. However, developing personalized recommendation systems becomes challenging when historical records of user-item interactions are unavailable, leading to what is known as the system cold-start recommendation problem. This issue is particularly prominent in start-up businesses or platforms with insufficient user engagement history. Previous studies focus on user or item cold-start scenarios, where systems could make recommendations for new users or items but are still trained with historical user-item interactions in the same domain, which cannot solve our problem. To bridge the gap, our research introduces an innovative and effective approach, capitalizing on the capabilities of pre-trained language models. We transform the recommendation process into sentiment analysis of natural languages containing information of user profiles and item attribu
-    
-[^14]: 推荐系统的最新发展：综述
-
-    Recent Developments in Recommender Systems: A Survey. (arXiv:2306.12680v1 [cs.IR])
-
-    [http://arxiv.org/abs/2306.12680](http://arxiv.org/abs/2306.12680)
-
-    本篇综述全面总结了推荐系统领域的最新进展和趋势，包括推荐系统分类，知识推荐系统，鲁棒性，数据偏见和公平性问题，以及评估度量。该研究还提供了未来研究的新方向。
+    本文提出了一个推荐框架，名为跨模态内容推理与特征增强推荐 (CIERec)，利用多模态信息来改善冷启动推荐性能，引入图像注释作为特权信息，通过融合协同、视觉和语义信息来增强内容表示。
 
     
 
-    这篇技术综述全面总结了推荐系统领域的最新进展。本研究的目的是提供领域内现状的概述，并强调推荐系统发展的最新趋势。该研究首先全面总结了主要推荐系统分类方法，包括个性化和群组推荐系统，然后深入探讨了基于知识的推荐系统类别。此外，该综述分析了推荐系统中的鲁棒性、数据偏见和公平性问题，并总结了评估度量用于评估这些系统的性能。最后，研究提供了有关推荐系统发展的最新趋势的见解，并强调了未来研究的新方向。
+    多媒体推荐旨在融合物品的多模态信息，通过特征增强来提高推荐性能。然而，现有方法通常基于协同信息引入多模态信息，以提高整体推荐精度，但未探索冷启动推荐性能。同时，这些方法仅适用于当有多模态数据可用时。为解决这个问题，本文提出了一个推荐框架，命名为跨模态内容推理与特征增强推荐 (CIERec)，它利用多模态信息来改善其冷启动推荐性能。具体而言，CIERec首先在训练阶段引入图像注释作为特权信息，以帮助指导从视觉空间到语义空间的统一特征映射。然后，CIERec通过协同、视觉和语义信息的融合来增强内容表示。
 
-    In this technical survey, we comprehensively summarize the latest advancements in the field of recommender systems. The objective of this study is to provide an overview of the current state-of-the-art in the field and highlight the latest trends in the development of recommender systems. The study starts with a comprehensive summary of the main taxonomy of recommender systems, including personalized and group recommender systems, and then delves into the category of knowledge-based recommender systems. In addition, the survey analyzes the robustness, data bias, and fairness issues in recommender systems, summarizing the evaluation metrics used to assess the performance of these systems. Finally, the study provides insights into the latest trends in the development of recommender systems and highlights the new directions for future research in the field.
+    Multimedia recommendation aims to fuse the multi-modal information of items for feature enrichment to improve the recommendation performance. However, existing methods typically introduce multi-modal information based on collaborative information to improve the overall recommendation precision, while failing to explore its cold-start recommendation performance. Meanwhile, these above methods are only applicable when such multi-modal data is available. To address this problem, this paper proposes a recommendation framework, named Cross-modal Content Inference and Feature Enrichment Recommendation (CIERec), which exploits the multi-modal information to improve its cold-start recommendation performance. Specifically, CIERec first introduces image annotation as the privileged information to help guide the mapping of unified features from the visual space to the semantic space in the training phase. And then CIERec enriches the content representation with the fusion of collaborative, visual
     
-[^15]: 最好的多语言文档嵌入是否仅基于句子嵌入？
+[^8]: 知识图谱自监督合理化方法用于推荐系统的研究
 
-    Are the Best Multilingual Document Embeddings simply Based on Sentence Embeddings?. (arXiv:2304.14796v1 [cs.CL])
+    Knowledge Graph Self-Supervised Rationalization for Recommendation. (arXiv:2307.02759v1 [cs.IR])
 
-    [http://arxiv.org/abs/2304.14796](http://arxiv.org/abs/2304.14796)
+    [http://arxiv.org/abs/2307.02759](http://arxiv.org/abs/2307.02759)
 
-    本文系统比较了从句子级别嵌入中产生文档级嵌入的方法，基于预训练的多语言模型LASER、LaBSE和Sentence BERT。我们着重比较了输入令牌数截断、句子平均以及一些简单的窗口方法，对三个多语言和跨语言任务表现进行了比较。
-
-    
-
-    在现代自然语言处理中，文本数据的密集向量表征至关重要。从原始文本估计的词嵌入和句子嵌入是在多种需要语义理解的任务中实现最新成果的关键。然而，由于计算需求和缺乏适当的数据，获取文档级别的嵌入是具有挑战性的。相反，大多数方法退而使用基于句子表示的文档嵌入计算。尽管存在一些用于完全编码文档的体系结构和模型，但它们通常仅限于英语和其他几种高资源语言。在本文中，我们基于预训练的多语言模型LASER、LaBSE和Sentence BERT，系统比较从句子中产生文档级表示的方法。我们比较输入令牌数截断、句子平均以及一些简单的窗口方法，在三个多语言和跨语言任务中进行比较。
-
-    Dense vector representations for textual data are crucial in modern NLP. Word embeddings and sentence embeddings estimated from raw texts are key in achieving state-of-the-art results in various tasks requiring semantic understanding. However, obtaining embeddings at the document level is challenging due to computational requirements and lack of appropriate data. Instead, most approaches fall back on computing document embeddings based on sentence representations. Although there exist architectures and models to encode documents fully, they are in general limited to English and few other high-resourced languages. In this work, we provide a systematic comparison of methods to produce document-level representations from sentences based on LASER, LaBSE, and Sentence BERT pre-trained multilingual models. We compare input token number truncation, sentence averaging as well as some simple windowing and in some cases new augmented and learnable approaches, on 3 multiand cross-lingual tasks 
-    
-[^16]: 集成知识蒸馏用于CTR预测
-
-    Ensemble Knowledge Distillation for CTR Prediction. (arXiv:2011.04106v2 [cs.LG] UPDATED)
-
-    [http://arxiv.org/abs/2011.04106](http://arxiv.org/abs/2011.04106)
-
-    本论文针对CTR预测提出了一种集成知识蒸馏的模型训练策略，该策略能够通过教师模型将知识传输给学生模型，并取得了显著的准确性提升。
+    这项研究提出了一种新的自监督合理化方法KGRec，用于知识感知的推荐系统。通过关注知识合理化机制和生成对比度自监督任务，KGRec能够有效地识别有信息量的知识连接，并利用这些连接进行推荐。
 
     
 
-    最近，基于深度学习的模型在点击率（CTR）预测方面得到了广泛的研究，并在许多工业应用中提高了预测准确性。然而，目前的研究主要集中在构建复杂的网络架构来更好地捕捉复杂的特征交互和动态用户行为。增加的模型复杂性可能会减慢在线推断速度，并阻碍其在实时应用中的应用。相反，我们的工作针对的是一种基于知识蒸馏（KD）的新模型训练策略。KD是一种将来自教师模型的知识转移给学生模型的教师-学生学习框架。知识蒸馏策略不仅允许我们将学生模型简化为传统的神经网络模型，而且还在准确性上显著提高了超越最先进的教师模型。这些优点促使我们进一步探索使用强大的教师集合来进行更准确的学生模型训练。
+    本文介绍了一种新的自监督合理化方法，称为KGRec，用于知识感知的推荐系统。为了有效地识别有信息量的知识连接，我们提出了一种关注知识合理化机制，为知识三元组生成合理化得分。通过这些得分，KGRec通过合理化掩码集成生成和对比度自监督任务进行推荐。为了突出知识图谱中的合理性，我们设计了一种以掩码重建形式的新型生成任务。通过使用高合理化得分对重要知识进行掩码，KGRec被训练来重建并突出有用的知识连接，作为合理的依据。为了进一步合理化协同交互对知识图谱学习的影响，我们引入了一种对比度学习任务，对齐来自知识和用户-物品交互视图的信号。为了确保对比度的抗噪声性，通过判断两个图中的潜在噪声边缘，
 
-    Recently, deep learning-based models have been widely studied for click-through rate (CTR) prediction and lead to improved prediction accuracy in many industrial applications. However, current research focuses primarily on building complex network architectures to better capture sophisticated feature interactions and dynamic user behaviors. The increased model complexity may slow down online inference and hinder its adoption in real-time applications. Instead, our work targets at a new model training strategy based on knowledge distillation (KD). KD is a teacher-student learning framework to transfer knowledge learned from a teacher model to a student model. The KD strategy not only allows us to simplify the student model as a vanilla DNN model but also achieves significant accuracy improvements over the state-of-the-art teacher models. The benefits thus motivate us to further explore the use of a powerful ensemble of teachers for more accurate student model training. We also propose s
+    In this paper, we introduce a new self-supervised rationalization method, called KGRec, for knowledge-aware recommender systems. To effectively identify informative knowledge connections, we propose an attentive knowledge rationalization mechanism that generates rational scores for knowledge triplets. With these scores, KGRec integrates generative and contrastive self-supervised tasks for recommendation through rational masking. To highlight rationales in the knowledge graph, we design a novel generative task in the form of masking-reconstructing. By masking important knowledge with high rational scores, KGRec is trained to rebuild and highlight useful knowledge connections that serve as rationales. To further rationalize the effect of collaborative interactions on knowledge graph learning, we introduce a contrastive learning task that aligns signals from knowledge and user-item interaction views. To ensure noise-resistant contrasting, potential noisy edges in both graphs judged by the
     
-[^17]: 利用人类记忆过程模拟音乐类型偏好以实现个性化音乐推荐
+[^9]: 使用目标领域描述的密集检索适应
 
-    Utilizing Human Memory Processes to Model Genre Preferences for Personalized Music Recommendations. (arXiv:2003.10699v2 [cs.IR] UPDATED)
+    Dense Retrieval Adaptation using Target Domain Description. (arXiv:2307.02740v1 [cs.IR])
 
-    [http://arxiv.org/abs/2003.10699](http://arxiv.org/abs/2003.10699)
+    [http://arxiv.org/abs/2307.02740](http://arxiv.org/abs/2307.02740)
 
-    本文基于心理学模型，利用人类记忆过程来模拟和预测不同用户群体的音乐类型偏好。通过分析超过十亿条音乐收听记录数据集，发现该方法对于不同用户群体的预测准确性显著优于其他基准算法，并且具有透明和可解释性的特点。
+    本文提出了一种新的信息检索领域适应方法，该方法假设检索模型无法访问目标文档集，但可以访问描述目标领域的简要文本描述。
 
     
 
-    本文介绍了一种受心理学启发的方法，通过利用人类记忆过程来模拟和预测不同用户群体的音乐类型偏好。这些过程描述了人类如何通过考虑过去使用频率、过去使用时效以及当前上下文来访问其记忆中的信息单元。使用公开可用的超过十亿条在音乐流媒体平台Last.fm上分享的音乐收听记录数据集，我们发现我们的方法对于所有评估的用户群体，即低主流音乐听众、中等主流音乐听众和高主流音乐听众，提供了显著更好的预测准确性结果。此外，我们的方法基于一个简单的心理模型，有助于透明和可解释性的计算预测。
+    在信息检索中，领域适应是将检索模型适应于数据分布与源领域不同的新领域的过程。现有的方法集中于无监督领域适应，在这种情况下，它们可以访问目标文档集，或者是监督（通常是少样本）领域适应，在这种情况下，它们还可以访问目标领域中（有限的）标记数据。还存在一些研究致力于改善没有适应的检索模型的零样本性能。本文介绍了信息检索中尚未探索的一类新的领域适应方法。在这种情况下，与零样本设置类似，我们假设检索模型无法访问目标文档集，但可以访问一个简要的文本描述，说明目标领域。我们定义了一个领域属性的分类学，用于理解源领域可以适应到目标领域的不同特性。
 
-    In this paper, we introduce a psychology-inspired approach to model and predict the music genre preferences of different groups of users by utilizing human memory processes. These processes describe how humans access information units in their memory by considering the factors of (i) past usage frequency, (ii) past usage recency, and (iii) the current context. Using a publicly available dataset of more than a billion music listening records shared on the music streaming platform Last.fm, we find that our approach provides significantly better prediction accuracy results than various baseline algorithms for all evaluated user groups, i.e., (i) low-mainstream music listeners, (ii) medium-mainstream music listeners, and (iii) high-mainstream music listeners. Furthermore, our approach is based on a simple psychological model, which contributes to the transparency and explainability of the calculated predictions.
+    In information retrieval (IR), domain adaptation is the process of adapting a retrieval model to a new domain whose data distribution is different from the source domain. Existing methods in this area focus on unsupervised domain adaptation where they have access to the target document collection or supervised (often few-shot) domain adaptation where they additionally have access to (limited) labeled data in the target domain. There also exists research on improving zero-shot performance of retrieval models with no adaptation. This paper introduces a new category of domain adaptation in IR that is as-yet unexplored. Here, similar to the zero-shot setting, we assume the retrieval model does not have access to the target document collection. In contrast, it does have access to a brief textual description that explains the target domain. We define a taxonomy of domain attributes in retrieval tasks to understand different properties of a source domain that can be adapted to a target domain
+    
+[^10]: 可视化探究与COVID-19疫苗接种态度相关的讨论话题
+
+    Visualizing Relation Between (De)Motivating Topics and Public Stance toward COVID-19 Vaccine. (arXiv:2306.12118v1 [cs.CY])
+
+    [http://arxiv.org/abs/2306.12118](http://arxiv.org/abs/2306.12118)
+
+    研究了社交媒体上COVID-19话题对公众接种疫苗态度的影响，提出了交互式可视化工具，可以分析话题共鸣和动力转移，增加研究与公众的透明度。
+
+    
+
+    社交媒体在当今通讯中起到了至关重要的作用，但误导和恶意评论很容易占据话题，引导公众舆论。在COVID-19疫情期间，我们看到了不实信息的影响，公共卫生官员在试图激励公众接种疫苗时遭到了重大抵制。为了应对当前和任何未来的紧急威胁，并激励公众朝着一个共同的目标前进，我们需要了解公众动力的转移以及哪些话题在普通民众中有共鸣。在本研究中，我们提出了一个交互式可视化工具，以检查和分析COVID-19疫情期间Twitter-sphere中的话题，并了解关键因素是什么导致公众对接种疫苗的态度转变。该工具可以轻松推广为任何情景的视觉分析工具，并增加社交媒体数据对研究人员和普通民众的透明度。
+
+    While social media plays a vital role in communication nowadays, misinformation and trolls can easily take over the conversation and steer public opinion on these platforms. We saw the effect of misinformation during the {COVID-19} pandemic when public health officials faced significant push-back while trying to motivate the public to vaccinate. To tackle the current and any future threats in emergencies and motivate the public towards a common goal, it is essential to understand how public motivation shifts and which topics resonate among the general population. In this study, we proposed an interactive visualization tool to inspect and analyze the topics that resonated among Twitter-sphere during the {COVID-19} pandemic and understand the key factors that shifted public stance for vaccination. This tool can easily be generalized for any scenario for visual analysis and to increase the transparency of social media data for researchers and the general population alike.
+    
+[^11]: 为向量搜索进行硬件和算法的共同设计
+
+    Co-design Hardware and Algorithm for Vector Search. (arXiv:2306.11182v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2306.11182](http://arxiv.org/abs/2306.11182)
+
+    本论文提出了一个在FPGA上的向量搜索框架FANNS，实现了硬件和算法的共同设计，可以根据用户需求和硬件预算生成相应的加速器。与FPGA和CPU基准相比，FANNS实现了显著的加速，并展现了卓越的可扩展性。
+
+    
+
+    向量搜索已成为大规模信息检索和机器学习系统的基础，像Google和Bing这样的搜索引擎通过评估编码查询文本和网络文档之间的向量相似度，每秒处理数万个查询，在拥有PB级文档数据集的情况下。随着对向量搜索系统性能的需求激增，在摩尔定律时代后，加速硬件成为了一个有前景的解决方案。我们介绍了一个在FPGA上的端到端可扩展向量搜索框架FANNS。给定用户提供的对数据集的召回要求和硬件资源预算，FANNS自动进行硬件和算法的共同设计，随后生成相应的加速器。该框架还通过在加速器中引入硬件TCP/IP堆栈来支持规模扩展。与FPGA和CPU基准相比，FANNS分别实现了23.0倍和37.2倍的加速，并展现了卓越的可扩展性。
+
+    Vector search has emerged as the foundation for large-scale information retrieval and machine learning systems, with search engines like Google and Bing processing tens of thousands of queries per second on petabyte-scale document datasets by evaluating vector similarities between encoded query texts and web documents. As performance demands for vector search systems surge, accelerated hardware offers a promising solution in the post-Moore's Law era. We introduce \textit{FANNS}, an end-to-end and scalable vector search framework on FPGAs. Given a user-provided recall requirement on a dataset and a hardware resource budget, \textit{FANNS} automatically co-designs hardware and algorithm, subsequently generating the corresponding accelerator. The framework also supports scale-out by incorporating a hardware TCP/IP stack in the accelerator. \textit{FANNS} attains up to 23.0$\times$ and 37.2$\times$ speedup compared to FPGA and CPU baselines, respectively, and demonstrates superior scalabil
+    
+[^12]: 在算法策划平台上建模内容创作者的激励机制
+
+    Modeling Content Creator Incentives on Algorithm-Curated Platforms. (arXiv:2206.13102v2 [cs.GT] UPDATED)
+
+    [http://arxiv.org/abs/2206.13102](http://arxiv.org/abs/2206.13102)
+
+    该论文讨论了在线平台上内容创作者激励机制的建模，通过分析算法选择对曝光游戏（包括现代分解和两塔架构）中（纳什）均衡的影响，提出了使用曝光游戏模型进行预部署审计的方法，以识别期望和激励内容之间的不匹配。
+
+    
+
+    内容创作者在争夺用户注意力。他们的影响力在很大程度上取决于在线平台开发者所做的算法选择。为了最大限度地提高曝光率，许多创作者采取战略性的调整，如搜索引擎优化行业的例子所证明。这导致了对有限用户注意力池的竞争。我们在所谓的曝光游戏中形式化了这些动态，这是一种由算法引起的激励模型，其中包括现代分解和（深层）两塔架构。我们证明了看似无害的算法选择，例如非负与无约束分解，在曝光游戏中显著影响（纳什）均衡的存在和特性。我们提出使用创作者行为模型，如曝光游戏，进行（ex-ante）预部署审计。这样的审计可以识别期望和激励内容之间的不匹配，并在内容过滤和管理等事后措施上进行补充。为此，我们提出了一些工具。
+
+    Content creators compete for user attention. Their reach crucially depends on algorithmic choices made by developers on online platforms. To maximize exposure, many creators adapt strategically, as evidenced by examples like the sprawling search engine optimization industry. This begets competition for the finite user attention pool. We formalize these dynamics in what we call an exposure game, a model of incentives induced by algorithms, including modern factorization and (deep) two-tower architectures. We prove that seemingly innocuous algorithmic choices, e.g., non-negative vs. unconstrained factorization, significantly affect the existence and character of (Nash) equilibria in exposure games. We proffer use of creator behavior models, like exposure games, for an (ex-ante) pre-deployment audit. Such an audit can identify misalignment between desirable and incentivized content, and thus complement post-hoc measures like content filtering and moderation. To this end, we propose tools 
     
 
