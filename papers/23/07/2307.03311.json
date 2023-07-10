@@ -1,0 +1,12 @@
+{
+    "title": "On Invariance, Equivariance, Correlation and Convolution of Spherical Harmonic Representations for Scalar and Vectorial Data. (arXiv:2307.03311v1 [cs.LG])",
+    "abstract": "The mathematical representations of data in the Spherical Harmonic (SH) domain has recently regained increasing interest in the machine learning community. This technical report gives an in-depth introduction to the theoretical foundation and practical implementation of SH representations, summarizing works on rotation invariant and equivariant features, as well as convolutions and exact correlations of signals on spheres. In extension, these methods are then generalized from scalar SH representations to Vectorial Harmonics (VH), providing the same capabilities for 3d vector fields on spheres",
+    "link": "http://arxiv.org/abs/2307.03311",
+    "context": "Title: On Invariance, Equivariance, Correlation and Convolution of Spherical Harmonic Representations for Scalar and Vectorial Data. (arXiv:2307.03311v1 [cs.LG])\nAbstract: The mathematical representations of data in the Spherical Harmonic (SH) domain has recently regained increasing interest in the machine learning community. This technical report gives an in-depth introduction to the theoretical foundation and practical implementation of SH representations, summarizing works on rotation invariant and equivariant features, as well as convolutions and exact correlations of signals on spheres. In extension, these methods are then generalized from scalar SH representations to Vectorial Harmonics (VH), providing the same capabilities for 3d vector fields on spheres",
+    "path": "papers/23/07/2307.03311.json",
+    "total_tokens": 727,
+    "translated_title": "关于球面谐波表示的不变性、等变性、相关性和卷积的标量和矢量数据论文",
+    "translated_abstract": "最近，球面谐波（SH）域中的数据数学表示方法在机器学习界重新引起了越来越多的关注。本技术报告对SH表示的理论基础和实际实现进行了深入介绍，总结了关于旋转不变和等变特征以及球面上信号的卷积和精确相关性的工作。此外，这些方法从标量SH表示扩展到矢量谐波（VH），为球面上的3D矢量场提供相同的功能",
+    "tldr": "这篇论文介绍了球面谐波表示的理论基础和实际应用，包括旋转不变和等变特征，以及球面上信号的卷积和精确相关性。此外，还将这些方法推广到了矢量谐波表示。",
+    "en_tdlr": "This paper presents an in-depth introduction to the theoretical foundation and practical implementation of Spherical Harmonic (SH) representations, focusing on rotation invariant and equivariant features, as well as convolutions and exact correlations of signals on spheres. Furthermore, these methods are extended to Vectorial Harmonics (VH) for 3D vector fields on spheres."
+}

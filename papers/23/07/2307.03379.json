@@ -1,0 +1,12 @@
+{
+    "title": "Efficient Ground Vehicle Path Following in Game AI. (arXiv:2307.03379v1 [cs.AI])",
+    "abstract": "This short paper presents an efficient path following solution for ground vehicles tailored to game AI. Our focus is on adapting established techniques to design simple solutions with parameters that are easily tunable for an efficient benchmark path follower. Our solution pays particular attention to computing a target speed which uses quadratic Bezier curves to estimate the path curvature. The performance of the proposed path follower is evaluated through a variety of test scenarios in a first-person shooter game, demonstrating its effectiveness and robustness in handling different types of paths and vehicles. We achieved a 70% decrease in the total number of stuck events compared to an existing path following solution.",
+    "link": "http://arxiv.org/abs/2307.03379",
+    "context": "Title: Efficient Ground Vehicle Path Following in Game AI. (arXiv:2307.03379v1 [cs.AI])\nAbstract: This short paper presents an efficient path following solution for ground vehicles tailored to game AI. Our focus is on adapting established techniques to design simple solutions with parameters that are easily tunable for an efficient benchmark path follower. Our solution pays particular attention to computing a target speed which uses quadratic Bezier curves to estimate the path curvature. The performance of the proposed path follower is evaluated through a variety of test scenarios in a first-person shooter game, demonstrating its effectiveness and robustness in handling different types of paths and vehicles. We achieved a 70% decrease in the total number of stuck events compared to an existing path following solution.",
+    "path": "papers/23/07/2307.03379.json",
+    "total_tokens": 747,
+    "translated_title": "游戏AI中高效的地面车辆路径跟随方案",
+    "translated_abstract": "本文介绍了一种专为游戏AI设计的高效路径跟随解决方案。我们重点是通过调整已建立的技术，设计出具有可调参数、高效的基准路径跟随器的简单解决方案。我们的解决方案特别关注计算目标速度，使用二次贝塞尔曲线来估计路径曲率。通过在第一人称射击游戏中进行各种测试场景，评估了所提出的路径跟随器的性能，展示了其在处理不同类型的路径和车辆时的效果和稳健性。与现有路径跟随解决方案相比，我们实现了总卡住事件数量减少70%的效果。",
+    "tldr": "本文介绍了一种专为游戏AI设计的高效路径跟随解决方案，通过调整已有技术，设计出具有可调参数的简单解决方案，并通过测试场景验证了其在不同类型路径和车辆上的效果和稳健性，在总卡住事件数量上取得了70%的减少。",
+    "en_tdlr": "This paper presents an efficient path following solution tailored to game AI, achieving a 70% decrease in stuck events by adapting established techniques and providing easily tunable parameters."
+}

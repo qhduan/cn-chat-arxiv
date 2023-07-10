@@ -1,0 +1,11 @@
+{
+    "title": "Covering Uncommon Ground: Gap-Focused Question Generation for Answer Assessment. (arXiv:2307.03319v1 [cs.CL])",
+    "abstract": "Human communication often involves information gaps between the interlocutors. For example, in an educational dialogue, a student often provides an answer that is incomplete, and there is a gap between this answer and the perfect one expected by the teacher. Successful dialogue then hinges on the teacher asking about this gap in an effective manner, thus creating a rich and interactive educational experience. We focus on the problem of generating such gap-focused questions (GFQs) automatically. We define the task, highlight key desired aspects of a good GFQ, and propose a model that satisfies these. Finally, we provide an evaluation by human annotators of our generated questions compared against human generated ones, demonstrating competitive performance.",
+    "link": "http://arxiv.org/abs/2307.03319",
+    "context": "Title: Covering Uncommon Ground: Gap-Focused Question Generation for Answer Assessment. (arXiv:2307.03319v1 [cs.CL])\nAbstract: Human communication often involves information gaps between the interlocutors. For example, in an educational dialogue, a student often provides an answer that is incomplete, and there is a gap between this answer and the perfect one expected by the teacher. Successful dialogue then hinges on the teacher asking about this gap in an effective manner, thus creating a rich and interactive educational experience. We focus on the problem of generating such gap-focused questions (GFQs) automatically. We define the task, highlight key desired aspects of a good GFQ, and propose a model that satisfies these. Finally, we provide an evaluation by human annotators of our generated questions compared against human generated ones, demonstrating competitive performance.",
+    "path": "papers/23/07/2307.03319.json",
+    "total_tokens": 723,
+    "translated_title": "掩盖罕见领域：针对答案评估的重点间隙问题生成",
+    "translated_abstract": "人类交流通常涉及对话者之间的信息差距。例如，在教育对话中，学生通常提供一个不完整的答案，与教师期望的完美答案之间存在差距。成功的对话依赖于老师有效地询问这个差距，从而创建一个丰富和互动的教育经验。我们专注于自动生成这种重点间隙问题（GFQ）的问题。我们定义了任务，强调了一个好的GFQ的关键方面，并提出了一个满足这些要求的模型。最后，我们通过人类注释员对我们生成的问题与人类生成的问题进行了评估，证明了竞争性的性能。",
+    "tldr": "这篇论文致力于自动生成重点间隙问题（GFQ），通过定义任务、提出模型并与人工生成问题进行比较，证明了竞争性的性能。"
+}

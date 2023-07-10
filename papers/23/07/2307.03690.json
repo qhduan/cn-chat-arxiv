@@ -1,0 +1,12 @@
+{
+    "title": "Suppressing unknown disturbances to dynamical systems using machine learning. (arXiv:2307.03690v1 [eess.SY])",
+    "abstract": "Identifying and suppressing unknown disturbances to dynamical systems is a problem with applications in many different fields. In this Letter, we present a model-free method to identify and suppress an unknown disturbance to an unknown system based only on previous observations of the system under the influence of a known forcing function. We find that, under very mild restrictions on the training function, our method is able to robustly identify and suppress a large class of unknown disturbances. We illustrate our scheme with an example where a chaotic disturbance to the Lorenz system is identified and suppressed.",
+    "link": "http://arxiv.org/abs/2307.03690",
+    "context": "Title: Suppressing unknown disturbances to dynamical systems using machine learning. (arXiv:2307.03690v1 [eess.SY])\nAbstract: Identifying and suppressing unknown disturbances to dynamical systems is a problem with applications in many different fields. In this Letter, we present a model-free method to identify and suppress an unknown disturbance to an unknown system based only on previous observations of the system under the influence of a known forcing function. We find that, under very mild restrictions on the training function, our method is able to robustly identify and suppress a large class of unknown disturbances. We illustrate our scheme with an example where a chaotic disturbance to the Lorenz system is identified and suppressed.",
+    "path": "papers/23/07/2307.03690.json",
+    "total_tokens": 729,
+    "translated_title": "使用机器学习抑制动力系统中的未知干扰",
+    "translated_abstract": "识别和抑制动力系统中的未知干扰是一个在许多不同领域中应用的问题。在本文中，我们提出了一种无模型的方法，仅基于系统在已知强迫函数影响下的先前观测来识别和抑制未知系统的未知干扰。我们发现，在对训练函数有非常温和的限制下，我们的方法能够稳健地识别和抑制大类别的未知干扰。我们通过一个示例说明了我们的方案，其中识别和抑制了 Lorenz 系统的混沌干扰。",
+    "tldr": "本文提出了一种使用机器学习的无模型方法，可以仅通过系统在已知强迫函数影响下的观测，识别和抑制未知系统的未知干扰。这项方法对训练函数有非常温和的限制，能够稳健地识别和抑制大类别的未知干扰。",
+    "en_tdlr": "This paper presents a model-free method using machine learning to identify and suppress unknown disturbances in dynamical systems based on previous observations. The method is able to robustly identify and suppress a large class of unknown disturbances with mild restrictions on the training function."
+}

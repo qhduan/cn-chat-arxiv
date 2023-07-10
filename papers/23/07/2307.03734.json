@@ -1,0 +1,11 @@
+{
+    "title": "Improving Automatic Quotation Attribution in Literary Novels. (arXiv:2307.03734v1 [cs.CL])",
+    "abstract": "Current models for quotation attribution in literary novels assume varying levels of available information in their training and test data, which poses a challenge for in-the-wild inference. Here, we approach quotation attribution as a set of four interconnected sub-tasks: character identification, coreference resolution, quotation identification, and speaker attribution. We benchmark state-of-the-art models on each of these sub-tasks independently, using a large dataset of annotated coreferences and quotations in literary novels (the Project Dialogism Novel Corpus). We also train and evaluate models for the speaker attribution task in particular, showing that a simple sequential prediction model achieves accuracy scores on par with state-of-the-art models.",
+    "link": "http://arxiv.org/abs/2307.03734",
+    "context": "Title: Improving Automatic Quotation Attribution in Literary Novels. (arXiv:2307.03734v1 [cs.CL])\nAbstract: Current models for quotation attribution in literary novels assume varying levels of available information in their training and test data, which poses a challenge for in-the-wild inference. Here, we approach quotation attribution as a set of four interconnected sub-tasks: character identification, coreference resolution, quotation identification, and speaker attribution. We benchmark state-of-the-art models on each of these sub-tasks independently, using a large dataset of annotated coreferences and quotations in literary novels (the Project Dialogism Novel Corpus). We also train and evaluate models for the speaker attribution task in particular, showing that a simple sequential prediction model achieves accuracy scores on par with state-of-the-art models.",
+    "path": "papers/23/07/2307.03734.json",
+    "total_tokens": 732,
+    "translated_title": "在文学小说中改进自动引用标注",
+    "translated_abstract": "当前文学小说中的引用标注模型假设其训练和测试数据具有不同程度的可用信息，这给野外推理带来了挑战。在本文中，我们将引用标注视为四个相互关联的子任务：角色识别、共指消解、引语识别和说话者归属。我们使用文学小说中注释的共指和引语的大型数据集（项目言对小说语料库）在每个子任务上对最先进的模型进行基准测试。我们还特别训练和评估说话者归属任务的模型，结果显示一个简单的顺序预测模型的准确性得分与最先进的模型相当。",
+    "tldr": "本研究通过将引用标注视为四个相互关联的子任务，改进了文学小说中的自动引用标注。实证结果表明，一个简单的顺序预测模型能够达到与最先进模型相似的准确性得分。"
+}

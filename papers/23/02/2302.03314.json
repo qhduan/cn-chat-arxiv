@@ -1,0 +1,12 @@
+{
+    "title": "Federated Variational Inference Methods for Structured Latent Variable Models. (arXiv:2302.03314v2 [stat.ML] UPDATED)",
+    "abstract": "Federated learning methods enable model training across distributed data sources without data leaving their original locations and have gained increasing interest in various fields. However, existing approaches are limited, excluding many structured probabilistic models. We present a general and elegant solution based on structured variational inference, widely used in Bayesian machine learning, adapted for the federated setting. Additionally, we provide a communication-efficient variant analogous to the canonical FedAvg algorithm. The proposed algorithms' effectiveness is demonstrated, and their performance is compared with hierarchical Bayesian neural networks and topic models.",
+    "link": "http://arxiv.org/abs/2302.03314",
+    "context": "Title: Federated Variational Inference Methods for Structured Latent Variable Models. (arXiv:2302.03314v2 [stat.ML] UPDATED)\nAbstract: Federated learning methods enable model training across distributed data sources without data leaving their original locations and have gained increasing interest in various fields. However, existing approaches are limited, excluding many structured probabilistic models. We present a general and elegant solution based on structured variational inference, widely used in Bayesian machine learning, adapted for the federated setting. Additionally, we provide a communication-efficient variant analogous to the canonical FedAvg algorithm. The proposed algorithms' effectiveness is demonstrated, and their performance is compared with hierarchical Bayesian neural networks and topic models.",
+    "path": "papers/23/02/2302.03314.json",
+    "total_tokens": 723,
+    "translated_title": "分布式潜变量模型的联合变分推断方法",
+    "translated_abstract": "联邦学习方法使得在数据分布的情况下进行模型训练成为可能，而无需数据离开其原始位置，并且在各个领域引起了越来越多的关注。然而，现有方法存在局限性，无法应用于许多结构化概率模型。我们提出了一种基于结构化变分推断的通用而优雅的解决方案，并针对联邦学习环境进行了适应。此外，我们提供了一种类似于经典FedAvg算法的通信高效型变体。通过与分层贝叶斯神经网络和主题模型进行比较，我们证明了所提出算法的有效性和性能。",
+    "tldr": "本论文提出了一种基于结构化变分推断的联合学习方法，该方法适用于各种结构化概率模型。此外，还提供了一种通信高效的变体算法，证明了所提出算法的有效性和性能。",
+    "en_tdlr": "This paper proposes a federated learning method based on structured variational inference, which is applicable to various structured probabilistic models. Additionally, a communication-efficient variant algorithm is provided, demonstrating the effectiveness and performance of the proposed algorithms."
+}

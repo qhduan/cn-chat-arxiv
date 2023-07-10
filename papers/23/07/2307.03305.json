@@ -1,0 +1,11 @@
+{
+    "title": "A Vulnerability of Attribution Methods Using Pre-Softmax Scores. (arXiv:2307.03305v1 [cs.LG])",
+    "abstract": "We discuss a vulnerability involving a category of attribution methods used to provide explanations for the outputs of convolutional neural networks working as classifiers. It is known that this type of networks are vulnerable to adversarial attacks, in which imperceptible perturbations of the input may alter the outputs of the model. In contrast, here we focus on effects that small modifications in the model may cause on the attribution method without altering the model outputs.",
+    "link": "http://arxiv.org/abs/2307.03305",
+    "context": "Title: A Vulnerability of Attribution Methods Using Pre-Softmax Scores. (arXiv:2307.03305v1 [cs.LG])\nAbstract: We discuss a vulnerability involving a category of attribution methods used to provide explanations for the outputs of convolutional neural networks working as classifiers. It is known that this type of networks are vulnerable to adversarial attacks, in which imperceptible perturbations of the input may alter the outputs of the model. In contrast, here we focus on effects that small modifications in the model may cause on the attribution method without altering the model outputs.",
+    "path": "papers/23/07/2307.03305.json",
+    "total_tokens": 628,
+    "translated_title": "使用前softmax分数的归属方法的一个漏洞",
+    "translated_abstract": "我们讨论了一类用于解释卷积神经网络分类器输出的归属方法的一个漏洞。已知这种类型的网络容易受到对抗性攻击的影响，即输入的微小扰动可能会改变模型的输出。与此不同的是，我们关注的是对归属方法进行小修改可能导致的影响，而不会改变模型的输出。",
+    "tldr": "这篇论文讨论了使用前softmax分数的归属方法的一个漏洞，该方法用于解释卷积神经网络分类器输出。与对抗性攻击不同，作者关注的是对归属方法进行小修改可能导致的影响，而不会改变模型的输出。"
+}

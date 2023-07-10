@@ -1,0 +1,11 @@
+{
+    "title": "Optimal Bandwidth Selection for DENCLUE. (arXiv:2307.03206v1 [cs.LG])",
+    "abstract": "In modern day industry, clustering algorithms are daily routines of algorithm engineers. Although clustering algorithms experienced rapid growth before 2010. Innovation related to the research topic has stagnated after deep learning became the de facto industrial standard for machine learning applications. In 2007, a density-based clustering algorithm named DENCLUE was invented to solve clustering problem for nonlinear data structures. However, its parameter selection problem was largely neglected until 2011. In this paper, we propose a new approach to compute the optimal parameters for the DENCLUE algorithm, and discuss its performance in the experiment section.",
+    "link": "http://arxiv.org/abs/2307.03206",
+    "context": "Title: Optimal Bandwidth Selection for DENCLUE. (arXiv:2307.03206v1 [cs.LG])\nAbstract: In modern day industry, clustering algorithms are daily routines of algorithm engineers. Although clustering algorithms experienced rapid growth before 2010. Innovation related to the research topic has stagnated after deep learning became the de facto industrial standard for machine learning applications. In 2007, a density-based clustering algorithm named DENCLUE was invented to solve clustering problem for nonlinear data structures. However, its parameter selection problem was largely neglected until 2011. In this paper, we propose a new approach to compute the optimal parameters for the DENCLUE algorithm, and discuss its performance in the experiment section.",
+    "path": "papers/23/07/2307.03206.json",
+    "total_tokens": 650,
+    "translated_title": "DENCLUE的最优带宽选择",
+    "translated_abstract": "在现代工业中，聚类算法是算法工程师的日常工作。尽管在2010年之前，聚类算法经历了快速增长，但在深度学习成为机器学习应用的实际工业标准之后，与该研究主题相关的创新停滞不前。2007年，提出了一种名为DENCLUE的基于密度的聚类算法，用于解决非线性数据结构的聚类问题。然而，直到2011年，该算法的参数选择问题仍然被大部分忽视。本文提出了一种计算DENCLUE算法最优参数的新方法，并在实验部分讨论了其性能。",
+    "tldr": "本文提出了一种计算DENCLUE算法最优参数的新方法，并在实验部分讨论了其性能。"
+}

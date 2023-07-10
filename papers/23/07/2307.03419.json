@@ -1,0 +1,12 @@
+{
+    "title": "QI2 -- an Interactive Tool for Data Quality Assurance. (arXiv:2307.03419v1 [cs.CY])",
+    "abstract": "The importance of high data quality is increasing with the growing impact and distribution of ML systems and big data. Also the planned AI Act from the European commission defines challenging legal requirements for data quality especially for the market introduction of safety relevant ML systems. In this paper we introduce a novel approach that supports the data quality assurance process of multiple data quality aspects. This approach enables the verification of quantitative data quality requirements. The concept and benefits are introduced and explained on small example data sets. How the method is applied is demonstrated on the well known MNIST data set based an handwritten digits.",
+    "link": "http://arxiv.org/abs/2307.03419",
+    "context": "Title: QI2 -- an Interactive Tool for Data Quality Assurance. (arXiv:2307.03419v1 [cs.CY])\nAbstract: The importance of high data quality is increasing with the growing impact and distribution of ML systems and big data. Also the planned AI Act from the European commission defines challenging legal requirements for data quality especially for the market introduction of safety relevant ML systems. In this paper we introduce a novel approach that supports the data quality assurance process of multiple data quality aspects. This approach enables the verification of quantitative data quality requirements. The concept and benefits are introduced and explained on small example data sets. How the method is applied is demonstrated on the well known MNIST data set based an handwritten digits.",
+    "path": "papers/23/07/2307.03419.json",
+    "total_tokens": 711,
+    "translated_title": "QI2 -- 一个用于数据质量保证的交互工具",
+    "translated_abstract": "高数据质量的重要性随着机器学习系统和大数据的增长影响和分布而增加。此外，欧洲委员会计划的AI法案为数据质量定义了具有挑战性的法律要求，特别是对于市场推出与安全相关的机器学习系统。本文介绍了一种支持多个数据质量方面的数据质量保证过程的新方法。这种方法可以验证定量数据质量要求。通过小例子数据集介绍和解释了该概念和优势。如何应用该方法在基于手写数字的知名MNIST数据集上进行了演示。",
+    "tldr": "本文介绍了一种用于数据质量保证的交互工具QI2，该工具支持对多个数据质量方面的验证和定量数据质量要求的验证。通过在MNIST数据集上进行演示，展示了该方法的应用和优势。",
+    "en_tdlr": "This paper introduces an interactive tool called QI2 for data quality assurance, which supports the verification of multiple aspects of data quality and quantitative data quality requirements. The application and benefits of this method are demonstrated on the MNIST dataset."
+}

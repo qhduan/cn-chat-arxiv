@@ -1,0 +1,12 @@
+{
+    "title": "Distilled Pruning: Using Synthetic Data to Win the Lottery. (arXiv:2307.03364v1 [cs.LG])",
+    "abstract": "This work introduces a novel approach to pruning deep learning models by using distilled data. Unlike conventional strategies which primarily focus on architectural or algorithmic optimization, our method reconsiders the role of data in these scenarios. Distilled datasets capture essential patterns from larger datasets, and we demonstrate how to leverage this capability to enable a computationally efficient pruning process. Our approach can find sparse, trainable subnetworks (a.k.a. Lottery Tickets) up to 5x faster than Iterative Magnitude Pruning at comparable sparsity on CIFAR-10. The experimental results highlight the potential of using distilled data for resource-efficient neural network pruning, model compression, and neural architecture search.",
+    "link": "http://arxiv.org/abs/2307.03364",
+    "context": "Title: Distilled Pruning: Using Synthetic Data to Win the Lottery. (arXiv:2307.03364v1 [cs.LG])\nAbstract: This work introduces a novel approach to pruning deep learning models by using distilled data. Unlike conventional strategies which primarily focus on architectural or algorithmic optimization, our method reconsiders the role of data in these scenarios. Distilled datasets capture essential patterns from larger datasets, and we demonstrate how to leverage this capability to enable a computationally efficient pruning process. Our approach can find sparse, trainable subnetworks (a.k.a. Lottery Tickets) up to 5x faster than Iterative Magnitude Pruning at comparable sparsity on CIFAR-10. The experimental results highlight the potential of using distilled data for resource-efficient neural network pruning, model compression, and neural architecture search.",
+    "path": "papers/23/07/2307.03364.json",
+    "total_tokens": 762,
+    "translated_title": "蒸馏修剪：使用合成数据赢得彩票的方法",
+    "translated_abstract": "该论文介绍了一种通过使用蒸馏数据来修剪深度学习模型的新方法。与传统策略主要关注体系结构或算法优化不同，我们的方法重新考虑了数据在这些场景中的作用。蒸馏数据集捕捉了更大数据集中的重要模式，并且我们展示了如何利用这种能力来实现计算效率高的修剪过程。我们的方法可以在CIFAR-10上比迭代幅值修剪更快地找到稀疏的可训练子网络（也称为彩票票）。实验结果突显了使用蒸馏数据进行资源高效的神经网络修剪、模型压缩和神经网络架构搜索的潜力。",
+    "tldr": "该论文介绍了一种使用蒸馏数据来修剪深度学习模型的新方法，能够比传统方法更快地找到稀疏的可训练子网络，具有资源高效的神经网络修剪潜力。",
+    "en_tdlr": "This paper introduces a novel approach to pruning deep learning models using distilled data, which enables faster discovery of sparse trainable subnetworks compared to conventional methods and has the potential for resource-efficient neural network pruning."
+}

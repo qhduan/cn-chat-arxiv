@@ -1,0 +1,12 @@
+{
+    "title": "Differential Privacy for Clustering Under Continual Observation. (arXiv:2307.03430v1 [cs.DS])",
+    "abstract": "We consider the problem of clustering privately a dataset in $\\mathbb{R}^d$ that undergoes both insertion and deletion of points. Specifically, we give an $\\varepsilon$-differentially private clustering mechanism for the $k$-means objective under continual observation. This is the first approximation algorithm for that problem with an additive error that depends only logarithmically in the number $T$ of updates. The multiplicative error is almost the same as non privately. To do so we show how to perform dimension reduction under continual observation and combine it with a differentially private greedy approximation algorithm for $k$-means. We also partially extend our results to the $k$-median problem.",
+    "link": "http://arxiv.org/abs/2307.03430",
+    "context": "Title: Differential Privacy for Clustering Under Continual Observation. (arXiv:2307.03430v1 [cs.DS])\nAbstract: We consider the problem of clustering privately a dataset in $\\mathbb{R}^d$ that undergoes both insertion and deletion of points. Specifically, we give an $\\varepsilon$-differentially private clustering mechanism for the $k$-means objective under continual observation. This is the first approximation algorithm for that problem with an additive error that depends only logarithmically in the number $T$ of updates. The multiplicative error is almost the same as non privately. To do so we show how to perform dimension reduction under continual observation and combine it with a differentially private greedy approximation algorithm for $k$-means. We also partially extend our results to the $k$-median problem.",
+    "path": "papers/23/07/2307.03430.json",
+    "total_tokens": 807,
+    "translated_title": "在持续观察下的聚类问题中的差分隐私",
+    "translated_abstract": "我们考虑在$\\mathbb{R}^d$中进行隐私聚类的问题，该问题在数据集中插入和删除点。具体来说，我们提供了一个在持续观察下的$\\varepsilon$-差分隐私聚类机制，用于 $k$-means 目标。这是该问题的第一个近似算法，其增加的误差仅以更新次数 $T$ 的对数依赖性。乘法误差与非隐私情况几乎相同。为此，我们展示了如何在持续观察中进行维度缩减，并将其与用于 $k$-means 的差分隐私贪心逼近算法相结合。我们还部分地将我们的结果推广到 $k$-median 问题上。",
+    "tldr": "本文提出了一种在持续观察下的差分隐私聚类机制，用于在被删除和插入数据点的数据集中进行聚类，这是第一个具有仅以更新次数的对数依赖性的增加误差的近似算法，并且乘法误差几乎与非隐私情况相同。",
+    "en_tdlr": "This paper proposes a differentially private clustering mechanism for clustering in a dataset that undergoes both insertion and deletion of points under constant observation. The algorithm has logarithmic dependence on the number of updates and achieves similar multiplicative error as the non-private case."
+}

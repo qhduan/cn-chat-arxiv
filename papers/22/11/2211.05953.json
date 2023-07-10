@@ -1,0 +1,12 @@
+{
+    "title": "Breadth-First Pipeline Parallelism. (arXiv:2211.05953v2 [cs.DC] UPDATED)",
+    "abstract": "We introduce Breadth-First Pipeline Parallelism, a novel training schedule which optimizes the combination of pipeline and data parallelism. Breadth-First Pipeline Parallelism lowers training time, cost and memory usage by combining a high GPU utilization with a small batch size per GPU, and by making use of fully sharded data parallelism. Experimentally, we observed an increase of up to 43% in training throughput for a 52 billion-parameter model using a small batch size per GPU compared to Megatron-LM, which would reduce the training time and cost by the same amount on a large GPU cluster.",
+    "link": "http://arxiv.org/abs/2211.05953",
+    "context": "Title: Breadth-First Pipeline Parallelism. (arXiv:2211.05953v2 [cs.DC] UPDATED)\nAbstract: We introduce Breadth-First Pipeline Parallelism, a novel training schedule which optimizes the combination of pipeline and data parallelism. Breadth-First Pipeline Parallelism lowers training time, cost and memory usage by combining a high GPU utilization with a small batch size per GPU, and by making use of fully sharded data parallelism. Experimentally, we observed an increase of up to 43% in training throughput for a 52 billion-parameter model using a small batch size per GPU compared to Megatron-LM, which would reduce the training time and cost by the same amount on a large GPU cluster.",
+    "path": "papers/22/11/2211.05953.json",
+    "total_tokens": 759,
+    "translated_title": "宽度优先的流水线并行计算方法",
+    "translated_abstract": "我们引入了一种新的训练调度方法——宽度优先的流水线并行计算，该方法优化了流水线和数据并行计算的结合。宽度优先的流水线并行计算通过在每个GPU上使用较小的批量大小并结合完全分片的数据并行计算，实现了高GPU利用率、降低训练时间、成本和内存使用。实验证明，相对于Megatron-LM，对于一个520亿参数的模型，使用较小的批量大小每个GPU的训练吞吐量增加了高达43%，从而在大型GPU集群上将训练时间和成本同样降低了。",
+    "tldr": "宽度优先的流水线并行计算方法结合了流水线和数据并行计算，通过在每个GPU上使用小批量大小和完全分片的数据并行计算，以提高训练吞吐量。在实验中，与Megatron-LM相比，在一个520亿参数的模型上，使用小批量大小每个GPU的训练吞吐量增加了高达43%。",
+    "en_tdlr": "Breadth-First Pipeline Parallelism combines pipeline and data parallelism by using small batch size per GPU and fully sharded data parallelism, leading to an increase of up to 43% in training throughput for a 52 billion-parameter model compared to Megatron-LM."
+}

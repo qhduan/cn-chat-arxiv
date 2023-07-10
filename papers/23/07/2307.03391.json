@@ -1,0 +1,12 @@
+{
+    "title": "On Adaptive Portfolio Management with Dynamic Black-Litterman Approach. (arXiv:2307.03391v1 [q-fin.PM])",
+    "abstract": "This paper presents a novel framework for adaptive portfolio management that combines a dynamic Black-Litterman optimization with the general factor model and Elastic Net regression. This integrated approach allows us to systematically generate investors' views and mitigate potential estimation errors. Our empirical results demonstrate that this combined approach can lead to computational advantages as well as promising trading performances.",
+    "link": "http://arxiv.org/abs/2307.03391",
+    "context": "Title: On Adaptive Portfolio Management with Dynamic Black-Litterman Approach. (arXiv:2307.03391v1 [q-fin.PM])\nAbstract: This paper presents a novel framework for adaptive portfolio management that combines a dynamic Black-Litterman optimization with the general factor model and Elastic Net regression. This integrated approach allows us to systematically generate investors' views and mitigate potential estimation errors. Our empirical results demonstrate that this combined approach can lead to computational advantages as well as promising trading performances.",
+    "path": "papers/23/07/2307.03391.json",
+    "total_tokens": 636,
+    "translated_title": "关于动态黑-利特曼方法的自适应投资组合管理研究",
+    "translated_abstract": "本文提出了一种新颖的自适应投资组合管理框架，该框架将动态黑-利特曼优化与一般因子模型和弹性网络回归相结合。这种综合方法能够系统地生成投资者的观点并减少潜在的估计误差。我们的实证结果表明，这种综合方法可以带来计算优势以及有希望的交易表现。",
+    "tldr": "本研究提出了一种结合动态黑-利特曼优化、一般因子模型和弹性网络回归的自适应投资组合管理框架，该框架能够在生成投资者观点和减少估计误差方面具有优势，并取得有希望的交易表现。",
+    "en_tdlr": "This study presents an adaptive portfolio management framework that combines dynamic Black-Litterman optimization, the general factor model, and Elastic Net regression, showing computational advantages and promising trading performances by systematically generating investors' views and mitigating potential estimation errors."
+}

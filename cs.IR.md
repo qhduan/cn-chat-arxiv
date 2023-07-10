@@ -2,187 +2,142 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [MultiVENT: Multilingual Videos of Events with Aligned Natural Text.](http://arxiv.org/abs/2307.03153) | 构建了一个名为MultiVENT的多语言、事件为中心的视频数据集，包括新闻广播视频和非专业活动素材。还提供了一个多语言视频检索模型作为使用MultiVENT进行信息检索的基线模型。 |
-| [^2] | [Track Mix Generation on Music Streaming Services using Transformers.](http://arxiv.org/abs/2307.03045) | 本文介绍了2022年在Deezer音乐流媒体服务上推出的Track Mix个性化歌单生成系统，通过使用Transformer模型分析用户播放列表的曲目序列来生成以初始音乐曲目为灵感的“混合”播放列表，提升用户在Deezer上的音乐发现体验。 |
-| [^3] | [Improving Retrieval-Augmented Large Language Models via Data Importance Learning.](http://arxiv.org/abs/2307.03027) | 本文通过多线性扩展算法评估检索增强模型中检索到的数据点的数据重要性，并提出了一个多项式时间算法来计算其数据重要性。实验结果表明，修剪或增强大型语言模型可以提高性能。 |
-| [^4] | [A Meta-Evaluation of C/W/L/A Metrics: System Ranking Similarity, System Ranking Consistency and Discriminative Power.](http://arxiv.org/abs/2307.02936) | 本研究通过对不同聚合方式的C/W/L/A指标进行元评估，研究发现它们在系统排名相似性、系统排名一致性和区分能力等方面具有一定的统计稳定性。 |
-| [^5] | [PLIERS: a Popularity-Based Recommender System for Content Dissemination in Online Social Networks.](http://arxiv.org/abs/2307.02865) | PLIERS是一种基于流行度的在线社交网络内容传播推荐系统，通过在算法复杂性和推荐物品的个性化水平之间取得平衡，提供了更好的个性化、相关性和推荐的新颖性。 |
-| [^6] | [BHEISR: Nudging from Bias to Balance -- Promoting Belief Harmony by Eliminating Ideological Segregation in Knowledge-based Recommendations.](http://arxiv.org/abs/2307.02797) | BHEISR模型通过消除过滤泡沫效应，促进信念和谐，通过利用个性化的类别信息激发用户的好奇心和兴趣，鼓励用户拓宽信念视野和探索新的信息。 |
-| [^7] | [Cross-Modal Content Inference and Feature Enrichment for Cold-Start Recommendation.](http://arxiv.org/abs/2307.02761) | 本文提出了一个推荐框架，名为跨模态内容推理与特征增强推荐 (CIERec)，利用多模态信息来改善冷启动推荐性能，引入图像注释作为特权信息，通过融合协同、视觉和语义信息来增强内容表示。 |
-| [^8] | [Knowledge Graph Self-Supervised Rationalization for Recommendation.](http://arxiv.org/abs/2307.02759) | 这项研究提出了一种新的自监督合理化方法KGRec，用于知识感知的推荐系统。通过关注知识合理化机制和生成对比度自监督任务，KGRec能够有效地识别有信息量的知识连接，并利用这些连接进行推荐。 |
-| [^9] | [Dense Retrieval Adaptation using Target Domain Description.](http://arxiv.org/abs/2307.02740) | 本文提出了一种新的信息检索领域适应方法，该方法假设检索模型无法访问目标文档集，但可以访问描述目标领域的简要文本描述。 |
-| [^10] | [Visualizing Relation Between (De)Motivating Topics and Public Stance toward COVID-19 Vaccine.](http://arxiv.org/abs/2306.12118) | 研究了社交媒体上COVID-19话题对公众接种疫苗态度的影响，提出了交互式可视化工具，可以分析话题共鸣和动力转移，增加研究与公众的透明度。 |
-| [^11] | [Co-design Hardware and Algorithm for Vector Search.](http://arxiv.org/abs/2306.11182) | 本论文提出了一个在FPGA上的向量搜索框架FANNS，实现了硬件和算法的共同设计，可以根据用户需求和硬件预算生成相应的加速器。与FPGA和CPU基准相比，FANNS实现了显著的加速，并展现了卓越的可扩展性。 |
-| [^12] | [Modeling Content Creator Incentives on Algorithm-Curated Platforms.](http://arxiv.org/abs/2206.13102) | 该论文讨论了在线平台上内容创作者激励机制的建模，通过分析算法选择对曝光游戏（包括现代分解和两塔架构）中（纳什）均衡的影响，提出了使用曝光游戏模型进行预部署审计的方法，以识别期望和激励内容之间的不匹配。 |
+| [^1] | [Comparing Apples to Apples: Generating Aspect-Aware Comparative Sentences from User Review.](http://arxiv.org/abs/2307.03691) | 该论文提出了一个模型，利用用户评论和相关项目特征生成对比评价句子，以帮助用户找到最适合的产品。该模型包括项目编码模块、比较生成模块和个性化解码方法，并通过人类评估验证了生成句子的相关性和真实性。 |
+| [^2] | [Undecimated Wavelet Transform for Word Embedded Semantic Marginal Autoencoder in Security improvement and Denoising different Languages.](http://arxiv.org/abs/2307.03679) | 本研究提出了一种将不可降解小波变换与嵌入语义边缘自动编码器相结合的新策略，用于改善多语言安全措施和降噪。该系统通过提取特征并保留数据中的时间和地理链接，成功捕获重要信息，并提高了系统检测异常和区分合法内容与危险威胁的能力。 |
+| [^3] | [Structure Guided Multi-modal Pre-trained Transformer for Knowledge Graph Reasoning.](http://arxiv.org/abs/2307.03591) | 本研究提出了一种图结构引导的多模态预训练Transformer用于知识图谱推理。当前的多模态预训练Transformer模型未能充分利用知识图谱的结构信息，限制了其推理性能。 |
+| [^4] | [A Network Resource Allocation Recommendation Method with An Improved Similarity Measure.](http://arxiv.org/abs/2307.03399) | 提出了一种名为PIM+RA的网络资源分配推荐方法，该方法通过利用改进的相似度度量和二分网络，实现了个性化推荐和更好的推荐资源分配，显著提升了推荐的准确性、覆盖范围、多样性和新颖性，同时也实现了对长尾物品的有效曝光。 |
+| [^5] | [InfoSync: Information Synchronization across Multilingual Semi-structured Tables.](http://arxiv.org/abs/2307.03313) | 该论文提出了一个名为InfoSync的新数据集和一种两步方法，用于跨语言半结构化表格的信息同步。通过信息对齐和信息更新，该方法在InfoSync数据集上获得了高效的性能，验证了其有效性。 |
+| [^6] | [Optimal Bandwidth Selection for DENCLUE.](http://arxiv.org/abs/2307.03206) | 本文提出了一种计算DENCLUE算法最优参数的新方法，并在实验部分讨论了其性能。 |
+| [^7] | [JEPOO: Highly Accurate Joint Estimation of Pitch, Onset and Offset for Music Information Retrieval.](http://arxiv.org/abs/2306.01304) | 本文提出了一种名为JEPOO的音乐信息检索方法，能够准确估计音高、起始和终止，支持单音高和多音高数据，比现有最先进的方法精度提升高达10.6%，8.3%和10.3%。 |
+| [^8] | [Evaluating Embedding APIs for Information Retrieval.](http://arxiv.org/abs/2305.06300) | 本篇论文旨在通过对语义嵌入API在实际检索场景中的分析,为从业者和研究人员找到适当的服务。结果表明，在英语上使用API重新排名BM25的结果是一种预算友好的最优做法。 |
+| [^9] | [Bridging the Gap Between Indexing and Retrieval for Differentiable Search Index with Query Generation.](http://arxiv.org/abs/2206.10128) | 本文识别和解决了当前可微搜索索引模型的一个重要问题：在索引和检索过程中存在的数据分布不匹配。为了解决这个问题，提出了一个简单而有效的索引框架。 |
 
 # 详细
 
-[^1]: MultiVENT：具有对齐的自然文本的多语言活动视频
+[^1]: 将苹果与苹果进行比较：从用户评论生成纵向感知的比较句子
 
-    MultiVENT: Multilingual Videos of Events with Aligned Natural Text. (arXiv:2307.03153v1 [cs.IR])
+    Comparing Apples to Apples: Generating Aspect-Aware Comparative Sentences from User Review. (arXiv:2307.03691v1 [cs.CL])
 
-    [http://arxiv.org/abs/2307.03153](http://arxiv.org/abs/2307.03153)
+    [http://arxiv.org/abs/2307.03691](http://arxiv.org/abs/2307.03691)
 
-    构建了一个名为MultiVENT的多语言、事件为中心的视频数据集，包括新闻广播视频和非专业活动素材。还提供了一个多语言视频检索模型作为使用MultiVENT进行信息检索的基线模型。
-
-    
-
-    每日新闻报道已从传统的广播转向各种未经编辑的第一手视频素材等多种呈现方式。反映在线上可用的多模态、多语言新闻来源的数据集可以用来教授模型从这种转变中受益，但现有的新闻视频数据集主要关注为英语听众制作的传统新闻广播。我们通过构建 MultiVENT 数据集来解决这个限制，该数据集包含以五种目标语言为基础的多语言、事件为中心的视频，并包括新闻广播视频和非专业活动素材，我们用其来分析在线新闻视频的现状以及如何利用它们来构建强大、准确的模型。最后，我们提供了一个复杂的多语言视频检索模型，以用作使用 MultiVENT 进行信息检索的基线模型。
-
-    Everyday news coverage has shifted from traditional broadcasts towards a wide range of presentation formats such as first-hand, unedited video footage. Datasets that reflect the diverse array of multimodal, multilingual news sources available online could be used to teach models to benefit from this shift, but existing news video datasets focus on traditional news broadcasts produced for English-speaking audiences. We address this limitation by constructing MultiVENT, a dataset of multilingual, event-centric videos grounded in text documents across five target languages. MultiVENT includes both news broadcast videos and non-professional event footage, which we use to analyze the state of online news videos and how they can be leveraged to build robust, factually accurate models. Finally, we provide a model for complex, multilingual video retrieval to serve as a baseline for information retrieval using MultiVENT.
-    
-[^2]: 在音乐流媒体服务中使用Transformer生成歌单混合
-
-    Track Mix Generation on Music Streaming Services using Transformers. (arXiv:2307.03045v1 [cs.IR])
-
-    [http://arxiv.org/abs/2307.03045](http://arxiv.org/abs/2307.03045)
-
-    本文介绍了2022年在Deezer音乐流媒体服务上推出的Track Mix个性化歌单生成系统，通过使用Transformer模型分析用户播放列表的曲目序列来生成以初始音乐曲目为灵感的“混合”播放列表，提升用户在Deezer上的音乐发现体验。
+    该论文提出了一个模型，利用用户评论和相关项目特征生成对比评价句子，以帮助用户找到最适合的产品。该模型包括项目编码模块、比较生成模块和个性化解码方法，并通过人类评估验证了生成句子的相关性和真实性。
 
     
 
-    本文介绍了Track Mix，这是一个于2022年在音乐流媒体服务Deezer上推出的个性化歌单生成系统。Track Mix通过自动为用户生成以初始音乐曲目为灵感的“混合”播放列表，让用户可以发现与他们喜爱的内容相似的音乐。为了生成这些混合歌单，我们考虑了使用Transformer模型在用户播放列表的数百万个曲目序列上进行训练。鉴于近年来Transformers的日益流行，我们分析了与传统合作过滤方法相比，在服务中使用这种模型进行混合生成所带来的优势、不足和技术挑战。自推出以来，Track Mix每天为数百万用户生成歌单，在Deezer上提升了他们的音乐发现体验。
+    在众多相似的选择中找到最佳产品是非常耗时的。比较句子可以帮助我们以突出的方式对比一个项目与其他项目，在此过程中强调出重要特征。基于用户对一个或多个项目的评论及相关项目特征，我们生成比较评论句子来帮助用户找到最适合的产品。具体来说，我们的模型包括三个连续组件：（i）一个项目编码模块用于对项目进行编码比较，（ii）一个比较生成模块以自回归的方式生成比较句子，（iii）一种用于用户个性化的新型解码方法。我们展示了我们的流程能够生成流畅且多样的比较句子。我们进行了人类评估研究来验证我们生成的句子的相关性和真实性，结果表明我们的算法能够生成相关且真实的比较评论句子。
 
-    This paper introduces Track Mix, a personalized playlist generation system released in 2022 on the music streaming service Deezer. Track Mix automatically generates "mix" playlists inspired by initial music tracks, allowing users to discover music similar to their favorite content. To generate these mixes, we consider a Transformer model trained on millions of track sequences from user playlists. In light of the growing popularity of Transformers in recent years, we analyze the advantages, drawbacks, and technical challenges of using such a model for mix generation on the service, compared to a more traditional collaborative filtering approach. Since its release, Track Mix has been generating playlists for millions of users daily, enhancing their music discovery experience on Deezer.
+    It is time-consuming to find the best product among many similar alternatives. Comparative sentences can help to contrast one item from others in a way that highlights important features of an item that stand out. Given reviews of one or multiple items and relevant item features, we generate comparative review sentences to aid users to find the best fit. Specifically, our model consists of three successive components in a transformer: (i) an item encoding module to encode an item for comparison, (ii) a comparison generation module that generates comparative sentences in an autoregressive manner, (iii) a novel decoding method for user personalization. We show that our pipeline generates fluent and diverse comparative sentences. We run experiments on the relevance and fidelity of our generated sentences in a human evaluation study and find that our algorithm creates comparative review sentences that are relevant and truthful.
     
-[^3]: 通过数据重要性学习改善检索增强的大型语言模型
+[^2]: 嵌入语义边缘自动编码器中的不可降解小波变换对多语言安全改进和降噪的研究
 
-    Improving Retrieval-Augmented Large Language Models via Data Importance Learning. (arXiv:2307.03027v1 [cs.LG])
+    Undecimated Wavelet Transform for Word Embedded Semantic Marginal Autoencoder in Security improvement and Denoising different Languages. (arXiv:2307.03679v1 [cs.CL])
 
-    [http://arxiv.org/abs/2307.03027](http://arxiv.org/abs/2307.03027)
+    [http://arxiv.org/abs/2307.03679](http://arxiv.org/abs/2307.03679)
 
-    本文通过多线性扩展算法评估检索增强模型中检索到的数据点的数据重要性，并提出了一个多项式时间算法来计算其数据重要性。实验结果表明，修剪或增强大型语言模型可以提高性能。
-
-    
-
-    检索增强使得大型语言模型能够利用外部知识，例如在问题回答和数据补全等任务中。然而，这种检索增强模型的性能受到其基础检索语料的数据质量的限制。本文提出了一种基于多线性扩展的算法，用于评估检索到的数据点的数据重要性。多线性扩展中存在指数级的项，本文的一个关键贡献是提出了一个多项式时间算法，能够精确计算具有加法效用函数和验证集的检索增强模型中的数据点在检索语料中的数据重要性。我们还提出了一种更高效的（ε，δ）-近似算法。实验结果表明，我们可以通过仅修剪或增强大型语言模型来提高其性能。
-
-    Retrieval augmentation enables large language models to take advantage of external knowledge, for example on tasks like question answering and data imputation. However, the performance of such retrieval-augmented models is limited by the data quality of their underlying retrieval corpus. In this paper, we propose an algorithm based on multilinear extension for evaluating the data importance of retrieved data points. There are exponentially many terms in the multilinear extension, and one key contribution of this paper is a polynomial time algorithm that computes exactly, given a retrieval-augmented model with an additive utility function and a validation set, the data importance of data points in the retrieval corpus using the multilinear extension of the model's utility function. We further proposed an even more efficient ({\epsilon}, {\delta})-approximation algorithm. Our experimental results illustrate that we can enhance the performance of large language models by only pruning or r
-    
-[^4]: C/W/L/A指标的元评估：系统排名相似性，系统排名一致性和区分能力
-
-    A Meta-Evaluation of C/W/L/A Metrics: System Ranking Similarity, System Ranking Consistency and Discriminative Power. (arXiv:2307.02936v1 [cs.IR])
-
-    [http://arxiv.org/abs/2307.02936](http://arxiv.org/abs/2307.02936)
-
-    本研究通过对不同聚合方式的C/W/L/A指标进行元评估，研究发现它们在系统排名相似性、系统排名一致性和区分能力等方面具有一定的统计稳定性。
+    本研究提出了一种将不可降解小波变换与嵌入语义边缘自动编码器相结合的新策略，用于改善多语言安全措施和降噪。该系统通过提取特征并保留数据中的时间和地理链接，成功捕获重要信息，并提高了系统检测异常和区分合法内容与危险威胁的能力。
 
     
 
-    最近，Moffat等人提出了一个名为C/W/L/A的离线评估指标的分析框架。这个框架允许信息检索（IR）研究人员通过灵活组合用户浏览模型和用户收益聚合来设计评估指标。然而，不同聚合方式的C/W/L/A指标的统计稳定性尚未被研究。在本研究中，我们从以下三个方面对C/W/L/A指标的统计稳定性进行了调查：（1）聚合方式之间的系统排名相似性，（2）聚合方式的系统排名一致性，和（3）聚合方式的区分能力。具体而言，我们将不同的聚合函数与Precision、Discounted Cumulative Gain (DCG)、Rank-Biased Precision (RBP)、INST、Average Precision (AP)和Expected Reciprocal Rank (ERR)等浏览模型相结合，通过系统排名相似性、系统排名一致性和区分能力等指标评估它们的性能。
+    通过将不可降解小波变换与嵌入语义边缘自动编码器（WESMA）相结合，本研究提出了一种改善安全措施和降噪多种语言的新策略。这些策略的整合旨在解决数据处理应用中的鲁棒性、隐私性和多语言性问题。不可降解小波变换被用作特征提取工具，以识别输入数据中突出的语言模式和结构特性。通过采用这种变换，提议的系统可以在保留数据中的时间和地理链接的同时，成功捕获重要信息。这通过增加系统检测异常、发现隐藏模式以及区分合法内容和危险威胁的能力来改善安全措施。嵌入语义边缘自动编码器还可以作为一个智能框架来降维和降噪数据。
 
-    Recently, Moffat et al. proposed an analytic framework, namely C/W/L/A, for offline evaluation metrics. This framework allows information retrieval (IR) researchers to design evaluation metrics through the flexible combination of user browsing models and user gain aggregations. However, the statistical stability of C/W/L/A metrics with different aggregations is not yet investigated. In this study, we investigate the statistical stability of C/W/L/A metrics from the perspective of: (1) the system ranking similarity among aggregations, (2) the system ranking consistency of aggregations and (3) the discriminative power of aggregations. More specifically, we combined various aggregation functions with the browsing model of Precision, Discounted Cumulative Gain (DCG), Rank-Biased Precision (RBP), INST, Average Precision (AP) and Expected Reciprocal Rank (ERR), examing their performances in terms of system ranking similarity, system ranking consistency and discriminative power on two offline
+    By combining the undecimated wavelet transform within a Word Embedded Semantic Marginal Autoencoder (WESMA), this research study provides a novel strategy for improving security measures and denoising multiple languages. The incorporation of these strategies is intended to address the issues of robustness, privacy, and multilingualism in data processing applications. The undecimated wavelet transform is used as a feature extraction tool to identify prominent language patterns and structural qualities in the input data. The proposed system may successfully capture significant information while preserving the temporal and geographical links within the data by employing this transform. This improves security measures by increasing the system's ability to detect abnormalities, discover hidden patterns, and distinguish between legitimate content and dangerous threats. The Word Embedded Semantic Marginal Autoencoder also functions as an intelligent framework for dimensionality and noise redu
     
-[^5]: PLIERS: 基于流行度的在线社交网络内容传播推荐系统
+[^3]: 结构引导的多模态预训练Transformer用于知识图谱推理
 
-    PLIERS: a Popularity-Based Recommender System for Content Dissemination in Online Social Networks. (arXiv:2307.02865v1 [cs.IR])
+    Structure Guided Multi-modal Pre-trained Transformer for Knowledge Graph Reasoning. (arXiv:2307.03591v1 [cs.AI])
 
-    [http://arxiv.org/abs/2307.02865](http://arxiv.org/abs/2307.02865)
+    [http://arxiv.org/abs/2307.03591](http://arxiv.org/abs/2307.03591)
 
-    PLIERS是一种基于流行度的在线社交网络内容传播推荐系统，通过在算法复杂性和推荐物品的个性化水平之间取得平衡，提供了更好的个性化、相关性和推荐的新颖性。
-
-    
-
-    本文提出了一种新颖的基于标签的推荐系统PLIERS，该系统假设用户主要对与他们已拥有的物品和标签具有相似流行度的物品和标签感兴趣。PLIERS旨在在算法复杂性和推荐物品的个性化水平之间取得良好的平衡。通过在真实的在线社交网络数据集上进行一系列实验，我们验证了PLIERS在个性化、相关性和推荐的新颖性方面优于现有解决方案。
-
-    In this paper, we propose a novel tag-based recommender system called PLIERS, which relies on the assumption that users are mainly interested in items and tags with similar popularity to those they already own. PLIERS is aimed at reaching a good tradeoff between algorithmic complexity and the level of personalization of recommended items. To evaluate PLIERS, we performed a set of experiments on real OSN datasets, demonstrating that it outperforms state-of-the-art solutions in terms of personalization, relevance, and novelty of recommendations.
-    
-[^6]: BHEISR: 从偏见到平衡 - 消除基于知识的推荐中的意识形态隔离，促进信念和谐
-
-    BHEISR: Nudging from Bias to Balance -- Promoting Belief Harmony by Eliminating Ideological Segregation in Knowledge-based Recommendations. (arXiv:2307.02797v1 [cs.IR])
-
-    [http://arxiv.org/abs/2307.02797](http://arxiv.org/abs/2307.02797)
-
-    BHEISR模型通过消除过滤泡沫效应，促进信念和谐，通过利用个性化的类别信息激发用户的好奇心和兴趣，鼓励用户拓宽信念视野和探索新的信息。
+    本研究提出了一种图结构引导的多模态预训练Transformer用于知识图谱推理。当前的多模态预训练Transformer模型未能充分利用知识图谱的结构信息，限制了其推理性能。
 
     
 
-    在个性化推荐系统领域，人们越来越关注的是信念失衡和用户偏见的加剧现象，这一现象主要归因于过滤泡沫。针对这一关键问题，我们引入了一种创新的中介机构（BHEISR），将其置于用户和现有推荐系统之间，以减轻过滤泡沫效应在现有推荐系统中产生的负面影响。主要目标是为用户创造信念平衡，同时最小化过滤泡沫带来的不利影响。BHEISR模型融合了“推动理论”的原则，同时秉持民主和透明的原则。它利用用户特定的类别信息来激发好奇心，即使在用户可能最初认为不感兴趣的领域。通过逐步激发对新领域的兴趣，该模型鼓励用户拓宽信念视野并探索他们通常忽视的信息。我们的模型具有时间敏感性。
+    多模态知识图谱(MKGs)直观地组织了各种模式的信息，可以惠及多个实际的下游任务，如推荐系统和视觉问答。然而，大多数MKGs仍然远离完整，这促使了MKG推理模型的兴起。最近，随着通用人工架构的发展，预训练transformer模型引起了越来越多的关注，特别是对于多模态场景。然而，多模态预训练transformer (MPT)用于知识图推理 (KGR) 的研究仍处于早期阶段。作为MKG和其他多模态数据的最大区别，MKG中丰富的结构信息仍然无法在现有的MPT模型中充分利用。大多数模型只将图结构用作匹配与同一实体相连的图像和文本的检索映射。这种方式阻碍了它们的推理性能。为此，我们提出了图结构引导的多模态预训练Transformer用于知识图谱推理的方法。
 
-    In the realm of personalized recommendation systems, the increasing concern is the amplification of belief imbalance and user biases, a phenomenon primarily attributed to the filter bubble. Addressing this critical issue, we introduce an innovative intermediate agency (BHEISR) between users and existing recommendation systems to attenuate the negative repercussions of the filter bubble effect in extant recommendation systems. The main objective is to strike a belief balance for users while minimizing the detrimental influence caused by filter bubbles. The BHEISR model amalgamates principles from nudge theory while upholding democratic and transparent principles. It harnesses user-specific category information to stimulate curiosity, even in areas users might initially deem uninteresting. By progressively stimulating interest in novel categories, the model encourages users to broaden their belief horizons and explore the information they typically overlook. Our model is time-sensitive a
+    Multimodal knowledge graphs (MKGs), which intuitively organize information in various modalities, can benefit multiple practical downstream tasks, such as recommendation systems, and visual question answering. However, most MKGs are still far from complete, which motivates the flourishing of MKG reasoning models. Recently, with the development of general artificial architectures, the pretrained transformer models have drawn increasing attention, especially for multimodal scenarios. However, the research of multimodal pretrained transformer (MPT) for knowledge graph reasoning (KGR) is still at an early stage. As the biggest difference between MKG and other multimodal data, the rich structural information underlying the MKG still cannot be fully leveraged in existing MPT models. Most of them only utilize the graph structure as a retrieval map for matching images and texts connected with the same entity. This manner hinders their reasoning performances. To this end, we propose the graph S
     
-[^7]: 跨模态内容推理与特征增强用于冷启动推荐
+[^4]: 一个改进的相似度度量的网络资源分配推荐方法
 
-    Cross-Modal Content Inference and Feature Enrichment for Cold-Start Recommendation. (arXiv:2307.02761v1 [cs.IR])
+    A Network Resource Allocation Recommendation Method with An Improved Similarity Measure. (arXiv:2307.03399v1 [cs.IR])
 
-    [http://arxiv.org/abs/2307.02761](http://arxiv.org/abs/2307.02761)
+    [http://arxiv.org/abs/2307.03399](http://arxiv.org/abs/2307.03399)
 
-    本文提出了一个推荐框架，名为跨模态内容推理与特征增强推荐 (CIERec)，利用多模态信息来改善冷启动推荐性能，引入图像注释作为特权信息，通过融合协同、视觉和语义信息来增强内容表示。
-
-    
-
-    多媒体推荐旨在融合物品的多模态信息，通过特征增强来提高推荐性能。然而，现有方法通常基于协同信息引入多模态信息，以提高整体推荐精度，但未探索冷启动推荐性能。同时，这些方法仅适用于当有多模态数据可用时。为解决这个问题，本文提出了一个推荐框架，命名为跨模态内容推理与特征增强推荐 (CIERec)，它利用多模态信息来改善其冷启动推荐性能。具体而言，CIERec首先在训练阶段引入图像注释作为特权信息，以帮助指导从视觉空间到语义空间的统一特征映射。然后，CIERec通过协同、视觉和语义信息的融合来增强内容表示。
-
-    Multimedia recommendation aims to fuse the multi-modal information of items for feature enrichment to improve the recommendation performance. However, existing methods typically introduce multi-modal information based on collaborative information to improve the overall recommendation precision, while failing to explore its cold-start recommendation performance. Meanwhile, these above methods are only applicable when such multi-modal data is available. To address this problem, this paper proposes a recommendation framework, named Cross-modal Content Inference and Feature Enrichment Recommendation (CIERec), which exploits the multi-modal information to improve its cold-start recommendation performance. Specifically, CIERec first introduces image annotation as the privileged information to help guide the mapping of unified features from the visual space to the semantic space in the training phase. And then CIERec enriches the content representation with the fusion of collaborative, visual
-    
-[^8]: 知识图谱自监督合理化方法用于推荐系统的研究
-
-    Knowledge Graph Self-Supervised Rationalization for Recommendation. (arXiv:2307.02759v1 [cs.IR])
-
-    [http://arxiv.org/abs/2307.02759](http://arxiv.org/abs/2307.02759)
-
-    这项研究提出了一种新的自监督合理化方法KGRec，用于知识感知的推荐系统。通过关注知识合理化机制和生成对比度自监督任务，KGRec能够有效地识别有信息量的知识连接，并利用这些连接进行推荐。
+    提出了一种名为PIM+RA的网络资源分配推荐方法，该方法通过利用改进的相似度度量和二分网络，实现了个性化推荐和更好的推荐资源分配，显著提升了推荐的准确性、覆盖范围、多样性和新颖性，同时也实现了对长尾物品的有效曝光。
 
     
 
-    本文介绍了一种新的自监督合理化方法，称为KGRec，用于知识感知的推荐系统。为了有效地识别有信息量的知识连接，我们提出了一种关注知识合理化机制，为知识三元组生成合理化得分。通过这些得分，KGRec通过合理化掩码集成生成和对比度自监督任务进行推荐。为了突出知识图谱中的合理性，我们设计了一种以掩码重建形式的新型生成任务。通过使用高合理化得分对重要知识进行掩码，KGRec被训练来重建并突出有用的知识连接，作为合理的依据。为了进一步合理化协同交互对知识图谱学习的影响，我们引入了一种对比度学习任务，对齐来自知识和用户-物品交互视图的信号。为了确保对比度的抗噪声性，通过判断两个图中的潜在噪声边缘，
+    推荐系统被认为是管理信息过载的有效工具。然而，传统算法在这类系统中的应用主要强调精确的推荐，因此忽视了覆盖率、多样性和物品的新颖性等其他重要方面。这种方法导致长尾物品的曝光率较低。本文提出了一种名为PIM+RA的方法，旨在个性化推荐并更有目的地分配推荐资源。该方法利用包含自连接边和权重的二分网络，并采用改进的Pearson相关系数进行更好的重新分配。PIM+RA的评估不仅在准确性方面显示了显著的改进，而且在推荐的覆盖范围、多样性和新颖性方面也有显著的增强。它通过为长尾物品提供有效曝光的同时，允许自定义参数，实现了更好的推荐频率平衡。
 
-    In this paper, we introduce a new self-supervised rationalization method, called KGRec, for knowledge-aware recommender systems. To effectively identify informative knowledge connections, we propose an attentive knowledge rationalization mechanism that generates rational scores for knowledge triplets. With these scores, KGRec integrates generative and contrastive self-supervised tasks for recommendation through rational masking. To highlight rationales in the knowledge graph, we design a novel generative task in the form of masking-reconstructing. By masking important knowledge with high rational scores, KGRec is trained to rebuild and highlight useful knowledge connections that serve as rationales. To further rationalize the effect of collaborative interactions on knowledge graph learning, we introduce a contrastive learning task that aligns signals from knowledge and user-item interaction views. To ensure noise-resistant contrasting, potential noisy edges in both graphs judged by the
+    Recommender systems have been acknowledged as efficacious tools for managing information overload. Nevertheless, conventional algorithms adopted in such systems primarily emphasize precise recommendations and, consequently, overlook other vital aspects like the coverage, diversity, and novelty of items. This approach results in less exposure for long-tail items. In this paper, to personalize the recommendations and allocate recommendation resources more purposively, a method named PIM+RA is proposed. This method utilizes a bipartite network that incorporates self-connecting edges and weights. Furthermore, an improved Pearson correlation coefficient is employed for better redistribution. The evaluation of PIM+RA demonstrates a significant enhancement not only in accuracy but also in coverage, diversity, and novelty of the recommendation. It leads to a better balance in recommendation frequency by providing effective exposure to long-tail items, while allowing customized parameters to ad
     
-[^9]: 使用目标领域描述的密集检索适应
+[^5]: InfoSync：跨多语言半结构化表格的信息同步
 
-    Dense Retrieval Adaptation using Target Domain Description. (arXiv:2307.02740v1 [cs.IR])
+    InfoSync: Information Synchronization across Multilingual Semi-structured Tables. (arXiv:2307.03313v1 [cs.CL])
 
-    [http://arxiv.org/abs/2307.02740](http://arxiv.org/abs/2307.02740)
+    [http://arxiv.org/abs/2307.03313](http://arxiv.org/abs/2307.03313)
 
-    本文提出了一种新的信息检索领域适应方法，该方法假设检索模型无法访问目标文档集，但可以访问描述目标领域的简要文本描述。
-
-    
-
-    在信息检索中，领域适应是将检索模型适应于数据分布与源领域不同的新领域的过程。现有的方法集中于无监督领域适应，在这种情况下，它们可以访问目标文档集，或者是监督（通常是少样本）领域适应，在这种情况下，它们还可以访问目标领域中（有限的）标记数据。还存在一些研究致力于改善没有适应的检索模型的零样本性能。本文介绍了信息检索中尚未探索的一类新的领域适应方法。在这种情况下，与零样本设置类似，我们假设检索模型无法访问目标文档集，但可以访问一个简要的文本描述，说明目标领域。我们定义了一个领域属性的分类学，用于理解源领域可以适应到目标领域的不同特性。
-
-    In information retrieval (IR), domain adaptation is the process of adapting a retrieval model to a new domain whose data distribution is different from the source domain. Existing methods in this area focus on unsupervised domain adaptation where they have access to the target document collection or supervised (often few-shot) domain adaptation where they additionally have access to (limited) labeled data in the target domain. There also exists research on improving zero-shot performance of retrieval models with no adaptation. This paper introduces a new category of domain adaptation in IR that is as-yet unexplored. Here, similar to the zero-shot setting, we assume the retrieval model does not have access to the target document collection. In contrast, it does have access to a brief textual description that explains the target domain. We define a taxonomy of domain attributes in retrieval tasks to understand different properties of a source domain that can be adapted to a target domain
-    
-[^10]: 可视化探究与COVID-19疫苗接种态度相关的讨论话题
-
-    Visualizing Relation Between (De)Motivating Topics and Public Stance toward COVID-19 Vaccine. (arXiv:2306.12118v1 [cs.CY])
-
-    [http://arxiv.org/abs/2306.12118](http://arxiv.org/abs/2306.12118)
-
-    研究了社交媒体上COVID-19话题对公众接种疫苗态度的影响，提出了交互式可视化工具，可以分析话题共鸣和动力转移，增加研究与公众的透明度。
+    该论文提出了一个名为InfoSync的新数据集和一种两步方法，用于跨语言半结构化表格的信息同步。通过信息对齐和信息更新，该方法在InfoSync数据集上获得了高效的性能，验证了其有效性。
 
     
 
-    社交媒体在当今通讯中起到了至关重要的作用，但误导和恶意评论很容易占据话题，引导公众舆论。在COVID-19疫情期间，我们看到了不实信息的影响，公共卫生官员在试图激励公众接种疫苗时遭到了重大抵制。为了应对当前和任何未来的紧急威胁，并激励公众朝着一个共同的目标前进，我们需要了解公众动力的转移以及哪些话题在普通民众中有共鸣。在本研究中，我们提出了一个交互式可视化工具，以检查和分析COVID-19疫情期间Twitter-sphere中的话题，并了解关键因素是什么导致公众对接种疫苗的态度转变。该工具可以轻松推广为任何情景的视觉分析工具，并增加社交媒体数据对研究人员和普通民众的透明度。
+    跨语言半结构化数据的信息同步是具有挑战性的。例如，应该跨语言同步维基百科表格。为解决这个问题，我们引入了一个新的数据集InfoSyncC，并提出了一种两步方法实现表格同步。InfoSync包含了14种语言的10万个以实体为中心的表格（维基百科Infoboxes），其中一部分（3.5K对）是手动注释的。提出的方法包括1）信息对齐来映射行和2）信息更新来更新跨多语言表格中对齐表格中的缺失/过时信息。在InfoSync上进行评估时，信息对齐实现了87.91的F1得分（英文<->非英文）。为了评估信息更新，我们对603个表格对的Infoboxes进行了人工辅助的维基百科编辑。我们的方法在维基百科上取得了77.28%的接受率，显示出了方法的有效性。
 
-    While social media plays a vital role in communication nowadays, misinformation and trolls can easily take over the conversation and steer public opinion on these platforms. We saw the effect of misinformation during the {COVID-19} pandemic when public health officials faced significant push-back while trying to motivate the public to vaccinate. To tackle the current and any future threats in emergencies and motivate the public towards a common goal, it is essential to understand how public motivation shifts and which topics resonate among the general population. In this study, we proposed an interactive visualization tool to inspect and analyze the topics that resonated among Twitter-sphere during the {COVID-19} pandemic and understand the key factors that shifted public stance for vaccination. This tool can easily be generalized for any scenario for visual analysis and to increase the transparency of social media data for researchers and the general population alike.
+    Information Synchronization of semi-structured data across languages is challenging. For instance, Wikipedia tables in one language should be synchronized across languages. To address this problem, we introduce a new dataset InfoSyncC and a two-step method for tabular synchronization. InfoSync contains 100K entity-centric tables (Wikipedia Infoboxes) across 14 languages, of which a subset (3.5K pairs) are manually annotated. The proposed method includes 1) Information Alignment to map rows and 2) Information Update for updating missing/outdated information for aligned tables across multilingual tables. When evaluated on InfoSync, information alignment achieves an F1 score of 87.91 (en <-> non-en). To evaluate information updation, we perform human-assisted Wikipedia edits on Infoboxes for 603 table pairs. Our approach obtains an acceptance rate of 77.28% on Wikipedia, showing the effectiveness of the proposed method.
     
-[^11]: 为向量搜索进行硬件和算法的共同设计
+[^6]: DENCLUE的最优带宽选择
 
-    Co-design Hardware and Algorithm for Vector Search. (arXiv:2306.11182v2 [cs.LG] UPDATED)
+    Optimal Bandwidth Selection for DENCLUE. (arXiv:2307.03206v1 [cs.LG])
 
-    [http://arxiv.org/abs/2306.11182](http://arxiv.org/abs/2306.11182)
+    [http://arxiv.org/abs/2307.03206](http://arxiv.org/abs/2307.03206)
 
-    本论文提出了一个在FPGA上的向量搜索框架FANNS，实现了硬件和算法的共同设计，可以根据用户需求和硬件预算生成相应的加速器。与FPGA和CPU基准相比，FANNS实现了显著的加速，并展现了卓越的可扩展性。
-
-    
-
-    向量搜索已成为大规模信息检索和机器学习系统的基础，像Google和Bing这样的搜索引擎通过评估编码查询文本和网络文档之间的向量相似度，每秒处理数万个查询，在拥有PB级文档数据集的情况下。随着对向量搜索系统性能的需求激增，在摩尔定律时代后，加速硬件成为了一个有前景的解决方案。我们介绍了一个在FPGA上的端到端可扩展向量搜索框架FANNS。给定用户提供的对数据集的召回要求和硬件资源预算，FANNS自动进行硬件和算法的共同设计，随后生成相应的加速器。该框架还通过在加速器中引入硬件TCP/IP堆栈来支持规模扩展。与FPGA和CPU基准相比，FANNS分别实现了23.0倍和37.2倍的加速，并展现了卓越的可扩展性。
-
-    Vector search has emerged as the foundation for large-scale information retrieval and machine learning systems, with search engines like Google and Bing processing tens of thousands of queries per second on petabyte-scale document datasets by evaluating vector similarities between encoded query texts and web documents. As performance demands for vector search systems surge, accelerated hardware offers a promising solution in the post-Moore's Law era. We introduce \textit{FANNS}, an end-to-end and scalable vector search framework on FPGAs. Given a user-provided recall requirement on a dataset and a hardware resource budget, \textit{FANNS} automatically co-designs hardware and algorithm, subsequently generating the corresponding accelerator. The framework also supports scale-out by incorporating a hardware TCP/IP stack in the accelerator. \textit{FANNS} attains up to 23.0$\times$ and 37.2$\times$ speedup compared to FPGA and CPU baselines, respectively, and demonstrates superior scalabil
-    
-[^12]: 在算法策划平台上建模内容创作者的激励机制
-
-    Modeling Content Creator Incentives on Algorithm-Curated Platforms. (arXiv:2206.13102v2 [cs.GT] UPDATED)
-
-    [http://arxiv.org/abs/2206.13102](http://arxiv.org/abs/2206.13102)
-
-    该论文讨论了在线平台上内容创作者激励机制的建模，通过分析算法选择对曝光游戏（包括现代分解和两塔架构）中（纳什）均衡的影响，提出了使用曝光游戏模型进行预部署审计的方法，以识别期望和激励内容之间的不匹配。
+    本文提出了一种计算DENCLUE算法最优参数的新方法，并在实验部分讨论了其性能。
 
     
 
-    内容创作者在争夺用户注意力。他们的影响力在很大程度上取决于在线平台开发者所做的算法选择。为了最大限度地提高曝光率，许多创作者采取战略性的调整，如搜索引擎优化行业的例子所证明。这导致了对有限用户注意力池的竞争。我们在所谓的曝光游戏中形式化了这些动态，这是一种由算法引起的激励模型，其中包括现代分解和（深层）两塔架构。我们证明了看似无害的算法选择，例如非负与无约束分解，在曝光游戏中显著影响（纳什）均衡的存在和特性。我们提出使用创作者行为模型，如曝光游戏，进行（ex-ante）预部署审计。这样的审计可以识别期望和激励内容之间的不匹配，并在内容过滤和管理等事后措施上进行补充。为此，我们提出了一些工具。
+    在现代工业中，聚类算法是算法工程师的日常工作。尽管在2010年之前，聚类算法经历了快速增长，但在深度学习成为机器学习应用的实际工业标准之后，与该研究主题相关的创新停滞不前。2007年，提出了一种名为DENCLUE的基于密度的聚类算法，用于解决非线性数据结构的聚类问题。然而，直到2011年，该算法的参数选择问题仍然被大部分忽视。本文提出了一种计算DENCLUE算法最优参数的新方法，并在实验部分讨论了其性能。
 
-    Content creators compete for user attention. Their reach crucially depends on algorithmic choices made by developers on online platforms. To maximize exposure, many creators adapt strategically, as evidenced by examples like the sprawling search engine optimization industry. This begets competition for the finite user attention pool. We formalize these dynamics in what we call an exposure game, a model of incentives induced by algorithms, including modern factorization and (deep) two-tower architectures. We prove that seemingly innocuous algorithmic choices, e.g., non-negative vs. unconstrained factorization, significantly affect the existence and character of (Nash) equilibria in exposure games. We proffer use of creator behavior models, like exposure games, for an (ex-ante) pre-deployment audit. Such an audit can identify misalignment between desirable and incentivized content, and thus complement post-hoc measures like content filtering and moderation. To this end, we propose tools 
+    In modern day industry, clustering algorithms are daily routines of algorithm engineers. Although clustering algorithms experienced rapid growth before 2010. Innovation related to the research topic has stagnated after deep learning became the de facto industrial standard for machine learning applications. In 2007, a density-based clustering algorithm named DENCLUE was invented to solve clustering problem for nonlinear data structures. However, its parameter selection problem was largely neglected until 2011. In this paper, we propose a new approach to compute the optimal parameters for the DENCLUE algorithm, and discuss its performance in the experiment section.
+    
+[^7]: JEPOO：音乐信息检索中准确估计音高、起始和终止的联合方法
+
+    JEPOO: Highly Accurate Joint Estimation of Pitch, Onset and Offset for Music Information Retrieval. (arXiv:2306.01304v1 [cs.SD])
+
+    [http://arxiv.org/abs/2306.01304](http://arxiv.org/abs/2306.01304)
+
+    本文提出了一种名为JEPOO的音乐信息检索方法，能够准确估计音高、起始和终止，支持单音高和多音高数据，比现有最先进的方法精度提升高达10.6%，8.3%和10.3%。
+
+    
+
+    旋律提取是音乐信息检索中的核心任务，而音高、起始和终止的估计是旋律提取的关键子任务。现有方法的准确性有限，并且只适用于单音高或多音高数据中的一种类型。本文提出了一种名为JEPOO的高度准确的音高、起始和终止联合估计方法。我们通过新颖的模型设计和一种名为帕累托模调损失的优化技术，解决了联合学习优化和处理单音高和多音高数据的挑战。这是第一种能够准确处理单音高和多音高音乐数据，甚至混合类型数据的方法。在广泛的真实数据集上进行的全面实验研究表明，JEPOO在预测音高、起始和终止方面比最先进的方法分别高出10.6％、8.3％和10.3％，同时对于各种类型的数据和乐器具有鲁棒性。
+
+    Melody extraction is a core task in music information retrieval, and the estimation of pitch, onset and offset are key sub-tasks in melody extraction. Existing methods have limited accuracy, and work for only one type of data, either single-pitch or multipitch. In this paper, we propose a highly accurate method for joint estimation of pitch, onset and offset, named JEPOO. We address the challenges of joint learning optimization and handling both single-pitch and multi-pitch data through novel model design and a new optimization technique named Pareto modulated loss with loss weight regularization. This is the first method that can accurately handle both single-pitch and multi-pitch music data, and even a mix of them. A comprehensive experimental study on a wide range of real datasets shows that JEPOO outperforms state-ofthe-art methods by up to 10.6%, 8.3% and 10.3% for the prediction of Pitch, Onset and Offset, respectively, and JEPOO is robust for various types of data and instrument
+    
+[^8]: 评估信息检索的嵌入式API
+
+    Evaluating Embedding APIs for Information Retrieval. (arXiv:2305.06300v1 [cs.IR])
+
+    [http://arxiv.org/abs/2305.06300](http://arxiv.org/abs/2305.06300)
+
+    本篇论文旨在通过对语义嵌入API在实际检索场景中的分析,为从业者和研究人员找到适当的服务。结果表明，在英语上使用API重新排名BM25的结果是一种预算友好的最优做法。
+
+    
+
+    语言模型不断增大使得其普及化成为了一项挑战，因此许多公司和初创企业通过API向社区提供大型语言模型的访问权限。其中一个适用于密集检索的特定API是语义嵌入式API，其可构建给定文本的向量表示。在拥有越来越多API的情况下，本文旨在分析在实际检索场景中语义嵌入式API以帮助从业者和研究人员根据他们的需求找到适当的服务。具体而言，我们希望调查现有API在领域泛化和多语言检索方面的能力。为此，我们在两个标准基准BEIR和MIRACL上评估了嵌入式API。我们发现，使用API重新排名BM25结果是一种预算友好的方法，并且在英语上最有效，与标准做法即作为第一阶段检索器不同。
+
+    The ever-increasing size of language models curtails their widespread access to the community, thereby galvanizing many companies and startups into offering access to large language models through APIs. One particular API, suitable for dense retrieval, is the semantic embedding API that builds vector representations of a given text. With a growing number of APIs at our disposal, in this paper, our goal is to analyze semantic embedding APIs in realistic retrieval scenarios in order to assist practitioners and researchers in finding suitable services according to their needs. Specifically, we wish to investigate the capabilities of existing APIs on domain generalization and multilingual retrieval. For this purpose, we evaluate the embedding APIs on two standard benchmarks, BEIR, and MIRACL. We find that re-ranking BM25 results using the APIs is a budget-friendly approach and is most effective on English, in contrast to the standard practice, i.e., employing them as first-stage retrievers
+    
+[^9]: 将索引和检索桥接起来，为具有查询生成的可微搜索索引填补差距
+
+    Bridging the Gap Between Indexing and Retrieval for Differentiable Search Index with Query Generation. (arXiv:2206.10128v3 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2206.10128](http://arxiv.org/abs/2206.10128)
+
+    本文识别和解决了当前可微搜索索引模型的一个重要问题：在索引和检索过程中存在的数据分布不匹配。为了解决这个问题，提出了一个简单而有效的索引框架。
+
+    
+
+    可微搜索索引(DSI)是一种新兴的信息检索范式。与传统的检索架构不同，其中索引和检索是两个不同的组件，DSI使用单个transformer模型来执行索引和检索。在本文中，我们确定并解决了当前DSI模型的一个重要问题：DSI索引和检索过程之间出现的数据分布不匹配。具体而言，我们认为，在索引过程中，当前DSI方法学习构建长文档的文本与文档标识符之间的连接，但检索过程中使用的查询通常比索引的文档要短得多。当将DSI用于跨语言检索时，这个问题进一步加剧，因为文档文本和查询文本处于不同的语言中。为了解决当前DSI模型的这个根本问题，我们提出了一个简单而有效的DSI索引框架，c
+
+    The Differentiable Search Index (DSI) is an emerging paradigm for information retrieval. Unlike traditional retrieval architectures where index and retrieval are two different and separate components, DSI uses a single transformer model to perform both indexing and retrieval.  In this paper, we identify and tackle an important issue of current DSI models: the data distribution mismatch that occurs between the DSI indexing and retrieval processes. Specifically, we argue that, at indexing, current DSI methods learn to build connections between the text of long documents and the identifier of the documents, but then retrieval of document identifiers is based on queries that are commonly much shorter than the indexed documents. This problem is further exacerbated when using DSI for cross-lingual retrieval, where document text and query text are in different languages.  To address this fundamental problem of current DSI models, we propose a simple yet effective indexing framework for DSI, c
     
 

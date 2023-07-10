@@ -1,0 +1,11 @@
+{
+    "title": "Binary Mechanisms under Privacy-Preserving Noise. (arXiv:2301.06967v2 [econ.TH] UPDATED)",
+    "abstract": "We study mechanism design for public-good provision under a noisy privacy-preserving transformation of individual agents' reported preferences. The setting is a standard binary model with transfers and quasi-linear utility. Agents report their preferences for the public good, which are randomly ``flipped,'' so that any individual report may be explained away as the outcome of noise. We study the tradeoffs between preserving the public decisions made in the presence of noise (noise sensitivity), pursuing efficiency, and mitigating the effect of noise on revenue.",
+    "link": "http://arxiv.org/abs/2301.06967",
+    "context": "Title: Binary Mechanisms under Privacy-Preserving Noise. (arXiv:2301.06967v2 [econ.TH] UPDATED)\nAbstract: We study mechanism design for public-good provision under a noisy privacy-preserving transformation of individual agents' reported preferences. The setting is a standard binary model with transfers and quasi-linear utility. Agents report their preferences for the public good, which are randomly ``flipped,'' so that any individual report may be explained away as the outcome of noise. We study the tradeoffs between preserving the public decisions made in the presence of noise (noise sensitivity), pursuing efficiency, and mitigating the effect of noise on revenue.",
+    "path": "papers/23/01/2301.06967.json",
+    "total_tokens": 720,
+    "translated_title": "二进制机制下的隐私保护噪声机构设计",
+    "translated_abstract": "我们研究了在个体代理人报告的偏好经过噪声保护的情况下进行公共物品供应的机制设计。该模型是一个具有转移和拟线性效用的标准二进制模型。代理人报告他们对公共物品的偏好，这些偏好会被随机“翻转”，以便任何个体报告都可以被解释为噪声的结果。我们研究了在存在噪声的情况下保留公共决策（噪声敏感性），追求效率以及减轻噪声对收入的影响之间的平衡。",
+    "tldr": "这项研究探讨了在个体代理人的报告偏好经过隐私保护的噪声转换后进行公共物品供应的机制设计，并研究了保留公共决策、追求效率以及减轻噪声对收入影响之间的权衡。"
+}

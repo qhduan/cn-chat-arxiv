@@ -1,0 +1,12 @@
+{
+    "title": "PAC bounds of continuous Linear Parameter-Varying systems related to neural ODEs. (arXiv:2307.03630v1 [cs.LG])",
+    "abstract": "We consider the problem of learning Neural Ordinary Differential Equations (neural ODEs) within the context of Linear Parameter-Varying (LPV) systems in continuous-time. LPV systems contain bilinear systems which are known to be universal approximators for non-linear systems. Moreover, a large class of neural ODEs can be embedded into LPV systems. As our main contribution we provide Probably Approximately Correct (PAC) bounds under stability for LPV systems related to neural ODEs. The resulting bounds have the advantage that they do not depend on the integration interval.",
+    "link": "http://arxiv.org/abs/2307.03630",
+    "context": "Title: PAC bounds of continuous Linear Parameter-Varying systems related to neural ODEs. (arXiv:2307.03630v1 [cs.LG])\nAbstract: We consider the problem of learning Neural Ordinary Differential Equations (neural ODEs) within the context of Linear Parameter-Varying (LPV) systems in continuous-time. LPV systems contain bilinear systems which are known to be universal approximators for non-linear systems. Moreover, a large class of neural ODEs can be embedded into LPV systems. As our main contribution we provide Probably Approximately Correct (PAC) bounds under stability for LPV systems related to neural ODEs. The resulting bounds have the advantage that they do not depend on the integration interval.",
+    "path": "papers/23/07/2307.03630.json",
+    "total_tokens": 630,
+    "translated_title": "与神经ODE相关的连续线性参数变化系统的PAC界限",
+    "translated_abstract": "在连续时间中，我们考虑了学习线性参数变化（LPV）系统上的神经常微分方程（神经ODE）的问题。LPV系统包含双线性系统，已知对于非线性系统是全局逼近器。此外，大部分神经ODE可以嵌入到LPV系统中。作为我们的主要贡献，我们提供了与神经ODE相关的LPV系统稳定性下的可能近似正确（PAC）界限。所得到的界限的优点是它们不依赖于积分区间。",
+    "tldr": "本文研究了与神经ODE相关的LPV系统的PAC界限，该界限不依赖于积分区间。",
+    "en_tdlr": "This paper investigates PAC bounds of LPV systems related to neural ODEs, which are independent of the integration interval."
+}

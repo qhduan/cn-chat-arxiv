@@ -1,0 +1,11 @@
+{
+    "title": "QIGen: Generating Efficient Kernels for Quantized Inference on Large Language Models. (arXiv:2307.03738v1 [cs.LG])",
+    "abstract": "We present ongoing work on a new automatic code generation approach for supporting quantized generative inference on LLMs such as LLaMA or OPT on off-the-shelf CPUs. Our approach is informed by the target architecture and a performance model, including both hardware characteristics and method-specific accuracy constraints. Results on CPU-based inference for LLaMA models show that our approach can lead to high performance and high accuracy, comparing favorably to the best existing open-source solution. A preliminary implementation is available at https://github.com/IST-DASLab/QIGen.",
+    "link": "http://arxiv.org/abs/2307.03738",
+    "context": "Title: QIGen: Generating Efficient Kernels for Quantized Inference on Large Language Models. (arXiv:2307.03738v1 [cs.LG])\nAbstract: We present ongoing work on a new automatic code generation approach for supporting quantized generative inference on LLMs such as LLaMA or OPT on off-the-shelf CPUs. Our approach is informed by the target architecture and a performance model, including both hardware characteristics and method-specific accuracy constraints. Results on CPU-based inference for LLaMA models show that our approach can lead to high performance and high accuracy, comparing favorably to the best existing open-source solution. A preliminary implementation is available at https://github.com/IST-DASLab/QIGen.",
+    "path": "papers/23/07/2307.03738.json",
+    "total_tokens": 651,
+    "translated_title": "QIGen：用于大型语言模型的量化推理的高效内核生成",
+    "translated_abstract": "我们提出了一种新的自动代码生成方法，用于支持LLMs（如LLaMA或OPT）在现成的CPU上进行量化生成推理。我们的方法根据目标架构和性能模型进行设计，包括硬件特性和方法特定的准确性约束。在LLaMA模型的基于CPU的推理任务上的实验结果表明，我们的方法可以实现高性能和高准确性，与现有最佳开源解决方案相比更具优势。我们的初步实现代码可在https://github.com/IST-DASLab/QIGen找到。",
+    "tldr": "QIGen是一种用于支持大型语言模型量化推理的自动代码生成方法，通过考虑目标架构和性能模型，实现了高性能和高准确性，并在LLaMA模型的基于CPU的推理任务上取得了比现有开源解决方案更好的效果。"
+}
