@@ -1,0 +1,12 @@
+{
+    "title": "Bounding data reconstruction attacks with the hypothesis testing interpretation of differential privacy. (arXiv:2307.03928v1 [cs.CR])",
+    "abstract": "We explore Reconstruction Robustness (ReRo), which was recently proposed as an upper bound on the success of data reconstruction attacks against machine learning models. Previous research has demonstrated that differential privacy (DP) mechanisms also provide ReRo, but so far, only asymptotic Monte Carlo estimates of a tight ReRo bound have been shown. Directly computable ReRo bounds for general DP mechanisms are thus desirable. In this work, we establish a connection between hypothesis testing DP and ReRo and derive closed-form, analytic or numerical ReRo bounds for the Laplace and Gaussian mechanisms and their subsampled variants.",
+    "link": "http://arxiv.org/abs/2307.03928",
+    "context": "Title: Bounding data reconstruction attacks with the hypothesis testing interpretation of differential privacy. (arXiv:2307.03928v1 [cs.CR])\nAbstract: We explore Reconstruction Robustness (ReRo), which was recently proposed as an upper bound on the success of data reconstruction attacks against machine learning models. Previous research has demonstrated that differential privacy (DP) mechanisms also provide ReRo, but so far, only asymptotic Monte Carlo estimates of a tight ReRo bound have been shown. Directly computable ReRo bounds for general DP mechanisms are thus desirable. In this work, we establish a connection between hypothesis testing DP and ReRo and derive closed-form, analytic or numerical ReRo bounds for the Laplace and Gaussian mechanisms and their subsampled variants.",
+    "path": "papers/23/07/2307.03928.json",
+    "total_tokens": 692,
+    "translated_title": "用假设检验解释差分隐私来限制数据重构攻击",
+    "translated_abstract": "我们探索了最近提出的重构鲁棒性（ReRo），它作为机器学习模型数据重构攻击成功率的上界。先前的研究表明，差分隐私（DP）机制也提供了ReRo，但迄今只展示了渐近蒙特卡罗估计的紧密ReRo上界。因此，对于一般的DP机制，直接可计算的ReRo上界是可取的。在这项工作中，我们建立了假设检验DP和ReRo之间的关联，并推导出Laplace和Gaussian机制及其子采样变体的闭式、解析或数值ReRo上界。",
+    "tldr": "本文研究了差分隐私和重构鲁棒性之间的关系，并提出了针对一般差分隐私机制的可计算的重构鲁棒性上界。",
+    "en_tdlr": "This paper explores the relationship between differential privacy and reconstruction robustness, and presents computable upper bounds for reconstruction robustness for general differential privacy mechanisms."
+}

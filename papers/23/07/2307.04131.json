@@ -1,0 +1,12 @@
+{
+    "title": "Carbon-Efficient Neural Architecture Search. (arXiv:2307.04131v1 [cs.LG])",
+    "abstract": "This work presents a novel approach to neural architecture search (NAS) that aims to reduce energy costs and increase carbon efficiency during the model design process. The proposed framework, called carbon-efficient NAS (CE-NAS), consists of NAS evaluation algorithms with different energy requirements, a multi-objective optimizer, and a heuristic GPU allocation strategy. CE-NAS dynamically balances energy-efficient sampling and energy-consuming evaluation tasks based on current carbon emissions. Using a recent NAS benchmark dataset and two carbon traces, our trace-driven simulations demonstrate that CE-NAS achieves better carbon and search efficiency than the three baselines.",
+    "link": "http://arxiv.org/abs/2307.04131",
+    "context": "Title: Carbon-Efficient Neural Architecture Search. (arXiv:2307.04131v1 [cs.LG])\nAbstract: This work presents a novel approach to neural architecture search (NAS) that aims to reduce energy costs and increase carbon efficiency during the model design process. The proposed framework, called carbon-efficient NAS (CE-NAS), consists of NAS evaluation algorithms with different energy requirements, a multi-objective optimizer, and a heuristic GPU allocation strategy. CE-NAS dynamically balances energy-efficient sampling and energy-consuming evaluation tasks based on current carbon emissions. Using a recent NAS benchmark dataset and two carbon traces, our trace-driven simulations demonstrate that CE-NAS achieves better carbon and search efficiency than the three baselines.",
+    "path": "papers/23/07/2307.04131.json",
+    "total_tokens": 678,
+    "translated_title": "碳效率神经架构搜索",
+    "translated_abstract": "本文提出了一种新颖的神经架构搜索（NAS）方法，旨在在模型设计过程中降低能源成本并提高碳效率。所提出的框架称为碳效率NAS（CE-NAS），它由具有不同能源需求的NAS评估算法、多目标优化器和启发式GPU分配策略组成。CE-NAS根据当前的碳排放动态平衡了能效抽样和能耗评估任务。使用最近的NAS基准数据集和两个碳追踪数据，我们的追踪驱动模拟表明CE-NAS在碳和搜索效率方面优于三个基准方法。",
+    "tldr": "本文介绍了一种碳效率的神经架构搜索方法（CE-NAS），通过动态平衡能效抽样和能耗评估任务，实现了更好的碳和搜索效率。",
+    "en_tdlr": "This paper presents a carbon-efficient neural architecture search (CE-NAS) method that achieves better carbon and search efficiency by dynamically balancing energy-efficient sampling and energy-consuming evaluation tasks."
+}

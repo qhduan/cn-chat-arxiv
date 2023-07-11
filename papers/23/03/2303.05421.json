@@ -1,0 +1,12 @@
+{
+    "title": "A fixed point approach for computing actuarially fair Pareto optimal risk-sharing rules. (arXiv:2303.05421v2 [q-fin.RM] UPDATED)",
+    "abstract": "Risk-sharing is one way to pool risks without the need for a third party. To ensure the attractiveness of such a system, the rule should be accepted and understood by all participants. A desirable risk-sharing rule should fulfill actuarial fairness and Pareto optimality while being easy to compute. This paper establishes a one-to-one correspondence between an actuarially fair Pareto optimal (AFPO) risk-sharing rule and a fixed point of a specific function. A fast numerical method for computing these risk-sharing rules is also derived. As a result, we are able to compute AFPO risk-sharing rules for a large number of heterogeneous participants in this framework.",
+    "link": "http://arxiv.org/abs/2303.05421",
+    "context": "Title: A fixed point approach for computing actuarially fair Pareto optimal risk-sharing rules. (arXiv:2303.05421v2 [q-fin.RM] UPDATED)\nAbstract: Risk-sharing is one way to pool risks without the need for a third party. To ensure the attractiveness of such a system, the rule should be accepted and understood by all participants. A desirable risk-sharing rule should fulfill actuarial fairness and Pareto optimality while being easy to compute. This paper establishes a one-to-one correspondence between an actuarially fair Pareto optimal (AFPO) risk-sharing rule and a fixed point of a specific function. A fast numerical method for computing these risk-sharing rules is also derived. As a result, we are able to compute AFPO risk-sharing rules for a large number of heterogeneous participants in this framework.",
+    "path": "papers/23/03/2303.05421.json",
+    "total_tokens": 828,
+    "translated_title": "用于计算精算公平性帕累托最优风险共担规则的固定点方法",
+    "translated_abstract": "风险共担是一种在不需要第三方的情况下共享风险的方式。为了确保这样的系统的吸引力，规则应该被所有参与者接受和理解。一个理想的风险共担规则应该在满足精算公平性和帕累托最优性的同时，易于计算。本文建立了精算公平性帕累托最优(AFPO)风险共担规则与特定函数一个固定点的一一对应关系。还推导了一种快速的数值方法来计算这些风险共担规则。因此，我们能够在这个框架中计算出适用于大量异质参与者的AFPO风险共担规则。",
+    "tldr": "本文通过建立精算公平性帕累托最优(AFPO)风险共担规则与特定函数的固定点的一一对应关系，提出了一种快速的数值方法来计算这些规则，从而能够计算出适用于大量异质参与者的AFPO风险共担规则。",
+    "en_tdlr": "This paper establishes a one-to-one correspondence between an actuarially fair Pareto optimal (AFPO) risk-sharing rule and a fixed point of a specific function. A fast numerical method for computing these risk-sharing rules is also derived, enabling the calculation of AFPO risk-sharing rules for a large number of heterogeneous participants in this framework."
+}

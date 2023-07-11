@@ -1,0 +1,11 @@
+{
+    "title": "Parallel Algorithms Align with Neural Execution. (arXiv:2307.04049v1 [cs.LG])",
+    "abstract": "Neural algorithmic reasoners are parallel processors. Teaching them sequential algorithms contradicts this nature, rendering a significant share of their computations redundant. Parallel algorithms however may exploit their full computational power, therefore requiring fewer layers to be executed. This drastically reduces training times, as we observe when comparing parallel implementations of searching, sorting and finding strongly connected components to their sequential counterparts on the CLRS framework. Additionally, parallel versions achieve strongly superior predictive performance in most cases.",
+    "link": "http://arxiv.org/abs/2307.04049",
+    "context": "Title: Parallel Algorithms Align with Neural Execution. (arXiv:2307.04049v1 [cs.LG])\nAbstract: Neural algorithmic reasoners are parallel processors. Teaching them sequential algorithms contradicts this nature, rendering a significant share of their computations redundant. Parallel algorithms however may exploit their full computational power, therefore requiring fewer layers to be executed. This drastically reduces training times, as we observe when comparing parallel implementations of searching, sorting and finding strongly connected components to their sequential counterparts on the CLRS framework. Additionally, parallel versions achieve strongly superior predictive performance in most cases.",
+    "path": "papers/23/07/2307.04049.json",
+    "total_tokens": 633,
+    "translated_title": "并行算法与神经执行同步",
+    "translated_abstract": "神经算法推理器是并行处理器。教授它们顺序算法与其性质相矛盾，使得它们的计算中包含很多冗余。然而并行算法可以充分利用它们的计算能力，因此只需执行较少的层次。这大大减少了训练时间，我们观察到与CLRS框架上顺序实现的搜索、排序和寻找强连接组件相比，并行实现的训练时间大大缩短。此外，大多数情况下，并行版本的预测性能更好。",
+    "tldr": "这项研究发现，与顺序算法相比，并行算法能充分利用神经算法推理器的计算能力，从而减少训练时间并获得更好的预测性能。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "On \"Indifference\" and Backward Induction in Games with Perfect Information. (arXiv:2307.04029v1 [cs.AI])",
+    "abstract": "Indifference of a player with respect to two distinct outcomes of a game cannot be handled by small perturbations, because the actual choice may have significant impact on other players, and cause them to act in a way that has significant impact of the indifferent player. It is argued that ties among rational choices can be resolved by refinements of the concept of rationality based on the utilities of other players. One such refinement is the concept of Tit-for-Tat.",
+    "link": "http://arxiv.org/abs/2307.04029",
+    "context": "Title: On \"Indifference\" and Backward Induction in Games with Perfect Information. (arXiv:2307.04029v1 [cs.AI])\nAbstract: Indifference of a player with respect to two distinct outcomes of a game cannot be handled by small perturbations, because the actual choice may have significant impact on other players, and cause them to act in a way that has significant impact of the indifferent player. It is argued that ties among rational choices can be resolved by refinements of the concept of rationality based on the utilities of other players. One such refinement is the concept of Tit-for-Tat.",
+    "path": "papers/23/07/2307.04029.json",
+    "total_tokens": 618,
+    "translated_title": "论\"冷漠\"和完全信息博弈中的反向归纳问题",
+    "translated_abstract": "游戏中玩家对于两个不同的结果冷漠无动于衷，小的微扰无法解决这个问题，因为实际的选择可能对其他玩家产生重大影响，导致他们以对冷漠的玩家产生重大影响的方式行动。本文认为，可以通过基于其他玩家效用的理性概念的细化来解决理性选择之间的平局问题。其中一种细化方法是\"以牙还牙\"的概念。",
+    "tldr": "本文研究了完全信息博弈中玩家冷漠的问题，提出了以牙还牙的概念作为解决理性选择平局的一种方法。",
+    "en_tdlr": "This paper addresses the issue of indifference in games with perfect information and proposes the concept of Tit-for-Tat as a solution to resolve ties among rational choices."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Indecision Trees: Learning Argument-Based Reasoning under Quantified Uncertainty. (arXiv:2206.12252v2 [cs.LG] UPDATED)",
+    "abstract": "Using Machine Learning systems in the real world can often be problematic, with inexplicable black-box models, the assumed certainty of imperfect measurements, or providing a single classification instead of a probability distribution.  This paper introduces Indecision Trees, a modification to Decision Trees which learn under uncertainty, can perform inference under uncertainty, provide a robust distribution over the possible labels, and can be disassembled into a set of logical arguments for use in other reasoning systems.",
+    "link": "http://arxiv.org/abs/2206.12252",
+    "context": "Title: Indecision Trees: Learning Argument-Based Reasoning under Quantified Uncertainty. (arXiv:2206.12252v2 [cs.LG] UPDATED)\nAbstract: Using Machine Learning systems in the real world can often be problematic, with inexplicable black-box models, the assumed certainty of imperfect measurements, or providing a single classification instead of a probability distribution.  This paper introduces Indecision Trees, a modification to Decision Trees which learn under uncertainty, can perform inference under uncertainty, provide a robust distribution over the possible labels, and can be disassembled into a set of logical arguments for use in other reasoning systems.",
+    "path": "papers/22/06/2206.12252.json",
+    "total_tokens": 628,
+    "translated_title": "不确定性下学习基于论证的推理的犹豫树",
+    "translated_abstract": "在现实世界中使用机器学习系统往往存在问题，比如不可解释的黑盒模型，不完美测量的确定性假设，或者只提供单一分类而不是概率分布。本文介绍了犹豫树，一种对决策树进行修改的方法，能够在不确定性下进行学习，能够进行不确定性推理，提供一个强健的标签分布，并可分解为一组逻辑论证用于其他推理系统。",
+    "tldr": "本文介绍了一种修改决策树的方法，即犹豫树，该方法能够在不确定性下进行学习，推理和提供强健的标签分布，可用于其他推理系统。"
+}

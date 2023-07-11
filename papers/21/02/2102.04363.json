@@ -1,0 +1,11 @@
+{
+    "title": "Efficient Data-Driven Optimization with Noisy Data. (arXiv:2102.04363v3 [math.OC] UPDATED)",
+    "abstract": "Classical Kullback-Leibler or entropic distances are known to enjoy certain desirable statistical properties in the context of decision-making with noiseless data. However, in most practical situations the data available to a decision maker is subject to a certain amount of measurement noise. We hence study here data-driven prescription problems in which the data is corrupted by a known noise source. We derive efficient data-driven formulations in this noisy regime and indicate that they enjoy an entropic optimal transport interpretation. Finally, we show that these efficient robust formulations are tractable in several interesting settings by exploiting a classical representation result by Strassen.",
+    "link": "http://arxiv.org/abs/2102.04363",
+    "context": "Title: Efficient Data-Driven Optimization with Noisy Data. (arXiv:2102.04363v3 [math.OC] UPDATED)\nAbstract: Classical Kullback-Leibler or entropic distances are known to enjoy certain desirable statistical properties in the context of decision-making with noiseless data. However, in most practical situations the data available to a decision maker is subject to a certain amount of measurement noise. We hence study here data-driven prescription problems in which the data is corrupted by a known noise source. We derive efficient data-driven formulations in this noisy regime and indicate that they enjoy an entropic optimal transport interpretation. Finally, we show that these efficient robust formulations are tractable in several interesting settings by exploiting a classical representation result by Strassen.",
+    "path": "papers/21/02/2102.04363.json",
+    "total_tokens": 669,
+    "translated_title": "高效的数据驱动优化与有噪数据",
+    "translated_abstract": "在决策者面临的实际情况下，大多数情况下，可用于决策的数据都受到一定程度的测量噪声的影响。本文研究了在已知噪声源的情况下的数据驱动处方问题，并导出了在这个噪声情况下的高效数据驱动形式，并指出它们具有熵最优传输解释。最后，通过利用Strassen的经典表示结果，我们证明了这些有效的鲁棒形式在几种有趣的设置下是可行的。",
+    "tldr": "本文研究了在已知噪声源的情况下的数据驱动处方问题，并导出了在这个噪声情况下的高效数据驱动形式，并指出它们具有熵最优传输解释。"
+}

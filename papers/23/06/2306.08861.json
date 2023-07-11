@@ -1,0 +1,12 @@
+{
+    "title": "Motion Capture Dataset for Practical Use of AI-based Motion Editing and Stylization. (arXiv:2306.08861v2 [cs.CV] UPDATED)",
+    "abstract": "In this work, we proposed a new style-diverse dataset for the domain of motion style transfer. The motion dataset uses an industrial-standard human bone structure and thus is industry-ready to be plugged into 3D characters for many projects. We claim the challenges in motion style transfer and encourage future work in this domain by releasing the proposed motion dataset both to the public and the market. We conduct a comprehensive study on motion style transfer in the experiment using the state-of-the-art method, and the results show the proposed dataset's validity for the motion style transfer task.",
+    "link": "http://arxiv.org/abs/2306.08861",
+    "context": "Title: Motion Capture Dataset for Practical Use of AI-based Motion Editing and Stylization. (arXiv:2306.08861v2 [cs.CV] UPDATED)\nAbstract: In this work, we proposed a new style-diverse dataset for the domain of motion style transfer. The motion dataset uses an industrial-standard human bone structure and thus is industry-ready to be plugged into 3D characters for many projects. We claim the challenges in motion style transfer and encourage future work in this domain by releasing the proposed motion dataset both to the public and the market. We conduct a comprehensive study on motion style transfer in the experiment using the state-of-the-art method, and the results show the proposed dataset's validity for the motion style transfer task.",
+    "path": "papers/23/06/2306.08861.json",
+    "total_tokens": 758,
+    "translated_title": "适用于基于AI的动作编辑与风格化的实用动作捕捉数据集",
+    "translated_abstract": "本研究提出了一种新的样式多样性数据集，用于动作风格转移领域。该动作数据集使用了工业标准的人体骨骼结构，因此可以直接应用于许多项目中的3D角色。我们通过向公众和市场发布这个提议的动作数据集，来表明动作风格转移面临的挑战，并鼓励未来在该领域的研究工作。我们使用最先进的方法对动作风格转移进行了全面的研究实验，结果显示了所提议的数据集在动作风格转移任务中的有效性。",
+    "tldr": "本研究提出了一个适用于动作风格转移的样式多样性数据集，使用工业标准的人体骨骼结构，可直接应用于3D角色项目中。该数据集的有效性通过实验验证，并提出了动作风格转移领域的挑战与未来研究方向。",
+    "en_tdlr": "This paper proposes a style-diverse dataset for motion style transfer, which uses an industry-standard human bone structure and can be directly applied to 3D character projects. The dataset's validity is demonstrated through experiments, and the challenges and future research directions in motion style transfer are discussed."
+}

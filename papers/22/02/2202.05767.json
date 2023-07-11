@@ -1,0 +1,12 @@
+{
+    "title": "A PDE-Based Analysis of the Symmetric Two-Armed Bernoulli Bandit. (arXiv:2202.05767v4 [cs.LG] UPDATED)",
+    "abstract": "This work addresses a version of the two-armed Bernoulli bandit problem where the sum of the means of the arms is one (the symmetric two-armed Bernoulli bandit). In a regime where the gap between these means goes to zero and the number of prediction periods approaches infinity, we obtain the leading order terms of the minmax optimal regret and pseudoregret for this problem by associating each of them with a solution of a linear heat equation. Our results improve upon the previously known results; specifically, we explicitly compute these leading order terms in three different scaling regimes for the gap. Additionally, we obtain new non-asymptotic bounds for any given time horizon.",
+    "link": "http://arxiv.org/abs/2202.05767",
+    "context": "Title: A PDE-Based Analysis of the Symmetric Two-Armed Bernoulli Bandit. (arXiv:2202.05767v4 [cs.LG] UPDATED)\nAbstract: This work addresses a version of the two-armed Bernoulli bandit problem where the sum of the means of the arms is one (the symmetric two-armed Bernoulli bandit). In a regime where the gap between these means goes to zero and the number of prediction periods approaches infinity, we obtain the leading order terms of the minmax optimal regret and pseudoregret for this problem by associating each of them with a solution of a linear heat equation. Our results improve upon the previously known results; specifically, we explicitly compute these leading order terms in three different scaling regimes for the gap. Additionally, we obtain new non-asymptotic bounds for any given time horizon.",
+    "path": "papers/22/02/2202.05767.json",
+    "total_tokens": 814,
+    "translated_title": "基于PDE的对称双臂伯努利赌博机的分析",
+    "translated_abstract": "本研究探讨了一个版本的双臂伯努利赌博机问题，其中两个臂的平均值之和为1（即对称的双臂伯努利赌博机）。在臂之间的差距趋近于零且预测期数趋近于无穷大的情况下，我们通过将每个解与线性热方程的解关联，得到了该问题的minmax最优遗憾和伪遗憾的领先项。我们的结果改进了先前已知的结果；具体而言，在三种不同的差距缩放模式下，我们明确计算了这些领先项。此外，我们还得到了任何给定时间范围的新的非渐近边界。",
+    "tldr": "本研究通过关联线性热方程的解，得到了对称双臂伯努利赌博机问题的minmax最优遗憾和伪遗憾的领先项。新的结果改进了先前的研究，并提供了新的非渐近边界。",
+    "en_tdlr": "This research obtains the leading order terms of minmax optimal regret and pseudoregret for the symmetric two-armed Bernoulli bandit problem by associating each of them with a solution of a linear heat equation. The results improve upon the previously known results and provide new non-asymptotic bounds."
+}

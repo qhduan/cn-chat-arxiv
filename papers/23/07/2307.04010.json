@@ -1,0 +1,12 @@
+{
+    "title": "Understanding the Efficacy of U-Net & Vision Transformer for Groundwater Numerical Modelling. (arXiv:2307.04010v1 [physics.flu-dyn])",
+    "abstract": "This paper presents a comprehensive comparison of various machine learning models, namely U-Net, U-Net integrated with Vision Transformers (ViT), and Fourier Neural Operator (FNO), for time-dependent forward modelling in groundwater systems. Through testing on synthetic datasets, it is demonstrated that U-Net and U-Net + ViT models outperform FNO in accuracy and efficiency, especially in sparse data scenarios. These findings underscore the potential of U-Net-based models for groundwater modelling in real-world applications where data scarcity is prevalent.",
+    "link": "http://arxiv.org/abs/2307.04010",
+    "context": "Title: Understanding the Efficacy of U-Net & Vision Transformer for Groundwater Numerical Modelling. (arXiv:2307.04010v1 [physics.flu-dyn])\nAbstract: This paper presents a comprehensive comparison of various machine learning models, namely U-Net, U-Net integrated with Vision Transformers (ViT), and Fourier Neural Operator (FNO), for time-dependent forward modelling in groundwater systems. Through testing on synthetic datasets, it is demonstrated that U-Net and U-Net + ViT models outperform FNO in accuracy and efficiency, especially in sparse data scenarios. These findings underscore the potential of U-Net-based models for groundwater modelling in real-world applications where data scarcity is prevalent.",
+    "path": "papers/23/07/2307.04010.json",
+    "total_tokens": 751,
+    "translated_title": "理解U-Net和Vision Transformer在地下水数值建模中的有效性",
+    "translated_abstract": "本文对多种机器学习模型进行了全面比较，包括U-Net，集成了Vision Transformers（ViT）的U-Net和Fourier神经运算符（FNO），用于地下水系统中的时间相关正向建模。通过对合成数据集的测试，证明了U-Net和U-Net + ViT模型在准确性和效率方面优于FNO，特别是在稀疏数据场景中。这些发现强调了U-Net模型在数据稀缺的实际应用中用于地下水建模的潜力。",
+    "tldr": "该论文通过对U-Net、U-Net + ViT和FNO等多种机器学习模型在地下水系统中的时间相关正向建模进行全面比较，发现U-Net和U-Net + ViT模型在准确性和效率方面优于FNO，尤其是在稀疏数据场景中。这些结果证明了U-Net模型在数据稀缺的实际地下水建模应用中的潜力。",
+    "en_tdlr": "This paper presents a comprehensive comparison of various machine learning models for time-dependent forward modeling in groundwater systems. The results show that U-Net and U-Net + ViT models outperform FNO, especially in sparse data scenarios, highlighting the potential of U-Net-based models for real-world groundwater modeling with limited data."
+}

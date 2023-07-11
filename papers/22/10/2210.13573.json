@@ -1,0 +1,12 @@
+{
+    "title": "Conditionally Risk-Averse Contextual Bandits. (arXiv:2210.13573v2 [stat.ML] UPDATED)",
+    "abstract": "Contextual bandits with average-case statistical guarantees are inadequate in risk-averse situations because they might trade off degraded worst-case behaviour for better average performance. Designing a risk-averse contextual bandit is challenging because exploration is necessary but risk-aversion is sensitive to the entire distribution of rewards; nonetheless we exhibit the first risk-averse contextual bandit algorithm with an online regret guarantee. We conduct experiments from diverse scenarios where worst-case outcomes should be avoided, from dynamic pricing, inventory management, and self-tuning software; including a production exascale data processing system.",
+    "link": "http://arxiv.org/abs/2210.13573",
+    "context": "Title: Conditionally Risk-Averse Contextual Bandits. (arXiv:2210.13573v2 [stat.ML] UPDATED)\nAbstract: Contextual bandits with average-case statistical guarantees are inadequate in risk-averse situations because they might trade off degraded worst-case behaviour for better average performance. Designing a risk-averse contextual bandit is challenging because exploration is necessary but risk-aversion is sensitive to the entire distribution of rewards; nonetheless we exhibit the first risk-averse contextual bandit algorithm with an online regret guarantee. We conduct experiments from diverse scenarios where worst-case outcomes should be avoided, from dynamic pricing, inventory management, and self-tuning software; including a production exascale data processing system.",
+    "path": "papers/22/10/2210.13573.json",
+    "total_tokens": 724,
+    "translated_title": "有条件风险厌恶的上下文赌博问题",
+    "translated_abstract": "在风险厌恶的情况下，具有平均统计保证的上下文赌博问题是不足够的，因为它们可能通过牺牲最坏情况的表现来获得更好的平均性能。设计一个风险厌恶的上下文赌博算法具有挑战性，因为探索是必要的，但风险厌恶对整个奖励分布都很敏感；尽管如此，我们展示了第一个具有在线遗憾保证的风险厌恶的上下文赌博算法。我们在多种场景下进行了实验，这些场景中最坏情况的结果应该被避免，包括动态定价、库存管理和自我调整软件；其中还包括一个生产级的扩展数据处理系统。",
+    "tldr": "设计出了第一个具有在线遗憾保证的风险厌恶的上下文赌博算法，并在多个实验场景中展示了其适用性。",
+    "en_tdlr": "A risk-averse contextual bandit algorithm with an online regret guarantee is designed, and its applicability is demonstrated in various experimental scenarios."
+}

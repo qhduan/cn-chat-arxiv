@@ -1,0 +1,12 @@
+{
+    "title": "A Demand-Driven Perspective on Generative Audio AI. (arXiv:2307.04292v1 [eess.AS])",
+    "abstract": "To achieve successful deployment of AI research, it is crucial to understand the demands of the industry. In this paper, we present the results of a survey conducted with professional audio engineers, in order to determine research priorities and define various research tasks. We also summarize the current challenges in audio quality and controllability based on the survey. Our analysis emphasizes that the availability of datasets is currently the main bottleneck for achieving high-quality audio generation. Finally, we suggest potential solutions for some revealed issues with empirical evidence.",
+    "link": "http://arxiv.org/abs/2307.04292",
+    "context": "Title: A Demand-Driven Perspective on Generative Audio AI. (arXiv:2307.04292v1 [eess.AS])\nAbstract: To achieve successful deployment of AI research, it is crucial to understand the demands of the industry. In this paper, we present the results of a survey conducted with professional audio engineers, in order to determine research priorities and define various research tasks. We also summarize the current challenges in audio quality and controllability based on the survey. Our analysis emphasizes that the availability of datasets is currently the main bottleneck for achieving high-quality audio generation. Finally, we suggest potential solutions for some revealed issues with empirical evidence.",
+    "path": "papers/23/07/2307.04292.json",
+    "total_tokens": 608,
+    "translated_title": "基于需求驱动的生成音频AI的视角",
+    "translated_abstract": "为了成功应用AI研究，了解行业需求至关重要。本文通过与专业音频工程师进行调查，确定了研究重点和定义了各种研究任务。同时基于调查结果概述了当前音频质量和可控性面临的挑战。我们的分析强调当前数据集的可用性是实现高质量音频生成的主要瓶颈。最后，我们提出了一些解决方法，并提供了实证证据。",
+    "tldr": "本文调查了专业音频工程师的需求，并提出了当前在音频生成方面面临的挑战和解决方案。",
+    "en_tdlr": "This paper presents a survey of professional audio engineers to understand research priorities and challenges in audio generation. The availability of datasets is identified as the main bottleneck, and potential solutions are suggested based on empirical evidence."
+}

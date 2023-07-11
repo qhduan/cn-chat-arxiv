@@ -1,0 +1,12 @@
+{
+    "title": "A Belief-Based Characterization of Reduced-Form Auctions. (arXiv:2307.04070v1 [econ.TH])",
+    "abstract": "We study games of chance (e.g., pokers, dices, horse races) in the form of agents' first-order posterior beliefs about game outcomes. We ask for any profile of agents' posterior beliefs, is there a game that can generate these beliefs? We completely characterize all feasible joint posterior beliefs from these games. The characterization enables us to find a new variant of Border's inequalities (Border, 1991), which we call a belief-based characterization of Border's inequalities. It also leads to a generalization of Aumann's Agreement Theorem. We show that the characterization results are powerful in bounding the correlation of agents' joint posterior beliefs.",
+    "link": "http://arxiv.org/abs/2307.04070",
+    "context": "Title: A Belief-Based Characterization of Reduced-Form Auctions. (arXiv:2307.04070v1 [econ.TH])\nAbstract: We study games of chance (e.g., pokers, dices, horse races) in the form of agents' first-order posterior beliefs about game outcomes. We ask for any profile of agents' posterior beliefs, is there a game that can generate these beliefs? We completely characterize all feasible joint posterior beliefs from these games. The characterization enables us to find a new variant of Border's inequalities (Border, 1991), which we call a belief-based characterization of Border's inequalities. It also leads to a generalization of Aumann's Agreement Theorem. We show that the characterization results are powerful in bounding the correlation of agents' joint posterior beliefs.",
+    "path": "papers/23/07/2307.04070.json",
+    "total_tokens": 801,
+    "translated_title": "一种基于信念的约减形式拍卖的特征化方法",
+    "translated_abstract": "我们研究了抽象形式中的机会游戏（例如扑克、骰子、赛马等），其中代理人对游戏结果的一阶后验信念起着作用。我们提出了以下问题：对于任何代理人后验信念的配置，是否存在一个游戏可以生成这些信念？我们完全描述了可以从这些游戏中获得的所有可行的联合后验信念。这种描述使我们能够找到一种新的Border不等式的变体（Border, 1991），我们称之为基于信念的Border不等式的特征化。它还导致了Aumann的协议定理的推广。我们证明这种特性结果在限制代理人联合后验信念的相关性方面非常强大。",
+    "tldr": "本研究通过研究代理人对游戏结果的后验信念，对约减形式拍卖进行了特征化，得到了基于信念的Border不等式的特征化和Aumann的协议定理的推广, 并且通过边界代理人联合后验信念的相关性。",
+    "en_tdlr": "This paper presents a belief-based characterization of reduced-form auctions by studying agents' posterior beliefs about game outcomes, which leads to a new variant of Border's inequalities and a generalization of Aumann's Agreement Theorem. The characterization results are powerful in bounding the correlation of agents' joint posterior beliefs."
+}

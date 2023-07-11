@@ -1,0 +1,12 @@
+{
+    "title": "Policy Finetuning in Reinforcement Learning via Design of Experiments using Offline Data. (arXiv:2307.04354v1 [cs.LG])",
+    "abstract": "In some applications of reinforcement learning, a dataset of pre-collected experience is already available but it is also possible to acquire some additional online data to help improve the quality of the policy. However, it may be preferable to gather additional data with a single, non-reactive exploration policy and avoid the engineering costs associated with switching policies.  In this paper we propose an algorithm with provable guarantees that can leverage an offline dataset to design a single non-reactive policy for exploration. We theoretically analyze the algorithm and measure the quality of the final policy as a function of the local coverage of the original dataset and the amount of additional data collected.",
+    "link": "http://arxiv.org/abs/2307.04354",
+    "context": "Title: Policy Finetuning in Reinforcement Learning via Design of Experiments using Offline Data. (arXiv:2307.04354v1 [cs.LG])\nAbstract: In some applications of reinforcement learning, a dataset of pre-collected experience is already available but it is also possible to acquire some additional online data to help improve the quality of the policy. However, it may be preferable to gather additional data with a single, non-reactive exploration policy and avoid the engineering costs associated with switching policies.  In this paper we propose an algorithm with provable guarantees that can leverage an offline dataset to design a single non-reactive policy for exploration. We theoretically analyze the algorithm and measure the quality of the final policy as a function of the local coverage of the original dataset and the amount of additional data collected.",
+    "path": "papers/23/07/2307.04354.json",
+    "total_tokens": 712,
+    "translated_title": "强化学习中利用离线数据通过实验设计进行策略微调",
+    "translated_abstract": "在强化学习的一些应用中，已经有一份预先收集好的经验数据集，但也可以获取一些额外的在线数据以帮助提高策略的质量。然而，更倾向于使用单一的非反应性探索策略收集额外数据，以避免切换策略带来的工程成本。在本文中，我们提出了一个具有可证明保证的算法，可以利用离线数据集设计一个单一的非反应性策略进行探索。我们对算法进行了理论分析，并将最终策略的质量作为原始数据集的局部覆盖和额外数据收集量的函数进行了度量。",
+    "tldr": "本文提出了一种算法，利用离线数据集设计单一的非反应性策略进行探索，并通过理论分析对最终策略的质量进行了量化。",
+    "en_tdlr": "This paper proposes an algorithm that utilizes an offline dataset to design a single non-reactive policy for exploration, and quantifies the quality of the final policy through theoretical analysis."
+}

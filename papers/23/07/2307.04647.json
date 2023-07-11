@@ -1,0 +1,12 @@
+{
+    "title": "A note on the induction of comonotonic additive risk measures from acceptance sets. (arXiv:2307.04647v1 [q-fin.MF])",
+    "abstract": "We present simple general conditions on the acceptance sets under which their induced monetary risk and deviation measures are comonotonic additive. We show that acceptance sets induce comonotonic additive risk measures if and only if the acceptance sets and their complements are stable under convex combinations of comonotonic random variables. A generalization of this result applies to risk measures that are additive for random variables with \\textit{a priori} specified dependence structures, e.g., perfectly correlated, uncorrelated, or independent random variables.",
+    "link": "http://arxiv.org/abs/2307.04647",
+    "context": "Title: A note on the induction of comonotonic additive risk measures from acceptance sets. (arXiv:2307.04647v1 [q-fin.MF])\nAbstract: We present simple general conditions on the acceptance sets under which their induced monetary risk and deviation measures are comonotonic additive. We show that acceptance sets induce comonotonic additive risk measures if and only if the acceptance sets and their complements are stable under convex combinations of comonotonic random variables. A generalization of this result applies to risk measures that are additive for random variables with \\textit{a priori} specified dependence structures, e.g., perfectly correlated, uncorrelated, or independent random variables.",
+    "path": "papers/23/07/2307.04647.json",
+    "total_tokens": 657,
+    "translated_title": "关于由接受集导出共单增加性风险度量的一点说明",
+    "translated_abstract": "我们在接受集上提出了简单的一般条件，使其诱导出的货币风险和偏差度量是共单增加性的。我们证明了，如果接受集及其补集在共单增随机变量的凸组合下是稳定的，则接受集诱导出共单增加性风险度量。该结果的推广适用于对于先验指定的依赖结构（例如完全相关的、不相关的或独立的随机变量），与随机变量相加性风险度量。",
+    "tldr": "我们提出了一种简单的方法，可以通过接受集诱导出共单增加性风险度量。这种方法适用于具有先验指定的依赖结构的风险度量。",
+    "en_tdlr": "We present a simple method for inducing comonotonic additive risk measures from acceptance sets, which is applicable to risk measures with a priori specified dependence structures."
+}

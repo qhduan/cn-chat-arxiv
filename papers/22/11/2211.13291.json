@@ -1,0 +1,12 @@
+{
+    "title": "Learning and Testing Latent-Tree Ising Models Efficiently. (arXiv:2211.13291v2 [cs.LG] UPDATED)",
+    "abstract": "We provide time- and sample-efficient algorithms for learning and testing latent-tree Ising models, i.e. Ising models that may only be observed at their leaf nodes. On the learning side, we obtain efficient algorithms for learning a tree-structured Ising model whose leaf node distribution is close in Total Variation Distance, improving on the results of prior work. On the testing side, we provide an efficient algorithm with fewer samples for testing whether two latent-tree Ising models have leaf-node distributions that are close or far in Total Variation distance. We obtain our algorithms by showing novel localization results for the total variation distance between the leaf-node distributions of tree-structured Ising models, in terms of their marginals on pairs of leaves.",
+    "link": "http://arxiv.org/abs/2211.13291",
+    "context": "Title: Learning and Testing Latent-Tree Ising Models Efficiently. (arXiv:2211.13291v2 [cs.LG] UPDATED)\nAbstract: We provide time- and sample-efficient algorithms for learning and testing latent-tree Ising models, i.e. Ising models that may only be observed at their leaf nodes. On the learning side, we obtain efficient algorithms for learning a tree-structured Ising model whose leaf node distribution is close in Total Variation Distance, improving on the results of prior work. On the testing side, we provide an efficient algorithm with fewer samples for testing whether two latent-tree Ising models have leaf-node distributions that are close or far in Total Variation distance. We obtain our algorithms by showing novel localization results for the total variation distance between the leaf-node distributions of tree-structured Ising models, in terms of their marginals on pairs of leaves.",
+    "path": "papers/22/11/2211.13291.json",
+    "total_tokens": 755,
+    "translated_title": "高效学习和测试潜在树状Ising模型",
+    "translated_abstract": "我们提供了高效的学习和测试潜在树状Ising模型的算法，即只能在其叶节点处观测到的Ising模型。在学习方面，我们获得了一种高效的算法，可以学习到一个叶节点分布在总变异距离上与之接近的树状Ising模型，改进了先前工作的结果。在测试方面，我们提供了一种有效的算法，使用更少的样本来测试两个潜在树状Ising模型的叶节点分布是否在总变异距离上接近或远离。通过展示树状Ising模型叶节点分布的总变异距离的新颖局部化结果，我们获得了我们的算法。",
+    "tldr": "本文提出了学习和测试潜在树状Ising模型的高效算法，改进了先前工作的结果，并通过展示树状Ising模型叶节点分布的新颖局部化结果来实现这些算法。",
+    "en_tdlr": "This paper presents efficient algorithms for learning and testing latent-tree Ising models, improving prior work by showing novel localization results for the leaf-node distributions of tree-structured Ising models."
+}

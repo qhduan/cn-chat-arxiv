@@ -1,0 +1,11 @@
+{
+    "title": "A Combinatorial Characterization of Online Learning Games with Bounded Losses. (arXiv:2307.03816v1 [cs.LG])",
+    "abstract": "We study the online learnability of hypothesis classes with respect to arbitrary, but bounded, loss functions. We give a new scale-sensitive combinatorial dimension, named the sequential Minimax dimension, and show that it gives a tight quantitative characterization of online learnability. As applications, we give the first quantitative characterization of online learnability for two natural learning settings: vector-valued regression and multilabel classification.",
+    "link": "http://arxiv.org/abs/2307.03816",
+    "context": "Title: A Combinatorial Characterization of Online Learning Games with Bounded Losses. (arXiv:2307.03816v1 [cs.LG])\nAbstract: We study the online learnability of hypothesis classes with respect to arbitrary, but bounded, loss functions. We give a new scale-sensitive combinatorial dimension, named the sequential Minimax dimension, and show that it gives a tight quantitative characterization of online learnability. As applications, we give the first quantitative characterization of online learnability for two natural learning settings: vector-valued regression and multilabel classification.",
+    "path": "papers/23/07/2307.03816.json",
+    "total_tokens": 659,
+    "translated_title": "在有界损失下的在线学习游戏的组合特征化",
+    "translated_abstract": "我们研究了假设类别对任意但有界损失函数的在线可学习性。我们提出了一个新的尺度敏感的组合维度，称为顺序极小极大维度，并证明它能够紧密定量地刻画在线可学习性。作为应用，我们给出了对两个常见学习场景的在线可学习性的首个定量刻画：向量值回归和多标签分类。",
+    "tldr": "这项研究提出了一个新的尺度敏感的组合维度，称为顺序极小极大维度，并通过对有界损失的在线学习游戏进行研究，给出了对向量值回归和多标签分类的在线可学习性的紧密定量刻画。"
+}
