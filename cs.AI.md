@@ -115,13 +115,14 @@
 | [^111] | [Indecision Trees: Learning Argument-Based Reasoning under Quantified Uncertainty.](http://arxiv.org/abs/2206.12252) | 本文介绍了一种修改决策树的方法，即犹豫树，该方法能够在不确定性下进行学习，推理和提供强健的标签分布，可用于其他推理系统。 |
 | [^112] | [DORA: Exploring outlier representations in Deep Neural Networks.](http://arxiv.org/abs/2206.04530) | 本文提出了一种名为DORA的数据不可知框架，用于分析深度神经网络中的表征空间，并可以识别不符合人类直观认知的表征。 |
 | [^113] | [Fast Interpretable Greedy-Tree Sums.](http://arxiv.org/abs/2201.11931) | FIGS是一种快速可解释的贪婪树求和算法，通过将逻辑规则与加法相结合，能够适应加性结构同时保持高度可解释性。在真实数据集上的实验表明，FIGS实现了最先进的预测性能，并在高风险领域如医学中展示了其实用性。 |
-| [^114] | [Mathematical Runtime Analysis for the Non-Dominated Sorting Genetic Algorithm II (NSGA-II).](http://arxiv.org/abs/2112.08581) | 这项研究通过数学分析证明了非支配排序遗传算法II（NSGA-II）的运行时间特性，发现当种群规模是帕累托前沿大小的四倍时，NSGA-II具有与其他算法相同的运行时间保证。 |
-| [^115] | [Monocular Road Planar Parallax Estimation.](http://arxiv.org/abs/2111.11089) | 本文提出了一种新的深度神经网络RPANet，用于通过平面视差从单目图像序列中感知三维信息。RPANet充分利用了驾驶场景中道路平面几何的优势。 |
-| [^116] | [GFlowNet Foundations.](http://arxiv.org/abs/2111.09266) | GFlowNets是一种生成流网络方法，用于在主动学习环境中采样多样化的候选集。它们具有估计联合概率分布和边际分布的能力，可以表示关于复合对象（如集合和图）的分布。通过单次训练的生成传递，GFlowNets分摊了计算昂贵的MCMC方法的工作。 |
-| [^117] | [SCORE: Spurious COrrelation REduction for Offline Reinforcement Learning.](http://arxiv.org/abs/2110.12468) | 本文提出了SCORE算法，用于离线强化学习中的虚假相关性降低。通过引入退火行为克隆正则化器，SCORE实现了SoTA性能，并消除了次优性中的虚假相关性。 |
-| [^118] | [A unified logical framework for explanations in classifier systems.](http://arxiv.org/abs/2105.14452) | 本研究提出了一种以ceteris paribus为基础的模态语言，用于解释二进制分类器及其属性的推理。我们证明了两个关于语言基数的证明系统的完备性，并研究了无限变量和有限变量情况下的可满足性检查问题。我们还使用这种语言来形式化多种解释概念，包括对事实、对比和反事实解释以及偏见。 |
-| [^119] | [A Survey on Visual Transformer.](http://arxiv.org/abs/2012.12556) | 这篇论文调查了视觉Transformer的应用。Transformer是一种基于自注意机制的深度神经网络，可在计算机视觉任务中具有较好的性能和较少视觉特定的偏见。本文对不同任务下的视觉Transformer模型进行了分类和分析，包括骨干网络、高/中层视觉、低层视觉和视频处理。同时还介绍了将Transformer应用于真实设备的高效方法。 |
-| [^120] | [Learning to extrapolate using continued fractions: Predicting the critical temperature of superconductor materials.](http://arxiv.org/abs/2012.03774) | 本论文提出了使用连分数来学习外推的方法，以预测超导体材料的临界温度。该方法适用于需要在扩展领域内准确近似的应用场景，尤其在设计新结构时最为重要。 |
+| [^114] | [Conservative Distributional Reinforcement Learning with Safety Constraints.](http://arxiv.org/abs/2201.07286) | 本文提出了一种名为保守分布最大后验策略优化 (CDMPO) 的离策略强化学习算法，通过使用分布强化学习方法来估计Q函数和C函数，以及使用保守的价值函数损失来减少约束违反次数。 |
+| [^115] | [Mathematical Runtime Analysis for the Non-Dominated Sorting Genetic Algorithm II (NSGA-II).](http://arxiv.org/abs/2112.08581) | 这项研究通过数学分析证明了非支配排序遗传算法II（NSGA-II）的运行时间特性，发现当种群规模是帕累托前沿大小的四倍时，NSGA-II具有与其他算法相同的运行时间保证。 |
+| [^116] | [Monocular Road Planar Parallax Estimation.](http://arxiv.org/abs/2111.11089) | 本文提出了一种新的深度神经网络RPANet，用于通过平面视差从单目图像序列中感知三维信息。RPANet充分利用了驾驶场景中道路平面几何的优势。 |
+| [^117] | [GFlowNet Foundations.](http://arxiv.org/abs/2111.09266) | GFlowNets是一种生成流网络方法，用于在主动学习环境中采样多样化的候选集。它们具有估计联合概率分布和边际分布的能力，可以表示关于复合对象（如集合和图）的分布。通过单次训练的生成传递，GFlowNets分摊了计算昂贵的MCMC方法的工作。 |
+| [^118] | [SCORE: Spurious COrrelation REduction for Offline Reinforcement Learning.](http://arxiv.org/abs/2110.12468) | 本文提出了SCORE算法，用于离线强化学习中的虚假相关性降低。通过引入退火行为克隆正则化器，SCORE实现了SoTA性能，并消除了次优性中的虚假相关性。 |
+| [^119] | [A unified logical framework for explanations in classifier systems.](http://arxiv.org/abs/2105.14452) | 本研究提出了一种以ceteris paribus为基础的模态语言，用于解释二进制分类器及其属性的推理。我们证明了两个关于语言基数的证明系统的完备性，并研究了无限变量和有限变量情况下的可满足性检查问题。我们还使用这种语言来形式化多种解释概念，包括对事实、对比和反事实解释以及偏见。 |
+| [^120] | [A Survey on Visual Transformer.](http://arxiv.org/abs/2012.12556) | 这篇论文调查了视觉Transformer的应用。Transformer是一种基于自注意机制的深度神经网络，可在计算机视觉任务中具有较好的性能和较少视觉特定的偏见。本文对不同任务下的视觉Transformer模型进行了分类和分析，包括骨干网络、高/中层视觉、低层视觉和视频处理。同时还介绍了将Transformer应用于真实设备的高效方法。 |
+| [^121] | [Learning to extrapolate using continued fractions: Predicting the critical temperature of superconductor materials.](http://arxiv.org/abs/2012.03774) | 本论文提出了使用连分数来学习外推的方法，以预测超导体材料的临界温度。该方法适用于需要在扩展领域内准确近似的应用场景，尤其在设计新结构时最为重要。 |
 
 # 详细
 
@@ -1707,7 +1708,21 @@
 
     Modern machine learning has achieved impressive prediction performance, but often sacrifices interpretability, a critical consideration in high-stakes domains such as medicine. In such settings, practitioners often use highly interpretable decision tree models, but these suffer from inductive bias against additive structure. To overcome this bias, we propose Fast Interpretable Greedy-Tree Sums (FIGS), which generalizes the CART algorithm to simultaneously grow a flexible number of trees in summation. By combining logical rules with addition, FIGS is able to adapt to additive structure while remaining highly interpretable. Extensive experiments on real-world datasets show that FIGS achieves state-of-the-art prediction performance. To demonstrate the usefulness of FIGS in high-stakes domains, we adapt FIGS to learn clinical decision instruments (CDIs), which are tools for guiding clinical decision-making. Specifically, we introduce a variant of FIGS known as G-FIGS that accounts for the 
     
-[^114]: 非支配排序遗传算法II（NSGA-II）的数学运行时间分析
+[^114]: 具有安全约束的保守分布强化学习
+
+    Conservative Distributional Reinforcement Learning with Safety Constraints. (arXiv:2201.07286v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2201.07286](http://arxiv.org/abs/2201.07286)
+
+    本文提出了一种名为保守分布最大后验策略优化 (CDMPO) 的离策略强化学习算法，通过使用分布强化学习方法来估计Q函数和C函数，以及使用保守的价值函数损失来减少约束违反次数。
+
+    
+
+    安全探索可以被看作是一个受约束的马尔可夫决策问题，在这个问题中，预期的长期成本是受到约束的。先前的离策略算法通过引入拉格朗日松弛技术，将约束优化问题转换为相应的无约束对偶问题。然而，上述算法的成本函数提供了不准确的估计，并导致拉格朗日乘子学习的不稳定性。在本文中，我们提出了一种新颖的离策略强化学习算法，称为保守分布最大后验策略优化(CDMPO)。首先，为了准确判断当前情况是否满足约束条件，CDMPO采用分布强化学习方法来估计Q函数和C函数。然后，CDMPO使用保守的价值函数损失来减少探索过程中违约次数。此外，我们利用加权平均比例积分D进行优化。
+
+    Safety exploration can be regarded as a constrained Markov decision problem where the expected long-term cost is constrained. Previous off-policy algorithms convert the constrained optimization problem into the corresponding unconstrained dual problem by introducing the Lagrangian relaxation technique. However, the cost function of the above algorithms provides inaccurate estimations and causes the instability of the Lagrange multiplier learning. In this paper, we present a novel off-policy reinforcement learning algorithm called Conservative Distributional Maximum a Posteriori Policy Optimization (CDMPO). At first, to accurately judge whether the current situation satisfies the constraints, CDMPO adapts distributional reinforcement learning method to estimate the Q-function and C-function. Then, CDMPO uses a conservative value function loss to reduce the number of violations of constraints during the exploration process. In addition, we utilize Weighted Average Proportional Integral D
+    
+[^115]: 非支配排序遗传算法II（NSGA-II）的数学运行时间分析
 
     Mathematical Runtime Analysis for the Non-Dominated Sorting Genetic Algorithm II (NSGA-II). (arXiv:2112.08581v5 [cs.NE] UPDATED)
 
@@ -1721,7 +1736,7 @@
 
     The non-dominated sorting genetic algorithm II (NSGA-II) is the most intensively used multi-objective evolutionary algorithm (MOEA) in real-world applications. However, in contrast to several simple MOEAs analyzed also via mathematical means, no such study exists for the NSGA-II so far. In this work, we show that mathematical runtime analyses are feasible also for the NSGA-II. As particular results, we prove that with a population size four times larger than the size of the Pareto front, the NSGA-II with two classic mutation operators and four different ways to select the parents satisfies the same asymptotic runtime guarantees as the SEMO and GSEMO algorithms on the basic OneMinMax and LeadingOnesTrailingZeros benchmarks. However, if the population size is only equal to the size of the Pareto front, then the NSGA-II cannot efficiently compute the full Pareto front: for an exponential number of iterations, the population will always miss a constant fraction of the Pareto front. Our exp
     
-[^115]: 单目道路平面视差估计
+[^116]: 单目道路平面视差估计
 
     Monocular Road Planar Parallax Estimation. (arXiv:2111.11089v2 [cs.CV] UPDATED)
 
@@ -1735,7 +1750,7 @@
 
     Estimating the 3D structure of the drivable surface and surrounding environment is a crucial task for assisted and autonomous driving. It is commonly solved either by using 3D sensors such as LiDAR or directly predicting the depth of points via deep learning. However, the former is expensive, and the latter lacks the use of geometry information for the scene. In this paper, instead of following existing methodologies, we propose Road Planar Parallax Attention Network (RPANet), a new deep neural network for 3D sensing from monocular image sequences based on planar parallax, which takes full advantage of the omnipresent road plane geometry in driving scenes. RPANet takes a pair of images aligned by the homography of the road plane as input and outputs a $\gamma$ map (the ratio of height to depth) for 3D reconstruction. The $\gamma$ map has the potential to construct a two-dimensional transformation between two consecutive frames. It implies planar parallax and can be combined with the ro
     
-[^116]: GFlowNet基础
+[^117]: GFlowNet基础
 
     GFlowNet Foundations. (arXiv:2111.09266v4 [cs.LG] UPDATED)
 
@@ -1749,7 +1764,7 @@
 
     Generative Flow Networks (GFlowNets) have been introduced as a method to sample a diverse set of candidates in an active learning context, with a training objective that makes them approximately sample in proportion to a given reward function. In this paper, we show a number of additional theoretical properties of GFlowNets. They can be used to estimate joint probability distributions and the corresponding marginal distributions where some variables are unspecified and, of particular interest, can represent distributions over composite objects like sets and graphs. GFlowNets amortize the work typically done by computationally expensive MCMC methods in a single but trained generative pass. They could also be used to estimate partition functions and free energies, conditional probabilities of supersets (supergraphs) given a subset (subgraph), as well as marginal distributions over all supersets (supergraphs) of a given set (graph). We introduce variations enabling the estimation of entro
     
-[^117]: SCORE：用于离线强化学习的虚假相关性降低
+[^118]: SCORE：用于离线强化学习的虚假相关性降低
 
     SCORE: Spurious COrrelation REduction for Offline Reinforcement Learning. (arXiv:2110.12468v2 [cs.LG] UPDATED)
 
@@ -1763,7 +1778,7 @@
 
     Offline reinforcement learning (RL) harnesses the power of massive datasets for resolving sequential decision problems. Most existing papers only discuss defending against out-of-distribution (OOD) actions while we investigate a broader issue, the spurious correlations between epistemic uncertainty and decision-making, an essential factor that causes suboptimality. In this paper, we propose Spurious COrrelation REduction (SCORE) for offline RL, a practically effective and theoretically provable algorithm. We empirically show that SCORE achieves the SoTA performance with 3.1x acceleration on various tasks in a standard benchmark (D4RL). The proposed algorithm introduces an annealing behavior cloning regularizer to help produce a high-quality estimation of uncertainty which is critical for eliminating spurious correlations from suboptimality. Theoretically, we justify the rationality of the proposed method and prove its convergence to the optimal policy with a sublinear rate under mild a
     
-[^118]: 一种统一的逻辑框架用于分类器系统的解释
+[^119]: 一种统一的逻辑框架用于分类器系统的解释
 
     A unified logical framework for explanations in classifier systems. (arXiv:2105.14452v6 [cs.LO] UPDATED)
 
@@ -1777,7 +1792,7 @@
 
     Recent years have witnessed a renewed interest in Boolean function in explaining binary classifiers in the field of explainable AI (XAI). The standard approach of Boolean function is propositional logic. We present a modal language of a ceteris paribus nature which supports reasoning about binary input classifiers and their properties. We study a family of classifier models, axiomatize it as two proof systems regarding the cardinality of the language and show completeness of our axiomatics. Moreover, we prove that satisfiability checking problem for our modal language is NEXPTIME-complete in the infinite-variable case, while it becomes polynomial in the finite-variable case. We furthermore identify an interesting NP fragment of our language in the infinite-variable case. We leverage the language to formalize counterfactual conditional as well as a variety of notions of explanation including abductive, contrastive and counterfactual explanations, and biases. Finally, we present two exte
     
-[^119]: 关于视觉Transformer的调查
+[^120]: 关于视觉Transformer的调查
 
     A Survey on Visual Transformer. (arXiv:2012.12556v6 [cs.CV] UPDATED)
 
@@ -1791,7 +1806,7 @@
 
     Transformer, first applied to the field of natural language processing, is a type of deep neural network mainly based on the self-attention mechanism. Thanks to its strong representation capabilities, researchers are looking at ways to apply transformer to computer vision tasks. In a variety of visual benchmarks, transformer-based models perform similar to or better than other types of networks such as convolutional and recurrent neural networks. Given its high performance and less need for vision-specific inductive bias, transformer is receiving more and more attention from the computer vision community. In this paper, we review these vision transformer models by categorizing them in different tasks and analyzing their advantages and disadvantages. The main categories we explore include the backbone network, high/mid-level vision, low-level vision, and video processing. We also include efficient transformer methods for pushing transformer into real device-based applications. Furthermo
     
-[^120]: 学习使用连分数进行外推：预测超导体材料的临界温度
+[^121]: 学习使用连分数进行外推：预测超导体材料的临界温度
 
     Learning to extrapolate using continued fractions: Predicting the critical temperature of superconductor materials. (arXiv:2012.03774v3 [cs.LG] UPDATED)
 
