@@ -1,0 +1,12 @@
+{
+    "title": "The Value of Chess Squares. (arXiv:2307.05330v1 [cs.AI])",
+    "abstract": "Valuing chess squares and determining the placement of pieces on the board are the main objectives of our study. With the emergence of chess AI, it has become possible to accurately assess the worth of positions in a game of chess. The conventional approach assigns fixed values to pieces $(\\symking=\\infty, \\symqueen=9, \\symrook=5, \\symbishop=3, \\symknight=3, \\sympawn=1)$. We enhance this analysis by introducing marginal valuations for both pieces and squares. We demonstrate our method by examining the positioning of Knights and Bishops, and also provide valuable insights into the valuation of pawns. Notably, Nimzowitsch was among the pioneers in advocating for the significance of Pawn structure and valuation. Finally, we conclude by suggesting potential avenues for future research.",
+    "link": "http://arxiv.org/abs/2307.05330",
+    "context": "Title: The Value of Chess Squares. (arXiv:2307.05330v1 [cs.AI])\nAbstract: Valuing chess squares and determining the placement of pieces on the board are the main objectives of our study. With the emergence of chess AI, it has become possible to accurately assess the worth of positions in a game of chess. The conventional approach assigns fixed values to pieces $(\\symking=\\infty, \\symqueen=9, \\symrook=5, \\symbishop=3, \\symknight=3, \\sympawn=1)$. We enhance this analysis by introducing marginal valuations for both pieces and squares. We demonstrate our method by examining the positioning of Knights and Bishops, and also provide valuable insights into the valuation of pawns. Notably, Nimzowitsch was among the pioneers in advocating for the significance of Pawn structure and valuation. Finally, we conclude by suggesting potential avenues for future research.",
+    "path": "papers/23/07/2307.05330.json",
+    "total_tokens": 825,
+    "translated_title": "棋盘上的棋子价值。 (arXiv:2307.05330v1 [cs.AI])",
+    "translated_abstract": "我们的研究的主要目标是评估棋盘上棋子的价值，并确定棋子在棋盘上的摆放位置。随着国际象棋人工智能的出现，我们能够准确评估国际象棋局面的价值。传统方法对棋子赋予固定的价值$(\\symking=\\infty, \\symqueen=9, \\symrook=5, \\symbishop=3, \\symknight=3, \\sympawn=1)$。我们通过引入棋子和棋盘方面的边际估值来改进这种分析。我们通过研究马和象的位置，并提供有关兵的价值的宝贵见解来演示我们的方法。值得注意的是，尼姆佐维奇是倡导兵的结构和价值的先驱之一。最后，我们提出了未来研究的潜在方向。",
+    "tldr": "本研究通过引入边际估值对国际象棋棋盘上的棋子和棋盘进行评价，提供了关于马、象和兵的有价值的见解。",
+    "en_tdlr": "This study evaluates the value of chess pieces and the placement on the chessboard by introducing marginal valuations, providing valuable insights into the positions of knights, bishops, and pawns."
+}

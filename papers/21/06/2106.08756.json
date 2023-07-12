@@ -1,0 +1,12 @@
+{
+    "title": "Automating Augmentation Through Random Unidimensional Search. (arXiv:2106.08756v3 [cs.LG] UPDATED)",
+    "abstract": "It is no secret amongst deep learning researchers that finding the optimal data augmentation strategy during training can mean the difference between state-of-the-art performance and a run-of-the-mill result. To that end, the community has seen many efforts to automate the process of finding the perfect augmentation procedure for any task at hand. Unfortunately, even recent cutting-edge methods bring massive computational overhead, requiring as many as 100 full model trainings to settle on an ideal configuration. We show how to achieve equivalent performance using just 6 trainings with Random Unidimensional Augmentation. Source code is available at https://github.com/fastestimator/RUA/tree/v1.0",
+    "link": "http://arxiv.org/abs/2106.08756",
+    "context": "Title: Automating Augmentation Through Random Unidimensional Search. (arXiv:2106.08756v3 [cs.LG] UPDATED)\nAbstract: It is no secret amongst deep learning researchers that finding the optimal data augmentation strategy during training can mean the difference between state-of-the-art performance and a run-of-the-mill result. To that end, the community has seen many efforts to automate the process of finding the perfect augmentation procedure for any task at hand. Unfortunately, even recent cutting-edge methods bring massive computational overhead, requiring as many as 100 full model trainings to settle on an ideal configuration. We show how to achieve equivalent performance using just 6 trainings with Random Unidimensional Augmentation. Source code is available at https://github.com/fastestimator/RUA/tree/v1.0",
+    "path": "papers/21/06/2106.08756.json",
+    "total_tokens": 698,
+    "translated_title": "通过随机单维搜索实现数据增强的自动化",
+    "translated_abstract": "对于深度学习研究者来说，找到训练期间最佳的数据增强策略对于取得最先进的性能而言至关重要。为此，社区已经见证了许多努力来自动化找到适合任何任务的完美增强程序的过程。然而，即使是最新的尖端方法也会带来巨大的计算开销，可能需要多达100个完整模型的训练来确定理想的配置。我们展示了如何使用仅6次训练就能达到相同的性能，通过随机单维增强方法进行数据增强。源代码可在https://github.com/fastestimator/RUA/tree/v1.0找到。",
+    "tldr": "通过随机单维搜索的数据增强自动化方法，仅使用6次训练即可获得与使用100次训练相当的性能。",
+    "en_tdlr": "The paper presents an automated data augmentation method using random unidimensional search, which achieves equivalent performance with just 6 trainings compared to using 100 trainings."
+}

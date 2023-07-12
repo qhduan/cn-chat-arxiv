@@ -1,0 +1,12 @@
+{
+    "title": "Argumentative Segmentation Enhancement for Legal Summarization. (arXiv:2307.05081v1 [cs.CL])",
+    "abstract": "We use the combination of argumentative zoning [1] and a legal argumentative scheme to create legal argumentative segments. Based on the argumentative segmentation, we propose a novel task of classifying argumentative segments of legal case decisions. GPT-3.5 is used to generate summaries based on argumentative segments. In terms of automatic evaluation metrics, our method generates higher quality argumentative summaries while leaving out less relevant context as compared to GPT-4 and non-GPT models.",
+    "link": "http://arxiv.org/abs/2307.05081",
+    "context": "Title: Argumentative Segmentation Enhancement for Legal Summarization. (arXiv:2307.05081v1 [cs.CL])\nAbstract: We use the combination of argumentative zoning [1] and a legal argumentative scheme to create legal argumentative segments. Based on the argumentative segmentation, we propose a novel task of classifying argumentative segments of legal case decisions. GPT-3.5 is used to generate summaries based on argumentative segments. In terms of automatic evaluation metrics, our method generates higher quality argumentative summaries while leaving out less relevant context as compared to GPT-4 and non-GPT models.",
+    "path": "papers/23/07/2307.05081.json",
+    "total_tokens": 708,
+    "translated_title": "证辩划分增强法律摘要的研究",
+    "translated_abstract": "我们使用证辩划分和法律论证方案的组合来创建法律证辩段落。基于这种划分，我们提出了一项新的任务，即对法律案例决策的证辩段落进行分类。我们使用GPT-3.5根据证辩段落生成摘要。在自动评估指标上，与GPT-4和非GPT模型相比，我们的方法生成更高质量的证辩摘要，同时剔除了较不相关的上下文。",
+    "tldr": "该论文利用证辩划分和法律论证方案结合的方法创建法律证辩段落，并提出了对法律案例决策的证辩段落分类任务。使用GPT-3.5生成摘要时，我们的方法在自动评估中表现出比GPT-4和非GPT模型更高质量的证辩摘要效果。",
+    "en_tdlr": "This paper proposes a method that combines argumentative zoning and a legal argumentative scheme to create legal argumentative segments, and introduces a new task of classifying argumentative segments of legal case decisions. The method achieves higher-quality argumentative summaries compared to GPT-4 and non-GPT models when using GPT-3.5 for summary generation."
+}

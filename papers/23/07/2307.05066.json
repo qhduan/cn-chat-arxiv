@@ -1,0 +1,12 @@
+{
+    "title": "Tableaux for the Logic of Strategically Knowing How. (arXiv:2307.05066v1 [cs.LO])",
+    "abstract": "The logic of goal-directed knowing-how extends the standard epistemic logic with an operator of knowing-how. The knowing-how operator is interpreted as that there exists a strategy such that the agent knows that the strategy can make sure that p. This paper presents a tableau procedure for the multi-agent version of the logic of strategically knowing-how and shows the soundness and completeness of this tableau procedure. This paper also shows that the satisfiability problem of the logic can be decided in PSPACE.",
+    "link": "http://arxiv.org/abs/2307.05066",
+    "context": "Title: Tableaux for the Logic of Strategically Knowing How. (arXiv:2307.05066v1 [cs.LO])\nAbstract: The logic of goal-directed knowing-how extends the standard epistemic logic with an operator of knowing-how. The knowing-how operator is interpreted as that there exists a strategy such that the agent knows that the strategy can make sure that p. This paper presents a tableau procedure for the multi-agent version of the logic of strategically knowing-how and shows the soundness and completeness of this tableau procedure. This paper also shows that the satisfiability problem of the logic can be decided in PSPACE.",
+    "path": "papers/23/07/2307.05066.json",
+    "total_tokens": 624,
+    "translated_title": "战略性知道的逻辑的表格法",
+    "translated_abstract": "目标导向的知道如何逻辑将标准的认知逻辑延伸，加入了一个知道如何的操作符。这个知道如何的操作符被解释为存在一种策略，使得代理知道该策略可以确保 p。本文提出了适用于战略性知道如何逻辑的多代理版本的表格法，并证明了该表格法的完备性和正确性。本文还证明了该逻辑的可满足性问题可以在PSPACE中解决。",
+    "tldr": "本文提出了战略性知道如何逻辑的表格法，并证明了其完备性和正确性。此外，还证明了该逻辑的可满足性问题可以在PSPACE中解决。",
+    "en_tdlr": "This paper presents a tableau procedure for the logic of strategically knowing-how and shows its soundness and completeness. Additionally, it demonstrates that the satisfiability problem of this logic can be decided in PSPACE."
+}

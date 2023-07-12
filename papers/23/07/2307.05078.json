@@ -1,0 +1,12 @@
+{
+    "title": "Selling Data to a Competitor (Extended Abstract). (arXiv:2307.05078v1 [cs.GT])",
+    "abstract": "We study the costs and benefits of selling data to a competitor. Although selling all consumers' data may decrease total firm profits, there exist other selling mechanisms -- in which only some consumers' data is sold -- that render both firms better off. We identify the profit-maximizing mechanism, and show that the benefit to firms comes at a cost to consumers. We then construct Pareto-improving mechanisms, in which each consumers' welfare, as well as both firms' profits, increase. Finally, we show that consumer opt-in can serve as an instrument to induce firms to choose a Pareto-improving mechanism over a profit-maximizing one.",
+    "link": "http://arxiv.org/abs/2307.05078",
+    "context": "Title: Selling Data to a Competitor (Extended Abstract). (arXiv:2307.05078v1 [cs.GT])\nAbstract: We study the costs and benefits of selling data to a competitor. Although selling all consumers' data may decrease total firm profits, there exist other selling mechanisms -- in which only some consumers' data is sold -- that render both firms better off. We identify the profit-maximizing mechanism, and show that the benefit to firms comes at a cost to consumers. We then construct Pareto-improving mechanisms, in which each consumers' welfare, as well as both firms' profits, increase. Finally, we show that consumer opt-in can serve as an instrument to induce firms to choose a Pareto-improving mechanism over a profit-maximizing one.",
+    "path": "papers/23/07/2307.05078.json",
+    "total_tokens": 778,
+    "translated_title": "向竞争对手出售数据的成本与效益的研究",
+    "translated_abstract": "我们研究了向竞争对手出售数据的成本与效益。尽管出售所有消费者的数据可能会降低公司的总利润，但存在其他出售机制——只销售部分消费者的数据——使得两家公司都受益。我们确定了利润最大化的机制，并证明了公司的受益是以消费者的成本为代价的。然后，我们构建了帕累托改进机制，其中每个消费者的福利以及两家公司的利润均增加。最后，我们证明消费者选择加入可以作为一种手段，促使公司选择帕累托改进机制而不是利润最大化机制。",
+    "tldr": "本研究探讨了向竞争对手出售数据的成本与效益，并确定了利润最大化和帕累托改进机制。结果显示，利润最大化机制对消费者不利，而帕累托改进机制能提高消费者福利和公司利润。",
+    "en_tdlr": "This study examines the costs and benefits of selling data to a competitor and identifies both profit-maximizing and Pareto-improving mechanisms. The findings indicate that the profit-maximizing mechanism is detrimental to consumers, while the Pareto-improving mechanism enhances both consumer welfare and firm profits."
+}

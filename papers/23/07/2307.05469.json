@@ -1,0 +1,12 @@
+{
+    "title": "AdaptiveRec: Adaptively Construct Pairs for Contrastive Learning in Sequential Recommendation. (arXiv:2307.05469v1 [cs.IR])",
+    "abstract": "This paper presents a solution to the challenges faced by contrastive learning in sequential recommendation systems. In particular, it addresses the issue of false negative, which limits the effectiveness of recommendation algorithms. By introducing an advanced approach to contrastive learning, the proposed method improves the quality of item embeddings and mitigates the problem of falsely categorizing similar instances as dissimilar. Experimental results demonstrate performance enhancements compared to existing systems. The flexibility and applicability of the proposed approach across various recommendation scenarios further highlight its value in enhancing sequential recommendation systems.",
+    "link": "http://arxiv.org/abs/2307.05469",
+    "context": "Title: AdaptiveRec: Adaptively Construct Pairs for Contrastive Learning in Sequential Recommendation. (arXiv:2307.05469v1 [cs.IR])\nAbstract: This paper presents a solution to the challenges faced by contrastive learning in sequential recommendation systems. In particular, it addresses the issue of false negative, which limits the effectiveness of recommendation algorithms. By introducing an advanced approach to contrastive learning, the proposed method improves the quality of item embeddings and mitigates the problem of falsely categorizing similar instances as dissimilar. Experimental results demonstrate performance enhancements compared to existing systems. The flexibility and applicability of the proposed approach across various recommendation scenarios further highlight its value in enhancing sequential recommendation systems.",
+    "path": "papers/23/07/2307.05469.json",
+    "total_tokens": 737,
+    "translated_title": "AdaptiveRec：在顺序推荐中自适应构建对比学习的解决方案",
+    "translated_abstract": "本文针对顺序推荐系统中对比学习所面临的挑战提出了一种解决方案。具体而言，它解决了误判的问题，该问题限制了推荐算法的有效性。通过引入先进的对比学习方法，所提出的方法改善了物品嵌入的质量，并减轻了将相似实例错误地归类为不相似的问题。实验证明，与现有系统相比，该方法提供了性能的提升。所提出的方法在各种推荐场景中的灵活性和适用性进一步凸显了它在增强顺序推荐系统中的价值。",
+    "tldr": "本文提出了AdaptiveRec，这是一种在顺序推荐中解决对比学习挑战的自适应方法，通过改善嵌入质量和减轻误判问题来提高效果，并在各种推荐场景中展示了其灵活性和适用性的价值。",
+    "en_tdlr": "This paper proposes AdaptiveRec, an adaptive method to address the challenges of contrastive learning in sequential recommendation. It improves the quality of embeddings and mitigates the problem of false categorization, demonstrating its value in various recommendation scenarios."
+}

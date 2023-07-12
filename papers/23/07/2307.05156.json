@@ -1,0 +1,12 @@
+{
+    "title": "Stable Normative Explanations: From Argumentation to Deontic Logic. (arXiv:2307.05156v1 [cs.AI])",
+    "abstract": "This paper examines how a notion of stable explanation developed elsewhere in Defeasible Logic can be expressed in the context of formal argumentation. With this done, we discuss the deontic meaning of this reconstruction and show how to build from argumentation neighborhood structures for deontic logic where this notion of explanation can be characterised. Some direct complexity results are offered.",
+    "link": "http://arxiv.org/abs/2307.05156",
+    "context": "Title: Stable Normative Explanations: From Argumentation to Deontic Logic. (arXiv:2307.05156v1 [cs.AI])\nAbstract: This paper examines how a notion of stable explanation developed elsewhere in Defeasible Logic can be expressed in the context of formal argumentation. With this done, we discuss the deontic meaning of this reconstruction and show how to build from argumentation neighborhood structures for deontic logic where this notion of explanation can be characterised. Some direct complexity results are offered.",
+    "path": "papers/23/07/2307.05156.json",
+    "total_tokens": 622,
+    "translated_title": "稳定规范解释：从论证到德义逻辑",
+    "translated_abstract": "本文研究了如何在形式论证的背景下表达在可侵犯逻辑中已经发展的稳定解释概念。在此基础上，我们讨论了这种重建的德义含义，并展示了如何基于论证邻域结构构建德义逻辑的解释概念。此外，该文还提供了一些直接的复杂性结果。",
+    "tldr": "本文研究了如何在形式论证的背景下表达稳定解释概念，并探讨了这种重建的德义含义。其中的重要贡献是展示了如何基于论证邻域结构构建德义逻辑的解释概念。",
+    "en_tdlr": "This paper examines how to express the notion of stable explanation in the context of formal argumentation and discusses its deontic meaning. The key contribution is showing how to characterize this notion of explanation by building from argumentation neighborhood structures for deontic logic."
+}

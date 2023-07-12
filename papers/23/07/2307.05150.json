@@ -1,0 +1,12 @@
+{
+    "title": "A Modal Logic for Explaining some Graph Neural Networks. (arXiv:2307.05150v1 [cs.AI])",
+    "abstract": "In this paper, we propose a modal logic in which counting modalities appear in linear inequalities. We show that each formula can be transformed into an equivalent graph neural network (GNN). We also show that each GNN can be transformed into a formula. We show that the satisfiability problem is decidable. We also discuss some variants that are in PSPACE.",
+    "link": "http://arxiv.org/abs/2307.05150",
+    "context": "Title: A Modal Logic for Explaining some Graph Neural Networks. (arXiv:2307.05150v1 [cs.AI])\nAbstract: In this paper, we propose a modal logic in which counting modalities appear in linear inequalities. We show that each formula can be transformed into an equivalent graph neural network (GNN). We also show that each GNN can be transformed into a formula. We show that the satisfiability problem is decidable. We also discuss some variants that are in PSPACE.",
+    "path": "papers/23/07/2307.05150.json",
+    "total_tokens": 611,
+    "translated_title": "用于解释一些图神经网络的模态逻辑",
+    "translated_abstract": "在本文中，我们提出了一种模态逻辑，其中计数模态出现在线性不等式中。我们展示了每个公式可以转化为一个等价的图神经网络（GNN）。我们还展示了每个GNN可以转化为一个公式。我们证明了可满足性问题是可判定的。我们还讨论了一些PSPACE中的变体。",
+    "tldr": "本文提出了一种模态逻辑，通过线性不等式中的计数模态来解释图神经网络。作者证明了可将公式转化为等价的GNN，同时也证明了可将GNN转化为公式。作者还证明了可满足性问题是可判定的，并讨论了一些PSPACE中的变体。",
+    "en_tdlr": "This paper proposes a modal logic to explain graph neural networks using counting modalities in linear inequalities. The authors demonstrate the transformation between formulas and equivalent graph neural networks (GNN), and show that the satisfiability problem is decidable. Variants in PSPACE are also discussed."
+}

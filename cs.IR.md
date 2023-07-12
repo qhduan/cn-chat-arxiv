@@ -2,202 +2,217 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [DebateKG: Automatic Policy Debate Case Creation with Semantic Knowledge Graphs.](http://arxiv.org/abs/2307.04090) | 本论文提出了一种利用语义知识图自动创建政策辩论案例的方法，通过在争论的语义知识图上进行限制最短路径遍历，有效构建高质量的辩论案例。研究结果表明，在美国竞赛辩论中，利用这种方法显著改进了已有数据集DebateSum，并贡献了新的例子和有用的元数据。通过使用txtai语义搜索和知识图工具链，创建和贡献了9个语义知识图，同时提出了一种独特的评估方法来确定哪个知识图更适合政策辩论案例生成。 |
-| [^2] | [Fairness-Aware Graph Neural Networks: A Survey.](http://arxiv.org/abs/2307.03929) | 该论文调查了公平感知图神经网络，讨论了提高GNNs公平性的技术，并介绍了公平度评估指标分类法。 |
-| [^3] | [Embedding Mental Health Discourse for Community Recommendation.](http://arxiv.org/abs/2307.03892) | 本论文研究了使用话语嵌入技术开发社区推荐系统，重点关注心理健康支持群体。通过整合不同社区的话语信息，采用基于内容和协同过滤技术，提升了推荐系统的性能，并提供了可解释性。 |
-| [^4] | [How does AI chat change search behaviors?.](http://arxiv.org/abs/2307.03826) | 这项研究探索了AI聊天系统在搜索过程中的应用，并研究了将聊天系统与搜索工具结合的潜在影响。该研究发现AI聊天系统有望改变人们的搜索行为和策略。 |
-| [^5] | [GenRec: Large Language Model for Generative Recommendation.](http://arxiv.org/abs/2307.00457) | 本文介绍了一种基于大型语言模型的创新推荐系统方法GenRec，通过直接生成目标推荐项而不是计算排名分数，利用LLM的表达能力和理解能力来生成相关推荐。 |
-| [^6] | [Human Activity Behavioural Pattern Recognition in Smarthome with Long-hour Data Collection.](http://arxiv.org/abs/2306.13374) | 本文提出了一种基于深度学习模型和多种环境传感器结合的混合传感器人类活动识别框架，可识别出更多的活动，有助于推导出人类活动模式或用户画像。 |
-| [^7] | [Adaptive Graph Contrastive Learning for Recommendation.](http://arxiv.org/abs/2305.10837) | 本文提出了一种自适应图对比学习的推荐框架，通过对比学习的方式改进用户和物品的表示，关注数据中的难以区分的负面例子的信息。 |
-| [^8] | [Unconfounded Propensity Estimation for Unbiased Ranking.](http://arxiv.org/abs/2305.09918) | 该论文提出了一种新的算法PropensityNet，用于在强日志记录策略下进行无偏学习排名（ULTR）的倾向性估计，优于现有的最先进ULTR算法。 |
-| [^9] | [How to Index Item IDs for Recommendation Foundation Models.](http://arxiv.org/abs/2305.06569) | 本研究对推荐基础模型的项目索引问题进行了系统检查，提出了一种新的上下文感知索引方法，该方法在项目推荐准确性和文本生成质量方面具有优势。 |
-| [^10] | [Talk the Walk: Synthetic Data Generation for Conversational Music Recommendation.](http://arxiv.org/abs/2301.11489) | TalkTheWalk 是一种新技术，通过利用精心策划的项目收藏中的领域专业知识来合成逼真高质量的会话数据，解决了构建会话式推荐系统所需的训练数据收集的困难。 |
-| [^11] | [Result Diversification in Search and Recommendation: A Survey.](http://arxiv.org/abs/2212.14464) | 这项调研提出了一个统一的分类体系，用于将搜索和推荐中的多样化指标和方法进行分类。调研总结了搜索和推荐中的各种多样性问题，并展示了各种应用在搜索和推荐中的调研成果。未来的研究方向和挑战也被讨论。 |
-| [^12] | [Cascading Residual Graph Convolutional Network for Multi-Behavior Recommendation.](http://arxiv.org/abs/2205.13128) | 这篇论文提出了一种级联剩余图卷积网络用于多行为推荐的方法，通过利用不同行为之间的联系来学习用户偏好，减轻数据稀疏问题。 |
-| [^13] | [Consistent Collaborative Filtering via Tensor Decomposition.](http://arxiv.org/abs/2201.11936) | 本文提出了一种通过张量分解来实现一致协同过滤的新模型，它能够扩展传统的用户-物品偏好计算方法，使得在评估物品相对偏好时产生物品之间的交互，具有潜在的非线性态度。 |
+| [^1] | [Fisher-Weighted Merge of Contrastive Learning Models in Sequential Recommendation.](http://arxiv.org/abs/2307.05476) | 本文首次将Fisher合并方法应用于序列推荐中，通过合并多个模型的参数来改善整体性能，从而解决了实际挑战，具有推动最新技术的潜力。 |
+| [^2] | [AdaptiveRec: Adaptively Construct Pairs for Contrastive Learning in Sequential Recommendation.](http://arxiv.org/abs/2307.05469) | 本文提出了AdaptiveRec，这是一种在顺序推荐中解决对比学习挑战的自适应方法，通过改善嵌入质量和减轻误判问题来提高效果，并在各种推荐场景中展示了其灵活性和适用性的价值。 |
+| [^3] | [Duncode Characters Shorter.](http://arxiv.org/abs/2307.05414) | 本文研究了文本转换中使用的各种编码器，并介绍了一种创新的Duncode编码方法，该方法在编码整个Unicode字符集时具有较高的空间效率。 |
+| [^4] | [Temporal Graphs Anomaly Emergence Detection: Benchmarking For Social Media Interactions.](http://arxiv.org/abs/2307.05268) | 本研究针对时间图中的异常出现进行了全面的基准测试，比较了12种数据驱动的方法。实验结果表明，针对这类任务没有明确的最佳方法，突显了检测大型动态系统中新兴异常的复杂性和挑战，强调了进一步研究和创新方法的需求。 |
+| [^5] | [U-CREAT: Unsupervised Case Retrieval using Events extrAcTion.](http://arxiv.org/abs/2307.05260) | U-CREAT是一个无监督案例检索系统，通过使用事件提取实现了更高的性能和更快的检索速度，适用于实时案例检索系统。 |
+| [^6] | [Generative Contrastive Graph Learning for Recommendation.](http://arxiv.org/abs/2307.05100) | 本文介绍了一种基于生成对比图学习的推荐系统。通过将用户的互动视为用户-项目图，结合对比学习技术和数据增强技术，提供更有效的自监督信号，从而改进了传统的基于协同过滤的推荐系统模型。 |
+| [^7] | [Retrieval-augmented GPT-3.5-based Text-to-SQL Framework with Sample-aware Prompting and Dynamic Revision Chain.](http://arxiv.org/abs/2307.05074) | 本文提出了一种基于检索增强的GPT-3.5文本到SQL框架，采用了样本感知引导和动态修订链的方法，以应对现有方法在处理语义差距较大的检索示例时面临的挑战。 |
+| [^8] | [Mining for Unknown Unknowns.](http://arxiv.org/abs/2307.05071) | 本论文使用形式概念分析（FCA）框架，旨在系统地挖掘和寻找未知未知，从而避免潜在的重大收益或损失。 |
+| [^9] | [Neural-Symbolic Recommendation with Graph-Enhanced Information.](http://arxiv.org/abs/2307.05036) | 本研究结合了图神经网络和命题逻辑操作的优势，构建了一个具有全局隐式推理能力和局部显式逻辑推理能力的神经符号推荐模型。 |
+| [^10] | [Empowering recommender systems using automatically generated Knowledge Graphs and Reinforcement Learning.](http://arxiv.org/abs/2307.04996) | 本文介绍了两种基于知识图谱的方法，一种使用强化学习，另一种使用XGBoost算法，用于个性化文章推荐。这些方法利用自动生成的知识图谱，并在一个大型跨国金融服务公司的客户中进行了实证研究。 |
+| [^11] | [Ranking with Long-Term Constraints.](http://arxiv.org/abs/2307.04923) | 本文提出了一个新的框架，使决策者可以表达平台行为的长期目标，并通过新的基于控制的算法实现这些目标，同时最小化对短期参与的影响。 |
+| [^12] | [Continual Learning on Dynamic Graphs via Parameter Isolation.](http://arxiv.org/abs/2305.13825) | 提出了Parameter Isolation GNN (PI-GNN)模型，用于处理动态图上的持续学习任务。该模型通过参数隔离和扩展来避免学习新模式和保留旧模式之间的权衡。 |
+| [^13] | [One-Shot Labeling for Automatic Relevance Estimation.](http://arxiv.org/abs/2302.11266) | 本研究探索了利用大型语言模型来填补搜索系统离线评估过程中未评定文档的问题。研究结果表明，尽管预测结果与人工评定存在差异，但使用一次性标注器能够提供更可靠的系统排序效果。 |
+| [^14] | [Collective Privacy Recovery: Data-sharing Coordination via Decentralized Artificial Intelligence.](http://arxiv.org/abs/2301.05995) | 本文研究了集体隐私恢复的问题，通过分散式人工智能实现数据共享的协同。研究发现，数据共享协调可以实现对隐私的显著恢复，并带来双赢效果。 |
 
 # 详细
 
-[^1]: DebateKG: 用语义知识图自动创建政策辩论案例
+[^1]: 序列推荐中对比学习模型的Fisher加权合并
 
-    DebateKG: Automatic Policy Debate Case Creation with Semantic Knowledge Graphs. (arXiv:2307.04090v1 [cs.CL])
+    Fisher-Weighted Merge of Contrastive Learning Models in Sequential Recommendation. (arXiv:2307.05476v1 [cs.IR])
 
-    [http://arxiv.org/abs/2307.04090](http://arxiv.org/abs/2307.04090)
+    [http://arxiv.org/abs/2307.05476](http://arxiv.org/abs/2307.05476)
 
-    本论文提出了一种利用语义知识图自动创建政策辩论案例的方法，通过在争论的语义知识图上进行限制最短路径遍历，有效构建高质量的辩论案例。研究结果表明，在美国竞赛辩论中，利用这种方法显著改进了已有数据集DebateSum，并贡献了新的例子和有用的元数据。通过使用txtai语义搜索和知识图工具链，创建和贡献了9个语义知识图，同时提出了一种独特的评估方法来确定哪个知识图更适合政策辩论案例生成。
-
-    
-
-    近期相关工作表明，自然语言处理系统在解决竞赛辩论中的问题方面具有应用性。竞赛辩论中最重要的任务之一是辩手创建高质量的辩论案例。我们展示了使用限制最短路径遍历在争论的语义知识图上构建有效的辩论案例的方法。我们在一个名为DebateSum的大规模数据集上研究了这种潜力，该数据集针对的是一种名为政策辩论的美国竞赛辩论类型。我们通过向数据集中引入53180个新的例子，并为每个例子提供进一步有用的元数据，显著改进了DebateSum。我们利用txtai语义搜索和知识图工具链基于这个数据集产生并贡献了9个语义知识图。我们创建了一种独特的评估方法，以确定在政策辩论案例生成的背景下哪个知识图更好。
-
-    Recent work within the Argument Mining community has shown the applicability of Natural Language Processing systems for solving problems found within competitive debate. One of the most important tasks within competitive debate is for debaters to create high quality debate cases. We show that effective debate cases can be constructed using constrained shortest path traversals on Argumentative Semantic Knowledge Graphs. We study this potential in the context of a type of American Competitive Debate, called Policy Debate, which already has a large scale dataset targeting it called DebateSum. We significantly improve upon DebateSum by introducing 53180 new examples, as well as further useful metadata for every example, to the dataset. We leverage the txtai semantic search and knowledge graph toolchain to produce and contribute 9 semantic knowledge graphs built on this dataset. We create a unique method for evaluating which knowledge graphs are better in the context of producing policy deb
-    
-[^2]: 公平感知图神经网络：一项调查研究
-
-    Fairness-Aware Graph Neural Networks: A Survey. (arXiv:2307.03929v1 [cs.LG])
-
-    [http://arxiv.org/abs/2307.03929](http://arxiv.org/abs/2307.03929)
-
-    该论文调查了公平感知图神经网络，讨论了提高GNNs公平性的技术，并介绍了公平度评估指标分类法。
+    本文首次将Fisher合并方法应用于序列推荐中，通过合并多个模型的参数来改善整体性能，从而解决了实际挑战，具有推动最新技术的潜力。
 
     
 
-    由于其代表能力和在许多基本学习任务中的最先进预测性能，图神经网络(GNNs)变得越来越重要。尽管取得了成功，但GNNs由于基础图数据和庞大的GNN模型中心的基本聚合机制的结果，存在公平性问题。在本文中，我们考察并分类了提高GNNs公平性的公平技术。先前关于公平GNN模型和技术的工作在预处理步骤、训练过程中或后处理阶段是否关注提高公平性方面进行了讨论。此外，我们讨论了这些技术如何在适当的情况下共同使用，并强调了各自的优势和直觉。我们还介绍了一种直观的公平度评估指标分类法，包括图级公平性、邻域级公平性、嵌入级公平性和预测级公平性。
+    随着在线平台和服务的指数增长，推荐系统已成为根据用户偏好识别相关物品的必备工具。序列推荐的领域旨在捕捉用户随时间变化的偏好。为了解决动态偏好，已提出了各种对比学习方法来应对推荐系统中由于有限的用户-物品交互而导致的数据稀疏性挑战。在本文中，我们首次将Fisher合并方法应用于序列推荐中，解决并解决了与之相关的实际挑战。这种方法通过合并多个模型的参数来确保鲁棒微调，从而改善整体性能。通过大量实验，我们证明了我们提出的方法的有效性，并突出了它们在序列学习和推荐系统中推动最新技术的潜力。
 
-    Graph Neural Networks (GNNs) have become increasingly important due to their representational power and state-of-the-art predictive performance on many fundamental learning tasks. Despite this success, GNNs suffer from fairness issues that arise as a result of the underlying graph data and the fundamental aggregation mechanism that lies at the heart of the large class of GNN models. In this article, we examine and categorize fairness techniques for improving the fairness of GNNs. Previous work on fair GNN models and techniques are discussed in terms of whether they focus on improving fairness during a preprocessing step, during training, or in a post-processing phase. Furthermore, we discuss how such techniques can be used together whenever appropriate, and highlight the advantages and intuition as well. We also introduce an intuitive taxonomy for fairness evaluation metrics including graph-level fairness, neighborhood-level fairness, embedding-level fairness, and prediction-level fair
+    Along with the exponential growth of online platforms and services, recommendation systems have become essential for identifying relevant items based on user preferences. The domain of sequential recommendation aims to capture evolving user preferences over time. To address dynamic preference, various contrastive learning methods have been proposed to target data sparsity, a challenge in recommendation systems due to the limited user-item interactions. In this paper, we are the first to apply the Fisher-Merging method to Sequential Recommendation, addressing and resolving practical challenges associated with it. This approach ensures robust fine-tuning by merging the parameters of multiple models, resulting in improved overall performance. Through extensive experiments, we demonstrate the effectiveness of our proposed methods, highlighting their potential to advance the state-of-the-art in sequential learning and recommendation systems.
     
-[^3]: 将心理健康话语嵌入社区推荐系统
+[^2]: AdaptiveRec：在顺序推荐中自适应构建对比学习的解决方案
 
-    Embedding Mental Health Discourse for Community Recommendation. (arXiv:2307.03892v1 [cs.IR])
+    AdaptiveRec: Adaptively Construct Pairs for Contrastive Learning in Sequential Recommendation. (arXiv:2307.05469v1 [cs.IR])
 
-    [http://arxiv.org/abs/2307.03892](http://arxiv.org/abs/2307.03892)
+    [http://arxiv.org/abs/2307.05469](http://arxiv.org/abs/2307.05469)
 
-    本论文研究了使用话语嵌入技术开发社区推荐系统，重点关注心理健康支持群体。通过整合不同社区的话语信息，采用基于内容和协同过滤技术，提升了推荐系统的性能，并提供了可解释性。
-
-    
-
-    我们的论文研究了使用话语嵌入技术来开发一个社区推荐系统，重点关注社交媒体上的心理健康支持群体。社交媒体平台为用户提供了与满足其特定兴趣的社区匿名连接的方式。然而，由于在线社区数量庞大，用户可能难以找到相关群组来解决他们的心理健康问题。为了解决这个挑战，我们使用嵌入技术探索来自不同subreddit社区的话语信息的整合，以开发一个有效的推荐系统。我们的方法使用基于内容和协同过滤的技术来提升推荐系统的性能。我们的研究结果表明，所提出的方法优于单独使用每种技术，并提供了推荐过程的可解释性。
-
-    Our paper investigates the use of discourse embedding techniques to develop a community recommendation system that focuses on mental health support groups on social media. Social media platforms provide a means for users to anonymously connect with communities that cater to their specific interests. However, with the vast number of online communities available, users may face difficulties in identifying relevant groups to address their mental health concerns. To address this challenge, we explore the integration of discourse information from various subreddit communities using embedding techniques to develop an effective recommendation system. Our approach involves the use of content-based and collaborative filtering techniques to enhance the performance of the recommendation system. Our findings indicate that the proposed approach outperforms the use of each technique separately and provides interpretability in the recommendation process.
-    
-[^4]: AI聊天如何改变搜索行为？
-
-    How does AI chat change search behaviors?. (arXiv:2307.03826v1 [cs.HC])
-
-    [http://arxiv.org/abs/2307.03826](http://arxiv.org/abs/2307.03826)
-
-    这项研究探索了AI聊天系统在搜索过程中的应用，并研究了将聊天系统与搜索工具结合的潜在影响。该研究发现AI聊天系统有望改变人们的搜索行为和策略。
+    本文提出了AdaptiveRec，这是一种在顺序推荐中解决对比学习挑战的自适应方法，通过改善嵌入质量和减轻误判问题来提高效果，并在各种推荐场景中展示了其灵活性和适用性的价值。
 
     
 
-    生成式AI工具如chatGPT有望改变人们与在线信息的互动方式。近期，微软宣布了他们的“新Bing”搜索系统，其中整合了来自OpenAI的聊天和生成式AI技术。谷歌也宣布了将部署类似技术的搜索界面的计划。这些新技术将改变人们搜索信息的方式。本研究是对人们在搜索过程中如何使用生成式AI聊天系统（以下简称为chat）以及将chat系统与现有搜索工具结合可能如何影响用户的搜索行为和策略的早期调查研究。我们报道了一个探索性用户研究，有10名参与者使用了一个使用OpenAI GPT-3.5 API和Bing Web Search v5 API的综合Chat+Search系统。参与者完成了三个搜索任务。在这篇初步结果的预印论文中，我们报道了用户在搜索过程中遇到的问题和使用chat系统的方式。
+    本文针对顺序推荐系统中对比学习所面临的挑战提出了一种解决方案。具体而言，它解决了误判的问题，该问题限制了推荐算法的有效性。通过引入先进的对比学习方法，所提出的方法改善了物品嵌入的质量，并减轻了将相似实例错误地归类为不相似的问题。实验证明，与现有系统相比，该方法提供了性能的提升。所提出的方法在各种推荐场景中的灵活性和适用性进一步凸显了它在增强顺序推荐系统中的价值。
 
-    Generative AI tools such as chatGPT are poised to change the way people engage with online information. Recently, Microsoft announced their "new Bing" search system which incorporates chat and generative AI technology from OpenAI. Google has announced plans to deploy search interfaces that incorporate similar types of technology. These new technologies will transform how people can search for information. The research presented here is an early investigation into how people make use of a generative AI chat system (referred to simply as chat from here on) as part of a search process, and how the incorporation of chat systems with existing search tools may effect users search behaviors and strategies.  We report on an exploratory user study with 10 participants who used a combined Chat+Search system that utilized the OpenAI GPT-3.5 API and the Bing Web Search v5 API. Participants completed three search tasks. In this pre-print paper of preliminary results, we report on ways that users in
+    This paper presents a solution to the challenges faced by contrastive learning in sequential recommendation systems. In particular, it addresses the issue of false negative, which limits the effectiveness of recommendation algorithms. By introducing an advanced approach to contrastive learning, the proposed method improves the quality of item embeddings and mitigates the problem of falsely categorizing similar instances as dissimilar. Experimental results demonstrate performance enhancements compared to existing systems. The flexibility and applicability of the proposed approach across various recommendation scenarios further highlight its value in enhancing sequential recommendation systems.
     
-[^5]: GenRec:大型语言模型在生成式推荐中的应用
+[^3]: Duncode字符更短的技术
 
-    GenRec: Large Language Model for Generative Recommendation. (arXiv:2307.00457v2 [cs.IR] UPDATED)
+    Duncode Characters Shorter. (arXiv:2307.05414v1 [cs.CL])
 
-    [http://arxiv.org/abs/2307.00457](http://arxiv.org/abs/2307.00457)
+    [http://arxiv.org/abs/2307.05414](http://arxiv.org/abs/2307.05414)
 
-    本文介绍了一种基于大型语言模型的创新推荐系统方法GenRec，通过直接生成目标推荐项而不是计算排名分数，利用LLM的表达能力和理解能力来生成相关推荐。
-
-    
-
-    近年来，大型语言模型(Large Language Model，LLM)已经成为各种自然语言处理任务的强大工具。然而，在生成式推荐范式下，它们在推荐系统中的潜力相对未被探索。本文提出了一种创新的基于文本数据的推荐系统方法，利用大型语言模型(LLM)来进行推荐。我们介绍了一种新颖的大型语言模型推荐系统(GenRec)，该系统利用LLM的表达能力直接生成目标推荐项，而不是像传统的判别式推荐系统一样逐个计算每个候选项的排名分数。GenRec利用LLM的理解能力来解释上下文、学习用户偏好并生成相关推荐。我们提出的方法利用大型语言模型中编码的丰富知识来完成推荐任务。我们首先制定了专门的提示，以增强LLM理解推荐任务的能力。
-
-    In recent years, large language models (LLM) have emerged as powerful tools for diverse natural language processing tasks. However, their potential for recommender systems under the generative recommendation paradigm remains relatively unexplored. This paper presents an innovative approach to recommendation systems using large language models (LLMs) based on text data. In this paper, we present a novel LLM for generative recommendation (GenRec) that utilized the expressive power of LLM to directly generate the target item to recommend, rather than calculating ranking score for each candidate item one by one as in traditional discriminative recommendation. GenRec uses LLM's understanding ability to interpret context, learn user preferences, and generate relevant recommendation. Our proposed approach leverages the vast knowledge encoded in large language models to accomplish recommendation tasks. We first we formulate specialized prompts to enhance the ability of LLM to comprehend recomm
-    
-[^6]: 长期数据采集下的智能家居人类活动行为模式识别
-
-    Human Activity Behavioural Pattern Recognition in Smarthome with Long-hour Data Collection. (arXiv:2306.13374v1 [cs.HC])
-
-    [http://arxiv.org/abs/2306.13374](http://arxiv.org/abs/2306.13374)
-
-    本文提出了一种基于深度学习模型和多种环境传感器结合的混合传感器人类活动识别框架，可识别出更多的活动，有助于推导出人类活动模式或用户画像。
+    本文研究了文本转换中使用的各种编码器，并介绍了一种创新的Duncode编码方法，该方法在编码整个Unicode字符集时具有较高的空间效率。
 
     
 
-    人类活动识别的研究为医疗保健、运动和用户画像等许多应用提供了新颖的解决方案。考虑到人类活动的复杂性，即使有有效的传感器仍然具有挑战性。目前使用智能手机传感器进行人类活动识别的现有工作，专注于识别如坐、睡眠、站立、上下楼梯和奔跑等基本的人类活动。然而，分析人类行为模式需要更多的活动。所提出的框架使用深度学习模型识别基本人类活动，同时结合环境传感器（如PIR、压力传感器）和基于智能手机的传感器（如加速度计和陀螺仪）来实现混合传感器人类活动识别。混合方法帮助推导出比基本活动更多的活动，这也有助于推导出人类活动模式或用户画像。用户画像提供了足够的信息。
+    本文研究了在文本转换中使用各种编码器，将字符转换为字节。讨论了本地编码器（如ASCII和GB-2312），它们将特定字符编码为较短的字节，以及通用编码器（如UTF-8和UTF-16），它们可以使用更多的空间来编码完整的Unicode字符集，并得到广泛接受。然而，其他编码器（包括SCSU，BOCU-1和二进制编码器）缺乏自同步功能。Duncode是一种创新的编码方法，旨在以高空间效率编码整个Unicode字符集，类似于本地编码器。它有潜力使用较少的字节将字符串的多个字符压缩为一个Duncode单元。尽管提供了较少的自同步识别信息，Duncode在空间效率方面超越了UTF8。应用程序可在\url{https://github.com/laohur/duncode}中找到。此外，我们还开发了一个基准测试工具。
 
-    The research on human activity recognition has provided novel solutions to many applications like healthcare, sports, and user profiling. Considering the complex nature of human activities, it is still challenging even after effective and efficient sensors are available. The existing works on human activity recognition using smartphone sensors focus on recognizing basic human activities like sitting, sleeping, standing, stair up and down and running. However, more than these basic activities is needed to analyze human behavioural pattern. The proposed framework recognizes basic human activities using deep learning models. Also, ambient sensors like PIR, pressure sensors, and smartphone-based sensors like accelerometers and gyroscopes are combined to make it hybrid-sensor-based human activity recognition. The hybrid approach helped derive more activities than the basic ones, which also helped derive human activity patterns or user profiling. User profiling provides sufficient informatio
+    This paper investigates the employment of various encoders in text transformation, converting characters into bytes. It discusses local encoders such as ASCII and GB-2312, which encode specific characters into shorter bytes, and universal encoders like UTF-8 and UTF-16, which can encode the complete Unicode set with greater space requirements and are gaining widespread acceptance. Other encoders, including SCSU, BOCU-1, and binary encoders, however, lack self-synchronizing capabilities. Duncode is introduced as an innovative encoding method that aims to encode the entire Unicode character set with high space efficiency, akin to local encoders. It has the potential to compress multiple characters of a string into a Duncode unit using fewer bytes. Despite offering less self-synchronizing identification information, Duncode surpasses UTF8 in terms of space efficiency. The application is available at \url{https://github.com/laohur/duncode}. Additionally, we have developed a benchmark for e
     
-[^7]: 自适应图对比学习用于推荐系统
+[^4]: 时间图异常出现检测: 社交媒体交互的基准测试
 
-    Adaptive Graph Contrastive Learning for Recommendation. (arXiv:2305.10837v1 [cs.IR])
+    Temporal Graphs Anomaly Emergence Detection: Benchmarking For Social Media Interactions. (arXiv:2307.05268v1 [cs.SI])
 
-    [http://arxiv.org/abs/2305.10837](http://arxiv.org/abs/2305.10837)
+    [http://arxiv.org/abs/2307.05268](http://arxiv.org/abs/2307.05268)
 
-    本文提出了一种自适应图对比学习的推荐框架，通过对比学习的方式改进用户和物品的表示，关注数据中的难以区分的负面例子的信息。
-
-    
-
-    近年来，图神经网络已成功地应用于推荐系统，成为一种有效的协同过滤方法。基于图神经网络的推荐系统的关键思想是沿着用户-物品交互边递归地执行消息传递，以完善编码嵌入，这依赖于充足和高质量的训练数据。由于实际推荐场景中的用户行为数据通常存在噪声并呈现出倾斜分布，一些推荐方法利用自监督学习来改善用户表示，例如SGL和SimGCL。 然而，尽管它们非常有效，但它们通过创建对比视图进行自监督学习，具有数据增强探索，需要进行繁琐的试错选择增强方法。本文提出了一种新的自适应图对比学习（AdaptiveGCL）框架，通过自适应但关注数据中的难以区分的负面例子的信息，用对比学习的方式改进用户和物品的表示。
-
-    Recently, graph neural networks (GNNs) have been successfully applied to recommender systems as an effective collaborative filtering (CF) approach. The key idea of GNN-based recommender system is to recursively perform the message passing along the user-item interaction edge for refining the encoded embeddings, relying on sufficient and high-quality training data. Since user behavior data in practical recommendation scenarios is often noisy and exhibits skewed distribution, some recommendation approaches, e.g., SGL and SimGCL, leverage self-supervised learning to improve user representations against the above issues. Despite their effectiveness, however, they conduct self-supervised learning through creating contrastvie views, depending on the exploration of data augmentations with the problem of tedious trial-and-error selection of augmentation methods. In this paper, we propose a novel Adaptive Graph Contrastive Learning (AdaptiveGCL) framework which conducts graph contrastive learni
-    
-[^8]: 无偏倾向估计用于无偏排序
-
-    Unconfounded Propensity Estimation for Unbiased Ranking. (arXiv:2305.09918v1 [cs.IR])
-
-    [http://arxiv.org/abs/2305.09918](http://arxiv.org/abs/2305.09918)
-
-    该论文提出了一种新的算法PropensityNet，用于在强日志记录策略下进行无偏学习排名（ULTR）的倾向性估计，优于现有的最先进ULTR算法。
+    本研究针对时间图中的异常出现进行了全面的基准测试，比较了12种数据驱动的方法。实验结果表明，针对这类任务没有明确的最佳方法，突显了检测大型动态系统中新兴异常的复杂性和挑战，强调了进一步研究和创新方法的需求。
 
     
 
-    无偏学习排名（ULTR）的目标是利用隐含的用户反馈来优化学习排序系统。在现有解决方案中，自动ULTR算法在实践中因其卓越的性能和低部署成本而受到关注，该算法同时学习用户偏差模型（即倾向性模型）和无偏排名器。尽管该算法在理论上是可靠的，但其有效性通常在弱日志记录策略下进行验证，其中排名模型几乎无法根据与查询相关性来对文档进行排名。然而，当日志记录策略很强时，例如工业部署的排名策略，所报告的有效性无法再现。在本文中，我们首先从因果角度调查ULTR，并揭示一个负面结果：现有的ULTR算法未能解决由查询-文档相关性混淆导致的倾向性高估问题。然后，我们提出了一种基于反门调整的新的学习目标，并提出了一种名为PropensityNet的算法，用于在强日志记录策略下为ULTR估计无偏的倾向性分数。多个数据集的实证结果表明，PropensityNet在强日志记录策略和弱日志记录策略下均优于现有的最先进的ULTR算法。
+    时间图已成为分析具有多个代理的复杂动态系统的重要工具。检测时间图中的异常对于各种应用至关重要，包括识别新兴趋势、监测网络安全、理解社交动态、追踪疾病爆发和了解金融动态等。本文提出了一个全面的基准测试研究，比较了12种数据驱动的时间图异常检测方法。我们在从Twitter和Facebook提取的两个时间图上进行实验，旨在识别群体交互中的异常。令人惊讶的是，我们的研究揭示了在这些任务中最好的方法存在不确定模式，突显了在大型动态系统中检测异常的复杂性和挑战。结果强调了进一步研究和创新方法以有效地检测表示为时间图的新兴异常的需求。
 
-    The goal of unbiased learning to rank~(ULTR) is to leverage implicit user feedback for optimizing learning-to-rank systems. Among existing solutions, automatic ULTR algorithms that jointly learn user bias models (\ie propensity models) with unbiased rankers have received a lot of attention due to their superior performance and low deployment cost in practice. Despite their theoretical soundness, the effectiveness is usually justified under a weak logging policy, where the ranking model can barely rank documents according to their relevance to the query. However, when the logging policy is strong, e.g., an industry-deployed ranking policy, the reported effectiveness cannot be reproduced. In this paper, we first investigate ULTR from a causal perspective and uncover a negative result: existing ULTR algorithms fail to address the issue of propensity overestimation caused by the query-document relevance confounder. Then, we propose a new learning objective based on backdoor adjustment and 
+    Temporal graphs have become an essential tool for analyzing complex dynamic systems with multiple agents. Detecting anomalies in temporal graphs is crucial for various applications, including identifying emerging trends, monitoring network security, understanding social dynamics, tracking disease outbreaks, and understanding financial dynamics. In this paper, we present a comprehensive benchmarking study that compares 12 data-driven methods for anomaly detection in temporal graphs. We conduct experiments on two temporal graphs extracted from Twitter and Facebook, aiming to identify anomalies in group interactions. Surprisingly, our study reveals an unclear pattern regarding the best method for such tasks, highlighting the complexity and challenges involved in anomaly emergence detection in large and dynamic systems. The results underscore the need for further research and innovative approaches to effectively detect emerging anomalies in dynamic systems represented as temporal graphs.
     
-[^9]: 如何为推荐基础模型索引项目ID
+[^5]: U-CREAT: 无监督事件提取的无监督案例检索系统
 
-    How to Index Item IDs for Recommendation Foundation Models. (arXiv:2305.06569v1 [cs.IR])
+    U-CREAT: Unsupervised Case Retrieval using Events extrAcTion. (arXiv:2307.05260v1 [cs.IR])
 
-    [http://arxiv.org/abs/2305.06569](http://arxiv.org/abs/2305.06569)
+    [http://arxiv.org/abs/2307.05260](http://arxiv.org/abs/2307.05260)
 
-    本研究对推荐基础模型的项目索引问题进行了系统检查，提出了一种新的上下文感知索引方法，该方法在项目推荐准确性和文本生成质量方面具有优势。
-
-    
-
-    推荐基础模型将推荐任务转换为自然语言任务，利用大型语言模型（LLM）进行推荐。它通过直接生成建议的项目而不是计算传统推荐模型中每个候选项目的排名得分，简化了推荐管道，避免了多段过滤的问题。为了避免在决定要推荐哪些项目时生成过长的文本，为推荐基础模型创建LLM兼容的项目ID是必要的。本研究系统地研究了推荐基础模型的项目索引问题，以P5为代表的主干模型，并使用各种索引方法复制其结果。我们首先讨论了几种微不足道的项目索引方法（如独立索引、标题索引和随机索引）的问题，并表明它们不适用于推荐基础模型，然后提出了一种新的索引方法，称为上下文感知索引。我们表明，这种索引方法在项目推荐准确性和文本生成质量方面优于其他索引方法。
-
-    Recommendation foundation model utilizes large language models (LLM) for recommendation by converting recommendation tasks into natural language tasks. It enables generative recommendation which directly generates the item(s) to recommend rather than calculating a ranking score for each and every candidate item in traditional recommendation models, simplifying the recommendation pipeline from multi-stage filtering to single-stage filtering. To avoid generating excessively long text when deciding which item(s) to recommend, creating LLM-compatible item IDs is essential for recommendation foundation models. In this study, we systematically examine the item indexing problem for recommendation foundation models, using P5 as the representative backbone model and replicating its results with various indexing methods. To emphasize the importance of item indexing, we first discuss the issues of several trivial item indexing methods, such as independent indexing, title indexing, and random inde
-    
-[^10]: Talk the Walk: 针对会话式音乐推荐的合成数据生成
-
-    Talk the Walk: Synthetic Data Generation for Conversational Music Recommendation. (arXiv:2301.11489v2 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2301.11489](http://arxiv.org/abs/2301.11489)
-
-    TalkTheWalk 是一种新技术，通过利用精心策划的项目收藏中的领域专业知识来合成逼真高质量的会话数据，解决了构建会话式推荐系统所需的训练数据收集的困难。
+    U-CREAT是一个无监督案例检索系统，通过使用事件提取实现了更高的性能和更快的检索速度，适用于实时案例检索系统。
 
     
 
-    推荐系统广泛存在，但用户往往很难在推荐质量较差时进行控制和调整。这促使了会话式推荐系统(CRSs)的发展，通过自然语言反馈提供对推荐的控制。然而，构建会话式推荐系统需要包含用户话语和涵盖多样化偏好范围的项目的会话训练数据。使用传统方法如众包，这样的数据收集起来非常困难。我们在项目集推荐的背景下解决了这个问题，注意到这个任务受到越来越多关注，动机在于音乐、新闻和食谱推荐等使用案例。我们提出了一种新技术TalkTheWalk，通过利用广泛可获得的精心策划的项目收藏中的领域专业知识来合成逼真高质量的会话数据，并展示了如何将其转化为相应的项目集策划。
+    在法律领域，先前案例检索的任务是自动引用与给定查询案例相关（基于事实和先例）的先前法律案例。为了进一步推动先前案例检索研究，本文提出了一个新的大型基准（以英文为主）用于先前案例检索任务：IL-PCR（印度法律先前案例检索）语料库。考虑到案例相关性的复杂性和法律文档的长度，BM25仍然是排名引用先前文档的强大基准。在这项工作中，我们探索了事件在法律案例检索中的作用，并提出一种基于无监督检索方法的管道系统U-CREAT（无监督事件提取的无监督案例检索系统）。我们发现，所提出的无监督检索方法与BM25相比显著提高了性能，并且使检索速度大大加快，使其适用于实时案例检索系统。我们的系统具有通用性，我们证明它适用于两个不同的法律体系（印度）。
 
-    Recommendation systems are ubiquitous yet often difficult for users to control and adjust when recommendation quality is poor. This has motivated the development of conversational recommendation systems (CRSs), with control over recommendations provided through natural language feedback. However, building conversational recommendation systems requires conversational training data involving user utterances paired with items that cover a diverse range of preferences. Such data has proved challenging to collect scalably using conventional methods like crowdsourcing. We address it in the context of item-set recommendation, noting the increasing attention to this task motivated by use cases like music, news and recipe recommendation. We present a new technique, TalkTheWalk, that synthesizes realistic high-quality conversational data by leveraging domain expertise encoded in widely available curated item collections, showing how these can be transformed into corresponding item set curation c
+    The task of Prior Case Retrieval (PCR) in the legal domain is about automatically citing relevant (based on facts and precedence) prior legal cases in a given query case. To further promote research in PCR, in this paper, we propose a new large benchmark (in English) for the PCR task: IL-PCR (Indian Legal Prior Case Retrieval) corpus. Given the complex nature of case relevance and the long size of legal documents, BM25 remains a strong baseline for ranking the cited prior documents. In this work, we explore the role of events in legal case retrieval and propose an unsupervised retrieval method-based pipeline U-CREAT (Unsupervised Case Retrieval using Events Extraction). We find that the proposed unsupervised retrieval method significantly increases performance compared to BM25 and makes retrieval faster by a considerable margin, making it applicable to real-time case retrieval systems. Our proposed system is generic, we show that it generalizes across two different legal systems (India
     
-[^11]: 搜索和推荐中的结果多样化：一项调研
+[^6]: 基于生成对比图学习的推荐系统
 
-    Result Diversification in Search and Recommendation: A Survey. (arXiv:2212.14464v3 [cs.IR] UPDATED)
+    Generative Contrastive Graph Learning for Recommendation. (arXiv:2307.05100v1 [cs.IR])
 
-    [http://arxiv.org/abs/2212.14464](http://arxiv.org/abs/2212.14464)
+    [http://arxiv.org/abs/2307.05100](http://arxiv.org/abs/2307.05100)
 
-    这项调研提出了一个统一的分类体系，用于将搜索和推荐中的多样化指标和方法进行分类。调研总结了搜索和推荐中的各种多样性问题，并展示了各种应用在搜索和推荐中的调研成果。未来的研究方向和挑战也被讨论。
-
-    
-
-    多样化返回结果对于满足客户的各种兴趣和提供者的市场曝光是重要的研究课题。近年来，对多样化研究的关注不断增加，伴随着对在搜索和推荐中促进多样性的方法的文献大量涌现。然而，检索系统中的多样化研究缺乏系统组织，存在片段化的问题。在这项调研中，我们首次提出了一个统一的分类体系，用于将搜索和推荐中的多样化指标和方法进行分类，这两个领域是检索系统中研究最广泛的领域之一。我们从简要讨论为何多样性在检索系统中重要开始调研，然后总结了搜索和推荐中的各种多样性问题，突出了它们之间的关系和差异。调研的主体部分，我们提供了一个统一的框架，包括描述现有多样化指标和方法的详细内容，展示了各种应用在搜索和推荐中的调研成果。最后，我们对当前的研究趋势进行了讨论，并指出了未来的研究方向和挑战。
-
-    Diversifying return results is an important research topic in retrieval systems in order to satisfy both the various interests of customers and the equal market exposure of providers. There has been growing attention on diversity-aware research during recent years, accompanied by a proliferation of literature on methods to promote diversity in search and recommendation. However, diversity-aware studies in retrieval systems lack a systematic organization and are rather fragmented. In this survey, we are the first to propose a unified taxonomy for classifying the metrics and approaches of diversification in both search and recommendation, which are two of the most extensively researched fields of retrieval systems. We begin the survey with a brief discussion of why diversity is important in retrieval systems, followed by a summary of the various diversity concerns in search and recommendation, highlighting their relationship and differences. For the survey's main body, we present a unifi
-    
-[^12]: 级联剩余图卷积网络用于多行为推荐
-
-    Cascading Residual Graph Convolutional Network for Multi-Behavior Recommendation. (arXiv:2205.13128v2 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2205.13128](http://arxiv.org/abs/2205.13128)
-
-    这篇论文提出了一种级联剩余图卷积网络用于多行为推荐的方法，通过利用不同行为之间的联系来学习用户偏好，减轻数据稀疏问题。
+    本文介绍了一种基于生成对比图学习的推荐系统。通过将用户的互动视为用户-项目图，结合对比学习技术和数据增强技术，提供更有效的自监督信号，从而改进了传统的基于协同过滤的推荐系统模型。
 
     
 
-    多行为推荐利用多种用户-物品交互类型来减轻传统模型面临的数据稀疏问题，这些模型通常仅利用一种交互类型进行推荐。在实际场景中，用户通常采取一系列动作与物品进行交互，以获取更多关于物品的信息，从而准确评估物品是否符合个人偏好。这些交互行为通常遵循一定的顺序，不同的行为揭示了用户对目标物品的不同信息或偏好方面。大多数现有的多行为推荐方法采取先分别从不同的行为中提取信息，然后将其融合进行最终预测的策略。然而，它们没有利用不同行为之间的联系来学习用户偏好。此外，它们通常引入复杂的模型结构和更多的参数来建模多种行为，从而大幅增加了空间。
+    通过将用户的互动视为用户-项目图，图学习模型已广泛应用于基于协同过滤的推荐系统。最近，研究人员将图对比学习技术引入协同过滤中，以缓解稀疏监督问题，首先通过数据增强构建对比视图，然后通过最大化对比视图之间的互信息提供自监督信号。尽管有效，我们认为当前基于图对比学习的推荐系统仍存在局限性，当前的数据增强技术，无论是结构增强还是特征增强。首先，结构增强随机丢弃节点或边，很容易破坏用户-项目图的内在特性。其次，特征增强对每个节点施加相同规模的噪声增强，忽视了图上节点的独特特征。为了解决上述限制，我们提出了一种新颖的变分生成对比图学习模型（Variational Gr）
 
-    Multi-behavior recommendation exploits multiple types of user-item interactions to alleviate the data sparsity problem faced by the traditional models that often utilize only one type of interaction for recommendation. In real scenarios, users often take a sequence of actions to interact with an item, in order to get more information about the item and thus accurately evaluate whether an item fits personal preference. Those interaction behaviors often obey a certain order, and different behaviors reveal different information or aspects of user preferences towards the target item. Most existing multi-behavior recommendation methods take the strategy to first extract information from different behaviors separately and then fuse them for final prediction. However, they have not exploited the connections between different behaviors to learn user preferences. Besides, they often introduce complex model structures and more parameters to model multiple behaviors, largely increasing the space 
+    By treating users' interactions as a user-item graph, graph learning models have been widely deployed in Collaborative Filtering(CF) based recommendation. Recently, researchers have introduced Graph Contrastive Learning(GCL) techniques into CF to alleviate the sparse supervision issue, which first constructs contrastive views by data augmentations and then provides self-supervised signals by maximizing the mutual information between contrastive views. Despite the effectiveness, we argue that current GCL-based recommendation models are still limited as current data augmentation techniques, either structure augmentation or feature augmentation. First, structure augmentation randomly dropout nodes or edges, which is easy to destroy the intrinsic nature of the user-item graph. Second, feature augmentation imposes the same scale noise augmentation on each node, which neglects the unique characteristics of nodes on the graph. To tackle the above limitations, we propose a novel Variational Gr
     
-[^13]: 通过张量分解实现一致的协同过滤
+[^7]: 采用样本感知引导和动态修订链的基于检索增强的GPT-3.5文本到SQL框架
 
-    Consistent Collaborative Filtering via Tensor Decomposition. (arXiv:2201.11936v3 [cs.IR] UPDATED)
+    Retrieval-augmented GPT-3.5-based Text-to-SQL Framework with Sample-aware Prompting and Dynamic Revision Chain. (arXiv:2307.05074v1 [cs.IR])
 
-    [http://arxiv.org/abs/2201.11936](http://arxiv.org/abs/2201.11936)
+    [http://arxiv.org/abs/2307.05074](http://arxiv.org/abs/2307.05074)
 
-    本文提出了一种通过张量分解来实现一致协同过滤的新模型，它能够扩展传统的用户-物品偏好计算方法，使得在评估物品相对偏好时产生物品之间的交互，具有潜在的非线性态度。
+    本文提出了一种基于检索增强的GPT-3.5文本到SQL框架，采用了样本感知引导和动态修订链的方法，以应对现有方法在处理语义差距较大的检索示例时面临的挑战。
 
     
 
-    协同过滤是分析用户活动和构建物品推荐系统的事实标准。本文提出了一种基于隐式反馈的协同过滤新模型——切割反对称分解（SAD）。与传统技术不同，SAD通过对用户-物品交互的新颖三维张量视图引入了一个额外的物品的隐含向量。该向量将通过标准点乘计算出的用户-物品偏好扩展到一般内积，从而在评估物品的相对偏好时产生物品之间的交互。当向量折叠为1时，SAD降为最先进的协同过滤模型（SOTA），而本文允许从数据中估计其值。允许新物品向量的值与1不同具有深远的影响。这表明用户可能具有非线性态度。
+    文本到SQL旨在为给定的自然语言问题生成SQL查询，从而帮助用户查询数据库。最近出现了一种基于大型语言模型（LLMs）的提示学习方法，该方法设计提示以引导LLMs理解输入问题并生成相应的SQL。然而，它面临着严格的SQL语法要求的挑战。现有工作使用一系列示例（即问题-SQL对）来提示LLMs生成SQL，但固定的提示几乎无法处理检索出的示例与输入问题之间的语义差距较大的情况。在本文中，我们提出了一种基于检索增强的提示方法，用于基于LLM的文本到SQL框架，包括样本感知提示和动态修订链。我们的方法包括样本感知示例，其中包括SQL运算符的组合和与给定问题相关的细粒度信息。
 
-    Collaborative filtering is the de facto standard for analyzing users' activities and building recommendation systems for items. In this work we develop Sliced Anti-symmetric Decomposition (SAD), a new model for collaborative filtering based on implicit feedback. In contrast to traditional techniques where a latent representation of users (user vectors) and items (item vectors) are estimated, SAD introduces one additional latent vector to each item, using a novel three-way tensor view of user-item interactions. This new vector extends user-item preferences calculated by standard dot products to general inner products, producing interactions between items when evaluating their relative preferences. SAD reduces to state-of-the-art (SOTA) collaborative filtering models when the vector collapses to 1, while in this paper we allow its value to be estimated from data. Allowing the values of the new item vector to be different from 1 has profound implications. It suggests users may have nonlin
+    Text-to-SQL aims at generating SQL queries for the given natural language questions and thus helping users to query databases. Prompt learning with large language models (LLMs) has emerged as a recent approach, which designs prompts to lead LLMs to understand the input question and generate the corresponding SQL. However, it faces challenges with strict SQL syntax requirements. Existing work prompts the LLMs with a list of demonstration examples (i.e. question-SQL pairs) to generate SQL, but the fixed prompts can hardly handle the scenario where the semantic gap between the retrieved demonstration and the input question is large. In this paper, we propose a retrieval-augmented prompting method for a LLM-based Text-to-SQL framework, involving sample-aware prompting and a dynamic revision chain. Our approach incorporates sample-aware demonstrations, which include the composition of SQL operators and fine-grained information related to the given question. To retrieve questions sharing sim
+    
+[^8]: 对未知未知的挖掘
+
+    Mining for Unknown Unknowns. (arXiv:2307.05071v1 [cs.AI])
+
+    [http://arxiv.org/abs/2307.05071](http://arxiv.org/abs/2307.05071)
+
+    本论文使用形式概念分析（FCA）框架，旨在系统地挖掘和寻找未知未知，从而避免潜在的重大收益或损失。
+
+    
+
+    未知未知是缺乏事前描述的未来相关的偶发事件。尽管有许多回顾性的报告显示，如果此类情况事前被发现，可以实现或避免显著收益或损失，但获取未知未知仍然是难以捉摸的，无论是在实践上还是在概念上。本文使用形式概念分析（FCA） - 一种越来越多地应用于挖掘和组织数据的格论子领域 - 引入了一个简单的框架，以系统地打破思维定势，指导对未知未知的搜索。
+
+    Unknown unknowns are future relevant contingencies that lack an ex ante description. While there are numerous retrospective accounts showing that significant gains or losses might have been achieved or avoided had such contingencies been previously uncovered, getting hold of unknown unknowns still remains elusive, both in practice and conceptually. Using Formal Concept Analysis (FCA) - a subfield of lattice theory which is increasingly applied for mining and organizing data - this paper introduces a simple framework to systematically think out of the box and direct the search for unknown unknowns.
+    
+[^9]: 具有图增强信息的神经符号推荐系统
+
+    Neural-Symbolic Recommendation with Graph-Enhanced Information. (arXiv:2307.05036v1 [cs.AI])
+
+    [http://arxiv.org/abs/2307.05036](http://arxiv.org/abs/2307.05036)
+
+    本研究结合了图神经网络和命题逻辑操作的优势，构建了一个具有全局隐式推理能力和局部显式逻辑推理能力的神经符号推荐模型。
+
+    
+
+    推荐系统不仅是一个从数据中归纳统计的问题，也是一个需要推理能力的认知任务。最先进的图神经网络在推荐系统中被广泛使用，因为它们能够从图结构数据中捕捉到隐式结构信息。然而，像大多数神经网络算法一样，它们只从感知的角度学习匹配模式。一些研究者使用用户行为进行逻辑推理，从认知推理的角度实现推荐预测，但这种推理是局部的，忽视了全局范围内的隐式信息。在这项工作中，我们结合了图神经网络和命题逻辑操作的优势，构建了一个具有全局隐式推理能力和局部显式逻辑推理能力的神经符号推荐模型。我们首先基于相邻交互原则构建了一个物品-物品图，并使用图神经网络对其进行学习和推理。然后，我们引入了命题逻辑操作，使模型能够从全局范围内进行推理。最后，我们通过实验证明了该模型的有效性和准确性。
+
+    The recommendation system is not only a problem of inductive statistics from data but also a cognitive task that requires reasoning ability. The most advanced graph neural networks have been widely used in recommendation systems because they can capture implicit structured information from graph-structured data. However, like most neural network algorithms, they only learn matching patterns from a perception perspective. Some researchers use user behavior for logic reasoning to achieve recommendation prediction from the perspective of cognitive reasoning, but this kind of reasoning is a local one and ignores implicit information on a global scale. In this work, we combine the advantages of graph neural networks and propositional logic operations to construct a neuro-symbolic recommendation model with both global implicit reasoning ability and local explicit logic reasoning ability. We first build an item-item graph based on the principle of adjacent interaction and use graph neural net
+    
+[^10]: 利用自动生成的知识图谱和强化学习增强推荐系统
+
+    Empowering recommender systems using automatically generated Knowledge Graphs and Reinforcement Learning. (arXiv:2307.04996v1 [cs.IR])
+
+    [http://arxiv.org/abs/2307.04996](http://arxiv.org/abs/2307.04996)
+
+    本文介绍了两种基于知识图谱的方法，一种使用强化学习，另一种使用XGBoost算法，用于个性化文章推荐。这些方法利用自动生成的知识图谱，并在一个大型跨国金融服务公司的客户中进行了实证研究。
+
+    
+
+    个性化推荐在直接营销中越来越重要，激发了通过知识图谱（KG）应用来提升客户体验的研究动机。例如，在金融服务领域，公司可以通过向客户提供相关金融文章来培养关系，促进客户参与和促进知情的金融决策。尽管一些方法专注于基于KG的推荐系统以改进内容，但在本研究中，我们专注于可解释的基于KG的推荐系统来进行决策。为此，我们提出了两种基于知识图谱的个性化文章推荐方法，用于一家大型跨国金融服务公司的一组客户。第一种方法使用强化学习，第二种方法使用XGBoost算法来向客户推荐文章。这两种方法都利用从结构化（表格数据）和非结构化数据（大量文本数据）生成的KG。
+
+    Personalized recommendations have a growing importance in direct marketing, which motivates research to enhance customer experiences by knowledge graph (KG) applications. For example, in financial services, companies may benefit from providing relevant financial articles to their customers to cultivate relationships, foster client engagement and promote informed financial decisions. While several approaches center on KG-based recommender systems for improved content, in this study we focus on interpretable KG-based recommender systems for decision making.To this end, we present two knowledge graph-based approaches for personalized article recommendations for a set of customers of a large multinational financial services company. The first approach employs Reinforcement Learning and the second approach uses the XGBoost algorithm for recommending articles to the customers. Both approaches make use of a KG generated from both structured (tabular data) and unstructured data (a large body o
+    
+[^11]: 带有长期约束的排名
+
+    Ranking with Long-Term Constraints. (arXiv:2307.04923v1 [cs.IR])
+
+    [http://arxiv.org/abs/2307.04923](http://arxiv.org/abs/2307.04923)
+
+    本文提出了一个新的框架，使决策者可以表达平台行为的长期目标，并通过新的基于控制的算法实现这些目标，同时最小化对短期参与的影响。
+
+    
+
+    用户通过他们的选择反馈（例如点击，购买）是为训练搜索和推荐算法提供的最常见类型的数据之一。然而，仅基于选择数据进行短视培训的系统可能仅改善短期参与度，而不能改善平台的长期可持续性以及对用户、内容提供者和其他利益相关者的长期利益。因此，本文开发了一个新的框架，其中决策者（例如平台运营商、监管机构、用户）可以表达平台行为的长期目标（例如公平性、收入分配、法律要求）。这些目标采取了超越个体会话的曝光或影响目标的形式，我们提供了新的基于控制的算法来实现这些目标。具体而言，控制器的设计旨在以最小化对短期参与的影响来实现所述的长期目标。除了原则性的理论推导外，
+
+    The feedback that users provide through their choices (e.g., clicks, purchases) is one of the most common types of data readily available for training search and recommendation algorithms. However, myopically training systems based on choice data may only improve short-term engagement, but not the long-term sustainability of the platform and the long-term benefits to its users, content providers, and other stakeholders. In this paper, we thus develop a new framework in which decision makers (e.g., platform operators, regulators, users) can express long-term goals for the behavior of the platform (e.g., fairness, revenue distribution, legal requirements). These goals take the form of exposure or impact targets that go well beyond individual sessions, and we provide new control-based algorithms to achieve these goals. In particular, the controllers are designed to achieve the stated long-term goals with minimum impact on short-term engagement. Beyond the principled theoretical derivation
+    
+[^12]: 基于参数隔离的动态图上的持续学习
+
+    Continual Learning on Dynamic Graphs via Parameter Isolation. (arXiv:2305.13825v1 [cs.LG])
+
+    [http://arxiv.org/abs/2305.13825](http://arxiv.org/abs/2305.13825)
+
+    提出了Parameter Isolation GNN (PI-GNN)模型，用于处理动态图上的持续学习任务。该模型通过参数隔离和扩展来避免学习新模式和保留旧模式之间的权衡。
+
+    
+
+    许多实际的图学习任务需要处理新节点和边出现的动态图。动态图学习方法通常遭遇灾难性遗忘问题，即为以前的图所学的知识会被新图的更新覆盖。为了缓解这个问题，提出了持续图学习方法。然而，现有的持续图学习方法旨在学习新的模式并维护旧的模式，但使用相同固定大小的参数集，因此面临两种目标之间的根本权衡。在本文中，我们提出了Parameter Isolation GNN (PI-GNN)，用于动态图上的持续学习，通过参数隔离和扩展来避免这种权衡。我们的动机在于不同的参数对于学习不同的图模式有贡献。基于这个想法，我们扩展模型参数以持续学习出现的图模式。与此同时，为了有效地保存未受影响模式的知识，我们找到参数。
+
+    Many real-world graph learning tasks require handling dynamic graphs where new nodes and edges emerge. Dynamic graph learning methods commonly suffer from the catastrophic forgetting problem, where knowledge learned for previous graphs is overwritten by updates for new graphs. To alleviate the problem, continual graph learning methods are proposed. However, existing continual graph learning methods aim to learn new patterns and maintain old ones with the same set of parameters of fixed size, and thus face a fundamental tradeoff between both goals. In this paper, we propose Parameter Isolation GNN (PI-GNN) for continual learning on dynamic graphs that circumvents the tradeoff via parameter isolation and expansion. Our motivation lies in that different parameters contribute to learning different graph patterns. Based on the idea, we expand model parameters to continually learn emerging graph patterns. Meanwhile, to effectively preserve knowledge for unaffected patterns, we find parameter
+    
+[^13]: 自动相关性估计中的一次性标注
+
+    One-Shot Labeling for Automatic Relevance Estimation. (arXiv:2302.11266v2 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2302.11266](http://arxiv.org/abs/2302.11266)
+
+    本研究探索了利用大型语言模型来填补搜索系统离线评估过程中未评定文档的问题。研究结果表明，尽管预测结果与人工评定存在差异，但使用一次性标注器能够提供更可靠的系统排序效果。
+
+    
+
+    在离线实验中评估搜索系统时，处理未经评定的文档（“空洞”）是一个长期存在的问题。空洞可能会降低评估中检索系统的表现效果，并在使用不完整数据进行训练的模型中引入偏差。在本研究中，我们探讨了是否可以利用大型语言模型来填补这些空洞，以提高离线评估的效果。我们研究了一种极端但常见的评估设置，即每个查询只有一个已知相关文档可用于评估。然后，我们探讨了各种方法来预测未经评定文档与查询和已知相关文档的相关性，包括最近邻、监督和提示技术。我们发现，尽管这些一次性标注器（1SL）的预测经常与人工评定不一致，但它们产生的标签比单独的标签更可靠地对系统进行排序。具体地说，最强的一次性标注器可以显著提高系统的排序效果。
+
+    Dealing with unjudged documents ("holes") in relevance assessments is a perennial problem when evaluating search systems with offline experiments. Holes can reduce the apparent effectiveness of retrieval systems during evaluation and introduce biases in models trained with incomplete data. In this work, we explore whether large language models can help us fill such holes to improve offline evaluations. We examine an extreme, albeit common, evaluation setting wherein only a single known relevant document per query is available for evaluation. We then explore various approaches for predicting the relevance of unjudged documents with respect to a query and the known relevant document, including nearest neighbor, supervised, and prompting techniques. We find that although the predictions of these One-Shot Labelers (1SL) frequently disagree with human assessments, the labels they produce yield a far more reliable ranking of systems than the single labels do alone. Specifically, the stronges
+    
+[^14]: 集体隐私恢复：通过分散式人工智能进行数据共享协同
+
+    Collective Privacy Recovery: Data-sharing Coordination via Decentralized Artificial Intelligence. (arXiv:2301.05995v2 [cs.AI] UPDATED)
+
+    [http://arxiv.org/abs/2301.05995](http://arxiv.org/abs/2301.05995)
+
+    本文研究了集体隐私恢复的问题，通过分散式人工智能实现数据共享的协同。研究发现，数据共享协调可以实现对隐私的显著恢复，并带来双赢效果。
+
+    
+
+    集体隐私损失变成了一个巨大的问题，对个人自由和民主构成了紧急威胁。但是，我们是否准备好将个人数据视为稀缺资源，并根据“尽可能少，尽可能多”的原则共享数据？我们假设，如果一个个体群体（数据集体）协调共享最少数据，以满足在线服务的所需质量，将会产生显著的隐私恢复。在这里，我们展示了如何使用去中心化人工智能自动化和扩展复杂的集体隐私恢复安排。为此，我们首次在一个严谨的高度逼真的实验中比较了态度、内在、奖励和协调数据共享，并利用因果推断和聚类分析方法区分了预测隐私和五个关键数据共享行为的标准。令人惊讶的是，数据共享协调对所有人来说都是双赢的：隐私得到显著恢复。
+
+    Collective privacy loss becomes a colossal problem, an emergency for personal freedoms and democracy. But, are we prepared to handle personal data as scarce resource and collectively share data under the doctrine: as little as possible, as much as necessary? We hypothesize a significant privacy recovery if a population of individuals, the data collective, coordinates to share minimum data for running online services with the required quality. Here we show how to automate and scale-up complex collective arrangements for privacy recovery using decentralized artificial intelligence. For this, we compare for first time attitudinal, intrinsic, rewarded and coordinated data sharing in a rigorous living-lab experiment of high realism involving >27,000 real data disclosures. Using causal inference and cluster analysis, we differentiate criteria predicting privacy and five key data-sharing behaviors. Strikingly, data-sharing coordination proves to be a win-win for all: remarkable privacy recove
     
 

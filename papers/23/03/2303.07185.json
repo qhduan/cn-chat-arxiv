@@ -1,0 +1,11 @@
+{
+    "title": "Joint Behavior and Common Belief. (arXiv:2303.07185v2 [cs.MA] UPDATED)",
+    "abstract": "For over 25 years, common belief has been widely viewed as necessary for joint behavior. But this is not quite correct. We show by example that what can naturally be thought of as joint behavior can occur without common belief. We then present two variants of common belief that can lead to joint behavior, even without standard common belief ever being achieved, and show that one of them, action-stamped common belief, is in a sense necessary and sufficient for joint behavior. These observations are significant because, as is well known, common belief is quite difficult to achieve in practice, whereas these variants are more easily achievable.",
+    "link": "http://arxiv.org/abs/2303.07185",
+    "context": "Title: Joint Behavior and Common Belief. (arXiv:2303.07185v2 [cs.MA] UPDATED)\nAbstract: For over 25 years, common belief has been widely viewed as necessary for joint behavior. But this is not quite correct. We show by example that what can naturally be thought of as joint behavior can occur without common belief. We then present two variants of common belief that can lead to joint behavior, even without standard common belief ever being achieved, and show that one of them, action-stamped common belief, is in a sense necessary and sufficient for joint behavior. These observations are significant because, as is well known, common belief is quite difficult to achieve in practice, whereas these variants are more easily achievable.",
+    "path": "papers/23/03/2303.07185.json",
+    "total_tokens": 708,
+    "translated_title": "联合行为和共同信念",
+    "translated_abstract": "在过去的25年中，共同信念被广泛认为是联合行为的必要条件。但这并不完全正确。我们通过示例展示了即使没有共同信念，仍然可以发生自然的联合行为。然后我们提出了两种可以导致联合行为的共同信念的变体，即使没有实现标准的共同信念，其中一种被证明在某种程度上是联合行为的必要且充分条件。这些观察结果具有重要意义，因为众所周知，实际上很难实现共同信念，而这些变体更容易实现。",
+    "tldr": "这篇论文展示了即使没有共同信念，仍然可以发生自然的联合行为。并且提出了两种共同信念的变体，其中一种被证明在某种程度上是联合行为的必要且充分条件，并更容易实现。"
+}

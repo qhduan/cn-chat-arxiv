@@ -1,0 +1,12 @@
+{
+    "title": "System of Spheres-based Two Level Credibility-limited Revisions. (arXiv:2307.05062v1 [cs.LO])",
+    "abstract": "Two level credibility-limited revision is a non-prioritized revision operation. When revising by a two level credibility-limited revision, two levels of credibility and one level of incredibility are considered. When revising by a sentence at the highest level of credibility, the operator behaves as a standard revision, if the sentence is at the second level of credibility, then the outcome of the revision process coincides with a standard contraction by the negation of that sentence. If the sentence is not credible, then the original belief set remains unchanged. In this paper, we propose a construction for two level credibility-limited revision operators based on Grove's systems of spheres and present an axiomatic characterization for these operators.",
+    "link": "http://arxiv.org/abs/2307.05062",
+    "context": "Title: System of Spheres-based Two Level Credibility-limited Revisions. (arXiv:2307.05062v1 [cs.LO])\nAbstract: Two level credibility-limited revision is a non-prioritized revision operation. When revising by a two level credibility-limited revision, two levels of credibility and one level of incredibility are considered. When revising by a sentence at the highest level of credibility, the operator behaves as a standard revision, if the sentence is at the second level of credibility, then the outcome of the revision process coincides with a standard contraction by the negation of that sentence. If the sentence is not credible, then the original belief set remains unchanged. In this paper, we propose a construction for two level credibility-limited revision operators based on Grove's systems of spheres and present an axiomatic characterization for these operators.",
+    "path": "papers/23/07/2307.05062.json",
+    "total_tokens": 689,
+    "translated_title": "基于球体系统的两级可信度限制修正方法",
+    "translated_abstract": "两级可信度限制修正是一种非优先级修正操作。在进行两级可信度限制修正时，考虑两个层级的可信度和一个层级的不可信度。当通过最高层级可信度的句子进行修正时，操作符的行为类似于标准的修正；如果句子处于第二级可信度，则修正结果与通过否定该句子进行标准收缩的结果一致；如果句子不可信，则原始信念集保持不变。本文提出了一种基于Grove的球体系统的两级可信度限制修正操作符的构造，并对这些操作符进行了公理化刻画。",
+    "tldr": "本文提出了基于球体系统的两级可信度限制修正操作符的构造，并对这些操作符进行了公理化刻画。",
+    "en_tdlr": "This paper proposes a construction for two level credibility-limited revision operators based on Grove's systems of spheres and provides an axiomatic characterization for these operators."
+}

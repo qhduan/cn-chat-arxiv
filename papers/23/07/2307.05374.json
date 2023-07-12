@@ -1,0 +1,11 @@
+{
+    "title": "Multi-Task Learning to Enhance Generazability of Neural Network Equalizers in Coherent Optical Systems. (arXiv:2307.05374v1 [eess.SP])",
+    "abstract": "For the first time, multi-task learning is proposed to improve the flexibility of NN-based equalizers in coherent systems. A \"single\" NN-based equalizer improves Q-factor by up to 4 dB compared to CDC, without re-training, even with variations in launch power, symbol rate, or transmission distance.",
+    "link": "http://arxiv.org/abs/2307.05374",
+    "context": "Title: Multi-Task Learning to Enhance Generazability of Neural Network Equalizers in Coherent Optical Systems. (arXiv:2307.05374v1 [eess.SP])\nAbstract: For the first time, multi-task learning is proposed to improve the flexibility of NN-based equalizers in coherent systems. A \"single\" NN-based equalizer improves Q-factor by up to 4 dB compared to CDC, without re-training, even with variations in launch power, symbol rate, or transmission distance.",
+    "path": "papers/23/07/2307.05374.json",
+    "total_tokens": 668,
+    "translated_title": "多任务学习以提高相干光系统中神经网络均衡器的泛化能力",
+    "translated_abstract": "首次提出了多任务学习用于提高相干系统中基于神经网络的均衡器的灵活性。与常规数字时钟恢复方法相比，一个\"单一\"的基于神经网络的均衡器在不重新训练的情况下，即使在发射功率、符号速率或传输距离变化的情况下，也能将Q因子提高最高达4 dB。",
+    "tldr": "首次提出了多任务学习用于提高相干系统中基于神经网络的均衡器的灵活性，并且通过一个\"单一\"的基于神经网络的均衡器，在不重新训练的情况下，即使在发射功率、符号速率或传输距离变化的情况下，也能将Q因子提高最高达4 dB。"
+}

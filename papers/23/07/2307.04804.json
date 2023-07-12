@@ -1,0 +1,11 @@
+{
+    "title": "S2vNTM: Semi-supervised vMF Neural Topic Modeling. (arXiv:2307.04804v1 [cs.CL])",
+    "abstract": "Language model based methods are powerful techniques for text classification. However, the models have several shortcomings. (1) It is difficult to integrate human knowledge such as keywords. (2) It needs a lot of resources to train the models. (3) It relied on large text data to pretrain. In this paper, we propose Semi-Supervised vMF Neural Topic Modeling (S2vNTM) to overcome these difficulties. S2vNTM takes a few seed keywords as input for topics. S2vNTM leverages the pattern of keywords to identify potential topics, as well as optimize the quality of topics' keywords sets. Across a variety of datasets, S2vNTM outperforms existing semi-supervised topic modeling methods in classification accuracy with limited keywords provided. S2vNTM is at least twice as fast as baselines.",
+    "link": "http://arxiv.org/abs/2307.04804",
+    "context": "Title: S2vNTM: Semi-supervised vMF Neural Topic Modeling. (arXiv:2307.04804v1 [cs.CL])\nAbstract: Language model based methods are powerful techniques for text classification. However, the models have several shortcomings. (1) It is difficult to integrate human knowledge such as keywords. (2) It needs a lot of resources to train the models. (3) It relied on large text data to pretrain. In this paper, we propose Semi-Supervised vMF Neural Topic Modeling (S2vNTM) to overcome these difficulties. S2vNTM takes a few seed keywords as input for topics. S2vNTM leverages the pattern of keywords to identify potential topics, as well as optimize the quality of topics' keywords sets. Across a variety of datasets, S2vNTM outperforms existing semi-supervised topic modeling methods in classification accuracy with limited keywords provided. S2vNTM is at least twice as fast as baselines.",
+    "path": "papers/23/07/2307.04804.json",
+    "total_tokens": 805,
+    "translated_title": "S2vNTM: 半监督vMF神经主题建模",
+    "translated_abstract": "基于语言模型的方法对于文本分类来说是一种强大的技术。然而，这些模型存在一些缺点：（1）很难整合人类知识，比如关键词；（2）训练模型需要大量资源；（3）依赖大规模文本数据进行预训练。本文中，我们提出了半监督vMF神经主题建模（S2vNTM）来克服这些困难。S2vNTM将一些种子关键词作为主题的输入。S2vNTM利用关键词的模式来识别潜在的主题，并优化主题关键词集的质量。在各种数据集上，S2vNTM在提供有限关键词的情况下，在分类准确度方面优于现有的半监督主题建模方法。S2vNTM至少比基线模型快两倍。",
+    "tldr": "S2vNTM是一种半监督的vMF神经主题建模方法，通过利用关键词的模式来识别潜在的主题，并优化主题关键词集的质量，提高了分类准确度，并且速度至少比基线模型快两倍。"
+}

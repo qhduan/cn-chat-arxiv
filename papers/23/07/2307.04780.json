@@ -1,0 +1,12 @@
+{
+    "title": "Comparison of Point Cloud and Image-based Models for Calorimeter Fast Simulation. (arXiv:2307.04780v1 [cs.LG])",
+    "abstract": "Score based generative models are a new class of generative models that have been shown to accurately generate high dimensional calorimeter datasets. Recent advances in generative models have used images with 3D voxels to represent and model complex calorimeter showers. Point clouds, however, are likely a more natural representation of calorimeter showers, particularly in calorimeters with high granularity. Point clouds preserve all of the information of the original simulation, more naturally deal with sparse datasets, and can be implemented with more compact models and data files. In this work, two state-of-the-art score based models are trained on the same set of calorimeter simulation and directly compared.",
+    "link": "http://arxiv.org/abs/2307.04780",
+    "context": "Title: Comparison of Point Cloud and Image-based Models for Calorimeter Fast Simulation. (arXiv:2307.04780v1 [cs.LG])\nAbstract: Score based generative models are a new class of generative models that have been shown to accurately generate high dimensional calorimeter datasets. Recent advances in generative models have used images with 3D voxels to represent and model complex calorimeter showers. Point clouds, however, are likely a more natural representation of calorimeter showers, particularly in calorimeters with high granularity. Point clouds preserve all of the information of the original simulation, more naturally deal with sparse datasets, and can be implemented with more compact models and data files. In this work, two state-of-the-art score based models are trained on the same set of calorimeter simulation and directly compared.",
+    "path": "papers/23/07/2307.04780.json",
+    "total_tokens": 778,
+    "translated_title": "点云与基于图像的模型在量热器快速模拟中的比较",
+    "translated_abstract": "基于得分的生成模型是一种新的生成模型类别，已被证明能准确生成高维度的量热器数据集。生成模型的最新进展使用图像与3D体素表示和建模复杂的量热器淋浴。然而，点云可能是量热器淋浴更自然的表示方式，尤其是在具有高粒度的量热器中。点云保留了原始模拟的所有信息，更自然地处理稀疏数据集，并且可以使用更紧凑的模型和数据文件进行实现。在这项工作中，用同一组量热器模拟数据训练了两种最先进的基于得分的模型，并进行了直接比较。",
+    "tldr": "本文比较了使用点云和基于图像的模型来进行量热器快速模拟，发现点云更自然地表示了量热器淋浴，处理稀疏数据集更优秀，并且可以使用更紧凑的模型和数据文件进行实现。",
+    "en_tdlr": "This paper compares the use of point cloud and image-based models for fast simulation of calorimeters, and finds that point clouds provide a more natural representation of calorimeter showers, handle sparse datasets more effectively, and can be implemented with more compact models and data files."
+}

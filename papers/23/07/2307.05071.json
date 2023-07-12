@@ -1,0 +1,12 @@
+{
+    "title": "Mining for Unknown Unknowns. (arXiv:2307.05071v1 [cs.AI])",
+    "abstract": "Unknown unknowns are future relevant contingencies that lack an ex ante description. While there are numerous retrospective accounts showing that significant gains or losses might have been achieved or avoided had such contingencies been previously uncovered, getting hold of unknown unknowns still remains elusive, both in practice and conceptually. Using Formal Concept Analysis (FCA) - a subfield of lattice theory which is increasingly applied for mining and organizing data - this paper introduces a simple framework to systematically think out of the box and direct the search for unknown unknowns.",
+    "link": "http://arxiv.org/abs/2307.05071",
+    "context": "Title: Mining for Unknown Unknowns. (arXiv:2307.05071v1 [cs.AI])\nAbstract: Unknown unknowns are future relevant contingencies that lack an ex ante description. While there are numerous retrospective accounts showing that significant gains or losses might have been achieved or avoided had such contingencies been previously uncovered, getting hold of unknown unknowns still remains elusive, both in practice and conceptually. Using Formal Concept Analysis (FCA) - a subfield of lattice theory which is increasingly applied for mining and organizing data - this paper introduces a simple framework to systematically think out of the box and direct the search for unknown unknowns.",
+    "path": "papers/23/07/2307.05071.json",
+    "total_tokens": 657,
+    "translated_title": "对未知未知的挖掘",
+    "translated_abstract": "未知未知是缺乏事前描述的未来相关的偶发事件。尽管有许多回顾性的报告显示，如果此类情况事前被发现，可以实现或避免显著收益或损失，但获取未知未知仍然是难以捉摸的，无论是在实践上还是在概念上。本文使用形式概念分析（FCA） - 一种越来越多地应用于挖掘和组织数据的格论子领域 - 引入了一个简单的框架，以系统地打破思维定势，指导对未知未知的搜索。",
+    "tldr": "本论文使用形式概念分析（FCA）框架，旨在系统地挖掘和寻找未知未知，从而避免潜在的重大收益或损失。",
+    "en_tdlr": "This paper introduces a simple framework using Formal Concept Analysis (FCA) to systematically mine and search for unknown unknowns, in order to avoid potential significant gains or losses."
+}

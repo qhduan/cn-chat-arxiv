@@ -1,0 +1,12 @@
+{
+    "title": "Cognitive Bias and Belief Revision. (arXiv:2307.05069v1 [cs.LO])",
+    "abstract": "In this paper we formalise three types of cognitive bias within the framework of belief revision: confirmation bias, framing bias, and anchoring bias. We interpret them generally, as restrictions on the process of iterated revision, and we apply them to three well-known belief revision methods: conditioning, lexicographic revision, and minimal revision. We investigate the reliability of biased belief revision methods in truth tracking. We also run computer simulations to assess the performance of biased belief revision in random scenarios.",
+    "link": "http://arxiv.org/abs/2307.05069",
+    "context": "Title: Cognitive Bias and Belief Revision. (arXiv:2307.05069v1 [cs.LO])\nAbstract: In this paper we formalise three types of cognitive bias within the framework of belief revision: confirmation bias, framing bias, and anchoring bias. We interpret them generally, as restrictions on the process of iterated revision, and we apply them to three well-known belief revision methods: conditioning, lexicographic revision, and minimal revision. We investigate the reliability of biased belief revision methods in truth tracking. We also run computer simulations to assess the performance of biased belief revision in random scenarios.",
+    "path": "papers/23/07/2307.05069.json",
+    "total_tokens": 718,
+    "translated_title": "认知偏差与信念修正",
+    "translated_abstract": "本文在信念修正的框架下，对三种认知偏差进行了形式化的描述：确认偏差、框架偏差和锚定偏差。我们将其解释为对迭代修正过程的限制，并将其应用于三种知名的信念修正方法：条件修正、词典式修正和最小修正。我们研究了受偏差信念修正方法在追踪真相方面的可靠性，并通过计算机模拟评估了偏差信念修正在随机情境下的性能。",
+    "tldr": "本文介绍了在信念修正框架下对确认偏差、框架偏差和锚定偏差的形式化描述，并应用于三种常见的信念修正方法。研究结果发现这些偏差对于追踪真相是有影响的，并通过计算机模拟评估了其在随机情境下的性能。",
+    "en_tdlr": "This paper formalizes three types of cognitive bias within the framework of belief revision: confirmation bias, framing bias, and anchoring bias. It applies them to three well-known belief revision methods and investigates their reliability in truth tracking. Computer simulations are used to assess the performance of biased belief revision in random scenarios."
+}
