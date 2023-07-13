@@ -1,0 +1,12 @@
+{
+    "title": "Keystroke Dynamics for User Identification. (arXiv:2307.05529v1 [cs.LG])",
+    "abstract": "In previous research, keystroke dynamics has shown promise for user authentication, based on both fixed-text and free-text data. In this research, we consider the more challenging multiclass user identification problem, based on free-text data. We experiment with a complex image-like feature that has previously been used to achieve state-of-the-art authentication results over free-text data. Using this image-like feature and multiclass Convolutional Neural Networks, we are able to obtain a classification (i.e., identification) accuracy of 0.78 over a set of 148 users. However, we find that a Random Forest classifier trained on a slightly modified version of this same feature yields an accuracy of 0.93.",
+    "link": "http://arxiv.org/abs/2307.05529",
+    "context": "Title: Keystroke Dynamics for User Identification. (arXiv:2307.05529v1 [cs.LG])\nAbstract: In previous research, keystroke dynamics has shown promise for user authentication, based on both fixed-text and free-text data. In this research, we consider the more challenging multiclass user identification problem, based on free-text data. We experiment with a complex image-like feature that has previously been used to achieve state-of-the-art authentication results over free-text data. Using this image-like feature and multiclass Convolutional Neural Networks, we are able to obtain a classification (i.e., identification) accuracy of 0.78 over a set of 148 users. However, we find that a Random Forest classifier trained on a slightly modified version of this same feature yields an accuracy of 0.93.",
+    "path": "papers/23/07/2307.05529.json",
+    "total_tokens": 822,
+    "translated_title": "用户身份识别的按键动力学",
+    "translated_abstract": "在先前的研究中，按键动力学已经显示出在基于固定文本和自由文本数据的用户认证方面具有潜力。在这项研究中，我们考虑了更具挑战性的基于自由文本数据的多类用户身份识别问题。我们尝试了一种复杂的类似图像的特征，该特征在先前的研究中已经被用于实现自由文本数据的最先进的认证结果。通过使用这个类似图像的特征和多类卷积神经网络，我们能够在148个用户的数据集上获得0.78的分类（即识别）准确率。然而，我们发现，对于经过稍微修改的相同特征的随机森林分类器，其准确率可以达到0.93。",
+    "tldr": "该论文研究了按键动力学在自由文本数据上的多类用户身份识别问题。通过使用复杂的图像特征和多类卷积神经网络，可以获得较高的识别准确率。然而，通过稍微修改特征的随机森林分类器可以获得更高的准确率。",
+    "en_tdlr": "This paper investigates keystroke dynamics for multiclass user identification based on free-text data. By using a complex image-like feature and multiclass Convolutional Neural Networks, high identification accuracy can be achieved. However, even higher accuracy can be obtained by using a Random Forest classifier trained on a slightly modified version of the same feature."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "From Estimation to Sampling for Bayesian Linear Regression with Spike-and-Slab Prior. (arXiv:2307.05558v1 [stat.CO])",
+    "abstract": "We consider Bayesian linear regression with sparsity-inducing prior and design efficient sampling algorithms leveraging posterior contraction properties. A quasi-likelihood with Gaussian spike-and-slab (that is favorable both statistically and computationally) is investigated and two algorithms based on Gibbs sampling and Stochastic Localization are analyzed, both under the same (quite natural) statistical assumptions that also enable valid inference on the sparse planted signal. The benefit of the Stochastic Localization sampler is particularly prominent for data matrix that is not well-designed.",
+    "link": "http://arxiv.org/abs/2307.05558",
+    "context": "Title: From Estimation to Sampling for Bayesian Linear Regression with Spike-and-Slab Prior. (arXiv:2307.05558v1 [stat.CO])\nAbstract: We consider Bayesian linear regression with sparsity-inducing prior and design efficient sampling algorithms leveraging posterior contraction properties. A quasi-likelihood with Gaussian spike-and-slab (that is favorable both statistically and computationally) is investigated and two algorithms based on Gibbs sampling and Stochastic Localization are analyzed, both under the same (quite natural) statistical assumptions that also enable valid inference on the sparse planted signal. The benefit of the Stochastic Localization sampler is particularly prominent for data matrix that is not well-designed.",
+    "path": "papers/23/07/2307.05558.json",
+    "total_tokens": 683,
+    "translated_title": "从估计到抽样：具有Spike-and-Slab先验的贝叶斯线性回归",
+    "translated_abstract": "我们考虑了具有稀疏诱导先验的贝叶斯线性回归，并设计了利用后验收缩性质的高效抽样算法。我们研究了具有高斯Spike-and-Slab（在统计和计算方面都具有优势）的准似然函数，并分析了基于Gibbs抽样和随机定位的两种算法，两者都基于相同（相当自然）的统计假设，还可以对稀疏信号进行有效推断。随机定位抽样器尤其适用于设计不良的数据矩阵。",
+    "tldr": "该论文提出了利用后验收缩性质的高效抽样算法，其中研究了具有优势的高斯Spike-and-Slab的准似然函数，并通过两种算法实现了对稀疏信号的有效推断。",
+    "en_tdlr": "This paper proposes efficient sampling algorithms leveraging posterior contraction properties, investigates a favorable Gaussian Spike-and-Slab quasi-likelihood, and enables valid inference on sparse signals through two algorithms."
+}

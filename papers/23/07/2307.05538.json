@@ -1,0 +1,11 @@
+{
+    "title": "Advancements in Scientific Controllable Text Generation Methods. (arXiv:2307.05538v1 [cs.CL])",
+    "abstract": "The previous work on controllable text generation is organized using a new schema we provide in this study. Seven components make up the schema, and each one is crucial to the creation process. To accomplish controlled generation for scientific literature, we describe the various modulation strategies utilised to modulate each of the seven components. We also offer a theoretical study and qualitative examination of these methods. This insight makes possible new architectures based on combinations of these components. Future research will compare these methods empirically to learn more about their strengths and utility.",
+    "link": "http://arxiv.org/abs/2307.05538",
+    "context": "Title: Advancements in Scientific Controllable Text Generation Methods. (arXiv:2307.05538v1 [cs.CL])\nAbstract: The previous work on controllable text generation is organized using a new schema we provide in this study. Seven components make up the schema, and each one is crucial to the creation process. To accomplish controlled generation for scientific literature, we describe the various modulation strategies utilised to modulate each of the seven components. We also offer a theoretical study and qualitative examination of these methods. This insight makes possible new architectures based on combinations of these components. Future research will compare these methods empirically to learn more about their strengths and utility.",
+    "path": "papers/23/07/2307.05538.json",
+    "total_tokens": 721,
+    "translated_title": "科学可控文本生成方法的进展",
+    "translated_abstract": "这项研究提供了一种新的模式来组织可控文本生成的先前工作。该模式由七个组成部分组成，每个组成部分对于生成过程至关重要。为了实现科学文献的可控生成，我们描述了用于调制这七个组成部分的各种调制策略。我们还提供了对这些方法的理论研究和定性检验。这一洞察使得基于这些组成部分的组合可能性成为可能。未来的研究将通过实证比较这些方法以了解它们的优势和实用性。",
+    "tldr": "本研究提供了一种新的模式来组织可控文本生成的先前工作，通过描述各种调制策略来实现科学文献的可控生成，为基于这些组成部分的组合提供了新的架构，未来研究将通过实证比较这些方法以了解它们的优势和实用性。"
+}

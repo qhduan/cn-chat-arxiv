@@ -1,0 +1,12 @@
+{
+    "title": "Unsupervised Domain Adaptation with Deep Neural-Network. (arXiv:2307.05601v1 [cs.CV])",
+    "abstract": "This report contributes to the field of unsupervised domain adaptation by providing an analysis of existing methods, introducing a new approach, and demonstrating the potential for improving visual recognition tasks across different domains. The results of this study open up opportunities for further study and development of advanced methods in the field of domain adaptation.",
+    "link": "http://arxiv.org/abs/2307.05601",
+    "context": "Title: Unsupervised Domain Adaptation with Deep Neural-Network. (arXiv:2307.05601v1 [cs.CV])\nAbstract: This report contributes to the field of unsupervised domain adaptation by providing an analysis of existing methods, introducing a new approach, and demonstrating the potential for improving visual recognition tasks across different domains. The results of this study open up opportunities for further study and development of advanced methods in the field of domain adaptation.",
+    "path": "papers/23/07/2307.05601.json",
+    "total_tokens": 551,
+    "translated_title": "无监督领域自适应与深度神经网络",
+    "translated_abstract": "本篇报告通过对现有方法进行分析，引入了一种新方法，并展示了通过不同领域间的视觉识别任务的改进潜力，为无监督领域自适应的研究做出了贡献。该研究的结果为领域自适应领域的进一步研究和方法的演进提供了机会。",
+    "tldr": "本篇论文分析了现有的无监督领域自适应方法，提出了一种新方法，并展示了改进不同领域视觉识别任务的潜力。",
+    "en_tdlr": "This paper analyzes existing methods for unsupervised domain adaptation, introduces a new approach, and demonstrates the potential for improving visual recognition tasks across different domains."
+}

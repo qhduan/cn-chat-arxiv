@@ -1,0 +1,11 @@
+{
+    "title": "Large Language Models. (arXiv:2307.05782v1 [cs.CL])",
+    "abstract": "Artificial intelligence is making spectacular progress, and one of the best examples is the development of large language models (LLMs) such as OpenAI's GPT series. In these lectures, written for readers with a background in mathematics or physics, we give a brief history and survey of the state of the art, and describe the underlying transformer architecture in detail. We then explore some current ideas on how LLMs work and how models trained to predict the next word in a text are able to perform other tasks displaying intelligence.",
+    "link": "http://arxiv.org/abs/2307.05782",
+    "context": "Title: Large Language Models. (arXiv:2307.05782v1 [cs.CL])\nAbstract: Artificial intelligence is making spectacular progress, and one of the best examples is the development of large language models (LLMs) such as OpenAI's GPT series. In these lectures, written for readers with a background in mathematics or physics, we give a brief history and survey of the state of the art, and describe the underlying transformer architecture in detail. We then explore some current ideas on how LLMs work and how models trained to predict the next word in a text are able to perform other tasks displaying intelligence.",
+    "path": "papers/23/07/2307.05782.json",
+    "total_tokens": 631,
+    "translated_title": "大型语言模型",
+    "translated_abstract": "人工智能正在取得惊人的进展，其中一个最好的例子是大型语言模型（LLMs）的发展，如OpenAI的GPT系列。在这些针对具有数学或物理背景的读者编写的讲座中，我们简要介绍了LLMs的历史和现状，并详细描述了底层的Transformer架构。然后，我们探讨了一些关于LLMs工作原理的当前观点，以及训练用于预测文本中下一个单词的模型如何能够执行显示智能的其他任务。",
+    "tldr": "这篇论文介绍了大型语言模型的发展历史和现状，详细描述了底层的Transformer架构，并探讨了如何训练模型来实现多种智能任务。"
+}

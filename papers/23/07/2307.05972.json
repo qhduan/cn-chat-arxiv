@@ -1,0 +1,11 @@
+{
+    "title": "Self-Distilled Quantization: Achieving High Compression Rates in Transformer-Based Language Models. (arXiv:2307.05972v1 [cs.CL])",
+    "abstract": "We investigate the effects of post-training quantization and quantization-aware training on the generalization of Transformer language models. We present a new method called self-distilled quantization (SDQ) that minimizes accumulative quantization errors and outperforms baselines. We apply SDQ to multilingual models XLM-R-Base and InfoXLM-Base and demonstrate that both models can be reduced from 32-bit floating point weights to 8-bit integer weights while maintaining a high level of performance on the XGLUE benchmark. Our results also highlight the challenges of quantizing multilingual models, which must generalize to languages they were not fine-tuned on.",
+    "link": "http://arxiv.org/abs/2307.05972",
+    "context": "Title: Self-Distilled Quantization: Achieving High Compression Rates in Transformer-Based Language Models. (arXiv:2307.05972v1 [cs.CL])\nAbstract: We investigate the effects of post-training quantization and quantization-aware training on the generalization of Transformer language models. We present a new method called self-distilled quantization (SDQ) that minimizes accumulative quantization errors and outperforms baselines. We apply SDQ to multilingual models XLM-R-Base and InfoXLM-Base and demonstrate that both models can be reduced from 32-bit floating point weights to 8-bit integer weights while maintaining a high level of performance on the XGLUE benchmark. Our results also highlight the challenges of quantizing multilingual models, which must generalize to languages they were not fine-tuned on.",
+    "path": "papers/23/07/2307.05972.json",
+    "total_tokens": 884,
+    "translated_title": "自学习量化：在基于Transformer的语言模型中实现高压缩率",
+    "translated_abstract": "我们研究了事后训练量化和量化感知训练对Transformer语言模型的泛化效果。我们提出了一种称为自学习量化（SDQ）的新方法，该方法最小化累积量化误差并优于基准模型。我们将SDQ应用于多语言模型XLM-R-Base和InfoXLM-Base，并证明这两个模型可以从32位浮点权重减少到8位整数权重，同时在XGLUE基准上保持高水平的性能。我们的结果还凸显了量化多语言模型面临的挑战，这些模型必须能够推广到未经微调的语言。",
+    "tldr": "本研究探讨了事后训练量化和量化感知训练对Transformer语言模型泛化效果的影响，并提出了自学习量化（SDQ）方法，该方法最小化累积量化误差并在多语言模型上优于基准模型。通过在XGLUE基准上的实验证明，SDQ方法可以将模型从32位浮点权重减少到8位整数权重，同时保持高水平的性能。"
+}

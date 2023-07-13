@@ -1,0 +1,12 @@
+{
+    "title": "DSSE: a drone swarm search environment. (arXiv:2307.06240v1 [cs.LG])",
+    "abstract": "The Drone Swarm Search project is an environment, based on PettingZoo, that is to be used in conjunction with multi-agent (or single-agent) reinforcement learning algorithms. It is an environment in which the agents (drones), have to find the targets (shipwrecked people). The agents do not know the position of the target and do not receive rewards related to their own distance to the target(s). However, the agents receive the probabilities of the target(s) being in a certain cell of the map. The aim of this project is to aid in the study of reinforcement learning algorithms that require dynamic probabilities as inputs.",
+    "link": "http://arxiv.org/abs/2307.06240",
+    "context": "Title: DSSE: a drone swarm search environment. (arXiv:2307.06240v1 [cs.LG])\nAbstract: The Drone Swarm Search project is an environment, based on PettingZoo, that is to be used in conjunction with multi-agent (or single-agent) reinforcement learning algorithms. It is an environment in which the agents (drones), have to find the targets (shipwrecked people). The agents do not know the position of the target and do not receive rewards related to their own distance to the target(s). However, the agents receive the probabilities of the target(s) being in a certain cell of the map. The aim of this project is to aid in the study of reinforcement learning algorithms that require dynamic probabilities as inputs.",
+    "path": "papers/23/07/2307.06240.json",
+    "total_tokens": 635,
+    "translated_title": "DSSE: 无人机群集搜索环境",
+    "translated_abstract": "无人机群集搜索项目是一个基于PettingZoo的环境，与多智能体（或单智能体）强化学习算法配合使用。该环境中的智能体（无人机）必须找到目标（遇险人员），但不知道目标的位置，并且不会根据自身与目标的距离得到奖励。但是，智能体会接收到目标出现在地图某个单元格的概率。该项目的目标是帮助研究需要动态概率作为输入的强化学习算法。",
+    "tldr": "DSSE是一个无人机群集搜索环境，用于研究需要动态概率作为输入的强化学习算法。",
+    "en_tdlr": "DSSE is a drone swarm search environment designed to study reinforcement learning algorithms that require dynamic probabilities as inputs."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Neural Polytopes. (arXiv:2307.00721v2 [cs.LG] UPDATED)",
+    "abstract": "We find that simple neural networks with ReLU activation generate polytopes as an approximation of a unit sphere in various dimensions. The species of polytopes are regulated by the network architecture, such as the number of units and layers. For a variety of activation functions, generalization of polytopes is obtained, which we call neural polytopes. They are a smooth analogue of polytopes, exhibiting geometric duality. This finding initiates research of generative discrete geometry to approximate surfaces by machine learning.",
+    "link": "http://arxiv.org/abs/2307.00721",
+    "context": "Title: Neural Polytopes. (arXiv:2307.00721v2 [cs.LG] UPDATED)\nAbstract: We find that simple neural networks with ReLU activation generate polytopes as an approximation of a unit sphere in various dimensions. The species of polytopes are regulated by the network architecture, such as the number of units and layers. For a variety of activation functions, generalization of polytopes is obtained, which we call neural polytopes. They are a smooth analogue of polytopes, exhibiting geometric duality. This finding initiates research of generative discrete geometry to approximate surfaces by machine learning.",
+    "path": "papers/23/07/2307.00721.json",
+    "total_tokens": 633,
+    "translated_title": "神经多面体",
+    "translated_abstract": "我们发现，使用ReLU激活的简单神经网络可以在不同维度中逼近单位球形，生成多面体。多面体的种类受到网络架构的调节，如单元数和层数。对于多种激活函数，我们得到了多面体的泛化，我们称之为神经多面体。它们是多面体的平滑类比，展现了几何的对偶性。这一发现开启了利用机器学习来逼近曲面的生成离散几何研究。",
+    "tldr": "使用ReLU激活的简单神经网络可以在不同维度中逼近单位球形，生成神经多面体，这一发现开启了利用机器学习来逼近曲面的生成离散几何研究。",
+    "en_tdlr": "Simple neural networks with ReLU activation can approximate a unit sphere and generate neural polytopes in different dimensions, initiating research of generative discrete geometry to approximate surfaces by machine learning."
+}

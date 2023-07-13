@@ -1,0 +1,12 @@
+{
+    "title": "Human in the AI loop via xAI and Active Learning for Visual Inspection. (arXiv:2307.05508v1 [cs.HC])",
+    "abstract": "Industrial revolutions have historically disrupted manufacturing by introducing automation into production. Increasing automation reshapes the role of the human worker. Advances in robotics and artificial intelligence open new frontiers of human-machine collaboration. In this chapter, we first describe Industry 5.0, human-machine collaboration, and state-of-the-art regarding quality inspection, emphasizing visual inspection. We then provide our perspective on how human-machine collaboration could be realized and enhanced in visual inspection. Finally, we share some of the results obtained in the EU H2020 STAR project regarding visual inspection, considering artificial intelligence, human digital twins, and cybersecurity.",
+    "link": "http://arxiv.org/abs/2307.05508",
+    "context": "Title: Human in the AI loop via xAI and Active Learning for Visual Inspection. (arXiv:2307.05508v1 [cs.HC])\nAbstract: Industrial revolutions have historically disrupted manufacturing by introducing automation into production. Increasing automation reshapes the role of the human worker. Advances in robotics and artificial intelligence open new frontiers of human-machine collaboration. In this chapter, we first describe Industry 5.0, human-machine collaboration, and state-of-the-art regarding quality inspection, emphasizing visual inspection. We then provide our perspective on how human-machine collaboration could be realized and enhanced in visual inspection. Finally, we share some of the results obtained in the EU H2020 STAR project regarding visual inspection, considering artificial intelligence, human digital twins, and cybersecurity.",
+    "path": "papers/23/07/2307.05508.json",
+    "total_tokens": 730,
+    "translated_title": "通过xAI和主动学习的人在AI循环中进行视觉检查",
+    "translated_abstract": "工业革命通过引入自动化来改变制造业，增加的自动化改变了人工工人的角色。机器人和人工智能的进步开辟了人机协作的新领域。本章首先描述了工业5.0，人机协作以及关于质量检查的最新技术，重点是视觉检查。然后，我们提供了关于如何在视觉检查中实现和增强人机协作的观点。最后，我们分享了在欧盟H2020 STAR项目中关于视觉检查的一些结果，考虑了人工智能，人类数字孪生和网络安全。",
+    "tldr": "通过xAI和主动学习的人在AI循环中进行视觉检查的论文探讨了工业 5.0 中人机协作的新机会，并分享了关于视觉检查中的人工智能、人类数字孪生和网络安全的最新研究成果。",
+    "en_tdlr": "This paper explores the new opportunities for human-machine collaboration in Industry 5.0 via xAI and active learning for visual inspection, and shares the latest research findings on artificial intelligence, human digital twins, and cybersecurity in visual inspection."
+}

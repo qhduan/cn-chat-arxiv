@@ -2,217 +2,187 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Fisher-Weighted Merge of Contrastive Learning Models in Sequential Recommendation.](http://arxiv.org/abs/2307.05476) | 本文首次将Fisher合并方法应用于序列推荐中，通过合并多个模型的参数来改善整体性能，从而解决了实际挑战，具有推动最新技术的潜力。 |
-| [^2] | [AdaptiveRec: Adaptively Construct Pairs for Contrastive Learning in Sequential Recommendation.](http://arxiv.org/abs/2307.05469) | 本文提出了AdaptiveRec，这是一种在顺序推荐中解决对比学习挑战的自适应方法，通过改善嵌入质量和减轻误判问题来提高效果，并在各种推荐场景中展示了其灵活性和适用性的价值。 |
-| [^3] | [Duncode Characters Shorter.](http://arxiv.org/abs/2307.05414) | 本文研究了文本转换中使用的各种编码器，并介绍了一种创新的Duncode编码方法，该方法在编码整个Unicode字符集时具有较高的空间效率。 |
-| [^4] | [Temporal Graphs Anomaly Emergence Detection: Benchmarking For Social Media Interactions.](http://arxiv.org/abs/2307.05268) | 本研究针对时间图中的异常出现进行了全面的基准测试，比较了12种数据驱动的方法。实验结果表明，针对这类任务没有明确的最佳方法，突显了检测大型动态系统中新兴异常的复杂性和挑战，强调了进一步研究和创新方法的需求。 |
-| [^5] | [U-CREAT: Unsupervised Case Retrieval using Events extrAcTion.](http://arxiv.org/abs/2307.05260) | U-CREAT是一个无监督案例检索系统，通过使用事件提取实现了更高的性能和更快的检索速度，适用于实时案例检索系统。 |
-| [^6] | [Generative Contrastive Graph Learning for Recommendation.](http://arxiv.org/abs/2307.05100) | 本文介绍了一种基于生成对比图学习的推荐系统。通过将用户的互动视为用户-项目图，结合对比学习技术和数据增强技术，提供更有效的自监督信号，从而改进了传统的基于协同过滤的推荐系统模型。 |
-| [^7] | [Retrieval-augmented GPT-3.5-based Text-to-SQL Framework with Sample-aware Prompting and Dynamic Revision Chain.](http://arxiv.org/abs/2307.05074) | 本文提出了一种基于检索增强的GPT-3.5文本到SQL框架，采用了样本感知引导和动态修订链的方法，以应对现有方法在处理语义差距较大的检索示例时面临的挑战。 |
-| [^8] | [Mining for Unknown Unknowns.](http://arxiv.org/abs/2307.05071) | 本论文使用形式概念分析（FCA）框架，旨在系统地挖掘和寻找未知未知，从而避免潜在的重大收益或损失。 |
-| [^9] | [Neural-Symbolic Recommendation with Graph-Enhanced Information.](http://arxiv.org/abs/2307.05036) | 本研究结合了图神经网络和命题逻辑操作的优势，构建了一个具有全局隐式推理能力和局部显式逻辑推理能力的神经符号推荐模型。 |
-| [^10] | [Empowering recommender systems using automatically generated Knowledge Graphs and Reinforcement Learning.](http://arxiv.org/abs/2307.04996) | 本文介绍了两种基于知识图谱的方法，一种使用强化学习，另一种使用XGBoost算法，用于个性化文章推荐。这些方法利用自动生成的知识图谱，并在一个大型跨国金融服务公司的客户中进行了实证研究。 |
-| [^11] | [Ranking with Long-Term Constraints.](http://arxiv.org/abs/2307.04923) | 本文提出了一个新的框架，使决策者可以表达平台行为的长期目标，并通过新的基于控制的算法实现这些目标，同时最小化对短期参与的影响。 |
-| [^12] | [Continual Learning on Dynamic Graphs via Parameter Isolation.](http://arxiv.org/abs/2305.13825) | 提出了Parameter Isolation GNN (PI-GNN)模型，用于处理动态图上的持续学习任务。该模型通过参数隔离和扩展来避免学习新模式和保留旧模式之间的权衡。 |
-| [^13] | [One-Shot Labeling for Automatic Relevance Estimation.](http://arxiv.org/abs/2302.11266) | 本研究探索了利用大型语言模型来填补搜索系统离线评估过程中未评定文档的问题。研究结果表明，尽管预测结果与人工评定存在差异，但使用一次性标注器能够提供更可靠的系统排序效果。 |
-| [^14] | [Collective Privacy Recovery: Data-sharing Coordination via Decentralized Artificial Intelligence.](http://arxiv.org/abs/2301.05995) | 本文研究了集体隐私恢复的问题，通过分散式人工智能实现数据共享的协同。研究发现，数据共享协调可以实现对隐私的显著恢复，并带来双赢效果。 |
+| [^1] | [Testing different Log Bases For Vector Model Weighting Technique.](http://arxiv.org/abs/2307.06213) | 本论文测试了在向量模型加权技术中使用不同对数底数的效果，以突出在不同加权数值下了解系统性能的重要性。 |
+| [^2] | [DDNAS: Discretized Differentiable Neural Architecture Search for Text Classification.](http://arxiv.org/abs/2307.06005) | 这篇论文提出了一种名为DDNAS的离散化可微分神经架构搜索方法，用于文本分类。通过使用连续松弛的架构表示和互信息最大化的离散化层，DDNAS在文本表示学习和分类任务中表现优于其他NAS方法。 |
+| [^3] | [Contrastive Learning for Conversion Rate Prediction.](http://arxiv.org/abs/2307.05974) | 对比学习用于转化率预测的框架(CL4CVR)可以利用丰富的无标签数据学习更好的数据表示，并提高转化率预测性能。 |
+| [^4] | [Relational Extraction on Wikipedia Tables using Convolutional and Memory Networks.](http://arxiv.org/abs/2307.05827) | 使用卷积和记忆网络，在维基百科的表格数据中进行关系抽取。该模型在关系抽取任务中表现出色，并且经过全面的分析和研究，展示了各个模型组件的贡献。 |
+| [^5] | [Exploring Large Language Model for Graph Data Understanding in Online Job Recommendations.](http://arxiv.org/abs/2307.05722) | 本论文探索了大规模语言模型在在线职位推荐中对图数据的理解能力，并提出了新的框架来分析行为图，发现其中的潜在模式和关系。 |
+| [^6] | [Online Ad Procurement in Non-stationary Autobidding Worlds.](http://arxiv.org/abs/2307.05698) | 提出了一个在线学习框架，帮助广告商在非稳态采购环境下动态优化广告平台参数决策。 |
+| [^7] | [A Machine-Learned Ranking Algorithm for Dynamic and Personalised Car Pooling Services.](http://arxiv.org/abs/2307.05697) | 本研究提出了GoTogether，一个利用学习排序技术为拼车服务提供个性化推荐的系统。通过分析用户的历史选择，GoTogether能够预测个人共乘的愿望，并提供高成功率的拼车匹配。 |
+| [^8] | [A Personalized Reinforcement Learning Summarization Service for Learning Structure from Unstructured Data.](http://arxiv.org/abs/2307.05696) | 该论文提出了一种个性化强化学习总结服务，通过使用层级个性化基于概念的总结方法，在文本数据呈指数级增长的背景下，帮助用户提取有意义的见解。 |
+| [^9] | [A Survey on Figure Classification Techniques in Scientific Documents.](http://arxiv.org/abs/2307.05694) | 《科技文档中的图形分类技术综述》对图形分类问题进行了系统梳理，包括表格、照片、图表、地图和绘图五类，并批判性地评述了现有方法和数据集，并提出了进一步研究的方向。 |
+| [^10] | [LogitMat : Zeroshot Learning Algorithm for Recommender Systems without Transfer Learning or Pretrained Models.](http://arxiv.org/abs/2307.05680) | 本文介绍了一种名为LogitMat的零模型迁移或预训练模型的零射击学习算法，用于解决推荐系统的冷启动问题。 |
+| [^11] | [Known by the Company it Keeps: Proximity-Based Indexing for Physical Content in Archival Repositories.](http://arxiv.org/abs/2305.18683) | 本文提出了一种基于选择性数字化的邻近度索引方法，该方法可以有效提高搜索非数字化实体内容的效率。 |
+| [^12] | [UNIQORN: Unified Question Answering over RDF Knowledge Graphs and Natural Language Text.](http://arxiv.org/abs/2108.08614) | 本文提出了一个名为UNIQORN的问答系统，它能够无缝地处理RDF数据和文本，使用fine-tuned BERT模型为问题构建上下文图，并使用图算法确定与问题相关的子图来回答问题。 |
 
 # 详细
 
-[^1]: 序列推荐中对比学习模型的Fisher加权合并
+[^1]: 测试不同对数底数的向量模型加权技术
 
-    Fisher-Weighted Merge of Contrastive Learning Models in Sequential Recommendation. (arXiv:2307.05476v1 [cs.IR])
+    Testing different Log Bases For Vector Model Weighting Technique. (arXiv:2307.06213v1 [cs.IR])
 
-    [http://arxiv.org/abs/2307.05476](http://arxiv.org/abs/2307.05476)
+    [http://arxiv.org/abs/2307.06213](http://arxiv.org/abs/2307.06213)
 
-    本文首次将Fisher合并方法应用于序列推荐中，通过合并多个模型的参数来改善整体性能，从而解决了实际挑战，具有推动最新技术的潜力。
-
-    
-
-    随着在线平台和服务的指数增长，推荐系统已成为根据用户偏好识别相关物品的必备工具。序列推荐的领域旨在捕捉用户随时间变化的偏好。为了解决动态偏好，已提出了各种对比学习方法来应对推荐系统中由于有限的用户-物品交互而导致的数据稀疏性挑战。在本文中，我们首次将Fisher合并方法应用于序列推荐中，解决并解决了与之相关的实际挑战。这种方法通过合并多个模型的参数来确保鲁棒微调，从而改善整体性能。通过大量实验，我们证明了我们提出的方法的有效性，并突出了它们在序列学习和推荐系统中推动最新技术的潜力。
-
-    Along with the exponential growth of online platforms and services, recommendation systems have become essential for identifying relevant items based on user preferences. The domain of sequential recommendation aims to capture evolving user preferences over time. To address dynamic preference, various contrastive learning methods have been proposed to target data sparsity, a challenge in recommendation systems due to the limited user-item interactions. In this paper, we are the first to apply the Fisher-Merging method to Sequential Recommendation, addressing and resolving practical challenges associated with it. This approach ensures robust fine-tuning by merging the parameters of multiple models, resulting in improved overall performance. Through extensive experiments, we demonstrate the effectiveness of our proposed methods, highlighting their potential to advance the state-of-the-art in sequential learning and recommendation systems.
-    
-[^2]: AdaptiveRec：在顺序推荐中自适应构建对比学习的解决方案
-
-    AdaptiveRec: Adaptively Construct Pairs for Contrastive Learning in Sequential Recommendation. (arXiv:2307.05469v1 [cs.IR])
-
-    [http://arxiv.org/abs/2307.05469](http://arxiv.org/abs/2307.05469)
-
-    本文提出了AdaptiveRec，这是一种在顺序推荐中解决对比学习挑战的自适应方法，通过改善嵌入质量和减轻误判问题来提高效果，并在各种推荐场景中展示了其灵活性和适用性的价值。
+    本论文测试了在向量模型加权技术中使用不同对数底数的效果，以突出在不同加权数值下了解系统性能的重要性。
 
     
 
-    本文针对顺序推荐系统中对比学习所面临的挑战提出了一种解决方案。具体而言，它解决了误判的问题，该问题限制了推荐算法的有效性。通过引入先进的对比学习方法，所提出的方法改善了物品嵌入的质量，并减轻了将相似实例错误地归类为不相似的问题。实验证明，与现有系统相比，该方法提供了性能的提升。所提出的方法在各种推荐场景中的灵活性和适用性进一步凸显了它在增强顺序推荐系统中的价值。
+    信息检索系统根据用户提交的查询检索相关文档。文档首先被索引，文档中的词语使用称为TFIDF的加权技术被赋予权重，TFIDF是词频（TF）和逆文档频率（IDF）的乘积。TF代表词项在文档中出现的次数。IDF衡量词项在所有文档中的普遍程度。它通过将系统中的总文档数除以包含该词项的文档数，然后计算商的对数来计算。默认情况下，我们使用以10为底的对数计算。在本文中，我们将使用从0.1到100.0的一系列对数底数来计算IDF，以测试这种加权技术。测试不同对数底数的向量模型加权技术的目的是突出在不同加权数值下了解系统性能的重要性。我们使用MED的文档。
 
-    This paper presents a solution to the challenges faced by contrastive learning in sequential recommendation systems. In particular, it addresses the issue of false negative, which limits the effectiveness of recommendation algorithms. By introducing an advanced approach to contrastive learning, the proposed method improves the quality of item embeddings and mitigates the problem of falsely categorizing similar instances as dissimilar. Experimental results demonstrate performance enhancements compared to existing systems. The flexibility and applicability of the proposed approach across various recommendation scenarios further highlight its value in enhancing sequential recommendation systems.
+    Information retrieval systems retrieves relevant documents based on a query submitted by the user. The documents are initially indexed and the words in the documents are assigned weights using a weighting technique called TFIDF which is the product of Term Frequency (TF) and Inverse Document Frequency (IDF). TF represents the number of occurrences of a term in a document. IDF measures whether the term is common or rare across all documents. It is computed by dividing the total number of documents in the system by the number of documents containing the term and then computing the logarithm of the quotient. By default, we use base 10 to calculate the logarithm. In this paper, we are going to test this weighting technique by using a range of log bases from 0.1 to 100.0 to calculate the IDF. Testing different log bases for vector model weighting technique is to highlight the importance of understanding the performance of the system at different weighting values. We use the documents of MED
     
-[^3]: Duncode字符更短的技术
+[^2]: DDNAS: 离散化可微分神经架构搜索用于文本分类
 
-    Duncode Characters Shorter. (arXiv:2307.05414v1 [cs.CL])
+    DDNAS: Discretized Differentiable Neural Architecture Search for Text Classification. (arXiv:2307.06005v1 [cs.CL])
 
-    [http://arxiv.org/abs/2307.05414](http://arxiv.org/abs/2307.05414)
+    [http://arxiv.org/abs/2307.06005](http://arxiv.org/abs/2307.06005)
 
-    本文研究了文本转换中使用的各种编码器，并介绍了一种创新的Duncode编码方法，该方法在编码整个Unicode字符集时具有较高的空间效率。
-
-    
-
-    本文研究了在文本转换中使用各种编码器，将字符转换为字节。讨论了本地编码器（如ASCII和GB-2312），它们将特定字符编码为较短的字节，以及通用编码器（如UTF-8和UTF-16），它们可以使用更多的空间来编码完整的Unicode字符集，并得到广泛接受。然而，其他编码器（包括SCSU，BOCU-1和二进制编码器）缺乏自同步功能。Duncode是一种创新的编码方法，旨在以高空间效率编码整个Unicode字符集，类似于本地编码器。它有潜力使用较少的字节将字符串的多个字符压缩为一个Duncode单元。尽管提供了较少的自同步识别信息，Duncode在空间效率方面超越了UTF8。应用程序可在\url{https://github.com/laohur/duncode}中找到。此外，我们还开发了一个基准测试工具。
-
-    This paper investigates the employment of various encoders in text transformation, converting characters into bytes. It discusses local encoders such as ASCII and GB-2312, which encode specific characters into shorter bytes, and universal encoders like UTF-8 and UTF-16, which can encode the complete Unicode set with greater space requirements and are gaining widespread acceptance. Other encoders, including SCSU, BOCU-1, and binary encoders, however, lack self-synchronizing capabilities. Duncode is introduced as an innovative encoding method that aims to encode the entire Unicode character set with high space efficiency, akin to local encoders. It has the potential to compress multiple characters of a string into a Duncode unit using fewer bytes. Despite offering less self-synchronizing identification information, Duncode surpasses UTF8 in terms of space efficiency. The application is available at \url{https://github.com/laohur/duncode}. Additionally, we have developed a benchmark for e
-    
-[^4]: 时间图异常出现检测: 社交媒体交互的基准测试
-
-    Temporal Graphs Anomaly Emergence Detection: Benchmarking For Social Media Interactions. (arXiv:2307.05268v1 [cs.SI])
-
-    [http://arxiv.org/abs/2307.05268](http://arxiv.org/abs/2307.05268)
-
-    本研究针对时间图中的异常出现进行了全面的基准测试，比较了12种数据驱动的方法。实验结果表明，针对这类任务没有明确的最佳方法，突显了检测大型动态系统中新兴异常的复杂性和挑战，强调了进一步研究和创新方法的需求。
+    这篇论文提出了一种名为DDNAS的离散化可微分神经架构搜索方法，用于文本分类。通过使用连续松弛的架构表示和互信息最大化的离散化层，DDNAS在文本表示学习和分类任务中表现优于其他NAS方法。
 
     
 
-    时间图已成为分析具有多个代理的复杂动态系统的重要工具。检测时间图中的异常对于各种应用至关重要，包括识别新兴趋势、监测网络安全、理解社交动态、追踪疾病爆发和了解金融动态等。本文提出了一个全面的基准测试研究，比较了12种数据驱动的时间图异常检测方法。我们在从Twitter和Facebook提取的两个时间图上进行实验，旨在识别群体交互中的异常。令人惊讶的是，我们的研究揭示了在这些任务中最好的方法存在不确定模式，突显了在大型动态系统中检测异常的复杂性和挑战。结果强调了进一步研究和创新方法以有效地检测表示为时间图的新兴异常的需求。
+    神经架构搜索（NAS）在学习文本表示方面展现出了很好的能力。然而，现有的基于文本的NAS既未对架构进行可学习的融合以优化，也未对文本输入背后的潜在层级分类进行编码。本文提出了一种新颖的NAS方法，即Discretized Differentiable Neural Architecture Search (DDNAS)，用于文本表示学习和分类。通过架构表示的连续松弛，DDNAS可以使用梯度下降来进行搜索优化。我们还提出了一种新颖的离散化层，通过最大化互信息将其施加于每个搜索节点上，以对文本表示中的潜在层级分类进行建模。在八个不同的真实数据集上进行的大量实验表明，DDNAS始终能够优于最先进的NAS方法。尽管DDNAS仅依赖于卷积，池化和无操作这三个基本操作，作为候选操作。
 
-    Temporal graphs have become an essential tool for analyzing complex dynamic systems with multiple agents. Detecting anomalies in temporal graphs is crucial for various applications, including identifying emerging trends, monitoring network security, understanding social dynamics, tracking disease outbreaks, and understanding financial dynamics. In this paper, we present a comprehensive benchmarking study that compares 12 data-driven methods for anomaly detection in temporal graphs. We conduct experiments on two temporal graphs extracted from Twitter and Facebook, aiming to identify anomalies in group interactions. Surprisingly, our study reveals an unclear pattern regarding the best method for such tasks, highlighting the complexity and challenges involved in anomaly emergence detection in large and dynamic systems. The results underscore the need for further research and innovative approaches to effectively detect emerging anomalies in dynamic systems represented as temporal graphs.
+    Neural Architecture Search (NAS) has shown promising capability in learning text representation. However, existing text-based NAS neither performs a learnable fusion of neural operations to optimize the architecture, nor encodes the latent hierarchical categorization behind text input. This paper presents a novel NAS method, Discretized Differentiable Neural Architecture Search (DDNAS), for text representation learning and classification. With the continuous relaxation of architecture representation, DDNAS can use gradient descent to optimize the search. We also propose a novel discretization layer via mutual information maximization, which is imposed on every search node to model the latent hierarchical categorization in text representation. Extensive experiments conducted on eight diverse real datasets exhibit that DDNAS can consistently outperform the state-of-the-art NAS methods. While DDNAS relies on only three basic operations, i.e., convolution, pooling, and none, to be the cand
     
-[^5]: U-CREAT: 无监督事件提取的无监督案例检索系统
+[^3]: 对比学习用于转化率预测
 
-    U-CREAT: Unsupervised Case Retrieval using Events extrAcTion. (arXiv:2307.05260v1 [cs.IR])
+    Contrastive Learning for Conversion Rate Prediction. (arXiv:2307.05974v1 [cs.IR])
 
-    [http://arxiv.org/abs/2307.05260](http://arxiv.org/abs/2307.05260)
+    [http://arxiv.org/abs/2307.05974](http://arxiv.org/abs/2307.05974)
 
-    U-CREAT是一个无监督案例检索系统，通过使用事件提取实现了更高的性能和更快的检索速度，适用于实时案例检索系统。
-
-    
-
-    在法律领域，先前案例检索的任务是自动引用与给定查询案例相关（基于事实和先例）的先前法律案例。为了进一步推动先前案例检索研究，本文提出了一个新的大型基准（以英文为主）用于先前案例检索任务：IL-PCR（印度法律先前案例检索）语料库。考虑到案例相关性的复杂性和法律文档的长度，BM25仍然是排名引用先前文档的强大基准。在这项工作中，我们探索了事件在法律案例检索中的作用，并提出一种基于无监督检索方法的管道系统U-CREAT（无监督事件提取的无监督案例检索系统）。我们发现，所提出的无监督检索方法与BM25相比显著提高了性能，并且使检索速度大大加快，使其适用于实时案例检索系统。我们的系统具有通用性，我们证明它适用于两个不同的法律体系（印度）。
-
-    The task of Prior Case Retrieval (PCR) in the legal domain is about automatically citing relevant (based on facts and precedence) prior legal cases in a given query case. To further promote research in PCR, in this paper, we propose a new large benchmark (in English) for the PCR task: IL-PCR (Indian Legal Prior Case Retrieval) corpus. Given the complex nature of case relevance and the long size of legal documents, BM25 remains a strong baseline for ranking the cited prior documents. In this work, we explore the role of events in legal case retrieval and propose an unsupervised retrieval method-based pipeline U-CREAT (Unsupervised Case Retrieval using Events Extraction). We find that the proposed unsupervised retrieval method significantly increases performance compared to BM25 and makes retrieval faster by a considerable margin, making it applicable to real-time case retrieval systems. Our proposed system is generic, we show that it generalizes across two different legal systems (India
-    
-[^6]: 基于生成对比图学习的推荐系统
-
-    Generative Contrastive Graph Learning for Recommendation. (arXiv:2307.05100v1 [cs.IR])
-
-    [http://arxiv.org/abs/2307.05100](http://arxiv.org/abs/2307.05100)
-
-    本文介绍了一种基于生成对比图学习的推荐系统。通过将用户的互动视为用户-项目图，结合对比学习技术和数据增强技术，提供更有效的自监督信号，从而改进了传统的基于协同过滤的推荐系统模型。
+    对比学习用于转化率预测的框架(CL4CVR)可以利用丰富的无标签数据学习更好的数据表示，并提高转化率预测性能。
 
     
 
-    通过将用户的互动视为用户-项目图，图学习模型已广泛应用于基于协同过滤的推荐系统。最近，研究人员将图对比学习技术引入协同过滤中，以缓解稀疏监督问题，首先通过数据增强构建对比视图，然后通过最大化对比视图之间的互信息提供自监督信号。尽管有效，我们认为当前基于图对比学习的推荐系统仍存在局限性，当前的数据增强技术，无论是结构增强还是特征增强。首先，结构增强随机丢弃节点或边，很容易破坏用户-项目图的内在特性。其次，特征增强对每个节点施加相同规模的噪声增强，忽视了图上节点的独特特征。为了解决上述限制，我们提出了一种新颖的变分生成对比图学习模型（Variational Gr）
+    转化率（CVR）预测在广告系统中扮演重要角色。近年来，基于监督深度神经网络的模型在CVR预测方面表现出了良好的性能。然而，它们需要大量的训练数据，对数据的需求较高。在线广告系统中，虽然存在数以百万计的广告，但用户往往只点击其中的一小部分，并在其中的更小部分进行转化。数据的稀疏性限制了这些深度模型的能力。本文提出了对比学习用于CVR预测（CL4CVR）框架。该框架将监督CVR预测任务与对比学习任务关联起来，可以利用丰富的无标签数据学习更好的数据表示，并提高CVR预测性能。为了将对比学习任务应用于CVR预测问题，我们提出了嵌入式掩码（EM），而不是特征掩码，来创建两个增强样本视图。我们还提出了一个假阴性的...
 
-    By treating users' interactions as a user-item graph, graph learning models have been widely deployed in Collaborative Filtering(CF) based recommendation. Recently, researchers have introduced Graph Contrastive Learning(GCL) techniques into CF to alleviate the sparse supervision issue, which first constructs contrastive views by data augmentations and then provides self-supervised signals by maximizing the mutual information between contrastive views. Despite the effectiveness, we argue that current GCL-based recommendation models are still limited as current data augmentation techniques, either structure augmentation or feature augmentation. First, structure augmentation randomly dropout nodes or edges, which is easy to destroy the intrinsic nature of the user-item graph. Second, feature augmentation imposes the same scale noise augmentation on each node, which neglects the unique characteristics of nodes on the graph. To tackle the above limitations, we propose a novel Variational Gr
+    Conversion rate (CVR) prediction plays an important role in advertising systems. Recently, supervised deep neural network-based models have shown promising performance in CVR prediction. However, they are data hungry and require an enormous amount of training data. In online advertising systems, although there are millions to billions of ads, users tend to click only a small set of them and to convert on an even smaller set. This data sparsity issue restricts the power of these deep models. In this paper, we propose the Contrastive Learning for CVR prediction (CL4CVR) framework. It associates the supervised CVR prediction task with a contrastive learning task, which can learn better data representations exploiting abundant unlabeled data and improve the CVR prediction performance. To tailor the contrastive learning task to the CVR prediction problem, we propose embedding masking (EM), rather than feature masking, to create two views of augmented samples. We also propose a false negativ
     
-[^7]: 采用样本感知引导和动态修订链的基于检索增强的GPT-3.5文本到SQL框架
+[^4]: 使用卷积和记忆网络在维基百科表格上进行关系抽取
 
-    Retrieval-augmented GPT-3.5-based Text-to-SQL Framework with Sample-aware Prompting and Dynamic Revision Chain. (arXiv:2307.05074v1 [cs.IR])
+    Relational Extraction on Wikipedia Tables using Convolutional and Memory Networks. (arXiv:2307.05827v1 [cs.CL])
 
-    [http://arxiv.org/abs/2307.05074](http://arxiv.org/abs/2307.05074)
+    [http://arxiv.org/abs/2307.05827](http://arxiv.org/abs/2307.05827)
 
-    本文提出了一种基于检索增强的GPT-3.5文本到SQL框架，采用了样本感知引导和动态修订链的方法，以应对现有方法在处理语义差距较大的检索示例时面临的挑战。
-
-    
-
-    文本到SQL旨在为给定的自然语言问题生成SQL查询，从而帮助用户查询数据库。最近出现了一种基于大型语言模型（LLMs）的提示学习方法，该方法设计提示以引导LLMs理解输入问题并生成相应的SQL。然而，它面临着严格的SQL语法要求的挑战。现有工作使用一系列示例（即问题-SQL对）来提示LLMs生成SQL，但固定的提示几乎无法处理检索出的示例与输入问题之间的语义差距较大的情况。在本文中，我们提出了一种基于检索增强的提示方法，用于基于LLM的文本到SQL框架，包括样本感知提示和动态修订链。我们的方法包括样本感知示例，其中包括SQL运算符的组合和与给定问题相关的细粒度信息。
-
-    Text-to-SQL aims at generating SQL queries for the given natural language questions and thus helping users to query databases. Prompt learning with large language models (LLMs) has emerged as a recent approach, which designs prompts to lead LLMs to understand the input question and generate the corresponding SQL. However, it faces challenges with strict SQL syntax requirements. Existing work prompts the LLMs with a list of demonstration examples (i.e. question-SQL pairs) to generate SQL, but the fixed prompts can hardly handle the scenario where the semantic gap between the retrieved demonstration and the input question is large. In this paper, we propose a retrieval-augmented prompting method for a LLM-based Text-to-SQL framework, involving sample-aware prompting and a dynamic revision chain. Our approach incorporates sample-aware demonstrations, which include the composition of SQL operators and fine-grained information related to the given question. To retrieve questions sharing sim
-    
-[^8]: 对未知未知的挖掘
-
-    Mining for Unknown Unknowns. (arXiv:2307.05071v1 [cs.AI])
-
-    [http://arxiv.org/abs/2307.05071](http://arxiv.org/abs/2307.05071)
-
-    本论文使用形式概念分析（FCA）框架，旨在系统地挖掘和寻找未知未知，从而避免潜在的重大收益或损失。
+    使用卷积和记忆网络，在维基百科的表格数据中进行关系抽取。该模型在关系抽取任务中表现出色，并且经过全面的分析和研究，展示了各个模型组件的贡献。
 
     
 
-    未知未知是缺乏事前描述的未来相关的偶发事件。尽管有许多回顾性的报告显示，如果此类情况事前被发现，可以实现或避免显著收益或损失，但获取未知未知仍然是难以捉摸的，无论是在实践上还是在概念上。本文使用形式概念分析（FCA） - 一种越来越多地应用于挖掘和组织数据的格论子领域 - 引入了一个简单的框架，以系统地打破思维定势，指导对未知未知的搜索。
+    关系抽取是从文本中提取实体之间关系的任务。大部分关系抽取方法从自由格式的连续文本中提取关系，而忽略了其他丰富的数据来源，比如表格。我们从应用神经网络方法处理表格化数据的角度探索关系抽取。我们引入了一个新模型，由卷积神经网络（CNN）和双向长短期记忆（BiLSTM）网络组成，分别用于编码实体和学习它们之间的依赖关系。我们在一个大规模且最新的数据集上评估了我们的模型，并与之前的神经网络方法进行了比较。实验结果显示，我们的模型在表格数据上的关系抽取任务中始终优于之前的模型。我们进行了全面的错误分析和剥离研究，以展示我们的模型的各个组成部分的贡献。最后，我们讨论了我们方法的实用性和权衡，并提供了进一步研究的建议。
 
-    Unknown unknowns are future relevant contingencies that lack an ex ante description. While there are numerous retrospective accounts showing that significant gains or losses might have been achieved or avoided had such contingencies been previously uncovered, getting hold of unknown unknowns still remains elusive, both in practice and conceptually. Using Formal Concept Analysis (FCA) - a subfield of lattice theory which is increasingly applied for mining and organizing data - this paper introduces a simple framework to systematically think out of the box and direct the search for unknown unknowns.
+    Relation extraction (RE) is the task of extracting relations between entities in text. Most RE methods extract relations from free-form running text and leave out other rich data sources, such as tables. We explore RE from the perspective of applying neural methods on tabularly organized data. We introduce a new model consisting of Convolutional Neural Network (CNN) and Bidirectional-Long Short Term Memory (BiLSTM) network to encode entities and learn dependencies among them, respectively. We evaluate our model on a large and recent dataset and compare results with previous neural methods. Experimental results show that our model consistently outperforms the previous model for the task of relation extraction on tabular data. We perform comprehensive error analyses and ablation study to show the contribution of various components of our model. Finally, we discuss the usefulness and trade-offs of our approach, and provide suggestions for fostering further research.
     
-[^9]: 具有图增强信息的神经符号推荐系统
+[^5]: 探索大规模语言模型在在线职位推荐中对图数据的理解
 
-    Neural-Symbolic Recommendation with Graph-Enhanced Information. (arXiv:2307.05036v1 [cs.AI])
+    Exploring Large Language Model for Graph Data Understanding in Online Job Recommendations. (arXiv:2307.05722v1 [cs.AI])
 
-    [http://arxiv.org/abs/2307.05036](http://arxiv.org/abs/2307.05036)
+    [http://arxiv.org/abs/2307.05722](http://arxiv.org/abs/2307.05722)
 
-    本研究结合了图神经网络和命题逻辑操作的优势，构建了一个具有全局隐式推理能力和局部显式逻辑推理能力的神经符号推荐模型。
-
-    
-
-    推荐系统不仅是一个从数据中归纳统计的问题，也是一个需要推理能力的认知任务。最先进的图神经网络在推荐系统中被广泛使用，因为它们能够从图结构数据中捕捉到隐式结构信息。然而，像大多数神经网络算法一样，它们只从感知的角度学习匹配模式。一些研究者使用用户行为进行逻辑推理，从认知推理的角度实现推荐预测，但这种推理是局部的，忽视了全局范围内的隐式信息。在这项工作中，我们结合了图神经网络和命题逻辑操作的优势，构建了一个具有全局隐式推理能力和局部显式逻辑推理能力的神经符号推荐模型。我们首先基于相邻交互原则构建了一个物品-物品图，并使用图神经网络对其进行学习和推理。然后，我们引入了命题逻辑操作，使模型能够从全局范围内进行推理。最后，我们通过实验证明了该模型的有效性和准确性。
-
-    The recommendation system is not only a problem of inductive statistics from data but also a cognitive task that requires reasoning ability. The most advanced graph neural networks have been widely used in recommendation systems because they can capture implicit structured information from graph-structured data. However, like most neural network algorithms, they only learn matching patterns from a perception perspective. Some researchers use user behavior for logic reasoning to achieve recommendation prediction from the perspective of cognitive reasoning, but this kind of reasoning is a local one and ignores implicit information on a global scale. In this work, we combine the advantages of graph neural networks and propositional logic operations to construct a neuro-symbolic recommendation model with both global implicit reasoning ability and local explicit logic reasoning ability. We first build an item-item graph based on the principle of adjacent interaction and use graph neural net
-    
-[^10]: 利用自动生成的知识图谱和强化学习增强推荐系统
-
-    Empowering recommender systems using automatically generated Knowledge Graphs and Reinforcement Learning. (arXiv:2307.04996v1 [cs.IR])
-
-    [http://arxiv.org/abs/2307.04996](http://arxiv.org/abs/2307.04996)
-
-    本文介绍了两种基于知识图谱的方法，一种使用强化学习，另一种使用XGBoost算法，用于个性化文章推荐。这些方法利用自动生成的知识图谱，并在一个大型跨国金融服务公司的客户中进行了实证研究。
+    本论文探索了大规模语言模型在在线职位推荐中对图数据的理解能力，并提出了新的框架来分析行为图，发现其中的潜在模式和关系。
 
     
 
-    个性化推荐在直接营销中越来越重要，激发了通过知识图谱（KG）应用来提升客户体验的研究动机。例如，在金融服务领域，公司可以通过向客户提供相关金融文章来培养关系，促进客户参与和促进知情的金融决策。尽管一些方法专注于基于KG的推荐系统以改进内容，但在本研究中，我们专注于可解释的基于KG的推荐系统来进行决策。为此，我们提出了两种基于知识图谱的个性化文章推荐方法，用于一家大型跨国金融服务公司的一组客户。第一种方法使用强化学习，第二种方法使用XGBoost算法来向客户推荐文章。这两种方法都利用从结构化（表格数据）和非结构化数据（大量文本数据）生成的KG。
+    大规模语言模型（LLMs）在各个领域展示了其出色的能力，彻底改变了自然语言处理任务。然而，它们在职位推荐中对行为图的理解潜力仍然未被充分探索。本文旨在揭示大规模语言模型在理解行为图方面的能力，并利用这种理解来提升在线招聘中的推荐，包括促进非分布式的应用。我们提出了一个新的框架，利用大规模语言模型提供的丰富上下文信息和语义表示来分析行为图并揭示其中的潜在模式和关系。具体而言，我们提出了一个元路径提示构造器，利用LLM推荐器首次理解行为图，并设计了相应的路径增强模块来缓解基于路径的序列输入引入的提示偏差。通过利用将LM的特点引入到行为图的大规模数据分析中，我们取得了显著的实验结果，证明了我们提出的方法的有效性和性能。
 
-    Personalized recommendations have a growing importance in direct marketing, which motivates research to enhance customer experiences by knowledge graph (KG) applications. For example, in financial services, companies may benefit from providing relevant financial articles to their customers to cultivate relationships, foster client engagement and promote informed financial decisions. While several approaches center on KG-based recommender systems for improved content, in this study we focus on interpretable KG-based recommender systems for decision making.To this end, we present two knowledge graph-based approaches for personalized article recommendations for a set of customers of a large multinational financial services company. The first approach employs Reinforcement Learning and the second approach uses the XGBoost algorithm for recommending articles to the customers. Both approaches make use of a KG generated from both structured (tabular data) and unstructured data (a large body o
+    Large Language Models (LLMs) have revolutionized natural language processing tasks, demonstrating their exceptional capabilities in various domains. However, their potential for behavior graph understanding in job recommendations remains largely unexplored. This paper focuses on unveiling the capability of large language models in understanding behavior graphs and leveraging this understanding to enhance recommendations in online recruitment, including the promotion of out-of-distribution (OOD) application. We present a novel framework that harnesses the rich contextual information and semantic representations provided by large language models to analyze behavior graphs and uncover underlying patterns and relationships. Specifically, we propose a meta-path prompt constructor that leverages LLM recommender to understand behavior graphs for the first time and design a corresponding path augmentation module to alleviate the prompt bias introduced by path-based sequence input. By leveragin
     
-[^11]: 带有长期约束的排名
+[^6]: 非稳态自动投标世界中的在线广告采购
 
-    Ranking with Long-Term Constraints. (arXiv:2307.04923v1 [cs.IR])
+    Online Ad Procurement in Non-stationary Autobidding Worlds. (arXiv:2307.05698v1 [cs.IR])
 
-    [http://arxiv.org/abs/2307.04923](http://arxiv.org/abs/2307.04923)
+    [http://arxiv.org/abs/2307.05698](http://arxiv.org/abs/2307.05698)
 
-    本文提出了一个新的框架，使决策者可以表达平台行为的长期目标，并通过新的基于控制的算法实现这些目标，同时最小化对短期参与的影响。
-
-    
-
-    用户通过他们的选择反馈（例如点击，购买）是为训练搜索和推荐算法提供的最常见类型的数据之一。然而，仅基于选择数据进行短视培训的系统可能仅改善短期参与度，而不能改善平台的长期可持续性以及对用户、内容提供者和其他利益相关者的长期利益。因此，本文开发了一个新的框架，其中决策者（例如平台运营商、监管机构、用户）可以表达平台行为的长期目标（例如公平性、收入分配、法律要求）。这些目标采取了超越个体会话的曝光或影响目标的形式，我们提供了新的基于控制的算法来实现这些目标。具体而言，控制器的设计旨在以最小化对短期参与的影响来实现所述的长期目标。除了原则性的理论推导外，
-
-    The feedback that users provide through their choices (e.g., clicks, purchases) is one of the most common types of data readily available for training search and recommendation algorithms. However, myopically training systems based on choice data may only improve short-term engagement, but not the long-term sustainability of the platform and the long-term benefits to its users, content providers, and other stakeholders. In this paper, we thus develop a new framework in which decision makers (e.g., platform operators, regulators, users) can express long-term goals for the behavior of the platform (e.g., fairness, revenue distribution, legal requirements). These goals take the form of exposure or impact targets that go well beyond individual sessions, and we provide new control-based algorithms to achieve these goals. In particular, the controllers are designed to achieve the stated long-term goals with minimum impact on short-term engagement. Beyond the principled theoretical derivation
-    
-[^12]: 基于参数隔离的动态图上的持续学习
-
-    Continual Learning on Dynamic Graphs via Parameter Isolation. (arXiv:2305.13825v1 [cs.LG])
-
-    [http://arxiv.org/abs/2305.13825](http://arxiv.org/abs/2305.13825)
-
-    提出了Parameter Isolation GNN (PI-GNN)模型，用于处理动态图上的持续学习任务。该模型通过参数隔离和扩展来避免学习新模式和保留旧模式之间的权衡。
+    提出了一个在线学习框架，帮助广告商在非稳态采购环境下动态优化广告平台参数决策。
 
     
 
-    许多实际的图学习任务需要处理新节点和边出现的动态图。动态图学习方法通常遭遇灾难性遗忘问题，即为以前的图所学的知识会被新图的更新覆盖。为了缓解这个问题，提出了持续图学习方法。然而，现有的持续图学习方法旨在学习新的模式并维护旧的模式，但使用相同固定大小的参数集，因此面临两种目标之间的根本权衡。在本文中，我们提出了Parameter Isolation GNN (PI-GNN)，用于动态图上的持续学习，通过参数隔离和扩展来避免这种权衡。我们的动机在于不同的参数对于学习不同的图模式有贡献。基于这个想法，我们扩展模型参数以持续学习出现的图模式。与此同时，为了有效地保存未受影响模式的知识，我们找到参数。
+    当今的在线广告商通过与自动投标平台进行交互来采购数字广告展示：广告商通过设置预算、目标投资回报率、每次点击的最大成本等参数来传达高级采购目标。然后广告平台代表广告商采购展示，并向广告商报告最终采购转化结果（例如点击量）。在实践中，广告商可能只会接收到平台采购细节的最少信息，并且采购结果受到季节性模式、偶发性系统故障和市场趋势等非稳态因素的影响，这使得广告商难以有效优化参数决策。鉴于此，我们提出了一个在线学习框架，帮助广告商在具有非稳态采购结果的现实多臂赌博环境下，在受通用长期约束条件限制的情况下动态优化广告平台的参数决策。具体而言，我们引入了一个原始的-d
 
-    Many real-world graph learning tasks require handling dynamic graphs where new nodes and edges emerge. Dynamic graph learning methods commonly suffer from the catastrophic forgetting problem, where knowledge learned for previous graphs is overwritten by updates for new graphs. To alleviate the problem, continual graph learning methods are proposed. However, existing continual graph learning methods aim to learn new patterns and maintain old ones with the same set of parameters of fixed size, and thus face a fundamental tradeoff between both goals. In this paper, we propose Parameter Isolation GNN (PI-GNN) for continual learning on dynamic graphs that circumvents the tradeoff via parameter isolation and expansion. Our motivation lies in that different parameters contribute to learning different graph patterns. Based on the idea, we expand model parameters to continually learn emerging graph patterns. Meanwhile, to effectively preserve knowledge for unaffected patterns, we find parameter
+    Today's online advertisers procure digital ad impressions through interacting with autobidding platforms: advertisers convey high level procurement goals via setting levers such as budget, target return-on-investment, max cost per click, etc.. Then ads platforms subsequently procure impressions on advertisers' behalf, and report final procurement conversions (e.g. click) to advertisers. In practice, advertisers may receive minimal information on platforms' procurement details, and procurement outcomes are subject to non-stationary factors like seasonal patterns, occasional system corruptions, and market trends which make it difficult for advertisers to optimize lever decisions effectively. Motivated by this, we present an online learning framework that helps advertisers dynamically optimize ad platform lever decisions while subject to general long-term constraints in a realistic bandit feedback environment with non-stationary procurement outcomes. In particular, we introduce a primal-d
     
-[^13]: 自动相关性估计中的一次性标注
+[^7]: 一个动态个性化拼车服务的机器学习排序算法
 
-    One-Shot Labeling for Automatic Relevance Estimation. (arXiv:2302.11266v2 [cs.IR] UPDATED)
+    A Machine-Learned Ranking Algorithm for Dynamic and Personalised Car Pooling Services. (arXiv:2307.05697v1 [cs.IR])
 
-    [http://arxiv.org/abs/2302.11266](http://arxiv.org/abs/2302.11266)
+    [http://arxiv.org/abs/2307.05697](http://arxiv.org/abs/2307.05697)
 
-    本研究探索了利用大型语言模型来填补搜索系统离线评估过程中未评定文档的问题。研究结果表明，尽管预测结果与人工评定存在差异，但使用一次性标注器能够提供更可靠的系统排序效果。
-
-    
-
-    在离线实验中评估搜索系统时，处理未经评定的文档（“空洞”）是一个长期存在的问题。空洞可能会降低评估中检索系统的表现效果，并在使用不完整数据进行训练的模型中引入偏差。在本研究中，我们探讨了是否可以利用大型语言模型来填补这些空洞，以提高离线评估的效果。我们研究了一种极端但常见的评估设置，即每个查询只有一个已知相关文档可用于评估。然后，我们探讨了各种方法来预测未经评定文档与查询和已知相关文档的相关性，包括最近邻、监督和提示技术。我们发现，尽管这些一次性标注器（1SL）的预测经常与人工评定不一致，但它们产生的标签比单独的标签更可靠地对系统进行排序。具体地说，最强的一次性标注器可以显著提高系统的排序效果。
-
-    Dealing with unjudged documents ("holes") in relevance assessments is a perennial problem when evaluating search systems with offline experiments. Holes can reduce the apparent effectiveness of retrieval systems during evaluation and introduce biases in models trained with incomplete data. In this work, we explore whether large language models can help us fill such holes to improve offline evaluations. We examine an extreme, albeit common, evaluation setting wherein only a single known relevant document per query is available for evaluation. We then explore various approaches for predicting the relevance of unjudged documents with respect to a query and the known relevant document, including nearest neighbor, supervised, and prompting techniques. We find that although the predictions of these One-Shot Labelers (1SL) frequently disagree with human assessments, the labels they produce yield a far more reliable ranking of systems than the single labels do alone. Specifically, the stronges
-    
-[^14]: 集体隐私恢复：通过分散式人工智能进行数据共享协同
-
-    Collective Privacy Recovery: Data-sharing Coordination via Decentralized Artificial Intelligence. (arXiv:2301.05995v2 [cs.AI] UPDATED)
-
-    [http://arxiv.org/abs/2301.05995](http://arxiv.org/abs/2301.05995)
-
-    本文研究了集体隐私恢复的问题，通过分散式人工智能实现数据共享的协同。研究发现，数据共享协调可以实现对隐私的显著恢复，并带来双赢效果。
+    本研究提出了GoTogether，一个利用学习排序技术为拼车服务提供个性化推荐的系统。通过分析用户的历史选择，GoTogether能够预测个人共乘的愿望，并提供高成功率的拼车匹配。
 
     
 
-    集体隐私损失变成了一个巨大的问题，对个人自由和民主构成了紧急威胁。但是，我们是否准备好将个人数据视为稀缺资源，并根据“尽可能少，尽可能多”的原则共享数据？我们假设，如果一个个体群体（数据集体）协调共享最少数据，以满足在线服务的所需质量，将会产生显著的隐私恢复。在这里，我们展示了如何使用去中心化人工智能自动化和扩展复杂的集体隐私恢复安排。为此，我们首次在一个严谨的高度逼真的实验中比较了态度、内在、奖励和协调数据共享，并利用因果推断和聚类分析方法区分了预测隐私和五个关键数据共享行为的标准。令人惊讶的是，数据共享协调对所有人来说都是双赢的：隐私得到显著恢复。
+    通过使司机与具有相似行程和时间安排的旅客共享汽车，拼车被期望在减少交通拥堵和污染方面发挥重要作用。为了在一组司机和潜在乘客中高效地找到成功的拼车匹配，设计了许多拼车匹配服务。然而，现在已经认识到除了简单的出行需求外，许多非货币方面和社会因素可能影响个人愿意共乘的意愿，这些因素很难预测。为了解决这个问题，在这项研究中，我们提出了GoTogether，这是一个拼车服务的推荐系统，它利用学习排序技术从用户的选择历史（即接受或拒绝共享乘车的类型）中自动推导出每个用户的个性化排序模型。然后，GoTogether构建推荐乘车列表以最大化匹配成功率。
 
-    Collective privacy loss becomes a colossal problem, an emergency for personal freedoms and democracy. But, are we prepared to handle personal data as scarce resource and collectively share data under the doctrine: as little as possible, as much as necessary? We hypothesize a significant privacy recovery if a population of individuals, the data collective, coordinates to share minimum data for running online services with the required quality. Here we show how to automate and scale-up complex collective arrangements for privacy recovery using decentralized artificial intelligence. For this, we compare for first time attitudinal, intrinsic, rewarded and coordinated data sharing in a rigorous living-lab experiment of high realism involving >27,000 real data disclosures. Using causal inference and cluster analysis, we differentiate criteria predicting privacy and five key data-sharing behaviors. Strikingly, data-sharing coordination proves to be a win-win for all: remarkable privacy recove
+    Car pooling is expected to significantly help in reducing traffic congestion and pollution in cities by enabling drivers to share their cars with travellers with similar itineraries and time schedules. A number of car pooling matching services have been designed in order to efficiently find successful ride matches in a given pool of drivers and potential passengers. However, it is now recognised that many non-monetary aspects and social considerations, besides simple mobility needs, may influence the individual willingness of sharing a ride, which are difficult to predict. To address this problem, in this study we propose GoTogether, a recommender system for car pooling services that leverages on learning-to-rank techniques to automatically derive the personalised ranking model of each user from the history of her choices (i.e., the type of accepted or rejected shared rides). Then, GoTogether builds the list of recommended rides in order to maximise the success rate of the offered matc
+    
+[^8]: 个性化强化学习总结服务：从非结构化数据中学习结构
+
+    A Personalized Reinforcement Learning Summarization Service for Learning Structure from Unstructured Data. (arXiv:2307.05696v1 [cs.IR])
+
+    [http://arxiv.org/abs/2307.05696](http://arxiv.org/abs/2307.05696)
+
+    该论文提出了一种个性化强化学习总结服务，通过使用层级个性化基于概念的总结方法，在文本数据呈指数级增长的背景下，帮助用户提取有意义的见解。
+
+    
+
+    文本数据呈指数级增长，需要工具来帮助用户提取有意义的见解。传统的文档摘要方法通常无法满足个人用户需求，并且缺乏高效信息处理的结构。为解决这些问题，我们提出了一种层级个性化基于概念的总结方法。该方法将文档综合成简洁的层级概念图，并通过学习和适应用户偏好来积极参与用户。使用强化学习算法，该方法为特定主题的未见文档生成个性化摘要。该框架提高了理解能力，实现了有效的导航，并使用户能够根据自己独特的需求从大量文档集合中提取有意义的见解。
+
+    The exponential growth of textual data has created a crucial need for tools that assist users in extracting meaningful insights. Traditional document summarization approaches often fail to meet individual user requirements and lack structure for efficient information processing. To address these limitations, we propose Summation, a hierarchical personalized concept-based summarization approach. It synthesizes documents into a concise hierarchical concept map and actively engages users by learning and adapting to their preferences. Using a Reinforcement Learning algorithm, Summation generates personalized summaries for unseen documents on specific topics. This framework enhances comprehension, enables effective navigation, and empowers users to extract meaningful insights from large document collections aligned with their unique requirements.
+    
+[^9]: 《科技文档中的图形分类技术综述》
+
+    A Survey on Figure Classification Techniques in Scientific Documents. (arXiv:2307.05694v1 [cs.IR])
+
+    [http://arxiv.org/abs/2307.05694](http://arxiv.org/abs/2307.05694)
+
+    《科技文档中的图形分类技术综述》对图形分类问题进行了系统梳理，包括表格、照片、图表、地图和绘图五类，并批判性地评述了现有方法和数据集，并提出了进一步研究的方向。
+
+    
+
+    图形对于传达科学事实和信息起着重要作用，近年来，通过人工智能和机器学习技术从图形中提取数据成为研究热点。本综述系统地将图形分为表格、照片、图表、地图和绘图五类，并对解决图形分类问题的现有方法和数据集进行批判性综述。最后，我们指出当前研究的空白并提出了进一步研究图形分类的可能方向。
+
+    Figures visually represent an essential piece of information and provide an effective means to communicate scientific facts. Recently there have been many efforts toward extracting data directly from figures, specifically from tables, diagrams, and plots, using different Artificial Intelligence and Machine Learning techniques. This is because removing information from figures could lead to deeper insights into the concepts highlighted in the scientific documents. In this survey paper, we systematically categorize figures into five classes - tables, photos, diagrams, maps, and plots, and subsequently present a critical review of the existing methodologies and data sets that address the problem of figure classification. Finally, we identify the current research gaps and provide possible directions for further research on figure classification.
+    
+[^10]: LogitMat：零模型迁移或预训练模型的零射击学习算法，用于推荐系统
+
+    LogitMat : Zeroshot Learning Algorithm for Recommender Systems without Transfer Learning or Pretrained Models. (arXiv:2307.05680v1 [cs.IR])
+
+    [http://arxiv.org/abs/2307.05680](http://arxiv.org/abs/2307.05680)
+
+    本文介绍了一种名为LogitMat的零模型迁移或预训练模型的零射击学习算法，用于解决推荐系统的冷启动问题。
+
+    
+
+    推荐系统被互联网行业认为是最有利可图的技术之一。与金融科技行业的欺诈检测等其他领域不同，推荐系统既深又广。近年来，许多研究人员开始关注推荐系统的冷启动问题。尽管有大量的研究文献，但大多数研究利用迁移学习/元学习和预训练模型来解决这个问题。虽然研究人员声称这些方法的有效性，但每个方法都依赖于来自其他来源的额外输入数据。在2021年和2022年，诸如ZeroMat、DotMat、PoissonMat和PowerMat等几个零模型迁移或预训练模型的零射击学习算法被发明出来。它们是第一批无需模型迁移或预训练模型来解决问题的算法。在本文中，我们沿用此思路，并发明了一种新的零射击学习算法，命名为LogitMat。我们利用Zipf分布特性
+
+    Recommender system is adored in the internet industry as one of the most profitable technologies. Unlike other sectors such as fraud detection in the Fintech industry, recommender system is both deep and broad. In recent years, many researchers start to focus on the cold-start problem of recommender systems. In spite of the large volume of research literature, the majority of the research utilizes transfer learning / meta learning and pretrained model to solve the problem. Although the researchers claim the effectiveness of the approaches, everyone of them does rely on extra input data from other sources. In 2021 and 2022, several zeroshot learning algorithm for recommender system such as ZeroMat, DotMat, PoissonMat and PowerMat were invented. They are the first batch of the algorithms that rely on no transfer learning or pretrained models to tackle the problem. In this paper, we follow this line and invent a new zeroshot learning algorithm named LogitMat. We take advantage of the Zipf
+    
+[^11]: 其所在的公司：基于邻近度的档案库实体内容索引方法
+
+    Known by the Company it Keeps: Proximity-Based Indexing for Physical Content in Archival Repositories. (arXiv:2305.18683v2 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2305.18683](http://arxiv.org/abs/2305.18683)
+
+    本文提出了一种基于选择性数字化的邻近度索引方法，该方法可以有效提高搜索非数字化实体内容的效率。
+
+    
+
+    尽管存在大量的数字化内容，但重要的实体内容存储在纸质或微缩膜等物理介质中。传统的非数字化内容索引方法是使用手动创建的元数据来描述内容。本文提出了一种基于选择性数字化的小部分内容作为邻近度索引基础的方法，以将用户更接近他们正在寻找的具体内容。实验表明，使用此方法构建的盒级索引可以成为有效的搜索基础。
+
+    Despite the plethora of born-digital content, vast troves of important content remain accessible only on physical media such as paper or microfilm. The traditional approach to indexing undigitized content is using manually created metadata that describes content at some level of aggregation (e.g., folder, box, or collection). Searchers led in this way to some subset of the content often must then manually examine substantial quantities of physical media to find what they are looking for. This paper proposes a complementary approach, in which selective digitization of a small portion of the content is used as a basis for proximity-based indexing as a way of bringing the user closer to the specific content for which they are looking. Experiments with 35 boxes of partially digitized US State Department records indicate that box-level indexes built in this way can provide a useful basis for search.
+    
+[^12]: UNIQORN：统一的RDF知识图谱与自然语言文本问答系统
+
+    UNIQORN: Unified Question Answering over RDF Knowledge Graphs and Natural Language Text. (arXiv:2108.08614v5 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2108.08614](http://arxiv.org/abs/2108.08614)
+
+    本文提出了一个名为UNIQORN的问答系统，它能够无缝地处理RDF数据和文本，使用fine-tuned BERT模型为问题构建上下文图，并使用图算法确定与问题相关的子图来回答问题。
+
+    
+
+    问题回答在知识图谱和其他RDF数据上已经取得了巨大的进展，许多优秀的系统可以为自然语言问题或电报查询提供清晰的答案。其中一些系统将文本源作为附加证据纳入回答过程，但不能计算仅存在于文本中的答案。相反，IR和NLP社区的系统已经解决了有关文本的QA问题，但是这些系统几乎不利用语义数据和知识。本文提出了第一个可以无缝操作混合RDF数据集和文本语料库或单个来源的复杂问题的系统，在统一框架中进行操作。我们的方法称为UNIQORN，通过使用经过精细调整的BERT模型从RDF数据和/或文本语料库中检索与问题相关的证据来动态构建上下文图。结果图通常非常丰富但高度嘈杂。UNIQORN通过用于组Steiner树的图算法来处理这个输入，从而确定与问题相关的子图，进而回答问题。
+
+    Question answering over knowledge graphs and other RDF data has been greatly advanced, with a number of good systems providing crisp answers for natural language questions or telegraphic queries. Some of these systems incorporate textual sources as additional evidence for the answering process, but cannot compute answers that are present in text alone. Conversely, systems from the IR and NLP communities have addressed QA over text, but such systems barely utilize semantic data and knowledge. This paper presents the first system for complex questions that can seamlessly operate over a mixture of RDF datasets and text corpora, or individual sources, in a unified framework. Our method, called UNIQORN, builds a context graph on-the-fly, by retrieving question-relevant evidences from the RDF data and/or a text corpus, using fine-tuned BERT models. The resulting graph is typically rich but highly noisy. UNIQORN copes with this input by a graph algorithm for Group Steiner Trees, that identifi
     
 

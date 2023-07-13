@@ -1,0 +1,12 @@
+{
+    "title": "Decentralized Decision-Making in Retail Chains: Evidence from Inventory Management. (arXiv:2307.05562v1 [econ.EM])",
+    "abstract": "This paper investigates the impact of decentralizing inventory decision-making in multi-establishment firms using data from a large retail chain. Analyzing two years of daily data, we find significant heterogeneity among the inventory decisions made by 634 store managers. By estimating a dynamic structural model, we reveal substantial heterogeneity in managers' perceived costs. Moreover, we observe a correlation between the variance of these perceptions and managers' education and experience. Counterfactual experiments show that centralized inventory management reduces costs by eliminating the impact of managers' skill heterogeneity. However, these benefits are offset by the negative impact of delayed demand information.",
+    "link": "http://arxiv.org/abs/2307.05562",
+    "context": "Title: Decentralized Decision-Making in Retail Chains: Evidence from Inventory Management. (arXiv:2307.05562v1 [econ.EM])\nAbstract: This paper investigates the impact of decentralizing inventory decision-making in multi-establishment firms using data from a large retail chain. Analyzing two years of daily data, we find significant heterogeneity among the inventory decisions made by 634 store managers. By estimating a dynamic structural model, we reveal substantial heterogeneity in managers' perceived costs. Moreover, we observe a correlation between the variance of these perceptions and managers' education and experience. Counterfactual experiments show that centralized inventory management reduces costs by eliminating the impact of managers' skill heterogeneity. However, these benefits are offset by the negative impact of delayed demand information.",
+    "path": "papers/23/07/2307.05562.json",
+    "total_tokens": 748,
+    "translated_title": "零售连锁店中的分散决策：库存管理的证据",
+    "translated_abstract": "本文利用来自一家大型零售连锁店的数据，研究了在多机构企业中分散库存决策的影响。通过分析两年的每日数据，我们发现634位店长在库存决策上存在明显的异质性。通过估计一个动态结构模型，我们揭示了经理人认为的成本存在大量的异质性。此外，我们观察到这些认知的差异与经理人的教育和经验之间存在相关性。对照实验表明，集中化库存管理通过消除经理人技能异质性的影响来降低成本。然而，这些好处被延迟需求信息的负面影响所抵消。",
+    "tldr": "通过研究零售连锁店的数据，发现在多机构企业中分散库存决策导致了经理人之间的异质性，集中化库存管理可以降低成本，但会受到延迟需求信息的负面影响。",
+    "en_tdlr": "Decentralizing inventory decision-making in multi-establishment firms leads to heterogeneity among managers, centralized inventory management reduces costs but is negatively affected by delayed demand information."
+}

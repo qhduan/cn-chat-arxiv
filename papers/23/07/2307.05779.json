@@ -1,0 +1,12 @@
+{
+    "title": "Neural Machine Translation Data Generation and Augmentation using ChatGPT. (arXiv:2307.05779v1 [cs.CL])",
+    "abstract": "Neural models have revolutionized the field of machine translation, but creating parallel corpora is expensive and time-consuming. We investigate an alternative to manual parallel corpora - hallucinated parallel corpora created by generative language models. Although these models are themselves trained on parallel data, they can leverage a multilingual vector space to create data, and may be able to supplement small manually-procured corpora. Our experiments highlight two key findings - despite a lack of diversity in their output, the hallucinated data improves the translation signal, even when the domain clashes with the original dataset.",
+    "link": "http://arxiv.org/abs/2307.05779",
+    "context": "Title: Neural Machine Translation Data Generation and Augmentation using ChatGPT. (arXiv:2307.05779v1 [cs.CL])\nAbstract: Neural models have revolutionized the field of machine translation, but creating parallel corpora is expensive and time-consuming. We investigate an alternative to manual parallel corpora - hallucinated parallel corpora created by generative language models. Although these models are themselves trained on parallel data, they can leverage a multilingual vector space to create data, and may be able to supplement small manually-procured corpora. Our experiments highlight two key findings - despite a lack of diversity in their output, the hallucinated data improves the translation signal, even when the domain clashes with the original dataset.",
+    "path": "papers/23/07/2307.05779.json",
+    "total_tokens": 677,
+    "translated_title": "使用ChatGPT进行神经机器翻译数据生成和增强",
+    "translated_abstract": "神经模型已经在机器翻译领域取得了革命性的进展，但创建平行语料库耗时耗力。我们研究了一种替代手工平行语料库的方法-使用生成语言模型创建幻象平行语料库。尽管这些模型本身是基于平行数据训练的，但它们可以利用多语言向量空间来创建数据，并且可以补充小规模手工采集的语料库。我们的实验证明了两个关键发现-尽管其输出缺乏多样性，但幻象数据改善了翻译信号，即使与原始数据集的领域不匹配。",
+    "tldr": "使用ChatGPT生成和增强神经机器翻译数据，尽管缺乏多样性，幻象数据在翻译信号方面改善了结果。",
+    "en_tdlr": "Generating and augmenting neural machine translation data using ChatGPT improves translation signal despite the lack of diversity in the hallucinated data."
+}

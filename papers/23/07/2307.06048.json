@@ -1,0 +1,12 @@
+{
+    "title": "Online Inventory Problems: Beyond the i.i.d. Setting with Online Convex Optimization. (arXiv:2307.06048v1 [math.OC])",
+    "abstract": "We study multi-product inventory control problems where a manager makes sequential replenishment decisions based on partial historical information in order to minimize its cumulative losses. Our motivation is to consider general demands, losses and dynamics to go beyond standard models which usually rely on newsvendor-type losses, fixed dynamics, and unrealistic i.i.d. demand assumptions. We propose MaxCOSD, an online algorithm that has provable guarantees even for problems with non-i.i.d. demands and stateful dynamics, including for instance perishability. We consider what we call non-degeneracy assumptions on the demand process, and argue that they are necessary to allow learning.",
+    "link": "http://arxiv.org/abs/2307.06048",
+    "context": "Title: Online Inventory Problems: Beyond the i.i.d. Setting with Online Convex Optimization. (arXiv:2307.06048v1 [math.OC])\nAbstract: We study multi-product inventory control problems where a manager makes sequential replenishment decisions based on partial historical information in order to minimize its cumulative losses. Our motivation is to consider general demands, losses and dynamics to go beyond standard models which usually rely on newsvendor-type losses, fixed dynamics, and unrealistic i.i.d. demand assumptions. We propose MaxCOSD, an online algorithm that has provable guarantees even for problems with non-i.i.d. demands and stateful dynamics, including for instance perishability. We consider what we call non-degeneracy assumptions on the demand process, and argue that they are necessary to allow learning.",
+    "path": "papers/23/07/2307.06048.json",
+    "total_tokens": 754,
+    "translated_title": "在线库存问题：在线凸优化中的非独立同分布设置",
+    "translated_abstract": "我们研究多产品库存控制问题，其中经理根据部分历史信息作出顺序补充决策，以最小化其累积损失。我们的动机是考虑到一般需求、损失和动态，超越通常依赖新闻供应商类型损失、固定动态和不现实的独立同分布需求假设的标准模型。我们提出了MaxCOSD，一个在线算法，即使对于非独立同分布需求和有状态动态（包括易腐烂物品）的问题，也具有可证明的保证性能。我们考虑了我们所称的需求过程的非退化性假设，并认为它们是允许学习的必要条件。",
+    "tldr": "该论文研究了具有非独立同分布设置的在线库存问题，提出了一个在线算法MaxCOSD，并证明了其在考虑了非独立同分布需求和有状态动态的情况下的有效性",
+    "en_tdlr": "This paper investigates online inventory problems beyond the i.i.d. setting and proposes an online algorithm, MaxCOSD, with provable guarantees for non-i.i.d. demands and stateful dynamics."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Provably Faster Gradient Descent via Long Steps. (arXiv:2307.06324v1 [math.OC])",
+    "abstract": "This work establishes provably faster convergence rates for gradient descent via a computer-assisted analysis technique. Our theory allows nonconstant stepsize policies with frequent long steps potentially violating descent by analyzing the overall effect of many iterations at once rather than the typical one-iteration inductions used in most first-order method analyses. We show that long steps, which may increase the objective value in the short term, lead to provably faster convergence in the long term. A conjecture towards proving a faster $O(1/T\\log T)$ rate for gradient descent is also motivated along with simple numerical validation.",
+    "link": "http://arxiv.org/abs/2307.06324",
+    "context": "Title: Provably Faster Gradient Descent via Long Steps. (arXiv:2307.06324v1 [math.OC])\nAbstract: This work establishes provably faster convergence rates for gradient descent via a computer-assisted analysis technique. Our theory allows nonconstant stepsize policies with frequent long steps potentially violating descent by analyzing the overall effect of many iterations at once rather than the typical one-iteration inductions used in most first-order method analyses. We show that long steps, which may increase the objective value in the short term, lead to provably faster convergence in the long term. A conjecture towards proving a faster $O(1/T\\log T)$ rate for gradient descent is also motivated along with simple numerical validation.",
+    "path": "papers/23/07/2307.06324.json",
+    "total_tokens": 707,
+    "translated_title": "经过长距离步骤的梯度下降的可证明更快收敛速度",
+    "translated_abstract": "本研究通过计算机辅助分析技术，建立了经过长距离步骤的梯度下降的可证明更快收敛速度。我们的理论允许非常数步长策略，通过分析多次迭代的整体效果而不是典型的一次迭代归纳使用的，从而有可能破坏下降。我们表明，长距离步骤，可能在短期内增加目标值，但在长期内带来更快的收敛速度。此外，我们还提出了一个关于梯度下降更快收敛速度的猜想，并进行了简单的数值验证。",
+    "tldr": "本研究通过计算机辅助分析技术，证明了非常数步长策略下的梯度下降方法经过长距离步骤可以实现更快的收敛速度。",
+    "en_tdlr": "This work establishes provably faster convergence rates for gradient descent with nonconstant stepsize policies via a computer-assisted analysis technique."
+}

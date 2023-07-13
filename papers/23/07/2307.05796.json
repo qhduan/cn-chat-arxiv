@@ -1,0 +1,12 @@
+{
+    "title": "Improved POS tagging for spontaneous, clinical speech using data augmentation. (arXiv:2307.05796v1 [cs.CL])",
+    "abstract": "This paper addresses the problem of improving POS tagging of transcripts of speech from clinical populations. In contrast to prior work on parsing and POS tagging of transcribed speech, we do not make use of an in domain treebank for training. Instead, we train on an out of domain treebank of newswire using data augmentation techniques to make these structures resemble natural, spontaneous speech. We trained a parser with and without the augmented data and tested its performance using manually validated POS tags in clinical speech produced by patients with various types of neurodegenerative conditions.",
+    "link": "http://arxiv.org/abs/2307.05796",
+    "context": "Title: Improved POS tagging for spontaneous, clinical speech using data augmentation. (arXiv:2307.05796v1 [cs.CL])\nAbstract: This paper addresses the problem of improving POS tagging of transcripts of speech from clinical populations. In contrast to prior work on parsing and POS tagging of transcribed speech, we do not make use of an in domain treebank for training. Instead, we train on an out of domain treebank of newswire using data augmentation techniques to make these structures resemble natural, spontaneous speech. We trained a parser with and without the augmented data and tested its performance using manually validated POS tags in clinical speech produced by patients with various types of neurodegenerative conditions.",
+    "path": "papers/23/07/2307.05796.json",
+    "total_tokens": 715,
+    "translated_title": "使用数据增强技术改进临床语音的词性标注问题",
+    "translated_abstract": "本文解决了改进临床人群语音转录的词性标注问题。与之前关于转录语音的分析和词性标注工作不同，我们不使用一个针对该领域的树库进行训练。相反，我们使用数据增强技术在一个新闻树库中进行训练，使这些结构更接近自然、即兴的语音。我们训练了一个带有增强数据和没有增强数据的解析器，并使用手动验证的临床语音词性标签测试了其性能，这些语音来自患有不同类型神经退行性疾病的患者。",
+    "tldr": "本文提出了一种使用数据增强技术改进临床语音的词性标注问题的方法，通过在新闻树库上进行训练，使解析器更适应自然、即兴的语音，测试结果表明其性能良好。",
+    "en_tdlr": "This paper proposes a method to improve POS tagging of clinical speech by using data augmentation techniques and training on a newswire corpus. The parser trained with augmented data demonstrates good performance in handling natural and spontaneous speech from patients with neurodegenerative conditions."
+}

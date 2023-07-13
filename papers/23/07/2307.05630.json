@@ -1,0 +1,11 @@
+{
+    "title": "Complete Conditional Type Structures (Extended Abstract). (arXiv:2307.05630v1 [cs.GT])",
+    "abstract": "Hierarchies of conditional beliefs (Battigalli and Siniscalchi 1999) play a central role for the epistemic analysis of solution concepts in sequential games. They are practically modelled by type structures, which allow the analyst to represent the players' hierarchies without specifying an infinite sequence of conditional beliefs. Here, we study type structures that satisfy a \"richness\" property, called completeness. This property is defined on the type structure alone, without explicit reference to hierarchies of beliefs or other type structures. We provide sufficient conditions under which a complete type structure represents all hierarchies of conditional beliefs. In particular, we present an extension of the main result in Friedenberg (2010) to type structures with conditional beliefs.",
+    "link": "http://arxiv.org/abs/2307.05630",
+    "context": "Title: Complete Conditional Type Structures (Extended Abstract). (arXiv:2307.05630v1 [cs.GT])\nAbstract: Hierarchies of conditional beliefs (Battigalli and Siniscalchi 1999) play a central role for the epistemic analysis of solution concepts in sequential games. They are practically modelled by type structures, which allow the analyst to represent the players' hierarchies without specifying an infinite sequence of conditional beliefs. Here, we study type structures that satisfy a \"richness\" property, called completeness. This property is defined on the type structure alone, without explicit reference to hierarchies of beliefs or other type structures. We provide sufficient conditions under which a complete type structure represents all hierarchies of conditional beliefs. In particular, we present an extension of the main result in Friedenberg (2010) to type structures with conditional beliefs.",
+    "path": "papers/23/07/2307.05630.json",
+    "total_tokens": 720,
+    "translated_title": "完整的条件类型结构（扩展摘要）",
+    "translated_abstract": "条件信念的层次结构在顺序博弈中的解决概念的认识分析中起着核心作用。它们是由类型结构实际建模的，其中分析师可以表示玩家的层次结构，而不需要指定无限序列的条件信念。在这里，我们研究满足\"丰满性\"属性的类型结构。这个属性仅在类型结构本身上定义，并没有明确引用信念层次结构或其他类型结构。我们提供了充分的条件，使得完整的类型结构能够表示所有的条件信念层次结构。特别地，我们将主要结果扩展到具有条件信念的类型结构中。",
+    "tldr": "本文研究了满足丰满性属性的类型结构，提供了一些充分条件，使得完整的类型结构能够表示所有的条件信念层次结构。"
+}

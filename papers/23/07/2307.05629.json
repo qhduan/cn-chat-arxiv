@@ -1,0 +1,12 @@
+{
+    "title": "Characterization of AGM Belief Contraction in Terms of Conditionals. (arXiv:2307.05629v1 [cs.AI])",
+    "abstract": "We provide a semantic characterization of AGM belief contraction based on frames consisting of a Kripke belief relation and a Stalnaker-Lewis selection function. The central idea is as follows. Let K be the initial belief set and K-A be the contraction of K by the formula A; then B belongs to the set K-A if and only if, at the actual state, the agent believes B and believes that if not-A is (were) the case then B is (would be) the case.",
+    "link": "http://arxiv.org/abs/2307.05629",
+    "context": "Title: Characterization of AGM Belief Contraction in Terms of Conditionals. (arXiv:2307.05629v1 [cs.AI])\nAbstract: We provide a semantic characterization of AGM belief contraction based on frames consisting of a Kripke belief relation and a Stalnaker-Lewis selection function. The central idea is as follows. Let K be the initial belief set and K-A be the contraction of K by the formula A; then B belongs to the set K-A if and only if, at the actual state, the agent believes B and believes that if not-A is (were) the case then B is (would be) the case.",
+    "path": "papers/23/07/2307.05629.json",
+    "total_tokens": 657,
+    "translated_title": "AGM信念收缩的条件表征",
+    "translated_abstract": "我们基于由Kripke信念关系和Stalnaker-Lewis选择函数组成的框架，提供了对AGM信念收缩的语义表征。核心思想是：设K为初始信念集合，K-A为通过公式A收缩K得到的集合；则B属于集合K-A当且仅当，在实际状态下，代理人相信B，并且相信如果非A是（将要）成立，则B是（将要）成立。",
+    "tldr": "该论文通过使用Kripke信念关系和Stalnaker-Lewis选择函数的框架，对AGM信念收缩进行了语义表征，其中关键点是初始信念集合收缩后的成员满足在实际状态下的相信和条件判断关系。",
+    "en_tdlr": "This paper provides a semantic characterization of AGM belief contraction using a framework consisting of Kripke belief relation and Stalnaker-Lewis selection function. The key point is that a member of the contracted initial belief set satisfies the belief and conditional judgment in the actual state."
+}

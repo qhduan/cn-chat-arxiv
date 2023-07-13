@@ -1,0 +1,11 @@
+{
+    "title": "Deep Generative Models for Decision-Making and Control. (arXiv:2306.08810v2 [cs.LG] UPDATED)",
+    "abstract": "Deep model-based reinforcement learning methods offer a conceptually simple approach to the decision-making and control problem: use learning for the purpose of estimating an approximate dynamics model, and offload the rest of the work to classical trajectory optimization. However, this combination has a number of empirical shortcomings, limiting the usefulness of model-based methods in practice. The dual purpose of this thesis is to study the reasons for these shortcomings and to propose solutions for the uncovered problems. Along the way, we highlight how inference techniques from the contemporary generative modeling toolbox, including beam search, classifier-guided sampling, and image inpainting, can be reinterpreted as viable planning strategies for reinforcement learning problems.",
+    "link": "http://arxiv.org/abs/2306.08810",
+    "context": "Title: Deep Generative Models for Decision-Making and Control. (arXiv:2306.08810v2 [cs.LG] UPDATED)\nAbstract: Deep model-based reinforcement learning methods offer a conceptually simple approach to the decision-making and control problem: use learning for the purpose of estimating an approximate dynamics model, and offload the rest of the work to classical trajectory optimization. However, this combination has a number of empirical shortcomings, limiting the usefulness of model-based methods in practice. The dual purpose of this thesis is to study the reasons for these shortcomings and to propose solutions for the uncovered problems. Along the way, we highlight how inference techniques from the contemporary generative modeling toolbox, including beam search, classifier-guided sampling, and image inpainting, can be reinterpreted as viable planning strategies for reinforcement learning problems.",
+    "path": "papers/23/06/2306.08810.json",
+    "total_tokens": 757,
+    "translated_title": "Decision-Making and Control的深度生成模型",
+    "translated_abstract": "基于深度模型的强化学习方法提供了一种概念上简单的决策和控制问题的方法：使用学习来估计近似动力学模型，并将剩余工作委托给经典轨迹优化。然而，这种组合存在一些经验上的缺点，限制了实际中基于模型的方法的实用性。本论文的双重目的是研究这些缺点的原因并提出解决方法。在此过程中，我们强调了当代生成建模工具箱中的推理技术，包括束搜索、分类器引导采样和图像修复，如何重新解释为强化学习问题的可行规划策略。",
+    "tldr": "本论文研究了基于深度模型的强化学习方法在决策和控制问题中的缺点，并提出了解决方法。同时，将当代生成建模工具中的推理技术重新解释为强化学习问题的规划策略。"
+}

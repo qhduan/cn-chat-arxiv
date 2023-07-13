@@ -1,0 +1,12 @@
+{
+    "title": "One Transformer for All Time Series: Representing and Training with Time-Dependent Heterogeneous Tabular Data. (arXiv:2302.06375v2 [cs.LG] UPDATED)",
+    "abstract": "There is a recent growing interest in applying Deep Learning techniques to tabular data, in order to replicate the success of other Artificial Intelligence areas in this structured domain. Specifically interesting is the case in which tabular data have a time dependence, such as, for instance financial transactions. However, the heterogeneity of the tabular values, in which categorical elements are mixed with numerical items, makes this adaptation difficult. In this paper we propose a Transformer architecture to represent heterogeneous time-dependent tabular data, in which numerical features are represented using a set of frequency functions and the whole network is uniformly trained with a unique loss function.",
+    "link": "http://arxiv.org/abs/2302.06375",
+    "context": "Title: One Transformer for All Time Series: Representing and Training with Time-Dependent Heterogeneous Tabular Data. (arXiv:2302.06375v2 [cs.LG] UPDATED)\nAbstract: There is a recent growing interest in applying Deep Learning techniques to tabular data, in order to replicate the success of other Artificial Intelligence areas in this structured domain. Specifically interesting is the case in which tabular data have a time dependence, such as, for instance financial transactions. However, the heterogeneity of the tabular values, in which categorical elements are mixed with numerical items, makes this adaptation difficult. In this paper we propose a Transformer architecture to represent heterogeneous time-dependent tabular data, in which numerical features are represented using a set of frequency functions and the whole network is uniformly trained with a unique loss function.",
+    "path": "papers/23/02/2302.06375.json",
+    "total_tokens": 714,
+    "translated_title": "一种适用于所有时间序列的Transformer：表示和训练具有时间相关的异构表格数据",
+    "translated_abstract": "近年来，将深度学习技术应用于表格数据的兴趣日益增长，以复制其他人工智能领域在这一结构化领域的成功。特别有趣的是，表格数据具有时间依赖性，例如金融交易。然而，表格值的异质性，其中类别元素与数值项混合，使得这种适应变得困难。在本文中，我们提出了一种Transformer架构来表示异构的时间相关的表格数据，数值特征使用一组频率函数表示，并且整个网络使用唯一的损失函数进行统一训练。",
+    "tldr": "本研究提出了一种Transformer架构，用于表示具有时间相关的异构表格数据，通过使用一组频率函数来表示数值特征，并采用唯一的损失函数进行统一训练。",
+    "en_tdlr": "This study proposes a Transformer architecture for representing time-dependent heterogeneous tabular data, using a set of frequency functions to represent numerical features, and uniformly training with a unique loss function."
+}

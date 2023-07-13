@@ -1,0 +1,12 @@
+{
+    "title": "Identification in Multiple Treatment Models under Discrete Variation. (arXiv:2307.06174v1 [econ.EM])",
+    "abstract": "We develop a method to learn about treatment effects in multiple treatment models with discrete-valued instruments. We allow selection into treatment to be governed by a general class of threshold crossing models that permits multidimensional unobserved heterogeneity. Under a semi-parametric restriction on the distribution of unobserved heterogeneity, we show how a sequence of linear programs can be used to compute sharp bounds for a number of treatment effect parameters when the marginal treatment response functions underlying them remain nonparametric or are additionally parameterized.",
+    "link": "http://arxiv.org/abs/2307.06174",
+    "context": "Title: Identification in Multiple Treatment Models under Discrete Variation. (arXiv:2307.06174v1 [econ.EM])\nAbstract: We develop a method to learn about treatment effects in multiple treatment models with discrete-valued instruments. We allow selection into treatment to be governed by a general class of threshold crossing models that permits multidimensional unobserved heterogeneity. Under a semi-parametric restriction on the distribution of unobserved heterogeneity, we show how a sequence of linear programs can be used to compute sharp bounds for a number of treatment effect parameters when the marginal treatment response functions underlying them remain nonparametric or are additionally parameterized.",
+    "path": "papers/23/07/2307.06174.json",
+    "total_tokens": 685,
+    "translated_title": "在离散变异下的多重治疗模型中的辨识",
+    "translated_abstract": "我们开发了一种方法，用于学习在带有离散值仪器的多重治疗模型中的治疗效应。我们允许治疗选择由允许多维未观察异质性的一般门限交叉模型来控制。在未观察到的异质性分布上施加半参数约束的情况下，我们展示了如何使用一系列线性规划来计算一些治疗效应参数的尖锐界限，当其底层的边际治疗反应函数保持非参数化或是附加参数化时。",
+    "tldr": "我们提出了一种方法，用于在离散值仪器的多重治疗模型中学习治疗效应。通过应用半参数约束的方法，我们展示了如何计算出一些治疗效应参数的尖锐界限。",
+    "en_tdlr": "We propose a method for learning treatment effects in multiple treatment models with discrete-valued instruments. By applying a semi-parametric restriction, we demonstrate how to compute sharp bounds for some treatment effect parameters."
+}

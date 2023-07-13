@@ -1,0 +1,12 @@
+{
+    "title": "Interpreting deep embeddings for disease progression clustering. (arXiv:2307.06060v1 [stat.ML])",
+    "abstract": "We propose a novel approach for interpreting deep embeddings in the context of patient clustering. We evaluate our approach on a dataset of participants with type 2 diabetes from the UK Biobank, and demonstrate clinically meaningful insights into disease progression patterns.",
+    "link": "http://arxiv.org/abs/2307.06060",
+    "context": "Title: Interpreting deep embeddings for disease progression clustering. (arXiv:2307.06060v1 [stat.ML])\nAbstract: We propose a novel approach for interpreting deep embeddings in the context of patient clustering. We evaluate our approach on a dataset of participants with type 2 diabetes from the UK Biobank, and demonstrate clinically meaningful insights into disease progression patterns.",
+    "path": "papers/23/07/2307.06060.json",
+    "total_tokens": 543,
+    "translated_title": "解读疾病进展聚类中的深度嵌入",
+    "translated_abstract": "我们提出了一种在患者聚类的背景下解读深度嵌入的新方法。我们在来自英国生物库的2型糖尿病参与者数据集上评估我们的方法，并展示出对疾病进展模式的临床意义性见解。",
+    "tldr": "本文提出了一种在疾病进展聚类中解读深度嵌入的新方法，并通过评估2型糖尿病参与者数据集展示了对疾病进展模式的临床意义性见解。",
+    "en_tdlr": "This paper proposes a novel approach for interpreting deep embeddings in the context of disease progression clustering, and demonstrates clinically meaningful insights into disease progression patterns by evaluating a dataset of participants with type 2 diabetes from the UK Biobank."
+}

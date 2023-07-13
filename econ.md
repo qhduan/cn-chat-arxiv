@@ -2,172 +2,217 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [A Robust and Efficient Optimization Model for Electric Vehicle Charging Stations in Developing Countries under Electricity Uncertainty.](http://arxiv.org/abs/2307.05470) | 提出了一种鲁棒的、高效的模拟优化模型，用于解决发展中国家电动车充电站的电力不确定性问题。通过估计候选站点的服务可靠性，并运用控制变量技术，我们提供了一个高度鲁棒的解决方案，有效应对电力中断的不确定性。 |
-| [^2] | [Harnessing the Potential of Volatility: Advancing GDP Prediction.](http://arxiv.org/abs/2307.05391) | 本文介绍了一种新的机器学习方法，通过将波动性作为模型权重，准确预测国内生产总值（GDP）。该方法考虑了意外冲击和事件对经济的影响，通过测试和比较表明，波动性加权的Lasso方法在准确性和鲁棒性方面优于其他方法，为决策者提供了有价值的决策工具。 |
-| [^3] | [Synthetic Decomposition for Counterfactual Predictions.](http://arxiv.org/abs/2307.05122) | 本论文提出了一种使用“源”地区数据进行目标地区政策预测的方法。通过制定可转移条件并构建合成的结果-政策关系来满足条件。我们开发了通用过程来构建反事实预测的置信区间，并证明其有效性。本研究应用该方法预测了德克萨斯州青少年就业率。 |
-| [^4] | [Selling Data to a Competitor (Extended Abstract).](http://arxiv.org/abs/2307.05078) | 本研究探讨了向竞争对手出售数据的成本与效益，并确定了利润最大化和帕累托改进机制。结果显示，利润最大化机制对消费者不利，而帕累托改进机制能提高消费者福利和公司利润。 |
-| [^5] | [Resilient Information Aggregation.](http://arxiv.org/abs/2307.05054) | 这篇论文研究了在信息聚合游戏中，通过一个中介将多个发送者的信息聚合并向接收者推荐行动的问题。研究目标是找到一个最优的中介/平台，以在选择行动时最大化用户的福利，并且要求该中介具有激励兼容性和弹性。 |
-| [^6] | [Epidemic Modeling with Generative Agents.](http://arxiv.org/abs/2307.04986) | 本研究利用生成型智能体在流行病模型中模拟了人类行为，通过模拟实验展示了智能体的行为与真实世界相似，并成功实现了流行病曲线的平坦化。该研究创造了改进动态系统建模的潜力，为表示人类思维、推理和决策提供了一种途径。 |
-| [^7] | [Modeling evidential cooperation in large worlds.](http://arxiv.org/abs/2307.04879) | 该论文研究了大规模世界中的证据合作（ECL）的问题，并提出了一个不完全信息的谈判问题的博弈论模型。通过模型，作者发现所有合作者必须最大化相同的加权效用函数之和才能达到帕累托最优结果。 |
-| [^8] | [Adapting to Misspecification.](http://arxiv.org/abs/2305.14265) | 研究提出了一种自适应收缩估计量，通过最小化最坏风险相对于已知偏差上限的理论最优估计量的最大风险的百分比增加。研究尝试解决经验研究中的鲁棒性和效率之间的权衡问题，避免了模型检验的复杂性。 |
-| [^9] | [Don't (fully) exclude me, it's not necessary! Identification with semi-IVs.](http://arxiv.org/abs/2303.12667) | 本文提出了一种利用半工具变量实现离散内生变量模型识别的方法，对劳动、健康、教育等领域具有潜在应用价值。 |
-| [^10] | [Optimal Mechanism Design for Agents with DSL Strategies: The Case of Sybil Attacks in Combinatorial Auctions.](http://arxiv.org/abs/2210.15181) | 本论文考虑了基于DSL策略的代理人优化机制设计，并在组合拍卖中的Sybil攻击案例中进行了研究。我们引入了DSL和Leximin概念，探讨了它们与其他鲁棒概念的关系，并展示了它们在拍卖和其他场景中的应用结果。 |
-| [^11] | [SoK: Blockchain Decentralization.](http://arxiv.org/abs/2205.04256) | 该论文为区块链去中心化领域的知识系统化，提出了分类法并建议使用指数来衡量和量化区块链的去中心化水平。除了共识去中心化外，其他方面的研究相对较少。这项工作为未来的研究提供了基准和指导。 |
+| [^1] | [S Equilibrium: A Synthesis of (Behavioral) Game Theory.](http://arxiv.org/abs/2307.06309) | S均衡综合了一个世纪的博弈论建模，通过引入S-信念和S-选择，避免了依赖纳什均衡和理性预期的限制，并且通过设置为值域提高了预测的可靠性和精确性。 |
+| [^2] | [Stationarity with Occasionally Binding Constraints.](http://arxiv.org/abs/2307.06190) | 本文研究了一类能够适应受临时限制的系列的多元阈值自回归模型，提出了稳定、遍历、弱依赖的充分条件，并对单位根和协整性提供了处理方法。 |
+| [^3] | [Identification in Multiple Treatment Models under Discrete Variation.](http://arxiv.org/abs/2307.06174) | 我们提出了一种方法，用于在离散值仪器的多重治疗模型中学习治疗效应。通过应用半参数约束的方法，我们展示了如何计算出一些治疗效应参数的尖锐界限。 |
+| [^4] | [Robust Impulse Responses using External Instruments: the Role of Information.](http://arxiv.org/abs/2307.06145) | 该论文介绍了一种使用外部工具的识别策略来解决冲击不可逆和测量误差问题的方法。在模拟分析和应用到美国货币政策的实证研究中, 该方法能够成功地恢复真实的脉冲响应，并证明了货币政策冲击在解释经济波动中的重要性。 |
+| [^5] | [Responses of Unemployment to Productivity Changes for a General Matching Technology.](http://arxiv.org/abs/2307.05843) | 这篇论文探讨了一般匹配技术下失业对生产力变化的响应。研究表明，失业对生产力变化的响应取决于可用于创造就业机会的资源，而不是匹配技术本身的类型。 |
+| [^6] | [What Does it Take to Control Global Temperatures? A toolbox for estimating the impact of economic policies on climate.](http://arxiv.org/abs/2307.05818) | 这项研究测试了通过经济政策控制气候的可行性和成本，并提供了一种统计历史评估气候和经济的工具。实证结果显示，碳减排政策可以有效地稳定或降低全球温度，并产生长期的影响。 |
+| [^7] | [Complete Conditional Type Structures (Extended Abstract).](http://arxiv.org/abs/2307.05630) | 本文研究了满足丰满性属性的类型结构，提供了一些充分条件，使得完整的类型结构能够表示所有的条件信念层次结构。 |
+| [^8] | [Decentralized Decision-Making in Retail Chains: Evidence from Inventory Management.](http://arxiv.org/abs/2307.05562) | 通过研究零售连锁店的数据，发现在多机构企业中分散库存决策导致了经理人之间的异质性，集中化库存管理可以降低成本，但会受到延迟需求信息的负面影响。 |
+| [^9] | [Condorcet Domains of Degree at most Seven.](http://arxiv.org/abs/2306.15993) | 本文首次明确列举了在$n\leq 7$个选项上的所有最大Condorcet领域，通过开发新算法并在超级计算机上实现，解决了社会科学和数学领域的多个未解问题，同时给出了关于Condorcet领域对称性的新结果，以及与其他领域类型的联系。 |
+| [^10] | [Asymptotically Optimal Fixed-Budget Best Arm Identification with Variance-Dependent Bounds.](http://arxiv.org/abs/2302.02988) | 本文研究了最小化期望简单遗憾的固定预算最优臂识别问题。通过推导最坏情况期望简单遗憾的渐进下界，提出了基于HIR估计的TS-HIR策略，该策略在推荐最优臂时表现出近似最优性。 |
+| [^11] | [Extending the Range of Robust PCE Inflation Measures.](http://arxiv.org/abs/2207.12494) | 本研究扩展了稳健PCE通胀测度的范围，并评估了不同修剪点的预测性能。尽管修剪点的选择与时间和目标有关，但无法选择单个系列作为最佳预测。各种修剪方式的平均预测误差相当，但对于趋势通胀的预测有所不同，建议使用一组接近最佳的修剪。 |
+| [^12] | [Wildfire Modeling: Designing a Market to Restore Assets.](http://arxiv.org/abs/2205.13773) | 该论文研究了如何设计一个市场来恢复由森林火灾造成的资产损失。研究通过分析电力公司引发火灾的原因，并将火灾风险纳入经济模型中，提出了收取森林火灾基金和公平收费的方案，以最大化社会影响和总盈余。 |
+| [^13] | [The Evolution of U.S. Retail Concentration.](http://arxiv.org/abs/2202.07609) | 美国零售业集中度近年来呈现增加趋势，大部分由多市场企业进入新市场导致，本地市场份额增加也在1997年至2007年间变得更加重要。本地集中度的增加解释了整体销售增长的四分之一到三分之一。 |
+| [^14] | [Crime and Mismeasured Punishment: Marginal Treatment Effect with Misclassification.](http://arxiv.org/abs/2106.00536) | 本研究研究了当治疗被误分类时的边际处理效应，并通过分析巴西的上诉过程中对再犯率的影响来说明。结果显示，误分类偏差可能相当大，但界限包含了正确估计的效应。 |
 
 # 详细
 
-[^1]: 发展中国家电动车充电站的鲁棒高效优化模型——基于电力不确定性的研究
+[^1]: S均衡：（行为）博弈论的综合。 （arXiv：2307.06309v1 [econ.TH]）
 
-    A Robust and Efficient Optimization Model for Electric Vehicle Charging Stations in Developing Countries under Electricity Uncertainty. (arXiv:2307.05470v1 [math.OC])
+    S Equilibrium: A Synthesis of (Behavioral) Game Theory. (arXiv:2307.06309v1 [econ.TH])
 
-    [http://arxiv.org/abs/2307.05470](http://arxiv.org/abs/2307.05470)
+    [http://arxiv.org/abs/2307.06309](http://arxiv.org/abs/2307.06309)
 
-    提出了一种鲁棒的、高效的模拟优化模型，用于解决发展中国家电动车充电站的电力不确定性问题。通过估计候选站点的服务可靠性，并运用控制变量技术，我们提供了一个高度鲁棒的解决方案，有效应对电力中断的不确定性。
-
-    
-
-    全球电动车（EV）的需求日益增长，这需要发展鲁棒且可访问的充电基础设施，尤其是在电力不稳定的发展中国家。早期的充电基础设施优化研究未能严格考虑此类服务中断特征，导致基础设施设计不佳。为解决这个问题，我们提出了一个高效的基于模拟的优化模型，该模型估计候选站点的服务可靠性，并将其纳入目标函数和约束中。我们采用了控制变量（CV）方差减小技术来提高模拟效率。我们的模型提供了一个高度鲁棒的解决方案，即使在候选站点服务可靠性被低估或高估的情况下，也能缓冲不确定的电力中断。使用印度尼西亚苏拉巴亚的数据集，我们的数值实验证明了所提出模型的有效性。
-
-    The rising demand for electric vehicles (EVs) worldwide necessitates the development of robust and accessible charging infrastructure, particularly in developing countries where electricity disruptions pose a significant challenge. Earlier charging infrastructure optimization studies do not rigorously address such service disruption characteristics, resulting in suboptimal infrastructure designs. To address this issue, we propose an efficient simulation-based optimization model that estimates candidate stations' service reliability and incorporates it into the objective function and constraints. We employ the control variates (CV) variance reduction technique to enhance simulation efficiency. Our model provides a highly robust solution that buffers against uncertain electricity disruptions, even when candidate station service reliability is subject to underestimation or overestimation. Using a dataset from Surabaya, Indonesia, our numerical experiment demonstrates that the proposed mod
-    
-[^2]: 发挥波动性潜力：推进国内生产总值预测
-
-    Harnessing the Potential of Volatility: Advancing GDP Prediction. (arXiv:2307.05391v1 [econ.GN])
-
-    [http://arxiv.org/abs/2307.05391](http://arxiv.org/abs/2307.05391)
-
-    本文介绍了一种新的机器学习方法，通过将波动性作为模型权重，准确预测国内生产总值（GDP）。该方法考虑了意外冲击和事件对经济的影响，通过测试和比较表明，波动性加权的Lasso方法在准确性和鲁棒性方面优于其他方法，为决策者提供了有价值的决策工具。
+    S均衡综合了一个世纪的博弈论建模，通过引入S-信念和S-选择，避免了依赖纳什均衡和理性预期的限制，并且通过设置为值域提高了预测的可靠性和精确性。
 
     
 
-    本文提出了一种新颖的机器学习方法，将波动性作为模型权重引入国内生产总值（GDP）预测中。该方法专门设计用于准确预测GDP，同时考虑到可能影响经济的意外冲击或事件。通过对实际数据进行测试，并与以往用于GDP预测的技术（如Lasso和自适应Lasso）进行比较，表明波动性加权Lasso方法在准确性和鲁棒性方面优于其他方法，为决策者和分析师在快速变化的经济环境中提供了有价值的决策工具。本研究展示了数据驱动方法如何帮助我们更好地理解经济波动，并支持更有效的经济政策制定。
+    S均衡综合了一个世纪的博弈论建模。 S-信念确定选择，就像细化文献和k级别一样，而不是构建在纳什均衡上或者采取特定的信念形成方式。 S-选择允许出现错误，就像QRE一样，而不是强加理性预期。 S均衡明确地设置为值域，以避免从未经定义且未考虑大小的未知集合中选择最佳预测的常见做法。 S-均衡集合随着复杂性参数而变化，提供了准确性和精确性之间的权衡，与M均衡不同。简单的“面积度量”确定模型的参数，并显示相对大小为5％的选择集合能够捕获58％的数据。在广泛的实验博弈数据上应用拟合优度测试，确认了S均衡在样本内外预测行为的能力。相比之下，k级别和QRE的选择（信念）预测在大多数情况下被拒绝。
 
-    This paper presents a novel machine learning approach to GDP prediction that incorporates volatility as a model weight. The proposed method is specifically designed to identify and select the most relevant macroeconomic variables for accurate GDP prediction, while taking into account unexpected shocks or events that may impact the economy. The proposed method's effectiveness is tested on real-world data and compared to previous techniques used for GDP forecasting, such as Lasso and Adaptive Lasso. The findings show that the Volatility-weighted Lasso method outperforms other methods in terms of accuracy and robustness, providing policymakers and analysts with a valuable tool for making informed decisions in a rapidly changing economic environment. This study demonstrates how data-driven approaches can help us better understand economic fluctuations and support more effective economic policymaking.  Keywords: GDP prediction, Lasso, Volatility, Regularization, Macroeconomics Variable Sele
+    $S$ equilibrium synthesizes a century of game-theoretic modeling. $S$-beliefs determine choices as in the refinement literature and level-$k$, without anchoring on Nash equilibrium or imposing ad hoc belief formation. $S$-choices allow for mistakes as in QRE, without imposing rational expectations. $S$ equilibrium is explicitly set-valued to avoid the common practice of selecting the best prediction from an implicitly defined set of unknown, and unaccounted for, size. $S$-equilibrium sets vary with a complexity parameter, offering a trade-off between accuracy and precision unlike in $M$ equilibrium. Simple "areametrics" determine the model's parameter and show that choice sets with a relative size of 5 percent capture 58 percent percent of the data. Goodness-of-fit tests applied to data from a broad array of experimental games confirm $S$ equilibrium's ability to predict behavior in and out of sample. In contrast, choice (belief) predictions of level-$k$ and QRE are rejected in most (a
     
-[^3]: 模拟分解进行反事实预测
+[^2]: 临时限制与时不时约束下的稳定性
 
-    Synthetic Decomposition for Counterfactual Predictions. (arXiv:2307.05122v1 [econ.EM])
+    Stationarity with Occasionally Binding Constraints. (arXiv:2307.06190v1 [econ.EM])
 
-    [http://arxiv.org/abs/2307.05122](http://arxiv.org/abs/2307.05122)
+    [http://arxiv.org/abs/2307.06190](http://arxiv.org/abs/2307.06190)
 
-    本论文提出了一种使用“源”地区数据进行目标地区政策预测的方法。通过制定可转移条件并构建合成的结果-政策关系来满足条件。我们开发了通用过程来构建反事实预测的置信区间，并证明其有效性。本研究应用该方法预测了德克萨斯州青少年就业率。
-
-    
-
-    当政策变量超出先前政策支持范围时，反事实预测是具有挑战性的。然而，在许多情况下，关于感兴趣政策的信息可以从不同的“源”地区得到，这些地区已经实施了类似的政策。在本论文中，我们提出了一种新的方法，利用来自源地区的数据来预测目标地区的新政策。我们不依赖于使用参数化规范的结构关系的外推，而是制定一个可转移条件，并构建一个合成的结果-政策关系，使其尽可能接近满足条件。合成关系考虑了可观测数据和结构关系的相似性。我们开发了一个通用过程来构建反事实预测的渐进置信区间，并证明了其渐进有效性。然后，我们将我们的提议应用于预测德克萨斯州青少年就业率。
-
-    Counterfactual predictions are challenging when the policy variable goes beyond its pre-policy support. However, in many cases, information about the policy of interest is available from different ("source") regions where a similar policy has already been implemented. In this paper, we propose a novel method of using such data from source regions to predict a new policy in a target region. Instead of relying on extrapolation of a structural relationship using a parametric specification, we formulate a transferability condition and construct a synthetic outcome-policy relationship such that it is as close as possible to meeting the condition. The synthetic relationship weighs both the similarity in distributions of observables and in structural relationships. We develop a general procedure to construct asymptotic confidence intervals for counterfactual predictions and prove its asymptotic validity. We then apply our proposal to predict average teenage employment in Texas following a cou
-    
-[^4]: 向竞争对手出售数据的成本与效益的研究
-
-    Selling Data to a Competitor (Extended Abstract). (arXiv:2307.05078v1 [cs.GT])
-
-    [http://arxiv.org/abs/2307.05078](http://arxiv.org/abs/2307.05078)
-
-    本研究探讨了向竞争对手出售数据的成本与效益，并确定了利润最大化和帕累托改进机制。结果显示，利润最大化机制对消费者不利，而帕累托改进机制能提高消费者福利和公司利润。
+    本文研究了一类能够适应受临时限制的系列的多元阈值自回归模型，提出了稳定、遍历、弱依赖的充分条件，并对单位根和协整性提供了处理方法。
 
     
 
-    我们研究了向竞争对手出售数据的成本与效益。尽管出售所有消费者的数据可能会降低公司的总利润，但存在其他出售机制——只销售部分消费者的数据——使得两家公司都受益。我们确定了利润最大化的机制，并证明了公司的受益是以消费者的成本为代价的。然后，我们构建了帕累托改进机制，其中每个消费者的福利以及两家公司的利润均增加。最后，我们证明消费者选择加入可以作为一种手段，促使公司选择帕累托改进机制而不是利润最大化机制。
+    本文研究了一类多元阈值自回归模型，即被截尾和弯曲的结构向量自回归（CKSVAR），这种模型能够适应受临时限制的系列。我们提出了一组满足CKSVAR生成的过程是稳定、遍历、弱依赖的充分条件。我们的条件直接与模型的确定性部分的稳定性相关，因此比一般向量阈值自回归（VTAR）模型通常可用的条件更为保守。虽然我们的标准涉及计算不可行的数量，如联合谱半径的改进，但它们可以通过数值逼近以高度精确度计算。我们的研究结果还允许我们对CKSVAR中的单位根和协整性进行处理，特别是在模型被配置为生成线性协整关系时。
 
-    We study the costs and benefits of selling data to a competitor. Although selling all consumers' data may decrease total firm profits, there exist other selling mechanisms -- in which only some consumers' data is sold -- that render both firms better off. We identify the profit-maximizing mechanism, and show that the benefit to firms comes at a cost to consumers. We then construct Pareto-improving mechanisms, in which each consumers' welfare, as well as both firms' profits, increase. Finally, we show that consumer opt-in can serve as an instrument to induce firms to choose a Pareto-improving mechanism over a profit-maximizing one.
+    This paper studies a class of multivariate threshold autoregressive models, known as censored and kinked structural vector autoregressions (CKSVAR), which are notably able to accommodate series that are subject to occasionally binding constraints. We develop a set of sufficient conditions for the processes generated by a CKSVAR to be stationary, ergodic, and weakly dependent. Our conditions relate directly to the stability of the deterministic part of the model, and are therefore less conservative than those typically available for general vector threshold autoregressive (VTAR) models. Though our criteria refer to quantities, such as refinements of the joint spectral radius, that cannot feasibly be computed exactly, they can be approximated numerically to a high degree of precision. Our results also permit us to provide a treatment of unit roots and cointegration in the CKSVAR, for the case where the model is configured so as to generate linear cointegration.
     
-[^5]: 弹性信息聚合
+[^3]: 在离散变异下的多重治疗模型中的辨识
 
-    Resilient Information Aggregation. (arXiv:2307.05054v1 [econ.TH])
+    Identification in Multiple Treatment Models under Discrete Variation. (arXiv:2307.06174v1 [econ.EM])
 
-    [http://arxiv.org/abs/2307.05054](http://arxiv.org/abs/2307.05054)
+    [http://arxiv.org/abs/2307.06174](http://arxiv.org/abs/2307.06174)
 
-    这篇论文研究了在信息聚合游戏中，通过一个中介将多个发送者的信息聚合并向接收者推荐行动的问题。研究目标是找到一个最优的中介/平台，以在选择行动时最大化用户的福利，并且要求该中介具有激励兼容性和弹性。
-
-    
-
-    在信息聚合游戏中，一组发送者通过一个中介与接收者进行互动。每个发送者观察到世界的状态，并向中介传达一个信息，中介根据接收到的信息向接收者推荐一个行动。发送者和接收者的回报取决于世界的状态和接收者选择的行动。这个设置在两个方面扩展了著名的廉价交谈模型：有很多发送者（而不是只有一个）和一个中介。从实践角度来看，这个设置捕捉到了将战略专家的建议在服务行动推荐给用户时进行聚合的平台。我们的目标是找到一个最优的中介/平台，以在选择均衡时最大化用户的福利，并且对于接收者/用户在选择推荐行动时保持高度的激励兼容性要求，并且对于被推荐的行动选择也具有弹性。
-
-    In an information aggregation game, a set of senders interact with a receiver through a mediator. Each sender observes the state of the world and communicates a message to the mediator, who recommends an action to the receiver based on the messages received. The payoff of the senders and of the receiver depend on both the state of the world and the action selected by the receiver. This setting extends the celebrated cheap talk model in two aspects: there are many senders (as opposed to just one) and there is a mediator. From a practical perspective, this setting captures platforms in which strategic experts advice is aggregated in service of action recommendations to the user. We aim at finding an optimal mediator/platform that maximizes the users' welfare given highly resilient incentive compatibility requirements on the equilibrium selected: we want the platform to be incentive compatible for the receiver/user when selecting the recommended action, and we want it to be resilient agai
-    
-[^6]: 用生成型智能体进行流行病建模
-
-    Epidemic Modeling with Generative Agents. (arXiv:2307.04986v1 [cs.AI])
-
-    [http://arxiv.org/abs/2307.04986](http://arxiv.org/abs/2307.04986)
-
-    本研究利用生成型智能体在流行病模型中模拟了人类行为，通过模拟实验展示了智能体的行为与真实世界相似，并成功实现了流行病曲线的平坦化。该研究创造了改进动态系统建模的潜力，为表示人类思维、推理和决策提供了一种途径。
+    我们提出了一种方法，用于在离散值仪器的多重治疗模型中学习治疗效应。通过应用半参数约束的方法，我们展示了如何计算出一些治疗效应参数的尖锐界限。
 
     
 
-    本研究提供了一种新的个体层面建模范式，以解决将人类行为纳入流行病模型的重大挑战。通过在基于智能体的流行病模型中利用生成型人工智能，每个智能体都能够通过连接到大型语言模型（如ChatGPT）进行自主推理和决策。通过各种模拟实验，我们呈现了令人信服的证据，表明生成型智能体模仿了现实世界的行为，如生病时进行隔离，病例增加时进行自我隔离。总体而言，智能体展示了类似于近期流行病观察到的多次波动，然后是一段流行期。此外，智能体成功地使流行病曲线平坦化。该研究提供了一种改进动态系统建模的潜力，通过提供一种表示人类大脑、推理和决策的方法。
+    我们开发了一种方法，用于学习在带有离散值仪器的多重治疗模型中的治疗效应。我们允许治疗选择由允许多维未观察异质性的一般门限交叉模型来控制。在未观察到的异质性分布上施加半参数约束的情况下，我们展示了如何使用一系列线性规划来计算一些治疗效应参数的尖锐界限，当其底层的边际治疗反应函数保持非参数化或是附加参数化时。
 
-    This study offers a new paradigm of individual-level modeling to address the grand challenge of incorporating human behavior in epidemic models. Using generative artificial intelligence in an agent-based epidemic model, each agent is empowered to make its own reasonings and decisions via connecting to a large language model such as ChatGPT. Through various simulation experiments, we present compelling evidence that generative agents mimic real-world behaviors such as quarantining when sick and self-isolation when cases rise. Collectively, the agents demonstrate patterns akin to multiple waves observed in recent pandemics followed by an endemic period. Moreover, the agents successfully flatten the epidemic curve. This study creates potential to improve dynamic system modeling by offering a way to represent human brain, reasoning, and decision making.
+    We develop a method to learn about treatment effects in multiple treatment models with discrete-valued instruments. We allow selection into treatment to be governed by a general class of threshold crossing models that permits multidimensional unobserved heterogeneity. Under a semi-parametric restriction on the distribution of unobserved heterogeneity, we show how a sequence of linear programs can be used to compute sharp bounds for a number of treatment effect parameters when the marginal treatment response functions underlying them remain nonparametric or are additionally parameterized.
     
-[^7]: 在大规模世界中建模证据合作
+[^4]: 使用外部工具的强大脉冲影响：信息的作用。
 
-    Modeling evidential cooperation in large worlds. (arXiv:2307.04879v1 [econ.GN])
+    Robust Impulse Responses using External Instruments: the Role of Information. (arXiv:2307.06145v1 [econ.EM])
 
-    [http://arxiv.org/abs/2307.04879](http://arxiv.org/abs/2307.04879)
+    [http://arxiv.org/abs/2307.06145](http://arxiv.org/abs/2307.06145)
 
-    该论文研究了大规模世界中的证据合作（ECL）的问题，并提出了一个不完全信息的谈判问题的博弈论模型。通过模型，作者发现所有合作者必须最大化相同的加权效用函数之和才能达到帕累托最优结果。
-
-    
-
-    大规模世界中的证据合作（ECL）指的是人类和其他代理人可以通过与具有不同价值观的相似代理人在一个大宇宙中的因果断开部分合作而获益。合作为代理人提供了其他相似代理人可能会合作的证据，从而使所有人都从交易中获益。对于利他主义者来说，这可能是一个关键的考虑因素。我将ECL发展为一个不完全信息的谈判问题的博弈论模型。该模型融入了对他人价值观和实证情况的不确定性，并解决了选择妥协结果的问题。使用该模型，我调查了ECL存在的问题，并概述了开放的技术和哲学问题。我展示了所有合作者必须最大化相同的加权效用函数之和才能达到帕累托最优结果。然而，我反对通过对效用函数进行归一化来隐式选择妥协结果。我回顾了谈判理论和
-
-    Evidential cooperation in large worlds (ECL) refers to the idea that humans and other agents can benefit by cooperating with similar agents with differing values in causally disconnected parts of a large universe. Cooperating provides agents with evidence that other similar agents are likely to cooperate too, resulting in gains from trade for all. This could be a crucial consideration for altruists.  I develop a game-theoretic model of ECL as an incomplete information bargaining problem. The model incorporates uncertainty about others' value systems and empirical situations, and addresses the problem of selecting a compromise outcome. Using the model, I investigate issues with ECL and outline open technical and philosophical questions.  I show that all cooperators must maximize the same weighted sum of utility functions to reach a Pareto optimal outcome. However, I argue against selecting a compromise outcome implicitly by normalizing utility functions. I review bargaining theory and a
-    
-[^8]: 适应模型错误的估计
-
-    Adapting to Misspecification. (arXiv:2305.14265v1 [econ.EM])
-
-    [http://arxiv.org/abs/2305.14265](http://arxiv.org/abs/2305.14265)
-
-    研究提出了一种自适应收缩估计量，通过最小化最坏风险相对于已知偏差上限的理论最优估计量的最大风险的百分比增加。研究尝试解决经验研究中的鲁棒性和效率之间的权衡问题，避免了模型检验的复杂性。
+    该论文介绍了一种使用外部工具的识别策略来解决冲击不可逆和测量误差问题的方法。在模拟分析和应用到美国货币政策的实证研究中, 该方法能够成功地恢复真实的脉冲响应，并证明了货币政策冲击在解释经济波动中的重要性。
 
     
 
-    经验研究通常涉及到鲁棒性和效率之间的权衡。研究人员想要估计一个标量参数，可以使用强假设来设计一个精准但可能存在严重偏差的局限估计量，也可以放松一些假设并设计一个更加鲁棒但变量较大的估计量。当局限估计量的偏差上限已知时，将无限制估计量收缩到局限估计量是最优的。对于局限估计量偏差上限未知的情况，我们提出了自适应收缩估计量，该估计量最小化最坏风险相对于已知偏差上限的理论最优估计量的最大风险的百分比增加。我们证明自适应估计量是一个加权凸最小化最大问题，并提供查找表以便于快速计算。重新审视了五项存在模型规范问题的经验研究，我们研究了适应错误的模型的优势而不是检验。
+    当冲击不可逆且存在测量误差时，外部工具识别会导致偏倚的响应。我们提出在结构动态因子模型中使用此识别策略，我们称之为代理DFM。在模拟分析中，我们展示了代理DFM始终能够成功地恢复真实的脉冲响应，而代理SVAR在模型错误、未包含所有相关信息或存在测量误差时系统性地失败。在对美国货币政策的应用中，代理DFM表明收紧冲击无疑是收缩性的，伴随着国内需求、劳动力、信贷、房地产、汇率和金融市场的恶化。这对于文献中提供的所有原始工具都成立。方差分解分析突出了货币政策冲击在解释经济波动中的重要性，尽管在不同的时间跨度上存在差异。
 
-    Empirical research typically involves a robustness-efficiency tradeoff. A researcher seeking to estimate a scalar parameter can invoke strong assumptions to motivate a restricted estimator that is precise but may be heavily biased, or they can relax some of these assumptions to motivate a more robust, but variable, unrestricted estimator. When a bound on the bias of the restricted estimator is available, it is optimal to shrink the unrestricted estimator towards the restricted estimator. For settings where a bound on the bias of the restricted estimator is unknown, we propose adaptive shrinkage estimators that minimize the percentage increase in worst case risk relative to an oracle that knows the bound. We show that adaptive estimators solve a weighted convex minimax problem and provide lookup tables facilitating their rapid computation. Revisiting five empirical studies where questions of model specification arise, we examine the advantages of adapting to -- rather than testing for -
+    External-instrument identification leads to biased responses when the shock is not invertible and the measurement error is present. We propose to use this identification strategy in a structural Dynamic Factor Model, which we call Proxy DFM. In a simulation analysis, we show that the Proxy DFM always successfully retrieves the true impulse responses, while the Proxy SVAR systematically fails to do so when the model is either misspecified, does not include all relevant information, or the measurement error is present. In an application to US monetary policy, the Proxy DFM shows that a tightening shock is unequivocally contractionary, with deteriorations in domestic demand, labor, credit, housing, exchange, and financial markets. This holds true for all raw instruments available in the literature. The variance decomposition analysis highlights the importance of monetary policy shocks in explaining economic fluctuations, albeit at different horizons.
     
-[^9]: 不要完全排除我，这是不必要的! 半工具变量的识别
+[^5]: 对于一般匹配技术的生产力变化的失业响应
 
-    Don't (fully) exclude me, it's not necessary! Identification with semi-IVs. (arXiv:2303.12667v1 [econ.EM])
+    Responses of Unemployment to Productivity Changes for a General Matching Technology. (arXiv:2307.05843v1 [econ.GN])
 
-    [http://arxiv.org/abs/2303.12667](http://arxiv.org/abs/2303.12667)
+    [http://arxiv.org/abs/2307.05843](http://arxiv.org/abs/2307.05843)
 
-    本文提出了一种利用半工具变量实现离散内生变量模型识别的方法，对劳动、健康、教育等领域具有潜在应用价值。
-
-    
-
-    本文提出了一种识别离散内生变量模型的新方法，将其应用于连续潜在结果的不可分离模型的一般情况下进行研究。我们采用半工具变量（semi-IVs) 来实现潜在结果的非参数识别以及选择方程式的识别，因此也能够识别个体治疗效应。与标准工具变量 （IVs）需要强制性完全排除不同，半工具变量仅在一些潜在结果方程式中部分排除，而不是全部排除。实践中，需要在强化排除约束和找到支持范围更广、相关性假设更强的半工具变量之间权衡。我们的方法为识别、估计和反事实预测开辟了新的途径，并在许多领域，如劳动，健康和教育等方面具有潜在应用。
-
-    This paper proposes a novel approach to identify models with a discrete endogenous variable, that I study in the general context of nonseparable models with continuous potential outcomes. I show that nonparametric identification of the potential outcome and selection equations, and thus of the individual treatment effects, can be obtained with semi-instrumental variables (semi-IVs), which are relevant but only partially excluded from the potential outcomes, i.e., excluded from one or more potential outcome equations, but not necessarily all. This contrasts with the full exclusion restriction imposed on standard instrumental variables (IVs), which is stronger than necessary for identification: IVs are only a special case of valid semi-IVs. In practice, there is a trade-off between imposing stronger exclusion restrictions, and finding semi-IVs with a larger support and stronger relevance assumptions. Since, in empirical work, the main obstacle for finding a valid IV is often the full exc
-    
-[^10]: 基于DSL策略的代理人优化机制设计：组合拍卖中的Sybil攻击案例
-
-    Optimal Mechanism Design for Agents with DSL Strategies: The Case of Sybil Attacks in Combinatorial Auctions. (arXiv:2210.15181v3 [econ.TH] UPDATED)
-
-    [http://arxiv.org/abs/2210.15181](http://arxiv.org/abs/2210.15181)
-
-    本论文考虑了基于DSL策略的代理人优化机制设计，并在组合拍卖中的Sybil攻击案例中进行了研究。我们引入了DSL和Leximin概念，探讨了它们与其他鲁棒概念的关系，并展示了它们在拍卖和其他场景中的应用结果。
+    这篇论文探讨了一般匹配技术下失业对生产力变化的响应。研究表明，失业对生产力变化的响应取决于可用于创造就业机会的资源，而不是匹配技术本身的类型。
 
     
 
-    在不确定性下的鲁棒决策中，一个自然的选择是采用安全（或称为安全性）级别的策略。然而，在许多重要情况下，特别是拍卖中，存在大量的安全级别策略，因此选择变得不明确。我们考虑了两个细化的概念：（i）我们称之为DSL（可区分安全级别），它基于“区分”概念，使用一对一比较来去除平凡的等价性。这捕捉到了当比较两种行为时，代理人不应关心导致相同回报的情况下的回报情况。（ii）社会选择理论中众所周知的Leximin概念，我们将其应用于鲁棒决策。特别是，leximin总是DSL，但反之不成立。我们研究了这些概念与其他鲁棒概念的关系，并展示了它们在拍卖和其他场景中的应用结果。经济设计旨在在面对自我激励的情况下最大化社会福利。
+    工人离职、寻找工作、接受工作并用工资支付消费。公司招聘工人来填补职位空缺，但搜索摩擦使得公司无法立即雇佣可用工人。失业持续存在。这些特征由Diamond-Mortensen-Pissarides建模框架描述。在这类模型中，失业对生产力变化的响应取决于可用于创造就业机会的资源。然而，这种特征是在匹配被Cobb-Douglas技术参数化时得出的。对于一个典型的DMP模型，我(1)证明只要初始职位空缺产生正的余额，就会存在唯一的稳态平衡;(2)对一般匹配技术的失业对生产力变化的响应进行了描述;(3)展示了一个不是Cobb-Douglas的匹配技术意味着失业对生产力变化的响应更大，这与可用于就业创造的资源无关。
 
-    In robust decision making under uncertainty, a natural choice is to go with safety (aka security) level strategies. However, in many important cases, most notably auctions, there is a large multitude of safety level strategies, thus making the choice unclear. We consider two refined notions:  (i) a term we call DSL (distinguishable safety level), and is based on the notion of ``discrimin'', which uses a pairwise comparison of actions while removing trivial equivalencies. This captures the fact that when comparing two actions an agent should not care about payoffs in situations where they lead to identical payoffs.  (ii) The well-known Leximin notion from social choice theory, which we apply for robust decision-making. In particular, the leximin is always DSL but not vice-versa.  We study the relations of these notions to other robust notions, and illustrate the results of their use in auctions and other settings. Economic design aims to maximize social welfare when facing self-motivate
+    Workers separate from jobs, search for jobs, accept jobs, and fund consumption with their wages. Firms recruit workers to fill vacancies, but search frictions prevent firms from instantly hiring available workers. Unemployment persists. These features are described by the Diamond--Mortensen--Pissarides modeling framework. In this class of models, how unemployment responds to productivity changes depends on resources that can be allocated to job creation. Yet, this characterization has been made when matching is parameterized by a Cobb--Douglas technology. For a canonical DMP model, I (1) demonstrate that a unique steady-state equilibrium will exist as long as the initial vacancy yields a positive surplus; (2) characterize responses of unemployment to productivity changes for a general matching technology; and (3) show how a matching technology that is not Cobb--Douglas implies unemployment responds more to productivity changes, which is independent of resources available for job creati
     
-[^11]: SoK：区块链去中心化
+[^6]: 控制全球温度需要什么？估计经济政策对气候影响的工具箱
 
-    SoK: Blockchain Decentralization. (arXiv:2205.04256v4 [econ.GN] UPDATED)
+    What Does it Take to Control Global Temperatures? A toolbox for estimating the impact of economic policies on climate. (arXiv:2307.05818v1 [econ.EM])
 
-    [http://arxiv.org/abs/2205.04256](http://arxiv.org/abs/2205.04256)
+    [http://arxiv.org/abs/2307.05818](http://arxiv.org/abs/2307.05818)
 
-    该论文为区块链去中心化领域的知识系统化，提出了分类法并建议使用指数来衡量和量化区块链的去中心化水平。除了共识去中心化外，其他方面的研究相对较少。这项工作为未来的研究提供了基准和指导。
+    这项研究测试了通过经济政策控制气候的可行性和成本，并提供了一种统计历史评估气候和经济的工具。实证结果显示，碳减排政策可以有效地稳定或降低全球温度，并产生长期的影响。
 
     
 
-    区块链通过在点对点网络中实现分布式信任，为去中心化经济提供了支持。然而，令人惊讶的是，目前还缺乏广泛接受的去中心化定义或度量标准。我们通过全面分析现有研究，探索了区块链去中心化的知识系统化（SoK）。首先，我们通过对现有研究的定性分析，在共识、网络、治理、财富和交易等五个方面建立了用于分析区块链去中心化的分类法。我们发现，除了共识去中心化以外，其他方面的研究相对较少。其次，我们提出了一种指数，通过转换香农熵来衡量和量化区块链在不同方面的去中心化水平。我们通过比较静态模拟验证了该指数的可解释性。我们还提供了其他指数的定义和讨论，包括基尼系数、中本聪系数和赫尔曼-赫尔东指数等。我们的工作概述了当前区块链去中心化的景象，并提出了一个量化的度量标准，为未来的研究提供基准。
+    本文通过经济政策测试了控制气候的可行性和成本。它提供了一种用于统计历史评估气候和经济的随机整合模型的工具箱，并用于（可能是反事实的）政策分析。认识到稳定需要抑制趋势，我们使用了一个通过新编制的数据集估计的整合协整矢量自回归模型，该数据集涵盖公元1000年至2008年，扩大了非平稳系统控制理论的先前结果。我们进行了统计测试，以确定碳减排政策能否有效稳定或降低全球温度的幅度。我们对政策可行性进行了正式测试，结果表明碳减排可以对长期产生显著影响，并且政策可以使温度稳定在选定的长期平均值周围。在对我们建模策略可能性的反事实实证说明中，我们展示了汽车成本的情况。
 
-    Blockchain empowers a decentralized economy by enabling distributed trust in a peer-to-peer network. However, surprisingly, a widely accepted definition or measurement of decentralization is still lacking. We explore a systematization of knowledge (SoK) on blockchain decentralization by comprehensively analyzing existing studies in various aspects. First, we establish a taxonomy for analyzing blockchain decentralization in the five facets of consensus, network, governance, wealth, and transaction bu qualitative analysis of existing research. We find relatively little research on aspects other than consensus decentralization. Second, we propose an index that measures and quantifies the decentralization level of blockchain across different facets by transforming Shannon entropy. We verify the explainability of the index via comparative static simulations. We also provide the definition and discussion of alternative indices including the Gini Coefficient, Nakamoto Coefficient, and Herfind
+    This paper tests the feasibility and estimates the cost of climate control through economic policies. It provides a toolbox for a statistical historical assessment of a Stochastic Integrated Model of Climate and the Economy, and its use in (possibly counterfactual) policy analysis. Recognizing that stabilization requires supressing a trend, we use an integrated-cointegrated Vector Autoregressive Model estimated using a newly compiled dataset ranging between years A.D. 1000-2008, extending previous results on Control Theory in nonstationary systems. We test statistically whether, and quantify to what extent, carbon abatement policies can effectively stabilize or reduce global temperatures. Our formal test of policy feasibility shows that carbon abatement can have a significant long run impact and policies can render temperatures stationary around a chosen long run mean. In a counterfactual empirical illustration of the possibilities of our modeling strategy, we show that the cost of car
+    
+[^7]: 完整的条件类型结构（扩展摘要）
+
+    Complete Conditional Type Structures (Extended Abstract). (arXiv:2307.05630v1 [cs.GT])
+
+    [http://arxiv.org/abs/2307.05630](http://arxiv.org/abs/2307.05630)
+
+    本文研究了满足丰满性属性的类型结构，提供了一些充分条件，使得完整的类型结构能够表示所有的条件信念层次结构。
+
+    
+
+    条件信念的层次结构在顺序博弈中的解决概念的认识分析中起着核心作用。它们是由类型结构实际建模的，其中分析师可以表示玩家的层次结构，而不需要指定无限序列的条件信念。在这里，我们研究满足"丰满性"属性的类型结构。这个属性仅在类型结构本身上定义，并没有明确引用信念层次结构或其他类型结构。我们提供了充分的条件，使得完整的类型结构能够表示所有的条件信念层次结构。特别地，我们将主要结果扩展到具有条件信念的类型结构中。
+
+    Hierarchies of conditional beliefs (Battigalli and Siniscalchi 1999) play a central role for the epistemic analysis of solution concepts in sequential games. They are practically modelled by type structures, which allow the analyst to represent the players' hierarchies without specifying an infinite sequence of conditional beliefs. Here, we study type structures that satisfy a "richness" property, called completeness. This property is defined on the type structure alone, without explicit reference to hierarchies of beliefs or other type structures. We provide sufficient conditions under which a complete type structure represents all hierarchies of conditional beliefs. In particular, we present an extension of the main result in Friedenberg (2010) to type structures with conditional beliefs.
+    
+[^8]: 零售连锁店中的分散决策：库存管理的证据
+
+    Decentralized Decision-Making in Retail Chains: Evidence from Inventory Management. (arXiv:2307.05562v1 [econ.EM])
+
+    [http://arxiv.org/abs/2307.05562](http://arxiv.org/abs/2307.05562)
+
+    通过研究零售连锁店的数据，发现在多机构企业中分散库存决策导致了经理人之间的异质性，集中化库存管理可以降低成本，但会受到延迟需求信息的负面影响。
+
+    
+
+    本文利用来自一家大型零售连锁店的数据，研究了在多机构企业中分散库存决策的影响。通过分析两年的每日数据，我们发现634位店长在库存决策上存在明显的异质性。通过估计一个动态结构模型，我们揭示了经理人认为的成本存在大量的异质性。此外，我们观察到这些认知的差异与经理人的教育和经验之间存在相关性。对照实验表明，集中化库存管理通过消除经理人技能异质性的影响来降低成本。然而，这些好处被延迟需求信息的负面影响所抵消。
+
+    This paper investigates the impact of decentralizing inventory decision-making in multi-establishment firms using data from a large retail chain. Analyzing two years of daily data, we find significant heterogeneity among the inventory decisions made by 634 store managers. By estimating a dynamic structural model, we reveal substantial heterogeneity in managers' perceived costs. Moreover, we observe a correlation between the variance of these perceptions and managers' education and experience. Counterfactual experiments show that centralized inventory management reduces costs by eliminating the impact of managers' skill heterogeneity. However, these benefits are offset by the negative impact of delayed demand information.
+    
+[^9]: 最多七个选项的Condorcet领域
+
+    Condorcet Domains of Degree at most Seven. (arXiv:2306.15993v2 [cs.DM] CROSS LISTED)
+
+    [http://arxiv.org/abs/2306.15993](http://arxiv.org/abs/2306.15993)
+
+    本文首次明确列举了在$n\leq 7$个选项上的所有最大Condorcet领域，通过开发新算法并在超级计算机上实现，解决了社会科学和数学领域的多个未解问题，同时给出了关于Condorcet领域对称性的新结果，以及与其他领域类型的联系。
+
+    
+
+    本文首次明确列举了所有在$n\leq 7$个选项上的最大Condorcet领域。通过开发一种新的构造Condorcet领域的算法，并在超级计算机上实现该算法的运行，我们完成了这一目标。随后，我们对所有最大Condorcet领域在度数为7的情况下的属性进行了首次调查，涉及社会科学和数学文献中研究的许多属性。我们通过数据示例和定理解决了其他作者提出的几个未解疑问。我们给出了一组关于Condorcet领域对称性的新结果，统一了之前的作品。最后，我们讨论了与非独裁领域和泛化的单峰领域等其他领域类型的联系。我们通过一个新的网站免费提供所有数据供其他研究者使用。
+
+    In this paper we give the first explicit enumeration of all maximal Condorcet domains on $n\leq 7$ alternatives. This has been accomplished by developing a new algorithm for constructing Condorcet domains, and an implementation of that algorithm which has been run on a supercomputer.  We follow this up by the first survey of the properties of all maximal Condorcet domains up to degree 7, with respect to many properties studied in the social sciences and mathematical literature. We resolve several open questions posed by other authors, both by examples from our data and theorems. We give a new set of results on the symmetry properties of Condorcet domains which unify earlier works.  Finally we discuss connections to other domain types such as non-dictatorial domains and generalisations of single-peaked domains. All our data is made freely available for other researches via a new website.
+    
+[^10]: 渐进最优的固定预算最优臂识别方法与方差相关界限
+
+    Asymptotically Optimal Fixed-Budget Best Arm Identification with Variance-Dependent Bounds. (arXiv:2302.02988v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2302.02988](http://arxiv.org/abs/2302.02988)
+
+    本文研究了最小化期望简单遗憾的固定预算最优臂识别问题。通过推导最坏情况期望简单遗憾的渐进下界，提出了基于HIR估计的TS-HIR策略，该策略在推荐最优臂时表现出近似最优性。
+
+    
+
+    本文研究了最小化期望简单遗憾的固定预算最优臂识别问题。在自适应实验中，决策者根据过去的观测结果选择多个处理臂之一，并观察所选择的臂的结果。实验结束后，决策者推荐期望结果最高的处理臂。我们基于期望简单遗憾评估决策的好坏，其定义为最优臂的期望结果与推荐臂的期望结果之差。由于固有的不确定性，我们使用极小极大准则评估遗憾。首先，我们推导了最坏情况期望简单遗憾的渐进下界，该下界由潜在结果的方差（主导因素）所确定。基于这些下界，我们提出了Two-Stage (TS)-Hirano-Imbens-Ridder (HIR)策略，在推荐最优臂时利用HIR估计（Hirano et al., 2003）。我们的理论分析表明，TS-HIR策略近似是最优的，并且在一定条件下能达到极小极大准则下的渐进最优性。
+
+    We investigate the problem of fixed-budget best arm identification (BAI) for minimizing expected simple regret. In an adaptive experiment, a decision maker draws one of multiple treatment arms based on past observations and observes the outcome of the drawn arm. After the experiment, the decision maker recommends the treatment arm with the highest expected outcome. We evaluate the decision based on the expected simple regret, which is the difference between the expected outcomes of the best arm and the recommended arm. Due to inherent uncertainty, we evaluate the regret using the minimax criterion. First, we derive asymptotic lower bounds for the worst-case expected simple regret, which are characterized by the variances of potential outcomes (leading factor). Based on the lower bounds, we propose the Two-Stage (TS)-Hirano-Imbens-Ridder (HIR) strategy, which utilizes the HIR estimator (Hirano et al., 2003) in recommending the best arm. Our theoretical analysis shows that the TS-HIR str
+    
+[^11]: 扩展稳健PCE通胀测度的范围
+
+    Extending the Range of Robust PCE Inflation Measures. (arXiv:2207.12494v2 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2207.12494](http://arxiv.org/abs/2207.12494)
+
+    本研究扩展了稳健PCE通胀测度的范围，并评估了不同修剪点的预测性能。尽管修剪点的选择与时间和目标有关，但无法选择单个系列作为最佳预测。各种修剪方式的平均预测误差相当，但对于趋势通胀的预测有所不同，建议使用一组接近最佳的修剪。
+
+    
+
+    我们评估了1960年至2022年之间的一系列稳健通胀测度的预测性能，包括官方中位数和修剪均值个人消费支出通胀。当修剪掉具有最高和最低通胀率的不同支出类别时，我们发现最佳修剪点在不同时间上差异很大，也取决于目标的选择；当目标是未来的趋势通胀或1970年代至1980年代的样本时，最佳修剪点较高。令人惊讶的是，在预测性能的基础上选择单个系列是没有根据的。包括官方稳健测度在内的各种修剪均具有平均预测误差，使它们与表现最佳的修剪不可区分。尽管平均误差不可区分，但这些修剪在任何给定月份对于趋势通胀的预测不同，在0.5到1个百分点范围内，这表明使用一组接近最佳的修剪。
+
+    We evaluate the forecasting performance of a wide set of robust inflation measures between 1960 and 2022, including official median and trimmed-mean personal-consumption-expenditure inflation. When trimming out different expenditure categories with the highest and lowest inflation rates, we find that the optimal trim points vary widely across time and also depend on the choice of target; optimal trims are higher when targeting future trend inflation or for a 1970s-1980s subsample. Surprisingly, there are no grounds to select a single series on the basis of forecasting performance. A wide range of trims-including those of the official robust measures-have an average prediction error that makes them statistically indistinguishable from the best-performing trim. Despite indistinguishable average errors, these trims imply different predictions for trend inflation in any given month, within a range of 0.5 to 1 percentage points, suggesting the use of a set of near-optimal trims.
+    
+[^12]: 森林火灾模型：设计市场以恢复资产
+
+    Wildfire Modeling: Designing a Market to Restore Assets. (arXiv:2205.13773v3 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2205.13773](http://arxiv.org/abs/2205.13773)
+
+    该论文研究了如何设计一个市场来恢复由森林火灾造成的资产损失。研究通过分析电力公司引发火灾的原因，并将火灾风险纳入经济模型中，提出了收取森林火灾基金和公平收费的方案，以最大化社会影响和总盈余。
+
+    
+
+    在过去的十年里，夏季森林火灾已经成为加利福尼亚和美国的常态。这些火灾的原因多种多样。州政府会收取森林火灾基金来帮助受灾人员。然而，基金只在特定条件下发放，并且在整个加利福尼亚州均匀收取。因此，该项目的整体思路是寻找关于电力公司如何引发火灾以及如何帮助收取森林火灾基金或者公平收费以最大限度地实现社会影响的数量结果。该研究项目旨在提出与植被、输电线路相关的森林火灾风险，并将其与金钱挂钩。因此，该项目有助于解决与每个地点相关的森林火灾基金收取问题，并结合能源价格根据地点的森林火灾风险向客户收费，以实现社会的总盈余最大化。
+
+    In the past decade, summer wildfires have become the norm in California, and the United States of America. These wildfires are caused due to variety of reasons. The state collects wildfire funds to help the impacted customers. However, the funds are eligible only under certain conditions and are collected uniformly throughout California. Therefore, the overall idea of this project is to look for quantitative results on how electrical corporations cause wildfires and how they can help to collect the wildfire funds or charge fairly to the customers to maximize the social impact. The research project aims to propose the implication of wildfire risk associated with vegetation, and due to power lines and incorporate that in dollars. Therefore, the project helps to solve the problem of collecting wildfire funds associated with each location and incorporate energy prices to charge their customers according to their wildfire risk related to the location to maximize the social surplus for the s
+    
+[^13]: 美国零售业集中度的演变
+
+    The Evolution of U.S. Retail Concentration. (arXiv:2202.07609v3 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2202.07609](http://arxiv.org/abs/2202.07609)
+
+    美国零售业集中度近年来呈现增加趋势，大部分由多市场企业进入新市场导致，本地市场份额增加也在1997年至2007年间变得更加重要。本地集中度的增加解释了整体销售增长的四分之一到三分之一。
+
+    
+
+    在美国的产业动态中，国家集中度的增加是一个显著特征，也引起了对市场力量增长的担忧。然而，对于市场力量情况，本地趋势可能更具信息量，特别是在零售部门，消费者通常在附近的商店购物。我们使用新型普查数据，观察了1992年至2012年间所有美国零售店产品级收入的本地集中度与国家集中度几乎同步增加。集中度的增加广泛影响大多数市场、产品和零售行业。我们发现，多市场企业进入新市场解释了国家零售集中度的大部分增长，而通过增加本地市场份额进行的整合在1997年至2007年间变得越来越重要，而单市场企业的作用微不足道。最后，我们发现本地集中度的增加可以解释整体销售增长的四分之一到三分之一。
+
+    Increases in national concentration have been a salient feature of industry dynamics in the U.S. and have contributed to concerns about increasing market power. Yet, local trends may be more informative about market power, particularly in the retail sector where consumers have traditionally shopped at nearby stores. We find that local concentration has increased almost in parallel with national concentration using novel Census data on product-level revenue for all U.S. retail stores between 1992 and 2012. The increases in concentration are broad based, affecting most markets, products, and retail industries. We show that the expansion of multi-market firms into new markets explains most of the increase in national retail concentration, with consolidation via increases in local market shares increasing in importance between 1997 and 2007, and single-market firms playing a negligible role. Finally, we find that increases in local concentration can explain one-quarter to one-third of the 
+    
+[^14]: 犯罪和误测量的惩罚：误分类下的边际处理效应
+
+    Crime and Mismeasured Punishment: Marginal Treatment Effect with Misclassification. (arXiv:2106.00536v7 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2106.00536](http://arxiv.org/abs/2106.00536)
+
+    本研究研究了当治疗被误分类时的边际处理效应，并通过分析巴西的上诉过程中对再犯率的影响来说明。结果显示，误分类偏差可能相当大，但界限包含了正确估计的效应。
+
+    
+
+    当治疗被误分类时，我部分确定了边际处理效应（MTE）。我研究了两个限制条件，允许工具和误分类决策之间的依赖关系。如果倾向分数的导数符号相等，我可以确定MTE的符号。如果这些导数相似，我可以界定MTE。为了说明这一点，我分析了在巴西的上诉过程中生成误分类的情况下，不同刑罚方式（罚款和社区服务与无处罚）对再犯率的影响。估计的误分类偏差可能相当于最大可能MTE的10%，而界限包含了正确估计的MTE。
+
+    I partially identify the marginal treatment effect (MTE) when the treatment is misclassified. I explore two restrictions, allowing for dependence between the instrument and the misclassification decision. If the signs of the derivatives of the propensity scores are equal, I identify the MTE sign. If those derivatives are similar, I bound the MTE. To illustrate, I analyze the impact of alternative sentences (fines and community service v. no punishment) on recidivism in Brazil, where Appeals processes generate misclassification. The estimated misclassification bias may be as large as 10% of the largest possible MTE, and the bounds contain the correctly estimated MTE.
     
 

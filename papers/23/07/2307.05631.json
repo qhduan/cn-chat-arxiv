@@ -1,0 +1,11 @@
+{
+    "title": "Causal Kripke Models. (arXiv:2307.05631v1 [cs.AI])",
+    "abstract": "This work extends Halpern and Pearl's causal models for actual causality to a possible world semantics environment. Using this framework we introduce a logic of actual causality with modal operators, which allows for reasoning about causality in scenarios involving multiple possibilities, temporality, knowledge and uncertainty. We illustrate this with a number of examples, and conclude by discussing some future directions for research.",
+    "link": "http://arxiv.org/abs/2307.05631",
+    "context": "Title: Causal Kripke Models. (arXiv:2307.05631v1 [cs.AI])\nAbstract: This work extends Halpern and Pearl's causal models for actual causality to a possible world semantics environment. Using this framework we introduce a logic of actual causality with modal operators, which allows for reasoning about causality in scenarios involving multiple possibilities, temporality, knowledge and uncertainty. We illustrate this with a number of examples, and conclude by discussing some future directions for research.",
+    "path": "papers/23/07/2307.05631.json",
+    "total_tokens": 583,
+    "translated_title": "因果克里普克模型",
+    "translated_abstract": "本研究将Halpern和Pearl的实际因果模型扩展到可能世界的语义环境中。利用这个框架，我们引入了一个带有模态运算符的实际因果逻辑，可以推理涉及多种可能性、时间性、知识和不确定性的因果关系。我们通过一些例子来说明这一点，并讨论了一些以后的研究方向。",
+    "tldr": "本研究扩展了Halpern和Pearl的实际因果模型，引入了一个带有模态运算符的因果逻辑，可以推理涉及多种可能性、时间性、知识和不确定性的因果关系。"
+}

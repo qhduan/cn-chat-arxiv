@@ -1,0 +1,12 @@
+{
+    "title": "Close-up View synthesis by Interpolating Optical Flow. (arXiv:2307.05913v1 [cs.CV])",
+    "abstract": "The virtual viewpoint is perceived as a new technique in virtual navigation, as yet not supported due to the lack of depth information and obscure camera parameters. In this paper, a method for achieving close-up virtual view is proposed and it only uses optical flow to build parallax effects to realize pseudo 3D projection without using depth sensor. We develop a bidirectional optical flow method to obtain any virtual viewpoint by proportional interpolation of optical flow. Moreover, with the ingenious application of the optical-flow-value, we achieve clear and visual-fidelity magnified results through lens stretching in any corner, which overcomes the visual distortion and image blur through viewpoint magnification and transition in Google Street View system.",
+    "link": "http://arxiv.org/abs/2307.05913",
+    "context": "Title: Close-up View synthesis by Interpolating Optical Flow. (arXiv:2307.05913v1 [cs.CV])\nAbstract: The virtual viewpoint is perceived as a new technique in virtual navigation, as yet not supported due to the lack of depth information and obscure camera parameters. In this paper, a method for achieving close-up virtual view is proposed and it only uses optical flow to build parallax effects to realize pseudo 3D projection without using depth sensor. We develop a bidirectional optical flow method to obtain any virtual viewpoint by proportional interpolation of optical flow. Moreover, with the ingenious application of the optical-flow-value, we achieve clear and visual-fidelity magnified results through lens stretching in any corner, which overcomes the visual distortion and image blur through viewpoint magnification and transition in Google Street View system.",
+    "path": "papers/23/07/2307.05913.json",
+    "total_tokens": 758,
+    "translated_title": "通过插值光流实现近距离视角合成",
+    "translated_abstract": "虚拟视点被视为虚拟导航中的新技术，但由于缺乏深度信息和模糊的相机参数而未得到支持。本文提出了一种通过光流建立视差效果，实现伪3D投影的近距离虚拟视角的方法，而不使用深度传感器。我们开发了一种双向光流方法，通过比例插值光流来获得任意虚拟视点。此外，通过巧妙应用光流值，我们通过镜头伸缩实现在任意角落的清晰和视觉保真的放大效果，从而克服了谷歌街景系统中通过视角放大和过渡带来的视觉失真和图像模糊问题。",
+    "tldr": "本文提出了一种利用光流插值的方法实现近距离视角合成，并通过巧妙应用光流值，克服了谷歌街景系统中的视觉失真和图像模糊问题。",
+    "en_tdlr": "This paper proposes a method for close-up view synthesis using interpolation of optical flow, and overcomes the issues of visual distortion and image blur in the Google Street View system by ingeniously applying the optical-flow-value."
+}

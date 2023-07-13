@@ -1,0 +1,11 @@
+{
+    "title": "A large sample theory for infinitesimal gradient boosting. (arXiv:2210.00736v2 [stat.ML] UPDATED)",
+    "abstract": "Infinitesimal gradient boosting (Dombry and Duchamps, 2021) is defined as the vanishing-learning-rate limit of the popular tree-based gradient boosting algorithm from machine learning. It is characterized as the solution of a nonlinear ordinary differential equation in a infinite-dimensional function space where the infinitesimal boosting operator driving the dynamics depends on the training sample. We consider the asymptotic behavior of the model in the large sample limit and prove its convergence to a deterministic process. This population limit is again characterized by a differential equation that depends on the population distribution. We explore some properties of this population limit: we prove that the dynamics makes the test error decrease and we consider its long time behavior.",
+    "link": "http://arxiv.org/abs/2210.00736",
+    "context": "Title: A large sample theory for infinitesimal gradient boosting. (arXiv:2210.00736v2 [stat.ML] UPDATED)\nAbstract: Infinitesimal gradient boosting (Dombry and Duchamps, 2021) is defined as the vanishing-learning-rate limit of the popular tree-based gradient boosting algorithm from machine learning. It is characterized as the solution of a nonlinear ordinary differential equation in a infinite-dimensional function space where the infinitesimal boosting operator driving the dynamics depends on the training sample. We consider the asymptotic behavior of the model in the large sample limit and prove its convergence to a deterministic process. This population limit is again characterized by a differential equation that depends on the population distribution. We explore some properties of this population limit: we prove that the dynamics makes the test error decrease and we consider its long time behavior.",
+    "path": "papers/22/10/2210.00736.json",
+    "total_tokens": 768,
+    "translated_title": "无穷小梯度提升的大样本理论",
+    "translated_abstract": "无穷小梯度提升是机器学习中流行的基于树的梯度提升算法的消失学习率极限。它被定义为在无穷维函数空间中的非线性常微分方程的解，其中驱动动力学的无穷小提升算子依赖于训练样本。我们研究了模型在大样本极限下的渐近性质，并证明了其收敛到一个确定性过程。这个种群极限再次被一个依赖于种群分布的微分方程所描述。我们探讨了这个种群极限的一些性质：我们证明了动力学使得测试误差减小，并考虑了它在长时间行为上的表现。",
+    "tldr": "本研究研究了无穷小梯度提升在大样本极限下的渐近性质，证明了其收敛到一个确定性过程，并探讨了其使得测试误差减小的动力学以及其长时间行为。"
+}

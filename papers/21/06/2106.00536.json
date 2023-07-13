@@ -1,0 +1,11 @@
+{
+    "title": "Crime and Mismeasured Punishment: Marginal Treatment Effect with Misclassification. (arXiv:2106.00536v7 [econ.EM] UPDATED)",
+    "abstract": "I partially identify the marginal treatment effect (MTE) when the treatment is misclassified. I explore two restrictions, allowing for dependence between the instrument and the misclassification decision. If the signs of the derivatives of the propensity scores are equal, I identify the MTE sign. If those derivatives are similar, I bound the MTE. To illustrate, I analyze the impact of alternative sentences (fines and community service v. no punishment) on recidivism in Brazil, where Appeals processes generate misclassification. The estimated misclassification bias may be as large as 10% of the largest possible MTE, and the bounds contain the correctly estimated MTE.",
+    "link": "http://arxiv.org/abs/2106.00536",
+    "context": "Title: Crime and Mismeasured Punishment: Marginal Treatment Effect with Misclassification. (arXiv:2106.00536v7 [econ.EM] UPDATED)\nAbstract: I partially identify the marginal treatment effect (MTE) when the treatment is misclassified. I explore two restrictions, allowing for dependence between the instrument and the misclassification decision. If the signs of the derivatives of the propensity scores are equal, I identify the MTE sign. If those derivatives are similar, I bound the MTE. To illustrate, I analyze the impact of alternative sentences (fines and community service v. no punishment) on recidivism in Brazil, where Appeals processes generate misclassification. The estimated misclassification bias may be as large as 10% of the largest possible MTE, and the bounds contain the correctly estimated MTE.",
+    "path": "papers/21/06/2106.00536.json",
+    "total_tokens": 758,
+    "translated_title": "犯罪和误测量的惩罚：误分类下的边际处理效应",
+    "translated_abstract": "当治疗被误分类时，我部分确定了边际处理效应（MTE）。我研究了两个限制条件，允许工具和误分类决策之间的依赖关系。如果倾向分数的导数符号相等，我可以确定MTE的符号。如果这些导数相似，我可以界定MTE。为了说明这一点，我分析了在巴西的上诉过程中生成误分类的情况下，不同刑罚方式（罚款和社区服务与无处罚）对再犯率的影响。估计的误分类偏差可能相当于最大可能MTE的10%，而界限包含了正确估计的MTE。",
+    "tldr": "本研究研究了当治疗被误分类时的边际处理效应，并通过分析巴西的上诉过程中对再犯率的影响来说明。结果显示，误分类偏差可能相当大，但界限包含了正确估计的效应。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "On The Quality Of Cryptocurrency Markets: Centralized Versus Decentralized Exchanges. (arXiv:2112.07386v6 [q-fin.TR] UPDATED)",
+    "abstract": "We compare the market quality of centralized crypto exchanges (CEXs) such as Binance and Kraken to decentralized blockchain-based venues (DEXs) such as Uniswap v2 and v3. After discussing the microstructure of such exchanges, we analyze two key aspects of market quality: transaction costs and deviations from the no-arbitrage condition. We find that CEXs and DEXs operate on roughly equal footing in terms of transaction costs, particularly in light of recent innovations in DEX protocols. Moreover, while CEXs provide superior price efficiency, DEXs eliminate custodian risk. These complementary advantages may explain why both market structures coexist.",
+    "link": "http://arxiv.org/abs/2112.07386",
+    "context": "Title: On The Quality Of Cryptocurrency Markets: Centralized Versus Decentralized Exchanges. (arXiv:2112.07386v6 [q-fin.TR] UPDATED)\nAbstract: We compare the market quality of centralized crypto exchanges (CEXs) such as Binance and Kraken to decentralized blockchain-based venues (DEXs) such as Uniswap v2 and v3. After discussing the microstructure of such exchanges, we analyze two key aspects of market quality: transaction costs and deviations from the no-arbitrage condition. We find that CEXs and DEXs operate on roughly equal footing in terms of transaction costs, particularly in light of recent innovations in DEX protocols. Moreover, while CEXs provide superior price efficiency, DEXs eliminate custodian risk. These complementary advantages may explain why both market structures coexist.",
+    "path": "papers/21/12/2112.07386.json",
+    "total_tokens": 787,
+    "translated_title": "《关于加密货币市场的质量：中心化与去中心化交易所的比较》",
+    "translated_abstract": "我们将中心化加密货币交易所（CEXs）如币安和Kraken与去中心化基于区块链的交易场所（DEXs）如Uniswap v2和v3的市场质量进行比较。在讨论这些交易所的微观结构之后，我们分析了市场质量的两个关键方面：交易成本和违背无套利条件的程度。我们发现，在最近DEX协议的创新方面，CEXs和DEXs在交易成本方面基本平衡。此外，虽然CEXs提供了更高的价格效率，DEXs消除了托管风险。这些互补的优势可能解释了为什么两种市场结构可以共存。",
+    "tldr": "本研究比较了中心化和去中心化加密货币交易所的市场质量，发现它们在交易成本方面基本平衡，在价格效率和托管风险方面各有优势，这解释了为什么两种市场结构可以共存。",
+    "en_tdlr": "This study compares the market quality of centralized and decentralized cryptocurrency exchanges, finding that they are roughly equal in terms of transaction costs, with advantages in price efficiency and custodian risk elimination respectively, explaining the coexistence of both market structures."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Description Logics with Abstraction and Refinement. (arXiv:2306.03717v2 [cs.AI] UPDATED)",
+    "abstract": "Ontologies often require knowledge representation on multiple levels of abstraction, but description logics (DLs) are not well-equipped for supporting this. We propose an extension of DLs in which abstraction levels are first-class citizens and which provides explicit operators for the abstraction and refinement of concepts and roles across multiple abstraction levels, based on conjunctive queries. We prove that reasoning in the resulting family of DLs is decidable while several seemingly harmless variations turn out to be undecidable. We also pinpoint the precise complexity of our logics and several relevant fragments.",
+    "link": "http://arxiv.org/abs/2306.03717",
+    "context": "Title: Description Logics with Abstraction and Refinement. (arXiv:2306.03717v2 [cs.AI] UPDATED)\nAbstract: Ontologies often require knowledge representation on multiple levels of abstraction, but description logics (DLs) are not well-equipped for supporting this. We propose an extension of DLs in which abstraction levels are first-class citizens and which provides explicit operators for the abstraction and refinement of concepts and roles across multiple abstraction levels, based on conjunctive queries. We prove that reasoning in the resulting family of DLs is decidable while several seemingly harmless variations turn out to be undecidable. We also pinpoint the precise complexity of our logics and several relevant fragments.",
+    "path": "papers/23/06/2306.03717.json",
+    "total_tokens": 650,
+    "translated_title": "具有抽象和细化的描述逻辑",
+    "translated_abstract": "本文提出了一种扩展的描述逻辑（DLs），该DLs有助于支持多个抽象层次的知识表示。我们的扩展DLs将抽象层级作为第一类公民，提供了明确的操作符，用于跨多个抽象层次进行概念和角色的抽象和细化，基于合取查询。我们证明了在得到的DLs族中进行推理是可判定的，而一些看似无害的变化实际上是不可判定的。我们还明确了我们逻辑和一些相关片段的复杂性。",
+    "tldr": "本文提出了一种扩展的描述逻辑（DLs）以支持多个抽象层次的知识表示，并证明了推理在该逻辑中是可判定的。"
+}

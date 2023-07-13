@@ -1,0 +1,12 @@
+{
+    "title": "Review of feedback in Automated Essay Scoring. (arXiv:2307.05553v1 [cs.CL])",
+    "abstract": "The first automated essay scoring system was developed 50 years ago. Automated essay scoring systems are developing into systems with richer functions than the previous simple scoring systems. Its purpose is not only to score essays but also as a learning tool to improve the writing skill of users. Feedback is the most important aspect of making an automated essay scoring system useful in real life. The importance of feedback was already emphasized in the first AES system. This paper reviews research on feedback including different feedback types and essay traits on automated essay scoring. We also reviewed the latest case studies of the automated essay scoring system that provides feedback.",
+    "link": "http://arxiv.org/abs/2307.05553",
+    "context": "Title: Review of feedback in Automated Essay Scoring. (arXiv:2307.05553v1 [cs.CL])\nAbstract: The first automated essay scoring system was developed 50 years ago. Automated essay scoring systems are developing into systems with richer functions than the previous simple scoring systems. Its purpose is not only to score essays but also as a learning tool to improve the writing skill of users. Feedback is the most important aspect of making an automated essay scoring system useful in real life. The importance of feedback was already emphasized in the first AES system. This paper reviews research on feedback including different feedback types and essay traits on automated essay scoring. We also reviewed the latest case studies of the automated essay scoring system that provides feedback.",
+    "path": "papers/23/07/2307.05553.json",
+    "total_tokens": 694,
+    "translated_title": "自动化论文评分中的反馈综述",
+    "translated_abstract": "第一个自动化论文评分系统诞生于50年前。自动化论文评分系统正在发展成为比以前简单评分系统更加功能丰富的系统。它的目的不仅仅是评分，还作为一个学习工具来提高用户的写作能力。反馈是使自动化论文评分系统在实际生活中有用的最重要方面。在第一个自动化论文评分系统中已经强调了反馈的重要性。本文综述了关于自动化论文评分的反馈研究，包括不同类型的反馈和论文特征。我们还回顾了提供反馈的最新案例研究。",
+    "tldr": "这篇论文综述了自动化论文评分中的反馈研究，包括不同类型的反馈和论文特征，并回顾了提供反馈的最新案例研究。",
+    "en_tdlr": "This paper reviews research on feedback in automated essay scoring, including different feedback types and essay traits, and provides a review of the latest case studies on automated essay scoring systems that provide feedback."
+}
