@@ -1,0 +1,11 @@
+{
+    "title": "Garbage in, garbage out: Zero-shot detection of crime using Large Language Models. (arXiv:2307.06844v1 [cs.CL])",
+    "abstract": "This paper proposes exploiting the common sense knowledge learned by large language models to perform zero-shot reasoning about crimes given textual descriptions of surveillance videos. We show that when video is (manually) converted to high quality textual descriptions, large language models are capable of detecting and classifying crimes with state-of-the-art performance using only zero-shot reasoning. However, existing automated video-to-text approaches are unable to generate video descriptions of sufficient quality to support reasoning (garbage video descriptions into the large language model, garbage out).",
+    "link": "http://arxiv.org/abs/2307.06844",
+    "context": "Title: Garbage in, garbage out: Zero-shot detection of crime using Large Language Models. (arXiv:2307.06844v1 [cs.CL])\nAbstract: This paper proposes exploiting the common sense knowledge learned by large language models to perform zero-shot reasoning about crimes given textual descriptions of surveillance videos. We show that when video is (manually) converted to high quality textual descriptions, large language models are capable of detecting and classifying crimes with state-of-the-art performance using only zero-shot reasoning. However, existing automated video-to-text approaches are unable to generate video descriptions of sufficient quality to support reasoning (garbage video descriptions into the large language model, garbage out).",
+    "path": "papers/23/07/2307.06844.json",
+    "total_tokens": 688,
+    "translated_title": "垃圾进，垃圾出：利用大型语言模型进行零样本犯罪检测",
+    "translated_abstract": "本文提出利用大型语言模型学习的常识知识，在给定监控视频的文本描述的情况下进行关于犯罪的零样本推理。我们展示了当将视频手动转换为高质量的文本描述时，大型语言模型能够仅通过零样本推理实现具有最先进性能的犯罪检测和分类。然而，现有的自动化视频转文本方法无法生成足够质量的视频描述来支持推理（垃圾视频描述进入大型语言模型后，产生的结果也是垃圾）。",
+    "tldr": "本文利用大型语言模型学习的常识知识，通过将视频转换为文本描述，实现了零样本推理的犯罪检测。现有的视频转文本方法质量不足以支持推理。"
+}

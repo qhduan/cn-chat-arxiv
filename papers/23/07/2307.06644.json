@@ -1,0 +1,12 @@
+{
+    "title": "An Improved Uniform Convergence Bound with Fat-Shattering Dimension. (arXiv:2307.06644v1 [cs.LG])",
+    "abstract": "The fat-shattering dimension characterizes the uniform convergence property of real-valued functions. The state-of-the-art upper bounds feature a multiplicative squared logarithmic factor on the sample complexity, leaving an open gap with the existing lower bound. We provide an improved uniform convergence bound that closes this gap.",
+    "link": "http://arxiv.org/abs/2307.06644",
+    "context": "Title: An Improved Uniform Convergence Bound with Fat-Shattering Dimension. (arXiv:2307.06644v1 [cs.LG])\nAbstract: The fat-shattering dimension characterizes the uniform convergence property of real-valued functions. The state-of-the-art upper bounds feature a multiplicative squared logarithmic factor on the sample complexity, leaving an open gap with the existing lower bound. We provide an improved uniform convergence bound that closes this gap.",
+    "path": "papers/23/07/2307.06644.json",
+    "total_tokens": 509,
+    "translated_title": "一个具有“fat-shattering”维度的改进的均匀收敛界限",
+    "translated_abstract": "“fat-shattering”维度刻画了实值函数的均匀收敛特性。现有的状态-of-the-art上界在样本复杂度上存在一个乘法平方对数因子，与已有的下界之间存在一个空缺。本文提供了一个改进的均匀收敛界限来填补这个空缺。",
+    "tldr": "本文提出了一个改进的均匀收敛界限，填补了现有状态-of-the-art上界与下界之间的空缺。",
+    "en_tdlr": "This paper presents an improved uniform convergence bound that closes the gap between the existing state-of-the-art upper bound and lower bound."
+}

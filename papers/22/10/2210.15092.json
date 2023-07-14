@@ -1,0 +1,12 @@
+{
+    "title": "Generalized Laplacian Regularized Framelet Graph Neural Networks. (arXiv:2210.15092v2 [cs.LG] UPDATED)",
+    "abstract": "This paper introduces a novel Framelet Graph approach based on p-Laplacian GNN. The proposed two models, named p-Laplacian undecimated framelet graph convolution (pL-UFG) and generalized p-Laplacian undecimated framelet graph convolution (pL-fUFG) inherit the nature of p-Laplacian with the expressive power of multi-resolution decomposition of graph signals. The empirical study highlights the excellent performance of the pL-UFG and pL-fUFG in different graph learning tasks including node classification and signal denoising.",
+    "link": "http://arxiv.org/abs/2210.15092",
+    "context": "Title: Generalized Laplacian Regularized Framelet Graph Neural Networks. (arXiv:2210.15092v2 [cs.LG] UPDATED)\nAbstract: This paper introduces a novel Framelet Graph approach based on p-Laplacian GNN. The proposed two models, named p-Laplacian undecimated framelet graph convolution (pL-UFG) and generalized p-Laplacian undecimated framelet graph convolution (pL-fUFG) inherit the nature of p-Laplacian with the expressive power of multi-resolution decomposition of graph signals. The empirical study highlights the excellent performance of the pL-UFG and pL-fUFG in different graph learning tasks including node classification and signal denoising.",
+    "path": "papers/22/10/2210.15092.json",
+    "total_tokens": 729,
+    "translated_title": "广义的Laplacian正则化框架图神经网络",
+    "translated_abstract": "本文引入了一种新的基于p-Laplacian GNN的Framelet图方法。提出的两个模型，分别命名为p-Laplacian不下采样framelet图卷积（pL-UFG）和广义p-Laplacian不下采样framelet图卷积（pL-fUFG），继承了p-Laplacian的性质，并结合了图信号的多分辨率分解的表达能力。实证研究突出了pL-UFG和pL-fUFG在不同的图学习任务中的优异表现，包括节点分类和信号去噪。",
+    "tldr": "本文提出了一种广义的Laplacian正则化框架图神经网络，该网络利用了p-Laplacian的性质和图信号的多分辨率分解的表达能力。实验结果表明，该网络在节点分类和信号去噪等图学习任务中具有出色的性能。",
+    "en_tdlr": "This paper introduces a generalized Laplacian regularized framelet graph neural network, which utilizes the properties of p-Laplacian and the expressive power of multi-resolution decomposition of graph signals. Experimental results demonstrate the excellent performance of the network in graph learning tasks such as node classification and signal denoising."
+}

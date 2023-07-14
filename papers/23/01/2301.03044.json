@@ -1,0 +1,12 @@
+{
+    "title": "A Survey on Transformers in Reinforcement Learning. (arXiv:2301.03044v2 [cs.LG] UPDATED)",
+    "abstract": "Transformer has been considered the dominating neural architecture in NLP and CV, mostly under supervised settings. Recently, a similar surge of using Transformers has appeared in the domain of reinforcement learning (RL), but it is faced with unique design choices and challenges brought by the nature of RL. However, the evolution of Transformers in RL has not yet been well unraveled. In this paper, we seek to systematically review motivations and progress on using Transformers in RL, provide a taxonomy on existing works, discuss each sub-field, and summarize future prospects.",
+    "link": "http://arxiv.org/abs/2301.03044",
+    "context": "Title: A Survey on Transformers in Reinforcement Learning. (arXiv:2301.03044v2 [cs.LG] UPDATED)\nAbstract: Transformer has been considered the dominating neural architecture in NLP and CV, mostly under supervised settings. Recently, a similar surge of using Transformers has appeared in the domain of reinforcement learning (RL), but it is faced with unique design choices and challenges brought by the nature of RL. However, the evolution of Transformers in RL has not yet been well unraveled. In this paper, we seek to systematically review motivations and progress on using Transformers in RL, provide a taxonomy on existing works, discuss each sub-field, and summarize future prospects.",
+    "path": "papers/23/01/2301.03044.json",
+    "total_tokens": 640,
+    "translated_title": "关于强化学习中Transformers的调查",
+    "translated_abstract": "Transformer已被认为是自然语言处理（NLP）和计算机视觉（CV）领域中的主导神经架构，主要应用于监督学习任务。最近，在强化学习（RL）领域中也出现了类似的使用Transformers的潮流，但面临着RL的特殊设计选择和挑战。然而，Transformers在RL中的发展尚未被充分揭示。在本文中，我们系统地回顾了在RL中使用Transformers的动机和进展，提供了一个现有工作的分类体系，讨论了每个子领域，并总结了未来的前景。",
+    "tldr": "这篇论文是一项调查研究，总结了在强化学习领域使用Transformers的动机、进展和未来前景。",
+    "en_tdlr": "This paper is a survey that summarizes the motivations, progress, and future prospects of using Transformers in the field of reinforcement learning."
+}

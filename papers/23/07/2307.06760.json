@@ -1,0 +1,12 @@
+{
+    "title": "Privacy-Utility Trade-offs in Neural Networks for Medical Population Graphs: Insights from Differential Privacy and Graph Structure. (arXiv:2307.06760v1 [cs.LG])",
+    "abstract": "We initiate an empirical investigation into differentially private graph neural networks on population graphs from the medical domain by examining privacy-utility trade-offs at different privacy levels on both real-world and synthetic datasets and performing auditing through membership inference attacks. Our findings highlight the potential and the challenges of this specific DP application area. Moreover, we find evidence that the underlying graph structure constitutes a potential factor for larger performance gaps by showing a correlation between the degree of graph homophily and the accuracy of the trained model.",
+    "link": "http://arxiv.org/abs/2307.06760",
+    "context": "Title: Privacy-Utility Trade-offs in Neural Networks for Medical Population Graphs: Insights from Differential Privacy and Graph Structure. (arXiv:2307.06760v1 [cs.LG])\nAbstract: We initiate an empirical investigation into differentially private graph neural networks on population graphs from the medical domain by examining privacy-utility trade-offs at different privacy levels on both real-world and synthetic datasets and performing auditing through membership inference attacks. Our findings highlight the potential and the challenges of this specific DP application area. Moreover, we find evidence that the underlying graph structure constitutes a potential factor for larger performance gaps by showing a correlation between the degree of graph homophily and the accuracy of the trained model.",
+    "path": "papers/23/07/2307.06760.json",
+    "total_tokens": 783,
+    "translated_title": "医疗人口图中神经网络的隐私与效用权衡：来自差分隐私和图结构的观点",
+    "translated_abstract": "本文通过对医疗领域的人口图进行差分隐私图神经网络的实证研究，调查了在不同隐私水平下的隐私与效用的权衡，并通过成员推理攻击进行审核。我们的研究结果突出了这一特定差分隐私应用领域的潜力和挑战。此外，我们发现底层图结构与训练模型的准确性之间存在相关性，表明图的同质性程度与训练模型的准确性之间存在潜在因素，这可能导致更大的性能差距。",
+    "tldr": "本文通过对医疗领域的人口图进行差分隐私图神经网络的实证研究，调查了隐私和效用之间的权衡，并通过成员推理攻击进行审核。研究结果表明这一特定差分隐私应用领域具有潜力和挑战，并发现图的同质性程度与训练模型的准确性之间存在相关性。",
+    "en_tdlr": "This paper empirically investigates differentially private graph neural networks on population graphs in the medical domain, examining trade-offs between privacy and utility. The findings highlight the potential and challenges in this specific application area, and reveal correlations between graph homophily and model accuracy."
+}

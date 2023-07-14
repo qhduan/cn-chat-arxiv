@@ -1,0 +1,11 @@
+{
+    "title": "Incomplete Utterance Rewriting as Sequential Greedy Tagging. (arXiv:2307.06337v1 [cs.LG])",
+    "abstract": "The task of incomplete utterance rewriting has recently gotten much attention. Previous models struggled to extract information from the dialogue context, as evidenced by the low restoration scores. To address this issue, we propose a novel sequence tagging-based model, which is more adept at extracting information from context. Meanwhile, we introduce speaker-aware embedding to model speaker variation. Experiments on multiple public datasets show that our model achieves optimal results on all nine restoration scores while having other metric scores comparable to previous state-of-the-art models. Furthermore, benefitting from the model's simplicity, our approach outperforms most previous models on inference speed.",
+    "link": "http://arxiv.org/abs/2307.06337",
+    "context": "Title: Incomplete Utterance Rewriting as Sequential Greedy Tagging. (arXiv:2307.06337v1 [cs.LG])\nAbstract: The task of incomplete utterance rewriting has recently gotten much attention. Previous models struggled to extract information from the dialogue context, as evidenced by the low restoration scores. To address this issue, we propose a novel sequence tagging-based model, which is more adept at extracting information from context. Meanwhile, we introduce speaker-aware embedding to model speaker variation. Experiments on multiple public datasets show that our model achieves optimal results on all nine restoration scores while having other metric scores comparable to previous state-of-the-art models. Furthermore, benefitting from the model's simplicity, our approach outperforms most previous models on inference speed.",
+    "path": "papers/23/07/2307.06337.json",
+    "total_tokens": 773,
+    "translated_title": "不完整话语重写作为顺序贪婪标注",
+    "translated_abstract": "不完整话语重写的任务最近受到了很多关注。之前的模型很难从对话上下文中提取信息，这在恢复得分低的情况下得以证明。为了解决这个问题，我们提出了一种新颖的基于序列标注的模型，更擅长从上下文中提取信息。同时，我们引入了区分说话者的嵌入来建模说话者的变化。在多个公开数据集上的实验表明，我们的模型在所有九个恢复得分上都达到了最优结果，同时其他指标得分也与之前最先进的模型相当。此外，得益于模型的简单性，我们的方法在推理速度上超过了大多数之前的模型。",
+    "tldr": "本论文提出了一种基于序列标注的模型，能够更好地从对话上下文中提取信息，并引入了区分说话者的嵌入来建模说话者的变化。实验结果表明，该模型在恢复得分方面达到了最优，并在推理速度上胜过大多数之前的模型。"
+}

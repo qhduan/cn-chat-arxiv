@@ -1,0 +1,11 @@
+{
+    "title": "Data Augmentation in Training CNNs: Injecting Noise to Images. (arXiv:2307.06855v1 [cs.CV])",
+    "abstract": "Noise injection is a fundamental tool for data augmentation, and yet there is no widely accepted procedure to incorporate it with learning frameworks. This study analyzes the effects of adding or applying different noise models of varying magnitudes to Convolutional Neural Network (CNN) architectures. Noise models that are distributed with different density functions are given common magnitude levels via Structural Similarity (SSIM) metric in order to create an appropriate ground for comparison. The basic results are conforming with the most of the common notions in machine learning, and also introduce some novel heuristics and recommendations on noise injection. The new approaches will provide better understanding on optimal learning procedures for image classification.",
+    "link": "http://arxiv.org/abs/2307.06855",
+    "context": "Title: Data Augmentation in Training CNNs: Injecting Noise to Images. (arXiv:2307.06855v1 [cs.CV])\nAbstract: Noise injection is a fundamental tool for data augmentation, and yet there is no widely accepted procedure to incorporate it with learning frameworks. This study analyzes the effects of adding or applying different noise models of varying magnitudes to Convolutional Neural Network (CNN) architectures. Noise models that are distributed with different density functions are given common magnitude levels via Structural Similarity (SSIM) metric in order to create an appropriate ground for comparison. The basic results are conforming with the most of the common notions in machine learning, and also introduce some novel heuristics and recommendations on noise injection. The new approaches will provide better understanding on optimal learning procedures for image classification.",
+    "path": "papers/23/07/2307.06855.json",
+    "total_tokens": 739,
+    "translated_title": "训练CNN的数据增强技术：给图像注入噪声",
+    "translated_abstract": "噪声注入是数据增强的一个基本工具，然而目前还没有广泛接受的程序将其与学习框架相结合。本研究分析了将不同噪声模型以不同的幅度添加到卷积神经网络（CNN）架构上的效果。为了进行比较，使用结构相似度（SSIM）度量方法给出具有不同密度函数的噪声模型相同的幅度水平。基本结果一致地符合机器学习中的大部分常识，同时还介绍了一些关于噪声注入的新启发和建议。这些新方法将有助于更好地理解图像分类的最佳学习过程。",
+    "tldr": "这项研究分析了将不同噪声模型以不同幅度添加到CNN架构中的效果，并提出了一些噪声注入的新启发和建议，有助于优化图像分类的学习过程。"
+}

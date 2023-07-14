@@ -1,0 +1,11 @@
+{
+    "title": "Efficient SGD Neural Network Training via Sublinear Activated Neuron Identification. (arXiv:2307.06565v1 [cs.LG])",
+    "abstract": "Deep learning has been widely used in many fields, but the model training process usually consumes massive computational resources and time. Therefore, designing an efficient neural network training method with a provable convergence guarantee is a fundamental and important research question. In this paper, we present a static half-space report data structure that consists of a fully connected two-layer neural network for shifted ReLU activation to enable activated neuron identification in sublinear time via geometric search. We also prove that our algorithm can converge in $O(M^2/\\epsilon^2)$ time with network size quadratic in the coefficient norm upper bound $M$ and error term $\\epsilon$.",
+    "link": "http://arxiv.org/abs/2307.06565",
+    "context": "Title: Efficient SGD Neural Network Training via Sublinear Activated Neuron Identification. (arXiv:2307.06565v1 [cs.LG])\nAbstract: Deep learning has been widely used in many fields, but the model training process usually consumes massive computational resources and time. Therefore, designing an efficient neural network training method with a provable convergence guarantee is a fundamental and important research question. In this paper, we present a static half-space report data structure that consists of a fully connected two-layer neural network for shifted ReLU activation to enable activated neuron identification in sublinear time via geometric search. We also prove that our algorithm can converge in $O(M^2/\\epsilon^2)$ time with network size quadratic in the coefficient norm upper bound $M$ and error term $\\epsilon$.",
+    "path": "papers/23/07/2307.06565.json",
+    "total_tokens": 729,
+    "translated_title": "通过亚线性激活神经元识别实现高效的SGD神经网络训练",
+    "translated_abstract": "深度学习在许多领域得到了广泛应用，但模型训练过程通常需要消耗大量的计算资源和时间。因此，设计一个具有可证明收敛保证的高效神经网络训练方法是一个基本且重要的研究问题。在本文中，我们提出了一个静态的半空间报告数据结构，其中包含一个全连接的两层神经网络用于实现平移ReLU激活，以通过几何搜索在亚线性时间内进行激活神经元的识别。我们还证明了我们的算法可以在$O(M^2/\\epsilon^2)$的时间复杂度内收敛，其中$M$是系数范数上界，$\\epsilon$是误差项。",
+    "tldr": "通过亚线性激活神经元识别实现高效的SGD神经网络训练，算法收敛时间复杂度为$O(M^2/\\epsilon^2)$。"
+}

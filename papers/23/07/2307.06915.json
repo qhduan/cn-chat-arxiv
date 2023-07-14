@@ -1,0 +1,11 @@
+{
+    "title": "Weighted Averaged Stochastic Gradient Descent: Asymptotic Normality and Optimality. (arXiv:2307.06915v1 [stat.ML])",
+    "abstract": "Stochastic Gradient Descent (SGD) is one of the simplest and most popular algorithms in modern statistical and machine learning due to its computational and memory efficiency. Various averaging schemes have been proposed to accelerate the convergence of SGD in different settings. In this paper, we explore a general averaging scheme for SGD. Specifically, we establish the asymptotic normality of a broad range of weighted averaged SGD solutions and provide asymptotically valid online inference approaches. Furthermore, we propose an adaptive averaging scheme that exhibits both optimal statistical rate and favorable non-asymptotic convergence, drawing insights from the optimal weight for the linear model in terms of non-asymptotic mean squared error (MSE).",
+    "link": "http://arxiv.org/abs/2307.06915",
+    "context": "Title: Weighted Averaged Stochastic Gradient Descent: Asymptotic Normality and Optimality. (arXiv:2307.06915v1 [stat.ML])\nAbstract: Stochastic Gradient Descent (SGD) is one of the simplest and most popular algorithms in modern statistical and machine learning due to its computational and memory efficiency. Various averaging schemes have been proposed to accelerate the convergence of SGD in different settings. In this paper, we explore a general averaging scheme for SGD. Specifically, we establish the asymptotic normality of a broad range of weighted averaged SGD solutions and provide asymptotically valid online inference approaches. Furthermore, we propose an adaptive averaging scheme that exhibits both optimal statistical rate and favorable non-asymptotic convergence, drawing insights from the optimal weight for the linear model in terms of non-asymptotic mean squared error (MSE).",
+    "path": "papers/23/07/2307.06915.json",
+    "total_tokens": 813,
+    "translated_title": "加权平均随机梯度下降: 渐近正态性和最优性",
+    "translated_abstract": "随机梯度下降（SGD）是现代统计和机器学习中最简单和最流行的算法之一，由于其计算和内存效率而受到青睐。在不同的情境下，已经提出了各种平均方案来加速SGD的收敛。在本文中，我们探讨了一种用于SGD的通用平均方案。具体而言，我们建立了一类加权平均SGD解的渐近正态性，并提供了渐近有效的在线推理方法。此外，我们提出了一种自适应平均方案，展现出最优的统计速度和有利的非渐近收敛性，借鉴了线性模型的非渐近均方误差（MSE）的最优权重的见解。",
+    "tldr": "本文探索了一种加权平均随机梯度下降（SGD）方案，并建立了渐近正态性，提供了渐近有效的在线推理方法。此外，我们提出了一种自适应平均方案，具有最优的统计速度和有利的非渐近收敛性。"
+}

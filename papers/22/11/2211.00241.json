@@ -1,0 +1,11 @@
+{
+    "title": "Adversarial Policies Beat Superhuman Go AIs. (arXiv:2211.00241v4 [cs.LG] UPDATED)",
+    "abstract": "We attack the state-of-the-art Go-playing AI system KataGo by training adversarial policies against it, achieving a >97% win rate against KataGo running at superhuman settings. Our adversaries do not win by playing Go well. Instead, they trick KataGo into making serious blunders. Our attack transfers zero-shot to other superhuman Go-playing AIs, and is comprehensible to the extent that human experts can implement it without algorithmic assistance to consistently beat superhuman AIs. The core vulnerability uncovered by our attack persists even in KataGo agents adversarially trained to defend against our attack. Our results demonstrate that even superhuman AI systems may harbor surprising failure modes. Example games are available https://goattack.far.ai/.",
+    "link": "http://arxiv.org/abs/2211.00241",
+    "context": "Title: Adversarial Policies Beat Superhuman Go AIs. (arXiv:2211.00241v4 [cs.LG] UPDATED)\nAbstract: We attack the state-of-the-art Go-playing AI system KataGo by training adversarial policies against it, achieving a >97% win rate against KataGo running at superhuman settings. Our adversaries do not win by playing Go well. Instead, they trick KataGo into making serious blunders. Our attack transfers zero-shot to other superhuman Go-playing AIs, and is comprehensible to the extent that human experts can implement it without algorithmic assistance to consistently beat superhuman AIs. The core vulnerability uncovered by our attack persists even in KataGo agents adversarially trained to defend against our attack. Our results demonstrate that even superhuman AI systems may harbor surprising failure modes. Example games are available https://goattack.far.ai/.",
+    "path": "papers/22/11/2211.00241.json",
+    "total_tokens": 793,
+    "translated_title": "对抗性策略战胜超级人类级围棋AI",
+    "translated_abstract": "我们通过训练对抗性策略来攻击最先进的围棋AI系统KataGo，在超人类设置下取得了超过97%的胜率。我们的对手并不是通过出色地下围棋来获胜，而是通过诱使KataGo犯下严重失误。我们的攻击可以零损耗地传输给其他超级人类级围棋AI，并且对人类专家来说是可以理解的，他们可以在没有算法辅助的情况下实施这种攻击来持续战胜超级人类级AI。我们的攻击揭示了KataGo的核心弱点，即使是对抗性训练的KataGo代理也无法防御我们的攻击。我们的研究结果表明，即使是超级人类级的AI系统也可能存在意想不到的失败模式。",
+    "tldr": "通过对抗性策略攻击，我们成功战胜了超级人类级围棋AI KataGo，揭示了其核心弱点，并展示了即使是超级AI系统也可能存在意想不到的失败模式。"
+}

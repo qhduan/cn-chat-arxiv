@@ -1,0 +1,12 @@
+{
+    "title": "Critical comparisons on deep learning approaches for foreign exchange rate prediction. (arXiv:2307.06600v1 [q-fin.CP])",
+    "abstract": "In a natural market environment, the price prediction model needs to be updated in real time according to the data obtained by the system to ensure the accuracy of the prediction. In order to improve the user experience of the system, the price prediction function needs to use the fastest training model and the model prediction fitting effect of the best network as a predictive model. We conduct research on the fundamental theories of RNN, LSTM, and BP neural networks, analyse their respective characteristics, and discuss their advantages and disadvantages to provide a reference for the selection of price-prediction models.",
+    "link": "http://arxiv.org/abs/2307.06600",
+    "context": "Title: Critical comparisons on deep learning approaches for foreign exchange rate prediction. (arXiv:2307.06600v1 [q-fin.CP])\nAbstract: In a natural market environment, the price prediction model needs to be updated in real time according to the data obtained by the system to ensure the accuracy of the prediction. In order to improve the user experience of the system, the price prediction function needs to use the fastest training model and the model prediction fitting effect of the best network as a predictive model. We conduct research on the fundamental theories of RNN, LSTM, and BP neural networks, analyse their respective characteristics, and discuss their advantages and disadvantages to provide a reference for the selection of price-prediction models.",
+    "path": "papers/23/07/2307.06600.json",
+    "total_tokens": 647,
+    "translated_title": "外汇汇率预测的深度学习方法的关键比较",
+    "translated_abstract": "在自然市场环境中，价格预测模型需要根据系统获取的数据实时更新，以确保预测的准确性。为了提高系统的用户体验，价格预测功能需要使用最快的训练模型和最佳网络模型的预测拟合效果作为预测模型。我们对RNN、LSTM和BP神经网络的基本理论进行研究，分析它们各自的特点，并讨论它们的优缺点，以提供价格预测模型选择的参考。",
+    "tldr": "本论文对RNN、LSTM和BP神经网络的基本理论进行研究，比较它们的优势和劣势，为选择价格预测模型提供参考。",
+    "en_tdlr": "This paper compares the fundamental theories of RNN, LSTM, and BP neural networks, analyzing their respective characteristics and discussing their advantages and disadvantages, providing a reference for selecting price prediction models."
+}

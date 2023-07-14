@@ -1,0 +1,12 @@
+{
+    "title": "Deep Neural Networks for Semiparametric Frailty Models via H-likelihood. (arXiv:2307.06581v1 [stat.ML])",
+    "abstract": "For prediction of clustered time-to-event data, we propose a new deep neural network based gamma frailty model (DNN-FM). An advantage of the proposed model is that the joint maximization of the new h-likelihood provides maximum likelihood estimators for fixed parameters and best unbiased predictors for random frailties. Thus, the proposed DNN-FM is trained by using a negative profiled h-likelihood as a loss function, constructed by profiling out the non-parametric baseline hazard. Experimental studies show that the proposed method enhances the prediction performance of the existing methods. A real data analysis shows that the inclusion of subject-specific frailties helps to improve prediction of the DNN based Cox model (DNN-Cox).",
+    "link": "http://arxiv.org/abs/2307.06581",
+    "context": "Title: Deep Neural Networks for Semiparametric Frailty Models via H-likelihood. (arXiv:2307.06581v1 [stat.ML])\nAbstract: For prediction of clustered time-to-event data, we propose a new deep neural network based gamma frailty model (DNN-FM). An advantage of the proposed model is that the joint maximization of the new h-likelihood provides maximum likelihood estimators for fixed parameters and best unbiased predictors for random frailties. Thus, the proposed DNN-FM is trained by using a negative profiled h-likelihood as a loss function, constructed by profiling out the non-parametric baseline hazard. Experimental studies show that the proposed method enhances the prediction performance of the existing methods. A real data analysis shows that the inclusion of subject-specific frailties helps to improve prediction of the DNN based Cox model (DNN-Cox).",
+    "path": "papers/23/07/2307.06581.json",
+    "total_tokens": 812,
+    "translated_title": "基于深度神经网络的半参数脆弱性模型及其H-似然法",
+    "translated_abstract": "为了预测群集化的时间至事件数据，我们提出了一种新的基于深度神经网络的伽马脆弱性模型（DNN-FM）。该模型的一个优势是通过新的H-似然函数的联合最大化，为固定参数提供了最大似然估计器，并为随机脆性提供了最佳无偏预测器。因此，所提出的DNN-FM通过使用负面剖析的H-似然函数作为损失函数进行训练，通过剖析非参数基线风险来构造。实验研究表明，所提出的方法提高了现有方法的预测性能。实际数据分析表明，包含个体特定脆弱性有助于改善基于DNN的Cox模型（DNN-Cox）的预测能力。",
+    "tldr": "本文提出了一种新的基于深度神经网络的脆弱性模型，并使用H-似然法进行训练和预测。实验结果表明该方法提高了预测性能，特别是在包含个体特定脆弱性的情况下。",
+    "en_tdlr": "This paper proposes a new deep neural network based frailty model and trains it using H-likelihood. Experimental results show that the proposed method improves prediction performance, especially when including subject-specific frailties."
+}
