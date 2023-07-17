@@ -8,12 +8,13 @@
 | [^4] | [Advertiser Learning in Direct Advertising Markets.](http://arxiv.org/abs/2307.07015) | 广告商在直接广告市场中学习如何选择网站上的广告，调整他们的先验信念，并通过集合广告商信息来提高广告效果。 |
 | [^5] | [Markov Persuasion Processes with Endogenous Agent Beliefs.](http://arxiv.org/abs/2307.03181) | 本论文研究了马尔可夫说服过程中的内生代理信念，并通过分析不同的信息模型来建模代理对历史信息的了解程度。 |
 | [^6] | [Signalling for Electricity Demand Response: When is Truth Telling Optimal?.](http://arxiv.org/abs/2302.12770) | 该论文研究了电力需求响应计划中的信息传输问题，发现如果电力价格定为其生产边际成本，则系统运营商没有欺骗的动机且总是说真话。 |
-| [^7] | [Combinatorial Pen Testing (or Consumer Surplus of Deferred-Acceptance Auctions).](http://arxiv.org/abs/2301.12462) | 该论文提出了一种组合式渗透测试算法，通过类比拍卖理论框架，可以将近似最优的延迟接受机制转换为近似最优的渗透测试算法，并且在逼近程度上保证了额外开销的上限。 |
-| [^8] | [Persuading Risk-Conscious Agents: A Geometric Approach.](http://arxiv.org/abs/2208.03758) | 本研究利用几何方法解决了发送者与风险意识代理人之间的说服问题，提出了一个凸优化框架来找到最优的说服机制，并探讨了完全说服的实现条件。在二元说服问题中，我们证明了在凸性假设下可以找到最优解。 |
-| [^9] | [Forecasting macroeconomic data with Bayesian VARs: Sparse or dense? It depends!.](http://arxiv.org/abs/2206.04902) | 本文介绍了一种半全球框架，用于改进贝叶斯VAR模型的预测性能。该框架替代了传统的全局缩减参数，使用组别特定的缩减参数。通过广泛的模拟研究和实证应用，展示了该框架的优点。在稀疏/密集先验下，预测性能因评估的经济变量和时间框架而异，但动态模型平均法可以缓解这个问题。 |
-| [^10] | [Unpacking the Black Box: Regulating Algorithmic Decisions.](http://arxiv.org/abs/2110.03443) | 本文研究如何在代理使用复杂的“黑盒”预测函数进行决策的情况下，对算法决策进行最优调控。研究发现，限制代理使用透明度足够高的预测函数是低效的，而针对激励偏差源头的目标化工具可以提供次优解决方案，从而改善福利。 |
-| [^11] | [More Robust Estimators for Panel Bartik Designs, With An Application to the Effect of Imports from China on US Employment.](http://arxiv.org/abs/2103.06437) | 本研究提出了一种更稳健的工具变量相关随机系数（IV-CRC）估计器，可更好地应对异质效应，重新审视了中美进口对美国制造业就业影响的研究，结果表明，在不假设效应恒定的情况下，无法得出中国进口对美国制造业就业负面影响的结论。 |
-| [^12] | [On Statistical Discrimination as a Failure of Social Learning: A Multi-Armed Bandit Approach.](http://arxiv.org/abs/2010.01079) | 该论文通过使用多臂赌博机模型分析招聘市场中的统计歧视，发现自由放任会导致对少数族裔工人的持续低估问题。研究提出了两种政策解决方案，即混合机制和罗尼法则，表明临时肯定行动可以有效缓解由于数据不足引起的歧视问题。 |
+| [^7] | [From bounded rationality to limited consideration: Representation and behavioral analysis.](http://arxiv.org/abs/2302.00978) | 该论文提出了一种新的表示和数据解释方法，用于分析行为模式。同时，还介绍了一种可测试的选择过程，可以通过观察到的行为的非理性特征推断出有限考虑的情况。 |
+| [^8] | [Combinatorial Pen Testing (or Consumer Surplus of Deferred-Acceptance Auctions).](http://arxiv.org/abs/2301.12462) | 该论文提出了一种组合式渗透测试算法，通过类比拍卖理论框架，可以将近似最优的延迟接受机制转换为近似最优的渗透测试算法，并且在逼近程度上保证了额外开销的上限。 |
+| [^9] | [Persuading Risk-Conscious Agents: A Geometric Approach.](http://arxiv.org/abs/2208.03758) | 本研究利用几何方法解决了发送者与风险意识代理人之间的说服问题，提出了一个凸优化框架来找到最优的说服机制，并探讨了完全说服的实现条件。在二元说服问题中，我们证明了在凸性假设下可以找到最优解。 |
+| [^10] | [Forecasting macroeconomic data with Bayesian VARs: Sparse or dense? It depends!.](http://arxiv.org/abs/2206.04902) | 本文介绍了一种半全球框架，用于改进贝叶斯VAR模型的预测性能。该框架替代了传统的全局缩减参数，使用组别特定的缩减参数。通过广泛的模拟研究和实证应用，展示了该框架的优点。在稀疏/密集先验下，预测性能因评估的经济变量和时间框架而异，但动态模型平均法可以缓解这个问题。 |
+| [^11] | [Unpacking the Black Box: Regulating Algorithmic Decisions.](http://arxiv.org/abs/2110.03443) | 本文研究如何在代理使用复杂的“黑盒”预测函数进行决策的情况下，对算法决策进行最优调控。研究发现，限制代理使用透明度足够高的预测函数是低效的，而针对激励偏差源头的目标化工具可以提供次优解决方案，从而改善福利。 |
+| [^12] | [More Robust Estimators for Panel Bartik Designs, With An Application to the Effect of Imports from China on US Employment.](http://arxiv.org/abs/2103.06437) | 本研究提出了一种更稳健的工具变量相关随机系数（IV-CRC）估计器，可更好地应对异质效应，重新审视了中美进口对美国制造业就业影响的研究，结果表明，在不假设效应恒定的情况下，无法得出中国进口对美国制造业就业负面影响的结论。 |
+| [^13] | [On Statistical Discrimination as a Failure of Social Learning: A Multi-Armed Bandit Approach.](http://arxiv.org/abs/2010.01079) | 该论文通过使用多臂赌博机模型分析招聘市场中的统计歧视，发现自由放任会导致对少数族裔工人的持续低估问题。研究提出了两种政策解决方案，即混合机制和罗尼法则，表明临时肯定行动可以有效缓解由于数据不足引起的歧视问题。 |
 
 # 详细
 
@@ -101,7 +102,21 @@
 
     Utilities and transmission system operators (TSO) around the world implement demand response programs for reducing electricity consumption by sending information on the state of balance between supply demand to end-use consumers. We construct a Bayesian persuasion model to analyse such demand response programs. Using a simple model consisting of two time steps for contract signing and invoking, and two states of the state of generation, we analyse the relation between the pricing of electricity and the incentives of the TSO to garble information about the true state of the generation. We show that if the electricity is priced at its marginal cost of production, the TSO has no incentive to lie and always tells the truth. On the other hand, we provide conditions where overpricing of electricity leads the TSO to provide no information to the consumer.
     
-[^7]: 组合式渗透测试（或者延迟接受拍卖的消费者剩余值）
+[^7]: 从有限理性到有限考虑：表示和行为分析
+
+    From bounded rationality to limited consideration: Representation and behavioral analysis. (arXiv:2302.00978v5 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2302.00978](http://arxiv.org/abs/2302.00978)
+
+    该论文提出了一种新的表示和数据解释方法，用于分析行为模式。同时，还介绍了一种可测试的选择过程，可以通过观察到的行为的非理性特征推断出有限考虑的情况。
+
+    
+
+    文献中讨论的许多有限理性方法是有限考虑的模型。我们提供了一种新的表示和数据解释，用于分析行为模式。此外，我们描述了一种可测试的选择过程，允许实验者通过观察到的行为的非理性特征唯一地推断有限考虑。
+
+    Many bounded rationality approaches discussed in the literature are models of limited consideration. We provide a novel representation and data interpretation for some of the analyzed behavioral patterns. Moreover, we characterize a testable choice procedure that allows the experimenter to uniquely infer limited consideration from irrational features of the observed behavior.
+    
+[^8]: 组合式渗透测试（或者延迟接受拍卖的消费者剩余值）
 
     Combinatorial Pen Testing (or Consumer Surplus of Deferred-Acceptance Auctions). (arXiv:2301.12462v2 [cs.GT] UPDATED)
 
@@ -115,7 +130,7 @@
 
     Pen testing is the problem of selecting high-capacity resources when the only way to measure the capacity of a resource expends its capacity. We have a set of $n$ pens with unknown amounts of ink and our goal is to select a feasible subset of pens maximizing the total ink in them. We are allowed to gather more information by writing with them, but this uses up ink that was previously in the pens. Algorithms are evaluated against the standard benchmark, i.e, the optimal pen testing algorithm, and the omniscient benchmark, i.e, the optimal selection if the quantity of ink in the pens are known.  We identify optimal and near optimal pen testing algorithms by drawing analogues to auction theoretic frameworks of deferred-acceptance auctions and virtual values. Our framework allows the conversion of any near optimal deferred-acceptance mechanism into a near optimal pen testing algorithm. Moreover, these algorithms guarantee an additional overhead of at most $(1+o(1)) \ln n$ in the approximat
     
-[^8]: 说服风险意识代理人：几何方法的应用
+[^9]: 说服风险意识代理人：几何方法的应用
 
     Persuading Risk-Conscious Agents: A Geometric Approach. (arXiv:2208.03758v3 [econ.TH] UPDATED)
 
@@ -129,7 +144,7 @@
 
     We consider a persuasion problem between a sender and a receiver whose utility may be nonlinear in her belief; we call such receivers risk-conscious. Such utility models arise when the receiver exhibits systematic biases away from expected-utility-maximization, such as uncertainty aversion (e.g., from sensitivity to the variance of the waiting time for a service). Due to this nonlinearity, the standard approach to finding the optimal persuasion mechanism using revelation principle fails. To overcome this difficulty, we use the underlying geometry of the problem to develop a convex optimization framework to find the optimal persuasion mechanism. We define the notion of full persuasion and use our framework to characterize conditions under which full persuasion can be achieved. We use our approach to study binary persuasion, where the receiver has two actions and the sender strictly prefers one of them at every state. Under a convexity assumption, we show that the binary persuasion probl
     
-[^9]: 用贝叶斯VAR模型预测宏观经济数据：稀疏还是密集？要看情况！
+[^10]: 用贝叶斯VAR模型预测宏观经济数据：稀疏还是密集？要看情况！
 
     Forecasting macroeconomic data with Bayesian VARs: Sparse or dense? It depends!. (arXiv:2206.04902v3 [econ.EM] UPDATED)
 
@@ -143,7 +158,7 @@
 
     Vectorautogressions (VARs) are widely applied when it comes to modeling and forecasting macroeconomic variables. In high dimensions, however, they are prone to overfitting. Bayesian methods, more concretely shrinking priors, have shown to be successful in improving prediction performance. In the present paper, we introduce the semi-global framework, in which we replace the traditional global shrinkage parameter with group-specific shrinkage parameters. We show how this framework can be applied to various shrinking priors, such as global-local priors and stochastic search variable selection priors. We demonstrate the virtues of the proposed framework in an extensive simulation study and in an empirical application forecasting data of the US economy. Further, we shed more light on the ongoing ``Illusion of Sparsity'' debate, finding that forecasting performances under sparse/dense priors vary across evaluated economic variables and across time frames. Dynamic model averaging, however, ca
     
-[^10]: 揭开黑盒子：调控算法决策
+[^11]: 揭开黑盒子：调控算法决策
 
     Unpacking the Black Box: Regulating Algorithmic Decisions. (arXiv:2110.03443v2 [econ.GN] UPDATED)
 
@@ -157,7 +172,7 @@
 
     We show how to optimally regulate prediction algorithms in a world where an agent uses complex 'black-box' prediction functions to make decisions such as lending, medical testing, or hiring, and where a principal is limited in how much she can learn about the agent's black-box model. We show that limiting agents to prediction functions that are simple enough to be fully transparent is inefficient as long as the misalignment is limited and first-best prediction functions are sufficiently complex. Algorithmic audits can improve welfare, but the gains depend on the design of the audit tools. Tools that focus on minimizing overall information loss, the focus of many explainer tools, will generally be inefficient since they focus on explaining the average behavior of the prediction function. Targeted tools that focus on the source of incentive misalignment, e.g., excess false positives or racial disparities, can provide second-best solutions. We provide empirical support for our theoretical
     
-[^11]: 面板Bartik设计的更稳健的估计方法，及其在中美进口贸易对美国就业影响中的应用
+[^12]: 面板Bartik设计的更稳健的估计方法，及其在中美进口贸易对美国就业影响中的应用
 
     More Robust Estimators for Panel Bartik Designs, With An Application to the Effect of Imports from China on US Employment. (arXiv:2103.06437v6 [econ.EM] UPDATED)
 
@@ -171,7 +186,7 @@
 
     We show that panel Bartik regressions identify non-convex combinations of location-and-period-specific treatment effects. Thus, those regressions could be biased in the presence of heterogeneous effects. We propose an alternative instrumental-variable correlated-random-coefficient (IV-CRC) estimator, that is more robust to heterogeneous effects. We revisit Autor et al. (2013), who use a panel Bartik regression to estimate the effect of imports from China on US manufacturing employment. Their regression estimates a highly non-convex combination of effects, and our IV-CRC estimator is small and insignificant: without assuming constant effects, one cannot conclude that imports from China negatively affected US manufacturing employment.
     
-[^12]: 对统计歧视作为社会学习失败的研究：一个多臂赌博机方法
+[^13]: 对统计歧视作为社会学习失败的研究：一个多臂赌博机方法
 
     On Statistical Discrimination as a Failure of Social Learning: A Multi-Armed Bandit Approach. (arXiv:2010.01079v6 [econ.TH] UPDATED)
 
