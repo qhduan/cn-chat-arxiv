@@ -32,40 +32,41 @@
 | [^28] | [Federated Learning-Empowered AI-Generated Content in Wireless Networks.](http://arxiv.org/abs/2307.07146) | 本论文研究了在无线网络中使用联邦学习来增强人工智能生成的内容，以提供多样化、个性化和高质量的内容。 |
 | [^29] | [Multi-Dimensional Ability Diagnosis for Machine Learning Algorithms.](http://arxiv.org/abs/2307.07134) | 本文提出了一个任务无关的评估框架Camilla，通过定义多维度的诊断度量Ability来协同测量每个机器学习算法的多面体强度，解决了机器学习算法在实际性能和标准化评估中存在的差距问题。 |
 | [^30] | [DataAssist: A Machine Learning Approach to Data Cleaning and Preparation.](http://arxiv.org/abs/2307.07119) | DataAssist是一种机器学习方法，用于提高数据集质量和节省数据清洗和准备时间。 |
-| [^31] | [Espaloma-0.3.0: Machine-learned molecular mechanics force field for the simulation of protein-ligand systems and beyond.](http://arxiv.org/abs/2307.07085) | Espaloma-0.3.0是一个用于蛋白质-配体系统模拟的机器学习分子力学力场，通过能量和力的拟合纳入量子化学数据进行训练，具有灵活性和可扩展性。 |
-| [^32] | [Safe Reinforcement Learning as Wasserstein Variational Inference: Formal Methods for Interpretability.](http://arxiv.org/abs/2307.07084) | 本研究提出了一种新的自适应Wasserstein变分优化（AWaVO）方法，利用形式方法解决了顺序决策中的解释和透明性问题，并提供了奖励设计和策略收敛的概率解释。 |
-| [^33] | [Vertex-based Networks to Accelerate Path Planning Algorithms.](http://arxiv.org/abs/2307.07059) | 本文提出了一种基于顶点的网络加速路径规划算法，通过专注最优路径上的关键顶点，提供更高效的路径规划。实验结果表明，在随机生成的地图上，相比基准模型，我们的解决方案实现了超过400%的速度增益。 |
-| [^34] | [A metric learning approach for endoscopic kidney stone identification.](http://arxiv.org/abs/2307.07046) | 本文提出了一种用于内窥镜肾结石识别的度量学习方法，该方法能够处理样本稀缺类别，并且在推广到新样本以及添加新类别到数据库时能有更好的应对能力 |
-| [^35] | [Leveraging Factored Action Spaces for Off-Policy Evaluation.](http://arxiv.org/abs/2307.07014) | 本文研究了如何利用分解的动作空间来减轻涉及大型组合动作空间问题的非策略评估（OPE）的高偏差和高方差问题。通过提出一种基于分解动作空间的新型“分解”重要性抽样（IS）估计器系列，我们证明了分解IS估计器具有比非分解版本更小的方差，同时具有零偏差的性质，并通过模拟实验证实了该理论结果。 |
-| [^36] | [Classical Out-of-Distribution Detection Methods Benchmark in Text Classification Tasks.](http://arxiv.org/abs/2307.07002) | 本文评估了八种易于集成到现有NLP系统中且不需要额外带外数据或模型修改的带外分布检测方法，并提供了一个完全可复现实验结果的研究环境。分析表明现有的NLP任务中带外分布检测方法对于捕捉所有由不同类型分布转换特征的样本尚不够敏感，这需要未来的工作来开发更有效的方法。 |
-| [^37] | [IR Design for Application-Specific Natural Language: A Case Study on Traffic Data.](http://arxiv.org/abs/2307.06983) | 该论文提出了一种面向特定应用自然语言的IR设计，可将交通数据统一处理成图形数据格式，大大提高了数据处理性能。 |
-| [^38] | [Short Boolean Formulas as Explanations in Practice.](http://arxiv.org/abs/2307.06971) | 本论文研究了基于一元关系的数据模型的短布尔公式解释的可行性，提出了对期望错误的定量界限，并展示了在三个具体数据集上的实际应用。通过限制公式长度，可以获得避免过拟合且准确且易于理解的解释。 |
-| [^39] | [Machine Learning-Assisted Pattern Recognition Algorithms for Estimating Ultimate Tensile Strength in Fused Deposition Modeled Polylactic Acid Specimens.](http://arxiv.org/abs/2307.06970) | 本研究使用机器学习算法估计了采用FDM工艺制造的PLA试样的极限抗拉强度（UTS），结果表明KNN算法优于其他算法，在区分不同UTS类别方面表现出更好的效果。 |
-| [^40] | [Is Task-Agnostic Explainable AI a Myth?.](http://arxiv.org/abs/2307.06963) | 我们提出了一个框架来统一当代可解释人工智能的挑战，指出虽然XAI方法为模型提供了有用的输出，但研究人员和决策者应注意它们的限制，需要在该领域有一个概念突破以解决XAI方法和应用任务之间的兼容性挑战。 |
-| [^41] | [Copy Is All You Need.](http://arxiv.org/abs/2307.06962) | 本文将文本生成定义为从现有文本集合中逐步复制文本片段，并通过复制和粘贴操作来实现生成，相比传统的顺序选择单词生成的模型，在自动和人工评估中取得了更好的生成质量，并且推理效率与基于标记的自回归模型相当。 |
-| [^42] | [ACTI at EVALITA 2023: Overview of the Conspiracy Theory Identification Task.](http://arxiv.org/abs/2307.06954) | ACTI在EVALITA 2023中的阴谋论辨识任务共有15支团队参与，通过使用大型语言模型判断阴谋内容和分类，得出了关于利用这些模型抵制在在线平台传播错误信息的结论。 |
-| [^43] | [AI For Global Climate Cooperation 2023 Competition Proceedings.](http://arxiv.org/abs/2307.06951) | 国际社会必须合作应对气候变化，通过结合人工智能和气候经济模拟，设计促进和激励合作的国际框架，解决协议遵守、政策目标实现和持续承诺等挑战。 |
-| [^44] | [Pathway toward prior knowledge-integrated machine learning in engineering.](http://arxiv.org/abs/2307.06950) | 本研究提出了一种整合先验知识的机器学习方法，对工程领域中的信息不确定性进行了检查，并探索了以三层知识整合的机器学习范式进行知识分解。这种方法平衡了整体论和还原论观点。 |
-| [^45] | [Uncovering Unique Concept Vectors through Latent Space Decomposition.](http://arxiv.org/abs/2307.06913) | 通过潜在空间分解和无监督聚类，我们提出了一种自动揭示深度学习模型学习到的概念向量的方法，这些概念向量与模型预测相关且具有语义的独特概念，并且在实验中表明这些概念对人类来说易于理解和与任务相关。 |
-| [^46] | [Hybrid Control Policy for Artificial Pancreas via Ensemble Deep Reinforcement Learning.](http://arxiv.org/abs/2307.06501) | 本研究提出了一种名为HyCPAP的混合控制策略，通过结合模型预测控制和集成深度强化学习，并充分利用它们各自的优势，以解决人工胰腺的复杂生理过程、延迟胰岛素反应和不准确血糖测量等挑战。 |
-| [^47] | [Bag of Views: An Appearance-based Approach to Next-Best-View Planning for 3D Reconstruction.](http://arxiv.org/abs/2307.05832) | 这篇论文提出了一种基于外观的方法，通过视图袋（Bag-of-Views）模型来对捕获的视图进行离线数据集细化和在线下一个最佳视图（NBV）规划应用分配效用，以实现3D重建的任务。同时，还开发了视图规划工具箱（VPT）。 |
-| [^48] | [Unleashing Cognitive Synergy in Large Language Models: A Task-Solving Agent through Multi-Persona Self-Collaboration.](http://arxiv.org/abs/2307.05300) | 本论文提出了单人表现提示（SPP）的概念，通过与多个角色进行多轮自我协作，将单个语言模型转化为认知协同者，从而增强其在复杂任务中的问题解决能力和整体性能。 |
-| [^49] | [Intrinsically motivated graph exploration using network theories of human curiosity.](http://arxiv.org/abs/2307.04962) | 在这项工作中，我们通过应用人类好奇心的两个理论，发展了一种内在驱动的图探索方法。我们利用图神经网络的强化学习将拓扑特征作为奖励，从而实现了对图结构数据的探索。在多类合成生成图上进行的实验证明，我们的方法不仅可以推广到更大的环境，还可以进行更长的探索步行。同时，我们的方法比传统的贪婪评估方法更高效。 |
-| [^50] | [On Formal Feature Attribution and Its Approximation.](http://arxiv.org/abs/2307.03380) | 这篇论文研究了解释性人工智能（XAI）中的形式特征归因方法及其近似方法。现有的特征选择和归因方法存在一些问题，而形式化的XAI方法虽然是一个有希望的解决方案，但仍存在一些限制。 |
-| [^51] | [Few-Shot Continual Learning via Flat-to-Wide Approaches.](http://arxiv.org/abs/2306.14369) | 本文提出了一种少样本持续学习方法，名为FLat-tO-WidE AppRoach (FLOWER)，通过寻找扁平化宽化极小值的过程来解决灾难性遗忘问题，利用球体生成器概念进行数据增强方法来克服数据稀缺性问题。在小型基础任务中，FLOWER表现出显著改进的性能。 |
-| [^52] | [A HRNet-based Rehabilitation Monitoring System.](http://arxiv.org/abs/2306.10756) | 该论文介绍了一种基于HRNet的康复监测系统，旨在通过智能手机进行康复训练的管理。患者可以通过系统进行应用程序来进行训练，而治疗师可以通过服务器端进行进度的监测。 |
-| [^53] | [Dink-Net: Neural Clustering on Large Graphs.](http://arxiv.org/abs/2305.18405) | Dink-Net是一个可扩展的大规模图形神经聚类方法，该方法利用了膨胀和收缩的思想来处理百万节点的大图，并在各种基准数据集上优于现有的最先进方法。 |
-| [^54] | [Attention Schema in Neural Agents.](http://arxiv.org/abs/2305.17375) | 本文研究了神经智能中的注意力模式，并提出了注意力模式理论（AST）。作者发现将AS实现为一种循环内部控制的智能体效果最佳，这一理论为应用与改进神经智能提供了新思路。 |
-| [^55] | [I Spy a Metaphor: Large Language Models and Diffusion Models Co-Create Visual Metaphors.](http://arxiv.org/abs/2305.14724) | 本论文提出一个新的任务——从语言隐喻生成视觉隐喻，并且基于大语言模型和扩散模型之间的协作，成功地实现了共创出具有视觉冲击力和语义含义的隐喻。 |
-| [^56] | [ARBEx: Attentive Feature Extraction with Reliability Balancing for Robust Facial Expression Learning.](http://arxiv.org/abs/2305.01486) | 本论文提出了一个名为ARBEx的框架，它采用了可靠性平衡方法来应对面部表情学习任务中的数据偏差和不确定性。该框架还引入了可学习的锚点和多头自注意机制，并在多个公共数据集上取得了有效性验证。 |
-| [^57] | [Deep Explainable Relational Reinforcement Learning: A Neuro-Symbolic Approach.](http://arxiv.org/abs/2304.08349) | 本论文提出了一种深度可解释关系强化学习框架，通过将神经和符号世界相结合，利用神经符号化的方法提取出可解释的策略，解决了深度强化学习中不可解释性和处理环境结构变化的困难。 |
-| [^58] | [DiffTAD: Temporal Action Detection with Proposal Denoising Diffusion.](http://arxiv.org/abs/2303.14863) | DiffTAD是一种新的时间动作检测方法，使用Proposal Denoising Diffusion的生成建模视角，并通过正向/噪声过程和反向/去噪过程实现准确的动作提议。 |
-| [^59] | [Breaking Common Sense: WHOOPS! A Vision-and-Language Benchmark of Synthetic and Compositional Images.](http://arxiv.org/abs/2303.07274) | WHOOPS!是一个新的视觉常识数据集和基准测试，包括了图像字幕、跨模态匹配和视觉问答等若干个任务，引入了解释生成任务，挑战了AI模型识别和解释不合常规的图像的能力。 |
-| [^60] | [Open-Vocabulary Affordance Detection in 3D Point Clouds.](http://arxiv.org/abs/2303.02401) | 本文提出了一种在3D点云中进行无限数量支撑检测的开放词汇支撑检测方法，通过同时学习支撑文本和点特征来利用支撑之间的语义关系，实现了零-shot检测，能够在没有注释示例的情况下检测以前未见到的支撑。实验结果表明，OpenAD在各种设置上表现出优异性能。 |
-| [^61] | [DoCoFL: Downlink Compression for Cross-Device Federated Learning.](http://arxiv.org/abs/2302.00543) | 本研究提出了DoCoFL，一种用于跨设备联合学习的下行压缩框架，能够在降低双向带宽的同时保持竞争力的准确性。 |
-| [^62] | [Vision Transformer Based Model for Describing a Set of Images as a Story.](http://arxiv.org/abs/2210.02762) | 本研究提出了一种基于视觉Transformer的模型，用于将一组图像描述为一个故事。该模型通过ViT提取输入图像的特征，并使用双向LSTM捕捉图像补丁的过去和未来上下文信息。通过注意力机制加权计算得到最终的故事描述向量。 |
-| [^63] | [Privacy-preserving machine learning with tensor networks.](http://arxiv.org/abs/2202.12319) | 本文展示了张量网络架构在保护隐私的机器学习中具有潜在优势，并提出了确保鲁棒性的明确条件。 |
-| [^64] | [Unpacking the Black Box: Regulating Algorithmic Decisions.](http://arxiv.org/abs/2110.03443) | 本文研究如何在代理使用复杂的“黑盒”预测函数进行决策的情况下，对算法决策进行最优调控。研究发现，限制代理使用透明度足够高的预测函数是低效的，而针对激励偏差源头的目标化工具可以提供次优解决方案，从而改善福利。 |
+| [^31] | [Robotic Manipulation Datasets for Offline Compositional Reinforcement Learning.](http://arxiv.org/abs/2307.07091) | 本论文提供了离线强化学习的机器人操作数据集，使用组合式强化学习生成了四个包含256个任务的数据集。每个数据集由性能不同的代理采集，包含2.56亿条转换记录。实验结果显示， |
+| [^32] | [Espaloma-0.3.0: Machine-learned molecular mechanics force field for the simulation of protein-ligand systems and beyond.](http://arxiv.org/abs/2307.07085) | Espaloma-0.3.0是一个用于蛋白质-配体系统模拟的机器学习分子力学力场，通过能量和力的拟合纳入量子化学数据进行训练，具有灵活性和可扩展性。 |
+| [^33] | [Safe Reinforcement Learning as Wasserstein Variational Inference: Formal Methods for Interpretability.](http://arxiv.org/abs/2307.07084) | 本研究提出了一种新的自适应Wasserstein变分优化（AWaVO）方法，利用形式方法解决了顺序决策中的解释和透明性问题，并提供了奖励设计和策略收敛的概率解释。 |
+| [^34] | [Vertex-based Networks to Accelerate Path Planning Algorithms.](http://arxiv.org/abs/2307.07059) | 本文提出了一种基于顶点的网络加速路径规划算法，通过专注最优路径上的关键顶点，提供更高效的路径规划。实验结果表明，在随机生成的地图上，相比基准模型，我们的解决方案实现了超过400%的速度增益。 |
+| [^35] | [A metric learning approach for endoscopic kidney stone identification.](http://arxiv.org/abs/2307.07046) | 本文提出了一种用于内窥镜肾结石识别的度量学习方法，该方法能够处理样本稀缺类别，并且在推广到新样本以及添加新类别到数据库时能有更好的应对能力 |
+| [^36] | [Leveraging Factored Action Spaces for Off-Policy Evaluation.](http://arxiv.org/abs/2307.07014) | 本文研究了如何利用分解的动作空间来减轻涉及大型组合动作空间问题的非策略评估（OPE）的高偏差和高方差问题。通过提出一种基于分解动作空间的新型“分解”重要性抽样（IS）估计器系列，我们证明了分解IS估计器具有比非分解版本更小的方差，同时具有零偏差的性质，并通过模拟实验证实了该理论结果。 |
+| [^37] | [Classical Out-of-Distribution Detection Methods Benchmark in Text Classification Tasks.](http://arxiv.org/abs/2307.07002) | 本文评估了八种易于集成到现有NLP系统中且不需要额外带外数据或模型修改的带外分布检测方法，并提供了一个完全可复现实验结果的研究环境。分析表明现有的NLP任务中带外分布检测方法对于捕捉所有由不同类型分布转换特征的样本尚不够敏感，这需要未来的工作来开发更有效的方法。 |
+| [^38] | [IR Design for Application-Specific Natural Language: A Case Study on Traffic Data.](http://arxiv.org/abs/2307.06983) | 该论文提出了一种面向特定应用自然语言的IR设计，可将交通数据统一处理成图形数据格式，大大提高了数据处理性能。 |
+| [^39] | [Short Boolean Formulas as Explanations in Practice.](http://arxiv.org/abs/2307.06971) | 本论文研究了基于一元关系的数据模型的短布尔公式解释的可行性，提出了对期望错误的定量界限，并展示了在三个具体数据集上的实际应用。通过限制公式长度，可以获得避免过拟合且准确且易于理解的解释。 |
+| [^40] | [Machine Learning-Assisted Pattern Recognition Algorithms for Estimating Ultimate Tensile Strength in Fused Deposition Modeled Polylactic Acid Specimens.](http://arxiv.org/abs/2307.06970) | 本研究使用机器学习算法估计了采用FDM工艺制造的PLA试样的极限抗拉强度（UTS），结果表明KNN算法优于其他算法，在区分不同UTS类别方面表现出更好的效果。 |
+| [^41] | [Is Task-Agnostic Explainable AI a Myth?.](http://arxiv.org/abs/2307.06963) | 我们提出了一个框架来统一当代可解释人工智能的挑战，指出虽然XAI方法为模型提供了有用的输出，但研究人员和决策者应注意它们的限制，需要在该领域有一个概念突破以解决XAI方法和应用任务之间的兼容性挑战。 |
+| [^42] | [Copy Is All You Need.](http://arxiv.org/abs/2307.06962) | 本文将文本生成定义为从现有文本集合中逐步复制文本片段，并通过复制和粘贴操作来实现生成，相比传统的顺序选择单词生成的模型，在自动和人工评估中取得了更好的生成质量，并且推理效率与基于标记的自回归模型相当。 |
+| [^43] | [ACTI at EVALITA 2023: Overview of the Conspiracy Theory Identification Task.](http://arxiv.org/abs/2307.06954) | ACTI在EVALITA 2023中的阴谋论辨识任务共有15支团队参与，通过使用大型语言模型判断阴谋内容和分类，得出了关于利用这些模型抵制在在线平台传播错误信息的结论。 |
+| [^44] | [AI For Global Climate Cooperation 2023 Competition Proceedings.](http://arxiv.org/abs/2307.06951) | 国际社会必须合作应对气候变化，通过结合人工智能和气候经济模拟，设计促进和激励合作的国际框架，解决协议遵守、政策目标实现和持续承诺等挑战。 |
+| [^45] | [Pathway toward prior knowledge-integrated machine learning in engineering.](http://arxiv.org/abs/2307.06950) | 本研究提出了一种整合先验知识的机器学习方法，对工程领域中的信息不确定性进行了检查，并探索了以三层知识整合的机器学习范式进行知识分解。这种方法平衡了整体论和还原论观点。 |
+| [^46] | [Uncovering Unique Concept Vectors through Latent Space Decomposition.](http://arxiv.org/abs/2307.06913) | 通过潜在空间分解和无监督聚类，我们提出了一种自动揭示深度学习模型学习到的概念向量的方法，这些概念向量与模型预测相关且具有语义的独特概念，并且在实验中表明这些概念对人类来说易于理解和与任务相关。 |
+| [^47] | [Hybrid Control Policy for Artificial Pancreas via Ensemble Deep Reinforcement Learning.](http://arxiv.org/abs/2307.06501) | 本研究提出了一种名为HyCPAP的混合控制策略，通过结合模型预测控制和集成深度强化学习，并充分利用它们各自的优势，以解决人工胰腺的复杂生理过程、延迟胰岛素反应和不准确血糖测量等挑战。 |
+| [^48] | [Bag of Views: An Appearance-based Approach to Next-Best-View Planning for 3D Reconstruction.](http://arxiv.org/abs/2307.05832) | 这篇论文提出了一种基于外观的方法，通过视图袋（Bag-of-Views）模型来对捕获的视图进行离线数据集细化和在线下一个最佳视图（NBV）规划应用分配效用，以实现3D重建的任务。同时，还开发了视图规划工具箱（VPT）。 |
+| [^49] | [Unleashing Cognitive Synergy in Large Language Models: A Task-Solving Agent through Multi-Persona Self-Collaboration.](http://arxiv.org/abs/2307.05300) | 本论文提出了单人表现提示（SPP）的概念，通过与多个角色进行多轮自我协作，将单个语言模型转化为认知协同者，从而增强其在复杂任务中的问题解决能力和整体性能。 |
+| [^50] | [Intrinsically motivated graph exploration using network theories of human curiosity.](http://arxiv.org/abs/2307.04962) | 在这项工作中，我们通过应用人类好奇心的两个理论，发展了一种内在驱动的图探索方法。我们利用图神经网络的强化学习将拓扑特征作为奖励，从而实现了对图结构数据的探索。在多类合成生成图上进行的实验证明，我们的方法不仅可以推广到更大的环境，还可以进行更长的探索步行。同时，我们的方法比传统的贪婪评估方法更高效。 |
+| [^51] | [On Formal Feature Attribution and Its Approximation.](http://arxiv.org/abs/2307.03380) | 这篇论文研究了解释性人工智能（XAI）中的形式特征归因方法及其近似方法。现有的特征选择和归因方法存在一些问题，而形式化的XAI方法虽然是一个有希望的解决方案，但仍存在一些限制。 |
+| [^52] | [Few-Shot Continual Learning via Flat-to-Wide Approaches.](http://arxiv.org/abs/2306.14369) | 本文提出了一种少样本持续学习方法，名为FLat-tO-WidE AppRoach (FLOWER)，通过寻找扁平化宽化极小值的过程来解决灾难性遗忘问题，利用球体生成器概念进行数据增强方法来克服数据稀缺性问题。在小型基础任务中，FLOWER表现出显著改进的性能。 |
+| [^53] | [A HRNet-based Rehabilitation Monitoring System.](http://arxiv.org/abs/2306.10756) | 该论文介绍了一种基于HRNet的康复监测系统，旨在通过智能手机进行康复训练的管理。患者可以通过系统进行应用程序来进行训练，而治疗师可以通过服务器端进行进度的监测。 |
+| [^54] | [Dink-Net: Neural Clustering on Large Graphs.](http://arxiv.org/abs/2305.18405) | Dink-Net是一个可扩展的大规模图形神经聚类方法，该方法利用了膨胀和收缩的思想来处理百万节点的大图，并在各种基准数据集上优于现有的最先进方法。 |
+| [^55] | [Attention Schema in Neural Agents.](http://arxiv.org/abs/2305.17375) | 本文研究了神经智能中的注意力模式，并提出了注意力模式理论（AST）。作者发现将AS实现为一种循环内部控制的智能体效果最佳，这一理论为应用与改进神经智能提供了新思路。 |
+| [^56] | [I Spy a Metaphor: Large Language Models and Diffusion Models Co-Create Visual Metaphors.](http://arxiv.org/abs/2305.14724) | 本论文提出一个新的任务——从语言隐喻生成视觉隐喻，并且基于大语言模型和扩散模型之间的协作，成功地实现了共创出具有视觉冲击力和语义含义的隐喻。 |
+| [^57] | [ARBEx: Attentive Feature Extraction with Reliability Balancing for Robust Facial Expression Learning.](http://arxiv.org/abs/2305.01486) | 本论文提出了一个名为ARBEx的框架，它采用了可靠性平衡方法来应对面部表情学习任务中的数据偏差和不确定性。该框架还引入了可学习的锚点和多头自注意机制，并在多个公共数据集上取得了有效性验证。 |
+| [^58] | [Deep Explainable Relational Reinforcement Learning: A Neuro-Symbolic Approach.](http://arxiv.org/abs/2304.08349) | 本论文提出了一种深度可解释关系强化学习框架，通过将神经和符号世界相结合，利用神经符号化的方法提取出可解释的策略，解决了深度强化学习中不可解释性和处理环境结构变化的困难。 |
+| [^59] | [DiffTAD: Temporal Action Detection with Proposal Denoising Diffusion.](http://arxiv.org/abs/2303.14863) | DiffTAD是一种新的时间动作检测方法，使用Proposal Denoising Diffusion的生成建模视角，并通过正向/噪声过程和反向/去噪过程实现准确的动作提议。 |
+| [^60] | [Breaking Common Sense: WHOOPS! A Vision-and-Language Benchmark of Synthetic and Compositional Images.](http://arxiv.org/abs/2303.07274) | WHOOPS!是一个新的视觉常识数据集和基准测试，包括了图像字幕、跨模态匹配和视觉问答等若干个任务，引入了解释生成任务，挑战了AI模型识别和解释不合常规的图像的能力。 |
+| [^61] | [Open-Vocabulary Affordance Detection in 3D Point Clouds.](http://arxiv.org/abs/2303.02401) | 本文提出了一种在3D点云中进行无限数量支撑检测的开放词汇支撑检测方法，通过同时学习支撑文本和点特征来利用支撑之间的语义关系，实现了零-shot检测，能够在没有注释示例的情况下检测以前未见到的支撑。实验结果表明，OpenAD在各种设置上表现出优异性能。 |
+| [^62] | [DoCoFL: Downlink Compression for Cross-Device Federated Learning.](http://arxiv.org/abs/2302.00543) | 本研究提出了DoCoFL，一种用于跨设备联合学习的下行压缩框架，能够在降低双向带宽的同时保持竞争力的准确性。 |
+| [^63] | [Vision Transformer Based Model for Describing a Set of Images as a Story.](http://arxiv.org/abs/2210.02762) | 本研究提出了一种基于视觉Transformer的模型，用于将一组图像描述为一个故事。该模型通过ViT提取输入图像的特征，并使用双向LSTM捕捉图像补丁的过去和未来上下文信息。通过注意力机制加权计算得到最终的故事描述向量。 |
+| [^64] | [Privacy-preserving machine learning with tensor networks.](http://arxiv.org/abs/2202.12319) | 本文展示了张量网络架构在保护隐私的机器学习中具有潜在优势，并提出了确保鲁棒性的明确条件。 |
+| [^65] | [Unpacking the Black Box: Regulating Algorithmic Decisions.](http://arxiv.org/abs/2110.03443) | 本文研究如何在代理使用复杂的“黑盒”预测函数进行决策的情况下，对算法决策进行最优调控。研究发现，限制代理使用透明度足够高的预测函数是低效的，而针对激励偏差源头的目标化工具可以提供次优解决方案，从而改善福利。 |
 
 # 详细
 
@@ -489,7 +490,21 @@
 
     Current automated machine learning (ML) tools are model-centric, focusing on model selection and parameter optimization. However, the majority of the time in data analysis is devoted to data cleaning and wrangling, for which limited tools are available. Here we present DataAssist, an automated data preparation and cleaning platform that enhances dataset quality using ML-informed methods. We show that DataAssist provides a pipeline for exploratory data analysis and data cleaning, including generating visualization for user-selected variables, unifying data annotation, suggesting anomaly removal, and preprocessing data. The exported dataset can be readily integrated with other autoML tools or user-specified model for downstream analysis. Our data-centric tool is applicable to a variety of fields, including economics, business, and forecasting applications saving over 50\% time of the time spent on data cleansing and preparation.
     
-[^31]: Espaloma-0.3.0: 用于蛋白质-配体系统模拟的机器学习分子力学力场及其扩展
+[^31]: 离线组合强化学习的机器人操作数据集
+
+    Robotic Manipulation Datasets for Offline Compositional Reinforcement Learning. (arXiv:2307.07091v1 [cs.LG])
+
+    [http://arxiv.org/abs/2307.07091](http://arxiv.org/abs/2307.07091)
+
+    本论文提供了离线强化学习的机器人操作数据集，使用组合式强化学习生成了四个包含256个任务的数据集。每个数据集由性能不同的代理采集，包含2.56亿条转换记录。实验结果显示，
+
+    
+
+    离线强化学习是一种有前途的方向，可以让强化学习代理在大规模数据集上进行预训练，避免昂贵的数据收集过程的重复。为了推动该领域的发展，生成大规模数据集至关重要。组合式强化学习对于生成这样的大规模数据集尤为有吸引力，因为1）它允许从少量组件中创建多个任务，2）任务结构可以让训练好的代理通过组合相关的学习组件来解决新任务，并且3）组合维度提供了任务关联性的概念。本文提供了四个离线强化学习数据集，用于模拟机器人操作，这些数据集使用了来自CompoSuite [Mendez et al., 2022a]的256个任务。每个数据集是从一个具有不同性能等级的代理收集的，包含了2.56亿条转换记录。我们提供了训练和评估设置，以评估代理学习组合任务策略的能力。我们在每个设置上进行的基准实验表明，
+
+    Offline reinforcement learning (RL) is a promising direction that allows RL agents to pre-train on large datasets, avoiding the recurrence of expensive data collection. To advance the field, it is crucial to generate large-scale datasets. Compositional RL is particularly appealing for generating such large datasets, since 1) it permits creating many tasks from few components, 2) the task structure may enable trained agents to solve new tasks by combining relevant learned components, and 3) the compositional dimensions provide a notion of task relatedness. This paper provides four offline RL datasets for simulated robotic manipulation created using the 256 tasks from CompoSuite [Mendez et al., 2022a]. Each dataset is collected from an agent with a different degree of performance, and consists of 256 million transitions. We provide training and evaluation settings for assessing an agent's ability to learn compositional task policies. Our benchmarking experiments on each setting show that
+    
+[^32]: Espaloma-0.3.0: 用于蛋白质-配体系统模拟的机器学习分子力学力场及其扩展
 
     Espaloma-0.3.0: Machine-learned molecular mechanics force field for the simulation of protein-ligand systems and beyond. (arXiv:2307.07085v1 [physics.chem-ph])
 
@@ -503,7 +518,7 @@
 
     Molecular mechanics (MM) force fields -- the models that characterize the energy landscape of molecular systems via simple pairwise and polynomial terms -- have traditionally relied on human expert-curated, inflexible, and poorly extensible discrete chemical parameter assignment rules, namely atom or valence types. Recently, there has been significant interest in using graph neural networks to replace this process, while enabling the parametrization scheme to be learned in an end-to-end differentiable manner directly from quantum chemical calculations or condensed-phase data. In this paper, we extend the Espaloma end-to-end differentiable force field construction approach by incorporating both energy and force fitting directly to quantum chemical data into the training process. Building on the OpenMM SPICE dataset, we curate a dataset containing chemical spaces highly relevant to the broad interest of biomolecular modeling, covering small molecules, proteins, and RNA. The resulting for
     
-[^32]: 安全强化学习作为Wasserstein变分推理：可解释性的形式方法
+[^33]: 安全强化学习作为Wasserstein变分推理：可解释性的形式方法
 
     Safe Reinforcement Learning as Wasserstein Variational Inference: Formal Methods for Interpretability. (arXiv:2307.07084v1 [cs.LG])
 
@@ -517,7 +532,7 @@
 
     Reinforcement Learning or optimal control can provide effective reasoning for sequential decision-making problems with variable dynamics. Such reasoning in practical implementation, however, poses a persistent challenge in interpreting the reward function and corresponding optimal policy. Consequently, formalizing the sequential decision-making problems as inference has a considerable value, as probabilistic inference in principle offers diverse and powerful mathematical tools to infer the stochastic dynamics whilst suggesting a probabilistic interpretation of the reward design and policy convergence. In this study, we propose a novel Adaptive Wasserstein Variational Optimization (AWaVO) to tackle these challenges in sequential decision-making. Our approach utilizes formal methods to provide interpretations of reward design, transparency of training convergence, and probabilistic interpretation of sequential decisions. To demonstrate practicality, we show convergent training with guara
     
-[^33]: 基于顶点的网络加速路径规划算法
+[^34]: 基于顶点的网络加速路径规划算法
 
     Vertex-based Networks to Accelerate Path Planning Algorithms. (arXiv:2307.07059v1 [cs.AI])
 
@@ -531,7 +546,7 @@
 
     Path planning plays a crucial role in various autonomy applications, and RRT* is one of the leading solutions in this field. In this paper, we propose the utilization of vertex-based networks to enhance the sampling process of RRT*, leading to more efficient path planning. Our approach focuses on critical vertices along the optimal paths, which provide essential yet sparser abstractions of the paths. We employ focal loss to address the associated data imbalance issue, and explore different masking configurations to determine practical tradeoffs in system performance. Through experiments conducted on randomly generated floor maps, our solutions demonstrate significant speed improvements, achieving over a 400% enhancement compared to the baseline model.
     
-[^34]: 一种用于内窥镜肾结石识别的度量学习方法
+[^35]: 一种用于内窥镜肾结石识别的度量学习方法
 
     A metric learning approach for endoscopic kidney stone identification. (arXiv:2307.07046v1 [cs.CV])
 
@@ -545,7 +560,7 @@
 
     Several Deep Learning (DL) methods have recently been proposed for an automated identification of kidney stones during an ureteroscopy to enable rapid therapeutic decisions. Even if these DL approaches led to promising results, they are mainly appropriate for kidney stone types for which numerous labelled data are available. However, only few labelled images are available for some rare kidney stone types. This contribution exploits Deep Metric Learning (DML) methods i) to handle such classes with few samples, ii) to generalize well to out of distribution samples, and iii) to cope better with new classes which are added to the database. The proposed Guided Deep Metric Learning approach is based on a novel architecture which was designed to learn data representations in an improved way. The solution was inspired by Few-Shot Learning (FSL) and makes use of a teacher-student approach. The teacher model (GEMINI) generates a reduced hypothesis space based on prior knowledge from the labeled 
     
-[^35]: 利用分解的动作空间进行非策略评估
+[^36]: 利用分解的动作空间进行非策略评估
 
     Leveraging Factored Action Spaces for Off-Policy Evaluation. (arXiv:2307.07014v1 [cs.LG])
 
@@ -559,7 +574,7 @@
 
     Off-policy evaluation (OPE) aims to estimate the benefit of following a counterfactual sequence of actions, given data collected from executed sequences. However, existing OPE estimators often exhibit high bias and high variance in problems involving large, combinatorial action spaces. We investigate how to mitigate this issue using factored action spaces i.e. expressing each action as a combination of independent sub-actions from smaller action spaces. This approach facilitates a finer-grained analysis of how actions differ in their effects. In this work, we propose a new family of "decomposed" importance sampling (IS) estimators based on factored action spaces. Given certain assumptions on the underlying problem structure, we prove that the decomposed IS estimators have less variance than their original non-decomposed versions, while preserving the property of zero bias. Through simulations, we empirically verify our theoretical results, probing the validity of various assumptions. P
     
-[^36]: 文本分类任务中经典的带外分布检测方法的基准研究
+[^37]: 文本分类任务中经典的带外分布检测方法的基准研究
 
     Classical Out-of-Distribution Detection Methods Benchmark in Text Classification Tasks. (arXiv:2307.07002v1 [cs.CL])
 
@@ -573,7 +588,7 @@
 
     State-of-the-art models can perform well in controlled environments, but they often struggle when presented with out-of-distribution (OOD) examples, making OOD detection a critical component of NLP systems. In this paper, we focus on highlighting the limitations of existing approaches to OOD detection in NLP. Specifically, we evaluated eight OOD detection methods that are easily integrable into existing NLP systems and require no additional OOD data or model modifications. One of our contributions is providing a well-structured research environment that allows for full reproducibility of the results. Additionally, our analysis shows that existing OOD detection methods for NLP tasks are not yet sufficiently sensitive to capture all samples characterized by various types of distributional shifts. Particularly challenging testing scenarios arise in cases of background shift and randomly shuffled word order within in domain texts. This highlights the need for future work to develop more ef
     
-[^37]: 面向特定应用自然语言的IR设计:以交通数据为例的案例研究
+[^38]: 面向特定应用自然语言的IR设计:以交通数据为例的案例研究
 
     IR Design for Application-Specific Natural Language: A Case Study on Traffic Data. (arXiv:2307.06983v1 [cs.SE])
 
@@ -587,7 +602,7 @@
 
     In the realm of software applications in the transportation industry, Domain-Specific Languages (DSLs) have enjoyed widespread adoption due to their ease of use and various other benefits. With the ceaseless progress in computer performance and the rapid development of large-scale models, the possibility of programming using natural language in specified applications - referred to as Application-Specific Natural Language (ASNL) - has emerged. ASNL exhibits greater flexibility and freedom, which, in turn, leads to an increase in computational complexity for parsing and a decrease in processing performance. To tackle this issue, our paper advances a design for an intermediate representation (IR) that caters to ASNL and can uniformly process transportation data into graph data format, improving data processing performance. Experimental comparisons reveal that in standard data query operations, our proposed IR design can achieve a speed improvement of over forty times compared to direct us
     
-[^38]: 实践中的短布尔公式作为解释
+[^39]: 实践中的短布尔公式作为解释
 
     Short Boolean Formulas as Explanations in Practice. (arXiv:2307.06971v1 [cs.LO])
 
@@ -601,7 +616,7 @@
 
     We investigate explainability via short Boolean formulas in the data model based on unary relations. As an explanation of length k, we take a Boolean formula of length k that minimizes the error with respect to the target attribute to be explained. We first provide novel quantitative bounds for the expected error in this scenario. We then also demonstrate how the setting works in practice by studying three concrete data sets. In each case, we calculate explanation formulas of different lengths using an encoding in Answer Set Programming. The most accurate formulas we obtain achieve errors similar to other methods on the same data sets. However, due to overfitting, these formulas are not necessarily ideal explanations, so we use cross validation to identify a suitable length for explanations. By limiting to shorter formulas, we obtain explanations that avoid overfitting but are still reasonably accurate and also, importantly, human interpretable.
     
-[^39]: 机器学习辅助模式识别算法用于估计熔融沉积模式聚乳酸酸（PLA）试样的极限抗拉强度
+[^40]: 机器学习辅助模式识别算法用于估计熔融沉积模式聚乳酸酸（PLA）试样的极限抗拉强度
 
     Machine Learning-Assisted Pattern Recognition Algorithms for Estimating Ultimate Tensile Strength in Fused Deposition Modeled Polylactic Acid Specimens. (arXiv:2307.06970v1 [cs.LG])
 
@@ -615,7 +630,7 @@
 
     In this study, we investigate the application of supervised machine learning algorithms for estimating the Ultimate Tensile Strength (UTS) of Polylactic Acid (PLA) specimens fabricated using the Fused Deposition Modeling (FDM) process. A total of 31 PLA specimens were prepared, with Infill Percentage, Layer Height, Print Speed, and Extrusion Temperature serving as input parameters. The primary objective was to assess the accuracy and effectiveness of four distinct supervised classification algorithms, namely Logistic Classification, Gradient Boosting Classification, Decision Tree, and K-Nearest Neighbor, in predicting the UTS of the specimens. The results revealed that while the Decision Tree and K-Nearest Neighbor algorithms both achieved an F1 score of 0.71, the KNN algorithm exhibited a higher Area Under the Curve (AUC) score of 0.79, outperforming the other algorithms. This demonstrates the superior ability of the KNN algorithm in differentiating between the two classes of ultimate
     
-[^40]: 任务无关的可解释人工智能是个神话吗？
+[^41]: 任务无关的可解释人工智能是个神话吗？
 
     Is Task-Agnostic Explainable AI a Myth?. (arXiv:2307.06963v1 [cs.AI])
 
@@ -629,7 +644,7 @@
 
     Our work serves as a framework for unifying the challenges of contemporary explainable AI (XAI). We demonstrate that while XAI methods provide supplementary and potentially useful output for machine learning models, researchers and decision-makers should be mindful of their conceptual and technical limitations, which frequently result in these methods themselves becoming black boxes. We examine three XAI research avenues spanning image, textual, and graph data, covering saliency, attention, and graph-type explainers. Despite the varying contexts and timeframes of the mentioned cases, the same persistent roadblocks emerge, highlighting the need for a conceptual breakthrough in the field to address the challenge of compatibility between XAI methods and application tasks.
     
-[^41]: 复制就是你所需的。
+[^42]: 复制就是你所需的。
 
     Copy Is All You Need. (arXiv:2307.06962v1 [cs.CL])
 
@@ -643,7 +658,7 @@
 
     The dominant text generation models compose the output by sequentially selecting words from a fixed vocabulary. In this paper, we formulate text generation as progressively copying text segments (e.g., words or phrases) from an existing text collection. We compute the contextualized representations of meaningful text segments and index them using efficient vector search toolkits. The task of text generation is then decomposed into a series of copy-and-paste operations: at each time step, we seek suitable text spans from the text collection rather than selecting from a standalone vocabulary. Experiments on the standard language modeling benchmark (WikiText-103) show that our approach achieves better generation quality according to both automatic and human evaluations. Besides, its inference efficiency is comparable to token-level autoregressive models thanks to the reduction of decoding steps. We also show that our approach allows for effective domain adaptation by simply switching to d
     
-[^42]: ACTI在EVALITA 2023中的综述：阴谋论辨识任务概述
+[^43]: ACTI在EVALITA 2023中的综述：阴谋论辨识任务概述
 
     ACTI at EVALITA 2023: Overview of the Conspiracy Theory Identification Task. (arXiv:2307.06954v1 [cs.CL])
 
@@ -657,7 +672,7 @@
 
     Conspiracy Theory Identication task is a new shared task proposed for the first time at the Evalita 2023. The ACTI challenge, based exclusively on comments published on conspiratorial channels of telegram, is divided into two subtasks: (i) Conspiratorial Content Classification: identifying conspiratorial content and (ii) Conspiratorial Category Classification about specific conspiracy theory classification. A total of fifteen teams participated in the task for a total of 81 submissions. We illustrate the best performing approaches were based on the utilization of large language models. We finally draw conclusions about the utilization of these models for counteracting the spreading of misinformation in online platforms.
     
-[^43]: 人工智能在全球气候合作2023竞赛论文集
+[^44]: 人工智能在全球气候合作2023竞赛论文集
 
     AI For Global Climate Cooperation 2023 Competition Proceedings. (arXiv:2307.06951v1 [cs.AI])
 
@@ -671,7 +686,7 @@
 
     The international community must collaborate to mitigate climate change and sustain economic growth. However, collaboration is hard to achieve, partly because no global authority can ensure compliance with international climate agreements. Combining AI with climate-economic simulations offers a promising solution to design international frameworks, including negotiation protocols and climate agreements, that promote and incentivize collaboration. In addition, these frameworks should also have policy goals fulfillment, and sustained commitment, taking into account climate-economic dynamics and strategic behaviors. These challenges require an interdisciplinary approach across machine learning, economics, climate science, law, policy, ethics, and other fields.  Towards this objective, we organized AI for Global Climate Cooperation, a Mila competition in which teams submitted proposals and analyses of international frameworks, based on (modifications of) RICE-N, an AI-driven integrated ass
     
-[^44]: 迈向工程中先验知识整合的机器学习路径
+[^45]: 迈向工程中先验知识整合的机器学习路径
 
     Pathway toward prior knowledge-integrated machine learning in engineering. (arXiv:2307.06950v1 [cs.AI])
 
@@ -685,7 +700,7 @@
 
     Despite the digitalization trend and data volume surge, first-principles models (also known as logic-driven, physics-based, rule-based, or knowledge-based models) and data-driven approaches have existed in parallel, mirroring the ongoing AI debate on symbolism versus connectionism. Research for process development to integrate both sides to transfer and utilize domain knowledge in the data-driven process is rare. This study emphasizes efforts and prevailing trends to integrate multidisciplinary domain professions into machine acknowledgeable, data-driven processes in a two-fold organization: examining information uncertainty sources in knowledge representation and exploring knowledge decomposition with a three-tier knowledge-integrated machine learning paradigm. This approach balances holist and reductionist perspectives in the engineering domain.
     
-[^45]: 通过潜在空间分解揭示独特的概念向量
+[^46]: 通过潜在空间分解揭示独特的概念向量
 
     Uncovering Unique Concept Vectors through Latent Space Decomposition. (arXiv:2307.06913v1 [cs.LG])
 
@@ -699,7 +714,7 @@
 
     Interpreting the inner workings of deep learning models is crucial for establishing trust and ensuring model safety. Concept-based explanations have emerged as a superior approach that is more interpretable than feature attribution estimates such as pixel saliency. However, defining the concepts for the interpretability analysis biases the explanations by the user's expectations on the concepts. To address this, we propose a novel post-hoc unsupervised method that automatically uncovers the concepts learned by deep models during training. By decomposing the latent space of a layer in singular vectors and refining them by unsupervised clustering, we uncover concept vectors aligned with directions of high variance that are relevant to the model prediction, and that point to semantically distinct concepts. Our extensive experiments reveal that the majority of our concepts are readily understandable to humans, exhibit coherency, and bear relevance to the task at hand. Moreover, we showcase
     
-[^46]: 通过集成深度强化学习的混合控制策略实现人工胰腺
+[^47]: 通过集成深度强化学习的混合控制策略实现人工胰腺
 
     Hybrid Control Policy for Artificial Pancreas via Ensemble Deep Reinforcement Learning. (arXiv:2307.06501v1 [cs.AI])
 
@@ -713,7 +728,7 @@
 
     Objective: The artificial pancreas (AP) has shown promising potential in achieving closed-loop glucose control for individuals with type 1 diabetes mellitus (T1DM). However, designing an effective control policy for the AP remains challenging due to the complex physiological processes, delayed insulin response, and inaccurate glucose measurements. While model predictive control (MPC) offers safety and stability through the dynamic model and safety constraints, it lacks individualization and is adversely affected by unannounced meals. Conversely, deep reinforcement learning (DRL) provides personalized and adaptive strategies but faces challenges with distribution shifts and substantial data requirements. Methods: We propose a hybrid control policy for the artificial pancreas (HyCPAP) to address the above challenges. HyCPAP combines an MPC policy with an ensemble DRL policy, leveraging the strengths of both policies while compensating for their respective limitations. To facilitate faste
     
-[^47]: 视图袋：一种基于外观的用于3D重建下一个最佳视图规划的方法
+[^48]: 视图袋：一种基于外观的用于3D重建下一个最佳视图规划的方法
 
     Bag of Views: An Appearance-based Approach to Next-Best-View Planning for 3D Reconstruction. (arXiv:2307.05832v1 [cs.CV])
 
@@ -727,7 +742,7 @@
 
     UAV-based intelligent data acquisition for 3D reconstruction and monitoring of infrastructure has been experiencing an increasing surge of interest due to the recent advancements in image processing and deep learning-based techniques. View planning is an essential part of this task that dictates the information capture strategy and heavily impacts the quality of the 3D model generated from the captured data. Recent methods have used prior knowledge or partial reconstruction of the target to accomplish view planning for active reconstruction; the former approach poses a challenge for complex or newly identified targets while the latter is computationally expensive. In this work, we present Bag-of-Views (BoV), a fully appearance-based model used to assign utility to the captured views for both offline dataset refinement and online next-best-view (NBV) planning applications targeting the task of 3D reconstruction. With this contribution, we also developed the View Planning Toolbox (VPT), 
     
-[^48]: 在大型语言模型中释放认知协同：通过多人格自我协作实现任务解决代理
+[^49]: 在大型语言模型中释放认知协同：通过多人格自我协作实现任务解决代理
 
     Unleashing Cognitive Synergy in Large Language Models: A Task-Solving Agent through Multi-Persona Self-Collaboration. (arXiv:2307.05300v1 [cs.AI])
 
@@ -741,7 +756,7 @@
 
     Human intelligence thrives on the concept of cognitive synergy, where collaboration and information integration among different cognitive processes yield superior outcomes compared to individual cognitive processes in isolation. Although Large Language Models (LLMs) have demonstrated promising performance as general task-solving agents, they still struggle with tasks that require intensive domain knowledge and complex reasoning. In this work, we propose Solo Performance Prompting (SPP), which transforms a single LLM into a cognitive synergist by engaging in multi-turn self-collaboration with multiple personas. A cognitive synergist refers to an intelligent agent that collaborates with multiple minds, combining their individual strengths and knowledge, to enhance problem-solving and overall performance in complex tasks. By dynamically identifying and simulating different personas based on task inputs, SPP unleashes the potential of cognitive synergy in LLMs. We have discovered that assi
     
-[^49]: 利用人类好奇心的网络理论进行内在驱动的图探索
+[^50]: 利用人类好奇心的网络理论进行内在驱动的图探索
 
     Intrinsically motivated graph exploration using network theories of human curiosity. (arXiv:2307.04962v1 [cs.LG])
 
@@ -755,7 +770,7 @@
 
     Intrinsically motivated exploration has proven useful for reinforcement learning, even without additional extrinsic rewards. When the environment is naturally represented as a graph, how to guide exploration best remains an open question. In this work, we propose a novel approach for exploring graph-structured data motivated by two theories of human curiosity: the information gap theory and the compression progress theory. The theories view curiosity as an intrinsic motivation to optimize for topological features of subgraphs induced by the visited nodes in the environment. We use these proposed features as rewards for graph neural-network-based reinforcement learning. On multiple classes of synthetically generated graphs, we find that trained agents generalize to larger environments and to longer exploratory walks than are seen during training. Our method computes more efficiently than the greedy evaluation of the relevant topological properties. The proposed intrinsic motivations bea
     
-[^50]: 关于形式特征归因及其近似方法
+[^51]: 关于形式特征归因及其近似方法
 
     On Formal Feature Attribution and Its Approximation. (arXiv:2307.03380v1 [cs.AI])
 
@@ -769,7 +784,7 @@
 
     Recent years have witnessed the widespread use of artificial intelligence (AI) algorithms and machine learning (ML) models. Despite their tremendous success, a number of vital problems like ML model brittleness, their fairness, and the lack of interpretability warrant the need for the active developments in explainable artificial intelligence (XAI) and formal ML model verification. The two major lines of work in XAI include feature selection methods, e.g. Anchors, and feature attribution techniques, e.g. LIME and SHAP. Despite their promise, most of the existing feature selection and attribution approaches are susceptible to a range of critical issues, including explanation unsoundness and out-of-distribution sampling. A recent formal approach to XAI (FXAI) although serving as an alternative to the above and free of these issues suffers from a few other limitations. For instance and besides the scalability limitation, the formal approach is unable to tackle the feature attribution prob
     
-[^51]: 利用扁平化到宽化方法进行少样本持续学习
+[^52]: 利用扁平化到宽化方法进行少样本持续学习
 
     Few-Shot Continual Learning via Flat-to-Wide Approaches. (arXiv:2306.14369v2 [cs.LG] UPDATED)
 
@@ -783,7 +798,7 @@
 
     Existing approaches on continual learning call for a lot of samples in their training processes. Such approaches are impractical for many real-world problems having limited samples because of the overfitting problem. This paper proposes a few-shot continual learning approach, termed FLat-tO-WidE AppRoach (FLOWER), where a flat-to-wide learning process finding the flat-wide minima is proposed to address the catastrophic forgetting problem. The issue of data scarcity is overcome with a data augmentation approach making use of a ball generator concept to restrict the sampling space into the smallest enclosing ball. Our numerical studies demonstrate the advantage of FLOWER achieving significantly improved performances over prior arts notably in the small base tasks. For further study, source codes of FLOWER, competitor algorithms and experimental logs are shared publicly in \url{https://github.com/anwarmaxsum/FLOWER}.
     
-[^52]: 基于HRNet的康复监测系统
+[^53]: 基于HRNet的康复监测系统
 
     A HRNet-based Rehabilitation Monitoring System. (arXiv:2306.10756v2 [cs.CV] UPDATED)
 
@@ -797,7 +812,7 @@
 
     The rehabilitation treatment helps to heal minor sports and occupational injuries. In a traditional rehabilitation process, a therapist will assign certain actions to a patient to perform in between hospital visits, and it will rely on the patient to remember actions correctly and the schedule to perform them. Unfortunately, many patients forget to perform actions or fail to recall actions in detail. As a consequence, the rehabilitation treatment is hampered or, in the worst case, the patient may suffer from additional injury caused by performing incorrect actions. To resolve these issues, we propose a HRNet-based rehabilitation monitoring system, which can remind a patient when to perform the actions and display the actions for the patient to follow via the patient's smartphone. In addition, it helps the therapist to monitor the progress of the rehabilitation for the patient. Our system consists of an iOS app and several components at the server side. The app is in charge of displayin
     
-[^53]: Dink-Net: 大规模图形神经聚类方法
+[^54]: Dink-Net: 大规模图形神经聚类方法
 
     Dink-Net: Neural Clustering on Large Graphs. (arXiv:2305.18405v1 [cs.LG])
 
@@ -811,7 +826,7 @@
 
     Deep graph clustering, which aims to group the nodes of a graph into disjoint clusters with deep neural networks, has achieved promising progress in recent years. However, the existing methods fail to scale to the large graph with million nodes. To solve this problem, a scalable deep graph clustering method (Dink-Net) is proposed with the idea of dilation and shrink. Firstly, by discriminating nodes, whether being corrupted by augmentations, representations are learned in a self-supervised manner. Meanwhile, the cluster centres are initialized as learnable neural parameters. Subsequently, the clustering distribution is optimized by minimizing the proposed cluster dilation loss and cluster shrink loss in an adversarial manner. By these settings, we unify the two-step clustering, i.e., representation learning and clustering optimization, into an end-to-end framework, guiding the network to learn clustering-friendly features. Besides, Dink-Net scales well to large graphs since the designe
     
-[^54]: 神经智能中的注意力模式
+[^55]: 神经智能中的注意力模式
 
     Attention Schema in Neural Agents. (arXiv:2305.17375v2 [cs.AI] UPDATED)
 
@@ -825,7 +840,7 @@
 
     Attention has become a common ingredient in deep learning architectures. It adds a dynamical selection of information on top of the static selection of information supported by weights. In the same way, we can imagine a higher-order informational filter built on top of attention: an Attention Schema (AS), namely, a descriptive and predictive model of attention. In cognitive neuroscience, Attention Schema Theory (AST) supports this idea of distinguishing attention from AS. A strong prediction of this theory is that an agent can use its own AS to also infer the states of other agents' attention and consequently enhance coordination with other agents. As such, multi-agent reinforcement learning would be an ideal setting to experimentally test the validity of AST. We explore different ways in which attention and AS interact with each other. Our preliminary results indicate that agents that implement the AS as a recurrent internal control achieve the best performance. In general, these expl
     
-[^55]: 我寻觅一个隐喻：大语言模型和扩散模型共创视觉隐喻
+[^56]: 我寻觅一个隐喻：大语言模型和扩散模型共创视觉隐喻
 
     I Spy a Metaphor: Large Language Models and Diffusion Models Co-Create Visual Metaphors. (arXiv:2305.14724v1 [cs.CL])
 
@@ -839,7 +854,7 @@
 
     Visual metaphors are powerful rhetorical devices used to persuade or communicate creative ideas through images. Similar to linguistic metaphors, they convey meaning implicitly through symbolism and juxtaposition of the symbols. We propose a new task of generating visual metaphors from linguistic metaphors. This is a challenging task for diffusion-based text-to-image models, such as DALL$\cdot$E 2, since it requires the ability to model implicit meaning and compositionality. We propose to solve the task through the collaboration between Large Language Models (LLMs) and Diffusion Models: Instruct GPT-3 (davinci-002) with Chain-of-Thought prompting generates text that represents a visual elaboration of the linguistic metaphor containing the implicit meaning and relevant objects, which is then used as input to the diffusion-based text-to-image models.Using a human-AI collaboration framework, where humans interact both with the LLM and the top-performing diffusion model, we create a high-qu
     
-[^56]: ARBEx：用于鲁棒性面部表情学习的关注特征提取与可靠性平衡框架
+[^57]: ARBEx：用于鲁棒性面部表情学习的关注特征提取与可靠性平衡框架
 
     ARBEx: Attentive Feature Extraction with Reliability Balancing for Robust Facial Expression Learning. (arXiv:2305.01486v1 [cs.CV])
 
@@ -853,7 +868,7 @@
 
     In this paper, we introduce a framework ARBEx, a novel attentive feature extraction framework driven by Vision Transformer with reliability balancing to cope against poor class distributions, bias, and uncertainty in the facial expression learning (FEL) task. We reinforce several data pre-processing and refinement methods along with a window-based cross-attention ViT to squeeze the best of the data. We also employ learnable anchor points in the embedding space with label distributions and multi-head self-attention mechanism to optimize performance against weak predictions with reliability balancing, which is a strategy that leverages anchor points, attention scores, and confidence values to enhance the resilience of label predictions. To ensure correct label classification and improve the models' discriminative power, we introduce anchor loss, which encourages large margins between anchor points. Additionally, the multi-head self-attention mechanism, which is also trainable, plays an i
     
-[^57]: 深度可解释关系强化学习：一种神经符号化方法
+[^58]: 深度可解释关系强化学习：一种神经符号化方法
 
     Deep Explainable Relational Reinforcement Learning: A Neuro-Symbolic Approach. (arXiv:2304.08349v2 [cs.AI] UPDATED)
 
@@ -867,7 +882,7 @@
 
     Despite numerous successes in Deep Reinforcement Learning (DRL), the learned policies are not interpretable. Moreover, since DRL does not exploit symbolic relational representations, it has difficulties in coping with structural changes in its environment (such as increasing the number of objects). Relational Reinforcement Learning, on the other hand, inherits the relational representations from symbolic planning to learn reusable policies. However, it has so far been unable to scale up and exploit the power of deep neural networks. We propose Deep Explainable Relational Reinforcement Learning (DERRL), a framework that exploits the best of both -- neural and symbolic worlds. By resorting to a neuro-symbolic approach, DERRL combines relational representations and constraints from symbolic planning with deep learning to extract interpretable policies. These policies are in the form of logical rules that explain how each decision (or action) is arrived at. Through several experiments, in 
     
-[^58]: DiffTAD: 使用Proposal Denoising Diffusion的时间动作检测
+[^59]: DiffTAD: 使用Proposal Denoising Diffusion的时间动作检测
 
     DiffTAD: Temporal Action Detection with Proposal Denoising Diffusion. (arXiv:2303.14863v2 [cs.CV] UPDATED)
 
@@ -881,7 +896,7 @@
 
     We propose a new formulation of temporal action detection (TAD) with denoising diffusion, DiffTAD in short. Taking as input random temporal proposals, it can yield action proposals accurately given an untrimmed long video. This presents a generative modeling perspective, against previous discriminative learning manners. This capability is achieved by first diffusing the ground-truth proposals to random ones (i.e., the forward/noising process) and then learning to reverse the noising process (i.e., the backward/denoising process). Concretely, we establish the denoising process in the Transformer decoder (e.g., DETR) by introducing a temporal location query design with faster convergence in training. We further propose a cross-step selective conditioning algorithm for inference acceleration. Extensive evaluations on ActivityNet and THUMOS show that our DiffTAD achieves top performance compared to previous art alternatives. The code will be made available at https://github.com/sauradip/Di
     
-[^59]: 打破常识：WHOOPS！一个基于合成和组合图像的视觉与语言基准测试
+[^60]: 打破常识：WHOOPS！一个基于合成和组合图像的视觉与语言基准测试
 
     Breaking Common Sense: WHOOPS! A Vision-and-Language Benchmark of Synthetic and Compositional Images. (arXiv:2303.07274v2 [cs.CV] UPDATED)
 
@@ -895,7 +910,7 @@
 
     Weird, unusual, and uncanny images pique the curiosity of observers because they challenge commonsense. For example, an image released during the 2022 world cup depicts the famous soccer stars Lionel Messi and Cristiano Ronaldo playing chess, which playfully violates our expectation that their competition should occur on the football field. Humans can easily recognize and interpret these unconventional images, but can AI models do the same? We introduce WHOOPS!, a new dataset and benchmark for visual commonsense. The dataset is comprised of purposefully commonsense-defying images created by designers using publicly-available image generation tools like Midjourney. We consider several tasks posed over the dataset. In addition to image captioning, cross-modal matching, and visual question answering, we introduce a difficult explanation generation task, where models must identify and explain why a given image is unusual. Our results show that state-of-the-art models such as GPT3 and BLIP2
     
-[^60]: 在3D点云中的开放词汇支撑检测
+[^61]: 在3D点云中的开放词汇支撑检测
 
     Open-Vocabulary Affordance Detection in 3D Point Clouds. (arXiv:2303.02401v2 [cs.RO] UPDATED)
 
@@ -909,7 +924,7 @@
 
     Affordance detection is a challenging problem with a wide variety of robotic applications. Traditional affordance detection methods are limited to a predefined set of affordance labels, hence potentially restricting the adaptability of intelligent robots in complex and dynamic environments. In this paper, we present the Open-Vocabulary Affordance Detection (OpenAD) method, which is capable of detecting an unbounded number of affordances in 3D point clouds. By simultaneously learning the affordance text and the point feature, OpenAD successfully exploits the semantic relationships between affordances. Therefore, our proposed method enables zero-shot detection and can be able to detect previously unseen affordances without a single annotation example. Intensive experimental results show that OpenAD works effectively on a wide range of affordance detection setups and outperforms other baselines by a large margin. Additionally, we demonstrate the practicality of the proposed OpenAD in real
     
-[^61]: DoCoFL：用于跨设备联合学习的下行压缩
+[^62]: DoCoFL：用于跨设备联合学习的下行压缩
 
     DoCoFL: Downlink Compression for Cross-Device Federated Learning. (arXiv:2302.00543v2 [cs.LG] UPDATED)
 
@@ -923,7 +938,7 @@
 
     Many compression techniques have been proposed to reduce the communication overhead of Federated Learning training procedures. However, these are typically designed for compressing model updates, which are expected to decay throughout training. As a result, such methods are inapplicable to downlink (i.e., from the parameter server to clients) compression in the cross-device setting, where heterogeneous clients $\textit{may appear only once}$ during training and thus must download the model parameters. Accordingly, we propose $\textsf{DoCoFL}$ -- a new framework for downlink compression in the cross-device setting. Importantly, $\textsf{DoCoFL}$ can be seamlessly combined with many uplink compression schemes, rendering it suitable for bi-directional compression. Through extensive evaluation, we show that $\textsf{DoCoFL}$ offers significant bi-directional bandwidth reduction while achieving competitive accuracy to that of a baseline without any compression.
     
-[^62]: 基于视觉Transformer的模型用于将一组图像描述为一个故事
+[^63]: 基于视觉Transformer的模型用于将一组图像描述为一个故事
 
     Vision Transformer Based Model for Describing a Set of Images as a Story. (arXiv:2210.02762v3 [cs.CV] UPDATED)
 
@@ -937,7 +952,7 @@
 
     Visual Story-Telling is the process of forming a multi-sentence story from a set of images. Appropriately including visual variation and contextual information captured inside the input images is one of the most challenging aspects of visual storytelling. Consequently, stories developed from a set of images often lack cohesiveness, relevance, and semantic relationship. In this paper, we propose a novel Vision Transformer Based Model for describing a set of images as a story. The proposed method extracts the distinct features of the input images using a Vision Transformer (ViT). Firstly, input images are divided into 16X16 patches and bundled into a linear projection of flattened patches. The transformation from a single image to multiple image patches captures the visual variety of the input visual patterns. These features are used as input to a Bidirectional-LSTM which is part of the sequence encoder. This captures the past and future image context of all image patches. Then, an atten
     
-[^63]: 保护隐私的张量网络机器学习
+[^64]: 保护隐私的张量网络机器学习
 
     Privacy-preserving machine learning with tensor networks. (arXiv:2202.12319v2 [cs.CR] UPDATED)
 
@@ -951,7 +966,7 @@
 
     Tensor networks, widely used for providing efficient representations of low-energy states of local quantum many-body systems, have been recently proposed as machine learning architectures which could present advantages with respect to traditional ones. In this work we show that tensor network architectures have especially prospective properties for privacy-preserving machine learning, which is important in tasks such as the processing of medical records. First, we describe a new privacy vulnerability that is present in feedforward neural networks, illustrating it in synthetic and real-world datasets. Then, we develop well-defined conditions to guarantee robustness to such vulnerability, which involve the characterization of models equivalent under gauge symmetry. We rigorously prove that such conditions are satisfied by tensor-network architectures. In doing so, we define a novel canonical form for matrix product states, which has a high degree of regularity and fixes the residual gaug
     
-[^64]: 揭开黑盒子：调控算法决策
+[^65]: 揭开黑盒子：调控算法决策
 
     Unpacking the Black Box: Regulating Algorithmic Decisions. (arXiv:2110.03443v2 [econ.GN] UPDATED)
 
