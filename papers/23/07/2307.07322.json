@@ -1,0 +1,12 @@
+{
+    "title": "A Context-Aware Cutting Plane Selection Algorithm for Mixed-Integer Programming. (arXiv:2307.07322v1 [math.OC])",
+    "abstract": "The current cut selection algorithm used in mixed-integer programming solvers has remained largely unchanged since its creation. In this paper, we propose a set of new cut scoring measures, cut filtering techniques, and stopping criteria, extending the current state-of-the-art algorithm and obtaining a 4\\% performance improvement for SCIP over the MIPLIB 2017 benchmark set.",
+    "link": "http://arxiv.org/abs/2307.07322",
+    "context": "Title: A Context-Aware Cutting Plane Selection Algorithm for Mixed-Integer Programming. (arXiv:2307.07322v1 [math.OC])\nAbstract: The current cut selection algorithm used in mixed-integer programming solvers has remained largely unchanged since its creation. In this paper, we propose a set of new cut scoring measures, cut filtering techniques, and stopping criteria, extending the current state-of-the-art algorithm and obtaining a 4\\% performance improvement for SCIP over the MIPLIB 2017 benchmark set.",
+    "path": "papers/23/07/2307.07322.json",
+    "total_tokens": 600,
+    "translated_title": "一个上下文感知的混合整数规划切割平面选择算法",
+    "translated_abstract": "目前在混合整数规划求解器中使用的切割平面选择算法自其创建以来基本保持不变。本文提出了一组新的切割评分指标、切割过滤技术和停止准则，扩展了当前最先进的算法，并在MIPLIB 2017基准集上使SCIP的性能提高了4%。",
+    "tldr": "本文提出了一个上下文感知的混合整数规划切割平面选择算法，通过引入新的评分指标、过滤技术和停止准则，使得SCIP在MIPLIB 2017基准集上的性能提升了4%。",
+    "en_tdlr": "This paper proposes a context-aware cutting plane selection algorithm for mixed-integer programming, which achieves a 4% performance improvement for SCIP over the MIPLIB 2017 benchmark set by introducing new scoring measures, filtering techniques, and stopping criteria."
+}

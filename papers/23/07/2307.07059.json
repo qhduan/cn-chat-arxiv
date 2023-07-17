@@ -1,0 +1,11 @@
+{
+    "title": "Vertex-based Networks to Accelerate Path Planning Algorithms. (arXiv:2307.07059v1 [cs.AI])",
+    "abstract": "Path planning plays a crucial role in various autonomy applications, and RRT* is one of the leading solutions in this field. In this paper, we propose the utilization of vertex-based networks to enhance the sampling process of RRT*, leading to more efficient path planning. Our approach focuses on critical vertices along the optimal paths, which provide essential yet sparser abstractions of the paths. We employ focal loss to address the associated data imbalance issue, and explore different masking configurations to determine practical tradeoffs in system performance. Through experiments conducted on randomly generated floor maps, our solutions demonstrate significant speed improvements, achieving over a 400% enhancement compared to the baseline model.",
+    "link": "http://arxiv.org/abs/2307.07059",
+    "context": "Title: Vertex-based Networks to Accelerate Path Planning Algorithms. (arXiv:2307.07059v1 [cs.AI])\nAbstract: Path planning plays a crucial role in various autonomy applications, and RRT* is one of the leading solutions in this field. In this paper, we propose the utilization of vertex-based networks to enhance the sampling process of RRT*, leading to more efficient path planning. Our approach focuses on critical vertices along the optimal paths, which provide essential yet sparser abstractions of the paths. We employ focal loss to address the associated data imbalance issue, and explore different masking configurations to determine practical tradeoffs in system performance. Through experiments conducted on randomly generated floor maps, our solutions demonstrate significant speed improvements, achieving over a 400% enhancement compared to the baseline model.",
+    "path": "papers/23/07/2307.07059.json",
+    "total_tokens": 759,
+    "translated_title": "基于顶点的网络加速路径规划算法",
+    "translated_abstract": "路径规划在自主应用中起着关键作用，RRT*是该领域的主要解决方案之一。本文提出利用基于顶点的网络来增强RRT*的采样过程，从而实现更高效的路径规划。我们的方法专注于最优路径上的关键顶点，提供了关键但更稀疏的路径抽象。我们采用聚焦损失函数来解决相关的数据不平衡问题，并探索不同的掩码配置以确定系统性能的实际权衡。通过对随机生成的地图进行实验，我们的解决方案展示了显著的速度提升，相比基准模型提高了400%以上。",
+    "tldr": "本文提出了一种基于顶点的网络加速路径规划算法，通过专注最优路径上的关键顶点，提供更高效的路径规划。实验结果表明，在随机生成的地图上，相比基准模型，我们的解决方案实现了超过400%的速度增益。"
+}

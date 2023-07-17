@@ -1,0 +1,12 @@
+{
+    "title": "LINFA: a Python library for variational inference with normalizing flow and annealing. (arXiv:2307.04675v2 [cs.LG] UPDATED)",
+    "abstract": "Variational inference is an increasingly popular method in statistics and machine learning for approximating probability distributions. We developed LINFA (Library for Inference with Normalizing Flow and Annealing), a Python library for variational inference to accommodate computationally expensive models and difficult-to-sample distributions with dependent parameters. We discuss the theoretical background, capabilities, and performance of LINFA in various benchmarks. LINFA is publicly available on GitHub at https://github.com/desResLab/LINFA.",
+    "link": "http://arxiv.org/abs/2307.04675",
+    "context": "Title: LINFA: a Python library for variational inference with normalizing flow and annealing. (arXiv:2307.04675v2 [cs.LG] UPDATED)\nAbstract: Variational inference is an increasingly popular method in statistics and machine learning for approximating probability distributions. We developed LINFA (Library for Inference with Normalizing Flow and Annealing), a Python library for variational inference to accommodate computationally expensive models and difficult-to-sample distributions with dependent parameters. We discuss the theoretical background, capabilities, and performance of LINFA in various benchmarks. LINFA is publicly available on GitHub at https://github.com/desResLab/LINFA.",
+    "path": "papers/23/07/2307.04675.json",
+    "total_tokens": 615,
+    "translated_title": "LINFA:一种用于变分推理的Python库，包含归一化流动和退火算法",
+    "translated_abstract": "变分推理是统计学和机器学习中越来越流行的一种近似概率分布的方法。我们开发了LINFA（用于归一化流动和退火算法的推理库），这是一个用于变分推理的Python库，适用于计算复杂的模型和难以采样的依赖参数分布。我们讨论了LINFA在各种基准测试中的理论背景、功能和性能。LINFA可在GitHub上公开获取，网址为https://github.com/desResLab/LINFA。",
+    "tldr": "LINFA是一个用于变分推理的Python库，支持处理计算复杂的模型和难以采样的依赖参数分布。",
+    "en_tdlr": "LINFA is a Python library for variational inference, capable of handling computationally expensive models and difficult-to-sample dependent parameter distributions."
+}

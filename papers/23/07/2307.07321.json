@@ -1,0 +1,12 @@
+{
+    "title": "NS4AR: A new, focused on sampling areas sampling method in graphical recommendation Systems. (arXiv:2307.07321v1 [cs.IR])",
+    "abstract": "The effectiveness of graphical recommender system depends on the quantity and quality of negative sampling. This paper selects some typical recommender system models, as well as some latest negative sampling strategies on the models as baseline. Based on typical graphical recommender model, we divide sample region into assigned-n areas and use AdaSim to give different weight to these areas to form positive set and negative set. Because of the volume and significance of negative items, we also proposed a subset selection model to narrow the core negative samples.",
+    "link": "http://arxiv.org/abs/2307.07321",
+    "context": "Title: NS4AR: A new, focused on sampling areas sampling method in graphical recommendation Systems. (arXiv:2307.07321v1 [cs.IR])\nAbstract: The effectiveness of graphical recommender system depends on the quantity and quality of negative sampling. This paper selects some typical recommender system models, as well as some latest negative sampling strategies on the models as baseline. Based on typical graphical recommender model, we divide sample region into assigned-n areas and use AdaSim to give different weight to these areas to form positive set and negative set. Because of the volume and significance of negative items, we also proposed a subset selection model to narrow the core negative samples.",
+    "path": "papers/23/07/2307.07321.json",
+    "total_tokens": 697,
+    "translated_title": "NS4AR: 一种新的、专注于采样区域的图形推荐系统采样方法",
+    "translated_abstract": "图形推荐系统的有效性取决于负采样的数量和质量。本文选择了一些典型的推荐系统模型，并将这些模型上的一些最新的负采样策略作为基线。基于典型的图形推荐模型，我们将样本区域划分为指定的n个区域，并使用AdaSim对这些区域赋予不同的权重，形成正样本集和负样本集。由于负样本的数量和重要性，我们还提出了一个子集选择模型来缩小核心负样本。",
+    "tldr": "本文提出了一种新的图形推荐系统采样方法，通过对样本区域进行划分并使用AdaSim对区域赋予不同的权重，形成正负样本集，并提出了一个子集选择模型来缩小核心负样本的数量。",
+    "en_tdlr": "This paper proposes a new sampling method for graphical recommender systems, which divides the sample region and assigns different weights to the areas using AdaSim to form positive and negative sample sets, and introduces a subset selection model for narrowing down the core negative samples."
+}

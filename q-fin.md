@@ -2,97 +2,142 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [The Heterogeneous Earnings Impact of Job Loss Across Workers, Establishments, and Markets.](http://arxiv.org/abs/2307.06684) | 这项研究利用广义随机森林和瑞典行政数据发现，工作丧失对不同工人、企业和市场的收入影响具有极大的异质性。对受影响程度最大的工人而言，失去的工作使其每年收入损失50%，十年期间累计损失达到250%。对受影响程度最小的工人而言，仅遭受边际损失不到6%。总体而言，这些影响在企业内部和不同个体特征之间都存在差异。 |
-| [^2] | [Critical comparisons on deep learning approaches for foreign exchange rate prediction.](http://arxiv.org/abs/2307.06600) | 本论文对RNN、LSTM和BP神经网络的基本理论进行研究，比较它们的优势和劣势，为选择价格预测模型提供参考。 |
-| [^3] | [Stochastic Delay Differential Games: Financial Modeling and Machine Learning Algorithms.](http://arxiv.org/abs/2307.06450) | 本文提出了一种使用深度学习方法找到随机时滞微分博弈闭环纳什均衡的数值方法，通过循环神经网络对每个玩家的控制进行参数化并使用修改后的布朗虚拟博弈结合深度学习技术进行训练。 |
-| [^4] | [Quantile and expectile copula-based hidden Markov regression models for the analysis of the cryptocurrency market.](http://arxiv.org/abs/2307.06400) | 本文提出了一种基于分位数和期望分位数copula的隐马尔可夫回归模型，用于联合估计加密货币收益的分位数和期望分位数。通过引入时间演化的系数和潜在马尔可夫链，能够捕捉极端收益和时间变化依赖结构。 |
-| [^5] | [Real-time Trading System based on Selections of Potentially Profitable, Uncorrelated, and Balanced Stocks by NP-hard Combinatorial Optimization.](http://arxiv.org/abs/2307.06339) | 该论文提出了一种基于NP-难优化的实时股票交易系统，利用伊辛机进行投资组合优化选择股票，并通过量子启发式算法改善夏普比率。 |
-| [^6] | [Averaging plus Learning Models and Their Asymptotics.](http://arxiv.org/abs/1904.08131) | 本研究开发了用于研究金融市场和社交网络中相互作用代理的原创模型，并探索了学习能力和随机性对代理人信念的影响。通过使用不同的技术研究离散时间随机线性动力系统，我们对社交学习模型提供了新的理解。 |
+| [^1] | [Path Integral Method for Barrier Option Pricing Under Vasicek Model.](http://arxiv.org/abs/2307.07103) | 该论文使用路径积分方法研究了Vasicek模型中的障碍期权定价问题，通过类比量子理论中的散射问题和方势井问题，导出了定价核和期权价格表达式，并给出了标的资产价格变化对期权价格的数值结果。 |
+| [^2] | [The Determinants of Foreign Direct Investment (FDI) A Panel Data Analysis for the Emerging Asian Economies.](http://arxiv.org/abs/2307.07037) | 本研究通过面板数据分析了吸引外国直接投资（FDI）流入的经济、制度和政治/政府因素对新兴亚洲经济体的影响。经济因素对FDI流入有显著影响，而制度因素和政治因素的影响相对较小。 |
+| [^3] | [Approximately optimal trade execution strategies under fast mean-reversion.](http://arxiv.org/abs/2307.07024) | 本论文研究了在快速均值回归的情况下，近似最优的交易执行策略。通过考虑不确定的波动性和流动性，模型中的价格影响和风险会随机变化。通过使用高频数据，提供了对该模型的估计方法，并进行了数值评估。 |
+| [^4] | [Advertiser Learning in Direct Advertising Markets.](http://arxiv.org/abs/2307.07015) | 广告商在直接广告市场中学习如何选择网站上的广告，调整他们的先验信念，并通过集合广告商信息来提高广告效果。 |
+| [^5] | [Optimal contract design via relaxation: application to the problem of brokerage fee for a client with private signal.](http://arxiv.org/abs/2307.07010) | 本文通过松弛技术建立了在信息不对称存在的情况下最优合同的存在性，并将该方法应用于解决了具有私有信号的经纪人费问题。 |
+| [^6] | [Robust utility maximization with intractable claims.](http://arxiv.org/abs/2304.06938) | 该研究采用鲁棒性方法处理了一类连续时间下的效用最大化问题，其中投资者面临一个未知概率分布的会计普通股价值。通过应用分位数公式，将最优终端投资收入的分位函数表示为某些普通微分方程变分不等式的解。对于指数效用来说，该问题简化为具有概率扭曲的（非鲁棒性）排名依赖效用最大化问题，其解在文献中已有。 |
+| [^7] | [Non-homogeneous stochastic LQ control with regime switching and random coefficients.](http://arxiv.org/abs/2201.01433) | 本文提出了一种解决带有制度转换和随机系数的非齐次随机LQ控制问题方法，并应用于资产负债管理问题 under the mean-variance criteria。 |
+| [^8] | [A fast Monte Carlo scheme for additive processes and option pricing.](http://arxiv.org/abs/2112.08291) | 本文提出了一种快速蒙特卡洛方案，用于加性过程和期权定价。该方案计算时间与标准布朗运动算法相当，并且采用了减小误差的技术。它在加性过程的隐含波动率面校准和路径依赖离散监控期权定价方面具有精确性。 |
+| [^9] | [Unpacking the Black Box: Regulating Algorithmic Decisions.](http://arxiv.org/abs/2110.03443) | 本文研究如何在代理使用复杂的“黑盒”预测函数进行决策的情况下，对算法决策进行最优调控。研究发现，限制代理使用透明度足够高的预测函数是低效的，而针对激励偏差源头的目标化工具可以提供次优解决方案，从而改善福利。 |
 
 # 详细
 
-[^1]: 工作丧失对不同工人、企业和市场的收入影响异质性研究
+[^1]: 使用路径积分方法对Vasicek模型中的障碍期权定价
 
-    The Heterogeneous Earnings Impact of Job Loss Across Workers, Establishments, and Markets. (arXiv:2307.06684v1 [econ.GN])
+    Path Integral Method for Barrier Option Pricing Under Vasicek Model. (arXiv:2307.07103v1 [q-fin.PR])
 
-    [http://arxiv.org/abs/2307.06684](http://arxiv.org/abs/2307.06684)
+    [http://arxiv.org/abs/2307.07103](http://arxiv.org/abs/2307.07103)
 
-    这项研究利用广义随机森林和瑞典行政数据发现，工作丧失对不同工人、企业和市场的收入影响具有极大的异质性。对受影响程度最大的工人而言，失去的工作使其每年收入损失50%，十年期间累计损失达到250%。对受影响程度最小的工人而言，仅遭受边际损失不到6%。总体而言，这些影响在企业内部和不同个体特征之间都存在差异。
-
-    
-
-    使用广义随机森林和丰富的瑞典行政数据，我们发现由于企业关闭而导致的工作失去的收入影响在工人、企业和市场之间存在极大的异质性。受影响程度最大的十分位工人在失业后的一年内会损失50%的年收入，并且在十年期间累计损失达到250%。相反，受影响程度最小的十分位工人在失业后的一年内只会遭受不到6%的边际损失。受影响程度最大的十分位工人往往是低薪工人且薪资出现负增长趋势。这意味着对于低收入工人而言，（失去的）就业的经济价值是最大的。原因是许多这些工人在失业后未能找到新的工作。总体而言，这些影响在企业内部和不同重要个体特征（如年龄和受教育程度）之间都存在异质性。
-
-    Using generalized random forests and rich Swedish administrative data, we show that the earnings effects of job displacement due to establishment closures are extremely heterogeneous across workers, establishments, and markets. The decile of workers with the largest predicted effects lose 50 percent of annual earnings the year after displacement and accumulated losses amount to 250 percent during a decade. In contrast, workers in the least affected decile experience only marginal losses of less than 6 percent in the year after displacement. Workers in the most affected decile tend to be lower paid workers on negative earnings trajectories. This implies that the economic value of (lost) jobs is greatest for workers with low earnings. The reason is that many of these workers fail to find new employment after displacement. Overall, the effects are heterogeneous both within and across establishments and combinations of important individual characteristics such as age and schooling. Adverse
-    
-[^2]: 外汇汇率预测的深度学习方法的关键比较
-
-    Critical comparisons on deep learning approaches for foreign exchange rate prediction. (arXiv:2307.06600v1 [q-fin.CP])
-
-    [http://arxiv.org/abs/2307.06600](http://arxiv.org/abs/2307.06600)
-
-    本论文对RNN、LSTM和BP神经网络的基本理论进行研究，比较它们的优势和劣势，为选择价格预测模型提供参考。
+    该论文使用路径积分方法研究了Vasicek模型中的障碍期权定价问题，通过类比量子理论中的散射问题和方势井问题，导出了定价核和期权价格表达式，并给出了标的资产价格变化对期权价格的数值结果。
 
     
 
-    在自然市场环境中，价格预测模型需要根据系统获取的数据实时更新，以确保预测的准确性。为了提高系统的用户体验，价格预测功能需要使用最快的训练模型和最佳网络模型的预测拟合效果作为预测模型。我们对RNN、LSTM和BP神经网络的基本理论进行研究，分析它们各自的特点，并讨论它们的优缺点，以提供价格预测模型选择的参考。
+    量子理论中的路径积分方法为随时间变化的期权定价提供了一种新的思路。对于障碍期权，期权价格变化过程类似于量子力学中的无穷高势垒散射问题；对于双障碍期权，期权价格变化过程类似于粒子在一个无穷方势井中运动。利用路径积分方法，可以导出Vasicek随机利率模型下的定价核和期权价格表达式。同时还展示了期权价格随标的资产价格变化的数值结果。
 
-    In a natural market environment, the price prediction model needs to be updated in real time according to the data obtained by the system to ensure the accuracy of the prediction. In order to improve the user experience of the system, the price prediction function needs to use the fastest training model and the model prediction fitting effect of the best network as a predictive model. We conduct research on the fundamental theories of RNN, LSTM, and BP neural networks, analyse their respective characteristics, and discuss their advantages and disadvantages to provide a reference for the selection of price-prediction models.
+    Path integral method in quantum theory provides a new thinking for time dependent option pricing. For barrier options, the option price changing process is similar to the infinite high barrier scattering problem in quantum mechanics; for double barrier options, the option price changing process is analogous to a particle moving in a infinite square potential well. Using path integral method, the expressions of pricing kernel and option price under Vasicek stochastic interest rate model could be derived. Numerical results of options price as functions of underlying prices are also shown.
     
-[^3]: 随机时滞微分博弈：金融模型和机器学习算法
+[^2]: 外国直接投资（FDI）对新兴亚洲经济体的影响因素：面板数据分析
 
-    Stochastic Delay Differential Games: Financial Modeling and Machine Learning Algorithms. (arXiv:2307.06450v1 [math.OC])
+    The Determinants of Foreign Direct Investment (FDI) A Panel Data Analysis for the Emerging Asian Economies. (arXiv:2307.07037v1 [econ.GN])
 
-    [http://arxiv.org/abs/2307.06450](http://arxiv.org/abs/2307.06450)
+    [http://arxiv.org/abs/2307.07037](http://arxiv.org/abs/2307.07037)
 
-    本文提出了一种使用深度学习方法找到随机时滞微分博弈闭环纳什均衡的数值方法，通过循环神经网络对每个玩家的控制进行参数化并使用修改后的布朗虚拟博弈结合深度学习技术进行训练。
-
-    
-
-    本文提出了一种通过深度学习方法找到随机时滞微分博弈闭环纳什均衡的数值方法。这些博弈在金融和经济学中很常见，多智能体相互作用和延迟效应往往是模型中希望的特征，但这也会增加问题的维度。我们的方法涉及使用不同的循环神经网络对每个玩家的控制进行参数化。然后，我们使用修改后的布朗虚拟博弈结合深度学习技术对这些循环神经网络控制进行训练。为了评估我们方法的有效性，我们在已知解的金融相关问题上进行了测试。此外，我们还开发了新的问题并推导出它们的分析纳什均衡。
-
-    In this paper, we propose a numerical methodology for finding the closed-loop Nash equilibrium of stochastic delay differential games through deep learning. These games are prevalent in finance and economics where multi-agent interaction and delayed effects are often desired features in a model, but are introduced at the expense of increased dimensionality of the problem. This increased dimensionality is especially significant as that arising from the number of players is coupled with the potential infinite dimensionality caused by the delay. Our approach involves parameterizing the controls of each player using distinct recurrent neural networks. These recurrent neural network-based controls are then trained using a modified version of Brown's fictitious play, incorporating deep learning techniques. To evaluate the effectiveness of our methodology, we test it on finance-related problems with known solutions. Furthermore, we also develop new problems and derive their analytical Nash eq
-    
-[^4]: 基于分位数和期望分位数的分位数和期望分位数copula隐马尔可夫回归模型在加密货币市场分析中的应用
-
-    Quantile and expectile copula-based hidden Markov regression models for the analysis of the cryptocurrency market. (arXiv:2307.06400v1 [stat.AP])
-
-    [http://arxiv.org/abs/2307.06400](http://arxiv.org/abs/2307.06400)
-
-    本文提出了一种基于分位数和期望分位数copula的隐马尔可夫回归模型，用于联合估计加密货币收益的分位数和期望分位数。通过引入时间演化的系数和潜在马尔可夫链，能够捕捉极端收益和时间变化依赖结构。
+    本研究通过面板数据分析了吸引外国直接投资（FDI）流入的经济、制度和政治/政府因素对新兴亚洲经济体的影响。经济因素对FDI流入有显著影响，而制度因素和政治因素的影响相对较小。
 
     
 
-    近年来，加密货币在投资者和机构中的作用在金融系统中迅速扩大，因此，有必要调查这些现象并开发能够捕捉它们之间相互关系、与其他全球系统的联系以及序列异质性的统计方法。因此，本文介绍了基于隐马尔可夫回归模型的，使用制度转换的copula方法联合估计加密货币收益的分位数和期望分位数。所提出的方法允许我们关注极端收益，并通过引入随时间演变的系数来描述它们的时间演化，这些系数根据潜在马尔可夫链进行演化。此外，为了建模加密货币的时间变化依赖结构，我们考虑了由状态特定参数定义的椭圆形copula函数。通过期望最大化算法获得最大似然估计。经验分析研究了日频数据之间的关系。
+    本文探讨了在新兴的二十四个亚洲经济体中，吸引外国直接投资（FDI）流入的经济、制度和政治/政府因素。为了研究FDI的显著影响因素，该研究使用了为期17年（2002-2018年）的面板数据。面板方法使我们能够处理内生性和其他问题。实证研究采用多元回归模型进行。研究着重于整体性的方法，并考虑了经济、制度和政治等三个广泛领域下的不同变量。变量包括市场规模、贸易开放程度、通货膨胀、自然资源、贷款利率、资本形成作为经济因素，以及商业管制环境和商业披露指数作为制度因素，以及政治稳定性、政府效能和法治作为政治因素。实证研究结果显示，大多数经济因素显著影响FDI流入，而制度因素和政治因素的影响较小。
 
-    The role of cryptocurrencies within the financial systems has been expanding rapidly in recent years among investors and institutions. It is therefore crucial to investigate the phenomena and develop statistical methods able to capture their interrelationships, the links with other global systems, and, at the same time, the serial heterogeneity. For these reasons, this paper introduces hidden Markov regression models for jointly estimating quantiles and expectiles of cryptocurrency returns using regime-switching copulas. The proposed approach allows us to focus on extreme returns and describe their temporal evolution by introducing time-dependent coefficients evolving according to a latent Markov chain. Moreover to model their time-varying dependence structure, we consider elliptical copula functions defined by state-specific parameters. Maximum likelihood estimates are obtained via an Expectation-Maximization algorithm. The empirical analysis investigates the relationship between dail
+    In this paper, we explore the economic, institutional, and political/governmental factors in attracting Foreign Direct Investment (FDI) inflows in the emerging twenty-four Asian economies. To examine the significant determinants of FDI, the study uses panel data for a period of seventeen years (2002-2018). The panel methodology enables us to deal with endogeneity and other issues. Multiple regression models are done for empirical evidence. The study focuses on a holistic approach and considers different variables under three broad areas: economic, institutional, and political aspects. The variables include Market Size, Trade Openness, Inflation, Natural Resource, Lending Rate, Capital Formation as economic factors and Business Regulatory Environment and Business Disclosure Index as institutional factors and Political Stability, Government Effectiveness, and Rule of Law as political factors. The empirical findings show most of the economic factors significantly affect FDI inflows wherea
     
-[^5]: 基于NP-难组合优化的潜在利润、无关相关性和平衡股票选择的实时交易系统
+[^3]: 在快速均值回归下的近似最优交易执行策略
 
-    Real-time Trading System based on Selections of Potentially Profitable, Uncorrelated, and Balanced Stocks by NP-hard Combinatorial Optimization. (arXiv:2307.06339v1 [cs.ET])
+    Approximately optimal trade execution strategies under fast mean-reversion. (arXiv:2307.07024v1 [q-fin.MF])
 
-    [http://arxiv.org/abs/2307.06339](http://arxiv.org/abs/2307.06339)
+    [http://arxiv.org/abs/2307.07024](http://arxiv.org/abs/2307.07024)
 
-    该论文提出了一种基于NP-难优化的实时股票交易系统，利用伊辛机进行投资组合优化选择股票，并通过量子启发式算法改善夏普比率。
-
-    
-
-    金融投资组合构建问题通常被表述为属于计算复杂性理论中的非确定性多项式时间（NP-难）类别的二次和离散（组合）优化问题。伊辛机是工作于量子机械/量子启发式原理下的硬件设备，用于快速解决NP-难优化问题，从而能够基于NP-难优化在时间限制下进行高速交易策略的决策。在这里，我们报道了一个实时股票交易系统，通过NP-难投资组合优化来确定多空持仓，从而改善夏普比率，使用的是一种基于量子启发式算法（模拟分岔）的嵌入式伊辛机。伊辛机根据一个涉及最大化瞬时预期收益（与成交量加权离差）的目标函数，从一个N只股票的宇宙中选择一个平衡（Delta-中性）组合的股票。
-
-    Financial portfolio construction problems are often formulated as quadratic and discrete (combinatorial) optimization that belong to the nondeterministic polynomial time (NP)-hard class in computational complexity theory. Ising machines are hardware devices that work in quantum-mechanical/quantum-inspired principles for quickly solving NP-hard optimization problems, which potentially enable making trading decisions based on NP-hard optimization in the time constraints for high-speed trading strategies. Here we report a real-time stock trading system that determines long(buying)/short(selling) positions through NP-hard portfolio optimization for improving the Sharpe ratio using an embedded Ising machine based on a quantum-inspired algorithm called simulated bifurcation. The Ising machine selects a balanced (delta-neutral) group of stocks from an $N$-stock universe according to an objective function involving maximizing instantaneous expected returns defined as deviations from volume-wei
-    
-[^6]: 平均加学习模型及其渐近行为研究
-
-    Averaging plus Learning Models and Their Asymptotics. (arXiv:1904.08131v5 [q-fin.MF] UPDATED)
-
-    [http://arxiv.org/abs/1904.08131](http://arxiv.org/abs/1904.08131)
-
-    本研究开发了用于研究金融市场和社交网络中相互作用代理的原创模型，并探索了学习能力和随机性对代理人信念的影响。通过使用不同的技术研究离散时间随机线性动力系统，我们对社交学习模型提供了新的理解。
+    本论文研究了在快速均值回归的情况下，近似最优的交易执行策略。通过考虑不确定的波动性和流动性，模型中的价格影响和风险会随机变化。通过使用高频数据，提供了对该模型的估计方法，并进行了数值评估。
 
     
 
-    我们开发了原始模型来研究金融市场和社交网络中的相互作用代理。在这些模型中，随机性是一种随着时间衰减的冲击或新闻形式。代理人通过观察学习，并具有解释时变网络中的新闻或私人信息的学习能力。在噪声的一般假设下，发展了一个极广义DeGroot框架的极限定理，适用于管理学习的某种类型条件。在这个背景下，代理人的信念（适当缩放）在分布上收敛，并不一定是正态分布。本研究不仅从提出社交学习模型的新设置中获得了新的洞见，而且还使用了不同的技术来研究离散时间随机线性动力系统。
+    在一个固定的时间范围内，适当地执行大量特定资产的交易是具有挑战性的。特别是对于流动性较差或者即使是高流动性但也高度波动的资产，"市场质量"的作用在正确设计执行策略中非常重要。在这里，我们通过考虑不确定的波动性和流动性来对其进行建模；因此，在整个交易期间，高或低价格影响和风险的时刻会随机变化。我们的中心假设是：尽管存在这些不确定的变动，我们假设它们以快速均值回归的方式发生。因此，我们使用奇异摄动论证来研究在这个框架下对最优策略的近似。通过使用高频数据，我们提供了面对微观结构噪音的模型估计方法，并对所有结果进行了数值评估。
 
-    We develop original models to study interacting agents in financial markets and in social networks. Within these models randomness is vital as a form of shock or news that decays with time. Agents learn from their observations and learning ability to interpret news or private information in time-varying networks. Under general assumption on the noise, a limit theorem is developed for the generalised DeGroot framework for certain type of conditions governing the learning. In this context, the agents beliefs (properly scaled) converge in distribution that is not necessarily normal. Fresh insights are gained not only from proposing a new setting for social learning models but also from using different techniques to study discrete time random linear dynamical systems.
+    In a fixed time horizon, appropriately executing a large amount of a particular asset -- meaning a considerable portion of the volume traded within this frame -- is challenging. Especially for illiquid or even highly liquid but also highly volatile ones, the role of "market quality" is quite relevant in properly designing execution strategies. Here, we model it by considering uncertain volatility and liquidity; hence, moments of high or low price impact and risk vary randomly throughout the trading period. We work under the central assumption: although there are these uncertain variations, we assume they occur in a fast mean-reverting fashion. We thus employ singular perturbation arguments to study approximations to the optimal strategies in this framework. By using high-frequency data, we provide estimation methods for our model in face of microstructure noise, as well as numerically assess all of our results.
+    
+[^4]: 广告商在直接广告市场中的学习
+
+    Advertiser Learning in Direct Advertising Markets. (arXiv:2307.07015v1 [econ.GN])
+
+    [http://arxiv.org/abs/2307.07015](http://arxiv.org/abs/2307.07015)
+
+    广告商在直接广告市场中学习如何选择网站上的广告，调整他们的先验信念，并通过集合广告商信息来提高广告效果。
+
+    
+
+    直接购买广告的广告商以固定价格从发布者和广告网络手中购买广告库存。这些广告商面临着在众多新的发布者网站中选择广告的复杂任务。我们提供证据表明广告商在做出这些选择时并不出色。相反，他们会在选择一个偏爱的集合之前尝试许多网站，与广告商学习相一致。随后，我们对广告商对发布者库存的需求进行建模，广告商可以在发布者的网站上了解广告效果。结果表明，广告商在以后放弃的网站上花费了大量资源进行广告投放，部分原因是他们对这些网站的广告效果存在过于乐观的先验信念。新网站上的广告商的预期点击率中位数为0.23%，比真实的中位数点击率0.045%高五倍。我们考虑了如何通过集合广告商信息来解决这个问题。具体而言，我们展示了具有类似视觉元素的广告可以获得类似的点击率。
+
+    Direct buy advertisers procure advertising inventory at fixed rates from publishers and ad networks. Such advertisers face the complex task of choosing ads amongst myriad new publisher sites. We offer evidence that advertisers do not excel at making these choices. Instead, they try many sites before settling on a favored set, consistent with advertiser learning. We subsequently model advertiser demand for publisher inventory wherein advertisers learn about advertising efficacy across publishers' sites. Results suggest that advertisers spend considerable resources advertising on sites they eventually abandon -- in part because their prior beliefs about advertising efficacy on those sites are too optimistic. The median advertiser's expected CTR at a new site is 0.23%, five times higher than the true median CTR of 0.045%.  We consider how pooling advertiser information remediates this problem. Specifically, we show that ads with similar visual elements garner similar CTRs, enabling advert
+    
+[^5]: 通过松弛法设计最优合同：在具有私有信号的客户经纪费问题中的应用
+
+    Optimal contract design via relaxation: application to the problem of brokerage fee for a client with private signal. (arXiv:2307.07010v1 [q-fin.MF])
+
+    [http://arxiv.org/abs/2307.07010](http://arxiv.org/abs/2307.07010)
+
+    本文通过松弛技术建立了在信息不对称存在的情况下最优合同的存在性，并将该方法应用于解决了具有私有信号的经纪人费问题。
+
+    
+
+    本文展示了如何利用松弛技术来建立在信息不对称存在的情况下的最优合同的存在性。我们所展示的方法最初是受到设计最优经纪费问题的启发，但它也适用于其他最优合同问题，其中（i）代理商线性控制扩散过程的漂移，（ii）委托人和代理商目标对代理商策略的直接依赖具有特殊形式，以及（iii）合同的可接受空间是紧致的。然后，利用这种方法来建立在一个市场模型中，代理人的客户观察到了一个私有交易信号，但经纪人却没有观察到最优经纪费的存在性。
+
+    In this paper we show how the relaxation techniques can be used to establish the existence of an optimal contract in presence of information asymmetry. The method we illustrate was initially motivated by the problem of designing optimal brokerage fees, but it does apply to other optimal contract problems, in which (i) the agent controls linearly the drift of a diffusion process, (ii) the direct dependence of the principal's and the agent's objectives on the strategy of the agent is of a special form, and (iii) the space of admissible contracts is compact. This method is then applied to establish existence of an optimal brokerage fee in a market model with a private trading signal observed by the broker's client but not by the broker.
+    
+[^6]: 鲁棒性前景下无法计算索赔的效用最大化问题研究
+
+    Robust utility maximization with intractable claims. (arXiv:2304.06938v1 [q-fin.MF])
+
+    [http://arxiv.org/abs/2304.06938](http://arxiv.org/abs/2304.06938)
+
+    该研究采用鲁棒性方法处理了一类连续时间下的效用最大化问题，其中投资者面临一个未知概率分布的会计普通股价值。通过应用分位数公式，将最优终端投资收入的分位函数表示为某些普通微分方程变分不等式的解。对于指数效用来说，该问题简化为具有概率扭曲的（非鲁棒性）排名依赖效用最大化问题，其解在文献中已有。
+
+    
+
+    我们研究了一类连续时间下的效用最大化问题，其中投资者在到期时收到了金融市场投资回报以及某个未知概率分布的会计普通股价值，即所谓的“无法计算索赔”。因为缺乏关于索赔的信息，我们采用鲁棒性方法来最大化投资者在最坏情况下的效用。我们利用分位数公式来解决该问题，并将最优终端投资收入的分位函数表示为某些普通微分方程变分不等式的解。对于指数效用来说，该问题简化为具有概率扭曲的（非鲁棒性）排名依赖效用最大化问题，其解在文献中已有。
+
+    We study a continuous-time expected utility maximization problem in which the investor at maturity receives the value of a contingent claim in addition to the investment payoff from the financial market. The investor knows nothing about the claim other than its probability distribution, hence an ``intractable claim''. In view of the lack of necessary information about the claim, we consider a robust formulation to maximize her utility in the worst scenario. We apply the quantile formulation to solve the problem, expressing the quantile function of the optimal terminal investment income as the solution of certain variational inequalities of ordinary differential equations. In the case of an exponential utility, the problem reduces to a (non-robust) rank--dependent utility maximization with probability distortion whose solution is available in the literature.
+    
+[^7]: 带有制度转换和随机系数的非齐次随机线性二次 ( LQ ) 控制
+
+    Non-homogeneous stochastic LQ control with regime switching and random coefficients. (arXiv:2201.01433v6 [math.OC] UPDATED)
+
+    [http://arxiv.org/abs/2201.01433](http://arxiv.org/abs/2201.01433)
+
+    本文提出了一种解决带有制度转换和随机系数的非齐次随机LQ控制问题方法，并应用于资产负债管理问题 under the mean-variance criteria。
+
+    
+
+    本文探讨了具有制度转换和随机系数的一般非齐次随机线性二次 ( LQ ) 控制问题。我们利用两个反向随机微分方程系统得到了此问题的显式最优状态反馈控制和最优值。其中一个是著名的随机 Riccati 方程，另一个是具有无界系数的线性多维 BSDE。通过使用 BMO 常鞥和收缩映射方法证明了这两个反向随机微分方程系统的解的存在性和唯一性。最后，将此理论应用于研究均值-方差标准下的资产负债管理问题。
+
+    This paper is concerned with a general non-homogeneous stochastic linear quadratic (LQ) control problem with regime switching and random coefficients. We obtain the explicit optimal state feedback control and optimal value for this problem in terms of two systems of backward stochastic differential equations (BSDEs): one is the famous stochastic Riccati equation and the other one is a linear multi-dimensional BSDE with unbounded coefficients. The existence and uniqueness of the solutions to these two systems of BSDEs are proved by means of BMO martingales and contraction mapping method. At last, the theory is applied to study an asset-liability management problem under the mean-variance criteria.
+    
+[^8]: 一种用于加性过程和期权定价的快速蒙特卡洛方案
+
+    A fast Monte Carlo scheme for additive processes and option pricing. (arXiv:2112.08291v3 [q-fin.CP] UPDATED)
+
+    [http://arxiv.org/abs/2112.08291](http://arxiv.org/abs/2112.08291)
+
+    本文提出了一种快速蒙特卡洛方案，用于加性过程和期权定价。该方案计算时间与标准布朗运动算法相当，并且采用了减小误差的技术。它在加性过程的隐含波动率面校准和路径依赖离散监控期权定价方面具有精确性。
+
+    
+
+    本文提出了一种非常快速的加性过程蒙特卡洛方案：计算时间与布朗运动的标准算法数量级相当。我们详细分析了数值误差来源，并提出了一种减小两个主要误差来源的技术。我们还将我们的结果与基准方法进行了比较：用高斯近似进行跳跃模拟。我们展示了一种应用于加性正态温和稳定过程的方法，这是一类校准“精确”的隐含波动率面的加性过程。数值结果是相关的。这种快速算法也是一种精确定价路径依赖离散监控期权的工具，误差为1个基点以下。
+
+    In this paper, we present a very fast Monte Carlo scheme for additive processes: the computational time is of the same order of magnitude of standard algorithms for Brownian motions. We analyze in detail numerical error sources and propose a technique that reduces the two major sources of error. We also compare our results with a benchmark method: the jump simulation with Gaussian approximation. We show an application to additive normal tempered stable processes, a class of additive processes that calibrates ``exactly" the implied volatility surface.Numerical results are relevant. This fast algorithm is also an accurate tool for pricing path-dependent discretely-monitoring options with errors of one bp or below.
+    
+[^9]: 揭开黑盒子：调控算法决策
+
+    Unpacking the Black Box: Regulating Algorithmic Decisions. (arXiv:2110.03443v2 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2110.03443](http://arxiv.org/abs/2110.03443)
+
+    本文研究如何在代理使用复杂的“黑盒”预测函数进行决策的情况下，对算法决策进行最优调控。研究发现，限制代理使用透明度足够高的预测函数是低效的，而针对激励偏差源头的目标化工具可以提供次优解决方案，从而改善福利。
+
+    
+
+    我们展示了如何在一个代理使用复杂的“黑盒”预测函数进行决策（如贷款、医疗测试或招聘）且委托人在了解代理的黑盒模型方面有限的情况下，最优地调控预测算法。我们证明，只要诱导不足，且最优预测函数足够复杂，将代理限制在足够透明的预测函数中是低效的。算法审计有助于提高福利，但其收益取决于审计工具的设计。许多解释工具倾向于最小化整体信息损失，但这通常是低效的，因为它们集中于解释预测函数的平均行为。针对性的工具，如针对激励偏差源头（如过多的假阳性或种族差异）的工具，可以提供次优解决方案。我们提供了对我们理论的实证支持。
+
+    We show how to optimally regulate prediction algorithms in a world where an agent uses complex 'black-box' prediction functions to make decisions such as lending, medical testing, or hiring, and where a principal is limited in how much she can learn about the agent's black-box model. We show that limiting agents to prediction functions that are simple enough to be fully transparent is inefficient as long as the misalignment is limited and first-best prediction functions are sufficiently complex. Algorithmic audits can improve welfare, but the gains depend on the design of the audit tools. Tools that focus on minimizing overall information loss, the focus of many explainer tools, will generally be inefficient since they focus on explaining the average behavior of the prediction function. Targeted tools that focus on the source of incentive misalignment, e.g., excess false positives or racial disparities, can provide second-best solutions. We provide empirical support for our theoretical
     
 

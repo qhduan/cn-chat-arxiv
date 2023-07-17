@@ -1,0 +1,11 @@
+{
+    "title": "Signed iterative random forests to identify enhancer-associated transcription factor binding. (arXiv:1810.07287v2 [stat.ML] UPDATED)",
+    "abstract": "Standard ChIP-seq peak calling pipelines seek to differentiate biochemically reproducible signals of individual genomic elements from background noise. However, reproducibility alone does not imply functional regulation (e.g., enhancer activation, alternative splicing). Here we present a general-purpose, interpretable machine learning method: signed iterative random forests (siRF), which we use to infer regulatory interactions among transcription factors and functional binding signatures surrounding enhancer elements in Drosophila melanogaster.",
+    "link": "http://arxiv.org/abs/1810.07287",
+    "context": "Title: Signed iterative random forests to identify enhancer-associated transcription factor binding. (arXiv:1810.07287v2 [stat.ML] UPDATED)\nAbstract: Standard ChIP-seq peak calling pipelines seek to differentiate biochemically reproducible signals of individual genomic elements from background noise. However, reproducibility alone does not imply functional regulation (e.g., enhancer activation, alternative splicing). Here we present a general-purpose, interpretable machine learning method: signed iterative random forests (siRF), which we use to infer regulatory interactions among transcription factors and functional binding signatures surrounding enhancer elements in Drosophila melanogaster.",
+    "path": "papers/18/10/1810.07287.json",
+    "total_tokens": 674,
+    "translated_title": "用有符号的迭代随机森林识别增强子相关的转录因子结合",
+    "translated_abstract": "标准的ChIP-seq峰值调用流程旨在区分各个基因组元素的生化可重复信号和背景噪声。然而，仅凭可重复性并不能暗示功能调控（例如增强子活化、可选剪接）。在这里，我们介绍了一种通用的、可解释的机器学习方法：有符号的迭代随机森林（siRF），我们用它来推断Drosophila melanogaster中增强子元素周围的转录因子之间的调控相互作用和功能结合签名。",
+    "tldr": "本文介绍了一种有符号的迭代随机森林（siRF）方法，用于推断Drosophila melanogaster中增强子元素周围的转录因子之间的调控相互作用和功能结合签名。"
+}

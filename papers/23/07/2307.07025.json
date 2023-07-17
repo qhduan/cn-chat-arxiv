@@ -1,0 +1,11 @@
+{
+    "title": "Data Augmentation for Machine Translation via Dependency Subtree Swapping. (arXiv:2307.07025v1 [cs.CL])",
+    "abstract": "We present a generic framework for data augmentation via dependency subtree swapping that is applicable to machine translation. We extract corresponding subtrees from the dependency parse trees of the source and target sentences and swap these across bisentences to create augmented samples. We perform thorough filtering based on graphbased similarities of the dependency trees and additional heuristics to ensure that extracted subtrees correspond to the same meaning. We conduct resource-constrained experiments on 4 language pairs in both directions using the IWSLT text translation datasets and the Hunglish2 corpus. The results demonstrate consistent improvements in BLEU score over our baseline models in 3 out of 4 language pairs. Our code is available on GitHub.",
+    "link": "http://arxiv.org/abs/2307.07025",
+    "context": "Title: Data Augmentation for Machine Translation via Dependency Subtree Swapping. (arXiv:2307.07025v1 [cs.CL])\nAbstract: We present a generic framework for data augmentation via dependency subtree swapping that is applicable to machine translation. We extract corresponding subtrees from the dependency parse trees of the source and target sentences and swap these across bisentences to create augmented samples. We perform thorough filtering based on graphbased similarities of the dependency trees and additional heuristics to ensure that extracted subtrees correspond to the same meaning. We conduct resource-constrained experiments on 4 language pairs in both directions using the IWSLT text translation datasets and the Hunglish2 corpus. The results demonstrate consistent improvements in BLEU score over our baseline models in 3 out of 4 language pairs. Our code is available on GitHub.",
+    "path": "papers/23/07/2307.07025.json",
+    "total_tokens": 790,
+    "translated_title": "通过依存子树交换实现机器翻译的数据增强",
+    "translated_abstract": "我们提出了一种通用的通过依存子树交换实现数据增强的框架，适用于机器翻译。我们从源句子和目标句子的依存树中提取相应的子树，并将其在句子之间交换，以创建增强样本。我们根据依存树的图形相似性和附加启发式方法进行彻底的过滤，以确保提取的子树对应于相同的含义。我们使用IWSLT文本翻译数据集和Hunglish2语料库，在4个语言对的两个方向上进行了资源受限实验。结果表明，在4个语言对中，我们的基线模型在3个语言对上的BLEU分数有了持续的提高。我们的代码在GitHub上可用。",
+    "tldr": "通过依存子树交换实现机器翻译的数据增强框架，通过从依存树中提取相应的子树并进行交换，创建增强样本。实验证明，在资源受限环境中，它在3个语言对上表现出了持续的BLEU分数提高。"
+}

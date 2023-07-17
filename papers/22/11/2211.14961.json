@@ -1,0 +1,11 @@
+{
+    "title": "Linear Classification of Neural Manifolds with Correlated Variability. (arXiv:2211.14961v2 [q-bio.NC] UPDATED)",
+    "abstract": "Understanding how the statistical and geometric properties of neural activity relate to performance is a key problem in theoretical neuroscience and deep learning. Here, we calculate how correlations between object representations affect the capacity, a measure of linear separability. We show that for spherical object manifolds, introducing correlations between centroids effectively pushes the spheres closer together, while introducing correlations between the axes effectively shrinks their radii, revealing a duality between correlations and geometry with respect to the problem of classification. We then apply our results to accurately estimate the capacity of deep network data.",
+    "link": "http://arxiv.org/abs/2211.14961",
+    "context": "Title: Linear Classification of Neural Manifolds with Correlated Variability. (arXiv:2211.14961v2 [q-bio.NC] UPDATED)\nAbstract: Understanding how the statistical and geometric properties of neural activity relate to performance is a key problem in theoretical neuroscience and deep learning. Here, we calculate how correlations between object representations affect the capacity, a measure of linear separability. We show that for spherical object manifolds, introducing correlations between centroids effectively pushes the spheres closer together, while introducing correlations between the axes effectively shrinks their radii, revealing a duality between correlations and geometry with respect to the problem of classification. We then apply our results to accurately estimate the capacity of deep network data.",
+    "path": "papers/22/11/2211.14961.json",
+    "total_tokens": 672,
+    "translated_title": "神经流形的相关变异的线性分类",
+    "translated_abstract": "理解神经活动的统计和几何属性与性能的关系是理论神经科学和深度学习中的一个关键问题。在这里，我们计算目标表示之间的相关性如何影响线性可分性的度量。我们发现，对于球形目标流形，引入质心之间的相关性有效地将球体推向一起，而引入轴之间的相关性有效地缩小了它们的半径，揭示了关于相关性和几何性质之间的二元性在分类问题上的问题。然后，我们将我们的结果应用于准确地估计深度网络数据的能力。",
+    "tldr": "本文研究了神经活动的统计和几何属性与性能的关系，并发现了线性可分性的度量与目标表示之间的相关性之间的关系。研究结果揭示了关于相关性和几何性质之间的二元性在分类问题上的问题，并进一步应用到深度网络数据中。"
+}

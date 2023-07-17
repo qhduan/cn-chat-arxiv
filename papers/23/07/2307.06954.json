@@ -1,0 +1,12 @@
+{
+    "title": "ACTI at EVALITA 2023: Overview of the Conspiracy Theory Identification Task. (arXiv:2307.06954v1 [cs.CL])",
+    "abstract": "Conspiracy Theory Identication task is a new shared task proposed for the first time at the Evalita 2023. The ACTI challenge, based exclusively on comments published on conspiratorial channels of telegram, is divided into two subtasks: (i) Conspiratorial Content Classification: identifying conspiratorial content and (ii) Conspiratorial Category Classification about specific conspiracy theory classification. A total of fifteen teams participated in the task for a total of 81 submissions. We illustrate the best performing approaches were based on the utilization of large language models. We finally draw conclusions about the utilization of these models for counteracting the spreading of misinformation in online platforms.",
+    "link": "http://arxiv.org/abs/2307.06954",
+    "context": "Title: ACTI at EVALITA 2023: Overview of the Conspiracy Theory Identification Task. (arXiv:2307.06954v1 [cs.CL])\nAbstract: Conspiracy Theory Identication task is a new shared task proposed for the first time at the Evalita 2023. The ACTI challenge, based exclusively on comments published on conspiratorial channels of telegram, is divided into two subtasks: (i) Conspiratorial Content Classification: identifying conspiratorial content and (ii) Conspiratorial Category Classification about specific conspiracy theory classification. A total of fifteen teams participated in the task for a total of 81 submissions. We illustrate the best performing approaches were based on the utilization of large language models. We finally draw conclusions about the utilization of these models for counteracting the spreading of misinformation in online platforms.",
+    "path": "papers/23/07/2307.06954.json",
+    "total_tokens": 715,
+    "translated_title": "ACTI在EVALITA 2023中的综述：阴谋论辨识任务概述",
+    "translated_abstract": "阴谋论辨识任务是Evalita 2023首次提出的新共享任务。ACTI挑战仅基于Telegram上的阴谋频道评论，分为两个子任务：(i) 阴谋内容分类：辨识阴谋内容和(ii) 阴谋类别分类：针对特定阴谋理论分类。共有15支团队参与了该任务，总共提交了81个结果。我们说明了基于大型语言模型的最佳方法。最后，我们得出了关于利用这些模型来抵制在在线平台上传播错误信息的结论。",
+    "tldr": "ACTI在EVALITA 2023中的阴谋论辨识任务共有15支团队参与，通过使用大型语言模型判断阴谋内容和分类，得出了关于利用这些模型抵制在在线平台传播错误信息的结论。",
+    "en_tdlr": "The ACTI challenge at EVALITA 2023 involved 15 teams and aimed to identify conspiratorial content and classify specific conspiracy theories using large language models. The study concluded that these models are effective in combating the spread of misinformation on online platforms."
+}

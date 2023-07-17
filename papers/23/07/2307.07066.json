@@ -1,0 +1,11 @@
+{
+    "title": "Proof of Training (PoT): Harnessing Crypto Mining Power for Distributed AI Training. (arXiv:2307.07066v1 [cs.CR])",
+    "abstract": "In the midst of the emerging trend of integrating artificial intelligence (AI) with crypto mining, we identify three major challenges that create a gap between these two fields. To bridge this gap, we introduce the proof-of-training (PoT) protocol, an approach that combines the strengths of both AI and blockchain technology. The PoT protocol utilizes the practical Byzantine fault tolerance (PBFT) consensus mechanism to synchronize global states. To evaluate the performance of the protocol design, we present an implementation of a decentralized training network (DTN) that adopts the PoT protocol. Our results indicate that the protocol exhibits considerable potential in terms of task throughput, system robustness, and network security.",
+    "link": "http://arxiv.org/abs/2307.07066",
+    "context": "Title: Proof of Training (PoT): Harnessing Crypto Mining Power for Distributed AI Training. (arXiv:2307.07066v1 [cs.CR])\nAbstract: In the midst of the emerging trend of integrating artificial intelligence (AI) with crypto mining, we identify three major challenges that create a gap between these two fields. To bridge this gap, we introduce the proof-of-training (PoT) protocol, an approach that combines the strengths of both AI and blockchain technology. The PoT protocol utilizes the practical Byzantine fault tolerance (PBFT) consensus mechanism to synchronize global states. To evaluate the performance of the protocol design, we present an implementation of a decentralized training network (DTN) that adopts the PoT protocol. Our results indicate that the protocol exhibits considerable potential in terms of task throughput, system robustness, and network security.",
+    "path": "papers/23/07/2307.07066.json",
+    "total_tokens": 795,
+    "translated_title": "Proof of Training (PoT): 利用加密挖掘的算力进行分布式AI训练",
+    "translated_abstract": "在人工智能（AI）与加密挖掘相融合的新趋势中，我们发现两个领域存在三个主要挑战。为了弥合这一差距，我们引入了一种名为Proof of Training (PoT)的协议，它结合了AI和区块链技术的优势。PoT协议利用实用性拜占庭错误容忍（PBFT）共识机制来同步全局状态。为了评估协议设计的性能，我们提出了一种采用PoT协议的分散训练网络（DTN）的实现。我们的结果表明，该协议在任务吞吐量、系统鲁棒性和网络安全方面具有相当的潜力。",
+    "tldr": "Proof of Training (PoT)是一种结合了AI和区块链技术的协议，利用实用性拜占庭错误容忍（PBFT）共识机制同步全局状态。该协议在任务吞吐量、系统鲁棒性和网络安全方面表现出相当的潜力。"
+}

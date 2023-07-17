@@ -1,0 +1,12 @@
+{
+    "title": "C3: Zero-shot Text-to-SQL with ChatGPT. (arXiv:2307.07306v1 [cs.CL])",
+    "abstract": "This paper proposes a ChatGPT-based zero-shot Text-to-SQL method, dubbed C3, which achieves 82.3\\% in terms of execution accuracy on the holdout test set of Spider and becomes the state-of-the-art zero-shot Text-to-SQL method on the Spider Challenge. C3 consists of three key components: Clear Prompting (CP), Calibration with Hints (CH), and Consistent Output (CO), which are corresponding to the model input, model bias and model output respectively. It provides a systematic treatment for zero-shot Text-to-SQL. Extensive experiments have been conducted to verify the effectiveness and efficiency of our proposed method.",
+    "link": "http://arxiv.org/abs/2307.07306",
+    "context": "Title: C3: Zero-shot Text-to-SQL with ChatGPT. (arXiv:2307.07306v1 [cs.CL])\nAbstract: This paper proposes a ChatGPT-based zero-shot Text-to-SQL method, dubbed C3, which achieves 82.3\\% in terms of execution accuracy on the holdout test set of Spider and becomes the state-of-the-art zero-shot Text-to-SQL method on the Spider Challenge. C3 consists of three key components: Clear Prompting (CP), Calibration with Hints (CH), and Consistent Output (CO), which are corresponding to the model input, model bias and model output respectively. It provides a systematic treatment for zero-shot Text-to-SQL. Extensive experiments have been conducted to verify the effectiveness and efficiency of our proposed method.",
+    "path": "papers/23/07/2307.07306.json",
+    "total_tokens": 705,
+    "translated_title": "C3: 使用ChatGPT进行零-shot Text-to-SQL",
+    "translated_abstract": "本文提出了一种基于ChatGPT的零-shot Text-to-SQL方法，名为C3，其在Spider的测试集上达到82.3%的执行准确率，并成为Spider Challenge中最先进的零-shot Text-to-SQL方法。C3由三个关键组件组成：Clear Prompting (CP)，Calibration with Hints (CH)和Consistent Output (CO)，分别对应于模型输入，模型偏差和模型输出。它为零-shot Text-to-SQL提供了系统性的处理方法。我们进行了大量实验证明了我们提出的方法的有效性和效率。",
+    "tldr": "C3是基于ChatGPT的零-shot Text-to-SQL方法，通过三个关键组件提供系统性的处理方法，在Spider Challenge上取得了82.3%的执行准确率，成为最先进的方法。",
+    "en_tdlr": "C3 is a ChatGPT-based zero-shot Text-to-SQL method that achieves 82.3% execution accuracy on the Spider dataset and becomes the state-of-the-art approach. It introduces three key components - Clear Prompting, Calibration with Hints, and Consistent Output - providing a systematic treatment for zero-shot Text-to-SQL. Extensive experiments validate its effectiveness and efficiency."
+}

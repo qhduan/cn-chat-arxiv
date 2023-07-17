@@ -1,0 +1,12 @@
+{
+    "title": "Brain Tumor Detection using Convolutional Neural Networks with Skip Connections. (arXiv:2307.07503v1 [eess.IV])",
+    "abstract": "In this paper, we present different architectures of Convolutional Neural Networks (CNN) to analyze and classify the brain tumors into benign and malignant types using the Magnetic Resonance Imaging (MRI) technique. Different CNN architecture optimization techniques such as widening and deepening of the network and adding skip connections are applied to improve the accuracy of the network. Results show that a subset of these techniques can judiciously be used to outperform a baseline CNN model used for the same purpose.",
+    "link": "http://arxiv.org/abs/2307.07503",
+    "context": "Title: Brain Tumor Detection using Convolutional Neural Networks with Skip Connections. (arXiv:2307.07503v1 [eess.IV])\nAbstract: In this paper, we present different architectures of Convolutional Neural Networks (CNN) to analyze and classify the brain tumors into benign and malignant types using the Magnetic Resonance Imaging (MRI) technique. Different CNN architecture optimization techniques such as widening and deepening of the network and adding skip connections are applied to improve the accuracy of the network. Results show that a subset of these techniques can judiciously be used to outperform a baseline CNN model used for the same purpose.",
+    "path": "papers/23/07/2307.07503.json",
+    "total_tokens": 614,
+    "translated_title": "使用具有跳跃连接的卷积神经网络进行脑肿瘤检测",
+    "translated_abstract": "本文介绍了使用卷积神经网络（CNN）在磁共振成像（MRI）技术下分析和分类脑肿瘤为良性和恶性的不同架构。通过对网络进行拓宽、深化和添加跳跃连接等优化技术，提高了网络的准确性。结果表明，这些技术的子集可以巧妙地用于超越用于相同目的的基准CNN模型。",
+    "tldr": "本文提出了不同架构的卷积神经网络用于分析和分类脑肿瘤，通过优化网络并添加跳跃连接，提高了网络的准确性。",
+    "en_tdlr": "This paper presents different architectures of Convolutional Neural Networks for analyzing and classifying brain tumors, achieving improved accuracy through network optimization and the addition of skip connections."
+}

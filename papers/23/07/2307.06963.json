@@ -1,0 +1,11 @@
+{
+    "title": "Is Task-Agnostic Explainable AI a Myth?. (arXiv:2307.06963v1 [cs.AI])",
+    "abstract": "Our work serves as a framework for unifying the challenges of contemporary explainable AI (XAI). We demonstrate that while XAI methods provide supplementary and potentially useful output for machine learning models, researchers and decision-makers should be mindful of their conceptual and technical limitations, which frequently result in these methods themselves becoming black boxes. We examine three XAI research avenues spanning image, textual, and graph data, covering saliency, attention, and graph-type explainers. Despite the varying contexts and timeframes of the mentioned cases, the same persistent roadblocks emerge, highlighting the need for a conceptual breakthrough in the field to address the challenge of compatibility between XAI methods and application tasks.",
+    "link": "http://arxiv.org/abs/2307.06963",
+    "context": "Title: Is Task-Agnostic Explainable AI a Myth?. (arXiv:2307.06963v1 [cs.AI])\nAbstract: Our work serves as a framework for unifying the challenges of contemporary explainable AI (XAI). We demonstrate that while XAI methods provide supplementary and potentially useful output for machine learning models, researchers and decision-makers should be mindful of their conceptual and technical limitations, which frequently result in these methods themselves becoming black boxes. We examine three XAI research avenues spanning image, textual, and graph data, covering saliency, attention, and graph-type explainers. Despite the varying contexts and timeframes of the mentioned cases, the same persistent roadblocks emerge, highlighting the need for a conceptual breakthrough in the field to address the challenge of compatibility between XAI methods and application tasks.",
+    "path": "papers/23/07/2307.06963.json",
+    "total_tokens": 841,
+    "translated_title": "任务无关的可解释人工智能是个神话吗？",
+    "translated_abstract": "我们的工作提供了一个框架，用于统一当代可解释人工智能(XAI)的挑战。我们证明了虽然XAI方法为机器学习模型提供了补充和潜在有用的输出，研究人员和决策者应该注意它们的概念和技术限制，这经常导致这些方法本身成为黑盒子。我们研究了三个XAI研究方向，涵盖图像、文本和图形数据，包括显著性、注意力和图形解释器。尽管所提及的案例的上下文和时间跨度各不相同，但同样的持续阻碍出现了，突显出在该领域中解决XAI方法和应用任务之间兼容性挑战的概念突破的需求。",
+    "tldr": "我们提出了一个框架来统一当代可解释人工智能的挑战，指出虽然XAI方法为模型提供了有用的输出，但研究人员和决策者应注意它们的限制，需要在该领域有一个概念突破以解决XAI方法和应用任务之间的兼容性挑战。"
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Defect Classification in Additive Manufacturing Using CNN-Based Vision Processing. (arXiv:2307.07378v1 [cs.CV])",
+    "abstract": "The development of computer vision and in-situ monitoring using visual sensors allows the collection of large datasets from the additive manufacturing (AM) process. Such datasets could be used with machine learning techniques to improve the quality of AM. This paper examines two scenarios: first, using convolutional neural networks (CNNs) to accurately classify defects in an image dataset from AM and second, applying active learning techniques to the developed classification model. This allows the construction of a human-in-the-loop mechanism to reduce the size of the data required to train and generate training data.",
+    "link": "http://arxiv.org/abs/2307.07378",
+    "context": "Title: Defect Classification in Additive Manufacturing Using CNN-Based Vision Processing. (arXiv:2307.07378v1 [cs.CV])\nAbstract: The development of computer vision and in-situ monitoring using visual sensors allows the collection of large datasets from the additive manufacturing (AM) process. Such datasets could be used with machine learning techniques to improve the quality of AM. This paper examines two scenarios: first, using convolutional neural networks (CNNs) to accurately classify defects in an image dataset from AM and second, applying active learning techniques to the developed classification model. This allows the construction of a human-in-the-loop mechanism to reduce the size of the data required to train and generate training data.",
+    "path": "papers/23/07/2307.07378.json",
+    "total_tokens": 731,
+    "translated_title": "使用基于卷积神经网络的视觉处理在增材制造中进行缺陷分类",
+    "translated_abstract": "计算机视觉和原位监控利用视觉传感器的发展允许从增材制造过程中收集大量数据集。这样的数据集可以与机器学习技术结合使用，以改善增材制造的质量。本文研究了两种情景：首先，使用卷积神经网络（CNN）准确分类增材制造图像数据集中的缺陷；其次，应用主动学习技术对所开发的分类模型进行优化。这将构建一个人在循环机制，以减少培训和生成训练数据所需的数据量。",
+    "tldr": "本文研究了使用基于卷积神经网络的视觉处理来准确分类增材制造图像数据集中的缺陷，并应用主动学习技术进行优化，以构建一个人在循环机制，以减少培训和生成训练数据所需的数据量。"
+}

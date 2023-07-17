@@ -1,0 +1,11 @@
+{
+    "title": "Impact of Free-carrier Nonlinearities on Silicon Microring-based Reservoir Computing. (arXiv:2307.07011v1 [cs.ET])",
+    "abstract": "We quantify the impact of thermo-optic and free-carrier effects on time-delay reservoir computing using a silicon microring resonator. We identify pump power and frequency detuning ranges with NMSE less than 0.05 for the NARMA-10 task depending on the time constants of the two considered effects.",
+    "link": "http://arxiv.org/abs/2307.07011",
+    "context": "Title: Impact of Free-carrier Nonlinearities on Silicon Microring-based Reservoir Computing. (arXiv:2307.07011v1 [cs.ET])\nAbstract: We quantify the impact of thermo-optic and free-carrier effects on time-delay reservoir computing using a silicon microring resonator. We identify pump power and frequency detuning ranges with NMSE less than 0.05 for the NARMA-10 task depending on the time constants of the two considered effects.",
+    "path": "papers/23/07/2307.07011.json",
+    "total_tokens": 615,
+    "translated_title": "硅微环共振器对基于自由载流子非线性的蓄水容器计算的影响",
+    "translated_abstract": "我们量化了热光效应和自由载流子效应对使用硅微环谐振器的时延蓄水容器计算的影响。我们确定了泵浦功率和频率失谐范围，使得NARMA-10任务中NMSE小于0.05，这取决于两种考虑效应的时间常数。",
+    "tldr": "使用硅微环共振器进行的基于自由载流子非线性的蓄水容器计算，通过量化热光效应和自由载流子效应的影响，并确定了使NARMA-10任务中NMSE小于0.05的泵浦功率和频率失谐范围。"
+}
