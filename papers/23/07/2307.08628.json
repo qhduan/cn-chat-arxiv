@@ -1,0 +1,12 @@
+{
+    "title": "Is (independent) subordination relevant?. (arXiv:2307.08628v1 [q-fin.MF])",
+    "abstract": "Monroe (1978) demonstrates that any local semimartingale can be represented as a time-changed Brownian Motion (BM). Does this embedding theorem holds when the BM and the time-change are independent? We prove that a local semimartingale is not equivalent to a BM with a time-change that is independent from the BM. This result is obtained utilizing as a counterexample a process relevant in the financial literature for applications in option pricing.",
+    "link": "http://arxiv.org/abs/2307.08628",
+    "context": "Title: Is (independent) subordination relevant?. (arXiv:2307.08628v1 [q-fin.MF])\nAbstract: Monroe (1978) demonstrates that any local semimartingale can be represented as a time-changed Brownian Motion (BM). Does this embedding theorem holds when the BM and the time-change are independent? We prove that a local semimartingale is not equivalent to a BM with a time-change that is independent from the BM. This result is obtained utilizing as a counterexample a process relevant in the financial literature for applications in option pricing.",
+    "path": "papers/23/07/2307.08628.json",
+    "total_tokens": 582,
+    "translated_title": "(独立) 被支配的井然性是否相关?",
+    "translated_abstract": "Monroe(1978)证明了任何本地半鞅都可以表示为时间改变的布朗运动(BM)。当BM和时间改变相互独立时，这个嵌入定理是否成立呢? 我们证明局部半鞅与带有与BM相互独立的时间改变的BM不等价。通过使用在金融文献中的一个与期权定价应用相关的过程作为反例，我们得到了这个结果。",
+    "tldr": "这篇论文证明了通过时间改变的布朗运动嵌入的定理在布朗运动和时间改变相互独立时不成立。",
+    "en_tdlr": "This paper proves that the embedding theorem for time-changed Brownian Motion is not valid when the Brownian Motion and the time-change are independent."
+}

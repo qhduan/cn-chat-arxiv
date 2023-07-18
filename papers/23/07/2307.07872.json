@@ -1,0 +1,11 @@
+{
+    "title": "Does Double Descent Occur in Self-Supervised Learning?. (arXiv:2307.07872v1 [cs.LG])",
+    "abstract": "Most investigations into double descent have focused on supervised models while the few works studying self-supervised settings find a surprising lack of the phenomenon. These results imply that double descent may not exist in self-supervised models. We show this empirically using a standard and linear autoencoder, two previously unstudied settings. The test loss is found to have either a classical U-shape or to monotonically decrease instead of exhibiting a double-descent curve. We hope that further work on this will help elucidate the theoretical underpinnings of this phenomenon.",
+    "link": "http://arxiv.org/abs/2307.07872",
+    "context": "Title: Does Double Descent Occur in Self-Supervised Learning?. (arXiv:2307.07872v1 [cs.LG])\nAbstract: Most investigations into double descent have focused on supervised models while the few works studying self-supervised settings find a surprising lack of the phenomenon. These results imply that double descent may not exist in self-supervised models. We show this empirically using a standard and linear autoencoder, two previously unstudied settings. The test loss is found to have either a classical U-shape or to monotonically decrease instead of exhibiting a double-descent curve. We hope that further work on this will help elucidate the theoretical underpinnings of this phenomenon.",
+    "path": "papers/23/07/2307.07872.json",
+    "total_tokens": 656,
+    "translated_title": "自监督学习中是否会发生双下降现象？",
+    "translated_abstract": "大多数关于双下降现象的研究都集中在监督模型上，而对于自监督设置的研究却发现这种现象的缺失令人惊讶。这些结果表明，在自监督模型中可能不存在双下降现象。我们通过使用标准和线性自编码器来进行实证研究，发现测试损失要么呈现经典的U型曲线，要么单调递减，而不是呈现双下降曲线。我们希望进一步的研究能够揭示这一现象的理论基础。",
+    "tldr": "研究发现，在自监督学习中缺乏双下降现象，进一步的研究有助于揭示其理论基础。"
+}

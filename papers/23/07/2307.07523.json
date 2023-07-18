@@ -1,0 +1,11 @@
+{
+    "title": "PapagAI:Automated Feedback for Reflective Essays. (arXiv:2307.07523v1 [cs.AI])",
+    "abstract": "Written reflective practice is a regular exercise pre-service teachers perform during their higher education. Usually, their lecturers are expected to provide individual feedback, which can be a challenging task to perform on a regular basis. In this paper, we present the first open-source automated feedback tool based on didactic theory and implemented as a hybrid AI system. We describe the components and discuss the advantages and disadvantages of our system compared to the state-of-art generative large language models. The main objective of our work is to enable better learning outcomes for students and to complement the teaching activities of lecturers.",
+    "link": "http://arxiv.org/abs/2307.07523",
+    "context": "Title: PapagAI:Automated Feedback for Reflective Essays. (arXiv:2307.07523v1 [cs.AI])\nAbstract: Written reflective practice is a regular exercise pre-service teachers perform during their higher education. Usually, their lecturers are expected to provide individual feedback, which can be a challenging task to perform on a regular basis. In this paper, we present the first open-source automated feedback tool based on didactic theory and implemented as a hybrid AI system. We describe the components and discuss the advantages and disadvantages of our system compared to the state-of-art generative large language models. The main objective of our work is to enable better learning outcomes for students and to complement the teaching activities of lecturers.",
+    "path": "papers/23/07/2307.07523.json",
+    "total_tokens": 669,
+    "translated_title": "PapagAI：反思性文章的自动反馈",
+    "translated_abstract": "在高等教育期间，撰写反思性实践是预备教师进行的常规练习。通常情况下，他们的讲师需要提供个别反馈，这可能是一项常规任务。本文提出了第一个基于教学理论并实现为混合AI系统的开源自动反馈工具。我们描述了组件，并讨论了我们的系统与现有最先进的生成式大型语言模型相比的优势和劣势。我们的工作的主要目标是实现学生的更好学习结果，并补充讲师的教学活动。",
+    "tldr": "PapagAI是第一个基于教学理论并实现为混合AI系统的开源自动反馈工具，旨在提高学生学习成果并补充讲师的教学活动。"
+}

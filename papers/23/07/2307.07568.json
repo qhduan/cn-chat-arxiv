@@ -1,0 +1,12 @@
+{
+    "title": "Variational Prediction. (arXiv:2307.07568v1 [cs.LG])",
+    "abstract": "Bayesian inference offers benefits over maximum likelihood, but it also comes with computational costs. Computing the posterior is typically intractable, as is marginalizing that posterior to form the posterior predictive distribution. In this paper, we present variational prediction, a technique for directly learning a variational approximation to the posterior predictive distribution using a variational bound. This approach can provide good predictive distributions without test time marginalization costs. We demonstrate Variational Prediction on an illustrative toy example.",
+    "link": "http://arxiv.org/abs/2307.07568",
+    "context": "Title: Variational Prediction. (arXiv:2307.07568v1 [cs.LG])\nAbstract: Bayesian inference offers benefits over maximum likelihood, but it also comes with computational costs. Computing the posterior is typically intractable, as is marginalizing that posterior to form the posterior predictive distribution. In this paper, we present variational prediction, a technique for directly learning a variational approximation to the posterior predictive distribution using a variational bound. This approach can provide good predictive distributions without test time marginalization costs. We demonstrate Variational Prediction on an illustrative toy example.",
+    "path": "papers/23/07/2307.07568.json",
+    "total_tokens": 611,
+    "translated_title": "变分预测",
+    "translated_abstract": "贝叶斯推断相比最大似然具有优势，但也伴随着计算成本。计算后验通常是难以处理的，而将后验边缘化形成后验预测分布也是如此。在本文中，我们提出了变分预测，一种使用变分界直接学习后验预测分布的技术。这种方法可以在没有测试时间边缘化成本的情况下提供良好的预测分布。我们在一个说明性的玩具例子上演示了变分预测。",
+    "tldr": "本文介绍了变分预测这一技术，通过使用变分界直接学习后验预测分布，避免了边缘化成本，并展示了在玩具例子上的实验结果。",
+    "en_tdlr": "This paper presents variational prediction, a technique for learning a variational approximation to the posterior predictive distribution without marginalization costs, demonstrated on a toy example."
+}

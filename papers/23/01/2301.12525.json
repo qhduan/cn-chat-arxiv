@@ -1,0 +1,11 @@
+{
+    "title": "Composer's Assistant: An Interactive Transformer for Multi-Track MIDI Infilling. (arXiv:2301.12525v2 [cs.SD] UPDATED)",
+    "abstract": "We introduce Composer's Assistant, a system for interactive human-computer composition in the REAPER digital audio workstation. We consider the task of multi-track MIDI infilling when arbitrary track-measures have been deleted from a contiguous slice of measures from a MIDI file, and we train a T5-like model to accomplish this task. Composer's Assistant consists of this model together with scripts that enable interaction with the model in REAPER. We conduct objective and subjective tests of our model. We release our complete system, consisting of source code, pretrained models, and REAPER scripts. Our models were trained only on permissively-licensed MIDI files.",
+    "link": "http://arxiv.org/abs/2301.12525",
+    "context": "Title: Composer's Assistant: An Interactive Transformer for Multi-Track MIDI Infilling. (arXiv:2301.12525v2 [cs.SD] UPDATED)\nAbstract: We introduce Composer's Assistant, a system for interactive human-computer composition in the REAPER digital audio workstation. We consider the task of multi-track MIDI infilling when arbitrary track-measures have been deleted from a contiguous slice of measures from a MIDI file, and we train a T5-like model to accomplish this task. Composer's Assistant consists of this model together with scripts that enable interaction with the model in REAPER. We conduct objective and subjective tests of our model. We release our complete system, consisting of source code, pretrained models, and REAPER scripts. Our models were trained only on permissively-licensed MIDI files.",
+    "path": "papers/23/01/2301.12525.json",
+    "total_tokens": 803,
+    "translated_title": "Composer's Assistant：一种用于多轨MIDI填充的交互式Transformer",
+    "translated_abstract": "我们介绍了Composer's Assistant，这是一个用于在REAPER数字音频工作站中进行人机交互创作的系统。我们考虑到了当从一个MIDI文件的连续小节中删除了任意轨道小节时的多轨MIDI填充任务，并训练了一个类似于T5的模型来完成这个任务。Composer's Assistant由这个模型和能够与REAPER中的模型进行交互的脚本组成。我们进行了客观和主观的模型测试。我们发布了我们的完整系统，包括源代码、预训练模型和REAPER脚本。我们的模型只在授权许可的MIDI文件上进行了训练。",
+    "tldr": "Composer's Assistant是一种用于在REAPER音频工作站中进行人机交互创作的系统，它通过训练一个T5-like模型来实现对多轨MIDI填充的任务。该系统提供了一组脚本，使用户能够与模型进行交互，并进行了客观和主观的测试。完整的系统包括源代码、预训练模型和REAPER脚本。"
+}

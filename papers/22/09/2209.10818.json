@@ -1,0 +1,12 @@
+{
+    "title": "Memory-Augmented Graph Neural Networks: A Brain-Inspired Review. (arXiv:2209.10818v2 [cs.LG] UPDATED)",
+    "abstract": "We provide a comprehensive review of the existing literature on memory-augmented GNNs. We review these works through the lens of psychology and neuroscience, which has several established theories on how multiple memory systems and mechanisms operate in biological brains. We propose a taxonomy of memory-augmented GNNs and a set of criteria for comparing their memory mechanisms. We also provide critical discussions on the limitations of these works. Finally, we discuss the challenges and future directions for this area.",
+    "link": "http://arxiv.org/abs/2209.10818",
+    "context": "Title: Memory-Augmented Graph Neural Networks: A Brain-Inspired Review. (arXiv:2209.10818v2 [cs.LG] UPDATED)\nAbstract: We provide a comprehensive review of the existing literature on memory-augmented GNNs. We review these works through the lens of psychology and neuroscience, which has several established theories on how multiple memory systems and mechanisms operate in biological brains. We propose a taxonomy of memory-augmented GNNs and a set of criteria for comparing their memory mechanisms. We also provide critical discussions on the limitations of these works. Finally, we discuss the challenges and future directions for this area.",
+    "path": "papers/22/09/2209.10818.json",
+    "total_tokens": 633,
+    "translated_title": "基于记忆增强的图神经网络：一个受启发于大脑的综述",
+    "translated_abstract": "我们通过心理学和神经科学的视角对现有的记忆增强型图神经网络文献进行了全面回顾。我们提出了一个记忆增强型图神经网络的分类法和一组用于比较它们记忆机制的标准。我们还对这些研究的局限性进行了深入讨论。最后，我们讨论了这个领域的挑战和未来发展方向。",
+    "tldr": "本文提供了一个关于记忆增强型图神经网络的全面回顾，通过心理学和神经科学的视角，提出了分类法和比较标准，并讨论了其局限性和未来发展方向。",
+    "en_tdlr": "This paper presents a comprehensive review of memory-augmented graph neural networks, providing a taxonomy, comparison criteria, and discussing limitations and future directions from the perspectives of psychology and neuroscience."
+}

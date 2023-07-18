@@ -1,0 +1,12 @@
+{
+    "title": "Elaboration-Generating Commonsense Question Answering at Scale. (arXiv:2209.01232v2 [cs.CL] UPDATED)",
+    "abstract": "In question answering requiring common sense, language models (e.g., GPT-3) have been used to generate text expressing background knowledge that helps improve performance. Yet the cost of working with such models is very high; in this work, we finetune smaller language models to generate useful intermediate context, referred to here as elaborations. Our framework alternates between updating two language models -- an elaboration generator and an answer predictor -- allowing each to influence the other. Using less than 0.5% of the parameters of GPT-3, our model outperforms alternatives with similar sizes and closes the gap on GPT-3 on four commonsense question answering benchmarks. Human evaluations show that the quality of the generated elaborations is high.",
+    "link": "http://arxiv.org/abs/2209.01232",
+    "context": "Title: Elaboration-Generating Commonsense Question Answering at Scale. (arXiv:2209.01232v2 [cs.CL] UPDATED)\nAbstract: In question answering requiring common sense, language models (e.g., GPT-3) have been used to generate text expressing background knowledge that helps improve performance. Yet the cost of working with such models is very high; in this work, we finetune smaller language models to generate useful intermediate context, referred to here as elaborations. Our framework alternates between updating two language models -- an elaboration generator and an answer predictor -- allowing each to influence the other. Using less than 0.5% of the parameters of GPT-3, our model outperforms alternatives with similar sizes and closes the gap on GPT-3 on four commonsense question answering benchmarks. Human evaluations show that the quality of the generated elaborations is high.",
+    "path": "papers/22/09/2209.01232.json",
+    "total_tokens": 759,
+    "translated_title": "以规模生成常识问答的详细解释",
+    "translated_abstract": "在需要常识的问答任务中，语言模型（例如GPT-3）被用来生成表达背景知识以提高性能的文本。然而，使用这样的模型的成本非常高；在这项工作中，我们通过微调较小的语言模型来生成有用的中间上下文，称为详细解释。我们的框架交替更新两个语言模型-详细解释生成器和答案预测器-允许它们相互影响。使用不到GPT-3参数的0.5％，我们的模型在与类似规模的替代方法相比表现更好，并在四个常识问答基准测试上接近GPT-3。人工评估显示生成的详细解释质量很高。",
+    "tldr": "本论文提出了一种规模较小的语言模型框架，通过微调生成有用的中间上下文来提高常识问答性能，并在人工评估中获得高质量的生成详细解释。",
+    "en_tdlr": "This paper presents a framework using smaller language models to generate useful intermediate context for improving common sense question answering performance, achieving high-quality generated elaborations according to human evaluations."
+}

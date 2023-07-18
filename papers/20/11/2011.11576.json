@@ -1,0 +1,12 @@
+{
+    "title": "Conjecturing-Based Discovery of Patterns in Data. (arXiv:2011.11576v4 [cs.LG] UPDATED)",
+    "abstract": "We propose the use of a conjecturing machine that suggests feature relationships in the form of bounds involving nonlinear terms for numerical features and boolean expressions for categorical features. The proposed Conjecturing framework recovers known nonlinear and boolean relationships among features from data. In both settings, true underlying relationships are revealed. We then compare the method to a previously-proposed framework for symbolic regression on the ability to recover equations that are satisfied among features in a dataset. The framework is then applied to patient-level data regarding COVID-19 outcomes to suggest possible risk factors that are confirmed in the medical literature.",
+    "link": "http://arxiv.org/abs/2011.11576",
+    "context": "Title: Conjecturing-Based Discovery of Patterns in Data. (arXiv:2011.11576v4 [cs.LG] UPDATED)\nAbstract: We propose the use of a conjecturing machine that suggests feature relationships in the form of bounds involving nonlinear terms for numerical features and boolean expressions for categorical features. The proposed Conjecturing framework recovers known nonlinear and boolean relationships among features from data. In both settings, true underlying relationships are revealed. We then compare the method to a previously-proposed framework for symbolic regression on the ability to recover equations that are satisfied among features in a dataset. The framework is then applied to patient-level data regarding COVID-19 outcomes to suggest possible risk factors that are confirmed in the medical literature.",
+    "path": "papers/20/11/2011.11576.json",
+    "total_tokens": 716,
+    "translated_title": "基于猜想的数据模式发现",
+    "translated_abstract": "我们提出了一种猜想机器，它以非线性项的边界以及分类特征的布尔表达式的形式建议特征之间的关系。所提出的猜想框架可以从数据中恢复已知的非线性和布尔关系。在两种情况下，真实的基础关系被揭示出来。然后，我们将该方法与先前提出的符号回归框架进行比较，以确定在数据集中满足的方程恢复的能力。然后，该框架应用于COVID-19结果的患者级别数据，以提供可能与医学文献中确认的风险因素。",
+    "tldr": "本研究提出了一种基于猜想的数据模式发现方法，在数值特征和分类特征之间建立了非线性和布尔关系，并应用于COVID-19患者级别数据，揭示了可能的风险因素。",
+    "en_tdlr": "This study proposes a conjecturing-based method for discovering patterns in data, which establishes nonlinear and boolean relationships between numerical and categorical features. The method is applied to patient-level data of COVID-19 outcomes, revealing possible risk factors."
+}

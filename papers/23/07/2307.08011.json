@@ -1,0 +1,11 @@
+{
+    "title": "Quantal Response Equilibrium with a Continuum of Types: Characterization and Nonparametric Identification. (arXiv:2307.08011v1 [econ.TH])",
+    "abstract": "Quantal response equilibrium (QRE), a statistical generalization of Nash equilibrium, is a standard benchmark in the analysis of experimental data. Despite its influence, nonparametric characterizations and tests of QRE are unavailable beyond the case of finite games. We address this gap by completely characterizing the set of QRE in a class of binary-action games with a continuum of types. Our characterization provides sharp predictions in settings such as global games, the volunteer's dilemma, and the compromise game. Further, we leverage our results to develop nonparametric tests of QRE. As an empirical application, we revisit the experimental data from Carrillo and Palfrey (2009) on the compromise game.",
+    "link": "http://arxiv.org/abs/2307.08011",
+    "context": "Title: Quantal Response Equilibrium with a Continuum of Types: Characterization and Nonparametric Identification. (arXiv:2307.08011v1 [econ.TH])\nAbstract: Quantal response equilibrium (QRE), a statistical generalization of Nash equilibrium, is a standard benchmark in the analysis of experimental data. Despite its influence, nonparametric characterizations and tests of QRE are unavailable beyond the case of finite games. We address this gap by completely characterizing the set of QRE in a class of binary-action games with a continuum of types. Our characterization provides sharp predictions in settings such as global games, the volunteer's dilemma, and the compromise game. Further, we leverage our results to develop nonparametric tests of QRE. As an empirical application, we revisit the experimental data from Carrillo and Palfrey (2009) on the compromise game.",
+    "path": "papers/23/07/2307.08011.json",
+    "total_tokens": 821,
+    "translated_title": "一个具有类型连续性的量子响应均衡：特征化与非参数鉴定",
+    "translated_abstract": "量子响应均衡(QRE)是实验数据分析中的标准基准，是对纳什均衡的统计概括。尽管其影响力广泛，但在有限的游戏情景以外，关于QRE的非参数特征化和检验方法并不存在。我们通过对一类具有类型连续性的二元行动博弈中QRE集合的完全特征化来填补这一空白。我们的特征化在全局博弈、志愿者困境以及妥协博弈等情境下提供了精确的预测。此外，我们利用这些结果开发了对QRE的非参数检验方法。作为一个实证应用，我们重新审视了Carrillo和Palfrey (2009)关于妥协博弈的实验数据。",
+    "tldr": "本研究通过完全特征化二元行动博弈中一个具有类型连续性的量子响应均衡集合，填补了非参数特征化和检验方法的空白。此外，通过对实验数据的应用，验证了我们的方法的有效性。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Considerations on the Theory of Training Models with Differential Privacy. (arXiv:2303.04676v2 [cs.LG] UPDATED)",
+    "abstract": "In federated learning collaborative learning takes place by a set of clients who each want to remain in control of how their local training data is used, in particular, how can each client's local training data remain private? Differential privacy is one method to limit privacy leakage. We provide a general overview of its framework and provable properties, adopt the more recent hypothesis based definition called Gaussian DP or $f$-DP, and discuss Differentially Private Stochastic Gradient Descent (DP-SGD). We stay at a meta level and attempt intuitive explanations and insights \\textit{in this book chapter}.",
+    "link": "http://arxiv.org/abs/2303.04676",
+    "context": "Title: Considerations on the Theory of Training Models with Differential Privacy. (arXiv:2303.04676v2 [cs.LG] UPDATED)\nAbstract: In federated learning collaborative learning takes place by a set of clients who each want to remain in control of how their local training data is used, in particular, how can each client's local training data remain private? Differential privacy is one method to limit privacy leakage. We provide a general overview of its framework and provable properties, adopt the more recent hypothesis based definition called Gaussian DP or $f$-DP, and discuss Differentially Private Stochastic Gradient Descent (DP-SGD). We stay at a meta level and attempt intuitive explanations and insights \\textit{in this book chapter}.",
+    "path": "papers/23/03/2303.04676.json",
+    "total_tokens": 743,
+    "translated_title": "对差分隐私训练模型理论的考虑",
+    "translated_abstract": "在联邦学习中，一组客户端进行协作学习，每个客户端都希望控制其本地训练数据的使用方式，尤其是每个客户端的本地训练数据如何保持私密？差分隐私是一种限制隐私泄漏的方法。我们提供了其框架和可证明性质的概述，采用最新的基于假设的定义，即高斯差分隐私或$f$-DP，并讨论了差分隐私随机梯度下降（DP-SGD）。我们保持在元水平上，并尝试以直观的方式解释和洞察。",
+    "tldr": "本论文提供了对差分隐私训练模型理论的考虑。研究了在联邦学习中的差分隐私保护方法，包括高斯差分隐私和差分隐私随机梯度下降。提供了框架和可证明性质的概述。",
+    "en_tdlr": "This paper discusses the theory of training models with differential privacy, specifically in the context of federated learning. It provides an overview of differential privacy framework and properties, focuses on Gaussian differential privacy and differentially private stochastic gradient descent."
+}

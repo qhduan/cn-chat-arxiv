@@ -1,0 +1,12 @@
+{
+    "title": "Semi-Supervised Learning: the Case When Unlabeled Data is Equally Useful. (arXiv:2005.11018v3 [cs.LG] UPDATED)",
+    "abstract": "Semi-supervised learning algorithms attempt to take advantage of relatively inexpensive unlabeled data to improve learning performance. In this work, we consider statistical models where the data distributions can be characterized by continuous parameters. We show that under certain conditions on the distribution, unlabeled data is equally useful as labeled date in terms of learning rate. Specifically, let $n, m$ be the number of labeled and unlabeled data, respectively. It is shown that the learning rate of semi-supervised learning scales as $O(1/n)$ if $m\\sim n$, and scales as $O(1/n^{1+\\gamma})$ if $m\\sim n^{1+\\gamma}$ for some $\\gamma>0$, whereas the learning rate of supervised learning scales as $O(1/n)$.",
+    "link": "http://arxiv.org/abs/2005.11018",
+    "context": "Title: Semi-Supervised Learning: the Case When Unlabeled Data is Equally Useful. (arXiv:2005.11018v3 [cs.LG] UPDATED)\nAbstract: Semi-supervised learning algorithms attempt to take advantage of relatively inexpensive unlabeled data to improve learning performance. In this work, we consider statistical models where the data distributions can be characterized by continuous parameters. We show that under certain conditions on the distribution, unlabeled data is equally useful as labeled date in terms of learning rate. Specifically, let $n, m$ be the number of labeled and unlabeled data, respectively. It is shown that the learning rate of semi-supervised learning scales as $O(1/n)$ if $m\\sim n$, and scales as $O(1/n^{1+\\gamma})$ if $m\\sim n^{1+\\gamma}$ for some $\\gamma>0$, whereas the learning rate of supervised learning scales as $O(1/n)$.",
+    "path": "papers/20/05/2005.11018.json",
+    "total_tokens": 785,
+    "translated_title": "半监督学习：当未标记数据同样有用时的情况",
+    "translated_abstract": "半监督学习算法试图利用较便宜的未标记数据来提高学习性能。本文考虑了数据分布可以由连续参数来描述的统计模型。我们展示了在分布满足一定条件的情况下，未标记数据在学习速度方面与标记数据同样有用。具体而言，设$n，m$分别为标记和未标记数据的数量。研究表明，如果$m\\sim n$，半监督学习的学习速度按$O(1/n)$缩放；如果$m\\sim n^{1+\\gamma}$，半监督学习的学习速度按$O(1/n^{1+\\gamma})$缩放，其中$\\gamma>0$，而监督学习的学习速度按$O(1/n)$缩放。",
+    "tldr": "本文研究了半监督学习中未标记数据与标记数据在学习速度方面的关系，并发现在特定条件下，未标记数据在学习速度上同样有用。",
+    "en_tdlr": "This paper investigates the relationship between labeled and unlabeled data in terms of learning rate in semi-supervised learning, and finds that under certain conditions, unlabeled data is equally useful in learning rate."
+}

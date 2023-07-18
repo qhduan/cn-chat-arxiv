@@ -1,0 +1,12 @@
+{
+    "title": "Contracting with Heterogeneous Researchers. (arXiv:2307.07629v1 [econ.TH])",
+    "abstract": "We study the design of contracts that incentivize a researcher to conduct a costly experiment, extending the work of Yoder (2022) from binary states to a general state space. The cost is private information of the researcher. When the experiment is observable, we find the optimal contract and show that higher types choose more costly experiments, but not necessarily more Blackwell informative ones. When only the experiment result is observable, the principal can still achieve the same optimal outcome if and only if a certain monotonicity condition with respect to types holds. Our analysis demonstrates that the general case is qualitatively different than the binary one, but that the contracting problem remains tractable.",
+    "link": "http://arxiv.org/abs/2307.07629",
+    "context": "Title: Contracting with Heterogeneous Researchers. (arXiv:2307.07629v1 [econ.TH])\nAbstract: We study the design of contracts that incentivize a researcher to conduct a costly experiment, extending the work of Yoder (2022) from binary states to a general state space. The cost is private information of the researcher. When the experiment is observable, we find the optimal contract and show that higher types choose more costly experiments, but not necessarily more Blackwell informative ones. When only the experiment result is observable, the principal can still achieve the same optimal outcome if and only if a certain monotonicity condition with respect to types holds. Our analysis demonstrates that the general case is qualitatively different than the binary one, but that the contracting problem remains tractable.",
+    "path": "papers/23/07/2307.07629.json",
+    "total_tokens": 720,
+    "translated_title": "异质研究者的合同设计",
+    "translated_abstract": "我们研究了设计激励研究者进行成本高昂实验的合同，将Yoder（2022）的工作从二元状态扩展为一般状态空间。成本是研究者的私人信息。当实验可观察时，我们找到了最优合同，并表明更高类型的选择更昂贵的实验，但不一定是更具Blackwell信息的实验。当只有实验结果可观察时，只有当关于类型的某种单调性条件成立时，委托人才能实现相同的最优结果。我们的分析表明，一般情况与二元情况在性质上有所不同，但合同问题仍然可处理。",
+    "tldr": "本文研究了如何激励研究者进行成本高昂的实验的合同设计，并通过分析发现了一般情况与二元情况的差异，但合同问题仍然可处理。",
+    "en_tdlr": "This paper studies the design of contracts to incentivize researchers to conduct costly experiments and finds that there are differences between the general case and the binary case, but the contracting problem remains tractable."
+}

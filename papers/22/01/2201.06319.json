@@ -1,0 +1,12 @@
+{
+    "title": "Multinomial Backtesting of Distortion Risk Measures. (arXiv:2201.06319v2 [q-fin.RM] UPDATED)",
+    "abstract": "We extend the scope of risk measures for which backtesting models are available by proposing a multinomial backtesting method for general distortion risk measures. The method relies on a stratification and randomization of risk levels. We illustrate the performance of our methods in numerical case studies.",
+    "link": "http://arxiv.org/abs/2201.06319",
+    "context": "Title: Multinomial Backtesting of Distortion Risk Measures. (arXiv:2201.06319v2 [q-fin.RM] UPDATED)\nAbstract: We extend the scope of risk measures for which backtesting models are available by proposing a multinomial backtesting method for general distortion risk measures. The method relies on a stratification and randomization of risk levels. We illustrate the performance of our methods in numerical case studies.",
+    "path": "papers/22/01/2201.06319.json",
+    "total_tokens": 544,
+    "translated_title": "多项式失真风险测度的反向测试方法",
+    "translated_abstract": "我们通过提出一种适用于一般失真风险测度的多项式反向测试方法，扩展了反向测试模型适用的风险测度范围。该方法依赖于风险水平的分层和随机化。我们通过数值案例研究展示了我们方法的表现。",
+    "tldr": "这项研究提出了一种适用于一般失真风险测度的多项式反向测试方法，通过分层和随机化风险水平，扩展了反向测试模型的适用范围。",
+    "en_tdlr": "This study proposes a multinomial backtesting method for general distortion risk measures, which extends the range of applicable risk measures for backtesting models by stratifying and randomizing risk levels."
+}

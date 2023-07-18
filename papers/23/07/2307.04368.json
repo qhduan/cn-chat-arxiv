@@ -1,0 +1,12 @@
+{
+    "title": "ECS -- an Interactive Tool for Data Quality Assurance. (arXiv:2307.04368v2 [cs.LG] UPDATED)",
+    "abstract": "With the increasing capabilities of machine learning systems and their potential use in safety-critical systems, ensuring high-quality data is becoming increasingly important. In this paper we present a novel approach for the assurance of data quality. For this purpose, the mathematical basics are first discussed and the approach is presented using multiple examples. This results in the detection of data points with potentially harmful properties for the use in safety-critical systems.",
+    "link": "http://arxiv.org/abs/2307.04368",
+    "context": "Title: ECS -- an Interactive Tool for Data Quality Assurance. (arXiv:2307.04368v2 [cs.LG] UPDATED)\nAbstract: With the increasing capabilities of machine learning systems and their potential use in safety-critical systems, ensuring high-quality data is becoming increasingly important. In this paper we present a novel approach for the assurance of data quality. For this purpose, the mathematical basics are first discussed and the approach is presented using multiple examples. This results in the detection of data points with potentially harmful properties for the use in safety-critical systems.",
+    "path": "papers/23/07/2307.04368.json",
+    "total_tokens": 580,
+    "translated_title": "ECS -- 用于数据质量保证的交互工具",
+    "translated_abstract": "随着机器学习系统的能力不断增强及其在安全关键系统中的潜在应用，确保高质量的数据变得越来越重要。本文提出了一种新颖的数据质量保证方法。首先讨论了数学基础，然后通过多个示例介绍了这种方法。该方法能够检测出在安全关键系统中具有潜在危害属性的数据点。",
+    "tldr": "本文提出了一种交互工具ECS，用于保证数据质量。该工具能够检测出在安全关键系统中具有潜在危害属性的数据点。",
+    "en_tdlr": "This paper presents ECS, an interactive tool for data quality assurance. It is capable of detecting data points with potentially harmful properties for use in safety-critical systems."
+}

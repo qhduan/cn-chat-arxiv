@@ -1,0 +1,12 @@
+{
+    "title": "Transformers are Universal Predictors. (arXiv:2307.07843v1 [cs.LG])",
+    "abstract": "We find limits to the Transformer architecture for language modeling and show it has a universal prediction property in an information-theoretic sense. We further analyze performance in non-asymptotic data regimes to understand the role of various components of the Transformer architecture, especially in the context of data-efficient training. We validate our theoretical analysis with experiments on both synthetic and real datasets.",
+    "link": "http://arxiv.org/abs/2307.07843",
+    "context": "Title: Transformers are Universal Predictors. (arXiv:2307.07843v1 [cs.LG])\nAbstract: We find limits to the Transformer architecture for language modeling and show it has a universal prediction property in an information-theoretic sense. We further analyze performance in non-asymptotic data regimes to understand the role of various components of the Transformer architecture, especially in the context of data-efficient training. We validate our theoretical analysis with experiments on both synthetic and real datasets.",
+    "path": "papers/23/07/2307.07843.json",
+    "total_tokens": 519,
+    "translated_title": "Transformers是通用的预测器",
+    "translated_abstract": "我们找到了Transformer架构在语言建模中的局限性，并证明了它在信息理论意义上具有通用的预测性质。我们进一步分析了在非渐近数据环境中的性能，以了解Transformer架构的各个组件在数据高效训练的背景下的作用。我们通过对合成数据集和真实数据集的实验验证了我们的理论分析。",
+    "tldr": "Transformers架构在语言建模中具有通用的预测性质，并且在非渐近数据环境中表现良好。",
+    "en_tdlr": "Transformers architecture has a universal prediction property in language modeling and performs well in non-asymptotic data regimes."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Modeling Human-like Concept Learning with Bayesian Inference over Natural Language. (arXiv:2306.02797v2 [cs.CL] UPDATED)",
+    "abstract": "We model learning of abstract symbolic concepts by performing Bayesian inference over utterances in natural language. For efficient inference, we use a large language model as a proposal distribution. We fit a prior to human data to better model human learners, and evaluate on both generative and logical concepts.",
+    "link": "http://arxiv.org/abs/2306.02797",
+    "context": "Title: Modeling Human-like Concept Learning with Bayesian Inference over Natural Language. (arXiv:2306.02797v2 [cs.CL] UPDATED)\nAbstract: We model learning of abstract symbolic concepts by performing Bayesian inference over utterances in natural language. For efficient inference, we use a large language model as a proposal distribution. We fit a prior to human data to better model human learners, and evaluate on both generative and logical concepts.",
+    "path": "papers/23/06/2306.02797.json",
+    "total_tokens": 588,
+    "translated_title": "用贝叶斯推理模拟人类类人概念学习",
+    "translated_abstract": "我们通过在自然语言中进行贝叶斯推理来模拟对抽象符号概念的学习。为了高效推理，我们使用一个大型语言模型作为提议分布。我们根据人类数据拟合先验以更好地模拟人类学习者，并在生成性和逻辑性概念上进行评估。",
+    "tldr": "该论文通过在自然语言中进行贝叶斯推理来模拟人类类人概念学习，使用大型语言模型作为提议分布并拟合先验以更好地模拟人类学习者，并在生成性和逻辑性概念上进行实验评估。",
+    "en_tdlr": "This paper models human-like concept learning by performing Bayesian inference over utterances in natural language, using a large language model as a proposal distribution and fitting a prior to human data to better model human learners. Evaluation is conducted on both generative and logical concepts."
+}

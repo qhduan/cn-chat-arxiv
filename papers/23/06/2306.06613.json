@@ -1,0 +1,12 @@
+{
+    "title": "Parameter-free version of Adaptive Gradient Methods for Strongly-Convex Functions. (arXiv:2306.06613v2 [cs.LG] UPDATED)",
+    "abstract": "The optimal learning rate for adaptive gradient methods applied to {\\lambda}-strongly convex functions relies on the parameters {\\lambda} and learning rate {\\eta}. In this paper, we adapt a universal algorithm along the lines of Metagrad, to get rid of this dependence on {\\lambda} and {\\eta}. The main idea is to concurrently run multiple experts and combine their predictions to a master algorithm. This master enjoys O(d log T) regret bounds.",
+    "link": "http://arxiv.org/abs/2306.06613",
+    "context": "Title: Parameter-free version of Adaptive Gradient Methods for Strongly-Convex Functions. (arXiv:2306.06613v2 [cs.LG] UPDATED)\nAbstract: The optimal learning rate for adaptive gradient methods applied to {\\lambda}-strongly convex functions relies on the parameters {\\lambda} and learning rate {\\eta}. In this paper, we adapt a universal algorithm along the lines of Metagrad, to get rid of this dependence on {\\lambda} and {\\eta}. The main idea is to concurrently run multiple experts and combine their predictions to a master algorithm. This master enjoys O(d log T) regret bounds.",
+    "path": "papers/23/06/2306.06613.json",
+    "total_tokens": 661,
+    "translated_title": "强凸函数的无参数版本自适应梯度方法",
+    "translated_abstract": "自适应梯度方法应用于强凸函数时的最优学习率依赖于参数λ和学习率η。本文通过采用类似Metagrad的通用算法，摆脱对λ和η的依赖。主要思想是同时运行多个专家，并将他们的预测结果合并到主算法中。该主算法具有O(d log T)的遗憾边界。",
+    "tldr": "本文提出了一种无参数版本的自适应梯度方法，该方法应用于强凸函数时不再依赖于参数λ和学习率η。主要思想是同时运行多个专家并将他们的预测结果合并到主算法中，这使得该算法具有O(d log T)的遗憾边界。",
+    "en_tdlr": "This paper presents a parameter-free version of adaptive gradient methods, which eliminates the dependency on parameters λ and learning rate η when applied to strongly-convex functions. The main idea is to concurrently run multiple experts and combine their predictions to a master algorithm, resulting in a regret bound of O(d log T)."
+}

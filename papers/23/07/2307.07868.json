@@ -1,0 +1,12 @@
+{
+    "title": "Contrasting the efficiency of stock price prediction models using various types of LSTM models aided with sentiment analysis. (arXiv:2307.07868v1 [q-fin.ST])",
+    "abstract": "Our research aims to find the best model that uses companies projections and sector performances and how the given company fares accordingly to correctly predict equity share prices for both short and long term goals.",
+    "link": "http://arxiv.org/abs/2307.07868",
+    "context": "Title: Contrasting the efficiency of stock price prediction models using various types of LSTM models aided with sentiment analysis. (arXiv:2307.07868v1 [q-fin.ST])\nAbstract: Our research aims to find the best model that uses companies projections and sector performances and how the given company fares accordingly to correctly predict equity share prices for both short and long term goals.",
+    "path": "papers/23/07/2307.07868.json",
+    "total_tokens": 521,
+    "translated_title": "利用情感分析辅助的各种LSTM模型对比股票价格预测模型的效率",
+    "translated_abstract": "我们的研究旨在找到一个最佳模型，利用公司的预测和行业表现，然后根据给定公司的情况，正确预测股票价格的短期和长期目标。",
+    "tldr": "通过对比不同类型的LSTM模型和情感分析的效果，我们的研究寻求寻找最佳模型，以利用公司的预测和行业表现来正确预测股票价格的短期和长期目标。",
+    "en_tdlr": "Our research aims to find the best model that uses companies projections and sector performances to correctly predict equity share prices for both short and long term goals, by contrasting the efficiency of various types of LSTM models aided with sentiment analysis."
+}

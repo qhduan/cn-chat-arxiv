@@ -1,0 +1,11 @@
+{
+    "title": "Graph Automorphism Group Equivariant Neural Networks. (arXiv:2307.07810v1 [cs.LG])",
+    "abstract": "For any graph $G$ having $n$ vertices and its automorphism group $\\textrm{Aut}(G)$, we provide a full characterisation of all of the possible $\\textrm{Aut}(G)$-equivariant neural networks whose layers are some tensor power of $\\mathbb{R}^{n}$. In particular, we find a spanning set of matrices for the learnable, linear, $\\textrm{Aut}(G)$-equivariant layer functions between such tensor power spaces in the standard basis of $\\mathbb{R}^{n}$.",
+    "link": "http://arxiv.org/abs/2307.07810",
+    "context": "Title: Graph Automorphism Group Equivariant Neural Networks. (arXiv:2307.07810v1 [cs.LG])\nAbstract: For any graph $G$ having $n$ vertices and its automorphism group $\\textrm{Aut}(G)$, we provide a full characterisation of all of the possible $\\textrm{Aut}(G)$-equivariant neural networks whose layers are some tensor power of $\\mathbb{R}^{n}$. In particular, we find a spanning set of matrices for the learnable, linear, $\\textrm{Aut}(G)$-equivariant layer functions between such tensor power spaces in the standard basis of $\\mathbb{R}^{n}$.",
+    "path": "papers/23/07/2307.07810.json",
+    "total_tokens": 598,
+    "translated_title": "图自同态群等变神经网络",
+    "translated_abstract": "对于任何具有n个顶点和其自同态群Aut(G)的图G，我们提供了所有可能的Aut(G)-等变神经网络的完整特征化，其层是n维实数张量的某些张量幂次。特别地，我们在n维实数空间的标准基下找到了可学习的、线性的Aut(G)-等变层函数之间的矩阵的生成集。",
+    "tldr": "本论文提供了图自同态群等变神经网络的完整特征化，找到了可学习的、线性的层函数之间的矩阵的生成集。"
+}

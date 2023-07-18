@@ -1,0 +1,12 @@
+{
+    "title": "Persuasion as Transportation. (arXiv:2307.07672v1 [econ.TH])",
+    "abstract": "We consider a model of Bayesian persuasion with one informed sender and several uninformed receivers. The sender can affect receivers' beliefs via private signals, and the sender's objective depends on the combination of induced beliefs.  We reduce the persuasion problem to the Monge-Kantorovich problem of optimal transportation. Using insights from optimal transportation theory, we identify several classes of multi-receiver problems that admit explicit solutions, get general structural results, derive a dual representation for the value, and generalize the celebrated concavification formula for the value to multi-receiver problems.",
+    "link": "http://arxiv.org/abs/2307.07672",
+    "context": "Title: Persuasion as Transportation. (arXiv:2307.07672v1 [econ.TH])\nAbstract: We consider a model of Bayesian persuasion with one informed sender and several uninformed receivers. The sender can affect receivers' beliefs via private signals, and the sender's objective depends on the combination of induced beliefs.  We reduce the persuasion problem to the Monge-Kantorovich problem of optimal transportation. Using insights from optimal transportation theory, we identify several classes of multi-receiver problems that admit explicit solutions, get general structural results, derive a dual representation for the value, and generalize the celebrated concavification formula for the value to multi-receiver problems.",
+    "path": "papers/23/07/2307.07672.json",
+    "total_tokens": 681,
+    "translated_title": "说服作为交通工具",
+    "translated_abstract": "我们考虑了一个贝叶斯说服模型，其中有一个知情的发送方和几个不知情的接收方。发送方可以通过私人信号影响接收方的信念，而发送方的目标取决于诱导信念的组合。我们将说服问题归约为最优运输的Monge-Kantorovich问题。借助最优运输理论的洞见，我们确定了几类多接收方问题的显式解集，得到了一般的结构性结果，导出了价值的对偶表示，并将著名的凹化公式推广到多接收方问题上。",
+    "tldr": "本研究通过将说服问题归约为最优运输的Monge-Kantorovich问题，揭示了贝叶斯说服模型中多接收方问题的显式解集和结构性结果，并推广了价值的对偶表示和凹化公式。",
+    "en_tdlr": "This research reduces the problem of persuasion to the Monge-Kantorovich problem of optimal transportation, and provides explicit solutions and structural results for multi-receiver problems in Bayesian persuasion models. It also generalizes the dual representation and concavification formula for the value."
+}

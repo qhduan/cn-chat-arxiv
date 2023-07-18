@@ -1,0 +1,12 @@
+{
+    "title": "Shannon entropy to quantify complexity in the financial market. (arXiv:2307.08666v1 [q-fin.ST])",
+    "abstract": "In this paper we study the complexity in the information traffic that occurs in the peruvian financial market, using the Shannon entropy. Different series of prices of shares traded on the Lima stock exchange are used to reconstruct the unknown dynamics. We present numerical simulations on the reconstructed dynamics and we calculate the Shannon entropy to measure its complexity",
+    "link": "http://arxiv.org/abs/2307.08666",
+    "context": "Title: Shannon entropy to quantify complexity in the financial market. (arXiv:2307.08666v1 [q-fin.ST])\nAbstract: In this paper we study the complexity in the information traffic that occurs in the peruvian financial market, using the Shannon entropy. Different series of prices of shares traded on the Lima stock exchange are used to reconstruct the unknown dynamics. We present numerical simulations on the reconstructed dynamics and we calculate the Shannon entropy to measure its complexity",
+    "path": "papers/23/07/2307.08666.json",
+    "total_tokens": 526,
+    "translated_title": "使用Shannon熵量化金融市场中的复杂性",
+    "translated_abstract": "本文研究了秘鲁金融市场中发生的信息流量的复杂性，使用了Shannon熵。我们使用在利马股票交易所交易的股票价格序列重构了未知的动力学。我们对重构的动力学进行了数值模拟，并计算了Shannon熵来衡量其复杂性。",
+    "tldr": "本文使用Shannon熵量化金融市场中的复杂性，并对秘鲁金融市场的信息流量进行了研究和数值模拟。",
+    "en_tdlr": "This paper quantifies the complexity in the financial market using Shannon entropy and investigates the information traffic in the Peruvian financial market through numerical simulations."
+}

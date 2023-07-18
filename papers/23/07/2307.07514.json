@@ -1,0 +1,12 @@
+{
+    "title": "Explainability is NOT a Game. (arXiv:2307.07514v1 [cs.AI])",
+    "abstract": "Explainable artificial intelligence (XAI) aims to help human decision-makers in understanding complex machine learning (ML) models. One of the hallmarks of XAI are measures of relative feature importance, which are theoretically justified through the use of Shapley values. This paper builds on recent work and offers a simple argument for why Shapley values can provide misleading measures of relative feature importance, by assigning more importance to features that are irrelevant for a prediction, and assigning less importance to features that are relevant for a prediction. The significance of these results is that they effectively challenge the many proposed uses of measures of relative feature importance in a fast-growing range of high-stakes application domains.",
+    "link": "http://arxiv.org/abs/2307.07514",
+    "context": "Title: Explainability is NOT a Game. (arXiv:2307.07514v1 [cs.AI])\nAbstract: Explainable artificial intelligence (XAI) aims to help human decision-makers in understanding complex machine learning (ML) models. One of the hallmarks of XAI are measures of relative feature importance, which are theoretically justified through the use of Shapley values. This paper builds on recent work and offers a simple argument for why Shapley values can provide misleading measures of relative feature importance, by assigning more importance to features that are irrelevant for a prediction, and assigning less importance to features that are relevant for a prediction. The significance of these results is that they effectively challenge the many proposed uses of measures of relative feature importance in a fast-growing range of high-stakes application domains.",
+    "path": "papers/23/07/2307.07514.json",
+    "total_tokens": 694,
+    "translated_title": "解释性不是游戏。(arXiv:2307.07514v1 [cs.AI])",
+    "translated_abstract": "可解释性人工智能（XAI）旨在帮助人类决策者理解复杂的机器学习（ML）模型。XAI的一个重要特征是通过使用Shapley值来理论上证明相对特征重要性的度量。本文在最近的研究基础上，提出一个简单的论证，说明Shapley值可能会给相对特征重要性提供误导，使其为预测中无关的特征分配更高的重要性，而对与预测有关的特征分配较低的重要性。这些结果的意义在于它们有效地挑战了相对特征重要性的多种提议用法，这些用法正在高风险应用领域快速增长。",
+    "tldr": "Shapley values may provide misleading measures of relative feature importance in XAI, challenging their proposed uses in high-stakes application domains.",
+    "en_tdlr": "Shapley values may provide misleading measures of relative feature importance in XAI, challenging their proposed uses in high-stakes application domains."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "PatchSorter: A High Throughput Deep Learning Digital Pathology Tool for Object Labeling. (arXiv:2307.07528v1 [q-bio.QM])",
+    "abstract": "The discovery of patterns associated with diagnosis, prognosis, and therapy response in digital pathology images often requires intractable labeling of large quantities of histological objects. Here we release an open-source labeling tool, PatchSorter, which integrates deep learning with an intuitive web interface. Using >100,000 objects, we demonstrate a >7x improvement in labels per second over unaided labeling, with minimal impact on labeling accuracy, thus enabling high-throughput labeling of large datasets.",
+    "link": "http://arxiv.org/abs/2307.07528",
+    "context": "Title: PatchSorter: A High Throughput Deep Learning Digital Pathology Tool for Object Labeling. (arXiv:2307.07528v1 [q-bio.QM])\nAbstract: The discovery of patterns associated with diagnosis, prognosis, and therapy response in digital pathology images often requires intractable labeling of large quantities of histological objects. Here we release an open-source labeling tool, PatchSorter, which integrates deep learning with an intuitive web interface. Using >100,000 objects, we demonstrate a >7x improvement in labels per second over unaided labeling, with minimal impact on labeling accuracy, thus enabling high-throughput labeling of large datasets.",
+    "path": "papers/23/07/2307.07528.json",
+    "total_tokens": 695,
+    "translated_title": "PatchSorter: 一种用于对象标注的高吞吐量深度学习数字病理学工具",
+    "translated_abstract": "数字病理学图像中与诊断、预后和治疗反应相关的模式的发现通常需要标注大量组织学对象。本文介绍了一个开源标注工具 PatchSorter，它将深度学习与直观的网络界面相结合。通过使用超过100,000个对象，我们展示了相较于无辅助标注，每秒标签数提高超过7倍，对标注准确性的影响非常小，从而实现了对大型数据集的高吞吐量标注。",
+    "tldr": "PatchSorter是一个开源的标注工具，利用深度学习和直观的网络界面，能够实现对大型数据集的高吞吐量标注，相较于无辅助标注，每秒标签数提高超过7倍，对标注准确性的影响非常小。",
+    "en_tdlr": "PatchSorter is an open-source labeling tool that integrates deep learning with an intuitive web interface, enabling high-throughput labeling of large datasets. It achieves over 7x improvement in labels per second compared to unaided labeling, with minimal impact on labeling accuracy."
+}
